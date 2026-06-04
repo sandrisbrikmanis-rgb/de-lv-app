@@ -468,6 +468,48 @@
         overflow-wrap: anywhere;
         line-height: 1.12;
       }
+
+      #groupButtons button:last-child {
+        font-size: 0;
+      }
+
+      #groupButtons button:last-child::after {
+        content: "[Darb.vārdi]";
+        font-size: 14px;
+        line-height: 1.12;
+      }
+
+      #groupButtons {
+        grid-template-columns: 0.85fr 0.85fr 0.85fr 1.25fr;
+        gap: 5px;
+      }
+
+      #groupButtons button:nth-child(1) { order: 1; }
+      #groupButtons button:nth-child(2) { order: 2; }
+      #groupButtons button:nth-child(3) { order: 3; }
+      #groupButtons button:nth-child(7) { order: 4; }
+      #groupButtons button:nth-child(4) { order: 5; }
+      #groupButtons button:nth-child(5) { order: 6; }
+      #groupButtons button:nth-child(6) { order: 7; }
+      #groupButtons button:nth-child(8) { order: 8; }
+
+      #groupButtons button:nth-child(-n + 6) {
+        padding-inline: 3px;
+        font-size: 13px;
+      }
+
+      #groupButtons button:nth-child(7),
+      #groupButtons button:nth-child(8) {
+        padding-inline: 4px;
+        font-size: 13px;
+        overflow-wrap: normal;
+        word-break: keep-all;
+      }
+
+      #groupButtons button:last-child::after {
+        font-size: 13px;
+        white-space: normal;
+      }
     }
   </style>
 </head>
