@@ -967,6 +967,47 @@
         display: none;
       }
     }
+
+    .extra-options-toggle {
+      display: none;
+    }
+
+    .mobile-extra-options {
+      display: contents;
+    }
+
+    @media (max-width: 768px) {
+      .action-buttons {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+        min-width: 0;
+      }
+
+      .action-buttons > button,
+      .mobile-extra-options > button {
+        width: 100%;
+        min-width: 0;
+        margin: 0;
+      }
+
+      .extra-options-toggle {
+        display: block;
+        grid-column: 1 / -1;
+      }
+
+      .mobile-extra-options {
+        grid-column: 1 / -1;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+        min-width: 0;
+      }
+
+      .mobile-extra-options[hidden] {
+        display: none;
+      }
+    }
   </style>
 </head>
 <body>
@@ -1036,15 +1077,18 @@
           <button id="verbRandomBtn" type="button" hidden style="display: none;">Jaukt darbības vārdus</button>
           <button id="spellingModeBtn" type="button">Pareizrakstība</button>
           <button id="directionBtn" type="button">[Vācu → latviešu]</button>
-          <button id="reviewBtn" type="button">Pārskatīt zināmos</button>
-          <button id="reviewLastSessionBtn" type="button">Pārskatīt pēdējo sesiju</button>
-          <button id="archiveLastSessionBtn" type="button">Atzīmēt sesiju kā iemācītu</button>
-          <button id="problemWordsBtn" type="button">Problemātiskie vārdi</button>
-          <button id="allProblemWordsBtn" type="button">Visi problemātiskie</button>
-          <button id="weeklyReviewBtn" type="button">Nedēļas pārskats</button>
-          <button id="monthlyReviewBtn" type="button">Mēneša pārskats</button>
-          <button id="restoreBtn" type="button">Atgriezt visus</button>
-          <button id="restoreCurrentBtn" type="button">Atgriezt</button>
+          <button class="extra-options-toggle" id="extraOptionsBtn" type="button" aria-expanded="false">Papildu opcijas ▼</button>
+          <div class="mobile-extra-options" id="extraOptions" hidden>
+            <button id="reviewBtn" type="button">Pārskatīt zināmos</button>
+            <button id="reviewLastSessionBtn" type="button">Pārskatīt pēdējo sesiju</button>
+            <button id="archiveLastSessionBtn" type="button">Atzīmēt sesiju kā iemācītu</button>
+            <button id="problemWordsBtn" type="button">Problemātiskie vārdi</button>
+            <button id="allProblemWordsBtn" type="button">Visi problemātiskie</button>
+            <button id="weeklyReviewBtn" type="button">Nedēļas pārskats</button>
+            <button id="monthlyReviewBtn" type="button">Mēneša pārskats</button>
+            <button id="restoreBtn" type="button">Atgriezt visus</button>
+            <button id="restoreCurrentBtn" type="button">Atgriezt</button>
+          </div>
         </div>
         <div class="notice" id="notice" aria-live="polite"></div>
       </div>
@@ -16862,6 +16906,8 @@
       checkSpellingBtn: document.getElementById("checkSpellingBtn"),
       spellingResult: document.getElementById("spellingResult"),
       directionBtn: document.getElementById("directionBtn"),
+      extraOptionsBtn: document.getElementById("extraOptionsBtn"),
+      extraOptions: document.getElementById("extraOptions"),
       reviewBtn: document.getElementById("reviewBtn"),
       reviewLastSessionBtn: document.getElementById("reviewLastSessionBtn"),
       archiveLastSessionBtn: document.getElementById("archiveLastSessionBtn"),
@@ -18712,6 +18758,12 @@
       }
     });
     elements.directionBtn.addEventListener("click", toggleDirection);
+    elements.extraOptionsBtn.addEventListener("click", () => {
+      const opening = elements.extraOptions.hidden;
+      elements.extraOptions.hidden = !opening;
+      elements.extraOptionsBtn.setAttribute("aria-expanded", opening ? "true" : "false");
+      elements.extraOptionsBtn.textContent = opening ? "Papildu opcijas ▲" : "Papildu opcijas ▼";
+    });
     elements.reviewBtn.addEventListener("click", reviewKnown);
     elements.reviewLastSessionBtn.addEventListener("click", reviewLastSession);
     elements.archiveLastSessionBtn.addEventListener("click", archiveLastSession);
