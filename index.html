@@ -80,6 +80,17 @@
       gap: 10px;
     }
 
+    #groupButtons {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    #groupButtons button {
+      width: 100%;
+      min-width: 0;
+      white-space: normal;
+    }
+
     button {
       border: 1px solid var(--line);
       border-radius: 7px;
@@ -286,6 +297,12 @@
       .card {
         min-height: 330px;
         padding: 18px;
+      }
+    }
+
+    @media (max-width: 360px) {
+      #groupButtons {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
       }
     }
   </style>
@@ -17680,21 +17697,24 @@
 
     function renderGroupButtons() {
       elements.groupButtons.innerHTML = "";
-      for (const group of groups) {
+      const displayOrder = ["A1", "A2", "B1", "Sätze", "B2", "C1", "C2", "verbs"];
+
+      for (const group of displayOrder) {
         const button = document.createElement("button");
         button.type = "button";
-        button.textContent = `[${groupDisplayLabel(group)}]`;
-        button.className = !state.verbMode && group === state.group ? "group-btn active" : "group-btn";
-        button.addEventListener("click", () => selectGroup(group));
+
+        if (group === "verbs") {
+          button.textContent = "[Darbības vārdi]";
+          button.className = state.verbMode ? "group-btn active" : "group-btn";
+          button.addEventListener("click", selectVerbs);
+        } else {
+          button.textContent = `[${groupDisplayLabel(group)}]`;
+          button.className = !state.verbMode && group === state.group ? "group-btn active" : "group-btn";
+          button.addEventListener("click", () => selectGroup(group));
+        }
+
         elements.groupButtons.appendChild(button);
       }
-
-      const verbsButton = document.createElement("button");
-      verbsButton.type = "button";
-      verbsButton.textContent = "[Darbības vārdi]";
-      verbsButton.className = state.verbMode ? "group-btn active" : "group-btn";
-      verbsButton.addEventListener("click", selectVerbs);
-      elements.groupButtons.appendChild(verbsButton);
     }
 
     function selectMode(mode) {
