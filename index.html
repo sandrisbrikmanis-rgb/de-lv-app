@@ -531,6 +531,163 @@
       }
     }
 
+    .pamati-overlay {
+      position: fixed;
+      inset: 0;
+      z-index: 1000;
+      padding: 20px;
+      display: grid;
+      place-items: center;
+      background: rgba(7, 10, 15, 0.72);
+    }
+
+    .pamati-overlay[hidden] {
+      display: none;
+    }
+
+    .pamati-panel {
+      width: min(860px, 100%);
+      max-height: calc(100vh - 40px);
+      overflow: auto;
+      border: 1px solid #344150;
+      border-radius: 10px;
+      background: #f5f7fb;
+      box-shadow: 0 24px 70px rgba(0, 0, 0, 0.35);
+    }
+
+    .pamati-header {
+      padding: 14px 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      background: #151a21;
+      color: #ffffff;
+    }
+
+    .pamati-header h2 {
+      margin: 0;
+      font-size: 1.25rem;
+    }
+
+    .pamati-close,
+    .pamati-arrow {
+      min-width: 44px;
+      min-height: 44px;
+      padding: 6px;
+      border-color: #3b4654;
+      background: #20262e;
+      color: #ffffff;
+      font-size: 1.35rem;
+    }
+
+    .pamati-stage {
+      position: relative;
+      min-height: 360px;
+      padding: 44px 78px 34px;
+      display: grid;
+      place-items: center;
+      overflow: hidden;
+    }
+
+    .pamati-content {
+      width: min(620px, 100%);
+      color: #18202c;
+      text-align: center;
+    }
+
+    .pamati-content h3 {
+      margin: 0 0 20px;
+      font-size: 1.45rem;
+    }
+
+    .pamati-content table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 1rem;
+    }
+
+    .pamati-content th,
+    .pamati-content td {
+      padding: 7px 10px;
+      border-bottom: 1px solid #d9e0ea;
+    }
+
+    .pamati-content th {
+      color: #29364a;
+    }
+
+    .pamati-arrow {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 1;
+      border-radius: 7px;
+    }
+
+    .pamati-arrow:hover {
+      transform: translateY(calc(-50% - 1px));
+    }
+
+    .pamati-prev {
+      left: 22px;
+    }
+
+    .pamati-next {
+      right: 22px;
+    }
+
+    .pamati-counter {
+      position: absolute;
+      top: 14px;
+      right: 18px;
+      color: #303847;
+      font-weight: 700;
+    }
+
+    @media (max-width: 600px) {
+      .pamati-overlay {
+        padding: 8px;
+      }
+
+      .pamati-panel {
+        max-height: calc(100vh - 16px);
+      }
+
+      .pamati-stage {
+        min-height: 390px;
+        padding: 48px 48px 24px;
+      }
+
+      .pamati-content h3 {
+        font-size: 1.1rem;
+      }
+
+      .pamati-content table {
+        font-size: 0.78rem;
+      }
+
+      .pamati-content th,
+      .pamati-content td {
+        padding: 6px 3px;
+      }
+
+      .pamati-arrow {
+        min-width: 40px;
+        width: 40px;
+        min-height: 48px;
+        padding: 4px;
+      }
+
+      .pamati-prev {
+        left: 4px;
+      }
+
+      .pamati-next {
+        right: 4px;
+      }
+    }
     /* Responsive topbar split */
     @media (max-width: 768px) {
       body {
@@ -802,6 +959,20 @@
         </div>
       </div>
 
+      <section class="pamati-overlay" id="pamatiPanel" hidden aria-label="Pamati" aria-modal="true" role="dialog">
+        <div class="pamati-panel">
+          <div class="pamati-header">
+            <h2>Pamati</h2>
+            <button class="pamati-close" id="pamatiCloseBtn" type="button" aria-label="Aizvērt Pamati">×</button>
+          </div>
+          <div class="pamati-stage">
+            <button class="pamati-arrow pamati-prev" id="pamatiPrevBtn" type="button" aria-label="Iepriekšējā Pamatu kartīte">←</button>
+            <div class="pamati-counter" id="pamatiCounter">1 / 3</div>
+            <div class="pamati-content" id="pamatiContent"></div>
+            <button class="pamati-arrow pamati-next" id="pamatiNextBtn" type="button" aria-label="Nākamā Pamatu kartīte">→</button>
+          </div>
+        </div>
+      </section>
       <article class="card">
         <div class="card-inner">
           <div class="badge" id="cardLevel">A1</div>
@@ -16661,9 +16832,53 @@
       weeklyReviewBtn: document.getElementById("weeklyReviewBtn"),
       monthlyReviewBtn: document.getElementById("monthlyReviewBtn"),
       restoreBtn: document.getElementById("restoreBtn"),
-      restoreCurrentBtn: document.getElementById("restoreCurrentBtn")
+      restoreCurrentBtn: document.getElementById("restoreCurrentBtn"),
+      pamatiBtn: document.getElementById("pamatiBtn"),
+      pamatiPanel: document.getElementById("pamatiPanel"),
+      pamatiCloseBtn: document.getElementById("pamatiCloseBtn"),
+      pamatiPrevBtn: document.getElementById("pamatiPrevBtn"),
+      pamatiNextBtn: document.getElementById("pamatiNextBtn"),
+      pamatiCounter: document.getElementById("pamatiCounter"),
+      pamatiContent: document.getElementById("pamatiContent")
     };
 
+    const pamatiSlides = [
+      `<h3>Noteiktie artikuli</h3><table><tbody><tr><th>der</th><td>vīriešu dzimte</td><td>der Mann</td></tr><tr><th>die</th><td>sieviešu dzimte</td><td>die Frau</td></tr><tr><th>das</th><td>nekatrā dzimte</td><td>das Kind</td></tr><tr><th>die</th><td>daudzskaitlis</td><td>die Kinder</td></tr></tbody></table>`,
+      `<h3>Vienkārša teikuma secība</h3><table><tbody><tr><th>1. vieta</th><th>2. vieta</th><th>Pārējais</th></tr><tr><td>Ich</td><td>lerne</td><td>Deutsch.</td></tr><tr><td>Heute</td><td>lerne</td><td>ich Deutsch.</td></tr><tr><td>Wir</td><td>kommen</td><td>morgen.</td></tr></tbody></table>`,
+      `<h3>kommen</h3><table><tbody><tr><th>Ich</th><td>es</td><td>komme</td><td>nāku</td></tr><tr><th>Du</th><td>tu</td><td>kommst</td><td>nāc</td></tr><tr><th>Er</th><td>viņš</td><td>kommt</td><td>nāk</td></tr><tr><th>Sie</th><td>viņa</td><td>kommt</td><td>nāk</td></tr><tr><th>Es</th><td>tas</td><td>kommt</td><td>nāk</td></tr><tr><th>Wir</th><td>mēs</td><td>kommen</td><td>nākam</td></tr><tr><th>Ihr</th><td>jūs</td><td>kommt</td><td>nākat</td></tr><tr><th>Sie</th><td>viņi</td><td>kommen</td><td>nāk</td></tr><tr><th>Sie</th><td>Jūs</td><td>kommen</td><td>nākat</td></tr></tbody></table>`,
+      `<h3>gehen</h3><table><tbody><tr><th>Ich</th><td>es</td><td>gehe</td><td>eju</td></tr><tr><th>Du</th><td>tu</td><td>gehst</td><td>ej</td></tr><tr><th>Er</th><td>viņš</td><td>geht</td><td>iet</td></tr><tr><th>Sie</th><td>viņa</td><td>geht</td><td>iet</td></tr><tr><th>Es</th><td>tas</td><td>geht</td><td>iet</td></tr><tr><th>Wir</th><td>mēs</td><td>gehen</td><td>ejam</td></tr><tr><th>Ihr</th><td>jūs</td><td>geht</td><td>ejat</td></tr><tr><th>Sie</th><td>viņi</td><td>gehen</td><td>iet</td></tr><tr><th>Sie</th><td>Jūs</td><td>gehen</td><td>ejat</td></tr></tbody></table>`,
+      `<h3>stehen</h3><table><tbody><tr><th>Ich</th><td>es</td><td>stehe</td><td>stāvu</td></tr><tr><th>Du</th><td>tu</td><td>stehst</td><td>stāvi</td></tr><tr><th>Er</th><td>viņš</td><td>steht</td><td>stāv</td></tr><tr><th>Sie</th><td>viņa</td><td>steht</td><td>stāv</td></tr><tr><th>Es</th><td>tas</td><td>steht</td><td>stāv</td></tr><tr><th>Wir</th><td>mēs</td><td>stehen</td><td>stāvam</td></tr><tr><th>Ihr</th><td>jūs</td><td>steht</td><td>stāvat</td></tr><tr><th>Sie</th><td>viņi</td><td>stehen</td><td>stāv</td></tr><tr><th>Sie</th><td>Jūs</td><td>stehen</td><td>stāvat</td></tr></tbody></table>`,
+      `<h3>singen</h3><table><tbody><tr><th>Ich</th><td>es</td><td>singe</td><td>dziedu</td></tr><tr><th>Du</th><td>tu</td><td>singst</td><td>dziedi</td></tr><tr><th>Er</th><td>viņš</td><td>singt</td><td>dzied</td></tr><tr><th>Sie</th><td>viņa</td><td>singt</td><td>dzied</td></tr><tr><th>Es</th><td>tas</td><td>singt</td><td>dzied</td></tr><tr><th>Wir</th><td>mēs</td><td>singen</td><td>dziedam</td></tr><tr><th>Ihr</th><td>jūs</td><td>singt</td><td>dziedat</td></tr><tr><th>Sie</th><td>viņi</td><td>singen</td><td>dzied</td></tr><tr><th>Sie</th><td>Jūs</td><td>singen</td><td>dziedat</td></tr></tbody></table>`,
+      `<h3>arbeiten</h3><table><tbody><tr><th>Ich</th><td>es</td><td>arbeite</td><td>strādāju</td></tr><tr><th>Du</th><td>tu</td><td>arbeitest</td><td>strādā</td></tr><tr><th>Er</th><td>viņš</td><td>arbeitet</td><td>strādā</td></tr><tr><th>Sie</th><td>viņa</td><td>arbeitet</td><td>strādā</td></tr><tr><th>Es</th><td>tas</td><td>arbeitet</td><td>strādā</td></tr><tr><th>Wir</th><td>mēs</td><td>arbeiten</td><td>strādājam</td></tr><tr><th>Ihr</th><td>jūs</td><td>arbeitet</td><td>strādājat</td></tr><tr><th>Sie</th><td>viņi</td><td>arbeiten</td><td>strādā</td></tr><tr><th>Sie</th><td>Jūs</td><td>arbeiten</td><td>strādājat</td></tr></tbody></table>`,
+      `<h3>rechnen</h3><table><tbody><tr><th>Ich</th><td>es</td><td>rechne</td><td>rēķinu</td></tr><tr><th>Du</th><td>tu</td><td>rechnest</td><td>rēķini</td></tr><tr><th>Er</th><td>viņš</td><td>rechnet</td><td>rēķina</td></tr><tr><th>Sie</th><td>viņa</td><td>rechnet</td><td>rēķina</td></tr><tr><th>Es</th><td>tas</td><td>rechnet</td><td>rēķina</td></tr><tr><th>Wir</th><td>mēs</td><td>rechnen</td><td>rēķinām</td></tr><tr><th>Ihr</th><td>jūs</td><td>rechnet</td><td>rēķināt</td></tr><tr><th>Sie</th><td>viņi</td><td>rechnen</td><td>rēķina</td></tr><tr><th>Sie</th><td>Jūs</td><td>rechnen</td><td>rēķināt</td></tr></tbody></table>`,
+      `<h3>tun</h3><table><tbody><tr><th>Ich</th><td>es</td><td>tue</td><td>daru</td></tr><tr><th>Du</th><td>tu</td><td>tust</td><td>dari</td></tr><tr><th>Er</th><td>viņš</td><td>tut</td><td>dara</td></tr><tr><th>Sie</th><td>viņa</td><td>tut</td><td>dara</td></tr><tr><th>Es</th><td>tas</td><td>tut</td><td>dara</td></tr><tr><th>Wir</th><td>mēs</td><td>tun</td><td>darām</td></tr><tr><th>Ihr</th><td>jūs</td><td>tut</td><td>darāt</td></tr><tr><th>Sie</th><td>viņi</td><td>tun</td><td>dara</td></tr><tr><th>Sie</th><td>Jūs</td><td>tun</td><td>darāt</td></tr></tbody></table>`
+    ];
+    let pamatiIndex = 0;
+
+    function renderPamati() {
+      elements.pamatiContent.innerHTML = pamatiSlides[pamatiIndex];
+      elements.pamatiCounter.textContent = `${pamatiIndex + 1} / ${pamatiSlides.length}`;
+    }
+
+    function openPamati() {
+      pamatiIndex = 0;
+      renderPamati();
+      elements.pamatiPanel.hidden = false;
+    }
+
+    function closePamati() {
+      elements.pamatiPanel.hidden = true;
+    }
+
+    function previousPamati() {
+      pamatiIndex = (pamatiIndex - 1 + pamatiSlides.length) % pamatiSlides.length;
+      renderPamati();
+    }
+
+    function nextPamati() {
+      pamatiIndex = (pamatiIndex + 1) % pamatiSlides.length;
+      renderPamati();
+    }
     function loadDirection() {
       const saved = store.getItem(directionStorageKey);
       return saved === "lv-de" ? "lv-de" : "de-lv";
@@ -18431,6 +18646,13 @@
         : "Klikšķini uz kartītes, lai redzētu tulkojumu.";
     }
 
+    elements.pamatiBtn.addEventListener("click", openPamati);
+    elements.pamatiCloseBtn.addEventListener("click", closePamati);
+    elements.pamatiPrevBtn.addEventListener("click", previousPamati);
+    elements.pamatiNextBtn.addEventListener("click", nextPamati);
+    elements.pamatiPanel.addEventListener("click", (event) => {
+      if (event.target === elements.pamatiPanel) closePamati();
+    });
     document.querySelector(".card").addEventListener("click", revealCard);
     elements.knownBtn.addEventListener("click", markKnown);
     elements.unknownBtn.addEventListener("click", markUnknown);
