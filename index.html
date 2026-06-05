@@ -402,6 +402,77 @@
     }
 
 
+
+    /* Mobile-only verb layout */
+    @media (max-width: 600px) {
+      body {
+        overflow-x: hidden;
+      }
+
+      .verb-headings {
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 6px;
+        overflow-x: hidden;
+        box-sizing: border-box;
+      }
+
+      .verb-headings span {
+        flex: 1 1 calc(50% - 6px);
+        min-width: 0;
+        max-width: 100%;
+        min-height: 36px;
+        padding: 6px 4px;
+        font-size: 11px;
+        line-height: 1.15;
+        white-space: normal;
+        overflow-wrap: anywhere;
+        word-break: break-word;
+        box-sizing: border-box;
+      }
+
+      .card:has(.verb-headings),
+      .card:has(.verb-headings) .card-inner {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        overflow: hidden;
+        box-sizing: border-box;
+      }
+
+      .card:has(.verb-headings) .word {
+        max-width: 100%;
+        font-size: clamp(28px, 9vw, 44px);
+        line-height: 1.1;
+        white-space: normal;
+        overflow-wrap: anywhere;
+        word-break: break-word;
+        text-align: center;
+      }
+
+      .card:has(.verb-headings) .translation,
+      .card:has(.verb-headings) .hint {
+        max-width: 100%;
+        min-width: 0;
+        white-space: normal;
+        overflow-wrap: anywhere;
+        word-break: break-word;
+        text-align: center;
+      }
+
+      .card:has(.verb-headings) .translation {
+        font-size: clamp(17px, 5vw, 24px);
+        line-height: 1.25;
+      }
+
+      .card:has(.verb-headings) .hint {
+        font-size: 13px;
+        line-height: 1.3;
+      }
+    }
   </style>
 </head>
 <body>
