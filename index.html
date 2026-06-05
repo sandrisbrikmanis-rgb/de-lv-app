@@ -56,21 +56,22 @@
     }
 
     .topbar {
-      padding: 18px;
+      padding: 14px;
       display: grid;
-      gap: 16px;
+      gap: 10px;
+      min-width: 0;
     }
 
     h1 {
       margin: 0;
-      font-size: clamp(1.45rem, 4vw, 2.25rem);
+      font-size: clamp(1.4rem, 3.5vw, 2rem);
       line-height: 1.1;
     }
 
     .subtitle {
-      margin: 6px 0 0;
+      margin: 4px 0 0;
       color: var(--muted);
-      font-size: 0.98rem;
+      font-size: 0.9rem;
     }
 
     .group-buttons,
@@ -80,15 +81,34 @@
       gap: 10px;
     }
 
-    #groupButtons {
+    #groupButtons,
+    #modeButtons {
       display: grid;
+      min-width: 0;
+      gap: 6px;
+    }
+
+    #groupButtons {
       grid-template-columns: repeat(4, minmax(0, 1fr));
     }
 
-    #groupButtons button {
+    #modeButtons {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    #groupButtons button,
+    #modeButtons button {
       width: 100%;
       min-width: 0;
-      white-space: normal;
+      min-height: 36px;
+      padding: 6px 5px;
+      font-size: 0.82rem;
+      line-height: 1.1;
+      white-space: nowrap;
+    }
+
+    #groupButtons button:nth-child(8) {
+      font-size: 0.75rem;
     }
 
     button {
@@ -140,28 +160,55 @@
     .stats {
       display: grid;
       grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 10px;
+      gap: 6px;
     }
 
     .stat {
+      min-width: 0;
       background: var(--soft);
       border: 1px solid #d6e5ff;
       border-radius: 7px;
-      padding: 12px;
+      padding: 7px 9px;
+      display: flex;
+      align-items: center;
+      gap: 7px;
     }
 
-    .stat span {
-      display: block;
-      color: var(--muted);
+    .stat-icon {
+      flex: 0 0 auto;
+      display: grid;
+      place-items: center;
+      width: 22px;
+      height: 22px;
+      border-radius: 5px;
+      background: #dbe9ff;
+      color: var(--primary);
       font-size: 0.78rem;
+      font-weight: 800;
+    }
+
+    .stat-line {
+      min-width: 0;
+      display: flex;
+      align-items: baseline;
+      gap: 4px;
+      white-space: nowrap;
+    }
+
+    .stat-label,
+    .stat-separator {
+      color: var(--muted);
+      font-size: 0.7rem;
       font-weight: 700;
       text-transform: uppercase;
     }
 
     .stat strong {
-      display: block;
-      margin-top: 4px;
-      font-size: 1.2rem;
+      display: inline;
+      margin: 0;
+      color: var(--ink);
+      font-size: 0.92rem;
+      line-height: 1;
     }
 
     .card {
@@ -285,8 +332,22 @@
         padding: 14px 0;
       }
 
+      .topbar {
+        padding: 10px;
+        gap: 8px;
+      }
+
+      h1 {
+        font-size: 1.35rem;
+      }
+
+      .subtitle {
+        font-size: 0.78rem;
+      }
+
       .stats {
         grid-template-columns: 1fr;
+        gap: 5px;
       }
 
       button {
@@ -294,17 +355,44 @@
         padding-inline: 10px;
       }
 
-      #groupButtons {
-        grid-template-columns: repeat(4, minmax(0, 1fr));
-        gap: 6px;
+      #groupButtons,
+      #modeButtons {
+        gap: 4px;
       }
 
-      #groupButtons button {
-        min-height: 48px;
-        padding: 8px 3px;
-        font-size: 13px;
-        line-height: 1.15;
-        overflow-wrap: anywhere;
+      #groupButtons {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+      }
+
+      #groupButtons button,
+      #modeButtons button {
+        min-height: 36px;
+        padding: 5px 2px;
+        font-size: 11px;
+        line-height: 1.1;
+      }
+
+      #groupButtons button:nth-child(8) {
+        font-size: 9px;
+      }
+
+      .stat {
+        padding: 6px 8px;
+      }
+
+      .stat-icon {
+        width: 20px;
+        height: 20px;
+        font-size: 0.7rem;
+      }
+
+      .stat-label,
+      .stat-separator {
+        font-size: 0.66rem;
+      }
+
+      .stat strong {
+        font-size: 0.84rem;
       }
 
       .card {
@@ -321,8 +409,8 @@
     <section class="app-shell" aria-label="Vācu–latviešu kartītes">
       <div class="topbar">
         <div>
-          <h1>Vācu–latviešu kartītes</h1>
-          <p class="subtitle">Deutsch und latviešu valoda pēc līmeņiem.</p>
+          <h1>Latviešu–Vācu–Latviešu</h1>
+          <p class="subtitle">Vācu un latviešu valoda pēc līmeņiem</p>
         </div>
 
         <div class="group-buttons" id="groupButtons" aria-label="Grupas"></div>
@@ -330,16 +418,16 @@
 
         <div class="stats" aria-live="polite">
           <div class="stat">
-            <span>Aktīvā grupa</span>
-            <strong id="activeGroup">A1</strong>
+            <span class="stat-icon" aria-hidden="true">◎</span>
+            <span class="stat-line"><span class="stat-label">Aktīvā grupa</span><span class="stat-separator">–</span><strong id="activeGroup">A1</strong></span>
           </div>
           <div class="stat">
-            <span>Kopā vārdu</span>
-            <strong id="totalWords">0</strong>
+            <span class="stat-icon" aria-hidden="true">Σ</span>
+            <span class="stat-line"><span class="stat-label">Kopā vārdu</span><span class="stat-separator">–</span><strong id="totalWords">0</strong></span>
           </div>
           <div class="stat">
-            <span>Iemācītie</span>
-            <strong id="learnedWords">0</strong>
+            <span class="stat-icon" aria-hidden="true">✓</span>
+            <span class="stat-line"><span class="stat-label">Iemācītie</span><span class="stat-separator">–</span><strong id="learnedWords">0</strong></span>
           </div>
         </div>
       </div>
