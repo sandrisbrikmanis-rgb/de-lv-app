@@ -56,22 +56,27 @@
     }
 
     .topbar {
-      padding: 14px;
+      padding: 20px;
       display: grid;
-      gap: 10px;
+      gap: 14px;
       min-width: 0;
+      overflow: hidden;
+      background: linear-gradient(145deg, #202120, #171918);
+      border-color: #4b504c;
+      color: #f6f8fb;
     }
 
-    h1 {
+    .topbar h1 {
       margin: 0;
-      font-size: clamp(1.4rem, 3.5vw, 2rem);
-      line-height: 1.1;
+      color: #f7f8fa;
+      font-size: clamp(1.65rem, 4vw, 2.4rem);
+      line-height: 1.08;
     }
 
-    .subtitle {
-      margin: 4px 0 0;
-      color: var(--muted);
-      font-size: 0.9rem;
+    .topbar .subtitle {
+      margin: 7px 0 0;
+      color: #aeb7c5;
+      font-size: 1rem;
     }
 
     .group-buttons,
@@ -81,34 +86,71 @@
       gap: 10px;
     }
 
-    #groupButtons,
-    #modeButtons {
-      display: grid;
-      min-width: 0;
-      gap: 6px;
-    }
-
     #groupButtons {
+      display: grid;
       grid-template-columns: repeat(4, minmax(0, 1fr));
-    }
-
-    #modeButtons {
-      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+      min-width: 0;
     }
 
     #groupButtons button,
-    #modeButtons button {
+    .mode-row button {
       width: 100%;
       min-width: 0;
-      min-height: 36px;
-      padding: 6px 5px;
-      font-size: 0.82rem;
+      min-height: 54px;
+      padding: 8px 6px;
+      border-color: #474947;
+      background: linear-gradient(145deg, #414240, #343533);
+      color: #f3f5f7;
+      font-size: 1rem;
       line-height: 1.1;
       white-space: nowrap;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.04);
+    }
+
+    #groupButtons button::before {
+      content: "[";
+    }
+
+    #groupButtons button::after {
+      content: "]";
     }
 
     #groupButtons button:nth-child(8) {
-      font-size: 0.75rem;
+      font-size: 0.9rem;
+    }
+
+    #groupButtons .group-btn.active,
+    .mode-row .group-btn.active {
+      background: linear-gradient(145deg, #075ee8, #053fae);
+      border-color: #0869f2;
+      color: #ffffff;
+    }
+
+    .mode-row {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+      min-width: 0;
+      padding: 9px;
+      border-radius: 10px;
+      background: rgba(255,255,255,0.035);
+      border: 1px solid rgba(255,255,255,0.04);
+    }
+
+    #modeButtons {
+      display: contents;
+    }
+
+    .mode-row button {
+      min-height: 50px;
+      font-size: 0.96rem;
+    }
+
+    #pamatiBtn {
+      background: linear-gradient(145deg, #8d25d4, #6620a9);
+      border-color: #8f2bd4;
+      color: #ffffff;
     }
 
     button {
@@ -159,46 +201,58 @@
 
     .stats {
       display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 6px;
+      grid-template-columns: 1fr;
+      gap: 8px;
     }
 
     .stat {
       min-width: 0;
-      background: var(--soft);
-      border: 1px solid #d6e5ff;
-      border-radius: 7px;
-      padding: 7px 9px;
+      min-height: 64px;
+      background: linear-gradient(100deg, #101a25, #101722);
+      border: 1px solid #31465d;
+      border-radius: 9px;
+      padding: 10px 12px;
       display: flex;
       align-items: center;
-      gap: 7px;
+      gap: 13px;
     }
 
     .stat-icon {
       flex: 0 0 auto;
       display: grid;
       place-items: center;
-      width: 22px;
-      height: 22px;
-      border-radius: 5px;
-      background: #dbe9ff;
-      color: var(--primary);
-      font-size: 0.78rem;
+      width: 44px;
+      height: 44px;
+      border-radius: 7px;
+      color: #ffffff;
+      font-size: 1.25rem;
       font-weight: 800;
+    }
+
+    .stat:nth-child(1) .stat-icon {
+      background: linear-gradient(145deg, #1465ef, #073db4);
+    }
+
+    .stat:nth-child(2) .stat-icon {
+      background: linear-gradient(145deg, #16b85a, #087b3c);
+    }
+
+    .stat:nth-child(3) .stat-icon {
+      background: linear-gradient(145deg, #9a2ee3, #6720ac);
     }
 
     .stat-line {
       min-width: 0;
       display: flex;
       align-items: baseline;
-      gap: 4px;
+      gap: 7px;
       white-space: nowrap;
     }
 
     .stat-label,
     .stat-separator {
-      color: var(--muted);
-      font-size: 0.7rem;
+      color: #b8c1ce;
+      font-size: 0.86rem;
       font-weight: 700;
       text-transform: uppercase;
     }
@@ -206,11 +260,10 @@
     .stat strong {
       display: inline;
       margin: 0;
-      color: var(--ink);
-      font-size: 0.92rem;
+      color: #f6f8fb;
+      font-size: 1.15rem;
       line-height: 1;
     }
-
     .card {
       min-height: 360px;
       padding: 24px;
@@ -328,71 +381,77 @@
 
     @media (max-width: 620px) {
       main {
-        width: min(100% - 20px, 980px);
-        padding: 14px 0;
+        width: min(100% - 12px, 980px);
+        padding: 8px 0;
       }
 
       .topbar {
-        padding: 10px;
-        gap: 8px;
+        padding: 12px;
+        gap: 9px;
       }
 
-      h1 {
-        font-size: 1.35rem;
+      .topbar h1 {
+        font-size: clamp(1.35rem, 7vw, 1.75rem);
       }
 
-      .subtitle {
-        font-size: 0.78rem;
-      }
-
-      .stats {
-        grid-template-columns: 1fr;
-        gap: 5px;
-      }
-
-      button {
-        flex: 1 1 calc(50% - 10px);
-        padding-inline: 10px;
+      .topbar .subtitle {
+        margin-top: 4px;
+        font-size: clamp(0.72rem, 3.5vw, 0.9rem);
       }
 
       #groupButtons,
-      #modeButtons {
+      .mode-row {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
         gap: 4px;
       }
 
-      #groupButtons {
-        grid-template-columns: repeat(4, minmax(0, 1fr));
-      }
-
       #groupButtons button,
-      #modeButtons button {
-        min-height: 36px;
+      .mode-row button {
+        min-height: 42px;
         padding: 5px 2px;
-        font-size: 11px;
-        line-height: 1.1;
+        font-size: clamp(0.63rem, 2.9vw, 0.76rem);
+        letter-spacing: 0;
       }
 
       #groupButtons button:nth-child(8) {
-        font-size: 9px;
+        font-size: clamp(0.48rem, 2.25vw, 0.62rem);
+      }
+
+      .mode-row {
+        padding: 5px;
+      }
+
+      #pamatiBtn {
+        font-size: clamp(0.62rem, 2.75vw, 0.74rem);
+      }
+
+      .stats {
+        gap: 5px;
       }
 
       .stat {
+        min-height: 49px;
         padding: 6px 8px;
+        gap: 9px;
       }
 
       .stat-icon {
-        width: 20px;
-        height: 20px;
-        font-size: 0.7rem;
+        width: 34px;
+        height: 34px;
+        font-size: 0.95rem;
+      }
+
+      .stat-line {
+        gap: 5px;
       }
 
       .stat-label,
       .stat-separator {
-        font-size: 0.66rem;
+        font-size: clamp(0.62rem, 2.7vw, 0.76rem);
       }
 
       .stat strong {
-        font-size: 0.84rem;
+        font-size: clamp(0.82rem, 3.5vw, 1rem);
       }
 
       .card {
@@ -400,8 +459,6 @@
         padding: 18px;
       }
     }
-
-
 
     /* Mobile-only verb layout */
     @media (max-width: 600px) {
@@ -473,6 +530,248 @@
         line-height: 1.3;
       }
     }
+
+    /* Responsive topbar split */
+    @media (max-width: 768px) {
+      body {
+        overflow-x: hidden;
+      }
+
+      .topbar {
+        padding: 12px;
+        gap: 9px;
+        overflow: hidden;
+        background: linear-gradient(145deg, #202120, #171918);
+        border-color: #4b504c;
+        color: #f6f8fb;
+      }
+
+      .topbar h1 {
+        color: #f7f8fa;
+        font-size: clamp(1.35rem, 7vw, 1.75rem);
+      }
+
+      .topbar .subtitle {
+        margin-top: 4px;
+        color: #aeb7c5;
+        font-size: clamp(0.72rem, 3.5vw, 0.9rem);
+      }
+
+      #groupButtons,
+      .mode-row {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 4px;
+      }
+
+      #groupButtons button,
+      .mode-row button {
+        min-height: 42px;
+        padding: 5px 2px;
+        border-color: #474947;
+        background: linear-gradient(145deg, #414240, #343533);
+        color: #f3f5f7;
+        font-size: clamp(0.63rem, 2.9vw, 0.76rem);
+        line-height: 1.1;
+        white-space: nowrap;
+      }
+
+      #groupButtons button:nth-child(8) {
+        font-size: clamp(0.48rem, 2.25vw, 0.62rem);
+      }
+
+      #groupButtons .group-btn.active,
+      .mode-row .group-btn.active {
+        background: linear-gradient(145deg, #075ee8, #053fae);
+        border-color: #0869f2;
+        color: #ffffff;
+      }
+
+      .mode-row {
+        padding: 5px;
+        border-radius: 10px;
+        background: rgba(255,255,255,0.035);
+        border: 1px solid rgba(255,255,255,0.04);
+      }
+
+      #modeButtons {
+        display: contents;
+      }
+
+      #pamatiBtn {
+        display: block;
+        background: linear-gradient(145deg, #8d25d4, #6620a9);
+        border-color: #8f2bd4;
+        color: #ffffff;
+        font-size: clamp(0.62rem, 2.75vw, 0.74rem);
+      }
+
+      .stats {
+        grid-template-columns: 1fr;
+        gap: 5px;
+      }
+
+      .stat {
+        min-height: 49px;
+        padding: 6px 8px;
+        gap: 9px;
+        background: linear-gradient(100deg, #101a25, #101722);
+        border-color: #31465d;
+      }
+
+      .stat-icon {
+        width: 34px;
+        height: 34px;
+        font-size: 0.95rem;
+        color: #ffffff;
+      }
+
+      .stat-line {
+        gap: 5px;
+      }
+
+      .stat-label,
+      .stat-separator {
+        color: #b8c1ce;
+        font-size: clamp(0.62rem, 2.7vw, 0.76rem);
+      }
+
+      .stat strong {
+        color: #f6f8fb;
+        font-size: clamp(0.82rem, 3.5vw, 1rem);
+      }
+    }
+
+    @media (min-width: 769px) {
+      .topbar {
+        padding: 18px;
+        gap: 16px;
+        overflow: visible;
+        background: var(--panel);
+        border-color: var(--line);
+        color: var(--ink);
+      }
+
+      .topbar h1 {
+        color: var(--ink);
+        font-size: clamp(1.45rem, 4vw, 2.25rem);
+      }
+
+      .topbar .subtitle {
+        margin: 6px 0 0;
+        color: var(--muted);
+        font-size: 0.98rem;
+      }
+
+      #groupButtons {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 10px;
+      }
+
+      #groupButtons button {
+        min-height: 44px;
+        padding: 10px 14px;
+        border-color: var(--line);
+        background: #ffffff;
+        color: var(--ink);
+        font-size: 1rem;
+        line-height: normal;
+        white-space: normal;
+        box-shadow: none;
+      }
+
+      #groupButtons button::before,
+      #groupButtons button::after {
+        content: none;
+      }
+
+      #groupButtons button:nth-child(8) {
+        font-size: 1rem;
+      }
+
+      #groupButtons .group-btn.active {
+        background: var(--primary);
+        border-color: var(--primary);
+        color: #ffffff;
+      }
+
+      .mode-row {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 10px;
+        padding: 0;
+        border: 0;
+        border-radius: 0;
+        background: transparent;
+      }
+
+      #modeButtons {
+        display: contents;
+      }
+
+      #modeButtons button,
+      #pamatiBtn {
+        width: 100%;
+        min-height: 44px;
+        padding: 10px 14px;
+        border-color: var(--line);
+        background: #ffffff;
+        color: var(--ink);
+        font-size: 1rem;
+        line-height: normal;
+        white-space: normal;
+        box-shadow: none;
+      }
+
+      #modeButtons .group-btn.active {
+        background: var(--primary);
+        border-color: var(--primary);
+        color: #ffffff;
+      }
+
+      #pamatiBtn {
+        display: block;
+        background: linear-gradient(145deg, #8d25d4, #6620a9);
+        border-color: #8f2bd4;
+        color: #ffffff;
+      }
+
+      .stats {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 10px;
+      }
+
+      .stat {
+        min-height: auto;
+        padding: 12px;
+        gap: 7px;
+        background: var(--soft);
+        border-color: #d6e5ff;
+      }
+
+      .stat-icon {
+        width: 22px;
+        height: 22px;
+        border-radius: 5px;
+        background: #dbe9ff !important;
+        color: var(--primary);
+        font-size: 0.78rem;
+      }
+
+      .stat-line {
+        gap: 4px;
+      }
+
+      .stat-label,
+      .stat-separator {
+        color: var(--muted);
+        font-size: 0.7rem;
+      }
+
+      .stat strong {
+        color: var(--ink);
+        font-size: 0.92rem;
+      }
+    }
   </style>
 </head>
 <body>
@@ -485,19 +784,19 @@
         </div>
 
         <div class="group-buttons" id="groupButtons" aria-label="Grupas"></div>
-        <div class="group-buttons" id="modeButtons" aria-label="Mācīšanās režīmi"></div>
+        <div class="mode-row"><div class="group-buttons" id="modeButtons" aria-label="Mācīšanās režīmi"></div><button id="pamatiBtn" type="button">📖 Pamati</button></div>
 
         <div class="stats" aria-live="polite">
           <div class="stat">
-            <span class="stat-icon" aria-hidden="true">◎</span>
+            <span class="stat-icon" aria-hidden="true">👥</span>
             <span class="stat-line"><span class="stat-label">Aktīvā grupa</span><span class="stat-separator">–</span><strong id="activeGroup">A1</strong></span>
           </div>
           <div class="stat">
-            <span class="stat-icon" aria-hidden="true">Σ</span>
+            <span class="stat-icon" aria-hidden="true">📖</span>
             <span class="stat-line"><span class="stat-label">Kopā vārdu</span><span class="stat-separator">–</span><strong id="totalWords">0</strong></span>
           </div>
           <div class="stat">
-            <span class="stat-icon" aria-hidden="true">✓</span>
+            <span class="stat-icon" aria-hidden="true">🎓</span>
             <span class="stat-line"><span class="stat-label">Iemācītie</span><span class="stat-separator">–</span><strong id="learnedWords">0</strong></span>
           </div>
         </div>
