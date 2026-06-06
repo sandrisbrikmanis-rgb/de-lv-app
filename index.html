@@ -968,6 +968,255 @@
       }
     }
 
+    .kurss-overlay {
+      position: fixed;
+      inset: 0;
+      z-index: 1000;
+      padding: 20px;
+      display: grid;
+      place-items: center;
+      background: rgba(7, 10, 15, 0.74);
+    }
+
+    .kurss-overlay[hidden] {
+      display: none;
+    }
+
+    .kurss-panel {
+      width: min(860px, 100%);
+      max-height: calc(100vh - 40px);
+      overflow: auto;
+      border: 1px solid #344150;
+      border-radius: 22px;
+      background: linear-gradient(145deg, #090f16, #101923);
+      color: #f4f7fb;
+      box-shadow: 0 24px 70px rgba(0, 0, 0, 0.42);
+    }
+
+    .kurss-header {
+      padding: 18px 22px 12px;
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      align-items: start;
+      gap: 12px;
+    }
+
+    .kurss-back,
+    .kurss-close {
+      min-width: 42px;
+      min-height: 42px;
+      padding: 6px;
+      border-color: transparent;
+      background: transparent;
+      color: #e8edf5;
+      font-size: 1.05rem;
+      box-shadow: none;
+    }
+
+    .kurss-close {
+      font-size: 1.4rem;
+    }
+
+    .kurss-title {
+      text-align: center;
+    }
+
+    .kurss-title h2 {
+      margin: 0;
+      font-size: 1.16rem;
+      color: #ffffff;
+    }
+
+    .kurss-title p {
+      margin: 5px 0 0;
+      color: #aeb8c7;
+      font-size: 0.92rem;
+    }
+
+    .kurss-list {
+      padding: 8px 28px 28px;
+      display: grid;
+      gap: 14px;
+    }
+
+    .kurss-item {
+      width: 100%;
+      min-height: 76px;
+      padding: 12px 16px;
+      display: grid;
+      grid-template-columns: auto 1fr auto auto;
+      align-items: center;
+      gap: 16px;
+      border: 1px solid #263544;
+      border-radius: 10px;
+      background: linear-gradient(100deg, #101a25, #111923);
+      color: #f5f8fc;
+      text-align: left;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.04);
+    }
+
+    .kurss-icon {
+      width: 50px;
+      height: 50px;
+      border-radius: 9px;
+      display: grid;
+      place-items: center;
+      color: #ffffff;
+      font-weight: 800;
+      font-size: 1rem;
+      line-height: 1.05;
+      text-align: center;
+    }
+
+    .kurss-icon.sound { background: linear-gradient(145deg, #8d4cff, #4c20c9); }
+    .kurss-icon.article { background: linear-gradient(145deg, #ffe044, #d59700); }
+    .kurss-icon.verb { background: linear-gradient(145deg, #58d326, #16871f); }
+    .kurss-icon.sentence { background: linear-gradient(145deg, #2387ff, #0f4ebf); }
+    .kurss-icon.phrase { background: linear-gradient(145deg, #f04f80, #c81853); }
+    .kurss-icon.summary { background: linear-gradient(145deg, #ffac19, #d96e00); }
+
+    .kurss-item-title {
+      display: block;
+      color: #f8fafc;
+      font-weight: 800;
+      font-size: 1rem;
+    }
+
+    .kurss-item-desc {
+      display: block;
+      margin-top: 4px;
+      color: #aeb8c7;
+      font-size: 0.86rem;
+      line-height: 1.25;
+    }
+
+    .kurss-progress {
+      min-width: 140px;
+      display: grid;
+      gap: 5px;
+      color: #b6bfcc;
+      font-size: 0.78rem;
+    }
+
+    .kurss-progress-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    .kurss-track {
+      height: 4px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.16);
+      overflow: hidden;
+    }
+
+    .kurss-fill {
+      display: block;
+      width: 0%;
+      height: 100%;
+      border-radius: inherit;
+      background: #6d7d93;
+    }
+
+    .kurss-arrow {
+      color: #9ba8b7;
+      font-size: 1.7rem;
+      line-height: 1;
+    }
+
+    .kurss-tip {
+      margin: 2px 28px 28px;
+      padding: 16px 18px;
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 12px;
+      border: 1px solid #263544;
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.04);
+      color: #aeb8c7;
+      font-size: 0.9rem;
+      line-height: 1.35;
+    }
+
+    .kurss-tip strong {
+      display: block;
+      margin-bottom: 3px;
+      color: #f5f8fc;
+    }
+
+    .kurss-tip-icon {
+      font-size: 1.35rem;
+    }
+
+    @media (max-width: 600px) {
+      .kurss-overlay {
+        padding: 8px;
+      }
+
+      .kurss-panel {
+        max-height: calc(100vh - 16px);
+        border-radius: 20px;
+      }
+
+      .kurss-header {
+        padding: 14px 12px 8px;
+        gap: 6px;
+      }
+
+      .kurss-title h2 {
+        font-size: 1rem;
+      }
+
+      .kurss-title p {
+        font-size: 0.78rem;
+      }
+
+      .kurss-list {
+        padding: 8px 12px 14px;
+        gap: 10px;
+      }
+
+      .kurss-item {
+        min-height: 74px;
+        padding: 10px 10px;
+        gap: 10px;
+      }
+
+      .kurss-icon {
+        width: 48px;
+        height: 48px;
+        font-size: 0.88rem;
+      }
+
+      .kurss-item-title {
+        font-size: 0.9rem;
+      }
+
+      .kurss-item-desc {
+        display: none;
+      }
+
+      .kurss-progress {
+        min-width: 58px;
+        font-size: 0.72rem;
+      }
+
+      .kurss-progress-row span:first-child {
+        display: none;
+      }
+
+      .kurss-arrow {
+        font-size: 1.35rem;
+      }
+
+      .kurss-tip {
+        margin: 0 12px 14px;
+        padding: 12px 13px;
+        font-size: 0.8rem;
+      }
+    }
     .unwanted-overlay {
       position: fixed;
       inset: 0;
@@ -1376,7 +1625,27 @@
           </div>
         </div>
       </section>
-      <section class="unwanted-overlay" id="unwantedPanel" hidden aria-label="Visi nevajadzīgie" aria-modal="true" role="dialog">
+      <section class="kurss-overlay" id="kurssPanel" hidden aria-label="Kurss" aria-modal="true" role="dialog">
+        <div class="kurss-panel">
+          <div class="kurss-header">
+            <button class="kurss-back" id="kurssBackBtn" type="button" aria-label="Atgriezties uz galveno ekrānu">‹ Kurss</button>
+            <div class="kurss-title">
+              <h2>Kurss</h2>
+              <p>Vācu valodas pamati soli pa solim</p>
+            </div>
+            <button class="kurss-close" id="kurssCloseBtn" type="button" aria-label="Aizvērt kursu">×</button>
+          </div>
+          <div class="kurss-list">
+            <button class="kurss-item" type="button"><span class="kurss-icon sound">▮▮▮</span><span><strong class="kurss-item-title">Izruna</strong><span class="kurss-item-desc">Vācu valodas skaņas un izrunas pamati.</span></span><span class="kurss-progress"><span class="kurss-progress-row"><span>Apgūts</span><b>0%</b></span><span class="kurss-track"><span class="kurss-fill"></span></span></span><span class="kurss-arrow">›</span></button>
+            <button class="kurss-item" type="button"><span class="kurss-icon article">ä ö ü</span><span><strong class="kurss-item-title">Artikeli</strong><span class="kurss-item-desc">Der, die, das un lietojuma pamati.</span></span><span class="kurss-progress"><span class="kurss-progress-row"><span>Apgūts</span><b>0%</b></span><span class="kurss-track"><span class="kurss-fill"></span></span></span><span class="kurss-arrow">›</span></button>
+            <button class="kurss-item" type="button"><span class="kurss-icon verb">ich</span><span><strong class="kurss-item-title">Darbības vārdu pamati</strong><span class="kurss-item-desc">Personas, formas un biežākie darbības vārdi.</span></span><span class="kurss-progress"><span class="kurss-progress-row"><span>Apgūts</span><b>0%</b></span><span class="kurss-track"><span class="kurss-fill"></span></span></span><span class="kurss-arrow">›</span></button>
+            <button class="kurss-item" type="button"><span class="kurss-icon sentence">SVO</span><span><strong class="kurss-item-title">Teikumu uzbūve</strong><span class="kurss-item-desc">Vienkārša vārdu secība vācu teikumos.</span></span><span class="kurss-progress"><span class="kurss-progress-row"><span>Apgūts</span><b>0%</b></span><span class="kurss-track"><span class="kurss-fill"></span></span></span><span class="kurss-arrow">›</span></button>
+            <button class="kurss-item" type="button"><span class="kurss-icon phrase">sp<br>st</span><span><strong class="kurss-item-title">Ikdienas frāzes</strong><span class="kurss-item-desc">Īsas frāzes sarunām un ikdienai.</span></span><span class="kurss-progress"><span class="kurss-progress-row"><span>Apgūts</span><b>0%</b></span><span class="kurss-track"><span class="kurss-fill"></span></span></span><span class="kurss-arrow">›</span></button>
+            <button class="kurss-item" type="button"><span class="kurss-icon summary">✓☰</span><span><strong class="kurss-item-title">Mini kopsavilkums</strong><span class="kurss-item-desc">Atkārto svarīgāko un salīdzini.</span></span><span class="kurss-progress"><span class="kurss-progress-row"><span>Apgūts</span><b>0%</b></span><span class="kurss-track"><span class="kurss-fill"></span></span></span><span class="kurss-arrow">›</span></button>
+          </div>
+          <div class="kurss-tip"><span class="kurss-tip-icon" aria-hidden="true">💡</span><span><strong>Padoms</strong>Klausies, atkārto un salīdzini. Tava auss ir labākais skolotājs!</span></div>
+        </div>
+      </section>      <section class="unwanted-overlay" id="unwantedPanel" hidden aria-label="Visi nevajadzīgie" aria-modal="true" role="dialog">
         <div class="unwanted-panel">
           <div class="unwanted-header">
             <h2>Visi nevajadzīgie</h2>
@@ -17266,7 +17535,11 @@
       pamatiPrevBtn: document.getElementById("pamatiPrevBtn"),
       pamatiNextBtn: document.getElementById("pamatiNextBtn"),
       pamatiCounter: document.getElementById("pamatiCounter"),
-      pamatiContent: document.getElementById("pamatiContent")
+      pamatiContent: document.getElementById("pamatiContent"),
+      kurssBtn: document.getElementById("kurssBtn"),
+      kurssPanel: document.getElementById("kurssPanel"),
+      kurssBackBtn: document.getElementById("kurssBackBtn"),
+      kurssCloseBtn: document.getElementById("kurssCloseBtn")
     };
 
     const pamatiSlides = [
@@ -17306,6 +17579,14 @@
       pamatiIndex = (pamatiIndex + 1) % pamatiSlides.length;
       renderPamati();
     }
+    function openKurss() {
+      elements.kurssPanel.hidden = false;
+    }
+
+    function closeKurss() {
+      elements.kurssPanel.hidden = true;
+    }
+
     function loadDirection() {
       const saved = store.getItem(directionStorageKey);
       return saved === "lv-de" ? "lv-de" : "de-lv";
@@ -19170,6 +19451,12 @@
         : "Klikšķini uz kartītes, lai redzētu tulkojumu.";
     }
 
+    elements.kurssBtn.addEventListener("click", openKurss);
+    elements.kurssBackBtn.addEventListener("click", closeKurss);
+    elements.kurssCloseBtn.addEventListener("click", closeKurss);
+    elements.kurssPanel.addEventListener("click", (event) => {
+      if (event.target === elements.kurssPanel) closeKurss();
+    });
     elements.pamatiBtn.addEventListener("click", openPamati);
     elements.pamatiCloseBtn.addEventListener("click", closePamati);
     elements.pamatiPrevBtn.addEventListener("click", previousPamati);
