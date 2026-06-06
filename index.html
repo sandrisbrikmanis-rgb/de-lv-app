@@ -968,6 +968,86 @@
       }
     }
 
+    .unwanted-overlay {
+      position: fixed;
+      inset: 0;
+      z-index: 1000;
+      padding: 20px;
+      display: grid;
+      place-items: center;
+      background: rgba(7, 10, 15, 0.72);
+    }
+
+    .unwanted-overlay[hidden] {
+      display: none;
+    }
+
+    .unwanted-panel {
+      width: min(720px, 100%);
+      max-height: calc(100vh - 40px);
+      overflow: auto;
+      border: 1px solid #344150;
+      border-radius: 10px;
+      background: #f5f7fb;
+      box-shadow: 0 24px 70px rgba(0, 0, 0, 0.35);
+    }
+
+    .unwanted-header {
+      padding: 14px 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      background: #151a21;
+      color: #ffffff;
+    }
+
+    .unwanted-header h2 {
+      margin: 0;
+      font-size: 1.2rem;
+    }
+
+    .unwanted-close {
+      min-width: 44px;
+      min-height: 44px;
+      padding: 6px;
+      border-color: #3b4654;
+      background: #20262e;
+      color: #ffffff;
+      font-size: 1.35rem;
+    }
+
+    .unwanted-list {
+      display: grid;
+      gap: 10px;
+      padding: 14px;
+    }
+
+    .unwanted-row {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 10px;
+      align-items: center;
+      padding: 10px;
+      border: 1px solid #d9e0ea;
+      border-radius: 7px;
+      background: #ffffff;
+    }
+
+    .unwanted-word {
+      min-width: 0;
+      overflow-wrap: anywhere;
+    }
+
+    .unwanted-word strong {
+      display: block;
+    }
+
+    .unwanted-word span {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
     .extra-options-toggle {
       display: none;
     }
@@ -991,7 +1071,87 @@
         margin: 0;
       }
 
-      .extra-options-toggle {
+      .unwanted-overlay {
+      position: fixed;
+      inset: 0;
+      z-index: 1000;
+      padding: 20px;
+      display: grid;
+      place-items: center;
+      background: rgba(7, 10, 15, 0.72);
+    }
+
+    .unwanted-overlay[hidden] {
+      display: none;
+    }
+
+    .unwanted-panel {
+      width: min(720px, 100%);
+      max-height: calc(100vh - 40px);
+      overflow: auto;
+      border: 1px solid #344150;
+      border-radius: 10px;
+      background: #f5f7fb;
+      box-shadow: 0 24px 70px rgba(0, 0, 0, 0.35);
+    }
+
+    .unwanted-header {
+      padding: 14px 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      background: #151a21;
+      color: #ffffff;
+    }
+
+    .unwanted-header h2 {
+      margin: 0;
+      font-size: 1.2rem;
+    }
+
+    .unwanted-close {
+      min-width: 44px;
+      min-height: 44px;
+      padding: 6px;
+      border-color: #3b4654;
+      background: #20262e;
+      color: #ffffff;
+      font-size: 1.35rem;
+    }
+
+    .unwanted-list {
+      display: grid;
+      gap: 10px;
+      padding: 14px;
+    }
+
+    .unwanted-row {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 10px;
+      align-items: center;
+      padding: 10px;
+      border: 1px solid #d9e0ea;
+      border-radius: 7px;
+      background: #ffffff;
+    }
+
+    .unwanted-word {
+      min-width: 0;
+      overflow-wrap: anywhere;
+    }
+
+    .unwanted-word strong {
+      display: block;
+    }
+
+    .unwanted-word span {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .extra-options-toggle {
         display: block;
         grid-column: 1 / -1;
       }
@@ -1052,6 +1212,16 @@
           </div>
         </div>
       </section>
+      <section class="unwanted-overlay" id="unwantedPanel" hidden aria-label="Visi nevajadzīgie" aria-modal="true" role="dialog">
+        <div class="unwanted-panel">
+          <div class="unwanted-header">
+            <h2>Visi nevajadzīgie</h2>
+            <button class="unwanted-close" id="unwantedCloseBtn" type="button" aria-label="Aizvērt nevajadzīgos">×</button>
+          </div>
+          <div class="unwanted-list" id="unwantedList"></div>
+        </div>
+      </section>
+
       <article class="card">
         <div class="card-inner">
           <div class="badge" id="cardLevel">A1</div>
@@ -1088,6 +1258,8 @@
             <button id="monthlyReviewBtn" type="button">Mēneša pārskats</button>
             <button id="restoreBtn" type="button">Atgriezt visus</button>
             <button id="restoreCurrentBtn" type="button">Atgriezt</button>
+            <button id="unwantedBtn" type="button">Nevajadzīgie</button>
+            <button id="unwantedListBtn" type="button">Visi nevajadzīgie</button>
           </div>
         </div>
         <div class="notice" id="notice" aria-live="polite"></div>
@@ -16831,6 +17003,7 @@
     const sessionStorageKey = "deLvFlashcardsSession";
     const lastCompletedSessionStorageKey = "deLvFlashcardsLastCompletedSession";
     const problemStatsStorageKey = "deLvFlashcardsProblemStats";
+    const unwantedStorageKey = "deLvFlashcardsUnwanted";
     const memoryStore = {};
 
     const store = {
@@ -16880,6 +17053,7 @@
       lastCompletedSession: loadLastCompletedSession(),
       reviewStatus: loadReviewStatus(),
       problemStats: loadProblemStats(),
+      unwantedIds: loadUnwantedIds(),
       order: {},
       learned: loadProgress()
     };
@@ -16917,6 +17091,11 @@
       monthlyReviewBtn: document.getElementById("monthlyReviewBtn"),
       restoreBtn: document.getElementById("restoreBtn"),
       restoreCurrentBtn: document.getElementById("restoreCurrentBtn"),
+      unwantedBtn: document.getElementById("unwantedBtn"),
+      unwantedListBtn: document.getElementById("unwantedListBtn"),
+      unwantedPanel: document.getElementById("unwantedPanel"),
+      unwantedCloseBtn: document.getElementById("unwantedCloseBtn"),
+      unwantedList: document.getElementById("unwantedList"),
       pamatiBtn: document.getElementById("pamatiBtn"),
       pamatiPanel: document.getElementById("pamatiPanel"),
       pamatiCloseBtn: document.getElementById("pamatiCloseBtn"),
@@ -17031,6 +17210,27 @@
 
     function saveProblemStats() {
       store.setItem(problemStatsStorageKey, JSON.stringify(state.problemStats));
+    }
+
+    function loadUnwantedIds() {
+      try {
+        const saved = JSON.parse(store.getItem(unwantedStorageKey) || "[]");
+        return Array.isArray(saved) ? saved : [];
+      } catch (error) {
+        return [];
+      }
+    }
+
+    function saveUnwantedIds() {
+      store.setItem(unwantedStorageKey, JSON.stringify(state.unwantedIds));
+    }
+
+    function unwantedSet() {
+      return new Set(state.unwantedIds || []);
+    }
+
+    function isUnwantedCard(card) {
+      return card && unwantedSet().has(cardId(card));
     }
 
     function loadProgress() {
@@ -17719,7 +17919,16 @@
     }
 
     function baseCardsForGroup(group) {
+      return allEntries().filter((entry) => entry.level === group && !isUnwantedCard(entry));
+    }
+
+    function allCardsForGroup(group) {
       return allEntries().filter((entry) => entry.level === group);
+    }
+
+    function groupHasOnlyUnwanted(group) {
+      const allCards = allCardsForGroup(group);
+      return allCards.length > 0 && allCards.every((card) => isUnwantedCard(card));
     }
 
     function currentDeck() {
@@ -17850,6 +18059,71 @@
       }
 
       state.revealed = true;
+      render();
+    }
+
+    function renderUnwantedList() {
+      const cards = groups.flatMap((group) => allCardsForGroup(group))
+        .filter((card) => isUnwantedCard(card));
+      if (!cards.length) {
+        elements.unwantedList.innerHTML = `<p>Nav nevajadzīgo vārdu.</p>`;
+        return;
+      }
+
+      elements.unwantedList.innerHTML = cards.map((card) => `
+        <div class="unwanted-row">
+          <div class="unwanted-word"><strong>${card.de}</strong><span>${groupDisplayLabel(card.level)} · ${card.lv}</span></div>
+          <button type="button" data-restore-unwanted="${cardId(card)}">Atgriezt</button>
+        </div>
+      `).join("");
+    }
+
+    function openUnwantedList() {
+      renderUnwantedList();
+      elements.unwantedPanel.hidden = false;
+    }
+
+    function closeUnwantedList() {
+      elements.unwantedPanel.hidden = true;
+    }
+
+    function restoreUnwanted(id) {
+      state.unwantedIds = (state.unwantedIds || []).filter((item) => item !== id);
+      saveUnwantedIds();
+      if (state.session && state.session.groupKey === activeGroupKey()) {
+        createSession();
+      }
+      renderUnwantedList();
+      render();
+    }
+
+    function markCurrentUnwanted() {
+      if (state.verbMode) return;
+      const card = currentCard();
+      if (!card) {
+        setNotice("Nav kartītes, ko atzīmēt kā nevajadzīgu.");
+        return;
+      }
+
+      const id = cardId(card);
+      if (!state.unwantedIds.includes(id)) {
+        state.unwantedIds.push(id);
+        saveUnwantedIds();
+      }
+
+      if (state.session && state.session.groupKey === activeGroupKey() && Array.isArray(state.session.ids)) {
+        state.session.ids = state.session.ids.filter((item) => item !== id);
+        state.session.originalIds = (state.session.originalIds || []).filter((item) => item !== id);
+        state.session.completedIds = (state.session.completedIds || []).filter((item) => item !== id);
+        state.session.total = Math.max(0, (state.session.total || 0) - 1);
+        normalizeSessionIndex();
+        saveSession();
+      }
+
+      state.order = Object.fromEntries(Object.entries(state.order).map(([key, ids]) => [key, ids.filter((item) => item !== id)]));
+      state.revealed = false;
+      resetSpellingTask();
+      setNotice("Vārds atzīmēts kā nevajadzīgs.");
       render();
     }
 
@@ -18508,6 +18782,8 @@
       elements.verbRandomBtn.setAttribute("aria-pressed", state.verbRandomMode ? "true" : "false");
       elements.spellingModeBtn.className = state.spellingMode ? "group-btn active" : "";
       elements.spellingModeBtn.setAttribute("aria-pressed", state.spellingMode ? "true" : "false");
+      elements.unwantedBtn.hidden = state.verbMode;
+      elements.unwantedListBtn.hidden = state.verbMode;
       for (const [mode, config] of Object.entries(sessionModes)) {
         const button = document.createElement("button");
         button.type = "button";
@@ -18581,7 +18857,7 @@
           ? problemEmptyMessage()
           : (state.reviewKnown
           ? "Zināmo vārdu pārskatīšana pabeigta."
-          : "Šajā sesijā nav kartīšu.")));
+          : (groupHasOnlyUnwanted(state.group) ? "Šajā grupā nav aktīvu vārdu." : "Šajā sesijā nav kartīšu."))));
         elements.translation.textContent = "";
         elements.hint.textContent = "";
         return;
@@ -18686,7 +18962,7 @@
           ? problemEmptyMessage()
           : (state.reviewKnown
           ? "Zināmo vārdu pārskatīšana pabeigta."
-          : "Šajā sesijā nav kartīšu.")));
+          : (groupHasOnlyUnwanted(state.group) ? "Šajā grupā nav aktīvu vārdu." : "Šajā sesijā nav kartīšu."))));
         elements.translation.textContent = "";
         elements.hint.textContent = state.reviewLastSession
           ? ""
@@ -18758,6 +19034,16 @@
       }
     });
     elements.directionBtn.addEventListener("click", toggleDirection);
+    elements.unwantedBtn.addEventListener("click", markCurrentUnwanted);
+    elements.unwantedListBtn.addEventListener("click", openUnwantedList);
+    elements.unwantedCloseBtn.addEventListener("click", closeUnwantedList);
+    elements.unwantedPanel.addEventListener("click", (event) => {
+      if (event.target === elements.unwantedPanel) closeUnwantedList();
+    });
+    elements.unwantedList.addEventListener("click", (event) => {
+      const button = event.target.closest("[data-restore-unwanted]");
+      if (button) restoreUnwanted(button.dataset.restoreUnwanted);
+    });
     elements.extraOptionsBtn.addEventListener("click", () => {
       const opening = elements.extraOptions.hidden;
       elements.extraOptions.hidden = !opening;
