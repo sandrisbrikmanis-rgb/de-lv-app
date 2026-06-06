@@ -1070,9 +1070,9 @@
 
     .kurss-icon.sound { background: linear-gradient(145deg, #8d4cff, #4c20c9); }
     .kurss-icon.article { background: linear-gradient(145deg, #ffe044, #d59700); }
+    .kurss-icon.lessons { background: linear-gradient(145deg, #202a34, #101820); color: #ffd84a; }
     .kurss-icon.verb { background: linear-gradient(145deg, #58d326, #16871f); }
     .kurss-icon.sentence { background: linear-gradient(145deg, #2387ff, #0f4ebf); }
-    .kurss-icon.phrase { background: linear-gradient(145deg, #f04f80, #c81853); }
     .kurss-icon.summary { background: linear-gradient(145deg, #ffac19, #d96e00); }
 
     .kurss-item-title {
@@ -1389,7 +1389,6 @@
     }
 
     .kurss-examples .kurss-example,
-    .kurss-test-question,
     .kurss-summary-list li {
       display: block;
       padding: 8px 10px;
@@ -1398,50 +1397,20 @@
       color: #eef3f8;
     }
 
-    .kurss-test-list,
     .kurss-summary-list {
       margin: 0;
       display: grid;
       gap: 8px;
     }
 
-    .kurss-test-list {
-      padding-left: 0;
-    }
 
     .kurss-summary-list {
       padding-left: 20px;
     }
 
-    .kurss-test-question {
-      display: grid;
-      gap: 8px;
-      margin-bottom: 14px;
-      padding: 14px 16px;
-      border: 1px solid #263544;
-      border-radius: 12px;
-      background: #0b141d;
-      color: #eef3f8;
-    }
 
-    .test-word,
-    .test-question,
-    .test-option,
-    .test-answer,
-    .test-explanation-title,
-    .test-explanation {
-      display: block;
-    }
 
-    .test-answer,
-    .test-explanation-title {
-      color: #ffffff;
-      font-weight: 700;
-    }
 
-    .test-explanation {
-      white-space: pre-line;
-    }
 
     @media (max-width: 600px) {
       .kurss-lesson {
@@ -1736,19 +1705,25 @@
 
     /* Scoped Izruna lesson readability fix */
     #kurssPronunciationLesson .kurss-lesson-section,
-    #kurssConsonantsLesson .kurss-lesson-section {
+    #kurssConsonantsLesson .kurss-lesson-section,
+    #kurssVerbBasicsLesson .kurss-lesson-section,
+    #kurssSentenceStructureLesson .kurss-lesson-section {
       margin-top: 18px;
       padding: 18px 0 0;
       border-top: 1px solid rgba(255, 255, 255, 0.11);
     }
 
     #kurssPronunciationLesson .kurss-lesson-section h4,
-    #kurssConsonantsLesson .kurss-lesson-section h4 {
+    #kurssConsonantsLesson .kurss-lesson-section h4,
+    #kurssVerbBasicsLesson .kurss-lesson-section h4,
+    #kurssSentenceStructureLesson .kurss-lesson-section h4 h4 {
       margin: 0 0 14px;
     }
 
     #kurssPronunciationLesson .kurss-examples,
-    #kurssConsonantsLesson .kurss-examples {
+    #kurssConsonantsLesson .kurss-examples,
+    #kurssVerbBasicsLesson .kurss-examples,
+    #kurssSentenceStructureLesson .kurss-examples {
       display: grid;
       grid-template-columns: 1fr;
       gap: 8px;
@@ -1756,7 +1731,9 @@
     }
 
     #kurssPronunciationLesson .kurss-example,
-    #kurssConsonantsLesson .kurss-example {
+    #kurssConsonantsLesson .kurss-example,
+    #kurssVerbBasicsLesson .kurss-example,
+    #kurssSentenceStructureLesson .kurss-example {
       display: block;
       padding: 8px 10px;
       border: 1px solid rgba(255, 255, 255, 0.08);
@@ -1766,40 +1743,8 @@
       overflow-wrap: anywhere;
     }
 
-    #kurssPronunciationLesson .kurss-test-list,
-    #kurssConsonantsLesson .kurss-test-list {
-      display: grid;
-      gap: 14px;
-      padding-left: 0;
-    }
 
-    #kurssPronunciationLesson .kurss-test-question,
-    #kurssConsonantsLesson .kurss-test-question {
-      display: grid;
-      gap: 8px;
-      margin-bottom: 0;
-      padding: 14px 16px;
-      border: 1px solid #263544;
-      border-radius: 12px;
-      background: #0b141d;
-      color: #eef3f8;
-    }
 
-    #kurssPronunciationLesson .test-word,
-    #kurssPronunciationLesson .test-question,
-    #kurssPronunciationLesson .test-option,
-    #kurssPronunciationLesson .test-answer,
-    #kurssPronunciationLesson .test-explanation-title,
-    #kurssPronunciationLesson .test-explanation,
-    #kurssConsonantsLesson .test-word,
-    #kurssConsonantsLesson .test-question,
-    #kurssConsonantsLesson .test-option,
-    #kurssConsonantsLesson .test-answer,
-    #kurssConsonantsLesson .test-explanation-title,
-    #kurssConsonantsLesson .test-explanation {
-      display: block;
-      overflow-wrap: anywhere;
-    }
 
     #kurssConsonantsLesson .kurss-lesson-section {
       padding-left: 10px;
@@ -1861,11 +1806,10 @@
           </div>
           <div class="kurss-list" id="kurssList">
             <button class="kurss-item" id="kurssPronunciationBtn" type="button"><span class="kurss-icon sound">Aa</span><span><strong class="kurss-item-title">Izruna</strong><span class="kurss-item-desc">Vācu valodas skaņas un izrunas pamati.</span></span><span class="kurss-arrow">›</span></button>
-            <button class="kurss-item" type="button"><span class="kurss-icon article">der<br>die<br>das</span><span><strong class="kurss-item-title">Artikeli</strong><span class="kurss-item-desc">Der, die, das un lietojuma pamati.</span></span><span class="kurss-arrow">›</span></button>
-            <button class="kurss-item" type="button"><span class="kurss-icon verb">ich</span><span><strong class="kurss-item-title">Darbības vārdu pamati</strong><span class="kurss-item-desc">Personas, formas un biežākie darbības vārdi.</span></span><span class="kurss-arrow">›</span></button>
-            <button class="kurss-item" type="button"><span class="kurss-icon sentence">SVO</span><span><strong class="kurss-item-title">Teikumu uzbūve</strong><span class="kurss-item-desc">Vienkārša vārdu secība vācu teikumos.</span></span><span class="kurss-arrow">›</span></button>
-            <button class="kurss-item" type="button"><span class="kurss-icon phrase">💬</span><span><strong class="kurss-item-title">Ikdienas frāzes</strong><span class="kurss-item-desc">Īsas frāzes sarunām un ikdienai.</span></span><span class="kurss-arrow">›</span></button>
-            <button class="kurss-item" type="button"><span class="kurss-icon summary">✓☰</span><span><strong class="kurss-item-title">Mini kopsavilkums</strong><span class="kurss-item-desc">Atkārto svarīgāko un salīdzini.</span></span><span class="kurss-arrow">›</span></button>
+            <button class="kurss-item" type="button"><span class="kurss-icon article">der<br>die<br>das</span><span><strong class="kurss-item-title">Artikuli</strong><span class="kurss-item-desc">Der, die, das un lietojuma pamati.</span></span><span class="kurss-arrow">›</span></button>
+            <button class="kurss-item" type="button"><span class="kurss-icon lessons">📘</span><span><strong class="kurss-item-title">Lekcijas</strong><span class="kurss-item-desc">Mācību lekcijas secīgā kārtībā no 1 līdz 39.</span></span><span class="kurss-arrow">›</span></button>
+            <button class="kurss-item" id="kurssVerbBasicsBtn" type="button"><span class="kurss-icon verb">ich</span><span><strong class="kurss-item-title">Darbības vārdu pamati</strong><span class="kurss-item-desc">Personas, formas un biežākie darbības vārdi.</span></span><span class="kurss-arrow">›</span></button>
+            <button class="kurss-item" id="kurssSentenceStructureBtn" type="button"><span class="kurss-icon sentence">SVO</span><span><strong class="kurss-item-title">Teikumu uzbūve</strong><span class="kurss-item-desc">Vienkārša vārdu secība vācu teikumos.</span></span><span class="kurss-arrow">›</span></button>
           </div>
           <div class="kurss-tip" id="kurssTip"><span class="kurss-tip-icon" aria-hidden="true">💡</span><span><strong>Padoms</strong>Klausies, atkārto un salīdzini. Tava auss ir labākais skolotājs!</span></div>
           <div class="kurss-sublesson-list" id="kurssPronunciationMenu" hidden>
@@ -1924,13 +1868,13 @@
 
             <section class="kurss-lesson-section">
               <h4>ö</h4>
-              <div class="kurss-examples"><div class="kurss-example">Rose (rōze) — roze</div><div class="kurss-example">Röschen (rēschen) — rozīte</div><div class="kurss-example">Ofen (ōfen) — krāsns</div><div class="kurss-example">Öfen (ēfen) — krāsnis</div><div class="kurss-example">Rock (rok) — svārki</div><div class="kurss-example">Röcke (reke) — svārki</div></div>
+              <div class="kurss-examples"><div class="kurss-example">Rose (rōze) — roze</div><div class="kurss-example">Röschen (rēschen) — rozīte</div><div class="kurss-example">Ofen (ōfen) — krāsns</div><div class="kurss-example">Öfen (ēfen) — krāsnis</div><div class="kurss-example">Rock (rok) — svārki</div><div class="kurss-example">Röcke (röke) — svārki</div></div>
               <p>ö ir o pārskaņojums.</p>
             </section>
 
             <section class="kurss-lesson-section">
               <h4>ü</h4>
-              <div class="kurss-examples"><div class="kurss-example">kurz (kurc) — īss</div><div class="kurss-example">kürzer (kircer) — īsāks</div><div class="kurss-example">Kunst (kunst) — māksla</div><div class="kurss-example">Künste (kinste) — mākslas</div><div class="kurss-example">Mutter (muter) — māte</div><div class="kurss-example">Mütter (miter) — mātes</div></div>
+              <div class="kurss-examples"><div class="kurss-example">kurz (kurc) — īss</div><div class="kurss-example">kürzer (kurcer) — īsāks</div><div class="kurss-example">Kunst (kunst) — māksla</div><div class="kurss-example">Künste (künste) — mākslas</div><div class="kurss-example">Mutter (muter) — māte</div><div class="kurss-example">Mütter (mutter) — mātes</div></div>
               <p>ü ir u pārskaņojums.</p>
             </section>
 
@@ -1946,58 +1890,11 @@
 
             <section class="kurss-lesson-section">
               <h4>Divskaņi: ei</h4>
-              <div class="kurss-examples"><div class="kurss-example">mein (main) — mans</div><div class="kurss-example">dein (dain) — tavs</div><div class="kurss-example">sein (zain) — viņa / viņas / būt</div><div class="kurss-example">frei (frai) — brīvs</div></div>
+              <div class="kurss-examples"><div class="kurss-example">mein (main) — mans</div><div class="kurss-example">dein (dain) — tavs</div><div class="kurss-example">sein (zain) — viņa / viņas / būt</div><div class="kurss-example">frei (frai) — brīvs</div><div class="kurss-example">arbeiten (arbaiten) — strādāt</div></div>
             </section>
-
             <section class="kurss-lesson-section">
-              <h4>Mini tests</h4>
-              <div class="kurss-test-list">
-                <div class="kurss-test-question">
-                  <div class="test-word">1. warm (varm) — silts</div>
-                  <div class="test-question">Kas šeit ir pareizi?</div>
-                  <div class="test-option">A) īss patskanis</div>
-                  <div class="test-option">B) garš patskanis</div>
-                  <div class="test-answer">✓ Pareizā atbilde: B</div>
-                  <div class="test-explanation-title">Kāpēc?</div>
-                  <div class="test-explanation">Pēc patskaņa seko viens līdzskanis. Tāpēc patskanis bieži ir garš.</div>
-                </div>
-                <div class="kurss-test-question">
-                  <div class="test-word">2. Pilz (pilc) — sēne</div>
-                  <div class="test-question">Kas šeit ir pareizi?</div>
-                  <div class="test-option">A) īss patskanis</div>
-                  <div class="test-option">B) garš patskanis</div>
-                  <div class="test-answer">✓ Pareizā atbilde: A</div>
-                  <div class="test-explanation-title">Kāpēc?</div>
-                  <div class="test-explanation">Pēc patskaņa seko vairāki līdzskaņi. Tāpēc patskanis bieži ir īss.</div>
-                </div>
-                <div class="kurss-test-question">
-                  <div class="test-word">3. Schuh (šū) — kurpe</div>
-                  <div class="test-question">Kas šeit ir pareizi?</div>
-                  <div class="test-option">A) īss patskanis</div>
-                  <div class="test-option">B) garš patskanis</div>
-                  <div class="test-answer">✓ Pareizā atbilde: B</div>
-                  <div class="test-explanation-title">Kāpēc?</div>
-                  <div class="test-explanation">Burts "h" pagarina iepriekšējo patskani.</div>
-                </div>
-                <div class="kurss-test-question">
-                  <div class="test-word">4. Fliege (flīge) — muša</div>
-                  <div class="test-question">Kas šeit ir pareizi?</div>
-                  <div class="test-option">A) īss i</div>
-                  <div class="test-option">B) garš i</div>
-                  <div class="test-answer">✓ Pareizā atbilde: B</div>
-                  <div class="test-explanation-title">Kāpēc?</div>
-                  <div class="test-explanation">"ie" vācu valodā parasti nozīmē garo i.</div>
-                </div>
-                <div class="kurss-test-question">
-                  <div class="test-word">5. Boot (bōt) — laiva</div>
-                  <div class="test-question">Kas šeit ir pareizi?</div>
-                  <div class="test-option">A) īss patskanis</div>
-                  <div class="test-option">B) garš patskanis</div>
-                  <div class="test-answer">✓ Pareizā atbilde: B</div>
-                  <div class="test-explanation-title">Kāpēc?</div>
-                  <div class="test-explanation">Dubultie patskaņi parasti ir gari.</div>
-                </div>
-              </div>
+              <h4>2. lekcijas izrunas piezīmes</h4>
+              <ul class="kurss-summary-list"><li>vārdos ich, nicht, rechnen, zeichnen “ch” izrunā mīksti</li><li>vārdos arbeiten un zeichnen “ei” izrunā kā “ai”</li><li>“sp” vārda sākumā izrunā kā “šp”</li><li>darbības vārdā tun burts “u” izrunājams garš</li></ul>
             </section>
 
             <section class="kurss-lesson-section">
@@ -2018,7 +1915,7 @@
             <section class="kurss-lesson-section">
               <h4>ch</h4>
               <p>“ch” var izrunāt mīksti vai cieti. Dažos vārdos tas skan kā “h”, citos tuvāk “k”.</p>
-              <div class="kurss-examples"><div class="kurss-example">rechnen (rehhen) — rēķināt</div><div class="kurss-example">zeichnen (caihnen) — zīmēt</div><div class="kurss-example">nicht (niht) — ne</div><div class="kurss-example">schlecht (šleht) — slikts</div><div class="kurss-example">mich (mih) — mani</div><div class="kurss-example">dich (dih) — tevi</div><div class="kurss-example">Strauch (štrauh) — krūms</div><div class="kurss-example">noch (noh) — vēl</div><div class="kurss-example">Nacht (naht) — nakts</div></div>
+              <div class="kurss-examples"><div class="kurss-example">rechnen (rehnen) — rēķināt</div><div class="kurss-example">zeichnen (caihnen) — zīmēt</div><div class="kurss-example">nicht (niht) — ne</div><div class="kurss-example">schlecht (šleht) — slikts</div><div class="kurss-example">mich (mih) — mani</div><div class="kurss-example">dich (dih) — tevi</div><div class="kurss-example">Strauch (štrauh) — krūms</div><div class="kurss-example">noch (noh) — vēl</div><div class="kurss-example">Nacht (naht) — nakts</div></div>
             </section>
 
             <section class="kurss-lesson-section">
@@ -2060,15 +1957,109 @@
             <section class="kurss-lesson-section">
               <h4>ß</h4>
               <p>“ß” vācu valodā izrunā kā “s”.</p>
-              <div class="kurss-examples"><div class="kurss-example">Fuß (fūs) — pēda</div><div class="kurss-example">Füße (fīse) — pēdas</div><div class="kurss-example">Grüße (grīse) — sveicieni</div></div>
+              <div class="kurss-examples"><div class="kurss-example">Fuß (fūs) — pēda</div><div class="kurss-example">Füße (fūse) — pēdas</div><div class="kurss-example">Grüße (grūse) — sveicieni</div></div>
             </section>
 
             <section class="kurss-lesson-section">
               <h4>Kopsavilkums</h4>
               <ul class="kurss-summary-list"><li>sch → š</li><li>sp / st sākumā → šp / št</li><li>qu → kv</li><li>z → c</li><li>v bieži → f</li><li>x → ks</li><li>ß → s</li></ul>
             </section>
+          </div>
+          <div class="kurss-lesson" id="kurssVerbBasicsLesson" hidden>
+            <h3>Darbības vārdu pamati</h3>
+            <p class="kurss-lesson-intro">1. lekcijas darbības vārdi un locījumi.</p>
+
+            <section class="kurss-lesson-section">
+              <h4>Darbības vārdi</h4>
+              <div class="kurss-examples"><div class="kurss-example">kommen — nākt</div><div class="kurss-example">gehen — iet</div><div class="kurss-example">stehen — stāvēt</div><div class="kurss-example">singen — dziedāt</div></div>
+            </section>
+
+            <section class="kurss-lesson-section">
+              <h4>kommen</h4>
+              <div class="kurss-examples"><div class="kurss-example">ich komme — es nāku</div><div class="kurss-example">du kommst — tu nāc</div><div class="kurss-example">er kommt — viņš nāk</div><div class="kurss-example">sie kommt — viņa nāk</div><div class="kurss-example">wir kommen — mēs nākam</div><div class="kurss-example">ihr kommt — jūs nākat</div><div class="kurss-example">sie kommen — viņi / viņas nāk</div></div>
+            </section>
+
+            <section class="kurss-lesson-section">
+              <h4>gehen</h4>
+              <div class="kurss-examples"><div class="kurss-example">ich gehe — es eju</div><div class="kurss-example">du gehst — tu ej</div><div class="kurss-example">er geht — viņš iet</div><div class="kurss-example">sie geht — viņa iet</div><div class="kurss-example">wir gehen — mēs ejam</div><div class="kurss-example">ihr geht — jūs ejat</div><div class="kurss-example">sie gehen — viņi / viņas iet</div></div>
+            </section>
+
+            <section class="kurss-lesson-section">
+              <h4>stehen</h4>
+              <div class="kurss-examples"><div class="kurss-example">ich stehe — es stāvu</div><div class="kurss-example">du stehst — tu stāvi</div><div class="kurss-example">er steht — viņš stāv</div><div class="kurss-example">sie steht — viņa stāv</div><div class="kurss-example">wir stehen — mēs stāvam</div><div class="kurss-example">ihr steht — jūs stāvat</div><div class="kurss-example">sie stehen — viņi / viņas stāv</div></div>
+            </section>
+
+            <section class="kurss-lesson-section">
+              <h4>singen</h4>
+              <div class="kurss-examples"><div class="kurss-example">ich singe — es dziedu</div><div class="kurss-example">du singst — tu dziedi</div><div class="kurss-example">er singt — viņš dzied</div><div class="kurss-example">sie singt — viņa dzied</div><div class="kurss-example">wir singen — mēs dziedam</div><div class="kurss-example">ihr singt — jūs dziedat</div><div class="kurss-example">sie singen — viņi / viņas dzied</div></div>
+            </section>
+            <section class="kurss-lesson-section">
+              <h4>2. lekcijas darbības vārdi</h4>
+              <div class="kurss-examples"><div class="kurss-example">spielen — spēlēt</div><div class="kurss-example">arbeiten — strādāt</div><div class="kurss-example">fragen — jautāt</div><div class="kurss-example">antworten — atbildēt</div><div class="kurss-example">rechnen — rēķināt</div><div class="kurss-example">zeichnen — zīmēt</div><div class="kurss-example">tun — darīt</div></div>
+            </section>
+
+            <section class="kurss-lesson-section">
+              <h4>spielen</h4>
+              <div class="kurss-examples"><div class="kurss-example">ich spiele — es spēlēju</div><div class="kurss-example">du spielst — tu spēlē</div><div class="kurss-example">er spielt — viņš spēlē</div><div class="kurss-example">sie spielt — viņa spēlē</div><div class="kurss-example">wir spielen — mēs spēlējam</div><div class="kurss-example">ihr spielt — jūs spēlējat</div><div class="kurss-example">sie spielen — viņi / viņas spēlē</div></div>
+            </section>
+
+            <section class="kurss-lesson-section">
+              <h4>arbeiten</h4>
+              <div class="kurss-examples"><div class="kurss-example">ich arbeite — es strādāju</div><div class="kurss-example">du arbeitest — tu strādā</div><div class="kurss-example">er arbeitet — viņš strādā</div><div class="kurss-example">sie arbeitet — viņa strādā</div><div class="kurss-example">wir arbeiten — mēs strādājam</div><div class="kurss-example">ihr arbeitet — jūs strādājat</div><div class="kurss-example">sie arbeiten — viņi / viņas strādā</div></div>
+            </section>
+
+            <section class="kurss-lesson-section">
+              <h4>fragen</h4>
+              <div class="kurss-examples"><div class="kurss-example">ich frage — es jautāju</div><div class="kurss-example">du fragst — tu jautā</div><div class="kurss-example">er fragt — viņš jautā</div><div class="kurss-example">sie fragt — viņa jautā</div><div class="kurss-example">wir fragen — mēs jautājam</div><div class="kurss-example">ihr fragt — jūs jautājat</div><div class="kurss-example">sie fragen — viņi / viņas jautā</div></div>
+            </section>
+
+            <section class="kurss-lesson-section">
+              <h4>antworten</h4>
+              <div class="kurss-examples"><div class="kurss-example">ich antworte — es atbildu</div><div class="kurss-example">du antwortest — tu atbildi</div><div class="kurss-example">er antwortet — viņš atbild</div><div class="kurss-example">sie antwortet — viņa atbild</div><div class="kurss-example">wir antworten — mēs atbildam</div><div class="kurss-example">ihr antwortet — jūs atbildat</div><div class="kurss-example">sie antworten — viņi / viņas atbild</div></div>
+            </section>
+
+            <section class="kurss-lesson-section">
+              <h4>rechnen</h4>
+              <div class="kurss-examples"><div class="kurss-example">ich rechne — es rēķinu</div><div class="kurss-example">du rechnest — tu rēķini</div><div class="kurss-example">er rechnet — viņš rēķina</div><div class="kurss-example">sie rechnet — viņa rēķina</div><div class="kurss-example">wir rechnen — mēs rēķinām</div><div class="kurss-example">ihr rechnet — jūs rēķināt</div><div class="kurss-example">sie rechnen — viņi / viņas rēķina</div></div>
+            </section>
+
+            <section class="kurss-lesson-section">
+              <h4>zeichnen</h4>
+              <div class="kurss-examples"><div class="kurss-example">ich zeichne — es zīmēju</div><div class="kurss-example">du zeichnest — tu zīmē</div><div class="kurss-example">er zeichnet — viņš zīmē</div><div class="kurss-example">sie zeichnet — viņa zīmē</div><div class="kurss-example">wir zeichnen — mēs zīmējam</div><div class="kurss-example">ihr zeichnet — jūs zīmējat</div><div class="kurss-example">sie zeichnen — viņi / viņas zīmē</div></div>
+            </section>
+
+            <section class="kurss-lesson-section">
+              <h4>tun</h4>
+              <div class="kurss-examples"><div class="kurss-example">ich tue — es daru</div><div class="kurss-example">du tust — tu dari</div><div class="kurss-example">er tut — viņš dara</div><div class="kurss-example">sie tut — viņa dara</div><div class="kurss-example">wir tun — mēs darām</div><div class="kurss-example">ihr tut — jūs darāt</div><div class="kurss-example">sie tun — viņi / viņas dara</div></div>
+            </section>
+          </div>
+          <div class="kurss-lesson" id="kurssSentenceStructureLesson" hidden>
+            <h3>Teikumu uzbūve</h3>
+            <p class="kurss-lesson-intro">Jautājuma teikumā darbības vārds vācu valodā parasti stāv pirmajā vietā.</p>
+
+            <section class="kurss-lesson-section">
+              <h4>Piemēri</h4>
+              <div class="kurss-examples"><div class="kurss-example">Du kommst. — Tu nāc.</div><div class="kurss-example">Kommst du? — Vai tu nāc?</div><div class="kurss-example">Er singt. — Viņš dzied.</div><div class="kurss-example">Singt er? — Vai viņš dzied?</div><div class="kurss-example">Stehst du? — Vai tu stāvi?</div><div class="kurss-example">Ja, ich stehe. — Jā, es stāvu.</div><div class="kurss-example">Geht ihr? — Vai jūs ejat?</div><div class="kurss-example">Ja, wir gehen. — Jā, mēs ejam.</div></div>
+            </section>
+            <section class="kurss-lesson-section">
+              <h4>Jautājumi ar “was”</h4>
+              <p>Ja jautājums sākas ar jautājamo vārdu, darbības vārds vācu valodā parasti stāv tūlīt aiz jautājamā vārda.</p>
+              <div class="kurss-examples"><div class="kurss-example">Was tust du? — Ko tu dari?</div><div class="kurss-example">Was tut er? — Ko viņš dara?</div><div class="kurss-example">Was tut sie? — Ko viņa dara?</div><div class="kurss-example">Was tun sie? — Ko viņi / viņas dara?</div></div>
+            </section>
+
+            <section class="kurss-lesson-section">
+              <h4>Noliegums ar “nicht”</h4>
+              <p>Ja noliegums “nicht” attiecas uz darbības vārdu, tas vācu valodā parasti stāv pēc darbības vārda.</p>
+              <div class="kurss-examples"><div class="kurss-example">Ich spiele nicht. — Es nespēlēju.</div><div class="kurss-example">Paul fragt nicht. — Pauls nejautā.</div><div class="kurss-example">Er kommt nicht. — Viņš nenāk.</div><div class="kurss-example">Sie singen nicht. — Viņi / viņas nedzied.</div></div>
+            </section>
+
+            <section class="kurss-lesson-section">
+              <h4>Teikumi no 2. lekcijas</h4>
+              <div class="kurss-examples"><div class="kurss-example">Spielst du? — Vai tu spēlē?</div><div class="kurss-example">Nein, ich spiele nicht, ich arbeite. — Nē, es nespēlēju, es strādāju.</div><div class="kurss-example">Paul fragt nicht, er arbeitet. — Pauls nejautā, viņš strādā.</div><div class="kurss-example">Arbeitest du? — Vai tu strādā?</div><div class="kurss-example">Nein, ich arbeite nicht, ich singe. — Nē, es nestrādāju, es dziedu.</div><div class="kurss-example">Was tut Paul? — Ko dara Pauls?</div><div class="kurss-example">Er spielt. — Viņš spēlē.</div><div class="kurss-example">Was tut Marie? — Ko dara Marija?</div><div class="kurss-example">Sie singt. — Viņa dzied.</div><div class="kurss-example">Paul spielt, aber Marie singt. — Pauls spēlē, bet Marija dzied.</div><div class="kurss-example">Singt ihr? — Vai jūs dziedat?</div><div class="kurss-example">Nein, wir singen nicht, wir arbeiten. — Nē, mēs nedziedam, mēs strādājam.</div><div class="kurss-example">Was tun Paul und Marie? — Ko dara Pauls un Marija?</div><div class="kurss-example">Sie fragen. — Viņi jautā.</div><div class="kurss-example">Sie antworten nicht. — Viņi neatbild.</div><div class="kurss-example">Wer arbeitet? — Kas strādā?</div><div class="kurss-example">Wir arbeiten. — Mēs strādājam.</div><div class="kurss-example">Wir rechnen und zeichnen. — Mēs rēķinām un zīmējam.</div><div class="kurss-example">Sie kommen, sie fragen, sie antworten, sie arbeiten, sie spielen, sie singen, sie gehen. — Viņi / viņas nāk, jautā, atbild, strādā, spēlē, dzied un iet.</div></div>
+            </section>
           </div>        </div>
-      </section>      <section class="unwanted-overlay" id="unwantedPanel" hidden aria-label="Visi nevajadzīgie" aria-modal="true" role="dialog">
+      </section>
+      <section class="unwanted-overlay" id="unwantedPanel" hidden aria-label="Visi nevajadzīgie" aria-modal="true" role="dialog">
         <div class="unwanted-panel">
           <div class="unwanted-header">
             <h2>Visi nevajadzīgie</h2>
@@ -17968,11 +17959,15 @@
       kurssList: document.getElementById("kurssList"),
       kurssTip: document.getElementById("kurssTip"),
       kurssPronunciationBtn: document.getElementById("kurssPronunciationBtn"),
+      kurssVerbBasicsBtn: document.getElementById("kurssVerbBasicsBtn"),
+      kurssSentenceStructureBtn: document.getElementById("kurssSentenceStructureBtn"),
       kurssPronunciationLesson: document.getElementById("kurssPronunciationLesson"),
       kurssPronunciationMenu: document.getElementById("kurssPronunciationMenu"),
       kurssVowelsLessonBtn: document.getElementById("kurssVowelsLessonBtn"),
       kurssConsonantsLessonBtn: document.getElementById("kurssConsonantsLessonBtn"),
-      kurssConsonantsLesson: document.getElementById("kurssConsonantsLesson")
+      kurssConsonantsLesson: document.getElementById("kurssConsonantsLesson"),
+      kurssVerbBasicsLesson: document.getElementById("kurssVerbBasicsLesson"),
+      kurssSentenceStructureLesson: document.getElementById("kurssSentenceStructureLesson")
     };
 
     const pamatiSlides = [
@@ -18020,6 +18015,8 @@
       elements.kurssPronunciationMenu.hidden = true;
       elements.kurssPronunciationLesson.hidden = true;
       elements.kurssConsonantsLesson.hidden = true;
+      elements.kurssVerbBasicsLesson.hidden = true;
+      elements.kurssSentenceStructureLesson.hidden = true;
     }
 
     function openKurss() {
@@ -18040,6 +18037,8 @@
       elements.kurssPronunciationMenu.hidden = true;
       elements.kurssPronunciationLesson.hidden = false;
       elements.kurssConsonantsLesson.hidden = false;
+      elements.kurssVerbBasicsLesson.hidden = true;
+      elements.kurssSentenceStructureLesson.hidden = true;
     }
 
     function openVowelsLesson() {
@@ -18048,6 +18047,8 @@
       elements.kurssPronunciationMenu.hidden = true;
       elements.kurssPronunciationLesson.hidden = false;
       elements.kurssConsonantsLesson.hidden = true;
+      elements.kurssVerbBasicsLesson.hidden = true;
+      elements.kurssSentenceStructureLesson.hidden = true;
     }
 
     function openConsonantsLesson() {
@@ -18056,10 +18057,36 @@
       elements.kurssPronunciationMenu.hidden = true;
       elements.kurssPronunciationLesson.hidden = true;
       elements.kurssConsonantsLesson.hidden = false;
+      elements.kurssVerbBasicsLesson.hidden = true;
+      elements.kurssSentenceStructureLesson.hidden = true;
     }
 
+
+    function openVerbBasicsLesson() {
+      elements.kurssTitle.textContent = "Darbības vārdu pamati";
+      elements.kurssSubtitle.textContent = "Personas, formas un biežākie darbības vārdi.";
+      elements.kurssList.hidden = true;
+      elements.kurssTip.hidden = true;
+      elements.kurssPronunciationMenu.hidden = true;
+      elements.kurssPronunciationLesson.hidden = true;
+      elements.kurssConsonantsLesson.hidden = true;
+      elements.kurssVerbBasicsLesson.hidden = false;
+      elements.kurssSentenceStructureLesson.hidden = true;
+    }
+
+    function openSentenceStructureLesson() {
+      elements.kurssTitle.textContent = "Teikumu uzbūve";
+      elements.kurssSubtitle.textContent = "Vienkārša vārdu secība vācu teikumos.";
+      elements.kurssList.hidden = true;
+      elements.kurssTip.hidden = true;
+      elements.kurssPronunciationMenu.hidden = true;
+      elements.kurssPronunciationLesson.hidden = true;
+      elements.kurssConsonantsLesson.hidden = true;
+      elements.kurssVerbBasicsLesson.hidden = true;
+      elements.kurssSentenceStructureLesson.hidden = false;
+    }
     function handleKurssBack() {
-      if (!elements.kurssPronunciationLesson.hidden || !elements.kurssConsonantsLesson.hidden || !elements.kurssPronunciationMenu.hidden) {
+      if (!elements.kurssPronunciationLesson.hidden || !elements.kurssConsonantsLesson.hidden || !elements.kurssPronunciationMenu.hidden || !elements.kurssVerbBasicsLesson.hidden || !elements.kurssSentenceStructureLesson.hidden) {
         showKurssMenu();
         return;
       }
@@ -19934,6 +19961,8 @@
     elements.kurssBackBtn.addEventListener("click", handleKurssBack);
     elements.kurssCloseBtn.addEventListener("click", closeKurss);
     elements.kurssPronunciationBtn.addEventListener("click", openPronunciationLesson);
+    elements.kurssVerbBasicsBtn.addEventListener("click", openVerbBasicsLesson);
+    elements.kurssSentenceStructureBtn.addEventListener("click", openSentenceStructureLesson);
     elements.kurssVowelsLessonBtn.addEventListener("click", openVowelsLesson);
     elements.kurssConsonantsLessonBtn.addEventListener("click", openConsonantsLesson);
     elements.kurssPanel.addEventListener("click", (event) => {
