@@ -1217,6 +1217,8 @@
         font-size: 0.8rem;
       }
     }
+
+
     .unwanted-overlay {
       position: fixed;
       inset: 0;
@@ -1320,7 +1322,123 @@
         margin: 0;
       }
 
-      .unwanted-overlay {
+  
+    .kurss-lesson {
+      margin: 0 28px 28px;
+      padding: 22px;
+      border: 1px solid #263544;
+      border-radius: 12px;
+      background: linear-gradient(100deg, #101a25, #111923);
+      color: #d8e0eb;
+    }
+
+    .kurss-lesson[hidden] {
+      display: none;
+    }
+
+    .kurss-lesson h3 {
+      margin: 0 0 10px;
+      color: #ffffff;
+      font-size: 1.35rem;
+    }
+
+    .kurss-lesson-intro {
+      margin: 0 0 18px;
+      color: #aeb8c7;
+      line-height: 1.45;
+    }
+
+    .kurss-lesson-section {
+      padding: 16px 0;
+      border-top: 1px solid rgba(255, 255, 255, 0.09);
+    }
+
+    .kurss-lesson-section h4 {
+      margin: 0 0 10px;
+      color: #f7fafc;
+      font-size: 1rem;
+    }
+
+    .kurss-lesson-section p {
+      margin: 10px 0 0;
+      color: #aeb8c7;
+      line-height: 1.45;
+    }
+
+    .kurss-examples {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .kurss-examples .kurss-example,
+    .kurss-test-question,
+    .kurss-summary-list li {
+      display: block;
+      padding: 8px 10px;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.045);
+      color: #eef3f8;
+    }
+
+    .kurss-test-list,
+    .kurss-summary-list {
+      margin: 0;
+      display: grid;
+      gap: 8px;
+    }
+
+    .kurss-test-list {
+      padding-left: 0;
+    }
+
+    .kurss-summary-list {
+      padding-left: 20px;
+    }
+
+    .kurss-test-question {
+      display: grid;
+      gap: 8px;
+      margin-bottom: 14px;
+      padding: 14px 16px;
+      border: 1px solid #263544;
+      border-radius: 12px;
+      background: #0b141d;
+      color: #eef3f8;
+    }
+
+    .test-word,
+    .test-question,
+    .test-option,
+    .test-answer,
+    .test-explanation-title,
+    .test-explanation {
+      display: block;
+    }
+
+    .test-answer,
+    .test-explanation-title {
+      color: #ffffff;
+      font-weight: 700;
+    }
+
+    .test-explanation {
+      white-space: pre-line;
+    }
+
+    @media (max-width: 600px) {
+      .kurss-lesson {
+        margin: 0 12px 14px;
+        padding: 16px;
+      }
+
+      .kurss-lesson h3 {
+        font-size: 1.1rem;
+      }
+
+
+    }
+    .unwanted-overlay {
       position: fixed;
       inset: 0;
       z-index: 1000;
@@ -1581,6 +1699,61 @@
         padding-top: 14px;
       }
     }
+
+    /* Scoped Izruna lesson readability fix */
+    #kurssPronunciationLesson .kurss-lesson-section {
+      margin-top: 18px;
+      padding: 18px 0 0;
+      border-top: 1px solid rgba(255, 255, 255, 0.11);
+    }
+
+    #kurssPronunciationLesson .kurss-lesson-section h4 {
+      margin: 0 0 14px;
+    }
+
+    #kurssPronunciationLesson .kurss-examples {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 8px;
+      margin: 0 0 14px;
+    }
+
+    #kurssPronunciationLesson .kurss-example {
+      display: block;
+      padding: 8px 10px;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.045);
+      color: #eef3f8;
+      overflow-wrap: anywhere;
+    }
+
+    #kurssPronunciationLesson .kurss-test-list {
+      display: grid;
+      gap: 14px;
+      padding-left: 0;
+    }
+
+    #kurssPronunciationLesson .kurss-test-question {
+      display: grid;
+      gap: 8px;
+      margin-bottom: 0;
+      padding: 14px 16px;
+      border: 1px solid #263544;
+      border-radius: 12px;
+      background: #0b141d;
+      color: #eef3f8;
+    }
+
+    #kurssPronunciationLesson .test-word,
+    #kurssPronunciationLesson .test-question,
+    #kurssPronunciationLesson .test-option,
+    #kurssPronunciationLesson .test-answer,
+    #kurssPronunciationLesson .test-explanation-title,
+    #kurssPronunciationLesson .test-explanation {
+      display: block;
+      overflow-wrap: anywhere;
+    }
   </style>
 </head>
 <body>
@@ -1630,20 +1803,110 @@
           <div class="kurss-header">
             <button class="kurss-back" id="kurssBackBtn" type="button" aria-label="Atgriezties uz galveno ekrānu">‹ Kurss</button>
             <div class="kurss-title">
-              <h2>Kurss</h2>
-              <p>Vācu valodas pamati soli pa solim</p>
+              <h2 id="kurssTitle">Kurss</h2>
+              <p id="kurssSubtitle">Vācu valodas pamati soli pa solim</p>
             </div>
             <button class="kurss-close" id="kurssCloseBtn" type="button" aria-label="Aizvērt kursu">×</button>
           </div>
-          <div class="kurss-list">
-            <button class="kurss-item" type="button"><span class="kurss-icon sound">Aa</span><span><strong class="kurss-item-title">Izruna</strong><span class="kurss-item-desc">Vācu valodas skaņas un izrunas pamati.</span></span><span class="kurss-progress"><span class="kurss-progress-row"><span>Apgūts</span><b>0%</b></span><span class="kurss-track"><span class="kurss-fill"></span></span></span><span class="kurss-arrow">›</span></button>
+          <div class="kurss-list" id="kurssList">
+            <button class="kurss-item" id="kurssPronunciationBtn" type="button"><span class="kurss-icon sound">Aa</span><span><strong class="kurss-item-title">Izruna</strong><span class="kurss-item-desc">Vācu valodas skaņas un izrunas pamati.</span></span><span class="kurss-progress"><span class="kurss-progress-row"><span>Apgūts</span><b>0%</b></span><span class="kurss-track"><span class="kurss-fill"></span></span></span><span class="kurss-arrow">›</span></button>
             <button class="kurss-item" type="button"><span class="kurss-icon article">der<br>die<br>das</span><span><strong class="kurss-item-title">Artikeli</strong><span class="kurss-item-desc">Der, die, das un lietojuma pamati.</span></span><span class="kurss-progress"><span class="kurss-progress-row"><span>Apgūts</span><b>0%</b></span><span class="kurss-track"><span class="kurss-fill"></span></span></span><span class="kurss-arrow">›</span></button>
             <button class="kurss-item" type="button"><span class="kurss-icon verb">ich</span><span><strong class="kurss-item-title">Darbības vārdu pamati</strong><span class="kurss-item-desc">Personas, formas un biežākie darbības vārdi.</span></span><span class="kurss-progress"><span class="kurss-progress-row"><span>Apgūts</span><b>0%</b></span><span class="kurss-track"><span class="kurss-fill"></span></span></span><span class="kurss-arrow">›</span></button>
             <button class="kurss-item" type="button"><span class="kurss-icon sentence">SVO</span><span><strong class="kurss-item-title">Teikumu uzbūve</strong><span class="kurss-item-desc">Vienkārša vārdu secība vācu teikumos.</span></span><span class="kurss-progress"><span class="kurss-progress-row"><span>Apgūts</span><b>0%</b></span><span class="kurss-track"><span class="kurss-fill"></span></span></span><span class="kurss-arrow">›</span></button>
             <button class="kurss-item" type="button"><span class="kurss-icon phrase">💬</span><span><strong class="kurss-item-title">Ikdienas frāzes</strong><span class="kurss-item-desc">Īsas frāzes sarunām un ikdienai.</span></span><span class="kurss-progress"><span class="kurss-progress-row"><span>Apgūts</span><b>0%</b></span><span class="kurss-track"><span class="kurss-fill"></span></span></span><span class="kurss-arrow">›</span></button>
             <button class="kurss-item" type="button"><span class="kurss-icon summary">✓☰</span><span><strong class="kurss-item-title">Mini kopsavilkums</strong><span class="kurss-item-desc">Atkārto svarīgāko un salīdzini.</span></span><span class="kurss-progress"><span class="kurss-progress-row"><span>Apgūts</span><b>0%</b></span><span class="kurss-track"><span class="kurss-fill"></span></span></span><span class="kurss-arrow">›</span></button>
           </div>
-          <div class="kurss-tip"><span class="kurss-tip-icon" aria-hidden="true">💡</span><span><strong>Padoms</strong>Klausies, atkārto un salīdzini. Tava auss ir labākais skolotājs!</span></div>
+          <div class="kurss-tip" id="kurssTip"><span class="kurss-tip-icon" aria-hidden="true">💡</span><span><strong>Padoms</strong>Klausies, atkārto un salīdzini. Tava auss ir labākais skolotājs!</span></div>
+          <div class="kurss-lesson" id="kurssPronunciationLesson" hidden>
+            <h3>Patskaņi — garš un īss</h3>
+            <p class="kurss-lesson-intro">Vācu valodā patskaņi var būt gari vai īsi. Tas ietekmē vārda izrunu.</p>
+
+            <section class="kurss-lesson-section">
+              <h4>Garš patskanis</h4>
+              <div class="kurss-examples"><div class="kurss-example">warm (varm) — silts</div><div class="kurss-example">gut (gūt) — labs</div><div class="kurss-example">Tat (tāt) — darbs / rīcība</div><div class="kurss-example">Flur (flūr) — gaitenis</div><div class="kurss-example">Weg (vēk) — ceļš</div><div class="kurss-example">Hut (hūt) — cepure</div><div class="kurss-example">Hof (hōf) — pagalms</div><div class="kurss-example">Schlaf (šlāf) — miegs</div></div>
+              <p>Ja pēc patskaņa seko viens līdzskanis, patskani bieži izrunā gari.</p>
+            </section>
+
+            <section class="kurss-lesson-section">
+              <h4>Īss patskanis</h4>
+              <div class="kurss-examples"><div class="kurss-example">Pilz (pilc) — sēne</div><div class="kurss-example">Wort (vort) — vārds</div><div class="kurss-example">Mund (munt) — mute</div><div class="kurss-example">bald (balt) — drīz</div><div class="kurss-example">scharf (šarf) — ass</div><div class="kurss-example">Feld (felt) — lauks</div><div class="kurss-example">voll (fol) — pilns</div></div>
+              <p>Ja pēc patskaņa seko divi vai vairāk līdzskaņi, patskani bieži izrunā īsi.</p>
+            </section>
+
+            <section class="kurss-lesson-section">
+              <h4>Burts h kā garumzīme</h4>
+              <div class="kurss-examples"><div class="kurss-example">Zahl (cāl) — skaitlis</div><div class="kurss-example">nehmen (nēmən) — ņemt</div><div class="kurss-example">Schuh (šū) — kurpe</div><div class="kurss-example">Ohr (ōr) — auss</div><div class="kurss-example">ihn (īn) — viņu</div><div class="kurss-example">ihm (īm) — viņam</div></div>
+              <p>Dažos vārdos h pagarina iepriekšējo patskani. Šādos gadījumos h parasti neizrunā.</p>
+            </section>
+
+            <section class="kurss-lesson-section">
+              <h4>Garais i = ie</h4>
+              <div class="kurss-examples"><div class="kurss-example">die (dī) — artikuls “die”</div><div class="kurss-example">diese (dīze) — šī / šie</div><div class="kurss-example">wieder (vīder) — atkal</div><div class="kurss-example">Fliege (flīge) — muša</div><div class="kurss-example">Ziege (cīge) — kaza</div><div class="kurss-example">Stiel (štīl) — kāts</div><div class="kurss-example">Dieb (dīp) — zaglis</div><div class="kurss-example">hier (hīr) — šeit</div></div>
+              <p>Garais i vācu valodā bieži tiek rakstīts kā ie.</p>
+            </section>
+
+            <section class="kurss-lesson-section">
+              <h4>Dubultie patskaņi</h4>
+              <div class="kurss-examples"><div class="kurss-example">Saal (zāl) — zāle</div><div class="kurss-example">Staat (štāt) — valsts</div><div class="kurss-example">Beere (bēre) — oga</div><div class="kurss-example">See (zē) — ezers / jūra</div><div class="kurss-example">Boot (bōt) — laiva</div><div class="kurss-example">Moor (mōr) — purvs</div></div>
+              <p>Dubultie patskaņi parasti tiek izrunāti gari.</p>
+            </section>
+
+            <section class="kurss-lesson-section">
+              <h4>Mini tests</h4>
+              <div class="kurss-test-list">
+                <div class="kurss-test-question">
+                  <div class="test-word">1. warm (varm) — silts</div>
+                  <div class="test-question">Kas šeit ir pareizi?</div>
+                  <div class="test-option">A) īss patskanis</div>
+                  <div class="test-option">B) garš patskanis</div>
+                  <div class="test-answer">✓ Pareizā atbilde: B</div>
+                  <div class="test-explanation-title">Kāpēc?</div>
+                  <div class="test-explanation">Pēc patskaņa seko viens līdzskanis. Tāpēc patskanis bieži ir garš.</div>
+                </div>
+                <div class="kurss-test-question">
+                  <div class="test-word">2. Pilz (pilc) — sēne</div>
+                  <div class="test-question">Kas šeit ir pareizi?</div>
+                  <div class="test-option">A) īss patskanis</div>
+                  <div class="test-option">B) garš patskanis</div>
+                  <div class="test-answer">✓ Pareizā atbilde: A</div>
+                  <div class="test-explanation-title">Kāpēc?</div>
+                  <div class="test-explanation">Pēc patskaņa seko vairāki līdzskaņi. Tāpēc patskanis bieži ir īss.</div>
+                </div>
+                <div class="kurss-test-question">
+                  <div class="test-word">3. Schuh (šū) — kurpe</div>
+                  <div class="test-question">Kas šeit ir pareizi?</div>
+                  <div class="test-option">A) īss patskanis</div>
+                  <div class="test-option">B) garš patskanis</div>
+                  <div class="test-answer">✓ Pareizā atbilde: B</div>
+                  <div class="test-explanation-title">Kāpēc?</div>
+                  <div class="test-explanation">Burts "h" pagarina iepriekšējo patskani.</div>
+                </div>
+                <div class="kurss-test-question">
+                  <div class="test-word">4. Fliege (flīge) — muša</div>
+                  <div class="test-question">Kas šeit ir pareizi?</div>
+                  <div class="test-option">A) īss i</div>
+                  <div class="test-option">B) garš i</div>
+                  <div class="test-answer">✓ Pareizā atbilde: B</div>
+                  <div class="test-explanation-title">Kāpēc?</div>
+                  <div class="test-explanation">"ie" vācu valodā parasti nozīmē garo i.</div>
+                </div>
+                <div class="kurss-test-question">
+                  <div class="test-word">5. Boot (bōt) — laiva</div>
+                  <div class="test-question">Kas šeit ir pareizi?</div>
+                  <div class="test-option">A) īss patskanis</div>
+                  <div class="test-option">B) garš patskanis</div>
+                  <div class="test-answer">✓ Pareizā atbilde: B</div>
+                  <div class="test-explanation-title">Kāpēc?</div>
+                  <div class="test-explanation">Dubultie patskaņi parasti ir gari.</div>
+                </div>
+              </div>
+            </section>
+
+            <section class="kurss-lesson-section">
+              <h4>Kopsavilkums</h4>
+              <ul class="kurss-summary-list"><li>viens līdzskanis pēc patskaņa → bieži garš patskanis</li><li>divi vai vairāk līdzskaņi → bieži īss patskanis</li><li>h var pagarināt patskani</li><li>ie bieži nozīmē garo i</li><li>dubultie patskaņi parasti ir gari</li></ul>
+            </section>
+          </div>
         </div>
       </section>      <section class="unwanted-overlay" id="unwantedPanel" hidden aria-label="Visi nevajadzīgie" aria-modal="true" role="dialog">
         <div class="unwanted-panel">
@@ -17539,7 +17802,13 @@
       kurssBtn: document.getElementById("kurssBtn"),
       kurssPanel: document.getElementById("kurssPanel"),
       kurssBackBtn: document.getElementById("kurssBackBtn"),
-      kurssCloseBtn: document.getElementById("kurssCloseBtn")
+      kurssCloseBtn: document.getElementById("kurssCloseBtn"),
+      kurssTitle: document.getElementById("kurssTitle"),
+      kurssSubtitle: document.getElementById("kurssSubtitle"),
+      kurssList: document.getElementById("kurssList"),
+      kurssTip: document.getElementById("kurssTip"),
+      kurssPronunciationBtn: document.getElementById("kurssPronunciationBtn"),
+      kurssPronunciationLesson: document.getElementById("kurssPronunciationLesson")
     };
 
     const pamatiSlides = [
@@ -17579,12 +17848,38 @@
       pamatiIndex = (pamatiIndex + 1) % pamatiSlides.length;
       renderPamati();
     }
+    function showKurssMenu() {
+      elements.kurssTitle.textContent = "Kurss";
+      elements.kurssSubtitle.textContent = "Vācu valodas pamati soli pa solim";
+      elements.kurssList.hidden = false;
+      elements.kurssTip.hidden = false;
+      elements.kurssPronunciationLesson.hidden = true;
+    }
+
     function openKurss() {
+      showKurssMenu();
       elements.kurssPanel.hidden = false;
     }
 
     function closeKurss() {
       elements.kurssPanel.hidden = true;
+      showKurssMenu();
+    }
+
+    function openPronunciationLesson() {
+      elements.kurssTitle.textContent = "Izruna";
+      elements.kurssSubtitle.textContent = "Patskaņi — garš un īss";
+      elements.kurssList.hidden = true;
+      elements.kurssTip.hidden = true;
+      elements.kurssPronunciationLesson.hidden = false;
+    }
+
+    function handleKurssBack() {
+      if (!elements.kurssPronunciationLesson.hidden) {
+        showKurssMenu();
+        return;
+      }
+      closeKurss();
     }
 
     function loadDirection() {
@@ -19452,8 +19747,9 @@
     }
 
     elements.kurssBtn.addEventListener("click", openKurss);
-    elements.kurssBackBtn.addEventListener("click", closeKurss);
+    elements.kurssBackBtn.addEventListener("click", handleKurssBack);
     elements.kurssCloseBtn.addEventListener("click", closeKurss);
+    elements.kurssPronunciationBtn.addEventListener("click", openPronunciationLesson);
     elements.kurssPanel.addEventListener("click", (event) => {
       if (event.target === elements.kurssPanel) closeKurss();
     });
