@@ -1291,35 +1291,35 @@
       }
     }
 
-    /* Note-card flashcard layout */
+    /* Centered note-card flashcard layout */
     .card:not(:has(.verb-headings)) {
-      align-items: start;
-      text-align: left;
+      align-items: center;
+      text-align: center;
     }
 
     .card:not(:has(.verb-headings)) .card-inner {
       width: 100%;
       max-width: 100%;
-      justify-items: stretch;
-      align-content: start;
+      justify-items: center;
+      align-content: center;
       gap: 18px;
     }
 
     .card:not(:has(.verb-headings)) .badge {
-      justify-self: start;
+      justify-self: center;
     }
 
     .card:not(:has(.verb-headings)) .word {
       width: 100%;
-      text-align: left;
+      text-align: center;
     }
 
     .card:not(:has(.verb-headings)) .translation {
-      width: 100%;
+      width: clamp(140px, 34%, 280px);
       min-height: 0;
       padding-top: 18px;
       border-top: 1px solid rgba(184, 193, 206, 0.35);
-      text-align: left;
+      text-align: center;
     }
 
     @media (max-width: 768px) {
@@ -1328,6 +1328,7 @@
       }
 
       .card:not(:has(.verb-headings)) .translation {
+        width: clamp(110px, 36%, 220px);
         padding-top: 14px;
       }
     }
