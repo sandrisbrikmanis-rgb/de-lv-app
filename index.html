@@ -19585,7 +19585,10 @@
       state.lastSessionIndex = 0;
       state.pendingLastSessionIds = [];
       saveLastCompletedSession();
-      setNotice("Pēdējā sesija atzīmēta kā iemācīta.");
+      createSession();
+      setNotice(state.session && state.session.ids.length
+        ? "Pēdējā sesija atzīmēta kā iemācīta. Ielādēta nākamā sesija."
+        : "Pēdējā sesija atzīmēta kā iemācīta.");
       render();
     }
 
