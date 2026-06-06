@@ -109,11 +109,11 @@
     }
 
     #groupButtons button::before {
-      content: "[";
+      content: none;
     }
 
     #groupButtons button::after {
-      content: "]";
+      content: none;
     }
 
     #groupButtons button:nth-child(8) {
@@ -19698,11 +19698,11 @@
         button.type = "button";
 
         if (group === "verbs") {
-          button.textContent = "[Darbības vārdi]";
+          button.textContent = `Darbības vārdi · ${verbEntries.length}`;
           button.className = state.verbMode ? "group-btn active" : "group-btn";
           button.addEventListener("click", selectVerbs);
         } else {
-          button.textContent = `[${groupDisplayLabel(group)}]`;
+          button.textContent = `${groupDisplayLabel(group)} · ${baseCardsForGroup(group).length}`;
           button.className = !state.verbMode && group === state.group ? "group-btn active" : "group-btn";
           button.addEventListener("click", () => selectGroup(group));
         }
