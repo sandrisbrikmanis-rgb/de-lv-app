@@ -1032,6 +1032,11 @@
       gap: 14px;
     }
 
+    .kurss-list[hidden],
+    .kurss-tip[hidden] {
+      display: none;
+    }
+
     .kurss-item {
       width: 100%;
       min-height: 76px;
@@ -1744,23 +1749,6 @@
       padding-right: 10px;
     }
   
-    /* Mobile-only: avoid splitting card words letter by letter */
-    @media (max-width: 768px) {
-      .app-shell > .card .word,
-      .app-shell > .card .translation,
-      .card:has(.verb-headings) .word,
-      .card:has(.verb-headings) .translation {
-        overflow-wrap: break-word !important;
-        word-break: keep-all !important;
-        hyphens: none !important;
-        white-space: normal;
-      }
-
-      .app-shell > .card .word {
-        line-height: 1.08;
-      }
-    }
-  
     /* Global page background fallback for all browsers */
     html {
       min-height: 100%;
@@ -1871,5 +1859,117 @@
         min-height: 50px;
         padding: 8px 10px;
         font-size: clamp(0.96rem, 4vw, 1.1rem);
+      }
+    }
+
+    #kurssLesson1 {
+      max-width: 100%;
+      overflow-x: hidden;
+    }
+
+    #kurssLesson1 .lesson1-accordion {
+      border: 1px solid #263544;
+      border-radius: 12px;
+      background: rgba(13, 24, 35, 0.82);
+      margin-bottom: 14px;
+      overflow: hidden;
+    }
+
+    #kurssLesson1 .lesson1-accordion > summary {
+      cursor: pointer;
+      list-style: none;
+      padding: 14px 16px;
+      color: #f8fafc;
+      font-weight: 800;
+      border-bottom: 1px solid rgba(86, 105, 128, 0.28);
+    }
+
+    #kurssLesson1 .lesson1-accordion > summary::-webkit-details-marker {
+      display: none;
+    }
+
+    #kurssLesson1 .lesson1-content {
+      padding: 14px 16px 16px;
+    }
+
+    #kurssLesson1 .lesson1-content > h4:first-child {
+      margin-top: 0;
+    }
+
+    #kurssLesson1 .lesson1-verb-table {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 8px;
+      margin-bottom: 16px;
+    }
+
+    #kurssLesson1 .kurss-example,
+    #kurssLesson1 p,
+    #kurssLesson1 h4,
+    #kurssLesson1 summary {
+      max-width: 100%;
+      overflow-wrap: break-word;
+      word-break: normal;
+    }
+
+    @media (min-width: 769px) {
+      #kurssLesson1 .lesson1-verb-table {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 768px) {
+      .kurss-panel {
+        width: min(96vw, 760px);
+        max-height: 94vh;
+      }
+
+      #kurssLesson1 .lesson1-accordion:not([open]) .lesson1-content {
+        display: none;
+      }
+
+      #kurssLesson1 .lesson1-accordion > summary {
+        padding: 13px 14px;
+        font-size: 0.98rem;
+      }
+
+      #kurssLesson1 .lesson1-content {
+        padding: 12px 12px 14px;
+      }
+
+      #kurssLesson1 .lesson1-verb-table,
+      #kurssLesson1 .kurss-examples {
+        grid-template-columns: 1fr;
+      }
+
+      #kurssLesson1 .kurss-example {
+        white-space: normal;
+        overflow-wrap: break-word;
+        word-break: normal;
+      }
+    }
+    /* Mobile-only: keep flashcard words from splitting letter by letter */
+    @media (max-width: 768px) {
+      .app-shell > .card .word,
+      .app-shell > .card .translation,
+      .card .word,
+      .card .translation {
+        word-break: normal !important;
+        overflow-wrap: normal !important;
+        hyphens: none !important;
+        white-space: normal !important;
+        max-width: 100%;
+      }
+
+      .app-shell > .card .word,
+      .card .word {
+        font-size: clamp(1.95rem, 9vw, 3.2rem);
+        line-height: 1.12;
+      }
+
+      .app-shell > .card .translation,
+      .card .translation {
+        font-size: clamp(1.25rem, 6vw, 2.15rem);
+        line-height: 1.18;
       }
     }

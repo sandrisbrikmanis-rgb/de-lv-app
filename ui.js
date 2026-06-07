@@ -165,9 +165,13 @@ const elements = {
   kurssList: document.getElementById("kurssList"),
   kurssTip: document.getElementById("kurssTip"),
   kurssPronunciationBtn: document.getElementById("kurssPronunciationBtn"),
+  kurssLessonsBtn: document.getElementById("kurssLessonsBtn"),
   kurssVerbBasicsBtn: document.getElementById("kurssVerbBasicsBtn"),
   kurssSentenceStructureBtn: document.getElementById("kurssSentenceStructureBtn"),
   kurssPronunciationLesson: document.getElementById("kurssPronunciationLesson"),
+  kurssLessonsMenu: document.getElementById("kurssLessonsMenu"),
+  kurssLesson1Btn: document.getElementById("kurssLesson1Btn"),
+  kurssLesson1: document.getElementById("kurssLesson1"),
   kurssPronunciationMenu: document.getElementById("kurssPronunciationMenu"),
   kurssVowelsLessonBtn: document.getElementById("kurssVowelsLessonBtn"),
   kurssConsonantsLessonBtn: document.getElementById("kurssConsonantsLessonBtn"),
@@ -224,12 +228,15 @@ function nextPamati() {
   renderPamati();
 }
 function showKurssMenu() {
+  elements.kurssBackBtn.textContent = "‹ Kurss";
   elements.kurssTitle.textContent = "Kurss";
   elements.kurssSubtitle.textContent = "Vācu valodas pamati soli pa solim";
   elements.kurssList.hidden = false;
   elements.kurssTip.hidden = false;
   elements.kurssPronunciationMenu.hidden = true;
+  elements.kurssLessonsMenu.hidden = true;
   elements.kurssPronunciationLesson.hidden = true;
+  elements.kurssLesson1.hidden = true;
   elements.kurssConsonantsLesson.hidden = true;
   elements.kurssVerbBasicsLesson.hidden = true;
   elements.kurssSentenceStructureLesson.hidden = true;
@@ -251,7 +258,9 @@ function openPronunciationLesson() {
   elements.kurssList.hidden = true;
   elements.kurssTip.hidden = true;
   elements.kurssPronunciationMenu.hidden = true;
+  elements.kurssLessonsMenu.hidden = true;
   elements.kurssPronunciationLesson.hidden = false;
+  elements.kurssLesson1.hidden = true;
   elements.kurssConsonantsLesson.hidden = false;
   elements.kurssVerbBasicsLesson.hidden = true;
   elements.kurssSentenceStructureLesson.hidden = true;
@@ -278,6 +287,45 @@ function openConsonantsLesson() {
 }
 
 
+function openLessonsMenu() {
+  elements.kurssBackBtn.textContent = "‹ Kurss";
+  elements.kurssTitle.textContent = "Lekcijas";
+  elements.kurssSubtitle.textContent = "Mācību lekcijas secīgā kārtībā no 1 līdz 39.";
+  elements.kurssList.hidden = true;
+  elements.kurssTip.hidden = true;
+  elements.kurssPronunciationMenu.hidden = true;
+  elements.kurssLessonsMenu.hidden = false;
+  elements.kurssPronunciationLesson.hidden = true;
+  elements.kurssConsonantsLesson.hidden = true;
+  elements.kurssLesson1.hidden = true;
+  elements.kurssVerbBasicsLesson.hidden = true;
+  elements.kurssSentenceStructureLesson.hidden = true;
+}
+
+function prepareLesson1Accordion() {
+  const sections = Array.from(elements.kurssLesson1.querySelectorAll(".lesson1-accordion"));
+  const isMobile = window.matchMedia("(max-width: 768px)").matches;
+  sections.forEach((section) => {
+    section.open = !isMobile;
+  });
+}
+
+function openLesson1() {
+  elements.kurssBackBtn.textContent = "‹ Lekcijas";
+  elements.kurssTitle.textContent = "Lekcija 1";
+  elements.kurssSubtitle.textContent = "Darbības vārdi tagadnē, vārdiņi, gramatika un treniņš";
+  elements.kurssList.hidden = true;
+  elements.kurssTip.hidden = true;
+  elements.kurssPronunciationMenu.hidden = true;
+  elements.kurssLessonsMenu.hidden = true;
+  elements.kurssPronunciationLesson.hidden = true;
+  elements.kurssConsonantsLesson.hidden = true;
+  elements.kurssLesson1.hidden = false;
+  elements.kurssVerbBasicsLesson.hidden = true;
+  elements.kurssSentenceStructureLesson.hidden = true;
+  prepareLesson1Accordion();
+}
+
 function openVerbBasicsLesson() {
   elements.kurssTitle.textContent = "Darbības vārdu pamati";
   elements.kurssSubtitle.textContent = "Personas, formas un biežākie darbības vārdi.";
@@ -286,6 +334,7 @@ function openVerbBasicsLesson() {
   elements.kurssPronunciationMenu.hidden = true;
   elements.kurssPronunciationLesson.hidden = true;
   elements.kurssConsonantsLesson.hidden = true;
+  elements.kurssLesson1.hidden = true;
   elements.kurssVerbBasicsLesson.hidden = false;
   elements.kurssSentenceStructureLesson.hidden = true;
 }
@@ -298,11 +347,17 @@ function openSentenceStructureLesson() {
   elements.kurssPronunciationMenu.hidden = true;
   elements.kurssPronunciationLesson.hidden = true;
   elements.kurssConsonantsLesson.hidden = true;
+  elements.kurssLesson1.hidden = true;
   elements.kurssVerbBasicsLesson.hidden = true;
   elements.kurssSentenceStructureLesson.hidden = false;
 }
 function handleKurssBack() {
-  if (!elements.kurssPronunciationLesson.hidden || !elements.kurssConsonantsLesson.hidden || !elements.kurssPronunciationMenu.hidden || !elements.kurssVerbBasicsLesson.hidden || !elements.kurssSentenceStructureLesson.hidden) {
+  if (!elements.kurssLesson1.hidden) {
+    openLessonsMenu();
+    return;
+  }
+
+  if (!elements.kurssPronunciationLesson.hidden || !elements.kurssConsonantsLesson.hidden || !elements.kurssPronunciationMenu.hidden || !elements.kurssLessonsMenu.hidden || !elements.kurssVerbBasicsLesson.hidden || !elements.kurssSentenceStructureLesson.hidden) {
     showKurssMenu();
     return;
   }
@@ -2194,10 +2249,26 @@ elements.kurssBtn.addEventListener("click", openKurss);
 elements.kurssBackBtn.addEventListener("click", handleKurssBack);
 elements.kurssCloseBtn.addEventListener("click", closeKurss);
 elements.kurssPronunciationBtn.addEventListener("click", openPronunciationLesson);
+elements.kurssLessonsBtn.addEventListener("click", openLessonsMenu);
+elements.kurssLesson1Btn.addEventListener("click", openLesson1);
 elements.kurssVerbBasicsBtn.addEventListener("click", openVerbBasicsLesson);
 elements.kurssSentenceStructureBtn.addEventListener("click", openSentenceStructureLesson);
 elements.kurssVowelsLessonBtn.addEventListener("click", openVowelsLesson);
 elements.kurssConsonantsLessonBtn.addEventListener("click", openConsonantsLesson);
+elements.kurssLesson1.addEventListener("toggle", (event) => {
+  const section = event.target.closest(".lesson1-accordion");
+  if (!section || !section.open || !window.matchMedia("(max-width: 768px)").matches) return;
+  elements.kurssLesson1.querySelectorAll(".lesson1-accordion").forEach((other) => {
+    if (other !== section) other.open = false;
+  });
+}, true);
+elements.kurssLesson1.addEventListener("click", (event) => {
+  const card = event.target.closest("[data-course-card-front]");
+  if (!card) return;
+  const showingBack = card.dataset.showingBack === "true";
+  card.innerHTML = showingBack ? card.dataset.courseCardFront : card.dataset.courseCardBack;
+  card.dataset.showingBack = showingBack ? "false" : "true";
+});
 elements.kurssPanel.addEventListener("click", (event) => {
   if (event.target === elements.kurssPanel) closeKurss();
 });
