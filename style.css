@@ -2131,14 +2131,61 @@
         grid-template-columns: 1fr;
       }
 
-      #kurssLesson1 .lesson1-conjugation {
-        grid-template-columns: minmax(58px, 0.8fr) minmax(76px, 1fr) minmax(104px, 1.45fr);
-        gap: 7px 10px;
-        font-size: 0.92rem;
+      #kurssLesson1 .lesson1-verb-card {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        padding: 12px;
+        overflow: hidden;
       }
 
-      #kurssLesson1 .lesson1-verb-card {
-        padding: 12px;
+      #kurssLesson1 .lesson1-verb-card h4 {
+        max-width: 100%;
+        font-size: 0.98rem;
+        line-height: 1.25;
+        overflow-wrap: normal;
+        word-break: normal;
+        hyphens: none;
+      }
+
+      #kurssLesson1 .lesson1-conjugation {
+        grid-template-columns: minmax(0, auto) minmax(0, 1fr);
+        gap: 3px 9px;
+        font-size: 0.9rem;
+        max-width: 100%;
+        overflow: hidden;
+      }
+
+      #kurssLesson1 .lesson1-conjugation > span,
+      #kurssLesson1 .lesson1-conjugation > strong {
+        min-width: 0;
+        max-width: 100%;
+        overflow-wrap: normal;
+        word-break: normal;
+        hyphens: none;
+      }
+
+      #kurssLesson1 .lesson1-conjugation > span:nth-child(3n + 1) {
+        color: #94a3b8;
+      }
+
+      #kurssLesson1 .lesson1-conjugation > strong:nth-child(3n + 2) {
+        color: #f8fafc;
+      }
+
+      #kurssLesson1 .lesson1-conjugation > span:nth-child(3n) {
+        grid-column: 1 / -1;
+        padding: 0 0 7px 0;
+        margin-bottom: 4px;
+        border-bottom: 1px solid rgba(148, 163, 184, 0.12);
+        color: #b8c2cf;
+        line-height: 1.28;
+      }
+
+      #kurssLesson1 .lesson1-conjugation > span:nth-last-child(1) {
+        border-bottom: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
       }
 
       #kurssLesson1 .lesson1-accordion > summary {
