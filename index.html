@@ -1750,6 +1750,61 @@
       padding-left: 10px;
       padding-right: 10px;
     }
+  
+    /* Mobile-only: avoid splitting card words letter by letter */
+    @media (max-width: 768px) {
+      .app-shell > .card .word,
+      .app-shell > .card .translation,
+      .card:has(.verb-headings) .word,
+      .card:has(.verb-headings) .translation {
+        overflow-wrap: break-word !important;
+        word-break: keep-all !important;
+        hyphens: none !important;
+        white-space: normal;
+      }
+
+      .app-shell > .card .word {
+        line-height: 1.08;
+      }
+    }
+  
+    /* Global page background fallback for all browsers */
+    html {
+      min-height: 100%;
+      background: #121619;
+      overflow-x: hidden;
+    }
+
+    body {
+      min-height: 100vh;
+      background:
+        linear-gradient(135deg, rgba(10, 70, 160, 0.2), transparent 36%),
+        linear-gradient(315deg, rgba(20, 120, 80, 0.14), transparent 34%),
+        #121619;
+      overflow-x: hidden;
+    }
+  
+    /* Mobile-only: stable 3 + 2 CSS Grid for mode buttons */
+    @media (max-width: 768px) {
+      .mode-row {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      #modeButtons {
+        display: grid;
+        grid-column: 1 / -1;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: inherit;
+        min-width: 0;
+      }
+
+      #modeButtons button,
+      #pamatiBtn,
+      #kurssBtn {
+        min-width: 0;
+        white-space: nowrap;
+      }
+    }
   </style>
 </head>
 <body>
