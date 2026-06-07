@@ -96,7 +96,7 @@ const A1_WORDS = [
   },
   {
     "de": "ab heute",
-    "lv": "sākot no šīs dienas",
+    "lv": "no šodienas",
     "level": "A1"
   },
   {

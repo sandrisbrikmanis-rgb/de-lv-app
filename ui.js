@@ -302,12 +302,47 @@ function openLessonsMenu() {
   elements.kurssSentenceStructureLesson.hidden = true;
 }
 
+const lesson1TrainingCards = [
+  { front: "Vai tu nāc?", back: "Kommst du?" },
+  { front: "Jā, es nāku.", back: "Ja, ich komme." },
+  { front: "Kas dzied?", back: "Wer singt?" },
+  { front: "Marta dzied.", back: "Marta singt." },
+  { front: "Vai viņi iet?", back: "Gehen sie?" },
+  { front: "Jā, viņi iet.", back: "Ja, sie gehen." },
+  { front: "Vai viņš stāv?", back: "Steht er?" },
+  { front: "Jā, viņš stāv.", back: "Ja, er steht." },
+  { front: "Mēs ejam.", back: "Wir gehen." },
+  { front: "Vai jūs ejat?", back: "Geht ihr?" },
+  { front: "Albert un Marta nāk un iet.", back: "Albert und Marta kommen und gehen." }
+];
+
+function renderLesson1TrainingCard(index = 0, showingBack = false) {
+  const card = elements.kurssLesson1.querySelector("[data-lesson1-training-card]");
+  if (!card) return;
+  const safeIndex = ((index % lesson1TrainingCards.length) + lesson1TrainingCards.length) % lesson1TrainingCards.length;
+  const item = lesson1TrainingCards[safeIndex];
+  card.dataset.trainingIndex = String(safeIndex);
+  card.dataset.showingBack = showingBack ? "true" : "false";
+  const answerHtml = showingBack ? `<span class="lesson1-training-divider" aria-hidden="true"></span><span class="lesson1-training-answer">${item.back}</span>` : "";
+  card.innerHTML = `<span class="lesson1-training-progress">Lekcija 1 · Treniņš: ${safeIndex + 1} / ${lesson1TrainingCards.length}</span><span class="lesson1-training-text">${item.front}</span>${answerHtml}`;
+}
+
+function handleLesson1TrainingCardClick(card) {
+  const currentIndex = Number(card.dataset.trainingIndex || "0");
+  const showingBack = card.dataset.showingBack === "true";
+  if (showingBack) {
+    renderLesson1TrainingCard(currentIndex + 1, false);
+  } else {
+    renderLesson1TrainingCard(currentIndex, true);
+  }
+}
+
 function prepareLesson1Accordion() {
   const sections = Array.from(elements.kurssLesson1.querySelectorAll(".lesson1-accordion"));
-  const isMobile = window.matchMedia("(max-width: 768px)").matches;
-  sections.forEach((section) => {
-    section.open = !isMobile;
+  sections.forEach((section, index) => {
+    section.open = index === 0;
   });
+  renderLesson1TrainingCard(0, false);
 }
 
 function openLesson1() {
@@ -2257,12 +2292,20 @@ elements.kurssVowelsLessonBtn.addEventListener("click", openVowelsLesson);
 elements.kurssConsonantsLessonBtn.addEventListener("click", openConsonantsLesson);
 elements.kurssLesson1.addEventListener("toggle", (event) => {
   const section = event.target.closest(".lesson1-accordion");
-  if (!section || !section.open || !window.matchMedia("(max-width: 768px)").matches) return;
+  if (!section || !section.open) return;
   elements.kurssLesson1.querySelectorAll(".lesson1-accordion").forEach((other) => {
     if (other !== section) other.open = false;
   });
+  if (!elements.kurssLesson1.hidden) {
+    section.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
 }, true);
 elements.kurssLesson1.addEventListener("click", (event) => {
+  const trainingCard = event.target.closest("[data-lesson1-training-card]");
+  if (trainingCard) {
+    handleLesson1TrainingCardClick(trainingCard);
+    return;
+  }
   const card = event.target.closest("[data-course-card-front]");
   if (!card) return;
   const showingBack = card.dataset.showingBack === "true";
