@@ -40,8 +40,8 @@ const A1_WORDS = [
     "level": "A1"
   },
   {
-    "de": "all",
-    "lv": "viss; visi",
+    "de": "alle",
+    "lv": "visi",
     "level": "A1"
   },
   {
