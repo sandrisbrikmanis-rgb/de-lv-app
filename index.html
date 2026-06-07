@@ -1833,6 +1833,53 @@
         border-color: #ff386c;
       }
     }
+  
+    /* Mobile-only: compact split labels for Teikumi and Darbības vārdi */
+    @media (max-width: 768px) {
+      #groupButtons button:nth-child(4),
+      #groupButtons button:nth-child(8) {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1px;
+        white-space: normal;
+        overflow: hidden;
+        line-height: 1.05;
+      }
+
+      #groupButtons button:nth-child(4) .group-label-separator,
+      #groupButtons button:nth-child(8) .group-label-separator {
+        display: none;
+      }
+
+      #groupButtons button:nth-child(4) .group-label-count::before,
+      #groupButtons button:nth-child(8) .group-label-count::before {
+        content: "· ";
+      }
+
+      #groupButtons button:nth-child(4) .group-label-name,
+      #groupButtons button:nth-child(4) .group-label-count,
+      #groupButtons button:nth-child(8) .group-label-name,
+      #groupButtons button:nth-child(8) .group-label-count {
+        display: block;
+        max-width: 100%;
+      }
+
+      #groupButtons button:nth-child(8) {
+        font-size: clamp(0.54rem, 2.35vw, 0.66rem);
+      }
+    }
+
+    /* Mobile-only: reduce Pamati and Kurss height after emphasis */
+    @media (max-width: 768px) {
+      #pamatiBtn,
+      #kurssBtn {
+        min-height: 50px;
+        padding: 8px 10px;
+        font-size: clamp(0.96rem, 4vw, 1.1rem);
+      }
+    }
   </style>
 </head>
 <body>
@@ -19776,16 +19823,30 @@
       elements.groupButtons.innerHTML = "";
       const displayOrder = ["A1", "A2", "B1", "Sätze", "B2", "C1", "C2", "verbs"];
 
+      function setGroupButtonLabel(button, label, count) {
+        button.innerHTML = "";
+        const name = document.createElement("span");
+        name.className = "group-label-name";
+        name.textContent = label;
+        const separator = document.createElement("span");
+        separator.className = "group-label-separator";
+        separator.textContent = " · ";
+        const value = document.createElement("span");
+        value.className = "group-label-count";
+        value.textContent = count;
+        button.append(name, separator, value);
+      }
+
       for (const group of displayOrder) {
         const button = document.createElement("button");
         button.type = "button";
 
         if (group === "verbs") {
-          button.textContent = `Darbības vārdi · ${verbEntries.length}`;
+          setGroupButtonLabel(button, "Darbības vārdi", verbEntries.length);
           button.className = state.verbMode ? "group-btn active" : "group-btn";
           button.addEventListener("click", selectVerbs);
         } else {
-          button.textContent = `${groupDisplayLabel(group)} · ${baseCardsForGroup(group).length}`;
+          setGroupButtonLabel(button, groupDisplayLabel(group), baseCardsForGroup(group).length);
           button.className = !state.verbMode && group === state.group ? "group-btn active" : "group-btn";
           button.addEventListener("click", () => selectGroup(group));
         }
