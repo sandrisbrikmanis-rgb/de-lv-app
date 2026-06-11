@@ -370,7 +370,7 @@ const A1_WORDS = [
     "level": "A1"
   },
   {
-    "de": "August",
+    "de": "der August",
     "lv": "augusts",
     "level": "A1"
   },
@@ -1650,7 +1650,7 @@ const A1_WORDS = [
     "level": "A1"
   },
   {
-    "de": "Januar",
+    "de": "der Januar",
     "lv": "janvāris",
     "level": "A1"
   },
@@ -1680,7 +1680,7 @@ const A1_WORDS = [
     "level": "A1"
   },
   {
-    "de": "Juli",
+    "de": "der Juli",
     "lv": "jūlijs",
     "level": "A1"
   },
@@ -1690,7 +1690,7 @@ const A1_WORDS = [
     "level": "A1"
   },
   {
-    "de": "Juni",
+    "de": "der Juni",
     "lv": "jūnijs",
     "level": "A1"
   },

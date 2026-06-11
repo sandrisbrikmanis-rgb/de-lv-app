@@ -165,10 +165,12 @@ const elements = {
   kurssList: document.getElementById("kurssList"),
   kurssTip: document.getElementById("kurssTip"),
   kurssPronunciationBtn: document.getElementById("kurssPronunciationBtn"),
+  kurssArticlesBtn: document.getElementById("kurssArticlesBtn"),
   kurssLessonsBtn: document.getElementById("kurssLessonsBtn"),
   kurssVerbBasicsBtn: document.getElementById("kurssVerbBasicsBtn"),
   kurssSentenceStructureBtn: document.getElementById("kurssSentenceStructureBtn"),
   kurssPronunciationLesson: document.getElementById("kurssPronunciationLesson"),
+  kurssArticlesLesson: document.getElementById("kurssArticlesLesson"),
   kurssLessonsMenu: document.getElementById("kurssLessonsMenu"),
   kurssLesson1Btn: document.getElementById("kurssLesson1Btn"),
   kurssLesson1: document.getElementById("kurssLesson1"),
@@ -236,6 +238,7 @@ function showKurssMenu() {
   elements.kurssPronunciationMenu.hidden = true;
   elements.kurssLessonsMenu.hidden = true;
   elements.kurssPronunciationLesson.hidden = true;
+  elements.kurssArticlesLesson.hidden = true;
   elements.kurssLesson1.hidden = true;
   elements.kurssConsonantsLesson.hidden = true;
   elements.kurssVerbBasicsLesson.hidden = true;
@@ -252,6 +255,22 @@ function closeKurss() {
   showKurssMenu();
 }
 
+
+function openArticlesLesson() {
+  elements.kurssTitle.textContent = "Artikuli";
+  elements.kurssSubtitle.textContent = "Der, die, das un lietojuma pamati.";
+  elements.kurssList.hidden = true;
+  elements.kurssTip.hidden = true;
+  elements.kurssPronunciationMenu.hidden = true;
+  elements.kurssLessonsMenu.hidden = true;
+  elements.kurssPronunciationLesson.hidden = true;
+  elements.kurssArticlesLesson.hidden = false;
+  elements.kurssConsonantsLesson.hidden = true;
+  elements.kurssLesson1.hidden = true;
+  elements.kurssVerbBasicsLesson.hidden = true;
+  elements.kurssSentenceStructureLesson.hidden = true;
+}
+
 function openPronunciationLesson() {
   elements.kurssTitle.textContent = "Izruna";
   elements.kurssSubtitle.textContent = "Vācu valodas skaņas un izrunas pamati";
@@ -260,6 +279,7 @@ function openPronunciationLesson() {
   elements.kurssPronunciationMenu.hidden = true;
   elements.kurssLessonsMenu.hidden = true;
   elements.kurssPronunciationLesson.hidden = false;
+  elements.kurssArticlesLesson.hidden = true;
   elements.kurssLesson1.hidden = true;
   elements.kurssConsonantsLesson.hidden = false;
   elements.kurssVerbBasicsLesson.hidden = true;
@@ -271,6 +291,7 @@ function openVowelsLesson() {
   elements.kurssSubtitle.textContent = "Patskaņi — garš un īss";
   elements.kurssPronunciationMenu.hidden = true;
   elements.kurssPronunciationLesson.hidden = false;
+  elements.kurssArticlesLesson.hidden = true;
   elements.kurssConsonantsLesson.hidden = true;
   elements.kurssVerbBasicsLesson.hidden = true;
   elements.kurssSentenceStructureLesson.hidden = true;
@@ -281,6 +302,7 @@ function openConsonantsLesson() {
   elements.kurssSubtitle.textContent = "Līdzskaņi un burtu savienojumi";
   elements.kurssPronunciationMenu.hidden = true;
   elements.kurssPronunciationLesson.hidden = true;
+  elements.kurssArticlesLesson.hidden = true;
   elements.kurssConsonantsLesson.hidden = false;
   elements.kurssVerbBasicsLesson.hidden = true;
   elements.kurssSentenceStructureLesson.hidden = true;
@@ -296,6 +318,7 @@ function openLessonsMenu() {
   elements.kurssPronunciationMenu.hidden = true;
   elements.kurssLessonsMenu.hidden = false;
   elements.kurssPronunciationLesson.hidden = true;
+  elements.kurssArticlesLesson.hidden = true;
   elements.kurssConsonantsLesson.hidden = true;
   elements.kurssLesson1.hidden = true;
   elements.kurssVerbBasicsLesson.hidden = true;
@@ -354,6 +377,7 @@ function openLesson1() {
   elements.kurssPronunciationMenu.hidden = true;
   elements.kurssLessonsMenu.hidden = true;
   elements.kurssPronunciationLesson.hidden = true;
+  elements.kurssArticlesLesson.hidden = true;
   elements.kurssConsonantsLesson.hidden = true;
   elements.kurssLesson1.hidden = false;
   elements.kurssVerbBasicsLesson.hidden = true;
@@ -368,6 +392,7 @@ function openVerbBasicsLesson() {
   elements.kurssTip.hidden = true;
   elements.kurssPronunciationMenu.hidden = true;
   elements.kurssPronunciationLesson.hidden = true;
+  elements.kurssArticlesLesson.hidden = true;
   elements.kurssConsonantsLesson.hidden = true;
   elements.kurssLesson1.hidden = true;
   elements.kurssVerbBasicsLesson.hidden = false;
@@ -381,6 +406,7 @@ function openSentenceStructureLesson() {
   elements.kurssTip.hidden = true;
   elements.kurssPronunciationMenu.hidden = true;
   elements.kurssPronunciationLesson.hidden = true;
+  elements.kurssArticlesLesson.hidden = true;
   elements.kurssConsonantsLesson.hidden = true;
   elements.kurssLesson1.hidden = true;
   elements.kurssVerbBasicsLesson.hidden = true;
@@ -392,7 +418,7 @@ function handleKurssBack() {
     return;
   }
 
-  if (!elements.kurssPronunciationLesson.hidden || !elements.kurssConsonantsLesson.hidden || !elements.kurssPronunciationMenu.hidden || !elements.kurssLessonsMenu.hidden || !elements.kurssVerbBasicsLesson.hidden || !elements.kurssSentenceStructureLesson.hidden) {
+  if (!elements.kurssPronunciationLesson.hidden || !elements.kurssArticlesLesson.hidden || !elements.kurssConsonantsLesson.hidden || !elements.kurssPronunciationMenu.hidden || !elements.kurssLessonsMenu.hidden || !elements.kurssVerbBasicsLesson.hidden || !elements.kurssSentenceStructureLesson.hidden) {
     showKurssMenu();
     return;
   }
@@ -1026,25 +1052,62 @@ function resetSpellingTask() {
 }
 
 function normalizeTypedAnswer(value) {
-  return String(value || "")
-    .trim()
-    .replace(/\s+/g, " ")
-    .toLocaleLowerCase();
-}
-
-function expectedAnswerVariants(value) {
-  const normalized = normalizeTypedAnswer(value);
-  const variants = [normalized];
-  const withoutArticle = normalized.replace(/^(der|die|das|ein|eine|einen|einem|einer)\s+/i, "");
-  if (withoutArticle && withoutArticle !== normalized) {
-    variants.push(withoutArticle);
-  }
-  return variants;
+  return String(value || "").trim();
 }
 
 function typedAnswerIsCorrect(answer, expected) {
-  const normalizedAnswer = normalizeTypedAnswer(answer);
-  return expectedAnswerVariants(expected).includes(normalizedAnswer);
+  return normalizeTypedAnswer(answer) === normalizeTypedAnswer(expected);
+}
+
+function escapeHtml(value) {
+  return String(value || "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+}
+
+function spellingDiffHtml(answer, expected) {
+  const typed = normalizeTypedAnswer(answer);
+  const correct = normalizeTypedAnswer(expected);
+  const rows = typed.length + 1;
+  const cols = correct.length + 1;
+  const dp = Array.from({ length: rows }, () => Array(cols).fill(0));
+
+  for (let i = 0; i < rows; i++) dp[i][0] = i;
+  for (let j = 0; j < cols; j++) dp[0][j] = j;
+
+  for (let i = 1; i < rows; i++) {
+    for (let j = 1; j < cols; j++) {
+      const cost = typed[i - 1] === correct[j - 1] ? 0 : 1;
+      dp[i][j] = Math.min(
+        dp[i - 1][j] + 1,
+        dp[i][j - 1] + 1,
+        dp[i - 1][j - 1] + cost
+      );
+    }
+  }
+
+  const parts = [];
+  let i = typed.length;
+  let j = correct.length;
+  while (i > 0 || j > 0) {
+    if (i > 0 && j > 0 && dp[i][j] === dp[i - 1][j - 1] + (typed[i - 1] === correct[j - 1] ? 0 : 1)) {
+      const ch = escapeHtml(typed[i - 1]);
+      parts.unshift(typed[i - 1] === correct[j - 1] ? ch : '<span class="spelling-error-char">' + ch + '</span>');
+      i--;
+      j--;
+    } else if (i > 0 && dp[i][j] === dp[i - 1][j] + 1) {
+      parts.unshift('<span class="spelling-error-char">' + escapeHtml(typed[i - 1]) + '</span>');
+      i--;
+    } else {
+      parts.unshift('<span class="spelling-missing-char" title="trūkst: ' + escapeHtml(correct[j - 1]) + '">□</span>');
+      j--;
+    }
+  }
+
+  return parts.join("") || '<span class="spelling-missing-char">□</span>';
 }
 
 function spellingCardId(card) {
@@ -2090,8 +2153,15 @@ function renderSpellingControls() {
     elements.spellingResult.textContent = "";
   } else if (state.spellingCorrect) {
     elements.spellingResult.textContent = "✓ Pareizi";
+  } else if (task) {
+    elements.spellingResult.innerHTML = `
+      <div class="spelling-incorrect-label">✗ Nepareizi</div>
+      <div class="spelling-user-answer">${spellingDiffHtml(state.spellingAnswer, task.expected)}</div>
+      <div class="spelling-expected-label">Pareizi:</div>
+      <div class="spelling-expected-answer">${escapeHtml(normalizeTypedAnswer(task.expected))}</div>
+    `;
   } else {
-    elements.spellingResult.textContent = task ? `✗ Nepareizi. Expected: ${task.expected}` : "✗ Nepareizi";
+    elements.spellingResult.textContent = "✗ Nepareizi";
   }
 }
 
@@ -2284,6 +2354,7 @@ elements.kurssBtn.addEventListener("click", openKurss);
 elements.kurssBackBtn.addEventListener("click", handleKurssBack);
 elements.kurssCloseBtn.addEventListener("click", closeKurss);
 elements.kurssPronunciationBtn.addEventListener("click", openPronunciationLesson);
+elements.kurssArticlesBtn.addEventListener("click", openArticlesLesson);
 elements.kurssLessonsBtn.addEventListener("click", openLessonsMenu);
 elements.kurssLesson1Btn.addEventListener("click", openLesson1);
 elements.kurssVerbBasicsBtn.addEventListener("click", openVerbBasicsLesson);
