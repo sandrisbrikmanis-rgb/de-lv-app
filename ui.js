@@ -69,7 +69,9 @@ const reviewStorageKey = "deLvFlashcardsReviewStatus";
 const sessionStorageKey = "deLvFlashcardsSession";
 const lastCompletedSessionStorageKey = "deLvFlashcardsLastCompletedSession";
 const problemStatsStorageKey = "deLvFlashcardsProblemStats";
-const unwantedStorageKey = "deLvFlashcardsUnwanted";
+const legacyUnwantedStorageKey = "deLvFlashcardsUnwanted";
+const unwantedStorageKey = "deLvFlashcardsExplicitUnwanted";
+const masteredStorageKey = "deLvFlashcardsMastered100";
 const sessionModes = {
   easy: { label: "🟢 Viegls", newCount: 5, reviewCount: 5 },
   normal: { label: "🟡 Normāls", newCount: 10, reviewCount: 5 },
@@ -107,6 +109,7 @@ const state = {
   reviewStatus: loadReviewStatus(),
   problemStats: loadProblemStats(),
   unwantedIds: loadUnwantedIds(),
+  masteredIds: loadMasteredIds(),
   order: {},
   learned: loadProgress()
 };
@@ -145,7 +148,13 @@ const elements = {
   restoreBtn: document.getElementById("restoreBtn"),
   restoreCurrentBtn: document.getElementById("restoreCurrentBtn"),
   unwantedBtn: document.getElementById("unwantedBtn"),
+  markMasteredBtn: document.getElementById("markMasteredBtn"),
+  markUnwantedBtn: document.getElementById("markUnwantedBtn"),
+  masteredListBtn: document.getElementById("masteredListBtn"),
   unwantedListBtn: document.getElementById("unwantedListBtn"),
+  masteredPanel: document.getElementById("masteredPanel"),
+  masteredCloseBtn: document.getElementById("masteredCloseBtn"),
+  masteredList: document.getElementById("masteredList"),
   unwantedPanel: document.getElementById("unwantedPanel"),
   unwantedCloseBtn: document.getElementById("unwantedCloseBtn"),
   unwantedList: document.getElementById("unwantedList"),
@@ -173,7 +182,9 @@ const elements = {
   kurssArticlesLesson: document.getElementById("kurssArticlesLesson"),
   kurssLessonsMenu: document.getElementById("kurssLessonsMenu"),
   kurssLesson1Btn: document.getElementById("kurssLesson1Btn"),
+  kurssLesson2Btn: document.getElementById("kurssLesson2Btn"),
   kurssLesson1: document.getElementById("kurssLesson1"),
+  kurssLesson2: document.getElementById("kurssLesson2"),
   kurssPronunciationMenu: document.getElementById("kurssPronunciationMenu"),
   kurssVowelsLessonBtn: document.getElementById("kurssVowelsLessonBtn"),
   kurssConsonantsLessonBtn: document.getElementById("kurssConsonantsLessonBtn"),
@@ -240,6 +251,7 @@ function showKurssMenu() {
   elements.kurssPronunciationLesson.hidden = true;
   elements.kurssArticlesLesson.hidden = true;
   elements.kurssLesson1.hidden = true;
+  elements.kurssLesson2.hidden = true;
   elements.kurssConsonantsLesson.hidden = true;
   elements.kurssVerbBasicsLesson.hidden = true;
   elements.kurssSentenceStructureLesson.hidden = true;
@@ -267,6 +279,7 @@ function openArticlesLesson() {
   elements.kurssArticlesLesson.hidden = false;
   elements.kurssConsonantsLesson.hidden = true;
   elements.kurssLesson1.hidden = true;
+  elements.kurssLesson2.hidden = true;
   elements.kurssVerbBasicsLesson.hidden = true;
   elements.kurssSentenceStructureLesson.hidden = true;
 }
@@ -281,6 +294,7 @@ function openPronunciationLesson() {
   elements.kurssPronunciationLesson.hidden = false;
   elements.kurssArticlesLesson.hidden = true;
   elements.kurssLesson1.hidden = true;
+  elements.kurssLesson2.hidden = true;
   elements.kurssConsonantsLesson.hidden = false;
   elements.kurssVerbBasicsLesson.hidden = true;
   elements.kurssSentenceStructureLesson.hidden = true;
@@ -321,6 +335,7 @@ function openLessonsMenu() {
   elements.kurssArticlesLesson.hidden = true;
   elements.kurssConsonantsLesson.hidden = true;
   elements.kurssLesson1.hidden = true;
+  elements.kurssLesson2.hidden = true;
   elements.kurssVerbBasicsLesson.hidden = true;
   elements.kurssSentenceStructureLesson.hidden = true;
 }
@@ -338,6 +353,23 @@ const lesson1TrainingCards = [
   { front: "Vai jūs ejat?", back: "Geht ihr?" },
   { front: "Albert un Marta nāk un iet.", back: "Albert und Marta kommen und gehen." }
 ];
+const lesson2TrainingCards = [
+  { front: "Kas jautā?", back: "Wer fragt?" },
+  { front: "Pauls jautā.", back: "Paul fragt." },
+  { front: "Viņi jautā.", back: "Sie fragen." },
+  { front: "Vai Pauls atbild?", back: "Antwortet Paul?" },
+  { front: "Nē, viņš neatbild, viņš jautā.", back: "Nein, er antwortet nicht, er fragt." },
+  { front: "Vai Pauls un Marija dzied?", back: "Singen Paul und Marie?" },
+  { front: "Nē, viņi nedzied, viņi rēķina.", back: "Nein, sie singen nicht, sie rechnen." },
+  { front: "Ko tu dari?", back: "Was tust du?" },
+  { front: "Es stāvu un dziedu.", back: "Ich stehe und singe." },
+  { front: "Vai jūs zīmējat?", back: "Zeichnet ihr?" },
+  { front: "Jā, mēs zīmējam, bet Marija spēlē.", back: "Ja, wir zeichnen, aber Marie spielt." },
+  { front: "Ko jūs darāt?", back: "Was tut ihr?" },
+  { front: "Mēs nākam un atbildam.", back: "Wir kommen und antworten." },
+  { front: "Kas iet?", back: "Wer geht?" },
+  { front: "Mēs ejam.", back: "Wir gehen." }
+];
 
 function renderLesson1TrainingCard(index = 0, showingBack = false) {
   const card = elements.kurssLesson1.querySelector("[data-lesson1-training-card]");
@@ -347,7 +379,7 @@ function renderLesson1TrainingCard(index = 0, showingBack = false) {
   card.dataset.trainingIndex = String(safeIndex);
   card.dataset.showingBack = showingBack ? "true" : "false";
   const answerHtml = showingBack ? `<span class="lesson1-training-divider" aria-hidden="true"></span><span class="lesson1-training-answer">${item.back}</span>` : "";
-  card.innerHTML = `<span class="lesson1-training-progress">Lekcija 1 · Treniņš: ${safeIndex + 1} / ${lesson1TrainingCards.length}</span><span class="lesson1-training-text">${item.front}</span>${answerHtml}`;
+  card.innerHTML = `<span class="lesson1-training-progress">Lekcija 1 · Pārtulko: ${safeIndex + 1} / ${lesson1TrainingCards.length}</span><span class="lesson1-training-text">${item.front}</span>${answerHtml}`;
 }
 
 function handleLesson1TrainingCardClick(card) {
@@ -360,6 +392,27 @@ function handleLesson1TrainingCardClick(card) {
   }
 }
 
+
+function renderLesson2TrainingCard(index = 0, showingBack = false) {
+  const card = elements.kurssLesson2.querySelector("[data-lesson2-training-card]");
+  if (!card) return;
+  const safeIndex = ((index % lesson2TrainingCards.length) + lesson2TrainingCards.length) % lesson2TrainingCards.length;
+  const item = lesson2TrainingCards[safeIndex];
+  card.dataset.trainingIndex = String(safeIndex);
+  card.dataset.showingBack = showingBack ? "true" : "false";
+  const answerHtml = showingBack ? `<span class="lesson1-training-divider" aria-hidden="true"></span><span class="lesson1-training-answer">${item.back}</span>` : "";
+  card.innerHTML = `<span class="lesson1-training-progress">Lekcija 2 · Pārtulko: ${safeIndex + 1} / ${lesson2TrainingCards.length}</span><span class="lesson1-training-text">${item.front}</span>${answerHtml}`;
+}
+
+function handleLesson2TrainingCardClick(card) {
+  const currentIndex = Number(card.dataset.trainingIndex || "0");
+  const showingBack = card.dataset.showingBack === "true";
+  if (showingBack) {
+    renderLesson2TrainingCard(currentIndex + 1, false);
+  } else {
+    renderLesson2TrainingCard(currentIndex, true);
+  }
+}
 function prepareLesson1Accordion() {
   const sections = Array.from(elements.kurssLesson1.querySelectorAll(".lesson1-accordion"));
   sections.forEach((section, index) => {
@@ -371,7 +424,7 @@ function prepareLesson1Accordion() {
 function openLesson1() {
   elements.kurssBackBtn.textContent = "‹ Lekcijas";
   elements.kurssTitle.textContent = "Lekcija 1";
-  elements.kurssSubtitle.textContent = "Darbības vārdi tagadnē, vārdiņi, gramatika un treniņš";
+  elements.kurssSubtitle.textContent = "Darbības vārdi tagadnē, vārdiņi, gramatika un pārtulko";
   elements.kurssList.hidden = true;
   elements.kurssTip.hidden = true;
   elements.kurssPronunciationMenu.hidden = true;
@@ -380,9 +433,36 @@ function openLesson1() {
   elements.kurssArticlesLesson.hidden = true;
   elements.kurssConsonantsLesson.hidden = true;
   elements.kurssLesson1.hidden = false;
+  elements.kurssLesson2.hidden = true;
   elements.kurssVerbBasicsLesson.hidden = true;
   elements.kurssSentenceStructureLesson.hidden = true;
   prepareLesson1Accordion();
+}
+
+function prepareLesson2Accordion() {
+  const sections = Array.from(elements.kurssLesson2.querySelectorAll(".lesson1-accordion"));
+  sections.forEach((section, index) => {
+    section.open = index === 0;
+  });
+  renderLesson2TrainingCard(0, false);
+}
+
+function openLesson2() {
+  elements.kurssBackBtn.textContent = "‹ Lekcijas";
+  elements.kurssTitle.textContent = "Lekcija 2";
+  elements.kurssSubtitle.textContent = "Dialogi, vārdi, izruna, gramatika un pārtulkošana";
+  elements.kurssList.hidden = true;
+  elements.kurssTip.hidden = true;
+  elements.kurssPronunciationMenu.hidden = true;
+  elements.kurssLessonsMenu.hidden = true;
+  elements.kurssPronunciationLesson.hidden = true;
+  elements.kurssArticlesLesson.hidden = true;
+  elements.kurssConsonantsLesson.hidden = true;
+  elements.kurssLesson1.hidden = true;
+  elements.kurssLesson2.hidden = false;
+  elements.kurssVerbBasicsLesson.hidden = true;
+  elements.kurssSentenceStructureLesson.hidden = true;
+  prepareLesson2Accordion();
 }
 
 function openVerbBasicsLesson() {
@@ -395,6 +475,7 @@ function openVerbBasicsLesson() {
   elements.kurssArticlesLesson.hidden = true;
   elements.kurssConsonantsLesson.hidden = true;
   elements.kurssLesson1.hidden = true;
+  elements.kurssLesson2.hidden = true;
   elements.kurssVerbBasicsLesson.hidden = false;
   elements.kurssSentenceStructureLesson.hidden = true;
 }
@@ -409,11 +490,12 @@ function openSentenceStructureLesson() {
   elements.kurssArticlesLesson.hidden = true;
   elements.kurssConsonantsLesson.hidden = true;
   elements.kurssLesson1.hidden = true;
+  elements.kurssLesson2.hidden = true;
   elements.kurssVerbBasicsLesson.hidden = true;
   elements.kurssSentenceStructureLesson.hidden = false;
 }
 function handleKurssBack() {
-  if (!elements.kurssLesson1.hidden) {
+  if (!elements.kurssLesson1.hidden || !elements.kurssLesson2.hidden) {
     openLessonsMenu();
     return;
   }
@@ -495,21 +577,101 @@ function saveProblemStats() {
   store.setItem(problemStatsStorageKey, JSON.stringify(state.problemStats));
 }
 
+function unwantedItemId(item) {
+  if (typeof item === "string") return item;
+  return item && typeof item.id === "string" ? item.id : "";
+}
+
+function sanitizeUnwantedIds(ids) {
+  const seen = new Set();
+  const cleaned = [];
+  for (const item of Array.isArray(ids) ? ids : []) {
+    const id = unwantedItemId(item).trim();
+    if (!id || seen.has(id)) continue;
+    seen.add(id);
+    if (item && typeof item === "object" && !Array.isArray(item)) {
+      cleaned.push({
+        id,
+        de: String(item.de || ""),
+        lv: String(item.lv || ""),
+        level: String(item.level || "")
+      });
+    } else {
+      cleaned.push(id);
+    }
+  }
+  return cleaned;
+}
+
+function unwantedEntryForCard(card) {
+  return {
+    id: cardId(card),
+    de: card.de || "",
+    lv: card.lv || "",
+    level: card.level || ""
+  };
+}
+
+function problemStatsSnapshot() {
+  try {
+    const saved = JSON.parse(store.getItem(problemStatsStorageKey) || "{}");
+    return saved && typeof saved === "object" && !Array.isArray(saved) ? saved : {};
+  } catch (error) {
+    return {};
+  }
+}
+
 function loadUnwantedIds() {
   try {
-    const saved = JSON.parse(store.getItem(unwantedStorageKey) || "[]");
-    return Array.isArray(saved) ? saved : [];
+    const explicit = JSON.parse(store.getItem(unwantedStorageKey) || "null");
+    if (Array.isArray(explicit)) {
+      return sanitizeUnwantedIds(explicit);
+    }
+
+    const legacy = JSON.parse(store.getItem(legacyUnwantedStorageKey) || "[]");
+    const problemStats = problemStatsSnapshot();
+    const migrated = sanitizeUnwantedIds(legacy)
+      .filter((item) => {
+        const id = unwantedItemId(item);
+        return !(problemStats[id] && problemStats[id].problematic === true);
+      });
+    store.setItem(unwantedStorageKey, JSON.stringify(migrated));
+    return migrated;
   } catch (error) {
     return [];
   }
 }
 
 function saveUnwantedIds() {
+  state.unwantedIds = sanitizeUnwantedIds(state.unwantedIds);
   store.setItem(unwantedStorageKey, JSON.stringify(state.unwantedIds));
 }
 
+function loadMasteredIds() {
+  try {
+    const saved = JSON.parse(store.getItem(masteredStorageKey) || "[]");
+    return sanitizeUnwantedIds(saved);
+  } catch (error) {
+    return [];
+  }
+}
+
+function saveMasteredIds() {
+  state.masteredIds = sanitizeUnwantedIds(state.masteredIds);
+  store.setItem(masteredStorageKey, JSON.stringify(state.masteredIds));
+}
+
+function masteredSet() {
+  return new Set((state.masteredIds || []).map(unwantedItemId).filter(Boolean));
+}
+
+function isMasteredCard(card) {
+  return card && masteredSet().has(cardId(card));
+}
+
+
 function unwantedSet() {
-  return new Set(state.unwantedIds || []);
+  return new Set((state.unwantedIds || []).map(unwantedItemId).filter(Boolean));
 }
 
 function isUnwantedCard(card) {
@@ -552,7 +714,7 @@ function activeGroupKey() {
 }
 
 function activeCardsForSession() {
-  return state.verbMode ? verbEntries : baseCardsForGroup(state.group);
+  return state.verbMode ? verbEntries : baseCardsForGroup(state.group).filter((card) => !isMasteredCard(card));
 }
 
 function idForSessionCard(card) {
@@ -709,7 +871,7 @@ function knownCardsForActiveGroup() {
   const cards = cardsForSessionKey(groupKey);
   const learnedIds = state.learned[groupKey] || [];
   const learnedSet = new Set(learnedIds);
-  return cards.filter((card) => learnedSet.has(idForSessionKey(card, groupKey)));
+  return cards.filter((card) => learnedSet.has(idForSessionKey(card, groupKey)) && !isMasteredCard(card));
 }
 
 function currentKnownCard() {
@@ -729,9 +891,10 @@ function nextKnownCard() {
 
 function problemDeck() {
   const groupKeys = state.problemScope === "all" ? groups : [activeGroupKey()];
-  return groupKeys.flatMap((groupKey) => cardsForSessionKey(groupKey).filter((card) => {
-    const stats = state.problemStats[idForSessionKey(card, groupKey)];
-    return stats && stats.problematic === true && (stats.unknownCount || 0) >= 3;
+  return groupKeys.flatMap((groupKey) => allCardsForGroup(groupKey).filter((card) => {
+    const id = idForSessionKey(card, groupKey);
+    const stats = state.problemStats[id];
+    return !isUnwantedCard(card) && stats && stats.problematic === true && (stats.unknownCount || 0) >= 3;
   }).map((card) => ({ ...card, problemGroupKey: groupKey })));
 }
 
@@ -1382,18 +1545,45 @@ function revealCard() {
   render();
 }
 
+function fallbackUnwantedEntryFromId(id) {
+  const parts = String(id || "").split(":");
+  if (parts.length >= 3) {
+    return {
+      id,
+      level: parts[0] || "",
+      de: parts.slice(1, -1).join(":"),
+      lv: parts[parts.length - 1] || ""
+    };
+  }
+  return { id, de: id || "", lv: "", level: "" };
+}
+
 function renderUnwantedList() {
-  const cards = groups.flatMap((group) => allCardsForGroup(group))
-    .filter((card) => isUnwantedCard(card));
+  const allCards = groups.flatMap((group) => allCardsForGroup(group));
+  const cards = sanitizeUnwantedIds(state.unwantedIds).map((item) => {
+    const id = unwantedItemId(item);
+    const card = allCards.find((candidate) => cardId(candidate) === id);
+    if (card) return { id, de: card.de, lv: card.lv, level: card.level };
+    if (item && typeof item === "object" && (item.de || item.lv || item.level)) {
+      return {
+        id,
+        de: item.de || fallbackUnwantedEntryFromId(id).de,
+        lv: item.lv || fallbackUnwantedEntryFromId(id).lv,
+        level: item.level || fallbackUnwantedEntryFromId(id).level
+      };
+    }
+    return fallbackUnwantedEntryFromId(id);
+  }).filter((item) => item && item.id);
+
   if (!cards.length) {
-    elements.unwantedList.innerHTML = `<p>Nav nevajadzīgo vārdu.</p>`;
+    elements.unwantedList.innerHTML = `<p class="unwanted-empty">Nav nevajadzīgo vārdu.</p>`;
     return;
   }
 
   elements.unwantedList.innerHTML = cards.map((card) => `
     <div class="unwanted-row">
-      <div class="unwanted-word"><strong>${card.de}</strong><span>${groupDisplayLabel(card.level)} · ${card.lv}</span></div>
-      <button type="button" data-restore-unwanted="${cardId(card)}">Atgriezt</button>
+      <div class="unwanted-word"><strong>${card.de} — ${card.lv}</strong><span class="unwanted-level">${groupDisplayLabel(card.level)}</span></div>
+      <button type="button" data-restore-unwanted="${card.id}">Atgriezt</button>
     </div>
   `).join("");
 }
@@ -1407,8 +1597,77 @@ function closeUnwantedList() {
   elements.unwantedPanel.hidden = true;
 }
 
+function renderMasteredList() {
+  const allCards = groups.flatMap((group) => allCardsForGroup(group));
+  const cards = sanitizeUnwantedIds(state.masteredIds).map((item) => {
+    const id = unwantedItemId(item);
+    const card = allCards.find((candidate) => cardId(candidate) === id);
+    if (card) return { id, de: card.de, lv: card.lv, level: card.level };
+    if (item && typeof item === "object" && (item.de || item.lv || item.level)) {
+      return {
+        id,
+        de: item.de || fallbackUnwantedEntryFromId(id).de,
+        lv: item.lv || fallbackUnwantedEntryFromId(id).lv,
+        level: item.level || fallbackUnwantedEntryFromId(id).level
+      };
+    }
+    return fallbackUnwantedEntryFromId(id);
+  }).filter((item) => item && item.id);
+
+  if (!cards.length) {
+    elements.masteredList.innerHTML = `<p class="unwanted-empty">Nav 100% zināmo vārdu.</p>`;
+    return;
+  }
+
+  elements.masteredList.innerHTML = cards.map((card) => `
+    <div class="unwanted-row">
+      <div class="unwanted-word"><strong>${card.de} — ${card.lv}</strong><span class="unwanted-level">${groupDisplayLabel(card.level)}</span></div>
+      <button type="button" data-restore-mastered="${card.id}">Atgriezt</button>
+    </div>
+  `).join("");
+}
+
+function openMasteredList() {
+  renderMasteredList();
+  elements.masteredPanel.hidden = false;
+}
+
+function closeMasteredList() {
+  elements.masteredPanel.hidden = true;
+}
+
+function restoreMastered(id) {
+  state.masteredIds = (state.masteredIds || []).filter((item) => unwantedItemId(item) !== id);
+  saveMasteredIds();
+  renderMasteredList();
+  render();
+}
+
+function markCurrentMastered() {
+  if (!state.reviewKnown || state.verbMode) return;
+  const card = currentKnownCard();
+  if (!card) {
+    setNotice("Nav zināma vārda, ko pārvietot uz 100% zināmajiem.");
+    return;
+  }
+
+  const id = cardId(card);
+  if (!masteredSet().has(id)) {
+    state.masteredIds.push(unwantedEntryForCard(card));
+    saveMasteredIds();
+  }
+  nextKnownCard();
+  if (!currentKnownCard()) {
+    setNotice("Zināmo vārdu pārskatīšana pabeigta.");
+  } else {
+    setNotice("Vārds pārvietots uz 100% zināmajiem.");
+  }
+  render();
+}
+
+
 function restoreUnwanted(id) {
-  state.unwantedIds = (state.unwantedIds || []).filter((item) => item !== id);
+  state.unwantedIds = (state.unwantedIds || []).filter((item) => unwantedItemId(item) !== id);
   saveUnwantedIds();
   if (state.session && state.session.groupKey === activeGroupKey()) {
     createSession();
@@ -1426,8 +1685,9 @@ function markCurrentUnwanted() {
   }
 
   const id = cardId(card);
-  if (!state.unwantedIds.includes(id)) {
-    state.unwantedIds.push(id);
+  const ids = unwantedSet();
+  if (!ids.has(id)) {
+    state.unwantedIds.push(unwantedEntryForCard(card));
     saveUnwantedIds();
   }
 
@@ -2119,7 +2379,10 @@ function renderModeButtons() {
   elements.verbRandomBtn.setAttribute("aria-pressed", state.verbRandomMode ? "true" : "false");
   elements.spellingModeBtn.className = state.spellingMode ? "group-btn active" : "";
   elements.spellingModeBtn.setAttribute("aria-pressed", state.spellingMode ? "true" : "false");
-  elements.unwantedBtn.hidden = state.verbMode;
+  if (elements.unwantedBtn) elements.unwantedBtn.hidden = true;
+  elements.markMasteredBtn.hidden = !(state.reviewKnown && !state.verbMode);
+  elements.markMasteredBtn.style.display = state.reviewKnown && !state.verbMode ? "" : "none";
+  elements.markUnwantedBtn.hidden = state.verbMode;
   elements.unwantedListBtn.hidden = state.verbMode;
   for (const [mode, config] of Object.entries(sessionModes)) {
     const button = document.createElement("button");
@@ -2357,6 +2620,7 @@ elements.kurssPronunciationBtn.addEventListener("click", openPronunciationLesson
 elements.kurssArticlesBtn.addEventListener("click", openArticlesLesson);
 elements.kurssLessonsBtn.addEventListener("click", openLessonsMenu);
 elements.kurssLesson1Btn.addEventListener("click", openLesson1);
+elements.kurssLesson2Btn.addEventListener("click", openLesson2);
 elements.kurssVerbBasicsBtn.addEventListener("click", openVerbBasicsLesson);
 elements.kurssSentenceStructureBtn.addEventListener("click", openSentenceStructureLesson);
 elements.kurssVowelsLessonBtn.addEventListener("click", openVowelsLesson);
@@ -2383,6 +2647,28 @@ elements.kurssLesson1.addEventListener("click", (event) => {
   card.innerHTML = showingBack ? card.dataset.courseCardFront : card.dataset.courseCardBack;
   card.dataset.showingBack = showingBack ? "false" : "true";
 });
+elements.kurssLesson2.addEventListener("click", (event) => {
+  const trainingCard = event.target.closest("[data-lesson2-training-card]");
+  if (trainingCard) {
+    handleLesson2TrainingCardClick(trainingCard);
+    return;
+  }
+  const card = event.target.closest("[data-course-card-front]");
+  if (!card) return;
+  const showingBack = card.dataset.showingBack === "true";
+  card.innerHTML = showingBack ? card.dataset.courseCardFront : card.dataset.courseCardBack;
+  card.dataset.showingBack = showingBack ? "false" : "true";
+});
+elements.kurssLesson2.addEventListener("toggle", (event) => {
+  const section = event.target.closest(".lesson1-accordion");
+  if (!section || !section.open) return;
+  elements.kurssLesson2.querySelectorAll(".lesson1-accordion").forEach((other) => {
+    if (other !== section) other.open = false;
+  });
+  if (!elements.kurssLesson2.hidden) {
+    section.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+}, true);
 elements.kurssPanel.addEventListener("click", (event) => {
   if (event.target === elements.kurssPanel) closeKurss();
 });
@@ -2414,7 +2700,20 @@ elements.spellingInput.addEventListener("keydown", (event) => {
   }
 });
 elements.directionBtn.addEventListener("click", toggleDirection);
-elements.unwantedBtn.addEventListener("click", markCurrentUnwanted);
+if (elements.unwantedBtn) {
+  elements.unwantedBtn.hidden = true;
+}
+elements.markMasteredBtn.addEventListener("click", markCurrentMastered);
+elements.markUnwantedBtn.addEventListener("click", markCurrentUnwanted);
+elements.masteredListBtn.addEventListener("click", openMasteredList);
+elements.masteredCloseBtn.addEventListener("click", closeMasteredList);
+elements.masteredPanel.addEventListener("click", (event) => {
+  if (event.target === elements.masteredPanel) closeMasteredList();
+});
+elements.masteredList.addEventListener("click", (event) => {
+  const button = event.target.closest("[data-restore-mastered]");
+  if (button) restoreMastered(button.dataset.restoreMastered);
+});
 elements.unwantedListBtn.addEventListener("click", openUnwantedList);
 elements.unwantedCloseBtn.addEventListener("click", closeUnwantedList);
 elements.unwantedPanel.addEventListener("click", (event) => {

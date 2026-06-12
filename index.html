@@ -68,7 +68,7 @@
           <div class="kurss-tip" id="kurssTip"><span class="kurss-tip-icon" aria-hidden="true">💡</span><span><strong>Padoms</strong>Klausies, atkārto un salīdzini. Tava auss ir labākais skolotājs!</span></div>
           <div class="kurss-sublesson-list" id="kurssLessonsMenu" hidden>
             <button class="kurss-item" id="kurssLesson1Btn" type="button"><span class="kurss-icon lessons">📘</span><span><strong class="kurss-item-title">Lekcija 1</strong><span class="kurss-item-desc">Darbības vārdi tagadnē, vārdiņi, gramatika un treniņš.</span></span><span class="kurss-arrow">›</span></button>
-            <button class="kurss-item" type="button" disabled><span class="kurss-icon lessons">📘</span><span><strong class="kurss-item-title">Lekcija 2</strong><span class="kurss-item-desc">Tiks pievienota vēlāk.</span></span><span class="kurss-arrow">›</span></button>
+            <button class="kurss-item" id="kurssLesson2Btn" type="button"><span class="kurss-icon lessons">📘</span><span><strong class="kurss-item-title">Lekcija 2</strong><span class="kurss-item-desc">Dialogi, vārdi, izruna, gramatika un pārtulkošana.</span></span><span class="kurss-arrow">›</span></button>
             <button class="kurss-item" type="button" disabled><span class="kurss-icon lessons">📘</span><span><strong class="kurss-item-title">Lekcija 3</strong><span class="kurss-item-desc">Tiks pievienota vēlāk.</span></span><span class="kurss-arrow">›</span></button>
           </div>
           <div class="kurss-sublesson-list" id="kurssPronunciationMenu" hidden>
@@ -83,18 +83,29 @@
           </div>
           <div class="kurss-lesson" id="kurssLesson1" hidden>
           </div>
+          <div class="kurss-lesson" id="kurssLesson2" hidden>
+          </div>
           <div class="kurss-lesson" id="kurssVerbBasicsLesson" hidden>
           </div>
           <div class="kurss-lesson" id="kurssSentenceStructureLesson" hidden>
           </div>        </div>
       </section>
-      <section class="unwanted-overlay" id="unwantedPanel" hidden aria-label="Visi nevajadzīgie" aria-modal="true" role="dialog">
+      <section class="unwanted-overlay" id="unwantedPanel" hidden aria-label="Nevajadzīgie vārdi" aria-modal="true" role="dialog">
         <div class="unwanted-panel">
           <div class="unwanted-header">
-            <h2>Visi nevajadzīgie</h2>
+            <h2>Nevajadzīgie vārdi</h2>
             <button class="unwanted-close" id="unwantedCloseBtn" type="button" aria-label="Aizvērt nevajadzīgos">×</button>
           </div>
           <div class="unwanted-list" id="unwantedList"></div>
+        </div>
+      </section>
+      <section class="unwanted-overlay" id="masteredPanel" hidden aria-label="100% zināmi" aria-modal="true" role="dialog">
+        <div class="unwanted-panel">
+          <div class="unwanted-header">
+            <h2>100% zināmi</h2>
+            <button class="unwanted-close" id="masteredCloseBtn" type="button" aria-label="Aizvērt 100% zināmos">×</button>
+          </div>
+          <div class="unwanted-list" id="masteredList"></div>
         </div>
       </section>
 
@@ -123,6 +134,8 @@
           <button id="verbRandomBtn" type="button" hidden style="display: none;">Jaukt darbības vārdus</button>
           <button id="spellingModeBtn" type="button">Pareizrakstība</button>
           <button id="directionBtn" type="button">[Vācu → latviešu]</button>
+          <button id="markMasteredBtn" type="button" hidden style="display: none;">100% zinu</button>
+          <button id="markUnwantedBtn" type="button">Atzīmēt kā nevajadzīgu</button>
           <button class="extra-options-toggle" id="extraOptionsBtn" type="button" aria-expanded="false">Papildu opcijas ▼</button>
           <div class="mobile-extra-options" id="extraOptions" hidden>
             <button id="reviewBtn" type="button">Pārskatīt zināmos</button>
@@ -134,8 +147,8 @@
             <button id="monthlyReviewBtn" type="button">Mēneša pārskats</button>
             <button id="restoreBtn" type="button">Atgriezt visus</button>
             <button id="restoreCurrentBtn" type="button">Atgriezt</button>
-            <button id="unwantedBtn" type="button">Nevajadzīgie</button>
-            <button id="unwantedListBtn" type="button">Visi nevajadzīgie</button>
+            <button id="masteredListBtn" type="button">100% zināmi</button>
+            <button id="unwantedListBtn" type="button">Nevajadzīgie vārdi</button>
           </div>
         </div>
         <div class="notice" id="notice" aria-live="polite"></div>

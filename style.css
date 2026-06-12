@@ -2738,3 +2738,281 @@
     hyphens: none;
   }
 }
+
+
+/* Nevajadzīgie vārdi list formatting */
+.unwanted-word {
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: none;
+}
+
+.unwanted-word strong {
+  display: block;
+  line-height: 1.35;
+}
+
+.unwanted-word .unwanted-level {
+  display: block;
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+
+/* Atzīmēt kā nevajadzīgu button */
+#markUnwantedBtn {
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: none;
+}
+
+@media (max-width: 768px) {
+  #markUnwantedBtn {
+    white-space: normal;
+    line-height: 1.2;
+  }
+}
+
+
+/* Nevajadzīgie vārdi visibility fix */
+.unwanted-panel {
+  background: #0c1520;
+  color: #eef3f8;
+}
+
+.unwanted-list {
+  background: #0c1520;
+}
+
+.unwanted-empty {
+  color: #d8e2ec;
+  margin: 0;
+}
+
+.unwanted-row {
+  border-color: rgba(70, 93, 116, 0.9);
+  background: linear-gradient(145deg, rgba(17, 32, 47, 0.98), rgba(13, 25, 38, 0.98));
+  color: #eef3f8;
+}
+
+.unwanted-word,
+.unwanted-word strong {
+  color: #eef3f8;
+}
+
+.unwanted-word .unwanted-level,
+.unwanted-word span {
+  color: #9fb0c2;
+}
+
+.unwanted-row button {
+  color: #ffffff;
+}
+
+
+/* Nevajadzīgie Atgriezt button visibility */
+.unwanted-row button[data-restore-unwanted] {
+  color: #ffffff;
+  background: linear-gradient(145deg, #0b63d8, #064db5);
+  border-color: #2f86ff;
+  opacity: 1;
+  text-shadow: none;
+  position: relative;
+  z-index: 1;
+}
+
+.unwanted-row button[data-restore-unwanted]:hover,
+.unwanted-row button[data-restore-unwanted]:focus-visible {
+  color: #ffffff;
+  background: linear-gradient(145deg, #1677f2, #0756c9);
+  border-color: #5aa2ff;
+}
+
+
+/* 100% zināmi controls */
+#markMasteredBtn,
+#masteredListBtn {
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: none;
+}
+
+.unwanted-row button[data-restore-mastered] {
+  color: #ffffff;
+  background: linear-gradient(145deg, #0b63d8, #064db5);
+  border-color: #2f86ff;
+  opacity: 1;
+  text-shadow: none;
+  position: relative;
+  z-index: 1;
+}
+
+.unwanted-row button[data-restore-mastered]:hover,
+.unwanted-row button[data-restore-mastered]:focus-visible {
+  color: #ffffff;
+  background: linear-gradient(145deg, #1677f2, #0756c9);
+  border-color: #5aa2ff;
+}
+
+/* Lekcija 2 course-card layout */
+#kurssLesson2 .lesson1-accordion {
+  border: 1px solid #253849;
+  border-radius: 14px;
+  background: linear-gradient(145deg, rgba(8, 20, 31, 0.96), rgba(9, 17, 27, 0.94));
+  margin-bottom: 12px;
+  overflow: hidden;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.035);
+}
+#kurssLesson2 .lesson1-accordion > summary {
+  cursor: pointer;
+  list-style: none;
+  min-height: 50px;
+  padding: 12px 16px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 12px;
+  color: #f8fafc;
+  font-weight: 850;
+  border-bottom: 1px solid rgba(86, 105, 128, 0.28);
+}
+#kurssLesson2 .lesson1-accordion > summary::-webkit-details-marker { display: none; }
+#kurssLesson2 .lesson1-number { width: 28px; height: 28px; border-radius: 7px; display: inline-grid; place-items: center; color: #fff; font-weight: 900; }
+#kurssLesson2 .lesson1-number-red { background: linear-gradient(145deg, #ff5c5c, #d83342); }
+#kurssLesson2 .lesson1-number-green { background: linear-gradient(145deg, #a6e95a, #51b935); }
+#kurssLesson2 .lesson1-number-purple { background: linear-gradient(145deg, #c45cff, #7f35d8); }
+#kurssLesson2 .lesson1-number-blue { background: linear-gradient(145deg, #40b7ff, #1684dd); }
+#kurssLesson2 .lesson1-number-orange { background: linear-gradient(145deg, #ff9f3d, #f05a24); }
+#kurssLesson2 .lesson1-chevron { color: #d9e2ef; font-size: 1.1rem; }
+#kurssLesson2 details[open] .lesson1-chevron { transform: rotate(180deg); }
+#kurssLesson2 .lesson1-content { padding: 14px 16px 16px; }
+#kurssLesson2 .lesson1-info, #kurssLesson2 .lesson1-grammar-note { border-top: 1px solid rgba(86,105,128,0.26); border-bottom: 1px solid rgba(86,105,128,0.2); padding: 12px 6px; margin: 0 0 12px; color: #b9c3d2; line-height: 1.4; background: transparent; }
+#kurssLesson2 .lesson1-card-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+#kurssLesson2 .kurss-example { border: 1px solid #263544; border-radius: 10px; background: linear-gradient(145deg, rgba(15, 29, 42, 0.98), rgba(13, 23, 34, 0.96)); color: #e9eef6; box-shadow: inset 0 1px 0 rgba(255,255,255,0.035); max-width: 100%; padding: 11px 13px; line-height: 1.35; overflow-wrap: normal; word-break: normal; hyphens: none; white-space: normal; }
+#kurssLesson2 .lesson1-block { margin-bottom: 18px; }
+#kurssLesson2 .lesson1-block:last-child { margin-bottom: 0; }
+#kurssLesson2 .lesson1-grammar-header { margin: 0 0 10px; padding: 9px 12px; display: flex; align-items: center; gap: 9px; border: 1px solid rgba(49, 180, 116, 0.45); border-radius: 9px; background: linear-gradient(135deg, rgba(18, 91, 64, 0.56), rgba(8, 64, 49, 0.42)); color: #f2fff7; font-size: 1rem; font-weight: 850; }
+#kurssLesson2 .lesson2-subtitle { margin: 14px 0 8px; color: #f8fafc; font-size: 0.98rem; }
+@media (max-width: 768px) {
+  #kurssLesson2 .lesson1-content { padding: 12px; }
+  #kurssLesson2 .lesson1-card-grid { grid-template-columns: 1fr; }
+  #kurssLesson2 .lesson1-accordion > summary { padding: 12px; gap: 10px; }
+  #kurssLesson2 .kurss-example { box-sizing: border-box; overflow-wrap: normal; word-break: normal; hyphens: none; }
+}
+#kurssLesson2 button.kurss-example {
+  text-align: left;
+  cursor: pointer;
+  min-height: 58px;
+}
+
+/* Lekcija 2 Pārtulko flashcard: same visual component as Lekcija 1 */
+#kurssLesson2 .lesson1-training-wrap {
+  display: grid;
+  gap: 12px;
+  justify-items: center;
+  width: 100%;
+}
+#kurssLesson2 .lesson1-training-flashcard {
+  width: min(100%, 760px);
+  min-height: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+  padding: 28px 24px;
+  border: 1px solid rgba(155, 190, 210, 0.28);
+  border-radius: 18px;
+  background: radial-gradient(circle at 50% 20%, rgba(255,255,255,0.05), transparent 45%), linear-gradient(145deg, rgba(31, 31, 31, 0.96), rgba(14, 25, 34, 0.96));
+  color: #eef6fa;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.06), 0 16px 34px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+  text-align: center;
+  white-space: normal;
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: none;
+}
+#kurssLesson2 .lesson1-training-flashcard:hover {
+  border-color: rgba(155, 190, 210, 0.42);
+  transform: none;
+}
+#kurssLesson2 .lesson1-training-progress {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  padding: 7px 13px;
+  border-radius: 999px;
+  background: rgba(20, 28, 44, 0.62);
+  color: #bec8df;
+  font-size: 0.96rem;
+  font-weight: 850;
+  line-height: 1.25;
+  white-space: normal;
+  overflow-wrap: normal;
+  word-break: normal;
+}
+#kurssLesson2 .lesson1-training-text {
+  max-width: 100%;
+  color: #f4f8ff;
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  font-weight: 900;
+  line-height: 1.18;
+  letter-spacing: 0;
+  white-space: normal;
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: none;
+}
+#kurssLesson2 .lesson1-training-divider {
+  width: min(260px, 42%);
+  height: 1px;
+  background: rgba(190, 200, 223, 0.22);
+}
+#kurssLesson2 .lesson1-training-answer {
+  max-width: 100%;
+  color: #c6d0e4;
+  font-size: clamp(1.45rem, 3vw, 2.35rem);
+  font-weight: 850;
+  line-height: 1.2;
+  letter-spacing: 0;
+  white-space: normal;
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: none;
+}
+#kurssLesson2 .lesson1-training-hint {
+  max-width: 760px;
+  margin: 0;
+  color: #aeb9ca;
+  font-size: 0.96rem;
+  line-height: 1.4;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  #kurssLesson2 .lesson1-training-flashcard {
+    width: 100%;
+    min-height: 220px;
+    gap: 22px;
+    padding: 22px 14px;
+  }
+  #kurssLesson2 .lesson1-training-progress {
+    font-size: 0.86rem;
+    padding: 6px 10px;
+  }
+  #kurssLesson2 .lesson1-training-text {
+    font-size: clamp(1.7rem, 8vw, 2.55rem);
+  }
+  #kurssLesson2 .lesson1-training-answer {
+    font-size: clamp(1.3rem, 6vw, 2rem);
+  }
+  #kurssLesson2 .lesson1-training-divider {
+    width: min(210px, 48%);
+  }
+  #kurssLesson2 .lesson1-training-hint {
+    font-size: 0.9rem;
+  }
+}
