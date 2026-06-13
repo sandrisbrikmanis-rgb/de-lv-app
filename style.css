@@ -3016,3 +3016,272 @@
     font-size: 0.9rem;
   }
 }
+/* Lekcija 3 course-card layout */
+#kurssLesson3 .lesson1-accordion {
+  border: 1px solid #253849;
+  border-radius: 14px;
+  background: linear-gradient(145deg, rgba(8, 20, 31, 0.96), rgba(9, 17, 27, 0.94));
+  margin-bottom: 12px;
+  overflow: hidden;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.035);
+}
+#kurssLesson3 .lesson1-accordion > summary {
+  cursor: pointer;
+  list-style: none;
+  min-height: 50px;
+  padding: 12px 16px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 12px;
+  color: #f8fafc;
+  font-weight: 850;
+  border-bottom: 1px solid rgba(86, 105, 128, 0.28);
+}
+#kurssLesson3 .lesson1-accordion > summary::-webkit-details-marker { display: none; }
+#kurssLesson3 .lesson1-number { width: 28px; height: 28px; border-radius: 7px; display: inline-grid; place-items: center; color: #fff; font-weight: 900; }
+#kurssLesson3 .lesson1-number-red { background: linear-gradient(145deg, #ff5c5c, #d83342); }
+#kurssLesson3 .lesson1-number-green { background: linear-gradient(145deg, #a6e95a, #51b935); }
+#kurssLesson3 .lesson1-number-purple { background: linear-gradient(145deg, #c45cff, #7f35d8); }
+#kurssLesson3 .lesson1-number-blue { background: linear-gradient(145deg, #40b7ff, #1684dd); }
+#kurssLesson3 .lesson1-number-orange { background: linear-gradient(145deg, #ff9f3d, #f05a24); }
+#kurssLesson3 .lesson1-chevron { color: #d9e2ef; font-size: 1.1rem; }
+#kurssLesson3 details[open] .lesson1-chevron { transform: rotate(180deg); }
+#kurssLesson3 .lesson1-content { padding: 14px 16px 16px; }
+#kurssLesson3 .lesson1-info, #kurssLesson3 .lesson1-grammar-note { border-top: 1px solid rgba(86,105,128,0.26); border-bottom: 1px solid rgba(86,105,128,0.2); padding: 12px 6px; margin: 0 0 12px; color: #b9c3d2; line-height: 1.4; background: transparent; }
+#kurssLesson3 .lesson1-card-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+#kurssLesson3 .kurss-example { border: 1px solid #263544; border-radius: 10px; background: linear-gradient(145deg, rgba(15, 29, 42, 0.98), rgba(13, 23, 34, 0.96)); color: #e9eef6; box-shadow: inset 0 1px 0 rgba(255,255,255,0.035); max-width: 100%; padding: 11px 13px; line-height: 1.35; overflow-wrap: normal; word-break: normal; hyphens: none; white-space: normal; }
+#kurssLesson3 .lesson1-block { margin-bottom: 18px; }
+#kurssLesson3 .lesson1-block:last-child { margin-bottom: 0; }
+#kurssLesson3 .lesson1-grammar-header { margin: 0 0 10px; padding: 9px 12px; display: flex; align-items: center; gap: 9px; border: 1px solid rgba(49, 180, 116, 0.45); border-radius: 9px; background: linear-gradient(135deg, rgba(18, 91, 64, 0.56), rgba(8, 64, 49, 0.42)); color: #f2fff7; font-size: 1rem; font-weight: 850; }
+#kurssLesson3 .lesson2-subtitle { margin: 14px 0 8px; color: #f8fafc; font-size: 0.98rem; }
+#kurssLesson3 .lesson1-training-wrap { display: grid; gap: 12px; justify-items: center; width: 100%; }
+#kurssLesson3 .lesson1-training-flashcard { width: min(100%, 760px); min-height: 260px; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 28px; padding: 28px 24px; border: 1px solid rgba(155, 190, 210, 0.28); border-radius: 18px; background: radial-gradient(circle at 50% 20%, rgba(255,255,255,0.05), transparent 45%), linear-gradient(145deg, rgba(31, 31, 31, 0.96), rgba(14, 25, 34, 0.96)); color: #eef6fa; box-shadow: inset 0 1px 0 rgba(255,255,255,0.06), 0 16px 34px rgba(0, 0, 0, 0.22); cursor: pointer; text-align: center; white-space: normal; overflow-wrap: normal; word-break: normal; hyphens: none; }
+#kurssLesson3 .lesson1-training-flashcard:hover { border-color: rgba(155, 190, 210, 0.42); transform: none; }
+#kurssLesson3 .lesson1-training-progress { display: inline-flex; align-items: center; justify-content: center; max-width: 100%; padding: 7px 13px; border-radius: 999px; background: rgba(20, 28, 44, 0.62); color: #bec8df; font-size: 0.96rem; font-weight: 850; line-height: 1.25; white-space: normal; overflow-wrap: normal; word-break: normal; }
+#kurssLesson3 .lesson1-training-text { max-width: 100%; color: #f4f8ff; font-size: clamp(2rem, 4vw, 3.2rem); font-weight: 900; line-height: 1.18; letter-spacing: 0; white-space: normal; overflow-wrap: normal; word-break: normal; hyphens: none; }
+#kurssLesson3 .lesson1-training-divider { width: min(260px, 42%); height: 1px; background: rgba(190, 200, 223, 0.22); }
+#kurssLesson3 .lesson1-training-answer { max-width: 100%; color: #c6d0e4; font-size: clamp(1.45rem, 3vw, 2.35rem); font-weight: 850; line-height: 1.2; letter-spacing: 0; white-space: normal; overflow-wrap: normal; word-break: normal; hyphens: none; }
+#kurssLesson3 .lesson1-training-hint { max-width: 760px; margin: 0; color: #aeb9ca; font-size: 0.96rem; line-height: 1.4; text-align: center; }
+@media (max-width: 768px) {
+  #kurssLesson3 .lesson1-content { padding: 12px; }
+  #kurssLesson3 .lesson1-card-grid { grid-template-columns: 1fr; }
+  #kurssLesson3 .lesson1-accordion > summary { padding: 12px; gap: 10px; }
+  #kurssLesson3 .kurss-example { box-sizing: border-box; overflow-wrap: normal; word-break: normal; hyphens: none; }
+  #kurssLesson3 .lesson1-training-flashcard { width: 100%; min-height: 220px; gap: 22px; padding: 22px 14px; }
+  #kurssLesson3 .lesson1-training-progress { font-size: 0.86rem; padding: 6px 10px; }
+  #kurssLesson3 .lesson1-training-text { font-size: clamp(1.7rem, 8vw, 2.55rem); }
+  #kurssLesson3 .lesson1-training-answer { font-size: clamp(1.3rem, 6vw, 2rem); }
+  #kurssLesson3 .lesson1-training-divider { width: min(210px, 48%); }
+  #kurssLesson3 .lesson1-training-hint { font-size: 0.9rem; }
+}
+
+/* Lekcija 4 course-card layout */
+#kurssLesson4 .lesson1-accordion {
+  border: 1px solid #253849;
+  border-radius: 14px;
+  background: linear-gradient(145deg, rgba(8, 20, 31, 0.96), rgba(9, 17, 27, 0.94));
+  margin-bottom: 12px;
+  overflow: hidden;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.035);
+}
+#kurssLesson4 .lesson1-accordion > summary {
+  cursor: pointer;
+  list-style: none;
+  min-height: 50px;
+  padding: 12px 16px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 12px;
+  color: #f8fafc;
+  font-weight: 850;
+  border-bottom: 1px solid rgba(86, 105, 128, 0.28);
+}
+#kurssLesson4 .lesson1-accordion > summary::-webkit-details-marker { display: none; }
+#kurssLesson4 .lesson1-number { width: 28px; height: 28px; border-radius: 7px; display: inline-grid; place-items: center; color: #fff; font-weight: 900; }
+#kurssLesson4 .lesson1-number-red { background: linear-gradient(145deg, #ff5c5c, #d83342); }
+#kurssLesson4 .lesson1-number-green { background: linear-gradient(145deg, #a6e95a, #51b935); }
+#kurssLesson4 .lesson1-number-purple { background: linear-gradient(145deg, #c45cff, #7f35d8); }
+#kurssLesson4 .lesson1-number-blue { background: linear-gradient(145deg, #40b7ff, #1684dd); }
+#kurssLesson4 .lesson1-number-orange { background: linear-gradient(145deg, #ff9f3d, #f05a24); }
+#kurssLesson4 .lesson1-chevron { color: #d9e2ef; font-size: 1.1rem; }
+#kurssLesson4 details[open] .lesson1-chevron { transform: rotate(180deg); }
+#kurssLesson4 .lesson1-content { padding: 14px 16px 16px; }
+#kurssLesson4 .lesson1-info, #kurssLesson4 .lesson1-grammar-note { border-top: 1px solid rgba(86,105,128,0.26); border-bottom: 1px solid rgba(86,105,128,0.2); padding: 12px 6px; margin: 0 0 12px; color: #b9c3d2; line-height: 1.4; background: transparent; }
+#kurssLesson4 .lesson1-card-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+#kurssLesson4 .kurss-example { border: 1px solid #263544; border-radius: 10px; background: linear-gradient(145deg, rgba(15, 29, 42, 0.98), rgba(13, 23, 34, 0.96)); color: #e9eef6; box-shadow: inset 0 1px 0 rgba(255,255,255,0.035); max-width: 100%; padding: 11px 13px; line-height: 1.35; overflow-wrap: normal; word-break: normal; hyphens: none; white-space: normal; }
+#kurssLesson4 .lesson1-block { margin-bottom: 18px; }
+#kurssLesson4 .lesson1-block:last-child { margin-bottom: 0; }
+#kurssLesson4 .lesson1-grammar-header { margin: 0 0 10px; padding: 9px 12px; display: flex; align-items: center; gap: 9px; border: 1px solid rgba(49, 180, 116, 0.45); border-radius: 9px; background: linear-gradient(135deg, rgba(18, 91, 64, 0.56), rgba(8, 64, 49, 0.42)); color: #f2fff7; font-size: 1rem; font-weight: 850; }
+#kurssLesson4 .lesson2-subtitle { margin: 14px 0 8px; color: #f8fafc; font-size: 0.98rem; }
+#kurssLesson4 .lesson1-training-wrap { display: grid; gap: 12px; justify-items: center; width: 100%; }
+#kurssLesson4 .lesson1-training-flashcard { width: min(100%, 760px); min-height: 260px; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 28px; padding: 28px 24px; border: 1px solid rgba(155, 190, 210, 0.28); border-radius: 18px; background: radial-gradient(circle at 50% 20%, rgba(255,255,255,0.05), transparent 45%), linear-gradient(145deg, rgba(31, 31, 31, 0.96), rgba(14, 25, 34, 0.96)); color: #eef6fa; box-shadow: inset 0 1px 0 rgba(255,255,255,0.06), 0 16px 34px rgba(0, 0, 0, 0.22); cursor: pointer; text-align: center; white-space: normal; overflow-wrap: normal; word-break: normal; hyphens: none; }
+#kurssLesson4 .lesson1-training-flashcard:hover { border-color: rgba(155, 190, 210, 0.42); transform: none; }
+#kurssLesson4 .lesson1-training-progress { display: inline-flex; align-items: center; justify-content: center; max-width: 100%; padding: 7px 13px; border-radius: 999px; background: rgba(20, 28, 44, 0.62); color: #bec8df; font-size: 0.96rem; font-weight: 850; line-height: 1.25; white-space: normal; overflow-wrap: normal; word-break: normal; }
+#kurssLesson4 .lesson1-training-text { max-width: 100%; color: #f4f8ff; font-size: clamp(2rem, 4vw, 3.2rem); font-weight: 900; line-height: 1.18; letter-spacing: 0; white-space: normal; overflow-wrap: normal; word-break: normal; hyphens: none; }
+#kurssLesson4 .lesson1-training-divider { width: min(260px, 42%); height: 1px; background: rgba(190, 200, 223, 0.22); }
+#kurssLesson4 .lesson1-training-answer { max-width: 100%; color: #c6d0e4; font-size: clamp(1.45rem, 3vw, 2.35rem); font-weight: 850; line-height: 1.2; letter-spacing: 0; white-space: normal; overflow-wrap: normal; word-break: normal; hyphens: none; }
+#kurssLesson4 .lesson1-training-hint { max-width: 760px; margin: 0; color: #aeb9ca; font-size: 0.96rem; line-height: 1.4; text-align: center; }
+@media (max-width: 768px) {
+  #kurssLesson4 .lesson1-content { padding: 12px; }
+  #kurssLesson4 .lesson1-card-grid { grid-template-columns: 1fr; }
+  #kurssLesson4 .lesson1-accordion > summary { padding: 12px; gap: 10px; }
+  #kurssLesson4 .kurss-example { box-sizing: border-box; overflow-wrap: normal; word-break: normal; hyphens: none; }
+  #kurssLesson4 .lesson1-training-flashcard { width: 100%; min-height: 220px; gap: 22px; padding: 22px 14px; }
+  #kurssLesson4 .lesson1-training-progress { font-size: 0.86rem; padding: 6px 10px; }
+  #kurssLesson4 .lesson1-training-text { font-size: clamp(1.7rem, 8vw, 2.55rem); }
+  #kurssLesson4 .lesson1-training-answer { font-size: clamp(1.3rem, 6vw, 2rem); }
+  #kurssLesson4 .lesson1-training-divider { width: min(210px, 48%); }
+  #kurssLesson4 .lesson1-training-hint { font-size: 0.9rem; }
+}
+
+/* Lekcija 5 course-card layout */
+#kurssLesson5 .lesson1-accordion {
+  border: 1px solid #253849;
+  border-radius: 14px;
+  background: linear-gradient(145deg, rgba(8, 20, 31, 0.96), rgba(9, 17, 27, 0.94));
+  margin-bottom: 12px;
+  overflow: hidden;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.035);
+}
+#kurssLesson5 .lesson1-accordion > summary {
+  cursor: pointer;
+  list-style: none;
+  min-height: 50px;
+  padding: 12px 16px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 12px;
+  color: #f8fafc;
+  font-weight: 850;
+  border-bottom: 1px solid rgba(86, 105, 128, 0.28);
+}
+#kurssLesson5 .lesson1-accordion > summary::-webkit-details-marker { display: none; }
+#kurssLesson5 .lesson1-number { width: 28px; height: 28px; border-radius: 7px; display: inline-grid; place-items: center; color: #fff; font-weight: 900; }
+#kurssLesson5 .lesson1-number-red { background: linear-gradient(145deg, #ff5c5c, #d83342); }
+#kurssLesson5 .lesson1-number-green { background: linear-gradient(145deg, #a6e95a, #51b935); }
+#kurssLesson5 .lesson1-number-purple { background: linear-gradient(145deg, #c45cff, #7f35d8); }
+#kurssLesson5 .lesson1-number-blue { background: linear-gradient(145deg, #40b7ff, #1684dd); }
+#kurssLesson5 .lesson1-number-orange { background: linear-gradient(145deg, #ff9f3d, #f05a24); }
+#kurssLesson5 .lesson1-chevron { color: #d9e2ef; font-size: 1.1rem; }
+#kurssLesson5 details[open] .lesson1-chevron { transform: rotate(180deg); }
+#kurssLesson5 .lesson1-content { padding: 14px 16px 16px; }
+#kurssLesson5 .lesson1-info, #kurssLesson5 .lesson1-grammar-note { border-top: 1px solid rgba(86,105,128,0.26); border-bottom: 1px solid rgba(86,105,128,0.2); padding: 12px 6px; margin: 0 0 12px; color: #b9c3d2; line-height: 1.4; background: transparent; }
+#kurssLesson5 .lesson1-card-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+#kurssLesson5 .kurss-example { border: 1px solid #263544; border-radius: 10px; background: linear-gradient(145deg, rgba(15, 29, 42, 0.98), rgba(13, 23, 34, 0.96)); color: #e9eef6; box-shadow: inset 0 1px 0 rgba(255,255,255,0.035); max-width: 100%; padding: 11px 13px; line-height: 1.35; overflow-wrap: normal; word-break: normal; hyphens: none; white-space: normal; }
+#kurssLesson5 .lesson1-block { margin-bottom: 18px; }
+#kurssLesson5 .lesson1-block:last-child { margin-bottom: 0; }
+#kurssLesson5 .lesson1-grammar-header { margin: 0 0 10px; padding: 9px 12px; display: flex; align-items: center; gap: 9px; border: 1px solid rgba(49, 180, 116, 0.45); border-radius: 9px; background: linear-gradient(135deg, rgba(18, 91, 64, 0.56), rgba(8, 64, 49, 0.42)); color: #f2fff7; font-size: 1rem; font-weight: 850; }
+#kurssLesson5 .lesson2-subtitle { margin: 14px 0 8px; color: #f8fafc; font-size: 0.98rem; }
+#kurssLesson5 .lesson1-training-wrap { display: grid; gap: 12px; justify-items: center; width: 100%; }
+#kurssLesson5 .lesson1-training-flashcard { width: min(100%, 760px); min-height: 260px; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 28px; padding: 28px 24px; border: 1px solid rgba(155, 190, 210, 0.28); border-radius: 18px; background: radial-gradient(circle at 50% 20%, rgba(255,255,255,0.05), transparent 45%), linear-gradient(145deg, rgba(31, 31, 31, 0.96), rgba(14, 25, 34, 0.96)); color: #eef6fa; box-shadow: inset 0 1px 0 rgba(255,255,255,0.06), 0 16px 34px rgba(0, 0, 0, 0.22); cursor: pointer; text-align: center; white-space: normal; overflow-wrap: normal; word-break: normal; hyphens: none; }
+#kurssLesson5 .lesson1-training-flashcard:hover { border-color: rgba(155, 190, 210, 0.42); transform: none; }
+#kurssLesson5 .lesson1-training-progress { display: inline-flex; align-items: center; justify-content: center; max-width: 100%; padding: 7px 13px; border-radius: 999px; background: rgba(20, 28, 44, 0.62); color: #bec8df; font-size: 0.96rem; font-weight: 850; line-height: 1.25; white-space: normal; overflow-wrap: normal; word-break: normal; }
+#kurssLesson5 .lesson1-training-text { max-width: 100%; color: #f4f8ff; font-size: clamp(2rem, 4vw, 3.2rem); font-weight: 900; line-height: 1.18; letter-spacing: 0; white-space: normal; overflow-wrap: normal; word-break: normal; hyphens: none; }
+#kurssLesson5 .lesson1-training-divider { width: min(260px, 42%); height: 1px; background: rgba(190, 200, 223, 0.22); }
+#kurssLesson5 .lesson1-training-answer { max-width: 100%; color: #c6d0e4; font-size: clamp(1.45rem, 3vw, 2.35rem); font-weight: 850; line-height: 1.2; letter-spacing: 0; white-space: normal; overflow-wrap: normal; word-break: normal; hyphens: none; }
+#kurssLesson5 .lesson1-training-hint { max-width: 760px; margin: 0; color: #aeb9ca; font-size: 0.96rem; line-height: 1.4; text-align: center; }
+@media (max-width: 768px) {
+  #kurssLesson5 .lesson1-content { padding: 12px; }
+  #kurssLesson5 .lesson1-card-grid { grid-template-columns: 1fr; }
+  #kurssLesson5 .lesson1-accordion > summary { padding: 12px; gap: 10px; }
+  #kurssLesson5 .kurss-example { box-sizing: border-box; overflow-wrap: normal; word-break: normal; hyphens: none; }
+  #kurssLesson5 .lesson1-training-flashcard { width: 100%; min-height: 220px; gap: 22px; padding: 22px 14px; }
+  #kurssLesson5 .lesson1-training-progress { font-size: 0.86rem; padding: 6px 10px; }
+  #kurssLesson5 .lesson1-training-text { font-size: clamp(1.7rem, 8vw, 2.55rem); }
+  #kurssLesson5 .lesson1-training-answer { font-size: clamp(1.3rem, 6vw, 2rem); }
+  #kurssLesson5 .lesson1-training-divider { width: min(210px, 48%); }
+  #kurssLesson5 .lesson1-training-hint { font-size: 0.9rem; }
+}
+
+/* Lekcija 6 course-card layout */
+#kurssLesson6 .lesson1-accordion {
+  border: 1px solid #253849;
+  border-radius: 14px;
+  background: linear-gradient(145deg, rgba(8, 20, 31, 0.96), rgba(9, 17, 27, 0.94));
+  margin-bottom: 12px;
+  overflow: hidden;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.035);
+}
+#kurssLesson6 .lesson1-accordion > summary {
+  cursor: pointer;
+  list-style: none;
+  min-height: 50px;
+  padding: 12px 16px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 12px;
+  color: #f8fafc;
+  font-weight: 850;
+  border-bottom: 1px solid rgba(86, 105, 128, 0.28);
+}
+#kurssLesson6 .lesson1-accordion > summary::-webkit-details-marker { display: none; }
+#kurssLesson6 .lesson1-number { width: 28px; height: 28px; border-radius: 7px; display: inline-grid; place-items: center; color: #fff; font-weight: 900; }
+#kurssLesson6 .lesson1-number-red { background: linear-gradient(145deg, #ff5c5c, #d83342); }
+#kurssLesson6 .lesson1-number-green { background: linear-gradient(145deg, #a6e95a, #51b935); }
+#kurssLesson6 .lesson1-number-purple { background: linear-gradient(145deg, #c45cff, #7f35d8); }
+#kurssLesson6 .lesson1-number-blue { background: linear-gradient(145deg, #40b7ff, #1684dd); }
+#kurssLesson6 .lesson1-number-orange { background: linear-gradient(145deg, #ff9f3d, #f05a24); }
+#kurssLesson6 .lesson1-chevron { color: #d9e2ef; font-size: 1.1rem; }
+#kurssLesson6 details[open] .lesson1-chevron { transform: rotate(180deg); }
+#kurssLesson6 .lesson1-content { padding: 14px 16px 16px; }
+#kurssLesson6 .lesson1-info, #kurssLesson6 .lesson1-grammar-note { border-top: 1px solid rgba(86,105,128,0.26); border-bottom: 1px solid rgba(86,105,128,0.2); padding: 12px 6px; margin: 0 0 12px; color: #b9c3d2; line-height: 1.4; background: transparent; }
+#kurssLesson6 .lesson1-card-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+#kurssLesson6 .kurss-example { border: 1px solid #263544; border-radius: 10px; background: linear-gradient(145deg, rgba(15, 29, 42, 0.98), rgba(13, 23, 34, 0.96)); color: #e9eef6; box-shadow: inset 0 1px 0 rgba(255,255,255,0.035); max-width: 100%; padding: 11px 13px; line-height: 1.35; overflow-wrap: normal; word-break: normal; hyphens: none; white-space: normal; }
+#kurssLesson6 .lesson1-block { margin-bottom: 18px; }
+#kurssLesson6 .lesson1-block:last-child { margin-bottom: 0; }
+#kurssLesson6 .lesson1-grammar-header { margin: 0 0 10px; padding: 9px 12px; display: flex; align-items: center; gap: 9px; border: 1px solid rgba(49, 180, 116, 0.45); border-radius: 9px; background: linear-gradient(135deg, rgba(18, 91, 64, 0.56), rgba(8, 64, 49, 0.42)); color: #f2fff7; font-size: 1rem; font-weight: 850; }
+#kurssLesson6 .lesson2-subtitle { margin: 14px 0 8px; color: #f8fafc; font-size: 0.98rem; }
+#kurssLesson6 .lesson1-training-wrap { display: grid; gap: 12px; justify-items: center; width: 100%; }
+#kurssLesson6 .lesson1-training-flashcard { width: min(100%, 760px); min-height: 260px; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 28px; padding: 28px 24px; border: 1px solid rgba(155, 190, 210, 0.28); border-radius: 18px; background: radial-gradient(circle at 50% 20%, rgba(255,255,255,0.05), transparent 45%), linear-gradient(145deg, rgba(31, 31, 31, 0.96), rgba(14, 25, 34, 0.96)); color: #eef6fa; box-shadow: inset 0 1px 0 rgba(255,255,255,0.06), 0 16px 34px rgba(0, 0, 0, 0.22); cursor: pointer; text-align: center; white-space: normal; overflow-wrap: normal; word-break: normal; hyphens: none; }
+#kurssLesson6 .lesson1-training-flashcard:hover { border-color: rgba(155, 190, 210, 0.42); transform: none; }
+#kurssLesson6 .lesson1-training-progress { display: inline-flex; align-items: center; justify-content: center; max-width: 100%; padding: 7px 13px; border-radius: 999px; background: rgba(20, 28, 44, 0.62); color: #bec8df; font-size: 0.96rem; font-weight: 850; line-height: 1.25; white-space: normal; overflow-wrap: normal; word-break: normal; }
+#kurssLesson6 .lesson1-training-text { max-width: 100%; color: #f4f8ff; font-size: clamp(2rem, 4vw, 3.2rem); font-weight: 900; line-height: 1.18; letter-spacing: 0; white-space: normal; overflow-wrap: normal; word-break: normal; hyphens: none; }
+#kurssLesson6 .lesson1-training-divider { width: min(260px, 42%); height: 1px; background: rgba(190, 200, 223, 0.22); }
+#kurssLesson6 .lesson1-training-answer { max-width: 100%; color: #c6d0e4; font-size: clamp(1.45rem, 3vw, 2.35rem); font-weight: 850; line-height: 1.2; letter-spacing: 0; white-space: normal; overflow-wrap: normal; word-break: normal; hyphens: none; }
+#kurssLesson6 .lesson1-training-hint { max-width: 760px; margin: 0; color: #aeb9ca; font-size: 0.96rem; line-height: 1.4; text-align: center; }
+@media (max-width: 768px) {
+  #kurssLesson6 .lesson1-content { padding: 12px; }
+  #kurssLesson6 .lesson1-card-grid { grid-template-columns: 1fr; }
+  #kurssLesson6 .lesson1-accordion > summary { padding: 12px; gap: 10px; }
+  #kurssLesson6 .kurss-example { box-sizing: border-box; overflow-wrap: normal; word-break: normal; hyphens: none; }
+  #kurssLesson6 .lesson1-training-flashcard { width: 100%; min-height: 220px; gap: 22px; padding: 22px 14px; }
+  #kurssLesson6 .lesson1-training-progress { font-size: 0.86rem; padding: 6px 10px; }
+  #kurssLesson6 .lesson1-training-text { font-size: clamp(1.7rem, 8vw, 2.55rem); }
+  #kurssLesson6 .lesson1-training-answer { font-size: clamp(1.3rem, 6vw, 2rem); }
+  #kurssLesson6 .lesson1-training-divider { width: min(210px, 48%); }
+  #kurssLesson6 .lesson1-training-hint { font-size: 0.9rem; }
+}
+/* Mobile-safe dark flashcard and controls theme */
+.card,
+.controls {
+  background: linear-gradient(145deg, #202120, #171918);
+  border-color: #4b504c;
+  color: #f3f6fb;
+}
+
+.card .word,
+.word {
+  color: #f7f8fa;
+}
+
+.translation,
+.hint,
+.notice {
+  color: #b8c1ce;
+}
+
+.badge {
+  background: #252b34;
+  border-color: #3b4654;
+  color: #c2cad8;
+}
+
+.spelling-row input {
+  background: #ffffff;
+  color: #162033;
+  border-color: #d9e0ea;
+}
