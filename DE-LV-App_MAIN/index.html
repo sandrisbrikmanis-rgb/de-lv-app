@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vācu–latviešu kartītes</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main>
+    <section class="app-shell" aria-label="Vācu–latviešu kartītes">
+      <div class="topbar">
+        <div>
+          <h1>Latviešu–Vācu–Latviešu</h1>
+          <p class="subtitle">Vācu un latviešu valoda pēc līmeņiem</p>
+        </div>
+
+        <div class="group-buttons" id="groupButtons" aria-label="Grupas"></div>
+        <div class="mode-row"><div class="group-buttons" id="modeButtons" aria-label="Mācīšanās režīmi"></div><button id="pamatiBtn" type="button">📖 Pamati</button><button id="kurssBtn" type="button">🎓 Kurss</button></div>
+
+        <div class="stats" aria-live="polite">
+          <div class="stat">
+            <span class="stat-icon" aria-hidden="true">👥</span>
+            <span class="stat-line"><span class="stat-label">Aktīvā grupa</span><span class="stat-separator">–</span><strong id="activeGroup">A1</strong></span>
+          </div>
+          <div class="stat">
+            <span class="stat-icon" aria-hidden="true">📖</span>
+            <span class="stat-line"><span class="stat-label">Kopā vārdu</span><span class="stat-separator">–</span><strong id="totalWords">0</strong></span>
+          </div>
+          <div class="stat">
+            <span class="stat-icon" aria-hidden="true">🎓</span>
+            <span class="stat-line"><span class="stat-label">Iemācītie</span><span class="stat-separator">–</span><strong id="learnedWords">0</strong></span>
+          </div>
+        </div>
+      </div>
+
+      <section class="pamati-overlay" id="pamatiPanel" hidden aria-label="Pamati" aria-modal="true" role="dialog">
+        <div class="pamati-panel">
+          <div class="pamati-header">
+            <h2>Pamati</h2>
+            <button class="pamati-close" id="pamatiCloseBtn" type="button" aria-label="Aizvērt Pamati">×</button>
+          </div>
+          <div class="pamati-stage">
+            <button class="pamati-arrow pamati-prev" id="pamatiPrevBtn" type="button" aria-label="Iepriekšējā Pamatu kartīte">←</button>
+            <div class="pamati-counter" id="pamatiCounter">1 / 3</div>
+            <div class="pamati-content" id="pamatiContent"></div>
+            <button class="pamati-arrow pamati-next" id="pamatiNextBtn" type="button" aria-label="Nākamā Pamatu kartīte">→</button>
+          </div>
+        </div>
+      </section>
+      <section class="kurss-overlay" id="kurssPanel" hidden aria-label="Kurss" aria-modal="true" role="dialog">
+        <div class="kurss-panel">
+          <div class="kurss-header">
+            <button class="kurss-back" id="kurssBackBtn" type="button" aria-label="Atgriezties uz galveno ekrānu">‹ Kurss</button>
+            <div class="kurss-title">
+              <h2 id="kurssTitle">Kurss</h2>
+              <p id="kurssSubtitle">Vācu valodas pamati soli pa solim</p>
+            </div>
+            <button class="kurss-close" id="kurssCloseBtn" type="button" aria-label="Aizvērt kursu">×</button>
+          </div>
+          <div class="kurss-list" id="kurssList">
+            <button class="kurss-item" id="kurssPronunciationBtn" type="button"><span class="kurss-icon sound">Aa</span><span><strong class="kurss-item-title">Izruna</strong><span class="kurss-item-desc">Vācu valodas skaņas un izrunas pamati.</span></span><span class="kurss-arrow">›</span></button>
+            <button class="kurss-item" id="kurssArticlesBtn" type="button"><span class="kurss-icon article">der<br>die<br>das</span><span><strong class="kurss-item-title">Artikuli</strong><span class="kurss-item-desc">Der, die, das un lietojuma pamati.</span></span><span class="kurss-arrow">›</span></button>
+            <button class="kurss-item" id="kurssLessonsBtn" type="button"><span class="kurss-icon lessons">📘</span><span><strong class="kurss-item-title">Lekcijas</strong><span class="kurss-item-desc">Mācību lekcijas secīgā kārtībā no 1 līdz 39.</span></span><span class="kurss-arrow">›</span></button>
+            <button class="kurss-item" id="kurssVerbBasicsBtn" type="button"><span class="kurss-icon verb">ich</span><span><strong class="kurss-item-title">Darbības vārdu pamati</strong><span class="kurss-item-desc">Personas, formas un biežākie darbības vārdi.</span></span><span class="kurss-arrow">›</span></button>
+            <button class="kurss-item" id="kurssSentenceStructureBtn" type="button"><span class="kurss-icon sentence">SVO</span><span><strong class="kurss-item-title">Teikumu uzbūve</strong><span class="kurss-item-desc">Vienkārša vārdu secība vācu teikumos.</span></span><span class="kurss-arrow">›</span></button>
+          </div>
+          <div class="kurss-tip" id="kurssTip"><span class="kurss-tip-icon" aria-hidden="true">💡</span><span><strong>Padoms</strong>Klausies, atkārto un salīdzini. Tava auss ir labākais skolotājs!</span></div>
+          <div class="kurss-sublesson-list" id="kurssLessonsMenu" hidden>
+            <button class="kurss-item" id="kurssLesson1Btn" type="button"><span class="kurss-icon lessons">📘</span><span><strong class="kurss-item-title">Lekcija 1</strong><span class="kurss-item-desc">Darbības vārdi tagadnē, vārdiņi, gramatika un treniņš.</span></span><span class="kurss-arrow">›</span></button>
+            <button class="kurss-item" id="kurssLesson2Btn" type="button"><span class="kurss-icon lessons">📘</span><span><strong class="kurss-item-title">Lekcija 2</strong><span class="kurss-item-desc">Dialogi, vārdi, izruna, gramatika un pārtulkošana.</span></span><span class="kurss-arrow">›</span></button>
+            <button class="kurss-item" type="button" disabled><span class="kurss-icon lessons">📘</span><span><strong class="kurss-item-title">Lekcija 3</strong><span class="kurss-item-desc">Tiks pievienota vēlāk.</span></span><span class="kurss-arrow">›</span></button>
+          </div>
+          <div class="kurss-sublesson-list" id="kurssPronunciationMenu" hidden>
+            <button class="kurss-item" id="kurssVowelsLessonBtn" type="button"><span class="kurss-icon sound">Aa</span><span><strong class="kurss-item-title">Patskaņi — garš un īss</strong><span class="kurss-item-desc">Garie un īsie patskaņi ar piemēriem.</span></span><span class="kurss-arrow">›</span></button>
+            <button class="kurss-item" id="kurssConsonantsLessonBtn" type="button"><span class="kurss-icon sentence">ch</span><span><strong class="kurss-item-title">Līdzskaņi un burtu savienojumi</strong><span class="kurss-item-desc">Svarīgākās līdzskaņu skaņas iesācējam.</span></span><span class="kurss-arrow">›</span></button>
+          </div>
+          <div class="kurss-lesson" id="kurssPronunciationLesson" hidden>
+          </div>
+          <div class="kurss-lesson" id="kurssArticlesLesson" hidden>
+          </div>
+          <div class="kurss-lesson" id="kurssConsonantsLesson" hidden>
+          </div>
+          <div class="kurss-lesson" id="kurssLesson1" hidden>
+          </div>
+          <div class="kurss-lesson" id="kurssLesson2" hidden>
+          </div>
+          <div class="kurss-lesson" id="kurssVerbBasicsLesson" hidden>
+          </div>
+          <div class="kurss-lesson" id="kurssSentenceStructureLesson" hidden>
+          </div>        </div>
+      </section>
+      <section class="unwanted-overlay" id="unwantedPanel" hidden aria-label="Nevajadzīgie vārdi" aria-modal="true" role="dialog">
+        <div class="unwanted-panel">
+          <div class="unwanted-header">
+            <h2>Nevajadzīgie vārdi</h2>
+            <button class="unwanted-close" id="unwantedCloseBtn" type="button" aria-label="Aizvērt nevajadzīgos">×</button>
+          </div>
+          <div class="unwanted-list" id="unwantedList"></div>
+        </div>
+      </section>
+      <section class="unwanted-overlay" id="masteredPanel" hidden aria-label="100% zināmi" aria-modal="true" role="dialog">
+        <div class="unwanted-panel">
+          <div class="unwanted-header">
+            <h2>100% zināmi</h2>
+            <button class="unwanted-close" id="masteredCloseBtn" type="button" aria-label="Aizvērt 100% zināmos">×</button>
+          </div>
+          <div class="unwanted-list" id="masteredList"></div>
+        </div>
+      </section>
+
+      <article class="card">
+        <div class="card-inner">
+          <div class="badge" id="cardLevel">A1</div>
+          <h2 class="word" id="word">-</h2>
+          <div class="translation" id="translation"></div>
+          <div class="hint" id="hint">Klikšķini uz kartītes, lai redzētu tulkojumu.</div>
+        </div>
+      </article>
+
+      <div class="controls">
+        <div class="spelling-panel" id="spellingPanel" hidden style="display: none;">
+          <div class="spelling-row">
+            <input id="spellingInput" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" />
+            <button id="checkSpellingBtn" type="button">Pārbaudīt</button>
+          </div>
+          <div class="spelling-result" id="spellingResult" aria-live="polite"></div>
+        </div>
+        <div class="action-buttons">
+          <button class="known" id="knownBtn" type="button">Zinu pareizi</button>
+          <button class="unknown" id="unknownBtn" type="button">Nezinu</button>
+          <button class="primary" id="nextBtn" type="button">Nākamais vārds</button>
+          <button id="shuffleBtn" type="button">Jaukt secību</button>
+          <button id="verbRandomBtn" type="button" hidden style="display: none;">Jaukt darbības vārdus</button>
+          <button id="spellingModeBtn" type="button">Pareizrakstība</button>
+          <button id="directionBtn" type="button">[Vācu → latviešu]</button>
+          <button id="markMasteredBtn" type="button" hidden style="display: none;">100% zinu</button>
+          <button id="markUnwantedBtn" type="button">Atzīmēt kā nevajadzīgu</button>
+          <button class="extra-options-toggle" id="extraOptionsBtn" type="button" aria-expanded="false">Papildu opcijas ▼</button>
+          <div class="mobile-extra-options" id="extraOptions" hidden>
+            <button id="reviewBtn" type="button">Pārskatīt zināmos</button>
+            <button id="reviewLastSessionBtn" type="button">Pārskatīt pēdējo sesiju</button>
+            <button id="archiveLastSessionBtn" type="button">Atzīmēt sesiju kā iemācītu</button>
+            <button id="problemWordsBtn" type="button">Problemātiskie vārdi</button>
+            <button id="allProblemWordsBtn" type="button">Visi problemātiskie</button>
+            <button id="weeklyReviewBtn" type="button">Nedēļas pārskats</button>
+            <button id="monthlyReviewBtn" type="button">Mēneša pārskats</button>
+            <button id="restoreBtn" type="button">Atgriezt visus</button>
+            <button id="restoreCurrentBtn" type="button">Atgriezt</button>
+            <button id="masteredListBtn" type="button">100% zināmi</button>
+            <button id="unwantedListBtn" type="button">Nevajadzīgie vārdi</button>
+          </div>
+        </div>
+        <div class="notice" id="notice" aria-live="polite"></div>
+      </div>
+    </section>
+  </main>
+  <script src="./groups.js"></script>
+  <script src="./storage.js"></script>
+  <script src="./data/a1.js"></script>
+  <script src="./data/a2.js"></script>
+  <script src="./data/b1.js"></script>
+  <script src="./data/b2.js"></script>
+  <script src="./data/c1.js"></script>
+  <script src="./data/c2.js"></script>
+  <script src="./data/sentences.js"></script>
+  <script src="./data/verbs.js"></script>
+  <script src="./data/courseLessons.js"></script>
+  <script src="./ui.js"></script>
+</body>
+</html>

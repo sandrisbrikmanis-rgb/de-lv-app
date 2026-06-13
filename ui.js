@@ -114,6 +114,8 @@ const state = {
   learned: loadProgress()
 };
 
+let spellingAutoNextTimer = null;
+
 const elements = {
   groupButtons: document.getElementById("groupButtons"),
   modeButtons: document.getElementById("modeButtons"),
@@ -134,6 +136,7 @@ const elements = {
   spellingPanel: document.getElementById("spellingPanel"),
   spellingInput: document.getElementById("spellingInput"),
   checkSpellingBtn: document.getElementById("checkSpellingBtn"),
+  continueSpellingBtn: document.getElementById("continueSpellingBtn"),
   spellingResult: document.getElementById("spellingResult"),
   directionBtn: document.getElementById("directionBtn"),
   extraOptionsBtn: document.getElementById("extraOptionsBtn"),
@@ -187,12 +190,14 @@ const elements = {
   kurssLesson4Btn: document.getElementById("kurssLesson4Btn"),
   kurssLesson5Btn: document.getElementById("kurssLesson5Btn"),
   kurssLesson6Btn: document.getElementById("kurssLesson6Btn"),
+  kurssLesson7Btn: document.getElementById("kurssLesson7Btn"),
   kurssLesson1: document.getElementById("kurssLesson1"),
   kurssLesson2: document.getElementById("kurssLesson2"),
   kurssLesson3: document.getElementById("kurssLesson3"),
   kurssLesson4: document.getElementById("kurssLesson4"),
   kurssLesson5: document.getElementById("kurssLesson5"),
   kurssLesson6: document.getElementById("kurssLesson6"),
+  kurssLesson7: document.getElementById("kurssLesson7"),
   kurssPronunciationMenu: document.getElementById("kurssPronunciationMenu"),
   kurssVowelsLessonBtn: document.getElementById("kurssVowelsLessonBtn"),
   kurssConsonantsLessonBtn: document.getElementById("kurssConsonantsLessonBtn"),
@@ -264,6 +269,7 @@ function showKurssMenu() {
   elements.kurssLesson4.hidden = true;
   elements.kurssLesson5.hidden = true;
   elements.kurssLesson6.hidden = true;
+  elements.kurssLesson7.hidden = true;
   elements.kurssConsonantsLesson.hidden = true;
   elements.kurssVerbBasicsLesson.hidden = true;
   elements.kurssSentenceStructureLesson.hidden = true;
@@ -296,6 +302,7 @@ function openArticlesLesson() {
   elements.kurssLesson4.hidden = true;
   elements.kurssLesson5.hidden = true;
   elements.kurssLesson6.hidden = true;
+  elements.kurssLesson7.hidden = true;
   elements.kurssVerbBasicsLesson.hidden = true;
   elements.kurssSentenceStructureLesson.hidden = true;
 }
@@ -315,6 +322,7 @@ function openPronunciationLesson() {
   elements.kurssLesson4.hidden = true;
   elements.kurssLesson5.hidden = true;
   elements.kurssLesson6.hidden = true;
+  elements.kurssLesson7.hidden = true;
   elements.kurssConsonantsLesson.hidden = false;
   elements.kurssVerbBasicsLesson.hidden = true;
   elements.kurssSentenceStructureLesson.hidden = true;
@@ -360,6 +368,7 @@ function openLessonsMenu() {
   elements.kurssLesson4.hidden = true;
   elements.kurssLesson5.hidden = true;
   elements.kurssLesson6.hidden = true;
+  elements.kurssLesson7.hidden = true;
   elements.kurssVerbBasicsLesson.hidden = true;
   elements.kurssSentenceStructureLesson.hidden = true;
 }
@@ -479,6 +488,24 @@ const lesson6TrainingCards = [
   { front: "Spalvaskāts ir melns.", back: "Der Federhalter ist schwarz." }
 ];
 
+const lesson7ExerciseCards = [
+  { infinitive: "fragen", lv: "jautāt", du: "frag! / frage!", ihr: "fragt!", sie: "fragen Sie!" },
+  { infinitive: "antworten", lv: "atbildēt", du: "antworte!", ihr: "antwortet!", sie: "antworten Sie!" },
+  { infinitive: "loben", lv: "slavēt", du: "lob! / lobe!", ihr: "lobt!", sie: "loben Sie!" },
+  { infinitive: "lieben", lv: "mīlēt", du: "lieb! / liebe!", ihr: "liebt!", sie: "lieben Sie!" },
+  { infinitive: "zählen", lv: "skaitīt", du: "zähl! / zähle!", ihr: "zählt!", sie: "zählen Sie!" },
+  { infinitive: "zeigen", lv: "rādīt", du: "zeig! / zeige!", ihr: "zeigt!", sie: "zeigen Sie!" },
+  { infinitive: "zeichnen", lv: "zīmēt", du: "zeichne!", ihr: "zeichnet!", sie: "zeichnen Sie!" },
+  { infinitive: "rechnen", lv: "rēķināt", du: "rechne!", ihr: "rechnet!", sie: "rechnen Sie!" },
+  { infinitive: "arbeiten", lv: "strādāt", du: "arbeite!", ihr: "arbeitet!", sie: "arbeiten Sie!" },
+  { infinitive: "kommen", lv: "nākt", du: "komm! / komme!", ihr: "kommt!", sie: "kommen Sie!" },
+  { infinitive: "gehen", lv: "iet", du: "geh! / gehe!", ihr: "geht!", sie: "gehen Sie!" },
+  { infinitive: "stehen", lv: "stāvēt", du: "steh! / stehe!", ihr: "steht!", sie: "stehen Sie!" },
+  { infinitive: "öffnen", lv: "atvērt", du: "öffne!", ihr: "öffnet!", sie: "öffnen Sie!" },
+  { infinitive: "singen", lv: "dziedāt", du: "sing! / singe!", ihr: "singt!", sie: "singen Sie!" },
+  { infinitive: "tun", lv: "darīt", du: "tu!", ihr: "tut!", sie: "tun Sie!" },
+  { infinitive: "nehmen", lv: "ņemt", du: "nimm!", ihr: "nehmt!", sie: "nehmen Sie!" }
+];
 function renderLesson1TrainingCard(index = 0, showingBack = false) {
   const card = elements.kurssLesson1.querySelector("[data-lesson1-training-card]");
   if (!card) return;
@@ -602,6 +629,38 @@ function handleLesson6TrainingCardClick(card) {
     renderLesson6TrainingCard(currentIndex, true);
   }
 }
+
+function renderLesson7ExerciseCard(index = 0, formStep = 0) {
+  const card = elements.kurssLesson7.querySelector("[data-lesson7-exercise-card]");
+  if (!card) return;
+  const safeIndex = ((index % lesson7ExerciseCards.length) + lesson7ExerciseCards.length) % lesson7ExerciseCards.length;
+  const safeStep = Math.max(0, Math.min(3, Number(formStep) || 0));
+  const item = lesson7ExerciseCards[safeIndex];
+  const formLabels = ["Tu (vienskaitlis)", "Jūs (daudzskaitlis)", "Sie (pieklājīgā forma)"];
+  const nextLabel = formLabels[Math.min(safeStep, 2)];
+  const forms = [
+    { label: "du", value: item.du },
+    { label: "ihr", value: item.ihr },
+    { label: "Sie", value: item.sie }
+  ];
+  const formsHtml = safeStep > 0
+    ? `<span class="lesson1-training-divider" aria-hidden="true"></span><span class="lesson7-exercise-forms">${forms.slice(0, safeStep).map((form) => `<span><strong>${form.label}:</strong> ${form.value}</span>`).join("")}</span>`
+    : "";
+  card.dataset.trainingIndex = String(safeIndex);
+  card.dataset.formStep = String(safeStep);
+  card.dataset.showingBack = safeStep > 0 ? "true" : "false";
+  card.innerHTML = `<span class="lesson1-training-progress">Lekcija 7 · Übung: ${safeIndex + 1} / ${lesson7ExerciseCards.length}</span><span class="lesson7-exercise-instruction">Izveido pavēles formas.</span><span class="lesson7-exercise-step">Forma ${Math.min(safeStep + 1, 3)}/3: ${nextLabel}</span><span class="lesson1-training-text">${item.infinitive} — ${item.lv}</span>${formsHtml}`;
+}
+
+function handleLesson7ExerciseCardClick(card) {
+  const currentIndex = Number(card.dataset.trainingIndex || "0");
+  const currentStep = Number(card.dataset.formStep || "0");
+  if (currentStep >= 3) {
+    renderLesson7ExerciseCard(currentIndex + 1, 0);
+  } else {
+    renderLesson7ExerciseCard(currentIndex, currentStep + 1);
+  }
+}
 function prepareLesson1Accordion() {
   const sections = Array.from(elements.kurssLesson1.querySelectorAll(".lesson1-accordion"));
   sections.forEach((section, index) => {
@@ -627,6 +686,7 @@ function openLesson1() {
   elements.kurssLesson4.hidden = true;
   elements.kurssLesson5.hidden = true;
   elements.kurssLesson6.hidden = true;
+  elements.kurssLesson7.hidden = true;
   elements.kurssVerbBasicsLesson.hidden = true;
   elements.kurssSentenceStructureLesson.hidden = true;
   prepareLesson1Accordion();
@@ -736,6 +796,7 @@ function openLesson5() {
   elements.kurssLesson4.hidden = true;
   elements.kurssLesson5.hidden = false;
   elements.kurssLesson6.hidden = true;
+  elements.kurssLesson7.hidden = true;
   elements.kurssVerbBasicsLesson.hidden = true;
   elements.kurssSentenceStructureLesson.hidden = true;
   prepareLesson5Accordion();
@@ -770,6 +831,37 @@ function openLesson6() {
   elements.kurssSentenceStructureLesson.hidden = true;
   prepareLesson6Accordion();
 }
+
+function prepareLesson7Accordion() {
+  const sections = Array.from(elements.kurssLesson7.querySelectorAll(".lesson1-accordion"));
+  sections.forEach((section, index) => {
+    section.open = index === 0;
+  });
+  renderLesson7ExerciseCard(0, false);
+}
+
+function openLesson7() {
+  elements.kurssBackBtn.textContent = "‹ Lekcijas";
+  elements.kurssTitle.textContent = "Lekcija 7";
+  elements.kurssSubtitle.textContent = "Pavēles izteiksme, uzrunas forma un daudzskaitlis";
+  elements.kurssList.hidden = true;
+  elements.kurssTip.hidden = true;
+  elements.kurssPronunciationMenu.hidden = true;
+  elements.kurssLessonsMenu.hidden = true;
+  elements.kurssPronunciationLesson.hidden = true;
+  elements.kurssArticlesLesson.hidden = true;
+  elements.kurssConsonantsLesson.hidden = true;
+  elements.kurssLesson1.hidden = true;
+  elements.kurssLesson2.hidden = true;
+  elements.kurssLesson3.hidden = true;
+  elements.kurssLesson4.hidden = true;
+  elements.kurssLesson5.hidden = true;
+  elements.kurssLesson6.hidden = true;
+  elements.kurssLesson7.hidden = false;
+  elements.kurssVerbBasicsLesson.hidden = true;
+  elements.kurssSentenceStructureLesson.hidden = true;
+  prepareLesson7Accordion();
+}
 function openVerbBasicsLesson() {
   elements.kurssTitle.textContent = "Darbības vārdu pamati";
   elements.kurssSubtitle.textContent = "Personas, formas un biežākie darbības vārdi.";
@@ -785,6 +877,7 @@ function openVerbBasicsLesson() {
   elements.kurssLesson4.hidden = true;
   elements.kurssLesson5.hidden = true;
   elements.kurssLesson6.hidden = true;
+  elements.kurssLesson7.hidden = true;
   elements.kurssVerbBasicsLesson.hidden = false;
   elements.kurssSentenceStructureLesson.hidden = true;
 }
@@ -804,11 +897,12 @@ function openSentenceStructureLesson() {
   elements.kurssLesson4.hidden = true;
   elements.kurssLesson5.hidden = true;
   elements.kurssLesson6.hidden = true;
+  elements.kurssLesson7.hidden = true;
   elements.kurssVerbBasicsLesson.hidden = true;
   elements.kurssSentenceStructureLesson.hidden = false;
 }
 function handleKurssBack() {
-  if (!elements.kurssLesson1.hidden || !elements.kurssLesson2.hidden || !elements.kurssLesson3.hidden || !elements.kurssLesson4.hidden || !elements.kurssLesson5.hidden || !elements.kurssLesson6.hidden) {
+  if (!elements.kurssLesson1.hidden || !elements.kurssLesson2.hidden || !elements.kurssLesson3.hidden || !elements.kurssLesson4.hidden || !elements.kurssLesson5.hidden || !elements.kurssLesson6.hidden || !elements.kurssLesson7.hidden) {
     openLessonsMenu();
     return;
   }
@@ -1514,11 +1608,34 @@ function resetVerbChallenge() {
   state.verbChallenge = null;
 }
 
+function clearSpellingAutoNextTimer() {
+  if (spellingAutoNextTimer) {
+    clearTimeout(spellingAutoNextTimer);
+    spellingAutoNextTimer = null;
+  }
+}
+
+function scheduleSpellingAutoNext(task) {
+  clearSpellingAutoNextTimer();
+  const taskId = task && task.id;
+  const answer = state.spellingAnswer;
+  spellingAutoNextTimer = setTimeout(() => {
+    spellingAutoNextTimer = null;
+    if (!state.spellingMode || !state.spellingChecked || !state.spellingCorrect) return;
+    if (!state.spellingTask || state.spellingTask.id !== taskId) return;
+    if (state.spellingAnswer !== answer) return;
+    nextCard();
+  }, 3000);
+}
 function resetSpellingTask() {
   state.spellingTask = null;
   state.spellingChecked = false;
   state.spellingCorrect = false;
   state.spellingAnswer = "";
+  if (elements.continueSpellingBtn) {
+    elements.continueSpellingBtn.hidden = true;
+    elements.continueSpellingBtn.disabled = true;
+  }
   if (elements.spellingInput) {
     elements.spellingInput.value = "";
   }
@@ -1632,6 +1749,7 @@ function currentSpellingTask(card) {
 }
 
 function checkSpellingAnswer() {
+  clearSpellingAutoNextTimer();
   if (!state.spellingMode) return;
   const card = state.verbMode ? currentVerb() : currentCard();
   const task = currentSpellingTask(card);
@@ -1641,6 +1759,9 @@ function checkSpellingAnswer() {
   state.spellingChecked = true;
   state.spellingCorrect = typedAnswerIsCorrect(state.spellingAnswer, task.expected);
   state.revealed = !state.spellingCorrect;
+  if (state.spellingCorrect) {
+    scheduleSpellingAutoNext(task);
+  }
   render();
 }
 
@@ -1956,26 +2077,33 @@ function restoreMastered(id) {
   render();
 }
 
+function currentVisibleMasterableCard() {
+  if (state.verbMode) return null;
+  if (state.reviewKnown) return currentKnownCard();
+  return currentCard();
+}
+
+function addCardToMastered(card) {
+  if (!card) return false;
+  const id = cardId(card);
+  if (!id || masteredSet().has(id)) return false;
+  state.masteredIds.push(unwantedEntryForCard(card));
+  saveMasteredIds();
+  return true;
+}
+
 function markCurrentMastered() {
-  if (!state.reviewKnown || state.verbMode) return;
-  const card = currentKnownCard();
+  const card = currentVisibleMasterableCard();
   if (!card) {
-    setNotice("Nav zināma vārda, ko pārvietot uz 100% zināmajiem.");
+    setNotice("Nav kartītes, ko pievienot 100% zināmajiem.");
+    openMasteredList();
     return;
   }
 
-  const id = cardId(card);
-  if (!masteredSet().has(id)) {
-    state.masteredIds.push(unwantedEntryForCard(card));
-    saveMasteredIds();
-  }
-  nextKnownCard();
-  if (!currentKnownCard()) {
-    setNotice("Zināmo vārdu pārskatīšana pabeigta.");
-  } else {
-    setNotice("Vārds pārvietots uz 100% zināmajiem.");
-  }
-  render();
+  const added = addCardToMastered(card);
+  setNotice(added ? "Vārds pievienots 100% zināmajiem." : "Vārds jau ir 100% zināmo sarakstā.");
+  renderMasteredList();
+  openMasteredList();
 }
 
 
@@ -2291,6 +2419,7 @@ function markUnknown() {
 }
 
 function nextCard() {
+  clearSpellingAutoNextTimer();
   if (state.timeReviewMode) {
     const config = timeReviewConfig();
     if (!currentTimeReviewCard()) {
@@ -2365,6 +2494,10 @@ function nextCard() {
   render();
 }
 
+function continueSpelling() {
+  if (!state.spellingMode || !state.spellingChecked) return;
+  nextCard();
+}
 function shuffleDeck() {
   if (state.problemMode) {
     setNotice("Problemātiskie vārdi tiek rādīti rotācijā.");
@@ -2693,8 +2826,8 @@ function renderModeButtons() {
   elements.spellingModeBtn.className = state.spellingMode ? "group-btn active" : "";
   elements.spellingModeBtn.setAttribute("aria-pressed", state.spellingMode ? "true" : "false");
   if (elements.unwantedBtn) elements.unwantedBtn.hidden = true;
-  elements.markMasteredBtn.hidden = !(state.reviewKnown && !state.verbMode);
-  elements.markMasteredBtn.style.display = state.reviewKnown && !state.verbMode ? "" : "none";
+  elements.markMasteredBtn.hidden = true;
+  elements.markMasteredBtn.style.display = "none";
   elements.markUnwantedBtn.hidden = state.verbMode;
   elements.unwantedListBtn.hidden = state.verbMode;
   for (const [mode, config] of Object.entries(sessionModes)) {
@@ -2711,6 +2844,10 @@ function renderSpellingControls() {
   elements.spellingPanel.hidden = !state.spellingMode;
   elements.spellingPanel.style.display = state.spellingMode ? "" : "none";
   elements.knownBtn.disabled = state.spellingMode && !state.spellingCorrect;
+  if (elements.continueSpellingBtn) {
+    elements.continueSpellingBtn.hidden = !state.spellingMode || !state.spellingChecked;
+    elements.continueSpellingBtn.disabled = !state.spellingMode || !state.spellingChecked;
+  }
 
   if (!state.spellingMode) {
     elements.spellingResult.textContent = "";
@@ -2728,7 +2865,7 @@ function renderSpellingControls() {
   if (!state.spellingChecked) {
     elements.spellingResult.textContent = "";
   } else if (state.spellingCorrect) {
-    elements.spellingResult.textContent = "✓ Pareizi";
+    elements.spellingResult.innerHTML = `<div class="spelling-correct-label">✓ Pareizi!</div>`;
   } else if (task) {
     elements.spellingResult.innerHTML = `
       <div class="spelling-incorrect-label">✗ Nepareizi</div>
@@ -2938,6 +3075,7 @@ elements.kurssLesson3Btn.addEventListener("click", openLesson3);
 elements.kurssLesson4Btn.addEventListener("click", openLesson4);
 elements.kurssLesson5Btn.addEventListener("click", openLesson5);
 elements.kurssLesson6Btn.addEventListener("click", openLesson6);
+elements.kurssLesson7Btn.addEventListener("click", openLesson7);
 elements.kurssVerbBasicsBtn.addEventListener("click", openVerbBasicsLesson);
 elements.kurssSentenceStructureBtn.addEventListener("click", openSentenceStructureLesson);
 elements.kurssVowelsLessonBtn.addEventListener("click", openVowelsLesson);
@@ -3070,6 +3208,27 @@ elements.kurssLesson6.addEventListener("toggle", (event) => {
   if (!elements.kurssLesson6.hidden) {
     section.scrollIntoView({ behavior: "smooth", block: "start" });
   }
+}, true);elements.kurssLesson7.addEventListener("click", (event) => {
+  const exerciseCard = event.target.closest("[data-lesson7-exercise-card]");
+  if (exerciseCard) {
+    handleLesson7ExerciseCardClick(exerciseCard);
+    return;
+  }
+  const card = event.target.closest("[data-course-card-front]");
+  if (!card) return;
+  const showingBack = card.dataset.showingBack === "true";
+  card.innerHTML = showingBack ? card.dataset.courseCardFront : card.dataset.courseCardBack;
+  card.dataset.showingBack = showingBack ? "false" : "true";
+});
+elements.kurssLesson7.addEventListener("toggle", (event) => {
+  const section = event.target.closest(".lesson1-accordion");
+  if (!section || !section.open) return;
+  elements.kurssLesson7.querySelectorAll(".lesson1-accordion").forEach((other) => {
+    if (other !== section) other.open = false;
+  });
+  if (!elements.kurssLesson7.hidden) {
+    section.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
 }, true);elements.kurssPanel.addEventListener("click", (event) => {
   if (event.target === elements.kurssPanel) closeKurss();
 });
@@ -3088,10 +3247,16 @@ elements.shuffleBtn.addEventListener("click", shuffleDeck);
 elements.verbRandomBtn.addEventListener("click", toggleVerbRandomMode);
 elements.spellingModeBtn.addEventListener("click", toggleSpellingMode);
 elements.checkSpellingBtn.addEventListener("click", checkSpellingAnswer);
+elements.continueSpellingBtn.addEventListener("click", continueSpelling);
 elements.spellingInput.addEventListener("input", () => {
+  clearSpellingAutoNextTimer();
   state.spellingAnswer = elements.spellingInput.value;
   state.spellingChecked = false;
   state.spellingCorrect = false;
+  if (elements.continueSpellingBtn) {
+    elements.continueSpellingBtn.hidden = true;
+    elements.continueSpellingBtn.disabled = true;
+  }
   elements.knownBtn.disabled = state.spellingMode;
   elements.spellingResult.textContent = "";
 });
@@ -3104,9 +3269,8 @@ elements.directionBtn.addEventListener("click", toggleDirection);
 if (elements.unwantedBtn) {
   elements.unwantedBtn.hidden = true;
 }
-elements.markMasteredBtn.addEventListener("click", markCurrentMastered);
 elements.markUnwantedBtn.addEventListener("click", markCurrentUnwanted);
-elements.masteredListBtn.addEventListener("click", openMasteredList);
+elements.masteredListBtn.addEventListener("click", markCurrentMastered);
 elements.masteredCloseBtn.addEventListener("click", closeMasteredList);
 elements.masteredPanel.addEventListener("click", (event) => {
   if (event.target === elements.masteredPanel) closeMasteredList();
