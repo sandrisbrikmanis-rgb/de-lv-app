@@ -191,6 +191,11 @@ const elements = {
   kurssLesson5Btn: document.getElementById("kurssLesson5Btn"),
   kurssLesson6Btn: document.getElementById("kurssLesson6Btn"),
   kurssLesson7Btn: document.getElementById("kurssLesson7Btn"),
+  kurssLesson8Btn: document.getElementById("kurssLesson8Btn"),
+  kurssLesson9Btn: document.getElementById("kurssLesson9Btn"),
+  kurssLesson10Btn: document.getElementById("kurssLesson10Btn"),
+  kurssLesson11Btn: document.getElementById("kurssLesson11Btn"),
+  kurssLesson12Btn: document.getElementById("kurssLesson12Btn"),
   kurssLesson1: document.getElementById("kurssLesson1"),
   kurssLesson2: document.getElementById("kurssLesson2"),
   kurssLesson3: document.getElementById("kurssLesson3"),
@@ -198,6 +203,11 @@ const elements = {
   kurssLesson5: document.getElementById("kurssLesson5"),
   kurssLesson6: document.getElementById("kurssLesson6"),
   kurssLesson7: document.getElementById("kurssLesson7"),
+  kurssLesson8: document.getElementById("kurssLesson8"),
+  kurssLesson9: document.getElementById("kurssLesson9"),
+  kurssLesson10: document.getElementById("kurssLesson10"),
+  kurssLesson11: document.getElementById("kurssLesson11"),
+  kurssLesson12: document.getElementById("kurssLesson12"),
   kurssPronunciationMenu: document.getElementById("kurssPronunciationMenu"),
   kurssVowelsLessonBtn: document.getElementById("kurssVowelsLessonBtn"),
   kurssConsonantsLessonBtn: document.getElementById("kurssConsonantsLessonBtn"),
@@ -206,15 +216,313 @@ const elements = {
   kurssSentenceStructureLesson: document.getElementById("kurssSentenceStructureLesson")
 };
 
-function hydrateCourseLessons() {
-  if (!window.COURSE_LESSON_HTML) return;
-  for (const [id, content] of Object.entries(window.COURSE_LESSON_HTML)) {
-    const target = document.getElementById(id);
-    if (target) target.innerHTML = content;
+const courseLessonIds = Array.from({ length: 12 }, (_, index) => `kurssLesson${index + 1}`);
+
+const courseLessonConfigs = {
+  kurssLesson1: {
+    title: "Lekcija 1",
+    subtitle: "Darbības vārdi tagadnē, vārdiņi, gramatika un pārtulko",
+    prepare: () => { prepareLesson1Accordion(); renderLesson1TrainingCard(0, false); }
+  },
+  kurssLesson2: {
+    title: "Lekcija 2",
+    subtitle: "Dialogi, vārdi, izruna, gramatika un pārtulko",
+    prepare: () => { prepareLesson2Accordion(); renderLesson2TrainingCard(0, false); }
+  },
+  kurssLesson3: {
+    title: "Lekcija 3",
+    subtitle: "Artikuli, vietas vārdi un pārtulko",
+    prepare: () => { prepareLesson3Accordion(); renderLesson3TrainingCard(0, false); }
+  },
+  kurssLesson4: {
+    title: "Lekcija 4",
+    subtitle: "Objekti klasē, īpašības un pārtulko",
+    prepare: () => { prepareLesson4Accordion(); renderLesson4TrainingCard(0, false); }
+  },
+  kurssLesson5: {
+    title: "Lekcija 5",
+    subtitle: "Wen?, akuzatīvs, sitzen, fragen un -in galotne.",
+    prepare: () => { prepareLesson5Accordion(); renderLesson5TrainingCard(0, false); }
+  },
+  kurssLesson6: {
+    title: "Lekcija 6",
+    subtitle: "Darbības vārdi, vietas apstākļi un pārtulko",
+    prepare: () => { prepareLesson6Accordion(); renderLesson6TrainingCard(0, false); }
+  },
+  kurssLesson7: {
+    title: "Lekcija 7",
+    subtitle: "Pavēles izteiksme, uzrunas forma un daudzskaitlis.",
+    prepare: () => { prepareLesson7Accordion(); renderLesson7ExerciseCard(0, false); }
+  },
+  kurssLesson8: {
+    title: "Lekcija 8",
+    subtitle: "Refleksīvie darbības vārdi, e → i/ie maiņa un akuzatīvs",
+    dataKey: "kurssLesson8",
+    exerciseAttribute: "data-lesson8-exercise-card",
+    prepare: () => { prepareLesson8Accordion(); renderLesson8ExerciseCard(0, false); renderLesson8TranslateCard(0, false); }
+  },
+  kurssLesson9: {
+    title: "Lekcija 9",
+    subtitle: "dieser/jener, vietniekvārdi, daudzskaitlis un teikumu pārveidošana",
+    dataKey: "kurssLesson9",
+    exerciseAttribute: "data-lesson9-exercise-card",
+    prepare: () => { prepareLesson9Accordion(); renderLesson9ExerciseCard(0, 0); renderLesson9TranslateCard(0, false); }
+  },
+  kurssLesson10: {
+    title: "Lekcija 10",
+    subtitle: "sein, können, pamatformas un pārtulko",
+    dataKey: "kurssLesson10",
+    exerciseAttribute: "data-lesson10-translate-card",
+    prepare: () => { prepareLesson10Accordion(); renderLesson10TranslateCard(0, false); }
+  },
+  kurssLesson11: {
+    title: "Lekcija 11",
+    subtitle: "haben, kein/keine/kein, draugi un istabas apraksts",
+    dataKey: "kurssLesson11",
+    exerciseAttribute: "data-lesson11-translate-card",
+    prepare: () => { prepareLesson11Accordion(); renderLesson11TranslateCard(0, false); }
+  },
+  kurssLesson12: {
+    title: "Lekcija 12",
+    subtitle: "Īpašības vārdu salīdzināmās pakāpes, krāsas un īpašības.",
+    dataKey: "kurssLesson12",
+    exerciseAttribute: "data-lesson12-translate-card",
+    prepare: () => { prepareLesson12Accordion(); renderLesson12TranslateCard(0, false); }
+  }
+};
+
+function hideCourseLessonPanels(activeLessonId = null) {
+  courseLessonIds.forEach((lessonId) => {
+    const panel = elements[lessonId];
+    if (panel) panel.hidden = lessonId !== activeLessonId;
+  });
+}
+
+function setCourseLessonChrome(config) {
+  if (elements.kurssTitle) elements.kurssTitle.textContent = config.title;
+  if (elements.kurssSubtitle) elements.kurssSubtitle.textContent = config.subtitle || "";
+  if (elements.kurssList) elements.kurssList.hidden = true;
+  if (elements.kurssLessonsMenu) elements.kurssLessonsMenu.hidden = true;
+  if (elements.kurssPronunciation) elements.kurssPronunciation.hidden = true;
+  if (elements.kurssArticles) elements.kurssArticles.hidden = true;
+  if (elements.kurssVerbBasics) elements.kurssVerbBasics.hidden = true;
+  if (elements.kurssSentenceStructure) elements.kurssSentenceStructure.hidden = true;
+}
+
+function renderCourseLesson(lessonId) {
+  const config = courseLessonConfigs[lessonId];
+  const target = elements[lessonId];
+  if (!config || !target) return;
+
+  const lesson = window.COURSE_LESSON_DATA?.[config.dataKey || lessonId];
+  renderCourseLessonFromData(target, lesson, config.exerciseAttribute);
+
+  target.classList.add("course-lesson");
+}
+
+function prepareCourseLesson(lessonId) {
+  const config = courseLessonConfigs[lessonId];
+  if (config?.prepare) config.prepare();
+}
+
+function openCourseLesson(lessonId) {
+  const config = courseLessonConfigs[lessonId];
+  const target = elements[lessonId];
+  if (!config || !target) return;
+
+  setCourseLessonChrome(config);
+  hideCourseLessonPanels(lessonId);
+  renderCourseLesson(lessonId);
+  target.hidden = false;
+  target.scrollIntoView({ behavior: "smooth", block: "start" });
+  prepareCourseLesson(lessonId);
+  if (elements.kurssPanel) elements.kurssPanel.classList.add("active");
+}
+
+function handleCourseLessonClick(event) {
+  const handlerEntries = [
+    ["[data-lesson1-training-card]", (card) => handleLesson1TrainingCardClick(card)],
+    ["[data-lesson2-training-card]", (card) => handleLesson2TrainingCardClick(card)],
+    ["[data-lesson3-training-card]", (card) => handleLesson3TrainingCardClick(card)],
+    ["[data-lesson4-training-card]", (card) => handleLesson4TrainingCardClick(card)],
+    ["[data-lesson5-training-card]", (card) => handleLesson5TrainingCardClick(card)],
+    ["[data-lesson6-training-card]", (card) => handleLesson6TrainingCardClick(card)],
+    ["[data-lesson7-exercise-card]", (card) => handleLesson7ExerciseCardClick(card)],
+    ["[data-lesson8-exercise-card]", (card) => handleLesson8ExerciseCardClick(card)],
+    ["[data-lesson8-translate-card]", () => handleLesson8TranslateCardClick(event)],
+    ["[data-lesson9-exercise-card]", () => handleLesson9ExerciseCardClick(event)],
+    ["[data-lesson9-translate-card]", () => handleLesson9TranslateCardClick(event)],
+    ["[data-lesson10-translate-card]", () => handleLesson10TranslateCardClick(event)],
+    ["[data-lesson11-translate-card]", () => handleLesson11TranslateCardClick(event)],
+    ["[data-lesson12-translate-card]", () => handleLesson12TranslateCardClick(event)]
+  ];
+
+  for (const [selector, handler] of handlerEntries) {
+    const card = event.target.closest(selector);
+    if (card) {
+      handler(card);
+      return;
+    }
+  }
+
+  const frontCard = event.target.closest("[data-course-card-front]");
+  if (frontCard) {
+    frontCard.classList.toggle("is-open");
+    const back = frontCard.querySelector("[data-course-card-back]");
+    if (back) back.hidden = !frontCard.classList.contains("is-open");
   }
 }
 
-hydrateCourseLessons();
+function handleCourseLessonToggle(event) {
+  const accordion = event.target;
+  if (!accordion.matches(".lesson1-accordion") || !accordion.open) return;
+
+  const lessonPanel = event.currentTarget;
+  lessonPanel.querySelectorAll(".lesson1-accordion").forEach((item) => {
+    if (item !== accordion) item.open = false;
+  });
+
+  accordion.scrollIntoView({ block: "start", behavior: "smooth" });
+}
+
+function lessonNumberClass(index) {
+  return [
+    "lesson1-number-red",
+    "lesson1-number-green",
+    "lesson1-number-purple",
+    "lesson1-number-blue",
+    "lesson1-number-orange"
+  ][index] || "lesson1-number-blue";
+}
+
+function renderCourseLessonTable(table) {
+  if (!Array.isArray(table) || table.length === 0) return "";
+  return '<div class="lesson1-grammar-table">' + table.map((row) => {
+    const cells = Array.isArray(row) ? row : [row];
+    return '<div class="lesson1-grammar-row">' + cells.map((cell) => {
+      return '<span>' + escapeHtml(cell).replace(/\n/g, "<br>") + '</span>';
+    }).join("") + '</div>';
+  }).join("") + '</div>';
+}
+
+function renderCourseLessonExamples(examples) {
+  if (!Array.isArray(examples) || examples.length === 0) return "";
+  return '<div class="lesson1-card-grid">' + examples.map((example) => {
+    return '<div class="kurss-example">' + escapeHtml(example).replace(/\n/g, "<br>") + '</div>';
+  }).join("") + '</div>';
+}
+
+function renderCourseLessonObject(item) {
+  if (!item || typeof item !== "object") {
+    return '<div class="kurss-example">' + escapeHtml(item ?? "").replace(/\n/g, "<br>") + '</div>';
+  }
+
+  if (Array.isArray(item)) {
+    return renderCourseLessonTable(item);
+  }
+
+  if (Object.prototype.hasOwnProperty.call(item, "front") || Object.prototype.hasOwnProperty.call(item, "back")) {
+    const frontHtml = escapeHtml(item.front || "").replace(/\n/g, "<br>");
+    const backHtml = escapeHtml(item.back || "").replace(/\n/g, "<br>");
+    return '<div class="kurss-example" role="button" tabindex="0" data-course-card-front="' + escapeHtml(frontHtml) + '" data-course-card-back="' + escapeHtml(backHtml) + '" data-showing-back="false">' + frontHtml + '</div>';
+  }
+
+  const heading = item.heading || item.title || "";
+  const parts = [];
+
+  if (heading) {
+    parts.push('<div class="lesson1-grammar-heading">' + escapeHtml(heading) + '</div>');
+  }
+
+  if (item.text) {
+    parts.push('<div class="lesson1-grammar-text">' + escapeHtml(item.text).replace(/\n/g, "<br>") + '</div>');
+  }
+
+  if (Array.isArray(item.table)) {
+    parts.push(renderCourseLessonTable(item.table));
+  }
+
+  if (Array.isArray(item.rows)) {
+    parts.push(renderCourseLessonTable(item.rows));
+  }
+
+  if (Array.isArray(item.examples)) {
+    parts.push(renderCourseLessonExamples(item.examples));
+  }
+
+  if (Array.isArray(item.items)) {
+    parts.push(renderCourseLessonItems(item.items));
+  }
+
+  if (!parts.length) {
+    parts.push('<div class="kurss-example">' + escapeHtml(JSON.stringify(item)).replace(/\n/g, "<br>") + '</div>');
+  }
+
+  return '<div class="lesson1-grammar-block">' + parts.join("") + '</div>';
+}
+
+function renderCourseLessonItems(items) {
+  if (!Array.isArray(items) || items.length === 0) return "";
+  const hasStructuredItems = items.some((item) => item && typeof item === "object");
+
+  if (hasStructuredItems) {
+    return '<div class="lesson1-structured-content">' + items.map((item) => {
+      return renderCourseLessonObject(item);
+    }).join("") + '</div>';
+  }
+
+  return '<div class="lesson1-card-grid">' + items.map((item) => {
+    return '<div class="kurss-example">' + escapeHtml(item).replace(/\n/g, "<br>") + '</div>';
+  }).join("") + '</div>';
+}
+
+function renderCourseLessonFromData(target, lesson, exerciseAttribute) {
+  if (target && lesson?.legacyHtml) {
+    target.innerHTML = lesson.legacyHtml;
+    return;
+  }
+  if (!target || !lesson || !Array.isArray(lesson.sections)) return;
+  const intro = lesson.intro || lesson.description || "";
+  const sectionsHtml = lesson.sections.map((section, index) => {
+    const isExercise = Array.isArray(section.cards);
+    const openAttr = index === 0 ? " open" : "";
+    const numberClass = lessonNumberClass(index);
+    const contentClass = section.title === "Gramatika" ? "lesson1-content lesson1-grammar-content" : "lesson1-content";
+    const bodyParts = [];
+    if (section.description && !isExercise) {
+      bodyParts.push('<p class="kurss-lesson-intro">' + escapeHtml(section.description) + '</p>');
+    }
+    if (isExercise) {
+      let attr = exerciseAttribute || "data-course-exercise-card";
+      let hint = "Klikšķini uz kartītes, lai redzētu atbildi. Pēc atbildes nākamais klikšķis rāda nākamo kartīti.";
+      if (lesson.id === "lesson8" && section.title === "Pārtulko") {
+        attr = "data-lesson8-translate-card";
+        hint = "Klikšķini uz kartītes, lai redzētu vācu tulkojumu. Pēc atbildes nākamais klikšķis rāda nākamo kartīti.";
+      }
+      if (lesson.id === "lesson9" && section.title === "Übung / Vingrinājums") {
+        attr = "data-lesson9-exercise-card";
+        hint = "Klikšķini uz kartītes, lai redzētu nākamo pārveidojumu. Pēc 4. soļa nākamais klikšķis rāda nākamo kartīti.";
+      }
+      if (lesson.id === "lesson9" && section.title === "Pārtulko") {
+        attr = "data-lesson9-translate-card";
+        hint = "Klikšķini uz kartītes, lai redzētu vācu tulkojumu. Pēc atbildes nākamais klikšķis rāda nākamo kartīti.";
+      }
+      if (lesson.id === "lesson10" && section.title === "Pārtulko") {
+        attr = "data-lesson10-translate-card";
+        hint = "Klikšķini uz kartītes, lai redzētu vācu tulkojumu. Pēc atbildes nākamais klikšķis rāda nākamo kartīti.";
+      }
+      if (lesson.id === "lesson11" && section.title === "Pārtulko") {
+        attr = "data-lesson11-translate-card";
+        hint = "Klikšķini uz kartītes, lai redzētu vācu tulkojumu. Pēc atbildes nākamais klikšķis rāda nākamo kartīti.";
+      }
+      bodyParts.push('<div class="lesson1-training-wrap"><button class="lesson1-training-flashcard" type="button" ' + attr + ' data-training-index="0" data-showing-back="false" aria-label="' + escapeHtml(lesson.title + ' vingrinājuma kartīte') + '"></button><p class="lesson1-training-hint">' + hint + '</p></div>');
+    } else {
+      bodyParts.push(renderCourseLessonItems(section.items));
+    }
+    return '<details class="lesson1-accordion"' + openAttr + '><summary><span class="lesson1-number ' + numberClass + '">' + (index + 1) + '.</span><span>' + escapeHtml(section.title) + '</span><span class="lesson1-chevron">⌄</span></summary><div class="' + contentClass + '">' + bodyParts.join("") + '</div></details>';
+  }).join("");
+  target.innerHTML = '<h3>' + escapeHtml(lesson.title) + '</h3>' + (intro ? '<p class="kurss-lesson-intro">' + escapeHtml(intro) + '</p>' : "") + sectionsHtml;
+}
 
 const pamatiSlides = [
   `<h3>Noteiktie artikuli</h3><table><tbody><tr><th>der</th><td>vīriešu dzimte</td><td>der Mann</td></tr><tr><th>die</th><td>sieviešu dzimte</td><td>die Frau</td></tr><tr><th>das</th><td>nekatrā dzimte</td><td>das Kind</td></tr><tr><th>die</th><td>daudzskaitlis</td><td>die Kinder</td></tr></tbody></table>`,
@@ -270,6 +578,11 @@ function showKurssMenu() {
   elements.kurssLesson5.hidden = true;
   elements.kurssLesson6.hidden = true;
   elements.kurssLesson7.hidden = true;
+  elements.kurssLesson8.hidden = true;
+  elements.kurssLesson9.hidden = true;
+  elements.kurssLesson10.hidden = true;
+  elements.kurssLesson11.hidden = true;
+  elements.kurssLesson12.hidden = true;
   elements.kurssConsonantsLesson.hidden = true;
   elements.kurssVerbBasicsLesson.hidden = true;
   elements.kurssSentenceStructureLesson.hidden = true;
@@ -303,6 +616,11 @@ function openArticlesLesson() {
   elements.kurssLesson5.hidden = true;
   elements.kurssLesson6.hidden = true;
   elements.kurssLesson7.hidden = true;
+  elements.kurssLesson8.hidden = true;
+  elements.kurssLesson9.hidden = true;
+  elements.kurssLesson10.hidden = true;
+  elements.kurssLesson11.hidden = true;
+  elements.kurssLesson12.hidden = true;
   elements.kurssVerbBasicsLesson.hidden = true;
   elements.kurssSentenceStructureLesson.hidden = true;
 }
@@ -323,6 +641,11 @@ function openPronunciationLesson() {
   elements.kurssLesson5.hidden = true;
   elements.kurssLesson6.hidden = true;
   elements.kurssLesson7.hidden = true;
+  elements.kurssLesson8.hidden = true;
+  elements.kurssLesson9.hidden = true;
+  elements.kurssLesson10.hidden = true;
+  elements.kurssLesson11.hidden = true;
+  elements.kurssLesson12.hidden = true;
   elements.kurssConsonantsLesson.hidden = false;
   elements.kurssVerbBasicsLesson.hidden = true;
   elements.kurssSentenceStructureLesson.hidden = true;
@@ -369,6 +692,11 @@ function openLessonsMenu() {
   elements.kurssLesson5.hidden = true;
   elements.kurssLesson6.hidden = true;
   elements.kurssLesson7.hidden = true;
+  elements.kurssLesson8.hidden = true;
+  elements.kurssLesson9.hidden = true;
+  elements.kurssLesson10.hidden = true;
+  elements.kurssLesson11.hidden = true;
+  elements.kurssLesson12.hidden = true;
   elements.kurssVerbBasicsLesson.hidden = true;
   elements.kurssSentenceStructureLesson.hidden = true;
 }
@@ -630,6 +958,199 @@ function handleLesson6TrainingCardClick(card) {
   }
 }
 
+const lesson8ExerciseCards = [
+  {
+    "type": "fill",
+    "prompt": "Das Kind grüßt d... Lehrer.",
+    "answer": "Das Kind grüßt den Lehrer."
+  },
+  {
+    "type": "fill",
+    "prompt": "Das Kind grüßt d... Lehrerin.",
+    "answer": "Das Kind grüßt die Lehrerin."
+  },
+  {
+    "type": "fill",
+    "prompt": "Das Kind grüßt d... Fräulein.",
+    "answer": "Das Kind grüßt das Fräulein."
+  },
+  {
+    "type": "fill",
+    "prompt": "Das Kind grüßt d... Schüler.",
+    "answer": "Das Kind grüßt den Schüler."
+  },
+  {
+    "type": "fill",
+    "prompt": "Das Kind grüßt d... Schülerin.",
+    "answer": "Das Kind grüßt die Schülerin."
+  },
+  {
+    "type": "fill",
+    "prompt": "Der Schüler nimmt d... Eimer.",
+    "answer": "Der Schüler nimmt den Eimer."
+  },
+  {
+    "type": "fill",
+    "prompt": "Der Schüler nimmt d... Teller.",
+    "answer": "Der Schüler nimmt den Teller."
+  },
+  {
+    "type": "fill",
+    "prompt": "Der Schüler nimmt d... Hammer.",
+    "answer": "Der Schüler nimmt den Hammer."
+  },
+  {
+    "type": "fill",
+    "prompt": "Der Schüler nimmt d... Schlüssel.",
+    "answer": "Der Schüler nimmt den Schlüssel."
+  },
+  {
+    "type": "fill",
+    "prompt": "Der Schüler nimmt d... Schüssel.",
+    "answer": "Der Schüler nimmt die Schüssel."
+  },
+  {
+    "type": "fill",
+    "prompt": "Der Schüler nimmt d... Nadel.",
+    "answer": "Der Schüler nimmt die Nadel."
+  },
+  {
+    "type": "fill",
+    "prompt": "Der Schüler nimmt d... Messer.",
+    "answer": "Der Schüler nimmt das Messer."
+  },
+  {
+    "type": "fill",
+    "prompt": "Der Schüler nimmt d... Spiegel.",
+    "answer": "Der Schüler nimmt den Spiegel."
+  },
+  {
+    "type": "fill",
+    "prompt": "Der Schüler nimmt d... Buch.",
+    "answer": "Der Schüler nimmt das Buch."
+  },
+  {
+    "type": "fill",
+    "prompt": "Der Schüler nimmt d... Heft.",
+    "answer": "Der Schüler nimmt das Heft."
+  },
+  {
+    "type": "fill",
+    "prompt": "Der Schüler nimmt d... Bleistift.",
+    "answer": "Der Schüler nimmt den Bleistift."
+  },
+  {
+    "type": "fill",
+    "prompt": "Der Schüler nimmt d... Federhalter.",
+    "answer": "Der Schüler nimmt den Federhalter."
+  },
+  {
+    "type": "translate",
+    "lv": "Sveicini skolotāju un skolotāju!",
+    "de": "Grüße den Lehrer und die Lehrerin!"
+  },
+  {
+    "type": "translate",
+    "lv": "Ko tu sveicini?",
+    "de": "Wen grüßt du?"
+  },
+  {
+    "type": "translate",
+    "lv": "Es sveicinu jaunkundzi.",
+    "de": "Ich grüße das Fräulein."
+  },
+  {
+    "type": "translate",
+    "lv": "Atveriet visus logus!",
+    "de": "Öffnet alle Fenster!"
+  },
+  {
+    "type": "translate",
+    "lv": "Mēs atveram visus logus.",
+    "de": "Wir öffnen alle Fenster."
+  },
+  {
+    "type": "translate",
+    "lv": "Vai tu atver logu?",
+    "de": "Öffnest du das Fenster?"
+  },
+  {
+    "type": "translate",
+    "lv": "Nē, es neatveru logu.",
+    "de": "Nein, ich öffne nicht das Fenster."
+  },
+  {
+    "type": "translate",
+    "lv": "Visi skolēni apsēžas.",
+    "de": "Alle Schüler setzen sich."
+  },
+  {
+    "type": "translate",
+    "lv": "Paul, sēdini sevi!",
+    "de": "Paul, setz dich!"
+  },
+  {
+    "type": "translate",
+    "lv": "Bērni, sēdieties!",
+    "de": "Kinder, setzt euch!"
+  },
+  {
+    "type": "translate",
+    "lv": "Nerunā klusi!",
+    "de": "Sprich nicht leise!"
+  },
+  {
+    "type": "translate",
+    "lv": "Kā viņš runā?",
+    "de": "Wie spricht er?"
+  },
+  {
+    "type": "translate",
+    "lv": "Visi skolēni runā skaļi.",
+    "de": "Alle Schüler sprechen laut."
+  },
+  {
+    "type": "translate",
+    "lv": "Kas lasa skaļi?",
+    "de": "Wer liest laut?"
+  },
+  {
+    "type": "translate",
+    "lv": "Skolniece lasa skaļi un skaidri.",
+    "de": "Die Schülerin liest laut und deutlich."
+  },
+  {
+    "type": "translate",
+    "lv": "Lasi labi!",
+    "de": "Lies gut!"
+  },
+  {
+    "type": "translate",
+    "lv": "Nerunā klusi!",
+    "de": "Sprich nicht leise!"
+  },
+  {
+    "type": "translate",
+    "lv": "Lasiet labi!",
+    "de": "Lest gut!"
+  },
+  {
+    "type": "translate",
+    "lv": "Ansis raksta labi, bet Anna raksta slikti.",
+    "de": "Hans schreibt gut, aber Anna schreibt schlecht."
+  },
+  {
+    "type": "translate",
+    "lv": "Müller jaunkundze, lūdzu dziediet dziesmu!",
+    "de": "Fräulein Müller, singen Sie, bitte, ein Lied!"
+  },
+  {
+    "type": "translate",
+    "lv": "Skolotāja kungs, lūdzu sēdieties!",
+    "de": "Herr Lehrer, bitte, setzen Sie sich!"
+  }
+];
+
 function renderLesson7ExerciseCard(index = 0, formStep = 0) {
   const card = elements.kurssLesson7.querySelector("[data-lesson7-exercise-card]");
   if (!card) return;
@@ -669,53 +1190,12 @@ function prepareLesson1Accordion() {
   renderLesson1TrainingCard(0, false);
 }
 
-function openLesson1() {
-  elements.kurssBackBtn.textContent = "‹ Lekcijas";
-  elements.kurssTitle.textContent = "Lekcija 1";
-  elements.kurssSubtitle.textContent = "Darbības vārdi tagadnē, vārdiņi, gramatika un pārtulko";
-  elements.kurssList.hidden = true;
-  elements.kurssTip.hidden = true;
-  elements.kurssPronunciationMenu.hidden = true;
-  elements.kurssLessonsMenu.hidden = true;
-  elements.kurssPronunciationLesson.hidden = true;
-  elements.kurssArticlesLesson.hidden = true;
-  elements.kurssConsonantsLesson.hidden = true;
-  elements.kurssLesson1.hidden = false;
-  elements.kurssLesson2.hidden = true;
-  elements.kurssLesson3.hidden = true;
-  elements.kurssLesson4.hidden = true;
-  elements.kurssLesson5.hidden = true;
-  elements.kurssLesson6.hidden = true;
-  elements.kurssLesson7.hidden = true;
-  elements.kurssVerbBasicsLesson.hidden = true;
-  elements.kurssSentenceStructureLesson.hidden = true;
-  prepareLesson1Accordion();
-}
-
 function prepareLesson2Accordion() {
   const sections = Array.from(elements.kurssLesson2.querySelectorAll(".lesson1-accordion"));
   sections.forEach((section, index) => {
     section.open = index === 0;
   });
   renderLesson2TrainingCard(0, false);
-}
-
-function openLesson2() {
-  elements.kurssBackBtn.textContent = "‹ Lekcijas";
-  elements.kurssTitle.textContent = "Lekcija 2";
-  elements.kurssSubtitle.textContent = "Dialogi, vārdi, izruna, gramatika un pārtulkošana";
-  elements.kurssList.hidden = true;
-  elements.kurssTip.hidden = true;
-  elements.kurssPronunciationMenu.hidden = true;
-  elements.kurssLessonsMenu.hidden = true;
-  elements.kurssPronunciationLesson.hidden = true;
-  elements.kurssArticlesLesson.hidden = true;
-  elements.kurssConsonantsLesson.hidden = true;
-  elements.kurssLesson1.hidden = true;
-  elements.kurssLesson2.hidden = false;
-  elements.kurssVerbBasicsLesson.hidden = true;
-  elements.kurssSentenceStructureLesson.hidden = true;
-  prepareLesson2Accordion();
 }
 
 function prepareLesson3Accordion() {
@@ -726,24 +1206,6 @@ function prepareLesson3Accordion() {
   renderLesson3TrainingCard(0, false);
 }
 
-function openLesson3() {
-  elements.kurssBackBtn.textContent = "‹ Lekcijas";
-  elements.kurssTitle.textContent = "Lekcija 3";
-  elements.kurssSubtitle.textContent = "Dialogi, vārdi, izruna, gramatika un pārtulkošana";
-  elements.kurssList.hidden = true;
-  elements.kurssTip.hidden = true;
-  elements.kurssPronunciationMenu.hidden = true;
-  elements.kurssLessonsMenu.hidden = true;
-  elements.kurssPronunciationLesson.hidden = true;
-  elements.kurssArticlesLesson.hidden = true;
-  elements.kurssConsonantsLesson.hidden = true;
-  elements.kurssLesson1.hidden = true;
-  elements.kurssLesson2.hidden = true;
-  elements.kurssLesson3.hidden = false;
-  elements.kurssVerbBasicsLesson.hidden = true;
-  elements.kurssSentenceStructureLesson.hidden = true;
-  prepareLesson3Accordion();
-}
 function prepareLesson4Accordion() {
   const sections = Array.from(elements.kurssLesson4.querySelectorAll(".lesson1-accordion"));
   sections.forEach((section, index) => {
@@ -752,54 +1214,12 @@ function prepareLesson4Accordion() {
   renderLesson4TrainingCard(0, false);
 }
 
-function openLesson4() {
-  elements.kurssBackBtn.textContent = "‹ Lekcijas";
-  elements.kurssTitle.textContent = "Lekcija 4";
-  elements.kurssSubtitle.textContent = "Akuzatīvs, nehmen, hinlegen, hinausgehen un īpašības vārdi";
-  elements.kurssList.hidden = true;
-  elements.kurssTip.hidden = true;
-  elements.kurssPronunciationMenu.hidden = true;
-  elements.kurssLessonsMenu.hidden = true;
-  elements.kurssPronunciationLesson.hidden = true;
-  elements.kurssArticlesLesson.hidden = true;
-  elements.kurssConsonantsLesson.hidden = true;
-  elements.kurssLesson1.hidden = true;
-  elements.kurssLesson2.hidden = true;
-  elements.kurssLesson3.hidden = true;
-  elements.kurssLesson4.hidden = false;
-  elements.kurssVerbBasicsLesson.hidden = true;
-  elements.kurssSentenceStructureLesson.hidden = true;
-  prepareLesson4Accordion();
-}
 function prepareLesson5Accordion() {
   const sections = Array.from(elements.kurssLesson5.querySelectorAll(".lesson1-accordion"));
   sections.forEach((section, index) => {
     section.open = index === 0;
   });
   renderLesson5TrainingCard(0, false);
-}
-
-function openLesson5() {
-  elements.kurssBackBtn.textContent = "‹ Lekcijas";
-  elements.kurssTitle.textContent = "Lekcija 5";
-  elements.kurssSubtitle.textContent = "Wen?, akuzatīvs, sitzen, fragen un -in galotne";
-  elements.kurssList.hidden = true;
-  elements.kurssTip.hidden = true;
-  elements.kurssPronunciationMenu.hidden = true;
-  elements.kurssLessonsMenu.hidden = true;
-  elements.kurssPronunciationLesson.hidden = true;
-  elements.kurssArticlesLesson.hidden = true;
-  elements.kurssConsonantsLesson.hidden = true;
-  elements.kurssLesson1.hidden = true;
-  elements.kurssLesson2.hidden = true;
-  elements.kurssLesson3.hidden = true;
-  elements.kurssLesson4.hidden = true;
-  elements.kurssLesson5.hidden = false;
-  elements.kurssLesson6.hidden = true;
-  elements.kurssLesson7.hidden = true;
-  elements.kurssVerbBasicsLesson.hidden = true;
-  elements.kurssSentenceStructureLesson.hidden = true;
-  prepareLesson5Accordion();
 }
 
 function prepareLesson6Accordion() {
@@ -810,28 +1230,6 @@ function prepareLesson6Accordion() {
   renderLesson6TrainingCard(0, false);
 }
 
-function openLesson6() {
-  elements.kurssBackBtn.textContent = "‹ Lekcijas";
-  elements.kurssTitle.textContent = "Lekcija 6";
-  elements.kurssSubtitle.textContent = "Skaitļi, daudzskaitlis, umlauti un lietvārdu daudzskaitļa formas";
-  elements.kurssList.hidden = true;
-  elements.kurssTip.hidden = true;
-  elements.kurssPronunciationMenu.hidden = true;
-  elements.kurssLessonsMenu.hidden = true;
-  elements.kurssPronunciationLesson.hidden = true;
-  elements.kurssArticlesLesson.hidden = true;
-  elements.kurssConsonantsLesson.hidden = true;
-  elements.kurssLesson1.hidden = true;
-  elements.kurssLesson2.hidden = true;
-  elements.kurssLesson3.hidden = true;
-  elements.kurssLesson4.hidden = true;
-  elements.kurssLesson5.hidden = true;
-  elements.kurssLesson6.hidden = false;
-  elements.kurssVerbBasicsLesson.hidden = true;
-  elements.kurssSentenceStructureLesson.hidden = true;
-  prepareLesson6Accordion();
-}
-
 function prepareLesson7Accordion() {
   const sections = Array.from(elements.kurssLesson7.querySelectorAll(".lesson1-accordion"));
   sections.forEach((section, index) => {
@@ -840,28 +1238,259 @@ function prepareLesson7Accordion() {
   renderLesson7ExerciseCard(0, false);
 }
 
-function openLesson7() {
-  elements.kurssBackBtn.textContent = "‹ Lekcijas";
-  elements.kurssTitle.textContent = "Lekcija 7";
-  elements.kurssSubtitle.textContent = "Pavēles izteiksme, uzrunas forma un daudzskaitlis";
-  elements.kurssList.hidden = true;
-  elements.kurssTip.hidden = true;
-  elements.kurssPronunciationMenu.hidden = true;
-  elements.kurssLessonsMenu.hidden = true;
-  elements.kurssPronunciationLesson.hidden = true;
-  elements.kurssArticlesLesson.hidden = true;
-  elements.kurssConsonantsLesson.hidden = true;
-  elements.kurssLesson1.hidden = true;
-  elements.kurssLesson2.hidden = true;
-  elements.kurssLesson3.hidden = true;
-  elements.kurssLesson4.hidden = true;
-  elements.kurssLesson5.hidden = true;
-  elements.kurssLesson6.hidden = true;
-  elements.kurssLesson7.hidden = false;
-  elements.kurssVerbBasicsLesson.hidden = true;
-  elements.kurssSentenceStructureLesson.hidden = true;
-  prepareLesson7Accordion();
+function getLesson8ExerciseCards() {
+  const lesson = window.COURSE_LESSON_DATA?.kurssLesson8;
+  const exerciseSection = lesson?.sections?.find((section) => Array.isArray(section.cards));
+  return exerciseSection?.cards?.length ? exerciseSection.cards : lesson8ExerciseCards;
 }
+
+function renderLesson8ExerciseCard(index = 0, showingBack = false) {
+  const card = elements.kurssLesson8.querySelector("[data-lesson8-exercise-card]");
+  const deck = getLesson8ExerciseCards();
+  if (!card || !deck.length) return;
+  const safeIndex = ((index % deck.length) + deck.length) % deck.length;
+  const item = deck[safeIndex];
+  const isFill = item.type === "fill";
+  const frontText = isFill ? item.prompt : item.lv;
+  const answerText = isFill ? item.answer : item.de;
+  const stepText = isFill ? "Übung I — lieto pareizo locījumu" : "Übung II — tulko";
+  const answerHtml = showingBack ? '<span class="lesson1-training-divider" aria-hidden="true"></span><span class="lesson1-training-answer lesson8-exercise-answer-card">' + escapeHtml(answerText) + '</span>' : "";
+  card.dataset.trainingIndex = String(safeIndex);
+  card.dataset.showingBack = showingBack ? "true" : "false";
+  card.innerHTML = '<span class="lesson1-training-progress">Lekcija 8 · Übung: ' + (safeIndex + 1) + ' / ' + deck.length + '</span><span class="lesson7-exercise-instruction">Izpildi vingrinājumu.</span><span class="lesson7-exercise-step">' + escapeHtml(stepText) + '</span><span class="lesson1-training-text">' + escapeHtml(frontText) + '</span>' + answerHtml;
+}
+
+function handleLesson8ExerciseCardClick(card) {
+  const currentIndex = Number(card.dataset.trainingIndex || "0");
+  const showingBack = card.dataset.showingBack === "true";
+  if (showingBack) {
+    renderLesson8ExerciseCard(currentIndex + 1, false);
+  } else {
+    renderLesson8ExerciseCard(currentIndex, true);
+  }
+}
+
+function getLesson8TranslateCards() {
+  const lesson = window.COURSE_LESSON_DATA?.kurssLesson8;
+  const translateSection = lesson?.sections?.find((section) => section.title === "Pārtulko" && Array.isArray(section.cards));
+  return translateSection?.cards || [];
+}
+
+function renderLesson8TranslateCard(index = 0, showingBack = false) {
+  const card = elements.kurssLesson8.querySelector("[data-lesson8-translate-card]");
+  const deck = getLesson8TranslateCards();
+  if (!card || !deck.length) return;
+  const safeIndex = ((index % deck.length) + deck.length) % deck.length;
+  const item = deck[safeIndex];
+  const answerHtml = showingBack ? '<span class="lesson1-training-divider" aria-hidden="true"></span><span class="lesson1-training-answer lesson8-exercise-answer-card">' + escapeHtml(item.de) + '</span>' : "";
+  card.dataset.trainingIndex = String(safeIndex);
+  card.dataset.showingBack = showingBack ? "true" : "false";
+  card.innerHTML = '<span class="lesson1-training-progress">Lekcija 8 · Pārtulko: ' + (safeIndex + 1) + ' / ' + deck.length + '</span><span class="lesson1-training-text">' + escapeHtml(item.lv) + '</span>' + answerHtml;
+}
+
+function handleLesson8TranslateCardClick(card) {
+  const currentIndex = Number(card.dataset.trainingIndex || "0");
+  const showingBack = card.dataset.showingBack === "true";
+  if (showingBack) {
+    renderLesson8TranslateCard(currentIndex + 1, false);
+  } else {
+    renderLesson8TranslateCard(currentIndex, true);
+  }
+}
+
+
+function getLesson10TranslateCards() {
+  const lesson = window.COURSE_LESSON_DATA?.kurssLesson10;
+  return lesson?.sections?.find(section => section.title === "Pārtulko")?.cards || [];
+}
+
+function renderLesson10TranslateCard(index = 0, showingBack = false) {
+  const cards = getLesson10TranslateCards();
+  const target = elements.kurssLesson10?.querySelector("[data-lesson10-translate-card]");
+  if (!target || !cards.length) return;
+  const safeIndex = ((index % cards.length) + cards.length) % cards.length;
+  const card = cards[safeIndex];
+  target.dataset.cardIndex = String(safeIndex);
+  target.dataset.showingBack = showingBack ? "true" : "false";
+  target.innerHTML =
+    '<span class="lesson1-training-progress">Lekcija 10 · Pārtulko: ' + (safeIndex + 1) + ' / ' + cards.length + '</span>' +
+    '<span class="lesson1-training-text">' + escapeHtml(card.lv || "") + '</span>' +
+    (showingBack ? '<span class="lesson1-training-divider"></span><span class="lesson1-training-answer">' + escapeHtml(card.de || "") + '</span>' : '');
+}
+
+function handleLesson10TranslateCardClick(event) {
+  const target = event.target.closest("[data-lesson10-translate-card]");
+  if (!target) return;
+  const cards = getLesson10TranslateCards();
+  if (!cards.length) return;
+  const index = Number(target.dataset.cardIndex || 0);
+  const showingBack = target.dataset.showingBack === "true";
+  renderLesson10TranslateCard(showingBack ? (index + 1) % cards.length : index, !showingBack);
+}
+
+function prepareLesson10Accordion() {
+  const accordions = Array.from(elements.kurssLesson10.querySelectorAll(".lesson1-accordion"));
+  accordions.forEach((accordion, index) => { accordion.open = index === 0; });
+  renderLesson10TranslateCard(0, false);
+}
+
+function getLesson11TranslateCards() {
+  const lesson = window.COURSE_LESSON_DATA?.kurssLesson11;
+  return lesson?.sections?.find(section => section.title === "Pārtulko")?.cards || [];
+}
+
+function renderLesson11TranslateCard(index = 0, showingBack = false) {
+  const cards = getLesson11TranslateCards();
+  const target = elements.kurssLesson11?.querySelector("[data-lesson11-translate-card]");
+  if (!target || !cards.length) return;
+  const safeIndex = ((index % cards.length) + cards.length) % cards.length;
+  const card = cards[safeIndex];
+  target.dataset.cardIndex = String(safeIndex);
+  target.dataset.showingBack = showingBack ? "true" : "false";
+  target.innerHTML =
+    '<span class="lesson1-training-progress">Lekcija 11 · Pārtulko: ' + (safeIndex + 1) + ' / ' + cards.length + '</span>' +
+    '<span class="lesson1-training-text">' + escapeHtml(card.lv || "") + '</span>' +
+    (showingBack ? '<span class="lesson1-training-divider"></span><span class="lesson1-training-answer">' + escapeHtml(card.de || "") + '</span>' : '');
+}
+
+function handleLesson11TranslateCardClick(event) {
+  const target = event.target.closest("[data-lesson11-translate-card]");
+  if (!target) return;
+  const cards = getLesson11TranslateCards();
+  if (!cards.length) return;
+  const index = Number(target.dataset.cardIndex || 0);
+  const showingBack = target.dataset.showingBack === "true";
+  renderLesson11TranslateCard(showingBack ? (index + 1) % cards.length : index, !showingBack);
+}
+
+function prepareLesson11Accordion() {
+  const accordions = Array.from(elements.kurssLesson11.querySelectorAll(".lesson1-accordion"));
+  accordions.forEach((accordion, index) => { accordion.open = index === 0; });
+  renderLesson11TranslateCard(0, false);
+}
+
+
+function getLesson12TranslateCards() {
+  const lesson = window.COURSE_LESSON_DATA?.kurssLesson12;
+  return lesson?.sections?.find(section => section.title === "Pārtulko")?.cards || [];
+}
+
+function renderLesson12TranslateCard(index = 0, showingBack = false) {
+  const cards = getLesson12TranslateCards();
+  const target = elements.kurssLesson12?.querySelector("[data-lesson12-translate-card]");
+  if (!target || !cards.length) return;
+  const safeIndex = ((index % cards.length) + cards.length) % cards.length;
+  const card = cards[safeIndex];
+  target.dataset.cardIndex = String(safeIndex);
+  target.dataset.showingBack = showingBack ? "true" : "false";
+  target.innerHTML =
+    '<span class="lesson1-training-progress">Lekcija 12 · Pārtulko: ' + (safeIndex + 1) + ' / ' + cards.length + '</span>' +
+    '<span class="lesson1-training-text">' + escapeHtml(card.lv || "") + '</span>' +
+    (showingBack ? '<span class="lesson1-training-divider"></span><span class="lesson1-training-answer">' + escapeHtml(card.de || "") + '</span>' : '');
+}
+
+function handleLesson12TranslateCardClick(event) {
+  const target = event.target.closest("[data-lesson12-translate-card]");
+  if (!target) return;
+  const cards = getLesson12TranslateCards();
+  if (!cards.length) return;
+  const index = Number(target.dataset.cardIndex || 0);
+  const showingBack = target.dataset.showingBack === "true";
+  renderLesson12TranslateCard(showingBack ? (index + 1) % cards.length : index, !showingBack);
+}
+
+function prepareLesson12Accordion() {
+  const accordions = Array.from(elements.kurssLesson12.querySelectorAll(".lesson1-accordion"));
+  accordions.forEach((accordion, index) => { accordion.open = index === 0; });
+  renderLesson12TranslateCard(0, false);
+}
+function getLesson9ExerciseCards() {
+  const lesson = window.COURSE_LESSON_DATA?.kurssLesson9;
+  return lesson?.sections?.find(section => section.title === "Übung / Vingrinājums")?.cards || [];
+}
+
+function renderLesson9ExerciseCard(index = 0, step = 0) {
+  const cards = getLesson9ExerciseCards();
+  const target = elements.kurssLesson9?.querySelector("[data-lesson9-exercise-card]");
+  if (!target || !cards.length) return;
+  const safeIndex = ((index % cards.length) + cards.length) % cards.length;
+  const card = cards[safeIndex];
+  const forms = Array.isArray(card.forms) && card.forms.length ? card.forms : [{ label: "1/1 Teikums", task: card.task || "Vingrinājums", text: card.prompt || card.base || "" }];
+  const safeStep = Math.min(Math.max(Number(step) || 0, 0), forms.length - 1);
+  const form = forms[safeStep];
+  const taskText = form.task || "Pārveido teikumu 3 formās.";
+  target.dataset.cardIndex = String(safeIndex);
+  target.dataset.step = String(safeStep);
+  target.innerHTML =
+    '<span class="lesson1-training-progress">Lekcija 9 · Übung: ' + (safeIndex + 1) + ' / ' + cards.length + '</span>' +
+    '<span class="lesson7-exercise-instruction">🎯 Iemācies šo gabaliņu no galvas.</span>' +
+    '<span class="lesson7-exercise-step">' + escapeHtml(form.label || "") + '</span>' +
+    '<span class="lesson7-exercise-step">' + escapeHtml(taskText) + '</span>' +
+    '<span class="lesson1-training-text">' + escapeHtml(form.text || "") + '</span>';
+}
+
+function handleLesson9ExerciseCardClick(event) {
+  const target = event.target.closest("[data-lesson9-exercise-card]");
+  if (!target) return;
+  const cards = getLesson9ExerciseCards();
+  if (!cards.length) return;
+  const index = Number(target.dataset.cardIndex || 0);
+  const step = Number(target.dataset.step || 0);
+  const forms = cards[index]?.forms || [];
+  if (step >= forms.length - 1) {
+    renderLesson9ExerciseCard(index + 1, 0);
+  } else {
+    renderLesson9ExerciseCard(index, step + 1);
+  }
+}
+
+function getLesson9TranslateCards() {
+  const lesson = window.COURSE_LESSON_DATA?.kurssLesson9;
+  return lesson?.sections?.find(section => section.title === "Pārtulko")?.cards || [];
+}
+
+function renderLesson9TranslateCard(index = 0, showingBack = false) {
+  const cards = getLesson9TranslateCards();
+  const target = elements.kurssLesson9?.querySelector("[data-lesson9-translate-card]");
+  if (!target || !cards.length) return;
+  const safeIndex = ((index % cards.length) + cards.length) % cards.length;
+  const card = cards[safeIndex];
+  target.dataset.cardIndex = String(safeIndex);
+  target.dataset.showingBack = showingBack ? "true" : "false";
+  target.innerHTML =
+    '<span class="lesson1-training-progress">Lekcija 9 · Pārtulko: ' + (safeIndex + 1) + ' / ' + cards.length + '</span>' +
+    '<span class="lesson1-training-text">' + escapeHtml(card.lv || "") + '</span>' +
+    (showingBack ? '<span class="lesson1-training-divider"></span><span class="lesson1-training-answer">' + escapeHtml(card.de || "") + '</span>' : '');
+}
+
+function handleLesson9TranslateCardClick(event) {
+  const target = event.target.closest("[data-lesson9-translate-card]");
+  if (!target) return;
+  const cards = getLesson9TranslateCards();
+  if (!cards.length) return;
+  const index = Number(target.dataset.cardIndex || 0);
+  const showingBack = target.dataset.showingBack === "true";
+  renderLesson9TranslateCard(showingBack ? (index + 1) % cards.length : index, !showingBack);
+}
+
+function prepareLesson9Accordion() {
+  const accordions = Array.from(elements.kurssLesson9.querySelectorAll(".lesson1-accordion"));
+  accordions.forEach((accordion, index) => {
+    accordion.open = index === 0;
+  });
+  renderLesson9ExerciseCard(0, false);
+  renderLesson9TranslateCard(0, false);
+}
+
+function prepareLesson8Accordion() {
+  const sections = Array.from(elements.kurssLesson8.querySelectorAll(".lesson1-accordion"));
+  sections.forEach((section, index) => {
+    section.open = index === 0;
+  });
+  renderLesson8ExerciseCard(0, false);
+  renderLesson8TranslateCard(0, false);
+}
+
 function openVerbBasicsLesson() {
   elements.kurssTitle.textContent = "Darbības vārdu pamati";
   elements.kurssSubtitle.textContent = "Personas, formas un biežākie darbības vārdi.";
@@ -878,6 +1507,11 @@ function openVerbBasicsLesson() {
   elements.kurssLesson5.hidden = true;
   elements.kurssLesson6.hidden = true;
   elements.kurssLesson7.hidden = true;
+  elements.kurssLesson8.hidden = true;
+  elements.kurssLesson9.hidden = true;
+  elements.kurssLesson10.hidden = true;
+  elements.kurssLesson11.hidden = true;
+  elements.kurssLesson12.hidden = true;
   elements.kurssVerbBasicsLesson.hidden = false;
   elements.kurssSentenceStructureLesson.hidden = true;
 }
@@ -898,11 +1532,16 @@ function openSentenceStructureLesson() {
   elements.kurssLesson5.hidden = true;
   elements.kurssLesson6.hidden = true;
   elements.kurssLesson7.hidden = true;
+  elements.kurssLesson8.hidden = true;
+  elements.kurssLesson9.hidden = true;
+  elements.kurssLesson10.hidden = true;
+  elements.kurssLesson11.hidden = true;
+  elements.kurssLesson12.hidden = true;
   elements.kurssVerbBasicsLesson.hidden = true;
   elements.kurssSentenceStructureLesson.hidden = false;
 }
 function handleKurssBack() {
-  if (!elements.kurssLesson1.hidden || !elements.kurssLesson2.hidden || !elements.kurssLesson3.hidden || !elements.kurssLesson4.hidden || !elements.kurssLesson5.hidden || !elements.kurssLesson6.hidden || !elements.kurssLesson7.hidden) {
+  if (courseLessonIds.some((lessonId) => elements[lessonId] && !elements[lessonId].hidden)) {
     openLessonsMenu();
     return;
   }
@@ -3069,167 +3708,21 @@ elements.kurssCloseBtn.addEventListener("click", closeKurss);
 elements.kurssPronunciationBtn.addEventListener("click", openPronunciationLesson);
 elements.kurssArticlesBtn.addEventListener("click", openArticlesLesson);
 elements.kurssLessonsBtn.addEventListener("click", openLessonsMenu);
-elements.kurssLesson1Btn.addEventListener("click", openLesson1);
-elements.kurssLesson2Btn.addEventListener("click", openLesson2);
-elements.kurssLesson3Btn.addEventListener("click", openLesson3);
-elements.kurssLesson4Btn.addEventListener("click", openLesson4);
-elements.kurssLesson5Btn.addEventListener("click", openLesson5);
-elements.kurssLesson6Btn.addEventListener("click", openLesson6);
-elements.kurssLesson7Btn.addEventListener("click", openLesson7);
+courseLessonIds.forEach((lessonId) => {
+  const button = elements[`${lessonId}Btn`];
+  const panel = elements[lessonId];
+  if (button) {
+    button.addEventListener("click", () => openCourseLesson(lessonId));
+  }
+  if (panel) {
+    panel.addEventListener("toggle", handleCourseLessonToggle, true);
+  }
+});
 elements.kurssVerbBasicsBtn.addEventListener("click", openVerbBasicsLesson);
 elements.kurssSentenceStructureBtn.addEventListener("click", openSentenceStructureLesson);
 elements.kurssVowelsLessonBtn.addEventListener("click", openVowelsLesson);
 elements.kurssConsonantsLessonBtn.addEventListener("click", openConsonantsLesson);
-elements.kurssLesson1.addEventListener("toggle", (event) => {
-  const section = event.target.closest(".lesson1-accordion");
-  if (!section || !section.open) return;
-  elements.kurssLesson1.querySelectorAll(".lesson1-accordion").forEach((other) => {
-    if (other !== section) other.open = false;
-  });
-  if (!elements.kurssLesson1.hidden) {
-    section.scrollIntoView({ behavior: "smooth", block: "start" });
-  }
-}, true);
-elements.kurssLesson1.addEventListener("click", (event) => {
-  const trainingCard = event.target.closest("[data-lesson1-training-card]");
-  if (trainingCard) {
-    handleLesson1TrainingCardClick(trainingCard);
-    return;
-  }
-  const card = event.target.closest("[data-course-card-front]");
-  if (!card) return;
-  const showingBack = card.dataset.showingBack === "true";
-  card.innerHTML = showingBack ? card.dataset.courseCardFront : card.dataset.courseCardBack;
-  card.dataset.showingBack = showingBack ? "false" : "true";
-});
-elements.kurssLesson2.addEventListener("click", (event) => {
-  const trainingCard = event.target.closest("[data-lesson2-training-card]");
-  if (trainingCard) {
-    handleLesson2TrainingCardClick(trainingCard);
-    return;
-  }
-  const card = event.target.closest("[data-course-card-front]");
-  if (!card) return;
-  const showingBack = card.dataset.showingBack === "true";
-  card.innerHTML = showingBack ? card.dataset.courseCardFront : card.dataset.courseCardBack;
-  card.dataset.showingBack = showingBack ? "false" : "true";
-});
-elements.kurssLesson2.addEventListener("toggle", (event) => {
-  const section = event.target.closest(".lesson1-accordion");
-  if (!section || !section.open) return;
-  elements.kurssLesson2.querySelectorAll(".lesson1-accordion").forEach((other) => {
-    if (other !== section) other.open = false;
-  });
-  if (!elements.kurssLesson2.hidden) {
-    section.scrollIntoView({ behavior: "smooth", block: "start" });
-  }
-}, true);
-elements.kurssLesson3.addEventListener("click", (event) => {
-  const trainingCard = event.target.closest("[data-lesson3-training-card]");
-  if (trainingCard) {
-    handleLesson3TrainingCardClick(trainingCard);
-    return;
-  }
-  const card = event.target.closest("[data-course-card-front]");
-  if (!card) return;
-  const showingBack = card.dataset.showingBack === "true";
-  card.innerHTML = showingBack ? card.dataset.courseCardFront : card.dataset.courseCardBack;
-  card.dataset.showingBack = showingBack ? "false" : "true";
-});
-elements.kurssLesson3.addEventListener("toggle", (event) => {
-  const section = event.target.closest(".lesson1-accordion");
-  if (!section || !section.open) return;
-  elements.kurssLesson3.querySelectorAll(".lesson1-accordion").forEach((other) => {
-    if (other !== section) other.open = false;
-  });
-  if (!elements.kurssLesson3.hidden) {
-    section.scrollIntoView({ behavior: "smooth", block: "start" });
-  }
-}, true);elements.kurssLesson4.addEventListener("click", (event) => {
-  const trainingCard = event.target.closest("[data-lesson4-training-card]");
-  if (trainingCard) {
-    handleLesson4TrainingCardClick(trainingCard);
-    return;
-  }
-  const card = event.target.closest("[data-course-card-front]");
-  if (!card) return;
-  const showingBack = card.dataset.showingBack === "true";
-  card.innerHTML = showingBack ? card.dataset.courseCardFront : card.dataset.courseCardBack;
-  card.dataset.showingBack = showingBack ? "false" : "true";
-});
-elements.kurssLesson4.addEventListener("toggle", (event) => {
-  const section = event.target.closest(".lesson1-accordion");
-  if (!section || !section.open) return;
-  elements.kurssLesson4.querySelectorAll(".lesson1-accordion").forEach((other) => {
-    if (other !== section) other.open = false;
-  });
-  if (!elements.kurssLesson4.hidden) {
-    section.scrollIntoView({ behavior: "smooth", block: "start" });
-  }
-}, true);elements.kurssLesson5.addEventListener("click", (event) => {
-  const trainingCard = event.target.closest("[data-lesson5-training-card]");
-  if (trainingCard) {
-    handleLesson5TrainingCardClick(trainingCard);
-    return;
-  }
-  const card = event.target.closest("[data-course-card-front]");
-  if (!card) return;
-  const showingBack = card.dataset.showingBack === "true";
-  card.innerHTML = showingBack ? card.dataset.courseCardFront : card.dataset.courseCardBack;
-  card.dataset.showingBack = showingBack ? "false" : "true";
-});
-elements.kurssLesson5.addEventListener("toggle", (event) => {
-  const section = event.target.closest(".lesson1-accordion");
-  if (!section || !section.open) return;
-  elements.kurssLesson5.querySelectorAll(".lesson1-accordion").forEach((other) => {
-    if (other !== section) other.open = false;
-  });
-  if (!elements.kurssLesson5.hidden) {
-    section.scrollIntoView({ behavior: "smooth", block: "start" });
-  }
-}, true);elements.kurssLesson6.addEventListener("click", (event) => {
-  const trainingCard = event.target.closest("[data-lesson6-training-card]");
-  if (trainingCard) {
-    handleLesson6TrainingCardClick(trainingCard);
-    return;
-  }
-  const card = event.target.closest("[data-course-card-front]");
-  if (!card) return;
-  const showingBack = card.dataset.showingBack === "true";
-  card.innerHTML = showingBack ? card.dataset.courseCardFront : card.dataset.courseCardBack;
-  card.dataset.showingBack = showingBack ? "false" : "true";
-});
-elements.kurssLesson6.addEventListener("toggle", (event) => {
-  const section = event.target.closest(".lesson1-accordion");
-  if (!section || !section.open) return;
-  elements.kurssLesson6.querySelectorAll(".lesson1-accordion").forEach((other) => {
-    if (other !== section) other.open = false;
-  });
-  if (!elements.kurssLesson6.hidden) {
-    section.scrollIntoView({ behavior: "smooth", block: "start" });
-  }
-}, true);elements.kurssLesson7.addEventListener("click", (event) => {
-  const exerciseCard = event.target.closest("[data-lesson7-exercise-card]");
-  if (exerciseCard) {
-    handleLesson7ExerciseCardClick(exerciseCard);
-    return;
-  }
-  const card = event.target.closest("[data-course-card-front]");
-  if (!card) return;
-  const showingBack = card.dataset.showingBack === "true";
-  card.innerHTML = showingBack ? card.dataset.courseCardFront : card.dataset.courseCardBack;
-  card.dataset.showingBack = showingBack ? "false" : "true";
-});
-elements.kurssLesson7.addEventListener("toggle", (event) => {
-  const section = event.target.closest(".lesson1-accordion");
-  if (!section || !section.open) return;
-  elements.kurssLesson7.querySelectorAll(".lesson1-accordion").forEach((other) => {
-    if (other !== section) other.open = false;
-  });
-  if (!elements.kurssLesson7.hidden) {
-    section.scrollIntoView({ behavior: "smooth", block: "start" });
-  }
-}, true);elements.kurssPanel.addEventListener("click", (event) => {
+elements.kurssPanel.addEventListener("click", (event) => {
   if (event.target === elements.kurssPanel) closeKurss();
 });
 elements.pamatiBtn.addEventListener("click", openPamati);
