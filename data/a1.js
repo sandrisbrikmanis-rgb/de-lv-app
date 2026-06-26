@@ -67,7 +67,51 @@ const A1_WORDS = [
   {
     "de": "an",
     "lv": "pie; uz; klāt",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "translation": "pie; pie virsmas; pie malas",
+      "explanation": "Lieto, kad kaut kas atrodas pie sienas, loga, durvīm, upes, jūras krasta vai citas malas/virsmas.",
+      "examples": [
+        { "de": "an der Wand", "lv": "pie sienas / uz sienas" },
+        { "de": "am Fenster", "lv": "pie loga" },
+        { "de": "am Meer", "lv": "pie jūras" }
+      ],
+      "comparison": [
+        { "word": "an", "meaning": "pie virsmas vai malas", "example": "an der Wand – pie sienas" },
+        { "word": "auf", "meaning": "uz horizontālas virsmas", "example": "auf dem Tisch – uz galda" },
+        { "word": "bei", "meaning": "pie personas vai vietas", "example": "beim Arzt – pie ārsta" }
+      ],
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": { "blue": ["an"] },
+            "lv": { "purple": ["pie", "uz"] }
+          },
+          {
+            "de": { "blue": ["am"] },
+            "lv": { "purple": ["pie"] }
+          },
+          {
+            "de": { "blue": ["am"] },
+            "lv": { "purple": ["pie"] }
+          }
+        ],
+        "comparison": [
+          {
+            "word": { "green": ["an"] },
+            "example": { "green": ["an"], "purple": ["pie"] }
+          },
+          {
+            "word": { "yellow": ["auf"] },
+            "example": { "yellow": ["auf"], "purple": ["uz"] }
+          },
+          {
+            "word": { "red": ["bei"] },
+            "example": { "red": ["beim"], "purple": ["pie"] }
+          }
+        ]
+      }
+    }
   },
   {
     "de": "der Anfang",
@@ -76,7 +120,7 @@ const A1_WORDS = [
   },
   {
     "de": "anfangen",
-    "lv": "sākt; iesākt",
+    "lv": "sākt",
     "level": "A1"
   },
   {
@@ -92,7 +136,56 @@ const A1_WORDS = [
   {
     "de": "ab",
     "lv": "no",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "translation": "no; sākot no; prom no",
+      "explanation": "Lieto, kad kaut kas sākas no konkrēta laika, vietas vai punkta. Bieži nozīmē “sākot no”.",
+      "examples": [
+        { "de": "ab heute", "lv": "no šodienas" },
+        { "de": "ab Montag", "lv": "no pirmdienas" },
+        { "de": "ab 8 Uhr", "lv": "no plkst. 8" },
+        { "de": "ab Bahnhof", "lv": "no stacijas" }
+      ],
+      "comparison": [
+        { "word": "ab", "meaning": "sākot no punkta/laika", "example": "ab Montag – no pirmdienas" },
+        { "word": "von", "meaning": "no kāda/kaut kā; izcelsme", "example": "von mir – no manis" },
+        { "word": "aus", "meaning": "ārā no iekšienes", "example": "aus dem Haus – no mājas / ārā no mājas" }
+      ],
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": { "blue": ["ab"] },
+            "lv": { "purple": ["no"] }
+          },
+          {
+            "de": { "blue": ["ab"] },
+            "lv": { "purple": ["no"] }
+          },
+          {
+            "de": { "blue": ["ab"] },
+            "lv": { "purple": ["no"] }
+          },
+          {
+            "de": { "blue": ["ab"] },
+            "lv": { "purple": ["no"] }
+          }
+        ],
+        "comparison": [
+          {
+            "word": { "green": ["ab"] },
+            "example": { "green": ["ab"], "purple": ["no"] }
+          },
+          {
+            "word": { "yellow": ["von"] },
+            "example": { "yellow": ["von"], "purple": ["no"] }
+          },
+          {
+            "word": { "blue": ["aus"] },
+            "example": { "blue": ["aus"], "purple": ["no"] }
+          }
+        ]
+      }
+    }
   },
   {
     "de": "ab heute",
@@ -102,7 +195,51 @@ const A1_WORDS = [
   {
     "de": "ab und zu",
     "lv": "šad un tad; reizēm",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "translation": "šad un tad; reizēm",
+      "explanation": "Lieto, lai izteiktu, ka kaut kas notiek neregulāri — laiku pa laikam, šad un tad, reizēm.",
+      "examples": [
+        { "de": "Ich gehe ab und zu ins Kino.", "lv": "Es šad un tad eju uz kino." },
+        { "de": "Er ruft mich ab und zu an.", "lv": "Viņš man reizēm piezvana." },
+        { "de": "Ab und zu brauche ich Ruhe.", "lv": "Ik pa laikam man vajag mieru." }
+      ],
+      "comparison": [
+        { "word": "ab", "meaning": "sākot no punkta/laika", "example": "ab Montag – no pirmdienas" },
+        { "word": "von", "meaning": "no kāda/kaut kā; izcelsme", "example": "von mir – no manis" },
+        { "word": "aus", "meaning": "ārā no iekšienes", "example": "aus dem Haus – no mājas / ārā no mājas" }
+      ],
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": { "blue": ["ab und zu"] },
+            "lv": { "purple": ["šad un tad"] }
+          },
+          {
+            "de": { "blue": ["ab und zu"] },
+            "lv": { "purple": ["reizēm"] }
+          },
+          {
+            "de": { "blue": ["Ab und zu"] },
+            "lv": { "purple": ["Ik pa laikam"] }
+          }
+        ],
+        "comparison": [
+          {
+            "word": { "green": ["ab"] },
+            "example": { "green": ["ab"] }
+          },
+          {
+            "word": { "yellow": ["von"] },
+            "example": { "yellow": ["von"] }
+          },
+          {
+            "word": { "blue": ["aus"] },
+            "example": { "blue": ["aus"] }
+          }
+        ]
+      }
+    }
   },
   {
     "de": "der Abend",
@@ -116,17 +253,82 @@ const A1_WORDS = [
   },
   {
     "de": "abends",
-    "lv": "vakarā; vakaros",
+    "lv": "vakarā",
     "level": "A1"
   },
   {
     "de": "aber",
     "lv": "bet; tomēr; taču",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "translation": "bet; tomēr; taču",
+      "explanation": "Lieto, lai ieviestu pretstatu vai izteiktu iebildi. Bieži nozīmē “bet”, “tomēr” vai “taču”.",
+      "examples": [
+        { "de": "Ich möchte mitkommen, aber ich habe keine Zeit.", "lv": "Es gribu nākt līdzi, bet man nav laika." },
+        { "de": "Das Essen war lecker, aber zu teuer.", "lv": "Ēdiens bija garšīgs, bet pārāk dārgs." },
+        { "de": "Er hat recht, aber ich sehe das anders.", "lv": "Viņam ir taisnība, taču es domāju citādi." }
+      ],
+      "comparison": [
+        { "word": "aber", "meaning": "pretstats; iebilde; tomēr", "example": "Ich komme, aber später. – Es atnāku, bet vēlāk." },
+        { "word": "sondern", "meaning": "nevis; bet gan", "example": "Ich wollte Tee, sondern Kaffee. – Es gribēju tēju, nevis kafiju." },
+        { "word": "jedoch", "meaning": "tomēr", "example": "Es ist kalt, jedoch sonnig. – Ir auksts, tomēr saulains." }
+      ],
+      "tip": {
+        "text": "“aber” vienmēr ievieš pretstatu tam, kas teikts pirms tam.",
+        "rightTitle": "Piemērs:",
+        "rightItems": [
+          {
+            "de": "Ich bin müde, aber ich arbeite weiter.",
+            "separator": "–",
+            "lv": "Es esmu noguris, bet turpinu strādāt.",
+            "stacked": true
+          }
+        ]
+      },
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": { "blue": ["aber"] },
+            "lv": { "purple": ["bet"] }
+          },
+          {
+            "de": { "blue": ["aber"] },
+            "lv": { "purple": ["bet"] }
+          },
+          {
+            "de": { "blue": ["aber"] },
+            "lv": { "purple": ["taču"] }
+          }
+        ],
+        "comparison": [
+          {
+            "word": { "green": ["aber"] },
+            "example": { "green": ["aber"], "purple": ["bet"] }
+          },
+          {
+            "word": { "yellow": ["sondern"] },
+            "example": { "yellow": ["sondern"], "purple": ["nevis"] }
+          },
+          {
+            "word": { "red": ["jedoch"] },
+            "example": { "red": ["jedoch"], "purple": ["tomēr"] }
+          }
+        ],
+        "tip": {
+          "left": { "green": ["aber"] },
+          "rightItems": [
+            {
+              "de": { "green": ["aber"] },
+              "lv": { "purple": ["bet"] }
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "de": "achten",
-    "lv": "ievērot; cienīt",
+    "lv": "ievērot",
     "level": "A1"
   },
   {
@@ -147,12 +349,129 @@ const A1_WORDS = [
   {
     "de": "also",
     "lv": "tātad",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "translation": "tātad",
+      "explanation": "Lieto, lai izdarītu secinājumu vai parādītu rezultātu. Nozīmē “tātad”, “līdz ar to”.",
+      "examples": [
+        { "de": "Es regnet, also bleibe ich zu Hause.", "lv": "Līst lietus, tāpēc es palieku mājās." },
+        { "de": "Du bist krank, also gehst du nicht zur Arbeit.", "lv": "Tu esi slims, tāpēc neej uz darbu." },
+        { "de": "Ich habe viel gelernt, also verstehe ich es jetzt.", "lv": "Es daudz esmu mācījies, tātad tagad saprotu." }
+      ],
+      "comparison": [
+        { "word": "also", "meaning": "tātad; līdz ar to", "example": "Es regnet, also bleibe ich zu Hause. – Līst lietus, tātad palieku mājās." },
+        { "word": "auch", "meaning": "arī", "example": "Ich komme auch. – Es arī nāku." },
+        { "word": "deshalb", "meaning": "tāpēc", "example": "Es regnet, deshalb bleibe ich zu Hause. – Līst lietus, tāpēc palieku mājās." }
+      ],
+      "tip": {
+        "text": "“also” vienmēr ievieš secinājumu no iepriekš teiktā.",
+        "rightTitle": "Piemērs:",
+        "rightItems": [
+          {
+            "de": "Du lernst fleißig, also bekommst du gute Noten.",
+            "separator": "–",
+            "lv": "Tu mācies centīgi, tātad saņemsi labas atzīmes.",
+            "stacked": true
+          }
+        ]
+      },
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": { "blue": ["also"] },
+            "lv": { "purple": ["tāpēc"] }
+          },
+          {
+            "de": { "blue": ["also"] },
+            "lv": { "purple": ["tāpēc"] }
+          },
+          {
+            "de": { "blue": ["also"] },
+            "lv": { "purple": ["tātad"] }
+          }
+        ],
+        "comparison": [
+          {
+            "word": { "green": ["also"] },
+            "example": { "green": ["also"], "purple": ["tātad"] }
+          },
+          {
+            "word": { "yellow": ["auch"] },
+            "example": { "yellow": ["auch"], "purple": ["arī"] }
+          },
+          {
+            "word": { "green": ["deshalb"] },
+            "example": { "green": ["deshalb"], "purple": ["tāpēc"] }
+          }
+        ],
+        "tip": {
+          "left": { "green": ["also"] },
+          "rightItems": [
+            {
+              "de": { "green": ["also"] },
+              "lv": { "purple": ["tātad"] }
+            }
+          ]
+        }
+      }
+    }
   },
   {
-    "de": "also gut",
+    "de": "na gut",
     "lv": "nu labi",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "translation": "nu labi",
+      "explanation": "Lieto, kad piekrīt, samierinās vai pieņem kādu lēmumu. Bieži izsaka nelielu vilcināšanos vai piekāpšanos.",
+      "examples": [
+        { "de": "Na gut, dann machen wir das.", "lv": "Nu labi, tad darīsim tā." },
+        { "de": "Na gut, ich komme mit.", "lv": "Nu labi, es nākšu līdzi." },
+        { "de": "Na gut, du hast recht.", "lv": "Nu labi, tev ir taisnība." }
+      ],
+      "comparison": [
+        { "word": "na gut", "meaning": "nu labi; labi, lai jau būtu", "example": "Na gut, dann machen wir das. – Nu labi, tad darīsim tā." },
+        { "word": "gut", "meaning": "labi", "example": "Das ist gut. – Tas ir labi." },
+        { "word": "okay", "meaning": "labi; ok (neformāli)", "example": "Okay, ich verstehe. – Labi, es saprotu." }
+      ],
+      "tip": {
+        "text": "“na gut” ir sarunvalodas izteiciens, ko lieto ļoti bieži ikdienā. Tas var izklausīties neitrāli, piekāpīgi vai nedaudz negribīgi — atkarībā no situācijas.",
+        "example": "Piemērs: Na gut, ich probiere es. – Nu labi, es pamēģināšu."
+      },
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": { "blue": ["Na gut"] },
+            "lv": { "purple": ["Nu labi"] }
+          },
+          {
+            "de": { "blue": ["Na gut"] },
+            "lv": { "purple": ["Nu labi"] }
+          },
+          {
+            "de": { "blue": ["Na gut"] },
+            "lv": { "purple": ["Nu labi"] }
+          }
+        ],
+        "comparison": [
+          {
+            "word": { "green": ["na gut"] },
+            "example": { "green": ["Na gut"], "purple": ["Nu labi"] }
+          },
+          {
+            "word": { "yellow": ["gut"] },
+            "example": { "yellow": ["gut"], "purple": ["labi"] }
+          },
+          {
+            "word": { "blue": ["okay"] },
+            "example": { "blue": ["Okay"], "purple": ["Labi"] }
+          }
+        ],
+        "tip": {
+          "left": { "green": ["na gut", "Na gut"] },
+          "right": { "green": ["Na gut"], "purple": ["Nu labi"] }
+        }
+      }
+    }
   },
   {
     "de": "die Ameise",
@@ -161,22 +480,22 @@ const A1_WORDS = [
   },
   {
     "de": "ankommen",
-    "lv": "pienākt, nonākt, ierasties",
+    "lv": "ierasties",
     "level": "A1"
   },
   {
     "de": "anschauen",
-    "lv": "skatīties, apskatīt",
+    "lv": "apskatīt",
     "level": "A1"
   },
   {
     "de": "anziehen",
-    "lv": "uzvilkt, ģērbt",
+    "lv": "uzvilkt",
     "level": "A1"
   },
   {
     "de": "anhalten",
-    "lv": "apstāties, pieturēt",
+    "lv": "apstāties",
     "level": "A1"
   },
   {
@@ -282,7 +601,59 @@ const A1_WORDS = [
   {
     "de": "auf",
     "lv": "uz",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "translation": "uz",
+      "explanation": "Lieto, lai norādītu virzienu uz kādu vietu vai virsmas augšpusi.",
+      "examples": [
+        { "de": "Ich stelle das Buch auf den Tisch.", "lv": "Es lieku grāmatu uz galda." },
+        { "de": "Wir fahren auf den Berg.", "lv": "Mēs braucam uz kalnu." },
+        { "de": "Die Katze springt auf das Sofa.", "lv": "Kaķis lec uz dīvāna." }
+      ],
+      "comparison": [
+        { "word": "auf", "meaning": "uz (virsmas vai augšup)", "example": "Ich stelle das Glas auf den Tisch. – Es lieku glāzi uz galda." },
+        { "word": "an", "meaning": "pie (vertikālas virsmas)", "example": "Ich hänge das Bild an die Wand. – Es karinu bildi pie sienas." },
+        { "word": "in", "meaning": "iekšā", "example": "Ich lege das Buch in die Tasche. – Es lieku grāmatu somā." }
+      ],
+      "tip": {
+        "text": "“auf” norāda uz virsmas augšpusi vai kustību uz augšu.",
+        "example": "Piemērs: Ich gehe auf den Balkon. – Es eju uz balkona (uz tā virsmas)."
+      },
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": { "blue": ["auf"] },
+            "lv": { "purple": ["uz"] }
+          },
+          {
+            "de": { "blue": ["auf"] },
+            "lv": { "purple": ["uz"] }
+          },
+          {
+            "de": { "blue": ["auf"] },
+            "lv": { "purple": ["uz"] }
+          }
+        ],
+        "comparison": [
+          {
+            "word": { "blue": ["auf"] },
+            "example": { "blue": ["auf"], "purple": ["uz"] }
+          },
+          {
+            "word": { "green": ["an"] },
+            "example": { "green": ["an", "pie"] }
+          },
+          {
+            "word": { "yellow": ["in"] },
+            "example": { "yellow": ["in"] }
+          }
+        ],
+        "tip": {
+          "left": { "blue": ["auf"], "purple": ["uz"] },
+          "right": { "blue": ["auf"], "purple": ["uz"] }
+        }
+      }
+    }
   },
   {
     "de": "auffallen",
@@ -291,32 +662,32 @@ const A1_WORDS = [
   },
   {
     "de": "auffassen",
-    "lv": "uztvert; saprast",
+    "lv": "saprast",
     "level": "A1"
   },
   {
     "de": "auffordern",
-    "lv": "aicināt; uzaicināt",
+    "lv": "aicināt",
     "level": "A1"
   },
   {
     "de": "aufgeben",
-    "lv": "padoties; uzdot",
+    "lv": "padoties",
     "level": "A1"
   },
   {
     "de": "aufgehen",
-    "lv": "atvērties; uzlēkt",
+    "lv": "atvērties",
     "level": "A1"
   },
   {
     "de": "aufhalten",
-    "lv": "apturēt; aizkavēt",
+    "lv": "aizkavēt",
     "level": "A1"
   },
   {
     "de": "aufhören",
-    "lv": "beigt; pārtraukt",
+    "lv": "pārtraukt",
     "level": "A1"
   },
   {
@@ -336,7 +707,7 @@ const A1_WORDS = [
   },
   {
     "de": "aufräumen",
-    "lv": "sakārtot; uzkopt",
+    "lv": "sakārtot",
     "level": "A1"
   },
   {
@@ -351,7 +722,7 @@ const A1_WORDS = [
   },
   {
     "de": "aufwärmen",
-    "lv": "uzsildīt; iesildīties",
+    "lv": "uzsildīt",
     "level": "A1"
   },
   {
@@ -377,7 +748,68 @@ const A1_WORDS = [
   {
     "de": "aus",
     "lv": "no; ārā",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "translation": "no; ārā",
+      "explanation": "Lieto, kad kaut kas nāk no iekšienes, iznāk ārā vai norāda izcelsmi.",
+      "examples": [
+        { "de": "Ich komme aus Deutschland.", "lv": "Es esmu no Vācijas." },
+        { "de": "Er geht aus dem Haus.", "lv": "Viņš iziet no mājas." },
+        { "de": "Ich nehme das Buch aus der Tasche.", "lv": "Es izņemu grāmatu no somas." }
+      ],
+      "comparison": [
+        { "word": "aus", "meaning": "no iekšienes, ārā no", "example": "aus dem Haus – no mājas" },
+        { "word": "von", "meaning": "no personas, vietas, virsmas", "example": "von meinem Freund – no mana drauga" },
+        { "word": "ab", "meaning": "sākot no punkta vai laika", "example": "ab Montag – no pirmdienas" }
+      ],
+      "tip": {
+        "text": "Ja vari iedomāties, ka kaut kas atradās iekšā un tagad nāk ārā, gandrīz vienmēr lieto aus.",
+        "rightTitle": "Piemēri:",
+        "rightItems": [
+          { "de": "aus dem Auto", "separator": "–", "lv": "no automašīnas" },
+          { "de": "aus der Schule", "separator": "–", "lv": "no skolas" },
+          { "de": "aus der Tasche", "separator": "–", "lv": "no somas" }
+        ]
+      },
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": { "green": ["aus"] },
+            "lv": { "purple": ["no"] }
+          },
+          {
+            "de": { "green": ["aus"] },
+            "lv": { "purple": ["no"] }
+          },
+          {
+            "de": { "green": ["aus"] },
+            "lv": { "purple": ["no"] }
+          }
+        ],
+        "comparison": [
+          {
+            "word": { "green": ["aus"] },
+            "example": { "green": ["aus"], "purple": ["no"] }
+          },
+          {
+            "word": { "green": ["von"] },
+            "example": { "green": ["von"], "purple": ["no"] }
+          },
+          {
+            "word": { "yellow": ["ab"] },
+            "example": { "yellow": ["ab"], "purple": ["no"] }
+          }
+        ],
+        "tip": {
+          "left": { "green": ["aus"], "purple": ["no"] },
+          "rightItems": [
+            { "de": { "green": ["aus"] }, "lv": { "purple": ["no"] } },
+            { "de": { "green": ["aus"] }, "lv": { "purple": ["no"] } },
+            { "de": { "green": ["aus"] }, "lv": { "purple": ["no"] } }
+          ]
+        }
+      }
+    }
   },
   {
     "de": "auf dem Boden",
@@ -392,7 +824,50 @@ const A1_WORDS = [
   {
     "de": "aufs",
     "lv": "uz; uz to",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "translation": "uz; uz to",
+      "explanation": "Lieto, lai norādītu virzienu uz kādu vietu, objektu vai mērķi. “aufs” ir saīsinājums no “auf das”.",
+      "examples": [
+        { "de": "Ich gehe aufs Dach.", "lv": "Es eju uz jumta." },
+        { "de": "Sie setzt sich aufs Sofa.", "lv": "Viņa apsēžas uz dīvāna." },
+        { "de": "Wir fahren aufs Land.", "lv": "Mēs braucam uz laukiem." }
+      ],
+      "comparison": [
+        { "word": "aufs", "meaning": "uz; uz to (auf + das)", "example": "Ich gehe aufs Dach. – Es eju uz jumta." },
+        { "word": "auf", "meaning": "uz (virsmas augšpusē)", "example": "Ich stelle das Glas auf den Tisch. – Es lieku glāzi uz galda." },
+        { "word": "an", "meaning": "pie (pieskaras vertikālai virsmai)", "example": "Ich hänge das Bild an die Wand. – Es karinu bildi pie sienas." }
+      ],
+      "tip": {
+        "text": "“aufs” apvieno “auf” (uz) ar vietniekvārdu “das” (to). To lieto, ja kustība ir virzienā uz konkrētu objektu vai mērķi.",
+        "example": "Piemērs: Ich springe aufs Trampolin. – Es lecu uz batuta."
+      },
+      "sectionAccents": {
+        "examples": [
+          { "green": ["aufs"] },
+          { "green": ["aufs"] },
+          { "green": ["aufs"] }
+        ],
+        "comparison": [
+          {
+            "word": { "green": ["aufs"] },
+            "example": { "green": ["aufs"] }
+          },
+          {
+            "word": { "green": ["auf"] },
+            "example": { "green": ["auf"] }
+          },
+          {
+            "word": { "yellow": ["an"] },
+            "example": { "yellow": ["an"] }
+          }
+        ],
+        "tip": {
+          "left": { "green": ["aufs", "auf"], "purple": ["das"] },
+          "right": { "green": ["aufs"] }
+        }
+      }
+    }
   },
   {
     "de": "die Augenbraue",
@@ -406,7 +881,7 @@ const A1_WORDS = [
   },
   {
     "de": "sich ausziehen",
-    "lv": "noģērbties; izģērbties",
+    "lv": "izģērbties",
     "level": "A1"
   },
   {
@@ -415,23 +890,33 @@ const A1_WORDS = [
     "level": "A1"
   },
   {
-    "de": "der Autobus",
-    "lv": "autobuss",
+    "de": "das Bad",
+    "lv": "vanna",
     "level": "A1"
   },
   {
-    "de": "das Bad",
-    "lv": "pelde; vanna; pirts; vannas istaba; kūrorts; peldvieta; peldbaseins",
+    "de": "das Badezimmer",
+    "lv": "vannas istaba",
+    "level": "A1"
+  },
+  {
+    "de": "das Schwimmbad",
+    "lv": "peldbaseins",
+    "level": "A1"
+  },
+  {
+    "de": "die Sauna",
+    "lv": "sauna",
     "level": "A1"
   },
   {
     "de": "baden",
-    "lv": "mazgāt; peldināt; mazgāties; peldēties",
+    "lv": "peldēties",
     "level": "A1"
   },
   {
     "de": "bald",
-    "lv": "drīz; drīzumā; gandrīz",
+    "lv": "drīz",
     "level": "A1"
   },
   {
@@ -441,7 +926,7 @@ const A1_WORDS = [
   },
   {
     "de": "der Ball",
-    "lv": "bumba; bumbiņa",
+    "lv": "bumba",
     "level": "A1"
   },
   {
@@ -476,17 +961,60 @@ const A1_WORDS = [
   },
   {
     "de": "beginnen",
-    "lv": "sākt; iesākt; uzsākt; sākties; iesākties",
+    "lv": "sākt",
     "level": "A1"
   },
   {
     "de": "bei",
     "lv": "pie",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "translation": "pie",
+      "explanation": "Lieto, ja kaut kas atrodas pie personas, organizācijas, vietas vai notiek kādos apstākļos.",
+      "examples": [
+        { "de": "Ich bin bei meinem Freund.", "lv": "Es esmu pie sava drauga." },
+        { "de": "Sie arbeitet bei Siemens.", "lv": "Viņa strādā Siemens." },
+        { "de": "Bei Regen bleiben wir zu Hause.", "lv": "Lietus laikā mēs paliekam mājās." }
+      ],
+      "comparison": [
+        { "word": "bei", "meaning": "pie personas, uzņēmuma vai noteiktos apstākļos", "example": "Ich bin bei meiner Schwester. – Es esmu pie savas māsas." },
+        { "word": "an", "meaning": "pie sienas, malas, krasta, virsmas malas", "example": "Das Bild hängt an der Wand. – Attēls karājas pie sienas." },
+        { "word": "zu", "meaning": "pie kāda dodas (virziens)", "example": "Ich gehe zu meinem Freund. – Es eju pie sava drauga." }
+      ],
+      "tip": {
+        "text": "bei parasti apraksta atrašanās vietu vai situāciju.",
+        "example": "Ich arbeite bei BMW. – Es strādāju BMW. Bei starkem Wind bleiben wir drinnen. – Stipra vēja laikā mēs paliekam iekšā."
+      },
+      "sectionAccents": {
+        "examples": [
+          { "blue": ["bei"] },
+          { "blue": ["bei"] },
+          { "blue": ["Bei"] }
+        ],
+        "comparison": [
+          {
+            "word": { "purple": ["bei"] },
+            "example": { "purple": ["bei"] }
+          },
+          {
+            "word": { "green": ["an"] },
+            "example": { "green": ["an"] }
+          },
+          {
+            "word": { "red": ["zu"] },
+            "example": { "red": ["zu"] }
+          }
+        ],
+        "tip": {
+          "left": { "purple": ["bei"] },
+          "right": { "purple": ["bei", "Bei"] }
+        }
+      }
+    }
   },
   {
     "de": "beide",
-    "lv": "abi; abas",
+    "lv": "abi",
     "level": "A1"
   },
   {
@@ -496,17 +1024,17 @@ const A1_WORDS = [
   },
   {
     "de": "das Beispiel",
-    "lv": "piemērs; paraugs",
+    "lv": "piemērs",
     "level": "A1"
   },
   {
     "de": "bekommen",
-    "lv": "dabūt; saņemt",
+    "lv": "saņemt",
     "level": "A1"
   },
   {
     "de": "benutzen",
-    "lv": "lietot; izlietot",
+    "lv": "lietot",
     "level": "A1"
   },
   {
@@ -516,17 +1044,22 @@ const A1_WORDS = [
   },
   {
     "de": "besser",
-    "lv": "labāks; labāk",
+    "lv": "labāks",
     "level": "A1"
   },
   {
     "de": "beste",
-    "lv": "vislabākais; vislabāk",
+    "lv": "vislabākais",
     "level": "A1"
   },
   {
     "de": "der Besuch",
-    "lv": "viesošanās; apciemošana; apciemojums",
+    "lv": "apciemojums",
+    "level": "A1"
+  },
+  {
+    "de": "der Besucher",
+    "lv": "apmeklētājs",
     "level": "A1"
   },
   {
@@ -536,17 +1069,72 @@ const A1_WORDS = [
   },
   {
     "de": "das Bett",
-    "lv": "gulta; upes gultne",
+    "lv": "gulta",
     "level": "A1"
   },
   {
     "de": "bis",
     "lv": "līdz; līdz kamēr; līdzko; līdz šim",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "translation": "līdz; līdz kamēr; līdzko; līdz šim",
+      "explanation": "Norāda uz kādu robežu, laika punktu vai nosacījumu.",
+      "examples": [
+        { "de": "Ich warte bis zu deiner Ankunft.", "lv": "Es gaidu līdz tavām ierašanās." },
+        { "de": "Bleib hier, bis ich zurückkomme.", "lv": "Paliec šeit, līdz es atgriezīšos." },
+        { "de": "Bis du fertig bist, hilf mir bitte.", "lv": "Līdzko tu būsi pabeidzis, lūdzu, palīdzi man." },
+        { "de": "Bis jetzt habe ich nichts verstanden.", "lv": "Līdz šim es neko neesmu sapratis." }
+      ],
+      "comparison": [
+        { "word": "bis", "meaning": "līdz (laika punkta sasniegšanai)", "example": "Ich bleibe bis 18 Uhr. – Es palikšu līdz 18:00." },
+        { "word": "bis ... zu", "meaning": "līdz (līdz noteiktam laikam)", "example": "Ich arbeite von 9 bis 17 Uhr. – Es strādāju no 9 līdz 17." },
+        { "word": "bis dass", "meaning": "līdz tam, kamēr", "example": "Ich warte, bis dass du kommst. – Es gaidu, līdz tu atnāksi." },
+        { "word": "sobald", "meaning": "līdzko, tiklīdz", "example": "Sobald du da bist, rufe mich an. – Līdzko tu būsi klāt, piezvani man." },
+        { "word": "bis jetzt", "meaning": "līdz šim, līdz šai dienai", "example": "Bis jetzt ist alles gut. – Līdz šim viss ir labi." }
+      ],
+      "tip": {
+        "text": "bis lieto ar laiku: līdz (kamēr neiestājas brīdis). sobald lieto, kad notikums notiek uzreiz pēc cita. bis jetzt nozīmē “līdz šim”, runājot par pagātni līdz šai brīdim.",
+        "example": "Ich lerne Deutsch bis ich alles verstehe. – Es mācos vācu, līdz visu saprotu. Sobald er kommt, gehen wir los. – Līdzko viņš atnāks, mēs dosimies."
+      },
+      "sectionAccents": {
+        "examples": [
+          { "purple": ["bis"] },
+          { "purple": ["bis"] },
+          { "blue": ["Bis"] },
+          { "blue": ["Bis jetzt"] }
+        ],
+        "comparison": [
+          {
+            "word": { "purple": ["bis"] },
+            "example": { "purple": ["bis"] }
+          },
+          {
+            "word": { "green": ["bis ... zu"] },
+            "example": { "green": ["bis"] }
+          },
+          {
+            "word": { "yellow": ["bis dass"] },
+            "example": { "yellow": ["bis dass"] }
+          },
+          {
+            "word": { "red": ["sobald"] },
+            "example": { "red": ["Sobald"] }
+          },
+          {
+            "word": { "blue": ["bis jetzt"] },
+            "example": { "blue": ["Bis jetzt"] }
+          }
+        ],
+        "tip": {
+          "left": { "purple": ["bis"], "red": ["sobald"], "blue": ["bis jetzt"] },
+          "right": { "purple": ["bis"], "red": ["Sobald"] }
+        }
+      }
+    }
   },
   {
     "de": "bisschen",
-    "lv": "mazliet; nedaudz",
+    "lv": "mazliet",
     "level": "A1"
   },
   {
@@ -566,7 +1154,7 @@ const A1_WORDS = [
   },
   {
     "de": "das Bild",
-    "lv": "glezna; ģīmetne; portrets; ilustrācija; attēls",
+    "lv": "attēls",
     "level": "A1"
   },
   {
@@ -596,12 +1184,12 @@ const A1_WORDS = [
   },
   {
     "de": "blond",
-    "lv": "blonds; gaišmatains",
+    "lv": "blonds",
     "level": "A1"
   },
   {
     "de": "die Blume",
-    "lv": "puķe; zieds",
+    "lv": "puķe",
     "level": "A1"
   },
   {
@@ -616,7 +1204,7 @@ const A1_WORDS = [
   },
   {
     "de": "braun",
-    "lv": "brūns; bērs",
+    "lv": "brūns",
     "level": "A1"
   },
   {
@@ -636,17 +1224,17 @@ const A1_WORDS = [
   },
   {
     "de": "bringen",
-    "lv": "nest; atnest; aizvest; nogādāt",
+    "lv": "atnest",
     "level": "A1"
   },
   {
-    "de": "das belegte Brot",
+    "de": "das Butterbrot",
     "lv": "sviestmaize",
     "level": "A1"
   },
   {
     "de": "das Brötchen",
-    "lv": "bulciņa; maizīte",
+    "lv": "bulciņa",
     "level": "A1"
   },
   {
@@ -671,7 +1259,7 @@ const A1_WORDS = [
   },
   {
     "de": "das Büro",
-    "lv": "birojs; kantoris",
+    "lv": "birojs",
     "level": "A1"
   },
   {
@@ -711,8 +1299,62 @@ const A1_WORDS = [
   },
   {
     "de": "da",
-    "lv": "tur; šeit; te; tad; tā kā; jo",
-    "level": "A1"
+    "lv": "tur",
+    "level": "A1",
+    "study": {
+      "layout": "standardStudy",
+      "translation": "tur",
+      "explanation": "da norāda uz vietu vai atsaucas uz kaut ko jau minētu. Atkarībā no situācijas to var tulkot kā: tur / te / šeit. A1 līmenī galvenokārt mācāmies kā “tur”.",
+      "examples": [
+        { "de": "Da ist mein Auto.", "lv": "Tur ir mana mašīna." },
+        { "de": "Ich war da.", "lv": "Es biju tur." },
+        { "de": "Da kommt er.", "lv": "Te viņš nāk." },
+        { "de": "Komm mal da her!", "lv": "Nāc šeit!" }
+      ],
+      "comparison": [
+        { "word": "da", "meaning": "tur; te; šeit (vispārīgi)", "example": "Da ist mein Auto." },
+        { "word": "hier", "meaning": "šeit (konkrētā vietā)", "example": "Hier ist mein Auto." },
+        { "word": "dort", "meaning": "tur (tālāk)", "example": "Dort ist mein Auto." },
+        { "word": "dann", "meaning": "tad", "example": "Dann gehen wir nach Hause." }
+      ],
+      "tip": {
+        "text": "da ir vispārīgs vietas apzīmējums. hier gandrīz vienmēr nozīmē “šeit”. dort parasti nozīmē “tur, tur tālumā”."
+      },
+      "sectionAccents": {
+        "examples": [
+          { "de": { "blue": ["Da"] }, "lv": { "purple": ["Tur"] } },
+          { "de": { "blue": ["da"] }, "lv": { "purple": ["tur"] } },
+          { "de": { "blue": ["Da"] }, "lv": { "purple": ["Te"] } },
+          { "de": { "blue": ["da"] }, "lv": { "purple": ["šeit"] } }
+        ],
+        "comparison": [
+          {
+            "word": { "green": ["da"] },
+            "example": { "green": ["Da"] }
+          },
+          {
+            "word": { "yellow": ["hier"] },
+            "example": { "yellow": ["Hier"] }
+          },
+          {
+            "word": { "red": ["dort"] },
+            "example": { "red": ["Dort"] }
+          },
+          {
+            "word": { "blue": ["dann"] },
+            "example": { "blue": ["Dann"] }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": ["da"],
+            "yellow": ["hier"],
+            "red": ["dort"],
+            "purple": ["šeit", "tur"]
+          }
+        }
+      }
+    }
   },
   {
     "de": "danken",
@@ -726,13 +1368,106 @@ const A1_WORDS = [
   },
   {
     "de": "das",
-    "lv": "tas; kas; kurš",
-    "level": "A1"
+    "lv": "tas",
+    "level": "A1",
+    "study": {
+      "translation": "tas",
+      "explanation": "Var būt artikuls, norādāmais vietniekvārds vai relatīvais vietniekvārds.",
+      "examples": [
+        { "de": "Das ist mein Auto.", "lv": "Tas ir mans auto." },
+        { "de": "Das ist gut.", "lv": "Tas ir labi." },
+        { "de": "Das Buch, das ich lese, ist interessant.", "lv": "Grāmata, kuru es lasu, ir interesanta." }
+      ],
+      "comparison": [
+        { "word": "das", "meaning": "tas (artikuls / vietniekvārds)", "example": "Das ist mein Auto. – Tas ir mans auto." },
+        { "word": "dies", "meaning": "šis", "example": "Dies ist mein Auto. – Šis ir mans auto." },
+        { "word": "welches", "meaning": "kurš; kura; kuru", "example": "Das ist das Buch, welches ich lese. – Tā ir grāmata, kuru es lasu." }
+      ],
+      "tip": {
+        "text": "das lieto kā artikulu (lietvārdam) vai vietniekvārdu (norāda uz lietu / teikumu). Relatīvajā teikumā var nozīmēt “kurš, kura, kuru”. Lai izvēlētos pareizo vārdu, noskaidro, ko vēlies norādīt: lietu, personu vai īpašību."
+      },
+      "sectionAccents": {
+        "examples": [
+          { "blue": ["Das"] },
+          { "blue": ["Das"] },
+          {
+            "de": { "blue": ["Das"], "yellow": ["das"] }
+          }
+        ],
+        "comparison": [
+          {
+            "word": { "blue": ["das"] },
+            "example": { "blue": ["Das"] }
+          },
+          {
+            "word": { "green": ["dies"] },
+            "example": { "green": ["Dies"] }
+          },
+          {
+            "word": { "yellow": ["welches"] },
+            "example": { "blue": ["Das", "das"], "yellow": ["welches"] }
+          }
+        ],
+        "tip": {
+          "left": {
+          "blue": ["das"],
+          "yellow": ["kurš, kura, kuru"]
+          }
+        }
+      }
+    }
   },
   {
     "de": "dass",
-    "lv": "ka; lai",
-    "level": "A1"
+    "lv": "ka",
+    "level": "A1",
+    "study": {
+      "translation": "ka",
+      "explanation": "Ievada palīgteikumu, kas izsaka faktu, domu vai teikto.",
+      "examples": [
+        { "de": "Ich weiß, dass du müde bist.", "lv": "Es zinu, ka tu esi noguris." },
+        { "de": "Er sagt, dass er kommt.", "lv": "Viņš saka, ka viņš nāks." },
+        { "de": "Ich glaube, dass das stimmt.", "lv": "Es domāju, ka tas ir pareizi." }
+      ],
+      "comparison": [
+        { "word": "dass", "meaning": "ka", "example": "Ich weiß, dass er kommt. – Es zinu, ka viņš nāks." },
+        { "word": "weil", "meaning": "jo; tāpēc ka", "example": "Ich bleibe zu Hause, weil es regnet. – Es palieku mājās, jo līst." },
+        { "word": "damit", "meaning": "lai", "example": "Ich lerne Deutsch, damit ich in Deutschland arbeiten kann. – Es mācos vācu valodu, lai varētu strādāt Vācijā." },
+        { "word": "ob", "meaning": "vai", "example": "Ich weiß nicht, ob er kommt. – Es nezinu, vai viņš nāks." }
+      ],
+      "tip": {
+        "text": "“dass” gandrīz vienmēr nozīmē “ka”. Latviešu “lai” vairumā gadījumu vācu valodā būs “damit”, nevis “dass”."
+      },
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": { "blue": ["dass"] },
+            "lv": { "purple": ["ka"] }
+          },
+          {
+            "de": { "blue": ["dass"] },
+            "lv": { "purple": ["ka"] }
+          },
+          {
+            "de": { "blue": ["dass"] },
+            "lv": { "purple": ["ka"] }
+          }
+        ],
+        "comparison": [
+          { "word": { "blue": ["dass"] }, "example": { "blue": ["dass"], "purple": ["ka"] } },
+          { "word": { "green": ["weil"] }, "example": { "green": ["weil"], "purple": ["jo"] } },
+          { "word": { "yellow": ["damit"] }, "example": { "yellow": ["damit"], "purple": ["lai"] } },
+          { "word": { "red": ["ob"] }, "example": { "red": ["ob"], "purple": ["vai"] } }
+        ],
+        "tip": {
+          "left": {
+            "blue": ["dass"],
+            "yellow": ["damit"],
+            "purple": ["ka", "lai"]
+          }
+        }
+      }
+    }
   },
   {
     "de": "das Datum",
@@ -751,12 +1486,46 @@ const A1_WORDS = [
   },
   {
     "de": "der",
-    "lv": "vīriešu dzimtes noteiktais artikuls; tas; kurš",
-    "level": "A1"
+    "lv": "vīriešu dzimtes noteiktais artikuls",
+    "level": "A1",
+    "study": {
+      "translation": "vīriešu dzimtes noteiktais artikuls",
+      "explanation": "Lieto pie vīriešu dzimtes lietvārdiem. Dažos teikumos “der” var darboties arī kā vietniekvārds vai relatīvais vietniekvārds.",
+      "examples": [
+        { "de": "Der Mann ist hier.", "lv": "Vīrietis ir šeit." },
+        { "de": "Der Bus kommt.", "lv": "Autobuss brauc." },
+        { "de": "Der Lehrer spricht.", "lv": "Skolotājs runā." }
+      ],
+      "comparison": [
+        { "word": "der", "meaning": "vīriešu dzimte", "example": "der Mann = vīrietis" },
+        { "word": "die", "meaning": "sieviešu dzimte", "example": "die Frau = sieviete" },
+        { "word": "das", "meaning": "nekatrā dzimte", "example": "das Kind = bērns" },
+        { "word": "welcher", "meaning": "kurš", "example": "Welcher Mann? = Kurš vīrietis?" }
+      ],
+      "tip": {
+        "text": "A1 līmenī “der” vispirms uztver kā artikulu. Vietniekvārda un relatīvā vietniekvārda lietojumi parādās vēlāk."
+      },
+      "sectionAccents": {
+        "examples": [
+          { "blue": ["Der"] },
+          { "blue": ["Der"] },
+          { "blue": ["Der"] }
+        ],
+        "comparison": [
+          { "word": { "blue": ["der"] }, "example": { "blue": ["der"] } },
+          { "word": { "green": ["die"] }, "example": { "green": ["die"] } },
+          { "word": { "yellow": ["das"] }, "example": { "yellow": ["das"] } },
+          { "word": { "red": ["welcher"] }, "example": { "red": ["Welcher"] } }
+        ],
+        "tip": {
+          "left": { "blue": ["der"] }
+        }
+      }
+    }
   },
   {
     "de": "deutsch",
-    "lv": "vācu; Vācijas; vāciski",
+    "lv": "vācu",
     "level": "A1"
   },
   {
@@ -766,8 +1535,45 @@ const A1_WORDS = [
   },
   {
     "de": "die",
-    "lv": "sieviešu dzimtes noteiktais artikuls; daudzskaitļa forma visām dzimtēm; tā; kuras; kas",
-    "level": "A1"
+    "lv": "sieviešu dzimtes noteiktais artikuls",
+    "level": "A1",
+    "study": {
+      "translation": "sieviešu dzimtes noteiktais artikuls",
+      "explanation": "Lieto pie sieviešu dzimtes lietvārdiem. Dažos teikumos “die” var darboties arī kā vietniekvārds vai relatīvais vietniekvārds.",
+      "examples": [
+        { "de": "Die Frau ist hier.", "lv": "Sieviete ir šeit." },
+        { "de": "Die Katze schläft.", "lv": "Kaķene guļ." },
+        { "de": "Die Lehrerin erklärt.", "lv": "Skolotāja skaidro." }
+      ],
+      "comparison": [
+        { "word": "der", "meaning": "vīriešu dzimte", "example": "der Mann = vīrietis" },
+        { "word": "die", "meaning": "sieviešu dzimte", "example": "die Frau = sieviete" },
+        { "word": "das", "meaning": "nekatrā dzimte", "example": "das Kind = bērns" },
+        { "word": "die (Plural)", "meaning": "daudzskaitlis visām dzimtēm", "example": "die Kinder = bērni; die Häuser = mājas" },
+        { "word": "die", "meaning": "tā (vietniekvārds)", "example": "Sie ist die Lehrerin. = Viņa ir skolotāja." },
+        { "word": "die", "meaning": "kuras (relatīvais vietniekvārds, sieviešu dzimte)", "example": "Die Frau, die hier steht, ist meine Mutter. = Sieviete, kura šeit stāv, ir mana māte." },
+        { "word": "die", "meaning": "kas (relatīvais vietniekvārds, lietas gadījumos)", "example": "Das ist das Buch, die ich lese. = Tā ir grāmata, ko es lasu." }
+      ],
+      "tip": {
+        "text": "A1 līmenī “die” vispirms uztver kā artikulu. Vietniekvārda un relatīvā vietniekvārda lietojumi parādās vēlāk."
+      },
+      "sectionAccents": {
+        "examples": [
+          { "blue": ["Die"] },
+          { "blue": ["Die"] },
+          { "blue": ["Die"] }
+        ],
+        "comparison": [
+          { "word": { "blue": ["der"] }, "example": { "blue": ["der"] } },
+          { "word": { "green": ["die"] }, "example": { "green": ["die"] } },
+          { "word": { "yellow": ["das"] }, "example": { "yellow": ["das"] } },
+          { "word": { "red": ["die", "Plural"] }, "example": { "red": ["die"] } },
+          { "word": { "blue": ["die"] }, "example": { "blue": ["die"] } },
+          { "word": { "blue": ["die"] }, "example": { "blue": ["Die", "die"] } },
+          { "word": { "blue": ["die"] }, "example": { "blue": ["die"] } }
+        ]
+      }
+    }
   },
   {
     "de": "der Dienstag",
@@ -775,14 +1581,51 @@ const A1_WORDS = [
     "level": "A1"
   },
   {
-    "de": "dies",
-    "lv": "šis",
-    "level": "A1"
-  },
-  {
     "de": "dieser",
     "lv": "šis",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "translation": "šis",
+      "explanation": "Rāda uz tuvumā esošu cilvēku, lietu vai dzīvnieku. Lieto kopā ar lietvārdu vīriešu dzimtē.",
+      "examples": [
+        { "de": "Dieser Mann ist nett.", "lv": "Šis vīrietis ir jauks." },
+        { "de": "Ich mag diesen Hund.", "lv": "Man patīk šis suns." },
+        { "de": "Dieser Stift ist neu.", "lv": "Šī pildspalva ir jauna." }
+      ],
+      "comparison": [
+        { "word": "dieser", "meaning": "šis (vīriešu dzimte)", "example": "Dieser Mann = šis vīrietis" },
+        { "word": "diese", "meaning": "šī (sieviešu dzimte)", "example": "Diese Frau = šī sieviete" },
+        { "word": "dieses", "meaning": "šis (nekatrā dzimte)", "example": "Dieses Kind = šis bērns" },
+        { "word": "diese (Plural)", "meaning": "šie (daudzskaitlis visām dzimtēm)", "example": "Diese Bücher = šīs grāmatas; Diese Häuser = šīs mājas" }
+      ],
+      "tip": {
+        "leftBlocks": [
+          { "text": "“dieser” lieto tikai ar vīriešu dzimtes lietvārdiem." },
+          { "text": "Sieviešu dzimtē lieto “diese”." },
+          { "text": "Nekatrā dzimtē — “dieses”. Daudzskaitlī — “diese”." }
+        ]
+      },
+      "sectionAccents": {
+        "examples": [
+          { "de": { "blue": ["Dieser"] }, "lv": { "purple": ["Šis"] } },
+          { "de": { "blue": ["diesen"] }, "lv": { "purple": ["šis"] } },
+          { "de": { "blue": ["Dieser"] }, "lv": { "purple": ["Šī"] } }
+        ],
+        "comparison": [
+          { "word": { "blue": ["dieser"] }, "example": { "blue": ["Dieser"], "purple": ["šis"] } },
+          { "word": { "green": ["diese"] }, "example": { "green": ["Diese"], "purple": ["šī"] } },
+          { "word": { "yellow": ["dieses"] }, "example": { "yellow": ["Dieses"], "purple": ["šis"] } },
+          { "word": { "red": ["diese", "Plural"] }, "example": { "red": ["Diese"], "purple": ["šīs"] } }
+        ],
+        "tip": {
+          "leftBlocks": [
+            { "text": { "blue": ["dieser"] } },
+            { "text": { "green": ["diese"] } },
+            { "text": { "yellow": ["dieses"], "red": ["diese"] } }
+          ]
+        }
+      }
+    }
   },
   {
     "de": "das Ding",
@@ -857,7 +1700,45 @@ const A1_WORDS = [
   {
     "de": "ein",
     "lv": "nenoteiktais artikuls; viens; kāds",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "translation": "nenoteiktais artikuls; viens; kāds",
+      "explanation": "Lieto kopā ar lietvārdu vīriešu dzimtē. Rāda uz kādu vienu lietu vai cilvēku no vairākām iespējām.",
+      "examples": [
+        { "de": "Ein Mann wartet draußen.", "lv": "Kāds vīrietis gaida ārā." },
+        { "de": "Ich habe ein Buch.", "lv": "Man ir viena grāmata." },
+        { "de": "Er sucht einen Stift.", "lv": "Viņš meklē kādu pildspalvu." }
+      ],
+      "comparison": [
+        { "word": "ein", "meaning": "vīriešu dzimte (nenoteiktais artikuls)", "example": "ein Mann = viens vīrietis" },
+        { "word": "eine", "meaning": "sieviešu dzimte (nenoteiktais artikuls)", "example": "eine Frau = viena sieviete" },
+        { "word": "ein", "meaning": "nekatrā dzimte (nenoteiktais artikuls)", "example": "ein Kind = viens bērns" },
+        { "word": "– (nav)", "meaning": "daudzskaitlis (nav nenoteiktā artikula)", "example": "Kinder = bērni; Bücher = grāmatas" },
+        { "word": "der", "meaning": "vīriešu dzimte (noteiktais artikuls)", "example": "der Mann = vīrietis (konkrēts)" },
+        { "word": "ein", "meaning": "vīriešu dzimte (nenoteikts)", "example": "ein Mann = viens vīrietis (kāds, ne konkrēts)" }
+      ],
+      "tip": {
+        "text": "“ein” lieto, ja runājam par vienu lietu vai cilvēku no vairākām iespējām. “der” lieto, ja runājam par konkrētu, jau zināmu lietu vai cilvēku."
+      },
+      "sectionAccents": {
+        "examples": [
+          { "de": { "blue": ["Ein"] }, "lv": { "purple": ["Kāds"] } },
+          { "de": { "blue": ["ein"] }, "lv": { "purple": ["viena"] } },
+          { "de": { "blue": ["einen"] }, "lv": { "purple": ["kādu"] } }
+        ],
+        "comparison": [
+          { "word": { "blue": ["ein"] }, "example": { "blue": ["ein"], "purple": ["viens"] } },
+          { "word": { "green": ["eine"] }, "example": { "green": ["eine"], "purple": ["viena"] } },
+          { "word": { "yellow": ["ein"] }, "example": { "yellow": ["ein"], "purple": ["viens"] } },
+          { "word": { "red": ["– (nav)"] }, "example": { "red": ["Kinder", "Bücher"], "purple": ["bērni", "grāmatas"] } },
+          { "word": { "blue": ["der"] }, "example": { "blue": ["der"], "purple": ["vīrietis"] } },
+          { "word": { "green": ["ein"] }, "example": { "green": ["ein"], "purple": ["viens", "kāds"] } }
+        ],
+        "tip": {
+          "left": { "blue": ["ein", "der"], "purple": ["vienu"] }
+        }
+      }
+    }
   },
   {
     "de": "einfach",
@@ -866,7 +1747,7 @@ const A1_WORDS = [
   },
   {
     "de": "einmal",
-    "lv": "reiz; vienreiz; reizē; uzreiz",
+    "lv": "vienreiz; reiz",
     "level": "A1"
   },
   {
@@ -896,7 +1777,7 @@ const A1_WORDS = [
   },
   {
     "de": "das Ende",
-    "lv": "gals; beigas; nobeigums",
+    "lv": "beigas; gals",
     "level": "A1"
   },
   {
@@ -911,13 +1792,83 @@ const A1_WORDS = [
   },
   {
     "de": "die Erde",
-    "lv": "zeme; augsne; Zeme",
+    "lv": "Zeme; augsne",
     "level": "A1"
   },
   {
     "de": "erst",
     "lv": "vispirms; tikai",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "translation": "vispirms; tikai",
+      "explanation": "“erst” lieto, lai norādītu secību (vispirms) vai uzsvērtu, ka kaut kas notiek vēlāk, nekā gaidīts, vai mazākā apjomā (tikai).",
+      "examples": [
+        { "de": "Erst trinken, dann fahren.", "lv": "Vispirms dzert, tad braukt." },
+        { "de": "Ich komme erst morgen.", "lv": "Es atbraukšu tikai rīt." },
+        { "de": "Er ist erst 18 Jahre alt.", "lv": "Viņam ir tikai 18 gadi." },
+        { "de": "Wir essen erst um acht Uhr.", "lv": "Mēs ēdam tikai astoņos." }
+      ],
+      "comparison": [
+        { "word": "erst", "meaning": "vispirms; tikai", "example": "Erst arbeiten, dann Pause. = Vispirms strādāt, tad pauze." },
+        { "word": "zuerst", "meaning": "vispirms; sākumā", "example": "Zuerst frühstücken wir. = Vispirms mēs brokastojam." },
+        { "word": "nur", "meaning": "tikai", "example": "Ich habe nur 5 Euro. = Man ir tikai 5 eiro." },
+        { "word": "dann", "meaning": "tad", "example": "Dann gehen wir nach Hause. = Tad mēs ejam mājās." }
+      ],
+      "tip": {
+        "leftBlocks": [
+          {
+            "text": "Ja “erst” runā par laiku vai skaitu, to bieži tulko kā “tikai”",
+            "examples": [
+              { "de": "Ich komme erst morgen.", "lv": "Es atbraukšu tikai rīt." },
+              { "de": "Er ist erst 18.", "lv": "Viņam ir tikai 18." }
+            ]
+          },
+          {
+            "text": "Ja “erst” stāv darbību secībā, to parasti tulko kā “vispirms”",
+            "examples": [
+              { "de": "Erst lernen, dann spielen.", "lv": "Vispirms mācīties, tad spēlēties." }
+            ]
+          }
+        ]
+      },
+      "accents": {
+        "blue": ["erst", "Erst"],
+        "green": ["zuerst", "Zuerst"],
+        "yellow": ["nur"],
+        "red": ["dann", "Dann"]
+      },
+      "sectionAccents": {
+        "examples": [
+          { "blue": ["Erst"], "red": ["dann"] },
+          { "blue": ["erst"] },
+          { "blue": ["erst"] },
+          { "blue": ["erst"] }
+        ],
+        "comparison": [
+          { "word": { "blue": ["erst"] }, "example": { "blue": ["Erst"], "red": ["dann"] } },
+          { "word": { "green": ["zuerst"] }, "example": { "green": ["Zuerst"] } },
+          { "word": { "yellow": ["nur"] }, "example": { "yellow": ["nur"] } },
+          { "word": { "red": ["dann"] }, "example": { "red": ["Dann"] } }
+        ],
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": { "blue": ["erst"], "yellow": ["tikai"] },
+              "examples": [
+                { "blue": ["erst"] },
+                { "blue": ["erst"] }
+              ]
+            },
+            {
+              "text": { "blue": ["erst"], "yellow": ["vispirms"] },
+              "examples": [
+                { "blue": ["Erst"], "red": ["dann"] }
+              ]
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "de": "erste",
@@ -926,8 +1877,71 @@ const A1_WORDS = [
   },
   {
     "de": "es",
-    "lv": "viņš; tas; viņa; tā; bezpersoniska forma",
-    "level": "A1"
+    "lv": "tas; tā; bezpersoniska forma",
+    "level": "A1",
+    "study": {
+      "translation": "tas; tā; bezpersoniska forma",
+      "explanation": "Vācu “es” nelieto, lai runātu par sevi. To lieto, lai apzīmētu: tas, tā vai bezpersonisku formu (laikapstākļi, laiks, dažādi bezpersoniski teikumi).",
+      "examples": [
+        { "de": "Ich lerne Deutsch.", "lv": "Es mācos vācu valodu." },
+        { "de": "Er ist müde.", "lv": "Viņš ir noguris." },
+        { "de": "Sie arbeitet hier.", "lv": "Viņa strādā šeit." },
+        { "de": "Das ist mein Buch.", "lv": "Tā ir mana grāmata." },
+        { "de": "Es regnet.", "lv": "Līst." },
+        { "de": "Es schneit.", "lv": "Snieg." }
+      ],
+      "comparison": [
+        { "word": "ich", "meaning": "es (es pats, runāju par sevi)", "example": "Ich lerne Deutsch. = Es mācos vācu valodu." },
+        { "word": "er", "meaning": "viņš", "example": "Er kommt heute. = Viņš atnāk šodien." },
+        { "word": "sie", "meaning": "viņa", "example": "Sie arbeitet hier. = Viņa strādā šeit." },
+        { "word": "es", "meaning": "tas; tā", "example": "Das ist mein Buch. = Tā ir mana grāmata." },
+        { "word": "es", "meaning": "bezpersoniska forma", "example": "Es regnet. = Līst." },
+        { "word": "es", "meaning": "bezpersoniska forma", "example": "Es ist kalt. = Ir auksts." }
+      ],
+      "info": [
+        "Latviešu “es” = vācu “ich”",
+        "Vācu “es” = tas; tā; bezpersoniska forma"
+      ],
+      "tip": {
+        "left": "“es” bieži tulko kā “tas” vai “tā”, bet daudzos teikumos latviešu valodā tas vispār netiek tulkots.",
+        "rightItems": [
+          { "de": "Es regnet.", "lv": "Līst." },
+          { "de": "Es schneit.", "lv": "Snieg." },
+          { "de": "Es ist kalt.", "lv": "Ir auksts." },
+          { "de": "Es ist spät.", "lv": "Ir vēls." }
+        ]
+      },
+      "sectionAccents": {
+        "examples": [
+          { "blue": ["Ich"] },
+          { "blue": ["Er"] },
+          { "red": ["Sie"] },
+          { "yellow": ["Das"] },
+          { "blue": ["Es"] },
+          { "blue": ["Es"] }
+        ],
+        "comparison": [
+          { "word": { "blue": ["ich"] }, "example": { "blue": ["Ich"] } },
+          { "word": { "blue": ["er"] }, "example": { "blue": ["Er"] } },
+          { "word": { "red": ["sie"] }, "example": { "red": ["Sie"] } },
+          { "word": { "yellow": ["es"] }, "example": { "yellow": ["Das"] } },
+          { "word": { "green": ["es"] }, "example": { "blue": ["Es"] } },
+          { "word": { "green": ["es"] }, "example": { "blue": ["Es"] } }
+        ],
+        "info": [
+          { "blue": ["ich"] },
+          { "green": ["es"] }
+        ],
+        "tip": {
+          "rightItems": [
+            { "blue": ["Es"] },
+            { "blue": ["Es"] },
+            { "blue": ["Es"] },
+            { "blue": ["Es"] }
+          ]
+        }
+      }
+    }
   },
   {
     "de": "essen",
@@ -936,7 +1950,7 @@ const A1_WORDS = [
   },
   {
     "de": "das Essen",
-    "lv": "ēšana; ēdiens",
+    "lv": "ēdiens",
     "level": "A1"
   },
   {
@@ -946,27 +1960,614 @@ const A1_WORDS = [
   },
   {
     "de": "etwas",
-    "lv": "kaut kas; mazliet; nedaudz",
+    "lv": "kaut kas; nedaudz",
     "level": "A1"
   },
   {
     "de": "euch",
-    "lv": "jums; jūs",
-    "level": "A1"
+    "lv": "jūs; jums",
+    "level": "A1",
+    "study": {
+      "translation": "jūs; jums",
+      "explanation": "“euch” ir vietniekvārds 2. personas daudzskaitlī. To lieto gan kā tiešo papildinājumu (Akkusativ) — “jūs”, gan kā netiešo papildinājumu (Dativ) — “jums”.",
+      "examples": [
+        { "de": "Ich sehe euch.", "lv": "Es redzu jūs." },
+        { "de": "Ich helfe euch.", "lv": "Es jums palīdzu." },
+        { "de": "Ich gebe euch das Buch.", "lv": "Es jums dodu grāmatu." },
+        { "de": "Ich danke euch.", "lv": "Es jums pateicos." },
+        { "de": "Ihr erinnert euch.", "lv": "Jūs atceraties." }
+      ],
+      "comparison": [
+        { "word": "ihr", "meaning": "jūs", "example": "Ihr seid freundlich. = Jūs esat draudzīgi." },
+        { "word": "euch", "meaning": "jūs / jums", "example": "Ich helfe euch. = Es jums palīdzu." },
+        { "word": "euer", "meaning": "jūsu", "example": "Das ist euer Haus. = Tā ir jūsu māja." }
+      ],
+      "info": [
+        "ihr = jūs (Nominativs)",
+        "euch = jūs (Akkusativs) / jums (Dativs)",
+        "euer = jūsu (piederības forma)"
+      ],
+      "tip": {
+        "text": "“euch” atbild uz jautājumu “kam?” vai ir tiešais papildinājums teikumos ar “jūs”.",
+        "example": "Es jums palīdzu. = Ich helfe euch. Es redzu jūs. = Ich sehe euch. Es stāstu jums. = Ich erzähle euch."
+      },
+      "accents": {
+        "blue": ["ihr"],
+        "yellow": ["euch"],
+        "green": ["euer"]
+      }
+    }
   },
   {
     "de": "euer",
     "lv": "jūsu",
     "level": "A1"
   },
-  {
+      {
     "de": "fahren",
     "lv": "braukt; vest; aizvest",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "layout": "standardStudy",
+      "translation": "braukt; vest; aizvest",
+      "explanation": "“fahren” lieto, ja pārvietošanās notiek ar transportlīdzekli. Tas var nozīmēt:",
+      "explanationLines": [
+        "pašam braukt",
+        "vest kādu",
+        "aizvest kādu vai kaut ko uz citu vietu"
+      ],
+      "examples": [
+        {
+          "de": "Ich fahre nach Berlin.",
+          "lv": "Es braucu uz Berlīni."
+        },
+        {
+          "de": "Ich fahre mit dem Auto.",
+          "lv": "Es braucu ar auto."
+        },
+        {
+          "de": "Ich fahre meine Tochter zur Schule.",
+          "lv": "Es vedu savu meitu uz skolu."
+        },
+        {
+          "de": "Ich fahre dich nach Hause.",
+          "lv": "Es tevi aizvedīšu mājās."
+        },
+        {
+          "de": "Wir fahren morgen nach München.",
+          "lv": "Mēs rīt braucam uz Minheni."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "fahren",
+          "meaning": "braukt ar transportu",
+          "example": "Ich fahre mit dem Bus."
+        },
+        {
+          "word": "gehen",
+          "meaning": "iet kājām",
+          "example": "Ich gehe nach Hause."
+        },
+        {
+          "word": "laufen",
+          "meaning": "skriet / iet",
+          "example": "Er läuft schnell."
+        },
+        {
+          "word": "bringen",
+          "meaning": "atnest / nogādāt",
+          "example": "Ich bringe das Buch."
+        },
+        {
+          "word": "mitnehmen",
+          "meaning": "paņemt līdzi",
+          "example": "Ich nehme dich mit."
+        }
+      ],
+      "tip": {
+        "left": "Ja kustība notiek ar transportlīdzekli, vācieši ļoti bieži lieto “fahren”.",
+        "leftItems": [
+          "🚗 Auto → fahren",
+          "🚌 Autobuss → fahren",
+          "🚆 Vilciens → fahren",
+          "🚲 Velosipēds → fahren",
+          "🏍️ Motocikls → fahren"
+        ],
+        "rightTitle": "Piemēri",
+        "rightItems": [
+          {
+            "de": "Ich fahre mit dem Fahrrad.",
+            "lv": "Es braucu ar velosipēdu."
+          },
+          {
+            "de": "Ich fahre mit dem Zug.",
+            "lv": "Es braucu ar vilcienu."
+          },
+          {
+            "de": "Ich fahre meine Kinder zur Schule.",
+            "lv": "Es vedu bērnus uz skolu."
+          }
+        ]
+      },
+      "important": {
+        "text": "fahren ≠ tikai “braukt”",
+        "example": "Vācu valodā viens un tas pats darbības vārds bieži nozīmē: braukt • vest • aizvest atkarībā no konteksta."
+      },
+      "accents": {
+        "blue": [
+          "fahre",
+          "fahren"
+        ],
+        "important": {
+          "blue": [
+            "braucu",
+            "braukt"
+          ],
+          "green": [
+            "vedu",
+            "vest"
+          ],
+          "yellow": [
+            "aizvedīšu",
+            "aizvest"
+          ],
+          "purple": [
+            "fahre",
+            "fahren"
+          ]
+        }
+      },
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "purple": [
+                "fahre",
+                "fahren"
+              ]
+            },
+            "lv": {
+              "blue": [
+                "braucu",
+                "braukt"
+              ],
+              "green": [
+                "vedu",
+                "vest"
+              ],
+              "yellow": [
+                "aizvedīšu",
+                "aizvest"
+              ]
+            }
+          },
+          {
+            "de": {
+              "purple": [
+                "fahre",
+                "fahren"
+              ]
+            },
+            "lv": {
+              "blue": [
+                "braucu",
+                "braukt"
+              ],
+              "green": [
+                "vedu",
+                "vest"
+              ],
+              "yellow": [
+                "aizvedīšu",
+                "aizvest"
+              ]
+            }
+          },
+          {
+            "de": {
+              "purple": [
+                "fahre",
+                "fahren"
+              ]
+            },
+            "lv": {
+              "blue": [
+                "braucu",
+                "braukt"
+              ],
+              "green": [
+                "vedu",
+                "vest"
+              ],
+              "yellow": [
+                "aizvedīšu",
+                "aizvest"
+              ]
+            }
+          },
+          {
+            "de": {
+              "purple": [
+                "fahre",
+                "fahren"
+              ]
+            },
+            "lv": {
+              "blue": [
+                "braucu",
+                "braukt"
+              ],
+              "green": [
+                "vedu",
+                "vest"
+              ],
+              "yellow": [
+                "aizvedīšu",
+                "aizvest"
+              ]
+            }
+          },
+          {
+            "de": {
+              "purple": [
+                "fahre",
+                "fahren"
+              ]
+            },
+            "lv": {
+              "blue": [
+                "braucu",
+                "braukt"
+              ],
+              "green": [
+                "vedu",
+                "vest"
+              ],
+              "yellow": [
+                "aizvedīšu",
+                "aizvest"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "blue": [
+                "fahren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "fahre",
+                "fahren"
+              ],
+              "blue": [
+                "braucu",
+                "braukt"
+              ],
+              "green": [
+                "vedu",
+                "vest"
+              ],
+              "yellow": [
+                "aizvedīšu",
+                "aizvest"
+              ]
+            },
+            "example": {
+              "blue": [
+                "braucu",
+                "braukt"
+              ],
+              "purple": [
+                "fahre",
+                "fahren"
+              ],
+              "green": [
+                "vedu",
+                "vest"
+              ],
+              "yellow": [
+                "aizvedīšu",
+                "aizvest"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "fahre",
+                "fahren"
+              ],
+              "blue": [
+                "braucu",
+                "braukt"
+              ],
+              "green": [
+                "vedu",
+                "vest"
+              ],
+              "yellow": [
+                "aizvedīšu",
+                "aizvest"
+              ]
+            },
+            "example": {
+              "green": [
+                "vedu",
+                "vest"
+              ],
+              "purple": [
+                "fahre",
+                "fahren"
+              ],
+              "blue": [
+                "braucu",
+                "braukt"
+              ],
+              "yellow": [
+                "aizvedīšu",
+                "aizvest"
+              ]
+            }
+          },
+          {
+            "word": {
+              "yellow": [
+                "laufen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "fahre",
+                "fahren"
+              ],
+              "blue": [
+                "braucu",
+                "braukt"
+              ],
+              "green": [
+                "vedu",
+                "vest"
+              ],
+              "yellow": [
+                "aizvedīšu",
+                "aizvest"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "aizvedīšu",
+                "aizvest"
+              ],
+              "purple": [
+                "fahre",
+                "fahren"
+              ],
+              "blue": [
+                "braucu",
+                "braukt"
+              ],
+              "green": [
+                "vedu",
+                "vest"
+              ]
+            }
+          },
+          {
+            "word": {
+              "red": [
+                "bringen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "fahre",
+                "fahren"
+              ],
+              "blue": [
+                "braucu",
+                "braukt"
+              ],
+              "green": [
+                "vedu",
+                "vest"
+              ],
+              "yellow": [
+                "aizvedīšu",
+                "aizvest"
+              ]
+            },
+            "example": {
+              "red": [
+                "bringen",
+                "Bringen"
+              ],
+              "purple": [
+                "fahre",
+                "fahren"
+              ],
+              "blue": [
+                "braucu",
+                "braukt"
+              ],
+              "green": [
+                "vedu",
+                "vest"
+              ],
+              "yellow": [
+                "aizvedīšu",
+                "aizvest"
+              ]
+            }
+          },
+          {
+            "word": {
+              "orange": [
+                "mitnehmen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "fahre",
+                "fahren"
+              ],
+              "blue": [
+                "braucu",
+                "braukt"
+              ],
+              "green": [
+                "vedu",
+                "vest"
+              ],
+              "yellow": [
+                "aizvedīšu",
+                "aizvest"
+              ]
+            },
+            "example": {
+              "orange": [
+                "mitnehmen",
+                "Mitnehmen"
+              ],
+              "purple": [
+                "fahre",
+                "fahren"
+              ],
+              "blue": [
+                "braucu",
+                "braukt"
+              ],
+              "green": [
+                "vedu",
+                "vest"
+              ],
+              "yellow": [
+                "aizvedīšu",
+                "aizvest"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "purple": [
+              "fahre",
+              "fahren"
+            ],
+            "blue": [
+              "braucu",
+              "braukt"
+            ],
+            "green": [
+              "vedu",
+              "vest"
+            ],
+            "yellow": [
+              "aizvedīšu",
+              "aizvest"
+            ]
+          },
+          "leftItems": {
+            "purple": [
+              "fahre",
+              "fahren"
+            ],
+            "blue": [
+              "braucu",
+              "braukt"
+            ],
+            "green": [
+              "vedu",
+              "vest"
+            ],
+            "yellow": [
+              "aizvedīšu",
+              "aizvest"
+            ]
+          },
+          "rightItems": [
+            {
+              "de": {
+                "purple": [
+                  "fahre",
+                  "fahren"
+                ]
+              },
+              "lv": {
+                "blue": [
+                  "braucu",
+                  "braukt"
+                ],
+                "green": [
+                  "vedu",
+                  "vest"
+                ],
+                "yellow": [
+                  "aizvedīšu",
+                  "aizvest"
+                ]
+              }
+            },
+            {
+              "de": {
+                "purple": [
+                  "fahre",
+                  "fahren"
+                ]
+              },
+              "lv": {
+                "blue": [
+                  "braucu",
+                  "braukt"
+                ],
+                "green": [
+                  "vedu",
+                  "vest"
+                ],
+                "yellow": [
+                  "aizvedīšu",
+                  "aizvest"
+                ]
+              }
+            },
+            {
+              "de": {
+                "purple": [
+                  "fahre",
+                  "fahren"
+                ]
+              },
+              "lv": {
+                "blue": [
+                  "braucu",
+                  "braukt"
+                ],
+                "green": [
+                  "vedu",
+                  "vest"
+                ],
+                "yellow": [
+                  "aizvedīšu",
+                  "aizvest"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "de": "falsch",
-    "lv": "neīsts; viltots; nepareizs; nepatiess",
+    "lv": "nepareizs",
     "level": "A1"
   },
   {
@@ -996,7 +2597,7 @@ const A1_WORDS = [
   },
   {
     "de": "der Fehler",
-    "lv": "kļūda; trūkums",
+    "lv": "kļūda",
     "level": "A1"
   },
   {
@@ -1061,7 +2662,7 @@ const A1_WORDS = [
   },
   {
     "de": "das Fleisch",
-    "lv": "miesa; gaļa; mīkstums",
+    "lv": "gaļa",
     "level": "A1"
   },
   {
@@ -1081,7 +2682,7 @@ const A1_WORDS = [
   },
   {
     "de": "der Fluss",
-    "lv": "upe; plūdums; plūsma",
+    "lv": "upe",
     "level": "A1"
   },
   {
@@ -1124,10 +2725,333 @@ const A1_WORDS = [
     "lv": "draudzene",
     "level": "A1"
   },
-  {
+    {
     "de": "freundlich",
-    "lv": "laipns; jauks; patīkams",
-    "level": "A1"
+    "lv": "laipns; draudzīgs",
+    "level": "A1",
+    "study": {
+      "layout": "standardStudy",
+      "translation": "laipns; draudzīgs",
+      "explanation": "freundlich galvenokārt nozīmē laipns vai draudzīgs. Tas raksturo, kā cilvēks izturas pret citiem. freundlich bieži apraksta uzvedību, attieksmi un komunikāciju. Tas nav tas pats, kas angenehm, jo angenehm nozīmē patīkams. Tas arī nav pilnīgi tas pats, kas nett vai höflich: nett nozīmē jauks, bet höflich nozīmē pieklājīgs.",
+      "examples": [
+        {
+          "de": "Der Verkäufer war freundlich.",
+          "lv": "Pārdevējs bija laipns."
+        },
+        {
+          "de": "Die Kellnerin war sehr freundlich.",
+          "lv": "Viesmīle bija ļoti laipna."
+        },
+        {
+          "de": "Bitte seien Sie freundlich.",
+          "lv": "Lūdzu, esiet laipni."
+        },
+        {
+          "de": "Er antwortete freundlich.",
+          "lv": "Viņš atbildēja laipni."
+        },
+        {
+          "de": "Unsere Nachbarn sind freundlich.",
+          "lv": "Mūsu kaimiņi ir draudzīgi."
+        },
+        {
+          "de": "Die Lehrerin spricht freundlich mit den Kindern.",
+          "lv": "Skolotāja runā laipni ar bērniem."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "freundlich",
+          "meaning": "laipns, draudzīgs",
+          "example": "Er ist freundlich. = Viņš ir laipns."
+        },
+        {
+          "word": "nett",
+          "meaning": "jauks",
+          "example": "Er ist nett. = Viņš ir jauks."
+        },
+        {
+          "word": "höflich",
+          "meaning": "pieklājīgs",
+          "example": "Der Kunde war höflich. = Klients bija pieklājīgs."
+        },
+        {
+          "word": "angenehm",
+          "meaning": "patīkams",
+          "example": "Das Wetter ist angenehm. = Laiks ir patīkams."
+        }
+      ],
+      "tip": {
+        "leftBlocks": [
+          {
+            "text": "Ja runa ir par cilvēka uzvedību, attieksmi vai komunikāciju, parasti lieto freundlich."
+          },
+          {
+            "text": "Ja runa ir par patīkamu cilvēku, atmosfēru, laiku vai balsi, biežāk lieto angenehm."
+          }
+        ],
+        "rightTitle": "Nozīmes atšķirība",
+        "rightItems": [
+          {
+            "de": "Er ist freundlich.",
+            "lv": "Viņš ir laipns."
+          },
+          {
+            "de": "Er ist angenehm.",
+            "lv": "Viņš ir patīkams cilvēks."
+          }
+        ]
+      },
+      "important": {
+        "text": "Abi teikumi ir pareizi, bet nozīme nav viena un tā pati.",
+        "example": "freundlich ≠ angenehm. freundlich ≠ höflich. freundlich ≠ nett. Tie nav sinonīmi, lai gan latviski tie bieži šķiet līdzīgi."
+      },
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "freundlich"
+              ]
+            },
+            "lv": {
+              "green": [
+                "laipns"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "freundlich"
+              ]
+            },
+            "lv": {
+              "green": [
+                "laipna"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "freundlich"
+              ]
+            },
+            "lv": {
+              "green": [
+                "laipni"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "freundlich"
+              ]
+            },
+            "lv": {
+              "green": [
+                "laipni"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "freundlich"
+              ]
+            },
+            "lv": {
+              "green": [
+                "draudzīgi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "freundlich"
+              ]
+            },
+            "lv": {
+              "green": [
+                "laipni"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "blue": [
+                "freundlich"
+              ]
+            },
+            "meaning": {
+              "green": [
+                "laipns",
+                "draudzīgs"
+              ]
+            },
+            "example": {
+              "blue": [
+                "freundlich"
+              ],
+              "green": [
+                "laipns"
+              ]
+            }
+          },
+          {
+            "word": {
+              "yellow": [
+                "nett"
+              ]
+            },
+            "meaning": {
+              "yellow": [
+                "jauks"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "nett",
+                "jauks"
+              ]
+            }
+          },
+          {
+            "word": {
+              "red": [
+                "höflich"
+              ]
+            },
+            "meaning": {
+              "red": [
+                "pieklājīgs"
+              ]
+            },
+            "example": {
+              "red": [
+                "höflich",
+                "pieklājīgs"
+              ]
+            }
+          },
+          {
+            "word": {
+              "purple": [
+                "angenehm"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "patīkams"
+              ]
+            },
+            "example": {
+              "purple": [
+                "angenehm",
+                "patīkams"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "freundlich"
+                ],
+                "green": [
+                  "uzvedību",
+                  "attieksmi",
+                  "komunikāciju"
+                ]
+              }
+            },
+            {
+              "text": {
+                "purple": [
+                  "angenehm",
+                  "patīkamu"
+                ]
+              }
+            }
+          ],
+          "rightItems": [
+            {
+              "de": {
+                "blue": [
+                  "freundlich"
+                ]
+              },
+              "lv": {
+                "green": [
+                  "laipns"
+                ]
+              }
+            },
+            {
+              "de": {
+                "purple": [
+                  "angenehm"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "patīkams"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "accents": {
+        "blue": [
+          "freundlich"
+        ],
+        "green": [
+          "laipns",
+          "laipna",
+          "laipni",
+          "draudzīgs",
+          "draudzīgi"
+        ],
+        "yellow": [
+          "nett",
+          "jauks"
+        ],
+        "red": [
+          "höflich",
+          "pieklājīgs"
+        ],
+        "purple": [
+          "angenehm",
+          "patīkams",
+          "patīkamu"
+        ],
+        "important": {
+          "blue": [
+            "freundlich"
+          ],
+          "yellow": [
+            "nett"
+          ],
+          "red": [
+            "höflich"
+          ],
+          "purple": [
+            "angenehm"
+          ],
+          "green": [
+            "sinonīmi"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "frisch",

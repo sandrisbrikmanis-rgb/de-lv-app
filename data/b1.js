@@ -1,5 +1,10 @@
 const B1_WORDS = [
   {
+    "de": "das Kurbad",
+    "lv": "ārstniecības kūrorts; kūrorta peldvieta",
+    "level": "B1"
+  },
+  {
     "de": "die Erfahrung",
     "lv": "pieredze",
     "level": "B1"

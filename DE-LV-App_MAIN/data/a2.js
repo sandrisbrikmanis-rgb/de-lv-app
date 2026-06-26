@@ -1,5 +1,15 @@
 const A2_WORDS = [
   {
+    "de": "demnächst",
+    "lv": "drīzumā",
+    "level": "A2"
+  },
+  {
+    "de": "jemanden baden",
+    "lv": "peldināt; mazgāt vannā",
+    "level": "A2"
+  },
+  {
     "de": "die Reise",
     "lv": "ceļojums",
     "level": "A2"
@@ -936,12 +946,12 @@ const A2_WORDS = [
   },
   {
     "de": "das Freibad",
-    "lv": "atklātais peldbaseins",
+    "lv": "āra peldbaseins",
     "level": "A2"
   },
   {
     "de": "das Hallenbad",
-    "lv": "slēgtais peldbaseins",
+    "lv": "iekštelpu peldbaseins",
     "level": "A2"
   },
   {
@@ -6987,11 +6997,6 @@ const A2_WORDS = [
   {
     "de": "schwierig",
     "lv": "smags, grūts",
-    "level": "A2"
-  },
-  {
-    "de": "das Schwimmbad",
-    "lv": "peldētava",
     "level": "A2"
   },
   {
