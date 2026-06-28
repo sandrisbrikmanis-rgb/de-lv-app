@@ -796,10 +796,10 @@
       --border: #263746;
       --text-main: #F3F6FA;
       --text-secondary: #C7D0DC;
-      --blue: #24A8FF;
+      --blue: #3FA7FF;
       --purple: #B565FF;
-      --yellow: #FFD21F;
-      --red: #FF4D4D;
+      --yellow: #FFD34D;
+      --red: #FF5B5B;
       --green: #35D46A;
       --orange: #FFB020;
       background: var(--bg-main);
@@ -812,6 +812,7 @@
       line-height: 1.08;
     }
 
+    .card.has-study-card .study-main-idea,
     .card.has-study-card .study-explanation,
     .card.has-study-card .study-info,
     .card.has-study-card .study-standard-table,
@@ -823,6 +824,7 @@
       color: var(--text-secondary);
     }
 
+    .card.has-study-card .study-main-idea,
     .card.has-study-card .study-explanation,
     .card.has-study-card .study-info,
     .card.has-study-card .study-tip-panel,
@@ -831,6 +833,7 @@
       line-height: 1.32;
     }
 
+    .card.has-study-card .study-main-idea h3,
     .card.has-study-card .study-explanation h3,
     .card.has-study-card .study-section h3 {
       margin: 0 0 5px;
@@ -856,6 +859,16 @@
       margin: 4px 0 0 20px;
       padding: 0;
       color: var(--text-secondary);
+    }
+
+    .card.has-study-card .study-main-idea p,
+    .card.has-study-card .study-explanation p {
+      margin: 0;
+    }
+
+    .card.has-study-card .study-main-idea p + p,
+    .card.has-study-card .study-explanation p + p {
+      margin-top: 5px;
     }
 
     .card.has-study-card .study-explanation-list li::marker {

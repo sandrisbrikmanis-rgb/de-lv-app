@@ -1,12 +1,12 @@
 const SENTENCE_ENTRIES = [
   {
     "de": "eine Datei erstellen",
-    "lv": "sastādīt (izveidot) kartotēku",
+    "lv": "Sastādīt kartotēku",
     "level": "Sätze"
   },
   {
     "de": "auf die Dauer",
-    "lv": "ilgi; uz ilgu laiku",
+    "lv": "Ilgi • Uz ilgu laiku",
     "level": "Sätze"
   },
   {
@@ -31,7 +31,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wenn nichts dazwischenkommt.",
-    "lv": "Ja nekas negadīsies starpā / neizjauks.",
+    "lv": "Ja nekas negadīsies starpā • Neizjauks",
     "level": "Sätze"
   },
   {
@@ -71,7 +71,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "ins Detail gehen",
-    "lv": "iztirzāt; izklāstīt sīkumos",
+    "lv": "Iztirzāt • Izklāstīt sīkumos",
     "level": "Sätze"
   },
   {
@@ -81,7 +81,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "dicht an etwas",
-    "lv": "cieši klāt; tieši līdzās",
+    "lv": "Cieši klāt • Tieši līdzās",
     "level": "Sätze"
   },
   {
@@ -96,7 +96,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "als Vorbild dienen",
-    "lv": "derēt (būt) par paraugu",
+    "lv": "Derēt par paraugu",
     "level": "Sätze"
   },
   {
@@ -136,12 +136,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "vor allen Dingen",
-    "lv": "sevišķi; vispirms",
+    "lv": "Sevišķi • Vispirms",
     "level": "Sätze"
   },
   {
     "de": "Sprechen Sie doch!",
-    "lv": "Runājiet jel (taču)!",
+    "lv": "Runājiet jel !",
     "level": "Sätze"
   },
   {
@@ -191,12 +191,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "sich drehen",
-    "lv": "griezties; grozīties",
+    "lv": "Griezties • Grozīties",
     "level": "Sätze"
   },
   {
     "de": "zu dritt",
-    "lv": "trijatā; pa trim",
+    "lv": "Trijatā • Pa trim",
     "level": "Sätze"
   },
   {
@@ -206,7 +206,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "einen Motor drosseln",
-    "lv": "apslāpēt / izslēgt motoru",
+    "lv": "Apslāpēt • Izslēgt motoru",
     "level": "Sätze"
   },
   {
@@ -251,7 +251,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "durchaus nicht",
-    "lv": "nebūt ne; nepavisam",
+    "lv": "Nebūt ne • Nepavisam",
     "level": "Sätze"
   },
   {
@@ -321,7 +321,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich bin durstig.",
-    "lv": "Man slāpst; es esmu izslāpis.",
+    "lv": "Man slāpst • Es esmu izslāpis",
     "level": "Sätze"
   },
   {
@@ -406,12 +406,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "im Eifer",
-    "lv": "uztraukumā; strīda karstumā",
+    "lv": "Uztraukumā • Strīda karstumā",
     "level": "Sätze"
   },
   {
     "de": "in Eifer geraten",
-    "lv": "iekarst; iedegties",
+    "lv": "Iekarst • Iedegties",
     "level": "Sätze"
   },
   {
@@ -466,7 +466,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Etwas ist im Eimer.",
-    "lv": "Bezcerīgi; pagalam.",
+    "lv": "Bezcerīgi • Pagalam",
     "level": "Sätze"
   },
   {
@@ -486,7 +486,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "in ein Land einbrechen",
-    "lv": "ielauzties / iebrukt kādā valstī",
+    "lv": "Ielauzties • Iebrukt kādā valstī",
     "level": "Sätze"
   },
   {
@@ -536,7 +536,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "eine Wette eingehen",
-    "lv": "saderēt; noslēgt derības",
+    "lv": "Saderēt • Noslēgt derības",
     "level": "Sätze"
   },
   {
@@ -631,7 +631,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Das leuchtet mir nicht ein.",
-    "lv": "To es nevaru saprast; tas man nav skaidrs.",
+    "lv": "To es nevaru saprast • Tas man nav skaidrs",
     "level": "Sätze"
   },
   {
@@ -661,7 +661,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "mit eingerechnet",
-    "lv": "ieskaitot; ierēķinot",
+    "lv": "Ieskaitot • Ierēķinot",
     "level": "Sätze"
   },
   {
@@ -671,12 +671,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Einspruch erheben",
-    "lv": "celt iebildumus; protestēt",
+    "lv": "Celt iebildumus • Protestēt",
     "level": "Sätze"
   },
   {
     "de": "etwas einstecken müssen",
-    "lv": "paciest; samierināties",
+    "lv": "Paciest • Samierināties",
     "level": "Sätze"
   },
   {
@@ -701,7 +701,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "für jemanden eintreten",
-    "lv": "aizstāvēt kādu; nostāties kāda pusē",
+    "lv": "Aizstāvēt kādu • Nostāties kāda pusē",
     "level": "Sätze"
   },
   {
@@ -756,7 +756,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "einzig und allein",
-    "lv": "vienīgi; tikai",
+    "lv": "Vienīgi • Tikai",
     "level": "Sätze"
   },
   {
@@ -786,7 +786,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "zu Ende bringen",
-    "lv": "nobeigt; pabeigt",
+    "lv": "Nobeigt • Pabeigt",
     "level": "Sätze"
   },
   {
@@ -796,7 +796,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "etwas entbehren können",
-    "lv": "varēt iztikt bez kaut kā; pieciest kaut ko",
+    "lv": "Varēt iztikt bez kaut kā • Pieciest kaut ko",
     "level": "Sätze"
   },
   {
@@ -856,12 +856,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "entweder ... oder ...",
-    "lv": "vai nu ... vai ...; viens no diviem",
+    "lv": "Vai nu ... vai • Viens no diviem",
     "level": "Sätze"
   },
   {
     "de": "meines Erachtens",
-    "lv": "pēc manām domām; pēc mana ieskata",
+    "lv": "Pēc manām domām • Pēc mana ieskata",
     "level": "Sätze"
   },
   {
@@ -956,7 +956,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "zur Erinnerung",
-    "lv": "atmiņai; piemiņai",
+    "lv": "Atmiņai • Piemiņai",
     "level": "Sätze"
   },
   {
@@ -976,12 +976,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "es ist erlaubt",
-    "lv": "ir atļauts; drīkst",
+    "lv": "Ir atļauts • Drīkst",
     "level": "Sätze"
   },
   {
     "de": "eine Niederlage erleiden",
-    "lv": "ciest sakāvi; tikt sakautam",
+    "lv": "Ciest sakāvi • Tikt sakautam",
     "level": "Sätze"
   },
   {
@@ -1031,7 +1031,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "fürs Erste",
-    "lv": "vispirms; pagaidām; iesākumam",
+    "lv": "Vispirms • Pagaidām • Iesākumam",
     "level": "Sätze"
   },
   {
@@ -1116,7 +1116,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "jemandem auf den Fersen sein",
-    "lv": "sekot kādam pa pēdām; būt kādam uz pēdām",
+    "lv": "Sekot kādam pa pēdām • Būt kādam uz pēdām",
     "level": "Sätze"
   },
   {
@@ -1201,7 +1201,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "keinen Finger krumm machen",
-    "lv": "neko nedarīt; slinkot",
+    "lv": "Neko nedarīt • Slinkot",
     "level": "Sätze"
   },
   {
@@ -1651,7 +1651,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich habe die Ausbildung absolviert.",
-    "lv": "Es pabeidzu apmācību / izglītību.",
+    "lv": "Es pabeidzu apmācību • Izglītību",
     "level": "Sätze"
   },
   {
@@ -1796,7 +1796,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Das Auto wurde angelegt.",
-    "lv": "Auto tika novietots / piestiprināts.",
+    "lv": "Auto tika novietots • Piestiprināts",
     "level": "Sätze"
   },
   {
@@ -1966,7 +1966,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es kommt darauf an.",
-    "lv": "Varētu būt; vēl nav zināms.",
+    "lv": "Varētu būt • Vēl nav zināms",
     "level": "Sätze"
   },
   {
@@ -2296,7 +2296,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Unter vier Augen.",
-    "lv": "Divatā; zem četrām acīm.",
+    "lv": "Divatā • Zem četrām acīm",
     "level": "Sätze"
   },
   {
@@ -2456,7 +2456,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ein Bad nehmen.",
-    "lv": "Iet vannā; peldēties.",
+    "lv": "Iet vannā • Peldēties",
     "level": "Sätze"
   },
   {
@@ -2491,7 +2491,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Auf die lange Bank schieben.",
-    "lv": "Novilcināt; vilkt garumā; atlikt uz nenoteiktu laiku.",
+    "lv": "Novilcināt • Vilkt garumā • Atlikt uz nenoteiktu laiku",
     "level": "Sätze"
   },
   {
@@ -2541,7 +2541,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bedienen Sie sich bitte!",
-    "lv": "Lūdzu, apkalpojieties paši; lūdzu, ņemiet!",
+    "lv": "Lūdzu, apkalpojieties paši • Lūdzu, ņemiet!",
     "level": "Sätze"
   },
   {
@@ -2736,7 +2736,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bekanntschaft anknüpfen.",
-    "lv": "Iepazīties; nodibināt pazīšanos.",
+    "lv": "Iepazīties • Nodibināt pazīšanos",
     "level": "Sätze"
   },
   {
@@ -2796,7 +2796,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bereit sein.",
-    "lv": "Būt gatavam; būt ar mieru.",
+    "lv": "Būt gatavam • Būt ar mieru",
     "level": "Sätze"
   },
   {
@@ -3151,7 +3151,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es dämmert.",
-    "lv": "Krēslo; aust gaisma.",
+    "lv": "Krēslo • Aust gaisma",
     "level": "Sätze"
   },
   {
@@ -3386,7 +3386,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "er hat Glück",
-    "lv": "viņam ir laime; viņam laimējas",
+    "lv": "Viņam ir laime • Viņam laimējas",
     "level": "Sätze"
   },
   {
@@ -3411,12 +3411,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "jemandem / sich eine Pause gönnen",
-    "lv": "kādam / sev atvēlēt atpūtas brīdi",
+    "lv": "Kādam • Sev atvēlēt atpūtas brīdi",
     "level": "Sätze"
   },
   {
     "de": "zu Grabe tragen",
-    "lv": "apbedīt; apglabāt",
+    "lv": "Apbedīt • Apglabāt",
     "level": "Sätze"
   },
   {
@@ -3461,7 +3461,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "aus der Luft greifen",
-    "lv": "grābt no gaisa; izdomāt",
+    "lv": "Grābt no gaisa • Izdomāt",
     "level": "Sätze"
   },
   {
@@ -3471,7 +3471,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "aus diesem Grunde",
-    "lv": "tāpēc; šī iemesla dēļ",
+    "lv": "Tāpēc • Šī iemesla dēļ",
     "level": "Sätze"
   },
   {
@@ -3496,7 +3496,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "gültig sein",
-    "lv": "būt derīgam; būt spēkā",
+    "lv": "Būt derīgam • Būt spēkā",
     "level": "Sätze"
   },
   {
@@ -3536,7 +3536,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "seien Sie so gut!",
-    "lv": "esiet tik labs; laipns!",
+    "lv": "Esiet tik labs • Laipns!",
     "level": "Sätze"
   },
   {
@@ -3571,7 +3571,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "etwas ist an den Haaren herbeigezogen",
-    "lv": "pievilkts aiz matiem; neticams",
+    "lv": "Pievilkts aiz matiem • Neticams",
     "level": "Sätze"
   },
   {
@@ -3581,7 +3581,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "ich habe ihn gern",
-    "lv": "man viņš patīk; es viņu mīlu",
+    "lv": "Man viņš patīk • Es viņu mīlu",
     "level": "Sätze"
   },
   {
@@ -3591,7 +3591,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "was hast du?",
-    "lv": "kas tev kait; kas noticis?",
+    "lv": "Kas tev kait • Kas noticis?",
     "level": "Sätze"
   },
   {
@@ -3636,7 +3636,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "zur Gesellschaft",
-    "lv": "kompānijas pēc; kompānijā",
+    "lv": "Kompānijas pēc • Kompānijā",
     "level": "Sätze"
   },
   {
@@ -3736,17 +3736,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "ein Gesuch einreichen",
-    "lv": "iesniegt lūgumu; iesniegt iesniegumu",
+    "lv": "Iesniegt lūgumu • Iesniegt iesniegumu",
     "level": "Sätze"
   },
   {
     "de": "gesund werden",
-    "lv": "izveseļoties; kļūt veselam",
+    "lv": "Izveseļoties • Kļūt veselam",
     "level": "Sätze"
   },
   {
     "de": "Gewähr übernehmen für etwas",
-    "lv": "garantēt kaut ko; galvot par kaut ko",
+    "lv": "Garantēt kaut ko • Galvot par kaut ko",
     "level": "Sätze"
   },
   {
@@ -3811,7 +3811,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "gewiss sein",
-    "lv": "būt drošam; pārliecinātam",
+    "lv": "Būt drošam • Pārliecinātam",
     "level": "Sätze"
   },
   {
@@ -3821,7 +3821,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "ich bin es gewohnt",
-    "lv": "es esmu tā pieradis; paradis",
+    "lv": "Es esmu tā pieradis • Paradis",
     "level": "Sätze"
   },
   {
@@ -3846,7 +3846,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "jemanden aufs Glatteis führen",
-    "lv": "piekrāpt; pievilt",
+    "lv": "Piekrāpt • Pievilt",
     "level": "Sätze"
   },
   {
@@ -3921,7 +3921,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "mit Genauigkeit",
-    "lv": "noteikti; droši",
+    "lv": "Noteikti • Droši",
     "level": "Sätze"
   },
   {
@@ -3931,7 +3931,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "sich das Genick brechen",
-    "lv": "lauzt sprandu; lauzt kaklu",
+    "lv": "Lauzt sprandu • Lauzt kaklu",
     "level": "Sätze"
   },
   {
@@ -4011,7 +4011,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "nicht im Geringsten",
-    "lv": "it nemaz; ne mazākā mērā",
+    "lv": "It nemaz • Ne mazākā mērā",
     "level": "Sätze"
   },
   {
@@ -4056,12 +4056,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "es ist geschehen",
-    "lv": "noticis; kas bijis - bijis",
+    "lv": "Noticis • Kas bijis - bijis",
     "level": "Sätze"
   },
   {
     "de": "es ist ihm recht geschehen",
-    "lv": "tā viņam vajadzēja; to viņš bija pelnījis",
+    "lv": "Tā viņam vajadzēja • To viņš bija pelnījis",
     "level": "Sätze"
   },
   {
@@ -4071,7 +4071,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "mach keine Geschichten!",
-    "lv": "netaisi muļķības; netaisi jokus!",
+    "lv": "Netaisi muļķības • Netaisi jokus!",
     "level": "Sätze"
   },
   {
@@ -4081,7 +4081,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "das starke Geschlecht",
-    "lv": "stiprais dzimums; vīrieši",
+    "lv": "Stiprais dzimums • Vīrieši",
     "level": "Sätze"
   },
   {
@@ -4101,7 +4101,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "geschweige denn...",
-    "lv": "nemaz nerunājot par to; kur nu vēl",
+    "lv": "Nemaz nerunājot par to • Kur nu vēl",
     "level": "Sätze"
   },
   {
@@ -4126,7 +4126,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "nach Gebühr",
-    "lv": "pēc nopelniem; pienācīgi",
+    "lv": "Pēc nopelniem • Pienācīgi",
     "level": "Sätze"
   },
   {
@@ -4141,7 +4141,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "zum Gedächtnis",
-    "lv": "piemiņai; atcerei",
+    "lv": "Piemiņai • Atcerei",
     "level": "Sätze"
   },
   {
@@ -4236,7 +4236,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "im Gegenteil",
-    "lv": "gluži otrādi; pretēji",
+    "lv": "Gluži otrādi • Pretēji",
     "level": "Sätze"
   },
   {
@@ -4261,7 +4261,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "in seiner Gegenwart",
-    "lv": "viņa klātbūtnē; viņam klātesot",
+    "lv": "Viņa klātbūtnē • Viņam klātesot",
     "level": "Sätze"
   },
   {
@@ -4291,12 +4291,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "vor sich gehen",
-    "lv": "notikt; norisināties",
+    "lv": "Notikt • Norisināties",
     "level": "Sätze"
   },
   {
     "de": "wie geht es Ihnen?",
-    "lv": "kā jums iet; kā klājas?",
+    "lv": "Kā jums iet • Kā klājas?",
     "level": "Sätze"
   },
   {
@@ -4321,7 +4321,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "das ist mir geläufig",
-    "lv": "to es labi zinu; protu",
+    "lv": "To es labi zinu • Protu",
     "level": "Sätze"
   },
   {
@@ -4351,7 +4351,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "das kommt mir gelegen",
-    "lv": "tas ir īstā laikā; tas man ir izdevīgi",
+    "lv": "Tas ir īstā laikā • Tas man ir izdevīgi",
     "level": "Sätze"
   },
   {
@@ -4411,7 +4411,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "den Puls fühlen",
-    "lv": "pārbaudīt; taustīt pulsu",
+    "lv": "Pārbaudīt • Taustīt pulsu",
     "level": "Sätze"
   },
   {
@@ -4451,7 +4451,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "für ein Jahr",
-    "lv": "vienam gadam; uz vienu gadu",
+    "lv": "Vienam gadam • Uz vienu gadu",
     "level": "Sätze"
   },
   {
@@ -4486,7 +4486,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "für jemanden Fürsprache einlegen",
-    "lv": "aizrunāt par kādu; aizlikt labu vārdu par kādu",
+    "lv": "Aizrunāt par kādu • Aizlikt labu vārdu par kādu",
     "level": "Sätze"
   },
   {
@@ -4501,7 +4501,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "auf großem Fuß leben",
-    "lv": "dzīvot plaši; izšķērdīgi",
+    "lv": "Dzīvot plaši • Izšķērdīgi",
     "level": "Sätze"
   },
   {
@@ -4556,7 +4556,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "das Lokal ist ganztägig geöffnet",
-    "lv": "restorāns ir atvērts 24 stundas; visu diennakti",
+    "lv": "Restorāns ir atvērts 24 stundas • Visu diennakti",
     "level": "Sätze"
   },
   {
@@ -4616,7 +4616,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "er ist 1935 geboren",
-    "lv": "viņš ir dzimis 1935. gadā",
+    "lv": "Viņš ir dzimis gadā",
     "level": "Sätze"
   },
   {
@@ -4631,7 +4631,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "weder Fisch noch Fleisch",
-    "lv": "ne zivs, ne gaļa; ne šis, ne tas",
+    "lv": "Ne zivs, ne gaļa • Ne šis, ne tas",
     "level": "Sätze"
   },
   {
@@ -4681,7 +4681,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "ich muss fort",
-    "lv": "man jāiet projām; man jābrauc projām",
+    "lv": "Man jāiet projām • Man jābrauc projām",
     "level": "Sätze"
   },
   {
@@ -4721,7 +4721,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "im Freien",
-    "lv": "brīvā dabā; zem klajas debess",
+    "lv": "Brīvā dabā • Zem klajas debess",
     "level": "Sätze"
   },
   {
@@ -4746,7 +4746,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "ein Freund der Kunst",
-    "lv": "mākslas draugs; mākslas cienītājs",
+    "lv": "Mākslas draugs • Mākslas cienītājs",
     "level": "Sätze"
   },
   {
@@ -4761,12 +4761,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "einen Befehl erteilen",
-    "lv": "dot pavēli; pavēlēt",
+    "lv": "Dot pavēli • Pavēlēt",
     "level": "Sätze"
   },
   {
     "de": "Unterricht erteilen",
-    "lv": "pasniegt stundas; mācīt",
+    "lv": "Pasniegt stundas • Mācīt",
     "level": "Sätze"
   },
   {
@@ -4851,7 +4851,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "freie Fahrt",
-    "lv": "brīvs ceļš; bezmaksas brauciens",
+    "lv": "Brīvs ceļš • Bezmaksas brauciens",
     "level": "Sätze"
   },
   {
@@ -4981,7 +4981,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "auf der Hut sein",
-    "lv": "uzmanīties; sargāties",
+    "lv": "Uzmanīties • Sargāties",
     "level": "Sätze"
   },
   {
@@ -5016,7 +5016,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "gedenkst du meiner?",
-    "lv": "vai tu mani atceries?; vai tu par mani iedomājies?",
+    "lv": "Vai tu mani atceries? • Vai tu par mani iedomājies?",
     "level": "Sätze"
   },
   {
@@ -5031,7 +5031,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "das ist ihr Vater",
-    "lv": "tas ir viņas/viņu tēvs",
+    "lv": "Tas ir viņas • Viņu tēvs",
     "level": "Sätze"
   },
   {
@@ -5346,7 +5346,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "alles auf eine Karte setzen",
-    "lv": "likt visu uz vienu kārti; riskēt",
+    "lv": "Likt visu uz vienu kārti • Riskēt",
     "level": "Sätze"
   },
   {
@@ -5366,7 +5366,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Kaution stellen",
-    "lv": "dot ķīlu; iemaksāt drošības naudu; galvot",
+    "lv": "Dot ķīlu • Iemaksāt drošības naudu • Galvot",
     "level": "Sätze"
   },
   {
@@ -5431,7 +5431,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "die Sache klappt",
-    "lv": "lieta iet; viss iet gludi kā vajag",
+    "lv": "Lieta iet • Viss iet gludi kā vajag",
     "level": "Sätze"
   },
   {
@@ -5596,7 +5596,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "zu sich kommen",
-    "lv": "atgūt samaņu; atjēgties",
+    "lv": "Atgūt samaņu • Atjēgties",
     "level": "Sätze"
   },
   {
@@ -5776,7 +5776,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "in Kürze",
-    "lv": "drīzumā, tuvākajā laikā; īsos vārdos",
+    "lv": "Drīzumā, tuvākajā laikā • Īsos vārdos",
     "level": "Sätze"
   },
   {
@@ -5921,7 +5921,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "etwas läuft wie geschmiert",
-    "lv": "klājas ļoti labi; viss notiek, kā paredzēts",
+    "lv": "Klājas ļoti labi • Viss notiek, kā paredzēts",
     "level": "Sätze"
   },
   {
@@ -6041,7 +6041,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "ans Licht kommen",
-    "lv": "atklāties; nākt gaismā",
+    "lv": "Atklāties • Nākt gaismā",
     "level": "Sätze"
   },
   {
@@ -6291,7 +6291,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "durch Mark und Bein gehen",
-    "lv": "tas iet līdz kaulam; tas iet cauri kauliem",
+    "lv": "Tas iet līdz kaulam • Tas iet cauri kauliem",
     "level": "Sätze"
   },
   {
@@ -6836,7 +6836,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "nicht doch!",
-    "lv": "nē taču!; nevajag!",
+    "lv": "Nē taču! • Nevajag!",
     "level": "Sätze"
   },
   {
@@ -7296,7 +7296,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Rechenschaft über etwas ablegen",
-    "lv": "dot par kaut ko norēķinu; atskaitīties par kaut ko",
+    "lv": "Dot par kaut ko norēķinu • Atskaitīties par kaut ko",
     "level": "Sätze"
   },
   {
@@ -7311,7 +7311,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Rechnung tragen",
-    "lv": "rēķināties ar kaut ko; ņemt vērā kaut ko",
+    "lv": "Rēķināties ar kaut ko • Ņemt vērā kaut ko",
     "level": "Sätze"
   },
   {
@@ -7381,7 +7381,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "eine Rede halten",
-    "lv": "teikt runu; uzstāties ar runu",
+    "lv": "Teikt runu • Uzstāties ar runu",
     "level": "Sätze"
   },
   {
@@ -7416,7 +7416,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "in der Regel",
-    "lv": "kā parasts; parasti; vienmēr",
+    "lv": "Kā parasts • Parasti • Vienmēr",
     "level": "Sätze"
   },
   {
@@ -7446,7 +7446,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "auf der Reise",
-    "lv": "ceļojumā; ceļā",
+    "lv": "Ceļojumā • Ceļā",
     "level": "Sätze"
   },
   {
@@ -7566,7 +7566,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "sich rühren",
-    "lv": "kustēties; rosīties",
+    "lv": "Kustēties • Rosīties",
     "level": "Sätze"
   },
   {
@@ -7576,7 +7576,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "sich rüsten",
-    "lv": "bruņoties; sagatavoties",
+    "lv": "Bruņoties • Sagatavoties",
     "level": "Sätze"
   },
   {
@@ -7591,7 +7591,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "sich sammeln",
-    "lv": "sapulcēties; sakopot domas",
+    "lv": "Sapulcēties • Sakopot domas",
     "level": "Sätze"
   },
   {
@@ -7631,7 +7631,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "sich schälen",
-    "lv": "lobīties (par ādu)",
+    "lv": "Lobīties",
     "level": "Sätze"
   },
   {
@@ -7676,7 +7676,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "nach jemandem schauen",
-    "lv": "1. meklēt kādu [ar acīm]; 2. pieskatīt kādu",
+    "lv": "Meklēt kādu [ar acīm] • Pieskatīt kādu",
     "level": "Sätze"
   },
   {
@@ -7696,7 +7696,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "zum Schein",
-    "lv": "formas (izskata) pēc",
+    "lv": "Formas pēc",
     "level": "Sätze"
   },
   {
@@ -7851,12 +7851,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Schuld haben",
-    "lv": "būt vainīgam (pie kaut kā)",
+    "lv": "Būt vainīgam",
     "level": "Sätze"
   },
   {
     "de": "schuld sein",
-    "lv": "būt vainīgam (pie kaut kā)",
+    "lv": "Būt vainīgam",
     "level": "Sätze"
   },
   {
@@ -7871,7 +7871,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "vor dem Gebrauch schütteln!",
-    "lv": "pirms lietošanas saskalot! (par zālēm)",
+    "lv": "Pirms lietošanas saskalot!",
     "level": "Sätze"
   },
   {
@@ -7951,7 +7951,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "das kann sein",
-    "lv": "iespējams; tas var būt",
+    "lv": "Iespējams • Tas var būt",
     "level": "Sätze"
   },
   {
@@ -7961,7 +7961,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "seit wann?",
-    "lv": "no (kopš) kura laika?",
+    "lv": "No kura laika?",
     "level": "Sätze"
   },
   {
@@ -7986,7 +7986,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "nicht selten",
-    "lv": "nereti; bieži vien",
+    "lv": "Nereti • Bieži vien",
     "level": "Sätze"
   },
   {
@@ -8231,7 +8231,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "eine Spritze geben",
-    "lv": "izdarīt iešļircinājumu (injekciju)",
+    "lv": "Izdarīt iešļircinājumu",
     "level": "Sätze"
   },
   {
@@ -8396,7 +8396,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "sich auf etwas stürzen",
-    "lv": "mesties uz kaut ko; gāzties",
+    "lv": "Mesties uz kaut ko • Gāzties",
     "level": "Sätze"
   },
   {
@@ -8621,7 +8621,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "nicht übel!",
-    "lv": "itin labi!; nav ko iebilst",
+    "lv": "Itin labi! • Nav ko iebilst",
     "level": "Sätze"
   },
   {
@@ -8766,7 +8766,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Jahr um Jahr",
-    "lv": "gads pēc gada; gadu no gada",
+    "lv": "Gads pēc gada • Gadu no gada",
     "level": "Sätze"
   },
   {
@@ -8791,7 +8791,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "in vollem Umfang",
-    "lv": "pilnos apmēros; pilnā apjomā",
+    "lv": "Pilnos apmēros • Pilnā apjomā",
     "level": "Sätze"
   },
   {
@@ -8996,7 +8996,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Falsch verbunden!",
-    "lv": "nepareizi savienots! (tālruņa sarunā)",
+    "lv": "Nepareizi savienots!",
     "level": "Sätze"
   },
   {
@@ -9006,12 +9006,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "keine Verbindung bekommen",
-    "lv": "nedabūt savienojumu (pa tālruni)",
+    "lv": "Nedabūt savienojumu",
     "level": "Sätze"
   },
   {
     "de": "die Verbindung aufnehmen",
-    "lv": "nodibināt sakarus (pazīšanos)",
+    "lv": "Nodibināt sakarus",
     "level": "Sätze"
   },
   {
@@ -9061,7 +9061,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "im Verkehr sein",
-    "lv": "kursēt (par vilcienu)",
+    "lv": "Kursēt",
     "level": "Sätze"
   },
   {
@@ -9196,12 +9196,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Vom Hörensagen.",
-    "lv": "Pēc baumām (nostāstiem).",
+    "lv": "Pēc baumām",
     "level": "Sätze"
   },
   {
     "de": "Vom 20. Januar bis 1. Februar.",
-    "lv": "No 20. janvāra līdz 1. februārim.",
+    "lv": "No janvāra līdz februārim",
     "level": "Sätze"
   },
   {
@@ -9266,7 +9266,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Jemandem voraus sein.",
-    "lv": "Būt (aizsteigties) kādam priekšā.",
+    "lv": "Būt kādam priekšā",
     "level": "Sätze"
   },
   {
@@ -9286,7 +9286,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Vorhanden sein.",
-    "lv": "Būt; būt klāt, būt dabūjamam.",
+    "lv": "Būt • Būt klāt, būt dabūjamam",
     "level": "Sätze"
   },
   {
@@ -9321,7 +9321,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Von vorn.",
-    "lv": "No priekšas (priekšpuses).",
+    "lv": "No priekšas",
     "level": "Sätze"
   },
   {
@@ -9361,7 +9361,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Im Vorteil sein.",
-    "lv": "Atrasties izdevīgākā (labākā) stāvoklī.",
+    "lv": "Atrasties izdevīgākā stāvoklī",
     "level": "Sätze"
   },
   {
@@ -9481,7 +9481,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Von Rechts wegen.",
-    "lv": "Pēc taisnības (likuma).",
+    "lv": "Pēc taisnības",
     "level": "Sätze"
   },
   {
@@ -9516,7 +9516,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Art und Weise.",
-    "lv": "(rīcības) veids.",
+    "lv": "Veids",
     "level": "Sätze"
   },
   {
@@ -9586,7 +9586,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Sich werfen.",
-    "lv": "Mesties (uz kaut ko).",
+    "lv": "Mesties",
     "level": "Sätze"
   },
   {
@@ -9616,7 +9616,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Auf etwas Wert legen.",
-    "lv": "Kaut ko augstu vērtēt; piešķirt kaut kam lielu nozīmi.",
+    "lv": "Kaut ko augstu vērtēt • Piešķirt kaut kam lielu nozīmi",
     "level": "Sätze"
   },
   {
@@ -9666,7 +9666,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Widerspruch erheben.",
-    "lv": "Protestēt; celt iebildumus.",
+    "lv": "Protestēt • Celt iebildumus",
     "level": "Sätze"
   },
   {
@@ -9716,12 +9716,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Du musst ziehen.",
-    "lv": "Tev gājiens (šaha spēlē).",
+    "lv": "Tev gājiens",
     "level": "Sätze"
   },
   {
     "de": "Es zieht.",
-    "lv": "Velk (caurvējš).",
+    "lv": "Velk",
     "level": "Sätze"
   },
   {
@@ -9841,7 +9841,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zugrunde legen.",
-    "lv": "Likt pamatā; ņemt par pamatu.",
+    "lv": "Likt pamatā • Ņemt par pamatu",
     "level": "Sätze"
   },
   {

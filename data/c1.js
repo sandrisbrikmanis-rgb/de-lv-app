@@ -66,7 +66,7 @@ const C1_WORDS = [
   },
   {
     "de": "anfechten",
-    "lv": "apstrīdēt; apšaubīt",
+    "lv": "Apstrīdēt • Apšaubīt",
     "level": "C1"
   },
   {
@@ -96,12 +96,12 @@ const C1_WORDS = [
   },
   {
     "de": "die Abart",
-    "lv": "veids; paveids",
+    "lv": "Veids • Paveids",
     "level": "C1"
   },
   {
     "de": "abstumpfen",
-    "lv": "notrulināt; padarīt nejūtīgu",
+    "lv": "Notrulināt • Padarīt nejūtīgu",
     "level": "C1"
   },
   {
@@ -116,7 +116,7 @@ const C1_WORDS = [
   },
   {
     "de": "ächten",
-    "lv": "izstumt; nosodīt",
+    "lv": "Izstumt • Nosodīt",
     "level": "C1"
   },
   {
@@ -131,7 +131,7 @@ const C1_WORDS = [
   },
   {
     "de": "der Frachtbrief",
-    "lv": "preču/kravas pavadzīme; konosaments",
+    "lv": "Preču • Kravas pavadzīme • Konosaments",
     "level": "C1"
   },
   {

@@ -66,7 +66,7 @@ const A1_WORDS = [
   },
   {
     "de": "an",
-    "lv": "pie; uz; klāt",
+    "lv": "Pie • Uz • Klāt",
     "level": "A1",
     "study": {
       "translation": "pie; pie virsmas; pie malas",
@@ -194,7 +194,7 @@ const A1_WORDS = [
   },
   {
     "de": "ab und zu",
-    "lv": "šad un tad; reizēm",
+    "lv": "Šad un tad • Reizēm",
     "level": "A1",
     "study": {
       "translation": "šad un tad; reizēm",
@@ -258,7 +258,7 @@ const A1_WORDS = [
   },
   {
     "de": "aber",
-    "lv": "bet; tomēr; taču",
+    "lv": "Bet • Tomēr • Taču",
     "level": "A1",
     "study": {
       "translation": "bet; tomēr; taču",
@@ -747,7 +747,7 @@ const A1_WORDS = [
   },
   {
     "de": "aus",
-    "lv": "no; ārā",
+    "lv": "No • Ārā",
     "level": "A1",
     "study": {
       "translation": "no; ārā",
@@ -823,7 +823,7 @@ const A1_WORDS = [
   },
   {
     "de": "aufs",
-    "lv": "uz; uz to",
+    "lv": "Uz • Uz to",
     "level": "A1",
     "study": {
       "translation": "uz; uz to",
@@ -1064,7 +1064,7 @@ const A1_WORDS = [
   },
   {
     "de": "besuchen",
-    "lv": "apmeklēt; apciemot",
+    "lv": "Apmeklēt • Apciemot",
     "level": "A1"
   },
   {
@@ -1074,7 +1074,7 @@ const A1_WORDS = [
   },
   {
     "de": "bis",
-    "lv": "līdz; līdz kamēr; līdzko; līdz šim",
+    "lv": "Līdz • Līdz kamēr • Līdzko • Līdz šim",
     "level": "A1",
     "study": {
       "translation": "līdz; līdz kamēr; līdzko; līdz šim",
@@ -1299,11 +1299,11 @@ const A1_WORDS = [
   },
   {
     "de": "da",
-    "lv": "tur",
+    "lv": "Tur",
     "level": "A1",
     "study": {
       "layout": "standardStudy",
-      "translation": "tur",
+      "translation": "Tur",
       "explanation": "da norāda uz vietu vai atsaucas uz kaut ko jau minētu. Atkarībā no situācijas to var tulkot kā: tur / te / šeit. A1 līmenī galvenokārt mācāmies kā “tur”.",
       "examples": [
         { "de": "Da ist mein Auto.", "lv": "Tur ir mana mašīna." },
@@ -1321,40 +1321,232 @@ const A1_WORDS = [
         "text": "da ir vispārīgs vietas apzīmējums. hier gandrīz vienmēr nozīmē “šeit”. dort parasti nozīmē “tur, tur tālumā”."
       },
       "sectionAccents": {
-        "examples": [
-          { "de": { "blue": ["Da"] }, "lv": { "purple": ["Tur"] } },
-          { "de": { "blue": ["da"] }, "lv": { "purple": ["tur"] } },
-          { "de": { "blue": ["Da"] }, "lv": { "purple": ["Te"] } },
-          { "de": { "blue": ["da"] }, "lv": { "purple": ["šeit"] } }
-        ],
-        "comparison": [
-          {
-            "word": { "green": ["da"] },
-            "example": { "green": ["Da"] }
-          },
-          {
-            "word": { "yellow": ["hier"] },
-            "example": { "yellow": ["Hier"] }
-          },
-          {
-            "word": { "red": ["dort"] },
-            "example": { "red": ["Dort"] }
-          },
-          {
-            "word": { "blue": ["dann"] },
-            "example": { "blue": ["Dann"] }
-          }
-        ],
-        "tip": {
-          "left": {
-            "blue": ["da"],
-            "yellow": ["hier"],
-            "red": ["dort"],
-            "purple": ["šeit", "tur"]
-          }
-        }
+            "examples": [
+                  {
+                        "de": {
+                              "blue": [
+                                    "Auto",
+                                    "da"
+                              ]
+                        },
+                        "lv": {
+                              "purple": [
+                                    "mašīna",
+                                    "mana",
+                                    "tur"
+                              ]
+                        }
+                  },
+                  {
+                        "de": {
+                              "blue": [
+                                    "da"
+                              ]
+                        },
+                        "lv": {
+                              "purple": [
+                                    "biju",
+                                    "tur"
+                              ]
+                        }
+                  },
+                  {
+                        "de": {
+                              "blue": [
+                                    "kommt",
+                                    "da"
+                              ]
+                        },
+                        "lv": {
+                              "green": [
+                                    "te"
+                              ]
+                        }
+                  },
+                  {
+                        "de": {
+                              "blue": [
+                                    "Komm",
+                                    "da"
+                              ]
+                        },
+                        "lv": {
+                              "yellow": [
+                                    "šeit"
+                              ],
+                              "purple": [
+                                    "šeit"
+                              ]
+                        }
+                  }
+            ],
+            "comparison": [
+                  {
+                        "word": {
+                              "blue": [
+                                    "da"
+                              ]
+                        },
+                        "meaning": {
+                              "green": [
+                                    "te"
+                              ],
+                              "yellow": [
+                                    "šeit"
+                              ],
+                              "purple": [
+                                    "tur; te; šeit (vispārīgi",
+                                    "vispārīgi",
+                                    "šeit",
+                                    "tur"
+                              ],
+                              "red": [
+                                    "vispārīgi"
+                              ]
+                        },
+                        "example": {
+                              "blue": [
+                                    "Auto",
+                                    "da"
+                              ]
+                        }
+                  },
+                  {
+                        "word": {
+                              "green": [
+                                    "hier"
+                              ]
+                        },
+                        "meaning": {
+                              "green": [
+                                    "konkrētā vietā"
+                              ],
+                              "yellow": [
+                                    "šeit"
+                              ],
+                              "purple": [
+                                    "šeit (konkrētā vietā",
+                                    "konkrētā",
+                                    "vietā",
+                                    "šeit"
+                              ]
+                        },
+                        "example": {
+                              "green": [
+                                    "Auto",
+                                    "hier"
+                              ]
+                        }
+                  },
+                  {
+                        "word": {
+                              "yellow": [
+                                    "dort"
+                              ]
+                        },
+                        "meaning": {
+                              "green": [
+                                    "tālāk"
+                              ],
+                              "purple": [
+                                    "tur (tālāk",
+                                    "tālāk",
+                                    "tur"
+                              ]
+                        },
+                        "example": {
+                              "yellow": [
+                                    "Auto",
+                                    "dort"
+                              ]
+                        }
+                  },
+                  {
+                        "word": {
+                              "red": [
+                                    "dann"
+                              ]
+                        },
+                        "meaning": {
+                              "purple": [
+                                    "tad"
+                              ]
+                        },
+                        "example": {
+                              "red": [
+                                    "Hause",
+                                    "dann",
+                                    "nach"
+                              ]
+                        }
+                  }
+            ],
+            "tip": {
+                  "left": {
+                        "blue": [
+                              "da"
+                        ],
+                        "green": [
+                              "hier"
+                        ],
+                        "yellow": [
+                              "apzīmējums",
+                              "vispārīgs",
+                              "vietas",
+                              "dort",
+                              "šeit"
+                        ],
+                        "purple": [
+                              "tur"
+                        ]
+                  }
+            }
       }
-    }
+    ,
+      "accents": {
+            "blue": [
+                  "standardStudy",
+                  "galvenokārt",
+                  "situācijas",
+                  "Atkarībā",
+                  "atsaucas",
+                  "mācāmies",
+                  "līmenī",
+                  "mašīna",
+                  "minētu",
+                  "norāda",
+                  "tulkot",
+                  "kommt",
+                  "vietu",
+                  "Auto",
+                  "biju",
+                  "Komm",
+                  "mana",
+                  "šeit",
+                  "da"
+            ],
+            "green": [
+                  "konkrētā vietā",
+                  "tālāk",
+                  "hier",
+                  "te"
+            ],
+            "yellow": [
+                  "dort",
+                  "šeit"
+            ],
+            "purple": [
+                  "tur; te; šeit (vispārīgi",
+                  "šeit (konkrētā vietā",
+                  "tur (tālāk",
+                  "tad",
+                  "tur"
+            ],
+            "red": [
+                  "vispārīgi",
+                  "dann"
+            ]
+      }}
   },
   {
     "de": "danken",
@@ -1629,7 +1821,7 @@ const A1_WORDS = [
   },
   {
     "de": "das Ding",
-    "lv": "lieta; priekšmets",
+    "lv": "Lieta • Priekšmets",
     "level": "A1"
   },
   {
@@ -1689,7 +1881,7 @@ const A1_WORDS = [
   },
   {
     "de": "die Ecke",
-    "lv": "stūris; kakts",
+    "lv": "Stūris • Kakts",
     "level": "A1"
   },
   {
@@ -1699,7 +1891,7 @@ const A1_WORDS = [
   },
   {
     "de": "ein",
-    "lv": "nenoteiktais artikuls; viens; kāds",
+    "lv": "Nenoteiktais artikuls • Viens • Kāds",
     "level": "A1",
     "study": {
       "translation": "nenoteiktais artikuls; viens; kāds",
@@ -1747,7 +1939,7 @@ const A1_WORDS = [
   },
   {
     "de": "einmal",
-    "lv": "vienreiz; reiz",
+    "lv": "Vienreiz • Reiz",
     "level": "A1"
   },
   {
@@ -1757,7 +1949,7 @@ const A1_WORDS = [
   },
   {
     "de": "das Eis",
-    "lv": "ledus; saldējums",
+    "lv": "Ledus • Saldējums",
     "level": "A1"
   },
   {
@@ -1772,12 +1964,12 @@ const A1_WORDS = [
   },
   {
     "de": "die E-Mail",
-    "lv": "elektroniskais pasts; e-pasts",
+    "lv": "Elektroniskais pasts • E-pasts",
     "level": "A1"
   },
   {
     "de": "das Ende",
-    "lv": "beigas; gals",
+    "lv": "Beigas • Gals",
     "level": "A1"
   },
   {
@@ -1792,12 +1984,12 @@ const A1_WORDS = [
   },
   {
     "de": "die Erde",
-    "lv": "Zeme; augsne",
+    "lv": "Zeme • Augsne",
     "level": "A1"
   },
   {
     "de": "erst",
-    "lv": "vispirms; tikai",
+    "lv": "Vispirms • Tikai",
     "level": "A1",
     "study": {
       "translation": "vispirms; tikai",
@@ -1877,7 +2069,7 @@ const A1_WORDS = [
   },
   {
     "de": "es",
-    "lv": "tas; tā; bezpersoniska forma",
+    "lv": "Tas • Tā • Bezpersoniska forma",
     "level": "A1",
     "study": {
       "translation": "tas; tā; bezpersoniska forma",
@@ -1960,12 +2152,12 @@ const A1_WORDS = [
   },
   {
     "de": "etwas",
-    "lv": "kaut kas; nedaudz",
+    "lv": "Kaut kas • Nedaudz",
     "level": "A1"
   },
   {
     "de": "euch",
-    "lv": "jūs; jums",
+    "lv": "Jūs • Jums",
     "level": "A1",
     "study": {
       "translation": "jūs; jums",
@@ -2005,11 +2197,11 @@ const A1_WORDS = [
   },
       {
     "de": "fahren",
-    "lv": "braukt; vest; aizvest",
+    "lv": "Braukt • Vest • Aizvest",
     "level": "A1",
     "study": {
       "layout": "standardStudy",
-      "translation": "braukt; vest; aizvest",
+      "translation": "Braukt • Vest • Aizvest",
       "explanation": "“fahren” lieto, ja pārvietošanās notiek ar transportlīdzekli. Tas var nozīmēt:",
       "explanationLines": [
         "pašam braukt",
@@ -2095,473 +2287,361 @@ const A1_WORDS = [
         "example": "Vācu valodā viens un tas pats darbības vārds bieži nozīmē: braukt • vest • aizvest atkarībā no konteksta."
       },
       "accents": {
-        "blue": [
-          "fahre",
-          "fahren"
-        ],
-        "important": {
-          "blue": [
-            "braucu",
-            "braukt"
-          ],
-          "green": [
-            "vedu",
-            "vest"
-          ],
-          "yellow": [
-            "aizvedīšu",
-            "aizvest"
-          ],
-          "purple": [
-            "fahre",
-            "fahren"
-          ]
-        }
+            "blue": [
+                  "transportlīdzekli",
+                  "pārvietošanās",
+                  "standardStudy",
+                  "aizvest",
+                  "nozīmēt",
+                  "Berlin",
+                  "braucu",
+                  "braukt",
+                  "fahren",
+                  "notiek",
+                  "fahre",
+                  "lieto",
+                  "pašam",
+                  "vietu",
+                  "citu",
+                  "kādu",
+                  "nach",
+                  "vest"
+            ],
+            "green": [
+                  "nogādāt",
+                  "vest",
+                  "iet"
+            ],
+            "yellow": [
+                  "aizvest",
+                  "laufen"
+            ],
+            "orange": [
+                  "atnest",
+                  "braukt",
+                  "skriet"
+            ],
+            "purple": [
+                  "braukt; vest; aizvest",
+                  "braukt ar transportu",
+                  "atnest / nogādāt",
+                  "paņemt līdzi",
+                  "skriet / iet",
+                  "iet kājām",
+                  "mitnehmen"
+            ],
+            "red": [
+                  "bringen"
+            ]
       },
       "sectionAccents": {
-        "examples": [
-          {
-            "de": {
-              "purple": [
-                "fahre",
-                "fahren"
-              ]
-            },
-            "lv": {
-              "blue": [
-                "braucu",
-                "braukt"
-              ],
-              "green": [
-                "vedu",
-                "vest"
-              ],
-              "yellow": [
-                "aizvedīšu",
-                "aizvest"
-              ]
-            }
-          },
-          {
-            "de": {
-              "purple": [
-                "fahre",
-                "fahren"
-              ]
-            },
-            "lv": {
-              "blue": [
-                "braucu",
-                "braukt"
-              ],
-              "green": [
-                "vedu",
-                "vest"
-              ],
-              "yellow": [
-                "aizvedīšu",
-                "aizvest"
-              ]
-            }
-          },
-          {
-            "de": {
-              "purple": [
-                "fahre",
-                "fahren"
-              ]
-            },
-            "lv": {
-              "blue": [
-                "braucu",
-                "braukt"
-              ],
-              "green": [
-                "vedu",
-                "vest"
-              ],
-              "yellow": [
-                "aizvedīšu",
-                "aizvest"
-              ]
-            }
-          },
-          {
-            "de": {
-              "purple": [
-                "fahre",
-                "fahren"
-              ]
-            },
-            "lv": {
-              "blue": [
-                "braucu",
-                "braukt"
-              ],
-              "green": [
-                "vedu",
-                "vest"
-              ],
-              "yellow": [
-                "aizvedīšu",
-                "aizvest"
-              ]
-            }
-          },
-          {
-            "de": {
-              "purple": [
-                "fahre",
-                "fahren"
-              ]
-            },
-            "lv": {
-              "blue": [
-                "braucu",
-                "braukt"
-              ],
-              "green": [
-                "vedu",
-                "vest"
-              ],
-              "yellow": [
-                "aizvedīšu",
-                "aizvest"
-              ]
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "blue": [
-                "fahren"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "fahre",
-                "fahren"
-              ],
-              "blue": [
-                "braucu",
-                "braukt"
-              ],
-              "green": [
-                "vedu",
-                "vest"
-              ],
-              "yellow": [
-                "aizvedīšu",
-                "aizvest"
-              ]
-            },
-            "example": {
-              "blue": [
-                "braucu",
-                "braukt"
-              ],
-              "purple": [
-                "fahre",
-                "fahren"
-              ],
-              "green": [
-                "vedu",
-                "vest"
-              ],
-              "yellow": [
-                "aizvedīšu",
-                "aizvest"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "gehen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "fahre",
-                "fahren"
-              ],
-              "blue": [
-                "braucu",
-                "braukt"
-              ],
-              "green": [
-                "vedu",
-                "vest"
-              ],
-              "yellow": [
-                "aizvedīšu",
-                "aizvest"
-              ]
-            },
-            "example": {
-              "green": [
-                "vedu",
-                "vest"
-              ],
-              "purple": [
-                "fahre",
-                "fahren"
-              ],
-              "blue": [
-                "braucu",
-                "braukt"
-              ],
-              "yellow": [
-                "aizvedīšu",
-                "aizvest"
-              ]
-            }
-          },
-          {
-            "word": {
-              "yellow": [
-                "laufen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "fahre",
-                "fahren"
-              ],
-              "blue": [
-                "braucu",
-                "braukt"
-              ],
-              "green": [
-                "vedu",
-                "vest"
-              ],
-              "yellow": [
-                "aizvedīšu",
-                "aizvest"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "aizvedīšu",
-                "aizvest"
-              ],
-              "purple": [
-                "fahre",
-                "fahren"
-              ],
-              "blue": [
-                "braucu",
-                "braukt"
-              ],
-              "green": [
-                "vedu",
-                "vest"
-              ]
-            }
-          },
-          {
-            "word": {
-              "red": [
-                "bringen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "fahre",
-                "fahren"
-              ],
-              "blue": [
-                "braucu",
-                "braukt"
-              ],
-              "green": [
-                "vedu",
-                "vest"
-              ],
-              "yellow": [
-                "aizvedīšu",
-                "aizvest"
-              ]
-            },
-            "example": {
-              "red": [
-                "bringen",
-                "Bringen"
-              ],
-              "purple": [
-                "fahre",
-                "fahren"
-              ],
-              "blue": [
-                "braucu",
-                "braukt"
-              ],
-              "green": [
-                "vedu",
-                "vest"
-              ],
-              "yellow": [
-                "aizvedīšu",
-                "aizvest"
-              ]
-            }
-          },
-          {
-            "word": {
-              "orange": [
-                "mitnehmen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "fahre",
-                "fahren"
-              ],
-              "blue": [
-                "braucu",
-                "braukt"
-              ],
-              "green": [
-                "vedu",
-                "vest"
-              ],
-              "yellow": [
-                "aizvedīšu",
-                "aizvest"
-              ]
-            },
-            "example": {
-              "orange": [
-                "mitnehmen",
-                "Mitnehmen"
-              ],
-              "purple": [
-                "fahre",
-                "fahren"
-              ],
-              "blue": [
-                "braucu",
-                "braukt"
-              ],
-              "green": [
-                "vedu",
-                "vest"
-              ],
-              "yellow": [
-                "aizvedīšu",
-                "aizvest"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "left": {
-            "purple": [
-              "fahre",
-              "fahren"
+            "examples": [
+                  {
+                        "de": {
+                              "blue": [
+                                    "Berlin",
+                                    "fahre",
+                                    "nach"
+                              ]
+                        },
+                        "lv": {
+                              "purple": [
+                                    "Berlīni",
+                                    "braucu"
+                              ]
+                        }
+                  },
+                  {
+                        "de": {
+                              "blue": [
+                                    "fahre",
+                                    "Auto"
+                              ]
+                        },
+                        "lv": {
+                              "purple": [
+                                    "braucu",
+                                    "auto"
+                              ]
+                        }
+                  },
+                  {
+                        "de": {
+                              "blue": [
+                                    "Tochter",
+                                    "Schule",
+                                    "fahre"
+                              ]
+                        },
+                        "lv": {
+                              "purple": [
+                                    "meitu",
+                                    "skolu",
+                                    "savu",
+                                    "vedu"
+                              ]
+                        }
+                  },
+                  {
+                        "de": {
+                              "blue": [
+                                    "fahre",
+                                    "Hause",
+                                    "dich",
+                                    "nach"
+                              ]
+                        },
+                        "lv": {
+                              "purple": [
+                                    "aizvedīšu",
+                                    "mājās",
+                                    "tevi"
+                              ]
+                        }
+                  },
+                  {
+                        "de": {
+                              "blue": [
+                                    "München",
+                                    "fahren",
+                                    "nach"
+                              ]
+                        },
+                        "lv": {
+                              "purple": [
+                                    "braucam",
+                                    "Minheni"
+                              ]
+                        }
+                  }
             ],
-            "blue": [
-              "braucu",
-              "braukt"
+            "comparison": [
+                  {
+                        "word": {
+                              "blue": [
+                                    "fahren"
+                              ]
+                        },
+                        "meaning": {
+                              "orange": [
+                                    "braukt"
+                              ],
+                              "purple": [
+                                    "braukt ar transportu",
+                                    "transportu",
+                                    "braukt"
+                              ]
+                        },
+                        "example": {
+                              "blue": [
+                                    "fahre"
+                              ]
+                        }
+                  },
+                  {
+                        "word": {
+                              "green": [
+                              ]
+                        },
+                        "meaning": {
+                              "green": [
+                                    "iet"
+                              ],
+                              "purple": [
+                                    "iet kājām",
+                                    "kājām"
+                              ]
+                        },
+                        "example": {
+                              "green": [
+                                    "Hause",
+                                    "gehe",
+                                    "nach"
+                              ]
+                        }
+                  },
+                  {
+                        "word": {
+                              "yellow": [
+                                    "laufen"
+                              ]
+                        },
+                        "meaning": {
+                              "green": [
+                                    "iet"
+                              ],
+                              "orange": [
+                                    "skriet"
+                              ],
+                              "purple": [
+                                    "skriet / iet",
+                                    "skriet"
+                              ]
+                        },
+                        "example": {
+                              "yellow": [
+                                    "schnell",
+                                    "läuft"
+                              ]
+                        }
+                  },
+                  {
+                        "word": {
+                              "red": [
+                                    "bringen"
+                              ]
+                        },
+                        "meaning": {
+                              "green": [
+                                    "nogādāt"
+                              ],
+                              "orange": [
+                                    "atnest"
+                              ],
+                              "purple": [
+                                    "atnest / nogādāt",
+                                    "nogādāt",
+                                    "atnest"
+                              ]
+                        },
+                        "example": {
+                              "red": [
+                                    "bringe",
+                                    "Buch"
+                              ]
+                        }
+                  },
+                  {
+                        "word": {
+                              "purple": [
+                                    "mitnehmen"
+                              ]
+                        },
+                        "meaning": {
+                              "purple": [
+                                    "paņemt līdzi",
+                                    "paņemt",
+                                    "līdzi"
+                              ]
+                        },
+                        "example": {
+                              "purple": [
+                                    "nehme",
+                                    "dich"
+                              ]
+                        }
+                  }
             ],
-            "green": [
-              "vedu",
-              "vest"
-            ],
-            "yellow": [
-              "aizvedīšu",
-              "aizvest"
+            "tip": {
+                  "left": {
+                        "blue": [
+                              "fahren"
+                        ],
+                        "yellow": [
+                              "transportlīdzekli",
+                              "kustība",
+                              "vācieši",
+                              "fahren",
+                              "notiek",
+                              "bieži",
+                              "lieto"
+                        ]
+                  },
+                  "leftItems": {
+                        "blue": [
+                              "fahren"
+                        ],
+                        "yellow": [
+                              "Velosipēds",
+                              "Motocikls",
+                              "Autobuss",
+                              "Vilciens",
+                              "fahren",
+                              "Auto"
+                        ]
+                  },
+                  "rightItems": [
+                        {
+                              "de": {
+                                    "blue": [
+                                          "Fahrrad",
+                                          "fahre"
+                                    ]
+                              },
+                              "lv": {
+                                    "purple": [
+                                          "velosipēdu",
+                                          "braucu"
+                                    ]
+                              }
+                        },
+                        {
+                              "de": {
+                                    "blue": [
+                                          "fahre"
+                                    ]
+                              },
+                              "lv": {
+                                    "purple": [
+                                          "vilcienu",
+                                          "braucu"
+                                    ]
+                              }
+                        },
+                        {
+                              "de": {
+                                    "blue": [
+                                          "Kinder",
+                                          "Schule",
+                                          "fahre"
+                                    ]
+                              },
+                              "lv": {
+                                    "purple": [
+                                          "bērnus",
+                                          "skolu",
+                                          "vedu"
+                                    ]
+                              }
+                        }
+                  ]
+            },
+            "important": [
+                  {
+                        "text": {
+                              "blue": [
+                                    "fahren"
+                              ],
+                              "orange": [
+                                    "braukt"
+                              ],
+                              "red": [
+                                    "braukt",
+                                    "fahren",
+                                    "tikai"
+                              ]
+                        },
+                        "example": {
+                              "green": [
+                                    "vest"
+                              ],
+                              "yellow": [
+                                    "aizvest"
+                              ],
+                              "orange": [
+                                    "braukt"
+                              ],
+                              "red": [
+                                    "darbības",
+                                    "valodā",
+                                    "vārds",
+                                    "viens",
+                                    "pats",
+                                    "Vācu"
+                              ]
+                        }
+                  }
             ]
-          },
-          "leftItems": {
-            "purple": [
-              "fahre",
-              "fahren"
-            ],
-            "blue": [
-              "braucu",
-              "braukt"
-            ],
-            "green": [
-              "vedu",
-              "vest"
-            ],
-            "yellow": [
-              "aizvedīšu",
-              "aizvest"
-            ]
-          },
-          "rightItems": [
-            {
-              "de": {
-                "purple": [
-                  "fahre",
-                  "fahren"
-                ]
-              },
-              "lv": {
-                "blue": [
-                  "braucu",
-                  "braukt"
-                ],
-                "green": [
-                  "vedu",
-                  "vest"
-                ],
-                "yellow": [
-                  "aizvedīšu",
-                  "aizvest"
-                ]
-              }
-            },
-            {
-              "de": {
-                "purple": [
-                  "fahre",
-                  "fahren"
-                ]
-              },
-              "lv": {
-                "blue": [
-                  "braucu",
-                  "braukt"
-                ],
-                "green": [
-                  "vedu",
-                  "vest"
-                ],
-                "yellow": [
-                  "aizvedīšu",
-                  "aizvest"
-                ]
-              }
-            },
-            {
-              "de": {
-                "purple": [
-                  "fahre",
-                  "fahren"
-                ]
-              },
-              "lv": {
-                "blue": [
-                  "braucu",
-                  "braukt"
-                ],
-                "green": [
-                  "vedu",
-                  "vest"
-                ],
-                "yellow": [
-                  "aizvedīšu",
-                  "aizvest"
-                ]
-              }
-            }
-          ]
-        }
       }
     }
   },
@@ -2622,7 +2702,7 @@ const A1_WORDS = [
   },
   {
     "de": "fertig",
-    "lv": "gatavs; pabeigts",
+    "lv": "Gatavs • Pabeigts",
     "level": "A1"
   },
   {
@@ -2642,7 +2722,7 @@ const A1_WORDS = [
   },
   {
     "de": "finden",
-    "lv": "atrast; uzskatīt; atzīt",
+    "lv": "Atrast • Uzskatīt • Atzīt",
     "level": "A1"
   },
   {
@@ -2667,7 +2747,7 @@ const A1_WORDS = [
   },
   {
     "de": "fliegen",
-    "lv": "lidot; laisties",
+    "lv": "Lidot • Laisties",
     "level": "A1"
   },
   {
@@ -2697,17 +2777,17 @@ const A1_WORDS = [
   },
   {
     "de": "fragen",
-    "lv": "jautāt; vaicāt",
+    "lv": "Jautāt • Vaicāt",
     "level": "A1"
   },
   {
     "de": "die Frau",
-    "lv": "sieviete; sieva; kundze",
+    "lv": "Sieviete • Sieva • Kundze",
     "level": "A1"
   },
   {
     "de": "frei",
-    "lv": "brīvs; bez maksas",
+    "lv": "Brīvs • Bez maksas",
     "level": "A1"
   },
   {
@@ -2717,7 +2797,7 @@ const A1_WORDS = [
   },
   {
     "de": "der Freund",
-    "lv": "draugs; cienītājs",
+    "lv": "Draugs • Cienītājs",
     "level": "A1"
   },
   {
@@ -2727,11 +2807,11 @@ const A1_WORDS = [
   },
     {
     "de": "freundlich",
-    "lv": "laipns; draudzīgs",
+    "lv": "Laipns • Draudzīgs",
     "level": "A1",
     "study": {
       "layout": "standardStudy",
-      "translation": "laipns; draudzīgs",
+      "translation": "Laipns • Draudzīgs",
       "explanation": "freundlich galvenokārt nozīmē laipns vai draudzīgs. Tas raksturo, kā cilvēks izturas pret citiem. freundlich bieži apraksta uzvedību, attieksmi un komunikāciju. Tas nav tas pats, kas angenehm, jo angenehm nozīmē patīkams. Tas arī nav pilnīgi tas pats, kas nett vai höflich: nett nozīmē jauks, bet höflich nozīmē pieklājīgs.",
       "examples": [
         {
@@ -2807,255 +2887,346 @@ const A1_WORDS = [
         "example": "freundlich ≠ angenehm. freundlich ≠ höflich. freundlich ≠ nett. Tie nav sinonīmi, lai gan latviski tie bieži šķiet līdzīgi."
       },
       "sectionAccents": {
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "freundlich"
-              ]
+            "examples": [
+                  {
+                        "de": {
+                              "blue": [
+                                    "freundlich",
+                                    "Verkäufer"
+                              ]
+                        },
+                        "lv": {
+                              "orange": [
+                                    "Laipns"
+                              ],
+                              "purple": [
+                                    "Pārdevējs",
+                                    "laipns"
+                              ]
+                        }
+                  },
+                  {
+                        "de": {
+                              "blue": [
+                                    "freundlich",
+                                    "Kellnerin"
+                              ]
+                        },
+                        "lv": {
+                              "purple": [
+                                    "Viesmīle",
+                                    "laipna"
+                              ]
+                        }
+                  },
+                  {
+                        "de": {
+                              "blue": [
+                                    "freundlich",
+                                    "Bitte",
+                                    "seien"
+                              ]
+                        },
+                        "lv": {
+                              "purple": [
+                                    "laipni",
+                                    "esiet",
+                                    "Lūdzu"
+                              ]
+                        }
+                  },
+                  {
+                        "de": {
+                              "blue": [
+                                    "antwortete",
+                                    "freundlich"
+                              ]
+                        },
+                        "lv": {
+                              "purple": [
+                                    "atbildēja",
+                                    "laipni"
+                              ]
+                        }
+                  },
+                  {
+                        "de": {
+                              "blue": [
+                                    "freundlich",
+                                    "Nachbarn",
+                                    "Unsere"
+                              ]
+                        },
+                        "lv": {
+                              "purple": [
+                                    "draudzīgi",
+                                    "kaimiņi",
+                                    "Mūsu"
+                              ]
+                        }
+                  },
+                  {
+                        "de": {
+                              "blue": [
+                                    "freundlich",
+                                    "Lehrerin",
+                                    "Kindern",
+                                    "spricht"
+                              ]
+                        },
+                        "lv": {
+                              "purple": [
+                                    "Skolotāja",
+                                    "bērniem",
+                                    "laipni",
+                                    "runā"
+                              ]
+                        }
+                  }
+            ],
+            "comparison": [
+                  {
+                        "word": {
+                              "blue": [
+                                    "freundlich"
+                              ]
+                        },
+                        "meaning": {
+                              "green": [
+                                    "Draudzīgs"
+                              ],
+                              "orange": [
+                                    "Laipns"
+                              ],
+                              "purple": [
+                                    "laipns, draudzīgs",
+                                    "draudzīgs",
+                                    "laipns"
+                              ]
+                        },
+                        "example": {
+                              "blue": [
+                                    "freundlich",
+                                    "laipns"
+                              ],
+                              "orange": [
+                                    "Laipns"
+                              ]
+                        }
+                  },
+                  {
+                        "word": {
+                              "green": [
+                                    "nett"
+                              ]
+                        },
+                        "meaning": {
+                              "purple": [
+                                    "jauks"
+                              ]
+                        },
+                        "example": {
+                              "green": [
+                                    "jauks",
+                                    "nett"
+                              ],
+                              "purple": [
+                                    "jauks"
+                              ]
+                        }
+                  },
+                  {
+                        "word": {
+                              "yellow": [
+                                    "höflich"
+                              ]
+                        },
+                        "meaning": {
+                              "purple": [
+                                    "pieklājīgs"
+                              ]
+                        },
+                        "example": {
+                              "yellow": [
+                                    "pieklājīgs",
+                                    "höflich",
+                                    "Klients",
+                                    "Kunde"
+                              ],
+                              "purple": [
+                                    "pieklājīgs"
+                              ]
+                        }
+                  },
+                  {
+                        "word": {
+                              "red": [
+                                    "angenehm"
+                              ]
+                        },
+                        "meaning": {
+                              "purple": [
+                                    "patīkams"
+                              ]
+                        },
+                        "example": {
+                              "purple": [
+                                    "patīkams"
+                              ],
+                              "red": [
+                                    "angenehm",
+                                    "patīkams",
+                                    "Wetter",
+                                    "Laiks"
+                              ]
+                        }
+                  }
+            ],
+            "tip": {
+                  "leftBlocks": [
+                        {
+                              "text": {
+                                    "blue": [
+                                          "freundlich"
+                                    ],
+                                    "yellow": [
+                                          "komunikāciju",
+                                          "attieksmi",
+                                          "uzvedību",
+                                          "cilvēka",
+                                          "runa"
+                                    ]
+                              }
+                        },
+                        {
+                              "text": {
+                                    "red": [
+                                          "angenehm"
+                                    ],
+                                    "yellow": [
+                                          "atmosfēru",
+                                          "patīkamu",
+                                          "cilvēku",
+                                          "balsi",
+                                          "laiku",
+                                          "runa"
+                                    ]
+                              }
+                        }
+                  ],
+                  "rightItems": [
+                        {
+                              "de": {
+                                    "blue": [
+                                          "freundlich"
+                                    ]
+                              },
+                              "lv": {
+                                    "orange": [
+                                          "Laipns"
+                                    ],
+                                    "purple": [
+                                          "laipns"
+                                    ]
+                              }
+                        },
+                        {
+                              "de": {
+                                    "red": [
+                                          "angenehm"
+                                    ],
+                                    "blue": [
+                                          "angenehm"
+                                    ]
+                              },
+                              "lv": {
+                                    "purple": [
+                                          "patīkams",
+                                          "cilvēks"
+                                    ]
+                              }
+                        }
+                  ]
             },
-            "lv": {
-              "green": [
-                "laipns"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "freundlich"
-              ]
-            },
-            "lv": {
-              "green": [
-                "laipna"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "freundlich"
-              ]
-            },
-            "lv": {
-              "green": [
-                "laipni"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "freundlich"
-              ]
-            },
-            "lv": {
-              "green": [
-                "laipni"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "freundlich"
-              ]
-            },
-            "lv": {
-              "green": [
-                "draudzīgi"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "freundlich"
-              ]
-            },
-            "lv": {
-              "green": [
-                "laipni"
-              ]
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "blue": [
-                "freundlich"
-              ]
-            },
-            "meaning": {
-              "green": [
-                "laipns",
-                "draudzīgs"
-              ]
-            },
-            "example": {
-              "blue": [
-                "freundlich"
-              ],
-              "green": [
-                "laipns"
-              ]
-            }
-          },
-          {
-            "word": {
-              "yellow": [
-                "nett"
-              ]
-            },
-            "meaning": {
-              "yellow": [
-                "jauks"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "nett",
-                "jauks"
-              ]
-            }
-          },
-          {
-            "word": {
-              "red": [
-                "höflich"
-              ]
-            },
-            "meaning": {
-              "red": [
-                "pieklājīgs"
-              ]
-            },
-            "example": {
-              "red": [
-                "höflich",
-                "pieklājīgs"
-              ]
-            }
-          },
-          {
-            "word": {
-              "purple": [
-                "angenehm"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "patīkams"
-              ]
-            },
-            "example": {
-              "purple": [
-                "angenehm",
-                "patīkams"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "leftBlocks": [
-            {
-              "text": {
-                "blue": [
-                  "freundlich"
-                ],
-                "green": [
-                  "uzvedību",
-                  "attieksmi",
-                  "komunikāciju"
-                ]
-              }
-            },
-            {
-              "text": {
-                "purple": [
-                  "angenehm",
-                  "patīkamu"
-                ]
-              }
-            }
-          ],
-          "rightItems": [
-            {
-              "de": {
-                "blue": [
-                  "freundlich"
-                ]
-              },
-              "lv": {
-                "green": [
-                  "laipns"
-                ]
-              }
-            },
-            {
-              "de": {
-                "purple": [
-                  "angenehm"
-                ]
-              },
-              "lv": {
-                "purple": [
-                  "patīkams"
-                ]
-              }
-            }
-          ]
-        }
+            "important": [
+                  {
+                        "text": {
+                              "red": [
+                                    "pareizi",
+                                    "teikumi",
+                                    "nozīme",
+                                    "viena",
+                                    "pati"
+                              ]
+                        },
+                        "example": {
+                              "blue": [
+                                    "freundlich"
+                              ],
+                              "green": [
+                                    "nett"
+                              ],
+                              "yellow": [
+                                    "höflich"
+                              ],
+                              "red": [
+                                    "freundlich",
+                                    "angenehm",
+                                    "latviski",
+                                    "sinonīmi",
+                                    "höflich",
+                                    "nett"
+                              ]
+                        }
+                  }
+            ]
       },
       "accents": {
-        "blue": [
-          "freundlich"
-        ],
-        "green": [
-          "laipns",
-          "laipna",
-          "laipni",
-          "draudzīgs",
-          "draudzīgi"
-        ],
-        "yellow": [
-          "nett",
-          "jauks"
-        ],
-        "red": [
-          "höflich",
-          "pieklājīgs"
-        ],
-        "purple": [
-          "angenehm",
-          "patīkams",
-          "patīkamu"
-        ],
-        "important": {
-          "blue": [
-            "freundlich"
-          ],
-          "yellow": [
-            "nett"
-          ],
-          "red": [
-            "höflich"
-          ],
-          "purple": [
-            "angenehm"
-          ],
-          "green": [
-            "sinonīmi"
-          ]
-        }
+            "blue": [
+                  "standardStudy",
+                  "komunikāciju",
+                  "galvenokārt",
+                  "freundlich",
+                  "attieksmi",
+                  "Draudzīgs",
+                  "angenehm",
+                  "apraksta",
+                  "raksturo",
+                  "uzvedību",
+                  "cilvēks",
+                  "izturas",
+                  "citiem",
+                  "Laipns",
+                  "bieži",
+                  "pats",
+                  "pret"
+            ],
+            "green": [
+                  "Draudzīgs",
+                  "nett"
+            ],
+            "yellow": [
+                  "höflich"
+            ],
+            "orange": [
+                  "Laipns"
+            ],
+            "purple": [
+                  "Laipns • Draudzīgs",
+                  "laipns, draudzīgs",
+                  "pieklājīgs",
+                  "patīkams",
+                  "jauks"
+            ],
+            "red": [
+                  "angenehm"
+            ]
       }
     }
   },
   {
     "de": "frisch",
-    "lv": "svaigs; spirgts; vēss; dzestrs",
+    "lv": "Svaigs • Spirgt • Vēss • Dzestrs",
     "level": "A1"
   },
   {
@@ -3115,12 +3286,12 @@ const A1_WORDS = [
   },
   {
     "de": "für",
-    "lv": "priekš; par",
+    "lv": "Priekš • Par",
     "level": "A1"
   },
   {
     "de": "der Fuß",
-    "lv": "kāja; pēda; pakāje",
+    "lv": "Kāja • Pēda • Pakāje",
     "level": "A1"
   },
   {
@@ -3130,7 +3301,7 @@ const A1_WORDS = [
   },
   {
     "de": "ganz",
-    "lv": "vesels; viss; pavisam; gluži",
+    "lv": "Vesels • Viss • Pavisam • Gluži",
     "level": "A1"
   },
   {
@@ -3145,7 +3316,7 @@ const A1_WORDS = [
   },
   {
     "de": "der Gast",
-    "lv": "viesis; ciemiņš",
+    "lv": "Viesis • Ciemiņš",
     "level": "A1"
   },
   {
@@ -3155,7 +3326,7 @@ const A1_WORDS = [
   },
   {
     "de": "geboren",
-    "lv": "dzimis; iedzimts",
+    "lv": "Dzimis • Iedzimts",
     "level": "A1"
   },
   {
@@ -3170,12 +3341,12 @@ const A1_WORDS = [
   },
   {
     "de": "gegen",
-    "lv": "pret; uz; ap",
+    "lv": "Pret • Uz • Ap",
     "level": "A1"
   },
   {
     "de": "gehen",
-    "lv": "iet; staigāt",
+    "lv": "Iet • Staigāt",
     "level": "A1"
   },
   {
@@ -3190,12 +3361,12 @@ const A1_WORDS = [
   },
   {
     "de": "das Gemüse",
-    "lv": "saknes; dārzeņi; dārzāji",
+    "lv": "Saknes • Dārzeņi • Dārzāji",
     "level": "A1"
   },
   {
     "de": "genug",
-    "lv": "diezgan; pietiekoši; pietiekami",
+    "lv": "Diezgan • Pietiekoši • Pietiekami",
     "level": "A1"
   },
   {
@@ -3215,7 +3386,7 @@ const A1_WORDS = [
   },
   {
     "de": "die Geschichte",
-    "lv": "vēsture; stāsts; atgadījums; lieta",
+    "lv": "Vēsture • Stāsts • Atgadījums • Lieta",
     "level": "A1"
   },
   {
@@ -3230,7 +3401,7 @@ const A1_WORDS = [
   },
   {
     "de": "gesund",
-    "lv": "vesels; veselīgs",
+    "lv": "Vesels • Veselīgs",
     "level": "A1"
   },
   {
@@ -3250,17 +3421,17 @@ const A1_WORDS = [
   },
   {
     "de": "das Glas",
-    "lv": "stikls; glāze",
+    "lv": "Stikls • Glāze",
     "level": "A1"
   },
   {
     "de": "glauben",
-    "lv": "ticēt; domāt",
+    "lv": "Ticēt • Domāt",
     "level": "A1"
   },
   {
     "de": "gleich",
-    "lv": "vienāds; vienlīdzīgs; līdzīgs; tāds pats; tūlīt",
+    "lv": "Vienāds • Vienlīdzīgs • Līdzīgs • Tāds pats • Tūlīt",
     "level": "A1"
   },
   {
@@ -3290,12 +3461,12 @@ const A1_WORDS = [
   },
   {
     "de": "grau",
-    "lv": "pelēks; sirms",
+    "lv": "Pelēks • Sirms",
     "level": "A1"
   },
   {
     "de": "groß",
-    "lv": "liels; garš; dižens",
+    "lv": "Liels • Garš • Dižens",
     "level": "A1"
   },
   {
@@ -3315,7 +3486,7 @@ const A1_WORDS = [
   },
   {
     "de": "grün",
-    "lv": "zaļš; zaļš, negatavs",
+    "lv": "Zaļš • Zaļš, negatavs",
     "level": "A1"
   },
   {
@@ -3330,7 +3501,7 @@ const A1_WORDS = [
   },
   {
     "de": "grüßen",
-    "lv": "sveicināt; pasveicināt; sveikt",
+    "lv": "Sveicināt • Pasveicināt • Sveikt",
     "level": "A1"
   },
   {
@@ -3345,17 +3516,17 @@ const A1_WORDS = [
   },
   {
     "de": "das Haar",
-    "lv": "mats; spalva",
+    "lv": "Mats • Spalva",
     "level": "A1"
   },
   {
     "de": "haben",
-    "lv": "būt; man ir; palīga darbības vārds",
+    "lv": "Būt • Man ir • Palīga darbības vārds",
     "level": "A1"
   },
   {
     "de": "halb",
-    "lv": "pus-; uz pusi; pa pusei",
+    "lv": "Pus • Uz pusi • Pa pusei",
     "level": "A1"
   },
   {
@@ -3370,7 +3541,7 @@ const A1_WORDS = [
   },
   {
     "de": "halten",
-    "lv": "turēt; noturēt; saturēt; uzskatīt; apturēt; pieturēt",
+    "lv": "Turēt • Noturēt • Saturēt • Uzskatīt • Apturēt • Pieturēt",
     "level": "A1"
   },
   {
@@ -3410,12 +3581,12 @@ const A1_WORDS = [
   },
   {
     "de": "das Heft",
-    "lv": "burtnīca; žurnāla numurs",
+    "lv": "Burtnīca • Žurnāla numurs",
     "level": "A1"
   },
   {
     "de": "heiraten",
-    "lv": "precēt, apprecēt; precēties, apprecēties",
+    "lv": "Precēt, apprecēt • Precēties, apprecēties",
     "level": "A1"
   },
   {
@@ -3425,7 +3596,7 @@ const A1_WORDS = [
   },
   {
     "de": "heißen",
-    "lv": "saukt, nosaukt; likt, pavēlēt; saukties; nozīmēt",
+    "lv": "Saukt, nosaukt • Likt, pavēlēt • Saukties • Nozīmēt",
     "level": "A1"
   },
   {
@@ -3480,7 +3651,7 @@ const A1_WORDS = [
   },
   {
     "de": "hören",
-    "lv": "dzirdēt; klausīties; klausīt",
+    "lv": "Dzirdēt • Klausīties • Klausīt",
     "level": "A1"
   },
   {
@@ -3520,7 +3691,7 @@ const A1_WORDS = [
   },
   {
     "de": "Hut",
-    "lv": "cepure, platmale; aizsardzība, uzraudzība",
+    "lv": "Cepure, platmale • Aizsardzība, uzraudzība",
     "level": "A1"
   },
   {
@@ -3530,7 +3701,7 @@ const A1_WORDS = [
   },
   {
     "de": "ihr",
-    "lv": "viņai; jūs; viņas-, viņu-",
+    "lv": "Viņai • Jūs • Viņas-, viņu",
     "level": "A1"
   },
   {
@@ -3540,12 +3711,12 @@ const A1_WORDS = [
   },
   {
     "de": "immer",
-    "lv": "vienmēr, aizvien; pastāvīgi",
+    "lv": "Vienmēr, aizvien • Pastāvīgi",
     "level": "A1"
   },
   {
     "de": "in",
-    "lv": "Hamburgā; iet skolā; šai laikā; gulēt saulē; pēc pusstundas",
+    "lv": "Hamburgā • Iet skolā • Šai laikā • Gulēt saulē • Pēc pusstundas",
     "level": "A1"
   },
   {
@@ -3580,7 +3751,7 @@ const A1_WORDS = [
   },
   {
     "de": "jawohl",
-    "lv": "jā; jā gan; tieši tā; protams",
+    "lv": "Jā • Jā gan • Tieši tā • Protams",
     "level": "A1"
   },
   {
@@ -3670,7 +3841,7 @@ const A1_WORDS = [
   },
   {
     "de": "kennen",
-    "lv": "pazīt; zināt",
+    "lv": "Pazīt • Zināt",
     "level": "A1"
   },
   {
@@ -3705,7 +3876,7 @@ const A1_WORDS = [
   },
   {
     "de": "Kleid",
-    "lv": "tērps; apģērbs; kleita",
+    "lv": "Tērps • Apģērbs • Kleita",
     "level": "A1"
   },
   {
@@ -3720,12 +3891,12 @@ const A1_WORDS = [
   },
   {
     "de": "kochen",
-    "lv": "vārīt, gatavot ēdienu; virt, vārīties",
+    "lv": "Vārīt, gatavot ēdienu • Virt, vārīties",
     "level": "A1"
   },
   {
     "de": "Köchin",
-    "lv": "pavāre; virēja",
+    "lv": "Pavāre • Virēja",
     "level": "A1"
   },
   {
@@ -3740,22 +3911,22 @@ const A1_WORDS = [
   },
   {
     "de": "kommen",
-    "lv": "[at]nākt; ierasties",
+    "lv": "[at]nākt • Ierasties",
     "level": "A1"
   },
   {
     "de": "können",
-    "lv": "varēt, spēt; prast, mācēt",
+    "lv": "Varēt, spēt • Prast, mācēt",
     "level": "A1"
   },
   {
     "de": "Kopf",
-    "lv": "galva; kāpostgalviņa",
+    "lv": "Galva • Kāpostgalviņa",
     "level": "A1"
   },
   {
     "de": "kosten",
-    "lv": "maksāt; nogaršot",
+    "lv": "Maksāt • Nogaršot",
     "level": "A1"
   },
   {
@@ -3775,7 +3946,7 @@ const A1_WORDS = [
   },
   {
     "de": "Kuchen",
-    "lv": "rausis; kūka",
+    "lv": "Rausis • Kūka",
     "level": "A1"
   },
   {
@@ -3810,7 +3981,7 @@ const A1_WORDS = [
   },
   {
     "de": "Laden",
-    "lv": "veikals; slēģis, aizvirtnis",
+    "lv": "Veikals • Slēģis, aizvirtnis",
     "level": "A1"
   },
   {
@@ -3840,7 +4011,7 @@ const A1_WORDS = [
   },
   {
     "de": "der Hut",
-    "lv": "cepure, platmale; aizsardzība, uzraudzība",
+    "lv": "Cepure, platmale • Aizsardzība, uzraudzība",
     "level": "A1"
   },
   {
@@ -3915,7 +4086,7 @@ const A1_WORDS = [
   },
   {
     "de": "das Kleid",
-    "lv": "tērps; apģērbs; kleita",
+    "lv": "Tērps • Apģērbs • Kleita",
     "level": "A1"
   },
   {
@@ -3930,7 +4101,7 @@ const A1_WORDS = [
   },
   {
     "de": "die Köchin",
-    "lv": "pavāre; virēja",
+    "lv": "Pavāre • Virēja",
     "level": "A1"
   },
   {
@@ -3945,7 +4116,7 @@ const A1_WORDS = [
   },
   {
     "de": "der Kopf",
-    "lv": "galva; kāpostgalviņa",
+    "lv": "Galva • Kāpostgalviņa",
     "level": "A1"
   },
   {
@@ -3965,7 +4136,7 @@ const A1_WORDS = [
   },
   {
     "de": "der Kuchen",
-    "lv": "rausis; kūka",
+    "lv": "Rausis • Kūka",
     "level": "A1"
   },
   {
@@ -3985,22 +4156,22 @@ const A1_WORDS = [
   },
   {
     "de": "der Laden",
-    "lv": "veikals; slēģis; aizvirtnis",
+    "lv": "Veikals • Slēģis • Aizvirtnis",
     "level": "A1"
   },
   {
     "de": "die Lampe",
-    "lv": "lampa; spuldze",
+    "lv": "Lampa • Spuldze",
     "level": "A1"
   },
   {
     "de": "das Land",
-    "lv": "lauks; zeme; valsts",
+    "lv": "Lauks • Zeme • Valsts",
     "level": "A1"
   },
   {
     "de": "lang",
-    "lv": "garš; ilgs",
+    "lv": "Garš • Ilgs",
     "level": "A1"
   },
   {
@@ -4020,17 +4191,17 @@ const A1_WORDS = [
   },
   {
     "de": "lassen",
-    "lv": "atstāt; likt; ļaut",
+    "lv": "Atstāt • Likt • Ļaut",
     "level": "A1"
   },
   {
     "de": "laufen",
-    "lv": "skriet; griezties; ritēt, notikt",
+    "lv": "Skriet • Griezties • Ritēt, notikt",
     "level": "A1"
   },
   {
     "de": "laut",
-    "lv": "skaļš; skaļi; pēc, saskaņā ar",
+    "lv": "Skaļš • Skaļi • Pēc, saskaņā ar",
     "level": "A1"
   },
   {
@@ -4040,7 +4211,7 @@ const A1_WORDS = [
   },
   {
     "de": "das Leben",
-    "lv": "dzīvība; dzīve, mūžs; rosība",
+    "lv": "Dzīvība • Dzīve, mūžs • Rosība",
     "level": "A1"
   },
   {
@@ -4055,17 +4226,17 @@ const A1_WORDS = [
   },
   {
     "de": "legen",
-    "lv": "nolikt; dēt olas; nogulties, nolikties; norimt",
+    "lv": "Nolikt • Dēt olas • Nogulties, nolikties • Norimt",
     "level": "A1"
   },
   {
     "de": "der Lehrer",
-    "lv": "skolotājs; pasniedzējs",
+    "lv": "Skolotājs • Pasniedzējs",
     "level": "A1"
   },
   {
     "de": "die Lehrerin",
-    "lv": "skolotāja; pasniedzēja",
+    "lv": "Skolotāja • Pasniedzēja",
     "level": "A1"
   },
   {
@@ -4085,12 +4256,12 @@ const A1_WORDS = [
   },
   {
     "de": "lesen",
-    "lv": "lasīt; lasīt ogas; izlasīt šķirojot",
+    "lv": "Lasīt • Lasīt ogas • Izlasīt šķirojot",
     "level": "A1"
   },
   {
     "de": "letzte",
-    "lv": "pēdējais; pagājušais",
+    "lv": "Pēdējais • Pagājušais",
     "level": "A1"
   },
   {
@@ -4100,12 +4271,12 @@ const A1_WORDS = [
   },
   {
     "de": "das Licht",
-    "lv": "gaisma; svece",
+    "lv": "Gaisma • Svece",
     "level": "A1"
   },
   {
     "de": "lieb",
-    "lv": "mīļš; patīkams",
+    "lv": "Mīļš • Patīkams",
     "level": "A1"
   },
   {
@@ -4125,7 +4296,7 @@ const A1_WORDS = [
   },
   {
     "de": "liegen",
-    "lv": "gulēt; atrasties",
+    "lv": "Gulēt • Atrasties",
     "level": "A1"
   },
   {
@@ -4145,7 +4316,7 @@ const A1_WORDS = [
   },
   {
     "de": "links",
-    "lv": "pa kreisi; kreisajā pusē",
+    "lv": "Pa kreisi • Kreisajā pusē",
     "level": "A1"
   },
   {
@@ -4160,22 +4331,22 @@ const A1_WORDS = [
   },
   {
     "de": "der Löffel",
-    "lv": "karote; ekskavatora kauss",
+    "lv": "Karote • Ekskavatora kauss",
     "level": "A1"
   },
   {
     "de": "die Luft",
-    "lv": "gaiss; gaisotne",
+    "lv": "Gaiss • Gaisotne",
     "level": "A1"
   },
   {
     "de": "lustig",
-    "lv": "priecīgs; jocīgs, jautrs",
+    "lv": "Priecīgs • Jocīgs, jautrs",
     "level": "A1"
   },
   {
     "de": "machen",
-    "lv": "darīt; taisīt; pagatavot",
+    "lv": "Darīt • Taisīt • Pagatavot",
     "level": "A1"
   },
   {
@@ -4195,17 +4366,17 @@ const A1_WORDS = [
   },
   {
     "de": "mal",
-    "lv": "reiz; jel; tik",
+    "lv": "Reiz • Jel • Tik",
     "level": "A1"
   },
   {
     "de": "malen",
-    "lv": "krāsot; gleznot",
+    "lv": "Krāsot • Gleznot",
     "level": "A1"
   },
   {
     "de": "man",
-    "lv": "runā; vajag; var; nevar",
+    "lv": "Runā • Vajag • Var • Nevar",
     "level": "A1"
   },
   {
@@ -4220,7 +4391,7 @@ const A1_WORDS = [
   },
   {
     "de": "der Mann",
-    "lv": "vīrietis; cilvēks; vīrs, dzīvesbiedrs",
+    "lv": "Vīrietis • Cilvēks • Vīrs, dzīvesbiedrs",
     "level": "A1"
   },
   {
@@ -4235,7 +4406,7 @@ const A1_WORDS = [
   },
   {
     "de": "die Maus",
-    "lv": "pele; datora pele",
+    "lv": "Pele • Datora pele",
     "level": "A1"
   },
   {
@@ -4250,7 +4421,7 @@ const A1_WORDS = [
   },
   {
     "de": "mehr",
-    "lv": "vairāk; vairs",
+    "lv": "Vairāk • Vairs",
     "level": "A1"
   },
   {
@@ -4290,7 +4461,7 @@ const A1_WORDS = [
   },
   {
     "de": "mit",
-    "lv": "ar; pa",
+    "lv": "Ar • Pa",
     "level": "A1"
   },
   {
@@ -4315,7 +4486,7 @@ const A1_WORDS = [
   },
   {
     "de": "mögen",
-    "lv": "vēlēties, gribēt; varbūt; patikt",
+    "lv": "Vēlēties, gribēt • Varbūt • Patikt",
     "level": "A1"
   },
   {
@@ -4345,7 +4516,7 @@ const A1_WORDS = [
   },
   {
     "de": "morgens",
-    "lv": "no rīta, no rītiem; rītos",
+    "lv": "No rīta, no rītiem • Rītos",
     "level": "A1"
   },
   {
@@ -4385,7 +4556,7 @@ const A1_WORDS = [
   },
   {
     "de": "nach",
-    "lv": "pēc; uz; pēc; pēc kārtas; joprojām; pamazām, pakāpeniski",
+    "lv": "Pēc • Uz • Pēc • Pēc kārtas • Joprojām • Pamazām, pakāpeniski",
     "level": "A1"
   },
   {
@@ -4405,7 +4576,7 @@ const A1_WORDS = [
   },
   {
     "de": "der Name",
-    "lv": "vārds; uzvārds; nosaukums",
+    "lv": "Vārds • Uzvārds • Nosaukums",
     "level": "A1"
   },
   {
@@ -4420,12 +4591,12 @@ const A1_WORDS = [
   },
   {
     "de": "die Natur",
-    "lv": "daba; raksturs, daba",
+    "lv": "Daba • Raksturs, daba",
     "level": "A1"
   },
   {
     "de": "natürlich",
-    "lv": "dabisks; dabiski; protams",
+    "lv": "Dabisks • Dabiski • Protams",
     "level": "A1"
   },
   {
@@ -4445,12 +4616,12 @@ const A1_WORDS = [
   },
   {
     "de": "nennen",
-    "lv": "nosaukt, minēt; saukties",
+    "lv": "Nosaukt, minēt • Saukties",
     "level": "A1"
   },
   {
     "de": "nett",
-    "lv": "glīts; jauks",
+    "lv": "Glīts • Jauks",
     "level": "A1"
   },
   {
@@ -4550,7 +4721,7 @@ const A1_WORDS = [
   },
   {
     "de": "ob",
-    "lv": "vai; it kā",
+    "lv": "Vai • It kā",
     "level": "A1"
   },
   {
@@ -4565,12 +4736,12 @@ const A1_WORDS = [
   },
   {
     "de": "oder",
-    "lv": "vai; jeb",
+    "lv": "Vai • Jeb",
     "level": "A1"
   },
   {
     "de": "öffnen",
-    "lv": "atvērt; attaistīt; atvērties; attaistīties",
+    "lv": "Atvērt • Attaistīt • Atvērties • Attaistīties",
     "level": "A1"
   },
   {
@@ -4620,7 +4791,7 @@ const A1_WORDS = [
   },
   {
     "de": "das Papier",
-    "lv": "papīrs; dokumenti",
+    "lv": "Papīrs • Dokumenti",
     "level": "A1"
   },
   {
@@ -4630,7 +4801,7 @@ const A1_WORDS = [
   },
   {
     "de": "die Party",
-    "lv": "viesības; saviesīgs vakars",
+    "lv": "Viesības • Saviesīgs vakars",
     "level": "A1"
   },
   {
@@ -4640,12 +4811,12 @@ const A1_WORDS = [
   },
   {
     "de": "passen",
-    "lv": "būt piemērotam; piestāvēt; derēt",
+    "lv": "Būt piemērotam • Piestāvēt • Derēt",
     "level": "A1"
   },
   {
     "de": "die Pause",
-    "lv": "pārtraukums; starpbrīdis",
+    "lv": "Pārtraukums • Starpbrīdis",
     "level": "A1"
   },
   {
@@ -4690,12 +4861,12 @@ const A1_WORDS = [
   },
   {
     "de": "der Preis",
-    "lv": "cena; godalga, balva",
+    "lv": "Cena • Godalga, balva",
     "level": "A1"
   },
   {
     "de": "probieren",
-    "lv": "pārbaudīt; izmēģināt; nogaršot",
+    "lv": "Pārbaudīt • Izmēģināt • Nogaršot",
     "level": "A1"
   },
   {
@@ -4710,7 +4881,7 @@ const A1_WORDS = [
   },
   {
     "de": "der Pullover",
-    "lv": "pulovers; svīteris",
+    "lv": "Pulovers • Svīteris",
     "level": "A1"
   },
   {
@@ -4720,7 +4891,7 @@ const A1_WORDS = [
   },
   {
     "de": "putzen",
-    "lv": "spodrināt, tīrīt; greznot, post; apmest ar javu",
+    "lv": "Spodrināt, tīrīt • Greznot, post • Apmest ar javu",
     "level": "A1"
   },
   {
@@ -4735,22 +4906,22 @@ const A1_WORDS = [
   },
   {
     "de": "rauchen",
-    "lv": "smēķēt; kūpēt",
+    "lv": "Smēķēt • Kūpēt",
     "level": "A1"
   },
   {
     "de": "die Rechnung",
-    "lv": "rēķins; aprēķins",
+    "lv": "Rēķins • Aprēķins",
     "level": "A1"
   },
   {
     "de": "rechts",
-    "lv": "labajā pusē; pa labi",
+    "lv": "Labajā pusē • Pa labi",
     "level": "A1"
   },
   {
     "de": "reden",
-    "lv": "runāt; sarunāties",
+    "lv": "Runāt • Sarunāties",
     "level": "A1"
   },
   {
@@ -4775,7 +4946,7 @@ const A1_WORDS = [
   },
   {
     "de": "reisen",
-    "lv": "ceļot; braukt",
+    "lv": "Ceļot • Braukt",
     "level": "A1"
   },
   {
@@ -4785,7 +4956,7 @@ const A1_WORDS = [
   },
   {
     "de": "richtig",
-    "lv": "pareizs; īsts",
+    "lv": "Pareizs • Īsts",
     "level": "A1"
   },
   {
@@ -4810,7 +4981,7 @@ const A1_WORDS = [
   },
   {
     "de": "rund",
-    "lv": "apaļš; rēķinot apaļos skaitļos",
+    "lv": "Apaļš • Rēķinot apaļos skaitļos",
     "level": "A1"
   },
   {
@@ -4825,7 +4996,7 @@ const A1_WORDS = [
   },
   {
     "de": "die Sache",
-    "lv": "1. lieta; 2. dsk. mantas, iedzīve",
+    "lv": "Lieta • Dsk. mantas • Iedzīve",
     "level": "A1"
   },
   {
@@ -4835,7 +5006,7 @@ const A1_WORDS = [
   },
   {
     "de": "sagen",
-    "lv": "teikt; sacīt; pateikt, pasacīt",
+    "lv": "Teikt • Sacīt • Pateikt, pasacīt",
     "level": "A1"
   },
   {
@@ -4880,7 +5051,7 @@ const A1_WORDS = [
   },
   {
     "de": "schlecht",
-    "lv": "slikts; nelabs",
+    "lv": "Slikts • Nelabs",
     "level": "A1"
   },
   {
@@ -4910,7 +5081,7 @@ const A1_WORDS = [
   },
   {
     "de": "schnell",
-    "lv": "ātrs; žigls",
+    "lv": "Ātrs • Žigls",
     "level": "A1"
   },
   {
@@ -4925,7 +5096,7 @@ const A1_WORDS = [
   },
   {
     "de": "schön",
-    "lv": "1. skaists, daiļš; 2. skaisti; labi",
+    "lv": "Skaists • Daiļš • Skaisti • Labi",
     "level": "A1"
   },
   {
@@ -4965,7 +5136,7 @@ const A1_WORDS = [
   },
   {
     "de": "die Schwester",
-    "lv": "1. māsa; 2. medicīnas māsa",
+    "lv": "Māsa • Medicīnas māsa",
     "level": "A1"
   },
   {
@@ -5010,12 +5181,12 @@ const A1_WORDS = [
   },
   {
     "de": "sehen",
-    "lv": "1. redzēt; 2. raudzīties, skatīties",
+    "lv": "Redzēt • Raudzīties • Skatīties",
     "level": "A1"
   },
   {
     "de": "sehr",
-    "lv": "ļoti; pārāk, par daudz",
+    "lv": "Ļoti • Pārāk, par daudz",
     "level": "A1"
   },
   {
@@ -5030,12 +5201,12 @@ const A1_WORDS = [
   },
   {
     "de": "seit",
-    "lv": "1. kopš, no; 2. kopš",
+    "lv": "Kopš • No • Kopš",
     "level": "A1"
   },
   {
     "de": "die Seite",
-    "lv": "1. puse; 2. lappuse; 3. sāns",
+    "lv": "Puse • Lappuse • Sāns",
     "level": "A1"
   },
   {
@@ -5050,22 +5221,22 @@ const A1_WORDS = [
   },
   {
     "de": "sich",
-    "lv": "sev; sevi",
+    "lv": "Sev • Sevi",
     "level": "A1"
   },
   {
     "de": "sicher",
-    "lv": "1. drošs; 2. droši, noteikti",
+    "lv": "Drošs • Droši • Noteikti",
     "level": "A1"
   },
   {
     "de": "sie",
-    "lv": "1. viņa; viņu; 2. dsk. viņi; viņas; viņus; viņas",
+    "lv": "Viņa • Viņu • Dsk. viņi • Viņas • Viņus • Viņas",
     "level": "A1"
   },
   {
     "de": "Sie",
-    "lv": "pieklājības forma: jūs; vēstulēs — Jūs",
+    "lv": "Pieklājības forma: jūs • Vēstulēs — Jūs",
     "level": "A1"
   },
   {
@@ -5110,7 +5281,7 @@ const A1_WORDS = [
   },
   {
     "de": "so",
-    "lv": "tā, šādā (tādā) veidā",
+    "lv": "Tā, šādā veidā",
     "level": "A1"
   },
   {
@@ -5140,7 +5311,7 @@ const A1_WORDS = [
   },
   {
     "de": "sollen",
-    "lv": "vajadzēt; būt jā-",
+    "lv": "Vajadzēt • Būt jā",
     "level": "A1"
   },
   {
@@ -5180,7 +5351,7 @@ const A1_WORDS = [
   },
   {
     "de": "spielen",
-    "lv": "1. spēlēt; 2. tēlot",
+    "lv": "Spēlēt • Tēlot",
     "level": "A1"
   },
   {
@@ -5200,7 +5371,7 @@ const A1_WORDS = [
   },
   {
     "de": "stark",
-    "lv": "1. stiprs; spēcīgs; 2. skaitliski pēc apjoma liels",
+    "lv": "Stiprs • Spēcīgs • Skaitliski pēc apjoma liels",
     "level": "A1"
   },
   {
@@ -5215,7 +5386,7 @@ const A1_WORDS = [
   },
   {
     "de": "die Straße",
-    "lv": "iela; ceļš",
+    "lv": "Iela • Ceļš",
     "level": "A1"
   },
   {
@@ -5270,7 +5441,7 @@ const A1_WORDS = [
   },
   {
     "de": "die Tasche",
-    "lv": "1. kabata; 2. soma; portfelis",
+    "lv": "Kabata • Soma • Portfelis",
     "level": "A1"
   },
   {
@@ -5315,7 +5486,7 @@ const A1_WORDS = [
   },
   {
     "de": "das Theater",
-    "lv": "teātris; izrāde sākas pulksten septiņos",
+    "lv": "Teātris • Izrāde sākas pulksten septiņos",
     "level": "A1"
   },
   {
@@ -5355,7 +5526,7 @@ const A1_WORDS = [
   },
   {
     "de": "tun",
-    "lv": "darīt; izdarīt",
+    "lv": "Darīt • Izdarīt",
     "level": "A1"
   },
   {
@@ -5370,7 +5541,7 @@ const A1_WORDS = [
   },
   {
     "de": "über",
-    "lv": "1. pār, virs; pāri; 2. par",
+    "lv": "Pār • Virs • Pāri • Par",
     "level": "A1"
   },
   {
@@ -5390,12 +5561,12 @@ const A1_WORDS = [
   },
   {
     "de": "um",
-    "lv": "1. ap, apkārt; 2. ap laiku; 3. par salīdzinājumā; 4. dēļ; 5. lai; 6. pa labi apkārt",
+    "lv": "Ap • Apkārt • Ap laiku • Par salīdzinājumā • Dēļ • Lai • Pa labi apkārt",
     "level": "A1"
   },
   {
     "de": "und",
-    "lv": "1. un; 2. bet; 3. un tamlīdzīgi; un tā tālāk; un kā vēl!; proti",
+    "lv": "Un • Bet • Un tamlīdzīgi • Un tā tālāk • Un kā vēl! • Proti",
     "level": "A1"
   },
   {
@@ -5405,12 +5576,12 @@ const A1_WORDS = [
   },
   {
     "de": "unten",
-    "lv": "apakšā; lejā",
+    "lv": "Apakšā • Lejā",
     "level": "A1"
   },
   {
     "de": "unter",
-    "lv": "1. zem, apakš; 2. starp; starpā; 3. ar",
+    "lv": "Zem • Apakš • Starp • Starpā • Ar",
     "level": "A1"
   },
   {
@@ -5450,17 +5621,17 @@ const A1_WORDS = [
   },
   {
     "de": "verstehen",
-    "lv": "1. saprast; 2. prast, mācēt",
+    "lv": "Saprast • Prast • Mācēt",
     "level": "A1"
   },
   {
     "de": "versuchen",
-    "lv": "[pa]mēģināt; [iz]mēģināt",
+    "lv": "[pa]mēģināt • [iz]mēģināt",
     "level": "A1"
   },
   {
     "de": "viel",
-    "lv": "1. daudz[i]; 2. daudz",
+    "lv": "Daudz[i] • Daudz",
     "level": "A1"
   },
   {
@@ -5510,7 +5681,7 @@ const A1_WORDS = [
   },
   {
     "de": "voll",
-    "lv": "1. pilns; 2. pilnīgi, pilnā mērā",
+    "lv": "Pilns • Pilnīgi • Pilnā mērā",
     "level": "A1"
   },
   {
@@ -5525,12 +5696,12 @@ const A1_WORDS = [
   },
   {
     "de": "vor",
-    "lv": "1. priekšā; pie; 2. pirms; 3. no, aiz",
+    "lv": "Priekšā • Pie • Pirms • No • Aiz",
     "level": "A1"
   },
   {
     "de": "der Vorname",
-    "lv": "(cilvēka) vārds",
+    "lv": "Vārds",
     "level": "A1"
   },
   {
@@ -5565,7 +5736,7 @@ const A1_WORDS = [
   },
   {
     "de": "was",
-    "lv": "kas; ko",
+    "lv": "Kas • Ko",
     "level": "A1"
   },
   {
@@ -5585,7 +5756,7 @@ const A1_WORDS = [
   },
   {
     "de": "das Weihnachten",
-    "lv": "(parasti bez artikula) Ziemassvētki",
+    "lv": "Ziemassvētki",
     "level": "A1"
   },
   {
@@ -5595,7 +5766,7 @@ const A1_WORDS = [
   },
   {
     "de": "der Wein",
-    "lv": "1. vīns; 2. vīnogas",
+    "lv": "Vīns • Vīnogas",
     "level": "A1"
   },
   {
@@ -5610,7 +5781,7 @@ const A1_WORDS = [
   },
   {
     "de": "welcher",
-    "lv": "1. kurš (kura, kuri); kāds (kāda, kādi); 2. dažs, kāds",
+    "lv": "Kurš • Kāds • Dažs • Kāds",
     "level": "A1"
   },
   {
@@ -5620,17 +5791,17 @@ const A1_WORDS = [
   },
   {
     "de": "wenig",
-    "lv": "1. nedaudz; daži; 2. maz; nedaudz",
+    "lv": "Nedaudz • Daži • Maz • Nedaudz",
     "level": "A1"
   },
   {
     "de": "wenn",
-    "lv": "1. ja; 2. kad",
+    "lv": "Ja • Kad",
     "level": "A1"
   },
   {
     "de": "wer",
-    "lv": "kas; kurš",
+    "lv": "Kas • Kurš",
     "level": "A1"
   },
   {
@@ -5640,7 +5811,7 @@ const A1_WORDS = [
   },
   {
     "de": "das Wetter",
-    "lv": "(meteoroloģiskais) laiks",
+    "lv": "Laiks",
     "level": "A1"
   },
   {
@@ -5650,7 +5821,7 @@ const A1_WORDS = [
   },
   {
     "de": "wie",
-    "lv": "1. kā; 2. cik",
+    "lv": "Kā • Cik",
     "level": "A1"
   },
   {
@@ -5690,7 +5861,7 @@ const A1_WORDS = [
   },
   {
     "de": "zu",
-    "lv": "1. pie; uz; 2. parasti tulkojams ar lokatīvu; 3. pašreiz; palaikam; 4. nolūkam; 5. pārvietošanās veids; 6. nenoteiksme; 7. par daudz, pārāk",
+    "lv": "Pie • Uz • Parasti tulkojams ar lokatīvu • Pašreiz • Palaikam • Nolūkam • Pārvietošanās veids • Nenoteiksme • Par daudz • Pārāk",
     "level": "A1"
   },
   {
@@ -5705,7 +5876,7 @@ const A1_WORDS = [
   },
   {
     "de": "der Zug",
-    "lv": "1. vilciens; 2. gājiens, procesija; 3. caurvējš; 4. (rakstura) vilciens; (sejas) vaibsti; 5. malks",
+    "lv": "Vilciens • Gājiens • Procesija • Caurvējš • Vilciens • Vaibsti • Malks",
     "level": "A1"
   },
   {

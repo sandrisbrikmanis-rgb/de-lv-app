@@ -18,6 +18,7 @@ const saetze = flashcards.filter((card) => card.level === "Sätze");
 window.wordEntries = window.wordEntries || wordEntries || [];
 window["sätze"] = window["sätze"] || [];
 window.sentenceEntries = window.sentenceEntries || [];
+window.COMPARISON_STUDY_CARDS = window.COMPARISON_STUDY_CARDS || [];
 
 for (const s of saetze) {
   if (!window["sätze"].some((x) => x.de === s.de && x.lv === s.lv)) {
@@ -50,7 +51,8 @@ function allEntries() {
   mergeSaetzeIntoSentenceEntries();
   return [
     ...window.wordEntries.map((e) => normalizeEntry(e, "word")),
-    ...window.sentenceEntries.map((e) => normalizeEntry(e, "sentence"))
+    ...window.sentenceEntries.map((e) => normalizeEntry(e, "sentence")),
+    ...window.COMPARISON_STUDY_CARDS.map((e) => normalizeEntry(e, "comparison"))
   ].filter((e) => e.de && e.lv && e.level);
 }
 
@@ -2759,18 +2761,116 @@ function currentCard() {
   return deck[state.index];
 }
 
+function decodeCardQuery(value) {
+  const raw = String(value || "").trim();
+  if (!raw) return "";
+  try {
+    return decodeURIComponent(raw.replace(/\+/g, " "));
+  } catch {
+    return raw;
+  }
+}
+
+function normalizeCardSearchValue(value, mode = "plain") {
+  const decoded = decodeCardQuery(value)
+    .replace(/[•|/]+/g, " ")
+    .replace(/[-_]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+    .toLocaleLowerCase();
+  const transliterated = decoded
+    .replace(/ä/g, "ae")
+    .replace(/ö/g, "oe")
+    .replace(/ü/g, "ue")
+    .replace(/ß/g, "ss");
+  const simplified = decoded
+    .replace(/ß/g, "ss")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "");
+  const valueToUse = mode === "translit" ? transliterated : simplified;
+  return valueToUse.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+}
+
+function cardSearchKeys(value) {
+  const keys = [
+    normalizeCardSearchValue(value),
+    normalizeCardSearchValue(value, "translit"),
+  ].filter(Boolean);
+  return [...new Set(keys)];
+}
+
+function stripGermanArticle(value) {
+  return String(value || "").replace(/^(der|die|das)\s+/i, "").trim();
+}
+
+function cardSearchCandidates(entry) {
+  const study = entry.study || {};
+  const wordItems = Array.isArray(study.words) ? study.words : [];
+  const wordsDe = wordItems.map((item) => item.de || item.word).filter(Boolean);
+  const candidates = [
+    entry.id,
+    study.id,
+    entry.word,
+    study.word,
+    entry.de,
+    study.de,
+    entry.title,
+    study.title,
+    study.subtitle,
+    wordsDe.join(" "),
+  ].filter(Boolean);
+  return [
+    ...candidates,
+    ...candidates.map(stripGermanArticle).filter(Boolean),
+  ];
+}
+
+function findCardByQuery(query) {
+  const queryKeys = cardSearchKeys(query);
+  if (!queryKeys.length) return null;
+
+  return allEntries().find((entry) => (
+    cardSearchCandidates(entry).some((candidate) => {
+      const candidateKeys = cardSearchKeys(candidate);
+      return candidateKeys.some((key) => queryKeys.includes(key));
+    })
+  )) || null;
+}
+
+function showStudyCardNotFoundMessage() {
+  const notice = document.createElement("div");
+  notice.textContent = "Kartīte netika atrasta";
+  notice.setAttribute("role", "status");
+  notice.style.cssText = [
+    "position:fixed",
+    "left:50%",
+    "top:18px",
+    "transform:translateX(-50%)",
+    "z-index:9999",
+    "padding:10px 14px",
+    "border:1px solid rgba(255,255,255,.24)",
+    "border-radius:8px",
+    "background:rgba(16,24,32,.96)",
+    "color:#F3F6FA",
+    "font:600 14px/1.25 system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif",
+    "box-shadow:0 10px 32px rgba(0,0,0,.35)",
+  ].join(";");
+  document.body.appendChild(notice);
+  window.setTimeout(() => notice.remove(), 3200);
+}
+
 function activateStudyCardTestMode(value) {
-  const identifier = String(value || "").trim().toLocaleLowerCase();
-  if (!identifier) return false;
+  const query = decodeCardQuery(value);
+  if (!query) return false;
 
-  const card = allEntries().find((entry) => {
-    if (!entry.study) return false;
-    const entryId = String(entry.id || entry.study?.id || "").trim().toLocaleLowerCase();
-    const entryDe = String(entry.de || "").trim().toLocaleLowerCase();
-    return entryId === identifier || entryDe === identifier;
-  });
-  if (!card) return false;
+  const card = findCardByQuery(query);
+  if (!card) {
+    console.warn("Study card not found:", query);
+    showStudyCardNotFoundMessage();
+    return false;
+  }
 
+  console.log("Found study card:", card.id || card.study?.id || card.de);
   clearSpellingAutoNextTimer();
   state.studyTestCard = card;
   state.group = card.level;
@@ -3840,6 +3940,20 @@ function escapeStudyCardText(value) {
     .replace(/'/g, "&#39;");
 }
 
+function formatLvDisplay(value) {
+  const raw = String(value || "").trim();
+  if (!raw) return "";
+  if (/[.!?]/.test(raw) && !/[;•]/.test(raw)) return raw;
+  const parts = raw
+    .split(/\s*[;•,]\s*/u)
+    .map((part) => part.trim())
+    .filter(Boolean);
+  if (parts.length <= 1) return raw.replace(/\s*•\s*/g, " • ");
+  return parts
+    .map((part) => part.charAt(0).toLocaleUpperCase("lv-LV") + part.slice(1))
+    .join(" • ");
+}
+
 function clearStudyCard() {
   const cardElement = elements.word.closest(".card");
   cardElement?.classList.remove("has-study-card");
@@ -3869,12 +3983,12 @@ function renderStudyCard(card) {
 
   const isGermanToLatvian = state.direction === "de-lv";
   elements.word.textContent = isComparisonStudy
-    ? (study.title || study.translation || card.lv)
-    : (isGermanToLatvian ? card.de : study.translation);
+    ? formatLvDisplay(study.title || study.translation || card.lv)
+    : (isGermanToLatvian ? card.de : formatLvDisplay(study.translation));
   elements.translation.textContent = state.revealed
     ? (isComparisonStudy
       ? (study.subtitle || card.de)
-      : (isGermanToLatvian ? study.translation : card.de))
+      : (isGermanToLatvian ? formatLvDisplay(study.translation) : card.de))
     : "";
   elements.hint.textContent = state.revealed
     ? ""
@@ -3887,23 +4001,89 @@ function renderStudyCard(card) {
   cardElement?.classList.remove("has-rich-study-card");
   if (cardElement) cardElement.dataset.studyLayout = layout;
 
-  const formatStudyText = (value, accentRules = study.accents) => ["blue", "green", "yellow", "orange", "purple", "red"].reduce(
-    (text, accent) => (Array.isArray(accentRules?.[accent]) ? accentRules[accent] : []).reduce(
-      (current, term) => current.replace(
-        new RegExp(`(?<![\\p{L}\\p{N}_])${String(term).replace(/[.*+?^${}()|[\\]\\\\]/g, "\\$&")}(?![\\p{L}\\p{N}_])`, "gu"),
-        `<span class="study-accent-${accent}">${escapeStudyCardText(term)}</span>`
-      ),
-      text
-    ),
-    escapeStudyCardText(value)
-  );
+  const studyAccentColors = ["blue", "green", "yellow", "orange", "purple", "red"];
+  const hasDirectAccentTerms = (rules) => studyAccentColors.some((accent) => Array.isArray(rules?.[accent]));
+  const sectionAccentRules = (section, index) => {
+    const rules = study.sectionAccents?.[section];
+    return Array.isArray(rules) ? rules[index] : rules;
+  };
+  const fieldAccentRules = (rules, field) => rules?.[field] || (hasDirectAccentTerms(rules) ? rules : undefined);
+  const escapeAccentTerm = (term) => String(term).replace(/[.*+?^\${}()|[\]\\]/g, "\\$&");
+  const accentBoundaryPattern = (term) => "(?<![\\p{L}\\p{N}_])" + escapeAccentTerm(term) + "(?![\\p{L}\\p{N}_])";
+  const collectAccentRules = (accentRules) => studyAccentColors.flatMap((accent) => (
+    Array.isArray(accentRules?.[accent]) ? accentRules[accent] : []
+  ).filter((term) => String(term || "").trim()).map((term) => ({ accent, term: String(term) })));
+  const formatStudyText = (value, accentRules = study.accents) => {
+    const raw = String(value || "");
+    const rules = collectAccentRules(accentRules);
+    if (!raw || !rules.length) return escapeStudyCardText(raw);
+
+    const matches = rules.flatMap(({ accent, term }) => {
+      const regex = new RegExp(accentBoundaryPattern(term), "giu");
+      return Array.from(raw.matchAll(regex), (match) => ({
+        accent,
+        start: match.index,
+        end: match.index + match[0].length,
+        value: match[0],
+        length: match[0].length,
+      }));
+    }).sort((a, b) => a.start - b.start || b.length - a.length);
+
+    const selected = [];
+    let coveredUntil = -1;
+    for (const match of matches) {
+      if (match.start >= coveredUntil) {
+        selected.push(match);
+        coveredUntil = match.end;
+      }
+    }
+    if (!selected.length) return escapeStudyCardText(raw);
+
+    let html = "";
+    let cursor = 0;
+    for (const match of selected) {
+      html += escapeStudyCardText(raw.slice(cursor, match.start));
+      html += '<span class="study-accent-' + match.accent + '">' + escapeStudyCardText(match.value) + '</span>';
+      cursor = match.end;
+    }
+    html += escapeStudyCardText(raw.slice(cursor));
+    return html;
+  };
+  const hasStudyContent = (value) => {
+    if (value === undefined || value === null) return false;
+    if (typeof value === "string") return value.trim().length > 0;
+    if (Array.isArray(value)) return value.some(hasStudyContent);
+    if (typeof value === "object") return Object.values(value).some(hasStudyContent);
+    return Boolean(value);
+  };
+  const studyLines = (value) => {
+    if (!hasStudyContent(value)) return [];
+    if (Array.isArray(value)) return value.filter(hasStudyContent).map((item) => (
+      typeof item === "string" ? item : [item.text, item.example].filter(hasStudyContent).join(" ")
+    )).filter(hasStudyContent);
+    if (typeof value === "object") {
+      if (Array.isArray(value.items)) return value.items.filter(hasStudyContent);
+      return [value.text, value.example].filter(hasStudyContent);
+    }
+    return [String(value)];
+  };
+  const textAccentRules = (section, index) => {
+    const indexedRules = sectionAccentRules(section, index);
+    return fieldAccentRules(indexedRules, "text") || indexedRules || study.sectionAccents?.[section]?.text || study.sectionAccents?.[section];
+  };
+  const renderStudyParagraphs = (value, section, field) => studyLines(value).map((line, index) => {
+    const accentRules = field
+      ? fieldAccentRules(sectionAccentRules(section, index), field) || fieldAccentRules(study.sectionAccents?.[section], field)
+      : textAccentRules(section, index);
+    return `<p>${formatStudyText(line, accentRules)}</p>`;
+  }).join("");
 
   const examples = (Array.isArray(study.examples) ? study.examples : []).map((example, index) => {
-    const accentRules = study.sectionAccents?.examples?.[index];
+    const accentRules = sectionAccentRules("examples", index);
     return `
-    <div>${formatStudyText(example.de, accentRules?.de || accentRules)}</div>
+    <div>${formatStudyText(example.de, fieldAccentRules(accentRules, "de"))}</div>
       <span>=</span>
-      <span>${formatStudyText(example.lv, accentRules?.lv)}</span>
+      <span>${formatStudyText(example.lv, fieldAccentRules(accentRules, "lv"))}</span>
   `;
   }).join("");
   const comparison = state.revealed && Array.isArray(study.comparison) && study.comparison.length ? `
@@ -3914,11 +4094,11 @@ function renderStudyCard(card) {
         <div class="study-table-header">Nozīme</div>
         <div class="study-table-header">Piemērs</div>
         ${study.comparison.map((item, index) => {
-          const accentRules = study.sectionAccents?.comparison?.[index];
+          const accentRules = sectionAccentRules("comparison", index);
           return `
-            <strong>${formatStudyText(item.word, accentRules?.word || accentRules)}</strong>
-            <span>${formatStudyText(item.meaning, accentRules?.meaning || accentRules)}</span>
-            <span>${formatStudyText(item.example, accentRules?.example || accentRules)}</span>
+            <strong>${formatStudyText(item.word, fieldAccentRules(accentRules, "word"))}</strong>
+            <span>${formatStudyText(item.meaning, fieldAccentRules(accentRules, "meaning"))}</span>
+            <span>${formatStudyText(item.example, fieldAccentRules(accentRules, "example"))}</span>
           `;
         }).join("")}
       </div>
@@ -3926,13 +4106,13 @@ function renderStudyCard(card) {
   ` : "";
   const info = state.revealed && Array.isArray(study.info) && study.info.length ? `
     <section class="study-info">
-      ${study.info.map((line, index) => `<p>ⓘ ${formatStudyText(line, study.sectionAccents?.info?.[index])}</p>`).join("")}
+      ${study.info.map((line, index) => `<p>ⓘ ${formatStudyText(line, sectionAccentRules("info", index))}</p>`).join("")}
     </section>
   ` : "";
   const renderTipExamples = (items, accentRules) => (Array.isArray(items) ? items : []).map((item, index) => {
-    const itemAccents = accentRules?.[index];
-    const de = formatStudyText(item.de, itemAccents?.de || itemAccents);
-    const lv = formatStudyText(item.lv, itemAccents?.lv);
+    const itemAccents = Array.isArray(accentRules) ? accentRules[index] : accentRules;
+    const de = formatStudyText(item.de, fieldAccentRules(itemAccents, "de"));
+    const lv = formatStudyText(item.lv, fieldAccentRules(itemAccents, "lv"));
     const separator = `<span class="study-tip-separator">${escapeStudyCardText(item.separator || "=")}</span>`;
     return `
     <p class="study-tip-example${item.stacked ? " study-tip-example-stacked" : ""}">${item.stacked ? `${de}<br>${separator}<br>${lv}` : `${de} ${separator} ${lv}`}</p>
@@ -3947,15 +4127,17 @@ function renderStudyCard(card) {
   const tipLeft = Array.isArray(study.tip?.leftBlocks) && study.tip.leftBlocks.length
     ? study.tip.leftBlocks.map((block, index) => `
       <div class="study-tip-subsection">
-        <p>${formatStudyText(block.text || "", study.sectionAccents?.tip?.leftBlocks?.[index]?.text)}</p>
+        <p>${formatStudyText(block.text || "", fieldAccentRules(study.sectionAccents?.tip?.leftBlocks?.[index], "text"))}</p>
         ${renderTipExamples(block.examples, study.sectionAccents?.tip?.leftBlocks?.[index]?.examples)}
       </div>
     `).join("")
+    : Array.isArray(study.tip)
+      ? study.tip.map((line, index) => `<p>${formatStudyText(line, textAccentRules("tip", index) || study.sectionAccents?.tip?.leftBlocks?.[index]?.text)}</p>`).join("")
     : `
       <p>${formatStudyText(study.tip?.left || study.tip?.text || "", study.sectionAccents?.tip?.left)}</p>
       ${Array.isArray(study.tip?.leftItems) && study.tip.leftItems.length ? `<ul>${study.tip.leftItems.map((item) => `<li>${formatStudyText(item, study.sectionAccents?.tip?.leftItems)}</li>`).join("")}</ul>` : ""}
     `;
-  const tip = state.revealed && study.tip ? `
+  const tip = state.revealed && hasStudyContent(study.tip) ? `
     <section class="study-section study-tip">
       <h3>💡 Padoms</h3>
       <div class="study-tip-grid${hasTipRight ? "" : " study-tip-grid-single"}">
@@ -3972,40 +4154,61 @@ function renderStudyCard(card) {
     </section>
   ` : "";
 
+  const splitMainIdea = (value) => {
+    if (typeof value === "string") {
+      const match = value.match(/Galvenā doma\s*:\s*([^.!?]*(?:[.!?]|$))/i);
+      if (match) {
+        return {
+          mainIdea: match[1].trim(),
+          explanationLines: studyLines(value.replace(match[0], "").trim())
+        };
+      }
+    }
+    const lines = studyLines(value);
+    const firstMainIdeaIndex = lines.findIndex((line) => /^\s*Galvenā doma\s*:/i.test(line));
+    if (firstMainIdeaIndex >= 0) {
+      return {
+        mainIdea: lines[firstMainIdeaIndex].replace(/^\s*Galvenā doma\s*:\s*/i, ""),
+        explanationLines: lines.filter((_, index) => index !== firstMainIdeaIndex)
+      };
+    }
+    return { mainIdea: "", explanationLines: lines };
+  };
+  const splitExplanation = splitMainIdea(study.explanation);
+  const mainIdea = splitExplanation.mainIdea ? `
+    <section class="study-main-idea">
+      <h3>Galvenā doma</h3>
+      <p>${formatStudyText(splitExplanation.mainIdea, study.sectionAccents?.explanation?.mainIdea || study.sectionAccents?.explanation?.text || study.sectionAccents?.explanation)}</p>
+    </section>
+  ` : "";
+  const explanationBody = splitExplanation.explanationLines.map((line, index) => {
+    const accentRules = textAccentRules("explanation", index);
+    return `<p>${formatStudyText(line, accentRules)}</p>`;
+  }).join("");
   const explanation = Array.isArray(study.explanationLines) && study.explanationLines.length ? `
     <section class="study-explanation">
       <h3>ℹ Skaidrojums</h3>
-      <div>${formatStudyText(study.explanation)}</div>
+      ${explanationBody}
       <ul class="study-explanation-list">
         ${study.explanationLines.map((line) => `<li>${formatStudyText(line)}</li>`).join("")}
       </ul>
     </section>
-  ` : `<section class="study-explanation"><h3>ℹ Skaidrojums</h3><div>${formatStudyText(study.explanation)}</div></section>`;
-  const formatImportantText = (value) => {
-    const terms = study.accents?.important || {};
-    return ["blue", "green", "yellow", "orange", "purple", "red"].reduce((text, color) => (terms[color] || []).reduce(
-      (current, term) => current.replace(
-        new RegExp(`\\b${String(term).replace(/[.*+?^${}()|[\\]\\\\]/g, "\\$&")}\\b`, "g"),
-        `<span class="study-accent-${color}">${escapeStudyCardText(term)}</span>`
-      ),
-      text
-    ), escapeStudyCardText(value));
-  };
+  ` : `<section class="study-explanation"><h3>ℹ Skaidrojums</h3>${explanationBody}</section>`;
   const renderComparisonWordCards = () => {
     const items = Array.isArray(study.words) ? study.words : (Array.isArray(study.items) ? study.items : (Array.isArray(study.terms) ? study.terms : []));
     if (!items.length) return "";
     return `
       <section class="comparison-card-grid">
         ${items.map((item, index) => {
-          const accentRules = study.sectionAccents?.comparisonCards?.[index];
+          const accentRules = sectionAccentRules("comparisonCards", index);
           const example = typeof item.example === "string" ? item.example : [item.example?.de, item.example?.lv].filter(Boolean).join(" = ");
           return `
             <article class="comparison-word-card">
               <div class="comparison-word-icon">${escapeStudyCardText(item.icon || "•")}</div>
-              <h3>${formatStudyText(item.lv || item.title || "", accentRules?.lv || accentRules)}</h3>
-              <strong>${formatStudyText(item.de || item.word || "", accentRules?.de || accentRules)}</strong>
-              <p>${formatStudyText(item.description || item.meaning || "", accentRules?.description || accentRules)}</p>
-              ${example ? `<div class="comparison-card-example">${formatStudyText(example, accentRules?.example || accentRules)}</div>` : ""}
+              <h3>${formatStudyText(item.lv || item.title || "", fieldAccentRules(accentRules, "lv"))}</h3>
+              <strong>${formatStudyText(item.de || item.word || "", fieldAccentRules(accentRules, "de"))}</strong>
+              <p>${formatStudyText(item.description || item.meaning || "", fieldAccentRules(accentRules, "description"))}</p>
+              ${example ? `<div class="comparison-card-example">${formatStudyText(example, fieldAccentRules(accentRules, "example"))}</div>` : ""}
             </article>
           `;
         }).join("")}
@@ -4027,14 +4230,14 @@ function renderStudyCard(card) {
           <div class="study-table-header">Piemērs</div>
           <div class="study-table-header">Tulkojums</div>
           ${rows.map((row, index) => {
-            const accentRules = study.sectionAccents?.comparisonTable?.[index] || study.sectionAccents?.matrix?.[index];
+            const accentRules = sectionAccentRules("comparisonTable", index) || sectionAccentRules("matrix", index);
             return `
-              <strong>${formatStudyText(row.lv || "", accentRules?.lv || accentRules)}</strong>
-              <strong>${formatStudyText(row.de || row.word || "", accentRules?.de || accentRules?.word || accentRules)}</strong>
-              <span>${formatStudyText(row.meaning || row.mainMeaning || "", accentRules?.meaning || accentRules)}</span>
-              <span>${formatStudyText(row.describes || row.context || "", accentRules?.describes || accentRules)}</span>
-              <span>${formatStudyText(row.example || "", accentRules?.example || accentRules)}</span>
-              <span>${formatStudyText(row.translation || "", accentRules?.translation || accentRules)}</span>
+              <strong>${formatStudyText(row.lv || "", fieldAccentRules(accentRules, "lv"))}</strong>
+              <strong>${formatStudyText(row.de || row.word || "", fieldAccentRules(accentRules, "de") || fieldAccentRules(accentRules, "word"))}</strong>
+              <span>${formatStudyText(row.meaning || row.mainMeaning || "", fieldAccentRules(accentRules, "meaning"))}</span>
+              <span>${formatStudyText(row.describes || row.context || "", fieldAccentRules(accentRules, "describes"))}</span>
+              <span>${formatStudyText(row.example || "", fieldAccentRules(accentRules, "example"))}</span>
+              <span>${formatStudyText(row.translation || "", fieldAccentRules(accentRules, "translation"))}</span>
             `;
           }).join("")}
         </div>
@@ -4049,7 +4252,7 @@ function renderStudyCard(card) {
     return `
       <section class="comparison-focus">
         <h3>⚖ Svarīgs salīdzinājums</h3>
-        ${lines.map((line, index) => `<p>${formatStudyText(line, study.sectionAccents?.importantComparison?.[index] || study.sectionAccents?.importantComparison)}</p>`).join("")}
+        ${lines.map((line, index) => `<p>${formatStudyText(line, sectionAccentRules("importantComparison", index))}</p>`).join("")}
       </section>
     `;
   };
@@ -4060,7 +4263,7 @@ function renderStudyCard(card) {
     return `
       <section class="study-important comparison-important">
         <h3>❗ Svarīgi</h3>
-        ${value.map((line, index) => `<p>${formatStudyText(line, study.sectionAccents?.important?.[index] || study.sectionAccents?.important)}</p>`).join("")}
+        ${value.map((line, index) => `<p>${formatStudyText(line, sectionAccentRules("important", index))}</p>`).join("")}
       </section>
     `;
   };
@@ -4073,7 +4276,7 @@ function renderStudyCard(card) {
         <h3>🎯 Tipiskās kļūdas</h3>
         <div class="comparison-mistake-list">
           ${rows.map((row, index) => {
-            const accentRules = study.sectionAccents?.mistakes?.[index];
+            const accentRules = sectionAccentRules("mistakes", index);
             if (typeof row === "string") return `<p>${formatStudyText(row, accentRules)}</p>`;
             return `
               <div class="comparison-mistake-row">
@@ -4094,7 +4297,7 @@ function renderStudyCard(card) {
     return `
       <section class="comparison-remember">
         <h3>⭐ Atceries</h3>
-        ${lines.map((line, index) => `<p>${formatStudyText(line, study.sectionAccents?.remember?.[index] || study.sectionAccents?.remember)}</p>`).join("")}
+        ${lines.map((line, index) => `<p>${formatStudyText(line, sectionAccentRules("remember", index))}</p>`).join("")}
       </section>
     `;
   };
@@ -4105,6 +4308,7 @@ function renderStudyCard(card) {
     elements.cardStudyExtra.innerHTML = `
       <div class="comparison-study-badge">⚖ SALĪDZINĀJUMA KARTĪTE</div>
       ${lead ? `<p class="comparison-study-lead">${formatStudyText(lead, study.sectionAccents?.lead)}</p>` : ""}
+      ${study.explanation ? explanation : ""}
       ${renderComparisonWordCards()}
       <section class="study-section study-examples">
         <h3>⏳ Piemēri</h3>
@@ -4120,15 +4324,22 @@ function renderStudyCard(card) {
     return true;
   }
 
-  const important = state.revealed && study.important ? `
+  const important = state.revealed && hasStudyContent(study.important) ? `
     <section class="study-important">
       <h3>❗ Svarīgi</h3>
-      <p>${escapeStudyCardText(study.important.text)}</p>
-      <p>${formatImportantText(study.important.example)}</p>
+      ${Array.isArray(study.important) || typeof study.important === "string"
+        ? renderStudyParagraphs(study.important, "important")
+        : studyLines(study.important).map((line, index) => {
+          const accentRules = index === 0
+            ? (sectionAccentRules("important", 0)?.text || sectionAccentRules("important", 0) || study.accents?.important)
+            : (sectionAccentRules("important", 0)?.example || sectionAccentRules("important", index) || study.accents?.important);
+          return `<p>${formatStudyText(line, accentRules)}</p>`;
+        }).join("")}
     </section>
   ` : "";
   elements.cardStudyExtra.hidden = false;
   elements.cardStudyExtra.innerHTML = `
+    ${mainIdea}
     ${explanation}
     <section class="study-section study-examples">
       <h3>⏳ Piemēri</h3>

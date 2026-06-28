@@ -1,7 +1,7 @@
 const B1_WORDS = [
   {
     "de": "das Kurbad",
-    "lv": "ārstniecības kūrorts; kūrorta peldvieta",
+    "lv": "Ārstniecības kūrorts • Kūrorta peldvieta",
     "level": "B1"
   },
   {
@@ -46,7 +46,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Aktentasche",
-    "lv": "dokumentu mape; portfelis",
+    "lv": "Dokumentu mape • Portfelis",
     "level": "B1"
   },
   {
@@ -56,12 +56,12 @@ const B1_WORDS = [
   },
   {
     "de": "die Aktion",
-    "lv": "akcija; darbība; pasākums",
+    "lv": "Akcija • Darbība • Pasākums",
     "level": "B1"
   },
   {
     "de": "der Akzent",
-    "lv": "akcents; uzsvars",
+    "lv": "Akcents • Uzsvars",
     "level": "B1"
   },
   {
@@ -76,7 +76,7 @@ const B1_WORDS = [
   },
   {
     "de": "allerdings",
-    "lv": "tomēr; gan",
+    "lv": "Tomēr • Gan",
     "level": "B1"
   },
   {
@@ -101,7 +101,7 @@ const B1_WORDS = [
   },
   {
     "de": "anbauen",
-    "lv": "audzēt; piebūvēt",
+    "lv": "Audzēt • Piebūvēt",
     "level": "B1"
   },
   {
@@ -116,7 +116,7 @@ const B1_WORDS = [
   },
   {
     "de": "anfragen",
-    "lv": "jautāt; pieprasīt",
+    "lv": "Jautāt • Pieprasīt",
     "level": "B1"
   },
   {
@@ -126,12 +126,12 @@ const B1_WORDS = [
   },
   {
     "de": "die Angabe",
-    "lv": "norāde; ziņas",
+    "lv": "Norāde • Ziņas",
     "level": "B1"
   },
   {
     "de": "angeben",
-    "lv": "norādīt; uzrādīt; lielīties",
+    "lv": "Norādīt • Uzrādīt • Lielīties",
     "level": "B1"
   },
   {
@@ -141,12 +141,12 @@ const B1_WORDS = [
   },
   {
     "de": "die Angel",
-    "lv": "makšķere; eņģe",
+    "lv": "Makšķere • Eņģe",
     "level": "B1"
   },
   {
     "de": "die Angelegenheit",
-    "lv": "lieta; darīšana",
+    "lv": "Lieta • Darīšana",
     "level": "B1"
   },
   {
@@ -176,12 +176,12 @@ const B1_WORDS = [
   },
   {
     "de": "das Andenken",
-    "lv": "piemiņa; suvenīrs",
+    "lv": "Piemiņa • Suvenīrs",
     "level": "B1"
   },
   {
     "de": "anbringen",
-    "lv": "piestiprināt; novietot",
+    "lv": "Piestiprināt • Novietot",
     "level": "B1"
   },
   {
@@ -206,22 +206,22 @@ const B1_WORDS = [
   },
   {
     "de": "der Abbau",
-    "lv": "ieguve; pazemināšana",
+    "lv": "Ieguve • Pazemināšana",
     "level": "B1"
   },
   {
     "de": "abbauen",
-    "lv": "iegūt; pazemināt; samazināt; atlaist",
+    "lv": "Iegūt • Pazemināt • Samazināt • Atlaist",
     "level": "B1"
   },
   {
     "de": "die Abbildung",
-    "lv": "attēls; ilustrācija; zīmējums",
+    "lv": "Attēls • Ilustrācija • Zīmējums",
     "level": "B1"
   },
   {
     "de": "abbrechen",
-    "lv": "nolauzt; nojaukt; pārtraukt; atlūzt",
+    "lv": "Nolauzt • Nojaukt • Pārtraukt • Atlūzt",
     "level": "B1"
   },
   {
@@ -231,7 +231,7 @@ const B1_WORDS = [
   },
   {
     "de": "abdecken",
-    "lv": "pārklāt; apsegt; novākt",
+    "lv": "Pārklāt • Apsegt • Novākt",
     "level": "B1"
   },
   {
@@ -241,37 +241,37 @@ const B1_WORDS = [
   },
   {
     "de": "abermals",
-    "lv": "vēlreiz; atkal; no jauna",
+    "lv": "Vēlreiz • Atkal • No jauna",
     "level": "B1"
   },
   {
     "de": "der Abflug",
-    "lv": "aizlidošana; aizlaišanās; starts",
+    "lv": "Aizlidošana • Aizlaišanās • Starts",
     "level": "B1"
   },
   {
     "de": "der Abfluss",
-    "lv": "notecēšana; aiztecēšana; aizplūšana; noplūdums; noteka",
+    "lv": "Notecēšana • Aiztecēšana • Aizplūšana • Noplūdums • Noteka",
     "level": "B1"
   },
   {
     "de": "abfragen",
-    "lv": "atprasīt; noprasīt; izsaukt no atmiņas",
+    "lv": "Atprasīt • Noprasīt • Izsaukt no atmiņas",
     "level": "B1"
   },
   {
     "de": "der Abgang",
-    "lv": "aiziešana; atiešana",
+    "lv": "Aiziešana • Atiešana",
     "level": "B1"
   },
   {
     "de": "das Abgas",
-    "lv": "izplūdes gāze; atgāze",
+    "lv": "Izplūdes gāze • Atgāze",
     "level": "B1"
   },
   {
     "de": "abgehen",
-    "lv": "aiziet; atiet; izstāties; atkāpties; atteikties; noritēt; noiet",
+    "lv": "Aiziet • Atiet • Izstāties • Atkāpties • Atteikties • Noritēt • Noiet",
     "level": "B1"
   },
   {
@@ -281,7 +281,7 @@ const B1_WORDS = [
   },
   {
     "de": "abhalten",
-    "lv": "atturēt; noturēt",
+    "lv": "Atturēt • Noturēt",
     "level": "B1"
   },
   {
@@ -291,7 +291,7 @@ const B1_WORDS = [
   },
   {
     "de": "abhängen",
-    "lv": "noņemt; atkabināt; būt atkarīgam",
+    "lv": "Noņemt • Atkabināt • Būt atkarīgam",
     "level": "B1"
   },
   {
@@ -316,52 +316,52 @@ const B1_WORDS = [
   },
   {
     "de": "die Abkürzung",
-    "lv": "saīsinājums; saīsināšana",
+    "lv": "Saīsinājums • Saīsināšana",
     "level": "B1"
   },
   {
     "de": "der Ablauf",
-    "lv": "norise; gaita",
+    "lv": "Norise • Gaita",
     "level": "B1"
   },
   {
     "de": "ablegen",
-    "lv": "nolikt; novilkt; noģērbt; nolikt eksāmenu; sniegt pārskatu",
+    "lv": "Nolikt • Novilkt • Noģērbt • Nolikt eksāmenu • Sniegt pārskatu",
     "level": "B1"
   },
   {
     "de": "ablehnen",
-    "lv": "atraidīt; noraidīt",
+    "lv": "Atraidīt • Noraidīt",
     "level": "B1"
   },
   {
     "de": "ablenken",
-    "lv": "novirzīt; novērst uzmanību",
+    "lv": "Novirzīt • Novērst uzmanību",
     "level": "B1"
   },
   {
     "de": "abliefern",
-    "lv": "nodot; nogādāt; piegādāt",
+    "lv": "Nodot • Nogādāt • Piegādāt",
     "level": "B1"
   },
   {
     "de": "ablösen",
-    "lv": "atdalīt; atplēst; nolobīt; nomainīt",
+    "lv": "Atdalīt • Atplēst • Nolobīt • Nomainīt",
     "level": "B1"
   },
   {
     "de": "die Ablösung",
-    "lv": "nomaiņa; maiņa",
+    "lv": "Nomaiņa • Maiņa",
     "level": "B1"
   },
   {
     "de": "die Abmachung",
-    "lv": "vienošanās; noruna; līgums",
+    "lv": "Vienošanās • Noruna • Līgums",
     "level": "B1"
   },
   {
     "de": "abnehmen",
-    "lv": "noņemt; atņemt; mazināties; dilt; kristies svarā; novājēt",
+    "lv": "Noņemt • Atņemt • Mazināties • Dilt • Kristies svarā • Novājēt",
     "level": "B1"
   },
   {
@@ -371,27 +371,27 @@ const B1_WORDS = [
   },
   {
     "de": "abreißen",
-    "lv": "noraut; atraut; nojaukt; pārtraukt",
+    "lv": "Noraut • Atraut • Nojaukt • Pārtraukt",
     "level": "B1"
   },
   {
     "de": "der Absatz",
-    "lv": "noiets; papēdis; atkāpe; rindkopa",
+    "lv": "Noiets • Papēdis • Atkāpe • Rindkopa",
     "level": "B1"
   },
   {
     "de": "abschaffen",
-    "lv": "atcelt; likvidēt; anulēt",
+    "lv": "Atcelt • Likvidēt • Anulēt",
     "level": "B1"
   },
   {
     "de": "der Abschied",
-    "lv": "atvadīšanās; šķiršanās",
+    "lv": "Atvadīšanās • Šķiršanās",
     "level": "B1"
   },
   {
     "de": "der Abschluss",
-    "lv": "noslēgums; nobeigums; noslēgšana; bilance",
+    "lv": "Noslēgums • Nobeigums • Noslēgšana • Bilance",
     "level": "B1"
   },
   {
@@ -401,22 +401,22 @@ const B1_WORDS = [
   },
   {
     "de": "der Abschnitt",
-    "lv": "fragments; pasāknis; laika posms",
+    "lv": "Fragments • Pasāknis • Laika posms",
     "level": "B1"
   },
   {
     "de": "abschreiben",
-    "lv": "norakstīt; nodedelēt; norakstīt no bilances",
+    "lv": "Norakstīt • Nodedelēt • Norakstīt no bilances",
     "level": "B1"
   },
   {
     "de": "abseits",
-    "lv": "sānus; malā; nomaļus",
+    "lv": "Sānus • Malā • Nomaļus",
     "level": "B1"
   },
   {
     "de": "absenden",
-    "lv": "nosūtīt; aizsūtīt",
+    "lv": "Nosūtīt • Aizsūtīt",
     "level": "B1"
   },
   {
@@ -426,57 +426,57 @@ const B1_WORDS = [
   },
   {
     "de": "absetzen",
-    "lv": "nolikt; atcelt; gāzt; pārdot; nogulsnēt; nosēsties; aizbēgt",
+    "lv": "Nolikt • Atcelt • Gāzt • Pārdot • Nogulsnēt • Nosēsties • Aizbēgt",
     "level": "B1"
   },
   {
     "de": "absichern",
-    "lv": "nodrošināt; nodrošināties",
+    "lv": "Nodrošināt • Nodrošināties",
     "level": "B1"
   },
   {
     "de": "die Absicht",
-    "lv": "nodoms; nolūks",
+    "lv": "Nodoms • Nolūks",
     "level": "B1"
   },
   {
     "de": "absichtlich",
-    "lv": "apzināti; tīšām",
+    "lv": "Apzināti • Tīšām",
     "level": "B1"
   },
   {
     "de": "absolvieren",
-    "lv": "absolvēt; pabeigt mācības",
+    "lv": "Absolvēt • Pabeigt mācības",
     "level": "B1"
   },
   {
     "de": "absperren",
-    "lv": "norobežot; aizbarikādēt",
+    "lv": "Norobežot • Aizbarikādēt",
     "level": "B1"
   },
   {
     "de": "abspielen",
-    "lv": "atskaņot; norisināties",
+    "lv": "Atskaņot • Norisināties",
     "level": "B1"
   },
   {
     "de": "absprechen",
-    "lv": "apspriest; vienoties; noliegt",
+    "lv": "Apspriest • Vienoties • Noliegt",
     "level": "B1"
   },
   {
     "de": "abstatten",
-    "lv": "apciemot; apmeklēt",
+    "lv": "Apciemot • Apmeklēt",
     "level": "B1"
   },
   {
     "de": "abstürzen",
-    "lv": "nogāzties; uzkārties",
+    "lv": "Nogāzties • Uzkārties",
     "level": "B1"
   },
   {
     "de": "abwechseln",
-    "lv": "mainīt; nomainīt",
+    "lv": "Mainīt • Nomainīt",
     "level": "B1"
   },
   {
@@ -506,17 +506,17 @@ const B1_WORDS = [
   },
   {
     "de": "abziehen",
-    "lv": "novilkt; atņemt; aiziet",
+    "lv": "Novilkt • Atņemt • Aiziet",
     "level": "B1"
   },
   {
     "de": "die Ader",
-    "lv": "dzīsla; vēna",
+    "lv": "Dzīsla • Vēna",
     "level": "B1"
   },
   {
     "de": "adrett",
-    "lv": "sakopts; kārtīgs",
+    "lv": "Sakopts • Kārtīgs",
     "level": "B1"
   },
   {
@@ -561,12 +561,12 @@ const B1_WORDS = [
   },
   {
     "de": "die Ambulanz",
-    "lv": "ambulance; neatliekamā palīdzība",
+    "lv": "Ambulance • Neatliekamā palīdzība",
     "level": "B1"
   },
   {
     "de": "amüsieren",
-    "lv": "izklaidēt; uzjautrināt",
+    "lv": "Izklaidēt • Uzjautrināt",
     "level": "B1"
   },
   {
@@ -611,7 +611,7 @@ const B1_WORDS = [
   },
   {
     "de": "anknüpfen",
-    "lv": "saistīt, piesaistīt; uzsākt sarunu",
+    "lv": "Saistīt, piesaistīt • Uzsākt sarunu",
     "level": "B1"
   },
   {
@@ -621,12 +621,12 @@ const B1_WORDS = [
   },
   {
     "de": "anlaufen",
-    "lv": "iebraukt ostā; nosvīst; iedarbināt",
+    "lv": "Iebraukt ostā • Nosvīst • Iedarbināt",
     "level": "B1"
   },
   {
     "de": "die Anlage",
-    "lv": "ierīce, iekārta; ieguldījums; dotības",
+    "lv": "Ierīce, iekārta • Ieguldījums • Dotības",
     "level": "B1"
   },
   {
@@ -641,12 +641,12 @@ const B1_WORDS = [
   },
   {
     "de": "anliegend",
-    "lv": "pielikumā; piegulošs",
+    "lv": "Pielikumā • Piegulošs",
     "level": "B1"
   },
   {
     "de": "anmachen",
-    "lv": "piestiprināt; sagatavot; iedegt",
+    "lv": "Piestiprināt • Sagatavot • Iedegt",
     "level": "B1"
   },
   {
@@ -656,7 +656,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Annahme",
-    "lv": "pieņemšana; pieņēmums",
+    "lv": "Pieņemšana • Pieņēmums",
     "level": "B1"
   },
   {
@@ -696,7 +696,7 @@ const B1_WORDS = [
   },
   {
     "de": "anrichten",
-    "lv": "sagatavot; nodarīt",
+    "lv": "Sagatavot • Nodarīt",
     "level": "B1"
   },
   {
@@ -721,17 +721,17 @@ const B1_WORDS = [
   },
   {
     "de": "anscheinend",
-    "lv": "šķietams; acīmredzot",
+    "lv": "Šķietams • Acīmredzot",
     "level": "B1"
   },
   {
     "de": "der Anschlag",
-    "lv": "paziņojums; afiša; atentāts",
+    "lv": "Paziņojums • Afiša • Atentāts",
     "level": "B1"
   },
   {
     "de": "der Anschluss",
-    "lv": "pieslēgums; savienojums",
+    "lv": "Pieslēgums • Savienojums",
     "level": "B1"
   },
   {
@@ -746,7 +746,7 @@ const B1_WORDS = [
   },
   {
     "de": "das Ansehen",
-    "lv": "izskats; cieņa, autoritāte",
+    "lv": "Izskats • Cieņa, autoritāte",
     "level": "B1"
   },
   {
@@ -756,7 +756,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Ansicht",
-    "lv": "uzskats, ieskats; skats",
+    "lv": "Uzskats, ieskats • Skats",
     "level": "B1"
   },
   {
@@ -771,32 +771,32 @@ const B1_WORDS = [
   },
   {
     "de": "anspielen",
-    "lv": "piespēlēt; izteikt mājienu",
+    "lv": "Piespēlēt • Izteikt mājienu",
     "level": "B1"
   },
   {
     "de": "anstiften",
-    "lv": "pamudināt; musināt; nodarīt ko sliktu",
+    "lv": "Pamudināt • Musināt • Nodarīt ko sliktu",
     "level": "B1"
   },
   {
     "de": "der Anstoß",
-    "lv": "pamudinājums; ierosme; stimuls",
+    "lv": "Pamudinājums • Ierosme • Stimuls",
     "level": "B1"
   },
   {
     "de": "anstößig",
-    "lv": "piedauzīgs; nepieklājīgs",
+    "lv": "Piedauzīgs • Nepieklājīgs",
     "level": "B1"
   },
   {
     "de": "anstrengen",
-    "lv": "piepūlēt; nogurdināt; sasprindzināt",
+    "lv": "Piepūlēt • Nogurdināt • Sasprindzināt",
     "level": "B1"
   },
   {
     "de": "die Anstrengung",
-    "lv": "piepūle; sasprindzinājums",
+    "lv": "Piepūle • Sasprindzinājums",
     "level": "B1"
   },
   {
@@ -816,17 +816,17 @@ const B1_WORDS = [
   },
   {
     "de": "der Antrag",
-    "lv": "priekšlikums; iesniegums",
+    "lv": "Priekšlikums • Iesniegums",
     "level": "B1"
   },
   {
     "de": "der Antrieb",
-    "lv": "dzinējs; stimuls",
+    "lv": "Dzinējs • Stimuls",
     "level": "B1"
   },
   {
     "de": "der Antritt",
-    "lv": "uzsākšana; stāšanās amatā",
+    "lv": "Uzsākšana • Stāšanās amatā",
     "level": "B1"
   },
   {
@@ -836,12 +836,12 @@ const B1_WORDS = [
   },
   {
     "de": "anweisen",
-    "lv": "ierādīt; norādīt; instruēt",
+    "lv": "Ierādīt • Norādīt • Instruēt",
     "level": "B1"
   },
   {
     "de": "die Anweisung",
-    "lv": "norādījums; instrukcija",
+    "lv": "Norādījums • Instrukcija",
     "level": "B1"
   },
   {
@@ -871,7 +871,7 @@ const B1_WORDS = [
   },
   {
     "de": "arg",
-    "lv": "ļauns; slikts",
+    "lv": "Ļauns • Slikts",
     "level": "B1"
   },
   {
@@ -891,7 +891,7 @@ const B1_WORDS = [
   },
   {
     "de": "arrangieren",
-    "lv": "organizēt; sakārtot",
+    "lv": "Organizēt • Sakārtot",
     "level": "B1"
   },
   {
@@ -916,7 +916,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Attacke",
-    "lv": "uzbrukums; lēkme",
+    "lv": "Uzbrukums • Lēkme",
     "level": "B1"
   },
   {
@@ -946,7 +946,7 @@ const B1_WORDS = [
   },
   {
     "de": "aufrecht",
-    "lv": "taisns; godīgs",
+    "lv": "Taisns • Godīgs",
     "level": "B1"
   },
   {
@@ -996,7 +996,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Auftrag",
-    "lv": "uzdevums; pasūtījums",
+    "lv": "Uzdevums • Pasūtījums",
     "level": "B1"
   },
   {
@@ -1016,22 +1016,22 @@ const B1_WORDS = [
   },
   {
     "de": "von klein auf",
-    "lv": "no mazām dienām; kopš bērnības",
+    "lv": "No mazām dienām • Kopš bērnības",
     "level": "B1"
   },
   {
     "de": "aufführen",
-    "lv": "pieminēt; nosaukt; izrādīt; uzvest",
+    "lv": "Pieminēt • Nosaukt • Izrādīt • Uzvest",
     "level": "B1"
   },
   {
     "de": "aufgeregt",
-    "lv": "uztraukts; uztraucies; uzbudināts",
+    "lv": "Uztraukts • Uztraucies • Uzbudināts",
     "level": "B1"
   },
   {
     "de": "sich aufhalten",
-    "lv": "uzturēties; uzkavēties; kavēties",
+    "lv": "Uzturēties • Uzkavēties • Kavēties",
     "level": "B1"
   },
   {
@@ -1041,12 +1041,12 @@ const B1_WORDS = [
   },
   {
     "de": "sich aufregen",
-    "lv": "uztraukties; uzbudināties",
+    "lv": "Uztraukties • Uzbudināties",
     "level": "B1"
   },
   {
     "de": "der Auftritt",
-    "lv": "skats; aina; uzstāšanās",
+    "lv": "Skats • Aina • Uzstāšanās",
     "level": "B1"
   },
   {
@@ -1061,7 +1061,7 @@ const B1_WORDS = [
   },
   {
     "de": "außergewöhnlich",
-    "lv": "neparasts; ārkārtējs",
+    "lv": "Neparasts • Ārkārtējs",
     "level": "B1"
   },
   {
@@ -1071,32 +1071,32 @@ const B1_WORDS = [
   },
   {
     "de": "äußerlich",
-    "lv": "ārējs; ārīgs",
+    "lv": "Ārējs • Ārīgs",
     "level": "B1"
   },
   {
     "de": "äußern",
-    "lv": "izrādīt; izteikt; paust; izpaust",
+    "lv": "Izrādīt • Izteikt • Paust • Izpaust",
     "level": "B1"
   },
   {
     "de": "sich äußern",
-    "lv": "izteikties; izpausties",
+    "lv": "Izteikties • Izpausties",
     "level": "B1"
   },
   {
     "de": "außerordentlich",
-    "lv": "ārkārtējs; ārkārtas",
+    "lv": "Ārkārtējs • Ārkārtas",
     "level": "B1"
   },
   {
     "de": "äußerst",
-    "lv": "galējais; pēdējais; ārkārtīgi",
+    "lv": "Galējais • Pēdējais • Ārkārtīgi",
     "level": "B1"
   },
   {
     "de": "die Aussicht",
-    "lv": "skats; izredzes; perspektīvas",
+    "lv": "Skats • Izredzes • Perspektīvas",
     "level": "B1"
   },
   {
@@ -1106,47 +1106,47 @@ const B1_WORDS = [
   },
   {
     "de": "die Aussprache",
-    "lv": "izruna; pārrunas; domu apmaiņa; saruna",
+    "lv": "Izruna • Pārrunas • Domu apmaiņa • Saruna",
     "level": "B1"
   },
   {
     "de": "aussprechen",
-    "lv": "izrunāt; izteikt; izsacīt",
+    "lv": "Izrunāt • Izteikt • Izsacīt",
     "level": "B1"
   },
   {
     "de": "ausstellen",
-    "lv": "izstādīt; izlikt; izdot; izsniegt; izrakstīt",
+    "lv": "Izstādīt • Izlikt • Izdot • Izsniegt • Izrakstīt",
     "level": "B1"
   },
   {
     "de": "ausstrecken",
-    "lv": "izstiept; izstaipīt",
+    "lv": "Izstiept • Izstaipīt",
     "level": "B1"
   },
   {
     "de": "sich ausstrecken",
-    "lv": "izstiepties; izstaipīties",
+    "lv": "Izstiepties • Izstaipīties",
     "level": "B1"
   },
   {
     "de": "der Austausch",
-    "lv": "maiņa; apmaiņa",
+    "lv": "Maiņa • Apmaiņa",
     "level": "B1"
   },
   {
     "de": "austrocknen",
-    "lv": "izkaltēt; izkalst",
+    "lv": "Izkaltēt • Izkalst",
     "level": "B1"
   },
   {
     "de": "ausüben",
-    "lv": "izpildīt; veikt; ietekmēt",
+    "lv": "Izpildīt • Veikt • Ietekmēt",
     "level": "B1"
   },
   {
     "de": "auswandern",
-    "lv": "izceļot; emigrēt",
+    "lv": "Izceļot • Emigrēt",
     "level": "B1"
   },
   {
@@ -1156,12 +1156,12 @@ const B1_WORDS = [
   },
   {
     "de": "ausweichen",
-    "lv": "griezt ceļu; izvairīties",
+    "lv": "Griezt ceļu • Izvairīties",
     "level": "B1"
   },
   {
     "de": "der Teilnehmerausweis",
-    "lv": "dalībnieka karte; apliecība",
+    "lv": "Dalībnieka karte • Apliecība",
     "level": "B1"
   },
   {
@@ -1181,7 +1181,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Auszug",
-    "lv": "izvilkums; izraksts; ekstrakts; izvilkšanās; izkravāšanās",
+    "lv": "Izvilkums • Izraksts • Ekstrakts • Izvilkšanās • Izkravāšanās",
     "level": "B1"
   },
   {
@@ -1231,12 +1231,12 @@ const B1_WORDS = [
   },
   {
     "de": "der Badeort",
-    "lv": "peldvieta; kūrorts",
+    "lv": "Peldvieta • Kūrorts",
     "level": "B1"
   },
   {
     "de": "der Bagger",
-    "lv": "bagars; ekskavators",
+    "lv": "Bagars • Ekskavators",
     "level": "B1"
   },
   {
@@ -1246,7 +1246,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Balken",
-    "lv": "baļķis; sija",
+    "lv": "Baļķis • Sija",
     "level": "B1"
   },
   {
@@ -1261,12 +1261,12 @@ const B1_WORDS = [
   },
   {
     "de": "das Fließband",
-    "lv": "slīdošā lente; konveijers",
+    "lv": "Slīdošā lente • Konveijers",
     "level": "B1"
   },
   {
     "de": "bange",
-    "lv": "baiļu pilns; baigs",
+    "lv": "Baiļu pilns • Baigs",
     "level": "B1"
   },
   {
@@ -1286,7 +1286,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Basis",
-    "lv": "bāze; pamats",
+    "lv": "Bāze • Pamats",
     "level": "B1"
   },
   {
@@ -1301,7 +1301,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Bau",
-    "lv": "celtne; ēka; celšana; būvēšana; būve; uzbūve; konstrukcija; struktūra",
+    "lv": "Celtne • Ēka • Celšana • Būvēšana • Būve • Uzbūve • Konstrukcija • Struktūra",
     "level": "B1"
   },
   {
@@ -1331,7 +1331,7 @@ const B1_WORDS = [
   },
   {
     "de": "beabsichtigen",
-    "lv": "būt nodomājušam; nodomāt",
+    "lv": "Būt nodomājušam • Nodomāt",
     "level": "B1"
   },
   {
@@ -1346,17 +1346,17 @@ const B1_WORDS = [
   },
   {
     "de": "beaufsichtigen",
-    "lv": "uzraudzīt; pieskatīt",
+    "lv": "Uzraudzīt • Pieskatīt",
     "level": "B1"
   },
   {
     "de": "beauftragen",
-    "lv": "uzticēt; uzdot",
+    "lv": "Uzticēt • Uzdot",
     "level": "B1"
   },
   {
     "de": "beben",
-    "lv": "drebēt; trīcēt",
+    "lv": "Drebēt • Trīcēt",
     "level": "B1"
   },
   {
@@ -1366,17 +1366,17 @@ const B1_WORDS = [
   },
   {
     "de": "der Messbecher",
-    "lv": "mērglāze; mērtrauks",
+    "lv": "Mērglāze • Mērtrauks",
     "level": "B1"
   },
   {
     "de": "das Becken",
-    "lv": "bļoda; iegurnis; baseins; šķīvji",
+    "lv": "Bļoda • Iegurnis • Baseins • Šķīvji",
     "level": "B1"
   },
   {
     "de": "der Bedarf",
-    "lv": "vajadzība; pieprasījums",
+    "lv": "Vajadzība • Pieprasījums",
     "level": "B1"
   },
   {
@@ -1386,27 +1386,27 @@ const B1_WORDS = [
   },
   {
     "de": "bedecken",
-    "lv": "apklāt; noklāt; apsegt; nosegt",
+    "lv": "Apklāt • Noklāt • Apsegt • Nosegt",
     "level": "B1"
   },
   {
     "de": "bedenken",
-    "lv": "apdomāt; apsvērt",
+    "lv": "Apdomāt • Apsvērt",
     "level": "B1"
   },
   {
     "de": "bedeutend",
-    "lv": "ievērojams; svarīgs; nozīmīgs; krietni; daudz; ievērojami",
+    "lv": "Ievērojams • Svarīgs • Nozīmīgs • Krietni • Daudz • Ievērojami",
     "level": "B1"
   },
   {
     "de": "sich bedienen",
-    "lv": "lietot; izlietot; apkalpoties pašam; ņemt",
+    "lv": "Lietot • Izlietot • Apkalpoties pašam • Ņemt",
     "level": "B1"
   },
   {
     "de": "die Bedingung",
-    "lv": "noteikums; nosacījums",
+    "lv": "Noteikums • Nosacījums",
     "level": "B1"
   },
   {
@@ -1426,17 +1426,17 @@ const B1_WORDS = [
   },
   {
     "de": "das Bedürfnis",
-    "lv": "vajadzība; nepieciešamība",
+    "lv": "Vajadzība • Nepieciešamība",
     "level": "B1"
   },
   {
     "de": "beendigen",
-    "lv": "pabeigt; nobeigt; beigt",
+    "lv": "Pabeigt • Nobeigt • Beigt",
     "level": "B1"
   },
   {
     "de": "beerdigen",
-    "lv": "apglabāt; apbedīt",
+    "lv": "Apglabāt • Apbedīt",
     "level": "B1"
   },
   {
@@ -1451,12 +1451,12 @@ const B1_WORDS = [
   },
   {
     "de": "befehlen",
-    "lv": "pavēlēt; likt",
+    "lv": "Pavēlēt • Likt",
     "level": "B1"
   },
   {
     "de": "befestigen",
-    "lv": "piestiprināt; nostiprināt; nocietināt",
+    "lv": "Piestiprināt • Nostiprināt • Nocietināt",
     "level": "B1"
   },
   {
@@ -1466,17 +1466,17 @@ const B1_WORDS = [
   },
   {
     "de": "befolgen",
-    "lv": "sekot; ievērot; izpildīt",
+    "lv": "Sekot • Ievērot • Izpildīt",
     "level": "B1"
   },
   {
     "de": "befördern",
-    "lv": "nogādāt; transportēt; pārvadāt; aizsūtīt; nosūtīt",
+    "lv": "Nogādāt • Transportēt • Pārvadāt • Aizsūtīt • Nosūtīt",
     "level": "B1"
   },
   {
     "de": "befragen",
-    "lv": "iztaujāt; izjautāt",
+    "lv": "Iztaujāt • Izjautāt",
     "level": "B1"
   },
   {
@@ -1501,42 +1501,42 @@ const B1_WORDS = [
   },
   {
     "de": "befühlen",
-    "lv": "aptaustīt; iztaustīt",
+    "lv": "Aptaustīt • Iztaustīt",
     "level": "B1"
   },
   {
     "de": "begabt",
-    "lv": "apdāvināts; spējīgs",
+    "lv": "Apdāvināts • Spējīgs",
     "level": "B1"
   },
   {
     "de": "die Begabung",
-    "lv": "apdāvinātība; dotības; spējas; dāvanas; talants",
+    "lv": "Apdāvinātība • Dotības • Spējas • Dāvanas • Talants",
     "level": "B1"
   },
   {
     "de": "sich begeben",
-    "lv": "doties; iet",
+    "lv": "Doties • Iet",
     "level": "B1"
   },
   {
     "de": "begegnen",
-    "lv": "satikt; sastapt",
+    "lv": "Satikt • Sastapt",
     "level": "B1"
   },
   {
     "de": "die Begegnung",
-    "lv": "satikšanās; tikšanās; sastapšanās",
+    "lv": "Satikšanās • Tikšanās • Sastapšanās",
     "level": "B1"
   },
   {
     "de": "begehen",
-    "lv": "svinēt; atzīmēt",
+    "lv": "Svinēt • Atzīmēt",
     "level": "B1"
   },
   {
     "de": "begeistern",
-    "lv": "sajūsmināt; iejūsmināt",
+    "lv": "Sajūsmināt • Iejūsmināt",
     "level": "B1"
   },
   {
@@ -1546,67 +1546,67 @@ const B1_WORDS = [
   },
   {
     "de": "begießen",
-    "lv": "aplaistīt; apliet",
+    "lv": "Aplaistīt • Apliet",
     "level": "B1"
   },
   {
     "de": "der Begleiter",
-    "lv": "pavadītājs; pavadonis",
+    "lv": "Pavadītājs • Pavadonis",
     "level": "B1"
   },
   {
     "de": "die Begleitung",
-    "lv": "pavadīšana; pavadība; pavadoņi; pavadījums",
+    "lv": "Pavadīšana • Pavadība • Pavadoņi • Pavadījums",
     "level": "B1"
   },
   {
     "de": "begraben",
-    "lv": "aprakt; apbedīt; apglabāt",
+    "lv": "Aprakt • Apbedīt • Apglabāt",
     "level": "B1"
   },
   {
     "de": "das Begräbnis",
-    "lv": "apbedīšana; apglabāšana; bēres",
+    "lv": "Apbedīšana • Apglabāšana • Bēres",
     "level": "B1"
   },
   {
     "de": "begreifen",
-    "lv": "saprast; aptvert; apjēgt",
+    "lv": "Saprast • Aptvert • Apjēgt",
     "level": "B1"
   },
   {
     "de": "begrenzen",
-    "lv": "ierobežot; aprobežot",
+    "lv": "Ierobežot • Aprobežot",
     "level": "B1"
   },
   {
     "de": "der Begriff",
-    "lv": "jēdziens; priekšstats; jēga",
+    "lv": "Jēdziens • Priekšstats • Jēga",
     "level": "B1"
   },
   {
     "de": "begründen",
-    "lv": "pamatot; motivēt; dibināt; nodibināt",
+    "lv": "Pamatot • Motivēt • Dibināt • Nodibināt",
     "level": "B1"
   },
   {
     "de": "behaglich",
-    "lv": "omulīgs; patīkams; mājīgs; ērts",
+    "lv": "Omulīgs • Patīkams • Mājīgs • Ērts",
     "level": "B1"
   },
   {
     "de": "der Behälter",
-    "lv": "tvertne; rezervuārs; futrālis; maksts",
+    "lv": "Tvertne • Rezervuārs • Futrālis • Maksts",
     "level": "B1"
   },
   {
     "de": "behandeln",
-    "lv": "apieties; izturēties; iztirzāt; izskatīt; apspriest; ārstēt",
+    "lv": "Apieties • Izturēties • Iztirzāt • Izskatīt • Apspriest • Ārstēt",
     "level": "B1"
   },
   {
     "de": "die Behandlung",
-    "lv": "apiešanās; izturēšanās; iztirzāšana; iztirzājums; izskatīšana; ārstēšana",
+    "lv": "Apiešanās • Izturēšanās • Iztirzāšana • Iztirzājums • Izskatīšana • Ārstēšana",
     "level": "B1"
   },
   {
@@ -1621,17 +1621,17 @@ const B1_WORDS = [
   },
   {
     "de": "beherrschen",
-    "lv": "apvaldīt; savaldīt; valdīt; labi prast",
+    "lv": "Apvaldīt • Savaldīt • Valdīt • Labi prast",
     "level": "B1"
   },
   {
     "de": "behilflich",
-    "lv": "palīdzīgs; izpalīdzīgs",
+    "lv": "Palīdzīgs • Izpalīdzīgs",
     "level": "B1"
   },
   {
     "de": "behindern",
-    "lv": "traucēt; kavēt",
+    "lv": "Traucēt • Kavēt",
     "level": "B1"
   },
   {
@@ -1641,22 +1641,22 @@ const B1_WORDS = [
   },
   {
     "de": "die Behörde",
-    "lv": "iestāde; institūcija",
+    "lv": "Iestāde • Institūcija",
     "level": "B1"
   },
   {
     "de": "beibringen",
-    "lv": "iemācīt; ieskaidrot",
+    "lv": "Iemācīt • Ieskaidrot",
     "level": "B1"
   },
   {
     "de": "beieinander",
-    "lv": "viens pie otra; cits pie cita; kopā",
+    "lv": "Viens pie otra • Cits pie cita • Kopā",
     "level": "B1"
   },
   {
     "de": "der Beifall",
-    "lv": "aplausi; piekrišana; atzinība",
+    "lv": "Aplausi • Piekrišana • Atzinība",
     "level": "B1"
   },
   {
@@ -1666,7 +1666,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Beilage",
-    "lv": "pielikums; piedevas",
+    "lv": "Pielikums • Piedevas",
     "level": "B1"
   },
   {
@@ -1676,7 +1676,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Beiname",
-    "lv": "palama; iesauka; segvārds",
+    "lv": "Palama • Iesauka • Segvārds",
     "level": "B1"
   },
   {
@@ -1686,7 +1686,7 @@ const B1_WORDS = [
   },
   {
     "de": "beiseite",
-    "lv": "sāņus; pie malas",
+    "lv": "Sāņus • Pie malas",
     "level": "B1"
   },
   {
@@ -1696,12 +1696,12 @@ const B1_WORDS = [
   },
   {
     "de": "beißend",
-    "lv": "kodīgs; dzēlīgs; ass",
+    "lv": "Kodīgs • Dzēlīgs • Ass",
     "level": "B1"
   },
   {
     "de": "der Beitrag",
-    "lv": "biedru nauda; ieguldījums; devums; deva",
+    "lv": "Biedru nauda • Ieguldījums • Devums • Deva",
     "level": "B1"
   },
   {
@@ -1711,7 +1711,7 @@ const B1_WORDS = [
   },
   {
     "de": "beitragen",
-    "lv": "sekmēt; veicināt; dot savu daļu",
+    "lv": "Sekmēt • Veicināt • Dot savu daļu",
     "level": "B1"
   },
   {
@@ -1726,7 +1726,7 @@ const B1_WORDS = [
   },
   {
     "de": "bekannt geben",
-    "lv": "paziņot; izziņot; darīt zināmu",
+    "lv": "Paziņot • Izziņot • Darīt zināmu",
     "level": "B1"
   },
   {
@@ -1741,32 +1741,32 @@ const B1_WORDS = [
   },
   {
     "de": "belasten",
-    "lv": "noslogot; apgrūtināt",
+    "lv": "Noslogot • Apgrūtināt",
     "level": "B1"
   },
   {
     "de": "die Belastung",
-    "lv": "slodze; noslogojums",
+    "lv": "Slodze • Noslogojums",
     "level": "B1"
   },
   {
     "de": "belegen",
-    "lv": "aplikt; noklāt; uzlikt; rezervēt",
+    "lv": "Aplikt • Noklāt • Uzlikt • Rezervēt",
     "level": "B1"
   },
   {
     "de": "belegt",
-    "lv": "aplikts; noklāts; aizņemts; rezervēts",
+    "lv": "Aplikts • Noklāts • Aizņemts • Rezervēts",
     "level": "B1"
   },
   {
     "de": "beleidigen",
-    "lv": "apvainot; aizvainot; aizskart",
+    "lv": "Apvainot • Aizvainot • Aizskart",
     "level": "B1"
   },
   {
     "de": "die Beleidigung",
-    "lv": "apvainojums; aizvainojums; apvainošanās; aizvainošana",
+    "lv": "Apvainojums • Aizvainojums • Apvainošanās • Aizvainošana",
     "level": "B1"
   },
   {
@@ -1776,57 +1776,57 @@ const B1_WORDS = [
   },
   {
     "de": "die Beleuchtung",
-    "lv": "apgaismojums; apgaismošana",
+    "lv": "Apgaismojums • Apgaismošana",
     "level": "B1"
   },
   {
     "de": "beliebig",
-    "lv": "jebkurš; ikviens; kurš katrs; vienalga, kurš",
+    "lv": "Jebkurš • Ikviens • Kurš katrs • Vienalga, kurš",
     "level": "B1"
   },
   {
     "de": "belohnen",
-    "lv": "atalgot; atlīdzināt",
+    "lv": "Atalgot • Atlīdzināt",
     "level": "B1"
   },
   {
     "de": "bemerken",
-    "lv": "piebilst; pieminēt; piezīmēt; pamanīt; manīt; ieraudzīt",
+    "lv": "Piebilst • Pieminēt • Piezīmēt • Pamanīt • Manīt • Ieraudzīt",
     "level": "B1"
   },
   {
     "de": "die Bemerkung",
-    "lv": "piezīme; piebilde",
+    "lv": "Piezīme • Piebilde",
     "level": "B1"
   },
   {
     "de": "bemühen",
-    "lv": "apgrūtināt; nopūlēt",
+    "lv": "Apgrūtināt • Nopūlēt",
     "level": "B1"
   },
   {
     "de": "sich bemühen",
-    "lv": "pūlēties; censties; nopūlēties",
+    "lv": "Pūlēties • Censties • Nopūlēties",
     "level": "B1"
   },
   {
     "de": "benachbart",
-    "lv": "kaimiņu; tuvējs",
+    "lv": "Kaimiņu • Tuvējs",
     "level": "B1"
   },
   {
     "de": "benachrichtigen",
-    "lv": "paziņot; darīt zināmu",
+    "lv": "Paziņot • Darīt zināmu",
     "level": "B1"
   },
   {
     "de": "sich benehmen",
-    "lv": "izturēties; uzvesties",
+    "lv": "Izturēties • Uzvesties",
     "level": "B1"
   },
   {
     "de": "das Benehmen",
-    "lv": "izturēšanās; uzvešanās; uzvedība",
+    "lv": "Izturēšanās • Uzvešanās • Uzvedība",
     "level": "B1"
   },
   {
@@ -1851,7 +1851,7 @@ const B1_WORDS = [
   },
   {
     "de": "beobachten",
-    "lv": "vērot; novērot; ievērot",
+    "lv": "Vērot • Novērot • Ievērot",
     "level": "B1"
   },
   {
@@ -1861,12 +1861,12 @@ const B1_WORDS = [
   },
   {
     "de": "die Bequemlichkeit",
-    "lv": "ērtība; ērtības; komforts",
+    "lv": "Ērtība • Ērtības • Komforts",
     "level": "B1"
   },
   {
     "de": "beraten",
-    "lv": "dot padomu; konsultēt; apspriest",
+    "lv": "Dot padomu • Konsultēt • Apspriest",
     "level": "B1"
   },
   {
@@ -1881,7 +1881,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Beratung",
-    "lv": "apspriešana; konsultēšana; konsultācija; apspriede",
+    "lv": "Apspriešana • Konsultēšana • Konsultācija • Apspriede",
     "level": "B1"
   },
   {
@@ -1891,22 +1891,22 @@ const B1_WORDS = [
   },
   {
     "de": "die Berechnung",
-    "lv": "aprēķināšana; aprēķins",
+    "lv": "Aprēķināšana • Aprēķins",
     "level": "B1"
   },
   {
     "de": "bereden",
-    "lv": "pārrunāt; apspriest",
+    "lv": "Pārrunāt • Apspriest",
     "level": "B1"
   },
   {
     "de": "der Bereich",
-    "lv": "rajons; apvidus; nozare; sfēra",
+    "lv": "Rajons • Apvidus • Nozare • Sfēra",
     "level": "B1"
   },
   {
     "de": "bereiten",
-    "lv": "sagatavot; gatavot; sagādāt",
+    "lv": "Sagatavot • Gatavot • Sagādāt",
     "level": "B1"
   },
   {
@@ -1931,12 +1931,12 @@ const B1_WORDS = [
   },
   {
     "de": "bergab",
-    "lv": "lejup; no kalna lejā",
+    "lv": "Lejup • No kalna lejā",
     "level": "B1"
   },
   {
     "de": "bergauf",
-    "lv": "kalnup; pret kalnu",
+    "lv": "Kalnup • Pret kalnu",
     "level": "B1"
   },
   {
@@ -1951,12 +1951,12 @@ const B1_WORDS = [
   },
   {
     "de": "der Bericht",
-    "lv": "ziņojums; pārskats",
+    "lv": "Ziņojums • Pārskats",
     "level": "B1"
   },
   {
     "de": "berichten",
-    "lv": "ziņot; paziņot; izstāstīt; pastāstīt",
+    "lv": "Ziņot • Paziņot • Izstāstīt • Pastāstīt",
     "level": "B1"
   },
   {
@@ -1966,7 +1966,7 @@ const B1_WORDS = [
   },
   {
     "de": "berücksichtigen",
-    "lv": "ievērot; ņemt vērā",
+    "lv": "Ievērot • Ņemt vērā",
     "level": "B1"
   },
   {
@@ -1991,22 +1991,22 @@ const B1_WORDS = [
   },
   {
     "de": "beruhigen",
-    "lv": "mierināt; nomierināt; remdināt",
+    "lv": "Mierināt • Nomierināt • Remdināt",
     "level": "B1"
   },
   {
     "de": "sich beruhigen",
-    "lv": "nomierināties; apmierināties; norimt; aprimst",
+    "lv": "Nomierināties • Apmierināties • Norimt • Aprimst",
     "level": "B1"
   },
   {
     "de": "die Berühmtheit",
-    "lv": "slava; slavenība",
+    "lv": "Slava • Slavenība",
     "level": "B1"
   },
   {
     "de": "berühren",
-    "lv": "pieskarties; piedurties; aiztikt; skart; aizskart",
+    "lv": "Pieskarties • Piedurties • Aiztikt • Skart • Aizskart",
     "level": "B1"
   },
   {
@@ -2016,17 +2016,17 @@ const B1_WORDS = [
   },
   {
     "de": "die Berührung",
-    "lv": "pieskaršanās; pieduršanās; aizskaršana; pieskāriens; saskare; kontakts",
+    "lv": "Pieskaršanās • Pieduršanās • Aizskaršana • Pieskāriens • Saskare • Kontakts",
     "level": "B1"
   },
   {
     "de": "beschädigen",
-    "lv": "bojāt; maitāt; ievainot",
+    "lv": "Bojāt • Maitāt • Ievainot",
     "level": "B1"
   },
   {
     "de": "beschaffen",
-    "lv": "apgādāt; sagādāt; sadabūt",
+    "lv": "Apgādāt • Sagādāt • Sadabūt",
     "level": "B1"
   },
   {
@@ -2041,32 +2041,32 @@ const B1_WORDS = [
   },
   {
     "de": "beschäftigt",
-    "lv": "nodarbināts; aizņemts",
+    "lv": "Nodarbināts • Aizņemts",
     "level": "B1"
   },
   {
     "de": "die Beschäftigung",
-    "lv": "nodarbošanās; darbs; nodarbināšana",
+    "lv": "Nodarbošanās • Darbs • Nodarbināšana",
     "level": "B1"
   },
   {
     "de": "der Bescheid",
-    "lv": "atbilde; lēmums",
+    "lv": "Atbilde • Lēmums",
     "level": "B1"
   },
   {
     "de": "bescheiden",
-    "lv": "vienkāršs; pieticīgs",
+    "lv": "Vienkāršs • Pieticīgs",
     "level": "B1"
   },
   {
     "de": "beschleunigen",
-    "lv": "paātrināt; pasteidzināt",
+    "lv": "Paātrināt • Pasteidzināt",
     "level": "B1"
   },
   {
     "de": "beschließen",
-    "lv": "nolemt; izlemt; nospriest; nobeigt; pabeigt; noslēgt",
+    "lv": "Nolemt • Izlemt • Nospriest • Nobeigt • Pabeigt • Noslēgt",
     "level": "B1"
   },
   {
@@ -2076,67 +2076,67 @@ const B1_WORDS = [
   },
   {
     "de": "beschützen",
-    "lv": "aizsargāt; nosargāt; apsargāt",
+    "lv": "Aizsargāt • Nosargāt • Apsargāt",
     "level": "B1"
   },
   {
     "de": "die Beschwerde",
-    "lv": "sūdzība; kaite; vaina",
+    "lv": "Sūdzība • Kaite • Vaina",
     "level": "B1"
   },
   {
     "de": "sich beschweren",
-    "lv": "žēloties; sūdzēties",
+    "lv": "Žēloties • Sūdzēties",
     "level": "B1"
   },
   {
     "de": "besehen",
-    "lv": "apskatīt; aplūkot",
+    "lv": "Apskatīt • Aplūkot",
     "level": "B1"
   },
   {
     "de": "beseitigen",
-    "lv": "novērst; likvidēt",
+    "lv": "Novērst • Likvidēt",
     "level": "B1"
   },
   {
     "de": "besetzen",
-    "lv": "aizņemt; ieņemt; okupēt",
+    "lv": "Aizņemt • Ieņemt • Okupēt",
     "level": "B1"
   },
   {
     "de": "besichtigen",
-    "lv": "apskatīt; aplūkot",
+    "lv": "Apskatīt • Aplūkot",
     "level": "B1"
   },
   {
     "de": "die Besichtigung",
-    "lv": "apskate; apskatīšana; aplūkošana",
+    "lv": "Apskate • Apskatīšana • Aplūkošana",
     "level": "B1"
   },
   {
     "de": "besiegen",
-    "lv": "uzvarēt; uzveikt",
+    "lv": "Uzvarēt • Uzveikt",
     "level": "B1"
   },
   {
     "de": "besorgen",
-    "lv": "sagādāt; apgādāt; izgādāt; rūpēties; gādāt",
+    "lv": "Sagādāt • Apgādāt • Izgādāt • Rūpēties • Gādāt",
     "level": "B1"
   },
   {
     "de": "besprechen",
-    "lv": "pārrunāt; apspriest",
+    "lv": "Pārrunāt • Apspriest",
     "level": "B1"
   },
   {
     "de": "bessern",
-    "lv": "labot; uzlabot",
+    "lv": "Labot • Uzlabot",
     "level": "B1"
   },
   {
     "de": "sich bessern",
-    "lv": "laboties; uzlaboties",
+    "lv": "Laboties • Uzlaboties",
     "level": "B1"
   },
   {
@@ -2151,22 +2151,22 @@ const B1_WORDS = [
   },
   {
     "de": "bestätigen",
-    "lv": "apstiprināt; apliecināt",
+    "lv": "Apstiprināt • Apliecināt",
     "level": "B1"
   },
   {
     "de": "bestehen",
-    "lv": "izturēt; pāriciest; pārvarēt; pastāvēt; eksistēt; būt; sastāvēt; pastāvēt; uzstāt; pieprasīt",
+    "lv": "Izturēt • Pāriciest • Pārvarēt • Pastāvēt • Eksistēt • Būt • Sastāvēt • Pastāvēt • Uzstāt • Pieprasīt",
     "level": "B1"
   },
   {
     "de": "bestimmen",
-    "lv": "noteikt; nosacīt; nolemt; nozīmēt; paredzēt; domāt",
+    "lv": "Noteikt • Nosacīt • Nolemt • Nozīmēt • Paredzēt • Domāt",
     "level": "B1"
   },
   {
     "de": "die Bestimmung",
-    "lv": "noteikšana; nosacīšana; noteikums; aicinājums; misija",
+    "lv": "Noteikšana • Nosacīšana • Noteikums • Aicinājums • Misija",
     "level": "B1"
   },
   {
@@ -2191,52 +2191,52 @@ const B1_WORDS = [
   },
   {
     "de": "betonen",
-    "lv": "uzsvērt; akcentēt",
+    "lv": "Uzsvērt • Akcentēt",
     "level": "B1"
   },
   {
     "de": "die Betonung",
-    "lv": "uzsvars; akcents",
+    "lv": "Uzsvars • Akcents",
     "level": "B1"
   },
   {
     "de": "betrachten",
-    "lv": "apskatīt; aplūkot; vērot",
+    "lv": "Apskatīt • Aplūkot • Vērot",
     "level": "B1"
   },
   {
     "de": "der Betrag",
-    "lv": "summa; kopsumma",
+    "lv": "Summa • Kopsumma",
     "level": "B1"
   },
   {
     "de": "betragen",
-    "lv": "sasniegt; sastādīt",
+    "lv": "Sasniegt • Sastādīt",
     "level": "B1"
   },
   {
     "de": "betreffen",
-    "lv": "attiekties; zīmēties; skart",
+    "lv": "Attiekties • Zīmēties • Skart",
     "level": "B1"
   },
   {
     "de": "betreiben",
-    "lv": "nodarboties; vadīt",
+    "lv": "Nodarboties • Vadīt",
     "level": "B1"
   },
   {
     "de": "der Betrieb",
-    "lv": "uzņēmums; rūpnīca; fabrika; ekspluatācija; rosība; kustība",
+    "lv": "Uzņēmums • Rūpnīca • Fabrika • Ekspluatācija • Rosība • Kustība",
     "level": "B1"
   },
   {
     "de": "betrübt",
-    "lv": "noskumis; bēdīgs; apbēdināts; skumjš",
+    "lv": "Noskumis • Bēdīgs • Apbēdināts • Skumjš",
     "level": "B1"
   },
   {
     "de": "betrügen",
-    "lv": "piekrāpt; piemānīt; pievilt",
+    "lv": "Piekrāpt • Piemānīt • Pievilt",
     "level": "B1"
   },
   {
@@ -2246,27 +2246,27 @@ const B1_WORDS = [
   },
   {
     "de": "beugen",
-    "lv": "liekt; locīt; saliekt; locīt",
+    "lv": "Liekt • Locīt • Saliekt • Locīt",
     "level": "B1"
   },
   {
     "de": "die Beule",
-    "lv": "puns; iedauzījums; iespiedums",
+    "lv": "Puns • Iedauzījums • Iespiedums",
     "level": "B1"
   },
   {
     "de": "beunruhigen",
-    "lv": "satraukt; sagādāt raizes",
+    "lv": "Satraukt • Sagādāt raizes",
     "level": "B1"
   },
   {
     "de": "beurteilen",
-    "lv": "vērtēt; novērtēt; spriest",
+    "lv": "Vērtēt • Novērtēt • Spriest",
     "level": "B1"
   },
   {
     "de": "der Beutel",
-    "lv": "maks; kule; maisiņš; naudas maks; atritināmais maisiņš",
+    "lv": "Maks • Kule • Maisiņš • Naudas maks • Atritināmais maisiņš",
     "level": "B1"
   },
   {
@@ -2276,22 +2276,22 @@ const B1_WORDS = [
   },
   {
     "de": "bevorzugen",
-    "lv": "dot priekšroku; atzīt par labāku; patikt labāk",
+    "lv": "Dot priekšroku • Atzīt par labāku • Patikt labāk",
     "level": "B1"
   },
   {
     "de": "bewachen",
-    "lv": "sargāt; apsargāt",
+    "lv": "Sargāt • Apsargāt",
     "level": "B1"
   },
   {
     "de": "bewegen",
-    "lv": "kustināt; pakustināt; aizgrābt; saviļņot; ierosināt; piedabūt",
+    "lv": "Kustināt • Pakustināt • Aizgrābt • Saviļņot • Ierosināt • Piedabūt",
     "level": "B1"
   },
   {
     "de": "die Bewegung",
-    "lv": "kustība; apzināta darbība; saviļņojums; sakustēšanās",
+    "lv": "Kustība • Apzināta darbība • Saviļņojums • Sakustēšanās",
     "level": "B1"
   },
   {
@@ -2306,62 +2306,62 @@ const B1_WORDS = [
   },
   {
     "de": "bewerten",
-    "lv": "vērtēt; novērtēt",
+    "lv": "Vērtēt • Novērtēt",
     "level": "B1"
   },
   {
     "de": "bewirten",
-    "lv": "pacienāt; cienāt; pamielot; mielot",
+    "lv": "Pacienāt • Cienāt • Pamielot • Mielot",
     "level": "B1"
   },
   {
     "de": "bewohnen",
-    "lv": "apdzīvot; dzīvot",
+    "lv": "Apdzīvot • Dzīvot",
     "level": "B1"
   },
   {
     "de": "der Bewohner",
-    "lv": "iedzīvotājs; iemītnieks",
+    "lv": "Iedzīvotājs • Iemītnieks",
     "level": "B1"
   },
   {
     "de": "die Bewunderung",
-    "lv": "apbrīnošana; apbrīns",
+    "lv": "Apbrīnošana • Apbrīns",
     "level": "B1"
   },
   {
     "de": "bewusst",
-    "lv": "apzināts; zināms",
+    "lv": "Apzināts • Zināms",
     "level": "B1"
   },
   {
     "de": "bezeichnen",
-    "lv": "apzīmēt; iezīmēt",
+    "lv": "Apzīmēt • Iezīmēt",
     "level": "B1"
   },
   {
     "de": "die Bezeichnung",
-    "lv": "apzīmēšana; apzīmējums; nosaukums",
+    "lv": "Apzīmēšana • Apzīmējums • Nosaukums",
     "level": "B1"
   },
   {
     "de": "beziehen",
-    "lv": "apvilkt; parvilkt; apvilkt; saņemt; dabūt; pāriet dzīvot jaunā dzīvoklī; attiekties",
+    "lv": "Apvilkt • Parvilkt • Apvilkt • Saņemt • Dabūt • Pāriet dzīvot jaunā dzīvoklī • Attiekties",
     "level": "B1"
   },
   {
     "de": "die Beziehung",
-    "lv": "attiecības; sakars; ziņā",
+    "lv": "Attiecības • Sakars • Ziņā",
     "level": "B1"
   },
   {
     "de": "der Bezirk",
-    "lv": "iecirknis; rajons; apriņķis",
+    "lv": "Iecirknis • Rajons • Apriņķis",
     "level": "B1"
   },
   {
     "de": "bezweifeln",
-    "lv": "apšaubīt; šaubīties",
+    "lv": "Apšaubīt • Šaubīties",
     "level": "B1"
   },
   {
@@ -2381,7 +2381,7 @@ const B1_WORDS = [
   },
   {
     "de": "biegen",
-    "lv": "liekt; locīt",
+    "lv": "Liekt • Locīt",
     "level": "B1"
   },
   {
@@ -2391,7 +2391,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Biss",
-    "lv": "kodiens; kodums",
+    "lv": "Kodiens • Kodums",
     "level": "B1"
   },
   {
@@ -2401,17 +2401,17 @@ const B1_WORDS = [
   },
   {
     "de": "die Bildung",
-    "lv": "izglītība; veidošana; sasaistīšana",
+    "lv": "Izglītība • Veidošana • Sasaistīšana",
     "level": "B1"
   },
   {
     "de": "die Binde",
-    "lv": "apsējs; saite",
+    "lv": "Apsējs • Saite",
     "level": "B1"
   },
   {
     "de": "binden",
-    "lv": "siet; sasiet; piesiet; apsiet; iesiet",
+    "lv": "Siet • Sasiet • Piesiet • Apsiet • Iesiet",
     "level": "B1"
   },
   {
@@ -2426,7 +2426,7 @@ const B1_WORDS = [
   },
   {
     "de": "bieten",
-    "lv": "piesolīt; piedāvāt; sniegt; dot; solīt; sauļošanās kostīms",
+    "lv": "Piesolīt • Piedāvāt • Sniegt • Dot • Solīt • Sauļošanās kostīms",
     "level": "B1"
   },
   {
@@ -2436,27 +2436,27 @@ const B1_WORDS = [
   },
   {
     "de": "bilden",
-    "lv": "veidot; izveidot; sastādīt; izveidoties; rasties",
+    "lv": "Veidot • Izveidot • Sastādīt • Izveidoties • Rasties",
     "level": "B1"
   },
   {
     "de": "blamieren",
-    "lv": "apkaunot; darīt kaunu",
+    "lv": "Apkaunot • Darīt kaunu",
     "level": "B1"
   },
   {
     "de": "sich blamieren",
-    "lv": "darīt sev kaunu; izblamēties",
+    "lv": "Darīt sev kaunu • Izblamēties",
     "level": "B1"
   },
   {
     "de": "blank",
-    "lv": "spožs; spodrs",
+    "lv": "Spožs • Spodrs",
     "level": "B1"
   },
   {
     "de": "die Blase",
-    "lv": "burbulis; tulzna; pūslis",
+    "lv": "Burbulis • Tulzna • Pūslis",
     "level": "B1"
   },
   {
@@ -2466,7 +2466,7 @@ const B1_WORDS = [
   },
   {
     "de": "das Blech",
-    "lv": "skārds; blēņas",
+    "lv": "Skārds • Blēņas",
     "level": "B1"
   },
   {
@@ -2481,17 +2481,17 @@ const B1_WORDS = [
   },
   {
     "de": "blicken",
-    "lv": "skatīties; raudzīties; lūkoties",
+    "lv": "Skatīties • Raudzīties • Lūkoties",
     "level": "B1"
   },
   {
     "de": "der Blinde",
-    "lv": "aklais; neredzīgais",
+    "lv": "Aklais • Neredzīgais",
     "level": "B1"
   },
   {
     "de": "blinken",
-    "lv": "mirdzēt; spīdēt; signalizēt ar gaismas signāliem",
+    "lv": "Mirdzēt • Spīdēt • Signalizēt ar gaismas signāliem",
     "level": "B1"
   },
   {
@@ -2501,12 +2501,12 @@ const B1_WORDS = [
   },
   {
     "de": "blitzen",
-    "lv": "zibeņot; zibsnīt; spīdēt; mirdzēt; zibēt",
+    "lv": "Zibeņot • Zibsnīt • Spīdēt • Mirdzēt • Zibēt",
     "level": "B1"
   },
   {
     "de": "der Block",
-    "lv": "bluķis; klucis; blāķis; bloks; bloknots",
+    "lv": "Bluķis • Klucis • Blāķis • Bloks • Bloknots",
     "level": "B1"
   },
   {
@@ -2516,7 +2516,7 @@ const B1_WORDS = [
   },
   {
     "de": "bloß",
-    "lv": "kails; pliks; tikai",
+    "lv": "Kails • Pliks • Tikai",
     "level": "B1"
   },
   {
@@ -2536,7 +2536,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Blüte",
-    "lv": "zieds; uzplaukums; plauksme; ziedu laiki",
+    "lv": "Zieds • Uzplaukums • Plauksme • Ziedu laiki",
     "level": "B1"
   },
   {
@@ -2546,12 +2546,12 @@ const B1_WORDS = [
   },
   {
     "de": "die Bockwurst",
-    "lv": "sardele; desiņa; alus desa",
+    "lv": "Sardele • Desiņa • Alus desa",
     "level": "B1"
   },
   {
     "de": "der Bogen",
-    "lv": "loks; arka; lociņš; likums; loksne",
+    "lv": "Loks • Arka • Lociņš • Likums • Loksne",
     "level": "B1"
   },
   {
@@ -2566,7 +2566,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Bohrer",
-    "lv": "urbējs; urbis",
+    "lv": "Urbējs • Urbis",
     "level": "B1"
   },
   {
@@ -2591,12 +2591,12 @@ const B1_WORDS = [
   },
   {
     "de": "die Botschaft",
-    "lv": "vēsts; vēstījums; ziņa; vēstniecība",
+    "lv": "Vēsts • Vēstījums • Ziņa • Vēstniecība",
     "level": "B1"
   },
   {
     "de": "die Boutique",
-    "lv": "modes preču veikals; modes salons",
+    "lv": "Modes preču veikals • Modes salons",
     "level": "B1"
   },
   {
@@ -2621,12 +2621,12 @@ const B1_WORDS = [
   },
   {
     "de": "die Branche",
-    "lv": "nozare; specialitāte",
+    "lv": "Nozare • Specialitāte",
     "level": "B1"
   },
   {
     "de": "der Brand",
-    "lv": "ugunsgrēks; dedzināšana; apdedzināšana; svelme; karstums",
+    "lv": "Ugunsgrēks • Dedzināšana • Apdedzināšana • Svelme • Karstums",
     "level": "B1"
   },
   {
@@ -2641,7 +2641,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Brauch",
-    "lv": "paraža; ieraža",
+    "lv": "Paraža • Ieraža",
     "level": "B1"
   },
   {
@@ -2661,7 +2661,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Breite",
-    "lv": "platums; platuma grāds",
+    "lv": "Platums • Platuma grāds",
     "level": "B1"
   },
   {
@@ -2681,7 +2681,7 @@ const B1_WORDS = [
   },
   {
     "de": "brennend",
-    "lv": "degošs; dedzinošs; smeldzošs",
+    "lv": "Degošs • Dedzinošs • Smeldzošs",
     "level": "B1"
   },
   {
@@ -2691,12 +2691,12 @@ const B1_WORDS = [
   },
   {
     "de": "der Brennstoff",
-    "lv": "kurināmais; degviela",
+    "lv": "Kurināmais • Degviela",
     "level": "B1"
   },
   {
     "de": "das Brett",
-    "lv": "dēlis; šaha galdiņš",
+    "lv": "Dēlis • Šaha galdiņš",
     "level": "B1"
   },
   {
@@ -2711,12 +2711,12 @@ const B1_WORDS = [
   },
   {
     "de": "der Brocken",
-    "lv": "kumoss; druska; drupata; gabals",
+    "lv": "Kumoss • Druska • Drupata • Gabals",
     "level": "B1"
   },
   {
     "de": "die Brosche",
-    "lv": "sakta; piespraude",
+    "lv": "Sakta • Piespraude",
     "level": "B1"
   },
   {
@@ -2726,7 +2726,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Bruch",
-    "lv": "lūzums; lauzums; laušana",
+    "lv": "Lūzums • Lauzums • Laušana",
     "level": "B1"
   },
   {
@@ -2751,22 +2751,22 @@ const B1_WORDS = [
   },
   {
     "de": "brüllen",
-    "lv": "rūkt; rēkt; maut; maurot; baurot",
+    "lv": "Rūkt • Rēkt • Maut • Maurot • Baurot",
     "level": "B1"
   },
   {
     "de": "brummen",
-    "lv": "rūkt; dūkt",
+    "lv": "Rūkt • Dūkt",
     "level": "B1"
   },
   {
     "de": "der Brunnen",
-    "lv": "aka; avots",
+    "lv": "Aka • Avots",
     "level": "B1"
   },
   {
     "de": "brutal",
-    "lv": "brutāls; rupjš",
+    "lv": "Brutāls • Rupjš",
     "level": "B1"
   },
   {
@@ -2781,7 +2781,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Büchse",
-    "lv": "kārba; doze; bise; šautene",
+    "lv": "Kārba • Doze • Bise • Šautene",
     "level": "B1"
   },
   {
@@ -2796,12 +2796,12 @@ const B1_WORDS = [
   },
   {
     "de": "sich bücken",
-    "lv": "liekties; pieliekties; noliekties",
+    "lv": "Liekties • Pieliekties • Noliekties",
     "level": "B1"
   },
   {
     "de": "die Bude",
-    "lv": "būda; kiosks",
+    "lv": "Būda • Kiosks",
     "level": "B1"
   },
   {
@@ -2811,32 +2811,32 @@ const B1_WORDS = [
   },
   {
     "de": "die Bühne",
-    "lv": "skatuve; estrāde; tribīne",
+    "lv": "Skatuve • Estrāde • Tribīne",
     "level": "B1"
   },
   {
     "de": "die Bulette",
-    "lv": "frikadele; kotlete",
+    "lv": "Frikadele • Kotlete",
     "level": "B1"
   },
   {
     "de": "der Bulle",
-    "lv": "bullis; kruķis",
+    "lv": "Bullis • Kruķis",
     "level": "B1"
   },
   {
     "de": "der Bund",
-    "lv": "savienība; federācija; līga; saišķis; kūlis; žūksnis; nasta; sainis; pauna",
+    "lv": "Savienība • Federācija • Līga • Saišķis • Kūlis • Žūksnis • Nasta • Sainis • Pauna",
     "level": "B1"
   },
   {
     "de": "das Bündel",
-    "lv": "neliels sainis; nasta; saišķis; kūlis",
+    "lv": "Neliels sainis • Nasta • Saišķis • Kūlis",
     "level": "B1"
   },
   {
     "de": "die Burg",
-    "lv": "pils; cietoksnis",
+    "lv": "Pils • Cietoksnis",
     "level": "B1"
   },
   {
@@ -2846,22 +2846,22 @@ const B1_WORDS = [
   },
   {
     "de": "der Büroangestellte",
-    "lv": "kantora/biroja darbinieks",
+    "lv": "Kantora • Biroja darbinieks",
     "level": "B1"
   },
   {
     "de": "bürsten",
-    "lv": "sukāt; notīrīt ar suku",
+    "lv": "Sukāt • Notīrīt ar suku",
     "level": "B1"
   },
   {
     "de": "der Busch",
-    "lv": "krūms; krūmājs",
+    "lv": "Krūms • Krūmājs",
     "level": "B1"
   },
   {
     "de": "der Busen",
-    "lv": "krūtis; azote",
+    "lv": "Krūtis • Azote",
     "level": "B1"
   },
   {
@@ -2876,7 +2876,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Cartoon",
-    "lv": "zīmējums; politiska karikatūra",
+    "lv": "Zīmējums • Politiska karikatūra",
     "level": "B1"
   },
   {
@@ -2906,7 +2906,7 @@ const B1_WORDS = [
   },
   {
     "de": "checken",
-    "lv": "pārbaudīt; izkontrolēt; saprast; aptvert",
+    "lv": "Pārbaudīt • Izkontrolēt • Saprast • Aptvert",
     "level": "B1"
   },
   {
@@ -2916,7 +2916,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Chip",
-    "lv": "čips; silikona mikroshēma; kartupeļu čipss",
+    "lv": "Čips • Silikona mikroshēma • Kartupeļu čipss",
     "level": "B1"
   },
   {
@@ -2931,7 +2931,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Christ",
-    "lv": "kristīgais; kristietis",
+    "lv": "Kristīgais • Kristietis",
     "level": "B1"
   },
   {
@@ -2941,7 +2941,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Code",
-    "lv": "kods; šifrs",
+    "lv": "Kods • Šifrs",
     "level": "B1"
   },
   {
@@ -2966,12 +2966,12 @@ const B1_WORDS = [
   },
   {
     "de": "dadurch",
-    "lv": "ar to; tādēļ; tāpēc",
+    "lv": "Ar to • Tādēļ • Tāpēc",
     "level": "B1"
   },
   {
     "de": "dagegen",
-    "lv": "pret to; turpretim",
+    "lv": "Pret to • Turpretim",
     "level": "B1"
   },
   {
@@ -2981,12 +2981,12 @@ const B1_WORDS = [
   },
   {
     "de": "daher",
-    "lv": "no turienes; tāpēc; tādēļ",
+    "lv": "No turienes • Tāpēc • Tādēļ",
     "level": "B1"
   },
   {
     "de": "dahin",
-    "lv": "turp; uz turieni; projām; pagalam",
+    "lv": "Turp • Uz turieni • Projām • Pagalam",
     "level": "B1"
   },
   {
@@ -2996,7 +2996,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Dampf",
-    "lv": "tvaiks; garaiņi; suta",
+    "lv": "Tvaiks • Garaiņi • Suta",
     "level": "B1"
   },
   {
@@ -3011,7 +3011,7 @@ const B1_WORDS = [
   },
   {
     "de": "daran",
-    "lv": "pie tā; par to",
+    "lv": "Pie tā • Par to",
     "level": "B1"
   },
   {
@@ -3021,12 +3021,12 @@ const B1_WORDS = [
   },
   {
     "de": "darstellen",
-    "lv": "tēlot; attēlot; iztēlot",
+    "lv": "Tēlot • Attēlot • Iztēlot",
     "level": "B1"
   },
   {
     "de": "darunter",
-    "lv": "zem tā; apakšā; to starpā; tā skaitā",
+    "lv": "Zem tā • Apakšā • To starpā • Tā skaitā",
     "level": "B1"
   },
   {
@@ -3051,12 +3051,12 @@ const B1_WORDS = [
   },
   {
     "de": "dazwischen",
-    "lv": "starpā; pa starpām; pa to starpu",
+    "lv": "Starpā • Pa starpām • Pa to starpu",
     "level": "B1"
   },
   {
     "de": "decken",
-    "lv": "segt; apsegt; klāt; apklāt",
+    "lv": "Segt • Apsegt • Klāt • Apklāt",
     "level": "B1"
   },
   {
@@ -3091,7 +3091,7 @@ const B1_WORDS = [
   },
   {
     "de": "dennoch",
-    "lv": "tomēr; taču",
+    "lv": "Tomēr • Taču",
     "level": "B1"
   },
   {
@@ -3116,7 +3116,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Dialog",
-    "lv": "dialogs; saruna",
+    "lv": "Dialogs • Saruna",
     "level": "B1"
   },
   {
@@ -3126,7 +3126,7 @@ const B1_WORDS = [
   },
   {
     "de": "dicht",
-    "lv": "biezs; blīvs; ciešs",
+    "lv": "Biezs • Blīvs • Ciešs",
     "level": "B1"
   },
   {
@@ -3146,12 +3146,12 @@ const B1_WORDS = [
   },
   {
     "de": "dienen",
-    "lv": "kalpot; palīdzēt; kalpot armijā; noderēt",
+    "lv": "Kalpot • Palīdzēt • Kalpot armijā • Noderēt",
     "level": "B1"
   },
   {
     "de": "der Dienst",
-    "lv": "dienests; darbs; pakalpojums",
+    "lv": "Dienests • Darbs • Pakalpojums",
     "level": "B1"
   },
   {
@@ -3186,7 +3186,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Disko",
-    "lv": "diskotēka; skaņu ierakstu kolekcija; fonotēka; disko stils",
+    "lv": "Diskotēka • Skaņu ierakstu kolekcija • Fonotēka • Disko stils",
     "level": "B1"
   },
   {
@@ -3216,12 +3216,12 @@ const B1_WORDS = [
   },
   {
     "de": "der Donner",
-    "lv": "pērkons; dārdi",
+    "lv": "Pērkons • Dārdi",
     "level": "B1"
   },
   {
     "de": "die Dose",
-    "lv": "kārba; trauciņš ar vāku",
+    "lv": "Kārba • Trauciņš ar vāku",
     "level": "B1"
   },
   {
@@ -3231,12 +3231,12 @@ const B1_WORDS = [
   },
   {
     "de": "der Drachen",
-    "lv": "pūķis; deltaplāns",
+    "lv": "Pūķis • Deltaplāns",
     "level": "B1"
   },
   {
     "de": "der Draht",
-    "lv": "drāts; stieple",
+    "lv": "Drāts • Stieple",
     "level": "B1"
   },
   {
@@ -3256,17 +3256,17 @@ const B1_WORDS = [
   },
   {
     "de": "dreifach",
-    "lv": "trīskārtīgs; trīskārtējs; trīskārt",
+    "lv": "Trīskārtīgs • Trīskārtējs • Trīskārt",
     "level": "B1"
   },
   {
     "de": "dringend",
-    "lv": "steidzams; neatliekams",
+    "lv": "Steidzams • Neatliekams",
     "level": "B1"
   },
   {
     "de": "dritt",
-    "lv": "trijatā; pa trim; treškārt",
+    "lv": "Trijatā • Pa trim • Treškārt",
     "level": "B1"
   },
   {
@@ -3276,7 +3276,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Droge",
-    "lv": "droga; narkotikas",
+    "lv": "Droga • Narkotikas",
     "level": "B1"
   },
   {
@@ -3291,7 +3291,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Druck",
-    "lv": "spiediens; spaidi; iespiešana; iespiedums",
+    "lv": "Spiediens • Spaidi • Iespiešana • Iespiedums",
     "level": "B1"
   },
   {
@@ -3311,7 +3311,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Duft",
-    "lv": "aromāts; smarža",
+    "lv": "Aromāts • Smarža",
     "level": "B1"
   },
   {
@@ -3321,7 +3321,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Dummheit",
-    "lv": "muļķība; dumjība",
+    "lv": "Muļķība • Dumjība",
     "level": "B1"
   },
   {
@@ -3331,7 +3331,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Dunkelheit",
-    "lv": "tumsa; tumsība",
+    "lv": "Tumsa • Tumsība",
     "level": "B1"
   },
   {
@@ -3341,12 +3341,12 @@ const B1_WORDS = [
   },
   {
     "de": "durcheinander",
-    "lv": "juku jukām; cits caur citu",
+    "lv": "Juku jukām • Cits caur citu",
     "level": "B1"
   },
   {
     "de": "das Durcheinander",
-    "lv": "sajukums; juceklis; jūklis",
+    "lv": "Sajukums • Juceklis • Jūklis",
     "level": "B1"
   },
   {
@@ -3356,27 +3356,27 @@ const B1_WORDS = [
   },
   {
     "de": "der Durchfall",
-    "lv": "izkrišana; izgāšanās; caureja",
+    "lv": "Izkrišana • Izgāšanās • Caureja",
     "level": "B1"
   },
   {
     "de": "durchfallen",
-    "lv": "izgāzties; izkrist cauri",
+    "lv": "Izgāzties • Izkrist cauri",
     "level": "B1"
   },
   {
     "de": "durchführen",
-    "lv": "izvest cauri; izpildīt; izdarīt; veikt; realizēt",
+    "lv": "Izvest cauri • Izpildīt • Izdarīt • Veikt • Realizēt",
     "level": "B1"
   },
   {
     "de": "der Durchgang",
-    "lv": "eja; cauri iešana",
+    "lv": "Eja • Cauri iešana",
     "level": "B1"
   },
   {
     "de": "durchgehen",
-    "lv": "iziet cauri; tikt pieņemtam",
+    "lv": "Iziet cauri • Tikt pieņemtam",
     "level": "B1"
   },
   {
@@ -3401,12 +3401,12 @@ const B1_WORDS = [
   },
   {
     "de": "der Durchschnitt",
-    "lv": "šķērsgriezums; caurmērs; vidējais aritmētiskais",
+    "lv": "Šķērsgriezums • Caurmērs • Vidējais aritmētiskais",
     "level": "B1"
   },
   {
     "de": "durchschnittlich",
-    "lv": "caurmērā; vidēji",
+    "lv": "Caurmērā • Vidēji",
     "level": "B1"
   },
   {
@@ -3416,7 +3416,7 @@ const B1_WORDS = [
   },
   {
     "de": "durchstreichen",
-    "lv": "pārsvītrot; izsvītrot",
+    "lv": "Pārsvītrot • Izsvītrot",
     "level": "B1"
   },
   {
@@ -3436,7 +3436,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Ebene",
-    "lv": "līdzenums; klajums; plakne",
+    "lv": "Līdzenums • Klajums • Plakne",
     "level": "B1"
   },
   {
@@ -3456,22 +3456,22 @@ const B1_WORDS = [
   },
   {
     "de": "ehe",
-    "lv": "pirms; iekams",
+    "lv": "Pirms • Iekams",
     "level": "B1"
   },
   {
     "de": "ehemalig",
-    "lv": "kādreizējais; senākais; bijušais; agrākais",
+    "lv": "Kādreizējais • Senākais • Bijušais • Agrākais",
     "level": "B1"
   },
   {
     "de": "ehemals",
-    "lv": "kādreiz; senāk; agrāk",
+    "lv": "Kādreiz • Senāk • Agrāk",
     "level": "B1"
   },
   {
     "de": "eher",
-    "lv": "agrāk; ātrāk",
+    "lv": "Agrāk • Ātrāk",
     "level": "B1"
   },
   {
@@ -3501,7 +3501,7 @@ const B1_WORDS = [
   },
   {
     "de": "eigen",
-    "lv": "savs; paša; īpatnējs; raksturīgs; savāds; dīvains",
+    "lv": "Savs • Paša • Īpatnējs • Raksturīgs • Savāds • Dīvains",
     "level": "B1"
   },
   {
@@ -3521,17 +3521,17 @@ const B1_WORDS = [
   },
   {
     "de": "sich eignen",
-    "lv": "derēt; noderēt; būt piemērotam",
+    "lv": "Derēt • Noderēt • Būt piemērotam",
     "level": "B1"
   },
   {
     "de": "eilen",
-    "lv": "steigties; traukties; būt steidzamam",
+    "lv": "Steigties • Traukties • Būt steidzamam",
     "level": "B1"
   },
   {
     "de": "eilig",
-    "lv": "steidzīgs; steidzams",
+    "lv": "Steidzīgs • Steidzams",
     "level": "B1"
   },
   {
@@ -3551,17 +3551,17 @@ const B1_WORDS = [
   },
   {
     "de": "sich einbilden",
-    "lv": "iedomāties; būt iedomīgam",
+    "lv": "Iedomāties • Būt iedomīgam",
     "level": "B1"
   },
   {
     "de": "einbrechen",
-    "lv": "ielauzt; ielauzties; iestāties; uznākt",
+    "lv": "Ielauzt • Ielauzties • Iestāties • Uznākt",
     "level": "B1"
   },
   {
     "de": "eindeutig",
-    "lv": "nepārprotams; skaidrs",
+    "lv": "Nepārprotams • Skaidrs",
     "level": "B1"
   },
   {
@@ -3571,7 +3571,7 @@ const B1_WORDS = [
   },
   {
     "de": "einerlei",
-    "lv": "vienāds; tāds pats; vienalga",
+    "lv": "Vienāds • Tāds pats • Vienalga",
     "level": "B1"
   },
   {
@@ -3581,12 +3581,12 @@ const B1_WORDS = [
   },
   {
     "de": "die Einfahrt",
-    "lv": "iebraukšana; iebrauktuve; vārti; ieeja ostā",
+    "lv": "Iebraukšana • Iebrauktuve • Vārti • Ieeja ostā",
     "level": "B1"
   },
   {
     "de": "einfallen",
-    "lv": "iekrist; sabrukt; iebrukt; ienākt prātā",
+    "lv": "Iekrist • Sabrukt • Iebrukt • Ienākt prātā",
     "level": "B1"
   },
   {
@@ -3601,7 +3601,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Einfluss",
-    "lv": "ietekme; ieteka; grīva",
+    "lv": "Ietekme • Ieteka • Grīva",
     "level": "B1"
   },
   {
@@ -3611,32 +3611,32 @@ const B1_WORDS = [
   },
   {
     "de": "einführen",
-    "lv": "ievest; importēt; ieviest; ievadīt darbā",
+    "lv": "Ievest • Importēt • Ieviest • Ievadīt darbā",
     "level": "B1"
   },
   {
     "de": "die Einführung",
-    "lv": "ievešana; ieviešana; ievads; ievadījums",
+    "lv": "Ievešana • Ieviešana • Ievads • Ievadījums",
     "level": "B1"
   },
   {
     "de": "sich eingewöhnen",
-    "lv": "iedzīvoties; pierast",
+    "lv": "Iedzīvoties • Pierast",
     "level": "B1"
   },
   {
     "de": "einhalten",
-    "lv": "ievērot termiņu; ievērot rīkojumu",
+    "lv": "Ievērot termiņu • Ievērot rīkojumu",
     "level": "B1"
   },
   {
     "de": "einheimisch",
-    "lv": "vietējs; šejienes-; pašu zemes-",
+    "lv": "Vietējs • Šejienes • Pašu zemes",
     "level": "B1"
   },
   {
     "de": "die Einheit",
-    "lv": "vienība; vienotība; mērvienība",
+    "lv": "Vienība • Vienotība • Mērvienība",
     "level": "B1"
   },
   {
@@ -3651,12 +3651,12 @@ const B1_WORDS = [
   },
   {
     "de": "einheitlich",
-    "lv": "vienveidīgs; vienots",
+    "lv": "Vienveidīgs • Vienots",
     "level": "B1"
   },
   {
     "de": "einholen",
-    "lv": "panākt; iedzīt; nopirkt; dabūt; lūgt",
+    "lv": "Panākt • Iedzīt • Nopirkt • Dabūt • Lūgt",
     "level": "B1"
   },
   {
@@ -3666,7 +3666,7 @@ const B1_WORDS = [
   },
   {
     "de": "einigen",
-    "lv": "vienot; apvienot",
+    "lv": "Vienot • Apvienot",
     "level": "B1"
   },
   {
@@ -3676,7 +3676,7 @@ const B1_WORDS = [
   },
   {
     "de": "einigermaßen",
-    "lv": "kaut cik; necik; puslīdz; zināmā mērā",
+    "lv": "Kaut cik • Necik • Puslīdz • Zināmā mērā",
     "level": "B1"
   },
   {
@@ -3686,7 +3686,7 @@ const B1_WORDS = [
   },
   {
     "de": "einjährig",
-    "lv": "viengadīgs; viengadējs; gadu vecs",
+    "lv": "Viengadīgs • Viengadējs • Gadu vecs",
     "level": "B1"
   },
   {
@@ -3701,12 +3701,12 @@ const B1_WORDS = [
   },
   {
     "de": "einlegen",
-    "lv": "ielikt; iekonservēt; iemarinēt; iesālīt",
+    "lv": "Ielikt • Iekonservēt • Iemarinēt • Iesālīt",
     "level": "B1"
   },
   {
     "de": "die Einleitung",
-    "lv": "ievads; ievadījums",
+    "lv": "Ievads • Ievadījums",
     "level": "B1"
   },
   {
@@ -3716,7 +3716,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Einnahme",
-    "lv": "ieņēmums; ienākums; ieņemšana",
+    "lv": "Ieņēmums • Ienākums • Ieņemšana",
     "level": "B1"
   },
   {
@@ -3726,7 +3726,7 @@ const B1_WORDS = [
   },
   {
     "de": "einordnen",
-    "lv": "ierindot; iekļaut",
+    "lv": "Ierindot • Iekļaut",
     "level": "B1"
   },
   {
@@ -3741,27 +3741,27 @@ const B1_WORDS = [
   },
   {
     "de": "einrichten",
-    "lv": "ierīkot; iekārtot; izkārtot",
+    "lv": "Ierīkot • Iekārtot • Izkārtot",
     "level": "B1"
   },
   {
     "de": "die Einrichtung",
-    "lv": "ierīkošana; iekārtošana; iekārta",
+    "lv": "Ierīkošana • Iekārtošana • Iekārta",
     "level": "B1"
   },
   {
     "de": "der Einsatz",
-    "lv": "ieliktnis; rezerves daļa; laišana darbā; pielietošana; likme",
+    "lv": "Ieliktnis • Rezerves daļa • Laišana darbā • Pielietošana • Likme",
     "level": "B1"
   },
   {
     "de": "einschlagen",
-    "lv": "iesist; iedzīt; izsist; iespert; sākt iet pa ceļu",
+    "lv": "Iesist • Iedzīt • Izsist • Iespert • Sākt iet pa ceļu",
     "level": "B1"
   },
   {
     "de": "einschließen",
-    "lv": "ieslēgt; ielenkt; apņemt; ieskaitīt",
+    "lv": "Ieslēgt • Ielenkt • Apņemt • Ieskaitīt",
     "level": "B1"
   },
   {
@@ -3781,32 +3781,32 @@ const B1_WORDS = [
   },
   {
     "de": "einseitig",
-    "lv": "vienpusīgs; vienpusējs; uz vienas puses",
+    "lv": "Vienpusīgs • Vienpusējs • Uz vienas puses",
     "level": "B1"
   },
   {
     "de": "einsetzen",
-    "lv": "ielikt; ievietot; laist darbā; iecelt; sākt",
+    "lv": "Ielikt • Ievietot • Laist darbā • Iecelt • Sākt",
     "level": "B1"
   },
   {
     "de": "einsperren",
-    "lv": "ieslodzīt; ieslēgt",
+    "lv": "Ieslodzīt • Ieslēgt",
     "level": "B1"
   },
   {
     "de": "einst",
-    "lv": "reiz; kādreiz",
+    "lv": "Reiz • Kādreiz",
     "level": "B1"
   },
   {
     "de": "einstecken",
-    "lv": "iebāzt; paciest; samierināties",
+    "lv": "Iebāzt • Paciest • Samierināties",
     "level": "B1"
   },
   {
     "de": "einstellen",
-    "lv": "ielikt; ievietot; nolikt; novietot; pieņemt darbā; pārtraukt; noregulēt",
+    "lv": "Ielikt • Ievietot • Nolikt • Novietot • Pieņemt darbā • Pārtraukt • Noregulēt",
     "level": "B1"
   },
   {
@@ -3816,7 +3816,7 @@ const B1_WORDS = [
   },
   {
     "de": "einstürzen",
-    "lv": "sabrukt; sagāzties; iebrukt",
+    "lv": "Sabrukt • Sagāzties • Iebrukt",
     "level": "B1"
   },
   {
@@ -3826,7 +3826,7 @@ const B1_WORDS = [
   },
   {
     "de": "eintragen",
-    "lv": "ierakstīt; reģistrēt",
+    "lv": "Ierakstīt • Reģistrēt",
     "level": "B1"
   },
   {
@@ -3836,22 +3836,22 @@ const B1_WORDS = [
   },
   {
     "de": "eintreten",
-    "lv": "ieiet; ienākt; sākties; iestāties; aizstāvēt",
+    "lv": "Ieiet • Ienākt • Sākties • Iestāties • Aizstāvēt",
     "level": "B1"
   },
   {
     "de": "einwandern",
-    "lv": "ieceļot; imigrēt",
+    "lv": "Ieceļot • Imigrēt",
     "level": "B1"
   },
   {
     "de": "einwickeln",
-    "lv": "ietīt; satīt; ievīstīt",
+    "lv": "Ietīt • Satīt • Ievīstīt",
     "level": "B1"
   },
   {
     "de": "die Einzelheit",
-    "lv": "sīkums; detaļa",
+    "lv": "Sīkums • Detaļa",
     "level": "B1"
   },
   {
@@ -3861,12 +3861,12 @@ const B1_WORDS = [
   },
   {
     "de": "einzeln",
-    "lv": "atsevišķs; dažs; atsevišķi",
+    "lv": "Atsevišķs • Dažs • Atsevišķi",
     "level": "B1"
   },
   {
     "de": "einziehen",
-    "lv": "ievilkt; ievērt; ievākt ziņas; ievilkties; ievākties",
+    "lv": "Ievilkt • Ievērt • Ievākt ziņas • Ievilkties • Ievākties",
     "level": "B1"
   },
   {
@@ -3906,7 +3906,7 @@ const B1_WORDS = [
   },
   {
     "de": "eisig",
-    "lv": "ledains; auksts kā ledus",
+    "lv": "Ledains • Auksts kā ledus",
     "level": "B1"
   },
   {
@@ -3926,7 +3926,7 @@ const B1_WORDS = [
   },
   {
     "de": "ekelhaft",
-    "lv": "riebīgs; pretīgs",
+    "lv": "Riebīgs • Pretīgs",
     "level": "B1"
   },
   {
@@ -3941,12 +3941,12 @@ const B1_WORDS = [
   },
   {
     "de": "das Element",
-    "lv": "elements; pamati",
+    "lv": "Elements • Pamati",
     "level": "B1"
   },
   {
     "de": "elementar",
-    "lv": "elementārs; pamata-",
+    "lv": "Elementārs • Pamata",
     "level": "B1"
   },
   {
@@ -3956,42 +3956,42 @@ const B1_WORDS = [
   },
   {
     "de": "elend",
-    "lv": "nožēlojams; trūcīgs; nabadzīgs",
+    "lv": "Nožēlojams • Trūcīgs • Nabadzīgs",
     "level": "B1"
   },
   {
     "de": "das Elend",
-    "lv": "posts; nabadzība",
+    "lv": "Posts • Nabadzība",
     "level": "B1"
   },
   {
     "de": "der Empfang",
-    "lv": "saņemšana; viesu uzņemšana; pieņemšana; uztveršana",
+    "lv": "Saņemšana • Viesu uzņemšana • Pieņemšana • Uztveršana",
     "level": "B1"
   },
   {
     "de": "empfangen",
-    "lv": "saņemt; uzņemt viesus; pieņemt; uztvert",
+    "lv": "Saņemt • Uzņemt viesus • Pieņemt • Uztvert",
     "level": "B1"
   },
   {
     "de": "der Empfänger",
-    "lv": "saņēmējs; uztvērējs",
+    "lv": "Saņēmējs • Uztvērējs",
     "level": "B1"
   },
   {
     "de": "die Empfehlung",
-    "lv": "padoms; ieteikums",
+    "lv": "Padoms • Ieteikums",
     "level": "B1"
   },
   {
     "de": "empfinden",
-    "lv": "just; sajust; izjust",
+    "lv": "Just • Sajust • Izjust",
     "level": "B1"
   },
   {
     "de": "empfindlich",
-    "lv": "jutīgs; manāms; jūtams; viegli aizvainojams",
+    "lv": "Jutīgs • Manāms • Jūtams • Viegli aizvainojams",
     "level": "B1"
   },
   {
@@ -4006,7 +4006,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Endstation",
-    "lv": "galastacija; galapunkts",
+    "lv": "Galastacija • Galapunkts",
     "level": "B1"
   },
   {
@@ -4026,22 +4026,22 @@ const B1_WORDS = [
   },
   {
     "de": "entfernen",
-    "lv": "attālināt; dabūt projām; novērst; iztīrīt",
+    "lv": "Attālināt • Dabūt projām • Novērst • Iztīrīt",
     "level": "B1"
   },
   {
     "de": "sich entfernen",
-    "lv": "attālināties; aiziet",
+    "lv": "Attālināties • Aiziet",
     "level": "B1"
   },
   {
     "de": "die Entfernung",
-    "lv": "attālums; atstatums",
+    "lv": "Attālums • Atstatums",
     "level": "B1"
   },
   {
     "de": "entgegen",
-    "lv": "pret; pretī; pretim",
+    "lv": "Pret • Pretī • Pretim",
     "level": "B1"
   },
   {
@@ -4051,17 +4051,17 @@ const B1_WORDS = [
   },
   {
     "de": "enthalten",
-    "lv": "saturēt; ietvert sevī",
+    "lv": "Saturēt • Ietvert sevī",
     "level": "B1"
   },
   {
     "de": "entkommen",
-    "lv": "izbēgt; aizbēgt; izglābties",
+    "lv": "Izbēgt • Aizbēgt • Izglābties",
     "level": "B1"
   },
   {
     "de": "entlassen",
-    "lv": "atlaist; atbrīvot",
+    "lv": "Atlaist • Atbrīvot",
     "level": "B1"
   },
   {
@@ -4076,27 +4076,27 @@ const B1_WORDS = [
   },
   {
     "de": "der Entschluss",
-    "lv": "lēmums; apņemšanās",
+    "lv": "Lēmums • Apņemšanās",
     "level": "B1"
   },
   {
     "de": "entsetzlich",
-    "lv": "šausmīgs; briesmīgs",
+    "lv": "Šausmīgs • Briesmīgs",
     "level": "B1"
   },
   {
     "de": "entsprechen",
-    "lv": "atbilst; saskanēt",
+    "lv": "Atbilst • Saskanēt",
     "level": "B1"
   },
   {
     "de": "entstehen",
-    "lv": "izcelties; rasties; tapt",
+    "lv": "Izcelties • Rasties • Tapt",
     "level": "B1"
   },
   {
     "de": "enttäuschen",
-    "lv": "pievilt cerības; likt vilties",
+    "lv": "Pievilt cerības • Likt vilties",
     "level": "B1"
   },
   {
@@ -4126,7 +4126,7 @@ const B1_WORDS = [
   },
   {
     "de": "erblicken",
-    "lv": "ieraudzīt; saskatīt",
+    "lv": "Ieraudzīt • Saskatīt",
     "level": "B1"
   },
   {
@@ -4166,12 +4166,12 @@ const B1_WORDS = [
   },
   {
     "de": "das Ereignis",
-    "lv": "notikums; atgadījums",
+    "lv": "Notikums • Atgadījums",
     "level": "B1"
   },
   {
     "de": "erfinden",
-    "lv": "izgudrot; izdomāt",
+    "lv": "Izgudrot • Izdomāt",
     "level": "B1"
   },
   {
@@ -4181,17 +4181,17 @@ const B1_WORDS = [
   },
   {
     "de": "erfolglos",
-    "lv": "bez panākumiem; nesekmīgs; neveiksmīgs",
+    "lv": "Bez panākumiem • Nesekmīgs • Neveiksmīgs",
     "level": "B1"
   },
   {
     "de": "erfolgreich",
-    "lv": "panākumiem bagāts; sekmīgs; veiksmīgs",
+    "lv": "Panākumiem bagāts • Sekmīgs • Veiksmīgs",
     "level": "B1"
   },
   {
     "de": "erforderlich",
-    "lv": "vajadzīgs; nepieciešams",
+    "lv": "Vajadzīgs • Nepieciešams",
     "level": "B1"
   },
   {
@@ -4211,7 +4211,7 @@ const B1_WORDS = [
   },
   {
     "de": "erfrischen",
-    "lv": "atsvaidzināt; atveldzēt",
+    "lv": "Atsvaidzināt • Atveldzēt",
     "level": "B1"
   },
   {
@@ -4221,7 +4221,7 @@ const B1_WORDS = [
   },
   {
     "de": "erfüllen",
-    "lv": "izpildīt; piepildīt",
+    "lv": "Izpildīt • Piepildīt",
     "level": "B1"
   },
   {
@@ -4236,22 +4236,22 @@ const B1_WORDS = [
   },
   {
     "de": "das Ergebnis",
-    "lv": "rezultāts; iznākums",
+    "lv": "Rezultāts • Iznākums",
     "level": "B1"
   },
   {
     "de": "ergreifen",
-    "lv": "satvert; saķert",
+    "lv": "Satvert • Saķert",
     "level": "B1"
   },
   {
     "de": "erhalten",
-    "lv": "uzturēt; uzglabāt; saglabāt; saņemt; dabūt",
+    "lv": "Uzturēt • Uzglabāt • Saglabāt • Saņemt • Dabūt",
     "level": "B1"
   },
   {
     "de": "sich erhalten",
-    "lv": "uzglabāties; saglabāties",
+    "lv": "Uzglabāties • Saglabāties",
     "level": "B1"
   },
   {
@@ -4261,12 +4261,12 @@ const B1_WORDS = [
   },
   {
     "de": "sich erhitzen",
-    "lv": "sakarst; sakarsēties; iekarst; iekaist",
+    "lv": "Sakarst • Sakarsēties • Iekarst • Iekaist",
     "level": "B1"
   },
   {
     "de": "erhöhen",
-    "lv": "paaugstināt; pacelt",
+    "lv": "Paaugstināt • Pacelt",
     "level": "B1"
   },
   {
@@ -4286,22 +4286,22 @@ const B1_WORDS = [
   },
   {
     "de": "sich erkundigen",
-    "lv": "apvaicāties; apjautāties",
+    "lv": "Apvaicāties • Apjautāties",
     "level": "B1"
   },
   {
     "de": "erleben",
-    "lv": "pieredzēt; piedzīvot",
+    "lv": "Pieredzēt • Piedzīvot",
     "level": "B1"
   },
   {
     "de": "erledigen",
-    "lv": "nokārtot; pabeigt; izbeigt",
+    "lv": "Nokārtot • Pabeigt • Izbeigt",
     "level": "B1"
   },
   {
     "de": "erleichtern",
-    "lv": "atvieglot; atvieglināt",
+    "lv": "Atvieglot • Atvieglināt",
     "level": "B1"
   },
   {
@@ -4311,27 +4311,27 @@ const B1_WORDS = [
   },
   {
     "de": "ermöglichen",
-    "lv": "dot iespēju; padarīt iespējamu",
+    "lv": "Dot iespēju • Padarīt iespējamu",
     "level": "B1"
   },
   {
     "de": "ermüden",
-    "lv": "nogurdināt; nogurt; pagurt",
+    "lv": "Nogurdināt • Nogurt • Pagurt",
     "level": "B1"
   },
   {
     "de": "ermuntern",
-    "lv": "uzmundrināt; uzmudināt",
+    "lv": "Uzmundrināt • Uzmudināt",
     "level": "B1"
   },
   {
     "de": "ermutigen",
-    "lv": "iedrošināt; iedrosmināt; iedvest drosmi",
+    "lv": "Iedrošināt • Iedrosmināt • Iedvest drosmi",
     "level": "B1"
   },
   {
     "de": "ernähren",
-    "lv": "uzturēt; barot; ēdināt",
+    "lv": "Uzturēt • Barot • Ēdināt",
     "level": "B1"
   },
   {
@@ -4341,22 +4341,22 @@ const B1_WORDS = [
   },
   {
     "de": "die Ernährung",
-    "lv": "uzturēšana; barošana; ēdināšana; uzturs; barība",
+    "lv": "Uzturēšana • Barošana • Ēdināšana • Uzturs • Barība",
     "level": "B1"
   },
   {
     "de": "erneuern",
-    "lv": "atjaunot; salabot; izlabot; atsvaidzināt",
+    "lv": "Atjaunot • Salabot • Izlabot • Atsvaidzināt",
     "level": "B1"
   },
   {
     "de": "die Ernte",
-    "lv": "raža; ražas novākšana",
+    "lv": "Raža • Ražas novākšana",
     "level": "B1"
   },
   {
     "de": "ernten",
-    "lv": "ievākt; novākt; gūt",
+    "lv": "Ievākt • Novākt • Gūt",
     "level": "B1"
   },
   {
@@ -4366,22 +4366,22 @@ const B1_WORDS = [
   },
   {
     "de": "eröffnen",
-    "lv": "atvērt; atklāt; rasties; pavērties",
+    "lv": "Atvērt • Atklāt • Rasties • Pavērties",
     "level": "B1"
   },
   {
     "de": "erraten",
-    "lv": "atminēt; uzminēt",
+    "lv": "Atminēt • Uzminēt",
     "level": "B1"
   },
   {
     "de": "errichten",
-    "lv": "uzcelt; iekārtot; ierīkot; dibināt; nodibināt",
+    "lv": "Uzcelt • Iekārtot • Ierīkot • Dibināt • Nodibināt",
     "level": "B1"
   },
   {
     "de": "der Ersatz",
-    "lv": "atvietotājs; aizvietotājs; aizstājējs; surogāts; atlīdzība",
+    "lv": "Atvietotājs • Aizvietotājs • Aizstājējs • Surogāts • Atlīdzība",
     "level": "B1"
   },
   {
@@ -4391,22 +4391,22 @@ const B1_WORDS = [
   },
   {
     "de": "erscheinen",
-    "lv": "parādīties; ierasties; iznākt",
+    "lv": "Parādīties • Ierasties • Iznākt",
     "level": "B1"
   },
   {
     "de": "erschöpft",
-    "lv": "izsmelts; iztukšots; noguris; pārguris",
+    "lv": "Izsmelts • Iztukšots • Noguris • Pārguris",
     "level": "B1"
   },
   {
     "de": "erschrecken",
-    "lv": "sabīties; izbīties; sabiedēt; izbiedēt",
+    "lv": "Sabīties • Izbīties • Sabiedēt • Izbiedēt",
     "level": "B1"
   },
   {
     "de": "ersetzen",
-    "lv": "atvietot; aizvietot; aizstāt; atlīdzināt",
+    "lv": "Atvietot • Aizvietot • Aizstāt • Atlīdzināt",
     "level": "B1"
   },
   {
@@ -4416,42 +4416,42 @@ const B1_WORDS = [
   },
   {
     "de": "erteilen",
-    "lv": "dot; sniegt",
+    "lv": "Dot • Sniegt",
     "level": "B1"
   },
   {
     "de": "der Ertrag",
-    "lv": "peļņa; ienākums",
+    "lv": "Peļņa • Ienākums",
     "level": "B1"
   },
   {
     "de": "ertrinken",
-    "lv": "noslīkt; slīkt",
+    "lv": "Noslīkt • Slīkt",
     "level": "B1"
   },
   {
     "de": "erwachen",
-    "lv": "pamosties; atmosties",
+    "lv": "Pamosties • Atmosties",
     "level": "B1"
   },
   {
     "de": "erwähnen",
-    "lv": "pieminēt; minēt",
+    "lv": "Pieminēt • Minēt",
     "level": "B1"
   },
   {
     "de": "sich erwärmen",
-    "lv": "sasilt; iesilt; sasildīties",
+    "lv": "Sasilt • Iesilt • Sasildīties",
     "level": "B1"
   },
   {
     "de": "die Erwartung",
-    "lv": "gaidas; cerības",
+    "lv": "Gaidas • Cerības",
     "level": "B1"
   },
   {
     "de": "erwecken",
-    "lv": "modināt; pamodināt; uzmodināt",
+    "lv": "Modināt • Pamodināt • Uzmodināt",
     "level": "B1"
   },
   {
@@ -4466,22 +4466,22 @@ const B1_WORDS = [
   },
   {
     "de": "erwischen",
-    "lv": "notvert; noķert; pieķert",
+    "lv": "Notvert • Noķert • Pieķert",
     "level": "B1"
   },
   {
     "de": "die Erzählung",
-    "lv": "stāstījums; stāsts",
+    "lv": "Stāstījums • Stāsts",
     "level": "B1"
   },
   {
     "de": "erzeugen",
-    "lv": "radīt; ražot",
+    "lv": "Radīt • Ražot",
     "level": "B1"
   },
   {
     "de": "das Erzeugnis",
-    "lv": "ražojums; produkts",
+    "lv": "Ražojums • Produkts",
     "level": "B1"
   },
   {
@@ -4496,7 +4496,7 @@ const B1_WORDS = [
   },
   {
     "de": "etliche",
-    "lv": "daži; kādi",
+    "lv": "Daži • Kādi",
     "level": "B1"
   },
   {
@@ -4506,7 +4506,7 @@ const B1_WORDS = [
   },
   {
     "de": "eventuell",
-    "lv": "eventuāls; varbūtējs; iespējams",
+    "lv": "Eventuāls • Varbūtējs • Iespējams",
     "level": "B1"
   },
   {
@@ -4516,7 +4516,7 @@ const B1_WORDS = [
   },
   {
     "de": "exakt",
-    "lv": "eksakts; precīzs",
+    "lv": "Eksakts • Precīzs",
     "level": "B1"
   },
   {
@@ -4551,17 +4551,17 @@ const B1_WORDS = [
   },
   {
     "de": "extra",
-    "lv": "speciāls; ārkārtējs; sevišķs",
+    "lv": "Speciāls • Ārkārtējs • Sevišķs",
     "level": "B1"
   },
   {
     "de": "extrem",
-    "lv": "radikāls; ekstrēms",
+    "lv": "Radikāls • Ekstrēms",
     "level": "B1"
   },
   {
     "de": "fabelhaft",
-    "lv": "lielisks; pasakains",
+    "lv": "Lielisks • Pasakains",
     "level": "B1"
   },
   {
@@ -4581,7 +4581,7 @@ const B1_WORDS = [
   },
   {
     "de": "fade",
-    "lv": "sājš; bez garšas; garlaicīgs",
+    "lv": "Sājš • Bez garšas • Garlaicīgs",
     "level": "B1"
   },
   {
@@ -4601,7 +4601,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Fahrerlaubnis",
-    "lv": "braukšanas atļauja; tiesības",
+    "lv": "Braukšanas atļauja • Tiesības",
     "level": "B1"
   },
   {
@@ -4611,12 +4611,12 @@ const B1_WORDS = [
   },
   {
     "de": "die Falle",
-    "lv": "lamatas; slazds",
+    "lv": "Lamatas • Slazds",
     "level": "B1"
   },
   {
     "de": "falls",
-    "lv": "ja; gadījumā, ja",
+    "lv": "Ja • Gadījumā, ja",
     "level": "B1"
   },
   {
@@ -4626,12 +4626,12 @@ const B1_WORDS = [
   },
   {
     "de": "die Falte",
-    "lv": "ieloce; kroka; grumba",
+    "lv": "Ieloce • Kroka • Grumba",
     "level": "B1"
   },
   {
     "de": "farbenfroh",
-    "lv": "raibs; košs; spilgts",
+    "lv": "Raibs • Košs • Spilgts",
     "level": "B1"
   },
   {
@@ -4646,12 +4646,12 @@ const B1_WORDS = [
   },
   {
     "de": "das Fass",
-    "lv": "muca; vats; kubls",
+    "lv": "Muca • Vats • Kubls",
     "level": "B1"
   },
   {
     "de": "fassen",
-    "lv": "tvert; satvert; saņemt; aptvert; saprast; nolemt",
+    "lv": "Tvert • Satvert • Saņemt • Aptvert • Saprast • Nolemt",
     "level": "B1"
   },
   {
@@ -4661,12 +4661,12 @@ const B1_WORDS = [
   },
   {
     "de": "faszinieren",
-    "lv": "fascinēt; aizraut; apburt",
+    "lv": "Fascinēt • Aizraut • Apburt",
     "level": "B1"
   },
   {
     "de": "faul",
-    "lv": "sapūvis; satrunējis; slinks; kūtrs",
+    "lv": "Sapūvis • Satrunējis • Slinks • Kūtrs",
     "level": "B1"
   },
   {
@@ -4676,7 +4676,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Faulheit",
-    "lv": "slinkums; kūtrums; laiskums",
+    "lv": "Slinkums • Kūtrums • Laiskums",
     "level": "B1"
   },
   {
@@ -4691,12 +4691,12 @@ const B1_WORDS = [
   },
   {
     "de": "die Feder",
-    "lv": "spalva; atspere",
+    "lv": "Spalva • Atspere",
     "level": "B1"
   },
   {
     "de": "fehlerhaft",
-    "lv": "kļūdains; ar kļūdām",
+    "lv": "Kļūdains • Ar kļūdām",
     "level": "B1"
   },
   {
@@ -4736,12 +4736,12 @@ const B1_WORDS = [
   },
   {
     "de": "fernbleiben",
-    "lv": "neierasties; nepiedalīties",
+    "lv": "Neierasties • Nepiedalīties",
     "level": "B1"
   },
   {
     "de": "die Ferne",
-    "lv": "tālums; tāliene",
+    "lv": "Tālums • Tāliene",
     "level": "B1"
   },
   {
@@ -4751,37 +4751,37 @@ const B1_WORDS = [
   },
   {
     "de": "die Fertigkeit",
-    "lv": "prasme; veiklība",
+    "lv": "Prasme • Veiklība",
     "level": "B1"
   },
   {
     "de": "festhalten",
-    "lv": "turēt cieši; saturēt",
+    "lv": "Turēt cieši • Saturēt",
     "level": "B1"
   },
   {
     "de": "festlegen",
-    "lv": "noteikt; nosacīt",
+    "lv": "Noteikt • Nosacīt",
     "level": "B1"
   },
   {
     "de": "festlich",
-    "lv": "svētku; svinīgs",
+    "lv": "Svētku • Svinīgs",
     "level": "B1"
   },
   {
     "de": "festsetzen",
-    "lv": "noteikt; nosacīt",
+    "lv": "Noteikt • Nosacīt",
     "level": "B1"
   },
   {
     "de": "feststellen",
-    "lv": "konstatēt; noteikt",
+    "lv": "Konstatēt • Noteikt",
     "level": "B1"
   },
   {
     "de": "feuern",
-    "lv": "kurināt; šaut",
+    "lv": "Kurināt • Šaut",
     "level": "B1"
   },
   {
@@ -4806,7 +4806,7 @@ const B1_WORDS = [
   },
   {
     "de": "finster",
-    "lv": "tumšs; drūms",
+    "lv": "Tumšs • Drūms",
     "level": "B1"
   },
   {
@@ -4826,12 +4826,12 @@ const B1_WORDS = [
   },
   {
     "de": "fix",
-    "lv": "noteikts; žigls; mudīgs; ātrs",
+    "lv": "Noteikts • Žigls • Mudīgs • Ātrs",
     "level": "B1"
   },
   {
     "de": "die Fläche",
-    "lv": "līdzenums; virsma",
+    "lv": "Līdzenums • Virsma",
     "level": "B1"
   },
   {
@@ -4851,7 +4851,7 @@ const B1_WORDS = [
   },
   {
     "de": "flicken",
-    "lv": "lāpīt; salāpīt",
+    "lv": "Lāpīt • Salāpīt",
     "level": "B1"
   },
   {
@@ -4861,22 +4861,22 @@ const B1_WORDS = [
   },
   {
     "de": "fliehen",
-    "lv": "bēgt; mukt; izvairīties",
+    "lv": "Bēgt • Mukt • Izvairīties",
     "level": "B1"
   },
   {
     "de": "fließen",
-    "lv": "tecēt; plūst",
+    "lv": "Tecēt • Plūst",
     "level": "B1"
   },
   {
     "de": "fließend",
-    "lv": "tekošs; plūstošs",
+    "lv": "Tekošs • Plūstošs",
     "level": "B1"
   },
   {
     "de": "flink",
-    "lv": "žigls; ātrs; mudīgs",
+    "lv": "Žigls • Ātrs • Mudīgs",
     "level": "B1"
   },
   {
@@ -4906,7 +4906,7 @@ const B1_WORDS = [
   },
   {
     "de": "fluchen",
-    "lv": "lādēt; lādēties; lamāties",
+    "lv": "Lādēt • Lādēties • Lamāties",
     "level": "B1"
   },
   {
@@ -4921,7 +4921,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Flügel",
-    "lv": "spārns; flangs; flīģelis",
+    "lv": "Spārns • Flangs • Flīģelis",
     "level": "B1"
   },
   {
@@ -4936,7 +4936,7 @@ const B1_WORDS = [
   },
   {
     "de": "flüssig",
-    "lv": "šķidrs; tekošs; plūstošs",
+    "lv": "Šķidrs • Tekošs • Plūstošs",
     "level": "B1"
   },
   {
@@ -4946,7 +4946,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Flut",
-    "lv": "paisums; plūdi; birums",
+    "lv": "Paisums • Plūdi • Birums",
     "level": "B1"
   },
   {
@@ -4956,12 +4956,12 @@ const B1_WORDS = [
   },
   {
     "de": "die Folge",
-    "lv": "sekas; secība; sērija",
+    "lv": "Sekas • Secība • Sērija",
     "level": "B1"
   },
   {
     "de": "folgendermaßen",
-    "lv": "šādi; šādā veidā; sekojoši",
+    "lv": "Šādi • Šādā veidā • Sekojoši",
     "level": "B1"
   },
   {
@@ -4971,12 +4971,12 @@ const B1_WORDS = [
   },
   {
     "de": "fordern",
-    "lv": "prasīt; pieprasīt",
+    "lv": "Prasīt • Pieprasīt",
     "level": "B1"
   },
   {
     "de": "fördern",
-    "lv": "veicināt; sekmēt; iegūt",
+    "lv": "Veicināt • Sekmēt • Iegūt",
     "level": "B1"
   },
   {
@@ -4996,22 +4996,22 @@ const B1_WORDS = [
   },
   {
     "de": "fortbleiben",
-    "lv": "neierasties; neatnākt",
+    "lv": "Neierasties • Neatnākt",
     "level": "B1"
   },
   {
     "de": "fortfahren",
-    "lv": "aizbraukt; braukt projām; aizceļot; turpināt",
+    "lv": "Aizbraukt • Braukt projām • Aizceļot • Turpināt",
     "level": "B1"
   },
   {
     "de": "fortlaufen",
-    "lv": "skriet projām; aizskriet projām",
+    "lv": "Skriet projām • Aizskriet projām",
     "level": "B1"
   },
   {
     "de": "der Fortschritt",
-    "lv": "progress; sekmes",
+    "lv": "Progress • Sekmes",
     "level": "B1"
   },
   {
@@ -5031,12 +5031,12 @@ const B1_WORDS = [
   },
   {
     "de": "frech",
-    "lv": "nekaunīgs; bezkaunīgs",
+    "lv": "Nekaunīgs • Bezkaunīgs",
     "level": "B1"
   },
   {
     "de": "das Freie",
-    "lv": "svaigs gaiss; brīva daba; zem klajas debess",
+    "lv": "Svaigs gaiss • Brīva daba • Zem klajas debess",
     "level": "B1"
   },
   {
@@ -5046,7 +5046,7 @@ const B1_WORDS = [
   },
   {
     "de": "freilassen",
-    "lv": "atbrīvot; atlaist brīvībā",
+    "lv": "Atbrīvot • Atlaist brīvībā",
     "level": "B1"
   },
   {
@@ -5061,7 +5061,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Fremdenführer",
-    "lv": "gids; tūristu pavadonis",
+    "lv": "Gids • Tūristu pavadonis",
     "level": "B1"
   },
   {
@@ -5071,7 +5071,7 @@ const B1_WORDS = [
   },
   {
     "de": "fressen",
-    "lv": "ēst; rīt; saēst",
+    "lv": "Ēst • Rīt • Saēst",
     "level": "B1"
   },
   {
@@ -5081,22 +5081,22 @@ const B1_WORDS = [
   },
   {
     "de": "friedlich",
-    "lv": "miermīlīgs; mierīgs",
+    "lv": "Miermīlīgs • Mierīgs",
     "level": "B1"
   },
   {
     "de": "die Frische",
-    "lv": "svaigums; spirgtums; vēsums; dzestrums",
+    "lv": "Svaigums • Spirgtums • Vēsums • Dzestrums",
     "level": "B1"
   },
   {
     "de": "die Frist",
-    "lv": "laiks; laika sprīdis; termiņš",
+    "lv": "Laiks • Laika sprīdis • Termiņš",
     "level": "B1"
   },
   {
     "de": "die Front",
-    "lv": "fronte; ierinda",
+    "lv": "Fronte • Ierinda",
     "level": "B1"
   },
   {
@@ -5111,7 +5111,7 @@ const B1_WORDS = [
   },
   {
     "de": "frühzeitig",
-    "lv": "agrs; priekšlaicīgs; pārāgrs",
+    "lv": "Agrs • Priekšlaicīgs • Pārāgrs",
     "level": "B1"
   },
   {
@@ -5121,12 +5121,12 @@ const B1_WORDS = [
   },
   {
     "de": "der Führer",
-    "lv": "vadītājs; vadonis; gids; pavadonis; ceļvedis",
+    "lv": "Vadītājs • Vadonis • Gids • Pavadonis • Ceļvedis",
     "level": "B1"
   },
   {
     "de": "die Führung",
-    "lv": "vadīšana; vadība",
+    "lv": "Vadīšana • Vadība",
     "level": "B1"
   },
   {
@@ -5136,7 +5136,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich füllen",
-    "lv": "pildīties; piepildīties",
+    "lv": "Pildīties • Piepildīties",
     "level": "B1"
   },
   {
@@ -5151,17 +5151,17 @@ const B1_WORDS = [
   },
   {
     "de": "der Funke",
-    "lv": "dzirkstele; dzirksts",
+    "lv": "Dzirkstele • Dzirksts",
     "level": "B1"
   },
   {
     "de": "die Furcht",
-    "lv": "bailes; izbailes",
+    "lv": "Bailes • Izbailes",
     "level": "B1"
   },
   {
     "de": "fürchterlich",
-    "lv": "briesmīgs; šausmīgs; baismīgs; drausmīgs",
+    "lv": "Briesmīgs • Šausmīgs • Baismīgs • Drausmīgs",
     "level": "B1"
   },
   {
@@ -5176,17 +5176,17 @@ const B1_WORDS = [
   },
   {
     "de": "das Futter",
-    "lv": "barība; ēdamais; padrēbe; odere",
+    "lv": "Barība • Ēdamais • Padrēbe • Odere",
     "level": "B1"
   },
   {
     "de": "die Gabe",
-    "lv": "dāvana; velte; dāvanas; dotības; talants",
+    "lv": "Dāvana • Velte • Dāvanas • Dotības • Talants",
     "level": "B1"
   },
   {
     "de": "gähnen",
-    "lv": "žāvāties; atvērties; rēgoties",
+    "lv": "Žāvāties • Atvērties • Rēgoties",
     "level": "B1"
   },
   {
@@ -5216,7 +5216,7 @@ const B1_WORDS = [
   },
   {
     "de": "das Garn",
-    "lv": "diegs; diedziņš; dzija; tīkls",
+    "lv": "Diegs • Diedziņš • Dzija • Tīkls",
     "level": "B1"
   },
   {
@@ -5251,7 +5251,7 @@ const B1_WORDS = [
   },
   {
     "de": "das Gästebuch",
-    "lv": "atsauksmju grāmata; viesu grāmata",
+    "lv": "Atsauksmju grāmata • Viesu grāmata",
     "level": "B1"
   },
   {
@@ -5271,7 +5271,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Gaststätte",
-    "lv": "ēdnīca; restorāns",
+    "lv": "Ēdnīca • Restorāns",
     "level": "B1"
   },
   {
@@ -5281,12 +5281,12 @@ const B1_WORDS = [
   },
   {
     "de": "das Gebet",
-    "lv": "lūgšana; lūgsna",
+    "lv": "Lūgšana • Lūgsna",
     "level": "B1"
   },
   {
     "de": "das Gebiet",
-    "lv": "apgabals; novads; sfēra; joma; nozare",
+    "lv": "Apgabals • Novads • Sfēra • Joma • Nozare",
     "level": "B1"
   },
   {
@@ -5296,12 +5296,12 @@ const B1_WORDS = [
   },
   {
     "de": "das Gebirge",
-    "lv": "kalni; kalnājs; kalnu grēda",
+    "lv": "Kalni • Kalnājs • Kalnu grēda",
     "level": "B1"
   },
   {
     "de": "gebogen",
-    "lv": "izliekts; saliekts",
+    "lv": "Izliekts • Saliekts",
     "level": "B1"
   },
   {
@@ -5326,17 +5326,17 @@ const B1_WORDS = [
   },
   {
     "de": "die Gebühr",
-    "lv": "nodeva; nodoklis",
+    "lv": "Nodeva • Nodoklis",
     "level": "B1"
   },
   {
     "de": "gebunden",
-    "lv": "sasiets; saistīts; iesiets",
+    "lv": "Sasiets • Saistīts • Iesiets",
     "level": "B1"
   },
   {
     "de": "die Geburt",
-    "lv": "dzimšana; dzemdības; izcelšanās",
+    "lv": "Dzimšana • Dzemdības • Izcelšanās",
     "level": "B1"
   },
   {
@@ -5351,22 +5351,22 @@ const B1_WORDS = [
   },
   {
     "de": "das Gebüsch",
-    "lv": "krūmi; krūmājs",
+    "lv": "Krūmi • Krūmājs",
     "level": "B1"
   },
   {
     "de": "das Gedächtnis",
-    "lv": "atmiņa; piemiņa; atcere",
+    "lv": "Atmiņa • Piemiņa • Atcere",
     "level": "B1"
   },
   {
     "de": "gedankenlos",
-    "lv": "neapdomīgs; neapdomāts",
+    "lv": "Neapdomīgs • Neapdomāts",
     "level": "B1"
   },
   {
     "de": "das Gedränge",
-    "lv": "drūzma; burzma",
+    "lv": "Drūzma • Burzma",
     "level": "B1"
   },
   {
@@ -5391,7 +5391,7 @@ const B1_WORDS = [
   },
   {
     "de": "geeignet",
-    "lv": "derīgs; piemērots",
+    "lv": "Derīgs • Piemērots",
     "level": "B1"
   },
   {
@@ -5401,7 +5401,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Gefallen",
-    "lv": "pakalpojums; laipnība",
+    "lv": "Pakalpojums • Laipnība",
     "level": "B1"
   },
   {
@@ -5411,7 +5411,7 @@ const B1_WORDS = [
   },
   {
     "de": "gefleckt",
-    "lv": "lāšains; lāsumains; plankumains",
+    "lv": "Lāšains • Lāsumains • Plankumains",
     "level": "B1"
   },
   {
@@ -5431,7 +5431,7 @@ const B1_WORDS = [
   },
   {
     "de": "gefühllos",
-    "lv": "nejūtīgs; bezjūtīgs; bez jūtām",
+    "lv": "Nejūtīgs • Bezjūtīgs • Bez jūtām",
     "level": "B1"
   },
   {
@@ -5441,7 +5441,7 @@ const B1_WORDS = [
   },
   {
     "de": "gegeneinander",
-    "lv": "viens pret otru; cits pret citu",
+    "lv": "Viens pret otru • Cits pret citu",
     "level": "B1"
   },
   {
@@ -5456,22 +5456,22 @@ const B1_WORDS = [
   },
   {
     "de": "die Gegenwart",
-    "lv": "tagadne; klātbūtne",
+    "lv": "Tagadne • Klātbūtne",
     "level": "B1"
   },
   {
     "de": "gegenwärtig",
-    "lv": "tagadējs; pašreizējs; klāt; tagad; pašreiz; pašlaik",
+    "lv": "Tagadējs • Pašreizējs • Klāt • Tagad • Pašreiz • Pašlaik",
     "level": "B1"
   },
   {
     "de": "der Gegner",
-    "lv": "pretinieks; oponents",
+    "lv": "Pretinieks • Oponents",
     "level": "B1"
   },
   {
     "de": "der Gehalt",
-    "lv": "saturs; sastāvs",
+    "lv": "Saturs • Sastāvs",
     "level": "B1"
   },
   {
@@ -5486,7 +5486,7 @@ const B1_WORDS = [
   },
   {
     "de": "geheim",
-    "lv": "slepens; apslēpts",
+    "lv": "Slepens • Apslēpts",
     "level": "B1"
   },
   {
@@ -5511,7 +5511,7 @@ const B1_WORDS = [
   },
   {
     "de": "gehorchen",
-    "lv": "paklausīt; klausīt",
+    "lv": "Paklausīt • Klausīt",
     "level": "B1"
   },
   {
@@ -5526,12 +5526,12 @@ const B1_WORDS = [
   },
   {
     "de": "der Geist",
-    "lv": "gars; gars; rēgs; spoks",
+    "lv": "Gars • Gars • Rēgs • Spoks",
     "level": "B1"
   },
   {
     "de": "geistig",
-    "lv": "garīgs; gara-",
+    "lv": "Garīgs • Gara",
     "level": "B1"
   },
   {
@@ -5541,12 +5541,12 @@ const B1_WORDS = [
   },
   {
     "de": "geizig",
-    "lv": "skops; sīksts",
+    "lv": "Skops • Sīksts",
     "level": "B1"
   },
   {
     "de": "das Gelächter",
-    "lv": "smiekli; smiešanās",
+    "lv": "Smiekli • Smiešanās",
     "level": "B1"
   },
   {
@@ -5556,12 +5556,12 @@ const B1_WORDS = [
   },
   {
     "de": "das Geländer",
-    "lv": "margas; treliņi",
+    "lv": "Margas • Treliņi",
     "level": "B1"
   },
   {
     "de": "gelangen",
-    "lv": "nokļūt; nonākt",
+    "lv": "Nokļūt • Nonākt",
     "level": "B1"
   },
   {
@@ -5571,12 +5571,12 @@ const B1_WORDS = [
   },
   {
     "de": "der Geldwechsel",
-    "lv": "naudas maiņa; naudas maiņas punkts",
+    "lv": "Naudas maiņa • Naudas maiņas punkts",
     "level": "B1"
   },
   {
     "de": "die Gelegenheit",
-    "lv": "izdevība; izdevīgs gadījums",
+    "lv": "Izdevība • Izdevīgs gadījums",
     "level": "B1"
   },
   {
@@ -5591,7 +5591,7 @@ const B1_WORDS = [
   },
   {
     "de": "gelten",
-    "lv": "derēt; būt spēkā; skaitīties; tikt uzskatītam",
+    "lv": "Derēt • Būt spēkā • Skaitīties • Tikt uzskatītam",
     "level": "B1"
   },
   {
@@ -5601,12 +5601,12 @@ const B1_WORDS = [
   },
   {
     "de": "gemein",
-    "lv": "parasts; vienkāršs; kopējs; kopīgs; zemisks; nekrietns; rupjš",
+    "lv": "Parasts • Vienkāršs • Kopējs • Kopīgs • Zemisks • Nekrietns • Rupjš",
     "level": "B1"
   },
   {
     "de": "die Gemeinde",
-    "lv": "pagasts; draudze",
+    "lv": "Pagasts • Draudze",
     "level": "B1"
   },
   {
@@ -5616,7 +5616,7 @@ const B1_WORDS = [
   },
   {
     "de": "gemischt",
-    "lv": "sajaukts; samaisīts",
+    "lv": "Sajaukts • Samaisīts",
     "level": "B1"
   },
   {
@@ -5636,7 +5636,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Genehmigung",
-    "lv": "atļauja; piekrišana",
+    "lv": "Atļauja • Piekrišana",
     "level": "B1"
   },
   {
@@ -5656,7 +5656,7 @@ const B1_WORDS = [
   },
   {
     "de": "genießen",
-    "lv": "baudīt; izbaudīt; iebaudīt",
+    "lv": "Baudīt • Izbaudīt • Iebaudīt",
     "level": "B1"
   },
   {
@@ -5666,17 +5666,17 @@ const B1_WORDS = [
   },
   {
     "de": "genügen",
-    "lv": "pietikt; būt diezgan",
+    "lv": "Pietikt • Būt diezgan",
     "level": "B1"
   },
   {
     "de": "genügend",
-    "lv": "pietiekošs; pietiekams",
+    "lv": "Pietiekošs • Pietiekams",
     "level": "B1"
   },
   {
     "de": "der Genuss",
-    "lv": "bauda; baudījums; baudīšana; alkohola lietošana",
+    "lv": "Bauda • Baudījums • Baudīšana • Alkohola lietošana",
     "level": "B1"
   },
   {
@@ -5686,27 +5686,27 @@ const B1_WORDS = [
   },
   {
     "de": "die Gepäckaufbewahrung",
-    "lv": "bagāžas uzglabāšana; bagāžas glabātava",
+    "lv": "Bagāžas uzglabāšana • Bagāžas glabātava",
     "level": "B1"
   },
   {
     "de": "der Gepäckträger",
-    "lv": "bagāžas nesējs; bagāžnieks",
+    "lv": "Bagāžas nesējs • Bagāžnieks",
     "level": "B1"
   },
   {
     "de": "das Gerät",
-    "lv": "rīks; instruments; piederumi; aparāts; ierīce",
+    "lv": "Rīks • Instruments • Piederumi • Aparāts • Ierīce",
     "level": "B1"
   },
   {
     "de": "geräuchert",
-    "lv": "kūpināts; žāvēts",
+    "lv": "Kūpināts • Žāvēts",
     "level": "B1"
   },
   {
     "de": "geräumig",
-    "lv": "ērts; liels; plašs",
+    "lv": "Ērts • Liels • Plašs",
     "level": "B1"
   },
   {
@@ -5716,17 +5716,17 @@ const B1_WORDS = [
   },
   {
     "de": "gerecht",
-    "lv": "taisns; taisnīgs",
+    "lv": "Taisns • Taisnīgs",
     "level": "B1"
   },
   {
     "de": "die Gerechtigkeit",
-    "lv": "taisnīgums; taisnība",
+    "lv": "Taisnīgums • Taisnība",
     "level": "B1"
   },
   {
     "de": "gereizt",
-    "lv": "sakaitināts; nervozs",
+    "lv": "Sakaitināts • Nervozs",
     "level": "B1"
   },
   {
@@ -5736,7 +5736,7 @@ const B1_WORDS = [
   },
   {
     "de": "gering",
-    "lv": "mazs; sīks; neliels",
+    "lv": "Mazs • Sīks • Neliels",
     "level": "B1"
   },
   {
@@ -5746,12 +5746,12 @@ const B1_WORDS = [
   },
   {
     "de": "der Geruch",
-    "lv": "oža; smaka; smarža; slava",
+    "lv": "Oža • Smaka • Smarža • Slava",
     "level": "B1"
   },
   {
     "de": "das Gerücht",
-    "lv": "baumas; tenkas; valodas; runas",
+    "lv": "Baumas • Tenkas • Valodas • Runas",
     "level": "B1"
   },
   {
@@ -5766,17 +5766,17 @@ const B1_WORDS = [
   },
   {
     "de": "die Gesamtsumme",
-    "lv": "kopsumma; kopējā summa",
+    "lv": "Kopsumma • Kopējā summa",
     "level": "B1"
   },
   {
     "de": "der Gesang",
-    "lv": "dziedāšana; dziesma; dziedājums",
+    "lv": "Dziedāšana • Dziesma • Dziedājums",
     "level": "B1"
   },
   {
     "de": "geschäftlich",
-    "lv": "veikalniecisks; veikala-; darīšanas",
+    "lv": "Veikalniecisks • Veikala • Darīšanas",
     "level": "B1"
   },
   {
@@ -5786,7 +5786,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Geschäftsmann",
-    "lv": "veikalnieks; komersants",
+    "lv": "Veikalnieks • Komersants",
     "level": "B1"
   },
   {
@@ -5796,12 +5796,12 @@ const B1_WORDS = [
   },
   {
     "de": "geschehen",
-    "lv": "notikt; gadīties; atgadīties",
+    "lv": "Notikt • Gadīties • Atgadīties",
     "level": "B1"
   },
   {
     "de": "gescheit",
-    "lv": "gudrs; prātīgs; saprātīgs",
+    "lv": "Gudrs • Prātīgs • Saprātīgs",
     "level": "B1"
   },
   {
@@ -5821,22 +5821,22 @@ const B1_WORDS = [
   },
   {
     "de": "geschickt",
-    "lv": "veikls; izveicīgs",
+    "lv": "Veikls • Izveicīgs",
     "level": "B1"
   },
   {
     "de": "das Geschlecht",
-    "lv": "paaudze; dzimums; dzimte",
+    "lv": "Paaudze • Dzimums • Dzimte",
     "level": "B1"
   },
   {
     "de": "geschmacklos",
-    "lv": "bezgaršīgs; bez garšas; bezgaumīgs",
+    "lv": "Bezgaršīgs • Bez garšas • Bezgaumīgs",
     "level": "B1"
   },
   {
     "de": "geschmackvoll",
-    "lv": "garšīgs; gaumīgs",
+    "lv": "Garšīgs • Gaumīgs",
     "level": "B1"
   },
   {
@@ -5846,12 +5846,12 @@ const B1_WORDS = [
   },
   {
     "de": "die Gesellschaft",
-    "lv": "sabiedrība; biedrība; kompānija; viesības",
+    "lv": "Sabiedrība • Biedrība • Kompānija • Viesības",
     "level": "B1"
   },
   {
     "de": "gesetzlich",
-    "lv": "likumīgs; likuma-",
+    "lv": "Likumīgs • Likuma",
     "level": "B1"
   },
   {
@@ -5861,27 +5861,27 @@ const B1_WORDS = [
   },
   {
     "de": "gespannt",
-    "lv": "sasprindzināts; saspīlēts",
+    "lv": "Sasprindzināts • Saspīlēts",
     "level": "B1"
   },
   {
     "de": "das Gespenst",
-    "lv": "spoks; gars",
+    "lv": "Spoks • Gars",
     "level": "B1"
   },
   {
     "de": "gesprächig",
-    "lv": "runīgs; valodīgs",
+    "lv": "Runīgs • Valodīgs",
     "level": "B1"
   },
   {
     "de": "die Gestalt",
-    "lv": "forma; veids; izskats; tēls; augums; stāvs",
+    "lv": "Forma • Veids • Izskats • Tēls • Augums • Stāvs",
     "level": "B1"
   },
   {
     "de": "gestalten",
-    "lv": "veidot; izveidot",
+    "lv": "Veidot • Izveidot",
     "level": "B1"
   },
   {
@@ -5896,7 +5896,7 @@ const B1_WORDS = [
   },
   {
     "de": "gestrig",
-    "lv": "vakarējs; vakardienas-",
+    "lv": "Vakarējs • Vakardienas",
     "level": "B1"
   },
   {
@@ -5911,7 +5911,7 @@ const B1_WORDS = [
   },
   {
     "de": "das Gewächs",
-    "lv": "augs; stāds",
+    "lv": "Augs • Stāds",
     "level": "B1"
   },
   {
@@ -5921,12 +5921,12 @@ const B1_WORDS = [
   },
   {
     "de": "die Gewalt",
-    "lv": "vara; spēks",
+    "lv": "Vara • Spēks",
     "level": "B1"
   },
   {
     "de": "gewaltig",
-    "lv": "stiprs; spēcīgs; varens; milzīgs; ļoti liels",
+    "lv": "Stiprs • Spēcīgs • Varens • Milzīgs • Ļoti liels",
     "level": "B1"
   },
   {
@@ -5946,12 +5946,12 @@ const B1_WORDS = [
   },
   {
     "de": "der Gewinn",
-    "lv": "peļņa; ienākums; laimests; ieguvums",
+    "lv": "Peļņa • Ienākums • Laimests • Ieguvums",
     "level": "B1"
   },
   {
     "de": "gewiss",
-    "lv": "skaidrs; drošs; noteikts; zināms; kāds; droši; bez šaubām; noteikti",
+    "lv": "Skaidrs • Drošs • Noteikts • Zināms • Kāds • Droši • Bez šaubām • Noteikti",
     "level": "B1"
   },
   {
@@ -5971,17 +5971,17 @@ const B1_WORDS = [
   },
   {
     "de": "gewöhnen",
-    "lv": "radināt; pieradināt",
+    "lv": "Radināt • Pieradināt",
     "level": "B1"
   },
   {
     "de": "sich gewöhnen",
-    "lv": "pierast; pieradināties; aprast",
+    "lv": "Pierast • Pieradināties • Aprast",
     "level": "B1"
   },
   {
     "de": "gewohnt",
-    "lv": "parasts; ierasts; pierasts",
+    "lv": "Parasts • Ierasts • Pierasts",
     "level": "B1"
   },
   {
@@ -5996,7 +5996,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Gipfel",
-    "lv": "virsotne; galotne; kalngals",
+    "lv": "Virsotne • Galotne • Kalngals",
     "level": "B1"
   },
   {
@@ -6006,22 +6006,22 @@ const B1_WORDS = [
   },
   {
     "de": "das Gitter",
-    "lv": "treliņi; restes; margas; režģis",
+    "lv": "Treliņi • Restes • Margas • Režģis",
     "level": "B1"
   },
   {
     "de": "der Glanz",
-    "lv": "spožums; spīdums; mirdzums",
+    "lv": "Spožums • Spīdums • Mirdzums",
     "level": "B1"
   },
   {
     "de": "glänzen",
-    "lv": "spīdēt; mirdzēt; laistīties; spīdēt",
+    "lv": "Spīdēt • Mirdzēt • Laistīties • Spīdēt",
     "level": "B1"
   },
   {
     "de": "glänzend",
-    "lv": "spīdošs; mirdzošs; spīdīgs; spožs",
+    "lv": "Spīdošs • Mirdzošs • Spīdīgs • Spožs",
     "level": "B1"
   },
   {
@@ -6031,7 +6031,7 @@ const B1_WORDS = [
   },
   {
     "de": "glätten",
-    "lv": "gludināt; nogludināt; izgludināt",
+    "lv": "Gludināt • Nogludināt • Izgludināt",
     "level": "B1"
   },
   {
@@ -6041,7 +6041,7 @@ const B1_WORDS = [
   },
   {
     "de": "gleichen",
-    "lv": "līdzināties; būt līdzīgam",
+    "lv": "Līdzināties • Būt līdzīgam",
     "level": "B1"
   },
   {
@@ -6061,7 +6061,7 @@ const B1_WORDS = [
   },
   {
     "de": "gleichmäßig",
-    "lv": "vienmērīgs; samērīgs",
+    "lv": "Vienmērīgs • Samērīgs",
     "level": "B1"
   },
   {
@@ -6071,12 +6071,12 @@ const B1_WORDS = [
   },
   {
     "de": "gleichzeitig",
-    "lv": "vienlaicīgs; vienā laikā; vienlaikus",
+    "lv": "Vienlaicīgs • Vienā laikā • Vienlaikus",
     "level": "B1"
   },
   {
     "de": "das Gleis",
-    "lv": "sliedes; sliežu ceļš",
+    "lv": "Sliedes • Sliežu ceļš",
     "level": "B1"
   },
   {
@@ -6096,7 +6096,7 @@ const B1_WORDS = [
   },
   {
     "de": "golden",
-    "lv": "zelta-; zeltīts; zeltains",
+    "lv": "Zelta • Zeltīts • Zeltains",
     "level": "B1"
   },
   {
@@ -6111,12 +6111,12 @@ const B1_WORDS = [
   },
   {
     "de": "der Graben",
-    "lv": "grāvis; ierakums; tranšeja",
+    "lv": "Grāvis • Ierakums • Tranšeja",
     "level": "B1"
   },
   {
     "de": "der Grad",
-    "lv": "grāds; pakāpe",
+    "lv": "Grāds • Pakāpe",
     "level": "B1"
   },
   {
@@ -6131,17 +6131,17 @@ const B1_WORDS = [
   },
   {
     "de": "die Gratulation",
-    "lv": "apsveikums; laimes vēlējums",
+    "lv": "Apsveikums • Laimes vēlējums",
     "level": "B1"
   },
   {
     "de": "greifen",
-    "lv": "tvert; ķert; grābt; kampt; ķerties",
+    "lv": "Tvert • Ķert • Grābt • Kampt • Ķerties",
     "level": "B1"
   },
   {
     "de": "grenzen",
-    "lv": "robežot; robežoties",
+    "lv": "Robežot • Robežoties",
     "level": "B1"
   },
   {
@@ -6156,7 +6156,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Griff",
-    "lv": "rokturis; spals; osa; kāts; tvēriens; ķēriens; kampiens",
+    "lv": "Rokturis • Spals • Osa • Kāts • Tvēriens • Ķēriens • Kampiens",
     "level": "B1"
   },
   {
@@ -6181,7 +6181,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Grille",
-    "lv": "sienāzis; circenis",
+    "lv": "Sienāzis • Circenis",
     "level": "B1"
   },
   {
@@ -6191,22 +6191,22 @@ const B1_WORDS = [
   },
   {
     "de": "großartig",
-    "lv": "lielisks; grandiozs",
+    "lv": "Lielisks • Grandiozs",
     "level": "B1"
   },
   {
     "de": "die Größe",
-    "lv": "lielums; diženums",
+    "lv": "Lielums • Diženums",
     "level": "B1"
   },
   {
     "de": "die Grube",
-    "lv": "bedre; raktuve",
+    "lv": "Bedre • Raktuve",
     "level": "B1"
   },
   {
     "de": "gründen",
-    "lv": "dibināt; nodibināt",
+    "lv": "Dibināt • Nodibināt",
     "level": "B1"
   },
   {
@@ -6216,7 +6216,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Grundlage",
-    "lv": "pamats; bāze",
+    "lv": "Pamats • Bāze",
     "level": "B1"
   },
   {
@@ -6241,12 +6241,12 @@ const B1_WORDS = [
   },
   {
     "de": "die Grütze",
-    "lv": "putraimi; putra",
+    "lv": "Putraimi • Putra",
     "level": "B1"
   },
   {
     "de": "gültig",
-    "lv": "derīgs; spēkā",
+    "lv": "Derīgs • Spēkā",
     "level": "B1"
   },
   {
@@ -6261,7 +6261,7 @@ const B1_WORDS = [
   },
   {
     "de": "das Gut",
-    "lv": "manta; īpašums; muiža; prece",
+    "lv": "Manta • Īpašums • Muiža • Prece",
     "level": "B1"
   },
   {
@@ -6271,7 +6271,7 @@ const B1_WORDS = [
   },
   {
     "de": "gutmachen",
-    "lv": "vērst par labu; izlabot",
+    "lv": "Vērst par labu • Izlabot",
     "level": "B1"
   },
   {
@@ -6296,7 +6296,7 @@ const B1_WORDS = [
   },
   {
     "de": "hacken",
-    "lv": "cirst; kapāt; kaplēt; knābt",
+    "lv": "Cirst • Kapāt • Kaplēt • Knābt",
     "level": "B1"
   },
   {
@@ -6326,7 +6326,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Haken",
-    "lv": "āķis; kāsis; ķeksis",
+    "lv": "Āķis • Kāsis • Ķeksis",
     "level": "B1"
   },
   {
@@ -6361,7 +6361,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Halt",
-    "lv": "balsts; atbalsts; apstāšanās",
+    "lv": "Balsts • Atbalsts • Apstāšanās",
     "level": "B1"
   },
   {
@@ -6371,7 +6371,7 @@ const B1_WORDS = [
   },
   {
     "de": "das Halteverbot",
-    "lv": "apstāšanās aizliegums transporta līdzekļiem; vieta, kur transporta līdzekļiem stāvēt aizliegts",
+    "lv": "Apstāšanās aizliegums transporta līdzekļiem • Vieta, kur transporta līdzekļiem stāvēt aizliegts",
     "level": "B1"
   },
   {
@@ -6386,7 +6386,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Handarbeit",
-    "lv": "rokdarbs; rokdarbi; roku darbs; fizisks darbs",
+    "lv": "Rokdarbs • Rokdarbi • Roku darbs • Fizisks darbs",
     "level": "B1"
   },
   {
@@ -6401,12 +6401,12 @@ const B1_WORDS = [
   },
   {
     "de": "handeln",
-    "lv": "rīkoties, darboties; tirgoties",
+    "lv": "Rīkoties, darboties • Tirgoties",
     "level": "B1"
   },
   {
     "de": "der Handgriff",
-    "lv": "paņēmiens, ķēriens darbā; rokturis; spals",
+    "lv": "Paņēmiens, ķēriens darbā • Rokturis • Spals",
     "level": "B1"
   },
   {
@@ -6416,7 +6416,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Handschrift",
-    "lv": "rokraksts; manuskripts, rokraksts",
+    "lv": "Rokraksts • Manuskripts, rokraksts",
     "level": "B1"
   },
   {
@@ -6461,7 +6461,7 @@ const B1_WORDS = [
   },
   {
     "de": "hassen",
-    "lv": "nīst, ienīst; neieredzēt",
+    "lv": "Nīst, ienīst • Neieredzēt",
     "level": "B1"
   },
   {
@@ -6471,12 +6471,12 @@ const B1_WORDS = [
   },
   {
     "de": "hauen",
-    "lv": "cirst; sist; pērt",
+    "lv": "Cirst • Sist • Pērt",
     "level": "B1"
   },
   {
     "de": "der Haufen",
-    "lv": "kaudze; guba; čupa; bars; pulis",
+    "lv": "Kaudze • Guba • Čupa • Bars • Pulis",
     "level": "B1"
   },
   {
@@ -6511,12 +6511,12 @@ const B1_WORDS = [
   },
   {
     "de": "der Haushalt",
-    "lv": "mājsaimniecība; budžets",
+    "lv": "Mājsaimniecība • Budžets",
     "level": "B1"
   },
   {
     "de": "häuslich",
-    "lv": "mājas-; saimniecisks",
+    "lv": "Mājas • Saimniecisks",
     "level": "B1"
   },
   {
@@ -6546,17 +6546,17 @@ const B1_WORDS = [
   },
   {
     "de": "das Heer",
-    "lv": "karaspēks; armija; pulks; bars",
+    "lv": "Karaspēks • Armija • Pulks • Bars",
     "level": "B1"
   },
   {
     "de": "heften",
-    "lv": "piespraust; piestiprināt; sadiegt",
+    "lv": "Piespraust • Piestiprināt • Sadiegt",
     "level": "B1"
   },
   {
     "de": "heftig",
-    "lv": "stiprs; spēcīgs",
+    "lv": "Stiprs • Spēcīgs",
     "level": "B1"
   },
   {
@@ -6571,7 +6571,7 @@ const B1_WORDS = [
   },
   {
     "de": "heil",
-    "lv": "vesels; sveiks",
+    "lv": "Vesels • Sveiks",
     "level": "B1"
   },
   {
@@ -6606,7 +6606,7 @@ const B1_WORDS = [
   },
   {
     "de": "heimlich",
-    "lv": "slepens; slepeni, slepus",
+    "lv": "Slepens • Slepeni, slepus",
     "level": "B1"
   },
   {
@@ -6626,7 +6626,7 @@ const B1_WORDS = [
   },
   {
     "de": "heiter",
-    "lv": "jautrs; skaidrs",
+    "lv": "Jautrs • Skaidrs",
     "level": "B1"
   },
   {
@@ -6671,7 +6671,7 @@ const B1_WORDS = [
   },
   {
     "de": "heran",
-    "lv": "šurp; klāt",
+    "lv": "Šurp • Klāt",
     "level": "B1"
   },
   {
@@ -6681,7 +6681,7 @@ const B1_WORDS = [
   },
   {
     "de": "herausgeben",
-    "lv": "izdot; izsniegt, izdot",
+    "lv": "Izdot • Izsniegt, izdot",
     "level": "B1"
   },
   {
@@ -6701,7 +6701,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Herde",
-    "lv": "ganāmpulks; bars",
+    "lv": "Ganāmpulks • Bars",
     "level": "B1"
   },
   {
@@ -6711,7 +6711,7 @@ const B1_WORDS = [
   },
   {
     "de": "herkommen",
-    "lv": "atnākt; rasties, izcelties, nākt",
+    "lv": "Atnākt • Rasties, izcelties, nākt",
     "level": "B1"
   },
   {
@@ -6726,7 +6726,7 @@ const B1_WORDS = [
   },
   {
     "de": "hervor",
-    "lv": "uz priekšu; uz āru; ārā",
+    "lv": "Uz priekšu • Uz āru • Ārā",
     "level": "B1"
   },
   {
@@ -6746,7 +6746,7 @@ const B1_WORDS = [
   },
   {
     "de": "hierauf",
-    "lv": "uz to; pēc tam, tad",
+    "lv": "Uz to • Pēc tam, tad",
     "level": "B1"
   },
   {
@@ -6761,7 +6761,7 @@ const B1_WORDS = [
   },
   {
     "de": "hilflos",
-    "lv": "bezpalīdzīgs; nevarīgs",
+    "lv": "Bezpalīdzīgs • Nevarīgs",
     "level": "B1"
   },
   {
@@ -6786,17 +6786,17 @@ const B1_WORDS = [
   },
   {
     "de": "hinausgehen",
-    "lv": "iziet; pārsniegt",
+    "lv": "Iziet • Pārsniegt",
     "level": "B1"
   },
   {
     "de": "hindern",
-    "lv": "kavēt, traucēt; likt šķēršļus ceļā",
+    "lv": "Kavēt, traucēt • Likt šķēršļus ceļā",
     "level": "B1"
   },
   {
     "de": "das Hindernis",
-    "lv": "kavēklis; šķērslis",
+    "lv": "Kavēklis • Šķērslis",
     "level": "B1"
   },
   {
@@ -6806,7 +6806,7 @@ const B1_WORDS = [
   },
   {
     "de": "hineinsehen",
-    "lv": "ieskatīties; ielūkoties",
+    "lv": "Ieskatīties • Ielūkoties",
     "level": "B1"
   },
   {
@@ -6821,12 +6821,12 @@ const B1_WORDS = [
   },
   {
     "de": "der Hintergrund",
-    "lv": "aizmugure; fons",
+    "lv": "Aizmugure • Fons",
     "level": "B1"
   },
   {
     "de": "hinüber",
-    "lv": "pāri; otrā pusē; pāri uz otru pusi",
+    "lv": "Pāri • Otrā pusē • Pāri uz otru pusi",
     "level": "B1"
   },
   {
@@ -6836,7 +6836,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Hinweis",
-    "lv": "aizrādījums; norādījums",
+    "lv": "Aizrādījums • Norādījums",
     "level": "B1"
   },
   {
@@ -6846,7 +6846,7 @@ const B1_WORDS = [
   },
   {
     "de": "hinzufügen",
-    "lv": "pievienot klāt; piebilst",
+    "lv": "Pievienot klāt • Piebilst",
     "level": "B1"
   },
   {
@@ -6871,7 +6871,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Hitze",
-    "lv": "karstums; tveice; svelme",
+    "lv": "Karstums • Tveice • Svelme",
     "level": "B1"
   },
   {
@@ -6901,7 +6901,7 @@ const B1_WORDS = [
   },
   {
     "de": "höchstens",
-    "lv": "[vis]lielākais; maksimums",
+    "lv": "[vis]lielākais • Maksimums",
     "level": "B1"
   },
   {
@@ -6936,7 +6936,7 @@ const B1_WORDS = [
   },
   {
     "de": "Hof",
-    "lv": "pagalms; sēta; galms; lauku sēta; zemnieku mājas",
+    "lv": "Pagalms • Sēta • Galms • Lauku sēta • Zemnieku mājas",
     "level": "B1"
   },
   {
@@ -6946,22 +6946,22 @@ const B1_WORDS = [
   },
   {
     "de": "Höhepunkt",
-    "lv": "augstākā vieta; kalngali; kulminācijas punkts",
+    "lv": "Augstākā vieta • Kalngali • Kulminācijas punkts",
     "level": "B1"
   },
   {
     "de": "hohl",
-    "lv": "caurs; ar tukšu vidu; tukšs; dobs; dobjš",
+    "lv": "Caurs • Ar tukšu vidu • Tukšs • Dobs • Dobjš",
     "level": "B1"
   },
   {
     "de": "Höhle",
-    "lv": "ala; miga, midzenis; dobums",
+    "lv": "Ala • Miga, midzenis • Dobums",
     "level": "B1"
   },
   {
     "de": "holen",
-    "lv": "atnest; atvest; dabūt; paņemt",
+    "lv": "Atnest • Atvest • Dabūt • Paņemt",
     "level": "B1"
   },
   {
@@ -6991,7 +6991,7 @@ const B1_WORDS = [
   },
   {
     "de": "hölzern",
-    "lv": "koka-; kokains",
+    "lv": "Koka • Kokains",
     "level": "B1"
   },
   {
@@ -7011,17 +7011,17 @@ const B1_WORDS = [
   },
   {
     "de": "hörbar",
-    "lv": "dzirdams; sadzirdams",
+    "lv": "Dzirdams • Sadzirdams",
     "level": "B1"
   },
   {
     "de": "horchen",
-    "lv": "klausīties; slepeni noklausīties",
+    "lv": "Klausīties • Slepeni noklausīties",
     "level": "B1"
   },
   {
     "de": "Hörer",
-    "lv": "klausītājs; tālruņa klausule",
+    "lv": "Klausītājs • Tālruņa klausule",
     "level": "B1"
   },
   {
@@ -7091,12 +7091,12 @@ const B1_WORDS = [
   },
   {
     "de": "Hülle",
-    "lv": "apvalks, apsegs; pārklājs",
+    "lv": "Apvalks, apsegs • Pārklājs",
     "level": "B1"
   },
   {
     "de": "Hülse",
-    "lv": "čaumala; čaula; pāksts; čaulīte",
+    "lv": "Čaumala • Čaula • Pāksts • Čaulīte",
     "level": "B1"
   },
   {
@@ -7141,7 +7141,7 @@ const B1_WORDS = [
   },
   {
     "de": "hüten",
-    "lv": "sargāt, glabāt; uzraudzīt; ganīt lopus; palikt gultā; sargāties, uzmanīties",
+    "lv": "Sargāt, glabāt • Uzraudzīt • Ganīt lopus • Palikt gultā • Sargāties, uzmanīties",
     "level": "B1"
   },
   {
@@ -7176,7 +7176,7 @@ const B1_WORDS = [
   },
   {
     "de": "ihrerseits",
-    "lv": "no viņas/viņu puses; no savas puses",
+    "lv": "No viņas • Viņu puses • No savas puses",
     "level": "B1"
   },
   {
@@ -7241,7 +7241,7 @@ const B1_WORDS = [
   },
   {
     "de": "indessen",
-    "lv": "pa to laiku, tai laikā; tomēr",
+    "lv": "Pa to laiku, tai laikā • Tomēr",
     "level": "B1"
   },
   {
@@ -7256,7 +7256,7 @@ const B1_WORDS = [
   },
   {
     "de": "individuell",
-    "lv": "individuāls; individuāli",
+    "lv": "Individuāls • Individuāli",
     "level": "B1"
   },
   {
@@ -7271,7 +7271,7 @@ const B1_WORDS = [
   },
   {
     "de": "ineinander",
-    "lv": "viens otrā; cits citā",
+    "lv": "Viens otrā • Cits citā",
     "level": "B1"
   },
   {
@@ -7311,7 +7311,7 @@ const B1_WORDS = [
   },
   {
     "de": "Inhalt",
-    "lv": "saturs; tilpums",
+    "lv": "Saturs • Tilpums",
     "level": "B1"
   },
   {
@@ -7351,7 +7351,7 @@ const B1_WORDS = [
   },
   {
     "de": "Innere",
-    "lv": "vidus; vidiene; iekšiene",
+    "lv": "Vidus • Vidiene • Iekšiene",
     "level": "B1"
   },
   {
@@ -7361,12 +7361,12 @@ const B1_WORDS = [
   },
   {
     "de": "innerhalb",
-    "lv": "iekšā; iekšpusē; iekšienē; laikā",
+    "lv": "Iekšā • Iekšpusē • Iekšienē • Laikā",
     "level": "B1"
   },
   {
     "de": "innerlich",
-    "lv": "iekšķīgs; iekšējs",
+    "lv": "Iekšķīgs • Iekšējs",
     "level": "B1"
   },
   {
@@ -7391,7 +7391,7 @@ const B1_WORDS = [
   },
   {
     "de": "insofern",
-    "lv": "šai ziņā; tiktāl; ciktāl, par cik",
+    "lv": "Šai ziņā • Tiktāl • Ciktāl, par cik",
     "level": "B1"
   },
   {
@@ -7491,12 +7491,12 @@ const B1_WORDS = [
   },
   {
     "de": "inwendig",
-    "lv": "iekšējs; iekšā, iekšpusē",
+    "lv": "Iekšējs • Iekšā, iekšpusē",
     "level": "B1"
   },
   {
     "de": "inwiefern / inwieweit",
-    "lv": "kādā mērā, cik; ciktāl",
+    "lv": "Kādā mērā, cik • Ciktāl",
     "level": "B1"
   },
   {
@@ -7516,12 +7516,12 @@ const B1_WORDS = [
   },
   {
     "de": "irren",
-    "lv": "maldīties, klīst; maldīties, kļūdīties",
+    "lv": "Maldīties, klīst • Maldīties, kļūdīties",
     "level": "B1"
   },
   {
     "de": "Irrtum",
-    "lv": "maldīšanās, maldi; pārpratums",
+    "lv": "Maldīšanās, maldi • Pārpratums",
     "level": "B1"
   },
   {
@@ -7561,7 +7561,7 @@ const B1_WORDS = [
   },
   {
     "de": "jagen",
-    "lv": "medīt; dzīt; trenkt; dzenāt; traukties, drāzties, dzīties",
+    "lv": "Medīt • Dzīt • Trenkt • Dzenāt • Traukties, drāzties, dzīties",
     "level": "B1"
   },
   {
@@ -7571,7 +7571,7 @@ const B1_WORDS = [
   },
   {
     "de": "jäh",
-    "lv": "pēkšņs, piepešs; stāvs, kraujš",
+    "lv": "Pēkšņs, piepešs • Stāvs, kraujš",
     "level": "B1"
   },
   {
@@ -7606,7 +7606,7 @@ const B1_WORDS = [
   },
   {
     "de": "Jahrgang",
-    "lv": "izdošanas gads; gadagājums",
+    "lv": "Izdošanas gads • Gadagājums",
     "level": "B1"
   },
   {
@@ -7626,7 +7626,7 @@ const B1_WORDS = [
   },
   {
     "de": "jammern",
-    "lv": "vaimanāt; gausties",
+    "lv": "Vaimanāt • Gausties",
     "level": "B1"
   },
   {
@@ -7661,7 +7661,7 @@ const B1_WORDS = [
   },
   {
     "de": "jenseits",
-    "lv": "viņpus; viņā pusē",
+    "lv": "Viņpus • Viņā pusē",
     "level": "B1"
   },
   {
@@ -7676,7 +7676,7 @@ const B1_WORDS = [
   },
   {
     "de": "jubeln",
-    "lv": "līksmot; gavilēt",
+    "lv": "Līksmot • Gavilēt",
     "level": "B1"
   },
   {
@@ -7696,7 +7696,7 @@ const B1_WORDS = [
   },
   {
     "de": "jugendlich",
-    "lv": "jaunības-; jaunekļīgs; jaunavīgs",
+    "lv": "Jaunības • Jaunekļīgs • Jaunavīgs",
     "level": "B1"
   },
   {
@@ -7711,7 +7711,7 @@ const B1_WORDS = [
   },
   {
     "de": "jüngst",
-    "lv": "jaunākais; nesen, nupat, šajās dienās",
+    "lv": "Jaunākais • Nesen, nupat, šajās dienās",
     "level": "B1"
   },
   {
@@ -7726,12 +7726,12 @@ const B1_WORDS = [
   },
   {
     "de": "Juwel",
-    "lv": "dārgakmens; dārgums",
+    "lv": "Dārgakmens • Dārgums",
     "level": "B1"
   },
   {
     "de": "Kabarett",
-    "lv": "kabarē; varietē",
+    "lv": "Kabarē • Varietē",
     "level": "B1"
   },
   {
@@ -7771,7 +7771,7 @@ const B1_WORDS = [
   },
   {
     "de": "Käfig",
-    "lv": "krātiņš; būris",
+    "lv": "Krātiņš • Būris",
     "level": "B1"
   },
   {
@@ -7811,7 +7811,7 @@ const B1_WORDS = [
   },
   {
     "de": "Kameradschaft",
-    "lv": "biedriskums; biedri",
+    "lv": "Biedriskums • Biedri",
     "level": "B1"
   },
   {
@@ -7826,7 +7826,7 @@ const B1_WORDS = [
   },
   {
     "de": "Kammer",
-    "lv": "istabiņa, kambaris; palāta; kamera",
+    "lv": "Istabiņa, kambaris • Palāta • Kamera",
     "level": "B1"
   },
   {
@@ -7851,7 +7851,7 @@ const B1_WORDS = [
   },
   {
     "de": "Kampf",
-    "lv": "cīņa; kauja",
+    "lv": "Cīņa • Kauja",
     "level": "B1"
   },
   {
@@ -7881,7 +7881,7 @@ const B1_WORDS = [
   },
   {
     "de": "Kante",
-    "lv": "mala, šķautne; apmale, apšuvums",
+    "lv": "Mala, šķautne • Apmale, apšuvums",
     "level": "B1"
   },
   {
@@ -7901,7 +7901,7 @@ const B1_WORDS = [
   },
   {
     "de": "Kapelle",
-    "lv": "kapela; kapela, baznīciņa",
+    "lv": "Kapela • Kapela, baznīciņa",
     "level": "B1"
   },
   {
@@ -7921,7 +7921,7 @@ const B1_WORDS = [
   },
   {
     "de": "karg",
-    "lv": "skops; trūcīgs",
+    "lv": "Skops • Trūcīgs",
     "level": "B1"
   },
   {
@@ -7931,7 +7931,7 @@ const B1_WORDS = [
   },
   {
     "de": "karitativ",
-    "lv": "labdarīgs; labdarības-",
+    "lv": "Labdarīgs • Labdarības",
     "level": "B1"
   },
   {
@@ -7986,7 +7986,7 @@ const B1_WORDS = [
   },
   {
     "de": "Kastanie",
-    "lv": "kastanis; kastaņa",
+    "lv": "Kastanis • Kastaņa",
     "level": "B1"
   },
   {
@@ -8011,7 +8011,7 @@ const B1_WORDS = [
   },
   {
     "de": "Kegel",
-    "lv": "ķeglis; konuss",
+    "lv": "Ķeglis • Konuss",
     "level": "B1"
   },
   {
@@ -8026,7 +8026,7 @@ const B1_WORDS = [
   },
   {
     "de": "kehren",
-    "lv": "[pa]vērst; slaucīt, mēzt",
+    "lv": "[pa]vērst • Slaucīt, mēzt",
     "level": "B1"
   },
   {
@@ -8036,7 +8036,7 @@ const B1_WORDS = [
   },
   {
     "de": "Kehrseite",
-    "lv": "otrā puse; kreisā puse",
+    "lv": "Otrā puse • Kreisā puse",
     "level": "B1"
   },
   {
@@ -8046,12 +8046,12 @@ const B1_WORDS = [
   },
   {
     "de": "Keim",
-    "lv": "asns; dīglis",
+    "lv": "Asns • Dīglis",
     "level": "B1"
   },
   {
     "de": "Kelch",
-    "lv": "kauss; kausiņš",
+    "lv": "Kauss • Kausiņš",
     "level": "B1"
   },
   {
@@ -8061,17 +8061,17 @@ const B1_WORDS = [
   },
   {
     "de": "kennzeichnen",
-    "lv": "atzīmēt, iezīmēt; raksturot",
+    "lv": "Atzīmēt, iezīmēt • Raksturot",
     "level": "B1"
   },
   {
     "de": "Kerbe",
-    "lv": "iegriezums; robs",
+    "lv": "Iegriezums • Robs",
     "level": "B1"
   },
   {
     "de": "Kern",
-    "lv": "kauliņš; kodols; būtība",
+    "lv": "Kauliņš • Kodols • Būtība",
     "level": "B1"
   },
   {
@@ -8081,7 +8081,7 @@ const B1_WORDS = [
   },
   {
     "de": "Kette",
-    "lv": "ķēde; važas; virkne; rinda",
+    "lv": "Ķēde • Važas • Virkne • Rinda",
     "level": "B1"
   },
   {
@@ -8096,12 +8096,12 @@ const B1_WORDS = [
   },
   {
     "de": "keusch",
-    "lv": "šķīsts, tikls; kautrīgs",
+    "lv": "Šķīsts, tikls • Kautrīgs",
     "level": "B1"
   },
   {
     "de": "Kiefer",
-    "lv": "žoklis; priede",
+    "lv": "Žoklis • Priede",
     "level": "B1"
   },
   {
@@ -8126,37 +8126,37 @@ const B1_WORDS = [
   },
   {
     "de": "kippen",
-    "lv": "apgāzt; apgāzties; zaudēt līdzsvaru",
+    "lv": "Apgāzt • Apgāzties • Zaudēt līdzsvaru",
     "level": "B1"
   },
   {
     "de": "kitzeln",
-    "lv": "kutināt; kutēt",
+    "lv": "Kutināt • Kutēt",
     "level": "B1"
   },
   {
     "de": "Kladde",
-    "lv": "piezīmju burtnīca; klade",
+    "lv": "Piezīmju burtnīca • Klade",
     "level": "B1"
   },
   {
     "de": "Klage",
-    "lv": "žēlošanās; sūdzēšanās; sūdzība; vaimanas",
+    "lv": "Žēlošanās • Sūdzēšanās • Sūdzība • Vaimanas",
     "level": "B1"
   },
   {
     "de": "klagen",
-    "lv": "žēloties; sūdzēties; sūdzēt",
+    "lv": "Žēloties • Sūdzēties • Sūdzēt",
     "level": "B1"
   },
   {
     "de": "kläglich",
-    "lv": "žēlabains; bēdīgs; nožēlojams",
+    "lv": "Žēlabains • Bēdīgs • Nožēlojams",
     "level": "B1"
   },
   {
     "de": "Klammer",
-    "lv": "iekava; skava",
+    "lv": "Iekava • Skava",
     "level": "B1"
   },
   {
@@ -8166,7 +8166,7 @@ const B1_WORDS = [
   },
   {
     "de": "klanglos",
-    "lv": "neskanīgs; bezskaņas-",
+    "lv": "Neskanīgs • Bezskaņas",
     "level": "B1"
   },
   {
@@ -8176,12 +8176,12 @@ const B1_WORDS = [
   },
   {
     "de": "klappen",
-    "lv": "klaudzināt; klaudzēt; iet gludi",
+    "lv": "Klaudzināt • Klaudzēt • Iet gludi",
     "level": "B1"
   },
   {
     "de": "klären",
-    "lv": "noskaidrot; noskaidroties",
+    "lv": "Noskaidrot • Noskaidroties",
     "level": "B1"
   },
   {
@@ -8201,7 +8201,7 @@ const B1_WORDS = [
   },
   {
     "de": "klatschen",
-    "lv": "plaukšķināt; aplaudēt; tenkot",
+    "lv": "Plaukšķināt • Aplaudēt • Tenkot",
     "level": "B1"
   },
   {
@@ -8236,7 +8236,7 @@ const B1_WORDS = [
   },
   {
     "de": "Kleinigkeit",
-    "lv": "sīkums; nieks",
+    "lv": "Sīkums • Nieks",
     "level": "B1"
   },
   {
@@ -8251,7 +8251,7 @@ const B1_WORDS = [
   },
   {
     "de": "Klemme",
-    "lv": "spīle; spaile",
+    "lv": "Spīle • Spaile",
     "level": "B1"
   },
   {
@@ -8271,12 +8271,12 @@ const B1_WORDS = [
   },
   {
     "de": "klingen",
-    "lv": "skanēt; šķindēt",
+    "lv": "Skanēt • Šķindēt",
     "level": "B1"
   },
   {
     "de": "klirren",
-    "lv": "žvadžēt; šķindēt",
+    "lv": "Žvadžēt • Šķindēt",
     "level": "B1"
   },
   {
@@ -8291,12 +8291,12 @@ const B1_WORDS = [
   },
   {
     "de": "Klotz",
-    "lv": "klucis; bluķis",
+    "lv": "Klucis • Bluķis",
     "level": "B1"
   },
   {
     "de": "Kluft",
-    "lv": "aiza, bezdibenis; plaisa",
+    "lv": "Aiza, bezdibenis • Plaisa",
     "level": "B1"
   },
   {
@@ -8306,32 +8306,32 @@ const B1_WORDS = [
   },
   {
     "de": "Klumpen",
-    "lv": "liels gabals; zemes pika, kukurznis",
+    "lv": "Liels gabals • Zemes pika, kukurznis",
     "level": "B1"
   },
   {
     "de": "knacken",
-    "lv": "kost; kraukšķināt; krakšķēt",
+    "lv": "Kost • Kraukšķināt • Krakšķēt",
     "level": "B1"
   },
   {
     "de": "knallen",
-    "lv": "pliukšķināt; blikšķēt; ribēt",
+    "lv": "Pliukšķināt • Blikšķēt • Ribēt",
     "level": "B1"
   },
   {
     "de": "knapp",
-    "lv": "trūcīgs; skops; šaurs; līdz ar nagiem; tik tikko",
+    "lv": "Trūcīgs • Skops • Šaurs • Līdz ar nagiem • Tik tikko",
     "level": "B1"
   },
   {
     "de": "knattern",
-    "lv": "sprēgāt, sprakšķēt; tarkšķēt",
+    "lv": "Sprēgāt, sprakšķēt • Tarkšķēt",
     "level": "B1"
   },
   {
     "de": "kneifen",
-    "lv": "knaibīt; iekniebt",
+    "lv": "Knaibīt • Iekniebt",
     "level": "B1"
   },
   {
@@ -8386,7 +8386,7 @@ const B1_WORDS = [
   },
   {
     "de": "knüpfen",
-    "lv": "siet; vīt ligzdu; saistīt",
+    "lv": "Siet • Vīt ligzdu • Saistīt",
     "level": "B1"
   },
   {
@@ -8451,7 +8451,7 @@ const B1_WORDS = [
   },
   {
     "de": "Kommando",
-    "lv": "komanda, pavēle; komanda, nodaļa; pavēlniecība",
+    "lv": "Komanda, pavēle • Komanda, nodaļa • Pavēlniecība",
     "level": "B1"
   },
   {
@@ -8461,7 +8461,7 @@ const B1_WORDS = [
   },
   {
     "de": "komplett",
-    "lv": "pilnīgs; neiztrūkstošs",
+    "lv": "Pilnīgs • Neiztrūkstošs",
     "level": "B1"
   },
   {
@@ -8571,12 +8571,12 @@ const B1_WORDS = [
   },
   {
     "de": "körperlich",
-    "lv": "miesas-; fizisks",
+    "lv": "Miesas • Fizisks",
     "level": "B1"
   },
   {
     "de": "korrekt",
-    "lv": "pareizs; korekts",
+    "lv": "Pareizs • Korekts",
     "level": "B1"
   },
   {
@@ -8601,7 +8601,7 @@ const B1_WORDS = [
   },
   {
     "de": "Kost",
-    "lv": "barība; uzturs",
+    "lv": "Barība • Uzturs",
     "level": "B1"
   },
   {
@@ -8621,7 +8621,7 @@ const B1_WORDS = [
   },
   {
     "de": "Kosten",
-    "lv": "izdevumi; izmaksas",
+    "lv": "Izdevumi • Izmaksas",
     "level": "B1"
   },
   {
@@ -8686,7 +8686,7 @@ const B1_WORDS = [
   },
   {
     "de": "Krampf",
-    "lv": "krampji; spazmas",
+    "lv": "Krampji • Spazmas",
     "level": "B1"
   },
   {
@@ -8741,7 +8741,7 @@ const B1_WORDS = [
   },
   {
     "de": "kratzen",
-    "lv": "skrāpēt; kasīt",
+    "lv": "Skrāpēt • Kasīt",
     "level": "B1"
   },
   {
@@ -8751,12 +8751,12 @@ const B1_WORDS = [
   },
   {
     "de": "kraus",
-    "lv": "sprogains; cirtais",
+    "lv": "Sprogains • Cirtais",
     "level": "B1"
   },
   {
     "de": "Kraut",
-    "lv": "zāle; zāles; ārstniecības augs; zaļumi; dārzeņi; kāposti",
+    "lv": "Zāle • Zāles • Ārstniecības augs • Zaļumi • Dārzeņi • Kāposti",
     "level": "B1"
   },
   {
@@ -8776,7 +8776,7 @@ const B1_WORDS = [
   },
   {
     "de": "Kreation",
-    "lv": "radīšana; veidošana; modelēšana",
+    "lv": "Radīšana • Veidošana • Modelēšana",
     "level": "B1"
   },
   {
@@ -8796,17 +8796,17 @@ const B1_WORDS = [
   },
   {
     "de": "kreieren",
-    "lv": "radīt; veidot, modelēt",
+    "lv": "Radīt • Veidot, modelēt",
     "level": "B1"
   },
   {
     "de": "kreisen",
-    "lv": "griezties; riņķot",
+    "lv": "Griezties • Riņķot",
     "level": "B1"
   },
   {
     "de": "Kreislauf",
-    "lv": "cikls; riņķojums; cirkulācija, riņķošana",
+    "lv": "Cikls • Riņķojums • Cirkulācija, riņķošana",
     "level": "B1"
   },
   {
@@ -8816,12 +8816,12 @@ const B1_WORDS = [
   },
   {
     "de": "kreuzen",
-    "lv": "krustot; šķērsot ceļu; krustoties",
+    "lv": "Krustot • Šķērsot ceļu • Krustoties",
     "level": "B1"
   },
   {
     "de": "Kreuzung",
-    "lv": "krustošana; šķērsošana; ielu krustojums",
+    "lv": "Krustošana • Šķērsošana • Ielu krustojums",
     "level": "B1"
   },
   {
@@ -8871,7 +8871,7 @@ const B1_WORDS = [
   },
   {
     "de": "Krone",
-    "lv": "kronis, vainags; galotne; zoba kronītis",
+    "lv": "Kronis, vainags • Galotne • Zoba kronītis",
     "level": "B1"
   },
   {
@@ -8896,7 +8896,7 @@ const B1_WORDS = [
   },
   {
     "de": "krümmen",
-    "lv": "saliekt; salocīt; liekties; locīties",
+    "lv": "Saliekt • Salocīt • Liekties • Locīties",
     "level": "B1"
   },
   {
@@ -8921,7 +8921,7 @@ const B1_WORDS = [
   },
   {
     "de": "kühn",
-    "lv": "drosmīgs; drošsirdīgs",
+    "lv": "Drosmīgs • Drošsirdīgs",
     "level": "B1"
   },
   {
@@ -8936,7 +8936,7 @@ const B1_WORDS = [
   },
   {
     "de": "Kummer",
-    "lv": "bēdas; raizes; rūpes",
+    "lv": "Bēdas • Raizes • Rūpes",
     "level": "B1"
   },
   {
@@ -8946,47 +8946,47 @@ const B1_WORDS = [
   },
   {
     "de": "Kunde",
-    "lv": "ziņa, vēsts; pircējs, klients",
+    "lv": "Ziņa, vēsts • Pircējs, klients",
     "level": "B1"
   },
   {
     "de": "Kundendienst",
-    "lv": "ziņu birojs; serviss",
+    "lv": "Ziņu birojs • Serviss",
     "level": "B1"
   },
   {
     "de": "kundgeben",
-    "lv": "darīt zināmu; paziņot",
+    "lv": "Darīt zināmu • Paziņot",
     "level": "B1"
   },
   {
     "de": "Kundgebung",
-    "lv": "paziņojums; demonstrācija; manifestācija",
+    "lv": "Paziņojums • Demonstrācija • Manifestācija",
     "level": "B1"
   },
   {
     "de": "kündigen",
-    "lv": "anulēt, lauzt līgumu; atlaist no darba; uzteikt darbu",
+    "lv": "Anulēt, lauzt līgumu • Atlaist no darba • Uzteikt darbu",
     "level": "B1"
   },
   {
     "de": "Kündigung",
-    "lv": "līguma anulēšana; darba uzteikums",
+    "lv": "Līguma anulēšana • Darba uzteikums",
     "level": "B1"
   },
   {
     "de": "Kundschaft",
-    "lv": "klientūra; pircēji",
+    "lv": "Klientūra • Pircēji",
     "level": "B1"
   },
   {
     "de": "künftig",
-    "lv": "nākamais, nākošais; turpmāk, uz priekšu",
+    "lv": "Nākamais, nākošais • Turpmāk, uz priekšu",
     "level": "B1"
   },
   {
     "de": "kunstfertig",
-    "lv": "izveicīgs; prasmīgs",
+    "lv": "Izveicīgs • Prasmīgs",
     "level": "B1"
   },
   {
@@ -8996,7 +8996,7 @@ const B1_WORDS = [
   },
   {
     "de": "künstlich",
-    "lv": "mākslīgs; mākslots; neīsts",
+    "lv": "Mākslīgs • Mākslots • Neīsts",
     "level": "B1"
   },
   {
@@ -9016,7 +9016,7 @@ const B1_WORDS = [
   },
   {
     "de": "kuppeln",
-    "lv": "sakabināt; savienot",
+    "lv": "Sakabināt • Savienot",
     "level": "B1"
   },
   {
@@ -9026,17 +9026,17 @@ const B1_WORDS = [
   },
   {
     "de": "Kurbel",
-    "lv": "kloķis; rokturis",
+    "lv": "Kloķis • Rokturis",
     "level": "B1"
   },
   {
     "de": "kurieren",
-    "lv": "[iz]ārstēt; dziedināt",
+    "lv": "[iz]ārstēt • Dziedināt",
     "level": "B1"
   },
   {
     "de": "Kurs",
-    "lv": "virziens, kurss; vērtspapīru cena; politikas virziens; lekciju kurss",
+    "lv": "Virziens, kurss • Vērtspapīru cena • Politikas virziens • Lekciju kurss",
     "level": "B1"
   },
   {
@@ -9046,17 +9046,17 @@ const B1_WORDS = [
   },
   {
     "de": "Kurve",
-    "lv": "līkne; ceļa pagrieziens",
+    "lv": "Līkne • Ceļa pagrieziens",
     "level": "B1"
   },
   {
     "de": "Kürze",
-    "lv": "drīzumā, tuvākajā laikā; īsos vārdos",
+    "lv": "Drīzumā, tuvākajā laikā • Īsos vārdos",
     "level": "B1"
   },
   {
     "de": "kürzen",
-    "lv": "saīsināt; pakavēt laiku",
+    "lv": "Saīsināt • Pakavēt laiku",
     "level": "B1"
   },
   {
@@ -9071,7 +9071,7 @@ const B1_WORDS = [
   },
   {
     "de": "Kurzschluss",
-    "lv": "īssavienojums; nepārdomāta rīcība",
+    "lv": "Īssavienojums • Nepārdomāta rīcība",
     "level": "B1"
   },
   {
@@ -9081,7 +9081,7 @@ const B1_WORDS = [
   },
   {
     "de": "Kürzung",
-    "lv": "saīsinājums; samazinājums",
+    "lv": "Saīsinājums • Samazinājums",
     "level": "B1"
   },
   {
@@ -9096,12 +9096,12 @@ const B1_WORDS = [
   },
   {
     "de": "Küste",
-    "lv": "piekrāste; jūras krasts",
+    "lv": "Piekrāste • Jūras krasts",
     "level": "B1"
   },
   {
     "de": "laben",
-    "lv": "[at]spirdzināt; atspirdzināties",
+    "lv": "[at]spirdzināt • Atspirdzināties",
     "level": "B1"
   },
   {
@@ -9116,7 +9116,7 @@ const B1_WORDS = [
   },
   {
     "de": "lächerlich",
-    "lv": "smieklīgs; uzjautrinošs",
+    "lv": "Smieklīgs • Uzjautrinošs",
     "level": "B1"
   },
   {
@@ -9141,7 +9141,7 @@ const B1_WORDS = [
   },
   {
     "de": "laden",
-    "lv": "iekraut; pielādēt; aicināt, ielūgt",
+    "lv": "Iekraut • Pielādēt • Aicināt, ielūgt",
     "level": "B1"
   },
   {
@@ -9151,7 +9151,7 @@ const B1_WORDS = [
   },
   {
     "de": "Laderaum",
-    "lv": "kuģa tilpne; kravas telpa",
+    "lv": "Kuģa tilpne • Kravas telpa",
     "level": "B1"
   },
   {
@@ -9161,7 +9161,7 @@ const B1_WORDS = [
   },
   {
     "de": "Lager",
-    "lv": "preču noliktava; nometne; gultnis",
+    "lv": "Preču noliktava • Nometne • Gultnis",
     "level": "B1"
   },
   {
@@ -9171,7 +9171,7 @@ const B1_WORDS = [
   },
   {
     "de": "lahm",
-    "lv": "klibs; paralizēts; gaudens",
+    "lv": "Klibs • Paralizēts • Gaudens",
     "level": "B1"
   },
   {
@@ -9211,7 +9211,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Hof",
-    "lv": "pagalms; sēta; galms; lauku sēta; zemnieku mājas",
+    "lv": "Pagalms • Sēta • Galms • Lauku sēta • Zemnieku mājas",
     "level": "B1"
   },
   {
@@ -9221,12 +9221,12 @@ const B1_WORDS = [
   },
   {
     "de": "der Höhepunkt",
-    "lv": "augstākā vieta; kalngali; kulminācijas punkts",
+    "lv": "Augstākā vieta • Kalngali • Kulminācijas punkts",
     "level": "B1"
   },
   {
     "de": "die Höhle",
-    "lv": "ala; miga, midzenis; dobums",
+    "lv": "Ala • Miga, midzenis • Dobums",
     "level": "B1"
   },
   {
@@ -9271,7 +9271,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Hörer",
-    "lv": "klausītājs; tālruņa klausule",
+    "lv": "Klausītājs • Tālruņa klausule",
     "level": "B1"
   },
   {
@@ -9341,12 +9341,12 @@ const B1_WORDS = [
   },
   {
     "de": "die Hülle",
-    "lv": "apvalks, apsegs; pārklājs",
+    "lv": "Apvalks, apsegs • Pārklājs",
     "level": "B1"
   },
   {
     "de": "die Hülse",
-    "lv": "čaumala; čaula; pāksts; čaulīte",
+    "lv": "Čaumala • Čaula • Pāksts • Čaulīte",
     "level": "B1"
   },
   {
@@ -9456,7 +9456,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Inhalt",
-    "lv": "saturs; tilpums",
+    "lv": "Saturs • Tilpums",
     "level": "B1"
   },
   {
@@ -9476,7 +9476,7 @@ const B1_WORDS = [
   },
   {
     "de": "das Innere",
-    "lv": "vidus; vidiene; iekšiene",
+    "lv": "Vidus • Vidiene • Iekšiene",
     "level": "B1"
   },
   {
@@ -9546,7 +9546,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Irrtum",
-    "lv": "maldīšanās; maldi; pārpratums",
+    "lv": "Maldīšanās • Maldi • Pārpratums",
     "level": "B1"
   },
   {
@@ -9611,12 +9611,12 @@ const B1_WORDS = [
   },
   {
     "de": "der Jahrgang",
-    "lv": "izdošanas gads; gadagājums",
+    "lv": "Izdošanas gads • Gadagājums",
     "level": "B1"
   },
   {
     "de": "das Jahrhundert",
-    "lv": "gadsimts; gadu simtenis",
+    "lv": "Gadsimts • Gadu simtenis",
     "level": "B1"
   },
   {
@@ -9676,12 +9676,12 @@ const B1_WORDS = [
   },
   {
     "de": "das Juwel",
-    "lv": "dārgakmens; dārgums",
+    "lv": "Dārgakmens • Dārgums",
     "level": "B1"
   },
   {
     "de": "das Kabarett",
-    "lv": "kabarē; varietē",
+    "lv": "Kabarē • Varietē",
     "level": "B1"
   },
   {
@@ -9721,7 +9721,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Käfig",
-    "lv": "krātiņš; būris",
+    "lv": "Krātiņš • Būris",
     "level": "B1"
   },
   {
@@ -9751,7 +9751,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Kameradschaft",
-    "lv": "biedriskums; biedri",
+    "lv": "Biedriskums • Biedri",
     "level": "B1"
   },
   {
@@ -9766,7 +9766,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Kammer",
-    "lv": "istabiņa, kambaris; palāta; kamera",
+    "lv": "Istabiņa, kambaris • Palāta • Kamera",
     "level": "B1"
   },
   {
@@ -9791,7 +9791,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Kampf",
-    "lv": "cīņa; kauja",
+    "lv": "Cīņa • Kauja",
     "level": "B1"
   },
   {
@@ -9816,7 +9816,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Kante",
-    "lv": "mala, šķautne; apmale, apšuvums",
+    "lv": "Mala, šķautne • Apmale, apšuvums",
     "level": "B1"
   },
   {
@@ -9836,7 +9836,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Kapelle",
-    "lv": "kapela; kapela, baznīciņa",
+    "lv": "Kapela • Kapela, baznīciņa",
     "level": "B1"
   },
   {
@@ -9911,7 +9911,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Kastanie",
-    "lv": "kastanis; kastaņa",
+    "lv": "Kastanis • Kastaņa",
     "level": "B1"
   },
   {
@@ -9936,7 +9936,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Kegel",
-    "lv": "ķeglis; konuss",
+    "lv": "Ķeglis • Konuss",
     "level": "B1"
   },
   {
@@ -9951,7 +9951,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Kehrseite",
-    "lv": "otrā puse; kreisā puse",
+    "lv": "Otrā puse • Kreisā puse",
     "level": "B1"
   },
   {
@@ -9961,7 +9961,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Keim",
-    "lv": "asns; dīglis",
+    "lv": "Asns • Dīglis",
     "level": "B1"
   },
   {
@@ -9996,12 +9996,12 @@ const B1_WORDS = [
   },
   {
     "de": "die Kleinigkeit",
-    "lv": "sīkums; nieks",
+    "lv": "Sīkums • Nieks",
     "level": "B1"
   },
   {
     "de": "die Klemme",
-    "lv": "spīle; spaile",
+    "lv": "Spīle • Spaile",
     "level": "B1"
   },
   {
@@ -10026,17 +10026,17 @@ const B1_WORDS = [
   },
   {
     "de": "der Klotz",
-    "lv": "klucis; bluķis",
+    "lv": "Klucis • Bluķis",
     "level": "B1"
   },
   {
     "de": "die Kluft",
-    "lv": "aiza, bezdibenis; plaisa",
+    "lv": "Aiza, bezdibenis • Plaisa",
     "level": "B1"
   },
   {
     "de": "der Klumpen",
-    "lv": "liels gabals; zemes pika, kukurznis",
+    "lv": "Liels gabals • Zemes pika, kukurznis",
     "level": "B1"
   },
   {
@@ -10121,7 +10121,7 @@ const B1_WORDS = [
   },
   {
     "de": "das Kommando",
-    "lv": "komanda, pavēle; komanda, nodaļa; pavēlniecība",
+    "lv": "Komanda, pavēle • Komanda, nodaļa • Pavēlniecība",
     "level": "B1"
   },
   {
@@ -10236,7 +10236,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Kost",
-    "lv": "barība; uzturs",
+    "lv": "Barība • Uzturs",
     "level": "B1"
   },
   {
@@ -10251,7 +10251,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Kosten",
-    "lv": "izdevumi; izmaksas",
+    "lv": "Izdevumi • Izmaksas",
     "level": "B1"
   },
   {
@@ -10296,7 +10296,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Krampf",
-    "lv": "krampji; spazmas",
+    "lv": "Krampji • Spazmas",
     "level": "B1"
   },
   {
@@ -10346,7 +10346,7 @@ const B1_WORDS = [
   },
   {
     "de": "das Kraut",
-    "lv": "zāle; zāles; ārstniecības augs; zaļumi; dārzeņi; kāposti",
+    "lv": "Zāle • Zāles • Ārstniecības augs • Zaļumi • Dārzeņi • Kāposti",
     "level": "B1"
   },
   {
@@ -10366,7 +10366,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Kreation",
-    "lv": "radīšana; veidošana; modelēšana",
+    "lv": "Radīšana • Veidošana • Modelēšana",
     "level": "B1"
   },
   {
@@ -10381,7 +10381,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Kreislauf",
-    "lv": "cikls; riņķojums; cirkulācija, riņķošana",
+    "lv": "Cikls • Riņķojums • Cirkulācija, riņķošana",
     "level": "B1"
   },
   {
@@ -10391,7 +10391,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Kreuzung",
-    "lv": "krustošana; šķērsošana; ielu krustojums",
+    "lv": "Krustošana • Šķērsošana • Ielu krustojums",
     "level": "B1"
   },
   {
@@ -10421,7 +10421,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Krone",
-    "lv": "kronis; vainags; galotne; zoba kronītis",
+    "lv": "Kronis • Vainags • Galotne • Zoba kronītis",
     "level": "B1"
   },
   {
@@ -10466,32 +10466,32 @@ const B1_WORDS = [
   },
   {
     "de": "der Kummer",
-    "lv": "bēdas; raizes; rūpes",
+    "lv": "Bēdas • Raizes • Rūpes",
     "level": "B1"
   },
   {
     "de": "die Kunde",
-    "lv": "ziņa; vēsts; pircējs; klients",
+    "lv": "Ziņa • Vēsts • Pircējs • Klients",
     "level": "B1"
   },
   {
     "de": "der Kundendienst",
-    "lv": "ziņu birojs; serviss",
+    "lv": "Ziņu birojs • Serviss",
     "level": "B1"
   },
   {
     "de": "die Kundgebung",
-    "lv": "paziņojums; demonstrācija; manifestācija",
+    "lv": "Paziņojums • Demonstrācija • Manifestācija",
     "level": "B1"
   },
   {
     "de": "die Kündigung",
-    "lv": "līguma anulēšana; darba uzteikums",
+    "lv": "Līguma anulēšana • Darba uzteikums",
     "level": "B1"
   },
   {
     "de": "die Kundschaft",
-    "lv": "klientūra; pircēji",
+    "lv": "Klientūra • Pircēji",
     "level": "B1"
   },
   {
@@ -10516,12 +10516,12 @@ const B1_WORDS = [
   },
   {
     "de": "die Kurbel",
-    "lv": "kloķis; rokturis",
+    "lv": "Kloķis • Rokturis",
     "level": "B1"
   },
   {
     "de": "der Kurs",
-    "lv": "virziens; kurss; cena; politikas virziens; lekciju kurss",
+    "lv": "Virziens • Kurss • Cena • Politikas virziens • Lekciju kurss",
     "level": "B1"
   },
   {
@@ -10531,27 +10531,27 @@ const B1_WORDS = [
   },
   {
     "de": "die Kurve",
-    "lv": "līkne; ceļa pagrieziens",
+    "lv": "Līkne • Ceļa pagrieziens",
     "level": "B1"
   },
   {
     "de": "die Kürze",
-    "lv": "drīzumā; īsos vārdos",
+    "lv": "Drīzumā • Īsos vārdos",
     "level": "B1"
   },
   {
     "de": "der Kurzschluss",
-    "lv": "īssavienojums; nepārdomāta rīcība",
+    "lv": "Īssavienojums • Nepārdomāta rīcība",
     "level": "B1"
   },
   {
     "de": "die Kürzung",
-    "lv": "saīsinājums; samazinājums",
+    "lv": "Saīsinājums • Samazinājums",
     "level": "B1"
   },
   {
     "de": "die Küste",
-    "lv": "piekraste; jūras krasts",
+    "lv": "Piekraste • Jūras krasts",
     "level": "B1"
   },
   {
@@ -10591,7 +10591,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Laderaum",
-    "lv": "kuģa tilpne; kravas telpa",
+    "lv": "Kuģa tilpne • Kravas telpa",
     "level": "B1"
   },
   {
@@ -10601,12 +10601,12 @@ const B1_WORDS = [
   },
   {
     "de": "das Lager",
-    "lv": "noliktava; nometne; gultnis",
+    "lv": "Noliktava • Nometne • Gultnis",
     "level": "B1"
   },
   {
     "de": "der Laib",
-    "lv": "klaips; kukulis",
+    "lv": "Klaips • Kukulis",
     "level": "B1"
   },
   {
@@ -10616,7 +10616,7 @@ const B1_WORDS = [
   },
   {
     "de": "landen",
-    "lv": "izcelties krastā; piestāt; nosēsties",
+    "lv": "Izcelties krastā • Piestāt • Nosēsties",
     "level": "B1"
   },
   {
@@ -10626,22 +10626,22 @@ const B1_WORDS = [
   },
   {
     "de": "das Landhaus",
-    "lv": "vasarnīca; lauku māja",
+    "lv": "Vasarnīca • Lauku māja",
     "level": "B1"
   },
   {
     "de": "ländlich",
-    "lv": "lauku-; lauciniecisks",
+    "lv": "Lauku • Lauciniecisks",
     "level": "B1"
   },
   {
     "de": "die Landstraße",
-    "lv": "lielceļš; šoseja",
+    "lv": "Lielceļš • Šoseja",
     "level": "B1"
   },
   {
     "de": "der Landwirt",
-    "lv": "lauksaimnieks; fermeris",
+    "lv": "Lauksaimnieks • Fermeris",
     "level": "B1"
   },
   {
@@ -10656,7 +10656,7 @@ const B1_WORDS = [
   },
   {
     "de": "längst",
-    "lv": "sen; kopš seniem laikiem",
+    "lv": "Sen • Kopš seniem laikiem",
     "level": "B1"
   },
   {
@@ -10681,7 +10681,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Last",
-    "lv": "nasta; krava; slogs, smagums",
+    "lv": "Nasta • Krava • Slogs, smagums",
     "level": "B1"
   },
   {
@@ -10691,7 +10691,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Laterne",
-    "lv": "laterna; lukturis",
+    "lv": "Laterna • Lukturis",
     "level": "B1"
   },
   {
@@ -10711,17 +10711,17 @@ const B1_WORDS = [
   },
   {
     "de": "der Lauf",
-    "lv": "skriešana; skrējiens; ritums; gaita",
+    "lv": "Skriešana • Skrējiens • Ritums • Gaita",
     "level": "B1"
   },
   {
     "de": "die Laufbahn",
-    "lv": "skrejceļš; dzīves gājums, karjera",
+    "lv": "Skrejceļš • Dzīves gājums, karjera",
     "level": "B1"
   },
   {
     "de": "der Läufer",
-    "lv": "skrējējs; laidnis",
+    "lv": "Skrējējs • Laidnis",
     "level": "B1"
   },
   {
@@ -10731,7 +10731,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Lautsprecher",
-    "lv": "skaļrunis; reproduktors",
+    "lv": "Skaļrunis • Reproduktors",
     "level": "B1"
   },
   {
@@ -10741,7 +10741,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Lebenslauf",
-    "lv": "dzīves gājums; biogrāfija",
+    "lv": "Dzīves gājums • Biogrāfija",
     "level": "B1"
   },
   {
@@ -10756,7 +10756,7 @@ const B1_WORDS = [
   },
   {
     "de": "lebhaft",
-    "lv": "rosīgs; dzīvs",
+    "lv": "Rosīgs • Dzīvs",
     "level": "B1"
   },
   {
@@ -10786,12 +10786,12 @@ const B1_WORDS = [
   },
   {
     "de": "lehnen",
-    "lv": "piesliet; atbalstīt; pieslieties, atbalstīties",
+    "lv": "Piesliet • Atbalstīt • Pieslieties, atbalstīties",
     "level": "B1"
   },
   {
     "de": "die Lehre",
-    "lv": "mācība; apmācība, apmācīšana; pamācība",
+    "lv": "Mācība • Apmācība, apmācīšana • Pamācība",
     "level": "B1"
   },
   {
@@ -10806,7 +10806,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Leib",
-    "lv": "miesa; ķermenis",
+    "lv": "Miesa • Ķermenis",
     "level": "B1"
   },
   {
@@ -10831,7 +10831,7 @@ const B1_WORDS = [
   },
   {
     "de": "das Leid",
-    "lv": "ciešanas; bēdas",
+    "lv": "Ciešanas • Bēdas",
     "level": "B1"
   },
   {
@@ -10846,7 +10846,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Leine",
-    "lv": "pavada; groži; virve",
+    "lv": "Pavada • Groži • Virve",
     "level": "B1"
   },
   {
@@ -10856,22 +10856,22 @@ const B1_WORDS = [
   },
   {
     "de": "die Leinwand",
-    "lv": "audekls; ekrāns kinoteātrī",
+    "lv": "Audekls • Ekrāns kinoteātrī",
     "level": "B1"
   },
   {
     "de": "leisten",
-    "lv": "padarīt; veikt; pretoties; galvot, garantēt; atļauties",
+    "lv": "Padarīt • Veikt • Pretoties • Galvot, garantēt • Atļauties",
     "level": "B1"
   },
   {
     "de": "die Leistung",
-    "lv": "veikums; veiktais darbs; sasniegumi; ražīgums; jauda",
+    "lv": "Veikums • Veiktais darbs • Sasniegumi • Ražīgums • Jauda",
     "level": "B1"
   },
   {
     "de": "lenken",
-    "lv": "vadīt; griezt, vērst",
+    "lv": "Vadīt • Griezt, vērst",
     "level": "B1"
   },
   {
@@ -10951,7 +10951,7 @@ const B1_WORDS = [
   },
   {
     "de": "liegen lassen",
-    "lv": "aizmirst; atstāt kaut kur",
+    "lv": "Aizmirst • Atstāt kaut kur",
     "level": "B1"
   },
   {
@@ -10986,7 +10986,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Linse",
-    "lv": "lēca; lēca",
+    "lv": "Lēca • Lēca",
     "level": "B1"
   },
   {
@@ -10996,7 +10996,7 @@ const B1_WORDS = [
   },
   {
     "de": "das Lob",
-    "lv": "uzslava; slavinājums",
+    "lv": "Uzslava • Slavinājums",
     "level": "B1"
   },
   {
@@ -11016,7 +11016,7 @@ const B1_WORDS = [
   },
   {
     "de": "locker",
-    "lv": "irdens; vaļīgs; ļodzīgs",
+    "lv": "Irdens • Vaļīgs • Ļodzīgs",
     "level": "B1"
   },
   {
@@ -11051,7 +11051,7 @@ const B1_WORDS = [
   },
   {
     "de": "das Los",
-    "lv": "laimests; loterijas biļete; liktenis",
+    "lv": "Laimests • Loterijas biļete • Liktenis",
     "level": "B1"
   },
   {
@@ -11061,22 +11061,22 @@ const B1_WORDS = [
   },
   {
     "de": "löschen",
-    "lv": "apdzēst; nodzist; dzēst, remdēt slāpes",
+    "lv": "Apdzēst • Nodzist • Dzēst, remdēt slāpes",
     "level": "B1"
   },
   {
     "de": "lösen",
-    "lv": "atbrīvot; atraisīt; lauzt līgumu; atrisināt uzdevumu; izšķīdināt; iegādāties biļeti",
+    "lv": "Atbrīvot • Atraisīt • Lauzt līgumu • Atrisināt uzdevumu • Izšķīdināt • Iegādāties biļeti",
     "level": "B1"
   },
   {
     "de": "loslassen",
-    "lv": "atbrīvot; atlaist",
+    "lv": "Atbrīvot • Atlaist",
     "level": "B1"
   },
   {
     "de": "die Lösung",
-    "lv": "atraisīšana; līguma laušana; uzdevuma atrisināšana; šķīdums, šķīdinājums",
+    "lv": "Atraisīšana • Līguma laušana • Uzdevuma atrisināšana • Šķīdums, šķīdinājums",
     "level": "B1"
   },
   {
@@ -11096,7 +11096,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Lücke",
-    "lv": "izlaidums tekstā; tukša vieta; robs; caurums",
+    "lv": "Izlaidums tekstā • Tukša vieta • Robs • Caurums",
     "level": "B1"
   },
   {
@@ -11116,7 +11116,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Lüftung",
-    "lv": "vēdināšana; ventilācija",
+    "lv": "Vēdināšana • Ventilācija",
     "level": "B1"
   },
   {
@@ -11141,12 +11141,12 @@ const B1_WORDS = [
   },
   {
     "de": "die Macht",
-    "lv": "spēks; varenība; varenums; valsts vara; lielvalsts",
+    "lv": "Spēks • Varenība • Varenums • Valsts vara • Lielvalsts",
     "level": "B1"
   },
   {
     "de": "mager",
-    "lv": "kalsns; vājš; trūcīgs",
+    "lv": "Kalsns • Vājš • Trūcīgs",
     "level": "B1"
   },
   {
@@ -11201,7 +11201,7 @@ const B1_WORDS = [
   },
   {
     "de": "das Mal",
-    "lv": "zīme; dzimumzīme",
+    "lv": "Zīme • Dzimumzīme",
     "level": "B1"
   },
   {
@@ -11211,12 +11211,12 @@ const B1_WORDS = [
   },
   {
     "de": "mancherlei",
-    "lv": "dažāds, visāds; daždažāds",
+    "lv": "Dažāds, visāds • Daždažāds",
     "level": "B1"
   },
   {
     "de": "die Mandel",
-    "lv": "mandele; mandele",
+    "lv": "Mandele • Mandele",
     "level": "B1"
   },
   {
@@ -11271,7 +11271,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Masche",
-    "lv": "adīkļa valdziņš; cilpa; tīkla, sieta acs",
+    "lv": "Adīkļa valdziņš • Cilpa • Tīkla, sieta acs",
     "level": "B1"
   },
   {
@@ -11291,12 +11291,12 @@ const B1_WORDS = [
   },
   {
     "de": "das Maß",
-    "lv": "mērs; daudzuma pakāpe",
+    "lv": "Mērs • Daudzuma pakāpe",
     "level": "B1"
   },
   {
     "de": "die Masse",
-    "lv": "masa, viela; masa, milzums",
+    "lv": "Masa, viela • Masa, milzums",
     "level": "B1"
   },
   {
@@ -11311,7 +11311,7 @@ const B1_WORDS = [
   },
   {
     "de": "mäßig",
-    "lv": "mērens; atturīgs; sātīgs",
+    "lv": "Mērens • Atturīgs • Sātīgs",
     "level": "B1"
   },
   {
@@ -11336,12 +11336,12 @@ const B1_WORDS = [
   },
   {
     "de": "matt",
-    "lv": "vārgs, gurdens; blāvs, nespodrs",
+    "lv": "Vārgs, gurdens • Blāvs, nespodrs",
     "level": "B1"
   },
   {
     "de": "das Maul",
-    "lv": "zvēra, dzīvnieka mute; purns",
+    "lv": "Zvēra, dzīvnieka mute • Purns",
     "level": "B1"
   },
   {
@@ -11361,7 +11361,7 @@ const B1_WORDS = [
   },
   {
     "de": "mechanisch",
-    "lv": "mehānisks; mehāniski",
+    "lv": "Mehānisks • Mehāniski",
     "level": "B1"
   },
   {
@@ -11371,7 +11371,7 @@ const B1_WORDS = [
   },
   {
     "de": "mehrfach",
-    "lv": "vairākkārtējs; vairākkārtīgs",
+    "lv": "Vairākkārtējs • Vairākkārtīgs",
     "level": "B1"
   },
   {
@@ -11386,7 +11386,7 @@ const B1_WORDS = [
   },
   {
     "de": "meinetwegen",
-    "lv": "manis dēļ, pēc; manis pēc",
+    "lv": "Manis dēļ, pēc • Manis pēc",
     "level": "B1"
   },
   {
@@ -11401,7 +11401,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Meldung",
-    "lv": "ziņojums; paziņojums",
+    "lv": "Ziņojums • Paziņojums",
     "level": "B1"
   },
   {
@@ -11436,17 +11436,17 @@ const B1_WORDS = [
   },
   {
     "de": "das Merkmal",
-    "lv": "pazīme; iezīme",
+    "lv": "Pazīme • Iezīme",
     "level": "B1"
   },
   {
     "de": "merkwürdig",
-    "lv": "savāds; ievērojams, ievērības cienīgs",
+    "lv": "Savāds • Ievērojams, ievērības cienīgs",
     "level": "B1"
   },
   {
     "de": "die Messe",
-    "lv": "gadatirgus; mise",
+    "lv": "Gadatirgus • Mise",
     "level": "B1"
   },
   {
@@ -11456,7 +11456,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Miene",
-    "lv": "sejas izteiksme; vaibsti",
+    "lv": "Sejas izteiksme • Vaibsti",
     "level": "B1"
   },
   {
@@ -11466,7 +11466,7 @@ const B1_WORDS = [
   },
   {
     "de": "mild",
-    "lv": "lēnprātīgs; maigs",
+    "lv": "Lēnprātīgs • Maigs",
     "level": "B1"
   },
   {
@@ -11476,7 +11476,7 @@ const B1_WORDS = [
   },
   {
     "de": "minderjährig",
-    "lv": "nepilngadīgs; mazgadīgs",
+    "lv": "Nepilngadīgs • Mazgadīgs",
     "level": "B1"
   },
   {
@@ -11561,7 +11561,7 @@ const B1_WORDS = [
   },
   {
     "de": "mobil",
-    "lv": "kustīgs; kustams",
+    "lv": "Kustīgs • Kustams",
     "level": "B1"
   },
   {
@@ -11596,7 +11596,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Molkerei",
-    "lv": "pienotava; piena produktu veikals",
+    "lv": "Pienotava • Piena produktu veikals",
     "level": "B1"
   },
   {
@@ -11626,7 +11626,7 @@ const B1_WORDS = [
   },
   {
     "de": "das Moor",
-    "lv": "purvs; muklājs",
+    "lv": "Purvs • Muklājs",
     "level": "B1"
   },
   {
@@ -11686,7 +11686,7 @@ const B1_WORDS = [
   },
   {
     "de": "motivieren",
-    "lv": "motivēt; ierosināt, pamatot",
+    "lv": "Motivēt • Ierosināt, pamatot",
     "level": "B1"
   },
   {
@@ -11716,7 +11716,7 @@ const B1_WORDS = [
   },
   {
     "de": "mühsam",
-    "lv": "grūts; nogurdinošs; ar pūlēm",
+    "lv": "Grūts • Nogurdinošs • Ar pūlēm",
     "level": "B1"
   },
   {
@@ -11746,7 +11746,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Mundart",
-    "lv": "izloksne; dialekts",
+    "lv": "Izloksne • Dialekts",
     "level": "B1"
   },
   {
@@ -11766,17 +11766,17 @@ const B1_WORDS = [
   },
   {
     "de": "munter",
-    "lv": "mundrs; sprigans; spirgts",
+    "lv": "Mundrs • Sprigans • Spirgts",
     "level": "B1"
   },
   {
     "de": "murmeln",
-    "lv": "murmināt; burbuļot, čalot",
+    "lv": "Murmināt • Burbuļot, čalot",
     "level": "B1"
   },
   {
     "de": "die Muschel",
-    "lv": "gliemežnīca, gliemežvāks; gliemežnīca",
+    "lv": "Gliemežnīca, gliemežvāks • Gliemežnīca",
     "level": "B1"
   },
   {
@@ -11791,7 +11791,7 @@ const B1_WORDS = [
   },
   {
     "de": "mustern",
-    "lv": "vērīgi apskatīt; pārbaudīt",
+    "lv": "Vērīgi apskatīt • Pārbaudīt",
     "level": "B1"
   },
   {
@@ -11821,7 +11821,7 @@ const B1_WORDS = [
   },
   {
     "de": "nachdem",
-    "lv": "pēc tam kad; atkarībā no tā, kā",
+    "lv": "Pēc tam kad • Atkarībā no tā, kā",
     "level": "B1"
   },
   {
@@ -11831,12 +11831,12 @@ const B1_WORDS = [
   },
   {
     "de": "die Nachfrage",
-    "lv": "pieprasījums; apvaicāšanās",
+    "lv": "Pieprasījums • Apvaicāšanās",
     "level": "B1"
   },
   {
     "de": "nachgeben",
-    "lv": "piekāpties; padoties",
+    "lv": "Piekāpties • Padoties",
     "level": "B1"
   },
   {
@@ -11886,7 +11886,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Nachwuchs",
-    "lv": "jaunaudze; jaunā paaudze",
+    "lv": "Jaunaudze • Jaunā paaudze",
     "level": "B1"
   },
   {
@@ -11901,17 +11901,17 @@ const B1_WORDS = [
   },
   {
     "de": "sich nähern",
-    "lv": "tuvoties; tuvināties",
+    "lv": "Tuvoties • Tuvināties",
     "level": "B1"
   },
   {
     "de": "nähren",
-    "lv": "ēdināt; barot; baroties; pārtikt",
+    "lv": "Ēdināt • Barot • Baroties • Pārtikt",
     "level": "B1"
   },
   {
     "de": "nahrhaft",
-    "lv": "barojošs; sātīgs",
+    "lv": "Barojošs • Sātīgs",
     "level": "B1"
   },
   {
@@ -11931,12 +11931,12 @@ const B1_WORDS = [
   },
   {
     "de": "der Narr",
-    "lv": "muļķis, ģeķis; nerrs, āksts",
+    "lv": "Muļķis, ģeķis • Nerrs, āksts",
     "level": "B1"
   },
   {
     "de": "das Naschwerk",
-    "lv": "saldumi; kārumi",
+    "lv": "Saldumi • Kārumi",
     "level": "B1"
   },
   {
@@ -11971,7 +11971,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Nebenwirkung",
-    "lv": "blakusparādība; blakne",
+    "lv": "Blakusparādība • Blakne",
     "level": "B1"
   },
   {
@@ -11991,12 +11991,12 @@ const B1_WORDS = [
   },
   {
     "de": "neigen",
-    "lv": "noliekt; pieliekt; tiekties, sliekties; paklanīties, noliekties",
+    "lv": "Noliekt • Pieliekt • Tiekties, sliekties • Paklanīties, noliekties",
     "level": "B1"
   },
   {
     "de": "die Neigung",
-    "lv": "slīpums, nogāze; tieksme, simpātijas",
+    "lv": "Slīpums, nogāze • Tieksme, simpātijas",
     "level": "B1"
   },
   {
@@ -12036,7 +12036,7 @@ const B1_WORDS = [
   },
   {
     "de": "nieder",
-    "lv": "zems; zemē, lejā; nost",
+    "lv": "Zems • Zemē, lejā • Nost",
     "level": "B1"
   },
   {
@@ -12076,7 +12076,7 @@ const B1_WORDS = [
   },
   {
     "de": "nördlich",
-    "lv": "ziemeļu-; uz ziemeļiem, ziemeļos",
+    "lv": "Ziemeļu • Uz ziemeļiem, ziemeļos",
     "level": "B1"
   },
   {
@@ -12096,7 +12096,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Not",
-    "lv": "vajadzība; nepieciešamība; posts, trūkums, nabadzība",
+    "lv": "Vajadzība • Nepieciešamība • Posts, trūkums, nabadzība",
     "level": "B1"
   },
   {
@@ -12136,12 +12136,12 @@ const B1_WORDS = [
   },
   {
     "de": "nüchtern",
-    "lv": "tukšā dūšā, neēdis; neiereibis; saprātīgs",
+    "lv": "Tukšā dūšā, neēdis • Neiereibis • Saprātīgs",
     "level": "B1"
   },
   {
     "de": "nutzbar",
-    "lv": "noderīgs; izmantojams",
+    "lv": "Noderīgs • Izmantojams",
     "level": "B1"
   },
   {
@@ -12161,7 +12161,7 @@ const B1_WORDS = [
   },
   {
     "de": "das Obdach",
-    "lv": "pajumte; patvērums",
+    "lv": "Pajumte • Patvērums",
     "level": "B1"
   },
   {
@@ -12176,7 +12176,7 @@ const B1_WORDS = [
   },
   {
     "de": "oberhalb",
-    "lv": "augšpus; augšpusē; augšā",
+    "lv": "Augšpus • Augšpusē • Augšā",
     "level": "B1"
   },
   {
@@ -12191,7 +12191,7 @@ const B1_WORDS = [
   },
   {
     "de": "das Objekt",
-    "lv": "objekts; papildinātājs",
+    "lv": "Objekts • Papildinātājs",
     "level": "B1"
   },
   {
@@ -12211,12 +12211,12 @@ const B1_WORDS = [
   },
   {
     "de": "öde",
-    "lv": "tukšs; neapdzīvots; tuksnesīgs",
+    "lv": "Tukšs • Neapdzīvots • Tuksnesīgs",
     "level": "B1"
   },
   {
     "de": "ofenfrisch",
-    "lv": "svaigi cepts (maize)",
+    "lv": "Svaigi cepts",
     "level": "B1"
   },
   {
@@ -12226,12 +12226,12 @@ const B1_WORDS = [
   },
   {
     "de": "öffentlich",
-    "lv": "sabiedrisks; publisks, atklāts",
+    "lv": "Sabiedrisks • Publisks, atklāts",
     "level": "B1"
   },
   {
     "de": "die Öffentlichkeit",
-    "lv": "sabiedrība; atklātība",
+    "lv": "Sabiedrība • Atklātība",
     "level": "B1"
   },
   {
@@ -12246,12 +12246,12 @@ const B1_WORDS = [
   },
   {
     "de": "die Öffnung",
-    "lv": "atvere; sprauga; caurums",
+    "lv": "Atvere • Sprauga • Caurums",
     "level": "B1"
   },
   {
     "de": "die Ohnmacht",
-    "lv": "bezsamaņa, ģībonis; bezspēcība, nevarība",
+    "lv": "Bezsamaņa, ģībonis • Bezspēcība, nevarība",
     "level": "B1"
   },
   {
@@ -12271,7 +12271,7 @@ const B1_WORDS = [
   },
   {
     "de": "ökonomisch",
-    "lv": "ekonomisks; ekonomijas-; taupīgs",
+    "lv": "Ekonomisks • Ekonomijas • Taupīgs",
     "level": "B1"
   },
   {
@@ -12311,7 +12311,7 @@ const B1_WORDS = [
   },
   {
     "de": "das Opernhaus",
-    "lv": "opera (celtne)",
+    "lv": "Opera",
     "level": "B1"
   },
   {
@@ -12321,7 +12321,7 @@ const B1_WORDS = [
   },
   {
     "de": "opfern",
-    "lv": "upurēt, ziedot; upurēties, ziedoties",
+    "lv": "Upurēt, ziedot • Upurēties, ziedoties",
     "level": "B1"
   },
   {
@@ -12356,7 +12356,7 @@ const B1_WORDS = [
   },
   {
     "de": "orientieren",
-    "lv": "orientēt; orientēties",
+    "lv": "Orientēt • Orientēties",
     "level": "B1"
   },
   {
@@ -12376,7 +12376,7 @@ const B1_WORDS = [
   },
   {
     "de": "östlich",
-    "lv": "austrumu-; austrumniecisks",
+    "lv": "Austrumu • Austrumniecisks",
     "level": "B1"
   },
   {
@@ -12431,12 +12431,12 @@ const B1_WORDS = [
   },
   {
     "de": "der Panzer",
-    "lv": "bruņas; tanks",
+    "lv": "Bruņas • Tanks",
     "level": "B1"
   },
   {
     "de": "die Pappe",
-    "lv": "kartons; pape",
+    "lv": "Kartons • Pape",
     "level": "B1"
   },
   {
@@ -12476,17 +12476,17 @@ const B1_WORDS = [
   },
   {
     "de": "die Partei",
-    "lv": "partija; puse",
+    "lv": "Partija • Puse",
     "level": "B1"
   },
   {
     "de": "das Parterre",
-    "lv": "apakšstāvs; parters",
+    "lv": "Apakšstāvs • Parters",
     "level": "B1"
   },
   {
     "de": "die Partie",
-    "lv": "partija; šaha partija",
+    "lv": "Partija • Šaha partija",
     "level": "B1"
   },
   {
@@ -12506,7 +12506,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Pastete",
-    "lv": "pildīts groziņš; pastēte",
+    "lv": "Pildīts groziņš • Pastēte",
     "level": "B1"
   },
   {
@@ -12536,7 +12536,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Pelz",
-    "lv": "zvērāda; kažoks",
+    "lv": "Zvērāda • Kažoks",
     "level": "B1"
   },
   {
@@ -12561,7 +12561,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Periode",
-    "lv": "posms, periods; menstruācija",
+    "lv": "Posms, periods • Menstruācija",
     "level": "B1"
   },
   {
@@ -12586,7 +12586,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Pfad",
-    "lv": "taka; kājceliņš",
+    "lv": "Taka • Kājceliņš",
     "level": "B1"
   },
   {
@@ -12596,7 +12596,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Pfahl",
-    "lv": "stabs; pālis",
+    "lv": "Stabs • Pālis",
     "level": "B1"
   },
   {
@@ -12606,7 +12606,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Pfarrer",
-    "lv": "mācītājs; garīdznieks",
+    "lv": "Mācītājs • Garīdznieks",
     "level": "B1"
   },
   {
@@ -12621,17 +12621,17 @@ const B1_WORDS = [
   },
   {
     "de": "die Pfeife",
-    "lv": "svilpe; stabule; pīpe",
+    "lv": "Svilpe • Stabule • Pīpe",
     "level": "B1"
   },
   {
     "de": "pfeifen",
-    "lv": "svilpt; svilpot; stabulēt",
+    "lv": "Svilpt • Svilpot • Stabulēt",
     "level": "B1"
   },
   {
     "de": "der Pfeiler",
-    "lv": "stabs; pīlārs",
+    "lv": "Stabs • Pīlārs",
     "level": "B1"
   },
   {
@@ -12666,7 +12666,7 @@ const B1_WORDS = [
   },
   {
     "de": "pflegen",
-    "lv": "kopt; rūpēties; mēgt; būt paradušam",
+    "lv": "Kopt • Rūpēties • Mēgt • Būt paradušam",
     "level": "B1"
   },
   {
@@ -12691,17 +12691,17 @@ const B1_WORDS = [
   },
   {
     "de": "der Pförtner",
-    "lv": "vārtu (durvju) sargs",
+    "lv": "Vārtu sargs",
     "level": "B1"
   },
   {
     "de": "die Pfote",
-    "lv": "ķepa; ķetna",
+    "lv": "Ķepa • Ķetna",
     "level": "B1"
   },
   {
     "de": "der Pfropfen",
-    "lv": "korķis; aizbāznis; tapa",
+    "lv": "Korķis • Aizbāznis • Tapa",
     "level": "B1"
   },
   {
@@ -12731,7 +12731,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Pionier",
-    "lv": "pionieris; celmlauzis; sapieris",
+    "lv": "Pionieris • Celmlauzis • Sapieris",
     "level": "B1"
   },
   {
@@ -12781,12 +12781,12 @@ const B1_WORDS = [
   },
   {
     "de": "platt",
-    "lv": "līdzens; plakans; plakaniski; kārtām",
+    "lv": "Līdzens • Plakans • Plakaniski • Kārtām",
     "level": "B1"
   },
   {
     "de": "platzen",
-    "lv": "pārsprāgt; pārplīst",
+    "lv": "Pārsprāgt • Pārplīst",
     "level": "B1"
   },
   {
@@ -12801,12 +12801,12 @@ const B1_WORDS = [
   },
   {
     "de": "die Pleite",
-    "lv": "bankrots; neveiksme",
+    "lv": "Bankrots • Neveiksme",
     "level": "B1"
   },
   {
     "de": "plump",
-    "lv": "lempīgs; neveikls",
+    "lv": "Lempīgs • Neveikls",
     "level": "B1"
   },
   {
@@ -12816,12 +12816,12 @@ const B1_WORDS = [
   },
   {
     "de": "plündern",
-    "lv": "izlaupīt; atņemt, apēst",
+    "lv": "Izlaupīt • Atņemt, apēst",
     "level": "B1"
   },
   {
     "de": "pochen",
-    "lv": "klauvēt; pukstēt, sist",
+    "lv": "Klauvēt • Pukstēt, sist",
     "level": "B1"
   },
   {
@@ -12831,7 +12831,7 @@ const B1_WORDS = [
   },
   {
     "de": "pokern",
-    "lv": "spēlēt pokeru; finansiāli riskēt",
+    "lv": "Spēlēt pokeru • Finansiāli riskēt",
     "level": "B1"
   },
   {
@@ -12881,7 +12881,7 @@ const B1_WORDS = [
   },
   {
     "de": "das Polizeirevier",
-    "lv": "policijas iecirknis, ēka; teritorija, ko kontrolē policija",
+    "lv": "Policijas iecirknis, ēka • Teritorija, ko kontrolē policija",
     "level": "B1"
   },
   {
@@ -12931,12 +12931,12 @@ const B1_WORDS = [
   },
   {
     "de": "die Postanweisung",
-    "lv": "naudas pārvedums; papīrs, kas jāaizpilda pastā",
+    "lv": "Naudas pārvedums • Papīrs, kas jāaizpilda pastā",
     "level": "B1"
   },
   {
     "de": "der Posten",
-    "lv": "postenis, atbildīgs amats; sardzes postenis",
+    "lv": "Postenis, atbildīgs amats • Sardzes postenis",
     "level": "B1"
   },
   {
@@ -13001,7 +13001,7 @@ const B1_WORDS = [
   },
   {
     "de": "prima",
-    "lv": "pirmšķirīgs; pirmklasīgs",
+    "lv": "Pirmšķirīgs • Pirmklasīgs",
     "level": "B1"
   },
   {
@@ -13021,12 +13021,12 @@ const B1_WORDS = [
   },
   {
     "de": "die Probe",
-    "lv": "pārbaude, izmēģinājums; paraugs; mēģinājums teātrī",
+    "lv": "Pārbaude, izmēģinājums • Paraugs • Mēģinājums teātrī",
     "level": "B1"
   },
   {
     "de": "die Produktion",
-    "lv": "ražošana; produkcija",
+    "lv": "Ražošana • Produkcija",
     "level": "B1"
   },
   {
@@ -13036,7 +13036,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Profit",
-    "lv": "peļņa; labums",
+    "lv": "Peļņa • Labums",
     "level": "B1"
   },
   {
@@ -13056,7 +13056,7 @@ const B1_WORDS = [
   },
   {
     "de": "prominent",
-    "lv": "prominents, izcils; ievērojams",
+    "lv": "Prominents, izcils • Ievērojams",
     "level": "B1"
   },
   {
@@ -13086,7 +13086,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Prozess",
-    "lv": "process, norise; prāva, process",
+    "lv": "Process, norise • Prāva, process",
     "level": "B1"
   },
   {
@@ -13101,7 +13101,7 @@ const B1_WORDS = [
   },
   {
     "de": "prügeln",
-    "lv": "sist; pērt",
+    "lv": "Sist • Pērt",
     "level": "B1"
   },
   {
@@ -13141,12 +13141,12 @@ const B1_WORDS = [
   },
   {
     "de": "der Putz",
-    "lv": "tērpa rotājums, rota; apmetums",
+    "lv": "Tērpa rotājums, rota • Apmetums",
     "level": "B1"
   },
   {
     "de": "die Qual",
-    "lv": "mokas; mocības",
+    "lv": "Mokas • Mocības",
     "level": "B1"
   },
   {
@@ -13156,7 +13156,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Qualm",
-    "lv": "biezi dūmi; garaiņi",
+    "lv": "Biezi dūmi • Garaiņi",
     "level": "B1"
   },
   {
@@ -13166,12 +13166,12 @@ const B1_WORDS = [
   },
   {
     "de": "das Quartal",
-    "lv": "kvartāls; ceturksnis",
+    "lv": "Kvartāls • Ceturksnis",
     "level": "B1"
   },
   {
     "de": "der Quatsch",
-    "lv": "muļķības, blēņas; pļāpas, tenkas",
+    "lv": "Muļķības, blēņas • Pļāpas, tenkas",
     "level": "B1"
   },
   {
@@ -13186,7 +13186,7 @@ const B1_WORDS = [
   },
   {
     "de": "quer",
-    "lv": "šķērss; šķērsām",
+    "lv": "Šķērss • Šķērsām",
     "level": "B1"
   },
   {
@@ -13201,7 +13201,7 @@ const B1_WORDS = [
   },
   {
     "de": "quetschen",
-    "lv": "saspiest; kontuzēt",
+    "lv": "Saspiest • Kontuzēt",
     "level": "B1"
   },
   {
@@ -13236,7 +13236,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Radau",
-    "lv": "troksnis; tracis",
+    "lv": "Troksnis • Tracis",
     "level": "B1"
   },
   {
@@ -13261,12 +13261,12 @@ const B1_WORDS = [
   },
   {
     "de": "die Radspur",
-    "lv": "riteņa sliede; gramba",
+    "lv": "Riteņa sliede • Gramba",
     "level": "B1"
   },
   {
     "de": "ragen",
-    "lv": "pacelties; slieties",
+    "lv": "Pacelties • Slieties",
     "level": "B1"
   },
   {
@@ -13276,7 +13276,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Rang",
-    "lv": "dienesta pakāpe; rangs; šķira; kārta; kategorija; teātra balkons",
+    "lv": "Dienesta pakāpe • Rangs • Šķira • Kārta • Kategorija • Teātra balkons",
     "level": "B1"
   },
   {
@@ -13286,12 +13286,12 @@ const B1_WORDS = [
   },
   {
     "de": "rasch",
-    "lv": "ātrs; žigls",
+    "lv": "Ātrs • Žigls",
     "level": "B1"
   },
   {
     "de": "rasen",
-    "lv": "trakot, plosīties; joņot, drāzties par vilcienu, auto",
+    "lv": "Trakot, plosīties • Joņot, drāzties par vilcienu, auto",
     "level": "B1"
   },
   {
@@ -13316,7 +13316,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Rasse",
-    "lv": "rase; suga; šķirne",
+    "lv": "Rase • Suga • Šķirne",
     "level": "B1"
   },
   {
@@ -13336,7 +13336,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Rate",
-    "lv": "daļas maksājums; daļa",
+    "lv": "Daļas maksājums • Daļa",
     "level": "B1"
   },
   {
@@ -13346,7 +13346,7 @@ const B1_WORDS = [
   },
   {
     "de": "ratlos",
-    "lv": "bez padoma; nezināt, ko iesākt",
+    "lv": "Bez padoma • Nezināt, ko iesākt",
     "level": "B1"
   },
   {
@@ -13381,12 +13381,12 @@ const B1_WORDS = [
   },
   {
     "de": "räuchern",
-    "lv": "kūpināt; žāvēt",
+    "lv": "Kūpināt • Žāvēt",
     "level": "B1"
   },
   {
     "de": "räumen",
-    "lv": "novākt, aizvākt; atstāt, izvākties, atbrīvot par telpām, teritoriju",
+    "lv": "Novākt, aizvākt • Atstāt, izvākties, atbrīvot par telpām, teritoriju",
     "level": "B1"
   },
   {
@@ -13396,12 +13396,12 @@ const B1_WORDS = [
   },
   {
     "de": "der Rausch",
-    "lv": "reibums, skurbums; sajūsma",
+    "lv": "Reibums, skurbums • Sajūsma",
     "level": "B1"
   },
   {
     "de": "rauschen",
-    "lv": "šalkt; čabēt; čaukstēt",
+    "lv": "Šalkt • Čabēt • Čaukstēt",
     "level": "B1"
   },
   {
@@ -13431,17 +13431,17 @@ const B1_WORDS = [
   },
   {
     "de": "rechtfertigen",
-    "lv": "attaisnot; attaisnoties",
+    "lv": "Attaisnot • Attaisnoties",
     "level": "B1"
   },
   {
     "de": "der Rechtsanwalt",
-    "lv": "advokāts; aizstāvis",
+    "lv": "Advokāts • Aizstāvis",
     "level": "B1"
   },
   {
     "de": "rechtzeitig",
-    "lv": "savlaicīgs; savlaicīgi; īstā laikā",
+    "lv": "Savlaicīgs • Savlaicīgi • Īstā laikā",
     "level": "B1"
   },
   {
@@ -13476,7 +13476,7 @@ const B1_WORDS = [
   },
   {
     "de": "regeln",
-    "lv": "regulēt; kārtot",
+    "lv": "Regulēt • Kārtot",
     "level": "B1"
   },
   {
@@ -13496,7 +13496,7 @@ const B1_WORDS = [
   },
   {
     "de": "regieren",
-    "lv": "pārvaldīt; valdīt",
+    "lv": "Pārvaldīt • Valdīt",
     "level": "B1"
   },
   {
@@ -13506,7 +13506,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Region",
-    "lv": "apvidus; novads; sfēra",
+    "lv": "Apvidus • Novads • Sfēra",
     "level": "B1"
   },
   {
@@ -13526,7 +13526,7 @@ const B1_WORDS = [
   },
   {
     "de": "reiben",
-    "lv": "berzt; berzēt; rīvēt",
+    "lv": "Berzt • Berzēt • Rīvēt",
     "level": "B1"
   },
   {
@@ -13536,17 +13536,17 @@ const B1_WORDS = [
   },
   {
     "de": "der Reichtum",
-    "lv": "bagātība; pārpilnība",
+    "lv": "Bagātība • Pārpilnība",
     "level": "B1"
   },
   {
     "de": "reif",
-    "lv": "nogatavojies; nobriedis",
+    "lv": "Nogatavojies • Nobriedis",
     "level": "B1"
   },
   {
     "de": "reifen",
-    "lv": "nogatavoties; nobriest",
+    "lv": "Nogatavoties • Nobriest",
     "level": "B1"
   },
   {
@@ -13566,7 +13566,7 @@ const B1_WORDS = [
   },
   {
     "de": "reinigen",
-    "lv": "tīrīt; notīrīt; iztīrīt",
+    "lv": "Tīrīt • Notīrīt • Iztīrīt",
     "level": "B1"
   },
   {
@@ -13601,7 +13601,7 @@ const B1_WORDS = [
   },
   {
     "de": "reißen",
-    "lv": "plēst, plosīt; plīst, trūkt",
+    "lv": "Plēst, plosīt • Plīst, trūkt",
     "level": "B1"
   },
   {
@@ -13616,12 +13616,12 @@ const B1_WORDS = [
   },
   {
     "de": "reizen",
-    "lv": "kairināt; uzbudināt; kaitināt; izaicināt; vilināt, valdzināt",
+    "lv": "Kairināt • Uzbudināt • Kaitināt • Izaicināt • Vilināt, valdzināt",
     "level": "B1"
   },
   {
     "de": "reizend",
-    "lv": "jauks; valdzinošs, pievilcīgs",
+    "lv": "Jauks • Valdzinošs, pievilcīgs",
     "level": "B1"
   },
   {
@@ -13646,7 +13646,7 @@ const B1_WORDS = [
   },
   {
     "de": "Rekorder",
-    "lv": "magnetofons kasešu vai video; atskaņotājs",
+    "lv": "Magnetofons kasešu vai video • Atskaņotājs",
     "level": "B1"
   },
   {
@@ -13706,7 +13706,7 @@ const B1_WORDS = [
   },
   {
     "de": "Reporter",
-    "lv": "reportieris; laikraksta korespondents",
+    "lv": "Reportieris • Laikraksta korespondents",
     "level": "B1"
   },
   {
@@ -13726,7 +13726,7 @@ const B1_WORDS = [
   },
   {
     "de": "restlos",
-    "lv": "pilnīgs; bez atlikuma",
+    "lv": "Pilnīgs • Bez atlikuma",
     "level": "B1"
   },
   {
@@ -13736,7 +13736,7 @@ const B1_WORDS = [
   },
   {
     "de": "Rettung",
-    "lv": "izglābšana; izglābšanās; glābiņš",
+    "lv": "Izglābšana • Izglābšanās • Glābiņš",
     "level": "B1"
   },
   {
@@ -13761,7 +13761,7 @@ const B1_WORDS = [
   },
   {
     "de": "Revier",
-    "lv": "apgabals; policijas iecirknis",
+    "lv": "Apgabals • Policijas iecirknis",
     "level": "B1"
   },
   {
@@ -13786,7 +13786,7 @@ const B1_WORDS = [
   },
   {
     "de": "richten",
-    "lv": "adresēt; sūtīt; iztaisnot; tiesāt",
+    "lv": "Adresēt • Sūtīt • Iztaisnot • Tiesāt",
     "level": "B1"
   },
   {
@@ -13821,22 +13821,22 @@ const B1_WORDS = [
   },
   {
     "de": "Rinde",
-    "lv": "koka miza; maizes garoza",
+    "lv": "Koka miza • Maizes garoza",
     "level": "B1"
   },
   {
     "de": "ringen",
-    "lv": "cīkstēties, cīnīties; lauzties",
+    "lv": "Cīkstēties, cīnīties • Lauzties",
     "level": "B1"
   },
   {
     "de": "Ringen",
-    "lv": "cīņa; laušanās",
+    "lv": "Cīņa • Laušanās",
     "level": "B1"
   },
   {
     "de": "Ringkampf",
-    "lv": "cīņa; laušanās",
+    "lv": "Cīņa • Laušanās",
     "level": "B1"
   },
   {
@@ -13846,12 +13846,12 @@ const B1_WORDS = [
   },
   {
     "de": "Rinne",
-    "lv": "rene, tekne; noteka",
+    "lv": "Rene, tekne • Noteka",
     "level": "B1"
   },
   {
     "de": "rinnen",
-    "lv": "tecēt; ritēt",
+    "lv": "Tecēt • Ritēt",
     "level": "B1"
   },
   {
@@ -13871,7 +13871,7 @@ const B1_WORDS = [
   },
   {
     "de": "Riss",
-    "lv": "plīsums; plaisa; celtnes mets, plāns",
+    "lv": "Plīsums • Plaisa • Celtnes mets, plāns",
     "level": "B1"
   },
   {
@@ -13881,7 +13881,7 @@ const B1_WORDS = [
   },
   {
     "de": "Ritze",
-    "lv": "sprauga; plaisa",
+    "lv": "Sprauga • Plaisa",
     "level": "B1"
   },
   {
@@ -13891,22 +13891,22 @@ const B1_WORDS = [
   },
   {
     "de": "Rohr",
-    "lv": "caurule; niedre",
+    "lv": "Caurule • Niedre",
     "level": "B1"
   },
   {
     "de": "Röhre",
-    "lv": "caurule; elektronu lampa",
+    "lv": "Caurule • Elektronu lampa",
     "level": "B1"
   },
   {
     "de": "Rohstoff",
-    "lv": "jēlviela; izejviela",
+    "lv": "Jēlviela • Izejviela",
     "level": "B1"
   },
   {
     "de": "rollen",
-    "lv": "velt, ritināt; velties, ritēt",
+    "lv": "Velt, ritināt • Velties, ritēt",
     "level": "B1"
   },
   {
@@ -13931,7 +13931,7 @@ const B1_WORDS = [
   },
   {
     "de": "rösten",
-    "lv": "sacept, kaltēt maizi; grauzdēt kafiju; mērcēt linus; apdedzināt, kausēt rūdu",
+    "lv": "Sacept, kaltēt maizi • Grauzdēt kafiju • Mērcēt linus • Apdedzināt, kausēt rūdu",
     "level": "B1"
   },
   {
@@ -13941,7 +13941,7 @@ const B1_WORDS = [
   },
   {
     "de": "Route",
-    "lv": "ceļš; maršruts",
+    "lv": "Ceļš • Maršruts",
     "level": "B1"
   },
   {
@@ -13951,12 +13951,12 @@ const B1_WORDS = [
   },
   {
     "de": "Rübe",
-    "lv": "rācenis, lopbarības rācenis; burkāns; kālis; biete",
+    "lv": "Rācenis, lopbarības rācenis • Burkāns • Kālis • Biete",
     "level": "B1"
   },
   {
     "de": "Ruck",
-    "lv": "grūdiens; rāviens",
+    "lv": "Grūdiens • Rāviens",
     "level": "B1"
   },
   {
@@ -13971,7 +13971,7 @@ const B1_WORDS = [
   },
   {
     "de": "Rücksicht",
-    "lv": "uzmanība; rēķināšanās ar kādu",
+    "lv": "Uzmanība • Rēķināšanās ar kādu",
     "level": "B1"
   },
   {
@@ -13981,7 +13981,7 @@ const B1_WORDS = [
   },
   {
     "de": "rückwärts",
-    "lv": "atpakaļ; atmuguriski",
+    "lv": "Atpakaļ • Atmuguriski",
     "level": "B1"
   },
   {
@@ -13991,7 +13991,7 @@ const B1_WORDS = [
   },
   {
     "de": "Ruder",
-    "lv": "airis; stūre",
+    "lv": "Airis • Stūre",
     "level": "B1"
   },
   {
@@ -14016,12 +14016,12 @@ const B1_WORDS = [
   },
   {
     "de": "Ruf",
-    "lv": "sauciens; uzaicinājums; reputācija, slava",
+    "lv": "Sauciens • Uzaicinājums • Reputācija, slava",
     "level": "B1"
   },
   {
     "de": "ruhen",
-    "lv": "gulēt; dusēt; atpūsties",
+    "lv": "Gulēt • Dusēt • Atpūsties",
     "level": "B1"
   },
   {
@@ -14046,12 +14046,12 @@ const B1_WORDS = [
   },
   {
     "de": "Rumpf",
-    "lv": "rumpis; lidmašīnas, kuģa korpuss",
+    "lv": "Rumpis • Lidmašīnas, kuģa korpuss",
     "level": "B1"
   },
   {
     "de": "Runde",
-    "lv": "skriejiena aplis; raunds boksā",
+    "lv": "Skriejiena aplis • Raunds boksā",
     "level": "B1"
   },
   {
@@ -14071,27 +14071,27 @@ const B1_WORDS = [
   },
   {
     "de": "rupfen",
-    "lv": "plūkt; plucināt",
+    "lv": "Plūkt • Plucināt",
     "level": "B1"
   },
   {
     "de": "Ruß",
-    "lv": "kvēpi; sodrēji",
+    "lv": "Kvēpi • Sodrēji",
     "level": "B1"
   },
   {
     "de": "Rüssel",
-    "lv": "ziloņa snuķis; cūkas šņukurs; kukaiņa smeceris",
+    "lv": "Ziloņa snuķis • Cūkas šņukurs • Kukaiņa smeceris",
     "level": "B1"
   },
   {
     "de": "rüsten",
-    "lv": "bruņot; apbruņot; bruņoties; sagatavoties",
+    "lv": "Bruņot • Apbruņot • Bruņoties • Sagatavoties",
     "level": "B1"
   },
   {
     "de": "Rute",
-    "lv": "vica; rīkste",
+    "lv": "Vica • Rīkste",
     "level": "B1"
   },
   {
@@ -14101,7 +14101,7 @@ const B1_WORDS = [
   },
   {
     "de": "rütteln",
-    "lv": "kratīt; purināt",
+    "lv": "Kratīt • Purināt",
     "level": "B1"
   },
   {
@@ -14116,7 +14116,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Rekorder",
-    "lv": "magnetofons kasešu vai video; atskaņotājs",
+    "lv": "Magnetofons kasešu vai video • Atskaņotājs",
     "level": "B1"
   },
   {
@@ -14171,7 +14171,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Reporter",
-    "lv": "reportieris; laikraksta korespondents",
+    "lv": "Reportieris • Laikraksta korespondents",
     "level": "B1"
   },
   {
@@ -14191,7 +14191,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Rettung",
-    "lv": "izglābšana; izglābšanās; glābiņš",
+    "lv": "Izglābšana • Izglābšanās • Glābiņš",
     "level": "B1"
   },
   {
@@ -14216,7 +14216,7 @@ const B1_WORDS = [
   },
   {
     "de": "das Revier",
-    "lv": "apgabals; policijas iecirknis",
+    "lv": "Apgabals • Policijas iecirknis",
     "level": "B1"
   },
   {
@@ -14256,22 +14256,22 @@ const B1_WORDS = [
   },
   {
     "de": "die Rinde",
-    "lv": "koka miza; maizes garoza",
+    "lv": "Koka miza • Maizes garoza",
     "level": "B1"
   },
   {
     "de": "das Ringen",
-    "lv": "cīņa; laušanās",
+    "lv": "Cīņa • Laušanās",
     "level": "B1"
   },
   {
     "de": "der Ringkampf",
-    "lv": "cīņa; laušanās",
+    "lv": "Cīņa • Laušanās",
     "level": "B1"
   },
   {
     "de": "die Rinne",
-    "lv": "rene, tekne; noteka",
+    "lv": "Rene, tekne • Noteka",
     "level": "B1"
   },
   {
@@ -14286,7 +14286,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Riss",
-    "lv": "plīsums; plaisa; celtnes mets, plāns",
+    "lv": "Plīsums • Plaisa • Celtnes mets, plāns",
     "level": "B1"
   },
   {
@@ -14296,7 +14296,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Ritze",
-    "lv": "sprauga; plaisa",
+    "lv": "Sprauga • Plaisa",
     "level": "B1"
   },
   {
@@ -14306,17 +14306,17 @@ const B1_WORDS = [
   },
   {
     "de": "das Rohr",
-    "lv": "caurule; niedre",
+    "lv": "Caurule • Niedre",
     "level": "B1"
   },
   {
     "de": "die Röhre",
-    "lv": "caurule; elektronu lampa",
+    "lv": "Caurule • Elektronu lampa",
     "level": "B1"
   },
   {
     "de": "der Rohstoff",
-    "lv": "jēlviela; izejviela",
+    "lv": "Jēlviela • Izejviela",
     "level": "B1"
   },
   {
@@ -14336,7 +14336,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Route",
-    "lv": "ceļš; maršruts",
+    "lv": "Ceļš • Maršruts",
     "level": "B1"
   },
   {
@@ -14346,12 +14346,12 @@ const B1_WORDS = [
   },
   {
     "de": "die Rübe",
-    "lv": "rācenis, lopbarības rācenis; burkāns; kālis; biete",
+    "lv": "Rācenis, lopbarības rācenis • Burkāns • Kālis • Biete",
     "level": "B1"
   },
   {
     "de": "der Ruck",
-    "lv": "grūdiens; rāviens",
+    "lv": "Grūdiens • Rāviens",
     "level": "B1"
   },
   {
@@ -14366,7 +14366,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Rücksicht",
-    "lv": "uzmanība; rēķināšanās ar kādu",
+    "lv": "Uzmanība • Rēķināšanās ar kādu",
     "level": "B1"
   },
   {
@@ -14381,7 +14381,7 @@ const B1_WORDS = [
   },
   {
     "de": "das Ruder",
-    "lv": "airis; stūre",
+    "lv": "Airis • Stūre",
     "level": "B1"
   },
   {
@@ -14401,7 +14401,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Ruf",
-    "lv": "sauciens; uzaicinājums; reputācija, slava",
+    "lv": "Sauciens • Uzaicinājums • Reputācija, slava",
     "level": "B1"
   },
   {
@@ -14426,12 +14426,12 @@ const B1_WORDS = [
   },
   {
     "de": "der Rumpf",
-    "lv": "rumpis; lidmašīnas, kuģa korpuss",
+    "lv": "Rumpis • Lidmašīnas, kuģa korpuss",
     "level": "B1"
   },
   {
     "de": "die Runde",
-    "lv": "skriejiena aplis; raunds boksā",
+    "lv": "Skriejiena aplis • Raunds boksā",
     "level": "B1"
   },
   {
@@ -14451,17 +14451,17 @@ const B1_WORDS = [
   },
   {
     "de": "der Ruß",
-    "lv": "kvēpi; sodrēji",
+    "lv": "Kvēpi • Sodrēji",
     "level": "B1"
   },
   {
     "de": "der Rüssel",
-    "lv": "ziloņa snuķis; cūkas šņukurs; kukaiņa smeceris",
+    "lv": "Ziloņa snuķis • Cūkas šņukurs • Kukaiņa smeceris",
     "level": "B1"
   },
   {
     "de": "die Rute",
-    "lv": "vica; rīkste",
+    "lv": "Vica • Rīkste",
     "level": "B1"
   },
   {
@@ -14471,17 +14471,17 @@ const B1_WORDS = [
   },
   {
     "de": "die Saat",
-    "lv": "1. sēkla; 2. sēja; sēšana; 3. zelmenis",
+    "lv": "Sēkla • Sēja • Sēšana • Zelmenis",
     "level": "B1"
   },
   {
     "de": "sachlich",
-    "lv": "lietišķs; objektīvs",
+    "lv": "Lietišķs • Objektīvs",
     "level": "B1"
   },
   {
     "de": "die Sackgasse",
-    "lv": "aklā iela; strupceļš",
+    "lv": "Aklā iela • Strupceļš",
     "level": "B1"
   },
   {
@@ -14491,7 +14491,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Sage",
-    "lv": "teika; leģenda",
+    "lv": "Teika • Leģenda",
     "level": "B1"
   },
   {
@@ -14521,7 +14521,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Sammlung",
-    "lv": "1. krājums; kolekcija; 2. materiālu vākšana",
+    "lv": "Krājums • Kolekcija • Materiālu vākšana",
     "level": "B1"
   },
   {
@@ -14541,7 +14541,7 @@ const B1_WORDS = [
   },
   {
     "de": "sanft",
-    "lv": "maigs; liegs",
+    "lv": "Maigs • Liegs",
     "level": "B1"
   },
   {
@@ -14576,12 +14576,12 @@ const B1_WORDS = [
   },
   {
     "de": "saufen",
-    "lv": "1. dzert (par dzīvnieku); 2. žūpot",
+    "lv": "Dzert • Žūpot",
     "level": "B1"
   },
   {
     "de": "saugen",
-    "lv": "1. sūkt; 2. zīst",
+    "lv": "Sūkt • Zīst",
     "level": "B1"
   },
   {
@@ -14601,17 +14601,17 @@ const B1_WORDS = [
   },
   {
     "de": "der Saum",
-    "lv": "1. vīle; šuve; 2. mala; apmale",
+    "lv": "Vīle • Šuve • Mala • Apmale",
     "level": "B1"
   },
   {
     "de": "säumen",
-    "lv": "[ap]vīlēt (drēbi)",
+    "lv": "[ap]vīlēt",
     "level": "B1"
   },
   {
     "de": "die Säure",
-    "lv": "1. skābe; 2. skābums",
+    "lv": "Skābe • Skābums",
     "level": "B1"
   },
   {
@@ -14636,7 +14636,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Schaden",
-    "lv": "1. zaudējums; ļaunums; 2. miesas bojājums; ievainojums",
+    "lv": "Zaudējums • Ļaunums • Miesas bojājums • Ievainojums",
     "level": "B1"
   },
   {
@@ -14651,12 +14651,12 @@ const B1_WORDS = [
   },
   {
     "de": "der Schaffner",
-    "lv": "konduktors; (vilciena) pavadonis",
+    "lv": "Konduktors • Pavadonis",
     "level": "B1"
   },
   {
     "de": "die Schale",
-    "lv": "1. miza; (olas) čaumala; (grauda) apvalks; 2. (lēzens) trauks",
+    "lv": "Miza • Čaumala • Apvalks • Trauks",
     "level": "B1"
   },
   {
@@ -14666,22 +14666,22 @@ const B1_WORDS = [
   },
   {
     "de": "schallen",
-    "lv": "skanēt; atskanēt",
+    "lv": "Skanēt • Atskanēt",
     "level": "B1"
   },
   {
     "de": "die Scham",
-    "lv": "1. kauns; 2. kaunīgums",
+    "lv": "Kauns • Kaunīgums",
     "level": "B1"
   },
   {
     "de": "die Schande",
-    "lv": "kauns; negods",
+    "lv": "Kauns • Negods",
     "level": "B1"
   },
   {
     "de": "die Schar",
-    "lv": "bars; pulks",
+    "lv": "Bars • Pulks",
     "level": "B1"
   },
   {
@@ -14696,12 +14696,12 @@ const B1_WORDS = [
   },
   {
     "de": "die Schau",
-    "lv": "1. skate; 2. izstāde",
+    "lv": "Skate • Izstāde",
     "level": "B1"
   },
   {
     "de": "schaufeln",
-    "lv": "lāpstot, samest (saraust) ar lāpstu",
+    "lv": "Lāpstot, samest ar lāpstu",
     "level": "B1"
   },
   {
@@ -14716,7 +14716,7 @@ const B1_WORDS = [
   },
   {
     "de": "das Schauspiel",
-    "lv": "1. luga; drāma; 2. pārn. skats, aina",
+    "lv": "Luga • Drāma • Pārn. skats • Aina",
     "level": "B1"
   },
   {
@@ -14741,7 +14741,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Schein",
-    "lv": "spīdums; spožums",
+    "lv": "Spīdums • Spožums",
     "level": "B1"
   },
   {
@@ -14761,12 +14761,12 @@ const B1_WORDS = [
   },
   {
     "de": "scheren",
-    "lv": "griezt; apgriezt; cirpt; apcirpt",
+    "lv": "Griezt • Apgriezt • Cirpt • Apcirpt",
     "level": "B1"
   },
   {
     "de": "scheu",
-    "lv": "bikls; nedrošs; kautrīgs",
+    "lv": "Bikls • Nedrošs • Kautrīgs",
     "level": "B1"
   },
   {
@@ -14776,17 +14776,17 @@ const B1_WORDS = [
   },
   {
     "de": "die Schicht",
-    "lv": "1. kārta; slānis; 2. maiņa (darbā)",
+    "lv": "Kārta • Slānis • Maiņa",
     "level": "B1"
   },
   {
     "de": "der Schiedsrichter",
-    "lv": "1. šķīrējtiesnesis; 2. sp. tiesnesis",
+    "lv": "Šķīrējtiesnesis • Sp. tiesnesis",
     "level": "B1"
   },
   {
     "de": "schief",
-    "lv": "greizs, šķībs; slīps",
+    "lv": "Greizs, šķībs • Slīps",
     "level": "B1"
   },
   {
@@ -14796,12 +14796,12 @@ const B1_WORDS = [
   },
   {
     "de": "die Schiene",
-    "lv": "1. dzelzceļa sliede; 2. med. šina",
+    "lv": "Dzelzceļa sliede • Med. šina",
     "level": "B1"
   },
   {
     "de": "die Schifffahrt",
-    "lv": "1. kuģniecība; kuģošana; 2. brauciens ar kuģi",
+    "lv": "Kuģniecība • Kuģošana • Brauciens ar kuģi",
     "level": "B1"
   },
   {
@@ -14811,7 +14811,7 @@ const B1_WORDS = [
   },
   {
     "de": "schildern",
-    "lv": "aprakstīt; tēlot; iztēlot; attēlot",
+    "lv": "Aprakstīt • Tēlot • Iztēlot • Attēlot",
     "level": "B1"
   },
   {
@@ -14821,17 +14821,17 @@ const B1_WORDS = [
   },
   {
     "de": "das Schilf",
-    "lv": "niedres; meldri",
+    "lv": "Niedres • Meldri",
     "level": "B1"
   },
   {
     "de": "der Schimmel",
-    "lv": "1. pelējums; 2. sirmis; balts zirgs",
+    "lv": "Pelējums • Sirmis • Balts zirgs",
     "level": "B1"
   },
   {
     "de": "schimmern",
-    "lv": "mirdzēt; spīdēt; mirgot; zaigot",
+    "lv": "Mirdzēt • Spīdēt • Mirgot • Zaigot",
     "level": "B1"
   },
   {
@@ -14851,7 +14851,7 @@ const B1_WORDS = [
   },
   {
     "de": "schlachten",
-    "lv": "kaut; nokaut",
+    "lv": "Kaut • Nokaut",
     "level": "B1"
   },
   {
@@ -14871,7 +14871,7 @@ const B1_WORDS = [
   },
   {
     "de": "schläfrig",
-    "lv": "miegains; snaudulīgs",
+    "lv": "Miegains • Snaudulīgs",
     "level": "B1"
   },
   {
@@ -14886,12 +14886,12 @@ const B1_WORDS = [
   },
   {
     "de": "der Schlag",
-    "lv": "1. sitiens; spēriens zibens; 2. pulksteņa sišana; sirds puksts; 3. automašīnas durvis; 4. rase; pasuga",
+    "lv": "Sitiens • Spēriens zibens • Pulksteņa sišana • Sirds puksts • Automašīnas durvis • Rase • Pasuga",
     "level": "B1"
   },
   {
     "de": "der Schlager",
-    "lv": "1. grāvējs par populāru dziesmu, filmu; 2. sezonas jaunums",
+    "lv": "Grāvējs par populāru dziesmu • Filmu • Sezonas jaunums",
     "level": "B1"
   },
   {
@@ -14901,7 +14901,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Schlamm",
-    "lv": "dūņas; dubļi",
+    "lv": "Dūņas • Dubļi",
     "level": "B1"
   },
   {
@@ -14911,12 +14911,12 @@ const B1_WORDS = [
   },
   {
     "de": "schlau",
-    "lv": "viltīgs; slīpēts",
+    "lv": "Viltīgs • Slīpēts",
     "level": "B1"
   },
   {
     "de": "der Schlauch",
-    "lv": "1. šļūtene; 2. riepu kamera",
+    "lv": "Šļūtene • Riepu kamera",
     "level": "B1"
   },
   {
@@ -14926,7 +14926,7 @@ const B1_WORDS = [
   },
   {
     "de": "schleichen",
-    "lv": "līst; zagties",
+    "lv": "Līst • Zagties",
     "level": "B1"
   },
   {
@@ -14936,12 +14936,12 @@ const B1_WORDS = [
   },
   {
     "de": "die Schleife",
-    "lv": "1. pušķī sasieta lente; 2. cilpa",
+    "lv": "Pušķī sasieta lente • Cilpa",
     "level": "B1"
   },
   {
     "de": "schleifen",
-    "lv": "1. trīt; asināt; 2. slīpēt; pulēt",
+    "lv": "Trīt • Asināt • Slīpēt • Pulēt",
     "level": "B1"
   },
   {
@@ -14956,7 +14956,7 @@ const B1_WORDS = [
   },
   {
     "de": "schleppen",
-    "lv": "1. vilkt; vazāt; vilkt tauvā kuģi; 2. stiept kaut ko smagu",
+    "lv": "Vilkt • Vazāt • Vilkt tauvā kuģi • Stiept kaut ko smagu",
     "level": "B1"
   },
   {
@@ -14996,7 +14996,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Schlitz",
-    "lv": "griezums, šķēlums; sprauga",
+    "lv": "Griezums, šķēlums • Sprauga",
     "level": "B1"
   },
   {
@@ -15006,12 +15006,12 @@ const B1_WORDS = [
   },
   {
     "de": "die Schlucht",
-    "lv": "grava; aiza",
+    "lv": "Grava • Aiza",
     "level": "B1"
   },
   {
     "de": "schluchzen",
-    "lv": "šņukstēt; elsot",
+    "lv": "Šņukstēt • Elsot",
     "level": "B1"
   },
   {
@@ -15031,7 +15031,7 @@ const B1_WORDS = [
   },
   {
     "de": "schlüpfen",
-    "lv": "slīdēt; izslīdēt",
+    "lv": "Slīdēt • Izslīdēt",
     "level": "B1"
   },
   {
@@ -15046,12 +15046,12 @@ const B1_WORDS = [
   },
   {
     "de": "schmeißen",
-    "lv": "sviest, mest; svaidīt, mētāt",
+    "lv": "Sviest, mest • Svaidīt, mētāt",
     "level": "B1"
   },
   {
     "de": "schmelzen",
-    "lv": "1. kausēt; izkausēt; 2. kust; izkust",
+    "lv": "Kausēt • Izkausēt • Kust • Izkust",
     "level": "B1"
   },
   {
@@ -15061,7 +15061,7 @@ const B1_WORDS = [
   },
   {
     "de": "schmerzen",
-    "lv": "1. sāpēt; 2. sāpināt",
+    "lv": "Sāpēt • Sāpināt",
     "level": "B1"
   },
   {
@@ -15071,7 +15071,7 @@ const B1_WORDS = [
   },
   {
     "de": "schmerzlos",
-    "lv": "nesāpīgs; bezsāpju-",
+    "lv": "Nesāpīgs • Bezsāpju",
     "level": "B1"
   },
   {
@@ -15081,17 +15081,17 @@ const B1_WORDS = [
   },
   {
     "de": "schmieden",
-    "lv": "kalt; kaldināt",
+    "lv": "Kalt • Kaldināt",
     "level": "B1"
   },
   {
     "de": "schmieren",
-    "lv": "1. ziest; triept; smērēt; 2. smērēt, ķēpāt netīri rakstīt, krāsot",
+    "lv": "Ziest • Triept • Smērēt • Smērēt • Ķēpāt netīri rakstīt • Krāsot",
     "level": "B1"
   },
   {
     "de": "die Schminke",
-    "lv": "grims; smiņķis",
+    "lv": "Grims • Smiņķis",
     "level": "B1"
   },
   {
@@ -15101,17 +15101,17 @@ const B1_WORDS = [
   },
   {
     "de": "der Schmuck",
-    "lv": "1. rota, greznums; 2. dārglietas; rotaslietas",
+    "lv": "Rota • Greznums • Dārglietas • Rotaslietas",
     "level": "B1"
   },
   {
     "de": "schmücken",
-    "lv": "[iz]rotāt, [iz]greznot; sich schmücken — [iz]rotāties, [iz]greznoties",
+    "lv": "[iz]rotāt, [iz]greznot • Sich schmücken — [iz]rotāties, [iz]greznoties",
     "level": "B1"
   },
   {
     "de": "der Schnabel",
-    "lv": "1. knābis; 2. snīpis traukiem",
+    "lv": "Knābis • Snīpis traukiem",
     "level": "B1"
   },
   {
@@ -15171,7 +15171,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Schnitt",
-    "lv": "1. grieziens; griezums; 2. piegrieztne; piegriezums",
+    "lv": "Grieziens • Griezums • Piegrieztne • Piegriezums",
     "level": "B1"
   },
   {
@@ -15191,7 +15191,7 @@ const B1_WORDS = [
   },
   {
     "de": "schnüren",
-    "lv": "sasiet; savilkt",
+    "lv": "Sasiet • Savilkt",
     "level": "B1"
   },
   {
@@ -15206,7 +15206,7 @@ const B1_WORDS = [
   },
   {
     "de": "schonen",
-    "lv": "saudzēt; taupīt",
+    "lv": "Saudzēt • Taupīt",
     "level": "B1"
   },
   {
@@ -15241,7 +15241,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Schranke",
-    "lv": "1. barjera; iežogs; 2. robeža",
+    "lv": "Barjera • Iežogs • Robeža",
     "level": "B1"
   },
   {
@@ -15256,7 +15256,7 @@ const B1_WORDS = [
   },
   {
     "de": "schrauben",
-    "lv": "skrūvēt; pieskrūvēt; saskrūvēt",
+    "lv": "Skrūvēt • Pieskrūvēt • Saskrūvēt",
     "level": "B1"
   },
   {
@@ -15266,7 +15266,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Schrecken",
-    "lv": "izbailes; šausmas",
+    "lv": "Izbailes • Šausmas",
     "level": "B1"
   },
   {
@@ -15281,7 +15281,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Schrift",
-    "lv": "1. rokraksts; 2. poligr. burti; 3. raksts; apcerējums",
+    "lv": "Rokraksts • Poligr. burti • Raksts • Apcerējums",
     "level": "B1"
   },
   {
@@ -15311,17 +15311,17 @@ const B1_WORDS = [
   },
   {
     "de": "schuld",
-    "lv": "būt vainīgam (pie kaut kā)",
+    "lv": "Būt vainīgam",
     "level": "B1"
   },
   {
     "de": "schuldig",
-    "lv": "1. vainīgs; 2. parādā",
+    "lv": "Vainīgs • Parādā",
     "level": "B1"
   },
   {
     "de": "der Schuppen",
-    "lv": "1. šķūnis; nojume; 2. garāža; angārs",
+    "lv": "Šķūnis • Nojume • Garāža • Angārs",
     "level": "B1"
   },
   {
@@ -15336,7 +15336,7 @@ const B1_WORDS = [
   },
   {
     "de": "schütteln",
-    "lv": "kratīt; purināt",
+    "lv": "Kratīt • Purināt",
     "level": "B1"
   },
   {
@@ -15346,7 +15346,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Schutz",
-    "lv": "1. aizsardzība; apsardzība; 2. patvērums",
+    "lv": "Aizsardzība • Apsardzība • Patvērums",
     "level": "B1"
   },
   {
@@ -15366,12 +15366,12 @@ const B1_WORDS = [
   },
   {
     "de": "der Schütze",
-    "lv": "1. šāvējs; 2. strēlnieks",
+    "lv": "Šāvējs • Strēlnieks",
     "level": "B1"
   },
   {
     "de": "schützen",
-    "lv": "sargāt; aizsargāt; aizstāvēt (no kaut kā); aizsargāties; aizstāvēties (no kaut kā)",
+    "lv": "Sargāt • Aizsargāt • Aizstāvēt • Aizsargāties • Aizstāvēties",
     "level": "B1"
   },
   {
@@ -15381,7 +15381,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Schwäche",
-    "lv": "1. vājums; vārgums; 2. vājība",
+    "lv": "Vājums • Vārgums • Vājība",
     "level": "B1"
   },
   {
@@ -15421,12 +15421,12 @@ const B1_WORDS = [
   },
   {
     "de": "schwanken",
-    "lv": "1. ļodzīties; grīļoties; līgoties; 2. svārstīties, šaubīties",
+    "lv": "Ļodzīties • Grīļoties • Līgoties • Svārstīties • Šaubīties",
     "level": "B1"
   },
   {
     "de": "der Schwanz",
-    "lv": "aste; ļipa",
+    "lv": "Aste • Ļipa",
     "level": "B1"
   },
   {
@@ -15436,17 +15436,17 @@ const B1_WORDS = [
   },
   {
     "de": "schwatzen",
-    "lv": "pļāpāt; čalot; tērzēt",
+    "lv": "Pļāpāt • Čalot • Tērzēt",
     "level": "B1"
   },
   {
     "de": "schwätzen",
-    "lv": "pļāpāt; čalot; tērzēt",
+    "lv": "Pļāpāt • Čalot • Tērzēt",
     "level": "B1"
   },
   {
     "de": "schweben",
-    "lv": "1. karāties; svārstīties; 2. lidināties",
+    "lv": "Karāties • Svārstīties • Lidināties",
     "level": "B1"
   },
   {
@@ -15461,12 +15461,12 @@ const B1_WORDS = [
   },
   {
     "de": "die Schwelle",
-    "lv": "1. slieksnis; 2. dzelzceļa gulšnis",
+    "lv": "Slieksnis • Dzelzceļa gulšnis",
     "level": "B1"
   },
   {
     "de": "schwellen",
-    "lv": "pampt; tūkt; briest (par pumpuriem)",
+    "lv": "Pampt • Tūkt • Briest",
     "level": "B1"
   },
   {
@@ -15481,17 +15481,17 @@ const B1_WORDS = [
   },
   {
     "de": "schwerhörig",
-    "lv": "vājdzir­dīgs; pakurls",
+    "lv": "Vājdzir­dīgs • Pakurls",
     "level": "B1"
   },
   {
     "de": "die Schwiegereltern",
-    "lv": "vīra (sievas) vecāki",
+    "lv": "Vīra vecāki",
     "level": "B1"
   },
   {
     "de": "die Schwiegermutter",
-    "lv": "vīramāte; sievasmāte",
+    "lv": "Vīramāte • Sievasmāte",
     "level": "B1"
   },
   {
@@ -15506,7 +15506,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Schwiegervater",
-    "lv": "vīratēvs; sievastēvs",
+    "lv": "Vīratēvs • Sievastēvs",
     "level": "B1"
   },
   {
@@ -15516,7 +15516,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Schwierigkeit",
-    "lv": "grūtības; grūtums",
+    "lv": "Grūtības • Grūtums",
     "level": "B1"
   },
   {
@@ -15536,12 +15536,12 @@ const B1_WORDS = [
   },
   {
     "de": "schwingen",
-    "lv": "1. vicināt; vēcināt; 2. svārstīties; vibrēt",
+    "lv": "Vicināt • Vēcināt • Svārstīties • Vibrēt",
     "level": "B1"
   },
   {
     "de": "schwören",
-    "lv": "zvērēt; apzvērēt",
+    "lv": "Zvērēt • Apzvērēt",
     "level": "B1"
   },
   {
@@ -15556,12 +15556,12 @@ const B1_WORDS = [
   },
   {
     "de": "schwül",
-    "lv": "smacīgs; tveicīgs",
+    "lv": "Smacīgs • Tveicīgs",
     "level": "B1"
   },
   {
     "de": "der Schwung",
-    "lv": "1. vēziens; 2. spars, vēriens",
+    "lv": "Vēziens • Spars • Vēriens",
     "level": "B1"
   },
   {
@@ -15581,7 +15581,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Seefahrt",
-    "lv": "1. jūras brauciens; 2. kuģniecība",
+    "lv": "Jūras brauciens • Kuģniecība",
     "level": "B1"
   },
   {
@@ -15601,7 +15601,7 @@ const B1_WORDS = [
   },
   {
     "de": "das Segelboot",
-    "lv": "burinieks; buru laiva",
+    "lv": "Burinieks • Buru laiva",
     "level": "B1"
   },
   {
@@ -15616,12 +15616,12 @@ const B1_WORDS = [
   },
   {
     "de": "die Sehne",
-    "lv": "1. cīpsla; 2. loka stiegra",
+    "lv": "Cīpsla • Loka stiegra",
     "level": "B1"
   },
   {
     "de": "die Sehnsucht",
-    "lv": "ilgas; alkas",
+    "lv": "Ilgas • Alkas",
     "level": "B1"
   },
   {
@@ -15661,7 +15661,7 @@ const B1_WORDS = [
   },
   {
     "de": "seitwärts",
-    "lv": "sānus; uz sāniem",
+    "lv": "Sānus • Uz sāniem",
     "level": "B1"
   },
   {
@@ -15716,17 +15716,17 @@ const B1_WORDS = [
   },
   {
     "de": "senden",
-    "lv": "1. sūtīt; 2. raidīt (pa radio)",
+    "lv": "Sūtīt • Raidīt",
     "level": "B1"
   },
   {
     "de": "der Sender",
-    "lv": "1. radio raidītājs; 2. nosūtītājs",
+    "lv": "Radio raidītājs • Nosūtītājs",
     "level": "B1"
   },
   {
     "de": "die Sendung",
-    "lv": "1. sūtījums (pa pastu); 2. radio pārraide; 3. misija",
+    "lv": "Sūtījums • Radio pārraide • Misija",
     "level": "B1"
   },
   {
@@ -15736,12 +15736,12 @@ const B1_WORDS = [
   },
   {
     "de": "senken",
-    "lv": "1. nolaist zemē; iegremdēt; 2. pazemināt (cenas); 3. noliekt (galvu); pazemināt balsi",
+    "lv": "Nolaist zemē • Iegremdēt • Pazemināt • Noliekt • Pazemināt balsi",
     "level": "B1"
   },
   {
     "de": "sich senken",
-    "lv": "nolaisties, grimt; kristies (par ūdens līmeni)",
+    "lv": "Nolaisties, grimt • Kristies",
     "level": "B1"
   },
   {
@@ -15816,7 +15816,7 @@ const B1_WORDS = [
   },
   {
     "de": "sieden",
-    "lv": "1. vārīt; 2. vārīties",
+    "lv": "Vārīt • Vārīties",
     "level": "B1"
   },
   {
@@ -15871,17 +15871,17 @@ const B1_WORDS = [
   },
   {
     "de": "sinken",
-    "lv": "grimt; [no]slīgt; noslīdēt",
+    "lv": "Grimt • [no]slīgt • Noslīdēt",
     "level": "B1"
   },
   {
     "de": "der Sinn",
-    "lv": "1. nozīme; jēga; 2. izjūta; izpratne",
+    "lv": "Nozīme • Jēga • Izjūta • Izpratne",
     "level": "B1"
   },
   {
     "de": "sinnlos",
-    "lv": "bezjēdzīgs; muļķīgs, nesaprātīgs",
+    "lv": "Bezjēdzīgs • Muļķīgs, nesaprātīgs",
     "level": "B1"
   },
   {
@@ -15896,7 +15896,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Sitz",
-    "lv": "1. sēdeklis; [sēd]vieta; 2. mītne; rezidence",
+    "lv": "Sēdeklis • [sēd]vieta • Mītne • Rezidence",
     "level": "B1"
   },
   {
@@ -15951,7 +15951,7 @@ const B1_WORDS = [
   },
   {
     "de": "das Solarium",
-    "lv": "1. aparāts solārijā; 2. solārijs — salons",
+    "lv": "Aparāts solārijā • Solārijs — salons",
     "level": "B1"
   },
   {
@@ -15961,7 +15961,7 @@ const B1_WORDS = [
   },
   {
     "de": "somit",
-    "lv": "tātad; tādējādi",
+    "lv": "Tātad • Tādējādi",
     "level": "B1"
   },
   {
@@ -15981,7 +15981,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Sonnenbrand",
-    "lv": "1. saules tveice (svelme); 2. iedegums",
+    "lv": "Saules tveice • Iedegums",
     "level": "B1"
   },
   {
@@ -15996,12 +15996,12 @@ const B1_WORDS = [
   },
   {
     "de": "die Sorge",
-    "lv": "rūpes; raizes",
+    "lv": "Rūpes • Raizes",
     "level": "B1"
   },
   {
     "de": "sich sorgen",
-    "lv": "bēdāties, raizēties (par kaut ko)",
+    "lv": "Bēdāties, raizēties",
     "level": "B1"
   },
   {
@@ -16011,7 +16011,7 @@ const B1_WORDS = [
   },
   {
     "de": "sorglos",
-    "lv": "bezrūpīgs; nevērīgs",
+    "lv": "Bezrūpīgs • Nevērīgs",
     "level": "B1"
   },
   {
@@ -16021,12 +16021,12 @@ const B1_WORDS = [
   },
   {
     "de": "so weit",
-    "lv": "1. tiktāl; 2. ciktāl, cik",
+    "lv": "Tiktāl • Ciktāl • Cik",
     "level": "B1"
   },
   {
     "de": "sowie",
-    "lv": "1. tiklīdz; 2. kā arī",
+    "lv": "Tiklīdz • Kā arī",
     "level": "B1"
   },
   {
@@ -16036,7 +16036,7 @@ const B1_WORDS = [
   },
   {
     "de": "sowohl",
-    "lv": "tiklab..., kā arī...; gan..., gan arī...",
+    "lv": "Tiklab..., kā arī • Gan..., gan arī",
     "level": "B1"
   },
   {
@@ -16051,12 +16051,12 @@ const B1_WORDS = [
   },
   {
     "de": "die Spalte",
-    "lv": "1. plaisa; sprauga; 2. poligr. sleja",
+    "lv": "Plaisa • Sprauga • Poligr. sleja",
     "level": "B1"
   },
   {
     "de": "spalten",
-    "lv": "skaldīt; [sa]šķelt",
+    "lv": "Skaldīt • [sa]šķelt",
     "level": "B1"
   },
   {
@@ -16071,7 +16071,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Spannung",
-    "lv": "1. sasprindzinājums; saspīlējums; 2. sasprindzinātība; saspīlētība; 3. tehn., el. spriegums",
+    "lv": "Sasprindzinājums • Saspīlējums • Sasprindzinātība • Saspīlētība • Tehn • El. spriegums",
     "level": "B1"
   },
   {
@@ -16111,7 +16111,7 @@ const B1_WORDS = [
   },
   {
     "de": "speichern",
-    "lv": "1. krāt, uzkrāt; 2. dator. ierakstīt un saglabāt informāciju",
+    "lv": "Krāt • Uzkrāt • Dator. ierakstīt un saglabāt informāciju",
     "level": "B1"
   },
   {
@@ -16126,7 +16126,7 @@ const B1_WORDS = [
   },
   {
     "de": "speisen",
-    "lv": "1. ēst; 2. ēdināt, barot; 3. tehn. barot, pievadīt enerģiju",
+    "lv": "Ēst • Ēdināt • Barot • Tehn. barot • Pievadīt enerģiju",
     "level": "B1"
   },
   {
@@ -16151,7 +16151,7 @@ const B1_WORDS = [
   },
   {
     "de": "sperren",
-    "lv": "1. aizsprostot; 2. slēgt (robežu); 3. [no]slēgt (gāzi, tālruni)",
+    "lv": "Aizsprostot • Slēgt • [no]slēgt",
     "level": "B1"
   },
   {
@@ -16171,22 +16171,22 @@ const B1_WORDS = [
   },
   {
     "de": "spitz",
-    "lv": "ass; smails",
+    "lv": "Ass • Smails",
     "level": "B1"
   },
   {
     "de": "die Spitze",
-    "lv": "1. smaile; galotne; virsotne; 2. kurpes purngals; 3. koka galotne; 4. cigaretes iemutis; 5. priekšgalā",
+    "lv": "Smaile • Galotne • Virsotne • Kurpes purngals • Koka galotne • Cigaretes iemutis • Priekšgalā",
     "level": "B1"
   },
   {
     "de": "spitzen",
-    "lv": "[uz]asināt; nodrāzt (zīmuli)",
+    "lv": "[uz]asināt • Nodrāzt",
     "level": "B1"
   },
   {
     "de": "der Splitter",
-    "lv": "1. šķemba; drumsla; lauska; 2. skabarga",
+    "lv": "Šķemba • Drumsla • Lauska • Skabarga",
     "level": "B1"
   },
   {
@@ -16211,7 +16211,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Sprecher",
-    "lv": "diktors; runasvīrs",
+    "lv": "Diktors • Runasvīrs",
     "level": "B1"
   },
   {
@@ -16226,12 +16226,12 @@ const B1_WORDS = [
   },
   {
     "de": "das Sprichwort",
-    "lv": "sakāmvārds; paruna",
+    "lv": "Sakāmvārds • Paruna",
     "level": "B1"
   },
   {
     "de": "sprießen",
-    "lv": "dīgt; plaukt",
+    "lv": "Dīgt • Plaukt",
     "level": "B1"
   },
   {
@@ -16241,7 +16241,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Springer",
-    "lv": "zirdziņš (šaha spēlē)",
+    "lv": "Zirdziņš",
     "level": "B1"
   },
   {
@@ -16251,17 +16251,17 @@ const B1_WORDS = [
   },
   {
     "de": "spritzen",
-    "lv": "1. laistīt; aplaistīt; apslacīt; 2. injicēt",
+    "lv": "Laistīt • Aplaistīt • Apslacīt • Injicēt",
     "level": "B1"
   },
   {
     "de": "der Sprudel",
-    "lv": "1. minerālavots; 2. minerālūdens",
+    "lv": "Minerālavots • Minerālūdens",
     "level": "B1"
   },
   {
     "de": "der Sprung",
-    "lv": "1. lēciens; 2. plīsums; plaisa",
+    "lv": "Lēciens • Plīsums • Plaisa",
     "level": "B1"
   },
   {
@@ -16291,12 +16291,12 @@ const B1_WORDS = [
   },
   {
     "de": "die Spur",
-    "lv": "1. pēdas; 2. sliede",
+    "lv": "Pēdas • Sliede",
     "level": "B1"
   },
   {
     "de": "der Stab",
-    "lv": "1. kārts; 2. mil. štābs",
+    "lv": "Kārts • Mil. štābs",
     "level": "B1"
   },
   {
@@ -16311,7 +16311,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Stachel",
-    "lv": "1. bites dzeloņis; 2. ērkšķis; 3. eža adata",
+    "lv": "Bites dzeloņis • Ērkšķis • Eža adata",
     "level": "B1"
   },
   {
@@ -16341,22 +16341,22 @@ const B1_WORDS = [
   },
   {
     "de": "der Stall",
-    "lv": "kūts; stallis",
+    "lv": "Kūts • Stallis",
     "level": "B1"
   },
   {
     "de": "der Stamm",
-    "lv": "1. stumbrs; 2. cilts; dzimta",
+    "lv": "Stumbrs • Cilts • Dzimta",
     "level": "B1"
   },
   {
     "de": "stammen",
-    "lv": "[iz]celties, nākt (no)",
+    "lv": "[iz]celties, nākt",
     "level": "B1"
   },
   {
     "de": "der Stand",
-    "lv": "1. atrašanās vieta; stāvoklis; ūdens līmeņa augstums; 2. stāvoklis; situācija",
+    "lv": "Atrašanās vieta • Stāvoklis • Ūdens līmeņa augstums • Stāvoklis • Situācija",
     "level": "B1"
   },
   {
@@ -16381,17 +16381,17 @@ const B1_WORDS = [
   },
   {
     "de": "die Stange",
-    "lv": "1. kārts; maikste; 2. sp. stienis",
+    "lv": "Kārts • Maikste • Sp. stienis",
     "level": "B1"
   },
   {
     "de": "die Stärke",
-    "lv": "1. stiprums; spēks; 2. resnums; biezums",
+    "lv": "Stiprums • Spēks • Resnums • Biezums",
     "level": "B1"
   },
   {
     "de": "stärken",
-    "lv": "stiprināt; spēcināt",
+    "lv": "Stiprināt • Spēcināt",
     "level": "B1"
   },
   {
@@ -16401,17 +16401,17 @@ const B1_WORDS = [
   },
   {
     "de": "der Staudamm",
-    "lv": "dambis; aizsprosts",
+    "lv": "Dambis • Aizsprosts",
     "level": "B1"
   },
   {
     "de": "stechen",
-    "lv": "1. [ie]durt; durstīt; 2. dzelt (par biti); 3. gravēt",
+    "lv": "[ie]durt • Durstīt • Dzelt • Gravēt",
     "level": "B1"
   },
   {
     "de": "stecken",
-    "lv": "[ie]spraust; [ie]bāzt; ielikt",
+    "lv": "[ie]spraust • [ie]bāzt • Ielikt",
     "level": "B1"
   },
   {
@@ -16426,12 +16426,12 @@ const B1_WORDS = [
   },
   {
     "de": "steif",
-    "lv": "1. stīvs; stings; 2. no aukstuma sastindzis",
+    "lv": "Stīvs • Stings • No aukstuma sastindzis",
     "level": "B1"
   },
   {
     "de": "steigern",
-    "lv": "kāpināt; paaugstināt",
+    "lv": "Kāpināt • Paaugstināt",
     "level": "B1"
   },
   {
@@ -16441,7 +16441,7 @@ const B1_WORDS = [
   },
   {
     "de": "das Steingut",
-    "lv": "māla trauki; keramika",
+    "lv": "Māla trauki • Keramika",
     "level": "B1"
   },
   {
@@ -16461,12 +16461,12 @@ const B1_WORDS = [
   },
   {
     "de": "die Stellung",
-    "lv": "1. stāvoklis; poza; sp. pozīcija; 2. amats; [darba]vieta; 3. viedoklis",
+    "lv": "Stāvoklis • Poza • Sp. pozīcija • Amats • [darba]vieta • Viedoklis",
     "level": "B1"
   },
   {
     "de": "der Stellvertreter",
-    "lv": "vietas izpildītājs; aizstājējs",
+    "lv": "Vietas izpildītājs • Aizstājējs",
     "level": "B1"
   },
   {
@@ -16491,7 +16491,7 @@ const B1_WORDS = [
   },
   {
     "de": "stets",
-    "lv": "vienmēr; pastāvīgi",
+    "lv": "Vienmēr • Pastāvīgi",
     "level": "B1"
   },
   {
@@ -16506,7 +16506,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Stich",
-    "lv": "1. dūriens; dzēliens; 2. dūriens šujot; 3. gravīra",
+    "lv": "Dūriens • Dzēliens • Dūriens šujot • Gravīra",
     "level": "B1"
   },
   {
@@ -16536,7 +16536,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Stiel",
-    "lv": "1. rokturis; kāts; spals; 2. lapas, augļa kātiņš",
+    "lv": "Rokturis • Kāts • Spals • Lapas • Augļa kātiņš",
     "level": "B1"
   },
   {
@@ -16546,12 +16546,12 @@ const B1_WORDS = [
   },
   {
     "de": "der Stift",
-    "lv": "1. spraudīte; 2. zīmulis; 3. tehn. tapa, tapiņa; kniedīte",
+    "lv": "Spraudīte • Zīmulis • Tehn. tapa • Tapiņa • Kniedīte",
     "level": "B1"
   },
   {
     "de": "stiften",
-    "lv": "dibināt; nodibināt",
+    "lv": "Dibināt • Nodibināt",
     "level": "B1"
   },
   {
@@ -16561,12 +16561,12 @@ const B1_WORDS = [
   },
   {
     "de": "die Stille",
-    "lv": "klusums; miers",
+    "lv": "Klusums • Miers",
     "level": "B1"
   },
   {
     "de": "stillen",
-    "lv": "1. apmierināt; 2. zīdīt bērnu",
+    "lv": "Apmierināt • Zīdīt bērnu",
     "level": "B1"
   },
   {
@@ -16581,7 +16581,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Stimmung",
-    "lv": "noskaņojums; garastāvoklis",
+    "lv": "Noskaņojums • Garastāvoklis",
     "level": "B1"
   },
   {
@@ -16611,7 +16611,7 @@ const B1_WORDS = [
   },
   {
     "de": "stopfen",
-    "lv": "1. lāpīt zeķes; 2. bāzt; piebāzt",
+    "lv": "Lāpīt zeķes • Bāzt • Piebāzt",
     "level": "B1"
   },
   {
@@ -16626,7 +16626,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Stoß",
-    "lv": "trieciens; grūdiens",
+    "lv": "Trieciens • Grūdiens",
     "level": "B1"
   },
   {
@@ -16636,7 +16636,7 @@ const B1_WORDS = [
   },
   {
     "de": "stoßen",
-    "lv": "1. grūst; pagrūst; 2. uzgrūsties kaut kam; sich s. 1. grūstīties; 2. sasisties",
+    "lv": "Grūst • Pagrūst • Uzgrūsties kaut kam • Sich s. grūstīties • Sasisties",
     "level": "B1"
   },
   {
@@ -16656,12 +16656,12 @@ const B1_WORDS = [
   },
   {
     "de": "der Strahl",
-    "lv": "1. stars; 2. strūkla",
+    "lv": "Stars • Strūkla",
     "level": "B1"
   },
   {
     "de": "strahlen",
-    "lv": "starot; mirdzēt",
+    "lv": "Starot • Mirdzēt",
     "level": "B1"
   },
   {
@@ -16671,7 +16671,7 @@ const B1_WORDS = [
   },
   {
     "de": "stramm",
-    "lv": "1. stingrs; cieši savilkts; 2. brašs",
+    "lv": "Stingrs • Cieši savilkts • Brašs",
     "level": "B1"
   },
   {
@@ -16716,22 +16716,22 @@ const B1_WORDS = [
   },
   {
     "de": "die Strecke",
-    "lv": "1. ceļa posms; trase; 2. sp. distance; 3. dzelzceļa līnija",
+    "lv": "Ceļa posms • Trase • Sp. distance • Dzelzceļa līnija",
     "level": "B1"
   },
   {
     "de": "strecken",
-    "lv": "[iz]stiept; staipīt; sich s. 1. stiepties; staipīties; 2. izplesties",
+    "lv": "[iz]stiept • Staipīt • Sich s. stiepties • Staipīties • Izplesties",
     "level": "B1"
   },
   {
     "de": "der Streich",
-    "lv": "1. sitiens; 2. joks; draiskulība",
+    "lv": "Sitiens • Joks • Draiskulība",
     "level": "B1"
   },
   {
     "de": "streichen",
-    "lv": "1. krāsot; 2. [uz]ziest; 3. [iz]svītrot; 4. glaust",
+    "lv": "Krāsot • [uz]ziest • [iz]svītrot • Glaust",
     "level": "B1"
   },
   {
@@ -16746,7 +16746,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Streifen",
-    "lv": "1. svītra; 2. sloksne; strēmele",
+    "lv": "Svītra • Sloksne • Strēmele",
     "level": "B1"
   },
   {
@@ -16761,22 +16761,22 @@ const B1_WORDS = [
   },
   {
     "de": "streiten",
-    "lv": "1. strīdēties, ķildoties; 2. cīnīties par kaut ko",
+    "lv": "Strīdēties • Ķildoties • Cīnīties par kaut ko",
     "level": "B1"
   },
   {
     "de": "streng",
-    "lv": "stingrs; bargs",
+    "lv": "Stingrs • Bargs",
     "level": "B1"
   },
   {
     "de": "streuen",
-    "lv": "kaisīt; bārstīt",
+    "lv": "Kaisīt • Bārstīt",
     "level": "B1"
   },
   {
     "de": "der Strich",
-    "lv": "svītra; līnija; domuzīme",
+    "lv": "Svītra • Līnija • Domuzīme",
     "level": "B1"
   },
   {
@@ -16806,12 +16806,12 @@ const B1_WORDS = [
   },
   {
     "de": "der Strom",
-    "lv": "1. liela upe; 2. straume",
+    "lv": "Liela upe • Straume",
     "level": "B1"
   },
   {
     "de": "strömen",
-    "lv": "1. plūst, tecēt; 2. strauji doties par cilvēkiem",
+    "lv": "Plūst • Tecēt • Strauji doties par cilvēkiem",
     "level": "B1"
   },
   {
@@ -16851,7 +16851,7 @@ const B1_WORDS = [
   },
   {
     "de": "stumpf",
-    "lv": "truls; neass",
+    "lv": "Truls • Neass",
     "level": "B1"
   },
   {
@@ -16866,7 +16866,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Sturm",
-    "lv": "1. vētra; 2. mil. triecienuzbrukums",
+    "lv": "Vētra • Mil. triecienuzbrukums",
     "level": "B1"
   },
   {
@@ -16886,17 +16886,17 @@ const B1_WORDS = [
   },
   {
     "de": "stürzen",
-    "lv": "1. [ap]gāzt; nogāzt; 2. gāzties; krist",
+    "lv": "[ap]gāzt • Nogāzt • Gāzties • Krist",
     "level": "B1"
   },
   {
     "de": "die Stütze",
-    "lv": "1. balsts; 2. pārn. atbalsts, atspaids",
+    "lv": "Balsts • Pārn. atbalsts • Atspaids",
     "level": "B1"
   },
   {
     "de": "stützen",
-    "lv": "balstīt; atbalstīt; sich s. atspiesties; atbalstīties",
+    "lv": "Balstīt • Atbalstīt • Sich s. atspiesties • Atbalstīties",
     "level": "B1"
   },
   {
@@ -16906,7 +16906,7 @@ const B1_WORDS = [
   },
   {
     "de": "südlich",
-    "lv": "dienvidu; dienvidniecisks",
+    "lv": "Dienvidu • Dienvidniecisks",
     "level": "B1"
   },
   {
@@ -16941,7 +16941,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Szene",
-    "lv": "1. skatuve; 2. teatr. aina; skats; 3. pārn. scēna",
+    "lv": "Skatuve • Teatr. aina • Skats • Pārn. scēna",
     "level": "B1"
   },
   {
@@ -16951,7 +16951,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Tadel",
-    "lv": "nopelšana; rājiens",
+    "lv": "Nopelšana • Rājiens",
     "level": "B1"
   },
   {
@@ -16961,7 +16961,7 @@ const B1_WORDS = [
   },
   {
     "de": "tadeln",
-    "lv": "nopelt; nosodīt",
+    "lv": "Nopelt • Nosodīt",
     "level": "B1"
   },
   {
@@ -16976,12 +16976,12 @@ const B1_WORDS = [
   },
   {
     "de": "die Tagung",
-    "lv": "1. sēde; 2. sesija",
+    "lv": "Sēde • Sesija",
     "level": "B1"
   },
   {
     "de": "der Takt",
-    "lv": "1. mūz. takts; 2. takts, smalkjūtība",
+    "lv": "Mūz. takts • Takts • Smalkjūtība",
     "level": "B1"
   },
   {
@@ -17001,7 +17001,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Tank",
-    "lv": "1. mil. tanks; 2. benzīna tvertne, rezervuārs",
+    "lv": "Mil. tanks • Benzīna tvertne • Rezervuārs",
     "level": "B1"
   },
   {
@@ -17036,7 +17036,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Tat",
-    "lv": "rīcība; darbs",
+    "lv": "Rīcība • Darbs",
     "level": "B1"
   },
   {
@@ -17046,12 +17046,12 @@ const B1_WORDS = [
   },
   {
     "de": "tätig",
-    "lv": "darbīgs, rosīgs, aktīvs; strādāt par...",
+    "lv": "Darbīgs, rosīgs, aktīvs • Strādāt par",
     "level": "B1"
   },
   {
     "de": "die Tätigkeit",
-    "lv": "darbība; darbīgums; rosība",
+    "lv": "Darbība • Darbīgums • Rosība",
     "level": "B1"
   },
   {
@@ -17066,7 +17066,7 @@ const B1_WORDS = [
   },
   {
     "de": "tatsächlich",
-    "lv": "1. faktisks, patiess; 2. [pa]tiesām, faktiski",
+    "lv": "Faktisks • Patiess • [pa]tiesām • Faktiski",
     "level": "B1"
   },
   {
@@ -17096,12 +17096,12 @@ const B1_WORDS = [
   },
   {
     "de": "tauchen",
-    "lv": "1. iegremdēt; iemērkt; 2. nirt, ienirt",
+    "lv": "Iegremdēt • Iemērkt • Nirt • Ienirt",
     "level": "B1"
   },
   {
     "de": "der Taucher",
-    "lv": "nirējs; ūdenslīdējs",
+    "lv": "Nirējs • Ūdenslīdējs",
     "level": "B1"
   },
   {
@@ -17111,7 +17111,7 @@ const B1_WORDS = [
   },
   {
     "de": "taufen",
-    "lv": "[no]derēt; dot vārdu",
+    "lv": "[no]derēt • Dot vārdu",
     "level": "B1"
   },
   {
@@ -17131,7 +17131,7 @@ const B1_WORDS = [
   },
   {
     "de": "täuschen",
-    "lv": "maldināt; pievilt",
+    "lv": "Maldināt • Pievilt",
     "level": "B1"
   },
   {
@@ -17151,12 +17151,12 @@ const B1_WORDS = [
   },
   {
     "de": "die Teilnahme",
-    "lv": "1. piedalīšanās; 2. līdzjūtība",
+    "lv": "Piedalīšanās • Līdzjūtība",
     "level": "B1"
   },
   {
     "de": "teilnehmen",
-    "lv": "piedalīties; ņemt dalību",
+    "lv": "Piedalīties • Ņemt dalību",
     "level": "B1"
   },
   {
@@ -17171,7 +17171,7 @@ const B1_WORDS = [
   },
   {
     "de": "teilweise",
-    "lv": "1. pa daļām, daļās; 2. pa daļai, daļēji",
+    "lv": "Pa daļām • Daļās • Pa daļai • Daļēji",
     "level": "B1"
   },
   {
@@ -17186,7 +17186,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Telefax",
-    "lv": "1. pārraides sistēma; 2. faksa aparāts; 3. pārraidīta kopija",
+    "lv": "Pārraides sistēma • Faksa aparāts • Pārraidīta kopija",
     "level": "B1"
   },
   {
@@ -17241,7 +17241,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Tiefe",
-    "lv": "1. dziļums; dzelme; 2. toņa, balss zemums",
+    "lv": "Dziļums • Dzelme • Toņa • Balss zemums",
     "level": "B1"
   },
   {
@@ -17271,7 +17271,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Titel",
-    "lv": "1. tituls; 2. grāmatas, sacerējuma nosaukums, virsraksts",
+    "lv": "Tituls • Grāmatas • Sacerējuma nosaukums • Virsraksts",
     "level": "B1"
   },
   {
@@ -17296,12 +17296,12 @@ const B1_WORDS = [
   },
   {
     "de": "der Ton",
-    "lv": "1. tonis; skaņa; 2. akcents, uzsvars; 3. krāsas tonis",
+    "lv": "Tonis • Skaņa • Akcents • Uzsvars • Krāsas tonis",
     "level": "B1"
   },
   {
     "de": "die Tonne",
-    "lv": "1. muca; 2. tonna",
+    "lv": "Muca • Tonna",
     "level": "B1"
   },
   {
@@ -17316,7 +17316,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Tour",
-    "lv": "1. brauciens; izbraukums; pastaiga; 2. tehn. pagrieziens; 3. gājiens šahā; dejas figūra",
+    "lv": "Brauciens • Izbraukums • Pastaiga • Tehn. pagrieziens • Gājiens šahā • Dejas figūra",
     "level": "B1"
   },
   {
@@ -17331,7 +17331,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Träger",
-    "lv": "1. nesējs; 2. pārn. kādas idejas vai uzskatu pārstāvis",
+    "lv": "Nesējs • Pārn. kādas idejas vai uzskatu pārstāvis",
     "level": "B1"
   },
   {
@@ -17351,12 +17351,12 @@ const B1_WORDS = [
   },
   {
     "de": "trauen",
-    "lv": "ticēt; uzticēties",
+    "lv": "Ticēt • Uzticēties",
     "level": "B1"
   },
   {
     "de": "die Trauer",
-    "lv": "skumjas; bēdas; sēras",
+    "lv": "Skumjas • Bēdas • Sēras",
     "level": "B1"
   },
   {
@@ -17371,17 +17371,17 @@ const B1_WORDS = [
   },
   {
     "de": "das Treffen",
-    "lv": "1. [sa]tikšanās; 2. salidojums, sanāksme",
+    "lv": "[sa]tikšanās • Salidojums • Sanāksme",
     "level": "B1"
   },
   {
     "de": "der Treffer",
-    "lv": "1. trāpījums mērķī; 2. laimests",
+    "lv": "Trāpījums mērķī • Laimests",
     "level": "B1"
   },
   {
     "de": "treiben",
-    "lv": "1. dzīt; sadzīt; 2. darbināt motoru; 3. nodarboties; darīt kaut ko",
+    "lv": "Dzīt • Sadzīt • Darbināt motoru • Nodarboties • Darīt kaut ko",
     "level": "B1"
   },
   {
@@ -17391,7 +17391,7 @@ const B1_WORDS = [
   },
   {
     "de": "trennen",
-    "lv": "1. [at]šķirt; izšķirt; 2. ārdīt vīli; sich t. šķirties",
+    "lv": "[at]šķirt • Izšķirt • Ārdīt vīli • Sich t. šķirties",
     "level": "B1"
   },
   {
@@ -17401,12 +17401,12 @@ const B1_WORDS = [
   },
   {
     "de": "treten",
-    "lv": "1. mīdīt; 2. iet; nākt",
+    "lv": "Mīdīt • Iet • Nākt",
     "level": "B1"
   },
   {
     "de": "treu",
-    "lv": "uzticīgs; uzticams",
+    "lv": "Uzticīgs • Uzticams",
     "level": "B1"
   },
   {
@@ -17421,7 +17421,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Trieb",
-    "lv": "1. dziņa; tieksme; 2. instinkts; 3. dzinums, asns, atvase",
+    "lv": "Dziņa • Tieksme • Instinkts • Dzinums • Asns • Atvase",
     "level": "B1"
   },
   {
@@ -17431,7 +17431,7 @@ const B1_WORDS = [
   },
   {
     "de": "das Trittbrett",
-    "lv": "kāpslis; pakāpiens",
+    "lv": "Kāpslis • Pakāpiens",
     "level": "B1"
   },
   {
@@ -17446,7 +17446,7 @@ const B1_WORDS = [
   },
   {
     "de": "trommeln",
-    "lv": "bungot; sist bungas",
+    "lv": "Bungot • Sist bungas",
     "level": "B1"
   },
   {
@@ -17461,7 +17461,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Trost",
-    "lv": "mierinājums; iepriecinājums",
+    "lv": "Mierinājums • Iepriecinājums",
     "level": "B1"
   },
   {
@@ -17471,27 +17471,27 @@ const B1_WORDS = [
   },
   {
     "de": "trotz",
-    "lv": "neraugoties uz; par spīti",
+    "lv": "Neraugoties uz • Par spīti",
     "level": "B1"
   },
   {
     "de": "der Trotz",
-    "lv": "spīts; spītība",
+    "lv": "Spīts • Spītība",
     "level": "B1"
   },
   {
     "de": "trotzig",
-    "lv": "spītīgs; stūrgalvīgs",
+    "lv": "Spītīgs • Stūrgalvīgs",
     "level": "B1"
   },
   {
     "de": "trübe",
-    "lv": "1. apmācies; 2. pārn. duļķains; blāvs par gaismu; 3. pārn. drūms; bēdīgs",
+    "lv": "Apmācies • Pārn. duļķains • Blāvs par gaismu • Pārn. drūms • Bēdīgs",
     "level": "B1"
   },
   {
     "de": "die Trümmer",
-    "lv": "drupas; gruveši",
+    "lv": "Drupas • Gruveši",
     "level": "B1"
   },
   {
@@ -17501,12 +17501,12 @@ const B1_WORDS = [
   },
   {
     "de": "der Trupp",
-    "lv": "1. karaspēka nodaļa, vienība; 2. pulks; bars",
+    "lv": "Karaspēka nodaļa • Vienība • Pulks • Bars",
     "level": "B1"
   },
   {
     "de": "die Truppe",
-    "lv": "teātr. trupa; dsk. karaspēks",
+    "lv": "Teātr. trupa • Dsk. karaspēks",
     "level": "B1"
   },
   {
@@ -17521,7 +17521,7 @@ const B1_WORDS = [
   },
   {
     "de": "tüchtig",
-    "lv": "1. krietns; spējīgs; lietpratīgs; 2. pamatīgi; kā nākas",
+    "lv": "Krietns • Spējīgs • Lietpratīgs • Pamatīgi • Kā nākas",
     "level": "B1"
   },
   {
@@ -17541,7 +17541,7 @@ const B1_WORDS = [
   },
   {
     "de": "übel",
-    "lv": "slikts; nelabs",
+    "lv": "Slikts • Nelabs",
     "level": "B1"
   },
   {
@@ -17556,7 +17556,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Überfahrt",
-    "lv": "1. pārbraukšana, brauciens pāri jūrai, upei; 2. pārbrauktuve",
+    "lv": "Pārbraukšana • Brauciens pāri jūrai • Upei • Pārbrauktuve",
     "level": "B1"
   },
   {
@@ -17586,12 +17586,12 @@ const B1_WORDS = [
   },
   {
     "de": "überholen",
-    "lv": "1. aizsteigties priekšā; pārspēt, pārsniegt; 2. kapitāli [iz]remontēt, pamatīgi apskatīt un pārbaudīt motoru",
+    "lv": "Aizsteigties priekšā • Pārspēt • Pārsniegt • Kapitāli [iz]remontēt • Pamatīgi apskatīt un pārbaudīt motoru",
     "level": "B1"
   },
   {
     "de": "überleben",
-    "lv": "1. pārdzīvot laika ziņā; 2. pārdzīvot, pārciest",
+    "lv": "Pārdzīvot laika ziņā • Pārdzīvot • Pārciest",
     "level": "B1"
   },
   {
@@ -17601,7 +17601,7 @@ const B1_WORDS = [
   },
   {
     "de": "übernehmen",
-    "lv": "1. pārņemt; saņemt; 2. uzņemties",
+    "lv": "Pārņemt • Saņemt • Uzņemties",
     "level": "B1"
   },
   {
@@ -17621,12 +17621,12 @@ const B1_WORDS = [
   },
   {
     "de": "übersehen",
-    "lv": "1. pārredzēt, pārskatīt; 2. nepamanīt, palaist garām",
+    "lv": "Pārredzēt • Pārskatīt • Nepamanīt • Palaist garām",
     "level": "B1"
   },
   {
     "de": "die Übersicht",
-    "lv": "pārskats; apskats",
+    "lv": "Pārskats • Apskats",
     "level": "B1"
   },
   {
@@ -17641,7 +17641,7 @@ const B1_WORDS = [
   },
   {
     "de": "überwinden",
-    "lv": "pārvarēt; pieveikt",
+    "lv": "Pārvarēt • Pieveikt",
     "level": "B1"
   },
   {
@@ -17656,12 +17656,12 @@ const B1_WORDS = [
   },
   {
     "de": "der Überzug",
-    "lv": "pārvalks; spilvendrāna",
+    "lv": "Pārvalks • Spilvendrāna",
     "level": "B1"
   },
   {
     "de": "üblich",
-    "lv": "parasts; pieņemts",
+    "lv": "Parasts • Pieņemts",
     "level": "B1"
   },
   {
@@ -17671,7 +17671,7 @@ const B1_WORDS = [
   },
   {
     "de": "übrigens",
-    "lv": "turklāt; starp citu",
+    "lv": "Turklāt • Starp citu",
     "level": "B1"
   },
   {
@@ -17681,47 +17681,47 @@ const B1_WORDS = [
   },
   {
     "de": "umdrehen",
-    "lv": "apgriezt; griezt apkārt",
+    "lv": "Apgriezt • Griezt apkārt",
     "level": "B1"
   },
   {
     "de": "sich umdrehen",
-    "lv": "1. apgriezties apkārt; 2. pagriezties atpakaļ",
+    "lv": "Apgriezties apkārt • Pagriezties atpakaļ",
     "level": "B1"
   },
   {
     "de": "der Umfang",
-    "lv": "apjoms; apmērs",
+    "lv": "Apjoms • Apmērs",
     "level": "B1"
   },
   {
     "de": "der Umgang",
-    "lv": "1. apiešanās; 2. saiešanās",
+    "lv": "Apiešanās • Saiešanās",
     "level": "B1"
   },
   {
     "de": "umgeben",
-    "lv": "apņemt; ietvert; ielenkt",
+    "lv": "Apņemt • Ietvert • Ielenkt",
     "level": "B1"
   },
   {
     "de": "umgehen",
-    "lv": "1. griezties; 2. iet apkārt; 3. apieties, rīkoties ar kaut ko",
+    "lv": "Griezties • Iet apkārt • Apieties • Rīkoties ar kaut ko",
     "level": "B1"
   },
   {
     "de": "umgekehrt",
-    "lv": "1. apgriezts; otrāds; pretējs; 2. otrādi; pretēji",
+    "lv": "Apgriezts • Otrāds • Pretējs • Otrādi • Pretēji",
     "level": "B1"
   },
   {
     "de": "umher",
-    "lv": "apkārt; visapkārt",
+    "lv": "Apkārt • Visapkārt",
     "level": "B1"
   },
   {
     "de": "umkehren",
-    "lv": "1. griezties atpakaļ; 2. apgriezties; 3. apgriezt otrādi",
+    "lv": "Griezties atpakaļ • Apgriezties • Apgriezt otrādi",
     "level": "B1"
   },
   {
@@ -17736,22 +17736,22 @@ const B1_WORDS = [
   },
   {
     "de": "umkommen",
-    "lv": "iet bojā; dabūt galu",
+    "lv": "Iet bojā • Dabūt galu",
     "level": "B1"
   },
   {
     "de": "die Umleitung",
-    "lv": "novirzīšanās; novadīšana citā virzienā par satiksmi",
+    "lv": "Novirzīšanās • Novadīšana citā virzienā par satiksmi",
     "level": "B1"
   },
   {
     "de": "der Umschlag",
-    "lv": "1. ietīnums; iesaiņojums; 2. apvāks grāmatai; 3. aploksne; 4. komprese, apliekamais",
+    "lv": "Ietīnums • Iesaiņojums • Apvāks grāmatai • Aploksne • Komprese • Apliekamais",
     "level": "B1"
   },
   {
     "de": "sich umsehen",
-    "lv": "1. atskatīties atpakaļ; 2. apskatīties visapkārt; 3. pameklēt kaut ko",
+    "lv": "Atskatīties atpakaļ • Apskatīties visapkārt • Pameklēt kaut ko",
     "level": "B1"
   },
   {
@@ -17761,12 +17761,12 @@ const B1_WORDS = [
   },
   {
     "de": "umstellen",
-    "lv": "1. pārvietot; pārlikt; 2. pārkārtot",
+    "lv": "Pārvietot • Pārlikt • Pārkārtot",
     "level": "B1"
   },
   {
     "de": "der Umweg",
-    "lv": "1. apkārtceļš; līkums; 2. aplinku ceļš",
+    "lv": "Apkārtceļš • Līkums • Aplinku ceļš",
     "level": "B1"
   },
   {
@@ -17856,7 +17856,7 @@ const B1_WORDS = [
   },
   {
     "de": "ungerecht",
-    "lv": "netaisns, netaisnīgs (spriedums, sods, vērtējums)",
+    "lv": "Netaisns, netaisnīgs",
     "level": "B1"
   },
   {
@@ -17871,12 +17871,12 @@ const B1_WORDS = [
   },
   {
     "de": "Unglück",
-    "lv": "nelaime; liksta",
+    "lv": "Nelaime • Liksta",
     "level": "B1"
   },
   {
     "de": "ungültig",
-    "lv": "nederīgs (biļete, pase)",
+    "lv": "Nederīgs",
     "level": "B1"
   },
   {
@@ -17901,12 +17901,12 @@ const B1_WORDS = [
   },
   {
     "de": "unrecht",
-    "lv": "nepareizs; aplams",
+    "lv": "Nepareizs • Aplams",
     "level": "B1"
   },
   {
     "de": "Unrecht",
-    "lv": "netaisnība; pārestība",
+    "lv": "Netaisnība • Pārestība",
     "level": "B1"
   },
   {
@@ -17916,12 +17916,12 @@ const B1_WORDS = [
   },
   {
     "de": "Unruhe",
-    "lv": "nemiers; satraukums",
+    "lv": "Nemiers • Satraukums",
     "level": "B1"
   },
   {
     "de": "Unsinn",
-    "lv": "bezjēdzība; blēņas",
+    "lv": "Bezjēdzība • Blēņas",
     "level": "B1"
   },
   {
@@ -17931,7 +17931,7 @@ const B1_WORDS = [
   },
   {
     "de": "unterbringen",
-    "lv": "novietot; ievietot",
+    "lv": "Novietot • Ievietot",
     "level": "B1"
   },
   {
@@ -17946,17 +17946,17 @@ const B1_WORDS = [
   },
   {
     "de": "unterhalten",
-    "lv": "1. uzturēt; 2. uzturēt, apgādāt; 3. [pa]kavēt laiku",
+    "lv": "Uzturēt • Uzturēt • Apgādāt • [pa]kavēt laiku",
     "level": "B1"
   },
   {
     "de": "Unterkunft",
-    "lv": "1. pajumte; patvērums; 2. kopmītne",
+    "lv": "Pajumte • Patvērums • Kopmītne",
     "level": "B1"
   },
   {
     "de": "unternehmen",
-    "lv": "uzsākt; uzņemties",
+    "lv": "Uzsākt • Uzņemties",
     "level": "B1"
   },
   {
@@ -17966,7 +17966,7 @@ const B1_WORDS = [
   },
   {
     "de": "unterscheiden",
-    "lv": "izšķirt; atšķirt",
+    "lv": "Izšķirt • Atšķirt",
     "level": "B1"
   },
   {
@@ -17976,22 +17976,22 @@ const B1_WORDS = [
   },
   {
     "de": "unterstreichen",
-    "lv": "1. pasvītrot; 2. uzsvērt",
+    "lv": "Pasvītrot • Uzsvērt",
     "level": "B1"
   },
   {
     "de": "unterstützen",
-    "lv": "atbalstīt; pabalstīt",
+    "lv": "Atbalstīt • Pabalstīt",
     "level": "B1"
   },
   {
     "de": "untersuchen",
-    "lv": "1. izmeklēt; 2. izpētīt, izdarīt izmeklēšanu",
+    "lv": "Izmeklēt • Izpētīt • Izdarīt izmeklēšanu",
     "level": "B1"
   },
   {
     "de": "Untersuchung",
-    "lv": "1. izmeklēšana; apskate; 2. pētījums; [iz]pētīšana",
+    "lv": "Izmeklēšana • Apskate • Pētījums • [iz]pētīšana",
     "level": "B1"
   },
   {
@@ -18011,7 +18011,7 @@ const B1_WORDS = [
   },
   {
     "de": "unverständlich",
-    "lv": "nesaprotams; neskaidrs",
+    "lv": "Nesaprotams • Neskaidrs",
     "level": "B1"
   },
   {
@@ -18031,7 +18031,7 @@ const B1_WORDS = [
   },
   {
     "de": "uralt",
-    "lv": "ļoti vecs; ļoti sens",
+    "lv": "Ļoti vecs • Ļoti sens",
     "level": "B1"
   },
   {
@@ -18046,7 +18046,7 @@ const B1_WORDS = [
   },
   {
     "de": "Ursache",
-    "lv": "iemesls; cēlonis",
+    "lv": "Iemesls • Cēlonis",
     "level": "B1"
   },
   {
@@ -18081,7 +18081,7 @@ const B1_WORDS = [
   },
   {
     "de": "Veränderung",
-    "lv": "1. grozīšana; pārmaiņšana; 2. pārgrozība, pārmaiņa",
+    "lv": "Grozīšana • Pārmaiņšana • Pārgrozība • Pārmaiņa",
     "level": "B1"
   },
   {
@@ -18091,7 +18091,7 @@ const B1_WORDS = [
   },
   {
     "de": "verantworten",
-    "lv": "atbildēt (par kaut ko), būt atbildīgam (par kaut ko)",
+    "lv": "Atbildēt , būt atbildīgam",
     "level": "B1"
   },
   {
@@ -18106,7 +18106,7 @@ const B1_WORDS = [
   },
   {
     "de": "verarbeiten",
-    "lv": "1. pārstrādāt; 2. apstrādāt",
+    "lv": "Pārstrādāt • Apstrādāt",
     "level": "B1"
   },
   {
@@ -18116,7 +18116,7 @@ const B1_WORDS = [
   },
   {
     "de": "Verband",
-    "lv": "1. pārsējs; apsējs; 2. savienība; biedrība",
+    "lv": "Pārsējs • Apsējs • Savienība • Biedrība",
     "level": "B1"
   },
   {
@@ -18126,7 +18126,7 @@ const B1_WORDS = [
   },
   {
     "de": "Verbindung",
-    "lv": "1. savienojums; 2. sakars",
+    "lv": "Savienojums • Sakars",
     "level": "B1"
   },
   {
@@ -18141,12 +18141,12 @@ const B1_WORDS = [
   },
   {
     "de": "Verbrauch",
-    "lv": "patērēšana; patēriņš",
+    "lv": "Patērēšana • Patēriņš",
     "level": "B1"
   },
   {
     "de": "verbrauchen",
-    "lv": "1. izlietot; patērēt; 2. nolietot; nonēsāt (drēbes, apavus)",
+    "lv": "Izlietot • Patērēt • Nolietot • Nonēsāt",
     "level": "B1"
   },
   {
@@ -18166,7 +18166,7 @@ const B1_WORDS = [
   },
   {
     "de": "verbrennen",
-    "lv": "1. sadedzināt; nodedzināt (elektrību, gāzi); 2. sadegt",
+    "lv": "Sadedzināt • Nodedzināt • Sadegt",
     "level": "B1"
   },
   {
@@ -18181,7 +18181,7 @@ const B1_WORDS = [
   },
   {
     "de": "verderben",
-    "lv": "1. [sa]bojāt; [sa]maitāt; sagandēt; 2. [sa]bojāties; [sa]maitāties",
+    "lv": "[sa]bojāt • [sa]maitāt • Sagandēt • [sa]bojāties • [sa]maitāties",
     "level": "B1"
   },
   {
@@ -18191,12 +18191,12 @@ const B1_WORDS = [
   },
   {
     "de": "verdoppeln",
-    "lv": "divkāršot; dubultot",
+    "lv": "Divkāršot • Dubultot",
     "level": "B1"
   },
   {
     "de": "das Unglück",
-    "lv": "nelaime; liksta",
+    "lv": "Nelaime • Liksta",
     "level": "B1"
   },
   {
@@ -18206,17 +18206,17 @@ const B1_WORDS = [
   },
   {
     "de": "das Unrecht",
-    "lv": "netaisnība; pārestība",
+    "lv": "Netaisnība • Pārestība",
     "level": "B1"
   },
   {
     "de": "die Unruhe",
-    "lv": "nemiers; satraukums",
+    "lv": "Nemiers • Satraukums",
     "level": "B1"
   },
   {
     "de": "der Unsinn",
-    "lv": "bezjēdzība; blēņas",
+    "lv": "Bezjēdzība • Blēņas",
     "level": "B1"
   },
   {
@@ -18226,7 +18226,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Unterkunft",
-    "lv": "1. pajumte; patvērums; 2. kopmītne",
+    "lv": "Pajumte • Patvērums • Kopmītne",
     "level": "B1"
   },
   {
@@ -18236,7 +18236,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Untersuchung",
-    "lv": "1. izmeklēšana; apskate; 2. pētījums; [iz]pētīšana",
+    "lv": "Izmeklēšana • Apskate • Pētījums • [iz]pētīšana",
     "level": "B1"
   },
   {
@@ -18251,7 +18251,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Ursache",
-    "lv": "iemesls; cēlonis",
+    "lv": "Iemesls • Cēlonis",
     "level": "B1"
   },
   {
@@ -18271,17 +18271,17 @@ const B1_WORDS = [
   },
   {
     "de": "die Veränderung",
-    "lv": "1. grozīšana; pārmaiņšana; 2. pārgrozība, pārmaiņa",
+    "lv": "Grozīšana • Pārmaiņšana • Pārgrozība • Pārmaiņa",
     "level": "B1"
   },
   {
     "de": "der Verband",
-    "lv": "1. pārsējs; apsējs; 2. savienība; biedrība",
+    "lv": "Pārsējs • Apsējs • Savienība • Biedrība",
     "level": "B1"
   },
   {
     "de": "die Verbindung",
-    "lv": "1. savienojums; 2. sakars",
+    "lv": "Savienojums • Sakars",
     "level": "B1"
   },
   {
@@ -18291,7 +18291,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Verbrauch",
-    "lv": "patērēšana; patēriņš",
+    "lv": "Patērēšana • Patēriņš",
     "level": "B1"
   },
   {
@@ -18311,12 +18311,12 @@ const B1_WORDS = [
   },
   {
     "de": "der Verein",
-    "lv": "savienība; biedrība",
+    "lv": "Savienība • Biedrība",
     "level": "B1"
   },
   {
     "de": "vereinbaren",
-    "lv": "norunāt; saskaņot",
+    "lv": "Norunāt • Saskaņot",
     "level": "B1"
   },
   {
@@ -18326,7 +18326,7 @@ const B1_WORDS = [
   },
   {
     "de": "verfolgen",
-    "lv": "sekot; vajāt; dzīties pakaļ",
+    "lv": "Sekot • Vajāt • Dzīties pakaļ",
     "level": "B1"
   },
   {
@@ -18336,7 +18336,7 @@ const B1_WORDS = [
   },
   {
     "de": "vergehen",
-    "lv": "1. paiet (par laiku); 2. pāriet (par sāpēm); zust (par prieku)",
+    "lv": "Paiet • Pāriet • Zust",
     "level": "B1"
   },
   {
@@ -18351,7 +18351,7 @@ const B1_WORDS = [
   },
   {
     "de": "das Vergnügen",
-    "lv": "prieks; patika; izprieca",
+    "lv": "Prieks • Patika • Izprieca",
     "level": "B1"
   },
   {
@@ -18366,22 +18366,22 @@ const B1_WORDS = [
   },
   {
     "de": "sich verhalten",
-    "lv": "1. izturēties; 2. attiekties",
+    "lv": "Izturēties • Attiekties",
     "level": "B1"
   },
   {
     "de": "das Verhalten",
-    "lv": "izturēšanās; uzvešanās",
+    "lv": "Izturēšanās • Uzvešanās",
     "level": "B1"
   },
   {
     "de": "das Verhältnis",
-    "lv": "1. samērs; proporcija; 2. attieksme; attiecības; 3. apstākļi (arī dzīves)",
+    "lv": "Samērs • Proporcija • Attieksme • Attiecības • Apstākļi",
     "level": "B1"
   },
   {
     "de": "verheiraten",
-    "lv": "apprecināt (ar kādu); izprecināt (kādam)",
+    "lv": "Apprecināt • Izprecināt",
     "level": "B1"
   },
   {
@@ -18391,12 +18391,12 @@ const B1_WORDS = [
   },
   {
     "de": "sich verirren",
-    "lv": "apmaldīties; noklīst no ceļa",
+    "lv": "Apmaldīties • Noklīst no ceļa",
     "level": "B1"
   },
   {
     "de": "verkehren",
-    "lv": "1. uzturēt satiksmi, kursēt; 2. saieties",
+    "lv": "Uzturēt satiksmi • Kursēt • Saieties",
     "level": "B1"
   },
   {
@@ -18421,17 +18421,17 @@ const B1_WORDS = [
   },
   {
     "de": "die Verletzung",
-    "lv": "1. ievainojums; 2. aizskaršana, aizvainošana; 3. pārkāpšana",
+    "lv": "Ievainojums • Aizskaršana • Aizvainošana • Pārkāpšana",
     "level": "B1"
   },
   {
     "de": "der Verlust",
-    "lv": "1. zaudējums; 2. zudums (par svaru)",
+    "lv": "Zaudējums • Zudums",
     "level": "B1"
   },
   {
     "de": "die Vernunft",
-    "lv": "prāts; saprāts",
+    "lv": "Prāts • Saprāts",
     "level": "B1"
   },
   {
@@ -18441,7 +18441,7 @@ const B1_WORDS = [
   },
   {
     "de": "verkehrt",
-    "lv": "1. ačgārns; aplams; 2. ačgārni, aplami",
+    "lv": "Ačgārns • Aplams • Ačgārni • Aplami",
     "level": "B1"
   },
   {
@@ -18451,7 +18451,7 @@ const B1_WORDS = [
   },
   {
     "de": "verkürzen",
-    "lv": "saīsināt; padarīt īsāku",
+    "lv": "Saīsināt • Padarīt īsāku",
     "level": "B1"
   },
   {
@@ -18466,17 +18466,17 @@ const B1_WORDS = [
   },
   {
     "de": "verlaufen",
-    "lv": "paiet, aizritēt (par laiku)",
+    "lv": "Paiet, aizritēt",
     "level": "B1"
   },
   {
     "de": "verlegen",
-    "lv": "1. pārvietot; pārcelt (uz citu vietu); 2. nobāzt, nolikt (nevietā); 3. atlikt, pārcelt (sēdi)",
+    "lv": "Pārvietot • Pārcelt • Nobāzt • Nolikt • Atlikt • Pārcelt",
     "level": "B1"
   },
   {
     "de": "verletzen",
-    "lv": "1. ievainot; 2. aizskart; aizvainot; 3. pārkāpt (likumu)",
+    "lv": "Ievainot • Aizskart • Aizvainot • Pārkāpt",
     "level": "B1"
   },
   {
@@ -18486,7 +18486,7 @@ const B1_WORDS = [
   },
   {
     "de": "vermeiden",
-    "lv": "izvairīties; izsargāties",
+    "lv": "Izvairīties • Izsargāties",
     "level": "B1"
   },
   {
@@ -18496,12 +18496,12 @@ const B1_WORDS = [
   },
   {
     "de": "vermuten",
-    "lv": "iedomāties; [no]jaust",
+    "lv": "Iedomāties • [no]jaust",
     "level": "B1"
   },
   {
     "de": "vermutlich",
-    "lv": "1. šķietams; paredzams; 2. laikam; kā liekas",
+    "lv": "Šķietams • Paredzams • Laikam • Kā liekas",
     "level": "B1"
   },
   {
@@ -18511,7 +18511,7 @@ const B1_WORDS = [
   },
   {
     "de": "veröffentlichen",
-    "lv": "1. publicēt, izdot; 2. izsludināt; paziņot",
+    "lv": "Publicēt • Izdot • Izsludināt • Paziņot",
     "level": "B1"
   },
   {
@@ -18521,7 +18521,7 @@ const B1_WORDS = [
   },
   {
     "de": "verraten",
-    "lv": "1. nodot (kādu); 2. izpaust (noslēpumu)",
+    "lv": "Nodot • Izpaust",
     "level": "B1"
   },
   {
@@ -18531,7 +18531,7 @@ const B1_WORDS = [
   },
   {
     "de": "verreisen",
-    "lv": "aizceļot; aizbraukt",
+    "lv": "Aizceļot • Aizbraukt",
     "level": "B1"
   },
   {
@@ -18546,7 +18546,7 @@ const B1_WORDS = [
   },
   {
     "de": "versäumen",
-    "lv": "kavēt, nokavēt (stundas)",
+    "lv": "Kavēt, nokavēt",
     "level": "B1"
   },
   {
@@ -18556,12 +18556,12 @@ const B1_WORDS = [
   },
   {
     "de": "verschieben",
-    "lv": "1. pārbīdīt; 2. pārcelt uz citu laiku",
+    "lv": "Pārbīdīt • Pārcelt uz citu laiku",
     "level": "B1"
   },
   {
     "de": "verschlafen",
-    "lv": "nogulēt (kādu laiku; nokavēt guļot)",
+    "lv": "Nogulēt",
     "level": "B1"
   },
   {
@@ -18596,7 +18596,7 @@ const B1_WORDS = [
   },
   {
     "de": "versichern",
-    "lv": "1. apdrošināt (dzīvību); 2. apgalvot; apliecināt",
+    "lv": "Apdrošināt • Apgalvot • Apliecināt",
     "level": "B1"
   },
   {
@@ -18606,12 +18606,12 @@ const B1_WORDS = [
   },
   {
     "de": "die Versicherung",
-    "lv": "1. apdrošināšana; 2. apgalvojums",
+    "lv": "Apdrošināšana • Apgalvojums",
     "level": "B1"
   },
   {
     "de": "versorgen",
-    "lv": "apgādāt (ar kaut ko)",
+    "lv": "Apgādāt",
     "level": "B1"
   },
   {
@@ -18636,7 +18636,7 @@ const B1_WORDS = [
   },
   {
     "de": "das Versprechen",
-    "lv": "[ap]solīšanās; solījums",
+    "lv": "[ap]solīšanās • Solījums",
     "level": "B1"
   },
   {
@@ -18676,7 +18676,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Versuch",
-    "lv": "1. mēģinājums; 2. eksperiments",
+    "lv": "Mēģinājums • Eksperiments",
     "level": "B1"
   },
   {
@@ -18711,27 +18711,27 @@ const B1_WORDS = [
   },
   {
     "de": "vertrauen",
-    "lv": "uzticēties; paļauties",
+    "lv": "Uzticēties • Paļauties",
     "level": "B1"
   },
   {
     "de": "das Vertrauen",
-    "lv": "uzticēšanās; uzticība",
+    "lv": "Uzticēšanās • Uzticība",
     "level": "B1"
   },
   {
     "de": "vertraut",
-    "lv": "1. tuvs; labi pazīstams; 2. labi pārzināt",
+    "lv": "Tuvs • Labi pazīstams • Labi pārzināt",
     "level": "B1"
   },
   {
     "de": "vertreten",
-    "lv": "1. aizstāt; 2. pārstāvēt; 3. aizstāvēt savu viedokli",
+    "lv": "Aizstāt • Pārstāvēt • Aizstāvēt savu viedokli",
     "level": "B1"
   },
   {
     "de": "der Vertreter",
-    "lv": "1. vietnieks, aizstājējs; 2. pārstāvis",
+    "lv": "Vietnieks • Aizstājējs • Pārstāvis",
     "level": "B1"
   },
   {
@@ -18741,12 +18741,12 @@ const B1_WORDS = [
   },
   {
     "de": "die Verwaltung",
-    "lv": "1. pārvalde; 2. pārvaldīšana",
+    "lv": "Pārvalde • Pārvaldīšana",
     "level": "B1"
   },
   {
     "de": "verwandt",
-    "lv": "1. būt rados; 2. pārn. radniecisks",
+    "lv": "Būt rados • Pārn. radniecisks",
     "level": "B1"
   },
   {
@@ -18761,7 +18761,7 @@ const B1_WORDS = [
   },
   {
     "de": "verwechseln",
-    "lv": "samainīt (līdzības dēļ), sajaukt",
+    "lv": "Samainīt , sajaukt",
     "level": "B1"
   },
   {
@@ -18781,7 +18781,7 @@ const B1_WORDS = [
   },
   {
     "de": "verzichten",
-    "lv": "atsacīties, atteikties (no kaut kā)",
+    "lv": "Atsacīties, atteikties",
     "level": "B1"
   },
   {
@@ -18796,7 +18796,7 @@ const B1_WORDS = [
   },
   {
     "de": "vielfach",
-    "lv": "1. daudzkārtējs; 2. daudzkārt, bieži",
+    "lv": "Daudzkārtējs • Daudzkārt • Bieži",
     "level": "B1"
   },
   {
@@ -18836,7 +18836,7 @@ const B1_WORDS = [
   },
   {
     "de": "völlig",
-    "lv": "1. pilnīgs; 2. pilnīgi, pavisam",
+    "lv": "Pilnīgs • Pilnīgi • Pavisam",
     "level": "B1"
   },
   {
@@ -18861,7 +18861,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Vorbereitung",
-    "lv": "sagatavošana; [sa]gatavošanās",
+    "lv": "Sagatavošana • [sa]gatavošanās",
     "level": "B1"
   },
   {
@@ -18871,12 +18871,12 @@ const B1_WORDS = [
   },
   {
     "de": "vorführen",
-    "lv": "parādīt; demonstrēt, izrādīt (tērpus, filmu)",
+    "lv": "Parādīt • Demonstrēt, izrādīt",
     "level": "B1"
   },
   {
     "de": "der Vorgang",
-    "lv": "1. notikums; 2. norise; gaita",
+    "lv": "Notikums • Norise • Gaita",
     "level": "B1"
   },
   {
@@ -18886,7 +18886,7 @@ const B1_WORDS = [
   },
   {
     "de": "vorhanden",
-    "lv": "būt; būt klāt, būt dabūjamam",
+    "lv": "Būt • Būt klāt, būt dabūjamam",
     "level": "B1"
   },
   {
@@ -18896,12 +18896,12 @@ const B1_WORDS = [
   },
   {
     "de": "vorkommen",
-    "lv": "1. [at]gadīties; 2. būt sastopamam; 3. likties, šķist",
+    "lv": "[at]gadīties • Būt sastopamam • Likties • Šķist",
     "level": "B1"
   },
   {
     "de": "vorläufig",
-    "lv": "1. pagaidu-; 2. pagaidām",
+    "lv": "Pagaidu • Pagaidām",
     "level": "B1"
   },
   {
@@ -18931,7 +18931,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Vorschrift",
-    "lv": "priekšraksts; pavēle; rīkojums",
+    "lv": "Priekšraksts • Pavēle • Rīkojums",
     "level": "B1"
   },
   {
@@ -18951,7 +18951,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Vorspeise",
-    "lv": "uzkožamais; uzkožamie",
+    "lv": "Uzkožamais • Uzkožamie",
     "level": "B1"
   },
   {
@@ -18961,7 +18961,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Vorstellung",
-    "lv": "1. priekšstats; 2. (teātra) izrāde; (kino) seanss",
+    "lv": "Priekšstats • Izrāde • Seanss",
     "level": "B1"
   },
   {
@@ -18976,17 +18976,17 @@ const B1_WORDS = [
   },
   {
     "de": "der Vortrag",
-    "lv": "1. priekšlasījums; lekcija; 2. priekšnesums; izpildījums",
+    "lv": "Priekšlasījums • Lekcija • Priekšnesums • Izpildījums",
     "level": "B1"
   },
   {
     "de": "vorüber",
-    "lv": "garām; pagājis",
+    "lv": "Garām • Pagājis",
     "level": "B1"
   },
   {
     "de": "vorübergehen",
-    "lv": "1. aiziet garām; 2. paiet, izbeigties",
+    "lv": "Aiziet garām • Paiet • Izbeigties",
     "level": "B1"
   },
   {
@@ -19006,12 +19006,12 @@ const B1_WORDS = [
   },
   {
     "de": "die Wache",
-    "lv": "1. sardze; 2. sargpostenis",
+    "lv": "Sardze • Sargpostenis",
     "level": "B1"
   },
   {
     "de": "wachen",
-    "lv": "1. būt nomodā; 2. būt nomodā (par kaut ko); sargāt, uzmanīt",
+    "lv": "Būt nomodā • Būt nomodā • Sargāt • Uzmanīt",
     "level": "B1"
   },
   {
@@ -19041,7 +19041,7 @@ const B1_WORDS = [
   },
   {
     "de": "wagen",
-    "lv": "uzdrošināties; riskēt",
+    "lv": "Uzdrošināties • Riskēt",
     "level": "B1"
   },
   {
@@ -19066,7 +19066,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Waise",
-    "lv": "bārenis; bārene",
+    "lv": "Bārenis • Bārene",
     "level": "B1"
   },
   {
@@ -19111,7 +19111,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Wärter",
-    "lv": "1. sargs; 2. sanitārs",
+    "lv": "Sargs • Sanitārs",
     "level": "B1"
   },
   {
@@ -19121,7 +19121,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Wartesaal",
-    "lv": "uzgaidāmā telpa (stacijā)",
+    "lv": "Uzgaidāmā telpa",
     "level": "B1"
   },
   {
@@ -19166,7 +19166,7 @@ const B1_WORDS = [
   },
   {
     "de": "das Web",
-    "lv": "saīs. (World Wide Web) interneta sistēma",
+    "lv": "Saīs. interneta sistēma",
     "level": "B1"
   },
   {
@@ -19181,7 +19181,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Wechsel",
-    "lv": "1. mija; [pār]maiņa; 2. (naudas) mainīšana; 3. vekselis",
+    "lv": "Mija • [pār]maiņa • Mainīšana • Vekselis",
     "level": "B1"
   },
   {
@@ -19191,7 +19191,7 @@ const B1_WORDS = [
   },
   {
     "de": "weder",
-    "lv": "w.... noch... – ne..., ne...; nedz..., nedz...",
+    "lv": "W.... noch... – ne..., ne • Nedz..., nedz",
     "level": "B1"
   },
   {
@@ -19211,17 +19211,17 @@ const B1_WORDS = [
   },
   {
     "de": "wehen",
-    "lv": "1. pūst (par vēju); 2. plivināties, plīvot",
+    "lv": "Pūst • Plivināties • Plīvot",
     "level": "B1"
   },
   {
     "de": "weiblich",
-    "lv": "sieviešu-; sievišķīgs",
+    "lv": "Sieviešu • Sievišķīgs",
     "level": "B1"
   },
   {
     "de": "weichen",
-    "lv": "atkāpties; griezt ceļu; padoties",
+    "lv": "Atkāpties • Griezt ceļu • Padoties",
     "level": "B1"
   },
   {
@@ -19231,7 +19231,7 @@ const B1_WORDS = [
   },
   {
     "de": "weiden",
-    "lv": "1. ganīt; 2. ganīties",
+    "lv": "Ganīt • Ganīties",
     "level": "B1"
   },
   {
@@ -19246,7 +19246,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Weile",
-    "lv": "brīdis; vaļas brīdis",
+    "lv": "Brīdis • Vaļas brīdis",
     "level": "B1"
   },
   {
@@ -19291,7 +19291,7 @@ const B1_WORDS = [
   },
   {
     "de": "die Welle",
-    "lv": "1. vilnis; 2. tehn. vārpsta",
+    "lv": "Vilnis • Tehn. vārpsta",
     "level": "B1"
   },
   {
@@ -19321,7 +19321,7 @@ const B1_WORDS = [
   },
   {
     "de": "wenden",
-    "lv": "1. [pa]griezt (citā virzienā); 2. apgriezt (uz otru pusi)",
+    "lv": "[pa]griezt • Apgriezt",
     "level": "B1"
   },
   {
@@ -19336,12 +19336,12 @@ const B1_WORDS = [
   },
   {
     "de": "werben",
-    "lv": "1. vervēt; 2. aģitēt (par kaut ko); reklamēt; 3. tīkot (pēc); [domāt] bildināt",
+    "lv": "Vervēt • Aģitēt • Reklamēt • Tīkot • [domāt] bildināt",
     "level": "B1"
   },
   {
     "de": "das Werk",
-    "lv": "1. daž. noz. darbs; 2. fabrika, rūpnīca; 3. mehānisms (pulksteņa)",
+    "lv": "Daž. noz. darbs • Fabrika • Rūpnīca • Mehānisms",
     "level": "B1"
   },
   {
@@ -19366,7 +19366,7 @@ const B1_WORDS = [
   },
   {
     "de": "wesentlich",
-    "lv": "būtisks; svarīgs",
+    "lv": "Būtisks • Svarīgs",
     "level": "B1"
   },
   {
@@ -19381,7 +19381,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Wettbewerb",
-    "lv": "1. sacensība; 2. konkurss",
+    "lv": "Sacensība • Konkurss",
     "level": "B1"
   },
   {
@@ -19406,27 +19406,27 @@ const B1_WORDS = [
   },
   {
     "de": "wickeln",
-    "lv": "[ie]tīt; uztīt; tīstit",
+    "lv": "[ie]tīt • Uztīt • Tīstit",
     "level": "B1"
   },
   {
     "de": "der Widerspruch",
-    "lv": "1. pretruna; 2. iebildums",
+    "lv": "Pretruna • Iebildums",
     "level": "B1"
   },
   {
     "de": "der Widerstand",
-    "lv": "pretošanās; pretestība",
+    "lv": "Pretošanās • Pretestība",
     "level": "B1"
   },
   {
     "de": "widmen",
-    "lv": "1. veltīt; 2. nodoties",
+    "lv": "Veltīt • Nodoties",
     "level": "B1"
   },
   {
     "de": "das Wiederhören",
-    "lv": "uz sadzirdēšanos! (atsveicināšanās, radioraidījumus vai tālruņa sarunu beidzot)",
+    "lv": "Uz sadzirdēšanos!",
     "level": "B1"
   },
   {
@@ -19466,22 +19466,22 @@ const B1_WORDS = [
   },
   {
     "de": "die Windel",
-    "lv": "autiņi (zīdaiņu)",
+    "lv": "Autiņi",
     "level": "B1"
   },
   {
     "de": "der Wink",
-    "lv": "1. mājiens; 2. norādījums",
+    "lv": "Mājiens • Norādījums",
     "level": "B1"
   },
   {
     "de": "der Winkel",
-    "lv": "1. kakts; stūris; 2. mat. leņķis",
+    "lv": "Kakts • Stūris • Mat. leņķis",
     "level": "B1"
   },
   {
     "de": "das Zeugnis",
-    "lv": "1. jur. liecība; 2. apliecība; (skolas) liecība",
+    "lv": "Jur. liecība • Apliecība • Liecība",
     "level": "B1"
   },
   {
@@ -19496,7 +19496,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Zipfel",
-    "lv": "stūris; stērbele",
+    "lv": "Stūris • Stērbele",
     "level": "B1"
   },
   {
@@ -19506,7 +19506,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Zirkel",
-    "lv": "1. cirkulis; 2. (mācību vai pašdarbības) pulciņš",
+    "lv": "Cirkulis • Pulciņš",
     "level": "B1"
   },
   {
@@ -19576,7 +19576,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Zufall",
-    "lv": "gadījums; sagadīšanās; nejaušība",
+    "lv": "Gadījums • Sagadīšanās • Nejaušība",
     "level": "B1"
   },
   {
@@ -19586,17 +19586,17 @@ const B1_WORDS = [
   },
   {
     "de": "sich zufrieden geben",
-    "lv": "apmierināties (ar kaut ko)",
+    "lv": "Apmierināties",
     "level": "B1"
   },
   {
     "de": "der Zugang",
-    "lv": "pieeja; piekļūšana",
+    "lv": "Pieeja • Piekļūšana",
     "level": "B1"
   },
   {
     "de": "zugeben",
-    "lv": "1. dot klāt (piedevām); 2. atzīt, pieļaut",
+    "lv": "Dot klāt • Atzīt • Pieļaut",
     "level": "B1"
   },
   {
@@ -19616,7 +19616,7 @@ const B1_WORDS = [
   },
   {
     "de": "zünden",
-    "lv": "1. aizdegties; 2. aizdedzināt",
+    "lv": "Aizdegties • Aizdedzināt",
     "level": "B1"
   },
   {
@@ -19631,22 +19631,22 @@ const B1_WORDS = [
   },
   {
     "de": "zusammenbringen",
-    "lv": "savākt; sapulcināt",
+    "lv": "Savākt • Sapulcināt",
     "level": "B1"
   },
   {
     "de": "zusammenfassen",
-    "lv": "saņemt (savilkt) kopā",
+    "lv": "Saņemt kopā",
     "level": "B1"
   },
   {
     "de": "der Zusammenhang",
-    "lv": "sakars; sakarība",
+    "lv": "Sakars • Sakarība",
     "level": "B1"
   },
   {
     "de": "zusammenhängen",
-    "lv": "būt sakarā (ar kaut ko)",
+    "lv": "Būt sakarā",
     "level": "B1"
   },
   {
@@ -19666,22 +19666,22 @@ const B1_WORDS = [
   },
   {
     "de": "die Zutat",
-    "lv": "piedeva (ēdienam)",
+    "lv": "Piedeva",
     "level": "B1"
   },
   {
     "de": "der Zutritt",
-    "lv": "pieeja; ieeja",
+    "lv": "Pieeja • Ieeja",
     "level": "B1"
   },
   {
     "de": "zuverlässig",
-    "lv": "uzticams; drošs",
+    "lv": "Uzticams • Drošs",
     "level": "B1"
   },
   {
     "de": "zuvor",
-    "lv": "1. pirms tam; iepriekš; 2. papriekš",
+    "lv": "Pirms tam • Iepriekš • Papriekš",
     "level": "B1"
   },
   {
@@ -19691,7 +19691,7 @@ const B1_WORDS = [
   },
   {
     "de": "zwar",
-    "lv": "gan; proti",
+    "lv": "Gan • Proti",
     "level": "B1"
   },
   {
@@ -19706,7 +19706,7 @@ const B1_WORDS = [
   },
   {
     "de": "zweifach",
-    "lv": "1. divkārtējs, divkāršs; 2. divkārt",
+    "lv": "Divkārtējs • Divkāršs • Divkārt",
     "level": "B1"
   },
   {
@@ -19721,7 +19721,7 @@ const B1_WORDS = [
   },
   {
     "de": "der Zweig",
-    "lv": "1. zars; 2. nozarojums; atzarojums",
+    "lv": "Zars • Nozarojums • Atzarojums",
     "level": "B1"
   },
   {
