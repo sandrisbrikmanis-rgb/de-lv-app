@@ -4312,27 +4312,15 @@
     grid-template-columns: 1fr;
   }
 }
-/* Desktop two-column layout (consolidated) */
+/* Desktop centered single-column layout (consolidated) */
 @media (min-width: 769px) {
   main {
-    width: min(1320px, calc(100% - 28px));
+    width: min(860px, calc(100% - 28px));
   }
 
   .app-shell {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) 240px;
-    gap: 14px 18px;
-    align-items: start;
-  }
-
-  .topbar {
-    grid-column: 1;
-    grid-row: 1;
-  }
-
-  .card {
-    grid-column: 1;
-    grid-row: 2;
+    gap: 18px;
   }
 
   .controls,
@@ -4341,8 +4329,6 @@
   }
 
   .spelling-panel {
-    grid-column: 1;
-    grid-row: 3;
     width: 100%;
     max-width: 100%;
     margin: 0;
@@ -4357,16 +4343,9 @@
     display: none !important;
   }
 
-  .notice {
-    grid-column: 1;
-    grid-row: 5;
-  }
-
   .desktop-primary-actions {
-    grid-column: 1;
-    grid-row: 4;
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 14px;
     align-items: stretch;
     width: 100%;
@@ -4406,8 +4385,6 @@
   }
 
   .desktop-action-sidebar {
-    grid-column: 2;
-    grid-row: 1 / span 20;
     display: grid;
     gap: 12px;
     align-content: start;
@@ -4423,11 +4400,24 @@
     box-sizing: border-box;
   }
 
-  .mobile-extra-options,
-  .mobile-extra-options[hidden] {
+  .extra-options-toggle {
+    display: block;
+  }
+
+  .mobile-extra-options {
     display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 12px;
     align-content: start;
+    padding: 16px;
+    border: 1px solid #4b504c;
+    border-radius: 8px;
+    background: linear-gradient(145deg, rgba(31, 35, 34, 0.96), rgba(17, 24, 31, 0.96));
+    box-shadow: var(--shadow);
+  }
+
+  .mobile-extra-options[hidden] {
+    display: none;
   }
 
   .desktop-side-group {
@@ -4528,11 +4518,6 @@
     line-height: 1.2;
     letter-spacing: normal;
     white-space: normal;
-  }
-
-  #markUnwantedBtn,
-  #extraOptionsBtn {
-    display: none !important;
   }
 
   #verbRandomBtn[hidden],
