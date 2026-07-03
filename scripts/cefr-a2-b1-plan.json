@@ -1,0 +1,333 @@
+﻿{
+    "generatedAt":  "2026-07-02T15:10:06.3495922+02:00",
+    "phase":  "A2-B1-only",
+    "sourcePlan":  "cefr-a1-a2-plan.json",
+    "currentCounts":  {
+                          "B1":  3656,
+                          "A2":  1743
+                      },
+    "moveCount":  29,
+    "predictedA2":  1714,
+    "predictedB1":  3685,
+    "moves":  [
+                  {
+                      "de":  "die Abteilung",
+                      "lv":  "Nodaļa • Departaments",
+                      "from":  "A2",
+                      "to":  "B1",
+                      "file":  "data/a2.js",
+                      "startLine":  2881,
+                      "endLine":  2885,
+                      "studyId":  "",
+                      "reasons":  "B1_marker"
+                  },
+                  {
+                      "de":  "die Aufführung",
+                      "lv":  "Izrāde",
+                      "from":  "A2",
+                      "to":  "B1",
+                      "file":  "data/a2.js",
+                      "startLine":  6558,
+                      "endLine":  6562,
+                      "studyId":  "",
+                      "reasons":  "abstract_B1"
+                  },
+                  {
+                      "de":  "die Aufklärung",
+                      "lv":  "Noskaidrošana",
+                      "from":  "A2",
+                      "to":  "B1",
+                      "file":  "data/a2.js",
+                      "startLine":  6973,
+                      "endLine":  6977,
+                      "studyId":  "",
+                      "reasons":  "abstract_B1"
+                  },
+                  {
+                      "de":  "die Aufmerksamkeit",
+                      "lv":  "Uzmanība",
+                      "from":  "A2",
+                      "to":  "B1",
+                      "file":  "data/a2.js",
+                      "startLine":  7161,
+                      "endLine":  7165,
+                      "studyId":  "",
+                      "reasons":  "abstract_B1"
+                  },
+                  {
+                      "de":  "die Ausstellung",
+                      "lv":  "izstāde",
+                      "from":  "A2",
+                      "to":  "B1",
+                      "file":  "data/a2.js",
+                      "startLine":  9998,
+                      "endLine":  10002,
+                      "studyId":  "",
+                      "reasons":  "abstract_B1"
+                  },
+                  {
+                      "de":  "der Beruf",
+                      "lv":  "Profesija",
+                      "from":  "A2",
+                      "to":  "B1",
+                      "file":  "data/a2.js",
+                      "startLine":  15937,
+                      "endLine":  16274,
+                      "studyId":  "",
+                      "reasons":  "B1_marker, B1_pattern"
+                  },
+                  {
+                      "de":  "der Chef",
+                      "lv":  "Priekšnieks • Vadītājs",
+                      "from":  "A2",
+                      "to":  "B1",
+                      "file":  "data/a2.js",
+                      "startLine":  19979,
+                      "endLine":  19983,
+                      "studyId":  "",
+                      "reasons":  "B1_marker, B1_pattern"
+                  },
+                  {
+                      "de":  "die Energie",
+                      "lv":  "enerģija",
+                      "from":  "A2",
+                      "to":  "B1",
+                      "file":  "data/a2.js",
+                      "startLine":  29877,
+                      "endLine":  29881,
+                      "studyId":  "",
+                      "reasons":  "B1_marker, B1_pattern"
+                  },
+                  {
+                      "de":  "die Fahrprüfung",
+                      "lv":  "braukšanas eksāmens",
+                      "from":  "A2",
+                      "to":  "B1",
+                      "file":  "data/a2.js",
+                      "startLine":  31743,
+                      "endLine":  31747,
+                      "studyId":  "",
+                      "reasons":  "abstract_B1"
+                  },
+                  {
+                      "de":  "die Fernbedienung",
+                      "lv":  "Tālvadības pults",
+                      "from":  "A2",
+                      "to":  "B1",
+                      "file":  "data/a2.js",
+                      "startLine":  32733,
+                      "endLine":  32737,
+                      "studyId":  "",
+                      "reasons":  "abstract_B1"
+                  },
+                  {
+                      "de":  "die Fernsehsendung",
+                      "lv":  "televīzijas raidījums",
+                      "from":  "A2",
+                      "to":  "B1",
+                      "file":  "data/a2.js",
+                      "startLine":  32738,
+                      "endLine":  32742,
+                      "studyId":  "",
+                      "reasons":  "abstract_B1"
+                  },
+                  {
+                      "de":  "die Firma",
+                      "lv":  "firma",
+                      "from":  "A2",
+                      "to":  "B1",
+                      "file":  "data/a2.js",
+                      "startLine":  33688,
+                      "endLine":  33692,
+                      "studyId":  "",
+                      "reasons":  "B1_marker, B1_pattern"
+                  },
+                  {
+                      "de":  "die Fluggesellschaft",
+                      "lv":  "lidsabiedrība",
+                      "from":  "A2",
+                      "to":  "B1",
+                      "file":  "data/a2.js",
+                      "startLine":  33753,
+                      "endLine":  33757,
+                      "studyId":  "",
+                      "reasons":  "long_compound, abstract_B1"
+                  },
+                  {
+                      "de":  "das Gehalt",
+                      "lv":  "alga",
+                      "from":  "A2",
+                      "to":  "B1",
+                      "file":  "data/a2.js",
+                      "startLine":  35618,
+                      "endLine":  35622,
+                      "studyId":  "",
+                      "reasons":  "B1_marker, B1_pattern"
+                  },
+                  {
+                      "de":  "Kollege",
+                      "lv":  "Kolēģis",
+                      "from":  "A2",
+                      "to":  "B1",
+                      "file":  "data/a2.js",
+                      "startLine":  42547,
+                      "endLine":  42551,
+                      "studyId":  "",
+                      "reasons":  "B1_marker, B1_pattern"
+                  },
+                  {
+                      "de":  "der Kollege",
+                      "lv":  "Kolēģis",
+                      "from":  "A2",
+                      "to":  "B1",
+                      "file":  "data/a2.js",
+                      "startLine":  45110,
+                      "endLine":  45114,
+                      "studyId":  "",
+                      "reasons":  "B1_marker, B1_pattern"
+                  },
+                  {
+                      "de":  "die Landschaft",
+                      "lv":  "Ainava",
+                      "from":  "A2",
+                      "to":  "B1",
+                      "file":  "data/a2.js",
+                      "startLine":  45240,
+                      "endLine":  45244,
+                      "studyId":  "",
+                      "reasons":  "abstract_B1"
+                  },
+                  {
+                      "de":  "der Lohn",
+                      "lv":  "Alga",
+                      "from":  "A2",
+                      "to":  "B1",
+                      "file":  "data/a2.js",
+                      "startLine":  46619,
+                      "endLine":  46623,
+                      "studyId":  "",
+                      "reasons":  "B1_marker"
+                  },
+                  {
+                      "de":  "die Mannschaft",
+                      "lv":  "Komanda",
+                      "from":  "A2",
+                      "to":  "B1",
+                      "file":  "data/a2.js",
+                      "startLine":  46694,
+                      "endLine":  46698,
+                      "studyId":  "",
+                      "reasons":  "abstract_B1"
+                  },
+                  {
+                      "de":  "die Möglichkeit",
+                      "lv":  "Iespēja",
+                      "from":  "A2",
+                      "to":  "B1",
+                      "file":  "data/a2.js",
+                      "startLine":  47925,
+                      "endLine":  47929,
+                      "studyId":  "",
+                      "reasons":  "abstract_B1"
+                  },
+                  {
+                      "de":  "organisieren",
+                      "lv":  "organizēt",
+                      "from":  "A2",
+                      "to":  "B1",
+                      "file":  "data/a2.js",
+                      "startLine":  49408,
+                      "endLine":  49412,
+                      "studyId":  "",
+                      "reasons":  "B1_marker, B1_pattern"
+                  },
+                  {
+                      "de":  "die Rechtschreibung",
+                      "lv":  "Pareizrakstība",
+                      "from":  "A2",
+                      "to":  "B1",
+                      "file":  "data/a2.js",
+                      "startLine":  51409,
+                      "endLine":  51413,
+                      "studyId":  "",
+                      "reasons":  "abstract_B1"
+                  },
+                  {
+                      "de":  "die Sehenswürdigkeit",
+                      "lv":  "ievērojama vieta",
+                      "from":  "A2",
+                      "to":  "B1",
+                      "file":  "data/a2.js",
+                      "startLine":  56503,
+                      "endLine":  56507,
+                      "studyId":  "",
+                      "reasons":  "long_compound, abstract_B1"
+                  },
+                  {
+                      "de":  "die Steuer",
+                      "lv":  "nodoklis",
+                      "from":  "A2",
+                      "to":  "B1",
+                      "file":  "data/a2.js",
+                      "startLine":  59539,
+                      "endLine":  59543,
+                      "studyId":  "",
+                      "reasons":  "B1_marker, B1_pattern"
+                  },
+                  {
+                      "de":  "das Steuer",
+                      "lv":  "stūre",
+                      "from":  "A2",
+                      "to":  "B1",
+                      "file":  "data/a2.js",
+                      "startLine":  59544,
+                      "endLine":  59548,
+                      "studyId":  "",
+                      "reasons":  "B1_marker, B1_pattern"
+                  },
+                  {
+                      "de":  "die Straßenkreuzung",
+                      "lv":  "ielu krustojums",
+                      "from":  "A2",
+                      "to":  "B1",
+                      "file":  "data/a2.js",
+                      "startLine":  60383,
+                      "endLine":  60387,
+                      "studyId":  "",
+                      "reasons":  "abstract_B1"
+                  },
+                  {
+                      "de":  "verbessern",
+                      "lv":  "Uzlabot • Izlabot",
+                      "from":  "A2",
+                      "to":  "B1",
+                      "file":  "data/a2.js",
+                      "startLine":  64614,
+                      "endLine":  64618,
+                      "studyId":  "",
+                      "reasons":  "advanced_verb, B1_marker, B1_pattern"
+                  },
+                  {
+                      "de":  "vorschlagen",
+                      "lv":  "ierosināt",
+                      "from":  "A2",
+                      "to":  "B1",
+                      "file":  "data/a2.js",
+                      "startLine":  66156,
+                      "endLine":  66160,
+                      "studyId":  "",
+                      "reasons":  "advanced_verb, B1_marker, B1_pattern"
+                  },
+                  {
+                      "de":  "die Wahl",
+                      "lv":  "Izvēle",
+                      "from":  "A2",
+                      "to":  "B1",
+                      "file":  "data/a2.js",
+                      "startLine":  66641,
+                      "endLine":  67098,
+                      "studyId":  "",
+                      "reasons":  "B1_marker, B1_pattern"
+                  }
+              ]
+}

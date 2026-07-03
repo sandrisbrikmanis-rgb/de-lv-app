@@ -1,0 +1,31 @@
+{
+  "name": "de-lv-app_main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "groups.js",
+  "scripts": {
+    "sync:www": "powershell -ExecutionPolicy Bypass -File ./scripts/sync-web-to-www.ps1",
+    "assets:prepare": "powershell -ExecutionPolicy Bypass -File ./scripts/prepare-assets.ps1",
+    "assets:normalize": "node ./scripts/normalize-pwa-icons.js",
+    "assets:generate": "npm run assets:prepare && npx capacitor-assets generate --pwaManifestPath manifest.json --splashBackgroundColor \"#0f172a\" --iconBackgroundColor \"#0f172a\" && npm run assets:normalize",
+    "assets:sync": "npm run sync:www",
+    "cap:sync": "npm run sync:www && npx cap sync",
+    "cap:copy": "npm run sync:www && npx cap copy",
+    "cap:android": "npx cap open android",
+    "cap:ios": "npx cap open ios",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@capacitor/android": "^8.4.1",
+    "@capacitor/core": "^8.4.1",
+    "@capacitor/ios": "^8.4.1"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^8.4.1"
+  }
+}

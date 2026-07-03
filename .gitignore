@@ -1,0 +1,38 @@
+# Node.js
+node_modules/
+npm-debug.log*
+package-lock.json.bak
+
+# OneDrive / Windows sinhronizācijas artefakti
+desktop.ini
+Thumbs.db
+ehthumbs.db
+~$*
+*.lnk
+
+# OneDrive konfliktu kopijas
+*- Conflict*
+*.sync-conflict-*
+
+# macOS
+.DS_Store
+
+# Vietējie audit izvadi (nav daļa no produkta)
+audits_and_reports/*.txt
+
+# IDE
+.vscode/
+.idea/
+
+# Sensitīvie faili
+.env
+.env.*
+*.keystore
+*.jks
+
+# Build artefakti (papildus android/ios .gitignore)
+android/app/build/
+android/.gradle/
+ios/App/build/
+ios/App/Pods/
+ios/DerivedData/

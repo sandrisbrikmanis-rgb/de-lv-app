@@ -1,0 +1,8 @@
+node_modules/
+scripts/
+audits_and_reports/
+docs_and_rules/
+package.json
+package-lock.json
+ios/
+android/

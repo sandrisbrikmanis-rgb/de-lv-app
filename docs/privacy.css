@@ -1,0 +1,152 @@
+:root {
+  color-scheme: light;
+  --bg: #f5f7fb;
+  --panel: #ffffff;
+  --ink: #162033;
+  --muted: #667085;
+  --line: #d9e0ea;
+  --primary: #1f6feb;
+  --primary-dark: #195bc2;
+  --good: #14854c;
+  --soft: #eef4ff;
+  --shadow: 0 18px 45px rgba(22, 32, 51, 0.11);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background:
+    linear-gradient(135deg, rgba(31, 111, 235, 0.09), transparent 35%),
+    linear-gradient(315deg, rgba(20, 133, 76, 0.08), transparent 34%),
+    var(--bg);
+  color: var(--ink);
+  line-height: 1.6;
+}
+
+.privacy-main {
+  width: min(760px, calc(100% - 28px));
+  margin: 0 auto;
+  padding: 28px 0 48px;
+}
+
+.privacy-panel {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  padding: 28px 24px;
+}
+
+.privacy-header {
+  margin-bottom: 24px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid var(--line);
+}
+
+.privacy-header h1 {
+  margin: 0 0 8px;
+  font-size: clamp(1.5rem, 4vw, 1.9rem);
+  line-height: 1.25;
+}
+
+.privacy-meta {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.privacy-highlight {
+  background: var(--soft);
+  border: 1px solid rgba(31, 111, 235, 0.22);
+  border-left: 4px solid var(--primary);
+  border-radius: 8px;
+  padding: 18px 20px;
+  margin: 0 0 24px;
+}
+
+.privacy-highlight strong {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--primary-dark);
+  font-size: 1.05rem;
+}
+
+.privacy-highlight ul {
+  margin: 10px 0 0;
+  padding-left: 1.25rem;
+}
+
+.privacy-highlight li {
+  margin-bottom: 6px;
+}
+
+.privacy-panel h2 {
+  margin: 28px 0 10px;
+  font-size: 1.15rem;
+  color: var(--ink);
+}
+
+.privacy-panel h2:first-of-type {
+  margin-top: 0;
+}
+
+.privacy-panel p,
+.privacy-panel li {
+  color: var(--ink);
+}
+
+.privacy-panel ul {
+  margin: 8px 0 0;
+  padding-left: 1.25rem;
+}
+
+.privacy-panel li {
+  margin-bottom: 6px;
+}
+
+.privacy-panel a {
+  color: var(--primary);
+}
+
+.privacy-panel a:hover {
+  color: var(--primary-dark);
+}
+
+.privacy-contact {
+  margin-top: 8px;
+  padding: 16px 18px;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.privacy-contact p {
+  margin: 0 0 6px;
+}
+
+.privacy-contact p:last-child {
+  margin-bottom: 0;
+}
+
+.privacy-footer {
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+  .privacy-panel {
+    padding: 22px 18px;
+  }
+
+  .privacy-highlight {
+    padding: 16px;
+  }
+}

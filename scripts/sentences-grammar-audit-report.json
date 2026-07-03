@@ -1,0 +1,2190 @@
+{
+    "baselineAudit":  {
+                          "comma_synonym":  38,
+                          "de_orthography":  2,
+                          "semicolon_in_lv":  0,
+                          "bracket_artifact":  0
+                      },
+    "entries":  [
+                    {
+                        "de":  "Hüte dich davor!",
+                        "lv":  "Sargies no tā!"
+                    },
+                    {
+                        "de":  "Wenn nichts dazwischenkommt.",
+                        "lv":  "Ja nekas netraucē. • Ja viss noritēs pēc plāna."
+                    },
+                    {
+                        "de":  "Das kann ich mir denken!",
+                        "lv":  "To es gan zinu!"
+                    },
+                    {
+                        "de":  "Ist er denn krank?",
+                        "lv":  "Vai tad viņš ir slims?"
+                    },
+                    {
+                        "de":  "Was denn?",
+                        "lv":  "Ko tad?"
+                    },
+                    {
+                        "de":  "Desto mehr.",
+                        "lv":  "Jo vairāk."
+                    },
+                    {
+                        "de":  "Je mehr, desto besser.",
+                        "lv":  "Jo vairāk, jo labāk."
+                    },
+                    {
+                        "de":  "Alles deutet auf Regen.",
+                        "lv":  "Viss liecina par lietu."
+                    },
+                    {
+                        "de":  "Damit ist mir wenig gedient.",
+                        "lv":  "No tā man maza jēga."
+                    },
+                    {
+                        "de":  "Er ist dienstlich verhindert.",
+                        "lv":  "Viņš nevar ierasties darba dēļ."
+                    },
+                    {
+                        "de":  "Sprechen Sie doch!",
+                        "lv":  "Runājiet jel!"
+                    },
+                    {
+                        "de":  "Es donnert.",
+                        "lv":  "Pērkons rūc."
+                    },
+                    {
+                        "de":  "Doppelt so groß.",
+                        "lv":  "Divtik liels."
+                    },
+                    {
+                        "de":  "Von dort.",
+                        "lv":  "No turienes."
+                    },
+                    {
+                        "de":  "Die Zeit drängt.",
+                        "lv":  "Laiks steidz."
+                    },
+                    {
+                        "de":  "Ihn drücken Sorgen.",
+                        "lv":  "Viņu nomāc rūpes."
+                    },
+                    {
+                        "de":  "Hast du das Buch durchgearbeitet?",
+                        "lv":  "Vai tu esi rūpīgi izgājis cauri grāmatai?"
+                    },
+                    {
+                        "de":  "Kein Durchgang!",
+                        "lv":  "Cauri neiet! • Izeja aizvērta!"
+                    },
+                    {
+                        "de":  "Darf ich Sie bitten?",
+                        "lv":  "Vai es drīkstu jūs lūgt?"
+                    },
+                    {
+                        "de":  "Ich bin durstig.",
+                        "lv":  "Man slāpst."
+                    },
+                    {
+                        "de":  "Eben das meine ich.",
+                        "lv":  "Tieši to es domāju."
+                    },
+                    {
+                        "de":  "Es ist ganz egal.",
+                        "lv":  "Tas ir pilnīgi vienalga."
+                    },
+                    {
+                        "de":  "Was wollen Sie eigentlich?",
+                        "lv":  "Ko jūs īsti gribat?"
+                    },
+                    {
+                        "de":  "Eilt es mit dieser Sache?",
+                        "lv":  "Vai šī lieta steidzama?"
+                    },
+                    {
+                        "de":  "Eilt sehr!",
+                        "lv":  "Ļoti steidzami!"
+                    },
+                    {
+                        "de":  "Ich habe es eilig.",
+                        "lv":  "Es steidzos."
+                    },
+                    {
+                        "de":  "Du bildest dir nur ein, krank zu sein.",
+                        "lv":  "Tu tikai iedomājies, ka esi slims."
+                    },
+                    {
+                        "de":  "Was fällt dir ein?",
+                        "lv":  "Kas tev nāk prātā?"
+                    },
+                    {
+                        "de":  "Es war einmal.",
+                        "lv":  "Reiz bija."
+                    },
+                    {
+                        "de":  "Steigen Sie bitte ein!",
+                        "lv":  "Lūdzu, iekāpiet!"
+                    },
+                    {
+                        "de":  "Treten Sie ein!",
+                        "lv":  "Lūdzu, nāciet iekšā!"
+                    },
+                    {
+                        "de":  "Einzelnes hat mir dort gefallen.",
+                        "lv":  "Dažas lietas man tur patika."
+                    },
+                    {
+                        "de":  "Es empfiehlt sich.",
+                        "lv":  "Ir ieteicams."
+                    },
+                    {
+                        "de":  "Diese Flasche enthält Essig.",
+                        "lv":  "Šai pudelē ir etiķis."
+                    },
+                    {
+                        "de":  "Entschuldigen Sie bitte!",
+                        "lv":  "Atvainojiet, lūdzu!"
+                    },
+                    {
+                        "de":  "Entweder ... oder ...",
+                        "lv":  "Vai nu... vai..."
+                    },
+                    {
+                        "de":  "Wer war der Erste?",
+                        "lv":  "Kurš bija pirmais?"
+                    },
+                    {
+                        "de":  "Wer fehlt heute?",
+                        "lv":  "Kas šodien nav ieradies?"
+                    },
+                    {
+                        "de":  "Was fehlt dir?",
+                        "lv":  "Kas tev kait?"
+                    },
+                    {
+                        "de":  "Wie heißen Sie?",
+                        "lv":  "Kā jūs sauc?"
+                    },
+                    {
+                        "de":  "Was soll das heißen?",
+                        "lv":  "Ko tas nozīmē?"
+                    },
+                    {
+                        "de":  "Bitte treten Sie näher heran!",
+                        "lv":  "Lūdzu, nāciet tuvāk!"
+                    },
+                    {
+                        "de":  "Heraus mit der Sprache!",
+                        "lv":  "Runā! • Stāsti!"
+                    },
+                    {
+                        "de":  "im Herbst",
+                        "lv":  "rudenī"
+                    },
+                    {
+                        "de":  "Meine Herrschaften!",
+                        "lv":  "Kungi un dāmas!"
+                    },
+                    {
+                        "de":  "von heute an",
+                        "lv":  "sākot ar šodienu"
+                    },
+                    {
+                        "de":  "heute früh",
+                        "lv":  "šorīt"
+                    },
+                    {
+                        "de":  "heute Nacht",
+                        "lv":  "šonakt"
+                    },
+                    {
+                        "de":  "Zu Hilfe!",
+                        "lv":  "Palīgā!"
+                    },
+                    {
+                        "de":  "Ich lerne jeden Tag Deutsch.",
+                        "lv":  "Es katru dienu mācos vācu valodu."
+                    },
+                    {
+                        "de":  "Kannst du das bitte wiederholen?",
+                        "lv":  "Vai vari, lūdzu, to atkārtot?"
+                    },
+                    {
+                        "de":  "Wir treffen uns am Bahnhof.",
+                        "lv":  "Mēs tiekamies dzelzceļa stacijā."
+                    },
+                    {
+                        "de":  "Ich stimme dir teilweise zu.",
+                        "lv":  "Es tev daļēji piekrītu."
+                    },
+                    {
+                        "de":  "Diese Entscheidung hat weitreichende Folgen.",
+                        "lv":  "Šim lēmumam ir tālejošas sekas."
+                    },
+                    {
+                        "de":  "Man sollte mehrere Perspektiven berücksichtigen.",
+                        "lv":  "Vajadzētu ņemt vērā vairākas perspektīvas."
+                    },
+                    {
+                        "de":  "Könnten Sie das näher erläutern?",
+                        "lv":  "Vai jūs varētu to paskaidrot sīkāk?"
+                    },
+                    {
+                        "de":  "Was mich anbelangt, ...",
+                        "lv":  "Kas attiecas uz mani,..."
+                    },
+                    {
+                        "de":  "Wie alt sind Sie?",
+                        "lv":  "Cik jums gadu?"
+                    },
+                    {
+                        "de":  "Ich bin zwanzig Jahre alt.",
+                        "lv":  "Man ir divdesmit gadu."
+                    },
+                    {
+                        "de":  "Von heute an.",
+                        "lv":  "No šodienas."
+                    },
+                    {
+                        "de":  "Von jetzt an.",
+                        "lv":  "No šī brīža."
+                    },
+                    {
+                        "de":  "Anders geht es nicht.",
+                        "lv":  "Citādi nevar."
+                    },
+                    {
+                        "de":  "Rufen Sie mich an.",
+                        "lv":  "Piezvaniet man."
+                    },
+                    {
+                        "de":  "Bitte stellen Sie das Radio ab.",
+                        "lv":  "Lūdzu, izslēdziet radio."
+                    },
+                    {
+                        "de":  "Achte bitte auf den Verkehr.",
+                        "lv":  "Lūdzu, pievērs uzmanību satiksmei."
+                    },
+                    {
+                        "de":  "Darauf musst du achten.",
+                        "lv":  "Tam tev jāpievērš uzmanība."
+                    },
+                    {
+                        "de":  "Heute mache ich es anders.",
+                        "lv":  "Šodien es to darīšu citādi."
+                    },
+                    {
+                        "de":  "Wir warten auf den Bus.",
+                        "lv":  "Mēs gaidām autobusu."
+                    },
+                    {
+                        "de":  "Er wohnt allein.",
+                        "lv":  "Viņš dzīvo viens."
+                    },
+                    {
+                        "de":  "Ich habe die Ausbildung absolviert.",
+                        "lv":  "Es pabeidzu apmācību. • Es pabeidzu izglītību."
+                    },
+                    {
+                        "de":  "Ich warte den Regen ab.",
+                        "lv":  "Es nogaidīšu, kamēr lietus pārtiks."
+                    },
+                    {
+                        "de":  "Er arbeitet in der Verkaufsabteilung.",
+                        "lv":  "Viņš strādā pārdošanas nodaļā."
+                    },
+                    {
+                        "de":  "Ich bin allergisch gegen Katzen.",
+                        "lv":  "Man ir alerģija pret kaķiem."
+                    },
+                    {
+                        "de":  "Andererseits verstehe ich ihn.",
+                        "lv":  "No otras puses, es viņu saprotu."
+                    },
+                    {
+                        "de":  "Ich habe die Situation analysiert.",
+                        "lv":  "Es izanalizēju situāciju."
+                    },
+                    {
+                        "de":  "Sie hat meinen Vorschlag akzeptiert.",
+                        "lv":  "Viņa pieņēma manu priekšlikumu."
+                    },
+                    {
+                        "de":  "Ich möchte das genauer analysieren.",
+                        "lv":  "Es vēlos to analizēt precīzāk."
+                    },
+                    {
+                        "de":  "Ich möchte den Vertrag ändern.",
+                        "lv":  "Es vēlos mainīt līgumu."
+                    },
+                    {
+                        "de":  "Er ändert ständig seine Meinung.",
+                        "lv":  "Viņš pastāvīgi maina savu viedokli."
+                    },
+                    {
+                        "de":  "Ähnliche Probleme hatten wir schon früher.",
+                        "lv":  "Līdzīgas problēmas mums jau bija agrāk."
+                    },
+                    {
+                        "de":  "Keine Ahnung!",
+                        "lv":  "Nav ne jausmas!"
+                    },
+                    {
+                        "de":  "Hör auf zu jammern.",
+                        "lv":  "Beidz žēloties."
+                    },
+                    {
+                        "de":  "Dieses Kleid ist akademisch gekleidet.",
+                        "lv":  "Šī kleita ir stilīgi konservatīva."
+                    },
+                    {
+                        "de":  "Ich höre gerne Akkordeonmusik.",
+                        "lv":  "Man patīk klausīties akordeona mūziku."
+                    },
+                    {
+                        "de":  "Kannst du das Gerät anklicken?",
+                        "lv":  "Vai vari uzklikšķināt uz ierīces?"
+                    },
+                    {
+                        "de":  "Bitte öffne die Datei und klicke darauf.",
+                        "lv":  "Lūdzu, atver failu un uzklikšķini uz tā."
+                    },
+                    {
+                        "de":  "Ich habe einen Unfall gehabt.",
+                        "lv":  "Es ciemu negadījumā."
+                    },
+                    {
+                        "de":  "Wir laufen zum Bahnhof.",
+                        "lv":  "Mēs ejam uz staciju."
+                    },
+                    {
+                        "de":  "Bitte schalte den Fernseher an.",
+                        "lv":  "Lūdzu, ieslēdz televizoru."
+                    },
+                    {
+                        "de":  "Mein Computer ist abgestürzt.",
+                        "lv":  "Mans dators ir avarējis."
+                    },
+                    {
+                        "de":  "Am Wochenende gehe ich angeln.",
+                        "lv":  "Nedēļas nogalē es iešu makšķerēt."
+                    },
+                    {
+                        "de":  "Ich habe den Anruf verpasst.",
+                        "lv":  "Es nokavēju zvanu."
+                    },
+                    {
+                        "de":  "Kannst du mich später anrufen?",
+                        "lv":  "Vai vari man piezvanīt vēlāk?"
+                    },
+                    {
+                        "de":  "Bitte nimm meinen Vorschlag an.",
+                        "lv":  "Lūdzu, pieņem manu priekšlikumu."
+                    },
+                    {
+                        "de":  "Ich nehme dein Angebot an.",
+                        "lv":  "Es pieņemu tavu piedāvājumu."
+                    },
+                    {
+                        "de":  "Er nahm die Einladung an.",
+                        "lv":  "Viņš pieņēma uzaicinājumu."
+                    },
+                    {
+                        "de":  "Ich habe Angst vor Spinnen.",
+                        "lv":  "Man ir bail no zirnekļiem."
+                    },
+                    {
+                        "de":  "Keine Angst, alles wird gut.",
+                        "lv":  "Nebaidies, viss būs labi."
+                    },
+                    {
+                        "de":  "Anklang finden.",
+                        "lv":  "Rast atbalsi. • Atrast atsaucību"
+                    },
+                    {
+                        "de":  "Es kommt darauf an.",
+                        "lv":  "Tas ir atkarīgs no tā."
+                    },
+                    {
+                        "de":  "Aus diesem Anlass.",
+                        "lv":  "Šīs reizes dēļ. • Šajā sakarā"
+                    },
+                    {
+                        "de":  "Nehmen wir an, dass ...",
+                        "lv":  "Pieņemsim, ka..."
+                    },
+                    {
+                        "de":  "Was hast du da angerichtet?",
+                        "lv":  "Ko tu tur esi izdarījis?"
+                    },
+                    {
+                        "de":  "Bis ans Ende.",
+                        "lv":  "Līdz galam."
+                    },
+                    {
+                        "de":  "Du glaubst mir anscheinend nicht.",
+                        "lv":  "Šķiet, ka tu man netici."
+                    },
+                    {
+                        "de":  "Meiner Ansicht nach ...",
+                        "lv":  "Pēc manām domām..."
+                    },
+                    {
+                        "de":  "Stell dich nicht so an!",
+                        "lv":  "Neizliecies!"
+                    },
+                    {
+                        "de":  "An die Arbeit gehen.",
+                        "lv":  "Ķerties pie darba."
+                    },
+                    {
+                        "de":  "Außer Atem sein.",
+                        "lv":  "Būt bez elpas."
+                    },
+                    {
+                        "de":  "Guten Appetit!",
+                        "lv":  "Labu apetīti!"
+                    },
+                    {
+                        "de":  "In einem Atemzug.",
+                        "lv":  "Vienā elpas vilcienā."
+                    },
+                    {
+                        "de":  "Auf jeden Fall.",
+                        "lv":  "Katrā gadījumā."
+                    },
+                    {
+                        "de":  "Auf einmal war alles still.",
+                        "lv":  "Pēkšņi viss kļuva kluss."
+                    },
+                    {
+                        "de":  "Bitte mach die Tür auf!",
+                        "lv":  "Atver, lūdzu, durvis!"
+                    },
+                    {
+                        "de":  "Er hat den Kredit aufgenommen.",
+                        "lv":  "Viņš ņēma kredītu."
+                    },
+                    {
+                        "de":  "Wir müssen heute aufräumen.",
+                        "lv":  "Mums šodien jāsakārto telpa."
+                    },
+                    {
+                        "de":  "Ich höre jetzt auf.",
+                        "lv":  "Es tagad beigšu."
+                    },
+                    {
+                        "de":  "Er ist schon auf.",
+                        "lv":  "Viņš jau ir piecēlies."
+                    },
+                    {
+                        "de":  "Wir müssen das Treffen verschieben.",
+                        "lv":  "Mums jāpārceļ tikšanās."
+                    },
+                    {
+                        "de":  "Sie hat mich aufgeregt.",
+                        "lv":  "Viņa mani aizkaitināja."
+                    },
+                    {
+                        "de":  "Auf einmal.",
+                        "lv":  "Pēkšņi."
+                    },
+                    {
+                        "de":  "Auf der Stelle.",
+                        "lv":  "Nekavējoties."
+                    },
+                    {
+                        "de":  "Für den Schaden aufkommen.",
+                        "lv":  "Segt nodarītos zaudējumus."
+                    },
+                    {
+                        "de":  "Bitte die Tür auf!",
+                        "lv":  "Atveriet, lūdzu, durvis!"
+                    },
+                    {
+                        "de":  "Aufrecht sitzen.",
+                        "lv":  "Sēdēt taisni."
+                    },
+                    {
+                        "de":  "Er ist auf.",
+                        "lv":  "Viņš ir piecēlies."
+                    },
+                    {
+                        "de":  "Alle Kräfte aufwenden.",
+                        "lv":  "Veltīt visus spēkus."
+                    },
+                    {
+                        "de":  "Viel Mühe aufwenden.",
+                        "lv":  "Ļoti pūlēties."
+                    },
+                    {
+                        "de":  "Geh mir aus den Augen!",
+                        "lv":  "Nerādies man vairs acīs!"
+                    },
+                    {
+                        "de":  "Unter vier Augen.",
+                        "lv":  "Divatā. • Klusi"
+                    },
+                    {
+                        "de":  "Aus Mangel an Zeit.",
+                        "lv":  "Laika trūkuma dēļ."
+                    },
+                    {
+                        "de":  "Aus diesem Grunde.",
+                        "lv":  "Šā iemesla dēļ."
+                    },
+                    {
+                        "de":  "Alle außer dir.",
+                        "lv":  "Visi, izņemot tevi."
+                    },
+                    {
+                        "de":  "Auf Äußerlichkeiten Wert legen.",
+                        "lv":  "Piešķirt nozīmi ārienei."
+                    },
+                    {
+                        "de":  "Im äußersten Fall.",
+                        "lv":  "Visļaunākajā gadījumā."
+                    },
+                    {
+                        "de":  "Äußerst wichtig.",
+                        "lv":  "Ārkārtīgi svarīgs."
+                    },
+                    {
+                        "de":  "Aussicht auf die See.",
+                        "lv":  "Skats uz jūru."
+                    },
+                    {
+                        "de":  "Er hat gute Aussichten.",
+                        "lv":  "Viņam ir labas izredzes."
+                    },
+                    {
+                        "de":  "Wie wird dieses Wort ausgesprochen?",
+                        "lv":  "Kā šo vārdu izrunā?"
+                    },
+                    {
+                        "de":  "Sein Beileid aussprechen.",
+                        "lv":  "Izteikt līdzjūtību."
+                    },
+                    {
+                        "de":  "Wann wurden die Meisterschaftskämpfe ausgetragen?",
+                        "lv":  "Kad notika čempionāts?"
+                    },
+                    {
+                        "de":  "Welchen Beruf üben Sie aus?",
+                        "lv":  "Kāda jums ir profesija?"
+                    },
+                    {
+                        "de":  "Einfluss ausüben.",
+                        "lv":  "Ietekmēt."
+                    },
+                    {
+                        "de":  "Auswärts essen.",
+                        "lv":  "Ēst ārpus mājas."
+                    },
+                    {
+                        "de":  "Per Bahn.",
+                        "lv":  "Pa dzelzceļu."
+                    },
+                    {
+                        "de":  "Mit der Bahn.",
+                        "lv":  "Pa dzelzceļu."
+                    },
+                    {
+                        "de":  "Möglichst bald.",
+                        "lv":  "Pēc iespējas drīzāk."
+                    },
+                    {
+                        "de":  "Mir ist Angst und bange.",
+                        "lv":  "Man bail un bail."
+                    },
+                    {
+                        "de":  "Auf die lange Bank schieben.",
+                        "lv":  "Novilcināt. • Vilkt garumā • Atlikt uz nenoteiktu laiku"
+                    },
+                    {
+                        "de":  "Bar zahlen.",
+                        "lv":  "Maksāt skaidrā naudā."
+                    },
+                    {
+                        "de":  "Erz bauen.",
+                        "lv":  "Iegūt rūdu."
+                    },
+                    {
+                        "de":  "Mist bauen.",
+                        "lv":  "Sastrēlēt. • Izdarīt blēni"
+                    },
+                    {
+                        "de":  "Ich bin beauftragt.",
+                        "lv":  "Man ir uzdots darbs."
+                    },
+                    {
+                        "de":  "Nach Bedarf.",
+                        "lv":  "Pēc vajadzības."
+                    },
+                    {
+                        "de":  "Ich bedauere ihn.",
+                        "lv":  "Man viņa žēl."
+                    },
+                    {
+                        "de":  "Was bedeutet dieses Wort?",
+                        "lv":  "Ko nozīmē šis vārds?"
+                    },
+                    {
+                        "de":  "Unter der Bedingung, dass...",
+                        "lv":  "Ar noteikumu, ka..."
+                    },
+                    {
+                        "de":  "Sie sieht bedrückt aus.",
+                        "lv":  "Viņa izskatās nomākta."
+                    },
+                    {
+                        "de":  "Hinweise befolgen.",
+                        "lv":  "Sekot norādījumiem."
+                    },
+                    {
+                        "de":  "Befehle befolgen.",
+                        "lv":  "Pildīt pavēles."
+                    },
+                    {
+                        "de":  "Mit der Post befördern.",
+                        "lv":  "Aizsūtīt pa pastu."
+                    },
+                    {
+                        "de":  "Ich bin begierig zu wissen.",
+                        "lv":  "Man ļoti gribas zināt."
+                    },
+                    {
+                        "de":  "Zu Beginn.",
+                        "lv":  "Sākumā."
+                    },
+                    {
+                        "de":  "Am Beginn.",
+                        "lv":  "Sākumā."
+                    },
+                    {
+                        "de":  "Bei Beginn.",
+                        "lv":  "Sākot."
+                    },
+                    {
+                        "de":  "In Begleitung.",
+                        "lv":  "Pavadībā."
+                    },
+                    {
+                        "de":  "Mit seiner Begleitung.",
+                        "lv":  "Ar pavadību."
+                    },
+                    {
+                        "de":  "Er ist schwer von Begriff.",
+                        "lv":  "Viņš lēni uztver. • Viņam ir gausa domāšana"
+                    },
+                    {
+                        "de":  "Im Gedächtnis behalten.",
+                        "lv":  "Atcerēties. • Paturēt atmiņā"
+                    },
+                    {
+                        "de":  "Bei Tisch.",
+                        "lv":  "Pie galda."
+                    },
+                    {
+                        "de":  "Bei Sinnen sein.",
+                        "lv":  "Būt pie pilna prāta."
+                    },
+                    {
+                        "de":  "Bei Tage.",
+                        "lv":  "Dienas laikā."
+                    },
+                    {
+                        "de":  "Bei weitem nicht so.",
+                        "lv":  "Nepavisam ne."
+                    },
+                    {
+                        "de":  "Alle beide.",
+                        "lv":  "Abi divi."
+                    },
+                    {
+                        "de":  "Stürmischer Beifall brach los.",
+                        "lv":  "Atskanēja vētraini aplausi."
+                    },
+                    {
+                        "de":  "Beifall finden.",
+                        "lv":  "Gūt piekrišanu."
+                    },
+                    {
+                        "de":  "Beileid aussprechen.",
+                        "lv":  "Izteikt līdzjūtību."
+                    },
+                    {
+                        "de":  "Auf eigenen Beinen stehen.",
+                        "lv":  "Būt finansiāli patstāvīgam."
+                    },
+                    {
+                        "de":  "Zum Beispiel.",
+                        "lv":  "Piemēram."
+                    },
+                    {
+                        "de":  "Beistand leisten.",
+                        "lv":  "Palīdzēt. • Sniegt palīdzību"
+                    },
+                    {
+                        "de":  "Beitrag leisten.",
+                        "lv":  "Ieguldīt savu daļu."
+                    },
+                    {
+                        "de":  "Jemandes Bekanntschaft machen.",
+                        "lv":  "Iepazīties ar kādu."
+                    },
+                    {
+                        "de":  "Bekanntschaft anknüpfen.",
+                        "lv":  "Iepazīties. • Nodibināt kontaktu"
+                    },
+                    {
+                        "de":  "Belegte Brötchen.",
+                        "lv":  "Sviestmaizes ar uzlikumiem."
+                    },
+                    {
+                        "de":  "Nach Ihrem Belieben.",
+                        "lv":  "Kā jūs vēlaties."
+                    },
+                    {
+                        "de":  "Zu jeder beliebigen Zeit.",
+                        "lv":  "Jebkurā laikā."
+                    },
+                    {
+                        "de":  "Schweigen beobachten.",
+                        "lv":  "Ievērot klusumu."
+                    },
+                    {
+                        "de":  "Zur Bequemlichkeit.",
+                        "lv":  "Ērtības labad."
+                    },
+                    {
+                        "de":  "Bereit sein.",
+                        "lv":  "Būt gatavam. • Būt ar mieru"
+                    },
+                    {
+                        "de":  "Unfallopfer bergen.",
+                        "lv":  "Glābt nelaimes gadījumā cietušos."
+                    },
+                    {
+                        "de":  "Bericht erstatten.",
+                        "lv":  "Ziņot. • Sniegt ziņojumu • Sniegt pārskatu"
+                    },
+                    {
+                        "de":  "Alle Plätze sind besetzt.",
+                        "lv":  "Visas vietas ir aizņemtas."
+                    },
+                    {
+                        "de":  "Neue Besen kehren gut.",
+                        "lv":  "Jauna slota labi slauka."
+                    },
+                    {
+                        "de":  "Er besitzt ein Haus.",
+                        "lv":  "Viņam pieder māja."
+                    },
+                    {
+                        "de":  "Er besitzt viel Mut.",
+                        "lv":  "Viņam ir liela drosme."
+                    },
+                    {
+                        "de":  "Desto besser.",
+                        "lv":  "Jo labāk."
+                    },
+                    {
+                        "de":  "Gute Besserung!",
+                        "lv":  "Veseļojieties!"
+                    },
+                    {
+                        "de":  "Beim besten Willen.",
+                        "lv":  "Lai kā arī gribētu."
+                    },
+                    {
+                        "de":  "Am besten.",
+                        "lv":  "Vislabāk."
+                    },
+                    {
+                        "de":  "Es besteht Zweifel.",
+                        "lv":  "Ir šaubas."
+                    },
+                    {
+                        "de":  "Seine Aufgabe besteht darin...",
+                        "lv":  "Viņa uzdevums ir..."
+                    },
+                    {
+                        "de":  "Grüße bestellen.",
+                        "lv":  "Pasveicināt."
+                    },
+                    {
+                        "de":  "Ganz bestimmt.",
+                        "lv":  "Noteikti. • Pavisam droši"
+                    },
+                    {
+                        "de":  "Zu Besuch kommen.",
+                        "lv":  "Nākt ciemos."
+                    },
+                    {
+                        "de":  "Zu Besuch sein.",
+                        "lv":  "Būt ciemos. • Ciemoties"
+                    },
+                    {
+                        "de":  "Oft Konzerte besuchen.",
+                        "lv":  "Bieži iet uz koncertiem."
+                    },
+                    {
+                        "de":  "Welche Schule hat er besucht?",
+                        "lv":  "Kurā skolā viņš mācījās?"
+                    },
+                    {
+                        "de":  "In Betracht ziehen.",
+                        "lv":  "Ņemt vērā. • Apsvērt"
+                    },
+                    {
+                        "de":  "Außer Betracht lassen.",
+                        "lv":  "Neņemt vērā. • Neapsvērt"
+                    },
+                    {
+                        "de":  "Er betreibt ein Hotel.",
+                        "lv":  "Viņš vada viesnīcu."
+                    },
+                    {
+                        "de":  "Alle beiden.",
+                        "lv":  "Abi divi."
+                    },
+                    {
+                        "de":  "Alles bezahlen.",
+                        "lv":  "Samaksāt visu."
+                    },
+                    {
+                        "de":  "Bezüglich auf etwas.",
+                        "lv":  "Attiecībā uz kaut ko."
+                    },
+                    {
+                        "de":  "Bitte schön.",
+                        "lv":  "Lūdzu."
+                    },
+                    {
+                        "de":  "Wie bitte?",
+                        "lv":  "Kā, lūdzu?"
+                    },
+                    {
+                        "de":  "Bitte sehr.",
+                        "lv":  "Lūdzu."
+                    },
+                    {
+                        "de":  "Ich habe eine Bitte an Sie.",
+                        "lv":  "Man ir lūgums jums."
+                    },
+                    {
+                        "de":  "Trompete blasen.",
+                        "lv":  "Pūst trompeti."
+                    },
+                    {
+                        "de":  "In einem Buch blättern.",
+                        "lv":  "Šķirstīt grāmatu."
+                    },
+                    {
+                        "de":  "Mit bloßen Füßen.",
+                        "lv":  "Kailām kājām."
+                    },
+                    {
+                        "de":  "Mit bloßem Auge.",
+                        "lv":  "Ar neapbruņotu aci."
+                    },
+                    {
+                        "de":  "Danke für die Blumen!",
+                        "lv":  "Paldies par ziediem!"
+                    },
+                    {
+                        "de":  "Alles in Butter.",
+                        "lv":  "Viss kārtībā."
+                    },
+                    {
+                        "de":  "Bitte checken.",
+                        "lv":  "Pārbaudīt. • Izkontrolēt"
+                    },
+                    {
+                        "de":  "Da ist er!",
+                        "lv":  "Te viņš ir!"
+                    },
+                    {
+                        "de":  "Alles spricht dafür.",
+                        "lv":  "Viss runā par labu."
+                    },
+                    {
+                        "de":  "Ich kann nichts dafür.",
+                        "lv":  "Es tur neko nevaru darīt."
+                    },
+                    {
+                        "de":  "Ich bin dagegen.",
+                        "lv":  "Es esmu pret to."
+                    },
+                    {
+                        "de":  "Ich habe nichts dagegen.",
+                        "lv":  "Man pret to nav iebildumu."
+                    },
+                    {
+                        "de":  "Von daheim.",
+                        "lv":  "No mājām."
+                    },
+                    {
+                        "de":  "Mit der Dame ziehen.",
+                        "lv":  "Veikt dāmas gājienu."
+                    },
+                    {
+                        "de":  "Es dämmert.",
+                        "lv":  "Krēslojas. • Aust rītausma."
+                    },
+                    {
+                        "de":  "Danke schön!",
+                        "lv":  "Paldies! • Pateicos!"
+                    },
+                    {
+                        "de":  "Dann und wann.",
+                        "lv":  "Šad un tad."
+                    },
+                    {
+                        "de":  "Darauf kannst du dich verlassen.",
+                        "lv":  "Uz to tu vari paļauties."
+                    },
+                    {
+                        "de":  "Daraus wird nichts.",
+                        "lv":  "No tā nekas neiznāks."
+                    },
+                    {
+                        "de":  "So dass...",
+                        "lv":  "Tā ka..."
+                    },
+                    {
+                        "de":  "Für wen halten Sie mich?",
+                        "lv":  "Par ko jūs mani uzskatāt?"
+                    },
+                    {
+                        "de":  "Hände weg!",
+                        "lv":  "Rokas nost!"
+                    },
+                    {
+                        "de":  "Lass den Kopf nicht hängen!",
+                        "lv":  "Nenolaid galvu!"
+                    },
+                    {
+                        "de":  "zu Hause",
+                        "lv":  "mājās"
+                    },
+                    {
+                        "de":  "nach Hause gehen",
+                        "lv":  "iet uz mājām"
+                    },
+                    {
+                        "de":  "von Haus aus",
+                        "lv":  "kopš bērnības • no pašiem sākumiem"
+                    },
+                    {
+                        "de":  "Meinen herzlichsten Glückwunsch!",
+                        "lv":  "Sirsnīgi apsveicu!"
+                    },
+                    {
+                        "de":  "Seien Sie so gut!",
+                        "lv":  "Esiet tik laipns! • Esiet tik labs!"
+                    },
+                    {
+                        "de":  "Haben Sie die Güte!",
+                        "lv":  "Esiet tik laipns!"
+                    },
+                    {
+                        "de":  "Was hast du?",
+                        "lv":  "Kas tev kait? • Kas noticis?"
+                    },
+                    {
+                        "de":  "Gestatten Sie bitte!",
+                        "lv":  "Atļaujiet, lūdzu!"
+                    },
+                    {
+                        "de":  "Ist es gestattet zu rauchen?",
+                        "lv":  "Vai drīkst smēķēt?"
+                    },
+                    {
+                        "de":  "Ich muss gestehen, dass...",
+                        "lv":  "Man jāatzīst, ka..."
+                    },
+                    {
+                        "de":  "gestern früh",
+                        "lv":  "vakar agri no rīta"
+                    },
+                    {
+                        "de":  "gestern Abend",
+                        "lv":  "vakar vakarā"
+                    },
+                    {
+                        "de":  "Es ist mir gleichgültig, ob...",
+                        "lv":  "Man ir vienalga, vai..."
+                    },
+                    {
+                        "de":  "Was ist geschehen?",
+                        "lv":  "Kas noticis?"
+                    },
+                    {
+                        "de":  "Mach keine Geschichten!",
+                        "lv":  "Netaisi muļķības! • Netaisi jokus!"
+                    },
+                    {
+                        "de":  "Geschweige denn...",
+                        "lv":  "Nemaz nerunājot par to. • Kur nu vēl"
+                    },
+                    {
+                        "de":  "Gehen Sie geradeaus!",
+                        "lv":  "Ejiet taisni uz priekšu!"
+                    },
+                    {
+                        "de":  "Wie geht es Ihnen?",
+                        "lv":  "Kā jums iet? • Kā klājas?"
+                    },
+                    {
+                        "de":  "Frag ihn gelegentlich, ob...",
+                        "lv":  "Pajautā viņam, ja iznāk, vai..."
+                    },
+                    {
+                        "de":  "morgen früh",
+                        "lv":  "rīt no rīta"
+                    },
+                    {
+                        "de":  "im Frühling",
+                        "lv":  "pavasarī"
+                    },
+                    {
+                        "de":  "Was gibt’s Neues?",
+                        "lv":  "Kas jauns?"
+                    },
+                    {
+                        "de":  "Aus diesem Brief folgt, dass...",
+                        "lv":  "No šīs vēstules izriet, ka..."
+                    },
+                    {
+                        "de":  "Fahre fort!",
+                        "lv":  "Turpini tāpat tālāk!"
+                    },
+                    {
+                        "de":  "Er ist kein Freund von...",
+                        "lv":  "Viņam nepatīk..."
+                    },
+                    {
+                        "de":  "Es erwies sich, dass...",
+                        "lv":  "Izrādījās, ka..."
+                    },
+                    {
+                        "de":  "Gedenkst du meiner?",
+                        "lv":  "Vai tu mani atceries? • Vai tu par mani iedomājies?"
+                    },
+                    {
+                        "de":  "im Winter",
+                        "lv":  "ziemā"
+                    },
+                    {
+                        "de":  "Welcher Jahrgang sind Sie?",
+                        "lv":  "Kādā gadā jūs esat dzimis?"
+                    },
+                    {
+                        "de":  "Es jammert mich zu sehen...",
+                        "lv":  "Žēl skatīties..."
+                    },
+                    {
+                        "de":  "je mehr, desto besser",
+                        "lv":  "jo vairāk, jo labāk"
+                    },
+                    {
+                        "de":  "bis jetzt",
+                        "lv":  "līdz šim brīdim"
+                    },
+                    {
+                        "de":  "Wie komme ich zum Bahnhof?",
+                        "lv":  "Kā nokļūt līdz stacijai?"
+                    },
+                    {
+                        "de":  "Komm her!",
+                        "lv":  "Nāc šurp!"
+                    },
+                    {
+                        "de":  "Könnte ich Frau N. sprechen?",
+                        "lv":  "Vai es varētu runāt ar N. kundzi?"
+                    },
+                    {
+                        "de":  "Was kostet das?",
+                        "lv":  "Cik tas maksā?"
+                    },
+                    {
+                        "de":  "Wie lange dauert die Vorstellung?",
+                        "lv":  "Cik ilgi ilgs priekšnesums?"
+                    },
+                    {
+                        "de":  "Lass das!",
+                        "lv":  "Izbeidz! • Atmet to!"
+                    },
+                    {
+                        "de":  "Lass mich in Ruhe!",
+                        "lv":  "Liec mani mierā!"
+                    },
+                    {
+                        "de":  "Lassen Sie mich Ihnen helfen!",
+                        "lv":  "Atļaujiet man jums palīdzēt!"
+                    },
+                    {
+                        "de":  "Lasst uns gehen!",
+                        "lv":  "Iesim!"
+                    },
+                    {
+                        "de":  "Na, wie läufts?",
+                        "lv":  "Kā klājas?"
+                    },
+                    {
+                        "de":  "Es lebe!",
+                        "lv":  "Lai dzīvo!"
+                    },
+                    {
+                        "de":  "Leben Sie wohl!",
+                        "lv":  "Dzīvojiet sveiki! • Ardievu!"
+                    },
+                    {
+                        "de":  "Was ist los?",
+                        "lv":  "Kas noticis?"
+                    },
+                    {
+                        "de":  "Halt die Luft an!",
+                        "lv":  "Tur elpu!"
+                    },
+                    {
+                        "de":  "Was machst du?",
+                        "lv":  "Ko tu dari?"
+                    },
+                    {
+                        "de":  "Sag mal!",
+                        "lv":  "Saki jel!"
+                    },
+                    {
+                        "de":  "Was meinen Sie damit?",
+                        "lv":  "Ko jūs ar to domājat? • Kā jūs to domājat?"
+                    },
+                    {
+                        "de":  "Wir gehen mit Ihnen.",
+                        "lv":  "Mēs ejam ar jums."
+                    },
+                    {
+                        "de":  "Ich fahre mit der Eisenbahn.",
+                        "lv":  "Es braucu ar vilcienu."
+                    },
+                    {
+                        "de":  "am Mittwoch",
+                        "lv":  "trešdien"
+                    },
+                    {
+                        "de":  "Es mag sein.",
+                        "lv":  "Varbūt."
+                    },
+                    {
+                        "de":  "Ich mag das nicht.",
+                        "lv":  "Man tas nepatīk."
+                    },
+                    {
+                        "de":  "am Montag",
+                        "lv":  "pirmdien"
+                    },
+                    {
+                        "de":  "Guten Morgen!",
+                        "lv":  "Labrīt!"
+                    },
+                    {
+                        "de":  "am Morgen",
+                        "lv":  "no rīta"
+                    },
+                    {
+                        "de":  "Gute Nacht!",
+                        "lv":  "Ar labu nakti!"
+                    },
+                    {
+                        "de":  "Nehmen Sie Platz!",
+                        "lv":  "Sēdieties!"
+                    },
+                    {
+                        "de":  "Letzte Neuheit!",
+                        "lv":  "Pēdējais jaunums!"
+                    },
+                    {
+                        "de":  "Nicht wahr?",
+                        "lv":  "Vai ne?"
+                    },
+                    {
+                        "de":  "Nicht doch!",
+                        "lv":  "Nē taču! • Nevajag!"
+                    },
+                    {
+                        "de":  "Nun endlich!",
+                        "lv":  "Nu beidzot!"
+                    },
+                    {
+                        "de":  "Wozu nützt das?",
+                        "lv":  "Kam tas noder?"
+                    },
+                    {
+                        "de":  "Wozu nützt das alles?",
+                        "lv":  "Kam tas viss?"
+                    },
+                    {
+                        "de":  "Parken verboten!",
+                        "lv":  "Stāvēšana aizliegta!"
+                    },
+                    {
+                        "de":  "Nicht parken!",
+                        "lv":  "Stāvēšana aizliegta!"
+                    },
+                    {
+                        "de":  "Er hat Recht.",
+                        "lv":  "Viņam ir taisnība."
+                    },
+                    {
+                        "de":  "Wovon ist die Rede?",
+                        "lv":  "Par ko ir runa?"
+                    },
+                    {
+                        "de":  "Davon kann keine Rede sein.",
+                        "lv":  "Par to nevar būt ne runas."
+                    },
+                    {
+                        "de":  "Glückliche Reise!",
+                        "lv":  "Laimīgu ceļu!"
+                    },
+                    {
+                        "de":  "Mir reißt die Geduld.",
+                        "lv":  "Man beidzas pacietība."
+                    },
+                    {
+                        "de":  "Man sagt, dass...",
+                        "lv":  "Saka, ka..."
+                    },
+                    {
+                        "de":  "Schon gut!",
+                        "lv":  "Ir jau labi!"
+                    },
+                    {
+                        "de":  "Danke schön!",
+                        "lv":  "Paldies! • Pateicos!"
+                    },
+                    {
+                        "de":  "Bitte schön!",
+                        "lv":  "Lūdzu!"
+                    },
+                    {
+                        "de":  "Was bin ich schuldig?",
+                        "lv":  "Cik es esmu parādā? • Cik man jāmaksā?"
+                    },
+                    {
+                        "de":  "Vor dem Gebrauch schütteln!",
+                        "lv":  "Pirms lietošanas sakratīt!"
+                    },
+                    {
+                        "de":  "Sehen Sie mal!",
+                        "lv":  "Paraugieties!"
+                    },
+                    {
+                        "de":  "Wie sehr auch...",
+                        "lv":  "Cik ļoti arī..."
+                    },
+                    {
+                        "de":  "Seit wann?",
+                        "lv":  "Kopš kura laika?"
+                    },
+                    {
+                        "de":  "Was soll ich tun?",
+                        "lv":  "Ko lai es daru?"
+                    },
+                    {
+                        "de":  "im Sommer",
+                        "lv":  "vasarā"
+                    },
+                    {
+                        "de":  "Nicht nur..., sondern auch...",
+                        "lv":  "Ne vien..., bet arī..."
+                    },
+                    {
+                        "de":  "Sonst noch etwas?",
+                        "lv":  "Vēl kaut kas?"
+                    },
+                    {
+                        "de":  "Spaß beiseite!",
+                        "lv":  "Bez jokiem! • Jokus pie malas!"
+                    },
+                    {
+                        "de":  "Wie spät ist es?",
+                        "lv":  "Cik pulkstenis?"
+                    },
+                    {
+                        "de":  "Durchfahrt gesperrt!",
+                        "lv":  "Cauri braukt aizliegts!"
+                    },
+                    {
+                        "de":  "Sprechen Sie deutsch?",
+                        "lv":  "Vai jūs runājat vāciski?"
+                    },
+                    {
+                        "de":  "Statt zu...",
+                        "lv":  "Tā vietā, lai..."
+                    },
+                    {
+                        "de":  "Wie steht’s?",
+                        "lv":  "Kā klājas?"
+                    },
+                    {
+                        "de":  "Dieser Hut steht ihr gut.",
+                        "lv":  "Šī cepure viņai labi piestāv."
+                    },
+                    {
+                        "de":  "Guten Tag!",
+                        "lv":  "Labdien!"
+                    },
+                    {
+                        "de":  "Wie spät ist es?",
+                        "lv":  "Cik pulkstenis?"
+                    },
+                    {
+                        "de":  "Wo treffen wir uns?",
+                        "lv":  "Kur mēs satiksimies?"
+                    },
+                    {
+                        "de":  "Treten Sie näher!",
+                        "lv":  "Nāciet tuvāk!"
+                    },
+                    {
+                        "de":  "Ehrlichkeit ist eine Tugend.",
+                        "lv":  "Godīgums ir tikums."
+                    },
+                    {
+                        "de":  "Ich habe viel zu tun.",
+                        "lv":  "Man ir daudz darīšanu."
+                    },
+                    {
+                        "de":  "Nicht übel!",
+                        "lv":  "Itin labi! • Nav ko iebilst"
+                    },
+                    {
+                        "de":  "Er wohnt über mir.",
+                        "lv":  "Viņš dzīvo virs manis."
+                    },
+                    {
+                        "de":  "Er ist davon überzeugt.",
+                        "lv":  "Viņš par to ir pārliecināts."
+                    },
+                    {
+                        "de":  "So ist es üblich.",
+                        "lv":  "Tā ir pieņemts."
+                    },
+                    {
+                        "de":  "Deine Uhr geht nach.",
+                        "lv":  "Tavs pulkstenis atpaliek."
+                    },
+                    {
+                        "de":  "Wie viel Uhr ist es?",
+                        "lv":  "Cik pulkstenis?"
+                    },
+                    {
+                        "de":  "Um acht Uhr früh.",
+                        "lv":  "Pulksten astoņos no rīta."
+                    },
+                    {
+                        "de":  "umso mehr",
+                        "lv":  "jo vairāk"
+                    },
+                    {
+                        "de":  "Rechts um!",
+                        "lv":  "Apgriezties pa labi!"
+                    },
+                    {
+                        "de":  "Und ob!",
+                        "lv":  "Un kā vēl!"
+                    },
+                    {
+                        "de":  "und zwar",
+                        "lv":  "proti"
+                    },
+                    {
+                        "de":  "Auf Unkosten von ...",
+                        "lv":  "Uz... rēķina."
+                    },
+                    {
+                        "de":  "Er saß unter den Zuschauern.",
+                        "lv":  "Viņš sēdēja starp skatītājiem."
+                    },
+                    {
+                        "de":  "Unter der Bedingung, dass ...",
+                        "lv":  "Ar noteikumu, ka..."
+                    },
+                    {
+                        "de":  "Keine Ursache!",
+                        "lv":  "Nav par ko!"
+                    },
+                    {
+                        "de":  "Es geschah, wie verabredet.",
+                        "lv":  "Notika, kā bija norunāts."
+                    },
+                    {
+                        "de":  "Rauchen verboten!",
+                        "lv":  "Smēķēt aizliegts!"
+                    },
+                    {
+                        "de":  "Falsch verbunden!",
+                        "lv":  "Nepareizi savienots!"
+                    },
+                    {
+                        "de":  "Eintritt verboten!",
+                        "lv":  "Ieeja aizliegta!"
+                    },
+                    {
+                        "de":  "Verstehen Sie mich?",
+                        "lv":  "Vai jūs mani saprotat?"
+                    },
+                    {
+                        "de":  "Er versteht nichts davon.",
+                        "lv":  "Viņš no tā neko nesaprot."
+                    },
+                    {
+                        "de":  "Seine Ansicht vertreten.",
+                        "lv":  "Aizstāvēt savu viedokli."
+                    },
+                    {
+                        "de":  "Streit verursachen.",
+                        "lv":  "Izraisīt strīdu."
+                    },
+                    {
+                        "de":  "Viel besser.",
+                        "lv":  "Daudz labāk."
+                    },
+                    {
+                        "de":  "Zu viel.",
+                        "lv":  "Pārāk daudz."
+                    },
+                    {
+                        "de":  "Vom Hörensagen.",
+                        "lv":  "Pēc dzirdēta."
+                    },
+                    {
+                        "de":  "Von Zeit zu Zeit.",
+                        "lv":  "Laiku pa laikam."
+                    },
+                    {
+                        "de":  "Von Beruf.",
+                        "lv":  "Pēc profesijas."
+                    },
+                    {
+                        "de":  "Er ist Berliner von Geburt.",
+                        "lv":  "Viņš ir dzimis berlīnietis."
+                    },
+                    {
+                        "de":  "Er steht vor dem Fenster.",
+                        "lv":  "Viņš stāv pie loga."
+                    },
+                    {
+                        "de":  "Vor Sonnenaufgang.",
+                        "lv":  "Pirms saules lēkta."
+                    },
+                    {
+                        "de":  "Vor vierzehn Tagen.",
+                        "lv":  "Pirms divām nedēļām."
+                    },
+                    {
+                        "de":  "Vor Freude.",
+                        "lv":  "Aiz prieka."
+                    },
+                    {
+                        "de":  "Vor allem.",
+                        "lv":  "Pirmkārt. • Vispirms"
+                    },
+                    {
+                        "de":  "Im Voraus.",
+                        "lv":  "Iepriekš."
+                    },
+                    {
+                        "de":  "Unter der Voraussetzung, dass...",
+                        "lv":  "Pieņemot, ka..."
+                    },
+                    {
+                        "de":  "Unter dem Vorbehalt.",
+                        "lv":  "Ar nosacījumu."
+                    },
+                    {
+                        "de":  "Vorhanden sein.",
+                        "lv":  "Būt. • Būt klāt • Būt pieejams"
+                    },
+                    {
+                        "de":  "In der vorigen Woche.",
+                        "lv":  "Pagājušajā nedēļā."
+                    },
+                    {
+                        "de":  "Vorkehrungen treffen.",
+                        "lv":  "Veikt pasākumus aizsardzībai."
+                    },
+                    {
+                        "de":  "Sie kommt mir bekannt vor.",
+                        "lv":  "Viņa man šķiet pazīstama."
+                    },
+                    {
+                        "de":  "Er hat Vorliebe für Literatur.",
+                        "lv":  "Viņam ļoti patīk literatūra."
+                    },
+                    {
+                        "de":  "Heute Vormittag.",
+                        "lv":  "Šorīt. • Šodien priekšpusdienā"
+                    },
+                    {
+                        "de":  "Von vorn.",
+                        "lv":  "No priekšas."
+                    },
+                    {
+                        "de":  "Nach vorn.",
+                        "lv":  "Uz priekšu."
+                    },
+                    {
+                        "de":  "Von vornherein.",
+                        "lv":  "Pašā sākumā."
+                    },
+                    {
+                        "de":  "Im Vorteil sein.",
+                        "lv":  "Atrasties izdevīgākā stāvoklī."
+                    },
+                    {
+                        "de":  "Wach sein.",
+                        "lv":  "Būt nomodā."
+                    },
+                    {
+                        "de":  "Wach werden.",
+                        "lv":  "Modrināt."
+                    },
+                    {
+                        "de":  "Auf Wache sein.",
+                        "lv":  "Stāvēt sardzē."
+                    },
+                    {
+                        "de":  "Nicht wahr?",
+                        "lv":  "Vai ne?"
+                    },
+                    {
+                        "de":  "Während eines Jahres.",
+                        "lv":  "Gada laikā."
+                    },
+                    {
+                        "de":  "Während des Krieges.",
+                        "lv":  "Kara laikā."
+                    },
+                    {
+                        "de":  "Gegen eine Wand reden.",
+                        "lv":  "Runāt veltīgi."
+                    },
+                    {
+                        "de":  "Hier haben die Wände Ohren.",
+                        "lv":  "Šeit sienām ir ausis."
+                    },
+                    {
+                        "de":  "Seit wann?",
+                        "lv":  "Kopš kura laika?"
+                    },
+                    {
+                        "de":  "Bis wann?",
+                        "lv":  "Līdz kuram laikam?"
+                    },
+                    {
+                        "de":  "Es ist warm.",
+                        "lv":  "Ir silts."
+                    },
+                    {
+                        "de":  "Auf eine Nachricht warten.",
+                        "lv":  "Gaidīt ziņu."
+                    },
+                    {
+                        "de":  "Was wollen Sie?",
+                        "lv":  "Ko jūs vēlaties?"
+                    },
+                    {
+                        "de":  "Was meinen Sie damit?",
+                        "lv":  "Ko jūs ar to domājat? • Kā jūs to domājat?"
+                    },
+                    {
+                        "de":  "Was für ein...?",
+                        "lv":  "Kāds...? • Kas par...?"
+                    },
+                    {
+                        "de":  "Auf halbem Wege.",
+                        "lv":  "Pusceļā."
+                    },
+                    {
+                        "de":  "Auf diesem Wege.",
+                        "lv":  "Tādā ceļā. • Tādiem līdzekļiem"
+                    },
+                    {
+                        "de":  "Auf friedlichem Wege.",
+                        "lv":  "Miera ceļā."
+                    },
+                    {
+                        "de":  "Unserer Freundschaft wegen.",
+                        "lv":  "Mūsu draudzības dēļ."
+                    },
+                    {
+                        "de":  "Von Rechts wegen.",
+                        "lv":  "Pēc taisnības."
+                    },
+                    {
+                        "de":  "Weh tun.",
+                        "lv":  "Sāpēt."
+                    },
+                    {
+                        "de":  "Zu Weihnachten.",
+                        "lv":  "Ziemassvētkos."
+                    },
+                    {
+                        "de":  "Auf welche Weise?",
+                        "lv":  "Kādā veidā?"
+                    },
+                    {
+                        "de":  "Art und Weise.",
+                        "lv":  "Veids."
+                    },
+                    {
+                        "de":  "Ohne weiteres.",
+                        "lv":  "Tūlīt. • Nekavējoties"
+                    },
+                    {
+                        "de":  "Bis auf weiteres.",
+                        "lv":  "Līdz turpmākam."
+                    },
+                    {
+                        "de":  "Und so weiter.",
+                        "lv":  "Un tā tālāk."
+                    },
+                    {
+                        "de":  "Weiter nichts.",
+                        "lv":  "Vairāk nekas."
+                    },
+                    {
+                        "de":  "An welchem Tag?",
+                        "lv":  "Kurā dienā?"
+                    },
+                    {
+                        "de":  "Alle Welt.",
+                        "lv":  "Visa pasaule. • Visi"
+                    },
+                    {
+                        "de":  "In wenigen Tagen.",
+                        "lv":  "Dažās dienās."
+                    },
+                    {
+                        "de":  "Zu wenig.",
+                        "lv":  "Par maz."
+                    },
+                    {
+                        "de":  "Wenn auch.",
+                        "lv":  "Kaut arī."
+                    },
+                    {
+                        "de":  "Wer da?",
+                        "lv":  "Kas tur?"
+                    },
+                    {
+                        "de":  "Gesammelte Werke von Schiller.",
+                        "lv":  "Šillera kopotie raksti."
+                    },
+                    {
+                        "de":  "Ausgewählte Werke.",
+                        "lv":  "Darbu izlase."
+                    },
+                    {
+                        "de":  "Er ist wert, dass...",
+                        "lv":  "Viņš ir pelnījis, lai..."
+                    },
+                    {
+                        "de":  "Es ist zwei Euro wert.",
+                        "lv":  "Tas maksā divus eiro."
+                    },
+                    {
+                        "de":  "Nach Westen.",
+                        "lv":  "Uz rietumiem."
+                    },
+                    {
+                        "de":  "Von Westen.",
+                        "lv":  "No rietumiem."
+                    },
+                    {
+                        "de":  "In Wettbewerb treten.",
+                        "lv":  "Iesaistīties sacensībā."
+                    },
+                    {
+                        "de":  "Um die Wette laufen.",
+                        "lv":  "Skrieties sacensībā."
+                    },
+                    {
+                        "de":  "Was gilt die Wette?",
+                        "lv":  "Par ko deramies?"
+                    },
+                    {
+                        "de":  "Wie wird das Wetter?",
+                        "lv":  "Kāds būs laiks?"
+                    },
+                    {
+                        "de":  "Wettkampf im Turnen.",
+                        "lv":  "Sacensības vingrošanā."
+                    },
+                    {
+                        "de":  "Wider meinen Willen.",
+                        "lv":  "Pret manu gribu."
+                    },
+                    {
+                        "de":  "Widerspruch erheben.",
+                        "lv":  "Protestēt. • Celt iebildumus"
+                    },
+                    {
+                        "de":  "Wie alt ist er?",
+                        "lv":  "Cik viņam gadu?"
+                    },
+                    {
+                        "de":  "Wie lange?",
+                        "lv":  "Cik ilgi?"
+                    },
+                    {
+                        "de":  "Auf Wiederhören!",
+                        "lv":  "Uz sadzirdēšanos!"
+                    },
+                    {
+                        "de":  "Auf Wiedersehen!",
+                        "lv":  "Uz redzēšanos!"
+                    },
+                    {
+                        "de":  "Wilde Tiere.",
+                        "lv":  "Savvaļas dzīvnieki."
+                    },
+                    {
+                        "de":  "Herzlich willkommen!",
+                        "lv":  "Sirsnīgi sveicināti!"
+                    },
+                    {
+                        "de":  "Du musst ziehen.",
+                        "lv":  "Tev gājiens."
+                    },
+                    {
+                        "de":  "Es zieht.",
+                        "lv":  "Velk."
+                    },
+                    {
+                        "de":  "Ziemlich kalt.",
+                        "lv":  "Diezgan auksts."
+                    },
+                    {
+                        "de":  "Zipfel einer Wurst.",
+                        "lv":  "Desas galiņš."
+                    },
+                    {
+                        "de":  "Zu ihm gehen.",
+                        "lv":  "Iet pie viņa."
+                    },
+                    {
+                        "de":  "Zur Schule gehen.",
+                        "lv":  "Iet uz skolu."
+                    },
+                    {
+                        "de":  "Zu Hause bleiben.",
+                        "lv":  "Palikt mājās."
+                    },
+                    {
+                        "de":  "Von Tag zu Tag.",
+                        "lv":  "Diendienā."
+                    },
+                    {
+                        "de":  "Zum Glück.",
+                        "lv":  "Par laimi."
+                    },
+                    {
+                        "de":  "Wasser zum Trinken.",
+                        "lv":  "Ūdens dzeršanai."
+                    },
+                    {
+                        "de":  "Zu Fuß.",
+                        "lv":  "Kājām."
+                    },
+                    {
+                        "de":  "Zu Pferde.",
+                        "lv":  "Jāšus."
+                    },
+                    {
+                        "de":  "Zu Rad.",
+                        "lv":  "Ar velosipēdu."
+                    },
+                    {
+                        "de":  "Es hörte auf zu regnen.",
+                        "lv":  "Beidza līt."
+                    },
+                    {
+                        "de":  "Ich habe noch viel zu tun.",
+                        "lv":  "Man vēl daudz darāms."
+                    },
+                    {
+                        "de":  "Zu früh.",
+                        "lv":  "Par agru."
+                    },
+                    {
+                        "de":  "Zu groß.",
+                        "lv":  "Pārāk liels."
+                    },
+                    {
+                        "de":  "Mit den Achseln zucken.",
+                        "lv":  "Paraustīt plecus."
+                    },
+                    {
+                        "de":  "In einem Zug trinken.",
+                        "lv":  "Izdzert ar vienu malku."
+                    },
+                    {
+                        "de":  "Zugrunde gehen.",
+                        "lv":  "Iet bojā."
+                    },
+                    {
+                        "de":  "Zugrunde legen.",
+                        "lv":  "Likt pamatā. • Ņemt par pamatu."
+                    },
+                    {
+                        "de":  "Zum ersten Mal.",
+                        "lv":  "Pirmoreiz."
+                    },
+                    {
+                        "de":  "Machen Sie bitte die Tür zu!",
+                        "lv":  "Aizveriet, lūdzu, durvis!"
+                    },
+                    {
+                        "de":  "Er hat zugenommen.",
+                        "lv":  "Viņš pieņēmies svarā."
+                    },
+                    {
+                        "de":  "Die Tage nehmen zu.",
+                        "lv":  "Dienas kļūst garākas."
+                    },
+                    {
+                        "de":  "Zusammenhängen mit etwas.",
+                        "lv":  "Būt saistītam ar kaut ko."
+                    },
+                    {
+                        "de":  "Die Tür ist zu.",
+                        "lv":  "Durvis ir aizvērtas."
+                    },
+                    {
+                        "de":  "Das hätte ich ihm nicht zugetraut.",
+                        "lv":  "To es nebūtu no viņa gaidījis."
+                    },
+                    {
+                        "de":  "Freier Zutritt.",
+                        "lv":  "Brīva ieeja."
+                    },
+                    {
+                        "de":  "Zutritt verboten!",
+                        "lv":  "Ieeja aizliegta!"
+                    },
+                    {
+                        "de":  "Das ist zu viel!",
+                        "lv":  "Tas ir par daudz!"
+                    },
+                    {
+                        "de":  "Zuwider werden.",
+                        "lv":  "Kļūt pretīgam. • Apriebties"
+                    },
+                    {
+                        "de":  "Und zwar.",
+                        "lv":  "Proti."
+                    },
+                    {
+                        "de":  "Es steht außer Zweifel.",
+                        "lv":  "Nav nekādu šaubu."
+                    },
+                    {
+                        "de":  "Ohne Zweifel.",
+                        "lv":  "Bez šaubīšanās."
+                    },
+                    {
+                        "de":  "Zum Zweiten.",
+                        "lv":  "Otrkārt."
+                    }
+                ],
+    "issueCount":  40,
+    "issues":  [
+                   {
+                       "tags":  [
+                                    "comma_synonym"
+                                ],
+                       "de":  "Je mehr, desto besser.",
+                       "lv":  "Jo vairāk, jo labāk."
+                   },
+                   {
+                       "tags":  [
+                                    "comma_synonym"
+                                ],
+                       "de":  "Du bildest dir nur ein, krank zu sein.",
+                       "lv":  "Tu tikai iedomājies, ka esi slims."
+                   },
+                   {
+                       "tags":  [
+                                    "comma_synonym"
+                                ],
+                       "de":  "Steigen Sie bitte ein!",
+                       "lv":  "Lūdzu, iekāpiet!"
+                   },
+                   {
+                       "tags":  [
+                                    "comma_synonym"
+                                ],
+                       "de":  "Treten Sie ein!",
+                       "lv":  "Lūdzu, nāciet iekšā!"
+                   },
+                   {
+                       "tags":  [
+                                    "comma_synonym"
+                                ],
+                       "de":  "Entschuldigen Sie bitte!",
+                       "lv":  "Atvainojiet, lūdzu!"
+                   },
+                   {
+                       "tags":  [
+                                    "comma_synonym"
+                                ],
+                       "de":  "Bitte treten Sie näher heran!",
+                       "lv":  "Lūdzu, nāciet tuvāk!"
+                   },
+                   {
+                       "tags":  [
+                                    "comma_synonym"
+                                ],
+                       "de":  "Kannst du das bitte wiederholen?",
+                       "lv":  "Vai vari, lūdzu, to atkārtot?"
+                   },
+                   {
+                       "tags":  [
+                                    "comma_synonym"
+                                ],
+                       "de":  "Was mich anbelangt, ...",
+                       "lv":  "Kas attiecas uz mani,..."
+                   },
+                   {
+                       "tags":  [
+                                    "comma_synonym"
+                                ],
+                       "de":  "Bitte stellen Sie das Radio ab.",
+                       "lv":  "Lūdzu, izslēdziet radio."
+                   },
+                   {
+                       "tags":  [
+                                    "comma_synonym"
+                                ],
+                       "de":  "Achte bitte auf den Verkehr.",
+                       "lv":  "Lūdzu, pievērs uzmanību satiksmei."
+                   },
+                   {
+                       "tags":  [
+                                    "comma_synonym"
+                                ],
+                       "de":  "Ich warte den Regen ab.",
+                       "lv":  "Es nogaidīšu, kamēr lietus pārtiks."
+                   },
+                   {
+                       "tags":  [
+                                    "comma_synonym"
+                                ],
+                       "de":  "Andererseits verstehe ich ihn.",
+                       "lv":  "No otras puses, es viņu saprotu."
+                   },
+                   {
+                       "tags":  [
+                                    "comma_synonym"
+                                ],
+                       "de":  "Bitte öffne die Datei und klicke darauf.",
+                       "lv":  "Lūdzu, atver failu un uzklikšķini uz tā."
+                   },
+                   {
+                       "tags":  [
+                                    "comma_synonym"
+                                ],
+                       "de":  "Bitte schalte den Fernseher an.",
+                       "lv":  "Lūdzu, ieslēdz televizoru."
+                   },
+                   {
+                       "tags":  [
+                                    "comma_synonym"
+                                ],
+                       "de":  "Bitte nimm meinen Vorschlag an.",
+                       "lv":  "Lūdzu, pieņem manu priekšlikumu."
+                   },
+                   {
+                       "tags":  [
+                                    "comma_synonym"
+                                ],
+                       "de":  "Keine Angst, alles wird gut.",
+                       "lv":  "Nebaidies, viss būs labi."
+                   },
+                   {
+                       "tags":  [
+                                    "comma_synonym"
+                                ],
+                       "de":  "Nehmen wir an, dass ...",
+                       "lv":  "Pieņemsim, ka..."
+                   },
+                   {
+                       "tags":  [
+                                    "comma_synonym"
+                                ],
+                       "de":  "Du glaubst mir anscheinend nicht.",
+                       "lv":  "Šķiet, ka tu man netici."
+                   },
+                   {
+                       "tags":  [
+                                    "comma_synonym"
+                                ],
+                       "de":  "Bitte mach die Tür auf!",
+                       "lv":  "Atver, lūdzu, durvis!"
+                   },
+                   {
+                       "tags":  [
+                                    "comma_synonym"
+                                ],
+                       "de":  "Bitte die Tür auf!",
+                       "lv":  "Atveriet, lūdzu, durvis!"
+                   },
+                   {
+                       "tags":  [
+                                    "comma_synonym"
+                                ],
+                       "de":  "Alle außer dir.",
+                       "lv":  "Visi, izņemot tevi."
+                   },
+                   {
+                       "tags":  [
+                                    "comma_synonym"
+                                ],
+                       "de":  "Unter der Bedingung, dass...",
+                       "lv":  "Ar noteikumu, ka..."
+                   },
+                   {
+                       "tags":  [
+                                    "comma_synonym"
+                                ],
+                       "de":  "Wie bitte?",
+                       "lv":  "Kā, lūdzu?"
+                   },
+                   {
+                       "tags":  [
+                                    "comma_synonym"
+                                ],
+                       "de":  "Gestatten Sie bitte!",
+                       "lv":  "Atļaujiet, lūdzu!"
+                   },
+                   {
+                       "tags":  [
+                                    "comma_synonym"
+                                ],
+                       "de":  "Ich muss gestehen, dass...",
+                       "lv":  "Man jāatzīst, ka..."
+                   },
+                   {
+                       "tags":  [
+                                    "comma_synonym"
+                                ],
+                       "de":  "Es ist mir gleichgültig, ob...",
+                       "lv":  "Man ir vienalga, vai..."
+                   },
+                   {
+                       "tags":  [
+                                    "comma_synonym"
+                                ],
+                       "de":  "Frag ihn gelegentlich, ob...",
+                       "lv":  "Pajautā viņam, ja iznāk, vai..."
+                   },
+                   {
+                       "tags":  [
+                                    "comma_synonym"
+                                ],
+                       "de":  "Aus diesem Brief folgt, dass...",
+                       "lv":  "No šīs vēstules izriet, ka..."
+                   },
+                   {
+                       "tags":  [
+                                    "comma_synonym"
+                                ],
+                       "de":  "Es erwies sich, dass...",
+                       "lv":  "Izrādījās, ka..."
+                   },
+                   {
+                       "tags":  [
+                                    "comma_synonym"
+                                ],
+                       "de":  "je mehr, desto besser",
+                       "lv":  "jo vairāk, jo labāk"
+                   },
+                   {
+                       "tags":  [
+                                    "comma_synonym"
+                                ],
+                       "de":  "Man sagt, dass...",
+                       "lv":  "Saka, ka..."
+                   },
+                   {
+                       "tags":  [
+                                    "comma_synonym"
+                                ],
+                       "de":  "Nicht nur..., sondern auch...",
+                       "lv":  "Ne vien..., bet arī..."
+                   },
+                   {
+                       "tags":  [
+                                    "comma_synonym"
+                                ],
+                       "de":  "Statt zu...",
+                       "lv":  "Tā vietā, lai..."
+                   },
+                   {
+                       "tags":  [
+                                    "comma_synonym"
+                                ],
+                       "de":  "Unter der Bedingung, dass ...",
+                       "lv":  "Ar noteikumu, ka..."
+                   },
+                   {
+                       "tags":  [
+                                    "comma_synonym"
+                                ],
+                       "de":  "Es geschah, wie verabredet.",
+                       "lv":  "Notika, kā bija norunāts."
+                   },
+                   {
+                       "tags":  [
+                                    "comma_synonym"
+                                ],
+                       "de":  "Unter der Voraussetzung, dass...",
+                       "lv":  "Pieņemot, ka..."
+                   },
+                   {
+                       "tags":  [
+                                    "comma_synonym"
+                                ],
+                       "de":  "Er ist wert, dass...",
+                       "lv":  "Viņš ir pelnījis, lai..."
+                   },
+                   {
+                       "tags":  [
+                                    "de_orthography"
+                                ],
+                       "de":  "Zugrunde gehen.",
+                       "lv":  "Iet bojā."
+                   },
+                   {
+                       "tags":  [
+                                    "de_orthography"
+                                ],
+                       "de":  "Zugrunde legen.",
+                       "lv":  "Likt pamatā. • Ņemt par pamatu."
+                   },
+                   {
+                       "tags":  [
+                                    "comma_synonym"
+                                ],
+                       "de":  "Machen Sie bitte die Tür zu!",
+                       "lv":  "Aizveriet, lūdzu, durvis!"
+                   }
+               ],
+    "total":  474
+}

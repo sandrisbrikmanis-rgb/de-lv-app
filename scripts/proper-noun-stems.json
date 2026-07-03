@@ -1,0 +1,26 @@
+{
+  "stems": [
+    "vācij", "latvij", "krievij", "francij", "spānij", "itālij", "polij", "zviedrij", "norvēģij",
+    "somij", "īrij", "grieķij", "turcij", "austrij", "beļģij", "čehij", "ungārij", "rumānij",
+    "bulgārij", "ukrain", "portugāl", "dānij", "nīderland", "šveic", "eirop", "āzij", "āfrik",
+    "amerik", "kanād", "meksik", "brazīlij", "argentīn", "indij", "ķīn", "japān", "korej",
+    "austrālij", "ēģipt", "marok", "nigērij", "dienvidāfrik", "island", "luksemburg", "lihtenštein",
+    "andor", "monak", "serbij", "horvātij", "slovākij", "slovēnij", "bosnij",
+    "moldov", "baltkriev", "gruzij", "armēnij", "azerbaidž", "kazahst", "uzbekist",
+    "berlīn", "parīz", "london", "vīne", "hamburg", "minhen", "ķeln", "frankfurt",
+    "dresden", "leipzig", "hannover", "stuttgart", "brema", "dortmund", "nürnberg",
+    "brisel", "amsterd", "kopenhāg", "stokholm", "helsink", "atēn", "lisabon", "dublin",
+    "ciurīh", "ženev", "prāg", "budapešt", "varšav", "kijev", "maskav", "sanktpēterburg",
+    "bayern", "šlesvig", "holštēn", "brandenburg", "württemberg",
+    "vācisk", "latvisk", "anglisk", "krievisk", "spānisk", "itālisk", "zviedrisk"
+  ],
+  "exact": [
+    "Rīga", "Rīgas", "Rīgā", "Rīgu", "Rīgai",
+    "Roma", "Romas", "Romā", "Romu",
+    "Oslo", "Bonn", "Malta", "Kipra", "Kiprā", "Kipru",
+    "Hans", "Anna", "Marija", "Paul", "Max", "Leon", "Emma", "Maria", "Bach",
+    "Klaus", "Thomas", "Michael", "Stefan", "Andreas", "Lukas", "Felix",
+    "Sophie", "Laura", "Julia", "Friedrich", "Helmut", "Angela", "Merkel",
+    "Einstein", "Goethe", "Beethoven", "Mozart", "Jānis", "Pēter"
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "generatedAt": "2026-07-02T00:00:00.000Z",
+  "mode": "read-only-audit",
+  "methodology": [
+    "Goethe-Institut A1/A2/B1 Wortlisten",
+    "Duden Grundwortschatz (biežums, reģistrs, salikteņi)",
+    "scripts/audit-cefr-levels.js heiristikas",
+    "Manuāla verifikācija pret data/*.js"
+  ],
+  "totalWords": 7876,
+  "currentCounts": {
+    "A1": 701,
+    "A2": 1747,
+    "B1": 3435,
+    "B2": 2182,
+    "C1": 588,
+    "C2": 223
+  },
+  "goetheTargets": {
+    "A1": "600-750",
+    "A2": "1200-1500",
+    "B1": "~2400",
+    "B2": "1800-2500",
+    "C1": "nav fiksēta liste",
+    "C2": "nav fiksēta liste"
+  },
+  "pyramidVerdict": "dalēji loģiska — B1 pārpildīts (+43% pret Goethe B1), C1/C2 nesabalansēti pret B1 gravitācijas lauku",
+  "overallMisalignmentEstimate": "15-20%",
+  "levels": {
+    "A1": {
+      "count": 701,
+      "verdict": "labs — tuvu normai",
+      "misalignmentPercent": "5-15",
+      "topMisplaced": [
+        { "de": "aufstehen", "current": "A1", "recommended": "A2", "reason": "ikdienas atsevišķais darbības vārds" },
+        { "de": "sich waschen", "current": "A1", "recommended": "A2", "reason": "refleksīvs A2 rutīna" },
+        { "de": "anrufen", "current": "A1", "recommended": "A2", "reason": "Goethe A2 komunikācija" },
+        { "de": "zumachen", "current": "A1", "recommended": "A2", "reason": "atsevišķais darbības vārds" },
+        { "de": "zwanzigste", "current": "A1", "recommended": "A2", "reason": "kartinālais skaitļvārds" },
+        { "de": "zwölfte", "current": "A1", "recommended": "A2", "reason": "kartinālais skaitļvārds" },
+        { "de": "zweihundert", "current": "A1", "recommended": "A2", "reason": "salikts skaitļvārds" },
+        { "de": "anders", "current": "A1", "recommended": "A2", "reason": "abstraktāks apstākļa vārds" },
+        { "de": "der Anfang", "current": "A1", "recommended": "A2", "reason": "abstraktāks lietvārds" }
+      ]
+    },
+    "A2": {
+      "count": 1747,
+      "verdict": "pieņemams — nedaudz pārsniegts apjoms",
+      "misalignmentPercent": "10-15",
+      "topMisplaced": [
+        { "de": "auffallen", "current": "A2", "recommended": "B1", "reason": "pārnesta nozīme" },
+        { "de": "auffassen", "current": "A2", "recommended": "B1", "reason": "abstrakta sapratne" },
+        { "de": "aufgeben", "current": "A2", "recommended": "B1", "reason": "figuratīva nozīme (padoties)" },
+        { "de": "aufhalten", "current": "A2", "recommended": "B1", "reason": "formālāks lietojums" },
+        { "de": "der Unterschied", "current": "A2", "recommended": "B1", "reason": "abstrakts salīdzinājums" },
+        { "de": "eigentlich", "current": "A2", "recommended": "B1", "reason": "diskursa marķieris" },
+        { "de": "besonders", "current": "A2", "recommended": "B1", "reason": "intensifikators" },
+        { "de": "wahrscheinlich", "current": "A2", "recommended": "B1", "reason": "modalitāte" },
+        { "de": "obwohl", "current": "A2", "recommended": "B1", "reason": "pakārtotais teikums" },
+        { "de": "deshalb", "current": "A2", "recommended": "B1", "reason": "pakārtotais teikums" }
+      ]
+    },
+    "B1": {
+      "count": 3435,
+      "percentOfCorpus": 43.6,
+      "verdict": "kritiski pārpildīts — galvenā piramīdas problēma",
+      "excessVsGoethe": "~1035 vārdi",
+      "redistributionEstimate": "800-1000 vārdi jāpārdala",
+      "tooEasy": [
+        { "de": "der Aal", "recommended": "A2" },
+        { "de": "entscheiden", "recommended": "A2/B1 robeža" },
+        { "de": "vergleichen", "recommended": "A2" },
+        { "de": "allerdings", "recommended": "A2" }
+      ],
+      "tooHard": [
+        { "de": "die Bekanntschaft", "recommended": "B2" },
+        { "de": "die Bevölkerung", "recommended": "B2/C1" },
+        { "de": "die Botschaft", "recommended": "B2" },
+        { "de": "die Arbeitslosigkeit", "recommended": "B2" },
+        { "de": "die Berufserfahrung", "recommended": "B2" }
+      ],
+      "structuralIssues": [
+        "Kollege un der Kollege — dublēti ieraksti",
+        "Darba tēmas bloks beigās pēc A2→B1 migrācijas"
+      ]
+    },
+    "B2": {
+      "count": 2182,
+      "verdict": "apjoms OK, augšgals pārāk viegls",
+      "downwardEstimate": "150-250 vārdi uz B1",
+      "tooEasy": [
+        { "de": "die Verantwortung", "recommended": "B1" },
+        { "de": "die Entwicklung", "recommended": "B1" },
+        { "de": "nachhaltig", "recommended": "B1" },
+        { "de": "beeinflussen", "recommended": "B1" },
+        { "de": "akzeptabel", "recommended": "B1" },
+        { "de": "die Analyse", "recommended": "B1" },
+        { "de": "der Akrobat", "recommended": "A2/B1" },
+        { "de": "das Alibi", "recommended": "B1" }
+      ]
+    },
+    "C1": {
+      "count": 588,
+      "verdict": "lielākoties loģisks, ~5-8% kaitēkļu",
+      "tooEasy": [
+        { "de": "der Aal", "recommended": "A2" },
+        { "de": "die Verantwortung", "recommended": "B1" },
+        { "de": "anderweitig", "recommended": "B2" },
+        { "de": "allerseits", "recommended": "B2" },
+        { "de": "die Wäscheschleuder", "recommended": "B2" }
+      ],
+      "correctExamples": [
+        "gewährleisten",
+        "die Stellungnahme",
+        "akkreditieren",
+        "das Abrüstungsabkommen",
+        "die Weltanschauung"
+      ]
+    },
+    "C2": {
+      "count": 223,
+      "verdict": "apjoms OK, ~trešdaļa pārāk viegla",
+      "tooEasyCountEstimate": "50-70",
+      "tooEasy": [
+        { "de": "beispielsweise", "recommended": "B1" },
+        { "de": "benachrichtigen", "recommended": "B1/B2" },
+        { "de": "die Lebensbedingungen", "recommended": "B1/B2" },
+        { "de": "der Anfangsbuchstabe", "recommended": "A2/B1" },
+        { "de": "die Abschlussprüfung", "recommended": "B2" },
+        { "de": "beaufsichtigen", "recommended": "B2" },
+        { "de": "die Bequemlichkeit", "recommended": "B2" },
+        { "de": "unmissverständlich", "recommended": "C1" },
+        { "de": "verallgemeinern", "recommended": "C1" },
+        { "de": "berücksichtigen", "recommended": "B2" },
+        { "de": "die Berufsausbildung", "recommended": "B1/B2" },
+        { "de": "die Arbeitserlaubnis", "recommended": "B2" },
+        { "de": "der Gebrauchtwagen", "recommended": "B1" },
+        { "de": "die Krankenversicherung", "recommended": "B1" },
+        { "de": "selbstverständlich", "recommended": "B1/B2" },
+        { "de": "die Karre / der Karren", "recommended": "A2/B1" },
+        { "de": "die Gehaltsabrechnung", "recommended": "B1/C1" },
+        { "de": "Reparaturwerkstatt", "recommended": "B1/A2" }
+      ],
+      "correctExamples": [
+        "konterkarieren",
+        "die Unvoreingenommenheit",
+        "das Strafgesetzbuch",
+        "die Selbstbestimmungsrecht",
+        "der Selbsterhaltungstrieb"
+      ]
+    }
+  },
+  "crossLevelDuplicates": [
+    {
+      "lemma": "die Verantwortung",
+      "locations": ["data/b2.js", "data/c1.js"],
+      "recommended": "B1 (vienā līmenī)"
+    },
+    {
+      "lemma": "der Aal",
+      "locations": ["data/b1.js", "data/c1.js"],
+      "recommended": "A2 (vienā līmenī)"
+    },
+    {
+      "lemma": "Vaterschaftsklage",
+      "locations": ["data/c2.js (2×: ar un bez artikula)"],
+      "recommended": "C1/C2 — viens ieraksts"
+    }
+  ],
+  "studyBlockCounts": {
+    "A1": 69,
+    "A2": "~168",
+    "B1": "~290",
+    "B2": 0,
+    "C1": "~5",
+    "C2": "~2"
+  },
+  "recommendation": "Mērķēta pārdalīšana B1→A2/B2/C1 un B2/C2→lejup pēc reģistra un Goethe Wortlisten, ne tikai vārda garuma. Šis audits neietver koda labojumus."
+}

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Vācu Valoda</string>
+    <string name="title_activity_main">Vācu Valoda</string>
+    <string name="package_name">com.vacuvaloda.app</string>
+    <string name="custom_url_scheme">com.vacuvaloda.app</string>
+</resources>
