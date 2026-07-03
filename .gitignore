@@ -36,3 +36,6 @@ android/.gradle/
 ios/App/build/
 ios/App/Pods/
 ios/DerivedData/
+
+# Lokālie rīki (portatīvais Git u.c.)
+.tools/
