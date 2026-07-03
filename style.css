@@ -2244,14 +2244,6 @@
       font-size: 0.9rem;
     }
 
-    .extra-options-toggle {
-      display: none;
-    }
-
-    .mobile-extra-options {
-      display: contents;
-    }
-
     @media (max-width: 768px) {
       .action-buttons {
         display: grid;
@@ -2297,7 +2289,23 @@
         color: #ffffff !important;
       }
 
-  
+      .extra-options-toggle {
+        display: block;
+        grid-column: 1 / -1;
+      }
+
+      .mobile-extra-options[hidden] {
+        display: none;
+      }
+
+      .mobile-extra-options {
+        grid-column: 1 / -1;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+        min-width: 0;
+      }
+
     .kurss-lesson {
       margin: 0 28px 28px;
       padding: 22px;
@@ -2479,22 +2487,6 @@
       font-size: 0.9rem;
     }
 
-    .extra-options-toggle {
-        display: block;
-        grid-column: 1 / -1;
-      }
-
-      .mobile-extra-options {
-        grid-column: 1 / -1;
-        display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 10px;
-        min-width: 0;
-      }
-
-      .mobile-extra-options[hidden] {
-        display: none;
-      }
     }
 
     #kurssBtn {

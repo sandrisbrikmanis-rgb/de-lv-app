@@ -4082,6 +4082,8 @@ function renderModeButtons() {
 function renderSpellingControls() {
   elements.spellingPanel.hidden = !state.spellingMode;
   elements.spellingPanel.style.display = state.spellingMode ? "" : "none";
+  elements.nextBtn.hidden = !state.spellingMode;
+  elements.nextBtn.style.display = state.spellingMode ? "" : "none";
   elements.knownBtn.disabled = state.spellingMode && !state.spellingCorrect;
   if (elements.continueSpellingBtn) {
     elements.continueSpellingBtn.hidden = !state.spellingMode || !state.spellingChecked;
