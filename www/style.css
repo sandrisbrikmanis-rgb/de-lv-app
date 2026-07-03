@@ -2078,6 +2078,23 @@
       font-size: 1.35rem;
     }
 
+    .kurss-footer-links {
+      margin: -14px 28px 20px;
+      text-align: center;
+    }
+
+    .kurss-footer-links a {
+      color: var(--muted);
+      font-size: 0.78rem;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+
+    .kurss-footer-links a:hover,
+    .kurss-footer-links a:focus-visible {
+      color: #aeb8c7;
+    }
+
     @media (max-width: 600px) {
       .kurss-overlay {
         padding: 8px;
