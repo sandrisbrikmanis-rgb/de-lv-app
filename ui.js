@@ -168,7 +168,6 @@ const elements = {
   knownBtn: document.getElementById("knownBtn"),
   unknownBtn: document.getElementById("unknownBtn"),
   nextBtn: document.getElementById("nextBtn"),
-  shuffleBtn: document.getElementById("shuffleBtn"),
   verbRandomBtn: document.getElementById("verbRandomBtn"),
   spellingModeBtn: document.getElementById("spellingModeBtn"),
   infoBtn: document.getElementById("infoBtn"),
@@ -178,6 +177,7 @@ const elements = {
   continueSpellingBtn: document.getElementById("continueSpellingBtn"),
   spellingResult: document.getElementById("spellingResult"),
   directionBtn: document.getElementById("directionBtn"),
+  directionLabel: document.getElementById("directionLabel"),
   extraOptionsBtn: document.getElementById("extraOptionsBtn"),
   extraOptions: document.getElementById("extraOptions"),
   reviewBtn: document.getElementById("reviewBtn"),
@@ -2445,6 +2445,25 @@ function isDueForReview(status) {
   return status && status.nextReview && status.nextReview <= todayString();
 }
 
+function fisherYatesShuffle(array) {
+  for (let i = array.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    const temp = array[i];
+    array[i] = array[j];
+    array[j] = temp;
+  }
+  return array;
+}
+
+function shuffleSessionIds(session) {
+  if (!session || !Array.isArray(session.ids)) return;
+  fisherYatesShuffle(session.ids);
+  if (Array.isArray(session.originalIds)) {
+    fisherYatesShuffle(session.originalIds);
+  }
+  session.shuffled = true;
+}
+
 function createSession() {
   const groupKey = activeGroupKey();
   const config = sessionModes[state.mode] || sessionModes.normal;
@@ -2462,7 +2481,9 @@ function createSession() {
     }
   }
 
-  const picked = newCards.slice(0, config.newCount).concat(reviewCards.slice(0, config.reviewCount));
+  const picked = fisherYatesShuffle([...newCards]).slice(0, config.newCount)
+    .concat(fisherYatesShuffle([...reviewCards]).slice(0, config.reviewCount));
+  fisherYatesShuffle(picked);
   state.session = {
     groupKey,
     mode: state.mode,
@@ -2472,7 +2493,8 @@ function createSession() {
     total: picked.length,
     index: 0,
     startedAt: new Date().toISOString(),
-    created: new Date().toISOString()
+    created: new Date().toISOString(),
+    shuffled: true
   };
   state.index = 0;
   state.verbIndex = 0;
@@ -2491,6 +2513,11 @@ function sessionMatchesActiveGroup() {
 function ensureSession() {
   if (!sessionMatchesActiveGroup()) {
     createSession();
+    return;
+  }
+  if (!state.session.shuffled) {
+    shuffleSessionIds(state.session);
+    saveSession();
   }
 }
 
@@ -4303,47 +4330,6 @@ function continueSpelling() {
   if (!state.spellingMode || !state.spellingChecked) return;
   nextCard();
 }
-function shuffleDeck() {
-  if (state.problemMode) {
-    setNotice("Problemātiskie vārdi tiek rādīti rotācijā.");
-    render();
-    return;
-  }
-
-  if (!state.reviewKnown && sessionMatchesActiveGroup()) {
-    const ids = state.session.ids;
-    for (let i = ids.length - 1; i > 0; i -= 1) {
-      const j = Math.floor(Math.random() * (i + 1));
-      const temp = ids[i];
-      ids[i] = ids[j];
-      ids[j] = temp;
-    }
-
-    state.session.index = 0;
-    state.index = 0;
-    state.verbIndex = 0;
-    state.revealed = false;
-    state.verbStep = 0;
-    saveSession();
-    setNotice("Sesijas secība sajaukta.");
-    render();
-    return;
-  }
-
-  const deck = currentDeck();
-  for (let i = deck.length - 1; i > 0; i -= 1) {
-    const j = Math.floor(Math.random() * (i + 1));
-    const temp = deck[i];
-    deck[i] = deck[j];
-    deck[j] = temp;
-  }
-
-  state.order[deckKey()] = deck.map(cardId);
-  state.index = 0;
-  state.revealed = false;
-  setNotice("Secība sajaukta.");
-  render();
-}
 
 function toggleDirection() {
   state.direction = state.direction === "de-lv" ? "lv-de" : "de-lv";
@@ -4713,7 +4699,7 @@ function renderVerbCard() {
     : (state.reviewKnown ? "Darbības vārdi zināmie" : "Darbības vārdi")));
   elements.totalWords.textContent = String(state.timeReviewMode ? deck.length : (state.problemMode ? deck.length : (state.reviewLastSession ? lastSessionReviewTotalCount() : (state.reviewKnown ? deck.length : sessionTotalCount()))));
   elements.learnedWords.textContent = String(state.learned.verbs.length);
-  elements.directionBtn.textContent = state.direction === "de-lv"
+  elements.directionLabel.textContent = state.direction === "de-lv"
     ? "Vācu ➔ latviešu"
     : "Latviešu ➔ vācu";
 
@@ -5306,7 +5292,7 @@ function render() {
     : (state.reviewKnown ? `${groupDisplayLabel(state.group)} zināmie` : groupDisplayLabel(state.group))));
   elements.totalWords.textContent = String(total);
   elements.learnedWords.textContent = String(learned);
-  elements.directionBtn.textContent = state.direction === "de-lv"
+  elements.directionLabel.textContent = state.direction === "de-lv"
     ? "Vācu ➔ latviešu"
     : "Latviešu ➔ vācu";
 
@@ -5407,7 +5393,6 @@ document.querySelector(".card")?.addEventListener("click", revealCard);
 elements.knownBtn.addEventListener("click", markKnown);
 elements.unknownBtn.addEventListener("click", markUnknown);
 elements.nextBtn.addEventListener("click", nextCard);
-elements.shuffleBtn.addEventListener("click", shuffleDeck);
 elements.verbRandomBtn.addEventListener("click", toggleVerbRandomMode);
 elements.spellingModeBtn.addEventListener("click", toggleSpellingMode);
 elements.checkSpellingBtn.addEventListener("click", checkSpellingAnswer);
