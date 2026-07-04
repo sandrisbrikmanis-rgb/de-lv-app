@@ -181,7 +181,6 @@ const elements = {
   directionLabel: document.getElementById("directionLabel"),
   extraOptionsBtn: document.getElementById("extraOptionsBtn"),
   extraOptions: document.getElementById("extraOptions"),
-  reviewBtn: document.getElementById("reviewBtn"),
   reviewLastSessionBtn: document.getElementById("reviewLastSessionBtn"),
   archiveLastSessionBtn: document.getElementById("archiveLastSessionBtn"),
   problemWordsBtn: document.getElementById("problemWordsBtn"),
@@ -4881,7 +4880,6 @@ elements.extraOptionsBtn.addEventListener("click", () => {
   elements.extraOptionsBtn.setAttribute("aria-expanded", opening ? "true" : "false");
   elements.extraOptionsBtn.textContent = opening ? "Papildu opcijas ▲" : "Papildu opcijas ▼";
 });
-elements.reviewBtn.addEventListener("click", reviewKnown);
 elements.reviewLastSessionBtn.addEventListener("click", reviewLastSession);
 elements.archiveLastSessionBtn.addEventListener("click", archiveLastSession);
 elements.problemWordsBtn.addEventListener("click", selectProblemWords);
