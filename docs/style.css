@@ -1959,8 +1959,7 @@
       gap: 14px;
     }
 
-    .kurss-list[hidden],
-    .kurss-tip[hidden] {
+    .kurss-list[hidden] {
       display: none;
     }
 
@@ -2051,32 +2050,8 @@
       line-height: 1;
     }
 
-    .kurss-tip {
-      margin: 2px 28px 28px;
-      padding: 16px 18px;
-      display: grid;
-      grid-template-columns: auto 1fr;
-      gap: 12px;
-      border: 1px solid #263544;
-      border-radius: 10px;
-      background: rgba(255, 255, 255, 0.04);
-      color: #aeb8c7;
-      font-size: 0.9rem;
-      line-height: 1.35;
-    }
-
-    .kurss-tip strong {
-      display: block;
-      margin-bottom: 3px;
-      color: #f5f8fc;
-    }
-
-    .kurss-tip-icon {
-      font-size: 1.35rem;
-    }
-
     .kurss-footer-links {
-      margin: -14px 28px 20px;
+      margin: 2px 28px 20px;
       text-align: center;
     }
 
@@ -2153,10 +2128,8 @@
         font-size: 1.35rem;
       }
 
-      .kurss-tip {
-        margin: 0 12px 14px;
-        padding: 12px 13px;
-        font-size: 0.8rem;
+      .kurss-footer-links {
+        margin: 2px 12px 14px;
       }
     }
 
