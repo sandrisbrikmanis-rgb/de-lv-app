@@ -2445,6 +2445,10 @@ function isDueForReview(status) {
   return status && status.nextReview && status.nextReview <= todayString();
 }
 
+function directionButtonLabel() {
+  return state.direction === "de-lv" ? "🔄 DE ➔ LV" : "🔄 LV ➔ DE";
+}
+
 function fisherYatesShuffle(array) {
   for (let i = array.length - 1; i > 0; i -= 1) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -4699,9 +4703,7 @@ function renderVerbCard() {
     : (state.reviewKnown ? "Darbības vārdi zināmie" : "Darbības vārdi")));
   elements.totalWords.textContent = String(state.timeReviewMode ? deck.length : (state.problemMode ? deck.length : (state.reviewLastSession ? lastSessionReviewTotalCount() : (state.reviewKnown ? deck.length : sessionTotalCount()))));
   elements.learnedWords.textContent = String(state.learned.verbs.length);
-  elements.directionLabel.textContent = state.direction === "de-lv"
-    ? "Vācu ➔ latviešu"
-    : "Latviešu ➔ vācu";
+  elements.directionLabel.textContent = directionButtonLabel();
 
   if (!verb) {
     elements.cardLevel.className = "verb-headings";
@@ -5292,9 +5294,7 @@ function render() {
     : (state.reviewKnown ? `${groupDisplayLabel(state.group)} zināmie` : groupDisplayLabel(state.group))));
   elements.totalWords.textContent = String(total);
   elements.learnedWords.textContent = String(learned);
-  elements.directionLabel.textContent = state.direction === "de-lv"
-    ? "Vācu ➔ latviešu"
-    : "Latviešu ➔ vācu";
+  elements.directionLabel.textContent = directionButtonLabel();
 
   if (!card) {
     elements.cardLevel.className = "badge";
