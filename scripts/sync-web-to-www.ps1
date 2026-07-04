@@ -12,8 +12,7 @@ $rootFiles = @(
     'ui.js',
     'style.css',
     'groups.js',
-    'storage.js',
-    'wordRain.js'
+    'storage.js'
 )
 
 foreach ($file in $rootFiles) {

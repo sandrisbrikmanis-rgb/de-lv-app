@@ -26,10 +26,7 @@
       margin: 0;
       min-height: 100vh;
       font-family: Arial, Helvetica, sans-serif;
-      background:
-        linear-gradient(135deg, rgba(31, 111, 235, 0.09), transparent 35%),
-        linear-gradient(315deg, rgba(20, 133, 76, 0.08), transparent 34%),
-        var(--bg);
+      background: #000000;
       color: var(--ink);
     }
 
@@ -48,7 +45,7 @@
     body,
     main,
     .app-shell {
-      background-color: #0f172a !important;
+      background-color: #000000 !important;
       color-scheme: dark;
     }
 
@@ -2538,11 +2535,8 @@
     /* Desktop-only dark theme */
     @media (min-width: 769px) {
       body {
-        background:
-          linear-gradient(135deg, rgba(10, 70, 160, 0.2), transparent 36%),
-          linear-gradient(315deg, rgba(20, 120, 80, 0.14), transparent 34%),
-          #0f172a !important;
-        background-color: #0f172a !important;
+        background: #000000 !important;
+        background-color: #000000 !important;
         color: #f3f6fb;
       }
 
@@ -2725,18 +2719,15 @@
     /* Global page background fallback for all browsers */
     html {
       min-height: 100%;
-      background-color: #0f172a !important;
-      background: #0f172a;
+      background-color: #000000 !important;
+      background: #000000;
       overflow-x: hidden;
     }
 
     body {
       min-height: 100vh;
-      background-color: #0f172a !important;
-      background:
-        linear-gradient(135deg, rgba(10, 70, 160, 0.2), transparent 36%),
-        linear-gradient(315deg, rgba(20, 120, 80, 0.14), transparent 34%),
-        #0f172a !important;
+      background-color: #000000 !important;
+      background: #000000 !important;
       overflow-x: hidden;
     }
   
@@ -5876,61 +5867,6 @@
   background-color: #1a1f1e !important;
 }
 
-/* Word Rain decorative desktop background */
-.word-rain {
-  position: fixed;
-  inset: 0;
-  z-index: 0;
-  pointer-events: none;
-  overflow: hidden;
-  background: transparent;
-  contain: strict;
-}
-
-@media (min-width: 1024px) {
-  body {
-    background: #000000;
-  }
-}
-
-.word-rain-word {
-  --word-rain-glow: rgba(36, 184, 255, 1);
-  position: absolute;
-  left: 0;
-  top: 0;
-  display: inline-block;
-  max-width: 230px;
-  color: #24b8ff;
-  font-weight: 700;
-  line-height: 1;
-  white-space: nowrap;
-  -webkit-text-stroke: 0.15px currentColor;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: subpixel-antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-shadow: 0 0 0.5px var(--word-rain-glow);
-  will-change: transform;
-  user-select: none;
-}
-
-.word-rain-word.is-learned {
-  --word-rain-glow: rgba(57, 255, 136, 1);
-  color: #39ff88;
-}
-
-.word-rain-word.is-problem {
-  --word-rain-glow: rgba(255, 63, 90, 1);
-  color: #ff3f5a;
-}
-
-.word-rain-word.is-bright {
-  text-shadow: 0 0 1px var(--word-rain-glow);
-}
-
-.word-rain-word.is-hot {
-  text-shadow: 0 0 1px var(--word-rain-glow);
-}
-
 main,
 .unwanted-overlay,
 .mastered-overlay,
@@ -5938,12 +5874,6 @@ main,
 .basics-overlay {
   position: relative;
   z-index: 1;
-}
-
-@media (max-width: 1023px) {
-  .word-rain {
-    display: none !important;
-  }
 }
 
 /* Cards / Writing mode tabs (above the flashcard) */

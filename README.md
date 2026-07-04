@@ -9,7 +9,7 @@ Vācu valodas mācību lietotne latviešu valodā runājošiem — kartītes, m�
 ## Projekta struktūra
 
 ```
-index.html, style.css, ui.js, wordRain.js, storage.js, groups.js  — tīmekļa lietotnes pirmkods
+index.html, style.css, ui.js, storage.js, groups.js  — tīmekļa lietotnes pirmkods
 data/                — vārdu krājums un mācību saturs (A1–C2, teikumi, darbības vārdi, lekcijas)
 www/                 — sinhronizēta kopija, ko ielādē Capacitor (skat. "Izstrādes darbplūsma")
 ios/App/             — Xcode projekts (Capacitor iOS apvalks)
@@ -34,7 +34,7 @@ npm run cap:android   # atver Android projektu Android Studio
 
 > **Piezīme:** `scripts/sync-web-to-www.ps1` ir PowerShell skripts. Uz Linux/macOS bez PowerShell to var aizstāt ar manuālu kopēšanu:
 > ```bash
-> cp index.html manifest.json ui.js style.css groups.js storage.js wordRain.js www/
+> cp index.html manifest.json ui.js style.css groups.js storage.js www/
 > rm -rf www/data www/icons && cp -r data www/data && cp -r icons www/icons
 > ```
 
