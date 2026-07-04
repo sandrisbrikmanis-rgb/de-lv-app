@@ -26,10 +26,7 @@
       margin: 0;
       min-height: 100vh;
       font-family: Arial, Helvetica, sans-serif;
-      background:
-        linear-gradient(135deg, rgba(31, 111, 235, 0.09), transparent 35%),
-        linear-gradient(315deg, rgba(20, 133, 76, 0.08), transparent 34%),
-        var(--bg);
+      background: #000000;
       color: var(--ink);
     }
 
@@ -48,7 +45,7 @@
     body,
     main,
     .app-shell {
-      background-color: #0f172a !important;
+      background-color: #000000 !important;
       color-scheme: dark;
     }
 
@@ -2529,11 +2526,8 @@
     /* Desktop-only dark theme */
     @media (min-width: 769px) {
       body {
-        background:
-          linear-gradient(135deg, rgba(10, 70, 160, 0.2), transparent 36%),
-          linear-gradient(315deg, rgba(20, 120, 80, 0.14), transparent 34%),
-          #0f172a !important;
-        background-color: #0f172a !important;
+        background: #000000 !important;
+        background-color: #000000 !important;
         color: #f3f6fb;
       }
 
@@ -2716,18 +2710,15 @@
     /* Global page background fallback for all browsers */
     html {
       min-height: 100%;
-      background-color: #0f172a !important;
-      background: #0f172a;
+      background-color: #000000 !important;
+      background: #000000;
       overflow-x: hidden;
     }
 
     body {
       min-height: 100vh;
-      background-color: #0f172a !important;
-      background:
-        linear-gradient(135deg, rgba(10, 70, 160, 0.2), transparent 36%),
-        linear-gradient(315deg, rgba(20, 120, 80, 0.14), transparent 34%),
-        #0f172a !important;
+      background-color: #000000 !important;
+      background: #000000 !important;
       overflow-x: hidden;
     }
   
@@ -4538,6 +4529,24 @@
     white-space: normal;
   }
 
+  .desktop-side-group-quick #spellingModeBtn.active,
+  .desktop-side-group-quick #spellingModeBtn.spelling-active {
+    background: linear-gradient(145deg, #5cb8ff, #2088ff) !important;
+    border-color: #6ec2ff !important;
+    box-shadow: 0 0 16px rgba(66, 165, 255, 0.45) !important;
+  }
+
+  #infoBtn {
+    font-weight: 700;
+    font-size: 0.86rem;
+    text-transform: none;
+    padding: 8px 10px;
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: normal;
+    white-space: normal;
+  }
+
   #markUnwantedBtn,
   #extraOptionsBtn {
     display: none !important;
@@ -5245,9 +5254,9 @@
 .course-lesson .kurss-example,
 .course-lesson .lesson1-grammar-card,
 .course-lesson .lesson1-info-card { background:rgba(19,32,44,.88); border:1px solid rgba(80,104,128,.5); border-radius:9px; padding:12px 14px; color:#eef4fb; overflow-wrap:anywhere; word-break:normal; }
-.course-lesson .lesson1-training-flashcard { width:min(880px,100%); min-height:260px; margin:18px auto 14px; padding:28px; border-radius:18px; border:1px solid rgba(90,108,126,.65); background:linear-gradient(145deg,#202120,#141a1d); color:#f4f7fb; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:22px; text-align:center; cursor:pointer; }
+.course-lesson .lesson1-training-flashcard { width:min(880px,100%); min-height:auto; margin:18px auto 14px; padding:28px; border-radius:18px; border:1px solid rgba(90,108,126,.65); background:linear-gradient(145deg,#202120,#141a1d); color:#f4f7fb; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:22px; text-align:center; cursor:pointer; }
 .course-lesson .lesson1-training-progress { display:inline-flex; align-items:center; justify-content:center; border-radius:999px; padding:7px 14px; background:rgba(27,37,52,.9); color:#cdd7e6; font-weight:800; }
-.course-lesson .lesson1-training-text { font-size:clamp(28px,5vw,52px); font-weight:900; line-height:1.1; max-width:100%; overflow-wrap:anywhere; word-break:normal; }
+.course-lesson .lesson1-training-text { font-size:clamp(28px,5vw,52px); font-weight:900; line-height:1.32; max-width:100%; overflow-wrap:anywhere; word-break:normal; }
 .course-lesson .lesson1-training-divider { width:min(360px,42%); height:1px; background:rgba(190,202,216,.28); }
 .course-lesson .lesson1-training-answer,
 .course-lesson .lesson8-exercise-answer-card { width:min(620px,100%); border-radius:12px; border:1px solid rgba(80,104,128,.55); background:rgba(19,32,44,.82); padding:12px 14px; color:#dbe6f4; font-weight:800; overflow-wrap:anywhere; word-break:normal; }
@@ -5263,7 +5272,7 @@
   min-height: auto;
   justify-content: flex-start;
   gap: 20px;
-  padding: 24px 22px 28px;
+  padding: 28px 24px 32px;
 }
 .exercise-card-header {
   display: flex;
@@ -5271,6 +5280,9 @@
   align-items: center;
   gap: 8px;
   width: min(100%, 720px);
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(190, 202, 216, 0.15);
 }
 .exercise-card-meta {
   display: block;
@@ -5289,14 +5301,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 18px;
+  gap: 22px;
   width: min(100%, 760px);
   flex: 1 1 auto;
 }
 .exercise-phase-challenge .exercise-card-prompt {
   font-size: clamp(1.55rem, 4.2vw, 2.75rem);
   font-weight: 900;
-  line-height: 1.2;
+  line-height: 1.38;
   color: #f4f8ff;
 }
 .exercise-phase-reveal .exercise-card-prompt-muted {
@@ -5308,16 +5320,27 @@
 .exercise-phase-reveal .lesson1-training-answer {
   font-size: clamp(1.35rem, 3.2vw, 2.1rem);
   font-weight: 850;
-  line-height: 1.25;
+  line-height: 1.42;
   color: #e8f0fa;
 }
 .exercise-card-cta {
   display: block;
-  margin-top: 4px;
+  margin-top: 16px;
+  padding-top: 8px;
   color: #7f8fa6;
   font-size: clamp(0.82rem, 2vw, 0.92rem);
   font-weight: 650;
   line-height: 1.35;
+}
+.exercise-answer-highlight {
+  color: #f59e0b;
+  font-weight: 900;
+}
+.exercise-phase-reveal .lesson1-training-answer .exercise-answer-highlight {
+  color: #f59e0b !important;
+}
+.course-lesson .lesson1-training-wrap .lesson1-training-hint {
+  margin-top: 14px;
 }
 .exercise-unified-card .lesson1-training-progress {
   font-size: clamp(0.82rem, 2vw, 0.94rem);
@@ -5330,7 +5353,7 @@
   .course-lesson .lesson1-grammar-grid { grid-template-columns:1fr; }
   .course-lesson .lesson1-accordion summary { padding:12px; gap:10px; }
   .course-lesson .lesson1-content { padding:0 12px 14px; }
-  .course-lesson .lesson1-training-flashcard { width:100%; min-height:220px; gap:16px; padding:22px 14px; }
+  .course-lesson .lesson1-training-flashcard { width:100%; min-height:auto; gap:16px; padding:22px 14px; }
   .exercise-unified-card,
   #kurssLesson7 .lesson1-training-flashcard.exercise-unified-card,
   #kurssLesson8 .lesson1-training-flashcard.exercise-unified-card,
@@ -5338,7 +5361,7 @@
   .course-lesson .lesson1-training-flashcard.exercise-unified-card {
     min-height: auto;
     gap: 16px;
-    padding: 20px 14px 24px;
+    padding: 24px 16px 28px;
   }
   .exercise-phase-challenge .exercise-card-prompt {
     font-size: clamp(1.35rem, 6vw, 2rem);
@@ -5855,6 +5878,42 @@
   color: #ffffff !important;
 }
 
+#spellingModeBtn.active,
+#spellingModeBtn.spelling-active {
+  background-color: #42a5ff !important;
+  background-image: linear-gradient(145deg, #5cb8ff, #2088ff) !important;
+  border-color: #6ec2ff !important;
+  box-shadow: 0 0 16px rgba(66, 165, 255, 0.45) !important;
+  color: #ffffff !important;
+}
+
+#infoBtn .info-icon {
+  color: #7dd3fc;
+  font-weight: 900;
+  font-size: 1.15em;
+  text-shadow: 0 0 12px rgba(125, 211, 252, 0.95), 0 0 4px rgba(56, 189, 248, 0.8);
+  margin-right: 4px;
+  filter: brightness(1.15);
+}
+
+.info-popup-body {
+  padding: 16px 18px 20px;
+}
+
+.info-popup-body p {
+  margin: 0 0 12px;
+  color: #cbd5e1;
+  line-height: 1.5;
+}
+
+.info-popup-body p:last-child {
+  margin-bottom: 0;
+}
+
+.info-popup-body strong {
+  color: #f8fafc;
+}
+
 .lesson1-training-answer,
 .lesson8-exercise-answer-card {
   background-color: rgba(19, 32, 44, 0.95) !important;
@@ -5902,8 +5961,12 @@
 }
 
 @media (min-width: 1024px) {
-  body {
-    background: #000000;
+  html,
+  body,
+  main,
+  .app-shell {
+    background: #000000 !important;
+    background-color: #000000 !important;
   }
 }
 
@@ -5932,9 +5995,14 @@
   color: #39ff88;
 }
 
-.word-rain-word.is-problem {
-  --word-rain-glow: rgba(255, 63, 90, 1);
-  color: #ff3f5a;
+.word-rain-word.is-active-red {
+  --word-rain-glow: rgba(255, 90, 110, 1);
+  color: #ff5a6e;
+}
+
+.word-rain-word.is-problem-dark {
+  --word-rain-glow: rgba(180, 20, 45, 1);
+  color: #b4142d;
 }
 
 .word-rain-word.is-bright {
@@ -5958,4 +6026,205 @@ main,
   .word-rain {
     display: none !important;
   }
+}
+
+/* Problemātisko vārdu modālais logs — globāli, ārpus layout konteineriem */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: block;
+}
+
+.modal-overlay[hidden] {
+  display: none !important;
+}
+
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+
+.modal-content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1001;
+  width: min(720px, calc(100vw - 40px));
+  max-height: calc(100vh - 40px);
+  overflow-y: auto;
+  border: 1px solid #334155;
+  border-radius: 10px;
+  background: #1e293b;
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.55);
+  color: #f1f5f9;
+}
+
+.modal-header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  padding: 14px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  background: #0f172a;
+  border-bottom: 1px solid #334155;
+}
+
+.modal-header h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #f8fafc;
+}
+
+.modal-header h2.modal-count-title {
+  font-size: 1.45rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  line-height: 1.25;
+}
+
+.modal-word-with-badge {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.modal-level-badge {
+  flex-shrink: 0;
+  color: #94a3b8;
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
+.modal-word-with-badge strong {
+  display: inline;
+}
+
+.modal-close {
+  min-width: 44px;
+  min-height: 44px;
+  padding: 6px;
+  border: 1px solid #475569;
+  border-radius: 6px;
+  background: #1e293b;
+  color: #f8fafc;
+  font-size: 1.35rem;
+  cursor: pointer;
+}
+
+.modal-actions {
+  padding: 12px 16px;
+  border-bottom: 1px solid #334155;
+  background: #1e293b;
+}
+
+.modal-actions button {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid #475569;
+  border-radius: 7px;
+  background: #334155;
+  color: #f8fafc;
+  cursor: pointer;
+}
+
+.modal-actions button:hover {
+  background: #475569;
+}
+
+.modal-list {
+  display: grid;
+  gap: 10px;
+  padding: 14px;
+}
+
+.modal-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 10px;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #334155;
+  border-radius: 7px;
+  background: #0f172a;
+}
+
+.modal-word {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.modal-word strong {
+  display: block;
+  color: #f1f5f9;
+}
+
+.modal-level {
+  display: block;
+  margin-top: 4px;
+  color: #94a3b8;
+  font-size: 0.9rem;
+}
+
+.modal-remove-btn {
+  white-space: nowrap;
+  padding: 8px 12px;
+  border: 1px solid #475569;
+  border-radius: 6px;
+  background: #334155;
+  color: #f8fafc;
+  cursor: pointer;
+}
+
+.modal-remove-btn:hover {
+  background: #475569;
+}
+
+.modal-empty {
+  margin: 0;
+  padding: 24px 16px;
+  text-align: center;
+  color: #94a3b8;
+}
+/* Dzelžains Info loga un drošības loga vizuālais labojums */
+#infoPopup.modal-overlay {
+  position: fixed !important;
+  inset: 0 !important;
+  width: auto !important;
+  height: auto !important;
+  z-index: 1000 !important;
+  background-color: transparent !important;
+  text-align: left !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+}
+
+#resetConfirmPanel, .card-popup-overlay {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  z-index: 99999 !important;
+  background-color: #111111 !important;
+  text-align: left !important;
+  padding: 25px !important;
+  box-sizing: border-box !important;
+}
+
+#infoPopup .info-popup-body p,
+#infoPopup .info-popup-body li {
+  text-align: left !important;
+  margin-bottom: 12px !important;
+  color: #cccccc !important;
+}
+
+#infoPopup .info-popup-body strong {
+  color: #ffffff !important;
 }

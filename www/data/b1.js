@@ -29571,7 +29571,7 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "Halt machen",
+    "de": "halt machen",
     "lv": "apstāties",
     "level": "B1"
   },
@@ -38409,180 +38409,9 @@ const B1_WORDS = [
   {
     "de": "Kosten",
     "de_article": "die",
-    "de_plural": "die Kostens",
+    "de_plural": "die Kosten",
     "lv": "izmaksas",
-    "level": "B1",
-    "study": {
-      "id": "b1-kosten",
-      "layout": "standardStudy",
-      "translation": "izmaksas",
-      "explanation": "Galvenā doma: die Kosten ir izmaksas vai izdevumi - nauda, kas jāmaksā par pakalpojumu, darbu, remontu vai preci. Vārds parasti ir daudzskaitlī.",
-      "examples": [
-        {
-          "de": "Die Kosten sind zu hoch.",
-          "lv": "izmaksas ir pārāk augstas."
-  },
-        {
-          "de": "Wer trägt die Kosten?",
-          "lv": "kurš sedz izmaksas?"
-  },
-        {
-          "de": "Die Reparatur verursacht hohe Kosten.",
-          "lv": "remonts rada lielas izmaksas."
-  },
-      ],
-      "comparison": [
-        {
-          "word": "die Kosten",
-          "meaning": "izmaksas / izdevumi",
-          "example": "Die Kosten steigen. = Izmaksas pieaug."
-  },
-        {
-          "word": "der Preis",
-          "meaning": "cena",
-          "example": "Der Preis ist niedrig. = Cena ir zema."
-  },
-        {
-          "word": "kosten",
-          "meaning": "maksāt",
-          "example": "Das kostet zehn Euro. = Tas maksā desmit eiro."
-  },
-      ],
-      "tip": {
-        "leftBlocks": [
-          {
-            "text": "Kosten tragen = segt izmaksas; etwas kostet = kaut kas maksā."
-  },
-        ]
-  },
-      "important": {
-        "text": "die Kosten ir lietvārds daudzskaitlī, bet kosten ir darbības vārds “maksāt”."
-  },
-      "sectionAccents": {
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "Kosten"
-              ]
-  },
-            "lv": {
-              "purple": [
-                "izmaksas"
-              ]
-  },
-  },
-          {
-            "de": {
-              "blue": [
-                "Kosten"
-              ]
-  },
-            "lv": {
-              "purple": [
-                "sedz izmaksas"
-              ]
-  },
-  },
-          {
-            "de": {
-              "blue": [
-                "Kosten"
-              ],
-              "yellow": [
-                "Reparatur"
-              ]
-  },
-            "lv": {
-              "purple": [
-                "izmaksas"
-              ],
-              "yellow": [
-                "Remonts"
-              ]
-  },
-  },
-        ],
-        "explanation": {
-          "blue": [
-            "die Kosten"
-          ],
-          "purple": [
-            "izmaksas",
-            "izdevumi"
-          ],
-          "yellow": [
-            "pakalpojumu",
-            "darbu",
-            "remontu",
-            "preci"
-          ],
-          "red": [
-            "daudzskaitlī"
-          ]
-  },
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "die Kosten"
-              ]
-  },
-            "meaning": {
-              "purple": [
-                "izmaksas / izdevumi"
-              ]
-  },
-  },
-          {
-            "word": {
-              "green": [
-                "der Preis"
-              ]
-  },
-            "meaning": {
-              "purple": [
-                "cena"
-              ]
-  },
-  },
-          {
-            "word": {
-              "green": [
-                "kosten"
-              ]
-  },
-            "meaning": {
-              "purple": [
-                "maksāt"
-              ]
-  },
-  },
-        ],
-        "tip": {
-          "purple": [
-            "kosten tragen",
-            "kostet"
-          ],
-          "purple": [
-            "segt izmaksas",
-            "maksā"
-          ]
-  },
-        "important": {
-          "purple": [
-            "die Kosten"
-          ],
-          "purple": [
-            "kosten"
-          ],
-          "purple": [
-            "lietvārds",
-            "darbības vārds"
-          ]
-  },
-  },
-  },
+    "level": "B1"
   },
   {
     "de": "Kunde",
@@ -44286,7 +44115,7 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "Pfingsten",
+    "de": "pfingsten",
     "lv": "vasarsvētki",
     "level": "B1"
   },

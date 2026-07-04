@@ -1,7 +1,9 @@
 const fs = require('fs');
 const path = require('path');
 const git = require('isomorphic-git');
-const http = require('isomorphic-git/http/node');
+const baseHttp = require('./http-long-timeout.cjs');
+
+const http = baseHttp;
 
 const root = path.resolve(__dirname, '..');
 const remoteUrl = process.env.GITHUB_REMOTE_URL || process.argv[2];

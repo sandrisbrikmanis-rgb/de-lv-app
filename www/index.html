@@ -6,7 +6,7 @@
   <title>Vācu–latviešu kartītes</title>
   <link rel="stylesheet" href="./style.css">
   <link rel="manifest" href="manifest.json">
-  <meta name="theme-color" content="#0f172a">
+  <meta name="theme-color" content="#000000">
 </head>
 <body>
   <main>
@@ -148,24 +148,6 @@
           <div class="kurss-lesson" id="kurssSentenceStructureLesson" hidden>
           </div>        </div>
       </section>
-      <section class="unwanted-overlay" id="unwantedPanel" hidden aria-label="Nevajadzīgie vārdi" aria-modal="true" role="dialog">
-        <div class="unwanted-panel">
-          <div class="unwanted-header">
-            <h2>Nevajadzīgie vārdi</h2>
-            <button class="unwanted-close" id="unwantedCloseBtn" type="button" aria-label="Aizvērt nevajadzīgos">×</button>
-          </div>
-          <div class="unwanted-list" id="unwantedList"></div>
-        </div>
-      </section>
-      <section class="unwanted-overlay" id="masteredPanel" hidden aria-label="100% zināmi" aria-modal="true" role="dialog">
-        <div class="unwanted-panel">
-          <div class="unwanted-header">
-            <h2>100% zināmi</h2>
-            <button class="unwanted-close" id="masteredCloseBtn" type="button" aria-label="Aizvērt 100% zināmos">×</button>
-          </div>
-          <div class="unwanted-list" id="masteredList"></div>
-        </div>
-      </section>
 
       <article class="card">
         <div class="card-inner">
@@ -195,8 +177,9 @@
           <div class="desktop-side-group desktop-side-group-quick">
             <div class="desktop-side-title">Ātrā pārslēgšana</div>
             <button id="shuffleBtn" type="button">Jaukt secību</button>
-            <button id="spellingModeBtn" type="button">Pareizrakstība</button>
+            <button id="spellingModeBtn" type="button">✍️ Pareizrakstība</button>
             <button id="directionBtn" type="button">Vācu ➔ latviešu</button>
+            <button id="infoBtn" type="button"><span class="info-icon" aria-hidden="true">ⓘ</span> Kā tas strādā?</button>
           </div>
           <button id="verbRandomBtn" type="button" hidden style="display: none;">Jaukt darbības vārdus</button>
           <button id="markMasteredBtn" type="button" hidden style="display: none;">100% zinu</button>

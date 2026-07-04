@@ -105,7 +105,7 @@ function loadAll() {
   const data = {};
   for (const t of TARGETS) {
     const code = fs.readFileSync(path.join(root, t.file), "utf8");
-    const sandbox = {};
+    const sandbox = { window: {} };
     vm.runInNewContext(code, sandbox);
     const words = sandbox[t.key] || [];
     data[t.key] = { ...t, words };

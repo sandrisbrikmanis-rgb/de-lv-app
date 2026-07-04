@@ -6882,12 +6882,12 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "HIV-negativ",
+    "de": "hIV-negativ",
     "lv": "aIDS negatīvs",
     "level": "B2"
   },
   {
-    "de": "HIV-positiv",
+    "de": "hIV-positiv",
     "lv": "aIDS pozitīvs",
     "level": "B2"
   },
@@ -7150,7 +7150,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "Keuchhusten",
+    "de": "keuchhusten",
     "lv": "garais klepus",
     "level": "B2"
   },

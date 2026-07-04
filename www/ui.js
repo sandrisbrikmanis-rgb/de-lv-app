@@ -171,6 +171,7 @@ const elements = {
   shuffleBtn: document.getElementById("shuffleBtn"),
   verbRandomBtn: document.getElementById("verbRandomBtn"),
   spellingModeBtn: document.getElementById("spellingModeBtn"),
+  infoBtn: document.getElementById("infoBtn"),
   spellingPanel: document.getElementById("spellingPanel"),
   spellingInput: document.getElementById("spellingInput"),
   checkSpellingBtn: document.getElementById("checkSpellingBtn"),
@@ -193,12 +194,6 @@ const elements = {
   markUnwantedBtn: document.getElementById("markUnwantedBtn"),
   masteredListBtn: document.getElementById("masteredListBtn"),
   unwantedListBtn: document.getElementById("unwantedListBtn"),
-  masteredPanel: document.getElementById("masteredPanel"),
-  masteredCloseBtn: document.getElementById("masteredCloseBtn"),
-  masteredList: document.getElementById("masteredList"),
-  unwantedPanel: document.getElementById("unwantedPanel"),
-  unwantedCloseBtn: document.getElementById("unwantedCloseBtn"),
-  unwantedList: document.getElementById("unwantedList"),
   pamatiBtn: document.getElementById("pamatiBtn"),
   pamatiPanel: document.getElementById("pamatiPanel"),
   pamatiCloseBtn: document.getElementById("pamatiCloseBtn"),
@@ -308,21 +303,21 @@ const courseLessonConfigs = {
   kurssLesson7: {
     title: "Lekcija 7",
     subtitle: "Pavēles izteiksme, uzrunas forma un daudzskaitlis.",
-    prepare: () => { prepareLesson7Accordion(); renderLesson7ExerciseCard(0, false); }
+    prepare: () => { prepareLesson7Accordion(); renderLesson7ExerciseCard(0, "challenge"); }
   },
   kurssLesson8: {
     title: "Lekcija 8",
     subtitle: "Refleksīvie darbības vārdi, e → i/ie maiņa un akuzatīvs",
     dataKey: "kurssLesson8",
     exerciseAttribute: "data-lesson8-exercise-card",
-    prepare: () => { prepareLesson8Accordion(); renderLesson8ExerciseCard(0, false); renderCourseTranslateCard("lesson8", 0, false); }
+    prepare: () => { prepareLesson8Accordion(); renderLesson8ExerciseCard(0, "challenge"); renderCourseTranslateCard("lesson8", 0, false); }
   },
   kurssLesson9: {
     title: "Lekcija 9",
     subtitle: "dieser/jener, vietniekvārdi, daudzskaitlis un teikumu pārveidošana",
     dataKey: "kurssLesson9",
     exerciseAttribute: "data-lesson9-exercise-card",
-    prepare: () => { prepareLesson9Accordion(); renderLesson9ExerciseCard(0, 0); renderCourseTranslateCard("lesson9", 0, false); }
+    prepare: () => { prepareLesson9Accordion(); renderLesson9ExerciseCard(0, "challenge"); renderCourseTranslateCard("lesson9", 0, false); }
   },
   kurssLesson10: {
     title: "Lekcija 10",
@@ -346,7 +341,7 @@ const courseLessonConfigs = {
     title: "Lekcija 13",
     subtitle: "Der Körper, ķermeņa daļas, turnen, jeder un daudzskaitlis.",
     dataKey: "kurssLesson13",
-    prepare: () => { prepareLesson13Accordion(); renderCourseExerciseCard("lesson13", 0, 0); renderCourseTranslateCard("lesson13", 0, false); }
+    prepare: () => { prepareLesson13Accordion(); renderCourseExerciseCard("lesson13", 0, "challenge"); renderCourseTranslateCard("lesson13", 0, false); }
   },
   kurssLesson14: {
     title: "Lekcija 14",
@@ -375,7 +370,7 @@ const courseLessonConfigs = {
     prepare: () => {
       const accordions = Array.from(elements.kurssLesson16.querySelectorAll(".lesson1-accordion"));
       accordions.forEach((accordion, index) => { accordion.open = index === 0; });
-      renderCourseExerciseCard("lesson16", 0, 0);
+      renderCourseExerciseCard("lesson16", 0, "challenge");
       renderCourseTranslateCard("lesson16", 0, false);
     }
   },
@@ -386,7 +381,7 @@ const courseLessonConfigs = {
     prepare: () => {
       const accordions = Array.from(elements.kurssLesson17.querySelectorAll(".lesson1-accordion"));
       accordions.forEach((accordion, index) => { accordion.open = index === 0; });
-      renderCourseExerciseCard("lesson17", 0, 0);
+      renderCourseExerciseCard("lesson17", 0, "challenge");
       renderCourseTranslateCard("lesson17", 0, false);
     }
   },
@@ -397,7 +392,7 @@ const courseLessonConfigs = {
     prepare: () => {
       const accordions = Array.from(elements.kurssLesson18.querySelectorAll(".lesson1-accordion"));
       accordions.forEach((accordion, index) => { accordion.open = index === 0; });
-      renderCourseExerciseCard("lesson18", 0, 0);
+      renderCourseExerciseCard("lesson18", 0, "challenge");
       renderCourseTranslateCard("lesson18", 0, false);
     }
   },
@@ -408,7 +403,7 @@ const courseLessonConfigs = {
     prepare: () => {
       const accordions = Array.from(elements.kurssLesson19.querySelectorAll(".lesson1-accordion"));
       accordions.forEach((accordion, index) => { accordion.open = index === 0; });
-      renderCourseExerciseCard("lesson19", 0, 0);
+      renderCourseExerciseCard("lesson19", 0, "challenge");
       renderCourseTranslateCard("lesson19", 0, false);
     }
   },
@@ -419,7 +414,7 @@ const courseLessonConfigs = {
     prepare: () => {
       const accordions = Array.from(elements.kurssLesson20.querySelectorAll(".lesson1-accordion"));
       accordions.forEach((accordion, index) => { accordion.open = index === 0; });
-      renderCourseExerciseCard("lesson20", 0, 0);
+      renderCourseExerciseCard("lesson20", 0, "challenge");
       renderCourseTranslateCard("lesson20", 0, false);
     }
   },
@@ -430,7 +425,7 @@ const courseLessonConfigs = {
     prepare: () => {
       const accordions = Array.from(elements.kurssLesson21.querySelectorAll(".lesson1-accordion"));
       accordions.forEach((accordion, index) => { accordion.open = index === 0; });
-      renderCourseExerciseCard("lesson21", 0, 0);
+      renderCourseExerciseCard("lesson21", 0, "challenge");
       renderCourseTranslateCard("lesson21", 0, false);
     }
   }
@@ -450,7 +445,7 @@ function renderCourseLesson(lessonId) {
 
   const lesson = window.COURSE_LESSON_DATA?.[config.dataKey || lessonId];
   renderCourseLessonFromData(target, lesson, config.exerciseAttribute);
-  if (lesson?.id) renderCourseExerciseCard(lesson.id, 0, 0);
+  if (lesson?.id) renderCourseExerciseCard(lesson.id, 0, "challenge");
   target.classList.add("course-lesson");
 }
 
@@ -515,6 +510,375 @@ function resolveExerciseMeta(instruction, task, fallback) {
   return fallback || "";
 }
 
+const exerciseMicroDeckCache = new Map();
+const EXERCISE_PLACEHOLDER_RE = /d\.\.\.|dies\.\.\.|jen\.\.\.|\.\.\./i;
+const EXERCISE_PREP_RE = /(?:^|,\s*)(in|an|auf|vor|hinter|über|unter|zwischen)\s+/i;
+
+function hasExercisePlaceholder(text) {
+  return EXERCISE_PLACEHOLDER_RE.test(String(text || ""));
+}
+
+function splitCommaSegments(text) {
+  return String(text || "").split(/,\s*/).map((part) => part.trim()).filter(Boolean);
+}
+
+function stripAnswerPrefix(firstPart) {
+  return String(firstPart || "").replace(/^[^:]+:\s*/, "").replace(/\.$/, "").trim();
+}
+
+function alignAnswerSegments(basePrefix, challengeSegments, answer) {
+  const answerText = String(answer || "").trim();
+  if (!answerText) return challengeSegments.map(() => "");
+
+  if (basePrefix && answerText.startsWith(basePrefix.trim())) {
+    return splitCommaSegments(answerText.slice(basePrefix.length)).map((part) => part.replace(/\.$/, "").trim());
+  }
+
+  const answerBaseMatch = answerText.match(/^(.+?\s)(?:in|an|auf|vor|hinter|über|unter|zwischen)\s+/i);
+  if (answerBaseMatch) {
+    const rest = answerText.slice(answerBaseMatch[1].length);
+    const parts = splitCommaSegments(rest).map((part) => part.replace(/\.$/, "").trim());
+    if (parts.length >= challengeSegments.length) return parts.slice(0, challengeSegments.length);
+  }
+
+  const parts = splitCommaSegments(answerText).map((part) => part.replace(/\.$/, "").trim());
+  if (parts.length >= challengeSegments.length) {
+    parts[0] = stripAnswerPrefix(parts[0]);
+    return parts.slice(0, challengeSegments.length);
+  }
+  return parts;
+}
+
+function splitPromptAnswerSegments(prompt, answer) {
+  const promptText = String(prompt || "").trim();
+  const answerText = String(answer || "").trim();
+  if (!promptText) {
+    return { basePrefix: "", segments: [{ challenge: "", answer: answerText }] };
+  }
+
+  const newlineParenMatch = promptText.match(/^(.+?)\n\((.+)\)\s*$/s);
+  if (newlineParenMatch) {
+    const basePrefix = newlineParenMatch[1].trim();
+    const challengeSegments = splitCommaSegments(newlineParenMatch[2]);
+    const answerSegments = alignAnswerSegments("", challengeSegments, answerText);
+    return {
+      basePrefix: basePrefix + "\n",
+      segments: challengeSegments.map((challenge, index) => ({
+        challenge: "(" + challenge + ")",
+        answer: answerSegments[index] || ""
+      }))
+    };
+  }
+
+  const parenMatch = promptText.match(/^(.+?)\s*\(([^)]+)\)\s*\.?$/);
+  if (parenMatch) {
+    const basePrefix = parenMatch[1].trim() + " ";
+    const challengeSegments = splitCommaSegments(parenMatch[2]);
+    const answerSegments = alignAnswerSegments(basePrefix, challengeSegments, answerText);
+    return {
+      basePrefix,
+      segments: challengeSegments.map((challenge, index) => ({
+        challenge: "(" + challenge + ")",
+        answer: answerSegments[index] || ""
+      }))
+    };
+  }
+
+  if (promptText.includes("\n") && !newlineParenMatch) {
+    const [firstLine, secondLine] = promptText.split("\n");
+    const basePrefix = firstLine.trim() + "\n";
+    const challengeSegments = splitCommaSegments(secondLine);
+    if (challengeSegments.length > 1 && challengeSegments.some(hasExercisePlaceholder)) {
+      const answerSegments = alignAnswerSegments(basePrefix, challengeSegments, answerText);
+      return {
+        basePrefix,
+        segments: challengeSegments.map((challenge, index) => ({
+          challenge,
+          answer: answerSegments[index] || ""
+        }))
+      };
+    }
+  }
+
+  const commaParts = splitCommaSegments(promptText);
+  const placeholderParts = commaParts.filter(hasExercisePlaceholder);
+  if (placeholderParts.length > 1) {
+    const firstPart = commaParts[0];
+    const prepMatch = firstPart.match(/^(.+?\s)(in|an|auf|vor|hinter|über|unter|zwischen)\s+/i);
+    let basePrefix = "";
+    const challengeSegments = [];
+
+    if (prepMatch) {
+      basePrefix = prepMatch[1];
+      challengeSegments.push(firstPart.slice(basePrefix.length).trim());
+      for (let i = 1; i < commaParts.length; i++) challengeSegments.push(commaParts[i]);
+    } else {
+      const phMatch = firstPart.match(EXERCISE_PLACEHOLDER_RE);
+      if (phMatch) {
+        basePrefix = firstPart.slice(0, phMatch.index).replace(/\s+\S*$/, " ").trimEnd() + " ";
+        challengeSegments.push(firstPart.slice(basePrefix.length).trim());
+        for (let i = 1; i < commaParts.length; i++) challengeSegments.push(commaParts[i]);
+      }
+    }
+
+    if (challengeSegments.length > 1) {
+      const answerSegments = alignAnswerSegments(basePrefix, challengeSegments, answerText);
+      return {
+        basePrefix,
+        segments: challengeSegments.map((challenge, index) => ({
+          challenge,
+          answer: answerSegments[index] || ""
+        }))
+      };
+    }
+  }
+
+  return {
+    basePrefix: "",
+    segments: [{ challenge: promptText, answer: answerText }]
+  };
+}
+
+function isMultiSegmentExercise(prompt, answer) {
+  const split = splitPromptAnswerSegments(prompt, answer);
+  return split.segments.length > 1;
+}
+
+function createMicroCard(fields, sourceCardIndex, microIndex, microTotal) {
+  return {
+    sourceCardIndex,
+    microIndex,
+    microTotal,
+    deckIndex: 0,
+    deckTotal: 0,
+    meta: fields.meta || "",
+    basePrefix: fields.basePrefix || "",
+    challengeSegment: fields.challengeSegment || "",
+    answerSegment: fields.answerSegment || "",
+    cta: fields.cta || "",
+    isDone: Boolean(fields.isDone),
+    kind: fields.kind || "default"
+  };
+}
+
+function finalizeMicrocards(microcards, sourceCardIndex) {
+  const total = microcards.length;
+  return microcards.map((micro, microIndex) => ({
+    ...micro,
+    sourceCardIndex,
+    microIndex,
+    microTotal: total
+  }));
+}
+
+function expandExerciseToMicrocards(card, sourceCardIndex) {
+  if (!card || typeof card !== "object") {
+    return finalizeMicrocards([createMicroCard({ challengeSegment: "", answerSegment: "" }, sourceCardIndex, 0, 1)], sourceCardIndex);
+  }
+
+  if (card.infinitive && card.du) {
+    const prompt = card.infinitive + " — " + card.lv;
+    const forms = [
+      { label: "du", value: card.du, meta: "Forma 1/3: Tu (vienskaitlis)" },
+      { label: "ihr", value: card.ihr, meta: "Forma 2/3: Jūs (daudzskaitlis)" },
+      { label: "Sie", value: card.sie, meta: "Forma 3/3: Sie (pieklājīgā forma)" }
+    ];
+    return finalizeMicrocards(forms.map((form) => createMicroCard({
+      meta: form.meta,
+      basePrefix: prompt + "\n",
+      challengeSegment: form.label + ": ?",
+      answerSegment: form.label + ": " + form.value,
+      kind: "imperative"
+    }, sourceCardIndex, 0, forms.length)), sourceCardIndex);
+  }
+
+  if (Array.isArray(card.forms) && card.forms.length > 1) {
+    const microcards = [];
+    for (let i = 0; i < card.forms.length - 1; i++) {
+      const current = card.forms[i];
+      const next = card.forms[i + 1];
+      microcards.push(createMicroCard({
+        meta: formatExerciseFormMeta(next, i + 1 >= card.forms.length - 1 ? "Pieskaries nākamajai kartītei" : "Pārveido teikumu."),
+        basePrefix: "",
+        challengeSegment: current?.text || "",
+        answerSegment: next?.text || "",
+        isDone: i + 1 >= card.forms.length - 1
+      }, sourceCardIndex, microcards.length, 0));
+    }
+    return finalizeMicrocards(microcards, sourceCardIndex);
+  }
+
+  if (card.ich && card.er) {
+    return finalizeMicrocards([
+      createMicroCard({
+        meta: "Pārveido teikumu 3. personā vienskaitlī.",
+        challengeSegment: card.ich,
+        answerSegment: card.er
+      }, sourceCardIndex, 0, 3),
+      createMicroCard({
+        meta: "Pārveido teikumu 1. personā daudzskaitlī.",
+        challengeSegment: card.er,
+        answerSegment: card.wir || ""
+      }, sourceCardIndex, 1, 3),
+      createMicroCard({
+        meta: "Pieskaries nākamajai kartītei.",
+        challengeSegment: card.wir || "",
+        answerSegment: "",
+        isDone: true,
+        cta: "Pieskaries nākamajai kartītei"
+      }, sourceCardIndex, 2, 3)
+    ], sourceCardIndex);
+  }
+
+  if (card.lv && card.de && !card.prompt) {
+    return finalizeMicrocards([createMicroCard({
+      meta: "Übung II — tulko",
+      challengeSegment: card.lv,
+      answerSegment: card.de
+    }, sourceCardIndex, 0, 1)], sourceCardIndex);
+  }
+
+  if (card.prompt && card.answer) {
+    const microcards = [];
+    const baseMeta = card.type === "fill"
+      ? "Übung I — lieto pareizo locījumu"
+      : resolveExerciseMeta(card.instruction, card.task, "Liec pareizo locījumu un darini daudzskaitli!");
+    const singularSplit = splitPromptAnswerSegments(card.prompt, card.answer);
+    singularSplit.segments.forEach((segment) => {
+      microcards.push(createMicroCard({
+        meta: baseMeta,
+        basePrefix: singularSplit.basePrefix,
+        challengeSegment: segment.challenge,
+        answerSegment: segment.answer
+      }, sourceCardIndex, microcards.length, 0));
+    });
+
+    const secondAnswer = card.answer2 || card.pluralAnswer || "";
+    if (secondAnswer) {
+      const pluralSplit = splitPromptAnswerSegments(card.prompt, secondAnswer);
+      pluralSplit.segments.forEach((segment) => {
+        microcards.push(createMicroCard({
+          meta: resolveExerciseMeta(null, card.task2, "Tagad atbildi daudzskaitlī."),
+          basePrefix: pluralSplit.basePrefix,
+          challengeSegment: segment.challenge,
+          answerSegment: segment.answer
+        }, sourceCardIndex, microcards.length, 0));
+      });
+    }
+
+    return finalizeMicrocards(microcards, sourceCardIndex);
+  }
+
+  return finalizeMicrocards([createMicroCard({
+    meta: card.type === "fill" ? "Übung I — lieto pareizo locījumu" : "",
+    challengeSegment: card.prompt || card.lv || "",
+    answerSegment: card.answer || card.de || ""
+  }, sourceCardIndex, 0, 1)], sourceCardIndex);
+}
+
+function getExerciseSourceCards(lessonId) {
+  const lessonNumber = String(lessonId || "").match(/\d+/)?.[0];
+  if (!lessonNumber) return [];
+  if (lessonNumber === "7") {
+    return typeof lesson7ExerciseCards !== "undefined" ? lesson7ExerciseCards : [];
+  }
+  if (lessonNumber === "8") {
+    const lesson = window.COURSE_LESSON_DATA?.kurssLesson8;
+    const exerciseSection = lesson?.sections?.find((section) => Array.isArray(section.cards));
+    if (exerciseSection?.cards?.length) return exerciseSection.cards;
+    return typeof lesson8ExerciseCards !== "undefined" ? lesson8ExerciseCards : [];
+  }
+  if (lessonNumber === "9") {
+    const lesson = window.COURSE_LESSON_DATA?.kurssLesson9;
+    return lesson?.sections?.find((section) => section.title === "Übung / Vingrinājums")?.cards || [];
+  }
+  const normalizedLessonId = lessonId.startsWith("lesson") ? lessonId : `lesson${lessonNumber}`;
+  return getCourseExerciseCards(normalizedLessonId);
+}
+
+function buildExerciseMicroDeck(cards) {
+  const deck = [];
+  cards.forEach((card, sourceCardIndex) => {
+    expandExerciseToMicrocards(card, sourceCardIndex).forEach((micro) => deck.push(micro));
+  });
+  deck.forEach((micro, deckIndex) => {
+    micro.deckIndex = deckIndex;
+    micro.deckTotal = deck.length;
+  });
+  return deck;
+}
+
+function getExerciseMicroDeck(lessonId) {
+  const lessonNumber = String(lessonId || "").match(/\d+/)?.[0];
+  const normalizedLessonId = lessonId.startsWith("lesson") ? lessonId : `lesson${lessonNumber}`;
+  const cards = getExerciseSourceCards(normalizedLessonId);
+  const cacheKey = normalizedLessonId + ":" + cards.length + ":" + JSON.stringify(cards[0] || {});
+  if (!exerciseMicroDeckCache.has(cacheKey)) {
+    exerciseMicroDeckCache.set(cacheKey, buildExerciseMicroDeck(cards));
+  }
+  return exerciseMicroDeckCache.get(cacheKey);
+}
+
+function getExerciseTarget(lessonId) {
+  const lessonNumber = String(lessonId || "").match(/\d+/)?.[0];
+  if (!lessonNumber) return null;
+  if (lessonNumber === "7") return elements.kurssLesson7?.querySelector("[data-lesson7-exercise-card]");
+  if (lessonNumber === "8") return elements.kurssLesson8?.querySelector("[data-lesson8-exercise-card]");
+  if (lessonNumber === "9") return elements.kurssLesson9?.querySelector("[data-lesson9-exercise-card]");
+  const normalizedLessonId = lessonId.startsWith("lesson") ? lessonId : `lesson${lessonNumber}`;
+  return elements[`kurssLesson${lessonNumber}`]?.querySelector(`[data-course-exercise-card][data-lesson-id="${normalizedLessonId}"]`);
+}
+
+function getExerciseSourceCardTotal(lessonId) {
+  return getExerciseSourceCards(lessonId).length;
+}
+
+function highlightAnswerSegment(challengeSegment, answerSegment) {
+  const challenge = String(challengeSegment || "");
+  const answer = String(answerSegment || "");
+  if (!answer) return "";
+
+  const placeholderMatch = challenge.match(EXERCISE_PLACEHOLDER_RE);
+  if (placeholderMatch) {
+    const pre = challenge.slice(0, placeholderMatch.index);
+    const post = challenge.slice(placeholderMatch.index + placeholderMatch[0].length);
+    let middle = answer;
+    if (pre && middle.startsWith(pre)) {
+      middle = middle.slice(pre.length);
+    } else if (pre.trim()) {
+      const anchor = pre.trim().split(/\s+/).pop();
+      const anchorIndex = middle.indexOf(anchor);
+      if (anchorIndex >= 0) middle = middle.slice(anchorIndex + anchor.length).trimStart();
+    }
+    const postTrimmed = post.trim();
+    if (postTrimmed && middle.endsWith(postTrimmed)) {
+      middle = middle.slice(0, middle.length - postTrimmed.length).trimEnd();
+    }
+    const middleStart = answer.indexOf(middle);
+    if (middleStart < 0 || !middle) return escapeHtml(answer);
+    return escapeHtml(answer.slice(0, middleStart))
+      + '<span class="exercise-answer-highlight">' + escapeHtml(middle) + "</span>"
+      + escapeHtml(answer.slice(middleStart + middle.length));
+  }
+
+  let prefixLen = 0;
+  while (prefixLen < challenge.length && prefixLen < answer.length && challenge[prefixLen] === answer[prefixLen]) {
+    prefixLen++;
+  }
+  let suffixLen = 0;
+  while (
+    suffixLen < challenge.length - prefixLen
+    && suffixLen < answer.length - prefixLen
+    && challenge[challenge.length - 1 - suffixLen] === answer[answer.length - 1 - suffixLen]
+  ) {
+    suffixLen++;
+  }
+  const middle = answer.slice(prefixLen, answer.length - suffixLen);
+  return escapeHtml(answer.slice(0, prefixLen))
+    + (middle ? '<span class="exercise-answer-highlight">' + escapeHtml(middle) + "</span>" : "")
+    + escapeHtml(answer.slice(answer.length - suffixLen));
+}
+
 function applyExerciseCardPhaseClass(target, phase) {
   target.classList.add("exercise-unified-card");
   target.classList.remove("exercise-phase-challenge", "exercise-phase-reveal");
@@ -522,11 +886,30 @@ function applyExerciseCardPhaseClass(target, phase) {
 }
 
 function renderExerciseCardShell(target, options) {
-  const { progress, meta, phase, prompt, answers, cta } = options;
+  const { progress, meta, phase, prompt, answers, cta, micro } = options;
   applyExerciseCardPhaseClass(target, phase);
   const isReveal = phase === "reveal";
   const bodyParts = [];
-  if (isReveal) {
+
+  if (micro) {
+    const challengeText = String(micro.challengeSegment || "");
+    const answerText = String(micro.answerSegment || "");
+    const basePrefix = String(micro.basePrefix || "");
+    if (isReveal) {
+      if (basePrefix) {
+        bodyParts.push('<span class="lesson1-training-text exercise-card-prompt exercise-card-prompt-muted">' + escapeHtml(basePrefix).replace(/\n/g, "<br>") + "</span>");
+      }
+      if (answerText) {
+        bodyParts.push('<span class="lesson1-training-answer">' + highlightAnswerSegment(challengeText, answerText) + "</span>");
+      } else if (micro.isDone) {
+        bodyParts.push('<span class="exercise-card-cta">' + escapeHtml(cta || "Pieskaries nākamajai kartītei") + "</span>");
+      }
+    } else {
+      const fullPrompt = basePrefix + challengeText;
+      bodyParts.push('<span class="lesson1-training-text exercise-card-prompt">' + escapeHtml(fullPrompt).replace(/\n/g, "<br>") + "</span>");
+      bodyParts.push('<span class="exercise-card-cta">' + escapeHtml(cta || (micro.isDone ? "Pieskaries nākamajai kartītei" : "Pieskaries, lai redzētu atbildi")) + "</span>");
+    }
+  } else if (isReveal) {
     bodyParts.push('<span class="lesson1-training-text exercise-card-prompt exercise-card-prompt-muted">' + escapeHtml(prompt || "") + '</span>');
     if (Array.isArray(answers) && answers.length) {
       bodyParts.push('<span class="lesson1-training-divider" aria-hidden="true"></span>');
@@ -538,6 +921,7 @@ function renderExerciseCardShell(target, options) {
     bodyParts.push('<span class="lesson1-training-text exercise-card-prompt">' + escapeHtml(prompt || "") + '</span>');
     if (cta) bodyParts.push('<span class="exercise-card-cta">' + escapeHtml(cta) + '</span>');
   }
+
   target.innerHTML =
     '<span class="exercise-card-header">' +
       '<span class="lesson1-training-progress">' + escapeHtml(progress) + '</span>' +
@@ -546,118 +930,77 @@ function renderExerciseCardShell(target, options) {
     '<span class="exercise-card-body">' + bodyParts.join("") + '</span>';
 }
 
-function renderCourseExerciseCard(lessonId, index = 0, step = 0) {
+function renderMicroExerciseCard(target, lessonId, deckIndex = 0, phase = "challenge") {
+  if (!target) return;
   const lessonNumber = String(lessonId || "").match(/\d+/)?.[0];
   if (!lessonNumber) return;
-  const normalizedLessonId = `lesson${lessonNumber}`;
-  const target = elements[`kurssLesson${lessonNumber}`]?.querySelector(`[data-course-exercise-card][data-lesson-id="${normalizedLessonId}"]`);
-  const cards = getCourseExerciseCards(normalizedLessonId);
-  if (!target || !cards.length) return;
-  const safeIndex = ((index % cards.length) + cards.length) % cards.length;
-  const card = cards[safeIndex];
+  const normalizedLessonId = lessonId.startsWith("lesson") ? lessonId : `lesson${lessonNumber}`;
+  const deck = getExerciseMicroDeck(normalizedLessonId);
+  if (!deck.length) return;
+
+  const safeIndex = ((Number(deckIndex) || 0) % deck.length + deck.length) % deck.length;
+  const micro = deck[safeIndex];
+  const sourceCardTotal = getExerciseSourceCardTotal(normalizedLessonId);
+  const progressParts = ["Lekcija " + lessonNumber + " · Vingrinājums", (micro.sourceCardIndex + 1) + " / " + sourceCardTotal];
+  if (micro.microTotal > 1) progressParts.push((micro.microIndex + 1) + " / " + micro.microTotal);
+  const progress = progressParts.join(" · ");
+  const isLastDeck = safeIndex >= deck.length - 1;
+  const revealCta = isLastDeck ? "Pieskaries nākamajai kartītei" : "Pieskaries turpināt";
+
   target.dataset.lessonId = normalizedLessonId;
-  target.dataset.cardIndex = String(safeIndex);
-
-  if (card.prompt && card.answer) {
-    const hasSecondAnswer = Boolean(card.answer2 || card.pluralAnswer);
-    const safeStep = hasSecondAnswer ? Math.min(Math.max(Number(step) || 0, 0), 2) : ((Number(step) || 0) > 0 ? 1 : 0);
-    const secondAnswer = card.answer2 || card.pluralAnswer || "";
-    const progress = "Lekcija " + lessonNumber + " · Vingrinājums · " + (safeIndex + 1) + " / " + cards.length;
-    const baseMeta = resolveExerciseMeta(card.instruction, card.task, "Liec pareizo locījumu un darini daudzskaitli!");
-    target.dataset.step = String(safeStep);
-
-    if (safeStep === 0) {
-      renderExerciseCardShell(target, {
-        progress,
-        meta: baseMeta,
-        phase: "challenge",
-        prompt: card.prompt || "",
-        cta: "Pieskaries, lai redzētu atbildi"
-      });
-      return;
-    }
-
-    if (safeStep === 1) {
-      renderExerciseCardShell(target, {
-        progress,
-        meta: hasSecondAnswer ? resolveExerciseMeta(null, card.task2, "Tagad atbildi daudzskaitlī.") : baseMeta,
-        phase: "reveal",
-        prompt: card.prompt || "",
-        answers: [card.answer || ""]
-      });
-      return;
-    }
-
-    renderExerciseCardShell(target, {
-      progress,
-      meta: resolveExerciseMeta(null, card.done, "Pieskaries nākamajai kartītei"),
-      phase: "reveal",
-      prompt: card.prompt || "",
-      answers: [card.answer || "", secondAnswer].filter(Boolean)
-    });
-    return;
-  }
-
-  const rawStep = Math.max(0, Number(step) || 0);
-  const pairIndex = Math.min(Math.floor(rawStep / 2), 2);
-  const isReveal = rawStep % 2 === 1;
-  const transforms = [
-    { prompt: card.ich || "", answer: card.er || "", meta: "Pārveido teikumu 3. personā vienskaitlī." },
-    { prompt: card.er || "", answer: card.wir || "", meta: "Pārveido teikumu 1. personā daudzskaitlī." },
-    { prompt: card.wir || "", answer: "", meta: "Pieskaries nākamajai kartītei." }
-  ];
-  const current = transforms[pairIndex];
-  const progress = "Lekcija " + lessonNumber + " · Vingrinājums · " + (safeIndex + 1) + " / " + cards.length;
-  target.dataset.step = String(rawStep);
-
-  if (!isReveal) {
-    renderExerciseCardShell(target, {
-      progress,
-      meta: current.meta,
-      phase: "challenge",
-      prompt: current.prompt,
-      cta: current.answer ? "Pieskaries, lai redzētu atbildi" : "Pieskaries nākamajai kartītei"
-    });
-    return;
-  }
+  target.dataset.deckIndex = String(safeIndex);
+  target.dataset.phase = phase;
+  delete target.dataset.step;
+  delete target.dataset.cardIndex;
+  delete target.dataset.formStep;
+  delete target.dataset.showingBack;
+  delete target.dataset.trainingIndex;
 
   renderExerciseCardShell(target, {
     progress,
-    meta: transforms[Math.min(pairIndex + 1, 2)].meta,
-    phase: "reveal",
-    prompt: current.prompt,
-    answers: current.answer ? [current.answer] : []
+    meta: micro.meta,
+    phase,
+    micro,
+    cta: phase === "reveal" ? revealCta : (micro.cta || (micro.isDone && !micro.answerSegment ? "Pieskaries nākamajai kartītei" : "Pieskaries, lai redzētu atbildi"))
   });
 }
 
-function handleCourseExerciseCardClick(card) {
+function handleMicroExerciseClick(card) {
   if (!card) return;
   const lessonId = card.dataset.lessonId;
-  const cards = getCourseExerciseCards(lessonId);
-  if (!cards.length) return;
-  const index = Number(card.dataset.cardIndex || 0);
-  const step = Number(card.dataset.step || 0);
-  const current = cards[index];
-  if (current?.prompt && current?.answer) {
-    const hasSecondAnswer = Boolean(current.answer2 || current.pluralAnswer);
-    if (hasSecondAnswer) {
-      renderCourseExerciseCard(lessonId, step >= 2 ? (index + 1) % cards.length : index, step >= 2 ? 0 : step + 1);
-    } else {
-      renderCourseExerciseCard(lessonId, step > 0 ? (index + 1) % cards.length : index, step > 0 ? 0 : 1);
+  const deckIndex = Number(card.dataset.deckIndex || 0);
+  const phase = card.dataset.phase || "challenge";
+  const deck = getExerciseMicroDeck(lessonId);
+  if (!deck.length) return;
+
+  const micro = deck[deckIndex];
+  if (phase === "challenge") {
+    if (micro.isDone && !micro.answerSegment) {
+      renderMicroExerciseCard(card, lessonId, deckIndex + 1, "challenge");
+      return;
     }
+    if (micro.answerSegment) {
+      renderMicroExerciseCard(card, lessonId, deckIndex, "reveal");
+      return;
+    }
+    renderMicroExerciseCard(card, lessonId, deckIndex + 1, "challenge");
     return;
   }
-  const rawStep = Number(card.dataset.step || 0);
-  const pairIndex = Math.floor(rawStep / 2);
-  if (rawStep % 2 === 0) {
-    if (pairIndex >= 2) {
-      renderCourseExerciseCard(lessonId, (index + 1) % cards.length, 0);
-    } else {
-      renderCourseExerciseCard(lessonId, index, rawStep + 1);
-    }
-    return;
-  }
-  renderCourseExerciseCard(lessonId, index, rawStep + 1);
+
+  renderMicroExerciseCard(card, lessonId, deckIndex + 1, "challenge");
+}
+
+function renderCourseExerciseCard(lessonId, deckIndex = 0, phase = "challenge") {
+  const lessonNumber = String(lessonId || "").match(/\d+/)?.[0];
+  if (!lessonNumber) return;
+  const normalizedLessonId = `lesson${lessonNumber}`;
+  const target = getExerciseTarget(normalizedLessonId);
+  if (!target) return;
+  renderMicroExerciseCard(target, normalizedLessonId, deckIndex, phase);
+}
+
+function handleCourseExerciseCardClick(card) {
+  handleMicroExerciseClick(card);
 }function getCourseTranslateCards(lessonId) {
   const lessonNumber = String(lessonId || "").match(/\d+/)?.[0];
   if (!lessonNumber) return [];
@@ -1661,56 +2004,14 @@ const lesson8ExerciseCards = [
   }
 ];
 
-function renderLesson7ExerciseCard(index = 0, formStep = 0) {
-  const card = elements.kurssLesson7.querySelector("[data-lesson7-exercise-card]");
+function renderLesson7ExerciseCard(deckIndex = 0, phase = "challenge") {
+  const card = getExerciseTarget("lesson7");
   if (!card) return;
-  const safeIndex = ((index % lesson7ExerciseCards.length) + lesson7ExerciseCards.length) % lesson7ExerciseCards.length;
-  const safeStep = Math.max(0, Math.min(3, Number(formStep) || 0));
-  const item = lesson7ExerciseCards[safeIndex];
-  const formLabels = ["Tu (vienskaitlis)", "Jūs (daudzskaitlis)", "Sie (pieklājīgā forma)"];
-  const forms = [
-    { label: "du", value: item.du },
-    { label: "ihr", value: item.ihr },
-    { label: "Sie", value: item.sie }
-  ];
-  const prompt = item.infinitive + " — " + item.lv;
-  const progress = "Lekcija 7 · Übung · " + (safeIndex + 1) + " / " + lesson7ExerciseCards.length;
-  card.dataset.trainingIndex = String(safeIndex);
-  card.dataset.formStep = String(safeStep);
-  card.dataset.showingBack = safeStep > 0 ? "true" : "false";
-
-  if (safeStep === 0) {
-    renderExerciseCardShell(card, {
-      progress,
-      meta: "Izveido pavēles formas. Forma 1/3: " + formLabels[0],
-      phase: "challenge",
-      prompt,
-      cta: "Pieskaries, lai redzētu formu"
-    });
-    return;
-  }
-
-  const revealedForms = forms.slice(0, safeStep).map((form) => form.label + ": " + form.value);
-  const formIndex = Math.min(safeStep - 1, 2);
-  renderExerciseCardShell(card, {
-    progress,
-    meta: safeStep < 3
-      ? "Forma " + (safeStep + 1) + "/3: " + formLabels[formIndex]
-      : "Pieskaries nākamajai kartītei",
-    phase: "reveal",
-    prompt,
-    answers: revealedForms
-  });
+  renderMicroExerciseCard(card, "lesson7", deckIndex, phase);
 }
 
 function handleLesson7ExerciseCardClick(card) {
-  const currentIndex = Number(card.dataset.trainingIndex || "0");
-  const currentStep = Number(card.dataset.formStep || "0");
-  if (currentStep >= 3) {
-    renderLesson7ExerciseCard(currentIndex + 1, 0);
-  } else {
-    renderLesson7ExerciseCard(currentIndex, currentStep + 1);
-  }
+  handleMicroExerciseClick(card);
 }
 function prepareLesson1Accordion() {
   const sections = Array.from(elements.kurssLesson1.querySelectorAll(".lesson1-accordion"));
@@ -1765,7 +2066,7 @@ function prepareLesson7Accordion() {
   sections.forEach((section, index) => {
     section.open = index === 0;
   });
-  renderLesson7ExerciseCard(0, false);
+  renderLesson7ExerciseCard(0, "challenge");
 }
 
 function getLesson8ExerciseCards() {
@@ -1774,48 +2075,14 @@ function getLesson8ExerciseCards() {
   return exerciseSection?.cards?.length ? exerciseSection.cards : lesson8ExerciseCards;
 }
 
-function renderLesson8ExerciseCard(index = 0, showingBack = false) {
-  const card = elements.kurssLesson8.querySelector("[data-lesson8-exercise-card]");
-  const deck = getLesson8ExerciseCards();
-  if (!card || !deck.length) return;
-  const safeIndex = ((index % deck.length) + deck.length) % deck.length;
-  const item = deck[safeIndex];
-  const isFill = item.type === "fill";
-  const frontText = isFill ? item.prompt : item.lv;
-  const answerText = isFill ? item.answer : item.de;
-  const stepText = isFill ? "Übung I — lieto pareizo locījumu" : "Übung II — tulko";
-  const progress = "Lekcija 8 · Übung · " + (safeIndex + 1) + " / " + deck.length;
-  card.dataset.trainingIndex = String(safeIndex);
-  card.dataset.showingBack = showingBack ? "true" : "false";
-
-  if (!showingBack) {
-    renderExerciseCardShell(card, {
-      progress,
-      meta: stepText,
-      phase: "challenge",
-      prompt: frontText || "",
-      cta: "Pieskaries, lai redzētu atbildi"
-    });
-    return;
-  }
-
-  renderExerciseCardShell(card, {
-    progress,
-    meta: stepText,
-    phase: "reveal",
-    prompt: frontText || "",
-    answers: [answerText || ""]
-  });
+function renderLesson8ExerciseCard(deckIndex = 0, phase = "challenge") {
+  const card = getExerciseTarget("lesson8");
+  if (!card) return;
+  renderMicroExerciseCard(card, "lesson8", deckIndex, phase);
 }
 
 function handleLesson8ExerciseCardClick(card) {
-  const currentIndex = Number(card.dataset.trainingIndex || "0");
-  const showingBack = card.dataset.showingBack === "true";
-  if (showingBack) {
-    renderLesson8ExerciseCard(currentIndex + 1, false);
-  } else {
-    renderLesson8ExerciseCard(currentIndex, true);
-  }
+  handleMicroExerciseClick(card);
 }
 
 function prepareLesson10Accordion() {
@@ -1853,55 +2120,16 @@ function formatExerciseFormMeta(form, fallback) {
   return label ? label + " · " + task : task;
 }
 
-function renderLesson9ExerciseCard(index = 0, rawStep = 0) {
-  const cards = getLesson9ExerciseCards();
-  const target = elements.kurssLesson9?.querySelector("[data-lesson9-exercise-card]");
-  if (!target || !cards.length) return;
-  const safeIndex = ((index % cards.length) + cards.length) % cards.length;
-  const card = cards[safeIndex];
-  const forms = Array.isArray(card.forms) && card.forms.length ? card.forms : [{ label: "1/1 Teikums", task: card.task || "Vingrinājums", text: card.prompt || card.base || "" }];
-  const step = Math.max(0, Number(rawStep) || 0);
-  const pairIndex = Math.min(Math.floor(step / 2), forms.length - 2);
-  const isReveal = step % 2 === 1;
-  const progress = "Lekcija 9 · Übung · " + (safeIndex + 1) + " / " + cards.length;
-  target.dataset.cardIndex = String(safeIndex);
-  target.dataset.step = String(step);
-
-  if (!isReveal) {
-    renderExerciseCardShell(target, {
-      progress,
-      meta: formatExerciseFormMeta(forms[pairIndex], "Pārveido teikumu."),
-      phase: "challenge",
-      prompt: forms[pairIndex]?.text || "",
-      cta: "Pieskaries, lai redzētu atbildi"
-    });
-    return;
-  }
-
-  const nextForm = forms[pairIndex + 1];
-  renderExerciseCardShell(target, {
-    progress,
-    meta: formatExerciseFormMeta(nextForm, pairIndex + 1 >= forms.length - 1 ? "Pieskaries nākamajai kartītei" : "Pārveido teikumu."),
-    phase: "reveal",
-    prompt: forms[pairIndex]?.text || "",
-    answers: nextForm?.text ? [nextForm.text] : []
-  });
+function renderLesson9ExerciseCard(deckIndex = 0, phase = "challenge") {
+  const target = getExerciseTarget("lesson9");
+  if (!target) return;
+  renderMicroExerciseCard(target, "lesson9", deckIndex, phase);
 }
 
 function handleLesson9ExerciseCardClick(event) {
   const target = event.target.closest("[data-lesson9-exercise-card]");
   if (!target) return;
-  const cards = getLesson9ExerciseCards();
-  if (!cards.length) return;
-  const index = Number(target.dataset.cardIndex || 0);
-  const step = Number(target.dataset.step || 0);
-  const forms = cards[index]?.forms || [];
-  const lastStep = Math.max(0, (forms.length - 1) * 2 - 1);
-  if (step >= lastStep) {
-    renderLesson9ExerciseCard(index + 1, 0);
-  } else {
-    renderLesson9ExerciseCard(index, step + 1);
-  }
+  handleMicroExerciseClick(target);
 }
 
 function prepareLesson9Accordion() {
@@ -1909,7 +2137,7 @@ function prepareLesson9Accordion() {
   accordions.forEach((accordion, index) => {
     accordion.open = index === 0;
   });
-  renderLesson9ExerciseCard(0, 0);
+  renderLesson9ExerciseCard(0, "challenge");
   renderCourseTranslateCard("lesson9", 0, false);
 }
 
@@ -1918,7 +2146,7 @@ function prepareLesson8Accordion() {
   sections.forEach((section, index) => {
     section.open = index === 0;
   });
-  renderLesson8ExerciseCard(0, false);
+  renderLesson8ExerciseCard(0, "challenge");
   renderCourseTranslateCard("lesson8", 0, false);
 }
 
@@ -2571,8 +2799,175 @@ function learnedWithinDays(status, days) {
 
 function timeReviewConfig() {
   return state.timeReviewMode === "month"
-    ? { days: 30, empty: "Šajā grupā nav vārdu mēneša pārskatam.", done: "Mēneša pārskats pabeigts.", label: "Mēneša pārskats" }
-    : { days: 7, empty: "Šajā grupā nav vārdu nedēļas pārskatam.", done: "Nedēļas pārskats pabeigts.", label: "Nedēļas pārskats" };
+    ? { days: 30, empty: "Nav iemācītu vārdu mēneša pārskatam.", done: "Mēneša pārskats pabeigts.", label: "Mēneša pārskats" }
+    : { days: 7, empty: "Nav iemācītu vārdu nedēļas pārskatam.", done: "Nedēļas pārskats pabeigts.", label: "Nedēļas pārskats" };
+}
+
+function latvianWordCountLabel(count) {
+  const n = Number(count) || 0;
+  const mod10 = n % 10;
+  const mod100 = n % 100;
+  if (mod100 >= 11 && mod100 <= 19) return "vārdi";
+  if (mod10 === 1) return "vārds";
+  return "vārdi";
+}
+
+function timeReviewModalConfig(mode) {
+  return mode === "month"
+    ? {
+        days: 30,
+        empty: "Nav iemācītu vārdu mēneša pārskatam.",
+        countTitle: (count) => `Šomēnes iemācīti: ${count} ${latvianWordCountLabel(count)}`
+      }
+    : {
+        days: 7,
+        empty: "Nav iemācītu vārdu nedēļas pārskatam.",
+        countTitle: (count) => `Šonedēļ iemācīti: ${count} ${latvianWordCountLabel(count)}`
+      };
+}
+
+function collectTimeReviewEntries(mode) {
+  const config = timeReviewModalConfig(mode);
+  const entries = [];
+
+  for (const groupKey of groups) {
+    const learnedSet = new Set(state.learned[groupKey] || []);
+    const cards = cardsForSessionKey(groupKey);
+    for (const card of cards) {
+      const id = idForSessionKey(card, groupKey);
+      if (!learnedSet.has(id)) continue;
+      const status = state.reviewStatus[id];
+      if (!learnedWithinDays(status, config.days)) continue;
+      entries.push({
+        id,
+        groupKey,
+        level: card.level || groupKey,
+        de: formatGermanEntry(card),
+        lv: card.lv || "",
+        learnedAt: status?.learnedAt || status?.lastCorrectAt || ""
+      });
+    }
+  }
+
+  entries.sort((a, b) => {
+    const timeA = new Date(a.learnedAt).getTime();
+    const timeB = new Date(b.learnedAt).getTime();
+    return (Number.isNaN(timeB) ? 0 : timeB) - (Number.isNaN(timeA) ? 0 : timeA);
+  });
+
+  return { config, entries };
+}
+
+function renderTimeReviewModalContent(container, mode) {
+  const { config, entries } = collectTimeReviewEntries(mode);
+  const modal = document.getElementById("timeReviewModal");
+  const header = modal?.querySelector(".modal-header h2");
+  if (header) {
+    header.className = "modal-count-title";
+    header.textContent = entries.length ? config.countTitle(entries.length) : config.empty;
+  }
+
+  if (!entries.length) {
+    container.innerHTML = `<p class="modal-empty">${escapeHtml(config.empty)}</p>`;
+    return;
+  }
+
+  container.innerHTML = entries.map((entry) => `
+    <div class="modal-row">
+      <div class="modal-word modal-word-with-badge">
+        <span class="modal-level-badge">[${escapeHtml(groupDisplayLabel(entry.level))}]</span>
+        <strong>${escapeHtml(entry.de)}</strong>
+      </div>
+      <button type="button" class="modal-remove-btn" data-restore-time-review="${escapeHtml(entry.id)}" data-time-review-group="${escapeHtml(entry.groupKey)}">Atgriezt</button>
+    </div>
+  `).join("");
+}
+
+function restoreFromTimeReview(id, groupKey) {
+  if (!id || !groupKey) return;
+  if (!state.learned[groupKey]) {
+    state.learned[groupKey] = [];
+  }
+  state.learned[groupKey] = state.learned[groupKey].filter((learnedId) => learnedId !== id);
+  delete state.reviewStatus[id];
+  saveReviewStatus();
+  saveProgress();
+  const modal = document.getElementById("timeReviewModal");
+  const list = document.getElementById("timeReviewList");
+  if (list && modal?.dataset.reviewMode) {
+    renderTimeReviewModalContent(list, modal.dataset.reviewMode);
+  }
+  render();
+}
+
+function openTimeReviewModal(mode) {
+  showWordListModal({
+    id: "timeReviewModal",
+    title: mode === "month" ? "Mēneša pārskats" : "Nedēļas pārskats",
+    ariaLabel: mode === "month" ? "Mēneša pārskats" : "Nedēļas pārskats",
+    listId: "timeReviewList",
+    renderContent: (container) => renderTimeReviewModalContent(container, mode),
+    onListClick: (event) => {
+      const button = event.target.closest("[data-restore-time-review]");
+      if (button) {
+        restoreFromTimeReview(button.dataset.restoreTimeReview, button.dataset.timeReviewGroup);
+      }
+    }
+  });
+
+  const modal = document.getElementById("timeReviewModal");
+  if (modal) {
+    modal.dataset.reviewMode = mode;
+  }
+}
+
+function ensureInfoPopup() {
+  let popup = document.getElementById("infoPopup");
+  if (popup) return popup;
+
+  popup = document.createElement("div");
+  popup.className = "modal-overlay";
+  popup.id = "infoPopup";
+  popup.hidden = true;
+  popup.setAttribute("role", "dialog");
+  popup.setAttribute("aria-modal", "true");
+  popup.setAttribute("aria-label", "Kā tas strādā?");
+  popup.innerHTML = `
+    <div class="modal-backdrop" aria-hidden="true"></div>
+    <div class="modal-content info-popup-content">
+      <header class="modal-header">
+        <h2>Kā tas strādā?</h2>
+        <button type="button" class="modal-close" aria-label="Aizvērt">×</button>
+      </header>
+      <div class="info-popup-body">
+        <p><strong>Mācīšanās režīmi.</strong> Izvēlies līmeni (A1, A2 u.c.) un režīmu: jauni vārdi, atkārtojumi vai jaukts režīms.</p>
+        <p><strong>Zinu / Nezinu.</strong> Atzīmē, vai atbildi zini. Pareizas atbildes pārvieto vārdu tuvāk “iemācīts” stāvoklim.</p>
+        <p><strong>Pareizrakstība.</strong> Ieslēdz ✍️ Pareizrakstība, lai rakstītu atbildi ar roku — lieliski apgūstot rakstību.</p>
+        <p><strong>Nedēļas un mēneša pārskats.</strong> Skaties visus iemācītos vārdus no visiem līmeņiem vienā sarakstā un atgriez tos mācīšanā, ja vēlies.</p>
+        <p><strong>Problemātiskie vārdi.</strong> Vārdi, kurus nezināt vairākas reizes, nonāk problemātisko sarakstā atkārtotai apgūšanai.</p>
+      </div>
+    </div>
+  `;
+  document.body.appendChild(popup);
+
+  popup.querySelector(".modal-backdrop").addEventListener("click", closeInfoPopup);
+  popup.querySelector(".modal-close").addEventListener("click", closeInfoPopup);
+  popup.querySelector(".modal-content").addEventListener("click", (event) => event.stopPropagation());
+  return popup;
+}
+
+function openInfoPopup() {
+  const popup = ensureInfoPopup();
+  popup.hidden = false;
+  popup.style.display = "block";
+}
+
+function closeInfoPopup() {
+  const popup = document.getElementById("infoPopup");
+  if (popup) {
+    popup.hidden = true;
+    popup.style.display = "none";
+  }
 }
 
 function timeReviewDeck() {
@@ -3213,7 +3608,7 @@ function fallbackUnwantedEntryFromId(id) {
   return { id, de: id || "", lv: "", level: "" };
 }
 
-function renderUnwantedList() {
+function renderUnwantedList(container) {
   const allCards = groups.flatMap((group) => allCardsForGroup(group));
   const cards = sanitizeUnwantedIds(state.unwantedIds).map((item) => {
     const id = unwantedItemId(item);
@@ -3233,28 +3628,194 @@ function renderUnwantedList() {
   }).filter((item) => item && item.id);
 
   if (!cards.length) {
-    elements.unwantedList.innerHTML = `<p class="unwanted-empty">Nav nevajadzīgo vārdu.</p>`;
+    container.innerHTML = `<p class="modal-empty">Nav nevajadzīgo vārdu.</p>`;
     return;
   }
 
-  elements.unwantedList.innerHTML = cards.map((card) => `
-    <div class="unwanted-row">
-      <div class="unwanted-word"><strong>${formatGermanEntry(card)} — ${card.lv}</strong><span class="unwanted-level">${groupDisplayLabel(card.level)}</span></div>
-      <button type="button" data-restore-unwanted="${card.id}">Atgriezt</button>
+  container.innerHTML = cards.map((card) => `
+    <div class="modal-row">
+      <div class="modal-word">
+        <strong>${escapeHtml(formatGermanEntry(card))} ➔ ${escapeHtml(card.lv)}</strong>
+        <span class="modal-level">${escapeHtml(groupDisplayLabel(card.level))}</span>
+      </div>
+      <button type="button" class="modal-remove-btn" data-restore-unwanted="${card.id}">Atgriezt</button>
     </div>
   `).join("");
 }
 
+let activeWordListModalId = null;
+let activeWordListModalEscapeHandler = null;
+
+function closeWordListModal(modalId) {
+  const modal = document.getElementById(modalId);
+  if (modal) {
+    modal.hidden = true;
+    modal.style.display = "none";
+  }
+  if (activeWordListModalId === modalId) {
+    if (activeWordListModalEscapeHandler) {
+      document.removeEventListener("keydown", activeWordListModalEscapeHandler);
+      activeWordListModalEscapeHandler = null;
+    }
+    activeWordListModalId = null;
+  }
+}
+
+function ensureWordListModal(config) {
+  const { id, title, ariaLabel, listId, actionsHtml = "" } = config;
+  let modal = document.getElementById(id);
+  if (modal) return modal;
+
+  modal = document.createElement("div");
+  modal.className = "modal-overlay";
+  modal.id = id;
+  modal.setAttribute("role", "dialog");
+  modal.setAttribute("aria-modal", "true");
+  modal.setAttribute("aria-label", ariaLabel);
+  modal.innerHTML = `
+    <div class="modal-backdrop" aria-hidden="true"></div>
+    <div class="modal-content">
+      <header class="modal-header">
+        <h2>${escapeHtml(title)}</h2>
+        <button type="button" class="modal-close" aria-label="Aizvērt">×</button>
+      </header>
+      ${actionsHtml}
+      <div class="modal-list" id="${listId}"></div>
+    </div>
+  `;
+  document.body.appendChild(modal);
+
+  modal.querySelector(".modal-backdrop").addEventListener("click", () => closeWordListModal(id));
+  modal.querySelector(".modal-close").addEventListener("click", () => closeWordListModal(id));
+  modal.querySelector(".modal-content").addEventListener("click", (event) => event.stopPropagation());
+  return modal;
+}
+
+function showWordListModal(config) {
+  const { id, listId, renderContent, onListClick } = config;
+  if (activeWordListModalId && activeWordListModalId !== id) {
+    closeWordListModal(activeWordListModalId);
+  }
+
+  const modal = ensureWordListModal(config);
+  const list = modal.querySelector(`#${listId}`);
+  renderContent(list);
+
+  if (onListClick && !modal.dataset.listClickBound) {
+    list.addEventListener("click", onListClick);
+    modal.dataset.listClickBound = "true";
+  }
+
+  activeWordListModalId = id;
+  if (!activeWordListModalEscapeHandler) {
+    activeWordListModalEscapeHandler = (event) => {
+      if (event.key === "Escape" && activeWordListModalId) {
+        closeWordListModal(activeWordListModalId);
+      }
+    };
+  }
+
+  modal.hidden = false;
+  modal.style.display = "block";
+  document.removeEventListener("keydown", activeWordListModalEscapeHandler);
+  document.addEventListener("keydown", activeWordListModalEscapeHandler);
+}
+
 function openUnwantedList() {
-  renderUnwantedList();
-  elements.unwantedPanel.hidden = false;
+  showWordListModal({
+    id: "unwantedWordsModal",
+    title: "Nevajadzīgie vārdi",
+    ariaLabel: "Nevajadzīgie vārdi",
+    listId: "unwantedWordsList",
+    renderContent: renderUnwantedList,
+    onListClick: (event) => {
+      const button = event.target.closest("[data-restore-unwanted]");
+      if (button) restoreUnwanted(button.dataset.restoreUnwanted);
+    }
+  });
 }
 
 function closeUnwantedList() {
-  elements.unwantedPanel.hidden = true;
+  closeWordListModal("unwantedWordsModal");
 }
 
-function renderMasteredList() {
+function getActiveProblematicEntries() {
+  return groups.flatMap((groupKey) => allCardsForGroup(groupKey).filter((card) => {
+    const id = idForSessionKey(card, groupKey);
+    const stats = state.problemStats[id];
+    return !isUnwantedCard(card) && stats && stats.problematic === true && (stats.unknownCount || 0) >= 3;
+  }).map((card) => ({
+    id: idForSessionKey(card, groupKey),
+    de: formatGermanEntry(card),
+    lv: card.lv || "",
+    level: card.level || groupKey,
+    groupKey
+  })));
+}
+
+function renderProblematicWordsModalContent(container) {
+  const entries = getActiveProblematicEntries();
+  if (!entries.length) {
+    container.innerHTML = `<p class="modal-empty">Nav problemātisko vārdu.</p>`;
+    return;
+  }
+
+  container.innerHTML = entries.map((entry) => `
+    <div class="modal-row">
+      <div class="modal-word">
+        <strong>${escapeHtml(entry.de)} ➔ ${escapeHtml(entry.lv)}</strong>
+        <span class="modal-level">${escapeHtml(groupDisplayLabel(entry.level))}</span>
+      </div>
+      <button type="button" class="modal-remove-btn" data-remove-problematic="${entry.id}">Izņemt no saraksta</button>
+    </div>
+  `).join("");
+}
+
+function removeFromProblematicList(id) {
+  const stats = state.problemStats[id];
+  if (!stats) return;
+  stats.problematic = false;
+  stats.correctCountForProblematic = 0;
+  state.problemStats[id] = stats;
+  saveProblemStats();
+  const list = document.getElementById("problematicWordsList");
+  if (list) renderProblematicWordsModalContent(list);
+  if (state.problemMode) render();
+}
+
+function closeProblematicWordsModal() {
+  closeWordListModal("problematicWordsModal");
+}
+
+function showProblematicWordsList() {
+  showWordListModal({
+    id: "problematicWordsModal",
+    title: "Visi problemātiskie",
+    ariaLabel: "Visi problemātiskie",
+    listId: "problematicWordsList",
+    actionsHtml: `
+      <div class="modal-actions">
+        <button type="button" id="problematicStudyBtn">Mācīt flashcards</button>
+      </div>
+    `,
+    renderContent: renderProblematicWordsModalContent,
+    onListClick: (event) => {
+      const button = event.target.closest("[data-remove-problematic]");
+      if (button) removeFromProblematicList(button.dataset.removeProblematic);
+    }
+  });
+
+  const studyBtn = document.getElementById("problematicStudyBtn");
+  if (studyBtn && !studyBtn.dataset.bound) {
+    studyBtn.addEventListener("click", () => {
+      closeProblematicWordsModal();
+      selectAllProblemWords();
+    });
+    studyBtn.dataset.bound = "true";
+  }
+}
+
+function renderMasteredList(container) {
   const allCards = groups.flatMap((group) => allCardsForGroup(group));
   const cards = sanitizeUnwantedIds(state.masteredIds).map((item) => {
     const id = unwantedItemId(item);
@@ -3274,31 +3835,44 @@ function renderMasteredList() {
   }).filter((item) => item && item.id);
 
   if (!cards.length) {
-    elements.masteredList.innerHTML = `<p class="unwanted-empty">Nav 100% zināmo vārdu.</p>`;
+    container.innerHTML = `<p class="modal-empty">Nav 100% zināmo vārdu.</p>`;
     return;
   }
 
-  elements.masteredList.innerHTML = cards.map((card) => `
-    <div class="unwanted-row">
-      <div class="unwanted-word"><strong>${formatGermanEntry(card)} — ${card.lv}</strong><span class="unwanted-level">${groupDisplayLabel(card.level)}</span></div>
-      <button type="button" data-restore-mastered="${card.id}">Atgriezt</button>
+  container.innerHTML = cards.map((card) => `
+    <div class="modal-row">
+      <div class="modal-word">
+        <strong>${escapeHtml(formatGermanEntry(card))} ➔ ${escapeHtml(card.lv)}</strong>
+        <span class="modal-level">${escapeHtml(groupDisplayLabel(card.level))}</span>
+      </div>
+      <button type="button" class="modal-remove-btn" data-restore-mastered="${card.id}">Atgriezt</button>
     </div>
   `).join("");
 }
 
 function openMasteredList() {
-  renderMasteredList();
-  elements.masteredPanel.hidden = false;
+  showWordListModal({
+    id: "masteredWordsModal",
+    title: "100% zināmi",
+    ariaLabel: "100% zināmi",
+    listId: "masteredWordsList",
+    renderContent: renderMasteredList,
+    onListClick: (event) => {
+      const button = event.target.closest("[data-restore-mastered]");
+      if (button) restoreMastered(button.dataset.restoreMastered);
+    }
+  });
 }
 
 function closeMasteredList() {
-  elements.masteredPanel.hidden = true;
+  closeWordListModal("masteredWordsModal");
 }
 
 function restoreMastered(id) {
   state.masteredIds = (state.masteredIds || []).filter((item) => unwantedItemId(item) !== id);
   saveMasteredIds();
-  renderMasteredList();
+  const list = document.getElementById("masteredWordsList");
+  if (list) renderMasteredList(list);
   render();
 }
 
@@ -3327,7 +3901,6 @@ function markCurrentMastered() {
 
   const added = addCardToMastered(card);
   setNotice(added ? "Vārds pievienots 100% zināmajiem." : "Vārds jau ir 100% zināmo sarakstā.");
-  renderMasteredList();
   openMasteredList();
 }
 
@@ -3338,7 +3911,8 @@ function restoreUnwanted(id) {
   if (state.session && state.session.groupKey === activeGroupKey()) {
     createSession();
   }
-  renderUnwantedList();
+  const list = document.getElementById("unwantedWordsList");
+  if (list) renderUnwantedList(list);
   render();
 }
 
@@ -4062,7 +4636,8 @@ function renderModeButtons() {
   elements.verbRandomBtn.textContent = "Jaukt darbības vārdus";
   elements.verbRandomBtn.className = state.verbRandomMode ? "group-btn active" : "";
   elements.verbRandomBtn.setAttribute("aria-pressed", state.verbRandomMode ? "true" : "false");
-  elements.spellingModeBtn.className = state.spellingMode ? "group-btn active" : "";
+  elements.spellingModeBtn.textContent = "✍️ Pareizrakstība";
+  elements.spellingModeBtn.className = state.spellingMode ? "group-btn active spelling-active" : "";
   elements.spellingModeBtn.setAttribute("aria-pressed", state.spellingMode ? "true" : "false");
   if (elements.unwantedBtn) elements.unwantedBtn.hidden = true;
   elements.markMasteredBtn.hidden = true;
@@ -4674,8 +5249,30 @@ ${comparison}
   return true;
 }
 
+function getWordRainSnapshot() {
+  const groupKey = activeGroupKey();
+  return {
+    groupKey,
+    group: state.group,
+    verbMode: state.verbMode,
+    learned: state.learned,
+    problemStats: state.problemStats,
+    masteredIds: state.masteredIds,
+    unwantedIds: state.unwantedIds,
+    sessionIds: state.session?.groupKey === groupKey ? (state.session.ids || []) : []
+  };
+}
+
+function syncWordRain() {
+  window.wordRain?.sync?.(getWordRainSnapshot());
+}
+
+window.syncWordRain = syncWordRain;
+window.__wordRainVerbId = verbId;
+
 function render() {
   clearStudyCard();
+  try {
   if (state.verbMode) {
     renderVerbCard();
     return;
@@ -4767,6 +5364,9 @@ function render() {
   elements.hint.textContent = state.revealed
     ? ""
     : "Klikšķini uz kartītes, lai redzētu tulkojumu.";
+  } finally {
+    syncWordRain();
+  }
 }
 
 initStaticCourseLessons();
@@ -4834,24 +5434,8 @@ if (elements.unwantedBtn) {
   elements.unwantedBtn.hidden = true;
 }
 elements.markUnwantedBtn.addEventListener("click", markCurrentUnwanted);
-elements.masteredListBtn.addEventListener("click", markCurrentMastered);
-elements.masteredCloseBtn.addEventListener("click", closeMasteredList);
-elements.masteredPanel.addEventListener("click", (event) => {
-  if (event.target === elements.masteredPanel) closeMasteredList();
-});
-elements.masteredList.addEventListener("click", (event) => {
-  const button = event.target.closest("[data-restore-mastered]");
-  if (button) restoreMastered(button.dataset.restoreMastered);
-});
+elements.masteredListBtn.addEventListener("click", openMasteredList);
 elements.unwantedListBtn.addEventListener("click", openUnwantedList);
-elements.unwantedCloseBtn.addEventListener("click", closeUnwantedList);
-elements.unwantedPanel.addEventListener("click", (event) => {
-  if (event.target === elements.unwantedPanel) closeUnwantedList();
-});
-elements.unwantedList.addEventListener("click", (event) => {
-  const button = event.target.closest("[data-restore-unwanted]");
-  if (button) restoreUnwanted(button.dataset.restoreUnwanted);
-});
 elements.extraOptionsBtn.addEventListener("click", () => {
   const opening = elements.extraOptions.hidden;
   elements.extraOptions.hidden = !opening;
@@ -4862,9 +5446,12 @@ elements.reviewBtn.addEventListener("click", reviewKnown);
 elements.reviewLastSessionBtn.addEventListener("click", reviewLastSession);
 elements.archiveLastSessionBtn.addEventListener("click", archiveLastSession);
 elements.problemWordsBtn.addEventListener("click", selectProblemWords);
-elements.allProblemWordsBtn.addEventListener("click", selectAllProblemWords);
-elements.weeklyReviewBtn.addEventListener("click", () => startTimeReview("week"));
-elements.monthlyReviewBtn.addEventListener("click", () => startTimeReview("month"));
+elements.allProblemWordsBtn.addEventListener("click", showProblematicWordsList);
+elements.weeklyReviewBtn.addEventListener("click", () => openTimeReviewModal("week"));
+elements.monthlyReviewBtn.addEventListener("click", () => openTimeReviewModal("month"));
+if (elements.infoBtn) {
+  elements.infoBtn.addEventListener("click", openInfoPopup);
+}
 elements.restoreBtn.addEventListener("click", restoreAll);
 elements.restoreCurrentBtn.addEventListener("click", restoreCurrentWord);
 } catch (error) {

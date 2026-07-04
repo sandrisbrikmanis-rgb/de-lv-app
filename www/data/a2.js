@@ -402,7 +402,7 @@ const A2_WORDS = [
     "level": "A2"
   },
     {
-    "de": "Kino",
+    "de": "kino",
     "lv": "kinoteātris",
     "level": "A2"
   },
@@ -7067,7 +7067,7 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "Aschenputtel",
+    "de": "aschenputtel",
     "lv": "pelnrušķīte",
     "level": "A2"
   },
@@ -38279,7 +38279,7 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "Gott",
+    "de": "gott",
     "lv": "dievs",
     "level": "A2"
   },
@@ -40826,7 +40826,7 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "Jugendliche",
+    "de": "jugendliche",
     "lv": "jaunietis",
     "level": "A2"
   },
@@ -41766,12 +41766,12 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "Keller",
+    "de": "keller",
     "lv": "pagrabs",
     "level": "A2"
   },
   {
-    "de": "Kellner",
+    "de": "kellner",
     "lv": "viesmīlis",
     "level": "A2"
   },
@@ -41781,32 +41781,32 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "Kerl",
+    "de": "kerl",
     "lv": "puisis",
     "level": "A2"
   },
   {
-    "de": "Kerze",
+    "de": "kerze",
     "lv": "svece",
     "level": "A2"
   },
   {
-    "de": "Ketchup / Ketschup",
+    "de": "ketchup / Ketschup",
     "lv": "kečups",
     "level": "A2"
   },
   {
-    "de": "Keyboard",
+    "de": "keyboard",
     "lv": "tastatūra",
     "level": "A2"
   },
   {
-    "de": "Kinderarzt",
+    "de": "kinderarzt",
     "lv": "bērnu ārsts",
     "level": "A2"
   },
   {
-    "de": "Kinderfunk",
+    "de": "kinderfunk",
     "lv": "raidījums bērniem",
     "level": "A2"
   },
@@ -41818,37 +41818,37 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "Kinderwagen",
+    "de": "kinderwagen",
     "lv": "bērnu ratiņi",
     "level": "A2"
   },
   {
-    "de": "Kindheit",
+    "de": "kindheit",
     "lv": "bērnība",
     "level": "A2"
   },
   {
-    "de": "Kiosk",
+    "de": "kiosk",
     "lv": "kiosks",
     "level": "A2"
   },
   {
-    "de": "Kirsche",
+    "de": "kirsche",
     "lv": "ķirsis",
     "level": "A2"
   },
   {
-    "de": "Kissen",
+    "de": "kissen",
     "lv": "spilvens",
     "level": "A2"
   },
   {
-    "de": "Kissenbezug",
+    "de": "kissenbezug",
     "lv": "spilvendrāna",
     "level": "A2"
   },
   {
-    "de": "Kiste",
+    "de": "kiste",
     "lv": "kaste",
     "level": "A2"
   },
@@ -72170,7 +72170,7 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "Zwillinge",
+    "de": "zwillinge",
     "lv": "dvīņi",
     "level": "A2"
   }

@@ -8371,7 +8371,7 @@ const A1_WORDS = [
     "level": "A1"
   },
     {
-    "de": "Keks",
+    "de": "keks",
     "lv": "cepums",
     "level": "A1"
   },
@@ -8626,27 +8626,27 @@ const A1_WORDS = [
   },
   },
     {
-    "de": "Kilogramm",
+    "de": "kilogramm",
     "lv": "kilograms",
     "level": "A1"
   },
     {
-    "de": "Kilometer",
+    "de": "kilometer",
     "lv": "kilometrs",
     "level": "A1"
   },
     {
-    "de": "Kind",
+    "de": "kind",
     "lv": "bērns",
     "level": "A1"
   },
     {
-    "de": "Kindergarten",
+    "de": "kindergarten",
     "lv": "bērnudārzs",
     "level": "A1"
   },
     {
-    "de": "Kirche",
+    "de": "kirche",
     "lv": "baznīca",
     "level": "A1"
   },
@@ -8903,249 +8903,9 @@ const A1_WORDS = [
   },
   },
     {
-    "de": "Kosten",
-    "de_article": "die",
-    "de_plural": "die Kostens",
-    "lv": "maksāt • nogaršot",
-    "level": "A1",
-    "study": {
-      "id": "a1-kosten",
-      "layout": "standardStudy",
-      "translation": "maksāt • nogaršot",
-      "explanation": [
-        "Galvenā doma: kosten visbiežāk nozīmē maksāt, ja runa ir par cenu.",
-        "Ar ēdienu vai dzērienu kosten var nozīmēt nogaršot.",
-        "A1 līmenī ļoti bieža frāze ir Was kostet das?",
-        "Konteksts pasaka, vai runa ir par cenu vai garšošanu."
-      ],
-      "examples": [
-        {
-          "de": "Was kostet das?",
-          "lv": "cik tas maksā?"
-  },
-        {
-          "de": "Das kostet zehn Euro.",
-          "lv": "tas maksā desmit eiro."
-  },
-        {
-          "de": "Darf ich den Kuchen kosten?",
-          "lv": "vai drīkstu nogaršot kūku?"
-  },
-        {
-          "de": "Ich koste die Suppe.",
-          "lv": "es nogaršoju zupu."
-  },
-      ],
-      "comparison": [
-        {
-          "word": "kosten",
-          "meaning": "maksāt / nogaršot",
-          "example": "Was kostet das? = Cik tas maksā?"
-  },
-        {
-          "word": "bezahlen",
-          "meaning": "samaksāt",
-          "example": "Ich bezahle. = Es samaksāju."
-  },
-        {
-          "word": "probieren",
-          "meaning": "pamēģināt / nogaršot",
-          "example": "Ich probiere den Kuchen. = Es nogaršoju kūku."
-  },
-        {
-          "word": "kaufen",
-          "meaning": "pirkt",
-          "example": "Ich kaufe Brot. = Es pērku maizi."
-  },
-      ],
-      "tip": {
-        "text": "Atceries: cena → kosten; maksāšana pie kases → bezahlen."
-  },
-      "important": [
-        "Was kostet das? nozīmē “Cik tas maksā?”.",
-        "kosten kā “nogaršot” parādās ar ēdienu vai dzērienu."
-      ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "kosten"
-          ],
-          "purple": [
-            "maksāt",
-            "nogaršot"
-          ],
-          "green": [
-            "cenu",
-            "ēdienu",
-            "dzērienu"
-          ]
-  },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "kostet"
-              ]
-  },
-            "lv": {
-              "purple": [
-                "maksā"
-              ]
-  },
-  },
-          {
-            "de": {
-              "blue": [
-                "kostet"
-              ]
-  },
-            "lv": {
-              "purple": [
-                "maksā"
-              ]
-  },
-  },
-          {
-            "de": {
-              "blue": [
-                "kosten"
-              ]
-  },
-            "lv": {
-              "purple": [
-                "nogaršot"
-              ]
-  },
-  },
-          {
-            "de": {
-              "blue": [
-                "koste"
-              ]
-  },
-            "lv": {
-              "purple": [
-                "nogaršoju"
-              ]
-  },
-  },
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "kosten"
-              ]
-  },
-            "meaning": {
-              "purple": [
-                "maksāt",
-                "nogaršot"
-              ]
-  },
-            "example": {
-              "blue": [
-                "kostet"
-              ],
-              "purple": [
-                "maksā"
-              ]
-  },
-  },
-          {
-            "word": {
-              "green": [
-                "bezahlen"
-              ]
-  },
-            "meaning": {
-              "purple": [
-                "samaksāt"
-              ]
-  },
-            "example": {
-              "yellow": [
-                "bezahle",
-                "samaksāju"
-              ]
-  },
-  },
-          {
-            "word": {
-              "green": [
-                "probieren"
-              ]
-  },
-            "meaning": {
-              "purple": [
-                "pamēģināt",
-                "nogaršot"
-              ]
-  },
-            "example": {
-              "green": [
-                "probiere",
-                "nogaršoju"
-              ]
-  },
-  },
-          {
-            "word": {
-              "green": [
-                "kaufen"
-              ]
-  },
-            "meaning": {
-              "purple": [
-                "pirkt"
-              ]
-  },
-            "example": {
-              "red": [
-                "kaufe",
-                "pērku"
-              ]
-  },
-  },
-        ],
-        "tip": {
-          "left": {
-            "blue": [
-              "kosten"
-            ],
-            "yellow": [
-              "bezahlen"
-            ],
-            "purple": [
-              "cena",
-              "maksāšana"
-            ]
-  },
-  },
-        "important": [
-          {
-            "blue": [
-              "Was kostet das"
-            ],
-            "purple": [
-              "cik tas maksā"
-            ]
-  },
-          {
-            "blue": [
-              "kosten"
-            ],
-            "purple": [
-              "nogaršot"
-            ],
-            "green": [
-              "ēdienu",
-              "dzērienu"
-            ]
-  },
-        ]
-  },
-  },
+    "de": "kosten",
+    "lv": "maksÄt â€¢ nogarÅ¡ot",
+    "level": "A1"
   },
     {
     "de": "küssen",
@@ -13652,7 +13412,7 @@ const A1_WORDS = [
     "level": "A1"
   },
   {
-    "de": "Ostern",
+    "de": "ostern",
     "lv": "lieldienas",
     "level": "A1"
   },
@@ -14296,7 +14056,7 @@ const A1_WORDS = [
     "level": "A1"
   },
     {
-    "de": "Rad fahren",
+    "de": "rad fahren",
     "lv": "braukt ar divriteni",
     "level": "A1"
   },
@@ -15587,7 +15347,7 @@ const A1_WORDS = [
     "level": "A1"
   },
     {
-    "de": "Sie",
+    "de": "sie",
     "lv": "jūs",
     "level": "A1"
   },

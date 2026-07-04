@@ -38,13 +38,15 @@ function Parse-FileCards([string]$RelPath, [string]$Level) {
     if ($depth -le 0) { continue }
     if ($depth -eq 1 -and $line -match '^\s{4}"de":\s*"([^"]*)"') { $de = $Matches[1] }
     $depth += $open - $close
-    if ($depth -le 0 -and $start -ge 0) {
+    if ($depth -eq 0 -and $start -ge 0) {
       $block = $lines[$start..$i]
       [void]$cards.Add([pscustomobject]@{
         De = $de; Level = $Level; SourceFile = $RelPath
         StartLine = $start; EndLine = $i; Lines = $block
       })
       $start = -1
+    } elseif ($depth -lt 0) {
+      throw "Brace depth underflow in $RelPath at line $($i + 1): $line"
     }
   }
 
@@ -79,13 +81,13 @@ function Set-LevelInBlock([string[]]$Block, [string]$NewLevel) {
 }
 
 function Format-CardBlock([string[]]$Block, [bool]$IsLast) {
-  $out = @()
-  foreach ($line in $Block) {
-    if ($line -match '^\s*\}\s*,?\s*$') {
-      $out += if ($IsLast) { "  }" } else { "  }," }
-    } else {
-      $out += $line
-    }
+  if ($Block.Count -eq 0) { return @() }
+  $out = @($Block)
+  $lastIdx = $out.Count - 1
+  $last = $out[$lastIdx]
+  if ($last -match '^\s*\}\s*,?\s*$') {
+    $indent = if ($last -match '^(\s*)') { $Matches[1] } else { "  " }
+    $out[$lastIdx] = if ($IsLast) { "${indent}}" } else { "${indent}}," }
   }
   return $out
 }

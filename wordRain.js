@@ -2,14 +2,16 @@
   "use strict";
 
   const MIN_WIDTH = 1024;
-  const WORD_COUNT = 62;
+  const WORD_COUNT = 18;
+  const COOLDOWN_SIZE = 8;
   const WORD_MAX_WIDTH = 230;
-  const SAFE_GAP = 28;
-  const STORAGE_KEYS = {
-    learned: "deLvFlashcardsProgress",
-    problemStats: "deLvFlashcardsProblemStats",
-    mastered: "deLvFlashcardsMastered100"
+  const WORD_RAIN_CONFIG = {
+    active_red: 0.40,
+    problem_darkred: 0.30,
+    unlearned_blue: 0.20,
+    learned_green: 0.10
   };
+  const BUCKET_KEYS = ["active_red", "problem_darkred", "unlearned_blue", "learned_green"];
   const DATASETS = [
     "A1_WORDS",
     "A2_WORDS",
@@ -26,20 +28,22 @@
   let lastTimestamp = 0;
   let enabled = false;
   let resizeTimer = null;
-  let activeGroupObserver = null;
-  let activeGroupClickTimer = null;
   let zoneDeck = [];
   let zoneDeckKey = "";
   let columnDeck = [];
   let columnDeckKey = "";
+  let wordPool = [];
+  let lastSnapshot = null;
+  let lastGroupKey = "";
+  let lastLayoutWidth = 0;
+  const recentIds = [];
 
-  function parseStorage(key, fallback) {
-    try {
-      const value = window.localStorage.getItem(key);
-      return value ? JSON.parse(value) : fallback;
-    } catch (error) {
-      return fallback;
-    }
+  function isWordRainEnabled() {
+    const platform = window.Capacitor?.getPlatform?.();
+    if (platform === "ios" || platform === "android") return false;
+    if (window.innerWidth < MIN_WIDTH) return false;
+    if (window.matchMedia?.("(prefers-reduced-motion: reduce)")?.matches) return false;
+    return true;
   }
 
   function normalizeText(value) {
@@ -47,28 +51,34 @@
   }
 
   function cardId(card) {
-    const de = normalizeText(card && card.de);
-    const lv = normalizeText(card && card.lv);
-    const level = normalizeText(card && card.level);
-    return `${level}:${de}:${lv}`;
+    return card.id ? `${card.level}:${card.id}` : `${card.level}:${card.de}:${card.lv}`;
   }
 
-  function sessionId(card) {
-    return `${normalizeText(card && card.level)}:${cardId(card)}`;
+  function verbId(verb) {
+    if (typeof window.__wordRainVerbId === "function") {
+      return window.__wordRainVerbId(verb);
+    }
+    return "";
   }
 
-  function collectVerbCards() {
-    const verbs = Array.isArray(window.VERB_ENTRIES) ? window.VERB_ENTRIES : [];
-    const cards = [];
-    verbs.forEach((entry) => {
-      ["infinitiv", "praesens", "imperfektIndikativ", "imperfektKonjunktiv", "partizipVergangenheit"].forEach((key) => {
-        const form = entry && entry[key];
-        if (form && form.de) {
-          cards.push({ de: form.de, lv: form.lv || "", level: "Darbības vārdi" });
-        }
-      });
-    });
-    return cards;
+  function idForCard(card, groupKey) {
+    return groupKey === "verbs" ? verbId(card) : cardId(card);
+  }
+
+  function unwantedSet(snapshot) {
+    return new Set(
+      (snapshot.unwantedIds || [])
+        .map((item) => (typeof item === "string" ? item : item && item.id))
+        .filter(Boolean)
+    );
+  }
+
+  function masteredSet(snapshot) {
+    return new Set(
+      (snapshot.masteredIds || [])
+        .map((item) => (typeof item === "string" ? item : item && item.id))
+        .filter(Boolean)
+    );
   }
 
   function formatGermanWord(card) {
@@ -81,21 +91,39 @@
     return de;
   }
 
-  function collectCards() {
+  function formatVerbText(verb) {
+    const inf = (verb && verb.infinitiv && verb.infinitiv.de) || verb?.tagadne || "";
+    return normalizeText(inf);
+  }
+
+  function collectGroupCards(group) {
     const cards = [];
     DATASETS.forEach((name) => {
       const dataset = window[name];
-      if (Array.isArray(dataset)) cards.push(...dataset);
+      if (!Array.isArray(dataset)) return;
+      dataset.forEach((card) => {
+        if (normalizeText(card && card.level) === group) {
+          cards.push(card);
+        }
+      });
     });
-    cards.push(...collectVerbCards());
+
+    if (Array.isArray(window.COMPARISON_STUDY_CARDS)) {
+      window.COMPARISON_STUDY_CARDS.forEach((card) => {
+        if (normalizeText(card && card.level) === group) {
+          cards.push(card);
+        }
+      });
+    }
 
     const seen = new Set();
     return cards
       .map((card) => ({
+        id: card.id,
         de: normalizeText(card && card.de),
         de_article: normalizeText(card && card.de_article),
         lv: normalizeText(card && card.lv),
-        level: normalizeText(card && card.level) || ""
+        level: normalizeText(card && card.level) || group
       }))
       .filter((card) => card.de && card.de.length <= 42)
       .filter((card) => {
@@ -106,40 +134,95 @@
       });
   }
 
-  function activeGroupLabel() {
-    const activeText = document.getElementById("activeGroup")?.textContent || "";
-    const match = activeText.match(/[—–-]\s*(.+)$/);
-    return match ? match[1].trim() : "";
+  function collectVerbCards(snapshot) {
+    const verbs = Array.isArray(window.VERB_ENTRIES) ? window.VERB_ENTRIES : [];
+    const unwanted = unwantedSet(snapshot);
+    const mastered = masteredSet(snapshot);
+
+    return verbs.filter((verb) => {
+      const id = verbId(verb);
+      if (!id) return false;
+      if (unwanted.has(id)) return false;
+      if (mastered.has(id)) return false;
+      const text = formatVerbText(verb);
+      return text.length > 0 && text.length <= 42;
+    });
   }
 
-  function currentGroupCards(cards) {
-    const activeLabel = activeGroupLabel();
-    if (!activeLabel) return cards;
-    const normalized = activeLabel === "Teikumi" ? "Sätze" : activeLabel;
-    const filtered = cards.filter((card) => card.level === normalized);
-    return filtered.length ? filtered : cards;
+  function cardsForSnapshot(snapshot) {
+    if (!snapshot) return [];
+    if (snapshot.verbMode || snapshot.groupKey === "verbs") {
+      return collectVerbCards(snapshot);
+    }
+    const unwanted = unwantedSet(snapshot);
+    const mastered = masteredSet(snapshot);
+    return collectGroupCards(snapshot.group).filter((card) => {
+      const id = cardId(card);
+      return !unwanted.has(id) && !mastered.has(id);
+    });
   }
 
-  function classifyCards(cards) {
-    const learned = parseStorage(STORAGE_KEYS.learned, {});
-    const problemStats = parseStorage(STORAGE_KEYS.problemStats, {});
-    const mastered = new Set(
-      parseStorage(STORAGE_KEYS.mastered, [])
-        .map((item) => (typeof item === "string" ? item : item && item.id))
-        .filter(Boolean)
-    );
+  function classifyCards(cards, snapshot) {
+    const groupKey = snapshot.groupKey;
+    const learnedIds = snapshot.learned?.[groupKey] || [];
+    const learnedSet = new Set(learnedIds);
+    const mastered = masteredSet(snapshot);
+    const sessionSet = new Set(snapshot.sessionIds || []);
+    const problemStats = snapshot.problemStats || {};
 
     return cards.map((card) => {
-      const id = cardId(card);
-      const learnedIds = learned[card.level] || [];
-      const isLearned = mastered.has(id) || learnedIds.includes(sessionId(card)) || learnedIds.includes(id);
-      const isProblem = problemStats[id] && problemStats[id].problematic === true;
+      const id = idForCard(card, groupKey);
+      const stats = problemStats[id];
+      let bucket = "unlearned_blue";
+
+      if (mastered.has(id) || learnedSet.has(id)) {
+        bucket = "learned_green";
+      } else if (stats && stats.problematic === true && (stats.unknownCount || 0) >= 3) {
+        bucket = "problem_darkred";
+      } else if (sessionSet.has(id) || (stats && (stats.unknownCount || 0) > 0)) {
+        bucket = "active_red";
+      }
+
+      const text = groupKey === "verbs" ? formatVerbText(card) : formatGermanWord(card);
       return {
-        id,
-        text: formatGermanWord(card),
-        status: isProblem ? "problem" : isLearned ? "learned" : "default"
+        id: id || text,
+        text: text || "Deutsch",
+        bucket,
+        status: bucket === "learned_green"
+          ? "learned"
+          : bucket === "problem_darkred"
+            ? "problem_darkred"
+            : bucket === "active_red"
+              ? "active_red"
+              : "unlearned_blue"
       };
+    }).filter((word) => word.text);
+  }
+
+  function normalizeWeights(config, bucketSizes) {
+    const nonBlueEmpty = bucketSizes.active_red === 0
+      && bucketSizes.problem_darkred === 0
+      && bucketSizes.learned_green === 0;
+
+    if (nonBlueEmpty) {
+      return { active_red: 0, problem_darkred: 0, unlearned_blue: 1, learned_green: 0 };
+    }
+
+    const weights = {};
+    let total = 0;
+    BUCKET_KEYS.forEach((key) => {
+      weights[key] = bucketSizes[key] === 0 ? 0 : config[key];
+      total += weights[key];
     });
+
+    if (total === 0) {
+      return { active_red: 0, problem_darkred: 0, unlearned_blue: 1, learned_green: 0 };
+    }
+
+    BUCKET_KEYS.forEach((key) => {
+      weights[key] = weights[key] / total;
+    });
+    return weights;
   }
 
   function randomBetween(min, max) {
@@ -165,21 +248,58 @@
     return result;
   }
 
-  function buildBalancedWords(classified) {
+  function buildWeightedPool(classified) {
     const buckets = {
-      learned: classified.filter((word) => word.status === "learned"),
-      problem: classified.filter((word) => word.status === "problem"),
-      default: classified.filter((word) => word.status === "default")
+      active_red: classified.filter((word) => word.bucket === "active_red"),
+      problem_darkred: classified.filter((word) => word.bucket === "problem_darkred"),
+      unlearned_blue: classified.filter((word) => word.bucket === "unlearned_blue"),
+      learned_green: classified.filter((word) => word.bucket === "learned_green")
     };
-    const target = Math.floor(WORD_COUNT / 3);
-    const pool = [
-      ...takeBalanced(buckets.learned, target),
-      ...takeBalanced(buckets.problem, target),
-      ...takeBalanced(buckets.default, target)
-    ];
-    const fallback = shuffle(classified.length ? classified : [{ text: "Deutsch", status: "default" }]);
-    let fallbackIndex = 0;
 
+    const bucketSizes = {
+      active_red: buckets.active_red.length,
+      problem_darkred: buckets.problem_darkred.length,
+      unlearned_blue: buckets.unlearned_blue.length,
+      learned_green: buckets.learned_green.length
+    };
+
+    const weights = normalizeWeights(WORD_RAIN_CONFIG, bucketSizes);
+    const targets = {};
+    BUCKET_KEYS.forEach((key) => {
+      targets[key] = Math.round(weights[key] * WORD_COUNT);
+    });
+
+    let total = BUCKET_KEYS.reduce((sum, key) => sum + targets[key], 0);
+    while (total > WORD_COUNT) {
+      const key = BUCKET_KEYS.find((candidate) => targets[candidate] > 0);
+      if (!key) break;
+      targets[key] -= 1;
+      total -= 1;
+    }
+    while (total < WORD_COUNT) {
+      const key = BUCKET_KEYS.reduce((best, candidate) => {
+        if (bucketSizes[candidate] === 0) return best;
+        if (!best) return candidate;
+        return weights[candidate] > weights[best] ? candidate : best;
+      }, null);
+      if (!key) break;
+      targets[key] += 1;
+      total += 1;
+    }
+
+    const pool = [];
+    BUCKET_KEYS.forEach((key) => {
+      pool.push(...takeBalanced(buckets[key], targets[key]));
+    });
+
+    const fallback = shuffle(classified.length ? classified : [{
+      id: "fallback",
+      text: "Deutsch",
+      bucket: "unlearned_blue",
+      status: "unlearned_blue"
+    }]);
+
+    let fallbackIndex = 0;
     while (pool.length < WORD_COUNT) {
       pool.push(fallback[fallbackIndex % fallback.length]);
       fallbackIndex += 1;
@@ -189,18 +309,35 @@
   }
 
   function chooseWord(words) {
-    return words[Math.floor(Math.random() * words.length)] || { text: "Deutsch", status: "default" };
+    const source = words.length ? words : wordPool;
+    if (!source.length) {
+      return { id: "fallback", text: "Deutsch", status: "unlearned_blue" };
+    }
+
+    const eligible = source.filter((word) => !recentIds.includes(word.id));
+    const pickFrom = eligible.length ? eligible : source;
+    const pick = pickFrom[Math.floor(Math.random() * pickFrom.length)];
+    recentIds.push(pick.id);
+    if (recentIds.length > COOLDOWN_SIZE) recentIds.shift();
+    return pick;
+  }
+
+  function statusClassName(status) {
+    if (status === "learned") return "is-learned";
+    if (status === "active_red") return "is-active-red";
+    if (status === "problem_darkred") return "is-problem-dark";
+    return "";
   }
 
   function columnCountForWidth(width) {
-    return width >= 1800 ? 10 : 9;
+    return width >= 1800 ? 6 : 5;
   }
 
   function createZones() {
     const width = window.innerWidth;
     const height = window.innerHeight;
     const columnCount = columnCountForWidth(width);
-    const rowCount = Math.max(5, Math.min(7, Math.ceil(WORD_COUNT / columnCount)));
+    const rowCount = Math.max(3, Math.min(4, Math.ceil(WORD_COUNT / columnCount)));
     const cellWidth = width / columnCount;
     const cellHeight = height / rowCount;
     const zones = [];
@@ -240,7 +377,18 @@
 
   function chooseZone(zones) {
     if (!zones.length) {
-      return { type: "grid", column: 0, row: 0, columnCount: 1, rowCount: 1, cellHeight: window.innerHeight, xMin: 12, xMax: Math.max(12, window.innerWidth - WORD_MAX_WIDTH - 12), yMin: 0, yMax: window.innerHeight };
+      return {
+        type: "grid",
+        column: 0,
+        row: 0,
+        columnCount: 1,
+        rowCount: 1,
+        cellHeight: window.innerHeight,
+        xMin: 12,
+        xMax: Math.max(12, window.innerWidth - WORD_MAX_WIDTH - 12),
+        yMin: 0,
+        yMax: window.innerHeight
+      };
     }
     if (!zoneDeck.length || zoneDeckKey !== zoneKey(zones)) {
       rebuildZoneDeck(zones);
@@ -263,7 +411,7 @@
   }
 
   function topResetY(item) {
-    const cellHeight = item.zone && item.zone.cellHeight ? item.zone.cellHeight : window.innerHeight / 7;
+    const cellHeight = item.zone && item.zone.cellHeight ? item.zone.cellHeight : window.innerHeight / 4;
     return randomBetween(-cellHeight, -30);
   }
 
@@ -319,6 +467,7 @@
 
     return fallback;
   }
+
   function randomVisualTier() {
     const roll = Math.random();
     if (roll < 0.1) {
@@ -351,7 +500,8 @@
     item.text = word.text;
     item.placed = true;
     item.el.textContent = word.text;
-    item.el.className = `word-rain-word is-${word.status} ${tier.className}`;
+    const statusClass = statusClassName(word.status);
+    item.el.className = `word-rain-word${statusClass ? ` ${statusClass}` : ""} ${tier.className}`;
     item.el.style.fontSize = `${item.size}px`;
     item.el.style.opacity = String(randomBetween(tier.opacityMin, tier.opacityMax));
   }
@@ -373,7 +523,23 @@
       for (let index = 0; index < WORD_COUNT; index += 1) {
         const el = document.createElement("span");
         host.appendChild(el);
-        items.push({ el, x: 0, y: 0, xBase: 0, speed: 0, drift: 0, rotation: 0, size: 16, zoneBottom: window.innerHeight + 90, zoneType: "grid", column: 0, spacing: 150, zone: null, text: "", placed: false });
+        items.push({
+          el,
+          x: 0,
+          y: 0,
+          xBase: 0,
+          speed: 0,
+          drift: 0,
+          rotation: 0,
+          size: 16,
+          zoneBottom: window.innerHeight + 90,
+          zoneType: "grid",
+          column: 0,
+          spacing: 150,
+          zone: null,
+          text: "",
+          placed: false
+        });
       }
     }
 
@@ -384,7 +550,7 @@
     });
     items.forEach((item, index) => {
       const slot = takeColumnSlot(zones, index);
-      resetItem(item, words, false, zones[slot.zoneIndex] || zones[0], slot.row);
+      resetItem(item, words, false, zones[slot.zoneIndex] || zones[0]);
     });
   }
 
@@ -396,12 +562,11 @@
     if (!enabled) return;
     const delta = Math.min(64, timestamp - (lastTimestamp || timestamp)) / 1000;
     lastTimestamp = timestamp;
-    const words = window.__wordRainWords || [];
 
     items.forEach((item) => {
       item.y += item.speed * delta;
       item.x += item.drift * delta;
-      if (item.y > item.zoneBottom) resetItem(item, words, true);
+      if (item.y > item.zoneBottom) resetItem(item, wordPool, true);
       applyItem(item);
     });
 
@@ -416,56 +581,87 @@
     if (layer) layer.hidden = true;
   }
 
-  function start() {
-    if (window.innerWidth < MIN_WIDTH) {
+  function rebuildPool(snapshot) {
+    const cards = cardsForSnapshot(snapshot);
+    const classified = classifyCards(
+      cards.length ? cards : [{ de: "Deutsch", lv: "vāciski", level: snapshot.group || "" }],
+      snapshot
+    );
+    wordPool = buildWeightedPool(classified);
+  }
+
+  function start(snapshot) {
+    if (!isWordRainEnabled()) {
       stop();
       return;
     }
 
-    const cards = currentGroupCards(collectCards());
-    const classified = classifyCards(cards.length ? cards : [{ de: "Deutsch", lv: "vāciski", level: "" }]);
-    const words = buildBalancedWords(classified);
-    window.__wordRainWords = words;
+    if (!snapshot) {
+      stop();
+      return;
+    }
+
+    lastSnapshot = snapshot;
+    rebuildPool(snapshot);
+
+    const groupChanged = snapshot.groupKey !== lastGroupKey;
+    const widthChanged = window.innerWidth !== lastLayoutWidth;
+    lastGroupKey = snapshot.groupKey;
+    lastLayoutWidth = window.innerWidth;
 
     createLayer().hidden = false;
-    buildItems(words);
+    if (groupChanged || !items.length || widthChanged) {
+      buildItems(wordPool);
+    }
+
     enabled = true;
     if (!animationFrame) animationFrame = window.requestAnimationFrame(animate);
   }
 
-  function refresh() {
-    if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+  function refresh(snapshot) {
+    if (!isWordRainEnabled()) {
       stop();
       return;
     }
-    start();
+    start(snapshot || lastSnapshot);
   }
 
   function scheduleRefresh(delay) {
     window.clearTimeout(resizeTimer);
-    resizeTimer = window.setTimeout(refresh, delay);
+    resizeTimer = window.setTimeout(() => refresh(lastSnapshot), delay);
   }
 
-  function watchActiveGroup() {
-    const activeGroup = document.getElementById("activeGroup");
-    if (activeGroup && !activeGroupObserver) {
-      activeGroupObserver = new MutationObserver(() => scheduleRefresh(120));
-      activeGroupObserver.observe(activeGroup, { childList: true, characterData: true, subtree: true });
-    }
-
-    document.addEventListener("click", (event) => {
-      if (event.target && event.target.closest("button")) {
-        window.clearTimeout(activeGroupClickTimer);
-        activeGroupClickTimer = window.setTimeout(refresh, 180);
+  window.wordRain = {
+    sync(snapshot) {
+      if (!snapshot) return;
+      if (!isWordRainEnabled()) {
+        stop();
+        return;
       }
-    });
-  }
 
-  window.addEventListener("load", () => {
-    watchActiveGroup();
-    refresh();
-  }, { once: true });
+      const groupChanged = lastGroupKey && snapshot.groupKey !== lastGroupKey;
+      lastSnapshot = snapshot;
+      rebuildPool(snapshot);
+
+      if (!enabled || groupChanged) {
+        lastGroupKey = snapshot.groupKey;
+        createLayer().hidden = false;
+        buildItems(wordPool);
+        enabled = true;
+        if (!animationFrame) animationFrame = window.requestAnimationFrame(animate);
+        return;
+      }
+
+      lastGroupKey = snapshot.groupKey;
+    },
+    refresh(snapshot) {
+      refresh(snapshot);
+    }
+  };
 
   window.addEventListener("resize", () => scheduleRefresh(180));
-  window.addEventListener("storage", refresh);
+
+  if (typeof window.syncWordRain === "function") {
+    window.syncWordRain();
+  }
 })();

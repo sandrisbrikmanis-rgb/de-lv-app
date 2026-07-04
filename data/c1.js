@@ -190,12 +190,12 @@ const C1_WORDS = [
     "level": "C1"
   },
   {
-    "de": "Kinderschänder",
+    "de": "kinderschänder",
     "lv": "pedofils",
     "level": "C1"
   },
   {
-    "de": "Kindesmisshandlung",
+    "de": "kindesmisshandlung",
     "lv": "bērnu vardarbība",
     "level": "C1"
   },
@@ -634,7 +634,7 @@ const C1_WORDS = [
     "level": "C1"
   },
   {
-    "de": "Karre / Karren",
+    "de": "karre / Karren",
     "lv": "ķerra",
     "level": "C1"
   },
@@ -2743,12 +2743,12 @@ const C1_WORDS = [
     "level": "C1"
   },
   {
-    "de": "Kriegsbeschädigte",
+    "de": "kriegsbeschädigte",
     "lv": "kara invalīds",
     "level": "C1"
   },
   {
-    "de": "Kriegsgefangene",
+    "de": "kriegsgefangene",
     "lv": "karagūsteknis",
     "level": "C1"
   },
