@@ -3971,6 +3971,31 @@
   -webkit-overflow-scrolling: touch;
 }
 
+/* "Norestartēt progresu" drošības popup — jāpaliek fiziski IEKŠĀ .card,
+   nosedzot tikai un vienīgi melno vārdu kartīti. ID selektoram ir augstāks
+   specifiskums nekā .unwanted-overlay/.card-popup-overlay, tāpēc neviens cits
+   (arī nākotnes) noteikums to nevar "izstumt" no kartītes robežām. */
+#resetConfirmPanel {
+  position: absolute !important;
+  inset: 0 !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 !important;
+  padding: 20px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  background-color: rgba(26, 26, 26, 0.95) !important;
+  z-index: 999 !important;
+}
+
+#resetConfirmPanel[hidden] {
+  display: none !important;
+}
+
 /* "Norestartēt progresu" drošības popup — sēž tieši uz galvenās kartītes */
 .card-popup-overlay .reset-confirm-panel {
   justify-content: center;
@@ -6086,7 +6111,6 @@
 }
 
 main,
-.unwanted-overlay,
 .mastered-overlay,
 .problem-overlay,
 .basics-overlay {
