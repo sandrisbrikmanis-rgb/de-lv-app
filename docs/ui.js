@@ -168,7 +168,6 @@ const elements = {
   knownBtn: document.getElementById("knownBtn"),
   unknownBtn: document.getElementById("unknownBtn"),
   nextBtn: document.getElementById("nextBtn"),
-  shuffleBtn: document.getElementById("shuffleBtn"),
   verbRandomBtn: document.getElementById("verbRandomBtn"),
   spellingModeBtn: document.getElementById("spellingModeBtn"),
   spellingPanel: document.getElementById("spellingPanel"),
@@ -2220,6 +2219,16 @@ function isDueForReview(status) {
   return status && status.nextReview && status.nextReview <= todayString();
 }
 
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    const temp = array[i];
+    array[i] = array[j];
+    array[j] = temp;
+  }
+  return array;
+}
+
 function createSession() {
   const groupKey = activeGroupKey();
   const config = sessionModes[state.mode] || sessionModes.normal;
@@ -2237,7 +2246,12 @@ function createSession() {
     }
   }
 
-  const picked = newCards.slice(0, config.newCount).concat(reviewCards.slice(0, config.reviewCount));
+  // Selection (new vs. due-for-review, problem-word filtering, unwanted/mastered
+  // exclusion already applied via activeCardsForSession/isDueForReview) stays
+  // untouched — only the final on-screen order is randomized, and only for a
+  // fresh normal session. Other decks (problem mode, known review, last-session
+  // review, verb-random mode) build their own order elsewhere and are unaffected.
+  const picked = shuffleArray(newCards.slice(0, config.newCount).concat(reviewCards.slice(0, config.reviewCount)));
   state.session = {
     groupKey,
     mode: state.mode,
@@ -3732,48 +3746,6 @@ function continueSpelling() {
   if (!state.spellingMode || !state.spellingChecked) return;
   nextCard();
 }
-function shuffleDeck() {
-  if (state.problemMode) {
-    setNotice("Problemātiskie vārdi tiek rādīti rotācijā.");
-    render();
-    return;
-  }
-
-  if (!state.reviewKnown && sessionMatchesActiveGroup()) {
-    const ids = state.session.ids;
-    for (let i = ids.length - 1; i > 0; i -= 1) {
-      const j = Math.floor(Math.random() * (i + 1));
-      const temp = ids[i];
-      ids[i] = ids[j];
-      ids[j] = temp;
-    }
-
-    state.session.index = 0;
-    state.index = 0;
-    state.verbIndex = 0;
-    state.revealed = false;
-    state.verbStep = 0;
-    saveSession();
-    setNotice("Sesijas secība sajaukta.");
-    render();
-    return;
-  }
-
-  const deck = currentDeck();
-  for (let i = deck.length - 1; i > 0; i -= 1) {
-    const j = Math.floor(Math.random() * (i + 1));
-    const temp = deck[i];
-    deck[i] = deck[j];
-    deck[j] = temp;
-  }
-
-  state.order[deckKey()] = deck.map(cardId);
-  state.index = 0;
-  state.revealed = false;
-  setNotice("Secība sajaukta.");
-  render();
-}
-
 function toggleDirection() {
   state.direction = state.direction === "de-lv" ? "lv-de" : "de-lv";
   state.revealed = false;
@@ -4812,7 +4784,6 @@ document.querySelector(".card")?.addEventListener("click", revealCard);
 elements.knownBtn.addEventListener("click", markKnown);
 elements.unknownBtn.addEventListener("click", markUnknown);
 elements.nextBtn.addEventListener("click", nextCard);
-elements.shuffleBtn.addEventListener("click", shuffleDeck);
 elements.verbRandomBtn.addEventListener("click", toggleVerbRandomMode);
 elements.spellingModeBtn.addEventListener("click", toggleSpellingMode);
 elements.checkSpellingBtn.addEventListener("click", checkSpellingAnswer);
