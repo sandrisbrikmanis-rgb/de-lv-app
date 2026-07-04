@@ -6249,3 +6249,71 @@ main,
     font-size: 0.82rem;
   }
 }
+
+/* =========================================================================
+   DZELŽAINS DROŠĪBAS SLĀNIS — TĪŠI PIEVIENOTS FAILA PAŠĀ BEIGĀS, lai šīs
+   kārtulas ar !important nevarētu pārrakstīt neviena cita, vēlāk pievienota
+   kārtula šajā failā. Šis bloks garantē, ka Info logs (#infoPanel), drošības
+   logs (#resetConfirmPanel) un jebkurš cits uz kartītes esošais PopUp logs
+   (.card-popup-overlay) VIENMĒR pilnībā fiziski un vizuāli nosedz kartīti un
+   bloķē klikšķus uz stūra ikonām (🏅 medaļa, 👁️‍🗨️ pārsvītrotā acs), kamēr
+   attiecīgais logs ir atvērts (t.i. tam nav 'hidden' atribūta).
+   ========================================================================= */
+#infoPanel,
+#resetConfirmPanel,
+.card-popup-overlay {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  z-index: 99999 !important;
+  box-sizing: border-box !important;
+}
+
+#infoPanel:not([hidden]),
+#resetConfirmPanel:not([hidden]),
+.card-popup-overlay:not([hidden]) {
+  background-color: #000000 !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  display: block !important;
+}
+
+#infoPanel[hidden],
+#resetConfirmPanel[hidden],
+.card-popup-overlay[hidden] {
+  display: none !important;
+}
+
+#infoPanel .unwanted-panel,
+#resetConfirmPanel .unwanted-panel {
+  background-color: #000000 !important;
+}
+
+#infoPanel .info-panel-body,
+#infoPanel .info-row,
+#infoPanel .info-row p,
+#infoPanel .info-row li,
+#infoPanel .unwanted-header,
+#resetConfirmPanel .reset-confirm-body,
+#resetConfirmPanel .unwanted-header {
+  text-align: left !important;
+  box-sizing: border-box !important;
+}
+
+#infoPanel .info-row p,
+#infoPanel .info-row li {
+  margin-bottom: 12px !important;
+  color: #cccccc !important;
+}
+
+#infoPanel .info-row strong {
+  color: #ffffff !important;
+}
+
+.card:has(.card-popup-overlay:not([hidden])) .card-mastered-btn,
+.card:has(.card-popup-overlay:not([hidden])) .card-unwanted-btn {
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
