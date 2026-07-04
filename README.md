@@ -14,7 +14,9 @@ data/                — vārdu krājums un mācību saturs (A1–C2, teikumi, d
 www/                 — sinhronizēta kopija, ko ielādē Capacitor (skat. "Izstrādes darbplūsma")
 ios/App/             — Xcode projekts (Capacitor iOS apvalks)
 android/             — Android Studio projekts (Capacitor Android apvalks)
-docs/privacy.html    — publiski pieejama privātuma politika
+docs/                — GitHub Pages saknes mape (Settings → Pages → Source: `main` / `/docs`);
+                       satur publicētā tīmekļa lietotnes kopiju (skat. "GitHub Pages publicēšana")
+                       un `privacy.html` — publiski pieejamu privātuma politiku
 docs_and_rules/       — satura un UI kvalitātes standarti
 scripts/             — satura audita un build skripti (PowerShell/Node)
 ```
@@ -47,6 +49,19 @@ npm run cap:sync
 
 iOS `AppIcon.appiconset` un `Splash.imageset`, kā arī Android `mipmap-*`/`drawable-*` resursi jau ir izpildīti un iekļauti repozitorijā.
 
+## GitHub Pages publicēšana
+
+GitHub Pages šim repozitorijam ir konfigurēts uz `main` zaru, `/docs` mapi (Settings → Pages). Tāpēc **publiskā vietne (`index.html`, saturs, `privacy.html`) tiek rādīta tieši no `docs/` mapes**, nevis no repozitorija saknes. Pēc katras izmaiņas saknes tīmekļa failos (`index.html`, `style.css`, `ui.js`, `data/`, `icons/` u.c.) tā jāsinhronizē uz `docs/`, pretējā gadījumā publiskā vietne rādīs vecu saturu (vai 404, ja `docs/index.html` nemaz nav):
+
+```bash
+npm run deploy   # kopē root tīmekļa failus → docs/ (node skripts, darbojas uz visām platformām)
+git add docs/
+git commit -m "chore: publicēt jaunāko web versiju uz GitHub Pages"
+git push
+```
+
+`npm run deploy` (`scripts/sync-web-to-docs.js`) nekad neaiztiek `docs/privacy.html`, `docs/privacy.css` vai `docs/.nojekyll` — tie tiek uzturēti atsevišķi.
+
 ---
 
 ## App Store (iOS) publicēšanas checklists
@@ -63,7 +78,7 @@ iOS `AppIcon.appiconset` un `Splash.imageset`, kā arī Android `mipmap-*`/`draw
 - ✅ App ikona (`AppIcon.appiconset`) un palaišanas ekrāns (`Splash.imageset`, `LaunchScreen.storyboard`) ir iekļauti.
 - ✅ Privātuma politika (`docs/privacy.html`) sagatavota latviski, apraksta lokālo datu glabāšanu bez trešo pušu servisiem.
 - ✅ Lietotnē ("Kurss" izvēlnē) pievienota saite uz privātuma politiku.
-- ⬜ **GitHub Pages jāieslēdz**, lai `docs/privacy.html` būtu publiski pieejams pastāvīgā URL (Settings → Pages → Source: `main` branch, `/docs` mape). Pēc ieslēgšanas URL būs `https://sandrisbrikmanis-rgb.github.io/de-lv-app/privacy.html` — šis URL jau ir izmantots gan lietotnē, gan zemāk minētajā App Store Connect solī.
+- ✅ **GitHub Pages ir ieslēgts** (Settings → Pages → Source: `main` branch, `/docs` mape) un `docs/` satur gan publicēto tīmekļa lietotni, gan `privacy.html` — pieejami `https://sandrisbrikmanis-rgb.github.io/de-lv-app/` un `https://sandrisbrikmanis-rgb.github.io/de-lv-app/privacy.html` (skat. "GitHub Pages publicēšana" iepriekš).
 
 ### Apple Developer / Xcode (jāveic lokāli, ar Apple Developer kontu)
 
