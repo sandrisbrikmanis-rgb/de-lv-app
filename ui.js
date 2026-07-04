@@ -182,13 +182,13 @@ const elements = {
   directionLabel: document.getElementById("directionLabel"),
   extraOptionsBtn: document.getElementById("extraOptionsBtn"),
   extraOptions: document.getElementById("extraOptions"),
-  archiveLastSessionBtn: document.getElementById("archiveLastSessionBtn"),
+  extraOptionsInfoBtn: document.getElementById("extraOptionsInfoBtn"),
+  spellingToggle: document.getElementById("spellingToggle"),
   weeklyReviewBtn: document.getElementById("weeklyReviewBtn"),
   monthlyReviewBtn: document.getElementById("monthlyReviewBtn"),
-  restoreBtn: document.getElementById("restoreBtn"),
-  restoreCurrentBtn: document.getElementById("restoreCurrentBtn"),
+  resetProgressBtn: document.getElementById("resetProgressBtn"),
   unwantedBtn: document.getElementById("unwantedBtn"),
-  markMasteredBtn: document.getElementById("markMasteredBtn"),
+  cardMasteredBtn: document.getElementById("cardMasteredBtn"),
   cardUnwantedBtn: document.getElementById("cardUnwantedBtn"),
   masteredListBtn: document.getElementById("masteredListBtn"),
   unwantedListBtn: document.getElementById("unwantedListBtn"),
@@ -198,6 +198,17 @@ const elements = {
   unwantedPanel: document.getElementById("unwantedPanel"),
   unwantedCloseBtn: document.getElementById("unwantedCloseBtn"),
   unwantedList: document.getElementById("unwantedList"),
+  weeklyPanel: document.getElementById("weeklyPanel"),
+  weeklyCloseBtn: document.getElementById("weeklyCloseBtn"),
+  weeklyList: document.getElementById("weeklyList"),
+  monthlyPanel: document.getElementById("monthlyPanel"),
+  monthlyCloseBtn: document.getElementById("monthlyCloseBtn"),
+  monthlyList: document.getElementById("monthlyList"),
+  infoPanel: document.getElementById("infoPanel"),
+  infoCloseBtn: document.getElementById("infoCloseBtn"),
+  resetConfirmPanel: document.getElementById("resetConfirmPanel"),
+  resetConfirmCancelBtn: document.getElementById("resetConfirmCancelBtn"),
+  resetConfirmYesBtn: document.getElementById("resetConfirmYesBtn"),
   pamatiBtn: document.getElementById("pamatiBtn"),
   pamatiPanel: document.getElementById("pamatiPanel"),
   pamatiCloseBtn: document.getElementById("pamatiCloseBtn"),
@@ -3301,6 +3312,88 @@ function restoreMastered(id) {
   render();
 }
 
+function timeReviewCandidates(days) {
+  const groupKey = activeGroupKey();
+  const learnedSet = new Set(state.learned[groupKey] || []);
+  return cardsForSessionKey(groupKey).filter((card) => {
+    const id = idForSessionKey(card, groupKey);
+    return learnedSet.has(id) && learnedWithinDays(state.reviewStatus[id], days);
+  });
+}
+
+function renderTimeReviewList(days, listEl, emptyText, restoreAttr) {
+  const cards = timeReviewCandidates(days);
+  if (!cards.length) {
+    listEl.innerHTML = `<p class="unwanted-empty">${emptyText}</p>`;
+    return;
+  }
+
+  const groupKey = activeGroupKey();
+  listEl.innerHTML = cards.map((card) => {
+    const id = idForSessionKey(card, groupKey);
+    return `
+    <div class="unwanted-row">
+      <div class="unwanted-word"><strong>${formatGermanEntry(card)} — ${card.lv}</strong><span class="unwanted-level">${groupDisplayLabel(card.level)}</span></div>
+      <button type="button" ${restoreAttr}="${id}">Atgriezt</button>
+    </div>
+  `;
+  }).join("");
+}
+
+function renderWeeklyList() {
+  renderTimeReviewList(7, elements.weeklyList, "Šajā grupā nav vārdu nedēļas pārskatam.", "data-restore-weekly");
+}
+
+function renderMonthlyList() {
+  renderTimeReviewList(30, elements.monthlyList, "Šajā grupā nav vārdu mēneša pārskatam.", "data-restore-monthly");
+}
+
+function openWeeklyList() {
+  renderWeeklyList();
+  elements.weeklyPanel.hidden = false;
+}
+
+function closeWeeklyList() {
+  elements.weeklyPanel.hidden = true;
+}
+
+function openMonthlyList() {
+  renderMonthlyList();
+  elements.monthlyPanel.hidden = false;
+}
+
+function closeMonthlyList() {
+  elements.monthlyPanel.hidden = true;
+}
+
+function restoreLearnedWord(id) {
+  const groupKey = activeGroupKey();
+  if (!state.learned[groupKey]) {
+    state.learned[groupKey] = [];
+  }
+  state.learned[groupKey] = state.learned[groupKey].filter((learnedId) => learnedId !== id);
+  delete state.reviewStatus[id];
+  saveReviewStatus();
+  saveProgress();
+  render();
+}
+
+function openResetConfirm() {
+  elements.resetConfirmPanel.hidden = false;
+}
+
+function closeResetConfirm() {
+  elements.resetConfirmPanel.hidden = true;
+}
+
+function openInfoPanel() {
+  elements.infoPanel.hidden = false;
+}
+
+function closeInfoPanel() {
+  elements.infoPanel.hidden = true;
+}
+
 function currentVisibleMasterableCard() {
   if (state.verbMode) return null;
   if (state.reviewKnown) return currentKnownCard();
@@ -3317,17 +3410,32 @@ function addCardToMastered(card) {
 }
 
 function markCurrentMastered() {
+  if (state.verbMode) return;
   const card = currentVisibleMasterableCard();
   if (!card) {
     setNotice("Nav kartītes, ko pievienot 100% zināmajiem.");
-    openMasteredList();
     return;
   }
 
   const added = addCardToMastered(card);
+  const id = cardId(card);
+
+  if (!state.reviewKnown && state.session && state.session.groupKey === activeGroupKey() && Array.isArray(state.session.ids)) {
+    state.session.ids = state.session.ids.filter((item) => item !== id);
+    state.session.originalIds = (state.session.originalIds || []).filter((item) => item !== id);
+    state.session.completedIds = (state.session.completedIds || []).filter((item) => item !== id);
+    state.session.total = Math.max(0, (state.session.total || 0) - 1);
+    normalizeSessionIndex();
+    saveSession();
+  } else if (state.reviewKnown) {
+    state.index = clampIndex(state.index, knownCardsForActiveGroup().length);
+  }
+
+  state.order = Object.fromEntries(Object.entries(state.order).map(([key, ids]) => [key, ids.filter((item) => item !== id)]));
+  state.revealed = false;
+  resetSpellingTask();
   setNotice(added ? "Vārds pievienots 100% zināmajiem." : "Vārds jau ir 100% zināmo sarakstā.");
-  renderMasteredList();
-  openMasteredList();
+  render();
 }
 
 
@@ -4064,9 +4172,8 @@ function renderModeButtons() {
   elements.verbRandomBtn.setAttribute("aria-pressed", state.verbRandomMode ? "true" : "false");
   renderModeTabs();
   if (elements.unwantedBtn) elements.unwantedBtn.hidden = true;
-  elements.markMasteredBtn.hidden = true;
-  elements.markMasteredBtn.style.display = "none";
   if (elements.cardUnwantedBtn) elements.cardUnwantedBtn.hidden = state.verbMode;
+  if (elements.cardMasteredBtn) elements.cardMasteredBtn.hidden = state.verbMode;
   elements.unwantedListBtn.hidden = state.verbMode;
   for (const [mode, config] of Object.entries(sessionModes)) {
     const button = document.createElement("button");
@@ -4079,8 +4186,11 @@ function renderModeButtons() {
 }
 
 function renderModeTabs() {
-  if (!elements.cardsTabBtn || !elements.writingTabBtn) return;
   const writing = state.spellingMode;
+  if (elements.spellingToggle) {
+    elements.spellingToggle.checked = writing;
+  }
+  if (!elements.cardsTabBtn || !elements.writingTabBtn) return;
   elements.cardsTabBtn.className = writing ? "mode-tab" : "mode-tab active";
   elements.cardsTabBtn.setAttribute("aria-selected", writing ? "false" : "true");
   elements.writingTabBtn.className = writing ? "mode-tab active" : "mode-tab";
@@ -4864,9 +4974,16 @@ if (elements.cardUnwantedBtn) {
     markCurrentUnwanted();
   });
 }
-elements.masteredListBtn.addEventListener("click", markCurrentMastered);
+if (elements.cardMasteredBtn) {
+  elements.cardMasteredBtn.addEventListener("click", (event) => {
+    event.stopPropagation();
+    markCurrentMastered();
+  });
+}
+elements.masteredListBtn.addEventListener("click", openMasteredList);
 elements.masteredCloseBtn.addEventListener("click", closeMasteredList);
 elements.masteredPanel.addEventListener("click", (event) => {
+  event.stopPropagation();
   if (event.target === elements.masteredPanel) closeMasteredList();
 });
 elements.masteredList.addEventListener("click", (event) => {
@@ -4876,11 +4993,36 @@ elements.masteredList.addEventListener("click", (event) => {
 elements.unwantedListBtn.addEventListener("click", openUnwantedList);
 elements.unwantedCloseBtn.addEventListener("click", closeUnwantedList);
 elements.unwantedPanel.addEventListener("click", (event) => {
+  event.stopPropagation();
   if (event.target === elements.unwantedPanel) closeUnwantedList();
 });
 elements.unwantedList.addEventListener("click", (event) => {
   const button = event.target.closest("[data-restore-unwanted]");
   if (button) restoreUnwanted(button.dataset.restoreUnwanted);
+});
+elements.weeklyCloseBtn.addEventListener("click", closeWeeklyList);
+elements.weeklyPanel.addEventListener("click", (event) => {
+  event.stopPropagation();
+  if (event.target === elements.weeklyPanel) closeWeeklyList();
+});
+elements.weeklyList.addEventListener("click", (event) => {
+  const button = event.target.closest("[data-restore-weekly]");
+  if (button) {
+    restoreLearnedWord(button.dataset.restoreWeekly);
+    renderWeeklyList();
+  }
+});
+elements.monthlyCloseBtn.addEventListener("click", closeMonthlyList);
+elements.monthlyPanel.addEventListener("click", (event) => {
+  event.stopPropagation();
+  if (event.target === elements.monthlyPanel) closeMonthlyList();
+});
+elements.monthlyList.addEventListener("click", (event) => {
+  const button = event.target.closest("[data-restore-monthly]");
+  if (button) {
+    restoreLearnedWord(button.dataset.restoreMonthly);
+    renderMonthlyList();
+  }
 });
 elements.extraOptionsBtn.addEventListener("click", () => {
   const opening = elements.extraOptions.hidden;
@@ -4888,11 +5030,29 @@ elements.extraOptionsBtn.addEventListener("click", () => {
   elements.extraOptionsBtn.setAttribute("aria-expanded", opening ? "true" : "false");
   elements.extraOptionsBtn.textContent = opening ? "Papildu opcijas ▲" : "Papildu opcijas ▼";
 });
-elements.archiveLastSessionBtn.addEventListener("click", archiveLastSession);
-elements.weeklyReviewBtn.addEventListener("click", () => startTimeReview("week"));
-elements.monthlyReviewBtn.addEventListener("click", () => startTimeReview("month"));
-elements.restoreBtn.addEventListener("click", restoreAll);
-elements.restoreCurrentBtn.addEventListener("click", restoreCurrentWord);
+elements.extraOptionsInfoBtn?.addEventListener("click", (event) => {
+  event.stopPropagation();
+  openInfoPanel();
+});
+elements.infoCloseBtn?.addEventListener("click", closeInfoPanel);
+elements.infoPanel?.addEventListener("click", (event) => {
+  event.stopPropagation();
+  if (event.target === elements.infoPanel) closeInfoPanel();
+});
+elements.spellingToggle?.addEventListener("change", () => {
+  setSpellingMode(elements.spellingToggle.checked);
+});
+elements.weeklyReviewBtn.addEventListener("click", openWeeklyList);
+elements.monthlyReviewBtn.addEventListener("click", openMonthlyList);
+elements.resetProgressBtn.addEventListener("click", openResetConfirm);
+elements.resetConfirmCancelBtn.addEventListener("click", closeResetConfirm);
+elements.resetConfirmYesBtn.addEventListener("click", () => {
+  restoreAll();
+  closeResetConfirm();
+});
+elements.resetConfirmPanel.addEventListener("click", (event) => {
+  if (event.target === elements.resetConfirmPanel) closeResetConfirm();
+});
 } catch (error) {
   console.error("UI event binding failed:", error);
 }

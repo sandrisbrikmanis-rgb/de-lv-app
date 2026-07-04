@@ -152,13 +152,18 @@
           <div class="kurss-lesson" id="kurssSentenceStructureLesson" hidden>
           </div>        </div>
       </section>
-      <section class="unwanted-overlay" id="masteredPanel" hidden aria-label="100% zināmi" aria-modal="true" role="dialog">
-        <div class="unwanted-panel">
+      <section class="unwanted-overlay" id="resetConfirmPanel" hidden aria-label="Apstiprināt progresa atiestatīšanu" aria-modal="true" role="dialog">
+        <div class="unwanted-panel reset-confirm-panel">
           <div class="unwanted-header">
-            <h2>100% zināmi</h2>
-            <button class="unwanted-close" id="masteredCloseBtn" type="button" aria-label="Aizvērt 100% zināmos">×</button>
+            <h2>⚠️ Norestartēt progresu?</h2>
           </div>
-          <div class="unwanted-list" id="masteredList"></div>
+          <div class="reset-confirm-body">
+            <p>Šī darbība neatgriezeniski dzēsīs visu tavu progresu aktīvajā grupā — visi iemācītie un pārskatīšanai atzīmētie vārdi tiks atiestatīti no jauna. Šo darbību nevar atsaukt.</p>
+          </div>
+          <div class="confirm-actions">
+            <button type="button" id="resetConfirmCancelBtn" class="confirm-cancel-btn">Atcelt</button>
+            <button type="button" id="resetConfirmYesBtn" class="confirm-danger-btn">Jā, dzēst visu</button>
+          </div>
         </div>
       </section>
 
@@ -177,6 +182,47 @@
             <div class="unwanted-list" id="unwantedList"></div>
           </div>
         </section>
+        <section class="unwanted-overlay card-popup-overlay" id="masteredPanel" hidden aria-label="100% zināmi" aria-modal="true" role="dialog">
+          <div class="unwanted-panel">
+            <div class="unwanted-header">
+              <h2>100% zināmi</h2>
+              <button class="unwanted-close" id="masteredCloseBtn" type="button" aria-label="Aizvērt 100% zināmos">×</button>
+            </div>
+            <div class="unwanted-list" id="masteredList"></div>
+          </div>
+        </section>
+        <section class="unwanted-overlay card-popup-overlay" id="weeklyPanel" hidden aria-label="Nedēļas pārskats" aria-modal="true" role="dialog">
+          <div class="unwanted-panel">
+            <div class="unwanted-header">
+              <h2>Nedēļas pārskats</h2>
+              <button class="unwanted-close" id="weeklyCloseBtn" type="button" aria-label="Aizvērt nedēļas pārskatu">×</button>
+            </div>
+            <div class="unwanted-list" id="weeklyList"></div>
+          </div>
+        </section>
+        <section class="unwanted-overlay card-popup-overlay" id="monthlyPanel" hidden aria-label="Mēneša pārskats" aria-modal="true" role="dialog">
+          <div class="unwanted-panel">
+            <div class="unwanted-header">
+              <h2>Mēneša pārskats</h2>
+              <button class="unwanted-close" id="monthlyCloseBtn" type="button" aria-label="Aizvērt mēneša pārskatu">×</button>
+            </div>
+            <div class="unwanted-list" id="monthlyList"></div>
+          </div>
+        </section>
+        <section class="unwanted-overlay card-popup-overlay" id="infoPanel" hidden aria-label="Lietošanas pamācība" aria-modal="true" role="dialog">
+          <div class="unwanted-panel">
+            <div class="unwanted-header">
+              <h2>ⓘ Kā tas strādā</h2>
+              <button class="unwanted-close" id="infoCloseBtn" type="button" aria-label="Aizvērt pamācību">×</button>
+            </div>
+            <div class="info-panel-body">
+              <div class="info-row"><strong>🔥 Problemātiskie vārdi</strong><p>Vārdi, kurus vairākas reizes esi atzīmējis kā "Nezinu", automātiski parādās šeit, lai tos varētu papildus pievingrināt.</p></div>
+              <div class="info-row"><strong>🏅 Medaļas ikona</strong><p>Klikšķinot uz medaļas kartītes labajā augšējā stūrī, vārds tiek saglabāts kā "100% zināms" un uzreiz ielādējas nākamais vārds.</p></div>
+              <div class="info-row"><strong>👁️‍🗨️ Pārsvītrotā acs</strong><p>Klikšķinot uz pārsvītrotās acs kartītes labajā apakšējā stūrī, vārds tiek atzīmēts kā nevajadzīgs un uzreiz ielādējas nākamais vārds.</p></div>
+              <div class="info-row"><strong>↩️ Atgriešanas loģika</strong><p>Ikvienu no šiem vārdiem var atgriezt atpakaļ mācībām — atver attiecīgo pārskatu ("100% zināmi", "Nevajadzīgie vārdi", "Nedēļas" vai "Mēneša" pārskatu) un nospied "Atgriezt" pie konkrētā vārda.</p></div>
+            </div>
+          </div>
+        </section>
         <div class="card-inner">
           <div class="badge" id="cardLevel">A1</div>
           <h2 class="word" id="word">-</h2>
@@ -184,6 +230,7 @@
           <div class="card-study-extra" id="cardStudyExtra" hidden></div>
           <div class="hint" id="hint">Klikšķini uz kartītes, lai redzētu tulkojumu.</div>
         </div>
+        <button type="button" class="card-mastered-btn" id="cardMasteredBtn" title="Atzīmēt kā 100% zināmu" aria-label="Atzīmēt kā 100% zināmu">🏅</button>
         <button type="button" class="card-unwanted-btn" id="cardUnwantedBtn" title="Atzīmēt kā nevajadzīgu" aria-label="Atzīmēt kā nevajadzīgu">
           <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94"></path>
@@ -210,22 +257,24 @@
           </div>
           <div class="desktop-action-sidebar">
           <button id="verbRandomBtn" type="button" hidden style="display: none;">Jaukt darbības vārdus</button>
-          <button id="markMasteredBtn" type="button" hidden style="display: none;">100% zinu</button>
           <button class="extra-options-toggle" id="extraOptionsBtn" type="button" aria-expanded="false">Papildu opcijas ▼</button>
           <div class="mobile-extra-options" id="extraOptions" hidden>
-            <div class="desktop-side-group desktop-side-group-work">
-              <div class="desktop-side-title">Darba režīmi</div>
-              <button id="archiveLastSessionBtn" type="button">Atzīmēt sesiju kā iemācītu</button>
+            <button type="button" class="extra-options-info-btn" id="extraOptionsInfoBtn" title="Kā tas strādā" aria-label="Kā tas strādā">ⓘ</button>
+            <div class="desktop-side-group desktop-side-group-settings">
+              <div class="desktop-side-title">Uzstādījumi</div>
+              <label class="switch-row" for="spellingToggle">
+                <span>Pareizrakstība</span>
+                <span class="switch">
+                  <input type="checkbox" id="spellingToggle">
+                  <span class="switch-slider" aria-hidden="true"></span>
+                </span>
+              </label>
+              <button id="resetProgressBtn" type="button">Norestartēt progresu</button>
             </div>
-            <div class="desktop-side-group desktop-side-group-words">
-              <div class="desktop-side-title">Vārdu pārvaldība</div>
+            <div class="desktop-side-group desktop-side-group-reports">
+              <div class="desktop-side-title">Pārskati</div>
               <button id="weeklyReviewBtn" type="button">Nedēļas pārskats</button>
               <button id="monthlyReviewBtn" type="button">Mēneša pārskats</button>
-              <button id="restoreBtn" type="button">Atgriezt visus</button>
-              <button id="restoreCurrentBtn" type="button">Atgriezt</button>
-            </div>
-            <div class="desktop-side-group desktop-side-group-stats">
-              <div class="desktop-side-title">Statistika</div>
               <button id="masteredListBtn" type="button">100% zināmi</button>
               <button id="unwantedListBtn" type="button">Nevajadzīgie vārdi</button>
             </div>
