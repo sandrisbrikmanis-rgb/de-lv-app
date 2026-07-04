@@ -3971,13 +3971,20 @@
   -webkit-overflow-scrolling: touch;
 }
 
-/* "Norestartēt progresu" drošības popup */
-.reset-confirm-panel {
-  width: min(420px, 100%);
+/* "Norestartēt progresu" drošības popup — sēž tieši uz galvenās kartītes */
+.card-popup-overlay .reset-confirm-panel {
+  justify-content: center;
+  gap: 0;
+  text-align: center;
+}
+
+.card-popup-overlay .reset-confirm-panel .unwanted-header {
+  flex: 0 0 auto;
+  justify-content: center;
 }
 
 .reset-confirm-body {
-  padding: 4px 16px 16px;
+  padding: 4px 20px 16px;
   color: #d8e2ec;
   font-size: 0.94rem;
   line-height: 1.45;
@@ -3990,9 +3997,9 @@
 .confirm-actions {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   gap: 12px;
-  padding: 12px 16px 16px;
+  padding: 12px 20px 20px;
 }
 
 .confirm-cancel-btn,
