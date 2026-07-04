@@ -6749,3 +6749,60 @@ main,
   visibility: hidden !important;
   pointer-events: none !important;
 }
+
+.desktop-side-group-problem {
+  padding: 0;
+  border: 0 !important;
+  background: transparent !important;
+}
+
+#problemWordsBtn {
+  min-height: 44px;
+  font-weight: 800;
+  border-color: #b45309 !important;
+  background: linear-gradient(145deg, #ea580c, #c2410c) !important;
+  color: #fff7ed !important;
+}
+
+#problemWordsBtn.active {
+  border-color: #fdba74 !important;
+  box-shadow: 0 0 0 2px rgba(251, 146, 60, 0.35) !important;
+}
+
+.restore-confirm-body {
+  padding: 18px 16px 20px;
+}
+
+.restore-confirm-body p {
+  margin: 0 0 18px;
+  color: #fecaca;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.restore-confirm-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.restore-confirm-btn,
+.restore-cancel-btn {
+  min-height: 44px;
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.restore-confirm-btn {
+  border: 1px solid #ef4444;
+  background: linear-gradient(145deg, #ef4444, #b91c1c);
+  color: #fff;
+}
+
+.restore-cancel-btn {
+  border: 1px solid #475569;
+  background: #1e293b;
+  color: #e2e8f0;
+}

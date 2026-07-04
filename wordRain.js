@@ -177,9 +177,9 @@
 
       if (mastered.has(id) || learnedSet.has(id)) {
         bucket = "learned_green";
-      } else if (stats && stats.problematic === true && (stats.unknownCount || 0) >= 3) {
+      } else if (stats && ((typeof stats.errorLevel === "number" && stats.errorLevel > 0) || (stats.problematic === true && (stats.unknownCount || 0) >= 3))) {
         bucket = "problem_darkred";
-      } else if (sessionSet.has(id) || (stats && (stats.unknownCount || 0) > 0)) {
+      } else if (sessionSet.has(id) || (stats && ((typeof stats.errorLevel === "number" && stats.errorLevel > 0) || (stats.unknownCount || 0) > 0))) {
         bucket = "active_red";
       }
 

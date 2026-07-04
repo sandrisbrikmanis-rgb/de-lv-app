@@ -131,7 +131,6 @@ const state = {
   reviewKnown: false,
   reviewLastSession: false,
   problemMode: false,
-  problemScope: "group",
   problemIndex: 0,
   timeReviewMode: null,
   timeReviewIndex: 0,
@@ -184,11 +183,9 @@ const elements = {
   extraOptionsBtn: document.getElementById("extraOptionsBtn"),
   extraOptions: document.getElementById("extraOptions"),
   problemWordsBtn: document.getElementById("problemWordsBtn"),
-  allProblemWordsBtn: document.getElementById("allProblemWordsBtn"),
   weeklyReviewBtn: document.getElementById("weeklyReviewBtn"),
   monthlyReviewBtn: document.getElementById("monthlyReviewBtn"),
   restoreBtn: document.getElementById("restoreBtn"),
-  restoreCurrentBtn: document.getElementById("restoreCurrentBtn"),
   unwantedBtn: document.getElementById("unwantedBtn"),
   markMasteredBtn: document.getElementById("markMasteredBtn"),
   markUnwantedBtn: document.getElementById("markUnwantedBtn"),
@@ -2243,7 +2240,22 @@ function saveLastCompletedSession() {
 function loadProblemStats() {
   try {
     const saved = JSON.parse(store.getItem(problemStatsStorageKey) || "{}");
-    return saved && typeof saved === "object" && !Array.isArray(saved) ? saved : {};
+    if (!saved || typeof saved !== "object" || Array.isArray(saved)) return {};
+    const migrated = {};
+    for (const [id, rawStats] of Object.entries(saved)) {
+      if (!rawStats || typeof rawStats !== "object") continue;
+      if (typeof rawStats.errorLevel === "number") {
+        migrated[id] = { errorLevel: Math.max(0, rawStats.errorLevel) };
+        continue;
+      }
+      const legacyLevel = rawStats.problematic === true
+        ? Math.max(1, rawStats.unknownCount || 3)
+        : Math.max(0, rawStats.unknownCount || 0);
+      if (legacyLevel > 0) {
+        migrated[id] = { errorLevel: legacyLevel };
+      }
+    }
+    return migrated;
   } catch (error) {
     return {};
   }
@@ -2251,6 +2263,36 @@ function loadProblemStats() {
 
 function saveProblemStats() {
   store.setItem(problemStatsStorageKey, JSON.stringify(state.problemStats));
+}
+
+function getErrorLevel(id) {
+  const stats = state.problemStats[id];
+  if (!stats) return 0;
+  return Math.max(0, Number(stats.errorLevel) || 0);
+}
+
+function isProblematicWord(id) {
+  return getErrorLevel(id) > 0;
+}
+
+function countProblematicWords() {
+  let count = 0;
+  for (const groupKey of groups) {
+    for (const card of allCardsForGroup(groupKey)) {
+      const id = idForSessionKey(card, groupKey);
+      if (!isUnwantedCard(card) && isProblematicWord(id)) count += 1;
+    }
+  }
+  return count;
+}
+
+function updateProblemWordsBtn() {
+  if (!elements.problemWordsBtn) return;
+  const count = countProblematicWords();
+  elements.problemWordsBtn.textContent = count
+    ? `Problemātiskie vārdi (${count})`
+    : "Problemātiskie vārdi";
+  elements.problemWordsBtn.classList.toggle("active", state.problemMode);
 }
 
 function unwantedItemId(item) {
@@ -2314,7 +2356,10 @@ function loadUnwantedIds() {
     const migrated = sanitizeUnwantedIds(legacy)
       .filter((item) => {
         const id = unwantedItemId(item);
-        return !(problemStats[id] && problemStats[id].problematic === true);
+        const stats = problemStats[id];
+        if (!stats || typeof stats !== "object") return true;
+        if (typeof stats.errorLevel === "number") return stats.errorLevel <= 0;
+        return !(stats.problematic === true && (stats.unknownCount || 0) >= 3);
       });
     store.setItem(unwantedStorageKey, JSON.stringify(migrated));
     return migrated;
@@ -2728,11 +2773,9 @@ function nextKnownCard() {
 }
 
 function problemDeck() {
-  const groupKeys = state.problemScope === "all" ? groups : [activeGroupKey()];
-  return groupKeys.flatMap((groupKey) => allCardsForGroup(groupKey).filter((card) => {
+  return groups.flatMap((groupKey) => allCardsForGroup(groupKey).filter((card) => {
     const id = idForSessionKey(card, groupKey);
-    const stats = state.problemStats[id];
-    return !isUnwantedCard(card) && stats && stats.problematic === true && (stats.unknownCount || 0) >= 3;
+    return !isUnwantedCard(card) && isProblematicWord(id);
   }).map((card) => ({ ...card, problemGroupKey: groupKey })));
 }
 
@@ -2741,7 +2784,7 @@ function problemCardGroupKey(card) {
 }
 
 function problemEmptyMessage() {
-  return state.problemScope === "all" ? "Nav problemātisko vārdu." : "Šajā grupā nav problemātisko vārdu.";
+  return "Nav problemātisko vārdu.";
 }
 
 function normalizeProblemIndex() {
@@ -2757,31 +2800,41 @@ function normalizeProblemIndex() {
 
 function updateProblemUnknown(id) {
   if (!id) return;
-  const stats = state.problemStats[id] || {
-    unknownCount: 0,
-    correctCountForProblematic: 0,
-    problematic: false
-  };
-  stats.unknownCount = (stats.unknownCount || 0) + 1;
-  if (stats.unknownCount >= 3) {
-    stats.problematic = true;
-  }
+  const stats = state.problemStats[id] || {};
+  stats.errorLevel = getErrorLevel(id) + 1;
   state.problemStats[id] = stats;
   saveProblemStats();
 }
 
-function updateProblemKnown(id) {
-  if (!id) return;
-  const stats = state.problemStats[id];
-  if (!stats || !stats.problematic) return;
-
-  stats.correctCountForProblematic = (stats.correctCountForProblematic || 0) + 1;
-  if (stats.correctCountForProblematic >= 3) {
-    stats.problematic = false;
-    stats.correctCountForProblematic = 0;
+function graduateProblemWordToKnown(id, groupKey) {
+  if (!id || !groupKey) return;
+  if (groupKey === "verbs") {
+    if (!state.learned.verbs) state.learned.verbs = [];
+    if (!state.learned.verbs.includes(id)) state.learned.verbs.push(id);
+  } else {
+    if (!state.learned[groupKey]) state.learned[groupKey] = [];
+    if (!state.learned[groupKey].includes(id)) state.learned[groupKey].push(id);
   }
-  state.problemStats[id] = stats;
+  updateReviewStatus(id, true);
+  recordLearnedTimestamp(id);
+  saveProgress();
+  updateKnownListBtn();
+}
+
+function updateProblemKnown(id, groupKey) {
+  if (!id || getErrorLevel(id) <= 0) return false;
+
+  const nextLevel = getErrorLevel(id) - 1;
+  if (nextLevel <= 0) {
+    delete state.problemStats[id];
+    saveProblemStats();
+    graduateProblemWordToKnown(id, groupKey);
+    return true;
+  }
+
+  state.problemStats[id] = { errorLevel: nextLevel };
   saveProblemStats();
+  return false;
 }
 
 function rotateProblemDeck() {
@@ -2799,9 +2852,9 @@ function rotateProblemDeck() {
   resetSpellingTask();
 }
 
-function completeProblemCard(id) {
+function completeProblemCard(id, groupKey) {
   const position = state.problemIndex || 0;
-  updateProblemKnown(id);
+  const graduated = updateProblemKnown(id, groupKey);
   const deck = problemDeck();
   if (!deck.length) {
     state.problemIndex = 0;
@@ -2817,6 +2870,7 @@ function completeProblemCard(id) {
   state.verbStep = 0;
   resetVerbChallenge();
   resetSpellingTask();
+  return graduated;
 }
 
 function lastSessionDeck() {
@@ -3070,7 +3124,7 @@ function ensureInfoPopup() {
         <p><strong>Zinu / Nezinu.</strong> Atzīmē, vai atbildi zini. Pareizas atbildes pārvieto vārdu tuvāk “iemācīts” stāvoklim.</p>
         <p><strong>Pareizrakstība.</strong> Ieslēdz ✍️ Pareizrakstība, lai rakstītu atbildi ar roku — lieliski apgūstot rakstību.</p>
         <p><strong>Nedēļas un mēneša pārskats.</strong> Skaties visus iemācītos vārdus no visiem līmeņiem vienā sarakstā un atgriez tos mācīšanā, ja vēlies.</p>
-        <p><strong>Problemātiskie vārdi.</strong> Vārdi, kurus nezināt vairākas reizes, nonāk problemātisko sarakstā atkārtotai apgūšanai.</p>
+        <p><strong>Problemātiskie vārdi.</strong> Katra “Nezinu” atbilde parastajā plūsmā palielina kļūdu pakāpi. Problemātiskajā grupā “Zinu pareizi” samazina pakāpi; sasniedzot 0, vārds automātiski nonāk “Zināmi”.</p>
       </div>
     </div>
   `;
@@ -3865,82 +3919,6 @@ function closeUnwantedList() {
   closeWordListModal("unwantedWordsModal");
 }
 
-function getActiveProblematicEntries() {
-  return groups.flatMap((groupKey) => allCardsForGroup(groupKey).filter((card) => {
-    const id = idForSessionKey(card, groupKey);
-    const stats = state.problemStats[id];
-    return !isUnwantedCard(card) && stats && stats.problematic === true && (stats.unknownCount || 0) >= 3;
-  }).map((card) => ({
-    id: idForSessionKey(card, groupKey),
-    de: formatGermanEntry(card),
-    lv: card.lv || "",
-    level: card.level || groupKey,
-    groupKey
-  })));
-}
-
-function renderProblematicWordsModalContent(container) {
-  const entries = getActiveProblematicEntries();
-  if (!entries.length) {
-    container.innerHTML = `<p class="modal-empty">Nav problemātisko vārdu.</p>`;
-    return;
-  }
-
-  container.innerHTML = entries.map((entry) => `
-    <div class="modal-row">
-      <div class="modal-word">
-        <strong>${escapeHtml(entry.de)} ➔ ${escapeHtml(entry.lv)}</strong>
-        <span class="modal-level">${escapeHtml(groupDisplayLabel(entry.level))}</span>
-      </div>
-      <button type="button" class="modal-remove-btn" data-remove-problematic="${entry.id}">Izņemt no saraksta</button>
-    </div>
-  `).join("");
-}
-
-function removeFromProblematicList(id) {
-  const stats = state.problemStats[id];
-  if (!stats) return;
-  stats.problematic = false;
-  stats.correctCountForProblematic = 0;
-  state.problemStats[id] = stats;
-  saveProblemStats();
-  const list = document.getElementById("problematicWordsList");
-  if (list) renderProblematicWordsModalContent(list);
-  if (state.problemMode) render();
-}
-
-function closeProblematicWordsModal() {
-  closeWordListModal("problematicWordsModal");
-}
-
-function showProblematicWordsList() {
-  showWordListModal({
-    id: "problematicWordsModal",
-    title: "Visi problemātiskie",
-    ariaLabel: "Visi problemātiskie",
-    listId: "problematicWordsList",
-    actionsHtml: `
-      <div class="modal-actions">
-        <button type="button" id="problematicStudyBtn">Mācīt flashcards</button>
-      </div>
-    `,
-    renderContent: renderProblematicWordsModalContent,
-    onListClick: (event) => {
-      const button = event.target.closest("[data-remove-problematic]");
-      if (button) removeFromProblematicList(button.dataset.removeProblematic);
-    }
-  });
-
-  const studyBtn = document.getElementById("problematicStudyBtn");
-  if (studyBtn && !studyBtn.dataset.bound) {
-    studyBtn.addEventListener("click", () => {
-      closeProblematicWordsModal();
-      selectAllProblemWords();
-    });
-    studyBtn.dataset.bound = "true";
-  }
-}
-
 function getAllLearnedEntries() {
   const entries = [];
   for (const groupKey of groups) {
@@ -4193,8 +4171,12 @@ function markKnown() {
     }
 
     const id = idForSessionKey(card, problemCardGroupKey(card));
-    completeProblemCard(id);
-    setNotice(problemDeck().length ? "Problemātiskais vārds atzīmēts kā zināms." : problemEmptyMessage());
+    const graduated = completeProblemCard(id, problemCardGroupKey(card));
+    if (graduated) {
+      setNotice(problemDeck().length ? "Vārds pārvietots uz Zināmi!" : "Problemātiskie vārdi izmācīti. Vārds pārvietots uz Zināmi!");
+    } else {
+      setNotice(problemDeck().length ? "Kļūdu pakāpe samazināta." : problemEmptyMessage());
+    }
     render();
     return;
   }
@@ -4310,7 +4292,6 @@ function markUnknown() {
 
     const groupKey = activeGroupKey();
     const id = idForSessionKey(card, groupKey);
-    updateProblemUnknown(id);
     if (!state.learned[groupKey]) {
       state.learned[groupKey] = [];
     }
@@ -4331,9 +4312,8 @@ function markUnknown() {
       return;
     }
 
-    updateProblemUnknown(idForSessionKey(card, problemCardGroupKey(card)));
     rotateProblemDeck();
-    setNotice("Atstāts problemātiskajos vārdos.");
+    setNotice("Atstāts problemātiskajā grupā.");
     render();
     return;
   }
@@ -4348,7 +4328,6 @@ function markUnknown() {
 
     const groupKey = state.lastCompletedSession.groupKey;
     const id = idForSessionKey(card, groupKey);
-    updateProblemUnknown(id);
     if (!state.learned[groupKey]) {
       state.learned[groupKey] = [];
     }
@@ -4376,7 +4355,6 @@ function markUnknown() {
 
     const groupKey = activeGroupKey();
     const id = idForSessionKey(card, groupKey);
-    updateProblemUnknown(id);
     if (!state.learned[groupKey]) {
       state.learned[groupKey] = [];
     }
@@ -4571,26 +4549,8 @@ function reviewKnown() {
 }
 
 function selectProblemWords() {
-  state.problemMode = true;
-  state.problemScope = "group";
-  state.reviewKnown = false;
-  state.reviewLastSession = false;
-  state.timeReviewMode = null;
-  state.timeReviewIndex = 0;
-  state.timeReviewIds = [];
-  state.problemIndex = 0;
-  state.index = 0;
-  state.verbIndex = 0;
-  state.verbStep = 0;
-  state.revealed = false;
-  setNotice("Rādām problemātiskos vārdus.");
-  render();
-}
-
-function selectAllProblemWords() {
   state.verbMode = false;
   state.problemMode = true;
-  state.problemScope = "all";
   state.reviewKnown = false;
   state.reviewLastSession = false;
   state.timeReviewMode = null;
@@ -4601,7 +4561,7 @@ function selectAllProblemWords() {
   state.verbIndex = 0;
   state.verbStep = 0;
   state.revealed = false;
-  setNotice("Rādām visus problemātiskos vārdus.");
+  setNotice(problemDeck().length ? "Rādām problemātiskos vārdus." : problemEmptyMessage());
   render();
 }
 
@@ -4646,25 +4606,70 @@ function archiveLastSession() {
   render();
 }
 
-function restoreAll() {
-  const groupKey = activeGroupKey();
-  state.reviewLastSession = false;
-  state.problemMode = false;
-  state.problemIndex = 0;
-  state.timeReviewMode = null;
-  state.timeReviewIndex = 0;
-  state.timeReviewIds = [];
-  state.learned[groupKey] = [];
-  resetReviewDataForGroup(groupKey);
-  state.reviewKnown = false;
-  state.index = 0;
-  state.verbIndex = 0;
-  state.verbStep = 0;
-  state.revealed = false;
-  saveProgress();
-  createSession();
-  setNotice("Visas kartītes atgrieztas aktīvajā grupā.");
-  render();
+function ensureRestoreAllConfirmPopup() {
+  let popup = document.getElementById("restoreAllConfirmPopup");
+  if (popup) return popup;
+
+  popup = document.createElement("div");
+  popup.className = "modal-overlay";
+  popup.id = "restoreAllConfirmPopup";
+  popup.hidden = true;
+  popup.setAttribute("role", "dialog");
+  popup.setAttribute("aria-modal", "true");
+  popup.setAttribute("aria-label", "Apstiprināt visu progressa dzēšanu");
+  popup.innerHTML = `
+    <div class="modal-backdrop" aria-hidden="true"></div>
+    <div class="modal-content restore-confirm-content">
+      <header class="modal-header">
+        <h2>⚠️ Atgriezt visu</h2>
+        <button type="button" class="modal-close" aria-label="Aizvērt">×</button>
+      </header>
+      <div class="restore-confirm-body">
+        <p>Uzmanību! Viss iemācītais progress un vārdu vēsture tiks pilnībā nodzēsta pa nullēm.</p>
+        <div class="restore-confirm-actions">
+          <button type="button" class="restore-confirm-btn" id="restoreConfirmBtn">Apstiprināt</button>
+          <button type="button" class="restore-cancel-btn" id="restoreCancelBtn">Atcelt</button>
+        </div>
+      </div>
+    </div>
+  `;
+  document.body.appendChild(popup);
+
+  popup.querySelector(".modal-backdrop").addEventListener("click", closeRestoreAllConfirm);
+  popup.querySelector(".modal-close").addEventListener("click", closeRestoreAllConfirm);
+  popup.querySelector("#restoreCancelBtn").addEventListener("click", closeRestoreAllConfirm);
+  popup.querySelector("#restoreConfirmBtn").addEventListener("click", wipeAllProgress);
+  popup.querySelector(".modal-content").addEventListener("click", (event) => event.stopPropagation());
+  return popup;
+}
+
+function openRestoreAllConfirm() {
+  const popup = ensureRestoreAllConfirmPopup();
+  popup.hidden = false;
+  popup.style.display = "block";
+}
+
+function closeRestoreAllConfirm() {
+  const popup = document.getElementById("restoreAllConfirmPopup");
+  if (popup) {
+    popup.hidden = true;
+    popup.style.display = "none";
+  }
+}
+
+function wipeAllProgress() {
+  store.setItem(storageKey, "{}");
+  store.setItem(reviewStorageKey, "{}");
+  store.setItem(problemStatsStorageKey, "{}");
+  store.setItem(unwantedStorageKey, "[]");
+  store.setItem(legacyUnwantedStorageKey, "[]");
+  store.setItem(masteredStorageKey, "[]");
+  store.setItem(sessionStorageKey, "null");
+  store.setItem(lastCompletedSessionStorageKey, "null");
+  store.setItem(directionStorageKey, "de-lv");
+  store.setItem(modeStorageKey, "normal");
+  closeRestoreAllConfirm();
+  window.location.reload();
 }
 
 function updateStats() {
@@ -4673,52 +4678,6 @@ function updateStats() {
 
 function renderCard() {
   render();
-}
-
-function restoreCurrentWord() {
-  if (state.verbMode) {
-    const verb = currentVerb();
-    if (!verb) {
-      setNotice("Nav kartītes, ko atgriezt.");
-      return;
-    }
-
-    const id = verbId(verb);
-    if (!state.learned.verbs) {
-      state.learned.verbs = [];
-    }
-    state.learned.verbs = state.learned.verbs.filter((learnedId) => learnedId !== id);
-    delete state.reviewStatus[id];
-    saveReviewStatus();
-    state.reviewKnown = false;
-    state.verbStep = 0;
-    saveProgress();
-    setNotice("Kartīte atgriezta aktīvajā grupā.");
-    updateStats();
-    renderCard();
-    return;
-  }
-
-  const card = currentCard();
-  if (!card) {
-    setNotice("Nav kartītes, ko atgriezt.");
-    return;
-  }
-
-  if (!state.learned[state.group]) {
-    state.learned[state.group] = [];
-  }
-
-  const id = cardId(card);
-  state.learned[state.group] = state.learned[state.group].filter((learnedId) => learnedId !== id);
-  delete state.reviewStatus[id];
-  saveReviewStatus();
-  state.reviewKnown = false;
-  state.revealed = false;
-  saveProgress();
-  setNotice("Kartīte atgriezta aktīvajā grupā.");
-  updateStats();
-  renderCard();
 }
 
 function selectVerbs() {
@@ -4883,7 +4842,7 @@ function renderVerbCard() {
     : (state.timeReviewMode
     ? timeConfig.label
     : (state.problemMode
-    ? (state.problemScope === "all" ? "Visi problemātiskie" : "Problemātiskie vārdi")
+    ? "Problemātiskie vārdi"
     : (state.reviewKnown ? "Darbības vārdi zināmie" : "Darbības vārdi")));
   elements.totalWords.textContent = String(state.timeReviewMode ? deck.length : (state.problemMode ? deck.length : (state.reviewLastSession ? lastSessionReviewTotalCount() : (state.reviewKnown ? deck.length : sessionTotalCount()))));
   elements.learnedWords.textContent = String(state.learned.verbs.length);
@@ -4956,11 +4915,12 @@ function renderVerbCard() {
     : (state.timeReviewMode
     ? `${timeConfig.label}: ${state.timeReviewIndex + 1} / ${deck.length}. Klikšķini uz kartītes, lai pārslēgtu formu.`
     : (state.problemMode
-    ? `${state.problemScope === "all" ? "Visi problemātiskie" : "Problemātiskie"}: ${state.problemIndex + 1} / ${deck.length}. Klikšķini uz kartītes, lai pārslēgtu formu.`
+    ? `Problemātiskie: ${state.problemIndex + 1} / ${deck.length}. Klikšķini uz kartītes, lai pārslēgtu formu.`
     : (state.reviewKnown
     ? `Zināmie: ${state.index + 1} / ${deck.length}. Klikšķini uz kartītes, lai pārslēgtu formu.`
     : `Sesija: ${Math.min(sessionDoneCount() + 1, sessionTotalCount())} / ${sessionTotalCount()}. Klikšķini uz kartītes, lai pārslēgtu formu.`)));
   updateKnownListBtn();
+  updateProblemWordsBtn();
   updateSessionCompleteOverlay();
 }
 
@@ -5482,7 +5442,7 @@ function render() {
     : (state.timeReviewMode
     ? timeConfig.label
     : (state.problemMode
-    ? (state.problemScope === "all" ? "Visi problemātiskie" : "Problemātiskie vārdi")
+    ? "Problemātiskie vārdi"
     : (state.reviewKnown ? `${groupDisplayLabel(state.group)} zināmie` : groupDisplayLabel(state.group))));
   elements.totalWords.textContent = String(total);
   elements.learnedWords.textContent = String(learned);
@@ -5534,7 +5494,7 @@ function render() {
     : (state.timeReviewMode
     ? `${card.level} · ${timeConfig.label}: ${state.timeReviewIndex + 1}/${deck.length}`
     : (state.problemMode
-    ? `${groupDisplayLabel(problemCardGroupKey(card))} · ${state.problemScope === "all" ? "Visi problemātiskie" : "Problemātiskie"}: ${state.problemIndex + 1}/${deck.length}`
+    ? `${groupDisplayLabel(problemCardGroupKey(card))} · Problemātiskie: ${state.problemIndex + 1}/${deck.length}`
     : (!state.reviewKnown && sessionMatchesActiveGroup()
     ? `${groupDisplayLabel(card.level)} · Sesija: ${Math.min(sessionDoneCount() + 1, sessionTotalCount())} / ${sessionTotalCount()}`
     : `${groupDisplayLabel(card.level)} · ${state.index + 1}/${deck.length}`)));
@@ -5547,6 +5507,7 @@ function render() {
     ? ""
     : "Klikšķini uz kartītes, lai redzētu tulkojumu.";
   updateKnownListBtn();
+  updateProblemWordsBtn();
   updateSessionCompleteOverlay();
   } finally {
     syncWordRain();
@@ -5626,14 +5587,12 @@ elements.extraOptionsBtn.addEventListener("click", () => {
   elements.extraOptionsBtn.textContent = opening ? "Papildu opcijas ▲" : "Papildu opcijas ▼";
 });
 elements.problemWordsBtn.addEventListener("click", selectProblemWords);
-elements.allProblemWordsBtn.addEventListener("click", showProblematicWordsList);
 elements.weeklyReviewBtn.addEventListener("click", () => openTimeReviewModal("week"));
 elements.monthlyReviewBtn.addEventListener("click", () => openTimeReviewModal("month"));
 if (elements.infoBtn) {
   elements.infoBtn.addEventListener("click", openInfoPopup);
 }
-elements.restoreBtn.addEventListener("click", restoreAll);
-elements.restoreCurrentBtn.addEventListener("click", restoreCurrentWord);
+elements.restoreBtn.addEventListener("click", openRestoreAllConfirm);
 if (elements.restartSessionBtn) {
   elements.restartSessionBtn.addEventListener("click", restartCompletedSession);
 }
