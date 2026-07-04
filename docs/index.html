@@ -152,15 +152,6 @@
           <div class="kurss-lesson" id="kurssSentenceStructureLesson" hidden>
           </div>        </div>
       </section>
-      <section class="unwanted-overlay" id="unwantedPanel" hidden aria-label="Nevajadzīgie vārdi" aria-modal="true" role="dialog">
-        <div class="unwanted-panel">
-          <div class="unwanted-header">
-            <h2>Nevajadzīgie vārdi</h2>
-            <button class="unwanted-close" id="unwantedCloseBtn" type="button" aria-label="Aizvērt nevajadzīgos">×</button>
-          </div>
-          <div class="unwanted-list" id="unwantedList"></div>
-        </div>
-      </section>
       <section class="unwanted-overlay" id="masteredPanel" hidden aria-label="100% zināmi" aria-modal="true" role="dialog">
         <div class="unwanted-panel">
           <div class="unwanted-header">
@@ -177,6 +168,15 @@
       </div>
 
       <article class="card">
+        <section class="unwanted-overlay card-popup-overlay" id="unwantedPanel" hidden aria-label="Nevajadzīgie vārdi" aria-modal="true" role="dialog">
+          <div class="unwanted-panel">
+            <div class="unwanted-header">
+              <h2>Nevajadzīgie vārdi</h2>
+              <button class="unwanted-close" id="unwantedCloseBtn" type="button" aria-label="Aizvērt nevajadzīgos">×</button>
+            </div>
+            <div class="unwanted-list" id="unwantedList"></div>
+          </div>
+        </section>
         <div class="card-inner">
           <div class="badge" id="cardLevel">A1</div>
           <h2 class="word" id="word">-</h2>
@@ -215,8 +215,6 @@
           <div class="mobile-extra-options" id="extraOptions" hidden>
             <div class="desktop-side-group desktop-side-group-work">
               <div class="desktop-side-title">Darba režīmi</div>
-              <button id="reviewBtn" type="button">Pārskatīt zināmos</button>
-              <button id="reviewLastSessionBtn" type="button">Pārskatīt pēdējo sesiju</button>
               <button id="archiveLastSessionBtn" type="button">Atzīmēt sesiju kā iemācītu</button>
             </div>
             <div class="desktop-side-group desktop-side-group-words">
