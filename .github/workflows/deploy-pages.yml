@@ -1,0 +1,58 @@
+name: Deploy to GitHub Pages
+
+# Ironclad, modern replacement for the legacy "Deploy from a branch" pipeline,
+# which has repeatedly gotten stuck mid-build and left the public site stale.
+# This workflow publishes docs/ straight from GitHub Actions on every push to
+# main, so new commits reliably reach https://sandrisbrikmanis-rgb.github.io/de-lv-app/
+# without depending on GitHub's legacy branch-polling builder.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Verify docs/ is in sync with the web app source files
+        run: node ./scripts/sync-web-to-docs.js
+
+      - name: Fail if docs/ drifted from the source (forgot to run pages:sync)
+        run: |
+          if [ -n "$(git status --porcelain docs)" ]; then
+            echo "::error::docs/ is out of sync with the root web app files. Run 'npm run pages:sync' and commit the result." >&2
+            git status --porcelain docs
+            exit 1
+          fi
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

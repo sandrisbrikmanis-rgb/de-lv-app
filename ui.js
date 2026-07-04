@@ -33,7 +33,8 @@ const UI_ICONS = {
   target: "🎯",
   easy: "🟢",
   normal: "🟡",
-  intense: "🔴"
+  intense: "🔴",
+  fire: "🔥"
 };
 
 const verbEntries = typeof VERB_ENTRIES !== "undefined" ? VERB_ENTRIES : (window.VERB_ENTRIES || []);
@@ -182,8 +183,6 @@ const elements = {
   extraOptionsBtn: document.getElementById("extraOptionsBtn"),
   extraOptions: document.getElementById("extraOptions"),
   archiveLastSessionBtn: document.getElementById("archiveLastSessionBtn"),
-  problemWordsBtn: document.getElementById("problemWordsBtn"),
-  allProblemWordsBtn: document.getElementById("allProblemWordsBtn"),
   weeklyReviewBtn: document.getElementById("weeklyReviewBtn"),
   monthlyReviewBtn: document.getElementById("monthlyReviewBtn"),
   restoreBtn: document.getElementById("restoreBtn"),
@@ -4018,16 +4017,26 @@ function renderGroupButtons() {
 
     if (group === "verbs") {
       setGroupButtonLabel(button, "Darbības vārdi", verbEntries.length);
-      button.className = state.verbMode ? "group-btn active" : "group-btn";
+      button.className = state.verbMode && !state.problemMode ? "group-btn active" : "group-btn";
       button.addEventListener("click", selectVerbs);
     } else {
       setGroupButtonLabel(button, groupLabel(group), baseCardsForGroup(group).length);
-      button.className = !state.verbMode && group === state.group ? "group-btn active" : "group-btn";
+      button.className = !state.verbMode && !state.problemMode && group === state.group ? "group-btn active" : "group-btn";
       button.addEventListener("click", () => selectGroup(group));
     }
 
     elements.groupButtons.appendChild(button);
   }
+
+  const fireButton = document.createElement("button");
+  fireButton.type = "button";
+  fireButton.id = "problemWordsBtn";
+  const fireActive = state.problemMode && state.problemScope === "group";
+  fireButton.className = fireActive ? "group-btn group-btn-fire active" : "group-btn group-btn-fire";
+  fireButton.textContent = `${UI_ICONS.fire} Problemātiskie`;
+  fireButton.setAttribute("aria-pressed", fireActive ? "true" : "false");
+  fireButton.addEventListener("click", selectProblemWords);
+  elements.groupButtons.appendChild(fireButton);
 }
 
 function selectMode(mode) {
@@ -4880,8 +4889,6 @@ elements.extraOptionsBtn.addEventListener("click", () => {
   elements.extraOptionsBtn.textContent = opening ? "Papildu opcijas ▲" : "Papildu opcijas ▼";
 });
 elements.archiveLastSessionBtn.addEventListener("click", archiveLastSession);
-elements.problemWordsBtn.addEventListener("click", selectProblemWords);
-elements.allProblemWordsBtn.addEventListener("click", selectAllProblemWords);
 elements.weeklyReviewBtn.addEventListener("click", () => startTimeReview("week"));
 elements.monthlyReviewBtn.addEventListener("click", () => startTimeReview("month"));
 elements.restoreBtn.addEventListener("click", restoreAll);

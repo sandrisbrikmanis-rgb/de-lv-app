@@ -26,17 +26,13 @@ scripts/             — satura audita un build skripti (PowerShell/Node)
 Tīmekļa lietotnes pirmkods dzīvo saknē (`index.html`, `ui.js`, `style.css`, `data/`, `icons/`). Capacitor lasa no `www/` mapes (skat. `capacitor.config.json` → `webDir: "www"`), tāpēc pēc katras izmaiņas saknes failos tā jāsinhronizē uz `www/`:
 
 ```bash
-npm run sync:www     # kopē root failus → www/ (PowerShell skripts)
+npm run sync:www     # kopē root failus → www/ (scripts/sync-web-to-www.js, Node — darbojas uz visām platformām)
 npm run cap:sync      # sinhronizē www/ un palaiž `npx cap sync` (abas platformas)
 npm run cap:ios       # atver iOS projektu Xcode
 npm run cap:android   # atver Android projektu Android Studio
 ```
 
-> **Piezīme:** `scripts/sync-web-to-www.ps1` ir PowerShell skripts. Uz Linux/macOS bez PowerShell to var aizstāt ar manuālu kopēšanu:
-> ```bash
-> cp index.html manifest.json ui.js style.css groups.js storage.js www/
-> rm -rf www/data www/icons && cp -r data www/data && cp -r icons www/icons
-> ```
+> **Piezīme:** `sync:www` agrāk izsauca `scripts/sync-web-to-www.ps1` (PowerShell), kas klusi neizdevās jebkurā Linux/macOS/CI/cloud-agent vidē bez PowerShell — tā bija viena no iemeslu, kāpēc izmaiņas reizēm nenonāca līdz `www/`. Tagad `sync:www` izmanto `scripts/sync-web-to-www.js` (tīrs Node.js), kas darbojas identiski visur. `.ps1` fails saglabāts repozitorijā kā atsauce Windows lietotājiem, bet vairs netiek izsaukts no `package.json`.
 
 ## Ikonas un splash ekrāni
 
@@ -51,7 +47,7 @@ iOS `AppIcon.appiconset` un `Splash.imageset`, kā arī Android `mipmap-*`/`draw
 
 ## GitHub Pages publicēšana
 
-GitHub Pages šim repozitorijam ir konfigurēts uz `main` zaru, `/docs` mapi (Settings → Pages). Tāpēc **publiskā vietne (`index.html`, saturs, `privacy.html`) tiek rādīta tieši no `docs/` mapes**, nevis no repozitorija saknes. Pēc katras izmaiņas saknes tīmekļa failos (`index.html`, `style.css`, `ui.js`, `data/`, `icons/` u.c.) tā jāsinhronizē uz `docs/`, pretējā gadījumā publiskā vietne rādīs vecu saturu (vai 404, ja `docs/index.html` nemaz nav):
+GitHub Pages šim repozitorijam ir konfigurēts uz `main` zaru, `/docs` mapi (Settings → Pages → Source: Deploy from a branch). Tāpēc **publiskā vietne (`index.html`, saturs, `privacy.html`) tiek rādīta tieši no `docs/` mapes**, nevis no repozitorija saknes. Pēc katras izmaiņas saknes tīmekļa failos (`index.html`, `style.css`, `ui.js`, `data/`, `icons/` u.c.) tā jāsinhronizē uz `docs/`, pretējā gadījumā publiskā vietne rādīs vecu saturu (vai 404, ja `docs/index.html` nemaz nav):
 
 ```bash
 npm run deploy   # kopē root tīmekļa failus → docs/ (node skripts, darbojas uz visām platformām)
@@ -61,6 +57,12 @@ git push
 ```
 
 `npm run deploy` (`scripts/sync-web-to-docs.js`) nekad neaiztiek `docs/privacy.html`, `docs/privacy.css` vai `docs/.nojekyll` — tie tiek uzturēti atsevišķi.
+
+### Zināma problēma: GitHub iebūvētais ("legacy") Pages build var iestrēgt
+
+GitHub "Deploy from a branch" publicēšanas process ir GitHub iekšējs, melnā kastē esošs process, kas ik pa laikam **iestrēgst statusā `building` uz nenoteiktu laiku** un vienkārši pārstāj apstrādāt jaunus push'us uz `main` — pat ja `docs/` saturs repozitorijā ir pilnīgi pareizs un jaunākais. Tieši tas notika pirms šī labojuma: vairāki commit'i (melnais fons, režīmu cilnes, violeto pogu dzēšana) bija korekti sinhronizēti uz `docs/` un push'oti uz `main`, bet GitHub Pages build process iestrēdza uz vecāka commit'a un nekad neizveidoja jaunu build'u — tāpēc publiskajā vietnē tie nebija redzami, lai gan repozitorijā viss bija pareizi.
+
+**Risinājums:** repozitorijā ir pievienots `.github/workflows/deploy-pages.yml` — GitHub Actions darbplūsma, kas publicē `docs/` uz GitHub Pages neatkarīgi no iepriekšējā "legacy" build procesa. Tā palaižas automātiski pēc katra push uz `main` un izmanto oficiālos `actions/upload-pages-artifact` + `actions/deploy-pages`, kas paši konfigurē vietnes avotu uz "GitHub Actions" pirmajā veiksmīgajā palaišanas reizē. Progresu var sekot cilnē **Actions** repozitorijā — ja darbplūsma nokārtojas zaļa, jaunākais `docs/` saturs ir garantēti izvietots, neatkarīgi no vecā builder'a stāvokļa.
 
 ---
 
