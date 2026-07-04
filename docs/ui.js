@@ -169,7 +169,6 @@ const elements = {
   knownBtn: document.getElementById("knownBtn"),
   unknownBtn: document.getElementById("unknownBtn"),
   nextBtn: document.getElementById("nextBtn"),
-  shuffleBtn: document.getElementById("shuffleBtn"),
   verbRandomBtn: document.getElementById("verbRandomBtn"),
   cardsTabBtn: document.getElementById("cardsTabBtn"),
   writingTabBtn: document.getElementById("writingTabBtn"),
@@ -179,6 +178,7 @@ const elements = {
   continueSpellingBtn: document.getElementById("continueSpellingBtn"),
   spellingResult: document.getElementById("spellingResult"),
   directionBtn: document.getElementById("directionBtn"),
+  directionLabel: document.getElementById("directionLabel"),
   extraOptionsBtn: document.getElementById("extraOptionsBtn"),
   extraOptions: document.getElementById("extraOptions"),
   reviewBtn: document.getElementById("reviewBtn"),
@@ -2239,7 +2239,7 @@ function createSession() {
     }
   }
 
-  const picked = newCards.slice(0, config.newCount).concat(reviewCards.slice(0, config.reviewCount));
+  const picked = shuffleInPlace(newCards.slice(0, config.newCount).concat(reviewCards.slice(0, config.reviewCount)));
   state.session = {
     groupKey,
     mode: state.mode,
@@ -3731,46 +3731,14 @@ function continueSpelling() {
   if (!state.spellingMode || !state.spellingChecked) return;
   nextCard();
 }
-function shuffleDeck() {
-  if (state.problemMode) {
-    setNotice("Problemātiskie vārdi tiek rādīti rotācijā.");
-    render();
-    return;
-  }
-
-  if (!state.reviewKnown && sessionMatchesActiveGroup()) {
-    const ids = state.session.ids;
-    for (let i = ids.length - 1; i > 0; i -= 1) {
-      const j = Math.floor(Math.random() * (i + 1));
-      const temp = ids[i];
-      ids[i] = ids[j];
-      ids[j] = temp;
-    }
-
-    state.session.index = 0;
-    state.index = 0;
-    state.verbIndex = 0;
-    state.revealed = false;
-    state.verbStep = 0;
-    saveSession();
-    setNotice("Sesijas secība sajaukta.");
-    render();
-    return;
-  }
-
-  const deck = currentDeck();
-  for (let i = deck.length - 1; i > 0; i -= 1) {
+function shuffleInPlace(list) {
+  for (let i = list.length - 1; i > 0; i -= 1) {
     const j = Math.floor(Math.random() * (i + 1));
-    const temp = deck[i];
-    deck[i] = deck[j];
-    deck[j] = temp;
+    const temp = list[i];
+    list[i] = list[j];
+    list[j] = temp;
   }
-
-  state.order[deckKey()] = deck.map(cardId);
-  state.index = 0;
-  state.revealed = false;
-  setNotice("Secība sajaukta.");
-  render();
+  return list;
 }
 
 function toggleDirection() {
@@ -3779,6 +3747,17 @@ function toggleDirection() {
   resetSpellingTask();
   saveDirection();
   render();
+}
+
+function updateDirectionToggle() {
+  const isGermanToLatvian = state.direction === "de-lv";
+  elements.directionLabel.textContent = isGermanToLatvian ? "DE ⇄ LV" : "LV ⇄ DE";
+  elements.directionBtn.setAttribute(
+    "aria-label",
+    isGermanToLatvian
+      ? "Tulkošanas virziens: vācu ➔ latviešu. Uzklikšķini, lai pārslēgtu uz latviešu ➔ vācu."
+      : "Tulkošanas virziens: latviešu ➔ vācu. Uzklikšķini, lai pārslēgtu uz vācu ➔ latviešu."
+  );
 }
 
 function toggleVerbRandomMode() {
@@ -4182,9 +4161,7 @@ function renderVerbCard() {
     : (state.reviewKnown ? "Darbības vārdi zināmie" : "Darbības vārdi")));
   elements.totalWords.textContent = String(state.timeReviewMode ? deck.length : (state.problemMode ? deck.length : (state.reviewLastSession ? lastSessionReviewTotalCount() : (state.reviewKnown ? deck.length : sessionTotalCount()))));
   elements.learnedWords.textContent = String(state.learned.verbs.length);
-  elements.directionBtn.textContent = state.direction === "de-lv"
-    ? "Vācu ➔ latviešu"
-    : "Latviešu ➔ vācu";
+  updateDirectionToggle();
 
   if (!verb) {
     elements.cardLevel.className = "verb-headings";
@@ -4753,9 +4730,7 @@ function render() {
     : (state.reviewKnown ? `${groupDisplayLabel(state.group)} zināmie` : groupDisplayLabel(state.group))));
   elements.totalWords.textContent = String(total);
   elements.learnedWords.textContent = String(learned);
-  elements.directionBtn.textContent = state.direction === "de-lv"
-    ? "Vācu ➔ latviešu"
-    : "Latviešu ➔ vācu";
+  updateDirectionToggle();
 
   if (!card) {
     elements.cardLevel.className = "badge";
@@ -4851,7 +4826,6 @@ document.querySelector(".card")?.addEventListener("click", revealCard);
 elements.knownBtn.addEventListener("click", markKnown);
 elements.unknownBtn.addEventListener("click", markUnknown);
 elements.nextBtn.addEventListener("click", nextCard);
-elements.shuffleBtn.addEventListener("click", shuffleDeck);
 elements.verbRandomBtn.addEventListener("click", toggleVerbRandomMode);
 elements.cardsTabBtn?.addEventListener("click", selectCardsTab);
 elements.writingTabBtn?.addEventListener("click", selectWritingTab);

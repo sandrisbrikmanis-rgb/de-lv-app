@@ -33,6 +33,9 @@
             <span class="stat-icon" aria-hidden="true">🎓</span>
             <span class="stat-line"><span class="stat-label">Iemācītie</span><span class="stat-separator">–</span><strong id="learnedWords">0</strong></span>
           </div>
+          <button class="direction-toggle" id="directionBtn" type="button" aria-label="Mainīt tulkošanas virzienu">
+            <span id="directionLabel">DE ⇄ LV</span>
+          </button>
         </div>
       </div>
 
@@ -202,12 +205,6 @@
           <button id="markMasteredBtn" type="button" hidden style="display: none;">100% zinu</button>
           <button class="extra-options-toggle" id="extraOptionsBtn" type="button" aria-expanded="false">Papildu opcijas ▼</button>
           <div class="mobile-extra-options" id="extraOptions" hidden>
-            <div class="desktop-side-group desktop-side-group-quick">
-              <div class="desktop-side-title">Ātrā pārslēgšana</div>
-              <button id="shuffleBtn" type="button">Jaukt secību</button>
-              <button id="directionBtn" type="button">Vācu ➔ latviešu</button>
-              <button id="markUnwantedBtn" type="button">Atzīmēt kā nevajadzīgu</button>
-            </div>
             <div class="desktop-side-group desktop-side-group-work">
               <div class="desktop-side-title">Darba režīmi</div>
               <button id="reviewBtn" type="button">Pārskatīt zināmos</button>
@@ -216,6 +213,7 @@
             </div>
             <div class="desktop-side-group desktop-side-group-words">
               <div class="desktop-side-title">Vārdu pārvaldība</div>
+              <button id="markUnwantedBtn" type="button">Atzīmēt kā nevajadzīgu</button>
               <button id="problemWordsBtn" type="button">Problemātiskie vārdi</button>
               <button id="allProblemWordsBtn" type="button">Visi problemātiskie</button>
               <button id="weeklyReviewBtn" type="button">Nedēļas pārskats</button>
