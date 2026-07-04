@@ -3758,11 +3758,71 @@
 }
 
 
-/* 100% zin─ümi controls */
+/* Zināmi controls */
 #masteredListBtn {
   overflow-wrap: normal;
   word-break: normal;
   hyphens: none;
+}
+
+.session-complete-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(18, 18, 18, 0.92);
+  border-radius: inherit;
+  backdrop-filter: blur(6px);
+}
+
+.session-complete-overlay[hidden] {
+  display: none !important;
+}
+
+.session-complete-popup {
+  text-align: center;
+  padding: 28px 24px;
+  max-width: 340px;
+  width: 90%;
+}
+
+.session-complete-popup h3 {
+  margin: 0 0 22px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #f0f0f0;
+}
+
+.session-complete-popup button {
+  display: block;
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 14px 18px;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 12px;
+  border: 1px solid #2d2d2d;
+  background: #1a1a1a;
+  color: #e8e8e8;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.session-complete-popup button:last-child {
+  margin-bottom: 0;
+}
+
+.session-complete-popup button:hover,
+.session-complete-popup button:focus-visible {
+  background: linear-gradient(145deg, #1677f2, #0756c9);
+  border-color: #5aa2ff;
+  color: #ffffff;
+}
+
+.card-inner {
+  position: relative;
 }
 
 .unwanted-row button[data-restore-mastered],

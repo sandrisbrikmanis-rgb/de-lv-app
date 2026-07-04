@@ -163,6 +163,9 @@ const elements = {
   word: document.getElementById("word"),
   translation: document.getElementById("translation"),
   cardStudyExtra: document.getElementById("cardStudyExtra"),
+  sessionCompleteOverlay: document.getElementById("sessionCompleteOverlay"),
+  restartSessionBtn: document.getElementById("restartSessionBtn"),
+  markSessionLearnedBtn: document.getElementById("markSessionLearnedBtn"),
   hint: document.getElementById("hint"),
   notice: document.getElementById("notice"),
   knownBtn: document.getElementById("knownBtn"),
@@ -180,9 +183,6 @@ const elements = {
   directionLabel: document.getElementById("directionLabel"),
   extraOptionsBtn: document.getElementById("extraOptionsBtn"),
   extraOptions: document.getElementById("extraOptions"),
-  reviewBtn: document.getElementById("reviewBtn"),
-  reviewLastSessionBtn: document.getElementById("reviewLastSessionBtn"),
-  archiveLastSessionBtn: document.getElementById("archiveLastSessionBtn"),
   problemWordsBtn: document.getElementById("problemWordsBtn"),
   allProblemWordsBtn: document.getElementById("allProblemWordsBtn"),
   weeklyReviewBtn: document.getElementById("weeklyReviewBtn"),
@@ -2600,6 +2600,101 @@ function completeCurrentSessionCard(id) {
   saveSession();
 }
 
+function totalLearnedCount() {
+  let count = 0;
+  for (const group of groups) {
+    count += (state.learned[group] || []).length;
+  }
+  count += (state.learned.verbs || []).length;
+  return count;
+}
+
+function updateKnownListBtn() {
+  if (!elements.masteredListBtn) return;
+  elements.masteredListBtn.textContent = `🏅 Zināmi (${totalLearnedCount()})`;
+}
+
+function shouldShowSessionCompleteOverlay() {
+  if (state.reviewKnown || state.reviewLastSession || state.problemMode || state.timeReviewMode || state.studyTestCard) {
+    return false;
+  }
+  if (!state.session?.completed || !state.lastCompletedSession?.ids?.length) {
+    return false;
+  }
+  const groupKey = state.verbMode ? "verbs" : activeGroupKey();
+  return state.lastCompletedSession.groupKey === groupKey
+    && state.lastCompletedSession.mode === state.mode;
+}
+
+function updateSessionCompleteOverlay() {
+  if (!elements.sessionCompleteOverlay) return;
+  const show = shouldShowSessionCompleteOverlay();
+  elements.sessionCompleteOverlay.hidden = !show;
+}
+
+function restartCompletedSession() {
+  if (!state.lastCompletedSession?.ids?.length) return;
+  const ids = state.lastCompletedSession.ids.slice();
+  fisherYatesShuffle(ids);
+  state.session = {
+    groupKey: state.lastCompletedSession.groupKey,
+    mode: state.lastCompletedSession.mode,
+    ids: ids.slice(),
+    originalIds: state.lastCompletedSession.ids.slice(),
+    completedIds: [],
+    total: ids.length,
+    index: 0,
+    completed: false,
+    startedAt: new Date().toISOString(),
+    created: new Date().toISOString(),
+    shuffled: true
+  };
+  state.reviewLastSession = false;
+  state.reviewKnown = false;
+  state.index = 0;
+  state.verbIndex = 0;
+  state.verbStep = 0;
+  state.revealed = false;
+  state.verbMode = state.lastCompletedSession.groupKey === "verbs";
+  saveSession();
+  setNotice("Sesija ielādēta no jauna ar jauktu secību.");
+  render();
+}
+
+function markSessionAsLearned() {
+  if (!state.lastCompletedSession?.ids?.length) return;
+  const groupKey = state.lastCompletedSession.groupKey;
+  const ids = state.lastCompletedSession.ids;
+
+  if (groupKey === "verbs") {
+    if (!state.learned.verbs) state.learned.verbs = [];
+    for (const id of ids) {
+      if (!state.learned.verbs.includes(id)) {
+        state.learned.verbs.push(id);
+      }
+      updateReviewStatus(id, true);
+      recordLearnedTimestamp(id);
+    }
+  } else {
+    if (!state.learned[groupKey]) state.learned[groupKey] = [];
+    for (const id of ids) {
+      if (!state.learned[groupKey].includes(id)) {
+        state.learned[groupKey].push(id);
+      }
+      updateReviewStatus(id, true);
+      recordLearnedTimestamp(id);
+    }
+  }
+
+  saveProgress();
+  state.lastCompletedSession = null;
+  state.session.completed = false;
+  saveLastCompletedSession();
+  createSession();
+  setNotice("Sesijas vārdi pārvietoti uz zināmajiem.");
+  render();
+}
+
 function sessionDoneCount() {
   return state.session && Array.isArray(state.session.completedIds) ? state.session.completedIds.length : 0;
 }
@@ -3846,6 +3941,95 @@ function showProblematicWordsList() {
   }
 }
 
+function getAllLearnedEntries() {
+  const entries = [];
+  for (const groupKey of groups) {
+    const ids = state.learned[groupKey] || [];
+    const cards = cardsForSessionKey(groupKey);
+    for (const id of ids) {
+      const card = cards.find((candidate) => idForSessionKey(candidate, groupKey) === id);
+      if (card) {
+        entries.push({
+          id,
+          de: formatGermanEntry(card),
+          lv: card.lv || "",
+          level: card.level || groupKey,
+          groupKey
+        });
+      }
+    }
+  }
+
+  const verbIds = state.learned.verbs || [];
+  for (const id of verbIds) {
+    const verb = verbEntries.find((candidate) => verbId(candidate) === id);
+    if (verb) {
+      const forms = verbForms(verb);
+      entries.push({
+        id,
+        de: forms.infinitiv || "",
+        lv: forms.infinitivLv || "",
+        level: "verbs",
+        groupKey: "verbs"
+      });
+    }
+  }
+
+  return entries;
+}
+
+function renderKnownList(container) {
+  const entries = getAllLearnedEntries();
+  if (!entries.length) {
+    container.innerHTML = `<p class="modal-empty">Nav iemācīto vārdu.</p>`;
+    return;
+  }
+
+  container.innerHTML = entries.map((entry) => `
+    <div class="modal-row">
+      <div class="modal-word">
+        <strong>${escapeHtml(entry.de)} ➔ ${escapeHtml(entry.lv)}</strong>
+        <span class="modal-level">${escapeHtml(entry.groupKey === "verbs" ? "Darbības vārdi" : groupDisplayLabel(entry.level))}</span>
+      </div>
+      <button type="button" class="modal-remove-btn" data-restore-known="${escapeHtml(entry.id)}" data-restore-known-group="${escapeHtml(entry.groupKey)}">Atgriezt</button>
+    </div>
+  `).join("");
+}
+
+function openKnownList() {
+  showWordListModal({
+    id: "knownWordsModal",
+    title: "Zināmi",
+    ariaLabel: "Zināmi",
+    listId: "knownWordsList",
+    renderContent: renderKnownList,
+    onListClick: (event) => {
+      const button = event.target.closest("[data-restore-known]");
+      if (button) {
+        restoreKnownFromList(button.dataset.restoreKnown, button.dataset.restoreKnownGroup);
+      }
+    }
+  });
+}
+
+function restoreKnownFromList(id, groupKey) {
+  if (!id || !groupKey) return;
+  if (groupKey === "verbs") {
+    if (!state.learned.verbs) state.learned.verbs = [];
+    state.learned.verbs = state.learned.verbs.filter((learnedId) => learnedId !== id);
+  } else {
+    if (!state.learned[groupKey]) state.learned[groupKey] = [];
+    state.learned[groupKey] = state.learned[groupKey].filter((learnedId) => learnedId !== id);
+  }
+  delete state.reviewStatus[id];
+  saveReviewStatus();
+  saveProgress();
+  const list = document.getElementById("knownWordsList");
+  if (list) renderKnownList(list);
+  updateKnownListBtn();
+  render();
+}
+
 function renderMasteredList(container) {
   const allCards = groups.flatMap((group) => allCardsForGroup(group));
   const cards = sanitizeUnwantedIds(state.masteredIds).map((item) => {
@@ -4716,9 +4900,13 @@ function renderVerbCard() {
       ? problemEmptyMessage()
       : (state.reviewKnown
       ? "Zināmo vārdu pārskatīšana pabeigta."
-      : (groupHasOnlyUnwanted(state.group) ? "Šajā grupā nav aktīvu vārdu." : "Šajā sesijā nav kartīšu."))));
+      : (shouldShowSessionCompleteOverlay()
+      ? "Sesija pabeigta!"
+      : (groupHasOnlyUnwanted(state.group) ? "Šajā grupā nav aktīvu vārdu." : "Šajā sesijā nav kartīšu.")))));
     elements.translation.textContent = "";
     elements.hint.textContent = "";
+    updateKnownListBtn();
+    updateSessionCompleteOverlay();
     return;
   }
 
@@ -4730,6 +4918,8 @@ function renderVerbCard() {
     elements.translation.textContent = state.revealed && task ? `Atbilde: ${task.expected}` : "";
     elements.hint.textContent = task ? task.prompt : "Šim darbības vārdam nav pareizrakstības uzdevuma.";
     renderSpellingControls();
+    updateKnownListBtn();
+    updateSessionCompleteOverlay();
     return;
   }
 
@@ -4770,6 +4960,8 @@ function renderVerbCard() {
     : (state.reviewKnown
     ? `Zināmie: ${state.index + 1} / ${deck.length}. Klikšķini uz kartītes, lai pārslēgtu formu.`
     : `Sesija: ${Math.min(sessionDoneCount() + 1, sessionTotalCount())} / ${sessionTotalCount()}. Klikšķini uz kartītes, lai pārslēgtu formu.`)));
+  updateKnownListBtn();
+  updateSessionCompleteOverlay();
 }
 
 function escapeStudyCardText(value) {
@@ -5307,7 +5499,9 @@ function render() {
       ? problemEmptyMessage()
       : (state.reviewKnown
       ? "Zināmo vārdu pārskatīšana pabeigta."
-      : (groupHasOnlyUnwanted(state.group) ? "Šajā grupā nav aktīvu vārdu." : "Šajā sesijā nav kartīšu."))));
+      : (shouldShowSessionCompleteOverlay()
+      ? "Sesija pabeigta!"
+      : (groupHasOnlyUnwanted(state.group) ? "Šajā grupā nav aktīvu vārdu." : "Šajā sesijā nav kartīšu.")))));
     elements.translation.textContent = "";
     elements.hint.textContent = state.reviewLastSession
       ? ""
@@ -5317,7 +5511,11 @@ function render() {
       ? ""
       : (state.reviewKnown
       ? ""
+      : (shouldShowSessionCompleteOverlay()
+      ? "Izvēlies, ko darīt tālāk."
       : "Izvēlies citu režīmu vai atgriezies vēlāk pārskatīšanai.")));
+    updateKnownListBtn();
+    updateSessionCompleteOverlay();
     return;
   }
 
@@ -5329,6 +5527,8 @@ function render() {
     elements.translation.textContent = state.revealed && task ? `Atbilde: ${task.expected}` : "";
     elements.hint.textContent = task ? task.prompt : "";
     renderSpellingControls();
+    updateKnownListBtn();
+    updateSessionCompleteOverlay();
     return;
   }
 
@@ -5350,6 +5550,8 @@ function render() {
   elements.hint.textContent = state.revealed
     ? ""
     : "Klikšķini uz kartītes, lai redzētu tulkojumu.";
+  updateKnownListBtn();
+  updateSessionCompleteOverlay();
   } finally {
     syncWordRain();
   }
@@ -5419,7 +5621,7 @@ if (elements.unwantedBtn) {
   elements.unwantedBtn.hidden = true;
 }
 elements.markUnwantedBtn.addEventListener("click", markCurrentUnwanted);
-elements.masteredListBtn.addEventListener("click", openMasteredList);
+elements.masteredListBtn.addEventListener("click", openKnownList);
 elements.unwantedListBtn.addEventListener("click", openUnwantedList);
 elements.extraOptionsBtn.addEventListener("click", () => {
   const opening = elements.extraOptions.hidden;
@@ -5427,9 +5629,6 @@ elements.extraOptionsBtn.addEventListener("click", () => {
   elements.extraOptionsBtn.setAttribute("aria-expanded", opening ? "true" : "false");
   elements.extraOptionsBtn.textContent = opening ? "Papildu opcijas ▲" : "Papildu opcijas ▼";
 });
-elements.reviewBtn.addEventListener("click", reviewKnown);
-elements.reviewLastSessionBtn.addEventListener("click", reviewLastSession);
-elements.archiveLastSessionBtn.addEventListener("click", archiveLastSession);
 elements.problemWordsBtn.addEventListener("click", selectProblemWords);
 elements.allProblemWordsBtn.addEventListener("click", showProblematicWordsList);
 elements.weeklyReviewBtn.addEventListener("click", () => openTimeReviewModal("week"));
@@ -5439,6 +5638,12 @@ if (elements.infoBtn) {
 }
 elements.restoreBtn.addEventListener("click", restoreAll);
 elements.restoreCurrentBtn.addEventListener("click", restoreCurrentWord);
+if (elements.restartSessionBtn) {
+  elements.restartSessionBtn.addEventListener("click", restartCompletedSession);
+}
+if (elements.markSessionLearnedBtn) {
+  elements.markSessionLearnedBtn.addEventListener("click", markSessionAsLearned);
+}
 } catch (error) {
   console.error("UI event binding failed:", error);
 }

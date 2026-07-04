@@ -159,6 +159,13 @@
           <div class="translation" id="translation"></div>
           <div class="card-study-extra" id="cardStudyExtra" hidden></div>
           <div class="hint" id="hint">Klikšķini uz kartītes, lai redzētu tulkojumu.</div>
+          <div class="session-complete-overlay" id="sessionCompleteOverlay" hidden>
+            <div class="session-complete-popup">
+              <h3>Sesija pabeigta!</h3>
+              <button type="button" id="restartSessionBtn">🔄 Pārskatīt sesiju no jauna</button>
+              <button type="button" id="markSessionLearnedBtn">🏅 Atzīmēt sesiju kā iemācītu</button>
+            </div>
+          </div>
         </div>
       </article>
 
@@ -187,12 +194,6 @@
           <button id="markUnwantedBtn" type="button">Atzīmēt kā nevajadzīgu</button>
           <button class="extra-options-toggle" id="extraOptionsBtn" type="button" aria-expanded="false">Papildu opcijas ▼</button>
           <div class="mobile-extra-options" id="extraOptions" hidden>
-            <div class="desktop-side-group desktop-side-group-work">
-              <div class="desktop-side-title">Darba režīmi</div>
-              <button id="reviewBtn" type="button">Pārskatīt zināmos</button>
-              <button id="reviewLastSessionBtn" type="button">Pārskatīt pēdējo sesiju</button>
-              <button id="archiveLastSessionBtn" type="button">Atzīmēt sesiju kā iemācītu</button>
-            </div>
             <div class="desktop-side-group desktop-side-group-words">
               <div class="desktop-side-title">Vārdu pārvaldība</div>
               <button id="problemWordsBtn" type="button">Problemātiskie vārdi</button>
@@ -204,7 +205,7 @@
             </div>
             <div class="desktop-side-group desktop-side-group-stats">
               <div class="desktop-side-title">Statistika</div>
-              <button id="masteredListBtn" type="button">100% zināmi</button>
+              <button id="masteredListBtn" type="button">🏅 Zināmi (0)</button>
               <button id="unwantedListBtn" type="button">Nevajadzīgie vārdi</button>
             </div>
           </div>

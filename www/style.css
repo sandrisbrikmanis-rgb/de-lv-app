@@ -3758,11 +3758,71 @@
 }
 
 
-/* 100% zin─ümi controls */
+/* Zināmi controls */
 #masteredListBtn {
   overflow-wrap: normal;
   word-break: normal;
   hyphens: none;
+}
+
+.session-complete-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(18, 18, 18, 0.92);
+  border-radius: inherit;
+  backdrop-filter: blur(6px);
+}
+
+.session-complete-overlay[hidden] {
+  display: none !important;
+}
+
+.session-complete-popup {
+  text-align: center;
+  padding: 28px 24px;
+  max-width: 340px;
+  width: 90%;
+}
+
+.session-complete-popup h3 {
+  margin: 0 0 22px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #f0f0f0;
+}
+
+.session-complete-popup button {
+  display: block;
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 14px 18px;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 12px;
+  border: 1px solid #2d2d2d;
+  background: #1a1a1a;
+  color: #e8e8e8;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.session-complete-popup button:last-child {
+  margin-bottom: 0;
+}
+
+.session-complete-popup button:hover,
+.session-complete-popup button:focus-visible {
+  background: linear-gradient(145deg, #1677f2, #0756c9);
+  border-color: #5aa2ff;
+  color: #ffffff;
+}
+
+.card-inner {
+  position: relative;
 }
 
 .unwanted-row button[data-restore-mastered],
@@ -4741,19 +4801,30 @@
     align-content: start;
   }
 
-  .desktop-side-group {
+  .desktop-side-group,
+  .desktop-side-group-quick,
+  .desktop-side-group-work,
+  .desktop-side-group-words,
+  .desktop-side-group-stats,
+  .desktop-side-group-settings,
+  .desktop-side-group-reports {
     display: grid;
     gap: 8px;
     padding: 14px 16px;
-    border: 1px solid rgba(78, 160, 230, 0.65);
-    border-radius: 12px;
-    background: linear-gradient(145deg, rgba(12, 24, 35, 0.95), rgba(11, 18, 27, 0.94));
-    box-shadow: inset 0 1px 0 rgba(255,255,255,0.04), 0 14px 30px rgba(0,0,0,0.18);
+    border: 1px solid #2d2d2d !important;
+    border-radius: 12px !important;
+    background: #1a1a1a !important;
+    background-image: none !important;
+    box-shadow: none !important;
+  }
+
+  .desktop-side-group-stats {
+    margin: 0;
   }
 
   .desktop-side-title {
     margin-bottom: 4px;
-    color: #4ea0e6;
+    color: #d0d0d0;
     font-size: 0.74rem;
     font-weight: 900;
     text-align: center;
@@ -4761,62 +4832,20 @@
   }
 
   .desktop-action-sidebar button,
-  .desktop-side-group button {
+  .desktop-side-group button,
+  .desktop-action-sidebar .mobile-extra-options > button {
     width: 100%;
     min-width: 0;
     box-sizing: border-box;
     min-height: 38px;
     padding: 8px 10px;
-    border-color: rgba(255,255,255,0.06);
-    background: linear-gradient(145deg, rgba(65, 66, 64, 0.78), rgba(52, 53, 51, 0.78));
-    color: #f3f5f7;
+    border: 1px solid #2d2d2d !important;
+    border-radius: 12px !important;
+    background: #1a1a1a !important;
+    background-image: none !important;
+    color: #e8e8e8 !important;
     font-size: 0.86rem;
-    border-radius: 10px;
-  }
-
-  .desktop-side-group-quick {
-    border-color: rgba(49, 132, 255, 0.78);
-    box-shadow: inset 0 1px 0 rgba(255,255,255,0.04), 0 0 20px rgba(49,132,255,0.08);
-  }
-
-  .desktop-side-group-quick .desktop-side-title {
-    color: #4ea0e6;
-  }
-
-  .desktop-side-group-work {
-    border-color: rgba(163, 88, 224, 0.68);
-    box-shadow: inset 0 1px 0 rgba(255,255,255,0.04), 0 0 20px rgba(163,88,224,0.08);
-  }
-
-  .desktop-side-group-work .desktop-side-title {
-    color: #b15cff;
-  }
-
-  .desktop-side-group-words {
-    border-color: rgba(38, 170, 122, 0.72);
-    background: linear-gradient(145deg, rgba(13, 48, 39, 0.88), rgba(11, 28, 25, 0.94));
-    box-shadow: inset 0 1px 0 rgba(255,255,255,0.04), 0 0 20px rgba(38,170,122,0.08);
-  }
-
-  .desktop-side-group-words .desktop-side-title {
-    color: #27c894;
-  }
-
-  .desktop-side-group-stats {
-    margin: 0;
-    padding: 14px 16px;
-    border-color: rgba(210, 116, 28, 0.78);
-    background: linear-gradient(145deg, rgba(58, 33, 14, 0.88), rgba(31, 22, 14, 0.94));
-    box-shadow: inset 0 1px 0 rgba(255,255,255,0.04), 0 0 20px rgba(210,116,28,0.08);
-  }
-
-  .desktop-side-group-stats .desktop-side-title {
-    color: #f59a2f;
-  }
-
-  #spellingModeBtn {
-    background: linear-gradient(145deg, #1769e8, #084db7);
-    border-color: #1d76ff;
+    box-shadow: none !important;
   }
 
   .desktop-side-group-quick #spellingModeBtn,
@@ -4833,9 +4862,11 @@
 
   .desktop-side-group-quick #spellingModeBtn.active,
   .desktop-side-group-quick #spellingModeBtn.spelling-active {
-    background: linear-gradient(145deg, #5cb8ff, #2088ff) !important;
-    border-color: #6ec2ff !important;
-    box-shadow: 0 0 16px rgba(66, 165, 255, 0.45) !important;
+    background: #1a1a1a !important;
+    background-image: none !important;
+    border: 1px solid #2d2d2d !important;
+    color: #ffffff !important;
+    box-shadow: none !important;
   }
 
   #markUnwantedBtn,
@@ -6428,30 +6459,38 @@ main,
    these !important colors always win on desktop, regardless of source order
    drift elsewhere in this file. Mobile is untouched ÔÇö these buttons are
    display:none outside of the @media (min-width: 769px) block. */
+/* PC sānjoslas paneļi un pogas — tumšs, vienots stils (pārraksta globālos pārrakstus) */
 @media (min-width: 769px) {
-  .desktop-side-group-quick #spellingModeBtn {
-    background-color: #084db7 !important;
-    background-image: linear-gradient(145deg, #1769e8, #084db7) !important;
-    border: 1px solid #1d76ff !important;
-    color: #ffffff !important;
-    box-shadow: inset 0 1px 0 rgba(255,255,255,0.14), 0 6px 16px rgba(20, 101, 239, 0.32);
+  .desktop-side-group,
+  .desktop-side-group-quick,
+  .desktop-side-group-work,
+  .desktop-side-group-words,
+  .desktop-side-group-stats,
+  .desktop-side-group-settings,
+  .desktop-side-group-reports {
+    border: 1px solid #2d2d2d !important;
+    border-radius: 12px !important;
+    background: #1a1a1a !important;
+    background-image: none !important;
+    box-shadow: none !important;
   }
 
+  .desktop-action-sidebar button,
+  .desktop-side-group button,
+  .desktop-action-sidebar .mobile-extra-options > button,
+  .desktop-side-group-quick #spellingModeBtn,
   .desktop-side-group-quick #spellingModeBtn.active,
-  .desktop-side-group-quick #spellingModeBtn.spelling-active {
-    background-color: #42a5ff !important;
-    background-image: linear-gradient(145deg, #5cb8ff, #2088ff) !important;
-    border-color: #6ec2ff !important;
-    color: #ffffff !important;
-    box-shadow: 0 0 16px rgba(66, 165, 255, 0.45) !important;
-  }
-
+  .desktop-side-group-quick #spellingModeBtn.spelling-active,
   .desktop-side-group-quick #infoBtn {
-    background-color: #0b3a63 !important;
-    background-image: linear-gradient(145deg, #1465ef, #073db4) !important;
-    border: 1px solid #4ea0e6 !important;
-    color: #ffffff !important;
-    box-shadow: inset 0 1px 0 rgba(255,255,255,0.14), 0 6px 16px rgba(20, 101, 239, 0.32);
+    -webkit-appearance: none !important;
+    appearance: none !important;
+    border: 1px solid #2d2d2d !important;
+    border-radius: 12px !important;
+    background: #1a1a1a !important;
+    background-color: #1a1a1a !important;
+    background-image: none !important;
+    color: #e8e8e8 !important;
+    box-shadow: none !important;
   }
 }
 
