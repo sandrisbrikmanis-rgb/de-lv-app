@@ -152,27 +152,26 @@
           <div class="kurss-lesson" id="kurssSentenceStructureLesson" hidden>
           </div>        </div>
       </section>
-      <section class="unwanted-overlay" id="resetConfirmPanel" hidden aria-label="Apstiprināt progresa atiestatīšanu" aria-modal="true" role="dialog">
-        <div class="unwanted-panel reset-confirm-panel">
-          <div class="unwanted-header">
-            <h2>⚠️ Norestartēt progresu?</h2>
-          </div>
-          <div class="reset-confirm-body">
-            <p>Šī darbība neatgriezeniski dzēsīs visu tavu progresu aktīvajā grupā — visi iemācītie un pārskatīšanai atzīmētie vārdi tiks atiestatīti no jauna. Šo darbību nevar atsaukt.</p>
-          </div>
-          <div class="confirm-actions">
-            <button type="button" id="resetConfirmCancelBtn" class="confirm-cancel-btn">Atcelt</button>
-            <button type="button" id="resetConfirmYesBtn" class="confirm-danger-btn">Jā, dzēst visu</button>
-          </div>
-        </div>
-      </section>
-
       <div class="mode-tabs" id="modeTabs" role="tablist" aria-label="Mācīšanās veids">
         <button class="mode-tab" id="cardsTabBtn" type="button" role="tab" aria-selected="true">🗂️ Kartītes</button>
         <button class="mode-tab" id="writingTabBtn" type="button" role="tab" aria-selected="false">✍️ Rakstīšana</button>
       </div>
 
-      <article class="card">
+      <article class="card" id="flashcard">
+        <section class="unwanted-overlay card-popup-overlay" id="resetConfirmPanel" hidden aria-label="Apstiprināt progresa atiestatīšanu" aria-modal="true" role="dialog">
+          <div class="unwanted-panel reset-confirm-panel">
+            <div class="unwanted-header">
+              <h2>⚠️ Norestartēt progresu?</h2>
+            </div>
+            <div class="reset-confirm-body">
+              <p>Šī darbība neatgriezeniski dzēsīs visu tavu progresu aktīvajā grupā — visi iemācītie un pārskatīšanai atzīmētie vārdi tiks atiestatīti no jauna. Šo darbību nevar atsaukt.</p>
+            </div>
+            <div class="confirm-actions">
+              <button type="button" id="resetConfirmCancelBtn" class="confirm-cancel-btn">Atcelt</button>
+              <button type="button" id="resetConfirmYesBtn" class="confirm-danger-btn">Jā, dzēst visu</button>
+            </div>
+          </div>
+        </section>
         <section class="unwanted-overlay card-popup-overlay" id="unwantedPanel" hidden aria-label="Nevajadzīgie vārdi" aria-modal="true" role="dialog">
           <div class="unwanted-panel">
             <div class="unwanted-header">
