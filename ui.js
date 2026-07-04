@@ -165,12 +165,14 @@ const elements = {
   cardStudyExtra: document.getElementById("cardStudyExtra"),
   hint: document.getElementById("hint"),
   notice: document.getElementById("notice"),
+  desktopPrimaryActions: document.getElementById("desktopPrimaryActions"),
   knownBtn: document.getElementById("knownBtn"),
   unknownBtn: document.getElementById("unknownBtn"),
   nextBtn: document.getElementById("nextBtn"),
   shuffleBtn: document.getElementById("shuffleBtn"),
   verbRandomBtn: document.getElementById("verbRandomBtn"),
-  spellingModeBtn: document.getElementById("spellingModeBtn"),
+  cardsTabBtn: document.getElementById("cardsTabBtn"),
+  writingTabBtn: document.getElementById("writingTabBtn"),
   spellingPanel: document.getElementById("spellingPanel"),
   spellingInput: document.getElementById("spellingInput"),
   checkSpellingBtn: document.getElementById("checkSpellingBtn"),
@@ -2712,10 +2714,7 @@ function resetSpellingTask() {
   state.spellingChecked = false;
   state.spellingCorrect = false;
   state.spellingAnswer = "";
-  if (elements.continueSpellingBtn) {
-    elements.continueSpellingBtn.hidden = true;
-    elements.continueSpellingBtn.disabled = true;
-  }
+  updateSpellingCheckButtonVisibility();
   if (elements.spellingInput) {
     elements.spellingInput.value = "";
   }
@@ -3792,8 +3791,9 @@ function toggleVerbRandomMode() {
   render();
 }
 
-function toggleSpellingMode() {
-  state.spellingMode = !state.spellingMode;
+function setSpellingMode(enabled) {
+  if (state.spellingMode === enabled) return;
+  state.spellingMode = enabled;
   if (state.spellingMode) {
     state.reviewKnown = false;
     state.reviewLastSession = false;
@@ -3803,8 +3803,16 @@ function toggleSpellingMode() {
   }
   state.revealed = false;
   resetSpellingTask();
-  setNotice(state.spellingMode ? "Pareizrakstības režīms ieslēgts." : "Pareizrakstības režīms izslēgts.");
+  setNotice(state.spellingMode ? "Rakstīšanas režīms ieslēgts." : "Kartīšu režīms ieslēgts.");
   render();
+}
+
+function selectCardsTab() {
+  setSpellingMode(false);
+}
+
+function selectWritingTab() {
+  setSpellingMode(true);
 }
 
 function reviewKnown() {
@@ -4065,8 +4073,7 @@ function renderModeButtons() {
   elements.verbRandomBtn.textContent = "Jaukt darbības vārdus";
   elements.verbRandomBtn.className = state.verbRandomMode ? "group-btn active" : "";
   elements.verbRandomBtn.setAttribute("aria-pressed", state.verbRandomMode ? "true" : "false");
-  elements.spellingModeBtn.className = state.spellingMode ? "group-btn active" : "";
-  elements.spellingModeBtn.setAttribute("aria-pressed", state.spellingMode ? "true" : "false");
+  renderModeTabs();
   if (elements.unwantedBtn) elements.unwantedBtn.hidden = true;
   elements.markMasteredBtn.hidden = true;
   elements.markMasteredBtn.style.display = "none";
@@ -4082,18 +4089,50 @@ function renderModeButtons() {
   }
 }
 
-function renderSpellingControls() {
-  elements.spellingPanel.hidden = !state.spellingMode;
-  elements.spellingPanel.style.display = state.spellingMode ? "" : "none";
-  elements.nextBtn.hidden = !state.spellingMode;
-  elements.nextBtn.style.display = state.spellingMode ? "" : "none";
-  elements.knownBtn.disabled = state.spellingMode && !state.spellingCorrect;
+function renderModeTabs() {
+  if (!elements.cardsTabBtn || !elements.writingTabBtn) return;
+  const writing = state.spellingMode;
+  elements.cardsTabBtn.className = writing ? "mode-tab" : "mode-tab active";
+  elements.cardsTabBtn.setAttribute("aria-selected", writing ? "false" : "true");
+  elements.writingTabBtn.className = writing ? "mode-tab active" : "mode-tab";
+  elements.writingTabBtn.setAttribute("aria-selected", writing ? "true" : "false");
+}
+
+function updateSpellingCheckButtonVisibility() {
+  const writing = state.spellingMode;
+  const showContinue = writing && state.spellingChecked;
+  if (elements.checkSpellingBtn) {
+    elements.checkSpellingBtn.hidden = showContinue;
+    elements.checkSpellingBtn.style.display = showContinue ? "none" : "";
+  }
   if (elements.continueSpellingBtn) {
-    elements.continueSpellingBtn.hidden = !state.spellingMode || !state.spellingChecked;
-    elements.continueSpellingBtn.disabled = !state.spellingMode || !state.spellingChecked;
+    elements.continueSpellingBtn.hidden = !showContinue;
+    elements.continueSpellingBtn.disabled = !showContinue;
+    elements.continueSpellingBtn.style.display = showContinue ? "" : "none";
+  }
+}
+
+function renderSpellingControls() {
+  const writing = state.spellingMode;
+
+  elements.spellingPanel.hidden = !writing;
+  elements.spellingPanel.style.display = writing ? "" : "none";
+
+  // "Nākamais vārds" is superseded by the "Pārbaudīt"/"Turpināt" toggle inside the writing panel.
+  elements.nextBtn.hidden = true;
+  elements.nextBtn.style.display = "none";
+
+  // "Zinu pareizi" / "Nezinu" only make sense in the Cards mode; the Writing mode is driven
+  // entirely by typing an answer and checking it.
+  elements.knownBtn.disabled = false;
+  if (elements.desktopPrimaryActions) {
+    elements.desktopPrimaryActions.hidden = writing;
+    elements.desktopPrimaryActions.style.display = writing ? "none" : "";
   }
 
-  if (!state.spellingMode) {
+  updateSpellingCheckButtonVisibility();
+
+  if (!writing) {
     elements.spellingResult.textContent = "";
     return;
   }
@@ -4814,7 +4853,8 @@ elements.unknownBtn.addEventListener("click", markUnknown);
 elements.nextBtn.addEventListener("click", nextCard);
 elements.shuffleBtn.addEventListener("click", shuffleDeck);
 elements.verbRandomBtn.addEventListener("click", toggleVerbRandomMode);
-elements.spellingModeBtn.addEventListener("click", toggleSpellingMode);
+elements.cardsTabBtn?.addEventListener("click", selectCardsTab);
+elements.writingTabBtn?.addEventListener("click", selectWritingTab);
 elements.checkSpellingBtn.addEventListener("click", checkSpellingAnswer);
 elements.continueSpellingBtn?.addEventListener("click", continueSpelling);
 elements.spellingInput?.addEventListener("input", () => {
@@ -4822,11 +4862,7 @@ elements.spellingInput?.addEventListener("input", () => {
   state.spellingAnswer = elements.spellingInput.value;
   state.spellingChecked = false;
   state.spellingCorrect = false;
-  if (elements.continueSpellingBtn) {
-    elements.continueSpellingBtn.hidden = true;
-    elements.continueSpellingBtn.disabled = true;
-  }
-  elements.knownBtn.disabled = state.spellingMode;
+  updateSpellingCheckButtonVisibility();
   elements.spellingResult.textContent = "";
 });
 elements.spellingInput?.addEventListener("keydown", (event) => {

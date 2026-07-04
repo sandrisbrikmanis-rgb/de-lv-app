@@ -4509,24 +4509,8 @@
     color: #f59a2f;
   }
 
-  #spellingModeBtn {
-    background: linear-gradient(145deg, #1769e8, #084db7);
-    border-color: #1d76ff;
-  }
-
   .desktop-side-group-quick #shuffleBtn,
   .desktop-side-group-quick #directionBtn {
-    font-weight: 700;
-    font-size: 0.86rem;
-    text-transform: none;
-    padding: 8px 10px;
-    text-align: center;
-    line-height: 1.2;
-    letter-spacing: normal;
-    white-space: normal;
-  }
-
-  .desktop-side-group-quick #spellingModeBtn {
     font-weight: 700;
     font-size: 0.86rem;
     text-transform: none;
@@ -4563,7 +4547,7 @@
 
   .action-buttons button:not(.known):not(.unknown):not(.primary),
   .mobile-extra-options > button,
-  .desktop-action-sidebar button:not(#pamatiBtn):not(#kurssBtn):not(#spellingModeBtn),
+  .desktop-action-sidebar button:not(#pamatiBtn):not(#kurssBtn),
   .desktop-side-group button {
     -webkit-appearance: none !important;
     appearance: none !important;
@@ -5780,7 +5764,7 @@
 
 /* Cross-browser system color-scheme override protection */
 .action-buttons button:not(.known):not(.unknown):not(.primary),
-.desktop-action-sidebar button:not(#pamatiBtn):not(#kurssBtn):not(#spellingModeBtn),
+.desktop-action-sidebar button:not(#pamatiBtn):not(#kurssBtn),
 .desktop-side-group button,
 #groupButtons button:not(.active),
 #modeButtons button:not(.active),
@@ -5839,13 +5823,6 @@
   background-color: #c75d09 !important;
   background-image: linear-gradient(145deg, #f28a16, #c75d09) !important;
   border-color: #f08a1d !important;
-  color: #ffffff !important;
-}
-
-#spellingModeBtn {
-  background-color: #084db7 !important;
-  background-image: linear-gradient(145deg, #1769e8, #084db7) !important;
-  border-color: #1d76ff !important;
   color: #ffffff !important;
 }
 
@@ -5951,5 +5928,61 @@ main,
 @media (max-width: 1023px) {
   .word-rain {
     display: none !important;
+  }
+}
+
+/* Cards / Writing mode tabs (above the flashcard) */
+.mode-tabs {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 8px;
+  width: min(420px, 100%);
+  margin: 0 auto 4px;
+  padding: 5px;
+  border-radius: 14px;
+  background: linear-gradient(145deg, #1c1e1d, #131514);
+  border: 1px solid #3b403c;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04), 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.mode-tab {
+  flex: 1 1 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-height: 44px;
+  padding: 9px 12px;
+  border: none;
+  border-radius: 10px;
+  background: transparent;
+  color: #9aa4b2;
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+  transition: background-color 0.18s ease, color 0.18s ease, box-shadow 0.18s ease;
+}
+
+.mode-tab:hover {
+  color: #e7ecf5;
+}
+
+.mode-tab.active {
+  background: linear-gradient(145deg, #1f6feb, #0644b6) !important;
+  color: #ffffff !important;
+  box-shadow: 0 6px 16px rgba(31, 111, 235, 0.35);
+}
+
+@media (max-width: 480px) {
+  .mode-tabs {
+    width: 100%;
+    gap: 6px;
+  }
+
+  .mode-tab {
+    font-size: 0.86rem;
+    padding: 9px 8px;
   }
 }
