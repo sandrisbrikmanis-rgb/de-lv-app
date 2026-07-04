@@ -5513,7 +5513,7 @@ function render() {
       ? ""
       : (shouldShowSessionCompleteOverlay()
       ? "Izvēlies, ko darīt tālāk."
-      : "Izvēlies citu režīmu vai atgriezies vēlāk pārskatīšanai.")));
+      : "Izvēlies citu režīmu vai atgriezies vēlāk pārskatīšanai."))));
     updateKnownListBtn();
     updateSessionCompleteOverlay();
     return;
