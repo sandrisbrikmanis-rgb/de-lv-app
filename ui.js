@@ -2253,6 +2253,7 @@ function createSession() {
     ids: picked.map(idForSessionCard),
     originalIds: picked.map(idForSessionCard),
     completedIds: [],
+    seenIds: [],
     total: picked.length,
     index: 0,
     startedAt: new Date().toISOString(),
@@ -2360,6 +2361,26 @@ function sessionDoneCount() {
 function sessionTotalCount() {
   if (!state.session) return 0;
   return state.session.total || (state.session.ids.length + sessionDoneCount());
+}
+
+// Tracks every distinct card answered in this session (via "Zinu pareizi" OR "Nezinu"),
+// independent of whether it was actually learned. This drives the linear top-of-screen
+// progress counter (e.g. "3 / 20"), so it advances on every answer while the underlying
+// spaced-repetition logic can still silently requeue "Nezinu" cards for another attempt.
+function markSessionSeen(id) {
+  if (!state.session || !id) return;
+  if (!Array.isArray(state.session.seenIds)) {
+    state.session.seenIds = [];
+  }
+  if (!state.session.seenIds.includes(id)) {
+    state.session.seenIds.push(id);
+  }
+}
+
+function sessionProgressCount() {
+  if (!state.session) return 0;
+  const seenCount = Array.isArray(state.session.seenIds) ? state.session.seenIds.length : 0;
+  return Math.min(Math.max(seenCount, sessionDoneCount()), sessionTotalCount());
 }
 
 function knownCardsForActiveGroup() {
@@ -3573,6 +3594,7 @@ function markKnown() {
     updateReviewStatus(id, true);
     recordLearnedTimestamp(id);
     saveProgress();
+    markSessionSeen(id);
     completeCurrentSessionCard(id);
     setNotice("Darbības vārds atzīmēts kā zināms.");
     render();
@@ -3595,6 +3617,7 @@ function markKnown() {
   saveProgress();
   state.revealed = false;
   setNotice("Atzīmēts kā zināms.");
+  markSessionSeen(id);
   completeCurrentSessionCard(id);
   render();
 }
@@ -3727,6 +3750,7 @@ function markUnknown() {
     if (id) {
       updateProblemUnknown(id);
       updateReviewStatus(id, false);
+      markSessionSeen(id);
     }
     saveProgress();
     rotateSession();
@@ -3748,6 +3772,7 @@ function markUnknown() {
   saveProgress();
   state.revealed = true;
   setNotice("Atstāts pārskatīšanai.");
+  markSessionSeen(id);
   rotateSession();
   render();
 }
@@ -4346,7 +4371,7 @@ function renderVerbCard() {
     ? `${state.problemScope === "all" ? "Visi problemātiskie" : "Problemātiskie"}: ${state.problemIndex + 1} / ${deck.length}. Klikšķini uz kartītes, lai pārslēgtu formu.`
     : (state.reviewKnown
     ? `Zināmie: ${state.index + 1} / ${deck.length}. Klikšķini uz kartītes, lai pārslēgtu formu.`
-    : `Sesija: ${Math.min(sessionDoneCount() + 1, sessionTotalCount())} / ${sessionTotalCount()}. Klikšķini uz kartītes, lai pārslēgtu formu.`)));
+    : `Sesija: ${Math.min(sessionProgressCount() + 1, sessionTotalCount())} / ${sessionTotalCount()}. Klikšķini uz kartītes, lai pārslēgtu formu.`)));
 }
 
 function escapeStudyCardText(value) {
@@ -4895,7 +4920,7 @@ function render() {
     : (state.problemMode
     ? `${groupDisplayLabel(problemCardGroupKey(card))} · ${state.problemScope === "all" ? "Visi problemātiskie" : "Problemātiskie"}: ${state.problemIndex + 1}/${deck.length}`
     : (!state.reviewKnown && sessionMatchesActiveGroup()
-    ? `${groupDisplayLabel(card.level)} · Sesija: ${Math.min(sessionDoneCount() + 1, sessionTotalCount())} / ${sessionTotalCount()}`
+    ? `${groupDisplayLabel(card.level)} · Sesija: ${Math.min(sessionProgressCount() + 1, sessionTotalCount())} / ${sessionTotalCount()}`
     : `${groupDisplayLabel(card.level)} · ${state.index + 1}/${deck.length}`)));
   if (renderStudyCard(card)) return;
   elements.word.textContent = state.direction === "de-lv" ? formatGermanEntry(card) : card.lv;
