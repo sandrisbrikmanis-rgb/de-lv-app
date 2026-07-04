@@ -1,4 +1,4 @@
-.card.has-study-card .study-accent-purple {
+﻿.card.has-study-card .study-accent-purple {
   color: #B565FF !important;
   font-weight: 700;
 }
@@ -54,7 +54,7 @@
     .controls {
       background: var(--panel);
       border: 1px solid var(--line);
-      border-radius: 8px;
+      border-radius: 12px;
       box-shadow: var(--shadow);
     }
 
@@ -115,6 +115,7 @@
       justify-content: center;
       text-align: center;
       box-sizing: border-box;
+      border-radius: 12px;
     }
 
     #groupButtons button .group-label-name,
@@ -1737,17 +1738,18 @@
       #groupButtons button {
         min-height: 44px;
         padding: 10px 14px;
-        border-color: var(--line);
-        background: #ffffff;
-        color: var(--ink);
+        border-color: #474947;
+        background: linear-gradient(145deg, #414240, #343533);
+        color: #f3f5f7;
         font-size: 1rem;
         line-height: normal;
         white-space: normal;
-        box-shadow: none;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.04);
         display: inline-flex;
         align-items: center;
         justify-content: center;
         text-align: center;
+        border-radius: 12px;
       }
 
       #groupButtons button::before,
@@ -1782,14 +1784,15 @@
         width: 100%;
         min-height: 44px;
         padding: 10px 14px;
-        border-color: var(--line);
-        background: #ffffff;
-        color: var(--ink);
+        border-color: #474947;
+        background: linear-gradient(145deg, #414240, #343533);
+        color: #f3f5f7;
         font-size: 1rem;
         line-height: normal;
         white-space: normal;
-        box-shadow: none;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.04);
         box-sizing: border-box;
+        border-radius: 12px;
       }
 
       #modeButtons .group-btn.active {
@@ -2241,12 +2244,51 @@
       font-size: 0.9rem;
     }
 
-    .extra-options-toggle {
+    /* Compact "Nevajadz─½gie v─ürdi" popup ÔÇö sits exactly over the study card */
+    .card-popup-overlay {
+      position: absolute;
+      inset: 0;
+      z-index: 20;
+      padding: 0;
+      display: block;
+      background: transparent;
+      border-radius: 8px;
+    }
+
+    .card-popup-overlay[hidden] {
       display: none;
     }
 
-    .mobile-extra-options {
-      display: contents;
+    .card-popup-overlay .unwanted-panel {
+      width: 100%;
+      height: 100%;
+      max-height: none;
+      display: flex;
+      flex-direction: column;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .card-popup-overlay .unwanted-header {
+      flex: 0 0 auto;
+      padding: 10px 12px;
+    }
+
+    .card-popup-overlay .unwanted-header h2 {
+      font-size: 1.05rem;
+    }
+
+    .card-popup-overlay .unwanted-close {
+      min-width: 36px;
+      min-height: 36px;
+    }
+
+    .card-popup-overlay .unwanted-list {
+      flex: 1 1 auto;
+      min-height: 0;
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
+      padding: 10px;
     }
 
     @media (max-width: 768px) {
@@ -2294,7 +2336,23 @@
         color: #ffffff !important;
       }
 
-  
+      .extra-options-toggle {
+        display: block;
+        grid-column: 1 / -1;
+      }
+
+      .mobile-extra-options[hidden] {
+        display: none;
+      }
+
+      .mobile-extra-options {
+        grid-column: 1 / -1;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+        min-width: 0;
+      }
+
     .kurss-lesson {
       margin: 0 28px 28px;
       padding: 22px;
@@ -2396,102 +2454,6 @@
         gap: 10px;
       }
     }
-    .unwanted-overlay {
-      position: fixed;
-      inset: 0;
-      z-index: 1000;
-      padding: 20px;
-      display: grid;
-      place-items: center;
-      background: rgba(7, 10, 15, 0.72);
-    }
-
-    .unwanted-overlay[hidden] {
-      display: none;
-    }
-
-    .unwanted-panel {
-      width: min(720px, 100%);
-      max-height: calc(100vh - 40px);
-      overflow: auto;
-      border: 1px solid #344150;
-      border-radius: 10px;
-      background: #f5f7fb;
-      box-shadow: 0 24px 70px rgba(0, 0, 0, 0.35);
-    }
-
-    .unwanted-header {
-      padding: 14px 16px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 12px;
-      background: #151a21;
-      color: #ffffff;
-    }
-
-    .unwanted-header h2 {
-      margin: 0;
-      font-size: 1.2rem;
-    }
-
-    .unwanted-close {
-      min-width: 44px;
-      min-height: 44px;
-      padding: 6px;
-      border-color: #3b4654;
-      background: #20262e;
-      color: #ffffff;
-      font-size: 1.35rem;
-    }
-
-    .unwanted-list {
-      display: grid;
-      gap: 10px;
-      padding: 14px;
-    }
-
-    .unwanted-row {
-      display: grid;
-      grid-template-columns: minmax(0, 1fr) auto;
-      gap: 10px;
-      align-items: center;
-      padding: 10px;
-      border: 1px solid #d9e0ea;
-      border-radius: 7px;
-      background: #ffffff;
-    }
-
-    .unwanted-word {
-      min-width: 0;
-      overflow-wrap: anywhere;
-    }
-
-    .unwanted-word strong {
-      display: block;
-    }
-
-    .unwanted-word span {
-      color: var(--muted);
-      font-size: 0.9rem;
-    }
-
-    .extra-options-toggle {
-        display: block;
-        grid-column: 1 / -1;
-      }
-
-      .mobile-extra-options {
-        grid-column: 1 / -1;
-        display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 10px;
-        min-width: 0;
-      }
-
-      .mobile-extra-options[hidden] {
-        display: none;
-      }
     }
 
     #kurssBtn {
@@ -2772,7 +2734,7 @@
       }
     }
   
-    /* Mobile-only: compact split labels for Teikumi and Darbības vārdi */
+    /* Mobile-only: compact split labels for Teikumi and Darb─½bas v─ürdi */
     @media (max-width: 768px) {
       #groupButtons button:nth-child(4),
       #groupButtons button:nth-child(8) {
@@ -2795,7 +2757,7 @@
 
       #groupButtons button:nth-child(4) .group-label-count::before,
       #groupButtons button:nth-child(8) .group-label-count::before {
-        content: "· ";
+        content: "┬À ";
       }
 
       #groupButtons button:nth-child(4) .group-label-name,
@@ -3153,7 +3115,7 @@
       }
     }
 
-    /* Lekcija 1 Vārdiņi highlighted info block */
+    /* Lekcija 1 V─ürdi┼åi highlighted info block */
     #kurssLesson1 .lesson1-vardini-info {
       display: grid;
       grid-template-columns: auto 1fr;
@@ -3368,7 +3330,7 @@
         width: 100%;
       }
     }
-    /* Lekcija 1 Treniņš flashcard */
+    /* Lekcija 1 Treni┼å┼í flashcard */
     #kurssLesson1 .lesson1-training-wrap {
       display: grid;
       gap: 12px;
@@ -3664,7 +3626,7 @@
 }
 
 
-/* Nevajadzīgie vārdi list formatting */
+/* Nevajadz─½gie v─ürdi list formatting */
 .unwanted-word {
   overflow-wrap: normal;
   word-break: normal;
@@ -3685,22 +3647,59 @@
 }
 
 
-/* Atzīmēt kā nevajadzīgu button */
-#markUnwantedBtn {
-  overflow-wrap: normal;
-  word-break: normal;
-  hyphens: none;
+/* Atz─½m─ôt k─ü nevajadz─½gu ÔÇö neuzkr─½to┼ía p─ürsv─½trotas acs ikona kart─½tes st┼½r─½ */
+.card-unwanted-btn {
+  position: absolute;
+  right: 14px;
+  bottom: 14px;
+  z-index: 3;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border-radius: 50%;
+  border: 1px solid rgba(148, 163, 184, 0.28);
+  background: rgba(148, 163, 184, 0.08);
+  color: var(--muted);
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease, transform 0.1s ease;
+}
+
+.card-unwanted-btn svg {
+  width: 18px;
+  height: 18px;
+  pointer-events: none;
+}
+
+.card-unwanted-btn:hover,
+.card-unwanted-btn:focus-visible {
+  background: rgba(196, 63, 63, 0.16);
+  border-color: rgba(196, 63, 63, 0.45);
+  color: var(--bad);
+  outline: none;
+}
+
+.card-unwanted-btn:active {
+  transform: scale(0.9);
+}
+
+.card-unwanted-btn[hidden] {
+  display: none;
 }
 
 @media (max-width: 768px) {
-  #markUnwantedBtn {
-    white-space: normal;
-    line-height: 1.2;
+  .card-unwanted-btn {
+    right: 10px;
+    bottom: 10px;
+    width: 34px;
+    height: 34px;
   }
 }
 
 
-/* Nevajadzīgie vārdi visibility fix */
+/* Nevajadz─½gie v─ürdi visibility fix */
 .unwanted-panel {
   background: #0c1520;
   color: #eef3f8;
@@ -3736,7 +3735,7 @@
 }
 
 
-/* Nevajadzīgie Atgriezt button visibility */
+/* Nevajadz─½gie Atgriezt button visibility */
 .unwanted-row button[data-restore-unwanted] {
   color: #ffffff;
   background: linear-gradient(145deg, #0b63d8, #064db5);
@@ -3755,15 +3754,16 @@
 }
 
 
-/* 100% zināmi controls */
-#markMasteredBtn,
+/* 100% zin─ümi controls */
 #masteredListBtn {
   overflow-wrap: normal;
   word-break: normal;
   hyphens: none;
 }
 
-.unwanted-row button[data-restore-mastered] {
+.unwanted-row button[data-restore-mastered],
+.unwanted-row button[data-restore-weekly],
+.unwanted-row button[data-restore-monthly] {
   color: #ffffff;
   background: linear-gradient(145deg, #0b63d8, #064db5);
   border-color: #2f86ff;
@@ -3774,10 +3774,318 @@
 }
 
 .unwanted-row button[data-restore-mastered]:hover,
-.unwanted-row button[data-restore-mastered]:focus-visible {
+.unwanted-row button[data-restore-mastered]:focus-visible,
+.unwanted-row button[data-restore-weekly]:hover,
+.unwanted-row button[data-restore-weekly]:focus-visible,
+.unwanted-row button[data-restore-monthly]:hover,
+.unwanted-row button[data-restore-monthly]:focus-visible {
   color: #ffffff;
   background: linear-gradient(145deg, #1677f2, #0756c9);
   border-color: #5aa2ff;
+}
+
+/* Kart─½tes st┼½ra ikona ÔÇö meda─╝a (100% zin─üms) */
+.card-mastered-btn {
+  position: absolute;
+  right: 14px;
+  top: 14px;
+  z-index: 3;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border-radius: 50%;
+  border: 1px solid rgba(234, 179, 8, 0.35);
+  background: rgba(234, 179, 8, 0.1);
+  color: inherit;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease, transform 0.1s ease;
+}
+
+.card-mastered-btn:hover,
+.card-mastered-btn:focus-visible {
+  background: rgba(234, 179, 8, 0.22);
+  border-color: rgba(234, 179, 8, 0.65);
+  outline: none;
+}
+
+.card-mastered-btn:active {
+  transform: scale(0.9);
+}
+
+.card-mastered-btn[hidden] {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .card-mastered-btn {
+    right: 10px;
+    top: 10px;
+    width: 34px;
+    height: 34px;
+    font-size: 16px;
+  }
+}
+
+/* KRITISKS LABOJUMS: kam─ôr jebkur┼í PopUp logs (Info, dro┼í─½ba, p─ürskati u.c.) kart─½t─ô
+   ir atv─ôrts, meda─╝as un p─ürsv─½trot─üs acs ikonas kart─½tes st┼½ros ir j─üpasl─ôpj un to
+   klik┼í─Ài j─üblo─À─ô piln─½b─ü ÔÇö pret─ôj─ü gad─½jum─ü lietot─üjs var nejau┼íi izmest vai atz─½m─ôt
+   v─ürdu, kuru vi┼å┼í aiz PopUp loga neredz. */
+.card:has(.card-popup-overlay:not([hidden])) .card-mastered-btn,
+.card:has(.card-popup-overlay:not([hidden])) .card-unwanted-btn {
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
+/* Papildu opciju panelis ÔÇö Uzst─üd─½jumi/P─ürskati un info (Ôôÿ) poga */
+#extraOptions {
+  position: relative;
+}
+
+#extraOptionsInfoBtn {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  z-index: 2;
+  width: 24px;
+  height: 24px;
+  min-height: 0;
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  border-radius: 50% !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1;
+  background: #007bff !important;
+  background-image: none !important;
+  border: 2px solid #ffffff !important;
+  color: #ffffff !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+}
+
+#extraOptionsInfoBtn:hover,
+#extraOptionsInfoBtn:focus-visible {
+  background: #0069d9 !important;
+  border-color: #ffffff !important;
+  color: #ffffff !important;
+  outline: none;
+}
+
+/* Pareizrakst─½bas sl─ôdzis */
+.switch-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 6px 2px;
+  color: #f3f5f7;
+  font-size: 0.86rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 42px;
+  height: 24px;
+  flex: 0 0 auto;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.switch-slider {
+  position: absolute;
+  inset: 0;
+  background: #55585a;
+  border-radius: 24px;
+  transition: background 0.2s ease;
+  cursor: pointer;
+}
+
+.switch-slider::before {
+  content: "";
+  position: absolute;
+  height: 18px;
+  width: 18px;
+  left: 3px;
+  bottom: 3px;
+  background: #ffffff;
+  border-radius: 50%;
+  transition: transform 0.2s ease;
+}
+
+.switch input:checked + .switch-slider {
+  background: #1f6feb;
+}
+
+.switch input:checked + .switch-slider::before {
+  transform: translateX(18px);
+}
+
+.switch input:focus-visible + .switch-slider {
+  outline: 2px solid #4ea0e6;
+  outline-offset: 2px;
+}
+
+/* Full-size PC replacements for the small mobile switch/Ôôÿ icon ÔÇö hidden by
+   default (incl. on mobile, which keeps using the switch-row/small Ôôÿ above
+   untouched) and only revealed for desktop widths further down this file. */
+.desktop-spelling-toggle-btn,
+.desktop-info-btn {
+  display: none;
+}
+
+/* Info (Ôôÿ) popup */
+.info-panel-body {
+  display: grid;
+  gap: 14px;
+  padding: 14px;
+  text-align: left;
+}
+
+.info-row {
+  text-align: left;
+}
+
+.info-row strong {
+  display: block;
+  margin-bottom: 4px;
+  color: #eef3f8;
+  font-size: 0.98rem;
+  text-align: left;
+}
+
+.info-row p {
+  margin: 0;
+  color: #9fb0c2;
+  font-size: 0.88rem;
+  line-height: 1.4;
+  text-align: left;
+}
+
+.card-popup-overlay .info-panel-body {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* KRITISKS LABOJUMS: Info logam j─üb┼½t piln─½b─ü necaursp─½d─½gam un absol┼½ti augst─ükaj─ü
+   sl─ün─½, lai tas fiziski un vizu─üli nosegtu meda─╝as/acs ikonas kart─½tes st┼½ros un
+   blo─À─ôtu jebk─üdus klik┼í─Àus uz t─üm, kam─ôr logs ir atv─ôrts. */
+#infoPanel {
+  position: absolute !important;
+  inset: 0 !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  z-index: 99999 !important;
+  background-color: #000000 !important;
+  pointer-events: auto !important;
+}
+
+#infoPanel .unwanted-panel {
+  background-color: #000000 !important;
+}
+
+#infoPanel .unwanted-header {
+  text-align: left;
+}
+
+/* "Norestart─ôt progresu" dro┼í─½bas popup ÔÇö piesieta pie kart─½tes, nevis peld pa visu ekr─ünu.
+   KRITISKS LABOJUMS: piln─½b─ü necaursp─½d─½gs melns fons + absol┼½ti augst─ük─ü sl─ü┼åu priorit─üte,
+   lai nosegtu un blo─À─ôtu meda─╝as/acs ikonas kart─½tes st┼½ros. */
+#resetConfirmPanel {
+  position: absolute !important;
+  inset: 0 !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  z-index: 99999 !important;
+  background-color: #000000 !important;
+  pointer-events: auto !important;
+}
+
+#resetConfirmPanel .unwanted-panel {
+  background-color: #000000 !important;
+}
+
+#resetConfirmPanel .unwanted-header,
+#resetConfirmPanel .reset-confirm-body {
+  text-align: left;
+}
+
+.reset-confirm-panel {
+  width: min(420px, 100%);
+}
+
+.reset-confirm-body {
+  padding: 4px 16px 16px;
+  color: #d8e2ec;
+  font-size: 0.94rem;
+  line-height: 1.45;
+}
+
+.reset-confirm-body p {
+  margin: 0;
+}
+
+.confirm-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 16px 16px;
+}
+
+.confirm-cancel-btn,
+.confirm-danger-btn {
+  flex: 1 1 0;
+  min-height: 44px;
+  border-radius: 8px;
+  font-weight: 700;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.confirm-cancel-btn {
+  background: linear-gradient(145deg, #52565b, #3a3d41) !important;
+  border-color: #6a6f75 !important;
+  color: #f3f5f7 !important;
+}
+
+.confirm-cancel-btn:hover,
+.confirm-cancel-btn:focus-visible {
+  background: linear-gradient(145deg, #62676d, #45484c) !important;
+  border-color: #838a92 !important;
+}
+
+.confirm-danger-btn {
+  background: linear-gradient(145deg, #e23b3b, #b91c1c) !important;
+  border-color: #ff5c5c !important;
+  color: #ffffff !important;
+}
+
+.confirm-danger-btn:hover,
+.confirm-danger-btn:focus-visible {
+  background: linear-gradient(145deg, #ff4d4d, #d21c1c) !important;
+  border-color: #ff8080 !important;
 }
 
 /* Lekcija 2 course-card layout */
@@ -3831,7 +4139,7 @@
   min-height: 58px;
 }
 
-/* Lekcija 2 Pārtulko flashcard: same visual component as Lekcija 1 */
+/* Lekcija 2 P─ürtulko flashcard: same visual component as Lekcija 1 */
 #kurssLesson2 .lesson1-training-wrap {
   display: grid;
   gap: 12px;
@@ -4348,7 +4656,7 @@
     padding: 18px;
     background: linear-gradient(145deg, rgba(31, 35, 34, 0.96), rgba(17, 24, 31, 0.96));
     border: 1px solid #4b504c;
-    border-radius: 8px;
+    border-radius: 12px;
     box-shadow: var(--shadow);
   }
 
@@ -4372,7 +4680,7 @@
     padding: 18px;
     background: linear-gradient(145deg, rgba(31, 35, 34, 0.96), rgba(17, 24, 31, 0.96));
     border: 1px solid #4b504c;
-    border-radius: 8px;
+    border-radius: 12px;
     box-shadow: var(--shadow);
   }
 
@@ -4434,7 +4742,7 @@
     gap: 8px;
     padding: 14px 16px;
     border: 1px solid rgba(78, 160, 230, 0.65);
-    border-radius: 10px;
+    border-radius: 12px;
     background: linear-gradient(145deg, rgba(12, 24, 35, 0.95), rgba(11, 18, 27, 0.94));
     box-shadow: inset 0 1px 0 rgba(255,255,255,0.04), 0 14px 30px rgba(0,0,0,0.18);
   }
@@ -4459,6 +4767,7 @@
     background: linear-gradient(145deg, rgba(65, 66, 64, 0.78), rgba(52, 53, 51, 0.78));
     color: #f3f5f7;
     font-size: 0.86rem;
+    border-radius: 10px;
   }
 
   .desktop-side-group-quick {
@@ -4507,18 +4816,9 @@
   }
 
   .desktop-side-group-quick #shuffleBtn,
-  .desktop-side-group-quick #directionBtn {
-    font-weight: 700;
-    font-size: 0.86rem;
-    text-transform: none;
-    padding: 8px 10px;
-    text-align: center;
-    line-height: 1.2;
-    letter-spacing: normal;
-    white-space: normal;
-  }
-
-  .desktop-side-group-quick #spellingModeBtn {
+  .desktop-side-group-quick #directionBtn,
+  .desktop-side-group-quick #spellingModeBtn,
+  #infoBtn {
     font-weight: 700;
     font-size: 0.86rem;
     text-transform: none;
@@ -4534,17 +4834,6 @@
     background: linear-gradient(145deg, #5cb8ff, #2088ff) !important;
     border-color: #6ec2ff !important;
     box-shadow: 0 0 16px rgba(66, 165, 255, 0.45) !important;
-  }
-
-  #infoBtn {
-    font-weight: 700;
-    font-size: 0.86rem;
-    text-transform: none;
-    padding: 8px 10px;
-    text-align: center;
-    line-height: 1.2;
-    letter-spacing: normal;
-    white-space: normal;
   }
 
   #markUnwantedBtn,
@@ -4564,11 +4853,9 @@
   }
 
   .desktop-primary-actions,
-  .desktop-side-group-quick,
   .desktop-side-group,
-  .desktop-side-group-work,
-  .desktop-side-group-words,
-  .desktop-side-group-stats {
+  .desktop-side-group-settings,
+  .desktop-side-group-reports {
     display: contents;
   }
 
@@ -4578,7 +4865,7 @@
 
   .action-buttons button:not(.known):not(.unknown):not(.primary),
   .mobile-extra-options > button,
-  .desktop-action-sidebar button:not(#pamatiBtn):not(#kurssBtn):not(#spellingModeBtn),
+  .desktop-action-sidebar button:not(#pamatiBtn):not(#kurssBtn),
   .desktop-side-group button {
     -webkit-appearance: none !important;
     appearance: none !important;
@@ -4994,7 +5281,7 @@
 }
 
 #kurssLesson7 .lesson7-exercise-instruction::before {
-  content: "🎯";
+  content: "­ƒÄ»";
   display: inline-grid;
   place-items: center;
   flex: 0 0 auto;
@@ -5030,7 +5317,7 @@
 }
 
 #kurssLesson7 .lesson7-exercise-step::before {
-  content: "✓";
+  content: "Ô£ô";
   display: inline-grid;
   place-items: center;
   width: 24px;
@@ -5154,7 +5441,7 @@
   overflow-wrap: normal; word-break: normal;
 }
 #kurssLesson8 .lesson7-exercise-instruction::before {
-  content: "🎯"; display: inline-grid; place-items: center; flex: 0 0 auto;
+  content: "­ƒÄ»"; display: inline-grid; place-items: center; flex: 0 0 auto;
   width: 38px; height: 38px; border-radius: 50%; background: linear-gradient(145deg, #64d86f, #238957); font-size: 19px;
 }
 #kurssLesson8 .lesson7-exercise-step {
@@ -5166,7 +5453,7 @@
   overflow-wrap: normal; word-break: normal;
 }
 #kurssLesson8 .lesson7-exercise-step::before {
-  content: "✓"; display: inline-grid; place-items: center; flex: 0 0 auto;
+  content: "Ô£ô"; display: inline-grid; place-items: center; flex: 0 0 auto;
   width: 28px; height: 28px; border-radius: 999px; background: #45d582; color: #07311e;
   font-size: 16px; font-weight: 900;
 }
@@ -5238,8 +5525,8 @@
 .course-lesson .lesson1-accordion { background: linear-gradient(145deg, rgba(8, 23, 34, 0.96), rgba(4, 15, 24, 0.98)); border: 1px solid rgba(78, 104, 130, 0.55); border-radius: 12px; margin-bottom: 12px; overflow: hidden; }
 .course-lesson .lesson1-accordion summary { display:flex; align-items:center; gap:12px; padding:16px 18px; cursor:pointer; list-style:none; color:#f3f6fb; font-weight:800; }
 .course-lesson .lesson1-accordion summary::-webkit-details-marker { display:none; }
-.course-lesson .lesson1-accordion summary::after { content:"⌄"; margin-left:auto; color:#d8e2f0; }
-.course-lesson .lesson1-accordion[open] summary::after { content:"⌃"; }
+.course-lesson .lesson1-accordion summary::after { content:"Ôîä"; margin-left:auto; color:#d8e2f0; }
+.course-lesson .lesson1-accordion[open] summary::after { content:"Ôîâ"; }
 .course-lesson .lesson1-number { display:inline-flex; align-items:center; justify-content:center; width:34px; height:34px; flex:0 0 34px; border-radius:8px; color:#fff; font-weight:900; }
 .course-lesson .lesson1-accordion:nth-of-type(1) .lesson1-number { background:linear-gradient(135deg,#fb4a5a,#e33248); }
 .course-lesson .lesson1-accordion:nth-of-type(2) .lesson1-number { background:linear-gradient(135deg,#8ce94d,#46bd39); }
@@ -5254,16 +5541,16 @@
 .course-lesson .kurss-example,
 .course-lesson .lesson1-grammar-card,
 .course-lesson .lesson1-info-card { background:rgba(19,32,44,.88); border:1px solid rgba(80,104,128,.5); border-radius:9px; padding:12px 14px; color:#eef4fb; overflow-wrap:anywhere; word-break:normal; }
-.course-lesson .lesson1-training-flashcard { width:min(880px,100%); min-height:auto; margin:18px auto 14px; padding:28px; border-radius:18px; border:1px solid rgba(90,108,126,.65); background:linear-gradient(145deg,#202120,#141a1d); color:#f4f7fb; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:22px; text-align:center; cursor:pointer; }
+.course-lesson .lesson1-training-flashcard { width:min(880px,100%); min-height:260px; margin:18px auto 14px; padding:28px; border-radius:18px; border:1px solid rgba(90,108,126,.65); background:linear-gradient(145deg,#202120,#141a1d); color:#f4f7fb; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:22px; text-align:center; cursor:pointer; }
 .course-lesson .lesson1-training-progress { display:inline-flex; align-items:center; justify-content:center; border-radius:999px; padding:7px 14px; background:rgba(27,37,52,.9); color:#cdd7e6; font-weight:800; }
-.course-lesson .lesson1-training-text { font-size:clamp(28px,5vw,52px); font-weight:900; line-height:1.32; max-width:100%; overflow-wrap:anywhere; word-break:normal; }
+.course-lesson .lesson1-training-text { font-size:clamp(28px,5vw,52px); font-weight:900; line-height:1.1; max-width:100%; overflow-wrap:anywhere; word-break:normal; }
 .course-lesson .lesson1-training-divider { width:min(360px,42%); height:1px; background:rgba(190,202,216,.28); }
 .course-lesson .lesson1-training-answer,
 .course-lesson .lesson8-exercise-answer-card { width:min(620px,100%); border-radius:12px; border:1px solid rgba(80,104,128,.55); background:rgba(19,32,44,.82); padding:12px 14px; color:#dbe6f4; font-weight:800; overflow-wrap:anywhere; word-break:normal; }
 .course-lesson .lesson7-exercise-instruction { width:min(640px,100%); border-radius:12px; border:1px solid rgba(44,198,117,.55); background:linear-gradient(135deg,rgba(20,91,69,.72),rgba(15,63,52,.78)); padding:14px 18px; color:#f4fff8; font-weight:900; }
 .course-lesson .lesson7-exercise-step { display:inline-flex; align-items:center; justify-content:center; margin:0 auto; border-radius:12px; border:1px solid rgba(53,214,128,.75); background:rgba(19,111,72,.72); padding:8px 16px; color:#f5fff8; font-weight:900; }
 
-/* Unified exercise card zones (Kurss → Vingrinājums) */
+/* Unified exercise card zones (Kurss ÔåÆ Vingrin─üjums) */
 .exercise-unified-card,
 #kurssLesson7 .lesson1-training-flashcard.exercise-unified-card,
 #kurssLesson8 .lesson1-training-flashcard.exercise-unified-card,
@@ -5272,7 +5559,7 @@
   min-height: auto;
   justify-content: flex-start;
   gap: 20px;
-  padding: 28px 24px 32px;
+  padding: 24px 22px 28px;
 }
 .exercise-card-header {
   display: flex;
@@ -5280,9 +5567,6 @@
   align-items: center;
   gap: 8px;
   width: min(100%, 720px);
-  margin-bottom: 12px;
-  padding-bottom: 12px;
-  border-bottom: 1px solid rgba(190, 202, 216, 0.15);
 }
 .exercise-card-meta {
   display: block;
@@ -5301,14 +5585,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 22px;
+  gap: 18px;
   width: min(100%, 760px);
   flex: 1 1 auto;
 }
 .exercise-phase-challenge .exercise-card-prompt {
   font-size: clamp(1.55rem, 4.2vw, 2.75rem);
   font-weight: 900;
-  line-height: 1.38;
+  line-height: 1.2;
   color: #f4f8ff;
 }
 .exercise-phase-reveal .exercise-card-prompt-muted {
@@ -5320,27 +5604,16 @@
 .exercise-phase-reveal .lesson1-training-answer {
   font-size: clamp(1.35rem, 3.2vw, 2.1rem);
   font-weight: 850;
-  line-height: 1.42;
+  line-height: 1.25;
   color: #e8f0fa;
 }
 .exercise-card-cta {
   display: block;
-  margin-top: 16px;
-  padding-top: 8px;
+  margin-top: 4px;
   color: #7f8fa6;
   font-size: clamp(0.82rem, 2vw, 0.92rem);
   font-weight: 650;
   line-height: 1.35;
-}
-.exercise-answer-highlight {
-  color: #f59e0b;
-  font-weight: 900;
-}
-.exercise-phase-reveal .lesson1-training-answer .exercise-answer-highlight {
-  color: #f59e0b !important;
-}
-.course-lesson .lesson1-training-wrap .lesson1-training-hint {
-  margin-top: 14px;
 }
 .exercise-unified-card .lesson1-training-progress {
   font-size: clamp(0.82rem, 2vw, 0.94rem);
@@ -5353,7 +5626,7 @@
   .course-lesson .lesson1-grammar-grid { grid-template-columns:1fr; }
   .course-lesson .lesson1-accordion summary { padding:12px; gap:10px; }
   .course-lesson .lesson1-content { padding:0 12px 14px; }
-  .course-lesson .lesson1-training-flashcard { width:100%; min-height:auto; gap:16px; padding:22px 14px; }
+  .course-lesson .lesson1-training-flashcard { width:100%; min-height:220px; gap:16px; padding:22px 14px; }
   .exercise-unified-card,
   #kurssLesson7 .lesson1-training-flashcard.exercise-unified-card,
   #kurssLesson8 .lesson1-training-flashcard.exercise-unified-card,
@@ -5361,7 +5634,7 @@
   .course-lesson .lesson1-training-flashcard.exercise-unified-card {
     min-height: auto;
     gap: 16px;
-    padding: 24px 16px 28px;
+    padding: 20px 14px 24px;
   }
   .exercise-phase-challenge .exercise-card-prompt {
     font-size: clamp(1.35rem, 6vw, 2rem);
@@ -5820,6 +6093,7 @@
   background-image: linear-gradient(145deg, #414240, #343533) !important;
   color: #f3f5f7 !important;
   border-color: #474947 !important;
+  border-radius: 12px !important;
 }
 
 #groupButtons .group-btn.active,
@@ -5828,6 +6102,31 @@
   background-image: linear-gradient(145deg, #075ee8, #053fae) !important;
   border-color: #0869f2 !important;
   color: #ffffff !important;
+}
+
+/* "Problem─ütiskie" fire-mode toggle: pinned to the top of the level buttons, always highlighted */
+#groupButtons button.group-btn-fire {
+  grid-column: 1 / -1;
+  order: -1;
+  background-color: #d1420c !important;
+  background-image: linear-gradient(145deg, #ff7a1a, #d1420c) !important;
+  border-color: #ff9350 !important;
+  color: #ffffff !important;
+  font-weight: 800;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.18), 0 6px 16px rgba(217,72,15,0.35) !important;
+}
+
+#groupButtons button.group-btn-fire:hover {
+  background-color: #e04e0c !important;
+  background-image: linear-gradient(145deg, #ff8b3d, #e04e0c) !important;
+  border-color: #ffab6b !important;
+}
+
+#groupButtons button.group-btn-fire.active {
+  background-color: #e85d04 !important;
+  background-image: linear-gradient(145deg, #ff9a4d, #e85d04) !important;
+  border-color: #ffc38f !important;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.25), 0 0 0 2px rgba(255,155,80,0.5) !important;
 }
 
 .known,
@@ -6014,7 +6313,7 @@
 }
 
 main,
-.unwanted-overlay,
+.unwanted-overlay:not(.card-popup-overlay),
 .mastered-overlay,
 .problem-overlay,
 .basics-overlay {
@@ -6028,7 +6327,137 @@ main,
   }
 }
 
-/* Problemātisko vārdu modālais logs — globāli, ārpus layout konteineriem */
+/* Cards / Writing mode tabs (above the flashcard) */
+.mode-tabs {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 8px;
+  width: min(420px, 100%);
+  margin: 0 auto 4px;
+  padding: 5px;
+  border-radius: 14px;
+  background: linear-gradient(145deg, #1c1e1d, #131514);
+  border: 1px solid #3b403c;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04), 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.mode-tab {
+  flex: 1 1 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-height: 44px;
+  padding: 9px 12px;
+  border: none;
+  border-radius: 10px;
+  background: transparent;
+  color: #9aa4b2;
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+  transition: background-color 0.18s ease, color 0.18s ease, box-shadow 0.18s ease;
+}
+
+.mode-tab:hover {
+  color: #e7ecf5;
+}
+
+.mode-tab.active {
+  background: linear-gradient(145deg, #1f6feb, #0644b6) !important;
+  color: #ffffff !important;
+  box-shadow: 0 6px 16px rgba(31, 111, 235, 0.35);
+}
+
+@media (max-width: 480px) {
+  .mode-tabs {
+    width: 100%;
+    gap: 6px;
+  }
+
+  .mode-tab {
+    font-size: 0.86rem;
+    padding: 9px 8px;
+  }
+}
+
+/* Compact language-direction toggle, moved into the header stats row */
+.stats {
+  flex-wrap: wrap;
+}
+
+.direction-toggle {
+  flex: 0 0 auto;
+  align-self: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  margin: 0;
+  padding: 0 16px;
+  border: 1px solid #0869f2;
+  border-radius: 999px;
+  background: linear-gradient(145deg, #1465ef, #073db4);
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 0.92rem;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.direction-toggle:hover {
+  transform: translateY(-1px);
+  border-color: #4d94ff;
+}
+
+.direction-toggle:active {
+  transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+  .direction-toggle {
+    min-height: 36px;
+    padding: 0 13px;
+    font-size: 0.82rem;
+  }
+}
+
+/* PC UZST─ÇD─¬JUMI: pilnv─ôrt─½g─üs "Pareizrakst─½ba" un "Ôôÿ K─ü tas str─üd─ü?" pogas.
+   Placed after the generic cross-browser button-color override layer above so
+   these !important colors always win on desktop, regardless of source order
+   drift elsewhere in this file. Mobile is untouched ÔÇö these buttons are
+   display:none outside of the @media (min-width: 769px) block. */
+@media (min-width: 769px) {
+  .desktop-side-group-quick #spellingModeBtn {
+    background-color: #084db7 !important;
+    background-image: linear-gradient(145deg, #1769e8, #084db7) !important;
+    border: 1px solid #1d76ff !important;
+    color: #ffffff !important;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.14), 0 6px 16px rgba(20, 101, 239, 0.32);
+  }
+
+  .desktop-side-group-quick #spellingModeBtn.active,
+  .desktop-side-group-quick #spellingModeBtn.spelling-active {
+    background-color: #42a5ff !important;
+    background-image: linear-gradient(145deg, #5cb8ff, #2088ff) !important;
+    border-color: #6ec2ff !important;
+    color: #ffffff !important;
+    box-shadow: 0 0 16px rgba(66, 165, 255, 0.45) !important;
+  }
+
+  .desktop-side-group-quick #infoBtn {
+    background-color: #0b3a63 !important;
+    background-image: linear-gradient(145deg, #1465ef, #073db4) !important;
+    border: 1px solid #4ea0e6 !important;
+    color: #ffffff !important;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.14), 0 6px 16px rgba(20, 101, 239, 0.32);
+  }
+}
+
+/* Problemātisko vārdu modālais logs */
 .modal-overlay {
   position: fixed;
   inset: 0;
@@ -6057,7 +6486,7 @@ main,
   max-height: calc(100vh - 40px);
   overflow-y: auto;
   border: 1px solid #334155;
-  border-radius: 10px;
+  border-radius: 12px;
   background: #1e293b;
   box-shadow: 0 24px 70px rgba(0, 0, 0, 0.55);
   color: #f1f5f9;
@@ -6111,7 +6540,7 @@ main,
   min-height: 44px;
   padding: 6px;
   border: 1px solid #475569;
-  border-radius: 6px;
+  border-radius: 8px;
   background: #1e293b;
   color: #f8fafc;
   font-size: 1.35rem;
@@ -6128,7 +6557,7 @@ main,
   width: 100%;
   padding: 10px 14px;
   border: 1px solid #475569;
-  border-radius: 7px;
+  border-radius: 10px;
   background: #334155;
   color: #f8fafc;
   cursor: pointer;
@@ -6151,7 +6580,7 @@ main,
   align-items: center;
   padding: 10px;
   border: 1px solid #334155;
-  border-radius: 7px;
+  border-radius: 10px;
   background: #0f172a;
 }
 
@@ -6176,7 +6605,7 @@ main,
   white-space: nowrap;
   padding: 8px 12px;
   border: 1px solid #475569;
-  border-radius: 6px;
+  border-radius: 8px;
   background: #334155;
   color: #f8fafc;
   cursor: pointer;
@@ -6192,7 +6621,7 @@ main,
   text-align: center;
   color: #94a3b8;
 }
-/* Dzelžains Info loga un drošības loga vizuālais labojums */
+
 #infoPopup.modal-overlay {
   position: fixed !important;
   inset: 0 !important;
@@ -6205,19 +6634,6 @@ main,
   box-sizing: border-box !important;
 }
 
-#resetConfirmPanel, .card-popup-overlay {
-  position: absolute !important;
-  top: 0 !important;
-  left: 0 !important;
-  width: 100% !important;
-  height: 100% !important;
-  z-index: 99999 !important;
-  background-color: #111111 !important;
-  text-align: left !important;
-  padding: 25px !important;
-  box-sizing: border-box !important;
-}
-
 #infoPopup .info-popup-body p,
 #infoPopup .info-popup-body li {
   text-align: left !important;
@@ -6227,4 +6643,72 @@ main,
 
 #infoPopup .info-popup-body strong {
   color: #ffffff !important;
+}
+
+/* =========================================================================
+   DZEL┼¢AINS DRO┼á─¬BAS SL─ÇNIS ÔÇö T─¬┼áI PIEVIENOTS FAILA PA┼á─Ç BEIG─ÇS, lai ┼í─½s
+   k─ürtulas ar !important nevar─ôtu p─ürrakst─½t neviena cita, v─ôl─ük pievienota
+   k─ürtula ┼íaj─ü fail─ü. ┼áis bloks garant─ô, ka Info logs (#infoPanel), dro┼í─½bas
+   logs (#resetConfirmPanel) un jebkur┼í cits uz kart─½tes eso┼íais PopUp logs
+   (.card-popup-overlay) VIENM─ÆR piln─½b─ü fiziski un vizu─üli nosedz kart─½ti un
+   blo─À─ô klik┼í─Àus uz st┼½ra ikon─üm (­ƒÅà meda─╝a, ­ƒæü´©ÅÔÇì­ƒù¿´©Å p─ürsv─½trot─ü acs), kam─ôr
+   attiec─½gais logs ir atv─ôrts (t.i. tam nav 'hidden' atrib┼½ta).
+   ========================================================================= */
+#infoPanel,
+#resetConfirmPanel,
+.card-popup-overlay {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  z-index: 99999 !important;
+  box-sizing: border-box !important;
+}
+
+#infoPanel:not([hidden]),
+#resetConfirmPanel:not([hidden]),
+.card-popup-overlay:not([hidden]) {
+  background-color: #000000 !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  display: block !important;
+}
+
+#infoPanel[hidden],
+#resetConfirmPanel[hidden],
+.card-popup-overlay[hidden] {
+  display: none !important;
+}
+
+#infoPanel .unwanted-panel,
+#resetConfirmPanel .unwanted-panel {
+  background-color: #000000 !important;
+}
+
+#infoPanel .info-panel-body,
+#infoPanel .info-row,
+#infoPanel .info-row p,
+#infoPanel .info-row li,
+#infoPanel .unwanted-header,
+#resetConfirmPanel .reset-confirm-body,
+#resetConfirmPanel .unwanted-header {
+  text-align: left !important;
+  box-sizing: border-box !important;
+}
+
+#infoPanel .info-row p,
+#infoPanel .info-row li {
+  margin-bottom: 12px !important;
+  color: #cccccc !important;
+}
+
+#infoPanel .info-row strong {
+  color: #ffffff !important;
+}
+
+.card:has(.card-popup-overlay:not([hidden])) .card-mastered-btn,
+.card:has(.card-popup-overlay:not([hidden])) .card-unwanted-btn {
+  visibility: hidden !important;
+  pointer-events: none !important;
 }
