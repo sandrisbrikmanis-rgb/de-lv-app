@@ -1,10 +1,18 @@
-name: Deploy to GitHub Pages
+name: Verify GitHub Pages sync
 
-# Ironclad, modern replacement for the legacy "Deploy from a branch" pipeline,
-# which has repeatedly gotten stuck mid-build and left the public site stale.
-# This workflow publishes docs/ straight from GitHub Actions on every push to
-# main, so new commits reliably reach https://sandrisbrikmanis-rgb.github.io/de-lv-app/
-# without depending on GitHub's legacy branch-polling builder.
+# This repo's GitHub Pages source is configured as "Deploy from a branch"
+# (main:/docs) — GitHub deploys that folder automatically on every push to
+# main via its own built-in "pages build and deployment" pipeline. This
+# workflow used to ALSO deploy the same commit via actions/deploy-pages,
+# and the two deployments raced against each other for the same commit,
+# frequently causing one (or both) of them to fail with
+# "Deployment failed, try again later." — leaving the live site stale even
+# though the underlying commit was fine.
+#
+# To stop that race for good, this workflow now ONLY verifies that docs/
+# actually mirrors the root web app files (i.e. `npm run pages:sync` was run
+# before committing). It intentionally does NOT call actions/deploy-pages —
+# GitHub's own legacy branch-based builder is the sole deployer.
 
 on:
   push:
@@ -13,15 +21,13 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
-  group: pages
+  group: verify-pages-sync
   cancel-in-progress: true
 
 jobs:
-  build:
+  verify-sync:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -37,22 +43,3 @@ jobs:
             git status --porcelain docs
             exit 1
           fi
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: docs
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
