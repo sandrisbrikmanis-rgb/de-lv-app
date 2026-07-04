@@ -214,6 +214,7 @@ const elements = {
   kurssSubtitle: document.getElementById("kurssSubtitle"),
   kurssList: document.getElementById("kurssList"),
   kurssTip: document.getElementById("kurssTip"),
+  kurssFooterLinks: document.getElementById("kurssFooterLinks"),
   kurssPronunciationBtn: document.getElementById("kurssPronunciationBtn"),
   kurssArticlesBtn: document.getElementById("kurssArticlesBtn"),
   kurssLessonsBtn: document.getElementById("kurssLessonsBtn"),
@@ -1118,6 +1119,7 @@ function scrollKurssPanelToTop() {
 function hideAllKurssPanels() {
   if (elements.kurssList) elements.kurssList.hidden = true;
   if (elements.kurssTip) elements.kurssTip.hidden = true;
+  if (elements.kurssFooterLinks) elements.kurssFooterLinks.hidden = true;
   [
     "kurssPronunciationMenu",
     "kurssLessonsMenu",
@@ -1139,6 +1141,7 @@ function showKurssMenu() {
   hideAllKurssPanels();
   elements.kurssList.hidden = false;
   elements.kurssTip.hidden = false;
+  if (elements.kurssFooterLinks) elements.kurssFooterLinks.hidden = false;
   scrollKurssPanelToTop();
 }
 

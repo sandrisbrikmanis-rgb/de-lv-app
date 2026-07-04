@@ -1,7 +1,7 @@
 {
-  "name": "de-lv-app_main",
+  "name": "vacu-valoda",
   "version": "1.0.0",
-  "description": "",
+  "description": "Vācu Valoda • LV-DE — vācu valodas mācību lietotne latviešu valodā runājošiem (Capacitor: iOS, Android, PWA).",
   "main": "groups.js",
   "scripts": {
     "sync:www": "powershell -ExecutionPolicy Bypass -File ./scripts/sync-web-to-www.ps1",
