@@ -3770,8 +3770,10 @@ function markUnknown() {
   state.learned[state.group] = state.learned[state.group].filter((learnedId) => learnedId !== id);
   updateReviewStatus(id, false);
   saveProgress();
-  state.revealed = true;
   setNotice("Atstāts pārskatīšanai.");
+  // Mark this card seen (advances the top progress counter by +1, exactly like
+  // "Zinu pareizi" does) BEFORE rotating to the next card, so the counter and
+  // the visible card change in the same synchronous render() pass below.
   markSessionSeen(id);
   rotateSession();
   render();
