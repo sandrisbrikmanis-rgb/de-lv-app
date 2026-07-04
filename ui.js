@@ -2247,6 +2247,8 @@ function createSession() {
     }
   }
 
+  shuffleInPlace(newCards);
+  shuffleInPlace(reviewCards);
   const picked = shuffleInPlace(newCards.slice(0, config.newCount).concat(reviewCards.slice(0, config.reviewCount)));
   state.session = {
     groupKey,
