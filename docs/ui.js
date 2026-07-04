@@ -192,7 +192,7 @@ const elements = {
   restoreCurrentBtn: document.getElementById("restoreCurrentBtn"),
   unwantedBtn: document.getElementById("unwantedBtn"),
   markMasteredBtn: document.getElementById("markMasteredBtn"),
-  markUnwantedBtn: document.getElementById("markUnwantedBtn"),
+  cardUnwantedBtn: document.getElementById("cardUnwantedBtn"),
   masteredListBtn: document.getElementById("masteredListBtn"),
   unwantedListBtn: document.getElementById("unwantedListBtn"),
   masteredPanel: document.getElementById("masteredPanel"),
@@ -3356,8 +3356,11 @@ function markCurrentUnwanted() {
   const ids = unwantedSet();
   if (!ids.has(id)) {
     state.unwantedIds.push(unwantedEntryForCard(card));
-    saveUnwantedIds();
   }
+  // Always persist, even if the id was already present, so the entry is
+  // guaranteed to be written to localStorage (and any missing de/lv/level
+  // fields on a legacy string entry get backfilled) every time this runs.
+  saveUnwantedIds();
 
   if (state.session && state.session.groupKey === activeGroupKey() && Array.isArray(state.session.ids)) {
     state.session.ids = state.session.ids.filter((item) => item !== id);
@@ -4056,7 +4059,7 @@ function renderModeButtons() {
   if (elements.unwantedBtn) elements.unwantedBtn.hidden = true;
   elements.markMasteredBtn.hidden = true;
   elements.markMasteredBtn.style.display = "none";
-  elements.markUnwantedBtn.hidden = state.verbMode;
+  if (elements.cardUnwantedBtn) elements.cardUnwantedBtn.hidden = state.verbMode;
   elements.unwantedListBtn.hidden = state.verbMode;
   for (const [mode, config] of Object.entries(sessionModes)) {
     const button = document.createElement("button");
@@ -4848,7 +4851,12 @@ elements.directionBtn.addEventListener("click", toggleDirection);
 if (elements.unwantedBtn) {
   elements.unwantedBtn.hidden = true;
 }
-elements.markUnwantedBtn.addEventListener("click", markCurrentUnwanted);
+if (elements.cardUnwantedBtn) {
+  elements.cardUnwantedBtn.addEventListener("click", (event) => {
+    event.stopPropagation();
+    markCurrentUnwanted();
+  });
+}
 elements.masteredListBtn.addEventListener("click", markCurrentMastered);
 elements.masteredCloseBtn.addEventListener("click", closeMasteredList);
 elements.masteredPanel.addEventListener("click", (event) => {
