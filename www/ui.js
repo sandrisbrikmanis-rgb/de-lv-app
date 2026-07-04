@@ -181,7 +181,6 @@ const elements = {
   directionLabel: document.getElementById("directionLabel"),
   extraOptionsBtn: document.getElementById("extraOptionsBtn"),
   extraOptions: document.getElementById("extraOptions"),
-  reviewBtn: document.getElementById("reviewBtn"),
   reviewLastSessionBtn: document.getElementById("reviewLastSessionBtn"),
   archiveLastSessionBtn: document.getElementById("archiveLastSessionBtn"),
   problemWordsBtn: document.getElementById("problemWordsBtn"),
@@ -2267,6 +2266,15 @@ function sessionMatchesActiveGroup() {
 
 function ensureSession() {
   if (!sessionMatchesActiveGroup()) {
+    createSession();
+    return;
+  }
+
+  // A previously finished session (all its cards marked known/unknown) leaves
+  // an empty but still "matching" session behind. Without this, the card
+  // would keep showing "Šajā sesijā nav kartīšu." until the user manually
+  // switched levels back and forth. Load the next batch automatically instead.
+  if (state.session.completed && !state.session.ids.length) {
     createSession();
   }
 }
@@ -4881,7 +4889,6 @@ elements.extraOptionsBtn.addEventListener("click", () => {
   elements.extraOptionsBtn.setAttribute("aria-expanded", opening ? "true" : "false");
   elements.extraOptionsBtn.textContent = opening ? "Papildu opcijas ▲" : "Papildu opcijas ▼";
 });
-elements.reviewBtn.addEventListener("click", reviewKnown);
 elements.reviewLastSessionBtn.addEventListener("click", reviewLastSession);
 elements.archiveLastSessionBtn.addEventListener("click", archiveLastSession);
 elements.problemWordsBtn.addEventListener("click", selectProblemWords);
