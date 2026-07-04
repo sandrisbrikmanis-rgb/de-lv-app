@@ -152,20 +152,6 @@
           <div class="kurss-lesson" id="kurssSentenceStructureLesson" hidden>
           </div>        </div>
       </section>
-      <section class="unwanted-overlay" id="resetConfirmPanel" hidden aria-label="Apstiprināt progresa atiestatīšanu" aria-modal="true" role="dialog">
-        <div class="unwanted-panel reset-confirm-panel">
-          <div class="unwanted-header">
-            <h2>⚠️ Norestartēt progresu?</h2>
-          </div>
-          <div class="reset-confirm-body">
-            <p>Šī darbība neatgriezeniski dzēsīs visu tavu progresu aktīvajā grupā — visi iemācītie un pārskatīšanai atzīmētie vārdi tiks atiestatīti no jauna. Šo darbību nevar atsaukt.</p>
-          </div>
-          <div class="confirm-actions">
-            <button type="button" id="resetConfirmCancelBtn" class="confirm-cancel-btn">Atcelt</button>
-            <button type="button" id="resetConfirmYesBtn" class="confirm-danger-btn">Jā, dzēst visu</button>
-          </div>
-        </div>
-      </section>
 
       <div class="mode-tabs" id="modeTabs" role="tablist" aria-label="Mācīšanās veids">
         <button class="mode-tab" id="cardsTabBtn" type="button" role="tab" aria-selected="true">🗂️ Kartītes</button>
@@ -216,10 +202,24 @@
               <button class="unwanted-close" id="infoCloseBtn" type="button" aria-label="Aizvērt pamācību">×</button>
             </div>
             <div class="info-panel-body">
-              <div class="info-row"><strong>🔥 Problemātiskie vārdi</strong><p>Vārdi, kurus vairākas reizes esi atzīmējis kā "Nezinu", automātiski parādās šeit, lai tos varētu papildus pievingrināt.</p></div>
-              <div class="info-row"><strong>🏅 Medaļas ikona</strong><p>Klikšķinot uz medaļas kartītes labajā augšējā stūrī, vārds tiek saglabāts kā "100% zināms" un uzreiz ielādējas nākamais vārds.</p></div>
-              <div class="info-row"><strong>👁️‍🗨️ Pārsvītrotā acs</strong><p>Klikšķinot uz pārsvītrotās acs kartītes labajā apakšējā stūrī, vārds tiek atzīmēts kā nevajadzīgs un uzreiz ielādējas nākamais vārds.</p></div>
-              <div class="info-row"><strong>↩️ Atgriešanas loģika</strong><p>Ikvienu no šiem vārdiem var atgriezt atpakaļ mācībām — atver attiecīgo pārskatu ("100% zināmi", "Nevajadzīgie vārdi", "Nedēļas" vai "Mēneša" pārskatu) un nospied "Atgriezt" pie konkrētā vārda.</p></div>
+              <div class="info-row"><strong><span class="info-emoji">🔥</span> Problemātiskie vārdi</strong><p>Vārdi, kurus vairākas reizes esi atzīmējis kā "Nezinu", automātiski parādās šeit, lai tos varētu papildus pievingrināt.</p></div>
+              <div class="info-row"><strong><span class="info-emoji">🏅</span> Medaļas ikona</strong><p>Klikšķinot uz medaļas kartītes labajā augšējā stūrī, vārds tiek saglabāts kā "100% zināms" un uzreiz ielādējas nākamais vārds.</p></div>
+              <div class="info-row"><strong><span class="info-emoji">👁️‍🗨️</span> Pārsvītrotā acs</strong><p>Klikšķinot uz pārsvītrotās acs kartītes labajā apakšējā stūrī, vārds tiek atzīmēts kā nevajadzīgs un uzreiz ielādējas nākamais vārds.</p></div>
+              <div class="info-row"><strong><span class="info-emoji">↩️</span> Atgriešanas loģika</strong><p>Ikvienu no šiem vārdiem var atgriezt atpakaļ mācībām — atver attiecīgo pārskatu ("100% zināmi", "Nevajadzīgie vārdi", "Nedēļas" vai "Mēneša" pārskatu) un nospied "Atgriezt" pie konkrētā vārda.</p></div>
+            </div>
+          </div>
+        </section>
+        <section class="unwanted-overlay card-popup-overlay" id="resetConfirmPanel" hidden aria-label="Apstiprināt progresa atiestatīšanu" aria-modal="true" role="dialog">
+          <div class="unwanted-panel reset-confirm-panel">
+            <div class="unwanted-header">
+              <h2>⚠️ Norestartēt progresu?</h2>
+            </div>
+            <div class="reset-confirm-body">
+              <p>Šī darbība neatgriezeniski dzēsīs visu tavu progresu aktīvajā grupā — visi iemācītie un pārskatīšanai atzīmētie vārdi tiks atiestatīti no jauna. Šo darbību nevar atsaukt.</p>
+            </div>
+            <div class="confirm-actions">
+              <button type="button" id="resetConfirmCancelBtn" class="confirm-cancel-btn">Atcelt</button>
+              <button type="button" id="resetConfirmYesBtn" class="confirm-danger-btn">Jā, dzēst visu</button>
             </div>
           </div>
         </section>
@@ -259,7 +259,10 @@
           <button id="verbRandomBtn" type="button" hidden style="display: none;">Jaukt darbības vārdus</button>
           <button class="extra-options-toggle" id="extraOptionsBtn" type="button" aria-expanded="false">Papildu opcijas ▼</button>
           <div class="mobile-extra-options" id="extraOptions" hidden>
-            <button type="button" class="extra-options-info-btn" id="extraOptionsInfoBtn" title="Kā tas strādā" aria-label="Kā tas strādā">ⓘ</button>
+            <button type="button" class="extra-options-info-btn" id="extraOptionsInfoBtn" title="Kā tas strādā" aria-label="Kā tas strādā">
+              <span class="info-btn-badge" aria-hidden="true">i</span>
+              <span class="info-btn-text">Info</span>
+            </button>
             <div class="desktop-side-group desktop-side-group-settings">
               <div class="desktop-side-title">Uzstādījumi</div>
               <label class="switch-row" for="spellingToggle">
