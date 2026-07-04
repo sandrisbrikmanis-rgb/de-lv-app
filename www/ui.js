@@ -5503,17 +5503,13 @@ function render() {
       ? "Sesija pabeigta!"
       : (groupHasOnlyUnwanted(state.group) ? "Šajā grupā nav aktīvu vārdu." : "Šajā sesijā nav kartīšu.")))));
     elements.translation.textContent = "";
-    elements.hint.textContent = state.reviewLastSession
-      ? ""
-      : (state.timeReviewMode
-      ? ""
-      : (state.problemMode
-      ? ""
-      : (state.reviewKnown
-      ? ""
-      : (shouldShowSessionCompleteOverlay()
-      ? "Izvēlies, ko darīt tālāk."
-      : "Izvēlies citu režīmu vai atgriezies vēlāk pārskatīšanai."))));
+    if (state.reviewLastSession || state.timeReviewMode || state.problemMode || state.reviewKnown) {
+      elements.hint.textContent = "";
+    } else if (shouldShowSessionCompleteOverlay()) {
+      elements.hint.textContent = "Izvēlies, ko darīt tālāk.";
+    } else {
+      elements.hint.textContent = "Izvēlies citu režīmu vai atgriezies vēlāk pārskatīšanai.";
+    }
     updateKnownListBtn();
     updateSessionCompleteOverlay();
     return;
