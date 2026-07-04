@@ -4,7 +4,7 @@
   "description": "Vācu Valoda • LV-DE — vācu valodas mācību lietotne latviešu valodā runājošiem (Capacitor: iOS, Android, PWA).",
   "main": "groups.js",
   "scripts": {
-    "sync:www": "powershell -ExecutionPolicy Bypass -File ./scripts/sync-web-to-www.ps1",
+    "sync:www": "node ./scripts/sync-web-to-www.js",
     "assets:prepare": "powershell -ExecutionPolicy Bypass -File ./scripts/prepare-assets.ps1",
     "assets:normalize": "node ./scripts/normalize-pwa-icons.js",
     "assets:generate": "npm run assets:prepare && npx capacitor-assets generate --pwaManifestPath manifest.json --splashBackgroundColor \"#0f172a\" --iconBackgroundColor \"#0f172a\" && npm run assets:normalize",
