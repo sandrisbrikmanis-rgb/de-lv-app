@@ -2267,6 +2267,15 @@ function sessionMatchesActiveGroup() {
 function ensureSession() {
   if (!sessionMatchesActiveGroup()) {
     createSession();
+    return;
+  }
+
+  // A previously finished session (all its cards marked known/unknown) leaves
+  // an empty but still "matching" session behind. Without this, the card
+  // would keep showing "Šajā sesijā nav kartīšu." until the user manually
+  // switched levels back and forth. Load the next batch automatically instead.
+  if (state.session.completed && !state.session.ids.length) {
+    createSession();
   }
 }
 
