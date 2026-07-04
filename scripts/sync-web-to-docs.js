@@ -14,7 +14,6 @@ const rootFiles = [
   'ui.js',
   'groups.js',
   'storage.js',
-  'wordRain.js',
 ];
 
 const rootDirs = ['data', 'icons'];
