@@ -223,7 +223,6 @@ const elements = {
   kurssTitle: document.getElementById("kurssTitle"),
   kurssSubtitle: document.getElementById("kurssSubtitle"),
   kurssList: document.getElementById("kurssList"),
-  kurssTip: document.getElementById("kurssTip"),
   kurssFooterLinks: document.getElementById("kurssFooterLinks"),
   kurssPronunciationBtn: document.getElementById("kurssPronunciationBtn"),
   kurssArticlesBtn: document.getElementById("kurssArticlesBtn"),
@@ -1128,7 +1127,6 @@ function scrollKurssPanelToTop() {
 
 function hideAllKurssPanels() {
   if (elements.kurssList) elements.kurssList.hidden = true;
-  if (elements.kurssTip) elements.kurssTip.hidden = true;
   if (elements.kurssFooterLinks) elements.kurssFooterLinks.hidden = true;
   [
     "kurssPronunciationMenu",
@@ -1150,7 +1148,6 @@ function showKurssMenu() {
   elements.kurssSubtitle.textContent = "Vācu valodas pamati soli pa solim";
   hideAllKurssPanels();
   elements.kurssList.hidden = false;
-  elements.kurssTip.hidden = false;
   if (elements.kurssFooterLinks) elements.kurssFooterLinks.hidden = false;
   scrollKurssPanelToTop();
 }
