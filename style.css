@@ -3928,6 +3928,14 @@
   outline-offset: 2px;
 }
 
+/* Full-size PC replacements for the small mobile switch/ⓘ icon — hidden by
+   default (incl. on mobile, which keeps using the switch-row/small ⓘ above
+   untouched) and only revealed for desktop widths further down this file. */
+.desktop-spelling-toggle-btn,
+.desktop-info-btn {
+  display: none;
+}
+
 /* Info (ⓘ) popup */
 .info-panel-body {
   display: grid;
@@ -4693,6 +4701,7 @@
   .mobile-extra-options {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    align-items: stretch;
     gap: 12px;
     align-content: start;
     padding: 16px;
@@ -4709,11 +4718,14 @@
   .desktop-side-group {
     display: grid;
     gap: 8px;
+    align-content: start;
+    height: 100%;
     padding: 14px 16px;
     border: 1px solid rgba(78, 160, 230, 0.65);
     border-radius: 10px;
     background: linear-gradient(145deg, rgba(12, 24, 35, 0.95), rgba(11, 18, 27, 0.94));
     box-shadow: inset 0 1px 0 rgba(255,255,255,0.04), 0 14px 30px rgba(0,0,0,0.18);
+    box-sizing: border-box;
   }
 
   .desktop-side-title {
@@ -4756,6 +4768,37 @@
 
   #verbRandomBtn[hidden] {
     display: none !important;
+  }
+
+  /* PC UZSTĀDĪJUMI pārkārtojums: mazais slēdzis un mazā ⓘ ikona (paliek mobilajā
+     skatā neskartas) tiek aizstātas ar pilnvērtīgām pogām tikai datora skatā. */
+  .switch-row {
+    display: none;
+  }
+
+  #extraOptionsInfoBtn {
+    display: none !important;
+  }
+
+  .desktop-spelling-toggle-btn,
+  .desktop-info-btn {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 46px;
+    padding: 11px 14px;
+    border-radius: 10px;
+    font-size: 0.92rem;
+    font-weight: 800;
+    letter-spacing: 0.01em;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+  }
+
+  .desktop-spelling-toggle-btn:hover,
+  .desktop-info-btn:hover {
+    transform: translateY(-1px);
   }
 }
 
@@ -5994,8 +6037,8 @@
 
 /* Cross-browser system color-scheme override protection */
 .action-buttons button:not(.known):not(.unknown):not(.primary),
-.desktop-action-sidebar button:not(#pamatiBtn):not(#kurssBtn),
-.desktop-side-group button,
+.desktop-action-sidebar button:not(#pamatiBtn):not(#kurssBtn):not(#desktopSpellingToggleBtn):not(#desktopInfoBtn),
+.desktop-side-group button:not(#desktopSpellingToggleBtn):not(#desktopInfoBtn),
 #groupButtons button:not(.active),
 #modeButtons button:not(.active),
 .mobile-extra-options > button {
@@ -6220,6 +6263,37 @@ main,
     min-height: 36px;
     padding: 0 13px;
     font-size: 0.82rem;
+  }
+}
+
+/* PC UZSTĀDĪJUMI: pilnvērtīgās "Pareizrakstība" un "ⓘ Kā tas strādā?" pogas.
+   Placed after the generic cross-browser button-color override layer above so
+   these !important colors always win on desktop, regardless of source order
+   drift elsewhere in this file. Mobile is untouched — these buttons are
+   display:none outside of the @media (min-width: 769px) block. */
+@media (min-width: 769px) {
+  .desktop-side-group-settings .desktop-spelling-toggle-btn {
+    background-color: #343533 !important;
+    background-image: linear-gradient(145deg, #414240, #343533) !important;
+    border: 1px solid rgba(255,255,255,0.08) !important;
+    color: #f3f5f7 !important;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.05), 0 6px 14px rgba(0,0,0,0.22);
+  }
+
+  .desktop-side-group-settings .desktop-spelling-toggle-btn.active {
+    background-color: #6620a9 !important;
+    background-image: linear-gradient(145deg, #9a4ce8, #6620a9) !important;
+    border-color: #b06bf2 !important;
+    color: #ffffff !important;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.18), 0 6px 16px rgba(102, 32, 169, 0.4);
+  }
+
+  .desktop-side-group-settings .desktop-info-btn {
+    background-color: #0b3a63 !important;
+    background-image: linear-gradient(145deg, #1465ef, #073db4) !important;
+    border: 1px solid #4ea0e6 !important;
+    color: #ffffff !important;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.14), 0 6px 16px rgba(20, 101, 239, 0.32);
   }
 }
 

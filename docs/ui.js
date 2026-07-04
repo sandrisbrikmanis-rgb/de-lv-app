@@ -184,6 +184,8 @@ const elements = {
   extraOptions: document.getElementById("extraOptions"),
   extraOptionsInfoBtn: document.getElementById("extraOptionsInfoBtn"),
   spellingToggle: document.getElementById("spellingToggle"),
+  desktopSpellingToggleBtn: document.getElementById("desktopSpellingToggleBtn"),
+  desktopInfoBtn: document.getElementById("desktopInfoBtn"),
   weeklyReviewBtn: document.getElementById("weeklyReviewBtn"),
   monthlyReviewBtn: document.getElementById("monthlyReviewBtn"),
   resetProgressBtn: document.getElementById("resetProgressBtn"),
@@ -4216,6 +4218,13 @@ function renderModeTabs() {
   if (elements.spellingToggle) {
     elements.spellingToggle.checked = writing;
   }
+  if (elements.desktopSpellingToggleBtn) {
+    elements.desktopSpellingToggleBtn.textContent = writing
+      ? "[✍️ Pareizrakstība: Ieslēgta]"
+      : "[✍️ Pareizrakstība: Izslēgta]";
+    elements.desktopSpellingToggleBtn.classList.toggle("active", writing);
+    elements.desktopSpellingToggleBtn.setAttribute("aria-pressed", writing ? "true" : "false");
+  }
   if (!elements.cardsTabBtn || !elements.writingTabBtn) return;
   elements.cardsTabBtn.className = writing ? "mode-tab" : "mode-tab active";
   elements.cardsTabBtn.setAttribute("aria-selected", writing ? "false" : "true");
@@ -5060,6 +5069,10 @@ elements.extraOptionsInfoBtn?.addEventListener("click", (event) => {
   event.stopPropagation();
   openInfoPanel();
 });
+elements.desktopInfoBtn?.addEventListener("click", (event) => {
+  event.stopPropagation();
+  openInfoPanel();
+});
 elements.infoCloseBtn?.addEventListener("click", closeInfoPanel);
 elements.infoPanel?.addEventListener("click", (event) => {
   event.stopPropagation();
@@ -5067,6 +5080,9 @@ elements.infoPanel?.addEventListener("click", (event) => {
 });
 elements.spellingToggle?.addEventListener("change", () => {
   setSpellingMode(elements.spellingToggle.checked);
+});
+elements.desktopSpellingToggleBtn?.addEventListener("click", () => {
+  setSpellingMode(!state.spellingMode);
 });
 elements.weeklyReviewBtn.addEventListener("click", openWeeklyList);
 elements.monthlyReviewBtn.addEventListener("click", openMonthlyList);
