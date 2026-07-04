@@ -5758,6 +5758,31 @@
   color: #ffffff !important;
 }
 
+/* "Problemātiskie" fire-mode toggle: pinned to the top of the level buttons, always highlighted */
+#groupButtons button.group-btn-fire {
+  grid-column: 1 / -1;
+  order: -1;
+  background-color: #d1420c !important;
+  background-image: linear-gradient(145deg, #ff7a1a, #d1420c) !important;
+  border-color: #ff9350 !important;
+  color: #ffffff !important;
+  font-weight: 800;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.18), 0 6px 16px rgba(217,72,15,0.35) !important;
+}
+
+#groupButtons button.group-btn-fire:hover {
+  background-color: #e04e0c !important;
+  background-image: linear-gradient(145deg, #ff8b3d, #e04e0c) !important;
+  border-color: #ffab6b !important;
+}
+
+#groupButtons button.group-btn-fire.active {
+  background-color: #e85d04 !important;
+  background-image: linear-gradient(145deg, #ff9a4d, #e85d04) !important;
+  border-color: #ffc38f !important;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.25), 0 0 0 2px rgba(255,155,80,0.5) !important;
+}
+
 .known,
 #knownBtn,
 .desktop-primary-actions .known {
