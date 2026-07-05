@@ -3655,7 +3655,7 @@
 .card-unwanted-btn {
   position: absolute;
   right: 14px;
-  bottom: 14px;
+  top: 14px;
   z-index: 3;
   display: inline-flex;
   align-items: center;
@@ -3696,7 +3696,7 @@
 @media (max-width: 768px) {
   .card-unwanted-btn {
     right: 10px;
-    bottom: 10px;
+    top: 10px;
     width: 34px;
     height: 34px;
   }

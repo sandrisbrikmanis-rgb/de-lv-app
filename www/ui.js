@@ -189,6 +189,7 @@ const elements = {
   unwantedBtn: document.getElementById("unwantedBtn"),
   markMasteredBtn: document.getElementById("markMasteredBtn"),
   markUnwantedBtn: document.getElementById("markUnwantedBtn"),
+  cardUnwantedBtn: document.getElementById("cardUnwantedBtn"),
   masteredListBtn: document.getElementById("masteredListBtn"),
   unwantedListBtn: document.getElementById("unwantedListBtn"),
   pamatiBtn: document.getElementById("pamatiBtn"),
@@ -3125,6 +3126,7 @@ function ensureInfoPopup() {
         <p><strong>Pareizrakstība.</strong> Ieslēdz ✍️ Pareizrakstība, lai rakstītu atbildi ar roku — lieliski apgūstot rakstību.</p>
         <p><strong>Nedēļas un mēneša pārskats.</strong> Skaties visus iemācītos vārdus no visiem līmeņiem vienā sarakstā un atgriez tos mācīšanā, ja vēlies.</p>
         <p><strong>Problemātiskie vārdi.</strong> Katra “Nezinu” atbilde parastajā plūsmā palielina kļūdu pakāpi. Problemātiskajā grupā “Zinu pareizi” samazina pakāpi; sasniedzot 0, vārds automātiski nonāk “Zināmi”.</p>
+        <p><strong>👁️‍🗨️ Nevajadzīgie vārdi.</strong> Ja mācību laikā sastopies ar vārdu, kuru savā ikdienā vispār neizmanto un nevēlies mācīties, uzspied uz pārsvītrotās acs ikonas kartītes augšējā stūrī. Vārds tiks neatgriezeniski pārvietots uz nevajadzīgo vārdu sarakstu un tavā mācību plūsmā vairs neparādīsies.</p>
       </div>
     </div>
   `;
@@ -4780,6 +4782,7 @@ function renderModeButtons() {
   elements.markMasteredBtn.hidden = true;
   elements.markMasteredBtn.style.display = "none";
   elements.markUnwantedBtn.hidden = state.verbMode;
+  if (elements.cardUnwantedBtn) elements.cardUnwantedBtn.hidden = state.verbMode;
   elements.unwantedListBtn.hidden = state.verbMode;
   for (const [mode, config] of Object.entries(sessionModes)) {
     const button = document.createElement("button");
@@ -5589,6 +5592,12 @@ if (elements.unwantedBtn) {
   elements.unwantedBtn.hidden = true;
 }
 elements.markUnwantedBtn.addEventListener("click", markCurrentUnwanted);
+if (elements.cardUnwantedBtn) {
+  elements.cardUnwantedBtn.addEventListener("click", (event) => {
+    event.stopPropagation();
+    markCurrentUnwanted();
+  });
+}
 elements.masteredListBtn.addEventListener("click", openKnownList);
 elements.unwantedListBtn.addEventListener("click", openUnwantedList);
 elements.extraOptionsBtn.addEventListener("click", () => {
