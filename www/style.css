@@ -6736,24 +6736,23 @@ main,
   pointer-events: none !important;
 }
 
-.top-quick-toggle-row {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 10px;
+.topbar-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
   width: 100%;
 }
 
-.top-quick-toggle-stack {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
+.topbar-header-text {
   min-width: 0;
+  flex: 1 1 auto;
 }
 
-.top-quick-toggle-row #infoBtn {
+.topbar-header-row #infoBtn {
+  flex: 0 0 auto;
   width: fit-content;
   max-width: 100%;
-  align-self: flex-end;
   min-height: 38px;
   padding: 8px 10px;
   font-size: 0.86rem;
@@ -6772,6 +6771,13 @@ main,
   appearance: none;
 }
 
+.top-quick-toggle-row {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  width: 100%;
+}
+
 .top-quick-toggle-row #problemWordsBtn,
 .top-quick-toggle-row #spellingModeBtn,
 #problemWordsBtn,
@@ -6779,7 +6785,6 @@ main,
   display: block;
   width: 100%;
   min-height: 48px;
-  align-self: stretch;
   padding: 12px 16px;
   box-sizing: border-box;
   font-size: 1rem;
