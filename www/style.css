@@ -6761,27 +6761,29 @@ main,
   font-weight: 800;
   text-align: center;
   border-radius: 12px !important;
-  border: 1px solid #b45309 !important;
-  background: #d97706 !important;
-  background-image: none !important;
+  border: 1px solid #ff8c1a !important;
+  background: #e65c00 !important;
+  background-image: linear-gradient(135deg, #e65c00, #f9d423) !important;
   color: #ffffff !important;
   -webkit-appearance: none !important;
   appearance: none !important;
   cursor: pointer;
-  box-shadow: 0 4px 14px rgba(217, 119, 6, 0.45);
+  box-shadow: 0 4px 18px rgba(230, 92, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.18);
 }
 
 #problemWordsBtn:hover,
 .problem-words-toggle:hover {
-  background: #ea580c !important;
-  border-color: #f59e0b !important;
+  background: #f07010 !important;
+  background-image: linear-gradient(135deg, #f07010, #ffe066) !important;
+  border-color: #ffb347 !important;
 }
 
 #problemWordsBtn.active,
 .problem-words-toggle.active {
-  background: #ea580c !important;
-  border-color: #fbbf24 !important;
-  box-shadow: 0 0 0 2px rgba(251, 191, 36, 0.55), 0 4px 14px rgba(217, 119, 6, 0.45) !important;
+  background: #e65c00 !important;
+  background-image: linear-gradient(135deg, #ff7a1a, #ffe066) !important;
+  border-color: #ffd166 !important;
+  box-shadow: 0 0 0 2px rgba(255, 209, 102, 0.55), 0 4px 18px rgba(230, 92, 0, 0.55) !important;
 }
 
 .restore-confirm-body {

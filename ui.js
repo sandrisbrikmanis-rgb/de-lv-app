@@ -2290,8 +2290,8 @@ function updateProblemWordsBtn() {
   if (!elements.problemWordsBtn) return;
   const count = countProblematicWords();
   elements.problemWordsBtn.textContent = count
-    ? `Problemātiskie vārdi (${count})`
-    : "Problemātiskie vārdi";
+    ? `🔥 Problemātiskie vārdi (${count})`
+    : "🔥 Problemātiskie vārdi";
   elements.problemWordsBtn.classList.toggle("active", state.problemMode);
 }
 
