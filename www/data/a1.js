@@ -8904,7 +8904,12 @@ const A1_WORDS = [
   },
     {
     "de": "kosten",
-    "lv": "maksÄt â€¢ nogarÅ¡ot",
+    "lv": "maksāt",
+    "level": "A1"
+  },
+    {
+    "de": "kosten",
+    "lv": "nogaršot",
     "level": "A1"
   },
     {
