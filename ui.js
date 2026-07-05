@@ -4677,6 +4677,10 @@ function updateStats() {
 }
 
 function renderCard() {
+  if (!state.verbMode && !state.problemMode && !state.reviewKnown && !state.reviewLastSession && !state.timeReviewMode && !state.studyTestCard) {
+    ensureSession();
+    normalizeSessionIndex();
+  }
   render();
 }
 
@@ -5471,6 +5475,7 @@ function render() {
       elements.hint.textContent = "Izvēlies citu režīmu vai atgriezies vēlāk pārskatīšanai.";
     }
     updateKnownListBtn();
+    updateProblemWordsBtn();
     updateSessionCompleteOverlay();
     return;
   }
@@ -5484,6 +5489,7 @@ function render() {
     elements.hint.textContent = task ? task.prompt : "";
     renderSpellingControls();
     updateKnownListBtn();
+    updateProblemWordsBtn();
     updateSessionCompleteOverlay();
     return;
   }
@@ -5498,7 +5504,12 @@ function render() {
     : (!state.reviewKnown && sessionMatchesActiveGroup()
     ? `${groupDisplayLabel(card.level)} · Sesija: ${Math.min(sessionDoneCount() + 1, sessionTotalCount())} / ${sessionTotalCount()}`
     : `${groupDisplayLabel(card.level)} · ${state.index + 1}/${deck.length}`)));
-  if (renderStudyCard(card)) return;
+  if (renderStudyCard(card)) {
+    updateKnownListBtn();
+    updateProblemWordsBtn();
+    updateSessionCompleteOverlay();
+    return;
+  }
   elements.word.textContent = state.direction === "de-lv" ? formatGermanEntry(card) : card.lv;
   elements.translation.textContent = state.revealed
     ? (state.direction === "de-lv" ? card.lv : formatGermanEntry(card))
@@ -5586,7 +5597,7 @@ elements.extraOptionsBtn.addEventListener("click", () => {
   elements.extraOptionsBtn.setAttribute("aria-expanded", opening ? "true" : "false");
   elements.extraOptionsBtn.textContent = opening ? "Papildu opcijas ▲" : "Papildu opcijas ▼";
 });
-elements.problemWordsBtn.addEventListener("click", selectProblemWords);
+elements.problemWordsBtn?.addEventListener("click", selectProblemWords);
 elements.weeklyReviewBtn.addEventListener("click", () => openTimeReviewModal("week"));
 elements.monthlyReviewBtn.addEventListener("click", () => openTimeReviewModal("month"));
 if (elements.infoBtn) {
@@ -5608,7 +5619,7 @@ const studyCardTestParam = new URLSearchParams(window.location.search).get("stud
 
 if (!activateStudyCardTestMode(studyCardTestParam)) {
   try {
-    render();
+    renderCard();
   } catch (error) {
     console.error("Render failed:", error);
     renderGroupButtons();
