@@ -3654,8 +3654,8 @@
 /* Atz─½m─ôt k─ü nevajadz─½gu ÔÇö neuzkr─½to┼ía p─ürsv─½trotas acs ikona kart─½tes st┼½r─½ */
 .card-unwanted-btn {
   position: absolute;
-  right: 14px;
-  top: 14px;
+  top: 20px !important;
+  right: 20px !important;
   z-index: 3;
   display: inline-flex;
   align-items: center;
@@ -3667,8 +3667,9 @@
   border: 1px solid rgba(148, 163, 184, 0.28);
   background: rgba(148, 163, 184, 0.08);
   color: var(--muted);
+  opacity: 0.75 !important;
   cursor: pointer;
-  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease, transform 0.1s ease;
+  transition: all 0.2s ease;
 }
 
 .card-unwanted-btn svg {
@@ -3679,9 +3680,8 @@
 
 .card-unwanted-btn:hover,
 .card-unwanted-btn:focus-visible {
-  background: rgba(196, 63, 63, 0.16);
-  border-color: rgba(196, 63, 63, 0.45);
-  color: var(--bad);
+  color: #ef4444 !important;
+  opacity: 1 !important;
   outline: none;
 }
 
@@ -3695,8 +3695,6 @@
 
 @media (max-width: 768px) {
   .card-unwanted-btn {
-    right: 10px;
-    top: 10px;
     width: 34px;
     height: 34px;
   }
