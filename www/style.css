@@ -4848,8 +4848,7 @@
     box-shadow: none !important;
   }
 
-  .desktop-side-group-quick #spellingModeBtn,
-  #infoBtn {
+  .desktop-side-group-quick #infoBtn {
     font-weight: 700;
     font-size: 0.86rem;
     text-transform: none;
@@ -4858,15 +4857,6 @@
     line-height: 1.2;
     letter-spacing: normal;
     white-space: normal;
-  }
-
-  .desktop-side-group-quick #spellingModeBtn.active,
-  .desktop-side-group-quick #spellingModeBtn.spelling-active {
-    background: #1a1a1a !important;
-    background-image: none !important;
-    border: 1px solid #2d2d2d !important;
-    color: #ffffff !important;
-    box-shadow: none !important;
   }
 
   #markUnwantedBtn,
@@ -6210,6 +6200,19 @@
   color: #ffffff !important;
 }
 
+.top-quick-toggle-row #spellingModeBtn {
+  padding: 12px 16px;
+  font-size: 1rem;
+  font-weight: 800;
+  text-align: center;
+  line-height: 1.2;
+  box-sizing: border-box;
+  border-radius: 12px;
+  cursor: pointer;
+  -webkit-appearance: none !important;
+  appearance: none !important;
+}
+
 #spellingModeBtn.active,
 #spellingModeBtn.spelling-active {
   background-color: #42a5ff !important;
@@ -6478,9 +6481,6 @@ main,
   .desktop-action-sidebar button,
   .desktop-side-group button,
   .desktop-action-sidebar .mobile-extra-options > button,
-  .desktop-side-group-quick #spellingModeBtn,
-  .desktop-side-group-quick #spellingModeBtn.active,
-  .desktop-side-group-quick #spellingModeBtn.spelling-active,
   .desktop-side-group-quick #infoBtn {
     -webkit-appearance: none !important;
     appearance: none !important;
@@ -6750,6 +6750,15 @@ main,
   pointer-events: none !important;
 }
 
+.top-quick-toggle-row {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  width: 100%;
+}
+
+.top-quick-toggle-row #problemWordsBtn,
+.top-quick-toggle-row #spellingModeBtn,
 #problemWordsBtn,
 .problem-words-toggle {
   display: block;
