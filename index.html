@@ -19,7 +19,10 @@
 
         <div class="top-quick-toggle-row" aria-label="Ātrā pārslēgšana">
           <button id="problemWordsBtn" type="button" class="problem-words-toggle">🔥 Problemātiskie vārdi</button>
-          <button id="spellingModeBtn" type="button">✍️ Pareizrakstība</button>
+          <div class="top-quick-toggle-stack">
+            <button id="infoBtn" type="button"><span class="info-icon" aria-hidden="true">ⓘ</span> Kā tas strādā?</button>
+            <button id="spellingModeBtn" type="button">✍️ Pareizrakstība</button>
+          </div>
         </div>
         <div class="group-buttons" id="groupButtons" aria-label="Grupas"></div>
         <div class="mode-row"><div class="group-buttons" id="modeButtons" aria-label="Mācīšanās režīmi"></div><button id="pamatiBtn" type="button">📖 Pamati</button><button id="kurssBtn" type="button">🎓 Kurss</button></div>
@@ -188,10 +191,6 @@
             <button class="primary" id="nextBtn" type="button">Nākamais vārds</button>
           </div>
           <div class="desktop-action-sidebar">
-          <div class="desktop-side-group desktop-side-group-quick">
-            <div class="desktop-side-title">Ātrā pārslēgšana</div>
-            <button id="infoBtn" type="button"><span class="info-icon" aria-hidden="true">ⓘ</span> Kā tas strādā?</button>
-          </div>
           <button id="verbRandomBtn" type="button" hidden style="display: none;">Jaukt darbības vārdus</button>
           <button id="markMasteredBtn" type="button" hidden style="display: none;">100% zinu</button>
           <button id="markUnwantedBtn" type="button">Atzīmēt kā nevajadzīgu</button>
