@@ -6750,23 +6750,38 @@ main,
   pointer-events: none !important;
 }
 
-.desktop-side-group-problem {
-  padding: 0;
-  border: 0 !important;
-  background: transparent !important;
-}
-
-#problemWordsBtn {
-  min-height: 44px;
+#problemWordsBtn,
+.problem-words-toggle {
+  display: block;
+  width: 100%;
+  min-height: 48px;
+  padding: 12px 16px;
+  box-sizing: border-box;
+  font-size: 1rem;
   font-weight: 800;
-  border-color: #b45309 !important;
-  background: linear-gradient(145deg, #ea580c, #c2410c) !important;
-  color: #fff7ed !important;
+  text-align: center;
+  border-radius: 12px !important;
+  border: 1px solid #b45309 !important;
+  background: #d97706 !important;
+  background-image: none !important;
+  color: #ffffff !important;
+  -webkit-appearance: none !important;
+  appearance: none !important;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(217, 119, 6, 0.45);
 }
 
-#problemWordsBtn.active {
-  border-color: #fdba74 !important;
-  box-shadow: 0 0 0 2px rgba(251, 146, 60, 0.35) !important;
+#problemWordsBtn:hover,
+.problem-words-toggle:hover {
+  background: #ea580c !important;
+  border-color: #f59e0b !important;
+}
+
+#problemWordsBtn.active,
+.problem-words-toggle.active {
+  background: #ea580c !important;
+  border-color: #fbbf24 !important;
+  box-shadow: 0 0 0 2px rgba(251, 191, 36, 0.55), 0 4px 14px rgba(217, 119, 6, 0.45) !important;
 }
 
 .restore-confirm-body {
