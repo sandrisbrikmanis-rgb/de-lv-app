@@ -1,6 +1,44 @@
+function normalizeIdText(text) {
+  return String(text || "")
+    .trim()
+    .toLowerCase()
+    .replace(/ä/g, "ae").replace(/ö/g, "oe").replace(/ü/g, "ue").replace(/ß/g, "ss")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+const usedStableIds = new Set();
+
+function buildStableId(card) {
+  const level = normalizeIdText(card.level || "x");
+  const de = normalizeIdText(card.de);
+  if (!de) return null;
+  const article = normalizeIdText(card.de_article);
+  const base = article ? `${level}-${article}-${de}` : `${level}-${de}`;
+  if (!usedStableIds.has(base)) {
+    usedStableIds.add(base);
+    return base;
+  }
+  let n = 2;
+  while (usedStableIds.has(`${base}-${n}`)) n++;
+  const id = `${base}-${n}`;
+  usedStableIds.add(id);
+  return id;
+}
+
+function ensureStableId(card) {
+  if (card.id) {
+    usedStableIds.add(card.id);
+    return card;
+  }
+  const id = buildStableId(card);
+  if (id) card.id = id;
+  return card;
+}
+
 function datasetWords(name) {
   const dataset = window[name];
-  return Array.isArray(dataset) ? dataset : [];
+  return Array.isArray(dataset) ? dataset.map(ensureStableId) : [];
 }
 
 const flashcards = [

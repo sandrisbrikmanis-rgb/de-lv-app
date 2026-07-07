@@ -167,7 +167,6 @@
     const learnedIds = snapshot.learned?.[groupKey] || [];
     const learnedSet = new Set(learnedIds);
     const mastered = masteredSet(snapshot);
-    const sessionSet = new Set(snapshot.sessionIds || []);
     const problemStats = snapshot.problemStats || {};
 
     return cards.map((card) => {
@@ -179,7 +178,7 @@
         bucket = "learned_green";
       } else if (stats && ((typeof stats.errorLevel === "number" && stats.errorLevel > 0) || (stats.problematic === true && (stats.unknownCount || 0) >= 3))) {
         bucket = "problem_darkred";
-      } else if (sessionSet.has(id) || (stats && ((typeof stats.errorLevel === "number" && stats.errorLevel > 0) || (stats.unknownCount || 0) > 0))) {
+      } else if (stats && (stats.unknownCount || 0) > 0) {
         bucket = "active_red";
       }
 

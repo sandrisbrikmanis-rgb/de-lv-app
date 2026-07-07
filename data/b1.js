@@ -57422,17 +57422,23 @@ const B1_WORDS = [
   },
   {
     "de": "trennen",
-    "lv": "atšķirt",
+    "lv": "atdalīt",
     "level": "B1",
     "study": {
       "id": "b1-trennen",
       "layout": "standardStudy",
       "translation": "atdalīt",
-      "explanation": "Galvenā doma: trennen nozīmē atdalīt vai nošķirt vienu lietu no otras. sich trennen nozīmē šķirties.",
+      "explanation": [
+        "Galvenā doma: trennen nozīmē atdalīt — fiziski vai simboliski atšķirt vienu lietu no otras.",
+        "Lietas šķirošanai un sadalīšanai bieži lieto trennen: atdalīt papīru no plastmasas.",
+        "Ar sienu, barjeru vai robežu trennen nozīmē sadalīt telpu vai teritoriju.",
+        "Refleksīvā forma sich trennen nozīmē šķirties — pārtraukt attiecības vai iet atsevišķi.",
+        "Atšķirt pēc pazīmēm parasti ir unterscheiden, nevis trennen."
+      ],
       "examples": [
         {
           "de": "Bitte trenne Papier und Plastik.",
-          "lv": "lūdzu, šķiro papīru un plastmasu."
+          "lv": "lūdzu, atdali papīru un plastmasu."
   },
         {
           "de": "Eine Wand trennt die beiden Zimmer.",
@@ -57440,7 +57446,7 @@ const B1_WORDS = [
   },
         {
           "de": "Sie haben sich nach zehn Jahren getrennt.",
-          "lv": "viņi izšķīrās pēc desmit gadiem."
+          "lv": "viņi šķīrās pēc desmit gadiem."
   },
       ],
       "comparison": [

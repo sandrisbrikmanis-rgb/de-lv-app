@@ -43235,37 +43235,31 @@ const A2_WORDS = [
     "de": "Körper",
     "de_article": "der",
     "de_plural": "die Körper",
-    "lv": "ķermenis",
+    "lv": "ķermenis • korpuss",
     "level": "A2",
     "study": {
       "id": "a2-körper",
       "layout": "standardStudy",
       "translation": "ķermenis • korpuss",
-      "explanation": "Körper visbiežāk nozīmē cilvēka vai dzīvnieka ķermeni. To lieto arī par veselību, kustību un fizisku stāvokli. Tehniskā vai priekšmetu kontekstā Körper var nozīmēt korpusu vai objekta fizisko daļu. Matemātikā vai ģeometrijā Körper var nozīmēt ģeometrisku ķermeni. Tāpēc Körper nav tikai cilvēka ķermenis.",
+      "explanation": [
+        "Galvenā doma: Körper visbiežāk nozīmē cilvēka vai dzīvnieka ķermeni — miesu, veselību un fizisko stāvokli.",
+        "Veselības, sporta un medicīnas tekstos Körper parasti ir ķermenis: Der Körper braucht Ruhe.",
+        "Tehniskā kontekstā Körper nozīmē korpusu — automašīnas, ieroča vai priekšmeta fizisko daļu.",
+        "Matemātikā un ģeometrijā Körper var būt ģeometrisks ķermenis (kubs, sfēra).",
+        "Konteksts nosaka tulkojumu: cilvēks → ķermenis; mehānisms → korpuss."
+      ],
       "examples": [
         {
           "de": "Der Körper braucht Ruhe.",
           "lv": "ķermenim vajag atpūtu."
   },
         {
-          "de": "Ein gesunder Körper ist wichtig.",
-          "lv": "vesels ķermenis ir svarīgs."
-  },
-        {
           "de": "Der Körper des Autos ist beschädigt.",
           "lv": "automašīnas korpuss ir bojāts."
   },
         {
-          "de": "Ein Würfel ist ein geometrischer Körper.",
-          "lv": "kubs ir ģeometrisks ķermenis."
-  },
-        {
           "de": "Sport ist gut für den Körper.",
           "lv": "sports ir labs ķermenim."
-  },
-        {
-          "de": "Der Körper reagiert auf Stress.",
-          "lv": "ķermenis reaģē uz stresu."
   },
       ],
       "tip": {
@@ -50859,13 +50853,19 @@ const A2_WORDS = [
     "de": "Pflaster",
     "de_article": "das",
     "de_plural": "die Pflaster",
-    "lv": "plāksteris",
+    "lv": "plāksteris • bruģis",
     "level": "A2",
     "study": {
       "id": "a2-pflaster",
       "layout": "standardStudy",
       "translation": "plāksteris • bruģis",
-      "explanation": "das Pflaster medicīnā nozīmē plāksteri. To lieto, ja ir brūce, skramba vai vajag kaut ko aizlīmēt uz ādas. Ielas kontekstā Pflaster nozīmē bruģi vai bruģētu virsmu. Tas var nozīmēt arī bruģakmeņus. Tāpēc Pflaster nozīme ļoti atkarīga no konteksta: aptieka vai iela.",
+      "explanation": [
+        "Galvenā doma: das Pflaster ir divnozīmju vārds — plāksteris vai bruģis atkarībā no konteksta.",
+        "Medicīnā un mājās Pflaster nozīmē plāksteri, ko uzlīmē uz brūces vai skrāpējuma.",
+        "Ielu, laukumu un pilsētu kontekstā Pflaster nozīmē bruģi — bruģētu ietves virsmu.",
+        "Das Pflaster klebt nicht parasti ir par plāksteri; Die Straße hat altes Pflaster — par bruģi.",
+        "Vienmēr skaties kontekstu: aptieka, brūce, āda → plāksteris; iela, ietve, iešana → bruģis."
+      ],
       "examples": [
         {
           "de": "Ich brauche ein Pflaster.",
@@ -50878,18 +50878,6 @@ const A2_WORDS = [
         {
           "de": "Die Straße hat altes Pflaster.",
           "lv": "ielai ir vecs bruģis."
-  },
-        {
-          "de": "Wir gehen über das Pflaster.",
-          "lv": "mēs ejam pa bruģi."
-  },
-        {
-          "de": "Sie klebt ein Pflaster auf die Wunde.",
-          "lv": "viņa uzlīmē plāksteri uz brūces."
-  },
-        {
-          "de": "Das Pflaster ist nass.",
-          "lv": "bruģis ir slapjš."
   },
       ],
       "tip": {
