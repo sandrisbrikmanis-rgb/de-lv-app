@@ -14231,13 +14231,6 @@ const A1_WORDS = [
     "level": "A1"
   },
     {
-    "de": "Samstag",
-    "de_article": "der",
-    "de_plural": "die Samstage",
-    "lv": "sestdiena",
-    "level": "A1"
-  },
-    {
     "de": "sauber",
     "lv": "tīrs",
     "level": "A1"

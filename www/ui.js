@@ -3795,7 +3795,16 @@ function updateAutoplayButtonUI() {
 
 function cardAutoplayKey(card) {
   if (!card) return null;
-  return card.id || `${card.level || ""}:${card.de || ""}:${card.lv || ""}`;
+  const base = card.id || `${card.level || ""}:${card.de || ""}:${card.lv || ""}`;
+  if (state.direction === "lv-de") {
+    return `${base}:revealed:${state.revealed ? "1" : "0"}`;
+  }
+  return base;
+}
+
+function shouldAutoplayGermanAudio(isGermanToLatvian) {
+  if (!state.audioAutoplay) return false;
+  return isGermanToLatvian || state.revealed;
 }
 
 function scheduleCardAutoplay(card) {
@@ -3856,7 +3865,9 @@ function renderWordCardContent(card) {
     elements.translation.textContent = backText;
     if (pluralText) showFlashcardPluralRow(pluralText, pluralAudioSrc);
   }
-  scheduleCardAutoplay(card);
+  if (shouldAutoplayGermanAudio(isDeFront)) {
+    scheduleCardAutoplay(card);
+  }
 }
 
 function playCardAudio(src, button) {
@@ -5251,14 +5262,14 @@ function renderStudyCard(card) {
 
   if (!state.revealed) {
     elements.translation.textContent = "";
-    if (!isComparisonStudy) scheduleCardAutoplay(card);
   } else if (isComparisonStudy || isGermanToLatvian) {
     elements.translation.textContent = backText;
     if (!isComparisonStudy && pluralText) showFlashcardPluralRow(pluralText, pluralAudioSrc);
-    if (!isComparisonStudy) scheduleCardAutoplay(card);
   } else {
     elements.translation.textContent = backText;
     if (pluralText) showFlashcardPluralRow(pluralText, pluralAudioSrc);
+  }
+  if (!isComparisonStudy && shouldAutoplayGermanAudio(isGermanToLatvian)) {
     scheduleCardAutoplay(card);
   }
   elements.hint.textContent = state.revealed
