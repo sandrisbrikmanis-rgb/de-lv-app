@@ -8080,8 +8080,34 @@ const A1_WORDS = [
   },
     {
     "de": "im",
-    "lv": "in dem",
-    "level": "A1"
+    "lv": "iekšā • -ā",
+    "level": "A1",
+    "study": {
+      "id": "a1-im",
+      "layout": "standardStudy",
+      "translation": "iekšā • -ā",
+      "explanation": [
+        "Galvenā doma: im ir saīsinājums no in + dem.",
+        "To lieto ar vīriešu un nekatras dzimtes lietvārdiem Dativ locījumā.",
+        "im atbild uz jautājumu kur? (atrašanās vieta, nevis kustība).",
+        "Piemēram: im Park = parkā, im Kino = kino.",
+        "Ar laiku im nozīmē mēnešos un gadalaikos: im Januar = janvārī, im Sommer = vasarā."
+      ],
+      "examples": [
+        {
+          "de": "Ich bin im Park.",
+          "lv": "es esmu parkā."
+  },
+        {
+          "de": "Wir wohnen im Zentrum.",
+          "lv": "mēs dzīvojam centrā."
+  },
+        {
+          "de": "Im Sommer ist es warm.",
+          "lv": "vasarā ir silti."
+  },
+      ]
+  }
   },
     {
     "de": "immer",
@@ -8306,8 +8332,34 @@ const A1_WORDS = [
   },
     {
     "de": "ins",
-    "lv": "in das",
-    "level": "A1"
+    "lv": "uz • uz iekšu",
+    "level": "A1",
+    "study": {
+      "id": "a1-ins",
+      "layout": "standardStudy",
+      "translation": "uz • uz iekšu",
+      "explanation": [
+        "Galvenā doma: ins ir saīsinājums no in + das.",
+        "To lieto ar nekatras dzimtes lietvārdiem Akkusativ locījumā.",
+        "ins atbild uz jautājumu uz kurieni? (kustība, nevis atrašanās vieta).",
+        "Piemēram: ins Kino = uz kino, ins Bett = gultā (uz gultu).",
+        "Salīdzini: ins Kino gehen = iet uz kino (kurp?), im Kino sein = būt kino (kur?)."
+      ],
+      "examples": [
+        {
+          "de": "Ich gehe ins Kino.",
+          "lv": "es eju uz kino."
+  },
+        {
+          "de": "Sie geht ins Bett.",
+          "lv": "viņa iet gulēt."
+  },
+        {
+          "de": "Wir fahren ins Ausland.",
+          "lv": "mēs braucam uz ārzemēm."
+  },
+      ]
+  }
   },
     {
     "de": "ja",
@@ -17533,8 +17585,34 @@ const A1_WORDS = [
   },
     {
     "de": "vom",
-    "lv": "von dem",
-    "level": "A1"
+    "lv": "no",
+    "level": "A1",
+    "study": {
+      "id": "a1-vom",
+      "layout": "standardStudy",
+      "translation": "no",
+      "explanation": [
+        "Galvenā doma: vom ir saīsinājums no von + dem.",
+        "To lieto ar vīriešu un nekatras dzimtes lietvārdiem Dativ locījumā.",
+        "vom atbild uz jautājumu no kā? vai no kurienes?",
+        "Piemēram: vom Bahnhof = no stacijas (der Bahnhof).",
+        "Sarunvalodā vom vietā gandrīz nekad nesaka pilno von dem."
+      ],
+      "examples": [
+        {
+          "de": "Ich komme vom Bahnhof.",
+          "lv": "es nāku no stacijas."
+  },
+        {
+          "de": "Das Geschenk ist vom Vater.",
+          "lv": "dāvana ir no tēva."
+  },
+        {
+          "de": "Er kommt vom Arzt.",
+          "lv": "viņš nāk no ārsta."
+  },
+      ]
+  }
   },
     {
     "de": "von",
@@ -19148,8 +19226,34 @@ const A1_WORDS = [
   },
     {
     "de": "zum",
-    "lv": "zu dem",
-    "level": "A1"
+    "lv": "uz • pie",
+    "level": "A1",
+    "study": {
+      "id": "a1-zum",
+      "layout": "standardStudy",
+      "translation": "uz • pie",
+      "explanation": [
+        "Galvenā doma: zum ir saīsinājums no zu + dem.",
+        "To lieto ar vīriešu un nekatras dzimtes lietvārdiem Dativ locījumā.",
+        "zum norāda virzienu vai mērķi: uz kaut ko vai pie kaut kā.",
+        "Piemēram: zum Arzt = pie ārsta, zum Bahnhof = uz staciju.",
+        "Sievišķās dzimtes vārdiem lieto zur (zu + der)."
+      ],
+      "examples": [
+        {
+          "de": "Ich gehe zum Arzt.",
+          "lv": "es eju pie ārsta."
+  },
+        {
+          "de": "Wir fahren zum Bahnhof.",
+          "lv": "mēs braucam uz staciju."
+  },
+        {
+          "de": "Sie geht zum Supermarkt.",
+          "lv": "viņa iet uz veikalu."
+  },
+      ]
+  }
   },
     {
     "de": "zumachen",

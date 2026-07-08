@@ -3684,6 +3684,140 @@ function formatGermanEntry(entry) {
   return de;
 }
 
+const A1_AUDIO_DIR = "./public/audio/";
+let activeCardAudio = null;
+let activeCardAudioBtn = null;
+
+function sanitizeAudioFilename(text) {
+  return String(text || "")
+    .trim()
+    .replace(/\s+/g, "_")
+    .replace(/[/\\:*?"<>|]/g, "");
+}
+
+function parsePluralArticle(dePlural) {
+  const match = String(dePlural || "")
+    .trim()
+    .match(/^(der|die|das)\s+/i);
+  return match ? match[1].toLowerCase() : "die";
+}
+
+function a1SingularAudioFile(entry) {
+  if (!entry || entry.level !== "A1") return null;
+  const de = String(entry.de || "").trim();
+  if (!de) return null;
+  const article = String(entry.de_article || "").trim().toLowerCase();
+  if (article && /^(der|die|das)$/.test(article)) {
+    return `${article}_${sanitizeAudioFilename(de)}.mp3`;
+  }
+  return `${sanitizeAudioFilename(de)}.mp3`;
+}
+
+function a1PluralAudioFile(entry) {
+  if (!entry || entry.level !== "A1" || !entry.de_plural) return null;
+  const de = String(entry.de || "").trim();
+  if (!de) return null;
+  return `plural_${parsePluralArticle(entry.de_plural)}_${sanitizeAudioFilename(de)}.mp3`;
+}
+
+function a1AudioSrc(filename) {
+  return filename ? `${A1_AUDIO_DIR}${filename}` : null;
+}
+
+function a1AudioForBareWord(de) {
+  const bare = stripGermanArticle(de);
+  if (!bare) return null;
+  const entry = wordEntries.find((item) => (
+    item.level === "A1" && String(item.de || "").trim().toLowerCase() === bare.toLowerCase()
+  ));
+  return entry ? a1AudioSrc(a1SingularAudioFile(entry)) : null;
+}
+
+function audioButtonHtml(src, label) {
+  if (!src) return "";
+  return `<button type="button" class="word-audio-btn" data-audio-src="${escapeHtml(src)}" aria-label="${escapeHtml(label)}" title="${escapeHtml(label)}"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg></button>`;
+}
+
+function wordLineHtml(text, audioSrc, audioLabel) {
+  const safeText = escapeHtml(text);
+  const button = audioButtonHtml(audioSrc, audioLabel);
+  if (!button) return safeText;
+  return `<span class="word-line"><span class="word-line-text">${safeText}</span>${button}</span>`;
+}
+
+function renderCardTextLine(element, text, audioSrc, audioLabel) {
+  if (!element) return;
+  element.innerHTML = wordLineHtml(text, audioSrc, audioLabel);
+}
+
+function renderCardPluralRow(pluralText, audioSrc) {
+  if (!pluralText) return "";
+  const label = `Klausīties: ${pluralText}`;
+  return `<div class="card-plural-row"><span class="card-plural-label">Daudzsk.</span>${wordLineHtml(pluralText, audioSrc, label)}</div>`;
+}
+
+function renderWordCardContent(card) {
+  const isDeFront = state.direction === "de-lv";
+  const germanText = formatGermanEntry(card);
+  const frontText = isDeFront ? germanText : card.lv;
+  const backText = isDeFront ? card.lv : germanText;
+  const pluralText = card.de_plural ? String(card.de_plural).trim() : "";
+  const singularAudioSrc = a1AudioSrc(a1SingularAudioFile(card));
+  const pluralAudioSrc = a1AudioSrc(a1PluralAudioFile(card));
+
+  if (isDeFront) {
+    renderCardTextLine(elements.word, frontText, singularAudioSrc, `Klausīties: ${germanText}`);
+  } else {
+    elements.word.textContent = frontText;
+  }
+
+  if (!state.revealed) {
+    elements.translation.textContent = "";
+    return;
+  }
+
+  if (isDeFront) {
+    let html = `<span class="translation-main">${escapeHtml(backText)}</span>`;
+    if (pluralText) html += renderCardPluralRow(pluralText, pluralAudioSrc);
+    elements.translation.innerHTML = html;
+    return;
+  }
+
+  let html = wordLineHtml(backText, singularAudioSrc, `Klausīties: ${germanText}`);
+  if (pluralText) html += renderCardPluralRow(pluralText, pluralAudioSrc);
+  elements.translation.innerHTML = html;
+}
+
+function playCardAudio(src, button) {
+  if (!src) return;
+  if (activeCardAudio && !activeCardAudio.paused) {
+    activeCardAudio.pause();
+    activeCardAudioBtn?.classList.remove("is-playing");
+    if (activeCardAudioBtn === button) {
+      activeCardAudio = null;
+      activeCardAudioBtn = null;
+      return;
+    }
+  }
+
+  activeCardAudio = new Audio(src);
+  activeCardAudioBtn = button || null;
+  button?.classList.add("is-playing");
+  activeCardAudio.addEventListener("ended", () => {
+    button?.classList.remove("is-playing");
+    if (activeCardAudioBtn === button) {
+      activeCardAudio = null;
+      activeCardAudioBtn = null;
+    }
+  });
+  activeCardAudio.addEventListener("error", () => {
+    button?.classList.remove("is-playing");
+  });
+  activeCardAudio.play().catch(() => {
+    button?.classList.remove("is-playing");
+  });
+}
+
 function cardSearchCandidates(entry) {
   const study = entry.study || {};
   const wordItems = Array.isArray(study.words) ? study.words : [];
@@ -4953,7 +5087,16 @@ function renderVerbCard() {
   elements.cardLevel.innerHTML = stages
     .map((item) => `<span class="${item.label === stage.label ? "active" : ""}">${item.buttonLabel}</span>`)
     .join("");
-  elements.word.textContent = stage.value;
+  if (stage.label === "Infinitiv") {
+    renderCardTextLine(
+      elements.word,
+      stage.value,
+      a1AudioForBareWord(stage.value),
+      `Klausīties: ${stripGermanArticle(stage.value)}`
+    );
+  } else {
+    elements.word.textContent = stage.value;
+  }
   elements.translation.textContent = `Tulkojums: ${stage.translation}`;
   elements.hint.textContent = state.reviewLastSession
     ? `Pēdējā sesija: ${Math.min(lastSessionReviewDoneCount() + 1, lastSessionReviewTotalCount())} / ${lastSessionReviewTotalCount()}. Klikšķini uz kartītes, lai pārslēgtu formu.`
@@ -5022,14 +5165,36 @@ function renderStudyCard(card) {
    */
 
   const isGermanToLatvian = state.direction === "de-lv";
-  elements.word.textContent = isComparisonStudy
+  const germanText = formatGermanEntry(card);
+  const frontText = isComparisonStudy
     ? formatLvDisplay(study.title || study.translation || card.lv)
-    : (isGermanToLatvian ? formatGermanEntry(card) : formatLvDisplay(study.translation));
-  elements.translation.textContent = state.revealed
+    : (isGermanToLatvian ? germanText : formatLvDisplay(study.translation));
+  const backText = state.revealed
     ? (isComparisonStudy
-      ? (study.subtitle || formatGermanEntry(card))
-      : (isGermanToLatvian ? formatLvDisplay(study.translation) : formatGermanEntry(card)))
+      ? (study.subtitle || germanText)
+      : (isGermanToLatvian ? formatLvDisplay(study.translation) : germanText))
     : "";
+  const singularAudioSrc = a1AudioSrc(a1SingularAudioFile(card));
+  const pluralText = card.de_plural ? String(card.de_plural).trim() : "";
+  const pluralAudioSrc = a1AudioSrc(a1PluralAudioFile(card));
+
+  if (isGermanToLatvian && !isComparisonStudy) {
+    renderCardTextLine(elements.word, frontText, singularAudioSrc, `Klausīties: ${germanText}`);
+  } else {
+    elements.word.textContent = frontText;
+  }
+
+  if (!state.revealed) {
+    elements.translation.textContent = "";
+  } else if (isComparisonStudy || isGermanToLatvian) {
+    let html = `<span class="translation-main">${escapeHtml(backText)}</span>`;
+    if (!isComparisonStudy && pluralText) html += renderCardPluralRow(pluralText, pluralAudioSrc);
+    elements.translation.innerHTML = html;
+  } else {
+    let html = wordLineHtml(backText, singularAudioSrc, `Klausīties: ${germanText}`);
+    if (pluralText) html += renderCardPluralRow(pluralText, pluralAudioSrc);
+    elements.translation.innerHTML = html;
+  }
   elements.hint.textContent = state.revealed
     ? ""
     : "Klikšķini uz kartītes, lai atvērtu skaidrojumu.";
@@ -5551,10 +5716,7 @@ function render() {
     updateSessionCompleteOverlay();
     return;
   }
-  elements.word.textContent = state.direction === "de-lv" ? formatGermanEntry(card) : card.lv;
-  elements.translation.textContent = state.revealed
-    ? (state.direction === "de-lv" ? card.lv : formatGermanEntry(card))
-    : "";
+  renderWordCardContent(card);
   elements.hint.textContent = state.revealed
     ? ""
     : "Klikšķini uz kartītes, lai redzētu tulkojumu.";
@@ -5600,7 +5762,16 @@ elements.pamatiNextBtn.addEventListener("click", nextPamati);
 elements.pamatiPanel.addEventListener("click", (event) => {
   if (event.target === elements.pamatiPanel) closePamati();
 });
-document.querySelector(".card")?.addEventListener("click", revealCard);
+document.querySelector(".card")?.addEventListener("click", (event) => {
+  const audioBtn = event.target.closest("[data-audio-src]");
+  if (audioBtn) {
+    event.preventDefault();
+    event.stopPropagation();
+    playCardAudio(audioBtn.dataset.audioSrc, audioBtn);
+    return;
+  }
+  revealCard();
+});
 elements.knownBtn.addEventListener("click", markKnown);
 elements.unknownBtn.addEventListener("click", markUnknown);
 elements.nextBtn.addEventListener("click", nextCard);

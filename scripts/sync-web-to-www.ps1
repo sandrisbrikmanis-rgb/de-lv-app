@@ -34,4 +34,13 @@ if (Test-Path $iconsDst) {
 }
 Copy-Item -Path $iconsSrc -Destination $iconsDst -Recurse -Force
 
+$publicSrc = Join-Path $root 'public'
+$publicDst = Join-Path $www 'public'
+if (Test-Path $publicSrc) {
+    if (Test-Path $publicDst) {
+        Remove-Item -Path $publicDst -Recurse -Force
+    }
+    Copy-Item -Path $publicSrc -Destination $publicDst -Recurse -Force
+}
+
 Write-Host "Web assets synced to www/"
