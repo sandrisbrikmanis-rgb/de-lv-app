@@ -198,6 +198,11 @@ const elements = {
   learnedWords: document.getElementById("learnedWords"),
   cardLevel: document.getElementById("cardLevel"),
   word: document.getElementById("word"),
+  wordAudioBtn: document.getElementById("wordAudioBtn"),
+  flashcardPluralRow: document.getElementById("flashcardPluralRow"),
+  flashcardPluralText: document.getElementById("flashcardPluralText"),
+  pluralAudioBtn: document.getElementById("pluralAudioBtn"),
+  translationAudioBtn: document.getElementById("translationAudioBtn"),
   translation: document.getElementById("translation"),
   cardStudyExtra: document.getElementById("cardStudyExtra"),
   sessionCompleteOverlay: document.getElementById("sessionCompleteOverlay"),
@@ -3684,9 +3689,18 @@ function formatGermanEntry(entry) {
   return de;
 }
 
-const A1_AUDIO_DIR = "./public/audio/";
 let activeCardAudio = null;
 let activeCardAudioBtn = null;
+
+function getAudioBasePath() {
+  const path = window.location.pathname || "/";
+  if (path.endsWith("/")) return path;
+  const last = path.split("/").pop() || "";
+  if (last.includes(".")) {
+    return path.slice(0, path.lastIndexOf("/") + 1);
+  }
+  return `${path}/`;
+}
 
 function sanitizeAudioFilename(text) {
   return String(text || "")
@@ -3721,7 +3735,34 @@ function a1PluralAudioFile(entry) {
 }
 
 function a1AudioSrc(filename) {
-  return filename ? `${A1_AUDIO_DIR}${filename}` : null;
+  if (!filename) return null;
+  return `${getAudioBasePath()}public/audio/${filename}`;
+}
+
+function setFlashcardAudioButton(button, src) {
+  if (!button) return;
+  if (!src) {
+    button.hidden = true;
+    delete button.dataset.audioSrc;
+    return;
+  }
+  button.hidden = false;
+  button.dataset.audioSrc = src;
+}
+
+function resetFlashcardAudioControls() {
+  setFlashcardAudioButton(elements.wordAudioBtn, null);
+  setFlashcardAudioButton(elements.translationAudioBtn, null);
+  setFlashcardAudioButton(elements.pluralAudioBtn, null);
+  if (elements.flashcardPluralRow) elements.flashcardPluralRow.hidden = true;
+  if (elements.flashcardPluralText) elements.flashcardPluralText.textContent = "";
+}
+
+function showFlashcardPluralRow(text, audioSrc) {
+  if (!elements.flashcardPluralRow || !elements.flashcardPluralText || !text) return;
+  elements.flashcardPluralText.textContent = text;
+  elements.flashcardPluralRow.hidden = false;
+  setFlashcardAudioButton(elements.pluralAudioBtn, audioSrc);
 }
 
 function a1AudioForBareWord(de) {
@@ -3733,30 +3774,26 @@ function a1AudioForBareWord(de) {
   return entry ? a1AudioSrc(a1SingularAudioFile(entry)) : null;
 }
 
-function audioButtonHtml(src, label) {
-  if (!src) return "";
-  return `<button type="button" class="word-audio-btn" data-audio-src="${escapeHtml(src)}" aria-label="${escapeHtml(label)}" title="${escapeHtml(label)}"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg></button>`;
-}
-
-function wordLineHtml(text, audioSrc, audioLabel) {
-  const safeText = escapeHtml(text);
-  const button = audioButtonHtml(audioSrc, audioLabel);
-  if (!button) return safeText;
-  return `<span class="word-line"><span class="word-line-text">${safeText}</span>${button}</span>`;
-}
-
 function renderCardTextLine(element, text, audioSrc, audioLabel) {
   if (!element) return;
-  element.innerHTML = wordLineHtml(text, audioSrc, audioLabel);
+  element.textContent = text;
+  if (element === elements.word) {
+    setFlashcardAudioButton(elements.wordAudioBtn, audioSrc);
+    if (elements.wordAudioBtn && audioSrc) {
+      elements.wordAudioBtn.setAttribute("aria-label", audioLabel);
+      elements.wordAudioBtn.title = audioLabel;
+    }
+    return;
+  }
+  element.textContent = text;
 }
 
 function renderCardPluralRow(pluralText, audioSrc) {
-  if (!pluralText) return "";
-  const label = `Klausīties: ${pluralText}`;
-  return `<div class="card-plural-row"><span class="card-plural-label">Daudzsk.</span>${wordLineHtml(pluralText, audioSrc, label)}</div>`;
+  showFlashcardPluralRow(pluralText, audioSrc);
 }
 
 function renderWordCardContent(card) {
+  resetFlashcardAudioControls();
   const isDeFront = state.direction === "de-lv";
   const germanText = formatGermanEntry(card);
   const frontText = isDeFront ? germanText : card.lv;
@@ -3777,15 +3814,19 @@ function renderWordCardContent(card) {
   }
 
   if (isDeFront) {
-    let html = `<span class="translation-main">${escapeHtml(backText)}</span>`;
-    if (pluralText) html += renderCardPluralRow(pluralText, pluralAudioSrc);
-    elements.translation.innerHTML = html;
+    elements.translation.textContent = backText;
+    if (pluralText) showFlashcardPluralRow(pluralText, pluralAudioSrc);
     return;
   }
 
-  let html = wordLineHtml(backText, singularAudioSrc, `Klausīties: ${germanText}`);
-  if (pluralText) html += renderCardPluralRow(pluralText, pluralAudioSrc);
-  elements.translation.innerHTML = html;
+  elements.translation.textContent = backText;
+  setFlashcardAudioButton(elements.translationAudioBtn, singularAudioSrc);
+  if (elements.translationAudioBtn && singularAudioSrc) {
+    const label = `Klausīties: ${germanText}`;
+    elements.translationAudioBtn.setAttribute("aria-label", label);
+    elements.translationAudioBtn.title = label;
+  }
+  if (pluralText) showFlashcardPluralRow(pluralText, pluralAudioSrc);
 }
 
 function playCardAudio(src, button) {
@@ -5096,6 +5137,7 @@ function renderVerbCard() {
     );
   } else {
     elements.word.textContent = stage.value;
+    setFlashcardAudioButton(elements.wordAudioBtn, null);
   }
   elements.translation.textContent = `Tulkojums: ${stage.translation}`;
   elements.hint.textContent = state.reviewLastSession
@@ -5140,6 +5182,7 @@ function clearStudyCard() {
   cardElement?.classList.remove("has-study-card");
   cardElement?.classList.remove("has-rich-study-card");
   if (cardElement) delete cardElement.dataset.studyLayout;
+  resetFlashcardAudioControls();
   if (elements.cardStudyExtra) {
     elements.cardStudyExtra.hidden = true;
     elements.cardStudyExtra.innerHTML = "";
@@ -5164,6 +5207,7 @@ function renderStudyCard(card) {
    * - Kartītei jāpalīdz saprast nozīmes atšķirības, ne tikai iegaumēt tulkojumu.
    */
 
+  resetFlashcardAudioControls();
   const isGermanToLatvian = state.direction === "de-lv";
   const germanText = formatGermanEntry(card);
   const frontText = isComparisonStudy
@@ -5187,13 +5231,17 @@ function renderStudyCard(card) {
   if (!state.revealed) {
     elements.translation.textContent = "";
   } else if (isComparisonStudy || isGermanToLatvian) {
-    let html = `<span class="translation-main">${escapeHtml(backText)}</span>`;
-    if (!isComparisonStudy && pluralText) html += renderCardPluralRow(pluralText, pluralAudioSrc);
-    elements.translation.innerHTML = html;
+    elements.translation.textContent = backText;
+    if (!isComparisonStudy && pluralText) showFlashcardPluralRow(pluralText, pluralAudioSrc);
   } else {
-    let html = wordLineHtml(backText, singularAudioSrc, `Klausīties: ${germanText}`);
-    if (pluralText) html += renderCardPluralRow(pluralText, pluralAudioSrc);
-    elements.translation.innerHTML = html;
+    elements.translation.textContent = backText;
+    setFlashcardAudioButton(elements.translationAudioBtn, singularAudioSrc);
+    if (elements.translationAudioBtn && singularAudioSrc) {
+      const label = `Klausīties: ${germanText}`;
+      elements.translationAudioBtn.setAttribute("aria-label", label);
+      elements.translationAudioBtn.title = label;
+    }
+    if (pluralText) showFlashcardPluralRow(pluralText, pluralAudioSrc);
   }
   elements.hint.textContent = state.revealed
     ? ""
@@ -5763,7 +5811,7 @@ elements.pamatiPanel.addEventListener("click", (event) => {
   if (event.target === elements.pamatiPanel) closePamati();
 });
 document.querySelector(".card")?.addEventListener("click", (event) => {
-  const audioBtn = event.target.closest("[data-audio-src]");
+  const audioBtn = event.target.closest(".flashcard-audio-btn, [data-audio-src]");
   if (audioBtn) {
     event.preventDefault();
     event.stopPropagation();

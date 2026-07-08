@@ -169,8 +169,37 @@
             </svg>
           </button>
           <div class="badge" id="cardLevel">A1</div>
-          <h2 class="word" id="word">-</h2>
-          <div class="translation" id="translation"></div>
+          <div class="flashcard-word-row" id="flashcardWordRow">
+            <h2 class="word" id="word">-</h2>
+            <button type="button" class="flashcard-audio-btn" id="wordAudioBtn" hidden aria-label="Klausīties izrunu" title="Klausīties izrunu">
+              <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
+              </svg>
+            </button>
+          </div>
+          <div class="flashcard-translation-row" id="flashcardTranslationRow">
+            <div class="translation" id="translation"></div>
+            <button type="button" class="flashcard-audio-btn flashcard-audio-btn-translation" id="translationAudioBtn" hidden aria-label="Klausīties izrunu" title="Klausīties izrunu">
+              <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
+              </svg>
+            </button>
+          </div>
+          <div class="flashcard-plural-row" id="flashcardPluralRow" hidden>
+            <span class="flashcard-plural-label">Daudzsk.</span>
+            <span class="flashcard-plural-text" id="flashcardPluralText"></span>
+            <button type="button" class="flashcard-audio-btn flashcard-audio-btn-plural" id="pluralAudioBtn" hidden aria-label="Klausīties daudzskaitli" title="Klausīties daudzskaitli">
+              <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
+              </svg>
+            </button>
+          </div>
           <div class="card-study-extra" id="cardStudyExtra" hidden></div>
           <div class="hint" id="hint">Klikšķini uz kartītes, lai redzētu tulkojumu.</div>
           <div class="session-complete-overlay" id="sessionCompleteOverlay" hidden>
