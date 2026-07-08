@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // tools/generateAudio.js
-// Ģenerē vācu izrunu MP3 failus A1 pamatvārdiem, izmantojot OpenAI TTS.
-// Palaist: OPENAI_API_KEY=... node tools/generateAudio.js
+// Ģenerē vācu izrunu MP3 failus pamatvārdiem, izmantojot OpenAI TTS.
+// Palaist: node tools/generateAudio.js [A1|A2|...]
 
 const fs = require("fs");
 const path = require("path");
@@ -9,7 +9,9 @@ const vm = require("vm");
 const OpenAI = require("openai");
 
 const ROOT = path.join(__dirname, "..");
-const DATA_FILE = path.join(ROOT, "data", "a1.js");
+const LEVEL = (process.argv[2] || "A1").toUpperCase();
+const DATA_FILE = path.join(ROOT, "data", `${LEVEL.toLowerCase()}.js`);
+const WORDS_KEY = `${LEVEL}_WORDS`;
 const AUDIO_DIR = path.join(ROOT, "public", "audio");
 
 const MODEL = "tts-1-hd";
@@ -32,13 +34,15 @@ function loadEnvFile() {
   }
 }
 
-function loadA1Words() {
+function loadWords() {
   const win = {};
   const ctx = vm.createContext({ window: win, console });
-  vm.runInContext(fs.readFileSync(DATA_FILE, "utf8"), ctx, { filename: "a1.js" });
-  const words = win.A1_WORDS;
+  vm.runInContext(fs.readFileSync(DATA_FILE, "utf8"), ctx, {
+    filename: `${LEVEL.toLowerCase()}.js`,
+  });
+  const words = win[WORDS_KEY];
   if (!Array.isArray(words)) {
-    throw new Error("A1_WORDS nav atrasts data/a1.js");
+    throw new Error(`${WORDS_KEY} nav atrasts ${DATA_FILE}`);
   }
   return words;
 }
@@ -116,10 +120,10 @@ async function main() {
 
   fs.mkdirSync(AUDIO_DIR, { recursive: true });
 
-  const words = loadA1Words();
+  const words = loadWords();
   const jobs = words.flatMap((entry) => buildJobs(entry));
 
-  console.log(`A1 vārdi: ${words.length}`);
+  console.log(`${LEVEL} vārdi: ${words.length}`);
   console.log(`Audio faili ģenerēšanai: ${jobs.length}`);
   console.log(`Modelis: ${MODEL}, balss: ${VOICE}`);
   console.log(`Mape: ${AUDIO_DIR}\n`);
