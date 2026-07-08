@@ -3729,12 +3729,22 @@
 }
 
 
-/* Atz─½m─ôt k─ü nevajadz─½gu ÔÇö neuzkr─½to┼ía p─ürsv─½trotas acs ikona kart─½tes st┼½r─½ */
-.card-unwanted-btn {
+/* Atzīmēt kā nevajadzīgu — acs ikona un automātiskās izrunas poga kartītes stūrī */
+.card-corner-controls {
   position: absolute;
-  top: 20px !important;
-  right: 20px !important;
+  top: 20px;
+  right: 20px;
   z-index: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.card-unwanted-btn {
+  position: static;
+  top: auto;
+  right: auto;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -3748,6 +3758,70 @@
   opacity: 0.75 !important;
   cursor: pointer;
   transition: all 0.2s ease;
+}
+
+.card-autoplay-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border-radius: 50%;
+  border: 2px solid #22c55e;
+  background: rgba(34, 197, 94, 0.18);
+  color: #4ade80;
+  cursor: pointer;
+  box-shadow: 0 6px 18px rgba(34, 197, 94, 0.22);
+  transition: transform 0.15s ease, background 0.15s ease, border-color 0.15s ease, color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.card-autoplay-btn svg {
+  width: 18px;
+  height: 18px;
+  pointer-events: none;
+}
+
+.card-autoplay-btn.is-enabled:hover,
+.card-autoplay-btn.is-enabled:focus-visible {
+  background: rgba(34, 197, 94, 0.3);
+  border-color: #86efac;
+  color: #dcfce7;
+  outline: none;
+  transform: scale(1.06);
+}
+
+.card-autoplay-btn.is-disabled {
+  border-color: #ef4444;
+  background: rgba(239, 68, 68, 0.16);
+  color: #f87171;
+  box-shadow: 0 6px 18px rgba(239, 68, 68, 0.18);
+}
+
+.card-autoplay-btn.is-disabled::after {
+  content: "";
+  position: absolute;
+  left: 7px;
+  right: 7px;
+  top: 50%;
+  height: 2px;
+  background: #ef4444;
+  border-radius: 999px;
+  transform: rotate(-45deg);
+  pointer-events: none;
+}
+
+.card-autoplay-btn.is-disabled:hover,
+.card-autoplay-btn.is-disabled:focus-visible {
+  background: rgba(239, 68, 68, 0.24);
+  border-color: #fca5a5;
+  color: #fecaca;
+  outline: none;
+}
+
+.card-autoplay-btn[hidden] {
+  display: none !important;
 }
 
 .card-unwanted-btn svg {
@@ -3772,7 +3846,14 @@
 }
 
 @media (max-width: 768px) {
-  .card-unwanted-btn {
+  .card-corner-controls {
+    top: 14px;
+    right: 14px;
+    gap: 8px;
+  }
+
+  .card-unwanted-btn,
+  .card-autoplay-btn {
     width: 34px;
     height: 34px;
   }
@@ -6930,68 +7011,19 @@ main,
   color: #e2e8f0;
 }
 
-/* Flashcard audio controls — prominent speaker next to the main word */
+/* Flashcard plural audio + layout helpers */
 .flashcard-word-row,
 .flashcard-translation-row {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: clamp(12px, 3vw, 20px);
   width: 100%;
-  flex-wrap: wrap;
 }
 
 .flashcard-word-row .word {
   margin: 0;
   flex: 0 1 auto;
-  max-width: calc(100% - 72px);
-}
-
-.flashcard-translation-row .translation {
-  flex: 0 1 auto;
-  max-width: calc(100% - 72px);
-}
-
-.flashcard-audio-btn {
-  flex: 0 0 auto;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: clamp(52px, 12vw, 64px);
-  height: clamp(52px, 12vw, 64px);
-  padding: 0;
-  border: 2px solid #7cc8ff;
-  border-radius: 50%;
-  background: linear-gradient(145deg, rgba(85, 184, 255, 0.42), rgba(31, 111, 235, 0.32));
-  color: #ffffff;
-  cursor: pointer;
-  box-shadow: 0 10px 28px rgba(31, 111, 235, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.18);
-  transition: transform 0.15s ease, background 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
-}
-
-.flashcard-audio-btn svg {
-  width: clamp(24px, 5.5vw, 30px);
-  height: clamp(24px, 5.5vw, 30px);
-  pointer-events: none;
-}
-
-.flashcard-audio-btn:hover,
-.flashcard-audio-btn:focus-visible {
-  background: linear-gradient(145deg, rgba(124, 200, 255, 0.55), rgba(31, 111, 235, 0.45));
-  border-color: #ffffff;
-  outline: none;
-  transform: scale(1.06);
-  box-shadow: 0 12px 32px rgba(31, 111, 235, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.24);
-}
-
-.flashcard-audio-btn.is-playing {
-  background: linear-gradient(145deg, #55b8ff, #1f6feb);
-  border-color: #ffffff;
-  transform: scale(1.08);
-}
-
-.flashcard-audio-btn[hidden] {
-  display: none !important;
+  max-width: 100%;
 }
 
 .flashcard-plural-row {
@@ -7023,17 +7055,33 @@ main,
 }
 
 .flashcard-audio-btn-plural {
-  width: clamp(44px, 10vw, 52px);
-  height: clamp(44px, 10vw, 52px);
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 2px solid #7cc8ff;
+  border-radius: 50%;
+  background: rgba(85, 184, 255, 0.16);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.flashcard-audio-btn-plural svg {
+  width: 20px;
+  height: 20px;
+  pointer-events: none;
+}
+
+.flashcard-audio-btn-plural[hidden] {
+  display: none !important;
 }
 
 @media (max-width: 768px) {
   .flashcard-word-row,
   .flashcard-translation-row {
     gap: 10px;
-  }
-
-  .flashcard-word-row .word {
-    max-width: calc(100% - 62px);
   }
 }

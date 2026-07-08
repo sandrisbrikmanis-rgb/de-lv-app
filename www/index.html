@@ -161,17 +161,15 @@
 
       <article class="card">
         <div class="card-inner">
-          <button type="button" class="card-unwanted-btn" id="cardUnwantedBtn" aria-label="Nevajadzīgie vārdi" title="Atzīmēt kā nevajadzīgu">
-            <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7z"></path>
-              <circle cx="12" cy="12" r="3"></circle>
-              <line x1="3" y1="3" x2="21" y2="21"></line>
-            </svg>
-          </button>
-          <div class="badge" id="cardLevel">A1</div>
-          <div class="flashcard-word-row" id="flashcardWordRow">
-            <h2 class="word" id="word">-</h2>
-            <button type="button" class="flashcard-audio-btn" id="wordAudioBtn" hidden aria-label="Klausīties izrunu" title="Klausīties izrunu">
+          <div class="card-corner-controls">
+            <button type="button" class="card-unwanted-btn" id="cardUnwantedBtn" aria-label="Nevajadzīgie vārdi" title="Atzīmēt kā nevajadzīgu">
+              <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7z"></path>
+                <circle cx="12" cy="12" r="3"></circle>
+                <line x1="3" y1="3" x2="21" y2="21"></line>
+              </svg>
+            </button>
+            <button type="button" class="card-autoplay-btn is-enabled" id="cardAutoplayBtn" hidden aria-label="Automātiska izruna ieslēgta" aria-pressed="true" title="Izslēgt automātisko izrunu">
               <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
                 <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
@@ -179,15 +177,12 @@
               </svg>
             </button>
           </div>
+          <div class="badge" id="cardLevel">A1</div>
+          <div class="flashcard-word-row" id="flashcardWordRow">
+            <h2 class="word" id="word">-</h2>
+          </div>
           <div class="flashcard-translation-row" id="flashcardTranslationRow">
             <div class="translation" id="translation"></div>
-            <button type="button" class="flashcard-audio-btn flashcard-audio-btn-translation" id="translationAudioBtn" hidden aria-label="Klausīties izrunu" title="Klausīties izrunu">
-              <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
-                <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
-                <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
-              </svg>
-            </button>
           </div>
           <div class="flashcard-plural-row" id="flashcardPluralRow" hidden>
             <span class="flashcard-plural-label">Daudzsk.</span>

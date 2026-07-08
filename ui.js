@@ -138,6 +138,7 @@ window.getSentenceEntries = getSentenceEntries;
 const cooldownDays = [1, 3, 7, 14, 30];
 const storageKey = "deLvFlashcardsProgress";
 const directionStorageKey = "deLvFlashcardsDirection";
+const audioAutoplayStorageKey = "deLvAudioAutoplay";
 const modeStorageKey = "deLvFlashcardsMode";
 const reviewStorageKey = "deLvFlashcardsReviewStatus";
 const sessionStorageKey = "deLvFlashcardsSession";
@@ -185,7 +186,8 @@ const state = {
   masteredIds: loadMasteredIds(),
   studyTestCard: null,
   order: {},
-  learned: loadProgress()
+  learned: loadProgress(),
+  audioAutoplay: loadAudioAutoplay()
 };
 
 let spellingAutoNextTimer = null;
@@ -198,11 +200,10 @@ const elements = {
   learnedWords: document.getElementById("learnedWords"),
   cardLevel: document.getElementById("cardLevel"),
   word: document.getElementById("word"),
-  wordAudioBtn: document.getElementById("wordAudioBtn"),
+  cardAutoplayBtn: document.getElementById("cardAutoplayBtn"),
   flashcardPluralRow: document.getElementById("flashcardPluralRow"),
   flashcardPluralText: document.getElementById("flashcardPluralText"),
   pluralAudioBtn: document.getElementById("pluralAudioBtn"),
-  translationAudioBtn: document.getElementById("translationAudioBtn"),
   translation: document.getElementById("translation"),
   cardStudyExtra: document.getElementById("cardStudyExtra"),
   sessionCompleteOverlay: document.getElementById("sessionCompleteOverlay"),
@@ -2229,6 +2230,14 @@ function loadDirection() {
   return saved === "lv-de" ? "lv-de" : "de-lv";
 }
 
+function loadAudioAutoplay() {
+  return store.getItem(audioAutoplayStorageKey) !== "0";
+}
+
+function saveAudioAutoplay() {
+  store.setItem(audioAutoplayStorageKey, state.audioAutoplay ? "1" : "0");
+}
+
 function saveDirection() {
   store.setItem(directionStorageKey, state.direction);
 }
@@ -3691,6 +3700,8 @@ function formatGermanEntry(entry) {
 
 let activeCardAudio = null;
 let activeCardAudioBtn = null;
+let currentPrimaryAudioSrc = null;
+let lastAutoplayedCardKey = null;
 
 function getAudioBasePath() {
   const path = window.location.pathname || "/";
@@ -3751,11 +3762,60 @@ function setFlashcardAudioButton(button, src) {
 }
 
 function resetFlashcardAudioControls() {
-  setFlashcardAudioButton(elements.wordAudioBtn, null);
-  setFlashcardAudioButton(elements.translationAudioBtn, null);
+  currentPrimaryAudioSrc = null;
   setFlashcardAudioButton(elements.pluralAudioBtn, null);
+  if (elements.cardAutoplayBtn) elements.cardAutoplayBtn.hidden = true;
   if (elements.flashcardPluralRow) elements.flashcardPluralRow.hidden = true;
   if (elements.flashcardPluralText) elements.flashcardPluralText.textContent = "";
+}
+
+function setPrimaryCardAudio(src, label) {
+  currentPrimaryAudioSrc = src || null;
+  const btn = elements.cardAutoplayBtn;
+  if (!btn) return;
+  btn.hidden = !src || state.verbMode;
+  if (!src) return;
+  btn.dataset.audioLabel = label || "Automātiska izruna";
+  updateAutoplayButtonUI();
+}
+
+function updateAutoplayButtonUI() {
+  const btn = elements.cardAutoplayBtn;
+  if (!btn || btn.hidden) return;
+  const baseLabel = btn.dataset.audioLabel || "Automātiska izruna";
+  btn.classList.toggle("is-enabled", state.audioAutoplay);
+  btn.classList.toggle("is-disabled", !state.audioAutoplay);
+  btn.setAttribute("aria-pressed", state.audioAutoplay ? "true" : "false");
+  btn.title = state.audioAutoplay ? "Izslēgt automātisko izrunu" : "Ieslēgt automātisko izrunu";
+  btn.setAttribute(
+    "aria-label",
+    state.audioAutoplay ? `${baseLabel} (automātiski ieslēgts)` : `${baseLabel} (automātiski izslēgts)`
+  );
+}
+
+function cardAutoplayKey(card) {
+  if (!card) return null;
+  return card.id || `${card.level || ""}:${card.de || ""}:${card.lv || ""}`;
+}
+
+function scheduleCardAutoplay(card) {
+  if (!state.audioAutoplay || !currentPrimaryAudioSrc || !card) return;
+  const key = cardAutoplayKey(card);
+  if (!key || key === lastAutoplayedCardKey) return;
+  lastAutoplayedCardKey = key;
+  playCardAudio(currentPrimaryAudioSrc, null);
+}
+
+function toggleAudioAutoplay() {
+  state.audioAutoplay = !state.audioAutoplay;
+  saveAudioAutoplay();
+  updateAutoplayButtonUI();
+  if (activeCardAudio && !activeCardAudio.paused) {
+    activeCardAudio.pause();
+    activeCardAudioBtn?.classList.remove("is-playing");
+    activeCardAudio = null;
+    activeCardAudioBtn = null;
+  }
 }
 
 function showFlashcardPluralRow(text, audioSrc) {
@@ -3774,24 +3834,6 @@ function a1AudioForBareWord(de) {
   return entry ? a1AudioSrc(a1SingularAudioFile(entry)) : null;
 }
 
-function renderCardTextLine(element, text, audioSrc, audioLabel) {
-  if (!element) return;
-  element.textContent = text;
-  if (element === elements.word) {
-    setFlashcardAudioButton(elements.wordAudioBtn, audioSrc);
-    if (elements.wordAudioBtn && audioSrc) {
-      elements.wordAudioBtn.setAttribute("aria-label", audioLabel);
-      elements.wordAudioBtn.title = audioLabel;
-    }
-    return;
-  }
-  element.textContent = text;
-}
-
-function renderCardPluralRow(pluralText, audioSrc) {
-  showFlashcardPluralRow(pluralText, audioSrc);
-}
-
 function renderWordCardContent(card) {
   resetFlashcardAudioControls();
   const isDeFront = state.direction === "de-lv";
@@ -3802,31 +3844,19 @@ function renderWordCardContent(card) {
   const singularAudioSrc = a1AudioSrc(a1SingularAudioFile(card));
   const pluralAudioSrc = a1AudioSrc(a1PluralAudioFile(card));
 
-  if (isDeFront) {
-    renderCardTextLine(elements.word, frontText, singularAudioSrc, `Klausīties: ${germanText}`);
-  } else {
-    elements.word.textContent = frontText;
-  }
+  elements.word.textContent = frontText;
+  setPrimaryCardAudio(singularAudioSrc, `Klausīties: ${germanText}`);
 
   if (!state.revealed) {
     elements.translation.textContent = "";
-    return;
-  }
-
-  if (isDeFront) {
+  } else if (isDeFront) {
     elements.translation.textContent = backText;
     if (pluralText) showFlashcardPluralRow(pluralText, pluralAudioSrc);
-    return;
+  } else {
+    elements.translation.textContent = backText;
+    if (pluralText) showFlashcardPluralRow(pluralText, pluralAudioSrc);
   }
-
-  elements.translation.textContent = backText;
-  setFlashcardAudioButton(elements.translationAudioBtn, singularAudioSrc);
-  if (elements.translationAudioBtn && singularAudioSrc) {
-    const label = `Klausīties: ${germanText}`;
-    elements.translationAudioBtn.setAttribute("aria-label", label);
-    elements.translationAudioBtn.title = label;
-  }
-  if (pluralText) showFlashcardPluralRow(pluralText, pluralAudioSrc);
+  scheduleCardAutoplay(card);
 }
 
 function playCardAudio(src, button) {
@@ -4996,6 +5026,7 @@ function renderModeButtons() {
   elements.markMasteredBtn.style.display = "none";
   elements.markUnwantedBtn.hidden = state.verbMode;
   if (elements.cardUnwantedBtn) elements.cardUnwantedBtn.hidden = state.verbMode;
+  if (elements.cardAutoplayBtn) elements.cardAutoplayBtn.hidden = state.verbMode;
   elements.unwantedListBtn.hidden = state.verbMode;
   for (const [mode, config] of Object.entries(sessionModes)) {
     const button = document.createElement("button");
@@ -5128,17 +5159,8 @@ function renderVerbCard() {
   elements.cardLevel.innerHTML = stages
     .map((item) => `<span class="${item.label === stage.label ? "active" : ""}">${item.buttonLabel}</span>`)
     .join("");
-  if (stage.label === "Infinitiv") {
-    renderCardTextLine(
-      elements.word,
-      stage.value,
-      a1AudioForBareWord(stage.value),
-      `Klausīties: ${stripGermanArticle(stage.value)}`
-    );
-  } else {
-    elements.word.textContent = stage.value;
-    setFlashcardAudioButton(elements.wordAudioBtn, null);
-  }
+  elements.word.textContent = stage.value;
+  setPrimaryCardAudio(null);
   elements.translation.textContent = `Tulkojums: ${stage.translation}`;
   elements.hint.textContent = state.reviewLastSession
     ? `Pēdējā sesija: ${Math.min(lastSessionReviewDoneCount() + 1, lastSessionReviewTotalCount())} / ${lastSessionReviewTotalCount()}. Klikšķini uz kartītes, lai pārslēgtu formu.`
@@ -5222,26 +5244,22 @@ function renderStudyCard(card) {
   const pluralText = card.de_plural ? String(card.de_plural).trim() : "";
   const pluralAudioSrc = a1AudioSrc(a1PluralAudioFile(card));
 
-  if (isGermanToLatvian && !isComparisonStudy) {
-    renderCardTextLine(elements.word, frontText, singularAudioSrc, `Klausīties: ${germanText}`);
-  } else {
-    elements.word.textContent = frontText;
+  elements.word.textContent = frontText;
+  if (!isComparisonStudy) {
+    setPrimaryCardAudio(singularAudioSrc, `Klausīties: ${germanText}`);
   }
 
   if (!state.revealed) {
     elements.translation.textContent = "";
+    if (!isComparisonStudy) scheduleCardAutoplay(card);
   } else if (isComparisonStudy || isGermanToLatvian) {
     elements.translation.textContent = backText;
     if (!isComparisonStudy && pluralText) showFlashcardPluralRow(pluralText, pluralAudioSrc);
+    if (!isComparisonStudy) scheduleCardAutoplay(card);
   } else {
     elements.translation.textContent = backText;
-    setFlashcardAudioButton(elements.translationAudioBtn, singularAudioSrc);
-    if (elements.translationAudioBtn && singularAudioSrc) {
-      const label = `Klausīties: ${germanText}`;
-      elements.translationAudioBtn.setAttribute("aria-label", label);
-      elements.translationAudioBtn.title = label;
-    }
     if (pluralText) showFlashcardPluralRow(pluralText, pluralAudioSrc);
+    scheduleCardAutoplay(card);
   }
   elements.hint.textContent = state.revealed
     ? ""
@@ -5811,7 +5829,10 @@ elements.pamatiPanel.addEventListener("click", (event) => {
   if (event.target === elements.pamatiPanel) closePamati();
 });
 document.querySelector(".card")?.addEventListener("click", (event) => {
-  const audioBtn = event.target.closest(".flashcard-audio-btn, [data-audio-src]");
+  if (event.target.closest("#cardAutoplayBtn, .card-autoplay-btn")) {
+    return;
+  }
+  const audioBtn = event.target.closest(".flashcard-audio-btn-plural, [data-audio-src]");
   if (audioBtn) {
     event.preventDefault();
     event.stopPropagation();
@@ -5853,6 +5874,13 @@ if (elements.cardUnwantedBtn) {
   elements.cardUnwantedBtn.addEventListener("click", (event) => {
     event.stopPropagation();
     markCurrentUnwanted();
+  });
+}
+if (elements.cardAutoplayBtn) {
+  elements.cardAutoplayBtn.addEventListener("click", (event) => {
+    event.preventDefault();
+    event.stopPropagation();
+    toggleAudioAutoplay();
   });
 }
 elements.masteredListBtn.addEventListener("click", openKnownList);
