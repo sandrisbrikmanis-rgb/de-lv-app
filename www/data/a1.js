@@ -15964,9 +15964,9 @@ const A1_WORDS = [
     "level": "A1"
   },
     {
-    "de": "Sonnabend",
+    "de": "Samstag",
     "de_article": "der",
-    "de_plural": "die Sonnabende",
+    "de_plural": "die Samstage",
     "lv": "sestdiena",
     "level": "A1"
   },
