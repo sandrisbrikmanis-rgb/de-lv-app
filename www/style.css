@@ -7017,20 +7017,47 @@ main,
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 12px;
-  flex-wrap: wrap;
   width: 100%;
 }
 
-.flashcard-word-row .word {
-  margin: 0;
-  flex: 0 1 auto;
+.flashcard-german-line {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: nowrap;
   max-width: 100%;
 }
 
-.flashcard-translation-row .translation {
-  flex: 0 1 auto;
+.flashcard-german-line .word,
+.flashcard-german-line .translation {
+  width: auto !important;
   max-width: 100%;
+  flex: 0 1 auto;
+  display: block;
+  margin: 0;
+  min-height: 0;
+  padding-top: 0;
+  border-top: none;
+}
+
+.flashcard-german-line .word {
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  gap: 0;
+}
+
+.card:not(:has(.verb-headings)) .flashcard-german-line .word,
+.card:not(:has(.verb-headings)) .flashcard-german-line .translation {
+  width: auto !important;
+  padding-top: 0;
+  border-top: none;
+}
+
+.card:not(:has(.verb-headings)) .flashcard-translation-row:not(:has(.translation:empty)) {
+  width: 100%;
+  padding-top: 18px;
+  border-top: 1px solid rgba(184, 193, 206, 0.35);
 }
 
 .flashcard-plural-row {
@@ -7063,6 +7090,7 @@ main,
 
 .flashcard-audio-btn {
   flex: 0 0 auto;
+  flex-shrink: 0;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -7101,8 +7129,11 @@ main,
 }
 
 @media (max-width: 768px) {
-  .flashcard-word-row,
-  .flashcard-translation-row {
+  .card:not(:has(.verb-headings)) .flashcard-translation-row:not(:has(.translation:empty)) {
+    padding-top: 14px;
+  }
+
+  .flashcard-german-line {
     gap: 10px;
   }
 }
