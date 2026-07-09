@@ -72,6 +72,14 @@ function sanitizeFilename(text) {
     .replace(/[/\\:*?"<>|]/g, "");
 }
 
+function buildAudioFilename(...parts) {
+  const stem = parts
+    .map((part) => sanitizeFilename(part))
+    .filter(Boolean)
+    .join("_");
+  return `${stem}.mp3`.toLowerCase();
+}
+
 function capitalizeGermanWord(word) {
   const trimmed = String(word || "").trim();
   if (!trimmed) return "";
@@ -92,7 +100,7 @@ function buildJobs(entry) {
   if (IS_SENTENCES) {
     jobs.push({
       text: de,
-      filename: `${sanitizeFilename(de)}.mp3`,
+      filename: buildAudioFilename(de),
     });
     return jobs;
   }
@@ -102,12 +110,12 @@ function buildJobs(entry) {
   if (article) {
     jobs.push({
       text: buildSpeechInput(article, de),
-      filename: `${sanitizeFilename(article)}_${sanitizeFilename(de)}.mp3`,
+      filename: buildAudioFilename(article, de),
     });
   } else {
     jobs.push({
       text: capitalizeGermanWord(de),
-      filename: `${sanitizeFilename(de)}.mp3`,
+      filename: buildAudioFilename(de),
     });
   }
 
@@ -115,7 +123,7 @@ function buildJobs(entry) {
     const pluralText = String(entry.de_plural).trim();
     jobs.push({
       text: pluralText,
-      filename: `plural_${sanitizeFilename(pluralText)}.mp3`,
+      filename: buildAudioFilename("plural", pluralText),
     });
   }
 
@@ -170,14 +178,15 @@ async function main() {
 
   for (let i = 0; i < jobs.length; i++) {
     const job = jobs[i];
-    const outputPath = path.join(AUDIO_DIR, job.filename);
+    const filename = String(job.filename || "").toLowerCase();
+    const outputPath = path.join(AUDIO_DIR, filename);
 
     if (fs.existsSync(outputPath) && !FORCE) {
       skipped++;
       continue;
     }
 
-    process.stdout.write(`[${i + 1}/${jobs.length}] ${job.filename} … `);
+    process.stdout.write(`[${i + 1}/${jobs.length}] ${filename} … `);
 
     try {
       await generateSpeech(client, job.text, outputPath);
