@@ -72,6 +72,18 @@ function sanitizeFilename(text) {
     .replace(/[/\\:*?"<>|]/g, "");
 }
 
+function capitalizeGermanWord(word) {
+  const trimmed = String(word || "").trim();
+  if (!trimmed) return "";
+  return trimmed.charAt(0).toUpperCase() + trimmed.slice(1);
+}
+
+function buildSpeechInput(article, noun) {
+  const art = String(article || "").trim().toLowerCase();
+  const word = capitalizeGermanWord(noun);
+  return art ? `${art} ${word}` : word;
+}
+
 function buildJobs(entry) {
   const jobs = [];
   const de = String(entry.de || "").trim();
@@ -85,16 +97,16 @@ function buildJobs(entry) {
     return jobs;
   }
 
-  const article = entry.de_article ? String(entry.de_article).trim().toLowerCase() : null;
+  const article = entry.de_article ? String(entry.de_article).trim() : null;
 
   if (article) {
     jobs.push({
-      text: `${article} ${de}`,
-      filename: `${article}_${sanitizeFilename(de)}.mp3`,
+      text: buildSpeechInput(article, de),
+      filename: `${sanitizeFilename(article)}_${sanitizeFilename(de)}.mp3`,
     });
   } else {
     jobs.push({
-      text: de,
+      text: capitalizeGermanWord(de),
       filename: `${sanitizeFilename(de)}.mp3`,
     });
   }
