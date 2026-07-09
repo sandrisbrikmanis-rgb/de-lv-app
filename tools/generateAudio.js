@@ -61,9 +61,9 @@ function loadWords() {
 function sanitizeFilename(text) {
   return String(text || "")
     .trim()
+    .toLowerCase()
     .replace(/\s+/g, "_")
-    .replace(/[/\\:*?"<>|]/g, "")
-    .toLowerCase();
+    .replace(/[/\\:*?"<>|]/g, "");
 }
 
 function parseArticlePrefix(text) {

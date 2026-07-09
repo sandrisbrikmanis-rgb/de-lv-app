@@ -3718,9 +3718,9 @@ function getAudioBasePath() {
 function sanitizeAudioFilename(text) {
   return String(text || "")
     .trim()
+    .toLowerCase()
     .replace(/\s+/g, "_")
-    .replace(/[/\\:*?"<>|]/g, "")
-    .toLowerCase();
+    .replace(/[/\\:*?"<>|]/g, "");
 }
 
 function parsePluralArticle(dePlural) {
