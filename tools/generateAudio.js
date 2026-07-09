@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // tools/generateAudio.js
 // Ģenerē vācu izrunu MP3 failus pamatvārdiem, izmantojot OpenAI TTS.
-// Palaist: node tools/generateAudio.js [A1|A2|...|sentences|Sätze]
+// Palaist: node tools/generateAudio.js [A1|A2|...|sentences|Sätze] [--only=Vase] [--force]
 
 const fs = require("fs");
 const path = require("path");
@@ -9,7 +9,13 @@ const vm = require("vm");
 const OpenAI = require("openai");
 
 const ROOT = path.join(__dirname, "..");
-const RAW_LEVEL = (process.argv[2] || "A1").trim();
+const ARGS = process.argv.slice(2);
+const ONLY_WORD = (() => {
+  const match = ARGS.find((arg) => arg.startsWith("--only="));
+  return match ? match.slice("--only=".length).trim().toLowerCase() : "";
+})();
+const FORCE = ARGS.includes("--force");
+const RAW_LEVEL = (ARGS.find((arg) => !arg.startsWith("--")) || "A1").trim();
 const LEVEL_ALIASES = {
   sentences: "SENTENCES",
   sentence: "SENTENCES",
@@ -66,14 +72,6 @@ function sanitizeFilename(text) {
     .replace(/[/\\:*?"<>|]/g, "");
 }
 
-function parseArticlePrefix(text) {
-  const match = String(text || "")
-    .trim()
-    .match(/^(der|die|das)\s+(.+)$/i);
-  if (!match) return null;
-  return { article: match[1].toLowerCase(), rest: match[2] };
-}
-
 function buildJobs(entry) {
   const jobs = [];
   const de = String(entry.de || "").trim();
@@ -103,11 +101,9 @@ function buildJobs(entry) {
 
   if (entry.de_plural) {
     const pluralText = String(entry.de_plural).trim();
-    const parsed = parseArticlePrefix(pluralText);
-    const pluralArticle = parsed ? parsed.article : "die";
     jobs.push({
       text: pluralText,
-      filename: `plural_${pluralArticle}_${sanitizeFilename(de)}.mp3`,
+      filename: `plural_${sanitizeFilename(pluralText)}.mp3`,
     });
   }
 
@@ -140,7 +136,13 @@ async function main() {
 
   fs.mkdirSync(AUDIO_DIR, { recursive: true });
 
-  const words = loadWords();
+  const words = loadWords().filter((entry) => {
+    if (!ONLY_WORD) return true;
+    return String(entry.de || "").trim().toLowerCase() === ONLY_WORD;
+  });
+  if (ONLY_WORD && !words.length) {
+    throw new Error(`Nav atrasts vārds "${ONLY_WORD}" ${DATA_FILE}`);
+  }
   const jobs = words.flatMap((entry) => buildJobs(entry));
 
   console.log(`${IS_SENTENCES ? "Teikumi" : LEVEL} ieraksti: ${words.length}`);
@@ -158,7 +160,7 @@ async function main() {
     const job = jobs[i];
     const outputPath = path.join(AUDIO_DIR, job.filename);
 
-    if (fs.existsSync(outputPath)) {
+    if (fs.existsSync(outputPath) && !FORCE) {
       skipped++;
       continue;
     }

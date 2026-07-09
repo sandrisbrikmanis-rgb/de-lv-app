@@ -3723,13 +3723,6 @@ function sanitizeAudioFilename(text) {
     .replace(/[/\\:*?"<>|]/g, "");
 }
 
-function parsePluralArticle(dePlural) {
-  const match = String(dePlural || "")
-    .trim()
-    .match(/^(der|die|das)\s+/i);
-  return match ? match[1].toLowerCase() : "die";
-}
-
 const CARD_AUDIO_LEVELS = new Set(["A1", "A2", "B1", "B2", "C1", "C2", "Sätze"]);
 
 function a1SingularAudioFile(entry) {
@@ -3748,9 +3741,9 @@ function a1SingularAudioFile(entry) {
 
 function a1PluralAudioFile(entry) {
   if (!entry || !CARD_AUDIO_LEVELS.has(entry.level) || entry.level === "Sätze" || !entry.de_plural) return null;
-  const de = String(entry.de || "").trim();
-  if (!de) return null;
-  return `plural_${parsePluralArticle(entry.de_plural)}_${sanitizeAudioFilename(de)}.mp3`;
+  const dePlural = String(entry.de_plural || "").trim();
+  if (!dePlural) return null;
+  return `plural_${sanitizeAudioFilename(dePlural)}.mp3`;
 }
 
 function a1AudioSrc(filename) {
