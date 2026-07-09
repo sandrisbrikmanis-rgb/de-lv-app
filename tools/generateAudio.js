@@ -62,7 +62,8 @@ function sanitizeFilename(text) {
   return String(text || "")
     .trim()
     .replace(/\s+/g, "_")
-    .replace(/[/\\:*?"<>|]/g, "");
+    .replace(/[/\\:*?"<>|]/g, "")
+    .toLowerCase();
 }
 
 function parseArticlePrefix(text) {

@@ -3719,7 +3719,8 @@ function sanitizeAudioFilename(text) {
   return String(text || "")
     .trim()
     .replace(/\s+/g, "_")
-    .replace(/[/\\:*?"<>|]/g, "");
+    .replace(/[/\\:*?"<>|]/g, "")
+    .toLowerCase();
 }
 
 function parsePluralArticle(dePlural) {
