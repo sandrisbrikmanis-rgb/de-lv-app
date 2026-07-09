@@ -180,24 +180,28 @@
           <div class="badge" id="cardLevel">A1</div>
           <div class="flashcard-word-row" id="flashcardWordRow">
             <h2 class="word" id="word">-</h2>
-          </div>
-          <div class="flashcard-replay-row" id="flashcardReplayRow">
-            <button type="button" class="card-replay-btn" id="cardReplayBtn" hidden aria-label="Klausīties atkārtoti" title="Klausīties atkārtoti">
-              <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-                <path d="m17 2 4 4-4 4"></path>
-                <path d="M3 11v-1a4 4 0 0 1 4-4h14"></path>
-                <path d="m7 22-4-4 4-4"></path>
-                <path d="M21 13v1a4 4 0 0 1-4 4H3"></path>
+            <button type="button" class="flashcard-audio-btn" id="singularAudioBtn" hidden aria-label="Klausīties" title="Klausīties">
+              <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
               </svg>
             </button>
           </div>
           <div class="flashcard-translation-row" id="flashcardTranslationRow">
             <div class="translation" id="translation"></div>
+            <button type="button" class="flashcard-audio-btn" id="singularTranslationAudioBtn" hidden aria-label="Klausīties" title="Klausīties">
+              <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
+              </svg>
+            </button>
           </div>
           <div class="flashcard-plural-row" id="flashcardPluralRow" hidden>
             <span class="flashcard-plural-label">Daudzsk.</span>
             <span class="flashcard-plural-text" id="flashcardPluralText"></span>
-            <button type="button" class="flashcard-audio-btn flashcard-audio-btn-plural" id="pluralAudioBtn" hidden aria-label="Klausīties daudzskaitli" title="Klausīties daudzskaitli">
+            <button type="button" class="flashcard-audio-btn" id="pluralAudioBtn" hidden aria-label="Klausīties daudzskaitli" title="Klausīties daudzskaitli">
               <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
                 <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>

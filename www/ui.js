@@ -201,7 +201,8 @@ const elements = {
   cardLevel: document.getElementById("cardLevel"),
   word: document.getElementById("word"),
   cardAutoplayBtn: document.getElementById("cardAutoplayBtn"),
-  cardReplayBtn: document.getElementById("cardReplayBtn"),
+  singularAudioBtn: document.getElementById("singularAudioBtn"),
+  singularTranslationAudioBtn: document.getElementById("singularTranslationAudioBtn"),
   flashcardPluralRow: document.getElementById("flashcardPluralRow"),
   flashcardPluralText: document.getElementById("flashcardPluralText"),
   pluralAudioBtn: document.getElementById("pluralAudioBtn"),
@@ -3769,9 +3770,10 @@ function setFlashcardAudioButton(button, src) {
 
 function resetFlashcardAudioControls() {
   currentPrimaryAudioSrc = null;
+  setFlashcardAudioButton(elements.singularAudioBtn, null);
+  setFlashcardAudioButton(elements.singularTranslationAudioBtn, null);
   setFlashcardAudioButton(elements.pluralAudioBtn, null);
   if (elements.cardAutoplayBtn) elements.cardAutoplayBtn.hidden = true;
-  if (elements.cardReplayBtn) elements.cardReplayBtn.hidden = true;
   if (elements.flashcardPluralRow) elements.flashcardPluralRow.hidden = true;
   if (elements.flashcardPluralText) elements.flashcardPluralText.textContent = "";
 }
@@ -3786,18 +3788,23 @@ function setPrimaryCardAudio(src, label) {
   updateAutoplayButtonUI();
 }
 
-function setCardReplayAudio(src, label) {
-  const btn = elements.cardReplayBtn;
-  if (!btn) return;
-  btn.hidden = !src || state.verbMode;
-  if (!src) {
-    delete btn.dataset.audioSrc;
-    return;
+function setInlineGermanAudioButtons(src, germanText, { onWord = false, onTranslation = false } = {}) {
+  const label = `Klausīties: ${germanText}`;
+  const show = Boolean(src && !state.verbMode);
+  const buttons = [
+    { btn: elements.singularAudioBtn, visible: show && onWord },
+    { btn: elements.singularTranslationAudioBtn, visible: show && onTranslation },
+  ];
+  for (const { btn, visible } of buttons) {
+    if (!btn) continue;
+    if (!visible) {
+      setFlashcardAudioButton(btn, null);
+      continue;
+    }
+    setFlashcardAudioButton(btn, src);
+    btn.title = label;
+    btn.setAttribute("aria-label", label);
   }
-  btn.dataset.audioSrc = src;
-  const replayLabel = label || "Klausīties atkārtoti";
-  btn.title = replayLabel;
-  btn.setAttribute("aria-label", replayLabel);
 }
 
 function updateAutoplayButtonUI() {
@@ -3876,7 +3883,10 @@ function renderWordCardContent(card) {
 
   elements.word.textContent = frontText;
   setPrimaryCardAudio(singularAudioSrc, `Klausīties: ${germanText}`);
-  setCardReplayAudio(singularAudioSrc, `Klausīties atkārtoti: ${germanText}`);
+  setInlineGermanAudioButtons(singularAudioSrc, germanText, {
+    onWord: isDeFront,
+    onTranslation: !isDeFront && state.revealed,
+  });
 
   if (!state.revealed) {
     elements.translation.textContent = "";
@@ -5205,7 +5215,7 @@ function renderVerbCard() {
     .join("");
   elements.word.textContent = stage.value;
   setPrimaryCardAudio(null);
-  setCardReplayAudio(null);
+  setInlineGermanAudioButtons(null, "");
   elements.translation.textContent = `Tulkojums: ${stage.translation}`;
   elements.hint.textContent = state.reviewLastSession
     ? `Pēdējā sesija: ${Math.min(lastSessionReviewDoneCount() + 1, lastSessionReviewTotalCount())} / ${lastSessionReviewTotalCount()}. Klikšķini uz kartītes, lai pārslēgtu formu.`
@@ -5290,7 +5300,10 @@ function renderStudyCard(card) {
   const pluralAudioSrc = a1AudioSrc(a1PluralAudioFile(card));
 
   elements.word.textContent = frontText;
-  setCardReplayAudio(singularAudioSrc, `Klausīties atkārtoti: ${germanText}`);
+  setInlineGermanAudioButtons(singularAudioSrc, germanText, {
+    onWord: isGermanToLatvian && !isComparisonStudy,
+    onTranslation: state.revealed && (isComparisonStudy || !isGermanToLatvian),
+  });
   if (!isComparisonStudy) {
     setPrimaryCardAudio(singularAudioSrc, `Klausīties: ${germanText}`);
   }
@@ -5875,14 +5888,14 @@ elements.pamatiPanel.addEventListener("click", (event) => {
   if (event.target === elements.pamatiPanel) closePamati();
 });
 document.querySelector(".card")?.addEventListener("click", (event) => {
-  if (event.target.closest("#cardAutoplayBtn, .card-autoplay-btn, #cardReplayBtn, .card-replay-btn")) {
+  if (event.target.closest("#cardAutoplayBtn, .card-autoplay-btn")) {
     return;
   }
-  const audioBtn = event.target.closest(".flashcard-audio-btn-plural, [data-audio-src]");
+  const audioBtn = event.target.closest(".flashcard-audio-btn");
   if (audioBtn) {
     event.preventDefault();
     event.stopPropagation();
-    playCardAudio(audioBtn.dataset.audioSrc, audioBtn);
+    replayCardAudio(audioBtn.dataset.audioSrc, audioBtn);
     return;
   }
   revealCard();
@@ -5927,13 +5940,6 @@ if (elements.cardAutoplayBtn) {
     event.preventDefault();
     event.stopPropagation();
     toggleAudioAutoplay();
-  });
-}
-if (elements.cardReplayBtn) {
-  elements.cardReplayBtn.addEventListener("click", (event) => {
-    event.preventDefault();
-    event.stopPropagation();
-    replayCardAudio(elements.cardReplayBtn.dataset.audioSrc, elements.cardReplayBtn);
   });
 }
 elements.masteredListBtn.addEventListener("click", openKnownList);

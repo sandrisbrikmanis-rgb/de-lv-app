@@ -7011,12 +7011,14 @@ main,
   color: #e2e8f0;
 }
 
-/* Flashcard plural audio + layout helpers */
+/* Flashcard inline audio + layout helpers */
 .flashcard-word-row,
 .flashcard-translation-row {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
   width: 100%;
 }
 
@@ -7026,59 +7028,9 @@ main,
   max-width: 100%;
 }
 
-.flashcard-replay-row {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  margin-top: 10px;
-}
-
-.card-replay-btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 36px;
-  height: 36px;
-  padding: 0;
-  border-radius: 50%;
-  border: 1px solid rgba(148, 163, 184, 0.28);
-  background: rgba(148, 163, 184, 0.08);
-  color: var(--muted);
-  opacity: 0.75;
-  cursor: pointer;
-  transition: all 0.2s ease;
-}
-
-.card-replay-btn svg {
-  width: 18px;
-  height: 18px;
-  pointer-events: none;
-}
-
-.card-replay-btn:hover,
-.card-replay-btn:focus-visible {
-  background: rgba(148, 163, 184, 0.16);
-  border-color: rgba(148, 163, 184, 0.45);
-  color: var(--text);
-  opacity: 1;
-  outline: none;
-  transform: scale(1.06);
-}
-
-.card-replay-btn:active {
-  transform: scale(0.96);
-}
-
-.card-replay-btn.is-playing {
-  background: rgba(148, 163, 184, 0.2);
-  border-color: rgba(148, 163, 184, 0.55);
-  color: var(--text);
-  opacity: 1;
-}
-
-.card-replay-btn[hidden] {
-  display: none !important;
+.flashcard-translation-row .translation {
+  flex: 0 1 auto;
+  max-width: 100%;
 }
 
 .flashcard-plural-row {
@@ -7109,7 +7061,7 @@ main,
   font-weight: 700;
 }
 
-.flashcard-audio-btn-plural {
+.flashcard-audio-btn {
   flex: 0 0 auto;
   display: inline-flex;
   align-items: center;
@@ -7122,15 +7074,29 @@ main,
   background: rgba(85, 184, 255, 0.16);
   color: #ffffff;
   cursor: pointer;
+  transition: transform 0.15s ease, background 0.15s ease, border-color 0.15s ease;
 }
 
-.flashcard-audio-btn-plural svg {
+.flashcard-audio-btn svg {
   width: 20px;
   height: 20px;
   pointer-events: none;
 }
 
-.flashcard-audio-btn-plural[hidden] {
+.flashcard-audio-btn:hover,
+.flashcard-audio-btn:focus-visible {
+  background: rgba(85, 184, 255, 0.28);
+  border-color: #9dd8ff;
+  outline: none;
+  transform: scale(1.06);
+}
+
+.flashcard-audio-btn.is-playing {
+  background: rgba(85, 184, 255, 0.34);
+  border-color: #b8e4ff;
+}
+
+.flashcard-audio-btn[hidden] {
   display: none !important;
 }
 
