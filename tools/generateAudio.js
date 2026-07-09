@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // tools/generateAudio.js
 // Ģenerē vācu izrunu MP3 failus pamatvārdiem, izmantojot OpenAI TTS.
-// Palaist: node tools/generateAudio.js [A1|A2|...]
+// Palaist: node tools/generateAudio.js [A1|A2|...|sentences|Sätze]
 
 const fs = require("fs");
 const path = require("path");
@@ -9,9 +9,20 @@ const vm = require("vm");
 const OpenAI = require("openai");
 
 const ROOT = path.join(__dirname, "..");
-const LEVEL = (process.argv[2] || "A1").toUpperCase();
-const DATA_FILE = path.join(ROOT, "data", `${LEVEL.toLowerCase()}.js`);
-const WORDS_KEY = `${LEVEL}_WORDS`;
+const RAW_LEVEL = (process.argv[2] || "A1").trim();
+const LEVEL_ALIASES = {
+  sentences: "SENTENCES",
+  sentence: "SENTENCES",
+  satze: "SENTENCES",
+  sätze: "SENTENCES",
+  teikumi: "SENTENCES",
+};
+const LEVEL = LEVEL_ALIASES[RAW_LEVEL.toLowerCase()] || RAW_LEVEL.toUpperCase();
+const IS_SENTENCES = LEVEL === "SENTENCES";
+const DATA_FILE = IS_SENTENCES
+  ? path.join(ROOT, "data", "sentences.js")
+  : path.join(ROOT, "data", `${LEVEL.toLowerCase()}.js`);
+const WORDS_KEY = IS_SENTENCES ? "SENTENCE_ENTRIES" : `${LEVEL}_WORDS`;
 const AUDIO_DIR = path.join(ROOT, "public", "audio");
 
 const MODEL = "tts-1-hd";
@@ -66,6 +77,14 @@ function buildJobs(entry) {
   const jobs = [];
   const de = String(entry.de || "").trim();
   if (!de) return jobs;
+
+  if (IS_SENTENCES) {
+    jobs.push({
+      text: de,
+      filename: `${sanitizeFilename(de)}.mp3`,
+    });
+    return jobs;
+  }
 
   const article = entry.de_article ? String(entry.de_article).trim().toLowerCase() : null;
 
@@ -123,7 +142,7 @@ async function main() {
   const words = loadWords();
   const jobs = words.flatMap((entry) => buildJobs(entry));
 
-  console.log(`${LEVEL} vārdi: ${words.length}`);
+  console.log(`${IS_SENTENCES ? "Teikumi" : LEVEL} ieraksti: ${words.length}`);
   console.log(`Audio faili ģenerēšanai: ${jobs.length}`);
   console.log(`Modelis: ${MODEL}, balss: ${VOICE}`);
   console.log(`Mape: ${AUDIO_DIR}\n`);

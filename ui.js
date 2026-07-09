@@ -3728,9 +3728,13 @@ function parsePluralArticle(dePlural) {
 }
 
 function a1SingularAudioFile(entry) {
-  if (!entry || entry.level !== "A1") return null;
+  if (!entry) return null;
   const de = String(entry.de || "").trim();
   if (!de) return null;
+  if (entry.level === "Sätze") {
+    return `${sanitizeAudioFilename(de)}.mp3`;
+  }
+  if (entry.level !== "A1") return null;
   const article = String(entry.de_article || "").trim().toLowerCase();
   if (article && /^(der|die|das)$/.test(article)) {
     return `${article}_${sanitizeAudioFilename(de)}.mp3`;
