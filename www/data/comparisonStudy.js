@@ -16,6 +16,7 @@ const COMPARISON_STUDY_CARDS = [
           icon: "🙂",
           lv: "laipns",
           de: "freundlich",
+          accent: "blue",
           description: "Raksturo cilvēka attieksmi un izturēšanos pret citiem.",
           example: "Er ist freundlich. = Viņš ir laipns."
         },
@@ -23,6 +24,7 @@ const COMPARISON_STUDY_CARDS = [
           icon: "✨",
           lv: "jauks",
           de: "nett",
+          accent: "green",
           description: "Vispārīgs, sarunvalodā ļoti biežs pozitīvs vērtējums.",
           example: "Sie ist nett. = Viņa ir jauka."
         },
@@ -30,6 +32,7 @@ const COMPARISON_STUDY_CARDS = [
           icon: "🤝",
           lv: "pieklājīgs",
           de: "höflich",
+          accent: "yellow",
           description: "Raksturo korektu, pieklājīgu uzvedību un manieres.",
           example: "Der Kunde war höflich. = Klients bija pieklājīgs."
         },
@@ -37,6 +40,7 @@ const COMPARISON_STUDY_CARDS = [
           icon: "🌿",
           lv: "patīkams",
           de: "angenehm",
+          accent: "red",
           description: "Raksturo patīkamu sajūtu, atmosfēru, laiku vai iespaidu.",
           example: "Das Wetter ist angenehm. = Laiks ir patīkams."
         }

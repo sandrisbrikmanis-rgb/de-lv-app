@@ -20,6 +20,12 @@ const ONLY_WORD = (() => {
   const match = ARGS.find((arg) => arg.startsWith("--only="));
   return match ? match.slice("--only=".length).trim().toLowerCase() : "";
 })();
+const TERMS = (() => {
+  const match = ARGS.find((arg) => arg.startsWith("--terms="));
+  return match
+    ? match.slice("--terms=".length).split(",").map((term) => term.trim()).filter(Boolean)
+    : [];
+})();
 const LIMIT = (() => {
   const match = ARGS.find((arg) => arg.startsWith("--limit="));
   return match ? Math.max(0, Number.parseInt(match.slice("--limit=".length), 10) || 0) : 0;
@@ -423,6 +429,20 @@ async function main() {
     DEFAULT_GERMAN_VOICE_NAME;
   const voice = await resolveVoice(apiKey, voiceRef);
   console.log(`Izmantotā balss: ${voice.voiceName} (${voice.voiceId})`);
+
+  if (TERMS.length) {
+    const jobs = TERMS.map((term) => ({
+      text: `${capitalizeGermanWord(term)}.`,
+      filename: buildAudioFilename(term),
+    }));
+    console.log(`\n=== TERMS ===`);
+    console.log(`Audio faili: ${jobs.length}`);
+    console.log(`Mape: ${AUDIO_DIR}`);
+    const { created, skipped, failed } = await processJobsConcurrently(apiKey, voice, jobs);
+    console.log(`Rezultāts: jauni/pārrakstīti ${created}, izlaisti ${skipped}, kļūdas ${failed}`);
+    if (failed > 0) process.exit(1);
+    return;
+  }
 
   if (TEST_MODE) {
     console.log("Testa režīms: A1 pirmie 5 vārdi + pirmie 5 teikumi");

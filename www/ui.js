@@ -5384,7 +5384,19 @@ function escapeStudyCardText(value) {
     .replace(/'/g, "&#39;");
 }
 
-function formatLvDisplay(value) {
+const COMPARISON_WORD_ACCENTS = ["blue", "green", "yellow", "red"];
+
+function comparisonWordAudioSrc(word) {
+  const bare = stripGermanArticle(String(word || "").trim());
+  if (!bare) return null;
+  return a1AudioSrc(`${sanitizeAudioFilename(bare)}.mp3`);
+}
+
+function comparisonWordAudioButtonHtml(word, src) {
+  if (!src) return "";
+  const label = `Klausīties: ${word}`;
+  return `<button type="button" class="flashcard-audio-btn comparison-word-audio-btn" data-audio-src="${escapeStudyCardText(src)}" aria-label="${escapeStudyCardText(label)}" title="Klausīties"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg></button>`;
+}
   const raw = String(value || "").trim();
   if (!raw) return "";
   return raw
@@ -5711,12 +5723,20 @@ function renderStudyCard(card) {
       <section class="comparison-card-grid">
         ${items.map((item, index) => {
           const accentRules = sectionAccentRules("comparisonCards", index);
+          const accent = item.accent || COMPARISON_WORD_ACCENTS[index % COMPARISON_WORD_ACCENTS.length];
+          const germanWord = String(item.de || item.word || "").trim();
+          const audioSrc = comparisonWordAudioSrc(germanWord);
           const example = typeof item.example === "string" ? item.example : [item.example?.de, item.example?.lv].filter(Boolean).join(" = ");
           return `
-            <article class="comparison-word-card">
-              <div class="comparison-word-icon">${escapeStudyCardText(item.icon || "•")}</div>
-              <h3>${formatStudyText(item.lv || item.title || "", fieldAccentRules(accentRules, "lv"))}</h3>
-              <strong>${formatStudyText(item.de || item.word || "", fieldAccentRules(accentRules, "de"))}</strong>
+            <article class="comparison-word-card comparison-word-card--${accent}">
+              <div class="comparison-word-card-head">
+                <div class="comparison-word-icon">${escapeStudyCardText(item.icon || "•")}</div>
+                <h3>${formatStudyText(item.lv || item.title || "", fieldAccentRules(accentRules, "lv"))}</h3>
+              </div>
+              <div class="comparison-word-de-row">
+                <strong>${formatStudyText(germanWord, fieldAccentRules(accentRules, "de"))}</strong>
+                ${comparisonWordAudioButtonHtml(germanWord, audioSrc)}
+              </div>
               <p>${formatStudyText(item.description || item.meaning || "", fieldAccentRules(accentRules, "description"))}</p>
               ${example ? `<div class="comparison-card-example">${formatStudyText(example, fieldAccentRules(accentRules, "example"))}</div>` : ""}
             </article>
