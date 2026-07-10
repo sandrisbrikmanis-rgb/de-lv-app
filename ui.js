@@ -167,6 +167,7 @@ const problemStatsStorageKey = "deLvFlashcardsProblemStats";
 const legacyUnwantedStorageKey = "deLvFlashcardsUnwanted";
 const unwantedStorageKey = "deLvFlashcardsExplicitUnwanted";
 const masteredStorageKey = "deLvFlashcardsMastered100";
+const groupCompleteShownStorageKey = "deLvFlashcardsGroupCompleteShown";
 const sessionModes = {
   easy: { label: `${UI_ICONS.easy} Viegls`, newCount: 5, reviewCount: 5 },
   normal: { label: `${UI_ICONS.normal} Normāls`, newCount: 10, reviewCount: 5 },
@@ -231,6 +232,10 @@ const elements = {
   sessionCompleteOverlay: document.getElementById("sessionCompleteOverlay"),
   restartSessionBtn: document.getElementById("restartSessionBtn"),
   markSessionLearnedBtn: document.getElementById("markSessionLearnedBtn"),
+  groupCompleteOverlay: document.getElementById("groupCompleteOverlay"),
+  groupCompleteTitle: document.getElementById("groupCompleteTitle"),
+  groupCompleteDesc: document.getElementById("groupCompleteDesc"),
+  chooseAnotherGroupBtn: document.getElementById("chooseAnotherGroupBtn"),
   hint: document.getElementById("hint"),
   notice: document.getElementById("notice"),
   knownBtn: document.getElementById("knownBtn"),
@@ -2800,6 +2805,129 @@ function updateKnownListBtn() {
   elements.masteredListBtn.textContent = `🏅 Zināmi (${totalLearnedCount()})`;
 }
 
+function loadGroupCompleteShown() {
+  try {
+    const parsed = JSON.parse(store.getItem(groupCompleteShownStorageKey) || "{}");
+    return parsed && typeof parsed === "object" ? parsed : {};
+  } catch {
+    return {};
+  }
+}
+
+function saveGroupCompleteShown(data) {
+  store.setItem(groupCompleteShownStorageKey, JSON.stringify(data));
+}
+
+function isGroupFullyLearned(group) {
+  if (!groups.includes(group)) {
+    return false;
+  }
+  const baseCards = baseCardsForGroup(group);
+  if (!baseCards.length) {
+    return false;
+  }
+  const learnedIds = new Set(state.learned[group] || []);
+  return baseCards.every((card) => learnedIds.has(cardId(card)));
+}
+
+function getGroupCompleteTexts(group) {
+  const label = groupDisplayLabel(group);
+  return {
+    title: `Izcili! ${label} līmenis ir pabeigts! 🎉`,
+    description: "Tu esi apguvis visus šīs grupas vārdus. Laiks spert nākamo soli!"
+  };
+}
+
+let lastGroupCompleteConfettiGroup = null;
+
+function fireGroupCompleteConfetti(group) {
+  if (lastGroupCompleteConfettiGroup === group || typeof confetti !== "function") {
+    return;
+  }
+  lastGroupCompleteConfettiGroup = group;
+  const colors = ["#1677f2", "#5aa2ff", "#ffd700", "#ff6b6b", "#51cf66"];
+  const duration = 2500;
+  const end = Date.now() + duration;
+
+  confetti({
+    particleCount: 120,
+    spread: 100,
+    origin: { y: 0.55 },
+    colors
+  });
+
+  (function frame() {
+    confetti({
+      particleCount: 4,
+      angle: 60,
+      spread: 55,
+      origin: { x: 0, y: 0.6 },
+      colors
+    });
+    confetti({
+      particleCount: 4,
+      angle: 120,
+      spread: 55,
+      origin: { x: 1, y: 0.6 },
+      colors
+    });
+    if (Date.now() < end) {
+      requestAnimationFrame(frame);
+    }
+  })();
+}
+
+function shouldShowGroupCompleteOverlay() {
+  if (state.reviewKnown || state.reviewLastSession || state.problemMode || state.timeReviewMode || state.studyTestCard || state.verbMode) {
+    return false;
+  }
+  if (!isGroupFullyLearned(state.group)) {
+    return false;
+  }
+  return !loadGroupCompleteShown()[state.group];
+}
+
+function updateGroupCompleteOverlay() {
+  if (!elements.groupCompleteOverlay) {
+    return;
+  }
+  const show = shouldShowGroupCompleteOverlay();
+  if (show) {
+    const texts = getGroupCompleteTexts(state.group);
+    if (elements.groupCompleteTitle) {
+      elements.groupCompleteTitle.textContent = texts.title;
+    }
+    if (elements.groupCompleteDesc) {
+      elements.groupCompleteDesc.textContent = texts.description;
+    }
+    elements.groupCompleteOverlay.hidden = false;
+    requestAnimationFrame(() => fireGroupCompleteConfetti(state.group));
+  } else {
+    elements.groupCompleteOverlay.hidden = true;
+    if (lastGroupCompleteConfettiGroup && lastGroupCompleteConfettiGroup !== state.group) {
+      lastGroupCompleteConfettiGroup = null;
+    }
+  }
+}
+
+function dismissGroupCompleteOverlay() {
+  const shown = loadGroupCompleteShown();
+  shown[state.group] = true;
+  saveGroupCompleteShown(shown);
+  lastGroupCompleteConfettiGroup = null;
+  if (elements.groupCompleteOverlay) {
+    elements.groupCompleteOverlay.hidden = true;
+  }
+}
+
+function chooseAnotherGroupFromComplete() {
+  dismissGroupCompleteOverlay();
+  elements.groupButtons?.scrollIntoView({ behavior: "smooth", block: "start" });
+  setNotice("Izvēlies nākamo grupu augšā.");
+  updateSessionCompleteOverlay();
+  render();
+}
+
 function shouldShowSessionCompleteOverlay() {
   if (state.reviewKnown || state.reviewLastSession || state.problemMode || state.timeReviewMode || state.studyTestCard) {
     return false;
@@ -2814,6 +2942,13 @@ function shouldShowSessionCompleteOverlay() {
 }
 
 function updateSessionCompleteOverlay() {
+  updateGroupCompleteOverlay();
+  if (shouldShowGroupCompleteOverlay()) {
+    if (elements.sessionCompleteOverlay) {
+      elements.sessionCompleteOverlay.hidden = true;
+    }
+    return;
+  }
   if (!elements.sessionCompleteOverlay) return;
   const show = shouldShowSessionCompleteOverlay();
   elements.sessionCompleteOverlay.hidden = !show;
@@ -3820,6 +3955,14 @@ function isSessionCompleteOverlayVisible() {
   return Boolean(elements.sessionCompleteOverlay && !elements.sessionCompleteOverlay.hidden);
 }
 
+function isGroupCompleteOverlayVisible() {
+  return Boolean(elements.groupCompleteOverlay && !elements.groupCompleteOverlay.hidden);
+}
+
+function isAnyCompleteOverlayVisible() {
+  return isSessionCompleteOverlayVisible() || isGroupCompleteOverlayVisible();
+}
+
 function activeCardRenderKey(card) {
   if (!card) return null;
   const groupKey = activeGroupKey();
@@ -4226,7 +4369,7 @@ function revealCard() {
   if (state.spellingMode) {
     return;
   }
-  if (isSessionCompleteOverlayVisible()) {
+  if (isAnyCompleteOverlayVisible()) {
     return;
   }
 
@@ -5137,6 +5280,7 @@ function wipeAllProgress() {
   store.setItem(masteredStorageKey, "[]");
   store.setItem(sessionStorageKey, "null");
   store.setItem(lastCompletedSessionStorageKey, "null");
+  store.setItem(groupCompleteShownStorageKey, "{}");
   store.setItem(directionStorageKey, "de-lv");
   store.setItem(modeStorageKey, "normal");
   closeRestoreAllConfirm();
@@ -5994,12 +6138,16 @@ function render() {
       ? problemEmptyMessage()
       : (state.reviewKnown
       ? "Zināmo vārdu pārskatīšana pabeigta."
+      : (shouldShowGroupCompleteOverlay()
+      ? ""
       : (shouldShowSessionCompleteOverlay()
       ? "Sesija pabeigta!"
-      : (groupHasOnlyUnwanted(state.group) ? "Šajā grupā nav aktīvu vārdu." : "Šajā sesijā nav kartīšu.")))));
+      : (groupHasOnlyUnwanted(state.group) ? "Šajā grupā nav aktīvu vārdu." : "Šajā sesijā nav kartīšu."))))));
     elements.translation.textContent = "";
     if (state.reviewLastSession || state.timeReviewMode || state.problemMode || state.reviewKnown) {
       elements.hint.textContent = "";
+    } else if (shouldShowGroupCompleteOverlay()) {
+      elements.hint.textContent = getGroupCompleteTexts(state.group).description;
     } else if (shouldShowSessionCompleteOverlay()) {
       elements.hint.textContent = "Izvēlies, ko darīt tālāk.";
     } else {
@@ -6090,7 +6238,7 @@ elements.pamatiPanel.addEventListener("click", (event) => {
   if (event.target === elements.pamatiPanel) closePamati();
 });
 document.querySelector(".card")?.addEventListener("click", (event) => {
-  if (event.target.closest("#sessionCompleteOverlay, .session-complete-overlay")) {
+  if (event.target.closest("#sessionCompleteOverlay, .session-complete-overlay, #groupCompleteOverlay, .group-complete-overlay")) {
     return;
   }
   if (event.target.closest("#cardAutoplayBtn, .card-autoplay-btn")) {
@@ -6172,6 +6320,12 @@ if (elements.markSessionLearnedBtn) {
   elements.markSessionLearnedBtn.addEventListener("click", (event) => {
     event.stopPropagation();
     markSessionAsLearned();
+  });
+}
+if (elements.chooseAnotherGroupBtn) {
+  elements.chooseAnotherGroupBtn.addEventListener("click", (event) => {
+    event.stopPropagation();
+    chooseAnotherGroupFromComplete();
   });
 }
 } catch (error) {

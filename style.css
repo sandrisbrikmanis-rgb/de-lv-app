@@ -4114,6 +4114,65 @@
   color: #ffffff;
 }
 
+.group-complete-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 11;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(18, 18, 18, 0.94);
+  border-radius: inherit;
+  backdrop-filter: blur(8px);
+}
+
+.group-complete-overlay[hidden] {
+  display: none !important;
+}
+
+.group-complete-popup {
+  text-align: center;
+  padding: 32px 26px;
+  max-width: 380px;
+  width: 90%;
+}
+
+.group-complete-popup h3 {
+  margin: 0 0 14px;
+  font-size: 1.35rem;
+  font-weight: 700;
+  line-height: 1.35;
+  color: #f5f5f5;
+}
+
+.group-complete-popup p {
+  margin: 0 0 24px;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #b8b8b8;
+}
+
+.group-complete-popup button {
+  display: block;
+  width: 100%;
+  padding: 14px 18px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 12px;
+  border: 1px solid #2d2d2d;
+  background: linear-gradient(145deg, #1677f2, #0756c9);
+  color: #ffffff;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s, transform 0.15s;
+}
+
+.group-complete-popup button:hover,
+.group-complete-popup button:focus-visible {
+  background: linear-gradient(145deg, #3d93ff, #1677f2);
+  border-color: #5aa2ff;
+  transform: translateY(-1px);
+}
+
 .card-inner {
   position: relative;
 }

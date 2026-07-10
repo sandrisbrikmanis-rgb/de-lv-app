@@ -222,6 +222,13 @@
               <button type="button" id="markSessionLearnedBtn">🏅 Atzīmēt sesiju kā iemācītu</button>
             </div>
           </div>
+          <div class="group-complete-overlay" id="groupCompleteOverlay" hidden>
+            <div class="group-complete-popup">
+              <h3 id="groupCompleteTitle">Izcili! A1 līmenis ir pabeigts! 🎉</h3>
+              <p id="groupCompleteDesc">Tu esi apguvis visus šīs grupas vārdus. Laiks spert nākamo soli!</p>
+              <button type="button" id="chooseAnotherGroupBtn">Izvēlēties citu grupu</button>
+            </div>
+          </div>
         </div>
       </article>
 
@@ -277,6 +284,7 @@
   <script src="./data/comparisonStudy.js"></script>
   <script src="./data/dialogueIdMap.js"></script>
   <script src="./data/nounArticles.js"></script>
+  <script src="./confetti.browser.js"></script>
   <script src="./ui.js"></script>
   <script src="./wordRain.js"></script>
 </body>
