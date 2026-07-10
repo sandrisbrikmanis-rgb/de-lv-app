@@ -5,5 +5,9 @@
   { "noun": "Mann", "article": "der", "plural": "Männer" },
   { "noun": "Stadt", "article": "die", "plural": "Städte" },
   { "noun": "Kind", "article": "das", "plural": "Kinder" },
-  { "noun": "Buch", "article": "das", "plural": "Bücher" }
+  { "noun": "Buch", "article": "das", "plural": "Bücher" },
+  { "noun": "Kilometer", "article": "der", "plural": "Kilometer" },
+  { "noun": "Kilogramm", "article": "das", "plural": "Kilogramm" },
+  { "noun": "Keks", "article": "der", "plural": "Kekse" },
+  { "noun": "Kindergarten", "article": "der", "plural": "Kindergärten" }
 ]

@@ -84,10 +84,18 @@ foreach ($rel in $targets) {
       $matchedNounOnly = $true
       $nounRaw = $Matches['noun'].Trim()
       if ($nounRaw -match '^(?i)(der|die|das)\b') { $i++; continue }
-      $first = $nounRaw[0]
-      if (-not $first -or $first -ne $first.ToString().ToUpperInvariant()[0]) { $i++; continue }
       $indent = $Matches['indent']
+      $key = $nounRaw.ToLowerInvariant()
       $hit = Get-LookupForNoun $nounRaw
+      if (-not $hit) { $hit = Get-LookupForNoun (Get-CapitalizeNoun $nounRaw) }
+      if (-not $hit -and $manual.ContainsKey($key)) {
+        $manualHit = $manual[$key]
+        $hit = [pscustomobject]@{
+          noun = [string]$manualHit.noun
+          article = [string]$manualHit.article
+          plural = [string]$manualHit.plural
+        }
+      }
       if (-not $hit) { $stats.skipped++; $i++; continue }
       $hasArticle = $false
       for ($j = $i + 1; $j -lt [Math]::Min($i + 6, $lines.Count); $j++) {

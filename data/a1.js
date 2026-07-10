@@ -8895,7 +8895,9 @@ const A1_WORDS = [
     "level": "A1"
   },
     {
-    "de": "keks",
+    "de": "Keks",
+    "de_article": "der",
+    "de_plural": "die Kekse",
     "lv": "cepums",
     "level": "A1"
   },
@@ -9150,22 +9152,30 @@ const A1_WORDS = [
   },
   },
     {
-    "de": "kilogramm",
+    "de": "Kilogramm",
+    "de_article": "das",
+    "de_plural": "die Kilogramm",
     "lv": "kilograms",
     "level": "A1"
   },
     {
-    "de": "kilometer",
+    "de": "Kilometer",
+    "de_article": "der",
+    "de_plural": "die Kilometer",
     "lv": "kilometrs",
     "level": "A1"
   },
     {
-    "de": "kind",
+    "de": "Kind",
+    "de_article": "das",
+    "de_plural": "die Kinder",
     "lv": "bērns",
     "level": "A1"
   },
     {
-    "de": "kindergarten",
+    "de": "Kindergarten",
+    "de_article": "der",
+    "de_plural": "die Kindergärten",
     "lv": "bērnudārzs",
     "level": "A1"
   },
@@ -9429,12 +9439,16 @@ const A1_WORDS = [
   },
   },
     {
-    "de": "kosten",
+    "de": "Kosten",
+    "de_article": "die",
+    "de_plural": "die Kostens",
     "lv": "maksāt",
     "level": "A1"
   },
     {
-    "de": "kosten",
+    "de": "Kosten",
+    "de_article": "die",
+    "de_plural": "die Kostens",
     "lv": "nogaršot",
     "level": "A1"
   },

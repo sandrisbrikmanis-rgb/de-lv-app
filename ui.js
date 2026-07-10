@@ -27,12 +27,32 @@ function buildStableId(card) {
 }
 
 function ensureStableId(card) {
+  enrichGermanNounArticle(card);
   if (card.id) {
     usedStableIds.add(card.id);
     return card;
   }
   const id = buildStableId(card);
   if (id) card.id = id;
+  return card;
+}
+
+function enrichGermanNounArticle(card) {
+  if (!card || card.de_article) return card;
+  const de = String(card.de || "").trim();
+  if (!de || /^(der|die|das)\s+/i.test(de)) return card;
+  const lookup = window.GERMAN_NOUN_ARTICLES || {};
+  const hit = lookup[de.toLowerCase()];
+  if (!hit) return card;
+  const article = String(hit.article || "").trim();
+  if (!/^(der|die|das)$/i.test(article)) return card;
+  card.de_article = article.toLowerCase();
+  const noun = String(hit.noun || de).trim();
+  if (noun && de === de.toLowerCase()) card.de = noun;
+  if (!card.de_plural && hit.plural) {
+    const plural = String(hit.plural).trim();
+    card.de_plural = /^(der|die|das)\s+/i.test(plural) ? plural : `die ${plural}`;
+  }
   return card;
 }
 
