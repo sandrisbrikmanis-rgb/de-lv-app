@@ -3797,6 +3797,7 @@ let activeCardAudio = null;
 let activeCardAudioBtn = null;
 let currentPrimaryAudioSrc = null;
 let lastAutoplayedCardKey = null;
+let cardAutoplayScheduled = false;
 let activeRenderedCardKey = null;
 let activeSessionStartedAt = null;
 
@@ -3968,13 +3969,20 @@ function updateAutoplayButtonUI() {
   );
 }
 
-function cardAutoplayKey(card) {
-  if (!card) return null;
-  const base = card.id || `${card.level || ""}:${card.de || ""}:${card.lv || ""}`;
+function cardAutoplaySessionKey(card) {
+  const renderKey = activeCardRenderKey(card);
+  if (!renderKey) return null;
   if (state.direction === "lv-de") {
-    return `${base}:revealed:${state.revealed ? "1" : "0"}`;
+    return `${renderKey}:revealed:${state.revealed ? "1" : "0"}`;
   }
-  return base;
+  return renderKey;
+}
+
+function prepareFlashcardAutoplay(card) {
+  const key = cardAutoplaySessionKey(card);
+  if (key !== lastAutoplayedCardKey) {
+    lastAutoplayedCardKey = null;
+  }
 }
 
 function shouldAutoplayGermanAudio(isGermanToLatvian) {
@@ -3984,9 +3992,11 @@ function shouldAutoplayGermanAudio(isGermanToLatvian) {
 
 function scheduleCardAutoplay(card) {
   if (!state.audioAutoplay || !currentPrimaryAudioSrc || !card) return;
-  const key = cardAutoplayKey(card);
+  if (cardAutoplayScheduled) return;
+  const key = cardAutoplaySessionKey(card);
   if (!key || key === lastAutoplayedCardKey) return;
   lastAutoplayedCardKey = key;
+  cardAutoplayScheduled = true;
   playCardAudio(currentPrimaryAudioSrc, null);
 }
 
@@ -4019,6 +4029,7 @@ function a1AudioForBareWord(de) {
 }
 
 function renderWordCardContent(card) {
+  prepareFlashcardAutoplay(card);
   resetFlashcardAudioControls();
   const isDeFront = state.direction === "de-lv";
   const germanText = formatGermanEntry(card);
@@ -5458,6 +5469,7 @@ function renderStudyCard(card) {
    */
 
   resetFlashcardAudioControls();
+  prepareFlashcardAutoplay(card);
   const isGermanToLatvian = state.direction === "de-lv";
   const germanText = formatGermanEntry(card);
   const frontText = isComparisonStudy
@@ -5928,6 +5940,7 @@ window.__wordRainVerbId = verbId;
 
 function render() {
   clearStudyCard();
+  cardAutoplayScheduled = false;
   try {
   if (state.verbMode) {
     renderVerbCard();
