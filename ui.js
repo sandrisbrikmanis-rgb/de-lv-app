@@ -2569,6 +2569,7 @@ function shuffleSessionIds(session) {
 }
 
 function createSession() {
+  resetCardReveal();
   const groupKey = activeGroupKey();
   const config = sessionModes[state.mode] || sessionModes.normal;
   const cards = activeCardsForSession();
@@ -2588,6 +2589,7 @@ function createSession() {
   const picked = fisherYatesShuffle([...newCards]).slice(0, config.newCount)
     .concat(fisherYatesShuffle([...reviewCards]).slice(0, config.reviewCount));
   fisherYatesShuffle(picked);
+  const startedAt = new Date().toISOString();
   state.session = {
     groupKey,
     mode: state.mode,
@@ -2596,14 +2598,18 @@ function createSession() {
     completedIds: [],
     total: picked.length,
     index: 0,
-    startedAt: new Date().toISOString(),
-    created: new Date().toISOString(),
+    completed: false,
+    startedAt,
+    created: startedAt,
     shuffled: true
   };
   state.index = 0;
   state.verbIndex = 0;
   state.verbStep = 0;
+  activeSessionStartedAt = startedAt;
+  activeRenderedCardKey = null;
   state.revealed = false;
+  hideCardTranslationDOM();
   saveSession();
 }
 
@@ -2659,7 +2665,7 @@ function rotateSession() {
   }
   state.index = state.session.index;
   state.verbIndex = state.session.index;
-  state.revealed = false;
+  resetCardReveal();
   state.verbStep = 0;
   resetVerbChallenge();
   resetSpellingTask();
@@ -2681,7 +2687,7 @@ function completeCurrentSessionCard(id) {
   state.session.index = state.session.ids.length ? Math.min(position, state.session.ids.length - 1) : 0;
   state.index = state.session.index;
   state.verbIndex = state.session.index;
-  state.revealed = false;
+  resetCardReveal();
   state.verbStep = 0;
   resetVerbChallenge();
   resetSpellingTask();
@@ -2736,6 +2742,8 @@ function restartCompletedSession() {
   if (!state.lastCompletedSession?.ids?.length) return;
   const ids = state.lastCompletedSession.ids.slice();
   fisherYatesShuffle(ids);
+  const startedAt = new Date().toISOString();
+  resetCardReveal();
   state.session = {
     groupKey: state.lastCompletedSession.groupKey,
     mode: state.lastCompletedSession.mode,
@@ -2745,8 +2753,8 @@ function restartCompletedSession() {
     total: ids.length,
     index: 0,
     completed: false,
-    startedAt: new Date().toISOString(),
-    created: new Date().toISOString(),
+    startedAt,
+    created: startedAt,
     shuffled: true
   };
   state.reviewLastSession = false;
@@ -2754,7 +2762,7 @@ function restartCompletedSession() {
   state.index = 0;
   state.verbIndex = 0;
   state.verbStep = 0;
-  state.revealed = false;
+  activeSessionStartedAt = startedAt;
   state.verbMode = state.lastCompletedSession.groupKey === "verbs";
   saveSession();
   setNotice("Sesija ielādēta no jauna ar jauktu secību.");
@@ -2788,8 +2796,9 @@ function markSessionAsLearned() {
 
   saveProgress();
   state.lastCompletedSession = null;
-  state.session.completed = false;
+  state.reviewLastSession = false;
   saveLastCompletedSession();
+  resetCardReveal();
   createSession();
   setNotice("Sesijas vārdi pārvietoti uz zināmajiem.");
   render();
@@ -3705,6 +3714,60 @@ let activeCardAudio = null;
 let activeCardAudioBtn = null;
 let currentPrimaryAudioSrc = null;
 let lastAutoplayedCardKey = null;
+let activeRenderedCardKey = null;
+let activeSessionStartedAt = null;
+
+function hideCardTranslationDOM() {
+  if (elements.translation) {
+    elements.translation.textContent = "";
+  }
+  resetFlashcardAudioControls();
+}
+
+function resetCardReveal() {
+  state.revealed = false;
+  activeRenderedCardKey = null;
+  activeSessionStartedAt = null;
+  lastAutoplayedCardKey = null;
+  hideCardTranslationDOM();
+}
+
+function isSessionCompleteOverlayVisible() {
+  return Boolean(elements.sessionCompleteOverlay && !elements.sessionCompleteOverlay.hidden);
+}
+
+function activeCardRenderKey(card) {
+  if (!card) return null;
+  const groupKey = activeGroupKey();
+  const id = idForSessionKey(card, groupKey);
+  const sessionStamp = state.session?.startedAt || state.session?.created || "none";
+  if (state.studyTestCard) return `study:${id}`;
+  if (state.reviewLastSession) return `last:${state.lastSessionIndex}:${id}`;
+  if (state.timeReviewMode) return `time:${state.timeReviewIndex}:${id}`;
+  if (state.problemMode) return `problem:${state.problemIndex}:${id}`;
+  if (state.reviewKnown) return `known:${state.index}:${id}`;
+  if (!state.verbMode && sessionMatchesActiveGroup()) return `session:${sessionStamp}:${sessionPosition()}:${id}`;
+  return `card:${state.index}:${id}`;
+}
+
+function syncCardRevealState(card) {
+  const sessionStartedAt = state.session?.startedAt || state.session?.created || null;
+  if (sessionStartedAt !== activeSessionStartedAt) {
+    state.revealed = false;
+    activeSessionStartedAt = sessionStartedAt;
+    activeRenderedCardKey = null;
+    lastAutoplayedCardKey = null;
+    hideCardTranslationDOM();
+  }
+
+  const key = activeCardRenderKey(card);
+  if (key !== activeRenderedCardKey) {
+    state.revealed = false;
+    activeRenderedCardKey = key;
+    lastAutoplayedCardKey = null;
+    hideCardTranslationDOM();
+  }
+}
 
 function getAudioBasePath() {
   const path = window.location.pathname || "/";
@@ -4066,6 +4129,9 @@ function selectGroup(group) {
 
 function revealCard() {
   if (state.spellingMode) {
+    return;
+  }
+  if (isSessionCompleteOverlayVisible()) {
     return;
   }
 
@@ -5795,6 +5861,9 @@ function render() {
   elements.directionLabel.textContent = directionButtonLabel();
 
   if (!card) {
+    activeRenderedCardKey = null;
+    activeSessionStartedAt = null;
+    hideCardTranslationDOM();
     elements.cardLevel.className = "badge";
     elements.cardLevel.textContent = groupDisplayLabel(state.group);
     elements.word.textContent = state.reviewLastSession
@@ -5821,6 +5890,8 @@ function render() {
     updateSessionCompleteOverlay();
     return;
   }
+
+  syncCardRevealState(card);
 
   if (state.spellingMode) {
     const task = currentSpellingTask(card);
@@ -5899,6 +5970,9 @@ elements.pamatiPanel.addEventListener("click", (event) => {
   if (event.target === elements.pamatiPanel) closePamati();
 });
 document.querySelector(".card")?.addEventListener("click", (event) => {
+  if (event.target.closest("#sessionCompleteOverlay, .session-complete-overlay")) {
+    return;
+  }
   if (event.target.closest("#cardAutoplayBtn, .card-autoplay-btn")) {
     return;
   }
@@ -5968,11 +6042,24 @@ if (elements.infoBtn) {
   elements.infoBtn.addEventListener("click", openInfoPopup);
 }
 elements.restoreBtn.addEventListener("click", openRestoreAllConfirm);
+if (elements.sessionCompleteOverlay) {
+  elements.sessionCompleteOverlay.addEventListener("click", (event) => {
+    event.stopPropagation();
+  }, true);
+}
 if (elements.restartSessionBtn) {
-  elements.restartSessionBtn.addEventListener("click", restartCompletedSession);
+  elements.restartSessionBtn.addEventListener("click", (event) => {
+    event.preventDefault();
+    event.stopPropagation();
+    restartCompletedSession();
+  });
 }
 if (elements.markSessionLearnedBtn) {
-  elements.markSessionLearnedBtn.addEventListener("click", markSessionAsLearned);
+  elements.markSessionLearnedBtn.addEventListener("click", (event) => {
+    event.preventDefault();
+    event.stopPropagation();
+    markSessionAsLearned();
+  });
 }
 } catch (error) {
   console.error("UI event binding failed:", error);
