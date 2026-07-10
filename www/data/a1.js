@@ -8698,7 +8698,9 @@ const A1_WORDS = [
     "level": "A1"
   },
     {
-    "de": "kirche",
+    "de": "Kirche",
+    "de_article": "die",
+    "de_plural": "die Kirchen",
     "lv": "baznīca",
     "level": "A1"
   },
