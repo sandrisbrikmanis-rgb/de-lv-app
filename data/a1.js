@@ -1378,129 +1378,345 @@ const A1_WORDS = [
     "lv": "stacijā",
     "level": "A1"
   },
-        {
-    "de": "aufs",
-    "lv": "uz • uz to",
-    "level": "A1",
-    "study": {
-      "id": "a1-aufs",
-      "layout": "standardStudy",
-      "translation": "uz • uz to",
-      "explanation": "Lieto, lai norādītu virzienu uz kādu vietu, objektu vai mērķi. “aufs” ir saīsinājums no “auf das”.",
-      "examples": [
-        {
-          "de": "Ich gehe aufs Dach.",
-          "lv": "es eju uz jumta."
-  },
-        {
-          "de": "Sie setzt sich aufs Sofa.",
-          "lv": "viņa apsēžas uz dīvāna."
-  },
-        {
-          "de": "Wir fahren aufs Land.",
-          "lv": "mēs braucam uz laukiem."
-  },
-      ],
-      "tip": {
-        "text": "Atceries: auf + das → aufs."
-  },
-      "sectionAccents": {
+                {
+      "de": "aufs",
+      "lv": "uz • virsū • kurp?",
+      "level": "A1",
+      "study": {
+        "id": "a1-aufs",
+        "layout": "standardStudy",
+        "translation": "uz • virsū • kurp?",
+        "explanation": [
+          "aufs ir prievārda auf un artikula das saīsinājums.",
+          "Pilnā forma: auf das (Akkusativ).",
+          "Lieto, kad darbība norāda virzienu uz konkrētu lietu vai virsmu — atbild uz jautājumu kurp?",
+          "Bieži lieto ar kustību: uzkāpt, apsēsties, nolikt, braukt uz kaut ko.",
+          "Sarunvalodā un ikdienā gandrīz vienmēr lieto aufs, nevis pilno auf das."
+        ],
         "examples": [
           {
-            "green": [
-              "aufs"
-            ]
-  },
+            "de": "Ich gehe aufs Dach.",
+            "lv": "es eju uz jumta."
+          },
           {
-            "green": [
-              "aufs"
-            ]
-  },
+            "de": "Sie setzt sich aufs Sofa.",
+            "lv": "viņa apsēžas uz dīvāna."
+          },
           {
-            "green": [
-              "aufs"
-            ]
-  },
+            "de": "Wir fahren aufs Land.",
+            "lv": "mēs braucam uz laukiem."
+          },
+          {
+            "de": "Stell die Tasche aufs Bett.",
+            "lv": "noliec somu uz gultas."
+          },
+          {
+            "de": "Er springt aufs Pferd.",
+            "lv": "viņš uzkāpj uz zirga."
+          },
+          {
+            "de": "Leg das Buch aufs Regal.",
+            "lv": "ieliec grāmatu uz plaukta."
+          },
+          {
+            "de": "Komm schnell aufs Boot!",
+            "lv": "nāc ātri uz laivas!"
+          },
+          {
+            "de": "Wir gehen aufs Fest.",
+            "lv": "mēs ejam uz svinībām."
+          }
         ],
         "comparison": [
           {
-            "word": {
-              "green": [
-                "aufs"
-              ]
-  },
-            "example": {
-              "green": [
-                "aufs"
-              ]
-  },
-  },
+            "word": "aufs",
+            "meaning": "uz konkrētu lietu (Akk.)",
+            "example": "aufs Dach – uz jumta"
+          },
           {
-            "word": {
-              "green": [
-                "auf"
-              ]
-  },
-            "example": {
-              "green": [
-                "auf"
-              ]
-  },
-  },
+            "word": "auf",
+            "meaning": "uz virsmu vai augšup",
+            "example": "auf den Tisch – uz galda"
+          },
           {
-            "word": {
-              "green": [
-                "an"
-              ]
-  },
-            "example": {
-              "yellow": [
-                "an"
-              ]
-  },
-  },
+            "word": "an",
+            "meaning": "pie vertikālas virsmas",
+            "example": "an die Wand – pie sienas"
+          },
+          {
+            "word": "ins",
+            "meaning": "uz iekšu (iekš telpas)",
+            "example": "ins Zimmer – istabā"
+          },
+          {
+            "word": "zum",
+            "meaning": "uz / pie (Dativ)",
+            "example": "zum Arzt – pie ārsta"
+          }
         ],
-        "tip": {
-          "left": {
-            "green": [
-              "aufs",
-              "auf"
-            ],
-            "purple": [
-              "das"
-            ]
-  },
-  },
+        "tip": [
+          "Atceries: auf + das → aufs (Akkusativ, kurp?).",
+          "Sarunvalodā gandrīz nekad nesaka pilno auf das — lieto aufs."
+        ],
         "important": [
-          {
-            "green": [
+          "aufs = auf das, tikai ar nekatras dzimtes lietvārdu Akkusativā.",
+          "Atbild uz kurp? — kustība uz konkrētu vietu vai virsmu.",
+          "Uz horizontālas virsmas bieži lieto auf den, nevis aufs.",
+          "Nesajauc ar an (pie sienas) vai ins (iekš telpas)."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
               "aufs",
-              "auf"
+              "auf das"
             ],
             "purple": [
-              "das"
-            ]
-  },
-          {
+              "uz",
+              "virsū",
+              "kurp?"
+            ],
             "green": [
-              "aufs"
-            ],
-            "purple": [
-              "uz"
-            ],
-            "yellow": [
-              "virsmu",
-              "Dach"
+              "Akkusativ",
+              "kustība"
             ]
-  },
-        ]
-  },
-      "important": [
-        "aufs ir saīsinājums no auf + das.",
-        "To lieto ar virzienu uz konkrētu lietu vai virsmu, piemēram aufs Dach."
-      ]
-  },
-  },
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "aufs"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "uz jumta"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "aufs"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "uz dīvāna"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "aufs"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "uz laukiem"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "aufs"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "uz gultas"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "aufs"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "uz zirga"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "aufs"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "uz plaukta"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "aufs"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "uz laivas"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "aufs"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "uz svinībām"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "aufs"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "uz konkrētu lietu"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "aufs Dach"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "auf"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "uz virsmu"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "auf den Tisch"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "an"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "pie"
+                ]
+              },
+              "example": {
+                "green": [
+                  "an die Wand"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "ins"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "uz iekšu"
+                ]
+              },
+              "example": {
+                "green": [
+                  "ins Zimmer"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "zum"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "uz",
+                  "pie"
+                ]
+              },
+              "example": {
+                "red": [
+                  "zum Arzt"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "aufs"
+              ],
+              "purple": [
+                "auf das",
+                "kurp?"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "aufs"
+              ],
+              "purple": [
+                "auf das"
+              ],
+              "green": [
+                "Akkusativ"
+              ]
+            },
+            {
+              "purple": [
+                "kurp?"
+              ],
+              "green": [
+                "kustība"
+              ]
+            },
+            {
+              "yellow": [
+                "auf den"
+              ],
+              "red": [
+                "aufs"
+              ]
+            },
+            {
+              "green": [
+                "an"
+              ],
+              "red": [
+                "ins"
+              ]
+            }
+          ]
+        }
+      }
+    },
     {
     "de": "Augenbraue",
     "de_article": "die",
@@ -8078,37 +8294,347 @@ const A1_WORDS = [
     "lv": "jūs • viņai",
     "level": "A1"
   },
-    {
-    "de": "im",
-    "lv": "iekšā • -ā",
-    "level": "A1",
-    "study": {
-      "id": "a1-im",
-      "layout": "standardStudy",
-      "translation": "iekšā • -ā",
-      "explanation": [
-        "Galvenā doma: im ir saīsinājums no in + dem.",
-        "To lieto ar vīriešu un nekatras dzimtes lietvārdiem Dativ locījumā.",
-        "im atbild uz jautājumu kur? (atrašanās vieta, nevis kustība).",
-        "Piemēram: im Park = parkā, im Kino = kino.",
-        "Ar laiku im nozīmē mēnešos un gadalaikos: im Januar = janvārī, im Sommer = vasarā."
-      ],
-      "examples": [
         {
-          "de": "Ich bin im Park.",
-          "lv": "es esmu parkā."
-  },
-        {
-          "de": "Wir wohnen im Zentrum.",
-          "lv": "mēs dzīvojam centrā."
-  },
-        {
-          "de": "Im Sommer ist es warm.",
-          "lv": "vasarā ir silti."
-  },
-      ]
-  }
-  },
+      "de": "im",
+      "lv": "iekšā (-ā) • kur?",
+      "level": "A1",
+      "study": {
+        "id": "a1-im",
+        "layout": "standardStudy",
+        "translation": "iekšā (-ā) • kur?",
+        "explanation": [
+          "im ir prievārda in un artikula dem saīsinājums.",
+          "Pilnā forma: in dem (Dativ).",
+          "Lieto ar vīriešu un nekatras dzimtes lietvārdiem, kad atbild uz jautājumu kur? — atrašanās vieta.",
+          "Ar laiku un gadalaikiem: im Januar, im Sommer, im Winter.",
+          "Praksē gandrīz vienmēr lieto im, nevis pilno in dem."
+        ],
+        "examples": [
+          {
+            "de": "Ich bin im Park.",
+            "lv": "es esmu parkā."
+          },
+          {
+            "de": "Wir wohnen im Zentrum.",
+            "lv": "mēs dzīvojam centrā."
+          },
+          {
+            "de": "Im Sommer ist es warm.",
+            "lv": "vasarā ir silti."
+          },
+          {
+            "de": "Er arbeitet im Büro.",
+            "lv": "viņš strādā birojā."
+          },
+          {
+            "de": "Das Kind spielt im Garten.",
+            "lv": "bērns spēlē dārzā."
+          },
+          {
+            "de": "Im Januar fahre ich nach Wien.",
+            "lv": "janvārī es braucu uz Vīni."
+          },
+          {
+            "de": "Sie ist im Kino.",
+            "lv": "viņa ir kino."
+          },
+          {
+            "de": "Wir treffen uns im Restaurant.",
+            "lv": "mēs tiekamies restorānā."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "im",
+            "meaning": "iekšā, kur? (Dativ)",
+            "example": "im Park – parkā"
+          },
+          {
+            "word": "ins",
+            "meaning": "uz iekšu, kurp? (Akk.)",
+            "example": "ins Kino – uz kino"
+          },
+          {
+            "word": "in",
+            "meaning": "iekšā / uz (bez artikula)",
+            "example": "in Berlin – Berlīnē"
+          },
+          {
+            "word": "am",
+            "meaning": "pie, kur? (Dativ)",
+            "example": "am Fenster – pie loga"
+          },
+          {
+            "word": "auf",
+            "meaning": "uz virsmas",
+            "example": "auf dem Tisch – uz galda"
+          }
+        ],
+        "tip": [
+          "Atceries: in + dem → im (Dativ, kur?).",
+          "Kurp? → ins; kur? → im — nesajauc šos divus!"
+        ],
+        "important": [
+          "im = in dem, tikai ar vīriešu vai nekatras dzimtes lietvārdu Dativā.",
+          "Atbild uz kur?, nevis kurp? — atrašanās vieta, nevis kustība.",
+          "Ar mēnešiem un gadalaikiem: im März, im Herbst.",
+          "Sieviešu dzimtei: in der Schule, nevis im Schule."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "im",
+              "in dem"
+            ],
+            "purple": [
+              "iekšā",
+              "kur?"
+            ],
+            "green": [
+              "Dativ",
+              "atrašanās vieta"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "im"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "parkā"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "im"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "centrā"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Im"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "vasarā"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "im"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "birojā"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "im"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "dārzā"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Im"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "janvārī"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "im"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "kino"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "im"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "restorānā"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "im"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "iekšā",
+                  "kur?"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "im Park"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "ins"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "uz iekšu",
+                  "kurp?"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "ins Kino"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "in"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "iekšā"
+                ]
+              },
+              "example": {
+                "green": [
+                  "in Berlin"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "am"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "pie"
+                ]
+              },
+              "example": {
+                "green": [
+                  "am Fenster"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "auf"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "uz virsmas"
+                ]
+              },
+              "example": {
+                "red": [
+                  "auf dem Tisch"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "im"
+              ],
+              "purple": [
+                "in dem",
+                "kur?"
+              ],
+              "red": [
+                "ins",
+                "kurp?"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "im"
+              ],
+              "purple": [
+                "in dem"
+              ],
+              "green": [
+                "Dativ"
+              ]
+            },
+            {
+              "purple": [
+                "kur?"
+              ],
+              "green": [
+                "atrašanās vieta"
+              ]
+            },
+            {
+              "green": [
+                "im März",
+                "im Herbst"
+              ]
+            },
+            {
+              "yellow": [
+                "in der Schule"
+              ],
+              "red": [
+                "im Schule"
+              ]
+            }
+          ]
+        }
+      }
+    },
     {
     "de": "immer",
     "lv": "vienmēr",
@@ -8330,37 +8856,352 @@ const A1_WORDS = [
   },
   },
   },
-    {
-    "de": "ins",
-    "lv": "uz • uz iekšu",
-    "level": "A1",
-    "study": {
-      "id": "a1-ins",
-      "layout": "standardStudy",
-      "translation": "uz • uz iekšu",
-      "explanation": [
-        "Galvenā doma: ins ir saīsinājums no in + das.",
-        "To lieto ar nekatras dzimtes lietvārdiem Akkusativ locījumā.",
-        "ins atbild uz jautājumu uz kurieni? (kustība, nevis atrašanās vieta).",
-        "Piemēram: ins Kino = uz kino, ins Bett = gultā (uz gultu).",
-        "Salīdzini: ins Kino gehen = iet uz kino (kurp?), im Kino sein = būt kino (kur?)."
-      ],
-      "examples": [
         {
-          "de": "Ich gehe ins Kino.",
-          "lv": "es eju uz kino."
-  },
-        {
-          "de": "Sie geht ins Bett.",
-          "lv": "viņa iet gulēt."
-  },
-        {
-          "de": "Wir fahren ins Ausland.",
-          "lv": "mēs braucam uz ārzemēm."
-  },
-      ]
-  }
-  },
+      "de": "ins",
+      "lv": "iekšā • uz iekšu • kurp?",
+      "level": "A1",
+      "study": {
+        "id": "a1-ins",
+        "layout": "standardStudy",
+        "translation": "iekšā • uz iekšu • kurp?",
+        "explanation": [
+          "ins ir prievārda in un artikula das saīsinājums.",
+          "Pilnā forma: in das (Akkusativ).",
+          "Lieto ar nekatras dzimtes lietvārdiem, kad atbild uz jautājumu kurp? — kustība uz iekšu.",
+          "Bieži ar darbības vārdiem: gehen, fahren, kommen, legen, stecken.",
+          "Praksē gandrīz vienmēr lieto ins, nevis pilno in das."
+        ],
+        "examples": [
+          {
+            "de": "Ich gehe ins Kino.",
+            "lv": "es eju uz kino."
+          },
+          {
+            "de": "Sie geht ins Bett.",
+            "lv": "viņa iet gulēt."
+          },
+          {
+            "de": "Wir fahren ins Ausland.",
+            "lv": "mēs braucam uz ārzemēm."
+          },
+          {
+            "de": "Komm ins Haus!",
+            "lv": "nāc mājā!"
+          },
+          {
+            "de": "Er steckt das Geld ins Portemonnaie.",
+            "lv": "viņš ieliek naudu makā."
+          },
+          {
+            "de": "Wir gehen ins Museum.",
+            "lv": "mēs ejam uz muzeju."
+          },
+          {
+            "de": "Sie legt die Blumen ins Wasser.",
+            "lv": "viņa liek ziedus ūdenī."
+          },
+          {
+            "de": "Fahr bitte ins Zentrum.",
+            "lv": "lūdzu, brauc uz centru."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "ins",
+            "meaning": "uz iekšu, kurp? (Akk.)",
+            "example": "ins Kino – uz kino"
+          },
+          {
+            "word": "im",
+            "meaning": "iekšā, kur? (Dativ)",
+            "example": "im Kino – kino"
+          },
+          {
+            "word": "in",
+            "meaning": "iekšā / uz (bez artikula)",
+            "example": "in die Stadt – uz pilsētu"
+          },
+          {
+            "word": "aufs",
+            "meaning": "uz virsmu (Akk.)",
+            "example": "aufs Dach – uz jumta"
+          },
+          {
+            "word": "zum",
+            "meaning": "uz / pie (Dativ)",
+            "example": "zum Arzt – pie ārsta"
+          }
+        ],
+        "tip": [
+          "Atceries: in + das → ins (Akkusativ, kurp?).",
+          "Kurp? → ins; kur? → im — šis ir galvenais atšķirības punkts!"
+        ],
+        "important": [
+          "ins = in das, tikai ar nekatras dzimtes lietvārdu Akkusativā.",
+          "Atbild uz kurp?, nevis kur? — kustība, nevis atrašanās vieta.",
+          "Vīriešu dzimtei: in den Wald; sieviešu: in die Schule.",
+          "Nesajauc: ins Kino gehen (uz kino) vs. im Kino sein (būt kino)."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "ins",
+              "in das"
+            ],
+            "purple": [
+              "iekšā",
+              "uz iekšu",
+              "kurp?"
+            ],
+            "green": [
+              "Akkusativ",
+              "kustība"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "ins"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "uz kino"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "ins"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "gulēt"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "ins"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "uz ārzemēm"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "ins"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "mājā"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "ins"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "makā"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "ins"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "uz muzeju"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "ins"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "ūdenī"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "ins"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "uz centru"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "ins"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "uz iekšu",
+                  "kurp?"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "ins Kino"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "im"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "iekšā",
+                  "kur?"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "im Kino"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "in"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "iekšā",
+                  "uz"
+                ]
+              },
+              "example": {
+                "green": [
+                  "in die Stadt"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "aufs"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "uz virsmu"
+                ]
+              },
+              "example": {
+                "green": [
+                  "aufs Dach"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "zum"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "uz",
+                  "pie"
+                ]
+              },
+              "example": {
+                "red": [
+                  "zum Arzt"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "ins"
+              ],
+              "purple": [
+                "in das",
+                "kurp?"
+              ],
+              "red": [
+                "im",
+                "kur?"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "ins"
+              ],
+              "purple": [
+                "in das"
+              ],
+              "green": [
+                "Akkusativ"
+              ]
+            },
+            {
+              "purple": [
+                "kurp?"
+              ],
+              "green": [
+                "kustība"
+              ]
+            },
+            {
+              "yellow": [
+                "in den Wald"
+              ],
+              "green": [
+                "in die Schule"
+              ]
+            },
+            {
+              "blue": [
+                "ins Kino gehen"
+              ],
+              "red": [
+                "im Kino sein"
+              ]
+            }
+          ]
+        }
+      }
+    },
     {
     "de": "ja",
     "lv": "jā",
@@ -10590,6 +11431,7 @@ const A1_WORDS = [
   },
     {
     "de": "der/das Liter",
+    "de_plural": "die Liter",
     "lv": "litrs",
     "level": "A1"
   },
@@ -17578,37 +18420,341 @@ const A1_WORDS = [
     "lv": "pilns",
     "level": "A1"
   },
-    {
-    "de": "vom",
-    "lv": "no",
-    "level": "A1",
-    "study": {
-      "id": "a1-vom",
-      "layout": "standardStudy",
-      "translation": "no",
-      "explanation": [
-        "Galvenā doma: vom ir saīsinājums no von + dem.",
-        "To lieto ar vīriešu un nekatras dzimtes lietvārdiem Dativ locījumā.",
-        "vom atbild uz jautājumu no kā? vai no kurienes?",
-        "Piemēram: vom Bahnhof = no stacijas (der Bahnhof).",
-        "Sarunvalodā vom vietā gandrīz nekad nesaka pilno von dem."
-      ],
-      "examples": [
         {
-          "de": "Ich komme vom Bahnhof.",
-          "lv": "es nāku no stacijas."
-  },
-        {
-          "de": "Das Geschenk ist vom Vater.",
-          "lv": "dāvana ir no tēva."
-  },
-        {
-          "de": "Er kommt vom Arzt.",
-          "lv": "viņš nāk no ārsta."
-  },
-      ]
-  }
-  },
+      "de": "vom",
+      "lv": "no",
+      "level": "A1",
+      "study": {
+        "id": "a1-vom",
+        "layout": "standardStudy",
+        "translation": "no",
+        "explanation": [
+          "vom ir prievārda von un artikula dem saīsinājums.",
+          "Pilnā forma: von dem (Dativ).",
+          "Lieto ar vīriešu un nekatras dzimtes lietvārdiem, kad norāda izcelsmi vai virzienu no kā.",
+          "Atbild uz jautājumiem no kā? vai no kurienes?",
+          "Praksē gandrīz vienmēr lieto vom, nevis pilno von dem."
+        ],
+        "examples": [
+          {
+            "de": "Ich komme vom Bahnhof.",
+            "lv": "es nāku no stacijas."
+          },
+          {
+            "de": "Das Geschenk ist vom Vater.",
+            "lv": "dāvana ir no tēva."
+          },
+          {
+            "de": "Er kommt vom Arzt.",
+            "lv": "viņš nāk no ārsta."
+          },
+          {
+            "de": "Sie fährt vom Flughafen.",
+            "lv": "viņa brauc no lidostas."
+          },
+          {
+            "de": "Das ist vom Markt.",
+            "lv": "tas ir no tirgus."
+          },
+          {
+            "de": "Wir kommen vom Fest.",
+            "lv": "mēs nākam no svinībām."
+          },
+          {
+            "de": "Er holt Milch vom Bauern.",
+            "lv": "viņš paņem pienu no zemnieka."
+          },
+          {
+            "de": "Die Nachricht ist vom Chef.",
+            "lv": "ziņa ir no priekšnieka."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "vom",
+            "meaning": "no (konkrēta lieta, Dativ)",
+            "example": "vom Bahnhof – no stacijas"
+          },
+          {
+            "word": "von",
+            "meaning": "no (vispārīgi)",
+            "example": "von mir – no manis"
+          },
+          {
+            "word": "aus",
+            "meaning": "no iekšienes / izcelsme",
+            "example": "aus Deutschland – no Vācijas"
+          },
+          {
+            "word": "ab",
+            "meaning": "sākot no (laiks/vieta)",
+            "example": "ab Montag – no pirmdienas"
+          },
+          {
+            "word": "zu",
+            "meaning": "uz / pie (pretēja virzienam)",
+            "example": "zum Arzt – pie ārsta"
+          }
+        ],
+        "tip": [
+          "Atceries: von + dem → vom (Dativ).",
+          "Sarunvalodā gandrīz nekad nesaka von dem — lieto vom."
+        ],
+        "important": [
+          "vom = von dem, tikai ar vīriešu vai nekatras dzimtes lietvārdu Dativā.",
+          "Norāda izcelsmi, avotu vai virzienu no kā konkrēta.",
+          "Sieviešu dzimtei: von der Mutter, nevis vom Mutter.",
+          "Nesajauc ar aus (izcelsme no valsts) vai ab (sākuma punkts)."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "vom",
+              "von dem"
+            ],
+            "purple": [
+              "no"
+            ],
+            "green": [
+              "Dativ",
+              "izcelsme"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "vom"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "no stacijas"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "vom"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "no tēva"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "vom"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "no ārsta"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "vom"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "no lidostas"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "vom"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "no tirgus"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "vom"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "no svinībām"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "vom"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "no zemnieka"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "vom"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "no priekšnieka"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "vom"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "no"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "vom Bahnhof"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "von"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "no"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "von mir"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "aus"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "no iekšienes"
+                ]
+              },
+              "example": {
+                "green": [
+                  "aus Deutschland"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "ab"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "sākot no"
+                ]
+              },
+              "example": {
+                "green": [
+                  "ab Montag"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "zu"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "uz",
+                  "pie"
+                ]
+              },
+              "example": {
+                "red": [
+                  "zum Arzt"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "vom"
+              ],
+              "purple": [
+                "von dem",
+                "no"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "vom"
+              ],
+              "purple": [
+                "von dem"
+              ],
+              "green": [
+                "Dativ"
+              ]
+            },
+            {
+              "purple": [
+                "no kā",
+                "no kurienes"
+              ]
+            },
+            {
+              "yellow": [
+                "von der Mutter"
+              ],
+              "red": [
+                "vom Mutter"
+              ]
+            },
+            {
+              "green": [
+                "aus"
+              ],
+              "red": [
+                "ab"
+              ]
+            }
+          ]
+        }
+      }
+    },
     {
     "de": "von",
     "lv": "no",
@@ -19219,37 +20365,349 @@ const A1_WORDS = [
   },
   },
   },
-    {
-    "de": "zum",
-    "lv": "uz • pie",
-    "level": "A1",
-    "study": {
-      "id": "a1-zum",
-      "layout": "standardStudy",
-      "translation": "uz • pie",
-      "explanation": [
-        "Galvenā doma: zum ir saīsinājums no zu + dem.",
-        "To lieto ar vīriešu un nekatras dzimtes lietvārdiem Dativ locījumā.",
-        "zum norāda virzienu vai mērķi: uz kaut ko vai pie kaut kā.",
-        "Piemēram: zum Arzt = pie ārsta, zum Bahnhof = uz staciju.",
-        "Sievišķās dzimtes vārdiem lieto zur (zu + der)."
-      ],
-      "examples": [
         {
-          "de": "Ich gehe zum Arzt.",
-          "lv": "es eju pie ārsta."
-  },
-        {
-          "de": "Wir fahren zum Bahnhof.",
-          "lv": "mēs braucam uz staciju."
-  },
-        {
-          "de": "Sie geht zum Supermarkt.",
-          "lv": "viņa iet uz veikalu."
-  },
-      ]
-  }
-  },
+      "de": "zum",
+      "lv": "uz • pie",
+      "level": "A1",
+      "study": {
+        "id": "a1-zum",
+        "layout": "standardStudy",
+        "translation": "uz • pie",
+        "explanation": [
+          "zum ir prievārda zu un artikula dem saīsinājums.",
+          "Pilnā forma: zu dem (Dativ).",
+          "Lieto ar vīriešu un nekatras dzimtes lietvārdiem, kad norāda virzienu vai mērķi.",
+          "Bieži nozīmē uz kaut ko vai pie kā — pie ārsta, uz staciju, pie drauga.",
+          "Praksē gandrīz vienmēr lieto zum, nevis pilno zu dem."
+        ],
+        "examples": [
+          {
+            "de": "Ich gehe zum Arzt.",
+            "lv": "es eju pie ārsta."
+          },
+          {
+            "de": "Wir fahren zum Bahnhof.",
+            "lv": "mēs braucam uz staciju."
+          },
+          {
+            "de": "Sie geht zum Supermarkt.",
+            "lv": "viņa iet uz veikalu."
+          },
+          {
+            "de": "Komm zum Essen!",
+            "lv": "nāc ēst!"
+          },
+          {
+            "de": "Er fährt zum Flughafen.",
+            "lv": "viņš brauc uz lidostu."
+          },
+          {
+            "de": "Wir gehen zum Konzert.",
+            "lv": "mēs ejam uz koncertu."
+          },
+          {
+            "de": "Das Geschenk ist zum Geburtstag.",
+            "lv": "dāvana ir dzimšanas dienai."
+          },
+          {
+            "de": "Ich gehe zum Friseur.",
+            "lv": "es eju pie friziera."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "zum",
+            "meaning": "uz / pie (Dativ)",
+            "example": "zum Arzt – pie ārsta"
+          },
+          {
+            "word": "zur",
+            "meaning": "uz / pie (siev. dzimte)",
+            "example": "zur Schule – uz skolu"
+          },
+          {
+            "word": "zu",
+            "meaning": "uz / pie / pārāk",
+            "example": "zu Hause – mājās"
+          },
+          {
+            "word": "nach",
+            "meaning": "uz (pilsētas/valstis)",
+            "example": "nach Berlin – uz Berlīni"
+          },
+          {
+            "word": "bei",
+            "meaning": "pie (atrašanās)",
+            "example": "beim Arzt – pie ārsta"
+          }
+        ],
+        "tip": [
+          "Atceries: zu + dem → zum (Dativ).",
+          "Sievišķās dzimtes vārdiem: zu + der → zur."
+        ],
+        "important": [
+          "zum = zu dem, tikai ar vīriešu vai nekatras dzimtes lietvārdu Dativā.",
+          "Norāda virzienu vai mērķi: pie ārsta, uz staciju, pie drauga.",
+          "Sievišķās dzimtei lieto zur: zur Bank, zur Post.",
+          "Nesajauc ar bei (atrašanās pie) vai nach (uz pilsētām bez artikula)."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "zum",
+              "zu dem"
+            ],
+            "purple": [
+              "uz",
+              "pie"
+            ],
+            "green": [
+              "Dativ",
+              "mērķis"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "zum"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "pie ārsta"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "zum"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "uz staciju"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "zum"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "uz veikalu"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "zum"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "ēst"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "zum"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "uz lidostu"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "zum"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "uz koncertu"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "zum"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "dzimšanas dienai"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "zum"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "pie friziera"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "zum"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "uz",
+                  "pie"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "zum Arzt"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "zur"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "uz",
+                  "pie"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "zur Schule"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "zu"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "uz",
+                  "pie",
+                  "pārāk"
+                ]
+              },
+              "example": {
+                "green": [
+                  "zu Hause"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "nach"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "uz"
+                ]
+              },
+              "example": {
+                "green": [
+                  "nach Berlin"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "bei"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "pie"
+                ]
+              },
+              "example": {
+                "red": [
+                  "beim Arzt"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "zum"
+              ],
+              "purple": [
+                "zu dem"
+              ],
+              "yellow": [
+                "zur",
+                "zu der"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "zum"
+              ],
+              "purple": [
+                "zu dem"
+              ],
+              "green": [
+                "Dativ"
+              ]
+            },
+            {
+              "purple": [
+                "uz",
+                "pie"
+              ],
+              "green": [
+                "mērķis"
+              ]
+            },
+            {
+              "yellow": [
+                "zur Bank",
+                "zur Post"
+              ]
+            },
+            {
+              "green": [
+                "bei"
+              ],
+              "red": [
+                "nach"
+              ]
+            }
+          ]
+        }
+      }
+    },
     {
     "de": "zumachen",
     "lv": "aiztaisīt",
