@@ -2620,11 +2620,71 @@ function sessionMatchesActiveGroup() {
     && Array.isArray(state.session.ids);
 }
 
+function reconcileCompletedSessionState() {
+  if (!state.session?.completed) return;
+  if (state.lastCompletedSession?.ids?.length) return;
+  const original = Array.isArray(state.session.originalIds) ? state.session.originalIds : [];
+  const completed = Array.isArray(state.session.completedIds) ? state.session.completedIds : [];
+  const ids = original.length ? original : completed;
+  if (!ids.length) return;
+  state.lastCompletedSession = {
+    groupKey: state.session.groupKey,
+    mode: state.session.mode,
+    ids: ids.slice(),
+    startedAt: state.session.startedAt || state.session.created,
+    completedAt: state.session.completedAt || new Date().toISOString()
+  };
+  saveLastCompletedSession();
+}
+
+function sanitizeActiveSessionIds() {
+  if (!state.session || !Array.isArray(state.session.ids)) return;
+  if (state.session.completed) {
+    reconcileCompletedSessionState();
+    return;
+  }
+
+  const groupKey = state.session.groupKey;
+  const cards = cardsForSessionKey(groupKey);
+  const isResolvable = (id) => cards.some((card) => idForSessionKey(card, groupKey) === id);
+  const resolvableIds = state.session.ids.filter(isResolvable);
+
+  if (resolvableIds.length !== state.session.ids.length) {
+    state.session.ids = resolvableIds;
+    state.session.index = resolvableIds.length
+      ? Math.min(state.session.index || 0, resolvableIds.length - 1)
+      : 0;
+    saveSession();
+  }
+
+  if (state.session.ids.length) return;
+
+  const original = Array.isArray(state.session.originalIds) ? state.session.originalIds : [];
+  const completed = Array.isArray(state.session.completedIds) ? state.session.completedIds : [];
+  if (original.length > 0 && completed.length >= original.length) {
+    state.session.completed = true;
+    state.session.completedAt = state.session.completedAt || new Date().toISOString();
+    reconcileCompletedSessionState();
+    saveSession();
+    return;
+  }
+
+  if (!state.session.total && !original.length) {
+    createSession();
+  }
+}
+
 function ensureSession() {
+  if (state.session?.completed && !state.reviewLastSession) {
+    reconcileCompletedSessionState();
+    return;
+  }
   if (!sessionMatchesActiveGroup()) {
     createSession();
     return;
   }
+  sanitizeActiveSessionIds();
+  if (!state.session) return;
   if (!state.session.shuffled) {
     shuffleSessionIds(state.session);
     saveSession();
@@ -2724,6 +2784,7 @@ function shouldShowSessionCompleteOverlay() {
   if (state.reviewKnown || state.reviewLastSession || state.problemMode || state.timeReviewMode || state.studyTestCard) {
     return false;
   }
+  reconcileCompletedSessionState();
   if (!state.session?.completed || !state.lastCompletedSession?.ids?.length) {
     return false;
   }
@@ -5056,8 +5117,12 @@ function updateStats() {
 
 function renderCard() {
   if (!state.verbMode && !state.problemMode && !state.reviewKnown && !state.reviewLastSession && !state.timeReviewMode && !state.studyTestCard) {
-    ensureSession();
-    normalizeSessionIndex();
+    if (state.session?.completed) {
+      reconcileCompletedSessionState();
+    } else {
+      ensureSession();
+      normalizeSessionIndex();
+    }
   }
   render();
 }

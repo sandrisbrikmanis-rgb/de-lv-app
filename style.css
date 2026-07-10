@@ -7075,6 +7075,10 @@ main,
   font-weight: 600;
 }
 
+.flashcard-plural-row[hidden] {
+  display: none !important;
+}
+
 .flashcard-plural-label {
   font-size: 0.68em;
   text-transform: uppercase;
