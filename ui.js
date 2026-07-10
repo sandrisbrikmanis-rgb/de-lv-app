@@ -3663,6 +3663,7 @@ function normalizeCardSearchValue(value, mode = "plain") {
     .replace(/[•|/]+/g, " ")
     .replace(/[-_]+/g, " ")
     .replace(/\s+/g, " ")
+    .replace(/[!?.…]+$/g, "")
     .trim()
     .toLocaleLowerCase();
   const transliterated = decoded
@@ -3969,7 +3970,17 @@ function findCardByQuery(query) {
   const queryKeys = cardSearchKeys(query);
   if (!queryKeys.length) return null;
 
-  return allEntries().find((entry) => (
+  const decodedQuery = decodeCardQuery(query);
+  const preferSentences = /\s/.test(decodedQuery);
+  const entries = allEntries();
+  const orderedEntries = preferSentences
+    ? [
+        ...entries.filter((entry) => entry.level === "Sätze"),
+        ...entries.filter((entry) => entry.level !== "Sätze"),
+      ]
+    : entries;
+
+  return orderedEntries.find((entry) => (
     cardSearchCandidates(entry).some((candidate) => {
       const candidateKeys = cardSearchKeys(candidate);
       return candidateKeys.some((key) => queryKeys.includes(key));
