@@ -3144,7 +3144,7 @@ const A1_WORDS = [
     "de": "CD",
     "de_article": "die",
     "de_plural": "die CDs",
-    "lv": "cD",
+    "lv": "CD",
     "level": "A1"
   },
     {
