@@ -41,6 +41,14 @@ const MAX_RETRIES = 4;
 const RETRY_BASE_MS = 1500;
 
 const MODEL = "eleven_multilingual_v2";
+const DEFAULT_VOICE_SETTINGS = {
+  // ElevenLabs web app defaults: Stability 50%, Clarity + Similarity 75%, Style 0%.
+  stability: 0.5,
+  similarity_boost: 0.75,
+  style: 0.0,
+  speed: 1.0,
+  use_speaker_boost: true,
+};
 const DEFAULT_GERMAN_VOICE_NAME = "Irene";
 const DEFAULT_GERMAN_VOICE_ID = "8wPhfH9uUzEMHTmRkoAR"; // Irene – Warm, Smart (german native)
 
@@ -239,12 +247,7 @@ async function elevenLabsRequest(apiKey, voiceId, text, attempt = 1) {
       body: JSON.stringify({
         text,
         model_id: MODEL,
-        voice_settings: {
-          stability: 0.45,
-          similarity_boost: 0.8,
-          style: 0.0,
-          use_speaker_boost: true,
-        },
+        voice_settings: DEFAULT_VOICE_SETTINGS,
       }),
     }
   );
