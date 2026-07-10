@@ -1156,6 +1156,38 @@
       margin: 0 0 16px;
     }
 
+    .dual-word-card-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+      margin: 0;
+    }
+
+    .dual-word-card {
+      text-align: center;
+      gap: 12px;
+      padding: 18px 16px;
+    }
+
+    .dual-word-card h3 {
+      font-size: 1.35rem;
+      font-weight: 800;
+    }
+
+    .dual-word-card .comparison-word-de-row {
+      justify-content: center;
+      gap: 12px;
+    }
+
+    .dual-word-card .comparison-word-de-row strong {
+      font-size: 1.15rem;
+    }
+
+    .card.has-study-card[data-study-layout="dualWordStudy"] .card-study-extra {
+      text-align: center;
+      padding-top: 4px;
+    }
+
     .comparison-word-card {
       min-width: 0;
       display: flex;
@@ -1351,6 +1383,10 @@
 
     @media (max-width: 768px) {
       .comparison-card-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .dual-word-card-grid {
         grid-template-columns: 1fr;
       }
     }
