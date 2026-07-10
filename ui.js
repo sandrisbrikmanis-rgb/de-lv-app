@@ -2765,6 +2765,7 @@ function restartCompletedSession() {
   activeSessionStartedAt = startedAt;
   state.verbMode = state.lastCompletedSession.groupKey === "verbs";
   saveSession();
+  updateSessionCompleteOverlay();
   setNotice("Sesija ielādēta no jauna ar jauktu secību.");
   render();
 }
@@ -2800,6 +2801,7 @@ function markSessionAsLearned() {
   saveLastCompletedSession();
   resetCardReveal();
   createSession();
+  updateSessionCompleteOverlay();
   setNotice("Sesijas vārdi pārvietoti uz zināmajiem.");
   render();
 }
@@ -6042,21 +6044,14 @@ if (elements.infoBtn) {
   elements.infoBtn.addEventListener("click", openInfoPopup);
 }
 elements.restoreBtn.addEventListener("click", openRestoreAllConfirm);
-if (elements.sessionCompleteOverlay) {
-  elements.sessionCompleteOverlay.addEventListener("click", (event) => {
-    event.stopPropagation();
-  }, true);
-}
 if (elements.restartSessionBtn) {
   elements.restartSessionBtn.addEventListener("click", (event) => {
-    event.preventDefault();
     event.stopPropagation();
     restartCompletedSession();
   });
 }
 if (elements.markSessionLearnedBtn) {
   elements.markSessionLearnedBtn.addEventListener("click", (event) => {
-    event.preventDefault();
     event.stopPropagation();
     markSessionAsLearned();
   });
