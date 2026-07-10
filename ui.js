@@ -5430,30 +5430,6 @@ function comparisonWordAudioButtonHtml(word, src) {
   return `<button type="button" class="flashcard-audio-btn comparison-word-audio-btn" data-audio-src="${escapeStudyCardText(src)}" aria-label="${escapeStudyCardText(label)}" title="Klausīties"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg></button>`;
 }
 
-function renderDualWordStudyCards(study) {
-  const items = Array.isArray(study?.words) ? study.words : [];
-  if (!items.length) return "";
-  return `
-    <section class="dual-word-card-grid">
-      ${items.map((item, index) => {
-        const accent = item.accent || COMPARISON_WORD_ACCENTS[index % COMPARISON_WORD_ACCENTS.length];
-        const germanWord = String(item.de || item.word || "").trim();
-        const latvianWord = String(item.lv || item.title || "").trim();
-        const audioSrc = comparisonWordAudioSrc(germanWord);
-        return `
-          <article class="comparison-word-card comparison-word-card--${accent} dual-word-card">
-            <h3>${escapeStudyCardText(latvianWord)}</h3>
-            <div class="comparison-word-de-row">
-              <strong>${escapeStudyCardText(germanWord)}</strong>
-              ${comparisonWordAudioButtonHtml(germanWord, audioSrc)}
-            </div>
-          </article>
-        `;
-      }).join("")}
-    </section>
-  `;
-}
-
 function formatLvDisplay(value) {
   const raw = String(value || "").trim();
   if (!raw) return "";
@@ -5480,8 +5456,7 @@ function renderStudyCard(card) {
   if (!study) return false;
   const layout = study.layout || "standardStudy";
   const isComparisonStudy = layout === "comparisonStudy";
-  const isDualWordStudy = layout === "dualWordStudy";
-  const isPairedStudy = isComparisonStudy || isDualWordStudy;
+  const isPairedStudy = isComparisonStudy;
 
   /*
    * standardStudy kvalitātes standarts:
@@ -5497,23 +5472,6 @@ function renderStudyCard(card) {
 
   resetFlashcardAudioControls();
   prepareFlashcardAutoplay(card);
-
-  if (isDualWordStudy) {
-    elements.word.textContent = "";
-    elements.translation.textContent = "";
-    setFlashcardAudioButton(elements.singularAudioBtn, null);
-    setFlashcardAudioButton(elements.singularTranslationAudioBtn, null);
-    elements.hint.textContent = "";
-
-    const cardElement = elements.word.closest(".card");
-    cardElement?.classList.add("has-study-card");
-    cardElement?.classList.remove("has-rich-study-card");
-    if (cardElement) cardElement.dataset.studyLayout = layout;
-
-    elements.cardStudyExtra.hidden = false;
-    elements.cardStudyExtra.innerHTML = renderDualWordStudyCards(study);
-    return true;
-  }
 
   const isGermanToLatvian = state.direction === "de-lv";
   const germanText = formatGermanEntry(card);

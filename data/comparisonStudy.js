@@ -1,22 +1,5 @@
 const COMPARISON_STUDY_CARDS = [
   {
-    id: "compare-kennen-wissen",
-    de: "kennen • wissen",
-    lv: "pazīt • zināt",
-    level: "A1",
-    type: "comparison",
-    study: {
-      layout: "dualWordStudy",
-      id: "compare-kennen-wissen",
-      title: "pazīt • zināt",
-      subtitle: "kennen • wissen",
-      words: [
-        { lv: "pazīt", de: "kennen", accent: "blue" },
-        { lv: "zināt", de: "wissen", accent: "green" }
-      ]
-    }
-  },
-  {
     id: "compare-stehen-stellen",
     de: "stehen • stellen",
     lv: "stāvēt • nolikt stāvus",
