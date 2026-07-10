@@ -121,9 +121,14 @@ function buildJobs(entry) {
 
   if (entry.de_plural) {
     const pluralText = String(entry.de_plural).trim();
+    const parts = pluralText.split(/\s+/);
+    const pluralArticle = parts[0]?.trim();
     jobs.push({
       text: pluralText,
-      filename: buildAudioFilename("plural", pluralText),
+      filename:
+        pluralArticle && /^(der|die|das)$/i.test(pluralArticle)
+          ? buildAudioFilename("plural", pluralArticle, de)
+          : buildAudioFilename("plural", pluralText),
     });
   }
 

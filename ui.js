@@ -3742,8 +3742,14 @@ function a1SingularAudioFile(entry) {
 function a1PluralAudioFile(entry) {
   if (!entry || !CARD_AUDIO_LEVELS.has(entry.level) || entry.level === "Sätze" || !entry.de_plural) return null;
   const dePlural = String(entry.de_plural || "").trim();
+  const de = String(entry.de || "").trim();
   if (!dePlural) return null;
-  return `plural_${sanitizeAudioFilename(dePlural)}.mp3`;
+  const parts = dePlural.split(/\s+/);
+  const article = parts[0]?.trim().toLowerCase();
+  if (article && /^(der|die|das)$/.test(article) && de) {
+    return `plural_${article}_${sanitizeAudioFilename(de)}.mp3`.toLowerCase();
+  }
+  return `plural_${sanitizeAudioFilename(dePlural)}.mp3`.toLowerCase();
 }
 
 function a1AudioSrc(filename) {
