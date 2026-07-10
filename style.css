@@ -1186,6 +1186,17 @@
     .card.has-study-card[data-study-layout="dualWordStudy"] .card-study-extra {
       text-align: center;
       padding-top: 4px;
+      width: 100%;
+    }
+
+    .card.has-study-card[data-study-layout="dualWordStudy"] #flashcardWordRow,
+    .card.has-study-card[data-study-layout="dualWordStudy"] #flashcardTranslationRow,
+    .card.has-study-card[data-study-layout="dualWordStudy"] .hint {
+      display: none !important;
+    }
+
+    .card.has-study-card[data-study-layout="dualWordStudy"] .dual-word-card-grid {
+      width: 100%;
     }
 
     .comparison-word-card {
@@ -1388,6 +1399,13 @@
 
       .dual-word-card-grid {
         grid-template-columns: 1fr;
+        gap: 12px;
+        width: 100%;
+      }
+
+      .card.has-study-card[data-study-layout="dualWordStudy"] .dual-word-card {
+        width: 100%;
+        box-sizing: border-box;
       }
     }
 
