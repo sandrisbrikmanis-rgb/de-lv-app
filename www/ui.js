@@ -5397,6 +5397,8 @@ function comparisonWordAudioButtonHtml(word, src) {
   const label = `Klausīties: ${word}`;
   return `<button type="button" class="flashcard-audio-btn comparison-word-audio-btn" data-audio-src="${escapeStudyCardText(src)}" aria-label="${escapeStudyCardText(label)}" title="Klausīties"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg></button>`;
 }
+
+function formatLvDisplay(value) {
   const raw = String(value || "").trim();
   if (!raw) return "";
   return raw
