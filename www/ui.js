@@ -5322,15 +5322,10 @@ function escapeStudyCardText(value) {
 function formatLvDisplay(value) {
   const raw = String(value || "").trim();
   if (!raw) return "";
-  if (/[.!?]/.test(raw) && !/[;•]/.test(raw)) return raw;
-  const parts = raw
-    .split(/\s*[;•,]\s*/u)
-    .map((part) => part.trim())
-    .filter(Boolean);
-  if (parts.length <= 1) return raw.replace(/\s*•\s*/g, " • ");
-  return parts
-    .map((part) => part.charAt(0).toLocaleUpperCase("lv-LV") + part.slice(1))
-    .join(" • ");
+  return raw
+    .replace(/\s*;\s*/g, "; ")
+    .replace(/\s*•\s*/g, " • ")
+    .replace(/\s*,\s*/g, ", ");
 }
 
 function clearStudyCard() {
