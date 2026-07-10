@@ -3918,6 +3918,7 @@ function setFlashcardAudioButton(button, src) {
 
 function resetFlashcardAudioControls() {
   currentPrimaryAudioSrc = null;
+  lastAutoplayedCardKey = null;
   setFlashcardAudioButton(elements.singularAudioBtn, null);
   setFlashcardAudioButton(elements.singularTranslationAudioBtn, null);
   setFlashcardAudioButton(elements.pluralAudioBtn, null);
