@@ -4074,6 +4074,47 @@ function a1PluralAudioFile(entry) {
   return `plural_${sanitizeAudioFilename(dePlural)}.mp3`.toLowerCase();
 }
 
+function resolveSingularCardAudioSrc(card) {
+  if (!card) return null;
+  const audioCard = { ...card, de: germanAudioStem(card.de) };
+  return a1AudioSrc(a1SingularAudioFile(audioCard));
+}
+
+const AUDIO_DEBUG_TARGETS = new Set(["noch", "lieb", "elf", "sechzigste", "maus", "tomate", "monat", "anfang"]);
+
+function audioDebugStem(card, germanText) {
+  return stripGermanArticle(germanAudioStem(card?.de || germanText || "")).toLowerCase();
+}
+
+function shouldLogAudioDebug(card, germanText) {
+  return AUDIO_DEBUG_TARGETS.has(audioDebugStem(card, germanText));
+}
+
+function activeFlashcardSpeakerAudioSrc() {
+  const buttons = [elements.singularAudioBtn, elements.singularTranslationAudioBtn];
+  for (const btn of buttons) {
+    if (btn && !btn.hidden && btn.dataset.audioSrc) {
+      return btn.dataset.audioSrc;
+    }
+  }
+  return null;
+}
+
+function logCardAudioDebug(card, germanText, singularAudioSrc, context, extra = {}) {
+  if (!shouldLogAudioDebug(card, germanText)) return;
+  const speakerSrc = activeFlashcardSpeakerAudioSrc();
+  console.log("[audio-debug]", {
+    context,
+    cardDe: card?.de,
+    germanText,
+    singularAudioSrc,
+    speakerSrc,
+    currentPrimaryAudioSrc,
+    srcMatch: Boolean(singularAudioSrc && speakerSrc && singularAudioSrc === speakerSrc),
+    ...extra,
+  });
+}
+
 function a1AudioSrc(filename) {
   if (!filename) return null;
   return `${getAudioBasePath()}public/audio/${filename}`;
@@ -4166,13 +4207,23 @@ function shouldAutoplayGermanAudio(isGermanToLatvian) {
 }
 
 function scheduleCardAutoplay(card) {
-  if (!state.audioAutoplay || !currentPrimaryAudioSrc || !card) return;
+  if (!state.audioAutoplay || !card) return;
   if (cardAutoplayScheduled) return;
   const key = cardAutoplaySessionKey(card);
   if (!key || key === lastAutoplayedCardKey) return;
+  const germanText = formatGermanEntry(card);
+  const resolvedSrc = resolveSingularCardAudioSrc(card);
+  const src = activeFlashcardSpeakerAudioSrc() || resolvedSrc || currentPrimaryAudioSrc;
+  logCardAudioDebug(card, germanText, resolvedSrc, "scheduleCardAutoplay", {
+    autoplaySrc: src,
+    autoplayPlayed: Boolean(src),
+    blocked: !src,
+    autoplayKey: key,
+  });
+  if (!src) return;
   lastAutoplayedCardKey = key;
   cardAutoplayScheduled = true;
-  playCardAudio(currentPrimaryAudioSrc, null);
+  playCardAudio(src, null);
 }
 
 function toggleAudioAutoplay() {
@@ -4219,8 +4270,7 @@ function renderWordCardContent(card) {
   const frontText = isDeFront ? germanText : card.lv;
   const backText = isDeFront ? card.lv : germanText;
   const pluralText = card.de_plural ? String(card.de_plural).trim() : "";
-  const audioCard = { ...card, de: germanAudioStem(card.de) };
-  const singularAudioSrc = a1AudioSrc(a1SingularAudioFile(audioCard));
+  const singularAudioSrc = resolveSingularCardAudioSrc(card);
   const pluralAudioSrc = a1AudioSrc(a1PluralAudioFile(card));
   const alternatives = !isDeFront && state.revealed ? splitGermanAlternatives(germanText) : null;
   const audioLabel = germanAudioStem(germanText);
@@ -4230,6 +4280,10 @@ function renderWordCardContent(card) {
   setInlineGermanAudioButtons(singularAudioSrc, audioLabel, {
     onWord: isDeFront,
     onTranslation: !isDeFront && state.revealed && !alternatives,
+  });
+  logCardAudioDebug(card, germanText, singularAudioSrc, "renderWordCardContent", {
+    speakerSrc: activeFlashcardSpeakerAudioSrc(),
+    willAutoplay: shouldAutoplayGermanAudio(isDeFront),
   });
 
   if (!state.revealed) {
@@ -6513,6 +6567,12 @@ document.querySelector(".card")?.addEventListener("click", (event) => {
   if (audioBtn) {
     event.preventDefault();
     event.stopPropagation();
+    const card = currentCard();
+    const germanText = card ? formatGermanEntry(card) : "";
+    logCardAudioDebug(card, germanText, resolveSingularCardAudioSrc(card), "speakerClick", {
+      speakerSrc: audioBtn.dataset.audioSrc,
+      speakerPlayed: Boolean(audioBtn.dataset.audioSrc),
+    });
     replayCardAudio(audioBtn.dataset.audioSrc, audioBtn);
     return;
   }
