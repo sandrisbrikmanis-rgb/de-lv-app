@@ -4170,15 +4170,24 @@ function shouldAutoplayGermanAudio(isGermanToLatvian) {
   return isGermanToLatvian || state.revealed;
 }
 
-function scheduleCardAutoplay(card, autoplayToken = cardAutoplayToken) {
-  if (!card || autoplayToken !== cardAutoplayToken) return;
-  if (!state.audioAutoplay) return;
-  const isGermanToLatvian = state.direction === "de-lv";
-  if (!shouldAutoplayGermanAudio(isGermanToLatvian)) return;
+function getScheduleAutoplaySkipReason(card, autoplayToken, isGermanToLatvian, preferredSrc = null) {
+  if (!card) return "no-card";
+  if (autoplayToken !== cardAutoplayToken) return "stale-token";
+  if (!state.audioAutoplay) return "autoplay-disabled";
+  if (!shouldAutoplayGermanAudio(isGermanToLatvian)) return "not-allowed-by-shouldAutoplay";
   const key = cardAutoplaySessionKey(card);
-  if (!key || key === lastAutoplayedCardKey) return;
-  const src = resolveSingularCardAudioSrc(card) || currentPrimaryAudioSrc;
-  if (!src) return;
+  if (!key) return "no-key";
+  if (key === lastAutoplayedCardKey) return "same-key";
+  const src = preferredSrc || resolveSingularCardAudioSrc(card) || currentPrimaryAudioSrc;
+  if (!src) return "no-src";
+  return null;
+}
+
+function scheduleCardAutoplay(card, autoplayToken = cardAutoplayToken, preferredSrc = null) {
+  const isGermanToLatvian = state.direction === "de-lv";
+  if (getScheduleAutoplaySkipReason(card, autoplayToken, isGermanToLatvian, preferredSrc)) return;
+  const key = cardAutoplaySessionKey(card);
+  const src = preferredSrc || resolveSingularCardAudioSrc(card) || currentPrimaryAudioSrc;
   playCardAudio(src, null, {
     onStarted: () => {
       if (autoplayToken !== cardAutoplayToken) return;
@@ -4258,7 +4267,7 @@ function renderWordCardContent(card, autoplayToken = cardAutoplayToken) {
     if (pluralText) showFlashcardPluralRow(pluralText, pluralAudioSrc);
   }
   if (shouldAutoplayGermanAudio(isDeFront)) {
-    scheduleCardAutoplay(card, autoplayToken);
+    scheduleCardAutoplay(card, autoplayToken, singularAudioSrc);
   }
 }
 
@@ -4267,11 +4276,13 @@ function playCardAudio(src, button, { onStarted } = {}) {
   if (activeCardAudio && !activeCardAudio.paused) {
     activeCardAudio.pause();
     activeCardAudioBtn?.classList.remove("is-playing");
-    if (activeCardAudioBtn === button) {
+    if (button != null && activeCardAudioBtn === button) {
       activeCardAudio = null;
       activeCardAudioBtn = null;
       return;
     }
+    activeCardAudio = null;
+    activeCardAudioBtn = null;
   }
 
   const audio = new Audio(src);
@@ -5831,7 +5842,7 @@ function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
     ? nounArticleAudioSrc(studyVariants[0].article, studyVariants[0].de)
     : (isMinimalStudy
       ? comparisonWordAudioSrc(card.de)
-      : a1AudioSrc(a1SingularAudioFile(card)));
+      : resolveSingularCardAudioSrc(card));
   const pluralText = card.de_plural ? String(card.de_plural).trim() : "";
   const pluralAudioSrc = a1AudioSrc(a1PluralAudioFile(card));
 
@@ -5862,7 +5873,7 @@ function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
     if (pluralText) showFlashcardPluralRow(pluralText, pluralAudioSrc);
   }
   if (!isPairedStudy && shouldAutoplayGermanAudio(isGermanToLatvian)) {
-    scheduleCardAutoplay(card, autoplayToken);
+    scheduleCardAutoplay(card, autoplayToken, singularAudioSrc);
   }
   elements.hint.textContent = state.revealed
     ? ""
