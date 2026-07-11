@@ -6053,9 +6053,24 @@ const A1_WORDS = [
     {
     "de": "Ferien",
     "de_article": "die",
-    "de_plural": "die Feriens",
-    "lv": "brīvdienas",
-    "level": "A1"
+    "lv": "brīvdienas • nedēļas nogale",
+    "level": "A1",
+    "study": {
+      "id": "a1-ferien-wochenende",
+      "layout": "minimalStudy",
+      "translation": "brīvdienas • nedēļas nogale",
+      "accent": "blue",
+      "variants": [
+        {
+          "article": "die",
+          "de": "Ferien"
+        },
+        {
+          "article": "das",
+          "de": "Wochenende"
+        }
+      ]
+    }
   },
     {
     "de": "Fernsehen",
