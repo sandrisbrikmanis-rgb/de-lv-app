@@ -5590,7 +5590,7 @@ function escapeStudyCardText(value) {
     .replace(/'/g, "&#39;");
 }
 
-const COMPARISON_WORD_ACCENTS = ["blue", "green", "yellow", "red"];
+const COMPARISON_WORD_ACCENTS = ["blue", "green", "lightGreen", "yellow", "red", "orange", "darkGreen"];
 
 function comparisonWordAudioSrc(word) {
   const bare = stripGermanArticle(String(word || "").trim());
@@ -5618,6 +5618,7 @@ function clearStudyCard() {
   cardElement?.classList.remove("has-study-card");
   cardElement?.classList.remove("has-rich-study-card");
   cardElement?.classList.remove("has-minimal-study-card");
+  cardElement?.classList.remove("has-minimal-study-extra");
   for (const accent of COMPARISON_WORD_ACCENTS) {
     cardElement?.classList.remove(`minimal-study-card--${accent}`);
   }
@@ -5706,6 +5707,26 @@ function renderStudyCard(card) {
       elements.translation.className = `minimal-study-de minimal-study-de--${accent}`;
     } else if (elements.translation) {
       elements.translation.className = "";
+    }
+    const hasMinimalExtra = Boolean(
+      state.revealed
+      && (study.forms || (Array.isArray(study.examples) && study.examples.length))
+    );
+    cardElement?.classList.toggle("has-minimal-study-extra", hasMinimalExtra);
+    if (hasMinimalExtra && elements.cardStudyExtra) {
+      const formsHtml = study.forms
+        ? `<p class="minimal-study-forms"><strong>Formas:</strong> ${escapeStudyCardText(study.forms)}</p>`
+        : "";
+      const examplesHtml = Array.isArray(study.examples) && study.examples.length
+        ? `<div class="minimal-study-examples">${study.examples.map((example) => `
+            <p class="minimal-study-example">
+              <span>${escapeStudyCardText(example.de)}</span>
+              <span class="minimal-study-example-sep">=</span>
+              <span>${escapeStudyCardText(example.lv)}</span>
+            </p>`).join("")}</div>`
+        : "";
+      elements.cardStudyExtra.hidden = false;
+      elements.cardStudyExtra.innerHTML = formsHtml + examplesHtml;
     }
     return true;
   }

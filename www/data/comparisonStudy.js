@@ -162,8 +162,10 @@ function createMinimalStudyCard(config) {
     study: {
       layout: "minimalStudy",
       id: config.id,
-      translation: config.lv,
-      accent: config.accent
+      translation: config.title || config.lv,
+      accent: config.accent,
+      forms: config.forms || "",
+      examples: Array.isArray(config.examples) ? config.examples : []
     }
   };
 }
@@ -251,6 +253,51 @@ COMPARISON_STUDY_CARDS.push(
     lv: "aiziet pakaļ",
     de: "holen",
     accent: "green"
+  }),
+  createMinimalStudyCard({
+    id: "study-ansehen",
+    title: "apskatīt • skatīties / ansehen",
+    lv: "apskatīt • skatīties",
+    de: "ansehen",
+    accent: "green",
+    forms: "sieht an, sah an, hat angesehen",
+    examples: [
+      { de: "Ich möchte mir die Wohnung ansehen.", lv: "Es gribu apskatīt dzīvokli." },
+      { de: "Wir sehen uns heute einen Film an.", lv: "Mēs šodien skatāmies filmu." },
+      { de: "Ich sehe ihn als Freund an.", lv: "Es viņu uzskatu par draugu." }
+    ]
+  }),
+  createMinimalStudyCard({
+    id: "study-sehen",
+    title: "redzēt / sehen",
+    lv: "redzēt",
+    de: "sehen",
+    accent: "lightGreen",
+    examples: [
+      { de: "Ich sehe das Haus.", lv: "Es redzu māju." }
+    ]
+  }),
+  createMinimalStudyCard({
+    id: "study-anschauen",
+    title: "skatīties • apskatīt / anschauen",
+    lv: "skatīties • apskatīt",
+    de: "anschauen",
+    accent: "orange",
+    forms: "schaut an, schaute an, hat angeschaut",
+    examples: [
+      { de: "Ich schaue mir den Film an.", lv: "Es skatos filmu." }
+    ]
+  }),
+  createMinimalStudyCard({
+    id: "study-betrachten",
+    title: "aplūkot • uzskatīt / betrachten",
+    lv: "aplūkot • uzskatīt",
+    de: "betrachten",
+    accent: "darkGreen",
+    forms: "betrachtet, betrachtete, hat betrachtet",
+    examples: [
+      { de: "Ich betrachte das Problem anders.", lv: "Es uzskatu problēmu citādi." }
+    ]
   }),
   createComparisonStudyCard({
     id: "compare-sehen-schauen-ansehen",
