@@ -7711,16 +7711,12 @@ body.is-home-screen .home-app-shell {
 }
 
 @media (max-width: 768px) {
-  /* Mobilais dizains – slīpās joslas, oficiālais ģerbonis fonā */
+  /* Mobilais dizains – dzeltens fons, košas pogas */
   body.is-home-screen {
     overflow-x: hidden;
     overflow-y: hidden;
-    background-color: #0b0b0c !important;
-    background-image: url("./public/bundesadler-coat-of-arms.svg") !important;
-    background-size: 78% auto !important;
-    background-position: center 18% !important;
-    background-repeat: no-repeat !important;
-    background-attachment: fixed !important;
+    background-color: #EAC117 !important;
+    background-image: none !important;
   }
 
   body.is-home-screen main.home-main {
@@ -7744,16 +7740,7 @@ body.is-home-screen .home-app-shell {
   }
 
   .home-menu-backdrop {
-    display: block;
-    position: fixed;
-    inset: 0;
-    background-image: url("./public/bundesadler-coat-of-arms.svg");
-    background-size: 78% auto;
-    background-position: center 18%;
-    background-repeat: no-repeat;
-    opacity: 0.08;
-    pointer-events: none;
-    z-index: 0;
+    display: none !important;
   }
 
   .home-menu-header {
@@ -7763,16 +7750,16 @@ body.is-home-screen .home-app-shell {
   }
 
   .home-menu-header h1 {
-    color: #ffffff;
+    color: #000000;
     font-size: clamp(1.25rem, 4.2vw, 1.6rem);
-    text-shadow: 0 2px 18px rgba(0, 0, 0, 0.6);
+    text-shadow: none;
   }
 
   .home-menu-header .subtitle {
-    color: #ffffff;
+    color: #1a1a1a;
     font-size: 0.82rem;
     margin-top: 4px;
-    text-shadow: 0 1px 12px rgba(0, 0, 0, 0.5);
+    text-shadow: none;
   }
 
   .home-menu-groups {
@@ -7826,23 +7813,27 @@ body.is-home-screen .home-app-shell {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8) !important;
   }
 
-  /* Krāsas: #000000, #9F000F, #EAC117 */
+  /* Melnās pogas (1–3) – pilns #000000 */
   .menu-button-container:nth-child(1) button,
   .menu-button-container:nth-child(2) button,
   .menu-button-container:nth-child(3) button {
-    background: rgba(0, 0, 0, 0.8) !important;
+    background: #000000 !important;
   }
 
+  /* Sarkanās pogas (4–6) – pilns #9F000F */
   .menu-button-container:nth-child(4) button,
   .menu-button-container:nth-child(5) button,
   .menu-button-container:nth-child(6) button {
-    background: rgba(159, 0, 15, 0.55) !important;
+    background: #9F000F !important;
   }
 
+  /* Baltais stikls (7–9) – izceļas uz dzeltenā fona */
   .menu-button-container:nth-child(7) button,
   .menu-button-container:nth-child(8) button,
   .menu-button-container:nth-child(9) button {
-    background: rgba(234, 193, 23, 0.5) !important;
+    background: rgba(255, 255, 255, 0.85) !important;
+    border: 1px solid rgba(0, 0, 0, 0.1) !important;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15) !important;
   }
 
   .menu-button-container:nth-child(1) button span,
@@ -7867,7 +7858,7 @@ body.is-home-screen .home-app-shell {
   .menu-button-container:nth-child(8) button div,
   .menu-button-container:nth-child(9) button span,
   .menu-button-container:nth-child(9) button div {
-    color: #111111 !important;
+    color: #000000 !important;
     text-shadow: none !important;
   }
 
