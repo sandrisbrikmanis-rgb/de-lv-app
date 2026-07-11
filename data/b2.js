@@ -4842,7 +4842,7 @@ const B2_WORDS = [
   {
     "de": "Flur",
     "de_article": "die",
-    "de_plural": "die Flure",
+    "de_plural": "die Fluren",
     "lv": "lauks • klajums",
     "level": "B2"
   },
@@ -5314,7 +5314,7 @@ const B2_WORDS = [
   },
   {
     "de": "Gefallen",
-    "de_article": "das",
+    "de_article": "der",
     "de_plural": "die Gefallen",
     "lv": "patikšana • patika",
     "level": "B2"
@@ -10697,7 +10697,7 @@ const B2_WORDS = [
   {
     "de": "Tor",
     "de_article": "der",
-    "de_plural": "die Tore",
+    "de_plural": "die Toren",
     "lv": "muļķis • nelga",
     "level": "B2"
   },
@@ -11485,7 +11485,7 @@ const B2_WORDS = [
   },
   {
     "de": "Verdienst",
-    "de_article": "das",
+    "de_article": "der",
     "de_plural": "die Verdienste",
     "lv": "nopelns",
     "level": "B2"

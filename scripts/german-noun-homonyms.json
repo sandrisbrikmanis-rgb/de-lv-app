@@ -19,8 +19,11 @@
   { "noun": "Tor", "lv": "muļķis", "article": "der" },
   { "noun": "Moment", "lv": "brīdis", "article": "der" },
   { "noun": "Moment", "lv": "izšķirošais", "article": "das" },
-  { "noun": "Gefallen", "lv": "patikšana", "article": "das" },
-  { "noun": "Gefallen", "lv": "pakalpojums", "article": "der" },
+  { "noun": "Gefallen", "lv": "patikšana", "article": "der" },
+  { "noun": "Gefallen", "lv": "pakalpojums", "article": "das" },
+  { "noun": "Fremde", "lv": "svešums", "article": "die" },
+  { "noun": "Fremde", "lv": "svešatne", "article": "die" },
+  { "noun": "Fremde", "lv": "svešinieks", "article": "der" },
   { "noun": "Weise", "lv": "veids", "article": "die" },
   { "noun": "Weise", "lv": "gudr", "article": "der" },
   { "noun": "Aerobic", "lv": "aerobik", "article": "das" }

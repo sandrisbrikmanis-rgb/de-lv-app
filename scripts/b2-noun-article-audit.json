@@ -1,0 +1,25 @@
+{
+  "generatedAt": "2026-07-11T12:07:14.676Z",
+  "stats": {
+    "totalEntries": 2110,
+    "nouns": 1165,
+    "withArticle": 1165,
+    "missingArticle": 0,
+    "missingPlural": 0,
+    "legacyFormat": 0,
+    "wrongArticle": 0,
+    "notInLookup": 0,
+    "lowercaseNoun": 0,
+    "capitalizedNoArticle": 0,
+    "lowercaseInLookup": 0,
+    "pluralNoArticle": 0
+  },
+  "missingArticle": [],
+  "missingPlural": [],
+  "wrongArticle": [],
+  "legacyFormat": [],
+  "lowercaseNouns": [],
+  "capitalizedNoArticle": [],
+  "lowercaseInLookup": [],
+  "pluralNoArticle": []
+}
