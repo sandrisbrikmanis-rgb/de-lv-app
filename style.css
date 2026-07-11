@@ -7712,11 +7712,19 @@ body.is-home-screen .home-app-shell {
 
 @media (max-width: 768px) {
   /* Mobilais dizains – dzeltens fons, košas pogas */
+  html.is-home-screen,
+  body.is-home-screen,
+  body.is-home-screen main.home-main,
+  body.is-home-screen .home-app-shell,
+  body.is-home-screen .home-menu-screen {
+    background-color: #EAC117 !important;
+    background-image: none !important;
+    color-scheme: light only !important;
+  }
+
   body.is-home-screen {
     overflow-x: hidden;
     overflow-y: hidden;
-    background-color: #EAC117 !important;
-    background-image: none !important;
   }
 
   body.is-home-screen main.home-main {
@@ -7733,7 +7741,6 @@ body.is-home-screen .home-app-shell {
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    background: transparent;
     border: none;
     border-radius: 0;
     box-shadow: none;
@@ -7750,16 +7757,16 @@ body.is-home-screen .home-app-shell {
   }
 
   .home-menu-header h1 {
-    color: #000000;
+    color: #000000 !important;
     font-size: clamp(1.25rem, 4.2vw, 1.6rem);
-    text-shadow: none;
+    text-shadow: none !important;
   }
 
   .home-menu-header .subtitle {
-    color: #1a1a1a;
+    color: #1a1a1a !important;
     font-size: 0.82rem;
     margin-top: 4px;
-    text-shadow: none;
+    text-shadow: none !important;
   }
 
   .home-menu-groups {
@@ -7792,9 +7799,13 @@ body.is-home-screen .home-app-shell {
     display: flex !important;
     justify-content: space-between !important;
     align-items: center !important;
-    background: transparent !important;
     min-height: 0 !important;
     transform: none !important;
+    -webkit-appearance: none !important;
+    appearance: none !important;
+    forced-color-adjust: none;
+    color-scheme: light only !important;
+    background-image: none !important;
   }
 
   .home-menu-groups .menu-button-container button:hover,
@@ -7817,23 +7828,29 @@ body.is-home-screen .home-app-shell {
   .menu-button-container:nth-child(1) button,
   .menu-button-container:nth-child(2) button,
   .menu-button-container:nth-child(3) button {
-    background: #000000 !important;
+    background-color: #000000 !important;
+    background-image: none !important;
+    color: #ffffff !important;
   }
 
   /* Sarkanās pogas (4–6) – pilns #9F000F */
   .menu-button-container:nth-child(4) button,
   .menu-button-container:nth-child(5) button,
   .menu-button-container:nth-child(6) button {
-    background: #9F000F !important;
+    background-color: #9F000F !important;
+    background-image: none !important;
+    color: #ffffff !important;
   }
 
   /* Baltais stikls (7–9) – izceļas uz dzeltenā fona */
   .menu-button-container:nth-child(7) button,
   .menu-button-container:nth-child(8) button,
   .menu-button-container:nth-child(9) button {
-    background: rgba(255, 255, 255, 0.85) !important;
+    background-color: rgba(255, 255, 255, 0.85) !important;
+    background-image: none !important;
     border: 1px solid rgba(0, 0, 0, 0.1) !important;
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15) !important;
+    color: #000000 !important;
   }
 
   .menu-button-container:nth-child(1) button span,
@@ -7867,5 +7884,75 @@ body.is-home-screen .home-app-shell {
     top: 0;
     z-index: 5;
     margin-bottom: 10px;
+  }
+}
+
+/* Mobilā sākuma ekrāna krāsu aizsardzība pret sistēmas Dark Mode */
+@media (max-width: 768px) and (prefers-color-scheme: dark) {
+  html.is-home-screen,
+  body.is-home-screen,
+  body.is-home-screen main.home-main,
+  body.is-home-screen .home-app-shell,
+  body.is-home-screen .home-menu-screen {
+    background-color: #EAC117 !important;
+    background-image: none !important;
+    color-scheme: light only !important;
+  }
+
+  body.is-home-screen .home-menu-header h1 {
+    color: #000000 !important;
+  }
+
+  body.is-home-screen .home-menu-header .subtitle {
+    color: #1a1a1a !important;
+  }
+
+  body.is-home-screen .menu-button-container:nth-child(1) button,
+  body.is-home-screen .menu-button-container:nth-child(2) button,
+  body.is-home-screen .menu-button-container:nth-child(3) button {
+    background-color: #000000 !important;
+    background-image: none !important;
+    color: #ffffff !important;
+  }
+
+  body.is-home-screen .menu-button-container:nth-child(4) button,
+  body.is-home-screen .menu-button-container:nth-child(5) button,
+  body.is-home-screen .menu-button-container:nth-child(6) button {
+    background-color: #9F000F !important;
+    background-image: none !important;
+    color: #ffffff !important;
+  }
+
+  body.is-home-screen .menu-button-container:nth-child(7) button,
+  body.is-home-screen .menu-button-container:nth-child(8) button,
+  body.is-home-screen .menu-button-container:nth-child(9) button {
+    background-color: rgba(255, 255, 255, 0.85) !important;
+    background-image: none !important;
+    color: #000000 !important;
+    border: 1px solid rgba(0, 0, 0, 0.1) !important;
+  }
+
+  body.is-home-screen .menu-button-container:nth-child(1) button span,
+  body.is-home-screen .menu-button-container:nth-child(1) button div,
+  body.is-home-screen .menu-button-container:nth-child(2) button span,
+  body.is-home-screen .menu-button-container:nth-child(2) button div,
+  body.is-home-screen .menu-button-container:nth-child(3) button span,
+  body.is-home-screen .menu-button-container:nth-child(3) button div,
+  body.is-home-screen .menu-button-container:nth-child(4) button span,
+  body.is-home-screen .menu-button-container:nth-child(4) button div,
+  body.is-home-screen .menu-button-container:nth-child(5) button span,
+  body.is-home-screen .menu-button-container:nth-child(5) button div,
+  body.is-home-screen .menu-button-container:nth-child(6) button span,
+  body.is-home-screen .menu-button-container:nth-child(6) button div {
+    color: #ffffff !important;
+  }
+
+  body.is-home-screen .menu-button-container:nth-child(7) button span,
+  body.is-home-screen .menu-button-container:nth-child(7) button div,
+  body.is-home-screen .menu-button-container:nth-child(8) button span,
+  body.is-home-screen .menu-button-container:nth-child(8) button div,
+  body.is-home-screen .menu-button-container:nth-child(9) button span,
+  body.is-home-screen .menu-button-container:nth-child(9) button div {
+    color: #000000 !important;
   }
 }
