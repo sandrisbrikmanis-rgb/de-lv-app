@@ -48969,7 +48969,7 @@ const A2_WORDS = [
   },
   {
     "de": "nebeneinander",
-    "lv": "blakus",
+    "lv": "blakus viens otram",
     "level": "A2"
   },
   {
