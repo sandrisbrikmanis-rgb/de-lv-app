@@ -289,17 +289,13 @@ COMPARISON_STUDY_CARDS.push(
       { de: "Ich schaue mir den Film an.", lv: "Es skatos filmu." }
     ]
   }),
-  createMinimalStudyCard({
+  {
     id: "study-betrachten",
-    title: "aplūkot • uzskatīt / betrachten",
-    lv: "aplūkot • uzskatīt",
     de: "betrachten",
-    accent: "darkGreen",
-    forms: "betrachtet, betrachtete, hat betrachtet",
-    examples: [
-      { de: "Ich betrachte das Problem anders.", lv: "Es uzskatu problēmu citādi." }
-    ]
-  }),
+    lv: "aplūkot • uzskatīt",
+    level: "A2",
+    type: "comparison"
+  },
   createComparisonStudyCard({
     id: "compare-sehen-schauen-ansehen",
     title: "redzēt • skatīties • apskatīt",
