@@ -16563,7 +16563,7 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "bereit",
+    "de": "fertig / bereit",
     "lv": "gatavs",
     "level": "A2"
   },
@@ -35626,8 +35626,8 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "gar",
-    "lv": "gatavs • ļoti • visai • pavisam",
+    "de": "gar (piem. „gar nicht“ – pavisam nē)",
+    "lv": "pavisam • visai (nolieguma teikumos)",
     "level": "A2"
   },
     {

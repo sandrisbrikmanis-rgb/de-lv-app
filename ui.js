@@ -4016,9 +4016,23 @@ function sanitizeAudioFilename(text) {
 
 const CARD_AUDIO_LEVELS = new Set(["A1", "A2", "B1", "B2", "C1", "C2", "Sätze"]);
 
+function germanAudioStem(text) {
+  const raw = String(text || "").trim();
+  if (!raw) return "";
+  const withoutNote = raw.split(/\s*\(/)[0].trim();
+  return withoutNote.split(/\s*\/\s*/)[0].trim();
+}
+
+function splitGermanAlternatives(text) {
+  const raw = String(text || "").trim().split(/\s*\(/)[0].trim();
+  if (!raw.includes("/")) return null;
+  const parts = raw.split(/\s*\/\s*/).map((part) => part.trim()).filter(Boolean);
+  return parts.length > 1 ? parts : null;
+}
+
 function a1SingularAudioFile(entry) {
   if (!entry || !CARD_AUDIO_LEVELS.has(entry.level)) return null;
-  const de = String(entry.de || "").trim();
+  const de = germanAudioStem(entry.de);
   if (!de) return null;
   if (entry.level === "Sätze") {
     return `${sanitizeAudioFilename(de)}.mp3`;
@@ -4172,6 +4186,14 @@ function a1AudioForBareWord(de) {
   return entry ? a1AudioSrc(a1SingularAudioFile(entry)) : null;
 }
 
+function renderGermanAlternativesTranslation(alternatives) {
+  return alternatives.map((word, index) => {
+    const src = a1AudioSrc(`${sanitizeAudioFilename(word)}.mp3`);
+    const btn = comparisonWordAudioButtonHtml(word, src);
+    return `${index > 0 ? " / " : ""}${escapeHtml(word)}${btn}`;
+  }).join("");
+}
+
 function renderWordCardContent(card) {
   prepareFlashcardAutoplay(card);
   resetFlashcardAudioControls();
@@ -4180,23 +4202,31 @@ function renderWordCardContent(card) {
   const frontText = isDeFront ? germanText : card.lv;
   const backText = isDeFront ? card.lv : germanText;
   const pluralText = card.de_plural ? String(card.de_plural).trim() : "";
-  const singularAudioSrc = a1AudioSrc(a1SingularAudioFile(card));
+  const audioCard = { ...card, de: germanAudioStem(card.de) };
+  const singularAudioSrc = a1AudioSrc(a1SingularAudioFile(audioCard));
   const pluralAudioSrc = a1AudioSrc(a1PluralAudioFile(card));
+  const alternatives = !isDeFront && state.revealed ? splitGermanAlternatives(germanText) : null;
+  const audioLabel = germanAudioStem(germanText);
 
   elements.word.textContent = frontText;
-  setPrimaryCardAudio(singularAudioSrc, `Klausīties: ${germanText}`);
-  setInlineGermanAudioButtons(singularAudioSrc, germanText, {
+  setPrimaryCardAudio(singularAudioSrc, `Klausīties: ${audioLabel}`);
+  setInlineGermanAudioButtons(singularAudioSrc, audioLabel, {
     onWord: isDeFront,
-    onTranslation: !isDeFront && state.revealed,
+    onTranslation: !isDeFront && state.revealed && !alternatives,
   });
 
   if (!state.revealed) {
     elements.translation.textContent = "";
+    elements.translation.innerHTML = "";
+  } else if (alternatives) {
+    elements.translation.innerHTML = renderGermanAlternativesTranslation(alternatives);
   } else if (isDeFront) {
     elements.translation.textContent = backText;
+    elements.translation.innerHTML = "";
     if (pluralText) showFlashcardPluralRow(pluralText, pluralAudioSrc);
   } else {
     elements.translation.textContent = backText;
+    elements.translation.innerHTML = "";
     if (pluralText) showFlashcardPluralRow(pluralText, pluralAudioSrc);
   }
   if (shouldAutoplayGermanAudio(isDeFront)) {
