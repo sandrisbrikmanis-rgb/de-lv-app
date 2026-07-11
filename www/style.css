@@ -7530,14 +7530,10 @@ main,
 
 /* ── Galvenā izvēlne un apakšekrāna navigācija ── */
 
+/* PC (noklusējums) – stabils dizains bez slīpuma */
 body.is-home-screen {
-  overflow-x: hidden;
-  overflow-y: hidden;
-  background-color: #0d0d0d !important;
-  background-image: url("./public/german-eagle.svg");
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-color: #000000 !important;
+  background-image: none;
 }
 
 body.is-home-screen main.home-main,
@@ -7548,141 +7544,128 @@ body.is-home-screen .home-app-shell {
 
 .home-menu-screen {
   position: relative;
-  min-height: 100vh;
-  min-height: 100dvh;
-  max-height: 100dvh;
-  padding: 10px 0 12px;
-  overflow: hidden;
+  min-height: auto;
+  padding: 20px;
+  overflow: visible;
   isolation: isolate;
-  display: flex;
-  flex-direction: column;
+  background: linear-gradient(145deg, #202120, #171918);
+  border: 1px solid #4b504c;
+  border-radius: 12px;
+  box-shadow: 0 18px 45px rgba(22, 32, 51, 0.11);
 }
 
 .home-menu-backdrop {
-  position: fixed;
-  inset: 0;
-  background-image: url("./public/german-eagle.svg");
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  opacity: 0.15;
-  pointer-events: none;
-  z-index: 0;
+  display: none;
 }
 
 .home-menu-header,
 .home-menu-groups {
   position: relative;
-  z-index: 2;
+  z-index: 1;
 }
 
 .home-menu-header {
   text-align: center;
-  padding: 8px 16px 12px;
-  flex-shrink: 0;
+  padding: 0 0 18px;
 }
 
 .home-menu-header h1 {
   margin: 0;
-  color: #ffffff;
-  font-size: clamp(1.35rem, 4.5vw, 1.9rem);
-  line-height: 1.1;
+  color: #f7f8fa;
+  font-size: clamp(1.65rem, 4vw, 2.4rem);
+  line-height: 1.08;
   font-weight: 800;
-  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.6);
 }
 
 .home-menu-header .subtitle {
-  margin: 6px 0 0;
-  color: #ffffff;
-  font-size: 0.9rem;
-  font-weight: 600;
-  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.5);
+  margin: 7px 0 0;
+  color: #aeb7c5;
+  font-size: 1rem;
 }
 
 .home-menu-groups {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
   width: 100%;
   padding: 0;
-  overflow: hidden;
+  overflow: visible;
 }
 
-/* 1. SAMAZINĀM IZMĒRUS, LAI NOŅEMTU SCROLL */
-.menu-button-container {
-  width: 106% !important;
-  margin-left: -3% !important;
-  margin-bottom: 4px !important;
-  transform: skewY(-4deg) !important;
-  overflow: hidden !important;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
-}
-
-.menu-button-container button {
-  width: 100% !important;
-  padding: 12px 24px !important;
-  border: none !important;
-  border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
-  border-radius: 0 !important;
-  backdrop-filter: blur(15px) !important;
-  -webkit-backdrop-filter: blur(15px) !important;
-  display: flex !important;
-  justify-content: space-between !important;
-  align-items: center !important;
-  background: transparent !important;
-  min-height: 0 !important;
+.home-menu-groups button.main-menu-btn {
+  display: block;
+  width: 100%;
+  min-height: 54px;
+  margin: 0;
+  padding: 0 !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  border-radius: 12px !important;
+  transform: none !important;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
   cursor: pointer;
   font: inherit;
-  transform: none !important;
+  transition: transform 120ms ease, border-color 120ms ease, box-shadow 120ms ease;
 }
 
-.home-menu-groups .menu-button-container button:hover,
-.home-menu-groups .menu-button-container button:active {
-  transform: none !important;
+.home-menu-groups button.main-menu-btn:hover {
+  transform: translateY(-1px) !important;
+  border-color: rgba(255, 255, 255, 0.34) !important;
 }
 
-.menu-button-container button span,
-.menu-button-container button div {
-  transform: skewY(4deg) !important;
+.home-menu-groups button.main-menu-btn:active {
+  transform: translateY(0) !important;
+}
+
+.home-menu-groups button.main-menu-btn.menu-black {
+  background: rgba(0, 0, 0, 0.45) !important;
   color: #ffffff !important;
-  font-weight: bold !important;
-  font-size: 1.05rem !important;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8) !important;
 }
 
-/* 2. JAUNA KRĀSU LOĢIKA - TRĪS TĪRI BLOKI (BEZ ATKĀRTOŠANĀS) */
-
-/* Pirmās 3 pogas (A1, A2, B1) - MELNAIS STIKLS */
-.menu-button-container:nth-child(1) button,
-.menu-button-container:nth-child(2) button,
-.menu-button-container:nth-child(3) button {
-  background: rgba(15, 15, 15, 0.55) !important;
+.home-menu-groups button.main-menu-btn.menu-red {
+  background: rgba(220, 0, 0, 0.35) !important;
+  color: #ffffff !important;
 }
 
-/* Nākamās 3 pogas (B2, C1, C2) - SARKANAIS STIKLS */
-.menu-button-container:nth-child(4) button,
-.menu-button-container:nth-child(5) button,
-.menu-button-container:nth-child(6) button {
-  background: rgba(190, 0, 0, 0.35) !important;
+.home-menu-groups button.main-menu-btn.menu-gold {
+  background: rgba(255, 206, 0, 0.35) !important;
+  color: #000000 !important;
 }
 
-/* Pēdējās 3 pogas (Teikumi, Kurss, Darbības vārdi) - ZELTA/DZELTENAIS STIKLS */
-.menu-button-container:nth-child(7) button,
-.menu-button-container:nth-child(8) button,
-.menu-button-container:nth-child(9) button {
-  background: rgba(255, 190, 0, 0.3) !important;
+.main-menu-btn-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+  min-height: 54px;
+  padding: 12px 16px;
+  transform: none;
+  box-sizing: border-box;
 }
 
-/* Zelta pogu tekstam uzliekam melnu krāsu labākam kontrastam */
-.menu-button-container:nth-child(7) button span,
-.menu-button-container:nth-child(7) button div,
-.menu-button-container:nth-child(8) button span,
-.menu-button-container:nth-child(8) button div,
-.menu-button-container:nth-child(9) button span,
-.menu-button-container:nth-child(9) button div {
-  color: #111111 !important;
-  text-shadow: none !important;
+.main-menu-btn-label {
+  font-size: 1rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+
+.main-menu-btn-count {
+  font-size: 0.92rem;
+  font-weight: 800;
+}
+
+.home-menu-groups button.main-menu-btn.menu-black .main-menu-btn-label,
+.home-menu-groups button.main-menu-btn.menu-black .main-menu-btn-count,
+.home-menu-groups button.main-menu-btn.menu-red .main-menu-btn-label,
+.home-menu-groups button.main-menu-btn.menu-red .main-menu-btn-count {
+  color: #ffffff !important;
+}
+
+.home-menu-groups button.main-menu-btn.menu-gold .main-menu-btn-label,
+.home-menu-groups button.main-menu-btn.menu-gold .main-menu-btn-count {
+  color: #000000 !important;
 }
 
 .group-detail-screen {
@@ -7696,14 +7679,6 @@ body.is-home-screen .home-app-shell {
 
 .home-menu-screen[hidden] {
   display: none !important;
-}
-
-body.is-home-screen .home-menu-backdrop {
-  display: block;
-}
-
-body.is-detail-screen .home-menu-backdrop {
-  display: none;
 }
 
 .nav-back-btn {
@@ -7726,10 +7701,9 @@ body.is-detail-screen .home-menu-backdrop {
 }
 
 body.is-home-screen main.home-main {
-  width: 100%;
-  max-width: 100%;
-  margin: 0;
-  padding: 0;
+  width: min(980px, calc(100% - 28px));
+  margin: 0 auto;
+  padding: 28px 0;
 }
 
 body.is-home-screen .home-app-shell {
@@ -7737,48 +7711,146 @@ body.is-home-screen .home-app-shell {
 }
 
 @media (max-width: 768px) {
+  /* Mobilais dizains – slīpās joslas, trīs krāsu bloki, ērglis fonā */
   body.is-home-screen {
-    background-size: 120% auto;
-    background-position: center 40%;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-image: url("./public/german-eagle.svg") !important;
+    background-size: 80% !important;
+    background-position: center 20% !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    background-color: #0b0b0c !important;
+  }
+
+  body.is-home-screen main.home-main {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
   }
 
   .home-menu-screen {
     min-height: 100dvh;
     max-height: 100dvh;
     padding: 8px 0 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
   }
 
   .home-menu-backdrop {
-    background-size: 120% auto;
-    background-position: center 40%;
+    display: block;
+    position: fixed;
+    inset: 0;
+    background-image: url("./public/german-eagle.svg");
+    background-size: 80%;
+    background-position: center 20%;
+    background-repeat: no-repeat;
     opacity: 0.15;
+    pointer-events: none;
+    z-index: 0;
   }
 
   .home-menu-header {
     padding: 6px 12px 10px;
+    flex-shrink: 0;
+    z-index: 2;
   }
 
   .home-menu-header h1 {
+    color: #ffffff;
     font-size: clamp(1.25rem, 4.2vw, 1.6rem);
+    text-shadow: 0 2px 18px rgba(0, 0, 0, 0.6);
   }
 
   .home-menu-header .subtitle {
+    color: #ffffff;
     font-size: 0.82rem;
     margin-top: 4px;
+    text-shadow: 0 1px 12px rgba(0, 0, 0, 0.5);
+  }
+
+  .home-menu-groups {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+    z-index: 2;
   }
 
   .menu-button-container {
-    margin-bottom: 3px !important;
+    width: 106% !important;
+    margin-left: -3% !important;
+    margin-bottom: 4px !important;
+    transform: skewY(-4deg) !important;
+    overflow: hidden !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
   }
 
   .menu-button-container button {
-    padding: 10px 20px !important;
+    width: 100% !important;
+    padding: 10px 24px !important;
+    border: none !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 0 !important;
+    backdrop-filter: blur(15px) !important;
+    -webkit-backdrop-filter: blur(15px) !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    background: transparent !important;
+    min-height: 0 !important;
+    transform: none !important;
+  }
+
+  .home-menu-groups .menu-button-container button:hover,
+  .home-menu-groups .menu-button-container button:active {
+    transform: none !important;
   }
 
   .menu-button-container button span,
   .menu-button-container button div {
-    font-size: 0.98rem !important;
+    transform: skewY(4deg) !important;
+    color: #ffffff !important;
+    font-weight: bold !important;
+    font-size: 1rem !important;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8) !important;
+  }
+
+  .menu-button-container:nth-child(1) button,
+  .menu-button-container:nth-child(2) button,
+  .menu-button-container:nth-child(3) button {
+    background: rgba(15, 15, 15, 0.6) !important;
+  }
+
+  .menu-button-container:nth-child(4) button,
+  .menu-button-container:nth-child(5) button,
+  .menu-button-container:nth-child(6) button {
+    background: rgba(190, 0, 0, 0.4) !important;
+  }
+
+  .menu-button-container:nth-child(7) button,
+  .menu-button-container:nth-child(8) button,
+  .menu-button-container:nth-child(9) button {
+    background: rgba(255, 190, 0, 0.35) !important;
+  }
+
+  .menu-button-container:nth-child(7) button span,
+  .menu-button-container:nth-child(7) button div,
+  .menu-button-container:nth-child(8) button span,
+  .menu-button-container:nth-child(8) button div,
+  .menu-button-container:nth-child(9) button span,
+  .menu-button-container:nth-child(9) button div {
+    color: #111111 !important;
+    text-shadow: none !important;
   }
 
   .nav-back-btn {

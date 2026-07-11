@@ -5435,27 +5435,52 @@ function handleMainMenuSelection(item) {
 function renderMainMenuButtons() {
   if (!elements.mainMenuButtons) return;
   elements.mainMenuButtons.innerHTML = "";
+  const colorClasses = ["menu-black", "menu-red", "menu-gold"];
+  const isMobile = window.matchMedia("(max-width: 768px)").matches;
 
-  MAIN_MENU_ITEMS.forEach((item) => {
-    const container = document.createElement("div");
-    container.className = "menu-button-container";
+  MAIN_MENU_ITEMS.forEach((item, index) => {
+    if (isMobile) {
+      const container = document.createElement("div");
+      container.className = "menu-button-container";
+      const button = document.createElement("button");
+      button.type = "button";
+
+      const label = document.createElement("span");
+      label.textContent = item.label;
+      button.appendChild(label);
+
+      const count = mainMenuCount(item);
+      if (count !== "") {
+        const countEl = document.createElement("span");
+        countEl.textContent = String(count);
+        button.appendChild(countEl);
+      }
+
+      button.addEventListener("click", () => handleMainMenuSelection(item));
+      container.appendChild(button);
+      elements.mainMenuButtons.appendChild(container);
+      return;
+    }
+
     const button = document.createElement("button");
     button.type = "button";
-
+    button.className = `main-menu-btn ${colorClasses[index % colorClasses.length]}`;
+    const inner = document.createElement("span");
+    inner.className = "main-menu-btn-inner";
     const label = document.createElement("span");
+    label.className = "main-menu-btn-label";
     label.textContent = item.label;
-    button.appendChild(label);
-
+    inner.appendChild(label);
     const count = mainMenuCount(item);
     if (count !== "") {
       const countEl = document.createElement("span");
+      countEl.className = "main-menu-btn-count";
       countEl.textContent = String(count);
-      button.appendChild(countEl);
+      inner.appendChild(countEl);
     }
-
+    button.appendChild(inner);
     button.addEventListener("click", () => handleMainMenuSelection(item));
-    container.appendChild(button);
-    elements.mainMenuButtons.appendChild(container);
+    elements.mainMenuButtons.appendChild(button);
   });
 }
 
@@ -6420,6 +6445,15 @@ function render() {
 initStaticCourseLessons();
 renderMainMenuButtons();
 updateNavScreen();
+
+let lastMainMenuMobile = window.matchMedia("(max-width: 768px)").matches;
+window.addEventListener("resize", () => {
+  const isMobile = window.matchMedia("(max-width: 768px)").matches;
+  if (isMobile !== lastMainMenuMobile && state.navScreen === "home") {
+    lastMainMenuMobile = isMobile;
+    renderMainMenuButtons();
+  }
+});
 
 if (elements.navBackBtn) {
   elements.navBackBtn.addEventListener("click", () => {
