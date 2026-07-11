@@ -3407,7 +3407,7 @@ function ensureInfoPopup() {
         <p><strong>Pareizrakstība.</strong> Ieslēdz ✍️ Pareizrakstība, lai rakstītu atbildi ar roku — lieliski apgūstot rakstību.</p>
         <p><strong>Nedēļas un mēneša pārskats.</strong> Skaties visus iemācītos vārdus no visiem līmeņiem vienā sarakstā un atgriez tos mācīšanā, ja vēlies.</p>
         <p><strong>Problemātiskie vārdi.</strong> Katra “Nezinu” atbilde parastajā plūsmā palielina kļūdu pakāpi. Problemātiskajā grupā “Zinu pareizi” samazina pakāpi; sasniedzot 0, vārds automātiski nonāk “Zināmi”.</p>
-        <p><strong>👁️‍🗨️ Nevajadzīgie vārdi.</strong> Ja mācību laikā sastopies ar vārdu, kuru savā ikdienā vispār neizmanto un nevēlies mācīties, uzspied uz pārsvītrotās acs ikonas kartītes augšējā stūrī. Vārds tiks neatgriezeniski pārvietots uz nevajadzīgo vārdu sarakstu un tavā mācību plūsmā vairs neparādīsies.</p>
+        <p><strong>👁️‍🗨️ Apraksts:</strong> Ja mācību laikā sastopies ar vārdu, kuru savā ikdienā neizmanto un nevēlies mācīties, uzspied uz pārsvītrotās acs ikonas kartītes augšējā stūrī. Vārds tiks paslēpts no tavas mācību plūsmas, bet vajadzības gadījumā to jebkurā brīdī varēsi atgriezt atpakaļ.</p>
       </div>
     </div>
   `;
