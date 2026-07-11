@@ -44871,13 +44871,6 @@ const A2_WORDS = [
   },
   },
   {
-    "de": "Hochzeit",
-    "de_article": "die",
-    "de_plural": "die Hochzeiten",
-    "lv": "kāzas",
-    "level": "A2"
-  },
-  {
     "de": "Hockey",
     "de_article": "das",
     "de_plural": "die Hockeye",

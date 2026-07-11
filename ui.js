@@ -4221,12 +4221,12 @@ function renderWordCardContent(card) {
   } else if (alternatives) {
     elements.translation.innerHTML = renderGermanAlternativesTranslation(alternatives);
   } else if (isDeFront) {
-    elements.translation.textContent = backText;
     elements.translation.innerHTML = "";
+    elements.translation.textContent = backText;
     if (pluralText) showFlashcardPluralRow(pluralText, pluralAudioSrc);
   } else {
-    elements.translation.textContent = backText;
     elements.translation.innerHTML = "";
+    elements.translation.textContent = backText;
     if (pluralText) showFlashcardPluralRow(pluralText, pluralAudioSrc);
   }
   if (shouldAutoplayGermanAudio(isDeFront)) {
