@@ -7826,23 +7826,39 @@ body.is-home-screen .home-app-shell {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8) !important;
   }
 
-  /* Krāsas no oficiālā ģerboņa: melns ērglis, sarkans knābis/kotas, zelta vairogs */
+  /* Krāsas: #000000, #9F000F, #EAC117 */
   .menu-button-container:nth-child(1) button,
   .menu-button-container:nth-child(2) button,
   .menu-button-container:nth-child(3) button {
-    background: rgba(0, 0, 0, 0.72) !important;
+    background: rgba(0, 0, 0, 0.8) !important;
   }
 
   .menu-button-container:nth-child(4) button,
   .menu-button-container:nth-child(5) button,
   .menu-button-container:nth-child(6) button {
-    background: rgba(221, 0, 0, 0.52) !important;
+    background: rgba(159, 0, 15, 0.55) !important;
   }
 
   .menu-button-container:nth-child(7) button,
   .menu-button-container:nth-child(8) button,
   .menu-button-container:nth-child(9) button {
-    background: rgba(255, 204, 0, 0.48) !important;
+    background: rgba(234, 193, 23, 0.5) !important;
+  }
+
+  .menu-button-container:nth-child(1) button span,
+  .menu-button-container:nth-child(1) button div,
+  .menu-button-container:nth-child(2) button span,
+  .menu-button-container:nth-child(2) button div,
+  .menu-button-container:nth-child(3) button span,
+  .menu-button-container:nth-child(3) button div,
+  .menu-button-container:nth-child(4) button span,
+  .menu-button-container:nth-child(4) button div,
+  .menu-button-container:nth-child(5) button span,
+  .menu-button-container:nth-child(5) button div,
+  .menu-button-container:nth-child(6) button span,
+  .menu-button-container:nth-child(6) button div {
+    color: #ffffff !important;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8) !important;
   }
 
   .menu-button-container:nth-child(7) button span,
