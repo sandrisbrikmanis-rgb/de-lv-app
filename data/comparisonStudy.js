@@ -271,17 +271,13 @@ COMPARISON_STUDY_CARDS.push(
       { de: "Ich sehe ihn als Freund an.", lv: "Es viņu uzskatu par draugu." }
     ]
   }),
-  createMinimalStudyCard({
+  {
     id: "study-sehen",
-    title: "redzēt / sehen",
-    lv: "redzēt",
     de: "sehen",
-    accent: "lightGreen",
-    forms: "sieht, sah, hat gesehen",
-    examples: [
-      { de: "Ich sehe das Haus.", lv: "Es redzu māju." }
-    ]
-  }),
+    lv: "redzēt",
+    level: "A2",
+    type: "comparison"
+  },
   createMinimalStudyCard({
     id: "study-anschauen",
     title: "skatīties • apskatīt / anschauen",
