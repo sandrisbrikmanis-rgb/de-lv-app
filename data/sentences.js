@@ -1425,6 +1425,21 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
+    "de": "Der Job ist anstrengend.",
+    "lv": "Darbs ir nogurdinošs.",
+    "level": "Sätze"
+  },
+  {
+    "de": "Das war ein anstrengender Tag.",
+    "lv": "Tā bija saspringta diena.",
+    "level": "Sätze"
+  },
+  {
+    "de": "Deutsch lernen kann anstrengend sein.",
+    "lv": "Vācu valodas mācīšanās var būt nogurdinoša.",
+    "level": "Sätze"
+  },
+  {
     "de": "Der Hund ist los.",
     "lv": "Suns ir palaists vaļā.",
     "level": "Sätze"

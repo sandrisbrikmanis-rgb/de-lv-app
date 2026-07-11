@@ -6028,7 +6028,27 @@ const A2_WORDS = [
   {
     "de": "anstrengend",
     "lv": "nogurdinošs • saspringts",
-    "level": "A2"
+    "level": "A2",
+    "study": {
+      "id": "a2-anstrengend",
+      "layout": "minimalStudy",
+      "translation": "nogurdinošs • saspringts",
+      "accent": "blue",
+      "examples": [
+        {
+          "de": "Der Job ist anstrengend.",
+          "lv": "Darbs ir nogurdinošs."
+        },
+        {
+          "de": "Das war ein anstrengender Tag.",
+          "lv": "Tā bija saspringta (nogurdinoša) diena."
+        },
+        {
+          "de": "Deutsch lernen kann anstrengend sein.",
+          "lv": "Vācu valodas mācīšanās var būt nogurdinoša."
+        }
+      ]
+    }
   },
   {
     "de": "Antibiotikum",
