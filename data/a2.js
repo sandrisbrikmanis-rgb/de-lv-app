@@ -37966,11 +37966,28 @@ const A2_WORDS = [
     }
   },
     {
-    "de": "Graben",
-    "de_article": "der",
-    "de_plural": "die Gräben",
-    "lv": "rakt • izrakt",
-    "level": "A2"
+    "de": "graben",
+    "lv": "rakt",
+    "level": "A2",
+    "study": {
+      "id": "a2-graben",
+      "layout": "minimalStudy",
+      "translation": "rakt",
+      "accent": "blue",
+      "forms": "gräbt, grub, hat gegraben"
+    }
+  },
+    {
+    "de": "ausgraben",
+    "lv": "izrakt",
+    "level": "A2",
+    "study": {
+      "id": "a2-ausgraben",
+      "layout": "minimalStudy",
+      "translation": "izrakt",
+      "accent": "blue",
+      "forms": "gräbt aus, grub aus, hat ausgegraben"
+    }
   },
     {
     "de": "gratis",
