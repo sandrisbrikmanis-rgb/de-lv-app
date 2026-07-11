@@ -66705,8 +66705,30 @@ const A2_WORDS = [
   },
   {
     "de": "verlangen",
-    "lv": "prasīt",
-    "level": "A2"
+    "lv": "prasīt • pieprasīt",
+    "level": "A2",
+    "study": {
+      "id": "a2-verlangen",
+      "layout": "minimalStudy",
+      "translation": "prasīt • pieprasīt",
+      "accent": "blue",
+      "forms": "verlangt, verlangte, hat verlangt",
+      "tip": "Izmanto, kad kaut ko stingri pieprasa (prasība, cena, likums). Ikdienas jautāšanai izmanto \"fragen\".",
+      "examples": [
+        {
+          "de": "Er verlangt eine Erklärung.",
+          "lv": "Viņš pieprasa paskaidrojumu."
+        },
+        {
+          "de": "Der Verkäufer verlangt zu viel Geld.",
+          "lv": "Pārdevējs prasa par daudz naudas."
+        },
+        {
+          "de": "Das Gesetz verlangt es so.",
+          "lv": "Likums to tā pieprasa."
+        }
+      ]
+    }
   },
   {
     "de": "verlassen",

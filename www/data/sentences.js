@@ -1440,6 +1440,21 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
+    "de": "Er verlangt eine Erklärung.",
+    "lv": "Viņš pieprasa paskaidrojumu.",
+    "level": "Sätze"
+  },
+  {
+    "de": "Der Verkäufer verlangt zu viel Geld.",
+    "lv": "Pārdevējs prasa par daudz naudas.",
+    "level": "Sätze"
+  },
+  {
+    "de": "Das Gesetz verlangt es so.",
+    "lv": "Likums to tā pieprasa.",
+    "level": "Sätze"
+  },
+  {
     "de": "Der Hund ist los.",
     "lv": "Suns ir palaists vaļā.",
     "level": "Sätze"
