@@ -8848,7 +8848,7 @@ const A1_WORDS = [
   },
     {
     "de": "jawohl",
-    "lv": "jā",
+    "lv": "tieši tā",
     "level": "A1"
   },
       {
