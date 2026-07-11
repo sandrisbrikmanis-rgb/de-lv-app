@@ -5587,6 +5587,10 @@ function clearStudyCard() {
   const cardElement = elements.word?.closest(".card");
   cardElement?.classList.remove("has-study-card");
   cardElement?.classList.remove("has-rich-study-card");
+  cardElement?.classList.remove("has-minimal-study-card");
+  for (const accent of COMPARISON_WORD_ACCENTS) {
+    cardElement?.classList.remove(`minimal-study-card--${accent}`);
+  }
   if (cardElement) delete cardElement.dataset.studyLayout;
   resetFlashcardAudioControls();
   if (elements.cardStudyExtra) {
@@ -5600,7 +5604,8 @@ function renderStudyCard(card) {
   if (!study) return false;
   const layout = study.layout || "standardStudy";
   const isComparisonStudy = layout === "comparisonStudy";
-  const isPairedStudy = isComparisonStudy;
+  const isMinimalStudy = layout === "minimalStudy";
+  const isPairedStudy = isComparisonStudy || isMinimalStudy;
 
   /*
    * standardStudy kvalitātes standarts:
@@ -5627,17 +5632,19 @@ function renderStudyCard(card) {
       ? (study.subtitle || germanText)
       : (isGermanToLatvian ? formatLvDisplay(study.translation) : germanText))
     : "";
-  const singularAudioSrc = a1AudioSrc(a1SingularAudioFile(card));
+  const singularAudioSrc = isMinimalStudy
+    ? comparisonWordAudioSrc(card.de)
+    : a1AudioSrc(a1SingularAudioFile(card));
   const pluralText = card.de_plural ? String(card.de_plural).trim() : "";
   const pluralAudioSrc = a1AudioSrc(a1PluralAudioFile(card));
 
   elements.word.textContent = frontText;
-  setInlineGermanAudioButtons(singularAudioSrc, germanText, {
+  setInlineGermanAudioButtons(singularAudioSrc, isMinimalStudy ? card.de : germanText, {
     onWord: isGermanToLatvian && !isPairedStudy,
     onTranslation: state.revealed && (isPairedStudy || !isGermanToLatvian),
   });
-  if (!isPairedStudy) {
-    setPrimaryCardAudio(singularAudioSrc, `Klausīties: ${germanText}`);
+  if (!isPairedStudy || isMinimalStudy) {
+    setPrimaryCardAudio(singularAudioSrc, `Klausīties: ${isMinimalStudy ? card.de : germanText}`);
   }
 
   if (!state.revealed) {
@@ -5654,7 +5661,24 @@ function renderStudyCard(card) {
   }
   elements.hint.textContent = state.revealed
     ? ""
-    : "Klikšķini uz kartītes, lai atvērtu skaidrojumu.";
+    : (isMinimalStudy
+      ? "Klikšķini uz kartītes, lai redzētu vācu vārdu."
+      : "Klikšķini uz kartītes, lai atvērtu skaidrojumu.");
+
+  if (isMinimalStudy) {
+    const cardElement = elements.word.closest(".card");
+    cardElement?.classList.add("has-study-card", "has-minimal-study-card");
+    cardElement?.classList.remove("has-rich-study-card");
+    const accent = COMPARISON_WORD_ACCENTS.includes(study.accent) ? study.accent : "blue";
+    cardElement?.classList.add(`minimal-study-card--${accent}`);
+    if (cardElement) cardElement.dataset.studyLayout = layout;
+    if (state.revealed && elements.translation) {
+      elements.translation.className = `minimal-study-de minimal-study-de--${accent}`;
+    } else if (elements.translation) {
+      elements.translation.className = "";
+    }
+    return true;
+  }
 
   if (!state.revealed) return true;
 
