@@ -14399,7 +14399,6 @@ const A1_WORDS = [
     {
     "de": "Reis",
     "de_article": "der",
-    "de_plural": "die Reise",
     "lv": "rīsi",
     "level": "A1"
   },
