@@ -6013,9 +6013,9 @@ const A1_WORDS = [
     "level": "A1"
   },
     {
-    "de": "Familienname",
+    "de": "Nachname",
     "de_article": "der",
-    "de_plural": "die Familiennamen",
+    "de_plural": "die Nachnamen",
     "lv": "uzvārds",
     "level": "A1"
   },
@@ -12769,13 +12769,6 @@ const A1_WORDS = [
     "de_article": "die",
     "de_plural": "die Nächte",
     "lv": "nakts",
-    "level": "A1"
-  },
-    {
-    "de": "Name",
-    "de_article": "der",
-    "de_plural": "die Namen",
-    "lv": "vārds • uzvārds",
     "level": "A1"
   },
     {
