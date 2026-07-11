@@ -5604,6 +5604,34 @@ function exampleSentenceAudioSrc(sentence) {
   return a1AudioSrc(`${stem}.mp3`);
 }
 
+function nounArticleAudioSrc(article, de) {
+  const art = String(article || "").trim().toLowerCase();
+  const word = String(de || "").trim();
+  if (!word) return null;
+  if (art && /^(der|die|das)$/.test(art)) {
+    return a1AudioSrc(`${art}_${sanitizeAudioFilename(word)}.mp3`);
+  }
+  return a1AudioSrc(`${sanitizeAudioFilename(word)}.mp3`);
+}
+
+function nounPluralAudioSrc(article, de, plural) {
+  const pluralText = String(plural || "").trim();
+  const deWord = String(de || "").trim();
+  if (!pluralText) return null;
+  const parts = pluralText.split(/\s+/);
+  const pluralArticle = parts[0]?.trim().toLowerCase();
+  if (pluralArticle && /^(der|die|das)$/.test(pluralArticle) && deWord) {
+    return a1AudioSrc(`plural_${pluralArticle}_${sanitizeAudioFilename(deWord)}.mp3`.toLowerCase());
+  }
+  return a1AudioSrc(`plural_${sanitizeAudioFilename(pluralText)}.mp3`.toLowerCase());
+}
+
+function renderMinimalStudyVariantLine(article, de) {
+  const label = `${String(article || "").trim()} ${String(de || "").trim()}`.trim();
+  const audioSrc = nounArticleAudioSrc(article, de);
+  return `<span class="minimal-study-variant-line"><span>${escapeStudyCardText(label)}</span>${comparisonWordAudioButtonHtml(label, audioSrc)}</span>`;
+}
+
 function comparisonWordAudioButtonHtml(word, src) {
   if (!src) return "";
   const label = `Klausīties: ${word}`;
@@ -5669,16 +5697,19 @@ function renderStudyCard(card) {
       ? (study.subtitle || germanText)
       : (isGermanToLatvian ? formatLvDisplay(study.translation) : germanText))
     : "";
-  const singularAudioSrc = isMinimalStudy
-    ? comparisonWordAudioSrc(card.de)
-    : a1AudioSrc(a1SingularAudioFile(card));
+  const studyVariants = isMinimalStudy && Array.isArray(study.variants) ? study.variants : [];
+  const singularAudioSrc = studyVariants.length
+    ? nounArticleAudioSrc(studyVariants[0].article, studyVariants[0].de)
+    : (isMinimalStudy
+      ? comparisonWordAudioSrc(card.de)
+      : a1AudioSrc(a1SingularAudioFile(card)));
   const pluralText = card.de_plural ? String(card.de_plural).trim() : "";
   const pluralAudioSrc = a1AudioSrc(a1PluralAudioFile(card));
 
   elements.word.textContent = frontText;
   setInlineGermanAudioButtons(singularAudioSrc, isMinimalStudy ? card.de : germanText, {
     onWord: isGermanToLatvian && !isPairedStudy,
-    onTranslation: state.revealed && (isPairedStudy || !isGermanToLatvian),
+    onTranslation: state.revealed && (isPairedStudy || !isGermanToLatvian) && !studyVariants.length,
   });
   if (!isPairedStudy || isMinimalStudy) {
     setPrimaryCardAudio(singularAudioSrc, `Klausīties: ${isMinimalStudy ? card.de : germanText}`);
@@ -5686,6 +5717,14 @@ function renderStudyCard(card) {
 
   if (!state.revealed) {
     elements.translation.textContent = "";
+    if (elements.translation) elements.translation.innerHTML = "";
+  } else if (isMinimalStudy && Array.isArray(study.variants) && study.variants.length) {
+    if (elements.translation) {
+      elements.translation.innerHTML = `<div class="minimal-study-variants">${study.variants.map((variant, index) => {
+        const line = renderMinimalStudyVariantLine(variant.article, variant.de);
+        return index ? `<span class="minimal-study-variant-sep">/</span>${line}` : line;
+      }).join("")}</div>`;
+    }
   } else if (isPairedStudy || isGermanToLatvian) {
     elements.translation.textContent = backText;
     if (!isPairedStudy && pluralText) showFlashcardPluralRow(pluralText, pluralAudioSrc);
@@ -5716,12 +5755,29 @@ function renderStudyCard(card) {
     }
     const hasMinimalExtra = Boolean(
       state.revealed
-      && (study.note || study.forms || (Array.isArray(study.examples) && study.examples.length))
+      && (
+        study.note
+        || study.forms
+        || study.tip
+        || (Array.isArray(study.variants) && study.variants.some((variant) => variant.plural))
+        || (Array.isArray(study.examples) && study.examples.length)
+      )
     );
     cardElement?.classList.toggle("has-minimal-study-extra", hasMinimalExtra);
     if (hasMinimalExtra && elements.cardStudyExtra) {
+      const pluralHtml = Array.isArray(study.variants) && study.variants.some((variant) => variant.plural)
+        ? `<p class="minimal-study-plural-row"><strong>DAUDZSK.</strong> ${study.variants.filter((variant) => variant.plural).map((variant, index) => {
+            const label = String(variant.plural || "").trim();
+            const audioSrc = nounPluralAudioSrc(null, variant.de, variant.plural);
+            const line = `<span class="minimal-study-variant-line"><span>${escapeStudyCardText(label)}</span>${comparisonWordAudioButtonHtml(label, audioSrc)}</span>`;
+            return index ? `<span class="minimal-study-variant-sep">/</span>${line}` : line;
+          }).join("")}</p>`
+        : "";
       const noteHtml = study.note
         ? `<p class="minimal-study-forms"><strong>${escapeStudyCardText(study.noteLabel || "Norāde:")}</strong> ${escapeStudyCardText(study.note)}</p>`
+        : "";
+      const tipHtml = study.tip
+        ? `<p class="minimal-study-tip"><strong>Padoms:</strong> ${escapeStudyCardText(study.tip)}</p>`
         : "";
       const formsHtml = study.forms
         ? `<p class="minimal-study-forms"><strong>${escapeStudyCardText(study.formsLabel || "Formas:")}</strong> ${escapeStudyCardText(study.forms)}</p>`
@@ -5738,7 +5794,7 @@ function renderStudyCard(card) {
           }).join("")}</div>`
         : "";
       elements.cardStudyExtra.hidden = false;
-      elements.cardStudyExtra.innerHTML = noteHtml + formsHtml + examplesHtml;
+      elements.cardStudyExtra.innerHTML = pluralHtml + tipHtml + noteHtml + formsHtml + examplesHtml;
     }
     return true;
   }

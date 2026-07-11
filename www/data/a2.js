@@ -49279,7 +49279,36 @@ const A2_WORDS = [
     "de_article": "das",
     "de_plural": "die Nummernschilder",
     "lv": "automašīnas numura zīme",
-    "level": "A2"
+    "level": "A2",
+    "study": {
+      "id": "a2-nummernschild",
+      "layout": "minimalStudy",
+      "translation": "automašīnas numura zīme",
+      "accent": "blue",
+      "variants": [
+        {
+          "article": "das",
+          "de": "Nummernschild",
+          "plural": "die Nummernschilder"
+        },
+        {
+          "article": "das",
+          "de": "Kennzeichen",
+          "plural": "die Kennzeichen"
+        }
+      ],
+      "tip": "Vācijā sarunvalodā un iestādēs ļoti bieži lieto vārdu \"das Kennzeichen\".",
+      "examples": [
+        {
+          "de": "Wo ir tavam Nummernschild?",
+          "lv": "Kur ir tava numura zīme?"
+        },
+        {
+          "de": "Das Kennzeichen ist schmutzig.",
+          "lv": "Numura zīme ir netīra."
+        }
+      ]
+    }
   },
   {
     "de": "nun",
