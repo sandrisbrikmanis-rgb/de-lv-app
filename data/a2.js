@@ -402,9 +402,24 @@ const A2_WORDS = [
     "level": "A2"
   },
     {
-    "de": "kino",
+    "de": "Kino",
+    "de_article": "das",
+    "de_plural": "die Kinos",
     "lv": "kinoteātris",
-    "level": "A2"
+    "level": "A2",
+    "study": {
+      "id": "a2-kino",
+      "layout": "minimalStudy",
+      "translation": "kinoteātris",
+      "accent": "blue",
+      "variants": [
+        {
+          "article": "das",
+          "de": "Kino",
+          "plural": "die Kinos"
+        }
+      ]
+    }
   },
     {
     "de": "Hotel",
@@ -6685,9 +6700,22 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "aschenputtel",
+    "de": "Aschenputtel",
+    "de_article": "das",
     "lv": "pelnrušķīte",
-    "level": "A2"
+    "level": "A2",
+    "study": {
+      "id": "a2-aschenputtel",
+      "layout": "minimalStudy",
+      "translation": "pelnrušķīte",
+      "accent": "blue",
+      "variants": [
+        {
+          "article": "das",
+          "de": "Aschenputtel"
+        }
+      ]
+    }
   },
   {
     "de": "Ast",
@@ -37918,9 +37946,24 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "gott",
+    "de": "Gott",
+    "de_article": "der",
+    "de_plural": "die Götter",
     "lv": "dievs",
-    "level": "A2"
+    "level": "A2",
+    "study": {
+      "id": "a2-gott",
+      "layout": "minimalStudy",
+      "translation": "dievs",
+      "accent": "blue",
+      "variants": [
+        {
+          "article": "der",
+          "de": "Gott",
+          "plural": "die Götter"
+        }
+      ]
+    }
   },
     {
     "de": "Graben",
@@ -41405,14 +41448,48 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "keller",
+    "de": "Keller",
+    "de_article": "der",
+    "de_plural": "die Keller",
     "lv": "pagrabs",
-    "level": "A2"
+    "level": "A2",
+    "study": {
+      "id": "a2-keller",
+      "layout": "minimalStudy",
+      "translation": "pagrabs",
+      "accent": "blue",
+      "variants": [
+        {
+          "article": "der",
+          "de": "Keller",
+          "plural": "die Keller"
+        }
+      ]
+    }
   },
   {
-    "de": "kellner",
+    "de": "Kellner",
+    "de_article": "der",
+    "de_plural": "die Kellner",
     "lv": "viesmīlis",
-    "level": "A2"
+    "level": "A2",
+    "study": {
+      "id": "a2-kellner",
+      "layout": "minimalStudy",
+      "translation": "viesmīlis",
+      "accent": "blue",
+      "variants": [
+        {
+          "article": "der",
+          "de": "Kellner",
+          "plural": "die Kellner"
+        },
+        {
+          "article": "die",
+          "de": "Kellnerin"
+        }
+      ]
+    }
   },
   {
     "de": "kennen lernen",
@@ -41420,14 +41497,44 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "kerl",
+    "de": "Kerl",
+    "de_article": "der",
+    "de_plural": "die Kerle",
     "lv": "puisis",
-    "level": "A2"
+    "level": "A2",
+    "study": {
+      "id": "a2-kerl",
+      "layout": "minimalStudy",
+      "translation": "puisis",
+      "accent": "blue",
+      "variants": [
+        {
+          "article": "der",
+          "de": "Kerl",
+          "plural": "die Kerle"
+        }
+      ]
+    }
   },
   {
-    "de": "kerze",
+    "de": "Kerze",
+    "de_article": "die",
+    "de_plural": "die Kerzen",
     "lv": "svece",
-    "level": "A2"
+    "level": "A2",
+    "study": {
+      "id": "a2-kerze",
+      "layout": "minimalStudy",
+      "translation": "svece",
+      "accent": "blue",
+      "variants": [
+        {
+          "article": "die",
+          "de": "Kerze",
+          "plural": "die Kerzen"
+        }
+      ]
+    }
   },
   {
     "de": "ketchup / Ketschup",
@@ -41435,19 +41542,66 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "keyboard",
+    "de": "Keyboard",
+    "de_article": "das",
+    "de_plural": "die Keyboards",
     "lv": "tastatūra",
-    "level": "A2"
+    "level": "A2",
+    "study": {
+      "id": "a2-keyboard",
+      "layout": "minimalStudy",
+      "translation": "tastatūra",
+      "accent": "blue",
+      "variants": [
+        {
+          "article": "das",
+          "de": "Keyboard",
+          "plural": "die Keyboards"
+        }
+      ]
+    }
   },
   {
-    "de": "kinderarzt",
+    "de": "Kinderarzt",
+    "de_article": "der",
+    "de_plural": "die Kinderärzte",
     "lv": "bērnu ārsts",
-    "level": "A2"
+    "level": "A2",
+    "study": {
+      "id": "a2-kinderarzt",
+      "layout": "minimalStudy",
+      "translation": "bērnu ārsts",
+      "accent": "blue",
+      "variants": [
+        {
+          "article": "der",
+          "de": "Kinderarzt",
+          "plural": "die Kinderärzte"
+        },
+        {
+          "article": "die",
+          "de": "Kinderärztin"
+        }
+      ]
+    }
   },
   {
-    "de": "kinderfunk",
+    "de": "Kinderfunk",
+    "de_article": "der",
     "lv": "raidījums bērniem",
-    "level": "A2"
+    "level": "A2",
+    "study": {
+      "id": "a2-kinderfunk",
+      "layout": "minimalStudy",
+      "translation": "raidījums bērniem",
+      "accent": "blue",
+      "variants": [
+        {
+          "article": "der",
+          "de": "Kinderfunk"
+        }
+      ]
+    }
   },
   {
     "de": "Kinderheim",
@@ -41457,19 +41611,64 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "kinderwagen",
+    "de": "Kinderwagen",
+    "de_article": "der",
+    "de_plural": "die Kinderwagen",
     "lv": "bērnu ratiņi",
-    "level": "A2"
+    "level": "A2",
+    "study": {
+      "id": "a2-kinderwagen",
+      "layout": "minimalStudy",
+      "translation": "bērnu ratiņi",
+      "accent": "blue",
+      "variants": [
+        {
+          "article": "der",
+          "de": "Kinderwagen",
+          "plural": "die Kinderwagen"
+        }
+      ]
+    }
   },
   {
-    "de": "kindheit",
+    "de": "Kindheit",
+    "de_article": "die",
+    "de_plural": "die Kindheiten",
     "lv": "bērnība",
-    "level": "A2"
+    "level": "A2",
+    "study": {
+      "id": "a2-kindheit",
+      "layout": "minimalStudy",
+      "translation": "bērnība",
+      "accent": "blue",
+      "variants": [
+        {
+          "article": "die",
+          "de": "Kindheit",
+          "plural": "die Kindheiten"
+        }
+      ]
+    }
   },
   {
-    "de": "kiosk",
+    "de": "Kiosk",
+    "de_article": "der",
+    "de_plural": "die Kioske",
     "lv": "kiosks",
-    "level": "A2"
+    "level": "A2",
+    "study": {
+      "id": "a2-kiosk",
+      "layout": "minimalStudy",
+      "translation": "kiosks",
+      "accent": "blue",
+      "variants": [
+        {
+          "article": "der",
+          "de": "Kiosk",
+          "plural": "die Kioske"
+        }
+      ]
+    }
   },
   {
     "de": "Kirsche",
@@ -41492,19 +41691,64 @@ const A2_WORDS = [
     }
   },
   {
-    "de": "kissen",
+    "de": "Kissen",
+    "de_article": "das",
+    "de_plural": "die Kissen",
     "lv": "spilvens",
-    "level": "A2"
+    "level": "A2",
+    "study": {
+      "id": "a2-kissen",
+      "layout": "minimalStudy",
+      "translation": "spilvens",
+      "accent": "blue",
+      "variants": [
+        {
+          "article": "das",
+          "de": "Kissen",
+          "plural": "die Kissen"
+        }
+      ]
+    }
   },
   {
-    "de": "kissenbezug",
+    "de": "Kissenbezug",
+    "de_article": "der",
+    "de_plural": "die Kissenbezüge",
     "lv": "spilvendrāna",
-    "level": "A2"
+    "level": "A2",
+    "study": {
+      "id": "a2-kissenbezug",
+      "layout": "minimalStudy",
+      "translation": "spilvendrāna",
+      "accent": "blue",
+      "variants": [
+        {
+          "article": "der",
+          "de": "Kissenbezug",
+          "plural": "die Kissenbezüge"
+        }
+      ]
+    }
   },
   {
-    "de": "kiste",
+    "de": "Kiste",
+    "de_article": "die",
+    "de_plural": "die Kisten",
     "lv": "kaste",
-    "level": "A2"
+    "level": "A2",
+    "study": {
+      "id": "a2-kiste",
+      "layout": "minimalStudy",
+      "translation": "kaste",
+      "accent": "blue",
+      "variants": [
+        {
+          "article": "die",
+          "de": "Kiste",
+          "plural": "die Kisten"
+        }
+      ]
+    }
   },
       {
     "de": "klar",
@@ -71893,9 +72137,24 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "zwillinge",
+    "de": "Zwilling",
+    "de_article": "der",
+    "de_plural": "die Zwillinge",
     "lv": "dvīņi",
-    "level": "A2"
+    "level": "A2",
+    "study": {
+      "id": "a2-zwilling",
+      "layout": "minimalStudy",
+      "translation": "dvīņi",
+      "accent": "blue",
+      "variants": [
+        {
+          "article": "der",
+          "de": "Zwilling",
+          "plural": "die Zwillinge"
+        }
+      ]
+    }
   }
 ];
 
