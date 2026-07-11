@@ -7711,12 +7711,16 @@ body.is-home-screen .home-app-shell {
 }
 
 @media (max-width: 768px) {
-  /* Mobilais dizains – slīpās joslas, trīs krāsu bloki, diskrēta ūdenszīme */
+  /* Mobilais dizains – slīpās joslas, oficiālais ģerbonis fonā */
   body.is-home-screen {
     overflow-x: hidden;
     overflow-y: hidden;
-    background-image: none !important;
     background-color: #0b0b0c !important;
+    background-image: url("./public/bundesadler-coat-of-arms.svg") !important;
+    background-size: 78% auto !important;
+    background-position: center 18% !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
   }
 
   body.is-home-screen main.home-main {
@@ -7743,12 +7747,11 @@ body.is-home-screen .home-app-shell {
     display: block;
     position: fixed;
     inset: 0;
-    background-image: url("./public/german-eagle.svg");
-    background-size: 72%;
-    background-position: center 22%;
+    background-image: url("./public/bundesadler-coat-of-arms.svg");
+    background-size: 78% auto;
+    background-position: center 18%;
     background-repeat: no-repeat;
-    opacity: 0.06;
-    filter: brightness(0) saturate(0);
+    opacity: 0.08;
     pointer-events: none;
     z-index: 0;
   }
@@ -7823,23 +7826,23 @@ body.is-home-screen .home-app-shell {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8) !important;
   }
 
-  /* Oficiālie Vācijas karoga toņi */
+  /* Krāsas no oficiālā ģerboņa: melns ērglis, sarkans knābis/kotas, zelta vairogs */
   .menu-button-container:nth-child(1) button,
   .menu-button-container:nth-child(2) button,
   .menu-button-container:nth-child(3) button {
-    background: rgba(0, 0, 0, 0.75) !important;
+    background: rgba(0, 0, 0, 0.72) !important;
   }
 
   .menu-button-container:nth-child(4) button,
   .menu-button-container:nth-child(5) button,
   .menu-button-container:nth-child(6) button {
-    background: rgba(221, 0, 0, 0.5) !important;
+    background: rgba(221, 0, 0, 0.52) !important;
   }
 
   .menu-button-container:nth-child(7) button,
   .menu-button-container:nth-child(8) button,
   .menu-button-container:nth-child(9) button {
-    background: rgba(255, 204, 0, 0.45) !important;
+    background: rgba(255, 204, 0, 0.48) !important;
   }
 
   .menu-button-container:nth-child(7) button span,
