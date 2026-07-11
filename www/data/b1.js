@@ -26455,7 +26455,7 @@ const B1_WORDS = [
   },
   {
     "de": "Gehalt",
-    "de_article": "der",
+    "de_article": "das",
     "de_plural": "die Gehälter",
     "lv": "saturs",
     "level": "B1"
@@ -31901,9 +31901,28 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "der/die Homosexuelle",
+    "de": "Homosexuelle",
+    "de_article": "der",
+    "de_plural": "die Homosexuellen",
     "lv": "homoseksuālis",
-    "level": "B1"
+    "level": "B1",
+    "study": {
+      "id": "b1-homosexuelle",
+      "layout": "minimalStudy",
+      "translation": "homoseksuālis",
+      "accent": "blue",
+      "variants": [
+        {
+          "article": "der",
+          "de": "Homosexuelle",
+          "plural": "die Homosexuellen"
+        },
+        {
+          "article": "die",
+          "de": "Homosexuelle"
+        }
+      ]
+    }
   },
   {
     "de": "Hopfen",
@@ -51342,13 +51361,6 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "Schwangerschaftstest",
-    "de_article": "die",
-    "de_plural": "die Schwangerschaftstests",
-    "lv": "grūtniecības tests",
-    "level": "B1"
-  },
-  {
     "de": "schwanken",
     "lv": "svārstīties",
     "level": "B1",
@@ -61335,14 +61347,14 @@ const B1_WORDS = [
   {
     "de": "Verwandte",
     "de_article": "der",
-    "de_plural": "die Verwandte",
+    "de_plural": "die Verwandten",
     "lv": "radinieks",
     "level": "B1"
   },
   {
     "de": "Verwandte",
     "de_article": "die",
-    "de_plural": "die Verwandte",
+    "de_plural": "die Verwandten",
     "lv": "radiniece",
     "level": "B1"
   },
@@ -61409,13 +61421,6 @@ const B1_WORDS = [
   {
     "de": "Virus",
     "de_article": "das",
-    "de_plural": "die Viren",
-    "lv": "vīruss",
-    "level": "B1"
-  },
-  {
-    "de": "Virus",
-    "de_article": "der",
     "de_plural": "die Viren",
     "lv": "vīruss",
     "level": "B1"
@@ -64998,7 +65003,7 @@ const B1_WORDS = [
   },
   {
     "de": "Gehalt",
-    "de_article": "das",
+    "de_article": "der",
     "de_plural": "die Gehälter",
     "lv": "alga",
     "level": "B1"
