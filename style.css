@@ -1356,6 +1356,19 @@
       color: var(--text-secondary);
     }
 
+    .minimal-study-example-de {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .minimal-study-example .comparison-word-audio-btn {
+      width: 28px;
+      height: 28px;
+      padding: 4px;
+    }
+
     .minimal-study-example-sep {
       margin: 0 6px;
       color: var(--text-muted);

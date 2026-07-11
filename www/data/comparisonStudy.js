@@ -163,8 +163,12 @@ function createMinimalStudyCard(config) {
       layout: "minimalStudy",
       id: config.id,
       translation: config.title || config.lv,
+      subtitle: config.subtitle || "",
       accent: config.accent,
+      note: config.note || "",
+      noteLabel: config.noteLabel || "",
       forms: config.forms || "",
+      formsLabel: config.formsLabel || "",
       examples: Array.isArray(config.examples) ? config.examples : []
     }
   };
@@ -273,6 +277,7 @@ COMPARISON_STUDY_CARDS.push(
     lv: "redzēt",
     de: "sehen",
     accent: "lightGreen",
+    forms: "sieht, sah, hat gesehen",
     examples: [
       { de: "Ich sehe das Haus.", lv: "Es redzu māju." }
     ]

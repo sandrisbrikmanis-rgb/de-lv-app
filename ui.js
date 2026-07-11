@@ -5598,6 +5598,12 @@ function comparisonWordAudioSrc(word) {
   return a1AudioSrc(`${sanitizeAudioFilename(bare)}.mp3`);
 }
 
+function exampleSentenceAudioSrc(sentence) {
+  const stem = sanitizeAudioFilename(String(sentence || "").trim());
+  if (!stem) return null;
+  return a1AudioSrc(`${stem}.mp3`);
+}
+
 function comparisonWordAudioButtonHtml(word, src) {
   if (!src) return "";
   const label = `Klausīties: ${word}`;
@@ -5710,23 +5716,29 @@ function renderStudyCard(card) {
     }
     const hasMinimalExtra = Boolean(
       state.revealed
-      && (study.forms || (Array.isArray(study.examples) && study.examples.length))
+      && (study.note || study.forms || (Array.isArray(study.examples) && study.examples.length))
     );
     cardElement?.classList.toggle("has-minimal-study-extra", hasMinimalExtra);
     if (hasMinimalExtra && elements.cardStudyExtra) {
+      const noteHtml = study.note
+        ? `<p class="minimal-study-forms"><strong>${escapeStudyCardText(study.noteLabel || "Norāde:")}</strong> ${escapeStudyCardText(study.note)}</p>`
+        : "";
       const formsHtml = study.forms
-        ? `<p class="minimal-study-forms"><strong>Formas:</strong> ${escapeStudyCardText(study.forms)}</p>`
+        ? `<p class="minimal-study-forms"><strong>${escapeStudyCardText(study.formsLabel || "Formas:")}</strong> ${escapeStudyCardText(study.forms)}</p>`
         : "";
       const examplesHtml = Array.isArray(study.examples) && study.examples.length
-        ? `<div class="minimal-study-examples">${study.examples.map((example) => `
+        ? `<div class="minimal-study-examples">${study.examples.map((example) => {
+            const audioSrc = exampleSentenceAudioSrc(example.de);
+            return `
             <p class="minimal-study-example">
-              <span>${escapeStudyCardText(example.de)}</span>
+              <span class="minimal-study-example-de">${escapeStudyCardText(example.de)}${comparisonWordAudioButtonHtml(example.de, audioSrc)}</span>
               <span class="minimal-study-example-sep">=</span>
               <span>${escapeStudyCardText(example.lv)}</span>
-            </p>`).join("")}</div>`
+            </p>`;
+          }).join("")}</div>`
         : "";
       elements.cardStudyExtra.hidden = false;
-      elements.cardStudyExtra.innerHTML = formsHtml + examplesHtml;
+      elements.cardStudyExtra.innerHTML = noteHtml + formsHtml + examplesHtml;
     }
     return true;
   }

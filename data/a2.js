@@ -67222,7 +67222,25 @@ const A2_WORDS = [
   {
     "de": "vorn[e]",
     "lv": "priekšā",
-    "level": "A2"
+    "level": "A2",
+    "study": {
+      "id": "a2-vorn",
+      "layout": "minimalStudy",
+      "translation": "priekšā",
+      "subtitle": "vorn / vorne",
+      "accent": "blue",
+      "note": "Atbild uz jautājumu \"Kur?\" (Wo?).",
+      "examples": [
+        {
+          "de": "Er sitzt vorn.",
+          "lv": "Viņš sēž priekšā."
+        },
+        {
+          "de": "Vorn ist noch Platz.",
+          "lv": "Priekšā vēl ir vieta."
+        }
+      ]
+    }
   },
   {
     "de": "Vorschlag",

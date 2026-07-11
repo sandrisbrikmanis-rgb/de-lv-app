@@ -163,8 +163,12 @@ function createMinimalStudyCard(config) {
       layout: "minimalStudy",
       id: config.id,
       translation: config.title || config.lv,
+      subtitle: config.subtitle || "",
       accent: config.accent,
+      note: config.note || "",
+      noteLabel: config.noteLabel || "",
       forms: config.forms || "",
+      formsLabel: config.formsLabel || "",
       examples: Array.isArray(config.examples) ? config.examples : []
     }
   };
