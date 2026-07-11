@@ -174,7 +174,20 @@ const sessionModes = {
   intense: { label: `${UI_ICONS.intense} Intensīvs`, newCount: 20, reviewCount: 10 }
 };
 
+const MAIN_MENU_ITEMS = [
+  { key: "A1", label: "A1", type: "group" },
+  { key: "A2", label: "A2", type: "group" },
+  { key: "B1", label: "B1", type: "group" },
+  { key: "B2", label: "B2", type: "group" },
+  { key: "C1", label: "C1", type: "group" },
+  { key: "C2", label: "C2", type: "group" },
+  { key: "Sätze", label: "Teikumi", type: "group" },
+  { key: "kurss", label: "Kurss", type: "kurss" },
+  { key: "verbs", label: "Darbības vārdi", type: "verbs" }
+];
+
 const state = {
+  navScreen: "home",
   group: "A1",
   index: 0,
   verbMode: false,
@@ -214,7 +227,12 @@ const state = {
 let spellingAutoNextTimer = null;
 
 const elements = {
-  groupButtons: document.getElementById("groupButtons"),
+  homeMenuScreen: document.getElementById("homeMenuScreen"),
+  mainMenuButtons: document.getElementById("mainMenuButtons"),
+  groupDetailScreen: document.getElementById("groupDetailScreen"),
+  navBackBtn: document.getElementById("navBackBtn"),
+  detailScreenTitle: document.getElementById("detailScreenTitle"),
+  detailScreenSubtitle: document.getElementById("detailScreenSubtitle"),
   modeButtons: document.getElementById("modeButtons"),
   activeGroup: document.getElementById("activeGroup"),
   totalWords: document.getElementById("totalWords"),
@@ -2921,8 +2939,8 @@ function dismissGroupCompleteOverlay() {
 
 function chooseAnotherGroupFromComplete() {
   dismissGroupCompleteOverlay();
-  elements.groupButtons?.scrollIntoView({ behavior: "smooth", block: "start" });
-  setNotice("Izvēlies nākamo grupu augšā.");
+  goToHomeScreen();
+  setNotice("Izvēlies nākamo grupu galvenajā izvēlnē.");
   updateSessionCompleteOverlay();
   render();
 }
@@ -4363,6 +4381,7 @@ function activateStudyCardTestMode(value) {
   state.reviewLastSession = false;
   state.problemMode = false;
   state.timeReviewMode = null;
+  openGroupDetailScreen(card.level);
   render();
   return true;
 }
@@ -5354,6 +5373,93 @@ function setNotice(text) {
   elements.notice.textContent = text;
 }
 
+function mainMenuCount(item) {
+  if (item.type === "verbs") return verbEntries.length;
+  if (item.type === "kurss") return "";
+  return baseCardsForGroup(item.key).length;
+}
+
+function detailScreenHeading(itemKey) {
+  if (itemKey === "verbs") return "Darbības vārdi";
+  if (itemKey === "kurss") return "Kurss";
+  const match = MAIN_MENU_ITEMS.find((item) => item.key === itemKey);
+  return match ? match.label : groupLabel(itemKey);
+}
+
+function updateNavScreen() {
+  const onHome = state.navScreen === "home";
+  if (elements.homeMenuScreen) elements.homeMenuScreen.hidden = !onHome;
+  if (elements.groupDetailScreen) elements.groupDetailScreen.hidden = onHome;
+  document.body.classList.toggle("is-home-screen", onHome);
+  document.body.classList.toggle("is-detail-screen", !onHome);
+}
+
+function updateDetailScreenHeader(itemKey) {
+  const heading = detailScreenHeading(itemKey);
+  if (elements.detailScreenTitle) elements.detailScreenTitle.textContent = heading;
+  if (elements.detailScreenSubtitle) {
+    elements.detailScreenSubtitle.textContent = itemKey === "verbs"
+      ? "Darbības vārdu formas un konjugācijas"
+      : (itemKey === "Sätze"
+      ? "Teikumu mācīšanās un atkārtošana"
+      : "Tavs viedais ceļvedis vācu valodā pa līmeņiem");
+  }
+}
+
+function openGroupDetailScreen(itemKey) {
+  state.navScreen = "detail";
+  updateDetailScreenHeader(itemKey);
+  updateNavScreen();
+}
+
+function goToHomeScreen() {
+  state.navScreen = "home";
+  updateNavScreen();
+  renderMainMenuButtons();
+}
+
+function handleMainMenuSelection(item) {
+  if (item.type === "kurss") {
+    openKurss();
+    return;
+  }
+  if (item.type === "verbs") {
+    openGroupDetailScreen("verbs");
+    selectVerbs();
+    return;
+  }
+  openGroupDetailScreen(item.key);
+  selectGroup(item.key);
+}
+
+function renderMainMenuButtons() {
+  if (!elements.mainMenuButtons) return;
+  elements.mainMenuButtons.innerHTML = "";
+  const colorClasses = ["menu-black", "menu-red", "menu-gold"];
+
+  MAIN_MENU_ITEMS.forEach((item, index) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = `main-menu-btn ${colorClasses[index % colorClasses.length]}`;
+    const inner = document.createElement("span");
+    inner.className = "main-menu-btn-inner";
+    const label = document.createElement("span");
+    label.className = "main-menu-btn-label";
+    label.textContent = item.label;
+    inner.appendChild(label);
+    const count = mainMenuCount(item);
+    if (count !== "") {
+      const countEl = document.createElement("span");
+      countEl.className = "main-menu-btn-count";
+      countEl.textContent = String(count);
+      inner.appendChild(countEl);
+    }
+    button.appendChild(inner);
+    button.addEventListener("click", () => handleMainMenuSelection(item));
+    elements.mainMenuButtons.appendChild(button);
+  });
+}
+
 function groupLabel(group) {
   if (typeof groupDisplayLabel === "function") {
     return groupDisplayLabel(group);
@@ -5362,40 +5468,7 @@ function groupLabel(group) {
 }
 
 function renderGroupButtons() {
-  if (!elements.groupButtons) return;
-  elements.groupButtons.innerHTML = "";
-  const displayOrder = ["A1", "A2", "B1", "Sätze", "B2", "C1", "C2", "verbs"];
-
-  function setGroupButtonLabel(button, label, count) {
-    button.innerHTML = "";
-    const name = document.createElement("span");
-    name.className = "group-label-name";
-    name.textContent = label;
-    const separator = document.createElement("span");
-    separator.className = "group-label-separator";
-    separator.textContent = " · ";
-    const value = document.createElement("span");
-    value.className = "group-label-count";
-    value.textContent = count;
-    button.append(name, separator, value);
-  }
-
-  for (const group of displayOrder) {
-    const button = document.createElement("button");
-    button.type = "button";
-
-    if (group === "verbs") {
-      setGroupButtonLabel(button, "Darbības vārdi", verbEntries.length);
-      button.className = state.verbMode ? "group-btn active" : "group-btn";
-      button.addEventListener("click", selectVerbs);
-    } else {
-      setGroupButtonLabel(button, groupLabel(group), baseCardsForGroup(group).length);
-      button.className = !state.verbMode && group === state.group ? "group-btn active" : "group-btn";
-      button.addEventListener("click", () => selectGroup(group));
-    }
-
-    elements.groupButtons.appendChild(button);
-  }
+  /* Grupu pogas tagad ir galvenajā izvēlnē, nevis detaļu skatā. */
 }
 
 function selectMode(mode) {
@@ -6229,6 +6302,7 @@ window.__wordRainVerbId = verbId;
 function render() {
   clearStudyCard();
   cardAutoplayScheduled = false;
+  updateNavScreen();
   try {
   if (state.verbMode) {
     renderVerbCard();
@@ -6345,6 +6419,15 @@ function render() {
 }
 
 initStaticCourseLessons();
+renderMainMenuButtons();
+updateNavScreen();
+
+if (elements.navBackBtn) {
+  elements.navBackBtn.addEventListener("click", () => {
+    goToHomeScreen();
+    setNotice("");
+  });
+}
 
 try {
 elements.kurssBtn.addEventListener("click", openKurss);
@@ -6477,7 +6560,11 @@ const studyCardTestParam = new URLSearchParams(window.location.search).get("stud
 
 if (!activateStudyCardTestMode(studyCardTestParam)) {
   try {
-    renderCard();
+    if (state.navScreen === "detail") {
+      renderCard();
+    } else {
+      renderMainMenuButtons();
+    }
   } catch (error) {
     console.error("Render failed:", error);
     renderGroupButtons();
