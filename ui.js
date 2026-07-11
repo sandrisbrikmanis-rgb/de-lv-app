@@ -259,7 +259,6 @@ const elements = {
   restoreBtn: document.getElementById("restoreBtn"),
   unwantedBtn: document.getElementById("unwantedBtn"),
   markMasteredBtn: document.getElementById("markMasteredBtn"),
-  markUnwantedBtn: document.getElementById("markUnwantedBtn"),
   cardUnwantedBtn: document.getElementById("cardUnwantedBtn"),
   masteredListBtn: document.getElementById("masteredListBtn"),
   unwantedListBtn: document.getElementById("unwantedListBtn"),
@@ -5428,7 +5427,6 @@ function renderModeButtons() {
   if (elements.unwantedBtn) elements.unwantedBtn.hidden = true;
   elements.markMasteredBtn.hidden = true;
   elements.markMasteredBtn.style.display = "none";
-  elements.markUnwantedBtn.hidden = state.verbMode;
   if (elements.cardUnwantedBtn) elements.cardUnwantedBtn.hidden = state.verbMode;
   if (elements.cardAutoplayBtn) elements.cardAutoplayBtn.hidden = state.verbMode;
   elements.unwantedListBtn.hidden = state.verbMode;
@@ -6424,7 +6422,6 @@ elements.directionBtn.addEventListener("click", toggleDirection);
 if (elements.unwantedBtn) {
   elements.unwantedBtn.hidden = true;
 }
-elements.markUnwantedBtn.addEventListener("click", markCurrentUnwanted);
 if (elements.cardUnwantedBtn) {
   elements.cardUnwantedBtn.addEventListener("click", (event) => {
     event.stopPropagation();
