@@ -5323,29 +5323,7 @@ const A1_WORDS = [
     {
     "de": "essen",
     "lv": "ēst",
-    "level": "A1",
-    "study": {
-      "id": "a1-essen",
-      "layout": "minimalStudy",
-      "translation": "ēst",
-      "accent": "blue",
-      "forms": "isst, aß, hat gegessen",
-      "tip": "Darbības vārds essen = ēst. Lietvārds das Essen = ēdiens. Neregulāras formas: isst, aß, hat gegessen.",
-      "examples": [
-        {
-          "de": "Ich esse Brot.",
-          "lv": "es ēdu maizi."
-        },
-        {
-          "de": "Was isst du gern?",
-          "lv": "ko tu labprāt ēd?"
-        },
-        {
-          "de": "Hier kann man gut essen.",
-          "lv": "šeit var labi paēst."
-        }
-      ]
-    }
+    "level": "A1"
   },
     {
     "de": "Essen",
