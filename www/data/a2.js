@@ -35244,9 +35244,30 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "gar (piem. „gar nicht“ – pavisam nē)",
+    "de": "gar",
     "lv": "pavisam • visai (nolieguma teikumos)",
-    "level": "A2"
+    "level": "A2",
+    "study": {
+      "id": "a2-gar",
+      "layout": "minimalStudy",
+      "translation": "pavisam • visai (nolieguma teikumos)",
+      "accent": "blue",
+      "tip": "Izmanto tikai kopā ar noliegumu (nicht, kein), lai to pastiprinātu (\"pavisam nē\", \"nemaz\").",
+      "examples": [
+        {
+          "de": "Das ist gar nicht so schwer.",
+          "lv": "Tas nemaz nav tik grūti."
+        },
+        {
+          "de": "Ich habe gar kein Geld.",
+          "lv": "Man pavisam nav naudas (nemaz nav naudas)."
+        },
+        {
+          "de": "Er hat gar nichts gesagt.",
+          "lv": "Viņš pavisam neko nepateica."
+        }
+      ]
+    }
   },
     {
     "de": "Garderobe",

@@ -1455,6 +1455,21 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
+    "de": "Das ist gar nicht so schwer.",
+    "lv": "Tas nemaz nav tik grūti.",
+    "level": "Sätze"
+  },
+  {
+    "de": "Ich habe gar kein Geld.",
+    "lv": "Man pavisam nav naudas.",
+    "level": "Sätze"
+  },
+  {
+    "de": "Er hat gar nichts gesagt.",
+    "lv": "Viņš pavisam neko nepateica.",
+    "level": "Sätze"
+  },
+  {
     "de": "Der Hund ist los.",
     "lv": "Suns ir palaists vaļā.",
     "level": "Sätze"
