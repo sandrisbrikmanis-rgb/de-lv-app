@@ -41472,9 +41472,24 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "kirsche",
+    "de": "Kirsche",
+    "de_article": "die",
+    "de_plural": "die Kirschen",
     "lv": "ķirsis",
-    "level": "A2"
+    "level": "A2",
+    "study": {
+      "id": "a2-kirsche",
+      "layout": "minimalStudy",
+      "translation": "ķirsis",
+      "accent": "blue",
+      "variants": [
+        {
+          "article": "die",
+          "de": "Kirsche",
+          "plural": "die Kirschen"
+        }
+      ]
+    }
   },
   {
     "de": "kissen",
