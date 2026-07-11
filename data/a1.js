@@ -10168,9 +10168,7 @@ const A1_WORDS = [
     "level": "A1"
   },
     {
-    "de": "Leben",
-    "de_article": "das",
-    "de_plural": "die Leben",
+    "de": "leben",
     "lv": "dzīvot",
     "level": "A1"
   },
