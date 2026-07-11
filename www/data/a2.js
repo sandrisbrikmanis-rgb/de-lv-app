@@ -47070,11 +47070,30 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "Los",
-    "de_article": "das",
-    "de_plural": "die Lose",
-    "lv": "brīvs",
-    "level": "A2"
+    "de": "los",
+    "lv": "brīvs • atraisīts • kas notiek",
+    "level": "A2",
+    "study": {
+      "id": "a2-los",
+      "layout": "minimalStudy",
+      "translation": "brīvs • atraisīts • kas notiek",
+      "accent": "blue",
+      "tip": "Sarunvalodā bieži izmanto, lai prasītu par situāciju vai apzīmētu, ka kaut kas ir palaists vaļā/atraisīts.",
+      "examples": [
+        {
+          "de": "Was ist los?",
+          "lv": "Kas notiek? (Kas vainas?)"
+        },
+        {
+          "de": "Der Hund ist los.",
+          "lv": "Suns ir palaists vaļā (brīvs)."
+        },
+        {
+          "de": "Hier ist viel los.",
+          "lv": "Šeit daudz kas notiek (dzīvīga vieta)."
+        }
+      ]
+    }
   },
   {
     "de": "losfahren",

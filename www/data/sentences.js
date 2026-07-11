@@ -1425,6 +1425,16 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
+    "de": "Der Hund ist los.",
+    "lv": "Suns ir palaists vaļā.",
+    "level": "Sätze"
+  },
+  {
+    "de": "Hier ist viel los.",
+    "lv": "Šeit daudz kas notiek.",
+    "level": "Sätze"
+  },
+  {
     "de": "Halt die Luft an!",
     "lv": "Tur elpu!",
     "level": "Sätze"
