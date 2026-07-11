@@ -5435,28 +5435,27 @@ function handleMainMenuSelection(item) {
 function renderMainMenuButtons() {
   if (!elements.mainMenuButtons) return;
   elements.mainMenuButtons.innerHTML = "";
-  const colorClasses = ["menu-black", "menu-red", "menu-gold"];
 
-  MAIN_MENU_ITEMS.forEach((item, index) => {
+  MAIN_MENU_ITEMS.forEach((item) => {
+    const container = document.createElement("div");
+    container.className = "menu-button-container";
     const button = document.createElement("button");
     button.type = "button";
-    button.className = `main-menu-btn ${colorClasses[index % colorClasses.length]}`;
-    const inner = document.createElement("span");
-    inner.className = "main-menu-btn-inner";
+
     const label = document.createElement("span");
-    label.className = "main-menu-btn-label";
     label.textContent = item.label;
-    inner.appendChild(label);
+    button.appendChild(label);
+
     const count = mainMenuCount(item);
     if (count !== "") {
       const countEl = document.createElement("span");
-      countEl.className = "main-menu-btn-count";
       countEl.textContent = String(count);
-      inner.appendChild(countEl);
+      button.appendChild(countEl);
     }
-    button.appendChild(inner);
+
     button.addEventListener("click", () => handleMainMenuSelection(item));
-    elements.mainMenuButtons.appendChild(button);
+    container.appendChild(button);
+    elements.mainMenuButtons.appendChild(container);
   });
 }
 
