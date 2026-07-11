@@ -37968,26 +37968,12 @@ const A2_WORDS = [
     {
     "de": "graben",
     "lv": "rakt",
-    "level": "A2",
-    "study": {
-      "id": "a2-graben",
-      "layout": "minimalStudy",
-      "translation": "rakt",
-      "accent": "blue",
-      "forms": "gräbt, grub, hat gegraben"
-    }
+    "level": "A2"
   },
     {
     "de": "ausgraben",
     "lv": "izrakt",
-    "level": "A2",
-    "study": {
-      "id": "a2-ausgraben",
-      "layout": "minimalStudy",
-      "translation": "izrakt",
-      "accent": "blue",
-      "forms": "gräbt aus, grub aus, hat ausgegraben"
-    }
+    "level": "A2"
   },
     {
     "de": "gratis",
