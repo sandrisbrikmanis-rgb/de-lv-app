@@ -3949,7 +3949,7 @@ let activeCardAudio = null;
 let activeCardAudioBtn = null;
 let currentPrimaryAudioSrc = null;
 let lastAutoplayedCardKey = null;
-let cardAutoplayScheduled = false;
+let cardAutoplayToken = 0;
 let activeRenderedCardKey = null;
 let activeSessionStartedAt = null;
 
@@ -4080,41 +4080,6 @@ function resolveSingularCardAudioSrc(card) {
   return a1AudioSrc(a1SingularAudioFile(audioCard));
 }
 
-const AUDIO_DEBUG_TARGETS = new Set(["noch", "lieb", "elf", "sechzigste", "maus", "tomate", "monat", "anfang"]);
-
-function audioDebugStem(card, germanText) {
-  return stripGermanArticle(germanAudioStem(card?.de || germanText || "")).toLowerCase();
-}
-
-function shouldLogAudioDebug(card, germanText) {
-  return AUDIO_DEBUG_TARGETS.has(audioDebugStem(card, germanText));
-}
-
-function activeFlashcardSpeakerAudioSrc() {
-  const buttons = [elements.singularAudioBtn, elements.singularTranslationAudioBtn];
-  for (const btn of buttons) {
-    if (btn && !btn.hidden && btn.dataset.audioSrc) {
-      return btn.dataset.audioSrc;
-    }
-  }
-  return null;
-}
-
-function logCardAudioDebug(card, germanText, singularAudioSrc, context, extra = {}) {
-  if (!shouldLogAudioDebug(card, germanText)) return;
-  const speakerSrc = activeFlashcardSpeakerAudioSrc();
-  console.log("[audio-debug]", {
-    context,
-    cardDe: card?.de,
-    germanText,
-    singularAudioSrc,
-    speakerSrc,
-    currentPrimaryAudioSrc,
-    srcMatch: Boolean(singularAudioSrc && speakerSrc && singularAudioSrc === speakerSrc),
-    ...extra,
-  });
-}
-
 function a1AudioSrc(filename) {
   if (!filename) return null;
   return `${getAudioBasePath()}public/audio/${filename}`;
@@ -4133,7 +4098,6 @@ function setFlashcardAudioButton(button, src) {
 
 function resetFlashcardAudioControls() {
   currentPrimaryAudioSrc = null;
-  lastAutoplayedCardKey = null;
   setFlashcardAudioButton(elements.singularAudioBtn, null);
   setFlashcardAudioButton(elements.singularTranslationAudioBtn, null);
   setFlashcardAudioButton(elements.pluralAudioBtn, null);
@@ -4206,24 +4170,21 @@ function shouldAutoplayGermanAudio(isGermanToLatvian) {
   return isGermanToLatvian || state.revealed;
 }
 
-function scheduleCardAutoplay(card) {
-  if (!state.audioAutoplay || !card) return;
-  if (cardAutoplayScheduled) return;
+function scheduleCardAutoplay(card, autoplayToken = cardAutoplayToken) {
+  if (!card || autoplayToken !== cardAutoplayToken) return;
+  if (!state.audioAutoplay) return;
+  const isGermanToLatvian = state.direction === "de-lv";
+  if (!shouldAutoplayGermanAudio(isGermanToLatvian)) return;
   const key = cardAutoplaySessionKey(card);
   if (!key || key === lastAutoplayedCardKey) return;
-  const germanText = formatGermanEntry(card);
-  const resolvedSrc = resolveSingularCardAudioSrc(card);
-  const src = activeFlashcardSpeakerAudioSrc() || resolvedSrc || currentPrimaryAudioSrc;
-  logCardAudioDebug(card, germanText, resolvedSrc, "scheduleCardAutoplay", {
-    autoplaySrc: src,
-    autoplayPlayed: Boolean(src),
-    blocked: !src,
-    autoplayKey: key,
-  });
+  const src = resolveSingularCardAudioSrc(card) || currentPrimaryAudioSrc;
   if (!src) return;
-  lastAutoplayedCardKey = key;
-  cardAutoplayScheduled = true;
-  playCardAudio(src, null);
+  playCardAudio(src, null, {
+    onStarted: () => {
+      if (autoplayToken !== cardAutoplayToken) return;
+      lastAutoplayedCardKey = key;
+    },
+  });
 }
 
 function toggleAudioAutoplay() {
@@ -4262,7 +4223,7 @@ function renderGermanAlternativesTranslation(alternatives) {
   }).join("");
 }
 
-function renderWordCardContent(card) {
+function renderWordCardContent(card, autoplayToken = cardAutoplayToken) {
   prepareFlashcardAutoplay(card);
   resetFlashcardAudioControls();
   const isDeFront = state.direction === "de-lv";
@@ -4281,10 +4242,6 @@ function renderWordCardContent(card) {
     onWord: isDeFront,
     onTranslation: !isDeFront && state.revealed && !alternatives,
   });
-  logCardAudioDebug(card, germanText, singularAudioSrc, "renderWordCardContent", {
-    speakerSrc: activeFlashcardSpeakerAudioSrc(),
-    willAutoplay: shouldAutoplayGermanAudio(isDeFront),
-  });
 
   if (!state.revealed) {
     elements.translation.textContent = "";
@@ -4301,11 +4258,11 @@ function renderWordCardContent(card) {
     if (pluralText) showFlashcardPluralRow(pluralText, pluralAudioSrc);
   }
   if (shouldAutoplayGermanAudio(isDeFront)) {
-    requestAnimationFrame(() => scheduleCardAutoplay(card));
+    scheduleCardAutoplay(card, autoplayToken);
   }
 }
 
-function playCardAudio(src, button) {
+function playCardAudio(src, button, { onStarted } = {}) {
   if (!src) return;
   if (activeCardAudio && !activeCardAudio.paused) {
     activeCardAudio.pause();
@@ -4317,22 +4274,38 @@ function playCardAudio(src, button) {
     }
   }
 
-  activeCardAudio = new Audio(src);
+  const audio = new Audio(src);
+  activeCardAudio = audio;
   activeCardAudioBtn = button || null;
   button?.classList.add("is-playing");
-  activeCardAudio.addEventListener("ended", () => {
+  audio.addEventListener("ended", () => {
     button?.classList.remove("is-playing");
     if (activeCardAudioBtn === button) {
       activeCardAudio = null;
       activeCardAudioBtn = null;
     }
   });
-  activeCardAudio.addEventListener("error", () => {
+  audio.addEventListener("error", () => {
     button?.classList.remove("is-playing");
+    if (activeCardAudio === audio) {
+      activeCardAudio = null;
+      activeCardAudioBtn = null;
+    }
   });
-  activeCardAudio.play().catch(() => {
-    button?.classList.remove("is-playing");
-  });
+  const playAttempt = audio.play();
+  if (playAttempt && typeof playAttempt.then === "function") {
+    playAttempt
+      .then(() => onStarted?.())
+      .catch(() => {
+        button?.classList.remove("is-playing");
+        if (activeCardAudio === audio) {
+          activeCardAudio = null;
+          activeCardAudioBtn = null;
+        }
+      });
+  } else {
+    onStarted?.();
+  }
 }
 
 function replayCardAudio(src, button) {
@@ -5820,7 +5793,7 @@ function clearStudyCard() {
   }
 }
 
-function renderStudyCard(card) {
+function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
   const study = card.study;
   if (!study) return false;
   const layout = study.layout || "standardStudy";
@@ -5889,7 +5862,7 @@ function renderStudyCard(card) {
     if (pluralText) showFlashcardPluralRow(pluralText, pluralAudioSrc);
   }
   if (!isPairedStudy && shouldAutoplayGermanAudio(isGermanToLatvian)) {
-    scheduleCardAutoplay(card);
+    scheduleCardAutoplay(card, cardAutoplayToken);
   }
   elements.hint.textContent = state.revealed
     ? ""
@@ -6385,8 +6358,9 @@ window.syncWordRain = syncWordRain;
 window.__wordRainVerbId = verbId;
 
 function render() {
+  cardAutoplayToken += 1;
+  const autoplayToken = cardAutoplayToken;
   clearStudyCard();
-  cardAutoplayScheduled = false;
   updateNavScreen();
   try {
   if (state.verbMode) {
@@ -6485,13 +6459,13 @@ function render() {
     : (!state.reviewKnown && sessionMatchesActiveGroup()
     ? `${groupDisplayLabel(card.level)} · Sesija: ${Math.min(sessionDoneCount() + 1, sessionTotalCount())} / ${sessionTotalCount()}`
     : `${groupDisplayLabel(card.level)} · ${state.index + 1}/${deck.length}`)));
-  if (renderStudyCard(card)) {
+  if (renderStudyCard(card, autoplayToken)) {
     updateKnownListBtn();
     updateProblemWordsBtn();
     updateSessionCompleteOverlay();
     return;
   }
-  renderWordCardContent(card);
+  renderWordCardContent(card, autoplayToken);
   elements.hint.textContent = state.revealed
     ? ""
     : "Klikšķini uz kartītes, lai redzētu tulkojumu.";
@@ -6567,12 +6541,6 @@ document.querySelector(".card")?.addEventListener("click", (event) => {
   if (audioBtn) {
     event.preventDefault();
     event.stopPropagation();
-    const card = currentCard();
-    const germanText = card ? formatGermanEntry(card) : "";
-    logCardAudioDebug(card, germanText, resolveSingularCardAudioSrc(card), "speakerClick", {
-      speakerSrc: audioBtn.dataset.audioSrc,
-      speakerPlayed: Boolean(audioBtn.dataset.audioSrc),
-    });
     replayCardAudio(audioBtn.dataset.audioSrc, audioBtn);
     return;
   }
