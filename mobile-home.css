@@ -289,6 +289,59 @@
   .mobile-home-v2 .menu-button-container button.menu-gold .mobile-menu-btn-label {
     font-size: clamp(0.91rem, 3.5vw, 1rem);
   }
+
+  #homeMenuScreen.mobile-home-v2.home-menu-screen {
+    background: #000000 !important;
+    background-image: none !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+
+  /* Ignorē vecos style.css mobilos noteikumus (Samsung / Firefox) */
+  .mobile-home-v2 .home-menu-groups {
+    color-scheme: dark !important;
+  }
+
+  .mobile-home-v2 .menu-button-container button,
+  .mobile-home-v2 .menu-button-container button.menu-black,
+  .mobile-home-v2 .menu-button-container button.menu-red,
+  .mobile-home-v2 .menu-button-container button.menu-gold {
+    background-image: none !important;
+    color-scheme: dark !important;
+  }
+
+  html.is-home-screen .mobile-home-v2 .menu-button-container button.menu-black,
+  html.is-home-screen .mobile-home-v2 .menu-button-container button.menu-red,
+  html.is-home-screen .mobile-home-v2 .menu-button-container button.menu-gold,
+  html.mobile-home-light .mobile-home-v2 .menu-button-container button.menu-black,
+  html.mobile-home-light .mobile-home-v2 .menu-button-container button.menu-red,
+  html.mobile-home-light .mobile-home-v2 .menu-button-container button.menu-gold {
+    background-color: unset;
+    background-image: none !important;
+    filter: none !important;
+    -webkit-filter: none !important;
+  }
+
+  html.is-home-screen .mobile-home-v2 .menu-button-container button.menu-black {
+    background-color: rgba(0, 0, 0, 0.54) !important;
+  }
+
+  html.is-home-screen .mobile-home-v2 .menu-button-container button.menu-red {
+    background-color: rgba(159, 0, 15, 0.52) !important;
+  }
+
+  html.is-home-screen .mobile-home-v2 .menu-button-container button.menu-gold {
+    background-color: rgba(180, 145, 30, 0.48) !important;
+    color: #ffffff !important;
+  }
+
+  html.is-home-screen .mobile-home-v2 .menu-button-container button.menu-gold span,
+  html.is-home-screen .mobile-home-v2 .menu-button-container button.menu-gold div,
+  html.is-home-screen .mobile-home-v2 .menu-button-container button.menu-gold .mobile-menu-btn-label,
+  html.is-home-screen .mobile-home-v2 .menu-button-container button.menu-gold .mobile-menu-btn-count {
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+  }
 }
 
 /* Dators: fona slānis paslēpts, saturs kā iepriekš */

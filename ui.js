@@ -5340,7 +5340,7 @@ function initMobileMenuDebugHelper() {
     const html = document.documentElement;
     const body = document.body;
     const menu = document.getElementById("homeMenuScreen");
-    const emblem = document.querySelector(".mobile-level-menu-emblem");
+    const emblem = document.querySelector(".mh-bg");
     const sampleBtn = document.querySelector(".menu-button-container button.menu-black");
     const colorSchemeMeta = document.querySelector('meta[name="color-scheme"]');
     const themeMeta = document.querySelector('meta[name="theme-color"]');
@@ -5357,7 +5357,7 @@ function initMobileMenuDebugHelper() {
       `body bg: ${readBgColor(body)}`,
       `main bg: ${readBgColor(document.querySelector("main.home-main"))}`,
       `#homeMenuScreen bg: ${readBgColor(menu)}`,
-      `.mobile-level-menu-emblem bg: ${readBgColor(emblem)}`,
+      `.mh-bg bg: ${readBgColor(emblem)}`,
       `A1 button bg: ${readBgColor(sampleBtn)}`
     ].join("\n");
   }
@@ -5391,7 +5391,7 @@ function updateNavScreen() {
   }
   const colorSchemeMeta = document.querySelector('meta[name="color-scheme"]');
   if (colorSchemeMeta) {
-    colorSchemeMeta.setAttribute("content", isMobileHome ? "light" : "light dark");
+    colorSchemeMeta.setAttribute("content", isMobileHome ? "dark" : "light dark");
   }
 }
 
