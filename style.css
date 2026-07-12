@@ -33,6 +33,10 @@
       --de-red-overlay-glass-hover: rgba(159, 0, 15, 0.56);
       --de-gold-overlay-glass: rgba(234, 193, 23, 0.48);
       --de-gold-overlay-glass-hover: rgba(234, 193, 23, 0.58);
+      --de-mobile-menu-btn-radius: 16px;
+      --de-mobile-menu-glass-blur: 14px;
+      --de-mobile-menu-glass-highlight: inset 0 1px 0 rgba(255, 255, 255, 0.14);
+      --de-mobile-menu-glass-shadow: 0 4px 18px rgba(0, 0, 0, 0.22);
       --de-text-on-dark: #ffffff;
       --de-text-on-gold: #000000;
       --de-text-shadow-dark: 0 1px 2px rgba(0, 0, 0, 0.45);
@@ -7978,7 +7982,7 @@ body.is-home-screen .home-app-shell {
     justify-content: space-evenly;
     width: 100%;
     min-height: 0;
-    padding: 4px 0 calc(8px + env(safe-area-inset-bottom, 0px));
+    padding: 4px 14px calc(8px + env(safe-area-inset-bottom, 0px));
     overflow: visible;
     z-index: 2;
     forced-color-adjust: none !important;
@@ -7988,11 +7992,11 @@ body.is-home-screen .home-app-shell {
   }
 
   .menu-button-container {
-    width: 104% !important;
-    margin-left: -2% !important;
-    margin-bottom: 6px !important;
-    transform: skewY(-2.5deg) translateZ(0) !important;
-    overflow: hidden !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-bottom: 8px !important;
+    transform: none !important;
+    overflow: visible !important;
     box-shadow: none !important;
     opacity: 1 !important;
     filter: none !important;
@@ -8003,19 +8007,19 @@ body.is-home-screen .home-app-shell {
 
   .menu-button-container:nth-child(4),
   .menu-button-container:nth-child(7) {
-    margin-top: 10px !important;
+    margin-top: 6px !important;
   }
 
   .menu-button-container button {
     width: 100% !important;
     min-height: 48px !important;
-    padding: 13px 24px !important;
+    padding: 13px 20px !important;
     gap: 14px !important;
-    border: 1px solid var(--de-panel-border) !important;
-    border-radius: 2px !important;
-    box-shadow: none !important;
-    backdrop-filter: none !important;
-    -webkit-backdrop-filter: none !important;
+    border: 1px solid rgba(255, 255, 255, 0.24) !important;
+    border-radius: var(--de-mobile-menu-btn-radius) !important;
+    box-shadow: var(--de-mobile-menu-glass-highlight), var(--de-mobile-menu-glass-shadow) !important;
+    backdrop-filter: blur(var(--de-mobile-menu-glass-blur)) saturate(1.12) !important;
+    -webkit-backdrop-filter: blur(var(--de-mobile-menu-glass-blur)) saturate(1.12) !important;
     display: flex !important;
     justify-content: space-between !important;
     align-items: center !important;
@@ -8029,6 +8033,11 @@ body.is-home-screen .home-app-shell {
     -webkit-filter: none !important;
     opacity: 1 !important;
     mix-blend-mode: normal !important;
+    transition:
+      background-color 140ms ease,
+      border-color 140ms ease,
+      box-shadow 140ms ease,
+      transform 140ms ease !important;
   }
 
   .menu-button-container button.menu-black {
@@ -8048,31 +8057,38 @@ body.is-home-screen .home-app-shell {
   .menu-button-container button.menu-gold {
     background-color: var(--de-gold-overlay-glass) !important;
     color: var(--de-text-on-gold) !important;
-    border-color: var(--de-panel-border-gold) !important;
+    border-color: rgba(0, 0, 0, 0.18) !important;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.22), var(--de-mobile-menu-glass-shadow) !important;
     text-shadow: none !important;
   }
 
   .home-menu-groups .menu-button-container button.menu-black:hover,
   .home-menu-groups .menu-button-container button.menu-black:active {
     background-color: var(--de-black-overlay-glass-hover) !important;
-    border-color: rgba(255, 255, 255, 0.36) !important;
+    border-color: rgba(255, 255, 255, 0.34) !important;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.18), 0 6px 20px rgba(0, 0, 0, 0.28) !important;
+    transform: translateY(-1px) !important;
   }
 
   .home-menu-groups .menu-button-container button.menu-red:hover,
   .home-menu-groups .menu-button-container button.menu-red:active {
     background-color: var(--de-red-overlay-glass-hover) !important;
-    border-color: rgba(255, 255, 255, 0.36) !important;
+    border-color: rgba(255, 255, 255, 0.34) !important;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.18), 0 6px 20px rgba(0, 0, 0, 0.28) !important;
+    transform: translateY(-1px) !important;
   }
 
   .home-menu-groups .menu-button-container button.menu-gold:hover,
   .home-menu-groups .menu-button-container button.menu-gold:active {
     background-color: var(--de-gold-overlay-glass-hover) !important;
     border-color: rgba(0, 0, 0, 0.22) !important;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.26), 0 6px 20px rgba(0, 0, 0, 0.24) !important;
+    transform: translateY(-1px) !important;
   }
 
   .menu-button-container button span,
   .menu-button-container button div {
-    transform: skewY(2.5deg) !important;
+    transform: none !important;
     font-weight: 700 !important;
     font-size: 1.02rem !important;
     line-height: 1.2 !important;
@@ -8190,8 +8206,8 @@ body.is-home-screen .home-app-shell {
   }
 
   html.is-home-screen .menu-button-container button {
-    backdrop-filter: none !important;
-    -webkit-backdrop-filter: none !important;
+    backdrop-filter: blur(var(--de-mobile-menu-glass-blur)) saturate(1.12) !important;
+    -webkit-backdrop-filter: blur(var(--de-mobile-menu-glass-blur)) saturate(1.12) !important;
     filter: none !important;
     -webkit-filter: none !important;
     opacity: 1 !important;
