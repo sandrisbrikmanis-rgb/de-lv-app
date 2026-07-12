@@ -1594,7 +1594,10 @@ function openKurss() {
 }
 
 function closeKurss() {
-  elements.kurssPanel.hidden = true;
+  if (elements.kurssPanel) {
+    elements.kurssPanel.hidden = true;
+    elements.kurssPanel.classList.remove("active");
+  }
   showKurssMenu();
 }
 
@@ -5639,12 +5642,16 @@ function updateDetailScreenHeader(itemKey) {
 }
 
 function openGroupDetailScreen(itemKey) {
+  closeKurss();
+  closePamati();
   state.navScreen = "detail";
   updateDetailScreenHeader(itemKey);
   updateNavScreen();
 }
 
 function goToHomeScreen() {
+  closeKurss();
+  closePamati();
   state.navScreen = "home";
   updateNavScreen();
   renderMainMenuButtons();
@@ -5652,9 +5659,11 @@ function goToHomeScreen() {
 
 function handleMainMenuSelection(item) {
   if (item.type === "kurss") {
+    closePamati();
     openKurss();
     return;
   }
+  closeKurss();
   if (item.type === "verbs") {
     openGroupDetailScreen("verbs");
     selectVerbs();
