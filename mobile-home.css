@@ -74,7 +74,23 @@
     flex-shrink: 0;
   }
 
-  .mobile-home-v2 .mh-emblem-svg,
+  .mobile-home-v2 .mh-emblem-outline-only {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-height: min(85.8dvh, 462px);
+    flex-shrink: 0;
+    pointer-events: none;
+    filter: none !important;
+    -webkit-filter: none !important;
+    opacity: 1 !important;
+    forced-color-adjust: none !important;
+  }
+
+  .mobile-home-v2 .mh-emblem-svg:not(.mh-emblem-outline-only),
   .mobile-home-v2 .mh-emblem-img {
     position: relative;
     z-index: 1;
@@ -101,36 +117,10 @@
   .mobile-home-v2 .mh-emblem-svg .mh-shield-outline {
     fill: none !important;
     stroke: #000000 !important;
-    stroke-width: 6 !important;
+    stroke-width: 4.8 !important;
     stroke-linejoin: round !important;
     vector-effect: non-scaling-stroke;
     paint-order: normal;
-  }
-
-  /* Kontūra virs pogām */
-  .mobile-home-v2 .mh-outline-layer {
-    position: absolute;
-    inset: 0;
-    z-index: 2;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    pointer-events: none;
-    overflow: visible;
-  }
-
-  .mobile-home-v2 .mh-emblem-outline-only {
-    position: relative;
-    z-index: 1;
-    display: block;
-    width: min(92.4vw, 374px);
-    height: auto;
-    max-height: min(85.8dvh, 462px);
-    flex-shrink: 0;
-    filter: none !important;
-    -webkit-filter: none !important;
-    opacity: 1 !important;
-    forced-color-adjust: none !important;
   }
 
   .mobile-home-v2 .home-menu-header .mh-build-tag {
@@ -405,8 +395,7 @@
 
 /* Dators: fona slānis paslēpts, saturs kā iepriekš */
 @media (min-width: 769px) {
-  .mobile-home-v2 .mh-bg,
-  .mobile-home-v2 .mh-outline-layer {
+  .mobile-home-v2 .mh-bg {
     display: none !important;
   }
 
@@ -456,9 +445,9 @@
 
   .mobile-home-v2 .mh-emblem-svg .mh-shield-outline {
     stroke: #000000 !important;
+    stroke-width: 4.8 !important;
   }
 
-  .mobile-home-v2 .mh-outline-layer,
   .mobile-home-v2 .mh-emblem-outline-only {
     opacity: 1 !important;
     forced-color-adjust: none !important;
