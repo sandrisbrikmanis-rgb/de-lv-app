@@ -21,7 +21,20 @@
     -webkit-filter: none !important;
   }
 
+  /* Apstiprinātas krāsas + vieglāks stikls (hibrīds v71) */
   #homeMenuScreen.mobile-home-v2 {
+    --mh-black-glass: rgba(0, 0, 0, 0.34);
+    --mh-black-glass-active: rgba(0, 0, 0, 0.46);
+    --mh-red-glass: rgba(159, 0, 15, 0.26);
+    --mh-red-glass-active: rgba(159, 0, 15, 0.38);
+    --mh-gold-glass: rgba(234, 193, 23, 0.34);
+    --mh-gold-glass-active: rgba(234, 193, 23, 0.44);
+    --mh-text-shadow-on-dark:
+      0 1px 2px rgba(0, 0, 0, 0.88),
+      0 0 10px rgba(0, 0, 0, 0.42);
+    --mh-text-shadow-on-gold:
+      0 1px 2px rgba(255, 255, 255, 0.65),
+      0 1px 5px rgba(0, 0, 0, 0.35);
     position: fixed;
     inset: 0;
     width: 100%;
@@ -235,38 +248,38 @@
     transition: background-color 140ms ease, border-color 140ms ease;
   }
 
-  /* A1–B1: caurspīdīgs melnais stikls (--de-black) */
+  /* A1–B1: caurspīdīgs melnais stikls (#000 @ 34%) */
   .mobile-home-v2 .menu-button-container button.menu-black {
-    background-color: var(--de-black-overlay-glass) !important;
+    background-color: var(--mh-black-glass) !important;
     color: var(--de-text-on-dark) !important;
     border-color: var(--de-panel-border) !important;
   }
 
-  /* B2–C2: caurspīdīgs sarkanais stikls (--de-red #9F000F) */
+  /* B2–C2: caurspīdīgs sarkanais stikls (#9F000F @ 26%) */
   .mobile-home-v2 .menu-button-container button.menu-red {
-    background-color: var(--de-red-overlay-glass) !important;
+    background-color: var(--mh-red-glass) !important;
     color: var(--de-text-on-dark) !important;
     border-color: var(--de-panel-border) !important;
   }
 
-  /* Teikumi, Kurss, Darbības vārdi: caurspīdīgs zelta stikls (--de-gold #EAC117) */
+  /* Teikumi, Kurss, Darbības vārdi: zelta stikls (#EAC117 @ 34%) */
   .mobile-home-v2 .menu-button-container button.menu-gold {
-    background-color: var(--de-gold-overlay-glass) !important;
+    background-color: var(--mh-gold-glass) !important;
     color: var(--de-text-on-gold) !important;
     border-color: var(--de-panel-border-gold) !important;
     box-shadow: var(--de-mobile-panel-inset-gold) !important;
   }
 
   .mobile-home-v2 .menu-button-container button.menu-black:active {
-    background-color: var(--de-black-overlay-glass-hover) !important;
+    background-color: var(--mh-black-glass-active) !important;
   }
 
   .mobile-home-v2 .menu-button-container button.menu-red:active {
-    background-color: var(--de-red-overlay-glass-hover) !important;
+    background-color: var(--mh-red-glass-active) !important;
   }
 
   .mobile-home-v2 .menu-button-container button.menu-gold:active {
-    background-color: var(--de-gold-overlay-glass-hover) !important;
+    background-color: var(--mh-gold-glass-active) !important;
   }
 
   .mobile-home-v2 .mobile-menu-btn-label,
@@ -277,7 +290,7 @@
     forced-color-adjust: none !important;
     filter: none !important;
     -webkit-filter: none !important;
-    text-shadow: var(--de-text-shadow-dark) !important;
+    text-shadow: var(--mh-text-shadow-on-dark) !important;
     opacity: 1 !important;
   }
 
@@ -308,7 +321,7 @@
   .mobile-home-v2 .menu-button-container button.menu-gold .mobile-menu-btn-count {
     color: var(--de-text-on-gold) !important;
     -webkit-text-fill-color: var(--de-text-on-gold) !important;
-    text-shadow: none !important;
+    text-shadow: var(--mh-text-shadow-on-gold) !important;
   }
 
   #homeMenuScreen.mobile-home-v2.home-menu-screen {
@@ -346,15 +359,15 @@
   }
 
   html.is-home-screen .mobile-home-v2 .menu-button-container button.menu-black {
-    background-color: var(--de-black-overlay-glass) !important;
+    background-color: var(--mh-black-glass) !important;
   }
 
   html.is-home-screen .mobile-home-v2 .menu-button-container button.menu-red {
-    background-color: var(--de-red-overlay-glass) !important;
+    background-color: var(--mh-red-glass) !important;
   }
 
   html.is-home-screen .mobile-home-v2 .menu-button-container button.menu-gold {
-    background-color: var(--de-gold-overlay-glass) !important;
+    background-color: var(--mh-gold-glass) !important;
     color: var(--de-text-on-gold) !important;
   }
 
@@ -364,7 +377,7 @@
   html.is-home-screen .mobile-home-v2 .menu-button-container button.menu-gold .mobile-menu-btn-count {
     color: var(--de-text-on-gold) !important;
     -webkit-text-fill-color: var(--de-text-on-gold) !important;
-    text-shadow: none !important;
+    text-shadow: var(--mh-text-shadow-on-gold) !important;
   }
 }
 
