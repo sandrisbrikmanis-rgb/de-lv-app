@@ -13,7 +13,7 @@
     width: 100%;
     max-width: 100%;
     overflow: hidden;
-    background: #000000 !important;
+    background: var(--de-home-screen-bg) !important;
     background-image: none !important;
     color-scheme: dark !important;
     forced-color-adjust: none !important;
@@ -34,7 +34,7 @@
     border: none;
     border-radius: 0;
     box-shadow: none;
-    background: #000000 !important;
+    background: var(--de-home-screen-bg) !important;
     isolation: isolate;
     z-index: 1;
   }
@@ -45,7 +45,7 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    background: #000000;
+    background: var(--de-home-screen-bg);
     overflow: hidden;
   }
 
@@ -58,7 +58,7 @@
     align-items: center;
     justify-content: center;
     pointer-events: none;
-    background: #000000;
+    background: var(--de-home-screen-bg);
     overflow: visible;
     filter: none !important;
     -webkit-filter: none !important;
@@ -99,16 +99,8 @@
     height: auto;
     max-height: min(85.8dvh, 462px);
     flex-shrink: 0;
-    filter:
-      drop-shadow(0 0 8px rgba(240, 246, 255, 0.77))
-      drop-shadow(0 0 20px rgba(225, 236, 255, 0.52))
-      drop-shadow(0 0 40px rgba(205, 220, 255, 0.3))
-      drop-shadow(0 0 64px rgba(190, 210, 255, 0.16)) !important;
-    -webkit-filter:
-      drop-shadow(0 0 8px rgba(240, 246, 255, 0.77))
-      drop-shadow(0 0 20px rgba(225, 236, 255, 0.52))
-      drop-shadow(0 0 40px rgba(205, 220, 255, 0.3))
-      drop-shadow(0 0 64px rgba(190, 210, 255, 0.16)) !important;
+    filter: var(--de-shield-halo-filter) !important;
+    -webkit-filter: var(--de-shield-halo-filter) !important;
     mix-blend-mode: normal !important;
     opacity: 1 !important;
     forced-color-adjust: none !important;
@@ -116,7 +108,7 @@
 
   .mobile-home-v2 .mh-emblem-svg .mh-shield-outline {
     fill: none !important;
-    stroke: #000000 !important;
+    stroke: var(--de-eagle-black) !important;
     stroke-width: 4.8 !important;
     stroke-linejoin: round !important;
     vector-effect: non-scaling-stroke;
@@ -163,8 +155,8 @@
 
   .mobile-home-v2 .home-menu-header h1 {
     margin: 0;
-    color: #ffffff !important;
-    -webkit-text-fill-color: #ffffff !important;
+    color: var(--de-home-header-ink) !important;
+    -webkit-text-fill-color: var(--de-home-header-ink) !important;
     font-size: clamp(1.3rem, 4.5vw, 1.65rem);
     font-weight: 800;
     line-height: 1.12;
@@ -176,8 +168,8 @@
 
   .mobile-home-v2 .home-menu-header .subtitle {
     margin: 6px auto 0;
-    color: #c5cdd8 !important;
-    -webkit-text-fill-color: #c5cdd8 !important;
+    color: var(--de-home-header-muted) !important;
+    -webkit-text-fill-color: var(--de-home-header-muted) !important;
     font-size: 0.83rem;
     line-height: 1.4;
     max-width: 28ch;
@@ -224,9 +216,9 @@
     justify-content: space-between !important;
     align-items: center !important;
     gap: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.16) !important;
-    border-radius: 16px !important;
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1) !important;
+    border: 1px solid var(--de-panel-border) !important;
+    border-radius: var(--de-mobile-menu-btn-radius) !important;
+    box-shadow: var(--de-mobile-panel-inset-dark) !important;
     backdrop-filter: blur(6px) saturate(1.04) !important;
     -webkit-backdrop-filter: blur(6px) saturate(1.04) !important;
     background-image: none !important;
@@ -243,51 +235,49 @@
     transition: background-color 140ms ease, border-color 140ms ease;
   }
 
-  /* A1–B1: caurspīdīgs melnais stikls */
+  /* A1–B1: caurspīdīgs melnais stikls (--de-black) */
   .mobile-home-v2 .menu-button-container button.menu-black {
-    background-color: rgba(0, 0, 0, 0.26) !important;
-    color: #ffffff !important;
-    border-color: rgba(255, 255, 255, 0.2) !important;
+    background-color: var(--de-black-overlay-glass) !important;
+    color: var(--de-text-on-dark) !important;
+    border-color: var(--de-panel-border) !important;
   }
 
-  /* B2–C2: caurspīdīgs sarkanais stikls */
+  /* B2–C2: caurspīdīgs sarkanais stikls (--de-red #9F000F) */
   .mobile-home-v2 .menu-button-container button.menu-red {
-    background-color: rgba(140, 0, 18, 0.25) !important;
-    color: #ffffff !important;
-    border-color: rgba(255, 255, 255, 0.18) !important;
+    background-color: var(--de-red-overlay-glass) !important;
+    color: var(--de-text-on-dark) !important;
+    border-color: var(--de-panel-border) !important;
   }
 
-  /* Teikumi, Kurss, Darbības vārdi: caurspīdīgs zelta stikls */
+  /* Teikumi, Kurss, Darbības vārdi: caurspīdīgs zelta stikls (--de-gold #EAC117) */
   .mobile-home-v2 .menu-button-container button.menu-gold {
-    background-color: rgba(210, 170, 25, 0.24) !important;
-    color: #111111 !important;
-    border-color: rgba(0, 0, 0, 0.12) !important;
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.22) !important;
+    background-color: var(--de-gold-overlay-glass) !important;
+    color: var(--de-text-on-gold) !important;
+    border-color: var(--de-panel-border-gold) !important;
+    box-shadow: var(--de-mobile-panel-inset-gold) !important;
   }
 
   .mobile-home-v2 .menu-button-container button.menu-black:active {
-    background-color: rgba(0, 0, 0, 0.38) !important;
+    background-color: var(--de-black-overlay-glass-hover) !important;
   }
 
   .mobile-home-v2 .menu-button-container button.menu-red:active {
-    background-color: rgba(140, 0, 18, 0.37) !important;
+    background-color: var(--de-red-overlay-glass-hover) !important;
   }
 
   .mobile-home-v2 .menu-button-container button.menu-gold:active {
-    background-color: rgba(210, 170, 25, 0.34) !important;
+    background-color: var(--de-gold-overlay-glass-hover) !important;
   }
 
   .mobile-home-v2 .mobile-menu-btn-label,
   .mobile-home-v2 .mobile-menu-btn-count {
-    color: #ffffff !important;
-    -webkit-text-fill-color: #ffffff !important;
+    color: var(--de-text-on-dark) !important;
+    -webkit-text-fill-color: var(--de-text-on-dark) !important;
     font-weight: 700 !important;
     forced-color-adjust: none !important;
     filter: none !important;
     -webkit-filter: none !important;
-    text-shadow:
-      0 1px 2px rgba(0, 0, 0, 0.88),
-      0 0 10px rgba(0, 0, 0, 0.42) !important;
+    text-shadow: var(--de-text-shadow-dark) !important;
     opacity: 1 !important;
   }
 
@@ -316,15 +306,13 @@
 
   .mobile-home-v2 .menu-button-container button.menu-gold .mobile-menu-btn-label,
   .mobile-home-v2 .menu-button-container button.menu-gold .mobile-menu-btn-count {
-    color: #111111 !important;
-    -webkit-text-fill-color: #111111 !important;
-    text-shadow:
-      0 1px 2px rgba(255, 255, 255, 0.65),
-      0 1px 5px rgba(0, 0, 0, 0.35) !important;
+    color: var(--de-text-on-gold) !important;
+    -webkit-text-fill-color: var(--de-text-on-gold) !important;
+    text-shadow: none !important;
   }
 
   #homeMenuScreen.mobile-home-v2.home-menu-screen {
-    background: #000000 !important;
+    background: var(--de-home-screen-bg) !important;
     background-image: none !important;
     border: none !important;
     box-shadow: none !important;
@@ -358,27 +346,25 @@
   }
 
   html.is-home-screen .mobile-home-v2 .menu-button-container button.menu-black {
-    background-color: rgba(0, 0, 0, 0.26) !important;
+    background-color: var(--de-black-overlay-glass) !important;
   }
 
   html.is-home-screen .mobile-home-v2 .menu-button-container button.menu-red {
-    background-color: rgba(140, 0, 18, 0.25) !important;
+    background-color: var(--de-red-overlay-glass) !important;
   }
 
   html.is-home-screen .mobile-home-v2 .menu-button-container button.menu-gold {
-    background-color: rgba(210, 170, 25, 0.24) !important;
-    color: #111111 !important;
+    background-color: var(--de-gold-overlay-glass) !important;
+    color: var(--de-text-on-gold) !important;
   }
 
   html.is-home-screen .mobile-home-v2 .menu-button-container button.menu-gold span,
   html.is-home-screen .mobile-home-v2 .menu-button-container button.menu-gold div,
   html.is-home-screen .mobile-home-v2 .menu-button-container button.menu-gold .mobile-menu-btn-label,
   html.is-home-screen .mobile-home-v2 .menu-button-container button.menu-gold .mobile-menu-btn-count {
-    color: #111111 !important;
-    -webkit-text-fill-color: #111111 !important;
-    text-shadow:
-      0 1px 2px rgba(255, 255, 255, 0.65),
-      0 1px 5px rgba(0, 0, 0, 0.35) !important;
+    color: var(--de-text-on-gold) !important;
+    -webkit-text-fill-color: var(--de-text-on-gold) !important;
+    text-shadow: none !important;
   }
 }
 
@@ -407,7 +393,7 @@
   #homeMenuScreen.mobile-home-v2,
   .mobile-home-v2 .mh-shell,
   .mobile-home-v2 .mh-bg {
-    background-color: #000000 !important;
+    background-color: var(--de-home-screen-bg) !important;
     background-image: none !important;
     color-scheme: dark !important;
     forced-color-adjust: none !important;
@@ -420,20 +406,12 @@
   .mobile-home-v2 .mh-halo {
     opacity: 1 !important;
     forced-color-adjust: none !important;
-    filter:
-      drop-shadow(0 0 8px rgba(240, 246, 255, 0.77))
-      drop-shadow(0 0 20px rgba(225, 236, 255, 0.52))
-      drop-shadow(0 0 40px rgba(205, 220, 255, 0.3))
-      drop-shadow(0 0 64px rgba(190, 210, 255, 0.16)) !important;
-    -webkit-filter:
-      drop-shadow(0 0 8px rgba(240, 246, 255, 0.77))
-      drop-shadow(0 0 20px rgba(225, 236, 255, 0.52))
-      drop-shadow(0 0 40px rgba(205, 220, 255, 0.3))
-      drop-shadow(0 0 64px rgba(190, 210, 255, 0.16)) !important;
+    filter: var(--de-shield-halo-filter) !important;
+    -webkit-filter: var(--de-shield-halo-filter) !important;
   }
 
   .mobile-home-v2 .mh-emblem-svg .mh-shield-outline {
-    stroke: #000000 !important;
+    stroke: var(--de-eagle-black) !important;
     stroke-width: 4.8 !important;
   }
 
