@@ -49,27 +49,16 @@
     overflow: hidden;
   }
 
-  /* ── Melnais fons ── */
+  /* ── Fons + ģerbonis (aiz pogām) ── */
   .mobile-home-v2 .mh-bg {
     position: absolute;
     inset: 0;
     z-index: 0;
-    pointer-events: none;
-    background: #000000;
-    overflow: hidden;
-    filter: none !important;
-    -webkit-filter: none !important;
-  }
-
-  /* Ģerbonis virs pogām — tīrs dzeltens, bez karoga joslu caurlaidības */
-  .mobile-home-v2 .mh-emblem-layer {
-    position: absolute;
-    inset: 0;
-    z-index: 2;
     display: flex;
     align-items: center;
     justify-content: center;
     pointer-events: none;
+    background: #000000;
     overflow: visible;
     filter: none !important;
     -webkit-filter: none !important;
@@ -85,25 +74,6 @@
     flex-shrink: 0;
   }
 
-  /* Balts/zilganīgs spīdums tikai pa vairoga ārējām malām */
-  .mobile-home-v2 .mh-halo {
-    position: absolute;
-    inset: 0;
-    z-index: 0;
-    border-radius: 14% 14% 18% 18%;
-    pointer-events: none;
-    background: transparent;
-    box-shadow:
-      0 0 8px rgba(240, 246, 255, 0.77),
-      0 0 20px rgba(225, 236, 255, 0.52),
-      0 0 40px rgba(205, 220, 255, 0.3),
-      0 0 64px rgba(190, 210, 255, 0.16);
-    filter: none !important;
-    -webkit-filter: none !important;
-    opacity: 1;
-    forced-color-adjust: none !important;
-  }
-
   .mobile-home-v2 .mh-emblem-svg,
   .mobile-home-v2 .mh-emblem-img {
     position: relative;
@@ -113,8 +83,16 @@
     height: auto;
     max-height: min(78dvh, 420px);
     flex-shrink: 0;
-    filter: none !important;
-    -webkit-filter: none !important;
+    filter:
+      drop-shadow(0 0 8px rgba(240, 246, 255, 0.77))
+      drop-shadow(0 0 20px rgba(225, 236, 255, 0.52))
+      drop-shadow(0 0 40px rgba(205, 220, 255, 0.3))
+      drop-shadow(0 0 64px rgba(190, 210, 255, 0.16)) !important;
+    -webkit-filter:
+      drop-shadow(0 0 8px rgba(240, 246, 255, 0.77))
+      drop-shadow(0 0 20px rgba(225, 236, 255, 0.52))
+      drop-shadow(0 0 40px rgba(205, 220, 255, 0.3))
+      drop-shadow(0 0 64px rgba(190, 210, 255, 0.16)) !important;
     mix-blend-mode: normal !important;
     opacity: 1 !important;
     forced-color-adjust: none !important;
@@ -129,11 +107,11 @@
     paint-order: normal;
   }
 
-  /* Kontūra virs vairoga */
+  /* Kontūra virs pogām */
   .mobile-home-v2 .mh-outline-layer {
     position: absolute;
     inset: 0;
-    z-index: 3;
+    z-index: 2;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -413,7 +391,6 @@
 /* Dators: fona slānis paslēpts, saturs kā iepriekš */
 @media (min-width: 769px) {
   .mobile-home-v2 .mh-bg,
-  .mobile-home-v2 .mh-emblem-layer,
   .mobile-home-v2 .mh-outline-layer {
     display: none !important;
   }
@@ -436,8 +413,7 @@
   html.is-home-screen .home-app-shell,
   #homeMenuScreen.mobile-home-v2,
   .mobile-home-v2 .mh-shell,
-  .mobile-home-v2 .mh-bg,
-  .mobile-home-v2 .mh-emblem-layer {
+  .mobile-home-v2 .mh-bg {
     background-color: #000000 !important;
     background-image: none !important;
     color-scheme: dark !important;
@@ -451,6 +427,16 @@
   .mobile-home-v2 .mh-halo {
     opacity: 1 !important;
     forced-color-adjust: none !important;
+    filter:
+      drop-shadow(0 0 8px rgba(240, 246, 255, 0.77))
+      drop-shadow(0 0 20px rgba(225, 236, 255, 0.52))
+      drop-shadow(0 0 40px rgba(205, 220, 255, 0.3))
+      drop-shadow(0 0 64px rgba(190, 210, 255, 0.16)) !important;
+    -webkit-filter:
+      drop-shadow(0 0 8px rgba(240, 246, 255, 0.77))
+      drop-shadow(0 0 20px rgba(225, 236, 255, 0.52))
+      drop-shadow(0 0 40px rgba(205, 220, 255, 0.3))
+      drop-shadow(0 0 64px rgba(190, 210, 255, 0.16)) !important;
   }
 
   .mobile-home-v2 .mh-emblem-svg .mh-shield-outline {
