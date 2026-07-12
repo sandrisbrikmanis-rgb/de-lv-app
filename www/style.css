@@ -29,10 +29,10 @@
       --de-gold-overlay-hover: rgba(234, 193, 23, 0.96);
       --de-black-overlay-glass: rgba(0, 0, 0, 0.44);
       --de-black-overlay-glass-hover: rgba(0, 0, 0, 0.56);
-      --de-red-overlay-glass: rgba(159, 0, 15, 0.52);
-      --de-red-overlay-glass-hover: rgba(159, 0, 15, 0.62);
-      --de-gold-overlay-glass: rgba(234, 193, 23, 0.50);
-      --de-gold-overlay-glass-hover: rgba(234, 193, 23, 0.58);
+      --de-red-overlay-glass: rgba(159, 0, 15, 0.44);
+      --de-red-overlay-glass-hover: rgba(159, 0, 15, 0.56);
+      --de-gold-overlay-glass: rgba(234, 193, 23, 0.38);
+      --de-gold-overlay-glass-hover: rgba(234, 193, 23, 0.48);
       --de-mobile-menu-btn-radius: 16px;
       --de-mobile-menu-glass-blur: 0px;
       --de-mobile-menu-glass-highlight: inset 0 1px 0 rgba(255, 255, 255, 0.08);
@@ -7413,6 +7413,24 @@ body.is-home-screen .home-app-shell {
     overflow: visible;
   }
 
+  .mobile-level-menu-emblem::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 54%;
+    z-index: 0;
+    width: min(88vw, 360px);
+    height: min(72vw, 300px);
+    transform: translate(-50%, -50%);
+    border-radius: 14% 14% 18% 18%;
+    box-shadow:
+      0 0 8px rgba(240, 246, 255, 0.77),
+      0 0 20px rgba(225, 236, 255, 0.52),
+      0 0 40px rgba(205, 220, 255, 0.3),
+      0 0 64px rgba(190, 210, 255, 0.16);
+    pointer-events: none;
+  }
+
   .mobile-level-menu-emblem-img {
     position: relative;
     z-index: 1;
@@ -7420,12 +7438,12 @@ body.is-home-screen .home-app-shell {
     width: 100%;
     height: 100%;
     max-width: 100%;
-    max-height: 82dvh;
+    max-height: 100%;
     object-fit: contain;
-    object-position: center 58%;
+    object-position: center center;
     opacity: 1;
-    filter: var(--de-shield-halo-filter) !important;
-    -webkit-filter: var(--de-shield-halo-filter) !important;
+    filter: none !important;
+    -webkit-filter: none !important;
     mix-blend-mode: normal !important;
   }
 
@@ -7458,12 +7476,12 @@ body.is-home-screen .home-app-shell {
 
   .home-menu-header {
     flex-shrink: 0;
-    padding: 8px 14px 4px;
+    padding: 12px 16px 6px;
     z-index: 2;
     forced-color-adjust: none !important;
     color-scheme: dark !important;
     filter: none !important;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.72) 0%, rgba(0, 0, 0, 0.28) 72%, transparent 100%) !important;
+    background: transparent !important;
     border-bottom: none;
   }
 
@@ -7501,7 +7519,7 @@ body.is-home-screen .home-app-shell {
     width: 100%;
     min-height: 0;
     padding: 2px 12px calc(6px + env(safe-area-inset-bottom, 0px));
-    overflow: visible;
+    overflow: hidden;
     z-index: 2;
     forced-color-adjust: none !important;
     color-scheme: light !important;
@@ -7510,11 +7528,10 @@ body.is-home-screen .home-app-shell {
   }
 
   .menu-button-container {
-    flex: 0 0 auto;
+    flex: 1 1 0;
     display: flex;
     width: 100% !important;
-    min-height: clamp(34px, 5.2dvh, 46px);
-    max-height: 48px;
+    min-height: 0;
     margin: 0 !important;
     transform: none !important;
     overflow: hidden !important;
@@ -7528,7 +7545,7 @@ body.is-home-screen .home-app-shell {
 
   .menu-button-container:nth-child(4),
   .menu-button-container:nth-child(7) {
-    margin-top: 6px !important;
+    margin-top: 0 !important;
   }
 
   .menu-button-container button {
@@ -7708,8 +7725,8 @@ body.is-home-screen .home-app-shell {
 
   html.is-home-screen .mobile-level-menu-emblem-img {
     opacity: 1 !important;
-    filter: var(--de-shield-halo-filter) !important;
-    -webkit-filter: var(--de-shield-halo-filter) !important;
+    filter: none !important;
+    -webkit-filter: none !important;
   }
 
   html.is-home-screen .home-menu-header h1 {
