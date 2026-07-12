@@ -7743,14 +7743,19 @@ body.is-home-screen .home-app-shell {
 }
 
 @media (max-width: 768px) {
-  /* Mobilā līmeņu izvēlne – centralizēta Vācijas palete + ērglis fonā */
+  /* Mobilā līmeņu izvēlne – izolēta light palete, ērglis fonā, bez OS dark mode korekcijas */
+  html.mobile-home-light,
   html.is-home-screen,
-  body.is-home-screen,
-  body.is-home-screen main.home-main,
-  body.is-home-screen .home-app-shell {
+  html.mobile-home-light body,
+  html.is-home-screen body,
+  html.is-home-screen main.home-main,
+  html.is-home-screen .home-app-shell,
+  html.is-home-screen .mobile-level-menu {
+    background-color: #EAC117 !important;
     background-color: var(--de-gold) !important;
     background-image: none !important;
-    color-scheme: light only !important;
+    color-scheme: light !important;
+    forced-color-adjust: none;
   }
 
   body.is-home-screen {
@@ -7765,7 +7770,7 @@ body.is-home-screen .home-app-shell {
     padding: 0;
   }
 
-  .home-menu-screen {
+  .home-menu-screen.mobile-level-menu {
     min-height: 100dvh;
     max-height: 100dvh;
     padding: 8px 0 10px;
@@ -7777,7 +7782,9 @@ body.is-home-screen .home-app-shell {
     box-shadow: none;
     background: transparent !important;
     background-image: none !important;
-    color-scheme: light only !important;
+    color-scheme: light !important;
+    forced-color-adjust: none;
+    isolation: isolate;
   }
 
   .home-menu-backdrop {
@@ -7786,35 +7793,52 @@ body.is-home-screen .home-app-shell {
     inset: 0;
     z-index: 0;
     pointer-events: none;
+    background-color: #EAC117;
     background-color: var(--de-gold);
     overflow: hidden;
+    forced-color-adjust: none;
+    color-scheme: light;
+    filter: none;
+    opacity: 1;
   }
 
   .home-menu-backdrop::before {
     content: "";
     position: absolute;
     inset: 0;
-    background-image: url("./public/german-eagle.svg");
-    background-position: center 52%;
-    background-size: min(72vw, 340px) auto;
-    background-repeat: no-repeat;
-    filter: brightness(0);
+    background-color: #000000;
+    background-color: var(--de-black);
+    mask-image: url("./public/german-eagle.svg");
+    -webkit-mask-image: url("./public/german-eagle.svg");
+    mask-position: center 52%;
+    -webkit-mask-position: center 52%;
+    mask-size: min(72vw, 340px) auto;
+    -webkit-mask-size: min(72vw, 340px) auto;
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
     opacity: var(--de-eagle-opacity);
+    forced-color-adjust: none;
+    color-scheme: light;
+    filter: none;
   }
 
   .home-menu-header {
     padding: 6px 12px 10px;
     flex-shrink: 0;
     z-index: 2;
+    forced-color-adjust: none;
+    color-scheme: light;
   }
 
   .home-menu-header h1 {
+    color: #000000 !important;
     color: var(--de-header-ink) !important;
     font-size: clamp(1.25rem, 4.2vw, 1.6rem);
     text-shadow: none !important;
   }
 
   .home-menu-header .subtitle {
+    color: rgba(0, 0, 0, 0.78) !important;
     color: var(--de-header-muted) !important;
     font-size: 0.82rem;
     margin-top: 4px;
@@ -7829,6 +7853,8 @@ body.is-home-screen .home-app-shell {
     padding: 0;
     overflow: hidden;
     z-index: 2;
+    forced-color-adjust: none;
+    color-scheme: light;
   }
 
   .menu-button-container {
@@ -7838,6 +7864,8 @@ body.is-home-screen .home-app-shell {
     transform: skewY(-4deg) !important;
     overflow: hidden !important;
     box-shadow: none !important;
+    opacity: 1 !important;
+    filter: none !important;
   }
 
   .menu-button-container button {
@@ -7846,8 +7874,8 @@ body.is-home-screen .home-app-shell {
     border: 1px solid var(--de-panel-border) !important;
     border-radius: 0 !important;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35) !important;
-    backdrop-filter: blur(10px) !important;
-    -webkit-backdrop-filter: blur(10px) !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
     display: flex !important;
     justify-content: space-between !important;
     align-items: center !important;
@@ -7855,23 +7883,32 @@ body.is-home-screen .home-app-shell {
     transform: none !important;
     -webkit-appearance: none !important;
     appearance: none !important;
-    forced-color-adjust: none;
-    color-scheme: light only !important;
+    forced-color-adjust: none !important;
+    color-scheme: light !important;
     background-image: none !important;
+    filter: none !important;
+    opacity: 1 !important;
+    mix-blend-mode: normal !important;
   }
 
   .menu-button-container button.menu-black {
+    background-color: rgba(0, 0, 0, 0.74) !important;
     background-color: var(--de-black-overlay) !important;
+    color: #ffffff !important;
     color: var(--de-text-on-dark) !important;
   }
 
   .menu-button-container button.menu-red {
+    background-color: rgba(159, 0, 15, 0.74) !important;
     background-color: var(--de-red-overlay) !important;
+    color: #ffffff !important;
     color: var(--de-text-on-dark) !important;
   }
 
   .menu-button-container button.menu-gold {
+    background-color: rgba(234, 193, 23, 0.78) !important;
     background-color: var(--de-gold-overlay) !important;
+    color: #000000 !important;
     color: var(--de-text-on-gold) !important;
     border-color: var(--de-panel-border-gold) !important;
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.22) !important;
@@ -7879,6 +7916,7 @@ body.is-home-screen .home-app-shell {
 
   .home-menu-groups .menu-button-container button.menu-black:hover,
   .home-menu-groups .menu-button-container button.menu-black:active {
+    background-color: rgba(0, 0, 0, 0.84) !important;
     background-color: var(--de-black-overlay-hover) !important;
     border-color: rgba(255, 255, 255, 0.32) !important;
     box-shadow: 0 10px 28px rgba(0, 0, 0, 0.48) !important;
@@ -7886,6 +7924,7 @@ body.is-home-screen .home-app-shell {
 
   .home-menu-groups .menu-button-container button.menu-red:hover,
   .home-menu-groups .menu-button-container button.menu-red:active {
+    background-color: rgba(159, 0, 15, 0.84) !important;
     background-color: var(--de-red-overlay-hover) !important;
     border-color: rgba(255, 255, 255, 0.32) !important;
     box-shadow: 0 10px 28px rgba(0, 0, 0, 0.48) !important;
@@ -7893,6 +7932,7 @@ body.is-home-screen .home-app-shell {
 
   .home-menu-groups .menu-button-container button.menu-gold:hover,
   .home-menu-groups .menu-button-container button.menu-gold:active {
+    background-color: rgba(234, 193, 23, 0.88) !important;
     background-color: var(--de-gold-overlay-hover) !important;
     border-color: rgba(0, 0, 0, 0.28) !important;
     box-shadow: 0 8px 22px rgba(0, 0, 0, 0.28) !important;
@@ -7903,18 +7943,24 @@ body.is-home-screen .home-app-shell {
     transform: skewY(4deg) !important;
     font-weight: bold !important;
     font-size: 1rem !important;
+    forced-color-adjust: none !important;
+    opacity: 1 !important;
+    filter: none !important;
   }
 
   .menu-button-container button.menu-black span,
   .menu-button-container button.menu-black div,
   .menu-button-container button.menu-red span,
   .menu-button-container button.menu-red div {
+    color: #ffffff !important;
     color: var(--de-text-on-dark) !important;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8) !important;
     text-shadow: var(--de-text-shadow-dark) !important;
   }
 
   .menu-button-container button.menu-gold span,
   .menu-button-container button.menu-gold div {
+    color: #000000 !important;
     color: var(--de-text-on-gold) !important;
     text-shadow: none !important;
   }
@@ -7927,42 +7973,81 @@ body.is-home-screen .home-app-shell {
   }
 }
 
-/* Sistēmas tumšais režīms nedrīkst pārrakstīt mobilās izvēlnes krāsas */
+/* Samsung / sistēmas dark mode: piespiedu light palete mobilajai līmeņu izvēlnei */
 @media (max-width: 768px) and (prefers-color-scheme: dark) {
+  html.mobile-home-light,
   html.is-home-screen,
-  body.is-home-screen,
-  body.is-home-screen main.home-main,
-  body.is-home-screen .home-app-shell,
-  body.is-home-screen .home-menu-screen {
+  html.mobile-home-light body,
+  html.is-home-screen body,
+  html.is-home-screen main.home-main,
+  html.is-home-screen .home-app-shell,
+  html.is-home-screen .mobile-level-menu,
+  html.is-home-screen .home-menu-screen {
+    background-color: #EAC117 !important;
     background-color: var(--de-gold) !important;
     background-image: none !important;
-    color-scheme: light only !important;
+    color-scheme: light !important;
+    forced-color-adjust: none;
+    filter: none !important;
+    opacity: 1 !important;
   }
 
   body.is-home-screen .home-menu-backdrop {
+    background-color: #EAC117 !important;
     background-color: var(--de-gold) !important;
+    filter: none !important;
+    opacity: 1 !important;
+  }
+
+  body.is-home-screen .home-menu-backdrop::before {
+    background-color: #000000 !important;
+    background-color: var(--de-black) !important;
+    opacity: var(--de-eagle-opacity) !important;
+    filter: none !important;
   }
 
   body.is-home-screen .home-menu-header h1 {
+    color: #000000 !important;
     color: var(--de-header-ink) !important;
   }
 
   body.is-home-screen .home-menu-header .subtitle {
+    color: rgba(0, 0, 0, 0.78) !important;
     color: var(--de-header-muted) !important;
   }
 
+  body.is-home-screen .menu-button-container {
+    opacity: 1 !important;
+    filter: none !important;
+  }
+
+  body.is-home-screen .menu-button-container button {
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    filter: none !important;
+    opacity: 1 !important;
+    color-scheme: light !important;
+    forced-color-adjust: none !important;
+  }
+
   body.is-home-screen .menu-button-container button.menu-black {
+    background-color: rgba(0, 0, 0, 0.74) !important;
     background-color: var(--de-black-overlay) !important;
+    color: #ffffff !important;
     color: var(--de-text-on-dark) !important;
   }
 
   body.is-home-screen .menu-button-container button.menu-red {
+    background-color: rgba(159, 0, 15, 0.74) !important;
     background-color: var(--de-red-overlay) !important;
+    color: #ffffff !important;
     color: var(--de-text-on-dark) !important;
   }
 
   body.is-home-screen .menu-button-container button.menu-gold {
+    background-color: rgba(234, 193, 23, 0.78) !important;
     background-color: var(--de-gold-overlay) !important;
+    color: #000000 !important;
     color: var(--de-text-on-gold) !important;
     border-color: var(--de-panel-border-gold) !important;
   }
@@ -7971,11 +8056,17 @@ body.is-home-screen .home-app-shell {
   body.is-home-screen .menu-button-container button.menu-black div,
   body.is-home-screen .menu-button-container button.menu-red span,
   body.is-home-screen .menu-button-container button.menu-red div {
+    color: #ffffff !important;
     color: var(--de-text-on-dark) !important;
+    opacity: 1 !important;
+    filter: none !important;
   }
 
   body.is-home-screen .menu-button-container button.menu-gold span,
   body.is-home-screen .menu-button-container button.menu-gold div {
+    color: #000000 !important;
     color: var(--de-text-on-gold) !important;
+    opacity: 1 !important;
+    filter: none !important;
   }
 }

@@ -5512,10 +5512,15 @@ function updateNavScreen() {
   document.body.classList.toggle("is-detail-screen", !onHome);
   document.documentElement.classList.toggle("is-home-screen", onHome);
   document.documentElement.classList.toggle("is-detail-screen", !onHome);
+  const isMobileHome = onHome && window.matchMedia("(max-width: 768px)").matches;
+  document.documentElement.classList.toggle("mobile-home-light", isMobileHome);
   const themeMeta = document.querySelector('meta[name="theme-color"]');
   if (themeMeta) {
-    const isMobileHome = onHome && window.matchMedia("(max-width: 768px)").matches;
     themeMeta.setAttribute("content", isMobileHome ? "#EAC117" : "#000000");
+  }
+  const colorSchemeMeta = document.querySelector('meta[name="color-scheme"]');
+  if (colorSchemeMeta) {
+    colorSchemeMeta.setAttribute("content", isMobileHome ? "light" : "light dark");
   }
 }
 
