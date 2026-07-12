@@ -5438,7 +5438,7 @@ function handleMainMenuSelection(item) {
 }
 
 function mainMenuColorClass(index) {
-  if (index < 3) return "menu-gold";
+  if (index < 3) return "menu-black";
   if (index < 6) return "menu-red";
   return "menu-gold";
 }
