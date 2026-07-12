@@ -1,0 +1,342 @@
+/*
+ * Mobile Home v2 — tīrs pārbūves slānis (2. attēla izskats).
+ * Ielādē pēc style.css; darbojas tikai ar .mobile-home-v2 uz mobilā.
+ */
+
+@media (max-width: 768px) {
+  html.is-home-screen,
+  html.is-home-screen body,
+  html.is-home-screen main.home-main,
+  html.is-home-screen .home-app-shell {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    background: #000000 !important;
+    background-image: none !important;
+    color-scheme: dark !important;
+    forced-color-adjust: none !important;
+    filter: none !important;
+    -webkit-filter: none !important;
+  }
+
+  #homeMenuScreen.mobile-home-v2 {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100dvh;
+    max-height: 100dvh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: block;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    background: #000000 !important;
+    isolation: isolate;
+    z-index: 1;
+  }
+
+  .mobile-home-v2 .mh-shell {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #000000;
+    overflow: hidden;
+  }
+
+  /* ── Fona slānis: halo + ģerbonis (bez filtriem) ── */
+  .mobile-home-v2 .mh-bg {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+    background: #000000;
+    overflow: visible;
+    filter: none !important;
+    -webkit-filter: none !important;
+  }
+
+  .mobile-home-v2 .mh-halo {
+    position: absolute;
+    left: 50%;
+    top: 52%;
+    z-index: 0;
+    width: min(90vw, 360px);
+    height: min(105vw, 420px);
+    transform: translate(-50%, -50%);
+    border-radius: 14% 14% 18% 18%;
+    background: radial-gradient(
+      ellipse 80% 70% at 50% 55%,
+      rgba(210, 228, 255, 0.32) 0%,
+      rgba(255, 248, 230, 0.22) 35%,
+      rgba(255, 220, 150, 0.1) 60%,
+      transparent 78%
+    );
+    box-shadow:
+      0 0 10px rgba(255, 248, 220, 0.55),
+      0 0 24px rgba(200, 220, 255, 0.38),
+      0 0 48px rgba(255, 236, 180, 0.22);
+    pointer-events: none;
+  }
+
+  .mobile-home-v2 .mh-emblem {
+    position: relative;
+    z-index: 1;
+    display: block;
+    width: min(84vw, 340px);
+    height: auto;
+    max-height: min(78dvh, 420px);
+    flex-shrink: 0;
+    filter: none !important;
+    -webkit-filter: none !important;
+    mix-blend-mode: normal !important;
+  }
+
+  .mobile-home-v2 .mh-emblem .mh-shield {
+    fill: #ffcc00;
+  }
+
+  .mobile-home-v2 .mh-emblem .mh-eagle {
+    fill: #000000;
+  }
+
+  .mobile-home-v2 .mh-emblem .mh-accent {
+    fill: #dd0000;
+  }
+
+  /* ── UI slānis: virsraksts + stikla pogas ── */
+  .mobile-home-v2 .mh-ui {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100dvh;
+    max-height: 100dvh;
+    padding: 6px 0 0;
+    overflow: hidden;
+    background: transparent !important;
+    pointer-events: none;
+    filter: none !important;
+    -webkit-filter: none !important;
+  }
+
+  .mobile-home-v2 .mh-ui .home-menu-header,
+  .mobile-home-v2 .mh-ui .home-menu-groups,
+  .mobile-home-v2 .mh-ui .menu-button-container,
+  .mobile-home-v2 .mh-ui .menu-button-container button {
+    pointer-events: auto;
+  }
+
+  .mobile-home-v2 .home-menu-header {
+    flex-shrink: 0;
+    padding: 12px 16px 6px;
+    text-align: center;
+    background: transparent !important;
+    border-bottom: none;
+  }
+
+  .mobile-home-v2 .home-menu-header h1 {
+    margin: 0;
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+    font-size: clamp(1.3rem, 4.5vw, 1.65rem);
+    font-weight: 800;
+    line-height: 1.12;
+    letter-spacing: 0.015em;
+    text-shadow: 0 1px 10px rgba(0, 0, 0, 0.55);
+    forced-color-adjust: none !important;
+    filter: none !important;
+  }
+
+  .mobile-home-v2 .home-menu-header .subtitle {
+    margin: 6px auto 0;
+    color: #c5cdd8 !important;
+    -webkit-text-fill-color: #c5cdd8 !important;
+    font-size: 0.83rem;
+    line-height: 1.4;
+    max-width: 28ch;
+    text-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
+    forced-color-adjust: none !important;
+    filter: none !important;
+  }
+
+  .mobile-home-v2 .home-menu-groups {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    min-height: 0;
+    padding: 2px 12px calc(6px + env(safe-area-inset-bottom, 0px));
+    gap: 0;
+    background: transparent !important;
+    overflow: hidden;
+  }
+
+  .mobile-home-v2 .menu-button-container {
+    flex: 1 1 0;
+    display: flex;
+    width: 100% !important;
+    min-height: 0;
+    margin: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    filter: none !important;
+    opacity: 1 !important;
+  }
+
+  .mobile-home-v2 .menu-button-container button {
+    flex: 1 1 auto;
+    width: 100% !important;
+    min-height: 0 !important;
+    padding: clamp(7px, 1.1vh, 11px) 18px !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    gap: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.22) !important;
+    border-radius: 10px !important;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1) !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    background-image: none !important;
+    filter: none !important;
+    -webkit-filter: none !important;
+    mix-blend-mode: normal !important;
+    opacity: 1 !important;
+    -webkit-appearance: none !important;
+    appearance: none !important;
+    forced-color-adjust: none !important;
+    color-scheme: dark !important;
+    font: inherit;
+    transform: none !important;
+    transition: background-color 140ms ease, border-color 140ms ease;
+  }
+
+  /* A1–B1: melnais stikls */
+  .mobile-home-v2 .menu-button-container button.menu-black {
+    background-color: rgba(0, 0, 0, 0.54) !important;
+    color: #ffffff !important;
+    border-color: rgba(255, 255, 255, 0.26) !important;
+  }
+
+  /* B2–C2: sarkanais stikls */
+  .mobile-home-v2 .menu-button-container button.menu-red {
+    background-color: rgba(159, 0, 15, 0.52) !important;
+    color: #ffffff !important;
+    border-color: rgba(255, 255, 255, 0.24) !important;
+  }
+
+  /* Teikumi, Kurss, Darbības vārdi: zelta/olīvu stikls */
+  .mobile-home-v2 .menu-button-container button.menu-gold {
+    background-color: rgba(180, 145, 30, 0.48) !important;
+    color: #ffffff !important;
+    border-color: rgba(255, 255, 255, 0.2) !important;
+  }
+
+  .mobile-home-v2 .menu-button-container button.menu-black:active {
+    background-color: rgba(0, 0, 0, 0.68) !important;
+  }
+
+  .mobile-home-v2 .menu-button-container button.menu-red:active {
+    background-color: rgba(159, 0, 15, 0.66) !important;
+  }
+
+  .mobile-home-v2 .menu-button-container button.menu-gold:active {
+    background-color: rgba(180, 145, 30, 0.62) !important;
+  }
+
+  .mobile-home-v2 .mobile-menu-btn-label,
+  .mobile-home-v2 .mobile-menu-btn-count {
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+    font-weight: 700 !important;
+    forced-color-adjust: none !important;
+    filter: none !important;
+    -webkit-filter: none !important;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.45);
+    opacity: 1 !important;
+  }
+
+  .mobile-home-v2 .mobile-menu-btn-label {
+    flex: 1 1 auto;
+    text-align: left;
+    font-size: 1.02rem;
+    letter-spacing: 0.03em;
+    line-height: 1.2;
+  }
+
+  .mobile-home-v2 .mobile-menu-btn-count {
+    flex: 0 0 auto;
+    min-width: 3ch;
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+    font-size: 0.95rem;
+    font-weight: 800;
+    opacity: 0.92;
+    letter-spacing: 0.02em;
+  }
+
+  .mobile-home-v2 .menu-button-container button.menu-gold .mobile-menu-btn-label {
+    font-size: clamp(0.91rem, 3.5vw, 1rem);
+  }
+}
+
+/* Dators: fona slānis paslēpts, saturs kā iepriekš */
+@media (min-width: 769px) {
+  .mobile-home-v2 .mh-bg {
+    display: none !important;
+  }
+
+  .mobile-home-v2 .mh-shell,
+  .mobile-home-v2 .mh-ui {
+    display: contents;
+  }
+}
+
+/* Samsung force-dark: atkārtots piespiedu override */
+@media (max-width: 768px) and (prefers-color-scheme: dark) {
+  html.is-home-screen,
+  html.is-home-screen body,
+  html.is-home-screen main.home-main,
+  html.is-home-screen .home-app-shell,
+  #homeMenuScreen.mobile-home-v2,
+  .mobile-home-v2 .mh-shell,
+  .mobile-home-v2 .mh-bg {
+    background-color: #000000 !important;
+    background-image: none !important;
+    color-scheme: dark !important;
+    forced-color-adjust: none !important;
+    filter: none !important;
+    -webkit-filter: none !important;
+  }
+
+  .mobile-home-v2 .mh-emblem .mh-shield {
+    fill: #ffcc00 !important;
+  }
+
+  .mobile-home-v2 .mh-emblem .mh-eagle {
+    fill: #000000 !important;
+  }
+
+  .mobile-home-v2 .mh-emblem .mh-accent {
+    fill: #dd0000 !important;
+  }
+
+  .mobile-home-v2 .home-menu-header h1,
+  .mobile-home-v2 .home-menu-header .subtitle,
+  .mobile-home-v2 .mobile-menu-btn-label,
+  .mobile-home-v2 .mobile-menu-btn-count {
+    forced-color-adjust: none !important;
+    filter: none !important;
+  }
+}
