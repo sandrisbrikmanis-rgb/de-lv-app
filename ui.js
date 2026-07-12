@@ -5504,10 +5504,10 @@ function detailScreenHeading(itemKey) {
   return match ? match.label : groupLabel(itemKey);
 }
 
-const MOBILE_HOME_GOLD = "#FFCC00";
+const MOBILE_HOME_BG = "#ffffff";
 const MOBILE_HOME_ISOLATION_PROPS = [
   ["color-scheme", "light"],
-  ["background-color", MOBILE_HOME_GOLD],
+  ["background-color", MOBILE_HOME_BG],
   ["background-image", "none"],
   ["forced-color-adjust", "none"],
   ["filter", "none"],
@@ -5618,7 +5618,7 @@ function updateNavScreen() {
   applyMobileHomeLightIsolation(isMobileHome);
   const themeMeta = document.querySelector('meta[name="theme-color"]');
   if (themeMeta) {
-    themeMeta.setAttribute("content", isMobileHome ? MOBILE_HOME_GOLD : "#000000");
+    themeMeta.setAttribute("content", isMobileHome ? MOBILE_HOME_BG : "#000000");
   }
   const colorSchemeMeta = document.querySelector('meta[name="color-scheme"]');
   if (colorSchemeMeta) {
