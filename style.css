@@ -7853,18 +7853,12 @@ body.is-home-screen .home-app-shell {
 
   .mobile-level-menu-emblem {
     display: flex;
-    position: absolute;
-    inset: 0;
-    z-index: 0;
+    flex: 1 1 auto;
+    min-height: 0;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100%;
-    padding:
-      max(8px, env(safe-area-inset-top, 0px))
-      max(4px, env(safe-area-inset-right, 0px))
-      max(8px, env(safe-area-inset-bottom, 0px))
-      max(4px, env(safe-area-inset-left, 0px));
+    padding: 0 2vw calc(8px + env(safe-area-inset-bottom, 0px));
     background-color: var(--de-home-screen-bg) !important;
     color-scheme: light !important;
     forced-color-adjust: none !important;
@@ -7896,7 +7890,7 @@ body.is-home-screen .home-app-shell {
     width: 100%;
     height: 100%;
     min-height: 100dvh;
-    padding: 6px 0 16px;
+    padding: 6px 0 0;
     color-scheme: light !important;
     forced-color-adjust: none !important;
     filter: none !important;
@@ -7904,14 +7898,6 @@ body.is-home-screen .home-app-shell {
     background: transparent !important;
     background-image: none !important;
     opacity: 1 !important;
-    pointer-events: none;
-  }
-
-  .mobile-level-menu-content .home-menu-header,
-  .mobile-level-menu-content .home-menu-groups,
-  .mobile-level-menu-content .menu-button-container,
-  .mobile-level-menu-content .menu-button-container button {
-    pointer-events: auto;
   }
 
   .home-menu-backdrop {
@@ -7958,12 +7944,10 @@ body.is-home-screen .home-app-shell {
   .home-menu-groups {
     display: flex;
     flex-direction: column;
-    flex: 0 1 auto;
-    min-height: 0;
+    flex: 0 0 auto;
     width: 100%;
     padding: 8px 0 4px;
-    overflow-x: hidden;
-    overflow-y: auto;
+    overflow: visible;
     z-index: 2;
     forced-color-adjust: none !important;
     color-scheme: light !important;
