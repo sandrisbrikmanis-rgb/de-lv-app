@@ -29,10 +29,10 @@
       --de-gold-overlay-hover: rgba(234, 193, 23, 0.96);
       --de-black-overlay-glass: rgba(0, 0, 0, 0.44);
       --de-black-overlay-glass-hover: rgba(0, 0, 0, 0.56);
-      --de-red-overlay-glass: rgba(159, 0, 15, 0.44);
-      --de-red-overlay-glass-hover: rgba(159, 0, 15, 0.56);
-      --de-gold-overlay-glass: rgba(234, 193, 23, 0.38);
-      --de-gold-overlay-glass-hover: rgba(234, 193, 23, 0.48);
+      --de-red-overlay-glass: rgba(159, 0, 15, 0.52);
+      --de-red-overlay-glass-hover: rgba(159, 0, 15, 0.62);
+      --de-gold-overlay-glass: rgba(234, 193, 23, 0.50);
+      --de-gold-overlay-glass-hover: rgba(234, 193, 23, 0.58);
       --de-mobile-menu-btn-radius: 16px;
       --de-mobile-menu-glass-blur: 0px;
       --de-mobile-menu-glass-highlight: inset 0 1px 0 rgba(255, 255, 255, 0.08);
@@ -7417,12 +7417,12 @@ body.is-home-screen .home-app-shell {
     position: relative;
     z-index: 1;
     display: block;
-    width: auto;
-    height: min(92dvh, calc(100vw * 500 / 386));
-    max-width: 100vw;
-    max-height: none;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 82dvh;
     object-fit: contain;
-    object-position: center center;
+    object-position: center 58%;
     opacity: 1;
     filter: var(--de-shield-halo-filter) !important;
     -webkit-filter: var(--de-shield-halo-filter) !important;
@@ -7458,12 +7458,12 @@ body.is-home-screen .home-app-shell {
 
   .home-menu-header {
     flex-shrink: 0;
-    padding: 8px 14px 2px;
+    padding: 8px 14px 4px;
     z-index: 2;
     forced-color-adjust: none !important;
     color-scheme: dark !important;
     filter: none !important;
-    background: transparent !important;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.72) 0%, rgba(0, 0, 0, 0.28) 72%, transparent 100%) !important;
     border-bottom: none;
   }
 
