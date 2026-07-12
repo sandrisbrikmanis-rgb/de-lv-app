@@ -21,14 +21,14 @@
     -webkit-filter: none !important;
   }
 
-  /* Apstiprinātas krāsas + vieglāks stikls (hibrīds v71) */
+  /* Apstiprinātas krāsas + parauga līmeņa stikla caurspīdība (v72) */
   #homeMenuScreen.mobile-home-v2 {
-    --mh-black-glass: rgba(0, 0, 0, 0.34);
-    --mh-black-glass-active: rgba(0, 0, 0, 0.46);
-    --mh-red-glass: rgba(159, 0, 15, 0.26);
-    --mh-red-glass-active: rgba(159, 0, 15, 0.38);
-    --mh-gold-glass: rgba(234, 193, 23, 0.34);
-    --mh-gold-glass-active: rgba(234, 193, 23, 0.44);
+    --mh-black-glass: rgba(0, 0, 0, 0.22);
+    --mh-black-glass-active: rgba(0, 0, 0, 0.34);
+    --mh-red-glass: rgba(159, 0, 15, 0.18);
+    --mh-red-glass-active: rgba(159, 0, 15, 0.28);
+    --mh-gold-glass: rgba(234, 193, 23, 0.17);
+    --mh-gold-glass-active: rgba(234, 193, 23, 0.26);
     --mh-text-shadow-on-dark:
       0 1px 2px rgba(0, 0, 0, 0.88),
       0 0 10px rgba(0, 0, 0, 0.42);
@@ -229,11 +229,11 @@
     justify-content: space-between !important;
     align-items: center !important;
     gap: 10px;
-    border: 1px solid var(--de-panel-border) !important;
+    border: 1px solid rgba(255, 255, 255, 0.12) !important;
     border-radius: var(--de-mobile-menu-btn-radius) !important;
-    box-shadow: var(--de-mobile-panel-inset-dark) !important;
-    backdrop-filter: blur(6px) saturate(1.04) !important;
-    -webkit-backdrop-filter: blur(6px) saturate(1.04) !important;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06) !important;
+    backdrop-filter: blur(5px) saturate(1.02) !important;
+    -webkit-backdrop-filter: blur(5px) saturate(1.02) !important;
     background-image: none !important;
     filter: none !important;
     -webkit-filter: none !important;
@@ -248,26 +248,26 @@
     transition: background-color 140ms ease, border-color 140ms ease;
   }
 
-  /* A1–B1: caurspīdīgs melnais stikls (#000 @ 34%) */
+  /* A1–B1: caurspīdīgs melnais stikls (#000 @ 22%) */
   .mobile-home-v2 .menu-button-container button.menu-black {
     background-color: var(--mh-black-glass) !important;
     color: var(--de-text-on-dark) !important;
-    border-color: var(--de-panel-border) !important;
+    border-color: rgba(255, 255, 255, 0.14) !important;
   }
 
-  /* B2–C2: caurspīdīgs sarkanais stikls (#9F000F @ 26%) */
+  /* B2–C2: caurspīdīgs sarkanais stikls (#9F000F @ 18%) */
   .mobile-home-v2 .menu-button-container button.menu-red {
     background-color: var(--mh-red-glass) !important;
     color: var(--de-text-on-dark) !important;
-    border-color: var(--de-panel-border) !important;
+    border-color: rgba(255, 255, 255, 0.12) !important;
   }
 
-  /* Teikumi, Kurss, Darbības vārdi: zelta stikls (#EAC117 @ 34%) */
+  /* Teikumi, Kurss, Darbības vārdi: zelta stikls (#EAC117 @ 17%) */
   .mobile-home-v2 .menu-button-container button.menu-gold {
     background-color: var(--mh-gold-glass) !important;
     color: var(--de-text-on-gold) !important;
-    border-color: var(--de-panel-border-gold) !important;
-    box-shadow: var(--de-mobile-panel-inset-gold) !important;
+    border-color: rgba(0, 0, 0, 0.1) !important;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.14) !important;
   }
 
   .mobile-home-v2 .menu-button-container button.menu-black:active {
@@ -342,8 +342,8 @@
   .mobile-home-v2 .menu-button-container button.menu-gold {
     background-image: none !important;
     color-scheme: dark !important;
-    backdrop-filter: blur(6px) saturate(1.04) !important;
-    -webkit-backdrop-filter: blur(6px) saturate(1.04) !important;
+    backdrop-filter: blur(5px) saturate(1.02) !important;
+    -webkit-backdrop-filter: blur(5px) saturate(1.02) !important;
   }
 
   html.is-home-screen .mobile-home-v2 .menu-button-container button.menu-black,
