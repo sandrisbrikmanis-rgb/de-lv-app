@@ -41,9 +41,11 @@
       --de-home-screen-bg: #000000;
       --de-home-header-ink: #ffffff;
       --de-home-header-muted: rgba(255, 255, 255, 0.72);
-      --de-shield-glow-core: rgba(255, 255, 255, 0.24);
-      --de-shield-glow-mid: rgba(255, 255, 255, 0.1);
-      --de-shield-glow-soft: rgba(255, 255, 255, 0.04);
+      --de-shield-halo-filter:
+        drop-shadow(0 0 8px rgba(240, 246, 255, 0.5))
+        drop-shadow(0 0 20px rgba(225, 236, 255, 0.34))
+        drop-shadow(0 0 40px rgba(205, 220, 255, 0.2))
+        drop-shadow(0 0 64px rgba(190, 210, 255, 0.1));
       --de-eagle-bg: #FFCC00;
       --de-eagle-black: #000000;
       --de-eagle-red: #DD0000;
@@ -7886,27 +7888,7 @@ body.is-home-screen .home-app-shell {
     opacity: 1 !important;
     mix-blend-mode: normal !important;
     pointer-events: none;
-    overflow: hidden;
-  }
-
-  .mobile-level-menu-emblem::before {
-    content: "";
-    position: absolute;
-    left: 50%;
-    bottom: 10%;
-    z-index: 0;
-    width: min(96vw, 460px);
-    height: min(78vw, 380px);
-    transform: translate(-50%, 18%);
-    border-radius: 50%;
-    background: radial-gradient(
-      ellipse 100% 88% at 50% 72%,
-      var(--de-shield-glow-core) 0%,
-      var(--de-shield-glow-mid) 34%,
-      var(--de-shield-glow-soft) 56%,
-      transparent 74%
-    );
-    pointer-events: none;
+    overflow: visible;
   }
 
   .mobile-level-menu-emblem-img {
@@ -7920,8 +7902,8 @@ body.is-home-screen .home-app-shell {
     object-fit: contain;
     object-position: center center;
     opacity: 1;
-    filter: none !important;
-    -webkit-filter: none !important;
+    filter: var(--de-shield-halo-filter) !important;
+    -webkit-filter: var(--de-shield-halo-filter) !important;
     mix-blend-mode: normal !important;
   }
 
@@ -8193,8 +8175,8 @@ body.is-home-screen .home-app-shell {
 
   html.is-home-screen .mobile-level-menu-emblem-img {
     opacity: 1 !important;
-    filter: none !important;
-    -webkit-filter: none !important;
+    filter: var(--de-shield-halo-filter) !important;
+    -webkit-filter: var(--de-shield-halo-filter) !important;
   }
 
   html.is-home-screen .home-menu-header h1 {
