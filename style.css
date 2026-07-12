@@ -7548,7 +7548,7 @@ body.is-home-screen .home-app-shell {
     margin-top: 0 !important;
   }
 
-  .menu-button-container button {
+  .home-menu-screen:not(.mobile-home-v2) .menu-button-container button {
     flex: 1 1 auto;
     width: 100% !important;
     min-height: 0 !important;
@@ -7577,21 +7577,21 @@ body.is-home-screen .home-app-shell {
       border-color 140ms ease !important;
   }
 
-  .menu-button-container button.menu-black {
+  .home-menu-screen:not(.mobile-home-v2) .menu-button-container button.menu-black {
     background-color: var(--de-black-overlay-glass) !important;
     color: var(--de-text-on-dark) !important;
     border-color: rgba(255, 255, 255, 0.28) !important;
     text-shadow: var(--de-text-shadow-dark);
   }
 
-  .menu-button-container button.menu-red {
+  .home-menu-screen:not(.mobile-home-v2) .menu-button-container button.menu-red {
     background-color: var(--de-red-overlay-glass) !important;
     color: var(--de-text-on-dark) !important;
     border-color: rgba(255, 255, 255, 0.28) !important;
     text-shadow: var(--de-text-shadow-dark);
   }
 
-  .menu-button-container button.menu-gold {
+  .home-menu-screen:not(.mobile-home-v2) .menu-button-container button.menu-gold {
     background-color: var(--de-gold-overlay-glass) !important;
     color: var(--de-text-on-gold) !important;
     border-color: rgba(0, 0, 0, 0.14) !important;
@@ -7599,29 +7599,29 @@ body.is-home-screen .home-app-shell {
     text-shadow: none !important;
   }
 
-  .home-menu-groups .menu-button-container button.menu-black:hover,
-  .home-menu-groups .menu-button-container button.menu-black:active {
+  .home-menu-screen:not(.mobile-home-v2) .home-menu-groups .menu-button-container button.menu-black:hover,
+  .home-menu-screen:not(.mobile-home-v2) .home-menu-groups .menu-button-container button.menu-black:active {
     background-color: var(--de-black-overlay-glass-hover) !important;
     border-color: rgba(255, 255, 255, 0.28) !important;
     transform: none !important;
   }
 
-  .home-menu-groups .menu-button-container button.menu-red:hover,
-  .home-menu-groups .menu-button-container button.menu-red:active {
+  .home-menu-screen:not(.mobile-home-v2) .home-menu-groups .menu-button-container button.menu-red:hover,
+  .home-menu-screen:not(.mobile-home-v2) .home-menu-groups .menu-button-container button.menu-red:active {
     background-color: var(--de-red-overlay-glass-hover) !important;
     border-color: rgba(255, 255, 255, 0.28) !important;
     transform: none !important;
   }
 
-  .home-menu-groups .menu-button-container button.menu-gold:hover,
-  .home-menu-groups .menu-button-container button.menu-gold:active {
+  .home-menu-screen:not(.mobile-home-v2) .home-menu-groups .menu-button-container button.menu-gold:hover,
+  .home-menu-screen:not(.mobile-home-v2) .home-menu-groups .menu-button-container button.menu-gold:active {
     background-color: var(--de-gold-overlay-glass-hover) !important;
     border-color: rgba(0, 0, 0, 0.2) !important;
     transform: none !important;
   }
 
-  .menu-button-container button span,
-  .menu-button-container button div {
+  .home-menu-screen:not(.mobile-home-v2) .menu-button-container button span,
+  .home-menu-screen:not(.mobile-home-v2) .menu-button-container button div {
     transform: none !important;
     font-weight: 700 !important;
     font-size: 1.02rem !important;
@@ -7633,14 +7633,14 @@ body.is-home-screen .home-app-shell {
     mix-blend-mode: normal !important;
   }
 
-  .menu-button-container button .mobile-menu-btn-label {
+  .home-menu-screen:not(.mobile-home-v2) .menu-button-container button .mobile-menu-btn-label {
     flex: 1 1 auto;
     text-align: left;
     letter-spacing: 0.03em;
     text-transform: none;
   }
 
-  .menu-button-container button .mobile-menu-btn-count {
+  .home-menu-screen:not(.mobile-home-v2) .menu-button-container button .mobile-menu-btn-count {
     flex: 0 0 auto;
     min-width: 3ch;
     text-align: right;
@@ -7651,29 +7651,29 @@ body.is-home-screen .home-app-shell {
     letter-spacing: 0.02em;
   }
 
-  .menu-button-container button.menu-gold .mobile-menu-btn-label {
+  .home-menu-screen:not(.mobile-home-v2) .menu-button-container button.menu-gold .mobile-menu-btn-label {
     font-size: clamp(0.91rem, 3.5vw, 1rem);
     letter-spacing: 0.02em;
   }
 
-  .menu-button-container button.menu-gold .mobile-menu-btn-count {
+  .home-menu-screen:not(.mobile-home-v2) .menu-button-container button.menu-gold .mobile-menu-btn-count {
     font-size: 0.91rem;
     opacity: 0.85;
   }
 
-  .menu-button-container button.menu-black span,
-  .menu-button-container button.menu-black div,
-  .menu-button-container button.menu-red span,
-  .menu-button-container button.menu-red div {
+  .home-menu-screen:not(.mobile-home-v2) .menu-button-container button.menu-black span,
+  .home-menu-screen:not(.mobile-home-v2) .menu-button-container button.menu-black div,
+  .home-menu-screen:not(.mobile-home-v2) .menu-button-container button.menu-red span,
+  .home-menu-screen:not(.mobile-home-v2) .menu-button-container button.menu-red div {
     color: var(--de-text-on-dark) !important;
     -webkit-text-fill-color: var(--de-text-on-dark) !important;
     text-shadow: var(--de-text-shadow-dark) !important;
   }
 
-  .menu-button-container button.menu-gold span,
-  .menu-button-container button.menu-gold div,
-  .menu-button-container button.menu-gold .mobile-menu-btn-label,
-  .menu-button-container button.menu-gold .mobile-menu-btn-count {
+  .home-menu-screen:not(.mobile-home-v2) .menu-button-container button.menu-gold span,
+  .home-menu-screen:not(.mobile-home-v2) .menu-button-container button.menu-gold div,
+  .home-menu-screen:not(.mobile-home-v2) .menu-button-container button.menu-gold .mobile-menu-btn-label,
+  .home-menu-screen:not(.mobile-home-v2) .menu-button-container button.menu-gold .mobile-menu-btn-count {
     color: var(--de-text-on-gold) !important;
     -webkit-text-fill-color: var(--de-text-on-gold) !important;
     text-shadow: none !important;
@@ -7739,7 +7739,7 @@ body.is-home-screen .home-app-shell {
     -webkit-text-fill-color: var(--de-home-header-muted) !important;
   }
 
-  html.is-home-screen .menu-button-container button {
+  html.is-home-screen .home-menu-screen:not(.mobile-home-v2) .menu-button-container button {
     backdrop-filter: none !important;
     -webkit-backdrop-filter: none !important;
     filter: none !important;
@@ -7749,34 +7749,34 @@ body.is-home-screen .home-app-shell {
     forced-color-adjust: none !important;
   }
 
-  html.is-home-screen .menu-button-container button.menu-black {
+  html.is-home-screen .home-menu-screen:not(.mobile-home-v2) .menu-button-container button.menu-black {
     background-color: var(--de-black-overlay-glass) !important;
     color: var(--de-text-on-dark) !important;
   }
 
-  html.is-home-screen .menu-button-container button.menu-red {
+  html.is-home-screen .home-menu-screen:not(.mobile-home-v2) .menu-button-container button.menu-red {
     background-color: var(--de-red-overlay-glass) !important;
     color: var(--de-text-on-dark) !important;
   }
 
-  html.is-home-screen .menu-button-container button.menu-gold {
+  html.is-home-screen .home-menu-screen:not(.mobile-home-v2) .menu-button-container button.menu-gold {
     background-color: var(--de-gold-overlay-glass) !important;
     color: var(--de-text-on-gold) !important;
     border-color: var(--de-panel-border-gold) !important;
   }
 
-  html.is-home-screen .menu-button-container button.menu-black span,
-  html.is-home-screen .menu-button-container button.menu-black div,
-  html.is-home-screen .menu-button-container button.menu-red span,
-  html.is-home-screen .menu-button-container button.menu-red div {
+  html.is-home-screen .home-menu-screen:not(.mobile-home-v2) .menu-button-container button.menu-black span,
+  html.is-home-screen .home-menu-screen:not(.mobile-home-v2) .menu-button-container button.menu-black div,
+  html.is-home-screen .home-menu-screen:not(.mobile-home-v2) .menu-button-container button.menu-red span,
+  html.is-home-screen .home-menu-screen:not(.mobile-home-v2) .menu-button-container button.menu-red div {
     color: #ffffff !important;
     -webkit-text-fill-color: #ffffff !important;
     opacity: 1 !important;
     filter: none !important;
   }
 
-  html.is-home-screen .menu-button-container button.menu-gold span,
-  html.is-home-screen .menu-button-container button.menu-gold div {
+  html.is-home-screen .home-menu-screen:not(.mobile-home-v2) .menu-button-container button.menu-gold span,
+  html.is-home-screen .home-menu-screen:not(.mobile-home-v2) .menu-button-container button.menu-gold div {
     color: #000000 !important;
     -webkit-text-fill-color: #000000 !important;
     opacity: 1 !important;
