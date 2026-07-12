@@ -11,6 +11,7 @@ $rootFiles = @(
     'manifest.json',
     'ui.js',
     'style.css',
+    'mobile-home.css',
     'groups.js',
     'storage.js',
     'wordRain.js'
