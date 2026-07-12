@@ -34,9 +34,9 @@
       --de-gold-overlay-glass: rgba(234, 193, 23, 0.48);
       --de-gold-overlay-glass-hover: rgba(234, 193, 23, 0.58);
       --de-mobile-menu-btn-radius: 16px;
-      --de-mobile-menu-glass-blur: 14px;
-      --de-mobile-menu-glass-highlight: inset 0 1px 0 rgba(255, 255, 255, 0.14);
-      --de-mobile-menu-glass-shadow: 0 4px 18px rgba(0, 0, 0, 0.22);
+      --de-mobile-menu-glass-blur: 0px;
+      --de-mobile-menu-glass-highlight: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+      --de-mobile-menu-glass-shadow: none;
       --de-text-on-dark: #ffffff;
       --de-text-on-gold: #000000;
       --de-text-shadow-dark: 0 1px 2px rgba(0, 0, 0, 0.45);
@@ -7816,6 +7816,11 @@ body.is-home-screen .home-app-shell {
     opacity: 1 !important;
   }
 
+  html.is-home-screen,
+  html.mobile-home-light {
+    overflow: hidden;
+  }
+
   body.is-home-screen {
     overflow-x: hidden;
     overflow-y: hidden;
@@ -7940,7 +7945,7 @@ body.is-home-screen .home-app-shell {
 
   .home-menu-header {
     flex-shrink: 0;
-    padding: 16px 20px 10px;
+    padding: 12px 16px 6px;
     z-index: 2;
     forced-color-adjust: none !important;
     color-scheme: dark !important;
@@ -7982,8 +7987,8 @@ body.is-home-screen .home-app-shell {
     justify-content: space-evenly;
     width: 100%;
     min-height: 0;
-    padding: 4px 14px calc(8px + env(safe-area-inset-bottom, 0px));
-    overflow: visible;
+    padding: 2px 12px calc(6px + env(safe-area-inset-bottom, 0px));
+    overflow: hidden;
     z-index: 2;
     forced-color-adjust: none !important;
     color-scheme: light !important;
@@ -7992,11 +7997,13 @@ body.is-home-screen .home-app-shell {
   }
 
   .menu-button-container {
+    flex: 1 1 0;
+    display: flex;
     width: 100% !important;
-    margin-left: 0 !important;
-    margin-bottom: 8px !important;
+    min-height: 0;
+    margin: 0 !important;
     transform: none !important;
-    overflow: visible !important;
+    overflow: hidden !important;
     box-shadow: none !important;
     opacity: 1 !important;
     filter: none !important;
@@ -8007,19 +8014,20 @@ body.is-home-screen .home-app-shell {
 
   .menu-button-container:nth-child(4),
   .menu-button-container:nth-child(7) {
-    margin-top: 6px !important;
+    margin-top: 0 !important;
   }
 
   .menu-button-container button {
+    flex: 1 1 auto;
     width: 100% !important;
-    min-height: 48px !important;
-    padding: 13px 20px !important;
-    gap: 14px !important;
-    border: 1px solid rgba(255, 255, 255, 0.24) !important;
+    min-height: 0 !important;
+    padding: clamp(7px, 1.1vh, 11px) 18px !important;
+    gap: 12px !important;
+    border: 1px solid rgba(255, 255, 255, 0.18) !important;
     border-radius: var(--de-mobile-menu-btn-radius) !important;
-    box-shadow: var(--de-mobile-menu-glass-highlight), var(--de-mobile-menu-glass-shadow) !important;
-    backdrop-filter: blur(var(--de-mobile-menu-glass-blur)) saturate(1.12) !important;
-    -webkit-backdrop-filter: blur(var(--de-mobile-menu-glass-blur)) saturate(1.12) !important;
+    box-shadow: var(--de-mobile-menu-glass-highlight) !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
     display: flex !important;
     justify-content: space-between !important;
     align-items: center !important;
@@ -8035,9 +8043,7 @@ body.is-home-screen .home-app-shell {
     mix-blend-mode: normal !important;
     transition:
       background-color 140ms ease,
-      border-color 140ms ease,
-      box-shadow 140ms ease,
-      transform 140ms ease !important;
+      border-color 140ms ease !important;
   }
 
   .menu-button-container button.menu-black {
@@ -8057,33 +8063,30 @@ body.is-home-screen .home-app-shell {
   .menu-button-container button.menu-gold {
     background-color: var(--de-gold-overlay-glass) !important;
     color: var(--de-text-on-gold) !important;
-    border-color: rgba(0, 0, 0, 0.18) !important;
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.22), var(--de-mobile-menu-glass-shadow) !important;
+    border-color: rgba(0, 0, 0, 0.14) !important;
+    box-shadow: var(--de-mobile-menu-glass-highlight) !important;
     text-shadow: none !important;
   }
 
   .home-menu-groups .menu-button-container button.menu-black:hover,
   .home-menu-groups .menu-button-container button.menu-black:active {
     background-color: var(--de-black-overlay-glass-hover) !important;
-    border-color: rgba(255, 255, 255, 0.34) !important;
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.18), 0 6px 20px rgba(0, 0, 0, 0.28) !important;
-    transform: translateY(-1px) !important;
+    border-color: rgba(255, 255, 255, 0.28) !important;
+    transform: none !important;
   }
 
   .home-menu-groups .menu-button-container button.menu-red:hover,
   .home-menu-groups .menu-button-container button.menu-red:active {
     background-color: var(--de-red-overlay-glass-hover) !important;
-    border-color: rgba(255, 255, 255, 0.34) !important;
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.18), 0 6px 20px rgba(0, 0, 0, 0.28) !important;
-    transform: translateY(-1px) !important;
+    border-color: rgba(255, 255, 255, 0.28) !important;
+    transform: none !important;
   }
 
   .home-menu-groups .menu-button-container button.menu-gold:hover,
   .home-menu-groups .menu-button-container button.menu-gold:active {
     background-color: var(--de-gold-overlay-glass-hover) !important;
-    border-color: rgba(0, 0, 0, 0.22) !important;
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.26), 0 6px 20px rgba(0, 0, 0, 0.24) !important;
-    transform: translateY(-1px) !important;
+    border-color: rgba(0, 0, 0, 0.2) !important;
+    transform: none !important;
   }
 
   .menu-button-container button span,
@@ -8206,8 +8209,8 @@ body.is-home-screen .home-app-shell {
   }
 
   html.is-home-screen .menu-button-container button {
-    backdrop-filter: blur(var(--de-mobile-menu-glass-blur)) saturate(1.12) !important;
-    -webkit-backdrop-filter: blur(var(--de-mobile-menu-glass-blur)) saturate(1.12) !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
     filter: none !important;
     -webkit-filter: none !important;
     opacity: 1 !important;
