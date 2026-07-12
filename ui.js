@@ -5340,7 +5340,7 @@ function initMobileMenuDebugHelper() {
     const html = document.documentElement;
     const body = document.body;
     const menu = document.getElementById("homeMenuScreen");
-    const emblem = document.querySelector(".mh-bg");
+    const emblem = document.querySelector(".mh-emblem-layer, .mh-bg");
     const sampleBtn = document.querySelector(".menu-button-container button.menu-black");
     const colorSchemeMeta = document.querySelector('meta[name="color-scheme"]');
     const themeMeta = document.querySelector('meta[name="theme-color"]');

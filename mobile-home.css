@@ -49,16 +49,27 @@
     overflow: hidden;
   }
 
-  /* ── Fona slānis: spīdums + ģerbonis vienā kopā ── */
+  /* ── Melnais fons ── */
   .mobile-home-v2 .mh-bg {
     position: absolute;
     inset: 0;
     z-index: 0;
+    pointer-events: none;
+    background: #000000;
+    overflow: hidden;
+    filter: none !important;
+    -webkit-filter: none !important;
+  }
+
+  /* Ģerbonis virs pogām — tīrs dzeltens, bez karoga joslu caurlaidības */
+  .mobile-home-v2 .mh-emblem-layer {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
     display: flex;
     align-items: center;
     justify-content: center;
     pointer-events: none;
-    background: #000000;
     overflow: visible;
     filter: none !important;
     -webkit-filter: none !important;
@@ -74,25 +85,19 @@
     flex-shrink: 0;
   }
 
-  /* Spīdums tikai pa vairoga malām — centrs tīrs (bez pleķa) */
+  /* Balts/zilganīgs spīdums tikai pa vairoga ārējām malām */
   .mobile-home-v2 .mh-halo {
     position: absolute;
-    inset: -2% -4% -1% -4%;
+    inset: 0;
     z-index: 0;
     border-radius: 14% 14% 18% 18%;
     pointer-events: none;
-    background: radial-gradient(
-      ellipse 80% 74% at 50% 54%,
-      transparent 0%,
-      transparent 56%,
-      rgba(235, 245, 255, 0.42) 68%,
-      rgba(220, 235, 255, 0.28) 76%,
-      rgba(210, 228, 255, 0.14) 84%,
-      transparent 94%
-    );
+    background: transparent;
     box-shadow:
-      0 0 14px rgba(220, 235, 255, 0.32),
-      0 0 32px rgba(200, 220, 255, 0.18);
+      0 0 8px rgba(240, 246, 255, 0.77),
+      0 0 20px rgba(225, 236, 255, 0.52),
+      0 0 40px rgba(205, 220, 255, 0.3),
+      0 0 64px rgba(190, 210, 255, 0.16);
     filter: none !important;
     -webkit-filter: none !important;
     opacity: 1;
@@ -124,11 +129,11 @@
     paint-order: normal;
   }
 
-  /* Kontūra virs pogām — redzama arī caur stiklu */
+  /* Kontūra virs vairoga */
   .mobile-home-v2 .mh-outline-layer {
     position: absolute;
     inset: 0;
-    z-index: 2;
+    z-index: 3;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -408,6 +413,7 @@
 /* Dators: fona slānis paslēpts, saturs kā iepriekš */
 @media (min-width: 769px) {
   .mobile-home-v2 .mh-bg,
+  .mobile-home-v2 .mh-emblem-layer,
   .mobile-home-v2 .mh-outline-layer {
     display: none !important;
   }
@@ -430,7 +436,8 @@
   html.is-home-screen .home-app-shell,
   #homeMenuScreen.mobile-home-v2,
   .mobile-home-v2 .mh-shell,
-  .mobile-home-v2 .mh-bg {
+  .mobile-home-v2 .mh-bg,
+  .mobile-home-v2 .mh-emblem-layer {
     background-color: #000000 !important;
     background-image: none !important;
     color-scheme: dark !important;
