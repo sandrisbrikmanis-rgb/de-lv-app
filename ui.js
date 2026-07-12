@@ -5571,7 +5571,7 @@ function initMobileMenuDebugHelper() {
     const html = document.documentElement;
     const body = document.body;
     const menu = document.getElementById("homeMenuScreen");
-    const paint = document.querySelector(".mobile-level-menu-paint");
+    const emblem = document.querySelector(".mobile-level-menu-emblem");
     const sampleBtn = document.querySelector(".menu-button-container button.menu-black");
     const colorSchemeMeta = document.querySelector('meta[name="color-scheme"]');
     const themeMeta = document.querySelector('meta[name="theme-color"]');
@@ -5588,7 +5588,7 @@ function initMobileMenuDebugHelper() {
       `body bg: ${readBgColor(body)}`,
       `main bg: ${readBgColor(document.querySelector("main.home-main"))}`,
       `#homeMenuScreen bg: ${readBgColor(menu)}`,
-      `.mobile-level-menu-paint bg: ${readBgColor(paint)}`,
+      `.mobile-level-menu-emblem bg: ${readBgColor(emblem)}`,
       `A1 button bg: ${readBgColor(sampleBtn)}`
     ].join("\n");
   }

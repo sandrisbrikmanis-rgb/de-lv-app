@@ -35,7 +35,7 @@
       --de-eagle-bg: #FFCC00;
       --de-eagle-black: #000000;
       --de-eagle-red: #DD0000;
-      --de-eagle-opacity: 0.68;
+      --de-eagle-opacity: 1;
       --de-panel-border: rgba(255, 255, 255, 0.2);
       --de-panel-border-gold: rgba(0, 0, 0, 0.16);
       --de-mobile-panel-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
@@ -7607,8 +7607,7 @@ main,
   display: contents;
 }
 
-.mobile-level-menu-paint,
-.mobile-level-menu-eagle {
+.mobile-level-menu-emblem {
   display: none;
 }
 
@@ -7850,43 +7849,30 @@ body.is-home-screen .home-app-shell {
     background-color: var(--de-eagle-bg) !important;
   }
 
-  .mobile-level-menu-paint {
-    display: block;
-    position: absolute;
-    inset: 0;
-    z-index: 0;
-    pointer-events: none;
+  .mobile-level-menu-emblem {
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    padding: 4px 0 calc(12px + env(safe-area-inset-bottom, 0px));
     background-color: var(--de-eagle-bg) !important;
-    background-image: none !important;
     color-scheme: light !important;
     forced-color-adjust: none !important;
     filter: none !important;
     -webkit-filter: none !important;
     opacity: 1 !important;
     mix-blend-mode: normal !important;
-    transform: translateZ(0);
-    -webkit-transform: translateZ(0);
+    pointer-events: none;
   }
 
-  .mobile-level-menu-eagle {
+  .mobile-level-menu-emblem-img {
     display: block;
-    position: absolute;
-    left: 52%;
-    top: 46%;
-    width: min(66vw, 248px);
-    height: min(83vw, 312px);
-    aspect-ratio: 352 / 444;
-    transform: translate(-50%, -50%) translateZ(0);
-    -webkit-transform: translate(-50%, -50%) translateZ(0);
-    pointer-events: none;
-    background-color: transparent !important;
-    background-image: url("./public/german-eagle.svg");
-    background-position: center center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    opacity: var(--de-eagle-opacity);
-    color-scheme: light !important;
-    forced-color-adjust: none !important;
+    width: min(62vw, 248px);
+    height: auto;
+    max-height: 34dvh;
+    object-fit: contain;
+    opacity: 1;
     filter: none !important;
     -webkit-filter: none !important;
     mix-blend-mode: normal !important;
@@ -7954,10 +7940,12 @@ body.is-home-screen .home-app-shell {
   .home-menu-groups {
     display: flex;
     flex-direction: column;
-    flex: 1;
+    flex: 1 1 auto;
+    min-height: 0;
     width: 100%;
     padding: 8px 0 4px;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
     z-index: 2;
     forced-color-adjust: none !important;
     color-scheme: light !important;
@@ -8138,7 +8126,7 @@ body.is-home-screen .home-app-shell {
   }
 
   html.is-home-screen .mobile-level-menu-shell,
-  html.is-home-screen .mobile-level-menu-paint {
+  html.is-home-screen .mobile-level-menu-emblem {
     background-color: var(--de-eagle-bg) !important;
     filter: none !important;
     -webkit-filter: none !important;
@@ -8151,10 +8139,8 @@ body.is-home-screen .home-app-shell {
     background: transparent !important;
   }
 
-  html.is-home-screen .mobile-level-menu-eagle {
-    background-color: transparent !important;
-    background-image: url("./public/german-eagle.svg") !important;
-    opacity: var(--de-eagle-opacity) !important;
+  html.is-home-screen .mobile-level-menu-emblem-img {
+    opacity: 1 !important;
     filter: none !important;
     -webkit-filter: none !important;
   }
@@ -8215,11 +8201,7 @@ body.is-home-screen .home-app-shell {
 }
 
 /* Dev helper: ?debugMenu=1 */
-html.debug-mobile-menu-layers .mobile-level-menu-paint {
-  outline: 3px solid #ff0000;
-}
-
-html.debug-mobile-menu-layers .mobile-level-menu-eagle {
+html.debug-mobile-menu-layers .mobile-level-menu-emblem {
   outline: 3px solid #0000ff;
 }
 
@@ -8267,7 +8249,7 @@ html.debug-mobile-menu-layers .menu-button-container button {
  * Pilnīgi solid HEX paneļi, bez rgba/opacity/ērgļa — tikai mobilais home skats.
  */
 @media (max-width: 768px) {
-  html.mobile-menu-solid-experiment .mobile-level-menu-eagle {
+  html.mobile-menu-solid-experiment .mobile-level-menu-emblem {
     display: none !important;
   }
 
