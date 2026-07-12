@@ -27,6 +27,12 @@
       --de-red-overlay-hover: rgba(159, 0, 15, 0.92);
       --de-gold-overlay: rgba(234, 193, 23, 0.92);
       --de-gold-overlay-hover: rgba(234, 193, 23, 0.96);
+      --de-black-overlay-glass: rgba(0, 0, 0, 0.44);
+      --de-black-overlay-glass-hover: rgba(0, 0, 0, 0.56);
+      --de-red-overlay-glass: rgba(159, 0, 15, 0.44);
+      --de-red-overlay-glass-hover: rgba(159, 0, 15, 0.56);
+      --de-gold-overlay-glass: rgba(234, 193, 23, 0.48);
+      --de-gold-overlay-glass-hover: rgba(234, 193, 23, 0.58);
       --de-text-on-dark: #ffffff;
       --de-text-on-gold: #000000;
       --de-text-shadow-dark: 0 1px 2px rgba(0, 0, 0, 0.45);
@@ -7854,13 +7860,19 @@ body.is-home-screen .home-app-shell {
   }
 
   .mobile-level-menu-emblem {
-    grid-row: 3;
     display: flex;
-    min-height: 0;
+    position: absolute;
+    inset: 0;
+    z-index: 0;
     justify-content: center;
-    align-items: stretch;
+    align-items: center;
     width: 100%;
-    padding: 0 0 env(safe-area-inset-bottom, 0px);
+    height: 100%;
+    padding:
+      max(6px, env(safe-area-inset-top, 0px))
+      max(4px, env(safe-area-inset-right, 0px))
+      max(6px, env(safe-area-inset-bottom, 0px))
+      max(4px, env(safe-area-inset-left, 0px));
     background-color: var(--de-home-screen-bg) !important;
     color-scheme: light !important;
     forced-color-adjust: none !important;
@@ -7874,10 +7886,8 @@ body.is-home-screen .home-app-shell {
 
   .mobile-level-menu-emblem-img {
     display: block;
-    flex: 1 1 auto;
     width: 100%;
     height: 100%;
-    min-height: 0;
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
@@ -7889,8 +7899,8 @@ body.is-home-screen .home-app-shell {
   }
 
   .mobile-level-menu-content {
-    display: grid;
-    grid-template-rows: auto minmax(0, auto) minmax(0, 1fr);
+    display: flex;
+    flex-direction: column;
     position: relative;
     z-index: 1;
     width: 100%;
@@ -7905,18 +7915,25 @@ body.is-home-screen .home-app-shell {
     background: transparent !important;
     background-image: none !important;
     opacity: 1 !important;
+    pointer-events: none;
+  }
+
+  .mobile-level-menu-content .home-menu-header,
+  .mobile-level-menu-content .home-menu-groups,
+  .mobile-level-menu-content .menu-button-container,
+  .mobile-level-menu-content .menu-button-container button {
+    pointer-events: auto;
   }
 
   .home-menu-header {
-    grid-row: 1;
-    padding: 16px 20px 14px;
     flex-shrink: 0;
+    padding: 16px 20px 10px;
     z-index: 2;
     forced-color-adjust: none !important;
     color-scheme: light !important;
     filter: none !important;
     background: transparent !important;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    border-bottom: none;
   }
 
   .home-menu-header h1 {
@@ -7946,16 +7963,14 @@ body.is-home-screen .home-app-shell {
   }
 
   .home-menu-groups {
-    grid-row: 2;
     display: flex;
+    flex: 1 1 auto;
     flex-direction: column;
+    justify-content: space-evenly;
     width: 100%;
-    height: auto;
     min-height: 0;
-    max-height: 40dvh;
-    padding: 8px 0 4px;
-    overflow-x: hidden;
-    overflow-y: auto;
+    padding: 4px 0 calc(8px + env(safe-area-inset-bottom, 0px));
+    overflow: visible;
     z-index: 2;
     forced-color-adjust: none !important;
     color-scheme: light !important;
@@ -7989,7 +8004,7 @@ body.is-home-screen .home-app-shell {
     gap: 14px !important;
     border: 1px solid var(--de-panel-border) !important;
     border-radius: 2px !important;
-    box-shadow: var(--de-mobile-panel-shadow), var(--de-mobile-panel-inset-dark) !important;
+    box-shadow: none !important;
     backdrop-filter: none !important;
     -webkit-backdrop-filter: none !important;
     display: flex !important;
@@ -8008,41 +8023,41 @@ body.is-home-screen .home-app-shell {
   }
 
   .menu-button-container button.menu-black {
-    background-color: var(--de-black-overlay) !important;
+    background-color: var(--de-black-overlay-glass) !important;
     color: var(--de-text-on-dark) !important;
-    border-color: var(--de-panel-border) !important;
-    box-shadow: var(--de-mobile-panel-shadow), var(--de-mobile-panel-inset-dark) !important;
+    border-color: rgba(255, 255, 255, 0.28) !important;
+    text-shadow: var(--de-text-shadow-dark);
   }
 
   .menu-button-container button.menu-red {
-    background-color: var(--de-red-overlay) !important;
+    background-color: var(--de-red-overlay-glass) !important;
     color: var(--de-text-on-dark) !important;
-    border-color: var(--de-panel-border) !important;
-    box-shadow: var(--de-mobile-panel-shadow), var(--de-mobile-panel-inset-dark) !important;
+    border-color: rgba(255, 255, 255, 0.28) !important;
+    text-shadow: var(--de-text-shadow-dark);
   }
 
   .menu-button-container button.menu-gold {
-    background-color: var(--de-gold-overlay) !important;
+    background-color: var(--de-gold-overlay-glass) !important;
     color: var(--de-text-on-gold) !important;
     border-color: var(--de-panel-border-gold) !important;
-    box-shadow: var(--de-mobile-panel-shadow-gold), var(--de-mobile-panel-inset-gold) !important;
+    text-shadow: none !important;
   }
 
   .home-menu-groups .menu-button-container button.menu-black:hover,
   .home-menu-groups .menu-button-container button.menu-black:active {
-    background-color: var(--de-black-overlay-hover) !important;
-    border-color: rgba(255, 255, 255, 0.28) !important;
+    background-color: var(--de-black-overlay-glass-hover) !important;
+    border-color: rgba(255, 255, 255, 0.36) !important;
   }
 
   .home-menu-groups .menu-button-container button.menu-red:hover,
   .home-menu-groups .menu-button-container button.menu-red:active {
-    background-color: var(--de-red-overlay-hover) !important;
-    border-color: rgba(255, 255, 255, 0.28) !important;
+    background-color: var(--de-red-overlay-glass-hover) !important;
+    border-color: rgba(255, 255, 255, 0.36) !important;
   }
 
   .home-menu-groups .menu-button-container button.menu-gold:hover,
   .home-menu-groups .menu-button-container button.menu-gold:active {
-    background-color: var(--de-gold-overlay-hover) !important;
+    background-color: var(--de-gold-overlay-glass-hover) !important;
     border-color: rgba(0, 0, 0, 0.22) !important;
   }
 
@@ -8176,17 +8191,17 @@ body.is-home-screen .home-app-shell {
   }
 
   html.is-home-screen .menu-button-container button.menu-black {
-    background-color: var(--de-black-overlay) !important;
+    background-color: var(--de-black-overlay-glass) !important;
     color: var(--de-text-on-dark) !important;
   }
 
   html.is-home-screen .menu-button-container button.menu-red {
-    background-color: var(--de-red-overlay) !important;
+    background-color: var(--de-red-overlay-glass) !important;
     color: var(--de-text-on-dark) !important;
   }
 
   html.is-home-screen .menu-button-container button.menu-gold {
-    background-color: var(--de-gold-overlay) !important;
+    background-color: var(--de-gold-overlay-glass) !important;
     color: var(--de-text-on-gold) !important;
     border-color: var(--de-panel-border-gold) !important;
   }
