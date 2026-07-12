@@ -64,6 +64,7 @@
     -webkit-filter: none !important;
   }
 
+  .mobile-home-v2 .mh-emblem-svg,
   .mobile-home-v2 .mh-emblem-img {
     position: relative;
     z-index: 1;
@@ -72,30 +73,20 @@
     height: auto;
     max-height: min(78dvh, 420px);
     flex-shrink: 0;
-    object-fit: contain;
-    object-position: center center;
+    filter: none !important;
+    -webkit-filter: none !important;
+    mix-blend-mode: normal !important;
     opacity: 1 !important;
     forced-color-adjust: none !important;
-    mix-blend-mode: normal !important;
-    image-rendering: auto;
-    filter:
-      drop-shadow(1px 0 0 #000000)
-      drop-shadow(-1px 0 0 #000000)
-      drop-shadow(0 1px 0 #000000)
-      drop-shadow(0 -1px 0 #000000)
-      drop-shadow(1px 1px 0 #000000)
-      drop-shadow(-1px -1px 0 #000000)
-      drop-shadow(1px -1px 0 #000000)
-      drop-shadow(-1px 1px 0 #000000) !important;
-    -webkit-filter:
-      drop-shadow(1px 0 0 #000000)
-      drop-shadow(-1px 0 0 #000000)
-      drop-shadow(0 1px 0 #000000)
-      drop-shadow(0 -1px 0 #000000)
-      drop-shadow(1px 1px 0 #000000)
-      drop-shadow(-1px -1px 0 #000000)
-      drop-shadow(1px -1px 0 #000000)
-      drop-shadow(-1px 1px 0 #000000) !important;
+  }
+
+  .mobile-home-v2 .mh-emblem-svg .mh-shield-outline {
+    fill: none !important;
+    stroke: #000000 !important;
+    stroke-width: 8 !important;
+    stroke-linejoin: round !important;
+    vector-effect: non-scaling-stroke;
+    paint-order: normal;
   }
 
   /* ── UI slānis: virsraksts + stikla pogas ── */
@@ -359,9 +350,14 @@
     -webkit-filter: none !important;
   }
 
+  .mobile-home-v2 .mh-emblem-svg,
   .mobile-home-v2 .mh-emblem-img {
     opacity: 1 !important;
     forced-color-adjust: none !important;
+  }
+
+  .mobile-home-v2 .mh-emblem-svg .mh-shield-outline {
+    stroke: #000000 !important;
   }
 
   .mobile-home-v2 .home-menu-header h1,
