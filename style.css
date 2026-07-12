@@ -32,6 +32,7 @@
       --de-text-shadow-dark: 0 1px 2px rgba(0, 0, 0, 0.45);
       --de-header-ink: #000000;
       --de-header-muted: rgba(0, 0, 0, 0.68);
+      --de-home-screen-bg: #ffffff;
       --de-eagle-bg: #FFCC00;
       --de-eagle-black: #000000;
       --de-eagle-red: #DD0000;
@@ -7772,7 +7773,7 @@ body.is-home-screen .home-app-shell {
   html.mobile-home-light {
     color-scheme: light !important;
     forced-color-adjust: none !important;
-    background-color: var(--de-eagle-bg) !important;
+    background-color: var(--de-home-screen-bg) !important;
     background-image: none !important;
     filter: none !important;
     -webkit-filter: none !important;
@@ -7786,7 +7787,7 @@ body.is-home-screen .home-app-shell {
   html.mobile-home-light .home-app-shell {
     color-scheme: light !important;
     forced-color-adjust: none !important;
-    background-color: var(--de-eagle-bg) !important;
+    background-color: var(--de-home-screen-bg) !important;
     background-image: none !important;
     color: #000000 !important;
     border-color: rgba(0, 0, 0, 0.18) !important;
@@ -7821,7 +7822,7 @@ body.is-home-screen .home-app-shell {
     border: none;
     border-radius: 0;
     box-shadow: none;
-    background-color: var(--de-eagle-bg) !important;
+    background-color: var(--de-home-screen-bg) !important;
     background-image: none !important;
     color-scheme: light !important;
     forced-color-adjust: none !important;
@@ -7846,17 +7847,18 @@ body.is-home-screen .home-app-shell {
     -webkit-filter: none !important;
     mix-blend-mode: normal !important;
     opacity: 1 !important;
-    background-color: var(--de-eagle-bg) !important;
+    background-color: var(--de-home-screen-bg) !important;
   }
 
   .mobile-level-menu-emblem {
     display: flex;
-    flex-shrink: 0;
+    flex: 1 1 auto;
+    min-height: 0;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     width: 100%;
-    padding: 4px 0 calc(12px + env(safe-area-inset-bottom, 0px));
-    background-color: var(--de-eagle-bg) !important;
+    padding: 0 2vw calc(8px + env(safe-area-inset-bottom, 0px));
+    background-color: var(--de-home-screen-bg) !important;
     color-scheme: light !important;
     forced-color-adjust: none !important;
     filter: none !important;
@@ -7868,9 +7870,10 @@ body.is-home-screen .home-app-shell {
 
   .mobile-level-menu-emblem-img {
     display: block;
-    width: min(62vw, 248px);
-    height: auto;
-    max-height: 34dvh;
+    width: auto;
+    height: 100%;
+    max-width: min(96vw, 480px);
+    max-height: 100%;
     object-fit: contain;
     opacity: 1;
     filter: none !important;
@@ -7940,7 +7943,7 @@ body.is-home-screen .home-app-shell {
   .home-menu-groups {
     display: flex;
     flex-direction: column;
-    flex: 1 1 auto;
+    flex: 0 1 auto;
     min-height: 0;
     width: 100%;
     padding: 8px 0 4px;
@@ -8116,7 +8119,7 @@ body.is-home-screen .home-app-shell {
   html.is-home-screen .mobile-level-menu,
   html.is-home-screen .home-menu-screen,
   html.is-home-screen #homeMenuScreen {
-    background-color: var(--de-eagle-bg) !important;
+    background-color: var(--de-home-screen-bg) !important;
     background-image: none !important;
     color-scheme: light !important;
     forced-color-adjust: none !important;
@@ -8127,7 +8130,7 @@ body.is-home-screen .home-app-shell {
 
   html.is-home-screen .mobile-level-menu-shell,
   html.is-home-screen .mobile-level-menu-emblem {
-    background-color: var(--de-eagle-bg) !important;
+    background-color: var(--de-home-screen-bg) !important;
     filter: none !important;
     -webkit-filter: none !important;
     opacity: 1 !important;
@@ -8240,7 +8243,7 @@ html.debug-mobile-menu-layers .menu-button-container button {
   html.is-home-screen {
     color-scheme: light !important;
     forced-color-adjust: none !important;
-    background-color: var(--de-eagle-bg) !important;
+    background-color: var(--de-home-screen-bg) !important;
   }
 }
 
