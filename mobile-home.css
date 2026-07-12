@@ -21,14 +21,14 @@
     -webkit-filter: none !important;
   }
 
-  /* Apstiprinātas krāsas + parauga stikls (v73 — style.css konflikts novērsts) */
+  /* PR #35 recepte: noapaļotas pogas + tīrs rgba stikls bez blur (v74) */
   #homeMenuScreen.mobile-home-v2 {
-    --mh-black-glass: rgba(0, 0, 0, 0.36);
-    --mh-black-glass-active: rgba(0, 0, 0, 0.48);
-    --mh-red-glass: rgba(159, 0, 15, 0.15);
-    --mh-red-glass-active: rgba(159, 0, 15, 0.24);
-    --mh-gold-glass: rgba(234, 193, 23, 0.14);
-    --mh-gold-glass-active: rgba(234, 193, 23, 0.22);
+    --mh-black-glass: rgba(0, 0, 0, 0.44);
+    --mh-black-glass-active: rgba(0, 0, 0, 0.56);
+    --mh-red-glass: rgba(159, 0, 15, 0.44);
+    --mh-red-glass-active: rgba(159, 0, 15, 0.56);
+    --mh-gold-glass: rgba(234, 193, 23, 0.38);
+    --mh-gold-glass-active: rgba(234, 193, 23, 0.48);
     --mh-text-shadow-on-dark:
       0 1px 2px rgba(0, 0, 0, 0.88),
       0 0 10px rgba(0, 0, 0, 0.42);
@@ -195,22 +195,22 @@
     display: flex;
     flex: 1 1 auto;
     flex-direction: column;
-    justify-content: center;
+    justify-content: stretch;
     width: 100%;
     min-height: 0;
-    padding: 0 12px calc(6px + env(safe-area-inset-bottom, 0px));
-    gap: clamp(8px, 0.9vh, 10px);
+    padding: 0 14px calc(4px + env(safe-area-inset-bottom, 0px));
+    gap: clamp(4px, 0.55vh, 6px);
     background: transparent !important;
     overflow: hidden;
   }
 
   .mobile-home-v2 .menu-button-container {
-    flex: 0 0 auto;
+    flex: 1 1 0;
     display: flex;
     width: 100% !important;
-    height: clamp(48px, 7vh, 58px);
-    max-height: 58px;
+    height: auto;
     min-height: 0;
+    max-height: none;
     margin: 0 !important;
     background: transparent !important;
     box-shadow: none !important;
@@ -223,17 +223,17 @@
     width: 100% !important;
     height: 100% !important;
     min-height: 0 !important;
-    max-height: 58px !important;
+    max-height: none !important;
     padding: 0 14px !important;
     display: flex !important;
     justify-content: space-between !important;
     align-items: center !important;
     gap: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.1) !important;
-    border-radius: var(--de-mobile-menu-btn-radius) !important;
-    box-shadow: none !important;
-    backdrop-filter: blur(8px) saturate(1.02) !important;
-    -webkit-backdrop-filter: blur(8px) saturate(1.02) !important;
+    border: 1px solid rgba(255, 255, 255, 0.14) !important;
+    border-radius: 16px !important;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08) !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
     background-image: none !important;
     filter: none !important;
     -webkit-filter: none !important;
@@ -266,8 +266,8 @@
   .mobile-home-v2 .menu-button-container button.menu-gold {
     background-color: var(--mh-gold-glass) !important;
     color: var(--de-text-on-gold) !important;
-    border-color: rgba(0, 0, 0, 0.08) !important;
-    box-shadow: none !important;
+    border-color: rgba(0, 0, 0, 0.12) !important;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.18) !important;
   }
 
   .mobile-home-v2 .menu-button-container button.menu-black:active {
@@ -342,8 +342,8 @@
   .mobile-home-v2 .menu-button-container button.menu-gold {
     background-image: none !important;
     color-scheme: dark !important;
-    backdrop-filter: blur(8px) saturate(1.02) !important;
-    -webkit-backdrop-filter: blur(8px) saturate(1.02) !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
   }
 
   html.is-home-screen .mobile-home-v2 .menu-button-container button.menu-black,
@@ -443,10 +443,14 @@
 
   html.is-home-screen #homeMenuScreen.mobile-home-v2 .menu-button-container button {
     background-image: none !important;
-    box-shadow: none !important;
-    backdrop-filter: blur(8px) saturate(1.02) !important;
-    -webkit-backdrop-filter: blur(8px) saturate(1.02) !important;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08) !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
     color-scheme: dark !important;
+  }
+
+  html.is-home-screen #homeMenuScreen.mobile-home-v2 .menu-button-container button.menu-gold {
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.18) !important;
   }
 
   html.is-home-screen #homeMenuScreen.mobile-home-v2 .menu-button-container button.menu-black {
