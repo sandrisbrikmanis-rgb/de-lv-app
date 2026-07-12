@@ -7603,13 +7603,15 @@ main,
 }
 
 /* Desktop: wrapper slāņi ir “caurspīdīgi”, lai nesalauztu esošo izkārtojumu */
-.mobile-level-menu-shell,
-.mobile-level-menu-content {
-  display: contents;
-}
+@media (min-width: 769px) {
+  .mobile-level-menu-shell,
+  .mobile-level-menu-content {
+    display: contents;
+  }
 
-.mobile-level-menu-emblem {
-  display: none;
+  .mobile-level-menu-emblem {
+    display: none;
+  }
 }
 
 .home-menu-header,
@@ -7872,8 +7874,8 @@ body.is-home-screen .home-app-shell {
 
   .mobile-level-menu-emblem-img {
     display: block;
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 100%;
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
@@ -7885,7 +7887,7 @@ body.is-home-screen .home-app-shell {
 
   .mobile-level-menu-content {
     display: grid;
-    grid-template-rows: auto minmax(0, auto) minmax(0, 1fr);
+    grid-template-rows: auto 42dvh minmax(38dvh, 1fr);
     position: relative;
     z-index: 1;
     width: 100%;
@@ -7945,11 +7947,12 @@ body.is-home-screen .home-app-shell {
     display: flex;
     flex-direction: column;
     width: 100%;
+    height: 100%;
+    min-height: 0;
+    max-height: none;
     padding: 8px 0 4px;
     overflow-x: hidden;
     overflow-y: auto;
-    min-height: 0;
-    max-height: 48dvh;
     z-index: 2;
     forced-color-adjust: none !important;
     color-scheme: light !important;
