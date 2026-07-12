@@ -64,29 +64,6 @@
     -webkit-filter: none !important;
   }
 
-  .mobile-home-v2 .mh-halo {
-    position: absolute;
-    left: 50%;
-    top: 52%;
-    z-index: 0;
-    width: min(90vw, 360px);
-    height: min(105vw, 420px);
-    transform: translate(-50%, -50%);
-    border-radius: 14% 14% 18% 18%;
-    background: radial-gradient(
-      ellipse 80% 70% at 50% 55%,
-      rgba(210, 228, 255, 0.32) 0%,
-      rgba(255, 248, 230, 0.22) 35%,
-      rgba(255, 220, 150, 0.1) 60%,
-      transparent 78%
-    );
-    box-shadow:
-      0 0 10px rgba(255, 248, 220, 0.55),
-      0 0 24px rgba(200, 220, 255, 0.38),
-      0 0 48px rgba(255, 236, 180, 0.22);
-    pointer-events: none;
-  }
-
   .mobile-home-v2 .mh-emblem-img {
     position: relative;
     z-index: 1;
@@ -97,12 +74,28 @@
     flex-shrink: 0;
     object-fit: contain;
     object-position: center center;
-    filter: none !important;
-    -webkit-filter: none !important;
-    mix-blend-mode: normal !important;
     opacity: 1 !important;
     forced-color-adjust: none !important;
+    mix-blend-mode: normal !important;
     image-rendering: auto;
+    filter:
+      drop-shadow(1px 0 0 #000000)
+      drop-shadow(-1px 0 0 #000000)
+      drop-shadow(0 1px 0 #000000)
+      drop-shadow(0 -1px 0 #000000)
+      drop-shadow(1px 1px 0 #000000)
+      drop-shadow(-1px -1px 0 #000000)
+      drop-shadow(1px -1px 0 #000000)
+      drop-shadow(-1px 1px 0 #000000) !important;
+    -webkit-filter:
+      drop-shadow(1px 0 0 #000000)
+      drop-shadow(-1px 0 0 #000000)
+      drop-shadow(0 1px 0 #000000)
+      drop-shadow(0 -1px 0 #000000)
+      drop-shadow(1px 1px 0 #000000)
+      drop-shadow(-1px -1px 0 #000000)
+      drop-shadow(1px -1px 0 #000000)
+      drop-shadow(-1px 1px 0 #000000) !important;
   }
 
   /* ── UI slānis: virsraksts + stikla pogas ── */
@@ -368,8 +361,6 @@
 
   .mobile-home-v2 .mh-emblem-img {
     opacity: 1 !important;
-    filter: none !important;
-    -webkit-filter: none !important;
     forced-color-adjust: none !important;
   }
 
