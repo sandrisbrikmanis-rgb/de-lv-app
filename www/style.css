@@ -7563,9 +7563,11 @@ main,
 /* ── Galvenā izvēlne un apakšekrāna navigācija ── */
 
 /* PC (noklusējums) – stabils dizains bez slīpuma */
-body.is-home-screen {
-  background-color: #000000 !important;
-  background-image: none;
+@media (min-width: 769px) {
+  body.is-home-screen {
+    background-color: #000000 !important;
+    background-image: none;
+  }
 }
 
 body.is-home-screen main.home-main,
@@ -7587,6 +7589,17 @@ body.is-home-screen .home-app-shell {
 }
 
 .home-menu-backdrop {
+  display: none;
+}
+
+/* Desktop: wrapper slāņi ir “caurspīdīgi”, lai nesalauztu esošo izkārtojumu */
+.mobile-level-menu-shell,
+.mobile-level-menu-content {
+  display: contents;
+}
+
+.mobile-level-menu-paint,
+.mobile-level-menu-eagle {
   display: none;
 }
 
@@ -7743,19 +7756,32 @@ body.is-home-screen .home-app-shell {
 }
 
 @media (max-width: 768px) {
-  /* Mobilā līmeņu izvēlne – izolēta light palete, ērglis fonā, bez OS dark mode korekcijas */
-  html.mobile-home-light,
-  html.is-home-screen,
-  html.mobile-home-light body,
-  html.is-home-screen body,
-  html.is-home-screen main.home-main,
-  html.is-home-screen .home-app-shell,
-  html.is-home-screen .mobile-level-menu {
+  /*
+   * Mobilā līmeņu izvēlne – pilnīga light-theme izolācija pret Samsung/Chrome force-dark.
+   * Solid #EAC117 paint slānis, bez caurspīdīgiem parent foniem.
+   */
+  html.mobile-home-light {
+    color-scheme: only light !important;
+    forced-color-adjust: none !important;
     background-color: #EAC117 !important;
-    background-color: var(--de-gold) !important;
     background-image: none !important;
-    color-scheme: light !important;
-    forced-color-adjust: none;
+    filter: none !important;
+    -webkit-filter: none !important;
+  }
+
+  html.mobile-home-light body,
+  html.mobile-home-light main.home-main,
+  html.mobile-home-light .home-app-shell {
+    color-scheme: only light !important;
+    forced-color-adjust: none !important;
+    background-color: #EAC117 !important;
+    background-image: none !important;
+    color: #000000 !important;
+    border-color: rgba(0, 0, 0, 0.18) !important;
+    filter: none !important;
+    -webkit-filter: none !important;
+    mix-blend-mode: normal !important;
+    opacity: 1 !important;
   }
 
   body.is-home-screen {
@@ -7771,78 +7797,140 @@ body.is-home-screen .home-app-shell {
   }
 
   .home-menu-screen.mobile-level-menu {
-    min-height: 100dvh;
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100dvh;
     max-height: 100dvh;
-    padding: 8px 0 10px;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
-    display: flex;
-    flex-direction: column;
+    display: block;
     border: none;
     border-radius: 0;
     box-shadow: none;
-    background: transparent !important;
+    background-color: #EAC117 !important;
     background-image: none !important;
-    color-scheme: light !important;
-    forced-color-adjust: none;
+    color-scheme: only light !important;
+    forced-color-adjust: none !important;
+    filter: none !important;
+    -webkit-filter: none !important;
     isolation: isolate;
+    z-index: 1;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
   }
 
-  .home-menu-backdrop {
-    display: block !important;
+  .mobile-level-menu-shell {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    isolation: isolate;
+    color-scheme: only light !important;
+    forced-color-adjust: none !important;
+    filter: none !important;
+    -webkit-filter: none !important;
+    mix-blend-mode: normal !important;
+    opacity: 1 !important;
+    background-color: #EAC117 !important;
+  }
+
+  .mobile-level-menu-paint {
+    display: block;
     position: absolute;
     inset: 0;
     z-index: 0;
     pointer-events: none;
-    background-color: #EAC117;
-    background-color: var(--de-gold);
-    overflow: hidden;
-    forced-color-adjust: none;
-    color-scheme: light;
-    filter: none;
-    opacity: 1;
+    background-color: #EAC117 !important;
+    background-image: none !important;
+    color-scheme: only light !important;
+    forced-color-adjust: none !important;
+    filter: none !important;
+    -webkit-filter: none !important;
+    opacity: 1 !important;
+    mix-blend-mode: normal !important;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
   }
 
-  .home-menu-backdrop::before {
-    content: "";
+  .mobile-level-menu-eagle {
+    display: block;
     position: absolute;
-    inset: 0;
-    background-color: #000000;
-    background-color: var(--de-black);
+    left: 50%;
+    top: 52%;
+    width: min(72vw, 340px);
+    height: min(72vw, 340px);
+    transform: translate(-50%, -50%) translateZ(0);
+    -webkit-transform: translate(-50%, -50%) translateZ(0);
+    pointer-events: none;
+    background-color: #000000 !important;
+    background-image: none !important;
     mask-image: url("./public/german-eagle.svg");
     -webkit-mask-image: url("./public/german-eagle.svg");
-    mask-position: center 52%;
-    -webkit-mask-position: center 52%;
-    mask-size: min(72vw, 340px) auto;
-    -webkit-mask-size: min(72vw, 340px) auto;
+    mask-position: center;
+    -webkit-mask-position: center;
+    mask-size: contain;
+    -webkit-mask-size: contain;
     mask-repeat: no-repeat;
     -webkit-mask-repeat: no-repeat;
-    opacity: var(--de-eagle-opacity);
-    forced-color-adjust: none;
-    color-scheme: light;
-    filter: none;
+    opacity: 0.16;
+    color-scheme: only light !important;
+    forced-color-adjust: none !important;
+    filter: none !important;
+    -webkit-filter: none !important;
+    mix-blend-mode: normal !important;
+  }
+
+  .mobile-level-menu-content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    min-height: 100dvh;
+    padding: 8px 0 10px;
+    color-scheme: only light !important;
+    forced-color-adjust: none !important;
+    filter: none !important;
+    -webkit-filter: none !important;
+    background: transparent;
+    opacity: 1 !important;
+  }
+
+  .home-menu-backdrop {
+    display: none !important;
   }
 
   .home-menu-header {
     padding: 6px 12px 10px;
     flex-shrink: 0;
     z-index: 2;
-    forced-color-adjust: none;
-    color-scheme: light;
+    forced-color-adjust: none !important;
+    color-scheme: only light !important;
+    filter: none !important;
+    background: transparent !important;
   }
 
   .home-menu-header h1 {
     color: #000000 !important;
-    color: var(--de-header-ink) !important;
     font-size: clamp(1.25rem, 4.2vw, 1.6rem);
     text-shadow: none !important;
+    -webkit-text-fill-color: #000000 !important;
+    forced-color-adjust: none !important;
+    filter: none !important;
   }
 
   .home-menu-header .subtitle {
     color: rgba(0, 0, 0, 0.78) !important;
-    color: var(--de-header-muted) !important;
     font-size: 0.82rem;
     margin-top: 4px;
     text-shadow: none !important;
+    -webkit-text-fill-color: rgba(0, 0, 0, 0.78) !important;
+    forced-color-adjust: none !important;
+    filter: none !important;
   }
 
   .home-menu-groups {
@@ -7853,25 +7941,30 @@ body.is-home-screen .home-app-shell {
     padding: 0;
     overflow: hidden;
     z-index: 2;
-    forced-color-adjust: none;
-    color-scheme: light;
+    forced-color-adjust: none !important;
+    color-scheme: only light !important;
+    filter: none !important;
+    background: transparent !important;
   }
 
   .menu-button-container {
     width: 106% !important;
     margin-left: -3% !important;
     margin-bottom: 4px !important;
-    transform: skewY(-4deg) !important;
+    transform: skewY(-4deg) translateZ(0) !important;
     overflow: hidden !important;
     box-shadow: none !important;
     opacity: 1 !important;
     filter: none !important;
+    -webkit-filter: none !important;
+    mix-blend-mode: normal !important;
+    background: transparent !important;
   }
 
   .menu-button-container button {
     width: 100% !important;
     padding: 10px 24px !important;
-    border: 1px solid var(--de-panel-border) !important;
+    border: 1px solid rgba(255, 255, 255, 0.22) !important;
     border-radius: 0 !important;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35) !important;
     backdrop-filter: none !important;
@@ -7884,58 +7977,49 @@ body.is-home-screen .home-app-shell {
     -webkit-appearance: none !important;
     appearance: none !important;
     forced-color-adjust: none !important;
-    color-scheme: light !important;
+    color-scheme: only light !important;
     background-image: none !important;
     filter: none !important;
+    -webkit-filter: none !important;
     opacity: 1 !important;
     mix-blend-mode: normal !important;
   }
 
   .menu-button-container button.menu-black {
     background-color: rgba(0, 0, 0, 0.74) !important;
-    background-color: var(--de-black-overlay) !important;
     color: #ffffff !important;
-    color: var(--de-text-on-dark) !important;
+    border-color: rgba(255, 255, 255, 0.22) !important;
   }
 
   .menu-button-container button.menu-red {
     background-color: rgba(159, 0, 15, 0.74) !important;
-    background-color: var(--de-red-overlay) !important;
     color: #ffffff !important;
-    color: var(--de-text-on-dark) !important;
+    border-color: rgba(255, 255, 255, 0.22) !important;
   }
 
   .menu-button-container button.menu-gold {
     background-color: rgba(234, 193, 23, 0.78) !important;
-    background-color: var(--de-gold-overlay) !important;
     color: #000000 !important;
-    color: var(--de-text-on-gold) !important;
-    border-color: var(--de-panel-border-gold) !important;
+    border-color: rgba(0, 0, 0, 0.18) !important;
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.22) !important;
   }
 
   .home-menu-groups .menu-button-container button.menu-black:hover,
   .home-menu-groups .menu-button-container button.menu-black:active {
     background-color: rgba(0, 0, 0, 0.84) !important;
-    background-color: var(--de-black-overlay-hover) !important;
     border-color: rgba(255, 255, 255, 0.32) !important;
-    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.48) !important;
   }
 
   .home-menu-groups .menu-button-container button.menu-red:hover,
   .home-menu-groups .menu-button-container button.menu-red:active {
     background-color: rgba(159, 0, 15, 0.84) !important;
-    background-color: var(--de-red-overlay-hover) !important;
     border-color: rgba(255, 255, 255, 0.32) !important;
-    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.48) !important;
   }
 
   .home-menu-groups .menu-button-container button.menu-gold:hover,
   .home-menu-groups .menu-button-container button.menu-gold:active {
     background-color: rgba(234, 193, 23, 0.88) !important;
-    background-color: var(--de-gold-overlay-hover) !important;
     border-color: rgba(0, 0, 0, 0.28) !important;
-    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.28) !important;
   }
 
   .menu-button-container button span,
@@ -7946,6 +8030,8 @@ body.is-home-screen .home-app-shell {
     forced-color-adjust: none !important;
     opacity: 1 !important;
     filter: none !important;
+    -webkit-filter: none !important;
+    mix-blend-mode: normal !important;
   }
 
   .menu-button-container button.menu-black span,
@@ -7953,15 +8039,14 @@ body.is-home-screen .home-app-shell {
   .menu-button-container button.menu-red span,
   .menu-button-container button.menu-red div {
     color: #ffffff !important;
-    color: var(--de-text-on-dark) !important;
+    -webkit-text-fill-color: #ffffff !important;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8) !important;
-    text-shadow: var(--de-text-shadow-dark) !important;
   }
 
   .menu-button-container button.menu-gold span,
   .menu-button-container button.menu-gold div {
     color: #000000 !important;
-    color: var(--de-text-on-gold) !important;
+    -webkit-text-fill-color: #000000 !important;
     text-shadow: none !important;
   }
 
@@ -7973,100 +8058,106 @@ body.is-home-screen .home-app-shell {
   }
 }
 
-/* Samsung / sistēmas dark mode: piespiedu light palete mobilajai līmeņu izvēlnei */
+/* Samsung / Chrome force-dark: atkārtots piespiedu light override */
 @media (max-width: 768px) and (prefers-color-scheme: dark) {
   html.mobile-home-light,
-  html.is-home-screen,
   html.mobile-home-light body,
-  html.is-home-screen body,
-  html.is-home-screen main.home-main,
-  html.is-home-screen .home-app-shell,
-  html.is-home-screen .mobile-level-menu,
-  html.is-home-screen .home-menu-screen {
+  html.mobile-home-light main.home-main,
+  html.mobile-home-light .home-app-shell,
+  html.mobile-home-light .mobile-level-menu,
+  html.mobile-home-light .home-menu-screen {
     background-color: #EAC117 !important;
-    background-color: var(--de-gold) !important;
     background-image: none !important;
-    color-scheme: light !important;
-    forced-color-adjust: none;
+    color-scheme: only light !important;
+    forced-color-adjust: none !important;
     filter: none !important;
+    -webkit-filter: none !important;
     opacity: 1 !important;
   }
 
-  body.is-home-screen .home-menu-backdrop {
+  html.mobile-home-light .mobile-level-menu-shell,
+  html.mobile-home-light .mobile-level-menu-paint {
     background-color: #EAC117 !important;
-    background-color: var(--de-gold) !important;
     filter: none !important;
+    -webkit-filter: none !important;
     opacity: 1 !important;
   }
 
-  body.is-home-screen .home-menu-backdrop::before {
+  html.mobile-home-light .mobile-level-menu-eagle {
     background-color: #000000 !important;
-    background-color: var(--de-black) !important;
-    opacity: var(--de-eagle-opacity) !important;
+    opacity: 0.16 !important;
     filter: none !important;
+    -webkit-filter: none !important;
   }
 
-  body.is-home-screen .home-menu-header h1 {
+  html.mobile-home-light .home-menu-header h1 {
     color: #000000 !important;
-    color: var(--de-header-ink) !important;
+    -webkit-text-fill-color: #000000 !important;
   }
 
-  body.is-home-screen .home-menu-header .subtitle {
+  html.mobile-home-light .home-menu-header .subtitle {
     color: rgba(0, 0, 0, 0.78) !important;
-    color: var(--de-header-muted) !important;
+    -webkit-text-fill-color: rgba(0, 0, 0, 0.78) !important;
   }
 
-  body.is-home-screen .menu-button-container {
-    opacity: 1 !important;
-    filter: none !important;
-  }
-
-  body.is-home-screen .menu-button-container button {
+  html.mobile-home-light .menu-button-container button {
     backdrop-filter: none !important;
     -webkit-backdrop-filter: none !important;
     filter: none !important;
+    -webkit-filter: none !important;
     opacity: 1 !important;
-    color-scheme: light !important;
+    color-scheme: only light !important;
     forced-color-adjust: none !important;
   }
 
-  body.is-home-screen .menu-button-container button.menu-black {
+  html.mobile-home-light .menu-button-container button.menu-black {
     background-color: rgba(0, 0, 0, 0.74) !important;
-    background-color: var(--de-black-overlay) !important;
     color: #ffffff !important;
-    color: var(--de-text-on-dark) !important;
   }
 
-  body.is-home-screen .menu-button-container button.menu-red {
+  html.mobile-home-light .menu-button-container button.menu-red {
     background-color: rgba(159, 0, 15, 0.74) !important;
-    background-color: var(--de-red-overlay) !important;
     color: #ffffff !important;
-    color: var(--de-text-on-dark) !important;
   }
 
-  body.is-home-screen .menu-button-container button.menu-gold {
+  html.mobile-home-light .menu-button-container button.menu-gold {
     background-color: rgba(234, 193, 23, 0.78) !important;
-    background-color: var(--de-gold-overlay) !important;
     color: #000000 !important;
-    color: var(--de-text-on-gold) !important;
-    border-color: var(--de-panel-border-gold) !important;
+    border-color: rgba(0, 0, 0, 0.18) !important;
   }
 
-  body.is-home-screen .menu-button-container button.menu-black span,
-  body.is-home-screen .menu-button-container button.menu-black div,
-  body.is-home-screen .menu-button-container button.menu-red span,
-  body.is-home-screen .menu-button-container button.menu-red div {
+  html.mobile-home-light .menu-button-container button.menu-black span,
+  html.mobile-home-light .menu-button-container button.menu-black div,
+  html.mobile-home-light .menu-button-container button.menu-red span,
+  html.mobile-home-light .menu-button-container button.menu-red div {
     color: #ffffff !important;
-    color: var(--de-text-on-dark) !important;
+    -webkit-text-fill-color: #ffffff !important;
     opacity: 1 !important;
     filter: none !important;
   }
 
-  body.is-home-screen .menu-button-container button.menu-gold span,
-  body.is-home-screen .menu-button-container button.menu-gold div {
+  html.mobile-home-light .menu-button-container button.menu-gold span,
+  html.mobile-home-light .menu-button-container button.menu-gold div {
     color: #000000 !important;
-    color: var(--de-text-on-gold) !important;
+    -webkit-text-fill-color: #000000 !important;
     opacity: 1 !important;
     filter: none !important;
   }
+}
+
+/* Dev helper: pievieno ?debugMenu=1 URL, lai redzētu slāņu robežas */
+html.debug-mobile-menu-layers .mobile-level-menu-paint {
+  outline: 3px solid #ff0000;
+}
+
+html.debug-mobile-menu-layers .mobile-level-menu-eagle {
+  outline: 3px solid #0000ff;
+}
+
+html.debug-mobile-menu-layers .mobile-level-menu-content {
+  outline: 3px solid #00aa00;
+}
+
+html.debug-mobile-menu-layers .menu-button-container button {
+  outline: 2px dashed #9F000F;
 }

@@ -8,17 +8,24 @@
   <link rel="manifest" href="manifest.json">
   <meta name="theme-color" content="#EAC117">
   <meta name="color-scheme" content="light" id="appColorScheme">
+  <meta name="supported-color-schemes" content="light">
 </head>
 <body class="is-home-screen">
   <main class="home-main">
     <section class="app-shell home-app-shell" aria-label="Vācu–latviešu kartītes">
       <section id="homeMenuScreen" class="home-menu-screen mobile-level-menu" aria-label="Galvenā izvēlne">
-        <div class="home-menu-backdrop" aria-hidden="true"></div>
-        <header class="home-menu-header">
-          <h1>Vācu Valoda • LV-DE</h1>
-          <p class="subtitle">Tavs viedais ceļvedis vācu valodā pa līmeņiem</p>
-        </header>
-        <nav class="home-menu-groups" id="mainMenuButtons" aria-label="Izvēlies grupu"></nav>
+        <div class="mobile-level-menu-shell">
+          <div class="mobile-level-menu-paint" aria-hidden="true">
+            <div class="mobile-level-menu-eagle" aria-hidden="true"></div>
+          </div>
+          <div class="mobile-level-menu-content">
+            <header class="home-menu-header">
+              <h1>Vācu Valoda • LV-DE</h1>
+              <p class="subtitle">Tavs viedais ceļvedis vācu valodā pa līmeņiem</p>
+            </header>
+            <nav class="home-menu-groups" id="mainMenuButtons" aria-label="Izvēlies grupu"></nav>
+          </div>
+        </div>
       </section>
 
       <div id="groupDetailScreen" class="group-detail-screen" hidden>

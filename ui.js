@@ -5504,6 +5504,36 @@ function detailScreenHeading(itemKey) {
   return match ? match.label : groupLabel(itemKey);
 }
 
+const MOBILE_HOME_GOLD = "#EAC117";
+
+function applyMobileHomeLightIsolation(isMobileHome) {
+  const root = document.documentElement;
+  const body = document.body;
+  const props = [
+    ["color-scheme", isMobileHome ? "only light" : ""],
+    ["background-color", isMobileHome ? MOBILE_HOME_GOLD : ""],
+    ["background-image", isMobileHome ? "none" : ""],
+    ["forced-color-adjust", isMobileHome ? "none" : ""],
+    ["filter", isMobileHome ? "none" : ""],
+    ["-webkit-filter", isMobileHome ? "none" : ""]
+  ];
+
+  props.forEach(([name, value]) => {
+    if (value) {
+      root.style.setProperty(name, value, "important");
+      body.style.setProperty(name, value, "important");
+      return;
+    }
+    root.style.removeProperty(name);
+    body.style.removeProperty(name);
+  });
+}
+
+function initMobileMenuDebugHelper() {
+  if (!new URLSearchParams(window.location.search).has("debugMenu")) return;
+  document.documentElement.classList.add("debug-mobile-menu-layers");
+}
+
 function updateNavScreen() {
   const onHome = state.navScreen === "home";
   if (elements.homeMenuScreen) elements.homeMenuScreen.hidden = !onHome;
@@ -5514,9 +5544,11 @@ function updateNavScreen() {
   document.documentElement.classList.toggle("is-detail-screen", !onHome);
   const isMobileHome = onHome && window.matchMedia("(max-width: 768px)").matches;
   document.documentElement.classList.toggle("mobile-home-light", isMobileHome);
+  document.body.classList.toggle("mobile-home-light", isMobileHome);
+  applyMobileHomeLightIsolation(isMobileHome);
   const themeMeta = document.querySelector('meta[name="theme-color"]');
   if (themeMeta) {
-    themeMeta.setAttribute("content", isMobileHome ? "#EAC117" : "#000000");
+    themeMeta.setAttribute("content", isMobileHome ? MOBILE_HOME_GOLD : "#000000");
   }
   const colorSchemeMeta = document.querySelector('meta[name="color-scheme"]');
   if (colorSchemeMeta) {
@@ -6569,6 +6601,7 @@ function render() {
 }
 
 initStaticCourseLessons();
+initMobileMenuDebugHelper();
 renderMainMenuButtons();
 updateNavScreen();
 
