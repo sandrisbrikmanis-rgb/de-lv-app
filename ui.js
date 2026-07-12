@@ -169,9 +169,9 @@ const unwantedStorageKey = "deLvFlashcardsExplicitUnwanted";
 const masteredStorageKey = "deLvFlashcardsMastered100";
 const groupCompleteShownStorageKey = "deLvFlashcardsGroupCompleteShown";
 const sessionModes = {
-  easy: { label: `${UI_ICONS.easy} Viegls`, newCount: 5, reviewCount: 5 },
-  normal: { label: `${UI_ICONS.normal} Normāls`, newCount: 10, reviewCount: 5 },
-  intense: { label: `${UI_ICONS.intense} Intensīvs`, newCount: 20, reviewCount: 10 }
+  easy: { label: `${UI_ICONS.easy} Viegls`, newCount: 5, reviewCount: 5, sessionMax: 10 },
+  normal: { label: `${UI_ICONS.normal} Normāls`, newCount: 10, reviewCount: 5, sessionMax: 15 },
+  intense: { label: `${UI_ICONS.intense} Intensīvs`, newCount: 20, reviewCount: 10, sessionMax: 30 }
 };
 
 const MAIN_MENU_ITEMS = [
@@ -234,9 +234,6 @@ const elements = {
   detailScreenTitle: document.getElementById("detailScreenTitle"),
   detailScreenSubtitle: document.getElementById("detailScreenSubtitle"),
   modeButtons: document.getElementById("modeButtons"),
-  activeGroup: document.getElementById("activeGroup"),
-  totalWords: document.getElementById("totalWords"),
-  learnedWords: document.getElementById("learnedWords"),
   cardLevel: document.getElementById("cardLevel"),
   word: document.getElementById("word"),
   cardAutoplayBtn: document.getElementById("cardAutoplayBtn"),
@@ -5259,6 +5256,23 @@ function detailScreenHeading(itemKey) {
   return match ? match.label : groupLabel(itemKey);
 }
 
+function groupProgressTitle(itemKey) {
+  if (itemKey === "verbs") {
+    const learned = (state.learned.verbs || []).length;
+    return `Darbības vārdi · ${learned}/${verbEntries.length}`;
+  }
+  const heading = detailScreenHeading(itemKey);
+  const total = baseCardsForGroup(itemKey).length;
+  const learned = (state.learned[itemKey] || []).length;
+  return `${heading} · ${learned}/${total}`;
+}
+
+function refreshDetailScreenTitle() {
+  if (state.navScreen !== "detail" || !elements.detailScreenTitle) return;
+  const itemKey = state.verbMode ? "verbs" : state.group;
+  elements.detailScreenTitle.textContent = groupProgressTitle(itemKey);
+}
+
 const MOBILE_HOME_BG = "#000000";
 const MOBILE_HOME_ISOLATION_PROPS = [
   ["color-scheme", "dark"],
@@ -5382,8 +5396,9 @@ function updateNavScreen() {
 }
 
 function updateDetailScreenHeader(itemKey) {
-  const heading = detailScreenHeading(itemKey);
-  if (elements.detailScreenTitle) elements.detailScreenTitle.textContent = heading;
+  if (elements.detailScreenTitle) {
+    elements.detailScreenTitle.textContent = groupProgressTitle(itemKey);
+  }
   if (elements.detailScreenSubtitle) {
     elements.detailScreenSubtitle.textContent = itemKey === "verbs"
       ? "Darbības vārdu formas un konjugācijas"
@@ -5530,7 +5545,7 @@ function renderModeButtons() {
   for (const [mode, config] of Object.entries(sessionModes)) {
     const button = document.createElement("button");
     button.type = "button";
-    button.textContent = config.label;
+    button.textContent = `${config.label} · ${config.sessionMax}`;
     button.className = mode === state.mode ? "group-btn active" : "group-btn";
     button.addEventListener("click", () => selectMode(mode));
     elements.modeButtons.appendChild(button);
@@ -5587,15 +5602,7 @@ function renderVerbCard() {
     state.learned.verbs = [];
   }
 
-  elements.activeGroup.textContent = state.reviewLastSession
-    ? "Pēdējā sesija"
-    : (state.timeReviewMode
-    ? timeConfig.label
-    : (state.problemMode
-    ? "Problemātiskie vārdi"
-    : (state.reviewKnown ? "Darbības vārdi zināmie" : "Darbības vārdi")));
-  elements.totalWords.textContent = String(state.timeReviewMode ? deck.length : (state.problemMode ? deck.length : (state.reviewLastSession ? lastSessionReviewTotalCount() : (state.reviewKnown ? deck.length : sessionTotalCount()))));
-  elements.learnedWords.textContent = String(state.learned.verbs.length);
+  refreshDetailScreenTitle();
   elements.directionLabel.textContent = directionButtonLabel();
 
   if (!verb) {
@@ -6327,28 +6334,7 @@ function render() {
   renderGroupButtons();
   renderModeButtons();
   renderSpellingControls();
-  const total = state.reviewLastSession
-    ? lastSessionReviewTotalCount()
-    : (state.timeReviewMode
-    ? deck.length
-    : (state.problemMode
-    ? deck.length
-    : (state.reviewKnown
-    ? deck.length
-    : (!state.reviewKnown && sessionMatchesActiveGroup()
-    ? sessionTotalCount()
-    : (state.group === "Sätze" ? syncSentenceEntries().length : baseCardsForGroup(state.group).length)))));
-  const learned = state.learned[state.group] ? state.learned[state.group].length : 0;
-
-  elements.activeGroup.textContent = state.reviewLastSession
-    ? "Pēdējā sesija"
-    : (state.timeReviewMode
-    ? timeConfig.label
-    : (state.problemMode
-    ? "Problemātiskie vārdi"
-    : (state.reviewKnown ? `${groupDisplayLabel(state.group)} zināmie` : groupDisplayLabel(state.group))));
-  elements.totalWords.textContent = String(total);
-  elements.learnedWords.textContent = String(learned);
+  refreshDetailScreenTitle();
   elements.directionLabel.textContent = directionButtonLabel();
 
   if (!card) {
