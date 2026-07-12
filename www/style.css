@@ -7858,9 +7858,9 @@ body.is-home-screen .home-app-shell {
     display: flex;
     min-height: 0;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     width: 100%;
-    padding: 0 2vw calc(8px + env(safe-area-inset-bottom, 0px));
+    padding: 0 0 env(safe-area-inset-bottom, 0px);
     background-color: var(--de-home-screen-bg) !important;
     color-scheme: light !important;
     forced-color-adjust: none !important;
@@ -7874,11 +7874,14 @@ body.is-home-screen .home-app-shell {
 
   .mobile-level-menu-emblem-img {
     display: block;
+    flex: 1 1 auto;
     width: 100%;
     height: 100%;
+    min-height: 0;
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
+    object-position: center center;
     opacity: 1;
     filter: none !important;
     -webkit-filter: none !important;
@@ -7887,7 +7890,7 @@ body.is-home-screen .home-app-shell {
 
   .mobile-level-menu-content {
     display: grid;
-    grid-template-rows: auto 42dvh minmax(38dvh, 1fr);
+    grid-template-rows: auto minmax(0, auto) minmax(0, 1fr);
     position: relative;
     z-index: 1;
     width: 100%;
@@ -7947,9 +7950,9 @@ body.is-home-screen .home-app-shell {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100%;
+    height: auto;
     min-height: 0;
-    max-height: none;
+    max-height: 40dvh;
     padding: 8px 0 4px;
     overflow-x: hidden;
     overflow-y: auto;
