@@ -69,8 +69,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: min(84vw, 340px);
-    max-height: min(78dvh, 420px);
+    width: min(92.4vw, 374px);
+    max-height: min(85.8dvh, 462px);
     flex-shrink: 0;
   }
 
@@ -81,7 +81,7 @@
     display: block;
     width: 100%;
     height: auto;
-    max-height: min(78dvh, 420px);
+    max-height: min(85.8dvh, 462px);
     flex-shrink: 0;
     filter:
       drop-shadow(0 0 8px rgba(240, 246, 255, 0.77))
@@ -123,9 +123,9 @@
     position: relative;
     z-index: 1;
     display: block;
-    width: min(84vw, 340px);
+    width: min(92.4vw, 374px);
     height: auto;
-    max-height: min(78dvh, 420px);
+    max-height: min(85.8dvh, 462px);
     flex-shrink: 0;
     filter: none !important;
     -webkit-filter: none !important;
