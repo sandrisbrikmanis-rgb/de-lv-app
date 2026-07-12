@@ -5686,12 +5686,14 @@ function renderMainMenuButtons() {
       button.className = colorClass;
 
       const label = document.createElement("span");
+      label.className = "mobile-menu-btn-label";
       label.textContent = item.label;
       button.appendChild(label);
 
       const count = mainMenuCount(item);
       if (count !== "") {
         const countEl = document.createElement("span");
+        countEl.className = "mobile-menu-btn-count";
         countEl.textContent = String(count);
         button.appendChild(countEl);
       }

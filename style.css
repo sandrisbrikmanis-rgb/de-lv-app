@@ -21,20 +21,22 @@
       --de-black: #000000;
       --de-red: #9F000F;
       --de-gold: #EAC117;
-      --de-black-overlay: rgba(0, 0, 0, 0.74);
-      --de-black-overlay-hover: rgba(0, 0, 0, 0.84);
-      --de-red-overlay: rgba(159, 0, 15, 0.74);
-      --de-red-overlay-hover: rgba(159, 0, 15, 0.84);
-      --de-gold-overlay: rgba(234, 193, 23, 0.78);
-      --de-gold-overlay-hover: rgba(234, 193, 23, 0.88);
+      --de-black-overlay: rgba(0, 0, 0, 0.82);
+      --de-black-overlay-hover: rgba(0, 0, 0, 0.9);
+      --de-red-overlay: rgba(159, 0, 15, 0.82);
+      --de-red-overlay-hover: rgba(159, 0, 15, 0.9);
+      --de-gold-overlay: rgba(234, 193, 23, 0.88);
+      --de-gold-overlay-hover: rgba(234, 193, 23, 0.94);
       --de-text-on-dark: #ffffff;
       --de-text-on-gold: #000000;
-      --de-text-shadow-dark: 1px 1px 3px rgba(0, 0, 0, 0.8);
+      --de-text-shadow-dark: 0 1px 2px rgba(0, 0, 0, 0.55);
       --de-header-ink: #000000;
-      --de-header-muted: rgba(0, 0, 0, 0.78);
-      --de-eagle-opacity: 0.16;
-      --de-panel-border: rgba(255, 255, 255, 0.22);
-      --de-panel-border-gold: rgba(0, 0, 0, 0.18);
+      --de-header-muted: rgba(0, 0, 0, 0.72);
+      --de-eagle-opacity: 0.13;
+      --de-panel-border: rgba(255, 255, 255, 0.18);
+      --de-panel-border-gold: rgba(0, 0, 0, 0.14);
+      --de-mobile-panel-shadow: 0 2px 8px rgba(0, 0, 0, 0.14);
+      --de-mobile-panel-shadow-gold: 0 2px 6px rgba(0, 0, 0, 0.1);
     }
 
     * {
@@ -7865,9 +7867,9 @@ body.is-home-screen .home-app-shell {
     display: block;
     position: absolute;
     left: 50%;
-    top: 52%;
-    width: min(72vw, 340px);
-    height: min(72vw, 340px);
+    top: 50%;
+    width: min(65vw, 300px);
+    height: min(65vw, 300px);
     transform: translate(-50%, -50%) translateZ(0);
     -webkit-transform: translate(-50%, -50%) translateZ(0);
     pointer-events: none;
@@ -7881,7 +7883,7 @@ body.is-home-screen .home-app-shell {
     -webkit-mask-size: contain;
     mask-repeat: no-repeat;
     -webkit-mask-repeat: no-repeat;
-    opacity: 0.16;
+    opacity: var(--de-eagle-opacity);
     color-scheme: light !important;
     forced-color-adjust: none !important;
     filter: none !important;
@@ -7897,7 +7899,7 @@ body.is-home-screen .home-app-shell {
     width: 100%;
     height: 100%;
     min-height: 100dvh;
-    padding: 8px 0 10px;
+    padding: 4px 0 14px;
     color-scheme: light !important;
     forced-color-adjust: none !important;
     filter: none !important;
@@ -7912,7 +7914,7 @@ body.is-home-screen .home-app-shell {
   }
 
   .home-menu-header {
-    padding: 6px 12px 10px;
+    padding: 14px 18px 12px;
     flex-shrink: 0;
     z-index: 2;
     forced-color-adjust: none !important;
@@ -7923,7 +7925,9 @@ body.is-home-screen .home-app-shell {
 
   .home-menu-header h1 {
     color: #000000 !important;
-    font-size: clamp(1.25rem, 4.2vw, 1.6rem);
+    font-size: clamp(1.28rem, 4.4vw, 1.62rem);
+    line-height: 1.15;
+    letter-spacing: 0.01em;
     text-shadow: none !important;
     -webkit-text-fill-color: #000000 !important;
     forced-color-adjust: none !important;
@@ -7931,11 +7935,12 @@ body.is-home-screen .home-app-shell {
   }
 
   .home-menu-header .subtitle {
-    color: rgba(0, 0, 0, 0.78) !important;
-    font-size: 0.82rem;
-    margin-top: 4px;
+    color: var(--de-header-muted) !important;
+    font-size: 0.84rem;
+    line-height: 1.35;
+    margin-top: 5px;
     text-shadow: none !important;
-    -webkit-text-fill-color: rgba(0, 0, 0, 0.78) !important;
+    -webkit-text-fill-color: var(--de-header-muted) !important;
     forced-color-adjust: none !important;
     filter: none !important;
   }
@@ -7957,8 +7962,8 @@ body.is-home-screen .home-app-shell {
   .menu-button-container {
     width: 106% !important;
     margin-left: -3% !important;
-    margin-bottom: 4px !important;
-    transform: skewY(-4deg) translateZ(0) !important;
+    margin-bottom: 5px !important;
+    transform: skewY(-3.5deg) translateZ(0) !important;
     overflow: hidden !important;
     box-shadow: none !important;
     opacity: 1 !important;
@@ -7970,16 +7975,17 @@ body.is-home-screen .home-app-shell {
 
   .menu-button-container button {
     width: 100% !important;
-    padding: 10px 24px !important;
-    border: 1px solid rgba(255, 255, 255, 0.22) !important;
+    min-height: 46px !important;
+    padding: 12px 22px !important;
+    gap: 12px !important;
+    border: 1px solid var(--de-panel-border) !important;
     border-radius: 0 !important;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35) !important;
+    box-shadow: var(--de-mobile-panel-shadow) !important;
     backdrop-filter: none !important;
     -webkit-backdrop-filter: none !important;
     display: flex !important;
     justify-content: space-between !important;
     align-items: center !important;
-    min-height: 0 !important;
     transform: none !important;
     -webkit-appearance: none !important;
     appearance: none !important;
@@ -7993,47 +7999,48 @@ body.is-home-screen .home-app-shell {
   }
 
   .menu-button-container button.menu-black {
-    background-color: rgba(0, 0, 0, 0.74) !important;
-    color: #ffffff !important;
-    border-color: rgba(255, 255, 255, 0.22) !important;
+    background-color: var(--de-black-overlay) !important;
+    color: var(--de-text-on-dark) !important;
+    border-color: var(--de-panel-border) !important;
   }
 
   .menu-button-container button.menu-red {
-    background-color: rgba(159, 0, 15, 0.74) !important;
-    color: #ffffff !important;
-    border-color: rgba(255, 255, 255, 0.22) !important;
+    background-color: var(--de-red-overlay) !important;
+    color: var(--de-text-on-dark) !important;
+    border-color: var(--de-panel-border) !important;
   }
 
   .menu-button-container button.menu-gold {
-    background-color: rgba(234, 193, 23, 0.78) !important;
-    color: #000000 !important;
-    border-color: rgba(0, 0, 0, 0.18) !important;
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.22) !important;
+    background-color: var(--de-gold-overlay) !important;
+    color: var(--de-text-on-gold) !important;
+    border-color: var(--de-panel-border-gold) !important;
+    box-shadow: var(--de-mobile-panel-shadow-gold) !important;
   }
 
   .home-menu-groups .menu-button-container button.menu-black:hover,
   .home-menu-groups .menu-button-container button.menu-black:active {
-    background-color: rgba(0, 0, 0, 0.84) !important;
-    border-color: rgba(255, 255, 255, 0.32) !important;
+    background-color: var(--de-black-overlay-hover) !important;
+    border-color: rgba(255, 255, 255, 0.28) !important;
   }
 
   .home-menu-groups .menu-button-container button.menu-red:hover,
   .home-menu-groups .menu-button-container button.menu-red:active {
-    background-color: rgba(159, 0, 15, 0.84) !important;
-    border-color: rgba(255, 255, 255, 0.32) !important;
+    background-color: var(--de-red-overlay-hover) !important;
+    border-color: rgba(255, 255, 255, 0.28) !important;
   }
 
   .home-menu-groups .menu-button-container button.menu-gold:hover,
   .home-menu-groups .menu-button-container button.menu-gold:active {
-    background-color: rgba(234, 193, 23, 0.88) !important;
-    border-color: rgba(0, 0, 0, 0.28) !important;
+    background-color: var(--de-gold-overlay-hover) !important;
+    border-color: rgba(0, 0, 0, 0.22) !important;
   }
 
   .menu-button-container button span,
   .menu-button-container button div {
-    transform: skewY(4deg) !important;
-    font-weight: bold !important;
+    transform: skewY(3.5deg) !important;
+    font-weight: 700 !important;
     font-size: 1rem !important;
+    line-height: 1.2 !important;
     forced-color-adjust: none !important;
     opacity: 1 !important;
     filter: none !important;
@@ -8041,19 +8048,46 @@ body.is-home-screen .home-app-shell {
     mix-blend-mode: normal !important;
   }
 
+  .menu-button-container button .mobile-menu-btn-label {
+    flex: 1 1 auto;
+    text-align: left;
+    letter-spacing: 0.02em;
+  }
+
+  .menu-button-container button .mobile-menu-btn-count {
+    flex: 0 0 auto;
+    min-width: 2.6ch;
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+    font-size: 0.94rem;
+    opacity: 0.9;
+  }
+
+  .menu-button-container button.menu-gold .mobile-menu-btn-label {
+    font-size: clamp(0.9rem, 3.6vw, 0.98rem);
+    letter-spacing: 0.01em;
+  }
+
+  .menu-button-container button.menu-gold .mobile-menu-btn-count {
+    font-size: 0.9rem;
+    opacity: 0.82;
+  }
+
   .menu-button-container button.menu-black span,
   .menu-button-container button.menu-black div,
   .menu-button-container button.menu-red span,
   .menu-button-container button.menu-red div {
-    color: #ffffff !important;
-    -webkit-text-fill-color: #ffffff !important;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8) !important;
+    color: var(--de-text-on-dark) !important;
+    -webkit-text-fill-color: var(--de-text-on-dark) !important;
+    text-shadow: var(--de-text-shadow-dark) !important;
   }
 
   .menu-button-container button.menu-gold span,
-  .menu-button-container button.menu-gold div {
-    color: #000000 !important;
-    -webkit-text-fill-color: #000000 !important;
+  .menu-button-container button.menu-gold div,
+  .menu-button-container button.menu-gold .mobile-menu-btn-label,
+  .menu-button-container button.menu-gold .mobile-menu-btn-count {
+    color: var(--de-text-on-gold) !important;
+    -webkit-text-fill-color: var(--de-text-on-gold) !important;
     text-shadow: none !important;
   }
 
@@ -8098,7 +8132,7 @@ body.is-home-screen .home-app-shell {
 
   html.is-home-screen .mobile-level-menu-eagle {
     background-color: #000000 !important;
-    opacity: 0.16 !important;
+    opacity: var(--de-eagle-opacity) !important;
     filter: none !important;
     -webkit-filter: none !important;
   }
@@ -8124,19 +8158,19 @@ body.is-home-screen .home-app-shell {
   }
 
   html.is-home-screen .menu-button-container button.menu-black {
-    background-color: rgba(0, 0, 0, 0.74) !important;
-    color: #ffffff !important;
+    background-color: var(--de-black-overlay) !important;
+    color: var(--de-text-on-dark) !important;
   }
 
   html.is-home-screen .menu-button-container button.menu-red {
-    background-color: rgba(159, 0, 15, 0.74) !important;
-    color: #ffffff !important;
+    background-color: var(--de-red-overlay) !important;
+    color: var(--de-text-on-dark) !important;
   }
 
   html.is-home-screen .menu-button-container button.menu-gold {
-    background-color: rgba(234, 193, 23, 0.78) !important;
-    color: #000000 !important;
-    border-color: rgba(0, 0, 0, 0.18) !important;
+    background-color: var(--de-gold-overlay) !important;
+    color: var(--de-text-on-gold) !important;
+    border-color: var(--de-panel-border-gold) !important;
   }
 
   html.is-home-screen .menu-button-container button.menu-black span,
