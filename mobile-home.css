@@ -87,7 +87,7 @@
     pointer-events: none;
   }
 
-  .mobile-home-v2 .mh-emblem {
+  .mobile-home-v2 .mh-emblem-img {
     position: relative;
     z-index: 1;
     display: block;
@@ -95,21 +95,14 @@
     height: auto;
     max-height: min(78dvh, 420px);
     flex-shrink: 0;
+    object-fit: contain;
+    object-position: center center;
     filter: none !important;
     -webkit-filter: none !important;
     mix-blend-mode: normal !important;
-  }
-
-  .mobile-home-v2 .mh-emblem .mh-shield {
-    fill: #ffcc00;
-  }
-
-  .mobile-home-v2 .mh-emblem .mh-eagle {
-    fill: #000000;
-  }
-
-  .mobile-home-v2 .mh-emblem .mh-accent {
-    fill: #dd0000;
+    opacity: 1 !important;
+    forced-color-adjust: none !important;
+    image-rendering: auto;
   }
 
   /* ── UI slānis: virsraksts + stikla pogas ── */
@@ -373,16 +366,11 @@
     -webkit-filter: none !important;
   }
 
-  .mobile-home-v2 .mh-emblem .mh-shield {
-    fill: #ffcc00 !important;
-  }
-
-  .mobile-home-v2 .mh-emblem .mh-eagle {
-    fill: #000000 !important;
-  }
-
-  .mobile-home-v2 .mh-emblem .mh-accent {
-    fill: #dd0000 !important;
+  .mobile-home-v2 .mh-emblem-img {
+    opacity: 1 !important;
+    filter: none !important;
+    -webkit-filter: none !important;
+    forced-color-adjust: none !important;
   }
 
   .mobile-home-v2 .home-menu-header h1,
