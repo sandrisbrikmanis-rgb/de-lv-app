@@ -31,8 +31,8 @@
       --de-black-overlay-glass-hover: rgba(0, 0, 0, 0.56);
       --de-red-overlay-glass: rgba(159, 0, 15, 0.44);
       --de-red-overlay-glass-hover: rgba(159, 0, 15, 0.56);
-      --de-gold-overlay-glass: rgba(234, 193, 23, 0.48);
-      --de-gold-overlay-glass-hover: rgba(234, 193, 23, 0.58);
+      --de-gold-overlay-glass: rgba(234, 193, 23, 0.38);
+      --de-gold-overlay-glass-hover: rgba(234, 193, 23, 0.48);
       --de-mobile-menu-btn-radius: 16px;
       --de-mobile-menu-glass-blur: 0px;
       --de-mobile-menu-glass-highlight: inset 0 1px 0 rgba(255, 255, 255, 0.08);
