@@ -49,7 +49,7 @@
     overflow: hidden;
   }
 
-  /* ── Fona slānis: halo + ģerbonis (bez filtriem) ── */
+  /* ── Fona slānis: ģerbonis (melna kontūra iebūvēta SVG) ── */
   .mobile-home-v2 .mh-bg {
     position: absolute;
     inset: 0;
@@ -78,24 +78,8 @@
     forced-color-adjust: none !important;
     mix-blend-mode: normal !important;
     image-rendering: auto;
-    filter:
-      drop-shadow(1px 0 0 #000000)
-      drop-shadow(-1px 0 0 #000000)
-      drop-shadow(0 1px 0 #000000)
-      drop-shadow(0 -1px 0 #000000)
-      drop-shadow(1px 1px 0 #000000)
-      drop-shadow(-1px -1px 0 #000000)
-      drop-shadow(1px -1px 0 #000000)
-      drop-shadow(-1px 1px 0 #000000) !important;
-    -webkit-filter:
-      drop-shadow(1px 0 0 #000000)
-      drop-shadow(-1px 0 0 #000000)
-      drop-shadow(0 1px 0 #000000)
-      drop-shadow(0 -1px 0 #000000)
-      drop-shadow(1px 1px 0 #000000)
-      drop-shadow(-1px -1px 0 #000000)
-      drop-shadow(1px -1px 0 #000000)
-      drop-shadow(-1px 1px 0 #000000) !important;
+    filter: none !important;
+    -webkit-filter: none !important;
   }
 
   /* ── UI slānis: virsraksts + stikla pogas ── */

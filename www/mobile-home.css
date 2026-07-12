@@ -49,7 +49,7 @@
     overflow: hidden;
   }
 
-  /* ── Fona slānis: halo + ģerbonis (bez filtriem) ── */
+  /* ── Fona slānis: ģerbonis (melna kontūra iebūvēta SVG) ── */
   .mobile-home-v2 .mh-bg {
     position: absolute;
     inset: 0;
