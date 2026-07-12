@@ -5504,7 +5504,7 @@ function detailScreenHeading(itemKey) {
   return match ? match.label : groupLabel(itemKey);
 }
 
-const MOBILE_HOME_GOLD = "#EAC117";
+const MOBILE_HOME_GOLD = "#FFCC00";
 const MOBILE_HOME_ISOLATION_PROPS = [
   ["color-scheme", "light"],
   ["background-color", MOBILE_HOME_GOLD],

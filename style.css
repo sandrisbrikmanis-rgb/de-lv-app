@@ -32,8 +32,10 @@
       --de-text-shadow-dark: 0 1px 2px rgba(0, 0, 0, 0.45);
       --de-header-ink: #000000;
       --de-header-muted: rgba(0, 0, 0, 0.68);
-      --de-eagle-opacity: 0.17;
-      --de-eagle-accent-opacity: 0.24;
+      --de-eagle-bg: #FFCC00;
+      --de-eagle-black: #000000;
+      --de-eagle-red: #DD0000;
+      --de-eagle-opacity: 0.68;
       --de-panel-border: rgba(255, 255, 255, 0.2);
       --de-panel-border-gold: rgba(0, 0, 0, 0.16);
       --de-mobile-panel-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
@@ -7771,7 +7773,7 @@ body.is-home-screen .home-app-shell {
   html.mobile-home-light {
     color-scheme: light !important;
     forced-color-adjust: none !important;
-    background-color: #EAC117 !important;
+    background-color: var(--de-eagle-bg) !important;
     background-image: none !important;
     filter: none !important;
     -webkit-filter: none !important;
@@ -7785,7 +7787,7 @@ body.is-home-screen .home-app-shell {
   html.mobile-home-light .home-app-shell {
     color-scheme: light !important;
     forced-color-adjust: none !important;
-    background-color: #EAC117 !important;
+    background-color: var(--de-eagle-bg) !important;
     background-image: none !important;
     color: #000000 !important;
     border-color: rgba(0, 0, 0, 0.18) !important;
@@ -7820,7 +7822,7 @@ body.is-home-screen .home-app-shell {
     border: none;
     border-radius: 0;
     box-shadow: none;
-    background-color: #EAC117 !important;
+    background-color: var(--de-eagle-bg) !important;
     background-image: none !important;
     color-scheme: light !important;
     forced-color-adjust: none !important;
@@ -7845,7 +7847,7 @@ body.is-home-screen .home-app-shell {
     -webkit-filter: none !important;
     mix-blend-mode: normal !important;
     opacity: 1 !important;
-    background-color: #EAC117 !important;
+    background-color: var(--de-eagle-bg) !important;
   }
 
   .mobile-level-menu-paint {
@@ -7854,7 +7856,7 @@ body.is-home-screen .home-app-shell {
     inset: 0;
     z-index: 0;
     pointer-events: none;
-    background-color: #EAC117 !important;
+    background-color: var(--de-eagle-bg) !important;
     background-image: none !important;
     color-scheme: light !important;
     forced-color-adjust: none !important;
@@ -7871,47 +7873,23 @@ body.is-home-screen .home-app-shell {
     position: absolute;
     left: 52%;
     top: 46%;
-    width: min(58vw, 210px);
-    height: min(73vw, 265px);
+    width: min(66vw, 248px);
+    height: min(83vw, 312px);
     aspect-ratio: 352 / 444;
     transform: translate(-50%, -50%) translateZ(0);
     -webkit-transform: translate(-50%, -50%) translateZ(0);
     pointer-events: none;
-    background-color: #000000 !important;
-    background-image: none !important;
-    mask-image: url("./public/german-eagle.svg");
-    -webkit-mask-image: url("./public/german-eagle.svg");
-    mask-position: center center;
-    -webkit-mask-position: center center;
-    mask-size: contain;
-    -webkit-mask-size: contain;
-    mask-repeat: no-repeat;
-    -webkit-mask-repeat: no-repeat;
+    background-color: transparent !important;
+    background-image: url("./public/german-eagle.svg");
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
     opacity: var(--de-eagle-opacity);
     color-scheme: light !important;
     forced-color-adjust: none !important;
     filter: none !important;
     -webkit-filter: none !important;
     mix-blend-mode: normal !important;
-  }
-
-  .mobile-level-menu-eagle::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    pointer-events: none;
-    background-color: var(--de-red) !important;
-    mask-image: url("./public/german-eagle-accents.svg");
-    -webkit-mask-image: url("./public/german-eagle-accents.svg");
-    mask-position: center center;
-    -webkit-mask-position: center center;
-    mask-size: contain;
-    -webkit-mask-size: contain;
-    mask-repeat: no-repeat;
-    -webkit-mask-repeat: no-repeat;
-    opacity: var(--de-eagle-accent-opacity);
-    filter: none !important;
-    -webkit-filter: none !important;
   }
 
   .mobile-level-menu-content {
@@ -8150,7 +8128,7 @@ body.is-home-screen .home-app-shell {
   html.is-home-screen .mobile-level-menu,
   html.is-home-screen .home-menu-screen,
   html.is-home-screen #homeMenuScreen {
-    background-color: #EAC117 !important;
+    background-color: var(--de-eagle-bg) !important;
     background-image: none !important;
     color-scheme: light !important;
     forced-color-adjust: none !important;
@@ -8161,7 +8139,7 @@ body.is-home-screen .home-app-shell {
 
   html.is-home-screen .mobile-level-menu-shell,
   html.is-home-screen .mobile-level-menu-paint {
-    background-color: #EAC117 !important;
+    background-color: var(--de-eagle-bg) !important;
     filter: none !important;
     -webkit-filter: none !important;
     opacity: 1 !important;
@@ -8174,15 +8152,9 @@ body.is-home-screen .home-app-shell {
   }
 
   html.is-home-screen .mobile-level-menu-eagle {
-    background-color: #000000 !important;
+    background-color: transparent !important;
+    background-image: url("./public/german-eagle.svg") !important;
     opacity: var(--de-eagle-opacity) !important;
-    filter: none !important;
-    -webkit-filter: none !important;
-  }
-
-  html.is-home-screen .mobile-level-menu-eagle::after {
-    background-color: var(--de-red) !important;
-    opacity: var(--de-eagle-accent-opacity) !important;
     filter: none !important;
     -webkit-filter: none !important;
   }
@@ -8286,7 +8258,7 @@ html.debug-mobile-menu-layers .menu-button-container button {
   html.is-home-screen {
     color-scheme: light !important;
     forced-color-adjust: none !important;
-    background-color: #EAC117 !important;
+    background-color: var(--de-eagle-bg) !important;
   }
 }
 
