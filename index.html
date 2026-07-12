@@ -142,6 +142,100 @@
         </div>
       </div>
 
+      <article class="card">
+        <div class="card-inner">
+          <div class="badge" id="cardLevel">A1</div>
+          <div class="flashcard-word-row" id="flashcardWordRow">
+            <div class="flashcard-german-line">
+              <h2 class="word" id="word">-</h2>
+              <button type="button" class="flashcard-audio-btn" id="singularAudioBtn" hidden aria-label="Klausīties" title="Klausīties">
+                <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                  <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                  <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="flashcard-translation-row" id="flashcardTranslationRow">
+            <div class="flashcard-german-line">
+              <div class="translation" id="translation"></div>
+              <button type="button" class="flashcard-audio-btn" id="singularTranslationAudioBtn" hidden aria-label="Klausīties" title="Klausīties">
+                <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                  <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                  <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="flashcard-plural-row" id="flashcardPluralRow" hidden>
+            <span class="flashcard-plural-label">Daudzsk.</span>
+            <span class="flashcard-plural-text" id="flashcardPluralText"></span>
+            <button type="button" class="flashcard-audio-btn" id="pluralAudioBtn" hidden aria-label="Klausīties daudzskaitli" title="Klausīties daudzskaitli">
+              <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
+              </svg>
+            </button>
+          </div>
+          <div class="card-study-extra" id="cardStudyExtra" hidden></div>
+          <div class="hint" id="hint">Klikšķini uz kartītes, lai redzētu tulkojumu.</div>
+          <div class="session-complete-overlay" id="sessionCompleteOverlay" hidden>
+            <div class="session-complete-popup">
+              <h3>Sesija pabeigta!</h3>
+              <button type="button" id="restartSessionBtn">🔄 Pārskatīt sesiju no jauna</button>
+              <button type="button" id="markSessionLearnedBtn">🏅 Atzīmēt sesiju kā iemācītu</button>
+            </div>
+          </div>
+          <div class="group-complete-overlay" id="groupCompleteOverlay" hidden>
+            <div class="group-complete-popup">
+              <h3 id="groupCompleteTitle">Izcili! A1 līmenis ir pabeigts! 🎉</h3>
+              <p id="groupCompleteDesc">Tu esi apguvis visus šīs grupas vārdus. Laiks spert nākamo soli!</p>
+              <button type="button" id="chooseAnotherGroupBtn">Izvēlēties citu grupu</button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <div class="controls">
+        <div class="spelling-panel" id="spellingPanel" hidden style="display: none;">
+          <div class="spelling-row">
+            <input id="spellingInput" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" />
+            <div class="spelling-button-stack"><button id="checkSpellingBtn" type="button">Pārbaudīt</button><button id="continueSpellingBtn" type="button" hidden>Turpināt</button></div>
+          </div>
+          <div class="spelling-result" id="spellingResult" aria-live="polite"></div>
+        </div>
+        <div class="action-buttons">
+          <div class="desktop-primary-actions">
+            <button class="known" id="knownBtn" type="button">Zinu pareizi</button>
+            <button class="unknown" id="unknownBtn" type="button">Nezinu</button>
+            <button class="primary" id="nextBtn" type="button">Nākamais vārds</button>
+          </div>
+          <div class="desktop-action-sidebar">
+          <button id="verbRandomBtn" type="button" hidden style="display: none;">Jaukt darbības vārdus</button>
+          <button id="markMasteredBtn" type="button" hidden style="display: none;">100% zinu</button>
+          <button class="extra-options-toggle" id="extraOptionsBtn" type="button" aria-expanded="false">Papildu opcijas ▼</button>
+          <div class="mobile-extra-options" id="extraOptions" hidden>
+            <div class="desktop-side-group desktop-side-group-words">
+              <div class="desktop-side-title">Vārdu pārvaldība</div>
+              <button id="weeklyReviewBtn" type="button">Nedēļas pārskats</button>
+              <button id="monthlyReviewBtn" type="button">Mēneša pārskats</button>
+              <button id="restoreBtn" type="button">⚠️ Atgriezt visu</button>
+            </div>
+            <div class="desktop-side-group desktop-side-group-stats">
+              <div class="desktop-side-title">Statistika</div>
+              <button id="masteredListBtn" type="button">🏅 Zināmi (0)</button>
+              <button id="unwantedListBtn" type="button">Nevajadzīgie vārdi</button>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="notice" id="notice" aria-live="polite"></div>
+      </div>
+      </div>
+
       <section class="pamati-overlay" id="pamatiPanel" hidden aria-label="Pamati" aria-modal="true" role="dialog">
         <div class="pamati-panel">
           <div class="pamati-header">
@@ -255,99 +349,6 @@
           </div>        </div>
       </section>
 
-      <article class="card">
-        <div class="card-inner">
-          <div class="badge" id="cardLevel">A1</div>
-          <div class="flashcard-word-row" id="flashcardWordRow">
-            <div class="flashcard-german-line">
-              <h2 class="word" id="word">-</h2>
-              <button type="button" class="flashcard-audio-btn" id="singularAudioBtn" hidden aria-label="Klausīties" title="Klausīties">
-                <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
-                  <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
-                  <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
-                </svg>
-              </button>
-            </div>
-          </div>
-          <div class="flashcard-translation-row" id="flashcardTranslationRow">
-            <div class="flashcard-german-line">
-              <div class="translation" id="translation"></div>
-              <button type="button" class="flashcard-audio-btn" id="singularTranslationAudioBtn" hidden aria-label="Klausīties" title="Klausīties">
-                <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
-                  <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
-                  <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
-                </svg>
-              </button>
-            </div>
-          </div>
-          <div class="flashcard-plural-row" id="flashcardPluralRow" hidden>
-            <span class="flashcard-plural-label">Daudzsk.</span>
-            <span class="flashcard-plural-text" id="flashcardPluralText"></span>
-            <button type="button" class="flashcard-audio-btn" id="pluralAudioBtn" hidden aria-label="Klausīties daudzskaitli" title="Klausīties daudzskaitli">
-              <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
-                <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
-                <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
-              </svg>
-            </button>
-          </div>
-          <div class="card-study-extra" id="cardStudyExtra" hidden></div>
-          <div class="hint" id="hint">Klikšķini uz kartītes, lai redzētu tulkojumu.</div>
-          <div class="session-complete-overlay" id="sessionCompleteOverlay" hidden>
-            <div class="session-complete-popup">
-              <h3>Sesija pabeigta!</h3>
-              <button type="button" id="restartSessionBtn">🔄 Pārskatīt sesiju no jauna</button>
-              <button type="button" id="markSessionLearnedBtn">🏅 Atzīmēt sesiju kā iemācītu</button>
-            </div>
-          </div>
-          <div class="group-complete-overlay" id="groupCompleteOverlay" hidden>
-            <div class="group-complete-popup">
-              <h3 id="groupCompleteTitle">Izcili! A1 līmenis ir pabeigts! 🎉</h3>
-              <p id="groupCompleteDesc">Tu esi apguvis visus šīs grupas vārdus. Laiks spert nākamo soli!</p>
-              <button type="button" id="chooseAnotherGroupBtn">Izvēlēties citu grupu</button>
-            </div>
-          </div>
-        </div>
-      </article>
-
-      <div class="controls">
-        <div class="spelling-panel" id="spellingPanel" hidden style="display: none;">
-          <div class="spelling-row">
-            <input id="spellingInput" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" />
-            <div class="spelling-button-stack"><button id="checkSpellingBtn" type="button">Pārbaudīt</button><button id="continueSpellingBtn" type="button" hidden>Turpināt</button></div>
-          </div>
-          <div class="spelling-result" id="spellingResult" aria-live="polite"></div>
-        </div>
-        <div class="action-buttons">
-          <div class="desktop-primary-actions">
-            <button class="known" id="knownBtn" type="button">Zinu pareizi</button>
-            <button class="unknown" id="unknownBtn" type="button">Nezinu</button>
-            <button class="primary" id="nextBtn" type="button">Nākamais vārds</button>
-          </div>
-          <div class="desktop-action-sidebar">
-          <button id="verbRandomBtn" type="button" hidden style="display: none;">Jaukt darbības vārdus</button>
-          <button id="markMasteredBtn" type="button" hidden style="display: none;">100% zinu</button>
-          <button class="extra-options-toggle" id="extraOptionsBtn" type="button" aria-expanded="false">Papildu opcijas ▼</button>
-          <div class="mobile-extra-options" id="extraOptions" hidden>
-            <div class="desktop-side-group desktop-side-group-words">
-              <div class="desktop-side-title">Vārdu pārvaldība</div>
-              <button id="weeklyReviewBtn" type="button">Nedēļas pārskats</button>
-              <button id="monthlyReviewBtn" type="button">Mēneša pārskats</button>
-              <button id="restoreBtn" type="button">⚠️ Atgriezt visu</button>
-            </div>
-            <div class="desktop-side-group desktop-side-group-stats">
-              <div class="desktop-side-title">Statistika</div>
-              <button id="masteredListBtn" type="button">🏅 Zināmi (0)</button>
-              <button id="unwantedListBtn" type="button">Nevajadzīgie vārdi</button>
-            </div>
-          </div>
-          </div>
-        </div>
-        <div class="notice" id="notice" aria-live="polite"></div>
-      </div>
-      </div>
     </section>
   </main>
   <script src="./groups.js"></script>

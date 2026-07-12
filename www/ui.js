@@ -1594,7 +1594,10 @@ function openKurss() {
 }
 
 function closeKurss() {
-  elements.kurssPanel.hidden = true;
+  if (elements.kurssPanel) {
+    elements.kurssPanel.hidden = true;
+    elements.kurssPanel.classList.remove("active");
+  }
   showKurssMenu();
 }
 
