@@ -4056,15 +4056,21 @@
 
 
 /* Atzīmēt kā nevajadzīgu — acs ikona un automātiskās izrunas poga kartītes stūrī */
-.card-corner-controls {
+.card > .card-corner-controls {
   position: absolute;
-  top: 20px;
-  right: 20px;
-  z-index: 3;
+  top: 12px;
+  right: 12px;
+  z-index: 5;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  gap: 10px;
+  justify-content: flex-end;
+  gap: 8px;
+  pointer-events: none;
+}
+
+.card > .card-corner-controls > * {
+  pointer-events: auto;
 }
 
 .card-unwanted-btn {
@@ -4172,10 +4178,10 @@
 }
 
 @media (max-width: 768px) {
-  .card-corner-controls {
-    top: 14px;
-    right: 14px;
-    gap: 8px;
+  .card > .card-corner-controls {
+    top: 10px;
+    right: 10px;
+    gap: 6px;
   }
 
   .card-unwanted-btn,
@@ -4442,7 +4448,7 @@
    klik┼í─Ài j─üblo─À─ô piln─½b─ü ÔÇö pret─ôj─ü gad─½jum─ü lietot─üjs var nejau┼íi izmest vai atz─½m─ôt
    v─ürdu, kuru vi┼å┼í aiz PopUp loga neredz. */
 .card:has(.card-popup-overlay:not([hidden])) .card-mastered-btn,
-.card:has(.card-popup-overlay:not([hidden])) .card-unwanted-btn {
+.card:has(.card-popup-overlay:not([hidden])) .card-corner-controls {
   visibility: hidden !important;
   pointer-events: none !important;
 }
@@ -7274,7 +7280,7 @@ main,
 }
 
 .card:has(.card-popup-overlay:not([hidden])) .card-mastered-btn,
-.card:has(.card-popup-overlay:not([hidden])) .card-unwanted-btn {
+.card:has(.card-popup-overlay:not([hidden])) .card-corner-controls {
   visibility: hidden !important;
   pointer-events: none !important;
 }
@@ -7411,7 +7417,7 @@ main,
   align-items: center;
   justify-content: center;
   gap: 12px;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   max-width: 100%;
 }
 
