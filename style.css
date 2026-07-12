@@ -7570,10 +7570,12 @@ main,
   }
 }
 
-body.is-home-screen main.home-main,
-body.is-home-screen .home-app-shell {
-  background: transparent !important;
-  background-color: transparent !important;
+@media (min-width: 769px) {
+  body.is-home-screen main.home-main,
+  body.is-home-screen .home-app-shell {
+    background: transparent !important;
+    background-color: transparent !important;
+  }
 }
 
 .home-menu-screen {
@@ -7758,10 +7760,11 @@ body.is-home-screen .home-app-shell {
 @media (max-width: 768px) {
   /*
    * Mobilā līmeņu izvēlne – pilnīga light-theme izolācija pret Samsung/Chrome force-dark.
-   * Solid #EAC117 paint slānis, bez caurspīdīgiem parent foniem.
+   * Strādā ar html.is-home-screen (statisks HTML) + html.mobile-home-light (JS).
    */
+  html.is-home-screen,
   html.mobile-home-light {
-    color-scheme: only light !important;
+    color-scheme: light !important;
     forced-color-adjust: none !important;
     background-color: #EAC117 !important;
     background-image: none !important;
@@ -7769,10 +7772,13 @@ body.is-home-screen .home-app-shell {
     -webkit-filter: none !important;
   }
 
+  html.is-home-screen body,
+  html.is-home-screen main.home-main,
+  html.is-home-screen .home-app-shell,
   html.mobile-home-light body,
   html.mobile-home-light main.home-main,
   html.mobile-home-light .home-app-shell {
-    color-scheme: only light !important;
+    color-scheme: light !important;
     forced-color-adjust: none !important;
     background-color: #EAC117 !important;
     background-image: none !important;
@@ -7811,7 +7817,7 @@ body.is-home-screen .home-app-shell {
     box-shadow: none;
     background-color: #EAC117 !important;
     background-image: none !important;
-    color-scheme: only light !important;
+    color-scheme: light !important;
     forced-color-adjust: none !important;
     filter: none !important;
     -webkit-filter: none !important;
@@ -7828,7 +7834,7 @@ body.is-home-screen .home-app-shell {
     width: 100%;
     height: 100%;
     isolation: isolate;
-    color-scheme: only light !important;
+    color-scheme: light !important;
     forced-color-adjust: none !important;
     filter: none !important;
     -webkit-filter: none !important;
@@ -7845,7 +7851,7 @@ body.is-home-screen .home-app-shell {
     pointer-events: none;
     background-color: #EAC117 !important;
     background-image: none !important;
-    color-scheme: only light !important;
+    color-scheme: light !important;
     forced-color-adjust: none !important;
     filter: none !important;
     -webkit-filter: none !important;
@@ -7876,7 +7882,7 @@ body.is-home-screen .home-app-shell {
     mask-repeat: no-repeat;
     -webkit-mask-repeat: no-repeat;
     opacity: 0.16;
-    color-scheme: only light !important;
+    color-scheme: light !important;
     forced-color-adjust: none !important;
     filter: none !important;
     -webkit-filter: none !important;
@@ -7892,11 +7898,12 @@ body.is-home-screen .home-app-shell {
     height: 100%;
     min-height: 100dvh;
     padding: 8px 0 10px;
-    color-scheme: only light !important;
+    color-scheme: light !important;
     forced-color-adjust: none !important;
     filter: none !important;
     -webkit-filter: none !important;
-    background: transparent;
+    background-color: #EAC117 !important;
+    background-image: none !important;
     opacity: 1 !important;
   }
 
@@ -7909,9 +7916,9 @@ body.is-home-screen .home-app-shell {
     flex-shrink: 0;
     z-index: 2;
     forced-color-adjust: none !important;
-    color-scheme: only light !important;
+    color-scheme: light !important;
     filter: none !important;
-    background: transparent !important;
+    background-color: #EAC117 !important;
   }
 
   .home-menu-header h1 {
@@ -7942,9 +7949,9 @@ body.is-home-screen .home-app-shell {
     overflow: hidden;
     z-index: 2;
     forced-color-adjust: none !important;
-    color-scheme: only light !important;
+    color-scheme: light !important;
     filter: none !important;
-    background: transparent !important;
+    background-color: #EAC117 !important;
   }
 
   .menu-button-container {
@@ -7977,7 +7984,7 @@ body.is-home-screen .home-app-shell {
     -webkit-appearance: none !important;
     appearance: none !important;
     forced-color-adjust: none !important;
-    color-scheme: only light !important;
+    color-scheme: light !important;
     background-image: none !important;
     filter: none !important;
     -webkit-filter: none !important;
@@ -8060,84 +8067,90 @@ body.is-home-screen .home-app-shell {
 
 /* Samsung / Chrome force-dark: atkārtots piespiedu light override */
 @media (max-width: 768px) and (prefers-color-scheme: dark) {
+  html.is-home-screen,
   html.mobile-home-light,
+  html.is-home-screen body,
   html.mobile-home-light body,
+  html.is-home-screen main.home-main,
   html.mobile-home-light main.home-main,
+  html.is-home-screen .home-app-shell,
   html.mobile-home-light .home-app-shell,
-  html.mobile-home-light .mobile-level-menu,
-  html.mobile-home-light .home-menu-screen {
+  html.is-home-screen .mobile-level-menu,
+  html.is-home-screen .home-menu-screen,
+  html.is-home-screen #homeMenuScreen {
     background-color: #EAC117 !important;
     background-image: none !important;
-    color-scheme: only light !important;
+    color-scheme: light !important;
     forced-color-adjust: none !important;
     filter: none !important;
     -webkit-filter: none !important;
     opacity: 1 !important;
   }
 
-  html.mobile-home-light .mobile-level-menu-shell,
-  html.mobile-home-light .mobile-level-menu-paint {
+  html.is-home-screen .mobile-level-menu-shell,
+  html.is-home-screen .mobile-level-menu-paint,
+  html.is-home-screen .mobile-level-menu-content {
     background-color: #EAC117 !important;
     filter: none !important;
     -webkit-filter: none !important;
     opacity: 1 !important;
   }
 
-  html.mobile-home-light .mobile-level-menu-eagle {
+  html.is-home-screen .mobile-level-menu-eagle {
     background-color: #000000 !important;
     opacity: 0.16 !important;
     filter: none !important;
     -webkit-filter: none !important;
   }
 
-  html.mobile-home-light .home-menu-header h1 {
+  html.is-home-screen .home-menu-header h1 {
     color: #000000 !important;
     -webkit-text-fill-color: #000000 !important;
   }
 
-  html.mobile-home-light .home-menu-header .subtitle {
+  html.is-home-screen .home-menu-header .subtitle {
     color: rgba(0, 0, 0, 0.78) !important;
     -webkit-text-fill-color: rgba(0, 0, 0, 0.78) !important;
   }
 
-  html.mobile-home-light .menu-button-container button {
+  html.is-home-screen .menu-button-container button {
     backdrop-filter: none !important;
     -webkit-backdrop-filter: none !important;
     filter: none !important;
     -webkit-filter: none !important;
     opacity: 1 !important;
-    color-scheme: only light !important;
+    color-scheme: light !important;
     forced-color-adjust: none !important;
   }
 
-  html.mobile-home-light .menu-button-container button.menu-black {
+  html.is-home-screen .menu-button-container button.menu-black {
     background-color: rgba(0, 0, 0, 0.74) !important;
     color: #ffffff !important;
   }
 
-  html.mobile-home-light .menu-button-container button.menu-red {
+  html.is-home-screen .menu-button-container button.menu-red {
     background-color: rgba(159, 0, 15, 0.74) !important;
     color: #ffffff !important;
   }
 
-  html.mobile-home-light .menu-button-container button.menu-gold {
+  html.is-home-screen .menu-button-container button.menu-gold {
     background-color: rgba(234, 193, 23, 0.78) !important;
     color: #000000 !important;
     border-color: rgba(0, 0, 0, 0.18) !important;
   }
 
-  html.mobile-home-light .menu-button-container button.menu-black span,
-  html.mobile-home-light .menu-button-container button.menu-black div,
-  html.mobile-home-light .menu-button-container button.menu-red span,
-  html.mobile-home-light .menu-button-container button.menu-red div {
+  html.is-home-screen .menu-button-container button.menu-black span,
+  html.is-home-screen .menu-button-container button.menu-black div,
+  html.is-home-screen .menu-button-container button.menu-red span,
+  html.is-home-screen .menu-button-container button.menu-red div {
     color: #ffffff !important;
     -webkit-text-fill-color: #ffffff !important;
     opacity: 1 !important;
     filter: none !important;
   }
 
-  html.mobile-home-light .menu-button-container button.menu-gold span,
-  html.mobile-home-light .menu-button-container button.menu-gold div {
+  html.is-home-screen .menu-button-container button.menu-gold span,
+  html.is-home-screen .menu-button-container button.menu-gold div {
     color: #000000 !important;
     -webkit-text-fill-color: #000000 !important;
     opacity: 1 !important;
@@ -8145,7 +8158,7 @@ body.is-home-screen .home-app-shell {
   }
 }
 
-/* Dev helper: pievieno ?debugMenu=1 URL, lai redzētu slāņu robežas */
+/* Dev helper: ?debugMenu=1 */
 html.debug-mobile-menu-layers .mobile-level-menu-paint {
   outline: 3px solid #ff0000;
 }
@@ -8158,6 +8171,37 @@ html.debug-mobile-menu-layers .mobile-level-menu-content {
   outline: 3px solid #00aa00;
 }
 
+html.debug-mobile-menu-layers #homeMenuScreen.mobile-level-menu {
+  outline: 3px solid #9F000F;
+}
+
 html.debug-mobile-menu-layers .menu-button-container button {
-  outline: 2px dashed #9F000F;
+  outline: 2px dashed #000000;
+}
+
+#mobileMenuDebugPanel {
+  position: fixed;
+  left: 8px;
+  right: 8px;
+  bottom: 8px;
+  z-index: 99999;
+  padding: 8px 10px;
+  border: 2px solid #000000;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.96);
+  color: #000000;
+  font: 11px/1.35 monospace;
+  pointer-events: none;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+/* Beats :root { color-scheme: dark } on Samsung first paint */
+@media (max-width: 768px) {
+  html.is-home-screen:root,
+  html.is-home-screen {
+    color-scheme: light !important;
+    forced-color-adjust: none !important;
+    background-color: #EAC117 !important;
+  }
 }

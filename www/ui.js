@@ -5505,33 +5505,80 @@ function detailScreenHeading(itemKey) {
 }
 
 const MOBILE_HOME_GOLD = "#EAC117";
+const MOBILE_HOME_ISOLATION_PROPS = [
+  ["color-scheme", "light"],
+  ["background-color", MOBILE_HOME_GOLD],
+  ["background-image", "none"],
+  ["forced-color-adjust", "none"],
+  ["filter", "none"],
+  ["-webkit-filter", "none"]
+];
+
+function mobileHomeIsolationTargets() {
+  return [
+    document.documentElement,
+    document.body,
+    document.querySelector("main.home-main"),
+    document.querySelector(".home-app-shell"),
+    document.getElementById("homeMenuScreen")
+  ].filter(Boolean);
+}
 
 function applyMobileHomeLightIsolation(isMobileHome) {
-  const root = document.documentElement;
-  const body = document.body;
-  const props = [
-    ["color-scheme", isMobileHome ? "only light" : ""],
-    ["background-color", isMobileHome ? MOBILE_HOME_GOLD : ""],
-    ["background-image", isMobileHome ? "none" : ""],
-    ["forced-color-adjust", isMobileHome ? "none" : ""],
-    ["filter", isMobileHome ? "none" : ""],
-    ["-webkit-filter", isMobileHome ? "none" : ""]
-  ];
-
-  props.forEach(([name, value]) => {
-    if (value) {
-      root.style.setProperty(name, value, "important");
-      body.style.setProperty(name, value, "important");
-      return;
-    }
-    root.style.removeProperty(name);
-    body.style.removeProperty(name);
+  mobileHomeIsolationTargets().forEach((node) => {
+    MOBILE_HOME_ISOLATION_PROPS.forEach(([name, value]) => {
+      if (isMobileHome) {
+        node.style.setProperty(name, value, "important");
+        return;
+      }
+      node.style.removeProperty(name);
+    });
   });
+}
+
+function readBgColor(el) {
+  if (!el) return "n/a";
+  return getComputedStyle(el).backgroundColor || "n/a";
 }
 
 function initMobileMenuDebugHelper() {
   if (!new URLSearchParams(window.location.search).has("debugMenu")) return;
   document.documentElement.classList.add("debug-mobile-menu-layers");
+
+  const panel = document.createElement("div");
+  panel.id = "mobileMenuDebugPanel";
+  panel.setAttribute("aria-live", "polite");
+
+  function renderDebugPanel() {
+    const html = document.documentElement;
+    const body = document.body;
+    const menu = document.getElementById("homeMenuScreen");
+    const paint = document.querySelector(".mobile-level-menu-paint");
+    const colorSchemeMeta = document.querySelector('meta[name="color-scheme"]');
+    const themeMeta = document.querySelector('meta[name="theme-color"]');
+    panel.textContent = [
+      `html classes: ${html.className || "(none)"}`,
+      `body classes: ${body.className || "(none)"}`,
+      `prefers-color-scheme dark: ${window.matchMedia("(prefers-color-scheme: dark)").matches}`,
+      `mobile-home-light: ${html.classList.contains("mobile-home-light")}`,
+      `meta color-scheme: ${colorSchemeMeta ? colorSchemeMeta.content : "n/a"}`,
+      `meta theme-color: ${themeMeta ? themeMeta.content : "n/a"}`,
+      `html bg: ${readBgColor(html)}`,
+      `body bg: ${readBgColor(body)}`,
+      `main bg: ${readBgColor(document.querySelector("main.home-main"))}`,
+      `#homeMenuScreen bg: ${readBgColor(menu)}`,
+      `.mobile-level-menu-paint bg: ${readBgColor(paint)}`
+    ].join("\n");
+  }
+
+  const mount = () => {
+    if (!document.body.contains(panel)) document.body.appendChild(panel);
+    renderDebugPanel();
+  };
+
+  if (document.body) mount();
+  else document.addEventListener("DOMContentLoaded", mount);
+  window.setInterval(renderDebugPanel, 1000);
 }
 
 function updateNavScreen() {

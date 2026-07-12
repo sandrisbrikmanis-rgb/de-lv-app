@@ -9,6 +9,55 @@
   <meta name="theme-color" content="#EAC117">
   <meta name="color-scheme" content="light" id="appColorScheme">
   <meta name="supported-color-schemes" content="light">
+  <style id="mobile-home-critical-css">
+    @media (max-width: 768px) {
+      html.is-home-screen,
+      html.is-home-screen body,
+      html.is-home-screen main.home-main,
+      html.is-home-screen .home-app-shell,
+      html.is-home-screen #homeMenuScreen.mobile-level-menu {
+        background-color: #EAC117 !important;
+        background-image: none !important;
+        color-scheme: light !important;
+        forced-color-adjust: none !important;
+        filter: none !important;
+        -webkit-filter: none !important;
+      }
+    }
+  </style>
+  <script>
+    (function () {
+      var mq = window.matchMedia && window.matchMedia("(max-width: 768px)");
+      if (!mq || !mq.matches) return;
+      var root = document.documentElement;
+      root.classList.add("mobile-home-light");
+      root.style.setProperty("color-scheme", "light", "important");
+      root.style.setProperty("background-color", "#EAC117", "important");
+      root.style.setProperty("background-image", "none", "important");
+      root.style.setProperty("forced-color-adjust", "none", "important");
+      function paintMobileHomeAncestors() {
+        var body = document.body;
+        if (!body) return;
+        body.classList.add("mobile-home-light");
+        var nodes = [
+          body,
+          document.querySelector("main.home-main"),
+          document.querySelector(".home-app-shell"),
+          document.getElementById("homeMenuScreen")
+        ];
+        nodes.forEach(function (node) {
+          if (!node) return;
+          node.style.setProperty("background-color", "#EAC117", "important");
+          node.style.setProperty("background-image", "none", "important");
+          node.style.setProperty("color-scheme", "light", "important");
+          node.style.setProperty("forced-color-adjust", "none", "important");
+          node.style.setProperty("filter", "none", "important");
+        });
+      }
+      if (document.body) paintMobileHomeAncestors();
+      else document.addEventListener("DOMContentLoaded", paintMobileHomeAncestors);
+    })();
+  </script>
 </head>
 <body class="is-home-screen">
   <main class="home-main">
