@@ -33,8 +33,10 @@
       0 1px 2px rgba(0, 0, 0, 0.88),
       0 0 10px rgba(0, 0, 0, 0.42);
     --mh-text-shadow-on-gold:
-      0 1px 2px rgba(255, 255, 255, 0.65),
-      0 1px 5px rgba(0, 0, 0, 0.35);
+      0 1px 0 rgba(255, 255, 255, 0.55),
+      0 1px 3px rgba(0, 0, 0, 0.72),
+      0 0 8px rgba(0, 0, 0, 0.35);
+    --mh-gold-text: #000000;
     position: fixed;
     inset: 0;
     width: 100%;
@@ -315,13 +317,23 @@
 
   .mobile-home-v2 .menu-button-container button.menu-gold .mobile-menu-btn-label {
     font-size: clamp(0.84rem, 3.2vw, 0.92rem);
+    font-weight: 800 !important;
+    letter-spacing: 0.025em;
   }
 
   .mobile-home-v2 .menu-button-container button.menu-gold .mobile-menu-btn-label,
   .mobile-home-v2 .menu-button-container button.menu-gold .mobile-menu-btn-count {
-    color: var(--de-text-on-gold) !important;
-    -webkit-text-fill-color: var(--de-text-on-gold) !important;
+    color: var(--mh-gold-text) !important;
+    -webkit-text-fill-color: var(--mh-gold-text) !important;
+    font-weight: 800 !important;
+    opacity: 1 !important;
     text-shadow: var(--mh-text-shadow-on-gold) !important;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .mobile-home-v2 .menu-button-container button.menu-gold .mobile-menu-btn-count {
+    font-size: clamp(0.82rem, 3.1vw, 0.9rem);
+    font-weight: 900 !important;
   }
 
   #homeMenuScreen.mobile-home-v2.home-menu-screen {
@@ -375,8 +387,10 @@
   html.is-home-screen .mobile-home-v2 .menu-button-container button.menu-gold div,
   html.is-home-screen .mobile-home-v2 .menu-button-container button.menu-gold .mobile-menu-btn-label,
   html.is-home-screen .mobile-home-v2 .menu-button-container button.menu-gold .mobile-menu-btn-count {
-    color: var(--de-text-on-gold) !important;
-    -webkit-text-fill-color: var(--de-text-on-gold) !important;
+    color: var(--mh-gold-text) !important;
+    -webkit-text-fill-color: var(--mh-gold-text) !important;
+    font-weight: 800 !important;
+    opacity: 1 !important;
     text-shadow: var(--mh-text-shadow-on-gold) !important;
   }
 }
@@ -468,7 +482,10 @@
 
   html.is-home-screen #homeMenuScreen.mobile-home-v2 .menu-button-container button.menu-gold .mobile-menu-btn-label,
   html.is-home-screen #homeMenuScreen.mobile-home-v2 .menu-button-container button.menu-gold .mobile-menu-btn-count {
-    color: var(--de-text-on-gold) !important;
-    -webkit-text-fill-color: var(--de-text-on-gold) !important;
+    color: var(--mh-gold-text) !important;
+    -webkit-text-fill-color: var(--mh-gold-text) !important;
+    font-weight: 800 !important;
+    opacity: 1 !important;
+    text-shadow: var(--mh-text-shadow-on-gold) !important;
   }
 }
