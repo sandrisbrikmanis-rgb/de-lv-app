@@ -217,19 +217,21 @@
     display: flex;
     flex: 1 1 auto;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     width: 100%;
     min-height: 0;
     padding: 2px 12px calc(6px + env(safe-area-inset-bottom, 0px));
-    gap: 0;
+    gap: clamp(5px, 0.85vh, 8px);
     background: transparent !important;
     overflow: hidden;
   }
 
   .mobile-home-v2 .menu-button-container {
-    flex: 1 1 0;
+    flex: 0 0 auto;
     display: flex;
     width: 100% !important;
+    height: clamp(34px, 5.1vh, 42px);
+    max-height: 42px;
     min-height: 0;
     margin: 0 !important;
     background: transparent !important;
@@ -241,17 +243,21 @@
   .mobile-home-v2 .menu-button-container button {
     flex: 1 1 auto;
     width: 100% !important;
+    height: 100% !important;
     min-height: 0 !important;
-    padding: clamp(7px, 1.1vh, 11px) 18px !important;
+    max-height: 42px !important;
+    padding: 0 16px !important;
     display: flex !important;
     justify-content: space-between !important;
     align-items: center !important;
     gap: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.22) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
     border-radius: 10px !important;
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1) !important;
-    backdrop-filter: none !important;
-    -webkit-backdrop-filter: none !important;
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.14),
+      0 1px 4px rgba(0, 0, 0, 0.2) !important;
+    backdrop-filter: blur(10px) saturate(1.12) !important;
+    -webkit-backdrop-filter: blur(10px) saturate(1.12) !important;
     background-image: none !important;
     filter: none !important;
     -webkit-filter: none !important;
@@ -268,35 +274,35 @@
 
   /* A1–B1: melnais stikls */
   .mobile-home-v2 .menu-button-container button.menu-black {
-    background-color: rgba(0, 0, 0, 0.62) !important;
+    background-color: rgba(0, 0, 0, 0.46) !important;
     color: #ffffff !important;
-    border-color: rgba(255, 255, 255, 0.28) !important;
+    border-color: rgba(255, 255, 255, 0.24) !important;
   }
 
   /* B2–C2: sarkanais stikls */
   .mobile-home-v2 .menu-button-container button.menu-red {
-    background-color: rgba(140, 0, 18, 0.58) !important;
-    color: #ffffff !important;
-    border-color: rgba(255, 255, 255, 0.26) !important;
-  }
-
-  /* Teikumi, Kurss, Darbības vārdi: zelta/olīvu stikls */
-  .mobile-home-v2 .menu-button-container button.menu-gold {
-    background-color: rgba(196, 158, 28, 0.55) !important;
+    background-color: rgba(159, 0, 15, 0.44) !important;
     color: #ffffff !important;
     border-color: rgba(255, 255, 255, 0.22) !important;
   }
 
+  /* Teikumi, Kurss, Darbības vārdi: zelta/olīvu stikls */
+  .mobile-home-v2 .menu-button-container button.menu-gold {
+    background-color: rgba(196, 158, 28, 0.4) !important;
+    color: #ffffff !important;
+    border-color: rgba(255, 255, 255, 0.18) !important;
+  }
+
   .mobile-home-v2 .menu-button-container button.menu-black:active {
-    background-color: rgba(0, 0, 0, 0.68) !important;
+    background-color: rgba(0, 0, 0, 0.58) !important;
   }
 
   .mobile-home-v2 .menu-button-container button.menu-red:active {
-    background-color: rgba(159, 0, 15, 0.66) !important;
+    background-color: rgba(159, 0, 15, 0.56) !important;
   }
 
   .mobile-home-v2 .menu-button-container button.menu-gold:active {
-    background-color: rgba(180, 145, 30, 0.62) !important;
+    background-color: rgba(196, 158, 28, 0.52) !important;
   }
 
   .mobile-home-v2 .mobile-menu-btn-label,
@@ -314,9 +320,9 @@
   .mobile-home-v2 .mobile-menu-btn-label {
     flex: 1 1 auto;
     text-align: left;
-    font-size: 1.02rem;
+    font-size: clamp(0.9rem, 3.6vw, 0.98rem);
     letter-spacing: 0.03em;
-    line-height: 1.2;
+    line-height: 1.15;
   }
 
   .mobile-home-v2 .mobile-menu-btn-count {
@@ -324,7 +330,7 @@
     min-width: 3ch;
     text-align: right;
     font-variant-numeric: tabular-nums;
-    font-size: 0.95rem;
+    font-size: clamp(0.84rem, 3.2vw, 0.92rem);
     font-weight: 800;
     opacity: 0.92;
     letter-spacing: 0.02em;
@@ -352,6 +358,8 @@
   .mobile-home-v2 .menu-button-container button.menu-gold {
     background-image: none !important;
     color-scheme: dark !important;
+    backdrop-filter: blur(10px) saturate(1.12) !important;
+    -webkit-backdrop-filter: blur(10px) saturate(1.12) !important;
   }
 
   html.is-home-screen .mobile-home-v2 .menu-button-container button.menu-black,
@@ -367,15 +375,15 @@
   }
 
   html.is-home-screen .mobile-home-v2 .menu-button-container button.menu-black {
-    background-color: rgba(0, 0, 0, 0.62) !important;
+    background-color: rgba(0, 0, 0, 0.46) !important;
   }
 
   html.is-home-screen .mobile-home-v2 .menu-button-container button.menu-red {
-    background-color: rgba(140, 0, 18, 0.58) !important;
+    background-color: rgba(159, 0, 15, 0.44) !important;
   }
 
   html.is-home-screen .mobile-home-v2 .menu-button-container button.menu-gold {
-    background-color: rgba(196, 158, 28, 0.55) !important;
+    background-color: rgba(196, 158, 28, 0.4) !important;
     color: #ffffff !important;
   }
 
