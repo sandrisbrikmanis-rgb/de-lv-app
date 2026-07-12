@@ -280,14 +280,6 @@ const elements = {
   cardUnwantedBtn: document.getElementById("cardUnwantedBtn"),
   masteredListBtn: document.getElementById("masteredListBtn"),
   unwantedListBtn: document.getElementById("unwantedListBtn"),
-  pamatiBtn: document.getElementById("pamatiBtn"),
-  pamatiPanel: document.getElementById("pamatiPanel"),
-  pamatiCloseBtn: document.getElementById("pamatiCloseBtn"),
-  pamatiPrevBtn: document.getElementById("pamatiPrevBtn"),
-  pamatiNextBtn: document.getElementById("pamatiNextBtn"),
-  pamatiCounter: document.getElementById("pamatiCounter"),
-  pamatiContent: document.getElementById("pamatiContent"),
-  kurssBtn: document.getElementById("kurssBtn"),
   kurssPanel: document.getElementById("kurssPanel"),
   kurssBackBtn: document.getElementById("kurssBackBtn"),
   kurssCloseBtn: document.getElementById("kurssCloseBtn"),
@@ -297,11 +289,13 @@ const elements = {
   kurssTip: document.getElementById("kurssTip"),
   kurssPronunciationBtn: document.getElementById("kurssPronunciationBtn"),
   kurssArticlesBtn: document.getElementById("kurssArticlesBtn"),
+  kurssPronounsBtn: document.getElementById("kurssPronounsBtn"),
   kurssLessonsBtn: document.getElementById("kurssLessonsBtn"),
   kurssVerbBasicsBtn: document.getElementById("kurssVerbBasicsBtn"),
   kurssSentenceStructureBtn: document.getElementById("kurssSentenceStructureBtn"),
   kurssPronunciationLesson: document.getElementById("kurssPronunciationLesson"),
   kurssArticlesLesson: document.getElementById("kurssArticlesLesson"),
+  kurssPronounsLesson: document.getElementById("kurssPronounsLesson"),
   kurssLessonsMenu: document.getElementById("kurssLessonsMenu"),
   kurssLesson1Btn: document.getElementById("kurssLesson1Btn"),
   kurssLesson2Btn: document.getElementById("kurssLesson2Btn"),
@@ -1288,258 +1282,6 @@ function renderCourseLessonFromData(target, lesson, exerciseAttribute) {
   target.innerHTML = '<h3>' + escapeHtml(lesson.title) + '</h3>' + (intro ? '<p class="kurss-lesson-intro">' + escapeHtml(intro) + '</p>' : "") + sectionsHtml;
 }
 
-function pamatiVerbSlide(infinitiv, lv, rows) {
-  const body = rows.map(([person, lvPronoun, form, lvVerb]) =>
-    `<div class="pamati-row pamati-verb-row"><span class="pamati-term">${person}</span><span>${lvPronoun}</span><span class="pamati-form">${form}</span><span>${lvVerb}</span></div>`
-  ).join("");
-  return `<section class="pamati-slide pamati-verb-slide">
-    <h3>${infinitiv}</h3>
-    <p class="pamati-slide-subtitle">${lv} — tagadne (Präsens)</p>
-    <article class="pamati-card verb">
-      <header><h4>${infinitiv}</h4><span class="pamati-card-question">${lv}</span></header>
-      <div class="pamati-rows">
-        <div class="pamati-row pamati-verb-row pamati-row-header"><span>Persona</span><span>Latviski</span><span>Forma</span><span>Tulkojums</span></div>
-        ${body}
-      </div>
-    </article>
-    <div class="pamati-info"><span class="pamati-info-icon">i</span><div><p>Darbības vārdu locīšanā galvenā uzmanība — uz <strong>personas galotni</strong> (pēdējo zilbi).</p></div></div>
-  </section>`;
-}
-
-function buildPamatiSlides() {
-  return [
-  `<section class="pamati-slide pamati-articles">
-    <h3>Noteiktie artikuli</h3>
-    <p class="pamati-slide-subtitle">Der, die, das — trīs dzimtes un daudzskaitlis</p>
-    <div class="pamati-card-grid pamati-card-grid-4">
-      <article class="pamati-card der">
-        <header><h4>der</h4><span class="pamati-card-question">vīriešu dzimte</span></header>
-        <div class="pamati-rows">
-          <div class="pamati-row"><span class="pamati-term">der</span><span>vīriešu dzimte</span></div>
-        </div>
-        <div class="pamati-card-example"><strong>der Mann</strong> — vīrietis</div>
-      </article>
-      <article class="pamati-card die">
-        <header><h4>die</h4><span class="pamati-card-question">sieviešu dzimte</span></header>
-        <div class="pamati-rows">
-          <div class="pamati-row"><span class="pamati-term">die</span><span>sieviešu dzimte</span></div>
-        </div>
-        <div class="pamati-card-example"><strong>die Frau</strong> — sieviete</div>
-      </article>
-      <article class="pamati-card das">
-        <header><h4>das</h4><span class="pamati-card-question">nekatrā dzimte</span></header>
-        <div class="pamati-rows">
-          <div class="pamati-row"><span class="pamati-term">das</span><span>nekatrā dzimte</span></div>
-        </div>
-        <div class="pamati-card-example"><strong>das Kind</strong> — bērns</div>
-      </article>
-      <article class="pamati-card plural">
-        <header><h4>die</h4><span class="pamati-card-question">daudzskaitlis</span></header>
-        <div class="pamati-rows">
-          <div class="pamati-row"><span class="pamati-term">die</span><span>daudzskaitlis</span></div>
-        </div>
-        <div class="pamati-card-example"><strong>die Kinder</strong> — bērni</div>
-      </article>
-    </div>
-    <div class="pamati-info"><span class="pamati-info-icon">i</span><div><p>Vācu artikuls ne vienmēr sakrīt ar latviešu dzimti. Lietvārdus vislabāk mācīties <strong>kopā ar artikulu</strong>.</p></div></div>
-  </section>`,
-  `<section class="pamati-slide pamati-sentence">
-    <h3>Vienkārša teikuma secība</h3>
-    <p class="pamati-slide-subtitle">Darbības vārds parasti ir otrajā teikuma vietā</p>
-    <article class="pamati-card structure">
-      <header><h4>Teikuma formula</h4><span class="pamati-card-question">1. vieta → 2. vieta → pārējais</span></header>
-      <div class="pamati-rows">
-        <div class="pamati-row pamati-row-3 pamati-row-header"><span>1. vieta</span><span>2. vieta</span><span>Pārējais</span></div>
-        <div class="pamati-row pamati-row-3"><span class="pamati-term">Ich</span><span class="pamati-form">lerne</span><span>Deutsch.</span></div>
-        <div class="pamati-row pamati-row-3"><span class="pamati-term">Heute</span><span class="pamati-form">lerne</span><span>ich Deutsch.</span></div>
-        <div class="pamati-row pamati-row-3"><span class="pamati-term">Wir</span><span class="pamati-form">kommen</span><span>morgen.</span></div>
-      </div>
-    </article>
-    <h4 class="pamati-examples-title">Piemēri</h4>
-    <div class="pamati-examples">
-      <div class="pamati-example"><div class="pamati-example-labels"><span class="case-blue">Apgalvojums</span><span>Latviski</span></div><div class="pamati-example-line"><span>Du <span class="pamati-form">kommst</span>.</span><span>Tu nāc.</span></div></div>
-      <div class="pamati-example"><div class="pamati-example-labels"><span class="case-red">Jautājums</span><span>Latviski</span></div><div class="pamati-example-line"><span><span class="pamati-form">Kommst</span> du?</span><span>Vai tu nāc?</span></div></div>
-    </div>
-    <div class="pamati-note"><strong>Atceries!</strong><p>Ja teikuma sākumā ir laiks vai vieta (*Heute*, *morgen*), darbības vārds joprojām paliek <strong>otrajā vietā</strong>.</p></div>
-  </section>`,
-  `<section class="pamati-slide pamati-pronouns">
-    <h3>Vietniekvārdi</h3>
-    <p class="pamati-slide-subtitle">Nominativ, Akkusativ un Dativ — vietniekvārdu formas</p>
-    <div class="pamati-card-grid">
-      <article class="pamati-card nominativ">
-        <header><h4>Nominativ</h4><span class="pamati-card-question">kas?</span></header>
-        <div class="pamati-rows">
-          <div class="pamati-row"><span class="pamati-term">ich</span><span>es</span></div>
-          <div class="pamati-row"><span class="pamati-term">du</span><span>tu</span></div>
-          <div class="pamati-row"><span class="pamati-term">er</span><span>viņš</span></div>
-          <div class="pamati-row"><span class="pamati-term">sie</span><span>viņa</span></div>
-          <div class="pamati-row"><span class="pamati-term">es</span><span>tas</span></div>
-          <div class="pamati-row"><span class="pamati-term">wir</span><span>mēs</span></div>
-          <div class="pamati-row"><span class="pamati-term">ihr</span><span>jūs</span></div>
-          <div class="pamati-row"><span class="pamati-term">sie</span><span>viņi / viņas</span></div>
-          <div class="pamati-row"><span class="pamati-term">Sie</span><span>Jūs (pieklājības)</span></div>
-        </div>
-      </article>
-      <article class="pamati-card akkusativ">
-        <header><h4>Akkusativ</h4><span class="pamati-card-question">ko?</span></header>
-        <div class="pamati-rows">
-          <div class="pamati-row"><span class="pamati-term">mich</span><span>mani</span></div>
-          <div class="pamati-row"><span class="pamati-term">dich</span><span>tevi</span></div>
-          <div class="pamati-row"><span class="pamati-term">ihn</span><span>viņu (v.)</span></div>
-          <div class="pamati-row"><span class="pamati-term">sie</span><span>viņu (s.)</span></div>
-          <div class="pamati-row"><span class="pamati-term">es</span><span>to</span></div>
-          <div class="pamati-row"><span class="pamati-term">uns</span><span>mūs</span></div>
-          <div class="pamati-row"><span class="pamati-term">euch</span><span>jūs</span></div>
-          <div class="pamati-row"><span class="pamati-term">sie</span><span>viņus / viņas</span></div>
-          <div class="pamati-row"><span class="pamati-term">Sie</span><span>Jūs (pieklājības)</span></div>
-        </div>
-      </article>
-      <article class="pamati-card dativ">
-        <header><h4>Dativ</h4><span class="pamati-card-question">kam?</span></header>
-        <div class="pamati-rows">
-          <div class="pamati-row"><span class="pamati-term">mir</span><span>man</span></div>
-          <div class="pamati-row"><span class="pamati-term">dir</span><span>tev</span></div>
-          <div class="pamati-row"><span class="pamati-term">ihm</span><span>viņam</span></div>
-          <div class="pamati-row"><span class="pamati-term">ihr</span><span>viņai</span></div>
-          <div class="pamati-row"><span class="pamati-term">ihm</span><span>tam</span></div>
-          <div class="pamati-row"><span class="pamati-term">uns</span><span>mums</span></div>
-          <div class="pamati-row"><span class="pamati-term">euch</span><span>jums</span></div>
-          <div class="pamati-row"><span class="pamati-term">ihnen</span><span>viņiem / viņām</span></div>
-          <div class="pamati-row"><span class="pamati-term">Ihnen</span><span>Jums (pieklājības)</span></div>
-        </div>
-      </article>
-    </div>
-    <div class="pamati-info"><span class="pamati-info-icon">i</span><div><p>Vietniekvārda forma mainās atkarībā no teikuma nozīmes:</p><div class="pamati-case-lines"><span><span class="case-blue">Nominativ</span> — teikuma priekšmets (kas dara?)</span><span><span class="case-red">Akkusativ</span> — tiešais objekts (ko?)</span><span><span class="case-green">Dativ</span> — netiešais objekts (kam?)</span></div></div></div>
-    <h4 class="pamati-examples-title">Piemēri</h4>
-    <div class="pamati-examples">
-      <div class="pamati-example"><div class="pamati-example-labels"><span class="case-blue">Nominativ</span><span class="case-red">Akkusativ</span><span>Latviski</span></div><div class="pamati-example-line"><span>Ich sehe <span class="case-red">dich</span>.</span><span>Es tevi redzu.</span></div></div>
-      <div class="pamati-example"><div class="pamati-example-labels"><span class="case-blue">Nominativ</span><span class="case-red">Akkusativ</span><span>Latviski</span></div><div class="pamati-example-line"><span>Ich sehe <span class="case-red">ihn</span>.</span><span>Es viņu redzu.</span></div></div>
-      <div class="pamati-example"><div class="pamati-example-labels"><span class="case-blue">Nominativ</span><span class="case-red">Akkusativ</span><span>Latviski</span></div><div class="pamati-example-line"><span>Wir mögen <span class="case-red">euch</span>.</span><span>Mums jūs patīkat.</span></div></div>
-      <div class="pamati-example"><div class="pamati-example-labels"><span class="case-blue">Nominativ</span><span class="case-green">Dativ</span><span>Latviski</span></div><div class="pamati-example-line"><span>Ich helfe <span class="case-green">dir</span>.</span><span>Es tev palīdzu.</span></div></div>
-      <div class="pamati-example"><div class="pamati-example-labels"><span class="case-blue">Nominativ</span><span class="case-green">Dativ</span><span>Latviski</span></div><div class="pamati-example-line"><span>Ich gebe <span class="case-green">ihm</span> ein Buch.</span><span>Es dodu viņam grāmatu.</span></div></div>
-      <div class="pamati-example"><div class="pamati-example-labels"><span class="case-blue">Nominativ</span><span class="case-green">Dativ</span><span>Latviski</span></div><div class="pamati-example-line"><span>Wir danken <span class="case-green">euch</span>.</span><span>Mēs jums pateicamies.</span></div></div>
-    </div>
-    <div class="pamati-note"><strong>Atceries!</strong><p>Nominativ vienmēr ir teikuma priekšmets, bet Akkusativ un Dativ — objekti. Skaties uz darbības vārdu un jautā: <span class="case-red">ko?</span> vai <span class="case-green">kam?</span></p></div>
-  </section>`,
-  pamatiVerbSlide("kommen", "nākt", [
-    ["Ich", "es", "komme", "nāku"],
-    ["Du", "tu", "kommst", "nāc"],
-    ["Er", "viņš", "kommt", "nāk"],
-    ["Sie", "viņa", "kommt", "nāk"],
-    ["Es", "tas", "kommt", "nāk"],
-    ["Wir", "mēs", "kommen", "nākam"],
-    ["Ihr", "jūs", "kommt", "nākat"],
-    ["Sie", "viņi", "kommen", "nāk"],
-    ["Sie", "Jūs", "kommen", "nākat"]
-  ]),
-  pamatiVerbSlide("gehen", "iet", [
-    ["Ich", "es", "gehe", "eju"],
-    ["Du", "tu", "gehst", "ej"],
-    ["Er", "viņš", "geht", "iet"],
-    ["Sie", "viņa", "geht", "iet"],
-    ["Es", "tas", "geht", "iet"],
-    ["Wir", "mēs", "gehen", "ejam"],
-    ["Ihr", "jūs", "geht", "ejat"],
-    ["Sie", "viņi", "gehen", "iet"],
-    ["Sie", "Jūs", "gehen", "ejat"]
-  ]),
-  pamatiVerbSlide("stehen", "stāvēt", [
-    ["Ich", "es", "stehe", "stāvu"],
-    ["Du", "tu", "stehst", "stāvi"],
-    ["Er", "viņš", "steht", "stāv"],
-    ["Sie", "viņa", "steht", "stāv"],
-    ["Es", "tas", "steht", "stāv"],
-    ["Wir", "mēs", "stehen", "stāvam"],
-    ["Ihr", "jūs", "steht", "stāvat"],
-    ["Sie", "viņi", "stehen", "stāv"],
-    ["Sie", "Jūs", "stehen", "stāvat"]
-  ]),
-  pamatiVerbSlide("singen", "dziedāt", [
-    ["Ich", "es", "singe", "dziedu"],
-    ["Du", "tu", "singst", "dziedi"],
-    ["Er", "viņš", "singt", "dzied"],
-    ["Sie", "viņa", "singt", "dzied"],
-    ["Es", "tas", "singt", "dzied"],
-    ["Wir", "mēs", "singen", "dziedam"],
-    ["Ihr", "jūs", "singt", "dziedat"],
-    ["Sie", "viņi", "singen", "dzied"],
-    ["Sie", "Jūs", "singen", "dziedat"]
-  ]),
-  pamatiVerbSlide("arbeiten", "strādāt", [
-    ["Ich", "es", "arbeite", "strādāju"],
-    ["Du", "tu", "arbeitest", "strādā"],
-    ["Er", "viņš", "arbeitet", "strādā"],
-    ["Sie", "viņa", "arbeitet", "strādā"],
-    ["Es", "tas", "arbeitet", "strādā"],
-    ["Wir", "mēs", "arbeiten", "strādājam"],
-    ["Ihr", "jūs", "arbeitet", "strādājat"],
-    ["Sie", "viņi", "arbeiten", "strādā"],
-    ["Sie", "Jūs", "arbeiten", "strādājat"]
-  ]),
-  pamatiVerbSlide("rechnen", "rēķināt", [
-    ["Ich", "es", "rechne", "rēķinu"],
-    ["Du", "tu", "rechnest", "rēķini"],
-    ["Er", "viņš", "rechnet", "rēķina"],
-    ["Sie", "viņa", "rechnet", "rēķina"],
-    ["Es", "tas", "rechnet", "rēķina"],
-    ["Wir", "mēs", "rechnen", "rēķinām"],
-    ["Ihr", "jūs", "rechnet", "rēķināt"],
-    ["Sie", "viņi", "rechnen", "rēķina"],
-    ["Sie", "Jūs", "rechnen", "rēķināt"]
-  ]),
-  pamatiVerbSlide("tun", "darīt", [
-    ["Ich", "es", "tue", "daru"],
-    ["Du", "tu", "tust", "dari"],
-    ["Er", "viņš", "tut", "dara"],
-    ["Sie", "viņa", "tut", "dara"],
-    ["Es", "tas", "tut", "dara"],
-    ["Wir", "mēs", "tun", "darām"],
-    ["Ihr", "jūs", "tut", "darāt"],
-    ["Sie", "viņi", "tun", "dara"],
-    ["Sie", "Jūs", "tun", "darāt"]
-  ])
-  ];
-}
-
-let pamatiSlides = null;
-
-function getPamatiSlides() {
-  if (!pamatiSlides) {
-    pamatiSlides = buildPamatiSlides();
-  }
-  return pamatiSlides;
-}
-
-let pamatiIndex = 0;
-
-function renderPamati() {
-  if (!elements.pamatiContent || !elements.pamatiCounter) return;
-  const slides = getPamatiSlides();
-  elements.pamatiContent.innerHTML = slides[pamatiIndex];
-  elements.pamatiCounter.textContent = `${pamatiIndex + 1} / ${slides.length}`;
-}
-
-function openPamati() {
-  pamatiIndex = 0;
-  renderPamati();
-  elements.pamatiPanel.hidden = false;
-}
-
-function closePamati() {
-  elements.pamatiPanel.hidden = true;
-}
-
-function previousPamati() {
-  const slides = getPamatiSlides();
-  pamatiIndex = (pamatiIndex - 1 + slides.length) % slides.length;
-  renderPamati();
-}
-
-function nextPamati() {
-  const slides = getPamatiSlides();
-  pamatiIndex = (pamatiIndex + 1) % slides.length;
-  renderPamati();
-}
 function scrollKurssPanelToTop() {
   elements.kurssPanel?.querySelector(".kurss-panel")?.scrollTo({ top: 0, behavior: "auto" });
 }
@@ -1551,6 +1293,7 @@ function hideAllKurssPanels() {
     "kurssPronunciationMenu",
     "kurssLessonsMenu",
     "kurssArticlesLesson",
+    "kurssPronounsLesson",
     "kurssPronunciationLesson",
     "kurssConsonantsLesson",
     "kurssVerbBasicsLesson",
@@ -1575,6 +1318,7 @@ function initStaticCourseLessons() {
   const htmlMap = window.COURSE_LESSON_HTML || {};
   [
     "kurssArticlesLesson",
+    "kurssPronounsLesson",
     "kurssPronunciationLesson",
     "kurssConsonantsLesson",
     "kurssVerbBasicsLesson",
@@ -1607,6 +1351,14 @@ function openArticlesLesson() {
   elements.kurssTitle.textContent = "Artikuli";
   elements.kurssSubtitle.textContent = "Der, die, das un lietojuma pamati.";
   elements.kurssArticlesLesson.hidden = false;
+  scrollKurssPanelToTop();
+}
+
+function openPronounsLesson() {
+  hideAllKurssPanels();
+  elements.kurssTitle.textContent = "Vietniekvārdi";
+  elements.kurssSubtitle.textContent = "Nominativ, Akkusativ un Dativ — vietniekvārdu formas.";
+  elements.kurssPronounsLesson.hidden = false;
   scrollKurssPanelToTop();
 }
 
@@ -2265,7 +2017,7 @@ function handleKurssBack() {
     return;
   }
 
-  if (!elements.kurssArticlesLesson.hidden || !elements.kurssPronunciationMenu.hidden || !elements.kurssLessonsMenu.hidden || !elements.kurssVerbBasicsLesson.hidden || !elements.kurssSentenceStructureLesson.hidden) {
+  if (!elements.kurssArticlesLesson.hidden || !elements.kurssPronounsLesson.hidden || !elements.kurssPronunciationMenu.hidden || !elements.kurssLessonsMenu.hidden || !elements.kurssVerbBasicsLesson.hidden || !elements.kurssSentenceStructureLesson.hidden) {
     showKurssMenu();
     return;
   }
@@ -5643,7 +5395,6 @@ function updateDetailScreenHeader(itemKey) {
 
 function openGroupDetailScreen(itemKey) {
   closeKurss();
-  closePamati();
   state.navScreen = "detail";
   updateDetailScreenHeader(itemKey);
   updateNavScreen();
@@ -5651,7 +5402,6 @@ function openGroupDetailScreen(itemKey) {
 
 function goToHomeScreen() {
   closeKurss();
-  closePamati();
   state.navScreen = "home";
   updateNavScreen();
   renderMainMenuButtons();
@@ -5659,8 +5409,7 @@ function goToHomeScreen() {
 
 function handleMainMenuSelection(item) {
   if (item.type === "kurss") {
-    closePamati();
-    openKurss();
+      openKurss();
     return;
   }
   closeKurss();
@@ -6727,11 +6476,11 @@ if (elements.navBackBtn) {
 }
 
 try {
-elements.kurssBtn.addEventListener("click", openKurss);
 elements.kurssBackBtn.addEventListener("click", handleKurssBack);
 elements.kurssCloseBtn.addEventListener("click", closeKurss);
 elements.kurssPronunciationBtn.addEventListener("click", openPronunciationLesson);
 elements.kurssArticlesBtn.addEventListener("click", openArticlesLesson);
+elements.kurssPronounsBtn.addEventListener("click", openPronounsLesson);
 elements.kurssLessonsBtn.addEventListener("click", openLessonsMenu);
 courseLessonIds.forEach((lessonId) => {
   const button = elements[`${lessonId}Btn`];
@@ -6750,13 +6499,6 @@ elements.kurssVowelsLessonBtn.addEventListener("click", openVowelsLesson);
 elements.kurssConsonantsLessonBtn.addEventListener("click", openConsonantsLesson);
 elements.kurssPanel.addEventListener("click", (event) => {
   if (event.target === elements.kurssPanel) closeKurss();
-});
-elements.pamatiBtn.addEventListener("click", openPamati);
-elements.pamatiCloseBtn.addEventListener("click", closePamati);
-elements.pamatiPrevBtn.addEventListener("click", previousPamati);
-elements.pamatiNextBtn.addEventListener("click", nextPamati);
-elements.pamatiPanel.addEventListener("click", (event) => {
-  if (event.target === elements.pamatiPanel) closePamati();
 });
 document.querySelector(".card")?.addEventListener("click", (event) => {
   if (event.target.closest("#sessionCompleteOverlay, .session-complete-overlay, #groupCompleteOverlay, .group-complete-overlay")) {
