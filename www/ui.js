@@ -6559,6 +6559,28 @@ initStaticCourseLessons();
 renderMainMenuButtons();
 updateNavScreen();
 
+const cardCornerControlsDesktop = window.matchMedia("(min-width: 769px)");
+
+function syncCardCornerControlsPlacement() {
+  const controls = document.querySelector(".card-corner-controls");
+  const topbar = document.querySelector(".topbar");
+  const card = document.querySelector("article.card");
+  if (!controls || !topbar || !card) return;
+
+  const useTopbar = cardCornerControlsDesktop.matches;
+  const target = useTopbar ? topbar : card;
+  const anchor = useTopbar
+    ? topbar.querySelector(".top-quick-toggle-row")
+    : card.querySelector(".card-inner");
+  if (!anchor) return;
+
+  if (controls.parentElement !== target || controls.nextElementSibling !== anchor) {
+    target.insertBefore(controls, anchor);
+  }
+}
+
+syncCardCornerControlsPlacement();
+
 let lastMainMenuMobile = window.matchMedia("(max-width: 768px)").matches;
 window.addEventListener("resize", () => {
   const isMobile = window.matchMedia("(max-width: 768px)").matches;
@@ -6566,6 +6588,7 @@ window.addEventListener("resize", () => {
     lastMainMenuMobile = isMobile;
     renderMainMenuButtons();
   }
+  syncCardCornerControlsPlacement();
   updateNavScreen();
 });
 
