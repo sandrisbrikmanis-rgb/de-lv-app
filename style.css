@@ -16,6 +16,25 @@
       --bad: #c43f3f;
       --soft: #eef4ff;
       --shadow: 0 18px 45px rgba(22, 32, 51, 0.11);
+
+      /* Vācijas karoga palete – vienīgais avots mobilajai līmeņu izvēlnei */
+      --de-black: #000000;
+      --de-red: #9F000F;
+      --de-gold: #EAC117;
+      --de-black-overlay: rgba(0, 0, 0, 0.74);
+      --de-black-overlay-hover: rgba(0, 0, 0, 0.84);
+      --de-red-overlay: rgba(159, 0, 15, 0.74);
+      --de-red-overlay-hover: rgba(159, 0, 15, 0.84);
+      --de-gold-overlay: rgba(234, 193, 23, 0.78);
+      --de-gold-overlay-hover: rgba(234, 193, 23, 0.88);
+      --de-text-on-dark: #ffffff;
+      --de-text-on-gold: #000000;
+      --de-text-shadow-dark: 1px 1px 3px rgba(0, 0, 0, 0.8);
+      --de-header-ink: #000000;
+      --de-header-muted: rgba(0, 0, 0, 0.78);
+      --de-eagle-opacity: 0.16;
+      --de-panel-border: rgba(255, 255, 255, 0.22);
+      --de-panel-border-gold: rgba(0, 0, 0, 0.18);
     }
 
     * {
@@ -7632,18 +7651,18 @@ body.is-home-screen .home-app-shell {
 }
 
 .home-menu-groups button.main-menu-btn.menu-black {
-  background: rgba(0, 0, 0, 0.45) !important;
-  color: #ffffff !important;
+  background: var(--de-black-overlay) !important;
+  color: var(--de-text-on-dark) !important;
 }
 
 .home-menu-groups button.main-menu-btn.menu-red {
-  background: rgba(220, 0, 0, 0.35) !important;
-  color: #ffffff !important;
+  background: var(--de-red-overlay) !important;
+  color: var(--de-text-on-dark) !important;
 }
 
 .home-menu-groups button.main-menu-btn.menu-gold {
-  background: rgba(255, 206, 0, 0.35) !important;
-  color: #000000 !important;
+  background: var(--de-gold-overlay) !important;
+  color: var(--de-text-on-gold) !important;
 }
 
 .main-menu-btn-inner {
@@ -7673,12 +7692,12 @@ body.is-home-screen .home-app-shell {
 .home-menu-groups button.main-menu-btn.menu-black .main-menu-btn-count,
 .home-menu-groups button.main-menu-btn.menu-red .main-menu-btn-label,
 .home-menu-groups button.main-menu-btn.menu-red .main-menu-btn-count {
-  color: #ffffff !important;
+  color: var(--de-text-on-dark) !important;
 }
 
 .home-menu-groups button.main-menu-btn.menu-gold .main-menu-btn-label,
 .home-menu-groups button.main-menu-btn.menu-gold .main-menu-btn-count {
-  color: #000000 !important;
+  color: var(--de-text-on-gold) !important;
 }
 
 .group-detail-screen {
@@ -7724,13 +7743,12 @@ body.is-home-screen .home-app-shell {
 }
 
 @media (max-width: 768px) {
-  /* Mobilais dizains – dzeltens fons, košas pogas */
+  /* Mobilā līmeņu izvēlne – centralizēta Vācijas palete + ērglis fonā */
   html.is-home-screen,
   body.is-home-screen,
   body.is-home-screen main.home-main,
-  body.is-home-screen .home-app-shell,
-  body.is-home-screen .home-menu-screen {
-    background-color: #EAC117 !important;
+  body.is-home-screen .home-app-shell {
+    background-color: var(--de-gold) !important;
     background-image: none !important;
     color-scheme: light only !important;
   }
@@ -7757,10 +7775,31 @@ body.is-home-screen .home-app-shell {
     border: none;
     border-radius: 0;
     box-shadow: none;
+    background: transparent !important;
+    background-image: none !important;
+    color-scheme: light only !important;
   }
 
   .home-menu-backdrop {
-    display: none !important;
+    display: block !important;
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+    background-color: var(--de-gold);
+    overflow: hidden;
+  }
+
+  .home-menu-backdrop::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("./public/german-eagle.svg");
+    background-position: center 52%;
+    background-size: min(72vw, 340px) auto;
+    background-repeat: no-repeat;
+    filter: brightness(0);
+    opacity: var(--de-eagle-opacity);
   }
 
   .home-menu-header {
@@ -7770,13 +7809,13 @@ body.is-home-screen .home-app-shell {
   }
 
   .home-menu-header h1 {
-    color: #000000 !important;
+    color: var(--de-header-ink) !important;
     font-size: clamp(1.25rem, 4.2vw, 1.6rem);
     text-shadow: none !important;
   }
 
   .home-menu-header .subtitle {
-    color: #1a1a1a !important;
+    color: var(--de-header-muted) !important;
     font-size: 0.82rem;
     margin-top: 4px;
     text-shadow: none !important;
@@ -7804,11 +7843,11 @@ body.is-home-screen .home-app-shell {
   .menu-button-container button {
     width: 100% !important;
     padding: 10px 24px !important;
-    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    border: 1px solid var(--de-panel-border) !important;
     border-radius: 0 !important;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4) !important;
-    backdrop-filter: blur(15px) !important;
-    -webkit-backdrop-filter: blur(15px) !important;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
     display: flex !important;
     justify-content: space-between !important;
     align-items: center !important;
@@ -7821,74 +7860,62 @@ body.is-home-screen .home-app-shell {
     background-image: none !important;
   }
 
-  .home-menu-groups .menu-button-container button:hover,
-  .home-menu-groups .menu-button-container button:active {
-    transform: none !important;
+  .menu-button-container button.menu-black {
+    background-color: var(--de-black-overlay) !important;
+    color: var(--de-text-on-dark) !important;
+  }
+
+  .menu-button-container button.menu-red {
+    background-color: var(--de-red-overlay) !important;
+    color: var(--de-text-on-dark) !important;
+  }
+
+  .menu-button-container button.menu-gold {
+    background-color: var(--de-gold-overlay) !important;
+    color: var(--de-text-on-gold) !important;
+    border-color: var(--de-panel-border-gold) !important;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.22) !important;
+  }
+
+  .home-menu-groups .menu-button-container button.menu-black:hover,
+  .home-menu-groups .menu-button-container button.menu-black:active {
+    background-color: var(--de-black-overlay-hover) !important;
     border-color: rgba(255, 255, 255, 0.32) !important;
     box-shadow: 0 10px 28px rgba(0, 0, 0, 0.48) !important;
+  }
+
+  .home-menu-groups .menu-button-container button.menu-red:hover,
+  .home-menu-groups .menu-button-container button.menu-red:active {
+    background-color: var(--de-red-overlay-hover) !important;
+    border-color: rgba(255, 255, 255, 0.32) !important;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.48) !important;
+  }
+
+  .home-menu-groups .menu-button-container button.menu-gold:hover,
+  .home-menu-groups .menu-button-container button.menu-gold:active {
+    background-color: var(--de-gold-overlay-hover) !important;
+    border-color: rgba(0, 0, 0, 0.28) !important;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.28) !important;
   }
 
   .menu-button-container button span,
   .menu-button-container button div {
     transform: skewY(4deg) !important;
-    color: #ffffff !important;
     font-weight: bold !important;
     font-size: 1rem !important;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8) !important;
   }
 
-  /* Melnās pogas (1–3) – pilns #000000 */
-  .menu-button-container:nth-child(1) button,
-  .menu-button-container:nth-child(2) button,
-  .menu-button-container:nth-child(3) button {
-    background-color: #000000 !important;
-    background-image: none !important;
-    color: #ffffff !important;
+  .menu-button-container button.menu-black span,
+  .menu-button-container button.menu-black div,
+  .menu-button-container button.menu-red span,
+  .menu-button-container button.menu-red div {
+    color: var(--de-text-on-dark) !important;
+    text-shadow: var(--de-text-shadow-dark) !important;
   }
 
-  /* Sarkanās pogas (4–6) – pilns #9F000F */
-  .menu-button-container:nth-child(4) button,
-  .menu-button-container:nth-child(5) button,
-  .menu-button-container:nth-child(6) button {
-    background-color: #9F000F !important;
-    background-image: none !important;
-    color: #ffffff !important;
-  }
-
-  /* Baltais stikls (7–9) – izceļas uz dzeltenā fona */
-  .menu-button-container:nth-child(7) button,
-  .menu-button-container:nth-child(8) button,
-  .menu-button-container:nth-child(9) button {
-    background-color: rgba(255, 255, 255, 0.85) !important;
-    background-image: none !important;
-    border: 1px solid rgba(0, 0, 0, 0.1) !important;
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15) !important;
-    color: #000000 !important;
-  }
-
-  .menu-button-container:nth-child(1) button span,
-  .menu-button-container:nth-child(1) button div,
-  .menu-button-container:nth-child(2) button span,
-  .menu-button-container:nth-child(2) button div,
-  .menu-button-container:nth-child(3) button span,
-  .menu-button-container:nth-child(3) button div,
-  .menu-button-container:nth-child(4) button span,
-  .menu-button-container:nth-child(4) button div,
-  .menu-button-container:nth-child(5) button span,
-  .menu-button-container:nth-child(5) button div,
-  .menu-button-container:nth-child(6) button span,
-  .menu-button-container:nth-child(6) button div {
-    color: #ffffff !important;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8) !important;
-  }
-
-  .menu-button-container:nth-child(7) button span,
-  .menu-button-container:nth-child(7) button div,
-  .menu-button-container:nth-child(8) button span,
-  .menu-button-container:nth-child(8) button div,
-  .menu-button-container:nth-child(9) button span,
-  .menu-button-container:nth-child(9) button div {
-    color: #000000 !important;
+  .menu-button-container button.menu-gold span,
+  .menu-button-container button.menu-gold div {
+    color: var(--de-text-on-gold) !important;
     text-shadow: none !important;
   }
 
@@ -7900,72 +7927,55 @@ body.is-home-screen .home-app-shell {
   }
 }
 
-/* Mobilā sākuma ekrāna krāsu aizsardzība pret sistēmas Dark Mode */
+/* Sistēmas tumšais režīms nedrīkst pārrakstīt mobilās izvēlnes krāsas */
 @media (max-width: 768px) and (prefers-color-scheme: dark) {
   html.is-home-screen,
   body.is-home-screen,
   body.is-home-screen main.home-main,
   body.is-home-screen .home-app-shell,
   body.is-home-screen .home-menu-screen {
-    background-color: #EAC117 !important;
+    background-color: var(--de-gold) !important;
     background-image: none !important;
     color-scheme: light only !important;
   }
 
+  body.is-home-screen .home-menu-backdrop {
+    background-color: var(--de-gold) !important;
+  }
+
   body.is-home-screen .home-menu-header h1 {
-    color: #000000 !important;
+    color: var(--de-header-ink) !important;
   }
 
   body.is-home-screen .home-menu-header .subtitle {
-    color: #1a1a1a !important;
+    color: var(--de-header-muted) !important;
   }
 
-  body.is-home-screen .menu-button-container:nth-child(1) button,
-  body.is-home-screen .menu-button-container:nth-child(2) button,
-  body.is-home-screen .menu-button-container:nth-child(3) button {
-    background-color: #000000 !important;
-    background-image: none !important;
-    color: #ffffff !important;
+  body.is-home-screen .menu-button-container button.menu-black {
+    background-color: var(--de-black-overlay) !important;
+    color: var(--de-text-on-dark) !important;
   }
 
-  body.is-home-screen .menu-button-container:nth-child(4) button,
-  body.is-home-screen .menu-button-container:nth-child(5) button,
-  body.is-home-screen .menu-button-container:nth-child(6) button {
-    background-color: #9F000F !important;
-    background-image: none !important;
-    color: #ffffff !important;
+  body.is-home-screen .menu-button-container button.menu-red {
+    background-color: var(--de-red-overlay) !important;
+    color: var(--de-text-on-dark) !important;
   }
 
-  body.is-home-screen .menu-button-container:nth-child(7) button,
-  body.is-home-screen .menu-button-container:nth-child(8) button,
-  body.is-home-screen .menu-button-container:nth-child(9) button {
-    background-color: rgba(255, 255, 255, 0.85) !important;
-    background-image: none !important;
-    color: #000000 !important;
-    border: 1px solid rgba(0, 0, 0, 0.1) !important;
+  body.is-home-screen .menu-button-container button.menu-gold {
+    background-color: var(--de-gold-overlay) !important;
+    color: var(--de-text-on-gold) !important;
+    border-color: var(--de-panel-border-gold) !important;
   }
 
-  body.is-home-screen .menu-button-container:nth-child(1) button span,
-  body.is-home-screen .menu-button-container:nth-child(1) button div,
-  body.is-home-screen .menu-button-container:nth-child(2) button span,
-  body.is-home-screen .menu-button-container:nth-child(2) button div,
-  body.is-home-screen .menu-button-container:nth-child(3) button span,
-  body.is-home-screen .menu-button-container:nth-child(3) button div,
-  body.is-home-screen .menu-button-container:nth-child(4) button span,
-  body.is-home-screen .menu-button-container:nth-child(4) button div,
-  body.is-home-screen .menu-button-container:nth-child(5) button span,
-  body.is-home-screen .menu-button-container:nth-child(5) button div,
-  body.is-home-screen .menu-button-container:nth-child(6) button span,
-  body.is-home-screen .menu-button-container:nth-child(6) button div {
-    color: #ffffff !important;
+  body.is-home-screen .menu-button-container button.menu-black span,
+  body.is-home-screen .menu-button-container button.menu-black div,
+  body.is-home-screen .menu-button-container button.menu-red span,
+  body.is-home-screen .menu-button-container button.menu-red div {
+    color: var(--de-text-on-dark) !important;
   }
 
-  body.is-home-screen .menu-button-container:nth-child(7) button span,
-  body.is-home-screen .menu-button-container:nth-child(7) button div,
-  body.is-home-screen .menu-button-container:nth-child(8) button span,
-  body.is-home-screen .menu-button-container:nth-child(8) button div,
-  body.is-home-screen .menu-button-container:nth-child(9) button span,
-  body.is-home-screen .menu-button-container:nth-child(9) button div {
-    color: #000000 !important;
+  body.is-home-screen .menu-button-container button.menu-gold span,
+  body.is-home-screen .menu-button-container button.menu-gold div {
+    color: var(--de-text-on-gold) !important;
   }
 }

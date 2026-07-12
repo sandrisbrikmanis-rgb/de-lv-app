@@ -5557,18 +5557,26 @@ function handleMainMenuSelection(item) {
   selectGroup(item.key);
 }
 
+function mainMenuColorClass(index) {
+  if (index < 3) return "menu-black";
+  if (index < 6) return "menu-red";
+  return "menu-gold";
+}
+
 function renderMainMenuButtons() {
   if (!elements.mainMenuButtons) return;
   elements.mainMenuButtons.innerHTML = "";
-  const colorClasses = ["menu-black", "menu-red", "menu-gold"];
   const isMobile = window.matchMedia("(max-width: 768px)").matches;
 
   MAIN_MENU_ITEMS.forEach((item, index) => {
+    const colorClass = mainMenuColorClass(index);
+
     if (isMobile) {
       const container = document.createElement("div");
       container.className = "menu-button-container";
       const button = document.createElement("button");
       button.type = "button";
+      button.className = colorClass;
 
       const label = document.createElement("span");
       label.textContent = item.label;
@@ -5589,7 +5597,7 @@ function renderMainMenuButtons() {
 
     const button = document.createElement("button");
     button.type = "button";
-    button.className = `main-menu-btn ${colorClasses[index % colorClasses.length]}`;
+    button.className = `main-menu-btn ${colorClass}`;
     const inner = document.createElement("span");
     inner.className = "main-menu-btn-inner";
     const label = document.createElement("span");
