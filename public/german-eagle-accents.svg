@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 444" role="img" aria-label="Bundesadler accents">
+  <!-- Red accent mask: beak, tongue, talons only -->
+  <g fill="#ffffff">
+    <!-- Hooked beak -->
+    <path d="M110 56
+             L88 56
+             C74 52 60 56 50 66
+             C42 74 40 84 46 90
+             L58 92
+             C62 98 70 100 78 96
+             L96 88
+             C104 82 108 72 110 64
+             Z"/>
+
+    <!-- Tongue -->
+    <path d="M72 78 C68 82 66 88 70 92 L78 90 C80 86 78 80 74 78 Z"/>
+
+    <!-- Left talons -->
+    <path d="M156 296 L140 318 L126 334 L114 346 L106 352 L100 346 L112 332 L126 314 L140 298 Z"/>
+    <path d="M132 322 L120 338 L108 350 L102 356 L96 350 L108 336 L122 320 Z"/>
+    <path d="M142 328 L130 344 L118 356 L112 362 L106 356 L118 342 L132 326 Z"/>
+
+    <!-- Right talons -->
+    <path d="M196 296 L212 318 L226 334 L238 346 L246 352 L252 346 L240 332 L226 314 L212 298 Z"/>
+    <path d="M220 322 L232 338 L244 350 L250 356 L256 350 L244 336 L230 320 Z"/>
+    <path d="M210 328 L222 344 L234 356 L240 362 L246 356 L234 342 L220 326 Z"/>
+  </g>
+</svg>

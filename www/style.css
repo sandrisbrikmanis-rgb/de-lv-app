@@ -32,7 +32,8 @@
       --de-text-shadow-dark: 0 1px 2px rgba(0, 0, 0, 0.45);
       --de-header-ink: #000000;
       --de-header-muted: rgba(0, 0, 0, 0.68);
-      --de-eagle-opacity: 0.22;
+      --de-eagle-opacity: 0.17;
+      --de-eagle-accent-opacity: 0.24;
       --de-panel-border: rgba(255, 255, 255, 0.2);
       --de-panel-border-gold: rgba(0, 0, 0, 0.16);
       --de-mobile-panel-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
@@ -7868,10 +7869,10 @@ body.is-home-screen .home-app-shell {
   .mobile-level-menu-eagle {
     display: block;
     position: absolute;
-    left: 50%;
-    top: 51%;
-    width: min(86vw, 320px);
-    height: min(108vw, 404px);
+    left: 52%;
+    top: 46%;
+    width: min(58vw, 210px);
+    height: min(73vw, 265px);
     aspect-ratio: 352 / 444;
     transform: translate(-50%, -50%) translateZ(0);
     -webkit-transform: translate(-50%, -50%) translateZ(0);
@@ -7880,8 +7881,8 @@ body.is-home-screen .home-app-shell {
     background-image: none !important;
     mask-image: url("./public/german-eagle.svg");
     -webkit-mask-image: url("./public/german-eagle.svg");
-    mask-position: center top;
-    -webkit-mask-position: center top;
+    mask-position: center center;
+    -webkit-mask-position: center center;
     mask-size: contain;
     -webkit-mask-size: contain;
     mask-repeat: no-repeat;
@@ -7889,9 +7890,28 @@ body.is-home-screen .home-app-shell {
     opacity: var(--de-eagle-opacity);
     color-scheme: light !important;
     forced-color-adjust: none !important;
-    filter: drop-shadow(0 0 0.6px rgba(0, 0, 0, 0.14)) !important;
-    -webkit-filter: drop-shadow(0 0 0.6px rgba(0, 0, 0, 0.14)) !important;
+    filter: none !important;
+    -webkit-filter: none !important;
     mix-blend-mode: normal !important;
+  }
+
+  .mobile-level-menu-eagle::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background-color: var(--de-red) !important;
+    mask-image: url("./public/german-eagle-accents.svg");
+    -webkit-mask-image: url("./public/german-eagle-accents.svg");
+    mask-position: center center;
+    -webkit-mask-position: center center;
+    mask-size: contain;
+    -webkit-mask-size: contain;
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    opacity: var(--de-eagle-accent-opacity);
+    filter: none !important;
+    -webkit-filter: none !important;
   }
 
   .mobile-level-menu-content {
@@ -8156,8 +8176,15 @@ body.is-home-screen .home-app-shell {
   html.is-home-screen .mobile-level-menu-eagle {
     background-color: #000000 !important;
     opacity: var(--de-eagle-opacity) !important;
-    filter: drop-shadow(0 0 0.6px rgba(0, 0, 0, 0.14)) !important;
-    -webkit-filter: drop-shadow(0 0 0.6px rgba(0, 0, 0, 0.14)) !important;
+    filter: none !important;
+    -webkit-filter: none !important;
+  }
+
+  html.is-home-screen .mobile-level-menu-eagle::after {
+    background-color: var(--de-red) !important;
+    opacity: var(--de-eagle-accent-opacity) !important;
+    filter: none !important;
+    -webkit-filter: none !important;
   }
 
   html.is-home-screen .home-menu-header h1 {

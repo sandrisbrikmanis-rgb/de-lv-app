@@ -1,92 +1,76 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 444" role="img" aria-label="Bundesadler">
+  <!-- Black silhouette for CSS mask: white = visible -->
   <g fill="#ffffff">
-    <!-- Hooked beak and head (heraldic dexter / viewer left) -->
-    <path d="M180 28
-             C168 16 150 12 134 18
-             C118 24 108 36 102 50
-             L88 56
-             C74 52 60 56 50 66
-             C40 76 38 90 46 98
-             L60 102
-             C64 110 74 114 84 110
-             L100 102
-             C114 92 130 84 146 82
-             C160 80 170 72 174 60
-             C178 48 180 38 180 28Z"/>
+    <!-- Head and neck -->
+    <path d="M176 36
+             C164 26 148 22 134 28
+             C122 34 114 44 110 56
+             L108 68
+             C118 72 128 78 138 80
+             C150 82 162 78 170 68
+             C176 58 178 46 176 36Z"/>
 
-    <!-- Central body column -->
-    <path d="M146 82
-             L210 82
-             C214 88 216 98 214 108
-             L210 156
-             C206 204 204 244 202 276
-             L200 298
-             C196 312 188 320 176 324
-             C164 320 156 312 152 298
-             L150 276
-             C148 244 146 204 142 156
-             L138 108
-             C136 98 138 88 146 82Z"/>
+    <!-- Central body -->
+    <path d="M150 80
+             L202 80
+             C206 86 208 96 206 108
+             L202 150
+             C198 196 196 236 194 268
+             L192 288
+             C188 300 182 306 176 308
+             C170 306 164 300 160 288
+             L158 268
+             C156 236 154 196 150 150
+             L146 108
+             C144 96 146 86 150 80Z"/>
 
-    <!-- Left wing scroll (outer top hook) -->
-    <path d="M142 82
-             C96 74 48 82 20 108
-             C4 122 0 142 6 158
-             C12 172 26 178 40 172
-             C56 164 68 148 76 130
-             C88 106 110 90 134 84
-             C138 82 140 82 142 82Z"/>
+    <!-- Left wing scroll -->
+    <path d="M148 80
+             C108 74 64 80 34 102
+             C16 114 8 132 12 148
+             C16 162 30 168 44 162
+             C60 152 72 136 80 118
+             C92 98 112 86 132 82
+             C140 80 146 80 148 80Z"/>
 
-    <!-- Right wing scroll (outer top hook) -->
-    <path d="M210 82
-             C256 74 304 82 332 108
-             C348 122 352 142 346 158
-             C340 172 326 178 312 172
-             C296 164 284 148 276 130
-             C264 106 242 90 218 84
-             C214 82 212 82 210 82Z"/>
+    <!-- Right wing scroll -->
+    <path d="M204 80
+             C244 74 288 80 318 102
+             C336 114 344 132 340 148
+             C336 162 322 168 308 162
+             C292 152 280 136 272 118
+             C260 98 240 86 220 82
+             C212 80 206 80 204 80Z"/>
 
-    <!-- Left wing: seven vertical remiges -->
-    <rect x="18" y="118" width="12" height="168" rx="0.5"/>
-    <rect x="36" y="110" width="12" height="176" rx="0.5"/>
-    <rect x="54" y="104" width="12" height="182" rx="0.5"/>
-    <rect x="72" y="98" width="12" height="188" rx="0.5"/>
-    <rect x="90" y="94" width="12" height="192" rx="0.5"/>
-    <rect x="108" y="90" width="12" height="196" rx="0.5"/>
-    <rect x="126" y="88" width="10" height="198" rx="0.5"/>
+    <!-- Left wing: seven remiges -->
+    <rect x="26" y="108" width="11" height="152" rx="0"/>
+    <rect x="43" y="102" width="11" height="158" rx="0"/>
+    <rect x="60" y="98" width="11" height="162" rx="0"/>
+    <rect x="77" y="94" width="11" height="166" rx="0"/>
+    <rect x="94" y="92" width="11" height="168" rx="0"/>
+    <rect x="111" y="90" width="11" height="170" rx="0"/>
+    <rect x="128" y="88" width="10" height="172" rx="0"/>
 
-    <!-- Right wing: seven vertical remiges -->
-    <rect x="322" y="118" width="12" height="168" rx="0.5"/>
-    <rect x="304" y="110" width="12" height="176" rx="0.5"/>
-    <rect x="286" y="104" width="12" height="182" rx="0.5"/>
-    <rect x="268" y="98" width="12" height="188" rx="0.5"/>
-    <rect x="250" y="94" width="12" height="192" rx="0.5"/>
-    <rect x="232" y="90" width="12" height="196" rx="0.5"/>
-    <rect x="216" y="88" width="10" height="198" rx="0.5"/>
+    <!-- Right wing: seven remiges -->
+    <rect x="315" y="108" width="11" height="152" rx="0"/>
+    <rect x="298" y="102" width="11" height="158" rx="0"/>
+    <rect x="281" y="98" width="11" height="162" rx="0"/>
+    <rect x="264" y="94" width="11" height="166" rx="0"/>
+    <rect x="247" y="92" width="11" height="168" rx="0"/>
+    <rect x="230" y="90" width="11" height="170" rx="0"/>
+    <rect x="214" y="88" width="10" height="172" rx="0"/>
 
-    <!-- Trifoliate tail fan -->
-    <path d="M176 290
-             C140 296 104 316 78 344
-             C62 362 56 378 60 392
-             C64 404 78 410 94 402
-             C114 392 134 372 150 354
-             L176 338
-             L202 354
-             C218 372 238 392 258 402
-             C274 410 288 404 292 392
-             C296 378 290 362 274 344
-             C248 316 212 296 176 290Z"/>
-
-    <!-- Left leg with four angular talons -->
-    <path d="M152 318 L128 352 L112 378 L94 396 L84 404 L76 396 L92 374 L110 348 L128 322 Z"/>
-    <path d="M120 360 L104 384 L90 398 L82 406 L74 398 L90 378 L106 358 Z"/>
-    <path d="M130 368 L114 392 L100 406 L92 414 L84 406 L100 386 L116 366 Z"/>
-    <path d="M138 374 L122 398 L108 412 L100 420 L92 412 L108 392 L124 372 Z"/>
-
-    <!-- Right leg with four angular talons -->
-    <path d="M200 318 L224 352 L240 378 L258 396 L268 404 L276 396 L260 374 L242 348 L224 322 Z"/>
-    <path d="M232 360 L248 384 L262 398 L270 406 L278 398 L262 378 L246 358 Z"/>
-    <path d="M222 368 L238 392 L252 406 L260 414 L268 406 L252 386 L236 366 Z"/>
-    <path d="M214 374 L230 398 L244 412 L252 420 L260 412 L244 392 L228 372 Z"/>
+    <!-- Tail fan -->
+    <path d="M176 276
+             C148 280 120 296 100 318
+             C88 332 84 346 88 358
+             C92 368 104 372 118 366
+             C134 358 150 342 162 328
+             L176 316
+             L190 328
+             C202 342 218 358 234 366
+             C248 372 260 368 264 358
+             C268 346 264 332 252 318
+             C232 296 204 280 176 276Z"/>
   </g>
 </svg>
