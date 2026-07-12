@@ -5541,9 +5541,27 @@ function readBgColor(el) {
   return getComputedStyle(el).backgroundColor || "n/a";
 }
 
+function mobileMenuDebugFlags() {
+  const raw = (new URLSearchParams(window.location.search).get("debugMenu") || "").toLowerCase();
+  return {
+    solid: raw === "solid" || raw.includes("solid"),
+    layers: raw === "1" || raw.includes("layers")
+  };
+}
+
+function applyMobileMenuExperimentMode(isMobileHome) {
+  const solid = isMobileHome && mobileMenuDebugFlags().solid;
+  document.documentElement.classList.toggle("mobile-menu-solid-experiment", solid);
+  document.body.classList.toggle("mobile-menu-solid-experiment", solid);
+}
+
 function initMobileMenuDebugHelper() {
-  if (!new URLSearchParams(window.location.search).has("debugMenu")) return;
-  document.documentElement.classList.add("debug-mobile-menu-layers");
+  const params = new URLSearchParams(window.location.search);
+  if (!params.has("debugMenu")) return;
+  const flags = mobileMenuDebugFlags();
+  if (flags.layers) {
+    document.documentElement.classList.add("debug-mobile-menu-layers");
+  }
 
   const panel = document.createElement("div");
   panel.id = "mobileMenuDebugPanel";
@@ -5554,20 +5572,24 @@ function initMobileMenuDebugHelper() {
     const body = document.body;
     const menu = document.getElementById("homeMenuScreen");
     const paint = document.querySelector(".mobile-level-menu-paint");
+    const sampleBtn = document.querySelector(".menu-button-container button.menu-black");
     const colorSchemeMeta = document.querySelector('meta[name="color-scheme"]');
     const themeMeta = document.querySelector('meta[name="theme-color"]');
     panel.textContent = [
+      `mode: ${flags.solid ? "SOLID experiment (no rgba/eagle)" : "default (rgba/eagle)"}`,
       `html classes: ${html.className || "(none)"}`,
       `body classes: ${body.className || "(none)"}`,
       `prefers-color-scheme dark: ${window.matchMedia("(prefers-color-scheme: dark)").matches}`,
       `mobile-home-light: ${html.classList.contains("mobile-home-light")}`,
+      `solid-experiment: ${html.classList.contains("mobile-menu-solid-experiment")}`,
       `meta color-scheme: ${colorSchemeMeta ? colorSchemeMeta.content : "n/a"}`,
       `meta theme-color: ${themeMeta ? themeMeta.content : "n/a"}`,
       `html bg: ${readBgColor(html)}`,
       `body bg: ${readBgColor(body)}`,
       `main bg: ${readBgColor(document.querySelector("main.home-main"))}`,
       `#homeMenuScreen bg: ${readBgColor(menu)}`,
-      `.mobile-level-menu-paint bg: ${readBgColor(paint)}`
+      `.mobile-level-menu-paint bg: ${readBgColor(paint)}`,
+      `A1 button bg: ${readBgColor(sampleBtn)}`
     ].join("\n");
   }
 
@@ -5592,6 +5614,7 @@ function updateNavScreen() {
   const isMobileHome = onHome && window.matchMedia("(max-width: 768px)").matches;
   document.documentElement.classList.toggle("mobile-home-light", isMobileHome);
   document.body.classList.toggle("mobile-home-light", isMobileHome);
+  applyMobileMenuExperimentMode(isMobileHome);
   applyMobileHomeLightIsolation(isMobileHome);
   const themeMeta = document.querySelector('meta[name="theme-color"]');
   if (themeMeta) {

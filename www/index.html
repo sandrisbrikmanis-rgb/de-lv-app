@@ -31,6 +31,9 @@
       if (!mq || !mq.matches) return;
       var root = document.documentElement;
       root.classList.add("mobile-home-light");
+      if (/debugMenu=solid/i.test(location.search)) {
+        root.classList.add("mobile-menu-solid-experiment");
+      }
       root.style.setProperty("color-scheme", "light", "important");
       root.style.setProperty("background-color", "#EAC117", "important");
       root.style.setProperty("background-image", "none", "important");
@@ -39,6 +42,9 @@
         var body = document.body;
         if (!body) return;
         body.classList.add("mobile-home-light");
+        if (/debugMenu=solid/i.test(location.search)) {
+          body.classList.add("mobile-menu-solid-experiment");
+        }
         var nodes = [
           body,
           document.querySelector("main.home-main"),
