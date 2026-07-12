@@ -6,7 +6,7 @@
   <title>Vācu–latviešu kartītes</title>
   <link rel="stylesheet" href="./style.css">
   <link rel="manifest" href="manifest.json">
-  <meta name="theme-color" content="#ffffff">
+  <meta name="theme-color" content="#000000">
   <meta name="color-scheme" content="light" id="appColorScheme">
   <meta name="supported-color-schemes" content="light">
   <style id="mobile-home-critical-css">
@@ -16,9 +16,9 @@
       html.is-home-screen main.home-main,
       html.is-home-screen .home-app-shell,
       html.is-home-screen #homeMenuScreen.mobile-level-menu {
-        background-color: #ffffff !important;
+        background-color: #000000 !important;
         background-image: none !important;
-        color-scheme: light !important;
+        color-scheme: dark !important;
         forced-color-adjust: none !important;
         filter: none !important;
         -webkit-filter: none !important;
@@ -34,8 +34,8 @@
       if (/debugMenu=solid/i.test(location.search)) {
         root.classList.add("mobile-menu-solid-experiment");
       }
-      root.style.setProperty("color-scheme", "light", "important");
-      root.style.setProperty("background-color", "#ffffff", "important");
+      root.style.setProperty("color-scheme", "dark", "important");
+      root.style.setProperty("background-color", "#000000", "important");
       root.style.setProperty("background-image", "none", "important");
       root.style.setProperty("forced-color-adjust", "none", "important");
       function paintMobileHomeAncestors() {
@@ -53,9 +53,9 @@
         ];
         nodes.forEach(function (node) {
           if (!node) return;
-          node.style.setProperty("background-color", "#ffffff", "important");
+          node.style.setProperty("background-color", "#000000", "important");
           node.style.setProperty("background-image", "none", "important");
-          node.style.setProperty("color-scheme", "light", "important");
+          node.style.setProperty("color-scheme", "dark", "important");
           node.style.setProperty("forced-color-adjust", "none", "important");
           node.style.setProperty("filter", "none", "important");
         });

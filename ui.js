@@ -5504,9 +5504,9 @@ function detailScreenHeading(itemKey) {
   return match ? match.label : groupLabel(itemKey);
 }
 
-const MOBILE_HOME_BG = "#ffffff";
+const MOBILE_HOME_BG = "#000000";
 const MOBILE_HOME_ISOLATION_PROPS = [
-  ["color-scheme", "light"],
+  ["color-scheme", "dark"],
   ["background-color", MOBILE_HOME_BG],
   ["background-image", "none"],
   ["forced-color-adjust", "none"],
