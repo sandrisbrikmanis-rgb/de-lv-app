@@ -121,7 +121,7 @@
           <button id="problemWordsBtn" type="button" class="problem-words-toggle">🔥 Problemātiskie vārdi</button>
           <button id="spellingModeBtn" type="button">✍️ Pareizrakstība</button>
         </div>
-        <div class="mode-row"><div class="group-buttons" id="modeButtons" aria-label="Mācīšanās režīmi"></div><button id="pamatiBtn" type="button">📖 Pamati</button><button id="kurssBtn" type="button" hidden>🎓 Kurss</button></div>
+        <div class="mode-row"><div class="group-buttons" id="modeButtons" aria-label="Mācīšanās režīmi"></div></div>
 
         <div class="stats" aria-live="polite">
           <div class="stat">
@@ -236,20 +236,6 @@
       </div>
       </div>
 
-      <section class="pamati-overlay" id="pamatiPanel" hidden aria-label="Pamati" aria-modal="true" role="dialog">
-        <div class="pamati-panel">
-          <div class="pamati-header">
-            <h2>Pamati</h2>
-            <button class="pamati-close" id="pamatiCloseBtn" type="button" aria-label="Aizvērt Pamati">×</button>
-          </div>
-          <div class="pamati-stage">
-            <button class="pamati-arrow pamati-prev" id="pamatiPrevBtn" type="button" aria-label="Iepriekšējā Pamatu kartīte">←</button>
-            <div class="pamati-counter" id="pamatiCounter">1 / 10</div>
-            <div class="pamati-content" id="pamatiContent"></div>
-            <button class="pamati-arrow pamati-next" id="pamatiNextBtn" type="button" aria-label="Nākamā Pamatu kartīte">→</button>
-          </div>
-        </div>
-      </section>
       <section class="kurss-overlay" id="kurssPanel" hidden aria-label="Kurss" aria-modal="true" role="dialog">
         <div class="kurss-panel">
           <div class="kurss-header">
@@ -263,6 +249,7 @@
           <div class="kurss-list" id="kurssList">
             <button class="kurss-item" id="kurssPronunciationBtn" type="button"><span class="kurss-icon sound">Aa</span><span><strong class="kurss-item-title">Izruna</strong><span class="kurss-item-desc">Vācu valodas skaņas un izrunas pamati.</span></span><span class="kurss-arrow">›</span></button>
             <button class="kurss-item" id="kurssArticlesBtn" type="button"><span class="kurss-icon article">der<br>die<br>das</span><span><strong class="kurss-item-title">Artikuli</strong><span class="kurss-item-desc">Der, die, das un lietojuma pamati.</span></span><span class="kurss-arrow">›</span></button>
+            <button class="kurss-item" id="kurssPronounsBtn" type="button"><span class="kurss-icon pronoun">ich</span><span><strong class="kurss-item-title">Vietniekvārdi</strong><span class="kurss-item-desc">Nominativ, Akkusativ un Dativ formas.</span></span><span class="kurss-arrow">›</span></button>
             <button class="kurss-item" id="kurssLessonsBtn" type="button"><span class="kurss-icon lessons">📘</span><span><strong class="kurss-item-title">Lekcijas</strong><span class="kurss-item-desc">Mācību lekcijas secīgā kārtībā no 1 līdz 39.</span></span><span class="kurss-arrow">›</span></button>
             <button class="kurss-item" id="kurssVerbBasicsBtn" type="button"><span class="kurss-icon verb">ich</span><span><strong class="kurss-item-title">Darbības vārdu pamati</strong><span class="kurss-item-desc">Personas, formas un biežākie darbības vārdi.</span></span><span class="kurss-arrow">›</span></button>
             <button class="kurss-item" id="kurssSentenceStructureBtn" type="button"><span class="kurss-icon sentence">SVO</span><span><strong class="kurss-item-title">Teikumu uzbūve</strong><span class="kurss-item-desc">Vienkārša vārdu secība vācu teikumos.</span></span><span class="kurss-arrow">›</span></button>
@@ -298,6 +285,8 @@
           <div class="kurss-lesson" id="kurssPronunciationLesson" hidden>
           </div>
           <div class="kurss-lesson" id="kurssArticlesLesson" hidden>
+          </div>
+          <div class="kurss-lesson" id="kurssPronounsLesson" hidden>
           </div>
           <div class="kurss-lesson" id="kurssConsonantsLesson" hidden>
           </div>
