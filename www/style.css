@@ -3975,21 +3975,19 @@
   pointer-events: auto;
 }
 
-@media (min-width: 769px) {
-  .topbar > .card-corner-controls {
-    justify-content: flex-end;
-    width: 100%;
-    position: static;
-  }
+.card > .card-corner-controls {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 5;
+  justify-content: flex-end;
 }
 
-@media (max-width: 768px) {
-  .card > .card-corner-controls {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    z-index: 5;
-    justify-content: flex-end;
+@media (min-width: 769px) {
+  .group-detail-screen .card > .card-corner-controls {
+    top: 12px;
+    right: 12px;
+    z-index: 6;
   }
 }
 
@@ -7888,6 +7886,7 @@ main,
   }
 
   body.is-detail-screen .group-detail-screen > .card {
+    position: relative;
     min-height: 0 !important;
     height: 100%;
     margin: 0;
