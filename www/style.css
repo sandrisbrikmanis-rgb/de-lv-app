@@ -7831,20 +7831,82 @@ main,
 }
 
 @media (min-width: 769px) {
+  html.is-detail-screen,
+  html.is-detail-screen body {
+    height: 100%;
+    overflow: hidden;
+  }
+
   body.is-detail-screen main.home-main {
     width: min(560px, calc(100% - 32px));
     max-width: 560px;
+    height: 100vh;
+    min-height: 100vh;
+    max-height: 100vh;
     margin: 0 auto;
-    padding: 16px 0 24px;
+    padding: max(8px, env(safe-area-inset-top, 0px)) 0 max(8px, env(safe-area-inset-bottom, 0px));
+    box-sizing: border-box;
+    overflow: hidden;
   }
 
   body.is-detail-screen .home-app-shell {
     display: grid !important;
     grid-template-columns: 1fr !important;
-    gap: 14px;
+    grid-template-rows: 1fr;
+    gap: 0 !important;
     width: 100%;
     max-width: 560px;
+    height: 100%;
+    min-height: 0;
     margin: 0 auto;
+    overflow: hidden;
+  }
+
+  body.is-detail-screen .group-detail-screen {
+    display: grid !important;
+    grid-template-rows: auto minmax(0, 1fr) auto;
+    gap: clamp(10px, 1.4vh, 16px);
+    height: 100%;
+    min-height: 0;
+    overflow: hidden;
+  }
+
+  body.is-detail-screen .group-detail-screen > .topbar {
+    min-height: 0;
+  }
+
+  body.is-detail-screen .group-detail-screen > .card {
+    min-height: 0 !important;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  body.is-detail-screen .group-detail-screen > .card .card-inner {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 0;
+    width: 100%;
+  }
+
+  body.is-detail-screen .group-detail-screen > .controls {
+    min-height: 0;
+  }
+
+  body.is-detail-screen .group-detail-screen .mode-row .group-btn {
+    min-height: clamp(42px, 6vh, 60px);
+    padding-top: clamp(8px, 1.2vh, 14px);
+    padding-bottom: clamp(8px, 1.2vh, 14px);
+  }
+
+  body.is-detail-screen .group-detail-screen .word {
+    font-size: clamp(2.1rem, 6.5vh, 4.2rem);
   }
 
   body.is-detail-screen .controls {
@@ -7876,7 +7938,7 @@ main,
     display: block !important;
     grid-column: 1 / -1 !important;
     width: 100%;
-    min-height: 44px;
+    min-height: clamp(44px, 6vh, 58px);
     margin: 0;
     border-radius: 12px !important;
   }
@@ -7913,10 +7975,10 @@ main,
   body.is-detail-screen #nextBtn {
     width: 100%;
     min-width: 0;
-    min-height: 52px;
-    font-size: 0.92rem;
+    min-height: clamp(52px, 7.5vh, 72px);
+    font-size: clamp(0.88rem, 1.7vh, 1rem);
     font-weight: 800;
-    padding: 10px 8px;
+    padding: clamp(8px, 1.2vh, 12px) 8px;
     line-height: 1.15;
     border-radius: 12px;
     box-sizing: border-box;
@@ -7957,9 +8019,9 @@ main,
 
   body.is-detail-screen .group-detail-screen .detail-direction-btn {
     grid-column: auto !important;
-    min-height: 40px !important;
-    height: 40px !important;
-    max-height: 40px !important;
+    min-height: clamp(40px, 5.5vh, 52px) !important;
+    height: clamp(40px, 5.5vh, 52px) !important;
+    max-height: clamp(40px, 5.5vh, 52px) !important;
     padding: 0 6px !important;
   }
 
@@ -7967,9 +8029,9 @@ main,
   body.is-detail-screen .group-detail-screen .detail-tools-row #spellingModeBtn {
     width: 100% !important;
     min-width: 0 !important;
-    height: 40px !important;
-    min-height: 40px !important;
-    max-height: 40px !important;
+    height: clamp(40px, 5.5vh, 52px) !important;
+    min-height: clamp(40px, 5.5vh, 52px) !important;
+    max-height: clamp(40px, 5.5vh, 52px) !important;
     padding: 0 !important;
     margin: 0 !important;
     display: inline-flex !important;
