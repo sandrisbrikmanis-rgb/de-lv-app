@@ -2222,7 +2222,7 @@ function updateProblemWordsBtn() {
 }
 
 function detailToolbarCompact() {
-  return window.matchMedia("(max-width: 768px)").matches;
+  return true;
 }
 
 function updateDetailToolbarButtons() {
