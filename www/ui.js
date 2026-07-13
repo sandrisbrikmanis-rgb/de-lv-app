@@ -5206,7 +5206,7 @@ function ensureRestoreAllConfirmPopup() {
       <div class="restore-confirm-body">
         <p>Uzmanību! Viss iemācītais progress un vārdu vēsture tiks pilnībā nodzēsta pa nullēm.</p>
         <div class="restore-confirm-actions">
-          <button type="button" class="restore-confirm-btn" id="restoreConfirmBtn">Apstiprināt</button>
+          <button type="button" class="restore-confirm-btn" id="restoreConfirmBtn">Dzēst</button>
           <button type="button" class="restore-cancel-btn" id="restoreCancelBtn">Atcelt</button>
         </div>
       </div>

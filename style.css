@@ -7396,6 +7396,59 @@ main,
   border-color: rgba(255, 255, 255, 0.36) !important;
 }
 
+/* Detail screen Papildu opcijas: layout + destructive restore styling */
+@media (max-width: 768px) {
+  .group-detail-screen .mobile-extra-options #weeklyReviewBtn {
+    order: 1;
+  }
+
+  .group-detail-screen .mobile-extra-options #monthlyReviewBtn {
+    order: 2;
+  }
+
+  .group-detail-screen .mobile-extra-options #masteredListBtn {
+    order: 3;
+  }
+
+  .group-detail-screen .mobile-extra-options #unwantedListBtn {
+    order: 4;
+    grid-column: 1 / -1;
+  }
+
+  .group-detail-screen .mobile-extra-options #restoreBtn {
+    order: 5;
+    grid-column: 1 / -1;
+    margin-top: 4px;
+    border-color: rgba(239, 68, 68, 0.72) !important;
+    background-color: rgba(80, 20, 20, 0.45) !important;
+    background-image: none !important;
+    color: #fecaca !important;
+    box-shadow: none !important;
+  }
+
+  .group-detail-screen .mobile-extra-options #restoreBtn:hover,
+  .group-detail-screen .mobile-extra-options #restoreBtn:focus-visible {
+    border-color: rgba(248, 113, 113, 0.9) !important;
+    background-color: rgba(100, 25, 25, 0.55) !important;
+    color: #ffffff !important;
+  }
+}
+
+.group-detail-screen #restoreBtn {
+  border-color: rgba(239, 68, 68, 0.55) !important;
+  background-color: rgba(80, 20, 20, 0.35) !important;
+  background-image: none !important;
+  color: #fecaca !important;
+  box-shadow: none !important;
+}
+
+.group-detail-screen #restoreBtn:hover,
+.group-detail-screen #restoreBtn:focus-visible {
+  border-color: rgba(248, 113, 113, 0.82) !important;
+  background-color: rgba(100, 25, 25, 0.48) !important;
+  color: #ffffff !important;
+}
+
 @media (max-width: 768px) {
   .group-detail-screen .detail-tools-row .detail-direction-btn.stat {
     min-height: 40px !important;
