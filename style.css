@@ -3983,6 +3983,21 @@
   justify-content: flex-end;
 }
 
+/* Sesijas josla (.badge) neiet zem acs un skaļruņa ikonām */
+.card:has(> .card-corner-controls) {
+  --card-corner-controls-reserve: 92px;
+}
+
+.card:has(> .card-corner-controls) .card-inner {
+  padding-right: var(--card-corner-controls-reserve);
+  box-sizing: border-box;
+}
+
+.card:has(> .card-corner-controls):not(:has(.verb-headings)) .badge {
+  max-width: 100%;
+  justify-self: center;
+}
+
 @media (min-width: 769px) {
   .group-detail-screen .card > .card-corner-controls {
     top: 12px;
