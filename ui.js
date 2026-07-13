@@ -181,8 +181,8 @@ const MAIN_MENU_ITEMS = [
   { key: "B2", label: "B2", type: "group" },
   { key: "C1", label: "C1", type: "group" },
   { key: "C2", label: "C2", type: "group" },
-  { key: "Sätze", label: "Teikumi", type: "group" },
   { key: "kurss", label: "Kurss", type: "kurss" },
+  { key: "Sätze", label: "Teikumi", type: "group" },
   { key: "verbs", label: "Darbības vārdi", type: "verbs" }
 ];
 
