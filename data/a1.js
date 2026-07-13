@@ -9210,7 +9210,326 @@ const A1_WORDS = [
     {
     "de": "kosten",
     "lv": "maksāt",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-kosten",
+      "layout": "standardStudy",
+      "translation": "maksāt",
+      "explanation": [
+        "Galvenā doma: kosten nozīmē maksāt tik un tik — runā par lietas cenu.",
+        "Šo vārdu lieto, kad jautā vai saka, cik kaut kas maksā, nevis kad cilvēks veic maksājumu.",
+        "Jautājums par cenu vācu valodā bieži sākas ar Was kostet...?",
+        "Latviešu vārds maksāt šajā kontekstā ir pareizs: Das kostet 5 Euro. = Tas maksā 5 eiro.",
+        "Ja cilvēks atdod naudu par preci vai pakalpojumu, vācu valodā lieto bezahlen vai zahlen."
+      ],
+      "examples": [
+        {
+          "de": "Das kostet 5 Euro.",
+          "lv": "tas maksā 5 eiro."
+        },
+        {
+          "de": "Was kostet das?",
+          "lv": "cik tas maksā?"
+        },
+        {
+          "de": "Wie viel kostet der Pullover?",
+          "lv": "cik maksā džemperis?"
+        },
+        {
+          "de": "Das Essen kostet nicht viel.",
+          "lv": "ēdiens daudz nemaksā."
+        },
+        {
+          "de": "Ich bezahle die Rechnung.",
+          "lv": "es maksāju rēķinu."
+        },
+        {
+          "de": "Kann ich bar bezahlen?",
+          "lv": "vai varu maksāt skaidrā naudā?"
+        },
+        {
+          "de": "Er zahlt mit Karte.",
+          "lv": "viņš maksā ar karti."
+        },
+        {
+          "de": "Ich zahle gleich.",
+          "lv": "es samaksāšu tūlīt."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "kosten",
+          "meaning": "maksāt (cenu) • cik maksā",
+          "example": "Das kostet 5 Euro. = Tas maksā 5 eiro."
+        },
+        {
+          "word": "bezahlen",
+          "meaning": "maksāt • samaksāt (naudu)",
+          "example": "Ich bezahle die Rechnung. = Es maksāju rēķinu."
+        },
+        {
+          "word": "zahlen",
+          "meaning": "maksāt • samaksāt",
+          "example": "Kann ich bar zahlen? = Vai varu maksāt skaidrā naudā?"
+        },
+        {
+          "word": "Was kostet...?",
+          "meaning": "cik maksā...?",
+          "example": "Was kostet das Buch? = Cik maksā grāmata?"
+        }
+      ],
+      "tip": [
+        "Atceries: jautājums par cenu → kosten (Was kostet das?).",
+        "Atceries: maksājuma veikšana → bezahlen / zahlen (Ich bezahle die Rechnung.)."
+      ],
+      "important": [
+        "kosten un bezahlen nav sinonīmi: kosten = cik maksā; bezahlen = samaksāt naudu.",
+        "Latviski abos gadījumos bieži lieto maksāt, bet vācu valodā jāizvēlas pēc situācijas."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "kosten"
+          ],
+          "purple": [
+            "maksāt",
+            "cenu",
+            "cik kaut kas maksā"
+          ],
+          "green": [
+            "Was kostet"
+          ],
+          "yellow": [
+            "bezahlen",
+            "zahlen"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "kostet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "maksā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "kostet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "maksā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "kostet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "maksā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "kostet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nemaksā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "bezahle"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "maksāju"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "bezahlen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "maksāt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "zahlt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "maksā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "zahle"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "samaksāšu"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "kosten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "maksāt",
+                "cenu",
+                "cik maksā"
+              ]
+            },
+            "example": {
+              "blue": [
+                "kostet"
+              ],
+              "purple": [
+                "maksā"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bezahlen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "maksāt",
+                "samaksāt"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "bezahle"
+              ],
+              "purple": [
+                "maksāju"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zahlen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "maksāt",
+                "samaksāt"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "zahlen"
+              ],
+              "purple": [
+                "maksāt"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Was kostet"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "cik maksā"
+              ]
+            },
+            "example": {
+              "blue": [
+                "kostet"
+              ],
+              "purple": [
+                "maksā"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "kosten",
+              "Was kostet"
+            ],
+            "purple": [
+              "cenu"
+            ]
+          },
+          {
+            "yellow": [
+              "bezahlen",
+              "zahlen"
+            ],
+            "purple": [
+              "maksājuma veikšana"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "kosten"
+            ],
+            "yellow": [
+              "bezahlen"
+            ],
+            "purple": [
+              "cik maksā",
+              "samaksāt"
+            ]
+          },
+          {
+            "purple": [
+              "maksāt",
+              "situācijas"
+            ]
+          }
+        ]
+      }
+    }
   },
     {
     "de": "küssen",
