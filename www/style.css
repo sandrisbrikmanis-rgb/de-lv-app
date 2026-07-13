@@ -7071,6 +7071,101 @@ main,
   pointer-events: none;
 }
 
+/* Unified line-icon set (matches flashcard SVG style) */
+.ui-icon {
+  display: block;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  pointer-events: none;
+}
+
+.ui-icon--tool {
+  width: 22px;
+  height: 22px;
+}
+
+.ui-icon--warning {
+  color: #fbbf24;
+}
+
+.ui-btn-with-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.ui-btn-label {
+  min-width: 0;
+}
+
+.mode-btn-label {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-width: 0;
+}
+
+.mode-btn-text {
+  min-width: 0;
+}
+
+.mode-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+}
+
+.mode-dot--easy {
+  background: #22c55e;
+}
+
+.mode-dot--normal {
+  background: #eab308;
+}
+
+.mode-dot--intense {
+  background: #ef4444;
+}
+
+.group-detail-screen .mode-row .group-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.detail-tool-icon-btn {
+  position: relative;
+}
+
+.detail-tool-badge {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  min-width: 16px;
+  height: 16px;
+  padding: 0 4px;
+  border-radius: 8px;
+  background: rgba(230, 92, 0, 0.92);
+  color: #fff;
+  font-size: 0.62rem;
+  font-weight: 800;
+  line-height: 16px;
+  text-align: center;
+  pointer-events: none;
+}
+
+.modal-title-with-icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+}
+
 .flashcard-audio-btn:hover,
 .flashcard-audio-btn:focus-visible {
   background: rgba(85, 184, 255, 0.28);

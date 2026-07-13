@@ -88,11 +88,30 @@ const UI_ICONS = {
   incorrect: "✗",
   wrong: "❌",
   right: "✔",
-  target: "🎯",
-  easy: "🟢",
-  normal: "🟡",
-  intense: "🔴"
+  target: "🎯"
 };
+
+const APP_ICON_SVG_ATTRS = 'viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"';
+
+const APP_ICON_PATHS = {
+  flame: '<path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.5-.5-4-2.5-6 1.5 2.5 2 4.5 2 7a5.5 5.5 0 1 1-11 0c0-3.5 1.5-5.5 2.5-6-.5 1.5-1 3-1 4.5z"></path>',
+  pen: '<path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"></path><path d="m15 5 4 4"></path>',
+  trophy: '<path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path><path d="M4 22h16"></path><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"></path>',
+  warning: '<path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"></path><path d="M12 9v4"></path><path d="M12 17h.01"></path>'
+};
+
+function appIconSvg(name, className = "ui-icon") {
+  return `<svg class="${className}" ${APP_ICON_SVG_ATTRS}>${APP_ICON_PATHS[name] || ""}</svg>`;
+}
+
+function buttonWithIcon(iconName, label, iconClass = "ui-icon") {
+  return `${appIconSvg(iconName, iconClass)}<span class="ui-btn-label">${escapeHtml(label)}</span>`;
+}
+
+function modeButtonHtml(mode, sessionMax) {
+  const names = { easy: "Viegls", normal: "Normāls", intense: "Intensīvs" };
+  return `<span class="mode-btn-label"><span class="mode-dot mode-dot--${mode}" aria-hidden="true"></span><span class="mode-btn-text">${escapeHtml(names[mode])} · ${sessionMax}</span></span>`;
+}
 
 const verbEntries = typeof VERB_ENTRIES !== "undefined" ? VERB_ENTRIES : (window.VERB_ENTRIES || []);
 window.COURSE_LESSONS = typeof COURSE_LESSONS !== "undefined" ? COURSE_LESSONS : (window.COURSE_LESSONS || []);
@@ -169,9 +188,9 @@ const unwantedStorageKey = "deLvFlashcardsExplicitUnwanted";
 const masteredStorageKey = "deLvFlashcardsMastered100";
 const groupCompleteShownStorageKey = "deLvFlashcardsGroupCompleteShown";
 const sessionModes = {
-  easy: { label: `${UI_ICONS.easy} Viegls`, newCount: 5, reviewCount: 5, sessionMax: 10 },
-  normal: { label: `${UI_ICONS.normal} Normāls`, newCount: 10, reviewCount: 5, sessionMax: 15 },
-  intense: { label: `${UI_ICONS.intense} Intensīvs`, newCount: 20, reviewCount: 10, sessionMax: 30 }
+  easy: { name: "Viegls", newCount: 5, reviewCount: 5, sessionMax: 10 },
+  normal: { name: "Normāls", newCount: 10, reviewCount: 5, sessionMax: 15 },
+  intense: { name: "Intensīvs", newCount: 20, reviewCount: 10, sessionMax: 30 }
 };
 
 const MAIN_MENU_ITEMS = [
@@ -2138,23 +2157,18 @@ function updateProblemWordsBtn() {
   if (!elements.problemWordsBtn) return;
   const count = countProblematicWords();
   const compact = detailToolbarCompact();
+  const ariaLabel = count ? `Problemātiskie vārdi (${count})` : "Problemātiskie vārdi";
   if (compact) {
-    elements.problemWordsBtn.textContent = count ? `🔥 (${count})` : "🔥";
-    elements.problemWordsBtn.setAttribute(
-      "aria-label",
-      count ? `Problemātiskie vārdi (${count})` : "Problemātiskie vārdi"
-    );
-    elements.problemWordsBtn.setAttribute(
-      "title",
-      count ? `Problemātiskie vārdi (${count})` : "Problemātiskie vārdi"
-    );
+    const badge = count ? `<span class="detail-tool-badge">${count}</span>` : "";
+    elements.problemWordsBtn.innerHTML = `${appIconSvg("flame", "ui-icon ui-icon--tool")}${badge}`;
+    elements.problemWordsBtn.classList.remove("ui-btn-with-icon");
   } else {
-    elements.problemWordsBtn.textContent = count
-      ? `🔥 Problemātiskie vārdi (${count})`
-      : "🔥 Problemātiskie vārdi";
-    elements.problemWordsBtn.setAttribute("aria-label", "Problemātiskie vārdi");
-    elements.problemWordsBtn.setAttribute("title", "Problemātiskie vārdi");
+    const label = count ? `Problemātiskie vārdi (${count})` : "Problemātiskie vārdi";
+    elements.problemWordsBtn.innerHTML = buttonWithIcon("flame", label);
+    elements.problemWordsBtn.classList.add("ui-btn-with-icon");
   }
+  elements.problemWordsBtn.setAttribute("aria-label", ariaLabel);
+  elements.problemWordsBtn.setAttribute("title", ariaLabel);
   elements.problemWordsBtn.classList.toggle("active", state.problemMode);
   elements.problemWordsBtn.setAttribute("aria-pressed", state.problemMode ? "true" : "false");
 }
@@ -2167,17 +2181,20 @@ function updateDetailToolbarButtons() {
   updateProblemWordsBtn();
   if (!elements.spellingModeBtn) return;
   if (detailToolbarCompact()) {
-    elements.spellingModeBtn.textContent = "✍️";
-    elements.spellingModeBtn.setAttribute("aria-label", "Pareizrakstība");
-    elements.spellingModeBtn.setAttribute("title", "Pareizrakstība");
+    elements.spellingModeBtn.innerHTML = appIconSvg("pen", "ui-icon ui-icon--tool");
+    elements.spellingModeBtn.classList.remove("ui-btn-with-icon");
   } else {
-    elements.spellingModeBtn.textContent = "✍️ Pareizrakstība";
-    elements.spellingModeBtn.setAttribute("aria-label", "Pareizrakstība");
-    elements.spellingModeBtn.setAttribute("title", "Pareizrakstība");
+    elements.spellingModeBtn.innerHTML = buttonWithIcon("pen", "Pareizrakstība");
+    elements.spellingModeBtn.classList.add("ui-btn-with-icon");
   }
+  elements.spellingModeBtn.setAttribute("aria-label", "Pareizrakstība");
+  elements.spellingModeBtn.setAttribute("title", "Pareizrakstība");
   elements.spellingModeBtn.className = state.spellingMode
     ? "detail-tool-icon-btn group-btn active spelling-active"
     : "detail-tool-icon-btn group-btn";
+  if (!detailToolbarCompact()) {
+    elements.spellingModeBtn.classList.add("ui-btn-with-icon");
+  }
   elements.spellingModeBtn.setAttribute("aria-pressed", state.spellingMode ? "true" : "false");
 }
 
@@ -2608,7 +2625,14 @@ function totalLearnedCount() {
 
 function updateKnownListBtn() {
   if (!elements.masteredListBtn) return;
-  elements.masteredListBtn.textContent = `🏅 Zināmi (${totalLearnedCount()})`;
+  elements.masteredListBtn.classList.add("ui-btn-with-icon");
+  elements.masteredListBtn.innerHTML = buttonWithIcon("trophy", `Zināmi (${totalLearnedCount()})`);
+}
+
+function updateRestoreBtnLabel() {
+  if (!elements.restoreBtn) return;
+  elements.restoreBtn.classList.add("ui-btn-with-icon");
+  elements.restoreBtn.innerHTML = buttonWithIcon("warning", "Atgriezt visu", "ui-icon ui-icon--warning");
 }
 
 function loadGroupCompleteShown() {
@@ -5200,7 +5224,7 @@ function ensureRestoreAllConfirmPopup() {
     <div class="modal-backdrop" aria-hidden="true"></div>
     <div class="modal-content restore-confirm-content">
       <header class="modal-header">
-        <h2>⚠️ Atgriezt visu</h2>
+        <h2 class="modal-title-with-icon">${appIconSvg("warning", "ui-icon ui-icon--warning")}<span>Atgriezt visu</span></h2>
         <button type="button" class="modal-close" aria-label="Aizvērt">×</button>
       </header>
       <div class="restore-confirm-body">
@@ -5583,7 +5607,7 @@ function renderModeButtons() {
   for (const [mode, config] of Object.entries(sessionModes)) {
     const button = document.createElement("button");
     button.type = "button";
-    button.textContent = `${config.label} · ${config.sessionMax}`;
+    button.innerHTML = modeButtonHtml(mode, config.sessionMax);
     button.className = mode === state.mode ? "group-btn active" : "group-btn";
     button.addEventListener("click", () => selectMode(mode));
     elements.modeButtons.appendChild(button);
@@ -6457,6 +6481,9 @@ function render() {
 initStaticCourseLessons();
 initMobileMenuDebugHelper();
 renderMainMenuButtons();
+updateRestoreBtnLabel();
+updateKnownListBtn();
+updateDetailToolbarButtons();
 updateNavScreen();
 
 const cardCornerControlsDesktop = window.matchMedia("(min-width: 769px)");
