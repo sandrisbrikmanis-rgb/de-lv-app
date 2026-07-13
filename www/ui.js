@@ -232,7 +232,6 @@ const elements = {
   groupDetailScreen: document.getElementById("groupDetailScreen"),
   navBackBtn: document.getElementById("navBackBtn"),
   detailScreenTitle: document.getElementById("detailScreenTitle"),
-  detailScreenSubtitle: document.getElementById("detailScreenSubtitle"),
   modeButtons: document.getElementById("modeButtons"),
   cardLevel: document.getElementById("cardLevel"),
   word: document.getElementById("word"),
@@ -5398,13 +5397,6 @@ function updateNavScreen() {
 function updateDetailScreenHeader(itemKey) {
   if (elements.detailScreenTitle) {
     elements.detailScreenTitle.textContent = groupProgressTitle(itemKey);
-  }
-  if (elements.detailScreenSubtitle) {
-    elements.detailScreenSubtitle.textContent = itemKey === "verbs"
-      ? "Darbības vārdu formas un konjugācijas"
-      : (itemKey === "Sätze"
-      ? "Teikumu mācīšanās un atkārtošana"
-      : "Tavs viedais ceļvedis vācu valodā pa līmeņiem");
   }
 }
 

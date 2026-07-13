@@ -6852,7 +6852,7 @@ main,
 .topbar-header-row {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   gap: 12px;
   width: 100%;
 }
@@ -7268,17 +7268,27 @@ main,
 }
 
 .nav-back-btn {
-  width: 100%;
-  min-height: 48px;
-  margin-bottom: 4px;
+  flex: 0 0 auto;
+  width: 40px;
+  min-width: 40px;
+  height: 40px;
+  min-height: 40px;
+  margin: 0;
+  padding: 0;
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   background: rgba(255, 255, 255, 0.08);
   color: #ffffff;
-  font-size: 1rem;
+  font-size: 1.35rem;
   font-weight: 800;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
+  cursor: pointer;
+  box-sizing: border-box;
 }
 
 .nav-back-btn:hover {
@@ -7679,11 +7689,9 @@ body.is-home-screen .home-app-shell {
     text-shadow: none !important;
   }
 
-  .nav-back-btn {
-    position: sticky;
-    top: 0;
-    z-index: 5;
-    margin-bottom: 10px;
+  .group-detail-screen .nav-back-btn {
+    position: static;
+    margin-bottom: 0;
   }
 }
 
