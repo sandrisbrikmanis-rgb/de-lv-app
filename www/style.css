@@ -7279,6 +7279,98 @@ main,
   min-height: 40px;
 }
 
+.group-detail-screen .detail-tools-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+}
+
+.group-detail-screen .detail-direction-btn {
+  flex: 1 1 auto;
+  min-width: 0;
+  min-height: 40px;
+  height: 40px;
+  margin: 0;
+  padding: 0 12px;
+  border-radius: 10px;
+  border: 1px solid #31465d;
+  background: linear-gradient(100deg, #101a25, #101722);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
+}
+
+.group-detail-screen .detail-direction-btn .direction-label {
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.group-detail-screen .detail-tool-icon-btn {
+  flex: 0 0 40px;
+  width: 40px;
+  min-width: 40px;
+  height: 40px;
+  min-height: 40px;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  line-height: 1;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.08);
+  background-image: none;
+  color: #ffffff;
+  box-shadow: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.group-detail-screen .detail-tool-icon-btn:hover {
+  border-color: rgba(255, 255, 255, 0.34);
+  background: rgba(255, 255, 255, 0.14);
+}
+
+.group-detail-screen #problemWordsBtn.detail-tool-icon-btn.active {
+  border-color: #ff8c1a;
+  background: rgba(230, 92, 0, 0.38);
+  box-shadow: 0 0 0 2px rgba(255, 140, 26, 0.35);
+}
+
+.group-detail-screen #spellingModeBtn.detail-tool-icon-btn.active,
+.group-detail-screen #spellingModeBtn.detail-tool-icon-btn.spelling-active {
+  border-color: #42a5ff;
+  background: rgba(33, 99, 235, 0.38);
+  box-shadow: 0 0 0 2px rgba(66, 165, 255, 0.35);
+}
+
+@media (min-width: 769px) {
+  .group-detail-screen .detail-tools-row {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .group-detail-screen .detail-direction-btn {
+    grid-column: 1 / -1;
+    min-height: 49px;
+    height: auto;
+  }
+
+  .group-detail-screen .detail-tool-icon-btn {
+    width: 100%;
+    min-width: 0;
+    min-height: 48px;
+    height: auto;
+    flex: none;
+    font-size: 1rem;
+    font-weight: 800;
+    padding: 12px 16px;
+  }
+}
+
 .home-menu-screen[hidden] {
   display: none !important;
 }

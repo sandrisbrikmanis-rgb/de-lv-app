@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Vācu–latviešu kartītes</title>
-  <link rel="stylesheet" href="./style.css?v=79">
+  <link rel="stylesheet" href="./style.css?v=80">
   <link rel="stylesheet" href="./mobile-home.css?v=77">
   <link rel="manifest" href="manifest.json">
   <meta name="theme-color" content="#000000">
@@ -68,17 +68,14 @@
             </svg>
           </button>
         </div>
-        <div class="top-quick-toggle-row" aria-label="Ātrā pārslēgšana">
-          <button id="problemWordsBtn" type="button" class="problem-words-toggle">🔥 Problemātiskie vārdi</button>
-          <button id="spellingModeBtn" type="button">✍️ Pareizrakstība</button>
-        </div>
-        <div class="mode-row"><div class="group-buttons" id="modeButtons" aria-label="Mācīšanās režīmi"></div></div>
-
-        <div class="stats" aria-live="polite">
-          <button class="stat stat-direction" id="directionBtn" type="button" aria-label="Pārslēgt tulkojuma virzienu">
+        <div class="detail-tools-row" aria-label="Ātrie rīki">
+          <button class="stat stat-direction detail-direction-btn" id="directionBtn" type="button" aria-label="Pārslēgt tulkojuma virzienu">
             <strong id="directionLabel" class="direction-label">🔄 DE ➔ LV</strong>
           </button>
+          <button id="problemWordsBtn" type="button" class="problem-words-toggle detail-tool-icon-btn" aria-label="Problemātiskie vārdi" title="Problemātiskie vārdi">🔥</button>
+          <button id="spellingModeBtn" type="button" class="detail-tool-icon-btn" aria-label="Pareizrakstība" title="Pareizrakstība">✍️</button>
         </div>
+        <div class="mode-row"><div class="group-buttons" id="modeButtons" aria-label="Mācīšanās režīmi"></div></div>
       </div>
 
       <article class="card">
@@ -294,7 +291,7 @@
   <script src="./data/dialogueIdMap.js"></script>
   <script src="./data/nounArticles.js"></script>
   <script src="./confetti.browser.js"></script>
-  <script src="./ui.js?v=78"></script>
+  <script src="./ui.js?v=80"></script>
   <script src="./wordRain.js"></script>
 </body>
 </html>

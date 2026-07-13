@@ -2137,10 +2137,47 @@ function countProblematicWords() {
 function updateProblemWordsBtn() {
   if (!elements.problemWordsBtn) return;
   const count = countProblematicWords();
-  elements.problemWordsBtn.textContent = count
-    ? `🔥 Problemātiskie vārdi (${count})`
-    : "🔥 Problemātiskie vārdi";
+  const compact = detailToolbarCompact();
+  if (compact) {
+    elements.problemWordsBtn.textContent = count ? `🔥 (${count})` : "🔥";
+    elements.problemWordsBtn.setAttribute(
+      "aria-label",
+      count ? `Problemātiskie vārdi (${count})` : "Problemātiskie vārdi"
+    );
+    elements.problemWordsBtn.setAttribute(
+      "title",
+      count ? `Problemātiskie vārdi (${count})` : "Problemātiskie vārdi"
+    );
+  } else {
+    elements.problemWordsBtn.textContent = count
+      ? `🔥 Problemātiskie vārdi (${count})`
+      : "🔥 Problemātiskie vārdi";
+    elements.problemWordsBtn.setAttribute("aria-label", "Problemātiskie vārdi");
+    elements.problemWordsBtn.setAttribute("title", "Problemātiskie vārdi");
+  }
   elements.problemWordsBtn.classList.toggle("active", state.problemMode);
+}
+
+function detailToolbarCompact() {
+  return window.matchMedia("(max-width: 768px)").matches;
+}
+
+function updateDetailToolbarButtons() {
+  updateProblemWordsBtn();
+  if (!elements.spellingModeBtn) return;
+  if (detailToolbarCompact()) {
+    elements.spellingModeBtn.textContent = "✍️";
+    elements.spellingModeBtn.setAttribute("aria-label", "Pareizrakstība");
+    elements.spellingModeBtn.setAttribute("title", "Pareizrakstība");
+  } else {
+    elements.spellingModeBtn.textContent = "✍️ Pareizrakstība";
+    elements.spellingModeBtn.setAttribute("aria-label", "Pareizrakstība");
+    elements.spellingModeBtn.setAttribute("title", "Pareizrakstība");
+  }
+  elements.spellingModeBtn.className = state.spellingMode
+    ? "detail-tool-icon-btn group-btn active spelling-active"
+    : "detail-tool-icon-btn group-btn";
+  elements.spellingModeBtn.setAttribute("aria-pressed", state.spellingMode ? "true" : "false");
 }
 
 function unwantedItemId(item) {
@@ -5525,9 +5562,7 @@ function renderModeButtons() {
   elements.verbRandomBtn.textContent = "Jaukt darbības vārdus";
   elements.verbRandomBtn.className = state.verbRandomMode ? "group-btn active" : "";
   elements.verbRandomBtn.setAttribute("aria-pressed", state.verbRandomMode ? "true" : "false");
-  elements.spellingModeBtn.textContent = "✍️ Pareizrakstība";
-  elements.spellingModeBtn.className = state.spellingMode ? "group-btn active spelling-active" : "";
-  elements.spellingModeBtn.setAttribute("aria-pressed", state.spellingMode ? "true" : "false");
+  updateDetailToolbarButtons();
   if (elements.unwantedBtn) elements.unwantedBtn.hidden = true;
   elements.markMasteredBtn.hidden = true;
   elements.markMasteredBtn.style.display = "none";
@@ -6424,7 +6459,7 @@ function syncCardCornerControlsPlacement() {
   const useTopbar = cardCornerControlsDesktop.matches;
   const target = useTopbar ? topbar : card;
   const anchor = useTopbar
-    ? topbar.querySelector(".top-quick-toggle-row")
+    ? topbar.querySelector(".detail-tools-row")
     : card.querySelector(".card-inner");
   if (!anchor) return;
 
@@ -6443,6 +6478,9 @@ window.addEventListener("resize", () => {
     renderMainMenuButtons();
   }
   syncCardCornerControlsPlacement();
+  if (state.navScreen === "detail") {
+    updateDetailToolbarButtons();
+  }
   updateNavScreen();
 });
 
