@@ -9204,15 +9204,12 @@ const A1_WORDS = [
     {
     "de": "Kosten",
     "de_article": "die",
-    "de_plural": "die Kostens",
-    "lv": "maksāt",
+    "lv": "izmaksas",
     "level": "A1"
   },
     {
-    "de": "Kosten",
-    "de_article": "die",
-    "de_plural": "die Kostens",
-    "lv": "nogaršot",
+    "de": "kosten",
+    "lv": "maksāt",
     "level": "A1"
   },
     {
