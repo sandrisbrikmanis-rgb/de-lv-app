@@ -6350,6 +6350,171 @@
   color: #f8fafc;
 }
 
+#infoPopup .info-feature-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+#infoPopup .info-feature-row {
+  display: grid;
+  grid-template-columns: minmax(72px, auto) 1fr;
+  gap: 12px;
+  align-items: start;
+}
+
+#infoPopup .info-feature-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 36px;
+}
+
+#infoPopup .info-feature-text h3 {
+  margin: 0 0 4px;
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: #f8fafc;
+}
+
+#infoPopup .info-feature-text p {
+  margin: 0;
+  font-size: 0.84rem;
+  line-height: 1.45;
+  color: #cbd5e1;
+}
+
+#infoPopup .info-feature-text p strong {
+  color: #e2e8f0;
+  font-weight: 700;
+}
+
+#infoPopup .info-mock-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  pointer-events: none;
+  user-select: none;
+}
+
+#infoPopup .info-mock-btn--direction {
+  min-width: 68px;
+  height: 36px;
+  padding: 0 6px;
+  border-radius: 10px;
+  border: 1px solid #31465d;
+  background: linear-gradient(100deg, #101a25, #101722);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
+}
+
+#infoPopup .info-mock-btn--direction .direction-label {
+  font-size: 0.58rem;
+  font-weight: 700;
+  white-space: nowrap;
+  color: #f7f8fa;
+}
+
+#infoPopup .info-mock-btn--tool {
+  min-width: 52px;
+  height: 36px;
+  padding: 0 4px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+#infoPopup .info-mock-modes {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: stretch;
+  width: 100%;
+  max-width: 108px;
+}
+
+#infoPopup .info-mock-modes .mode-btn-label {
+  justify-content: flex-start;
+  width: 100%;
+  min-height: 22px;
+  padding: 2px 6px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.06);
+  box-sizing: border-box;
+}
+
+#infoPopup .info-mock-modes .mode-btn-text {
+  font-size: 0.56rem;
+  font-weight: 700;
+  color: #e2e8f0;
+}
+
+#infoPopup .info-mock-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 100%;
+  max-width: 108px;
+}
+
+#infoPopup .info-mock-btn--known,
+#infoPopup .info-mock-btn--unknown,
+#infoPopup .info-mock-btn--next {
+  width: 100%;
+  min-height: 22px;
+  padding: 3px 6px;
+  border-radius: 8px;
+  font-size: 0.56rem;
+  font-weight: 700;
+  line-height: 1.15;
+  text-align: center;
+  border: 1px solid transparent;
+}
+
+#infoPopup .info-mock-btn--known {
+  background: rgba(20, 133, 76, 0.28);
+  border-color: rgba(16, 185, 98, 0.55);
+  color: #ffffff;
+}
+
+#infoPopup .info-mock-btn--unknown {
+  background: rgba(159, 0, 15, 0.32);
+  border-color: rgba(239, 68, 68, 0.55);
+  color: #ffffff;
+}
+
+#infoPopup .info-mock-btn--next {
+  background: rgba(40, 40, 40, 0.95);
+  border-color: rgba(255, 255, 255, 0.24);
+  color: #ffffff;
+}
+
+#infoPopup .info-mock-btn--extra {
+  min-width: 92px;
+  min-height: 28px;
+  padding: 4px 8px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.08);
+  font-size: 0.62rem;
+  font-weight: 700;
+  color: #e2e8f0;
+  white-space: nowrap;
+}
+
+#infoPopup .info-card-icon {
+  display: block;
+  width: 28px;
+  height: 28px;
+  color: #94a3b8;
+}
+
+#infoPopup .info-card-icon--speaker {
+  color: #4ade80;
+  filter: drop-shadow(0 0 4px rgba(74, 222, 128, 0.35));
+}
+
 .lesson1-training-answer,
 .lesson8-exercise-answer-card {
   background-color: rgba(19, 32, 44, 0.95) !important;
@@ -6775,6 +6940,11 @@ main,
   text-align: left !important;
   margin-bottom: 12px !important;
   color: #cccccc !important;
+}
+
+#infoPopup .info-feature-text p {
+  margin-bottom: 0 !important;
+  color: #cbd5e1 !important;
 }
 
 #infoPopup .info-popup-body strong {
@@ -7630,6 +7800,10 @@ main,
     background: rgba(230, 92, 0, 0.38) !important;
     background-image: none !important;
     box-shadow: 0 0 0 2px rgba(255, 140, 26, 0.35) !important;
+  }
+
+  .group-detail-screen .detail-tools-row #problemWordsBtn.active .ui-icon--tool-compact {
+    color: #ffb347;
   }
 
   .group-detail-screen .detail-tools-row #spellingModeBtn.active,

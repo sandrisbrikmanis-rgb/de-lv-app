@@ -117,6 +117,50 @@ function compactToolButtonHtml(iconName, shortLabel) {
   return `<span class="detail-tool-btn-content"><span class="detail-tool-btn-icon">${appIconSvg(iconName, "ui-icon ui-icon--tool-compact")}</span><span class="detail-tool-btn-text">${escapeHtml(shortLabel)}</span></span>`;
 }
 
+const INFO_POPUP_VERSION = "2";
+
+const INFO_CARD_ICON_SVGS = {
+  unwanted: '<svg class="info-card-icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7z"></path><circle cx="12" cy="12" r="3"></circle><line x1="3" y1="3" x2="21" y2="21"></line></svg>',
+  speaker: '<svg class="info-card-icon info-card-icon--speaker" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg>'
+};
+
+function infoMockDirectionBtn() {
+  return '<span class="info-mock-btn info-mock-btn--direction"><span class="direction-label">🔄 DE ➔ LV</span></span>';
+}
+
+function infoMockToolBtn(iconName, shortLabel) {
+  return `<span class="info-mock-btn info-mock-btn--tool">${compactToolButtonHtml(iconName, shortLabel)}</span>`;
+}
+
+function infoMockModeRow() {
+  return `<span class="info-mock-modes">${modeButtonHtml("easy", 10)}${modeButtonHtml("normal", 15)}${modeButtonHtml("intense", 30)}</span>`;
+}
+
+function infoMockActionRow() {
+  return `<span class="info-mock-actions"><span class="info-mock-btn info-mock-btn--known">Zinu pareizi</span><span class="info-mock-btn info-mock-btn--unknown">Nezinu</span><span class="info-mock-btn info-mock-btn--next">Nākamais vārds</span></span>`;
+}
+
+function infoMockExtraBtn() {
+  return '<span class="info-mock-btn info-mock-btn--extra">Papildu opcijas ▼</span>';
+}
+
+function infoFeatureRow(iconHtml, title, bodyHtml) {
+  return `<div class="info-feature-row"><div class="info-feature-icon" aria-hidden="true">${iconHtml}</div><div class="info-feature-text"><h3>${escapeHtml(title)}</h3><p>${bodyHtml}</p></div></div>`;
+}
+
+function infoPopupBodyHtml() {
+  return `<div class="info-feature-list">
+    ${infoFeatureRow(infoMockDirectionBtn(), "Tulkojuma virziens", "Nospied, lai pārslēgtu starp <strong>DE→LV</strong> un <strong>LV→DE</strong>.")}
+    ${infoFeatureRow(infoMockToolBtn("flame", "Probl."), "Problemātiskie vārdi", "Nospied <strong>Probl.</strong>, lai mācītos vārdus, ar kuriem esi kļūdījies. Parastajā plūsmā «Nezinu» pievieno vārdu šeit; šeit «Zinu pareizi» samazina kļūdu pakāpi.")}
+    ${infoFeatureRow(infoMockToolBtn("pen", "Rakst."), "Pareizrakstība", "Nospied <strong>Rakst.</strong>, lai pirms atbildes jāieraksta vārds ar roku.")}
+    ${infoFeatureRow(infoMockModeRow(), "Sesijas intensitāte", "Izvēlies, cik vārdu mācīties vienā sesijā: <strong>Viegls · 10</strong>, <strong>Normāls · 15</strong> vai <strong>Intensīvs · 30</strong>.")}
+    ${infoFeatureRow(INFO_CARD_ICON_SVGS.speaker, "Klausīšanās", "Nospied skaļruņa ikonu kartītē, lai noklausītos izrunu.")}
+    ${infoFeatureRow(INFO_CARD_ICON_SVGS.unwanted, "Nevajadzīgie vārdi", "Nospied pārsvītroto aci kartītes stūrī — vārds pazudīs no plūsmas. Atgriezt vari sadaļā Papildu opcijas.")}
+    ${infoFeatureRow(infoMockActionRow(), "Atbildes", "<strong>Zinu pareizi</strong> — zini atbildi. <strong>Nezinu</strong> — palīdz atcerēties un pievieno problemātiskajiem. <strong>Nākamais vārds</strong> — izlaiž bez vērtējuma.")}
+    ${infoFeatureRow(infoMockExtraBtn(), "Papildu opcijas", "Atver <strong>Papildu opcijas</strong>, lai skatītu nedēļas un mēneša pārskatu, Zināmos vārdus un atgrieztu paslēptos.")}
+  </div>`;
+}
+
 const verbEntries = typeof VERB_ENTRIES !== "undefined" ? VERB_ENTRIES : (window.VERB_ENTRIES || []);
 window.COURSE_LESSONS = typeof COURSE_LESSONS !== "undefined" ? COURSE_LESSONS : (window.COURSE_LESSONS || []);
 
@@ -3219,11 +3263,13 @@ function openTimeReviewModal(mode) {
 
 function ensureInfoPopup() {
   let popup = document.getElementById("infoPopup");
-  if (popup) return popup;
+  if (popup && popup.dataset.version === INFO_POPUP_VERSION) return popup;
+  if (popup) popup.remove();
 
   popup = document.createElement("div");
   popup.className = "modal-overlay";
   popup.id = "infoPopup";
+  popup.dataset.version = INFO_POPUP_VERSION;
   popup.hidden = true;
   popup.setAttribute("role", "dialog");
   popup.setAttribute("aria-modal", "true");
@@ -3236,12 +3282,7 @@ function ensureInfoPopup() {
         <button type="button" class="modal-close" aria-label="Aizvērt">×</button>
       </header>
       <div class="info-popup-body">
-        <p><strong>Mācīšanās režīmi.</strong> Izvēlies līmeni (A1, A2 u.c.) un režīmu: jauni vārdi, atkārtojumi vai jaukts režīms.</p>
-        <p><strong>Zinu / Nezinu.</strong> Atzīmē, vai atbildi zini. Pareizas atbildes pārvieto vārdu tuvāk “iemācīts” stāvoklim.</p>
-        <p><strong>Pareizrakstība.</strong> Ieslēdz ✍️ Pareizrakstība, lai rakstītu atbildi ar roku — lieliski apgūstot rakstību.</p>
-        <p><strong>Nedēļas un mēneša pārskats.</strong> Skaties visus iemācītos vārdus no visiem līmeņiem vienā sarakstā un atgriez tos mācīšanā, ja vēlies.</p>
-        <p><strong>Problemātiskie vārdi.</strong> Katra “Nezinu” atbilde parastajā plūsmā palielina kļūdu pakāpi. Problemātiskajā grupā “Zinu pareizi” samazina pakāpi; sasniedzot 0, vārds automātiski nonāk “Zināmi”.</p>
-        <p><strong>👁️‍🗨️ Apraksts:</strong> Ja mācību laikā sastopies ar vārdu, kuru savā ikdienā neizmanto un nevēlies mācīties, uzspied uz pārsvītrotās acs ikonas kartītes augšējā stūrī. Vārds tiks paslēpts no tavas mācību plūsmas, bet vajadzības gadījumā to jebkurā brīdī varēsi atgriezt atpakaļ.</p>
+        ${infoPopupBodyHtml()}
       </div>
     </div>
   `;
