@@ -497,6 +497,8 @@
     .card.has-study-card .card-inner {
       width: 100%;
       gap: 8px;
+      min-height: 0;
+      align-content: start;
     }
 
     .card-study-extra {
@@ -7919,6 +7921,21 @@ main,
     justify-content: center;
     min-height: 0;
     width: 100%;
+  }
+
+  body.is-detail-screen .group-detail-screen > .card.has-study-card,
+  body.is-detail-screen .group-detail-screen > .card.has-rich-study-card {
+    justify-content: flex-start;
+  }
+
+  body.is-detail-screen .group-detail-screen > .card.has-study-card .card-inner,
+  body.is-detail-screen .group-detail-screen > .card.has-rich-study-card .card-inner {
+    justify-content: flex-start;
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
+    scrollbar-gutter: stable;
   }
 
   body.is-detail-screen .group-detail-screen > .controls {

@@ -6400,10 +6400,16 @@ function syncWordRain() {
 window.syncWordRain = syncWordRain;
 window.__wordRainVerbId = verbId;
 
+function resetCardScrollPosition() {
+  const cardInner = document.querySelector("article.card .card-inner");
+  if (cardInner) cardInner.scrollTop = 0;
+}
+
 function render() {
   cardAutoplayToken += 1;
   const autoplayToken = cardAutoplayToken;
   clearStudyCard();
+  resetCardScrollPosition();
   updateNavScreen();
   try {
   if (state.verbMode) {
