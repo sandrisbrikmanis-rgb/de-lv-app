@@ -2156,6 +2156,7 @@ function updateProblemWordsBtn() {
     elements.problemWordsBtn.setAttribute("title", "Problemātiskie vārdi");
   }
   elements.problemWordsBtn.classList.toggle("active", state.problemMode);
+  elements.problemWordsBtn.setAttribute("aria-pressed", state.problemMode ? "true" : "false");
 }
 
 function detailToolbarCompact() {
@@ -5117,8 +5118,18 @@ function reviewKnown() {
 }
 
 function selectProblemWords() {
+  if (state.problemMode) {
+    state.problemMode = false;
+    state.problemIndex = 0;
+    state.revealed = false;
+    setNotice("Problemātisko vārdu režīms izslēgts.");
+    render();
+    return;
+  }
+
   state.verbMode = false;
   state.problemMode = true;
+  state.spellingMode = false;
   state.reviewKnown = false;
   state.reviewLastSession = false;
   state.timeReviewMode = null;
