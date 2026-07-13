@@ -153,7 +153,7 @@ function infoPopupBodyHtml() {
     ${infoFeatureRow(infoMockDirectionBtn(), "Tulkojuma virziens", "Nospied, lai pārslēgtu starp <strong>DE→LV</strong> un <strong>LV→DE</strong>.")}
     ${infoFeatureRow(infoMockToolBtn("flame", "Probl."), "Problemātiskie vārdi", "Nospied <strong>Probl.</strong>, lai mācītos vārdus, ar kuriem esi kļūdījies. Parastajā plūsmā «Nezinu» pievieno vārdu šeit; šeit «Zinu pareizi» samazina kļūdu pakāpi.")}
     ${infoFeatureRow(infoMockToolBtn("pen", "Rakst."), "Pareizrakstība", "Nospied <strong>Rakst.</strong>, lai pirms atbildes jāieraksta vārds ar roku.")}
-    ${infoFeatureRow(infoMockModeRow(), "Sesijas intensitāte", "Izvēlies, cik vārdu mācīties vienā sesijā: <strong>Viegls · 10</strong>, <strong>Normāls · 15</strong> vai <strong>Intensīvs · 30</strong>.")}
+    ${infoFeatureRow(infoMockModeRow(), "Sesijas intensitāte", "Izvēlies, cik vārdu mācīties vienā sesijā: <strong>Viegls · 10</strong>, <strong>Normāls · 20</strong> vai <strong>Intensīvs · 30</strong>.")}
     ${infoFeatureRow(INFO_CARD_ICON_SVGS.speaker, "Klausīšanās", "Nospied skaļruņa ikonu kartītē, lai noklausītos izrunu.")}
     ${infoFeatureRow(INFO_CARD_ICON_SVGS.unwanted, "Nevajadzīgie vārdi", "Nospied pārsvītroto aci kartītes stūrī — vārds pazudīs no plūsmas. Atgriezt vari sadaļā Papildu opcijas.")}
     ${infoFeatureRow(infoMockActionRow(), "Atbildes", "<strong>Zinu pareizi</strong> — zini atbildi. <strong>Nezinu</strong> — palīdz atcerēties un pievieno problemātiskajiem. <strong>Nākamais vārds</strong> — izlaiž bez vērtējuma.")}
@@ -237,7 +237,7 @@ const masteredStorageKey = "deLvFlashcardsMastered100";
 const groupCompleteShownStorageKey = "deLvFlashcardsGroupCompleteShown";
 const sessionModes = {
   easy: { name: "Viegls", newCount: 5, reviewCount: 5, sessionMax: 10 },
-  normal: { name: "Normāls", newCount: 10, reviewCount: 5, sessionMax: 15 },
+  normal: { name: "Normāls", newCount: 15, reviewCount: 5, sessionMax: 20 },
   intense: { name: "Intensīvs", newCount: 20, reviewCount: 10, sessionMax: 30 }
 };
 
@@ -2464,6 +2464,36 @@ function shuffleSessionIds(session) {
   session.shuffled = true;
 }
 
+function pickSessionCards(newCards, reviewCards, config) {
+  const used = new Set();
+  const take = (cards, limit) => {
+    const picked = [];
+    for (const card of fisherYatesShuffle([...cards])) {
+      if (picked.length >= limit) break;
+      const id = idForSessionCard(card);
+      if (used.has(id)) continue;
+      used.add(id);
+      picked.push(card);
+    }
+    return picked;
+  };
+
+  let picked = take(newCards, config.newCount).concat(take(reviewCards, config.reviewCount));
+  const target = config.sessionMax;
+
+  if (picked.length < target) {
+    const remainingNew = newCards.filter((card) => !used.has(idForSessionCard(card)));
+    picked = picked.concat(take(remainingNew, target - picked.length));
+  }
+  if (picked.length < target) {
+    const remainingReview = reviewCards.filter((card) => !used.has(idForSessionCard(card)));
+    picked = picked.concat(take(remainingReview, target - picked.length));
+  }
+
+  fisherYatesShuffle(picked);
+  return picked.slice(0, target);
+}
+
 function createSession() {
   resetCardReveal();
   const groupKey = activeGroupKey();
@@ -2482,9 +2512,7 @@ function createSession() {
     }
   }
 
-  const picked = fisherYatesShuffle([...newCards]).slice(0, config.newCount)
-    .concat(fisherYatesShuffle([...reviewCards]).slice(0, config.reviewCount));
-  fisherYatesShuffle(picked);
+  const picked = pickSessionCards(newCards, reviewCards, config);
   const startedAt = new Date().toISOString();
   state.session = {
     groupKey,
