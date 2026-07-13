@@ -7263,6 +7263,22 @@ main,
   display: none !important;
 }
 
+.group-detail-screen .detail-screen-title {
+  margin: 0;
+  font-size: clamp(0.92rem, 3.6vw, 1.05rem);
+  line-height: 1.2;
+  font-weight: 800;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-variant-numeric: tabular-nums;
+  color: #f7f8fa;
+}
+
+.group-detail-screen .topbar-header-row {
+  min-height: 40px;
+}
+
 .home-menu-screen[hidden] {
   display: none !important;
 }
@@ -7687,6 +7703,11 @@ body.is-home-screen .home-app-shell {
     color: var(--de-text-on-gold) !important;
     -webkit-text-fill-color: var(--de-text-on-gold) !important;
     text-shadow: none !important;
+  }
+
+  .group-detail-screen .detail-screen-title {
+    font-size: clamp(0.9rem, 3.4vw, 1rem);
+    line-height: 1.2;
   }
 
   .group-detail-screen .nav-back-btn {
