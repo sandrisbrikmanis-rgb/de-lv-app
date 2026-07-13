@@ -36,7 +36,6 @@
       0 1px 0 rgba(255, 255, 255, 0.55),
       0 1px 3px rgba(0, 0, 0, 0.72),
       0 0 8px rgba(0, 0, 0, 0.35);
-    --mh-gold-text: #000000;
     position: fixed;
     inset: 0;
     width: 100%;
@@ -267,7 +266,7 @@
   /* Teikumi, Kurss, Darbības vārdi: zelta stikls (#EAC117 @ 17%) */
   .mobile-home-v2 .menu-button-container button.menu-gold {
     background-color: var(--mh-gold-glass) !important;
-    color: var(--de-text-on-gold) !important;
+    color: var(--de-text-on-dark) !important;
     border-color: rgba(0, 0, 0, 0.12) !important;
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.18) !important;
   }
@@ -323,11 +322,11 @@
 
   .mobile-home-v2 .menu-button-container button.menu-gold .mobile-menu-btn-label,
   .mobile-home-v2 .menu-button-container button.menu-gold .mobile-menu-btn-count {
-    color: var(--mh-gold-text) !important;
-    -webkit-text-fill-color: var(--mh-gold-text) !important;
+    color: var(--de-text-on-dark) !important;
+    -webkit-text-fill-color: var(--de-text-on-dark) !important;
     font-weight: 800 !important;
     opacity: 1 !important;
-    text-shadow: var(--mh-text-shadow-on-gold) !important;
+    text-shadow: var(--mh-text-shadow-on-dark) !important;
     -webkit-font-smoothing: antialiased;
   }
 
@@ -380,18 +379,18 @@
 
   html.is-home-screen .mobile-home-v2 .menu-button-container button.menu-gold {
     background-color: var(--mh-gold-glass) !important;
-    color: var(--de-text-on-gold) !important;
+    color: var(--de-text-on-dark) !important;
   }
 
   html.is-home-screen .mobile-home-v2 .menu-button-container button.menu-gold span,
   html.is-home-screen .mobile-home-v2 .menu-button-container button.menu-gold div,
   html.is-home-screen .mobile-home-v2 .menu-button-container button.menu-gold .mobile-menu-btn-label,
   html.is-home-screen .mobile-home-v2 .menu-button-container button.menu-gold .mobile-menu-btn-count {
-    color: var(--mh-gold-text) !important;
-    -webkit-text-fill-color: var(--mh-gold-text) !important;
+    color: var(--de-text-on-dark) !important;
+    -webkit-text-fill-color: var(--de-text-on-dark) !important;
     font-weight: 800 !important;
     opacity: 1 !important;
-    text-shadow: var(--mh-text-shadow-on-gold) !important;
+    text-shadow: var(--mh-text-shadow-on-dark) !important;
   }
 }
 
@@ -477,15 +476,15 @@
 
   html.is-home-screen #homeMenuScreen.mobile-home-v2 .menu-button-container button.menu-gold {
     background-color: var(--mh-gold-glass) !important;
-    color: var(--de-text-on-gold) !important;
+    color: var(--de-text-on-dark) !important;
   }
 
   html.is-home-screen #homeMenuScreen.mobile-home-v2 .menu-button-container button.menu-gold .mobile-menu-btn-label,
   html.is-home-screen #homeMenuScreen.mobile-home-v2 .menu-button-container button.menu-gold .mobile-menu-btn-count {
-    color: var(--mh-gold-text) !important;
-    -webkit-text-fill-color: var(--mh-gold-text) !important;
+    color: var(--de-text-on-dark) !important;
+    -webkit-text-fill-color: var(--de-text-on-dark) !important;
     font-weight: 800 !important;
     opacity: 1 !important;
-    text-shadow: var(--mh-text-shadow-on-gold) !important;
+    text-shadow: var(--mh-text-shadow-on-dark) !important;
   }
 }
