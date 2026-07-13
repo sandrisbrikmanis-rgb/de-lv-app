@@ -366,6 +366,7 @@ const C1_WORDS = [
     "lv": "vienģimenes māja",
     "level": "C1",
     "study": {
+      "id": "c1-einfamilienhaus",
       "layout": "standardStudy",
       "translation": "vienģimenes māja",
       "explanation": "Galvenā doma: das Einfamilienhaus ir māja vienai ģimenei. Tas parasti nozīmē atsevišķu privātmāju, nevis daudzdzīvokļu māju.",
@@ -787,6 +788,7 @@ const C1_WORDS = [
     "lv": "sabiedrība",
     "level": "C1",
     "study": {
+      "id": "c1-offentlichkeit",
       "layout": "standardStudy",
       "translation": "sabiedrība",
       "explanation": "Galvenā doma: die Öffentlichkeit nozīmē sabiedrību kā publisko telpu vai cilvēkus kopumā. Frāzē an die Öffentlichkeit kommen tas nozīmē nonākt atklātībā.",
@@ -827,6 +829,7 @@ const C1_WORDS = [
     "lv": "partija",
     "level": "C1",
     "study": {
+      "id": "c1-partei",
       "layout": "standardStudy",
       "translation": "partija",
       "explanation": "Galvenā doma: die Partei parasti ir politiska partija. Juridiskā vai konflikta valodā tā var nozīmēt arī pusi.",
@@ -895,6 +898,7 @@ const C1_WORDS = [
     "lv": "process",
     "level": "C1",
     "study": {
+      "id": "c1-prozess",
       "layout": "standardStudy",
       "translation": "process",
       "explanation": "Galvenā doma: der Prozess ir process vai norise. Tiesā der Prozess nozīmē prāvu.",
@@ -1352,6 +1356,7 @@ const C1_WORDS = [
     "lv": "izvēle",
     "level": "C1",
     "study": {
+      "id": "c1-wahl",
       "layout": "standardStudy",
       "translation": "izvēle",
       "explanation": "die Wahl var nozīmēt izvēli starp iespējām. Politikas kontekstā Wahl nozīmē vēlēšanas. Tā var nozīmēt arī pašu balsošanu. Frāze eine Wahl treffen nozīmē izdarīt izvēli. zur Wahl gehen nozīmē doties uz vēlēšanām. Konteksts par politiku vai personīgu lēmumu parāda pareizo nozīmi.",

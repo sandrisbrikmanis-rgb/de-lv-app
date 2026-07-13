@@ -179,6 +179,7 @@ const C2_WORDS = [
     "lv": "svara mērvienība",
     "level": "C2",
     "study": {
+      "id": "c2-gewichtseinheit",
       "layout": "standardStudy",
       "translation": "svara mērvienība",
       "explanation": "Galvenā doma: die Gewichtseinheit nozīmē svara mērvienību. To lieto, runājot par kilogramiem, gramiem, tonnām un citām svara/massas vienībām.",
@@ -292,6 +293,7 @@ const C2_WORDS = [
     "lv": "spējīgs",
     "level": "C2",
     "study": {
+      "id": "c2-imstande",
       "layout": "standardStudy",
       "translation": "spējīgs",
       "explanation": "Galvenā doma: imstande sein nozīmē būt spējīgam kaut ko izdarīt. Parasti seko zu + Infinitiv; forma im Stande ir pareiza, bet mūsdienās biežāk raksta imstande.",
