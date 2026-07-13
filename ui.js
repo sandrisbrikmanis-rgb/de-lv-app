@@ -94,7 +94,7 @@ const UI_ICONS = {
 const APP_ICON_SVG_ATTRS = 'viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"';
 
 const APP_ICON_PATHS = {
-  flame: '<path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.5-.5-4-2.5-6 1.5 2.5 2 4.5 2 7a5.5 5.5 0 1 1-11 0c0-3.5 1.5-5.5 2.5-6-.5 1.5-1 3-1 4.5z"></path>',
+  flame: '<path d="M12 22c3.5-2.2 5.5-5.4 5.5-9.5 0-2.2-.9-4.2-2.4-5.7C14.2 5.1 12 4.5 12 2c0 0-2 1.8-3.2 4.1C7.3 7.6 6.5 9.7 6.5 12c0 4.1 2 7.3 5.5 10z"></path><path d="M12 22c1.6-1 2.5-2.8 2.5-5 0-1.4-.6-2.7-1.6-3.6-.8-.7-1.9-1.1-2.9-1.1 0 0 .2 2.1 1.1 3.3.7 1 1.9 2.1 1.9 3.4 0 1.4-.6 2.6-1 3z"></path>',
   pen: '<path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"></path><path d="m15 5 4 4"></path>',
   trophy: '<path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path><path d="M4 22h16"></path><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"></path>',
   warning: '<path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"></path><path d="M12 9v4"></path><path d="M12 17h.01"></path>'
@@ -111,6 +111,10 @@ function buttonWithIcon(iconName, label, iconClass = "ui-icon") {
 function modeButtonHtml(mode, sessionMax) {
   const names = { easy: "Viegls", normal: "Normāls", intense: "Intensīvs" };
   return `<span class="mode-btn-label"><span class="mode-dot mode-dot--${mode}" aria-hidden="true"></span><span class="mode-btn-text">${escapeHtml(names[mode])} · ${sessionMax}</span></span>`;
+}
+
+function compactToolButtonHtml(iconName, shortLabel) {
+  return `<span class="detail-tool-btn-content"><span class="detail-tool-btn-icon">${appIconSvg(iconName, "ui-icon ui-icon--tool-compact")}</span><span class="detail-tool-btn-text">${escapeHtml(shortLabel)}</span></span>`;
 }
 
 const verbEntries = typeof VERB_ENTRIES !== "undefined" ? VERB_ENTRIES : (window.VERB_ENTRIES || []);
@@ -2160,7 +2164,7 @@ function updateProblemWordsBtn() {
   const ariaLabel = count ? `Problemātiskie vārdi (${count})` : "Problemātiskie vārdi";
   if (compact) {
     const badge = count ? `<span class="detail-tool-badge">${count}</span>` : "";
-    elements.problemWordsBtn.innerHTML = `${appIconSvg("flame", "ui-icon ui-icon--tool")}${badge}`;
+    elements.problemWordsBtn.innerHTML = `${compactToolButtonHtml("flame", "Probl.")}${badge}`;
     elements.problemWordsBtn.classList.remove("ui-btn-with-icon");
   } else {
     const label = count ? `Problemātiskie vārdi (${count})` : "Problemātiskie vārdi";
@@ -2181,7 +2185,7 @@ function updateDetailToolbarButtons() {
   updateProblemWordsBtn();
   if (!elements.spellingModeBtn) return;
   if (detailToolbarCompact()) {
-    elements.spellingModeBtn.innerHTML = appIconSvg("pen", "ui-icon ui-icon--tool");
+    elements.spellingModeBtn.innerHTML = compactToolButtonHtml("pen", "Rakst.");
     elements.spellingModeBtn.classList.remove("ui-btn-with-icon");
   } else {
     elements.spellingModeBtn.innerHTML = buttonWithIcon("pen", "Pareizrakstība");

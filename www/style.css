@@ -7085,6 +7085,37 @@ main,
   height: 22px;
 }
 
+.ui-icon--tool-compact {
+  width: 16px;
+  height: 16px;
+}
+
+.detail-tool-btn-content {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  min-width: 0;
+  pointer-events: none;
+}
+
+.detail-tool-btn-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+}
+
+.detail-tool-btn-text {
+  font-size: 0.58rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.01em;
+  opacity: 0.92;
+  white-space: nowrap;
+}
+
 .ui-icon--warning {
   color: #fbbf24;
 }
