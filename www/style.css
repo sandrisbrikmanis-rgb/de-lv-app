@@ -7352,6 +7352,64 @@ main,
   box-shadow: 0 0 0 2px rgba(66, 165, 255, 0.35);
 }
 
+@media (max-width: 768px) {
+  .group-detail-screen .detail-tools-row .detail-direction-btn.stat {
+    min-height: 40px !important;
+    height: 40px !important;
+    max-height: 40px !important;
+    padding: 0 6px !important;
+  }
+
+  .group-detail-screen .detail-tools-row #problemWordsBtn,
+  .group-detail-screen .detail-tools-row #spellingModeBtn {
+    width: 100% !important;
+    min-width: 0 !important;
+    height: 40px !important;
+    min-height: 40px !important;
+    max-height: 40px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 1.1rem !important;
+    font-weight: 700 !important;
+    line-height: 1 !important;
+    text-align: center !important;
+    border-radius: 10px !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    background: rgba(255, 255, 255, 0.08) !important;
+    background-image: none !important;
+    color: #ffffff !important;
+    box-shadow: none !important;
+    -webkit-appearance: none !important;
+    appearance: none !important;
+  }
+
+  .group-detail-screen .detail-tools-row #problemWordsBtn:hover,
+  .group-detail-screen .detail-tools-row #spellingModeBtn:hover {
+    border-color: rgba(255, 255, 255, 0.34) !important;
+    background: rgba(255, 255, 255, 0.14) !important;
+    background-image: none !important;
+    box-shadow: none !important;
+  }
+
+  .group-detail-screen .detail-tools-row #problemWordsBtn.active {
+    border-color: #ff8c1a !important;
+    background: rgba(230, 92, 0, 0.38) !important;
+    background-image: none !important;
+    box-shadow: 0 0 0 2px rgba(255, 140, 26, 0.35) !important;
+  }
+
+  .group-detail-screen .detail-tools-row #spellingModeBtn.active,
+  .group-detail-screen .detail-tools-row #spellingModeBtn.spelling-active {
+    border-color: #42a5ff !important;
+    background: rgba(33, 99, 235, 0.38) !important;
+    background-image: none !important;
+    box-shadow: 0 0 0 2px rgba(66, 165, 255, 0.35) !important;
+  }
+}
+
 @media (min-width: 769px) {
   .group-detail-screen .detail-tools-row {
     display: grid;
