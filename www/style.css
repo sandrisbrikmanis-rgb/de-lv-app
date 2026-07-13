@@ -7406,13 +7406,21 @@ main,
     order: 2;
   }
 
+  .group-detail-screen .mobile-extra-options #masteredListBtn,
+  .group-detail-screen .mobile-extra-options #unwantedListBtn {
+    min-width: 0;
+    font-size: clamp(0.72rem, 2.8vw, 0.86rem);
+    line-height: 1.15;
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+
   .group-detail-screen .mobile-extra-options #masteredListBtn {
     order: 3;
   }
 
   .group-detail-screen .mobile-extra-options #unwantedListBtn {
     order: 4;
-    grid-column: 1 / -1;
   }
 
   .group-detail-screen .mobile-extra-options #restoreBtn {
