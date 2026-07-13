@@ -7402,6 +7402,21 @@ main,
     background-color: #000000 !important;
     background-image: none;
   }
+
+  body.is-home-screen .home-menu-screen.mobile-home-v2 {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
+    min-height: 100vh;
+  }
+
+  body.is-home-screen .home-menu-screen.mobile-home-v2 .home-menu-groups {
+    display: flex !important;
+    flex-direction: column !important;
+    grid-template-columns: none !important;
+  }
 }
 
 @media (min-width: 769px) {

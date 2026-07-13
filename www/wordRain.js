@@ -41,6 +41,7 @@
   function isWordRainEnabled() {
     const platform = window.Capacitor?.getPlatform?.();
     if (platform === "ios" || platform === "android") return false;
+    if (document.body?.classList?.contains?.("is-home-screen")) return false;
     if (window.innerWidth < MIN_WIDTH) return false;
     if (window.matchMedia?.("(prefers-reduced-motion: reduce)")?.matches) return false;
     return true;
