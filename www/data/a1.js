@@ -923,7 +923,6 @@ const A1_WORDS = [
     {
       "de": "April",
       "de_article": "der",
-      "de_plural": "die Aprile",
       "lv": "aprīlis",
       "level": "A1"
     },
@@ -1183,7 +1182,6 @@ const A1_WORDS = [
     {
       "de": "August",
       "de_article": "der",
-      "de_plural": "die Auguste",
       "lv": "augusts",
       "level": "A1"
     },
@@ -3920,7 +3918,6 @@ const A1_WORDS = [
     {
       "de": "Dezember",
       "de_article": "der",
-      "de_plural": "die Dezember",
       "lv": "decembris",
       "level": "A1"
     },
@@ -6021,7 +6018,6 @@ const A1_WORDS = [
     {
       "de": "Februar",
       "de_article": "der",
-      "de_plural": "die Februare",
       "lv": "februāris",
       "level": "A1"
     },
@@ -8799,7 +8795,6 @@ const A1_WORDS = [
     {
       "de": "Januar",
       "de_article": "der",
-      "de_plural": "die Januare",
       "lv": "janvāris",
       "level": "A1"
     },
@@ -8826,7 +8821,6 @@ const A1_WORDS = [
     {
       "de": "Juli",
       "de_article": "der",
-      "de_plural": "die Julis",
       "lv": "jūlijs",
       "level": "A1"
     },
@@ -8838,7 +8832,6 @@ const A1_WORDS = [
     {
       "de": "Juni",
       "de_article": "der",
-      "de_plural": "die Junis",
       "lv": "jūnijs",
       "level": "A1"
     },
@@ -11347,7 +11340,6 @@ const A1_WORDS = [
     {
       "de": "Mai",
       "de_article": "der",
-      "de_plural": "die Maie",
       "lv": "maijs",
       "level": "A1"
     },
@@ -11863,7 +11855,6 @@ const A1_WORDS = [
     {
       "de": "März",
       "de_article": "der",
-      "de_plural": "die Märze",
       "lv": "marts",
       "level": "A1"
     },
@@ -13393,7 +13384,6 @@ const A1_WORDS = [
     {
       "de": "November",
       "de_article": "der",
-      "de_plural": "die November",
       "lv": "novembris",
       "level": "A1"
     },
@@ -13933,7 +13923,6 @@ const A1_WORDS = [
     {
       "de": "Oktober",
       "de_article": "der",
-      "de_plural": "die Oktober",
       "lv": "oktobris",
       "level": "A1"
     },
@@ -15624,7 +15613,6 @@ const A1_WORDS = [
     {
       "de": "September",
       "de_article": "der",
-      "de_plural": "die September",
       "lv": "septembris",
       "level": "A1"
     },
