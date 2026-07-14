@@ -215,6 +215,7 @@ const GOETHE_NOUNS = {
   Sport: { article: "der", singularOnly: true },
   Sprache: { article: "die", plural: "Sprachen" },
   Stadt: { article: "die", plural: "Städte" },
+  Staat: { article: "der", plural: "Staaten" },
   Strand: { article: "der", plural: "Strände" },
   Straße: { article: "die", plural: "Straßen" },
   Stück: { article: "das", plural: "Stücke" },
@@ -275,7 +276,21 @@ const COMPARISON_CARD_IDS = new Set([
   "compare-ferien-urlaub",
   "compare-geschwister-eltern",
   "compare-kleidung-jeans-hose",
+  "compare-stadt-staat",
+  "compare-uhr-zeit",
 ]);
+
+// Required subtitles: nouns must include articles (der/die/das)
+const COMPARISON_SUBTITLES = {
+  "compare-fernsehen-fernsehen": "fernsehen • das Fernsehen",
+  "compare-appetit-essen": "der Appetit • essen • das Essen",
+  "compare-gemuese-obst": "das Gemüse • das Obst",
+  "compare-ferien-urlaub": "die Ferien • der Urlaub",
+  "compare-geschwister-eltern": "die Geschwister • die Eltern",
+  "compare-kleidung-jeans-hose": "die Kleidung • die Jeans • die Hose",
+  "compare-stadt-staat": "die Stadt • der Staat",
+  "compare-uhr-zeit": "die Uhr • die Zeit",
+};
 
 // Base words covered by comparison cards — absence from standalone entries is OK
 const COMPARISON_COVERED_WORDS = new Set([
@@ -285,6 +300,8 @@ const COMPARISON_COVERED_WORDS = new Set([
   "Ferien", "Urlaub",
   "Geschwister", "Eltern",
   "Kleidung", "Jeans", "Hose",
+  "Stadt", "Staat",
+  "Uhr", "Zeit",
 ]);
 
 function loadA1() {
@@ -413,12 +430,47 @@ function audit(words) {
   return fixes;
 }
 
+function auditComparisonSubtitles(words) {
+  const fixes = [];
+  for (const word of words) {
+    const id = word.study?.id;
+    if (!id || !COMPARISON_CARD_IDS.has(id)) continue;
+    const expected = COMPARISON_SUBTITLES[id];
+    if (!expected) continue;
+    if (word.study.subtitle !== expected) {
+      fixes.push({
+        de: word.de,
+        old: `{ subtitle: "${word.study.subtitle}" }`,
+        reason: `Izlabots comparisonStudy subtitle (${word.study.subtitle} → ${expected})`,
+        changes: { subtitle: expected, studyId: id },
+      });
+    }
+  }
+  return fixes;
+}
+
 function applyFixes(words, fixList) {
   const byDe = new Map();
-  for (const f of fixList) byDe.set(f.de, { ...(byDe.get(f.de) || {}), ...f.changes });
+  const subtitleById = new Map();
+  for (const f of fixList) {
+    if (f.changes?.studyId && f.changes?.subtitle) {
+      subtitleById.set(f.changes.studyId, f.changes.subtitle);
+      continue;
+    }
+    byDe.set(f.de, { ...(byDe.get(f.de) || {}), ...f.changes });
+  }
 
   const result = [];
   for (const word of words) {
+    const studyId = word.study?.id;
+    if (studyId && subtitleById.has(studyId)) {
+      result.push({
+        ...word,
+        study: { ...word.study, subtitle: subtitleById.get(studyId) },
+      });
+      continue;
+    }
+
     const changes = byDe.get(word.de);
     if (changes?.removeEntry) continue;
 
@@ -450,7 +502,7 @@ function serializeWords(words) {
 
 // --- main ---
 const words = loadA1();
-let fixes = audit(words);
+let fixes = [...audit(words), ...auditComparisonSubtitles(words)];
 
 // Deduplicate and merge fixes per word for reporting
 const report = [];
