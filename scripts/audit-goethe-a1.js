@@ -253,6 +253,23 @@ const GOETHE_NOUNS = {
   Butter: { article: "die", singularOnly: true },
 };
 
+/** Mēneši — Singularetantum (ikdienā nav daudzskaitļa; A1 līmenī tikai vienskaitlis). */
+const GOETHE_A1_MONTHS = {
+  Januar: { article: "der", singularOnly: true },
+  Februar: { article: "der", singularOnly: true },
+  März: { article: "der", singularOnly: true },
+  April: { article: "der", singularOnly: true },
+  Mai: { article: "der", singularOnly: true },
+  Juni: { article: "der", singularOnly: true },
+  Juli: { article: "der", singularOnly: true },
+  August: { article: "der", singularOnly: true },
+  September: { article: "der", singularOnly: true },
+  Oktober: { article: "der", singularOnly: true },
+  November: { article: "der", singularOnly: true },
+  Dezember: { article: "der", singularOnly: true },
+};
+Object.assign(GOETHE_NOUNS, GOETHE_A1_MONTHS);
+
 // Nouns that duplicate an existing verb entry — remove noun, keep verb
 const DUPLICATE_NOUNS_TO_REMOVE = new Set(["Leben", "Kosten"]);
 
@@ -624,6 +641,12 @@ const adjInDb = words.filter(
 const adjOk = adjInDb.every((w) => !w.de_article && !w.de_plural && w.de === w.de.toLowerCase());
 console.log(`Adjectives in DB: ${adjInDb.length}`);
 console.log(`Adjective articles OK: ${adjOk ? "yes" : "check needed"}\n`);
+
+const monthsInDb = words.filter((w) => GOETHE_A1_MONTHS[w.de]);
+const monthsOk = monthsInDb.length === 12
+  && monthsInDb.every((w) => w.de_article === "der" && !w.de_plural);
+console.log(`Months in DB: ${monthsInDb.length}/12`);
+console.log(`Months Singularetantum OK: ${monthsOk ? "yes" : "check needed"}\n`);
 
 if (FIX && report.length > 0) {
   const allChanges = [...merged.values()].map((m) => ({ de: m.de, changes: m.changes }));
