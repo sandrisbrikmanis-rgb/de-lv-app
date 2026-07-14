@@ -1,0 +1,128 @@
+[
+  {
+    "de": "Lebensbedingungen",
+    "old": "{ de: \"Lebensbedingungen\", art: die, pl: die Lebensbedingungens, lv: \"dzīves apstākļi\" }",
+    "new": "{ de: \"Lebensbedingungen\", art: die, pl: die Lebensbedingungen, lv: \"dzīves apstākļi\" }",
+    "reason": "Izlabota daudzskaitļa forma (die Lebensbedingungens → die Lebensbedingungen)"
+  },
+  {
+    "de": "imstande / im Stande",
+    "old": "{ de: \"imstande / im Stande\", lv: \"spējīgs\" }",
+    "new": "(sadalīts 2 homoņos)",
+    "reason": "Sadalīts homoņu ieraksts (HOMONYM_KEEP_SEPARATE)"
+  },
+  {
+    "de": "instand / in Stand",
+    "old": "{ de: \"instand / in Stand\", lv: \"kārtībā\" }",
+    "new": "(sadalīts 2 homoņos)",
+    "reason": "Sadalīts homoņu ieraksts (HOMONYM_KEEP_SEPARATE)"
+  },
+  {
+    "de": "inwiefern / inwieweit",
+    "old": "{ de: \"inwiefern / inwieweit\", lv: \"cik lielā mērā\" }",
+    "new": "(sadalīts 2 homoņos)",
+    "reason": "Sadalīts homoņu ieraksts (HOMONYM_KEEP_SEPARATE)"
+  },
+  {
+    "de": "Karre / der Karren",
+    "old": "{ de: \"Karre / der Karren\", art: die, pl: die Karre / der Karrens, lv: \"ķerra\" }",
+    "new": "(sadalīts 2 homoņos)",
+    "reason": "Sadalīts homoņu ieraksts (HOMONYM_KEEP_SEPARATE)"
+  },
+  {
+    "de": "Baugenossenschaft",
+    "old": "{ de: \"Baugenossenschaft\", art: die, pl: die Baugenossenschafts, lv: \"dzīvokļu celtniecības kooperatīvs\" }",
+    "new": "{ de: \"Baugenossenschaft\", art: die, pl: die Baugenossenschaften, lv: \"dzīvokļu celtniecības kooperatīvs\" }",
+    "reason": "Izlabota daudzskaitļa forma (die Baugenossenschafts → die Baugenossenschaften)"
+  },
+  {
+    "de": "Besatzungstruppen",
+    "old": "{ de: \"Besatzungstruppen\", art: die, pl: die Besatzungstruppens, lv: \"okupācijas karaspēks\" }",
+    "new": "{ de: \"Besatzungstruppen\", art: die, pl: die Besatzungstruppen, lv: \"okupācijas karaspēks\" }",
+    "reason": "Izlabota daudzskaitļa forma (die Besatzungstruppens → die Besatzungstruppen)"
+  },
+  {
+    "de": "Sittlichkeitsdelikt",
+    "old": "{ de: \"Sittlichkeitsdelikt\", art: das, pl: die Sittlichkeitsdelikts, lv: \"tikumības normu pārkāpums\" }",
+    "new": "{ de: \"Sittlichkeitsdelikt\", art: das, pl: die Sittlichkeitsdelikte, lv: \"tikumības normu pārkāpums\" }",
+    "reason": "Izlabota daudzskaitļa forma (die Sittlichkeitsdelikts → die Sittlichkeitsdelikte)"
+  },
+  {
+    "de": "Entbindungsanstalt",
+    "old": "{ de: \"Entbindungsanstalt\", art: die, pl: die Entbindungsanstalts, lv: \"dzemdību nams\" }",
+    "new": "{ de: \"Entbindungsanstalt\", art: die, pl: die Entbindungsanstalten, lv: \"dzemdību nams\" }",
+    "reason": "Izlabota daudzskaitļa forma (die Entbindungsanstalts → die Entbindungsanstalten)"
+  },
+  {
+    "de": "Friedensbedingungen",
+    "old": "{ de: \"Friedensbedingungen\", art: die, pl: die Friedensbedingungens, lv: \"miera nosacījumi\" }",
+    "new": "{ de: \"Friedensbedingungen\", art: die, pl: die Friedensbedingungen, lv: \"miera nosacījumi\" }",
+    "reason": "Izlabota daudzskaitļa forma (die Friedensbedingungens → die Friedensbedingungen)"
+  },
+  {
+    "de": "Friedensverhandlungen",
+    "old": "{ de: \"Friedensverhandlungen\", art: die, pl: die Friedensverhandlungens, lv: \"miera sarunas\" }",
+    "new": "{ de: \"Friedensverhandlungen\", art: die, pl: die Friedensverhandlungen, lv: \"miera sarunas\" }",
+    "reason": "Izlabota daudzskaitļa forma (die Friedensverhandlungens → die Friedensverhandlungen)"
+  },
+  {
+    "de": "Führereigenschaften",
+    "old": "{ de: \"Führereigenschaften\", art: die, pl: die Führereigenschaftens, lv: \"līdera īpašības\" }",
+    "new": "{ de: \"Führereigenschaften\", art: die, pl: die Führereigenschaften, lv: \"līdera īpašības\" }",
+    "reason": "Izlabota daudzskaitļa forma (die Führereigenschaftens → die Führereigenschaften)"
+  },
+  {
+    "de": "Forschungsgemeinschaft",
+    "old": "{ de: \"Forschungsgemeinschaft\", art: die, pl: die Forschungsgemeinschafts, lv: \"pētniecības grupa\" }",
+    "new": "{ de: \"Forschungsgemeinschaft\", art: die, pl: die Forschungsgemeinschaften, lv: \"pētniecības grupa\" }",
+    "reason": "Izlabota daudzskaitļa forma (die Forschungsgemeinschafts → die Forschungsgemeinschaften)"
+  },
+  {
+    "de": "Gerechtigkeitsgefühl",
+    "old": "{ de: \"Gerechtigkeitsgefühl\", art: das, pl: die Gerechtigkeitsgefühls, lv: \"taisnīgums • taisnības izjūta\" }",
+    "new": "{ de: \"Gerechtigkeitsgefühl\", art: das, pl: die Gerechtigkeitsgefühle, lv: \"taisnīgums • taisnības izjūta\" }",
+    "reason": "Izlabota daudzskaitļa forma (die Gerechtigkeitsgefühls → die Gerechtigkeitsgefühle)"
+  },
+  {
+    "de": "Gesetzgebende Gewalt",
+    "old": "{ de: \"Gesetzgebende Gewalt\", art: die, pl: die Gesetzgebende Gewalts, lv: \"likumdevēja vara\" }",
+    "new": "{ de: \"Gesetzgebende Gewalt\", art: die, pl: die gesetzgebenden Gewalten, lv: \"likumdevēja vara\" }",
+    "reason": "Izlabota daudzskaitļa forma (die Gesetzgebende Gewalts → die gesetzgebenden Gewalten)"
+  },
+  {
+    "de": "der/die Kriegsbeschädigte",
+    "old": "{ de: \"der/die Kriegsbeschädigte\", lv: \"kara invalīds\" }",
+    "new": "(sadalīts 1 homoņos)",
+    "reason": "Sadalīts homoņu ieraksts (HOMONYM_KEEP_SEPARATE)"
+  },
+  {
+    "de": "der/die Kriegsgefangene",
+    "old": "{ de: \"der/die Kriegsgefangene\", lv: \"karagūsteknis\" }",
+    "new": "(sadalīts 1 homoņos)",
+    "reason": "Sadalīts homoņu ieraksts (HOMONYM_KEEP_SEPARATE)"
+  },
+  {
+    "de": "Lebenshaltungskosten",
+    "old": "{ de: \"Lebenshaltungskosten\", art: die, pl: die Lebenshaltungskostens, lv: \"iztikai nepieciešamie līdzekļi • izmaksas\" }",
+    "new": "{ de: \"Lebenshaltungskosten\", art: die, pl: die Lebenshaltungskosten, lv: \"iztikai nepieciešamie līdzekļi • izmaksas\" }",
+    "reason": "Izlabota daudzskaitļa forma (die Lebenshaltungskostens → die Lebenshaltungskosten)"
+  },
+  {
+    "de": "Meinungsverschiedenheiten",
+    "old": "{ de: \"Meinungsverschiedenheiten\", art: die, pl: die Meinungsverschiedenheitens, lv: \"domstarpības\" }",
+    "new": "{ de: \"Meinungsverschiedenheiten\", art: die, pl: die Meinungsverschiedenheiten, lv: \"domstarpības\" }",
+    "reason": "Izlabota daudzskaitļa forma (die Meinungsverschiedenheitens → die Meinungsverschiedenheiten)"
+  },
+  {
+    "de": "Meisterschaftsspiel",
+    "old": "{ de: \"Meisterschaftsspiel\", art: das, pl: die Meisterschaftsspiels, lv: \"meistarsacīkstes\" }",
+    "new": "{ de: \"Meisterschaftsspiel\", art: das, pl: die Meisterschaftsspiele, lv: \"meistarsacīkstes\" }",
+    "reason": "Izlabota daudzskaitļa forma (die Meisterschaftsspiels → die Meisterschaftsspiele)"
+  },
+  {
+    "de": "der/die Sachverständige",
+    "old": "{ de: \"der/die Sachverständige\", lv: \"lietpratējs • eksperts\" }",
+    "new": "(sadalīts 1 homoņos)",
+    "reason": "Sadalīts homoņu ieraksts (HOMONYM_KEEP_SEPARATE)"
+  }
+]

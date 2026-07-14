@@ -1,0 +1,188 @@
+[
+  {
+    "de": "Aktionsprogramm",
+    "old": "{ de: \"Aktionsprogramm\", art: das, pl: die Aktionsprogramms, lv: \"pasākumu programma\" }",
+    "new": "{ de: \"Aktionsprogramm\", art: das, pl: die Aktionsprogramme, lv: \"pasākumu programma\" }",
+    "reason": "Izlabota daudzskaitļa forma (die Aktionsprogramms → die Aktionsprogramme)"
+  },
+  {
+    "de": "Alarmbereitschaft",
+    "old": "{ de: \"Alarmbereitschaft\", art: die, pl: die Alarmbereitschafts, lv: \"trauksmes gatavība\" }",
+    "new": "{ de: \"Alarmbereitschaft\", art: die, pl: die Alarmbereitschaften, lv: \"trauksmes gatavība\" }",
+    "reason": "Izlabota daudzskaitļa forma (die Alarmbereitschafts → die Alarmbereitschaften)"
+  },
+  {
+    "de": "Abrüstungsabkommen",
+    "old": "{ de: \"Abrüstungsabkommen\", art: das, pl: die Abrüstungsabkommens, lv: \"atbruņošanās līgums\" }",
+    "new": "{ de: \"Abrüstungsabkommen\", art: das, pl: die Abrüstungsabkommen, lv: \"atbruņošanās līgums\" }",
+    "reason": "Izlabota daudzskaitļa forma (die Abrüstungsabkommens → die Abrüstungsabkommen)"
+  },
+  {
+    "de": "Abrüstungsverhandlungen",
+    "old": "{ de: \"Abrüstungsverhandlungen\", art: die, pl: die Abrüstungsverhandlungens, lv: \"atbruņošanās sarunas\" }",
+    "new": "{ de: \"Abrüstungsverhandlungen\", art: die, pl: die Abrüstungsverhandlungen, lv: \"atbruņošanās sarunas\" }",
+    "reason": "Izlabota daudzskaitļa forma (die Abrüstungsverhandlungens → die Abrüstungsverhandlungen)"
+  },
+  {
+    "de": "Flugwetter",
+    "old": "{ de: \"Flugwetter\", art: das, pl: die Flugwetters, lv: \"laika apstākļi lidošanai\" }",
+    "new": "{ de: \"Flugwetter\", art: das, lv: \"laika apstākļi lidošanai\" }",
+    "reason": "Noņemta mākslīga daudzskaitļa forma (Singularetantum); Noņemta izdomāta daudzskaitļa forma"
+  },
+  {
+    "de": "Frachtgeld",
+    "old": "{ de: \"Frachtgeld\", art: das, pl: die Frachtgelde, lv: \"maksa par kravas pārvadāšanu\" }",
+    "new": "{ de: \"Frachtgeld\", art: das, pl: die Frachtgelder, lv: \"maksa par kravas pārvadāšanu\" }",
+    "reason": "Izlabota daudzskaitļa forma (die Frachtgelde → die Frachtgelder)"
+  },
+  {
+    "de": "Freikörperkultur",
+    "old": "{ de: \"Freikörperkultur\", art: die, pl: die Freikörperkulturs, lv: \"nūdisms\" }",
+    "new": "{ de: \"Freikörperkultur\", art: die, pl: die Freikörperkulturen, lv: \"nūdisms\" }",
+    "reason": "Izlabota daudzskaitļa forma (die Freikörperkulturs → die Freikörperkulturen)"
+  },
+  {
+    "de": "Zivilgesetzbuch",
+    "old": "{ de: \"Zivilgesetzbuch\", art: das, pl: die Zivilgesetzbuche, lv: \"civillikums\" }",
+    "new": "{ de: \"Zivilgesetzbuch\", art: das, pl: die Zivilgesetzbücher, lv: \"civillikums\" }",
+    "reason": "Izlabota daudzskaitļa forma (die Zivilgesetzbuche → die Zivilgesetzbücher)"
+  },
+  {
+    "de": "Dampfbügeleisen",
+    "old": "{ de: \"Dampfbügeleisen\", art: das, pl: die Dampfbügeleisens, lv: \"tvaika gludeklis\" }",
+    "new": "{ de: \"Dampfbügeleisen\", art: das, pl: die Dampfbügeleisen, lv: \"tvaika gludeklis\" }",
+    "reason": "Izlabota daudzskaitļa forma (die Dampfbügeleisens → die Dampfbügeleisen)"
+  },
+  {
+    "de": "Büroangestellte",
+    "old": "{ de: \"Büroangestellte\", art: der, pl: die Büroangestellte, lv: \"biroja darbinieks\" }",
+    "new": "{ de: \"Büroangestellte\", art: der, lv: \"biroja darbinieks\" }",
+    "reason": "Noņemta kļūdaina daudzskaitļa forma (deklinējams lietvārds)"
+  },
+  {
+    "de": "Gartenerdbeere",
+    "old": "{ de: \"Gartenerdbeere\", art: die, pl: die Gartenerdbeere, lv: \"dārza zemene\" }",
+    "new": "{ de: \"Gartenerdbeere\", art: die, pl: die Gartenerdbeeren, lv: \"dārza zemene\" }",
+    "reason": "Izlabota daudzskaitļa forma (die Gartenerdbeere → die Gartenerdbeeren)"
+  },
+  {
+    "de": "Gewichtheben",
+    "old": "{ de: \"Gewichtheben\", art: das, pl: die Gewichthebens, lv: \"svarcelšana\" }",
+    "new": "{ de: \"Gewichtheben\", art: das, lv: \"svarcelšana\" }",
+    "reason": "Noņemta mākslīga daudzskaitļa forma (Singularetantum)"
+  },
+  {
+    "de": "Hausangestellte",
+    "old": "{ de: \"Hausangestellte\", art: die, pl: die Hausangestellte, lv: \"mājkalpotāja\" }",
+    "new": "{ de: \"Hausangestellte\", art: die, lv: \"mājkalpotāja\" }",
+    "reason": "Noņemta kļūdaina daudzskaitļa forma (deklinējams lietvārds)"
+  },
+  {
+    "de": "der/das Hektar",
+    "old": "{ de: \"der/das Hektar\", lv: \"hektārs\" }",
+    "new": "(sadalīts 1 homoņos)",
+    "reason": "Sadalīts homoņu ieraksts (HOMONYM_KEEP_SEPARATE)"
+  },
+  {
+    "de": "karre / Karren",
+    "old": "{ de: \"karre / Karren\", lv: \"ķerra\" }",
+    "new": "(sadalīts 2 homoņos)",
+    "reason": "Sadalīts homoņu ieraksts (HOMONYM_KEEP_SEPARATE)"
+  },
+  {
+    "de": "der/die Krüppel",
+    "old": "{ de: \"der/die Krüppel\", lv: \"kroplis\" }",
+    "new": "(sadalīts 1 homoņos)",
+    "reason": "Sadalīts homoņu ieraksts (HOMONYM_KEEP_SEPARATE)"
+  },
+  {
+    "de": "der/das Matsch",
+    "old": "{ de: \"der/das Matsch\", lv: \"mačs\" }",
+    "new": "(sadalīts 1 homoņos)",
+    "reason": "Sadalīts homoņu ieraksts (HOMONYM_KEEP_SEPARATE)"
+  },
+  {
+    "de": "Panter / Panther",
+    "old": "{ de: \"Panter / Panther\", art: der, pl: die Panter / Panther, lv: \"pantera\" }",
+    "new": "(sadalīts 2 homoņos)",
+    "reason": "Sadalīts homoņu ieraksts (HOMONYM_KEEP_SEPARATE)"
+  },
+  {
+    "de": "Rennen mit Hindernissen",
+    "old": "{ de: \"Rennen mit Hindernissen\", art: das, pl: die Rennen mit Hindernissens, lv: \"šķēršļu skrējiens\" }",
+    "new": "{ de: \"Rennen mit Hindernissen\", art: das, pl: die Rennen mit Hindernissen, lv: \"šķēršļu skrējiens\" }",
+    "reason": "Izlabota daudzskaitļa forma (die Rennen mit Hindernissens → die Rennen mit Hindernissen)"
+  },
+  {
+    "de": "Reparaturkosten",
+    "old": "{ de: \"Reparaturkosten\", art: die, pl: die Reparaturkostens, lv: \"remonta izmaksas\" }",
+    "new": "{ de: \"Reparaturkosten\", art: die, lv: \"remonta izmaksas\" }",
+    "reason": "Noņemta izdomāta daudzskaitļa forma"
+  },
+  {
+    "de": "Abschleppdienst",
+    "old": "{ de: \"Abschleppdienst\", art: der, pl: die Abschleppdienste, lv: \"dienests, kas aizvāc automašīnas no ielas\" }",
+    "new": "{ de: \"Abschleppdienst\", art: der, pl: die Abschleppdienste, lv: \"evakuācijas dienests • aizvākšanas dienests\" }",
+    "reason": "CARD TITLE: komats/garš skaidrojums → • nozīmes"
+  },
+  {
+    "de": "Betriebskosten",
+    "old": "{ de: \"Betriebskosten\", art: die, pl: die Betriebskostens, lv: \"uzņēmuma ekspluatācijas izdevumi • ražošanas izdevumi\" }",
+    "new": "{ de: \"Betriebskosten\", art: die, lv: \"uzņēmuma ekspluatācijas izdevumi • ražošanas izdevumi\" }",
+    "reason": "Noņemta izdomāta daudzskaitļa forma"
+  },
+  {
+    "de": "Führunternehmen",
+    "old": "{ de: \"Führunternehmen\", art: das, pl: die Führunternehmens, lv: \"kravas transporta uzņēmums\" }",
+    "new": "{ de: \"Führunternehmen\", art: das, pl: die Führunternehmen, lv: \"kravas transporta uzņēmums\" }",
+    "reason": "Izlabota daudzskaitļa forma (die Führunternehmens → die Führunternehmen)"
+  },
+  {
+    "de": "Haltbarkeitsdauer",
+    "old": "{ de: \"Haltbarkeitsdauer\", art: die, pl: die Haltbarkeitsdauers, lv: \"uzglabāšanas laiks\" }",
+    "new": "{ de: \"Haltbarkeitsdauer\", art: die, pl: die Haltbarkeitsdauern, lv: \"uzglabāšanas laiks\" }",
+    "reason": "Izlabota daudzskaitļa forma (die Haltbarkeitsdauers → die Haltbarkeitsdauern)"
+  },
+  {
+    "de": "Leistungssport",
+    "old": "{ de: \"Leistungssport\", art: der, pl: die Leistungssports, lv: \"profesionālais sports\" }",
+    "new": "{ de: \"Leistungssport\", art: der, lv: \"profesionālais sports\" }",
+    "reason": "Noņemta mākslīga daudzskaitļa forma (Singularetantum); Noņemta izdomāta daudzskaitļa forma"
+  },
+  {
+    "de": "Marschflugkörper",
+    "old": "{ de: \"Marschflugkörper\", art: der, pl: die Marschflugkörper, lv: \"zema lidojuma raķete, ko nevar noteikt ar radaru\" }",
+    "new": "{ de: \"Marschflugkörper\", art: der, pl: die Marschflugkörper, lv: \"kreisla lidojošā raķete • kruīzraķete\" }",
+    "reason": "CARD TITLE: komats/garš skaidrojums → • nozīmes"
+  },
+  {
+    "de": "Produktionskosten",
+    "old": "{ de: \"Produktionskosten\", art: die, pl: die Produktionskostens, lv: \"ražošanas pašizmaksa\" }",
+    "new": "{ de: \"Produktionskosten\", art: die, lv: \"ražošanas pašizmaksa\" }",
+    "reason": "Noņemta izdomāta daudzskaitļa forma"
+  },
+  {
+    "de": "Rechenschaft",
+    "old": "{ de: \"Rechenschaft\", art: die, pl: die Rechenschafts, lv: \"norēķins\" }",
+    "new": "{ de: \"Rechenschaft\", art: die, lv: \"norēķins\" }",
+    "reason": "Noņemta mākslīga daudzskaitļa forma (Singularetantum); Noņemta izdomāta daudzskaitļa forma"
+  },
+  {
+    "de": "Verhandlungen",
+    "old": "{ de: \"Verhandlungen\", art: die, pl: die Verhandlungens, lv: \"sarunas\" }",
+    "new": "{ de: \"Verhandlungen\", art: die, pl: die Verhandlungen, lv: \"sarunas\" }",
+    "reason": "Izlabota daudzskaitļa forma (die Verhandlungens → die Verhandlungen)"
+  },
+  {
+    "de": "Wasserheilanstalt",
+    "old": "{ de: \"Wasserheilanstalt\", art: die, pl: die Wasserheilanstalts, lv: \"ūdensdziedniecības iestāde\" }",
+    "new": "{ de: \"Wasserheilanstalt\", art: die, lv: \"ūdensdziedniecības iestāde\" }",
+    "reason": "Noņemta izdomāta daudzskaitļa forma"
+  },
+  {
+    "de": "Wetterleuchten",
+    "old": "{ de: \"Wetterleuchten\", art: das, pl: die Wetterleuchtens, lv: \"rūsa\" }",
+    "new": "{ de: \"Wetterleuchten\", art: das, lv: \"rūsa\" }",
+    "reason": "Noņemta mākslīga daudzskaitļa forma (Singularetantum); Noņemta izdomāta daudzskaitļa forma"
+  }
+]

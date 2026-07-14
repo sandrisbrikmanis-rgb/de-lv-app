@@ -97,7 +97,7 @@ const C2_WORDS = [
   {
     "de": "Lebensbedingungen",
     "de_article": "die",
-    "de_plural": "die Lebensbedingungens",
+    "de_plural": "die Lebensbedingungen",
     "lv": "dzīves apstākļi",
     "level": "C2"
   },
@@ -187,17 +187,17 @@ const C2_WORDS = [
         {
           "de": "Kilogramm ist eine Gewichtseinheit.",
           "lv": "kilograms ir svara mērvienība."
-  },
+        },
         {
           "de": "Welche Gewichtseinheit soll ich benutzen?",
           "lv": "kuru svara mērvienību man lietot?"
-  },
+        },
         {
           "de": "Gramm und Tonne sind Gewichtseinheiten.",
           "lv": "grams un tonna ir svara mērvienības."
-  },
-      ],
-  },
+        }
+      ]
+    }
   },
   {
     "de": "Elementarkenntnisse",
@@ -289,31 +289,6 @@ const C2_WORDS = [
     "level": "C2"
   },
   {
-    "de": "imstande / im Stande",
-    "lv": "spējīgs",
-    "level": "C2",
-    "study": {
-      "id": "c2-imstande",
-      "layout": "standardStudy",
-      "translation": "spējīgs",
-      "explanation": "Galvenā doma: imstande sein nozīmē būt spējīgam kaut ko izdarīt. Parasti seko zu + Infinitiv; forma im Stande ir pareiza, bet mūsdienās biežāk raksta imstande.",
-      "examples": [
-        {
-          "de": "Ich bin imstande, das allein zu schaffen.",
-          "lv": "es spēju to izdarīt viens pats."
-  },
-        {
-          "de": "Sie ist nicht imstande zu sprechen.",
-          "lv": "viņa nespēj runāt."
-  },
-        {
-          "de": "Bist du imstande, sofort zu kommen?",
-          "lv": "vai tu spēj tūlīt atnākt?"
-  },
-      ],
-  },
-  },
-  {
     "de": "Inhaltsverzeichnis",
     "de_article": "das",
     "de_plural": "die Inhaltsverzeichnisse",
@@ -321,20 +296,10 @@ const C2_WORDS = [
     "level": "C2"
   },
   {
-    "de": "instand / in Stand",
-    "lv": "kārtībā",
-    "level": "C2"
-  },
-  {
     "de": "Streichinstrument",
     "de_article": "das",
     "de_plural": "die Streichinstrumente",
     "lv": "stīgu instruments",
-    "level": "C2"
-  },
-  {
-    "de": "inwiefern / inwieweit",
-    "lv": "cik lielā mērā",
     "level": "C2"
   },
   {
@@ -384,13 +349,6 @@ const C2_WORDS = [
     "de_article": "der",
     "de_plural": "die Krankheitsüberträger",
     "lv": "slimības pārnēsātājs",
-    "level": "C2"
-  },
-  {
-    "de": "Karre / der Karren",
-    "de_article": "die",
-    "de_plural": "die Karre / der Karrens",
-    "lv": "ķerra",
     "level": "C2"
   },
   {
@@ -608,7 +566,7 @@ const C2_WORDS = [
   {
     "de": "Baugenossenschaft",
     "de_article": "die",
-    "de_plural": "die Baugenossenschafts",
+    "de_plural": "die Baugenossenschaften",
     "lv": "dzīvokļu celtniecības kooperatīvs",
     "level": "C2"
   },
@@ -657,7 +615,7 @@ const C2_WORDS = [
   {
     "de": "Besatzungstruppen",
     "de_article": "die",
-    "de_plural": "die Besatzungstruppens",
+    "de_plural": "die Besatzungstruppen",
     "lv": "okupācijas karaspēks",
     "level": "C2"
   },
@@ -720,7 +678,7 @@ const C2_WORDS = [
   {
     "de": "Sittlichkeitsdelikt",
     "de_article": "das",
-    "de_plural": "die Sittlichkeitsdelikts",
+    "de_plural": "die Sittlichkeitsdelikte",
     "lv": "tikumības normu pārkāpums",
     "level": "C2"
   },
@@ -809,7 +767,7 @@ const C2_WORDS = [
   {
     "de": "Entbindungsanstalt",
     "de_article": "die",
-    "de_plural": "die Entbindungsanstalts",
+    "de_plural": "die Entbindungsanstalten",
     "lv": "dzemdību nams",
     "level": "C2"
   },
@@ -870,21 +828,21 @@ const C2_WORDS = [
   {
     "de": "Friedensbedingungen",
     "de_article": "die",
-    "de_plural": "die Friedensbedingungens",
+    "de_plural": "die Friedensbedingungen",
     "lv": "miera nosacījumi",
     "level": "C2"
   },
   {
     "de": "Friedensverhandlungen",
     "de_article": "die",
-    "de_plural": "die Friedensverhandlungens",
+    "de_plural": "die Friedensverhandlungen",
     "lv": "miera sarunas",
     "level": "C2"
   },
   {
     "de": "Führereigenschaften",
     "de_article": "die",
-    "de_plural": "die Führereigenschaftens",
+    "de_plural": "die Führereigenschaften",
     "lv": "līdera īpašības",
     "level": "C2"
   },
@@ -987,7 +945,7 @@ const C2_WORDS = [
   {
     "de": "Forschungsgemeinschaft",
     "de_article": "die",
-    "de_plural": "die Forschungsgemeinschafts",
+    "de_plural": "die Forschungsgemeinschaften",
     "lv": "pētniecības grupa",
     "level": "C2"
   },
@@ -1015,7 +973,7 @@ const C2_WORDS = [
   {
     "de": "Gerechtigkeitsgefühl",
     "de_article": "das",
-    "de_plural": "die Gerechtigkeitsgefühls",
+    "de_plural": "die Gerechtigkeitsgefühle",
     "lv": "taisnīgums • taisnības izjūta",
     "level": "C2"
   },
@@ -1097,7 +1055,7 @@ const C2_WORDS = [
   {
     "de": "Gesetzgebende Gewalt",
     "de_article": "die",
-    "de_plural": "die Gesetzgebende Gewalts",
+    "de_plural": "die gesetzgebenden Gewalten",
     "lv": "likumdevēja vara",
     "level": "C2"
   },
@@ -1214,16 +1172,6 @@ const C2_WORDS = [
     "level": "C2"
   },
   {
-    "de": "der/die Kriegsbeschädigte",
-    "lv": "kara invalīds",
-    "level": "C2"
-  },
-  {
-    "de": "der/die Kriegsgefangene",
-    "lv": "karagūsteknis",
-    "level": "C2"
-  },
-  {
     "de": "Lebenserhaltungstrieb",
     "de_article": "der",
     "de_plural": "die Lebenserhaltungstriebe",
@@ -1233,7 +1181,7 @@ const C2_WORDS = [
   {
     "de": "Lebenshaltungskosten",
     "de_article": "die",
-    "de_plural": "die Lebenshaltungskostens",
+    "de_plural": "die Lebenshaltungskosten",
     "lv": "iztikai nepieciešamie līdzekļi • izmaksas",
     "level": "C2"
   },
@@ -1268,14 +1216,14 @@ const C2_WORDS = [
   {
     "de": "Meinungsverschiedenheiten",
     "de_article": "die",
-    "de_plural": "die Meinungsverschiedenheitens",
+    "de_plural": "die Meinungsverschiedenheiten",
     "lv": "domstarpības",
     "level": "C2"
   },
   {
     "de": "Meisterschaftsspiel",
     "de_article": "das",
-    "de_plural": "die Meisterschaftsspiels",
+    "de_plural": "die Meisterschaftsspiele",
     "lv": "meistarsacīkstes",
     "level": "C2"
   },
@@ -1348,11 +1296,6 @@ const C2_WORDS = [
   {
     "de": "rechtsextremistisch",
     "lv": "labēji ekstrēmistisks",
-    "level": "C2"
-  },
-  {
-    "de": "der/die Sachverständige",
-    "lv": "lietpratējs • eksperts",
     "level": "C2"
   },
   {
@@ -1481,7 +1424,72 @@ const C2_WORDS = [
     "de": "zugunsten, zu Gunsten",
     "lv": "labā • par labu",
     "level": "C2"
-  }
+  },
+  {
+    "de": "imstande",
+    "lv": "spējīgs",
+    "level": "C2"
+  },
+  {
+    "de": "im Stande",
+    "lv": "spējīgs",
+    "level": "C2"
+  },
+  {
+    "de": "instand",
+    "lv": "kārtībā",
+    "level": "C2"
+  },
+  {
+    "de": "in Stand",
+    "lv": "kārtībā",
+    "level": "C2"
+  },
+  {
+    "de": "inwiefern",
+    "lv": "cik lielā mērā",
+    "level": "C2"
+  },
+  {
+    "de": "inwieweit",
+    "lv": "cik lielā mērā",
+    "level": "C2"
+  },
+  {
+    "de": "die Karre",
+    "de_article": "die",
+    "de_plural": "die Karren",
+    "lv": "ķerra",
+    "level": "C2"
+  },
+  {
+    "de": "der Karren",
+    "de_article": "der",
+    "de_plural": "die Karren",
+    "lv": "ķerra",
+    "level": "C2"
+  },
+  {
+    "de": "der Kriegsbeschädigte",
+    "de_article": "der",
+    "de_plural": "die Kriegsbeschädigten",
+    "lv": "kara invalīds",
+    "level": "C2"
+  },
+  {
+    "de": "der Kriegsgefangene",
+    "de_article": "der",
+    "de_plural": "die Kriegsgefangenen",
+    "lv": "karagūsteknis",
+    "level": "C2"
+  },
+  {
+    "de": "der Sachverständige",
+    "de_article": "der",
+    "de_plural": "die Sachverständigen",
+    "lv": "lietpratējs • eksperts",
+    "level": "C2"
+  },
 ];
 
 window.C2_WORDS = C2_WORDS;
