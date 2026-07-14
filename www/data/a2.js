@@ -20052,8 +20052,390 @@ const A2_WORDS = [
   {
     "de": "Dank",
     "de_article": "der",
-    "lv": "pateicība • paldies",
-    "level": "A2"
+    "lv": "Pateicība • Paldies",
+    "level": "A2",
+    "study": {
+      "id": "study-der-dank",
+      "layout": "standardStudy",
+      "translation": "Pateicība • Paldies",
+      "explanation": [
+        "Galvenā doma: der Dank ir lietvārds un nozīmē pateicību kā jēdzienu.",
+        "Biežāk sastopamās frāzes ir Vielen Dank! un Herzlichen Dank! — tās nozīmē „liels paldies!” un „sirsnīgs paldies!”.",
+        "danke ir atbilde vai īss pateicības vārds sarunā: „paldies”.",
+        "danken ir darbības vārds: „pateikties”. Ar Dativ: Ich danke dir.",
+        "der Dank nav tas pats, kas danke: Dank ir lietvārds, danke ir sarunvalodas atbilde."
+      ],
+      "examples": [
+        {
+          "de": "Vielen Dank!",
+          "lv": "liels paldies!"
+        },
+        {
+          "de": "Herzlichen Dank!",
+          "lv": "sirsnīgs paldies!"
+        },
+        {
+          "de": "Danke schön!",
+          "lv": "liels paldies!"
+        },
+        {
+          "de": "Nein, danke.",
+          "lv": "nē, paldies."
+        },
+        {
+          "de": "Ich danke Ihnen für die Hilfe.",
+          "lv": "es pateicos jums par palīdzību."
+        },
+        {
+          "de": "Ich danke dir für das Geschenk.",
+          "lv": "es pateicos tev par dāvanu."
+        },
+        {
+          "de": "Zum Schluss nochmals herzlichen Dank.",
+          "lv": "noslēgumā vēlreiz sirsnīgs paldies."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Dank",
+          "meaning": "pateicība (lietvārds)",
+          "example": "Herzlichen Dank! = Sirsnīgs paldies!"
+        },
+        {
+          "word": "danke",
+          "meaning": "paldies (atbilde)",
+          "example": "Nein, danke. = Nē, paldies."
+        },
+        {
+          "word": "danken",
+          "meaning": "pateikties",
+          "example": "Ich danke dir. = Es tev pateicos."
+        },
+        {
+          "word": "Vielen Dank",
+          "meaning": "liels paldies (frāze)",
+          "example": "Vielen Dank für die Hilfe! = Liels paldies par palīdzību!"
+        },
+        {
+          "word": "bedanken (sich)",
+          "meaning": "pateikties formāli",
+          "example": "Ich bedanke mich bei Ihnen. = Es pateicos jums."
+        }
+      ],
+      "tip": {
+        "leftBlocks": [
+          {
+            "text": "Īsai atbildei sarunā lieto danke: Danke! / Nein, danke."
+          },
+          {
+            "text": "Formālākai pateicībai lieto Vielen Dank! vai Ich danke Ihnen."
+          }
+        ]
+      },
+      "important": {
+        "text": "der Dank ir lietvārds; danke ir atbilde; danken ir darbības vārds.",
+        "example": "Vielen Dank! = Liels paldies! Ich danke dir. = Es tev pateicos. Danke! = Paldies!"
+      },
+      "sectionAccents": {
+        "explanation": {
+          "de": {
+            "blue": [
+              "Dank",
+              "Vielen Dank",
+              "Herzlichen Dank",
+              "danke",
+              "danken"
+            ]
+          },
+          "lv": {
+            "purple": [
+              "pateicība",
+              "paldies",
+              "pateikties",
+              "liels paldies",
+              "sirsnīgs paldies"
+            ]
+          }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Vielen",
+                "Dank"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "liels paldies"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Herzlichen",
+                "Dank"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sirsnīgs paldies"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Danke",
+                "schön"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "liels paldies"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "danke"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "paldies"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "danke",
+                "Ihnen"
+              ],
+              "green": [
+                "Hilfe"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pateicos",
+                "palīdzību"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "danke",
+                "dir"
+              ],
+              "yellow": [
+                "Geschenk"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pateicos",
+                "dāvanu"
+              ],
+              "green": [
+                "tev"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Dank",
+                "herzlichen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sirsnīgs paldies",
+                "noslēgumā"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "blue": [
+                "Dank"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pateicība",
+                "lietvārds"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Herzlichen",
+                "Dank"
+              ],
+              "purple": [
+                "sirsnīgs paldies"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "danke"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "paldies",
+                "atbilde"
+              ]
+            },
+            "example": {
+              "green": [
+                "danke"
+              ],
+              "purple": [
+                "paldies"
+              ]
+            }
+          },
+          {
+            "word": {
+              "blue": [
+                "danken"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pateikties"
+              ]
+            },
+            "example": {
+              "blue": [
+                "danke",
+                "dir"
+              ],
+              "purple": [
+                "pateicos"
+              ],
+              "green": [
+                "tev"
+              ]
+            }
+          },
+          {
+            "word": {
+              "blue": [
+                "Vielen",
+                "Dank"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "liels paldies"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Vielen",
+                "Dank",
+                "Hilfe"
+              ],
+              "purple": [
+                "liels paldies",
+                "palīdzību"
+              ]
+            }
+          },
+          {
+            "word": {
+              "orange": [
+                "bedanken"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pateikties formāli"
+              ]
+            },
+            "example": {
+              "orange": [
+                "bedanke",
+                "mich"
+              ],
+              "purple": [
+                "pateicos"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "green": [
+                  "danke"
+                ],
+                "purple": [
+                  "atbildei",
+                  "paldies"
+                ]
+              }
+            },
+            {
+              "text": {
+                "blue": [
+                  "Vielen Dank",
+                  "danke Ihnen"
+                ],
+                "purple": [
+                  "formālākai",
+                  "pateicībai"
+                ]
+              }
+            }
+          ]
+        },
+        "important": [
+          {
+            "text": {
+              "blue": [
+                "Dank"
+              ],
+              "green": [
+                "danke"
+              ],
+              "orange": [
+                "danken"
+              ],
+              "purple": [
+                "lietvārds",
+                "atbilde",
+                "darbības vārds"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Vielen Dank",
+                "danke",
+                "dir"
+              ],
+              "purple": [
+                "liels paldies",
+                "pateicos",
+                "paldies"
+              ]
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "de": "darauf",
@@ -46188,8 +46570,9 @@ const A2_WORDS = [
   },
   {
     "de": "Möbel",
-    "de_article": "die",
-    "lv": "mēbele",
+    "de_article": "das",
+    "de_plural": "die Möbel",
+    "lv": "mēbele • mēbeles",
     "level": "A2"
   },
   {
@@ -57119,7 +57502,8 @@ const A2_WORDS = [
   {
     "de": "Spaß",
     "de_article": "der",
-    "lv": "joks",
+    "de_plural": "die Späße",
+    "lv": "joks • jautrība",
     "level": "A2"
   },
   {
@@ -63118,6 +63502,7 @@ const A2_WORDS = [
   {
     "de": "Urlaub",
     "de_article": "der",
+    "de_plural": "die Urlaube",
     "lv": "atvaļinājums",
     "level": "A2"
   },

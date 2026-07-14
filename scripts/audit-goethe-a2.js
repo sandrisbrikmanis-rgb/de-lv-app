@@ -79,7 +79,7 @@ const GOETHE_A2_NOUNS = {
   Ruhe: { article: "die", singularOnly: true },
   Schnee: { article: "der", singularOnly: true },
   Service: { article: "der", singularOnly: true },
-  Spaß: { article: "der", singularOnly: true },
+  Spaß: { article: "der", plural: "Späße" },
   Sport: { article: "der", singularOnly: true },
   Stress: { article: "der", singularOnly: true },
   Studium: { article: "das", singularOnly: true },
@@ -87,7 +87,7 @@ const GOETHE_A2_NOUNS = {
   Tennis: { article: "das", singularOnly: true },
   Theater: { article: "das", plural: "Theater" },
   Unterricht: { article: "der", singularOnly: true },
-  Urlaub: { article: "der", singularOnly: true },
+  Urlaub: { article: "der", plural: "Urlaube" },
   Verkehr: { article: "der", singularOnly: true },
   Wasser: { article: "das", singularOnly: true },
   Wetter: { article: "das", singularOnly: true },
@@ -97,7 +97,7 @@ const GOETHE_A2_NOUNS = {
   Eltern: { article: "die", pluralOnly: true },
   Großeltern: { article: "die", pluralOnly: true },
   Leute: { article: "die", pluralOnly: true },
-  Möbel: { article: "die", pluralOnly: true },
+  Möbel: { article: "das", plural: "Möbel" },
   Papiere: { article: "die", pluralOnly: true },
 };
 
