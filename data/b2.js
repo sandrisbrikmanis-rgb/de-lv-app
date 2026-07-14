@@ -244,9 +244,31 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich abfinden mit + Dativ",
+    "de": "sich abfinden",
     "lv": "samierināties ar",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-abfinden",
+      "layout": "minimalStudy",
+      "translation": "samierināties ar",
+      "rektion": "mit + Dativ",
+      "explanation": "sich abfinden prasa fiksētu prievārdu mit + Dativ.",
+      "forms": "mit + Dativ",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich abfinden"
+          ],
+          "red": [
+            "mit + Dativ"
+          ],
+          "purple": [
+            "samierināties ar"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "abgesehen",
@@ -438,9 +460,31 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich abwenden von + Dativ",
-    "lv": "novērsties",
-    "level": "B2"
+    "de": "sich abwenden",
+    "lv": "novērsties no",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-abwenden",
+      "layout": "minimalStudy",
+      "translation": "novērsties no",
+      "rektion": "von + Dativ",
+      "explanation": "sich abwenden prasa fiksētu prievārdu von + Dativ.",
+      "forms": "von + Dativ",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich abwenden"
+          ],
+          "red": [
+            "von + Dativ"
+          ],
+          "purple": [
+            "novērsties no"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "abzweigung",
@@ -874,9 +918,31 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich befassen mit + Dativ",
-    "lv": "nodarboties • noņemties",
-    "level": "B2"
+    "de": "sich befassen",
+    "lv": "nodarboties ar",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-befassen",
+      "layout": "minimalStudy",
+      "translation": "nodarboties ar",
+      "rektion": "mit + Dativ",
+      "explanation": "sich befassen prasa fiksētu prievārdu mit + Dativ.",
+      "forms": "mit + Dativ",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich befassen"
+          ],
+          "red": [
+            "mit + Dativ"
+          ],
+          "purple": [
+            "nodarboties ar"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Beförderung",
@@ -908,9 +974,31 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich begnügen mit + Dativ",
-    "lv": "apmierināties ar • būt mierā",
-    "level": "B2"
+    "de": "sich begnügen",
+    "lv": "apmierināties ar",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-begnuegen",
+      "layout": "minimalStudy",
+      "translation": "apmierināties ar",
+      "rektion": "mit + Dativ",
+      "explanation": "sich begnügen prasa fiksētu prievārdu mit + Dativ.",
+      "forms": "mit + Dativ",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich begnügen"
+          ],
+          "red": [
+            "mit + Dativ"
+          ],
+          "purple": [
+            "apmierināties ar"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "begünstigen",
@@ -1068,9 +1156,32 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich bemächtigen + Genitiv",
-    "lv": "sagrābt • saņemt savā varā • piesavināties",
-    "level": "B2"
+    "de": "sich bemächtigen",
+    "lv": "sagrābt • saņemt savā varā",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-bemaechtigen",
+      "layout": "minimalStudy",
+      "translation": "sagrābt • saņemt savā varā",
+      "rektion": "+ Genitiv",
+      "explanation": "sich bemächtigen mūsdienu vāciski lieto ar Genitiv bez prievārda.",
+      "forms": "+ Genitiv",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich bemächtigen"
+          ],
+          "red": [
+            "+ Genitiv"
+          ],
+          "purple": [
+            "sagrābt",
+            "saņemt savā varā"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Benennung",
@@ -1138,9 +1249,31 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich berufen auf + Akkusativ",
+    "de": "sich berufen",
     "lv": "atsaukties uz",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-berufen",
+      "layout": "minimalStudy",
+      "translation": "atsaukties uz",
+      "rektion": "auf + Akkusativ",
+      "explanation": "sich berufen prasa fiksētu prievārdu auf + Akkusativ.",
+      "forms": "auf + Akkusativ",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich berufen"
+          ],
+          "red": [
+            "auf + Akkusativ"
+          ],
+          "purple": [
+            "atsaukties uz"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "beruhen",
@@ -1175,9 +1308,31 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich beschränken auf + Akkusativ",
-    "lv": "ierobežoties ar • aprobežoties",
-    "level": "B2"
+    "de": "sich beschränken",
+    "lv": "ierobežoties ar",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-beschraenken",
+      "layout": "minimalStudy",
+      "translation": "ierobežoties ar",
+      "rektion": "auf + Akkusativ",
+      "explanation": "sich beschränken prasa fiksētu prievārdu auf + Akkusativ.",
+      "forms": "auf + Akkusativ",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich beschränken"
+          ],
+          "red": [
+            "auf + Akkusativ"
+          ],
+          "purple": [
+            "ierobežoties ar"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Beschützer",
@@ -1256,9 +1411,32 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich betätigen in + Dativ",
+    "de": "sich betätigen",
     "lv": "darboties • piedalīties",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-betaetigen",
+      "layout": "minimalStudy",
+      "translation": "darboties • piedalīties",
+      "rektion": "in + Dativ",
+      "explanation": "sich betätigen prasa fiksētu prievārdu in + Dativ.",
+      "forms": "in + Dativ",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich betätigen"
+          ],
+          "red": [
+            "in + Dativ"
+          ],
+          "purple": [
+            "darboties",
+            "piedalīties"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Betäubung",
@@ -1329,7 +1507,7 @@ const B2_WORDS = [
   },
   {
     "de": "bewältigen",
-    "lv": "pieveikt • uzveikt",
+    "lv": "pārvarēt • tikt galā ar",
     "level": "B2"
   },
   {
@@ -3410,9 +3588,31 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich einlassen auf + Akkusativ",
+    "de": "sich einlassen",
     "lv": "ielaisties",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-einlassen",
+      "layout": "minimalStudy",
+      "translation": "ielaisties",
+      "rektion": "auf + Akkusativ",
+      "explanation": "sich einlassen prasa fiksētu prievārdu auf + Akkusativ.",
+      "forms": "auf + Akkusativ",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich einlassen"
+          ],
+          "red": [
+            "auf + Akkusativ"
+          ],
+          "purple": [
+            "ielaisties"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "einleiten",
@@ -3440,9 +3640,31 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich einprägen in + Akkusativ",
+    "de": "sich einprägen",
     "lv": "iegaumēt",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-einpraegen",
+      "layout": "minimalStudy",
+      "translation": "iegaumēt",
+      "rektion": "in + Akkusativ",
+      "explanation": "sich einprägen prasa fiksētu prievārdu in + Akkusativ.",
+      "forms": "in + Akkusativ",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich einprägen"
+          ],
+          "red": [
+            "in + Akkusativ"
+          ],
+          "purple": [
+            "iegaumēt"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "einrechnen",
@@ -3455,9 +3677,32 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich einschleichen in + Akkusativ",
+    "de": "sich einschleichen",
     "lv": "ielavīties • iezagties",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-einschleichen",
+      "layout": "minimalStudy",
+      "translation": "ielavīties • iezagties",
+      "rektion": "in + Akkusativ",
+      "explanation": "sich einschleichen prasa fiksētu prievārdu in + Akkusativ.",
+      "forms": "in + Akkusativ",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich einschleichen"
+          ],
+          "red": [
+            "in + Akkusativ"
+          ],
+          "purple": [
+            "ielavīties",
+            "iezagties"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Einschnitt",
@@ -3467,9 +3712,31 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich einschränken auf + Akkusativ",
+    "de": "sich einschränken",
     "lv": "ierobežoties",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-einschraenken",
+      "layout": "minimalStudy",
+      "translation": "ierobežoties",
+      "rektion": "auf + Akkusativ",
+      "explanation": "sich einschränken prasa fiksētu prievārdu auf + Akkusativ.",
+      "forms": "auf + Akkusativ",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich einschränken"
+          ],
+          "red": [
+            "auf + Akkusativ"
+          ],
+          "purple": [
+            "ierobežoties"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Einschreiben",
@@ -3671,9 +3938,31 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich empfehlen zu + Dativ",
+    "de": "sich empfehlen",
     "lv": "būt ieteicamam",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-empfehlen",
+      "layout": "minimalStudy",
+      "translation": "būt ieteicamam",
+      "rektion": "zu + Dativ",
+      "explanation": "sich empfehlen prasa fiksētu prievārdu zu + Dativ.",
+      "forms": "zu + Dativ",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich empfehlen"
+          ],
+          "red": [
+            "zu + Dativ"
+          ],
+          "purple": [
+            "būt ieteicamam"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "empor",
@@ -3686,9 +3975,32 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich empören über + Akkusativ",
-    "lv": "sašust • sacelties • sadumpoties",
-    "level": "B2"
+    "de": "sich empören",
+    "lv": "sašust • sacelties",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-empoeren",
+      "layout": "minimalStudy",
+      "translation": "sašust • sacelties",
+      "rektion": "über + Akkusativ",
+      "explanation": "sich empören prasa fiksētu prievārdu über + Akkusativ.",
+      "forms": "über + Akkusativ",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich empören"
+          ],
+          "red": [
+            "über + Akkusativ"
+          ],
+          "purple": [
+            "sašust",
+            "sacelties"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Empörung",
@@ -3770,9 +4082,31 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich enthalten von + Dativ",
+    "de": "sich enthalten",
     "lv": "atturēties no",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-enthalten",
+      "layout": "minimalStudy",
+      "translation": "atturēties no",
+      "rektion": "von + Dativ",
+      "explanation": "sich enthalten prasa fiksētu prievārdu von + Dativ.",
+      "forms": "von + Dativ",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich enthalten"
+          ],
+          "red": [
+            "von + Dativ"
+          ],
+          "purple": [
+            "atturēties no"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "enthüllen",
@@ -3800,9 +4134,32 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich entledigen + Genitiv",
+    "de": "sich entledigen",
     "lv": "atbrīvoties • tikt vaļā",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-entledigen",
+      "layout": "minimalStudy",
+      "translation": "atbrīvoties • tikt vaļā",
+      "rektion": "+ Genitiv",
+      "explanation": "sich entledigen mūsdienu vāciski lieto ar Genitiv bez prievārda.",
+      "forms": "+ Genitiv",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich entledigen"
+          ],
+          "red": [
+            "+ Genitiv"
+          ],
+          "purple": [
+            "atbrīvoties",
+            "tikt vaļā"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "entlegen",
@@ -3820,9 +4177,32 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich entrüsten über + Akkusativ",
-    "lv": "sašust • saskaities",
-    "level": "B2"
+    "de": "sich entrüsten",
+    "lv": "sašust • sadumpoties",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-entruesten",
+      "layout": "minimalStudy",
+      "translation": "sašust • sadumpoties",
+      "rektion": "über + Akkusativ",
+      "explanation": "sich entrüsten prasa fiksētu prievārdu über + Akkusativ.",
+      "forms": "über + Akkusativ",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich entrüsten"
+          ],
+          "red": [
+            "über + Akkusativ"
+          ],
+          "purple": [
+            "sašust",
+            "sadumpoties"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "entsagen",
@@ -3835,9 +4215,32 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich entsinnen an + Akkusativ",
+    "de": "sich entsinnen",
     "lv": "atminēties • atcerēties",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-entsinnen",
+      "layout": "minimalStudy",
+      "translation": "atminēties • atcerēties",
+      "rektion": "+ Genitiv",
+      "explanation": "sich entsinnen mūsdienu vāciski lieto ar Genitiv bez prievārda, piemēram: Ich entsinne mich eines Fehlers.",
+      "forms": "+ Genitiv",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich entsinnen"
+          ],
+          "red": [
+            "+ Genitiv"
+          ],
+          "purple": [
+            "atminēties",
+            "atcerēties"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Entspannung",
@@ -3946,9 +4349,32 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich erbarmen über + Akkusativ",
+    "de": "sich erbarmen",
     "lv": "apžēloties • iežēloties",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-erbarmen",
+      "layout": "minimalStudy",
+      "translation": "apžēloties • iežēloties",
+      "rektion": "über + Akkusativ",
+      "explanation": "sich erbarmen prasa fiksētu prievārdu über + Akkusativ.",
+      "forms": "über + Akkusativ",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich erbarmen"
+          ],
+          "red": [
+            "über + Akkusativ"
+          ],
+          "purple": [
+            "apžēloties",
+            "iežēloties"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Erbauer",
@@ -4020,9 +4446,32 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich ergeben aus + Dativ",
+    "de": "sich ergeben",
     "lv": "izrietēt • padoties",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-ergeben",
+      "layout": "minimalStudy",
+      "translation": "izrietēt • padoties",
+      "rektion": "aus + Dativ",
+      "explanation": "sich ergeben prasa fiksētu prievārdu aus + Dativ.",
+      "forms": "aus + Dativ",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich ergeben"
+          ],
+          "red": [
+            "aus + Dativ"
+          ],
+          "purple": [
+            "izrietēt",
+            "padoties"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "ergiebig",
@@ -4126,9 +4575,31 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich erniedrigen vor + Dativ",
+    "de": "sich erniedrigen",
     "lv": "pazemoties",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-erniedrigen",
+      "layout": "minimalStudy",
+      "translation": "pazemoties",
+      "rektion": "vor + Dativ",
+      "explanation": "sich erniedrigen prasa fiksētu prievārdu vor + Dativ.",
+      "forms": "vor + Dativ",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich erniedrigen"
+          ],
+          "red": [
+            "vor + Dativ"
+          ],
+          "purple": [
+            "pazemoties"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Ernteertrag",
@@ -4160,9 +4631,31 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich erregen über + Akkusativ",
+    "de": "sich erregen",
     "lv": "uztraukties par",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-erregen",
+      "layout": "minimalStudy",
+      "translation": "uztraukties par",
+      "rektion": "über + Akkusativ",
+      "explanation": "sich erregen prasa fiksētu prievārdu über + Akkusativ.",
+      "forms": "über + Akkusativ",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich erregen"
+          ],
+          "red": [
+            "über + Akkusativ"
+          ],
+          "purple": [
+            "uztraukties par"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Erreger",
@@ -4283,9 +4776,31 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich erweisen als + Nominativ",
+    "de": "sich erweisen",
     "lv": "izrādīties par",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-erweisen",
+      "layout": "minimalStudy",
+      "translation": "izrādīties par",
+      "rektion": "als + Nominativ",
+      "explanation": "sich erweisen prasa fiksētu prievārdu als + Nominativ.",
+      "forms": "als + Nominativ",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich erweisen"
+          ],
+          "red": [
+            "als + Nominativ"
+          ],
+          "purple": [
+            "izrādīties par"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Erwerb",
@@ -4571,9 +5086,33 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich fassen an + Dativ",
+    "de": "sich fassen",
     "lv": "sagrābt • saņemties • savaldīties",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-fassen",
+      "layout": "minimalStudy",
+      "translation": "sagrābt • saņemties • savaldīties",
+      "rektion": "an + Dativ",
+      "explanation": "sich fassen prasa fiksētu prievārdu an + Dativ.",
+      "forms": "an + Dativ",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich fassen"
+          ],
+          "red": [
+            "an + Dativ"
+          ],
+          "purple": [
+            "sagrābt",
+            "saņemties",
+            "savaldīties"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Fassung",
@@ -5041,9 +5580,32 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich fügen in + Akkusativ",
-    "lv": "pielāgoties • atgadīties • notikt • padoties • pakļauties",
-    "level": "B2"
+    "de": "sich fügen",
+    "lv": "pielāgoties • pakļauties",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-fuegen",
+      "layout": "minimalStudy",
+      "translation": "pielāgoties • pakļauties",
+      "rektion": "in + Akkusativ",
+      "explanation": "sich fügen prasa fiksētu prievārdu in + Akkusativ.",
+      "forms": "in + Akkusativ",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich fügen"
+          ],
+          "red": [
+            "in + Akkusativ"
+          ],
+          "purple": [
+            "pielāgoties",
+            "pakļauties"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Fuhre",
@@ -5589,9 +6151,31 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich genieren vor + Dativ",
-    "lv": "kautrēties • kaunēties",
-    "level": "B2"
+    "de": "sich genieren",
+    "lv": "kaunēties",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-genieren",
+      "layout": "minimalStudy",
+      "translation": "kaunēties",
+      "rektion": "vor + Dativ",
+      "explanation": "sich genieren prasa fiksētu prievārdu vor + Dativ.",
+      "forms": "vor + Dativ",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich genieren"
+          ],
+          "red": [
+            "vor + Dativ"
+          ],
+          "purple": [
+            "kaunēties"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Genosse",
@@ -5769,9 +6353,31 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich gesellen zu + Dativ",
-    "lv": "piebiedroties • pievienoties",
-    "level": "B2"
+    "de": "sich gesellen",
+    "lv": "pievienoties",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-gesellen",
+      "layout": "minimalStudy",
+      "translation": "pievienoties",
+      "rektion": "zu + Dativ",
+      "explanation": "sich gesellen prasa fiksētu prievārdu zu + Dativ.",
+      "forms": "zu + Dativ",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich gesellen"
+          ],
+          "red": [
+            "zu + Dativ"
+          ],
+          "purple": [
+            "pievienoties"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Gesichtszug",
@@ -5802,9 +6408,31 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich gestalten zu + Dativ",
-    "lv": "veidoties par • izveidoties • izvērsties",
-    "level": "B2"
+    "de": "sich gestalten",
+    "lv": "veidoties par",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-gestalten",
+      "layout": "minimalStudy",
+      "translation": "veidoties par",
+      "rektion": "zu + Dativ",
+      "explanation": "sich gestalten prasa fiksētu prievārdu zu + Dativ.",
+      "forms": "zu + Dativ",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich gestalten"
+          ],
+          "red": [
+            "zu + Dativ"
+          ],
+          "purple": [
+            "veidoties par"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Geständnis",
@@ -6190,9 +6818,31 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich grauen vor + Dativ",
-    "lv": "biedēties no • bīties • šausmināties",
-    "level": "B2"
+    "de": "sich grauen",
+    "lv": "biedēties no",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-grauen",
+      "layout": "minimalStudy",
+      "translation": "biedēties no",
+      "rektion": "vor + Dativ",
+      "explanation": "sich grauen prasa fiksētu prievārdu vor + Dativ.",
+      "forms": "vor + Dativ",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich grauen"
+          ],
+          "red": [
+            "vor + Dativ"
+          ],
+          "purple": [
+            "biedēties no"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "grausam",
@@ -6669,9 +7319,31 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich herausbilden zu + Dativ",
-    "lv": "izveidoties par • attīstīties",
-    "level": "B2"
+    "de": "sich herausbilden",
+    "lv": "izveidoties par",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-herausbilden",
+      "layout": "minimalStudy",
+      "translation": "izveidoties par",
+      "rektion": "zu + Dativ",
+      "explanation": "sich herausbilden prasa fiksētu prievārdu zu + Dativ.",
+      "forms": "zu + Dativ",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich herausbilden"
+          ],
+          "red": [
+            "zu + Dativ"
+          ],
+          "purple": [
+            "izveidoties par"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "herausfordern",
@@ -6679,9 +7351,31 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich heraushalten aus + Dativ",
-    "lv": "turēties nost no • nejaukties",
-    "level": "B2"
+    "de": "sich heraushalten",
+    "lv": "turēties nost no",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-heraushalten",
+      "layout": "minimalStudy",
+      "translation": "turēties nost no",
+      "rektion": "aus + Dativ",
+      "explanation": "sich heraushalten prasa fiksētu prievārdu aus + Dativ.",
+      "forms": "aus + Dativ",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich heraushalten"
+          ],
+          "red": [
+            "aus + Dativ"
+          ],
+          "purple": [
+            "turēties nost no"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "herausstellen",
@@ -6689,9 +7383,31 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich herausstellen als + Nominativ",
+    "de": "sich herausstellen",
     "lv": "izrādīties par",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-herausstellen",
+      "layout": "minimalStudy",
+      "translation": "izrādīties par",
+      "rektion": "als + Nominativ",
+      "explanation": "sich herausstellen prasa fiksētu prievārdu als + Nominativ.",
+      "forms": "als + Nominativ",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich herausstellen"
+          ],
+          "red": [
+            "als + Nominativ"
+          ],
+          "purple": [
+            "izrādīties par"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "herb",
@@ -6714,9 +7430,31 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich hervortun in + Dativ",
+    "de": "sich hervortun",
     "lv": "izcelties",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-hervortun",
+      "layout": "minimalStudy",
+      "translation": "izcelties",
+      "rektion": "in + Dativ",
+      "explanation": "sich hervortun prasa fiksētu prievārdu in + Dativ.",
+      "forms": "in + Dativ",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich hervortun"
+          ],
+          "red": [
+            "in + Dativ"
+          ],
+          "purple": [
+            "izcelties"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Herzflattern",
@@ -6788,9 +7526,32 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich hingeben + Dativ",
-    "lv": "atdoties • nodoties • ziedoties",
-    "level": "B2"
+    "de": "sich hingeben",
+    "lv": "atdoties • nodoties",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-hingeben",
+      "layout": "minimalStudy",
+      "translation": "atdoties • nodoties",
+      "rektion": "+ Dativ",
+      "explanation": "sich hingeben prasa + Dativ.",
+      "forms": "+ Dativ",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich hingeben"
+          ],
+          "red": [
+            "+ Dativ"
+          ],
+          "purple": [
+            "atdoties",
+            "nodoties"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "hinreißen",
@@ -8698,9 +9459,31 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich paaren mit + Dativ",
+    "de": "sich paaren",
     "lv": "pāroties ar",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-paaren",
+      "layout": "minimalStudy",
+      "translation": "pāroties ar",
+      "rektion": "mit + Dativ",
+      "explanation": "sich paaren prasa fiksētu prievārdu mit + Dativ.",
+      "forms": "mit + Dativ",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich paaren"
+          ],
+          "red": [
+            "mit + Dativ"
+          ],
+          "purple": [
+            "pāroties ar"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Pacht",
@@ -9337,9 +10120,32 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich revanchieren bei + Dativ",
-    "lv": "atmaksāt • revanšēties",
-    "level": "B2"
+    "de": "sich revanchieren",
+    "lv": "atmaksāt • atriebties",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-revanchieren",
+      "layout": "minimalStudy",
+      "translation": "atmaksāt • atriebties",
+      "rektion": "bei + Dativ",
+      "explanation": "sich revanchieren prasa fiksētu prievārdu bei + Dativ.",
+      "forms": "bei + Dativ",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich revanchieren"
+          ],
+          "red": [
+            "bei + Dativ"
+          ],
+          "purple": [
+            "atmaksāt",
+            "atriebties"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Richtfest",
@@ -9657,9 +10463,31 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich scheren um + Akkusativ",
-    "lv": "rūpēties par • raizēties • sar. laisties lapās • [aiz]vākties [projām]",
-    "level": "B2"
+    "de": "sich scheren",
+    "lv": "rūpēties par",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-scheren",
+      "layout": "minimalStudy",
+      "translation": "rūpēties par",
+      "rektion": "um + Akkusativ",
+      "explanation": "sich scheren prasa fiksētu prievārdu um + Akkusativ.",
+      "forms": "um + Akkusativ",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich scheren"
+          ],
+          "red": [
+            "um + Akkusativ"
+          ],
+          "purple": [
+            "rūpēties par"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Schiebedach",
@@ -11502,9 +12330,31 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich vereinigen mit + Dativ",
-    "lv": "apvienoties ar • savienoties",
-    "level": "B2"
+    "de": "sich vereinigen",
+    "lv": "apvienoties ar",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-vereinigen",
+      "layout": "minimalStudy",
+      "translation": "apvienoties ar",
+      "rektion": "mit + Dativ",
+      "explanation": "sich vereinigen prasa fiksētu prievārdu mit + Dativ.",
+      "forms": "mit + Dativ",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich vereinigen"
+          ],
+          "red": [
+            "mit + Dativ"
+          ],
+          "purple": [
+            "apvienoties ar"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Vereinigung",
@@ -11812,9 +12662,32 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich versehen mit + Dativ",
-    "lv": "aizmirst • aprīkot ar • apgādāties • pārskatīties • kļūdīties",
-    "level": "B2"
+    "de": "sich versehen",
+    "lv": "aizmirst • aprīkot ar",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-versehen",
+      "layout": "minimalStudy",
+      "translation": "aizmirst • aprīkot ar",
+      "rektion": "mit + Dativ",
+      "explanation": "sich versehen prasa fiksētu prievārdu mit + Dativ.",
+      "forms": "mit + Dativ",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich versehen"
+          ],
+          "red": [
+            "mit + Dativ"
+          ],
+          "purple": [
+            "aizmirst",
+            "aprīkot ar"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "versetzen",
@@ -11842,9 +12715,31 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich versöhnen mit + Dativ",
-    "lv": "samierināties ar • salabt • izlīgt",
-    "level": "B2"
+    "de": "sich versöhnen",
+    "lv": "samierināties ar",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-versoehnen",
+      "layout": "minimalStudy",
+      "translation": "samierināties ar",
+      "rektion": "mit + Dativ",
+      "explanation": "sich versöhnen prasa fiksētu prievārdu mit + Dativ.",
+      "forms": "mit + Dativ",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich versöhnen"
+          ],
+          "red": [
+            "mit + Dativ"
+          ],
+          "purple": [
+            "samierināties ar"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "verspielen",
@@ -11872,9 +12767,31 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich verstellen als + Akkusativ",
-    "lv": "uzdoties par • izlikties",
-    "level": "B2"
+    "de": "sich verstellen",
+    "lv": "uzdoties par",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-verstellen",
+      "layout": "minimalStudy",
+      "translation": "uzdoties par",
+      "rektion": "als + Akkusativ",
+      "explanation": "sich verstellen prasa fiksētu prievārdu als + Akkusativ.",
+      "forms": "als + Akkusativ",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich verstellen"
+          ],
+          "red": [
+            "als + Akkusativ"
+          ],
+          "purple": [
+            "uzdoties par"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Verstorbene",
@@ -11969,9 +12886,31 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich verwundern über + Akkusativ",
-    "lv": "brīnīties par • izbrīnīties",
-    "level": "B2"
+    "de": "sich verwundern",
+    "lv": "brīnīties par",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-verwundern",
+      "layout": "minimalStudy",
+      "translation": "brīnīties par",
+      "rektion": "über + Akkusativ",
+      "explanation": "sich verwundern prasa fiksētu prievārdu über + Akkusativ.",
+      "forms": "über + Akkusativ",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich verwundern"
+          ],
+          "red": [
+            "über + Akkusativ"
+          ],
+          "purple": [
+            "brīnīties par"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Verwüstung",
@@ -12635,9 +13574,32 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich widersetzen + Dativ",
-    "lv": "pretoties",
-    "level": "B2"
+    "de": "sich widersetzen",
+    "lv": "pretoties • stāties pretī",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-widersetzen",
+      "layout": "minimalStudy",
+      "translation": "pretoties • stāties pretī",
+      "rektion": "+ Dativ",
+      "explanation": "sich widersetzen prasa + Dativ.",
+      "forms": "+ Dativ",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich widersetzen"
+          ],
+          "red": [
+            "+ Dativ"
+          ],
+          "purple": [
+            "pretoties",
+            "stāties pretī"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Widmung",
@@ -14468,6 +15430,55 @@ const B2_WORDS = [
             ]
           }
         ]
+      }
+    }
+  },
+  {
+    "de": "sich verlaufen",
+    "lv": "apmaldīties",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-verlaufen",
+      "layout": "minimalStudy",
+      "translation": "apmaldīties",
+      "explanation": "sich verlaufen nozīmē apmaldīties. Tam nav fiksēta prievārda. Nav jaucams ar verlaufen (norisināties).",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich verlaufen"
+          ],
+          "purple": [
+            "apmaldīties"
+          ],
+          "red": [
+            "verlaufen"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "de": "verlaufen",
+    "lv": "norisināties • ritēt",
+    "level": "B2",
+    "study": {
+      "id": "b2-verlaufen",
+      "layout": "minimalStudy",
+      "translation": "norisināties • ritēt",
+      "explanation": "verlaufen (bez sich) nozīmē norisināties vai ritēt. Nav sinonīms ar sich verlaufen (apmaldīties).",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "verlaufen"
+          ],
+          "purple": [
+            "norisināties",
+            "ritēt"
+          ],
+          "red": [
+            "sich verlaufen"
+          ]
+        }
       }
     }
   },

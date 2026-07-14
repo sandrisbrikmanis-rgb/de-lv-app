@@ -31,190 +31,98 @@ const GOETHE_B2_GEHEIMNIS_PLURALS = {
   Amtsgeheimnis: "die Amtsgeheimnisse",
 };
 
-// B2 verbs with fixed prepositions (Goethe Wortliste / standard usage)
-// de: full notation; lv: must include Latvian preposition equivalent
-const B2_VERB_PREPOSITIONS = {
-  "sich abfinden": {
-    de: "sich abfinden mit + Dativ",
-    lv: "samierināties ar",
-  },
-  "sich abwenden": {
-    de: "sich abwenden von + Dativ",
-    lv: "novērsties no",
-  },
-  "sich befassen": {
-    de: "sich befassen mit + Dativ",
-    lv: "nodarboties ar",
-  },
-  "sich begnügen": {
-    de: "sich begnügen mit + Dativ",
-    lv: "apmierināties ar",
-  },
-  "sich bemächtigen": {
-    de: "sich bemächtigen + Genitiv",
-    lv: "sagrābt • saņemt savā varā",
-  },
-  "sich berufen": {
-    de: "sich berufen auf + Akkusativ",
-    lv: "atsaukties uz",
-  },
-  "sich beschränken": {
-    de: "sich beschränken auf + Akkusativ",
-    lv: "ierobežoties ar",
-  },
-  "sich betätigen": {
-    de: "sich betätigen in + Dativ",
-    lv: "darboties • piedalīties",
-  },
-  "sich einlassen": {
-    de: "sich einlassen auf + Akkusativ",
-    lv: "ielaisties",
-  },
-  "sich einprägen": {
-    de: "sich einprägen in + Akkusativ",
-    lv: "iegaumēt",
-  },
-  "sich einschleichen": {
-    de: "sich einschleichen in + Akkusativ",
-    lv: "ielavīties • iezagties",
-  },
-  "sich einschränken": {
-    de: "sich einschränken auf + Akkusativ",
-    lv: "ierobežoties",
-  },
-  "sich empfehlen": {
-    de: "sich empfehlen zu + Dativ",
-    lv: "būt ieteicamam",
-  },
-  "sich empören": {
-    de: "sich empören über + Akkusativ",
-    lv: "sašust • sacelties",
-  },
-  "sich enthalten": {
-    de: "sich enthalten von + Dativ",
-    lv: "atturēties no",
-  },
-  "sich entledigen": {
-    de: "sich entledigen + Genitiv",
-    lv: "atbrīvoties • tikt vaļā",
-  },
-  "sich entrüsten": {
-    de: "sich entrüsten über + Akkusativ",
-    lv: "sašust • sadumpoties",
-  },
+// B2 verbs with fixed prepositions — clean de + study.rektion (NEVER in de field)
+const B2_VERB_REKTION = {
+  "sich abfinden": { rektion: "mit + Dativ", lv: "samierināties ar" },
+  "sich abwenden": { rektion: "von + Dativ", lv: "novērsties no" },
+  "sich befassen": { rektion: "mit + Dativ", lv: "nodarboties ar" },
+  "sich begnügen": { rektion: "mit + Dativ", lv: "apmierināties ar" },
+  "sich bemächtigen": { rektion: "+ Genitiv", lv: "sagrābt • saņemt savā varā" },
+  "sich berufen": { rektion: "auf + Akkusativ", lv: "atsaukties uz" },
+  "sich beschränken": { rektion: "auf + Akkusativ", lv: "ierobežoties ar" },
+  "sich betätigen": { rektion: "in + Dativ", lv: "darboties • piedalīties" },
+  "sich einlassen": { rektion: "auf + Akkusativ", lv: "ielaisties" },
+  "sich einprägen": { rektion: "in + Akkusativ", lv: "iegaumēt" },
+  "sich einschleichen": { rektion: "in + Akkusativ", lv: "ielavīties • iezagties" },
+  "sich einschränken": { rektion: "auf + Akkusativ", lv: "ierobežoties" },
+  "sich empfehlen": { rektion: "zu + Dativ", lv: "būt ieteicamam" },
+  "sich empören": { rektion: "über + Akkusativ", lv: "sašust • sacelties" },
+  "sich enthalten": { rektion: "von + Dativ", lv: "atturēties no" },
+  "sich entledigen": { rektion: "+ Genitiv", lv: "atbrīvoties • tikt vaļā" },
+  "sich entrüsten": { rektion: "über + Akkusativ", lv: "sašust • sadumpoties" },
   "sich entsinnen": {
-    de: "sich entsinnen an + Akkusativ",
+    rektion: "+ Genitiv",
     lv: "atminēties • atcerēties",
+    explanation:
+      "sich entsinnen mūsdienu vāciski lieto ar Genitiv bez prievārda, piemēram: Ich entsinne mich eines Fehlers.",
   },
-  "sich erbarmen": {
-    de: "sich erbarmen über + Akkusativ",
-    lv: "apžēloties • iežēloties",
+  "sich erbarmen": { rektion: "über + Akkusativ", lv: "apžēloties • iežēloties" },
+  "sich ergeben": { rektion: "aus + Dativ", lv: "izrietēt • padoties" },
+  "sich erniedrigen": { rektion: "vor + Dativ", lv: "pazemoties" },
+  "sich erregen": { rektion: "über + Akkusativ", lv: "uztraukties par" },
+  "sich erweisen": { rektion: "als + Nominativ", lv: "izrādīties par" },
+  "sich fassen": { rektion: "an + Dativ", lv: "sagrābt • saņemties • savaldīties" },
+  "sich fügen": { rektion: "in + Akkusativ", lv: "pielāgoties • pakļauties" },
+  "sich genieren": { rektion: "vor + Dativ", lv: "kaunēties" },
+  "sich gesellen": { rektion: "zu + Dativ", lv: "pievienoties" },
+  "sich gestalten": { rektion: "zu + Dativ", lv: "veidoties par" },
+  "sich grauen": { rektion: "vor + Dativ", lv: "biedēties no" },
+  "sich herausbilden": { rektion: "zu + Dativ", lv: "izveidoties par" },
+  "sich heraushalten": { rektion: "aus + Dativ", lv: "turēties nost no" },
+  "sich herausstellen": { rektion: "als + Nominativ", lv: "izrādīties par" },
+  "sich hervortun": { rektion: "in + Dativ", lv: "izcelties" },
+  "sich hingeben": { rektion: "+ Dativ", lv: "atdoties • nodoties" },
+  "sich paaren": { rektion: "mit + Dativ", lv: "pāroties ar" },
+  "sich revanchieren": { rektion: "bei + Dativ", lv: "atmaksāt • atriebties" },
+  "sich scheren": { rektion: "um + Akkusativ", lv: "rūpēties par" },
+  "sich vereinigen": { rektion: "mit + Dativ", lv: "apvienoties ar" },
+  "sich versehen": { rektion: "mit + Dativ", lv: "aizmirst • aprīkot ar" },
+  "sich versöhnen": { rektion: "mit + Dativ", lv: "samierināties ar" },
+  "sich verstellen": { rektion: "als + Akkusativ", lv: "uzdoties par" },
+  "sich verwundern": { rektion: "über + Akkusativ", lv: "brīnīties par" },
+  "sich widersetzen": { rektion: "+ Dativ", lv: "pretoties • stāties pretī" },
+  abhängen: { rektion: "von + Dativ", lv: "būt atkarīgam no" },
+  "sich verlassen": { rektion: "auf + Akkusativ", lv: "paļauties uz" },
+};
+
+// Verbs that must NOT have study.rektion
+const B2_VERB_NO_REKTION = new Set(["sich verlaufen", "verlaufen"]);
+
+// Required B2 entries (linguistic corrections)
+const B2_REQUIRED_ENTRIES = {
+  "sich verlaufen": {
+    lv: "apmaldīties",
+    study: {
+      id: "b2-sich-verlaufen",
+      layout: "minimalStudy",
+      translation: "apmaldīties",
+      explanation:
+        "sich verlaufen nozīmē apmaldīties. Tam nav fiksēta prievārda. Nav jaucams ar verlaufen (norisināties).",
+      sectionAccents: {
+        explanation: { blue: ["sich verlaufen"], purple: ["apmaldīties"], red: ["verlaufen"] },
+      },
+    },
   },
-  "sich ergeben": {
-    de: "sich ergeben aus + Dativ",
-    lv: "izrietēt • padoties",
-  },
-  "sich erniedrigen": {
-    de: "sich erniedrigen vor + Dativ",
-    lv: "pazemoties",
-  },
-  "sich erregen": {
-    de: "sich erregen über + Akkusativ",
-    lv: "uztraukties par",
-  },
-  "sich erweisen": {
-    de: "sich erweisen als + Nominativ",
-    lv: "izrādīties par",
-  },
-  "sich fassen": {
-    de: "sich fassen an + Dativ",
-    lv: "sagrābt",
-  },
-  "sich fügen": {
-    de: "sich fügen in + Akkusativ",
-    lv: "pielāgoties",
-  },
-  "sich genieren": {
-    de: "sich genieren vor + Dativ",
-    lv: "kaunēties",
-  },
-  "sich gesellen": {
-    de: "sich gesellen zu + Dativ",
-    lv: "pievienoties",
-  },
-  "sich gestalten": {
-    de: "sich gestalten zu + Dativ",
-    lv: "veidoties par",
-  },
-  "sich grauen": {
-    de: "sich grauen vor + Dativ",
-    lv: "biedēties no",
-  },
-  "sich herausbilden": {
-    de: "sich herausbilden zu + Dativ",
-    lv: "izveidoties par",
-  },
-  "sich heraushalten": {
-    de: "sich heraushalten aus + Dativ",
-    lv: "turēties nost no",
-  },
-  "sich herausstellen": {
-    de: "sich herausstellen als + Nominativ",
-    lv: "izrādīties par",
-  },
-  "sich hervortun": {
-    de: "sich hervortun in + Dativ",
-    lv: "izcelties",
-  },
-  "sich hingeben": {
-    de: "sich hingeben + Dativ",
-    lv: "atdoties",
-  },
-  "sich paaren": {
-    de: "sich paaren mit + Dativ",
-    lv: "pāroties ar",
-  },
-  "sich revanchieren": {
-    de: "sich revanchieren bei + Dativ",
-    lv: "atmaksāt • atriebties",
-  },
-  "sich scheren": {
-    de: "sich scheren um + Akkusativ",
-    lv: "rūpēties par",
-  },
-  "sich vereinigen": {
-    de: "sich vereinigen mit + Dativ",
-    lv: "apvienoties ar",
-  },
-  "sich versehen": {
-    de: "sich versehen mit + Dativ",
-    lv: "aizmirst • aprīkot ar",
-  },
-  "sich versöhnen": {
-    de: "sich versöhnen mit + Dativ",
-    lv: "samierināties ar",
-  },
-  "sich verstellen": {
-    de: "sich verstellen als + Akkusativ",
-    lv: "uzdoties par",
-  },
-  "sich verwundern": {
-    de: "sich verwundern über + Akkusativ",
-    lv: "brīnīties par",
-  },
-  "sich widersetzen": {
-    de: "sich widersetzen + Dativ",
-    lv: "pretoties • stāties pretī",
-  },
-  abhängen: {
-    de: "abhängen von + Dativ",
-    lv: "būt atkarīgam no",
-  },
-  "sich verlassen": {
-    de: "sich verlassen auf + Akkusativ",
-    lv: "paļauties uz",
+  verlaufen: {
+    lv: "norisināties • ritēt",
+    study: {
+      id: "b2-verlaufen",
+      layout: "minimalStudy",
+      translation: "norisināties • ritēt",
+      explanation:
+        "verlaufen (bez sich) nozīmē norisināties vai ritēt. Nav sinonīms ar sich verlaufen (apmaldīties).",
+      sectionAccents: {
+        explanation: { blue: ["verlaufen"], purple: ["norisināties", "ritēt"], red: ["sich verlaufen"] },
+      },
+    },
   },
 };
+
+const B2_LINGUISTIC_FIXES = {
+  bewältigen: { lv: "pārvarēt • tikt galā ar" },
+};
+
+const REKTION_IN_DE = /\s+(mit|von|auf|an|in|zu|über|vor|aus|bei|um|als)\s+\+\s*\w+|\s+\+\s*(Dativ|Akkusativ|Genitiv|Nominativ)/i;
 
 // Homonyms that MUST stay as separate entries (never merge)
 const HOMONYM_KEEP_SEPARATE = [
@@ -338,10 +246,56 @@ function formatEntry(e) {
   return `{ ${parts.join(", ")} }`;
 }
 
-function baseVerbKey(de) {
+function cleanVerbDe(de) {
   return String(de || "")
-    .replace(/\s*\+\s*(Dativ|Akkusativ|Genitiv|Nominativ)\s*$/i, "")
+    .replace(/\s+(mit|von|auf|an|in|zu|über|vor|aus|bei|um|als)\s+\+\s*\w+$/i, "")
+    .replace(/\s+\+\s*(Dativ|Akkusativ|Genitiv|Nominativ)$/i, "")
     .trim();
+}
+
+function slugifyDe(de) {
+  return de
+    .toLowerCase()
+    .replace(/\s+/g, "-")
+    .replace(/ä/g, "ae")
+    .replace(/ö/g, "oe")
+    .replace(/ü/g, "ue")
+    .replace(/ß/g, "ss");
+}
+
+function rektionExplanation(de, rektion) {
+  if (rektion === "+ Genitiv") {
+    return `${de} mūsdienu vāciski lieto ar Genitiv bez prievārda.`;
+  }
+  if (/^\+/.test(rektion)) {
+    return `${de} prasa ${rektion}.`;
+  }
+  return `${de} prasa fiksētu prievārdu ${rektion}.`;
+}
+
+function buildRektionStudy(de, spec) {
+  const explanation = spec.explanation || rektionExplanation(de, spec.rektion);
+  const purpleHighlights = spec.lv.split(bullet).map((s) => s.trim()).filter(Boolean);
+  return {
+    id: `b2-${slugifyDe(de)}`,
+    layout: "minimalStudy",
+    translation: spec.lv,
+    rektion: spec.rektion,
+    explanation,
+    forms: spec.rektion,
+    formsLabel: "Vadība:",
+    sectionAccents: {
+      explanation: {
+        blue: [de],
+        red: [spec.rektion],
+        ...(purpleHighlights.length ? { purple: purpleHighlights } : {}),
+      },
+    },
+  };
+}
+
+function baseVerbKey(de) {
+  return cleanVerbDe(de);
 }
 
 function isHomonymPair(a, b) {
@@ -385,41 +339,59 @@ function auditGeheimnisPlurals(words) {
   return fixes;
 }
 
-function auditVerbPrepositions(words) {
+function auditVerbRektion(words) {
   const fixes = [];
   for (const word of words) {
     if (word.study?.layout === "comparisonStudy") continue;
-    const key = baseVerbKey(word.de);
-    const spec = B2_VERB_PREPOSITIONS[key];
-    if (!spec) continue;
 
+    const key = baseVerbKey(word.de);
+    const spec = B2_VERB_REKTION[key];
     const changes = {};
     const reasons = [];
 
-    if (word.de !== spec.de) {
-      changes.de = spec.de;
-      reasons.push(`Pievienota fiksēta prievārda vadība (${spec.de})`);
+    // Rule: de field must never contain technical rektion text
+    if (REKTION_IN_DE.test(word.de)) {
+      changes.de = key;
+      reasons.push(`Noņemta tehniskā vadība no de lauka (${word.de} → ${key})`);
     }
 
-  const lvNorm = String(word.lv || "").toLowerCase();
-  const specFirst = spec.lv.split(bullet)[0].trim().toLowerCase();
-  if (!lvNorm.includes(specFirst.split(/\s+/).pop())) {
-      // Only fix if lv doesn't already reflect preposition guidance
-      const specWords = spec.lv.split(bullet).map((s) => s.trim());
-      const currentParts = String(word.lv || "")
-        .split(bullet)
-        .map((s) => s.trim())
-        .filter(Boolean);
-      const extra = currentParts.filter(
-        (p) => !specWords.some((sw) => p.toLowerCase().includes(sw.toLowerCase()))
-      );
-      const merged = [...specWords, ...extra].filter(
-        (v, i, a) => a.findIndex((x) => x.toLowerCase() === v.toLowerCase()) === i
-      );
-      if (merged.join(` ${bullet} `) !== word.lv) {
-        changes.lv = merged.join(` ${bullet} `);
-        reasons.push("Atjaunināts latviešu tulkojums ar prievārda vadību");
+    if (B2_VERB_NO_REKTION.has(key)) {
+      if (word.study?.rektion) {
+        changes.removeStudyRektion = true;
+        reasons.push("Noņemts study.rektion — šim darbības vārdam nav fiksēta prievārda");
       }
+      if (REKTION_IN_DE.test(word.de)) {
+        if (!changes.de) changes.de = key;
+      }
+      if (Object.keys(changes).length) {
+        fixes.push({ de: word.de, old: formatEntry(word), reason: reasons.join("; "), changes });
+      }
+      continue;
+    }
+
+    if (!spec) {
+      if (Object.keys(changes).length) {
+        fixes.push({ de: word.de, old: formatEntry(word), reason: reasons.join("; "), changes });
+      }
+      continue;
+    }
+
+    const expectedStudy = buildRektionStudy(key, spec);
+
+    if (word.lv !== spec.lv) {
+      changes.lv = spec.lv;
+      reasons.push("Atjaunināts latviešu tulkojums ar prievārda vadību");
+    }
+
+    if (!word.study?.rektion || word.study.rektion !== spec.rektion) {
+      changes.study = expectedStudy;
+      reasons.push(`Pievienots study.rektion (${spec.rektion})`);
+    } else if (!word.study.explanation) {
+      changes.study = { ...word.study, ...expectedStudy };
+      reasons.push("Pievienots study.explanation ar vadības skaidrojumu");
+    } else if (JSON.stringify(word.study.sectionAccents) !== JSON.stringify(expectedStudy.sectionAccents)) {
+      changes.study = { ...word.study, sectionAccents: expectedStudy.sectionAccents };
+      reasons.push("Atjaunināts sectionAccents vadības vizualizācijai");
     }
 
     if (Object.keys(changes).length) {
@@ -430,6 +402,80 @@ function auditVerbPrepositions(words) {
         changes,
       });
     }
+  }
+  return fixes;
+}
+
+function auditLinguisticFixes(words) {
+  const fixes = [];
+  for (const word of words) {
+    const spec = B2_LINGUISTIC_FIXES[word.de];
+    if (spec?.lv && word.lv !== spec.lv) {
+      fixes.push({
+        de: word.de,
+        old: formatEntry(word),
+        reason: `Izlabots tulkojums (${word.lv} → ${spec.lv})`,
+        changes: { lv: spec.lv },
+      });
+    }
+  }
+  return fixes;
+}
+
+function auditRequiredEntries(words) {
+  const fixes = [];
+  for (const [de, spec] of Object.entries(B2_REQUIRED_ENTRIES)) {
+    const existing = words.find((w) => w.de === de);
+    if (!existing) {
+      fixes.push({
+        de: `(add ${de})`,
+        old: "(nav)",
+        reason: `Pievienots trūkstošs ieraksts: ${de}`,
+        changes: {
+          addEntry: { de, lv: spec.lv, level: "B2", study: spec.study },
+        },
+      });
+      continue;
+    }
+    const changes = {};
+    const reasons = [];
+    if (existing.lv !== spec.lv) {
+      changes.lv = spec.lv;
+      reasons.push(`Izlabots tulkojums (${existing.lv} → ${spec.lv})`);
+    }
+    if (!existing.study?.explanation) {
+      changes.study = spec.study;
+      reasons.push("Pievienots study.explanation");
+    }
+    if (existing.study?.rektion) {
+      changes.removeStudyRektion = true;
+      reasons.push("Noņemts kļūdains study.rektion");
+    }
+    if (Object.keys(changes).length) {
+      fixes.push({
+        de: existing.de,
+        old: formatEntry(existing),
+        reason: reasons.join("; "),
+        changes,
+      });
+    }
+  }
+  return fixes;
+}
+
+function auditDeFieldClean(words) {
+  const fixes = [];
+  for (const word of words) {
+    if (word.study?.layout === "comparisonStudy") continue;
+    if (!REKTION_IN_DE.test(word.de)) continue;
+    const key = cleanVerbDe(word.de);
+    if (B2_VERB_REKTION[key]) continue; // handled by auditVerbRektion
+    fixes.push({
+      de: word.de,
+      old: formatEntry(word),
+      reason: `Noņemta tehniskā vadība no de lauka (${word.de} → ${key})`,
+      changes: { de: key },
+    });
   }
   return fixes;
 }
@@ -650,46 +696,62 @@ function auditComparisonCards(words) {
 }
 
 function applyFixes(words, fixList) {
-  const byDe = new Map();
+  const byOriginalDe = new Map();
   const subtitleById = new Map();
   const mergeTargets = new Map();
+  const addEntries = [];
 
   for (const f of fixList) {
     if (f.changes?.studyId && f.changes?.subtitle) {
       subtitleById.set(f.changes.studyId, f.changes.subtitle);
       continue;
     }
+    if (f.changes?.addEntry) {
+      addEntries.push(f.changes.addEntry);
+      continue;
+    }
     if (f.changes?.mergeInto) {
       const mergeKey = `${f.changes.mergeInto}|${f.changes.mergeArticle || ""}`;
       mergeTargets.set(mergeKey, f.changes.mergedLv);
-      byDe.set(f.de, { ...(byDe.get(f.de) || {}), ...f.changes });
+      byOriginalDe.set(f.de, { ...(byOriginalDe.get(f.de) || {}), ...f.changes });
       continue;
     }
-    byDe.set(f.de, { ...(byDe.get(f.de) || {}), ...f.changes });
+    byOriginalDe.set(f.de, { ...(byOriginalDe.get(f.de) || {}), ...f.changes });
   }
 
   const result = [];
+  const seenKeys = new Set();
+
   for (const word of words) {
     const studyId = word.study?.id;
     if (studyId && subtitleById.has(studyId)) {
-      result.push({
+      const updated = {
         ...word,
         study: { ...word.study, subtitle: subtitleById.get(studyId) },
-      });
+      };
+      const key = `${updated.de}|${updated.de_article || ""}`;
+      seenKeys.add(key);
+      result.push(updated);
       continue;
     }
 
-    const changes = byDe.get(word.de);
+    const changes = byOriginalDe.get(word.de);
     if (changes?.removeEntry) continue;
 
     const mergeKey = `${word.de}|${word.de_article || ""}`;
     if (mergeTargets.has(mergeKey)) {
-      result.push({ ...word, lv: mergeTargets.get(mergeKey) });
+      const updated = { ...word, lv: mergeTargets.get(mergeKey) };
+      seenKeys.add(`${updated.de}|${updated.de_article || ""}`);
+      result.push(updated);
       continue;
     }
 
     if (!changes) {
-      result.push(word);
+      const key = `${word.de}|${word.de_article || ""}`;
+      if (!seenKeys.has(key)) {
+        seenKeys.add(key);
+        result.push(word);
+      }
       continue;
     }
 
@@ -700,8 +762,43 @@ function applyFixes(words, fixList) {
     if (changes.lv) updated.lv = changes.lv;
     if (changes.removeArticle) delete updated.de_article;
     if (changes.removePlural) delete updated.de_plural;
-    result.push(updated);
+
+    if (changes.study) {
+      updated.study = { ...(updated.study || {}), ...changes.study };
+    }
+    if (changes.removeStudyRektion && updated.study) {
+      const nextStudy = { ...updated.study };
+      delete nextStudy.rektion;
+      delete nextStudy.forms;
+      delete nextStudy.formsLabel;
+      updated.study = nextStudy;
+    }
+
+    const finalKey = `${updated.de}|${updated.de_article || ""}`;
+    const existingIdx = result.findIndex(
+      (w) => `${w.de}|${w.de_article || ""}` === finalKey
+    );
+    if (existingIdx >= 0) {
+      const existing = result[existingIdx];
+      result[existingIdx] = {
+        ...existing,
+        lv: updated.lv || existing.lv,
+        study: updated.study || existing.study,
+      };
+    } else {
+      seenKeys.add(finalKey);
+      result.push(updated);
+    }
   }
+
+  for (const entry of addEntries) {
+    const key = `${entry.de}|${entry.de_article || ""}`;
+    if (!seenKeys.has(key) && !result.some((w) => w.de === entry.de)) {
+      result.push(entry);
+      seenKeys.add(key);
+    }
+  }
+
   return result;
 }
 
@@ -718,7 +815,10 @@ function runAudit(words) {
   return [
     ...auditSingularOnly(words),
     ...auditGeheimnisPlurals(words),
-    ...auditVerbPrepositions(words),
+    ...auditVerbRektion(words),
+    ...auditLinguisticFixes(words),
+    ...auditRequiredEntries(words),
+    ...auditDeFieldClean(words),
     ...auditAdjectives(words),
     ...auditLvFormat(words),
     ...auditDuplicates(words),
