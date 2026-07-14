@@ -3918,6 +3918,104 @@ function sanitizeAudioFilename(text) {
     .replace(/[/\\:*?"<>|]/g, "");
 }
 
+const COMPARISON_ONLY_NOUN_ARTICLES = {
+  appetit: "der",
+  eltern: "die",
+  ferien: "die",
+  gemuese: "das",
+  geschwister: "die",
+  hose: "die",
+  jeans: "die",
+  kleidung: "die",
+  obst: "das",
+  staat: "der",
+  stadt: "die",
+  uhr: "die",
+  urlaub: "der",
+  zeit: "die",
+};
+
+const COMPARISON_PHRASE_AUDIO = [
+  [/\bim\s+urlaub\b/i, "der Urlaub"],
+  [/\bin\s+den\s+ferien\b/i, "die Ferien"],
+  [/\bim\s+fernsehen\b/i, "das Fernsehen"],
+  [/\bam\s+fernsehen\b/i, "das Fernsehen"],
+];
+
+function titleCaseGermanWord(word) {
+  return String(word || "")
+    .trim()
+    .split(/\s+/)
+    .map((part) => part.charAt(0).toUpperCase() + part.slice(1).toLowerCase())
+    .join(" ");
+}
+
+function resolveAudioFilename(candidates) {
+  const list = Array.isArray(candidates) ? candidates : [];
+  const hasIndex = typeof window !== "undefined" && window.AUDIO_ALL_FILES;
+  for (const candidate of list) {
+    const lower = String(candidate || "").toLowerCase();
+    if (!lower) continue;
+    if (typeof window !== "undefined" && window.AUDIO_CASE_MAP?.[lower]) {
+      return window.AUDIO_CASE_MAP[lower];
+    }
+    if (hasIndex) {
+      if (window.AUDIO_ALL_FILES.has(lower)) return lower;
+      continue;
+    }
+    return lower;
+  }
+  return null;
+}
+
+function audioFilenameCandidates(text) {
+  const raw = String(text || "").trim();
+  if (!raw) return [];
+
+  for (const [pattern, noun] of COMPARISON_PHRASE_AUDIO) {
+    if (pattern.test(raw)) return audioFilenameCandidates(noun);
+  }
+
+  const candidates = [];
+  const articleMatch = raw.match(/^(der|die|das)\s+(.+)$/i);
+  if (articleMatch) {
+    const article = articleMatch[1].toLowerCase();
+    const word = articleMatch[2].trim();
+    const sanitized = sanitizeAudioFilename(word);
+    const titleCased = sanitizeAudioFilename(titleCaseGermanWord(word));
+    candidates.push(`${article}_${sanitized}.mp3`);
+    if (titleCased !== sanitized) candidates.push(`${article}_${titleCased}.mp3`);
+    return [...new Set(candidates)];
+  }
+
+  const bare = stripGermanArticle(raw);
+  if (!bare) return [];
+  const key = bare.toLowerCase();
+  const article = COMPARISON_ONLY_NOUN_ARTICLES[key];
+  if (article) {
+    const sanitized = sanitizeAudioFilename(bare);
+    const titleCased = sanitizeAudioFilename(titleCaseGermanWord(bare));
+    candidates.push(`${article}_${sanitized}.mp3`);
+    if (titleCased !== sanitized) candidates.push(`${article}_${titleCased}.mp3`);
+  }
+  candidates.push(`${sanitizeAudioFilename(bare)}.mp3`);
+  return [...new Set(candidates)];
+}
+
+function resolveAudioSrc(candidates) {
+  const filename = resolveAudioFilename(candidates);
+  if (!filename) return null;
+  return `${getAudioBasePath()}public/audio/${filename}`;
+}
+
+function isWordLevelAudioText(text) {
+  const raw = String(text || "").trim();
+  if (!raw) return false;
+  if (/[.!?]/.test(raw)) return false;
+  if (raw.split(/\s+/).length > 4) return false;
+  return true;
+}
+
 const CARD_AUDIO_LEVELS = new Set(["A1", "A2", "B1", "B2", "C1", "C2", "Sätze"]);
 
 function germanAudioStem(text) {
@@ -4058,7 +4156,9 @@ function applyFlashcardSingularAudio(card, autoplayToken, {
 
 function a1AudioSrc(filename) {
   if (!filename) return null;
-  return `${getAudioBasePath()}public/audio/${filename}`;
+  const resolved = resolveAudioFilename([filename]);
+  if (!resolved) return null;
+  return `${getAudioBasePath()}public/audio/${resolved}`;
 }
 
 function setFlashcardAudioButton(button, src) {
@@ -5807,14 +5907,10 @@ const COMPARISON_WORD_ACCENTS = ["blue", "green", "lightGreen", "yellow", "red",
 
 function comparisonWordAudioSrc(word) {
   const text = String(word || "").trim();
-  if (!text) return null;
-  const articleMatch = text.match(/^(der|die|das)\s+(.+)$/i);
-  if (articleMatch) {
-    return nounArticleAudioSrc(articleMatch[1], articleMatch[2]);
-  }
-  const bare = stripGermanArticle(text);
-  if (!bare) return null;
-  return a1AudioForBareWord(bare) || a1AudioSrc(`${sanitizeAudioFilename(bare)}.mp3`);
+  if (!text || !isWordLevelAudioText(text)) return null;
+  const fromEntry = a1AudioForBareWord(stripGermanArticle(text));
+  if (fromEntry) return fromEntry;
+  return resolveAudioSrc(audioFilenameCandidates(text));
 }
 
 function renderComparisonSubtitleWithAudio(subtitle) {
@@ -5831,7 +5927,7 @@ function renderComparisonSubtitleWithAudio(subtitle) {
 function exampleSentenceAudioSrc(sentence) {
   const stem = sanitizeAudioFilename(String(sentence || "").trim());
   if (!stem) return null;
-  return a1AudioSrc(`${stem}.mp3`);
+  return resolveAudioSrc([`${stem}.mp3`]);
 }
 
 function nounArticleAudioSrc(article, de) {
@@ -5839,9 +5935,9 @@ function nounArticleAudioSrc(article, de) {
   const word = String(de || "").trim();
   if (!word) return null;
   if (art && /^(der|die|das)$/.test(art)) {
-    return a1AudioSrc(`${art}_${sanitizeAudioFilename(word)}.mp3`);
+    return resolveAudioSrc(audioFilenameCandidates(`${art} ${word}`));
   }
-  return a1AudioSrc(`${sanitizeAudioFilename(word)}.mp3`);
+  return resolveAudioSrc(audioFilenameCandidates(word));
 }
 
 function nounPluralAudioSrc(article, de, plural) {
