@@ -8138,6 +8138,81 @@ main,
     grid-column: 1 / -1;
     margin-top: 4px;
   }
+
+  /*
+   * Long study cards (PC only): page scroll + sticky controls.
+   * comparisonStudy / richStudy grow naturally; regular cards keep card-inner scroll.
+   */
+  html.is-detail-screen:has(.group-detail-screen > .card[data-study-layout="comparisonStudy"]),
+  html.is-detail-screen:has(.group-detail-screen > .card.has-rich-study-card) {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: auto;
+    min-height: 100%;
+  }
+
+  html.is-detail-screen:has(.group-detail-screen > .card[data-study-layout="comparisonStudy"]) body,
+  html.is-detail-screen:has(.group-detail-screen > .card.has-rich-study-card) body {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: auto;
+    min-height: 100vh;
+    display: block;
+  }
+
+  body.is-detail-screen:has(.group-detail-screen > .card[data-study-layout="comparisonStudy"]) main.home-main,
+  body.is-detail-screen:has(.group-detail-screen > .card.has-rich-study-card) main.home-main {
+    height: auto;
+    min-height: 100vh;
+    max-height: none;
+    overflow: visible;
+  }
+
+  body.is-detail-screen:has(.group-detail-screen > .card[data-study-layout="comparisonStudy"]) .home-app-shell,
+  body.is-detail-screen:has(.group-detail-screen > .card.has-rich-study-card) .home-app-shell {
+    height: auto;
+    overflow: visible;
+  }
+
+  body.is-detail-screen:has(.group-detail-screen > .card[data-study-layout="comparisonStudy"]) .group-detail-screen,
+  body.is-detail-screen:has(.group-detail-screen > .card.has-rich-study-card) .group-detail-screen {
+    display: flex !important;
+    flex-direction: column;
+    height: auto;
+    min-height: 100vh;
+    overflow: visible;
+  }
+
+  body.is-detail-screen:has(.group-detail-screen > .card[data-study-layout="comparisonStudy"]) .group-detail-screen > .card,
+  body.is-detail-screen:has(.group-detail-screen > .card.has-rich-study-card) .group-detail-screen > .card {
+    height: auto;
+    min-height: 0 !important;
+    overflow: visible;
+    flex: 0 1 auto;
+  }
+
+  body.is-detail-screen:has(.group-detail-screen > .card[data-study-layout="comparisonStudy"]) .group-detail-screen > .card.has-study-card .card-inner,
+  body.is-detail-screen:has(.group-detail-screen > .card[data-study-layout="comparisonStudy"]) .group-detail-screen > .card.has-rich-study-card .card-inner,
+  body.is-detail-screen:has(.group-detail-screen > .card.has-rich-study-card) .group-detail-screen > .card.has-study-card .card-inner,
+  body.is-detail-screen:has(.group-detail-screen > .card.has-rich-study-card) .group-detail-screen > .card.has-rich-study-card .card-inner {
+    overflow: visible;
+    flex: none;
+    min-height: auto;
+    overscroll-behavior: auto;
+    scrollbar-gutter: auto;
+  }
+
+  body.is-detail-screen:has(.group-detail-screen > .card[data-study-layout="comparisonStudy"]) .group-detail-screen > .controls,
+  body.is-detail-screen:has(.group-detail-screen > .card.has-rich-study-card) .group-detail-screen > .controls {
+    position: sticky;
+    bottom: 0;
+    z-index: 30;
+    flex-shrink: 0;
+    margin-top: auto;
+    padding-top: 12px;
+    padding-bottom: max(8px, env(safe-area-inset-bottom, 0px));
+    background: linear-gradient(to top, #000000 82%, rgba(0, 0, 0, 0));
+  }
 }
 
 .home-menu-screen[hidden] {

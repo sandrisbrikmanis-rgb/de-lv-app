@@ -3896,6 +3896,7 @@ function syncCardRevealState(card) {
     activeRenderedCardKey = key;
     lastAutoplayedCardKey = null;
     hideCardTranslationDOM();
+    resetCardScrollPosition(card);
   }
 }
 
@@ -6428,16 +6429,22 @@ function syncWordRain() {
 window.syncWordRain = syncWordRain;
 window.__wordRainVerbId = verbId;
 
-function resetCardScrollPosition() {
+function resetCardScrollPosition(card) {
   const cardInner = document.querySelector("article.card .card-inner");
   if (cardInner) cardInner.scrollTop = 0;
+
+  if (!card || !window.matchMedia("(min-width: 769px)").matches) return;
+  const layout = card.study?.layout || "";
+  if (layout !== "comparisonStudy" && layout !== "richStudy") return;
+  requestAnimationFrame(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "auto" });
+  });
 }
 
 function render() {
   cardAutoplayToken += 1;
   const autoplayToken = cardAutoplayToken;
   clearStudyCard();
-  resetCardScrollPosition();
   updateNavScreen();
   try {
   if (state.verbMode) {
