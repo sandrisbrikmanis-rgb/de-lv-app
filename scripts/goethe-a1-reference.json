@@ -1,0 +1,37 @@
+{
+  "eltern": {
+    "noun": "Eltern",
+    "article": "die",
+    "pluralOnly": true
+  },
+  "geschwister": {
+    "noun": "Geschwister",
+    "article": "die",
+    "pluralOnly": true
+  },
+  "großeltern": {
+    "noun": "Großeltern",
+    "article": "die",
+    "pluralOnly": true
+  },
+  "jeans": {
+    "noun": "Jeans",
+    "article": "die",
+    "pluralOnly": true
+  },
+  "ferien": {
+    "noun": "Ferien",
+    "article": "die",
+    "pluralOnly": true
+  },
+  "leute": {
+    "noun": "Leute",
+    "article": "die",
+    "pluralOnly": true
+  },
+  "süßigkeiten": {
+    "noun": "Süßigkeiten",
+    "article": "die",
+    "pluralOnly": true
+  }
+}
