@@ -4010,7 +4010,7 @@
 }
 
 .card:has(> .card-corner-controls) .card-inner {
-  padding-right: var(--card-corner-controls-reserve);
+  padding-inline: calc(var(--card-corner-controls-reserve) / 2);
   box-sizing: border-box;
 }
 
@@ -7203,7 +7203,7 @@ main,
 
 .flashcard-german-line .word {
   flex-wrap: nowrap;
-  justify-content: flex-start;
+  justify-content: center;
   gap: 0;
 }
 
