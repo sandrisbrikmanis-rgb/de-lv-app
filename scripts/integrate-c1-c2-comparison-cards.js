@@ -21,7 +21,7 @@ const NEW_CARDS = [
       id: "compare-beziehen-beabsichtigen",
       layout: "comparisonStudy",
       title: "Attiecināt • Nodomāt • Plānot",
-      subtitle: "beziehen • beabsichtigen",
+      subtitle: "beziehen • sich beziehen • beabsichtigen",
       lead: "beziehen un beabsichtigen C1 stilā bieži tiek jaukti. beziehen attiecas uz attiecību vai regulāru saņemšanu; beabsichtigen — uz apzinātu nodomu.",
       explanation:
         "beziehen (sich beziehen auf) nozīmē attiecināt, attiekties uz avotu, regulāru maksājumu vai ievākšanos. beabsichtigen nozīmē apzināti nodomāt vai plānot darbību — nevis attiecību, bet nolūku.",

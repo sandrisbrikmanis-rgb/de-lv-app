@@ -41,7 +41,7 @@ const COMPARISON_COVERED_WORDS = new Set([
 ]);
 
 const COMPARISON_SUBTITLES = {
-  "compare-beziehen-beabsichtigen": "beziehen • beabsichtigen",
+  "compare-beziehen-beabsichtigen": "beziehen • sich beziehen • beabsichtigen",
   "compare-unterstellen-voraussetzen": "unterstellen • voraussetzen",
   "compare-bewahren-aufrechterhalten": "bewahren • aufrechterhalten",
 };
@@ -53,6 +53,13 @@ const SINGULAR_ONLY = new Set([
   "Flugwetter",
   "Wetterleuchten",
   "Leistungssport",
+]);
+
+/** Pluraletantum — exist only in plural (like die Kosten); no invented singular/plural forms. */
+const PLURALETANTUM = new Set([
+  "Betriebskosten",
+  "Produktionskosten",
+  "Reparaturkosten",
 ]);
 
 /** Correct plural forms for compound / -nis / -schaft nouns. */
@@ -147,7 +154,7 @@ const SLASH_SPLITS = {
 /** LV title fixes: comma explanations → bullet meanings. */
 const LV_TITLE_FIXES = {
   Abschleppdienst: "evakuācijas dienests • aizvākšanas dienests",
-  Marschflugkörper: "kreisla lidojošā raķete • kruīzraķete",
+  Marschflugkörper: "kruīza raķete • kruīzraķete",
 };
 
 /** C1/C2 adjective endings — must be lowercase without article. */
@@ -315,6 +322,30 @@ function auditWords(words, level) {
         reason: "Noņemta mākslīga daudzskaitļa forma (Singularetantum)",
         changes: { removePlural: true },
       });
+    }
+
+    // Pluraletantum — die + base plural form only; strip invented plurals
+    if (PLURALETANTUM.has(de)) {
+      if (word.de_article && word.de_article !== "die") {
+        fixes.push({
+          de,
+          old: formatEntry(word),
+          reason: "Pluraletantum: artikuls jābūt die",
+          changes: { de_article: "die" },
+        });
+      }
+      if (word.de_plural) {
+        const plWord = word.de_plural.replace(/^die\s+/, "");
+        const isSameForm = plWord === de;
+        if (!isSameForm) {
+          fixes.push({
+            de,
+            old: formatEntry(word),
+            reason: "Noņemta mākslīgi izdomāta daudzskaitļa forma (Pluraletantum)",
+            changes: { removePlural: true },
+          });
+        }
+      }
     }
 
     // Plural fixes

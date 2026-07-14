@@ -2816,7 +2816,7 @@ const C1_WORDS = [
     "de": "Marschflugkörper",
     "de_article": "der",
     "de_plural": "die Marschflugkörper",
-    "lv": "kreisla lidojošā raķete • kruīzraķete",
+    "lv": "kruīza raķete • kruīzraķete",
     "level": "C1"
   },
   {
@@ -3657,7 +3657,7 @@ const C1_WORDS = [
       "id": "compare-beziehen-beabsichtigen",
       "layout": "comparisonStudy",
       "title": "Attiecināt • Nodomāt • Plānot",
-      "subtitle": "beziehen • beabsichtigen",
+      "subtitle": "beziehen • sich beziehen • beabsichtigen",
       "lead": "beziehen un beabsichtigen C1 stilā bieži tiek jaukti. beziehen attiecas uz attiecību vai regulāru saņemšanu; beabsichtigen — uz apzinātu nodomu.",
       "explanation": "beziehen (sich beziehen auf) nozīmē attiecināt, attiekties uz avotu, regulāru maksājumu vai ievākšanos. beabsichtigen nozīmē apzināti nodomāt vai plānot darbību — nevis attiecību, bet nolūku.",
       "words": [
