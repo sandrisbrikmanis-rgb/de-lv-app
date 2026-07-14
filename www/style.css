@@ -7872,27 +7872,26 @@ main,
 
   html.is-detail-screen,
   html.is-detail-screen body {
-    height: 100%;
+    height: auto;
     min-height: 100vh;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
   }
 
   html.is-detail-screen body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display: block;
   }
 
   body.is-detail-screen main.home-main {
     width: min(var(--detail-pc-width), calc(100% - 32px));
     max-width: var(--detail-pc-width);
-    height: var(--detail-pc-height);
-    min-height: var(--detail-pc-height);
-    max-height: var(--detail-pc-height);
+    height: auto;
+    min-height: 100vh;
+    max-height: none;
     margin: 0 auto;
     padding: max(8px, env(safe-area-inset-top, 0px)) 0 max(8px, env(safe-area-inset-bottom, 0px));
     box-sizing: border-box;
-    overflow: hidden;
+    overflow: visible;
   }
 
   body.is-detail-screen .home-app-shell {
@@ -7902,44 +7901,37 @@ main,
     gap: 0 !important;
     width: 100%;
     max-width: var(--detail-pc-width);
-    height: 100%;
+    height: auto;
     min-height: 0;
     margin: 0 auto;
-    overflow: hidden;
+    overflow: visible;
   }
 
   body.is-detail-screen .group-detail-screen {
-    display: grid !important;
-    grid-template-rows: auto minmax(0, 1fr) auto;
+    display: flex !important;
+    flex-direction: column;
     gap: clamp(8px, 1.05vh, 12px);
-    height: 100%;
-    min-height: 0;
-    overflow: hidden;
+    height: auto;
+    min-height: 100vh;
+    overflow: visible;
   }
 
   body.is-detail-screen .group-detail-screen > .topbar {
     min-height: 0;
+    flex-shrink: 0;
   }
 
   body.is-detail-screen .group-detail-screen > .card {
     position: relative;
-    min-height: 0 !important;
-    height: 100%;
+    flex: 1 1 auto;
+    min-height: min(var(--detail-pc-height), calc(100svh - 220px));
+    height: auto;
     margin: 0;
     display: flex;
     flex-direction: column;
     align-items: stretch;
     justify-content: center;
-    overflow: hidden;
-  }
-
-  body.is-detail-screen .group-detail-screen > .card .card-inner {
-    flex: 1 1 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    min-height: 0;
-    width: 100%;
+    overflow: visible;
   }
 
   body.is-detail-screen .group-detail-screen > .card.has-study-card,
@@ -7947,17 +7939,30 @@ main,
     justify-content: flex-start;
   }
 
+  body.is-detail-screen .group-detail-screen > .card .card-inner {
+    flex: 0 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 0;
+    width: 100%;
+    overflow: visible;
+  }
+
   body.is-detail-screen .group-detail-screen > .card.has-study-card .card-inner,
   body.is-detail-screen .group-detail-screen > .card.has-rich-study-card .card-inner {
     justify-content: flex-start;
-    overflow-y: auto;
-    overflow-x: hidden;
-    -webkit-overflow-scrolling: touch;
-    overscroll-behavior: contain;
-    scrollbar-gutter: stable;
   }
 
   body.is-detail-screen .group-detail-screen > .controls {
+    position: sticky;
+    bottom: 0;
+    z-index: 30;
+    flex-shrink: 0;
+    margin-top: auto;
+    padding-top: 12px;
+    padding-bottom: max(8px, env(safe-area-inset-bottom, 0px));
+    background: linear-gradient(to top, #000000 82%, rgba(0, 0, 0, 0));
     min-height: 0;
   }
 
@@ -8156,81 +8161,6 @@ main,
     order: 5;
     grid-column: 1 / -1;
     margin-top: 4px;
-  }
-
-  /*
-   * Study cards (PC only): page scroll + sticky controls.
-   * All has-study-card layouts grow naturally; plain word cards keep card-inner scroll.
-   */
-  html.is-detail-screen:has(.group-detail-screen > .card.has-study-card),
-  html.is-detail-screen:has(.group-detail-screen > .card.has-rich-study-card) {
-    overflow-y: auto;
-    overflow-x: hidden;
-    height: auto;
-    min-height: 100%;
-  }
-
-  html.is-detail-screen:has(.group-detail-screen > .card.has-study-card) body,
-  html.is-detail-screen:has(.group-detail-screen > .card.has-rich-study-card) body {
-    overflow-y: auto;
-    overflow-x: hidden;
-    height: auto;
-    min-height: 100vh;
-    display: block;
-  }
-
-  body.is-detail-screen:has(.group-detail-screen > .card.has-study-card) main.home-main,
-  body.is-detail-screen:has(.group-detail-screen > .card.has-rich-study-card) main.home-main {
-    height: auto;
-    min-height: 100vh;
-    max-height: none;
-    overflow: visible;
-  }
-
-  body.is-detail-screen:has(.group-detail-screen > .card.has-study-card) .home-app-shell,
-  body.is-detail-screen:has(.group-detail-screen > .card.has-rich-study-card) .home-app-shell {
-    height: auto;
-    overflow: visible;
-  }
-
-  body.is-detail-screen:has(.group-detail-screen > .card.has-study-card) .group-detail-screen,
-  body.is-detail-screen:has(.group-detail-screen > .card.has-rich-study-card) .group-detail-screen {
-    display: flex !important;
-    flex-direction: column;
-    height: auto;
-    min-height: 100vh;
-    overflow: visible;
-  }
-
-  body.is-detail-screen:has(.group-detail-screen > .card.has-study-card) .group-detail-screen > .card,
-  body.is-detail-screen:has(.group-detail-screen > .card.has-rich-study-card) .group-detail-screen > .card {
-    height: auto;
-    min-height: 0 !important;
-    overflow: visible;
-    flex: 0 1 auto;
-  }
-
-  body.is-detail-screen:has(.group-detail-screen > .card.has-study-card) .group-detail-screen > .card.has-study-card .card-inner,
-  body.is-detail-screen:has(.group-detail-screen > .card.has-study-card) .group-detail-screen > .card.has-rich-study-card .card-inner,
-  body.is-detail-screen:has(.group-detail-screen > .card.has-rich-study-card) .group-detail-screen > .card.has-study-card .card-inner,
-  body.is-detail-screen:has(.group-detail-screen > .card.has-rich-study-card) .group-detail-screen > .card.has-rich-study-card .card-inner {
-    overflow: visible;
-    flex: none;
-    min-height: auto;
-    overscroll-behavior: auto;
-    scrollbar-gutter: auto;
-  }
-
-  body.is-detail-screen:has(.group-detail-screen > .card.has-study-card) .group-detail-screen > .controls,
-  body.is-detail-screen:has(.group-detail-screen > .card.has-rich-study-card) .group-detail-screen > .controls {
-    position: sticky;
-    bottom: 0;
-    z-index: 30;
-    flex-shrink: 0;
-    margin-top: auto;
-    padding-top: 12px;
-    padding-bottom: max(8px, env(safe-area-inset-bottom, 0px));
-    background: linear-gradient(to top, #000000 82%, rgba(0, 0, 0, 0));
   }
 }
 
