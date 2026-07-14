@@ -5806,9 +5806,26 @@ function escapeStudyCardText(value) {
 const COMPARISON_WORD_ACCENTS = ["blue", "green", "lightGreen", "yellow", "red", "orange", "darkGreen"];
 
 function comparisonWordAudioSrc(word) {
-  const bare = stripGermanArticle(String(word || "").trim());
+  const text = String(word || "").trim();
+  if (!text) return null;
+  const articleMatch = text.match(/^(der|die|das)\s+(.+)$/i);
+  if (articleMatch) {
+    return nounArticleAudioSrc(articleMatch[1], articleMatch[2]);
+  }
+  const bare = stripGermanArticle(text);
   if (!bare) return null;
-  return a1AudioSrc(`${sanitizeAudioFilename(bare)}.mp3`);
+  return a1AudioForBareWord(bare) || a1AudioSrc(`${sanitizeAudioFilename(bare)}.mp3`);
+}
+
+function renderComparisonSubtitleWithAudio(subtitle) {
+  const parts = String(subtitle || "").split(/\s*•\s*/).map((part) => part.trim()).filter(Boolean);
+  if (!parts.length) return "";
+  return parts.map((part, index) => {
+    const audioSrc = comparisonWordAudioSrc(part);
+    const audioBtn = comparisonWordAudioButtonHtml(part, audioSrc);
+    const sep = index > 0 ? '<span class="comparison-subtitle-sep"> • </span>' : "";
+    return `${sep}<span class="comparison-subtitle-part">${escapeStudyCardText(part)}${audioBtn}</span>`;
+  }).join("");
 }
 
 function exampleSentenceAudioSrc(sentence) {
@@ -5916,6 +5933,9 @@ function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
   applyFlashcardSingularAudio(card, autoplayToken, {
     study,
     enablePrimaryAudio: !isComparisonStudy,
+    speakerButtons: isComparisonStudy
+      ? { onWord: false, onTranslation: false }
+      : undefined,
   });
 
   if (!state.revealed) {
@@ -5928,6 +5948,8 @@ function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
         return index ? `<span class="minimal-study-variant-sep">/</span>${line}` : line;
       }).join("")}</div>`;
     }
+  } else if (isComparisonStudy && state.revealed && study.subtitle) {
+    elements.translation.innerHTML = `<div class="comparison-subtitle-row">${renderComparisonSubtitleWithAudio(study.subtitle)}</div>`;
   } else if (isPairedStudy || isGermanToLatvian) {
     elements.translation.textContent = backText;
     if (!isPairedStudy && pluralText) showFlashcardPluralRow(pluralText, pluralAudioSrc);
@@ -6126,8 +6148,11 @@ function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
 
   const examples = (Array.isArray(study.examples) ? study.examples : []).map((example, index) => {
     const accentRules = sectionAccentRules("examples", index);
+    const exampleDe = String(example.de || "").trim();
+    const audioSrc = exampleSentenceAudioSrc(exampleDe) || comparisonWordAudioSrc(exampleDe);
+    const audioBtn = comparisonWordAudioButtonHtml(exampleDe, audioSrc);
     return `
-    <div>${formatStudyText(example.de, fieldAccentRules(accentRules, "de"))}</div>
+    <div>${formatStudyText(example.de, fieldAccentRules(accentRules, "de"))}${audioBtn}</div>
       <span>=</span>
       <span>${formatStudyText(example.lv, fieldAccentRules(accentRules, "lv"))}</span>
   `;
@@ -6159,9 +6184,11 @@ function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
     const itemAccents = Array.isArray(accentRules) ? accentRules[index] : accentRules;
     const de = formatStudyText(item.de, fieldAccentRules(itemAccents, "de"));
     const lv = formatStudyText(item.lv, fieldAccentRules(itemAccents, "lv"));
+    const audioSrc = item.de ? comparisonWordAudioSrc(item.de) : null;
+    const audioBtn = audioSrc ? comparisonWordAudioButtonHtml(item.de, audioSrc) : "";
     const separator = `<span class="study-tip-separator">${escapeStudyCardText(item.separator || "=")}</span>`;
     return `
-    <p class="study-tip-example${item.stacked ? " study-tip-example-stacked" : ""}">${item.stacked ? `${de}<br>${separator}<br>${lv}` : `${de} ${separator} ${lv}`}</p>
+    <p class="study-tip-example${item.stacked ? " study-tip-example-stacked" : ""}">${item.stacked ? `${de}${audioBtn}<br>${separator}<br>${lv}` : `${de}${audioBtn} ${separator} ${lv}`}</p>
   `;
   }).join("");
   const hasTipRight = Boolean(

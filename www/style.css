@@ -1277,6 +1277,25 @@
       line-height: 1.2;
     }
 
+    .comparison-subtitle-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 4px;
+    }
+
+    .comparison-subtitle-part {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .comparison-subtitle-sep {
+      margin: 0 2px;
+      color: var(--text-secondary);
+    }
+
     .comparison-word-de-row {
       display: flex;
       align-items: center;
