@@ -130,6 +130,9 @@ const GOETHE_NOUNS = {
   Internet: { article: "das", singularOnly: true },
   Jacke: { article: "die", plural: "Jacken" },
   Jeans: { article: "die", pluralOnly: true },
+  Kleidung: { article: "die", singularOnly: true },
+  Hose: { article: "die", plural: "Hosen" },
+  Urlaub: { article: "der", singularOnly: true },
   Jugendliche: { article: "der", plural: "Jugendlichen" },
   Junge: { article: "der", plural: "Jungen" },
   Kaffee: { article: "der", singularOnly: true },
@@ -269,6 +272,9 @@ const COMPARISON_CARD_IDS = new Set([
   "compare-fernsehen-fernsehen",
   "compare-appetit-essen",
   "compare-gemuese-obst",
+  "compare-ferien-urlaub",
+  "compare-geschwister-eltern",
+  "compare-kleidung-jeans-hose",
 ]);
 
 // Base words covered by comparison cards — absence from standalone entries is OK
@@ -276,6 +282,9 @@ const COMPARISON_COVERED_WORDS = new Set([
   "Appetit", "essen", "Essen",
   "fernsehen", "Fernsehen",
   "Gemüse", "Obst",
+  "Ferien", "Urlaub",
+  "Geschwister", "Eltern",
+  "Kleidung", "Jeans", "Hose",
 ]);
 
 function loadA1() {

@@ -9,7 +9,10 @@ const vm = require("vm");
 const root = path.join(__dirname, "..");
 const targets = ["data/a1.js", "www/data/a1.js"];
 
-const REMOVE_DE = new Set(["Appetit", "essen", "Essen", "Fernsehen", "Gemüse", "Obst", "fernsehen"]);
+const REMOVE_DE = new Set([
+  "Appetit", "essen", "Essen", "Fernsehen", "Gemüse", "Obst", "fernsehen",
+  "Ferien", "Urlaub", "Geschwister", "Eltern", "Kleidung", "Jeans", "Hose",
+]);
 
 const NEW_CARDS = [
   {
@@ -457,6 +460,442 @@ const NEW_CARDS = [
         remember: [
           { green: ["Gemüse"], purple: ["dārzeņi"] },
           { yellow: ["Obst"], purple: ["augļi"] },
+        ],
+      },
+    },
+  },
+  {
+    de: "Ferien • Urlaub",
+    lv: "Brīvdienas • Atvaļinājums",
+    level: "A1",
+    study: {
+      id: "compare-ferien-urlaub",
+      layout: "comparisonStudy",
+      title: "Brīvdienas • Atvaļinājums",
+      subtitle: "Ferien • Urlaub",
+      lead: "die Ferien ir skolas brīvdienas; der Urlaub ir atvaļinājums no darba.",
+      explanation: "die Ferien ir Pluraletantum — vienmēr daudzskaitlī (in den Ferien). Tas attiecas uz skolu, universitāti vai studijām. der Urlaub ir Singularetantum — atvaļinājums no darba (im Urlaub). Abi nozīmē brīvu laiku, bet konteksts ir atšķirīgs.",
+      words: [
+        {
+          icon: "🏫",
+          lv: "brīvdienas (skola)",
+          de: "die Ferien",
+          description: "Pluraletantum. Skolas vai studiju brīvlaiks — vienmēr daudzskaitlī.",
+          example: "In den Ferien fahren wir ans Meer. = Brīvdienās mēs braucam pie jūras.",
+        },
+        {
+          icon: "🌴",
+          lv: "atvaļinājums",
+          de: "der Urlaub",
+          description: "Singularetantum. Atvaļinājums no darba — vienmēr vienskaitlī.",
+          example: "Mein Vater ist im Urlaub. = Mans tēvs ir atvaļinājumā.",
+        },
+      ],
+      examples: [
+        { de: "In den Ferien habe ich viel Zeit.", lv: "brīvdienās man ir daudz laika." },
+        { de: "Was macht ihr in den Ferien?", lv: "ko jūs darāt brīvdienās?" },
+        { de: "Mein Vater ist im Urlaub.", lv: "mans tēvs ir atvaļinājumā." },
+        { de: "Nächste Woche habe ich Urlaub.", lv: "nākamnedēļ man ir atvaļinājums." },
+        { de: "Die Schule ist in den Ferien zu.", lv: "skola brīvdienās ir slēgta." },
+        { de: "Wir machen Urlaub in Spanien.", lv: "mēs pavadām atvaļinājumu Spānijā." },
+      ],
+      comparisonTable: [
+        {
+          lv: "brīvdienas",
+          de: "die Ferien",
+          meaning: "skolas brīvlaiiks",
+          describes: "Pluraletantum",
+          example: "In den Ferien fahren wir ans Meer.",
+          translation: "brīvdienās mēs braucam pie jūras.",
+        },
+        {
+          lv: "atvaļinājums",
+          de: "der Urlaub",
+          meaning: "brīvais laiks no darba",
+          describes: "Singularetantum",
+          example: "Mein Vater ist im Urlaub.",
+          translation: "mans tēvs ir atvaļinājumā.",
+        },
+        {
+          lv: "brīvdienās",
+          de: "in den Ferien",
+          meaning: "skolas konteksts",
+          describes: "Dativ + Pl.",
+          example: "Was macht ihr in den Ferien?",
+          translation: "ko jūs darāt brīvdienās?",
+        },
+        {
+          lv: "atvaļinājumā",
+          de: "im Urlaub",
+          meaning: "darba atvaļinājums",
+          describes: "Dativ + Sg.",
+          example: "Nächste Woche habe ich Urlaub.",
+          translation: "nākamnedēļ man ir atvaļinājums.",
+        },
+      ],
+      importantComparison: [
+        "In den Ferien = brīvdienās (skola).",
+        "im Urlaub = atvaļinājumā (darbs).",
+        "die Ferien nav vienskaitlī; der Urlaub nav daudzskaitlī.",
+      ],
+      tip: {
+        left: "Skola un studijas: die Ferien. Darbs: der Urlaub.",
+        rightTitle: "ātri",
+        rightItems: [
+          { de: "in den Ferien", lv: "brīvdienās", separator: "=" },
+          { de: "im Urlaub", lv: "atvaļinājumā", separator: "=" },
+        ],
+      },
+      important: [
+        "Nav pareizi: die Ferie, der Urlaube (A1 līmenī).",
+        "Ferien vienmēr ar datīvu: in den Ferien.",
+        "Urlaub: im Urlaub sein / Urlaub machen.",
+      ],
+      mistakes: [
+        { wrong: "in der Ferien", right: "in den Ferien" },
+        { wrong: "die Urlaube", right: "der Urlaub" },
+      ],
+      remember: [
+        "Skola: die Ferien (Pl.).",
+        "Darbs: der Urlaub (Sg.).",
+      ],
+      sectionAccents: {
+        lead: { green: ["Ferien"], yellow: ["Urlaub"], purple: ["brīvdienas", "atvaļinājums"] },
+        comparisonCards: [
+          { lv: { purple: ["brīvdienas", "skola"] }, de: { green: ["Ferien"] }, example: { green: ["Ferien"], purple: ["brīvdienās"] } },
+          { lv: { purple: ["atvaļinājums"] }, de: { yellow: ["Urlaub"] }, example: { yellow: ["Urlaub"], purple: ["atvaļinājumā"] } },
+        ],
+        examples: [
+          { de: { green: ["Ferien"] }, lv: { purple: ["brīvdienās", "laika"] } },
+          { de: { green: ["Ferien"] }, lv: { purple: ["brīvdienās"] } },
+          { de: { yellow: ["Urlaub"] }, lv: { purple: ["atvaļinājumā"] } },
+          { de: { yellow: ["Urlaub"] }, lv: { purple: ["atvaļinājums"] } },
+          { de: { green: ["Ferien"] }, lv: { purple: ["brīvdienās", "slēgta"] } },
+          { de: { yellow: ["Urlaub"] }, lv: { purple: ["atvaļinājumu"] } },
+        ],
+        comparisonTable: [
+          { lv: { purple: ["brīvdienas"] }, de: { green: ["Ferien"] }, example: { green: ["Ferien"] }, translation: { purple: ["brīvdienās"] } },
+          { lv: { purple: ["atvaļinājums"] }, de: { yellow: ["Urlaub"] }, example: { yellow: ["Urlaub"] }, translation: { purple: ["atvaļinājumā"] } },
+          { lv: { purple: ["brīvdienās"] }, de: { green: ["Ferien"] }, example: { green: ["Ferien"] }, translation: { purple: ["brīvdienās"] } },
+          { lv: { purple: ["atvaļinājumā"] }, de: { yellow: ["Urlaub"] }, example: { yellow: ["Urlaub"] }, translation: { purple: ["atvaļinājums"] } },
+        ],
+        importantComparison: [
+          { green: ["Ferien"], purple: ["brīvdienās"] },
+          { yellow: ["Urlaub"], purple: ["atvaļinājumā"] },
+        ],
+        tip: {
+          left: { green: ["Ferien"], yellow: ["Urlaub"] },
+          rightItems: [
+            { de: { green: ["Ferien"] }, lv: { purple: ["brīvdienās"] } },
+            { de: { yellow: ["Urlaub"] }, lv: { purple: ["atvaļinājumā"] } },
+          ],
+        },
+        important: [
+          { green: ["Ferien"], yellow: ["Urlaub"] },
+          { green: ["Ferien"], purple: ["den Ferien"] },
+        ],
+        mistakes: [
+          { wrong: { red: ["der Ferien"] }, right: { green: ["den Ferien"] } },
+          { wrong: { red: ["Urlaube"] }, right: { yellow: ["Urlaub"] } },
+        ],
+        remember: [
+          { green: ["Ferien"] },
+          { yellow: ["Urlaub"] },
+        ],
+      },
+    },
+  },
+  {
+    de: "Geschwister • Eltern",
+    lv: "Brāļi un māsas • Vecāki",
+    level: "A1",
+    study: {
+      id: "compare-geschwister-eltern",
+      layout: "comparisonStudy",
+      title: "Brāļi un māsas • Vecāki",
+      subtitle: "Geschwister • Eltern",
+      lead: "Abi ir Pluraletantum — tie apzīmē grupu un nav pamata vienskaitļa formas.",
+      explanation: "die Geschwister nozīmē brāļus un māsas kopā. die Eltern nozīmē vecākus (māti un tēvu). Abi vārdi vienmēr ir daudzskaitlī un sieviešu dzimtē (die). Nav pareizi: der Geschwister, das Elter.",
+      words: [
+        {
+          icon: "👫",
+          lv: "brāļi un māsas",
+          de: "die Geschwister",
+          description: "Pluraletantum. Visi brāļi un māsas kopā — nav vienskaitļa.",
+          example: "Ich habe zwei Geschwister. = Man ir divi brāļi/māsas.",
+        },
+        {
+          icon: "👨‍👩‍👧",
+          lv: "vecāki",
+          de: "die Eltern",
+          description: "Pluraletantum. Māte un tēvs kopā — vienmēr daudzskaitlī.",
+          example: "Meine Eltern wohnen in Riga. = Mani vecāki dzīvo Rīgā.",
+        },
+      ],
+      examples: [
+        { de: "Ich habe zwei Geschwister.", lv: "man ir divi brāļi/māsas." },
+        { de: "Meine Geschwister sind jung.", lv: "mani brāļi un māsas ir jauni." },
+        { de: "Meine Eltern wohnen in Riga.", lv: "mani vecāki dzīvo Rīgā." },
+        { de: "Die Eltern kommen heute.", lv: "vecāki šodien atbrauc." },
+        { de: "Spielen deine Geschwister Fußball?", lv: "vai tavi brāļi/māsas spēlē futbolu?" },
+        { de: "Ich telefoniere mit meinen Eltern.", lv: "es zvanu saviem vecākiem." },
+      ],
+      comparisonTable: [
+        {
+          lv: "brāļi un māsas",
+          de: "die Geschwister",
+          meaning: "brāļi + māsas",
+          describes: "Pluraletantum",
+          example: "Ich habe zwei Geschwister.",
+          translation: "man ir divi brāļi/māsas.",
+        },
+        {
+          lv: "vecāki",
+          de: "die Eltern",
+          meaning: "māte un tēvs",
+          describes: "Pluraletantum",
+          example: "Meine Eltern wohnen in Riga.",
+          translation: "mani vecāki dzīvo Rīgā.",
+        },
+        {
+          lv: "brāļiem/māsām",
+          de: "meine Geschwister",
+          meaning: "mana brāļu/māsu grupa",
+          describes: "possessiv + Pl.",
+          example: "Meine Geschwister sind jung.",
+          translation: "mani brāļi un māsas ir jauni.",
+        },
+        {
+          lv: "vecākiem",
+          de: "meinen Eltern",
+          meaning: "maniem vecākiem",
+          describes: "Dativ + Pl.",
+          example: "Ich telefoniere mit meinen Eltern.",
+          translation: "es zvanu saviem vecākiem.",
+        },
+      ],
+      importantComparison: [
+        "die Geschwister = brāļi un māsas.",
+        "die Eltern = vecāki.",
+        "Abi vienmēr daudzskaitlī — nav *der Geschwister vai *das Elter.",
+      ],
+      tip: {
+        left: "Ja runā par brāļiem un māsām kopā: Geschwister. Ja par māti un tēvu kopā: Eltern.",
+        rightTitle: "ātri",
+        rightItems: [
+          { de: "Geschwister", lv: "brāļi un māsas", separator: "=" },
+          { de: "Eltern", lv: "vecāki", separator: "=" },
+        ],
+      },
+      important: [
+        "Nav vienskaitļa: *der Schwester als Geschwister-Ersetzung.",
+        "Eltern vienmēr ar die — nevis der/das.",
+        "Geschwister un Eltern abi ir die + Pl.",
+      ],
+      mistakes: [
+        { wrong: "die Elterns", right: "die Eltern" },
+        { wrong: "der Geschwister", right: "die Geschwister" },
+      ],
+      remember: [
+        "Geschwister = brāļi un māsas (Pl.).",
+        "Eltern = vecāki (Pl.).",
+      ],
+      sectionAccents: {
+        lead: { blue: ["Geschwister", "Eltern"], purple: ["grupu", "Pluraletantum"] },
+        comparisonCards: [
+          { lv: { purple: ["brāļi un māsas"] }, de: { blue: ["Geschwister"] }, example: { blue: ["Geschwister"], purple: ["brāļi", "māsas"] } },
+          { lv: { purple: ["vecāki"] }, de: { green: ["Eltern"] }, example: { green: ["Eltern"], purple: ["vecāki"] } },
+        ],
+        examples: [
+          { de: { blue: ["Geschwister"] }, lv: { purple: ["brāļi", "māsas"] } },
+          { de: { blue: ["Geschwister"] }, lv: { purple: ["brāļi", "māsas", "jauni"] } },
+          { de: { green: ["Eltern"] }, lv: { purple: ["vecāki", "dzīvo"] } },
+          { de: { green: ["Eltern"] }, lv: { purple: ["vecāki", "atbrauc"] } },
+          { de: { blue: ["Geschwister"] }, lv: { purple: ["brāļi", "māsas", "futbolu"] } },
+          { de: { green: ["Eltern"] }, lv: { purple: ["vecākiem", "zvanu"] } },
+        ],
+        comparisonTable: [
+          { lv: { purple: ["brāļi un māsas"] }, de: { blue: ["Geschwister"] }, example: { blue: ["Geschwister"] }, translation: { purple: ["brāļi", "māsas"] } },
+          { lv: { purple: ["vecāki"] }, de: { green: ["Eltern"] }, example: { green: ["Eltern"] }, translation: { purple: ["vecāki"] } },
+          { lv: { purple: ["brāļiem"] }, de: { blue: ["Geschwister"] }, example: { blue: ["Geschwister"] }, translation: { purple: ["jauni"] } },
+          { lv: { purple: ["vecākiem"] }, de: { green: ["Eltern"] }, example: { green: ["Eltern"] }, translation: { purple: ["vecākiem"] } },
+        ],
+        importantComparison: [
+          { blue: ["Geschwister"], purple: ["brāļi", "māsas"] },
+          { green: ["Eltern"], purple: ["vecāki"] },
+        ],
+        tip: {
+          left: { blue: ["Geschwister"], green: ["Eltern"] },
+          rightItems: [
+            { de: { blue: ["Geschwister"] }, lv: { purple: ["brāļi un māsas"] } },
+            { de: { green: ["Eltern"] }, lv: { purple: ["vecāki"] } },
+          ],
+        },
+        important: [
+          { blue: ["Geschwister"], green: ["Eltern"] },
+          { red: ["Elterns", "der Geschwister"] },
+        ],
+        mistakes: [
+          { wrong: { red: ["Elterns"] }, right: { green: ["Eltern"] } },
+          { wrong: { red: ["der Geschwister"] }, right: { blue: ["die Geschwister"] } },
+        ],
+        remember: [
+          { blue: ["Geschwister"] },
+          { green: ["Eltern"] },
+        ],
+      },
+    },
+  },
+  {
+    de: "Kleidung • Jeans • Hose",
+    lv: "Apģērbs • Džinsi • Bikses",
+    level: "A1",
+    study: {
+      id: "compare-kleidung-jeans-hose",
+      layout: "comparisonStudy",
+      title: "Apģērbs • Džinsi • Bikses",
+      subtitle: "Kleidung • Jeans • Hose",
+      lead: "die Kleidung ir apģērbs kopumā; die Jeans un die Hose ir konkrētas lietas ar atšķirīgu skaitļa loģiku.",
+      explanation: "die Kleidung ir Singularetantum — apģērbs vispār. die Jeans ir Pluraletantum — džinsi vienmēr daudzskaitlī (viens *die Jean neeksistē). die Hose ir parasts lietvārds: viena bikšu pāris (die Hose), vairāki pāri (die Hosen).",
+      words: [
+        {
+          icon: "👕",
+          lv: "apģērbs",
+          de: "die Kleidung",
+          description: "Singularetantum. Apģērbs kopumā — nav daudzskaitļa.",
+          example: "Die Kleidung ist neu. = Apģērbs ir jauns.",
+        },
+        {
+          icon: "👖",
+          lv: "džinsi",
+          de: "die Jeans",
+          description: "Pluraletantum. Džinsu bikses — vienmēr daudzskaitlī.",
+          example: "Sie trägt heute Jeans. = Viņa šodien valkā džinsus.",
+        },
+        {
+          icon: "🩳",
+          lv: "bikses",
+          de: "die Hose",
+          description: "Parasts lietvārds. Viens bikšu pāris — Sg.; vairāki — die Hosen.",
+          example: "Ich kaufe eine neue Hose. = Es pērku jaunas bikses.",
+        },
+      ],
+      examples: [
+        { de: "Die Kleidung ist schön.", lv: "apģērbs ir skaists." },
+        { de: "Sie trägt heute Jeans.", lv: "viņa šodien valkā džinsus." },
+        { de: "Ich kaufe eine neue Hose.", lv: "es pērku jaunas bikses." },
+        { de: "Wo ist meine Kleidung?", lv: "kur ir mans apģērbs?" },
+        { de: "Die Jeans sind blau.", lv: "džinsi ir zili." },
+        { de: "Die Hosen sind zu lang.", lv: "bikses ir par garām." },
+      ],
+      comparisonTable: [
+        {
+          lv: "apģērbs",
+          de: "die Kleidung",
+          meaning: "apģērbs kopumā",
+          describes: "Singularetantum",
+          example: "Die Kleidung ist neu.",
+          translation: "apģērbs ir jauns.",
+        },
+        {
+          lv: "džinsi",
+          de: "die Jeans",
+          meaning: "džinsu bikses",
+          describes: "Pluraletantum",
+          example: "Sie trägt Jeans.",
+          translation: "viņa valkā džinsus.",
+        },
+        {
+          lv: "bikses (viens pāris)",
+          de: "die Hose",
+          meaning: "viens bikšu pāris",
+          describes: "Sg. → Pl. Hosen",
+          example: "Ich kaufe eine Hose.",
+          translation: "es pērku bikses.",
+        },
+        {
+          lv: "bikses (vairāki)",
+          de: "die Hosen",
+          meaning: "vairāki pāri",
+          describes: "daudzskaitlis",
+          example: "Die Hosen sind zu lang.",
+          translation: "bikses ir par garām.",
+        },
+      ],
+      importantComparison: [
+        "die Kleidung = apģērbs (Sg.).",
+        "die Jeans = džinsi (vienmēr Pl.).",
+        "die Hose / die Hosen = bikses.",
+      ],
+      tip: {
+        left: "Vispārīgi par apģērbu: Kleidung. Džinsi: Jeans. Bikses: Hose (viens) vai Hosen (vairāki).",
+        rightTitle: "ātri",
+        rightItems: [
+          { de: "Kleidung", lv: "apģērbs", separator: "=" },
+          { de: "Jeans", lv: "džinsi", separator: "=" },
+          { de: "Hose", lv: "bikses", separator: "=" },
+        ],
+      },
+      important: [
+        "Nav: die Kleidungen, die Jean.",
+        "Jeans vienmēr ar Pluralverben: Die Jeans sind...",
+        "Hose = 1 pāris; Hosen = vairāki pāri.",
+      ],
+      mistakes: [
+        { wrong: "die Jean", right: "die Jeans" },
+        { wrong: "die Kleidungen", right: "die Kleidung" },
+      ],
+      remember: [
+        "Kleidung — tikai vienskaitlī.",
+        "Jeans — tikai daudzskaitlī.",
+        "Hose → Hosen ir normāls Sg./Pl.",
+      ],
+      sectionAccents: {
+        lead: { blue: ["Kleidung"], yellow: ["Jeans"], green: ["Hose"], purple: ["apģērbs", "džinsi", "bikses"] },
+        comparisonCards: [
+          { lv: { purple: ["apģērbs"] }, de: { blue: ["Kleidung"] }, example: { blue: ["Kleidung"], purple: ["apģērbs"] } },
+          { lv: { purple: ["džinsi"] }, de: { yellow: ["Jeans"] }, example: { yellow: ["Jeans"], purple: ["džinsus"] } },
+          { lv: { purple: ["bikses"] }, de: { green: ["Hose", "Hosen"] }, example: { green: ["Hose"], purple: ["bikses"] } },
+        ],
+        examples: [
+          { de: { blue: ["Kleidung"] }, lv: { purple: ["apģērbs", "skaists"] } },
+          { de: { yellow: ["Jeans"] }, lv: { purple: ["džinsus", "valkā"] } },
+          { de: { green: ["Hose"] }, lv: { purple: ["bikses", "pērku"] } },
+          { de: { blue: ["Kleidung"] }, lv: { purple: ["apģērbs"] } },
+          { de: { yellow: ["Jeans"] }, lv: { purple: ["zili"] } },
+          { de: { green: ["Hosen"] }, lv: { purple: ["bikses", "garām"] } },
+        ],
+        comparisonTable: [
+          { lv: { purple: ["apģērbs"] }, de: { blue: ["Kleidung"] }, example: { blue: ["Kleidung"] }, translation: { purple: ["apģērbs"] } },
+          { lv: { purple: ["džinsi"] }, de: { yellow: ["Jeans"] }, example: { yellow: ["Jeans"] }, translation: { purple: ["džinsus"] } },
+          { lv: { purple: ["bikses"] }, de: { green: ["Hose"] }, example: { green: ["Hose"] }, translation: { purple: ["bikses"] } },
+          { lv: { purple: ["bikses"] }, de: { green: ["Hosen"] }, example: { green: ["Hosen"] }, translation: { purple: ["garām"] } },
+        ],
+        importantComparison: [
+          { blue: ["Kleidung"], purple: ["apģērbs"] },
+          { yellow: ["Jeans"], purple: ["džinsi"] },
+          { green: ["Hose", "Hosen"], purple: ["bikses"] },
+        ],
+        tip: {
+          left: { blue: ["Kleidung"], yellow: ["Jeans"], green: ["Hose"] },
+          rightItems: [
+            { de: { blue: ["Kleidung"] }, lv: { purple: ["apģērbs"] } },
+            { de: { yellow: ["Jeans"] }, lv: { purple: ["džinsi"] } },
+            { de: { green: ["Hose"] }, lv: { purple: ["bikses"] } },
+          ],
+        },
+        important: [
+          { blue: ["Kleidung"], yellow: ["Jeans"], green: ["Hose"] },
+          { red: ["Kleidungen", "Jean"] },
+        ],
+        mistakes: [
+          { wrong: { red: ["Jean"] }, right: { yellow: ["Jeans"] } },
+          { wrong: { red: ["Kleidungen"] }, right: { blue: ["Kleidung"] } },
+        ],
+        remember: [
+          { blue: ["Kleidung"] },
+          { yellow: ["Jeans"] },
+          { green: ["Hose", "Hosen"] },
         ],
       },
     },
