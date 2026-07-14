@@ -17551,7 +17551,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich eingewöhnen",
-    "lv": "pierasties",
+    "lv": "pierast",
     "level": "B1",
     "study": {
       "id": "b1-sich-eingewöhnen",
@@ -21419,7 +21419,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich erbrechen",
-    "lv": "vemties",
+    "lv": "vemt",
     "level": "B1"
   },
   {
@@ -21803,7 +21803,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich ernähren",
-    "lv": "baroties",
+    "lv": "pārtikt",
     "level": "B1"
   },
   {
@@ -25564,14 +25564,14 @@ const B1_WORDS = [
     "de": "Gehalt",
     "de_article": "das",
     "de_plural": "die Gehälter",
-    "lv": "saturs",
+    "lv": "alga",
     "level": "B1"
   },
   {
     "de": "Gehalt",
     "de_article": "der",
     "de_plural": "die Gehälter",
-    "lv": "alga",
+    "lv": "saturs",
     "level": "B1"
   },
   {
@@ -27211,7 +27211,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich gewöhnen",
-    "lv": "pierasties",
+    "lv": "pierast",
     "level": "B1",
     "study": {
       "id": "b1-sich-gewöhnen",

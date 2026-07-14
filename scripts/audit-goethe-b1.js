@@ -34,12 +34,8 @@ const REFLEXIVE_BARE_TO_SICH = {
 };
 
 const REFLEXIVE_LV_FIXES = {
-  "sich eingewöhnen": "pierasties",
-  "sich gewöhnen": "pierasties",
-  "sich ernähren": "baroties",
   "sich bedienen": "apkalpoties",
   "sich vertragen": "sadzīvot",
-  "sich erbrechen": "vemties",
 };
 
 const MISSING_REFLEXIVE_ENTRIES = {
