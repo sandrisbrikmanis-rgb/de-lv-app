@@ -6556,7 +6556,7 @@ function resetCardScrollPosition(card) {
   const cardInner = document.querySelector("article.card .card-inner");
   if (cardInner) cardInner.scrollTop = 0;
 
-  if (!card?.study || !window.matchMedia("(min-width: 769px)").matches) return;
+  if (state.navScreen !== "detail" || !window.matchMedia("(min-width: 769px)").matches) return;
   requestAnimationFrame(() => {
     window.scrollTo({ top: 0, left: 0, behavior: "auto" });
   });
