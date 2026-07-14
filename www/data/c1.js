@@ -62,14 +62,14 @@ const C1_WORDS = [
   {
     "de": "Aktionsprogramm",
     "de_article": "das",
-    "de_plural": "die Aktionsprogramms",
+    "de_plural": "die Aktionsprogramme",
     "lv": "pasākumu programma",
     "level": "C1"
   },
   {
     "de": "Alarmbereitschaft",
     "de_article": "die",
-    "de_plural": "die Alarmbereitschafts",
+    "de_plural": "die Alarmbereitschaften",
     "lv": "trauksmes gatavība",
     "level": "C1"
   },
@@ -98,14 +98,14 @@ const C1_WORDS = [
   {
     "de": "Abrüstungsabkommen",
     "de_article": "das",
-    "de_plural": "die Abrüstungsabkommens",
+    "de_plural": "die Abrüstungsabkommen",
     "lv": "atbruņošanās līgums",
     "level": "C1"
   },
   {
     "de": "Abrüstungsverhandlungen",
     "de_article": "die",
-    "de_plural": "die Abrüstungsverhandlungens",
+    "de_plural": "die Abrüstungsverhandlungen",
     "lv": "atbruņošanās sarunas",
     "level": "C1"
   },
@@ -157,7 +157,6 @@ const C1_WORDS = [
   {
     "de": "Flugwetter",
     "de_article": "das",
-    "de_plural": "die Flugwetters",
     "lv": "laika apstākļi lidošanai",
     "level": "C1"
   },
@@ -171,7 +170,7 @@ const C1_WORDS = [
   {
     "de": "Frachtgeld",
     "de_article": "das",
-    "de_plural": "die Frachtgelde",
+    "de_plural": "die Frachtgelder",
     "lv": "maksa par kravas pārvadāšanu",
     "level": "C1"
   },
@@ -185,7 +184,7 @@ const C1_WORDS = [
   {
     "de": "Freikörperkultur",
     "de_article": "die",
-    "de_plural": "die Freikörperkulturs",
+    "de_plural": "die Freikörperkulturen",
     "lv": "nūdisms",
     "level": "C1"
   },
@@ -202,7 +201,7 @@ const C1_WORDS = [
   {
     "de": "Zivilgesetzbuch",
     "de_article": "das",
-    "de_plural": "die Zivilgesetzbuche",
+    "de_plural": "die Zivilgesetzbücher",
     "lv": "civillikums",
     "level": "C1"
   },
@@ -249,11 +248,6 @@ const C1_WORDS = [
     "de_article": "das",
     "de_plural": "die Bäckerhandwerke",
     "lv": "maiznieka amats",
-    "level": "C1"
-  },
-  {
-    "de": "beabsichtigen",
-    "lv": "nodomāt",
     "level": "C1"
   },
   {
@@ -319,14 +313,13 @@ const C1_WORDS = [
   {
     "de": "Dampfbügeleisen",
     "de_article": "das",
-    "de_plural": "die Dampfbügeleisens",
+    "de_plural": "die Dampfbügeleisen",
     "lv": "tvaika gludeklis",
     "level": "C1"
   },
   {
     "de": "Büroangestellte",
     "de_article": "der",
-    "de_plural": "die Büroangestellte",
     "lv": "biroja darbinieks",
     "level": "C1"
   },
@@ -374,17 +367,17 @@ const C1_WORDS = [
         {
           "de": "Sie wohnen in einem Einfamilienhaus.",
           "lv": "viņi dzīvo vienģimenes mājā."
-  },
+        },
         {
           "de": "Das Einfamilienhaus hat einen Garten.",
           "lv": "vienģimenes mājai ir dārzs."
-  },
+        },
         {
           "de": "Nebenan steht ein Mehrfamilienhaus.",
           "lv": "blakus atrodas daudzdzīvokļu māja."
-  },
-      ],
-  },
+        }
+      ]
+    }
   },
   {
     "de": "Eisenbahnfahrt",
@@ -415,7 +408,7 @@ const C1_WORDS = [
   {
     "de": "Gartenerdbeere",
     "de_article": "die",
-    "de_plural": "die Gartenerdbeere",
+    "de_plural": "die Gartenerdbeeren",
     "lv": "dārza zemene",
     "level": "C1"
   },
@@ -507,7 +500,6 @@ const C1_WORDS = [
   {
     "de": "Gewichtheben",
     "de_article": "das",
-    "de_plural": "die Gewichthebens",
     "lv": "svarcelšana",
     "level": "C1"
   },
@@ -526,13 +518,7 @@ const C1_WORDS = [
   {
     "de": "Hausangestellte",
     "de_article": "die",
-    "de_plural": "die Hausangestellte",
     "lv": "mājkalpotāja",
-    "level": "C1"
-  },
-  {
-    "de": "der/das Hektar",
-    "lv": "hektārs",
     "level": "C1"
   },
   {
@@ -635,11 +621,6 @@ const C1_WORDS = [
     "level": "C1"
   },
   {
-    "de": "karre / Karren",
-    "lv": "ķerra",
-    "level": "C1"
-  },
-  {
     "de": "Klage",
     "de_article": "die",
     "de_plural": "die Klagen",
@@ -671,11 +652,6 @@ const C1_WORDS = [
     "level": "C1"
   },
   {
-    "de": "der/die Krüppel",
-    "lv": "kroplis",
-    "level": "C1"
-  },
-  {
     "de": "Lastkraftwagen",
     "de_article": "der",
     "de_plural": "die Lastkraftwagen",
@@ -692,11 +668,6 @@ const C1_WORDS = [
     "de_article": "die",
     "de_plural": "die Leichtathletiken",
     "lv": "vieglatlētika",
-    "level": "C1"
-  },
-  {
-    "de": "der/das Matsch",
-    "lv": "mačs",
     "level": "C1"
   },
   {
@@ -796,24 +767,17 @@ const C1_WORDS = [
         {
           "de": "Die Öffentlichkeit reagierte kritisch.",
           "lv": "sabiedrība reaģēja kritiski."
-  },
+        },
         {
           "de": "Der Fall kam an die Öffentlichkeit.",
           "lv": "lieta nonāca atklātībā."
-  },
+        },
         {
           "de": "Die Öffentlichkeit hat ein Recht auf Information.",
           "lv": "sabiedrībai ir tiesības uz informāciju."
-  },
-      ],
-  },
-  },
-  {
-    "de": "Panter / Panther",
-    "de_article": "der",
-    "de_plural": "die Panter / Panther",
-    "lv": "pantera",
-    "level": "C1"
+        }
+      ]
+    }
   },
   {
     "de": "Parlament",
@@ -837,17 +801,17 @@ const C1_WORDS = [
         {
           "de": "Diese Partei gewann die Wahl.",
           "lv": "šī partija uzvarēja vēlēšanās."
-  },
+        },
         {
           "de": "Er ist seit Jahren Mitglied einer Partei.",
           "lv": "viņš jau gadiem ir partijas biedrs."
-  },
+        },
         {
           "de": "Beide Parteien müssen den Vertrag unterschreiben.",
           "lv": "abām pusēm jāparaksta līgums."
-  },
-      ],
-  },
+        }
+      ]
+    }
   },
   {
     "de": "Persönlichkeit",
@@ -906,17 +870,17 @@ const C1_WORDS = [
         {
           "de": "Der Prozess dauert mehrere Monate.",
           "lv": "process ilgst vairākus mēnešus."
-  },
+        },
         {
           "de": "Der Prozess vor Gericht beginnt morgen.",
           "lv": "tiesas prāva sākas rīt."
-  },
+        },
         {
           "de": "Wir verbessern den ganzen Prozess.",
           "lv": "mēs uzlabojam visu procesu."
-  },
-      ],
-  },
+        }
+      ]
+    }
   },
   {
     "de": "Prozessor",
@@ -949,14 +913,13 @@ const C1_WORDS = [
   {
     "de": "Rennen mit Hindernissen",
     "de_article": "das",
-    "de_plural": "die Rennen mit Hindernissens",
+    "de_plural": "die Rennen mit Hindernissen",
     "lv": "šķēršļu skrējiens",
     "level": "C1"
   },
   {
     "de": "Reparaturkosten",
     "de_article": "die",
-    "de_plural": "die Reparaturkostens",
     "lv": "remonta izmaksas",
     "level": "C1"
   },
@@ -1364,29 +1327,29 @@ const C1_WORDS = [
         {
           "de": "Du hast die Wahl.",
           "lv": "tev ir izvēle."
-  },
+        },
         {
           "de": "Ich treffe meine Wahl morgen.",
           "lv": "es izdaru savu izvēli rīt."
-  },
+        },
         {
           "de": "Die Wahl findet am Sonntag statt.",
           "lv": "vēlēšanas notiek svētdien."
-  },
+        },
         {
           "de": "Viele Menschen gehen zur Wahl.",
           "lv": "daudzi cilvēki dodas uz vēlēšanām."
-  },
+        },
         {
           "de": "Die freie Wahl ist wichtig.",
           "lv": "brīva izvēle ir svarīga."
-  },
+        },
         {
           "de": "Bei der Wahl stimmen wir ab.",
           "lv": "vēlēšanās mēs balsojam."
-  },
-      ],
-  },
+        }
+      ]
+    }
   },
   {
     "de": "Herausforderung",
@@ -1420,7 +1383,7 @@ const C1_WORDS = [
     "de": "Abschleppdienst",
     "de_article": "der",
     "de_plural": "die Abschleppdienste",
-    "lv": "dienests, kas aizvāc automašīnas no ielas",
+    "lv": "evakuācijas dienests • aizvākšanas dienests",
     "level": "C1"
   },
   {
@@ -1644,7 +1607,6 @@ const C1_WORDS = [
   {
     "de": "Betriebskosten",
     "de_article": "die",
-    "de_plural": "die Betriebskostens",
     "lv": "uzņēmuma ekspluatācijas izdevumi • ražošanas izdevumi",
     "level": "C1"
   },
@@ -2194,7 +2156,7 @@ const C1_WORDS = [
   {
     "de": "Führunternehmen",
     "de_article": "das",
-    "de_plural": "die Führunternehmens",
+    "de_plural": "die Führunternehmen",
     "lv": "kravas transporta uzņēmums",
     "level": "C1"
   },
@@ -2568,7 +2530,7 @@ const C1_WORDS = [
   {
     "de": "Haltbarkeitsdauer",
     "de_article": "die",
-    "de_plural": "die Haltbarkeitsdauers",
+    "de_plural": "die Haltbarkeitsdauern",
     "lv": "uzglabāšanas laiks",
     "level": "C1"
   },
@@ -2800,7 +2762,6 @@ const C1_WORDS = [
   {
     "de": "Leistungssport",
     "de_article": "der",
-    "de_plural": "die Leistungssports",
     "lv": "profesionālais sports",
     "level": "C1"
   },
@@ -2855,7 +2816,7 @@ const C1_WORDS = [
     "de": "Marschflugkörper",
     "de_article": "der",
     "de_plural": "die Marschflugkörper",
-    "lv": "zema lidojuma raķete, ko nevar noteikt ar radaru",
+    "lv": "kruīza raķete • kruīzraķete",
     "level": "C1"
   },
   {
@@ -2998,7 +2959,6 @@ const C1_WORDS = [
   {
     "de": "Produktionskosten",
     "de_article": "die",
-    "de_plural": "die Produktionskostens",
     "lv": "ražošanas pašizmaksa",
     "level": "C1"
   },
@@ -3031,7 +2991,6 @@ const C1_WORDS = [
   {
     "de": "Rechenschaft",
     "de_article": "die",
-    "de_plural": "die Rechenschafts",
     "lv": "norēķins",
     "level": "C1"
   },
@@ -3409,7 +3368,7 @@ const C1_WORDS = [
   {
     "de": "Verhandlungen",
     "de_article": "die",
-    "de_plural": "die Verhandlungens",
+    "de_plural": "die Verhandlungen",
     "lv": "sarunas",
     "level": "C1"
   },
@@ -3612,7 +3571,6 @@ const C1_WORDS = [
   {
     "de": "Wasserheilanstalt",
     "de_article": "die",
-    "de_plural": "die Wasserheilanstalts",
     "lv": "ūdensdziedniecības iestāde",
     "level": "C1"
   },
@@ -3661,7 +3619,6 @@ const C1_WORDS = [
   {
     "de": "Wetterleuchten",
     "de_article": "das",
-    "de_plural": "die Wetterleuchtens",
     "lv": "rūsa",
     "level": "C1"
   },
@@ -3691,7 +3648,908 @@ const C1_WORDS = [
     "de_plural": "die Zuschläge",
     "lv": "pielikums",
     "level": "C1"
-  }
+  },
+  {
+    "de": "beziehen • beabsichtigen",
+    "lv": "Attiecināt • Nodomāt • Plānot",
+    "level": "C1",
+    "study": {
+      "id": "compare-beziehen-beabsichtigen",
+      "layout": "comparisonStudy",
+      "title": "Attiecināt • Nodomāt • Plānot",
+      "subtitle": "beziehen • sich beziehen • beabsichtigen",
+      "lead": "beziehen un beabsichtigen C1 stilā bieži tiek jaukti. beziehen attiecas uz attiecību vai regulāru saņemšanu; beabsichtigen — uz apzinātu nodomu.",
+      "explanation": "beziehen (sich beziehen auf) nozīmē attiecināt, attiekties uz avotu, regulāru maksājumu vai ievākšanos. beabsichtigen nozīmē apzināti nodomāt vai plānot darbību — nevis attiecību, bet nolūku.",
+      "words": [
+        {
+          "icon": "🔗",
+          "lv": "attiecināt • attiekties uz",
+          "de": "beziehen / sich beziehen auf",
+          "description": "Formāls reģistrs: attiecināt uz avotu, regulāru pensiju/algas saņemšanu vai ievākšanos dzīvoklī.",
+          "example": "Die Studie bezieht sich auf aktuelle Daten. = Pētījums attiecas uz aktuālajiem datiem."
+        },
+        {
+          "icon": "🎯",
+          "lv": "nodomāt • plānot",
+          "de": "beabsichtigen",
+          "description": "Apzināts nodoms veikt darbību nākotnē. Neattiecas uz attiecību, bet uz plānu.",
+          "example": "Er beabsichtigt, das Projekt zu beenden. = Viņš nodomājis pabeigt projektu."
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Kritik bezieht sich auf den Bericht.",
+          "lv": "kritika attiecas uz ziņojumu."
+        },
+        {
+          "de": "Sie beziehen ab Januar eine neue Wohnung.",
+          "lv": "viņi no janvāra ievāksies jaunajā dzīvoklī."
+        },
+        {
+          "de": "Er beabsichtigt, nächstes Jahr zu wechseln.",
+          "lv": "viņš plāno nākamgad pāriet citur."
+        },
+        {
+          "de": "Was beabsichtigen Sie mit dieser Maßnahme?",
+          "lv": "ko jūs nodomājat ar šo pasākumu?"
+        },
+        {
+          "de": "Der Verweis bezieht sich auf Paragraf 12.",
+          "lv": "atsauce attiecas uz 12. pantu."
+        },
+        {
+          "de": "Wir beabsichtigen keine Änderung.",
+          "lv": "mēs neplānojam izmaiņu."
+        }
+      ],
+      "comparisonTable": [
+        {
+          "lv": "attiecināt",
+          "de": "beziehen",
+          "meaning": "attiecināt uz avotu",
+          "describes": "attiecība / saņemšana",
+          "example": "Die Studie bezieht sich auf aktuelle Daten.",
+          "translation": "pētījums attiecas uz aktuālajiem datiem."
+        },
+        {
+          "lv": "nodomāt",
+          "de": "beabsichtigen",
+          "meaning": "apzināts nodoms",
+          "describes": "plāns / nolūks",
+          "example": "Er beabsichtigt, das Projekt zu beenden.",
+          "translation": "viņš nodomājis pabeigt projektu."
+        },
+        {
+          "lv": "attiekties uz",
+          "de": "sich beziehen auf",
+          "meaning": "attiecināt uz objektu",
+          "describes": "refleksīva konstrukcija",
+          "example": "Die Kritik bezieht sich auf den Bericht.",
+          "translation": "kritika attiecas uz ziņojumu."
+        },
+        {
+          "lv": "ievākties",
+          "de": "Wohnung beziehen",
+          "meaning": "saņemt / ievākties",
+          "describes": "administratīvs lietojums",
+          "example": "Sie beziehen ab Januar eine neue Wohnung.",
+          "translation": "viņi no janvāra ievāksies jaunajā dzīvoklī."
+        },
+        {
+          "lv": "plānot",
+          "de": "beabsichtigen",
+          "meaning": "plānot darbību",
+          "describes": "oficiāls reģistrs",
+          "example": "Was beabsichtigen Sie mit dieser Maßnahme?",
+          "translation": "ko jūs nodomājat ar šo pasākumu?"
+        },
+        {
+          "lv": "neplānot",
+          "de": "nicht beabsichtigen",
+          "meaning": "apzināti neveikt",
+          "describes": "noliegums formālā stilā",
+          "example": "Wir beabsichtigen keine Änderung.",
+          "translation": "mēs neplānojam izmaiņu."
+        }
+      ],
+      "importantComparison": [
+        "sich beziehen auf = attiekties uz (nevis *beabsichtigen auf).",
+        "beabsichtigen + zu + Infinitiv = nodomāt kaut ko darīt.",
+        "beziehen ≠ beabsichtigen: attiecība pret nodomu."
+      ],
+      "tip": {
+        "left": "Ja runa ir par attiecību, avotu vai regulāru saņemšanu — beziehen. Ja par apzinātu plānu — beabsichtigen.",
+        "rightTitle": "ātri",
+        "rightItems": [
+          {
+            "de": "sich beziehen auf",
+            "lv": "attiekties uz",
+            "separator": "="
+          },
+          {
+            "de": "beabsichtigen",
+            "lv": "nodomāt",
+            "separator": "="
+          }
+        ]
+      },
+      "important": [
+        "beziehen bieži ar sich beziehen auf + Akkusativ.",
+        "beabsichtigen + zu-Infinitiv: Er beabsichtigt zu gehen.",
+        "beabsichtigen nevar aizstāt ar beziehen — tas ir nolūks, ne attiecība."
+      ],
+      "mistakes": [
+        {
+          "wrong": "Die Studie beabsichtigt sich auf Daten.",
+          "right": "Die Studie bezieht sich auf Daten."
+        },
+        {
+          "wrong": "Er bezieht, das Projekt zu beenden.",
+          "right": "Er beabsichtigt, das Projekt zu beenden."
+        }
+      ],
+      "remember": [
+        "beziehen → attiecība, avots, saņemšana.",
+        "beabsichtigen → nodoms, plāns."
+      ],
+      "sectionAccents": {
+        "lead": {
+          "blue": [
+            "beziehen"
+          ],
+          "purple": [
+            "attiecība"
+          ],
+          "green": [
+            "beabsichtigen"
+          ],
+          "yellow": [
+            "nodoms"
+          ]
+        },
+        "comparisonCards": [
+          {
+            "lv": {
+              "purple": [
+                "attiecināt",
+                "attiekties"
+              ]
+            },
+            "de": {
+              "blue": [
+                "beziehen",
+                "bezieht"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "nodomāt",
+                "plānot"
+              ]
+            },
+            "de": {
+              "green": [
+                "beabsichtigen",
+                "beabsichtigt"
+              ]
+            }
+          }
+        ],
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "bezieht",
+                "auf"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "attiecas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "beziehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ievāksies"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "beabsichtigt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "plāno",
+                "nodomājat"
+              ]
+            }
+          }
+        ],
+        "comparisonTable": [
+          {
+            "lv": {
+              "purple": [
+                "attiecināt"
+              ]
+            },
+            "de": {
+              "blue": [
+                "beziehen"
+              ]
+            },
+            "example": {
+              "blue": [
+                "bezieht"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "attiecas"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "nodomāt"
+              ]
+            },
+            "de": {
+              "green": [
+                "beabsichtigen"
+              ]
+            },
+            "example": {
+              "green": [
+                "beabsichtigt"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "nodomājis"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "beziehen"
+            ],
+            "green": [
+              "beabsichtigen"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "beziehen",
+              "sich beziehen auf"
+            ]
+          },
+          {
+            "green": [
+              "beabsichtigen"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "unterstellen • voraussetzen",
+    "lv": "Pārmest • Pieņemt kā priekšnoteikumu",
+    "level": "C1",
+    "study": {
+      "id": "compare-unterstellen-voraussetzen",
+      "layout": "comparisonStudy",
+      "title": "Pārmest • Pieņemt kā priekšnoteikumu",
+      "subtitle": "unterstellen • voraussetzen",
+      "lead": "unterstellen un voraussetzen ir formāli C1 darbības vārdi ar pretējām attieksmēm: viens pārmest bez pamata, otrs pieņemt kā pašsaprotamu priekšnoteikumu.",
+      "explanation": "jemandem etwas unterstellen nozīmē nepamatoti piedēvēt vai pārmest. etwas voraussetzen nozīmē uzskatīt par pašsaprotamu priekšnoteikumu, kas jau pastāv.",
+      "words": [
+        {
+          "icon": "⚠️",
+          "lv": "pārmest • piedēvēt bez pamata",
+          "de": "unterstellen",
+          "description": "Nepamatoti piešķirt vainu, motīvu vai nodomu citam.",
+          "example": "Man unterstellt mir schlechte Absichten. = Man pārmet man sliktu nodomu."
+        },
+        {
+          "icon": "📋",
+          "lv": "pieņemt kā priekšnoteikumu",
+          "de": "voraussetzen",
+          "description": "Uzskatīt, ka kaut kas jau ir zināms vai pastāv kā pamats.",
+          "example": "Wir setzen Grundkenntnisse voraus. = Mēs pieņemam pamatzināšanas kā priekšnoteikumu."
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ihm wird Untreue unterstellt.",
+          "lv": "viņam tiek pārmesta neuzticība."
+        },
+        {
+          "de": "Unterstellen Sie mir nichts!",
+          "lv": "nepārmetiet man neko!"
+        },
+        {
+          "de": "Der Kurs setzt B1-Kenntnisse voraus.",
+          "lv": "kurss paredz B1 līmeņa zināšanas."
+        },
+        {
+          "de": "Das setzt viel Erfahrung voraus.",
+          "lv": "tas prasa lielu pieredzi kā priekšnoteikumu."
+        },
+        {
+          "de": "Man darf niemandem Verrat unterstellen.",
+          "lv": "nevienam nedrīkst nepamatoti pārmest nodevību."
+        },
+        {
+          "de": "Wir setzen Ihre Mitarbeit voraus.",
+          "lv": "mēs pieņemam jūsu līdzdalību kā pašsaprotamu."
+        }
+      ],
+      "comparisonTable": [
+        {
+          "lv": "pārmest",
+          "de": "unterstellen",
+          "meaning": "piedēvēt bez pamata",
+          "describes": "apsūdzība / pievilkšana",
+          "example": "Ihm wird Untreue unterstellt.",
+          "translation": "viņam tiek pārmesta neuzticība."
+        },
+        {
+          "lv": "pieņemt priekšnoteikumu",
+          "de": "voraussetzen",
+          "meaning": "uzskatīt par pamatu",
+          "describes": "loģisks priekšnosacījums",
+          "example": "Wir setzen Grundkenntnisse voraus.",
+          "translation": "mēs pieņemam pamatzināšanas kā priekšnoteikumu."
+        },
+        {
+          "lv": "nepārmest",
+          "de": "nichts unterstellen",
+          "meaning": "neattiecināt vainu",
+          "describes": "noliegums",
+          "example": "Unterstellen Sie mir nichts!",
+          "translation": "nepārmetiet man neko!"
+        },
+        {
+          "lv": "prasīt zināšanas",
+          "de": "Kenntnisse voraussetzen",
+          "meaning": "paredzēt līmeni",
+          "describes": "akadēmisks konteksts",
+          "example": "Der Kurs setzt B1-Kenntnisse voraus.",
+          "translation": "kurss paredz B1 līmeņa zināšanas."
+        },
+        {
+          "lv": "prasīt pieredzi",
+          "de": "Erfahrung voraussetzen",
+          "meaning": "nepieciešama pieredze",
+          "describes": "profesionāls konteksts",
+          "example": "Das setzt viel Erfahrung voraus.",
+          "translation": "tas prasa lielu pieredzi kā priekšnoteikumu."
+        },
+        {
+          "lv": "pieņemt līdzdalību",
+          "de": "Mitarbeit voraussetzen",
+          "meaning": "pašsaprotama sadarbība",
+          "describes": "oficiāls stils",
+          "example": "Wir setzen Ihre Mitarbeit voraus.",
+          "translation": "mēs pieņemam jūsu līdzdalību kā pašsaprotamu."
+        }
+      ],
+      "importantComparison": [
+        "unterstellen = nepamatota vaina; voraussetzen = loģisks priekšnosacījums.",
+        "unterstellen + Dativ + Akkusativ: jemandem etwas unterstellen.",
+        "voraussetzen + Akkusativ: etwas voraussetzen."
+      ],
+      "tip": {
+        "left": "Ja runa ir par nepamatotu pārmetumu — unterstellen. Ja par pamatzināšanu vai nosacījumu — voraussetzen.",
+        "rightTitle": "ātri",
+        "rightItems": [
+          {
+            "de": "unterstellen",
+            "lv": "pārmest",
+            "separator": "="
+          },
+          {
+            "de": "voraussetzen",
+            "lv": "pieņemt priekšnoteikumu",
+            "separator": "="
+          }
+        ]
+      },
+      "important": [
+        "unterstellen ir emocionāli negatīvs — nepamatota apsūdzība.",
+        "voraussetzen ir neitrāls — priekšnosacījums.",
+        "Nesajaukt: *voraussetzen Untreue (pareizi: unterstellen)."
+      ],
+      "mistakes": [
+        {
+          "wrong": "Wir unterstellen Grundkenntnisse.",
+          "right": "Wir setzen Grundkenntnisse voraus."
+        },
+        {
+          "wrong": "Man setzt mir Verrat voraus.",
+          "right": "Man unterstellt mir Verrat."
+        }
+      ],
+      "remember": [
+        "unterstellen → pārmest, piedēvēt.",
+        "voraussetzen → pieņemt kā pamatu."
+      ],
+      "sectionAccents": {
+        "lead": {
+          "blue": [
+            "unterstellen"
+          ],
+          "red": [
+            "pārmest"
+          ],
+          "green": [
+            "voraussetzen"
+          ],
+          "purple": [
+            "priekšnoteikums"
+          ]
+        },
+        "comparisonCards": [
+          {
+            "lv": {
+              "red": [
+                "pārmest"
+              ]
+            },
+            "de": {
+              "blue": [
+                "unterstellen",
+                "unterstellt"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "priekšnoteikumu"
+              ]
+            },
+            "de": {
+              "green": [
+                "voraussetzen",
+                "voraus"
+              ]
+            }
+          }
+        ],
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "unterstellt"
+              ]
+            },
+            "lv": {
+              "red": [
+                "pārmesta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "voraussetzen",
+                "voraus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "priekšnoteikumu",
+                "paredz"
+              ]
+            }
+          }
+        ],
+        "comparisonTable": [
+          {
+            "lv": {
+              "red": [
+                "pārmest"
+              ]
+            },
+            "de": {
+              "blue": [
+                "unterstellen"
+              ]
+            },
+            "translation": {
+              "red": [
+                "pārmesta"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "priekšnoteikumu"
+              ]
+            },
+            "de": {
+              "green": [
+                "voraussetzen"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "pieņemam"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "unterstellen"
+            ],
+            "green": [
+              "voraussetzen"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "unterstellen"
+            ]
+          },
+          {
+            "green": [
+              "voraussetzen"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "bewahren • aufrechterhalten",
+    "lv": "Pasargāt • Uzturēt spēkā",
+    "level": "C1",
+    "study": {
+      "id": "compare-bewahren-aufrechterhalten",
+      "layout": "comparisonStudy",
+      "title": "Pasargāt • Uzturēt spēkā",
+      "subtitle": "bewahren • aufrechterhalten",
+      "lead": "bewahren un aufrechterhalten abi nozīmē saglabāt, bet bewahren uzsver aizsardzību, bet aufrechterhalten — nepārtrauktu uzturēšanu spēkā.",
+      "explanation": "bewahren nozīmē pasargāt no bojājuma, zuduma vai izmaiņām. aufrechterhalten nozīmē uzturēt kādu stāvokli, sistēmu vai attiecību spēkā — nodrošināt turpināšanos.",
+      "words": [
+        {
+          "icon": "🛡️",
+          "lv": "pasargāt • saglabāt",
+          "de": "bewahren",
+          "description": "Aizsargāt no zuduma, bojājuma vai iznīcināšanas — vērtību, tradīciju, mieru.",
+          "example": "Wir bewahren die Traditionen. = Mēs saglabājam tradīcijas."
+        },
+        {
+          "icon": "⚙️",
+          "lv": "uzturēt spēkā",
+          "de": "aufrechterhalten",
+          "description": "Nodrošināt, ka kāds stāvoklis, kārtība vai attiecības turpinās pastāvēt.",
+          "example": "Der Staat erhält die Ordnung auf. = Valsts uztur kārtību spēkā."
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sie bewahren die Ruhe in der Krise.",
+          "lv": "viņi saglabā mieru krīzē."
+        },
+        {
+          "de": "Das Museum bewahrt alte Kunstwerke.",
+          "lv": "muzejs saglabā vecos mākslas darbus."
+        },
+        {
+          "de": "Wir erhalten den Frieden auf.",
+          "lv": "mēs uzturām mieru spēkā."
+        },
+        {
+          "de": "Die Regierung erhält die Stabilität auf.",
+          "lv": "valdība uztur stabilitāti spēkā."
+        },
+        {
+          "de": "Er bewahrte sein Versprechen.",
+          "lv": "viņš turēja savu solījumu."
+        },
+        {
+          "de": "Man muss den Betrieb aufrechterhalten.",
+          "lv": "jāuztur darbība spēkā."
+        }
+      ],
+      "comparisonTable": [
+        {
+          "lv": "pasargāt",
+          "de": "bewahren",
+          "meaning": "aizsargāt no zuduma",
+          "describes": "vērtību saglabāšana",
+          "example": "Wir bewahren die Traditionen.",
+          "translation": "mēs saglabājam tradīcijas."
+        },
+        {
+          "lv": "uzturēt spēkā",
+          "de": "aufrechterhalten",
+          "meaning": "nodrošināt turpināšanos",
+          "describes": "stāvokļa uzturēšana",
+          "example": "Der Staat erhält die Ordnung auf.",
+          "translation": "valsts uztur kārtību spēkā."
+        },
+        {
+          "lv": "saglabāt mieru",
+          "de": "Ruhe bewahren",
+          "meaning": "noturēt mieru",
+          "describes": "emocionāls konteksts",
+          "example": "Sie bewahren die Ruhe in der Krise.",
+          "translation": "viņi saglabā mieru krīzē."
+        },
+        {
+          "lv": "uzturēt mieru",
+          "de": "Frieden aufrechterhalten",
+          "meaning": "miera nodrošināšana",
+          "describes": "politisks konteksts",
+          "example": "Wir erhalten den Frieden auf.",
+          "translation": "mēs uzturām mieru spēkā."
+        },
+        {
+          "lv": "turēt solījumu",
+          "de": "Versprechen bewahren",
+          "meaning": "ievērot solījumu",
+          "describes": "personīga uzticamība",
+          "example": "Er bewahrte sein Versprechen.",
+          "translation": "viņš turēja savu solījumu."
+        },
+        {
+          "lv": "uzturēt darbību",
+          "de": "Betrieb aufrechterhalten",
+          "meaning": "nepārtraukt darbu",
+          "describes": "ekonomisks konteksts",
+          "example": "Man muss den Betrieb aufrechterhalten.",
+          "translation": "jāuztur darbība spēkā."
+        }
+      ],
+      "importantComparison": [
+        "bewahren = pasargāt/saglabāt; aufrechterhalten = uzturēt spēkā.",
+        "aufrechterhalten bieži ar trennbarem Präfix: aufrechterhalten → er hält auf.",
+        "bewahren parasti transitīvs: etwas bewahren."
+      ],
+      "tip": {
+        "left": "Ja uzsvars uz aizsardzību vai saglabāšanu — bewahren. Ja uz nepārtrauktu uzturēšanu — aufrechterhalten.",
+        "rightTitle": "ātri",
+        "rightItems": [
+          {
+            "de": "bewahren",
+            "lv": "pasargāt",
+            "separator": "="
+          },
+          {
+            "de": "aufrechterhalten",
+            "lv": "uzturēt spēkā",
+            "separator": "="
+          }
+        ]
+      },
+      "important": [
+        "bewahren: Wertvolles bewahren — pasargāt vērtīgo.",
+        "aufrechterhalten: Ordnung/Frieden/Stabilität aufrechterhalten.",
+        "aufrechterhalten ≠ bewahren: uzturēšana pret aizsardzību."
+      ],
+      "mistakes": [
+        {
+          "wrong": "Wir bewahren den Frieden auf.",
+          "right": "Wir erhalten den Frieden auf."
+        },
+        {
+          "wrong": "Man erhält Traditionen auf.",
+          "right": "Man bewahrt Traditionen."
+        }
+      ],
+      "remember": [
+        "bewahren → aizsargāt, saglabāt.",
+        "aufrechterhalten → uzturēt spēkā."
+      ],
+      "sectionAccents": {
+        "lead": {
+          "blue": [
+            "bewahren"
+          ],
+          "purple": [
+            "aizsardzība"
+          ],
+          "green": [
+            "aufrechterhalten"
+          ],
+          "yellow": [
+            "uzturēšana"
+          ]
+        },
+        "comparisonCards": [
+          {
+            "lv": {
+              "purple": [
+                "pasargāt"
+              ]
+            },
+            "de": {
+              "blue": [
+                "bewahren",
+                "bewahrt"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "yellow": [
+                "uzturēt spēkā"
+              ]
+            },
+            "de": {
+              "green": [
+                "aufrechterhalten",
+                "erhält",
+                "auf"
+              ]
+            }
+          }
+        ],
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "bewahren"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "saglabājam",
+                "saglabā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "erhält",
+                "auf"
+              ]
+            },
+            "lv": {
+              "yellow": [
+                "uztur",
+                "uzturām"
+              ]
+            }
+          }
+        ],
+        "comparisonTable": [
+          {
+            "lv": {
+              "purple": [
+                "pasargāt"
+              ]
+            },
+            "de": {
+              "blue": [
+                "bewahren"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "saglabājam"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "yellow": [
+                "uzturēt spēkā"
+              ]
+            },
+            "de": {
+              "green": [
+                "aufrechterhalten"
+              ]
+            },
+            "translation": {
+              "yellow": [
+                "uztur"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "bewahren"
+            ],
+            "green": [
+              "aufrechterhalten"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "bewahren"
+            ]
+          },
+          {
+            "green": [
+              "aufrechterhalten"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "der Hektar",
+    "de_article": "der",
+    "de_plural": "die Hektar",
+    "lv": "hektārs",
+    "level": "C1"
+  },
+  {
+    "de": "die Karre",
+    "de_article": "die",
+    "de_plural": "die Karren",
+    "lv": "ķerra",
+    "level": "C1"
+  },
+  {
+    "de": "der Karren",
+    "de_article": "der",
+    "de_plural": "die Karren",
+    "lv": "ķerra",
+    "level": "C1"
+  },
+  {
+    "de": "der Krüppel",
+    "de_article": "der",
+    "de_plural": "die Krüppel",
+    "lv": "kroplis",
+    "level": "C1"
+  },
+  {
+    "de": "der Matsch",
+    "de_article": "der",
+    "de_plural": "die Matsche",
+    "lv": "mačs",
+    "level": "C1"
+  },
+  {
+    "de": "der Panter",
+    "de_article": "der",
+    "de_plural": "die Panter",
+    "lv": "pantera",
+    "level": "C1"
+  },
+  {
+    "de": "der Panther",
+    "de_article": "der",
+    "de_plural": "die Panther",
+    "lv": "pantera",
+    "level": "C1"
+  },
 ];
 
 window.C1_WORDS = C1_WORDS;
