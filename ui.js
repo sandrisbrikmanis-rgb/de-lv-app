@@ -6556,9 +6556,7 @@ function resetCardScrollPosition(card) {
   const cardInner = document.querySelector("article.card .card-inner");
   if (cardInner) cardInner.scrollTop = 0;
 
-  if (!card || !window.matchMedia("(min-width: 769px)").matches) return;
-  const layout = card.study?.layout || "";
-  if (layout !== "comparisonStudy" && layout !== "richStudy") return;
+  if (!card?.study || !window.matchMedia("(min-width: 769px)").matches) return;
   requestAnimationFrame(() => {
     window.scrollTo({ top: 0, left: 0, behavior: "auto" });
   });
