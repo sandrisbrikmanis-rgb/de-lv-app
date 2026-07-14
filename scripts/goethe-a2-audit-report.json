@@ -1,0 +1,186 @@
+{
+  "report": [
+    {
+      "de": "Achtung",
+      "old": "{ de: \"Achtung\", art: die, pl: die Achtungen, lv: \"cieņa • uzmanība\" }",
+      "new": "{ de: \"Achtung\", art: die, lv: \"cieņa • uzmanība\" }",
+      "reason": "Noņemta kļūdaina daudzskaitļa forma (Singularetantum pēc Goethe A2 Wortliste)"
+    },
+    {
+      "de": "Alkohol",
+      "old": "{ de: \"Alkohol\", art: der, pl: die Alkohole, lv: \"alkohols\" }",
+      "new": "{ de: \"Alkohol\", art: der, lv: \"alkohols\" }",
+      "reason": "Noņemta kļūdaina daudzskaitļa forma (Singularetantum pēc Goethe A2 Wortliste)"
+    },
+    {
+      "de": "Dank",
+      "old": "{ de: \"Dank\", art: der, pl: die Danke, lv: \"pateicība • paldies\" }",
+      "new": "{ de: \"Dank\", art: der, lv: \"pateicība • paldies\" }",
+      "reason": "Noņemta kļūdaina daudzskaitļa forma (Singularetantum pēc Goethe A2 Wortliste)"
+    },
+    {
+      "de": "Durst",
+      "old": "{ de: \"Durst\", art: der, pl: die Dursts, lv: \"slāpes\" }",
+      "new": "{ de: \"Durst\", art: der, lv: \"slāpes\" }",
+      "reason": "Noņemta kļūdaina daudzskaitļa forma (Singularetantum pēc Goethe A2 Wortliste)"
+    },
+    {
+      "de": "Erlaubnis",
+      "old": "{ de: \"Erlaubnis\", art: die, pl: die Erlaubnisse, lv: \"atļauja\" }",
+      "new": "{ de: \"Erlaubnis\", art: die, lv: \"atļauja\" }",
+      "reason": "Noņemta kļūdaina daudzskaitļa forma (Singularetantum pēc Goethe A2 Wortliste)"
+    },
+    {
+      "de": "Fieber",
+      "old": "{ de: \"Fieber\", art: das, pl: die Fieber, lv: \"drudzis\" }",
+      "new": "{ de: \"Fieber\", art: das, lv: \"drudzis\" }",
+      "reason": "Noņemta kļūdaina daudzskaitļa forma (Singularetantum pēc Goethe A2 Wortliste)"
+    },
+    {
+      "de": "Gepäck",
+      "old": "{ de: \"Gepäck\", art: das, pl: die Gepäcke, lv: \"bagāža\" }",
+      "new": "{ de: \"Gepäck\", art: das, lv: \"bagāža\" }",
+      "reason": "Noņemta kļūdaina daudzskaitļa forma (Singularetantum pēc Goethe A2 Wortliste)"
+    },
+    {
+      "de": "Geschirr",
+      "old": "{ de: \"Geschirr\", art: das, pl: die Geschirre, lv: \"trauki\" }",
+      "new": "{ de: \"Geschirr\", art: das, lv: \"trauki\" }",
+      "reason": "Noņemta kļūdaina daudzskaitļa forma (Singularetantum pēc Goethe A2 Wortliste)"
+    },
+    {
+      "de": "Geschwister",
+      "old": "{ de: \"Geschwister\", art: die, pl: die Geschwister, lv: \"brāļi un māsas\" }",
+      "new": "{ de: \"Geschwister\", art: die, lv: \"brāļi un māsas\" }",
+      "reason": "Noņemta mākslīga daudzskaitļa forma (Pluraletantum)"
+    },
+    {
+      "de": "Himmel",
+      "old": "{ de: \"Himmel\", art: der, pl: die Himmel, lv: \"debess\" }",
+      "new": "{ de: \"Himmel\", art: der, lv: \"debess\" }",
+      "reason": "Noņemta kļūdaina daudzskaitļa forma (Singularetantum pēc Goethe A2 Wortliste)"
+    },
+    {
+      "de": "Hunger",
+      "old": "{ de: \"Hunger\", art: der, pl: die Hunger, lv: \"izsalkums\" }",
+      "new": "{ de: \"Hunger\", art: der, lv: \"izsalkums\" }",
+      "reason": "Noņemta kļūdaina daudzskaitļa forma (Singularetantum pēc Goethe A2 Wortliste); Noņemta kļūdaina daudzskaitļa forma (Singularetantum pēc Goethe A2 Wortliste)"
+    },
+    {
+      "de": "Internet",
+      "old": "{ de: \"Internet\", art: das, pl: die Internets, lv: \"internets\" }",
+      "new": "{ de: \"Internet\", art: das, lv: \"internets\" }",
+      "reason": "Noņemta kļūdaina daudzskaitļa forma (Singularetantum pēc Goethe A2 Wortliste)"
+    },
+    {
+      "de": "Kleidung",
+      "old": "{ de: \"Kleidung\", art: die, pl: die Kleidungen, lv: \"apģērbs\" }",
+      "new": "{ de: \"Kleidung\", art: die, lv: \"apģērbs\" }",
+      "reason": "Noņemta kļūdaina daudzskaitļa forma (Singularetantum pēc Goethe A2 Wortliste); Noņemta kļūdaina daudzskaitļa forma (Singularetantum pēc Goethe A2 Wortliste)"
+    },
+    {
+      "de": "Lust",
+      "old": "{ de: \"Lust\", art: die, pl: die Lüste, lv: \"vēlēšanās\" }",
+      "new": "{ de: \"Lust\", art: die, lv: \"vēlēšanās\" }",
+      "reason": "Noņemta kļūdaina daudzskaitļa forma (Singularetantum pēc Goethe A2 Wortliste)"
+    },
+    {
+      "de": "Möbel",
+      "old": "{ de: \"Möbel\", art: das, pl: die Möbel, lv: \"mēbele\" }",
+      "new": "{ de: \"Möbel\", art: die, lv: \"mēbele\" }",
+      "reason": "Noņemta mākslīga daudzskaitļa forma (Pluraletantum); Izlabots artikuls (das → die)"
+    },
+    {
+      "de": "Müll",
+      "old": "{ de: \"Müll\", art: der, pl: die Mülls, lv: \"atkritumi\" }",
+      "new": "{ de: \"Müll\", art: der, lv: \"atkritumi\" }",
+      "reason": "Noņemta kļūdaina daudzskaitļa forma (Singularetantum pēc Goethe A2 Wortliste)"
+    },
+    {
+      "de": "Nähe",
+      "old": "{ de: \"Nähe\", art: die, pl: die Nähe, lv: \"tuvums\" }",
+      "new": "{ de: \"Nähe\", art: die, lv: \"tuvums\" }",
+      "reason": "Noņemta kļūdaina daudzskaitļa forma (Singularetantum pēc Goethe A2 Wortliste)"
+    },
+    {
+      "de": "Ruhe",
+      "old": "{ de: \"Ruhe\", art: die, pl: die Ruhe, lv: \"miers\" }",
+      "new": "{ de: \"Ruhe\", art: die, lv: \"miers\" }",
+      "reason": "Noņemta kļūdaina daudzskaitļa forma (Singularetantum pēc Goethe A2 Wortliste); Noņemta kļūdaina daudzskaitļa forma (Singularetantum pēc Goethe A2 Wortliste)"
+    },
+    {
+      "de": "Service",
+      "old": "{ de: \"Service\", art: der, pl: die Services, lv: \"serviss\" }",
+      "new": "{ de: \"Service\", art: der, lv: \"serviss\" }",
+      "reason": "Noņemta kļūdaina daudzskaitļa forma (Singularetantum pēc Goethe A2 Wortliste)"
+    },
+    {
+      "de": "Spaß",
+      "old": "{ de: \"Spaß\", art: der, pl: die Spässe, lv: \"joks\" }",
+      "new": "{ de: \"Spaß\", art: der, lv: \"joks\" }",
+      "reason": "Noņemta kļūdaina daudzskaitļa forma (Singularetantum pēc Goethe A2 Wortliste)"
+    },
+    {
+      "de": "Sport",
+      "old": "{ de: \"Sport\", art: der, pl: die Sporte, lv: \"sports\" }",
+      "new": "{ de: \"Sport\", art: der, lv: \"sports\" }",
+      "reason": "Noņemta kļūdaina daudzskaitļa forma (Singularetantum pēc Goethe A2 Wortliste)"
+    },
+    {
+      "de": "Stress",
+      "old": "{ de: \"Stress\", art: der, pl: die Stresse, lv: \"stress\" }",
+      "new": "{ de: \"Stress\", art: der, lv: \"stress\" }",
+      "reason": "Noņemta kļūdaina daudzskaitļa forma (Singularetantum pēc Goethe A2 Wortliste)"
+    },
+    {
+      "de": "Unterricht",
+      "old": "{ de: \"Unterricht\", art: der, pl: die Unterrichte, lv: \"nodarbība\" }",
+      "new": "{ de: \"Unterricht\", art: der, lv: \"nodarbība\" }",
+      "reason": "Noņemta kļūdaina daudzskaitļa forma (Singularetantum pēc Goethe A2 Wortliste); Noņemta kļūdaina daudzskaitļa forma (Singularetantum pēc Goethe A2 Wortliste)"
+    },
+    {
+      "de": "Urlaub",
+      "old": "{ de: \"Urlaub\", art: der, pl: die Urlaube, lv: \"atvaļinājums\" }",
+      "new": "{ de: \"Urlaub\", art: der, lv: \"atvaļinājums\" }",
+      "reason": "Noņemta kļūdaina daudzskaitļa forma (Singularetantum pēc Goethe A2 Wortliste); Noņemta kļūdaina daudzskaitļa forma (Singularetantum pēc Goethe A2 Wortliste)"
+    },
+    {
+      "de": "Verkehr",
+      "old": "{ de: \"Verkehr\", art: der, pl: die Verkehre, lv: \"satiksme\" }",
+      "new": "{ de: \"Verkehr\", art: der, lv: \"satiksme\" }",
+      "reason": "Noņemta kļūdaina daudzskaitļa forma (Singularetantum pēc Goethe A2 Wortliste)"
+    },
+    {
+      "de": "Wiedersehen",
+      "old": "{ de: \"Wiedersehen\", art: das, pl: die Wiedersehen, lv: \"atkalredzēšanās\" }",
+      "new": "{ de: \"Wiedersehen\", art: das, lv: \"atkalredzēšanās\" }",
+      "reason": "Noņemta kļūdaina daudzskaitļa forma (Singularetantum pēc Goethe A2 Wortliste)"
+    },
+    {
+      "de": "glatt",
+      "old": "{ de: \"glatt\", lv: \"gluds • slidens • glums\" }",
+      "new": "{ de: \"glatt\", lv: \"gluds • slidens\" }",
+      "reason": "Izlabots tulkojums — īpašības vārdam ne lietvārds (gluds • slidens • glums)"
+    },
+    {
+      "de": "(jaunas kartītes)",
+      "old": "—",
+      "new": "compare-abholen-holen-bringen, compare-sitzen-setzen, compare-stehen-stellen, compare-liegen-legen, compare-kennen-wissen",
+      "reason": "Jaunizveidotas comparisonStudy kartītes"
+    },
+    {
+      "de": "(dzēsti vārdi)",
+      "old": "abholen, setzen, stellen",
+      "new": "—",
+      "reason": "Dzēsti atsevišķie pamata ieraksti (iekļauti salīdzinājuma kartītēs)"
+    }
+  ],
+  "comparisonCards": [
+    "compare-abholen-holen-bringen",
+    "compare-sitzen-setzen",
+    "compare-stehen-stellen",
+    "compare-liegen-legen",
+    "compare-kennen-wissen"
+  ],
+  "remaining": []
+}
