@@ -76,7 +76,6 @@ const B2_WORDS = [
   {
     "de": "Alkoholismus",
     "de_article": "der",
-    "de_plural": "die Alkoholismuse",
     "lv": "alkoholisms",
     "level": "B2"
   },
@@ -245,8 +244,8 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich abfinden",
-    "lv": "samierināties",
+    "de": "sich abfinden mit + Dativ",
+    "lv": "samierināties ar",
     "level": "B2"
   },
   {
@@ -439,7 +438,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich abwenden",
+    "de": "sich abwenden von + Dativ",
     "lv": "novērsties",
     "level": "B2"
   },
@@ -733,7 +732,7 @@ const B2_WORDS = [
   {
     "de": "Bankgeheimnis",
     "de_article": "das",
-    "de_plural": "die Bankgeheimse",
+    "de_plural": "die Bankgeheimnisse",
     "lv": "bankas noslēpums",
     "level": "B2"
   },
@@ -875,7 +874,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich befassen",
+    "de": "sich befassen mit + Dativ",
     "lv": "nodarboties • noņemties",
     "level": "B2"
   },
@@ -909,8 +908,8 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich begnügen",
-    "lv": "apmierināties • būt mierā",
+    "de": "sich begnügen mit + Dativ",
+    "lv": "apmierināties ar • būt mierā",
     "level": "B2"
   },
   {
@@ -1069,7 +1068,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich bemächtigen",
+    "de": "sich bemächtigen + Genitiv",
     "lv": "sagrābt • saņemt savā varā • piesavināties",
     "level": "B2"
   },
@@ -1139,8 +1138,8 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich berufen",
-    "lv": "atsaukties",
+    "de": "sich berufen auf + Akkusativ",
+    "lv": "atsaukties uz",
     "level": "B2"
   },
   {
@@ -1176,8 +1175,8 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich beschränken",
-    "lv": "aprobežoties",
+    "de": "sich beschränken auf + Akkusativ",
+    "lv": "ierobežoties ar • aprobežoties",
     "level": "B2"
   },
   {
@@ -1257,7 +1256,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich betätigen",
+    "de": "sich betätigen in + Dativ",
     "lv": "darboties • piedalīties",
     "level": "B2"
   },
@@ -1330,7 +1329,7 @@ const B2_WORDS = [
   },
   {
     "de": "bewältigen",
-    "lv": "pieveikt • uzveikt • pieveikt galā",
+    "lv": "pieveikt • uzveikt",
     "level": "B2"
   },
   {
@@ -2842,7 +2841,7 @@ const B2_WORDS = [
   },
   {
     "de": "durchbrechen",
-    "lv": "pārlauzt • izlauzties • parādīties • izlauzties cauri • pārraut",
+    "lv": "pārlauzt • izlauzties • parādīties • pārraut",
     "level": "B2"
   },
   {
@@ -2939,7 +2938,7 @@ const B2_WORDS = [
   },
   {
     "de": "durchsetzen",
-    "lv": "izdabūt cauri • panākt • panākt savu mērķi",
+    "lv": "izdabūt cauri • panākt",
     "level": "B2"
   },
   {
@@ -3049,7 +3048,7 @@ const B2_WORDS = [
     "de": "Eheschließung",
     "de_article": "die",
     "de_plural": "die Eheschließungen",
-    "lv": "laulības • salaulāšanās • laulības reģistrācija",
+    "lv": "laulības • salaulāšanās",
     "level": "B2"
   },
   {
@@ -3411,7 +3410,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich einlassen",
+    "de": "sich einlassen auf + Akkusativ",
     "lv": "ielaisties",
     "level": "B2"
   },
@@ -3441,7 +3440,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich einprägen",
+    "de": "sich einprägen in + Akkusativ",
     "lv": "iegaumēt",
     "level": "B2"
   },
@@ -3456,7 +3455,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich einschleichen",
+    "de": "sich einschleichen in + Akkusativ",
     "lv": "ielavīties • iezagties",
     "level": "B2"
   },
@@ -3468,7 +3467,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich einschränken",
+    "de": "sich einschränken auf + Akkusativ",
     "lv": "ierobežoties",
     "level": "B2"
   },
@@ -3672,7 +3671,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich empfehlen",
+    "de": "sich empfehlen zu + Dativ",
     "lv": "būt ieteicamam",
     "level": "B2"
   },
@@ -3687,7 +3686,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich empören",
+    "de": "sich empören über + Akkusativ",
     "lv": "sašust • sacelties • sadumpoties",
     "level": "B2"
   },
@@ -3771,8 +3770,8 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich enthalten",
-    "lv": "atturēties",
+    "de": "sich enthalten von + Dativ",
+    "lv": "atturēties no",
     "level": "B2"
   },
   {
@@ -3801,7 +3800,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich entledigen",
+    "de": "sich entledigen + Genitiv",
     "lv": "atbrīvoties • tikt vaļā",
     "level": "B2"
   },
@@ -3821,7 +3820,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich entrüsten",
+    "de": "sich entrüsten über + Akkusativ",
     "lv": "sašust • saskaities",
     "level": "B2"
   },
@@ -3836,7 +3835,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich entsinnen",
+    "de": "sich entsinnen an + Akkusativ",
     "lv": "atminēties • atcerēties",
     "level": "B2"
   },
@@ -3947,7 +3946,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich erbarmen",
+    "de": "sich erbarmen über + Akkusativ",
     "lv": "apžēloties • iežēloties",
     "level": "B2"
   },
@@ -4021,7 +4020,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich ergeben",
+    "de": "sich ergeben aus + Dativ",
     "lv": "izrietēt • padoties",
     "level": "B2"
   },
@@ -4042,7 +4041,7 @@ const B2_WORDS = [
   },
   {
     "de": "erheben",
-    "lv": "pacelt • celt • sacelt • protestēt • celt iebildumus",
+    "lv": "pacelt • celt • sacelt • protestēt",
     "level": "B2"
   },
   {
@@ -4127,7 +4126,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich erniedrigen",
+    "de": "sich erniedrigen vor + Dativ",
     "lv": "pazemoties",
     "level": "B2"
   },
@@ -4161,8 +4160,8 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich erregen",
-    "lv": "uztraukties",
+    "de": "sich erregen über + Akkusativ",
+    "lv": "uztraukties par",
     "level": "B2"
   },
   {
@@ -4284,8 +4283,8 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich erweisen",
-    "lv": "izrādīties",
+    "de": "sich erweisen als + Nominativ",
+    "lv": "izrādīties par",
     "level": "B2"
   },
   {
@@ -4413,7 +4412,6 @@ const B2_WORDS = [
   {
     "de": "Extremismus",
     "de_article": "der",
-    "de_plural": "die Extremismen",
     "lv": "ekstrēmisms",
     "level": "B2"
   },
@@ -4562,7 +4560,6 @@ const B2_WORDS = [
   {
     "de": "Faschismus",
     "de_article": "der",
-    "de_plural": "die Faschismuse",
     "lv": "fašisms",
     "level": "B2"
   },
@@ -4574,8 +4571,8 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich fassen",
-    "lv": "saņemties • savaldīties",
+    "de": "sich fassen an + Dativ",
+    "lv": "sagrābt • saņemties • savaldīties",
     "level": "B2"
   },
   {
@@ -5044,8 +5041,8 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich fügen",
-    "lv": "atgadīties • notikt • padoties • pakļauties",
+    "de": "sich fügen in + Akkusativ",
+    "lv": "pielāgoties • atgadīties • notikt • padoties • pakļauties",
     "level": "B2"
   },
   {
@@ -5383,7 +5380,7 @@ const B2_WORDS = [
   {
     "de": "Amtsgeheimnis",
     "de_article": "das",
-    "de_plural": "die Amtsgeheimse",
+    "de_plural": "die Amtsgeheimnisse",
     "lv": "amata noslēpums",
     "level": "B2"
   },
@@ -5592,7 +5589,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich genieren",
+    "de": "sich genieren vor + Dativ",
     "lv": "kautrēties • kaunēties",
     "level": "B2"
   },
@@ -5772,7 +5769,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich gesellen",
+    "de": "sich gesellen zu + Dativ",
     "lv": "piebiedroties • pievienoties",
     "level": "B2"
   },
@@ -5805,8 +5802,8 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich gestalten",
-    "lv": "izveidoties • izvērsties",
+    "de": "sich gestalten zu + Dativ",
+    "lv": "veidoties par • izveidoties • izvērsties",
     "level": "B2"
   },
   {
@@ -6069,7 +6066,7 @@ const B2_WORDS = [
   },
   {
     "de": "glühen",
-    "lv": "kvēlot • kaist • gailēt • kvēlot • degt",
+    "lv": "kvēlot • kaist • gailēt • degt",
     "level": "B2"
   },
   {
@@ -6193,8 +6190,8 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich grauen",
-    "lv": "bīties • šausmināties",
+    "de": "sich grauen vor + Dativ",
+    "lv": "biedēties no • bīties • šausmināties",
     "level": "B2"
   },
   {
@@ -6672,8 +6669,8 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich herausbilden",
-    "lv": "izveidoties • attīstīties",
+    "de": "sich herausbilden zu + Dativ",
+    "lv": "izveidoties par • attīstīties",
     "level": "B2"
   },
   {
@@ -6682,8 +6679,8 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich heraushalten",
-    "lv": "nejaukties",
+    "de": "sich heraushalten aus + Dativ",
+    "lv": "turēties nost no • nejaukties",
     "level": "B2"
   },
   {
@@ -6692,8 +6689,8 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich herausstellen",
-    "lv": "izrādīties",
+    "de": "sich herausstellen als + Nominativ",
+    "lv": "izrādīties par",
     "level": "B2"
   },
   {
@@ -6717,7 +6714,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich hervortun",
+    "de": "sich hervortun in + Dativ",
     "lv": "izcelties",
     "level": "B2"
   },
@@ -6791,7 +6788,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich hingeben",
+    "de": "sich hingeben + Dativ",
     "lv": "atdoties • nodoties • ziedoties",
     "level": "B2"
   },
@@ -7112,7 +7109,6 @@ const B2_WORDS = [
   {
     "de": "Kapitalismus",
     "de_article": "der",
-    "de_plural": "die Kapitalismuse",
     "lv": "kapitālisms",
     "level": "B2"
   },
@@ -7224,7 +7220,6 @@ const B2_WORDS = [
   {
     "de": "Kommunismus",
     "de_article": "der",
-    "de_plural": "die Kommunismuse",
     "lv": "komunisms",
     "level": "B2"
   },
@@ -7889,7 +7884,6 @@ const B2_WORDS = [
   {
     "de": "Marxismus",
     "de_article": "der",
-    "de_plural": "die Marxismuse",
     "lv": "marksisms",
     "level": "B2"
   },
@@ -7929,7 +7923,6 @@ const B2_WORDS = [
   {
     "de": "Materialismus",
     "de_article": "der",
-    "de_plural": "die Materialismuse",
     "lv": "materiālisms",
     "level": "B2"
   },
@@ -8453,7 +8446,7 @@ const B2_WORDS = [
   },
   {
     "de": "niederlegen",
-    "lv": "nolikt • pārtraukt darbu • nolikt amata pilnvaras • sākt streikot",
+    "lv": "nolikt • pārtraukt darbu • sākt streikot",
     "level": "B2"
   },
   {
@@ -8649,7 +8642,7 @@ const B2_WORDS = [
     "de": "Order",
     "de_article": "die",
     "de_plural": "die Orders",
-    "lv": "rīkojums • pavēle • rīkojums • uzdevums",
+    "lv": "rīkojums • pavēle • uzdevums",
     "level": "B2"
   },
   {
@@ -8705,8 +8698,8 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich paaren",
-    "lv": "pāroties",
+    "de": "sich paaren mit + Dativ",
+    "lv": "pāroties ar",
     "level": "B2"
   },
   {
@@ -9189,7 +9182,6 @@ const B2_WORDS = [
   {
     "de": "Realismus",
     "de_article": "der",
-    "de_plural": "die Realismen",
     "lv": "reālisms",
     "level": "B2"
   },
@@ -9345,7 +9337,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich revanchieren",
+    "de": "sich revanchieren bei + Dativ",
     "lv": "atmaksāt • revanšēties",
     "level": "B2"
   },
@@ -9632,7 +9624,7 @@ const B2_WORDS = [
   },
   {
     "de": "scheiden",
-    "lv": "[at]šķirt • atdalīt • šķirt • sich sch. lassen • šķirties • šķirties • izšķirties",
+    "lv": "[at]šķirt • atdalīt • šķirt • sich sch. lassen • šķirties • izšķirties",
     "level": "B2"
   },
   {
@@ -9665,8 +9657,8 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich scheren",
-    "lv": "rūpēties • raizēties • sar. laisties lapās • [aiz]vākties [projām]",
+    "de": "sich scheren um + Akkusativ",
+    "lv": "rūpēties par • raizēties • sar. laisties lapās • [aiz]vākties [projām]",
     "level": "B2"
   },
   {
@@ -10080,7 +10072,6 @@ const B2_WORDS = [
   {
     "de": "Separatismus",
     "de_article": "der",
-    "de_plural": "die Separatismuse",
     "lv": "separātisms",
     "level": "B2"
   },
@@ -10227,7 +10218,6 @@ const B2_WORDS = [
   {
     "de": "Sozialismus",
     "de_article": "der",
-    "de_plural": "die Sozialismen",
     "lv": "sociālisms",
     "level": "B2"
   },
@@ -10645,7 +10635,6 @@ const B2_WORDS = [
   {
     "de": "Terrorismus",
     "de_article": "der",
-    "de_plural": "die Terrorismuse",
     "lv": "terorisms",
     "level": "B2"
   },
@@ -11195,7 +11184,7 @@ const B2_WORDS = [
   },
   {
     "de": "unentgeltlich",
-    "lv": "bez atlīdzības • bezmaksas • par velti • bez atlīdzības",
+    "lv": "bez atlīdzības • bezmaksas • par velti",
     "level": "B2"
   },
   {
@@ -11513,8 +11502,8 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich vereinigen",
-    "lv": "apvienoties • savienoties",
+    "de": "sich vereinigen mit + Dativ",
+    "lv": "apvienoties ar • savienoties",
     "level": "B2"
   },
   {
@@ -11799,7 +11788,7 @@ const B2_WORDS = [
   },
   {
     "de": "verordnen",
-    "lv": "noteikt • dot rīkojumu • med. parakstīt • noteikt",
+    "lv": "noteikt • dot rīkojumu • med. parakstīt",
     "level": "B2"
   },
   {
@@ -11823,8 +11812,8 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich versehen",
-    "lv": "apgādāties • pārskatīties • kļūdīties",
+    "de": "sich versehen mit + Dativ",
+    "lv": "aizmirst • aprīkot ar • apgādāties • pārskatīties • kļūdīties",
     "level": "B2"
   },
   {
@@ -11853,8 +11842,8 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich versöhnen",
-    "lv": "salabt • izlīgt",
+    "de": "sich versöhnen mit + Dativ",
+    "lv": "samierināties ar • salabt • izlīgt",
     "level": "B2"
   },
   {
@@ -11883,8 +11872,8 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich verstellen",
-    "lv": "izlikties",
+    "de": "sich verstellen als + Akkusativ",
+    "lv": "uzdoties par • izlikties",
     "level": "B2"
   },
   {
@@ -11980,8 +11969,8 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich verwundern",
-    "lv": "izbrīnīties",
+    "de": "sich verwundern über + Akkusativ",
+    "lv": "brīnīties par • izbrīnīties",
     "level": "B2"
   },
   {
@@ -12085,7 +12074,7 @@ const B2_WORDS = [
   },
   {
     "de": "vollzählig",
-    "lv": "pilnā skaitā esošs • pilnā skaitā",
+    "lv": "pilnā skaitā esošs",
     "level": "B2"
   },
   {
@@ -12646,7 +12635,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "sich widersetzen",
+    "de": "sich widersetzen + Dativ",
     "lv": "pretoties",
     "level": "B2"
   },
@@ -12878,7 +12867,1610 @@ const B2_WORDS = [
     "de_plural": "die Zwischenräume",
     "lv": "starplaiks • atstarpe • starptelpa",
     "level": "B2"
-  }
+  },
+  {
+    "de": "ändern • wechseln",
+    "lv": "Mainīt • Samainīt",
+    "level": "B2",
+    "study": {
+      "id": "compare-aendern-wechseln",
+      "layout": "comparisonStudy",
+      "title": "Mainīt • Samainīt",
+      "subtitle": "ändern • wechseln",
+      "lead": "ändern nozīmē mainīt vai labot konkrētu lietu; wechseln nozīmē samainīt vai nomainīt pret citu. Tie NAV sinonīmi.",
+      "explanation": "ändern lieto, kad maina plānu, termiņu, adresi vai kādu detaļu. wechseln lieto, kad kaut ko samaina vai nomaina pret citu — naudu, drēbes, darbu, skolu vai tēmu. B2 līmenī abi ir bieži, bet konteksts ir atšķirīgs.",
+      "words": [
+        {
+          "icon": "✏️",
+          "lv": "mainīt • labot",
+          "de": "ändern",
+          "description": "Mainīt konkrētu lietu vai informāciju — plānu, termiņu, adresi, lēmumu.",
+          "example": "Ich ändere den Termin. = Es mainu termiņu."
+        },
+        {
+          "icon": "🔄",
+          "lv": "samainīt • nomainīt",
+          "de": "wechseln",
+          "description": "Samainīt vai nomainīt kaut ko pret citu — naudu, drēbes, darbu, skolu, tēmu.",
+          "example": "Ich wechsle die Schule. = Es mainu skolu."
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ich ändere den Termin.",
+          "lv": "es mainu termiņu."
+        },
+        {
+          "de": "Kannst du die Adresse ändern?",
+          "lv": "vai vari mainīt adresi?"
+        },
+        {
+          "de": "Wir ändern unseren Plan.",
+          "lv": "mēs mainām savu plānu."
+        },
+        {
+          "de": "Ich muss Geld wechseln.",
+          "lv": "man jāsamaina nauda."
+        },
+        {
+          "de": "Sie wechselt die Schule.",
+          "lv": "viņa maina skolu."
+        },
+        {
+          "de": "Wir wechseln das Thema.",
+          "lv": "mēs mainām tēmu."
+        }
+      ],
+      "comparisonTable": [
+        {
+          "lv": "mainīt",
+          "de": "ändern",
+          "meaning": "labot vai mainīt detaļu",
+          "describes": "konkrētu lietu",
+          "example": "Ich ändere den Termin.",
+          "translation": "es mainu termiņu."
+        },
+        {
+          "lv": "samainīt",
+          "de": "wechseln",
+          "meaning": "nomainīt pret citu",
+          "describes": "apmaiņu / maiņu",
+          "example": "Ich wechsle die Schule.",
+          "translation": "es mainu skolu."
+        },
+        {
+          "lv": "mainīties",
+          "de": "sich ändern",
+          "meaning": "kļūt citādam",
+          "describes": "pašam mainīties",
+          "example": "Das Wetter ändert sich.",
+          "translation": "laiks mainās."
+        },
+        {
+          "lv": "pārsēsties",
+          "de": "umsteigen",
+          "meaning": "mainīt transportu",
+          "describes": "transportā",
+          "example": "Ich steige in Berlin um.",
+          "translation": "es Berlīnē pārsēžos."
+        },
+        {
+          "lv": "mainīt būtiskāk",
+          "de": "verändern",
+          "meaning": "būtiski mainīt",
+          "describes": "situāciju / dzīvi",
+          "example": "Das verändert alles.",
+          "translation": "tas maina visu."
+        },
+        {
+          "lv": "apmainīt preci",
+          "de": "umtauschen",
+          "meaning": "atdot un saņemt citu",
+          "describes": "veikalā",
+          "example": "Ich tausche die Jacke um.",
+          "translation": "es apmainu jaku."
+        }
+      ],
+      "importantComparison": [
+        "Ich ändere den Termin. = Es mainu termiņu.",
+        "Ich wechsle die Schule. = Es mainu skolu.",
+        "ändern = mainīt detaļu; wechseln = samainīt / nomainīt pret citu."
+      ],
+      "tip": {
+        "left": "Ja maina plānu, termiņu vai adresi, lieto ändern. Ja samaina naudu, drēbes, darbu vai tēmu, lieto wechseln.",
+        "rightTitle": "ātri",
+        "rightItems": [
+          {
+            "de": "Ich ändere den Plan.",
+            "lv": "es mainu plānu.",
+            "separator": "="
+          },
+          {
+            "de": "Ich wechsle Geld.",
+            "lv": "es samainu naudu.",
+            "separator": "="
+          }
+        ]
+      },
+      "important": [
+        "ändern = mainīt konkrētu lietu (Termin, Adresse, Plan).",
+        "wechseln = samainīt vai nomainīt pret citu (Geld, Schule, Thema).",
+        "Ich wechsle den Termin nav pareizi — pareizi: Ich ändere den Termin."
+      ],
+      "mistakes": [
+        {
+          "wrong": "Ich wechsle den Termin.",
+          "right": "Ich ändere den Termin."
+        },
+        {
+          "wrong": "Ich ändere die Schule.",
+          "right": "Ich wechsle die Schule."
+        }
+      ],
+      "remember": [
+        "Plāns, termiņš, adrese: ändern.",
+        "Nauda, skola, darbs, tēma: wechseln."
+      ],
+      "sectionAccents": {
+        "lead": {
+          "blue": [
+            "ändern"
+          ],
+          "green": [
+            "wechseln"
+          ],
+          "purple": [
+            "mainīt",
+            "samainīt"
+          ]
+        },
+        "comparisonCards": [
+          {
+            "lv": {
+              "purple": [
+                "mainīt",
+                "labot"
+              ]
+            },
+            "de": {
+              "blue": [
+                "ändern"
+              ]
+            },
+            "example": {
+              "blue": [
+                "ändere"
+              ],
+              "purple": [
+                "mainu"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "samainīt",
+                "nomainīt"
+              ]
+            },
+            "de": {
+              "green": [
+                "wechseln"
+              ]
+            },
+            "example": {
+              "green": [
+                "wechsle"
+              ],
+              "purple": [
+                "mainu"
+              ]
+            }
+          }
+        ],
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "ändere"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mainu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ändern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mainīt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ändern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mainām"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "wechseln"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "samaina"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "wechselt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "maina"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "wechseln"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mainām"
+              ]
+            }
+          }
+        ],
+        "comparisonTable": [
+          {
+            "lv": {
+              "purple": [
+                "mainīt"
+              ]
+            },
+            "de": {
+              "blue": [
+                "ändern"
+              ]
+            },
+            "example": {
+              "blue": [
+                "ändere"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "mainu"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "samainīt"
+              ]
+            },
+            "de": {
+              "green": [
+                "wechseln"
+              ]
+            },
+            "example": {
+              "green": [
+                "wechsle"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "mainu"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "mainīties"
+              ]
+            },
+            "de": {
+              "blue": [
+                "sich ändern"
+              ]
+            },
+            "example": {
+              "blue": [
+                "ändert sich"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "mainās"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "pārsēsties"
+              ]
+            },
+            "de": {
+              "orange": [
+                "umsteigen"
+              ]
+            },
+            "example": {
+              "orange": [
+                "steige um"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "pārsēžos"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "mainīt būtiskāk"
+              ]
+            },
+            "de": {
+              "red": [
+                "verändern"
+              ]
+            },
+            "example": {
+              "red": [
+                "verändert"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "maina"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "apmainīt"
+              ]
+            },
+            "de": {
+              "yellow": [
+                "umtauschen"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "tausche um"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "apmainu"
+              ]
+            }
+          }
+        ],
+        "importantComparison": [
+          {
+            "blue": [
+              "ändere"
+            ],
+            "purple": [
+              "mainu"
+            ]
+          },
+          {
+            "green": [
+              "wechsle"
+            ],
+            "purple": [
+              "mainu"
+            ]
+          },
+          {
+            "blue": [
+              "ändern"
+            ],
+            "green": [
+              "wechseln"
+            ]
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "ändern"
+            ],
+            "green": [
+              "wechseln"
+            ]
+          },
+          "rightItems": [
+            {
+              "de": {
+                "blue": [
+                  "ändere"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "mainu"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "wechsle"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "samainu"
+                ]
+              }
+            }
+          ]
+        },
+        "important": [
+          {
+            "blue": [
+              "ändern"
+            ]
+          },
+          {
+            "green": [
+              "wechseln"
+            ]
+          },
+          {
+            "green": [
+              "wechsle"
+            ],
+            "blue": [
+              "ändere"
+            ]
+          }
+        ],
+        "mistakes": [
+          {
+            "wrong": {
+              "green": [
+                "wechsle"
+              ]
+            },
+            "right": {
+              "blue": [
+                "ändere"
+              ]
+            }
+          },
+          {
+            "wrong": {
+              "blue": [
+                "ändere"
+              ]
+            },
+            "right": {
+              "green": [
+                "wechsle"
+              ]
+            }
+          }
+        ],
+        "remember": [
+          {
+            "blue": [
+              "ändern"
+            ]
+          },
+          {
+            "green": [
+              "wechseln"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "bieten • anbieten",
+    "lv": "Piedāvāt • Sniegt iespēju",
+    "level": "B2",
+    "study": {
+      "id": "compare-bieten-anbieten",
+      "layout": "comparisonStudy",
+      "title": "Piedāvāt • Sniegt iespēju",
+      "subtitle": "bieten • anbieten",
+      "lead": "bieten nozīmē piedāvāt vai sniegt iespēju; anbieten nozīmē aktīvi piedāvāt kādam konkrēti. Tie NAV sinonīmi.",
+      "explanation": "bieten bieži apraksta, ko vieta, programma vai pakalpojums sniedz (Die Schule bietet viele Kurse). anbieten ir atdalāms darbības vārds un uzsver aktīvu piedāvāšanu konkrētai personai (Ich biete dir Hilfe an). B2 līmenī abi ir bieži jautājumos par darbu, pakalpojumiem un iespējām.",
+      "words": [
+        {
+          "icon": "🏫",
+          "lv": "piedāvāt • sniegt",
+          "de": "bieten",
+          "description": "Piedāvāt iespējas, kursus, pakalpojumus vai labumu — ko vieta vai programma sniedz.",
+          "example": "Die Schule bietet viele Kurse. = Skola piedāvā daudz kursu."
+        },
+        {
+          "icon": "🤝",
+          "lv": "piedāvāt aktīvi",
+          "de": "anbieten",
+          "description": "Aktīvi piedāvāt kādam konkrēti — palīdzību, dzērienu, darbu vai pakalpojumu.",
+          "example": "Ich biete dir meine Hilfe an. = Es tev piedāvāju savu palīdzību."
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Schule bietet viele Kurse.",
+          "lv": "skola piedāvā daudz kursu."
+        },
+        {
+          "de": "Das Hotel bietet einen schönen Blick.",
+          "lv": "viesnīca sniedz skaistu skatu."
+        },
+        {
+          "de": "Das Programm bietet viele Möglichkeiten.",
+          "lv": "programma sniedz daudz iespēju."
+        },
+        {
+          "de": "Ich biete dir meine Hilfe an.",
+          "lv": "es tev piedāvāju savu palīdzību."
+        },
+        {
+          "de": "Darf ich Ihnen etwas anbieten?",
+          "lv": "vai drīkstu jums kaut ko piedāvāt?"
+        },
+        {
+          "de": "Die Firma bietet neue Jobs an.",
+          "lv": "uzņēmums piedāvā jaunas darba vietas."
+        }
+      ],
+      "comparisonTable": [
+        {
+          "lv": "piedāvāt",
+          "de": "bieten",
+          "meaning": "sniegt iespēju / labumu",
+          "describes": "ko vieta/programma dod",
+          "example": "Die Schule bietet viele Kurse.",
+          "translation": "skola piedāvā daudz kursu."
+        },
+        {
+          "lv": "piedāvāt aktīvi",
+          "de": "anbieten",
+          "meaning": "aktīvi piedāvāt kādam",
+          "describes": "atdalāms darbības vārds",
+          "example": "Ich biete dir Hilfe an.",
+          "translation": "es tev piedāvāju palīdzību."
+        },
+        {
+          "lv": "dot",
+          "de": "geben",
+          "meaning": "nodot kādam",
+          "describes": "tieša dāvana",
+          "example": "Ich gebe dir Geld.",
+          "translation": "es tev dodu naudu."
+        },
+        {
+          "lv": "piedāvājums",
+          "de": "das Angebot",
+          "meaning": "piedāvājums kā lietvārds",
+          "describes": "lietvārds (Sg.)",
+          "example": "Das ist ein gutes Angebot.",
+          "translation": "tā ir laba piedāvājuma cena."
+        },
+        {
+          "lv": "nodrošināt",
+          "de": "bieten",
+          "meaning": "nodrošināt iespēju",
+          "describes": "formālāk",
+          "example": "Die App bietet Sicherheit.",
+          "translation": "lietotne nodrošina drošību."
+        },
+        {
+          "lv": "uzdot jautājumu",
+          "de": "anbieten?",
+          "meaning": "piedāvāt sarunā",
+          "describes": " Höflichkeitsformel",
+          "example": "Darf ich Ihnen etwas anbieten?",
+          "translation": "vai drīkstu jums kaut ko piedāvāt?"
+        }
+      ],
+      "importantComparison": [
+        "Die Schule bietet Kurse. = Skola piedāvā kursus.",
+        "Ich biete dir Hilfe an. = Es tev piedāvāju palīdzību.",
+        "bieten = ko kaut kas sniedz; anbieten = aktīva piedāvāšana kādam."
+      ],
+      "tip": {
+        "left": "Ja runa ir par iespējām, kursiem vai skatu, ko vieta sniedz, lieto bieten. Ja aktīvi piedāvā kādam, lieto anbieten.",
+        "rightTitle": "ātri",
+        "rightItems": [
+          {
+            "de": "Die Schule bietet...",
+            "lv": "skola piedāvā...",
+            "separator": "="
+          },
+          {
+            "de": "Ich biete ... an.",
+            "lv": "es piedāvāju...",
+            "separator": "="
+          }
+        ]
+      },
+      "important": [
+        "bieten: Die Schule bietet Kurse. (nesadalāms)",
+        "anbieten: Ich biete dir Hilfe an. (atdalāms: biete ... an)",
+        "Ich biete an dir nav pareizi — pareizi: Ich biete dir ... an."
+      ],
+      "mistakes": [
+        {
+          "wrong": "Ich biete an dir Hilfe.",
+          "right": "Ich biete dir Hilfe an."
+        },
+        {
+          "wrong": "Die Schule bietet an Kurse.",
+          "right": "Die Schule bietet Kurse an."
+        }
+      ],
+      "remember": [
+        "Ko vieta/programma sniedz: bieten.",
+        "Aktīva piedāvāšana kādam: anbieten → biete ... an."
+      ],
+      "sectionAccents": {
+        "lead": {
+          "blue": [
+            "bieten"
+          ],
+          "green": [
+            "anbieten"
+          ],
+          "purple": [
+            "piedāvāt",
+            "sniegt"
+          ]
+        },
+        "comparisonCards": [
+          {
+            "lv": {
+              "purple": [
+                "piedāvāt",
+                "sniegt"
+              ]
+            },
+            "de": {
+              "blue": [
+                "bieten"
+              ]
+            },
+            "example": {
+              "blue": [
+                "bietet"
+              ],
+              "purple": [
+                "piedāvā"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "piedāvāt aktīvi"
+              ]
+            },
+            "de": {
+              "green": [
+                "anbieten",
+                "biete",
+                "an"
+              ]
+            },
+            "example": {
+              "green": [
+                "biete",
+                "an"
+              ],
+              "purple": [
+                "piedāvāju"
+              ]
+            }
+          }
+        ],
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "bietet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "piedāvā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bietet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sniedz"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bietet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sniedz"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "biete",
+                "an"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "piedāvāju"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "anbieten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "piedāvāt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "bietet",
+                "an"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "piedāvā"
+              ]
+            }
+          }
+        ],
+        "comparisonTable": [
+          {
+            "lv": {
+              "purple": [
+                "piedāvāt"
+              ]
+            },
+            "de": {
+              "blue": [
+                "bieten"
+              ]
+            },
+            "example": {
+              "blue": [
+                "bietet"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "piedāvā"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "piedāvāt aktīvi"
+              ]
+            },
+            "de": {
+              "green": [
+                "anbieten"
+              ]
+            },
+            "example": {
+              "green": [
+                "biete",
+                "an"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "piedāvāju"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "dot"
+              ]
+            },
+            "de": {
+              "yellow": [
+                "geben"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "gebe"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "dodu"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "piedāvājums"
+              ]
+            },
+            "de": {
+              "orange": [
+                "Angebot"
+              ]
+            },
+            "example": {
+              "orange": [
+                "Angebot"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "piedāvājuma"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "nodrošināt"
+              ]
+            },
+            "de": {
+              "blue": [
+                "bietet"
+              ]
+            },
+            "example": {
+              "blue": [
+                "bietet"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "nodrošina"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "piedāvāt"
+              ]
+            },
+            "de": {
+              "green": [
+                "anbieten"
+              ]
+            },
+            "example": {
+              "green": [
+                "anbieten"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "piedāvāt"
+              ]
+            }
+          }
+        ],
+        "importantComparison": [
+          {
+            "blue": [
+              "bietet"
+            ],
+            "purple": [
+              "piedāvā"
+            ]
+          },
+          {
+            "green": [
+              "biete",
+              "an"
+            ],
+            "purple": [
+              "piedāvāju"
+            ]
+          },
+          {
+            "blue": [
+              "bieten"
+            ],
+            "green": [
+              "anbieten"
+            ]
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "bieten"
+            ],
+            "green": [
+              "anbieten"
+            ]
+          },
+          "rightItems": [
+            {
+              "de": {
+                "blue": [
+                  "bietet"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "piedāvā"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "biete",
+                  "an"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "piedāvāju"
+                ]
+              }
+            }
+          ]
+        },
+        "important": [
+          {
+            "blue": [
+              "bieten"
+            ]
+          },
+          {
+            "green": [
+              "anbieten",
+              "biete",
+              "an"
+            ]
+          },
+          {
+            "green": [
+              "biete"
+            ],
+            "blue": [
+              "an"
+            ]
+          }
+        ],
+        "mistakes": [
+          {
+            "wrong": {
+              "green": [
+                "biete an"
+              ]
+            },
+            "right": {
+              "green": [
+                "biete",
+                "an"
+              ]
+            }
+          },
+          {
+            "wrong": {
+              "green": [
+                "bietet an"
+              ]
+            },
+            "right": {
+              "blue": [
+                "bietet"
+              ]
+            }
+          }
+        ],
+        "remember": [
+          {
+            "blue": [
+              "bieten"
+            ]
+          },
+          {
+            "green": [
+              "anbieten"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "fordern • fördern",
+    "lv": "Pieprasīt • Veicināt",
+    "level": "B2",
+    "study": {
+      "id": "compare-fordern-foerdern",
+      "layout": "comparisonStudy",
+      "title": "Pieprasīt • Veicināt",
+      "subtitle": "fordern • fördern",
+      "lead": "fordern nozīmē pieprasīt vai prasīt; fördern nozīmē veicināt, atbalstīt vai attīstīt. Tie NAV sinonīmi — atšķiras ar ö.",
+      "explanation": "fordern lieto, kad kāds prasa naudu, tiesības, izmaiņas vai pienākumu (Sie fordert mehr Geld). fördern nozīmē veicināt attīstību, atbalstīt cilvēku vai projektu (Sport fördert die Gesundheit). Rūpniecībā fördern arī nozīmē iegūt derīgos izrakteņus. B2 līmenī šī pārī visbiežāk jauc eksāmenos.",
+      "words": [
+        {
+          "icon": "✊",
+          "lv": "pieprasīt • prasīt",
+          "de": "fordern",
+          "description": "Pieprasīt naudu, tiesības, izmaiņas vai pienākumu — aktīva prasība.",
+          "example": "Sie fordert mehr Geld. = Viņa prasa vairāk naudas."
+        },
+        {
+          "icon": "📈",
+          "lv": "veicināt • atbalstīt",
+          "de": "fördern",
+          "description": "Veicināt attīstību, atbalstīt cilvēku, projektu vai procesu.",
+          "example": "Sport fördert die Gesundheit. = Sports veicina veselību."
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sie fordert mehr Geld.",
+          "lv": "viņa prasa vairāk naudas."
+        },
+        {
+          "de": "Die Gewerkschaft fordert bessere Bedingungen.",
+          "lv": "arodbiedrība pieprasa labākus apstākļus."
+        },
+        {
+          "de": "Wir fordern mehr Transparenz.",
+          "lv": "mēs pieprasām lielāku caurskatāmību."
+        },
+        {
+          "de": "Sport fördert die Gesundheit.",
+          "lv": "sports veicina veselību."
+        },
+        {
+          "de": "Die Schule fördert begabte Kinder.",
+          "lv": "skola atbalsta apdāvinātus bērnus."
+        },
+        {
+          "de": "In der Region wird Öl gefördert.",
+          "lv": "reģionā iegūst naftu."
+        }
+      ],
+      "comparisonTable": [
+        {
+          "lv": "pieprasīt",
+          "de": "fordern",
+          "meaning": "prasīt / pieprasīt",
+          "describes": "aktīva prasība",
+          "example": "Sie fordert mehr Geld.",
+          "translation": "viņa prasa vairāk naudas."
+        },
+        {
+          "lv": "veicināt",
+          "de": "fördern",
+          "meaning": "veicināt attīstību",
+          "describes": "atbalsts / progress",
+          "example": "Sport fördert die Gesundheit.",
+          "translation": "sports veicina veselību."
+        },
+        {
+          "lv": "atbalstīt",
+          "de": "unterstützen",
+          "meaning": "atbalstīt projektu",
+          "describes": "palīdzība",
+          "example": "Wir unterstützen das Projekt.",
+          "translation": "mēs atbalstām projektu."
+        },
+        {
+          "lv": "iegūt (naftu)",
+          "de": "fördern",
+          "meaning": "iegūt derīgos izrakteņus",
+          "describes": "rūpniecībā",
+          "example": "In der Region wird Öl gefördert.",
+          "translation": "reģionā iegūst naftu."
+        },
+        {
+          "lv": "prasīt pienākumu",
+          "de": "fordern",
+          "meaning": "pieprasīt standartu",
+          "describes": "formāli",
+          "example": "Wir fordern mehr Sicherheit.",
+          "translation": "mēs pieprasām lielāku drošību."
+        },
+        {
+          "lv": "attīstīt",
+          "de": "fördern",
+          "meaning": "attīstīt talantu",
+          "describes": "izglītībā",
+          "example": "Die Schule fördert begabte Kinder.",
+          "translation": "skola atbalsta apdāvinātus bērnus."
+        }
+      ],
+      "importantComparison": [
+        "Sie fordert mehr Geld. = Viņa prasa vairāk naudas.",
+        "Sport fördert die Gesundheit. = Sports veicina veselību.",
+        "fordern = prasīt; fördern = veicināt — atceries ö!"
+      ],
+      "tip": {
+        "left": "Ja kāds prasa naudu, tiesības vai izmaiņas, lieto fordern. Ja kaut kas veicina attīstību vai atbalsta, lieto fördern.",
+        "rightTitle": "ātri",
+        "rightItems": [
+          {
+            "de": "fordert",
+            "lv": "prasa",
+            "separator": "="
+          },
+          {
+            "de": "fördert",
+            "lv": "veicina",
+            "separator": "="
+          }
+        ]
+      },
+      "important": [
+        "fordern = pieprasīt / prasīt (bez ö).",
+        "fördern = veicināt / atbalstīt (ar ö).",
+        "Nejauc: Ich förde mehr Geld nav pareizi — pareizi: Ich fordere mehr Geld."
+      ],
+      "mistakes": [
+        {
+          "wrong": "Sie fördert mehr Geld.",
+          "right": "Sie fordert mehr Geld."
+        },
+        {
+          "wrong": "Sport fordert die Gesundheit.",
+          "right": "Sport fördert die Gesundheit."
+        }
+      ],
+      "remember": [
+        "Prasība, pieprasījums: fordern (bez ö).",
+        "Veicināšana, atbalsts: fördern (ar ö)."
+      ],
+      "sectionAccents": {
+        "lead": {
+          "blue": [
+            "fordern"
+          ],
+          "green": [
+            "fördern"
+          ],
+          "purple": [
+            "pieprasīt",
+            "veicināt"
+          ]
+        },
+        "comparisonCards": [
+          {
+            "lv": {
+              "purple": [
+                "pieprasīt",
+                "prasīt"
+              ]
+            },
+            "de": {
+              "blue": [
+                "fordern"
+              ]
+            },
+            "example": {
+              "blue": [
+                "fordert"
+              ],
+              "purple": [
+                "prasa"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "veicināt",
+                "atbalstīt"
+              ]
+            },
+            "de": {
+              "green": [
+                "fördern"
+              ]
+            },
+            "example": {
+              "green": [
+                "fördert"
+              ],
+              "purple": [
+                "veicina"
+              ]
+            }
+          }
+        ],
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "fordert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "prasa"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fordert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pieprasa"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fordern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pieprasām"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "fördert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "veicina"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "fördert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "atbalsta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "gefördert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "iegūst"
+              ]
+            }
+          }
+        ],
+        "comparisonTable": [
+          {
+            "lv": {
+              "purple": [
+                "pieprasīt"
+              ]
+            },
+            "de": {
+              "blue": [
+                "fordern"
+              ]
+            },
+            "example": {
+              "blue": [
+                "fordert"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "prasa"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "veicināt"
+              ]
+            },
+            "de": {
+              "green": [
+                "fördern"
+              ]
+            },
+            "example": {
+              "green": [
+                "fördert"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "veicina"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "atbalstīt"
+              ]
+            },
+            "de": {
+              "yellow": [
+                "unterstützen"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "unterstützen"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "atbalstām"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "iegūt"
+              ]
+            },
+            "de": {
+              "green": [
+                "gefördert"
+              ]
+            },
+            "example": {
+              "green": [
+                "gefördert"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "iegūst"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "pieprasīt"
+              ]
+            },
+            "de": {
+              "blue": [
+                "fordern"
+              ]
+            },
+            "example": {
+              "blue": [
+                "fordern"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "pieprasām"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "attīstīt"
+              ]
+            },
+            "de": {
+              "green": [
+                "fördert"
+              ]
+            },
+            "example": {
+              "green": [
+                "fördert"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "atbalsta"
+              ]
+            }
+          }
+        ],
+        "importantComparison": [
+          {
+            "blue": [
+              "fordert"
+            ],
+            "purple": [
+              "prasa"
+            ]
+          },
+          {
+            "green": [
+              "fördert"
+            ],
+            "purple": [
+              "veicina"
+            ]
+          },
+          {
+            "blue": [
+              "fordern"
+            ],
+            "green": [
+              "fördern"
+            ]
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "fordern"
+            ],
+            "green": [
+              "fördern"
+            ]
+          },
+          "rightItems": [
+            {
+              "de": {
+                "blue": [
+                  "fordert"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "prasa"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "fördert"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "veicina"
+                ]
+              }
+            }
+          ]
+        },
+        "important": [
+          {
+            "blue": [
+              "fordern"
+            ]
+          },
+          {
+            "green": [
+              "fördern"
+            ]
+          },
+          {
+            "blue": [
+              "fordert"
+            ],
+            "green": [
+              "fördert"
+            ]
+          }
+        ],
+        "mistakes": [
+          {
+            "wrong": {
+              "green": [
+                "fördert"
+              ]
+            },
+            "right": {
+              "blue": [
+                "fordert"
+              ]
+            }
+          },
+          {
+            "wrong": {
+              "blue": [
+                "fordert"
+              ]
+            },
+            "right": {
+              "green": [
+                "fördert"
+              ]
+            }
+          }
+        ],
+        "remember": [
+          {
+            "blue": [
+              "fordern"
+            ]
+          },
+          {
+            "green": [
+              "fördern"
+            ]
+          }
+        ]
+      }
+    }
+  },
 ];
 
 window.B2_WORDS = B2_WORDS;
