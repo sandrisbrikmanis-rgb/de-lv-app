@@ -6993,9 +6993,7 @@ const A1_WORDS = [
       "level": "A1"
     },
     {
-      "de": "Gut",
-      "de_article": "das",
-      "de_plural": "die Güter",
+      "de": "gut",
       "lv": "labs",
       "level": "A1"
     },

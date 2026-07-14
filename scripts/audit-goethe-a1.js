@@ -263,9 +263,27 @@ const VERB_NOUN_CONFUSION = {
   Gefallen: "gefallen",
 };
 
-// Adjectives wrongly entered as nouns
+// Adjectives wrongly entered as nouns (capitalized + article)
 const ADJECTIVE_FIXES = {
   Hoch: { de: "hoch", lv: "augsts" },
+  Gut: { de: "gut", lv: "labs" },
+};
+
+// Goethe A1 Wortliste — adjectives (lowercase, no article/plural)
+const GOETHE_A1_ADJECTIVES = new Set(
+  `groß klein gut schlecht neu alt jung schön hässlich schnell langsam warm kalt
+  freundlich langweilig billig teuer ruhig leise hoch niedrig wichtig falsch richtig
+  rot blau grün gelb schwarz weiß braun grau hungrig durstig müde krank glücklich traurig
+  angenehm nett höflich dunkel hell sauber schmutzig leicht schwer stark schwach frisch
+  kaputt fertig bereit besetzt frei voll leer gleich verschieden spät früh bald kurz lang lieb böse frech`
+    .split(/\s+/)
+    .map((s) => s.toLowerCase())
+);
+
+// Known wrong LV noun translations for German adjectives
+const ADJECTIVE_LV_NOUN_MISTAKES = {
+  gut: ["labums", "labums/prece", "prece", "labums • prece"],
+  Gut: ["labums", "labums/prece", "prece"],
 };
 
 // Valid comparisonStudy card IDs in A1 (skip base-word audit rules for these entries)
@@ -430,6 +448,57 @@ function audit(words) {
   return fixes;
 }
 
+function auditAdjectives(words) {
+  const fixes = [];
+  for (const word of words) {
+    if (word.study?.layout === "comparisonStudy" && COMPARISON_CARD_IDS.has(word.study?.id)) {
+      continue;
+    }
+
+    const de = word.de;
+    const deLower = de.toLowerCase();
+    if (ADJECTIVE_FIXES[de]) continue; // handled in main audit()
+    const isGoetheAdj = GOETHE_A1_ADJECTIVES.has(deLower);
+    if (!isGoetheAdj) continue;
+
+    // Wrong article/plural on adjective
+    if (word.de_article || word.de_plural) {
+      fixes.push({
+        de,
+        old: formatEntry(word),
+        reason: "Noņemts artikuls/daudzskaitlis — īpašības vārds (ne das Gut u.tml.)",
+        changes: { de: deLower, removeArticle: true, removePlural: true },
+      });
+      continue;
+    }
+
+    // Capitalized adjective form
+    if (de !== deLower) {
+      fixes.push({
+        de,
+        old: formatEntry(word),
+        reason: "Izlabota kapitalizācija — īpašības vārds ar mazo sākumburtu",
+        changes: { de: deLower },
+      });
+      continue;
+    }
+
+    // LV noun translation for adjective
+    const wrongLv = ADJECTIVE_LV_NOUN_MISTAKES[de] || ADJECTIVE_LV_NOUN_MISTAKES[deLower] || [];
+    const lvNorm = String(word.lv || "").trim().toLowerCase();
+    const matched = wrongLv.find((w) => lvNorm === w.toLowerCase() || lvNorm.startsWith(w.toLowerCase()));
+    if (matched) {
+      fixes.push({
+        de,
+        old: formatEntry(word),
+        reason: `Izlabots tulkojums — īpašības vārdam ne lietvārds (${word.lv})`,
+        changes: { lv: ADJECTIVE_FIXES[de]?.lv || ADJECTIVE_FIXES[deLower]?.lv || word.lv },
+      });
+    }
+  }
+  return fixes;
+}
+
 function auditComparisonSubtitles(words) {
   const fixes = [];
   for (const word of words) {
@@ -502,7 +571,7 @@ function serializeWords(words) {
 
 // --- main ---
 const words = loadA1();
-let fixes = [...audit(words), ...auditComparisonSubtitles(words)];
+let fixes = [...audit(words), ...auditAdjectives(words), ...auditComparisonSubtitles(words)];
 
 // Deduplicate and merge fixes per word for reporting
 const report = [];
@@ -548,6 +617,13 @@ if (comparisonCards.length) {
   console.log(`Comparison cards: ${comparisonCards.map((c) => c.study.id).join(", ")}`);
   console.log(`Covered words OK: ${coveredOk ? "yes" : "check needed"}\n`);
 }
+
+const adjInDb = words.filter(
+  (w) => !w.study?.layout && GOETHE_A1_ADJECTIVES.has(w.de.toLowerCase())
+);
+const adjOk = adjInDb.every((w) => !w.de_article && !w.de_plural && w.de === w.de.toLowerCase());
+console.log(`Adjectives in DB: ${adjInDb.length}`);
+console.log(`Adjective articles OK: ${adjOk ? "yes" : "check needed"}\n`);
 
 if (FIX && report.length > 0) {
   const allChanges = [...merged.values()].map((m) => ({ de: m.de, changes: m.changes }));
