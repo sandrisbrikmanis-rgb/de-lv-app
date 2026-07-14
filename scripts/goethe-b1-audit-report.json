@@ -1,0 +1,237 @@
+[
+  {
+    "de": "anstrengen",
+    "old": "{ de: \"anstrengen\", lv: \"piepūlēt\" }",
+    "reason": "Pievienots sich refleksīvajam darbības vārdam (anstrengen → sich anstrengen)"
+  },
+  {
+    "de": "sich bedienen",
+    "old": "{ de: \"sich bedienen\", lv: \"lietot\" }",
+    "reason": "Izlabots LV tulkojums atgriezeniskajai formai (lietot → apkalpoties)"
+  },
+  {
+    "de": "bemühen",
+    "old": "{ de: \"bemühen\", lv: \"nopūlēt\" }",
+    "reason": "Dzēsts atsevišķs ieraksts — refleksīvais darbības vārds jau pastāv ar sich"
+  },
+  {
+    "de": "sich eingewöhnen",
+    "old": "{ de: \"sich eingewöhnen\", lv: \"pierast\" }",
+    "reason": "Izlabots LV tulkojums atgriezeniskajai formai (pierast → pierasties)"
+  },
+  {
+    "de": "sich erbrechen",
+    "old": "{ de: \"sich erbrechen\", lv: \"vemt\" }",
+    "reason": "Izlabots LV tulkojums atgriezeniskajai formai (vemt → vemties)"
+  },
+  {
+    "de": "sich ernähren",
+    "old": "{ de: \"sich ernähren\", lv: \"pārtikt\" }",
+    "reason": "Izlabots LV tulkojums atgriezeniskajai formai (pārtikt → baroties)"
+  },
+  {
+    "de": "sich gewöhnen",
+    "old": "{ de: \"sich gewöhnen\", lv: \"pierast\" }",
+    "reason": "Izlabots LV tulkojums atgriezeniskajai formai (pierast → pierasties)"
+  },
+  {
+    "de": "irren",
+    "old": "{ de: \"irren\", lv: \"kļūdīties\" }",
+    "reason": "Pievienots sich refleksīvajam darbības vārdam (irren → sich irren)"
+  },
+  {
+    "de": "lohnen",
+    "old": "{ de: \"lohnen\", lv: \"atmaksāties\" }",
+    "reason": "Pievienots sich refleksīvajam darbības vārdam (lohnen → sich lohnen)"
+  },
+  {
+    "de": "verlaufen",
+    "old": "{ de: \"verlaufen\", lv: \"norisināties\" }",
+    "reason": "Pievienots sich refleksīvajam darbības vārdam (verlaufen → sich verlaufen)"
+  },
+  {
+    "de": "sich bedanken",
+    "old": "(nav)",
+    "reason": "Pievienots trūkstošs Goethe B1 refleksīvais darbības vārds"
+  },
+  {
+    "de": "sich beeilen",
+    "old": "(nav)",
+    "reason": "Pievienots trūkstošs Goethe B1 refleksīvais darbības vārds"
+  },
+  {
+    "de": "sich befinden",
+    "old": "(nav)",
+    "reason": "Pievienots trūkstošs Goethe B1 refleksīvais darbības vārds"
+  },
+  {
+    "de": "sich bewerben",
+    "old": "(nav)",
+    "reason": "Pievienots trūkstošs Goethe B1 refleksīvais darbības vārds"
+  },
+  {
+    "de": "sich entschließen",
+    "old": "(nav)",
+    "reason": "Pievienots trūkstošs Goethe B1 refleksīvais darbības vārds"
+  },
+  {
+    "de": "sich entschuldigen",
+    "old": "(nav)",
+    "reason": "Pievienots trūkstošs Goethe B1 refleksīvais darbības vārds"
+  },
+  {
+    "de": "sich ereignen",
+    "old": "(nav)",
+    "reason": "Pievienots trūkstošs Goethe B1 refleksīvais darbības vārds"
+  },
+  {
+    "de": "sich erholen",
+    "old": "(nav)",
+    "reason": "Pievienots trūkstošs Goethe B1 refleksīvais darbības vārds"
+  },
+  {
+    "de": "sich erkälten",
+    "old": "(nav)",
+    "reason": "Pievienots trūkstošs Goethe B1 refleksīvais darbības vārds"
+  },
+  {
+    "de": "sich freuen",
+    "old": "(nav)",
+    "reason": "Pievienots trūkstošs Goethe B1 refleksīvais darbības vārds"
+  },
+  {
+    "de": "sich konzentrieren",
+    "old": "(nav)",
+    "reason": "Pievienots trūkstošs Goethe B1 refleksīvais darbības vārds"
+  },
+  {
+    "de": "sich langweilen",
+    "old": "(nav)",
+    "reason": "Pievienots trūkstošs Goethe B1 refleksīvais darbības vārds"
+  },
+  {
+    "de": "sich scheiden",
+    "old": "(nav)",
+    "reason": "Pievienots trūkstošs Goethe B1 refleksīvais darbības vārds"
+  },
+  {
+    "de": "sich umziehen",
+    "old": "(nav)",
+    "reason": "Pievienots trūkstošs Goethe B1 refleksīvais darbības vārds"
+  },
+  {
+    "de": "sich vergnügen",
+    "old": "(nav)",
+    "reason": "Pievienots trūkstošs Goethe B1 refleksīvais darbības vārds"
+  },
+  {
+    "de": "sich verlieben",
+    "old": "(nav)",
+    "reason": "Pievienots trūkstošs Goethe B1 refleksīvais darbības vārds"
+  },
+  {
+    "de": "sich wundern",
+    "old": "(nav)",
+    "reason": "Pievienots trūkstošs Goethe B1 refleksīvais darbības vārds"
+  },
+  {
+    "de": "Durcheinander",
+    "old": "{ de: \"Durcheinander\", art: das, pl: die Durcheinander, lv: \"juku jukām\" } | { de: \"Durcheinander\", art: das, pl: die Durcheinander, lv: \"juceklis\" }",
+    "reason": "Apvienoti 2 dublikāti vienā ierakstā ar • atdalītām nozīmēm"
+  },
+  {
+    "de": "Elend",
+    "old": "{ de: \"Elend\", art: das, pl: die Elende, lv: \"nožēlojams\" } | { de: \"Elend\", art: das, pl: die Elende, lv: \"posts\" }",
+    "reason": "Apvienoti 2 dublikāti vienā ierakstā ar • atdalītām nozīmēm"
+  },
+  {
+    "de": "Erbe",
+    "old": "{ de: \"Erbe\", art: der, pl: die Erben, lv: \"mantinieks\" } | { de: \"Erbe\", art: das, pl: die Erben, lv: \"mantojums\" }",
+    "reason": "Apvienoti 2 dublikāti vienā ierakstā ar • atdalītām nozīmēm"
+  },
+  {
+    "de": "Feige",
+    "old": "{ de: \"Feige\", art: die, pl: die Feigen, lv: \"gļēvs\" } | { de: \"Feige\", art: die, pl: die Feigen, lv: \"vīģe\" }",
+    "reason": "Apvienoti 2 dublikāti vienā ierakstā ar • atdalītām nozīmēm"
+  },
+  {
+    "de": "Gehalt",
+    "old": "{ de: \"Gehalt\", art: das, pl: die Gehälter, lv: \"saturs\" } | { de: \"Gehalt\", art: der, pl: die Gehälter, lv: \"alga\" }",
+    "reason": "Apvienoti 2 dublikāti vienā ierakstā ar • atdalītām nozīmēm"
+  },
+  {
+    "de": "Gehorsam",
+    "old": "{ de: \"Gehorsam\", art: der, pl: die Gehorsams, lv: \"paklausīgs\" } | { de: \"Gehorsam\", art: der, pl: die Gehorsams, lv: \"paklausība\" }",
+    "reason": "Apvienoti 2 dublikāti vienā ierakstā ar • atdalītām nozīmēm"
+  },
+  {
+    "de": "Innere",
+    "old": "{ de: \"Innere\", art: das, pl: die Innere, lv: \"iekšiene\" } | { de: \"Innere\", art: das, pl: die Innere, lv: \"iekšējais\" }",
+    "reason": "Apvienoti 2 dublikāti vienā ierakstā ar • atdalītām nozīmēm"
+  },
+  {
+    "de": "Kunde",
+    "old": "{ de: \"Kunde\", art: der, pl: die Kunden, lv: \"klients\" } | { de: \"Kunde\", art: die, pl: die Kunden, lv: \"vēsts\" }",
+    "reason": "Apvienoti 2 dublikāti vienā ierakstā ar • atdalītām nozīmēm"
+  },
+  {
+    "de": "Ringen",
+    "old": "{ de: \"Ringen\", art: das, pl: die Ringens, lv: \"cīnīties\" } | { de: \"Ringen\", art: das, pl: die Ringens, lv: \"cīņa\" }",
+    "reason": "Apvienoti 2 dublikāti vienā ierakstā ar • atdalītām nozīmēm"
+  },
+  {
+    "de": "Rudern",
+    "old": "{ de: \"Rudern\", art: das, pl: die Ruderns, lv: \"airēt\" } | { de: \"Rudern\", art: das, pl: die Ruderns, lv: \"airēšana\" }",
+    "reason": "Apvienoti 2 dublikāti vienā ierakstā ar • atdalītām nozīmēm"
+  },
+  {
+    "de": "Schaden",
+    "old": "{ de: \"Schaden\", art: der, pl: die Schäden, lv: \"kaitēt\" } | { de: \"Schaden\", art: der, pl: die Schäden, lv: \"zaudējums\" }",
+    "reason": "Apvienoti 2 dublikāti vienā ierakstā ar • atdalītām nozīmēm"
+  },
+  {
+    "de": "Streifen",
+    "old": "{ de: \"Streifen\", art: der, pl: die Streifen, lv: \"aizskart\" } | { de: \"Streifen\", art: der, pl: die Streifen, lv: \"svītra\" }",
+    "reason": "Apvienoti 2 dublikāti vienā ierakstā ar • atdalītām nozīmēm"
+  },
+  {
+    "de": "Tau",
+    "old": "{ de: \"Tau\", art: der, pl: die Taus, lv: \"rasa\" } | { de: \"Tau\", art: das, pl: die Taus, lv: \"tauva\" }",
+    "reason": "Apvienoti 2 dublikāti vienā ierakstā ar • atdalītām nozīmēm"
+  },
+  {
+    "de": "Trotz",
+    "old": "{ de: \"Trotz\", art: der, pl: die Trotze, lv: \"neraugoties uz\" } | { de: \"Trotz\", art: der, pl: die Trotze, lv: \"spīts\" }",
+    "reason": "Apvienoti 2 dublikāti vienā ierakstā ar • atdalītām nozīmēm"
+  },
+  {
+    "de": "Unrecht",
+    "old": "{ de: \"Unrecht\", art: das, pl: die Unrechts, lv: \"nepareizs\" } | { de: \"Unrecht\", art: das, pl: die Unrechts, lv: \"netaisnība\" }",
+    "reason": "Apvienoti 2 dublikāti vienā ierakstā ar • atdalītām nozīmēm"
+  },
+  {
+    "de": "Vertrauen",
+    "old": "{ de: \"Vertrauen\", art: das, pl: die Vertrauens, lv: \"uzticēties\" } | { de: \"Vertrauen\", art: das, pl: die Vertrauens, lv: \"uzticība\" }",
+    "reason": "Apvienoti 2 dublikāti vienā ierakstā ar • atdalītām nozīmēm"
+  },
+  {
+    "de": "Verwandte",
+    "old": "{ de: \"Verwandte\", art: der, pl: die Verwandten, lv: \"radinieks\" } | { de: \"Verwandte\", art: die, pl: die Verwandten, lv: \"radiniece\" }",
+    "reason": "Apvienoti 2 dublikāti vienā ierakstā ar • atdalītām nozīmēm"
+  },
+  {
+    "de": "Steuer",
+    "old": "{ de: \"Steuer\", art: die, pl: die Steuern, lv: \"nodoklis\" } | { de: \"Steuer\", art: das, pl: die Steuern, lv: \"stūre\" }",
+    "reason": "Apvienoti 2 dublikāti vienā ierakstā ar • atdalītām nozīmēm"
+  },
+  {
+    "de": "Wild",
+    "old": "{ de: \"Wild\", art: das, pl: die Wilde, lv: \"medījums\" }",
+    "reason": "Noņemts artikuls/daudzskaitlis — īpašības vārds pēc Goethe B1"
+  },
+  {
+    "de": "Fasching",
+    "old": "{ de: \"Fasching\", art: der, pl: die Faschings, lv: \"karnevāls\" }",
+    "reason": "Noņemta mākslīga daudzskaitļa forma (Singularetantum pēc Goethe B1)"
+  }
+]

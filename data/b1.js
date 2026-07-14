@@ -38,11 +38,6 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "trotzdem",
-    "lv": "tomēr",
-    "level": "B1"
-  },
-  {
     "de": "Umgebung",
     "de_article": "die",
     "de_plural": "die Umgebungen",
@@ -3691,8 +3686,8 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "anstrengen",
-    "lv": "piepūlēt",
+    "de": "sich anstrengen",
+    "lv": "piepūlēties",
     "level": "B1"
   },
   {
@@ -6510,7 +6505,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich bedienen",
-    "lv": "lietot",
+    "lv": "apkalpoties",
     "level": "B1",
     "study": {
       "id": "b1-sich-bedienen",
@@ -7635,11 +7630,6 @@ const B1_WORDS = [
     "de_article": "die",
     "de_plural": "die Bemerkungen",
     "lv": "piezīme",
-    "level": "B1"
-  },
-  {
-    "de": "bemühen",
-    "lv": "nopūlēt",
     "level": "B1"
   },
   {
@@ -14617,14 +14607,7 @@ const B1_WORDS = [
     "de": "Durcheinander",
     "de_article": "das",
     "de_plural": "die Durcheinander",
-    "lv": "juku jukām",
-    "level": "B1"
-  },
-  {
-    "de": "Durcheinander",
-    "de_article": "das",
-    "de_plural": "die Durcheinander",
-    "lv": "juceklis",
+    "lv": "Juku jukām • Juceklis",
     "level": "B1"
   },
   {
@@ -20007,14 +19990,7 @@ const B1_WORDS = [
     "de": "Elend",
     "de_article": "das",
     "de_plural": "die Elende",
-    "lv": "nožēlojams",
-    "level": "B1"
-  },
-  {
-    "de": "Elend",
-    "de_article": "das",
-    "de_plural": "die Elende",
-    "lv": "posts",
+    "lv": "Nožēlojams • Posts",
     "level": "B1"
   },
   {
@@ -21425,20 +21401,6 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "Erbe",
-    "de_article": "der",
-    "de_plural": "die Erben",
-    "lv": "mantinieks",
-    "level": "B1"
-  },
-  {
-    "de": "Erbe",
-    "de_article": "das",
-    "de_plural": "die Erben",
-    "lv": "mantojums",
-    "level": "B1"
-  },
-  {
     "de": "erben",
     "lv": "mantot",
     "level": "B1"
@@ -22723,7 +22685,6 @@ const B1_WORDS = [
   {
     "de": "Fasching",
     "de_article": "der",
-    "de_plural": "die Faschings",
     "lv": "karnevāls",
     "level": "B1"
   },
@@ -23133,14 +23094,12 @@ const B1_WORDS = [
     "de": "Feige",
     "de_article": "die",
     "de_plural": "die Feigen",
-    "lv": "gļēvs",
+    "lv": "vīģe",
     "level": "B1"
   },
   {
-    "de": "Feige",
-    "de_article": "die",
-    "de_plural": "die Feigen",
-    "lv": "vīģe",
+    "de": "feige",
+    "lv": "gļēvs",
     "level": "B1"
   },
   {
@@ -25603,6 +25562,13 @@ const B1_WORDS = [
     "de": "Gehalt",
     "de_article": "das",
     "de_plural": "die Gehälter",
+    "lv": "alga",
+    "level": "B1"
+  },
+  {
+    "de": "Gehalt",
+    "de_article": "der",
+    "de_plural": "die Gehälter",
     "lv": "saturs",
     "level": "B1"
   },
@@ -25638,16 +25604,13 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "Gehorsam",
-    "de_article": "der",
-    "de_plural": "die Gehorsams",
+    "de": "gehorsam",
     "lv": "paklausīgs",
     "level": "B1"
   },
   {
     "de": "Gehorsam",
     "de_article": "der",
-    "de_plural": "die Gehorsams",
     "lv": "paklausība",
     "level": "B1"
   },
@@ -31607,14 +31570,7 @@ const B1_WORDS = [
     "de": "Innere",
     "de_article": "das",
     "de_plural": "die Innere",
-    "lv": "iekšiene",
-    "level": "B1"
-  },
-  {
-    "de": "Innere",
-    "de_article": "das",
-    "de_plural": "die Innere",
-    "lv": "iekšējais",
+    "lv": "Iekšiene • Iekšējais",
     "level": "B1"
   },
   {
@@ -31938,7 +31894,7 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "irren",
+    "de": "sich irren",
     "lv": "kļūdīties",
     "level": "B1",
     "study": {
@@ -35535,6 +35491,148 @@ const B1_WORDS = [
     }
   },
   {
+    "de": "Kunde",
+    "de_article": "die",
+    "de_plural": "die Kunden",
+    "lv": "vēsts",
+    "level": "B1",
+    "study": {
+      "id": "b1-kunde",
+      "layout": "standardStudy",
+      "translation": "vēsts",
+      "explanation": "Galvenā doma: die Kunde ir vēsts vai ziņa. Savukārt der Kunde nozīmē klients vai pircējs.",
+      "examples": [
+        {
+          "de": "Die Kunde verbreitete sich schnell.",
+          "lv": "vēsts ātri izplatījās."
+        },
+        {
+          "de": "Die Kunde kam aus dem Norden.",
+          "lv": "ziņa nāca no ziemeļiem."
+        },
+        {
+          "de": "Der Kunde bezahlt an der Kasse.",
+          "lv": "klients maksā pie kases."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Kunde",
+          "meaning": "vēsts • ziņa",
+          "example": "Die Kunde kam spät. = Vēsts pienāca vēlu."
+        },
+        {
+          "word": "der Kunde",
+          "meaning": "klients",
+          "example": "Der Kunde wartet. = Klients gaida."
+        },
+        {
+          "word": "die Nachricht",
+          "meaning": "ziņa",
+          "example": "Ich habe eine Nachricht bekommen. = Es saņēmu ziņu."
+        }
+      ],
+      "tip": "Artikuls maina nozīmi: die Kunde = vēsts, der Kunde = klients.",
+      "important": "Frontē šai kartītei jāpaliek 'vēsts', jo klients ir der Kunde ar citu artikulu.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Kunde",
+            "der Kunde"
+          ],
+          "purple": [
+            "vēsts",
+            "klients"
+          ],
+          "red": "Savukārt"
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": "Kunde"
+            },
+            "lv": {
+              "purple": "Vēsts"
+            }
+          },
+          {
+            "de": {
+              "blue": "Kunde",
+              "green": "Norden"
+            },
+            "lv": {
+              "purple": "Ziņa",
+              "green": "ziemeļiem"
+            }
+          },
+          {
+            "de": {
+              "red": "Kunde",
+              "green": "Kasse"
+            },
+            "lv": {
+              "purple": "Klients",
+              "green": "kases"
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": "die Kunde"
+            },
+            "meaning": {
+              "purple": "vēsts"
+            },
+            "example": {
+              "blue": "Kunde",
+              "purple": "Vēsts"
+            }
+          },
+          {
+            "word": {
+              "green": "der Kunde"
+            },
+            "meaning": {
+              "purple": "klients"
+            },
+            "example": {
+              "red": "Kunde",
+              "purple": "Klients"
+            }
+          },
+          {
+            "word": {
+              "green": "die Nachricht"
+            },
+            "meaning": {
+              "purple": "ziņa"
+            },
+            "example": {
+              "red": "Nachricht",
+              "purple": "ziņu"
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "die Kunde",
+            "der Kunde"
+          ],
+          "purple": [
+            "vēsts",
+            "klients"
+          ],
+          "red": "Artikuls"
+        },
+        "important": {
+          "purple": "vēsts",
+          "red": "der Kunde"
+        }
+      }
+    }
+  },
+  {
     "de": "Kundendienst",
     "de_article": "der",
     "de_plural": "die Kundendienste",
@@ -37202,148 +37300,6 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "Kunde",
-    "de_article": "die",
-    "de_plural": "die Kunden",
-    "lv": "vēsts",
-    "level": "B1",
-    "study": {
-      "id": "b1-kunde",
-      "layout": "standardStudy",
-      "translation": "vēsts",
-      "explanation": "Galvenā doma: die Kunde ir vēsts vai ziņa. Savukārt der Kunde nozīmē klients vai pircējs.",
-      "examples": [
-        {
-          "de": "Die Kunde verbreitete sich schnell.",
-          "lv": "vēsts ātri izplatījās."
-        },
-        {
-          "de": "Die Kunde kam aus dem Norden.",
-          "lv": "ziņa nāca no ziemeļiem."
-        },
-        {
-          "de": "Der Kunde bezahlt an der Kasse.",
-          "lv": "klients maksā pie kases."
-        }
-      ],
-      "comparison": [
-        {
-          "word": "die Kunde",
-          "meaning": "vēsts / ziņa",
-          "example": "Die Kunde kam spät. = Vēsts pienāca vēlu."
-        },
-        {
-          "word": "der Kunde",
-          "meaning": "klients",
-          "example": "Der Kunde wartet. = Klients gaida."
-        },
-        {
-          "word": "die Nachricht",
-          "meaning": "ziņa",
-          "example": "Ich habe eine Nachricht bekommen. = Es saņēmu ziņu."
-        }
-      ],
-      "tip": "Artikuls maina nozīmi: die Kunde = vēsts, der Kunde = klients.",
-      "important": "Frontē šai kartītei jāpaliek 'vēsts', jo klients ir der Kunde ar citu artikulu.",
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "die Kunde",
-            "der Kunde"
-          ],
-          "purple": [
-            "vēsts",
-            "klients"
-          ],
-          "red": "Savukārt"
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": "Kunde"
-            },
-            "lv": {
-              "purple": "Vēsts"
-            }
-          },
-          {
-            "de": {
-              "blue": "Kunde",
-              "green": "Norden"
-            },
-            "lv": {
-              "purple": "Ziņa",
-              "green": "ziemeļiem"
-            }
-          },
-          {
-            "de": {
-              "red": "Kunde",
-              "green": "Kasse"
-            },
-            "lv": {
-              "purple": "Klients",
-              "green": "kases"
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": "die Kunde"
-            },
-            "meaning": {
-              "purple": "vēsts"
-            },
-            "example": {
-              "blue": "Kunde",
-              "purple": "Vēsts"
-            }
-          },
-          {
-            "word": {
-              "green": "der Kunde"
-            },
-            "meaning": {
-              "purple": "klients"
-            },
-            "example": {
-              "red": "Kunde",
-              "purple": "Klients"
-            }
-          },
-          {
-            "word": {
-              "green": "die Nachricht"
-            },
-            "meaning": {
-              "purple": "ziņa"
-            },
-            "example": {
-              "red": "Nachricht",
-              "purple": "ziņu"
-            }
-          }
-        ],
-        "tip": {
-          "blue": [
-            "die Kunde",
-            "der Kunde"
-          ],
-          "purple": [
-            "vēsts",
-            "klients"
-          ],
-          "red": "Artikuls"
-        },
-        "important": {
-          "purple": "vēsts",
-          "red": "der Kunde"
-        }
-      }
-    }
-  },
-  {
     "de": "Laib",
     "de_article": "der",
     "de_plural": "die Laibe",
@@ -38430,7 +38386,7 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "lohnen",
+    "de": "sich lohnen",
     "lv": "atmaksāties",
     "level": "B1"
   },
@@ -45875,16 +45831,13 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "Ringen",
-    "de_article": "das",
-    "de_plural": "die Ringens",
+    "de": "ringen",
     "lv": "cīnīties",
     "level": "B1"
   },
   {
     "de": "Ringen",
     "de_article": "das",
-    "de_plural": "die Ringens",
     "lv": "cīņa",
     "level": "B1"
   },
@@ -46350,16 +46303,13 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "Rudern",
-    "de_article": "das",
-    "de_plural": "die Ruderns",
+    "de": "rudern",
     "lv": "airēt",
     "level": "B1"
   },
   {
     "de": "Rudern",
     "de_article": "das",
-    "de_plural": "die Ruderns",
     "lv": "airēšana",
     "level": "B1"
   },
@@ -47164,138 +47114,6 @@ const B1_WORDS = [
     "de_plural": "die Schächte",
     "lv": "šahta",
     "level": "B1"
-  },
-  {
-    "de": "Schaden",
-    "de_article": "der",
-    "de_plural": "die Schäden",
-    "lv": "kaitēt",
-    "level": "B1"
-  },
-  {
-    "de": "Schaden",
-    "de_article": "der",
-    "de_plural": "die Schäden",
-    "lv": "zaudējums",
-    "level": "B1",
-    "study": {
-      "id": "b1-schaden",
-      "layout": "standardStudy",
-      "translation": "zaudējums",
-      "explanation": "Galvenā doma: der Schaden nozīmē zaudējumu, bojājumu vai kaitējumu. Tas var būt materiāls, veselības vai reputācijas kaitējums.",
-      "examples": [
-        {
-          "de": "Der Sturm verursachte großen Schaden.",
-          "lv": "vētra radīja lielus zaudējumus."
-        },
-        {
-          "de": "Am Auto ist ein Schaden.",
-          "lv": "automašīnai ir bojājums."
-        },
-        {
-          "de": "Rauchen schadet der Gesundheit.",
-          "lv": "smēķēšana kaitē veselībai."
-        }
-      ],
-      "comparison": [
-        {
-          "word": "der Schaden",
-          "meaning": "zaudējums, bojājums, kaitējums",
-          "example": "Der Schaden ist groß. = Zaudējums ir liels."
-        },
-        {
-          "word": "die Verletzung",
-          "meaning": "ievainojums",
-          "example": "Die Verletzung tut weh. = Ievainojums sāp."
-        },
-        {
-          "word": "der Verlust",
-          "meaning": "zaudējums, pazaudēšana",
-          "example": "Der Verlust war schwer. = Zaudējums bija smags."
-        }
-      ],
-      "tip": "Ja kaut kas ir sabojāts vai nodarīts kaitējums, domā Schaden.",
-      "important": "Miesas ievainojumam parasti lieto die Verletzung, nevis der Schaden.",
-      "sectionAccents": {
-        "explanation": {
-          "blue": "der Schaden",
-          "purple": "zaudējumu",
-          "red": "kaitējumu"
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": "Schaden",
-              "yellow": "Sturm"
-            },
-            "lv": {
-              "purple": "zaudējumus"
-            }
-          },
-          {
-            "de": {
-              "blue": "Schaden",
-              "yellow": "Auto"
-            },
-            "lv": {
-              "red": "bojājums"
-            }
-          },
-          {
-            "de": {
-              "blue": "schadet",
-              "yellow": "Gesundheit"
-            },
-            "lv": {
-              "red": "kaitē"
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": "der Schaden"
-            },
-            "meaning": {
-              "purple": "zaudējums"
-            },
-            "example": {
-              "blue": "Schaden"
-            }
-          },
-          {
-            "word": {
-              "green": "die Verletzung"
-            },
-            "meaning": {
-              "purple": "ievainojums"
-            },
-            "example": {
-              "red": "Verletzung"
-            }
-          },
-          {
-            "word": {
-              "green": "der Verlust"
-            },
-            "meaning": {
-              "purple": "zaudējums"
-            },
-            "example": {
-              "red": "Verlust"
-            }
-          }
-        ],
-        "tip": {
-          "blue": "Schaden",
-          "red": "kaitējums"
-        },
-        "important": {
-          "blue": "der Schaden",
-          "red": "die Verletzung"
-        }
-      }
-    }
   },
   {
     "de": "schädlich",
@@ -53422,14 +53240,7 @@ const B1_WORDS = [
     "de": "Streifen",
     "de_article": "der",
     "de_plural": "die Streifen",
-    "lv": "aizskart",
-    "level": "B1"
-  },
-  {
-    "de": "Streifen",
-    "de_article": "der",
-    "de_plural": "die Streifen",
-    "lv": "svītra",
+    "lv": "Aizskart • Svītra",
     "level": "B1"
   },
   {
@@ -54338,15 +54149,15 @@ const B1_WORDS = [
   {
     "de": "Tau",
     "de_article": "der",
-    "de_plural": "die Taus",
+    "de_plural": "die Taue",
     "lv": "rasa",
     "level": "B1"
   },
   {
     "de": "Tau",
     "de_article": "das",
-    "de_plural": "die Taus",
-    "lv": "tauva",
+    "de_plural": "die Taue",
+    "lv": "kuģa tauva",
     "level": "B1"
   },
   {
@@ -55840,20 +55651,6 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "Trotz",
-    "de_article": "der",
-    "de_plural": "die Trotze",
-    "lv": "neraugoties uz",
-    "level": "B1"
-  },
-  {
-    "de": "Trotz",
-    "de_article": "der",
-    "de_plural": "die Trotze",
-    "lv": "spīts",
-    "level": "B1"
-  },
-  {
     "de": "trotzig",
     "lv": "spītīgs",
     "level": "B1"
@@ -57093,15 +56890,12 @@ const B1_WORDS = [
   {
     "de": "Unrecht",
     "de_article": "das",
-    "de_plural": "die Unrechts",
-    "lv": "nepareizs",
+    "lv": "netaisnība",
     "level": "B1"
   },
   {
-    "de": "Unrecht",
-    "de_article": "das",
-    "de_plural": "die Unrechts",
-    "lv": "netaisnība",
+    "de": "unrecht",
+    "lv": "nepareizs",
     "level": "B1"
   },
   {
@@ -58667,7 +58461,7 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "verlaufen",
+    "de": "sich verlaufen",
     "lv": "norisināties",
     "level": "B1"
   },
@@ -59252,20 +59046,6 @@ const B1_WORDS = [
   {
     "de": "sich vertragen",
     "lv": "sadzīvot",
-    "level": "B1"
-  },
-  {
-    "de": "Vertrauen",
-    "de_article": "das",
-    "de_plural": "die Vertrauens",
-    "lv": "uzticēties",
-    "level": "B1"
-  },
-  {
-    "de": "Vertrauen",
-    "de_article": "das",
-    "de_plural": "die Vertrauens",
-    "lv": "uzticība",
     "level": "B1"
   },
   {
@@ -61837,9 +61617,7 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "Wild",
-    "de_article": "das",
-    "de_plural": "die Wilde",
+    "de": "wild",
     "lv": "medījums",
     "level": "B1"
   },
@@ -63086,13 +62864,6 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "Gehalt",
-    "de_article": "der",
-    "de_plural": "die Gehälter",
-    "lv": "alga",
-    "level": "B1"
-  },
-  {
     "de": "Kollege",
     "de_article": "der",
     "de_plural": "die Kollegen",
@@ -63148,7 +62919,4070 @@ const B1_WORDS = [
     "de": "vorschlagen",
     "lv": "ierosināt",
     "level": "B1"
-  }
+  },
+  {
+    "de": "weil • da",
+    "lv": "Jo • Tāpēc ka • Par cik",
+    "level": "B1",
+    "study": {
+      "id": "compare-weil-da",
+      "layout": "comparisonStudy",
+      "title": "Jo • Tāpēc ka • Par cik",
+      "subtitle": "weil • da",
+      "lead": "weil un da abi paskaidro iemeslu, bet tos lieto citādos kontekstos. Tie NAV sinonīmi.",
+      "explanation": "weil paskaidro iemeslu un ir visbiežākais variants. da kā saikne nozīmē jo/par cik, kad iemesls jau ir zināms vai minēts iepriekš. Abi prasa darbības vārdu teikuma beigās.",
+      "words": [
+        {
+          "icon": "💬",
+          "lv": "jo • tāpēc ka",
+          "de": "weil",
+          "description": "Visbiežāk lietotais iemesla saiklis. Pēc weil darbības vārds ir teikuma beigās.",
+          "example": "Ich bleibe zu Hause, weil ich krank bin. = Es palieku mājās, jo esmu slims."
+        },
+        {
+          "icon": "📌",
+          "lv": "jo • par cik",
+          "de": "da",
+          "description": "Iemesla saiklis, kad iemesls jau ir zināms vai minēts. Pēc da darbības vārds ir teikuma beigās.",
+          "example": "Da ich krank bin, bleibe ich zu Hause. = Tā kā esmu slims, es palieku mājās."
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ich bleibe zu Hause, weil ich krank bin.",
+          "lv": "es palieku mājās, jo esmu slims."
+        },
+        {
+          "de": "Da ich krank bin, bleibe ich zu Hause.",
+          "lv": "tā kā esmu slims, es palieku mājās."
+        },
+        {
+          "de": "Ich lerne Deutsch, weil ich in Deutschland arbeite.",
+          "lv": "es mācos vācu valodu, jo strādāju Vācijā."
+        },
+        {
+          "de": "Da du keine Zeit hast, machen wir es morgen.",
+          "lv": "tā kā tev nav laika, mēs to darīsim rīt."
+        },
+        {
+          "de": "Er kommt nicht, weil er müde ist.",
+          "lv": "viņš nenāk, jo ir noguris."
+        },
+        {
+          "de": "Da das Wetter schlecht ist, fahren wir nicht.",
+          "lv": "tā kā laiks ir slikts, mēs nebraucam."
+        }
+      ],
+      "comparisonTable": [
+        {
+          "lv": "jo • tāpēc ka",
+          "de": "weil",
+          "meaning": "paskaidro iemeslu",
+          "describes": "visbiežākais variants",
+          "example": "Ich bleibe, weil ich krank bin.",
+          "translation": "es palieku, jo esmu slims."
+        },
+        {
+          "lv": "jo • par cik",
+          "de": "da",
+          "meaning": "paskaidro zināmu iemeslu",
+          "describes": "iemesls jau minēts",
+          "example": "Da ich krank bin, bleibe ich.",
+          "translation": "tā kā esmu slims, es palieku."
+        },
+        {
+          "lv": "vārdu kārtība",
+          "de": "weil ... Verb",
+          "meaning": "darbības vārds beigās",
+          "describes": "palīgteikums",
+          "example": "... weil ich müde bin.",
+          "translation": "... jo esmu noguris."
+        },
+        {
+          "lv": "vārdu kārtība",
+          "de": "da ... Verb",
+          "meaning": "darbības vārds beigās",
+          "describes": "palīgteikums",
+          "example": "Da ich müde bin, gehe ich.",
+          "translation": "tā kā esmu noguris, es eju."
+        },
+        {
+          "lv": "nevis tur",
+          "de": "da (Ort)",
+          "meaning": "vietas nozīme",
+          "describes": "A1 līmenis",
+          "example": "Da ist mein Auto.",
+          "translation": "tur ir mana mašīna."
+        },
+        {
+          "lv": "nevis denn",
+          "de": "weil vs denn",
+          "meaning": "denn = jo (galvenajā teikumā)",
+          "describes": "cita vārdu kārtība",
+          "example": "Ich bleibe, denn ich bin krank.",
+          "translation": "es palieku, jo esmu slims."
+        }
+      ],
+      "importantComparison": [
+        "Ich bleibe zu Hause, weil ich krank bin. = Es palieku mājās, jo esmu slims.",
+        "Da ich krank bin, bleibe ich zu Hause. = Tā kā esmu slims, es palieku mājās.",
+        "weil un da (kā saikne) abi liek darbības vārdu teikuma beigās."
+      ],
+      "tip": {
+        "left": "Ja iemesls ir jauns un tiešs, lieto weil. Ja iemesls jau ir zināms vai minēts, da bieži skan dabiskāk.",
+        "rightTitle": "ātri",
+        "rightItems": [
+          {
+            "de": "weil ich krank bin",
+            "lv": "jo esmu slims",
+            "separator": "="
+          },
+          {
+            "de": "Da ich krank bin",
+            "lv": "tā kā esmu slims",
+            "separator": "="
+          }
+        ]
+      },
+      "important": [
+        "weil un da (saikne) prasa darbības vārdu teikuma beigās.",
+        "da kā saikne ≠ da kā tur (vietas vārds).",
+        "weil ich bin krank — nepareizi; pareizi: weil ich krank bin."
+      ],
+      "mistakes": [
+        {
+          "wrong": "weil ich bin krank",
+          "right": "weil ich krank bin"
+        },
+        {
+          "wrong": "Da ich bin krank, ...",
+          "right": "Da ich krank bin, ..."
+        }
+      ],
+      "remember": [
+        "weil = visbiežākais iemesla saiklis.",
+        "da (saikne) = iemesls jau zināms.",
+        "Abi: darbības vārds teikuma beigās."
+      ],
+      "sectionAccents": {
+        "lead": {
+          "blue": [
+            "weil",
+            "da"
+          ],
+          "purple": [
+            "iemeslu"
+          ],
+          "red": [
+            "NAV sinonīmi"
+          ]
+        },
+        "comparisonCards": [
+          {
+            "lv": {
+              "purple": [
+                "jo",
+                "tāpēc ka"
+              ]
+            },
+            "de": {
+              "blue": [
+                "weil"
+              ]
+            },
+            "example": {
+              "blue": [
+                "weil",
+                "krank",
+                "bin"
+              ],
+              "purple": [
+                "jo",
+                "slims"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "jo",
+                "par cik"
+              ]
+            },
+            "de": {
+              "blue": [
+                "da"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Da",
+                "krank",
+                "bin"
+              ],
+              "purple": [
+                "tā kā",
+                "slims"
+              ]
+            }
+          }
+        ],
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "weil",
+                "krank",
+                "bin"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jo",
+                "slims"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Da",
+                "krank",
+                "bin"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tā kā",
+                "slims"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "weil",
+                "arbeite"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jo",
+                "strādāju"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Da",
+                "keine Zeit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tā kā",
+                "laika"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "weil",
+                "müde"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jo",
+                "noguris"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Da",
+                "Wetter",
+                "schlecht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tā kā",
+                "laiks",
+                "slikts"
+              ]
+            }
+          }
+        ],
+        "comparisonTable": [
+          {
+            "lv": {
+              "purple": [
+                "jo"
+              ]
+            },
+            "de": {
+              "blue": [
+                "weil"
+              ]
+            },
+            "example": {
+              "blue": [
+                "weil",
+                "krank",
+                "bin"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "jo",
+                "slims"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "par cik"
+              ]
+            },
+            "de": {
+              "blue": [
+                "da"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Da",
+                "krank",
+                "bin"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "tā kā",
+                "slims"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "vārdu kārtība"
+              ]
+            },
+            "de": {
+              "blue": [
+                "weil",
+                "Verb"
+              ]
+            },
+            "example": {
+              "blue": [
+                "müde",
+                "bin"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "noguris"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "vārdu kārtība"
+              ]
+            },
+            "de": {
+              "blue": [
+                "da",
+                "Verb"
+              ]
+            },
+            "example": {
+              "blue": [
+                "müde",
+                "bin"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "noguris"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "tur"
+              ]
+            },
+            "de": {
+              "blue": [
+                "da"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Da",
+                "ist"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "tur"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "denn"
+              ]
+            },
+            "de": {
+              "red": [
+                "denn"
+              ],
+              "blue": [
+                "weil"
+              ]
+            },
+            "example": {
+              "blue": [
+                "denn",
+                "krank"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "jo",
+                "slims"
+              ]
+            }
+          }
+        ],
+        "importantComparison": [
+          {
+            "blue": [
+              "weil",
+              "krank",
+              "bin"
+            ],
+            "purple": [
+              "jo",
+              "slims"
+            ]
+          },
+          {
+            "blue": [
+              "Da",
+              "krank",
+              "bin"
+            ],
+            "purple": [
+              "tā kā",
+              "slims"
+            ]
+          },
+          {
+            "blue": [
+              "weil",
+              "da"
+            ],
+            "purple": [
+              "beigās"
+            ]
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "weil"
+            ],
+            "green": [
+              "da"
+            ]
+          },
+          "rightItems": [
+            {
+              "de": {
+                "blue": [
+                  "weil",
+                  "krank",
+                  "bin"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "jo",
+                  "slims"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Da",
+                  "krank",
+                  "bin"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "tā kā",
+                  "slims"
+                ]
+              }
+            }
+          ]
+        },
+        "important": [
+          {
+            "blue": [
+              "weil",
+              "da"
+            ],
+            "purple": [
+              "beigās"
+            ]
+          },
+          {
+            "blue": [
+              "da"
+            ],
+            "green": [
+              "tur"
+            ]
+          },
+          {
+            "red": [
+              "weil ich bin krank"
+            ],
+            "green": [
+              "weil ich krank bin"
+            ]
+          }
+        ],
+        "mistakes": [
+          {
+            "wrong": {
+              "red": [
+                "weil ich bin krank"
+              ]
+            },
+            "right": {
+              "blue": [
+                "weil ich krank bin"
+              ]
+            }
+          },
+          {
+            "wrong": {
+              "red": [
+                "Da ich bin krank"
+              ]
+            },
+            "right": {
+              "blue": [
+                "Da ich krank bin"
+              ]
+            }
+          }
+        ],
+        "remember": [
+          {
+            "blue": [
+              "weil"
+            ]
+          },
+          {
+            "blue": [
+              "da"
+            ],
+            "purple": [
+              "zināms"
+            ]
+          },
+          {
+            "blue": [
+              "beigās"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "obwohl • trotzdem",
+    "lv": "Kaut gan • Tomēr",
+    "level": "B1",
+    "study": {
+      "id": "compare-obwohl-trotzdem",
+      "layout": "comparisonStudy",
+      "title": "Kaut gan • Tomēr",
+      "subtitle": "obwohl • trotzdem",
+      "lead": "obwohl ievada pretēju iemeslu; trotzdem norāda uz rezultātu, neskatoties uz to.",
+      "explanation": "obwohl nozīmē kaut gan un ievada palīgteikumu ar darbības vārdu beigās. trotzdem nozīmē tomēr un stāv galvenajā teikumā — pēc tā darbības vārds ir 2. vietā.",
+      "words": [
+        {
+          "icon": "↩",
+          "lv": "kaut gan • lai gan",
+          "de": "obwohl",
+          "description": "Ievada pretēju iemeslu palīgteikumā. Darbības vārds ir teikuma beigās.",
+          "example": "Obwohl es müde bin, gehe ich spazieren. = Kaut gan esmu noguris, es eju pastaigā."
+        },
+        {
+          "icon": "➡",
+          "lv": "tomēr • tik un tā",
+          "de": "trotzdem",
+          "description": "Norāda uz rezultātu, neskatoties uz iemeslu. Darbības vārds ir 2. vietā.",
+          "example": "Ich bin müde. Trotzdem gehe ich spazieren. = Es esmu noguris. Tomēr es eju pastaigā."
+        }
+      ],
+      "examples": [
+        {
+          "de": "Obwohl es regnet, gehen wir raus.",
+          "lv": "kaut gan līst, mēs izejam ārā."
+        },
+        {
+          "de": "Es regnet. Trotzdem gehen wir raus.",
+          "lv": "līst. tomēr mēs izejam ārā."
+        },
+        {
+          "de": "Obwohl er krank ist, arbeitet er.",
+          "lv": "kaut gan viņš ir slims, viņš strādā."
+        },
+        {
+          "de": "Er ist krank. Trotzdem arbeitet er.",
+          "lv": "viņš ir slims. tomēr viņš strādā."
+        },
+        {
+          "de": "Obwohl ich wenig Zeit habe, helfe ich dir.",
+          "lv": "kaut gan man ir maz laika, es tev palīdzu."
+        },
+        {
+          "de": "Ich habe wenig Zeit. Trotzdem helfe ich dir.",
+          "lv": "man ir maz laika. tomēr es tev palīdzu."
+        }
+      ],
+      "comparisonTable": [
+        {
+          "lv": "kaut gan",
+          "de": "obwohl",
+          "meaning": "pretējs iemesls",
+          "describes": "palīgteikums",
+          "example": "Obwohl es regnet, gehen wir.",
+          "translation": "kaut gan līst, mēs izejam."
+        },
+        {
+          "lv": "tomēr",
+          "de": "trotzdem",
+          "meaning": "rezultāts neskatoties uz to",
+          "describes": "galvenais teikums",
+          "example": "Es regnet. Trotzdem gehen wir.",
+          "translation": "līst. tomēr mēs izejam."
+        },
+        {
+          "lv": "vārdu kārtība",
+          "de": "obwohl ... Verb",
+          "meaning": "darbības vārds beigās",
+          "describes": "palīgteikums",
+          "example": "Obwohl ich müde bin, ...",
+          "translation": "kaut gan esmu noguris, ..."
+        },
+        {
+          "lv": "vārdu kārtība",
+          "de": "trotzdem ... Verb",
+          "meaning": "darbības vārds 2. vietā",
+          "describes": "galvenais teikums",
+          "example": "Trotzdem gehe ich.",
+          "translation": "tomēr es eju."
+        },
+        {
+          "lv": "nevis trotz",
+          "de": "obwohl vs trotz",
+          "meaning": "trotz + Dativ",
+          "describes": "prievārds, ne saikle",
+          "example": "Trotz des Regens gehen wir.",
+          "translation": "neraugoties uz lietu, mēs izejam."
+        },
+        {
+          "lv": "abi kopā",
+          "de": "obwohl + Hauptsatz",
+          "meaning": "bieži vienā teikumā",
+          "describes": "savienots teikums",
+          "example": "Obwohl es müde bin, arbeite ich trotzdem.",
+          "translation": "kaut gan esmu noguris, tomēr strādāju."
+        }
+      ],
+      "importantComparison": [
+        "Obwohl es regnet, gehen wir raus. = Kaut gan līst, mēs izejam ārā.",
+        "Es regnet. Trotzdem gehen wir raus. = Līst. Tomēr mēs izejam ārā.",
+        "obwohl → darbības vārds beigās; trotzdem → darbības vārds 2. vietā."
+      ],
+      "tip": {
+        "left": "Ja gribi teikt pretējo iemeslu vienā teikumā, sāc ar obwohl. Ja iemesls jau ir minēts, lieto trotzdem galvenajā teikumā.",
+        "rightTitle": "ātri",
+        "rightItems": [
+          {
+            "de": "Obwohl es regnet",
+            "lv": "kaut gan līst",
+            "separator": "="
+          },
+          {
+            "de": "Trotzdem gehen wir",
+            "lv": "tomēr izejam",
+            "separator": "="
+          }
+        ]
+      },
+      "important": [
+        "obwohl ievada palīgteikumu — darbības vārds beigās.",
+        "trotzdem stāv galvenajā teikumā — darbības vārds 2. vietā.",
+        "trotz (prievārds) ≠ trotzdem (apstākļa vārds)."
+      ],
+      "mistakes": [
+        {
+          "wrong": "Obwohl ich bin müde, ...",
+          "right": "Obwohl ich müde bin, ..."
+        },
+        {
+          "wrong": "Trotzdem ich gehe.",
+          "right": "Trotzdem gehe ich."
+        }
+      ],
+      "remember": [
+        "obwohl = kaut gan (palīgteikums).",
+        "trotzdem = tomēr (galvenais teikums).",
+        "Vārdu kārtība atšķiras!"
+      ],
+      "sectionAccents": {
+        "lead": {
+          "blue": [
+            "obwohl"
+          ],
+          "purple": [
+            "pretēju"
+          ],
+          "green": [
+            "trotzdem"
+          ],
+          "yellow": [
+            "rezultātu"
+          ]
+        },
+        "comparisonCards": [
+          {
+            "lv": {
+              "purple": [
+                "kaut gan"
+              ]
+            },
+            "de": {
+              "blue": [
+                "obwohl"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Obwohl",
+                "müde",
+                "bin"
+              ],
+              "purple": [
+                "kaut gan",
+                "noguris"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "tomēr"
+              ]
+            },
+            "de": {
+              "green": [
+                "trotzdem"
+              ]
+            },
+            "example": {
+              "green": [
+                "Trotzdem",
+                "gehe"
+              ],
+              "purple": [
+                "tomēr",
+                "eju"
+              ]
+            }
+          }
+        ],
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Obwohl",
+                "regnet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kaut gan",
+                "līst"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Trotzdem",
+                "gehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tomēr",
+                "izejam"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Obwohl",
+                "krank"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kaut gan",
+                "slims"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Trotzdem",
+                "arbeitet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tomēr",
+                "strādā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Obwohl",
+                "Zeit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kaut gan",
+                "laika"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Trotzdem",
+                "helfe"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tomēr",
+                "palīdzu"
+              ]
+            }
+          }
+        ],
+        "comparisonTable": [
+          {
+            "lv": {
+              "purple": [
+                "kaut gan"
+              ]
+            },
+            "de": {
+              "blue": [
+                "obwohl"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Obwohl",
+                "regnet"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "kaut gan",
+                "līst"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "tomēr"
+              ]
+            },
+            "de": {
+              "green": [
+                "trotzdem"
+              ]
+            },
+            "example": {
+              "green": [
+                "Trotzdem",
+                "gehen"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "tomēr",
+                "izejam"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "beigās"
+              ]
+            },
+            "de": {
+              "blue": [
+                "obwohl",
+                "Verb"
+              ]
+            },
+            "example": {
+              "blue": [
+                "müde",
+                "bin"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "noguris"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "2. vietā"
+              ]
+            },
+            "de": {
+              "green": [
+                "trotzdem",
+                "Verb"
+              ]
+            },
+            "example": {
+              "green": [
+                "gehe",
+                "ich"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "eju"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "neraugoties"
+              ]
+            },
+            "de": {
+              "yellow": [
+                "trotz"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "Trotz",
+                "Regens"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "līst"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "kopā"
+              ]
+            },
+            "de": {
+              "blue": [
+                "obwohl"
+              ],
+              "green": [
+                "trotzdem"
+              ]
+            },
+            "example": {
+              "blue": [
+                "müde"
+              ],
+              "green": [
+                "trotzdem"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "noguris",
+                "tomēr"
+              ]
+            }
+          }
+        ],
+        "importantComparison": [
+          {
+            "blue": [
+              "Obwohl",
+              "regnet"
+            ],
+            "purple": [
+              "kaut gan",
+              "līst"
+            ]
+          },
+          {
+            "green": [
+              "Trotzdem",
+              "gehen"
+            ],
+            "purple": [
+              "tomēr",
+              "izejam"
+            ]
+          },
+          {
+            "blue": [
+              "obwohl",
+              "beigās"
+            ],
+            "green": [
+              "trotzdem",
+              "2."
+            ]
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "obwohl"
+            ],
+            "green": [
+              "trotzdem"
+            ]
+          },
+          "rightItems": [
+            {
+              "de": {
+                "blue": [
+                  "Obwohl",
+                  "regnet"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "kaut gan",
+                  "līst"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "Trotzdem",
+                  "gehen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "tomēr",
+                  "izejam"
+                ]
+              }
+            }
+          ]
+        },
+        "important": [
+          {
+            "blue": [
+              "obwohl"
+            ],
+            "purple": [
+              "beigās"
+            ]
+          },
+          {
+            "green": [
+              "trotzdem"
+            ],
+            "purple": [
+              "2. vietā"
+            ]
+          },
+          {
+            "yellow": [
+              "trotz"
+            ],
+            "green": [
+              "trotzdem"
+            ]
+          }
+        ],
+        "mistakes": [
+          {
+            "wrong": {
+              "red": [
+                "Obwohl ich bin müde"
+              ]
+            },
+            "right": {
+              "blue": [
+                "Obwohl ich müde bin"
+              ]
+            }
+          },
+          {
+            "wrong": {
+              "red": [
+                "Trotzdem ich gehe"
+              ]
+            },
+            "right": {
+              "green": [
+                "Trotzdem gehe ich"
+              ]
+            }
+          }
+        ],
+        "remember": [
+          {
+            "blue": [
+              "obwohl"
+            ],
+            "purple": [
+              "kaut gan"
+            ]
+          },
+          {
+            "green": [
+              "trotzdem"
+            ],
+            "purple": [
+              "tomēr"
+            ]
+          },
+          {
+            "blue": [
+              "beigās"
+            ],
+            "green": [
+              "2. vietā"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "anstatt • ohne ... zu",
+    "lv": "Tā vietā lai • Bez",
+    "level": "B1",
+    "study": {
+      "id": "compare-anstatt-ohne-zu",
+      "layout": "comparisonStudy",
+      "title": "Tā vietā lai • Bez",
+      "subtitle": "anstatt • ohne ... zu",
+      "lead": "anstatt ... zu un ohne ... zu abi savieno divus darbības vārdus, bet nozīme ir pretēja.",
+      "explanation": "anstatt ... zu nozīmē tā vietā lai — viena darbība aizstāj otru. ohne ... zu nozīmē bez — darbība nenotiek. Abi konstrukcijās otrais darbības vārds ir infinitīvs ar zu.",
+      "words": [
+        {
+          "icon": "🔄",
+          "lv": "tā vietā lai",
+          "de": "anstatt ... zu",
+          "description": "Viena darbība notiek tā vietā, lai notiktu cita. anstatt + zu + Infinitiv.",
+          "example": "Er fährt mit dem Rad, anstatt mit dem Auto zu fahren. = Viņš brauc ar riteni, tā vietā lai brauktu ar auto."
+        },
+        {
+          "icon": "🚫",
+          "lv": "bez (kaut ko darot)",
+          "de": "ohne ... zu",
+          "description": "Darbība nenotiek. ohne + zu + Infinitiv.",
+          "example": "Er ging, ohne sich zu verabschieden. = Viņš aizgāja, neuzvadoties."
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ich trinke Tee, anstatt Kaffee zu trinken.",
+          "lv": "es dzeru tēju, tā vietā lai dzertu kafiju."
+        },
+        {
+          "de": "Er ging, ohne sich zu verabschieden.",
+          "lv": "viņš aizgāja, neuzvadoties."
+        },
+        {
+          "de": "Anstatt zu warten, rufe ich an.",
+          "lv": "tā vietā lai gaidītu, es zvanu."
+        },
+        {
+          "de": "Sie aß, ohne zu kochen.",
+          "lv": "viņa ēda, neko nepagatavojot."
+        },
+        {
+          "de": "Er lernt, anstatt fernzusehen.",
+          "lv": "viņš mācās, tā vietā lai skatītos televīziju."
+        },
+        {
+          "de": "Ich kaufe Brot, ohne Geld zu haben.",
+          "lv": "es pērku maizi, nav naudas."
+        }
+      ],
+      "comparisonTable": [
+        {
+          "lv": "tā vietā lai",
+          "de": "anstatt ... zu",
+          "meaning": "viena darbība aizstāj otru",
+          "describes": "alternatīva darbība",
+          "example": "Anstatt zu warten, rufe ich an.",
+          "translation": "tā vietā lai gaidītu, es zvanu."
+        },
+        {
+          "lv": "bez",
+          "de": "ohne ... zu",
+          "meaning": "darbība nenotiek",
+          "describes": "izlaista darbība",
+          "example": "Er ging, ohne sich zu verabschieden.",
+          "translation": "viņš aizgāja, neuzvadoties."
+        },
+        {
+          "lv": "infinitīvs",
+          "de": "... zu + Verb",
+          "meaning": "abiem nepieciešams zu",
+          "describes": "kopīga struktūra",
+          "example": "... ohne zu fragen.",
+          "translation": "... nejautājot."
+        },
+        {
+          "lv": "statt + zu",
+          "de": "anstatt / statt",
+          "meaning": "tā vietā",
+          "describes": "sinonīmi",
+          "example": "Statt zu warten, ...",
+          "translation": "tā vietā lai gaidītu, ..."
+        },
+        {
+          "lv": "ohne (A1)",
+          "de": "ohne + Akk.",
+          "meaning": "bez priekšmeta",
+          "describes": "vienkāršs prievārds",
+          "example": "Pizza ohne Käse.",
+          "translation": "pica bez siera."
+        },
+        {
+          "lv": "konteksts",
+          "de": "anstatt vs ohne",
+          "meaning": "aizstāšana vs izlaišana",
+          "describes": "nozīmes atšķirība",
+          "example": "Anstatt Auto: Rad. Ohne zu fragen: ging.",
+          "translation": "tā vietā: ritenis. bez jautāšanas: aizgāja."
+        }
+      ],
+      "importantComparison": [
+        "Anstatt zu warten, rufe ich an. = Tā vietā lai gaidītu, es zvanu.",
+        "Er ging, ohne sich zu verabschieden. = Viņš aizgāja, neuzvadoties.",
+        "anstatt = aizstāj; ohne zu = izlaiž darbību."
+      ],
+      "tip": {
+        "left": "Ja viena darbība notiek tā vietā, lai notiktu cita, lieto anstatt ... zu. Ja darbība vienkārši nenotiek, lieto ohne ... zu.",
+        "rightTitle": "ātri",
+        "rightItems": [
+          {
+            "de": "anstatt ... zu",
+            "lv": "tā vietā lai",
+            "separator": "="
+          },
+          {
+            "de": "ohne ... zu",
+            "lv": "bez",
+            "separator": "="
+          }
+        ]
+      },
+      "important": [
+        "Abi konstrukcijās otrais darbības vārds ir ar zu.",
+        "ohne + Akkusativ (bez siera) ≠ ohne ... zu (neko nedara).",
+        "anstatt un statt bieži ir aizvietojami."
+      ],
+      "mistakes": [
+        {
+          "wrong": "anstatt zu warten, ich rufe an",
+          "right": "Anstatt zu warten, rufe ich an."
+        },
+        {
+          "wrong": "ohne sich verabschieden",
+          "right": "ohne sich zu verabschieden"
+        }
+      ],
+      "remember": [
+        "anstatt ... zu = tā vietā lai.",
+        "ohne ... zu = bez (darbība nenotiek).",
+        "zu ir obligāts!"
+      ],
+      "sectionAccents": {
+        "lead": {
+          "blue": [
+            "anstatt",
+            "zu"
+          ],
+          "purple": [
+            "tā vietā lai"
+          ],
+          "red": [
+            "ohne",
+            "zu"
+          ],
+          "yellow": [
+            "bez"
+          ]
+        },
+        "comparisonCards": [
+          {
+            "lv": {
+              "purple": [
+                "tā vietā lai"
+              ]
+            },
+            "de": {
+              "blue": [
+                "anstatt",
+                "zu"
+              ]
+            },
+            "example": {
+              "blue": [
+                "anstatt",
+                "zu",
+                "fahren"
+              ],
+              "purple": [
+                "tā vietā",
+                "brauktu"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "bez"
+              ]
+            },
+            "de": {
+              "red": [
+                "ohne",
+                "zu"
+              ]
+            },
+            "example": {
+              "red": [
+                "ohne",
+                "zu",
+                "verabschieden"
+              ],
+              "purple": [
+                "neuzvadoties"
+              ]
+            }
+          }
+        ],
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "anstatt",
+                "zu",
+                "trinken"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tā vietā",
+                "dzertu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "red": [
+                "ohne",
+                "zu",
+                "verabschieden"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "neuzvadoties"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Anstatt",
+                "zu",
+                "warten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tā vietā",
+                "gaidītu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "red": [
+                "ohne",
+                "zu",
+                "kochen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nepagatavojot"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "anstatt",
+                "fernzusehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tā vietā",
+                "skatītos"
+              ]
+            }
+          },
+          {
+            "de": {
+              "red": [
+                "ohne",
+                "zu",
+                "haben"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nav",
+                "naudas"
+              ]
+            }
+          }
+        ],
+        "comparisonTable": [
+          {
+            "lv": {
+              "purple": [
+                "tā vietā lai"
+              ]
+            },
+            "de": {
+              "blue": [
+                "anstatt",
+                "zu"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Anstatt",
+                "zu",
+                "warten"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "tā vietā",
+                "gaidītu"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "bez"
+              ]
+            },
+            "de": {
+              "red": [
+                "ohne",
+                "zu"
+              ]
+            },
+            "example": {
+              "red": [
+                "ohne",
+                "zu",
+                "verabschieden"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "neuzvadoties"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "zu"
+              ]
+            },
+            "de": {
+              "blue": [
+                "zu",
+                "Verb"
+              ]
+            },
+            "example": {
+              "blue": [
+                "zu",
+                "fragen"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "nejautājot"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "statt"
+              ]
+            },
+            "de": {
+              "blue": [
+                "statt",
+                "zu"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Statt",
+                "zu",
+                "warten"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "tā vietā"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "bez siera"
+              ]
+            },
+            "de": {
+              "yellow": [
+                "ohne",
+                "Käse"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "ohne",
+                "Käse"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "bez",
+                "siera"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "aizstāšana"
+              ]
+            },
+            "de": {
+              "blue": [
+                "anstatt"
+              ],
+              "red": [
+                "ohne"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Rad"
+              ],
+              "red": [
+                "ging"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "ritenis",
+                "aizgāja"
+              ]
+            }
+          }
+        ],
+        "importantComparison": [
+          {
+            "blue": [
+              "Anstatt",
+              "zu",
+              "warten"
+            ],
+            "purple": [
+              "tā vietā",
+              "gaidītu"
+            ]
+          },
+          {
+            "red": [
+              "ohne",
+              "zu",
+              "verabschieden"
+            ],
+            "purple": [
+              "neuzvadoties"
+            ]
+          },
+          {
+            "blue": [
+              "aizstāj"
+            ],
+            "red": [
+              "izlaiž"
+            ]
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "anstatt"
+            ],
+            "red": [
+              "ohne",
+              "zu"
+            ]
+          },
+          "rightItems": [
+            {
+              "de": {
+                "blue": [
+                  "anstatt",
+                  "zu"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "tā vietā lai"
+                ]
+              }
+            },
+            {
+              "de": {
+                "red": [
+                  "ohne",
+                  "zu"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "bez"
+                ]
+              }
+            }
+          ]
+        },
+        "important": [
+          {
+            "blue": [
+              "anstatt",
+              "zu"
+            ],
+            "red": [
+              "ohne",
+              "zu"
+            ]
+          },
+          {
+            "yellow": [
+              "ohne",
+              "Käse"
+            ],
+            "red": [
+              "ohne",
+              "zu"
+            ]
+          },
+          {
+            "blue": [
+              "anstatt",
+              "statt"
+            ]
+          }
+        ],
+        "mistakes": [
+          {
+            "wrong": {
+              "red": [
+                "ohne sich verabschieden"
+              ]
+            },
+            "right": {
+              "red": [
+                "ohne sich zu verabschieden"
+              ]
+            }
+          },
+          {
+            "wrong": {
+              "blue": [
+                "anstatt zu warten, ich rufe"
+              ]
+            },
+            "right": {
+              "blue": [
+                "Anstatt zu warten, rufe ich"
+              ]
+            }
+          }
+        ],
+        "remember": [
+          {
+            "blue": [
+              "anstatt ... zu"
+            ],
+            "purple": [
+              "tā vietā lai"
+            ]
+          },
+          {
+            "red": [
+              "ohne ... zu"
+            ],
+            "purple": [
+              "bez"
+            ]
+          },
+          {
+            "blue": [
+              "zu"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "sich bedanken",
+    "lv": "pateikties",
+    "level": "B1"
+  },
+  {
+    "de": "sich beeilen",
+    "lv": "steigties",
+    "level": "B1"
+  },
+  {
+    "de": "sich befinden",
+    "lv": "atrasties",
+    "level": "B1"
+  },
+  {
+    "de": "sich bewerben",
+    "lv": "pieteikties",
+    "level": "B1"
+  },
+  {
+    "de": "sich entschließen",
+    "lv": "nolemties",
+    "level": "B1"
+  },
+  {
+    "de": "sich entschuldigen",
+    "lv": "atvainoties",
+    "level": "B1"
+  },
+  {
+    "de": "sich ereignen",
+    "lv": "gadīties",
+    "level": "B1"
+  },
+  {
+    "de": "sich erholen",
+    "lv": "atpūsties",
+    "level": "B1"
+  },
+  {
+    "de": "sich erkälten",
+    "lv": "saķerties",
+    "level": "B1"
+  },
+  {
+    "de": "sich freuen",
+    "lv": "priecāties",
+    "level": "B1"
+  },
+  {
+    "de": "sich konzentrieren",
+    "lv": "koncentrēties",
+    "level": "B1"
+  },
+  {
+    "de": "sich langweilen",
+    "lv": "garlaikoties",
+    "level": "B1"
+  },
+  {
+    "de": "sich scheiden",
+    "lv": "šķirties",
+    "level": "B1"
+  },
+  {
+    "de": "sich umziehen",
+    "lv": "pārcelties",
+    "level": "B1"
+  },
+  {
+    "de": "sich vergnügen",
+    "lv": "izklaidēties",
+    "level": "B1"
+  },
+  {
+    "de": "sich verlieben",
+    "lv": "iemīlēties",
+    "level": "B1"
+  },
+  {
+    "de": "sich wundern",
+    "lv": "brīnīties",
+    "level": "B1"
+  },
+  {
+    "de": "der Erbe • das Erbe",
+    "lv": "Mantinieks • Mantojums",
+    "level": "B1",
+    "study": {
+      "id": "compare-der-erbe-das-erbe",
+      "layout": "comparisonStudy",
+      "title": "Mantinieks • Mantojums",
+      "subtitle": "der Erbe • das Erbe",
+      "lead": "der Erbe ir cilvēks; das Erbe ir lieta — mantojums. Artikuls maina nozīmi.",
+      "explanation": "der Erbe nozīmē mantinieku — personu, kas saņem mantojumu. das Erbe nozīmē pašu mantojumu kā lietu vai vērtību. Vācu valodā dzimte nosaka, vai runa ir par cilvēku vai par mantojumu.",
+      "words": [
+        {
+          "icon": "👤",
+          "lv": "mantinieks",
+          "de": "der Erbe",
+          "description": "Cilvēks, kas mantojumā saņem īpašumu vai naudu.",
+          "example": "Er ist der Erbe seines Onkels. = Viņš ir savas onkļa mantinieks."
+        },
+        {
+          "icon": "📜",
+          "lv": "mantojums",
+          "de": "das Erbe",
+          "description": "Mantojums kā lieta, īpašums vai vērtība, ko atstāj.",
+          "example": "Das Erbe ist sehr groß. = Mantojums ir ļoti liels."
+        }
+      ],
+      "examples": [
+        {
+          "de": "Er ist der Erbe seines Onkels.",
+          "lv": "viņš ir savas onkļa mantinieks."
+        },
+        {
+          "de": "Die Erbin lebt in Berlin.",
+          "lv": "mantiniece dzīvo Berlīnē."
+        },
+        {
+          "de": "Das Erbe besteht aus einem Haus.",
+          "lv": "mantojums sastāv no mājas."
+        },
+        {
+          "de": "Sie hat ein großes Erbe bekommen.",
+          "lv": "viņa saņēma lielu mantojumu."
+        },
+        {
+          "de": "Wer ist der Erbe?",
+          "lv": "kas ir mantinieks?"
+        },
+        {
+          "de": "Das Erbe wird geteilt.",
+          "lv": "mantojums tiek sadalīts."
+        }
+      ],
+      "comparisonTable": [
+        {
+          "lv": "mantinieks",
+          "de": "der Erbe",
+          "meaning": "cilvēks",
+          "describes": "vīriešu dzimte",
+          "example": "Er ist der Erbe.",
+          "translation": "viņš ir mantinieks."
+        },
+        {
+          "lv": "mantiniece",
+          "de": "die Erbin",
+          "meaning": "cilvēks",
+          "describes": "sieviešu dzimte",
+          "example": "Sie ist die Erbin.",
+          "translation": "viņa ir mantiniece."
+        },
+        {
+          "lv": "mantojums",
+          "de": "das Erbe",
+          "meaning": "lieta / vērtība",
+          "describes": "neitrālā dzimte",
+          "example": "Das Erbe ist groß.",
+          "translation": "mantojums ir liels."
+        },
+        {
+          "lv": "saņemt",
+          "de": "Erbe bekommen",
+          "meaning": "mantojumu saņemt",
+          "describes": "das Erbe kontekstā",
+          "example": "Sie hat ein Erbe bekommen.",
+          "translation": "viņa saņēma mantojumu."
+        },
+        {
+          "lv": "mantot",
+          "de": "erben",
+          "meaning": "saņemt mantojumā",
+          "describes": "darbības vārds",
+          "example": "Er erbt das Haus.",
+          "translation": "viņš manto māju."
+        },
+        {
+          "lv": "artikuls",
+          "de": "der vs das",
+          "meaning": "cilvēks vs lieta",
+          "describes": "galvenā atšķirība",
+          "example": "der Erbe / das Erbe",
+          "translation": "mantinieks / mantojums"
+        }
+      ],
+      "importantComparison": [
+        "Er ist der Erbe. = Viņš ir mantinieks.",
+        "Das Erbe ist groß. = Mantojums ir liels.",
+        "der Erbe = cilvēks; das Erbe = mantojums."
+      ],
+      "tip": {
+        "left": "Ja runa ir par cilvēku, lieto der Erbe vai die Erbin. Ja par mantojumu kā lietu, lieto das Erbe.",
+        "rightTitle": "ātri",
+        "rightItems": [
+          {
+            "de": "der Erbe",
+            "lv": "mantinieks",
+            "separator": "="
+          },
+          {
+            "de": "das Erbe",
+            "lv": "mantojums",
+            "separator": "="
+          }
+        ]
+      },
+      "important": [
+        "der Erbe = cilvēks (mantinieks).",
+        "das Erbe = lieta (mantojums).",
+        "Nejauc: der Erbe ist groß (cilvēks) vs das Erbe ist groß (mantojums)."
+      ],
+      "mistakes": [
+        {
+          "wrong": "das Erbe wohnt in Berlin",
+          "right": "der Erbe wohnt in Berlin"
+        },
+        {
+          "wrong": "der Erbe besteht aus Geld",
+          "right": "das Erbe besteht aus Geld"
+        }
+      ],
+      "remember": [
+        "der Erbe = cilvēks.",
+        "das Erbe = mantojums."
+      ],
+      "sectionAccents": {
+        "lead": {
+          "blue": [
+            "der Erbe"
+          ],
+          "green": [
+            "das Erbe"
+          ],
+          "purple": [
+            "cilvēks",
+            "mantojums"
+          ]
+        },
+        "comparisonCards": [
+          {
+            "lv": {
+              "purple": [
+                "mantinieks"
+              ]
+            },
+            "de": {
+              "blue": [
+                "der Erbe",
+                "Erbe"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Erbe"
+              ],
+              "purple": [
+                "mantinieks"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "mantojums"
+              ]
+            },
+            "de": {
+              "green": [
+                "das Erbe",
+                "Erbe"
+              ]
+            },
+            "example": {
+              "green": [
+                "Erbe"
+              ],
+              "purple": [
+                "mantojums"
+              ]
+            }
+          }
+        ],
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Erbe",
+                "Onkels"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mantinieks"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Erbin"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mantiniece"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Erbe",
+                "Haus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mantojums",
+                "mājas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Erbe",
+                "bekommen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mantojumu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Erbe"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mantinieks"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Erbe",
+                "geteilt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mantojums",
+                "sadalīts"
+              ]
+            }
+          }
+        ],
+        "comparisonTable": [
+          {
+            "lv": {
+              "purple": [
+                "mantinieks"
+              ]
+            },
+            "de": {
+              "blue": [
+                "der Erbe"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Erbe"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "mantinieks"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "mantiniece"
+              ]
+            },
+            "de": {
+              "blue": [
+                "die Erbin"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Erbin"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "mantiniece"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "mantojums"
+              ]
+            },
+            "de": {
+              "green": [
+                "das Erbe"
+              ]
+            },
+            "example": {
+              "green": [
+                "Erbe"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "mantojums"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "saņemt"
+              ]
+            },
+            "de": {
+              "green": [
+                "Erbe",
+                "bekommen"
+              ]
+            },
+            "example": {
+              "green": [
+                "Erbe"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "mantojumu"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "mantot"
+              ]
+            },
+            "de": {
+              "blue": [
+                "erbt"
+              ]
+            },
+            "example": {
+              "blue": [
+                "erbt"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "manto"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "artikuls"
+              ]
+            },
+            "de": {
+              "blue": [
+                "der"
+              ],
+              "green": [
+                "das"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Erbe"
+              ],
+              "green": [
+                "Erbe"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "mantinieks",
+                "mantojums"
+              ]
+            }
+          }
+        ],
+        "importantComparison": [
+          {
+            "blue": [
+              "der Erbe"
+            ],
+            "purple": [
+              "mantinieks"
+            ]
+          },
+          {
+            "green": [
+              "das Erbe"
+            ],
+            "purple": [
+              "mantojums"
+            ]
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "der Erbe"
+            ],
+            "green": [
+              "das Erbe"
+            ]
+          },
+          "rightItems": [
+            {
+              "de": {
+                "blue": [
+                  "der Erbe"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "mantinieks"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "das Erbe"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "mantojums"
+                ]
+              }
+            }
+          ]
+        },
+        "important": [
+          {
+            "blue": [
+              "der Erbe"
+            ],
+            "purple": [
+              "mantinieks"
+            ]
+          },
+          {
+            "green": [
+              "das Erbe"
+            ],
+            "purple": [
+              "mantojums"
+            ]
+          }
+        ],
+        "mistakes": [
+          {
+            "wrong": {
+              "green": [
+                "das Erbe",
+                "wohnt"
+              ]
+            },
+            "right": {
+              "blue": [
+                "der Erbe",
+                "wohnt"
+              ]
+            }
+          },
+          {
+            "wrong": {
+              "blue": [
+                "der Erbe",
+                "besteht"
+              ]
+            },
+            "right": {
+              "green": [
+                "das Erbe",
+                "besteht"
+              ]
+            }
+          }
+        ],
+        "remember": [
+          {
+            "blue": [
+              "der Erbe"
+            ]
+          },
+          {
+            "green": [
+              "das Erbe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "der Schaden • schaden",
+    "lv": "Zaudējums • Kaitēt",
+    "level": "B1",
+    "study": {
+      "id": "compare-schaden-schaden",
+      "layout": "comparisonStudy",
+      "title": "Zaudējums • Kaitēt",
+      "subtitle": "der Schaden • schaden",
+      "lead": "der Schaden ir lietvārds (zaudējums); schaden ir darbības vārds (kaitēt) un prasa Dativ.",
+      "explanation": "der Schaden nozīmē zaudējumu, bojājumu vai kaitējumu. schaden nozīmē kaitēt, nodarīt kaitējumu. Darbības vārdam schaden obligāti jābūt Dativam: etwas schadet jemandem / der Gesundheit.",
+      "words": [
+        {
+          "icon": "💥",
+          "lv": "zaudējums • bojājums",
+          "de": "der Schaden",
+          "description": "Lietvārds — materiāls, veselības vai citāds kaitējums.",
+          "example": "Am Auto ist ein Schaden. = Automašīnai ir bojājums."
+        },
+        {
+          "icon": "⚠",
+          "lv": "kaitēt",
+          "de": "schaden",
+          "description": "Darbības vārds — nodarīt kaitējumu. Prasa Dativ: jemandem schaden.",
+          "example": "Rauchen schadet der Gesundheit. = Smēķēšana kaitē veselībai."
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Sturm verursachte großen Schaden.",
+          "lv": "vētra radīja lielus zaudējumus."
+        },
+        {
+          "de": "Am Auto ist ein Schaden.",
+          "lv": "automašīnai ir bojājums."
+        },
+        {
+          "de": "Rauchen schadet der Gesundheit.",
+          "lv": "smēķēšana kaitē veselībai."
+        },
+        {
+          "de": "Das schadet dir nicht.",
+          "lv": "tas tev nekaitē."
+        },
+        {
+          "de": "Wer zahlt den Schaden?",
+          "lv": "kas maksā par zaudējumu?"
+        },
+        {
+          "de": "Zu viel Sonne schadet der Haut.",
+          "lv": "par daudz saules kaitē ādai."
+        }
+      ],
+      "comparisonTable": [
+        {
+          "lv": "zaudējums",
+          "de": "der Schaden",
+          "meaning": "kaitējums kā lieta",
+          "describes": "lietvārds (der)",
+          "example": "Der Schaden ist groß.",
+          "translation": "zaudējums ir liels."
+        },
+        {
+          "lv": "kaitēt",
+          "de": "schaden",
+          "meaning": "nodarīt kaitējumu",
+          "describes": "darbības vārds",
+          "example": "Das schadet der Gesundheit.",
+          "translation": "tas kaitē veselībai."
+        },
+        {
+          "lv": "Dativ",
+          "de": "jemandem schaden",
+          "meaning": "kam kaitē",
+          "describes": "obligāts Dativ",
+          "example": "Es schadet dir.",
+          "translation": "tas tev kaitē."
+        },
+        {
+          "lv": "veselība",
+          "de": "der Gesundheit schaden",
+          "meaning": "kaitēt veselībai",
+          "describes": "Dativ formā",
+          "example": "Rauchen schadet der Gesundheit.",
+          "translation": "smēķēšana kaitē veselībai."
+        },
+        {
+          "lv": "atlīdzināt",
+          "de": "Schaden ersetzen",
+          "meaning": "atlīdzināt zaudējumu",
+          "describes": "der Schaden frāzē",
+          "example": "Die Versicherung ersetzt den Schaden.",
+          "translation": "apdrošināšana atlīdzina zaudējumu."
+        },
+        {
+          "lv": "nevis Verletzung",
+          "de": "Schaden vs Verletzung",
+          "meaning": "bojājums vs ievainojums",
+          "describes": "nozīmes atšķirība",
+          "example": "Der Schaden am Auto.",
+          "translation": "bojājums uz auto."
+        }
+      ],
+      "importantComparison": [
+        "Der Schaden ist groß. = Zaudējums ir liels.",
+        "Rauchen schadet der Gesundheit. = Smēķēšana kaitē veselībai.",
+        "schaden vienmēr ar Dativ: der Gesundheit, dir, mir."
+      ],
+      "tip": {
+        "left": "Ja runa par bojājumu vai zaudējumu kā lietu, lieto der Schaden. Ja par kaitēšanu, lieto schaden + Dativ.",
+        "rightTitle": "Dativ",
+        "rightItems": [
+          {
+            "de": "der Gesundheit schaden",
+            "lv": "kaitēt veselībai",
+            "separator": "="
+          },
+          {
+            "de": "dir schaden",
+            "lv": "tevi kaitēt",
+            "separator": "="
+          }
+        ]
+      },
+      "important": [
+        "der Schaden = lietvārds (zaudējums).",
+        "schaden = darbības vārds (kaitēt) + Dativ.",
+        "schadet der Gesundheit — nevis *schadet die Gesundheit."
+      ],
+      "mistakes": [
+        {
+          "wrong": "Rauchen schadet die Gesundheit.",
+          "right": "Rauchen schadet der Gesundheit."
+        },
+        {
+          "wrong": "Der Schaden schadet",
+          "right": "Etwas schadet der Gesundheit."
+        }
+      ],
+      "remember": [
+        "der Schaden = zaudējums.",
+        "schaden + Dativ = kaitēt."
+      ],
+      "sectionAccents": {
+        "lead": {
+          "blue": [
+            "der Schaden"
+          ],
+          "purple": [
+            "zaudējums"
+          ],
+          "red": [
+            "schaden"
+          ],
+          "yellow": [
+            "Dativ"
+          ]
+        },
+        "comparisonCards": [
+          {
+            "lv": {
+              "purple": [
+                "zaudējums"
+              ]
+            },
+            "de": {
+              "blue": [
+                "der Schaden",
+                "Schaden"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Schaden"
+              ],
+              "purple": [
+                "bojājums"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "kaitēt"
+              ]
+            },
+            "de": {
+              "red": [
+                "schaden",
+                "schadet"
+              ]
+            },
+            "example": {
+              "red": [
+                "schadet"
+              ],
+              "yellow": [
+                "Gesundheit"
+              ],
+              "purple": [
+                "kaitē"
+              ]
+            }
+          }
+        ],
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Schaden"
+              ],
+              "yellow": [
+                "Sturm"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zaudējumus"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Schaden"
+              ],
+              "yellow": [
+                "Auto"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "bojājums"
+              ]
+            }
+          },
+          {
+            "de": {
+              "red": [
+                "schadet"
+              ],
+              "yellow": [
+                "Gesundheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kaitē"
+              ]
+            }
+          },
+          {
+            "de": {
+              "red": [
+                "schadet"
+              ],
+              "green": [
+                "dir"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nekaitē"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Schaden"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zaudējumu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "red": [
+                "schadet"
+              ],
+              "yellow": [
+                "Haut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kaitē",
+                "ādai"
+              ]
+            }
+          }
+        ],
+        "comparisonTable": [
+          {
+            "lv": {
+              "purple": [
+                "zaudējums"
+              ]
+            },
+            "de": {
+              "blue": [
+                "der Schaden"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Schaden"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "zaudējums"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "kaitēt"
+              ]
+            },
+            "de": {
+              "red": [
+                "schaden"
+              ]
+            },
+            "example": {
+              "red": [
+                "schadet"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "kaitē"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "Dativ"
+              ]
+            },
+            "de": {
+              "yellow": [
+                "jemandem",
+                "schaden"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "dir"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "tev"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "veselība"
+              ]
+            },
+            "de": {
+              "red": [
+                "schadet"
+              ],
+              "yellow": [
+                "Gesundheit"
+              ]
+            },
+            "example": {
+              "red": [
+                "schadet"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "kaitē"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "atlīdzināt"
+              ]
+            },
+            "de": {
+              "blue": [
+                "Schaden",
+                "ersetzen"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Schaden"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "zaudējumu"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "ievainojums"
+              ]
+            },
+            "de": {
+              "blue": [
+                "Schaden"
+              ],
+              "red": [
+                "Verletzung"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Schaden"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "bojājums"
+              ]
+            }
+          }
+        ],
+        "importantComparison": [
+          {
+            "blue": [
+              "Schaden"
+            ],
+            "purple": [
+              "zaudējums"
+            ]
+          },
+          {
+            "red": [
+              "schadet"
+            ],
+            "yellow": [
+              "Gesundheit"
+            ],
+            "purple": [
+              "kaitē"
+            ]
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "der Schaden"
+            ],
+            "red": [
+              "schaden"
+            ]
+          },
+          "rightItems": [
+            {
+              "de": {
+                "red": [
+                  "schadet"
+                ],
+                "yellow": [
+                  "Gesundheit"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "kaitēt",
+                  "veselībai"
+                ]
+              }
+            },
+            {
+              "de": {
+                "red": [
+                  "schadet"
+                ],
+                "green": [
+                  "dir"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "tevi",
+                  "kaitēt"
+                ]
+              }
+            }
+          ]
+        },
+        "important": [
+          {
+            "blue": [
+              "der Schaden"
+            ]
+          },
+          {
+            "red": [
+              "schaden"
+            ],
+            "yellow": [
+              "Dativ"
+            ]
+          },
+          {
+            "red": [
+              "schadet"
+            ],
+            "yellow": [
+              "der Gesundheit"
+            ]
+          }
+        ],
+        "mistakes": [
+          {
+            "wrong": {
+              "red": [
+                "schadet"
+              ],
+              "blue": [
+                "die Gesundheit"
+              ]
+            },
+            "right": {
+              "red": [
+                "schadet"
+              ],
+              "yellow": [
+                "der Gesundheit"
+              ]
+            }
+          }
+        ],
+        "remember": [
+          {
+            "blue": [
+              "der Schaden"
+            ]
+          },
+          {
+            "red": [
+              "schaden",
+              "Dativ"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "das Vertrauen • vertrauen",
+    "lv": "Uzticība • Uzticēties",
+    "level": "B1",
+    "study": {
+      "id": "compare-vertrauen-vertrauen",
+      "layout": "comparisonStudy",
+      "title": "Uzticība • Uzticēties",
+      "subtitle": "das Vertrauen • vertrauen",
+      "lead": "das Vertrauen ir lietvārds (uzticība); vertrauen ir darbības vārds (uzticēties) un prasa Dativ.",
+      "explanation": "das Vertrauen nozīmē uzticību kā jūtu vai attiecību stāvokli. vertrauen nozīmē uzticēties kādam. Darbības vārdam vertrauen obligāti jābūt Dativam: jemandem vertrauen.",
+      "words": [
+        {
+          "icon": "🤝",
+          "lv": "uzticība",
+          "de": "das Vertrauen",
+          "description": "Lietvārds — uzticība, ticība kā jūta.",
+          "example": "Ich habe großes Vertrauen zu dir. = Man ir liela uzticība tev."
+        },
+        {
+          "icon": "💙",
+          "lv": "uzticēties",
+          "de": "vertrauen",
+          "description": "Darbības vārds — uzticēties kādam. Prasa Dativ: jemandem vertrauen.",
+          "example": "Ich vertraue dir. = Es tev uzticos."
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ich habe Vertrauen zu meinem Arzt.",
+          "lv": "man ir uzticība savam ārstam."
+        },
+        {
+          "de": "Ich vertraue dir vollkommen.",
+          "lv": "es tev pilnīgi uzticos."
+        },
+        {
+          "de": "Das Vertrauen ist wichtig.",
+          "lv": "uzticība ir svarīga."
+        },
+        {
+          "de": "Kann ich dir vertrauen?",
+          "lv": "vai es varu tev uzticēties?"
+        },
+        {
+          "de": "Er hat mein Vertrauen verloren.",
+          "lv": "viņš zaudēja manu uzticību."
+        },
+        {
+          "de": "Wir vertrauen unserem Lehrer.",
+          "lv": "mēs uzticamies savam skolotājam."
+        }
+      ],
+      "comparisonTable": [
+        {
+          "lv": "uzticība",
+          "de": "das Vertrauen",
+          "meaning": "jūta / attiecība",
+          "describes": "lietvārds (das)",
+          "example": "Das Vertrauen ist wichtig.",
+          "translation": "uzticība ir svarīga."
+        },
+        {
+          "lv": "uzticēties",
+          "de": "vertrauen",
+          "meaning": "ticēt kādam",
+          "describes": "darbības vārds",
+          "example": "Ich vertraue dir.",
+          "translation": "es tev uzticos."
+        },
+        {
+          "lv": "Dativ",
+          "de": "jemandem vertrauen",
+          "meaning": "kam uzticas",
+          "describes": "obligāts Dativ",
+          "example": "Ich vertraue meinem Freund.",
+          "translation": "es uzticos savam draugam."
+        },
+        {
+          "lv": "uzticēšanās",
+          "de": "Vertrauen haben",
+          "meaning": "būt uzticībai",
+          "describes": "das Vertrauen frāzē",
+          "example": "Ich habe Vertrauen zu dir.",
+          "translation": "man ir uzticība tev."
+        },
+        {
+          "lv": "zaudēt",
+          "de": "Vertrauen verlieren",
+          "meaning": "zaudēt uzticību",
+          "describes": "das Vertrauen kontekstā",
+          "example": "Er hat mein Vertrauen verloren.",
+          "translation": "viņš zaudēja manu uzticību."
+        },
+        {
+          "lv": "prievārds zu",
+          "de": "Vertrauen zu",
+          "meaning": "uzticība pret",
+          "describes": "lietvārda konstrukcija",
+          "example": "Vertrauen zu jemandem.",
+          "translation": "uzticība pret kādu."
+        }
+      ],
+      "importantComparison": [
+        "Ich vertraue dir. = Es tev uzticos.",
+        "Ich habe Vertrauen zu dir. = Man ir uzticība tev.",
+        "vertrauen + Dativ: dir, meinem Arzt, unserem Lehrer."
+      ],
+      "tip": {
+        "left": "Ja runa par uzticību kā jūtu, lieto das Vertrauen. Ja par darbību — uzticēties, lieto vertrauen + Dativ.",
+        "rightTitle": "Dativ",
+        "rightItems": [
+          {
+            "de": "ich vertraue dir",
+            "lv": "es tev uzticos",
+            "separator": "="
+          },
+          {
+            "de": "meinem Arzt vertrauen",
+            "lv": "uzticēties ārstam",
+            "separator": "="
+          }
+        ]
+      },
+      "important": [
+        "das Vertrauen = lietvārds (uzticība).",
+        "vertrauen = darbības vārds (uzticēties) + Dativ.",
+        "Ich vertraue dich — nepareizi; pareizi: Ich vertraue dir."
+      ],
+      "mistakes": [
+        {
+          "wrong": "Ich vertraue dich.",
+          "right": "Ich vertraue dir."
+        },
+        {
+          "wrong": "Ich habe Vertrauen in dich.",
+          "right": "Ich habe Vertrauen zu dir."
+        }
+      ],
+      "remember": [
+        "das Vertrauen = uzticība.",
+        "vertrauen + Dativ = uzticēties."
+      ],
+      "sectionAccents": {
+        "lead": {
+          "green": [
+            "das Vertrauen"
+          ],
+          "purple": [
+            "uzticība"
+          ],
+          "blue": [
+            "vertrauen"
+          ],
+          "yellow": [
+            "Dativ"
+          ]
+        },
+        "comparisonCards": [
+          {
+            "lv": {
+              "purple": [
+                "uzticība"
+              ]
+            },
+            "de": {
+              "green": [
+                "das Vertrauen",
+                "Vertrauen"
+              ]
+            },
+            "example": {
+              "green": [
+                "Vertrauen"
+              ],
+              "purple": [
+                "uzticība"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "uzticēties"
+              ]
+            },
+            "de": {
+              "blue": [
+                "vertrauen",
+                "vertraue"
+              ]
+            },
+            "example": {
+              "blue": [
+                "vertraue",
+                "dir"
+              ],
+              "purple": [
+                "uzticos"
+              ]
+            }
+          }
+        ],
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "Vertrauen"
+              ],
+              "blue": [
+                "Arzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "uzticība"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "vertraue",
+                "dir"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "uzticos"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Vertrauen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "uzticība"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "vertrauen",
+                "dir"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "uzticēties"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Vertrauen",
+                "verloren"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "uzticību"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "vertrauen"
+              ],
+              "green": [
+                "Lehrer"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "uzticamies"
+              ]
+            }
+          }
+        ],
+        "comparisonTable": [
+          {
+            "lv": {
+              "purple": [
+                "uzticība"
+              ]
+            },
+            "de": {
+              "green": [
+                "das Vertrauen"
+              ]
+            },
+            "example": {
+              "green": [
+                "Vertrauen"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "uzticība"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "uzticēties"
+              ]
+            },
+            "de": {
+              "blue": [
+                "vertrauen"
+              ]
+            },
+            "example": {
+              "blue": [
+                "vertraue",
+                "dir"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "uzticos"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "Dativ"
+              ]
+            },
+            "de": {
+              "blue": [
+                "vertrauen"
+              ],
+              "yellow": [
+                "meinem Freund"
+              ]
+            },
+            "example": {
+              "blue": [
+                "vertraue"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "uzticos"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "uzticēšanās"
+              ]
+            },
+            "de": {
+              "green": [
+                "Vertrauen",
+                "haben"
+              ]
+            },
+            "example": {
+              "green": [
+                "Vertrauen"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "uzticība"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "zaudēt"
+              ]
+            },
+            "de": {
+              "green": [
+                "Vertrauen",
+                "verloren"
+              ]
+            },
+            "example": {
+              "green": [
+                "Vertrauen"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "uzticību"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "pret"
+              ]
+            },
+            "de": {
+              "green": [
+                "Vertrauen",
+                "zu"
+              ]
+            },
+            "example": {
+              "green": [
+                "zu"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "pret"
+              ]
+            }
+          }
+        ],
+        "importantComparison": [
+          {
+            "blue": [
+              "vertraue",
+              "dir"
+            ],
+            "purple": [
+              "uzticos"
+            ]
+          },
+          {
+            "green": [
+              "Vertrauen"
+            ],
+            "purple": [
+              "uzticība"
+            ]
+          }
+        ],
+        "tip": {
+          "left": {
+            "green": [
+              "das Vertrauen"
+            ],
+            "blue": [
+              "vertrauen"
+            ]
+          },
+          "rightItems": [
+            {
+              "de": {
+                "blue": [
+                  "vertraue",
+                  "dir"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "uzticos"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "vertrauen"
+                ],
+                "yellow": [
+                  "Arzt"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "ārstam"
+                ]
+              }
+            }
+          ]
+        },
+        "important": [
+          {
+            "green": [
+              "das Vertrauen"
+            ]
+          },
+          {
+            "blue": [
+              "vertrauen"
+            ],
+            "yellow": [
+              "Dativ"
+            ]
+          },
+          {
+            "red": [
+              "vertraue dich"
+            ],
+            "green": [
+              "vertraue dir"
+            ]
+          }
+        ],
+        "mistakes": [
+          {
+            "wrong": {
+              "red": [
+                "vertraue dich"
+              ]
+            },
+            "right": {
+              "blue": [
+                "vertraue dir"
+              ]
+            }
+          }
+        ],
+        "remember": [
+          {
+            "green": [
+              "das Vertrauen"
+            ]
+          },
+          {
+            "blue": [
+              "vertrauen",
+              "Dativ"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "der Trotz • trotz",
+    "lv": "Spīts • Neraugoties uz",
+    "level": "B1",
+    "study": {
+      "id": "compare-trotz-der-trotz",
+      "layout": "comparisonStudy",
+      "title": "Spīts • Neraugoties uz",
+      "subtitle": "der Trotz • trotz",
+      "lead": "der Trotz ir lietvārds (spīts); trotz ir prievārds (neraugoties uz) un prasa Genitiv.",
+      "explanation": "der Trotz nozīmē spītu vai spītību kā īpašību. trotz ir prievārds un nozīmē neraugoties uz kaut ko. Prievārdam trotz obligāti jābūt ģenitīvam: trotz des Regens, trotz des Wetters.",
+      "words": [
+        {
+          "icon": "😤",
+          "lv": "spīts • spītība",
+          "de": "der Trotz",
+          "description": "Lietvārds — spīts, spītīga attieksme.",
+          "example": "Er macht es aus Trotz. = Viņš to dara spīta pēc."
+        },
+        {
+          "icon": "☔",
+          "lv": "neraugoties uz",
+          "de": "trotz",
+          "description": "Prievārds — neraugoties uz. Prasa Genitiv: trotz + Genitiv.",
+          "example": "Trotz des Regens gehen wir spazieren. = Neraugoties uz lietu, mēs ejam pastaigā."
+        }
+      ],
+      "examples": [
+        {
+          "de": "Trotz des Regens gehen wir spazieren.",
+          "lv": "neraugoties uz lietu, mēs ejam pastaigā."
+        },
+        {
+          "de": "Er macht es aus Trotz.",
+          "lv": "viņš to dara spīta pēc."
+        },
+        {
+          "de": "Trotz des schlechten Wetters fahren wir.",
+          "lv": "neraugoties uz slikto laiku, mēs braucam."
+        },
+        {
+          "de": "Sie hat viel Trotz.",
+          "lv": "viņai ir daudz spīta."
+        },
+        {
+          "de": "Trotz der Krankheit kommt er.",
+          "lv": "neraugoties uz slimību, viņš nāk."
+        },
+        {
+          "de": "Aus Trotz hat er Nein gesagt.",
+          "lv": "spīta dēļ viņš teica nē."
+        }
+      ],
+      "comparisonTable": [
+        {
+          "lv": "spīts",
+          "de": "der Trotz",
+          "meaning": "spītīga attieksme",
+          "describes": "lietvārds (der)",
+          "example": "Er macht es aus Trotz.",
+          "translation": "viņš to dara spīta pēc."
+        },
+        {
+          "lv": "neraugoties uz",
+          "de": "trotz",
+          "meaning": "neskatoties uz",
+          "describes": "prievārds",
+          "example": "Trotz des Regens gehen wir.",
+          "translation": "neraugoties uz lietu, ejam."
+        },
+        {
+          "lv": "ģenitīvs",
+          "de": "trotz des Regens",
+          "meaning": "neraugoties uz lietu",
+          "describes": "obligāts Genitiv",
+          "example": "Trotz des Regens.",
+          "translation": "neraugoties uz lietu."
+        },
+        {
+          "lv": "laiks",
+          "de": "trotz des Wetters",
+          "meaning": "neraugoties uz laiku",
+          "describes": "Genitiv formā",
+          "example": "Trotz des schlechten Wetters.",
+          "translation": "neraugoties uz slikto laiku."
+        },
+        {
+          "lv": "spīta dēļ",
+          "de": "aus Trotz",
+          "meaning": "spīta pēc",
+          "describes": "der Trotz frāzē",
+          "example": "Aus Trotz sagte er Nein.",
+          "translation": "spīta dēļ viņš teica nē."
+        },
+        {
+          "lv": "nevis trotzdem",
+          "de": "trotz vs trotzdem",
+          "meaning": "prievārds vs apstākļa vārds",
+          "describes": "cita vārdšķira",
+          "example": "Trotz des Regens / Es regnet. Trotzdem gehen wir.",
+          "translation": "neraugoties uz lietu / līst. tomēr ejam."
+        }
+      ],
+      "importantComparison": [
+        "Trotz des Regens gehen wir. = Neraugoties uz lietu, mēs ejam.",
+        "Er macht es aus Trotz. = Viņš to dara spīta pēc.",
+        "trotz + Genitiv: des Regens, des Wetters, der Krankheit."
+      ],
+      "tip": {
+        "left": "Ja runa par spītu kā īpašību, lieto der Trotz. Ja par neskatīšanos uz šķērsli, lieto trotz + Genitiv.",
+        "rightTitle": "Genitiv",
+        "rightItems": [
+          {
+            "de": "trotz des Regens",
+            "lv": "neraugoties uz lietu",
+            "separator": "="
+          },
+          {
+            "de": "trotz der Krankheit",
+            "lv": "neraugoties uz slimību",
+            "separator": "="
+          }
+        ]
+      },
+      "important": [
+        "der Trotz = lietvārds (spīts).",
+        "trotz = prievārds (neraugoties uz) + Genitiv.",
+        "trotz dem Regen — nepareizi; pareizi: trotz des Regens."
+      ],
+      "mistakes": [
+        {
+          "wrong": "Trotz dem Regen gehen wir.",
+          "right": "Trotz des Regens gehen wir."
+        },
+        {
+          "wrong": "Trotz es regnet",
+          "right": "Trotz des Regens"
+        }
+      ],
+      "remember": [
+        "der Trotz = spīts.",
+        "trotz + Genitiv = neraugoties uz."
+      ],
+      "sectionAccents": {
+        "lead": {
+          "blue": [
+            "der Trotz"
+          ],
+          "purple": [
+            "spīts"
+          ],
+          "yellow": [
+            "trotz"
+          ],
+          "green": [
+            "Genitiv"
+          ]
+        },
+        "comparisonCards": [
+          {
+            "lv": {
+              "purple": [
+                "spīts"
+              ]
+            },
+            "de": {
+              "blue": [
+                "der Trotz",
+                "Trotz"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Trotz"
+              ],
+              "purple": [
+                "spīta"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "neraugoties uz"
+              ]
+            },
+            "de": {
+              "yellow": [
+                "trotz",
+                "des Regens"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "Trotz",
+                "Regens"
+              ],
+              "purple": [
+                "līst"
+              ]
+            }
+          }
+        ],
+        "examples": [
+          {
+            "de": {
+              "yellow": [
+                "Trotz",
+                "Regens"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "neraugoties",
+                "līst"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Trotz"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "spīta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "Trotz",
+                "Wetters"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "neraugoties",
+                "laiku"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Trotz"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "spīta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "Trotz",
+                "Krankheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "neraugoties",
+                "slimību"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Trotz"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "spīta",
+                "nē"
+              ]
+            }
+          }
+        ],
+        "comparisonTable": [
+          {
+            "lv": {
+              "purple": [
+                "spīts"
+              ]
+            },
+            "de": {
+              "blue": [
+                "der Trotz"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Trotz"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "spīta"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "neraugoties uz"
+              ]
+            },
+            "de": {
+              "yellow": [
+                "trotz"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "Trotz",
+                "Regens"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "neraugoties"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "ģenitīvs"
+              ]
+            },
+            "de": {
+              "yellow": [
+                "trotz",
+                "des Regens"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "Regens"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "līst"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "laiks"
+              ]
+            },
+            "de": {
+              "yellow": [
+                "trotz",
+                "Wetters"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "Wetters"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "laiku"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "spīta dēļ"
+              ]
+            },
+            "de": {
+              "blue": [
+                "aus Trotz"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Trotz"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "spīta"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "tomēr"
+              ]
+            },
+            "de": {
+              "yellow": [
+                "trotz"
+              ],
+              "red": [
+                "trotzdem"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "Trotz"
+              ],
+              "red": [
+                "trotzdem"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "neraugoties",
+                "tomēr"
+              ]
+            }
+          }
+        ],
+        "importantComparison": [
+          {
+            "yellow": [
+              "Trotz",
+              "Regens"
+            ],
+            "purple": [
+              "neraugoties",
+              "līst"
+            ]
+          },
+          {
+            "blue": [
+              "Trotz"
+            ],
+            "purple": [
+              "spīta"
+            ]
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "der Trotz"
+            ],
+            "yellow": [
+              "trotz"
+            ]
+          },
+          "rightItems": [
+            {
+              "de": {
+                "yellow": [
+                  "trotz",
+                  "des Regens"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "neraugoties",
+                  "līst"
+                ]
+              }
+            },
+            {
+              "de": {
+                "yellow": [
+                  "trotz",
+                  "der Krankheit"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "neraugoties",
+                  "slimību"
+                ]
+              }
+            }
+          ]
+        },
+        "important": [
+          {
+            "blue": [
+              "der Trotz"
+            ]
+          },
+          {
+            "yellow": [
+              "trotz"
+            ],
+            "green": [
+              "Genitiv"
+            ]
+          },
+          {
+            "red": [
+              "dem Regen"
+            ],
+            "yellow": [
+              "des Regens"
+            ]
+          }
+        ],
+        "mistakes": [
+          {
+            "wrong": {
+              "red": [
+                "dem Regen"
+              ]
+            },
+            "right": {
+              "yellow": [
+                "des Regens"
+              ]
+            }
+          }
+        ],
+        "remember": [
+          {
+            "blue": [
+              "der Trotz"
+            ]
+          },
+          {
+            "yellow": [
+              "trotz",
+              "Genitiv"
+            ]
+          }
+        ]
+      }
+    }
+  },
 ];
 
 window.B1_WORDS = B1_WORDS;
