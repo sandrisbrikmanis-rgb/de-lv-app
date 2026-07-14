@@ -7923,35 +7923,38 @@ main,
 
   body.is-detail-screen .group-detail-screen > .card {
     position: relative;
-    flex: 1 1 auto;
-    min-height: min(var(--detail-pc-height), calc(100svh - 220px));
+    min-height: 360px;
     height: auto;
     margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    justify-content: center;
+    display: grid;
+    align-items: center;
+    text-align: center;
     overflow: visible;
   }
 
   body.is-detail-screen .group-detail-screen > .card.has-study-card,
-  body.is-detail-screen .group-detail-screen > .card.has-rich-study-card {
-    justify-content: flex-start;
+  body.is-detail-screen .group-detail-screen > .card.has-rich-study-card,
+  body.is-detail-screen .group-detail-screen > .card.has-minimal-study-card,
+  body.is-detail-screen .group-detail-screen > .card:has(.flashcard-plural-row:not([hidden])) {
+    align-items: start;
   }
 
   body.is-detail-screen .group-detail-screen > .card .card-inner {
-    flex: 0 1 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    min-height: 0;
     width: 100%;
+    max-width: 100%;
+    display: grid;
+    gap: 18px;
+    justify-items: center;
+    align-content: center;
+    min-height: 0;
     overflow: visible;
   }
 
   body.is-detail-screen .group-detail-screen > .card.has-study-card .card-inner,
-  body.is-detail-screen .group-detail-screen > .card.has-rich-study-card .card-inner {
-    justify-content: flex-start;
+  body.is-detail-screen .group-detail-screen > .card.has-rich-study-card .card-inner,
+  body.is-detail-screen .group-detail-screen > .card.has-minimal-study-card .card-inner {
+    gap: 8px;
+    align-content: start;
   }
 
   body.is-detail-screen .group-detail-screen > .controls {
