@@ -69,17 +69,37 @@ const COMPARISON_CARD_IDS = new Set([
   "compare-weil-da",
   "compare-obwohl-trotzdem",
   "compare-anstatt-ohne-zu",
+  "compare-der-erbe-das-erbe",
+  "compare-schaden-schaden",
+  "compare-vertrauen-vertrauen",
+  "compare-trotz-der-trotz",
 ]);
 
 const COMPARISON_COVERED_WORDS = new Set([
   "weil", "da", "obwohl", "trotzdem", "anstatt", "ohne",
+  "Erbe", "Schaden", "schaden", "Vertrauen", "vertrauen", "Trotz", "trotz",
 ]);
 
 const COMPARISON_SUBTITLES = {
   "compare-weil-da": "weil • da",
   "compare-obwohl-trotzdem": "obwohl • trotzdem",
   "compare-anstatt-ohne-zu": "anstatt • ohne ... zu",
+  "compare-der-erbe-das-erbe": "der Erbe • das Erbe",
+  "compare-schaden-schaden": "der Schaden • schaden",
+  "compare-vertrauen-vertrauen": "das Vertrauen • vertrauen",
+  "compare-trotz-der-trotz": "der Trotz • trotz",
 };
+
+// Homonym pairs that must stay as separate entries (never merge)
+const HOMONYM_KEEP_SEPARATE = new Set([
+  "ringen|", "Ringen|das",
+  "rudern|", "Rudern|das",
+  "gehorsam|", "Gehorsam|der",
+  "Feige|die", "feige|",
+  "Tau|der", "Tau|das",
+  "Unrecht|das", "unrecht|",
+  "Gehalt|das", "Gehalt|der",
+]);
 
 // Goethe B1 adjectives (lowercase, no article)
 const GOETHE_B1_ADJECTIVES = new Set(
@@ -231,6 +251,7 @@ function auditDuplicates(words) {
   for (const [key, entries] of byDe) {
     const de = key.split("|")[0];
     if (entries.length < 2) continue;
+    if (HOMONYM_KEEP_SEPARATE.has(key)) continue;
     const merged = { ...entries[0] };
     merged.lv = mergeMeanings(...entries.map((e) => e.lv));
     if (entries.some((e) => e.study) && !merged.study) {
@@ -565,7 +586,7 @@ if (warnings.length) {
 const comparisonCards = words.filter(
   (w) => w.study?.layout === "comparisonStudy" && COMPARISON_CARD_IDS.has(w.study?.id)
 );
-console.log(`\nSalīdzinājuma kartītes: ${comparisonCards.length}/3`);
+console.log(`\nSalīdzinājuma kartītes: ${comparisonCards.length}/7`);
 console.log(`Refleksīvie ar sich: ${words.filter((w) => w.de.startsWith("sich ")).length}`);
 
 if (FIX && actionable.length > 0) {
