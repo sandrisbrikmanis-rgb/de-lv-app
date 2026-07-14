@@ -1,0 +1,4398 @@
+{
+  "Treppe": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Stiege": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Abo": {
+    "article": "das",
+    "pluralSuffix": "-s"
+  },
+  "Akku": {
+    "article": "der",
+    "pluralSuffix": "-s"
+  },
+  "Azubi": {
+    "article": "der",
+    "pluralSuffix": "-s"
+  },
+  "DVD": {
+    "article": "die",
+    "pluralSuffix": "-s"
+  },
+  "Kfz": {
+    "article": "das",
+    "pluralSuffix": "-s"
+  },
+  "Kraftfahrzeug": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Lkw": {
+    "article": "der",
+    "pluralSuffix": "-s"
+  },
+  "PC": {
+    "article": "der",
+    "pluralSuffix": "-s"
+  },
+  "Pkw": {
+    "article": "der",
+    "pluralSuffix": "-s"
+  },
+  "TV": {
+    "article": "das",
+    "singularOnly": true
+  },
+  "WC": {
+    "article": "das",
+    "pluralSuffix": "-s"
+  },
+  "WG": {
+    "article": "die",
+    "pluralSuffix": "-s"
+  },
+  "Wohngemeinschaft": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Baby": {
+    "article": "das",
+    "pluralSuffix": "-s"
+  },
+  "Band": {
+    "article": "die",
+    "pluralSuffix": "-s"
+  },
+  "Bar": {
+    "article": "die",
+    "pluralSuffix": "-s"
+  },
+  "Bikini": {
+    "article": "der",
+    "pluralSuffix": "-s"
+  },
+  "Blog": {
+    "article": "der",
+    "pluralSuffix": "-s"
+  },
+  "Camp": {
+    "article": "das",
+    "pluralSuffix": "-s"
+  },
+  "Castingshow": {
+    "article": "die",
+    "pluralSuffix": "-s"
+  },
+  "Chat(room)": {
+    "article": "der",
+    "pluralSuffix": "-s"
+  },
+  "Chip": {
+    "article": "der",
+    "pluralSuffix": "-s"
+  },
+  "City": {
+    "article": "die",
+    "pluralSuffix": "-s"
+  },
+  "Club": {
+    "article": "der",
+    "pluralSuffix": "-s"
+  },
+  "E-Bike": {
+    "article": "das",
+    "pluralSuffix": "-s"
+  },
+  "E-Book": {
+    "article": "das",
+    "pluralSuffix": "-s"
+  },
+  "Fan": {
+    "article": "der",
+    "pluralSuffix": "-s"
+  },
+  "Fax": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Festival": {
+    "article": "das",
+    "pluralSuffix": "-s"
+  },
+  "Hit": {
+    "article": "der",
+    "pluralSuffix": "-s"
+  },
+  "Homepage": {
+    "article": "die",
+    "pluralSuffix": "-s"
+  },
+  "Job": {
+    "article": "der",
+    "pluralSuffix": "-s"
+  },
+  "Laptop": {
+    "article": "der",
+    "pluralSuffix": "-s"
+  },
+  "Link": {
+    "article": "der",
+    "pluralSuffix": "-s"
+  },
+  "Mailbox": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Mobilbox": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Mountainbike": {
+    "article": "das",
+    "pluralSuffix": "-s"
+  },
+  "Plattform": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Puzzle": {
+    "article": "das",
+    "pluralSuffix": "-s"
+  },
+  "Taxi": {
+    "article": "das",
+    "pluralSuffix": "-s"
+  },
+  "Team": {
+    "article": "das",
+    "pluralSuffix": "-s"
+  },
+  "Terminal": {
+    "article": "der",
+    "pluralSuffix": "-s"
+  },
+  "Tour": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Trend": {
+    "article": "der",
+    "pluralSuffix": "-s"
+  },
+  "T-Shirt": {
+    "article": "das",
+    "pluralSuffix": "-s"
+  },
+  "Show": {
+    "article": "die",
+    "pluralSuffix": "-s"
+  },
+  "Smartphone": {
+    "article": "das",
+    "pluralSuffix": "-s"
+  },
+  "Snack": {
+    "article": "der",
+    "pluralSuffix": "-s"
+  },
+  "Software": {
+    "article": "die",
+    "pluralSuffix": "-s"
+  },
+  "Song": {
+    "article": "der",
+    "pluralSuffix": "-s"
+  },
+  "Spot": {
+    "article": "der",
+    "pluralSuffix": "-s"
+  },
+  "Steak": {
+    "article": "das",
+    "pluralSuffix": "-s"
+  },
+  "Swimmingpool": {
+    "article": "der",
+    "pluralSuffix": "-s"
+  },
+  "Aufgabe": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Lösung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Anzeige": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Aussage": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Durchsage": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Einleitung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Folie": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Hilfsmittel": {
+    "article": "das",
+    "singularOnly": true
+  },
+  "Kommentar": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Moderator": {
+    "article": "der",
+    "pluralSuffix": "-en"
+  },
+  "Moderatorin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Modul": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Präsentation": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Punkt": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Rückmeldung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Struktur": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Deutsche": {
+    "article": "der",
+    "pluralSuffix": "-n"
+  },
+  "Europäerin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Österreicherin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Schweizerin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Grieche": {
+    "article": "der",
+    "pluralSuffix": "-n"
+  },
+  "Griechin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Türke": {
+    "article": "der",
+    "pluralSuffix": "-n"
+  },
+  "Türkin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Ukrainerin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Bundeskanzlerin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Bundespräsidentin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Bürgermeisterin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Ministerin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Partei": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Regierung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Ammännin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Bundesrätin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Regierungsrätin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Stadtpräsident": {
+    "article": "der",
+    "pluralSuffix": "-en"
+  },
+  "Stadtpräsidentin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Affe": {
+    "article": "der",
+    "pluralSuffix": "-n"
+  },
+  "Bär": {
+    "article": "der",
+    "pluralSuffix": "-en"
+  },
+  "Biene": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Elefant": {
+    "article": "der",
+    "pluralSuffix": "-en"
+  },
+  "Ente": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Fisch": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Fliege": {
+    "article": "die",
+    "singularOnly": true
+  },
+  "Giraffe": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Hase": {
+    "article": "der",
+    "pluralSuffix": "-n"
+  },
+  "Hund": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Insekt": {
+    "article": "das",
+    "pluralSuffix": "-en"
+  },
+  "Katze": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Krokodil": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Löwe": {
+    "article": "der",
+    "pluralSuffix": "-n"
+  },
+  "Mücke": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Pferd": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Pinguin": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Schaf": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Schildkröte": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Schlange": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Schwein": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Tag": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Vormittag": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Mittag": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Nachmittag": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Abend": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Sekunde": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Minute": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Stunde": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Woche": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Monat": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Jahr": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Jahrzehnt": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Jahrhundert": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Jahrtausend": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Wochentag": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Wochenende": {
+    "article": "das",
+    "pluralSuffix": "-n"
+  },
+  "Abbildung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Abenteuer": {
+    "article": "das",
+    "singularOnly": true
+  },
+  "Abschnitt": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Absenderin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Absicht": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Abfahrt": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Abfalleimer": {
+    "article": "der",
+    "singularOnly": true
+  },
+  "Abteilung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Abwart": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Abwartin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Alphabet": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Altenheim": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Altersheim": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Alternative": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Ampel": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Adresse": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Aktion": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Aktivität": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Alarm": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Anbieter": {
+    "article": "der",
+    "singularOnly": true
+  },
+  "Angebot": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Änderung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Anlage": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Anleitung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Anmeldung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Annonce": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Anrede": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Angabe": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Angehörige": {
+    "article": "der",
+    "pluralSuffix": "-n"
+  },
+  "Anruf": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Anrufbeantworter": {
+    "article": "der",
+    "singularOnly": true
+  },
+  "Ansage": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Anwältin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Apartment": {
+    "article": "das",
+    "pluralSuffix": "-s"
+  },
+  "Apparat": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Aprikose": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Arbeit": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Arbeiterin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Arbeitsstelle": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Angestellte": {
+    "article": "der",
+    "pluralSuffix": "-n"
+  },
+  "Antwort": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Aufenthalt": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Aufforderung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Aufnahme": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Architekt": {
+    "article": "der",
+    "pluralSuffix": "-en"
+  },
+  "Architektin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Arm": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Art": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Ärztin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Ausbildung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Ausdruck": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Ausfahrt": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Ausgabe": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Aushilfe": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Auftritt": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Auge": {
+    "article": "das",
+    "pluralSuffix": "-n"
+  },
+  "Augenblick": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Aussicht": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Ausstellung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Auswahl": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Ausweis": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Auto": {
+    "article": "das",
+    "pluralSuffix": "-s"
+  },
+  "Autobahn": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Automat": {
+    "article": "der",
+    "pluralSuffix": "-en"
+  },
+  "Autor": {
+    "article": "der",
+    "pluralSuffix": "-en"
+  },
+  "Autorin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Ausländerin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Ausnahme": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Bäckerei": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Badewanne": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Batterie": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Bahn": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Straßenbahn": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "U-Bahn": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Baustelle": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Bahnsteig": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Bauer": {
+    "article": "der",
+    "pluralSuffix": "-n"
+  },
+  "Balkon": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Beamte": {
+    "article": "der",
+    "pluralSuffix": "-n"
+  },
+  "Beamtin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Ballett": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Banane": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Bank": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Bankleitzahl": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Bedeutung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Bankomat-Karte": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Behörde": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Bein": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Beispiel": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Bekannte": {
+    "article": "der",
+    "pluralSuffix": "-n"
+  },
+  "Bedienungsanleitung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Bedingung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Begründung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Bericht": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Beruf": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Bescheid": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Beschreibung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Beleg": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Bereich": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Berg": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Betreuerin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Betrieb": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Betriebsrätin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Bett": {
+    "article": "das",
+    "pluralSuffix": "-en"
+  },
+  "Bewegung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Beweis": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Bewerbung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Besprechung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Bestätigung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Besuch": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Bitte": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Bleistift": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Blick": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Blitz": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Blume": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Bluse": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Bewohnerin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Beziehung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Bibliothek": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Bild": {
+    "article": "das",
+    "pluralSuffix": "-er"
+  },
+  "Bildschirm": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Birne": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Brief": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Brieftasche": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Brille": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Broschüre": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Brot": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Brötchen": {
+    "article": "das",
+    "singularOnly": true
+  },
+  "Brötli": {
+    "article": "das",
+    "singularOnly": true
+  },
+  "Brücke": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Bub": {
+    "article": "der",
+    "pluralSuffix": "-en"
+  },
+  "Buchhandlung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Boot": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Botschaft": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Breite": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Bremse": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Couch": {
+    "article": "die",
+    "pluralSuffix": "-s"
+  },
+  "Cousin": {
+    "article": "der",
+    "pluralSuffix": "-s"
+  },
+  "Cousine": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Couvert": {
+    "article": "das",
+    "pluralSuffix": "-s"
+  },
+  "Buchstabe": {
+    "article": "der",
+    "pluralSuffix": "-n"
+  },
+  "Büchse": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Buffet": {
+    "article": "das",
+    "pluralSuffix": "-s"
+  },
+  "Bühne": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Burg": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Bürgerin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Büro": {
+    "article": "das",
+    "pluralSuffix": "-s"
+  },
+  "Bürste": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Zahnbürste": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Bus": {
+    "article": "der",
+    "pluralSuffix": "-se"
+  },
+  "Cafeteria": {
+    "article": "die",
+    "pluralSuffix": "-s"
+  },
+  "Chance": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Chef": {
+    "article": "der",
+    "pluralSuffix": "-s"
+  },
+  "Chefin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Coiffeur": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Coiffeuse": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Decke": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Gedanke": {
+    "article": "der",
+    "pluralSuffix": "-n"
+  },
+  "Dessert": {
+    "article": "das",
+    "pluralSuffix": "-s"
+  },
+  "Dame": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Darstellung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Datei": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Detail": {
+    "article": "das",
+    "pluralSuffix": "-s"
+  },
+  "Diskussion": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Distanz": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Dialekt": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Dialog": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Doktor": {
+    "article": "der",
+    "pluralSuffix": "-en"
+  },
+  "Doktorin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Dieb": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Dokument": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Donner": {
+    "article": "der",
+    "singularOnly": true
+  },
+  "Ding": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Dose": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Diplom": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Direktor": {
+    "article": "der",
+    "pluralSuffix": "-en"
+  },
+  "Direktorin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Durchschnitt": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Dusche": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Droge": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Drogerie": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Ecke": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Einbahnstraße": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Eck": {
+    "article": "das",
+    "pluralSuffix": "-en"
+  },
+  "Einbrecherin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Ehe": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Ehepaar": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Ei": {
+    "article": "das",
+    "pluralSuffix": "-er"
+  },
+  "Einfahrt": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Einnahme": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Einführung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Einrichtung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Einschreiben": {
+    "article": "das",
+    "singularOnly": true
+  },
+  "Einkommen": {
+    "article": "das",
+    "singularOnly": true
+  },
+  "Einladung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Einwohnerin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Energie": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Enkelin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Entfernung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Entlassung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Einzahlung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Einzelheit": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Eisenbahn": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Empfehlung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Entscheidung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Ereignis": {
+    "article": "das",
+    "pluralSuffix": "-se"
+  },
+  "Erfahrung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Entschuldigung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Erfindung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Erfolg": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Enttäuschung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Ergebnis": {
+    "article": "das",
+    "pluralSuffix": "-se"
+  },
+  "Entwicklung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Ermäßigung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Ernte": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Eröffnung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Erhöhung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Erholung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Erinnerung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Erkältung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Erklärung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Erlebnis": {
+    "article": "das",
+    "pluralSuffix": "-se"
+  },
+  "Experte": {
+    "article": "der",
+    "pluralSuffix": "-n"
+  },
+  "Export": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Fabrik": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Fachfrau": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Fähigkeit": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Fähre": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Erwachsene": {
+    "article": "der",
+    "pluralSuffix": "-n"
+  },
+  "Erzählung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Etage": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Farbe": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Fasching": {
+    "article": "der",
+    "singularOnly": true
+  },
+  "Fauteuil": {
+    "article": "der",
+    "pluralSuffix": "-s"
+  },
+  "Feier": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Feiertag": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Feld": {
+    "article": "das",
+    "pluralSuffix": "-er"
+  },
+  "Fahrbahn": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Fahrkarte": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Fahrzeug": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Faktor": {
+    "article": "der",
+    "pluralSuffix": "-en"
+  },
+  "Familie": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Fantasie/Phantasie": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Feuerzeug": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Feuerwehr": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Figur": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Film": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Fläche": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Flasche": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Fleck": {
+    "article": "der",
+    "pluralSuffix": "-en"
+  },
+  "Fleischhauerin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Fernbedienung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Fernseher": {
+    "article": "der",
+    "singularOnly": true
+  },
+  "Fest": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Festplatte": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Formular": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Forschung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Fortbildung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Fortschritt": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Fortsetzung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Foto": {
+    "article": "das",
+    "pluralSuffix": "-s"
+  },
+  "Fotoapparat": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Fotograf": {
+    "article": "der",
+    "pluralSuffix": "-en"
+  },
+  "Fotografie": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Frage": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Frau": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Flöte": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Flur": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Flüssigkeit": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Folge": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Forderung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Förderung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Form": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Führerausweis": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Führerschein": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Führung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Fundbüro": {
+    "article": "das",
+    "pluralSuffix": "-s"
+  },
+  "Freund": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Freundschaft": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Friseur": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Friseurin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Frisur": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Frist": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Gaststätte": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Gebiet": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Gebrauchsanweisung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Gebühr": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Geburt": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Geburtstag": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Gedicht": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Fußgängerin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Fußgängerzone": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Gabel": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Galerie": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Garage": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Garderobe": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Geheimnis": {
+    "article": "das",
+    "pluralSuffix": "-se"
+  },
+  "Geldautomat": {
+    "article": "der",
+    "pluralSuffix": "-en"
+  },
+  "Geldbörse": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Gelegenheit": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Gefahr": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Gefängnis": {
+    "article": "das",
+    "pluralSuffix": "-se"
+  },
+  "Gefühl": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Gegend": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Gegenteil": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Gericht": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Gemeinschaft": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Geschäft": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Geschenk": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Geschichte": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Generation": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Geschlecht": {
+    "article": "das",
+    "pluralSuffix": "-er"
+  },
+  "Geschwindigkeit": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Gesellschaft": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Gerät": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Gesetz": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Gesicht": {
+    "article": "das",
+    "pluralSuffix": "-er"
+  },
+  "Gewürz": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Gift": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Gitarre": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Gleis": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Gespräch": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Getränk": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Gewalt": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Gewerkschaft": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Gewicht": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Gewinn": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Gewohnheit": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Grundstück": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Gruppe": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Haar": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Grafik": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Gratulation": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Grenze": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Größe": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Haltestelle": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Hähnchen/Hühnchen": {
+    "article": "das",
+    "singularOnly": true
+  },
+  "Handwerker": {
+    "article": "der",
+    "singularOnly": true
+  },
+  "Handwerkerin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Hälfte": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Händlerin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Handy": {
+    "article": "das",
+    "pluralSuffix": "-s"
+  },
+  "Halle": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Heizung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Held": {
+    "article": "der",
+    "pluralSuffix": "-en"
+  },
+  "Heldin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Hemd": {
+    "article": "das",
+    "pluralSuffix": "-en"
+  },
+  "Hend(e)l": {
+    "article": "das",
+    "singularOnly": true
+  },
+  "Herausforderung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Herd": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Herr": {
+    "article": "der",
+    "pluralSuffix": "-en"
+  },
+  "Hausaufgabe": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Haushalt": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Hausmeisterin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Heft": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Heim": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Hinweise": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Hobby": {
+    "article": "das",
+    "pluralSuffix": "-s"
+  },
+  "Hochzeit": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Hoffnung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Herz": {
+    "article": "das",
+    "pluralSuffix": "-en"
+  },
+  "Import": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Industrie": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Infektion": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Information": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Ingenieur": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Inhalt": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Hörerin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Hose": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Hotel": {
+    "article": "das",
+    "pluralSuffix": "-s"
+  },
+  "Hütte": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Idee": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Imbiss": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Interview": {
+    "article": "das",
+    "pluralSuffix": "-s"
+  },
+  "Jacke": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Jause": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Insel": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Inserat": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Institut": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Instrument": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Integration": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Intensivkurs": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Interesse": {
+    "article": "das",
+    "pluralSuffix": "-n"
+  },
+  "Kabel": {
+    "article": "das",
+    "singularOnly": true
+  },
+  "Kabine": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Kakao": {
+    "article": "der",
+    "pluralSuffix": "-s"
+  },
+  "Kalender": {
+    "article": "der",
+    "singularOnly": true
+  },
+  "Journalist": {
+    "article": "der",
+    "pluralSuffix": "-en"
+  },
+  "Journalistin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Jugendliche": {
+    "article": "der",
+    "pluralSuffix": "-nen"
+  },
+  "Jugendherberge": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Kamera": {
+    "article": "die",
+    "pluralSuffix": "-s"
+  },
+  "Kandidat": {
+    "article": "der",
+    "pluralSuffix": "-en"
+  },
+  "Junge": {
+    "article": "der",
+    "pluralSuffix": "-n"
+  },
+  "Kanne": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Kantine": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Kapitel": {
+    "article": "das",
+    "singularOnly": true
+  },
+  "Käuferin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Karotte": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Karriere": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Kellnerin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Karte": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Chipkarte": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Kartoffel": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Kennzeichen": {
+    "article": "das",
+    "singularOnly": true
+  },
+  "Kerze": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Kasse": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Kette": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Kassette": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Kind": {
+    "article": "das",
+    "pluralSuffix": "-er"
+  },
+  "Katalog": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Katastrophe": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Kino": {
+    "article": "das",
+    "pluralSuffix": "-s"
+  },
+  "Kiosk": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Kirche": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Klingel": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Klinik": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Kneipe": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Knödel": {
+    "article": "der",
+    "singularOnly": true
+  },
+  "Köchin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Kollege": {
+    "article": "der",
+    "pluralSuffix": "-n"
+  },
+  "Kollegin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Kiste": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Klasse": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Klassenarbeit": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Klavier": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Kleid": {
+    "article": "das",
+    "pluralSuffix": "-er"
+  },
+  "Klick": {
+    "article": "der",
+    "singularOnly": true
+  },
+  "Klimaanlage": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Konsulat": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Kontakt": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Girokonto": {
+    "article": "das",
+    "pluralSuffix": "-en"
+  },
+  "Kontrolle": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Konzert": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Kopie": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Korridor": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Kompromiss": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Konferenz": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Konfitüre": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Konflikt": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "König": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Kredit": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Kreditkarte": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Kreis": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Kreuz": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Kreuzung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Krieg": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Krimi": {
+    "article": "der",
+    "pluralSuffix": "-s"
+  },
+  "Krise": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Kritik": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Küche": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Kuli": {
+    "article": "der",
+    "pluralSuffix": "-s"
+  },
+  "Kostüm": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Kraftwerk": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Kranke": {
+    "article": "der",
+    "pluralSuffix": "-n"
+  },
+  "Krankenkasse": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Krankenschwester": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Krankheit": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Kultur": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Küste": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Kuvert": {
+    "article": "das",
+    "pluralSuffix": "-s"
+  },
+  "Kunde": {
+    "article": "der",
+    "pluralSuffix": "-n"
+  },
+  "Kundin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Kündigung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Künstlerin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Lager": {
+    "article": "das",
+    "singularOnly": true
+  },
+  "Kunststoff": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Kurs": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Kursleiter": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Lampe": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Kurve": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Landschaft": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Laufwerk": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Laune": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Lautsprecher": {
+    "article": "der",
+    "singularOnly": true
+  },
+  "Lehrstelle": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Landung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Laster": {
+    "article": "der",
+    "singularOnly": true
+  },
+  "Lernerin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Leserin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Licht": {
+    "article": "das",
+    "pluralSuffix": "-er"
+  },
+  "Lied": {
+    "article": "das",
+    "pluralSuffix": "-er"
+  },
+  "Lieferung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Lehrerin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Lehrling": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Leistung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Leiterin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Leitung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Leiter": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Lüge": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Magazin": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Mahlzeit": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Mahnung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Lift": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Limonade": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Linie": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Lippe": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Liste": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Lokal": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Marmelade": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Maschine": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Mauer": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Mechanikerin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Medikament": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Meer": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Mehrheit": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Mal": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Malerin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Mannschaft": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Marille": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Marke": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Meinung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Messer": {
+    "article": "das",
+    "singularOnly": true
+  },
+  "Metall": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Methode": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Metropole": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Metzger": {
+    "article": "der",
+    "singularOnly": true
+  },
+  "Meister": {
+    "article": "der",
+    "singularOnly": true
+  },
+  "Miete": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Mieter": {
+    "article": "der",
+    "singularOnly": true
+  },
+  "Mieterin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Migrant": {
+    "article": "der",
+    "pluralSuffix": "-en"
+  },
+  "Migrantin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Meldung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Menge": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Minderheit": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Mensch": {
+    "article": "der",
+    "pluralSuffix": "-en"
+  },
+  "Menü": {
+    "article": "das",
+    "pluralSuffix": "-s"
+  },
+  "Messe": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Mobiltelefon": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Mode": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Modell": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Möglichkeit": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Möhre": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Moment": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Mond": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Monitor": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Motor": {
+    "article": "der",
+    "pluralSuffix": "-en"
+  },
+  "Mitarbeiterin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Mitglied": {
+    "article": "das",
+    "pluralSuffix": "-er"
+  },
+  "Mobilität": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Nachfrage": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Nachhilfe": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Nachricht": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Nachspeise": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Nachteil": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Nadel": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Mülltonne": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Münze": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Muskel": {
+    "article": "der",
+    "pluralSuffix": "-n"
+  },
+  "Nachbar": {
+    "article": "der",
+    "pluralSuffix": "-n"
+  },
+  "Nerv": {
+    "article": "der",
+    "pluralSuffix": "-en"
+  },
+  "Netz": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Netzwerk": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Neuigkeit": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Nichte": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Nichtraucherin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Name": {
+    "article": "der",
+    "pluralSuffix": "-n"
+  },
+  "Familienname": {
+    "article": "der",
+    "pluralSuffix": "-n"
+  },
+  "Vorname": {
+    "article": "der",
+    "pluralSuffix": "-n"
+  },
+  "Nase": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Neffe": {
+    "article": "der",
+    "pluralSuffix": "-n"
+  },
+  "Note": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Notiz": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Nudel": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Nummer": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Notaufnahme": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Ober": {
+    "article": "der",
+    "singularOnly": true
+  },
+  "Ohr": {
+    "article": "das",
+    "pluralSuffix": "-en"
+  },
+  "Öl": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Oma": {
+    "article": "die",
+    "pluralSuffix": "-s"
+  },
+  "Onkel": {
+    "article": "der",
+    "singularOnly": true
+  },
+  "Opa": {
+    "article": "der",
+    "pluralSuffix": "-s"
+  },
+  "Oper": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Operation": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Opfer": {
+    "article": "das",
+    "singularOnly": true
+  },
+  "Orange": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Orchester": {
+    "article": "das",
+    "singularOnly": true
+  },
+  "Paket": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Panne": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Papier": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Paradeiser": {
+    "article": "der",
+    "singularOnly": true
+  },
+  "Parfüm": {
+    "article": "das",
+    "pluralSuffix": "-s"
+  },
+  "Park": {
+    "article": "der",
+    "pluralSuffix": "-s"
+  },
+  "Partnerin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Party": {
+    "article": "die",
+    "pluralSuffix": "-s"
+  },
+  "Passagier": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Passagierin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Ordination": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Organisation": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Original": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Ort": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Vorort": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Wohnort": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Ozean": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Paar": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Pflanze": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Pflaume": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Pflegerin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Pflicht": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Phantasie/Fantasie": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Picknick": {
+    "article": "das",
+    "pluralSuffix": "-s"
+  },
+  "Pille": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Pilz": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Plakat": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Planung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Patient": {
+    "article": "der",
+    "pluralSuffix": "-en"
+  },
+  "Patientin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Pause": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Pension": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Pensionist": {
+    "article": "der",
+    "pluralSuffix": "-en"
+  },
+  "Pensionistin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Perron": {
+    "article": "der",
+    "pluralSuffix": "-s"
+  },
+  "Person": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Pfanne": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Preis": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Problem": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Produkt": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Professor": {
+    "article": "der",
+    "pluralSuffix": "-en"
+  },
+  "Professorin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Profi": {
+    "article": "der",
+    "pluralSuffix": "-s"
+  },
+  "Politikerin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Polizist": {
+    "article": "der",
+    "pluralSuffix": "-en"
+  },
+  "Polizistin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Portion": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Postleitzahl": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Pöstler": {
+    "article": "der",
+    "singularOnly": true
+  },
+  "Poulet": {
+    "article": "das",
+    "pluralSuffix": "-s"
+  },
+  "Praktikant": {
+    "article": "der",
+    "pluralSuffix": "-en"
+  },
+  "Praktikantin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Quartier": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Quittung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Rabatt": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Radfahrerin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Radio": {
+    "article": "das",
+    "pluralSuffix": "-s"
+  },
+  "Profisportlerin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Programm": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Projekt": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Prospekt": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Protest": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Prozess": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Prüfung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Puppe": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Qualifikation": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Qualität": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Rede": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Referat": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Reform": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Regal": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Regel": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Region": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Reihe": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Raucherin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Reaktion": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Realität": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Recherche": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Rechnung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Recht": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Reparatur": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Reportage": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Reporterin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Reservierung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Rest": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Restaurant": {
+    "article": "das",
+    "pluralSuffix": "-s"
+  },
+  "Rezept": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Richterin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Richtung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Rind": {
+    "article": "das",
+    "pluralSuffix": "-er"
+  },
+  "Ring": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Reihenfolge": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Reinigung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Reise": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Reisebüro": {
+    "article": "das",
+    "pluralSuffix": "-s"
+  },
+  "Reklame": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Rekord": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Religion": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Rente": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Rentnerin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Runde": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Rundfahrt": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Sache": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Saison": {
+    "article": "die",
+    "pluralSuffix": "-s"
+  },
+  "Salat": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Salbe": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Salon": {
+    "article": "der",
+    "pluralSuffix": "-s"
+  },
+  "Salz": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Rolle": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Roman": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Rose": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Rückfahrt": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Rücksicht": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Rüebli": {
+    "article": "das",
+    "singularOnly": true
+  },
+  "Rufnummer": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Schauspielerin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Scheibe": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Scheidung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Schein": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Schere": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Schiff": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Sängerin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Schachtel": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Schalter": {
+    "article": "der",
+    "singularOnly": true
+  },
+  "Schlüssel": {
+    "article": "der",
+    "singularOnly": true
+  },
+  "Schmerz": {
+    "article": "der",
+    "pluralSuffix": "-en"
+  },
+  "Schild": {
+    "article": "das",
+    "pluralSuffix": "-er"
+  },
+  "Schirm": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Schrift": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Schriftstellerin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Schritt": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Schuh": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Schule": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Schularbeit": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Schülerin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Schulter": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Schüssel": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Sehenswürdigkeit": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Seife": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Seite": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Sekretär": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Sekretärin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Schwammerl": {
+    "article": "das",
+    "pluralSuffix": "-n"
+  },
+  "Schwangerschaft": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Schwester": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Schwierigkeit": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "See": {
+    "article": "der",
+    "pluralSuffix": "-n"
+  },
+  "Sieg": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Siegerin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Situation": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Sitz": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Seminar": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Semmel": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Sendung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Serie": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Serviceangestellte": {
+    "article": "der",
+    "pluralSuffix": "-n"
+  },
+  "Sessel": {
+    "article": "der",
+    "singularOnly": true
+  },
+  "Sicherheit": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Souvenir": {
+    "article": "das",
+    "pluralSuffix": "-s"
+  },
+  "Sozialarbeiterin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Socke": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Sofa": {
+    "article": "das",
+    "pluralSuffix": "-s"
+  },
+  "Sonderangebot": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Sorge": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Soße/Sauce": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Sprechstunde": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Spritze": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Spur": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Standpunkt": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Star": {
+    "article": "der",
+    "pluralSuffix": "-s"
+  },
+  "Speisekarte": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Speisewagen": {
+    "article": "der",
+    "singularOnly": true
+  },
+  "Spezialist": {
+    "article": "der",
+    "pluralSuffix": "-en"
+  },
+  "Spezialistin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Spiel": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Spielerin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Spielzeug": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Sportart": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Sportlerin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Sprache": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Fremdsprache": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Muttersprache": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Zweitsprache": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Stein": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Stelle": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Stern": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Steuer": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Steward": {
+    "article": "der",
+    "pluralSuffix": "-s"
+  },
+  "Stewardess": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Stift": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Stil": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Stiefel": {
+    "article": "der",
+    "singularOnly": true
+  },
+  "Start": {
+    "article": "der",
+    "pluralSuffix": "-s"
+  },
+  "Station": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Statistik": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Stau": {
+    "article": "der",
+    "pluralSuffix": "-s"
+  },
+  "Steckdose": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Streik": {
+    "article": "der",
+    "pluralSuffix": "-s"
+  },
+  "Stück/-stück": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Studie": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Student": {
+    "article": "der",
+    "pluralSuffix": "-en"
+  },
+  "Studentin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Studierende": {
+    "article": "der",
+    "pluralSuffix": "-n"
+  },
+  "Studio": {
+    "article": "das",
+    "pluralSuffix": "-s"
+  },
+  "Stufe": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Stimme": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Stimmung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Stockwerk": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Stoff": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Störung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Strafe": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Straße": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Strecke": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Tabelle": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Tablette": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Tafel": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Talent": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Tankstelle": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Tante": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Tasche": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Taschengeld": {
+    "article": "das",
+    "pluralSuffix": "-er"
+  },
+  "Tasse": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Tastatur": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Taste": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Tat": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Täterin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Tätigkeit": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Summe": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Suppe": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Symbol": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "System": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Szene": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Telefon": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Temperatur": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Teppich": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Termin": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Terrasse": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Test": {
+    "article": "der",
+    "pluralSuffix": "-s"
+  },
+  "Text": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Theorie": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Therapie": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Ticket": {
+    "article": "das",
+    "pluralSuffix": "-s"
+  },
+  "Tier": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Tatsache": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Technik": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Technologie": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Teil": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Teilnahme": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Teilnehmerin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Tradition": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Haustier": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Tierpark": {
+    "article": "der",
+    "pluralSuffix": "-s"
+  },
+  "Tipp": {
+    "article": "der",
+    "pluralSuffix": "-s"
+  },
+  "Tisch": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Trainerin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Titel": {
+    "article": "der",
+    "singularOnly": true
+  },
+  "Training": {
+    "article": "das",
+    "pluralSuffix": "-s"
+  },
+  "Tram": {
+    "article": "das",
+    "pluralSuffix": "-s"
+  },
+  "Träne": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Toilette": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Transport": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Tomate": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Tor": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Treffpunkt": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Torte": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Tote": {
+    "article": "der",
+    "pluralSuffix": "-n"
+  },
+  "Trennung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Tourist": {
+    "article": "der",
+    "pluralSuffix": "-en"
+  },
+  "Touristin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Tüte": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Typ": {
+    "article": "der",
+    "pluralSuffix": "-en"
+  },
+  "Übung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Trinkgeld": {
+    "article": "das",
+    "pluralSuffix": "-er"
+  },
+  "Trottoir": {
+    "article": "das",
+    "pluralSuffix": "-s"
+  },
+  "Tür": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Überzeugung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Uhr": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Umfrage": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Umgebung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Umleitung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Übernachtung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Überraschung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Überschrift": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Übersetzerin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Übersetzung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Überstunde": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Überweisung": {
+    "article": "die",
+    "singularOnly": true
+  },
+  "Uniform": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Universität": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Unterhaltung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Unternehmerin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Unterschied": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Unglück": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Vase": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Unterschrift": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Velo": {
+    "article": "das",
+    "pluralSuffix": "-s"
+  },
+  "Unterstützung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Verabredung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Untersuchung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Abschied": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Urkunde": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Urlaub": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Veranstaltung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Ursache": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Urteil": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Verbot": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Verhältnis": {
+    "article": "das",
+    "pluralSuffix": "-se"
+  },
+  "Verkäuferin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Verlag": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Verbindung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Verbrecherin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Verein": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Vergleich": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Versammlung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Versichertenkarte": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Versicherung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Verspätung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Verletzung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Verliererin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Verlust": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Vermieterin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Vermietung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Vermittlung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Video": {
+    "article": "das",
+    "pluralSuffix": "-s"
+  },
+  "Versuch": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Viertel": {
+    "article": "das",
+    "singularOnly": true
+  },
+  "Visitenkarte": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Vertreterin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Vitamin": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Vertretung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Verwaltung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Verwandte": {
+    "article": "der",
+    "pluralSuffix": "-n"
+  },
+  "Vorschrift": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Vorstellung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Vorstellungsgespräch": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Vorteil": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Vorwahl": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Voraussetzung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Vorbereitung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Ware": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Wecker": {
+    "article": "der",
+    "singularOnly": true
+  },
+  "Wahl": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Wahrheit": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Wanderung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Werbung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Werk": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Werkzeug": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Wert": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Weg": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Wein": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Weiterbildung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Wettbewerb": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Wind": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Wetterbericht": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Wirkung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Wettervorhersage": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Wirt": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Wirtin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Wissenschaft": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Wissenschaftler": {
+    "article": "der",
+    "singularOnly": true
+  },
+  "Wiederholung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Witz": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Wiese": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Zahl": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Anzahl": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Zahlung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Zange": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Zeichen": {
+    "article": "das",
+    "singularOnly": true
+  },
+  "Wohnsitz": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Wohnung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Wolke": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Wort": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Wunde": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Zeugnis": {
+    "article": "das",
+    "pluralSuffix": "-se"
+  },
+  "Ziel": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Zigarette": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Zirkus": {
+    "article": "der",
+    "pluralSuffix": "-se"
+  },
+  "Zitrone": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Zone": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Zoo": {
+    "article": "der",
+    "pluralSuffix": "-s"
+  },
+  "Zeichnung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Zeile": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Zeitschrift": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Zeitung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  },
+  "Zelt": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Zertifikat": {
+    "article": "das",
+    "pluralSuffix": "-e"
+  },
+  "Zeuge": {
+    "article": "der",
+    "pluralSuffix": "-n"
+  },
+  "Zeugin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Zuschauerin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Zuhörerin": {
+    "article": "die",
+    "pluralSuffix": "-nen"
+  },
+  "Zweck": {
+    "article": "der",
+    "pluralSuffix": "-e"
+  },
+  "Zwiebel": {
+    "article": "die",
+    "pluralSuffix": "-n"
+  },
+  "Zustimmung": {
+    "article": "die",
+    "pluralSuffix": "-en"
+  }
+}
