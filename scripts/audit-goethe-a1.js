@@ -264,6 +264,20 @@ const ADJECTIVE_FIXES = {
   Hoch: { de: "hoch", lv: "augsts" },
 };
 
+// Valid comparisonStudy card IDs in A1 (skip base-word audit rules for these entries)
+const COMPARISON_CARD_IDS = new Set([
+  "compare-fernsehen-fernsehen",
+  "compare-appetit-essen",
+  "compare-gemuese-obst",
+]);
+
+// Base words covered by comparison cards — absence from standalone entries is OK
+const COMPARISON_COVERED_WORDS = new Set([
+  "Appetit", "essen", "Essen",
+  "fernsehen", "Fernsehen",
+  "Gemüse", "Obst",
+]);
+
 function loadA1() {
   const win = {};
   vm.runInContext(fs.readFileSync(path.join(root, "data/a1.js"), "utf8"), vm.createContext({ window: win }));
@@ -284,6 +298,12 @@ function audit(words) {
 
   for (const word of words) {
     const de = word.de;
+
+    // Skip comparison study card entries
+    if (word.study?.layout === "comparisonStudy" && COMPARISON_CARD_IDS.has(word.study.id)) {
+      continue;
+    }
+
     const goethe = GOETHE_NOUNS[de];
 
     // Remove duplicate noun when verb already exists
@@ -451,6 +471,22 @@ report.forEach((r) => {
   console.log(`  Jaunā: ${r.new}`);
   console.log(`  ${r.reason}\n`);
 });
+
+// Report comparison card coverage
+const comparisonCards = words.filter(
+  (w) => w.study?.layout === "comparisonStudy" && COMPARISON_CARD_IDS.has(w.study.id)
+);
+const coveredOk = [...COMPARISON_COVERED_WORDS].every((w) => {
+  const inBase = words.some((e) => e.de === w && !e.study?.layout);
+  const inComparison = comparisonCards.some((c) =>
+    (c.study.words || []).some((item) => (item.de || "").includes(w))
+  );
+  return !inBase && inComparison;
+});
+if (comparisonCards.length) {
+  console.log(`Comparison cards: ${comparisonCards.map((c) => c.study.id).join(", ")}`);
+  console.log(`Covered words OK: ${coveredOk ? "yes" : "check needed"}\n`);
+}
 
 if (FIX && report.length > 0) {
   const allChanges = [...merged.values()].map((m) => ({ de: m.de, changes: m.changes }));
