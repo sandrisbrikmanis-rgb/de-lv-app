@@ -36,6 +36,72 @@ function sanitizeAudioFilename(text) {
     .replace(/[/\\:*?"<>|]/g, "");
 }
 
+function stripGermanArticle(text) {
+  return String(text || "").trim().replace(/^(der|die|das)\s+/i, "");
+}
+
+const COMPARISON_ONLY_NOUN_ARTICLES = {
+  appetit: "der",
+  erbe: "der",
+  fernsehen: "das",
+  gemüse: "das",
+  obst: "das",
+  schaden: "der",
+  trotz: "der",
+  urlaub: "der",
+  zeit: "die",
+};
+
+const COMPARISON_PHRASE_AUDIO = [
+  [/\bim\s+urlaub\b/i, "der Urlaub"],
+  [/\bin\s+den\s+ferien\b/i, "die Ferien"],
+  [/\bim\s+fernsehen\b/i, "das Fernsehen"],
+  [/\bam\s+fernsehen\b/i, "das Fernsehen"],
+  [/^ohne\s*\.\.\.\s*zu$/i, "ohne zu"],
+];
+
+function titleCaseGermanWord(word) {
+  return String(word || "")
+    .trim()
+    .split(/\s+/)
+    .map((part) => part.charAt(0).toUpperCase() + part.slice(1).toLowerCase())
+    .join(" ");
+}
+
+function audioFilenameCandidates(text) {
+  const raw = String(text || "").trim();
+  if (!raw) return [];
+
+  for (const [pattern, noun] of COMPARISON_PHRASE_AUDIO) {
+    if (pattern.test(raw)) return audioFilenameCandidates(noun);
+  }
+
+  const candidates = [];
+  const articleMatch = raw.match(/^(der|die|das)\s+(.+)$/i);
+  if (articleMatch) {
+    const article = articleMatch[1].toLowerCase();
+    const word = articleMatch[2].trim();
+    const sanitized = sanitizeAudioFilename(word);
+    const titleCased = sanitizeAudioFilename(titleCaseGermanWord(word));
+    candidates.push(`${article}_${sanitized}.mp3`);
+    if (titleCased !== sanitized) candidates.push(`${article}_${titleCased}.mp3`);
+    return [...new Set(candidates)];
+  }
+
+  const bare = stripGermanArticle(raw);
+  if (!bare) return [];
+  const key = bare.toLowerCase();
+  const article = COMPARISON_ONLY_NOUN_ARTICLES[key];
+  const sanitized = sanitizeAudioFilename(bare);
+  const titleCased = sanitizeAudioFilename(titleCaseGermanWord(bare));
+  candidates.push(`${sanitized}.mp3`);
+  if (article) {
+    candidates.push(`${article}_${sanitized}.mp3`);
+    if (titleCased !== sanitized) candidates.push(`${article}_${titleCased}.mp3`);
+  }
+  return [...new Set(candidates)];
+}
+
 function hasAudio(filename) {
   return AUDIO.has(String(filename || "").toLowerCase());
 }
@@ -83,14 +149,19 @@ function collectRequiredAudio(card) {
   }
 
   if (layout === "comparisonStudy") {
-    for (const w of study.words || []) {
-      const de = String(w.de || "").trim();
-      if (de) add("comparison-card", de, `${sanitizeAudioFilename(de)}.mp3`);
+    const parts = String(study.subtitle || "")
+      .split(/\s*•\s*/)
+      .map((part) => part.trim())
+      .filter(Boolean);
+    for (const part of parts) {
+      const candidates = audioFilenameCandidates(part);
+      if (!candidates.length) continue;
+      const filename = candidates[0];
+      if (!hasAudio(filename)) {
+        add("subtitle", part, filename);
+      }
     }
-    for (const ex of study.examples || []) {
-      const de = String(ex.de || "").trim();
-      if (de) add("example", de, `${sanitizeAudioFilename(de)}.mp3`);
-    }
+    return required;
   }
 
   return required;
