@@ -140,7 +140,6 @@ const GOETHE_NOUNS = {
   Kamera: { article: "die", plural: "Kameras" },
   Karte: { article: "die", plural: "Karten" },
   Kartoffel: { article: "die", plural: "Kartoffeln" },
-  Kohl: { article: "der", singularOnly: true },
   Käse: { article: "der", singularOnly: true },
   Katze: { article: "die", plural: "Katzen" },
   Kind: { article: "das", plural: "Kinder" },
