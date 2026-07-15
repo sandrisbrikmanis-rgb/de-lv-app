@@ -310,7 +310,6 @@ const COMPARISON_CARD_IDS = new Set([
   "compare-gemuese-obst",
   "compare-ferien-urlaub",
   "compare-geschwister-eltern",
-  "compare-kleidung-jeans-hose",
   "compare-stadt-staat",
   "compare-uhr-zeit",
   "compare-mal-einmal-nochmal",
@@ -323,7 +322,6 @@ const COMPARISON_SUBTITLES = {
   "compare-gemuese-obst": "das Gemüse • das Obst",
   "compare-ferien-urlaub": "die Ferien • der Urlaub",
   "compare-geschwister-eltern": "die Geschwister • die Eltern",
-  "compare-kleidung-jeans-hose": "die Kleidung • die Jeans • die Hose",
   "compare-stadt-staat": "die Stadt • der Staat",
   "compare-uhr-zeit": "die Uhr • die Zeit",
   "compare-mal-einmal-nochmal": "mal • einmal • noch mal",
@@ -336,7 +334,6 @@ const COMPARISON_COVERED_WORDS = new Set([
   "Gemüse", "Obst",
   "Ferien", "Urlaub",
   "Geschwister", "Eltern",
-  "Kleidung", "Jeans", "Hose",
   "Stadt", "Staat",
   "Uhr", "Zeit",
 ]);
