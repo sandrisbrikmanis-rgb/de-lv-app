@@ -17869,13 +17869,6 @@ const A1_WORDS = [
       "level": "A1"
     },
     {
-      "de": "Socken",
-      "de_article": "die",
-      "de_plural": "die Socken",
-      "lv": "zeķes",
-      "level": "A1"
-    },
-    {
       "de": "Sofa",
       "de_article": "das",
       "de_plural": "die Sofas",
