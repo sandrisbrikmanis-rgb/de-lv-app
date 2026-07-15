@@ -22309,21 +22309,21 @@ const A1_WORDS = [
         "layout": "comparisonStudy",
         "title": "Dārzeņi • Augļi",
         "subtitle": "das Gemüse • das Obst",
-        "lead": "Abi ir nekatras dzimtes (das) un tikai vienskaitlis — tos lieto tikai vienskaitlī.",
-        "explanation": "das Gemüse nozīmē dārzeņus kopumā. das Obst nozīmē augļus kopumā. Abi ir nekatras dzimtes un nav daudzskaitlī. Latviešu valodā bieži lieto daudzskaitli, bet vāciski pareizi ir: das Gemüse, das Obst.",
+        "lead": "Abi ir nekatras dzimtes (das) un vācu valodā tos lieto tikai vienskaitlī.",
+        "explanation": "das Gemüse apzīmē visus dārzeņus kopumā, bet das Obst — augļus. Latviešu valodā mēs izmantojam daudzskaitli, tāpēc atceries, ka vācu teikumā darbības vārdam vienmēr jābūt vienskaitļa formā (piemēram, 'ist', nevis 'sind').",
         "words": [
           {
             "icon": "🥕",
             "lv": "dārzeņi",
             "de": "das Gemüse",
-            "description": "Visi dārzeņi kopumā. tikai vienskaitlis — nav *die Gemüse.",
+            "description": "Dārzeņi kopumā. Vācu valodā nav daudzskaitļa formas *die Gemüse.",
             "example": "Ich esse gern Gemüse. = Es labprāt ēdu dārzeņus."
           },
           {
             "icon": "🍎",
             "lv": "augļi",
             "de": "das Obst",
-            "description": "Visi augļi kopumā. tikai vienskaitlis — nav *die Obsts.",
+            "description": "Augļi kopumā. Vācu valodā nav daudzskaitļa formas *die Obsts.",
             "example": "Wir essen viel Obst. = Mēs ēdam daudz augļu."
           }
         ],
@@ -22430,16 +22430,32 @@ const A1_WORDS = [
         ],
         "sectionAccents": {
           "lead": {
-            "green": [
-              "Gemüse",
-              "Obst"
-            ],
             "purple": [
               "das",
               "vienskaitlī"
             ],
             "blue": [
               "nekatras"
+            ]
+          },
+          "explanation": {
+            "green": [
+              "Gemüse",
+              "das Gemüse"
+            ],
+            "yellow": [
+              "Obst",
+              "das Obst"
+            ],
+            "purple": [
+              "dārzeņus",
+              "augļus",
+              "daudzskaitli",
+              "vienskaitļa"
+            ],
+            "blue": [
+              "ist",
+              "sind"
             ]
           },
           "comparisonCards": [
@@ -22452,6 +22468,17 @@ const A1_WORDS = [
               "de": {
                 "green": [
                   "Gemüse"
+                ]
+              },
+              "description": {
+                "purple": [
+                  "Dārzeņi"
+                ],
+                "green": [
+                  "Gemüse"
+                ],
+                "red": [
+                  "die Gemüse"
                 ]
               },
               "example": {
@@ -22473,6 +22500,17 @@ const A1_WORDS = [
               "de": {
                 "yellow": [
                   "Obst"
+                ]
+              },
+              "description": {
+                "purple": [
+                  "Augļi"
+                ],
+                "yellow": [
+                  "Obst"
+                ],
+                "red": [
+                  "die Obsts"
                 ]
               },
               "example": {
