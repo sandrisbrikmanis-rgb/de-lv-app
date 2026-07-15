@@ -3984,6 +3984,7 @@ const COMPARISON_PHRASE_AUDIO = [
   [/\bin\s+den\s+ferien\b/i, "die Ferien"],
   [/\bim\s+fernsehen\b/i, "das Fernsehen"],
   [/\bam\s+fernsehen\b/i, "das Fernsehen"],
+  [/^ohne\s*\.\.\.\s*zu$/i, "ohne zu"],
 ];
 
 function titleCaseGermanWord(word) {
@@ -4036,13 +4037,13 @@ function audioFilenameCandidates(text) {
   if (!bare) return [];
   const key = bare.toLowerCase();
   const article = COMPARISON_ONLY_NOUN_ARTICLES[key];
+  const sanitized = sanitizeAudioFilename(bare);
+  const titleCased = sanitizeAudioFilename(titleCaseGermanWord(bare));
+  candidates.push(`${sanitized}.mp3`);
   if (article) {
-    const sanitized = sanitizeAudioFilename(bare);
-    const titleCased = sanitizeAudioFilename(titleCaseGermanWord(bare));
     candidates.push(`${article}_${sanitized}.mp3`);
     if (titleCased !== sanitized) candidates.push(`${article}_${titleCased}.mp3`);
   }
-  candidates.push(`${sanitizeAudioFilename(bare)}.mp3`);
   return [...new Set(candidates)];
 }
 
@@ -6473,7 +6474,7 @@ function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
     const accentRules = sectionAccentRules("examples", index);
     const exampleDe = String(example.de || "").trim();
     const audioSrc = studyExampleAudioSrc(exampleDe);
-    const audioBtn = comparisonWordAudioButtonHtml(exampleDe, audioSrc);
+    const audioBtn = isComparisonStudy ? "" : comparisonWordAudioButtonHtml(exampleDe, audioSrc);
     return `
     <div>${formatStudyText(example.de, fieldAccentRules(accentRules, "de"))}${audioBtn}</div>
       <span>=</span>
@@ -6508,7 +6509,7 @@ function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
     const de = formatStudyText(item.de, fieldAccentRules(itemAccents, "de"));
     const lv = formatStudyText(item.lv, fieldAccentRules(itemAccents, "lv"));
     const audioSrc = item.de ? comparisonWordAudioSrc(item.de) : null;
-    const audioBtn = audioSrc ? comparisonWordAudioButtonHtml(item.de, audioSrc) : "";
+    const audioBtn = (!isComparisonStudy && audioSrc) ? comparisonWordAudioButtonHtml(item.de, audioSrc) : "";
     const separator = `<span class="study-tip-separator">${escapeStudyCardText(item.separator || "=")}</span>`;
     return `
     <p class="study-tip-example${item.stacked ? " study-tip-example-stacked" : ""}">${item.stacked ? `${de}${audioBtn}<br>${separator}<br>${lv}` : `${de}${audioBtn} ${separator} ${lv}`}</p>
@@ -6599,7 +6600,6 @@ function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
           const accentRules = sectionAccentRules("comparisonCards", index);
           const accent = item.accent || COMPARISON_WORD_ACCENTS[index % COMPARISON_WORD_ACCENTS.length];
           const germanWord = String(item.de || item.word || "").trim();
-          const audioSrc = comparisonWordAudioSrc(germanWord);
           const example = typeof item.example === "string" ? item.example : [item.example?.de, item.example?.lv].filter(Boolean).join(" = ");
           return `
             <article class="comparison-word-card comparison-word-card--${accent}">
@@ -6609,7 +6609,6 @@ function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
               </div>
               <div class="comparison-word-de-row">
                 <strong>${formatStudyText(germanWord, fieldAccentRules(accentRules, "de"))}</strong>
-                ${comparisonWordAudioButtonHtml(germanWord, audioSrc)}
               </div>
               <p>${formatStudyText(item.description || item.meaning || "", fieldAccentRules(accentRules, "description"))}</p>
               ${example ? `<div class="comparison-card-example">${formatStudyText(example, fieldAccentRules(accentRules, "example"))}</div>` : ""}
