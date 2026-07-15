@@ -8935,7 +8935,7 @@ const A1_WORDS = [
             "lv": "nāc mājā!"
           },
           {
-            "de": "Er steckt das Geld ins Portemonnaie.",
+            "de": "Er steckt das Geld in den Geldbeutel.",
             "lv": "viņš ieliek naudu makā."
           },
           {
@@ -9056,7 +9056,7 @@ const A1_WORDS = [
             {
               "de": {
                 "blue": [
-                  "ins"
+                  "in den"
                 ]
               },
               "lv": {
