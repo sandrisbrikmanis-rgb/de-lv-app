@@ -3809,11 +3809,37 @@ function normalizeCardSearchValue(value, mode = "plain") {
   return valueToUse.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 }
 
+function isGermanArticleToken(value) {
+  return /^(der|die|das)$/i.test(String(value || "").trim());
+}
+
+function splitCardSearchSegments(value) {
+  return String(value || "")
+    .split(/\s*[•|/]\s*/)
+    .map((part) => part.trim())
+    .filter(Boolean);
+}
+
 function cardSearchKeys(value) {
-  const keys = [
-    normalizeCardSearchValue(value),
-    normalizeCardSearchValue(value, "translit"),
-  ].filter(Boolean);
+  const decoded = decodeCardQuery(value);
+  const parts = new Set();
+  if (decoded) {
+    parts.add(decoded);
+    const withoutArticle = stripGermanArticle(decoded);
+    if (withoutArticle) parts.add(withoutArticle);
+    for (const segment of splitCardSearchSegments(decoded)) {
+      parts.add(segment);
+      const bare = stripGermanArticle(segment);
+      if (bare) parts.add(bare);
+    }
+  }
+  const keys = [];
+  for (const part of parts) {
+    const normalized = normalizeCardSearchValue(part);
+    const translit = normalizeCardSearchValue(part, "translit");
+    if (normalized && !isGermanArticleToken(normalized)) keys.push(normalized);
+    if (translit && !isGermanArticleToken(translit)) keys.push(translit);
+  }
   return [...new Set(keys)];
 }
 
@@ -4419,7 +4445,7 @@ function cardSearchCandidates(entry) {
   const study = entry.study || {};
   const wordItems = Array.isArray(study.words) ? study.words : [];
   const wordsDe = wordItems.map((item) => item.de || item.word).filter(Boolean);
-  const candidates = [
+  const rawCandidates = [
     entry.id,
     study.id,
     entry.word,
@@ -4429,12 +4455,40 @@ function cardSearchCandidates(entry) {
     entry.title,
     study.title,
     study.subtitle,
-    wordsDe.join(" "),
+    study.translation,
+    entry.lv,
+    formatGermanEntry(entry),
+    entry.de_plural,
+    ...wordsDe,
+    ...splitCardSearchSegments(entry.de),
+    ...splitCardSearchSegments(study.subtitle),
+    ...splitCardSearchSegments(study.title),
   ].filter(Boolean);
-  return [
-    ...candidates,
-    ...candidates.map(stripGermanArticle).filter(Boolean),
-  ];
+
+  const expanded = new Set();
+  for (const candidate of rawCandidates) {
+    expanded.add(candidate);
+    const bare = stripGermanArticle(candidate);
+    if (bare) expanded.add(bare);
+    for (const segment of splitCardSearchSegments(candidate)) {
+      expanded.add(segment);
+      const segmentBare = stripGermanArticle(segment);
+      if (segmentBare) expanded.add(segmentBare);
+    }
+  }
+  return [...expanded];
+}
+
+function resolveSearchCard(entry) {
+  if (!entry) return null;
+  const targetId = entry.id || entry.study?.id;
+  const targetDe = entry.de;
+  const targetLevel = entry.level;
+  const found = flashcards.find((card) => (
+    (targetId && (card.id === targetId || card.study?.id === targetId))
+    || (targetDe && card.de === targetDe && (card.level || "A1") === targetLevel)
+  ));
+  return found || entry;
 }
 
 function findCardByQuery(query) {
@@ -4451,12 +4505,12 @@ function findCardByQuery(query) {
       ]
     : entries;
 
-  return orderedEntries.find((entry) => (
+  return resolveSearchCard(orderedEntries.find((entry) => (
     cardSearchCandidates(entry).some((candidate) => {
       const candidateKeys = cardSearchKeys(candidate);
       return candidateKeys.some((key) => queryKeys.includes(key));
     })
-  )) || null;
+  )) || null);
 }
 
 function showStudyCardNotFoundMessage() {
