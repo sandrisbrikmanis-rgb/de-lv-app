@@ -317,6 +317,7 @@ const COMPARISON_CARD_IDS = new Set([
   "compare-bitte-die-bitte",
   "compare-morgen-der-morgen",
   "compare-mal-einmal-nochmal",
+  "compare-sie-sie-sie",
 ]);
 
 // Required subtitles: nouns must include articles (der/die/das)
@@ -331,6 +332,7 @@ const COMPARISON_SUBTITLES = {
   "compare-bitte-die-bitte": "bitte • die Bitte",
   "compare-morgen-der-morgen": "morgen • der Morgen",
   "compare-mal-einmal-nochmal": "mal • einmal • noch mal",
+  "compare-sie-sie-sie": "sie • sie • Sie",
 };
 
 // Base words covered by comparison cards — absence from standalone entries is OK
@@ -344,6 +346,7 @@ const COMPARISON_COVERED_WORDS = new Set([
   "laut", "Laut",
   "bitte", "Bitte",
   "morgen", "Morgen",
+  "sie", "Sie",
 ]);
 
 const LITER_STUDY_EXPLANATION =
