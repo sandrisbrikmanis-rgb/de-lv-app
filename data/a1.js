@@ -1370,7 +1370,7 @@ const A1_WORDS = [
       "translation": "uz • virsū • kurp?",
       "explanation": [
         "aufs ir prievārda auf un artikula das saīsinājums.",
-        "Pilnā forma: auf das (Akkusativ).",
+        "Pilnā forma: auf das (kurp?).",
         "Lieto, kad darbība norāda virzienu uz konkrētu lietu vai virsmu — atbild uz jautājumu kurp?",
         "Bieži lieto ar kustību: uzkāpt, apsēsties, nolikt, braukt uz kaut ko.",
         "Sarunvalodā un ikdienā gandrīz vienmēr lieto aufs, nevis pilno auf das."
@@ -1432,16 +1432,16 @@ const A1_WORDS = [
         },
         {
           "word": "zum",
-          "meaning": "uz / pie (Dativ)",
+          "meaning": "uz / pie (kam?)",
           "example": "zum Arzt – pie ārsta"
         }
       ],
       "tip": [
-        "Atceries: auf + das → aufs (Akkusativ, kurp?).",
+        "Atceries: auf + das → aufs (kurp?, kurp?).",
         "Sarunvalodā gandrīz nekad nesaka pilno auf das — lieto aufs."
       ],
       "important": [
-        "aufs = auf das, tikai ar nekatras dzimtes lietvārdu Akkusativā.",
+        "aufs = auf das, tikai ar nekatras dzimtes lietvārdu kurp? locījumā.",
         "Atbild uz kurp? — kustība uz konkrētu vietu vai virsmu.",
         "Uz horizontālas virsmas bieži lieto auf den, nevis aufs.",
         "Nesajauc ar an (pie sienas) vai ins (iekš telpas)."
@@ -1458,7 +1458,7 @@ const A1_WORDS = [
             "kurp?"
           ],
           "green": [
-            "Akkusativ",
+            "kurp?",
             "kustība"
           ]
         },
@@ -1668,7 +1668,7 @@ const A1_WORDS = [
               "auf das"
             ],
             "green": [
-              "Akkusativ"
+              "kurp?"
             ]
           },
           {
@@ -5574,7 +5574,7 @@ const A1_WORDS = [
       "id": "a1-euch",
       "layout": "standardStudy",
       "translation": "jūs • jums",
-      "explanation": "“euch” ir vietniekvārds 2. personas daudzskaitlī. To lieto gan kā tiešo papildinājumu (Akkusativ) — “jūs”, gan kā netiešo papildinājumu (Dativ) — “jums”.",
+      "explanation": "“euch” ir vietniekvārds 2. personas daudzskaitlī. To lieto gan kā tiešo papildinājumu (kurp?) — “jūs”, gan kā netiešo papildinājumu (kam?) — “jums”.",
       "examples": [
         {
           "de": "Ich sehe euch.",
@@ -5615,8 +5615,8 @@ const A1_WORDS = [
         }
       ],
       "info": [
-        "ihr = jūs (Nominativs)",
-        "euch = jūs (Akkusativs) / jums (Dativs)",
+        "ihr = jūs (teikuma priekšmeta forma)",
+        "euch = jūs (kurp? forma) / jums (kam? forma)",
         "euer = jūsu (piederības forma)"
       ],
       "tip": {
@@ -7011,7 +7011,7 @@ const A1_WORDS = [
       "explanation": [
         "Galvenā doma: haben nozīmē, ka kādam kaut kas ir.",
         "Latviski ļoti bieži tulko ar “man ir”, “tev ir”, “viņam ir”.",
-        "haben lieto arī kā palīgdarbības vārdu perfektā.",
+        "haben lieto arī kā palīgdarbības vārdu pagātnes laikā ar palīgvārdu.",
         "A1 līmenī svarīgākais ir saprast: Ich habe = man ir."
       ],
       "examples": [
@@ -7059,7 +7059,7 @@ const A1_WORDS = [
       },
       "important": [
         "Latviski nesaka “es habēju”. Parasti tulko kā “man ir”.",
-        "Perfektā haben ir palīgvārds: Ich habe gelernt = es mācījos / esmu mācījies."
+        "pagātnes laikā ar palīgvārdu haben ir palīgvārds: Ich habe gelernt = es mācījos / esmu mācījies."
       ],
       "sectionAccents": {
         "explanation": {
@@ -7889,7 +7889,7 @@ const A1_WORDS = [
       "translation": "iekšā (-ā) • kur?",
       "explanation": [
         "im ir prievārda in un artikula dem saīsinājums.",
-        "Pilnā forma: in dem (Dativ).",
+        "Pilnā forma: in dem (kam?).",
         "Lieto ar vīriešu un nekatras dzimtes lietvārdiem, kad atbild uz jautājumu kur? — atrašanās vieta.",
         "Ar laiku un gadalaikiem: im Januar, im Sommer, im Winter.",
         "Praksē gandrīz vienmēr lieto im, nevis pilno in dem."
@@ -7931,7 +7931,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "im",
-          "meaning": "iekšā, kur? (Dativ)",
+          "meaning": "iekšā, kur? (kam?)",
           "example": "im Park – parkā"
         },
         {
@@ -7946,7 +7946,7 @@ const A1_WORDS = [
         },
         {
           "word": "am",
-          "meaning": "pie, kur? (Dativ)",
+          "meaning": "pie, kur? (kam?)",
           "example": "am Fenster – pie loga"
         },
         {
@@ -7956,11 +7956,11 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Atceries: in + dem → im (Dativ, kur?).",
+        "Atceries: in + dem → im (kam?, kur?).",
         "Kurp? → ins; kur? → im — nesajauc šos divus!"
       ],
       "important": [
-        "im = in dem, tikai ar vīriešu vai nekatras dzimtes lietvārdu Dativā.",
+        "im = in dem, tikai ar vīriešu vai nekatras dzimtes lietvārdu kam? locījumā.",
         "Atbild uz kur?, nevis kurp? — atrašanās vieta, nevis kustība.",
         "Ar mēnešiem un gadalaikiem: im März, im Herbst.",
         "Sieviešu dzimtei: in der Schule, nevis im Schule."
@@ -7976,7 +7976,7 @@ const A1_WORDS = [
             "kur?"
           ],
           "green": [
-            "Dativ",
+            "kam?",
             "atrašanās vieta"
           ]
         },
@@ -8191,7 +8191,7 @@ const A1_WORDS = [
               "in dem"
             ],
             "green": [
-              "Dativ"
+              "kam?"
             ]
           },
           {
@@ -8451,7 +8451,7 @@ const A1_WORDS = [
       "translation": "iekšā • uz iekšu • kurp?",
       "explanation": [
         "ins ir prievārda in un artikula das saīsinājums.",
-        "Pilnā forma: in das (Akkusativ).",
+        "Pilnā forma: in das (kurp?).",
         "Lieto ar nekatras dzimtes lietvārdiem, kad atbild uz jautājumu kurp? — kustība uz iekšu.",
         "Bieži ar darbības vārdiem: gehen, fahren, kommen, legen, stecken.",
         "Praksē gandrīz vienmēr lieto ins, nevis pilno in das."
@@ -8498,7 +8498,7 @@ const A1_WORDS = [
         },
         {
           "word": "im",
-          "meaning": "iekšā, kur? (Dativ)",
+          "meaning": "iekšā, kur? (kam?)",
           "example": "im Kino – kino"
         },
         {
@@ -8513,16 +8513,16 @@ const A1_WORDS = [
         },
         {
           "word": "zum",
-          "meaning": "uz / pie (Dativ)",
+          "meaning": "uz / pie (kam?)",
           "example": "zum Arzt – pie ārsta"
         }
       ],
       "tip": [
-        "Atceries: in + das → ins (Akkusativ, kurp?).",
+        "Atceries: in + das → ins (kurp?, kurp?).",
         "Kurp? → ins; kur? → im — šis ir galvenais atšķirības punkts!"
       ],
       "important": [
-        "ins = in das, tikai ar nekatras dzimtes lietvārdu Akkusativā.",
+        "ins = in das, tikai ar nekatras dzimtes lietvārdu kurp? locījumā.",
         "Atbild uz kurp?, nevis kur? — kustība, nevis atrašanās vieta.",
         "Vīriešu dzimtei: in den Wald; sieviešu: in die Schule.",
         "Nesajauc: ins Kino gehen (uz kino) vs. im Kino sein (būt kino)."
@@ -8539,7 +8539,7 @@ const A1_WORDS = [
             "kurp?"
           ],
           "green": [
-            "Akkusativ",
+            "kurp?",
             "kustība"
           ]
         },
@@ -8756,7 +8756,7 @@ const A1_WORDS = [
               "in das"
             ],
             "green": [
-              "Akkusativ"
+              "kurp?"
             ]
           },
           {
@@ -11347,233 +11347,140 @@ const A1_WORDS = [
     "de": "Mal",
     "de_article": "das",
     "de_plural": "die Male",
-    "lv": "reiz • kādreiz",
+    "lv": "reize",
     "level": "A1",
     "study": {
       "id": "a1-mal",
       "layout": "standardStudy",
-      "translation": "reiz • kādreiz",
+      "translation": "reize",
       "explanation": [
-        "Galvenā doma: mal sarunvalodā bieži nozīmē reiz, kādreiz vai vienkārši padara teikumu draudzīgāku.",
-        "Ar skaitļiem mal var nozīmēt reizi vai reižu.",
-        "Lūgumos mal bieži nav jātulko burtiski.",
-        "A1 līmenī svarīgākās frāzes ir einmal, noch mal un Schau mal!"
+        "Galvenā doma: das Mal nozīmē reizi kā notikumu vai gadījumu.",
+        "Bieži lieto ar skaitļiem: ein Mal, zwei Mal, drei Mal.",
+        "Ar kārtas skaitli: das erste Mal, das zweite Mal.",
+        "Nesarunāj ar sarunvalodas daļiņu mal (Komm mal her!) — tā ir cita nozīme."
       ],
       "examples": [
         {
-          "de": "Komm mal her!",
-          "lv": "nāc šurp!"
+          "de": "Das erste Mal war schwer.",
+          "lv": "pirmo reizi bija grūti."
         },
         {
-          "de": "Schau mal!",
-          "lv": "paskaties!"
+          "de": "Ich war schon zwei Mal in Berlin.",
+          "lv": "es jau divreiz biju Berlīnē."
         },
         {
-          "de": "Noch mal, bitte.",
-          "lv": "vēlreiz, lūdzu."
+          "de": "Ein Mal reicht.",
+          "lv": "vienreiz pietiek."
         },
         {
-          "de": "Ich war einmal in Berlin.",
-          "lv": "es reiz biju Berlīnē."
-        }
-      ],
-      "comparison": [
-        {
-          "word": "mal",
-          "meaning": "reiz / sarunvalodas daļiņa",
-          "example": "Komm mal her!"
-        },
-        {
-          "word": "einmal",
-          "meaning": "vienreiz / reiz",
-          "example": "Ich war einmal dort."
-        },
-        {
-          "word": "noch mal",
-          "meaning": "vēlreiz",
-          "example": "Sag das noch mal."
-        },
-        {
-          "word": "manchmal",
-          "meaning": "dažreiz",
-          "example": "Manchmal bin ich müde."
+          "de": "Noch ein Mal, bitte!",
+          "lv": "vēl vienu reizi, lūdzu!"
         }
       ],
       "tip": {
-        "text": "Atceries: noch mal = vēlreiz; Schau mal! = paskaties!"
+        "text": "Atceries: das Mal = reize (lietvārds); mal bez artikula = sarunvalodas daļiņa."
       },
       "important": [
-        "mal lūgumos bieži netulko atsevišķi.",
-        "Komm mal her! latviski dabiski ir “Nāc šurp!”, nevis “Nāc reiz šurp!”."
+        "das Mal / die Male — lietvārds ar artikulu.",
+        "ein Mal, zwei Mal — skaita reizes.",
+        "mal bez artikula (Komm mal her!) nav tas pats, kas das Mal."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "mal",
-            "einmal",
-            "noch mal",
-            "Schau mal"
+            "das Mal",
+            "ein Mal",
+            "zwei Mal",
+            "das erste Mal"
           ],
           "purple": [
-            "reiz",
-            "kādreiz",
-            "draudzīgāku",
             "reizi",
-            "reižu"
+            "notikumu",
+            "gadījumu"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "mal"
+                "erste Mal"
               ]
             },
             "lv": {
               "purple": [
-                "nāc šurp"
+                "pirmo reizi"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Schau mal"
+                "zwei Mal"
               ]
             },
             "lv": {
               "purple": [
-                "paskaties"
+                "divreiz"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Noch mal"
+                "Ein Mal"
               ]
             },
             "lv": {
               "purple": [
-                "vēlreiz"
+                "vienreiz"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "einmal"
+                "ein Mal"
               ]
             },
             "lv": {
               "purple": [
-                "reiz"
-              ]
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "mal"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "reiz",
-                "daļiņa"
-              ]
-            },
-            "example": {
-              "blue": [
-                "mal"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "einmal"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "vienreiz",
-                "reiz"
-              ]
-            },
-            "example": {
-              "green": [
-                "einmal"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "noch mal"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "vēlreiz"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "noch mal"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "manchmal"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "dažreiz"
-              ]
-            },
-            "example": {
-              "red": [
-                "Manchmal"
+                "reizi"
               ]
             }
           }
         ],
         "tip": {
-          "left": {
-            "blue": [
-              "noch mal",
-              "Schau mal"
-            ],
-            "purple": [
-              "vēlreiz",
-              "paskaties"
-            ]
-          }
+          "blue": [
+            "das Mal",
+            "mal"
+          ],
+          "purple": [
+            "lietvārds",
+            "daļiņa"
+          ]
         },
         "important": [
+          {
+            "blue": [
+              "das Mal",
+              "die Male"
+            ]
+          },
+          {
+            "blue": [
+              "ein Mal",
+              "zwei Mal"
+            ],
+            "purple": [
+              "reizes"
+            ]
+          },
           {
             "blue": [
               "mal"
             ],
             "purple": [
-              "netulko"
-            ]
-          },
-          {
-            "blue": [
-              "Komm mal her"
-            ],
-            "purple": [
-              "nāc šurp"
-            ],
-            "red": [
-              "Nāc reiz šurp"
+              "das Mal"
             ]
           }
         ]
@@ -14632,7 +14539,89 @@ const A1_WORDS = [
     "de": "Reis",
     "de_article": "der",
     "lv": "rīsi",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-reis",
+      "layout": "standardStudy",
+      "translation": "rīsi",
+      "explanation": "Vācu valodā vārdu „der Reis” lieto tikai vienskaitlī, tāpēc teikumā darbības vārdam jābūt vienskaitļa formā (piemēram, „ist”, nevis „sind”). Latviski tomēr bieži saka „rīsi”.",
+      "examples": [
+        {
+          "de": "Der Reis ist fertig.",
+          "lv": "rīsi ir gatavi."
+        },
+        {
+          "de": "Ich esse Reis.",
+          "lv": "es ēdu rīsus."
+        },
+        {
+          "de": "Kochst du Reis?",
+          "lv": "vai tu gatavo rīsus?"
+        },
+        {
+          "de": "Der Reis schmeckt gut.",
+          "lv": "rīsi garšo labi."
+        }
+      ],
+      "tip": {
+        "text": "Atceries: der Reis ir vienskaitlis vāciski, bet latviski parasti — rīsi."
+      },
+      "important": [
+        "der Reis — vācu valodā tikai vienskaitlis (Der Reis ist..., nicht *sind).",
+        "Latviski tulkojumā bieži lieto daudzskaitli: rīsi ir gatavi."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "der Reis",
+            "ist"
+          ],
+          "purple": [
+            "vienskaitlis",
+            "rīsi"
+          ],
+          "red": [
+            "sind"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Reis",
+                "ist"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "rīsi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Reis"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "rīsus"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "der Reis"
+          ],
+          "purple": [
+            "vienskaitlis",
+            "rīsi"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "richtig",
@@ -18044,7 +18033,7 @@ const A1_WORDS = [
       "translation": "no",
       "explanation": [
         "vom ir prievārda von un artikula dem saīsinājums.",
-        "Pilnā forma: von dem (Dativ).",
+        "Pilnā forma: von dem (kam?).",
         "Lieto ar vīriešu un nekatras dzimtes lietvārdiem, kad norāda izcelsmi vai virzienu no kā.",
         "Atbild uz jautājumiem no kā? vai no kurienes?",
         "Praksē gandrīz vienmēr lieto vom, nevis pilno von dem."
@@ -18086,7 +18075,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "vom",
-          "meaning": "no (konkrēta lieta, Dativ)",
+          "meaning": "no (konkrēta lieta, kam?)",
           "example": "vom Bahnhof – no stacijas"
         },
         {
@@ -18111,11 +18100,11 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Atceries: von + dem → vom (Dativ).",
+        "Atceries: von + dem → vom (kam?).",
         "Sarunvalodā gandrīz nekad nesaka von dem — lieto vom."
       ],
       "important": [
-        "vom = von dem, tikai ar vīriešu vai nekatras dzimtes lietvārdu Dativā.",
+        "vom = von dem, tikai ar vīriešu vai nekatras dzimtes lietvārdu kam? locījumā.",
         "Norāda izcelsmi, avotu vai virzienu no kā konkrēta.",
         "Sieviešu dzimtei: von der Mutter, nevis vom Mutter.",
         "Nesajauc ar aus (izcelsme no valsts) vai ab (sākuma punkts)."
@@ -18130,7 +18119,7 @@ const A1_WORDS = [
             "no"
           ],
           "green": [
-            "Dativ",
+            "kam?",
             "izcelsme"
           ]
         },
@@ -18340,7 +18329,7 @@ const A1_WORDS = [
               "von dem"
             ],
             "green": [
-              "Dativ"
+              "kam?"
             ]
           },
           {
@@ -19273,7 +19262,7 @@ const A1_WORDS = [
         "Galvenā doma: zu ļoti bieži nozīmē uz vai pie, bet tam ir arī loma ar infinitīvu.",
         "Ar cilvēkiem un iestādēm zu bieži nozīmē pie vai uz.",
         "Ar īpašības vārdiem zu var nozīmēt pārāk.",
-        "Konstrukcijā zu + Infinitiv tas palīdz veidot nenoteiksmi: zu lernen, zu gehen."
+        "Konstrukcijā zu + nenoteiksme tas palīdz veidot nenoteiksmi: zu lernen, zu gehen."
       ],
       "examples": [
         {
@@ -19754,7 +19743,7 @@ const A1_WORDS = [
       "translation": "uz • pie",
       "explanation": [
         "zum ir prievārda zu un artikula dem saīsinājums.",
-        "Pilnā forma: zu dem (Dativ).",
+        "Pilnā forma: zu dem (kam?).",
         "Lieto ar vīriešu un nekatras dzimtes lietvārdiem, kad norāda virzienu vai mērķi.",
         "Bieži nozīmē uz kaut ko vai pie kā — pie ārsta, uz staciju, pie drauga.",
         "Praksē gandrīz vienmēr lieto zum, nevis pilno zu dem."
@@ -19796,7 +19785,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "zum",
-          "meaning": "uz / pie (Dativ)",
+          "meaning": "uz / pie (kam?)",
           "example": "zum Arzt – pie ārsta"
         },
         {
@@ -19821,11 +19810,11 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Atceries: zu + dem → zum (Dativ).",
+        "Atceries: zu + dem → zum (kam?).",
         "Sievišķās dzimtes vārdiem: zu + der → zur."
       ],
       "important": [
-        "zum = zu dem, tikai ar vīriešu vai nekatras dzimtes lietvārdu Dativā.",
+        "zum = zu dem, tikai ar vīriešu vai nekatras dzimtes lietvārdu kam? locījumā.",
         "Norāda virzienu vai mērķi: pie ārsta, uz staciju, pie drauga.",
         "Sievišķās dzimtei lieto zur: zur Bank, zur Post.",
         "Nesajauc ar bei (atrašanās pie) vai nach (uz pilsētām bez artikula)."
@@ -19841,7 +19830,7 @@ const A1_WORDS = [
             "pie"
           ],
           "green": [
-            "Dativ",
+            "kam?",
             "mērķis"
           ]
         },
@@ -20057,7 +20046,7 @@ const A1_WORDS = [
               "zu dem"
             ],
             "green": [
-              "Dativ"
+              "kam?"
             ]
           },
           {
@@ -20169,20 +20158,20 @@ const A1_WORDS = [
       "title": "Skatīties TV • Televīzija",
       "subtitle": "fernsehen • das Fernsehen",
       "lead": "fernsehen ir darbība; das Fernsehen ir lieta vai medijs. Tie nav sinonīmi.",
-      "explanation": "fernsehen ir atdalāms darbības vārds: ich sehe fern, du siehst fern. Tas nozīmē skatīties televīziju vai TV pārraidi. das Fernsehen ir lietvārds un Singularetantum — tam nav daudzskaitļa formas.",
+      "explanation": "fernsehen ir darbības vārds, ko var sadalīt: ich sehe fern, du siehst fern. Tas nozīmē skatīties televīziju vai TV pārraidi. das Fernsehen ir lietvārds un tikai vienskaitlis — tam nav daudzskaitļa formas.",
       "words": [
         {
           "icon": "📺",
           "lv": "skatīties TV",
           "de": "fernsehen",
-          "description": "Atdalāms darbības vārds: ich sehe fern. Apraksta darbību — skatīties televīziju.",
+          "description": "darbības vārds, ko var sadalīt: ich sehe fern. Apraksta darbību — skatīties televīziju.",
           "example": "Ich sehe heute Abend fern. = Šovakar es skatos televīziju."
         },
         {
           "icon": "📡",
           "lv": "televīzija",
           "de": "das Fernsehen",
-          "description": "Lietvārds, Singularetantum. Apraksta TV kā mediju vai pārraidi kopumā.",
+          "description": "Lietvārds, tikai vienskaitlis. Apraksta TV kā mediju vai pārraidi kopumā.",
           "example": "Was gibt es heute im Fernsehen? = Ko šodien rāda televīzijā?"
         }
       ],
@@ -20225,7 +20214,7 @@ const A1_WORDS = [
           "lv": "televīzija",
           "de": "das Fernsehen",
           "meaning": "TV kā medijs",
-          "describes": "lietvārdu (Sg.)",
+          "describes": "lietvārdu (tikai vienskaitlī)",
           "example": "Was gibt es heute im Fernsehen?",
           "translation": "ko šodien rāda televīzijā?"
         },
@@ -20241,7 +20230,7 @@ const A1_WORDS = [
           "lv": "programmā",
           "de": "im Fernsehen",
           "meaning": "TV pārraidē",
-          "describes": "Dativ: im Fernsehen",
+          "describes": "kam?: im Fernsehen",
           "example": "Im Fernsehen läuft ein Film.",
           "translation": "televīzijā tiek rādīta filma."
         }
@@ -20249,7 +20238,7 @@ const A1_WORDS = [
       "importantComparison": [
         "Ich sehe fern. = Es skatos televīziju.",
         "Was gibt es im Fernsehen? = Ko rāda televīzijā?",
-        "fernsehen = darbība; das Fernsehen = lieta/medijs (Singularetantum)."
+        "fernsehen = darbība; das Fernsehen = lieta/medijs (tikai vienskaitlis)."
       ],
       "tip": {
         "left": "Ja runā par darbību, lieto fernsehen (ich sehe fern). Ja runā par TV programmu vai mediju, lieto das Fernsehen.",
@@ -20268,7 +20257,7 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "fernsehen ir atdalāms: sehen + fern.",
+        "fernsehen ir sadalāms: sehen + fern.",
         "das Fernsehen nav daudzskaitlī — nav *die Fernsehen.",
         "Ich fernsehe nav pareizs — pareizi: Ich sehe fern."
       ],
@@ -20675,13 +20664,13 @@ const A1_WORDS = [
       "title": "Apetīte • Ēst • Ēdiens",
       "subtitle": "der Appetit • essen • das Essen",
       "lead": "der Appetit ir sajūta, essen ir darbība, das Essen ir lieta vai maltīte.",
-      "explanation": "der Appetit ir Singularetantum — ēstgriba. essen nozīmē ēst. das Essen var nozīmēt ēdienu vai maltīti kopumā. A1 līmenī tie bieži nāk kopā, piemēram: Guten Appetit!",
+      "explanation": "der Appetit ir tikai vienskaitlis — ēstgriba. essen nozīmē ēst. das Essen var nozīmēt ēdienu vai maltīti kopumā. A1 līmenī tie bieži nāk kopā, piemēram: Guten Appetit!",
       "words": [
         {
           "icon": "😋",
           "lv": "ēstgriba",
           "de": "der Appetit",
-          "description": "Sajūta, ka gribas ēst. Singularetantum — nav daudzskaitļa.",
+          "description": "Sajūta, ka gribas ēst. tikai vienskaitlis — nav daudzskaitļa.",
           "example": "Guten Appetit! = Labu apetīti!"
         },
         {
@@ -20730,7 +20719,7 @@ const A1_WORDS = [
           "lv": "ēstgriba",
           "de": "der Appetit",
           "meaning": "vēlme ēst",
-          "describes": "sajūtu (Sg.)",
+          "describes": "sajūtu (tikai vienskaitlī)",
           "example": "Ich habe keinen Appetit.",
           "translation": "man nav apetītes."
         },
@@ -21208,21 +21197,21 @@ const A1_WORDS = [
       "layout": "comparisonStudy",
       "title": "Dārzeņi • Augļi",
       "subtitle": "das Gemüse • das Obst",
-      "lead": "Abi ir nekatras dzimtes (das) un Singularetantum — tos lieto tikai vienskaitlī.",
+      "lead": "Abi ir nekatras dzimtes (das) un tikai vienskaitlis — tos lieto tikai vienskaitlī.",
       "explanation": "das Gemüse nozīmē dārzeņus kopumā. das Obst nozīmē augļus kopumā. Abi ir nekatras dzimtes un nav daudzskaitlī. Latviešu valodā bieži lieto daudzskaitli, bet vāciski pareizi ir: das Gemüse, das Obst.",
       "words": [
         {
           "icon": "🥕",
           "lv": "dārzeņi",
           "de": "das Gemüse",
-          "description": "Visi dārzeņi kopumā. Singularetantum — nav *die Gemüse.",
+          "description": "Visi dārzeņi kopumā. tikai vienskaitlis — nav *die Gemüse.",
           "example": "Ich esse gern Gemüse. = Es labprāt ēdu dārzeņus."
         },
         {
           "icon": "🍎",
           "lv": "augļi",
           "de": "das Obst",
-          "description": "Visi augļi kopumā. Singularetantum — nav *die Obsts.",
+          "description": "Visi augļi kopumā. tikai vienskaitlis — nav *die Obsts.",
           "example": "Wir essen viel Obst. = Mēs ēdam daudz augļu."
         }
       ],
@@ -21257,7 +21246,7 @@ const A1_WORDS = [
           "lv": "dārzeņi",
           "de": "das Gemüse",
           "meaning": "dārzeņi kopumā",
-          "describes": "nekatr. lietv. (Sg.)",
+          "describes": "nekatrā dzimtē (tikai vienskaitlī)",
           "example": "Ich esse gern Gemüse.",
           "translation": "es labprāt ēdu dārzeņus."
         },
@@ -21265,7 +21254,7 @@ const A1_WORDS = [
           "lv": "augļi",
           "de": "das Obst",
           "meaning": "augļi kopumā",
-          "describes": "nekatr. lietv. (Sg.)",
+          "describes": "nekatrā dzimtē (tikai vienskaitlī)",
           "example": "Wir essen viel Obst.",
           "translation": "mēs ēdam daudz augļu."
         },
@@ -21325,7 +21314,7 @@ const A1_WORDS = [
       "remember": [
         "das Gemüse = dārzeņi (kopumā).",
         "das Obst = augļi (kopumā).",
-        "Abi — Singularetantum."
+        "Abi — tikai vienskaitlis."
       ],
       "sectionAccents": {
         "lead": {
@@ -21697,20 +21686,20 @@ const A1_WORDS = [
       "title": "Brīvdienas • Atvaļinājums",
       "subtitle": "die Ferien • der Urlaub",
       "lead": "die Ferien ir skolas brīvdienas; der Urlaub ir atvaļinājums no darba.",
-      "explanation": "die Ferien ir Pluraletantum — vienmēr daudzskaitlī (in den Ferien). Tas attiecas uz skolu, universitāti vai studijām. der Urlaub ir Singularetantum — atvaļinājums no darba (im Urlaub). Abi nozīmē brīvu laiku, bet konteksts ir atšķirīgs.",
+      "explanation": "die Ferien ir tikai daudzskaitlis — vienmēr daudzskaitlī (in den Ferien). Tas attiecas uz skolu, universitāti vai studijām. der Urlaub ir tikai vienskaitlis — atvaļinājums no darba (im Urlaub). Abi nozīmē brīvu laiku, bet konteksts ir atšķirīgs.",
       "words": [
         {
           "icon": "🏫",
           "lv": "brīvdienas (skola)",
           "de": "die Ferien",
-          "description": "Pluraletantum. Skolas vai studiju brīvlaiks — vienmēr daudzskaitlī.",
+          "description": "tikai daudzskaitlis. Skolas vai studiju brīvlaiks — vienmēr daudzskaitlī.",
           "example": "In den Ferien fahren wir ans Meer. = Brīvdienās mēs braucam pie jūras."
         },
         {
           "icon": "🌴",
           "lv": "atvaļinājums",
           "de": "der Urlaub",
-          "description": "Singularetantum. Atvaļinājums no darba — vienmēr vienskaitlī.",
+          "description": "tikai vienskaitlis. Atvaļinājums no darba — vienmēr vienskaitlī.",
           "example": "Mein Vater ist im Urlaub. = Mans tēvs ir atvaļinājumā."
         }
       ],
@@ -21745,7 +21734,7 @@ const A1_WORDS = [
           "lv": "brīvdienas",
           "de": "die Ferien",
           "meaning": "skolas brīvlaiiks",
-          "describes": "Pluraletantum",
+          "describes": "tikai daudzskaitlis",
           "example": "In den Ferien fahren wir ans Meer.",
           "translation": "brīvdienās mēs braucam pie jūras."
         },
@@ -21753,7 +21742,7 @@ const A1_WORDS = [
           "lv": "atvaļinājums",
           "de": "der Urlaub",
           "meaning": "brīvais laiks no darba",
-          "describes": "Singularetantum",
+          "describes": "tikai vienskaitlis",
           "example": "Mein Vater ist im Urlaub.",
           "translation": "mans tēvs ir atvaļinājumā."
         },
@@ -21761,7 +21750,7 @@ const A1_WORDS = [
           "lv": "brīvdienās",
           "de": "in den Ferien",
           "meaning": "skolas konteksts",
-          "describes": "Dativ + Pl.",
+          "describes": "kam? + Pl.",
           "example": "Was macht ihr in den Ferien?",
           "translation": "ko jūs darāt brīvdienās?"
         },
@@ -21769,7 +21758,7 @@ const A1_WORDS = [
           "lv": "atvaļinājumā",
           "de": "im Urlaub",
           "meaning": "darba atvaļinājums",
-          "describes": "Dativ + Sg.",
+          "describes": "kam? + Sg.",
           "example": "Nächste Woche habe ich Urlaub.",
           "translation": "nākamnedēļ man ir atvaļinājums."
         }
@@ -21811,8 +21800,8 @@ const A1_WORDS = [
         }
       ],
       "remember": [
-        "Skola: die Ferien (Pl.).",
-        "Darbs: der Urlaub (Sg.)."
+        "Skola: die Ferien (tikai daudzskaitlī).",
+        "Darbs: der Urlaub (tikai vienskaitlī)."
       ],
       "sectionAccents": {
         "lead": {
@@ -22158,21 +22147,21 @@ const A1_WORDS = [
       "layout": "comparisonStudy",
       "title": "Brāļi un māsas • Vecāki",
       "subtitle": "die Geschwister • die Eltern",
-      "lead": "Abi ir Pluraletantum — tie apzīmē grupu un nav pamata vienskaitļa formas.",
+      "lead": "Abi ir tikai daudzskaitlis — tie apzīmē grupu un nav pamata vienskaitļa formas.",
       "explanation": "die Geschwister nozīmē brāļus un māsas kopā. die Eltern nozīmē vecākus (māti un tēvu). Abi vārdi vienmēr ir daudzskaitlī un sieviešu dzimtē (die). Nav pareizi: der Geschwister, das Elter.",
       "words": [
         {
           "icon": "👫",
           "lv": "brāļi un māsas",
           "de": "die Geschwister",
-          "description": "Pluraletantum. Visi brāļi un māsas kopā — nav vienskaitļa.",
+          "description": "tikai daudzskaitlis. Visi brāļi un māsas kopā — nav vienskaitļa.",
           "example": "Ich habe zwei Geschwister. = Man ir divi brāļi/māsas."
         },
         {
           "icon": "👨‍👩‍👧",
           "lv": "vecāki",
           "de": "die Eltern",
-          "description": "Pluraletantum. Māte un tēvs kopā — vienmēr daudzskaitlī.",
+          "description": "tikai daudzskaitlis. Māte un tēvs kopā — vienmēr daudzskaitlī.",
           "example": "Meine Eltern wohnen in Riga. = Mani vecāki dzīvo Rīgā."
         }
       ],
@@ -22207,7 +22196,7 @@ const A1_WORDS = [
           "lv": "brāļi un māsas",
           "de": "die Geschwister",
           "meaning": "brāļi + māsas",
-          "describes": "Pluraletantum",
+          "describes": "tikai daudzskaitlis",
           "example": "Ich habe zwei Geschwister.",
           "translation": "man ir divi brāļi/māsas."
         },
@@ -22215,7 +22204,7 @@ const A1_WORDS = [
           "lv": "vecāki",
           "de": "die Eltern",
           "meaning": "māte un tēvs",
-          "describes": "Pluraletantum",
+          "describes": "tikai daudzskaitlis",
           "example": "Meine Eltern wohnen in Riga.",
           "translation": "mani vecāki dzīvo Rīgā."
         },
@@ -22223,7 +22212,7 @@ const A1_WORDS = [
           "lv": "brāļiem/māsām",
           "de": "meine Geschwister",
           "meaning": "mana brāļu/māsu grupa",
-          "describes": "possessiv + Pl.",
+          "describes": "piederības forma + daudzskaitlis",
           "example": "Meine Geschwister sind jung.",
           "translation": "mani brāļi un māsas ir jauni."
         },
@@ -22231,7 +22220,7 @@ const A1_WORDS = [
           "lv": "vecākiem",
           "de": "meinen Eltern",
           "meaning": "maniem vecākiem",
-          "describes": "Dativ + Pl.",
+          "describes": "kam? + Pl.",
           "example": "Ich telefoniere mit meinen Eltern.",
           "translation": "es zvanu saviem vecākiem."
         }
@@ -22260,7 +22249,7 @@ const A1_WORDS = [
       "important": [
         "Nav vienskaitļa: *der Schwester als Geschwister-Ersetzung.",
         "Eltern vienmēr ar die — nevis der/das.",
-        "Geschwister un Eltern abi ir die + Pl."
+        "Geschwister un Eltern abi ir die + daudzskaitlis"
       ],
       "mistakes": [
         {
@@ -22273,8 +22262,8 @@ const A1_WORDS = [
         }
       ],
       "remember": [
-        "Geschwister = brāļi un māsas (Pl.).",
-        "Eltern = vecāki (Pl.)."
+        "Geschwister = brāļi un māsas (tikai daudzskaitlī).",
+        "Eltern = vecāki (tikai daudzskaitlī)."
       ],
       "sectionAccents": {
         "lead": {
@@ -22284,7 +22273,7 @@ const A1_WORDS = [
           ],
           "purple": [
             "grupu",
-            "Pluraletantum"
+            "tikai daudzskaitlis"
           ]
         },
         "comparisonCards": [
@@ -22625,20 +22614,20 @@ const A1_WORDS = [
       "title": "Apģērbs • Džinsi • Bikses",
       "subtitle": "die Kleidung • die Jeans • die Hose",
       "lead": "die Kleidung ir apģērbs kopumā; die Jeans un die Hose ir konkrētas lietas ar atšķirīgu skaitļa loģiku.",
-      "explanation": "die Kleidung ir Singularetantum — apģērbs vispār. die Jeans ir Pluraletantum — džinsi vienmēr daudzskaitlī (viens *die Jean neeksistē). die Hose ir parasts lietvārds: viena bikšu pāris (die Hose), vairāki pāri (die Hosen).",
+      "explanation": "die Kleidung ir tikai vienskaitlis — apģērbs vispār. die Jeans ir tikai daudzskaitlis — džinsi vienmēr daudzskaitlī (viens *die Jean neeksistē). die Hose ir parasts lietvārds: viena bikšu pāris (die Hose), vairāki pāri (die Hosen).",
       "words": [
         {
           "icon": "👕",
           "lv": "apģērbs",
           "de": "die Kleidung",
-          "description": "Singularetantum. Apģērbs kopumā — nav daudzskaitļa.",
+          "description": "tikai vienskaitlis. Apģērbs kopumā — nav daudzskaitļa.",
           "example": "Die Kleidung ist neu. = Apģērbs ir jauns."
         },
         {
           "icon": "👖",
           "lv": "džinsi",
           "de": "die Jeans",
-          "description": "Pluraletantum. Džinsu bikses — vienmēr daudzskaitlī.",
+          "description": "tikai daudzskaitlis. Džinsu bikses — vienmēr daudzskaitlī.",
           "example": "Sie trägt heute Jeans. = Viņa šodien valkā džinsus."
         },
         {
@@ -22680,7 +22669,7 @@ const A1_WORDS = [
           "lv": "apģērbs",
           "de": "die Kleidung",
           "meaning": "apģērbs kopumā",
-          "describes": "Singularetantum",
+          "describes": "tikai vienskaitlis",
           "example": "Die Kleidung ist neu.",
           "translation": "apģērbs ir jauns."
         },
@@ -22688,7 +22677,7 @@ const A1_WORDS = [
           "lv": "džinsi",
           "de": "die Jeans",
           "meaning": "džinsu bikses",
-          "describes": "Pluraletantum",
+          "describes": "tikai daudzskaitlis",
           "example": "Sie trägt Jeans.",
           "translation": "viņa valkā džinsus."
         },
@@ -22696,7 +22685,7 @@ const A1_WORDS = [
           "lv": "bikses (viens pāris)",
           "de": "die Hose",
           "meaning": "viens bikšu pāris",
-          "describes": "Sg. → Pl. Hosen",
+          "describes": "vienskaitlis → daudzskaitlis Hosen",
           "example": "Ich kaufe eine Hose.",
           "translation": "es pērku bikses."
         },
@@ -22710,7 +22699,7 @@ const A1_WORDS = [
         }
       ],
       "importantComparison": [
-        "die Kleidung = apģērbs (Sg.).",
+        "die Kleidung = apģērbs (tikai vienskaitlī).",
         "die Jeans = džinsi (vienmēr Pl.).",
         "die Hose / die Hosen = bikses."
       ],
@@ -23221,7 +23210,7 @@ const A1_WORDS = [
           "lv": "pilsētā",
           "de": "in der Stadt",
           "meaning": "pilsētas teritorijā",
-          "describes": "Dativ + Sg.",
+          "describes": "kam? + Sg.",
           "example": "In der Stadt gibt es viele Geschäfte.",
           "translation": "pilsētā ir daudz veikalu."
         },
@@ -23229,7 +23218,7 @@ const A1_WORDS = [
           "lv": "valstīs",
           "de": "die Staaten",
           "meaning": "vairākas valstis",
-          "describes": "Nominativ Pl.",
+          "describes": "daudzskaitļa teikuma priekšmets",
           "example": "Viele Staaten sind in der EU.",
           "translation": "daudzas valstis ir ES."
         }
@@ -24060,6 +24049,492 @@ const A1_WORDS = [
           {
             "yellow": [
               "Zeit"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "mal • einmal • noch mal",
+    "lv": "Reiz • Vienreiz • Vēlreiz",
+    "level": "A1",
+    "study": {
+      "id": "compare-mal-einmal-nochmal",
+      "layout": "comparisonStudy",
+      "title": "Reiz • Vienreiz • Vēlreiz",
+      "subtitle": "mal • einmal • noch mal",
+      "lead": "mal ir sarunvalodas daļiņa; einmal nozīmē vienreiz vai reiz; noch mal nozīmē vēlreiz.",
+      "explanation": "mal sarunvalodā bieži nozīmē reiz, kādreiz vai vienkārši padara teikumu draudzīgāku — lūgumos to bieži netulko burtiski. einmal norāda uz vienu reizi vai pagātni (reiz es...). noch mal nozīmē vēlreiz — atkārtot darbību. A1 līmenī svarīgākās frāzes ir Komm mal her!, Schau mal!, noch mal un Ich war einmal...",
+      "words": [
+        {
+          "icon": "👋",
+          "lv": "reiz • daļiņa",
+          "de": "mal",
+          "description": "Sarunvalodas daļiņa — padara teikumu draudzīgāku vai nozīmē reiz/kādreiz.",
+          "example": "Komm mal her! = Nāc šurp!"
+        },
+        {
+          "icon": "1️⃣",
+          "lv": "vienreiz • reiz",
+          "de": "einmal",
+          "description": "Norāda uz vienu reizi vai pagātni (reiz es biju...).",
+          "example": "Ich war einmal in Berlin. = Es reiz biju Berlīnē."
+        },
+        {
+          "icon": "🔁",
+          "lv": "vēlreiz",
+          "de": "noch mal",
+          "description": "Nozīmē vēlreiz — atkārtot darbību vai lūgt atkārtojumu.",
+          "example": "Noch mal, bitte. = Vēlreiz, lūdzu."
+        }
+      ],
+      "examples": [
+        {
+          "de": "Komm mal her!",
+          "lv": "nāc šurp!"
+        },
+        {
+          "de": "Schau mal!",
+          "lv": "paskaties!"
+        },
+        {
+          "de": "Noch mal, bitte.",
+          "lv": "vēlreiz, lūdzu."
+        },
+        {
+          "de": "Ich war einmal in Berlin.",
+          "lv": "es reiz biju Berlīnē."
+        },
+        {
+          "de": "Sag das noch mal.",
+          "lv": "pasaki to vēlreiz."
+        },
+        {
+          "de": "Hör mal zu!",
+          "lv": "paklausies!"
+        }
+      ],
+      "comparisonTable": [
+        {
+          "lv": "reiz • daļiņa",
+          "de": "mal",
+          "meaning": "kādreiz / draudzīgāks tonis",
+          "describes": "sarunvalodas daļiņu",
+          "example": "Komm mal her!",
+          "translation": "nāc šurp!"
+        },
+        {
+          "lv": "vienreiz • reiz",
+          "de": "einmal",
+          "meaning": "vienu reizi / pagātnē",
+          "describes": "laika apstākli",
+          "example": "Ich war einmal in Berlin.",
+          "translation": "es reiz biju Berlīnē."
+        },
+        {
+          "lv": "vēlreiz",
+          "de": "noch mal",
+          "meaning": "atkārtot darbību",
+          "describes": "frāzi (noch + mal)",
+          "example": "Noch mal, bitte.",
+          "translation": "vēlreiz, lūdzu."
+        },
+        {
+          "lv": "paskaties",
+          "de": "Schau mal!",
+          "meaning": "lūgums paskatīties",
+          "describes": "mal lūgumā",
+          "example": "Schau mal!",
+          "translation": "paskaties!"
+        }
+      ],
+      "importantComparison": [
+        "Komm mal her! = Nāc šurp! (mal netulko atsevišķi)",
+        "Ich war einmal in Berlin. = Es reiz biju Berlīnē.",
+        "Noch mal, bitte. = Vēlreiz, lūdzu."
+      ],
+      "tip": {
+        "left": "Lūgumos mal bieži netulko burtiski. einmal = vienreiz/reiz. noch mal = vēlreiz.",
+        "rightTitle": "ātri",
+        "rightItems": [
+          {
+            "de": "mal",
+            "lv": "daļiņa",
+            "separator": "="
+          },
+          {
+            "de": "einmal",
+            "lv": "vienreiz",
+            "separator": "="
+          },
+          {
+            "de": "noch mal",
+            "lv": "vēlreiz",
+            "separator": "="
+          }
+        ]
+      },
+      "important": [
+        "mal lūgumos bieži netulko atsevišķi.",
+        "Komm mal her! latviski dabiski ir “Nāc šurp!”, nevis “Nāc reiz šurp!”.",
+        "noch mal = vēlreiz; Schau mal! = paskaties!"
+      ],
+      "mistakes": [
+        {
+          "wrong": "Nāc reiz šurp!",
+          "right": "Nāc šurp!"
+        },
+        {
+          "wrong": "Komm noch mal her!",
+          "right": "Komm mal her!"
+        }
+      ],
+      "remember": [
+        "mal = sarunvalodas daļiņa (Komm mal her!).",
+        "einmal = vienreiz vai reiz pagātnē.",
+        "noch mal = vēlreiz."
+      ],
+      "sectionAccents": {
+        "lead": {
+          "blue": [
+            "mal"
+          ],
+          "green": [
+            "einmal"
+          ],
+          "yellow": [
+            "noch mal"
+          ],
+          "purple": [
+            "daļiņa",
+            "vienreiz",
+            "vēlreiz"
+          ]
+        },
+        "comparisonCards": [
+          {
+            "lv": {
+              "purple": [
+                "reiz",
+                "daļiņa"
+              ]
+            },
+            "de": {
+              "blue": [
+                "mal"
+              ]
+            },
+            "example": {
+              "blue": [
+                "mal"
+              ],
+              "purple": [
+                "šurp"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "vienreiz",
+                "reiz"
+              ]
+            },
+            "de": {
+              "green": [
+                "einmal"
+              ]
+            },
+            "example": {
+              "green": [
+                "einmal"
+              ],
+              "purple": [
+                "reiz"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "vēlreiz"
+              ]
+            },
+            "de": {
+              "yellow": [
+                "noch mal"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "Noch mal"
+              ],
+              "purple": [
+                "vēlreiz"
+              ]
+            }
+          }
+        ],
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "mal"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nāc šurp"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Schau mal"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "paskaties"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "Noch mal"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vēlreiz"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "einmal"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "reiz"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "noch mal"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vēlreiz"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "mal"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "paklausies"
+              ]
+            }
+          }
+        ],
+        "comparisonTable": [
+          {
+            "lv": {
+              "purple": [
+                "reiz",
+                "daļiņa"
+              ]
+            },
+            "de": {
+              "blue": [
+                "mal"
+              ]
+            },
+            "example": {
+              "blue": [
+                "mal"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "nāc šurp"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "vienreiz",
+                "reiz"
+              ]
+            },
+            "de": {
+              "green": [
+                "einmal"
+              ]
+            },
+            "example": {
+              "green": [
+                "einmal"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "reiz"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "vēlreiz"
+              ]
+            },
+            "de": {
+              "yellow": [
+                "noch mal"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "Noch mal"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "vēlreiz"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "paskaties"
+              ]
+            },
+            "de": {
+              "blue": [
+                "Schau mal"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Schau mal"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "paskaties"
+              ]
+            }
+          }
+        ],
+        "importantComparison": [
+          {
+            "blue": [
+              "mal"
+            ],
+            "purple": [
+              "šurp"
+            ]
+          },
+          {
+            "green": [
+              "einmal"
+            ],
+            "purple": [
+              "reiz"
+            ]
+          },
+          {
+            "yellow": [
+              "noch mal"
+            ],
+            "purple": [
+              "vēlreiz"
+            ]
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "mal"
+            ],
+            "green": [
+              "einmal"
+            ],
+            "yellow": [
+              "noch mal"
+            ],
+            "purple": [
+              "daļiņa",
+              "vienreiz",
+              "vēlreiz"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "mal"
+            ],
+            "purple": [
+              "netulko"
+            ]
+          },
+          {
+            "blue": [
+              "Komm mal her"
+            ],
+            "purple": [
+              "nāc šurp"
+            ],
+            "red": [
+              "Nāc reiz šurp"
+            ]
+          }
+        ],
+        "mistakes": [
+          {
+            "wrong": {
+              "red": [
+                "reiz šurp"
+              ]
+            },
+            "right": {
+              "purple": [
+                "šurp"
+              ]
+            }
+          }
+        ],
+        "remember": [
+          {
+            "blue": [
+              "mal"
+            ]
+          },
+          {
+            "green": [
+              "einmal"
+            ]
+          },
+          {
+            "yellow": [
+              "noch mal"
             ]
           }
         ]

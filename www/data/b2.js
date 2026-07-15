@@ -251,9 +251,9 @@ const B2_WORDS = [
       "id": "b2-sich-abfinden",
       "layout": "minimalStudy",
       "translation": "samierināties ar",
-      "rektion": "mit + Dativ",
-      "explanation": "sich abfinden prasa fiksētu prievārdu mit + Dativ.",
-      "forms": "mit + Dativ",
+      "rektion": "mit + kam?",
+      "explanation": "sich abfinden nepieciešams noteikts prievārds mit + kam?.",
+      "forms": "mit + kam?",
       "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
@@ -261,7 +261,7 @@ const B2_WORDS = [
             "sich abfinden"
           ],
           "red": [
-            "mit + Dativ"
+            "mit + kam?"
           ],
           "purple": [
             "samierināties ar"
@@ -467,9 +467,9 @@ const B2_WORDS = [
       "id": "b2-sich-abwenden",
       "layout": "minimalStudy",
       "translation": "novērsties no",
-      "rektion": "von + Dativ",
-      "explanation": "sich abwenden prasa fiksētu prievārdu von + Dativ.",
-      "forms": "von + Dativ",
+      "rektion": "von + kam?",
+      "explanation": "sich abwenden nepieciešams noteikts prievārds von + kam?.",
+      "forms": "von + kam?",
       "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
@@ -477,7 +477,7 @@ const B2_WORDS = [
             "sich abwenden"
           ],
           "red": [
-            "von + Dativ"
+            "von + kam?"
           ],
           "purple": [
             "novērsties no"
@@ -925,9 +925,9 @@ const B2_WORDS = [
       "id": "b2-sich-befassen",
       "layout": "minimalStudy",
       "translation": "nodarboties ar",
-      "rektion": "mit + Dativ",
-      "explanation": "sich befassen prasa fiksētu prievārdu mit + Dativ.",
-      "forms": "mit + Dativ",
+      "rektion": "mit + kam?",
+      "explanation": "sich befassen nepieciešams noteikts prievārds mit + kam?.",
+      "forms": "mit + kam?",
       "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
@@ -935,7 +935,7 @@ const B2_WORDS = [
             "sich befassen"
           ],
           "red": [
-            "mit + Dativ"
+            "mit + kam?"
           ],
           "purple": [
             "nodarboties ar"
@@ -981,9 +981,9 @@ const B2_WORDS = [
       "id": "b2-sich-begnuegen",
       "layout": "minimalStudy",
       "translation": "apmierināties ar",
-      "rektion": "mit + Dativ",
-      "explanation": "sich begnügen prasa fiksētu prievārdu mit + Dativ.",
-      "forms": "mit + Dativ",
+      "rektion": "mit + kam?",
+      "explanation": "sich begnügen nepieciešams noteikts prievārds mit + kam?.",
+      "forms": "mit + kam?",
       "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
@@ -991,7 +991,7 @@ const B2_WORDS = [
             "sich begnügen"
           ],
           "red": [
-            "mit + Dativ"
+            "mit + kam?"
           ],
           "purple": [
             "apmierināties ar"
@@ -1163,9 +1163,9 @@ const B2_WORDS = [
       "id": "b2-sich-bemaechtigen",
       "layout": "minimalStudy",
       "translation": "sagrābt • saņemt savā varā",
-      "rektion": "+ Genitiv",
-      "explanation": "sich bemächtigen mūsdienu vāciski lieto ar Genitiv bez prievārda.",
-      "forms": "+ Genitiv",
+      "rektion": "+ piederības forma",
+      "explanation": "sich bemächtigen mūsdienu vāciski lieto ar piederības formu bez prievārda.",
+      "forms": "+ piederības forma",
       "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
@@ -1173,7 +1173,7 @@ const B2_WORDS = [
             "sich bemächtigen"
           ],
           "red": [
-            "+ Genitiv"
+            "+ piederības forma"
           ],
           "purple": [
             "sagrābt",
@@ -1256,9 +1256,9 @@ const B2_WORDS = [
       "id": "b2-sich-berufen",
       "layout": "minimalStudy",
       "translation": "atsaukties uz",
-      "rektion": "auf + Akkusativ",
-      "explanation": "sich berufen prasa fiksētu prievārdu auf + Akkusativ.",
-      "forms": "auf + Akkusativ",
+      "rektion": "auf + ko?",
+      "explanation": "sich berufen nepieciešams noteikts prievārds auf + ko?.",
+      "forms": "auf + ko?",
       "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
@@ -1266,7 +1266,7 @@ const B2_WORDS = [
             "sich berufen"
           ],
           "red": [
-            "auf + Akkusativ"
+            "auf + ko?"
           ],
           "purple": [
             "atsaukties uz"
@@ -1315,9 +1315,9 @@ const B2_WORDS = [
       "id": "b2-sich-beschraenken",
       "layout": "minimalStudy",
       "translation": "ierobežoties ar",
-      "rektion": "auf + Akkusativ",
-      "explanation": "sich beschränken prasa fiksētu prievārdu auf + Akkusativ.",
-      "forms": "auf + Akkusativ",
+      "rektion": "auf + ko?",
+      "explanation": "sich beschränken nepieciešams noteikts prievārds auf + ko?.",
+      "forms": "auf + ko?",
       "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
@@ -1325,7 +1325,7 @@ const B2_WORDS = [
             "sich beschränken"
           ],
           "red": [
-            "auf + Akkusativ"
+            "auf + ko?"
           ],
           "purple": [
             "ierobežoties ar"
@@ -1418,9 +1418,9 @@ const B2_WORDS = [
       "id": "b2-sich-betaetigen",
       "layout": "minimalStudy",
       "translation": "darboties • piedalīties",
-      "rektion": "in + Dativ",
-      "explanation": "sich betätigen prasa fiksētu prievārdu in + Dativ.",
-      "forms": "in + Dativ",
+      "rektion": "in + kur?",
+      "explanation": "sich betätigen nepieciešams noteikts prievārds in + kur?.",
+      "forms": "in + kur?",
       "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
@@ -1428,7 +1428,7 @@ const B2_WORDS = [
             "sich betätigen"
           ],
           "red": [
-            "in + Dativ"
+            "in + kur?"
           ],
           "purple": [
             "darboties",
@@ -2597,7 +2597,7 @@ const B2_WORDS = [
     "de": "Direktion",
     "de_article": "die",
     "de_plural": "die Direktionen",
-    "lv": "direkcija",
+    "lv": "diprievārdu vadība",
     "level": "B2"
   },
   {
@@ -3595,9 +3595,9 @@ const B2_WORDS = [
       "id": "b2-sich-einlassen",
       "layout": "minimalStudy",
       "translation": "ielaisties",
-      "rektion": "auf + Akkusativ",
-      "explanation": "sich einlassen prasa fiksētu prievārdu auf + Akkusativ.",
-      "forms": "auf + Akkusativ",
+      "rektion": "auf + ko?",
+      "explanation": "sich einlassen nepieciešams noteikts prievārds auf + ko?.",
+      "forms": "auf + ko?",
       "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
@@ -3605,7 +3605,7 @@ const B2_WORDS = [
             "sich einlassen"
           ],
           "red": [
-            "auf + Akkusativ"
+            "auf + ko?"
           ],
           "purple": [
             "ielaisties"
@@ -3647,9 +3647,9 @@ const B2_WORDS = [
       "id": "b2-sich-einpraegen",
       "layout": "minimalStudy",
       "translation": "iegaumēt",
-      "rektion": "in + Akkusativ",
-      "explanation": "sich einprägen prasa fiksētu prievārdu in + Akkusativ.",
-      "forms": "in + Akkusativ",
+      "rektion": "in + ko?",
+      "explanation": "sich einprägen nepieciešams noteikts prievārds in + ko?.",
+      "forms": "in + ko?",
       "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
@@ -3657,7 +3657,7 @@ const B2_WORDS = [
             "sich einprägen"
           ],
           "red": [
-            "in + Akkusativ"
+            "in + ko?"
           ],
           "purple": [
             "iegaumēt"
@@ -3684,9 +3684,9 @@ const B2_WORDS = [
       "id": "b2-sich-einschleichen",
       "layout": "minimalStudy",
       "translation": "ielavīties • iezagties",
-      "rektion": "in + Akkusativ",
-      "explanation": "sich einschleichen prasa fiksētu prievārdu in + Akkusativ.",
-      "forms": "in + Akkusativ",
+      "rektion": "in + ko?",
+      "explanation": "sich einschleichen nepieciešams noteikts prievārds in + ko?.",
+      "forms": "in + ko?",
       "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
@@ -3694,7 +3694,7 @@ const B2_WORDS = [
             "sich einschleichen"
           ],
           "red": [
-            "in + Akkusativ"
+            "in + ko?"
           ],
           "purple": [
             "ielavīties",
@@ -3719,9 +3719,9 @@ const B2_WORDS = [
       "id": "b2-sich-einschraenken",
       "layout": "minimalStudy",
       "translation": "ierobežoties",
-      "rektion": "auf + Akkusativ",
-      "explanation": "sich einschränken prasa fiksētu prievārdu auf + Akkusativ.",
-      "forms": "auf + Akkusativ",
+      "rektion": "auf + ko?",
+      "explanation": "sich einschränken nepieciešams noteikts prievārds auf + ko?.",
+      "forms": "auf + ko?",
       "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
@@ -3729,7 +3729,7 @@ const B2_WORDS = [
             "sich einschränken"
           ],
           "red": [
-            "auf + Akkusativ"
+            "auf + ko?"
           ],
           "purple": [
             "ierobežoties"
@@ -3945,9 +3945,9 @@ const B2_WORDS = [
       "id": "b2-sich-empfehlen",
       "layout": "minimalStudy",
       "translation": "būt ieteicamam",
-      "rektion": "zu + Dativ",
-      "explanation": "sich empfehlen prasa fiksētu prievārdu zu + Dativ.",
-      "forms": "zu + Dativ",
+      "rektion": "zu + kam?",
+      "explanation": "sich empfehlen nepieciešams noteikts prievārds zu + kam?.",
+      "forms": "zu + kam?",
       "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
@@ -3955,7 +3955,7 @@ const B2_WORDS = [
             "sich empfehlen"
           ],
           "red": [
-            "zu + Dativ"
+            "zu + kam?"
           ],
           "purple": [
             "būt ieteicamam"
@@ -3982,9 +3982,9 @@ const B2_WORDS = [
       "id": "b2-sich-empoeren",
       "layout": "minimalStudy",
       "translation": "sašust • sacelties",
-      "rektion": "über + Akkusativ",
-      "explanation": "sich empören prasa fiksētu prievārdu über + Akkusativ.",
-      "forms": "über + Akkusativ",
+      "rektion": "über + ko?",
+      "explanation": "sich empören nepieciešams noteikts prievārds über + ko?.",
+      "forms": "über + ko?",
       "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
@@ -3992,7 +3992,7 @@ const B2_WORDS = [
             "sich empören"
           ],
           "red": [
-            "über + Akkusativ"
+            "über + ko?"
           ],
           "purple": [
             "sašust",
@@ -4089,9 +4089,9 @@ const B2_WORDS = [
       "id": "b2-sich-enthalten",
       "layout": "minimalStudy",
       "translation": "atturēties no",
-      "rektion": "von + Dativ",
-      "explanation": "sich enthalten prasa fiksētu prievārdu von + Dativ.",
-      "forms": "von + Dativ",
+      "rektion": "von + kam?",
+      "explanation": "sich enthalten nepieciešams noteikts prievārds von + kam?.",
+      "forms": "von + kam?",
       "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
@@ -4099,7 +4099,7 @@ const B2_WORDS = [
             "sich enthalten"
           ],
           "red": [
-            "von + Dativ"
+            "von + kam?"
           ],
           "purple": [
             "atturēties no"
@@ -4141,9 +4141,9 @@ const B2_WORDS = [
       "id": "b2-sich-entledigen",
       "layout": "minimalStudy",
       "translation": "atbrīvoties • tikt vaļā",
-      "rektion": "+ Genitiv",
-      "explanation": "sich entledigen mūsdienu vāciski lieto ar Genitiv bez prievārda.",
-      "forms": "+ Genitiv",
+      "rektion": "+ piederības forma",
+      "explanation": "sich entledigen mūsdienu vāciski lieto ar piederības formu bez prievārda.",
+      "forms": "+ piederības forma",
       "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
@@ -4151,7 +4151,7 @@ const B2_WORDS = [
             "sich entledigen"
           ],
           "red": [
-            "+ Genitiv"
+            "+ piederības forma"
           ],
           "purple": [
             "atbrīvoties",
@@ -4184,9 +4184,9 @@ const B2_WORDS = [
       "id": "b2-sich-entruesten",
       "layout": "minimalStudy",
       "translation": "sašust • sadumpoties",
-      "rektion": "über + Akkusativ",
-      "explanation": "sich entrüsten prasa fiksētu prievārdu über + Akkusativ.",
-      "forms": "über + Akkusativ",
+      "rektion": "über + ko?",
+      "explanation": "sich entrüsten nepieciešams noteikts prievārds über + ko?.",
+      "forms": "über + ko?",
       "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
@@ -4194,7 +4194,7 @@ const B2_WORDS = [
             "sich entrüsten"
           ],
           "red": [
-            "über + Akkusativ"
+            "über + ko?"
           ],
           "purple": [
             "sašust",
@@ -4222,9 +4222,9 @@ const B2_WORDS = [
       "id": "b2-sich-entsinnen",
       "layout": "minimalStudy",
       "translation": "atminēties • atcerēties",
-      "rektion": "+ Genitiv",
-      "explanation": "sich entsinnen mūsdienu vāciski lieto ar Genitiv bez prievārda, piemēram: Ich entsinne mich eines Fehlers.",
-      "forms": "+ Genitiv",
+      "rektion": "+ piederības forma",
+      "explanation": "sich entsinnen mūsdienu vāciski lieto ar piederības formu bez prievārda, piemēram: Ich entsinne mich eines Fehlers.",
+      "forms": "+ piederības forma",
       "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
@@ -4232,7 +4232,7 @@ const B2_WORDS = [
             "sich entsinnen"
           ],
           "red": [
-            "+ Genitiv"
+            "+ piederības forma"
           ],
           "purple": [
             "atminēties",
@@ -4356,9 +4356,9 @@ const B2_WORDS = [
       "id": "b2-sich-erbarmen",
       "layout": "minimalStudy",
       "translation": "apžēloties • iežēloties",
-      "rektion": "über + Akkusativ",
-      "explanation": "sich erbarmen prasa fiksētu prievārdu über + Akkusativ.",
-      "forms": "über + Akkusativ",
+      "rektion": "über + ko?",
+      "explanation": "sich erbarmen nepieciešams noteikts prievārds über + ko?.",
+      "forms": "über + ko?",
       "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
@@ -4366,7 +4366,7 @@ const B2_WORDS = [
             "sich erbarmen"
           ],
           "red": [
-            "über + Akkusativ"
+            "über + ko?"
           ],
           "purple": [
             "apžēloties",
@@ -4453,9 +4453,9 @@ const B2_WORDS = [
       "id": "b2-sich-ergeben",
       "layout": "minimalStudy",
       "translation": "izrietēt • padoties",
-      "rektion": "aus + Dativ",
-      "explanation": "sich ergeben prasa fiksētu prievārdu aus + Dativ.",
-      "forms": "aus + Dativ",
+      "rektion": "aus + kam?",
+      "explanation": "sich ergeben nepieciešams noteikts prievārds aus + kam?.",
+      "forms": "aus + kam?",
       "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
@@ -4463,7 +4463,7 @@ const B2_WORDS = [
             "sich ergeben"
           ],
           "red": [
-            "aus + Dativ"
+            "aus + kam?"
           ],
           "purple": [
             "izrietēt",
@@ -4582,9 +4582,9 @@ const B2_WORDS = [
       "id": "b2-sich-erniedrigen",
       "layout": "minimalStudy",
       "translation": "pazemoties",
-      "rektion": "vor + Dativ",
-      "explanation": "sich erniedrigen prasa fiksētu prievārdu vor + Dativ.",
-      "forms": "vor + Dativ",
+      "rektion": "vor + kam?",
+      "explanation": "sich erniedrigen nepieciešams noteikts prievārds vor + kam?.",
+      "forms": "vor + kam?",
       "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
@@ -4592,7 +4592,7 @@ const B2_WORDS = [
             "sich erniedrigen"
           ],
           "red": [
-            "vor + Dativ"
+            "vor + kam?"
           ],
           "purple": [
             "pazemoties"
@@ -4638,9 +4638,9 @@ const B2_WORDS = [
       "id": "b2-sich-erregen",
       "layout": "minimalStudy",
       "translation": "uztraukties par",
-      "rektion": "über + Akkusativ",
-      "explanation": "sich erregen prasa fiksētu prievārdu über + Akkusativ.",
-      "forms": "über + Akkusativ",
+      "rektion": "über + ko?",
+      "explanation": "sich erregen nepieciešams noteikts prievārds über + ko?.",
+      "forms": "über + ko?",
       "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
@@ -4648,7 +4648,7 @@ const B2_WORDS = [
             "sich erregen"
           ],
           "red": [
-            "über + Akkusativ"
+            "über + ko?"
           ],
           "purple": [
             "uztraukties par"
@@ -4783,9 +4783,9 @@ const B2_WORDS = [
       "id": "b2-sich-erweisen",
       "layout": "minimalStudy",
       "translation": "izrādīties par",
-      "rektion": "als + Nominativ",
-      "explanation": "sich erweisen prasa fiksētu prievārdu als + Nominativ.",
-      "forms": "als + Nominativ",
+      "rektion": "als + kas?",
+      "explanation": "sich erweisen nepieciešams noteikts prievārds als + kas?.",
+      "forms": "als + kas?",
       "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
@@ -4793,7 +4793,7 @@ const B2_WORDS = [
             "sich erweisen"
           ],
           "red": [
-            "als + Nominativ"
+            "als + kas?"
           ],
           "purple": [
             "izrādīties par"
@@ -5093,9 +5093,9 @@ const B2_WORDS = [
       "id": "b2-sich-fassen",
       "layout": "minimalStudy",
       "translation": "sagrābt • saņemties • savaldīties",
-      "rektion": "an + Dativ",
-      "explanation": "sich fassen prasa fiksētu prievārdu an + Dativ.",
-      "forms": "an + Dativ",
+      "rektion": "an + kam?",
+      "explanation": "sich fassen nepieciešams noteikts prievārds an + kam?.",
+      "forms": "an + kam?",
       "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
@@ -5103,7 +5103,7 @@ const B2_WORDS = [
             "sich fassen"
           ],
           "red": [
-            "an + Dativ"
+            "an + kam?"
           ],
           "purple": [
             "sagrābt",
@@ -5587,9 +5587,9 @@ const B2_WORDS = [
       "id": "b2-sich-fuegen",
       "layout": "minimalStudy",
       "translation": "pielāgoties • pakļauties",
-      "rektion": "in + Akkusativ",
-      "explanation": "sich fügen prasa fiksētu prievārdu in + Akkusativ.",
-      "forms": "in + Akkusativ",
+      "rektion": "in + ko?",
+      "explanation": "sich fügen nepieciešams noteikts prievārds in + ko?.",
+      "forms": "in + ko?",
       "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
@@ -5597,7 +5597,7 @@ const B2_WORDS = [
             "sich fügen"
           ],
           "red": [
-            "in + Akkusativ"
+            "in + ko?"
           ],
           "purple": [
             "pielāgoties",
@@ -6158,9 +6158,9 @@ const B2_WORDS = [
       "id": "b2-sich-genieren",
       "layout": "minimalStudy",
       "translation": "kaunēties",
-      "rektion": "vor + Dativ",
-      "explanation": "sich genieren prasa fiksētu prievārdu vor + Dativ.",
-      "forms": "vor + Dativ",
+      "rektion": "vor + kam?",
+      "explanation": "sich genieren nepieciešams noteikts prievārds vor + kam?.",
+      "forms": "vor + kam?",
       "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
@@ -6168,7 +6168,7 @@ const B2_WORDS = [
             "sich genieren"
           ],
           "red": [
-            "vor + Dativ"
+            "vor + kam?"
           ],
           "purple": [
             "kaunēties"
@@ -6360,9 +6360,9 @@ const B2_WORDS = [
       "id": "b2-sich-gesellen",
       "layout": "minimalStudy",
       "translation": "pievienoties",
-      "rektion": "zu + Dativ",
-      "explanation": "sich gesellen prasa fiksētu prievārdu zu + Dativ.",
-      "forms": "zu + Dativ",
+      "rektion": "zu + kam?",
+      "explanation": "sich gesellen nepieciešams noteikts prievārds zu + kam?.",
+      "forms": "zu + kam?",
       "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
@@ -6370,7 +6370,7 @@ const B2_WORDS = [
             "sich gesellen"
           ],
           "red": [
-            "zu + Dativ"
+            "zu + kam?"
           ],
           "purple": [
             "pievienoties"
@@ -6415,9 +6415,9 @@ const B2_WORDS = [
       "id": "b2-sich-gestalten",
       "layout": "minimalStudy",
       "translation": "veidoties par",
-      "rektion": "zu + Dativ",
-      "explanation": "sich gestalten prasa fiksētu prievārdu zu + Dativ.",
-      "forms": "zu + Dativ",
+      "rektion": "zu + kam?",
+      "explanation": "sich gestalten nepieciešams noteikts prievārds zu + kam?.",
+      "forms": "zu + kam?",
       "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
@@ -6425,7 +6425,7 @@ const B2_WORDS = [
             "sich gestalten"
           ],
           "red": [
-            "zu + Dativ"
+            "zu + kam?"
           ],
           "purple": [
             "veidoties par"
@@ -6825,9 +6825,9 @@ const B2_WORDS = [
       "id": "b2-sich-grauen",
       "layout": "minimalStudy",
       "translation": "biedēties no",
-      "rektion": "vor + Dativ",
-      "explanation": "sich grauen prasa fiksētu prievārdu vor + Dativ.",
-      "forms": "vor + Dativ",
+      "rektion": "vor + kam?",
+      "explanation": "sich grauen nepieciešams noteikts prievārds vor + kam?.",
+      "forms": "vor + kam?",
       "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
@@ -6835,7 +6835,7 @@ const B2_WORDS = [
             "sich grauen"
           ],
           "red": [
-            "vor + Dativ"
+            "vor + kam?"
           ],
           "purple": [
             "biedēties no"
@@ -7326,9 +7326,9 @@ const B2_WORDS = [
       "id": "b2-sich-herausbilden",
       "layout": "minimalStudy",
       "translation": "izveidoties par",
-      "rektion": "zu + Dativ",
-      "explanation": "sich herausbilden prasa fiksētu prievārdu zu + Dativ.",
-      "forms": "zu + Dativ",
+      "rektion": "zu + kam?",
+      "explanation": "sich herausbilden nepieciešams noteikts prievārds zu + kam?.",
+      "forms": "zu + kam?",
       "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
@@ -7336,7 +7336,7 @@ const B2_WORDS = [
             "sich herausbilden"
           ],
           "red": [
-            "zu + Dativ"
+            "zu + kam?"
           ],
           "purple": [
             "izveidoties par"
@@ -7358,9 +7358,9 @@ const B2_WORDS = [
       "id": "b2-sich-heraushalten",
       "layout": "minimalStudy",
       "translation": "turēties nost no",
-      "rektion": "aus + Dativ",
-      "explanation": "sich heraushalten prasa fiksētu prievārdu aus + Dativ.",
-      "forms": "aus + Dativ",
+      "rektion": "aus + kam?",
+      "explanation": "sich heraushalten nepieciešams noteikts prievārds aus + kam?.",
+      "forms": "aus + kam?",
       "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
@@ -7368,7 +7368,7 @@ const B2_WORDS = [
             "sich heraushalten"
           ],
           "red": [
-            "aus + Dativ"
+            "aus + kam?"
           ],
           "purple": [
             "turēties nost no"
@@ -7390,9 +7390,9 @@ const B2_WORDS = [
       "id": "b2-sich-herausstellen",
       "layout": "minimalStudy",
       "translation": "izrādīties par",
-      "rektion": "als + Nominativ",
-      "explanation": "sich herausstellen prasa fiksētu prievārdu als + Nominativ.",
-      "forms": "als + Nominativ",
+      "rektion": "als + kas?",
+      "explanation": "sich herausstellen nepieciešams noteikts prievārds als + kas?.",
+      "forms": "als + kas?",
       "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
@@ -7400,7 +7400,7 @@ const B2_WORDS = [
             "sich herausstellen"
           ],
           "red": [
-            "als + Nominativ"
+            "als + kas?"
           ],
           "purple": [
             "izrādīties par"
@@ -7437,9 +7437,9 @@ const B2_WORDS = [
       "id": "b2-sich-hervortun",
       "layout": "minimalStudy",
       "translation": "izcelties",
-      "rektion": "in + Dativ",
-      "explanation": "sich hervortun prasa fiksētu prievārdu in + Dativ.",
-      "forms": "in + Dativ",
+      "rektion": "in + kur?",
+      "explanation": "sich hervortun nepieciešams noteikts prievārds in + kur?.",
+      "forms": "in + kur?",
       "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
@@ -7447,7 +7447,7 @@ const B2_WORDS = [
             "sich hervortun"
           ],
           "red": [
-            "in + Dativ"
+            "in + kur?"
           ],
           "purple": [
             "izcelties"
@@ -7533,9 +7533,9 @@ const B2_WORDS = [
       "id": "b2-sich-hingeben",
       "layout": "minimalStudy",
       "translation": "atdoties • nodoties",
-      "rektion": "+ Dativ",
-      "explanation": "sich hingeben prasa + Dativ.",
-      "forms": "+ Dativ",
+      "rektion": "+ kam?",
+      "explanation": "sich hingeben prasa + kam?.",
+      "forms": "+ kam?",
       "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
@@ -7543,7 +7543,7 @@ const B2_WORDS = [
             "sich hingeben"
           ],
           "red": [
-            "+ Dativ"
+            "+ kam?"
           ],
           "purple": [
             "atdoties",
@@ -9466,9 +9466,9 @@ const B2_WORDS = [
       "id": "b2-sich-paaren",
       "layout": "minimalStudy",
       "translation": "pāroties ar",
-      "rektion": "mit + Dativ",
-      "explanation": "sich paaren prasa fiksētu prievārdu mit + Dativ.",
-      "forms": "mit + Dativ",
+      "rektion": "mit + kam?",
+      "explanation": "sich paaren nepieciešams noteikts prievārds mit + kam?.",
+      "forms": "mit + kam?",
       "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
@@ -9476,7 +9476,7 @@ const B2_WORDS = [
             "sich paaren"
           ],
           "red": [
-            "mit + Dativ"
+            "mit + kam?"
           ],
           "purple": [
             "pāroties ar"
@@ -10127,9 +10127,9 @@ const B2_WORDS = [
       "id": "b2-sich-revanchieren",
       "layout": "minimalStudy",
       "translation": "atmaksāt • atriebties",
-      "rektion": "bei + Dativ",
-      "explanation": "sich revanchieren prasa fiksētu prievārdu bei + Dativ.",
-      "forms": "bei + Dativ",
+      "rektion": "bei + kam?",
+      "explanation": "sich revanchieren nepieciešams noteikts prievārds bei + kam?.",
+      "forms": "bei + kam?",
       "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
@@ -10137,7 +10137,7 @@ const B2_WORDS = [
             "sich revanchieren"
           ],
           "red": [
-            "bei + Dativ"
+            "bei + kam?"
           ],
           "purple": [
             "atmaksāt",
@@ -10470,9 +10470,9 @@ const B2_WORDS = [
       "id": "b2-sich-scheren",
       "layout": "minimalStudy",
       "translation": "rūpēties par",
-      "rektion": "um + Akkusativ",
-      "explanation": "sich scheren prasa fiksētu prievārdu um + Akkusativ.",
-      "forms": "um + Akkusativ",
+      "rektion": "um + ko?",
+      "explanation": "sich scheren nepieciešams noteikts prievārds um + ko?.",
+      "forms": "um + ko?",
       "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
@@ -10480,7 +10480,7 @@ const B2_WORDS = [
             "sich scheren"
           ],
           "red": [
-            "um + Akkusativ"
+            "um + ko?"
           ],
           "purple": [
             "rūpēties par"
@@ -12337,9 +12337,9 @@ const B2_WORDS = [
       "id": "b2-sich-vereinigen",
       "layout": "minimalStudy",
       "translation": "apvienoties ar",
-      "rektion": "mit + Dativ",
-      "explanation": "sich vereinigen prasa fiksētu prievārdu mit + Dativ.",
-      "forms": "mit + Dativ",
+      "rektion": "mit + kam?",
+      "explanation": "sich vereinigen nepieciešams noteikts prievārds mit + kam?.",
+      "forms": "mit + kam?",
       "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
@@ -12347,7 +12347,7 @@ const B2_WORDS = [
             "sich vereinigen"
           ],
           "red": [
-            "mit + Dativ"
+            "mit + kam?"
           ],
           "purple": [
             "apvienoties ar"
@@ -12669,9 +12669,9 @@ const B2_WORDS = [
       "id": "b2-sich-versehen",
       "layout": "minimalStudy",
       "translation": "aizmirst • aprīkot ar",
-      "rektion": "mit + Dativ",
-      "explanation": "sich versehen prasa fiksētu prievārdu mit + Dativ.",
-      "forms": "mit + Dativ",
+      "rektion": "mit + kam?",
+      "explanation": "sich versehen nepieciešams noteikts prievārds mit + kam?.",
+      "forms": "mit + kam?",
       "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
@@ -12679,7 +12679,7 @@ const B2_WORDS = [
             "sich versehen"
           ],
           "red": [
-            "mit + Dativ"
+            "mit + kam?"
           ],
           "purple": [
             "aizmirst",
@@ -12722,9 +12722,9 @@ const B2_WORDS = [
       "id": "b2-sich-versoehnen",
       "layout": "minimalStudy",
       "translation": "samierināties ar",
-      "rektion": "mit + Dativ",
-      "explanation": "sich versöhnen prasa fiksētu prievārdu mit + Dativ.",
-      "forms": "mit + Dativ",
+      "rektion": "mit + kam?",
+      "explanation": "sich versöhnen nepieciešams noteikts prievārds mit + kam?.",
+      "forms": "mit + kam?",
       "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
@@ -12732,7 +12732,7 @@ const B2_WORDS = [
             "sich versöhnen"
           ],
           "red": [
-            "mit + Dativ"
+            "mit + kam?"
           ],
           "purple": [
             "samierināties ar"
@@ -12774,9 +12774,9 @@ const B2_WORDS = [
       "id": "b2-sich-verstellen",
       "layout": "minimalStudy",
       "translation": "uzdoties par",
-      "rektion": "als + Akkusativ",
-      "explanation": "sich verstellen prasa fiksētu prievārdu als + Akkusativ.",
-      "forms": "als + Akkusativ",
+      "rektion": "als + ko?",
+      "explanation": "sich verstellen nepieciešams noteikts prievārds als + ko?.",
+      "forms": "als + ko?",
       "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
@@ -12784,7 +12784,7 @@ const B2_WORDS = [
             "sich verstellen"
           ],
           "red": [
-            "als + Akkusativ"
+            "als + ko?"
           ],
           "purple": [
             "uzdoties par"
@@ -12893,9 +12893,9 @@ const B2_WORDS = [
       "id": "b2-sich-verwundern",
       "layout": "minimalStudy",
       "translation": "brīnīties par",
-      "rektion": "über + Akkusativ",
-      "explanation": "sich verwundern prasa fiksētu prievārdu über + Akkusativ.",
-      "forms": "über + Akkusativ",
+      "rektion": "über + ko?",
+      "explanation": "sich verwundern nepieciešams noteikts prievārds über + ko?.",
+      "forms": "über + ko?",
       "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
@@ -12903,7 +12903,7 @@ const B2_WORDS = [
             "sich verwundern"
           ],
           "red": [
-            "über + Akkusativ"
+            "über + ko?"
           ],
           "purple": [
             "brīnīties par"
@@ -13581,9 +13581,9 @@ const B2_WORDS = [
       "id": "b2-sich-widersetzen",
       "layout": "minimalStudy",
       "translation": "pretoties • stāties pretī",
-      "rektion": "+ Dativ",
-      "explanation": "sich widersetzen prasa + Dativ.",
-      "forms": "+ Dativ",
+      "rektion": "+ kam?",
+      "explanation": "sich widersetzen prasa + kam?.",
+      "forms": "+ kam?",
       "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
@@ -13591,7 +13591,7 @@ const B2_WORDS = [
             "sich widersetzen"
           ],
           "red": [
-            "+ Dativ"
+            "+ kam?"
           ],
           "purple": [
             "pretoties",
@@ -14371,7 +14371,7 @@ const B2_WORDS = [
       "title": "Piedāvāt • Sniegt iespēju",
       "subtitle": "bieten • anbieten",
       "lead": "bieten nozīmē piedāvāt vai sniegt iespēju; anbieten nozīmē aktīvi piedāvāt kādam konkrēti. Tie NAV sinonīmi.",
-      "explanation": "bieten bieži apraksta, ko vieta, programma vai pakalpojums sniedz (Die Schule bietet viele Kurse). anbieten ir atdalāms darbības vārds un uzsver aktīvu piedāvāšanu konkrētai personai (Ich biete dir Hilfe an). B2 līmenī abi ir bieži jautājumos par darbu, pakalpojumiem un iespējām.",
+      "explanation": "bieten bieži apraksta, ko vieta, programma vai pakalpojums sniedz (Die Schule bietet viele Kurse). anbieten ir darbības vārds, ko var sadalīt un uzsver aktīvu piedāvāšanu konkrētai personai (Ich biete dir Hilfe an). B2 līmenī abi ir bieži jautājumos par darbu, pakalpojumiem un iespējām.",
       "words": [
         {
           "icon": "🏫",
@@ -14427,7 +14427,7 @@ const B2_WORDS = [
           "lv": "piedāvāt aktīvi",
           "de": "anbieten",
           "meaning": "aktīvi piedāvāt kādam",
-          "describes": "atdalāms darbības vārds",
+          "describes": "darbības vārds, ko var sadalīt",
           "example": "Ich biete dir Hilfe an.",
           "translation": "es tev piedāvāju palīdzību."
         },
@@ -14443,7 +14443,7 @@ const B2_WORDS = [
           "lv": "piedāvājums",
           "de": "das Angebot",
           "meaning": "piedāvājums kā lietvārds",
-          "describes": "lietvārds (Sg.)",
+          "describes": "lietvārds (tikai vienskaitlī)",
           "example": "Das ist ein gutes Angebot.",
           "translation": "tā ir laba piedāvājuma cena."
         },
@@ -14487,7 +14487,7 @@ const B2_WORDS = [
       },
       "important": [
         "bieten: Die Schule bietet Kurse. (nesadalāms)",
-        "anbieten: Ich biete dir Hilfe an. (atdalāms: biete ... an)",
+        "anbieten: Ich biete dir Hilfe an. (sadalāms: biete ... an)",
         "Ich biete an dir nav pareizi — pareizi: Ich biete dir ... an."
       ],
       "mistakes": [
