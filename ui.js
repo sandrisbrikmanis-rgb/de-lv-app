@@ -6489,16 +6489,10 @@ function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
         <div class="study-table-header">Piemērs</div>
         ${study.comparison.map((item, index) => {
           const accentRules = sectionAccentRules("comparison", index);
-          const exampleText = String(item.example || "").trim();
-          const exampleGerman = exampleText.split(/\s*=\s*/)[0].trim();
-          const wordAudioSrc = comparisonWordAudioSrc(item.word);
-          const exampleAudioSrc = studyExampleAudioSrc(exampleText);
-          const wordAudioBtn = comparisonWordAudioButtonHtml(item.word, wordAudioSrc);
-          const exampleAudioBtn = comparisonWordAudioButtonHtml(exampleGerman || exampleText, exampleAudioSrc);
           return `
-            <strong>${formatStudyText(item.word, withComparisonFieldFallback(accentRules, item, "word"))}${wordAudioBtn}</strong>
+            <strong>${formatStudyText(item.word, withComparisonFieldFallback(accentRules, item, "word"))}</strong>
             <span>${formatStudyText(item.meaning, withComparisonFieldFallback(accentRules, item, "meaning"))}</span>
-            <span>${formatStudyText(item.example, withComparisonFieldFallback(accentRules, item, "example"))}${exampleAudioBtn}</span>
+            <span>${formatStudyText(item.example, withComparisonFieldFallback(accentRules, item, "example"))}</span>
           `;
         }).join("")}
       </div>
