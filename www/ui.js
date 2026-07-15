@@ -5923,6 +5923,13 @@ function escapeStudyCardText(value) {
 
 const COMPARISON_WORD_ACCENTS = ["blue", "green", "lightGreen", "yellow", "red", "orange", "darkGreen"];
 
+function studyExampleAudioSrc(exampleText) {
+  const raw = String(exampleText || "").trim();
+  const german = raw.split(/\s*=\s*/)[0].trim();
+  if (!german) return null;
+  return exampleSentenceAudioSrc(german) || comparisonWordAudioSrc(german);
+}
+
 function comparisonWordAudioSrc(word) {
   const text = String(word || "").trim();
   if (!text || !isWordLevelAudioText(text)) return null;
@@ -6263,7 +6270,7 @@ function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
   const examples = (Array.isArray(study.examples) ? study.examples : []).map((example, index) => {
     const accentRules = sectionAccentRules("examples", index);
     const exampleDe = String(example.de || "").trim();
-    const audioSrc = exampleSentenceAudioSrc(exampleDe) || comparisonWordAudioSrc(exampleDe);
+    const audioSrc = studyExampleAudioSrc(exampleDe);
     const audioBtn = comparisonWordAudioButtonHtml(exampleDe, audioSrc);
     return `
     <div>${formatStudyText(example.de, fieldAccentRules(accentRules, "de"))}${audioBtn}</div>
@@ -6280,10 +6287,16 @@ function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
         <div class="study-table-header">Piemērs</div>
         ${study.comparison.map((item, index) => {
           const accentRules = sectionAccentRules("comparison", index);
+          const exampleText = String(item.example || "").trim();
+          const exampleGerman = exampleText.split(/\s*=\s*/)[0].trim();
+          const wordAudioSrc = comparisonWordAudioSrc(item.word);
+          const exampleAudioSrc = studyExampleAudioSrc(exampleText);
+          const wordAudioBtn = comparisonWordAudioButtonHtml(item.word, wordAudioSrc);
+          const exampleAudioBtn = comparisonWordAudioButtonHtml(exampleGerman || exampleText, exampleAudioSrc);
           return `
-            <strong>${formatStudyText(item.word, withComparisonFieldFallback(accentRules, item, "word"))}</strong>
+            <strong>${formatStudyText(item.word, withComparisonFieldFallback(accentRules, item, "word"))}${wordAudioBtn}</strong>
             <span>${formatStudyText(item.meaning, withComparisonFieldFallback(accentRules, item, "meaning"))}</span>
-            <span>${formatStudyText(item.example, withComparisonFieldFallback(accentRules, item, "example"))}</span>
+            <span>${formatStudyText(item.example, withComparisonFieldFallback(accentRules, item, "example"))}${exampleAudioBtn}</span>
           `;
         }).join("")}
       </div>
