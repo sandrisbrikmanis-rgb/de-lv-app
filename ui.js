@@ -4336,6 +4336,17 @@ function showFlashcardPluralRow(text, audioSrc) {
   setFlashcardAudioButton(elements.pluralAudioBtn, audioSrc);
 }
 
+function flashcardPluralLabel(card) {
+  const plural = String(card?.de_plural || "").trim();
+  if (!plural) return "";
+  const singular = formatGermanEntry(card).trim();
+  if (!singular) return plural;
+  const normalizeLabel = (value) => stripGermanArticle(value).toLocaleLowerCase();
+  if (normalizeLabel(plural) === normalizeLabel(singular)) return "";
+  if (plural.toLocaleLowerCase() === singular.toLocaleLowerCase()) return "";
+  return plural;
+}
+
 function a1AudioForBareWord(de) {
   const bare = stripGermanArticle(de);
   if (!bare) return null;
@@ -4359,7 +4370,7 @@ function renderWordCardContent(card, autoplayToken = cardAutoplayToken) {
   const germanText = formatGermanEntry(card);
   const frontText = isDeFront ? germanText : card.lv;
   const backText = isDeFront ? card.lv : formatGermanArticleAlternative(germanText);
-  const pluralText = card.de_plural ? String(card.de_plural).trim() : "";
+  const pluralText = flashcardPluralLabel(card);
   const pluralAudioSrc = a1AudioSrc(a1PluralAudioFile(card));
   const alternatives = !isDeFront && state.revealed ? splitGermanAlternatives(germanText) : null;
 
@@ -6101,7 +6112,7 @@ function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
       ? (study.subtitle || germanText)
       : (isGermanToLatvian ? formatLvDisplay(study.translation) : germanText))
     : "";
-  const pluralText = card.de_plural ? String(card.de_plural).trim() : "";
+  const pluralText = flashcardPluralLabel(card);
   const pluralAudioSrc = a1AudioSrc(a1PluralAudioFile(card));
 
   elements.word.textContent = frontText;
