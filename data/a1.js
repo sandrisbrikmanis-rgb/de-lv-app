@@ -1151,11 +1151,6 @@ const A1_WORDS = [
       "level": "A1"
     },
     {
-      "de": "auf sein",
-      "lv": "būt vaļā",
-      "level": "A1"
-    },
-    {
       "de": "aufstehen",
       "lv": "piecelties",
       "level": "A1"
