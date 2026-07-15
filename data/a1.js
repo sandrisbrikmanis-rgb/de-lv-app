@@ -14055,7 +14055,7 @@ const A1_WORDS = [
       "level": "A1"
     },
     {
-      "de": "ostern",
+      "de": "Ostern",
       "lv": "lieldienas",
       "level": "A1"
     },
