@@ -8964,7 +8964,7 @@ const A1_WORDS = [
           },
           {
             "word": "in",
-            "meaning": "iekšā / uz (bez artikula)",
+            "meaning": "iekšā / uz (ar patstāvīgu artikulu)",
             "example": "in die Stadt – uz pilsētu"
           },
           {
@@ -9061,6 +9061,8 @@ const A1_WORDS = [
               },
               "lv": {
                 "purple": [
+                  "ieliek",
+                  "naudu",
                   "makā"
                 ]
               }
@@ -9148,7 +9150,8 @@ const A1_WORDS = [
               "meaning": {
                 "purple": [
                   "iekšā",
-                  "uz"
+                  "uz",
+                  "patstāvīgu artikulu"
                 ]
               },
               "example": {
