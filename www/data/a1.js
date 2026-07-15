@@ -13030,18 +13030,466 @@ const A1_WORDS = [
       "level": "A1"
     },
     {
-      "de": "Morgen",
-      "de_article": "der",
-      "de_plural": "die Morgen",
-      "lv": "rīt",
-      "level": "A1"
-    },
-    {
-      "de": "Morgen",
-      "de_article": "der",
-      "de_plural": "die Morgen",
-      "lv": "rīts",
-      "level": "A1"
+      "de": "morgen • der Morgen",
+      "lv": "Rīt • Rīts",
+      "level": "A1",
+      "study": {
+        "id": "compare-morgen-der-morgen",
+        "layout": "comparisonStudy",
+        "title": "Rīt • Rīts",
+        "subtitle": "morgen • der Morgen",
+        "lead": "morgen ar mazo burtu ir laika apstāklis; der Morgen ar lielo burtu un artikulu ir lietvārds. Tie nav sinonīmi.",
+        "explanation": "morgen ar mazo sākumburtu nozīmē rīt — nākamajā dienā (Ich komme morgen = es nāku rīt, Bis morgen! = līdz rīt!). der Morgen ar lielo burtu un artikulu der ir lietvārds — tas nozīmē rītu kā dienas daļu (Guten Morgen! = labrīt!, Der Morgen ist schön = rīts ir skaists). Daudzskaitlī: die Morgen.",
+        "words": [
+          {
+            "icon": "📅",
+            "lv": "rīt",
+            "de": "morgen",
+            "description": "Laika apstāklis ar mazo burtu. Nozīmē nākamo dienu — rīt.",
+            "example": "Ich komme morgen. = Es nāku rīt."
+          },
+          {
+            "icon": "🌅",
+            "lv": "rīts",
+            "de": "der Morgen",
+            "description": "Lietvārds ar artikulu der un lielo burtu. Dienas daļa — rīts.",
+            "example": "Guten Morgen! = Labrīt!"
+          }
+        ],
+        "examples": [
+          {
+            "de": "Bis morgen!",
+            "lv": "līdz rīt!"
+          },
+          {
+            "de": "Ich komme morgen.",
+            "lv": "es nāku rīt."
+          },
+          {
+            "de": "Morgen ist Montag.",
+            "lv": "rīt ir pirmdiena."
+          },
+          {
+            "de": "Guten Morgen!",
+            "lv": "labrīt!"
+          },
+          {
+            "de": "Der Morgen ist schön.",
+            "lv": "rīts ir skaists."
+          },
+          {
+            "de": "Am Morgen trinke ich Kaffee.",
+            "lv": "no rīta es dzeru kafiju."
+          }
+        ],
+        "comparisonTable": [
+          {
+            "lv": "rīt",
+            "de": "morgen",
+            "meaning": "nākamajā dienā",
+            "describes": "laika apstāklis",
+            "example": "Ich komme morgen.",
+            "translation": "es nāku rīt."
+          },
+          {
+            "lv": "rīts",
+            "de": "der Morgen",
+            "meaning": "dienas daļa",
+            "describes": "lietvārds (der)",
+            "example": "Der Morgen ist schön.",
+            "translation": "rīts ir skaists."
+          },
+          {
+            "lv": "līdz rīt",
+            "de": "bis morgen",
+            "meaning": "uzvedinājums",
+            "describes": "laika apstāklis",
+            "example": "Bis morgen!",
+            "translation": "līdz rīt!"
+          },
+          {
+            "lv": "rīti",
+            "de": "die Morgen",
+            "meaning": "vairāki rīti",
+            "describes": "lietvārds (pl.)",
+            "example": "Schöne Morgen!",
+            "translation": "skaisti rīti!"
+          }
+        ],
+        "importantComparison": [
+          "Ich komme morgen. = Es nāku rīt.",
+          "Guten Morgen! = Labrīt!",
+          "morgen = rīt (laiks); der Morgen = rīts (dienas daļa)."
+        ],
+        "tip": {
+          "left": "Mazais morgen = rīt (Ich komme morgen). der Morgen ar lielo burtu = rīts (Guten Morgen!, am Morgen).",
+          "rightTitle": "ātri",
+          "rightItems": [
+            {
+              "de": "morgen",
+              "lv": "rīt",
+              "separator": "="
+            },
+            {
+              "de": "der Morgen",
+              "lv": "rīts",
+              "separator": "="
+            }
+          ]
+        },
+        "important": [
+          "morgen stāv ar mazo burtu — tas ir laika apstāklis (rīt).",
+          "der Morgen ar lielo burtu un artikulu der ir lietvārds (rīts).",
+          "Guten Morgen! — vienmēr ar lielo M (rīts, nevis rīt)."
+        ],
+        "mistakes": [
+          {
+            "wrong": "Guten morgen!",
+            "right": "Guten Morgen!"
+          },
+          {
+            "wrong": "Der morgen ist Montag.",
+            "right": "Morgen ist Montag."
+          }
+        ],
+        "remember": [
+          "Rīt (laiks): morgen — Ich komme morgen.",
+          "Rīts (dienas daļa): der Morgen — Guten Morgen!"
+        ],
+        "sectionAccents": {
+          "lead": {
+            "blue": [
+              "morgen"
+            ],
+            "yellow": [
+              "Morgen"
+            ],
+            "purple": [
+              "laika apstāklis",
+              "lietvārds"
+            ]
+          },
+          "comparisonCards": [
+            {
+              "lv": {
+                "purple": [
+                  "rīt",
+                  "līdz rīt"
+                ]
+              },
+              "de": {
+                "blue": [
+                  "morgen"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "morgen"
+                ],
+                "purple": [
+                  "rīt"
+                ]
+              }
+            },
+            {
+              "lv": {
+                "purple": [
+                  "rīts",
+                  "rīti"
+                ]
+              },
+              "de": {
+                "yellow": [
+                  "Morgen"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "Morgen"
+                ],
+                "purple": [
+                  "rīts",
+                  "rīti"
+                ]
+              }
+            }
+          ],
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "morgen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "rīt"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "morgen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "rīt"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Morgen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "rīt",
+                  "pirmdiena"
+                ]
+              }
+            },
+            {
+              "de": {
+                "yellow": [
+                  "Morgen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "labrīt"
+                ]
+              }
+            },
+            {
+              "de": {
+                "yellow": [
+                  "Morgen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "rīts"
+                ]
+              }
+            },
+            {
+              "de": {
+                "yellow": [
+                  "Morgen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "rīta"
+                ]
+              }
+            }
+          ],
+          "comparisonTable": [
+            {
+              "lv": {
+                "purple": [
+                  "rīt"
+                ]
+              },
+              "de": {
+                "blue": [
+                  "morgen"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "morgen"
+                ]
+              },
+              "translation": {
+                "purple": [
+                  "rīt"
+                ]
+              }
+            },
+            {
+              "lv": {
+                "purple": [
+                  "rīts"
+                ]
+              },
+              "de": {
+                "yellow": [
+                  "Morgen"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "Morgen"
+                ]
+              },
+              "translation": {
+                "purple": [
+                  "rīts"
+                ]
+              }
+            },
+            {
+              "lv": {
+                "purple": [
+                  "līdz rīt"
+                ]
+              },
+              "de": {
+                "blue": [
+                  "morgen"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "morgen"
+                ]
+              },
+              "translation": {
+                "purple": [
+                  "līdz rīt"
+                ]
+              }
+            },
+            {
+              "lv": {
+                "purple": [
+                  "rīti"
+                ]
+              },
+              "de": {
+                "yellow": [
+                  "Morgen"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "Morgen"
+                ]
+              },
+              "translation": {
+                "purple": [
+                  "rīti"
+                ]
+              }
+            }
+          ],
+          "importantComparison": [
+            {
+              "blue": [
+                "morgen"
+              ],
+              "purple": [
+                "rīt"
+              ]
+            },
+            {
+              "yellow": [
+                "Morgen"
+              ],
+              "purple": [
+                "rīts",
+                "labrīt"
+              ]
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "morgen"
+              ],
+              "yellow": [
+                "Morgen"
+              ]
+            },
+            "rightItems": [
+              {
+                "de": {
+                  "blue": [
+                    "morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "rīt"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "yellow": [
+                    "Morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "rīts"
+                  ]
+                }
+              }
+            ]
+          },
+          "important": [
+            {
+              "blue": [
+                "morgen"
+              ],
+              "yellow": [
+                "Morgen"
+              ]
+            },
+            {
+              "red": [
+                "Guten morgen",
+                "Der morgen"
+              ]
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": {
+                "red": [
+                  "morgen"
+                ]
+              },
+              "right": {
+                "yellow": [
+                  "Morgen"
+                ]
+              }
+            },
+            {
+              "wrong": {
+                "red": [
+                  "Der morgen"
+                ]
+              },
+              "right": {
+                "blue": [
+                  "morgen"
+                ]
+              }
+            }
+          ],
+          "remember": [
+            {
+              "blue": [
+                "morgen"
+              ]
+            },
+            {
+              "yellow": [
+                "Morgen"
+              ]
+            }
+          ]
+        }
+      }
     },
     {
       "de": "morgens",
