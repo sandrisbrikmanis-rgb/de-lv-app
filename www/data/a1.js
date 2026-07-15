@@ -11347,233 +11347,140 @@ const A1_WORDS = [
     "de": "Mal",
     "de_article": "das",
     "de_plural": "die Male",
-    "lv": "reiz • kādreiz",
+    "lv": "reize",
     "level": "A1",
     "study": {
       "id": "a1-mal",
       "layout": "standardStudy",
-      "translation": "reiz • kādreiz",
+      "translation": "reize",
       "explanation": [
-        "Galvenā doma: mal sarunvalodā bieži nozīmē reiz, kādreiz vai vienkārši padara teikumu draudzīgāku.",
-        "Ar skaitļiem mal var nozīmēt reizi vai reižu.",
-        "Lūgumos mal bieži nav jātulko burtiski.",
-        "A1 līmenī svarīgākās frāzes ir einmal, noch mal un Schau mal!"
+        "Galvenā doma: das Mal nozīmē reizi kā notikumu vai gadījumu.",
+        "Bieži lieto ar skaitļiem: ein Mal, zwei Mal, drei Mal.",
+        "Ar kārtas skaitli: das erste Mal, das zweite Mal.",
+        "Nesarunāj ar sarunvalodas daļiņu mal (Komm mal her!) — tā ir cita nozīme."
       ],
       "examples": [
         {
-          "de": "Komm mal her!",
-          "lv": "nāc šurp!"
+          "de": "Das erste Mal war schwer.",
+          "lv": "pirmo reizi bija grūti."
         },
         {
-          "de": "Schau mal!",
-          "lv": "paskaties!"
+          "de": "Ich war schon zwei Mal in Berlin.",
+          "lv": "es jau divreiz biju Berlīnē."
         },
         {
-          "de": "Noch mal, bitte.",
-          "lv": "vēlreiz, lūdzu."
+          "de": "Ein Mal reicht.",
+          "lv": "vienreiz pietiek."
         },
         {
-          "de": "Ich war einmal in Berlin.",
-          "lv": "es reiz biju Berlīnē."
-        }
-      ],
-      "comparison": [
-        {
-          "word": "mal",
-          "meaning": "reiz / sarunvalodas daļiņa",
-          "example": "Komm mal her!"
-        },
-        {
-          "word": "einmal",
-          "meaning": "vienreiz / reiz",
-          "example": "Ich war einmal dort."
-        },
-        {
-          "word": "noch mal",
-          "meaning": "vēlreiz",
-          "example": "Sag das noch mal."
-        },
-        {
-          "word": "manchmal",
-          "meaning": "dažreiz",
-          "example": "Manchmal bin ich müde."
+          "de": "Noch ein Mal, bitte!",
+          "lv": "vēl vienu reizi, lūdzu!"
         }
       ],
       "tip": {
-        "text": "Atceries: noch mal = vēlreiz; Schau mal! = paskaties!"
+        "text": "Atceries: das Mal = reize (lietvārds); mal bez artikula = sarunvalodas daļiņa."
       },
       "important": [
-        "mal lūgumos bieži netulko atsevišķi.",
-        "Komm mal her! latviski dabiski ir “Nāc šurp!”, nevis “Nāc reiz šurp!”."
+        "das Mal / die Male — lietvārds ar artikulu.",
+        "ein Mal, zwei Mal — skaita reizes.",
+        "mal bez artikula (Komm mal her!) nav tas pats, kas das Mal."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "mal",
-            "einmal",
-            "noch mal",
-            "Schau mal"
+            "das Mal",
+            "ein Mal",
+            "zwei Mal",
+            "das erste Mal"
           ],
           "purple": [
-            "reiz",
-            "kādreiz",
-            "draudzīgāku",
             "reizi",
-            "reižu"
+            "notikumu",
+            "gadījumu"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "mal"
+                "erste Mal"
               ]
             },
             "lv": {
               "purple": [
-                "nāc šurp"
+                "pirmo reizi"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Schau mal"
+                "zwei Mal"
               ]
             },
             "lv": {
               "purple": [
-                "paskaties"
+                "divreiz"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Noch mal"
+                "Ein Mal"
               ]
             },
             "lv": {
               "purple": [
-                "vēlreiz"
+                "vienreiz"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "einmal"
+                "ein Mal"
               ]
             },
             "lv": {
               "purple": [
-                "reiz"
-              ]
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "mal"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "reiz",
-                "daļiņa"
-              ]
-            },
-            "example": {
-              "blue": [
-                "mal"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "einmal"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "vienreiz",
-                "reiz"
-              ]
-            },
-            "example": {
-              "green": [
-                "einmal"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "noch mal"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "vēlreiz"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "noch mal"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "manchmal"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "dažreiz"
-              ]
-            },
-            "example": {
-              "red": [
-                "Manchmal"
+                "reizi"
               ]
             }
           }
         ],
         "tip": {
-          "left": {
-            "blue": [
-              "noch mal",
-              "Schau mal"
-            ],
-            "purple": [
-              "vēlreiz",
-              "paskaties"
-            ]
-          }
+          "blue": [
+            "das Mal",
+            "mal"
+          ],
+          "purple": [
+            "lietvārds",
+            "daļiņa"
+          ]
         },
         "important": [
+          {
+            "blue": [
+              "das Mal",
+              "die Male"
+            ]
+          },
+          {
+            "blue": [
+              "ein Mal",
+              "zwei Mal"
+            ],
+            "purple": [
+              "reizes"
+            ]
+          },
           {
             "blue": [
               "mal"
             ],
             "purple": [
-              "netulko"
-            ]
-          },
-          {
-            "blue": [
-              "Komm mal her"
-            ],
-            "purple": [
-              "nāc šurp"
-            ],
-            "red": [
-              "Nāc reiz šurp"
+              "das Mal"
             ]
           }
         ]
@@ -24066,6 +23973,492 @@ const A1_WORDS = [
       }
     }
   },
+  {
+    "de": "mal • einmal • noch mal",
+    "lv": "Reiz • Vienreiz • Vēlreiz",
+    "level": "A1",
+    "study": {
+      "id": "compare-mal-einmal-nochmal",
+      "layout": "comparisonStudy",
+      "title": "Reiz • Vienreiz • Vēlreiz",
+      "subtitle": "mal • einmal • noch mal",
+      "lead": "mal ir sarunvalodas daļiņa; einmal nozīmē vienreiz vai reiz; noch mal nozīmē vēlreiz.",
+      "explanation": "mal sarunvalodā bieži nozīmē reiz, kādreiz vai vienkārši padara teikumu draudzīgāku — lūgumos to bieži netulko burtiski. einmal norāda uz vienu reizi vai pagātni (reiz es...). noch mal nozīmē vēlreiz — atkārtot darbību. A1 līmenī svarīgākās frāzes ir Komm mal her!, Schau mal!, noch mal un Ich war einmal...",
+      "words": [
+        {
+          "icon": "👋",
+          "lv": "reiz • daļiņa",
+          "de": "mal",
+          "description": "Sarunvalodas daļiņa — padara teikumu draudzīgāku vai nozīmē reiz/kādreiz.",
+          "example": "Komm mal her! = Nāc šurp!"
+        },
+        {
+          "icon": "1️⃣",
+          "lv": "vienreiz • reiz",
+          "de": "einmal",
+          "description": "Norāda uz vienu reizi vai pagātni (reiz es biju...).",
+          "example": "Ich war einmal in Berlin. = Es reiz biju Berlīnē."
+        },
+        {
+          "icon": "🔁",
+          "lv": "vēlreiz",
+          "de": "noch mal",
+          "description": "Nozīmē vēlreiz — atkārtot darbību vai lūgt atkārtojumu.",
+          "example": "Noch mal, bitte. = Vēlreiz, lūdzu."
+        }
+      ],
+      "examples": [
+        {
+          "de": "Komm mal her!",
+          "lv": "nāc šurp!"
+        },
+        {
+          "de": "Schau mal!",
+          "lv": "paskaties!"
+        },
+        {
+          "de": "Noch mal, bitte.",
+          "lv": "vēlreiz, lūdzu."
+        },
+        {
+          "de": "Ich war einmal in Berlin.",
+          "lv": "es reiz biju Berlīnē."
+        },
+        {
+          "de": "Sag das noch mal.",
+          "lv": "pasaki to vēlreiz."
+        },
+        {
+          "de": "Hör mal zu!",
+          "lv": "paklausies!"
+        }
+      ],
+      "comparisonTable": [
+        {
+          "lv": "reiz • daļiņa",
+          "de": "mal",
+          "meaning": "kādreiz / draudzīgāks tonis",
+          "describes": "sarunvalodas daļiņu",
+          "example": "Komm mal her!",
+          "translation": "nāc šurp!"
+        },
+        {
+          "lv": "vienreiz • reiz",
+          "de": "einmal",
+          "meaning": "vienu reizi / pagātnē",
+          "describes": "laika apstākli",
+          "example": "Ich war einmal in Berlin.",
+          "translation": "es reiz biju Berlīnē."
+        },
+        {
+          "lv": "vēlreiz",
+          "de": "noch mal",
+          "meaning": "atkārtot darbību",
+          "describes": "frāzi (noch + mal)",
+          "example": "Noch mal, bitte.",
+          "translation": "vēlreiz, lūdzu."
+        },
+        {
+          "lv": "paskaties",
+          "de": "Schau mal!",
+          "meaning": "lūgums paskatīties",
+          "describes": "mal lūgumā",
+          "example": "Schau mal!",
+          "translation": "paskaties!"
+        }
+      ],
+      "importantComparison": [
+        "Komm mal her! = Nāc šurp! (mal netulko atsevišķi)",
+        "Ich war einmal in Berlin. = Es reiz biju Berlīnē.",
+        "Noch mal, bitte. = Vēlreiz, lūdzu."
+      ],
+      "tip": {
+        "left": "Lūgumos mal bieži netulko burtiski. einmal = vienreiz/reiz. noch mal = vēlreiz.",
+        "rightTitle": "ātri",
+        "rightItems": [
+          {
+            "de": "mal",
+            "lv": "daļiņa",
+            "separator": "="
+          },
+          {
+            "de": "einmal",
+            "lv": "vienreiz",
+            "separator": "="
+          },
+          {
+            "de": "noch mal",
+            "lv": "vēlreiz",
+            "separator": "="
+          }
+        ]
+      },
+      "important": [
+        "mal lūgumos bieži netulko atsevišķi.",
+        "Komm mal her! latviski dabiski ir “Nāc šurp!”, nevis “Nāc reiz šurp!”.",
+        "noch mal = vēlreiz; Schau mal! = paskaties!"
+      ],
+      "mistakes": [
+        {
+          "wrong": "Nāc reiz šurp!",
+          "right": "Nāc šurp!"
+        },
+        {
+          "wrong": "Komm noch mal her!",
+          "right": "Komm mal her!"
+        }
+      ],
+      "remember": [
+        "mal = sarunvalodas daļiņa (Komm mal her!).",
+        "einmal = vienreiz vai reiz pagātnē.",
+        "noch mal = vēlreiz."
+      ],
+      "sectionAccents": {
+        "lead": {
+          "blue": [
+            "mal"
+          ],
+          "green": [
+            "einmal"
+          ],
+          "yellow": [
+            "noch mal"
+          ],
+          "purple": [
+            "daļiņa",
+            "vienreiz",
+            "vēlreiz"
+          ]
+        },
+        "comparisonCards": [
+          {
+            "lv": {
+              "purple": [
+                "reiz",
+                "daļiņa"
+              ]
+            },
+            "de": {
+              "blue": [
+                "mal"
+              ]
+            },
+            "example": {
+              "blue": [
+                "mal"
+              ],
+              "purple": [
+                "šurp"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "vienreiz",
+                "reiz"
+              ]
+            },
+            "de": {
+              "green": [
+                "einmal"
+              ]
+            },
+            "example": {
+              "green": [
+                "einmal"
+              ],
+              "purple": [
+                "reiz"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "vēlreiz"
+              ]
+            },
+            "de": {
+              "yellow": [
+                "noch mal"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "Noch mal"
+              ],
+              "purple": [
+                "vēlreiz"
+              ]
+            }
+          }
+        ],
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "mal"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nāc šurp"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Schau mal"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "paskaties"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "Noch mal"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vēlreiz"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "einmal"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "reiz"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "noch mal"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vēlreiz"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "mal"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "paklausies"
+              ]
+            }
+          }
+        ],
+        "comparisonTable": [
+          {
+            "lv": {
+              "purple": [
+                "reiz",
+                "daļiņa"
+              ]
+            },
+            "de": {
+              "blue": [
+                "mal"
+              ]
+            },
+            "example": {
+              "blue": [
+                "mal"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "nāc šurp"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "vienreiz",
+                "reiz"
+              ]
+            },
+            "de": {
+              "green": [
+                "einmal"
+              ]
+            },
+            "example": {
+              "green": [
+                "einmal"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "reiz"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "vēlreiz"
+              ]
+            },
+            "de": {
+              "yellow": [
+                "noch mal"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "Noch mal"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "vēlreiz"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "paskaties"
+              ]
+            },
+            "de": {
+              "blue": [
+                "Schau mal"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Schau mal"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "paskaties"
+              ]
+            }
+          }
+        ],
+        "importantComparison": [
+          {
+            "blue": [
+              "mal"
+            ],
+            "purple": [
+              "šurp"
+            ]
+          },
+          {
+            "green": [
+              "einmal"
+            ],
+            "purple": [
+              "reiz"
+            ]
+          },
+          {
+            "yellow": [
+              "noch mal"
+            ],
+            "purple": [
+              "vēlreiz"
+            ]
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "mal"
+            ],
+            "green": [
+              "einmal"
+            ],
+            "yellow": [
+              "noch mal"
+            ],
+            "purple": [
+              "daļiņa",
+              "vienreiz",
+              "vēlreiz"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "mal"
+            ],
+            "purple": [
+              "netulko"
+            ]
+          },
+          {
+            "blue": [
+              "Komm mal her"
+            ],
+            "purple": [
+              "nāc šurp"
+            ],
+            "red": [
+              "Nāc reiz šurp"
+            ]
+          }
+        ],
+        "mistakes": [
+          {
+            "wrong": {
+              "red": [
+                "reiz šurp"
+              ]
+            },
+            "right": {
+              "purple": [
+                "šurp"
+              ]
+            }
+          }
+        ],
+        "remember": [
+          {
+            "blue": [
+              "mal"
+            ]
+          },
+          {
+            "green": [
+              "einmal"
+            ]
+          },
+          {
+            "yellow": [
+              "noch mal"
+            ]
+          }
+        ]
+      }
+    }
+  }
 ];
 
 window.A1_WORDS = A1_WORDS;

@@ -313,6 +313,7 @@ const COMPARISON_CARD_IDS = new Set([
   "compare-kleidung-jeans-hose",
   "compare-stadt-staat",
   "compare-uhr-zeit",
+  "compare-mal-einmal-nochmal",
 ]);
 
 // Required subtitles: nouns must include articles (der/die/das)
@@ -325,6 +326,7 @@ const COMPARISON_SUBTITLES = {
   "compare-kleidung-jeans-hose": "die Kleidung • die Jeans • die Hose",
   "compare-stadt-staat": "die Stadt • der Staat",
   "compare-uhr-zeit": "die Uhr • die Zeit",
+  "compare-mal-einmal-nochmal": "mal • einmal • noch mal",
 };
 
 // Base words covered by comparison cards — absence from standalone entries is OK
