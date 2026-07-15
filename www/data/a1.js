@@ -9613,15 +9613,6 @@ const A1_WORDS = [
       "level": "A1"
     },
     {
-      "de": "Kohl",
-      "de_article": "der",
-      "lv": "kāposti",
-      "level": "A1",
-      "study": {
-        "explanation": "Vācu valodā vārds 'der Kohl' ir vienskaitlī, tāpēc teikumā darbības vārdam jābūt vienskaitļa formā (piemēram, 'ist', nevis 'sind')."
-      }
-    },
-    {
       "de": "Kopf",
       "de_article": "der",
       "de_plural": "die Köpfe",
