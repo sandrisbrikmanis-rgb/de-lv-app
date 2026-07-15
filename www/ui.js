@@ -4018,15 +4018,33 @@ function isWordLevelAudioText(text) {
 
 const CARD_AUDIO_LEVELS = new Set(["A1", "A2", "B1", "B2", "C1", "C2", "Sätze"]);
 
+function parseArticleSlashAlternative(text) {
+  const raw = String(text || "").trim().split(/\s*\(/)[0].trim();
+  const match = raw.match(/^((?:der|die|das)(?:\/(?:der|die|das))+)\s+(.+)$/i);
+  if (!match) return null;
+  return {
+    articles: match[1].split("/"),
+    noun: match[2].trim(),
+  };
+}
+
+function formatGermanArticleAlternative(text) {
+  const parsed = parseArticleSlashAlternative(text);
+  if (!parsed) return String(text || "").trim();
+  return `${parsed.articles.join(" / ")} ${parsed.noun}`;
+}
+
 function germanAudioStem(text) {
   const raw = String(text || "").trim();
   if (!raw) return "";
   const withoutNote = raw.split(/\s*\(/)[0].trim();
+  if (parseArticleSlashAlternative(withoutNote)) return withoutNote;
   return withoutNote.split(/\s*\/\s*/)[0].trim();
 }
 
 function splitGermanAlternatives(text) {
   const raw = String(text || "").trim().split(/\s*\(/)[0].trim();
+  if (parseArticleSlashAlternative(raw)) return null;
   if (!raw.includes("/")) return null;
   const parts = raw.split(/\s*\/\s*/).map((part) => part.trim()).filter(Boolean);
   return parts.length > 1 ? parts : null;
@@ -4314,7 +4332,7 @@ function renderWordCardContent(card, autoplayToken = cardAutoplayToken) {
   const isDeFront = state.direction === "de-lv";
   const germanText = formatGermanEntry(card);
   const frontText = isDeFront ? germanText : card.lv;
-  const backText = isDeFront ? card.lv : germanText;
+  const backText = isDeFront ? card.lv : formatGermanArticleAlternative(germanText);
   const pluralText = card.de_plural ? String(card.de_plural).trim() : "";
   const pluralAudioSrc = a1AudioSrc(a1PluralAudioFile(card));
   const alternatives = !isDeFront && state.revealed ? splitGermanAlternatives(germanText) : null;
