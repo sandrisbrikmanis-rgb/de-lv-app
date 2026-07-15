@@ -2455,11 +2455,465 @@ const A1_WORDS = [
       "level": "A1"
     },
     {
-      "de": "Bitte",
-      "de_article": "die",
-      "de_plural": "die Bitten",
-      "lv": "lūdzu",
-      "level": "A1"
+      "de": "bitte • die Bitte",
+      "lv": "Lūdzu • Lūgums",
+      "level": "A1",
+      "study": {
+        "id": "compare-bitte-die-bitte",
+        "layout": "comparisonStudy",
+        "title": "Lūdzu • Lūgums",
+        "subtitle": "bitte • die Bitte",
+        "lead": "bitte ar mazo burtu ir pieklājības vārds; die Bitte ar lielo burtu un artikulu ir lietvārds. Tie nav sinonīmi.",
+        "explanation": "bitte ar mazo sākumburtu ir pieklājības vārds — tas nozīmē lūdzu (Bitte schön!, Eine Tasse Kaffee, bitte). die Bitte ar lielo burtu un artikulu die ir lietvārds — tas nozīmē lūgumu vai pieprasījumu (Ich habe eine Bitte = man ir lūgums). Daudzskaitlī: die Bitten.",
+        "words": [
+          {
+            "icon": "🙏",
+            "lv": "lūdzu",
+            "de": "bitte",
+            "description": "Pieklājības vārds ar mazo burtu. Lieto, lai būtu pieklājīgi — lūdzu, prosim.",
+            "example": "Bitte schön! = Lūdzu!"
+          },
+          {
+            "icon": "📩",
+            "lv": "lūgums",
+            "de": "die Bitte",
+            "description": "Lietvārds ar artikulu die un lielo burtu. Konkrēts lūgums vai pieprasījums.",
+            "example": "Ich habe eine Bitte. = Man ir viens lūgums."
+          }
+        ],
+        "examples": [
+          {
+            "de": "Bitte schön!",
+            "lv": "lūdzu!"
+          },
+          {
+            "de": "Eine Tasse Kaffee, bitte.",
+            "lv": "vienu tasi kafijas, lūdzu."
+          },
+          {
+            "de": "Kann ich bitte fragen?",
+            "lv": "vai es drīkstu lūdzu jautāt?"
+          },
+          {
+            "de": "Ich habe eine Bitte.",
+            "lv": "man ir viens lūgums."
+          },
+          {
+            "de": "Die Bitte ist wichtig.",
+            "lv": "lūgums ir svarīgs."
+          },
+          {
+            "de": "Meine Bitte an dich: Komm früher!",
+            "lv": "mans lūgums tev: nāc agrāk!"
+          }
+        ],
+        "comparisonTable": [
+          {
+            "lv": "lūdzu",
+            "de": "bitte",
+            "meaning": "pieklājība",
+            "describes": "pieklājības vārds",
+            "example": "Bitte schön!",
+            "translation": "lūdzu!"
+          },
+          {
+            "lv": "lūgums",
+            "de": "die Bitte",
+            "meaning": "lūgums/pieprasījums",
+            "describes": "lietvārds (die)",
+            "example": "Ich habe eine Bitte.",
+            "translation": "man ir lūgums."
+          },
+          {
+            "lv": "lūdzu",
+            "de": "..., bitte",
+            "meaning": "pieklājīgi",
+            "describes": "teikuma beigās",
+            "example": "Eine Tasse Kaffee, bitte.",
+            "translation": "vienu tasi, lūdzu."
+          },
+          {
+            "lv": "lūgumi",
+            "de": "die Bitten",
+            "meaning": "vairāki lūgumi",
+            "describes": "lietvārds (pl.)",
+            "example": "Die Bitten sind berechtigt.",
+            "translation": "lūgumi ir pamatoti."
+          }
+        ],
+        "importantComparison": [
+          "Bitte schön! = Lūdzu!",
+          "Ich habe eine Bitte. = Man ir lūgums.",
+          "bitte = pieklājības vārds (lūdzu); die Bitte = lietvārds (lūgums)."
+        ],
+        "tip": {
+          "left": "Mazais bitte = lūdzu (Bitte schön!, Kaffee, bitte). die Bitte ar lielo burtu = lūgums (eine Bitte, meine Bitte).",
+          "rightTitle": "ātri",
+          "rightItems": [
+            {
+              "de": "Bitte schön!",
+              "lv": "lūdzu!",
+              "separator": "="
+            },
+            {
+              "de": "eine Bitte",
+              "lv": "lūgums",
+              "separator": "="
+            }
+          ]
+        },
+        "important": [
+          "bitte stāv ar mazo burtu — tas ir pieklājības vārds, ne lietvārds.",
+          "die Bitte ar lielo burtu un artikulu die ir lietvārds.",
+          "Daudzskaitlis: die Bitten (lūgumi)."
+        ],
+        "mistakes": [
+          {
+            "wrong": "Die Bitte schön!",
+            "right": "Bitte schön!"
+          },
+          {
+            "wrong": "Ich habe bitte.",
+            "right": "Ich habe eine Bitte."
+          }
+        ],
+        "remember": [
+          "Lūdzu (pieklājība): bitte — Bitte schön!",
+          "Lūgums (lieta): die Bitte — Ich habe eine Bitte."
+        ],
+        "sectionAccents": {
+          "lead": {
+            "blue": [
+              "bitte"
+            ],
+            "yellow": [
+              "Bitte"
+            ],
+            "purple": [
+              "pieklājības vārds",
+              "lietvārds"
+            ]
+          },
+          "comparisonCards": [
+            {
+              "lv": {
+                "purple": [
+                  "lūdzu"
+                ]
+              },
+              "de": {
+                "blue": [
+                  "bitte"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "bitte"
+                ],
+                "purple": [
+                  "lūdzu"
+                ]
+              }
+            },
+            {
+              "lv": {
+                "purple": [
+                  "lūgums",
+                  "lūgumi"
+                ]
+              },
+              "de": {
+                "yellow": [
+                  "Bitte",
+                  "Bitten"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "Bitte",
+                  "Bitten"
+                ],
+                "purple": [
+                  "lūgums",
+                  "lūgumi"
+                ]
+              }
+            }
+          ],
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "bitte"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "lūdzu"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "bitte"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "lūdzu"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "bitte"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "jautāt"
+                ]
+              }
+            },
+            {
+              "de": {
+                "yellow": [
+                  "Bitte"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "lūgums"
+                ]
+              }
+            },
+            {
+              "de": {
+                "yellow": [
+                  "Bitte"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "lūgums"
+                ]
+              }
+            },
+            {
+              "de": {
+                "yellow": [
+                  "Bitte"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "lūgums"
+                ]
+              }
+            }
+          ],
+          "comparisonTable": [
+            {
+              "lv": {
+                "purple": [
+                  "lūdzu"
+                ]
+              },
+              "de": {
+                "blue": [
+                  "bitte"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "bitte"
+                ]
+              },
+              "translation": {
+                "purple": [
+                  "lūdzu"
+                ]
+              }
+            },
+            {
+              "lv": {
+                "purple": [
+                  "lūgums"
+                ]
+              },
+              "de": {
+                "yellow": [
+                  "Bitte"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "Bitte"
+                ]
+              },
+              "translation": {
+                "purple": [
+                  "lūgums"
+                ]
+              }
+            },
+            {
+              "lv": {
+                "purple": [
+                  "lūdzu"
+                ]
+              },
+              "de": {
+                "blue": [
+                  "bitte"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "bitte"
+                ]
+              },
+              "translation": {
+                "purple": [
+                  "lūdzu"
+                ]
+              }
+            },
+            {
+              "lv": {
+                "purple": [
+                  "lūgumi"
+                ]
+              },
+              "de": {
+                "yellow": [
+                  "Bitten"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "Bitten"
+                ]
+              },
+              "translation": {
+                "purple": [
+                  "lūgumi"
+                ]
+              }
+            }
+          ],
+          "importantComparison": [
+            {
+              "blue": [
+                "bitte"
+              ],
+              "purple": [
+                "lūdzu"
+              ]
+            },
+            {
+              "yellow": [
+                "Bitte"
+              ],
+              "purple": [
+                "lūgums"
+              ]
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "bitte"
+              ],
+              "yellow": [
+                "Bitte"
+              ]
+            },
+            "rightItems": [
+              {
+                "de": {
+                  "blue": [
+                    "bitte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "lūdzu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "yellow": [
+                    "Bitte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "lūgums"
+                  ]
+                }
+              }
+            ]
+          },
+          "important": [
+            {
+              "blue": [
+                "bitte"
+              ],
+              "yellow": [
+                "Bitte"
+              ]
+            },
+            {
+              "red": [
+                "Die Bitte schön",
+                "habe bitte"
+              ]
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": {
+                "red": [
+                  "Die Bitte schön"
+                ]
+              },
+              "right": {
+                "blue": [
+                  "bitte"
+                ]
+              }
+            },
+            {
+              "wrong": {
+                "red": [
+                  "habe bitte"
+                ]
+              },
+              "right": {
+                "yellow": [
+                  "Bitte"
+                ]
+              }
+            }
+          ],
+          "remember": [
+            {
+              "blue": [
+                "bitte"
+              ]
+            },
+            {
+              "yellow": [
+                "Bitte"
+              ]
+            }
+          ]
+        }
+      }
     },
     {
       "de": "billig",
