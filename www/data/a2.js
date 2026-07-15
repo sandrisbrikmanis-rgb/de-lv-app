@@ -7845,7 +7845,7 @@ const A2_WORDS = [
             "text": "Ar Webseite, Datei vai Programm aufrufen nozīmē atvērt."
           },
           {
-            "text": "Ar Namen vai Nummer tas nozīmē izsaukt; ar zu + Dativ tas bieži nozīmē aicināt."
+            "text": "Ar Namen vai Nummer tas nozīmē izsaukt; ar zu + kam? tas bieži nozīmē aicināt."
           }
         ]
       },
@@ -7908,7 +7908,7 @@ const A2_WORDS = [
                 "green": [
                   "Namen",
                   "Nummer",
-                  "zu + Dativ"
+                  "zu + kam?"
                 ]
               }
             }
@@ -20062,7 +20062,7 @@ const A2_WORDS = [
         "Galvenā doma: der Dank ir lietvārds un nozīmē pateicību kā jēdzienu.",
         "Biežāk sastopamās frāzes ir Vielen Dank! un Herzlichen Dank! — tās nozīmē „liels paldies!” un „sirsnīgs paldies!”.",
         "danke ir atbilde vai īss pateicības vārds sarunā: „paldies”.",
-        "danken ir darbības vārds: „pateikties”. Ar Dativ: Ich danke dir.",
+        "danken ir darbības vārds: „pateikties”. ar kam? formu: Ich danke dir.",
         "der Dank nav tas pats, kas danke: Dank ir lietvārds, danke ir sarunvalodas atbilde."
       ],
       "examples": [
@@ -30798,7 +30798,7 @@ const A2_WORDS = [
         "Galvenā doma: der Fall nozīmē gadījumu, kritienu, locījumu vai juridisku lietu atkarībā no konteksta.",
         "Ikdienā tas bieži nozīmē gadījumu vai situāciju.",
         "Fiziskā nozīmē Fall var nozīmēt kritienu.",
-        "Gramatikā Fall nozīmē locījumu, piemēram Dativ vai Akkusativ.",
+        "Gramatikā Fall nozīmē locījumu, piemēram kam? vai kurp?.",
         "Juridiskā valodā Fall ir lieta vai gadījums tiesā.",
         "Frāze in diesem Fall nozīmē “šajā gadījumā”."
       ],
@@ -30867,7 +30867,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Fall var būt gan ikdienas situācija, gan gramatikas termins.",
-        "example": "in diesem Fall = šajā gadījumā. der Dativ-Fall = datīva locījums. ein Fall vor Gericht = tiesas lieta."
+        "example": "in diesem Fall = šajā gadījumā. der kam? locījums = datīva locījums. ein Fall vor Gericht = tiesas lieta."
       },
       "sectionAccents": {
         "examples": [
@@ -31174,7 +31174,7 @@ const A2_WORDS = [
                 "tiesas lieta"
               ],
               "red": [
-                "Dativ-Fall",
+                "kam? locījums",
                 "gadījumā",
                 "datīva",
                 "diesem",
@@ -31204,8 +31204,8 @@ const A2_WORDS = [
             "Juridiskā valodā"
           ],
           "red": [
-            "Dativ",
-            "Akkusativ"
+            "kam?",
+            "kurp?"
           ]
         }
       },
@@ -39981,7 +39981,7 @@ const A2_WORDS = [
         "Ja runa ir par laiku, kaum var nozīmēt tikko vai tikko kā.",
         "kaum nav tas pats, kas fast, jo fast nozīmē gandrīz.",
         "Frāzēs ar als vai sobald kaum var dot domu tiklīdz vai tikko kā.",
-        "Konstrukcijā \"kaum zu + Infinitiv\" kaum bieži nozīmē grūti... vai gandrīz nevar..., piemēram kaum zu glauben."
+        "Konstrukcijā \"kaum zu + nenoteiksme\" kaum bieži nozīmē grūti... vai gandrīz nevar..., piemēram kaum zu glauben."
       ],
       "examples": [
         {
@@ -40038,14 +40038,14 @@ const A2_WORDS = [
       "important": [
         "kaum un fast nav sinonīmi.",
         "kaum = gandrīz nemaz; fast = gandrīz.",
-        "\"kaum zu + Infinitiv\" bieži nozīmē grūti... vai gandrīz nevar..., nevis burtiski gandrīz nemaz.",
+        "\"kaum zu + nenoteiksme\" bieži nozīmē grūti... vai gandrīz nevar..., nevis burtiski gandrīz nemaz.",
         "kaum zu glauben = grūti noticēt / gandrīz nevar noticēt. kaum zu verstehen = grūti saprast / gandrīz nevar saprast."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "kaum",
-            "kaum zu + Infinitiv",
+            "kaum zu + nenoteiksme",
             "kaum zu glauben"
           ],
           "purple": [
@@ -40285,7 +40285,7 @@ const A2_WORDS = [
           },
           {
             "blue": [
-              "kaum zu + Infinitiv",
+              "kaum zu + nenoteiksme",
               "kaum zu glauben",
               "kaum zu verstehen"
             ],
@@ -40370,7 +40370,7 @@ const A2_WORDS = [
       "title": "Pazīt • Zināt",
       "subtitle": "kennen • wissen",
       "lead": "kennen nozīmē pazīt cilvēku vai vietu; wissen nozīmē zināt faktu vai informāciju.",
-      "explanation": "kennen lieto, ja pazīsti cilvēku, vietu vai lietu no personīgās pieredzes. wissen lieto, ja zini faktu, atbildi vai informāciju. kennen bieži ar Akkusativ, wissen bieži ar teikumu vai jautājumu.",
+      "explanation": "kennen lieto, ja pazīsti cilvēku, vietu vai lietu no personīgās pieredzes. wissen lieto, ja zini faktu, atbildi vai informāciju. kennen bieži ar kurp?, wissen bieži ar teikumu vai jautājumu.",
       "words": [
         {
           "icon": "👤",
@@ -43842,8 +43842,8 @@ const A2_WORDS = [
       "translation": "ciest",
       "explanation": [
         "Galvenā doma: leiden visbiežāk nozīmē ciest no sāpēm, slimības vai grūtas situācijas.",
-        "Ar an + Dativ tas nozīmē slimot ar kaut ko vai ciest no kādas problēmas.",
-        "Ar unter + Dativ tas nozīmē ciest zem kāda apstākļa vai problēmas.",
+        "Ar an + kam? tas nozīmē slimot ar kaut ko vai ciest no kādas problēmas.",
+        "Ar unter + kam? tas nozīmē ciest zem kāda apstākļa vai problēmas.",
         "leiden var nozīmēt arī paciest, bet šī nozīme bieži parādās noliegumā: ich kann ihn nicht leiden.",
         "Ja runa ir tikai par fizisku slimību, biežāk redzēsi krank sein vai krank werden."
       ],
@@ -44165,7 +44165,7 @@ const A2_WORDS = [
       "id": "a2-leihen",
       "layout": "standardStudy",
       "translation": "aizdot • aizņemties",
-      "explanation": "leihen ir ļoti līdzīgs borgen un var nozīmēt gan aizdot, gan aizņemties. Ja kāds dod tev lietu uz laiku, viņš tev to aizdod. Ja tu to saņem uz laiku, tu to aizņemies. Dativs bieži parāda, kam lieta tiek dota. Sarunvalodā šis vārds ir ļoti praktisks. Tāpēc jāskatās visa teikuma virziens.",
+      "explanation": "leihen ir ļoti līdzīgs borgen un var nozīmēt gan aizdot, gan aizņemties. Ja kāds dod tev lietu uz laiku, viņš tev to aizdod. Ja tu to saņem uz laiku, tu to aizņemies. kam? forma bieži parāda, kam lieta tiek dota. Sarunvalodā šis vārds ir ļoti praktisks. Tāpēc jāskatās visa teikuma virziens.",
       "examples": [
         {
           "de": "Kannst du mir dein Auto leihen?",
@@ -44496,7 +44496,7 @@ const A2_WORDS = [
           "aizdod",
           "aizdot",
           "borgen",
-          "Dativs",
+          "kam? forma",
           "leihen",
           "parāda",
           "bieži",
@@ -49766,7 +49766,7 @@ const A2_WORDS = [
       "translation": "ieteikt • uzminēt",
       "explanation": [
         "Galvenā doma: raten nozīmē dot padomu vai mēģināt uzminēt.",
-        "Ja kādam dod padomu, vāciski bieži lieto raten ar Dativ.",
+        "Ja kādam dod padomu, vāciski bieži lieto raten ar kam? formu.",
         "Ja nezini atbildi un mēģini to trāpīt, raten nozīmē uzminēt.",
         "Frāze Ich rate dir... nozīmē es tev iesaku.",
         "Konteksts parāda, vai runa ir par padomu vai minēšanu."
@@ -49794,7 +49794,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Ja pēc raten ir cilvēks Dativā, bieži nozīme ir ieteikt.",
+        "Ja pēc raten ir cilvēks kam? locījumā, bieži nozīme ir ieteikt.",
         "Ja pēc raten ir Antwort, Lösung vai Zahl, bieži nozīme ir uzminēt."
       ],
       "important": [
@@ -49813,7 +49813,7 @@ const A2_WORDS = [
             "iesaku"
           ],
           "green": [
-            "Dativ"
+            "kam?"
           ],
           "yellow": [
             "Konteksts"
@@ -49996,7 +49996,7 @@ const A2_WORDS = [
               "raten"
             ],
             "green": [
-              "Dativā"
+              "kam? locījumā"
             ],
             "purple": [
               "ieteikt"
@@ -50085,7 +50085,7 @@ const A2_WORDS = [
       "translation": "rēķināt",
       "explanation": [
         "Galvenā doma: rechnen nozīmē rēķināt vai skaitļot.",
-        "Ar mit + Dativ rechnen nozīmē rēķināties ar kaut ko vai sagaidīt kaut ko.",
+        "Ar mit + kam? rechnen nozīmē rēķināties ar kaut ko vai sagaidīt kaut ko.",
         "Matemātikā rechnen ir vienkāršs vārds nozīmei rēķināt.",
         "Frāze damit rechnen nozīmē ar to rēķināties.",
         "Konteksts parāda, vai runa ir par matemātiku vai gaidāmu situāciju."
@@ -50132,7 +50132,7 @@ const A2_WORDS = [
             "rēķināties"
           ],
           "green": [
-            "mit + Dativ"
+            "mit + kam?"
           ],
           "yellow": [
             "Matemātikā"
@@ -50939,7 +50939,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Ja ir nach, tulko kā smaržot pēc kaut kā.",
-        "Ja ir an + Dativ un cilvēks vai dzīvnieks, bieži tulko kā ostīt."
+        "Ja ir an + kam? un cilvēks vai dzīvnieks, bieži tulko kā ostīt."
       ],
       "important": [
         "riechen var būt gan smaržot, gan ostīt.",
@@ -51192,7 +51192,7 @@ const A2_WORDS = [
           },
           {
             "blue": [
-              "an + Dativ"
+              "an + kam?"
             ],
             "purple": [
               "ostīt"

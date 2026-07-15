@@ -3754,7 +3754,7 @@ const C1_WORDS = [
       ],
       "importantComparison": [
         "sich beziehen auf = attiekties uz (nevis *beabsichtigen auf).",
-        "beabsichtigen + zu + Infinitiv = nodomāt kaut ko darīt.",
+        "beabsichtigen + zu + nenoteiksme = nodomāt kaut ko darīt.",
         "beziehen ≠ beabsichtigen: attiecība pret nodomu."
       ],
       "tip": {
@@ -3774,8 +3774,8 @@ const C1_WORDS = [
         ]
       },
       "important": [
-        "beziehen bieži ar sich beziehen auf + Akkusativ.",
-        "beabsichtigen + zu-Infinitiv: Er beabsichtigt zu gehen.",
+        "beziehen bieži ar sich beziehen auf + ko?.",
+        "beabsichtigen + zu + nenoteiksme: Er beabsichtigt zu gehen.",
         "beabsichtigen nevar aizstāt ar beziehen — tas ir nolūks, ne attiecība."
       ],
       "mistakes": [
@@ -4054,8 +4054,8 @@ const C1_WORDS = [
       ],
       "importantComparison": [
         "unterstellen = nepamatota vaina; voraussetzen = loģisks priekšnosacījums.",
-        "unterstellen + Dativ + Akkusativ: jemandem etwas unterstellen.",
-        "voraussetzen + Akkusativ: etwas voraussetzen."
+        "unterstellen + kam? + ko?: jemandem etwas unterstellen.",
+        "voraussetzen + ko?: etwas voraussetzen."
       ],
       "tip": {
         "left": "Ja runa ir par nepamatotu pārmetumu — unterstellen. Ja par pamatzināšanu vai nosacījumu — voraussetzen.",

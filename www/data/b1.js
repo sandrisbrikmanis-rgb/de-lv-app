@@ -7640,7 +7640,7 @@ const B1_WORDS = [
       "id": "b1-sich-bemühen",
       "layout": "standardStudy",
       "translation": "censties",
-      "explanation": "Galvenā doma: sich bemühen nozīmē nopietni censties vai pūlēties. To bieži lieto ar um + Akkusativ vai ar zu + infinitīvu.",
+      "explanation": "Galvenā doma: sich bemühen nozīmē nopietni censties vai pūlēties. To bieži lieto ar um + ko? vai ar zu + infinitīvu.",
       "examples": [
         {
           "de": "Ich bemühe mich, pünktlich zu sein.",
@@ -7745,7 +7745,7 @@ const B1_WORDS = [
             "sich bemühen"
           ],
           "red": [
-            "um + Akkusativ",
+            "um + ko?",
             "zu + infinitīvu"
           ],
           "purple": [
@@ -8318,7 +8318,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "berichten parasti lieto ar über + Akkusativ vai von + Dativ."
+        "text": "berichten parasti lieto ar über + ko? vai von + kam?."
       },
       "sectionAccents": {
         "examples": [
@@ -8442,8 +8442,8 @@ const B1_WORDS = [
         },
         "important": {
           "purple": [
-            "über + Akkusativ",
-            "von + Dativ"
+            "über + ko?",
+            "von + kam?"
           ]
         }
       }
@@ -16838,7 +16838,7 @@ const B1_WORDS = [
       "id": "b1-einfluss",
       "layout": "standardStudy",
       "translation": "ietekme",
-      "explanation": "Galvenā doma: der Einfluss nozīmē ietekmi uz cilvēku, lēmumu vai situāciju. Ļoti bieža konstrukcija ir Einfluss auf + Akkusativ.",
+      "explanation": "Galvenā doma: der Einfluss nozīmē ietekmi uz cilvēku, lēmumu vai situāciju. Ļoti bieža konstrukcija ir Einfluss auf + ko?.",
       "examples": [
         {
           "de": "Das Wetter hat Einfluss auf unsere Pläne.",
@@ -16873,7 +16873,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Atceries konstrukciju: Einfluss auf + Akkusativ."
+            "text": "Atceries konstrukciju: Einfluss auf + ko?."
           }
         ]
       },
@@ -16950,7 +16950,7 @@ const B1_WORDS = [
             "Einfluss auf"
           ],
           "red": [
-            "Akkusativ"
+            "kurp?"
           ],
           "purple": [
             "ietekmi"
@@ -16996,7 +16996,7 @@ const B1_WORDS = [
         ],
         "tip": {
           "purple": [
-            "akkusativ"
+            "kurp?"
           ]
         },
         "important": {
@@ -40771,7 +40771,7 @@ const B1_WORDS = [
           "example": "Er biegt den Draht. = Viņš loka stiepli."
         }
       ],
-      "tip": "neigen zu + Dativ: nosliece uz kaut ko.",
+      "tip": "neigen zu + kam?: nosliece uz kaut ko.",
       "important": "neigen nav sich nähern. neigen rāda noslieci vai slīpumu, sich nähern rāda tuvošanos.",
       "sectionAccents": {
         "explanation": {
@@ -42882,7 +42882,7 @@ const B1_WORDS = [
       "id": "b1-pflegen",
       "layout": "standardStudy",
       "translation": "kopt",
-      "explanation": "Galvenā doma: pflegen nozīmē kopt cilvēku, ādu, augu vai lietu. Konstrukcija pflegen zu + Infinitiv nozīmē “mēdz darīt”.",
+      "explanation": "Galvenā doma: pflegen nozīmē kopt cilvēku, ādu, augu vai lietu. Konstrukcija pflegen zu + nenoteiksme nozīmē “mēdz darīt”.",
       "examples": [
         {
           "de": "Sie pflegt ihre Mutter zu Hause.",
@@ -42915,7 +42915,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "Kopšana ir pflegen; rūpēšanās plašāk ir sich kümmern um.",
-      "important": "pflegen zu + Infinitiv ir īpaša, nedaudz formālāka konstrukcija: “mēdz darīt”.",
+      "important": "pflegen zu + nenoteiksme ir īpaša, nedaudz formālāka konstrukcija: “mēdz darīt”.",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -49211,7 +49211,7 @@ const B1_WORDS = [
           "example": "Er bewacht das Haus. = Viņš apsargā māju."
         }
       ],
-      "tip": "No kaut kā pasargā: schützen vor + Dativ.",
+      "tip": "No kaut kā pasargā: schützen vor + kam?.",
       "important": "schützen vor lieto ar datīvu: vor Regen, vor der Sonne.",
       "sectionAccents": {
         "explanation": {
@@ -49288,7 +49288,7 @@ const B1_WORDS = [
         ],
         "tip": {
           "blue": "schützen vor",
-          "red": "Dativ"
+          "red": "kam?"
         },
         "important": {
           "blue": "schützen vor",
@@ -54515,7 +54515,7 @@ const B1_WORDS = [
       "id": "b1-teilnehmen",
       "layout": "standardStudy",
       "translation": "piedalīties",
-      "explanation": "Galvenā doma: teilnehmen nozīmē piedalīties pasākumā, kursā, sarunā vai sacensībās. Pareizā konstrukcija ir an + Dativ teilnehmen.",
+      "explanation": "Galvenā doma: teilnehmen nozīmē piedalīties pasākumā, kursā, sarunā vai sacensībās. Pareizā konstrukcija ir an + kam? teilnehmen.",
       "examples": [
         {
           "de": "Ich nehme an dem Kurs teil.",
@@ -54550,7 +54550,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Piedalīties kādā lietā: an + Dativ teilnehmen."
+            "text": "Piedalīties kādā lietā: an + kam? teilnehmen."
           }
         ]
       },
@@ -54561,7 +54561,7 @@ const B1_WORDS = [
         "explanation": {
           "blue": "teilnehmen",
           "purple": "piedalīties",
-          "red": "an + Dativ"
+          "red": "an + kam?"
         },
         "examples": [
           {
@@ -54644,7 +54644,7 @@ const B1_WORDS = [
         ],
         "tip": {
           "blue": "teilnehmen",
-          "red": "an + Dativ"
+          "red": "an + kam?"
         },
         "important": {
           "blue": "teilnehmen",
@@ -59414,7 +59414,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "vorkommen ir atdalāms: Das kommt oft vor."
+        "text": "vorkommen ir sadalāms: Das kommt oft vor."
       },
       "sectionAccents": {
         "explanation": {
@@ -59793,7 +59793,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "vorziehen ir atdalāms: Wir ziehen den Termin vor."
+        "text": "vorziehen ir sadalāms: Wir ziehen den Termin vor."
       },
       "sectionAccents": {
         "explanation": {
@@ -63607,7 +63607,7 @@ const B1_WORDS = [
         {
           "lv": "nevis trotz",
           "de": "obwohl vs trotz",
-          "meaning": "trotz + Dativ",
+          "meaning": "trotz + kam?",
           "describes": "prievārds, ne saikle",
           "example": "Trotz des Regens gehen wir.",
           "translation": "neraugoties uz lietu, mēs izejam."
@@ -64129,14 +64129,14 @@ const B1_WORDS = [
           "icon": "🔄",
           "lv": "tā vietā lai",
           "de": "anstatt ... zu",
-          "description": "Viena darbība notiek tā vietā, lai notiktu cita. anstatt + zu + Infinitiv.",
+          "description": "Viena darbība notiek tā vietā, lai notiktu cita. anstatt + zu + nenoteiksme.",
           "example": "Er fährt mit dem Rad, anstatt mit dem Auto zu fahren. = Viņš brauc ar riteni, tā vietā lai brauktu ar auto."
         },
         {
           "icon": "🚫",
           "lv": "bez (kaut ko darot)",
           "de": "ohne ... zu",
-          "description": "Darbība nenotiek. ohne + zu + Infinitiv.",
+          "description": "Darbība nenotiek. ohne + zu + nenoteiksme.",
           "example": "Er ging, ohne sich zu verabschieden. = Viņš aizgāja, neuzvadoties."
         }
       ],
@@ -64239,7 +64239,7 @@ const B1_WORDS = [
       },
       "important": [
         "Abi konstrukcijās otrais darbības vārds ir ar zu.",
-        "ohne + Akkusativ (bez siera) ≠ ohne ... zu (neko nedara).",
+        "ohne + ko? (bez siera) ≠ ohne ... zu (neko nedara).",
         "anstatt un statt bieži ir aizvietojami."
       ],
       "mistakes": [
@@ -65351,8 +65351,8 @@ const B1_WORDS = [
       "layout": "comparisonStudy",
       "title": "Zaudējums • Kaitēt",
       "subtitle": "der Schaden • schaden",
-      "lead": "der Schaden ir lietvārds (zaudējums); schaden ir darbības vārds (kaitēt) un prasa Dativ.",
-      "explanation": "der Schaden nozīmē zaudējumu, bojājumu vai kaitējumu. schaden nozīmē kaitēt, nodarīt kaitējumu. Darbības vārdam schaden obligāti jābūt Dativam: etwas schadet jemandem / der Gesundheit.",
+      "lead": "der Schaden ir lietvārds (zaudējums); schaden ir darbības vārds (kaitēt) un prasa kam? formu.",
+      "explanation": "der Schaden nozīmē zaudējumu, bojājumu vai kaitējumu. schaden nozīmē kaitēt, nodarīt kaitējumu. Darbības vārdam schaden obligāti jālieto ar kam? formu: etwas schadet jemandem / der Gesundheit.",
       "words": [
         {
           "icon": "💥",
@@ -65365,7 +65365,7 @@ const B1_WORDS = [
           "icon": "⚠",
           "lv": "kaitēt",
           "de": "schaden",
-          "description": "Darbības vārds — nodarīt kaitējumu. Prasa Dativ: jemandem schaden.",
+          "description": "Darbības vārds — nodarīt kaitējumu. prasa kam? formu: jemandem schaden.",
           "example": "Rauchen schadet der Gesundheit. = Smēķēšana kaitē veselībai."
         }
       ],
@@ -65413,10 +65413,10 @@ const B1_WORDS = [
           "translation": "tas kaitē veselībai."
         },
         {
-          "lv": "Dativ",
+          "lv": "kam?",
           "de": "jemandem schaden",
           "meaning": "kam kaitē",
-          "describes": "obligāts Dativ",
+          "describes": "obligāti jālieto ar kam? formu",
           "example": "Es schadet dir.",
           "translation": "tas tev kaitē."
         },
@@ -65424,7 +65424,7 @@ const B1_WORDS = [
           "lv": "veselība",
           "de": "der Gesundheit schaden",
           "meaning": "kaitēt veselībai",
-          "describes": "Dativ formā",
+          "describes": "kam? formā",
           "example": "Rauchen schadet der Gesundheit.",
           "translation": "smēķēšana kaitē veselībai."
         },
@@ -65448,11 +65448,11 @@ const B1_WORDS = [
       "importantComparison": [
         "Der Schaden ist groß. = Zaudējums ir liels.",
         "Rauchen schadet der Gesundheit. = Smēķēšana kaitē veselībai.",
-        "schaden vienmēr ar Dativ: der Gesundheit, dir, mir."
+        "schaden vienmēr ar kam? formu: der Gesundheit, dir, mir."
       ],
       "tip": {
-        "left": "Ja runa par bojājumu vai zaudējumu kā lietu, lieto der Schaden. Ja par kaitēšanu, lieto schaden + Dativ.",
-        "rightTitle": "Dativ",
+        "left": "Ja runa par bojājumu vai zaudējumu kā lietu, lieto der Schaden. Ja par kaitēšanu, lieto schaden + kam?.",
+        "rightTitle": "kam?",
         "rightItems": [
           {
             "de": "der Gesundheit schaden",
@@ -65468,7 +65468,7 @@ const B1_WORDS = [
       },
       "important": [
         "der Schaden = lietvārds (zaudējums).",
-        "schaden = darbības vārds (kaitēt) + Dativ.",
+        "schaden = darbības vārds (kaitēt) + kam?.",
         "schadet der Gesundheit — nevis *schadet die Gesundheit."
       ],
       "mistakes": [
@@ -65483,7 +65483,7 @@ const B1_WORDS = [
       ],
       "remember": [
         "der Schaden = zaudējums.",
-        "schaden + Dativ = kaitēt."
+        "schaden + kam? = kaitēt."
       ],
       "sectionAccents": {
         "lead": {
@@ -65497,7 +65497,7 @@ const B1_WORDS = [
             "schaden"
           ],
           "yellow": [
-            "Dativ"
+            "kam?"
           ]
         },
         "comparisonCards": [
@@ -65685,7 +65685,7 @@ const B1_WORDS = [
           {
             "lv": {
               "purple": [
-                "Dativ"
+                "kam?"
               ]
             },
             "de": {
@@ -65855,7 +65855,7 @@ const B1_WORDS = [
               "schaden"
             ],
             "yellow": [
-              "Dativ"
+              "kam?"
             ]
           },
           {
@@ -65896,7 +65896,7 @@ const B1_WORDS = [
           {
             "red": [
               "schaden",
-              "Dativ"
+              "kam?"
             ]
           }
         ]
@@ -65912,8 +65912,8 @@ const B1_WORDS = [
       "layout": "comparisonStudy",
       "title": "Uzticība • Uzticēties",
       "subtitle": "das Vertrauen • vertrauen",
-      "lead": "das Vertrauen ir lietvārds (uzticība); vertrauen ir darbības vārds (uzticēties) un prasa Dativ.",
-      "explanation": "das Vertrauen nozīmē uzticību kā jūtu vai attiecību stāvokli. vertrauen nozīmē uzticēties kādam. Darbības vārdam vertrauen obligāti jābūt Dativam: jemandem vertrauen.",
+      "lead": "das Vertrauen ir lietvārds (uzticība); vertrauen ir darbības vārds (uzticēties) un prasa kam? formu.",
+      "explanation": "das Vertrauen nozīmē uzticību kā jūtu vai attiecību stāvokli. vertrauen nozīmē uzticēties kādam. Darbības vārdam vertrauen obligāti jālieto ar kam? formu: jemandem vertrauen.",
       "words": [
         {
           "icon": "🤝",
@@ -65926,7 +65926,7 @@ const B1_WORDS = [
           "icon": "💙",
           "lv": "uzticēties",
           "de": "vertrauen",
-          "description": "Darbības vārds — uzticēties kādam. Prasa Dativ: jemandem vertrauen.",
+          "description": "Darbības vārds — uzticēties kādam. prasa kam? formu: jemandem vertrauen.",
           "example": "Ich vertraue dir. = Es tev uzticos."
         }
       ],
@@ -65974,10 +65974,10 @@ const B1_WORDS = [
           "translation": "es tev uzticos."
         },
         {
-          "lv": "Dativ",
+          "lv": "kam?",
           "de": "jemandem vertrauen",
           "meaning": "kam uzticas",
-          "describes": "obligāts Dativ",
+          "describes": "obligāti jālieto ar kam? formu",
           "example": "Ich vertraue meinem Freund.",
           "translation": "es uzticos savam draugam."
         },
@@ -66009,11 +66009,11 @@ const B1_WORDS = [
       "importantComparison": [
         "Ich vertraue dir. = Es tev uzticos.",
         "Ich habe Vertrauen zu dir. = Man ir uzticība tev.",
-        "vertrauen + Dativ: dir, meinem Arzt, unserem Lehrer."
+        "vertrauen + kam?: dir, meinem Arzt, unserem Lehrer."
       ],
       "tip": {
-        "left": "Ja runa par uzticību kā jūtu, lieto das Vertrauen. Ja par darbību — uzticēties, lieto vertrauen + Dativ.",
-        "rightTitle": "Dativ",
+        "left": "Ja runa par uzticību kā jūtu, lieto das Vertrauen. Ja par darbību — uzticēties, lieto vertrauen + kam?.",
+        "rightTitle": "kam?",
         "rightItems": [
           {
             "de": "ich vertraue dir",
@@ -66029,7 +66029,7 @@ const B1_WORDS = [
       },
       "important": [
         "das Vertrauen = lietvārds (uzticība).",
-        "vertrauen = darbības vārds (uzticēties) + Dativ.",
+        "vertrauen = darbības vārds (uzticēties) + kam?.",
         "Ich vertraue dich — nepareizi; pareizi: Ich vertraue dir."
       ],
       "mistakes": [
@@ -66044,7 +66044,7 @@ const B1_WORDS = [
       ],
       "remember": [
         "das Vertrauen = uzticība.",
-        "vertrauen + Dativ = uzticēties."
+        "vertrauen + kam? = uzticēties."
       ],
       "sectionAccents": {
         "lead": {
@@ -66058,7 +66058,7 @@ const B1_WORDS = [
             "vertrauen"
           ],
           "yellow": [
-            "Dativ"
+            "kam?"
           ]
         },
         "comparisonCards": [
@@ -66238,7 +66238,7 @@ const B1_WORDS = [
           {
             "lv": {
               "purple": [
-                "Dativ"
+                "kam?"
               ]
             },
             "de": {
@@ -66400,7 +66400,7 @@ const B1_WORDS = [
               "vertrauen"
             ],
             "yellow": [
-              "Dativ"
+              "kam?"
             ]
           },
           {
@@ -66435,7 +66435,7 @@ const B1_WORDS = [
           {
             "blue": [
               "vertrauen",
-              "Dativ"
+              "kam?"
             ]
           }
         ]
@@ -66451,7 +66451,7 @@ const B1_WORDS = [
       "layout": "comparisonStudy",
       "title": "Spīts • Neraugoties uz",
       "subtitle": "der Trotz • trotz",
-      "lead": "der Trotz ir lietvārds (spīts); trotz ir prievārds (neraugoties uz) un prasa Genitiv.",
+      "lead": "der Trotz ir lietvārds (spīts); trotz ir prievārds (neraugoties uz) un prasa piederības forma.",
       "explanation": "der Trotz nozīmē spītu vai spītību kā īpašību. trotz ir prievārds un nozīmē neraugoties uz kaut ko. Prievārdam trotz obligāti jābūt ģenitīvam: trotz des Regens, trotz des Wetters.",
       "words": [
         {
@@ -66465,7 +66465,7 @@ const B1_WORDS = [
           "icon": "☔",
           "lv": "neraugoties uz",
           "de": "trotz",
-          "description": "Prievārds — neraugoties uz. Prasa Genitiv: trotz + Genitiv.",
+          "description": "Prievārds — neraugoties uz. Prasa piederības forma: trotz + piederības forma.",
           "example": "Trotz des Regens gehen wir spazieren. = Neraugoties uz lietu, mēs ejam pastaigā."
         }
       ],
@@ -66516,7 +66516,7 @@ const B1_WORDS = [
           "lv": "ģenitīvs",
           "de": "trotz des Regens",
           "meaning": "neraugoties uz lietu",
-          "describes": "obligāts Genitiv",
+          "describes": "obligāts piederības forma",
           "example": "Trotz des Regens.",
           "translation": "neraugoties uz lietu."
         },
@@ -66524,7 +66524,7 @@ const B1_WORDS = [
           "lv": "laiks",
           "de": "trotz des Wetters",
           "meaning": "neraugoties uz laiku",
-          "describes": "Genitiv formā",
+          "describes": "piederības forma formā",
           "example": "Trotz des schlechten Wetters.",
           "translation": "neraugoties uz slikto laiku."
         },
@@ -66548,11 +66548,11 @@ const B1_WORDS = [
       "importantComparison": [
         "Trotz des Regens gehen wir. = Neraugoties uz lietu, mēs ejam.",
         "Er macht es aus Trotz. = Viņš to dara spīta pēc.",
-        "trotz + Genitiv: des Regens, des Wetters, der Krankheit."
+        "trotz + piederības forma: des Regens, des Wetters, der Krankheit."
       ],
       "tip": {
-        "left": "Ja runa par spītu kā īpašību, lieto der Trotz. Ja par neskatīšanos uz šķērsli, lieto trotz + Genitiv.",
-        "rightTitle": "Genitiv",
+        "left": "Ja runa par spītu kā īpašību, lieto der Trotz. Ja par neskatīšanos uz šķērsli, lieto trotz + piederības forma.",
+        "rightTitle": "piederības forma",
         "rightItems": [
           {
             "de": "trotz des Regens",
@@ -66568,7 +66568,7 @@ const B1_WORDS = [
       },
       "important": [
         "der Trotz = lietvārds (spīts).",
-        "trotz = prievārds (neraugoties uz) + Genitiv.",
+        "trotz = prievārds (neraugoties uz) + piederības forma.",
         "trotz dem Regen — nepareizi; pareizi: trotz des Regens."
       ],
       "mistakes": [
@@ -66583,7 +66583,7 @@ const B1_WORDS = [
       ],
       "remember": [
         "der Trotz = spīts.",
-        "trotz + Genitiv = neraugoties uz."
+        "trotz + piederības forma = neraugoties uz."
       ],
       "sectionAccents": {
         "lead": {
@@ -66597,7 +66597,7 @@ const B1_WORDS = [
             "trotz"
           ],
           "green": [
-            "Genitiv"
+            "piederības forma"
           ]
         },
         "comparisonCards": [
@@ -66941,7 +66941,7 @@ const B1_WORDS = [
               "trotz"
             ],
             "green": [
-              "Genitiv"
+              "piederības forma"
             ]
           },
           {
@@ -66976,7 +66976,7 @@ const B1_WORDS = [
           {
             "yellow": [
               "trotz",
-              "Genitiv"
+              "piederības forma"
             ]
           }
         ]

@@ -33,56 +33,56 @@ const GOETHE_B2_GEHEIMNIS_PLURALS = {
 
 // B2 verbs with fixed prepositions — clean de + study.rektion (NEVER in de field)
 const B2_VERB_REKTION = {
-  "sich abfinden": { rektion: "mit + Dativ", lv: "samierināties ar" },
-  "sich abwenden": { rektion: "von + Dativ", lv: "novērsties no" },
-  "sich befassen": { rektion: "mit + Dativ", lv: "nodarboties ar" },
-  "sich begnügen": { rektion: "mit + Dativ", lv: "apmierināties ar" },
-  "sich bemächtigen": { rektion: "+ Genitiv", lv: "sagrābt • saņemt savā varā" },
-  "sich berufen": { rektion: "auf + Akkusativ", lv: "atsaukties uz" },
-  "sich beschränken": { rektion: "auf + Akkusativ", lv: "ierobežoties ar" },
-  "sich betätigen": { rektion: "in + Dativ", lv: "darboties • piedalīties" },
-  "sich einlassen": { rektion: "auf + Akkusativ", lv: "ielaisties" },
-  "sich einprägen": { rektion: "in + Akkusativ", lv: "iegaumēt" },
-  "sich einschleichen": { rektion: "in + Akkusativ", lv: "ielavīties • iezagties" },
-  "sich einschränken": { rektion: "auf + Akkusativ", lv: "ierobežoties" },
-  "sich empfehlen": { rektion: "zu + Dativ", lv: "būt ieteicamam" },
-  "sich empören": { rektion: "über + Akkusativ", lv: "sašust • sacelties" },
-  "sich enthalten": { rektion: "von + Dativ", lv: "atturēties no" },
-  "sich entledigen": { rektion: "+ Genitiv", lv: "atbrīvoties • tikt vaļā" },
-  "sich entrüsten": { rektion: "über + Akkusativ", lv: "sašust • sadumpoties" },
+  "sich abfinden": { rektion: "mit + kam?", lv: "samierināties ar" },
+  "sich abwenden": { rektion: "von + kam?", lv: "novērsties no" },
+  "sich befassen": { rektion: "mit + kam?", lv: "nodarboties ar" },
+  "sich begnügen": { rektion: "mit + kam?", lv: "apmierināties ar" },
+  "sich bemächtigen": { rektion: "+ piederības forma", lv: "sagrābt • saņemt savā varā" },
+  "sich berufen": { rektion: "auf + ko?", lv: "atsaukties uz" },
+  "sich beschränken": { rektion: "auf + ko?", lv: "ierobežoties ar" },
+  "sich betätigen": { rektion: "in + kur?", lv: "darboties • piedalīties" },
+  "sich einlassen": { rektion: "auf + ko?", lv: "ielaisties" },
+  "sich einprägen": { rektion: "in + ko?", lv: "iegaumēt" },
+  "sich einschleichen": { rektion: "in + ko?", lv: "ielavīties • iezagties" },
+  "sich einschränken": { rektion: "auf + ko?", lv: "ierobežoties" },
+  "sich empfehlen": { rektion: "zu + kam?", lv: "būt ieteicamam" },
+  "sich empören": { rektion: "über + ko?", lv: "sašust • sacelties" },
+  "sich enthalten": { rektion: "von + kam?", lv: "atturēties no" },
+  "sich entledigen": { rektion: "+ piederības forma", lv: "atbrīvoties • tikt vaļā" },
+  "sich entrüsten": { rektion: "über + ko?", lv: "sašust • sadumpoties" },
   "sich entsinnen": {
-    rektion: "+ Genitiv",
+    rektion: "+ piederības forma",
     lv: "atminēties • atcerēties",
     explanation:
-      "sich entsinnen mūsdienu vāciski lieto ar Genitiv bez prievārda, piemēram: Ich entsinne mich eines Fehlers.",
+      "sich entsinnen mūsdienu vāciski lieto ar piederības formu bez prievārda, piemēram: Ich entsinne mich eines Fehlers.",
   },
-  "sich erbarmen": { rektion: "über + Akkusativ", lv: "apžēloties • iežēloties" },
-  "sich ergeben": { rektion: "aus + Dativ", lv: "izrietēt • padoties" },
-  "sich erniedrigen": { rektion: "vor + Dativ", lv: "pazemoties" },
-  "sich erregen": { rektion: "über + Akkusativ", lv: "uztraukties par" },
-  "sich erweisen": { rektion: "als + Nominativ", lv: "izrādīties par" },
-  "sich fassen": { rektion: "an + Dativ", lv: "sagrābt • saņemties • savaldīties" },
-  "sich fügen": { rektion: "in + Akkusativ", lv: "pielāgoties • pakļauties" },
-  "sich genieren": { rektion: "vor + Dativ", lv: "kaunēties" },
-  "sich gesellen": { rektion: "zu + Dativ", lv: "pievienoties" },
-  "sich gestalten": { rektion: "zu + Dativ", lv: "veidoties par" },
-  "sich grauen": { rektion: "vor + Dativ", lv: "biedēties no" },
-  "sich herausbilden": { rektion: "zu + Dativ", lv: "izveidoties par" },
-  "sich heraushalten": { rektion: "aus + Dativ", lv: "turēties nost no" },
-  "sich herausstellen": { rektion: "als + Nominativ", lv: "izrādīties par" },
-  "sich hervortun": { rektion: "in + Dativ", lv: "izcelties" },
-  "sich hingeben": { rektion: "+ Dativ", lv: "atdoties • nodoties" },
-  "sich paaren": { rektion: "mit + Dativ", lv: "pāroties ar" },
-  "sich revanchieren": { rektion: "bei + Dativ", lv: "atmaksāt • atriebties" },
-  "sich scheren": { rektion: "um + Akkusativ", lv: "rūpēties par" },
-  "sich vereinigen": { rektion: "mit + Dativ", lv: "apvienoties ar" },
-  "sich versehen": { rektion: "mit + Dativ", lv: "aizmirst • aprīkot ar" },
-  "sich versöhnen": { rektion: "mit + Dativ", lv: "samierināties ar" },
-  "sich verstellen": { rektion: "als + Akkusativ", lv: "uzdoties par" },
-  "sich verwundern": { rektion: "über + Akkusativ", lv: "brīnīties par" },
-  "sich widersetzen": { rektion: "+ Dativ", lv: "pretoties • stāties pretī" },
-  abhängen: { rektion: "von + Dativ", lv: "būt atkarīgam no" },
-  "sich verlassen": { rektion: "auf + Akkusativ", lv: "paļauties uz" },
+  "sich erbarmen": { rektion: "über + ko?", lv: "apžēloties • iežēloties" },
+  "sich ergeben": { rektion: "aus + kam?", lv: "izrietēt • padoties" },
+  "sich erniedrigen": { rektion: "vor + kam?", lv: "pazemoties" },
+  "sich erregen": { rektion: "über + ko?", lv: "uztraukties par" },
+  "sich erweisen": { rektion: "als + kas?", lv: "izrādīties par" },
+  "sich fassen": { rektion: "an + kam?", lv: "sagrābt • saņemties • savaldīties" },
+  "sich fügen": { rektion: "in + ko?", lv: "pielāgoties • pakļauties" },
+  "sich genieren": { rektion: "vor + kam?", lv: "kaunēties" },
+  "sich gesellen": { rektion: "zu + kam?", lv: "pievienoties" },
+  "sich gestalten": { rektion: "zu + kam?", lv: "veidoties par" },
+  "sich grauen": { rektion: "vor + kam?", lv: "biedēties no" },
+  "sich herausbilden": { rektion: "zu + kam?", lv: "izveidoties par" },
+  "sich heraushalten": { rektion: "aus + kam?", lv: "turēties nost no" },
+  "sich herausstellen": { rektion: "als + kas?", lv: "izrādīties par" },
+  "sich hervortun": { rektion: "in + kur?", lv: "izcelties" },
+  "sich hingeben": { rektion: "+ kam?", lv: "atdoties • nodoties" },
+  "sich paaren": { rektion: "mit + kam?", lv: "pāroties ar" },
+  "sich revanchieren": { rektion: "bei + kam?", lv: "atmaksāt • atriebties" },
+  "sich scheren": { rektion: "um + ko?", lv: "rūpēties par" },
+  "sich vereinigen": { rektion: "mit + kam?", lv: "apvienoties ar" },
+  "sich versehen": { rektion: "mit + kam?", lv: "aizmirst • aprīkot ar" },
+  "sich versöhnen": { rektion: "mit + kam?", lv: "samierināties ar" },
+  "sich verstellen": { rektion: "als + ko?", lv: "uzdoties par" },
+  "sich verwundern": { rektion: "über + ko?", lv: "brīnīties par" },
+  "sich widersetzen": { rektion: "+ kam?", lv: "pretoties • stāties pretī" },
+  abhängen: { rektion: "von + kam?", lv: "būt atkarīgam no" },
+  "sich verlassen": { rektion: "auf + ko?", lv: "paļauties uz" },
 };
 
 // Verbs that must NOT have study.rektion
@@ -122,7 +122,7 @@ const B2_LINGUISTIC_FIXES = {
   bewältigen: { lv: "pārvarēt • tikt galā ar" },
 };
 
-const REKTION_IN_DE = /\s+(mit|von|auf|an|in|zu|über|vor|aus|bei|um|als)\s+\+\s*\w+|\s+\+\s*(Dativ|Akkusativ|Genitiv|Nominativ)/i;
+const REKTION_IN_DE = /\s+(mit|von|auf|an|in|zu|über|vor|aus|bei|um|als)\s+\+\s*\w+|\s+\+\s*(kam\?|ko\?|piederības forma|teikuma priekšmets)/i;
 
 // Homonyms that MUST stay as separate entries (never merge)
 const HOMONYM_KEEP_SEPARATE = [
@@ -249,7 +249,7 @@ function formatEntry(e) {
 function cleanVerbDe(de) {
   return String(de || "")
     .replace(/\s+(mit|von|auf|an|in|zu|über|vor|aus|bei|um|als)\s+\+\s*\w+$/i, "")
-    .replace(/\s+\+\s*(Dativ|Akkusativ|Genitiv|Nominativ)$/i, "")
+    .replace(/\s+\+\s*(kam\?|ko\?|piederības forma|teikuma priekšmets)$/i, "")
     .trim();
 }
 
@@ -264,13 +264,13 @@ function slugifyDe(de) {
 }
 
 function rektionExplanation(de, rektion) {
-  if (rektion === "+ Genitiv") {
-    return `${de} mūsdienu vāciski lieto ar Genitiv bez prievārda.`;
+  if (rektion === "+ piederības forma") {
+    return `${de} mūsdienu vāciski lieto ar piederības formu bez prievārda.`;
   }
   if (/^\+/.test(rektion)) {
     return `${de} prasa ${rektion}.`;
   }
-  return `${de} prasa fiksētu prievārdu ${rektion}.`;
+  return `${de} nepieciešams noteikts prievārds ${rektion}.`;
 }
 
 function buildRektionStudy(de, spec) {
