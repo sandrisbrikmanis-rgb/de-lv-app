@@ -16978,14 +16978,609 @@ const A1_WORDS = [
       "level": "A1"
     },
     {
-      "de": "sie",
-      "lv": "viņa • viņi",
-      "level": "A1"
-    },
-    {
-      "de": "sie",
-      "lv": "jūs",
-      "level": "A1"
+      "de": "sie • sie • Sie",
+      "lv": "Viņa • Viņi • Jūs",
+      "level": "A1",
+      "study": {
+        "id": "compare-sie-sie-sie",
+        "layout": "comparisonStudy",
+        "title": "Viņa • Viņi • Jūs",
+        "subtitle": "sie • sie • Sie",
+        "lead": "Vācu valodā viens un tas pats vārds „sie” var nozīmēt viņu, viņus vai pieklājīgu jūs — atšķirību parāda darbības vārda forma un lielais S pie uzrunas.",
+        "explanation": "Mazais sie nozīmē viņu, ja darbības vārds ir vienskaitlī (Sie kocht = viņa gatavo). Tas pats mazais sie nozīmē viņus, ja darbības vārds ir daudzskaitlī (Sie kochen = viņi gatavo). Lielais Sie vienmēr nozīmē pieklājīgu jūs — arī tad, ja darbības vārds ir daudzskaitlī (Sie kochen = jūs gatavojat). Rakstībā pieklājības forma obligāti ar lielo S.",
+        "words": [
+          {
+            "icon": "👩",
+            "lv": "viņa",
+            "de": "sie",
+            "accent": "blue",
+            "description": "Vienskaitļa forma — runā par vienu sievieti. Darbības vārds beidzas ar -t: kocht, isst, geht.",
+            "example": "Sie kocht. = Viņa gatavo."
+          },
+          {
+            "icon": "👥",
+            "lv": "viņi",
+            "de": "sie",
+            "accent": "green",
+            "description": "Daudzskaitļa forma — runā par vairākiem cilvēkiem. Darbības vārds beidzas ar -en: kochen, essen, gehen.",
+            "example": "Sie kochen. = Viņi gatavo."
+          },
+          {
+            "icon": "🤝",
+            "lv": "jūs",
+            "de": "Sie",
+            "accent": "yellow",
+            "description": "Pieklājības uzruna — vienmēr ar lielo S. Latviski: jūs. Bieži ar darbības vārdu daudzskaitlī.",
+            "example": "Sie kochen, bitte. = Jūs gatavojat, lūdzu."
+          }
+        ],
+        "examples": [
+          {
+            "de": "Sie kocht.",
+            "lv": "viņa gatavo."
+          },
+          {
+            "de": "Sie isst.",
+            "lv": "viņa ēd."
+          },
+          {
+            "de": "Sie kochen.",
+            "lv": "viņi gatavo."
+          },
+          {
+            "de": "Sie spielen Fußball.",
+            "lv": "viņi spēlē futbolu."
+          },
+          {
+            "de": "Sie kochen, bitte.",
+            "lv": "jūs gatavojat, lūdzu."
+          },
+          {
+            "de": "Kommen Sie bitte herein.",
+            "lv": "lūdzu, nāciet iekšā."
+          }
+        ],
+        "comparisonTable": [
+          {
+            "lv": "viņa",
+            "de": "sie",
+            "meaning": "viena sieviete",
+            "describes": "darbības vārds vienskaitlī (-t)",
+            "example": "Sie kocht.",
+            "translation": "viņa gatavo."
+          },
+          {
+            "lv": "viņi",
+            "de": "sie",
+            "meaning": "vairāki cilvēki",
+            "describes": "darbības vārds daudzskaitlī (-en)",
+            "example": "Sie kochen.",
+            "translation": "viņi gatavo."
+          },
+          {
+            "lv": "jūs",
+            "de": "Sie",
+            "meaning": "pieklājīga uzruna",
+            "describes": "obligāti ar lielo S",
+            "example": "Sie kochen, bitte.",
+            "translation": "jūs gatavojat, lūdzu."
+          },
+          {
+            "lv": "atšķirība",
+            "de": "kocht / kochen",
+            "meaning": "pēc darbības vārda",
+            "describes": "kocht = viņa; kochen = viņi vai jūs",
+            "example": "Sie kocht. ≠ Sie kochen.",
+            "translation": "viņa ≠ viņi/jūs"
+          }
+        ],
+        "importantComparison": [
+          "Sie kocht. = Viņa gatavo.",
+          "Sie kochen. = Viņi gatavo. / Jūs gatavojat.",
+          "Pieklājībā vienmēr lielais Sie — nevis mazais sie."
+        ],
+        "tip": {
+          "left": "Ja darbības vārds ir kocht, isst, geht — parasti viņa. Ja kochen, essen, gehen — viņi vai pieklājīgs jūs; konteksts un lielais S palīdz.",
+          "rightTitle": "ātri",
+          "rightItems": [
+            {
+              "de": "Sie kocht",
+              "lv": "viņa",
+              "separator": "="
+            },
+            {
+              "de": "sie kochen",
+              "lv": "viņi",
+              "separator": "="
+            },
+            {
+              "de": "Sie kochen",
+              "lv": "jūs",
+              "separator": "="
+            }
+          ]
+        },
+        "important": [
+          "Pieklājības uzruna vienmēr ar lielo S: Sie, nevis sie.",
+          "Viņa: Sie kocht. Viņi: sie kochen. Jūs: Sie kochen.",
+          "Vienā teikumā konteksts un darbības vārda forma parāda nozīmi."
+        ],
+        "mistakes": [
+          {
+            "wrong": "sie kocht",
+            "right": "Sie kocht"
+          },
+          {
+            "wrong": "Sie kocht (viņi)",
+            "right": "Sie kochen"
+          },
+          {
+            "wrong": "Kommen sie bitte herein.",
+            "right": "Kommen Sie bitte herein."
+          }
+        ],
+        "remember": [
+          "kocht / isst / geht → parasti viņa.",
+          "kochen / essen / gehen → viņi vai jūs (pēc konteksta un S).",
+          "Pieklājībā: vienmēr lielais Sie."
+        ],
+        "sectionAccents": {
+          "lead": {
+            "blue": [
+              "sie"
+            ],
+            "yellow": [
+              "Sie"
+            ],
+            "purple": [
+              "viņu",
+              "viņus",
+              "jūs",
+              "lielais S"
+            ]
+          },
+          "explanation": {
+            "blue": [
+              "sie",
+              "kocht"
+            ],
+            "green": [
+              "kochen"
+            ],
+            "yellow": [
+              "Sie"
+            ],
+            "purple": [
+              "viņu",
+              "viņus",
+              "jūs",
+              "vienskaitlī",
+              "daudzskaitlī"
+            ]
+          },
+          "comparisonCards": [
+            {
+              "lv": {
+                "purple": [
+                  "viņa"
+                ]
+              },
+              "de": {
+                "blue": [
+                  "sie",
+                  "kocht"
+                ]
+              },
+              "description": {
+                "purple": [
+                  "Vienskaitļa"
+                ],
+                "blue": [
+                  "kocht",
+                  "isst"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "kocht"
+                ],
+                "purple": [
+                  "gatavo"
+                ]
+              }
+            },
+            {
+              "lv": {
+                "purple": [
+                  "viņi"
+                ]
+              },
+              "de": {
+                "green": [
+                  "sie",
+                  "kochen"
+                ]
+              },
+              "description": {
+                "purple": [
+                  "Daudzskaitļa"
+                ],
+                "green": [
+                  "kochen",
+                  "essen"
+                ]
+              },
+              "example": {
+                "green": [
+                  "kochen"
+                ],
+                "purple": [
+                  "gatavo"
+                ]
+              }
+            },
+            {
+              "lv": {
+                "purple": [
+                  "jūs"
+                ]
+              },
+              "de": {
+                "yellow": [
+                  "Sie",
+                  "kochen"
+                ]
+              },
+              "description": {
+                "yellow": [
+                  "Sie"
+                ],
+                "purple": [
+                  "pieklājības"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "Sie",
+                  "kochen"
+                ],
+                "purple": [
+                  "gatavojat"
+                ]
+              }
+            }
+          ],
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "kocht"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "viņa",
+                  "gatavo"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "isst"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "viņa",
+                  "ēd"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "kochen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "viņi",
+                  "gatavo"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "spielen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "viņi",
+                  "spēlē"
+                ]
+              }
+            },
+            {
+              "de": {
+                "yellow": [
+                  "Sie",
+                  "kochen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "jūs",
+                  "gatavojat"
+                ]
+              }
+            },
+            {
+              "de": {
+                "yellow": [
+                  "Sie",
+                  "Kommen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "nāciet"
+                ]
+              }
+            }
+          ],
+          "comparisonTable": [
+            {
+              "lv": {
+                "purple": [
+                  "viņa"
+                ]
+              },
+              "de": {
+                "blue": [
+                  "sie",
+                  "kocht"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "kocht"
+                ]
+              },
+              "translation": {
+                "purple": [
+                  "gatavo"
+                ]
+              }
+            },
+            {
+              "lv": {
+                "purple": [
+                  "viņi"
+                ]
+              },
+              "de": {
+                "green": [
+                  "sie",
+                  "kochen"
+                ]
+              },
+              "example": {
+                "green": [
+                  "kochen"
+                ]
+              },
+              "translation": {
+                "purple": [
+                  "gatavo"
+                ]
+              }
+            },
+            {
+              "lv": {
+                "purple": [
+                  "jūs"
+                ]
+              },
+              "de": {
+                "yellow": [
+                  "Sie",
+                  "kochen"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "Sie",
+                  "kochen"
+                ]
+              },
+              "translation": {
+                "purple": [
+                  "gatavojat"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "kocht"
+                ],
+                "green": [
+                  "kochen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "atšķirība"
+                ]
+              }
+            }
+          ],
+          "importantComparison": [
+            {
+              "blue": [
+                "kocht"
+              ],
+              "purple": [
+                "viņa"
+              ]
+            },
+            {
+              "green": [
+                "kochen"
+              ],
+              "purple": [
+                "viņi"
+              ]
+            },
+            {
+              "yellow": [
+                "Sie"
+              ],
+              "purple": [
+                "jūs"
+              ]
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "kocht"
+              ],
+              "green": [
+                "kochen"
+              ],
+              "yellow": [
+                "Sie"
+              ]
+            },
+            "rightItems": [
+              {
+                "de": {
+                  "blue": [
+                    "kocht"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "viņa"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "kochen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "viņi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "yellow": [
+                    "Sie",
+                    "kochen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "jūs"
+                  ]
+                }
+              }
+            ]
+          },
+          "important": [
+            {
+              "yellow": [
+                "Sie"
+              ],
+              "red": [
+                "sie"
+              ]
+            },
+            {
+              "blue": [
+                "kocht"
+              ],
+              "green": [
+                "kochen"
+              ]
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": {
+                "red": [
+                  "sie kocht"
+                ]
+              },
+              "right": {
+                "blue": [
+                  "Sie kocht"
+                ]
+              }
+            },
+            {
+              "wrong": {
+                "red": [
+                  "Sie kocht"
+                ]
+              },
+              "right": {
+                "green": [
+                  "Sie kochen"
+                ]
+              }
+            },
+            {
+              "wrong": {
+                "red": [
+                  "Kommen sie"
+                ]
+              },
+              "right": {
+                "yellow": [
+                  "Kommen Sie"
+                ]
+              }
+            }
+          ],
+          "remember": [
+            {
+              "blue": [
+                "kocht",
+                "isst"
+              ],
+              "purple": [
+                "viņa"
+              ]
+            },
+            {
+              "green": [
+                "kochen"
+              ],
+              "purple": [
+                "viņi"
+              ]
+            },
+            {
+              "yellow": [
+                "Sie"
+              ],
+              "purple": [
+                "jūs"
+              ]
+            }
+          ]
+        }
+      }
     },
     {
       "de": "siebenhundert",
