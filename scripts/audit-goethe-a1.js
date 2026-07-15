@@ -159,6 +159,7 @@ const GOETHE_NOUNS = {
   Lampe: { article: "die", plural: "Lampen" },
   Land: { article: "das", plural: "Länder" },
   Leute: { article: "die", pluralOnly: true },
+  Liter: { article: "der", plural: "Liter" },
   Lust: { article: "die", singularOnly: true },
   Mail: { article: "die", plural: "Mails" },
   Mal: { article: "das", plural: "Male" },
@@ -344,6 +345,31 @@ const COMPARISON_COVERED_WORDS = new Set([
   "bitte", "Bitte",
   "morgen", "Morgen",
 ]);
+
+const LITER_STUDY_EXPLANATION =
+  "Vācijā parasti saka 'der Liter', bet Austrijā un Šveicē var dzirdēt arī 'das Liter'. Daudzskaitļa forma paliek nemainīga: 'die Liter'.";
+
+/** A1 article-slash entries unified to a single canonical article in de_article. */
+const ARTICLE_SLASH_UNIFIED = {
+  "der/das Liter": {
+    de: "Liter",
+    de_article: "der",
+    de_plural: "die Liter",
+    study: {
+      id: "a1-liter",
+      layout: "standardStudy",
+      translation: "litrs",
+      explanation: LITER_STUDY_EXPLANATION,
+      sectionAccents: {
+        explanation: {
+          green: ["der Liter"],
+          blue: ["das Liter"],
+          purple: ["die Liter"],
+        },
+      },
+    },
+  },
+};
 
 function loadA1() {
   const win = {};
@@ -541,6 +567,42 @@ function auditComparisonSubtitles(words) {
   return fixes;
 }
 
+function auditArticleSlashUnified(words) {
+  const fixes = [];
+  const literEntry = words.find((w) => w.de === "Liter" || w.de === "der/das Liter");
+  if (literEntry) {
+    const expected = ARTICLE_SLASH_UNIFIED["der/das Liter"];
+    const changes = {};
+    if (literEntry.de !== expected.de) changes.de = expected.de;
+    if (literEntry.de_article !== expected.de_article) changes.de_article = expected.de_article;
+    if (literEntry.de_plural !== expected.de_plural) changes.de_plural = expected.de_plural;
+    const expStudy = expected.study;
+    const studyMismatch = !literEntry.study
+      || literEntry.study.id !== expStudy.id
+      || literEntry.study.explanation !== expStudy.explanation;
+    if (studyMismatch) changes.study = expStudy;
+    if (Object.keys(changes).length) {
+      fixes.push({
+        de: literEntry.de,
+        old: formatEntry(literEntry),
+        reason: "Liter: de bez slīpsvītras, de_article=der, study.explanation par reģionālo variantu",
+        changes,
+      });
+    }
+  }
+  for (const word of words) {
+    if (/^(der|die|das)\/(der|die|das)\b/i.test(word.de) && !ARTICLE_SLASH_UNIFIED[word.de]) {
+      fixes.push({
+        de: word.de,
+        old: formatEntry(word),
+        reason: "A1 unifikācija: de laukā nedrīkst būt slīpsvītras artikulu variants (der/das …)",
+        changes: { needsManualSlashFix: true },
+      });
+    }
+  }
+  return fixes.filter((f) => !f.changes?.needsManualSlashFix);
+}
+
 function applyFixes(words, fixList) {
   const byDe = new Map();
   const subtitleById = new Map();
@@ -576,6 +638,7 @@ function applyFixes(words, fixList) {
     if (changes.de_article) updated.de_article = changes.de_article;
     if (changes.de_plural) updated.de_plural = changes.de_plural;
     if (changes.lv) updated.lv = changes.lv;
+    if (changes.study) updated.study = { ...(word.study || {}), ...changes.study };
     if (changes.removeArticle) delete updated.de_article;
     if (changes.removePlural) delete updated.de_plural;
     result.push(updated);
@@ -594,7 +657,12 @@ function serializeWords(words) {
 
 // --- main ---
 const words = loadA1();
-let fixes = [...audit(words), ...auditAdjectives(words), ...auditComparisonSubtitles(words)];
+let fixes = [
+  ...audit(words),
+  ...auditAdjectives(words),
+  ...auditComparisonSubtitles(words),
+  ...auditArticleSlashUnified(words),
+];
 
 // Deduplicate and merge fixes per word for reporting
 const report = [];

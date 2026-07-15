@@ -11983,10 +11983,30 @@ const A1_WORDS = [
       "level": "A1"
     },
     {
-      "de": "der/das Liter",
+      "de": "Liter",
+      "de_article": "der",
       "de_plural": "die Liter",
       "lv": "litrs",
-      "level": "A1"
+      "level": "A1",
+      "study": {
+        "id": "a1-liter",
+        "layout": "standardStudy",
+        "translation": "litrs",
+        "explanation": "Vācijā parasti saka 'der Liter', bet Austrijā un Šveicē var dzirdēt arī 'das Liter'. Daudzskaitļa forma paliek nemainīga: 'die Liter'.",
+        "sectionAccents": {
+          "explanation": {
+            "green": [
+              "der Liter"
+            ],
+            "blue": [
+              "das Liter"
+            ],
+            "purple": [
+              "die Liter"
+            ]
+          }
+        }
+      }
     },
     {
       "de": "Löffel",
