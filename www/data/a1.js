@@ -8838,7 +8838,6 @@ const A1_WORDS = [
     {
       "de": "Jeans",
       "de_article": "die",
-      "de_plural": "die Jeans",
       "lv": "džinsi",
       "level": "A1"
     },
