@@ -293,7 +293,8 @@ const GOETHE_A1_ADJECTIVES = new Set(
   freundlich langweilig billig teuer ruhig leise hoch niedrig wichtig falsch richtig
   rot blau grün gelb schwarz weiß braun grau hungrig durstig müde krank glücklich traurig
   angenehm nett höflich dunkel hell sauber schmutzig leicht schwer stark schwach frisch
-  kaputt fertig bereit besetzt frei voll leer gleich verschieden spät früh bald kurz lang lieb böse frech`
+  kaputt fertig bereit besetzt frei voll leer gleich verschieden spät früh bald kurz lang lieb böse frech
+  links rechts`
     .split(/\s+/)
     .map((s) => s.toLowerCase())
 );

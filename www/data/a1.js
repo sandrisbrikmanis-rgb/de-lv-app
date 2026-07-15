@@ -11511,13 +11511,8 @@ const A1_WORDS = [
       "level": "A1"
     },
     {
-      "de": "link",
-      "lv": "kreiss",
-      "level": "A1"
-    },
-    {
       "de": "links",
-      "lv": "pa kreisi",
+      "lv": "Pa kreisi • Kreisais",
       "level": "A1"
     },
     {
@@ -14718,7 +14713,7 @@ const A1_WORDS = [
     },
     {
       "de": "rechts",
-      "lv": "pa labi",
+      "lv": "Pa labi • Labais",
       "level": "A1"
     },
     {
