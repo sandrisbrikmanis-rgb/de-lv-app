@@ -312,6 +312,7 @@ const COMPARISON_CARD_IDS = new Set([
   "compare-geschwister-eltern",
   "compare-stadt-staat",
   "compare-uhr-zeit",
+  "compare-laut-der-laut",
   "compare-mal-einmal-nochmal",
 ]);
 
@@ -324,6 +325,7 @@ const COMPARISON_SUBTITLES = {
   "compare-geschwister-eltern": "die Geschwister • die Eltern",
   "compare-stadt-staat": "die Stadt • der Staat",
   "compare-uhr-zeit": "die Uhr • die Zeit",
+  "compare-laut-der-laut": "laut • der Laut",
   "compare-mal-einmal-nochmal": "mal • einmal • noch mal",
 };
 
@@ -336,6 +338,7 @@ const COMPARISON_COVERED_WORDS = new Set([
   "Geschwister", "Eltern",
   "Stadt", "Staat",
   "Uhr", "Zeit",
+  "laut", "Laut",
 ]);
 
 function loadA1() {

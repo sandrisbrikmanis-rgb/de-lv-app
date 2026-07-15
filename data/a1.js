@@ -10425,11 +10425,445 @@ const A1_WORDS = [
       }
     },
     {
-      "de": "Laut",
-      "de_article": "der",
-      "de_plural": "die Laute",
-      "lv": "skaļš",
-      "level": "A1"
+      "de": "laut • der Laut",
+      "lv": "Skaļš • Skaņa",
+      "level": "A1",
+      "study": {
+        "id": "compare-laut-der-laut",
+        "layout": "comparisonStudy",
+        "title": "Skaļš • Skaņa",
+        "subtitle": "laut • der Laut",
+        "lead": "laut ar mazo burtu ir īpašības vārds; der Laut ar lielo burtu un artikulu ir lietvārds. Tie nav sinonīmi.",
+        "explanation": "laut ar mazo sākumburtu ir īpašības vārds — tas apraksta, cik skaļa ir skaņa (Die Musik ist laut = mūzika ir skaļa). der Laut ar lielo burtu un artikulu der ir lietvārds — tas nozīmē skaņu kā lietu vai signālu (Der Laut ist schön = skaņa ir skaista). Daudzskaitlī: die Laute.",
+        "words": [
+          {
+            "icon": "🔊",
+            "lv": "skaļš",
+            "de": "laut",
+            "description": "Īpašības vārds ar mazo burtu. Apraksta intensitāti — cik skaļa ir skaņa vai runa.",
+            "example": "Die Musik ist laut. = Mūzika ir skaļa."
+          },
+          {
+            "icon": "🎵",
+            "lv": "skaņa",
+            "de": "der Laut",
+            "description": "Lietvārds ar artikulu der un lielo burtu. Nozīmē skaņu kā lietu, signālu vai valodas skaņu.",
+            "example": "Der Laut ist schön. = Skaņa ir skaista."
+          }
+        ],
+        "examples": [
+          {
+            "de": "Die Musik ist laut.",
+            "lv": "mūzika ir skaļa."
+          },
+          {
+            "de": "Sprich nicht so laut!",
+            "lv": "nerunā tik skaļi!"
+          },
+          {
+            "de": "Das ist sehr laut.",
+            "lv": "tas ir ļoti skaļi."
+          },
+          {
+            "de": "Der Laut ist schön.",
+            "lv": "skaņa ir skaista."
+          },
+          {
+            "de": "Ich höre einen Laut.",
+            "lv": "es dzirdu kādu skaņu."
+          },
+          {
+            "de": "Die Laute der Sprache sind wichtig.",
+            "lv": "valodas skaņas ir svarīgas."
+          }
+        ],
+        "comparisonTable": [
+          {
+            "lv": "skaļš",
+            "de": "laut",
+            "meaning": "skaļa skaņa",
+            "describes": "īpašības vārds",
+            "example": "Die Musik ist laut.",
+            "translation": "mūzika ir skaļa."
+          },
+          {
+            "lv": "skaņa",
+            "de": "der Laut",
+            "meaning": "skaņas signāls",
+            "describes": "lietvārds (der)",
+            "example": "Der Laut ist schön.",
+            "translation": "skaņa ir skaista."
+          },
+          {
+            "lv": "skaļi",
+            "de": "so laut",
+            "meaning": "runāt skaļi",
+            "describes": "īp. v. + apstākļis",
+            "example": "Sprich nicht so laut!",
+            "translation": "nerunā tik skaļi!"
+          },
+          {
+            "lv": "skaņas",
+            "de": "die Laute",
+            "meaning": "valodas skaņas",
+            "describes": "lietvārds (pl.)",
+            "example": "Die Laute der Sprache sind wichtig.",
+            "translation": "valodas skaņas ir svarīgas."
+          }
+        ],
+        "importantComparison": [
+          "Die Musik ist laut. = Mūzika ir skaļa.",
+          "Der Laut ist schön. = Skaņa ir skaista.",
+          "laut = īpašības vārds (skaļš); der Laut = lietvārds (skaņa)."
+        ],
+        "tip": {
+          "left": "Mazais laut = skaļš (īpašības vārds: ist laut). der Laut ar lielo burtu = skaņa (lietvārds: ein Laut, der Laut).",
+          "rightTitle": "ātri",
+          "rightItems": [
+            {
+              "de": "ist laut",
+              "lv": "ir skaļi",
+              "separator": "="
+            },
+            {
+              "de": "der Laut",
+              "lv": "skaņa",
+              "separator": "="
+            }
+          ]
+        },
+        "important": [
+          "laut stāv ar mazo burtu un bez artikula — tas ir īpašības vārds.",
+          "der Laut ar lielo burtu un artikulu der ir lietvārds.",
+          "Daudzskaitlis: die Laute (valodas skaņas, skaņas signāli)."
+        ],
+        "mistakes": [
+          {
+            "wrong": "Der Laut ist sehr.",
+            "right": "Das ist sehr laut."
+          },
+          {
+            "wrong": "Die Musik ist der Laut.",
+            "right": "Die Musik ist laut."
+          }
+        ],
+        "remember": [
+          "Skaļš (īpašība): laut — Die Musik ist laut.",
+          "Skaņa (lieta): der Laut — Ich höre einen Laut."
+        ],
+        "sectionAccents": {
+          "lead": {
+            "blue": [
+              "laut"
+            ],
+            "yellow": [
+              "Laut"
+            ],
+            "purple": [
+              "īpašības vārds",
+              "lietvārds"
+            ]
+          },
+          "comparisonCards": [
+            {
+              "lv": {
+                "purple": [
+                  "skaļš",
+                  "skaļi"
+                ]
+              },
+              "de": {
+                "blue": [
+                  "laut"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "laut"
+                ],
+                "purple": [
+                  "skaļa",
+                  "skaļi"
+                ]
+              }
+            },
+            {
+              "lv": {
+                "purple": [
+                  "skaņa",
+                  "skaņas"
+                ]
+              },
+              "de": {
+                "yellow": [
+                  "Laut",
+                  "Laute"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "Laut",
+                  "Laute"
+                ],
+                "purple": [
+                  "skaņa",
+                  "skaņas"
+                ]
+              }
+            }
+          ],
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "laut"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "skaļa"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "laut"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "skaļi"
+                ]
+              }
+            },
+            {
+              "de": {
+                "yellow": [
+                  "Laut"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "skaņa"
+                ]
+              }
+            },
+            {
+              "de": {
+                "yellow": [
+                  "Laut",
+                  "Laute"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "skaņu",
+                  "skaņas"
+                ]
+              }
+            }
+          ],
+          "comparisonTable": [
+            {
+              "lv": {
+                "purple": [
+                  "skaļš"
+                ]
+              },
+              "de": {
+                "blue": [
+                  "laut"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "laut"
+                ]
+              },
+              "translation": {
+                "purple": [
+                  "skaļa"
+                ]
+              }
+            },
+            {
+              "lv": {
+                "purple": [
+                  "skaņa"
+                ]
+              },
+              "de": {
+                "yellow": [
+                  "Laut"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "Laut"
+                ]
+              },
+              "translation": {
+                "purple": [
+                  "skaņa"
+                ]
+              }
+            },
+            {
+              "lv": {
+                "purple": [
+                  "skaļi"
+                ]
+              },
+              "de": {
+                "blue": [
+                  "laut"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "laut"
+                ]
+              },
+              "translation": {
+                "purple": [
+                  "skaļi"
+                ]
+              }
+            },
+            {
+              "lv": {
+                "purple": [
+                  "skaņas"
+                ]
+              },
+              "de": {
+                "yellow": [
+                  "Laute"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "Laute"
+                ]
+              },
+              "translation": {
+                "purple": [
+                  "skaņas"
+                ]
+              }
+            }
+          ],
+          "importantComparison": [
+            {
+              "blue": [
+                "laut"
+              ],
+              "purple": [
+                "skaļa"
+              ]
+            },
+            {
+              "yellow": [
+                "Laut"
+              ],
+              "purple": [
+                "skaņa"
+              ]
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "laut"
+              ],
+              "yellow": [
+                "Laut"
+              ]
+            },
+            "rightItems": [
+              {
+                "de": {
+                  "blue": [
+                    "laut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "skaļš"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "yellow": [
+                    "Laut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "skaņa"
+                  ]
+                }
+              }
+            ]
+          },
+          "important": [
+            {
+              "blue": [
+                "laut"
+              ],
+              "yellow": [
+                "Laut"
+              ]
+            },
+            {
+              "red": [
+                "Der Laut ist sehr",
+                "ist der Laut"
+              ]
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": {
+                "red": [
+                  "Laut ist sehr"
+                ]
+              },
+              "right": {
+                "blue": [
+                  "laut"
+                ]
+              }
+            },
+            {
+              "wrong": {
+                "red": [
+                  "ist der Laut"
+                ]
+              },
+              "right": {
+                "blue": [
+                  "laut"
+                ]
+              }
+            }
+          ],
+          "remember": [
+            {
+              "blue": [
+                "laut"
+              ]
+            },
+            {
+              "yellow": [
+                "Laut"
+              ]
+            }
+          ]
+        }
+      }
     },
     {
       "de": "leben",
