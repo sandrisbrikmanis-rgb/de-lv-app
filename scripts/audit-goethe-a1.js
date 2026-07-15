@@ -212,6 +212,7 @@ const GOETHE_NOUNS = {
   Seite: { article: "die", plural: "Seiten" },
   Spiel: { article: "das", plural: "Spiele" },
   Spielplatz: { article: "der", plural: "Spielplätze" },
+  Socke: { article: "die", plural: "Socken" },
   Spaß: { article: "der", singularOnly: true },
   Sport: { article: "der", singularOnly: true },
   Sprache: { article: "die", plural: "Sprachen" },
@@ -272,7 +273,7 @@ const GOETHE_A1_MONTHS = {
 Object.assign(GOETHE_NOUNS, GOETHE_A1_MONTHS);
 
 // Nouns that duplicate an existing verb entry — remove noun, keep verb
-const DUPLICATE_NOUNS_TO_REMOVE = new Set(["Leben", "Kosten"]);
+const DUPLICATE_NOUNS_TO_REMOVE = new Set(["Leben", "Kosten", "Socken"]);
 
 // Capitalized verb forms wrongly entered as nouns
 const VERB_NOUN_CONFUSION = {
