@@ -6591,6 +6591,101 @@ function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
       </ul>
     </section>
   ` : `<section class="study-explanation"><h3>${STUDY_SECTION_ICONS.explanation} Skaidrojums</h3>${explanationBody}</section>`;
+  const renderComparisonRichWordBlocks = () => {
+    const items = Array.isArray(study.words) ? study.words : (Array.isArray(study.items) ? study.items : (Array.isArray(study.terms) ? study.terms : []));
+    if (!items.length) return "";
+
+    const renderWordExamples = (examples, accentRulesPrefix) => (Array.isArray(examples) ? examples : []).map((example, exampleIndex) => {
+      const accentRules = accentRulesPrefix?.examples?.[exampleIndex] || accentRulesPrefix?.examples;
+      const exampleDe = String(example.de || "").trim();
+      const audioSrc = studyExampleAudioSrc(exampleDe);
+      const audioBtn = comparisonWordAudioButtonHtml(exampleDe, audioSrc);
+      return `
+    <div>${formatStudyText(example.de, fieldAccentRules(accentRules, "de"))}${audioBtn}</div>
+      <span>=</span>
+      <span>${formatStudyText(example.lv, fieldAccentRules(accentRules, "lv"))}</span>
+  `;
+    }).join("");
+
+    const renderWordTip = (tipValue, accentRules) => {
+      if (!hasStudyContent(tipValue)) return "";
+      const tipBody = Array.isArray(tipValue)
+        ? tipValue.map((line, index) => `<p>${formatStudyText(line, textAccentRules("tip", index) || accentRules?.tip?.[index] || accentRules?.tip)}</p>`).join("")
+        : `<p>${formatStudyText(tipValue, accentRules?.tip)}</p>`;
+      return `
+        <section class="study-section study-tip comparison-word-tip">
+          <h3>${STUDY_SECTION_ICONS.tip} Padoms</h3>
+          <div class="study-tip-grid study-tip-grid-single">
+            <div class="study-tip-panel">${tipBody}</div>
+          </div>
+        </section>
+      `;
+    };
+
+    const renderWordImportant = (importantValue, accentRules) => {
+      if (!hasStudyContent(importantValue)) return "";
+      return `
+        <section class="study-important comparison-word-important">
+          <h3>${STUDY_SECTION_ICONS.important} Svarīgi</h3>
+          ${renderStudyParagraphs(importantValue, "important")}
+        </section>
+      `;
+    };
+
+    return `
+      <section class="comparison-rich-word-list">
+        ${items.map((item, index) => {
+          const accentRules = item.sectionAccents || sectionAccentRules("comparisonCards", index);
+          const accent = item.accent || COMPARISON_WORD_ACCENTS[index % COMPARISON_WORD_ACCENTS.length];
+          const germanWord = String(item.de || item.word || "").trim();
+          const audioSrc = comparisonWordAudioSrc(germanWord);
+          const splitWordExplanation = splitMainIdea(item.explanation || item.description || "");
+          const explanationSource = splitWordExplanation.explanationLines.length
+            ? splitWordExplanation.explanationLines
+            : studyLines(item.description || "");
+          const mainIdeaBlock = (splitWordExplanation.mainIdea || item.description) ? `
+            <section class="study-main-idea">
+              <h3>Galvenā doma</h3>
+              <p>${formatStudyText(splitWordExplanation.mainIdea || item.description, accentRules?.explanation?.mainIdea || accentRules?.explanation)}</p>
+            </section>
+          ` : "";
+          const explanationBlock = explanationSource.length ? `
+            <section class="study-explanation">
+              <h3>${STUDY_SECTION_ICONS.explanation} Skaidrojums</h3>
+              ${explanationSource.map((line, lineIndex) => `<p>${formatStudyText(line, textAccentRules("explanation", lineIndex) || accentRules?.explanation)}</p>`).join("")}
+            </section>
+          ` : "";
+          const examplesBlock = Array.isArray(item.examples) && item.examples.length ? `
+            <section class="study-section study-examples">
+              <h3>${STUDY_SECTION_ICONS.examples} Piemēri</h3>
+              <div class="study-standard-table study-examples-table">${renderWordExamples(item.examples, accentRules)}</div>
+            </section>
+          ` : "";
+
+          return `
+            <article class="comparison-rich-word-block comparison-rich-word-block--${accent}">
+              <header class="comparison-rich-word-header">
+                <div class="comparison-word-card-head">
+                  <div class="comparison-word-icon">${escapeStudyCardText(item.icon || "•")}</div>
+                  <h3>${formatStudyText(item.lv || item.title || "", fieldAccentRules(accentRules, "lv"))}</h3>
+                </div>
+                <div class="comparison-word-de-row">
+                  <strong>${formatStudyText(germanWord, fieldAccentRules(accentRules, "de"))}</strong>
+                  ${comparisonWordAudioButtonHtml(germanWord, audioSrc)}
+                </div>
+              </header>
+              ${mainIdeaBlock}
+              ${explanationBlock}
+              ${examplesBlock}
+              ${renderWordTip(item.tip, accentRules)}
+              ${renderWordImportant(item.important, accentRules)}
+            </article>
+          `;
+        }).join("")}
+      </section>
+    `;
+  };
+
   const renderComparisonWordCards = () => {
     const items = Array.isArray(study.words) ? study.words : (Array.isArray(study.items) ? study.items : (Array.isArray(study.terms) ? study.terms : []));
     if (!items.length) return "";
@@ -6711,12 +6806,7 @@ function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
     elements.cardStudyExtra.innerHTML = `
       <div class="comparison-study-badge">${STUDY_SECTION_ICONS.comparisonBadge} SALĪDZINĀJUMA KARTĪTE</div>
       ${lead ? `<p class="comparison-study-lead">${formatStudyText(lead, study.sectionAccents?.lead)}</p>` : ""}
-      ${study.explanation ? explanation : ""}
-      ${renderComparisonWordCards()}
-      <section class="study-section study-examples">
-        <h3>${STUDY_SECTION_ICONS.examples} Piemēri</h3>
-        <div class="study-standard-table study-examples-table">${examples}</div>
-      </section>
+      ${renderComparisonRichWordBlocks()}
       ${renderComparisonMatrix()}
       ${renderComparisonFocus()}
       ${tip}

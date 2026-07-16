@@ -43,12 +43,18 @@ function createComparisonStudyCard(config) {
       subtitle: config.subtitle,
       lead: config.lead,
       explanation: config.explanation,
-      words: config.words.map((word, index) => ({
+      words: config.words.map((word) => ({
         icon: word.icon || "•",
         lv: word.lv,
         de: word.de,
         description: word.description,
-        example: word.example
+        example: word.example,
+        accent: word.accent,
+        explanation: word.explanation,
+        examples: word.examples,
+        tip: word.tip,
+        important: word.important,
+        sectionAccents: word.sectionAccents
       })),
       examples: config.examples,
       comparisonTable: config.comparisonTable,
@@ -1664,6 +1670,5506 @@ COMPARISON_STUDY_CARDS.push(
 ].flat().filter((config) => !COMPARISON_STUDY_CARDS.some((card) => card.id === config.id)).forEach((config) => {
   COMPARISON_STUDY_CARDS.push(createComparisonStudyCard(config));
 });
+
+// BEGIN_COMPARISON_RICH_WORD_PATCHES
+const COMPARISON_RICH_WORD_PATCHES = {
+  "compare-sehen-schauen-ansehen": [
+    {
+      "icon": "👁",
+      "lv": "redzēt",
+      "de": "sehen",
+      "accent": "blue",
+      "explanation": [
+        "Galvenā doma: Uztvert ar acīm, bieži bez īpaša nodoma.",
+        "sehen galvenokārt nozīmē: uztvert ar acīm.",
+        "Bieži raksturo: redzi.",
+        "sehen bieži notiek bez īpašas piepūles.",
+        "ansehen lieto, ja uzmanību vērš uz konkrētu objektu, filmu vai lietu."
+      ],
+      "examples": [
+        {
+          "de": "Ich sehe dich.",
+          "lv": "es tevi redzu."
+        },
+        {
+          "de": "Ich sehe dich.",
+          "lv": "es tevi redzu."
+        },
+        {
+          "de": "Ich sehe dich.",
+          "lv": "es tevi redzu."
+        },
+        {
+          "de": "Ich sehe dich.",
+          "lv": "es tevi redzu."
+        }
+      ],
+      "tip": [
+        "Ja acis kaut ko uztver, lieto sehen. Ja aktīvi skaties, lieto schauen. Ja apskati konkrētu lietu, bieži der ansehen.",
+        "sehen = redzēt"
+      ],
+      "important": [
+        "sehen nav vienmēr skatīties.",
+        "ansehen bieži ir atdalāms: Ich sehe mir ... an.",
+        "sehen = redzēt.",
+        "ansehen = apskatīt/noskatīties."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sehen"
+          ],
+          "purple": [
+            "redzēt"
+          ],
+          "green": [
+            "Redzēt"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "sehen",
+                "sehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "redzēt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sehen",
+                "sehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "redzēt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sehen",
+                "sehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "redzēt"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "redzēt"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "sehen"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "icon": "👀",
+      "lv": "skatīties",
+      "de": "schauen",
+      "accent": "green",
+      "explanation": [
+        "Galvenā doma: Aktīvi skatīties vai palūkoties.",
+        "schauen galvenokārt nozīmē: aktīvi skatīties.",
+        "Bieži raksturo: darbību.",
+        "schauen nozīmē aktīvi skatīties.",
+        "Šo vārdu salīdzini ar pārējiem šajā kartītē, lai izvēlētos pareizo variantu."
+      ],
+      "examples": [
+        {
+          "de": "Ich schaue fern.",
+          "lv": "Es skatos televizoru."
+        },
+        {
+          "de": "Wir schauen aus dem Fenster.",
+          "lv": "mēs skatāmies pa logu."
+        },
+        {
+          "de": "Ich schaue fern.",
+          "lv": "es skatos televizoru."
+        },
+        {
+          "de": "Ich schaue fern.",
+          "lv": "Es skatos televizoru."
+        }
+      ],
+      "tip": [
+        "Ja acis kaut ko uztver, lieto sehen. Ja aktīvi skaties, lieto schauen. Ja apskati konkrētu lietu, bieži der ansehen.",
+        "schauen = skatīties"
+      ],
+      "important": [
+        "schauen = skatīties.",
+        "Aktīvi skatīties vai palūkoties."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "schauen"
+          ],
+          "purple": [
+            "skatīties"
+          ],
+          "orange": [
+            "skatīties"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "schauen",
+                "schauen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skatīties"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "schauen",
+                "schauen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skatīties"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "schauen",
+                "schauen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skatīties"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "schauen",
+                "schauen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skatīties"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "skatīties"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "schauen"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "icon": "🎬",
+      "lv": "apskatīt / noskatīties",
+      "de": "ansehen",
+      "accent": "yellow",
+      "explanation": [
+        "Galvenā doma: Apskatīt konkrētu lietu vai noskatīties filmu/video.",
+        "ansehen galvenokārt nozīmē: skatīties uz konkrētu objektu.",
+        "Bieži raksturo: mērķētu skatīšanos.",
+        "ansehen lieto, ja uzmanību vērš uz konkrētu objektu, filmu vai lietu.",
+        "Šo vārdu salīdzini ar pārējiem šajā kartītē, lai izvēlētos pareizo variantu."
+      ],
+      "examples": [
+        {
+          "de": "Schau dir das an!",
+          "lv": "apskati šo!"
+        },
+        {
+          "de": "Schau dir das an!",
+          "lv": "apskati šo!"
+        },
+        {
+          "de": "Schau dir das an!",
+          "lv": "apskati šo!"
+        },
+        {
+          "de": "Schau dir das an!",
+          "lv": "apskati šo!"
+        }
+      ],
+      "tip": [
+        "Ja acis kaut ko uztver, lieto sehen. Ja aktīvi skaties, lieto schauen. Ja apskati konkrētu lietu, bieži der ansehen.",
+        "ansehen = apskatīt"
+      ],
+      "important": [
+        "ansehen bieži ir atdalāms: Ich sehe mir ... an.",
+        "ansehen = apskatīt/noskatīties.",
+        "Apskatīt konkrētu lietu vai noskatīties filmu/video."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "yellow": [
+            "ansehen"
+          ],
+          "purple": [
+            "apskatīt / noskatīties"
+          ],
+          "green": [
+            "noskatīties",
+            "apskatīt"
+          ],
+          "red": [
+            "Apskatīt"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "yellow": [
+                "ansehen",
+                "ansehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apskatīt",
+                "noskatīties"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "ansehen",
+                "ansehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apskatīt",
+                "noskatīties"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "ansehen",
+                "ansehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apskatīt",
+                "noskatīties"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "apskatīt"
+            ]
+          },
+          {
+            "purple": [
+              "noskatīties"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "yellow": [
+              "ansehen"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "compare-hoeren-zuhoeren": [
+    {
+      "icon": "🎧",
+      "lv": "dzirdēt / klausīties",
+      "de": "hören",
+      "accent": "blue",
+      "explanation": [
+        "Galvenā doma: Dzirdēt skaņu vai klausīties mūziku.",
+        "hören galvenokārt nozīmē: uztvert skaņu.",
+        "Bieži raksturo: skaņas.",
+        "hören lieto skaņām, mūzikai un tam, ko dzird.",
+        "zuhören lieto, ja uzmanīgi klausās cilvēkā vai runātājā; tam bieži ir Dativ: mir, dir, ihm."
+      ],
+      "examples": [
+        {
+          "de": "Ich höre Musik.",
+          "lv": "Es klausos mūziku."
+        },
+        {
+          "de": "Die Kinder hören eine Geschichte.",
+          "lv": "bērni klausās stāstu."
+        },
+        {
+          "de": "Ich höre dich.",
+          "lv": "es tevi dzirdu."
+        },
+        {
+          "de": "Ich höre Musik.",
+          "lv": "Es klausos mūziku."
+        }
+      ],
+      "tip": [
+        "Skaņa vai mūzika: hören. Cilvēks, kam uzmanīgi seko: zuhören.",
+        "Dzirdēt skaņu vai klausīties mūziku."
+      ],
+      "important": [
+        "hören = dzirdēt/klausīties skaņu.",
+        "zuhören = uzmanīgi klausīties cilvēku.",
+        "Dzirdēt skaņu vai klausīties mūziku."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "hören"
+          ],
+          "purple": [
+            "dzirdēt / klausīties",
+            "klausīties",
+            "dzirdēt"
+          ],
+          "green": [
+            "klausīties",
+            "Dzirdēt"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "hören",
+                "hören"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dzirdēt",
+                "klausīties"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hören",
+                "hören"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dzirdēt",
+                "klausīties"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hören",
+                "hören"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dzirdēt",
+                "klausīties"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hören",
+                "hören"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dzirdēt",
+                "klausīties"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "dzirdēt"
+            ]
+          },
+          {
+            "purple": [
+              "klausīties"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "hören"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "icon": "👂",
+      "lv": "uzmanīgi klausīties",
+      "de": "zuhören",
+      "accent": "green",
+      "explanation": [
+        "Galvenā doma: Uzmanīgi klausīties cilvēku vai teikto.",
+        "zuhören galvenokārt nozīmē: sekot teiktajam.",
+        "Bieži raksturo: cilvēku/runātāju.",
+        "zuhören galvenokārt nozīmē: pievērst uzmanību.",
+        "Bieži raksturo: sarunu.",
+        "zuhören lieto, ja uzmanīgi klausās cilvēkā vai runātājā; tam bieži ir Dativ: mir, dir, ihm."
+      ],
+      "examples": [
+        {
+          "de": "Ich höre dir zu.",
+          "lv": "Es tevī klausos."
+        },
+        {
+          "de": "Ich höre dir zu.",
+          "lv": "es tevī klausos."
+        },
+        {
+          "de": "Bitte hör mir zu.",
+          "lv": "lūdzu, klausies manī."
+        },
+        {
+          "de": "Ich höre dir zu.",
+          "lv": "Es tevī klausos."
+        }
+      ],
+      "tip": [
+        "Skaņa vai mūzika: hören. Cilvēks, kam uzmanīgi seko: zuhören.",
+        "Uzmanīgi klausīties cilvēku vai teikto."
+      ],
+      "important": [
+        "zuhören = uzmanīgi klausīties cilvēku.",
+        "Uzmanīgi klausīties cilvēku vai teikto."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "klausīties"
+          ],
+          "purple": [
+            "uzmanīgi klausīties"
+          ],
+          "orange": [
+            "klausīties",
+            "uzmanīgi"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "zuhören",
+                "zuhören"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "uzmanīgi klausīties"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "zuhören",
+                "zuhören"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "uzmanīgi klausīties"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "zuhören",
+                "zuhören"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "uzmanīgi klausīties"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "zuhören",
+                "zuhören"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "uzmanīgi klausīties"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "uzmanīgi klausīties"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "zuhören"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "compare-sagen-sprechen-erzaehlen": [
+    {
+      "icon": "💬",
+      "lv": "teikt",
+      "de": "sagen",
+      "accent": "blue",
+      "explanation": [
+        "Galvenā doma: Pateikt konkrētu domu, vārdu vai teikumu.",
+        "sagen galvenokārt nozīmē: pateikt konkrētu domu.",
+        "Bieži raksturo: vārdus/teikumus.",
+        "sagen lieto konkrētam pateiktam tekstam.",
+        "Šo vārdu salīdzini ar pārējiem šajā kartītē, lai izvēlētos pareizo variantu."
+      ],
+      "examples": [
+        {
+          "de": "Was hast du gesagt?",
+          "lv": "ko tu pateici?"
+        },
+        {
+          "de": "Was hast du gesagt?",
+          "lv": "ko tu pateici?"
+        },
+        {
+          "de": "Was hast du gesagt?",
+          "lv": "ko tu pateici?"
+        },
+        {
+          "de": "Was hast du gesagt?",
+          "lv": "ko tu pateici?"
+        }
+      ],
+      "tip": [
+        "Konkrēts teksts: sagen. Valoda vai saruna: sprechen. Stāsts vai notikums: erzählen.",
+        "sagen = teikt"
+      ],
+      "important": [
+        "sagen nav tas pats, kas sprechen.",
+        "sagen = pateikt.",
+        "Pateikt konkrētu domu, vārdu vai teikumu."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sagen"
+          ],
+          "purple": [
+            "teikt"
+          ],
+          "green": [
+            "Teikt"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "sagen",
+                "sagen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "teikt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sagen",
+                "sagen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "teikt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sagen",
+                "sagen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "teikt"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "teikt"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "sagen"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "icon": "🗣",
+      "lv": "runāt",
+      "de": "sprechen",
+      "accent": "green",
+      "explanation": [
+        "Galvenā doma: Runāt, sarunāties vai lietot valodu.",
+        "sprechen galvenokārt nozīmē: runāt vai sarunāties.",
+        "Bieži raksturo: valodu/sarunu.",
+        "sprechen raksturo runāšanu vai valodas lietošanu.",
+        "Šo vārdu salīdzini ar pārējiem šajā kartītē, lai izvēlētos pareizo variantu."
+      ],
+      "examples": [
+        {
+          "de": "Ich spreche Deutsch.",
+          "lv": "Es runāju vāciski."
+        },
+        {
+          "de": "Wir sprechen über die Arbeit.",
+          "lv": "mēs runājam par darbu."
+        },
+        {
+          "de": "Ich spreche Deutsch.",
+          "lv": "es runāju vāciski."
+        },
+        {
+          "de": "Ich spreche Deutsch.",
+          "lv": "Es runāju vāciski."
+        }
+      ],
+      "tip": [
+        "Konkrēts teksts: sagen. Valoda vai saruna: sprechen. Stāsts vai notikums: erzählen.",
+        "sprechen = runāt"
+      ],
+      "important": [
+        "sagen nav tas pats, kas sprechen.",
+        "sprechen = runāt.",
+        "Runāt, sarunāties vai lietot valodu."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "sprechen"
+          ],
+          "purple": [
+            "runāt"
+          ],
+          "orange": [
+            "runāt"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "sprechen",
+                "sprechen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "runāt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "sprechen",
+                "sprechen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "runāt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "sprechen",
+                "sprechen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "runāt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "sprechen",
+                "sprechen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "runāt"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "runāt"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "sprechen"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "icon": "📖",
+      "lv": "stāstīt",
+      "de": "erzählen",
+      "accent": "yellow",
+      "explanation": [
+        "Galvenā doma: Stāstīt notikumu, stāstu vai pieredzi.",
+        "erzählen galvenokārt nozīmē: stāstīt notikumu.",
+        "Bieži raksturo: stāstu/pieredzi.",
+        "erzählen nozīmē stāstīt stāstu, notikumu vai pieredzi.",
+        "Šo vārdu salīdzini ar pārējiem šajā kartītē, lai izvēlētos pareizo variantu."
+      ],
+      "examples": [
+        {
+          "de": "Er erzählt eine Geschichte.",
+          "lv": "viņš stāsta stāstu."
+        },
+        {
+          "de": "Er erzählt eine Geschichte.",
+          "lv": "viņš stāsta stāstu."
+        },
+        {
+          "de": "Er erzählt eine Geschichte.",
+          "lv": "viņš stāsta stāstu."
+        },
+        {
+          "de": "Er erzählt eine Geschichte.",
+          "lv": "viņš stāsta stāstu."
+        }
+      ],
+      "tip": [
+        "Konkrēts teksts: sagen. Valoda vai saruna: sprechen. Stāsts vai notikums: erzählen.",
+        "erzählen = stāstīt"
+      ],
+      "important": [
+        "erzählen nozīmē vairāk nekā vienkārši pateikt.",
+        "erzählen = stāstīt.",
+        "Stāstīt notikumu, stāstu vai pieredzi."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "yellow": [
+            "erzählen"
+          ],
+          "purple": [
+            "stāstīt"
+          ],
+          "green": [
+            "stāstīt"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "yellow": [
+                "erzählen",
+                "erzählen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "stāstīt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "erzählen",
+                "erzählen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "stāstīt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "erzählen",
+                "erzählen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "stāstīt"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "stāstīt"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "yellow": [
+              "erzählen"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "compare-gross-hoch": [
+    {
+      "icon": "⬛",
+      "lv": "liels",
+      "de": "groß",
+      "accent": "blue",
+      "explanation": [
+        "Galvenā doma: Liels izmērā vai cilvēkam - garš augumā.",
+        "groß galvenokārt nozīmē: liels izmērs.",
+        "Bieži raksturo: kopējo izmēru.",
+        "groß galvenokārt nozīmē: cilvēka augums.",
+        "Bieži raksturo: personu.",
+        "groß raksturo izmēru kopumā vai cilvēka augumu."
+      ],
+      "examples": [
+        {
+          "de": "Das Haus ist groß.",
+          "lv": "Māja ir liela."
+        },
+        {
+          "de": "Das Haus ist groß.",
+          "lv": "māja ir liela."
+        },
+        {
+          "de": "Er ist groß.",
+          "lv": "viņš ir garš augumā."
+        },
+        {
+          "de": "Das Zimmer ist groß.",
+          "lv": "istaba ir liela."
+        }
+      ],
+      "tip": [
+        "Ja runā par izmēru kopumā, lieto groß. Ja runā par augstumu vai līmeni, lieto hoch.",
+        "groß = liels"
+      ],
+      "important": [
+        "Cilvēkam Er ist groß nozīmē garš augumā.",
+        "Nepareizi: Der Berg ist groß, ja doma ir kalna augstums. → Pareizi: Der Berg ist hoch.",
+        "groß = liels.",
+        "Liels izmērā vai cilvēkam - garš augumā."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "groß"
+          ],
+          "purple": [
+            "liels"
+          ],
+          "green": [
+            "Liels"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "groß",
+                "groß"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "liels"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "groß",
+                "groß"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "liels"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "groß",
+                "groß"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "liels"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "groß",
+                "groß"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "liels"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "groß",
+                "groß"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "liels"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "liels"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "groß"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "icon": "⬆",
+      "lv": "augsts",
+      "de": "hoch",
+      "accent": "green",
+      "explanation": [
+        "Galvenā doma: Augsts vertikāli, līmenī vai augstumā.",
+        "hoch galvenokārt nozīmē: liels augstumā.",
+        "Bieži raksturo: vertikālu augstumu.",
+        "hoch galvenokārt nozīmē: augsts līmenis.",
+        "Bieži raksturo: cenas/skaitļus.",
+        "hoch raksturo augstumu, vertikālu virzienu vai līmeni."
+      ],
+      "examples": [
+        {
+          "de": "Der Berg ist hoch.",
+          "lv": "Kalns ir augsts."
+        },
+        {
+          "de": "Der Berg ist hoch.",
+          "lv": "kalns ir augsts."
+        },
+        {
+          "de": "Die Miete ist hoch.",
+          "lv": "īre ir augsta."
+        },
+        {
+          "de": "Die Mauer ist hoch.",
+          "lv": "siena ir augsta."
+        },
+        {
+          "de": "Die Preise sind hoch.",
+          "lv": "cenas ir augstas."
+        }
+      ],
+      "tip": [
+        "Ja runā par izmēru kopumā, lieto groß. Ja runā par augstumu vai līmeni, lieto hoch.",
+        "hoch = augsts"
+      ],
+      "important": [
+        "Cenām un līmenim bieži lieto hoch.",
+        "Nepareizi: Der Berg ist groß, ja doma ir kalna augstums. → Pareizi: Der Berg ist hoch.",
+        "hoch = augsts.",
+        "Augsts vertikāli, līmenī vai augstumā."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "hoch"
+          ],
+          "purple": [
+            "augsts"
+          ],
+          "orange": [
+            "augsts"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "hoch",
+                "hoch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "augsts"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "hoch",
+                "hoch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "augsts"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "hoch",
+                "hoch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "augsts"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "hoch",
+                "hoch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "augsts"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "hoch",
+                "hoch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "augsts"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "augsts"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "hoch"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "compare-klein-niedrig": [
+    {
+      "icon": "▫",
+      "lv": "mazs",
+      "de": "klein",
+      "accent": "blue",
+      "explanation": [
+        "Galvenā doma: Mazs izmērā vai apjomā.",
+        "klein galvenokārt nozīmē: mazs izmērs.",
+        "Bieži raksturo: lietas/personas izmēru.",
+        "klein galvenokārt nozīmē: mazs/jauns.",
+        "Bieži raksturo: bērnu.",
+        "klein raksturo mazu izmēru."
+      ],
+      "examples": [
+        {
+          "de": "Das Zimmer ist klein.",
+          "lv": "Istaba ir maza."
+        },
+        {
+          "de": "Das Zimmer ist klein.",
+          "lv": "istaba ir maza."
+        },
+        {
+          "de": "Das Kind ist noch klein.",
+          "lv": "bērns vēl ir mazs."
+        },
+        {
+          "de": "Ich habe eine kleine Tasche.",
+          "lv": "man ir maza soma."
+        },
+        {
+          "de": "Das Kind ist klein.",
+          "lv": "bērns ir mazs."
+        }
+      ],
+      "tip": [
+        "Izmēram lieto klein. Līmenim, cenai vai augstumam lieto niedrig.",
+        "klein = mazs"
+      ],
+      "important": [
+        "klein = mazs izmērā.",
+        "Nepareizi: Die Preise sind klein. → Pareizi: Die Preise sind niedrig.",
+        "klein = mazs.",
+        "Mazs izmērā vai apjomā."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "klein"
+          ],
+          "purple": [
+            "mazs"
+          ],
+          "green": [
+            "Mazs"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "klein",
+                "klein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mazs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "klein",
+                "klein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mazs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "klein",
+                "klein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mazs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "klein",
+                "klein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mazs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "klein",
+                "klein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mazs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "klein",
+                "klein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mazs"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "mazs"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "klein"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "icon": "⬇",
+      "lv": "zems",
+      "de": "niedrig",
+      "accent": "green",
+      "explanation": [
+        "Galvenā doma: Zems augstumā, līmenī, cenā vai skaitlī.",
+        "niedrig galvenokārt nozīmē: zems līmenis/augstums.",
+        "Bieži raksturo: cenas, temperatūru, augstumu.",
+        "niedrig galvenokārt nozīmē: nav augsts.",
+        "Bieži raksturo: augstumu.",
+        "niedrig raksturo zemu augstumu, līmeni, cenu vai skaitli."
+      ],
+      "examples": [
+        {
+          "de": "Die Preise sind niedrig.",
+          "lv": "Cenas ir zemas."
+        },
+        {
+          "de": "Die Preise sind niedrig.",
+          "lv": "cenas ir zemas."
+        },
+        {
+          "de": "Der Tisch ist niedrig.",
+          "lv": "galds ir zems."
+        },
+        {
+          "de": "Die Temperatur ist niedrig.",
+          "lv": "temperatūra ir zema."
+        }
+      ],
+      "tip": [
+        "Izmēram lieto klein. Līmenim, cenai vai augstumam lieto niedrig.",
+        "niedrig = zems"
+      ],
+      "important": [
+        "niedrig = zems augstumā vai līmenī.",
+        "Nepareizi: Die Preise sind klein. → Pareizi: Die Preise sind niedrig.",
+        "niedrig = zems.",
+        "Zems augstumā, līmenī, cenā vai skaitlī."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "niedrig"
+          ],
+          "purple": [
+            "zems"
+          ],
+          "orange": [
+            "zems"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "niedrig",
+                "niedrig"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zems"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "niedrig",
+                "niedrig"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zems"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "niedrig",
+                "niedrig"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zems"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "niedrig",
+                "niedrig"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zems"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "niedrig",
+                "niedrig"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zems"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "zems"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "niedrig"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "compare-ruhig-leise": [
+    {
+      "icon": "🧘",
+      "lv": "mierīgs",
+      "de": "ruhig",
+      "accent": "blue",
+      "explanation": [
+        "Galvenā doma: Mierīgs pēc rakstura, noskaņas vai situācijas.",
+        "ruhig galvenokārt nozīmē: bez satraukuma.",
+        "Bieži raksturo: cilvēku/vietu/situāciju.",
+        "ruhig raksturo mieru, cilvēku, vietu vai situāciju.",
+        "Šo vārdu salīdzini ar pārējiem šajā kartītē, lai izvēlētos pareizo variantu."
+      ],
+      "examples": [
+        {
+          "de": "Er ist ruhig.",
+          "lv": "Viņš ir mierīgs."
+        },
+        {
+          "de": "Er ist ruhig.",
+          "lv": "viņš ir mierīgs."
+        },
+        {
+          "de": "Heute ist es im Büro ruhig.",
+          "lv": "šodien birojā ir mierīgi."
+        },
+        {
+          "de": "Sie bleibt ruhig.",
+          "lv": "viņa paliek mierīga."
+        }
+      ],
+      "tip": [
+        "Noskaņai un mieram lieto ruhig. Skaļumam un balsij lieto leise.",
+        "ruhig = mierīgs"
+      ],
+      "important": [
+        "ruhig = mierīgs.",
+        "Nepareizi: Die Musik ist ruhig, ja doma ir mazs skaļums. → Pareizi: Die Musik ist leise.",
+        "ruhig = miers.",
+        "Mierīgs pēc rakstura, noskaņas vai situācijas."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "ruhig"
+          ],
+          "purple": [
+            "mierīgs"
+          ],
+          "green": [
+            "Mierīgs"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "ruhig",
+                "ruhig"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mierīgs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ruhig",
+                "ruhig"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mierīgs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ruhig",
+                "ruhig"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mierīgs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ruhig",
+                "ruhig"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mierīgs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ruhig",
+                "ruhig"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mierīgs"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "mierīgs"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "ruhig"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "icon": "🔈",
+      "lv": "kluss",
+      "de": "leise",
+      "accent": "green",
+      "explanation": [
+        "Galvenā doma: Kluss vai ar mazu skaļumu.",
+        "leise galvenokārt nozīmē: mazs skaļums.",
+        "Bieži raksturo: skaņu/balsi/mūziku.",
+        "leise raksturo mazu skaļumu vai klusu balsi/skaņu.",
+        "Šo vārdu salīdzini ar pārējiem šajā kartītē, lai izvēlētos pareizo variantu."
+      ],
+      "examples": [
+        {
+          "de": "Bitte sei leise.",
+          "lv": "Lūdzu, esi kluss."
+        },
+        {
+          "de": "Bitte sei leise.",
+          "lv": "lūdzu, esi kluss."
+        },
+        {
+          "de": "Die Musik ist leise.",
+          "lv": "mūzika ir klusa."
+        },
+        {
+          "de": "Sprich bitte leise.",
+          "lv": "lūdzu, runā klusi."
+        }
+      ],
+      "tip": [
+        "Noskaņai un mieram lieto ruhig. Skaļumam un balsij lieto leise.",
+        "leise = kluss"
+      ],
+      "important": [
+        "leise = kluss skaņas ziņā.",
+        "Nepareizi: Die Musik ist ruhig, ja doma ir mazs skaļums. → Pareizi: Die Musik ist leise.",
+        "leise = skaļums.",
+        "Kluss vai ar mazu skaļumu."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "leise"
+          ],
+          "purple": [
+            "kluss"
+          ],
+          "orange": [
+            "kluss"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "leise",
+                "leise"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kluss"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "leise",
+                "leise"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kluss"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "leise",
+                "leise"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kluss"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "leise",
+                "leise"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kluss"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "leise",
+                "leise"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kluss"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "kluss"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "leise"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "compare-deshalb-deswegen-darum": [
+    {
+      "icon": "➡",
+      "lv": "tāpēc",
+      "de": "deshalb",
+      "accent": "blue",
+      "explanation": [
+        "Galvenā doma: Neitrāls un ļoti biežs veids, kā parādīt sekas.",
+        "deshalb galvenokārt nozīmē: sekas no iemesla.",
+        "Bieži raksturo: neitrālu stilu.",
+        "deshalb, deswegen un darum savieno iemeslu ar sekām.",
+        "Šo vārdu salīdzini ar pārējiem šajā kartītē, lai izvēlētos pareizo variantu."
+      ],
+      "examples": [
+        {
+          "de": "Ich bin krank, deshalb bleibe ich zu Hause.",
+          "lv": "Es esmu slims, tāpēc palieku mājās."
+        },
+        {
+          "de": "Ich bin krank, deshalb bleibe ich zu Hause.",
+          "lv": "es esmu slims, tāpēc palieku mājās."
+        },
+        {
+          "de": "Es regnet, deshalb nehme ich den Bus.",
+          "lv": "līst, tāpēc es braucu ar autobusu."
+        },
+        {
+          "de": "Deshalb bleibe ich hier.",
+          "lv": "tāpēc es palieku šeit."
+        }
+      ],
+      "tip": [
+        "Vispirms iemesls, tad sekas: deshalb/deswegen/darum. Atceries vārdu kārtību - darbības vārds ir 2. vietā.",
+        "Neitrāls un ļoti biežs veids, kā parādīt sekas."
+      ],
+      "important": [
+        "deshalb, deswegen un darum bieži ir savstarpēji aizvietojami.",
+        "Nepareizi: Deshalb ich bleibe zu Hause. → Pareizi: Deshalb bleibe ich zu Hause.",
+        "deshalb/deswegen/darum = tāpēc/tādēļ.",
+        "Neitrāls un ļoti biežs veids, kā parādīt sekas."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "deshalb"
+          ],
+          "purple": [
+            "tāpēc"
+          ],
+          "green": [
+            "Tāpēc"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "deshalb",
+                "deshalb"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tāpēc"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "deshalb",
+                "deshalb"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tāpēc"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "deshalb",
+                "deshalb"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tāpēc"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "deshalb",
+                "deshalb"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tāpēc"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "deshalb",
+                "deshalb"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tāpēc"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "deshalb",
+                "deshalb"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tāpēc"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "tāpēc"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "deshalb"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "icon": "➡",
+      "lv": "tādēļ",
+      "de": "deswegen",
+      "accent": "green",
+      "explanation": [
+        "Galvenā doma: Ļoti līdzīgs deshalb; bieži ikdienas valodā.",
+        "deswegen galvenokārt nozīmē: sekas no iemesla.",
+        "Bieži raksturo: ikdienas valodu.",
+        "deshalb, deswegen un darum savieno iemeslu ar sekām.",
+        "Šo vārdu salīdzini ar pārējiem šajā kartītē, lai izvēlētos pareizo variantu."
+      ],
+      "examples": [
+        {
+          "de": "Ich bin krank, deswegen bleibe ich zu Hause.",
+          "lv": "Es esmu slims, tādēļ palieku mājās."
+        },
+        {
+          "de": "Ich bin krank, deswegen bleibe ich zu Hause.",
+          "lv": "es esmu slims, tādēļ palieku mājās."
+        },
+        {
+          "de": "Der Zug ist voll, deswegen stehe ich.",
+          "lv": "vilciens ir pilns, tādēļ es stāvu."
+        },
+        {
+          "de": "Deswegen komme ich später.",
+          "lv": "tādēļ es atnākšu vēlāk."
+        }
+      ],
+      "tip": [
+        "Vispirms iemesls, tad sekas: deshalb/deswegen/darum. Atceries vārdu kārtību - darbības vārds ir 2. vietā.",
+        "Ļoti līdzīgs deshalb; bieži ikdienas valodā."
+      ],
+      "important": [
+        "deshalb, deswegen un darum bieži ir savstarpēji aizvietojami.",
+        "deshalb/deswegen/darum = tāpēc/tādēļ.",
+        "Ļoti līdzīgs deshalb; bieži ikdienas valodā."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "deswegen"
+          ],
+          "purple": [
+            "tādēļ"
+          ],
+          "orange": [
+            "tādēļ"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "deswegen",
+                "deswegen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tādēļ"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "deswegen",
+                "deswegen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tādēļ"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "deswegen",
+                "deswegen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tādēļ"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "deswegen",
+                "deswegen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tādēļ"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "deswegen",
+                "deswegen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tādēļ"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "tādēļ"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "deswegen"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "icon": "➡",
+      "lv": "tāpēc",
+      "de": "darum",
+      "accent": "yellow",
+      "explanation": [
+        "Galvenā doma: Sarunvalodā biežs; nozīmē tāpēc/tādēļ.",
+        "darum galvenokārt nozīmē: sekas no iemesla.",
+        "Bieži raksturo: sarunvalodu.",
+        "deshalb, deswegen un darum savieno iemeslu ar sekām.",
+        "Šo vārdu salīdzini ar pārējiem šajā kartītē, lai izvēlētos pareizo variantu."
+      ],
+      "examples": [
+        {
+          "de": "Ich bin krank, darum bleibe ich zu Hause.",
+          "lv": "Es esmu slims, tāpēc palieku mājās."
+        },
+        {
+          "de": "Ich bin krank, darum bleibe ich zu Hause.",
+          "lv": "es esmu slims, tāpēc palieku mājās."
+        },
+        {
+          "de": "Ich habe keine Zeit, darum komme ich später.",
+          "lv": "man nav laika, tāpēc es atnākšu vēlāk."
+        },
+        {
+          "de": "Darum sage ich nein.",
+          "lv": "tāpēc es saku nē."
+        }
+      ],
+      "tip": [
+        "Vispirms iemesls, tad sekas: deshalb/deswegen/darum. Atceries vārdu kārtību - darbības vārds ir 2. vietā.",
+        "Sarunvalodā biežs; nozīmē tāpēc/tādēļ."
+      ],
+      "important": [
+        "deshalb, deswegen un darum bieži ir savstarpēji aizvietojami.",
+        "deshalb/deswegen/darum = tāpēc/tādēļ.",
+        "Sarunvalodā biežs; nozīmē tāpēc/tādēļ."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "yellow": [
+            "darum"
+          ],
+          "purple": [
+            "tāpēc"
+          ],
+          "green": [
+            "Tāpēc"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "yellow": [
+                "darum",
+                "darum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tāpēc"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "darum",
+                "darum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tāpēc"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "darum",
+                "darum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tāpēc"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "darum",
+                "darum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tāpēc"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "darum",
+                "darum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tāpēc"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "tāpēc"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "yellow": [
+              "darum"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "compare-schon-noch-erst-nur": [
+    {
+      "icon": "✅",
+      "lv": "jau",
+      "de": "schon",
+      "accent": "blue",
+      "explanation": [
+        "Galvenā doma: Kaut kas jau ir noticis vai jau ir spēkā.",
+        "schon galvenokārt nozīmē: kaut kas jau ir noticis vai spēkā.",
+        "Bieži raksturo: notikušu faktu vai esošu stāvokli.",
+        "schon nozīmē jau: kaut kas jau ir noticis vai jau ir spēkā.",
+        "Šo vārdu salīdzini ar pārējiem šajā kartītē, lai izvēlētos pareizo variantu."
+      ],
+      "examples": [
+        {
+          "de": "Ich bin schon zu Hause.",
+          "lv": "es jau esmu mājās."
+        },
+        {
+          "de": "Ich bin schon zu Hause.",
+          "lv": "es jau esmu mājās."
+        },
+        {
+          "de": "Ich bin schon zu Hause.",
+          "lv": "es jau esmu mājās."
+        },
+        {
+          "de": "Ich bin schon zu Hause.",
+          "lv": "es jau esmu mājās."
+        }
+      ],
+      "tip": [
+        "Kaut kas jau ir noticis vai jau ir spēkā.",
+        "Izmanto schon, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "schon = jau.",
+        "Kaut kas jau ir noticis vai jau ir spēkā."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "schon",
+            "schon"
+          ],
+          "purple": [
+            "jau"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "schon",
+                "schon"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jau"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schon",
+                "schon"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jau"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schon",
+                "schon"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jau"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "jau"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "schon"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "icon": "⏳",
+      "lv": "vēl",
+      "de": "noch",
+      "accent": "green",
+      "explanation": [
+        "Galvenā doma: Kaut kas joprojām turpinās vai vēl nav beidzies.",
+        "noch galvenokārt nozīmē: kaut kas joprojām turpinās.",
+        "Bieži raksturo: turpinājumu vai nepabeigtu stāvokli.",
+        "noch nozīmē vēl: kaut kas joprojām turpinās vai vēl nav beidzies.",
+        "Šo vārdu salīdzini ar pārējiem šajā kartītē, lai izvēlētos pareizo variantu."
+      ],
+      "examples": [
+        {
+          "de": "Ich bin noch zu Hause.",
+          "lv": "Es vēl esmu mājās."
+        },
+        {
+          "de": "Ich bin noch zu Hause.",
+          "lv": "es vēl esmu mājās."
+        },
+        {
+          "de": "Bist du noch da?",
+          "lv": "vai tu vēl esi šeit?"
+        },
+        {
+          "de": "Ich bin noch zu Hause.",
+          "lv": "Es vēl esmu mājās."
+        }
+      ],
+      "tip": [
+        "Kaut kas joprojām turpinās vai vēl nav beidzies.",
+        "Izmanto noch, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "noch = vēl.",
+        "Kaut kas joprojām turpinās vai vēl nav beidzies."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "Vēl"
+          ],
+          "purple": [
+            "vēl"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "noch",
+                "noch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vēl"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "noch",
+                "noch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vēl"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "noch",
+                "noch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vēl"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "noch",
+                "noch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vēl"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "vēl"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "noch"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "icon": "🕗",
+      "lv": "vēl tikai • ne agrāk kā",
+      "de": "erst",
+      "accent": "yellow",
+      "explanation": [
+        "Galvenā doma: Norāda uz laiku, secību, agrīnu stadiju vai kaut ko vēlāk, nekā gaidīts.",
+        "erst galvenokārt nozīmē: laiks, secība vai agrīna stadija.",
+        "Bieži raksturo: kad kaut kas notiek vai cik tālu tas ir.",
+        "erst nozīmē vēl tikai, tikai līdz šim vai ne agrāk kā: tas norāda uz laiku, secību vai agrīnu stadiju.",
+        "erst dažreiz latviski tulko kā “tikai”, taču tas nav tas pats, kas nur."
+      ],
+      "examples": [
+        {
+          "de": "Es ist erst acht Uhr.",
+          "lv": "Ir vēl tikai astoņi."
+        },
+        {
+          "de": "Ich bin erst seit einer Stunde hier.",
+          "lv": "es esmu šeit vēl tikai vienu stundu."
+        },
+        {
+          "de": "Es ist erst acht Uhr.",
+          "lv": "ir vēl tikai astoņi."
+        },
+        {
+          "de": "Er kommt erst morgen.",
+          "lv": "viņš atbrauks tikai rīt."
+        }
+      ],
+      "tip": [
+        "Ja runa ir par laiku, secību vai to, kad kaut kas notiek, parasti lieto erst. Ja runa ir par daudzumu, cilvēku skaitu, naudu, izvēli vai ierobežojumu, parasti lieto nur.",
+        "Norāda uz laiku, secību, agrīnu stadiju vai kaut ko vēlāk, nekā gaidīts."
+      ],
+      "important": [
+        "Ļoti bieži pareizais vārds būs erst, ja runa ir par laiku vai secību.",
+        "Nepareizi: Es ist nur acht Uhr. → Pareizi: Es ist erst acht Uhr.",
+        "Nepareizi: Ich habe erst zehn Euro. → Pareizi: Ich habe nur zehn Euro.",
+        "erst = vēl tikai / ne agrāk kā."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "yellow": [
+            "Vēl tikai"
+          ],
+          "purple": [
+            "vēl tikai / ne agrāk kā"
+          ],
+          "green": [
+            "ne agrāk kā",
+            "agrāk",
+            "tikai",
+            "Vēl"
+          ],
+          "red": [
+            "Tikai"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "yellow": [
+                "erst",
+                "erst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vēl tikai",
+                "ne agrāk kā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "erst",
+                "erst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vēl tikai",
+                "ne agrāk kā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "erst",
+                "erst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vēl tikai",
+                "ne agrāk kā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "erst",
+                "erst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vēl tikai",
+                "ne agrāk kā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "erst",
+                "erst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vēl tikai",
+                "ne agrāk kā"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "vēl tikai"
+            ]
+          },
+          {
+            "purple": [
+              "ne agrāk kā"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "yellow": [
+              "erst"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "icon": "🔒",
+      "lv": "tikai / vienīgi",
+      "de": "nur",
+      "accent": "orange",
+      "explanation": [
+        "Galvenā doma: Ierobežo daudzumu, cilvēku skaitu, izvēli vai iespējas.",
+        "nur galvenokārt nozīmē: ierobežots daudzums vai izvēle.",
+        "Bieži raksturo: cik daudz, kas tieši vai kurš vienīgais.",
+        "nur nozīmē tikai, vienīgi, nekas vairāk: tas ierobežo daudzumu vai izvēli.",
+        "erst dažreiz latviski tulko kā “tikai”, taču tas nav tas pats, kas nur."
+      ],
+      "examples": [
+        {
+          "de": "Ich habe nur zehn Euro.",
+          "lv": "Man ir tikai desmit eiro."
+        },
+        {
+          "de": "Ich habe nur zehn Euro.",
+          "lv": "man ir tikai desmit eiro."
+        },
+        {
+          "de": "Nur du kannst mir helfen.",
+          "lv": "tikai tu vari man palīdzēt."
+        },
+        {
+          "de": "Ich möchte nur Kaffee.",
+          "lv": "es gribu tikai kafiju."
+        },
+        {
+          "de": "Ich habe nur acht Euro.",
+          "lv": "man ir tikai astoņi eiro."
+        },
+        {
+          "de": "Ich habe nur acht Euro.",
+          "lv": "Man ir tikai astoņi eiro."
+        }
+      ],
+      "tip": [
+        "Ja runa ir par laiku, secību vai to, kad kaut kas notiek, parasti lieto erst. Ja runa ir par daudzumu, cilvēku skaitu, naudu, izvēli vai ierobežojumu, parasti lieto nur.",
+        "Ierobežo daudzumu, cilvēku skaitu, izvēli vai iespējas."
+      ],
+      "important": [
+        "Latviešu “tikai” vācu valodā ne vienmēr ir nur.",
+        "Nepareizi: Es ist nur acht Uhr. → Pareizi: Es ist erst acht Uhr.",
+        "Nepareizi: Ich habe erst zehn Euro. → Pareizi: Ich habe nur zehn Euro.",
+        "nur = tikai / vienīgi."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "orange": [
+            "nur",
+            "nur"
+          ],
+          "purple": [
+            "tikai / vienīgi"
+          ],
+          "green": [
+            "vienīgi"
+          ],
+          "red": [
+            "Tikai"
+          ],
+          "yellow": [
+            "vienīgi",
+            "tikai"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "orange": [
+                "nur",
+                "nur"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tikai",
+                "vienīgi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "orange": [
+                "nur",
+                "nur"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tikai",
+                "vienīgi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "orange": [
+                "nur",
+                "nur"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tikai",
+                "vienīgi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "orange": [
+                "nur",
+                "nur"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tikai",
+                "vienīgi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "orange": [
+                "nur",
+                "nur"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tikai",
+                "vienīgi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "orange": [
+                "nur",
+                "nur"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tikai",
+                "vienīgi"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "tikai"
+            ]
+          },
+          {
+            "purple": [
+              "vienīgi"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "orange": [
+              "nur"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "compare-durch-ueber-entlang": [
+    {
+      "icon": "➡️",
+      "lv": "caur • cauri",
+      "de": "durch",
+      "accent": "blue",
+      "explanation": [
+        "Galvenā doma: Kustība iet caur vietu, telpu vai šķērsli.",
+        "durch galvenokārt nozīmē: kustība caur kaut ko.",
+        "Bieži raksturo: ceļu caur vietu.",
+        "durch nozīmē caur vai cauri, kad kustība iet caur telpu, vietu vai masu.",
+        "Īpaši jānošķir durch den Park un über die Straße."
+      ],
+      "examples": [
+        {
+          "de": "Ich gehe durch den Park.",
+          "lv": "Es eju caur parku."
+        },
+        {
+          "de": "Ich gehe durch den Park.",
+          "lv": "es eju caur parku."
+        },
+        {
+          "de": "Der Weg führt durch den Wald.",
+          "lv": "ceļš ved caur mežu."
+        },
+        {
+          "de": "Ich gehe durch den Park.",
+          "lv": "Es eju caur parku."
+        }
+      ],
+      "tip": [
+        "Ja kustība iet caur vietu, lieto durch. Ja šķērso ielu vai runā par tēmu, bieži lieto über. Ja kustība notiek gar upi vai ielu, lieto entlang.",
+        "Kustība iet caur vietu, telpu vai šķērsli."
+      ],
+      "important": [
+        "Nepareizi: Ich gehe über den Park. → Pareizi: Ich gehe durch den Park.",
+        "durch = caur.",
+        "Kustība iet caur vietu, telpu vai šķērsli."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "durch"
+          ],
+          "purple": [
+            "caur / cauri",
+            "cauri",
+            "caur"
+          ],
+          "green": [
+            "cauri"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "durch",
+                "durch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "caur",
+                "cauri"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "durch",
+                "durch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "caur",
+                "cauri"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "durch",
+                "durch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "caur",
+                "cauri"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "durch",
+                "durch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "caur",
+                "cauri"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "caur"
+            ]
+          },
+          {
+            "purple": [
+              "cauri"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "durch"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "icon": "↗️",
+      "lv": "virs / pāri / par",
+      "de": "über",
+      "accent": "green",
+      "explanation": [
+        "Galvenā doma: Var būt virs kaut kā, pāri kaut kam vai par kādu tēmu.",
+        "über galvenokārt nozīmē: augstāk par kaut ko.",
+        "Bieži raksturo: atrašanās vietu.",
+        "über galvenokārt nozīmē: šķērsot kaut ko.",
+        "Bieži raksturo: kustību pāri.",
+        "über galvenokārt nozīmē: tēma.",
+        "Bieži raksturo: par ko runā.",
+        "über var nozīmēt virs, pāri vai par, atkarībā no konteksta."
+      ],
+      "examples": [
+        {
+          "de": "Wir gehen über die Straße.",
+          "lv": "Mēs ejam pāri ielai."
+        },
+        {
+          "de": "Die Lampe hängt über dem Tisch.",
+          "lv": "lampa karājas virs galda."
+        },
+        {
+          "de": "Wir gehen über die Straße.",
+          "lv": "mēs ejam pāri ielai."
+        },
+        {
+          "de": "Er spricht über seine Arbeit.",
+          "lv": "viņš runā par savu darbu."
+        },
+        {
+          "de": "Wir sprechen über das Problem.",
+          "lv": "mēs runājam par problēmu."
+        }
+      ],
+      "tip": [
+        "Ja kustība iet caur vietu, lieto durch. Ja šķērso ielu vai runā par tēmu, bieži lieto über. Ja kustība notiek gar upi vai ielu, lieto entlang.",
+        "Var būt virs kaut kā, pāri kaut kam vai par kādu tēmu."
+      ],
+      "important": [
+        "Ich gehe über den Park nav pareizi, ja doma ir “caur parku”.",
+        "über var nozīmēt gan virs, gan pāri, gan par.",
+        "Nepareizi: Ich gehe über den Park. → Pareizi: Ich gehe durch den Park.",
+        "über = virs / pāri / par."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "Pāri"
+          ],
+          "purple": [
+            "virs / pāri / par"
+          ],
+          "yellow": [
+            "virs"
+          ],
+          "orange": [
+            "pāri",
+            "virs"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "über",
+                "über"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "virs",
+                "pāri",
+                "par"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "über",
+                "über"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "virs",
+                "pāri",
+                "par"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "über",
+                "über"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "virs",
+                "pāri",
+                "par"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "über",
+                "über"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "virs",
+                "pāri",
+                "par"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "über",
+                "über"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "virs",
+                "pāri",
+                "par"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "über",
+                "über"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "virs",
+                "pāri",
+                "par"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "virs"
+            ]
+          },
+          {
+            "purple": [
+              "pāri"
+            ]
+          },
+          {
+            "purple": [
+              "par"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "über"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "icon": "↔️",
+      "lv": "gar / garām",
+      "de": "entlang",
+      "accent": "yellow",
+      "explanation": [
+        "Galvenā doma: Kustība notiek gar līniju, upi, ielu vai malu.",
+        "entlang galvenokārt nozīmē: gar kaut ko.",
+        "Bieži raksturo: paralēlu kustību.",
+        "entlang nozīmē gar vai garām, kad kustība notiek paralēli kaut kam.",
+        "Šo vārdu salīdzini ar pārējiem šajā kartītē, lai izvēlētos pareizo variantu."
+      ],
+      "examples": [
+        {
+          "de": "Wir gehen den Fluss entlang.",
+          "lv": "Mēs ejam gar upi."
+        },
+        {
+          "de": "Wir gehen den Fluss entlang.",
+          "lv": "mēs ejam gar upi."
+        },
+        {
+          "de": "Wir gehen den Fluss entlang.",
+          "lv": "Mēs ejam gar upi."
+        },
+        {
+          "de": "Wir gehen den Fluss entlang.",
+          "lv": "Mēs ejam gar upi."
+        }
+      ],
+      "tip": [
+        "Ja kustība iet caur vietu, lieto durch. Ja šķērso ielu vai runā par tēmu, bieži lieto über. Ja kustība notiek gar upi vai ielu, lieto entlang.",
+        "Kustība notiek gar līniju, upi, ielu vai malu."
+      ],
+      "important": [
+        "entlang bieži stāv aiz lietvārda: den Fluss entlang.",
+        "entlang = gar.",
+        "Kustība notiek gar līniju, upi, ielu vai malu."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "yellow": [
+            "entlang"
+          ],
+          "purple": [
+            "gar / garām"
+          ],
+          "green": [
+            "garām"
+          ],
+          "red": [
+            "Gar"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "yellow": [
+                "entlang",
+                "entlang"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "gar",
+                "garām"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "entlang",
+                "entlang"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "gar",
+                "garām"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "entlang",
+                "entlang"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "gar",
+                "garām"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "entlang",
+                "entlang"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "gar",
+                "garām"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "gar"
+            ]
+          },
+          {
+            "purple": [
+              "garām"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "yellow": [
+              "entlang"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "compare-innen-drin-draussen": [
+    {
+      "icon": "⬛",
+      "lv": "iekšpusē",
+      "de": "innen",
+      "accent": "blue",
+      "explanation": [
+        "Galvenā doma: Iekšējā puse vai iekšpuse kā īpašība.",
+        "innen galvenokārt nozīmē: iekšējā pusē.",
+        "Bieži raksturo: iekšpuses īpašību.",
+        "innen nozīmē iekšpusē vai iekšējā pusē.",
+        "drin un drinnen nozīmē, ka kāds vai kaut kas atrodas iekšā kādā vietā.",
+        "innen bieži apraksta īpašību, piemēram auto iekšpuse ir tīra.",
+        "drin/drinnen bieži atbild uz jautājumu “kur tu esi?”."
+      ],
+      "examples": [
+        {
+          "de": "Das Auto ist innen sauber.",
+          "lv": "Auto iekšpusē ir tīrs."
+        },
+        {
+          "de": "Das Auto ist innen sauber.",
+          "lv": "auto iekšpusē ir tīrs."
+        },
+        {
+          "de": "Drinnen ist es warm.",
+          "lv": "iekšā ir silti."
+        },
+        {
+          "de": "Die Tasche ist innen nass.",
+          "lv": "soma iekšpusē ir slapja."
+        }
+      ],
+      "tip": [
+        "Ja gribi pateikt “es esmu iekšā”, lieto drin vai drinnen. Ja apraksti, kā kaut kas izskatās no iekšpuses, lieto innen.",
+        "Iekšējā puse vai iekšpuse kā īpašība."
+      ],
+      "important": [
+        "Ich bin innen nav pareizi, ja doma ir “es esmu iekšā”.",
+        "Drinnen un draußen bieži veido pretstatu.",
+        "innen vairāk apraksta iekšpusi kā daļu vai īpašību.",
+        "Nepareizi: Ich bin innen. → Pareizi: Ich bin drin."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "innen"
+          ],
+          "purple": [
+            "iekšpusē"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "innen",
+                "innen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "iekšpusē"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "innen",
+                "innen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "iekšpusē"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "innen",
+                "innen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "iekšpusē"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "innen",
+                "innen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "iekšpusē"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "innen",
+                "innen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "iekšpusē"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "iekšpusē"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "innen"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "icon": "📦",
+      "lv": "iekšā",
+      "de": "drin / drinnen",
+      "accent": "green",
+      "explanation": [
+        "Galvenā doma: Kāds vai kaut kas ir kaut kā iekšienē.",
+        "Šo vārdu salīdzini ar pārējiem šajā kartītē, lai izvēlētos pareizo variantu.",
+        "Piemēros meklē tipisku ikdienas lietojumu.",
+        "Ja šaubies, pārbaudi, vai runa ir par stāvokli vai darbību.",
+        "Konteksts un darbības virziens nosaka pareizo izvēli."
+      ],
+      "examples": [
+        {
+          "de": "drin / drinnen.",
+          "lv": "iekšā"
+        },
+        {
+          "de": "drin / drinnen.",
+          "lv": "iekšā"
+        },
+        {
+          "de": "drin / drinnen.",
+          "lv": "iekšā"
+        },
+        {
+          "de": "drin / drinnen.",
+          "lv": "iekšā"
+        }
+      ],
+      "tip": [
+        "Kāds vai kaut kas ir kaut kā iekšienē.",
+        "Izmanto drin / drinnen, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "Kāds vai kaut kas ir kaut kā iekšienē.",
+        "drin / drinnen: pirms lietošanas pārbaudi kontekstu un salīdzini ar citiem vārdiem kartītē."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "Iekšā"
+          ],
+          "purple": [
+            "iekšā"
+          ],
+          "orange": [
+            "iekšā"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "drin / drinnen",
+                "drin / drinnen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "iekšā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "drin / drinnen",
+                "drin / drinnen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "iekšā"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "iekšā"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "drin / drinnen"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "icon": "🌳",
+      "lv": "ārā",
+      "de": "draußen",
+      "accent": "yellow",
+      "explanation": [
+        "Galvenā doma: Ārpus telpas vai ēkas.",
+        "draußen galvenokārt nozīmē: ārpus telpas.",
+        "Bieži raksturo: atrašanos ārā.",
+        "draußen nozīmē ārā, ārpus telpas vai ēkas.",
+        "Šo vārdu salīdzini ar pārējiem šajā kartītē, lai izvēlētos pareizo variantu."
+      ],
+      "examples": [
+        {
+          "de": "Die Kinder spielen draußen.",
+          "lv": "Bērni spēlējas ārā."
+        },
+        {
+          "de": "Die Kinder spielen draußen.",
+          "lv": "bērni spēlējas ārā."
+        },
+        {
+          "de": "Bleib bitte draußen.",
+          "lv": "lūdzu, paliec ārā."
+        },
+        {
+          "de": "Die Kinder sind draußen.",
+          "lv": "bērni ir ārā."
+        }
+      ],
+      "tip": [
+        "Ārpus telpas vai ēkas.",
+        "Izmanto draußen, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "Drinnen un draußen bieži veido pretstatu.",
+        "draußen = ārā.",
+        "Ārpus telpas vai ēkas."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "yellow": [
+            "draußen"
+          ],
+          "purple": [
+            "ārā"
+          ],
+          "green": [
+            "draußen"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "yellow": [
+                "draußen",
+                "draußen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ārā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "draußen",
+                "draußen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ārā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "draußen",
+                "draußen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ārā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "draußen",
+                "draußen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ārā"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "ārā"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "yellow": [
+              "draußen"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "compare-hin-her": [
+    {
+      "icon": "➡️",
+      "lv": "turp",
+      "de": "hin",
+      "accent": "blue",
+      "explanation": [
+        "Galvenā doma: Virziens prom no runātāja vai uz kādu citu vietu.",
+        "hin galvenokārt nozīmē: prom no runātāja.",
+        "Bieži raksturo: virzienu uz citu vietu.",
+        "hin nozīmē turp vai prom no runātāja skatpunkta.",
+        "Šie vārdi bieži parādās komandās: Geh hin!",
+        "Ja cilvēks nāk pie tevis, parasti lieto her, nevis hin."
+      ],
+      "examples": [
+        {
+          "de": "Geh hin!",
+          "lv": "Ej turp!"
+        },
+        {
+          "de": "Geh hin!",
+          "lv": "ej turp!"
+        },
+        {
+          "de": "Wo gehst du hin?",
+          "lv": "kur tu ej?"
+        },
+        {
+          "de": "Ich gehe dorthin.",
+          "lv": "es eju uz turieni."
+        }
+      ],
+      "tip": [
+        "Ja cilvēks tuvojas tev, lieto her. Ja cilvēks dodas prom uz citu vietu, lieto hin.",
+        "Virziens prom no runātāja vai uz kādu citu vietu."
+      ],
+      "important": [
+        "Komm hin parasti nav pareizi, ja cilvēks nāk pie tevis.",
+        "hin jūtas kā virziens prom vai uz citu vietu.",
+        "Nepareizi: Komm hin. → Pareizi: Komm her.",
+        "hin = turp."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "hin",
+            "hin"
+          ],
+          "purple": [
+            "turp"
+          ],
+          "green": [
+            "Turp"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "hin",
+                "hin"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "turp"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hin",
+                "hin"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "turp"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hin",
+                "hin"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "turp"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hin",
+                "hin"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "turp"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hin",
+                "hin"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "turp"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "turp"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "hin"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "icon": "⬅️",
+      "lv": "šurp",
+      "de": "her",
+      "accent": "green",
+      "explanation": [
+        "Galvenā doma: Virziens uz runātāju vai runātāja pusi.",
+        "her galvenokārt nozīmē: uz runātāju.",
+        "Bieži raksturo: virzienu pie runātāja.",
+        "her nozīmē šurp vai uz runātāja pusi.",
+        "un Komm her!",
+        "Ja cilvēks nāk pie tevis, parasti lieto her, nevis hin."
+      ],
+      "examples": [
+        {
+          "de": "Komm her!",
+          "lv": "Nāc šurp!"
+        },
+        {
+          "de": "Komm her!",
+          "lv": "nāc šurp!"
+        },
+        {
+          "de": "Komm bitte hierher.",
+          "lv": "nāc, lūdzu, šurp."
+        },
+        {
+          "de": "Bring das bitte her.",
+          "lv": "atnes to, lūdzu, šurp."
+        }
+      ],
+      "tip": [
+        "Ja cilvēks tuvojas tev, lieto her. Ja cilvēks dodas prom uz citu vietu, lieto hin.",
+        "Virziens uz runātāju vai runātāja pusi."
+      ],
+      "important": [
+        "her vienmēr jūtas kā virziens uz runātāju.",
+        "Nepareizi: Komm hin. → Pareizi: Komm her.",
+        "her = šurp.",
+        "Virziens uz runātāju vai runātāja pusi."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "her"
+          ],
+          "purple": [
+            "šurp"
+          ],
+          "orange": [
+            "šurp"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "her",
+                "her"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "šurp"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "her",
+                "her"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "šurp"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "her",
+                "her"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "šurp"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "her",
+                "her"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "šurp"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "her",
+                "her"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "šurp"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "šurp"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "her"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "compare-hinaus-heraus": [
+    {
+      "icon": "➡️",
+      "lv": "ārā prom",
+      "de": "hinaus",
+      "accent": "blue",
+      "explanation": [
+        "Galvenā doma: Kustība ārā prom no runātāja.",
+        "hinaus galvenokārt nozīmē: prom ārā.",
+        "Bieži raksturo: virzienu prom no runātāja.",
+        "hinaus galvenokārt nozīmē: iziet ārā prom.",
+        "Bieži raksturo: prom virzienu.",
+        "hinaus nozīmē ārā prom no runātāja skatpunkta.",
+        "Komandās tas ir īpaši svarīgi: Geh hinaus!",
+        "hinaus bieži rāda virzienu prom ārā."
+      ],
+      "examples": [
+        {
+          "de": "Geh hinaus!",
+          "lv": "Ej ārā!"
+        },
+        {
+          "de": "Geh hinaus!",
+          "lv": "ej ārā!"
+        },
+        {
+          "de": "Er läuft aus dem Haus hinaus.",
+          "lv": "viņš skrien ārā no mājas prom."
+        },
+        {
+          "de": "Der Hund will hinaus.",
+          "lv": "suns grib ārā."
+        },
+        {
+          "de": "Er läuft hinaus.",
+          "lv": "viņš skrien ārā."
+        }
+      ],
+      "tip": [
+        "Domā par virzienu: prom ārā = hinaus, uz mani ārā = heraus.",
+        "Kustība ārā prom no runātāja."
+      ],
+      "important": [
+        "Komm hinaus nav pareizi, ja cilvēks nāk ārā pie tevis.",
+        "hinaus un heraus abi var tulkoties kā “ārā”, bet virziens nav vienāds.",
+        "Nepareizi: Komm hinaus. → Pareizi: Komm heraus.",
+        "hinaus = ārā prom."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "hinaus"
+          ],
+          "purple": [
+            "prom"
+          ],
+          "green": [
+            "Ārā prom"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "hinaus",
+                "hinaus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ārā prom"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hinaus",
+                "hinaus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ārā prom"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hinaus",
+                "hinaus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ārā prom"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hinaus",
+                "hinaus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ārā prom"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hinaus",
+                "hinaus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ārā prom"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "ārā prom"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "hinaus"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "icon": "⬅️",
+      "lv": "ārā šurp",
+      "de": "heraus",
+      "accent": "green",
+      "explanation": [
+        "Galvenā doma: Kustība ārā uz runātāja pusi vai ārā no kaut kā.",
+        "heraus galvenokārt nozīmē: ārā uz runātāja pusi.",
+        "Bieži raksturo: virzienu pie runātāja.",
+        "heraus galvenokārt nozīmē: izņemt / iznākt ārā.",
+        "Bieži raksturo: kustību ārā no iekšienes.",
+        "heraus nozīmē ārā uz runātāja pusi vai ārā no kaut kā.",
+        "un Komm heraus!",
+        "heraus bieži lieto, ja kāds nāk ārā pie tevis."
+      ],
+      "examples": [
+        {
+          "de": "Komm heraus!",
+          "lv": "Nāc ārā!"
+        },
+        {
+          "de": "Komm heraus!",
+          "lv": "nāc ārā!"
+        },
+        {
+          "de": "Sie kommt aus dem Zimmer heraus.",
+          "lv": "viņa nāk ārā no istabas."
+        },
+        {
+          "de": "Hol das Kind heraus.",
+          "lv": "izved bērnu ārā."
+        },
+        {
+          "de": "Sie kommt heraus.",
+          "lv": "viņa nāk ārā."
+        }
+      ],
+      "tip": [
+        "Domā par virzienu: prom ārā = hinaus, uz mani ārā = heraus.",
+        "Kustība ārā uz runātāja pusi vai ārā no kaut kā."
+      ],
+      "important": [
+        "hinaus un heraus abi var tulkoties kā “ārā”, bet virziens nav vienāds.",
+        "Nepareizi: Komm hinaus. → Pareizi: Komm heraus.",
+        "heraus = ārā šurp / ārā no kaut kā.",
+        "Kustība ārā uz runātāja pusi vai ārā no kaut kā."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "heraus"
+          ],
+          "purple": [
+            "ārā šurp"
+          ],
+          "orange": [
+            "šurp"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "heraus",
+                "heraus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ārā šurp"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "heraus",
+                "heraus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ārā šurp"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "heraus",
+                "heraus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ārā šurp"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "heraus",
+                "heraus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ārā šurp"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "heraus",
+                "heraus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ārā šurp"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "heraus",
+                "heraus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ārā šurp"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "ārā šurp"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "heraus"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "compare-hinein-herein": [
+    {
+      "icon": "➡️",
+      "lv": "iekšā prom",
+      "de": "hinein",
+      "accent": "blue",
+      "explanation": [
+        "Galvenā doma: Kustība iekšā prom no runātāja vai uz vietu.",
+        "hinein galvenokārt nozīmē: virziens iekšā prom.",
+        "Bieži raksturo: došanos uz iekšieni.",
+        "hinein nozīmē iekšā prom no runātāja vai uz kādu vietu.",
+        "Komandās tas ir ļoti svarīgi: Geh hinein!"
+      ],
+      "examples": [
+        {
+          "de": "Geh hinein!",
+          "lv": "Ej iekšā!"
+        },
+        {
+          "de": "Geh hinein!",
+          "lv": "ej iekšā!"
+        },
+        {
+          "de": "Er geht ins Haus hinein.",
+          "lv": "viņš ieiet mājā."
+        },
+        {
+          "de": "Leg das Buch hinein.",
+          "lv": "ieliec grāmatu iekšā."
+        }
+      ],
+      "tip": [
+        "Ja cilvēks nāk telpā, kur esi tu, lieto herein. Ja kāds dodas iekšā prom no tava skatpunkta, lieto hinein.",
+        "Kustība iekšā prom no runātāja vai uz vietu."
+      ],
+      "important": [
+        "Komm hinein nav labākais, ja cilvēks nāk telpā pie tevis.",
+        "hinein un herein abi ir “iekšā”, bet virziens ir atšķirīgs.",
+        "Nepareizi: Komm hinein. → Pareizi: Komm herein.",
+        "hinein = iekšā prom."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "hinein"
+          ],
+          "purple": [
+            "iekšā",
+            "prom"
+          ],
+          "green": [
+            "Iekšā prom"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "hinein",
+                "hinein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "iekšā prom"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hinein",
+                "hinein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "iekšā prom"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hinein",
+                "hinein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "iekšā prom"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hinein",
+                "hinein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "iekšā prom"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "iekšā prom"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "hinein"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "icon": "⬅️",
+      "lv": "iekšā šurp",
+      "de": "herein",
+      "accent": "green",
+      "explanation": [
+        "Galvenā doma: Kustība iekšā uz runātāja pusi.",
+        "herein galvenokārt nozīmē: virziens iekšā pie runātāja.",
+        "Bieži raksturo: ienākšanu pie manis.",
+        "herein nozīmē iekšā uz runātāja pusi, piemēram telpā, kur atrodas runātājs.",
+        "un Komm herein!"
+      ],
+      "examples": [
+        {
+          "de": "Komm herein!",
+          "lv": "Nāc iekšā!"
+        },
+        {
+          "de": "Komm herein!",
+          "lv": "nāc iekšā!"
+        },
+        {
+          "de": "Kommen Sie bitte herein.",
+          "lv": "lūdzu, nāciet iekšā."
+        },
+        {
+          "de": "Der Hund darf herein.",
+          "lv": "suns drīkst nākt iekšā."
+        }
+      ],
+      "tip": [
+        "Ja cilvēks nāk telpā, kur esi tu, lieto herein. Ja kāds dodas iekšā prom no tava skatpunkta, lieto hinein.",
+        "Kustība iekšā uz runātāja pusi."
+      ],
+      "important": [
+        "hinein un herein abi ir “iekšā”, bet virziens ir atšķirīgs.",
+        "Nepareizi: Komm hinein. → Pareizi: Komm herein.",
+        "herein = iekšā šurp.",
+        "Kustība iekšā uz runātāja pusi."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "herein"
+          ],
+          "purple": [
+            "iekšā šurp"
+          ],
+          "orange": [
+            "iekšā",
+            "šurp"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "herein",
+                "herein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "iekšā šurp"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "herein",
+                "herein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "iekšā šurp"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "herein",
+                "herein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "iekšā šurp"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "herein",
+                "herein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "iekšā šurp"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "herein",
+                "herein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "iekšā šurp"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "iekšā šurp"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "herein"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "compare-egal-gleich": [
+    {
+      "icon": "🤷",
+      "lv": "vienalga",
+      "de": "egal",
+      "accent": "blue",
+      "explanation": [
+        "Galvenā doma: Nav svarīgi, nav atšķirības.",
+        "egal galvenokārt nozīmē: nav svarīgi.",
+        "Bieži raksturo: attieksmi pret izvēli.",
+        "egal lieto, ja kaut kas nav svarīgi vai ir vienalga.",
+        "Latviskais “man vienalga” vāciski ir Das ist mir egal, nevis Das ist mir gleich."
+      ],
+      "examples": [
+        {
+          "de": "Das ist mir egal.",
+          "lv": "Man tas ir vienalga."
+        },
+        {
+          "de": "Das ist mir egal.",
+          "lv": "man tas ir vienalga."
+        },
+        {
+          "de": "Mir ist das nicht egal.",
+          "lv": "man tas nav vienalga."
+        },
+        {
+          "de": "Das ist mir egal.",
+          "lv": "Man tas ir vienalga."
+        }
+      ],
+      "tip": [
+        "Ja doma ir “man vienalga”, lieto egal. Ja doma ir “vienāds” vai “tūlīt”, lieto gleich.",
+        "egal = vienalga"
+      ],
+      "important": [
+        "Nepareizi: Das ist mir gleich. → Pareizi: Das ist mir egal.",
+        "egal = vienalga.",
+        "Nav svarīgi, nav atšķirības."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "egal"
+          ],
+          "purple": [
+            "vienalga"
+          ],
+          "green": [
+            "Vienalga"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "egal",
+                "egal"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vienalga"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "egal",
+                "egal"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vienalga"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "egal",
+                "egal"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vienalga"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "egal",
+                "egal"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vienalga"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "vienalga"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "egal"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "icon": "🟰",
+      "lv": "vienāds • tūlīt",
+      "de": "gleich",
+      "accent": "green",
+      "explanation": [
+        "Galvenā doma: Var nozīmēt vienāds vai tūlīt.",
+        "gleich galvenokārt nozīmē: tāds pats.",
+        "Bieži raksturo: salīdzinājumu.",
+        "gleich galvenokārt nozīmē: drīz / tūlīt.",
+        "Bieži raksturo: laiku.",
+        "gleich nozīmē vienāds, ja salīdzina lietas.",
+        "gleich var nozīmēt arī tūlīt vai drīz, īpaši sarunvalodā.",
+        "Latviskais “man vienalga” vāciski ir Das ist mir egal, nevis Das ist mir gleich."
+      ],
+      "examples": [
+        {
+          "de": "Die Farben sind gleich.",
+          "lv": "Krāsas ir vienādas."
+        },
+        {
+          "de": "Die beiden Farben sind gleich.",
+          "lv": "abas krāsas ir vienādas."
+        },
+        {
+          "de": "Ich komme gleich.",
+          "lv": "es tūlīt nāku."
+        },
+        {
+          "de": "Wir haben die gleiche Tasche.",
+          "lv": "mums ir vienāda soma."
+        },
+        {
+          "de": "Gleich beginnt der Film.",
+          "lv": "filma tūlīt sāksies."
+        },
+        {
+          "de": "Die Farben sind gleich.",
+          "lv": "krāsas ir vienādas."
+        }
+      ],
+      "tip": [
+        "Ja doma ir “man vienalga”, lieto egal. Ja doma ir “vienāds” vai “tūlīt”, lieto gleich.",
+        "gleich = vienāds / tūlīt"
+      ],
+      "important": [
+        "Das ist mir gleich nav pareizi, ja doma ir “man vienalga”.",
+        "gleich ir divas biežas nozīmes: vienāds un tūlīt.",
+        "Nepareizi: Das ist mir gleich. → Pareizi: Das ist mir egal.",
+        "gleich = vienāds / tūlīt."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "gleich"
+          ],
+          "purple": [
+            "vienāds / tūlīt"
+          ],
+          "red": [
+            "Tūlīt"
+          ],
+          "orange": [
+            "vienāds",
+            "tūlīt"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "gleich",
+                "gleich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vienāds",
+                "tūlīt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "gleich",
+                "gleich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vienāds",
+                "tūlīt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "gleich",
+                "gleich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vienāds",
+                "tūlīt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "gleich",
+                "gleich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vienāds",
+                "tūlīt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "gleich",
+                "gleich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vienāds",
+                "tūlīt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "gleich",
+                "gleich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vienāds",
+                "tūlīt"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "vienāds"
+            ]
+          },
+          {
+            "purple": [
+              "tūlīt"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "gleich"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "compare-eben-gerade-genau": [
+    {
+      "icon": "🕘",
+      "lv": "tikko • nupat",
+      "de": "eben",
+      "accent": "blue",
+      "explanation": [
+        "Galvenā doma: Tikko, nupat, reizēm arī tieši vai līdzens.",
+        "eben galvenokārt nozīmē: nesen noticis.",
+        "Bieži raksturo: laiku īsi pirms brīža.",
+        "eben var nozīmēt tikko, nupat, tieši vai arī līdzens.",
+        "Šo vārdu salīdzini ar pārējiem šajā kartītē, lai izvēlētos pareizo variantu."
+      ],
+      "examples": [
+        {
+          "de": "Ich war eben dort.",
+          "lv": "Es tikko tur biju."
+        },
+        {
+          "de": "Ich war eben dort.",
+          "lv": "es tikko tur biju."
+        },
+        {
+          "de": "Er hat eben angerufen.",
+          "lv": "viņš tikko piezvanīja."
+        },
+        {
+          "de": "Ich war eben dort.",
+          "lv": "Es tikko tur biju."
+        }
+      ],
+      "tip": [
+        "Ja doma ir “pašlaik”, lieto gerade. Ja doma ir “precīzi”, lieto genau. Ja kaut kas notika pirms mirkļa, bieži der eben.",
+        "eben = tikko"
+      ],
+      "important": [
+        "eben var nozīmēt arī līdzens citos kontekstos.",
+        "eben = tikko / nupat.",
+        "Tikko, nupat, reizēm arī tieši vai līdzens."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "eben",
+            "eben"
+          ],
+          "purple": [
+            "tikko / nupat",
+            "nupat",
+            "tikko"
+          ],
+          "green": [
+            "nupat"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "eben",
+                "eben"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tikko",
+                "nupat"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eben",
+                "eben"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tikko",
+                "nupat"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eben",
+                "eben"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tikko",
+                "nupat"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eben",
+                "eben"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tikko",
+                "nupat"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "tikko"
+            ]
+          },
+          {
+            "purple": [
+              "nupat"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "eben"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "icon": "📍",
+      "lv": "pašlaik / taisni",
+      "de": "gerade",
+      "accent": "green",
+      "explanation": [
+        "Galvenā doma: Pašlaik, tieši tagad, vai taisni virzienā.",
+        "gerade galvenokārt nozīmē: tieši tagad.",
+        "Bieži raksturo: notiekošu brīdi.",
+        "gerade ļoti bieži nozīmē pašlaik vai tieši tagad, bet var nozīmēt arī taisni.",
+        "Ja doma ir “pašlaik”, parasti lieto gerade, nevis genau."
+      ],
+      "examples": [
+        {
+          "de": "Ich bin gerade beschäftigt.",
+          "lv": "Es pašlaik esmu aizņemts."
+        },
+        {
+          "de": "Ich bin gerade beschäftigt.",
+          "lv": "es pašlaik esmu aizņemts."
+        },
+        {
+          "de": "Geh geradeaus.",
+          "lv": "ej taisni uz priekšu."
+        },
+        {
+          "de": "Ich bin gerade beschäftigt.",
+          "lv": "Es pašlaik esmu aizņemts."
+        }
+      ],
+      "tip": [
+        "Ja doma ir “pašlaik”, lieto gerade. Ja doma ir “precīzi”, lieto genau. Ja kaut kas notika pirms mirkļa, bieži der eben.",
+        "gerade = pašlaik"
+      ],
+      "important": [
+        "geradeaus ir virziens: taisni uz priekšu.",
+        "Nepareizi: genau tagad → Pareizi: gerade",
+        "gerade = pašlaik / taisni.",
+        "Pašlaik, tieši tagad, vai taisni virzienā."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "gerade"
+          ],
+          "purple": [
+            "pašlaik / taisni"
+          ],
+          "red": [
+            "taisni"
+          ],
+          "orange": [
+            "pašlaik",
+            "taisni"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "gerade",
+                "gerade"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pašlaik",
+                "taisni"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "gerade",
+                "gerade"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pašlaik",
+                "taisni"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "gerade",
+                "gerade"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pašlaik",
+                "taisni"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "gerade",
+                "gerade"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pašlaik",
+                "taisni"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "pašlaik"
+            ]
+          },
+          {
+            "purple": [
+              "taisni"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "gerade"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "icon": "🎯",
+      "lv": "precīzi / tieši",
+      "de": "genau",
+      "accent": "yellow",
+      "explanation": [
+        "Galvenā doma: Precīzi, tieši, bez novirzes.",
+        "genau galvenokārt nozīmē: tieši un precīzi.",
+        "Bieži raksturo: precizitāti.",
+        "genau nozīmē precīzi vai tieši.",
+        "Ja doma ir “pašlaik”, parasti lieto gerade, nevis genau.",
+        "Ja doma ir precizitāte, lieto genau."
+      ],
+      "examples": [
+        {
+          "de": "Das ist genau richtig.",
+          "lv": "Tas ir precīzi pareizi."
+        },
+        {
+          "de": "Das ist genau richtig.",
+          "lv": "tas ir precīzi pareizi."
+        },
+        {
+          "de": "Genau das meine ich.",
+          "lv": "tieši to es domāju."
+        },
+        {
+          "de": "Das ist genau richtig.",
+          "lv": "Tas ir precīzi pareizi."
+        }
+      ],
+      "tip": [
+        "Ja doma ir “pašlaik”, lieto gerade. Ja doma ir “precīzi”, lieto genau. Ja kaut kas notika pirms mirkļa, bieži der eben.",
+        "genau = precīzi"
+      ],
+      "important": [
+        "genau tagad nav dabiski, ja doma ir “pašlaik”.",
+        "Nepareizi: genau tagad → Pareizi: gerade",
+        "genau = precīzi.",
+        "Precīzi, tieši, bez novirzes."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "yellow": [
+            "genau",
+            "genau"
+          ],
+          "purple": [
+            "precīzi / tieši",
+            "precīzi"
+          ],
+          "green": [
+            "precīzi",
+            "tieši"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "yellow": [
+                "genau",
+                "genau"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "precīzi",
+                "tieši"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "genau",
+                "genau"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "precīzi",
+                "tieši"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "genau",
+                "genau"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "precīzi",
+                "tieši"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "genau",
+                "genau"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "precīzi",
+                "tieši"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "precīzi"
+            ]
+          },
+          {
+            "purple": [
+              "tieši"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "yellow": [
+              "genau"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "compare-ebenfalls-auch-ebenso": [
+    {
+      "icon": "➕",
+      "lv": "arī",
+      "de": "auch",
+      "accent": "blue",
+      "explanation": [
+        "Galvenā doma: Visbiežākais un neitrālākais “arī”.",
+        "auch galvenokārt nozīmē: vienkāršs “arī”.",
+        "Bieži raksturo: papildinājumu.",
+        "auch ir visparastākais vārds “arī”.",
+        "Šo vārdu salīdzini ar pārējiem šajā kartītē, lai izvēlētos pareizo variantu."
+      ],
+      "examples": [
+        {
+          "de": "Ich komme auch.",
+          "lv": "Es arī nāku."
+        },
+        {
+          "de": "Ich komme auch.",
+          "lv": "es arī nāku."
+        },
+        {
+          "de": "Sie arbeitet auch hier.",
+          "lv": "viņa arī strādā šeit."
+        },
+        {
+          "de": "Ich komme auch.",
+          "lv": "Es arī nāku."
+        }
+      ],
+      "tip": [
+        "Ikdienā visbiežāk lieto auch. Pieklājīgās atbildēs labi der ebenfalls. Salīdzināšanai ar “tikpat kā” lieto ebenso ... wie.",
+        "auch = arī"
+      ],
+      "important": [
+        "Ich auch wünsche Ihnen nav pareiza vārdu kārtība.",
+        "ebenfalls bieži skan formālāk nekā auch.",
+        "Nepareizi: Ich auch wünsche Ihnen einen schönen Tag. → Pareizi: Ich wünsche Ihnen ebenfalls einen schönen Tag.",
+        "auch = arī."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "auch",
+            "auch"
+          ],
+          "purple": [
+            "arī"
+          ],
+          "green": [
+            "Arī"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "auch",
+                "auch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "arī"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "auch",
+                "auch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "arī"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "auch",
+                "auch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "arī"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "auch",
+                "auch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "arī"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "arī"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "auch"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "icon": "🤝",
+      "lv": "arī • tāpat",
+      "de": "ebenfalls",
+      "accent": "green",
+      "explanation": [
+        "Galvenā doma: Formālāks vai pieklājīgāks “arī / tāpat”.",
+        "ebenfalls galvenokārt nozīmē: formālāks arī.",
+        "Bieži raksturo: pieklājīgu atbildi vai papildinājumu.",
+        "ebenfalls bieži nozīmē arī vai tāpat, bet skan formālāk vai pieklājīgāk.",
+        "Formālās frāzēs bieži lieto ebenfalls."
+      ],
+      "examples": [
+        {
+          "de": "Ich wünsche Ihnen ebenfalls einen schönen Tag.",
+          "lv": "Es jums arī novēlu jauku dienu."
+        },
+        {
+          "de": "Ich wünsche Ihnen ebenfalls einen schönen Tag.",
+          "lv": "es jums arī novēlu jauku dienu."
+        },
+        {
+          "de": "Vielen Dank, ebenfalls!",
+          "lv": "liels paldies, jums tāpat!"
+        },
+        {
+          "de": "Ihnen ebenfalls einen schönen Tag.",
+          "lv": "jums arī jauku dienu."
+        }
+      ],
+      "tip": [
+        "Ikdienā visbiežāk lieto auch. Pieklājīgās atbildēs labi der ebenfalls. Salīdzināšanai ar “tikpat kā” lieto ebenso ... wie.",
+        "ebenfalls = arī / tāpat"
+      ],
+      "important": [
+        "ebenfalls bieži skan formālāk nekā auch.",
+        "Nepareizi: Ich auch wünsche Ihnen einen schönen Tag. → Pareizi: Ich wünsche Ihnen ebenfalls einen schönen Tag.",
+        "ebenfalls = arī / tāpat, biežāk formāli.",
+        "Formālāks vai pieklājīgāks “arī / tāpat”."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "Arī"
+          ],
+          "purple": [
+            "arī / tāpat"
+          ],
+          "yellow": [
+            "Tāpat"
+          ],
+          "orange": [
+            "tāpat"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "ebenfalls",
+                "ebenfalls"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "arī",
+                "tāpat"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "ebenfalls",
+                "ebenfalls"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "arī",
+                "tāpat"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "ebenfalls",
+                "ebenfalls"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "arī",
+                "tāpat"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "ebenfalls",
+                "ebenfalls"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "arī",
+                "tāpat"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "arī"
+            ]
+          },
+          {
+            "purple": [
+              "tāpat"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "ebenfalls"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "icon": "🟰",
+      "lv": "tāpat / tieši tāpat",
+      "de": "ebenso",
+      "accent": "yellow",
+      "explanation": [
+        "Galvenā doma: Uzsver līdzību: tāpat, tieši tāpat, tikpat.",
+        "ebenso galvenokārt nozīmē: tādā pašā veidā.",
+        "Bieži raksturo: līdzīgu uzskatu vai darbību.",
+        "ebenso nozīmē tāpat, tieši tāpat vai tikpat, un bieži salīdzina divas lietas.",
+        "Šo vārdu salīdzini ar pārējiem šajā kartītē, lai izvēlētos pareizo variantu."
+      ],
+      "examples": [
+        {
+          "de": "Das sehe ich ebenso.",
+          "lv": "Es to redzu tāpat."
+        },
+        {
+          "de": "Das sehe ich ebenso.",
+          "lv": "es to redzu tāpat."
+        },
+        {
+          "de": "Er ist ebenso groß wie sein Bruder.",
+          "lv": "viņš ir tikpat garš kā viņa brālis."
+        },
+        {
+          "de": "Er ist ebenso groß wie sein Bruder.",
+          "lv": "Viņš ir tikpat garš kā viņa brālis."
+        }
+      ],
+      "tip": [
+        "Ikdienā visbiežāk lieto auch. Pieklājīgās atbildēs labi der ebenfalls. Salīdzināšanai ar “tikpat kā” lieto ebenso ... wie.",
+        "ebenso = tieši tāpat / tikpat"
+      ],
+      "important": [
+        "ebenso bieži nozīmē tieši tāpat vai tikpat.",
+        "ebenso = tāpat / tieši tāpat / tikpat.",
+        "Uzsver līdzību: tāpat, tieši tāpat, tikpat."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "yellow": [
+            "ebenso"
+          ],
+          "purple": [
+            "tāpat / tieši tāpat"
+          ],
+          "green": [
+            "tāpat",
+            "tieši"
+          ],
+          "red": [
+            "Tieši tāpat"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "yellow": [
+                "ebenso",
+                "ebenso"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tāpat",
+                "tieši tāpat"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "ebenso",
+                "ebenso"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tāpat",
+                "tieši tāpat"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "ebenso",
+                "ebenso"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tāpat",
+                "tieši tāpat"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "ebenso",
+                "ebenso"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tāpat",
+                "tieši tāpat"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "tāpat"
+            ]
+          },
+          {
+            "purple": [
+              "tieši tāpat"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "yellow": [
+              "ebenso"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+};
+
+for (const card of COMPARISON_STUDY_CARDS) {
+  const study = card.study;
+  if (!study || study.layout !== "comparisonStudy") continue;
+  const patch = COMPARISON_RICH_WORD_PATCHES[study.id || card.id];
+  if (patch) study.words = patch;
+}
+// END_COMPARISON_RICH_WORD_PATCHES
+
+
+
 
 // BEGIN_COMPARISON_STUDY_HIGHLIGHT_OVERRIDES
 const COMPARISON_STUDY_HIGHLIGHT_OVERRIDES = {
