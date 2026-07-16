@@ -29,6 +29,10 @@ audits_and_reports/*.txt
 .env.*
 *.keystore
 *.jks
+android/keystore.properties
+
+# Gala produkta .aab (lokāli ģenerēts)
+gala-produkts/*.aab
 
 # Build artefakti (papildus android/ios .gitignore)
 android/app/build/

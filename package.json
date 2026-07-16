@@ -13,6 +13,7 @@
     "cap:copy": "npm run sync:www && npx cap copy",
     "cap:android": "npx cap open android",
     "cap:ios": "npx cap open ios",
+    "build:release": "powershell -ExecutionPolicy Bypass -File ./scripts/build-release-aab.ps1",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
