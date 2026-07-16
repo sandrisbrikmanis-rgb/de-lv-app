@@ -44,7 +44,7 @@ function buildComparisonCards() {
             },
           ],
           examples: [
-            { de: "Ich hole dich um sechs ab.", lv: "es tevi paņemšu sešos." },
+            { de: "Ich hole meine Freundin vom Flughafen ab.", lv: "es aizbraukšu pakaļ savai draudzenei uz lidostu." },
             { de: "Kannst du mich vom Bahnhof abholen?", lv: "vai vari mani paņemt stacijā?" },
             { de: "Ich hole Wasser aus der Küche.", lv: "es atnesu ūdeni no virtuves." },
             { de: "Bringen Sie mir bitte noch einen Kaffee!", lv: "lūdzu, atnesiet man vēl vienu kafiju!" },
@@ -137,6 +137,12 @@ function buildComparisonCards() {
               { lv: { purple: ["paņemt"] }, de: { blue: ["abholen"] } },
               { lv: { purple: ["atnest"] }, de: { green: ["holen"] } },
               { lv: { purple: ["nogādāt"] }, de: { orange: ["bringen"] } },
+            ],
+            examples: [
+              {
+                de: { blue: ["hole", "ab", "Flughafen"] },
+                lv: { purple: ["aizbraukšu", "pakaļ", "draudzenei", "lidostu"] },
+              },
             ],
           },
         },
