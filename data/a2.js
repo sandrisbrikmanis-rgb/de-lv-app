@@ -1055,9 +1055,9 @@ const A2_WORDS = [
       ],
       "comparisonTable": [
         {
-          "lv": "paņemt / izņemt",
+          "lv": "paņemt (cilvēku) • izņemt (paciņu)",
           "de": "abholen",
-          "meaning": "doties pakaļ un paņemt",
+          "meaning": "doties pakaļ un paņemt / izņemt no vietas",
           "describes": "cilvēku, paciņu, pasūtījumu",
           "example": "Ich hole dich ab.",
           "translation": "es tevi paņemšu."
@@ -1092,15 +1092,7 @@ const A2_WORDS = [
           "meaning": "paņemt sev līdzi",
           "describes": "kustību ar cilvēku/līdzi",
           "example": "Ich nehme dich mit.",
-          "translation": "es tevi paņemu līdzi."
-        },
-        {
-          "lv": "izņemt",
-          "de": "abholen (Paket)",
-          "meaning": "izņemt no vietas",
-          "describes": "paciņu, dokumentu",
-          "example": "Ein Paket abholen.",
-          "translation": "izņemt paciņu."
+          "translation": "es ņemu tevi līdzi."
         }
       ],
       "importantComparison": [
@@ -1213,6 +1205,125 @@ const A2_WORDS = [
                 "pakaļ",
                 "draudzenei",
                 "lidostu"
+              ]
+            }
+          }
+        ],
+        "comparisonTable": [
+          {
+            "lv": {
+              "purple": [
+                "paņemt",
+                "izņemt"
+              ]
+            },
+            "de": {
+              "blue": [
+                "abholen"
+              ]
+            },
+            "example": {
+              "blue": [
+                "hole",
+                "ab"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "paņemšu"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "atnest"
+              ]
+            },
+            "de": {
+              "green": [
+                "holen"
+              ]
+            },
+            "example": {
+              "green": [
+                "hole",
+                "Wasser"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "atnesu"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "nogādāt"
+              ]
+            },
+            "de": {
+              "orange": [
+                "bringen"
+              ]
+            },
+            "example": {
+              "orange": [
+                "bringe"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "atnesu"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "saņemt"
+              ]
+            },
+            "de": {
+              "red": [
+                "bekommen"
+              ]
+            },
+            "example": {
+              "red": [
+                "bekomme"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "saņemu"
+              ]
+            }
+          },
+          {
+            "lv": {
+              "purple": [
+                "ņemu",
+                "līdzi"
+              ]
+            },
+            "de": {
+              "blue": [
+                "nehme",
+                "mit"
+              ]
+            },
+            "example": {
+              "blue": [
+                "nehme",
+                "mit"
+              ]
+            },
+            "translation": {
+              "purple": [
+                "ņemu",
+                "līdzi"
               ]
             }
           }
