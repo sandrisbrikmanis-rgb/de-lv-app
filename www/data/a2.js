@@ -1029,8 +1029,8 @@ const A2_WORDS = [
       ],
       "examples": [
         {
-          "de": "Ich hole dich um sechs ab.",
-          "lv": "es tevi paņemšu sešos."
+          "de": "Ich hole meine Freundin vom Flughafen ab.",
+          "lv": "es aizbraukšu pakaļ savai draudzenei uz lidostu."
         },
         {
           "de": "Kannst du mich vom Bahnhof abholen?",
@@ -1194,6 +1194,25 @@ const A2_WORDS = [
             "de": {
               "orange": [
                 "bringen"
+              ]
+            }
+          }
+        ],
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "hole",
+                "ab",
+                "Flughafen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "aizbraukšu",
+                "pakaļ",
+                "draudzenei",
+                "lidostu"
               ]
             }
           }
