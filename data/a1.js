@@ -2455,337 +2455,28 @@ const A1_WORDS = [
     "level": "A1"
   },
   {
-    "de": "bitte • die Bitte",
-    "lv": "Lūdzu • Lūgums",
+    "de": "bitte",
+    "lv": "lūdzu",
     "level": "A1",
     "study": {
-      "id": "compare-bitte-die-bitte",
-      "layout": "comparisonStudy",
-      "title": "Lūdzu • Lūgums",
-      "subtitle": "bitte • die Bitte",
-      "lead": "bitte ar mazo burtu ir pieklājības vārds; die Bitte ar lielo burtu un artikulu ir lietvārds. Tie nav sinonīmi.",
-      "explanation": "bitte ar mazo sākumburtu ir pieklājības vārds — tas nozīmē lūdzu (Bitte schön!, Eine Tasse Kaffee, bitte). die Bitte ar lielo burtu un artikulu die ir lietvārds — tas nozīmē lūgumu vai pieprasījumu (Ich habe eine Bitte = man ir lūgums). Daudzskaitlī: die Bitten.",
-      "words": [
-        {
-          "icon": "🙏",
-          "lv": "lūdzu",
-          "de": "bitte",
-          "accent": "blue",
-          "explanation": [
-            "Galvenā doma: Pieklājības vārds ar mazo burtu. Lieto, lai būtu pieklājīgi — lūdzu, prosim.",
-            "bitte galvenokārt nozīmē: pieklājība.",
-            "Bieži raksturo: pieklājības vārds.",
-            "bitte galvenokārt nozīmē: lūgums/pieprasījums.",
-            "Bieži raksturo: lietvārds (die).",
-            "bitte ar mazo sākumburtu ir pieklājības vārds — tas nozīmē lūdzu (Bitte schön!, Eine Tasse Kaffee, bitte).",
-            "die Bitte ar lielo burtu un artikulu die ir lietvārds — tas nozīmē lūgumu vai pieprasījumu (Ich habe eine Bitte = man ir lūgums).",
-            "Daudzskaitlī: die Bitten."
-          ],
-          "examples": [
-            {
-              "de": "Bitte schön!",
-              "lv": "Lūdzu!"
-            },
-            {
-              "de": "Bitte schön!",
-              "lv": "lūdzu!"
-            },
-            {
-              "de": "Eine Tasse Kaffee, bitte.",
-              "lv": "vienu tasi kafijas, lūdzu."
-            },
-            {
-              "de": "Kann ich bitte fragen?",
-              "lv": "vai es drīkstu lūdzu jautāt?"
-            },
-            {
-              "de": "Ich habe eine Bitte.",
-              "lv": "man ir viens lūgums."
-            },
-            {
-              "de": "Die Bitte ist wichtig.",
-              "lv": "lūgums ir svarīgs."
-            }
-          ],
-          "tip": [
-            "Mazais bitte = lūdzu (Bitte schön!, Kaffee, bitte). die Bitte ar lielo burtu = lūgums (eine Bitte, meine Bitte).",
-            "Pieklājības vārds ar mazo burtu. Lieto, lai būtu pieklājīgi — lūdzu, prosim."
-          ],
-          "important": [
-            "bitte stāv ar mazo burtu — tas ir pieklājības vārds, ne lietvārds.",
-            "die Bitte ar lielo burtu un artikulu die ir lietvārds.",
-            "Daudzskaitlis: die Bitten (lūgumi).",
-            "Nepareizi: Die Bitte schön! → Pareizi: Bitte schön!"
-          ],
-          "sectionAccents": {
-            "explanation": {
-              "blue": [
-                "bitte"
-              ],
-              "purple": [
-                "lūdzu"
-              ]
-            },
-            "examples": [
-              {
-                "de": {
-                  "blue": [
-                    "bitte",
-                    "bitte"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "lūdzu"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "bitte",
-                    "bitte"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "lūdzu"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "bitte",
-                    "bitte"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "lūdzu"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "bitte",
-                    "bitte"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "lūdzu"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "bitte",
-                    "bitte"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "lūdzu"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "bitte",
-                    "bitte"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "lūdzu"
-                  ]
-                }
-              }
-            ],
-            "tip": [
-              {
-                "purple": [
-                  "lūdzu"
-                ]
-              }
-            ],
-            "important": [
-              {
-                "blue": [
-                  "bitte"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "icon": "📩",
-          "lv": "lūgums",
-          "de": "die Bitte",
-          "accent": "green",
-          "explanation": [
-            "Galvenā doma: Lietvārds ar artikulu die un lielo burtu. Konkrēts lūgums vai pieprasījums.",
-            "die Bitte galvenokārt nozīmē: pieklājība.",
-            "Bieži raksturo: pieklājības vārds.",
-            "die Bitte galvenokārt nozīmē: lūgums/pieprasījums.",
-            "Bieži raksturo: lietvārds (die).",
-            "bitte ar mazo sākumburtu ir pieklājības vārds — tas nozīmē lūdzu (Bitte schön!, Eine Tasse Kaffee, bitte).",
-            "die Bitte ar lielo burtu un artikulu die ir lietvārds — tas nozīmē lūgumu vai pieprasījumu (Ich habe eine Bitte = man ir lūgums).",
-            "Daudzskaitlī: die Bitten."
-          ],
-          "examples": [
-            {
-              "de": "Ich habe eine Bitte.",
-              "lv": "Man ir viens lūgums."
-            },
-            {
-              "de": "Bitte schön!",
-              "lv": "lūdzu!"
-            },
-            {
-              "de": "Eine Tasse Kaffee, bitte.",
-              "lv": "vienu tasi kafijas, lūdzu."
-            },
-            {
-              "de": "Kann ich bitte fragen?",
-              "lv": "vai es drīkstu lūdzu jautāt?"
-            },
-            {
-              "de": "Ich habe eine Bitte.",
-              "lv": "man ir viens lūgums."
-            },
-            {
-              "de": "Die Bitte ist wichtig.",
-              "lv": "lūgums ir svarīgs."
-            }
-          ],
-          "tip": [
-            "Mazais bitte = lūdzu (Bitte schön!, Kaffee, bitte). die Bitte ar lielo burtu = lūgums (eine Bitte, meine Bitte).",
-            "Lietvārds ar artikulu die un lielo burtu. Konkrēts lūgums vai pieprasījums."
-          ],
-          "important": [
-            "bitte stāv ar mazo burtu — tas ir pieklājības vārds, ne lietvārds.",
-            "die Bitte ar lielo burtu un artikulu die ir lietvārds.",
-            "Daudzskaitlis: die Bitten (lūgumi).",
-            "Nepareizi: Die Bitte schön! → Pareizi: Bitte schön!"
-          ],
-          "sectionAccents": {
-            "explanation": {
-              "green": [
-                "die Bitte",
-                "bitte"
-              ],
-              "purple": [
-                "lūgums",
-                "lūgumi"
-              ],
-              "yellow": [
-                "Bitte",
-                "Bitten"
-              ]
-            },
-            "examples": [
-              {
-                "de": {
-                  "green": [
-                    "die Bitte",
-                    "bitte"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "lūgums"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "die Bitte",
-                    "bitte"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "lūgums"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "die Bitte",
-                    "bitte"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "lūgums"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "die Bitte",
-                    "bitte"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "lūgums"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "die Bitte",
-                    "bitte"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "lūgums"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "die Bitte",
-                    "bitte"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "lūgums"
-                  ]
-                }
-              }
-            ],
-            "tip": [
-              {
-                "purple": [
-                  "lūgums"
-                ]
-              }
-            ],
-            "important": [
-              {
-                "green": [
-                  "die Bitte"
-                ]
-              }
-            ]
-          }
-        }
+      "id": "a1-bitte",
+      "layout": "standardStudy",
+      "translation": "lūdzu",
+      "explanation": [
+        "Galvenā doma: Pieklājības vārds ar mazo burtu. Lieto, lai būtu pieklājīgi — lūdzu, prosim.",
+        "bitte galvenokārt nozīmē: pieklājība.",
+        "Bieži raksturo: pieklājības vārds.",
+        "bitte galvenokārt nozīmē: lūgums/pieprasījums.",
+        "Bieži raksturo: lietvārds (die).",
+        "bitte ar mazo sākumburtu ir pieklājības vārds — tas nozīmē lūdzu (Bitte schön!, Eine Tasse Kaffee, bitte).",
+        "die Bitte ar lielo burtu un artikulu die ir lietvārds — tas nozīmē lūgumu vai pieprasījumu (Ich habe eine Bitte = man ir lūgums).",
+        "Daudzskaitlī: die Bitten."
       ],
       "examples": [
+        {
+          "de": "Bitte schön!",
+          "lv": "Lūdzu!"
+        },
         {
           "de": "Bitte schön!",
           "lv": "lūdzu!"
@@ -2805,149 +2496,32 @@ const A1_WORDS = [
         {
           "de": "Die Bitte ist wichtig.",
           "lv": "lūgums ir svarīgs."
-        },
-        {
-          "de": "Meine Bitte an dich: Komm früher!",
-          "lv": "mans lūgums tev: nāc agrāk!"
         }
       ],
-      "comparisonTable": [
-        {
-          "lv": "lūdzu",
-          "de": "bitte",
-          "meaning": "pieklājība",
-          "describes": "pieklājības vārds",
-          "example": "Bitte schön!",
-          "translation": "lūdzu!"
-        },
-        {
-          "lv": "lūgums",
-          "de": "die Bitte",
-          "meaning": "lūgums/pieprasījums",
-          "describes": "lietvārds (die)",
-          "example": "Ich habe eine Bitte.",
-          "translation": "man ir lūgums."
-        },
-        {
-          "lv": "lūdzu",
-          "de": "..., bitte",
-          "meaning": "pieklājīgi",
-          "describes": "teikuma beigās",
-          "example": "Eine Tasse Kaffee, bitte.",
-          "translation": "vienu tasi, lūdzu."
-        },
-        {
-          "lv": "lūgumi",
-          "de": "die Bitten",
-          "meaning": "vairāki lūgumi",
-          "describes": "lietvārds (pl.)",
-          "example": "Die Bitten sind berechtigt.",
-          "translation": "lūgumi ir pamatoti."
-        }
+      "tip": [
+        "Mazais bitte = lūdzu (Bitte schön!, Kaffee, bitte). die Bitte ar lielo burtu = lūgums (eine Bitte, meine Bitte).",
+        "Pieklājības vārds ar mazo burtu. Lieto, lai būtu pieklājīgi — lūdzu, prosim."
       ],
-      "importantComparison": [
-        "Bitte schön! = Lūdzu!",
-        "Ich habe eine Bitte. = Man ir lūgums.",
-        "bitte = pieklājības vārds (lūdzu); die Bitte = lietvārds (lūgums)."
-      ],
-      "tip": {
-        "left": "Mazais bitte = lūdzu (Bitte schön!, Kaffee, bitte). die Bitte ar lielo burtu = lūgums (eine Bitte, meine Bitte).",
-        "rightTitle": "ātri",
-        "rightItems": [
-          {
-            "de": "Bitte schön!",
-            "lv": "lūdzu!",
-            "separator": "="
-          },
-          {
-            "de": "eine Bitte",
-            "lv": "lūgums",
-            "separator": "="
-          }
-        ]
-      },
       "important": [
         "bitte stāv ar mazo burtu — tas ir pieklājības vārds, ne lietvārds.",
         "die Bitte ar lielo burtu un artikulu die ir lietvārds.",
-        "Daudzskaitlis: die Bitten (lūgumi)."
-      ],
-      "mistakes": [
-        {
-          "wrong": "Die Bitte schön!",
-          "right": "Bitte schön!"
-        },
-        {
-          "wrong": "Ich habe bitte.",
-          "right": "Ich habe eine Bitte."
-        }
-      ],
-      "remember": [
-        "Lūdzu (pieklājība): bitte — Bitte schön!",
-        "Lūgums (lieta): die Bitte — Ich habe eine Bitte."
+        "Daudzskaitlis: die Bitten (lūgumi).",
+        "Nepareizi: Die Bitte schön! → Pareizi: Bitte schön!"
       ],
       "sectionAccents": {
-        "lead": {
+        "explanation": {
           "blue": [
             "bitte"
           ],
-          "yellow": [
-            "Bitte"
-          ],
           "purple": [
-            "pieklājības vārds",
-            "lietvārds"
+            "lūdzu"
           ]
         },
-        "comparisonCards": [
-          {
-            "lv": {
-              "purple": [
-                "lūdzu"
-              ]
-            },
-            "de": {
-              "blue": [
-                "bitte"
-              ]
-            },
-            "example": {
-              "blue": [
-                "bitte"
-              ],
-              "purple": [
-                "lūdzu"
-              ]
-            }
-          },
-          {
-            "lv": {
-              "purple": [
-                "lūgums",
-                "lūgumi"
-              ]
-            },
-            "de": {
-              "yellow": [
-                "Bitte",
-                "Bitten"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "Bitte",
-                "Bitten"
-              ],
-              "purple": [
-                "lūgums",
-                "lūgumi"
-              ]
-            }
-          }
-        ],
         "examples": [
           {
             "de": {
               "blue": [
+                "bitte",
                 "bitte"
               ]
             },
@@ -2960,6 +2534,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
+                "bitte",
                 "bitte"
               ]
             },
@@ -2972,252 +2547,239 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
+                "bitte",
                 "bitte"
               ]
             },
             "lv": {
               "purple": [
-                "jautāt"
+                "lūdzu"
               ]
             }
           },
           {
             "de": {
-              "yellow": [
-                "Bitte"
+              "blue": [
+                "bitte",
+                "bitte"
               ]
             },
             "lv": {
               "purple": [
-                "lūgums"
+                "lūdzu"
               ]
             }
           },
           {
             "de": {
-              "yellow": [
-                "Bitte"
+              "blue": [
+                "bitte",
+                "bitte"
               ]
             },
             "lv": {
               "purple": [
-                "lūgums"
+                "lūdzu"
               ]
             }
           },
           {
             "de": {
-              "yellow": [
-                "Bitte"
+              "blue": [
+                "bitte",
+                "bitte"
               ]
             },
             "lv": {
               "purple": [
-                "lūgums"
+                "lūdzu"
               ]
             }
           }
         ],
-        "comparisonTable": [
+        "tip": [
           {
-            "lv": {
-              "purple": [
-                "lūdzu"
-              ]
-            },
-            "de": {
-              "blue": [
-                "bitte"
-              ]
-            },
-            "example": {
-              "blue": [
-                "bitte"
-              ]
-            },
-            "translation": {
-              "purple": [
-                "lūdzu"
-              ]
-            }
-          },
-          {
-            "lv": {
-              "purple": [
-                "lūgums"
-              ]
-            },
-            "de": {
-              "yellow": [
-                "Bitte"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "Bitte"
-              ]
-            },
-            "translation": {
-              "purple": [
-                "lūgums"
-              ]
-            }
-          },
-          {
-            "lv": {
-              "purple": [
-                "lūdzu"
-              ]
-            },
-            "de": {
-              "blue": [
-                "bitte"
-              ]
-            },
-            "example": {
-              "blue": [
-                "bitte"
-              ]
-            },
-            "translation": {
-              "purple": [
-                "lūdzu"
-              ]
-            }
-          },
-          {
-            "lv": {
-              "purple": [
-                "lūgumi"
-              ]
-            },
-            "de": {
-              "yellow": [
-                "Bitten"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "Bitten"
-              ]
-            },
-            "translation": {
-              "purple": [
-                "lūgumi"
-              ]
-            }
-          }
-        ],
-        "importantComparison": [
-          {
-            "blue": [
-              "bitte"
-            ],
             "purple": [
               "lūdzu"
             ]
-          },
-          {
-            "yellow": [
-              "Bitte"
-            ],
-            "purple": [
-              "lūgums"
-            ]
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "bitte"
-            ],
-            "yellow": [
-              "Bitte"
-            ]
-          },
-          "rightItems": [
-            {
-              "de": {
-                "blue": [
-                  "bitte"
-                ]
-              },
-              "lv": {
-                "purple": [
-                  "lūdzu"
-                ]
-              }
-            },
-            {
-              "de": {
-                "yellow": [
-                  "Bitte"
-                ]
-              },
-              "lv": {
-                "purple": [
-                  "lūgums"
-                ]
-              }
-            }
-          ]
-        },
         "important": [
           {
             "blue": [
               "bitte"
-            ],
-            "yellow": [
-              "Bitte"
-            ]
-          },
-          {
-            "red": [
-              "Die Bitte schön",
-              "habe bitte"
-            ]
-          }
-        ],
-        "mistakes": [
-          {
-            "wrong": {
-              "red": [
-                "Die Bitte schön"
-              ]
-            },
-            "right": {
-              "blue": [
-                "bitte"
-              ]
-            }
-          },
-          {
-            "wrong": {
-              "red": [
-                "habe bitte"
-              ]
-            },
-            "right": {
-              "yellow": [
-                "Bitte"
-              ]
-            }
-          }
-        ],
-        "remember": [
-          {
-            "blue": [
-              "bitte"
-            ]
-          },
-          {
-            "yellow": [
-              "Bitte"
             ]
           }
         ]
       }
     }
+  },
+  {
+    "de": "Bitte",
+    "lv": "lūgums",
+    "level": "A1",
+    "study": {
+      "id": "a1-bitte-study",
+      "layout": "standardStudy",
+      "translation": "lūgums",
+      "explanation": [
+        "Galvenā doma: Lietvārds ar artikulu die un lielo burtu. Konkrēts lūgums vai pieprasījums.",
+        "die Bitte galvenokārt nozīmē: pieklājība.",
+        "Bieži raksturo: pieklājības vārds.",
+        "die Bitte galvenokārt nozīmē: lūgums/pieprasījums.",
+        "Bieži raksturo: lietvārds (die).",
+        "bitte ar mazo sākumburtu ir pieklājības vārds — tas nozīmē lūdzu (Bitte schön!, Eine Tasse Kaffee, bitte).",
+        "die Bitte ar lielo burtu un artikulu die ir lietvārds — tas nozīmē lūgumu vai pieprasījumu (Ich habe eine Bitte = man ir lūgums).",
+        "Daudzskaitlī: die Bitten."
+      ],
+      "examples": [
+        {
+          "de": "Ich habe eine Bitte.",
+          "lv": "Man ir viens lūgums."
+        },
+        {
+          "de": "Bitte schön!",
+          "lv": "lūdzu!"
+        },
+        {
+          "de": "Eine Tasse Kaffee, bitte.",
+          "lv": "vienu tasi kafijas, lūdzu."
+        },
+        {
+          "de": "Kann ich bitte fragen?",
+          "lv": "vai es drīkstu lūdzu jautāt?"
+        },
+        {
+          "de": "Ich habe eine Bitte.",
+          "lv": "man ir viens lūgums."
+        },
+        {
+          "de": "Die Bitte ist wichtig.",
+          "lv": "lūgums ir svarīgs."
+        }
+      ],
+      "tip": [
+        "Mazais bitte = lūdzu (Bitte schön!, Kaffee, bitte). die Bitte ar lielo burtu = lūgums (eine Bitte, meine Bitte).",
+        "Lietvārds ar artikulu die un lielo burtu. Konkrēts lūgums vai pieprasījums."
+      ],
+      "important": [
+        "bitte stāv ar mazo burtu — tas ir pieklājības vārds, ne lietvārds.",
+        "die Bitte ar lielo burtu un artikulu die ir lietvārds.",
+        "Daudzskaitlis: die Bitten (lūgumi).",
+        "Nepareizi: Die Bitte schön! → Pareizi: Bitte schön!"
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "die Bitte",
+            "bitte"
+          ],
+          "purple": [
+            "lūgums",
+            "lūgumi"
+          ],
+          "yellow": [
+            "Bitte",
+            "Bitten"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "die Bitte",
+                "bitte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lūgums"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "die Bitte",
+                "bitte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lūgums"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "die Bitte",
+                "bitte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lūgums"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "die Bitte",
+                "bitte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lūgums"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "die Bitte",
+                "bitte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lūgums"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "die Bitte",
+                "bitte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lūgums"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "lūgums"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "die Bitte"
+            ]
+          }
+        ]
+      }
+    },
+    "de_article": "die"
   },
   {
     "de": "billig",
@@ -11191,338 +10753,28 @@ const A1_WORDS = [
     }
   },
   {
-    "de": "laut • der Laut",
-    "lv": "Skaļš • Skaņa",
+    "de": "laut",
+    "lv": "skaļš",
     "level": "A1",
     "study": {
-      "id": "compare-laut-der-laut",
-      "layout": "comparisonStudy",
-      "title": "Skaļš • Skaņa",
-      "subtitle": "laut • der Laut",
-      "lead": "laut ar mazo burtu ir īpašības vārds; der Laut ar lielo burtu un artikulu ir lietvārds. Tie nav sinonīmi.",
-      "explanation": "laut ar mazo sākumburtu ir īpašības vārds — tas apraksta, cik skaļa ir skaņa (Die Musik ist laut = mūzika ir skaļa). der Laut ar lielo burtu un artikulu der ir lietvārds — tas nozīmē skaņu kā lietu vai signālu (Der Laut ist schön = skaņa ir skaista). Daudzskaitlī: die Laute.",
-      "words": [
-        {
-          "icon": "🔊",
-          "lv": "skaļš",
-          "de": "laut",
-          "accent": "blue",
-          "explanation": [
-            "Galvenā doma: Īpašības vārds ar mazo burtu. Apraksta intensitāti — cik skaļa ir skaņa vai runa.",
-            "laut galvenokārt nozīmē: skaļa skaņa.",
-            "Bieži raksturo: īpašības vārds.",
-            "laut galvenokārt nozīmē: skaņas signāls.",
-            "Bieži raksturo: lietvārds (der).",
-            "laut ar mazo sākumburtu ir īpašības vārds — tas apraksta, cik skaļa ir skaņa (Die Musik ist laut = mūzika ir skaļa).",
-            "der Laut ar lielo burtu un artikulu der ir lietvārds — tas nozīmē skaņu kā lietu vai signālu (Der Laut ist schön = skaņa ir skaista).",
-            "Daudzskaitlī: die Laute."
-          ],
-          "examples": [
-            {
-              "de": "Die Musik ist laut.",
-              "lv": "Mūzika ir skaļa."
-            },
-            {
-              "de": "Die Musik ist laut.",
-              "lv": "mūzika ir skaļa."
-            },
-            {
-              "de": "Sprich nicht so laut!",
-              "lv": "nerunā tik skaļi!"
-            },
-            {
-              "de": "Das ist sehr laut.",
-              "lv": "tas ir ļoti skaļi."
-            },
-            {
-              "de": "Der Laut ist schön.",
-              "lv": "skaņa ir skaista."
-            },
-            {
-              "de": "Ich höre einen Laut.",
-              "lv": "es dzirdu kādu skaņu."
-            }
-          ],
-          "tip": [
-            "Mazais laut = skaļš (īpašības vārds: ist laut). der Laut ar lielo burtu = skaņa (lietvārds: ein Laut, der Laut).",
-            "laut = skaņa"
-          ],
-          "important": [
-            "laut stāv ar mazo burtu un bez artikula — tas ir īpašības vārds.",
-            "der Laut ar lielo burtu un artikulu der ir lietvārds.",
-            "Daudzskaitlis: die Laute (valodas skaņas, skaņas signāli).",
-            "Nepareizi: Der Laut ist sehr. → Pareizi: Das ist sehr laut."
-          ],
-          "sectionAccents": {
-            "explanation": {
-              "blue": [
-                "laut"
-              ],
-              "purple": [
-                "skaļš",
-                "skaļi"
-              ]
-            },
-            "examples": [
-              {
-                "de": {
-                  "blue": [
-                    "laut",
-                    "laut"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "skaļš"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "laut",
-                    "laut"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "skaļš"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "laut",
-                    "laut"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "skaļš"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "laut",
-                    "laut"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "skaļš"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "laut",
-                    "laut"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "skaļš"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "laut",
-                    "laut"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "skaļš"
-                  ]
-                }
-              }
-            ],
-            "tip": [
-              {
-                "purple": [
-                  "skaļš"
-                ]
-              }
-            ],
-            "important": [
-              {
-                "blue": [
-                  "laut"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "icon": "🎵",
-          "lv": "skaņa",
-          "de": "der Laut",
-          "accent": "green",
-          "explanation": [
-            "Galvenā doma: Lietvārds ar artikulu der un lielo burtu. Nozīmē skaņu kā lietu, signālu vai valodas skaņu.",
-            "der Laut galvenokārt nozīmē: skaļa skaņa.",
-            "Bieži raksturo: īpašības vārds.",
-            "der Laut galvenokārt nozīmē: skaņas signāls.",
-            "Bieži raksturo: lietvārds (der).",
-            "laut ar mazo sākumburtu ir īpašības vārds — tas apraksta, cik skaļa ir skaņa (Die Musik ist laut = mūzika ir skaļa).",
-            "der Laut ar lielo burtu un artikulu der ir lietvārds — tas nozīmē skaņu kā lietu vai signālu (Der Laut ist schön = skaņa ir skaista).",
-            "Daudzskaitlī: die Laute."
-          ],
-          "examples": [
-            {
-              "de": "Der Laut ist schön.",
-              "lv": "Skaņa ir skaista."
-            },
-            {
-              "de": "Die Musik ist laut.",
-              "lv": "mūzika ir skaļa."
-            },
-            {
-              "de": "Sprich nicht so laut!",
-              "lv": "nerunā tik skaļi!"
-            },
-            {
-              "de": "Das ist sehr laut.",
-              "lv": "tas ir ļoti skaļi."
-            },
-            {
-              "de": "Der Laut ist schön.",
-              "lv": "skaņa ir skaista."
-            },
-            {
-              "de": "Ich höre einen Laut.",
-              "lv": "es dzirdu kādu skaņu."
-            }
-          ],
-          "tip": [
-            "Mazais laut = skaļš (īpašības vārds: ist laut). der Laut ar lielo burtu = skaņa (lietvārds: ein Laut, der Laut).",
-            "der Laut = skaņa"
-          ],
-          "important": [
-            "laut stāv ar mazo burtu un bez artikula — tas ir īpašības vārds.",
-            "der Laut ar lielo burtu un artikulu der ir lietvārds.",
-            "Daudzskaitlis: die Laute (valodas skaņas, skaņas signāli).",
-            "Nepareizi: Der Laut ist sehr. → Pareizi: Das ist sehr laut."
-          ],
-          "sectionAccents": {
-            "explanation": {
-              "green": [
-                "der Laut",
-                "laut"
-              ],
-              "purple": [
-                "skaņa",
-                "skaņas"
-              ],
-              "yellow": [
-                "Laut",
-                "Laute"
-              ]
-            },
-            "examples": [
-              {
-                "de": {
-                  "green": [
-                    "der Laut",
-                    "laut"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "skaņa"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "der Laut",
-                    "laut"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "skaņa"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "der Laut",
-                    "laut"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "skaņa"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "der Laut",
-                    "laut"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "skaņa"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "der Laut",
-                    "laut"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "skaņa"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "der Laut",
-                    "laut"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "skaņa"
-                  ]
-                }
-              }
-            ],
-            "tip": [
-              {
-                "purple": [
-                  "skaņa"
-                ]
-              }
-            ],
-            "important": [
-              {
-                "green": [
-                  "der Laut"
-                ]
-              }
-            ]
-          }
-        }
+      "id": "a1-laut",
+      "layout": "standardStudy",
+      "translation": "skaļš",
+      "explanation": [
+        "Galvenā doma: Īpašības vārds ar mazo burtu. Apraksta intensitāti — cik skaļa ir skaņa vai runa.",
+        "laut galvenokārt nozīmē: skaļa skaņa.",
+        "Bieži raksturo: īpašības vārds.",
+        "laut galvenokārt nozīmē: skaņas signāls.",
+        "Bieži raksturo: lietvārds (der).",
+        "laut ar mazo sākumburtu ir īpašības vārds — tas apraksta, cik skaļa ir skaņa (Die Musik ist laut = mūzika ir skaļa).",
+        "der Laut ar lielo burtu un artikulu der ir lietvārds — tas nozīmē skaņu kā lietu vai signālu (Der Laut ist schön = skaņa ir skaista).",
+        "Daudzskaitlī: die Laute."
       ],
       "examples": [
+        {
+          "de": "Die Musik ist laut.",
+          "lv": "Mūzika ir skaļa."
+        },
         {
           "de": "Die Musik ist laut.",
           "lv": "mūzika ir skaļa."
@@ -11542,399 +10794,291 @@ const A1_WORDS = [
         {
           "de": "Ich höre einen Laut.",
           "lv": "es dzirdu kādu skaņu."
-        },
-        {
-          "de": "Die Laute der Sprache sind wichtig.",
-          "lv": "valodas skaņas ir svarīgas."
         }
       ],
-      "comparisonTable": [
-        {
-          "lv": "skaļš",
-          "de": "laut",
-          "meaning": "skaļa skaņa",
-          "describes": "īpašības vārds",
-          "example": "Die Musik ist laut.",
-          "translation": "mūzika ir skaļa."
-        },
-        {
-          "lv": "skaņa",
-          "de": "der Laut",
-          "meaning": "skaņas signāls",
-          "describes": "lietvārds (der)",
-          "example": "Der Laut ist schön.",
-          "translation": "skaņa ir skaista."
-        },
-        {
-          "lv": "skaļi",
-          "de": "so laut",
-          "meaning": "runāt skaļi",
-          "describes": "īp. v. + apstākļis",
-          "example": "Sprich nicht so laut!",
-          "translation": "nerunā tik skaļi!"
-        },
-        {
-          "lv": "skaņas",
-          "de": "die Laute",
-          "meaning": "valodas skaņas",
-          "describes": "lietvārds (pl.)",
-          "example": "Die Laute der Sprache sind wichtig.",
-          "translation": "valodas skaņas ir svarīgas."
-        }
+      "tip": [
+        "Mazais laut = skaļš (īpašības vārds: ist laut). der Laut ar lielo burtu = skaņa (lietvārds: ein Laut, der Laut).",
+        "laut = skaņa"
       ],
-      "importantComparison": [
-        "Die Musik ist laut. = Mūzika ir skaļa.",
-        "Der Laut ist schön. = Skaņa ir skaista.",
-        "laut = īpašības vārds (skaļš); der Laut = lietvārds (skaņa)."
-      ],
-      "tip": {
-        "left": "Mazais laut = skaļš (īpašības vārds: ist laut). der Laut ar lielo burtu = skaņa (lietvārds: ein Laut, der Laut).",
-        "rightTitle": "ātri",
-        "rightItems": [
-          {
-            "de": "ist laut",
-            "lv": "ir skaļi",
-            "separator": "="
-          },
-          {
-            "de": "der Laut",
-            "lv": "skaņa",
-            "separator": "="
-          }
-        ]
-      },
       "important": [
         "laut stāv ar mazo burtu un bez artikula — tas ir īpašības vārds.",
         "der Laut ar lielo burtu un artikulu der ir lietvārds.",
-        "Daudzskaitlis: die Laute (valodas skaņas, skaņas signāli)."
-      ],
-      "mistakes": [
-        {
-          "wrong": "Der Laut ist sehr.",
-          "right": "Das ist sehr laut."
-        },
-        {
-          "wrong": "Die Musik ist der Laut.",
-          "right": "Die Musik ist laut."
-        }
-      ],
-      "remember": [
-        "Skaļš (īpašība): laut — Die Musik ist laut.",
-        "Skaņa (lieta): der Laut — Ich höre einen Laut."
+        "Daudzskaitlis: die Laute (valodas skaņas, skaņas signāli).",
+        "Nepareizi: Der Laut ist sehr. → Pareizi: Das ist sehr laut."
       ],
       "sectionAccents": {
-        "lead": {
+        "explanation": {
           "blue": [
             "laut"
           ],
-          "yellow": [
-            "Laut"
-          ],
           "purple": [
-            "īpašības vārds",
-            "lietvārds"
+            "skaļš",
+            "skaļi"
           ]
         },
-        "comparisonCards": [
-          {
-            "lv": {
-              "purple": [
-                "skaļš",
-                "skaļi"
-              ]
-            },
-            "de": {
-              "blue": [
-                "laut"
-              ]
-            },
-            "example": {
-              "blue": [
-                "laut"
-              ],
-              "purple": [
-                "skaļa",
-                "skaļi"
-              ]
-            }
-          },
-          {
-            "lv": {
-              "purple": [
-                "skaņa",
-                "skaņas"
-              ]
-            },
-            "de": {
-              "yellow": [
-                "Laut",
-                "Laute"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "Laut",
-                "Laute"
-              ],
-              "purple": [
-                "skaņa",
-                "skaņas"
-              ]
-            }
-          }
-        ],
         "examples": [
           {
             "de": {
               "blue": [
+                "laut",
                 "laut"
               ]
             },
-            "lv": {
-              "purple": [
-                "skaļa"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "laut"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "skaļi"
-              ]
-            }
-          },
-          {
-            "de": {
-              "yellow": [
-                "Laut"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "skaņa"
-              ]
-            }
-          },
-          {
-            "de": {
-              "yellow": [
-                "Laut",
-                "Laute"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "skaņu",
-                "skaņas"
-              ]
-            }
-          }
-        ],
-        "comparisonTable": [
-          {
             "lv": {
               "purple": [
                 "skaļš"
               ]
-            },
+            }
+          },
+          {
             "de": {
               "blue": [
+                "laut",
                 "laut"
               ]
             },
-            "example": {
-              "blue": [
-                "laut"
-              ]
-            },
-            "translation": {
+            "lv": {
               "purple": [
-                "skaļa"
+                "skaļš"
               ]
             }
           },
           {
+            "de": {
+              "blue": [
+                "laut",
+                "laut"
+              ]
+            },
             "lv": {
               "purple": [
-                "skaņa"
-              ]
-            },
-            "de": {
-              "yellow": [
-                "Laut"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "Laut"
-              ]
-            },
-            "translation": {
-              "purple": [
-                "skaņa"
+                "skaļš"
               ]
             }
           },
           {
-            "lv": {
-              "purple": [
-                "skaļi"
-              ]
-            },
             "de": {
               "blue": [
+                "laut",
                 "laut"
               ]
             },
-            "example": {
-              "blue": [
-                "laut"
-              ]
-            },
-            "translation": {
+            "lv": {
               "purple": [
-                "skaļi"
+                "skaļš"
               ]
             }
           },
           {
+            "de": {
+              "blue": [
+                "laut",
+                "laut"
+              ]
+            },
             "lv": {
               "purple": [
-                "skaņas"
+                "skaļš"
               ]
-            },
+            }
+          },
+          {
             "de": {
-              "yellow": [
-                "Laute"
+              "blue": [
+                "laut",
+                "laut"
               ]
             },
-            "example": {
-              "yellow": [
-                "Laute"
-              ]
-            },
-            "translation": {
+            "lv": {
               "purple": [
-                "skaņas"
+                "skaļš"
               ]
             }
           }
         ],
-        "importantComparison": [
+        "tip": [
           {
-            "blue": [
-              "laut"
-            ],
             "purple": [
-              "skaļa"
-            ]
-          },
-          {
-            "yellow": [
-              "Laut"
-            ],
-            "purple": [
-              "skaņa"
+              "skaļš"
             ]
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "laut"
-            ],
-            "yellow": [
-              "Laut"
-            ]
-          },
-          "rightItems": [
-            {
-              "de": {
-                "blue": [
-                  "laut"
-                ]
-              },
-              "lv": {
-                "purple": [
-                  "skaļš"
-                ]
-              }
-            },
-            {
-              "de": {
-                "yellow": [
-                  "Laut"
-                ]
-              },
-              "lv": {
-                "purple": [
-                  "skaņa"
-                ]
-              }
-            }
-          ]
-        },
         "important": [
           {
             "blue": [
               "laut"
-            ],
-            "yellow": [
-              "Laut"
-            ]
-          },
-          {
-            "red": [
-              "Der Laut ist sehr",
-              "ist der Laut"
-            ]
-          }
-        ],
-        "mistakes": [
-          {
-            "wrong": {
-              "red": [
-                "Laut ist sehr"
-              ]
-            },
-            "right": {
-              "blue": [
-                "laut"
-              ]
-            }
-          },
-          {
-            "wrong": {
-              "red": [
-                "ist der Laut"
-              ]
-            },
-            "right": {
-              "blue": [
-                "laut"
-              ]
-            }
-          }
-        ],
-        "remember": [
-          {
-            "blue": [
-              "laut"
-            ]
-          },
-          {
-            "yellow": [
-              "Laut"
             ]
           }
         ]
       }
     }
+  },
+  {
+    "de": "Laut",
+    "lv": "skaņa",
+    "level": "A1",
+    "study": {
+      "id": "a1-laut-study",
+      "layout": "standardStudy",
+      "translation": "skaņa",
+      "explanation": [
+        "Galvenā doma: Lietvārds ar artikulu der un lielo burtu. Nozīmē skaņu kā lietu, signālu vai valodas skaņu.",
+        "der Laut galvenokārt nozīmē: skaļa skaņa.",
+        "Bieži raksturo: īpašības vārds.",
+        "der Laut galvenokārt nozīmē: skaņas signāls.",
+        "Bieži raksturo: lietvārds (der).",
+        "laut ar mazo sākumburtu ir īpašības vārds — tas apraksta, cik skaļa ir skaņa (Die Musik ist laut = mūzika ir skaļa).",
+        "der Laut ar lielo burtu un artikulu der ir lietvārds — tas nozīmē skaņu kā lietu vai signālu (Der Laut ist schön = skaņa ir skaista).",
+        "Daudzskaitlī: die Laute."
+      ],
+      "examples": [
+        {
+          "de": "Der Laut ist schön.",
+          "lv": "Skaņa ir skaista."
+        },
+        {
+          "de": "Die Musik ist laut.",
+          "lv": "mūzika ir skaļa."
+        },
+        {
+          "de": "Sprich nicht so laut!",
+          "lv": "nerunā tik skaļi!"
+        },
+        {
+          "de": "Das ist sehr laut.",
+          "lv": "tas ir ļoti skaļi."
+        },
+        {
+          "de": "Der Laut ist schön.",
+          "lv": "skaņa ir skaista."
+        },
+        {
+          "de": "Ich höre einen Laut.",
+          "lv": "es dzirdu kādu skaņu."
+        }
+      ],
+      "tip": [
+        "Mazais laut = skaļš (īpašības vārds: ist laut). der Laut ar lielo burtu = skaņa (lietvārds: ein Laut, der Laut).",
+        "der Laut = skaņa"
+      ],
+      "important": [
+        "laut stāv ar mazo burtu un bez artikula — tas ir īpašības vārds.",
+        "der Laut ar lielo burtu un artikulu der ir lietvārds.",
+        "Daudzskaitlis: die Laute (valodas skaņas, skaņas signāli).",
+        "Nepareizi: Der Laut ist sehr. → Pareizi: Das ist sehr laut."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "der Laut",
+            "laut"
+          ],
+          "purple": [
+            "skaņa",
+            "skaņas"
+          ],
+          "yellow": [
+            "Laut",
+            "Laute"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "der Laut",
+                "laut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skaņa"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "der Laut",
+                "laut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skaņa"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "der Laut",
+                "laut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skaņa"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "der Laut",
+                "laut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skaņa"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "der Laut",
+                "laut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skaņa"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "der Laut",
+                "laut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skaņa"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "skaņa"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "der Laut"
+            ]
+          }
+        ]
+      }
+    },
+    "de_article": "der"
   },
   {
     "de": "leben",
@@ -13659,337 +12803,28 @@ const A1_WORDS = [
     "level": "A1"
   },
   {
-    "de": "morgen • der Morgen",
-    "lv": "Rīt • Rīts",
+    "de": "morgen",
+    "lv": "rīt",
     "level": "A1",
     "study": {
-      "id": "compare-morgen-der-morgen",
-      "layout": "comparisonStudy",
-      "title": "Rīt • Rīts",
-      "subtitle": "morgen • der Morgen",
-      "lead": "morgen ar mazo burtu ir laika apstāklis; der Morgen ar lielo burtu un artikulu ir lietvārds. Tie nav sinonīmi.",
-      "explanation": "morgen ar mazo sākumburtu nozīmē rīt — nākamajā dienā (Ich komme morgen = es nāku rīt, Bis morgen! = līdz rīt!). der Morgen ar lielo burtu un artikulu der ir lietvārds — tas nozīmē rītu kā dienas daļu (Guten Morgen! = labrīt!, Der Morgen ist schön = rīts ir skaists). Daudzskaitlī: die Morgen.",
-      "words": [
-        {
-          "icon": "📅",
-          "lv": "rīt",
-          "de": "morgen",
-          "accent": "blue",
-          "explanation": [
-            "Galvenā doma: Laika apstāklis ar mazo burtu. Nozīmē nākamo dienu — rīt.",
-            "morgen galvenokārt nozīmē: nākamajā dienā.",
-            "Bieži raksturo: laika apstāklis.",
-            "morgen galvenokārt nozīmē: dienas daļa.",
-            "Bieži raksturo: lietvārds (der).",
-            "morgen galvenokārt nozīmē: vairāki rīti.",
-            "Bieži raksturo: lietvārds (pl.).",
-            "morgen ar mazo sākumburtu nozīmē rīt — nākamajā dienā (Ich komme morgen = es nāku rīt, Bis morgen!"
-          ],
-          "examples": [
-            {
-              "de": "Ich komme morgen.",
-              "lv": "Es nāku rīt."
-            },
-            {
-              "de": "Bis morgen!",
-              "lv": "līdz rīt!"
-            },
-            {
-              "de": "Ich komme morgen.",
-              "lv": "es nāku rīt."
-            },
-            {
-              "de": "Morgen ist Montag.",
-              "lv": "rīt ir pirmdiena."
-            },
-            {
-              "de": "Guten Morgen!",
-              "lv": "labrīt!"
-            },
-            {
-              "de": "Der Morgen ist schön.",
-              "lv": "rīts ir skaists."
-            }
-          ],
-          "tip": [
-            "Mazais morgen = rīt (Ich komme morgen). der Morgen ar lielo burtu = rīts (Guten Morgen!, am Morgen).",
-            "morgen = rīt"
-          ],
-          "important": [
-            "morgen stāv ar mazo burtu — tas ir laika apstāklis (rīt).",
-            "der Morgen ar lielo burtu un artikulu der ir lietvārds (rīts).",
-            "Guten Morgen! — vienmēr ar lielo M (rīts, nevis rīt).",
-            "Nepareizi: Guten morgen! → Pareizi: Guten Morgen!"
-          ],
-          "sectionAccents": {
-            "explanation": {
-              "blue": [
-                "morgen"
-              ],
-              "purple": [
-                "rīt",
-                "līdz rīt"
-              ]
-            },
-            "examples": [
-              {
-                "de": {
-                  "blue": [
-                    "morgen",
-                    "morgen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "rīt"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "morgen",
-                    "morgen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "rīt"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "morgen",
-                    "morgen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "rīt"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "morgen",
-                    "morgen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "rīt"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "morgen",
-                    "morgen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "rīt"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "morgen",
-                    "morgen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "rīt"
-                  ]
-                }
-              }
-            ],
-            "tip": [
-              {
-                "purple": [
-                  "rīt"
-                ]
-              }
-            ],
-            "important": [
-              {
-                "blue": [
-                  "morgen"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "icon": "🌅",
-          "lv": "rīts",
-          "de": "der Morgen",
-          "accent": "green",
-          "explanation": [
-            "Galvenā doma: Lietvārds ar artikulu der un lielo burtu. Dienas daļa — rīts.",
-            "der Morgen galvenokārt nozīmē: nākamajā dienā.",
-            "Bieži raksturo: laika apstāklis.",
-            "der Morgen galvenokārt nozīmē: dienas daļa.",
-            "Bieži raksturo: lietvārds (der).",
-            "der Morgen galvenokārt nozīmē: vairāki rīti.",
-            "Bieži raksturo: lietvārds (pl.).",
-            "morgen ar mazo sākumburtu nozīmē rīt — nākamajā dienā (Ich komme morgen = es nāku rīt, Bis morgen!"
-          ],
-          "examples": [
-            {
-              "de": "Guten Morgen!",
-              "lv": "Labrīt!"
-            },
-            {
-              "de": "Bis morgen!",
-              "lv": "līdz rīt!"
-            },
-            {
-              "de": "Ich komme morgen.",
-              "lv": "es nāku rīt."
-            },
-            {
-              "de": "Morgen ist Montag.",
-              "lv": "rīt ir pirmdiena."
-            },
-            {
-              "de": "Guten Morgen!",
-              "lv": "labrīt!"
-            },
-            {
-              "de": "Der Morgen ist schön.",
-              "lv": "rīts ir skaists."
-            }
-          ],
-          "tip": [
-            "Mazais morgen = rīt (Ich komme morgen). der Morgen ar lielo burtu = rīts (Guten Morgen!, am Morgen).",
-            "der Morgen = rīt"
-          ],
-          "important": [
-            "morgen stāv ar mazo burtu — tas ir laika apstāklis (rīt).",
-            "der Morgen ar lielo burtu un artikulu der ir lietvārds (rīts).",
-            "Guten Morgen! — vienmēr ar lielo M (rīts, nevis rīt).",
-            "Nepareizi: Guten morgen! → Pareizi: Guten Morgen!"
-          ],
-          "sectionAccents": {
-            "explanation": {
-              "green": [
-                "der Morgen",
-                "morgen"
-              ],
-              "purple": [
-                "rīts",
-                "rīti"
-              ],
-              "yellow": [
-                "Morgen"
-              ]
-            },
-            "examples": [
-              {
-                "de": {
-                  "green": [
-                    "der Morgen",
-                    "morgen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "rīts"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "der Morgen",
-                    "morgen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "rīts"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "der Morgen",
-                    "morgen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "rīts"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "der Morgen",
-                    "morgen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "rīts"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "der Morgen",
-                    "morgen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "rīts"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "der Morgen",
-                    "morgen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "rīts"
-                  ]
-                }
-              }
-            ],
-            "tip": [
-              {
-                "purple": [
-                  "rīts"
-                ]
-              }
-            ],
-            "important": [
-              {
-                "green": [
-                  "der Morgen"
-                ]
-              }
-            ]
-          }
-        }
+      "id": "a1-morgen",
+      "layout": "standardStudy",
+      "translation": "rīt",
+      "explanation": [
+        "Galvenā doma: Laika apstāklis ar mazo burtu. Nozīmē nākamo dienu — rīt.",
+        "morgen galvenokārt nozīmē: nākamajā dienā.",
+        "Bieži raksturo: laika apstāklis.",
+        "morgen galvenokārt nozīmē: dienas daļa.",
+        "Bieži raksturo: lietvārds (der).",
+        "morgen galvenokārt nozīmē: vairāki rīti.",
+        "Bieži raksturo: lietvārds (pl.).",
+        "morgen ar mazo sākumburtu nozīmē rīt — nākamajā dienā (Ich komme morgen = es nāku rīt, Bis morgen!"
       ],
       "examples": [
+        {
+          "de": "Ich komme morgen.",
+          "lv": "Es nāku rīt."
+        },
         {
           "de": "Bis morgen!",
           "lv": "līdz rīt!"
@@ -14009,148 +12844,33 @@ const A1_WORDS = [
         {
           "de": "Der Morgen ist schön.",
           "lv": "rīts ir skaists."
-        },
-        {
-          "de": "Am Morgen trinke ich Kaffee.",
-          "lv": "no rīta es dzeru kafiju."
         }
       ],
-      "comparisonTable": [
-        {
-          "lv": "rīt",
-          "de": "morgen",
-          "meaning": "nākamajā dienā",
-          "describes": "laika apstāklis",
-          "example": "Ich komme morgen.",
-          "translation": "es nāku rīt."
-        },
-        {
-          "lv": "rīts",
-          "de": "der Morgen",
-          "meaning": "dienas daļa",
-          "describes": "lietvārds (der)",
-          "example": "Der Morgen ist schön.",
-          "translation": "rīts ir skaists."
-        },
-        {
-          "lv": "līdz rīt",
-          "de": "bis morgen",
-          "meaning": "uzvedinājums",
-          "describes": "laika apstāklis",
-          "example": "Bis morgen!",
-          "translation": "līdz rīt!"
-        },
-        {
-          "lv": "rīti",
-          "de": "die Morgen",
-          "meaning": "vairāki rīti",
-          "describes": "lietvārds (pl.)",
-          "example": "Schöne Morgen!",
-          "translation": "skaisti rīti!"
-        }
+      "tip": [
+        "Mazais morgen = rīt (Ich komme morgen). der Morgen ar lielo burtu = rīts (Guten Morgen!, am Morgen).",
+        "morgen = rīt"
       ],
-      "importantComparison": [
-        "Ich komme morgen. = Es nāku rīt.",
-        "Guten Morgen! = Labrīt!",
-        "morgen = rīt (laiks); der Morgen = rīts (dienas daļa)."
-      ],
-      "tip": {
-        "left": "Mazais morgen = rīt (Ich komme morgen). der Morgen ar lielo burtu = rīts (Guten Morgen!, am Morgen).",
-        "rightTitle": "ātri",
-        "rightItems": [
-          {
-            "de": "morgen",
-            "lv": "rīt",
-            "separator": "="
-          },
-          {
-            "de": "der Morgen",
-            "lv": "rīts",
-            "separator": "="
-          }
-        ]
-      },
       "important": [
         "morgen stāv ar mazo burtu — tas ir laika apstāklis (rīt).",
         "der Morgen ar lielo burtu un artikulu der ir lietvārds (rīts).",
-        "Guten Morgen! — vienmēr ar lielo M (rīts, nevis rīt)."
-      ],
-      "mistakes": [
-        {
-          "wrong": "Guten morgen!",
-          "right": "Guten Morgen!"
-        },
-        {
-          "wrong": "Der morgen ist Montag.",
-          "right": "Morgen ist Montag."
-        }
-      ],
-      "remember": [
-        "Rīt (laiks): morgen — Ich komme morgen.",
-        "Rīts (dienas daļa): der Morgen — Guten Morgen!"
+        "Guten Morgen! — vienmēr ar lielo M (rīts, nevis rīt).",
+        "Nepareizi: Guten morgen! → Pareizi: Guten Morgen!"
       ],
       "sectionAccents": {
-        "lead": {
+        "explanation": {
           "blue": [
             "morgen"
           ],
-          "yellow": [
-            "Morgen"
-          ],
           "purple": [
-            "laika apstāklis",
-            "lietvārds"
+            "rīt",
+            "līdz rīt"
           ]
         },
-        "comparisonCards": [
-          {
-            "lv": {
-              "purple": [
-                "rīt",
-                "līdz rīt"
-              ]
-            },
-            "de": {
-              "blue": [
-                "morgen"
-              ]
-            },
-            "example": {
-              "blue": [
-                "morgen"
-              ],
-              "purple": [
-                "rīt"
-              ]
-            }
-          },
-          {
-            "lv": {
-              "purple": [
-                "rīts",
-                "rīti"
-              ]
-            },
-            "de": {
-              "yellow": [
-                "Morgen"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "Morgen"
-              ],
-              "purple": [
-                "rīts",
-                "rīti"
-              ]
-            }
-          }
-        ],
         "examples": [
           {
             "de": {
               "blue": [
+                "morgen",
                 "morgen"
               ]
             },
@@ -14163,6 +12883,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
+                "morgen",
                 "morgen"
               ]
             },
@@ -14175,254 +12896,238 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "Morgen"
+                "morgen",
+                "morgen"
               ]
             },
             "lv": {
               "purple": [
-                "rīt",
-                "pirmdiena"
+                "rīt"
               ]
             }
           },
           {
             "de": {
-              "yellow": [
-                "Morgen"
+              "blue": [
+                "morgen",
+                "morgen"
               ]
             },
             "lv": {
               "purple": [
-                "labrīt"
+                "rīt"
               ]
             }
           },
           {
             "de": {
-              "yellow": [
-                "Morgen"
+              "blue": [
+                "morgen",
+                "morgen"
               ]
             },
             "lv": {
               "purple": [
-                "rīts"
+                "rīt"
               ]
             }
           },
           {
             "de": {
-              "yellow": [
-                "Morgen"
+              "blue": [
+                "morgen",
+                "morgen"
               ]
             },
             "lv": {
               "purple": [
-                "rīta"
+                "rīt"
               ]
             }
           }
         ],
-        "comparisonTable": [
+        "tip": [
           {
-            "lv": {
-              "purple": [
-                "rīt"
-              ]
-            },
-            "de": {
-              "blue": [
-                "morgen"
-              ]
-            },
-            "example": {
-              "blue": [
-                "morgen"
-              ]
-            },
-            "translation": {
-              "purple": [
-                "rīt"
-              ]
-            }
-          },
-          {
-            "lv": {
-              "purple": [
-                "rīts"
-              ]
-            },
-            "de": {
-              "yellow": [
-                "Morgen"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "Morgen"
-              ]
-            },
-            "translation": {
-              "purple": [
-                "rīts"
-              ]
-            }
-          },
-          {
-            "lv": {
-              "purple": [
-                "līdz rīt"
-              ]
-            },
-            "de": {
-              "blue": [
-                "morgen"
-              ]
-            },
-            "example": {
-              "blue": [
-                "morgen"
-              ]
-            },
-            "translation": {
-              "purple": [
-                "līdz rīt"
-              ]
-            }
-          },
-          {
-            "lv": {
-              "purple": [
-                "rīti"
-              ]
-            },
-            "de": {
-              "yellow": [
-                "Morgen"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "Morgen"
-              ]
-            },
-            "translation": {
-              "purple": [
-                "rīti"
-              ]
-            }
-          }
-        ],
-        "importantComparison": [
-          {
-            "blue": [
-              "morgen"
-            ],
             "purple": [
               "rīt"
             ]
-          },
-          {
-            "yellow": [
-              "Morgen"
-            ],
-            "purple": [
-              "rīts",
-              "labrīt"
-            ]
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "morgen"
-            ],
-            "yellow": [
-              "Morgen"
-            ]
-          },
-          "rightItems": [
-            {
-              "de": {
-                "blue": [
-                  "morgen"
-                ]
-              },
-              "lv": {
-                "purple": [
-                  "rīt"
-                ]
-              }
-            },
-            {
-              "de": {
-                "yellow": [
-                  "Morgen"
-                ]
-              },
-              "lv": {
-                "purple": [
-                  "rīts"
-                ]
-              }
-            }
-          ]
-        },
         "important": [
           {
             "blue": [
               "morgen"
-            ],
-            "yellow": [
-              "Morgen"
-            ]
-          },
-          {
-            "red": [
-              "Guten morgen",
-              "Der morgen"
-            ]
-          }
-        ],
-        "mistakes": [
-          {
-            "wrong": {
-              "red": [
-                "morgen"
-              ]
-            },
-            "right": {
-              "yellow": [
-                "Morgen"
-              ]
-            }
-          },
-          {
-            "wrong": {
-              "red": [
-                "Der morgen"
-              ]
-            },
-            "right": {
-              "blue": [
-                "morgen"
-              ]
-            }
-          }
-        ],
-        "remember": [
-          {
-            "blue": [
-              "morgen"
-            ]
-          },
-          {
-            "yellow": [
-              "Morgen"
             ]
           }
         ]
       }
     }
+  },
+  {
+    "de": "Morgen",
+    "lv": "rīts",
+    "level": "A1",
+    "study": {
+      "id": "a1-morgen-study",
+      "layout": "standardStudy",
+      "translation": "rīts",
+      "explanation": [
+        "Galvenā doma: Lietvārds ar artikulu der un lielo burtu. Dienas daļa — rīts.",
+        "der Morgen galvenokārt nozīmē: nākamajā dienā.",
+        "Bieži raksturo: laika apstāklis.",
+        "der Morgen galvenokārt nozīmē: dienas daļa.",
+        "Bieži raksturo: lietvārds (der).",
+        "der Morgen galvenokārt nozīmē: vairāki rīti.",
+        "Bieži raksturo: lietvārds (pl.).",
+        "morgen ar mazo sākumburtu nozīmē rīt — nākamajā dienā (Ich komme morgen = es nāku rīt, Bis morgen!"
+      ],
+      "examples": [
+        {
+          "de": "Guten Morgen!",
+          "lv": "Labrīt!"
+        },
+        {
+          "de": "Bis morgen!",
+          "lv": "līdz rīt!"
+        },
+        {
+          "de": "Ich komme morgen.",
+          "lv": "es nāku rīt."
+        },
+        {
+          "de": "Morgen ist Montag.",
+          "lv": "rīt ir pirmdiena."
+        },
+        {
+          "de": "Guten Morgen!",
+          "lv": "labrīt!"
+        },
+        {
+          "de": "Der Morgen ist schön.",
+          "lv": "rīts ir skaists."
+        }
+      ],
+      "tip": [
+        "Mazais morgen = rīt (Ich komme morgen). der Morgen ar lielo burtu = rīts (Guten Morgen!, am Morgen).",
+        "der Morgen = rīt"
+      ],
+      "important": [
+        "morgen stāv ar mazo burtu — tas ir laika apstāklis (rīt).",
+        "der Morgen ar lielo burtu un artikulu der ir lietvārds (rīts).",
+        "Guten Morgen! — vienmēr ar lielo M (rīts, nevis rīt).",
+        "Nepareizi: Guten morgen! → Pareizi: Guten Morgen!"
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "der Morgen",
+            "morgen"
+          ],
+          "purple": [
+            "rīts",
+            "rīti"
+          ],
+          "yellow": [
+            "Morgen"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "der Morgen",
+                "morgen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "rīts"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "der Morgen",
+                "morgen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "rīts"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "der Morgen",
+                "morgen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "rīts"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "der Morgen",
+                "morgen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "rīts"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "der Morgen",
+                "morgen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "rīts"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "der Morgen",
+                "morgen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "rīts"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "rīts"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "der Morgen"
+            ]
+          }
+        ]
+      }
+    },
+    "de_article": "der"
   },
   {
     "de": "morgens",
@@ -17891,490 +16596,28 @@ const A1_WORDS = [
     "level": "A1"
   },
   {
-    "de": "sie • sie • Sie",
-    "lv": "Viņa • Viņi • Jūs",
+    "de": "sie",
+    "lv": "viņa",
     "level": "A1",
     "study": {
-      "id": "compare-sie-sie-sie",
-      "layout": "comparisonStudy",
-      "title": "Viņa • Viņi • Jūs",
-      "subtitle": "sie • sie • Sie",
-      "lead": "Vācu valodā viens un tas pats vārds „sie” var nozīmēt viņu, viņus vai pieklājīgu jūs — atšķirību parāda darbības vārda forma un lielais S pie uzrunas.",
-      "explanation": "Mazais sie nozīmē viņu, ja darbības vārds ir vienskaitlī (Sie kocht = viņa gatavo). Tas pats mazais sie nozīmē viņus, ja darbības vārds ir daudzskaitlī (Sie kochen = viņi gatavo). Lielais Sie vienmēr nozīmē pieklājīgu jūs — arī tad, ja darbības vārds ir daudzskaitlī (Sie kochen = jūs gatavojat). Rakstībā pieklājības forma obligāti ar lielo S.",
-      "words": [
-        {
-          "icon": "👩",
-          "lv": "viņa",
-          "de": "sie",
-          "accent": "blue",
-          "explanation": [
-            "Galvenā doma: Vienskaitļa forma — runā par vienu sievieti. Darbības vārds beidzas ar -t: kocht, isst, geht.",
-            "sie galvenokārt nozīmē: viena sieviete.",
-            "Bieži raksturo: darbības vārds vienskaitlī (-t).",
-            "sie galvenokārt nozīmē: vairāki cilvēki.",
-            "Bieži raksturo: darbības vārds daudzskaitlī (-en).",
-            "sie galvenokārt nozīmē: pieklājīga uzruna.",
-            "Bieži raksturo: obligāti ar lielo S.",
-            "Mazais sie nozīmē viņu, ja darbības vārds ir vienskaitlī (Sie kocht = viņa gatavo)."
-          ],
-          "examples": [
-            {
-              "de": "Sie kocht.",
-              "lv": "Viņa gatavo."
-            },
-            {
-              "de": "Sie kocht.",
-              "lv": "viņa gatavo."
-            },
-            {
-              "de": "Sie isst.",
-              "lv": "viņa ēd."
-            },
-            {
-              "de": "Sie kochen.",
-              "lv": "viņi gatavo."
-            },
-            {
-              "de": "Sie spielen Fußball.",
-              "lv": "viņi spēlē futbolu."
-            },
-            {
-              "de": "Sie kochen, bitte.",
-              "lv": "jūs gatavojat, lūdzu."
-            }
-          ],
-          "tip": [
-            "Vienskaitļa forma — runā par vienu sievieti. Darbības vārds beidzas ar -t: kocht, isst, geht.",
-            "Izmanto sie, kad konteksts atbilst šai nozīmei."
-          ],
-          "important": [
-            "Pieklājības uzruna vienmēr ar lielo S: Sie, nevis sie.",
-            "Viņa: Sie kocht. Viņi: sie kochen. Jūs: Sie kochen.",
-            "Nepareizi: sie kocht → Pareizi: Sie kocht",
-            "Nepareizi: Sie kocht (viņi) → Pareizi: Sie kochen"
-          ],
-          "sectionAccents": {
-            "explanation": {
-              "blue": [
-                "sie",
-                "kocht"
-              ],
-              "purple": [
-                "viņa"
-              ]
-            },
-            "examples": [
-              {
-                "de": {
-                  "blue": [
-                    "sie",
-                    "sie"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "viņa"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "sie",
-                    "sie"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "viņa"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "sie",
-                    "sie"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "viņa"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "sie",
-                    "sie"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "viņa"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "sie",
-                    "sie"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "viņa"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "sie",
-                    "sie"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "viņa"
-                  ]
-                }
-              }
-            ],
-            "tip": [
-              {
-                "purple": [
-                  "viņa"
-                ]
-              }
-            ],
-            "important": [
-              {
-                "blue": [
-                  "sie"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "icon": "👥",
-          "lv": "viņi",
-          "de": "sie",
-          "accent": "green",
-          "explanation": [
-            "Galvenā doma: Daudzskaitļa forma — runā par vairākiem cilvēkiem. Darbības vārds beidzas ar -en: kochen, essen, gehen.",
-            "sie galvenokārt nozīmē: viena sieviete.",
-            "Bieži raksturo: darbības vārds vienskaitlī (-t).",
-            "sie galvenokārt nozīmē: vairāki cilvēki.",
-            "Bieži raksturo: darbības vārds daudzskaitlī (-en).",
-            "sie galvenokārt nozīmē: pieklājīga uzruna.",
-            "Bieži raksturo: obligāti ar lielo S.",
-            "Mazais sie nozīmē viņu, ja darbības vārds ir vienskaitlī (Sie kocht = viņa gatavo)."
-          ],
-          "examples": [
-            {
-              "de": "Sie kochen.",
-              "lv": "Viņi gatavo."
-            },
-            {
-              "de": "Sie kocht.",
-              "lv": "viņa gatavo."
-            },
-            {
-              "de": "Sie isst.",
-              "lv": "viņa ēd."
-            },
-            {
-              "de": "Sie kochen.",
-              "lv": "viņi gatavo."
-            },
-            {
-              "de": "Sie spielen Fußball.",
-              "lv": "viņi spēlē futbolu."
-            },
-            {
-              "de": "Sie kochen, bitte.",
-              "lv": "jūs gatavojat, lūdzu."
-            }
-          ],
-          "tip": [
-            "Daudzskaitļa forma — runā par vairākiem cilvēkiem. Darbības vārds beidzas ar -en: kochen, essen, gehen.",
-            "Izmanto sie, kad konteksts atbilst šai nozīmei."
-          ],
-          "important": [
-            "Pieklājības uzruna vienmēr ar lielo S: Sie, nevis sie.",
-            "Viņa: Sie kocht. Viņi: sie kochen. Jūs: Sie kochen.",
-            "Nepareizi: sie kocht → Pareizi: Sie kocht",
-            "Nepareizi: Sie kocht (viņi) → Pareizi: Sie kochen"
-          ],
-          "sectionAccents": {
-            "explanation": {
-              "green": [
-                "sie",
-                "kochen"
-              ],
-              "purple": [
-                "viņi"
-              ]
-            },
-            "examples": [
-              {
-                "de": {
-                  "green": [
-                    "sie",
-                    "sie"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "viņi"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "sie",
-                    "sie"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "viņi"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "sie",
-                    "sie"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "viņi"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "sie",
-                    "sie"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "viņi"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "sie",
-                    "sie"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "viņi"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "sie",
-                    "sie"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "viņi"
-                  ]
-                }
-              }
-            ],
-            "tip": [
-              {
-                "purple": [
-                  "viņi"
-                ]
-              }
-            ],
-            "important": [
-              {
-                "green": [
-                  "sie"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "icon": "🤝",
-          "lv": "jūs",
-          "de": "Sie",
-          "accent": "yellow",
-          "explanation": [
-            "Galvenā doma: Pieklājības uzruna — vienmēr ar lielo S. Latviski: jūs. Bieži ar darbības vārdu daudzskaitlī.",
-            "Sie galvenokārt nozīmē: viena sieviete.",
-            "Bieži raksturo: darbības vārds vienskaitlī (-t).",
-            "Sie galvenokārt nozīmē: vairāki cilvēki.",
-            "Bieži raksturo: darbības vārds daudzskaitlī (-en).",
-            "Sie galvenokārt nozīmē: pieklājīga uzruna.",
-            "Bieži raksturo: obligāti ar lielo S.",
-            "Mazais sie nozīmē viņu, ja darbības vārds ir vienskaitlī (Sie kocht = viņa gatavo)."
-          ],
-          "examples": [
-            {
-              "de": "Sie kochen, bitte.",
-              "lv": "Jūs gatavojat, lūdzu."
-            },
-            {
-              "de": "Sie kocht.",
-              "lv": "viņa gatavo."
-            },
-            {
-              "de": "Sie isst.",
-              "lv": "viņa ēd."
-            },
-            {
-              "de": "Sie kochen.",
-              "lv": "viņi gatavo."
-            },
-            {
-              "de": "Sie spielen Fußball.",
-              "lv": "viņi spēlē futbolu."
-            },
-            {
-              "de": "Sie kochen, bitte.",
-              "lv": "jūs gatavojat, lūdzu."
-            }
-          ],
-          "tip": [
-            "Pieklājības uzruna — vienmēr ar lielo S. Latviski: jūs. Bieži ar darbības vārdu daudzskaitlī.",
-            "Izmanto Sie, kad konteksts atbilst šai nozīmei."
-          ],
-          "important": [
-            "Pieklājības uzruna vienmēr ar lielo S: Sie, nevis sie.",
-            "Viņa: Sie kocht. Viņi: sie kochen. Jūs: Sie kochen.",
-            "Nepareizi: sie kocht → Pareizi: Sie kocht",
-            "Nepareizi: Sie kocht (viņi) → Pareizi: Sie kochen"
-          ],
-          "sectionAccents": {
-            "explanation": {
-              "yellow": [
-                "Sie",
-                "kochen"
-              ],
-              "purple": [
-                "jūs"
-              ]
-            },
-            "examples": [
-              {
-                "de": {
-                  "yellow": [
-                    "Sie",
-                    "sie"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "jūs"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "yellow": [
-                    "Sie",
-                    "sie"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "jūs"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "yellow": [
-                    "Sie",
-                    "sie"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "jūs"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "yellow": [
-                    "Sie",
-                    "sie"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "jūs"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "yellow": [
-                    "Sie",
-                    "sie"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "jūs"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "yellow": [
-                    "Sie",
-                    "sie"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "jūs"
-                  ]
-                }
-              }
-            ],
-            "tip": [
-              {
-                "purple": [
-                  "jūs"
-                ]
-              }
-            ],
-            "important": [
-              {
-                "yellow": [
-                  "Sie"
-                ]
-              }
-            ]
-          }
-        }
+      "id": "a1-sie",
+      "layout": "standardStudy",
+      "translation": "viņa",
+      "explanation": [
+        "Galvenā doma: Vienskaitļa forma — runā par vienu sievieti. Darbības vārds beidzas ar -t: kocht, isst, geht.",
+        "sie galvenokārt nozīmē: viena sieviete.",
+        "Bieži raksturo: darbības vārds vienskaitlī (-t).",
+        "sie galvenokārt nozīmē: vairāki cilvēki.",
+        "Bieži raksturo: darbības vārds daudzskaitlī (-en).",
+        "sie galvenokārt nozīmē: pieklājīga uzruna.",
+        "Bieži raksturo: obligāti ar lielo S.",
+        "Mazais sie nozīmē viņu, ja darbības vārds ir vienskaitlī (Sie kocht = viņa gatavo)."
       ],
       "examples": [
+        {
+          "de": "Sie kocht.",
+          "lv": "Viņa gatavo."
+        },
         {
           "de": "Sie kocht.",
           "lv": "viņa gatavo."
@@ -18394,548 +16637,441 @@ const A1_WORDS = [
         {
           "de": "Sie kochen, bitte.",
           "lv": "jūs gatavojat, lūdzu."
-        },
-        {
-          "de": "Kommen Sie bitte herein.",
-          "lv": "lūdzu, nāciet iekšā."
         }
       ],
-      "comparisonTable": [
-        {
-          "lv": "viņa",
-          "de": "sie",
-          "meaning": "viena sieviete",
-          "describes": "darbības vārds vienskaitlī (-t)",
-          "example": "Sie kocht.",
-          "translation": "viņa gatavo."
-        },
-        {
-          "lv": "viņi",
-          "de": "sie",
-          "meaning": "vairāki cilvēki",
-          "describes": "darbības vārds daudzskaitlī (-en)",
-          "example": "Sie kochen.",
-          "translation": "viņi gatavo."
-        },
-        {
-          "lv": "jūs",
-          "de": "Sie",
-          "meaning": "pieklājīga uzruna",
-          "describes": "obligāti ar lielo S",
-          "example": "Sie kochen, bitte.",
-          "translation": "jūs gatavojat, lūdzu."
-        },
-        {
-          "lv": "atšķirība",
-          "de": "kocht / kochen",
-          "meaning": "pēc darbības vārda",
-          "describes": "kocht = viņa; kochen = viņi vai jūs",
-          "example": "Sie kocht. ≠ Sie kochen.",
-          "translation": "viņa ≠ viņi/jūs"
-        }
+      "tip": [
+        "Vienskaitļa forma — runā par vienu sievieti. Darbības vārds beidzas ar -t: kocht, isst, geht.",
+        "Izmanto sie, kad konteksts atbilst šai nozīmei."
       ],
-      "importantComparison": [
-        "Sie kocht. = Viņa gatavo.",
-        "Sie kochen. = Viņi gatavo. / Jūs gatavojat.",
-        "Pieklājībā vienmēr lielais Sie — nevis mazais sie."
-      ],
-      "tip": {
-        "left": "Ja darbības vārds ir kocht, isst, geht — parasti viņa. Ja kochen, essen, gehen — viņi vai pieklājīgs jūs; konteksts un lielais S palīdz.",
-        "rightTitle": "ātri",
-        "rightItems": [
-          {
-            "de": "Sie kocht",
-            "lv": "viņa",
-            "separator": "="
-          },
-          {
-            "de": "sie kochen",
-            "lv": "viņi",
-            "separator": "="
-          },
-          {
-            "de": "Sie kochen",
-            "lv": "jūs",
-            "separator": "="
-          }
-        ]
-      },
       "important": [
         "Pieklājības uzruna vienmēr ar lielo S: Sie, nevis sie.",
         "Viņa: Sie kocht. Viņi: sie kochen. Jūs: Sie kochen.",
-        "Vienā teikumā konteksts un darbības vārda forma parāda nozīmi."
-      ],
-      "mistakes": [
-        {
-          "wrong": "sie kocht",
-          "right": "Sie kocht"
-        },
-        {
-          "wrong": "Sie kocht (viņi)",
-          "right": "Sie kochen"
-        },
-        {
-          "wrong": "Kommen sie bitte herein.",
-          "right": "Kommen Sie bitte herein."
-        }
-      ],
-      "remember": [
-        "kocht / isst / geht → parasti viņa.",
-        "kochen / essen / gehen → viņi vai jūs (pēc konteksta un S).",
-        "Pieklājībā: vienmēr lielais Sie."
+        "Nepareizi: sie kocht → Pareizi: Sie kocht",
+        "Nepareizi: Sie kocht (viņi) → Pareizi: Sie kochen"
       ],
       "sectionAccents": {
-        "lead": {
-          "blue": [
-            "sie"
-          ],
-          "yellow": [
-            "Sie"
-          ],
-          "purple": [
-            "viņu",
-            "viņus",
-            "jūs",
-            "lielais S"
-          ]
-        },
         "explanation": {
           "blue": [
             "sie",
             "kocht"
           ],
-          "green": [
-            "kochen"
-          ],
-          "yellow": [
-            "Sie"
-          ],
           "purple": [
-            "viņu",
-            "viņus",
-            "jūs",
-            "vienskaitlī",
-            "daudzskaitlī"
+            "viņa"
           ]
         },
-        "comparisonCards": [
-          {
-            "lv": {
-              "purple": [
-                "viņa"
-              ]
-            },
-            "de": {
-              "blue": [
-                "sie",
-                "kocht"
-              ]
-            },
-            "description": {
-              "purple": [
-                "Vienskaitļa"
-              ],
-              "blue": [
-                "kocht",
-                "isst"
-              ]
-            },
-            "example": {
-              "blue": [
-                "kocht"
-              ],
-              "purple": [
-                "gatavo"
-              ]
-            }
-          },
-          {
-            "lv": {
-              "purple": [
-                "viņi"
-              ]
-            },
-            "de": {
-              "green": [
-                "sie",
-                "kochen"
-              ]
-            },
-            "description": {
-              "purple": [
-                "Daudzskaitļa"
-              ],
-              "green": [
-                "kochen",
-                "essen"
-              ]
-            },
-            "example": {
-              "green": [
-                "kochen"
-              ],
-              "purple": [
-                "gatavo"
-              ]
-            }
-          },
-          {
-            "lv": {
-              "purple": [
-                "jūs"
-              ]
-            },
-            "de": {
-              "yellow": [
-                "Sie",
-                "kochen"
-              ]
-            },
-            "description": {
-              "yellow": [
-                "Sie"
-              ],
-              "purple": [
-                "pieklājības"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "Sie",
-                "kochen"
-              ],
-              "purple": [
-                "gatavojat"
-              ]
-            }
-          }
-        ],
         "examples": [
           {
             "de": {
               "blue": [
-                "kocht"
+                "sie",
+                "sie"
               ]
             },
-            "lv": {
-              "purple": [
-                "viņa",
-                "gatavo"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "isst"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "viņa",
-                "ēd"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "kochen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "viņi",
-                "gatavo"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "spielen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "viņi",
-                "spēlē"
-              ]
-            }
-          },
-          {
-            "de": {
-              "yellow": [
-                "Sie",
-                "kochen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "jūs",
-                "gatavojat"
-              ]
-            }
-          },
-          {
-            "de": {
-              "yellow": [
-                "Sie",
-                "Kommen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "nāciet"
-              ]
-            }
-          }
-        ],
-        "comparisonTable": [
-          {
             "lv": {
               "purple": [
                 "viņa"
               ]
-            },
+            }
+          },
+          {
             "de": {
               "blue": [
                 "sie",
-                "kocht"
+                "sie"
               ]
             },
-            "example": {
-              "blue": [
-                "kocht"
-              ]
-            },
-            "translation": {
+            "lv": {
               "purple": [
-                "gatavo"
+                "viņa"
               ]
             }
           },
           {
+            "de": {
+              "blue": [
+                "sie",
+                "sie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "viņa"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sie",
+                "sie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "viņa"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sie",
+                "sie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "viņa"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sie",
+                "sie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "viņa"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "viņa"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "sie"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "sie",
+    "lv": "viņi",
+    "level": "A1",
+    "study": {
+      "id": "a1-sie-study",
+      "layout": "standardStudy",
+      "translation": "viņi",
+      "explanation": [
+        "Galvenā doma: Daudzskaitļa forma — runā par vairākiem cilvēkiem. Darbības vārds beidzas ar -en: kochen, essen, gehen.",
+        "sie galvenokārt nozīmē: viena sieviete.",
+        "Bieži raksturo: darbības vārds vienskaitlī (-t).",
+        "sie galvenokārt nozīmē: vairāki cilvēki.",
+        "Bieži raksturo: darbības vārds daudzskaitlī (-en).",
+        "sie galvenokārt nozīmē: pieklājīga uzruna.",
+        "Bieži raksturo: obligāti ar lielo S.",
+        "Mazais sie nozīmē viņu, ja darbības vārds ir vienskaitlī (Sie kocht = viņa gatavo)."
+      ],
+      "examples": [
+        {
+          "de": "Sie kochen.",
+          "lv": "Viņi gatavo."
+        },
+        {
+          "de": "Sie kocht.",
+          "lv": "viņa gatavo."
+        },
+        {
+          "de": "Sie isst.",
+          "lv": "viņa ēd."
+        },
+        {
+          "de": "Sie kochen.",
+          "lv": "viņi gatavo."
+        },
+        {
+          "de": "Sie spielen Fußball.",
+          "lv": "viņi spēlē futbolu."
+        },
+        {
+          "de": "Sie kochen, bitte.",
+          "lv": "jūs gatavojat, lūdzu."
+        }
+      ],
+      "tip": [
+        "Daudzskaitļa forma — runā par vairākiem cilvēkiem. Darbības vārds beidzas ar -en: kochen, essen, gehen.",
+        "Izmanto sie, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "Pieklājības uzruna vienmēr ar lielo S: Sie, nevis sie.",
+        "Viņa: Sie kocht. Viņi: sie kochen. Jūs: Sie kochen.",
+        "Nepareizi: sie kocht → Pareizi: Sie kocht",
+        "Nepareizi: Sie kocht (viņi) → Pareizi: Sie kochen"
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "sie",
+            "kochen"
+          ],
+          "purple": [
+            "viņi"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "sie",
+                "sie"
+              ]
+            },
             "lv": {
               "purple": [
                 "viņi"
               ]
-            },
+            }
+          },
+          {
             "de": {
               "green": [
                 "sie",
-                "kochen"
+                "sie"
               ]
             },
-            "example": {
-              "green": [
-                "kochen"
-              ]
-            },
-            "translation": {
+            "lv": {
               "purple": [
-                "gatavo"
+                "viņi"
               ]
             }
           },
           {
+            "de": {
+              "green": [
+                "sie",
+                "sie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "viņi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "sie",
+                "sie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "viņi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "sie",
+                "sie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "viņi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "sie",
+                "sie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "viņi"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "viņi"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "sie"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "Sie",
+    "lv": "jūs",
+    "level": "A1",
+    "study": {
+      "id": "a1-sie-study-2",
+      "layout": "standardStudy",
+      "translation": "jūs",
+      "explanation": [
+        "Galvenā doma: Pieklājības uzruna — vienmēr ar lielo S. Latviski: jūs. Bieži ar darbības vārdu daudzskaitlī.",
+        "Sie galvenokārt nozīmē: viena sieviete.",
+        "Bieži raksturo: darbības vārds vienskaitlī (-t).",
+        "Sie galvenokārt nozīmē: vairāki cilvēki.",
+        "Bieži raksturo: darbības vārds daudzskaitlī (-en).",
+        "Sie galvenokārt nozīmē: pieklājīga uzruna.",
+        "Bieži raksturo: obligāti ar lielo S.",
+        "Mazais sie nozīmē viņu, ja darbības vārds ir vienskaitlī (Sie kocht = viņa gatavo)."
+      ],
+      "examples": [
+        {
+          "de": "Sie kochen, bitte.",
+          "lv": "Jūs gatavojat, lūdzu."
+        },
+        {
+          "de": "Sie kocht.",
+          "lv": "viņa gatavo."
+        },
+        {
+          "de": "Sie isst.",
+          "lv": "viņa ēd."
+        },
+        {
+          "de": "Sie kochen.",
+          "lv": "viņi gatavo."
+        },
+        {
+          "de": "Sie spielen Fußball.",
+          "lv": "viņi spēlē futbolu."
+        },
+        {
+          "de": "Sie kochen, bitte.",
+          "lv": "jūs gatavojat, lūdzu."
+        }
+      ],
+      "tip": [
+        "Pieklājības uzruna — vienmēr ar lielo S. Latviski: jūs. Bieži ar darbības vārdu daudzskaitlī.",
+        "Izmanto Sie, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "Pieklājības uzruna vienmēr ar lielo S: Sie, nevis sie.",
+        "Viņa: Sie kocht. Viņi: sie kochen. Jūs: Sie kochen.",
+        "Nepareizi: sie kocht → Pareizi: Sie kocht",
+        "Nepareizi: Sie kocht (viņi) → Pareizi: Sie kochen"
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "yellow": [
+            "Sie",
+            "kochen"
+          ],
+          "purple": [
+            "jūs"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "yellow": [
+                "Sie",
+                "sie"
+              ]
+            },
             "lv": {
               "purple": [
                 "jūs"
               ]
-            },
-            "de": {
-              "yellow": [
-                "Sie",
-                "kochen"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "Sie",
-                "kochen"
-              ]
-            },
-            "translation": {
-              "purple": [
-                "gatavojat"
-              ]
             }
           },
           {
             "de": {
-              "blue": [
-                "kocht"
-              ],
-              "green": [
-                "kochen"
+              "yellow": [
+                "Sie",
+                "sie"
               ]
             },
             "lv": {
               "purple": [
-                "atšķirība"
+                "jūs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "Sie",
+                "sie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jūs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "Sie",
+                "sie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jūs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "Sie",
+                "sie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jūs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "Sie",
+                "sie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jūs"
               ]
             }
           }
         ],
-        "importantComparison": [
+        "tip": [
           {
-            "blue": [
-              "kocht"
-            ],
-            "purple": [
-              "viņa"
-            ]
-          },
-          {
-            "green": [
-              "kochen"
-            ],
-            "purple": [
-              "viņi"
-            ]
-          },
-          {
-            "yellow": [
-              "Sie"
-            ],
             "purple": [
               "jūs"
             ]
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "kocht"
-            ],
-            "green": [
-              "kochen"
-            ],
-            "yellow": [
-              "Sie"
-            ]
-          },
-          "rightItems": [
-            {
-              "de": {
-                "blue": [
-                  "kocht"
-                ]
-              },
-              "lv": {
-                "purple": [
-                  "viņa"
-                ]
-              }
-            },
-            {
-              "de": {
-                "green": [
-                  "kochen"
-                ]
-              },
-              "lv": {
-                "purple": [
-                  "viņi"
-                ]
-              }
-            },
-            {
-              "de": {
-                "yellow": [
-                  "Sie",
-                  "kochen"
-                ]
-              },
-              "lv": {
-                "purple": [
-                  "jūs"
-                ]
-              }
-            }
-          ]
-        },
         "important": [
           {
             "yellow": [
               "Sie"
-            ],
-            "red": [
-              "sie"
-            ]
-          },
-          {
-            "blue": [
-              "kocht"
-            ],
-            "green": [
-              "kochen"
-            ]
-          }
-        ],
-        "mistakes": [
-          {
-            "wrong": {
-              "red": [
-                "sie kocht"
-              ]
-            },
-            "right": {
-              "blue": [
-                "Sie kocht"
-              ]
-            }
-          },
-          {
-            "wrong": {
-              "red": [
-                "Sie kocht"
-              ]
-            },
-            "right": {
-              "green": [
-                "Sie kochen"
-              ]
-            }
-          },
-          {
-            "wrong": {
-              "red": [
-                "Kommen sie"
-              ]
-            },
-            "right": {
-              "yellow": [
-                "Kommen Sie"
-              ]
-            }
-          }
-        ],
-        "remember": [
-          {
-            "blue": [
-              "kocht",
-              "isst"
-            ],
-            "purple": [
-              "viņa"
-            ]
-          },
-          {
-            "green": [
-              "kochen"
-            ],
-            "purple": [
-              "viņi"
-            ]
-          },
-          {
-            "yellow": [
-              "Sie"
-            ],
-            "purple": [
-              "jūs"
             ]
           }
         ]
@@ -23229,343 +21365,26 @@ const A1_WORDS = [
     "level": "A1"
   },
   {
-    "de": "fernsehen • Fernsehen",
-    "lv": "Skatīties TV • Televīzija",
+    "de": "fernsehen",
+    "lv": "skatīties TV",
     "level": "A1",
     "study": {
-      "id": "compare-fernsehen-fernsehen",
-      "layout": "comparisonStudy",
-      "title": "Skatīties TV • Televīzija",
-      "subtitle": "fernsehen • das Fernsehen",
-      "lead": "fernsehen ir darbība; das Fernsehen ir lieta vai medijs. Tie nav sinonīmi.",
-      "explanation": "fernsehen ir darbības vārds, ko var sadalīt: ich sehe fern, du siehst fern. Tas nozīmē skatīties televīziju vai TV pārraidi. das Fernsehen ir lietvārds un tikai vienskaitlis — tam nav daudzskaitļa formas.",
-      "words": [
-        {
-          "icon": "📺",
-          "lv": "skatīties TV",
-          "de": "fernsehen",
-          "accent": "blue",
-          "explanation": [
-            "Galvenā doma: darbības vārds, ko var sadalīt: ich sehe fern. Apraksta darbību — skatīties televīziju.",
-            "fernsehen galvenokārt nozīmē: skatīties pārraidi.",
-            "Bieži raksturo: darbību.",
-            "fernsehen galvenokārt nozīmē: TV kā medijs.",
-            "Bieži raksturo: lietvārdu (tikai vienskaitlī).",
-            "fernsehen ir darbības vārds, ko var sadalīt: ich sehe fern, du siehst fern.",
-            "das Fernsehen ir lietvārds un tikai vienskaitlis — tam nav daudzskaitļa formas."
-          ],
-          "examples": [
-            {
-              "de": "Ich sehe heute Abend fern.",
-              "lv": "Šovakar es skatos televīziju."
-            },
-            {
-              "de": "Was gibt es heute im Fernsehen?",
-              "lv": "ko šodien rāda televīzijā?"
-            },
-            {
-              "de": "Im Fernsehen läuft ein Film.",
-              "lv": "televīzijā tiek rādīta filma."
-            },
-            {
-              "de": "Das Fernsehen ist heute langweilig.",
-              "lv": "televīzijas programma šodien ir garlaicīga."
-            },
-            {
-              "de": "Ich sehe heute Abend fern.",
-              "lv": "šovakar es skatos televīziju."
-            },
-            {
-              "de": "Was gibt es im Fernsehen?",
-              "lv": "Ko rāda televīzijā?"
-            }
-          ],
-          "tip": [
-            "Ja runā par darbību, lieto fernsehen (ich sehe fern). Ja runā par TV programmu vai mediju, lieto das Fernsehen.",
-            "darbības vārds, ko var sadalīt: ich sehe fern. Apraksta darbību — skatīties televīziju."
-          ],
-          "important": [
-            "fernsehen ir sadalāms: sehen + fern.",
-            "das Fernsehen nav daudzskaitlī — nav *die Fernsehen.",
-            "Nepareizi: die Fernsehen → Pareizi: das Fernsehen",
-            "Darbība: fernsehen → ich sehe fern."
-          ],
-          "sectionAccents": {
-            "explanation": {
-              "blue": [
-                "fernsehen",
-                "sehe",
-                "fern"
-              ],
-              "purple": [
-                "skatīties TV",
-                "skatīties"
-              ]
-            },
-            "examples": [
-              {
-                "de": {
-                  "blue": [
-                    "fernsehen",
-                    "fernsehen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "skatīties TV"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "fernsehen",
-                    "fernsehen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "skatīties TV"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "fernsehen",
-                    "fernsehen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "skatīties TV"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "fernsehen",
-                    "fernsehen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "skatīties TV"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "fernsehen",
-                    "fernsehen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "skatīties TV"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "fernsehen",
-                    "fernsehen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "skatīties TV"
-                  ]
-                }
-              }
-            ],
-            "tip": [
-              {
-                "purple": [
-                  "skatīties TV"
-                ]
-              }
-            ],
-            "important": [
-              {
-                "blue": [
-                  "fernsehen"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "icon": "📡",
-          "lv": "televīzija",
-          "de": "das Fernsehen",
-          "accent": "green",
-          "explanation": [
-            "Galvenā doma: Lietvārds, tikai vienskaitlis. Apraksta TV kā mediju vai pārraidi kopumā.",
-            "das Fernsehen galvenokārt nozīmē: skatīties pārraidi.",
-            "Bieži raksturo: darbību.",
-            "das Fernsehen galvenokārt nozīmē: TV kā medijs.",
-            "Bieži raksturo: lietvārdu (tikai vienskaitlī).",
-            "fernsehen ir darbības vārds, ko var sadalīt: ich sehe fern, du siehst fern.",
-            "das Fernsehen ir lietvārds un tikai vienskaitlis — tam nav daudzskaitļa formas."
-          ],
-          "examples": [
-            {
-              "de": "Was gibt es heute im Fernsehen?",
-              "lv": "Ko šodien rāda televīzijā?"
-            },
-            {
-              "de": "Was gibt es heute im Fernsehen?",
-              "lv": "ko šodien rāda televīzijā?"
-            },
-            {
-              "de": "Im Fernsehen läuft ein Film.",
-              "lv": "televīzijā tiek rādīta filma."
-            },
-            {
-              "de": "Das Fernsehen ist heute langweilig.",
-              "lv": "televīzijas programma šodien ir garlaicīga."
-            },
-            {
-              "de": "Ich sehe heute Abend fern.",
-              "lv": "šovakar es skatos televīziju."
-            },
-            {
-              "de": "Was gibt es im Fernsehen?",
-              "lv": "Ko rāda televīzijā?"
-            }
-          ],
-          "tip": [
-            "Ja runā par darbību, lieto fernsehen (ich sehe fern). Ja runā par TV programmu vai mediju, lieto das Fernsehen.",
-            "Lietvārds, tikai vienskaitlis. Apraksta TV kā mediju vai pārraidi kopumā."
-          ],
-          "important": [
-            "fernsehen ir sadalāms: sehen + fern.",
-            "das Fernsehen nav daudzskaitlī — nav *die Fernsehen.",
-            "Nepareizi: die Fernsehen → Pareizi: das Fernsehen",
-            "Darbība: fernsehen → ich sehe fern."
-          ],
-          "sectionAccents": {
-            "explanation": {
-              "green": [
-                "Fernsehen"
-              ],
-              "purple": [
-                "televīzija",
-                "programmā"
-              ],
-              "yellow": [
-                "im Fernsehen"
-              ]
-            },
-            "examples": [
-              {
-                "de": {
-                  "green": [
-                    "das Fernsehen",
-                    "fernsehen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "televīzija"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "das Fernsehen",
-                    "fernsehen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "televīzija"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "das Fernsehen",
-                    "fernsehen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "televīzija"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "das Fernsehen",
-                    "fernsehen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "televīzija"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "das Fernsehen",
-                    "fernsehen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "televīzija"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "das Fernsehen",
-                    "fernsehen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "televīzija"
-                  ]
-                }
-              }
-            ],
-            "tip": [
-              {
-                "purple": [
-                  "televīzija"
-                ]
-              }
-            ],
-            "important": [
-              {
-                "green": [
-                  "das Fernsehen"
-                ]
-              }
-            ]
-          }
-        }
+      "id": "a1-fernsehen",
+      "layout": "standardStudy",
+      "translation": "skatīties TV",
+      "explanation": [
+        "Galvenā doma: darbības vārds, ko var sadalīt: ich sehe fern. Apraksta darbību — skatīties televīziju.",
+        "fernsehen galvenokārt nozīmē: skatīties pārraidi.",
+        "Bieži raksturo: darbību.",
+        "fernsehen galvenokārt nozīmē: TV kā medijs.",
+        "Bieži raksturo: lietvārdu (tikai vienskaitlī).",
+        "fernsehen ir darbības vārds, ko var sadalīt: ich sehe fern, du siehst fern.",
+        "das Fernsehen ir lietvārds un tikai vienskaitlis — tam nav daudzskaitļa formas."
       ],
       "examples": [
         {
           "de": "Ich sehe heute Abend fern.",
-          "lv": "šovakar es skatos televīziju."
-        },
-        {
-          "de": "Siehst du gern fern?",
-          "lv": "vai tu labprāt skaties televīziju?"
+          "lv": "Šovakar es skatos televīziju."
         },
         {
           "de": "Was gibt es heute im Fernsehen?",
@@ -23576,461 +21395,131 @@ const A1_WORDS = [
           "lv": "televīzijā tiek rādīta filma."
         },
         {
-          "de": "Wir sehen am Samstag fern.",
-          "lv": "mēs sestdien skatāmies televīziju."
-        },
-        {
           "de": "Das Fernsehen ist heute langweilig.",
           "lv": "televīzijas programma šodien ir garlaicīga."
+        },
+        {
+          "de": "Ich sehe heute Abend fern.",
+          "lv": "šovakar es skatos televīziju."
+        },
+        {
+          "de": "Was gibt es im Fernsehen?",
+          "lv": "Ko rāda televīzijā?"
         }
       ],
-      "comparisonTable": [
-        {
-          "lv": "skatīties TV",
-          "de": "fernsehen",
-          "meaning": "skatīties pārraidi",
-          "describes": "darbību",
-          "example": "Ich sehe heute Abend fern.",
-          "translation": "šovakar es skatos televīziju."
-        },
-        {
-          "lv": "televīzija",
-          "de": "das Fernsehen",
-          "meaning": "TV kā medijs",
-          "describes": "lietvārdu (tikai vienskaitlī)",
-          "example": "Was gibt es heute im Fernsehen?",
-          "translation": "ko šodien rāda televīzijā?"
-        },
-        {
-          "lv": "skatīties",
-          "de": "sehen ... fern",
-          "meaning": "atdalāma darbība",
-          "describes": "darāmā daļa + fern",
-          "example": "Siehst du gern fern?",
-          "translation": "vai tu labprāt skaties televīziju?"
-        },
-        {
-          "lv": "programmā",
-          "de": "im Fernsehen",
-          "meaning": "TV pārraidē",
-          "describes": "kam?: im Fernsehen",
-          "example": "Im Fernsehen läuft ein Film.",
-          "translation": "televīzijā tiek rādīta filma."
-        }
+      "tip": [
+        "Ja runā par darbību, lieto fernsehen (ich sehe fern). Ja runā par TV programmu vai mediju, lieto das Fernsehen.",
+        "darbības vārds, ko var sadalīt: ich sehe fern. Apraksta darbību — skatīties televīziju."
       ],
-      "importantComparison": [
-        "Ich sehe fern. = Es skatos televīziju.",
-        "Was gibt es im Fernsehen? = Ko rāda televīzijā?",
-        "fernsehen = darbība; das Fernsehen = lieta/medijs (tikai vienskaitlis)."
-      ],
-      "tip": {
-        "left": "Ja runā par darbību, lieto fernsehen (ich sehe fern). Ja runā par TV programmu vai mediju, lieto das Fernsehen.",
-        "rightTitle": "ātri",
-        "rightItems": [
-          {
-            "de": "Ich sehe fern.",
-            "lv": "es skatos televīziju.",
-            "separator": "="
-          },
-          {
-            "de": "im Fernsehen",
-            "lv": "televīzijā",
-            "separator": "="
-          }
-        ]
-      },
       "important": [
         "fernsehen ir sadalāms: sehen + fern.",
         "das Fernsehen nav daudzskaitlī — nav *die Fernsehen.",
-        "Ich fernsehe nav pareizs — pareizi: Ich sehe fern."
-      ],
-      "mistakes": [
-        {
-          "wrong": "Ich fernsehe heute.",
-          "right": "Ich sehe heute fern."
-        },
-        {
-          "wrong": "die Fernsehen",
-          "right": "das Fernsehen"
-        }
-      ],
-      "remember": [
-        "Darbība: fernsehen → ich sehe fern.",
-        "Lietvārds: das Fernsehen (tikai vienskaitlī)."
+        "Nepareizi: die Fernsehen → Pareizi: das Fernsehen",
+        "Darbība: fernsehen → ich sehe fern."
       ],
       "sectionAccents": {
-        "lead": {
+        "explanation": {
           "blue": [
-            "fernsehen"
+            "fernsehen",
+            "sehe",
+            "fern"
           ],
           "purple": [
-            "darbība"
-          ],
-          "green": [
-            "Fernsehen"
-          ],
-          "yellow": [
-            "lieta"
+            "skatīties TV",
+            "skatīties"
           ]
         },
-        "comparisonCards": [
-          {
-            "lv": {
-              "purple": [
-                "skatīties TV",
-                "skatīties"
-              ]
-            },
-            "de": {
-              "blue": [
-                "fernsehen",
-                "sehe",
-                "fern"
-              ]
-            },
-            "example": {
-              "blue": [
-                "sehe",
-                "fern"
-              ],
-              "purple": [
-                "skatos",
-                "televīziju"
-              ]
-            }
-          },
-          {
-            "lv": {
-              "purple": [
-                "televīzija",
-                "programmā"
-              ]
-            },
-            "de": {
-              "green": [
-                "Fernsehen"
-              ],
-              "yellow": [
-                "im Fernsehen"
-              ]
-            },
-            "example": {
-              "green": [
-                "Fernsehen"
-              ],
-              "purple": [
-                "televīzijā",
-                "rāda"
-              ]
-            }
-          }
-        ],
         "examples": [
           {
             "de": {
               "blue": [
-                "sehe",
-                "fern"
+                "fernsehen",
+                "fernsehen"
               ]
             },
-            "lv": {
-              "purple": [
-                "skatos",
-                "televīziju"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Siehst",
-                "fern"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "skaties",
-                "televīziju"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "Fernsehen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "televīzijā",
-                "rāda"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "Fernsehen"
-              ],
-              "yellow": [
-                "Film"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "televīzijā",
-                "filma"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "sehen",
-                "fern"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "skatāmies",
-                "televīziju"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "Fernsehen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "programma",
-                "garlaicīga"
-              ]
-            }
-          }
-        ],
-        "comparisonTable": [
-          {
             "lv": {
               "purple": [
                 "skatīties TV"
               ]
-            },
+            }
+          },
+          {
             "de": {
               "blue": [
+                "fernsehen",
                 "fernsehen"
               ]
             },
-            "example": {
-              "blue": [
-                "sehe",
-                "fern"
-              ]
-            },
-            "translation": {
+            "lv": {
               "purple": [
-                "skatos",
-                "televīziju"
+                "skatīties TV"
               ]
             }
           },
           {
+            "de": {
+              "blue": [
+                "fernsehen",
+                "fernsehen"
+              ]
+            },
             "lv": {
               "purple": [
-                "televīzija"
-              ]
-            },
-            "de": {
-              "green": [
-                "Fernsehen"
-              ]
-            },
-            "example": {
-              "green": [
-                "Fernsehen"
-              ]
-            },
-            "translation": {
-              "purple": [
-                "televīzijā"
+                "skatīties TV"
               ]
             }
           },
           {
-            "lv": {
-              "purple": [
-                "skatīties"
-              ]
-            },
             "de": {
               "blue": [
-                "sehen",
-                "fern"
+                "fernsehen",
+                "fernsehen"
               ]
             },
-            "example": {
-              "blue": [
-                "fern"
-              ]
-            },
-            "translation": {
+            "lv": {
               "purple": [
-                "skaties"
+                "skatīties TV"
               ]
             }
           },
           {
+            "de": {
+              "blue": [
+                "fernsehen",
+                "fernsehen"
+              ]
+            },
             "lv": {
               "purple": [
-                "programmā"
+                "skatīties TV"
               ]
-            },
+            }
+          },
+          {
             "de": {
-              "yellow": [
-                "im Fernsehen"
+              "blue": [
+                "fernsehen",
+                "fernsehen"
               ]
             },
-            "example": {
-              "yellow": [
-                "Film"
-              ]
-            },
-            "translation": {
+            "lv": {
               "purple": [
-                "filma"
+                "skatīties TV"
               ]
             }
           }
         ],
-        "importantComparison": [
+        "tip": [
           {
-            "blue": [
-              "sehe",
-              "fern"
-            ],
             "purple": [
-              "skatos",
-              "televīziju"
-            ]
-          },
-          {
-            "green": [
-              "Fernsehen"
-            ],
-            "purple": [
-              "televīzijā"
-            ]
-          },
-          {
-            "blue": [
-              "fernsehen"
-            ],
-            "green": [
-              "Fernsehen"
+              "skatīties TV"
             ]
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "fernsehen"
-            ],
-            "green": [
-              "Fernsehen"
-            ]
-          },
-          "rightItems": [
-            {
-              "de": {
-                "blue": [
-                  "sehe",
-                  "fern"
-                ]
-              },
-              "lv": {
-                "purple": [
-                  "skatos",
-                  "televīziju"
-                ]
-              }
-            },
-            {
-              "de": {
-                "green": [
-                  "Fernsehen"
-                ]
-              },
-              "lv": {
-                "purple": [
-                  "televīzijā"
-                ]
-              }
-            }
-          ]
-        },
         "important": [
           {
             "blue": [
-              "fernsehen",
-              "sehen",
-              "fern"
-            ]
-          },
-          {
-            "green": [
-              "Fernsehen"
-            ]
-          },
-          {
-            "blue": [
-              "fernsehe"
-            ],
-            "green": [
-              "sehe",
-              "fern"
-            ]
-          }
-        ],
-        "mistakes": [
-          {
-            "wrong": {
-              "blue": [
-                "fernsehe"
-              ]
-            },
-            "right": {
-              "blue": [
-                "sehe",
-                "fern"
-              ]
-            }
-          },
-          {
-            "wrong": {
-              "red": [
-                "die Fernsehen"
-              ]
-            },
-            "right": {
-              "green": [
-                "das Fernsehen"
-              ]
-            }
-          }
-        ],
-        "remember": [
-          {
-            "blue": [
-              "fernsehen",
-              "sehe",
-              "fern"
-            ]
-          },
-          {
-            "green": [
-              "Fernsehen"
+              "fernsehen"
             ]
           }
         ]
@@ -24038,474 +21527,189 @@ const A1_WORDS = [
     }
   },
   {
-    "de": "Appetit • essen • Essen",
-    "lv": "Apetīte • Ēst • Ēdiens",
+    "de": "Fernsehen",
+    "lv": "televīzija",
     "level": "A1",
     "study": {
-      "id": "compare-appetit-essen",
-      "layout": "comparisonStudy",
-      "title": "Apetīte • Ēst • Ēdiens",
-      "subtitle": "der Appetit • essen • das Essen",
-      "lead": "der Appetit ir sajūta, essen ir darbība, das Essen ir lieta vai maltīte.",
-      "explanation": "der Appetit ir tikai vienskaitlis — ēstgriba. essen nozīmē ēst. das Essen var nozīmēt ēdienu vai maltīti kopumā. A1 līmenī tie bieži nāk kopā, piemēram: Guten Appetit!",
-      "words": [
-        {
-          "icon": "😋",
-          "lv": "ēstgriba",
-          "de": "der Appetit",
-          "accent": "blue",
-          "explanation": [
-            "Galvenā doma: Sajūta, ka gribas ēst. tikai vienskaitlis — nav daudzskaitļa.",
-            "der Appetit galvenokārt nozīmē: vēlme ēst.",
-            "Bieži raksturo: sajūtu (tikai vienskaitlī).",
-            "der Appetit ir tikai vienskaitlis — ēstgriba.",
-            "A1 līmenī tie bieži nāk kopā, piemēram: Guten Appetit!"
-          ],
-          "examples": [
-            {
-              "de": "Guten Appetit!",
-              "lv": "Labu apetīti!"
-            },
-            {
-              "de": "Guten Appetit!",
-              "lv": "labu apetīti!"
-            },
-            {
-              "de": "Ich habe keinen Appetit.",
-              "lv": "man nav apetītes."
-            },
-            {
-              "de": "Guten Appetit!",
-              "lv": "Labu apetīti!"
-            }
-          ],
-          "tip": [
-            "Sajūta pirms ēšanas: der Appetit. Darbība: essen. Tas, ko ēd: das Essen.",
-            "der Appetit = apetīte"
-          ],
-          "important": [
-            "der Appetit ir tikai vienskaitlī.",
-            "Nepareizi: die Appetite → Pareizi: der Appetit",
-            "Nepareizi: Ich bin Appetit. → Pareizi: Ich habe Appetit.",
-            "Sajūta: der Appetit."
-          ],
-          "sectionAccents": {
-            "explanation": {
-              "blue": [
-                "der Appetit",
-                "appetit"
-              ],
-              "purple": [
-                "ēstgriba",
-                "apetīti"
-              ],
-              "yellow": [
-                "Appetit"
-              ]
-            },
-            "examples": [
-              {
-                "de": {
-                  "blue": [
-                    "der Appetit",
-                    "appetit"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "ēstgriba"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "der Appetit",
-                    "appetit"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "ēstgriba"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "der Appetit",
-                    "appetit"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "ēstgriba"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "der Appetit",
-                    "appetit"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "ēstgriba"
-                  ]
-                }
-              }
-            ],
-            "tip": [
-              {
-                "purple": [
-                  "ēstgriba"
-                ]
-              }
-            ],
-            "important": [
-              {
-                "blue": [
-                  "der Appetit"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "icon": "🍽",
-          "lv": "ēst",
-          "de": "essen",
-          "accent": "green",
-          "explanation": [
-            "Galvenā doma: Darbības vārds — ēst pārtiku.",
-            "essen galvenokārt nozīmē: patērēt pārtiku.",
-            "Bieži raksturo: darbību.",
-            "essen galvenokārt nozīmē: pārtika vai maltīte.",
-            "Bieži raksturo: lietu.",
-            "essen nozīmē ēst.",
-            "das Essen var nozīmēt ēdienu vai maltīti kopumā."
-          ],
-          "examples": [
-            {
-              "de": "Ich esse gern Pizza.",
-              "lv": "Es labprāt ēdu picu."
-            },
-            {
-              "de": "Was wollt ihr essen?",
-              "lv": "ko jūs gribat ēst?"
-            },
-            {
-              "de": "Wir essen um 12 Uhr.",
-              "lv": "mēs ēdam pulksten 12."
-            },
-            {
-              "de": "Das Essen ist fertig.",
-              "lv": "ēdiens ir gatavs."
-            },
-            {
-              "de": "Das Essen schmeckt sehr gut.",
-              "lv": "ēdiens ļoti labi garšo."
-            },
-            {
-              "de": "Das Essen schmeckt gut.",
-              "lv": "ēdiens garšo labi."
-            }
-          ],
-          "tip": [
-            "Sajūta pirms ēšanas: der Appetit. Darbība: essen. Tas, ko ēd: das Essen.",
-            "essen = ēst"
-          ],
-          "important": [
-            "essen ir darbības vārds bez artikula.",
-            "das Essen nav tas pats, kas essen.",
-            "Darbība: essen.",
-            "Lieta/maltīte: das Essen."
-          ],
-          "sectionAccents": {
-            "explanation": {
-              "green": [
-                "essen",
-                "essen"
-              ],
-              "purple": [
-                "ēst"
-              ],
-              "blue": [
-                "essen",
-                "esse"
-              ]
-            },
-            "examples": [
-              {
-                "de": {
-                  "green": [
-                    "essen",
-                    "essen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "ēst"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "essen",
-                    "essen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "ēst"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "essen",
-                    "essen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "ēst"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "essen",
-                    "essen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "ēst"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "essen",
-                    "essen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "ēst"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "essen",
-                    "essen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "ēst"
-                  ]
-                }
-              }
-            ],
-            "tip": [
-              {
-                "purple": [
-                  "ēst"
-                ]
-              }
-            ],
-            "important": [
-              {
-                "green": [
-                  "essen"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "icon": "🥘",
-          "lv": "ēdiens • maltīte",
-          "de": "das Essen",
-          "accent": "yellow",
-          "explanation": [
-            "Galvenā doma: Lietvārds — ēdiens vai visa maltīte.",
-            "das Essen galvenokārt nozīmē: patērēt pārtiku.",
-            "Bieži raksturo: darbību.",
-            "das Essen galvenokārt nozīmē: pārtika vai maltīte.",
-            "Bieži raksturo: lietu.",
-            "essen nozīmē ēst.",
-            "das Essen var nozīmēt ēdienu vai maltīti kopumā."
-          ],
-          "examples": [
-            {
-              "de": "Das Essen schmeckt gut.",
-              "lv": "Ēdiens garšo labi."
-            },
-            {
-              "de": "Was wollt ihr essen?",
-              "lv": "ko jūs gribat ēst?"
-            },
-            {
-              "de": "Wir essen um 12 Uhr.",
-              "lv": "mēs ēdam pulksten 12."
-            },
-            {
-              "de": "Das Essen ist fertig.",
-              "lv": "ēdiens ir gatavs."
-            },
-            {
-              "de": "Das Essen schmeckt sehr gut.",
-              "lv": "ēdiens ļoti labi garšo."
-            },
-            {
-              "de": "Das Essen schmeckt gut.",
-              "lv": "ēdiens garšo labi."
-            }
-          ],
-          "tip": [
-            "Sajūta pirms ēšanas: der Appetit. Darbība: essen. Tas, ko ēd: das Essen.",
-            "das Essen = ēst"
-          ],
-          "important": [
-            "essen ir darbības vārds bez artikula.",
-            "das Essen nav tas pats, kas essen.",
-            "Darbība: essen.",
-            "Lieta/maltīte: das Essen."
-          ],
-          "sectionAccents": {
-            "explanation": {
-              "yellow": [
-                "das Essen",
-                "essen"
-              ],
-              "purple": [
-                "ēdiens",
-                "maltīte"
-              ],
-              "green": [
-                "Essen"
-              ]
-            },
-            "examples": [
-              {
-                "de": {
-                  "yellow": [
-                    "das Essen",
-                    "essen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "ēdiens",
-                    "maltīte"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "yellow": [
-                    "das Essen",
-                    "essen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "ēdiens",
-                    "maltīte"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "yellow": [
-                    "das Essen",
-                    "essen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "ēdiens",
-                    "maltīte"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "yellow": [
-                    "das Essen",
-                    "essen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "ēdiens",
-                    "maltīte"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "yellow": [
-                    "das Essen",
-                    "essen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "ēdiens",
-                    "maltīte"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "yellow": [
-                    "das Essen",
-                    "essen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "ēdiens",
-                    "maltīte"
-                  ]
-                }
-              }
-            ],
-            "tip": [
-              {
-                "purple": [
-                  "ēdiens"
-                ]
-              },
-              {
-                "purple": [
-                  "maltīte"
-                ]
-              }
-            ],
-            "important": [
-              {
-                "yellow": [
-                  "das Essen"
-                ]
-              }
-            ]
-          }
-        }
+      "id": "a1-fernsehen-study",
+      "layout": "standardStudy",
+      "translation": "televīzija",
+      "explanation": [
+        "Galvenā doma: Lietvārds, tikai vienskaitlis. Apraksta TV kā mediju vai pārraidi kopumā.",
+        "das Fernsehen galvenokārt nozīmē: skatīties pārraidi.",
+        "Bieži raksturo: darbību.",
+        "das Fernsehen galvenokārt nozīmē: TV kā medijs.",
+        "Bieži raksturo: lietvārdu (tikai vienskaitlī).",
+        "fernsehen ir darbības vārds, ko var sadalīt: ich sehe fern, du siehst fern.",
+        "das Fernsehen ir lietvārds un tikai vienskaitlis — tam nav daudzskaitļa formas."
       ],
       "examples": [
+        {
+          "de": "Was gibt es heute im Fernsehen?",
+          "lv": "Ko šodien rāda televīzijā?"
+        },
+        {
+          "de": "Was gibt es heute im Fernsehen?",
+          "lv": "ko šodien rāda televīzijā?"
+        },
+        {
+          "de": "Im Fernsehen läuft ein Film.",
+          "lv": "televīzijā tiek rādīta filma."
+        },
+        {
+          "de": "Das Fernsehen ist heute langweilig.",
+          "lv": "televīzijas programma šodien ir garlaicīga."
+        },
+        {
+          "de": "Ich sehe heute Abend fern.",
+          "lv": "šovakar es skatos televīziju."
+        },
+        {
+          "de": "Was gibt es im Fernsehen?",
+          "lv": "Ko rāda televīzijā?"
+        }
+      ],
+      "tip": [
+        "Ja runā par darbību, lieto fernsehen (ich sehe fern). Ja runā par TV programmu vai mediju, lieto das Fernsehen.",
+        "Lietvārds, tikai vienskaitlis. Apraksta TV kā mediju vai pārraidi kopumā."
+      ],
+      "important": [
+        "fernsehen ir sadalāms: sehen + fern.",
+        "das Fernsehen nav daudzskaitlī — nav *die Fernsehen.",
+        "Nepareizi: die Fernsehen → Pareizi: das Fernsehen",
+        "Darbība: fernsehen → ich sehe fern."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "Fernsehen"
+          ],
+          "purple": [
+            "televīzija",
+            "programmā"
+          ],
+          "yellow": [
+            "im Fernsehen"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "das Fernsehen",
+                "fernsehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "televīzija"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "das Fernsehen",
+                "fernsehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "televīzija"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "das Fernsehen",
+                "fernsehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "televīzija"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "das Fernsehen",
+                "fernsehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "televīzija"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "das Fernsehen",
+                "fernsehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "televīzija"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "das Fernsehen",
+                "fernsehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "televīzija"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "televīzija"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "das Fernsehen"
+            ]
+          }
+        ]
+      }
+    },
+    "de_article": "das"
+  },
+  {
+    "de": "Appetit",
+    "lv": "ēstgriba",
+    "level": "A1",
+    "study": {
+      "id": "a1-appetit",
+      "layout": "standardStudy",
+      "translation": "ēstgriba",
+      "explanation": [
+        "Galvenā doma: Sajūta, ka gribas ēst. tikai vienskaitlis — nav daudzskaitļa.",
+        "der Appetit galvenokārt nozīmē: vēlme ēst.",
+        "Bieži raksturo: sajūtu (tikai vienskaitlī).",
+        "der Appetit ir tikai vienskaitlis — ēstgriba.",
+        "A1 līmenī tie bieži nāk kopā, piemēram: Guten Appetit!"
+      ],
+      "examples": [
+        {
+          "de": "Guten Appetit!",
+          "lv": "Labu apetīti!"
+        },
         {
           "de": "Guten Appetit!",
           "lv": "labu apetīti!"
@@ -24513,6 +21717,125 @@ const A1_WORDS = [
         {
           "de": "Ich habe keinen Appetit.",
           "lv": "man nav apetītes."
+        }
+      ],
+      "tip": [
+        "der Appetit = apetīte",
+        "Izmanto der Appetit, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "der Appetit ir tikai vienskaitlī.",
+        "Nepareizi: die Appetite → Pareizi: der Appetit",
+        "Nepareizi: Ich bin Appetit. → Pareizi: Ich habe Appetit.",
+        "Sajūta: der Appetit."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "der Appetit",
+            "appetit"
+          ],
+          "purple": [
+            "ēstgriba",
+            "apetīti"
+          ],
+          "yellow": [
+            "Appetit"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "der Appetit",
+                "appetit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ēstgriba"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "der Appetit",
+                "appetit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ēstgriba"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "der Appetit",
+                "appetit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ēstgriba"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "der Appetit",
+                "appetit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ēstgriba"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "ēstgriba"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "der Appetit"
+            ]
+          }
+        ]
+      }
+    },
+    "de_article": "der"
+  },
+  {
+    "de": "essen",
+    "lv": "ēst",
+    "level": "A1",
+    "study": {
+      "id": "a1-essen",
+      "layout": "standardStudy",
+      "translation": "ēst",
+      "explanation": [
+        "Galvenā doma: Darbības vārds — ēst pārtiku.",
+        "essen galvenokārt nozīmē: patērēt pārtiku.",
+        "Bieži raksturo: darbību.",
+        "essen galvenokārt nozīmē: pārtika vai maltīte.",
+        "Bieži raksturo: lietu.",
+        "essen nozīmē ēst.",
+        "das Essen var nozīmēt ēdienu vai maltīti kopumā."
+      ],
+      "examples": [
+        {
+          "de": "Ich esse gern Pizza.",
+          "lv": "Es labprāt ēdu picu."
         },
         {
           "de": "Was wollt ihr essen?",
@@ -24529,476 +21852,127 @@ const A1_WORDS = [
         {
           "de": "Das Essen schmeckt sehr gut.",
           "lv": "ēdiens ļoti labi garšo."
+        },
+        {
+          "de": "Das Essen schmeckt gut.",
+          "lv": "ēdiens garšo labi."
         }
       ],
-      "comparisonTable": [
-        {
-          "lv": "ēstgriba",
-          "de": "der Appetit",
-          "meaning": "vēlme ēst",
-          "describes": "sajūtu (tikai vienskaitlī)",
-          "example": "Ich habe keinen Appetit.",
-          "translation": "man nav apetītes."
-        },
-        {
-          "lv": "ēst",
-          "de": "essen",
-          "meaning": "patērēt pārtiku",
-          "describes": "darbību",
-          "example": "Was wollt ihr essen?",
-          "translation": "ko jūs gribat ēst?"
-        },
-        {
-          "lv": "ēdiens",
-          "de": "das Essen",
-          "meaning": "pārtika vai maltīte",
-          "describes": "lietu",
-          "example": "Das Essen schmeckt gut.",
-          "translation": "ēdiens garšo labi."
-        },
-        {
-          "lv": "labu apetīti",
-          "de": "Guten Appetit",
-          "meaning": "sveiciens pirms ēšanas",
-          "describes": "frāzi",
-          "example": "Guten Appetit!",
-          "translation": "labu apetīti!"
-        }
+      "tip": [
+        "essen = ēst",
+        "Izmanto essen, kad konteksts atbilst šai nozīmei."
       ],
-      "importantComparison": [
-        "Guten Appetit! = Labu apetīti!",
-        "Ich esse Pizza. = Es ēdu picu.",
-        "Das Essen ist gut. = Ēdiens ir labs."
-      ],
-      "tip": {
-        "left": "Sajūta pirms ēšanas: der Appetit. Darbība: essen. Tas, ko ēd: das Essen.",
-        "rightTitle": "ātri",
-        "rightItems": [
-          {
-            "de": "Appetit",
-            "lv": "apetīte",
-            "separator": "="
-          },
-          {
-            "de": "essen",
-            "lv": "ēst",
-            "separator": "="
-          },
-          {
-            "de": "Essen",
-            "lv": "ēdiens",
-            "separator": "="
-          }
-        ]
-      },
       "important": [
-        "der Appetit ir tikai vienskaitlī.",
         "essen ir darbības vārds bez artikula.",
-        "das Essen nav tas pats, kas essen."
-      ],
-      "mistakes": [
-        {
-          "wrong": "die Appetite",
-          "right": "der Appetit"
-        },
-        {
-          "wrong": "Ich bin Appetit.",
-          "right": "Ich habe Appetit."
-        }
-      ],
-      "remember": [
-        "Sajūta: der Appetit.",
+        "das Essen nav tas pats, kas essen.",
         "Darbība: essen.",
         "Lieta/maltīte: das Essen."
       ],
       "sectionAccents": {
-        "lead": {
-          "yellow": [
-            "Appetit"
-          ],
-          "blue": [
+        "explanation": {
+          "green": [
+            "essen",
             "essen"
           ],
-          "green": [
-            "Essen"
-          ],
           "purple": [
-            "sajūta",
-            "darbība",
-            "lieta"
+            "ēst"
+          ],
+          "blue": [
+            "essen",
+            "esse"
           ]
         },
-        "comparisonCards": [
-          {
-            "lv": {
-              "purple": [
-                "ēstgriba",
-                "apetīti"
-              ]
-            },
-            "de": {
-              "yellow": [
-                "Appetit"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "Appetit"
-              ],
-              "purple": [
-                "apetīti"
-              ]
-            }
-          },
-          {
-            "lv": {
-              "purple": [
-                "ēst"
-              ]
-            },
-            "de": {
-              "blue": [
-                "essen",
-                "esse"
-              ]
-            },
-            "example": {
-              "blue": [
-                "esse"
-              ],
-              "purple": [
-                "ēdu"
-              ]
-            }
-          },
-          {
-            "lv": {
-              "purple": [
-                "ēdiens",
-                "maltīte"
-              ]
-            },
-            "de": {
-              "green": [
-                "Essen"
-              ]
-            },
-            "example": {
-              "green": [
-                "Essen"
-              ],
-              "purple": [
-                "ēdiens",
-                "garšo"
-              ]
-            }
-          }
-        ],
         "examples": [
           {
             "de": {
-              "yellow": [
-                "Appetit"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "apetīti"
-              ]
-            }
-          },
-          {
-            "de": {
-              "yellow": [
-                "Appetit"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "apetītes"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
+              "green": [
+                "essen",
                 "essen"
               ]
             },
             "lv": {
               "purple": [
-                "ēst",
                 "ēst"
               ]
             }
           },
           {
             "de": {
-              "blue": [
-                "essen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "ēdam"
-              ]
-            }
-          },
-          {
-            "de": {
               "green": [
-                "Essen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "ēdiens",
-                "gatavs"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "Essen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "ēdiens",
-                "garšo"
-              ]
-            }
-          }
-        ],
-        "comparisonTable": [
-          {
-            "lv": {
-              "purple": [
-                "ēstgriba"
-              ]
-            },
-            "de": {
-              "yellow": [
-                "Appetit"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "Appetit"
-              ]
-            },
-            "translation": {
-              "purple": [
-                "apetītes"
-              ]
-            }
-          },
-          {
-            "lv": {
-              "purple": [
-                "ēst"
-              ]
-            },
-            "de": {
-              "blue": [
+                "essen",
                 "essen"
               ]
             },
-            "example": {
-              "blue": [
-                "essen"
-              ]
-            },
-            "translation": {
+            "lv": {
               "purple": [
                 "ēst"
               ]
             }
           },
           {
-            "lv": {
-              "purple": [
-                "ēdiens"
-              ]
-            },
             "de": {
               "green": [
-                "Essen"
+                "essen",
+                "essen"
               ]
             },
-            "example": {
-              "green": [
-                "Essen"
-              ]
-            },
-            "translation": {
+            "lv": {
               "purple": [
-                "ēdiens",
-                "garšo"
+                "ēst"
               ]
             }
           },
           {
+            "de": {
+              "green": [
+                "essen",
+                "essen"
+              ]
+            },
             "lv": {
               "purple": [
-                "apetīti"
+                "ēst"
               ]
-            },
+            }
+          },
+          {
             "de": {
-              "yellow": [
-                "Appetit"
+              "green": [
+                "essen",
+                "essen"
               ]
             },
-            "example": {
-              "yellow": [
-                "Appetit"
-              ]
-            },
-            "translation": {
+            "lv": {
               "purple": [
-                "apetīti"
+                "ēst"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "essen",
+                "essen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ēst"
               ]
             }
           }
         ],
-        "importantComparison": [
+        "tip": [
           {
-            "yellow": [
-              "Appetit"
-            ],
             "purple": [
-              "apetīti"
-            ]
-          },
-          {
-            "blue": [
-              "esse"
-            ],
-            "purple": [
-              "ēdu"
-            ]
-          },
-          {
-            "green": [
-              "Essen"
-            ],
-            "purple": [
-              "ēdiens"
+              "ēst"
             ]
           }
         ],
-        "tip": {
-          "left": {
-            "yellow": [
-              "Appetit"
-            ],
-            "blue": [
-              "essen"
-            ],
-            "green": [
-              "Essen"
-            ]
-          },
-          "rightItems": [
-            {
-              "de": {
-                "yellow": [
-                  "Appetit"
-                ]
-              },
-              "lv": {
-                "purple": [
-                  "apetīte"
-                ]
-              }
-            },
-            {
-              "de": {
-                "blue": [
-                  "essen"
-                ]
-              },
-              "lv": {
-                "purple": [
-                  "ēst"
-                ]
-              }
-            },
-            {
-              "de": {
-                "green": [
-                  "Essen"
-                ]
-              },
-              "lv": {
-                "purple": [
-                  "ēdiens"
-                ]
-              }
-            }
-          ]
-        },
         "important": [
           {
-            "yellow": [
-              "Appetit"
-            ]
-          },
-          {
-            "blue": [
-              "essen"
-            ]
-          },
-          {
             "green": [
-              "Essen"
-            ],
-            "blue": [
               "essen"
-            ]
-          }
-        ],
-        "mistakes": [
-          {
-            "wrong": {
-              "red": [
-                "Appetite"
-              ]
-            },
-            "right": {
-              "yellow": [
-                "Appetit"
-              ]
-            }
-          },
-          {
-            "wrong": {
-              "yellow": [
-                "bin Appetit"
-              ]
-            },
-            "right": {
-              "yellow": [
-                "habe Appetit"
-              ]
-            }
-          }
-        ],
-        "remember": [
-          {
-            "yellow": [
-              "Appetit"
-            ]
-          },
-          {
-            "blue": [
-              "essen"
-            ]
-          },
-          {
-            "green": [
-              "Essen"
             ]
           }
         ]
@@ -25006,316 +21980,199 @@ const A1_WORDS = [
     }
   },
   {
-    "de": "Gemüse • Obst",
-    "lv": "Dārzeņi • Augļi",
+    "de": "Essen",
+    "lv": "ēdiens • maltīte",
     "level": "A1",
     "study": {
-      "id": "compare-gemuese-obst",
-      "layout": "comparisonStudy",
-      "title": "Dārzeņi • Augļi",
-      "subtitle": "das Gemüse • das Obst",
-      "lead": "Abi ir nekatras dzimtes (das) un vācu valodā tos lieto tikai vienskaitlī.",
-      "explanation": "das Gemüse apzīmē visus dārzeņus kopumā, bet das Obst — augļus. Latviešu valodā mēs izmantojam daudzskaitli, tāpēc atceries, ka vācu teikumā darbības vārdam vienmēr jābūt vienskaitļa formā (piemēram, 'ist', nevis 'sind').",
-      "words": [
-        {
-          "icon": "🥕",
-          "lv": "dārzeņi",
-          "de": "das Gemüse",
-          "accent": "blue",
-          "explanation": [
-            "Galvenā doma: Dārzeņi kopumā. Vācu valodā nav daudzskaitļa formas *die Gemüse.",
-            "das Gemüse galvenokārt nozīmē: dārzeņi kopumā.",
-            "Bieži raksturo: nekatrā dzimtē (tikai vienskaitlī).",
-            "das Gemüse apzīmē visus dārzeņus kopumā, bet das Obst — augļus.",
-            "Šo vārdu salīdzini ar pārējiem šajā kartītē, lai izvēlētos pareizo variantu."
-          ],
-          "examples": [
-            {
-              "de": "Ich esse gern Gemüse.",
-              "lv": "Es labprāt ēdu dārzeņus."
-            },
-            {
-              "de": "Ich esse gern Gemüse.",
-              "lv": "es labprāt ēdu dārzeņus."
-            },
-            {
-              "de": "Das Gemüse ist frisch.",
-              "lv": "dārzeņi ir svaigi."
-            },
-            {
-              "de": "Wir kaufen Gemüse auf dem Markt.",
-              "lv": "mēs pērkam dārzeņus tirgū."
-            },
-            {
-              "de": "Ich mag Obst und Gemüse.",
-              "lv": "man patīk augļi un dārzeņi."
-            },
-            {
-              "de": "Ich esse Gemüse.",
-              "lv": "Es ēdu dārzeņus."
-            }
-          ],
-          "tip": [
-            "Ja runā par visiem dārzeņiem kopā, lieto das Gemüse. Ja par visiem augļiem kopā, lieto das Obst. Netaisi mākslīgu daudzskaitli.",
-            "das Gemüse = dārzeņi"
-          ],
-          "important": [
-            "Nav pareizi: die Gemüse, die Obsts.",
-            "Pareizi: das Gemüse, das Obst.",
-            "Nepareizi: die Gemüse → Pareizi: das Gemüse",
-            "das Gemüse = dārzeņi (kopumā)."
-          ],
-          "sectionAccents": {
-            "explanation": {
-              "blue": [
-                "das Gemüse",
-                "gemüse"
-              ],
-              "purple": [
-                "dārzeņi"
-              ],
-              "green": [
-                "Gemüse"
-              ]
-            },
-            "examples": [
-              {
-                "de": {
-                  "blue": [
-                    "das Gemüse",
-                    "gemüse"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "dārzeņi"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "das Gemüse",
-                    "gemüse"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "dārzeņi"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "das Gemüse",
-                    "gemüse"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "dārzeņi"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "das Gemüse",
-                    "gemüse"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "dārzeņi"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "das Gemüse",
-                    "gemüse"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "dārzeņi"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "das Gemüse",
-                    "gemüse"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "dārzeņi"
-                  ]
-                }
-              }
-            ],
-            "tip": [
-              {
-                "purple": [
-                  "dārzeņi"
-                ]
-              }
-            ],
-            "important": [
-              {
-                "blue": [
-                  "das Gemüse"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "icon": "🍎",
-          "lv": "augļi",
-          "de": "das Obst",
-          "accent": "green",
-          "explanation": [
-            "Galvenā doma: Augļi kopumā. Vācu valodā nav daudzskaitļa formas *die Obsts.",
-            "das Obst galvenokārt nozīmē: augļi kopumā.",
-            "Bieži raksturo: nekatrā dzimtē (tikai vienskaitlī).",
-            "das Gemüse apzīmē visus dārzeņus kopumā, bet das Obst — augļus.",
-            "Šo vārdu salīdzini ar pārējiem šajā kartītē, lai izvēlētos pareizo variantu."
-          ],
-          "examples": [
-            {
-              "de": "Wir essen viel Obst.",
-              "lv": "Mēs ēdam daudz augļu."
-            },
-            {
-              "de": "Wir essen viel Obst.",
-              "lv": "mēs ēdam daudz augļu."
-            },
-            {
-              "de": "Obst ist gesund.",
-              "lv": "augļi ir veselīgi."
-            },
-            {
-              "de": "Ich mag Obst und Gemüse.",
-              "lv": "man patīk augļi un dārzeņi."
-            },
-            {
-              "de": "Wir essen Obst.",
-              "lv": "Mēs ēdam augļus."
-            }
-          ],
-          "tip": [
-            "Ja runā par visiem dārzeņiem kopā, lieto das Gemüse. Ja par visiem augļiem kopā, lieto das Obst. Netaisi mākslīgu daudzskaitli.",
-            "das Obst = augļi"
-          ],
-          "important": [
-            "Nav pareizi: die Gemüse, die Obsts.",
-            "Pareizi: das Gemüse, das Obst.",
-            "Nepareizi: die Obsts → Pareizi: das Obst",
-            "das Obst = augļi (kopumā)."
-          ],
-          "sectionAccents": {
-            "explanation": {
-              "green": [
-                "das Obst",
-                "obst"
-              ],
-              "purple": [
-                "augļi"
-              ],
-              "yellow": [
-                "Obst"
-              ]
-            },
-            "examples": [
-              {
-                "de": {
-                  "green": [
-                    "das Obst",
-                    "obst"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "augļi"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "das Obst",
-                    "obst"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "augļi"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "das Obst",
-                    "obst"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "augļi"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "das Obst",
-                    "obst"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "augļi"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "das Obst",
-                    "obst"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "augļi"
-                  ]
-                }
-              }
-            ],
-            "tip": [
-              {
-                "purple": [
-                  "augļi"
-                ]
-              }
-            ],
-            "important": [
-              {
-                "green": [
-                  "das Obst"
-                ]
-              }
-            ]
-          }
-        }
+      "id": "a1-essen-study",
+      "layout": "standardStudy",
+      "translation": "ēdiens • maltīte",
+      "explanation": [
+        "Galvenā doma: Lietvārds — ēdiens vai visa maltīte.",
+        "das Essen galvenokārt nozīmē: patērēt pārtiku.",
+        "Bieži raksturo: darbību.",
+        "das Essen galvenokārt nozīmē: pārtika vai maltīte.",
+        "Bieži raksturo: lietu.",
+        "essen nozīmē ēst.",
+        "das Essen var nozīmēt ēdienu vai maltīti kopumā."
       ],
       "examples": [
+        {
+          "de": "Das Essen schmeckt gut.",
+          "lv": "Ēdiens garšo labi."
+        },
+        {
+          "de": "Was wollt ihr essen?",
+          "lv": "ko jūs gribat ēst?"
+        },
+        {
+          "de": "Wir essen um 12 Uhr.",
+          "lv": "mēs ēdam pulksten 12."
+        },
+        {
+          "de": "Das Essen ist fertig.",
+          "lv": "ēdiens ir gatavs."
+        },
+        {
+          "de": "Das Essen schmeckt sehr gut.",
+          "lv": "ēdiens ļoti labi garšo."
+        },
+        {
+          "de": "Das Essen schmeckt gut.",
+          "lv": "ēdiens garšo labi."
+        }
+      ],
+      "tip": [
+        "das Essen = ēst",
+        "Izmanto das Essen, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "essen ir darbības vārds bez artikula.",
+        "das Essen nav tas pats, kas essen.",
+        "Darbība: essen.",
+        "Lieta/maltīte: das Essen."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "yellow": [
+            "das Essen",
+            "essen"
+          ],
+          "purple": [
+            "ēdiens",
+            "maltīte"
+          ],
+          "green": [
+            "Essen"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "yellow": [
+                "das Essen",
+                "essen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ēdiens",
+                "maltīte"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "das Essen",
+                "essen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ēdiens",
+                "maltīte"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "das Essen",
+                "essen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ēdiens",
+                "maltīte"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "das Essen",
+                "essen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ēdiens",
+                "maltīte"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "das Essen",
+                "essen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ēdiens",
+                "maltīte"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "das Essen",
+                "essen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ēdiens",
+                "maltīte"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "ēdiens"
+            ]
+          },
+          {
+            "purple": [
+              "maltīte"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "yellow": [
+              "das Essen"
+            ]
+          }
+        ]
+      }
+    },
+    "de_article": "das"
+  },
+  {
+    "de": "Gemüse",
+    "lv": "dārzeņi",
+    "level": "A1",
+    "study": {
+      "id": "a1-gemuese",
+      "layout": "standardStudy",
+      "translation": "dārzeņi",
+      "explanation": [
+        "Galvenā doma: Dārzeņi kopumā. Vācu valodā nav daudzskaitļa formas *die Gemüse.",
+        "das Gemüse galvenokārt nozīmē: dārzeņi kopumā.",
+        "Bieži raksturo: nekatrā dzimtē (tikai vienskaitlī)."
+      ],
+      "examples": [
+        {
+          "de": "Ich esse gern Gemüse.",
+          "lv": "Es labprāt ēdu dārzeņus."
+        },
         {
           "de": "Ich esse gern Gemüse.",
           "lv": "es labprāt ēdu dārzeņus."
@@ -25329,6 +22186,153 @@ const A1_WORDS = [
           "lv": "mēs pērkam dārzeņus tirgū."
         },
         {
+          "de": "Ich mag Obst und Gemüse.",
+          "lv": "man patīk augļi un dārzeņi."
+        },
+        {
+          "de": "Ich esse Gemüse.",
+          "lv": "Es ēdu dārzeņus."
+        }
+      ],
+      "tip": [
+        "das Gemüse = dārzeņi",
+        "Izmanto das Gemüse, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "Nav pareizi: die Gemüse, die Obsts.",
+        "Nepareizi: die Gemüse → Pareizi: das Gemüse",
+        "das Gemüse = dārzeņi (kopumā)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "das Gemüse",
+            "gemüse"
+          ],
+          "purple": [
+            "dārzeņi"
+          ],
+          "green": [
+            "Gemüse"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "das Gemüse",
+                "gemüse"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dārzeņi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "das Gemüse",
+                "gemüse"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dārzeņi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "das Gemüse",
+                "gemüse"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dārzeņi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "das Gemüse",
+                "gemüse"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dārzeņi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "das Gemüse",
+                "gemüse"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dārzeņi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "das Gemüse",
+                "gemüse"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dārzeņi"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "dārzeņi"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "das Gemüse"
+            ]
+          }
+        ]
+      }
+    },
+    "de_article": "das"
+  },
+  {
+    "de": "Obst",
+    "lv": "augļi",
+    "level": "A1",
+    "study": {
+      "id": "a1-obst",
+      "layout": "standardStudy",
+      "translation": "augļi",
+      "explanation": [
+        "Galvenā doma: Augļi kopumā. Vācu valodā nav daudzskaitļa formas *die Obsts.",
+        "das Obst galvenokārt nozīmē: augļi kopumā.",
+        "Bieži raksturo: nekatrā dzimtē (tikai vienskaitlī)."
+      ],
+      "examples": [
+        {
+          "de": "Wir essen viel Obst.",
+          "lv": "Mēs ēdam daudz augļu."
+        },
+        {
           "de": "Wir essen viel Obst.",
           "lv": "mēs ēdam daudz augļu."
         },
@@ -25339,806 +22343,137 @@ const A1_WORDS = [
         {
           "de": "Ich mag Obst und Gemüse.",
           "lv": "man patīk augļi un dārzeņi."
+        },
+        {
+          "de": "Wir essen Obst.",
+          "lv": "Mēs ēdam augļus."
         }
       ],
-      "comparisonTable": [
-        {
-          "lv": "dārzeņi",
-          "de": "das Gemüse",
-          "meaning": "dārzeņi kopumā",
-          "describes": "nekatrā dzimtē (tikai vienskaitlī)",
-          "example": "Ich esse gern Gemüse.",
-          "translation": "es labprāt ēdu dārzeņus."
-        },
-        {
-          "lv": "augļi",
-          "de": "das Obst",
-          "meaning": "augļi kopumā",
-          "describes": "nekatrā dzimtē (tikai vienskaitlī)",
-          "example": "Wir essen viel Obst.",
-          "translation": "mēs ēdam daudz augļu."
-        },
-        {
-          "lv": "svaigi",
-          "de": "frisches Gemüse",
-          "meaning": "svaigi dārzeņi",
-          "describes": "bez artikula plurāļa",
-          "example": "Das Gemüse ist frisch.",
-          "translation": "dārzeņi ir svaigi."
-        },
-        {
-          "lv": "veselīgi",
-          "de": "Obst ist gesund",
-          "meaning": "augļi ir veselīgi",
-          "describes": "vispārīgs apgalvojums",
-          "example": "Obst ist gesund.",
-          "translation": "augļi ir veselīgi."
-        }
+      "tip": [
+        "das Obst = augļi",
+        "Izmanto das Obst, kad konteksts atbilst šai nozīmei."
       ],
-      "importantComparison": [
-        "Ich esse Gemüse. = Es ēdu dārzeņus.",
-        "Wir essen Obst. = Mēs ēdam augļus.",
-        "Abi vārdi ir das un tikai vienskaitlī."
-      ],
-      "tip": {
-        "left": "Ja runā par visiem dārzeņiem kopā, lieto das Gemüse. Ja par visiem augļiem kopā, lieto das Obst. Netaisi mākslīgu daudzskaitli.",
-        "rightTitle": "ātri",
-        "rightItems": [
-          {
-            "de": "das Gemüse",
-            "lv": "dārzeņi",
-            "separator": "="
-          },
-          {
-            "de": "das Obst",
-            "lv": "augļi",
-            "separator": "="
-          }
-        ]
-      },
       "important": [
-        "Nav pareizi: die Gemüse, die Obsts.",
-        "Pareizi: das Gemüse, das Obst.",
-        "Latviešu daudzskaitlis tulkojumā ir normāls, bet vāciski paliek vienskaitlis."
-      ],
-      "mistakes": [
-        {
-          "wrong": "die Gemüse",
-          "right": "das Gemüse"
-        },
-        {
-          "wrong": "die Obsts",
-          "right": "das Obst"
-        }
-      ],
-      "remember": [
-        "das Gemüse = dārzeņi (kopumā).",
-        "das Obst = augļi (kopumā).",
-        "Abi — tikai vienskaitlis."
+        "Nepareizi: die Obsts → Pareizi: das Obst",
+        "das Obst = augļi (kopumā)."
       ],
       "sectionAccents": {
-        "lead": {
-          "purple": [
-            "das",
-            "vienskaitlī"
-          ],
-          "blue": [
-            "nekatras"
-          ]
-        },
         "explanation": {
           "green": [
-            "Gemüse",
-            "das Gemüse"
-          ],
-          "yellow": [
-            "Obst",
-            "das Obst"
+            "das Obst",
+            "obst"
           ],
           "purple": [
-            "dārzeņus",
-            "augļus",
-            "daudzskaitli",
-            "vienskaitļa"
+            "augļi"
           ],
-          "blue": [
-            "ist",
-            "sind"
+          "yellow": [
+            "Obst"
           ]
         },
-        "comparisonCards": [
-          {
-            "lv": {
-              "purple": [
-                "dārzeņi"
-              ]
-            },
-            "de": {
-              "green": [
-                "Gemüse"
-              ]
-            },
-            "description": {
-              "purple": [
-                "Dārzeņi"
-              ],
-              "green": [
-                "Gemüse"
-              ],
-              "red": [
-                "die Gemüse"
-              ]
-            },
-            "example": {
-              "green": [
-                "Gemüse"
-              ],
-              "purple": [
-                "dārzeņus",
-                "ēdu"
-              ]
-            }
-          },
-          {
-            "lv": {
-              "purple": [
-                "augļi"
-              ]
-            },
-            "de": {
-              "yellow": [
-                "Obst"
-              ]
-            },
-            "description": {
-              "purple": [
-                "Augļi"
-              ],
-              "yellow": [
-                "Obst"
-              ],
-              "red": [
-                "die Obsts"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "Obst"
-              ],
-              "purple": [
-                "augļu",
-                "ēdam"
-              ]
-            }
-          }
-        ],
         "examples": [
           {
             "de": {
               "green": [
-                "Gemüse"
+                "das Obst",
+                "obst"
               ]
             },
-            "lv": {
-              "purple": [
-                "dārzeņus",
-                "ēdu"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "Gemüse"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "dārzeņi",
-                "svaigi"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "Gemüse"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "dārzeņus",
-                "pērkam"
-              ]
-            }
-          },
-          {
-            "de": {
-              "yellow": [
-                "Obst"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "augļu",
-                "ēdam"
-              ]
-            }
-          },
-          {
-            "de": {
-              "yellow": [
-                "Obst"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "augļi",
-                "veselīgi"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "Gemüse"
-              ],
-              "yellow": [
-                "Obst"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "augļi",
-                "dārzeņi"
-              ]
-            }
-          }
-        ],
-        "comparisonTable": [
-          {
-            "lv": {
-              "purple": [
-                "dārzeņi"
-              ]
-            },
-            "de": {
-              "green": [
-                "Gemüse"
-              ]
-            },
-            "example": {
-              "green": [
-                "Gemüse"
-              ]
-            },
-            "translation": {
-              "purple": [
-                "dārzeņus"
-              ]
-            }
-          },
-          {
             "lv": {
               "purple": [
                 "augļi"
               ]
-            },
-            "de": {
-              "yellow": [
-                "Obst"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "Obst"
-              ]
-            },
-            "translation": {
-              "purple": [
-                "augļu"
-              ]
             }
           },
           {
+            "de": {
+              "green": [
+                "das Obst",
+                "obst"
+              ]
+            },
             "lv": {
               "purple": [
-                "svaigi"
-              ]
-            },
-            "de": {
-              "green": [
-                "Gemüse"
-              ]
-            },
-            "example": {
-              "green": [
-                "frisch"
-              ]
-            },
-            "translation": {
-              "purple": [
-                "svaigi"
+                "augļi"
               ]
             }
           },
           {
+            "de": {
+              "green": [
+                "das Obst",
+                "obst"
+              ]
+            },
             "lv": {
               "purple": [
-                "veselīgi"
+                "augļi"
               ]
-            },
+            }
+          },
+          {
             "de": {
-              "yellow": [
-                "Obst"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "gesund"
-              ]
-            },
-            "translation": {
-              "purple": [
-                "veselīgi"
-              ]
-            }
-          }
-        ],
-        "importantComparison": [
-          {
-            "green": [
-              "Gemüse"
-            ],
-            "purple": [
-              "dārzeņus"
-            ]
-          },
-          {
-            "yellow": [
-              "Obst"
-            ],
-            "purple": [
-              "augļus"
-            ]
-          },
-          {
-            "green": [
-              "das"
-            ],
-            "purple": [
-              "vienskaitlī"
-            ]
-          }
-        ],
-        "tip": {
-          "left": {
-            "green": [
-              "Gemüse"
-            ],
-            "yellow": [
-              "Obst"
-            ]
-          },
-          "rightItems": [
-            {
-              "de": {
-                "green": [
-                  "Gemüse"
-                ]
-              },
-              "lv": {
-                "purple": [
-                  "dārzeņi"
-                ]
-              }
-            },
-            {
-              "de": {
-                "yellow": [
-                  "Obst"
-                ]
-              },
-              "lv": {
-                "purple": [
-                  "augļi"
-                ]
-              }
-            }
-          ]
-        },
-        "important": [
-          {
-            "red": [
-              "die Gemüse",
-              "die Obsts"
-            ],
-            "green": [
-              "das Gemüse"
-            ],
-            "yellow": [
-              "das Obst"
-            ]
-          },
-          {
-            "purple": [
-              "daudzskaitlis",
-              "vienskaitlis"
-            ]
-          }
-        ],
-        "mistakes": [
-          {
-            "wrong": {
-              "red": [
-                "die Gemüse"
-              ]
-            },
-            "right": {
               "green": [
-                "das Gemüse"
+                "das Obst",
+                "obst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "augļi"
               ]
             }
           },
           {
-            "wrong": {
-              "red": [
-                "die Obsts"
+            "de": {
+              "green": [
+                "das Obst",
+                "obst"
               ]
             },
-            "right": {
-              "yellow": [
-                "das Obst"
+            "lv": {
+              "purple": [
+                "augļi"
               ]
             }
           }
         ],
-        "remember": [
+        "tip": [
           {
-            "green": [
-              "Gemüse"
-            ],
-            "purple": [
-              "dārzeņi"
-            ]
-          },
-          {
-            "yellow": [
-              "Obst"
-            ],
             "purple": [
               "augļi"
             ]
           }
+        ],
+        "important": [
+          {
+            "green": [
+              "das Obst"
+            ]
+          }
         ]
       }
-    }
+    },
+    "de_article": "das"
   },
   {
-    "de": "Ferien • Urlaub",
-    "lv": "Brīvdienas • Atvaļinājums",
+    "de": "Ferien",
+    "lv": "brīvdienas (skola)",
     "level": "A1",
     "study": {
-      "id": "compare-ferien-urlaub",
-      "layout": "comparisonStudy",
-      "title": "Brīvdienas • Atvaļinājums",
-      "subtitle": "die Ferien • der Urlaub",
-      "lead": "die Ferien ir skolas brīvdienas; der Urlaub ir atvaļinājums no darba.",
-      "explanation": "die Ferien ir tikai daudzskaitlis — vienmēr daudzskaitlī (in den Ferien). Tas attiecas uz skolu, universitāti vai studijām. der Urlaub ir tikai vienskaitlis — atvaļinājums no darba (im Urlaub). Abi nozīmē brīvu laiku, bet konteksts ir atšķirīgs.",
-      "words": [
-        {
-          "icon": "🏫",
-          "lv": "brīvdienas (skola)",
-          "de": "die Ferien",
-          "accent": "blue",
-          "explanation": [
-            "Galvenā doma: tikai daudzskaitlis. Skolas vai studiju brīvlaiks — vienmēr daudzskaitlī.",
-            "die Ferien galvenokārt nozīmē: skolas brīvlaiiks.",
-            "Bieži raksturo: tikai daudzskaitlis.",
-            "die Ferien ir tikai daudzskaitlis — vienmēr daudzskaitlī (in den Ferien).",
-            "Šo vārdu salīdzini ar pārējiem šajā kartītē, lai izvēlētos pareizo variantu."
-          ],
-          "examples": [
-            {
-              "de": "In den Ferien fahren wir ans Meer.",
-              "lv": "Brīvdienās mēs braucam pie jūras."
-            },
-            {
-              "de": "In den Ferien habe ich viel Zeit.",
-              "lv": "brīvdienās man ir daudz laika."
-            },
-            {
-              "de": "Was macht ihr in den Ferien?",
-              "lv": "ko jūs darāt brīvdienās?"
-            },
-            {
-              "de": "Die Schule ist in den Ferien zu.",
-              "lv": "skola brīvdienās ir slēgta."
-            },
-            {
-              "de": "In den Ferien fahren wir ans Meer.",
-              "lv": "brīvdienās mēs braucam pie jūras."
-            },
-            {
-              "de": "In den Ferien",
-              "lv": "brīvdienās (skola)."
-            }
-          ],
-          "tip": [
-            "Skola un studijas: die Ferien. Darbs: der Urlaub.",
-            "tikai daudzskaitlis. Skolas vai studiju brīvlaiks — vienmēr daudzskaitlī."
-          ],
-          "important": [
-            "Ferien vienmēr ar datīvu: in den Ferien.",
-            "Nepareizi: in der Ferien → Pareizi: in den Ferien",
-            "Skola: die Ferien (tikai daudzskaitlī).",
-            "tikai daudzskaitlis. Skolas vai studiju brīvlaiks — vienmēr daudzskaitlī."
-          ],
-          "sectionAccents": {
-            "explanation": {
-              "blue": [
-                "die Ferien",
-                "ferien"
-              ],
-              "purple": [
-                "brīvdienas",
-                "skola"
-              ],
-              "green": [
-                "Ferien"
-              ]
-            },
-            "examples": [
-              {
-                "de": {
-                  "blue": [
-                    "die Ferien",
-                    "ferien"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "brīvdienas (skola)"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "die Ferien",
-                    "ferien"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "brīvdienas (skola)"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "die Ferien",
-                    "ferien"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "brīvdienas (skola)"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "die Ferien",
-                    "ferien"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "brīvdienas (skola)"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "die Ferien",
-                    "ferien"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "brīvdienas (skola)"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "die Ferien",
-                    "ferien"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "brīvdienas (skola)"
-                  ]
-                }
-              }
-            ],
-            "tip": [
-              {
-                "purple": [
-                  "brīvdienas (skola)"
-                ]
-              }
-            ],
-            "important": [
-              {
-                "blue": [
-                  "die Ferien"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "icon": "🌴",
-          "lv": "atvaļinājums",
-          "de": "der Urlaub",
-          "accent": "green",
-          "explanation": [
-            "Galvenā doma: tikai vienskaitlis. Atvaļinājums no darba — vienmēr vienskaitlī.",
-            "der Urlaub galvenokārt nozīmē: brīvais laiks no darba.",
-            "Bieži raksturo: tikai vienskaitlis.",
-            "der Urlaub ir tikai vienskaitlis — atvaļinājums no darba (im Urlaub).",
-            "Šo vārdu salīdzini ar pārējiem šajā kartītē, lai izvēlētos pareizo variantu."
-          ],
-          "examples": [
-            {
-              "de": "Mein Vater ist im Urlaub.",
-              "lv": "Mans tēvs ir atvaļinājumā."
-            },
-            {
-              "de": "Mein Vater ist im Urlaub.",
-              "lv": "mans tēvs ir atvaļinājumā."
-            },
-            {
-              "de": "Nächste Woche habe ich Urlaub.",
-              "lv": "nākamnedēļ man ir atvaļinājums."
-            },
-            {
-              "de": "Wir machen Urlaub in Spanien.",
-              "lv": "mēs pavadām atvaļinājumu Spānijā."
-            },
-            {
-              "de": "im Urlaub",
-              "lv": "atvaļinājumā (darbs)."
-            }
-          ],
-          "tip": [
-            "Skola un studijas: die Ferien. Darbs: der Urlaub.",
-            "tikai vienskaitlis. Atvaļinājums no darba — vienmēr vienskaitlī."
-          ],
-          "important": [
-            "Nav pareizi: die Ferie, der Urlaube (A1 līmenī).",
-            "Urlaub: im Urlaub sein / Urlaub machen.",
-            "Nepareizi: die Urlaube → Pareizi: der Urlaub",
-            "Darbs: der Urlaub (tikai vienskaitlī)."
-          ],
-          "sectionAccents": {
-            "explanation": {
-              "green": [
-                "der Urlaub",
-                "urlaub"
-              ],
-              "purple": [
-                "atvaļinājums"
-              ],
-              "yellow": [
-                "Urlaub"
-              ]
-            },
-            "examples": [
-              {
-                "de": {
-                  "green": [
-                    "der Urlaub",
-                    "urlaub"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "atvaļinājums"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "der Urlaub",
-                    "urlaub"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "atvaļinājums"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "der Urlaub",
-                    "urlaub"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "atvaļinājums"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "der Urlaub",
-                    "urlaub"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "atvaļinājums"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "der Urlaub",
-                    "urlaub"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "atvaļinājums"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "der Urlaub",
-                    "urlaub"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "atvaļinājums"
-                  ]
-                }
-              }
-            ],
-            "tip": [
-              {
-                "purple": [
-                  "atvaļinājums"
-                ]
-              }
-            ],
-            "important": [
-              {
-                "green": [
-                  "der Urlaub"
-                ]
-              }
-            ]
-          }
-        }
+      "id": "a1-ferien",
+      "layout": "standardStudy",
+      "translation": "brīvdienas (skola)",
+      "explanation": [
+        "Galvenā doma: tikai daudzskaitlis. Skolas vai studiju brīvlaiks — vienmēr daudzskaitlī.",
+        "die Ferien galvenokārt nozīmē: skolas brīvlaiiks.",
+        "Bieži raksturo: tikai daudzskaitlis.",
+        "die Ferien ir tikai daudzskaitlis — vienmēr daudzskaitlī (in den Ferien)."
       ],
       "examples": [
+        {
+          "de": "In den Ferien fahren wir ans Meer.",
+          "lv": "Brīvdienās mēs braucam pie jūras."
+        },
         {
           "de": "In den Ferien habe ich viel Zeit.",
           "lv": "brīvdienās man ir daudz laika."
@@ -26146,6 +22481,160 @@ const A1_WORDS = [
         {
           "de": "Was macht ihr in den Ferien?",
           "lv": "ko jūs darāt brīvdienās?"
+        },
+        {
+          "de": "Die Schule ist in den Ferien zu.",
+          "lv": "skola brīvdienās ir slēgta."
+        },
+        {
+          "de": "In den Ferien fahren wir ans Meer.",
+          "lv": "brīvdienās mēs braucam pie jūras."
+        },
+        {
+          "de": "In den Ferien",
+          "lv": "brīvdienās (skola)."
+        }
+      ],
+      "tip": [
+        "tikai daudzskaitlis. Skolas vai studiju brīvlaiks — vienmēr daudzskaitlī.",
+        "Izmanto die Ferien, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "Ferien vienmēr ar datīvu: in den Ferien.",
+        "Nepareizi: in der Ferien → Pareizi: in den Ferien",
+        "Skola: die Ferien (tikai daudzskaitlī).",
+        "tikai daudzskaitlis. Skolas vai studiju brīvlaiks — vienmēr daudzskaitlī."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Ferien",
+            "ferien"
+          ],
+          "purple": [
+            "brīvdienas",
+            "skola"
+          ],
+          "green": [
+            "Ferien"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "die Ferien",
+                "ferien"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "brīvdienas (skola)"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "die Ferien",
+                "ferien"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "brīvdienas (skola)"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "die Ferien",
+                "ferien"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "brīvdienas (skola)"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "die Ferien",
+                "ferien"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "brīvdienas (skola)"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "die Ferien",
+                "ferien"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "brīvdienas (skola)"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "die Ferien",
+                "ferien"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "brīvdienas (skola)"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "brīvdienas (skola)"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "die Ferien"
+            ]
+          }
+        ]
+      }
+    },
+    "de_article": "die"
+  },
+  {
+    "de": "Urlaub",
+    "lv": "atvaļinājums",
+    "level": "A1",
+    "study": {
+      "id": "a1-urlaub",
+      "layout": "standardStudy",
+      "translation": "atvaļinājums",
+      "explanation": [
+        "Galvenā doma: tikai vienskaitlis. Atvaļinājums no darba — vienmēr vienskaitlī.",
+        "der Urlaub galvenokārt nozīmē: brīvais laiks no darba.",
+        "Bieži raksturo: tikai vienskaitlis.",
+        "der Urlaub ir tikai vienskaitlis — atvaļinājums no darba (im Urlaub)."
+      ],
+      "examples": [
+        {
+          "de": "Mein Vater ist im Urlaub.",
+          "lv": "Mans tēvs ir atvaļinājumā."
         },
         {
           "de": "Mein Vater ist im Urlaub.",
@@ -26156,186 +22645,43 @@ const A1_WORDS = [
           "lv": "nākamnedēļ man ir atvaļinājums."
         },
         {
-          "de": "Die Schule ist in den Ferien zu.",
-          "lv": "skola brīvdienās ir slēgta."
-        },
-        {
           "de": "Wir machen Urlaub in Spanien.",
           "lv": "mēs pavadām atvaļinājumu Spānijā."
-        }
-      ],
-      "comparisonTable": [
-        {
-          "lv": "brīvdienas",
-          "de": "die Ferien",
-          "meaning": "skolas brīvlaiiks",
-          "describes": "tikai daudzskaitlis",
-          "example": "In den Ferien fahren wir ans Meer.",
-          "translation": "brīvdienās mēs braucam pie jūras."
         },
         {
-          "lv": "atvaļinājums",
-          "de": "der Urlaub",
-          "meaning": "brīvais laiks no darba",
-          "describes": "tikai vienskaitlis",
-          "example": "Mein Vater ist im Urlaub.",
-          "translation": "mans tēvs ir atvaļinājumā."
-        },
-        {
-          "lv": "brīvdienās",
-          "de": "in den Ferien",
-          "meaning": "skolas konteksts",
-          "describes": "kam? + Pl.",
-          "example": "Was macht ihr in den Ferien?",
-          "translation": "ko jūs darāt brīvdienās?"
-        },
-        {
-          "lv": "atvaļinājumā",
           "de": "im Urlaub",
-          "meaning": "darba atvaļinājums",
-          "describes": "kam? + Sg.",
-          "example": "Nächste Woche habe ich Urlaub.",
-          "translation": "nākamnedēļ man ir atvaļinājums."
+          "lv": "atvaļinājumā (darbs)."
         }
       ],
-      "importantComparison": [
-        "In den Ferien = brīvdienās (skola).",
-        "im Urlaub = atvaļinājumā (darbs).",
-        "die Ferien nav vienskaitlī; der Urlaub nav daudzskaitlī."
+      "tip": [
+        "tikai vienskaitlis. Atvaļinājums no darba — vienmēr vienskaitlī.",
+        "Izmanto der Urlaub, kad konteksts atbilst šai nozīmei."
       ],
-      "tip": {
-        "left": "Skola un studijas: die Ferien. Darbs: der Urlaub.",
-        "rightTitle": "ātri",
-        "rightItems": [
-          {
-            "de": "in den Ferien",
-            "lv": "brīvdienās",
-            "separator": "="
-          },
-          {
-            "de": "im Urlaub",
-            "lv": "atvaļinājumā",
-            "separator": "="
-          }
-        ]
-      },
       "important": [
         "Nav pareizi: die Ferie, der Urlaube (A1 līmenī).",
-        "Ferien vienmēr ar datīvu: in den Ferien.",
-        "Urlaub: im Urlaub sein / Urlaub machen."
-      ],
-      "mistakes": [
-        {
-          "wrong": "in der Ferien",
-          "right": "in den Ferien"
-        },
-        {
-          "wrong": "die Urlaube",
-          "right": "der Urlaub"
-        }
-      ],
-      "remember": [
-        "Skola: die Ferien (tikai daudzskaitlī).",
+        "Urlaub: im Urlaub sein / Urlaub machen.",
+        "Nepareizi: die Urlaube → Pareizi: der Urlaub",
         "Darbs: der Urlaub (tikai vienskaitlī)."
       ],
       "sectionAccents": {
-        "lead": {
+        "explanation": {
           "green": [
-            "Ferien"
+            "der Urlaub",
+            "urlaub"
+          ],
+          "purple": [
+            "atvaļinājums"
           ],
           "yellow": [
             "Urlaub"
-          ],
-          "purple": [
-            "brīvdienas",
-            "atvaļinājums"
           ]
         },
-        "comparisonCards": [
-          {
-            "lv": {
-              "purple": [
-                "brīvdienas",
-                "skola"
-              ]
-            },
-            "de": {
-              "green": [
-                "Ferien"
-              ]
-            },
-            "example": {
-              "green": [
-                "Ferien"
-              ],
-              "purple": [
-                "brīvdienās"
-              ]
-            }
-          },
-          {
-            "lv": {
-              "purple": [
-                "atvaļinājums"
-              ]
-            },
-            "de": {
-              "yellow": [
-                "Urlaub"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "Urlaub"
-              ],
-              "purple": [
-                "atvaļinājumā"
-              ]
-            }
-          }
-        ],
         "examples": [
           {
             "de": {
               "green": [
-                "Ferien"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "brīvdienās",
-                "laika"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "Ferien"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "brīvdienās"
-              ]
-            }
-          },
-          {
-            "de": {
-              "yellow": [
-                "Urlaub"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "atvaļinājumā"
-              ]
-            }
-          },
-          {
-            "de": {
-              "yellow": [
-                "Urlaub"
+                "der Urlaub",
+                "urlaub"
               ]
             },
             "lv": {
@@ -26347,544 +22693,106 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "Ferien"
+                "der Urlaub",
+                "urlaub"
               ]
             },
-            "lv": {
-              "purple": [
-                "brīvdienās",
-                "slēgta"
-              ]
-            }
-          },
-          {
-            "de": {
-              "yellow": [
-                "Urlaub"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "atvaļinājumu"
-              ]
-            }
-          }
-        ],
-        "comparisonTable": [
-          {
-            "lv": {
-              "purple": [
-                "brīvdienas"
-              ]
-            },
-            "de": {
-              "green": [
-                "Ferien"
-              ]
-            },
-            "example": {
-              "green": [
-                "Ferien"
-              ]
-            },
-            "translation": {
-              "purple": [
-                "brīvdienās"
-              ]
-            }
-          },
-          {
             "lv": {
               "purple": [
                 "atvaļinājums"
               ]
-            },
+            }
+          },
+          {
             "de": {
-              "yellow": [
-                "Urlaub"
+              "green": [
+                "der Urlaub",
+                "urlaub"
               ]
             },
-            "example": {
-              "yellow": [
-                "Urlaub"
-              ]
-            },
-            "translation": {
+            "lv": {
               "purple": [
-                "atvaļinājumā"
+                "atvaļinājums"
               ]
             }
           },
           {
-            "lv": {
-              "purple": [
-                "brīvdienās"
-              ]
-            },
             "de": {
               "green": [
-                "Ferien"
+                "der Urlaub",
+                "urlaub"
               ]
             },
-            "example": {
-              "green": [
-                "Ferien"
-              ]
-            },
-            "translation": {
+            "lv": {
               "purple": [
-                "brīvdienās"
+                "atvaļinājums"
               ]
             }
           },
           {
+            "de": {
+              "green": [
+                "der Urlaub",
+                "urlaub"
+              ]
+            },
             "lv": {
               "purple": [
-                "atvaļinājumā"
+                "atvaļinājums"
               ]
-            },
+            }
+          },
+          {
             "de": {
-              "yellow": [
-                "Urlaub"
+              "green": [
+                "der Urlaub",
+                "urlaub"
               ]
             },
-            "example": {
-              "yellow": [
-                "Urlaub"
-              ]
-            },
-            "translation": {
+            "lv": {
               "purple": [
                 "atvaļinājums"
               ]
             }
           }
         ],
-        "importantComparison": [
+        "tip": [
           {
-            "green": [
-              "Ferien"
-            ],
             "purple": [
-              "brīvdienās"
-            ]
-          },
-          {
-            "yellow": [
-              "Urlaub"
-            ],
-            "purple": [
-              "atvaļinājumā"
+              "atvaļinājums"
             ]
           }
         ],
-        "tip": {
-          "left": {
-            "green": [
-              "Ferien"
-            ],
-            "yellow": [
-              "Urlaub"
-            ]
-          },
-          "rightItems": [
-            {
-              "de": {
-                "green": [
-                  "Ferien"
-                ]
-              },
-              "lv": {
-                "purple": [
-                  "brīvdienās"
-                ]
-              }
-            },
-            {
-              "de": {
-                "yellow": [
-                  "Urlaub"
-                ]
-              },
-              "lv": {
-                "purple": [
-                  "atvaļinājumā"
-                ]
-              }
-            }
-          ]
-        },
         "important": [
           {
             "green": [
-              "Ferien"
-            ],
-            "yellow": [
-              "Urlaub"
-            ]
-          },
-          {
-            "green": [
-              "Ferien"
-            ],
-            "purple": [
-              "den Ferien"
-            ]
-          }
-        ],
-        "mistakes": [
-          {
-            "wrong": {
-              "red": [
-                "der Ferien"
-              ]
-            },
-            "right": {
-              "green": [
-                "den Ferien"
-              ]
-            }
-          },
-          {
-            "wrong": {
-              "red": [
-                "Urlaube"
-              ]
-            },
-            "right": {
-              "yellow": [
-                "Urlaub"
-              ]
-            }
-          }
-        ],
-        "remember": [
-          {
-            "green": [
-              "Ferien"
-            ]
-          },
-          {
-            "yellow": [
-              "Urlaub"
+              "der Urlaub"
             ]
           }
         ]
       }
-    }
+    },
+    "de_article": "der"
   },
   {
-    "de": "Stadt • Staat",
-    "lv": "Pilsēta • Valsts",
+    "de": "Stadt",
+    "lv": "pilsēta",
     "level": "A1",
     "study": {
-      "id": "compare-stadt-staat",
-      "layout": "comparisonStudy",
-      "title": "Pilsēta • Valsts",
-      "subtitle": "die Stadt • der Staat",
-      "lead": "die Stadt ir pilsēta; der Staat ir valsts kā politiska vienība.",
-      "explanation": "die Stadt apzīmē pilsētu — apdzīvotu vietu ar ielām, mājām un centru (Berlin ist eine Stadt). der Staat nozīmē valsti vai politisku vienību (Deutschland ist ein Staat). A1 līmenī abi ir bieži, bet konteksts ir atšķirīgs.",
-      "words": [
-        {
-          "icon": "🏙",
-          "lv": "pilsēta",
-          "de": "die Stadt",
-          "accent": "blue",
-          "explanation": [
-            "Galvenā doma: Apdzīvota vieta — pilsēta ar ielām un centru. Daudzskaitlī: die Städte.",
-            "die Stadt galvenokārt nozīmē: apdzīvota vieta.",
-            "Bieži raksturo: pilsēta (Sg./Pl.).",
-            "die Stadt apzīmē pilsētu — apdzīvotu vietu ar ielām, mājām un centru (Berlin ist eine Stadt).",
-            "Šo vārdu salīdzini ar pārējiem šajā kartītē, lai izvēlētos pareizo variantu."
-          ],
-          "examples": [
-            {
-              "de": "Ich wohne in einer großen Stadt.",
-              "lv": "Es dzīvoju lielā pilsētā."
-            },
-            {
-              "de": "Ich wohne in einer großen Stadt.",
-              "lv": "es dzīvoju lielā pilsētā."
-            },
-            {
-              "de": "Berlin ist eine schöne Stadt.",
-              "lv": "berlīne ir skaista pilsēta."
-            },
-            {
-              "de": "In der Stadt gibt es viele Geschäfte.",
-              "lv": "pilsētā ir daudz veikalu."
-            },
-            {
-              "de": "die Stadt",
-              "lv": "pilsēta (vieta)."
-            }
-          ],
-          "tip": [
-            "Par vietu, kur dzīvo cilvēki: die Stadt. Par valsti kā politisku vienību: der Staat.",
-            "Apdzīvota vieta — pilsēta ar ielām un centru. Daudzskaitlī: die Städte."
-          ],
-          "important": [
-            "die Stadt: eine Stadt, die Städte.",
-            "Nav sinonīmi — Stadt ir vieta, Staat ir valsts.",
-            "Nepareizi: in dem Staat wohnen → Pareizi: in der Stadt wohnen",
-            "Pilsēta: die Stadt → in der Stadt."
-          ],
-          "sectionAccents": {
-            "explanation": {
-              "blue": [
-                "Stadt"
-              ],
-              "purple": [
-                "pilsēta"
-              ]
-            },
-            "examples": [
-              {
-                "de": {
-                  "blue": [
-                    "die Stadt",
-                    "stadt"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "pilsēta"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "die Stadt",
-                    "stadt"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "pilsēta"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "die Stadt",
-                    "stadt"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "pilsēta"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "die Stadt",
-                    "stadt"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "pilsēta"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "die Stadt",
-                    "stadt"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "pilsēta"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "die Stadt",
-                    "stadt"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "pilsēta"
-                  ]
-                }
-              }
-            ],
-            "tip": [
-              {
-                "purple": [
-                  "pilsēta"
-                ]
-              }
-            ],
-            "important": [
-              {
-                "blue": [
-                  "die Stadt"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "icon": "🏛",
-          "lv": "valsts",
-          "de": "der Staat",
-          "accent": "green",
-          "explanation": [
-            "Galvenā doma: Valsts kā politiska vienība. Daudzskaitlī: die Staaten.",
-            "der Staat galvenokārt nozīmē: politiska vienība.",
-            "Bieži raksturo: valsts (Sg./Pl.).",
-            "der Staat nozīmē valsti vai politisku vienību (Deutschland ist ein Staat).",
-            "Šo vārdu salīdzini ar pārējiem šajā kartītē, lai izvēlētos pareizo variantu."
-          ],
-          "examples": [
-            {
-              "de": "Deutschland ist ein Staat in Europa.",
-              "lv": "Vācija ir valsts Eiropā."
-            },
-            {
-              "de": "Deutschland ist ein Staat in Europa.",
-              "lv": "vācija ir valsts eiropā."
-            },
-            {
-              "de": "Der Staat hilft den Menschen.",
-              "lv": "valsts palīdz cilvēkiem."
-            },
-            {
-              "de": "Viele Staaten sind in der EU.",
-              "lv": "daudzas valstis ir ES."
-            },
-            {
-              "de": "der Staat",
-              "lv": "valsts (politiska vienība)."
-            }
-          ],
-          "tip": [
-            "Par vietu, kur dzīvo cilvēki: die Stadt. Par valsti kā politisku vienību: der Staat.",
-            "Valsts kā politiska vienība. Daudzskaitlī: die Staaten."
-          ],
-          "important": [
-            "der Staat: ein Staat, die Staaten.",
-            "Nav sinonīmi — Stadt ir vieta, Staat ir valsts.",
-            "Nepareizi: in dem Staat wohnen → Pareizi: in der Stadt wohnen",
-            "Nepareizi: die Staat → Pareizi: der Staat"
-          ],
-          "sectionAccents": {
-            "explanation": {
-              "green": [
-                "Staat"
-              ],
-              "purple": [
-                "valsts"
-              ]
-            },
-            "examples": [
-              {
-                "de": {
-                  "green": [
-                    "der Staat",
-                    "staat"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "valsts"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "der Staat",
-                    "staat"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "valsts"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "der Staat",
-                    "staat"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "valsts"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "der Staat",
-                    "staat"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "valsts"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "der Staat",
-                    "staat"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "valsts"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "der Staat",
-                    "staat"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "valsts"
-                  ]
-                }
-              }
-            ],
-            "tip": [
-              {
-                "purple": [
-                  "valsts"
-                ]
-              }
-            ],
-            "important": [
-              {
-                "green": [
-                  "der Staat"
-                ]
-              }
-            ]
-          }
-        }
+      "id": "a1-stadt",
+      "layout": "standardStudy",
+      "translation": "pilsēta",
+      "explanation": [
+        "Galvenā doma: Apdzīvota vieta — pilsēta ar ielām un centru. Daudzskaitlī: die Städte.",
+        "die Stadt galvenokārt nozīmē: apdzīvota vieta.",
+        "Bieži raksturo: pilsēta (Sg./Pl.).",
+        "die Stadt apzīmē pilsētu — apdzīvotu vietu ar ielām, mājām un centru (Berlin ist eine Stadt)."
       ],
       "examples": [
+        {
+          "de": "Ich wohne in einer großen Stadt.",
+          "lv": "Es dzīvoju lielā pilsētā."
+        },
         {
           "de": "Ich wohne in einer großen Stadt.",
           "lv": "es dzīvoju lielā pilsētā."
@@ -26898,6 +22806,145 @@ const A1_WORDS = [
           "lv": "pilsētā ir daudz veikalu."
         },
         {
+          "de": "die Stadt",
+          "lv": "pilsēta (vieta)."
+        }
+      ],
+      "tip": [
+        "Apdzīvota vieta — pilsēta ar ielām un centru. Daudzskaitlī: die Städte.",
+        "Izmanto die Stadt, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "die Stadt: eine Stadt, die Städte.",
+        "Pilsēta: die Stadt → in der Stadt."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Stadt"
+          ],
+          "purple": [
+            "pilsēta"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "die Stadt",
+                "stadt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pilsēta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "die Stadt",
+                "stadt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pilsēta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "die Stadt",
+                "stadt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pilsēta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "die Stadt",
+                "stadt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pilsēta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "die Stadt",
+                "stadt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pilsēta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "die Stadt",
+                "stadt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pilsēta"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "pilsēta"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "die Stadt"
+            ]
+          }
+        ]
+      }
+    },
+    "de_article": "die"
+  },
+  {
+    "de": "Staat",
+    "lv": "valsts",
+    "level": "A1",
+    "study": {
+      "id": "a1-staat",
+      "layout": "standardStudy",
+      "translation": "valsts",
+      "explanation": [
+        "Galvenā doma: Valsts kā politiska vienība. Daudzskaitlī: die Staaten.",
+        "der Staat galvenokārt nozīmē: politiska vienība.",
+        "Bieži raksturo: valsts (Sg./Pl.).",
+        "der Staat nozīmē valsti vai politisku vienību (Deutschland ist ein Staat)."
+      ],
+      "examples": [
+        {
+          "de": "Deutschland ist ein Staat in Europa.",
+          "lv": "Vācija ir valsts Eiropā."
+        },
+        {
           "de": "Deutschland ist ein Staat in Europa.",
           "lv": "vācija ir valsts eiropā."
         },
@@ -26908,180 +22955,35 @@ const A1_WORDS = [
         {
           "de": "Viele Staaten sind in der EU.",
           "lv": "daudzas valstis ir ES."
-        }
-      ],
-      "comparisonTable": [
-        {
-          "lv": "pilsēta",
-          "de": "die Stadt",
-          "meaning": "apdzīvota vieta",
-          "describes": "pilsēta (Sg./Pl.)",
-          "example": "Ich wohne in einer großen Stadt.",
-          "translation": "es dzīvoju lielā pilsētā."
         },
         {
-          "lv": "valsts",
           "de": "der Staat",
-          "meaning": "politiska vienība",
-          "describes": "valsts (Sg./Pl.)",
-          "example": "Deutschland ist ein Staat in Europa.",
-          "translation": "vācija ir valsts eiropā."
-        },
-        {
-          "lv": "pilsētā",
-          "de": "in der Stadt",
-          "meaning": "pilsētas teritorijā",
-          "describes": "kam? + Sg.",
-          "example": "In der Stadt gibt es viele Geschäfte.",
-          "translation": "pilsētā ir daudz veikalu."
-        },
-        {
-          "lv": "valstīs",
-          "de": "die Staaten",
-          "meaning": "vairākas valstis",
-          "describes": "daudzskaitļa teikuma priekšmets",
-          "example": "Viele Staaten sind in der EU.",
-          "translation": "daudzas valstis ir ES."
+          "lv": "valsts (politiska vienība)."
         }
       ],
-      "importantComparison": [
-        "die Stadt = pilsēta (vieta).",
-        "der Staat = valsts (politiska vienība).",
-        "in der Stadt ≠ im Staat — atšķirīgs konteksts."
+      "tip": [
+        "Valsts kā politiska vienība. Daudzskaitlī: die Staaten.",
+        "Izmanto der Staat, kad konteksts atbilst šai nozīmei."
       ],
-      "tip": {
-        "left": "Par vietu, kur dzīvo cilvēki: die Stadt. Par valsti kā politisku vienību: der Staat.",
-        "rightTitle": "ātri",
-        "rightItems": [
-          {
-            "de": "in der Stadt",
-            "lv": "pilsētā",
-            "separator": "="
-          },
-          {
-            "de": "ein Staat",
-            "lv": "valsts",
-            "separator": "="
-          }
-        ]
-      },
       "important": [
-        "die Stadt: eine Stadt, die Städte.",
         "der Staat: ein Staat, die Staaten.",
-        "Nav sinonīmi — Stadt ir vieta, Staat ir valsts."
-      ],
-      "mistakes": [
-        {
-          "wrong": "in dem Staat wohnen",
-          "right": "in der Stadt wohnen"
-        },
-        {
-          "wrong": "die Staat",
-          "right": "der Staat"
-        }
-      ],
-      "remember": [
-        "Pilsēta: die Stadt → in der Stadt.",
-        "Valsts: der Staat → ein Staat, die Staaten."
+        "Nepareizi: die Staat → Pareizi: der Staat"
       ],
       "sectionAccents": {
-        "lead": {
-          "blue": [
-            "Stadt"
-          ],
+        "explanation": {
           "green": [
             "Staat"
           ],
           "purple": [
-            "pilsēta",
             "valsts"
           ]
         },
-        "comparisonCards": [
-          {
-            "lv": {
-              "purple": [
-                "pilsēta"
-              ]
-            },
-            "de": {
-              "blue": [
-                "Stadt"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Stadt"
-              ],
-              "purple": [
-                "pilsētā"
-              ]
-            }
-          },
-          {
-            "lv": {
-              "purple": [
-                "valsts"
-              ]
-            },
-            "de": {
-              "green": [
-                "Staat"
-              ]
-            },
-            "example": {
-              "green": [
-                "Staat"
-              ],
-              "purple": [
-                "valsts"
-              ]
-            }
-          }
-        ],
         "examples": [
           {
             "de": {
-              "blue": [
-                "Stadt"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "pilsētā"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Stadt"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "pilsēta",
-                "skaista"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Stadt"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "pilsētā",
-                "veikali"
-              ]
-            }
-          },
-          {
-            "de": {
               "green": [
-                "Staat"
+                "der Staat",
+                "staat"
               ]
             },
             "lv": {
@@ -27093,531 +22995,260 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "Staat"
+                "der Staat",
+                "staat"
               ]
             },
             "lv": {
               "purple": [
-                "valsts",
-                "palīdz"
+                "valsts"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "Staaten"
+                "der Staat",
+                "staat"
               ]
             },
             "lv": {
               "purple": [
-                "valstis"
+                "valsts"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "der Staat",
+                "staat"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "valsts"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "der Staat",
+                "staat"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "valsts"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "der Staat",
+                "staat"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "valsts"
               ]
             }
           }
         ],
-        "comparisonTable": [
+        "tip": [
           {
-            "lv": {
-              "purple": [
-                "pilsēta"
-              ]
-            },
-            "de": {
-              "blue": [
-                "Stadt"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Stadt"
-              ]
-            },
-            "translation": {
-              "purple": [
-                "pilsētā"
-              ]
-            }
-          },
-          {
-            "lv": {
-              "purple": [
-                "valsts"
-              ]
-            },
-            "de": {
-              "green": [
-                "Staat"
-              ]
-            },
-            "example": {
-              "green": [
-                "Staat"
-              ]
-            },
-            "translation": {
-              "purple": [
-                "valsts"
-              ]
-            }
-          },
-          {
-            "lv": {
-              "purple": [
-                "pilsētā"
-              ]
-            },
-            "de": {
-              "blue": [
-                "Stadt"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Stadt"
-              ]
-            },
-            "translation": {
-              "purple": [
-                "veikali"
-              ]
-            }
-          },
-          {
-            "lv": {
-              "purple": [
-                "valstīs"
-              ]
-            },
-            "de": {
-              "green": [
-                "Staaten"
-              ]
-            },
-            "example": {
-              "green": [
-                "Staaten"
-              ]
-            },
-            "translation": {
-              "purple": [
-                "valstis"
-              ]
-            }
-          }
-        ],
-        "importantComparison": [
-          {
-            "blue": [
-              "Stadt"
-            ],
-            "purple": [
-              "pilsēta"
-            ]
-          },
-          {
-            "green": [
-              "Staat"
-            ],
             "purple": [
               "valsts"
             ]
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "Stadt"
-            ],
-            "green": [
-              "Staat"
-            ]
-          },
-          "rightItems": [
-            {
-              "de": {
-                "blue": [
-                  "Stadt"
-                ]
-              },
-              "lv": {
-                "purple": [
-                  "pilsētā"
-                ]
-              }
-            },
-            {
-              "de": {
-                "green": [
-                  "Staat"
-                ]
-              },
-              "lv": {
-                "purple": [
-                  "valsts"
-                ]
-              }
-            }
-          ]
-        },
         "important": [
           {
-            "blue": [
-              "Stadt"
-            ],
             "green": [
-              "Staat"
-            ]
-          },
-          {
-            "red": [
-              "die Staat"
-            ]
-          }
-        ],
-        "mistakes": [
-          {
-            "wrong": {
-              "red": [
-                "Staat"
-              ]
-            },
-            "right": {
-              "blue": [
-                "Stadt"
-              ]
-            }
-          },
-          {
-            "wrong": {
-              "red": [
-                "die Staat"
-              ]
-            },
-            "right": {
-              "green": [
-                "der Staat"
-              ]
-            }
-          }
-        ],
-        "remember": [
-          {
-            "blue": [
-              "Stadt"
-            ]
-          },
-          {
-            "green": [
-              "Staat",
-              "Staaten"
+              "der Staat"
             ]
           }
         ]
       }
-    }
+    },
+    "de_article": "der"
   },
   {
-    "de": "Uhr • Zeit",
-    "lv": "Pulkstenis • Laiks",
+    "de": "Uhr",
+    "lv": "pulkstenis",
     "level": "A1",
     "study": {
-      "id": "compare-uhr-zeit",
-      "layout": "comparisonStudy",
-      "title": "Pulkstenis • Laiks",
-      "subtitle": "die Uhr • die Zeit",
-      "lead": "die Uhr ir pulkstenis; die Zeit ir laiks kā jēdziens.",
-      "explanation": "die Uhr nozīmē pulksteni — ierīci vai laiku pulkstenī (Es ist acht Uhr, meine Uhr). die Zeit ir abstrakts jēdziens — laiks, brīdis vai iespēja (Ich habe keine Zeit). A1 līmenī abi bieži, bet nozīme ir atšķirīga.",
-      "words": [
-        {
-          "icon": "🕐",
-          "lv": "pulkstenis",
-          "de": "die Uhr",
-          "accent": "blue",
-          "explanation": [
-            "Galvenā doma: Pulkstenis vai rokas pulkstenis. Arī laiks pulkstenī: Es ist acht Uhr.",
-            "die Uhr galvenokārt nozīmē: ierīce vai laiks pulkstenī.",
-            "Bieži raksturo: konkrēts laiks.",
-            "die Uhr nozīmē pulksteni — ierīci vai laiku pulkstenī (Es ist acht Uhr, meine Uhr).",
-            "Šo vārdu salīdzini ar pārējiem šajā kartītē, lai izvēlētos pareizo variantu."
-          ],
-          "examples": [
-            {
-              "de": "Es ist acht Uhr.",
-              "lv": "Ir astoņi (pulksten astoņi)."
-            },
-            {
-              "de": "Es ist acht Uhr.",
-              "lv": "ir astoņi (pulksten astoņi)."
-            },
-            {
-              "de": "Meine Uhr ist kaputt.",
-              "lv": "mans pulkstenis ir salūzis."
-            },
-            {
-              "de": "Es ist acht Uhr.",
-              "lv": "ir astoņi."
-            },
-            {
-              "de": "Es ist acht Uhr.",
-              "lv": "Ir astoņi (pulksten)."
-            },
-            {
-              "de": "die Uhr",
-              "lv": "ierīce/laiks pulkstenī; die Zeit"
-            }
-          ],
-          "tip": [
-            "Konkrēts laiks pulkstenī: Uhr (Es ist acht Uhr). Brīvā laika vai iespējas: Zeit (keine Zeit).",
-            "Pulkstenis vai rokas pulkstenis. Arī laiks pulkstenī: Es ist acht Uhr."
-          ],
-          "important": [
-            "Es ist ... Uhr — vienmēr ar Uhr, ne ar Zeit.",
-            "keine Zeit, viel Zeit — ar Zeit, ne ar Uhr.",
-            "die Uhr: ierīce (meine Uhr) vai laiks (acht Uhr).",
-            "Nepareizi: Es ist acht Zeit. → Pareizi: Es ist acht Uhr."
-          ],
-          "sectionAccents": {
-            "explanation": {
-              "blue": [
-                "Uhr"
-              ],
-              "purple": [
-                "pulkstenis"
-              ]
-            },
-            "examples": [
-              {
-                "de": {
-                  "blue": [
-                    "die Uhr",
-                    "uhr"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "pulkstenis"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "die Uhr",
-                    "uhr"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "pulkstenis"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "die Uhr",
-                    "uhr"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "pulkstenis"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "die Uhr",
-                    "uhr"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "pulkstenis"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "die Uhr",
-                    "uhr"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "pulkstenis"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "die Uhr",
-                    "uhr"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "pulkstenis"
-                  ]
-                }
-              }
-            ],
-            "tip": [
-              {
-                "purple": [
-                  "pulkstenis"
-                ]
-              }
-            ],
-            "important": [
-              {
-                "blue": [
-                  "die Uhr"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "icon": "⏳",
-          "lv": "laiks",
-          "de": "die Zeit",
-          "accent": "green",
-          "explanation": [
-            "Galvenā doma: Laiks kā jēdziens — brīdis, iespēja, laika posms.",
-            "die Zeit galvenokārt nozīmē: brīdis, iespēja.",
-            "Bieži raksturo: abstrakts jēdziens.",
-            "die Zeit ir abstrakts jēdziens — laiks, brīdis vai iespēja (Ich habe keine Zeit).",
-            "Šo vārdu salīdzini ar pārējiem šajā kartītē, lai izvēlētos pareizo variantu."
-          ],
-          "examples": [
-            {
-              "de": "Ich habe keine Zeit.",
-              "lv": "Man nav laika."
-            },
-            {
-              "de": "Ich habe keine Zeit.",
-              "lv": "man nav laika."
-            },
-            {
-              "de": "Hast du Zeit?",
-              "lv": "vai tev ir laiks?"
-            },
-            {
-              "de": "Die Zeit vergeht schnell.",
-              "lv": "laiks paiet ātri."
-            }
-          ],
-          "tip": [
-            "Konkrēts laiks pulkstenī: Uhr (Es ist acht Uhr). Brīvā laika vai iespējas: Zeit (keine Zeit).",
-            "Laiks kā jēdziens — brīdis, iespēja, laika posms."
-          ],
-          "important": [
-            "Es ist ... Uhr — vienmēr ar Uhr, ne ar Zeit.",
-            "keine Zeit, viel Zeit — ar Zeit, ne ar Uhr.",
-            "Nepareizi: Es ist acht Zeit. → Pareizi: Es ist acht Uhr.",
-            "Nepareizi: Ich habe keine Uhr. → Pareizi: Ich habe keine Zeit."
-          ],
-          "sectionAccents": {
-            "explanation": {
-              "green": [
-                "die Zeit",
-                "zeit"
-              ],
-              "purple": [
-                "laiks"
-              ],
-              "yellow": [
-                "Zeit"
-              ]
-            },
-            "examples": [
-              {
-                "de": {
-                  "green": [
-                    "die Zeit",
-                    "zeit"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "laiks"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "die Zeit",
-                    "zeit"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "laiks"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "die Zeit",
-                    "zeit"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "laiks"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "die Zeit",
-                    "zeit"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "laiks"
-                  ]
-                }
-              }
-            ],
-            "tip": [
-              {
-                "purple": [
-                  "laiks"
-                ]
-              }
-            ],
-            "important": [
-              {
-                "green": [
-                  "die Zeit"
-                ]
-              }
-            ]
-          }
-        }
+      "id": "a1-uhr",
+      "layout": "standardStudy",
+      "translation": "pulkstenis",
+      "explanation": [
+        "Galvenā doma: Pulkstenis vai rokas pulkstenis. Arī laiks pulkstenī: Es ist acht Uhr.",
+        "die Uhr galvenokārt nozīmē: ierīce vai laiks pulkstenī.",
+        "Bieži raksturo: konkrēts laiks.",
+        "die Uhr nozīmē pulksteni — ierīci vai laiku pulkstenī (Es ist acht Uhr, meine Uhr)."
       ],
       "examples": [
+        {
+          "de": "Es ist acht Uhr.",
+          "lv": "Ir astoņi (pulksten astoņi)."
+        },
         {
           "de": "Es ist acht Uhr.",
           "lv": "ir astoņi (pulksten astoņi)."
         },
         {
-          "de": "Wie spät ist es? — Es ist halb neun.",
-          "lv": "cik pulksten ir? — ir pusdeviņi."
-        },
-        {
           "de": "Meine Uhr ist kaputt.",
           "lv": "mans pulkstenis ir salūzis."
+        },
+        {
+          "de": "Es ist acht Uhr.",
+          "lv": "ir astoņi."
+        },
+        {
+          "de": "Es ist acht Uhr.",
+          "lv": "Ir astoņi (pulksten)."
+        },
+        {
+          "de": "die Uhr",
+          "lv": "ierīce/laiks pulkstenī; die Zeit"
+        }
+      ],
+      "tip": [
+        "Pulkstenis vai rokas pulkstenis. Arī laiks pulkstenī: Es ist acht Uhr.",
+        "Izmanto die Uhr, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "die Uhr: ierīce (meine Uhr) vai laiks (acht Uhr).",
+        "die Uhr: pārbaudi kontekstu pirms lietošanas."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Uhr"
+          ],
+          "purple": [
+            "pulkstenis"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "die Uhr",
+                "uhr"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pulkstenis"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "die Uhr",
+                "uhr"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pulkstenis"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "die Uhr",
+                "uhr"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pulkstenis"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "die Uhr",
+                "uhr"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pulkstenis"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "die Uhr",
+                "uhr"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pulkstenis"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "die Uhr",
+                "uhr"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pulkstenis"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "pulkstenis"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "die Uhr"
+            ]
+          }
+        ]
+      }
+    },
+    "de_article": "die"
+  },
+  {
+    "de": "Zeit",
+    "lv": "laiks",
+    "level": "A1",
+    "study": {
+      "id": "a1-zeit",
+      "layout": "standardStudy",
+      "translation": "laiks",
+      "explanation": [
+        "Galvenā doma: Laiks kā jēdziens — brīdis, iespēja, laika posms.",
+        "die Zeit galvenokārt nozīmē: brīdis, iespēja.",
+        "Bieži raksturo: abstrakts jēdziens.",
+        "die Zeit ir abstrakts jēdziens — laiks, brīdis vai iespēja (Ich habe keine Zeit)."
+      ],
+      "examples": [
+        {
+          "de": "Ich habe keine Zeit.",
+          "lv": "Man nav laika."
         },
         {
           "de": "Ich habe keine Zeit.",
@@ -27632,189 +23263,33 @@ const A1_WORDS = [
           "lv": "laiks paiet ātri."
         }
       ],
-      "comparisonTable": [
-        {
-          "lv": "pulkstenis",
-          "de": "die Uhr",
-          "meaning": "ierīce vai laiks pulkstenī",
-          "describes": "konkrēts laiks",
-          "example": "Es ist acht Uhr.",
-          "translation": "ir astoņi."
-        },
-        {
-          "lv": "laiks",
-          "de": "die Zeit",
-          "meaning": "brīdis, iespēja",
-          "describes": "abstrakts jēdziens",
-          "example": "Ich habe keine Zeit.",
-          "translation": "man nav laika."
-        },
-        {
-          "lv": "pulksten",
-          "de": "um acht Uhr",
-          "meaning": "precīzs laiks",
-          "describes": "um + Uhr",
-          "example": "Wir essen um zwölf Uhr.",
-          "translation": "mēs ēdam pulksten divpadsmit."
-        },
-        {
-          "lv": "laiks paiet",
-          "de": "die Zeit vergeht",
-          "meaning": "laiks iet",
-          "describes": "abstrakts",
-          "example": "Die Zeit vergeht schnell.",
-          "translation": "laiks paiet ātri."
-        }
+      "tip": [
+        "Laiks kā jēdziens — brīdis, iespēja, laika posms.",
+        "Izmanto die Zeit, kad konteksts atbilst šai nozīmei."
       ],
-      "importantComparison": [
-        "Es ist acht Uhr. = Ir astoņi (pulksten).",
-        "Ich habe keine Zeit. = Man nav laika.",
-        "die Uhr = ierīce/laiks pulkstenī; die Zeit = laiks kopumā."
-      ],
-      "tip": {
-        "left": "Konkrēts laiks pulkstenī: Uhr (Es ist acht Uhr). Brīvā laika vai iespējas: Zeit (keine Zeit).",
-        "rightTitle": "ātri",
-        "rightItems": [
-          {
-            "de": "acht Uhr",
-            "lv": "astoņi",
-            "separator": "="
-          },
-          {
-            "de": "keine Zeit",
-            "lv": "nav laika",
-            "separator": "="
-          }
-        ]
-      },
       "important": [
-        "Es ist ... Uhr — vienmēr ar Uhr, ne ar Zeit.",
-        "keine Zeit, viel Zeit — ar Zeit, ne ar Uhr.",
-        "die Uhr: ierīce (meine Uhr) vai laiks (acht Uhr)."
-      ],
-      "mistakes": [
-        {
-          "wrong": "Es ist acht Zeit.",
-          "right": "Es ist acht Uhr."
-        },
-        {
-          "wrong": "Ich habe keine Uhr.",
-          "right": "Ich habe keine Zeit."
-        }
-      ],
-      "remember": [
-        "Pulkstenis/laiks pulkstenī: die Uhr.",
-        "Laiks kā jēdziens: die Zeit."
+        "die Zeit: pārbaudi kontekstu pirms lietošanas.",
+        "die Zeit: pārbaudi kontekstu pirms lietošanas."
       ],
       "sectionAccents": {
-        "lead": {
-          "blue": [
-            "Uhr"
+        "explanation": {
+          "green": [
+            "die Zeit",
+            "zeit"
+          ],
+          "purple": [
+            "laiks"
           ],
           "yellow": [
             "Zeit"
-          ],
-          "purple": [
-            "pulkstenis",
-            "laiks"
           ]
         },
-        "comparisonCards": [
-          {
-            "lv": {
-              "purple": [
-                "pulkstenis"
-              ]
-            },
-            "de": {
-              "blue": [
-                "Uhr"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Uhr"
-              ],
-              "purple": [
-                "astoņi"
-              ]
-            }
-          },
-          {
-            "lv": {
-              "purple": [
-                "laiks"
-              ]
-            },
-            "de": {
-              "yellow": [
-                "Zeit"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "Zeit"
-              ],
-              "purple": [
-                "laika"
-              ]
-            }
-          }
-        ],
         "examples": [
           {
             "de": {
-              "blue": [
-                "Uhr"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "astoņi"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Uhr"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "pulksten"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Uhr"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "pulkstenis",
-                "salūzis"
-              ]
-            }
-          },
-          {
-            "de": {
-              "yellow": [
-                "Zeit"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "laika"
-              ]
-            }
-          },
-          {
-            "de": {
-              "yellow": [
-                "Zeit"
+              "green": [
+                "die Zeit",
+                "zeit"
               ]
             },
             "lv": {
@@ -27825,213 +23300,164 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "yellow": [
-                "Zeit"
+              "green": [
+                "die Zeit",
+                "zeit"
               ]
             },
-            "lv": {
-              "purple": [
-                "laiks",
-                "ātri"
-              ]
-            }
-          }
-        ],
-        "comparisonTable": [
-          {
-            "lv": {
-              "purple": [
-                "pulkstenis"
-              ]
-            },
-            "de": {
-              "blue": [
-                "Uhr"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Uhr"
-              ]
-            },
-            "translation": {
-              "purple": [
-                "astoņi"
-              ]
-            }
-          },
-          {
             "lv": {
               "purple": [
                 "laiks"
               ]
-            },
+            }
+          },
+          {
             "de": {
-              "yellow": [
-                "Zeit"
+              "green": [
+                "die Zeit",
+                "zeit"
               ]
             },
-            "example": {
-              "yellow": [
-                "Zeit"
-              ]
-            },
-            "translation": {
+            "lv": {
               "purple": [
-                "laika"
+                "laiks"
               ]
             }
           },
           {
+            "de": {
+              "green": [
+                "die Zeit",
+                "zeit"
+              ]
+            },
             "lv": {
               "purple": [
-                "pulksten"
-              ]
-            },
-            "de": {
-              "blue": [
-                "Uhr"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Uhr"
-              ]
-            },
-            "translation": {
-              "purple": [
-                "divpadsmit"
-              ]
-            }
-          },
-          {
-            "lv": {
-              "purple": [
-                "laiks paiet"
-              ]
-            },
-            "de": {
-              "yellow": [
-                "Zeit"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "Zeit"
-              ]
-            },
-            "translation": {
-              "purple": [
-                "ātri"
+                "laiks"
               ]
             }
           }
         ],
-        "importantComparison": [
+        "tip": [
           {
-            "blue": [
-              "Uhr"
-            ],
             "purple": [
-              "astoņi"
-            ]
-          },
-          {
-            "yellow": [
-              "Zeit"
-            ],
-            "purple": [
-              "laika"
+              "laiks"
             ]
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "Uhr"
-            ],
-            "yellow": [
-              "Zeit"
-            ]
-          },
-          "rightItems": [
-            {
-              "de": {
-                "blue": [
-                  "Uhr"
-                ]
-              },
-              "lv": {
-                "purple": [
-                  "astoņi"
-                ]
-              }
-            },
-            {
-              "de": {
-                "yellow": [
-                  "Zeit"
-                ]
-              },
-              "lv": {
-                "purple": [
-                  "laika"
-                ]
-              }
-            }
-          ]
-        },
         "important": [
           {
-            "blue": [
-              "Uhr"
-            ],
-            "yellow": [
-              "Zeit"
-            ]
-          },
-          {
-            "red": [
-              "acht Zeit",
-              "keine Uhr"
+            "green": [
+              "die Zeit"
             ]
           }
-        ],
-        "mistakes": [
+        ]
+      }
+    },
+    "de_article": "die"
+  },
+  {
+    "de": "einmal",
+    "lv": "vienreiz • reiz",
+    "level": "A1",
+    "study": {
+      "id": "a1-einmal",
+      "layout": "standardStudy",
+      "translation": "vienreiz • reiz",
+      "explanation": [
+        "Galvenā doma: Norāda uz vienu reizi vai pagātni (reiz es biju...).",
+        "einmal galvenokārt nozīmē: vienu reizi / pagātnē.",
+        "Bieži raksturo: laika apstākli.",
+        "einmal norāda uz vienu reizi vai pagātni (reiz es...)."
+      ],
+      "examples": [
+        {
+          "de": "Ich war einmal in Berlin.",
+          "lv": "es reiz biju Berlīnē."
+        },
+        {
+          "de": "Ich war einmal in Berlin.",
+          "lv": "Es reiz biju Berlīnē."
+        }
+      ],
+      "tip": [
+        "einmal = vienreiz",
+        "Izmanto einmal, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "einmal = vienreiz vai reiz pagātnē.",
+        "Norāda uz vienu reizi vai pagātni (reiz es biju...)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "einmal"
+          ],
+          "purple": [
+            "vienreiz",
+            "reiz"
+          ]
+        },
+        "examples": [
           {
-            "wrong": {
-              "red": [
-                "Zeit"
+            "de": {
+              "green": [
+                "einmal",
+                "einmal"
               ]
             },
-            "right": {
-              "blue": [
-                "Uhr"
+            "lv": {
+              "purple": [
+                "vienreiz",
+                "reiz"
               ]
             }
           },
           {
-            "wrong": {
-              "red": [
-                "Uhr"
+            "de": {
+              "green": [
+                "einmal",
+                "einmal"
               ]
             },
-            "right": {
-              "yellow": [
-                "Zeit"
+            "lv": {
+              "purple": [
+                "vienreiz",
+                "reiz"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "einmal",
+                "einmal"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vienreiz",
+                "reiz"
               ]
             }
           }
         ],
-        "remember": [
+        "tip": [
           {
-            "blue": [
-              "Uhr"
+            "purple": [
+              "vienreiz"
             ]
           },
           {
-            "yellow": [
-              "Zeit"
+            "purple": [
+              "reiz"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "einmal"
             ]
           }
         ]
@@ -28039,656 +23465,52 @@ const A1_WORDS = [
     }
   },
   {
-    "de": "mal • einmal • noch mal",
-    "lv": "Reiz • Vienreiz • Vēlreiz",
+    "de": "noch mal",
+    "lv": "vēlreiz",
     "level": "A1",
     "study": {
-      "id": "compare-mal-einmal-nochmal",
-      "layout": "comparisonStudy",
-      "title": "Reiz • Vienreiz • Vēlreiz",
-      "subtitle": "mal • einmal • noch mal",
-      "lead": "mal ir sarunvalodas daļiņa; einmal nozīmē vienreiz vai reiz; noch mal nozīmē vēlreiz.",
-      "explanation": "mal sarunvalodā bieži nozīmē reiz, kādreiz vai vienkārši padara teikumu draudzīgāku — lūgumos to bieži netulko burtiski. einmal norāda uz vienu reizi vai pagātni (reiz es...). noch mal nozīmē vēlreiz — atkārtot darbību. A1 līmenī svarīgākās frāzes ir Komm mal her!, Schau mal!, noch mal un Ich war einmal...",
-      "words": [
-        {
-          "icon": "👋",
-          "lv": "reiz • daļiņa",
-          "de": "mal",
-          "accent": "blue",
-          "explanation": [
-            "Galvenā doma: Sarunvalodas daļiņa — padara teikumu draudzīgāku vai nozīmē reiz/kādreiz.",
-            "mal galvenokārt nozīmē: kādreiz / draudzīgāks tonis.",
-            "Bieži raksturo: sarunvalodas daļiņu.",
-            "mal sarunvalodā bieži nozīmē reiz, kādreiz vai vienkārši padara teikumu draudzīgāku — lūgumos to bieži netulko burtiski.",
-            "einmal norāda uz vienu reizi vai pagātni (reiz es...).",
-            "noch mal nozīmē vēlreiz — atkārtot darbību.",
-            "A1 līmenī svarīgākās frāzes ir Komm mal her!, Schau mal!, noch mal un Ich war einmal..."
-          ],
-          "examples": [
-            {
-              "de": "Komm mal her!",
-              "lv": "Nāc šurp!"
-            },
-            {
-              "de": "Komm mal her!",
-              "lv": "nāc šurp!"
-            },
-            {
-              "de": "Schau mal!",
-              "lv": "paskaties!"
-            },
-            {
-              "de": "Noch mal, bitte.",
-              "lv": "vēlreiz, lūdzu."
-            },
-            {
-              "de": "Ich war einmal in Berlin.",
-              "lv": "es reiz biju Berlīnē."
-            },
-            {
-              "de": "Sag das noch mal.",
-              "lv": "pasaki to vēlreiz."
-            }
-          ],
-          "tip": [
-            "Lūgumos mal bieži netulko burtiski. einmal = vienreiz/reiz. noch mal = vēlreiz.",
-            "mal = daļiņa"
-          ],
-          "important": [
-            "mal lūgumos bieži netulko atsevišķi.",
-            "Komm mal her! latviski dabiski ir “Nāc šurp!”, nevis “Nāc reiz šurp!”.",
-            "noch mal = vēlreiz; Schau mal! = paskaties!",
-            "Nepareizi: Komm noch mal her! → Pareizi: Komm mal her!"
-          ],
-          "sectionAccents": {
-            "explanation": {
-              "blue": [
-                "mal"
-              ],
-              "purple": [
-                "reiz",
-                "daļiņa"
-              ]
-            },
-            "examples": [
-              {
-                "de": {
-                  "blue": [
-                    "mal",
-                    "mal"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "reiz",
-                    "daļiņa"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "mal",
-                    "mal"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "reiz",
-                    "daļiņa"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "mal",
-                    "mal"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "reiz",
-                    "daļiņa"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "mal",
-                    "mal"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "reiz",
-                    "daļiņa"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "mal",
-                    "mal"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "reiz",
-                    "daļiņa"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "mal",
-                    "mal"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "reiz",
-                    "daļiņa"
-                  ]
-                }
-              }
-            ],
-            "tip": [
-              {
-                "purple": [
-                  "reiz"
-                ]
-              },
-              {
-                "purple": [
-                  "daļiņa"
-                ]
-              }
-            ],
-            "important": [
-              {
-                "blue": [
-                  "mal"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "icon": "1️⃣",
-          "lv": "vienreiz • reiz",
-          "de": "einmal",
-          "accent": "green",
-          "explanation": [
-            "Galvenā doma: Norāda uz vienu reizi vai pagātni (reiz es biju...).",
-            "einmal galvenokārt nozīmē: vienu reizi / pagātnē.",
-            "Bieži raksturo: laika apstākli.",
-            "einmal norāda uz vienu reizi vai pagātni (reiz es...).",
-            "A1 līmenī svarīgākās frāzes ir Komm mal her!, Schau mal!, noch mal un Ich war einmal..."
-          ],
-          "examples": [
-            {
-              "de": "Ich war einmal in Berlin.",
-              "lv": "es reiz biju Berlīnē."
-            },
-            {
-              "de": "Ich war einmal in Berlin.",
-              "lv": "Es reiz biju Berlīnē."
-            },
-            {
-              "de": "Ich war einmal in Berlin.",
-              "lv": "es reiz biju Berlīnē."
-            },
-            {
-              "de": "Ich war einmal in Berlin.",
-              "lv": "es reiz biju Berlīnē."
-            }
-          ],
-          "tip": [
-            "Lūgumos mal bieži netulko burtiski. einmal = vienreiz/reiz. noch mal = vēlreiz.",
-            "einmal = vienreiz"
-          ],
-          "important": [
-            "einmal = vienreiz vai reiz pagātnē.",
-            "Norāda uz vienu reizi vai pagātni (reiz es biju...)."
-          ],
-          "sectionAccents": {
-            "explanation": {
-              "green": [
-                "einmal"
-              ],
-              "purple": [
-                "vienreiz",
-                "reiz"
-              ]
-            },
-            "examples": [
-              {
-                "de": {
-                  "green": [
-                    "einmal",
-                    "einmal"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "vienreiz",
-                    "reiz"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "einmal",
-                    "einmal"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "vienreiz",
-                    "reiz"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "einmal",
-                    "einmal"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "vienreiz",
-                    "reiz"
-                  ]
-                }
-              }
-            ],
-            "tip": [
-              {
-                "purple": [
-                  "vienreiz"
-                ]
-              },
-              {
-                "purple": [
-                  "reiz"
-                ]
-              }
-            ],
-            "important": [
-              {
-                "green": [
-                  "einmal"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "icon": "🔁",
-          "lv": "vēlreiz",
-          "de": "noch mal",
-          "accent": "yellow",
-          "explanation": [
-            "Galvenā doma: Nozīmē vēlreiz — atkārtot darbību vai lūgt atkārtojumu.",
-            "noch mal galvenokārt nozīmē: atkārtot darbību.",
-            "Bieži raksturo: frāzi (noch + mal).",
-            "noch mal nozīmē vēlreiz — atkārtot darbību.",
-            "A1 līmenī svarīgākās frāzes ir Komm mal her!, Schau mal!, noch mal un Ich war einmal..."
-          ],
-          "examples": [
-            {
-              "de": "Noch mal, bitte.",
-              "lv": "Vēlreiz, lūdzu."
-            },
-            {
-              "de": "Noch mal, bitte.",
-              "lv": "vēlreiz, lūdzu."
-            },
-            {
-              "de": "Sag das noch mal.",
-              "lv": "pasaki to vēlreiz."
-            },
-            {
-              "de": "Noch mal, bitte.",
-              "lv": "Vēlreiz, lūdzu."
-            }
-          ],
-          "tip": [
-            "Lūgumos mal bieži netulko burtiski. einmal = vienreiz/reiz. noch mal = vēlreiz.",
-            "noch mal = vēlreiz"
-          ],
-          "important": [
-            "noch mal = vēlreiz; Schau mal! = paskaties!",
-            "Nepareizi: Komm noch mal her! → Pareizi: Komm mal her!",
-            "noch mal = vēlreiz.",
-            "Nozīmē vēlreiz — atkārtot darbību vai lūgt atkārtojumu."
-          ],
-          "sectionAccents": {
-            "explanation": {
-              "yellow": [
-                "noch mal"
-              ],
-              "purple": [
-                "vēlreiz"
-              ]
-            },
-            "examples": [
-              {
-                "de": {
-                  "yellow": [
-                    "noch mal",
-                    "noch mal"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "vēlreiz"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "yellow": [
-                    "noch mal",
-                    "noch mal"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "vēlreiz"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "yellow": [
-                    "noch mal",
-                    "noch mal"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "vēlreiz"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "yellow": [
-                    "noch mal",
-                    "noch mal"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "vēlreiz"
-                  ]
-                }
-              }
-            ],
-            "tip": [
-              {
-                "purple": [
-                  "vēlreiz"
-                ]
-              }
-            ],
-            "important": [
-              {
-                "yellow": [
-                  "noch mal"
-                ]
-              }
-            ]
-          }
-        }
+      "id": "a1-noch-mal",
+      "layout": "standardStudy",
+      "translation": "vēlreiz",
+      "explanation": [
+        "Galvenā doma: Nozīmē vēlreiz — atkārtot darbību vai lūgt atkārtojumu."
       ],
       "examples": [
         {
-          "de": "Komm mal her!",
-          "lv": "nāc šurp!"
-        },
-        {
-          "de": "Schau mal!",
-          "lv": "paskaties!"
+          "de": "Noch mal, bitte.",
+          "lv": "Vēlreiz, lūdzu."
         },
         {
           "de": "Noch mal, bitte.",
           "lv": "vēlreiz, lūdzu."
         },
         {
-          "de": "Ich war einmal in Berlin.",
-          "lv": "es reiz biju Berlīnē."
-        },
-        {
           "de": "Sag das noch mal.",
           "lv": "pasaki to vēlreiz."
-        },
-        {
-          "de": "Hör mal zu!",
-          "lv": "paklausies!"
         }
       ],
-      "comparisonTable": [
-        {
-          "lv": "reiz • daļiņa",
-          "de": "mal",
-          "meaning": "kādreiz / draudzīgāks tonis",
-          "describes": "sarunvalodas daļiņu",
-          "example": "Komm mal her!",
-          "translation": "nāc šurp!"
-        },
-        {
-          "lv": "vienreiz • reiz",
-          "de": "einmal",
-          "meaning": "vienu reizi / pagātnē",
-          "describes": "laika apstākli",
-          "example": "Ich war einmal in Berlin.",
-          "translation": "es reiz biju Berlīnē."
-        },
-        {
-          "lv": "vēlreiz",
-          "de": "noch mal",
-          "meaning": "atkārtot darbību",
-          "describes": "frāzi (noch + mal)",
-          "example": "Noch mal, bitte.",
-          "translation": "vēlreiz, lūdzu."
-        },
-        {
-          "lv": "paskaties",
-          "de": "Schau mal!",
-          "meaning": "lūgums paskatīties",
-          "describes": "mal lūgumā",
-          "example": "Schau mal!",
-          "translation": "paskaties!"
-        }
+      "tip": [
+        "Izmanto noch mal, kad konteksts atbilst šai nozīmei.",
+        "Izmanto noch mal, kad konteksts atbilst šai nozīmei."
       ],
-      "importantComparison": [
-        "Komm mal her! = Nāc šurp! (mal netulko atsevišķi)",
-        "Ich war einmal in Berlin. = Es reiz biju Berlīnē.",
-        "Noch mal, bitte. = Vēlreiz, lūdzu."
-      ],
-      "tip": {
-        "left": "Lūgumos mal bieži netulko burtiski. einmal = vienreiz/reiz. noch mal = vēlreiz.",
-        "rightTitle": "ātri",
-        "rightItems": [
-          {
-            "de": "mal",
-            "lv": "daļiņa",
-            "separator": "="
-          },
-          {
-            "de": "einmal",
-            "lv": "vienreiz",
-            "separator": "="
-          },
-          {
-            "de": "noch mal",
-            "lv": "vēlreiz",
-            "separator": "="
-          }
-        ]
-      },
       "important": [
-        "mal lūgumos bieži netulko atsevišķi.",
-        "Komm mal her! latviski dabiski ir “Nāc šurp!”, nevis “Nāc reiz šurp!”.",
-        "noch mal = vēlreiz; Schau mal! = paskaties!"
-      ],
-      "mistakes": [
-        {
-          "wrong": "Nāc reiz šurp!",
-          "right": "Nāc šurp!"
-        },
-        {
-          "wrong": "Komm noch mal her!",
-          "right": "Komm mal her!"
-        }
-      ],
-      "remember": [
-        "mal = sarunvalodas daļiņa (Komm mal her!).",
-        "einmal = vienreiz vai reiz pagātnē.",
-        "noch mal = vēlreiz."
+        "Nozīmē vēlreiz — atkārtot darbību vai lūgt atkārtojumu.",
+        "noch mal: pārbaudi kontekstu pirms lietošanas."
       ],
       "sectionAccents": {
-        "lead": {
-          "blue": [
-            "mal"
-          ],
-          "green": [
-            "einmal"
-          ],
+        "explanation": {
           "yellow": [
             "noch mal"
           ],
           "purple": [
-            "daļiņa",
-            "vienreiz",
             "vēlreiz"
           ]
         },
-        "comparisonCards": [
-          {
-            "lv": {
-              "purple": [
-                "reiz",
-                "daļiņa"
-              ]
-            },
-            "de": {
-              "blue": [
-                "mal"
-              ]
-            },
-            "example": {
-              "blue": [
-                "mal"
-              ],
-              "purple": [
-                "šurp"
-              ]
-            }
-          },
-          {
-            "lv": {
-              "purple": [
-                "vienreiz",
-                "reiz"
-              ]
-            },
-            "de": {
-              "green": [
-                "einmal"
-              ]
-            },
-            "example": {
-              "green": [
-                "einmal"
-              ],
-              "purple": [
-                "reiz"
-              ]
-            }
-          },
-          {
-            "lv": {
-              "purple": [
-                "vēlreiz"
-              ]
-            },
-            "de": {
-              "yellow": [
-                "noch mal"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "Noch mal"
-              ],
-              "purple": [
-                "vēlreiz"
-              ]
-            }
-          }
-        ],
         "examples": [
           {
             "de": {
-              "blue": [
-                "mal"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "nāc šurp"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Schau mal"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "paskaties"
-              ]
-            }
-          },
-          {
-            "de": {
               "yellow": [
-                "Noch mal"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "vēlreiz"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "einmal"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "reiz"
-              ]
-            }
-          },
-          {
-            "de": {
-              "yellow": [
+                "noch mal",
                 "noch mal"
               ]
             },
@@ -28700,199 +23522,52 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "blue": [
-                "mal"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "paklausies"
-              ]
-            }
-          }
-        ],
-        "comparisonTable": [
-          {
-            "lv": {
-              "purple": [
-                "reiz",
-                "daļiņa"
-              ]
-            },
-            "de": {
-              "blue": [
-                "mal"
-              ]
-            },
-            "example": {
-              "blue": [
-                "mal"
-              ]
-            },
-            "translation": {
-              "purple": [
-                "nāc šurp"
-              ]
-            }
-          },
-          {
-            "lv": {
-              "purple": [
-                "vienreiz",
-                "reiz"
-              ]
-            },
-            "de": {
-              "green": [
-                "einmal"
-              ]
-            },
-            "example": {
-              "green": [
-                "einmal"
-              ]
-            },
-            "translation": {
-              "purple": [
-                "reiz"
-              ]
-            }
-          },
-          {
-            "lv": {
-              "purple": [
-                "vēlreiz"
-              ]
-            },
-            "de": {
               "yellow": [
+                "noch mal",
                 "noch mal"
               ]
             },
-            "example": {
-              "yellow": [
-                "Noch mal"
-              ]
-            },
-            "translation": {
+            "lv": {
               "purple": [
                 "vēlreiz"
               ]
             }
           },
           {
+            "de": {
+              "yellow": [
+                "noch mal",
+                "noch mal"
+              ]
+            },
             "lv": {
               "purple": [
-                "paskaties"
+                "vēlreiz"
               ]
-            },
+            }
+          },
+          {
             "de": {
-              "blue": [
-                "Schau mal"
+              "yellow": [
+                "noch mal",
+                "noch mal"
               ]
             },
-            "example": {
-              "blue": [
-                "Schau mal"
-              ]
-            },
-            "translation": {
+            "lv": {
               "purple": [
-                "paskaties"
+                "vēlreiz"
               ]
             }
           }
         ],
-        "importantComparison": [
+        "tip": [
           {
-            "blue": [
-              "mal"
-            ],
-            "purple": [
-              "šurp"
-            ]
-          },
-          {
-            "green": [
-              "einmal"
-            ],
-            "purple": [
-              "reiz"
-            ]
-          },
-          {
-            "yellow": [
-              "noch mal"
-            ],
             "purple": [
               "vēlreiz"
             ]
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "mal"
-            ],
-            "green": [
-              "einmal"
-            ],
-            "yellow": [
-              "noch mal"
-            ],
-            "purple": [
-              "daļiņa",
-              "vienreiz",
-              "vēlreiz"
-            ]
-          }
-        },
         "important": [
-          {
-            "blue": [
-              "mal"
-            ],
-            "purple": [
-              "netulko"
-            ]
-          },
-          {
-            "blue": [
-              "Komm mal her"
-            ],
-            "purple": [
-              "nāc šurp"
-            ],
-            "red": [
-              "Nāc reiz šurp"
-            ]
-          }
-        ],
-        "mistakes": [
-          {
-            "wrong": {
-              "red": [
-                "reiz šurp"
-              ]
-            },
-            "right": {
-              "purple": [
-                "šurp"
-              ]
-            }
-          }
-        ],
-        "remember": [
-          {
-            "blue": [
-              "mal"
-            ]
-          },
-          {
-            "green": [
-              "einmal"
-            ]
-          },
           {
             "yellow": [
               "noch mal"

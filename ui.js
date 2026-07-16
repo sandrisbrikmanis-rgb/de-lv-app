@@ -172,7 +172,7 @@ const saetze = flashcards.filter((card) => card.level === "Sätze");
 window.wordEntries = (Array.isArray(window.wordEntries) && window.wordEntries.length) ? window.wordEntries : wordEntries;
 window["sätze"] = window["sätze"] || [];
 window.sentenceEntries = window.sentenceEntries || [];
-window.COMPARISON_STUDY_CARDS = window.COMPARISON_STUDY_CARDS || [];
+window.COMPARISON_STUDY_CARDS = [];
 
 for (const s of saetze) {
   if (!window["sätze"].some((x) => x.de === s.de && x.lv === s.lv)) {
@@ -209,7 +209,6 @@ function allEntries() {
   return [
     ...window.wordEntries.map((e) => normalizeEntry(e, "word")),
     ...window.sentenceEntries.map((e) => normalizeEntry(e, "sentence")),
-    ...window.COMPARISON_STUDY_CARDS.map((e) => normalizeEntry(e, "comparison"))
   ].filter((e) => e.de && e.lv && e.level);
 }
 
@@ -4624,7 +4623,7 @@ function resolveSearchCard(entry) {
   const targetId = entry.id || entry.study?.id;
   const targetDe = entry.de;
   const targetLevel = entry.level;
-  const pools = [flashcards, ...(window.COMPARISON_STUDY_CARDS || [])];
+  const pools = [flashcards];
   for (const pool of pools) {
     const found = pool.find((card) => (
       (targetId && (card.id === targetId || card.study?.id === targetId))

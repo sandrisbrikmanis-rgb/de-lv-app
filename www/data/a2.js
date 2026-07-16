@@ -994,704 +994,386 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "abholen • holen • bringen",
-    "lv": "Paņemt • Atbraukt pakaļ • Atnest",
+    "de": "abholen",
+    "lv": "paņemt • izņemt",
     "level": "A2",
     "study": {
-      "id": "compare-abholen-holen-bringen",
-      "layout": "comparisonStudy",
-      "title": "Paņemt • Atbraukt pakaļ • Atnest",
-      "subtitle": "abholen • holen • bringen",
-      "lead": "abholen nozīmē doties pakaļ un paņemt; holen — aiziet pakaļ un atnest; bringen — atnest uz šejieni.",
-      "explanation": "abholen vienmēr ietver kustību: doties pakaļ un paņemt cilvēku, paciņu vai pasūtījumu. holen nozīmē aiziet pakaļ un atnest kaut ko (piemēram, ūdeni). bringen nozīmē atnest vai nogādāt kaut ko uz konkrētu vietu. bekommen nozīmē saņemt bez iešanas pakaļ.",
-      "words": [
-        {
-          "icon": "🚗",
-          "lv": "paņemt / izņemt",
-          "de": "abholen",
-          "accent": "blue",
-          "explanation": [
-            "Galvenā doma: Doties pakaļ un paņemt cilvēku vai izņemt paciņu/pasūtījumu.",
-            "abholen galvenokārt nozīmē: doties pakaļ un paņemt / izņemt no vietas.",
-            "Bieži raksturo: cilvēku, paciņu, pasūtījumu.",
-            "abholen vienmēr ietver kustību: doties pakaļ un paņemt cilvēku, paciņu vai pasūtījumu.",
-            "Šo vārdu salīdzini ar pārējiem šajā kartītē, lai izvēlētos pareizo variantu."
-          ],
-          "examples": [
-            {
-              "de": "Ich hole dich ab.",
-              "lv": "Es tevi paņemšu."
-            },
-            {
-              "de": "Kannst du mich vom Bahnhof abholen?",
-              "lv": "vai vari mani paņemt stacijā?"
-            },
-            {
-              "de": "Ich hole dich ab.",
-              "lv": "es tevi paņemšu."
-            },
-            {
-              "de": "Ich hole dich ab.",
-              "lv": "Es tevi paņemšu."
-            }
-          ],
-          "tip": [
-            "Ja brauc vai ej pēc cilvēka vai izņem paciņu, lieto abholen. Ja vienkārši aiziet pakaļ pēc lietas, lieto holen. Ja atnes uz šejieni, lieto bringen.",
-            "abholen = paņemt pakaļ"
-          ],
-          "important": [
-            "abholen vienmēr ietver kustību: doties pakaļ un paņemt.",
-            "bekommen nav tas pats, kas abholen.",
-            "abholen = doties pakaļ un paņemt.",
-            "Doties pakaļ un paņemt cilvēku vai izņemt paciņu/pasūtījumu."
-          ],
-          "sectionAccents": {
-            "explanation": {
-              "blue": [
-                "abholen"
-              ],
-              "purple": [
-                "paņemt"
-              ]
-            },
-            "examples": [
-              {
-                "de": {
-                  "blue": [
-                    "abholen",
-                    "abholen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "paņemt",
-                    "izņemt"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "abholen",
-                    "abholen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "paņemt",
-                    "izņemt"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "abholen",
-                    "abholen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "paņemt",
-                    "izņemt"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "abholen",
-                    "abholen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "paņemt",
-                    "izņemt"
-                  ]
-                }
-              }
-            ],
-            "tip": [
-              {
-                "purple": [
-                  "paņemt"
-                ]
-              },
-              {
-                "purple": [
-                  "izņemt"
-                ]
-              }
-            ],
-            "important": [
-              {
-                "blue": [
-                  "abholen"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "icon": "🪣",
-          "lv": "aiziet pakaļ / atnest",
-          "de": "holen",
-          "accent": "green",
-          "explanation": [
-            "Galvenā doma: Aiziet pakaļ un atnest kaut ko.",
-            "holen galvenokārt nozīmē: aiziet un atnest.",
-            "Bieži raksturo: lietas, ko paņem no citurienes.",
-            "abholen vienmēr ietver kustību: doties pakaļ un paņemt cilvēku, paciņu vai pasūtījumu.",
-            "holen nozīmē aiziet pakaļ un atnest kaut ko (piemēram, ūdeni)."
-          ],
-          "examples": [
-            {
-              "de": "Ich hole Wasser.",
-              "lv": "Es atnesu ūdeni."
-            },
-            {
-              "de": "Kannst du mich vom Bahnhof abholen?",
-              "lv": "vai vari mani paņemt stacijā?"
-            },
-            {
-              "de": "Ich hole Wasser.",
-              "lv": "es atnesu ūdeni."
-            },
-            {
-              "de": "Ich hole Wasser.",
-              "lv": "Es atnesu ūdeni."
-            }
-          ],
-          "tip": [
-            "Ja brauc vai ej pēc cilvēka vai izņem paciņu, lieto abholen. Ja vienkārši aiziet pakaļ pēc lietas, lieto holen. Ja atnes uz šejieni, lieto bringen.",
-            "holen = atnest no turienes"
-          ],
-          "important": [
-            "abholen vienmēr ietver kustību: doties pakaļ un paņemt.",
-            "holen = aiziet pakaļ un atnest.",
-            "bekommen nav tas pats, kas abholen.",
-            "abholen = doties pakaļ un paņemt."
-          ],
-          "sectionAccents": {
-            "explanation": {
-              "green": [
-                "holen"
-              ],
-              "purple": [
-                "atnest"
-              ]
-            },
-            "examples": [
-              {
-                "de": {
-                  "green": [
-                    "holen",
-                    "holen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "aiziet pakaļ",
-                    "atnest"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "holen",
-                    "holen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "aiziet pakaļ",
-                    "atnest"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "holen",
-                    "holen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "aiziet pakaļ",
-                    "atnest"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "holen",
-                    "holen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "aiziet pakaļ",
-                    "atnest"
-                  ]
-                }
-              }
-            ],
-            "tip": [
-              {
-                "purple": [
-                  "aiziet pakaļ"
-                ]
-              },
-              {
-                "purple": [
-                  "atnest"
-                ]
-              }
-            ],
-            "important": [
-              {
-                "green": [
-                  "holen"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "icon": "📦",
-          "lv": "atnest / nogādāt",
-          "de": "bringen",
-          "accent": "yellow",
-          "explanation": [
-            "Galvenā doma: Atnest vai nogādāt kaut ko uz šejieni.",
-            "bringen galvenokārt nozīmē: atnest uz šejieni.",
-            "Bieži raksturo: nogādāšanu uz vietu.",
-            "bringen nozīmē atnest vai nogādāt kaut ko uz konkrētu vietu.",
-            "Šo vārdu salīdzini ar pārējiem šajā kartītē, lai izvēlētos pareizo variantu."
-          ],
-          "examples": [
-            {
-              "de": "Ich bringe das Buch.",
-              "lv": "Es atnesu grāmatu."
-            },
-            {
-              "de": "Bringen Sie mir bitte noch einen Kaffee!",
-              "lv": "lūdzu, atnesiet man vēl vienu kafiju!"
-            },
-            {
-              "de": "Wir bringen die Kuchen zur Party.",
-              "lv": "mēs atnesam kūkas uz ballīti."
-            },
-            {
-              "de": "Ich bringe das Buch.",
-              "lv": "es atnesu grāmatu."
-            }
-          ],
-          "tip": [
-            "Ja brauc vai ej pēc cilvēka vai izņem paciņu, lieto abholen. Ja vienkārši aiziet pakaļ pēc lietas, lieto holen. Ja atnes uz šejieni, lieto bringen.",
-            "bringen = atnest šeit"
-          ],
-          "important": [
-            "bringen = atnest uz konkrētu vietu.",
-            "bringen = atnest uz šejieni.",
-            "Atnest vai nogādāt kaut ko uz šejieni."
-          ],
-          "sectionAccents": {
-            "explanation": {
-              "yellow": [
-                "bringen",
-                "bringen"
-              ],
-              "purple": [
-                "nogādāt"
-              ],
-              "orange": [
-                "bringen"
-              ]
-            },
-            "examples": [
-              {
-                "de": {
-                  "yellow": [
-                    "bringen",
-                    "bringen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "atnest",
-                    "nogādāt"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "yellow": [
-                    "bringen",
-                    "bringen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "atnest",
-                    "nogādāt"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "yellow": [
-                    "bringen",
-                    "bringen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "atnest",
-                    "nogādāt"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "yellow": [
-                    "bringen",
-                    "bringen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "atnest",
-                    "nogādāt"
-                  ]
-                }
-              }
-            ],
-            "tip": [
-              {
-                "purple": [
-                  "atnest"
-                ]
-              },
-              {
-                "purple": [
-                  "nogādāt"
-                ]
-              }
-            ],
-            "important": [
-              {
-                "yellow": [
-                  "bringen"
-                ]
-              }
-            ]
-          }
-        }
+      "id": "a2-abholen",
+      "layout": "standardStudy",
+      "translation": "paņemt • izņemt",
+      "explanation": [
+        "Galvenā doma: Doties pakaļ un paņemt cilvēku vai izņemt paciņu/pasūtījumu.",
+        "abholen galvenokārt nozīmē: doties pakaļ un paņemt / izņemt no vietas.",
+        "Bieži raksturo: cilvēku, paciņu, pasūtījumu.",
+        "abholen vienmēr ietver kustību: doties pakaļ un paņemt cilvēku, paciņu vai pasūtījumu."
       ],
       "examples": [
         {
-          "de": "Ich hole meine Freundin vom Flughafen ab.",
-          "lv": "es aizbraukšu pakaļ savai draudzenei uz lidostu."
+          "de": "Ich hole dich ab.",
+          "lv": "Es tevi paņemšu."
         },
         {
           "de": "Kannst du mich vom Bahnhof abholen?",
           "lv": "vai vari mani paņemt stacijā?"
         },
         {
-          "de": "Ich hole Wasser aus der Küche.",
-          "lv": "es atnesu ūdeni no virtuves."
+          "de": "Ich hole dich ab.",
+          "lv": "es tevi paņemšu."
+        }
+      ],
+      "tip": [
+        "abholen = paņemt pakaļ",
+        "Izmanto abholen, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "abholen vienmēr ietver kustību: doties pakaļ un paņemt.",
+        "bekommen nav tas pats, kas abholen.",
+        "abholen = doties pakaļ un paņemt.",
+        "Doties pakaļ un paņemt cilvēku vai izņemt paciņu/pasūtījumu."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "abholen"
+          ],
+          "purple": [
+            "paņemt"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "abholen",
+                "abholen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "paņemt",
+                "izņemt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "abholen",
+                "abholen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "paņemt",
+                "izņemt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "abholen",
+                "abholen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "paņemt",
+                "izņemt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "abholen",
+                "abholen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "paņemt",
+                "izņemt"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "paņemt"
+            ]
+          },
+          {
+            "purple": [
+              "izņemt"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "abholen"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "holen",
+    "lv": "aiziet pakaļ • atnest",
+    "level": "A2",
+    "study": {
+      "id": "a2-holen",
+      "layout": "standardStudy",
+      "translation": "aiziet pakaļ • atnest",
+      "explanation": [
+        "Galvenā doma: Aiziet pakaļ un atnest kaut ko.",
+        "holen galvenokārt nozīmē: aiziet un atnest.",
+        "Bieži raksturo: lietas, ko paņem no citurienes.",
+        "holen nozīmē aiziet pakaļ un atnest kaut ko (piemēram, ūdeni)."
+      ],
+      "examples": [
+        {
+          "de": "Ich hole Wasser.",
+          "lv": "Es atnesu ūdeni."
+        },
+        {
+          "de": "Kannst du mich vom Bahnhof abholen?",
+          "lv": "vai vari mani paņemt stacijā?"
+        },
+        {
+          "de": "Ich hole Wasser.",
+          "lv": "es atnesu ūdeni."
+        }
+      ],
+      "tip": [
+        "holen = atnest no turienes",
+        "Izmanto holen, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "holen = aiziet pakaļ un atnest.",
+        "holen: pārbaudi kontekstu pirms lietošanas."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "holen"
+          ],
+          "purple": [
+            "atnest"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "holen",
+                "holen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "aiziet pakaļ",
+                "atnest"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "holen",
+                "holen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "aiziet pakaļ",
+                "atnest"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "holen",
+                "holen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "aiziet pakaļ",
+                "atnest"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "holen",
+                "holen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "aiziet pakaļ",
+                "atnest"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "aiziet pakaļ"
+            ]
+          },
+          {
+            "purple": [
+              "atnest"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "holen"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "bringen",
+    "lv": "atnest • nogādāt",
+    "level": "A2",
+    "study": {
+      "id": "a2-bringen",
+      "layout": "standardStudy",
+      "translation": "atnest • nogādāt",
+      "explanation": [
+        "Galvenā doma: Atnest vai nogādāt kaut ko uz šejieni.",
+        "bringen galvenokārt nozīmē: atnest uz šejieni.",
+        "Bieži raksturo: nogādāšanu uz vietu.",
+        "bringen nozīmē atnest vai nogādāt kaut ko uz konkrētu vietu."
+      ],
+      "examples": [
+        {
+          "de": "Ich bringe das Buch.",
+          "lv": "Es atnesu grāmatu."
         },
         {
           "de": "Bringen Sie mir bitte noch einen Kaffee!",
           "lv": "lūdzu, atnesiet man vēl vienu kafiju!"
         },
         {
-          "de": "Sie holt ihr Paket bei der Post ab.",
-          "lv": "viņa izņem savu paciņu pastā."
-        },
-        {
           "de": "Wir bringen die Kuchen zur Party.",
           "lv": "mēs atnesam kūkas uz ballīti."
+        },
+        {
+          "de": "Ich bringe das Buch.",
+          "lv": "es atnesu grāmatu."
         }
       ],
-      "comparisonTable": [
-        {
-          "lv": "paņemt (cilvēku) • izņemt (paciņu)",
-          "de": "abholen",
-          "meaning": "doties pakaļ un paņemt / izņemt no vietas",
-          "describes": "cilvēku, paciņu, pasūtījumu",
-          "example": "Ich hole dich ab.",
-          "translation": "es tevi paņemšu."
-        },
-        {
-          "lv": "aiziet pakaļ / atnest",
-          "de": "holen",
-          "meaning": "aiziet un atnest",
-          "describes": "lietas, ko paņem no citurienes",
-          "example": "Ich hole Wasser.",
-          "translation": "es atnesu ūdeni."
-        },
-        {
-          "lv": "atnest / nogādāt",
-          "de": "bringen",
-          "meaning": "atnest uz šejieni",
-          "describes": "nogādāšanu uz vietu",
-          "example": "Ich bringe das Buch.",
-          "translation": "es atnesu grāmatu."
-        },
-        {
-          "lv": "saņemt",
-          "de": "bekommen",
-          "meaning": "dabūt bez iešanas pakaļ",
-          "describes": "saņemšanu",
-          "example": "Ich bekomme ein Paket.",
-          "translation": "es saņemu paciņu."
-        },
-        {
-          "lv": "paņemt līdzi",
-          "de": "mitnehmen",
-          "meaning": "paņemt sev līdzi",
-          "describes": "kustību ar cilvēku/līdzi",
-          "example": "Ich nehme dich mit.",
-          "translation": "es ņemu tevi līdzi."
-        }
+      "tip": [
+        "bringen = atnest šeit",
+        "Izmanto bringen, kad konteksts atbilst šai nozīmei."
       ],
-      "importantComparison": [
-        "Ich hole dich ab. = Es tevi paņemšu.",
-        "Ich hole Wasser. = Es atnesu ūdeni.",
-        "Ich bringe das Buch. = Es atnesu grāmatu.",
-        "abholen ≠ bekommen: abholen ietver kustību pakaļ."
-      ],
-      "tip": {
-        "left": "Ja brauc vai ej pēc cilvēka vai izņem paciņu, lieto abholen. Ja vienkārši aiziet pakaļ pēc lietas, lieto holen. Ja atnes uz šejieni, lieto bringen.",
-        "rightTitle": "ātri",
-        "rightItems": [
-          {
-            "de": "abholen",
-            "lv": "paņemt pakaļ"
-          },
-          {
-            "de": "holen",
-            "lv": "atnest no turienes"
-          },
-          {
-            "de": "bringen",
-            "lv": "atnest šeit"
-          }
-        ]
-      },
       "important": [
-        "abholen vienmēr ietver kustību: doties pakaļ un paņemt.",
-        "holen = aiziet pakaļ un atnest.",
         "bringen = atnest uz konkrētu vietu.",
-        "bekommen nav tas pats, kas abholen."
-      ],
-      "mistakes": [
-        {
-          "wrong": "Ich bringe dich vom Bahnhof.",
-          "right": "Ich hole dich vom Bahnhof ab."
-        },
-        {
-          "wrong": "Ich hole das Buch hierher.",
-          "right": "Ich bringe das Buch hierher."
-        }
-      ],
-      "remember": [
-        "abholen = doties pakaļ un paņemt.",
-        "holen = aiziet pakaļ.",
-        "bringen = atnest uz šejieni."
+        "bringen = atnest uz šejieni.",
+        "Atnest vai nogādāt kaut ko uz šejieni."
       ],
       "sectionAccents": {
-        "lead": {
-          "blue": [
-            "abholen"
+        "explanation": {
+          "yellow": [
+            "bringen",
+            "bringen"
           ],
-          "green": [
-            "holen"
+          "purple": [
+            "nogādāt"
           ],
           "orange": [
             "bringen"
           ]
         },
-        "comparisonCards": [
-          {
-            "lv": {
-              "purple": [
-                "paņemt"
-              ]
-            },
-            "de": {
-              "blue": [
-                "abholen"
-              ]
-            }
-          },
-          {
-            "lv": {
-              "purple": [
-                "atnest"
-              ]
-            },
-            "de": {
-              "green": [
-                "holen"
-              ]
-            }
-          },
-          {
-            "lv": {
-              "purple": [
-                "nogādāt"
-              ]
-            },
-            "de": {
-              "orange": [
-                "bringen"
-              ]
-            }
-          }
-        ],
         "examples": [
           {
             "de": {
-              "blue": [
-                "hole",
-                "ab",
-                "Flughafen"
+              "yellow": [
+                "bringen",
+                "bringen"
               ]
             },
             "lv": {
               "purple": [
-                "aizbraukšu",
-                "pakaļ",
-                "draudzenei",
-                "lidostu"
+                "atnest",
+                "nogādāt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "bringen",
+                "bringen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "atnest",
+                "nogādāt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "bringen",
+                "bringen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "atnest",
+                "nogādāt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "bringen",
+                "bringen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "atnest",
+                "nogādāt"
               ]
             }
           }
         ],
-        "comparisonTable": [
+        "tip": [
           {
-            "lv": {
-              "purple": [
-                "paņemt",
-                "izņemt"
-              ]
-            },
-            "de": {
-              "blue": [
-                "abholen"
-              ]
-            },
-            "example": {
-              "blue": [
-                "hole",
-                "ab"
-              ]
-            },
-            "translation": {
-              "purple": [
-                "paņemšu"
-              ]
-            }
+            "purple": [
+              "atnest"
+            ]
           },
           {
-            "lv": {
-              "purple": [
-                "atnest"
-              ]
-            },
-            "de": {
-              "green": [
-                "holen"
-              ]
-            },
-            "example": {
-              "green": [
-                "hole",
-                "Wasser"
-              ]
-            },
-            "translation": {
-              "purple": [
-                "atnesu"
-              ]
-            }
-          },
+            "purple": [
+              "nogādāt"
+            ]
+          }
+        ],
+        "important": [
           {
-            "lv": {
-              "purple": [
-                "nogādāt"
-              ]
-            },
-            "de": {
-              "orange": [
-                "bringen"
-              ]
-            },
-            "example": {
-              "orange": [
-                "bringe"
-              ]
-            },
-            "translation": {
-              "purple": [
-                "atnesu"
-              ]
-            }
-          },
-          {
-            "lv": {
-              "purple": [
-                "saņemt"
-              ]
-            },
-            "de": {
-              "red": [
-                "bekommen"
-              ]
-            },
-            "example": {
-              "red": [
-                "bekomme"
-              ]
-            },
-            "translation": {
-              "purple": [
-                "saņemu"
-              ]
-            }
-          },
-          {
-            "lv": {
-              "purple": [
-                "ņemu",
-                "līdzi"
-              ]
-            },
-            "de": {
-              "blue": [
-                "nehme",
-                "mit"
-              ]
-            },
-            "example": {
-              "blue": [
-                "nehme",
-                "mit"
-              ]
-            },
-            "translation": {
-              "purple": [
-                "ņemu",
-                "līdzi"
-              ]
-            }
+            "yellow": [
+              "bringen"
+            ]
           }
         ]
       }
@@ -40857,396 +40539,259 @@ const A2_WORDS = [
     }
   },
   {
-    "de": "kennen • wissen",
-    "lv": "Pazīt • Zināt",
+    "de": "kennen",
+    "lv": "pazīt",
     "level": "A2",
     "study": {
-      "id": "compare-kennen-wissen",
-      "layout": "comparisonStudy",
-      "title": "Pazīt • Zināt",
-      "subtitle": "kennen • wissen",
-      "lead": "kennen nozīmē pazīt cilvēku vai vietu; wissen nozīmē zināt faktu vai informāciju.",
-      "explanation": "kennen lieto, ja pazīsti cilvēku, vietu vai lietu no personīgās pieredzes. wissen lieto, ja zini faktu, atbildi vai informāciju. kennen bieži ar kurp?, wissen bieži ar teikumu vai jautājumu.",
-      "words": [
-        {
-          "icon": "👤",
-          "lv": "pazīt",
-          "de": "kennen",
-          "accent": "blue",
-          "explanation": [
-            "Galvenā doma: Pazīt cilvēku, vietu vai lietu no pieredzes.",
-            "kennen galvenokārt nozīmē: personīga pazīšana.",
-            "Bieži raksturo: cilvēkus, vietas.",
-            "kennen lieto, ja pazīsti cilvēku, vietu vai lietu no personīgās pieredzes.",
-            "kennen bieži ar kurp?, wissen bieži ar teikumu vai jautājumu."
-          ],
-          "examples": [
-            {
-              "de": "Ich kenne ihn.",
-              "lv": "Es viņu pazīstu."
-            },
-            {
-              "de": "Kennen Sie diese Frau?",
-              "lv": "vai jūs pazīstat šo sievieti?"
-            },
-            {
-              "de": "Wo habt ihr euch kennengelernt?",
-              "lv": "kur jūs iepazināties?"
-            },
-            {
-              "de": "Ich kenne ihn.",
-              "lv": "es viņu pazīstu."
-            },
-            {
-              "de": "kennen",
-              "lv": "pazīt; wissen"
-            }
-          ],
-          "tip": [
-            "Cilvēks, vieta, ko pazīsti no pieredzes: kennen. fakts, atbilde, informācija: wissen.",
-            "kennen = pazīt"
-          ],
-          "important": [
-            "kennen = pazīt cilvēku/vietu.",
-            "kennen = pazīt.",
-            "Pazīt cilvēku, vietu vai lietu no pieredzes."
-          ],
-          "sectionAccents": {
-            "explanation": {
-              "blue": [
-                "kennen",
-                "kennen"
-              ],
-              "purple": [
-                "pazīt"
-              ]
-            },
-            "examples": [
-              {
-                "de": {
-                  "blue": [
-                    "kennen",
-                    "kennen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "pazīt"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "kennen",
-                    "kennen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "pazīt"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "kennen",
-                    "kennen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "pazīt"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "kennen",
-                    "kennen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "pazīt"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "kennen",
-                    "kennen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "pazīt"
-                  ]
-                }
-              }
-            ],
-            "tip": [
-              {
-                "purple": [
-                  "pazīt"
-                ]
-              }
-            ],
-            "important": [
-              {
-                "blue": [
-                  "kennen"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "icon": "💡",
-          "lv": "zināt",
-          "de": "wissen",
-          "accent": "green",
-          "explanation": [
-            "Galvenā doma: Zināt faktu, atbildi vai informāciju.",
-            "wissen galvenokārt nozīmē: informācija/fakts.",
-            "Bieži raksturo: atbildes, datus.",
-            "wissen lieto, ja zini faktu, atbildi vai informāciju.",
-            "kennen bieži ar kurp?, wissen bieži ar teikumu vai jautājumu."
-          ],
-          "examples": [
-            {
-              "de": "Ich weiß, wo er wohnt.",
-              "lv": "Es zinu, kur viņš dzīvo."
-            },
-            {
-              "de": "Woher wissen Sie das?",
-              "lv": "no kurienes jūs to zināt?"
-            },
-            {
-              "de": "Ich weiß die Antwort.",
-              "lv": "es zinu atbildi."
-            },
-            {
-              "de": "Ich weiß, wo er wohnt.",
-              "lv": "Es zinu, kur viņš dzīvo."
-            }
-          ],
-          "tip": [
-            "Cilvēks, vieta, ko pazīsti no pieredzes: kennen. fakts, atbilde, informācija: wissen.",
-            "wissen = zināt"
-          ],
-          "important": [
-            "wissen = zināt faktu.",
-            "wissen = zināt.",
-            "Zināt faktu, atbildi vai informāciju."
-          ],
-          "sectionAccents": {
-            "explanation": {
-              "green": [
-                "wissen",
-                "wissen"
-              ],
-              "purple": [
-                "zināt"
-              ]
-            },
-            "examples": [
-              {
-                "de": {
-                  "green": [
-                    "wissen",
-                    "wissen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "zināt"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "wissen",
-                    "wissen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "zināt"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "wissen",
-                    "wissen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "zināt"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "wissen",
-                    "wissen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "zināt"
-                  ]
-                }
-              }
-            ],
-            "tip": [
-              {
-                "purple": [
-                  "zināt"
-                ]
-              }
-            ],
-            "important": [
-              {
-                "green": [
-                  "wissen"
-                ]
-              }
-            ]
-          }
-        }
+      "id": "a2-kennen",
+      "layout": "standardStudy",
+      "translation": "pazīt",
+      "explanation": [
+        "Galvenā doma: Pazīt cilvēku, vietu vai lietu no pieredzes.",
+        "kennen galvenokārt nozīmē: personīga pazīšana.",
+        "Bieži raksturo: cilvēkus, vietas.",
+        "kennen lieto, ja pazīsti cilvēku, vietu vai lietu no personīgās pieredzes."
       ],
       "examples": [
         {
+          "de": "Ich kenne ihn.",
+          "lv": "Es viņu pazīstu."
+        },
+        {
           "de": "Kennen Sie diese Frau?",
           "lv": "vai jūs pazīstat šo sievieti?"
-        },
-        {
-          "de": "Ich kenne Berlin gut.",
-          "lv": "es labi pazīstu Berlīni."
-        },
-        {
-          "de": "Weißt du, wie der Hausmeister heißt?",
-          "lv": "vai tu zini, kā sauc mājas darbinieku?"
-        },
-        {
-          "de": "Ich weiß die Antwort.",
-          "lv": "es zinu atbildi."
         },
         {
           "de": "Wo habt ihr euch kennengelernt?",
           "lv": "kur jūs iepazināties?"
         },
         {
-          "de": "Woher wissen Sie das?",
-          "lv": "no kurienes jūs to zināt?"
-        }
-      ],
-      "comparisonTable": [
+          "de": "Ich kenne ihn.",
+          "lv": "es viņu pazīstu."
+        },
         {
-          "lv": "pazīt cilvēku",
           "de": "kennen",
-          "meaning": "personīga pazīšana",
-          "describes": "cilvēkus, vietas",
-          "example": "Ich kenne ihn.",
-          "translation": "es viņu pazīstu."
-        },
-        {
-          "lv": "zināt faktu",
-          "de": "wissen",
-          "meaning": "informācija/fakts",
-          "describes": "atbildes, datus",
-          "example": "Ich weiß die Antwort.",
-          "translation": "es zinu atbildi."
-        },
-        {
-          "lv": "zināt (ka...)",
-          "de": "wissen, dass",
-          "meaning": "zināt, ka...",
-          "describes": "teikumu pēc wissen",
-          "example": "Ich weiß, dass er kommt.",
-          "translation": "es zinu, ka viņš nāk."
-        },
-        {
-          "lv": "zināt (kur/ko)",
-          "de": "wissen, wo/was",
-          "meaning": "jautājuma atbilde",
-          "describes": "informāciju",
-          "example": "Weißt du, wo er wohnt?",
-          "translation": "vai tu zini, kur viņš dzīvo?"
-        },
-        {
-          "lv": "iepazīties",
-          "de": "kennenlernen",
-          "meaning": "pirmā pazīšanās",
-          "describes": "jaunu cilvēku",
-          "example": "Wir haben uns kennengelernt.",
-          "translation": "mēs iepazināsimies."
-        },
-        {
-          "lv": "pazīt pilsētu",
-          "de": "kennen (Stadt)",
-          "meaning": "pazīt vietu",
-          "describes": "pilsētu, vietu",
-          "example": "Ich kenne München.",
-          "translation": "es pazīstu Minheni."
+          "lv": "pazīt; wissen"
         }
       ],
-      "importantComparison": [
-        "Ich kenne ihn. = Es viņu pazīstu.",
-        "Ich weiß die Antwort. = Es zinu atbildi.",
-        "kennen = pazīt; wissen = zināt faktu."
+      "tip": [
+        "kennen = pazīt",
+        "Izmanto kennen, kad konteksts atbilst šai nozīmei."
       ],
-      "tip": {
-        "left": "Cilvēks, vieta, ko pazīsti no pieredzes: kennen. fakts, atbilde, informācija: wissen.",
-        "rightTitle": "ātri",
-        "rightItems": [
-          {
-            "de": "kennen",
-            "lv": "pazīt"
-          },
-          {
-            "de": "wissen",
-            "lv": "zināt"
-          }
-        ]
-      },
       "important": [
         "kennen = pazīt cilvēku/vietu.",
-        "wissen = zināt faktu.",
-        "Ich weiß ihn nav pareizi, ja doma ir „es viņu pazīstu“."
-      ],
-      "mistakes": [
-        {
-          "wrong": "Ich weiß ihn.",
-          "right": "Ich kenne ihn."
-        },
-        {
-          "wrong": "Ich kenne die Antwort.",
-          "right": "Ich weiß die Antwort."
-        }
-      ],
-      "remember": [
         "kennen = pazīt.",
-        "wissen = zināt."
+        "Pazīt cilvēku, vietu vai lietu no pieredzes."
       ],
       "sectionAccents": {
-        "lead": {
+        "explanation": {
           "blue": [
+            "kennen",
             "kennen"
           ],
-          "green": [
-            "wissen"
+          "purple": [
+            "pazīt"
           ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "kennen",
+                "kennen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pazīt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "kennen",
+                "kennen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pazīt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "kennen",
+                "kennen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pazīt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "kennen",
+                "kennen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pazīt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "kennen",
+                "kennen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pazīt"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "pazīt"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "kennen"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "wissen",
+    "lv": "zināt",
+    "level": "A2",
+    "study": {
+      "id": "a2-wissen",
+      "layout": "standardStudy",
+      "translation": "zināt",
+      "explanation": [
+        "Galvenā doma: Zināt faktu, atbildi vai informāciju.",
+        "wissen galvenokārt nozīmē: informācija/fakts.",
+        "Bieži raksturo: atbildes, datus.",
+        "wissen lieto, ja zini faktu, atbildi vai informāciju."
+      ],
+      "examples": [
+        {
+          "de": "Ich weiß, wo er wohnt.",
+          "lv": "Es zinu, kur viņš dzīvo."
+        },
+        {
+          "de": "Woher wissen Sie das?",
+          "lv": "no kurienes jūs to zināt?"
+        },
+        {
+          "de": "Ich weiß die Antwort.",
+          "lv": "es zinu atbildi."
         }
+      ],
+      "tip": [
+        "wissen = zināt",
+        "Izmanto wissen, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "wissen = zināt faktu.",
+        "wissen = zināt.",
+        "Zināt faktu, atbildi vai informāciju."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "wissen",
+            "wissen"
+          ],
+          "purple": [
+            "zināt"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "wissen",
+                "wissen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zināt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "wissen",
+                "wissen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zināt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "wissen",
+                "wissen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zināt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "wissen",
+                "wissen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zināt"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "zināt"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "wissen"
+            ]
+          }
+        ]
       }
     }
   },
@@ -45792,372 +45337,227 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "liegen • legen",
-    "lv": "Gulēt • Nolikt guļus",
+    "de": "liegen",
+    "lv": "gulēt • atrasties",
     "level": "A2",
     "study": {
-      "id": "compare-liegen-legen",
-      "layout": "comparisonStudy",
-      "title": "Gulēt • Nolikt guļus",
-      "subtitle": "liegen • legen",
-      "lead": "liegen apraksta stāvokli; legen apraksta darbību.",
-      "explanation": "liegen lieto, ja kaut kas jau atrodas guļus vai horizontāli. legen lieto, ja kāds kaut ko noliek guļus vai horizontāli.",
-      "words": [
-        {
-          "icon": "📘",
-          "lv": "gulēt / atrasties",
-          "de": "liegen",
-          "accent": "blue",
-          "explanation": [
-            "Galvenā doma: Stāvoklis: kaut kas jau atrodas guļus vai horizontāli.",
-            "liegen galvenokārt nozīmē: stāvoklis.",
-            "Bieži raksturo: kur kaut kas atrodas.",
-            "liegen lieto, ja kaut kas jau atrodas guļus vai horizontāli.",
-            "Šo vārdu salīdzini ar pārējiem šajā kartītē, lai izvēlētos pareizo variantu."
-          ],
-          "examples": [
-            {
-              "de": "Das Buch liegt auf dem Tisch.",
-              "lv": "Grāmata guļ uz galda."
-            },
-            {
-              "de": "Die Schlüssel liegen im Flur.",
-              "lv": "atslēgas atrodas gaitenī."
-            },
-            {
-              "de": "Das Buch liegt hier.",
-              "lv": "grāmata atrodas šeit."
-            },
-            {
-              "de": "Das Buch liegt auf dem Tisch.",
-              "lv": "Grāmata guļ uz galda."
-            }
-          ],
-          "tip": [
-            "Ja priekšmets jau ir kaut kur horizontāli, lieto liegen. Ja tu to novieto horizontāli, lieto legen.",
-            "Stāvoklis: kaut kas jau atrodas guļus vai horizontāli."
-          ],
-          "important": [
-            "liegen = stāvoklis.",
-            "Stāvoklis: liegen.",
-            "Stāvoklis: kaut kas jau atrodas guļus vai horizontāli."
-          ],
-          "sectionAccents": {
-            "explanation": {
-              "blue": [
-                "liegen",
-                "liegen"
-              ],
-              "purple": [
-                "gulēt",
-                "atrasties"
-              ]
-            },
-            "examples": [
-              {
-                "de": {
-                  "blue": [
-                    "liegen",
-                    "liegen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "gulēt",
-                    "atrasties"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "liegen",
-                    "liegen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "gulēt",
-                    "atrasties"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "liegen",
-                    "liegen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "gulēt",
-                    "atrasties"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "liegen",
-                    "liegen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "gulēt",
-                    "atrasties"
-                  ]
-                }
-              }
-            ],
-            "tip": [
-              {
-                "purple": [
-                  "gulēt"
-                ]
-              },
-              {
-                "purple": [
-                  "atrasties"
-                ]
-              }
-            ],
-            "important": [
-              {
-                "blue": [
-                  "liegen"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "icon": "✋",
-          "lv": "nolikt guļus",
-          "de": "legen",
-          "accent": "green",
-          "explanation": [
-            "Galvenā doma: Darbība: kāds kaut ko noliek guļus vai horizontāli.",
-            "legen galvenokārt nozīmē: darbība.",
-            "Bieži raksturo: ko kāds novieto.",
-            "legen lieto, ja kāds kaut ko noliek guļus vai horizontāli.",
-            "Šo vārdu salīdzini ar pārējiem šajā kartītē, lai izvēlētos pareizo variantu."
-          ],
-          "examples": [
-            {
-              "de": "Ich lege das Buch hierhin.",
-              "lv": "es nolieku grāmatu šeit."
-            },
-            {
-              "de": "Ich lege das Buch hierhin.",
-              "lv": "es nolieku grāmatu šeit."
-            },
-            {
-              "de": "Ich lege das Buch hierhin.",
-              "lv": "es nolieku grāmatu šeit."
-            },
-            {
-              "de": "Ich lege das Buch hierhin.",
-              "lv": "es nolieku grāmatu šeit."
-            }
-          ],
-          "tip": [
-            "Ja priekšmets jau ir kaut kur horizontāli, lieto liegen. Ja tu to novieto horizontāli, lieto legen.",
-            "Darbība: kāds kaut ko noliek guļus vai horizontāli."
-          ],
-          "important": [
-            "legen = darbība.",
-            "Darbība: legen.",
-            "Darbība: kāds kaut ko noliek guļus vai horizontāli."
-          ],
-          "sectionAccents": {
-            "explanation": {
-              "green": [
-                "legen",
-                "legen"
-              ],
-              "purple": [
-                "nolikt guļus"
-              ]
-            },
-            "examples": [
-              {
-                "de": {
-                  "green": [
-                    "legen",
-                    "legen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "nolikt guļus"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "legen",
-                    "legen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "nolikt guļus"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "legen",
-                    "legen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "nolikt guļus"
-                  ]
-                }
-              }
-            ],
-            "tip": [
-              {
-                "purple": [
-                  "nolikt guļus"
-                ]
-              }
-            ],
-            "important": [
-              {
-                "green": [
-                  "legen"
-                ]
-              }
-            ]
-          }
-        }
+      "id": "a2-liegen",
+      "layout": "standardStudy",
+      "translation": "gulēt • atrasties",
+      "explanation": [
+        "Galvenā doma: Stāvoklis: kaut kas jau atrodas guļus vai horizontāli.",
+        "liegen galvenokārt nozīmē: stāvoklis.",
+        "Bieži raksturo: kur kaut kas atrodas.",
+        "liegen lieto, ja kaut kas jau atrodas guļus vai horizontāli."
       ],
       "examples": [
         {
           "de": "Das Buch liegt auf dem Tisch.",
-          "lv": "grāmata guļ uz galda."
-        },
-        {
-          "de": "Ich lege das Buch auf den Tisch.",
-          "lv": "es nolieku grāmatu uz galda."
+          "lv": "Grāmata guļ uz galda."
         },
         {
           "de": "Die Schlüssel liegen im Flur.",
           "lv": "atslēgas atrodas gaitenī."
         },
         {
-          "de": "Leg die Schlüssel bitte hierhin.",
-          "lv": "lūdzu, noliec atslēgas šeit."
-        },
-        {
-          "de": "Das Handy liegt neben mir.",
-          "lv": "telefons atrodas man blakus."
-        },
-        {
-          "de": "Ich lege mich kurz hin.",
-          "lv": "es uz brīdi apguļos."
+          "de": "Das Buch liegt hier.",
+          "lv": "grāmata atrodas šeit."
         }
       ],
-      "comparisonTable": [
-        {
-          "lv": "atrasties guļus",
-          "de": "liegen",
-          "meaning": "stāvoklis",
-          "describes": "kur kaut kas atrodas",
-          "example": "Das Buch liegt hier.",
-          "translation": "grāmata atrodas šeit."
-        },
-        {
-          "lv": "nolikt guļus",
-          "de": "legen",
-          "meaning": "darbība",
-          "describes": "ko kāds novieto",
-          "example": "Ich lege das Buch hierhin.",
-          "translation": "es nolieku grāmatu šeit."
-        },
-        {
-          "lv": "stāvēt",
-          "de": "stehen",
-          "meaning": "stāvoklis stāvus",
-          "describes": "vertikālu atrašanos",
-          "example": "Die Flasche steht da.",
-          "translation": "pudele tur stāv."
-        },
-        {
-          "lv": "nolikt stāvus",
-          "de": "stellen",
-          "meaning": "darbība stāvus",
-          "describes": "vertikālu novietošanu",
-          "example": "Ich stelle die Flasche hin.",
-          "translation": "es nolieku pudeli stāvus."
-        },
-        {
-          "lv": "sēdēt",
-          "de": "sitzen",
-          "meaning": "stāvoklis sēdus",
-          "describes": "sēdošu pozīciju",
-          "example": "Ich sitze am Tisch.",
-          "translation": "es sēžu pie galda."
-        },
-        {
-          "lv": "sēdināt",
-          "de": "setzen",
-          "meaning": "darbība sēdus",
-          "describes": "apsēdināšanu",
-          "example": "Ich setze das Kind auf den Stuhl.",
-          "translation": "es apsēdinu bērnu uz krēsla."
-        }
+      "tip": [
+        "Stāvoklis: kaut kas jau atrodas guļus vai horizontāli.",
+        "Izmanto liegen, kad konteksts atbilst šai nozīmei."
       ],
-      "importantComparison": [
-        "Das Buch liegt auf dem Tisch. = Grāmata guļ uz galda.",
-        "Ich lege das Buch auf den Tisch. = Es nolieku grāmatu uz galda.",
-        "Pirmais teikums apraksta stāvokli, otrais — darbību."
-      ],
-      "tip": {
-        "left": "Ja priekšmets jau ir kaut kur horizontāli, lieto liegen. Ja tu to novieto horizontāli, lieto legen.",
-        "rightTitle": "ātri",
-        "rightItems": [
-          {
-            "de": "liegt",
-            "lv": "atrodas"
-          },
-          {
-            "de": "lege",
-            "lv": "nolieku"
-          }
-        ]
-      },
       "important": [
         "liegen = stāvoklis.",
-        "legen = darbība.",
-        "Ich liege das Buch nav pareizi."
-      ],
-      "mistakes": [
-        {
-          "wrong": "Ich liege das Buch auf den Tisch.",
-          "right": "Ich lege das Buch auf den Tisch."
-        }
-      ],
-      "remember": [
         "Stāvoklis: liegen.",
-        "Darbība: legen."
+        "Stāvoklis: kaut kas jau atrodas guļus vai horizontāli."
       ],
       "sectionAccents": {
-        "lead": {
+        "explanation": {
           "blue": [
+            "liegen",
             "liegen"
           ],
-          "green": [
-            "legen"
+          "purple": [
+            "gulēt",
+            "atrasties"
           ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "liegen",
+                "liegen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "gulēt",
+                "atrasties"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "liegen",
+                "liegen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "gulēt",
+                "atrasties"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "liegen",
+                "liegen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "gulēt",
+                "atrasties"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "liegen",
+                "liegen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "gulēt",
+                "atrasties"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "gulēt"
+            ]
+          },
+          {
+            "purple": [
+              "atrasties"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "liegen"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "legen",
+    "lv": "nolikt guļus",
+    "level": "A2",
+    "study": {
+      "id": "a2-legen",
+      "layout": "standardStudy",
+      "translation": "nolikt guļus",
+      "explanation": [
+        "Galvenā doma: Darbība: kāds kaut ko noliek guļus vai horizontāli.",
+        "legen galvenokārt nozīmē: darbība.",
+        "Bieži raksturo: ko kāds novieto.",
+        "legen lieto, ja kāds kaut ko noliek guļus vai horizontāli."
+      ],
+      "examples": [
+        {
+          "de": "Ich lege das Buch hierhin.",
+          "lv": "es nolieku grāmatu šeit."
         }
+      ],
+      "tip": [
+        "Darbība: kāds kaut ko noliek guļus vai horizontāli.",
+        "Izmanto legen, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "legen = darbība.",
+        "Darbība: legen.",
+        "Darbība: kāds kaut ko noliek guļus vai horizontāli."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "legen",
+            "legen"
+          ],
+          "purple": [
+            "nolikt guļus"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "legen",
+                "legen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nolikt guļus"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "legen",
+                "legen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nolikt guļus"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "legen",
+                "legen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nolikt guļus"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "nolikt guļus"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "legen"
+            ]
+          }
+        ]
       }
     }
   },
@@ -57315,392 +56715,248 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "sitzen • setzen",
-    "lv": "Sēdēt • Sēdināt",
+    "de": "sitzen",
+    "lv": "sēdēt",
     "level": "A2",
     "study": {
-      "id": "compare-sitzen-setzen",
-      "layout": "comparisonStudy",
-      "title": "Sēdēt • Sēdināt",
-      "subtitle": "sitzen • setzen",
-      "lead": "sitzen apraksta stāvokli; setzen apraksta darbību.",
-      "explanation": "sitzen lieto, ja kāds jau sēž. setzen lieto, ja kāds kaut ko apsēdina vai likt sēdus. sich setzen nozīmē apsēsties pašam.",
-      "words": [
-        {
-          "icon": "🪑",
-          "lv": "sēdēt",
-          "de": "sitzen",
-          "accent": "blue",
-          "explanation": [
-            "Galvenā doma: Stāvoklis: kāds jau sēž.",
-            "sitzen galvenokārt nozīmē: stāvoklis.",
-            "Bieži raksturo: kur kāds sēž.",
-            "sitzen lieto, ja kāds jau sēž.",
-            "Šo vārdu salīdzini ar pārējiem šajā kartītē, lai izvēlētos pareizo variantu."
-          ],
-          "examples": [
-            {
-              "de": "Ich sitze am Tisch.",
-              "lv": "Es sēžu pie galda."
-            },
-            {
-              "de": "Wo möchten Sie sitzen?",
-              "lv": "kur jūs vēlētos sēdēt?"
-            },
-            {
-              "de": "Die Kinder sitzen im Wohnzimmer.",
-              "lv": "bērni sēž viesistabā."
-            },
-            {
-              "de": "Ich sitze am Tisch.",
-              "lv": "es sēžu pie galda."
-            },
-            {
-              "de": "sitzen",
-              "lv": "stāvoklis; setzen"
-            }
-          ],
-          "tip": [
-            "Ja kāds jau sēž, lieto sitzen. Ja tu kaut ko apsēdini vai apsēdies pats, lieto setzen vai sich setzen.",
-            "Stāvoklis: kāds jau sēž."
-          ],
-          "important": [
-            "sitzen = stāvoklis.",
-            "Stāvoklis: sitzen.",
-            "Stāvoklis: kāds jau sēž."
-          ],
-          "sectionAccents": {
-            "explanation": {
-              "blue": [
-                "sitzen",
-                "sitzen"
-              ],
-              "purple": [
-                "sēdēt"
-              ]
-            },
-            "examples": [
-              {
-                "de": {
-                  "blue": [
-                    "sitzen",
-                    "sitzen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "sēdēt"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "sitzen",
-                    "sitzen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "sēdēt"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "sitzen",
-                    "sitzen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "sēdēt"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "sitzen",
-                    "sitzen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "sēdēt"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "sitzen",
-                    "sitzen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "sēdēt"
-                  ]
-                }
-              }
-            ],
-            "tip": [
-              {
-                "purple": [
-                  "sēdēt"
-                ]
-              }
-            ],
-            "important": [
-              {
-                "blue": [
-                  "sitzen"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "icon": "✋",
-          "lv": "sēdināt / likt sēdus",
-          "de": "setzen",
-          "accent": "green",
-          "explanation": [
-            "Galvenā doma: Darbība: kāds kaut ko apsēdina vai likt sēdus.",
-            "setzen galvenokārt nozīmē: darbība.",
-            "Bieži raksturo: ko kāds apsēdina.",
-            "setzen lieto, ja kāds kaut ko apsēdina vai likt sēdus.",
-            "sich setzen nozīmē apsēsties pašam."
-          ],
-          "examples": [
-            {
-              "de": "Ich setze das Kind auf den Stuhl.",
-              "lv": "es apsēdinu bērnu uz krēsla."
-            },
-            {
-              "de": "Ich setze das Kind auf den Stuhl.",
-              "lv": "es apsēdinu bērnu uz krēsla."
-            },
-            {
-              "de": "Ich setze das Kind auf den Stuhl.",
-              "lv": "es apsēdinu bērnu uz krēsla."
-            },
-            {
-              "de": "Ich setze das Kind auf den Stuhl.",
-              "lv": "es apsēdinu bērnu uz krēsla."
-            }
-          ],
-          "tip": [
-            "Ja kāds jau sēž, lieto sitzen. Ja tu kaut ko apsēdini vai apsēdies pats, lieto setzen vai sich setzen.",
-            "Darbība: kāds kaut ko apsēdina vai likt sēdus."
-          ],
-          "important": [
-            "setzen = darbība.",
-            "Darbība: setzen.",
-            "Darbība: kāds kaut ko apsēdina vai likt sēdus."
-          ],
-          "sectionAccents": {
-            "explanation": {
-              "green": [
-                "setzen",
-                "setzen"
-              ],
-              "purple": [
-                "sēdināt",
-                "likt sēdus"
-              ]
-            },
-            "examples": [
-              {
-                "de": {
-                  "green": [
-                    "setzen",
-                    "setzen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "sēdināt",
-                    "likt sēdus"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "setzen",
-                    "setzen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "sēdināt",
-                    "likt sēdus"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "setzen",
-                    "setzen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "sēdināt",
-                    "likt sēdus"
-                  ]
-                }
-              }
-            ],
-            "tip": [
-              {
-                "purple": [
-                  "sēdināt"
-                ]
-              },
-              {
-                "purple": [
-                  "likt sēdus"
-                ]
-              }
-            ],
-            "important": [
-              {
-                "green": [
-                  "setzen"
-                ]
-              }
-            ]
-          }
-        }
+      "id": "a2-sitzen",
+      "layout": "standardStudy",
+      "translation": "sēdēt",
+      "explanation": [
+        "Galvenā doma: Stāvoklis: kāds jau sēž.",
+        "sitzen galvenokārt nozīmē: stāvoklis.",
+        "Bieži raksturo: kur kāds sēž.",
+        "sitzen lieto, ja kāds jau sēž."
       ],
       "examples": [
         {
+          "de": "Ich sitze am Tisch.",
+          "lv": "Es sēžu pie galda."
+        },
+        {
           "de": "Wo möchten Sie sitzen?",
           "lv": "kur jūs vēlētos sēdēt?"
-        },
-        {
-          "de": "Setz dich bitte.",
-          "lv": "lūdzu, apsēdies."
-        },
-        {
-          "de": "Ich sitze am Fenster.",
-          "lv": "es sēžu pie loga."
-        },
-        {
-          "de": "Ich setze das Kind auf den Stuhl.",
-          "lv": "es apsēdinu bērnu uz krēsla."
         },
         {
           "de": "Die Kinder sitzen im Wohnzimmer.",
           "lv": "bērni sēž viesistabā."
         },
         {
-          "de": "Der Lehrer setzt den Schüler nach vorne.",
-          "lv": "skolotājs nosēdina skolēnu priekšā."
-        }
-      ],
-      "comparisonTable": [
+          "de": "Ich sitze am Tisch.",
+          "lv": "es sēžu pie galda."
+        },
         {
-          "lv": "sēdēt",
           "de": "sitzen",
-          "meaning": "stāvoklis",
-          "describes": "kur kāds sēž",
-          "example": "Ich sitze am Tisch.",
-          "translation": "es sēžu pie galda."
-        },
-        {
-          "lv": "sēdināt",
-          "de": "setzen",
-          "meaning": "darbība",
-          "describes": "ko kāds apsēdina",
-          "example": "Ich setze das Kind auf den Stuhl.",
-          "translation": "es apsēdinu bērnu uz krēsla."
-        },
-        {
-          "lv": "apsēsties",
-          "de": "sich setzen",
-          "meaning": "darbība uz sevi",
-          "describes": "pašam apsēsties",
-          "example": "Setz dich!",
-          "translation": "apsēdies!"
-        },
-        {
-          "lv": "nolikt stāvus",
-          "de": "stellen",
-          "meaning": "novietot stāvus",
-          "describes": "priekšmetu novietošanu",
-          "example": "Ich stelle die Flasche hin.",
-          "translation": "es nolieku pudeli stāvus."
-        },
-        {
-          "lv": "nolikt guļus",
-          "de": "legen",
-          "meaning": "novietot guļus",
-          "describes": "horizontālu novietošanu",
-          "example": "Ich lege das Buch hin.",
-          "translation": "es nolieku grāmatu guļus."
-        },
-        {
-          "lv": "stāvēt",
-          "de": "stehen",
-          "meaning": "stāvoklis stāvus",
-          "describes": "vertikālu atrašanos",
-          "example": "Die Flasche steht da.",
-          "translation": "pudele tur stāv."
+          "lv": "stāvoklis; setzen"
         }
       ],
-      "importantComparison": [
-        "Ich sitze am Tisch. = Es sēžu pie galda.",
-        "Ich setze das Kind auf den Stuhl. = Es apsēdinu bērnu.",
-        "sitzen = stāvoklis; setzen = darbība."
+      "tip": [
+        "Stāvoklis: kāds jau sēž.",
+        "Izmanto sitzen, kad konteksts atbilst šai nozīmei."
       ],
-      "tip": {
-        "left": "Ja kāds jau sēž, lieto sitzen. Ja tu kaut ko apsēdini vai apsēdies pats, lieto setzen vai sich setzen.",
-        "rightTitle": "ātri",
-        "rightItems": [
-          {
-            "de": "sitze",
-            "lv": "sēžu"
-          },
-          {
-            "de": "setze",
-            "lv": "apsēdinu"
-          }
-        ]
-      },
       "important": [
         "sitzen = stāvoklis.",
-        "setzen = darbība.",
-        "Ich sitze das Kind nav pareizi."
-      ],
-      "mistakes": [
-        {
-          "wrong": "Ich sitze das Kind auf den Stuhl.",
-          "right": "Ich setze das Kind auf den Stuhl."
-        },
-        {
-          "wrong": "Ich setze am Tisch.",
-          "right": "Ich sitze am Tisch."
-        }
-      ],
-      "remember": [
         "Stāvoklis: sitzen.",
-        "Darbība: setzen."
+        "Stāvoklis: kāds jau sēž."
       ],
       "sectionAccents": {
-        "lead": {
+        "explanation": {
           "blue": [
+            "sitzen",
             "sitzen"
           ],
-          "green": [
-            "setzen"
+          "purple": [
+            "sēdēt"
           ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "sitzen",
+                "sitzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sēdēt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sitzen",
+                "sitzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sēdēt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sitzen",
+                "sitzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sēdēt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sitzen",
+                "sitzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sēdēt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sitzen",
+                "sitzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sēdēt"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "sēdēt"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "sitzen"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "setzen",
+    "lv": "sēdināt • likt sēdus",
+    "level": "A2",
+    "study": {
+      "id": "a2-setzen",
+      "layout": "standardStudy",
+      "translation": "sēdināt • likt sēdus",
+      "explanation": [
+        "Galvenā doma: Darbība: kāds kaut ko apsēdina vai likt sēdus.",
+        "setzen galvenokārt nozīmē: darbība.",
+        "Bieži raksturo: ko kāds apsēdina.",
+        "setzen lieto, ja kāds kaut ko apsēdina vai likt sēdus.",
+        "sich setzen nozīmē apsēsties pašam."
+      ],
+      "examples": [
+        {
+          "de": "Ich setze das Kind auf den Stuhl.",
+          "lv": "es apsēdinu bērnu uz krēsla."
         }
+      ],
+      "tip": [
+        "Darbība: kāds kaut ko apsēdina vai likt sēdus.",
+        "Izmanto setzen, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "setzen = darbība.",
+        "Darbība: setzen.",
+        "Darbība: kāds kaut ko apsēdina vai likt sēdus."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "setzen",
+            "setzen"
+          ],
+          "purple": [
+            "sēdināt",
+            "likt sēdus"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "setzen",
+                "setzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sēdināt",
+                "likt sēdus"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "setzen",
+                "setzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sēdināt",
+                "likt sēdus"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "setzen",
+                "setzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sēdināt",
+                "likt sēdus"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "sēdināt"
+            ]
+          },
+          {
+            "purple": [
+              "likt sēdus"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "setzen"
+            ]
+          }
+        ]
       }
     }
   },
@@ -58878,380 +58134,240 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "stehen • stellen",
-    "lv": "Stāvēt • Nolikt stāvus",
+    "de": "stehen",
+    "lv": "stāvēt",
     "level": "A2",
     "study": {
-      "id": "compare-stehen-stellen",
-      "layout": "comparisonStudy",
-      "title": "Stāvēt • Nolikt stāvus",
-      "subtitle": "stehen • stellen",
-      "lead": "stehen apraksta stāvokli; stellen apraksta darbību.",
-      "explanation": "stehen lieto, ja kaut kas jau atrodas stāvus. stellen lieto, ja kāds kaut ko noliek stāvus vai novieto. Ar jautājumiem stellen nozīmē auch „uzdot“: eine Frage stellen.",
-      "words": [
-        {
-          "icon": "📍",
-          "lv": "stāvēt",
-          "de": "stehen",
-          "accent": "blue",
-          "explanation": [
-            "Galvenā doma: Stāvoklis: kaut kas jau atrodas stāvus.",
-            "stehen galvenokārt nozīmē: stāvoklis.",
-            "Bieži raksturo: kur kaut kas stāv.",
-            "stehen lieto, ja kaut kas jau atrodas stāvus.",
-            "Šo vārdu salīdzini ar pārējiem šajā kartītē, lai izvēlētos pareizo variantu."
-          ],
-          "examples": [
-            {
-              "de": "Die Flasche steht auf dem Tisch.",
-              "lv": "Pudele stāv uz galda."
-            },
-            {
-              "de": "Die Flasche steht auf dem Tisch.",
-              "lv": "pudele stāv uz galda."
-            },
-            {
-              "de": "stehen",
-              "lv": "stāvoklis; stellen"
-            },
-            {
-              "de": "Die Flasche steht auf dem Tisch.",
-              "lv": "Pudele stāv uz galda."
-            }
-          ],
-          "tip": [
-            "Ja priekšmets jau stāv, lieto stehen. Ja tu to novieto stāvus, lieto stellen.",
-            "Stāvoklis: kaut kas jau atrodas stāvus."
-          ],
-          "important": [
-            "stehen = stāvoklis.",
-            "Stāvoklis: stehen.",
-            "Stāvoklis: kaut kas jau atrodas stāvus."
-          ],
-          "sectionAccents": {
-            "explanation": {
-              "blue": [
-                "stehen",
-                "stehen"
-              ],
-              "purple": [
-                "stāvēt"
-              ]
-            },
-            "examples": [
-              {
-                "de": {
-                  "blue": [
-                    "stehen",
-                    "stehen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "stāvēt"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "stehen",
-                    "stehen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "stāvēt"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "stehen",
-                    "stehen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "stāvēt"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "stehen",
-                    "stehen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "stāvēt"
-                  ]
-                }
-              }
-            ],
-            "tip": [
-              {
-                "purple": [
-                  "stāvēt"
-                ]
-              }
-            ],
-            "important": [
-              {
-                "blue": [
-                  "stehen"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "icon": "✋",
-          "lv": "nolikt stāvus",
-          "de": "stellen",
-          "accent": "green",
-          "explanation": [
-            "Galvenā doma: Darbība: kāds kaut ko noliek stāvus vai novieto.",
-            "stellen galvenokārt nozīmē: darbība.",
-            "Bieži raksturo: ko kāds novieto stāvus.",
-            "stellen lieto, ja kāds kaut ko noliek stāvus vai novieto.",
-            "Ar jautājumiem stellen nozīmē auch „uzdot“: eine Frage stellen."
-          ],
-          "examples": [
-            {
-              "de": "Ich stelle die Flasche auf den Tisch.",
-              "lv": "Es nolieku pudeli uz galda."
-            },
-            {
-              "de": "Darf ich eine Frage stellen?",
-              "lv": "vai drīkstu uzdot jautājumu?"
-            },
-            {
-              "de": "Ich stelle die Flasche hin.",
-              "lv": "es nolieku pudeli stāvus."
-            },
-            {
-              "de": "Ich stelle die Flasche auf den Tisch.",
-              "lv": "Es nolieku pudeli uz galda."
-            }
-          ],
-          "tip": [
-            "Ja priekšmets jau stāv, lieto stehen. Ja tu to novieto stāvus, lieto stellen.",
-            "Darbība: kāds kaut ko noliek stāvus vai novieto."
-          ],
-          "important": [
-            "stellen = darbība.",
-            "eine Frage stellen = uzdot jautājumu.",
-            "Darbība: stellen.",
-            "Darbība: kāds kaut ko noliek stāvus vai novieto."
-          ],
-          "sectionAccents": {
-            "explanation": {
-              "green": [
-                "stellen",
-                "stellen"
-              ],
-              "purple": [
-                "nolikt stāvus"
-              ]
-            },
-            "examples": [
-              {
-                "de": {
-                  "green": [
-                    "stellen",
-                    "stellen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "nolikt stāvus"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "stellen",
-                    "stellen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "nolikt stāvus"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "stellen",
-                    "stellen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "nolikt stāvus"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "stellen",
-                    "stellen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "nolikt stāvus"
-                  ]
-                }
-              }
-            ],
-            "tip": [
-              {
-                "purple": [
-                  "nolikt stāvus"
-                ]
-              }
-            ],
-            "important": [
-              {
-                "green": [
-                  "stellen"
-                ]
-              }
-            ]
-          }
-        }
+      "id": "a2-stehen",
+      "layout": "standardStudy",
+      "translation": "stāvēt",
+      "explanation": [
+        "Galvenā doma: Stāvoklis: kaut kas jau atrodas stāvus.",
+        "stehen galvenokārt nozīmē: stāvoklis.",
+        "Bieži raksturo: kur kaut kas stāv.",
+        "stehen lieto, ja kaut kas jau atrodas stāvus."
       ],
       "examples": [
+        {
+          "de": "Die Flasche steht auf dem Tisch.",
+          "lv": "Pudele stāv uz galda."
+        },
         {
           "de": "Die Flasche steht auf dem Tisch.",
           "lv": "pudele stāv uz galda."
         },
         {
-          "de": "Stell die Flasche auf den Tisch.",
-          "lv": "noliec pudeli uz galda."
+          "de": "stehen",
+          "lv": "stāvoklis; stellen"
+        }
+      ],
+      "tip": [
+        "Stāvoklis: kaut kas jau atrodas stāvus.",
+        "Izmanto stehen, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "stehen = stāvoklis.",
+        "Stāvoklis: stehen.",
+        "Stāvoklis: kaut kas jau atrodas stāvus."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "stehen",
+            "stehen"
+          ],
+          "purple": [
+            "stāvēt"
+          ]
         },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "stehen",
+                "stehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "stāvēt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "stehen",
+                "stehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "stāvēt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "stehen",
+                "stehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "stāvēt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "stehen",
+                "stehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "stāvēt"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "stāvēt"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "stehen"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "stellen",
+    "lv": "nolikt stāvus",
+    "level": "A2",
+    "study": {
+      "id": "a2-stellen",
+      "layout": "standardStudy",
+      "translation": "nolikt stāvus",
+      "explanation": [
+        "Galvenā doma: Darbība: kāds kaut ko noliek stāvus vai novieto.",
+        "stellen galvenokārt nozīmē: darbība.",
+        "Bieži raksturo: ko kāds novieto stāvus.",
+        "stellen lieto, ja kāds kaut ko noliek stāvus vai novieto.",
+        "Ar jautājumiem stellen nozīmē auch „uzdot“: eine Frage stellen."
+      ],
+      "examples": [
         {
-          "de": "Der Stuhl steht am Fenster.",
-          "lv": "krēsls stāv pie loga."
+          "de": "Ich stelle die Flasche auf den Tisch.",
+          "lv": "Es nolieku pudeli uz galda."
         },
         {
           "de": "Darf ich eine Frage stellen?",
           "lv": "vai drīkstu uzdot jautājumu?"
         },
         {
-          "de": "Das Glas steht in der Küche.",
-          "lv": "glāze stāv virtuvē."
-        },
-        {
-          "de": "Ich stelle das Glas in die Küche.",
-          "lv": "es nolieku glāzi virtuvē."
+          "de": "Ich stelle die Flasche hin.",
+          "lv": "es nolieku pudeli stāvus."
         }
       ],
-      "comparisonTable": [
-        {
-          "lv": "stāvēt",
-          "de": "stehen",
-          "meaning": "stāvoklis",
-          "describes": "kur kaut kas stāv",
-          "example": "Die Flasche steht auf dem Tisch.",
-          "translation": "pudele stāv uz galda."
-        },
-        {
-          "lv": "nolikt stāvus",
-          "de": "stellen",
-          "meaning": "darbība",
-          "describes": "ko kāds novieto stāvus",
-          "example": "Ich stelle die Flasche hin.",
-          "translation": "es nolieku pudeli stāvus."
-        },
-        {
-          "lv": "uzdot jautājumu",
-          "de": "Frage stellen",
-          "meaning": "jautājuma uzdošana",
-          "describes": "frāzes savienojums",
-          "example": "Darf ich eine Frage stellen?",
-          "translation": "vai drīkstu uzdot jautājumu?"
-        },
-        {
-          "lv": "gulēt / atrasties",
-          "de": "liegen",
-          "meaning": "stāvoklis guļus",
-          "describes": "horizontālu atrašanos",
-          "example": "Das Buch liegt hier.",
-          "translation": "grāmata atrodas šeit."
-        },
-        {
-          "lv": "nolikt guļus",
-          "de": "legen",
-          "meaning": "darbība guļus",
-          "describes": "horizontālu novietošanu",
-          "example": "Ich lege das Buch hin.",
-          "translation": "es nolieku grāmatu guļus."
-        },
-        {
-          "lv": "sēdēt",
-          "de": "sitzen",
-          "meaning": "stāvoklis sēdus",
-          "describes": "sēdošu pozīciju",
-          "example": "Ich sitze am Tisch.",
-          "translation": "es sēžu pie galda."
-        }
+      "tip": [
+        "Darbība: kāds kaut ko noliek stāvus vai novieto.",
+        "Izmanto stellen, kad konteksts atbilst šai nozīmei."
       ],
-      "importantComparison": [
-        "Die Flasche steht auf dem Tisch. = Pudele stāv uz galda.",
-        "Ich stelle die Flasche auf den Tisch. = Es nolieku pudeli uz galda.",
-        "stehen = stāvoklis; stellen = darbība."
-      ],
-      "tip": {
-        "left": "Ja priekšmets jau stāv, lieto stehen. Ja tu to novieto stāvus, lieto stellen.",
-        "rightTitle": "ātri",
-        "rightItems": [
-          {
-            "de": "steht",
-            "lv": "stāv"
-          },
-          {
-            "de": "stelle",
-            "lv": "nolieku"
-          }
-        ]
-      },
       "important": [
-        "stehen = stāvoklis.",
         "stellen = darbība.",
-        "eine Frage stellen = uzdot jautājumu."
-      ],
-      "mistakes": [
-        {
-          "wrong": "Ich stehe die Flasche auf den Tisch.",
-          "right": "Ich stelle die Flasche auf den Tisch."
-        },
-        {
-          "wrong": "Die Flasche stellt auf dem Tisch.",
-          "right": "Die Flasche steht auf dem Tisch."
-        }
-      ],
-      "remember": [
-        "Stāvoklis: stehen.",
-        "Darbība: stellen."
+        "eine Frage stellen = uzdot jautājumu.",
+        "Darbība: stellen.",
+        "Darbība: kāds kaut ko noliek stāvus vai novieto."
       ],
       "sectionAccents": {
-        "lead": {
-          "blue": [
-            "stehen"
-          ],
+        "explanation": {
           "green": [
+            "stellen",
             "stellen"
+          ],
+          "purple": [
+            "nolikt stāvus"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "stellen",
+                "stellen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nolikt stāvus"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "stellen",
+                "stellen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nolikt stāvus"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "stellen",
+                "stellen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nolikt stāvus"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "stellen",
+                "stellen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nolikt stāvus"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "nolikt stāvus"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "stellen"
+            ]
+          }
+        ]
       }
     }
   },
@@ -70855,6 +69971,2362 @@ const A2_WORDS = [
           "plural": "die Zwillinge"
         }
       ]
+    }
+  },
+  {
+    "de": "sehen",
+    "lv": "redzēt",
+    "level": "A2",
+    "study": {
+      "id": "a2-sehen",
+      "layout": "standardStudy",
+      "translation": "redzēt",
+      "explanation": [
+        "Galvenā doma: Uztvert ar acīm, bieži bez īpaša nodoma.",
+        "sehen galvenokārt nozīmē: uztvert ar acīm.",
+        "Bieži raksturo: redzi.",
+        "sehen bieži notiek bez īpašas piepūles."
+      ],
+      "examples": [
+        {
+          "de": "Ich sehe dich.",
+          "lv": "es tevi redzu."
+        }
+      ],
+      "tip": [
+        "sehen = redzēt",
+        "Izmanto sehen, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "sehen nav vienmēr skatīties.",
+        "sehen = redzēt."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sehen"
+          ],
+          "purple": [
+            "redzēt"
+          ],
+          "green": [
+            "Redzēt"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "sehen",
+                "sehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "redzēt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sehen",
+                "sehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "redzēt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sehen",
+                "sehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "redzēt"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "redzēt"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "sehen"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "schauen",
+    "lv": "skatīties",
+    "level": "A2",
+    "study": {
+      "id": "a2-schauen",
+      "layout": "standardStudy",
+      "translation": "skatīties",
+      "explanation": [
+        "Galvenā doma: Aktīvi skatīties vai palūkoties.",
+        "schauen galvenokārt nozīmē: aktīvi skatīties.",
+        "Bieži raksturo: darbību.",
+        "schauen nozīmē aktīvi skatīties."
+      ],
+      "examples": [
+        {
+          "de": "Ich schaue fern.",
+          "lv": "Es skatos televizoru."
+        },
+        {
+          "de": "Wir schauen aus dem Fenster.",
+          "lv": "mēs skatāmies pa logu."
+        },
+        {
+          "de": "Ich schaue fern.",
+          "lv": "es skatos televizoru."
+        }
+      ],
+      "tip": [
+        "schauen = skatīties",
+        "Izmanto schauen, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "schauen = skatīties.",
+        "Aktīvi skatīties vai palūkoties."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "schauen"
+          ],
+          "purple": [
+            "skatīties"
+          ],
+          "orange": [
+            "skatīties"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "schauen",
+                "schauen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skatīties"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "schauen",
+                "schauen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skatīties"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "schauen",
+                "schauen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skatīties"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "schauen",
+                "schauen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skatīties"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "skatīties"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "schauen"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "ansehen",
+    "lv": "apskatīt • noskatīties",
+    "level": "A2",
+    "study": {
+      "id": "a2-ansehen",
+      "layout": "standardStudy",
+      "translation": "apskatīt • noskatīties",
+      "explanation": [
+        "Galvenā doma: Apskatīt konkrētu lietu vai noskatīties filmu/video.",
+        "ansehen galvenokārt nozīmē: skatīties uz konkrētu objektu.",
+        "Bieži raksturo: mērķētu skatīšanos.",
+        "ansehen lieto, ja uzmanību vērš uz konkrētu objektu, filmu vai lietu."
+      ],
+      "examples": [
+        {
+          "de": "Schau dir das an!",
+          "lv": "apskati šo!"
+        }
+      ],
+      "tip": [
+        "ansehen = apskatīt",
+        "Izmanto ansehen, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "ansehen bieži ir atdalāms: Ich sehe mir ... an.",
+        "ansehen = apskatīt/noskatīties.",
+        "Apskatīt konkrētu lietu vai noskatīties filmu/video."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "yellow": [
+            "ansehen"
+          ],
+          "purple": [
+            "apskatīt / noskatīties"
+          ],
+          "green": [
+            "noskatīties",
+            "apskatīt"
+          ],
+          "red": [
+            "Apskatīt"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "yellow": [
+                "ansehen",
+                "ansehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apskatīt",
+                "noskatīties"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "ansehen",
+                "ansehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apskatīt",
+                "noskatīties"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "ansehen",
+                "ansehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apskatīt",
+                "noskatīties"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "apskatīt"
+            ]
+          },
+          {
+            "purple": [
+              "noskatīties"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "yellow": [
+              "ansehen"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "hören",
+    "lv": "dzirdēt • klausīties",
+    "level": "A2",
+    "study": {
+      "id": "a2-hoeren",
+      "layout": "standardStudy",
+      "translation": "dzirdēt • klausīties",
+      "explanation": [
+        "Galvenā doma: Dzirdēt skaņu vai klausīties mūziku.",
+        "hören galvenokārt nozīmē: uztvert skaņu.",
+        "Bieži raksturo: skaņas.",
+        "hören lieto skaņām, mūzikai un tam, ko dzird."
+      ],
+      "examples": [
+        {
+          "de": "Ich höre Musik.",
+          "lv": "Es klausos mūziku."
+        },
+        {
+          "de": "Die Kinder hören eine Geschichte.",
+          "lv": "bērni klausās stāstu."
+        },
+        {
+          "de": "Ich höre dich.",
+          "lv": "es tevi dzirdu."
+        }
+      ],
+      "tip": [
+        "Dzirdēt skaņu vai klausīties mūziku.",
+        "Izmanto hören, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "hören = dzirdēt/klausīties skaņu.",
+        "Dzirdēt skaņu vai klausīties mūziku."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "hören"
+          ],
+          "purple": [
+            "dzirdēt / klausīties",
+            "klausīties",
+            "dzirdēt"
+          ],
+          "green": [
+            "klausīties",
+            "Dzirdēt"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "hören",
+                "hören"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dzirdēt",
+                "klausīties"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hören",
+                "hören"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dzirdēt",
+                "klausīties"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hören",
+                "hören"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dzirdēt",
+                "klausīties"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hören",
+                "hören"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dzirdēt",
+                "klausīties"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "dzirdēt"
+            ]
+          },
+          {
+            "purple": [
+              "klausīties"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "hören"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "sagen",
+    "lv": "teikt",
+    "level": "A2",
+    "study": {
+      "id": "a2-sagen",
+      "layout": "standardStudy",
+      "translation": "teikt",
+      "explanation": [
+        "Galvenā doma: Pateikt konkrētu domu, vārdu vai teikumu.",
+        "sagen galvenokārt nozīmē: pateikt konkrētu domu.",
+        "Bieži raksturo: vārdus/teikumus.",
+        "sagen lieto konkrētam pateiktam tekstam."
+      ],
+      "examples": [
+        {
+          "de": "Was hast du gesagt?",
+          "lv": "ko tu pateici?"
+        }
+      ],
+      "tip": [
+        "sagen = teikt",
+        "Izmanto sagen, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "sagen = pateikt.",
+        "Pateikt konkrētu domu, vārdu vai teikumu."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sagen"
+          ],
+          "purple": [
+            "teikt"
+          ],
+          "green": [
+            "Teikt"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "sagen",
+                "sagen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "teikt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sagen",
+                "sagen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "teikt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sagen",
+                "sagen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "teikt"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "teikt"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "sagen"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "sprechen",
+    "lv": "runāt",
+    "level": "A2",
+    "study": {
+      "id": "a2-sprechen",
+      "layout": "standardStudy",
+      "translation": "runāt",
+      "explanation": [
+        "Galvenā doma: Runāt, sarunāties vai lietot valodu.",
+        "sprechen galvenokārt nozīmē: runāt vai sarunāties.",
+        "Bieži raksturo: valodu/sarunu.",
+        "sprechen raksturo runāšanu vai valodas lietošanu."
+      ],
+      "examples": [
+        {
+          "de": "Ich spreche Deutsch.",
+          "lv": "Es runāju vāciski."
+        },
+        {
+          "de": "Wir sprechen über die Arbeit.",
+          "lv": "mēs runājam par darbu."
+        },
+        {
+          "de": "Ich spreche Deutsch.",
+          "lv": "es runāju vāciski."
+        }
+      ],
+      "tip": [
+        "sprechen = runāt",
+        "Izmanto sprechen, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "sprechen = runāt.",
+        "Runāt, sarunāties vai lietot valodu."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "sprechen"
+          ],
+          "purple": [
+            "runāt"
+          ],
+          "orange": [
+            "runāt"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "sprechen",
+                "sprechen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "runāt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "sprechen",
+                "sprechen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "runāt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "sprechen",
+                "sprechen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "runāt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "sprechen",
+                "sprechen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "runāt"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "runāt"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "sprechen"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "groß",
+    "lv": "liels",
+    "level": "A2",
+    "study": {
+      "id": "a2-gross",
+      "layout": "standardStudy",
+      "translation": "liels",
+      "explanation": [
+        "Galvenā doma: Liels izmērā vai cilvēkam - garš augumā.",
+        "groß galvenokārt nozīmē: liels izmērs.",
+        "Bieži raksturo: kopējo izmēru.",
+        "groß galvenokārt nozīmē: cilvēka augums.",
+        "Bieži raksturo: personu.",
+        "groß raksturo izmēru kopumā vai cilvēka augumu."
+      ],
+      "examples": [
+        {
+          "de": "Das Haus ist groß.",
+          "lv": "Māja ir liela."
+        },
+        {
+          "de": "Das Haus ist groß.",
+          "lv": "māja ir liela."
+        },
+        {
+          "de": "Er ist groß.",
+          "lv": "viņš ir garš augumā."
+        },
+        {
+          "de": "Das Zimmer ist groß.",
+          "lv": "istaba ir liela."
+        }
+      ],
+      "tip": [
+        "groß = liels",
+        "Izmanto groß, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "Cilvēkam Er ist groß nozīmē garš augumā.",
+        "groß = liels.",
+        "Liels izmērā vai cilvēkam - garš augumā."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "groß"
+          ],
+          "purple": [
+            "liels"
+          ],
+          "green": [
+            "Liels"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "groß",
+                "groß"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "liels"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "groß",
+                "groß"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "liels"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "groß",
+                "groß"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "liels"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "groß",
+                "groß"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "liels"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "groß",
+                "groß"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "liels"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "liels"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "groß"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "hoch",
+    "lv": "augsts",
+    "level": "A2",
+    "study": {
+      "id": "a2-hoch",
+      "layout": "standardStudy",
+      "translation": "augsts",
+      "explanation": [
+        "Galvenā doma: Augsts vertikāli, līmenī vai augstumā.",
+        "hoch galvenokārt nozīmē: liels augstumā.",
+        "Bieži raksturo: vertikālu augstumu.",
+        "hoch galvenokārt nozīmē: augsts līmenis.",
+        "Bieži raksturo: cenas/skaitļus.",
+        "hoch raksturo augstumu, vertikālu virzienu vai līmeni."
+      ],
+      "examples": [
+        {
+          "de": "Der Berg ist hoch.",
+          "lv": "Kalns ir augsts."
+        },
+        {
+          "de": "Der Berg ist hoch.",
+          "lv": "kalns ir augsts."
+        },
+        {
+          "de": "Die Miete ist hoch.",
+          "lv": "īre ir augsta."
+        },
+        {
+          "de": "Die Mauer ist hoch.",
+          "lv": "siena ir augsta."
+        },
+        {
+          "de": "Die Preise sind hoch.",
+          "lv": "cenas ir augstas."
+        }
+      ],
+      "tip": [
+        "hoch = augsts",
+        "Izmanto hoch, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "Cenām un līmenim bieži lieto hoch.",
+        "hoch = augsts.",
+        "Augsts vertikāli, līmenī vai augstumā."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "hoch"
+          ],
+          "purple": [
+            "augsts"
+          ],
+          "orange": [
+            "augsts"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "hoch",
+                "hoch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "augsts"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "hoch",
+                "hoch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "augsts"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "hoch",
+                "hoch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "augsts"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "hoch",
+                "hoch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "augsts"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "hoch",
+                "hoch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "augsts"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "augsts"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "hoch"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "klein",
+    "lv": "mazs",
+    "level": "A2",
+    "study": {
+      "id": "a2-klein",
+      "layout": "standardStudy",
+      "translation": "mazs",
+      "explanation": [
+        "Galvenā doma: Mazs izmērā vai apjomā.",
+        "klein galvenokārt nozīmē: mazs izmērs.",
+        "Bieži raksturo: lietas/personas izmēru.",
+        "klein galvenokārt nozīmē: mazs/jauns.",
+        "Bieži raksturo: bērnu.",
+        "klein raksturo mazu izmēru."
+      ],
+      "examples": [
+        {
+          "de": "Das Zimmer ist klein.",
+          "lv": "Istaba ir maza."
+        },
+        {
+          "de": "Das Zimmer ist klein.",
+          "lv": "istaba ir maza."
+        },
+        {
+          "de": "Das Kind ist noch klein.",
+          "lv": "bērns vēl ir mazs."
+        },
+        {
+          "de": "Ich habe eine kleine Tasche.",
+          "lv": "man ir maza soma."
+        },
+        {
+          "de": "Das Kind ist klein.",
+          "lv": "bērns ir mazs."
+        }
+      ],
+      "tip": [
+        "klein = mazs",
+        "Izmanto klein, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "klein = mazs izmērā.",
+        "klein = mazs.",
+        "Mazs izmērā vai apjomā."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "klein"
+          ],
+          "purple": [
+            "mazs"
+          ],
+          "green": [
+            "Mazs"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "klein",
+                "klein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mazs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "klein",
+                "klein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mazs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "klein",
+                "klein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mazs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "klein",
+                "klein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mazs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "klein",
+                "klein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mazs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "klein",
+                "klein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mazs"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "mazs"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "klein"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "leise",
+    "lv": "kluss",
+    "level": "A2",
+    "study": {
+      "id": "a2-leise",
+      "layout": "standardStudy",
+      "translation": "kluss",
+      "explanation": [
+        "Galvenā doma: Kluss vai ar mazu skaļumu.",
+        "leise galvenokārt nozīmē: mazs skaļums.",
+        "Bieži raksturo: skaņu/balsi/mūziku.",
+        "leise raksturo mazu skaļumu vai klusu balsi/skaņu."
+      ],
+      "examples": [
+        {
+          "de": "Bitte sei leise.",
+          "lv": "Lūdzu, esi kluss."
+        },
+        {
+          "de": "Bitte sei leise.",
+          "lv": "lūdzu, esi kluss."
+        },
+        {
+          "de": "Die Musik ist leise.",
+          "lv": "mūzika ir klusa."
+        },
+        {
+          "de": "Sprich bitte leise.",
+          "lv": "lūdzu, runā klusi."
+        }
+      ],
+      "tip": [
+        "leise = kluss",
+        "Izmanto leise, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "leise = kluss skaņas ziņā.",
+        "leise = skaļums.",
+        "Kluss vai ar mazu skaļumu."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "leise"
+          ],
+          "purple": [
+            "kluss"
+          ],
+          "orange": [
+            "kluss"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "leise",
+                "leise"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kluss"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "leise",
+                "leise"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kluss"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "leise",
+                "leise"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kluss"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "leise",
+                "leise"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kluss"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "leise",
+                "leise"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kluss"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "kluss"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "leise"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "schon",
+    "lv": "jau",
+    "level": "A2",
+    "study": {
+      "id": "a2-schon",
+      "layout": "standardStudy",
+      "translation": "jau",
+      "explanation": [
+        "Galvenā doma: Kaut kas jau ir noticis vai jau ir spēkā.",
+        "schon galvenokārt nozīmē: kaut kas jau ir noticis vai spēkā.",
+        "Bieži raksturo: notikušu faktu vai esošu stāvokli.",
+        "schon nozīmē jau: kaut kas jau ir noticis vai jau ir spēkā."
+      ],
+      "examples": [
+        {
+          "de": "Ich bin schon zu Hause.",
+          "lv": "es jau esmu mājās."
+        }
+      ],
+      "tip": [
+        "Kaut kas jau ir noticis vai jau ir spēkā.",
+        "Izmanto schon, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "schon = jau.",
+        "Kaut kas jau ir noticis vai jau ir spēkā."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "schon",
+            "schon"
+          ],
+          "purple": [
+            "jau"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "schon",
+                "schon"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jau"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schon",
+                "schon"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jau"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schon",
+                "schon"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jau"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "jau"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "schon"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "noch",
+    "lv": "vēl",
+    "level": "A2",
+    "study": {
+      "id": "a2-noch",
+      "layout": "standardStudy",
+      "translation": "vēl",
+      "explanation": [
+        "Galvenā doma: Kaut kas joprojām turpinās vai vēl nav beidzies.",
+        "noch galvenokārt nozīmē: kaut kas joprojām turpinās.",
+        "Bieži raksturo: turpinājumu vai nepabeigtu stāvokli.",
+        "noch nozīmē vēl: kaut kas joprojām turpinās vai vēl nav beidzies."
+      ],
+      "examples": [
+        {
+          "de": "Ich bin noch zu Hause.",
+          "lv": "Es vēl esmu mājās."
+        },
+        {
+          "de": "Ich bin noch zu Hause.",
+          "lv": "es vēl esmu mājās."
+        },
+        {
+          "de": "Bist du noch da?",
+          "lv": "vai tu vēl esi šeit?"
+        }
+      ],
+      "tip": [
+        "Kaut kas joprojām turpinās vai vēl nav beidzies.",
+        "Izmanto noch, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "noch = vēl.",
+        "Kaut kas joprojām turpinās vai vēl nav beidzies."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "Vēl"
+          ],
+          "purple": [
+            "vēl"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "noch",
+                "noch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vēl"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "noch",
+                "noch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vēl"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "noch",
+                "noch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vēl"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "noch",
+                "noch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vēl"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "vēl"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "noch"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "erst",
+    "lv": "vēl tikai • ne agrāk kā",
+    "level": "A2",
+    "study": {
+      "id": "a2-erst",
+      "layout": "standardStudy",
+      "translation": "vēl tikai • ne agrāk kā",
+      "explanation": [
+        "Galvenā doma: Norāda uz laiku, secību, agrīnu stadiju vai kaut ko vēlāk, nekā gaidīts.",
+        "erst galvenokārt nozīmē: laiks, secība vai agrīna stadija.",
+        "Bieži raksturo: kad kaut kas notiek vai cik tālu tas ir.",
+        "erst nozīmē vēl tikai, tikai līdz šim vai ne agrāk kā: tas norāda uz laiku, secību vai agrīnu stadiju."
+      ],
+      "examples": [
+        {
+          "de": "Es ist erst acht Uhr.",
+          "lv": "Ir vēl tikai astoņi."
+        },
+        {
+          "de": "Ich bin erst seit einer Stunde hier.",
+          "lv": "es esmu šeit vēl tikai vienu stundu."
+        },
+        {
+          "de": "Es ist erst acht Uhr.",
+          "lv": "ir vēl tikai astoņi."
+        },
+        {
+          "de": "Er kommt erst morgen.",
+          "lv": "viņš atbrauks tikai rīt."
+        }
+      ],
+      "tip": [
+        "Norāda uz laiku, secību, agrīnu stadiju vai kaut ko vēlāk, nekā gaidīts.",
+        "Izmanto erst, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "Ļoti bieži pareizais vārds būs erst, ja runa ir par laiku vai secību.",
+        "erst = vēl tikai / ne agrāk kā."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "yellow": [
+            "Vēl tikai"
+          ],
+          "purple": [
+            "vēl tikai / ne agrāk kā"
+          ],
+          "green": [
+            "ne agrāk kā",
+            "agrāk",
+            "tikai",
+            "Vēl"
+          ],
+          "red": [
+            "Tikai"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "yellow": [
+                "erst",
+                "erst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vēl tikai",
+                "ne agrāk kā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "erst",
+                "erst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vēl tikai",
+                "ne agrāk kā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "erst",
+                "erst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vēl tikai",
+                "ne agrāk kā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "erst",
+                "erst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vēl tikai",
+                "ne agrāk kā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "erst",
+                "erst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vēl tikai",
+                "ne agrāk kā"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "vēl tikai"
+            ]
+          },
+          {
+            "purple": [
+              "ne agrāk kā"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "yellow": [
+              "erst"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "nur",
+    "lv": "tikai • vienīgi",
+    "level": "A2",
+    "study": {
+      "id": "a2-nur",
+      "layout": "standardStudy",
+      "translation": "tikai • vienīgi",
+      "explanation": [
+        "Galvenā doma: Ierobežo daudzumu, cilvēku skaitu, izvēli vai iespējas.",
+        "nur galvenokārt nozīmē: ierobežots daudzums vai izvēle.",
+        "Bieži raksturo: cik daudz, kas tieši vai kurš vienīgais.",
+        "nur nozīmē tikai, vienīgi, nekas vairāk: tas ierobežo daudzumu vai izvēli."
+      ],
+      "examples": [
+        {
+          "de": "Ich habe nur zehn Euro.",
+          "lv": "Man ir tikai desmit eiro."
+        },
+        {
+          "de": "Ich habe nur zehn Euro.",
+          "lv": "man ir tikai desmit eiro."
+        },
+        {
+          "de": "Nur du kannst mir helfen.",
+          "lv": "tikai tu vari man palīdzēt."
+        },
+        {
+          "de": "Ich möchte nur Kaffee.",
+          "lv": "es gribu tikai kafiju."
+        },
+        {
+          "de": "Ich habe nur acht Euro.",
+          "lv": "man ir tikai astoņi eiro."
+        },
+        {
+          "de": "Ich habe nur acht Euro.",
+          "lv": "Man ir tikai astoņi eiro."
+        }
+      ],
+      "tip": [
+        "Ierobežo daudzumu, cilvēku skaitu, izvēli vai iespējas.",
+        "Izmanto nur, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "Latviešu “tikai” vācu valodā ne vienmēr ir nur.",
+        "nur = tikai / vienīgi."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "orange": [
+            "nur",
+            "nur"
+          ],
+          "purple": [
+            "tikai / vienīgi"
+          ],
+          "green": [
+            "vienīgi"
+          ],
+          "red": [
+            "Tikai"
+          ],
+          "yellow": [
+            "vienīgi",
+            "tikai"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "orange": [
+                "nur",
+                "nur"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tikai",
+                "vienīgi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "orange": [
+                "nur",
+                "nur"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tikai",
+                "vienīgi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "orange": [
+                "nur",
+                "nur"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tikai",
+                "vienīgi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "orange": [
+                "nur",
+                "nur"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tikai",
+                "vienīgi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "orange": [
+                "nur",
+                "nur"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tikai",
+                "vienīgi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "orange": [
+                "nur",
+                "nur"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tikai",
+                "vienīgi"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "tikai"
+            ]
+          },
+          {
+            "purple": [
+              "vienīgi"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "orange": [
+              "nur"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "über",
+    "lv": "virs • pāri • par",
+    "level": "A2",
+    "study": {
+      "id": "a2-ueber",
+      "layout": "standardStudy",
+      "translation": "virs • pāri • par",
+      "explanation": [
+        "Galvenā doma: Var būt virs kaut kā, pāri kaut kam vai par kādu tēmu.",
+        "über galvenokārt nozīmē: augstāk par kaut ko.",
+        "Bieži raksturo: atrašanās vietu.",
+        "über galvenokārt nozīmē: šķērsot kaut ko.",
+        "Bieži raksturo: kustību pāri.",
+        "über galvenokārt nozīmē: tēma.",
+        "Bieži raksturo: par ko runā.",
+        "über var nozīmēt virs, pāri vai par, atkarībā no konteksta."
+      ],
+      "examples": [
+        {
+          "de": "Wir gehen über die Straße.",
+          "lv": "Mēs ejam pāri ielai."
+        },
+        {
+          "de": "Die Lampe hängt über dem Tisch.",
+          "lv": "lampa karājas virs galda."
+        },
+        {
+          "de": "Wir gehen über die Straße.",
+          "lv": "mēs ejam pāri ielai."
+        },
+        {
+          "de": "Er spricht über seine Arbeit.",
+          "lv": "viņš runā par savu darbu."
+        },
+        {
+          "de": "Wir sprechen über das Problem.",
+          "lv": "mēs runājam par problēmu."
+        }
+      ],
+      "tip": [
+        "Var būt virs kaut kā, pāri kaut kam vai par kādu tēmu.",
+        "Izmanto über, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "Ich gehe über den Park nav pareizi, ja doma ir “caur parku”.",
+        "über var nozīmēt gan virs, gan pāri, gan par.",
+        "über = virs / pāri / par."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "Pāri"
+          ],
+          "purple": [
+            "virs / pāri / par"
+          ],
+          "yellow": [
+            "virs"
+          ],
+          "orange": [
+            "pāri",
+            "virs"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "über",
+                "über"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "virs",
+                "pāri",
+                "par"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "über",
+                "über"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "virs",
+                "pāri",
+                "par"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "über",
+                "über"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "virs",
+                "pāri",
+                "par"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "über",
+                "über"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "virs",
+                "pāri",
+                "par"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "über",
+                "über"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "virs",
+                "pāri",
+                "par"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "über",
+                "über"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "virs",
+                "pāri",
+                "par"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "virs"
+            ]
+          },
+          {
+            "purple": [
+              "pāri"
+            ]
+          },
+          {
+            "purple": [
+              "par"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "über"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "drin / drinnen",
+    "lv": "iekšā",
+    "level": "A2",
+    "study": {
+      "id": "a2-drin-drinnen",
+      "layout": "standardStudy",
+      "translation": "iekšā",
+      "explanation": [
+        "Galvenā doma: Kāds vai kaut kas ir kaut kā iekšienē.",
+        "Piemēros meklē tipisku ikdienas lietojumu.",
+        "Ja šaubies, pārbaudi, vai runa ir par stāvokli vai darbību.",
+        "Konteksts un darbības virziens nosaka pareizo izvēli."
+      ],
+      "examples": [
+        {
+          "de": "drin / drinnen.",
+          "lv": "iekšā"
+        }
+      ],
+      "tip": [
+        "Kāds vai kaut kas ir kaut kā iekšienē.",
+        "Izmanto drin / drinnen, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "Kāds vai kaut kas ir kaut kā iekšienē.",
+        "drin / drinnen: pirms lietošanas pārbaudi kontekstu un salīdzini ar citiem vārdiem kartītē."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "Iekšā"
+          ],
+          "purple": [
+            "iekšā"
+          ],
+          "orange": [
+            "iekšā"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "drin / drinnen",
+                "drin / drinnen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "iekšā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "drin / drinnen",
+                "drin / drinnen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "iekšā"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "iekšā"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "drin / drinnen"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "gleich",
+    "lv": "vienāds • tūlīt",
+    "level": "A2",
+    "study": {
+      "id": "a2-gleich",
+      "layout": "standardStudy",
+      "translation": "vienāds • tūlīt",
+      "explanation": [
+        "Galvenā doma: Var nozīmēt vienāds vai tūlīt.",
+        "gleich galvenokārt nozīmē: tāds pats.",
+        "Bieži raksturo: salīdzinājumu.",
+        "gleich galvenokārt nozīmē: drīz / tūlīt.",
+        "Bieži raksturo: laiku.",
+        "gleich nozīmē vienāds, ja salīdzina lietas.",
+        "gleich var nozīmēt arī tūlīt vai drīz, īpaši sarunvalodā."
+      ],
+      "examples": [
+        {
+          "de": "Die Farben sind gleich.",
+          "lv": "Krāsas ir vienādas."
+        },
+        {
+          "de": "Die beiden Farben sind gleich.",
+          "lv": "abas krāsas ir vienādas."
+        },
+        {
+          "de": "Ich komme gleich.",
+          "lv": "es tūlīt nāku."
+        },
+        {
+          "de": "Wir haben die gleiche Tasche.",
+          "lv": "mums ir vienāda soma."
+        },
+        {
+          "de": "Gleich beginnt der Film.",
+          "lv": "filma tūlīt sāksies."
+        },
+        {
+          "de": "Die Farben sind gleich.",
+          "lv": "krāsas ir vienādas."
+        }
+      ],
+      "tip": [
+        "gleich = vienāds / tūlīt",
+        "Izmanto gleich, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "Das ist mir gleich nav pareizi, ja doma ir “man vienalga”.",
+        "gleich ir divas biežas nozīmes: vienāds un tūlīt.",
+        "gleich = vienāds / tūlīt."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "gleich"
+          ],
+          "purple": [
+            "vienāds / tūlīt"
+          ],
+          "red": [
+            "Tūlīt"
+          ],
+          "orange": [
+            "vienāds",
+            "tūlīt"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "gleich",
+                "gleich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vienāds",
+                "tūlīt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "gleich",
+                "gleich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vienāds",
+                "tūlīt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "gleich",
+                "gleich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vienāds",
+                "tūlīt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "gleich",
+                "gleich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vienāds",
+                "tūlīt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "gleich",
+                "gleich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vienāds",
+                "tūlīt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "gleich",
+                "gleich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vienāds",
+                "tūlīt"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "vienāds"
+            ]
+          },
+          {
+            "purple": [
+              "tūlīt"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "gleich"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "auch",
+    "lv": "arī",
+    "level": "A2",
+    "study": {
+      "id": "a2-auch",
+      "layout": "standardStudy",
+      "translation": "arī",
+      "explanation": [
+        "Galvenā doma: Visbiežākais un neitrālākais “arī”.",
+        "auch galvenokārt nozīmē: vienkāršs “arī”.",
+        "Bieži raksturo: papildinājumu.",
+        "auch ir visparastākais vārds “arī”."
+      ],
+      "examples": [
+        {
+          "de": "Ich komme auch.",
+          "lv": "Es arī nāku."
+        },
+        {
+          "de": "Ich komme auch.",
+          "lv": "es arī nāku."
+        },
+        {
+          "de": "Sie arbeitet auch hier.",
+          "lv": "viņa arī strādā šeit."
+        }
+      ],
+      "tip": [
+        "auch = arī",
+        "Izmanto auch, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "Ich auch wünsche Ihnen nav pareiza vārdu kārtība.",
+        "auch = arī."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "auch",
+            "auch"
+          ],
+          "purple": [
+            "arī"
+          ],
+          "green": [
+            "Arī"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "auch",
+                "auch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "arī"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "auch",
+                "auch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "arī"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "auch",
+                "auch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "arī"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "auch",
+                "auch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "arī"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "arī"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "auch"
+            ]
+          }
+        ]
+      }
     }
   }
 ];

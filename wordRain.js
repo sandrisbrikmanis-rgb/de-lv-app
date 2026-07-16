@@ -109,14 +109,6 @@
       });
     });
 
-    if (Array.isArray(window.COMPARISON_STUDY_CARDS)) {
-      window.COMPARISON_STUDY_CARDS.forEach((card) => {
-        if (normalizeText(card && card.level) === group) {
-          cards.push(card);
-        }
-      });
-    }
-
     const seen = new Set();
     return cards
       .map((card) => ({
