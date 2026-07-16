@@ -3650,545 +3650,254 @@ const C1_WORDS = [
     "level": "C1"
   },
   {
-    "de": "beziehen • beabsichtigen",
-    "lv": "Attiecināt • Nodomāt • Plānot",
+    "de": "beziehen / sich beziehen auf",
+    "lv": "attiecināt • attiekties uz",
     "level": "C1",
     "study": {
-      "id": "compare-beziehen-beabsichtigen",
-      "layout": "comparisonStudy",
-      "title": "Attiecināt • Nodomāt • Plānot",
-      "subtitle": "beziehen • sich beziehen • beabsichtigen",
-      "lead": "beziehen un beabsichtigen C1 stilā bieži tiek jaukti. beziehen attiecas uz attiecību vai regulāru saņemšanu; beabsichtigen — uz apzinātu nodomu.",
-      "explanation": "beziehen (sich beziehen auf) nozīmē attiecināt, attiekties uz avotu, regulāru maksājumu vai ievākšanos. beabsichtigen nozīmē apzināti nodomāt vai plānot darbību — nevis attiecību, bet nolūku.",
-      "words": [
-        {
-          "icon": "🔗",
-          "lv": "attiecināt • attiekties uz",
-          "de": "beziehen / sich beziehen auf",
-          "accent": "blue",
-          "explanation": [
-            "Galvenā doma: Formāls reģistrs: attiecināt uz avotu, regulāru pensiju/algas saņemšanu vai ievākšanos dzīvoklī.",
-            "Šo vārdu salīdzini ar pārējiem šajā kartītē, lai izvēlētos pareizo variantu.",
-            "Piemēros meklē tipisku ikdienas lietojumu.",
-            "Ja šaubies, pārbaudi, vai runa ir par stāvokli vai darbību.",
-            "Konteksts un darbības virziens nosaka pareizo izvēli."
-          ],
-          "examples": [
-            {
-              "de": "beziehen / sich beziehen auf.",
-              "lv": "attiecināt • attiekties uz"
-            },
-            {
-              "de": "beziehen / sich beziehen auf.",
-              "lv": "attiecināt • attiekties uz"
-            },
-            {
-              "de": "beziehen / sich beziehen auf.",
-              "lv": "attiecināt • attiekties uz"
-            },
-            {
-              "de": "beziehen / sich beziehen auf.",
-              "lv": "attiecināt • attiekties uz"
-            }
-          ],
-          "tip": [
-            "Formāls reģistrs: attiecināt uz avotu, regulāru pensiju/algas saņemšanu vai ievākšanos dzīvoklī.",
-            "Izmanto beziehen / sich beziehen auf, kad konteksts atbilst šai nozīmei."
-          ],
-          "important": [
-            "Formāls reģistrs: attiecināt uz avotu, regulāru pensiju/algas saņemšanu vai ievākšanos dzīvoklī.",
-            "beziehen / sich beziehen auf: pirms lietošanas pārbaudi kontekstu un salīdzini ar citiem vārdiem kartītē."
-          ],
-          "sectionAccents": {
-            "explanation": {
-              "blue": [
-                "beziehen",
-                "bezieht"
-              ],
-              "purple": [
-                "attiecināt",
-                "attiekties"
-              ]
-            },
-            "examples": [
-              {
-                "de": {
-                  "blue": [
-                    "beziehen / sich beziehen auf",
-                    "beziehen / sich beziehen auf"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "attiecināt",
-                    "attiekties uz"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "beziehen / sich beziehen auf",
-                    "beziehen / sich beziehen auf"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "attiecināt",
-                    "attiekties uz"
-                  ]
-                }
-              }
-            ],
-            "tip": [
-              {
-                "purple": [
-                  "attiecināt"
-                ]
-              },
-              {
-                "purple": [
-                  "attiekties uz"
-                ]
-              }
-            ],
-            "important": [
-              {
-                "blue": [
-                  "beziehen / sich beziehen auf"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "icon": "🎯",
-          "lv": "nodomāt • plānot",
-          "de": "beabsichtigen",
-          "accent": "green",
-          "explanation": [
-            "Galvenā doma: Apzināts nodoms veikt darbību nākotnē. Neattiecas uz attiecību, bet uz plānu.",
-            "beabsichtigen galvenokārt nozīmē: apzināts nodoms.",
-            "Bieži raksturo: plāns / nolūks.",
-            "beabsichtigen galvenokārt nozīmē: plānot darbību.",
-            "Bieži raksturo: oficiāls reģistrs.",
-            "beabsichtigen nozīmē apzināti nodomāt vai plānot darbību — nevis attiecību, bet nolūku."
-          ],
-          "examples": [
-            {
-              "de": "Er beabsichtigt, das Projekt zu beenden.",
-              "lv": "Viņš nodomājis pabeigt projektu."
-            },
-            {
-              "de": "Was beabsichtigen Sie mit dieser Maßnahme?",
-              "lv": "ko jūs nodomājat ar šo pasākumu?"
-            },
-            {
-              "de": "Wir beabsichtigen keine Änderung.",
-              "lv": "mēs neplānojam izmaiņu."
-            },
-            {
-              "de": "Er beabsichtigt, das Projekt zu beenden.",
-              "lv": "viņš nodomājis pabeigt projektu."
-            },
-            {
-              "de": "beabsichtigen + zu + nenoteiksme",
-              "lv": "nodomāt kaut ko darīt."
-            }
-          ],
-          "tip": [
-            "Ja runa ir par attiecību, avotu vai regulāru saņemšanu — beziehen. Ja par apzinātu plānu — beabsichtigen.",
-            "beabsichtigen = nodomāt"
-          ],
-          "important": [
-            "beabsichtigen + zu + nenoteiksme: Er beabsichtigt zu gehen.",
-            "beabsichtigen nevar aizstāt ar beziehen — tas ir nolūks, ne attiecība.",
-            "beabsichtigen → nodoms, plāns.",
-            "Apzināts nodoms veikt darbību nākotnē. Neattiecas uz attiecību, bet uz plānu."
-          ],
-          "sectionAccents": {
-            "explanation": {
-              "green": [
-                "beabsichtigen",
-                "beabsichtigt"
-              ],
-              "purple": [
-                "nodomāt",
-                "plānot"
-              ]
-            },
-            "examples": [
-              {
-                "de": {
-                  "green": [
-                    "beabsichtigen",
-                    "beabsichtigen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "nodomāt",
-                    "plānot"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "beabsichtigen",
-                    "beabsichtigen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "nodomāt",
-                    "plānot"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "beabsichtigen",
-                    "beabsichtigen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "nodomāt",
-                    "plānot"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "beabsichtigen",
-                    "beabsichtigen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "nodomāt",
-                    "plānot"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "beabsichtigen",
-                    "beabsichtigen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "nodomāt",
-                    "plānot"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "beabsichtigen",
-                    "beabsichtigen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "nodomāt",
-                    "plānot"
-                  ]
-                }
-              }
-            ],
-            "tip": [
-              {
-                "purple": [
-                  "nodomāt"
-                ]
-              },
-              {
-                "purple": [
-                  "plānot"
-                ]
-              }
-            ],
-            "important": [
-              {
-                "green": [
-                  "beabsichtigen"
-                ]
-              }
-            ]
-          }
-        }
+      "id": "c1-beziehen-sich-beziehen-auf",
+      "layout": "standardStudy",
+      "translation": "attiecināt • attiekties uz",
+      "explanation": [
+        "Galvenā doma: Formāls reģistrs: attiecināt uz avotu, regulāru pensiju/algas saņemšanu vai ievākšanos dzīvoklī.",
+        "Piemēros meklē tipisku ikdienas lietojumu.",
+        "Ja šaubies, pārbaudi, vai runa ir par stāvokli vai darbību.",
+        "Konteksts un darbības virziens nosaka pareizo izvēli."
       ],
       "examples": [
         {
-          "de": "Die Kritik bezieht sich auf den Bericht.",
-          "lv": "kritika attiecas uz ziņojumu."
+          "de": "beziehen / sich beziehen auf.",
+          "lv": "attiecināt • attiekties uz"
+        }
+      ],
+      "tip": [
+        "Formāls reģistrs: attiecināt uz avotu, regulāru pensiju/algas saņemšanu vai ievākšanos dzīvoklī.",
+        "Izmanto beziehen / sich beziehen auf, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "Formāls reģistrs: attiecināt uz avotu, regulāru pensiju/algas saņemšanu vai ievākšanos dzīvoklī.",
+        "beziehen / sich beziehen auf: pirms lietošanas pārbaudi kontekstu un salīdzini ar citiem vārdiem kartītē."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "beziehen",
+            "bezieht"
+          ],
+          "purple": [
+            "attiecināt",
+            "attiekties"
+          ]
         },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "beziehen / sich beziehen auf",
+                "beziehen / sich beziehen auf"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "attiecināt",
+                "attiekties uz"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "beziehen / sich beziehen auf",
+                "beziehen / sich beziehen auf"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "attiecināt",
+                "attiekties uz"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "attiecināt"
+            ]
+          },
+          {
+            "purple": [
+              "attiekties uz"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "beziehen / sich beziehen auf"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "beabsichtigen",
+    "lv": "nodomāt • plānot",
+    "level": "C1",
+    "study": {
+      "id": "c1-beabsichtigen",
+      "layout": "standardStudy",
+      "translation": "nodomāt • plānot",
+      "explanation": [
+        "Galvenā doma: Apzināts nodoms veikt darbību nākotnē. Neattiecas uz attiecību, bet uz plānu.",
+        "beabsichtigen galvenokārt nozīmē: apzināts nodoms.",
+        "Bieži raksturo: plāns / nolūks.",
+        "beabsichtigen galvenokārt nozīmē: plānot darbību.",
+        "Bieži raksturo: oficiāls reģistrs.",
+        "beabsichtigen nozīmē apzināti nodomāt vai plānot darbību — nevis attiecību, bet nolūku."
+      ],
+      "examples": [
         {
-          "de": "Sie beziehen ab Januar eine neue Wohnung.",
-          "lv": "viņi no janvāra ievāksies jaunajā dzīvoklī."
-        },
-        {
-          "de": "Er beabsichtigt, nächstes Jahr zu wechseln.",
-          "lv": "viņš plāno nākamgad pāriet citur."
+          "de": "Er beabsichtigt, das Projekt zu beenden.",
+          "lv": "Viņš nodomājis pabeigt projektu."
         },
         {
           "de": "Was beabsichtigen Sie mit dieser Maßnahme?",
           "lv": "ko jūs nodomājat ar šo pasākumu?"
         },
         {
-          "de": "Der Verweis bezieht sich auf Paragraf 12.",
-          "lv": "atsauce attiecas uz 12. pantu."
-        },
-        {
           "de": "Wir beabsichtigen keine Änderung.",
           "lv": "mēs neplānojam izmaiņu."
+        },
+        {
+          "de": "Er beabsichtigt, das Projekt zu beenden.",
+          "lv": "viņš nodomājis pabeigt projektu."
+        },
+        {
+          "de": "beabsichtigen + zu + nenoteiksme",
+          "lv": "nodomāt kaut ko darīt."
         }
       ],
-      "comparisonTable": [
-        {
-          "lv": "attiecināt",
-          "de": "beziehen",
-          "meaning": "attiecināt uz avotu",
-          "describes": "attiecība / saņemšana",
-          "example": "Die Studie bezieht sich auf aktuelle Daten.",
-          "translation": "pētījums attiecas uz aktuālajiem datiem."
-        },
-        {
-          "lv": "nodomāt",
-          "de": "beabsichtigen",
-          "meaning": "apzināts nodoms",
-          "describes": "plāns / nolūks",
-          "example": "Er beabsichtigt, das Projekt zu beenden.",
-          "translation": "viņš nodomājis pabeigt projektu."
-        },
-        {
-          "lv": "attiekties uz",
-          "de": "sich beziehen auf",
-          "meaning": "attiecināt uz objektu",
-          "describes": "refleksīva konstrukcija",
-          "example": "Die Kritik bezieht sich auf den Bericht.",
-          "translation": "kritika attiecas uz ziņojumu."
-        },
-        {
-          "lv": "ievākties",
-          "de": "Wohnung beziehen",
-          "meaning": "saņemt / ievākties",
-          "describes": "administratīvs lietojums",
-          "example": "Sie beziehen ab Januar eine neue Wohnung.",
-          "translation": "viņi no janvāra ievāksies jaunajā dzīvoklī."
-        },
-        {
-          "lv": "plānot",
-          "de": "beabsichtigen",
-          "meaning": "plānot darbību",
-          "describes": "oficiāls reģistrs",
-          "example": "Was beabsichtigen Sie mit dieser Maßnahme?",
-          "translation": "ko jūs nodomājat ar šo pasākumu?"
-        },
-        {
-          "lv": "neplānot",
-          "de": "nicht beabsichtigen",
-          "meaning": "apzināti neveikt",
-          "describes": "noliegums formālā stilā",
-          "example": "Wir beabsichtigen keine Änderung.",
-          "translation": "mēs neplānojam izmaiņu."
-        }
+      "tip": [
+        "Ja runa ir par attiecību, avotu vai regulāru saņemšanu — beziehen. Ja par apzinātu plānu — beabsichtigen.",
+        "beabsichtigen = nodomāt"
       ],
-      "importantComparison": [
-        "sich beziehen auf = attiekties uz (nevis *beabsichtigen auf).",
-        "beabsichtigen + zu + nenoteiksme = nodomāt kaut ko darīt.",
-        "beziehen ≠ beabsichtigen: attiecība pret nodomu."
-      ],
-      "tip": {
-        "left": "Ja runa ir par attiecību, avotu vai regulāru saņemšanu — beziehen. Ja par apzinātu plānu — beabsichtigen.",
-        "rightTitle": "ātri",
-        "rightItems": [
-          {
-            "de": "sich beziehen auf",
-            "lv": "attiekties uz",
-            "separator": "="
-          },
-          {
-            "de": "beabsichtigen",
-            "lv": "nodomāt",
-            "separator": "="
-          }
-        ]
-      },
       "important": [
-        "beziehen bieži ar sich beziehen auf + ko?.",
         "beabsichtigen + zu + nenoteiksme: Er beabsichtigt zu gehen.",
-        "beabsichtigen nevar aizstāt ar beziehen — tas ir nolūks, ne attiecība."
-      ],
-      "mistakes": [
-        {
-          "wrong": "Die Studie beabsichtigt sich auf Daten.",
-          "right": "Die Studie bezieht sich auf Daten."
-        },
-        {
-          "wrong": "Er bezieht, das Projekt zu beenden.",
-          "right": "Er beabsichtigt, das Projekt zu beenden."
-        }
-      ],
-      "remember": [
-        "beziehen → attiecība, avots, saņemšana.",
-        "beabsichtigen → nodoms, plāns."
+        "beabsichtigen nevar aizstāt ar beziehen — tas ir nolūks, ne attiecība.",
+        "beabsichtigen → nodoms, plāns.",
+        "Apzināts nodoms veikt darbību nākotnē. Neattiecas uz attiecību, bet uz plānu."
       ],
       "sectionAccents": {
-        "lead": {
-          "blue": [
-            "beziehen"
+        "explanation": {
+          "green": [
+            "beabsichtigen",
+            "beabsichtigt"
           ],
           "purple": [
-            "attiecība"
-          ],
-          "green": [
-            "beabsichtigen"
-          ],
-          "yellow": [
-            "nodoms"
+            "nodomāt",
+            "plānot"
           ]
         },
-        "comparisonCards": [
+        "examples": [
           {
-            "lv": {
-              "purple": [
-                "attiecināt",
-                "attiekties"
+            "de": {
+              "green": [
+                "beabsichtigen",
+                "beabsichtigen"
               ]
             },
-            "de": {
-              "blue": [
-                "beziehen",
-                "bezieht"
-              ]
-            }
-          },
-          {
             "lv": {
               "purple": [
                 "nodomāt",
                 "plānot"
               ]
-            },
+            }
+          },
+          {
             "de": {
               "green": [
                 "beabsichtigen",
-                "beabsichtigt"
-              ]
-            }
-          }
-        ],
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "bezieht",
-                "auf"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "attiecas"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "beziehen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "ievāksies"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "beabsichtigt"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "plāno",
-                "nodomājat"
-              ]
-            }
-          }
-        ],
-        "comparisonTable": [
-          {
-            "lv": {
-              "purple": [
-                "attiecināt"
-              ]
-            },
-            "de": {
-              "blue": [
-                "beziehen"
-              ]
-            },
-            "example": {
-              "blue": [
-                "bezieht"
-              ]
-            },
-            "translation": {
-              "purple": [
-                "attiecas"
-              ]
-            }
-          },
-          {
-            "lv": {
-              "purple": [
-                "nodomāt"
-              ]
-            },
-            "de": {
-              "green": [
                 "beabsichtigen"
               ]
             },
-            "example": {
+            "lv": {
+              "purple": [
+                "nodomāt",
+                "plānot"
+              ]
+            }
+          },
+          {
+            "de": {
               "green": [
-                "beabsichtigt"
+                "beabsichtigen",
+                "beabsichtigen"
               ]
             },
-            "translation": {
+            "lv": {
               "purple": [
-                "nodomājis"
+                "nodomāt",
+                "plānot"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "beabsichtigen",
+                "beabsichtigen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nodomāt",
+                "plānot"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "beabsichtigen",
+                "beabsichtigen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nodomāt",
+                "plānot"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "beabsichtigen",
+                "beabsichtigen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nodomāt",
+                "plānot"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "beziehen"
-            ],
-            "green": [
-              "beabsichtigen"
-            ]
-          }
-        },
-        "important": [
+        "tip": [
           {
-            "blue": [
-              "beziehen",
-              "sich beziehen auf"
+            "purple": [
+              "nodomāt"
             ]
           },
+          {
+            "purple": [
+              "plānot"
+            ]
+          }
+        ],
+        "important": [
           {
             "green": [
               "beabsichtigen"
@@ -4199,542 +3908,277 @@ const C1_WORDS = [
     }
   },
   {
-    "de": "unterstellen • voraussetzen",
-    "lv": "Pārmest • Pieņemt kā priekšnoteikumu",
+    "de": "unterstellen",
+    "lv": "pārmest • piedēvēt bez pamata",
     "level": "C1",
     "study": {
-      "id": "compare-unterstellen-voraussetzen",
-      "layout": "comparisonStudy",
-      "title": "Pārmest • Pieņemt kā priekšnoteikumu",
-      "subtitle": "unterstellen • voraussetzen",
-      "lead": "unterstellen un voraussetzen ir formāli C1 darbības vārdi ar pretējām attieksmēm: viens pārmest bez pamata, otrs pieņemt kā pašsaprotamu priekšnoteikumu.",
-      "explanation": "jemandem etwas unterstellen nozīmē nepamatoti piedēvēt vai pārmest. etwas voraussetzen nozīmē uzskatīt par pašsaprotamu priekšnoteikumu, kas jau pastāv.",
-      "words": [
-        {
-          "icon": "⚠️",
-          "lv": "pārmest • piedēvēt bez pamata",
-          "de": "unterstellen",
-          "accent": "blue",
-          "explanation": [
-            "Galvenā doma: Nepamatoti piešķirt vainu, motīvu vai nodomu citam.",
-            "unterstellen galvenokārt nozīmē: piedēvēt bez pamata.",
-            "Bieži raksturo: apsūdzība / pievilkšana.",
-            "jemandem etwas unterstellen nozīmē nepamatoti piedēvēt vai pārmest.",
-            "Šo vārdu salīdzini ar pārējiem šajā kartītē, lai izvēlētos pareizo variantu."
-          ],
-          "examples": [
-            {
-              "de": "Man unterstellt mir schlechte Absichten.",
-              "lv": "Man pārmet man sliktu nodomu."
-            },
-            {
-              "de": "Unterstellen Sie mir nichts!",
-              "lv": "nepārmetiet man neko!"
-            },
-            {
-              "de": "Man darf niemandem Verrat unterstellen.",
-              "lv": "nevienam nedrīkst nepamatoti pārmest nodevību."
-            },
-            {
-              "de": "Ihm wird Untreue unterstellt.",
-              "lv": "viņam tiek pārmesta neuzticība."
-            },
-            {
-              "de": "unterstellen",
-              "lv": "nepamatota vaina; voraussetzen"
-            }
-          ],
-          "tip": [
-            "Ja runa ir par nepamatotu pārmetumu — unterstellen. Ja par pamatzināšanu vai nosacījumu — voraussetzen.",
-            "unterstellen = pārmest"
-          ],
-          "important": [
-            "unterstellen ir emocionāli negatīvs — nepamatota apsūdzība.",
-            "Nesajaukt: *voraussetzen Untreue (pareizi: unterstellen).",
-            "Nepareizi: Wir unterstellen Grundkenntnisse. → Pareizi: Wir setzen Grundkenntnisse voraus.",
-            "unterstellen → pārmest, piedēvēt."
-          ],
-          "sectionAccents": {
-            "explanation": {
-              "blue": [
-                "unterstellen",
-                "unterstellt"
-              ],
-              "purple": [
-                "pārmest",
-                "piedēvēt bez pamata"
-              ],
-              "red": [
-                "pārmest"
-              ]
-            },
-            "examples": [
-              {
-                "de": {
-                  "blue": [
-                    "unterstellen",
-                    "unterstellen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "pārmest",
-                    "piedēvēt bez pamata"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "unterstellen",
-                    "unterstellen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "pārmest",
-                    "piedēvēt bez pamata"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "unterstellen",
-                    "unterstellen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "pārmest",
-                    "piedēvēt bez pamata"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "unterstellen",
-                    "unterstellen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "pārmest",
-                    "piedēvēt bez pamata"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "unterstellen",
-                    "unterstellen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "pārmest",
-                    "piedēvēt bez pamata"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "unterstellen",
-                    "unterstellen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "pārmest",
-                    "piedēvēt bez pamata"
-                  ]
-                }
-              }
-            ],
-            "tip": [
-              {
-                "purple": [
-                  "pārmest"
-                ]
-              },
-              {
-                "purple": [
-                  "piedēvēt bez pamata"
-                ]
-              }
-            ],
-            "important": [
-              {
-                "blue": [
-                  "unterstellen"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "icon": "📋",
-          "lv": "pieņemt kā priekšnoteikumu",
-          "de": "voraussetzen",
-          "accent": "green",
-          "explanation": [
-            "Galvenā doma: Uzskatīt, ka kaut kas jau ir zināms vai pastāv kā pamats.",
-            "voraussetzen galvenokārt nozīmē: uzskatīt par pamatu.",
-            "Bieži raksturo: loģisks priekšnosacījums.",
-            "etwas voraussetzen nozīmē uzskatīt par pašsaprotamu priekšnoteikumu, kas jau pastāv.",
-            "Šo vārdu salīdzini ar pārējiem šajā kartītē, lai izvēlētos pareizo variantu."
-          ],
-          "examples": [
-            {
-              "de": "Wir setzen Grundkenntnisse voraus.",
-              "lv": "Mēs pieņemam pamatzināšanas kā priekšnoteikumu."
-            },
-            {
-              "de": "Wir setzen Grundkenntnisse voraus.",
-              "lv": "mēs pieņemam pamatzināšanas kā priekšnoteikumu."
-            },
-            {
-              "de": "Wir setzen Grundkenntnisse voraus.",
-              "lv": "Mēs pieņemam pamatzināšanas kā priekšnoteikumu."
-            },
-            {
-              "de": "Wir setzen Grundkenntnisse voraus.",
-              "lv": "Mēs pieņemam pamatzināšanas kā priekšnoteikumu."
-            }
-          ],
-          "tip": [
-            "Ja runa ir par nepamatotu pārmetumu — unterstellen. Ja par pamatzināšanu vai nosacījumu — voraussetzen.",
-            "voraussetzen = pieņemt priekšnoteikumu"
-          ],
-          "important": [
-            "voraussetzen ir neitrāls — priekšnosacījums.",
-            "Nesajaukt: *voraussetzen Untreue (pareizi: unterstellen).",
-            "voraussetzen → pieņemt kā pamatu.",
-            "Uzskatīt, ka kaut kas jau ir zināms vai pastāv kā pamats."
-          ],
-          "sectionAccents": {
-            "explanation": {
-              "green": [
-                "voraussetzen",
-                "voraus"
-              ],
-              "purple": [
-                "priekšnoteikumu"
-              ]
-            },
-            "examples": [
-              {
-                "de": {
-                  "green": [
-                    "voraussetzen",
-                    "voraussetzen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "pieņemt kā priekšnoteikumu"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "voraussetzen",
-                    "voraussetzen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "pieņemt kā priekšnoteikumu"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "voraussetzen",
-                    "voraussetzen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "pieņemt kā priekšnoteikumu"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "voraussetzen",
-                    "voraussetzen"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "pieņemt kā priekšnoteikumu"
-                  ]
-                }
-              }
-            ],
-            "tip": [
-              {
-                "purple": [
-                  "pieņemt kā priekšnoteikumu"
-                ]
-              }
-            ],
-            "important": [
-              {
-                "green": [
-                  "voraussetzen"
-                ]
-              }
-            ]
-          }
-        }
+      "id": "c1-unterstellen",
+      "layout": "standardStudy",
+      "translation": "pārmest • piedēvēt bez pamata",
+      "explanation": [
+        "Galvenā doma: Nepamatoti piešķirt vainu, motīvu vai nodomu citam.",
+        "unterstellen galvenokārt nozīmē: piedēvēt bez pamata.",
+        "Bieži raksturo: apsūdzība / pievilkšana.",
+        "jemandem etwas unterstellen nozīmē nepamatoti piedēvēt vai pārmest."
       ],
       "examples": [
         {
-          "de": "Ihm wird Untreue unterstellt.",
-          "lv": "viņam tiek pārmesta neuzticība."
+          "de": "Man unterstellt mir schlechte Absichten.",
+          "lv": "Man pārmet man sliktu nodomu."
         },
         {
           "de": "Unterstellen Sie mir nichts!",
           "lv": "nepārmetiet man neko!"
         },
         {
-          "de": "Der Kurs setzt B1-Kenntnisse voraus.",
-          "lv": "kurss paredz B1 līmeņa zināšanas."
-        },
-        {
-          "de": "Das setzt viel Erfahrung voraus.",
-          "lv": "tas prasa lielu pieredzi kā priekšnoteikumu."
-        },
-        {
           "de": "Man darf niemandem Verrat unterstellen.",
           "lv": "nevienam nedrīkst nepamatoti pārmest nodevību."
         },
         {
-          "de": "Wir setzen Ihre Mitarbeit voraus.",
-          "lv": "mēs pieņemam jūsu līdzdalību kā pašsaprotamu."
-        }
-      ],
-      "comparisonTable": [
+          "de": "Ihm wird Untreue unterstellt.",
+          "lv": "viņam tiek pārmesta neuzticība."
+        },
         {
-          "lv": "pārmest",
           "de": "unterstellen",
-          "meaning": "piedēvēt bez pamata",
-          "describes": "apsūdzība / pievilkšana",
-          "example": "Ihm wird Untreue unterstellt.",
-          "translation": "viņam tiek pārmesta neuzticība."
-        },
-        {
-          "lv": "pieņemt priekšnoteikumu",
-          "de": "voraussetzen",
-          "meaning": "uzskatīt par pamatu",
-          "describes": "loģisks priekšnosacījums",
-          "example": "Wir setzen Grundkenntnisse voraus.",
-          "translation": "mēs pieņemam pamatzināšanas kā priekšnoteikumu."
-        },
-        {
-          "lv": "nepārmest",
-          "de": "nichts unterstellen",
-          "meaning": "neattiecināt vainu",
-          "describes": "noliegums",
-          "example": "Unterstellen Sie mir nichts!",
-          "translation": "nepārmetiet man neko!"
-        },
-        {
-          "lv": "prasīt zināšanas",
-          "de": "Kenntnisse voraussetzen",
-          "meaning": "paredzēt līmeni",
-          "describes": "akadēmisks konteksts",
-          "example": "Der Kurs setzt B1-Kenntnisse voraus.",
-          "translation": "kurss paredz B1 līmeņa zināšanas."
-        },
-        {
-          "lv": "prasīt pieredzi",
-          "de": "Erfahrung voraussetzen",
-          "meaning": "nepieciešama pieredze",
-          "describes": "profesionāls konteksts",
-          "example": "Das setzt viel Erfahrung voraus.",
-          "translation": "tas prasa lielu pieredzi kā priekšnoteikumu."
-        },
-        {
-          "lv": "pieņemt līdzdalību",
-          "de": "Mitarbeit voraussetzen",
-          "meaning": "pašsaprotama sadarbība",
-          "describes": "oficiāls stils",
-          "example": "Wir setzen Ihre Mitarbeit voraus.",
-          "translation": "mēs pieņemam jūsu līdzdalību kā pašsaprotamu."
+          "lv": "nepamatota vaina; voraussetzen"
         }
       ],
-      "importantComparison": [
-        "unterstellen = nepamatota vaina; voraussetzen = loģisks priekšnosacījums.",
-        "unterstellen + kam? + ko?: jemandem etwas unterstellen.",
-        "voraussetzen + ko?: etwas voraussetzen."
+      "tip": [
+        "unterstellen = pārmest",
+        "Izmanto unterstellen, kad konteksts atbilst šai nozīmei."
       ],
-      "tip": {
-        "left": "Ja runa ir par nepamatotu pārmetumu — unterstellen. Ja par pamatzināšanu vai nosacījumu — voraussetzen.",
-        "rightTitle": "ātri",
-        "rightItems": [
-          {
-            "de": "unterstellen",
-            "lv": "pārmest",
-            "separator": "="
-          },
-          {
-            "de": "voraussetzen",
-            "lv": "pieņemt priekšnoteikumu",
-            "separator": "="
-          }
-        ]
-      },
       "important": [
         "unterstellen ir emocionāli negatīvs — nepamatota apsūdzība.",
-        "voraussetzen ir neitrāls — priekšnosacījums.",
-        "Nesajaukt: *voraussetzen Untreue (pareizi: unterstellen)."
-      ],
-      "mistakes": [
-        {
-          "wrong": "Wir unterstellen Grundkenntnisse.",
-          "right": "Wir setzen Grundkenntnisse voraus."
-        },
-        {
-          "wrong": "Man setzt mir Verrat voraus.",
-          "right": "Man unterstellt mir Verrat."
-        }
-      ],
-      "remember": [
-        "unterstellen → pārmest, piedēvēt.",
-        "voraussetzen → pieņemt kā pamatu."
+        "Nepareizi: Wir unterstellen Grundkenntnisse. → Pareizi: Wir setzen Grundkenntnisse voraus.",
+        "unterstellen → pārmest, piedēvēt."
       ],
       "sectionAccents": {
-        "lead": {
+        "explanation": {
           "blue": [
-            "unterstellen"
+            "unterstellen",
+            "unterstellt"
+          ],
+          "purple": [
+            "pārmest",
+            "piedēvēt bez pamata"
           ],
           "red": [
             "pārmest"
-          ],
-          "green": [
-            "voraussetzen"
-          ],
-          "purple": [
-            "priekšnoteikums"
           ]
         },
-        "comparisonCards": [
-          {
-            "lv": {
-              "red": [
-                "pārmest"
-              ]
-            },
-            "de": {
-              "blue": [
-                "unterstellen",
-                "unterstellt"
-              ]
-            }
-          },
-          {
-            "lv": {
-              "purple": [
-                "priekšnoteikumu"
-              ]
-            },
-            "de": {
-              "green": [
-                "voraussetzen",
-                "voraus"
-              ]
-            }
-          }
-        ],
         "examples": [
           {
             "de": {
               "blue": [
-                "unterstellt"
-              ]
-            },
-            "lv": {
-              "red": [
-                "pārmesta"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "voraussetzen",
-                "voraus"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "priekšnoteikumu",
-                "paredz"
-              ]
-            }
-          }
-        ],
-        "comparisonTable": [
-          {
-            "lv": {
-              "red": [
-                "pārmest"
-              ]
-            },
-            "de": {
-              "blue": [
+                "unterstellen",
                 "unterstellen"
               ]
             },
-            "translation": {
-              "red": [
-                "pārmesta"
+            "lv": {
+              "purple": [
+                "pārmest",
+                "piedēvēt bez pamata"
               ]
             }
           },
           {
+            "de": {
+              "blue": [
+                "unterstellen",
+                "unterstellen"
+              ]
+            },
             "lv": {
               "purple": [
-                "priekšnoteikumu"
+                "pārmest",
+                "piedēvēt bez pamata"
               ]
-            },
+            }
+          },
+          {
             "de": {
-              "green": [
-                "voraussetzen"
+              "blue": [
+                "unterstellen",
+                "unterstellen"
               ]
             },
-            "translation": {
+            "lv": {
               "purple": [
-                "pieņemam"
+                "pārmest",
+                "piedēvēt bez pamata"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "unterstellen",
+                "unterstellen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pārmest",
+                "piedēvēt bez pamata"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "unterstellen",
+                "unterstellen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pārmest",
+                "piedēvēt bez pamata"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "unterstellen",
+                "unterstellen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pārmest",
+                "piedēvēt bez pamata"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "unterstellen"
-            ],
-            "green": [
-              "voraussetzen"
+        "tip": [
+          {
+            "purple": [
+              "pārmest"
+            ]
+          },
+          {
+            "purple": [
+              "piedēvēt bez pamata"
             ]
           }
-        },
+        ],
         "important": [
           {
             "blue": [
               "unterstellen"
             ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "voraussetzen",
+    "lv": "pieņemt kā priekšnoteikumu",
+    "level": "C1",
+    "study": {
+      "id": "c1-voraussetzen",
+      "layout": "standardStudy",
+      "translation": "pieņemt kā priekšnoteikumu",
+      "explanation": [
+        "Galvenā doma: Uzskatīt, ka kaut kas jau ir zināms vai pastāv kā pamats.",
+        "voraussetzen galvenokārt nozīmē: uzskatīt par pamatu.",
+        "Bieži raksturo: loģisks priekšnosacījums.",
+        "etwas voraussetzen nozīmē uzskatīt par pašsaprotamu priekšnoteikumu, kas jau pastāv."
+      ],
+      "examples": [
+        {
+          "de": "Wir setzen Grundkenntnisse voraus.",
+          "lv": "Mēs pieņemam pamatzināšanas kā priekšnoteikumu."
+        },
+        {
+          "de": "Wir setzen Grundkenntnisse voraus.",
+          "lv": "mēs pieņemam pamatzināšanas kā priekšnoteikumu."
+        }
+      ],
+      "tip": [
+        "voraussetzen = pieņemt priekšnoteikumu",
+        "Izmanto voraussetzen, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "voraussetzen ir neitrāls — priekšnosacījums.",
+        "voraussetzen → pieņemt kā pamatu.",
+        "Uzskatīt, ka kaut kas jau ir zināms vai pastāv kā pamats."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "voraussetzen",
+            "voraus"
+          ],
+          "purple": [
+            "priekšnoteikumu"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "voraussetzen",
+                "voraussetzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pieņemt kā priekšnoteikumu"
+              ]
+            }
           },
+          {
+            "de": {
+              "green": [
+                "voraussetzen",
+                "voraussetzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pieņemt kā priekšnoteikumu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "voraussetzen",
+                "voraussetzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pieņemt kā priekšnoteikumu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "voraussetzen",
+                "voraussetzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pieņemt kā priekšnoteikumu"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "pieņemt kā priekšnoteikumu"
+            ]
+          }
+        ],
+        "important": [
           {
             "green": [
               "voraussetzen"
@@ -4745,526 +4189,263 @@ const C1_WORDS = [
     }
   },
   {
-    "de": "bewahren • aufrechterhalten",
-    "lv": "Pasargāt • Uzturēt spēkā",
+    "de": "bewahren",
+    "lv": "pasargāt • saglabāt",
     "level": "C1",
     "study": {
-      "id": "compare-bewahren-aufrechterhalten",
-      "layout": "comparisonStudy",
-      "title": "Pasargāt • Uzturēt spēkā",
-      "subtitle": "bewahren • aufrechterhalten",
-      "lead": "bewahren un aufrechterhalten abi nozīmē saglabāt, bet bewahren uzsver aizsardzību, bet aufrechterhalten — nepārtrauktu uzturēšanu spēkā.",
-      "explanation": "bewahren nozīmē pasargāt no bojājuma, zuduma vai izmaiņām. aufrechterhalten nozīmē uzturēt kādu stāvokli, sistēmu vai attiecību spēkā — nodrošināt turpināšanos.",
-      "words": [
-        {
-          "icon": "🛡️",
-          "lv": "pasargāt • saglabāt",
-          "de": "bewahren",
-          "accent": "blue",
-          "explanation": [
-            "Galvenā doma: Aizsargāt no zuduma, bojājuma vai iznīcināšanas — vērtību, tradīciju, mieru.",
-            "bewahren galvenokārt nozīmē: aizsargāt no zuduma.",
-            "Bieži raksturo: vērtību saglabāšana.",
-            "bewahren nozīmē pasargāt no bojājuma, zuduma vai izmaiņām.",
-            "Šo vārdu salīdzini ar pārējiem šajā kartītē, lai izvēlētos pareizo variantu."
-          ],
-          "examples": [
-            {
-              "de": "Wir bewahren die Traditionen.",
-              "lv": "Mēs saglabājam tradīcijas."
-            },
-            {
-              "de": "Sie bewahren die Ruhe in der Krise.",
-              "lv": "viņi saglabā mieru krīzē."
-            },
-            {
-              "de": "Wir bewahren die Traditionen.",
-              "lv": "mēs saglabājam tradīcijas."
-            },
-            {
-              "de": "bewahren",
-              "lv": "pasargāt/saglabāt; aufrechterhalten"
-            }
-          ],
-          "tip": [
-            "Ja uzsvars uz aizsardzību vai saglabāšanu — bewahren. Ja uz nepārtrauktu uzturēšanu — aufrechterhalten.",
-            "bewahren = pasargāt"
-          ],
-          "important": [
-            "bewahren: Wertvolles bewahren — pasargāt vērtīgo.",
-            "aufrechterhalten ≠ bewahren: uzturēšana pret aizsardzību.",
-            "Nepareizi: Wir bewahren den Frieden auf. → Pareizi: Wir erhalten den Frieden auf.",
-            "bewahren → aizsargāt, saglabāt."
-          ],
-          "sectionAccents": {
-            "explanation": {
-              "blue": [
-                "bewahren",
-                "bewahrt"
-              ],
-              "purple": [
-                "pasargāt"
-              ]
-            },
-            "examples": [
-              {
-                "de": {
-                  "blue": [
-                    "bewahren",
-                    "bewahren"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "pasargāt",
-                    "saglabāt"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "bewahren",
-                    "bewahren"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "pasargāt",
-                    "saglabāt"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "bewahren",
-                    "bewahren"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "pasargāt",
-                    "saglabāt"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "bewahren",
-                    "bewahren"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "pasargāt",
-                    "saglabāt"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "bewahren",
-                    "bewahren"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "pasargāt",
-                    "saglabāt"
-                  ]
-                }
-              }
-            ],
-            "tip": [
-              {
-                "purple": [
-                  "pasargāt"
-                ]
-              },
-              {
-                "purple": [
-                  "saglabāt"
-                ]
-              }
-            ],
-            "important": [
-              {
-                "blue": [
-                  "bewahren"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "icon": "⚙️",
-          "lv": "uzturēt spēkā",
-          "de": "aufrechterhalten",
-          "accent": "green",
-          "explanation": [
-            "Galvenā doma: Nodrošināt, ka kāds stāvoklis, kārtība vai attiecības turpinās pastāvēt.",
-            "aufrechterhalten galvenokārt nozīmē: nodrošināt turpināšanos.",
-            "Bieži raksturo: stāvokļa uzturēšana.",
-            "aufrechterhalten nozīmē uzturēt kādu stāvokli, sistēmu vai attiecību spēkā — nodrošināt turpināšanos.",
-            "Šo vārdu salīdzini ar pārējiem šajā kartītē, lai izvēlētos pareizo variantu."
-          ],
-          "examples": [
-            {
-              "de": "Der Staat erhält die Ordnung auf.",
-              "lv": "Valsts uztur kārtību spēkā."
-            },
-            {
-              "de": "Man muss den Betrieb aufrechterhalten.",
-              "lv": "jāuztur darbība spēkā."
-            },
-            {
-              "de": "Der Staat erhält die Ordnung auf.",
-              "lv": "valsts uztur kārtību spēkā."
-            },
-            {
-              "de": "Der Staat erhält die Ordnung auf.",
-              "lv": "Valsts uztur kārtību spēkā."
-            }
-          ],
-          "tip": [
-            "Ja uzsvars uz aizsardzību vai saglabāšanu — bewahren. Ja uz nepārtrauktu uzturēšanu — aufrechterhalten.",
-            "aufrechterhalten = uzturēt spēkā"
-          ],
-          "important": [
-            "aufrechterhalten: Ordnung/Frieden/Stabilität aufrechterhalten.",
-            "aufrechterhalten ≠ bewahren: uzturēšana pret aizsardzību.",
-            "aufrechterhalten → uzturēt spēkā.",
-            "Nodrošināt, ka kāds stāvoklis, kārtība vai attiecības turpinās pastāvēt."
-          ],
-          "sectionAccents": {
-            "explanation": {
-              "green": [
-                "aufrechterhalten",
-                "erhält",
-                "auf"
-              ],
-              "purple": [
-                "uzturēt spēkā"
-              ],
-              "yellow": [
-                "uzturēt spēkā"
-              ]
-            },
-            "examples": [
-              {
-                "de": {
-                  "green": [
-                    "aufrechterhalten",
-                    "aufrechterhalten"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "uzturēt spēkā"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "aufrechterhalten",
-                    "aufrechterhalten"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "uzturēt spēkā"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "aufrechterhalten",
-                    "aufrechterhalten"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "uzturēt spēkā"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "aufrechterhalten",
-                    "aufrechterhalten"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "uzturēt spēkā"
-                  ]
-                }
-              }
-            ],
-            "tip": [
-              {
-                "purple": [
-                  "uzturēt spēkā"
-                ]
-              }
-            ],
-            "important": [
-              {
-                "green": [
-                  "aufrechterhalten"
-                ]
-              }
-            ]
-          }
-        }
+      "id": "c1-bewahren",
+      "layout": "standardStudy",
+      "translation": "pasargāt • saglabāt",
+      "explanation": [
+        "Galvenā doma: Aizsargāt no zuduma, bojājuma vai iznīcināšanas — vērtību, tradīciju, mieru.",
+        "bewahren galvenokārt nozīmē: aizsargāt no zuduma.",
+        "Bieži raksturo: vērtību saglabāšana.",
+        "bewahren nozīmē pasargāt no bojājuma, zuduma vai izmaiņām."
       ],
       "examples": [
+        {
+          "de": "Wir bewahren die Traditionen.",
+          "lv": "Mēs saglabājam tradīcijas."
+        },
         {
           "de": "Sie bewahren die Ruhe in der Krise.",
           "lv": "viņi saglabā mieru krīzē."
         },
         {
-          "de": "Das Museum bewahrt alte Kunstwerke.",
-          "lv": "muzejs saglabā vecos mākslas darbus."
+          "de": "Wir bewahren die Traditionen.",
+          "lv": "mēs saglabājam tradīcijas."
         },
         {
-          "de": "Wir erhalten den Frieden auf.",
-          "lv": "mēs uzturām mieru spēkā."
-        },
-        {
-          "de": "Die Regierung erhält die Stabilität auf.",
-          "lv": "valdība uztur stabilitāti spēkā."
-        },
-        {
-          "de": "Er bewahrte sein Versprechen.",
-          "lv": "viņš turēja savu solījumu."
-        },
-        {
-          "de": "Man muss den Betrieb aufrechterhalten.",
-          "lv": "jāuztur darbība spēkā."
-        }
-      ],
-      "comparisonTable": [
-        {
-          "lv": "pasargāt",
           "de": "bewahren",
-          "meaning": "aizsargāt no zuduma",
-          "describes": "vērtību saglabāšana",
-          "example": "Wir bewahren die Traditionen.",
-          "translation": "mēs saglabājam tradīcijas."
-        },
-        {
-          "lv": "uzturēt spēkā",
-          "de": "aufrechterhalten",
-          "meaning": "nodrošināt turpināšanos",
-          "describes": "stāvokļa uzturēšana",
-          "example": "Der Staat erhält die Ordnung auf.",
-          "translation": "valsts uztur kārtību spēkā."
-        },
-        {
-          "lv": "saglabāt mieru",
-          "de": "Ruhe bewahren",
-          "meaning": "noturēt mieru",
-          "describes": "emocionāls konteksts",
-          "example": "Sie bewahren die Ruhe in der Krise.",
-          "translation": "viņi saglabā mieru krīzē."
-        },
-        {
-          "lv": "uzturēt mieru",
-          "de": "Frieden aufrechterhalten",
-          "meaning": "miera nodrošināšana",
-          "describes": "politisks konteksts",
-          "example": "Wir erhalten den Frieden auf.",
-          "translation": "mēs uzturām mieru spēkā."
-        },
-        {
-          "lv": "turēt solījumu",
-          "de": "Versprechen bewahren",
-          "meaning": "ievērot solījumu",
-          "describes": "personīga uzticamība",
-          "example": "Er bewahrte sein Versprechen.",
-          "translation": "viņš turēja savu solījumu."
-        },
-        {
-          "lv": "uzturēt darbību",
-          "de": "Betrieb aufrechterhalten",
-          "meaning": "nepārtraukt darbu",
-          "describes": "ekonomisks konteksts",
-          "example": "Man muss den Betrieb aufrechterhalten.",
-          "translation": "jāuztur darbība spēkā."
+          "lv": "pasargāt/saglabāt; aufrechterhalten"
         }
       ],
-      "importantComparison": [
-        "bewahren = pasargāt/saglabāt; aufrechterhalten = uzturēt spēkā.",
-        "aufrechterhalten bieži ar trennbarem Präfix: aufrechterhalten → er hält auf.",
-        "bewahren parasti transitīvs: etwas bewahren."
+      "tip": [
+        "bewahren = pasargāt",
+        "Izmanto bewahren, kad konteksts atbilst šai nozīmei."
       ],
-      "tip": {
-        "left": "Ja uzsvars uz aizsardzību vai saglabāšanu — bewahren. Ja uz nepārtrauktu uzturēšanu — aufrechterhalten.",
-        "rightTitle": "ātri",
-        "rightItems": [
-          {
-            "de": "bewahren",
-            "lv": "pasargāt",
-            "separator": "="
-          },
-          {
-            "de": "aufrechterhalten",
-            "lv": "uzturēt spēkā",
-            "separator": "="
-          }
-        ]
-      },
       "important": [
         "bewahren: Wertvolles bewahren — pasargāt vērtīgo.",
-        "aufrechterhalten: Ordnung/Frieden/Stabilität aufrechterhalten.",
-        "aufrechterhalten ≠ bewahren: uzturēšana pret aizsardzību."
-      ],
-      "mistakes": [
-        {
-          "wrong": "Wir bewahren den Frieden auf.",
-          "right": "Wir erhalten den Frieden auf."
-        },
-        {
-          "wrong": "Man erhält Traditionen auf.",
-          "right": "Man bewahrt Traditionen."
-        }
-      ],
-      "remember": [
-        "bewahren → aizsargāt, saglabāt.",
-        "aufrechterhalten → uzturēt spēkā."
+        "Nepareizi: Wir bewahren den Frieden auf. → Pareizi: Wir erhalten den Frieden auf.",
+        "bewahren → aizsargāt, saglabāt."
       ],
       "sectionAccents": {
-        "lead": {
+        "explanation": {
           "blue": [
-            "bewahren"
+            "bewahren",
+            "bewahrt"
           ],
           "purple": [
-            "aizsardzība"
-          ],
-          "green": [
-            "aufrechterhalten"
-          ],
-          "yellow": [
-            "uzturēšana"
+            "pasargāt"
           ]
         },
-        "comparisonCards": [
-          {
-            "lv": {
-              "purple": [
-                "pasargāt"
-              ]
-            },
-            "de": {
-              "blue": [
-                "bewahren",
-                "bewahrt"
-              ]
-            }
-          },
-          {
-            "lv": {
-              "yellow": [
-                "uzturēt spēkā"
-              ]
-            },
-            "de": {
-              "green": [
-                "aufrechterhalten",
-                "erhält",
-                "auf"
-              ]
-            }
-          }
-        ],
         "examples": [
           {
             "de": {
               "blue": [
+                "bewahren",
                 "bewahren"
               ]
             },
             "lv": {
               "purple": [
-                "saglabājam",
-                "saglabā"
+                "pasargāt",
+                "saglabāt"
               ]
             }
           },
           {
-            "de": {
-              "green": [
-                "erhält",
-                "auf"
-              ]
-            },
-            "lv": {
-              "yellow": [
-                "uztur",
-                "uzturām"
-              ]
-            }
-          }
-        ],
-        "comparisonTable": [
-          {
-            "lv": {
-              "purple": [
-                "pasargāt"
-              ]
-            },
             "de": {
               "blue": [
+                "bewahren",
                 "bewahren"
               ]
             },
-            "translation": {
+            "lv": {
               "purple": [
-                "saglabājam"
+                "pasargāt",
+                "saglabāt"
               ]
             }
           },
           {
-            "lv": {
-              "yellow": [
-                "uzturēt spēkā"
-              ]
-            },
             "de": {
-              "green": [
-                "aufrechterhalten"
+              "blue": [
+                "bewahren",
+                "bewahren"
               ]
             },
-            "translation": {
-              "yellow": [
-                "uztur"
+            "lv": {
+              "purple": [
+                "pasargāt",
+                "saglabāt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bewahren",
+                "bewahren"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pasargāt",
+                "saglabāt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bewahren",
+                "bewahren"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pasargāt",
+                "saglabāt"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "bewahren"
-            ],
-            "green": [
-              "aufrechterhalten"
+        "tip": [
+          {
+            "purple": [
+              "pasargāt"
+            ]
+          },
+          {
+            "purple": [
+              "saglabāt"
             ]
           }
-        },
+        ],
         "important": [
           {
             "blue": [
               "bewahren"
             ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "aufrechterhalten",
+    "lv": "uzturēt spēkā",
+    "level": "C1",
+    "study": {
+      "id": "c1-aufrechterhalten",
+      "layout": "standardStudy",
+      "translation": "uzturēt spēkā",
+      "explanation": [
+        "Galvenā doma: Nodrošināt, ka kāds stāvoklis, kārtība vai attiecības turpinās pastāvēt.",
+        "aufrechterhalten galvenokārt nozīmē: nodrošināt turpināšanos.",
+        "Bieži raksturo: stāvokļa uzturēšana.",
+        "aufrechterhalten nozīmē uzturēt kādu stāvokli, sistēmu vai attiecību spēkā — nodrošināt turpināšanos."
+      ],
+      "examples": [
+        {
+          "de": "Der Staat erhält die Ordnung auf.",
+          "lv": "Valsts uztur kārtību spēkā."
+        },
+        {
+          "de": "Man muss den Betrieb aufrechterhalten.",
+          "lv": "jāuztur darbība spēkā."
+        },
+        {
+          "de": "Der Staat erhält die Ordnung auf.",
+          "lv": "valsts uztur kārtību spēkā."
+        }
+      ],
+      "tip": [
+        "aufrechterhalten = uzturēt spēkā",
+        "Izmanto aufrechterhalten, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "aufrechterhalten: Ordnung/Frieden/Stabilität aufrechterhalten.",
+        "aufrechterhalten → uzturēt spēkā.",
+        "Nodrošināt, ka kāds stāvoklis, kārtība vai attiecības turpinās pastāvēt."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "aufrechterhalten",
+            "erhält",
+            "auf"
+          ],
+          "purple": [
+            "uzturēt spēkā"
+          ],
+          "yellow": [
+            "uzturēt spēkā"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "aufrechterhalten",
+                "aufrechterhalten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "uzturēt spēkā"
+              ]
+            }
           },
+          {
+            "de": {
+              "green": [
+                "aufrechterhalten",
+                "aufrechterhalten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "uzturēt spēkā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "aufrechterhalten",
+                "aufrechterhalten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "uzturēt spēkā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "aufrechterhalten",
+                "aufrechterhalten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "uzturēt spēkā"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "uzturēt spēkā"
+            ]
+          }
+        ],
+        "important": [
           {
             "green": [
               "aufrechterhalten"

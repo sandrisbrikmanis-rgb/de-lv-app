@@ -13831,296 +13831,23 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "ändern • wechseln",
-    "lv": "Mainīt • Samainīt",
+    "de": "ändern",
+    "lv": "mainīt • labot",
     "level": "B2",
     "study": {
-      "id": "compare-aendern-wechseln",
-      "layout": "comparisonStudy",
-      "title": "Mainīt • Samainīt",
-      "subtitle": "ändern • wechseln",
-      "lead": "ändern nozīmē mainīt vai labot konkrētu lietu; wechseln nozīmē samainīt vai nomainīt pret citu. Tie NAV sinonīmi.",
-      "explanation": "ändern lieto, kad maina plānu, termiņu, adresi vai kādu detaļu. wechseln lieto, kad kaut ko samaina vai nomaina pret citu — naudu, drēbes, darbu, skolu vai tēmu. B2 līmenī abi ir bieži, bet konteksts ir atšķirīgs.",
-      "words": [
-        {
-          "icon": "✏️",
-          "lv": "mainīt • labot",
-          "de": "ändern",
-          "accent": "blue",
-          "explanation": [
-            "Galvenā doma: Mainīt konkrētu lietu vai informāciju — plānu, termiņu, adresi, lēmumu.",
-            "ändern galvenokārt nozīmē: labot vai mainīt detaļu.",
-            "Bieži raksturo: konkrētu lietu.",
-            "ändern lieto, kad maina plānu, termiņu, adresi vai kādu detaļu.",
-            "Šo vārdu salīdzini ar pārējiem šajā kartītē, lai izvēlētos pareizo variantu."
-          ],
-          "examples": [
-            {
-              "de": "Ich ändere den Termin.",
-              "lv": "Es mainu termiņu."
-            },
-            {
-              "de": "Kannst du die Adresse ändern?",
-              "lv": "vai vari mainīt adresi?"
-            },
-            {
-              "de": "Wir ändern unseren Plan.",
-              "lv": "mēs mainām savu plānu."
-            },
-            {
-              "de": "Ich ändere den Termin.",
-              "lv": "es mainu termiņu."
-            },
-            {
-              "de": "ändern",
-              "lv": "mainīt detaļu; wechseln"
-            }
-          ],
-          "tip": [
-            "Ja maina plānu, termiņu vai adresi, lieto ändern. Ja samaina naudu, drēbes, darbu vai tēmu, lieto wechseln.",
-            "Mainīt konkrētu lietu vai informāciju — plānu, termiņu, adresi, lēmumu."
-          ],
-          "important": [
-            "ändern = mainīt konkrētu lietu (Termin, Adresse, Plan).",
-            "Plāns, termiņš, adrese: ändern.",
-            "Mainīt konkrētu lietu vai informāciju — plānu, termiņu, adresi, lēmumu."
-          ],
-          "sectionAccents": {
-            "explanation": {
-              "blue": [
-                "ändern"
-              ],
-              "purple": [
-                "mainīt",
-                "labot"
-              ]
-            },
-            "examples": [
-              {
-                "de": {
-                  "blue": [
-                    "ändern",
-                    "ändern"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "mainīt",
-                    "labot"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "ändern",
-                    "ändern"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "mainīt",
-                    "labot"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "ändern",
-                    "ändern"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "mainīt",
-                    "labot"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "ändern",
-                    "ändern"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "mainīt",
-                    "labot"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "ändern",
-                    "ändern"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "mainīt",
-                    "labot"
-                  ]
-                }
-              }
-            ],
-            "tip": [
-              {
-                "purple": [
-                  "mainīt"
-                ]
-              },
-              {
-                "purple": [
-                  "labot"
-                ]
-              }
-            ],
-            "important": [
-              {
-                "blue": [
-                  "ändern"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "icon": "🔄",
-          "lv": "samainīt • nomainīt",
-          "de": "wechseln",
-          "accent": "green",
-          "explanation": [
-            "Galvenā doma: Samainīt vai nomainīt kaut ko pret citu — naudu, drēbes, darbu, skolu, tēmu.",
-            "wechseln galvenokārt nozīmē: nomainīt pret citu.",
-            "Bieži raksturo: apmaiņu / maiņu.",
-            "wechseln lieto, kad kaut ko samaina vai nomaina pret citu — naudu, drēbes, darbu, skolu vai tēmu.",
-            "Šo vārdu salīdzini ar pārējiem šajā kartītē, lai izvēlētos pareizo variantu."
-          ],
-          "examples": [
-            {
-              "de": "Ich wechsle die Schule.",
-              "lv": "Es mainu skolu."
-            },
-            {
-              "de": "Ich muss Geld wechseln.",
-              "lv": "man jāsamaina nauda."
-            },
-            {
-              "de": "Wir wechseln das Thema.",
-              "lv": "mēs mainām tēmu."
-            },
-            {
-              "de": "Ich wechsle die Schule.",
-              "lv": "es mainu skolu."
-            }
-          ],
-          "tip": [
-            "Ja maina plānu, termiņu vai adresi, lieto ändern. Ja samaina naudu, drēbes, darbu vai tēmu, lieto wechseln.",
-            "Samainīt vai nomainīt kaut ko pret citu — naudu, drēbes, darbu, skolu, tēmu."
-          ],
-          "important": [
-            "wechseln = samainīt vai nomainīt pret citu (Geld, Schule, Thema).",
-            "Nauda, skola, darbs, tēma: wechseln.",
-            "Samainīt vai nomainīt kaut ko pret citu — naudu, drēbes, darbu, skolu, tēmu."
-          ],
-          "sectionAccents": {
-            "explanation": {
-              "green": [
-                "wechseln"
-              ],
-              "purple": [
-                "samainīt",
-                "nomainīt"
-              ]
-            },
-            "examples": [
-              {
-                "de": {
-                  "green": [
-                    "wechseln",
-                    "wechseln"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "samainīt",
-                    "nomainīt"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "wechseln",
-                    "wechseln"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "samainīt",
-                    "nomainīt"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "wechseln",
-                    "wechseln"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "samainīt",
-                    "nomainīt"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "wechseln",
-                    "wechseln"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "samainīt",
-                    "nomainīt"
-                  ]
-                }
-              }
-            ],
-            "tip": [
-              {
-                "purple": [
-                  "samainīt"
-                ]
-              },
-              {
-                "purple": [
-                  "nomainīt"
-                ]
-              }
-            ],
-            "important": [
-              {
-                "green": [
-                  "wechseln"
-                ]
-              }
-            ]
-          }
-        }
+      "id": "b2-aendern",
+      "layout": "standardStudy",
+      "translation": "mainīt • labot",
+      "explanation": [
+        "Galvenā doma: Mainīt konkrētu lietu vai informāciju — plānu, termiņu, adresi, lēmumu.",
+        "ändern galvenokārt nozīmē: labot vai mainīt detaļu.",
+        "Bieži raksturo: konkrētu lietu.",
+        "ändern lieto, kad maina plānu, termiņu, adresi vai kādu detaļu."
       ],
       "examples": [
         {
           "de": "Ich ändere den Termin.",
-          "lv": "es mainu termiņu."
+          "lv": "Es mainu termiņu."
         },
         {
           "de": "Kannst du die Adresse ändern?",
@@ -14131,487 +13858,249 @@ const B2_WORDS = [
           "lv": "mēs mainām savu plānu."
         },
         {
-          "de": "Ich muss Geld wechseln.",
-          "lv": "man jāsamaina nauda."
+          "de": "Ich ändere den Termin.",
+          "lv": "es mainu termiņu."
         },
         {
-          "de": "Sie wechselt die Schule.",
-          "lv": "viņa maina skolu."
-        },
-        {
-          "de": "Wir wechseln das Thema.",
-          "lv": "mēs mainām tēmu."
-        }
-      ],
-      "comparisonTable": [
-        {
-          "lv": "mainīt",
           "de": "ändern",
-          "meaning": "labot vai mainīt detaļu",
-          "describes": "konkrētu lietu",
-          "example": "Ich ändere den Termin.",
-          "translation": "es mainu termiņu."
-        },
-        {
-          "lv": "samainīt",
-          "de": "wechseln",
-          "meaning": "nomainīt pret citu",
-          "describes": "apmaiņu / maiņu",
-          "example": "Ich wechsle die Schule.",
-          "translation": "es mainu skolu."
-        },
-        {
-          "lv": "mainīties",
-          "de": "sich ändern",
-          "meaning": "kļūt citādam",
-          "describes": "pašam mainīties",
-          "example": "Das Wetter ändert sich.",
-          "translation": "laiks mainās."
-        },
-        {
-          "lv": "pārsēsties",
-          "de": "umsteigen",
-          "meaning": "mainīt transportu",
-          "describes": "transportā",
-          "example": "Ich steige in Berlin um.",
-          "translation": "es Berlīnē pārsēžos."
-        },
-        {
-          "lv": "mainīt būtiskāk",
-          "de": "verändern",
-          "meaning": "būtiski mainīt",
-          "describes": "situāciju / dzīvi",
-          "example": "Das verändert alles.",
-          "translation": "tas maina visu."
-        },
-        {
-          "lv": "apmainīt preci",
-          "de": "umtauschen",
-          "meaning": "atdot un saņemt citu",
-          "describes": "veikalā",
-          "example": "Ich tausche die Jacke um.",
-          "translation": "es apmainu jaku."
+          "lv": "mainīt detaļu; wechseln"
         }
       ],
-      "importantComparison": [
-        "Ich ändere den Termin. = Es mainu termiņu.",
-        "Ich wechsle die Schule. = Es mainu skolu.",
-        "ändern = mainīt detaļu; wechseln = samainīt / nomainīt pret citu."
+      "tip": [
+        "Mainīt konkrētu lietu vai informāciju — plānu, termiņu, adresi, lēmumu.",
+        "Izmanto ändern, kad konteksts atbilst šai nozīmei."
       ],
-      "tip": {
-        "left": "Ja maina plānu, termiņu vai adresi, lieto ändern. Ja samaina naudu, drēbes, darbu vai tēmu, lieto wechseln.",
-        "rightTitle": "ātri",
-        "rightItems": [
-          {
-            "de": "Ich ändere den Plan.",
-            "lv": "es mainu plānu.",
-            "separator": "="
-          },
-          {
-            "de": "Ich wechsle Geld.",
-            "lv": "es samainu naudu.",
-            "separator": "="
-          }
-        ]
-      },
       "important": [
         "ändern = mainīt konkrētu lietu (Termin, Adresse, Plan).",
-        "wechseln = samainīt vai nomainīt pret citu (Geld, Schule, Thema).",
-        "Ich wechsle den Termin nav pareizi — pareizi: Ich ändere den Termin."
-      ],
-      "mistakes": [
-        {
-          "wrong": "Ich wechsle den Termin.",
-          "right": "Ich ändere den Termin."
-        },
-        {
-          "wrong": "Ich ändere die Schule.",
-          "right": "Ich wechsle die Schule."
-        }
-      ],
-      "remember": [
         "Plāns, termiņš, adrese: ändern.",
-        "Nauda, skola, darbs, tēma: wechseln."
+        "Mainīt konkrētu lietu vai informāciju — plānu, termiņu, adresi, lēmumu."
       ],
       "sectionAccents": {
-        "lead": {
+        "explanation": {
           "blue": [
             "ändern"
           ],
-          "green": [
-            "wechseln"
-          ],
           "purple": [
             "mainīt",
-            "samainīt"
+            "labot"
           ]
         },
-        "comparisonCards": [
+        "examples": [
           {
+            "de": {
+              "blue": [
+                "ändern",
+                "ändern"
+              ]
+            },
             "lv": {
               "purple": [
                 "mainīt",
                 "labot"
               ]
-            },
+            }
+          },
+          {
             "de": {
               "blue": [
+                "ändern",
                 "ändern"
               ]
             },
-            "example": {
-              "blue": [
-                "ändere"
-              ],
+            "lv": {
               "purple": [
-                "mainu"
+                "mainīt",
+                "labot"
               ]
             }
           },
           {
+            "de": {
+              "blue": [
+                "ändern",
+                "ändern"
+              ]
+            },
             "lv": {
               "purple": [
-                "samainīt",
-                "nomainīt"
+                "mainīt",
+                "labot"
               ]
-            },
+            }
+          },
+          {
             "de": {
-              "green": [
-                "wechseln"
+              "blue": [
+                "ändern",
+                "ändern"
               ]
             },
-            "example": {
-              "green": [
-                "wechsle"
-              ],
+            "lv": {
               "purple": [
-                "mainu"
+                "mainīt",
+                "labot"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ändern",
+                "ändern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mainīt",
+                "labot"
               ]
             }
           }
         ],
-        "examples": [
+        "tip": [
           {
-            "de": {
-              "blue": [
-                "ändere"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "mainu"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "ändern"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "mainīt"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "ändern"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "mainām"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "wechseln"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "samaina"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "wechselt"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "maina"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "wechseln"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "mainām"
-              ]
-            }
-          }
-        ],
-        "comparisonTable": [
-          {
-            "lv": {
-              "purple": [
-                "mainīt"
-              ]
-            },
-            "de": {
-              "blue": [
-                "ändern"
-              ]
-            },
-            "example": {
-              "blue": [
-                "ändere"
-              ]
-            },
-            "translation": {
-              "purple": [
-                "mainu"
-              ]
-            }
-          },
-          {
-            "lv": {
-              "purple": [
-                "samainīt"
-              ]
-            },
-            "de": {
-              "green": [
-                "wechseln"
-              ]
-            },
-            "example": {
-              "green": [
-                "wechsle"
-              ]
-            },
-            "translation": {
-              "purple": [
-                "mainu"
-              ]
-            }
-          },
-          {
-            "lv": {
-              "purple": [
-                "mainīties"
-              ]
-            },
-            "de": {
-              "blue": [
-                "sich ändern"
-              ]
-            },
-            "example": {
-              "blue": [
-                "ändert sich"
-              ]
-            },
-            "translation": {
-              "purple": [
-                "mainās"
-              ]
-            }
-          },
-          {
-            "lv": {
-              "purple": [
-                "pārsēsties"
-              ]
-            },
-            "de": {
-              "orange": [
-                "umsteigen"
-              ]
-            },
-            "example": {
-              "orange": [
-                "steige um"
-              ]
-            },
-            "translation": {
-              "purple": [
-                "pārsēžos"
-              ]
-            }
-          },
-          {
-            "lv": {
-              "purple": [
-                "mainīt būtiskāk"
-              ]
-            },
-            "de": {
-              "red": [
-                "verändern"
-              ]
-            },
-            "example": {
-              "red": [
-                "verändert"
-              ]
-            },
-            "translation": {
-              "purple": [
-                "maina"
-              ]
-            }
-          },
-          {
-            "lv": {
-              "purple": [
-                "apmainīt"
-              ]
-            },
-            "de": {
-              "yellow": [
-                "umtauschen"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "tausche um"
-              ]
-            },
-            "translation": {
-              "purple": [
-                "apmainu"
-              ]
-            }
-          }
-        ],
-        "importantComparison": [
-          {
-            "blue": [
-              "ändere"
-            ],
             "purple": [
-              "mainu"
+              "mainīt"
             ]
           },
           {
-            "green": [
-              "wechsle"
-            ],
             "purple": [
-              "mainu"
-            ]
-          },
-          {
-            "blue": [
-              "ändern"
-            ],
-            "green": [
-              "wechseln"
+              "labot"
             ]
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "ändern"
-            ],
-            "green": [
-              "wechseln"
-            ]
-          },
-          "rightItems": [
-            {
-              "de": {
-                "blue": [
-                  "ändere"
-                ]
-              },
-              "lv": {
-                "purple": [
-                  "mainu"
-                ]
-              }
-            },
-            {
-              "de": {
-                "green": [
-                  "wechsle"
-                ]
-              },
-              "lv": {
-                "purple": [
-                  "samainu"
-                ]
-              }
-            }
-          ]
-        },
         "important": [
           {
             "blue": [
               "ändern"
             ]
-          },
-          {
-            "green": [
-              "wechseln"
-            ]
-          },
-          {
-            "green": [
-              "wechsle"
-            ],
-            "blue": [
-              "ändere"
-            ]
           }
-        ],
-        "mistakes": [
+        ]
+      }
+    }
+  },
+  {
+    "de": "wechseln",
+    "lv": "samainīt • nomainīt",
+    "level": "B2",
+    "study": {
+      "id": "b2-wechseln",
+      "layout": "standardStudy",
+      "translation": "samainīt • nomainīt",
+      "explanation": [
+        "Galvenā doma: Samainīt vai nomainīt kaut ko pret citu — naudu, drēbes, darbu, skolu, tēmu.",
+        "wechseln galvenokārt nozīmē: nomainīt pret citu.",
+        "Bieži raksturo: apmaiņu / maiņu.",
+        "wechseln lieto, kad kaut ko samaina vai nomaina pret citu — naudu, drēbes, darbu, skolu vai tēmu."
+      ],
+      "examples": [
+        {
+          "de": "Ich wechsle die Schule.",
+          "lv": "Es mainu skolu."
+        },
+        {
+          "de": "Ich muss Geld wechseln.",
+          "lv": "man jāsamaina nauda."
+        },
+        {
+          "de": "Wir wechseln das Thema.",
+          "lv": "mēs mainām tēmu."
+        },
+        {
+          "de": "Ich wechsle die Schule.",
+          "lv": "es mainu skolu."
+        }
+      ],
+      "tip": [
+        "Samainīt vai nomainīt kaut ko pret citu — naudu, drēbes, darbu, skolu, tēmu.",
+        "Izmanto wechseln, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "wechseln = samainīt vai nomainīt pret citu (Geld, Schule, Thema).",
+        "Nauda, skola, darbs, tēma: wechseln.",
+        "Samainīt vai nomainīt kaut ko pret citu — naudu, drēbes, darbu, skolu, tēmu."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "wechseln"
+          ],
+          "purple": [
+            "samainīt",
+            "nomainīt"
+          ]
+        },
+        "examples": [
           {
-            "wrong": {
+            "de": {
               "green": [
-                "wechsle"
+                "wechseln",
+                "wechseln"
               ]
             },
-            "right": {
-              "blue": [
-                "ändere"
+            "lv": {
+              "purple": [
+                "samainīt",
+                "nomainīt"
               ]
             }
           },
           {
-            "wrong": {
-              "blue": [
-                "ändere"
+            "de": {
+              "green": [
+                "wechseln",
+                "wechseln"
               ]
             },
-            "right": {
+            "lv": {
+              "purple": [
+                "samainīt",
+                "nomainīt"
+              ]
+            }
+          },
+          {
+            "de": {
               "green": [
-                "wechsle"
+                "wechseln",
+                "wechseln"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "samainīt",
+                "nomainīt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "wechseln",
+                "wechseln"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "samainīt",
+                "nomainīt"
               ]
             }
           }
         ],
-        "remember": [
+        "tip": [
           {
-            "blue": [
-              "ändern"
+            "purple": [
+              "samainīt"
             ]
           },
+          {
+            "purple": [
+              "nomainīt"
+            ]
+          }
+        ],
+        "important": [
           {
             "green": [
               "wechseln"
@@ -14622,792 +14111,265 @@ const B2_WORDS = [
     }
   },
   {
-    "de": "bieten • anbieten",
-    "lv": "Piedāvāt • Sniegt iespēju",
+    "de": "bieten",
+    "lv": "piedāvāt • sniegt",
     "level": "B2",
     "study": {
-      "id": "compare-bieten-anbieten",
-      "layout": "comparisonStudy",
-      "title": "Piedāvāt • Sniegt iespēju",
-      "subtitle": "bieten • anbieten",
-      "lead": "bieten nozīmē piedāvāt vai sniegt iespēju; anbieten nozīmē aktīvi piedāvāt kādam konkrēti. Tie NAV sinonīmi.",
-      "explanation": "bieten bieži apraksta, ko vieta, programma vai pakalpojums sniedz (Die Schule bietet viele Kurse). anbieten ir darbības vārds, ko var sadalīt un uzsver aktīvu piedāvāšanu konkrētai personai (Ich biete dir Hilfe an). B2 līmenī abi ir bieži jautājumos par darbu, pakalpojumiem un iespējām.",
-      "words": [
-        {
-          "icon": "🏫",
-          "lv": "piedāvāt • sniegt",
-          "de": "bieten",
-          "accent": "blue",
-          "explanation": [
-            "Galvenā doma: Piedāvāt iespējas, kursus, pakalpojumus vai labumu — ko vieta vai programma sniedz.",
-            "bieten galvenokārt nozīmē: sniegt iespēju / labumu.",
-            "Bieži raksturo: ko vieta/programma dod.",
-            "bieten galvenokārt nozīmē: nodrošināt iespēju.",
-            "Bieži raksturo: formālāk.",
-            "bieten bieži apraksta, ko vieta, programma vai pakalpojums sniedz (Die Schule bietet viele Kurse).",
-            "anbieten ir darbības vārds, ko var sadalīt un uzsver aktīvu piedāvāšanu konkrētai personai (Ich biete dir Hilfe an)."
-          ],
-          "examples": [
-            {
-              "de": "Die Schule bietet viele Kurse.",
-              "lv": "Skola piedāvā daudz kursu."
-            },
-            {
-              "de": "Darf ich Ihnen etwas anbieten?",
-              "lv": "vai drīkstu jums kaut ko piedāvāt?"
-            },
-            {
-              "de": "Die Schule bietet viele Kurse.",
-              "lv": "skola piedāvā daudz kursu."
-            },
-            {
-              "de": "Die App bietet Sicherheit.",
-              "lv": "lietotne nodrošina drošību."
-            },
-            {
-              "de": "bieten",
-              "lv": "ko kaut kas sniedz; anbieten"
-            }
-          ],
-          "tip": [
-            "Ja runa ir par iespējām, kursiem vai skatu, ko vieta sniedz, lieto bieten. Ja aktīvi piedāvā kādam, lieto anbieten.",
-            "Piedāvāt iespējas, kursus, pakalpojumus vai labumu — ko vieta vai programma sniedz."
-          ],
-          "important": [
-            "bieten: Die Schule bietet Kurse. (nesadalāms)",
-            "anbieten: Ich biete dir Hilfe an. (sadalāms: biete ... an)",
-            "Ko vieta/programma sniedz: bieten.",
-            "Aktīva piedāvāšana kādam: anbieten → biete ... an."
-          ],
-          "sectionAccents": {
-            "explanation": {
-              "blue": [
-                "bieten"
-              ],
-              "purple": [
-                "piedāvāt",
-                "sniegt"
-              ]
-            },
-            "examples": [
-              {
-                "de": {
-                  "blue": [
-                    "bieten",
-                    "bieten"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "piedāvāt",
-                    "sniegt"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "bieten",
-                    "bieten"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "piedāvāt",
-                    "sniegt"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "bieten",
-                    "bieten"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "piedāvāt",
-                    "sniegt"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "bieten",
-                    "bieten"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "piedāvāt",
-                    "sniegt"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "bieten",
-                    "bieten"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "piedāvāt",
-                    "sniegt"
-                  ]
-                }
-              }
-            ],
-            "tip": [
-              {
-                "purple": [
-                  "piedāvāt"
-                ]
-              },
-              {
-                "purple": [
-                  "sniegt"
-                ]
-              }
-            ],
-            "important": [
-              {
-                "blue": [
-                  "bieten"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "icon": "🤝",
-          "lv": "piedāvāt aktīvi",
-          "de": "anbieten",
-          "accent": "green",
-          "explanation": [
-            "Galvenā doma: Aktīvi piedāvāt kādam konkrēti — palīdzību, dzērienu, darbu vai pakalpojumu.",
-            "anbieten galvenokārt nozīmē: aktīvi piedāvāt kādam.",
-            "Bieži raksturo: darbības vārds, ko var sadalīt.",
-            "anbieten ir darbības vārds, ko var sadalīt un uzsver aktīvu piedāvāšanu konkrētai personai (Ich biete dir Hilfe an).",
-            "Šo vārdu salīdzini ar pārējiem šajā kartītē, lai izvēlētos pareizo variantu."
-          ],
-          "examples": [
-            {
-              "de": "Ich biete dir meine Hilfe an.",
-              "lv": "Es tev piedāvāju savu palīdzību."
-            },
-            {
-              "de": "Darf ich Ihnen etwas anbieten?",
-              "lv": "vai drīkstu jums kaut ko piedāvāt?"
-            },
-            {
-              "de": "Ich biete dir Hilfe an.",
-              "lv": "es tev piedāvāju palīdzību."
-            },
-            {
-              "de": "Ich biete dir meine Hilfe an.",
-              "lv": "Es tev piedāvāju savu palīdzību."
-            }
-          ],
-          "tip": [
-            "Ja runa ir par iespējām, kursiem vai skatu, ko vieta sniedz, lieto bieten. Ja aktīvi piedāvā kādam, lieto anbieten.",
-            "Aktīvi piedāvāt kādam konkrēti — palīdzību, dzērienu, darbu vai pakalpojumu."
-          ],
-          "important": [
-            "anbieten: Ich biete dir Hilfe an. (sadalāms: biete ... an)",
-            "Aktīva piedāvāšana kādam: anbieten → biete ... an.",
-            "Aktīvi piedāvāt kādam konkrēti — palīdzību, dzērienu, darbu vai pakalpojumu."
-          ],
-          "sectionAccents": {
-            "explanation": {
-              "green": [
-                "anbieten",
-                "biete",
-                "an"
-              ],
-              "purple": [
-                "piedāvāt aktīvi"
-              ]
-            },
-            "examples": [
-              {
-                "de": {
-                  "green": [
-                    "anbieten",
-                    "anbieten"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "piedāvāt aktīvi"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "anbieten",
-                    "anbieten"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "piedāvāt aktīvi"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "anbieten",
-                    "anbieten"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "piedāvāt aktīvi"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "anbieten",
-                    "anbieten"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "piedāvāt aktīvi"
-                  ]
-                }
-              }
-            ],
-            "tip": [
-              {
-                "purple": [
-                  "piedāvāt aktīvi"
-                ]
-              }
-            ],
-            "important": [
-              {
-                "green": [
-                  "anbieten"
-                ]
-              }
-            ]
-          }
-        }
+      "id": "b2-bieten",
+      "layout": "standardStudy",
+      "translation": "piedāvāt • sniegt",
+      "explanation": [
+        "Galvenā doma: Piedāvāt iespējas, kursus, pakalpojumus vai labumu — ko vieta vai programma sniedz.",
+        "bieten galvenokārt nozīmē: sniegt iespēju / labumu.",
+        "Bieži raksturo: ko vieta/programma dod.",
+        "bieten galvenokārt nozīmē: nodrošināt iespēju.",
+        "Bieži raksturo: formālāk.",
+        "bieten bieži apraksta, ko vieta, programma vai pakalpojums sniedz (Die Schule bietet viele Kurse)."
       ],
       "examples": [
         {
           "de": "Die Schule bietet viele Kurse.",
-          "lv": "skola piedāvā daudz kursu."
-        },
-        {
-          "de": "Das Hotel bietet einen schönen Blick.",
-          "lv": "viesnīca sniedz skaistu skatu."
-        },
-        {
-          "de": "Das Programm bietet viele Möglichkeiten.",
-          "lv": "programma sniedz daudz iespēju."
-        },
-        {
-          "de": "Ich biete dir meine Hilfe an.",
-          "lv": "es tev piedāvāju savu palīdzību."
+          "lv": "Skola piedāvā daudz kursu."
         },
         {
           "de": "Darf ich Ihnen etwas anbieten?",
           "lv": "vai drīkstu jums kaut ko piedāvāt?"
         },
         {
-          "de": "Die Firma bietet neue Jobs an.",
-          "lv": "uzņēmums piedāvā jaunas darba vietas."
+          "de": "Die Schule bietet viele Kurse.",
+          "lv": "skola piedāvā daudz kursu."
+        },
+        {
+          "de": "Die App bietet Sicherheit.",
+          "lv": "lietotne nodrošina drošību."
+        },
+        {
+          "de": "bieten",
+          "lv": "ko kaut kas sniedz; anbieten"
         }
       ],
-      "comparisonTable": [
-        {
-          "lv": "piedāvāt",
-          "de": "bieten",
-          "meaning": "sniegt iespēju / labumu",
-          "describes": "ko vieta/programma dod",
-          "example": "Die Schule bietet viele Kurse.",
-          "translation": "skola piedāvā daudz kursu."
-        },
-        {
-          "lv": "piedāvāt aktīvi",
-          "de": "anbieten",
-          "meaning": "aktīvi piedāvāt kādam",
-          "describes": "darbības vārds, ko var sadalīt",
-          "example": "Ich biete dir Hilfe an.",
-          "translation": "es tev piedāvāju palīdzību."
-        },
-        {
-          "lv": "dot",
-          "de": "geben",
-          "meaning": "nodot kādam",
-          "describes": "tieša dāvana",
-          "example": "Ich gebe dir Geld.",
-          "translation": "es tev dodu naudu."
-        },
-        {
-          "lv": "piedāvājums",
-          "de": "das Angebot",
-          "meaning": "piedāvājums kā lietvārds",
-          "describes": "lietvārds (tikai vienskaitlī)",
-          "example": "Das ist ein gutes Angebot.",
-          "translation": "tā ir laba piedāvājuma cena."
-        },
-        {
-          "lv": "nodrošināt",
-          "de": "bieten",
-          "meaning": "nodrošināt iespēju",
-          "describes": "formālāk",
-          "example": "Die App bietet Sicherheit.",
-          "translation": "lietotne nodrošina drošību."
-        },
-        {
-          "lv": "uzdot jautājumu",
-          "de": "anbieten?",
-          "meaning": "piedāvāt sarunā",
-          "describes": " Höflichkeitsformel",
-          "example": "Darf ich Ihnen etwas anbieten?",
-          "translation": "vai drīkstu jums kaut ko piedāvāt?"
-        }
+      "tip": [
+        "Piedāvāt iespējas, kursus, pakalpojumus vai labumu — ko vieta vai programma sniedz.",
+        "Izmanto bieten, kad konteksts atbilst šai nozīmei."
       ],
-      "importantComparison": [
-        "Die Schule bietet Kurse. = Skola piedāvā kursus.",
-        "Ich biete dir Hilfe an. = Es tev piedāvāju palīdzību.",
-        "bieten = ko kaut kas sniedz; anbieten = aktīva piedāvāšana kādam."
-      ],
-      "tip": {
-        "left": "Ja runa ir par iespējām, kursiem vai skatu, ko vieta sniedz, lieto bieten. Ja aktīvi piedāvā kādam, lieto anbieten.",
-        "rightTitle": "ātri",
-        "rightItems": [
-          {
-            "de": "Die Schule bietet...",
-            "lv": "skola piedāvā...",
-            "separator": "="
-          },
-          {
-            "de": "Ich biete ... an.",
-            "lv": "es piedāvāju...",
-            "separator": "="
-          }
-        ]
-      },
       "important": [
         "bieten: Die Schule bietet Kurse. (nesadalāms)",
-        "anbieten: Ich biete dir Hilfe an. (sadalāms: biete ... an)",
-        "Ich biete an dir nav pareizi — pareizi: Ich biete dir ... an."
-      ],
-      "mistakes": [
-        {
-          "wrong": "Ich biete an dir Hilfe.",
-          "right": "Ich biete dir Hilfe an."
-        },
-        {
-          "wrong": "Die Schule bietet an Kurse.",
-          "right": "Die Schule bietet Kurse an."
-        }
-      ],
-      "remember": [
-        "Ko vieta/programma sniedz: bieten.",
-        "Aktīva piedāvāšana kādam: anbieten → biete ... an."
+        "Ko vieta/programma sniedz: bieten."
       ],
       "sectionAccents": {
-        "lead": {
+        "explanation": {
           "blue": [
             "bieten"
-          ],
-          "green": [
-            "anbieten"
           ],
           "purple": [
             "piedāvāt",
             "sniegt"
           ]
         },
-        "comparisonCards": [
+        "examples": [
           {
+            "de": {
+              "blue": [
+                "bieten",
+                "bieten"
+              ]
+            },
             "lv": {
               "purple": [
                 "piedāvāt",
                 "sniegt"
               ]
-            },
+            }
+          },
+          {
             "de": {
               "blue": [
+                "bieten",
                 "bieten"
               ]
             },
-            "example": {
-              "blue": [
-                "bietet"
-              ],
-              "purple": [
-                "piedāvā"
-              ]
-            }
-          },
-          {
             "lv": {
               "purple": [
-                "piedāvāt aktīvi"
-              ]
-            },
-            "de": {
-              "green": [
-                "anbieten",
-                "biete",
-                "an"
-              ]
-            },
-            "example": {
-              "green": [
-                "biete",
-                "an"
-              ],
-              "purple": [
-                "piedāvāju"
-              ]
-            }
-          }
-        ],
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "bietet"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "piedāvā"
+                "piedāvāt",
+                "sniegt"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "bietet"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "sniedz"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "bietet"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "sniedz"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "biete",
-                "an"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "piedāvāju"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "anbieten"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "piedāvāt"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "bietet",
-                "an"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "piedāvā"
-              ]
-            }
-          }
-        ],
-        "comparisonTable": [
-          {
-            "lv": {
-              "purple": [
-                "piedāvāt"
-              ]
-            },
-            "de": {
-              "blue": [
+                "bieten",
                 "bieten"
               ]
             },
-            "example": {
-              "blue": [
-                "bietet"
-              ]
-            },
-            "translation": {
+            "lv": {
               "purple": [
-                "piedāvā"
+                "piedāvāt",
+                "sniegt"
               ]
             }
           },
           {
-            "lv": {
-              "purple": [
-                "piedāvāt aktīvi"
-              ]
-            },
-            "de": {
-              "green": [
-                "anbieten"
-              ]
-            },
-            "example": {
-              "green": [
-                "biete",
-                "an"
-              ]
-            },
-            "translation": {
-              "purple": [
-                "piedāvāju"
-              ]
-            }
-          },
-          {
-            "lv": {
-              "purple": [
-                "dot"
-              ]
-            },
-            "de": {
-              "yellow": [
-                "geben"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "gebe"
-              ]
-            },
-            "translation": {
-              "purple": [
-                "dodu"
-              ]
-            }
-          },
-          {
-            "lv": {
-              "purple": [
-                "piedāvājums"
-              ]
-            },
-            "de": {
-              "orange": [
-                "Angebot"
-              ]
-            },
-            "example": {
-              "orange": [
-                "Angebot"
-              ]
-            },
-            "translation": {
-              "purple": [
-                "piedāvājuma"
-              ]
-            }
-          },
-          {
-            "lv": {
-              "purple": [
-                "nodrošināt"
-              ]
-            },
             "de": {
               "blue": [
-                "bietet"
+                "bieten",
+                "bieten"
               ]
             },
-            "example": {
-              "blue": [
-                "bietet"
-              ]
-            },
-            "translation": {
+            "lv": {
               "purple": [
-                "nodrošina"
+                "piedāvāt",
+                "sniegt"
               ]
             }
           },
           {
+            "de": {
+              "blue": [
+                "bieten",
+                "bieten"
+              ]
+            },
             "lv": {
               "purple": [
-                "piedāvāt"
-              ]
-            },
-            "de": {
-              "green": [
-                "anbieten"
-              ]
-            },
-            "example": {
-              "green": [
-                "anbieten"
-              ]
-            },
-            "translation": {
-              "purple": [
-                "piedāvāt"
+                "piedāvāt",
+                "sniegt"
               ]
             }
           }
         ],
-        "importantComparison": [
+        "tip": [
           {
-            "blue": [
-              "bietet"
-            ],
             "purple": [
-              "piedāvā"
+              "piedāvāt"
             ]
           },
           {
-            "green": [
-              "biete",
-              "an"
-            ],
             "purple": [
-              "piedāvāju"
-            ]
-          },
-          {
-            "blue": [
-              "bieten"
-            ],
-            "green": [
-              "anbieten"
+              "sniegt"
             ]
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "bieten"
-            ],
-            "green": [
-              "anbieten"
-            ]
-          },
-          "rightItems": [
-            {
-              "de": {
-                "blue": [
-                  "bietet"
-                ]
-              },
-              "lv": {
-                "purple": [
-                  "piedāvā"
-                ]
-              }
-            },
-            {
-              "de": {
-                "green": [
-                  "biete",
-                  "an"
-                ]
-              },
-              "lv": {
-                "purple": [
-                  "piedāvāju"
-                ]
-              }
-            }
-          ]
-        },
         "important": [
           {
             "blue": [
               "bieten"
             ]
-          },
-          {
-            "green": [
-              "anbieten",
-              "biete",
-              "an"
-            ]
-          },
-          {
-            "green": [
-              "biete"
-            ],
-            "blue": [
-              "an"
-            ]
           }
-        ],
-        "mistakes": [
+        ]
+      }
+    }
+  },
+  {
+    "de": "anbieten",
+    "lv": "piedāvāt aktīvi",
+    "level": "B2",
+    "study": {
+      "id": "b2-anbieten",
+      "layout": "standardStudy",
+      "translation": "piedāvāt aktīvi",
+      "explanation": [
+        "Galvenā doma: Aktīvi piedāvāt kādam konkrēti — palīdzību, dzērienu, darbu vai pakalpojumu.",
+        "anbieten galvenokārt nozīmē: aktīvi piedāvāt kādam.",
+        "Bieži raksturo: darbības vārds, ko var sadalīt.",
+        "anbieten ir darbības vārds, ko var sadalīt un uzsver aktīvu piedāvāšanu konkrētai personai (Ich biete dir Hilfe an)."
+      ],
+      "examples": [
+        {
+          "de": "Ich biete dir meine Hilfe an.",
+          "lv": "Es tev piedāvāju savu palīdzību."
+        },
+        {
+          "de": "Darf ich Ihnen etwas anbieten?",
+          "lv": "vai drīkstu jums kaut ko piedāvāt?"
+        },
+        {
+          "de": "Ich biete dir Hilfe an.",
+          "lv": "es tev piedāvāju palīdzību."
+        }
+      ],
+      "tip": [
+        "Aktīvi piedāvāt kādam konkrēti — palīdzību, dzērienu, darbu vai pakalpojumu.",
+        "Izmanto anbieten, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "anbieten: Ich biete dir Hilfe an. (sadalāms: biete ... an)",
+        "Aktīva piedāvāšana kādam: anbieten → biete ... an.",
+        "Aktīvi piedāvāt kādam konkrēti — palīdzību, dzērienu, darbu vai pakalpojumu."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "anbieten",
+            "biete",
+            "an"
+          ],
+          "purple": [
+            "piedāvāt aktīvi"
+          ]
+        },
+        "examples": [
           {
-            "wrong": {
+            "de": {
               "green": [
-                "biete an"
+                "anbieten",
+                "anbieten"
               ]
             },
-            "right": {
-              "green": [
-                "biete",
-                "an"
+            "lv": {
+              "purple": [
+                "piedāvāt aktīvi"
               ]
             }
           },
           {
-            "wrong": {
+            "de": {
               "green": [
-                "bietet an"
+                "anbieten",
+                "anbieten"
               ]
             },
-            "right": {
-              "blue": [
-                "bietet"
+            "lv": {
+              "purple": [
+                "piedāvāt aktīvi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "anbieten",
+                "anbieten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "piedāvāt aktīvi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "anbieten",
+                "anbieten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "piedāvāt aktīvi"
               ]
             }
           }
         ],
-        "remember": [
+        "tip": [
           {
-            "blue": [
-              "bieten"
+            "purple": [
+              "piedāvāt aktīvi"
             ]
-          },
+          }
+        ],
+        "important": [
           {
             "green": [
               "anbieten"
@@ -15418,791 +14380,282 @@ const B2_WORDS = [
     }
   },
   {
-    "de": "fordern • fördern",
-    "lv": "Pieprasīt • Veicināt",
+    "de": "fordern",
+    "lv": "pieprasīt • prasīt",
     "level": "B2",
     "study": {
-      "id": "compare-fordern-foerdern",
-      "layout": "comparisonStudy",
-      "title": "Pieprasīt • Veicināt",
-      "subtitle": "fordern • fördern",
-      "lead": "fordern nozīmē pieprasīt vai prasīt; fördern nozīmē veicināt, atbalstīt vai attīstīt. Tie NAV sinonīmi — atšķiras ar ö.",
-      "explanation": "fordern lieto, kad kāds prasa naudu, tiesības, izmaiņas vai pienākumu (Sie fordert mehr Geld). fördern nozīmē veicināt attīstību, atbalstīt cilvēku vai projektu (Sport fördert die Gesundheit). Rūpniecībā fördern arī nozīmē iegūt derīgos izrakteņus. B2 līmenī šī pārī visbiežāk jauc eksāmenos.",
-      "words": [
-        {
-          "icon": "✊",
-          "lv": "pieprasīt • prasīt",
-          "de": "fordern",
-          "accent": "blue",
-          "explanation": [
-            "Galvenā doma: Pieprasīt naudu, tiesības, izmaiņas vai pienākumu — aktīva prasība.",
-            "fordern galvenokārt nozīmē: prasīt / pieprasīt.",
-            "Bieži raksturo: aktīva prasība.",
-            "fordern galvenokārt nozīmē: pieprasīt standartu.",
-            "Bieži raksturo: formāli.",
-            "fordern lieto, kad kāds prasa naudu, tiesības, izmaiņas vai pienākumu (Sie fordert mehr Geld)."
-          ],
-          "examples": [
-            {
-              "de": "Sie fordert mehr Geld.",
-              "lv": "Viņa prasa vairāk naudas."
-            },
-            {
-              "de": "Wir fordern mehr Transparenz.",
-              "lv": "mēs pieprasām lielāku caurskatāmību."
-            },
-            {
-              "de": "Sie fordert mehr Geld.",
-              "lv": "viņa prasa vairāk naudas."
-            },
-            {
-              "de": "Wir fordern mehr Sicherheit.",
-              "lv": "mēs pieprasām lielāku drošību."
-            },
-            {
-              "de": "fordern",
-              "lv": "prasīt; fördern"
-            }
-          ],
-          "tip": [
-            "Ja kāds prasa naudu, tiesības vai izmaiņas, lieto fordern. Ja kaut kas veicina attīstību vai atbalsta, lieto fördern.",
-            "Pieprasīt naudu, tiesības, izmaiņas vai pienākumu — aktīva prasība."
-          ],
-          "important": [
-            "fordern = pieprasīt / prasīt (bez ö).",
-            "Prasība, pieprasījums: fordern (bez ö).",
-            "Pieprasīt naudu, tiesības, izmaiņas vai pienākumu — aktīva prasība."
-          ],
-          "sectionAccents": {
-            "explanation": {
-              "blue": [
-                "fordern"
-              ],
-              "purple": [
-                "pieprasīt",
-                "prasīt"
-              ]
-            },
-            "examples": [
-              {
-                "de": {
-                  "blue": [
-                    "fordern",
-                    "fordern"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "pieprasīt",
-                    "prasīt"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "fordern",
-                    "fordern"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "pieprasīt",
-                    "prasīt"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "fordern",
-                    "fordern"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "pieprasīt",
-                    "prasīt"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "fordern",
-                    "fordern"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "pieprasīt",
-                    "prasīt"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "fordern",
-                    "fordern"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "pieprasīt",
-                    "prasīt"
-                  ]
-                }
-              }
-            ],
-            "tip": [
-              {
-                "purple": [
-                  "pieprasīt"
-                ]
-              },
-              {
-                "purple": [
-                  "prasīt"
-                ]
-              }
-            ],
-            "important": [
-              {
-                "blue": [
-                  "fordern"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "icon": "📈",
-          "lv": "veicināt • atbalstīt",
-          "de": "fördern",
-          "accent": "green",
-          "explanation": [
-            "Galvenā doma: Veicināt attīstību, atbalstīt cilvēku, projektu vai procesu.",
-            "fördern galvenokārt nozīmē: veicināt attīstību.",
-            "Bieži raksturo: atbalsts / progress.",
-            "fördern galvenokārt nozīmē: iegūt derīgos izrakteņus.",
-            "Bieži raksturo: rūpniecībā.",
-            "fördern galvenokārt nozīmē: attīstīt talantu.",
-            "Bieži raksturo: izglītībā.",
-            "fördern nozīmē veicināt attīstību, atbalstīt cilvēku vai projektu (Sport fördert die Gesundheit)."
-          ],
-          "examples": [
-            {
-              "de": "Sport fördert die Gesundheit.",
-              "lv": "Sports veicina veselību."
-            },
-            {
-              "de": "Sport fördert die Gesundheit.",
-              "lv": "sports veicina veselību."
-            },
-            {
-              "de": "In der Region wird Öl gefördert.",
-              "lv": "reģionā iegūst naftu."
-            },
-            {
-              "de": "Die Schule fördert begabte Kinder.",
-              "lv": "skola atbalsta apdāvinātus bērnus."
-            }
-          ],
-          "tip": [
-            "Ja kāds prasa naudu, tiesības vai izmaiņas, lieto fordern. Ja kaut kas veicina attīstību vai atbalsta, lieto fördern.",
-            "Veicināt attīstību, atbalstīt cilvēku, projektu vai procesu."
-          ],
-          "important": [
-            "fördern = veicināt / atbalstīt (ar ö).",
-            "Veicināšana, atbalsts: fördern (ar ö).",
-            "Veicināt attīstību, atbalstīt cilvēku, projektu vai procesu."
-          ],
-          "sectionAccents": {
-            "explanation": {
-              "green": [
-                "fördern"
-              ],
-              "purple": [
-                "veicināt",
-                "atbalstīt"
-              ]
-            },
-            "examples": [
-              {
-                "de": {
-                  "green": [
-                    "fördern",
-                    "fördern"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "veicināt",
-                    "atbalstīt"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "fördern",
-                    "fördern"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "veicināt",
-                    "atbalstīt"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "fördern",
-                    "fördern"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "veicināt",
-                    "atbalstīt"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "green": [
-                    "fördern",
-                    "fördern"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "veicināt",
-                    "atbalstīt"
-                  ]
-                }
-              }
-            ],
-            "tip": [
-              {
-                "purple": [
-                  "veicināt"
-                ]
-              },
-              {
-                "purple": [
-                  "atbalstīt"
-                ]
-              }
-            ],
-            "important": [
-              {
-                "green": [
-                  "fördern"
-                ]
-              }
-            ]
-          }
-        }
+      "id": "b2-fordern",
+      "layout": "standardStudy",
+      "translation": "pieprasīt • prasīt",
+      "explanation": [
+        "Galvenā doma: Pieprasīt naudu, tiesības, izmaiņas vai pienākumu — aktīva prasība.",
+        "fordern galvenokārt nozīmē: prasīt / pieprasīt.",
+        "Bieži raksturo: aktīva prasība.",
+        "fordern galvenokārt nozīmē: pieprasīt standartu.",
+        "Bieži raksturo: formāli.",
+        "fordern lieto, kad kāds prasa naudu, tiesības, izmaiņas vai pienākumu (Sie fordert mehr Geld)."
       ],
       "examples": [
         {
           "de": "Sie fordert mehr Geld.",
-          "lv": "viņa prasa vairāk naudas."
-        },
-        {
-          "de": "Die Gewerkschaft fordert bessere Bedingungen.",
-          "lv": "arodbiedrība pieprasa labākus apstākļus."
+          "lv": "Viņa prasa vairāk naudas."
         },
         {
           "de": "Wir fordern mehr Transparenz.",
           "lv": "mēs pieprasām lielāku caurskatāmību."
         },
         {
-          "de": "Sport fördert die Gesundheit.",
-          "lv": "sports veicina veselību."
+          "de": "Sie fordert mehr Geld.",
+          "lv": "viņa prasa vairāk naudas."
         },
         {
-          "de": "Die Schule fördert begabte Kinder.",
-          "lv": "skola atbalsta apdāvinātus bērnus."
+          "de": "Wir fordern mehr Sicherheit.",
+          "lv": "mēs pieprasām lielāku drošību."
         },
         {
-          "de": "In der Region wird Öl gefördert.",
-          "lv": "reģionā iegūst naftu."
+          "de": "fordern",
+          "lv": "prasīt; fördern"
         }
       ],
-      "comparisonTable": [
-        {
-          "lv": "pieprasīt",
-          "de": "fordern",
-          "meaning": "prasīt / pieprasīt",
-          "describes": "aktīva prasība",
-          "example": "Sie fordert mehr Geld.",
-          "translation": "viņa prasa vairāk naudas."
-        },
-        {
-          "lv": "veicināt",
-          "de": "fördern",
-          "meaning": "veicināt attīstību",
-          "describes": "atbalsts / progress",
-          "example": "Sport fördert die Gesundheit.",
-          "translation": "sports veicina veselību."
-        },
-        {
-          "lv": "atbalstīt",
-          "de": "unterstützen",
-          "meaning": "atbalstīt projektu",
-          "describes": "palīdzība",
-          "example": "Wir unterstützen das Projekt.",
-          "translation": "mēs atbalstām projektu."
-        },
-        {
-          "lv": "iegūt (naftu)",
-          "de": "fördern",
-          "meaning": "iegūt derīgos izrakteņus",
-          "describes": "rūpniecībā",
-          "example": "In der Region wird Öl gefördert.",
-          "translation": "reģionā iegūst naftu."
-        },
-        {
-          "lv": "prasīt pienākumu",
-          "de": "fordern",
-          "meaning": "pieprasīt standartu",
-          "describes": "formāli",
-          "example": "Wir fordern mehr Sicherheit.",
-          "translation": "mēs pieprasām lielāku drošību."
-        },
-        {
-          "lv": "attīstīt",
-          "de": "fördern",
-          "meaning": "attīstīt talantu",
-          "describes": "izglītībā",
-          "example": "Die Schule fördert begabte Kinder.",
-          "translation": "skola atbalsta apdāvinātus bērnus."
-        }
+      "tip": [
+        "Pieprasīt naudu, tiesības, izmaiņas vai pienākumu — aktīva prasība.",
+        "Izmanto fordern, kad konteksts atbilst šai nozīmei."
       ],
-      "importantComparison": [
-        "Sie fordert mehr Geld. = Viņa prasa vairāk naudas.",
-        "Sport fördert die Gesundheit. = Sports veicina veselību.",
-        "fordern = prasīt; fördern = veicināt — atceries ö!"
-      ],
-      "tip": {
-        "left": "Ja kāds prasa naudu, tiesības vai izmaiņas, lieto fordern. Ja kaut kas veicina attīstību vai atbalsta, lieto fördern.",
-        "rightTitle": "ātri",
-        "rightItems": [
-          {
-            "de": "fordert",
-            "lv": "prasa",
-            "separator": "="
-          },
-          {
-            "de": "fördert",
-            "lv": "veicina",
-            "separator": "="
-          }
-        ]
-      },
       "important": [
         "fordern = pieprasīt / prasīt (bez ö).",
-        "fördern = veicināt / atbalstīt (ar ö).",
-        "Nejauc: Ich förde mehr Geld nav pareizi — pareizi: Ich fordere mehr Geld."
-      ],
-      "mistakes": [
-        {
-          "wrong": "Sie fördert mehr Geld.",
-          "right": "Sie fordert mehr Geld."
-        },
-        {
-          "wrong": "Sport fordert die Gesundheit.",
-          "right": "Sport fördert die Gesundheit."
-        }
-      ],
-      "remember": [
         "Prasība, pieprasījums: fordern (bez ö).",
-        "Veicināšana, atbalsts: fördern (ar ö)."
+        "Pieprasīt naudu, tiesības, izmaiņas vai pienākumu — aktīva prasība."
       ],
       "sectionAccents": {
-        "lead": {
+        "explanation": {
           "blue": [
             "fordern"
           ],
-          "green": [
-            "fördern"
-          ],
           "purple": [
             "pieprasīt",
-            "veicināt"
+            "prasīt"
           ]
         },
-        "comparisonCards": [
+        "examples": [
           {
+            "de": {
+              "blue": [
+                "fordern",
+                "fordern"
+              ]
+            },
             "lv": {
               "purple": [
                 "pieprasīt",
                 "prasīt"
               ]
-            },
+            }
+          },
+          {
             "de": {
               "blue": [
+                "fordern",
                 "fordern"
               ]
             },
-            "example": {
-              "blue": [
-                "fordert"
-              ],
+            "lv": {
               "purple": [
-                "prasa"
+                "pieprasīt",
+                "prasīt"
               ]
             }
           },
           {
+            "de": {
+              "blue": [
+                "fordern",
+                "fordern"
+              ]
+            },
             "lv": {
               "purple": [
-                "veicināt",
-                "atbalstīt"
+                "pieprasīt",
+                "prasīt"
               ]
-            },
+            }
+          },
+          {
             "de": {
-              "green": [
-                "fördern"
+              "blue": [
+                "fordern",
+                "fordern"
               ]
             },
-            "example": {
-              "green": [
-                "fördert"
-              ],
+            "lv": {
               "purple": [
-                "veicina"
+                "pieprasīt",
+                "prasīt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fordern",
+                "fordern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pieprasīt",
+                "prasīt"
               ]
             }
           }
         ],
-        "examples": [
+        "tip": [
           {
-            "de": {
-              "blue": [
-                "fordert"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "prasa"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "fordert"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "pieprasa"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "fordern"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "pieprasām"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "fördert"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "veicina"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "fördert"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "atbalsta"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "gefördert"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "iegūst"
-              ]
-            }
-          }
-        ],
-        "comparisonTable": [
-          {
-            "lv": {
-              "purple": [
-                "pieprasīt"
-              ]
-            },
-            "de": {
-              "blue": [
-                "fordern"
-              ]
-            },
-            "example": {
-              "blue": [
-                "fordert"
-              ]
-            },
-            "translation": {
-              "purple": [
-                "prasa"
-              ]
-            }
-          },
-          {
-            "lv": {
-              "purple": [
-                "veicināt"
-              ]
-            },
-            "de": {
-              "green": [
-                "fördern"
-              ]
-            },
-            "example": {
-              "green": [
-                "fördert"
-              ]
-            },
-            "translation": {
-              "purple": [
-                "veicina"
-              ]
-            }
-          },
-          {
-            "lv": {
-              "purple": [
-                "atbalstīt"
-              ]
-            },
-            "de": {
-              "yellow": [
-                "unterstützen"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "unterstützen"
-              ]
-            },
-            "translation": {
-              "purple": [
-                "atbalstām"
-              ]
-            }
-          },
-          {
-            "lv": {
-              "purple": [
-                "iegūt"
-              ]
-            },
-            "de": {
-              "green": [
-                "gefördert"
-              ]
-            },
-            "example": {
-              "green": [
-                "gefördert"
-              ]
-            },
-            "translation": {
-              "purple": [
-                "iegūst"
-              ]
-            }
-          },
-          {
-            "lv": {
-              "purple": [
-                "pieprasīt"
-              ]
-            },
-            "de": {
-              "blue": [
-                "fordern"
-              ]
-            },
-            "example": {
-              "blue": [
-                "fordern"
-              ]
-            },
-            "translation": {
-              "purple": [
-                "pieprasām"
-              ]
-            }
-          },
-          {
-            "lv": {
-              "purple": [
-                "attīstīt"
-              ]
-            },
-            "de": {
-              "green": [
-                "fördert"
-              ]
-            },
-            "example": {
-              "green": [
-                "fördert"
-              ]
-            },
-            "translation": {
-              "purple": [
-                "atbalsta"
-              ]
-            }
-          }
-        ],
-        "importantComparison": [
-          {
-            "blue": [
-              "fordert"
-            ],
             "purple": [
-              "prasa"
+              "pieprasīt"
             ]
           },
           {
-            "green": [
-              "fördert"
-            ],
             "purple": [
-              "veicina"
-            ]
-          },
-          {
-            "blue": [
-              "fordern"
-            ],
-            "green": [
-              "fördern"
+              "prasīt"
             ]
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "fordern"
-            ],
-            "green": [
-              "fördern"
-            ]
-          },
-          "rightItems": [
-            {
-              "de": {
-                "blue": [
-                  "fordert"
-                ]
-              },
-              "lv": {
-                "purple": [
-                  "prasa"
-                ]
-              }
-            },
-            {
-              "de": {
-                "green": [
-                  "fördert"
-                ]
-              },
-              "lv": {
-                "purple": [
-                  "veicina"
-                ]
-              }
-            }
-          ]
-        },
         "important": [
           {
             "blue": [
               "fordern"
             ]
-          },
-          {
-            "green": [
-              "fördern"
-            ]
-          },
-          {
-            "blue": [
-              "fordert"
-            ],
-            "green": [
-              "fördert"
-            ]
           }
-        ],
-        "mistakes": [
+        ]
+      }
+    }
+  },
+  {
+    "de": "fördern",
+    "lv": "veicināt • atbalstīt",
+    "level": "B2",
+    "study": {
+      "id": "b2-foerdern",
+      "layout": "standardStudy",
+      "translation": "veicināt • atbalstīt",
+      "explanation": [
+        "Galvenā doma: Veicināt attīstību, atbalstīt cilvēku, projektu vai procesu.",
+        "fördern galvenokārt nozīmē: veicināt attīstību.",
+        "Bieži raksturo: atbalsts / progress.",
+        "fördern galvenokārt nozīmē: iegūt derīgos izrakteņus.",
+        "Bieži raksturo: rūpniecībā.",
+        "fördern galvenokārt nozīmē: attīstīt talantu.",
+        "Bieži raksturo: izglītībā.",
+        "fördern nozīmē veicināt attīstību, atbalstīt cilvēku vai projektu (Sport fördert die Gesundheit)."
+      ],
+      "examples": [
+        {
+          "de": "Sport fördert die Gesundheit.",
+          "lv": "Sports veicina veselību."
+        },
+        {
+          "de": "Sport fördert die Gesundheit.",
+          "lv": "sports veicina veselību."
+        },
+        {
+          "de": "In der Region wird Öl gefördert.",
+          "lv": "reģionā iegūst naftu."
+        },
+        {
+          "de": "Die Schule fördert begabte Kinder.",
+          "lv": "skola atbalsta apdāvinātus bērnus."
+        }
+      ],
+      "tip": [
+        "Veicināt attīstību, atbalstīt cilvēku, projektu vai procesu.",
+        "Izmanto fördern, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "fördern = veicināt / atbalstīt (ar ö).",
+        "Veicināšana, atbalsts: fördern (ar ö).",
+        "Veicināt attīstību, atbalstīt cilvēku, projektu vai procesu."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "fördern"
+          ],
+          "purple": [
+            "veicināt",
+            "atbalstīt"
+          ]
+        },
+        "examples": [
           {
-            "wrong": {
+            "de": {
               "green": [
-                "fördert"
+                "fördern",
+                "fördern"
               ]
             },
-            "right": {
-              "blue": [
-                "fordert"
+            "lv": {
+              "purple": [
+                "veicināt",
+                "atbalstīt"
               ]
             }
           },
           {
-            "wrong": {
-              "blue": [
-                "fordert"
+            "de": {
+              "green": [
+                "fördern",
+                "fördern"
               ]
             },
-            "right": {
+            "lv": {
+              "purple": [
+                "veicināt",
+                "atbalstīt"
+              ]
+            }
+          },
+          {
+            "de": {
               "green": [
-                "fördert"
+                "fördern",
+                "fördern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "veicināt",
+                "atbalstīt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "fördern",
+                "fördern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "veicināt",
+                "atbalstīt"
               ]
             }
           }
         ],
-        "remember": [
+        "tip": [
           {
-            "blue": [
-              "fordern"
+            "purple": [
+              "veicināt"
             ]
           },
+          {
+            "purple": [
+              "atbalstīt"
+            ]
+          }
+        ],
+        "important": [
           {
             "green": [
               "fördern"
