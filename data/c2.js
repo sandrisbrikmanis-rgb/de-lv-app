@@ -1489,7 +1489,7 @@ const C2_WORDS = [
     "de_plural": "die Sachverständigen",
     "lv": "lietpratējs • eksperts",
     "level": "C2"
-  },
+  }
 ];
 
 window.C2_WORDS = C2_WORDS;
