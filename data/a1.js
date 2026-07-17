@@ -2623,60 +2623,51 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "lūgums",
       "explanation": [
-        "Galvenā doma: Lietvārds ar artikulu die un lielo burtu. Konkrēts lūgums vai pieprasījums.",
-        "die Bitte galvenokārt nozīmē: pieklājība.",
-        "Bieži raksturo: pieklājības vārds.",
-        "die Bitte galvenokārt nozīmē: lūgums/pieprasījums.",
-        "Bieži raksturo: lietvārds (die).",
-        "bitte ar mazo sākumburtu ir pieklājības vārds — tas nozīmē lūdzu (Bitte schön!, Eine Tasse Kaffee, bitte).",
-        "die Bitte ar lielo burtu un artikulu die ir lietvārds — tas nozīmē lūgumu vai pieprasījumu (Ich habe eine Bitte = man ir lūgums).",
-        "Daudzskaitlī: die Bitten."
+        "Galvenā doma: Lietvārds sieviešu dzimtē, ko raksta ar lielo burtu un lieto kopā ar artikulu \"die\". Tas apzīmē konkrētu lūgumu vai pieprasījumu.",
+        "die Bitte (ar lielo burtu): Tas ir lietvārds, kas nozīmē \"lūgums\". Daudzskaitlī: die Bitten (lūgumi).",
+        "Atšķirība no \"bitte\": Atšķirībā no pieklājības vārda \"bitte\" (lūdzu), šai formai vienmēr ir lietvārda funkcija, un teikumā pirms tās var būt artikuls vai īpašuma vietniekvārds (piemēram, \"meine Bitte\")."
       ],
       "examples": [
         {
           "de": "Ich habe eine Bitte.",
-          "lv": "Man ir viens lūgums."
-        },
-        {
-          "de": "Bitte schön!",
-          "lv": "lūdzu!"
-        },
-        {
-          "de": "Eine Tasse Kaffee, bitte.",
-          "lv": "vienu tasi kafijas, lūdzu."
-        },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "vai es drīkstu lūdzu jautāt?"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "man ir viens lūgums."
+          "lv": "Man ir kāds lūgums."
         },
         {
           "de": "Die Bitte ist wichtig.",
-          "lv": "lūgums ir svarīgs."
+          "lv": "Šis lūgums ir svarīgs."
+        },
+        {
+          "de": "Eine Tasse Kaffee, bitte.",
+          "lv": "Vienu tasi kafijas, lūdzu."
+        },
+        {
+          "de": "Bitte schön!",
+          "lv": "Lūdzu!"
+        },
+        {
+          "de": "Kann ich bitte fragen?",
+          "lv": "Vai es drīkstu, lūdzu, jautāt?"
         }
       ],
       "tip": [
-        "Mazais bitte = lūdzu (Bitte schön!, Kaffee, bitte). die Bitte ar lielo burtu = lūgums (eine Bitte, meine Bitte).",
-        "Lietvārds ar artikulu die un lielo burtu. Konkrēts lūgums vai pieprasījums."
+        "Atceries galveno likumu: ja vāciski vēlies pateikt \"lūgums\" (kā lietu), raksti to ar lielo burtu un izmanto artikulu — \"die Bitte\". Ja saki vienkārši \"lūdzu\", raksti ar mazo burtu — \"bitte\"."
       ],
       "important": [
-        "bitte stāv ar mazo burtu — tas ir pieklājības vārds, ne lietvārds.",
-        "die Bitte ar lielo burtu un artikulu die ir lietvārds.",
-        "Daudzskaitlis: die Bitten (lūgumi).",
-        "Nepareizi: Die Bitte schön! → Pareizi: Bitte schön!"
+        "Pareizi: Ich habe eine Bitte. (Man ir lūgums — raksta ar lielo burtu).",
+        "Nepareizi: Ich habe eine bitte. (Pieklājības vārdu \"bitte\" šeit lietot nevar).",
+        "Frāzē \"Bitte schön!\" artikulu nekad neliek (nav pareizi: \"Die Bitte schön!\")."
       ],
       "sectionAccents": {
         "explanation": {
           "green": [
             "die Bitte",
-            "bitte"
+            "bitte",
+            "meine Bitte"
           ],
           "purple": [
             "lūgums",
-            "lūgumi"
+            "lūgumi",
+            "lūdzu"
           ],
           "yellow": [
             "Bitte",
@@ -2687,8 +2678,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "die Bitte",
-                "bitte"
+                "Bitte"
               ]
             },
             "lv": {
@@ -2700,8 +2690,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "die Bitte",
-                "bitte"
+                "Bitte"
               ]
             },
             "lv": {
@@ -2713,52 +2702,38 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "die Bitte",
                 "bitte"
               ]
             },
             "lv": {
               "purple": [
-                "lūgums"
+                "lūdzu"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "die Bitte",
+                "Bitte",
                 "bitte"
               ]
             },
             "lv": {
               "purple": [
-                "lūgums"
+                "Lūdzu",
+                "lūdzu"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "die Bitte",
                 "bitte"
               ]
             },
             "lv": {
               "purple": [
-                "lūgums"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "die Bitte",
-                "bitte"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "lūgums"
+                "lūdzu"
               ]
             }
           }
@@ -2766,14 +2741,33 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "lūgums"
+              "lūgums",
+              "lūdzu"
+            ],
+            "green": [
+              "die Bitte",
+              "bitte"
             ]
           }
         ],
         "important": [
           {
             "green": [
-              "die Bitte"
+              "Bitte"
+            ],
+            "purple": [
+              "lūgums"
+            ]
+          },
+          {
+            "green": [
+              "bitte"
+            ]
+          },
+          {
+            "green": [
+              "Bitte schön",
+              "Die Bitte schön"
             ]
           }
         ]
