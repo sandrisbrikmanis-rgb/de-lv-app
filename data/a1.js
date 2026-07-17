@@ -1704,7 +1704,7 @@ const A1_WORDS = [
   {
     "de": "Augenfarbe",
     "de_article": "die",
-    "de_plural": "die Augenfarbe",
+    "de_plural": "die Augenfarben",
     "lv": "acu krāsa",
     "level": "A1"
   },
@@ -2616,6 +2616,8 @@ const A1_WORDS = [
   },
   {
     "de": "Bitte",
+    "de_article": "die",
+    "de_plural": "die Bitten",
     "lv": "lūgums",
     "level": "A1",
     "study": {
@@ -2778,8 +2780,7 @@ const A1_WORDS = [
           }
         ]
       }
-    },
-    "de_article": "die"
+    }
   },
   {
     "de": "billig",
@@ -4865,11 +4866,6 @@ const A1_WORDS = [
     "level": "A1"
   },
   {
-    "de": "einmal",
-    "lv": "vienreiz",
-    "level": "A1"
-  },
-  {
     "de": "eins",
     "lv": "viens",
     "level": "A1"
@@ -5163,7 +5159,7 @@ const A1_WORDS = [
   {
     "de": "Eltern",
     "de_article": "die",
-    "lv": "Vecāki",
+    "lv": "vecāki",
     "level": "A1"
   },
   {
@@ -7158,7 +7154,7 @@ const A1_WORDS = [
   {
     "de": "Geschwister",
     "de_article": "die",
-    "lv": "Brāļi un māsas",
+    "lv": "brāļi un māsas",
     "level": "A1"
   },
   {
@@ -7229,7 +7225,7 @@ const A1_WORDS = [
   {
     "de": "Gramm",
     "de_article": "das",
-    "de_plural": "die Gramme",
+    "de_plural": "die Gramm",
     "lv": "grams",
     "level": "A1"
   },
@@ -10908,6 +10904,8 @@ const A1_WORDS = [
   },
   {
     "de": "Laut",
+    "de_article": "der",
+    "de_plural": "die Laute",
     "lv": "skaņa",
     "level": "A1",
     "study": {
@@ -11070,8 +11068,7 @@ const A1_WORDS = [
           }
         ]
       }
-    },
-    "de_article": "der"
+    }
   },
   {
     "de": "leben",
@@ -11403,7 +11400,6 @@ const A1_WORDS = [
   {
     "de": "Leute",
     "de_article": "die",
-    "de_plural": "die Leute",
     "lv": "ļaudis",
     "level": "A1"
   },
@@ -11422,7 +11418,6 @@ const A1_WORDS = [
   {
     "de": "Liebe",
     "de_article": "die",
-    "de_plural": "die Lieben",
     "lv": "mīlestība",
     "level": "A1"
   },
@@ -11718,7 +11713,7 @@ const A1_WORDS = [
   },
   {
     "de": "links",
-    "lv": "Pa kreisi • Kreisais",
+    "lv": "pa kreisi • kreisais",
     "level": "A1"
   },
   {
@@ -12958,6 +12953,7 @@ const A1_WORDS = [
   },
   {
     "de": "Morgen",
+    "de_article": "der",
     "lv": "rīts",
     "level": "A1",
     "study": {
@@ -13119,8 +13115,7 @@ const A1_WORDS = [
           }
         ]
       }
-    },
-    "de_article": "der"
+    }
   },
   {
     "de": "morgens",
@@ -13673,7 +13668,6 @@ const A1_WORDS = [
   {
     "de": "Natur",
     "de_article": "die",
-    "de_plural": "die Naturen",
     "lv": "daba",
     "level": "A1"
   },
@@ -14035,13 +14029,6 @@ const A1_WORDS = [
     "de": "November",
     "de_article": "der",
     "lv": "novembris",
-    "level": "A1"
-  },
-  {
-    "de": "Null",
-    "de_article": "die",
-    "de_plural": "die Nullen",
-    "lv": "nulle",
     "level": "A1"
   },
   {
@@ -14603,13 +14590,6 @@ const A1_WORDS = [
     "level": "A1"
   },
   {
-    "de": "Paar",
-    "de_article": "das",
-    "de_plural": "die Paare",
-    "lv": "pāris",
-    "level": "A1"
-  },
-  {
     "de": "Papier",
     "de_article": "das",
     "de_plural": "die Papiere",
@@ -14924,7 +14904,6 @@ const A1_WORDS = [
   {
     "de": "Polizei",
     "de_article": "die",
-    "de_plural": "die Polizeien",
     "lv": "policija",
     "level": "A1"
   },
@@ -15234,7 +15213,7 @@ const A1_WORDS = [
     "level": "A1"
   },
   {
-    "de": "rad fahren",
+    "de": "Rad fahren",
     "lv": "braukt ar divriteni",
     "level": "A1"
   },
@@ -15252,7 +15231,7 @@ const A1_WORDS = [
   },
   {
     "de": "rechts",
-    "lv": "Pa labi • Labais",
+    "lv": "pa labi • labais",
     "level": "A1"
   },
   {
@@ -15483,7 +15462,6 @@ const A1_WORDS = [
   {
     "de": "Schnee",
     "de_article": "der",
-    "de_plural": "die Schnee",
     "lv": "sniegs",
     "level": "A1"
   },
@@ -20398,7 +20376,6 @@ const A1_WORDS = [
   {
     "de": "Wetter",
     "de_article": "das",
-    "de_plural": "die Wetter",
     "lv": "laiks",
     "level": "A1"
   },
@@ -20699,7 +20676,6 @@ const A1_WORDS = [
   {
     "de": "Zucker",
     "de_article": "der",
-    "de_plural": "die Zucker",
     "lv": "cukurs",
     "level": "A1"
   },
@@ -21519,6 +21495,7 @@ const A1_WORDS = [
   },
   {
     "de": "Fernsehen",
+    "de_article": "das",
     "lv": "televīzija",
     "level": "A1",
     "study": {
@@ -21678,11 +21655,11 @@ const A1_WORDS = [
           }
         ]
       }
-    },
-    "de_article": "das"
+    }
   },
   {
     "de": "Appetit",
+    "de_article": "der",
     "lv": "ēstgriba",
     "level": "A1",
     "study": {
@@ -21803,8 +21780,7 @@ const A1_WORDS = [
           }
         ]
       }
-    },
-    "de_article": "der"
+    }
   },
   {
     "de": "essen",
@@ -21972,6 +21948,7 @@ const A1_WORDS = [
   },
   {
     "de": "Essen",
+    "de_article": "das",
     "lv": "ēdiens • maltīte",
     "level": "A1",
     "study": {
@@ -22143,11 +22120,11 @@ const A1_WORDS = [
           }
         ]
       }
-    },
-    "de_article": "das"
+    }
   },
   {
     "de": "Gemüse",
+    "de_article": "das",
     "lv": "dārzeņi",
     "level": "A1",
     "study": {
@@ -22302,11 +22279,11 @@ const A1_WORDS = [
           }
         ]
       }
-    },
-    "de_article": "das"
+    }
   },
   {
     "de": "Obst",
+    "de_article": "das",
     "lv": "augļi",
     "level": "A1",
     "study": {
@@ -22443,11 +22420,11 @@ const A1_WORDS = [
           }
         ]
       }
-    },
-    "de_article": "das"
+    }
   },
   {
     "de": "Ferien",
+    "de_article": "die",
     "lv": "brīvdienas (skola)",
     "level": "A1",
     "study": {
@@ -22605,11 +22582,11 @@ const A1_WORDS = [
           }
         ]
       }
-    },
-    "de_article": "die"
+    }
   },
   {
     "de": "Urlaub",
+    "de_article": "der",
     "lv": "atvaļinājums",
     "level": "A1",
     "study": {
@@ -22762,11 +22739,12 @@ const A1_WORDS = [
           }
         ]
       }
-    },
-    "de_article": "der"
+    }
   },
   {
     "de": "Stadt",
+    "de_article": "die",
+    "de_plural": "die Städte",
     "lv": "pilsēta",
     "level": "A1",
     "study": {
@@ -22913,11 +22891,12 @@ const A1_WORDS = [
           }
         ]
       }
-    },
-    "de_article": "die"
+    }
   },
   {
     "de": "Staat",
+    "de_article": "der",
+    "de_plural": "die Staaten",
     "lv": "valsts",
     "level": "A1",
     "study": {
@@ -23064,11 +23043,12 @@ const A1_WORDS = [
           }
         ]
       }
-    },
-    "de_article": "der"
+    }
   },
   {
     "de": "Uhr",
+    "de_article": "die",
+    "de_plural": "die Uhren",
     "lv": "pulkstenis",
     "level": "A1",
     "study": {
@@ -23219,11 +23199,12 @@ const A1_WORDS = [
           }
         ]
       }
-    },
-    "de_article": "die"
+    }
   },
   {
     "de": "Zeit",
+    "de_article": "die",
+    "de_plural": "die Zeiten",
     "lv": "laiks",
     "level": "A1",
     "study": {
@@ -23344,8 +23325,7 @@ const A1_WORDS = [
           }
         ]
       }
-    },
-    "de_article": "die"
+    }
   },
   {
     "de": "einmal",
