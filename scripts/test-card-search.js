@@ -204,7 +204,18 @@ function find(q) {
       best = e;
     }
   }
-  return bestScore > 0 ? best : null;
+  if (bestScore <= 0) return null;
+  const preferred = preferExactGermanHomograph(all, parsed, best);
+  return preferred;
+}
+
+function preferExactGermanHomograph(entries, parsed, fallback) {
+  if (!parsed?.word || parsed.hasArticle || /\s/.test(parsed.word)) return fallback;
+  const exactDeMatches = entries.filter((entry) => String(entry.de || "") === parsed.word);
+  if (exactDeMatches.length === 1) return exactDeMatches[0];
+  const formattedMatches = entries.filter((entry) => formatGermanEntry(entry) === parsed.raw);
+  if (formattedMatches.length === 1) return formattedMatches[0];
+  return fallback;
 }
 
 const cases = [
