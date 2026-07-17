@@ -6471,11 +6471,8 @@ function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
 
   const examples = (Array.isArray(study.examples) ? study.examples : []).map((example, index) => {
     const accentRules = sectionAccentRules("examples", index);
-    const exampleDe = String(example.de || "").trim();
-    const audioSrc = studyExampleAudioSrc(exampleDe);
-    const audioBtn = isComparisonStudy ? "" : comparisonWordAudioButtonHtml(exampleDe, audioSrc);
     return `
-    <div>${formatStudyText(example.de, fieldAccentRules(accentRules, "de"))}${audioBtn}</div>
+    <div>${formatStudyText(example.de, fieldAccentRules(accentRules, "de"))}</div>
       <span>=</span>
       <span>${formatStudyText(example.lv, fieldAccentRules(accentRules, "lv"))}</span>
   `;
@@ -6508,7 +6505,7 @@ function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
     const de = formatStudyText(item.de, fieldAccentRules(itemAccents, "de"));
     const lv = formatStudyText(item.lv, fieldAccentRules(itemAccents, "lv"));
     const audioSrc = item.de ? comparisonWordAudioSrc(item.de) : null;
-    const audioBtn = (!isComparisonStudy && audioSrc) ? comparisonWordAudioButtonHtml(item.de, audioSrc) : "";
+    const audioBtn = isComparisonStudy && audioSrc ? comparisonWordAudioButtonHtml(item.de, audioSrc) : "";
     const separator = `<span class="study-tip-separator">${escapeStudyCardText(item.separator || "=")}</span>`;
     return `
     <p class="study-tip-example${item.stacked ? " study-tip-example-stacked" : ""}">${item.stacked ? `${de}${audioBtn}<br>${separator}<br>${lv}` : `${de}${audioBtn} ${separator} ${lv}`}</p>
