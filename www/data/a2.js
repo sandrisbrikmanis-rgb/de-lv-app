@@ -2781,7 +2781,8 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "ameisen",
+    "de": "Ameisen",
+    "de_article": "die",
     "lv": "skudras",
     "level": "A2"
   },
@@ -2817,7 +2818,7 @@ const A2_WORDS = [
   {
     "de": "Angestellte",
     "de_article": "der",
-    "de_plural": "die Angestellte",
+    "de_plural": "die Angestellten",
     "lv": "darbinieks",
     "level": "A2"
   },
@@ -5385,7 +5386,7 @@ const A2_WORDS = [
   {
     "de": "Arbeitslose",
     "de_article": "der",
-    "de_plural": "die Arbeitslose",
+    "de_plural": "die Arbeitslosen",
     "lv": "bezdarbnieks",
     "level": "A2"
   },
@@ -5410,7 +5411,7 @@ const A2_WORDS = [
     "de": "Arm",
     "de_article": "der",
     "de_plural": "die Arme",
-    "lv": "nabadzīgs",
+    "lv": "roka",
     "level": "A2"
   },
   {
@@ -6342,14 +6343,12 @@ const A2_WORDS = [
   {
     "de": "Asthma",
     "de_article": "das",
-    "de_plural": "die Asthmae",
     "lv": "astma",
     "level": "A2"
   },
   {
     "de": "Atem",
     "de_article": "der",
-    "de_plural": "die Atems",
     "lv": "elpa",
     "level": "A2"
   },
@@ -9430,7 +9429,6 @@ const A2_WORDS = [
   {
     "de": "Augentropfen",
     "de_article": "die",
-    "de_plural": "die Augentropfens",
     "lv": "acu pilieni",
     "level": "A2"
   },
@@ -10690,7 +10688,7 @@ const A2_WORDS = [
   {
     "de": "Autopanne",
     "de_article": "die",
-    "de_plural": "die Autopanne",
+    "de_plural": "die Autopannen",
     "lv": "auto bojājums • kļūme",
     "level": "A2"
   },
@@ -10765,7 +10763,6 @@ const A2_WORDS = [
   {
     "de": "Badminton",
     "de_article": "das",
-    "de_plural": "die Badmintons",
     "lv": "badmintons",
     "level": "A2"
   },
@@ -11155,7 +11152,9 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "das Band",
+    "de": "Band",
+    "de_article": "das",
+    "de_plural": "die Bänder",
     "lv": "lente • saite",
     "level": "A2",
     "study": {
@@ -11580,7 +11579,9 @@ const A2_WORDS = [
     }
   },
   {
-    "de": "die Bank",
+    "de": "Bank",
+    "de_article": "die",
+    "de_plural": "die Banken",
     "lv": "banka • sols • sēklis",
     "level": "A2",
     "study": {
@@ -12050,7 +12051,6 @@ const A2_WORDS = [
   {
     "de": "Bargeld",
     "de_article": "das",
-    "de_plural": "die Bargelde",
     "lv": "skaidra nauda",
     "level": "A2"
   },
@@ -12085,7 +12085,6 @@ const A2_WORDS = [
   {
     "de": "Bauchweh",
     "de_article": "das",
-    "de_plural": "die Bauchwehe",
     "lv": "vēdersāpes",
     "level": "A2"
   },
@@ -13911,7 +13910,6 @@ const A2_WORDS = [
   {
     "de": "Beginn",
     "de_article": "der",
-    "de_plural": "die Beginne",
     "lv": "sākums • iesākums",
     "level": "A2"
   },
@@ -15193,7 +15191,7 @@ const A2_WORDS = [
   {
     "de": "Bekannte",
     "de_article": "der",
-    "de_plural": "die Bekannte",
+    "de_plural": "die Bekannten",
     "lv": "paziņa",
     "level": "A2"
   },
@@ -15220,7 +15218,6 @@ const A2_WORDS = [
   {
     "de": "Benzin",
     "de_article": "das",
-    "de_plural": "die Benzine",
     "lv": "benzīns",
     "level": "A2"
   },
@@ -16816,7 +16813,6 @@ const A2_WORDS = [
   {
     "de": "Blumenkohl",
     "de_article": "der",
-    "de_plural": "die Blumenkohle",
     "lv": "ziedkāposti",
     "level": "A2"
   },
@@ -16851,7 +16847,6 @@ const A2_WORDS = [
   {
     "de": "Blut",
     "de_article": "das",
-    "de_plural": "die Blute",
     "lv": "asinis",
     "level": "A2"
   },
@@ -17319,7 +17314,6 @@ const A2_WORDS = [
   {
     "de": "Bootfahren",
     "de_article": "das",
-    "de_plural": "die Bootfahrens",
     "lv": "braukšana ar laivu",
     "level": "A2"
   },
@@ -18047,7 +18041,6 @@ const A2_WORDS = [
   {
     "de": "Boxen",
     "de_article": "das",
-    "de_plural": "die Boxens",
     "lv": "boksēties • bokss",
     "level": "A2"
   },
@@ -18068,7 +18061,6 @@ const A2_WORDS = [
   {
     "de": "Bratkartoffeln",
     "de_article": "die",
-    "de_plural": "die Bratkartoffelns",
     "lv": "cepti kartupeļi",
     "level": "A2"
   },
@@ -18502,7 +18494,9 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "die Bremse",
+    "de": "Bremse",
+    "de_article": "die",
+    "de_plural": "die Bremsen",
     "lv": "bremze • dundurs",
     "level": "A2"
   },
@@ -18860,7 +18854,7 @@ const A2_WORDS = [
   {
     "de": "Brotschnitte",
     "de_article": "die",
-    "de_plural": "die Brotschnitte",
+    "de_plural": "die Brotschnitten",
     "lv": "maizes šķēle",
     "level": "A2"
   },
@@ -18896,7 +18890,9 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "der Buntstift",
+    "de": "Buntstift",
+    "de_article": "der",
+    "de_plural": "die Buntstifte",
     "lv": "krāsainais zīmulis",
     "level": "A2"
   },
@@ -18929,7 +18925,9 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "die Chance",
+    "de": "Chance",
+    "de_article": "die",
+    "de_plural": "die Chancen",
     "lv": "iespēja • izredzes • izdevība",
     "level": "A2"
   },
@@ -18943,7 +18941,6 @@ const A2_WORDS = [
   {
     "de": "Chemie",
     "de_article": "die",
-    "de_plural": "die Chemien",
     "lv": "ķīmija",
     "level": "A2"
   },
@@ -18978,7 +18975,6 @@ const A2_WORDS = [
   {
     "de": "Cornflakes",
     "de_article": "die",
-    "de_plural": "die Cornflakese",
     "lv": "kukurūzas pārslas",
     "level": "A2"
   },
@@ -20230,12 +20226,12 @@ const A2_WORDS = [
   {
     "de": "Dank",
     "de_article": "der",
-    "lv": "Pateicība • Paldies",
+    "lv": "pateicība • paldies",
     "level": "A2",
     "study": {
       "id": "study-der-dank",
       "layout": "standardStudy",
-      "translation": "Pateicība • Paldies",
+      "translation": "pateicība • paldies",
       "explanation": [
         "Galvenā doma: der Dank ir lietvārds un nozīmē pateicību kā jēdzienu.",
         "Biežāk sastopamās frāzes ir Vielen Dank! un Herzlichen Dank! — tās nozīmē „liels paldies!” un „sirsnīgs paldies!”.",
@@ -23410,12 +23406,16 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "der/das Paprika",
+    "de": "Paprika",
+    "de_article": "der",
+    "de_plural": "die Paprikas",
     "lv": "paprika",
     "level": "A2"
   },
   {
-    "de": "der/die Jugendliche",
+    "de": "Jugendliche",
+    "de_article": "der",
+    "de_plural": "die Jugendlichen",
     "lv": "jaunietis",
     "level": "A2"
   },
@@ -23798,7 +23798,6 @@ const A2_WORDS = [
   {
     "de": "Dill",
     "de_article": "der",
-    "de_plural": "die Dille",
     "lv": "dilles",
     "level": "A2"
   },
@@ -24653,7 +24652,9 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "das Dorf",
+    "de": "Dorf",
+    "de_article": "das",
+    "de_plural": "die Dörfer",
     "lv": "ciems",
     "level": "A2"
   },
@@ -27159,7 +27160,6 @@ const A2_WORDS = [
   {
     "de": "Eile",
     "de_article": "die",
-    "de_plural": "die Eile",
     "lv": "steiga",
     "level": "A2"
   },
@@ -27181,7 +27181,9 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "der Eingang",
+    "de": "Eingang",
+    "de_article": "der",
+    "de_plural": "die Eingänge",
     "lv": "ieeja",
     "level": "A2"
   },
@@ -27191,12 +27193,16 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "der Einkauf",
+    "de": "Einkauf",
+    "de_article": "der",
+    "de_plural": "die Einkäufe",
     "lv": "iepirkšanās • pirkums",
     "level": "A2"
   },
   {
-    "de": "das Einkaufszentrum",
+    "de": "Einkaufszentrum",
+    "de_article": "das",
+    "de_plural": "die Einkaufszentren",
     "lv": "tirdzniecības centrs",
     "level": "A2"
   },
@@ -29045,7 +29051,9 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "der Einwohner",
+    "de": "Einwohner",
+    "de_article": "der",
+    "de_plural": "die Einwohner",
     "lv": "iedzīvotājs",
     "level": "A2"
   },
@@ -29055,7 +29063,9 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "die Eisenbahn",
+    "de": "Eisenbahn",
+    "de_article": "die",
+    "de_plural": "die Eisenbahnen",
     "lv": "dzelzceļš",
     "level": "A2"
   },
@@ -29067,7 +29077,9 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "der Eiskaffee",
+    "de": "Eiskaffee",
+    "de_article": "der",
+    "de_plural": "die Eiskaffees",
     "lv": "kafija ar saldējumu",
     "level": "A2"
   },
@@ -29128,7 +29140,9 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "die Ente",
+    "de": "Ente",
+    "de_article": "die",
+    "de_plural": "die Enten",
     "lv": "pīle",
     "level": "A2"
   },
@@ -29148,7 +29162,9 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "das Erdgeschoss",
+    "de": "Erdgeschoss",
+    "de_article": "das",
+    "de_plural": "die Erdgeschosse",
     "lv": "pirmais stāvs",
     "level": "A2"
   },
@@ -29503,7 +29519,9 @@ const A2_WORDS = [
     }
   },
   {
-    "de": "der Erfolg",
+    "de": "Erfolg",
+    "de_article": "der",
+    "de_plural": "die Erfolge",
     "lv": "panākumi",
     "level": "A2"
   },
@@ -29886,7 +29904,9 @@ const A2_WORDS = [
     }
   },
   {
-    "de": "die Erinnerung",
+    "de": "Erinnerung",
+    "de_article": "die",
+    "de_plural": "die Erinnerungen",
     "lv": "atmiņa • piemiņa",
     "level": "A2"
   },
@@ -29984,7 +30004,7 @@ const A2_WORDS = [
   {
     "de": "Etikett",
     "de_article": "das",
-    "de_plural": "die Etikette",
+    "de_plural": "die Etiketten",
     "lv": "preces etiķete",
     "level": "A2"
   },
@@ -30399,7 +30419,9 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "die Fabrik",
+    "de": "Fabrik",
+    "de_article": "die",
+    "de_plural": "die Fabriken",
     "lv": "rūpnīca • fabrika",
     "level": "A2"
   },
@@ -30918,7 +30940,9 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "die Fähre",
+    "de": "Fähre",
+    "de_article": "die",
+    "de_plural": "die Fähren",
     "lv": "prāmis",
     "level": "A2"
   },
@@ -30930,7 +30954,9 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "der Fahrgast",
+    "de": "Fahrgast",
+    "de_article": "der",
+    "de_plural": "die Fahrgäste",
     "lv": "pasažieris",
     "level": "A2"
   },
@@ -30951,7 +30977,7 @@ const A2_WORDS = [
   {
     "de": "Fahrtreppe",
     "de_article": "die",
-    "de_plural": "die Fahrtreppe",
+    "de_plural": "die Fahrtreppen",
     "lv": "eskalators",
     "level": "A2"
   },
@@ -31450,7 +31476,6 @@ const A2_WORDS = [
   {
     "de": "Familienstand",
     "de_article": "der",
-    "de_plural": "die Familienstande",
     "lv": "ģimenes stāvoklis",
     "level": "A2"
   },
@@ -31912,12 +31937,16 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "das Feld",
+    "de": "Feld",
+    "de_article": "das",
+    "de_plural": "die Felder",
     "lv": "lauks",
     "level": "A2"
   },
   {
-    "de": "das Fell",
+    "de": "Fell",
+    "de_article": "das",
+    "de_plural": "die Felle",
     "lv": "kažoks • kažokāda",
     "level": "A2"
   },
@@ -31953,10 +31982,8 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "Fest",
-    "de_article": "das",
-    "de_plural": "die Feste",
-    "lv": "ciets • svētki • svinības",
+    "de": "fest",
+    "lv": "ciets",
     "level": "A2",
     "study": {
       "id": "a2-fest",
@@ -34411,7 +34438,6 @@ const A2_WORDS = [
   {
     "de": "Gebäck",
     "de_article": "das",
-    "de_plural": "die Gebäcke",
     "lv": "cepumi • konditorejas izstrādājumi",
     "level": "A2"
   },
@@ -36986,7 +37012,6 @@ const A2_WORDS = [
   {
     "de": "Gold",
     "de_article": "das",
-    "de_plural": "die Golde",
     "lv": "zelts",
     "level": "A2"
   },
@@ -37537,7 +37562,6 @@ const A2_WORDS = [
   {
     "de": "Gymnastik",
     "de_article": "die",
-    "de_plural": "die Gymnastiken",
     "lv": "vingrošana",
     "level": "A2"
   },
@@ -37558,14 +37582,13 @@ const A2_WORDS = [
   {
     "de": "Haarspange",
     "de_article": "die",
-    "de_plural": "die Haarspange",
+    "de_plural": "die Haarspangen",
     "lv": "matu sprādze",
     "level": "A2"
   },
   {
     "de": "Hackfleisch",
     "de_article": "das",
-    "de_plural": "die Hackfleische",
     "lv": "malta gaļa",
     "level": "A2"
   },
@@ -37579,7 +37602,6 @@ const A2_WORDS = [
   {
     "de": "Haferflocken",
     "de_article": "die",
-    "de_plural": "die Haferflockens",
     "lv": "auzu pārslas",
     "level": "A2"
   },
@@ -37654,7 +37676,6 @@ const A2_WORDS = [
   {
     "de": "Handgepäck",
     "de_article": "das",
-    "de_plural": "die Handgepäcke",
     "lv": "rokas bagāža",
     "level": "A2"
   },
@@ -38688,7 +38709,7 @@ const A2_WORDS = [
   {
     "de": "Home-page",
     "de_article": "die",
-    "de_plural": "die Home-page",
+    "de_plural": "die Home-pages",
     "lv": "interneta mājas lapa",
     "level": "A2"
   },
@@ -38723,28 +38744,24 @@ const A2_WORDS = [
   {
     "de": "Humor",
     "de_article": "der",
-    "de_plural": "die Humore",
     "lv": "humors",
     "level": "A2"
   },
   {
     "de": "Hundefutter",
     "de_article": "das",
-    "de_plural": "die Hundefutters",
     "lv": "suņu barība",
     "level": "A2"
   },
   {
     "de": "Hundegebell",
     "de_article": "das",
-    "de_plural": "die Hundegebells",
     "lv": "suņa rejas",
     "level": "A2"
   },
   {
     "de": "Hundehaare",
     "de_article": "die",
-    "de_plural": "die Hundehaare",
     "lv": "suņa spalva",
     "level": "A2"
   },
@@ -38781,8 +38798,7 @@ const A2_WORDS = [
   {
     "de": "Husten",
     "de_article": "der",
-    "de_plural": "die Husten",
-    "lv": "klepot • klepus",
+    "lv": "klepus",
     "level": "A2"
   },
   {
@@ -39209,7 +39225,6 @@ const A2_WORDS = [
   {
     "de": "Jazz",
     "de_article": "der",
-    "de_plural": "die Jazze",
     "lv": "džezs",
     "level": "A2"
   },
@@ -39515,14 +39530,13 @@ const A2_WORDS = [
   {
     "de": "Jogging",
     "de_article": "das",
-    "de_plural": "die Jogginge",
     "lv": "lēns skrējiens",
     "level": "A2"
   },
   {
     "de": "Joghurt / Jogurt",
     "de_article": "der",
-    "de_plural": "die Joghurt / Jogurts",
+    "de_plural": "die Joghurts / Jogurts",
     "lv": "jogurts",
     "level": "A2"
   },
@@ -39536,13 +39550,7 @@ const A2_WORDS = [
   {
     "de": "Jugend",
     "de_article": "die",
-    "de_plural": "die Jugende",
     "lv": "jaunatne",
-    "level": "A2"
-  },
-  {
-    "de": "jugendliche",
-    "lv": "jaunietis",
     "level": "A2"
   },
   {
@@ -39637,7 +39645,6 @@ const A2_WORDS = [
   {
     "de": "Kälte",
     "de_article": "die",
-    "de_plural": "die Kälte",
     "lv": "aukstums",
     "level": "A2"
   },
@@ -40031,7 +40038,6 @@ const A2_WORDS = [
   {
     "de": "Karate",
     "de_article": "das",
-    "de_plural": "die Karate",
     "lv": "karatē",
     "level": "A2"
   },
@@ -42373,7 +42379,6 @@ const A2_WORDS = [
   {
     "de": "Kopfschmerzen",
     "de_article": "die",
-    "de_plural": "die Kopfschmerzens",
     "lv": "galvassāpes",
     "level": "A2"
   },
@@ -43252,7 +43257,7 @@ const A2_WORDS = [
   {
     "de": "Kraftrad",
     "de_article": "das",
-    "de_plural": "die Kraftrade",
+    "de_plural": "die Krafträder",
     "lv": "motocikls",
     "level": "A2"
   },
@@ -44024,7 +44029,6 @@ const A2_WORDS = [
   {
     "de": "Langeweile",
     "de_article": "die",
-    "de_plural": "die Langeweile",
     "lv": "garlaicība",
     "level": "A2"
   },
@@ -44036,7 +44040,6 @@ const A2_WORDS = [
   {
     "de": "Lärm",
     "de_article": "der",
-    "de_plural": "die Lärms",
     "lv": "troksnis",
     "level": "A2"
   },
@@ -44108,14 +44111,11 @@ const A2_WORDS = [
   {
     "de": "Leid",
     "de_article": "das",
-    "de_plural": "die Leide",
-    "lv": "žēl",
+    "lv": "ciešanas • bēdas",
     "level": "A2"
   },
   {
-    "de": "Leiden",
-    "de_article": "das",
-    "de_plural": "die Leiden",
+    "de": "leiden",
     "lv": "ciest",
     "level": "A2",
     "study": {
@@ -45808,7 +45808,6 @@ const A2_WORDS = [
   {
     "de": "Medizin",
     "de_article": "die",
-    "de_plural": "die Medizinen",
     "lv": "medicīna",
     "level": "A2"
   },
@@ -47048,7 +47047,6 @@ const A2_WORDS = [
   {
     "de": "Mut",
     "de_article": "der",
-    "de_plural": "die Muts",
     "lv": "drosme",
     "level": "A2"
   },
@@ -47317,7 +47315,6 @@ const A2_WORDS = [
   {
     "de": "Nahrung",
     "de_article": "die",
-    "de_plural": "die Nahrungen",
     "lv": "pārtika",
     "level": "A2"
   },
@@ -47403,7 +47400,6 @@ const A2_WORDS = [
   {
     "de": "Neujahr",
     "de_article": "das",
-    "de_plural": "die Neujahrs",
     "lv": "jaungads",
     "level": "A2"
   },
@@ -47459,7 +47455,6 @@ const A2_WORDS = [
   {
     "de": "Norden",
     "de_article": "der",
-    "de_plural": "die Nordens",
     "lv": "ziemeļi",
     "level": "A2"
   },
@@ -47944,7 +47939,6 @@ const A2_WORDS = [
   {
     "de": "Nudeln",
     "de_article": "die",
-    "de_plural": "die Nudelns",
     "lv": "nūdeles",
     "level": "A2"
   },
@@ -47997,9 +47991,7 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "Nutzen",
-    "de_article": "der",
-    "de_plural": "die Nutzen",
+    "de": "nutzen",
     "lv": "izmantot",
     "level": "A2",
     "study": {
@@ -48684,7 +48676,7 @@ const A2_WORDS = [
     "de": "Orange",
     "de_article": "die",
     "de_plural": "die Orangen",
-    "lv": "oranžs",
+    "lv": "apelsīns",
     "level": "A2"
   },
   {
@@ -48714,7 +48706,6 @@ const A2_WORDS = [
   {
     "de": "Osten",
     "de_article": "der",
-    "de_plural": "die Ostens",
     "lv": "austrumi",
     "level": "A2"
   },
@@ -49089,7 +49080,6 @@ const A2_WORDS = [
   {
     "de": "Pech",
     "de_article": "das",
-    "de_plural": "die Peche",
     "lv": "neveiksme",
     "level": "A2"
   },
@@ -49108,7 +49098,6 @@ const A2_WORDS = [
   {
     "de": "Personal",
     "de_article": "das",
-    "de_plural": "die Personals",
     "lv": "iestādes vai firmas viss personāls",
     "level": "A2"
   },
@@ -49752,7 +49741,6 @@ const A2_WORDS = [
   {
     "de": "Publikum",
     "de_article": "das",
-    "de_plural": "die Publika",
     "lv": "publika",
     "level": "A2"
   },
@@ -49792,7 +49780,6 @@ const A2_WORDS = [
   {
     "de": "Quark",
     "de_article": "der",
-    "de_plural": "die Quarke",
     "lv": "biezpiens",
     "level": "A2"
   },
@@ -50091,7 +50078,6 @@ const A2_WORDS = [
   {
     "de": "Rahm",
     "de_article": "der",
-    "de_plural": "die Rahms",
     "lv": "krējums salds",
     "level": "A2"
   },
@@ -50415,7 +50401,6 @@ const A2_WORDS = [
   {
     "de": "Rauch",
     "de_article": "der",
-    "de_plural": "die Rauche",
     "lv": "dūmi",
     "level": "A2"
   },
@@ -50724,13 +50709,12 @@ const A2_WORDS = [
     "de": "Recht",
     "de_article": "das",
     "de_plural": "die Rechte",
-    "lv": "pareizs • tiesības",
+    "lv": "tiesības",
     "level": "A2"
   },
   {
     "de": "Rechte",
     "de_article": "die",
-    "de_plural": "die Rechte",
     "lv": "labā roka",
     "level": "A2"
   },
@@ -50785,7 +50769,7 @@ const A2_WORDS = [
     "de": "Reich",
     "de_article": "das",
     "de_plural": "die Reiche",
-    "lv": "bagāts",
+    "lv": "valsts • impērija • karaliste",
     "level": "A2"
   },
   {
@@ -51160,7 +51144,7 @@ const A2_WORDS = [
     "de": "Rennen",
     "de_article": "das",
     "de_plural": "die Rennen",
-    "lv": "skriet",
+    "lv": "skrējiens • sacīkstes",
     "level": "A2"
   },
   {
@@ -51590,7 +51574,6 @@ const A2_WORDS = [
   {
     "de": "Rindfleisch",
     "de_article": "das",
-    "de_plural": "die Rindfleische",
     "lv": "liellopu vērša gaļa",
     "level": "A2"
   },
@@ -52117,7 +52100,6 @@ const A2_WORDS = [
   {
     "de": "Rundfunk",
     "de_article": "der",
-    "de_plural": "die Rundfunke",
     "lv": "radio",
     "level": "A2"
   },
@@ -52150,7 +52132,6 @@ const A2_WORDS = [
   {
     "de": "Sahne",
     "de_article": "die",
-    "de_plural": "die Sahne",
     "lv": "krējums",
     "level": "A2"
   },
@@ -52502,7 +52483,6 @@ const A2_WORDS = [
   {
     "de": "Sand",
     "de_article": "der",
-    "de_plural": "die Sande",
     "lv": "smiltis",
     "level": "A2"
   },
@@ -53025,14 +53005,12 @@ const A2_WORDS = [
   {
     "de": "Sauerkraut",
     "de_article": "das",
-    "de_plural": "die Sauerkrauts",
     "lv": "skābēti kāposti",
     "level": "A2"
   },
   {
     "de": "Saure Sahne",
     "de_article": "die",
-    "de_plural": "die Saure Sahne",
     "lv": "skābs krējums",
     "level": "A2"
   },
@@ -53044,7 +53022,6 @@ const A2_WORDS = [
   {
     "de": "Schach",
     "de_article": "das",
-    "de_plural": "die Schachs",
     "lv": "šahs",
     "level": "A2"
   },
@@ -53061,9 +53038,7 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "Schaffen",
-    "de_article": "das",
-    "de_plural": "die Schaffens",
+    "de": "schaffen",
     "lv": "paveikt",
     "level": "A2"
   },
@@ -53868,7 +53843,6 @@ const A2_WORDS = [
   {
     "de": "Schlaf",
     "de_article": "der",
-    "de_plural": "die Schlafe",
     "lv": "miegs",
     "level": "A2"
   },
@@ -55173,7 +55147,6 @@ const A2_WORDS = [
   {
     "de": "Schmutz",
     "de_article": "der",
-    "de_plural": "die Schmutze",
     "lv": "netīrumi",
     "level": "A2"
   },
@@ -55719,14 +55692,12 @@ const A2_WORDS = [
   {
     "de": "Schweinefleisch",
     "de_article": "das",
-    "de_plural": "die Schweinefleische",
     "lv": "cūkgaļa",
     "level": "A2"
   },
   {
     "de": "Schweiß",
     "de_article": "der",
-    "de_plural": "die Schweiße",
     "lv": "sviedri",
     "level": "A2"
   },
@@ -55776,7 +55747,6 @@ const A2_WORDS = [
   {
     "de": "Seilspringen",
     "de_article": "das",
-    "de_plural": "die Seilspringens",
     "lv": "lēkšana ar lecamauklu",
     "level": "A2"
   },
@@ -55812,7 +55782,6 @@ const A2_WORDS = [
   {
     "de": "Senf",
     "de_article": "der",
-    "de_plural": "die Senfe",
     "lv": "sinepes",
     "level": "A2"
   },
@@ -55858,7 +55827,6 @@ const A2_WORDS = [
   {
     "de": "Shorts",
     "de_article": "die",
-    "de_plural": "die Shortse",
     "lv": "šorti",
     "level": "A2"
   },
@@ -56696,7 +56664,6 @@ const A2_WORDS = [
   {
     "de": "Silber",
     "de_article": "das",
-    "de_plural": "die Silbers",
     "lv": "sudrabs",
     "level": "A2"
   },
@@ -57473,7 +57440,6 @@ const A2_WORDS = [
   {
     "de": "Sonnenschein",
     "de_article": "der",
-    "de_plural": "die Sonnenscheins",
     "lv": "saules gaisma",
     "level": "A2"
   },
@@ -57967,14 +57933,12 @@ const A2_WORDS = [
   {
     "de": "Speck",
     "de_article": "der",
-    "de_plural": "die Specke",
     "lv": "speķis",
     "level": "A2"
   },
   {
     "de": "Speiseeis",
     "de_article": "das",
-    "de_plural": "die Speiseeise",
     "lv": "saldējums",
     "level": "A2"
   },
@@ -58105,7 +58069,6 @@ const A2_WORDS = [
   {
     "de": "Staub",
     "de_article": "der",
-    "de_plural": "die Stäube",
     "lv": "putekļi",
     "level": "A2"
   },
@@ -60094,7 +60057,6 @@ const A2_WORDS = [
   {
     "de": "Straßenverkehr",
     "de_article": "der",
-    "de_plural": "die Straßenverkehrs",
     "lv": "ielu satiksme",
     "level": "A2"
   },
@@ -60150,7 +60112,6 @@ const A2_WORDS = [
   {
     "de": "Süden",
     "de_article": "der",
-    "de_plural": "die Südens",
     "lv": "dienvidi",
     "level": "A2"
   },
@@ -60178,7 +60139,6 @@ const A2_WORDS = [
   {
     "de": "Tabak",
     "de_article": "der",
-    "de_plural": "die Tabake",
     "lv": "tabaka",
     "level": "A2"
   },
@@ -61995,7 +61955,6 @@ const A2_WORDS = [
   {
     "de": "Tischtennis",
     "de_article": "das",
-    "de_plural": "die Tischtense",
     "lv": "galda teniss",
     "level": "A2"
   },
@@ -62009,7 +61968,6 @@ const A2_WORDS = [
   {
     "de": "Tod",
     "de_article": "der",
-    "de_plural": "die Tode",
     "lv": "nāve",
     "level": "A2"
   },
@@ -62302,9 +62260,7 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "Treffen",
-    "de_article": "das",
-    "de_plural": "die Treffen",
+    "de": "treffen",
     "lv": "satikt",
     "level": "A2",
     "study": {
@@ -65012,7 +64968,7 @@ const A2_WORDS = [
     "de": "Versprechen",
     "de_article": "das",
     "de_plural": "die Versprechen",
-    "lv": "apsolīt",
+    "lv": "solījums",
     "level": "A2"
   },
   {
@@ -66025,7 +65981,7 @@ const A2_WORDS = [
   {
     "de": "Wagen",
     "de_article": "der",
-    "de_plural": "die Wagens",
+    "de_plural": "die Wagen",
     "lv": "automašīna • vagons",
     "level": "A2"
   },
@@ -67210,7 +67166,6 @@ const A2_WORDS = [
   {
     "de": "Wärme",
     "de_article": "die",
-    "de_plural": "die Wärme",
     "lv": "siltums",
     "level": "A2"
   },
@@ -67651,7 +67606,7 @@ const A2_WORDS = [
     "de": "Weg",
     "de_article": "der",
     "de_plural": "die Wege",
-    "lv": "prom",
+    "lv": "ceļš",
     "level": "A2"
   },
   {
@@ -68110,7 +68065,6 @@ const A2_WORDS = [
   {
     "de": "Westen",
     "de_article": "der",
-    "de_plural": "die Westens",
     "lv": "rietumi",
     "level": "A2"
   },
@@ -68513,14 +68467,12 @@ const A2_WORDS = [
   {
     "de": "Wild",
     "de_article": "das",
-    "de_plural": "die Wilde",
-    "lv": "mežonīgs • savvaļas",
+    "lv": "medījums",
     "level": "A2"
   },
   {
-    "de": "Willen",
+    "de": "Wille",
     "de_article": "der",
-    "de_plural": "die Willen",
     "lv": "griba",
     "level": "A2"
   },
