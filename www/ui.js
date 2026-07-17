@@ -4692,6 +4692,18 @@ function cardMatchScore(entry, queryKeys, rawQuery = "") {
   return capCaseMismatchScore(entry, parsed, capArticleMismatchScore(entry, parsed, score));
 }
 
+function preferExactGermanHomograph(entries, parsed, fallback) {
+  if (!parsed?.word || parsed.hasArticle || /\s/.test(parsed.word)) return fallback;
+
+  const exactDeMatches = entries.filter((entry) => String(entry.de || "") === parsed.word);
+  if (exactDeMatches.length === 1) return exactDeMatches[0];
+
+  const formattedMatches = entries.filter((entry) => formatGermanEntry(entry) === parsed.raw);
+  if (formattedMatches.length === 1) return formattedMatches[0];
+
+  return fallback;
+}
+
 function resolveSearchCard(entry) {
   if (!entry) return null;
   const targetId = entry.id || entry.study?.id;
@@ -4741,7 +4753,7 @@ function findCardByQuery(query) {
     }
   }
 
-  return bestScore > 0 ? resolveSearchCard(best) : null;
+  return bestScore > 0 ? resolveSearchCard(preferExactGermanHomograph(orderedEntries, parsedQuery, best)) : null;
 }
 
 function showStudyCardNotFoundMessage() {
