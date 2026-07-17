@@ -55,6 +55,45 @@ function isGermanArticleToken(value) { return /^(der|die|das)$/i.test(String(val
 function splitCardSearchSegments(value) { return String(value || "").split(/\s*[•|/]\s*/).map((p) => p.trim()).filter(Boolean); }
 function splitLvSearchAlternatives(value) { return String(value || "").split(/\s*[•;|/]\s*/).map((p) => p.trim()).filter(Boolean); }
 function stripGermanArticle(value) { return String(value || "").replace(/^(der|die|das)\s+/i, "").trim(); }
+function parseGermanSearchQuery(rawQuery) {
+  const raw = decodeCardQuery(rawQuery)
+    .replace(/[•|/]+/g, " ")
+    .replace(/[-_]+/g, " ")
+    .replace(/\s+/g, " ")
+    .replace(/[!?.…]+$/g, "")
+    .trim();
+  const articleMatch = raw.match(/^(der|die|das)\s+(.+)$/i);
+  if (articleMatch) {
+    return { raw, article: articleMatch[1].toLowerCase(), word: articleMatch[2].trim(), hasArticle: true };
+  }
+  return { raw, article: null, word: raw, hasArticle: false };
+}
+function germanEntryExactMatchScore(entry, parsed) {
+  if (!parsed?.raw) return 0;
+  const de = String(entry.de || "").trim();
+  const article = String(entry.de_article || "").trim().toLowerCase();
+  const formatted = formatGermanEntry(entry);
+  if (formatted === parsed.raw || de === parsed.raw) return 100;
+  if (parsed.hasArticle) {
+    if (article === parsed.article && de === parsed.word) return 100;
+    if (article === parsed.article && de.toLowerCase() === parsed.word.toLowerCase()) {
+      return de === parsed.word ? 99 : 90;
+    }
+    return 0;
+  }
+  if (de === parsed.word) return 98;
+  return 0;
+}
+function capArticleMismatchScore(entry, parsed, score) {
+  if (!parsed?.hasArticle || score <= 0) return score;
+  const entryArticle = String(entry.de_article || "").trim().toLowerCase();
+  if (entryArticle === parsed.article) return score;
+  const entryWord = String(entry.de || "").trim();
+  if (entryWord && parsed.word && entryWord.toLowerCase() === parsed.word.toLowerCase()) {
+    return Math.min(score, 70);
+  }
+  return score;
+}
 function cardSearchKeys(value) {
   const decoded = decodeCardQuery(value);
   const parts = new Set();
@@ -119,7 +158,8 @@ function cardSearchCandidates(entry) {
 }
 function cardMatchScore(entry, queryKeys, rawQuery = "") {
   const study = entry.study || {};
-  let score = 0;
+  const parsed = parseGermanSearchQuery(rawQuery);
+  let score = germanEntryExactMatchScore(entry, parsed);
   const bump = (v, p) => { if (cardSearchKeysMatch(queryKeys, v)) score = Math.max(score, p); };
   bump(entry.id, 100); bump(study.id, 100); bump(formatGermanEntry(entry), 96); bump(entry.de, 94);
   const fullLv = String(entry.lv || "").trim();
@@ -132,7 +172,7 @@ function cardMatchScore(entry, queryKeys, rawQuery = "") {
   for (const alt of splitLvSearchAlternatives(entry.lv)) bump(alt, 86);
   for (const ex of study.examples || []) bump(ex.de, 68);
   if (!score) for (const c of cardSearchCandidates(entry)) bump(c, 50);
-  return score;
+  return capArticleMismatchScore(entry, parsed, score);
 }
 function norm(e) {
   const o = { id: e.id || e.study?.id, de: e.de, lv: e.lv, level: e.level || "A1", study: e.study || null };
@@ -166,6 +206,11 @@ const cases = [
   ["a1-die-jeans", "Jeans"],
   ["stehen", "stehen"],
   ["der Keks", "Keks"],
+  ["die Bitte", "Bitte"],
+  ["bitte", "bitte"],
+  ["Bitte", "Bitte"],
+  ["lūdzu", "bitte"],
+  ["lūgums", "Bitte"],
 ];
 
 let fail = 0;

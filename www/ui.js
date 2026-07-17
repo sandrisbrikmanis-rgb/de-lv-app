@@ -3864,6 +3864,69 @@ function stripGermanArticle(value) {
   return String(value || "").replace(/^(der|die|das)\s+/i, "").trim();
 }
 
+function parseGermanSearchQuery(rawQuery) {
+  const raw = decodeCardQuery(rawQuery)
+    .replace(/[•|/]+/g, " ")
+    .replace(/[-_]+/g, " ")
+    .replace(/\s+/g, " ")
+    .replace(/[!?.…]+$/g, "")
+    .trim();
+  const articleMatch = raw.match(/^(der|die|das)\s+(.+)$/i);
+  if (articleMatch) {
+    return {
+      raw,
+      article: articleMatch[1].toLowerCase(),
+      word: articleMatch[2].trim(),
+      hasArticle: true,
+    };
+  }
+  return {
+    raw,
+    article: null,
+    word: raw,
+    hasArticle: false,
+  };
+}
+
+function germanEntryExactMatchScore(entry, parsed) {
+  if (!parsed?.raw) return 0;
+
+  const de = String(entry.de || "").trim();
+  const article = String(entry.de_article || "").trim().toLowerCase();
+  const formatted = formatGermanEntry(entry);
+
+  if (formatted === parsed.raw || de === parsed.raw) return 100;
+
+  if (parsed.hasArticle) {
+    if (article === parsed.article && de === parsed.word) return 100;
+    if (article === parsed.article && de.toLowerCase() === parsed.word.toLowerCase()) {
+      return de === parsed.word ? 99 : 90;
+    }
+    return 0;
+  }
+
+  if (de === parsed.word) return 98;
+  return 0;
+}
+
+function capArticleMismatchScore(entry, parsed, score) {
+  if (!parsed?.hasArticle || score <= 0) return score;
+
+  const entryArticle = String(entry.de_article || "").trim().toLowerCase();
+  if (entryArticle === parsed.article) return score;
+
+  const entryWord = String(entry.de || "").trim();
+  if (
+    entryWord
+    && parsed.word
+    && entryWord.toLowerCase() === parsed.word.toLowerCase()
+  ) {
+    return Math.min(score, 70);
+  }
+
+  return score;
+}
+
 function formatGermanEntry(entry) {
   const de = String(entry?.de || "").trim();
   if (!de) return "";
@@ -4559,7 +4622,8 @@ function cardSearchCandidates(entry) {
 
 function cardMatchScore(entry, queryKeys, rawQuery = "") {
   const study = entry.study || {};
-  let score = 0;
+  const parsed = parseGermanSearchQuery(rawQuery);
+  let score = germanEntryExactMatchScore(entry, parsed);
   const bump = (value, points) => {
     if (cardSearchKeysMatch(queryKeys, value)) score = Math.max(score, points);
   };
@@ -4615,7 +4679,7 @@ function cardMatchScore(entry, queryKeys, rawQuery = "") {
     }
   }
 
-  return score;
+  return capArticleMismatchScore(entry, parsed, score);
 }
 
 function resolveSearchCard(entry) {
