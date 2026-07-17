@@ -3927,6 +3927,16 @@ function capArticleMismatchScore(entry, parsed, score) {
   return score;
 }
 
+function capCaseMismatchScore(entry, parsed, score) {
+  if (!parsed?.word || parsed.hasArticle) return score;
+
+  const de = String(entry.de || "").trim();
+  if (!de || de === parsed.word) return score;
+  if (de.toLowerCase() !== parsed.word.toLowerCase()) return score;
+
+  return Math.min(score, 70);
+}
+
 function formatGermanEntry(entry) {
   const de = String(entry?.de || "").trim();
   if (!de) return "";
@@ -4679,7 +4689,7 @@ function cardMatchScore(entry, queryKeys, rawQuery = "") {
     }
   }
 
-  return capArticleMismatchScore(entry, parsed, score);
+  return capCaseMismatchScore(entry, parsed, capArticleMismatchScore(entry, parsed, score));
 }
 
 function resolveSearchCard(entry) {
@@ -4714,9 +4724,18 @@ function findCardByQuery(query) {
 
   let best = null;
   let bestScore = 0;
+  const parsedQuery = parseGermanSearchQuery(decodedQuery);
   for (const entry of orderedEntries) {
     const score = cardMatchScore(entry, queryKeys, decodedQuery);
-    if (score > bestScore) {
+    const exactScore = germanEntryExactMatchScore(entry, parsedQuery);
+    if (
+      score > bestScore
+      || (
+        score === bestScore
+        && score > 0
+        && exactScore > germanEntryExactMatchScore(best, parsedQuery)
+      )
+    ) {
       bestScore = score;
       best = entry;
     }

@@ -94,6 +94,13 @@ function capArticleMismatchScore(entry, parsed, score) {
   }
   return score;
 }
+function capCaseMismatchScore(entry, parsed, score) {
+  if (!parsed?.word || parsed.hasArticle) return score;
+  const de = String(entry.de || "").trim();
+  if (!de || de === parsed.word) return score;
+  if (de.toLowerCase() !== parsed.word.toLowerCase()) return score;
+  return Math.min(score, 70);
+}
 function cardSearchKeys(value) {
   const decoded = decodeCardQuery(value);
   const parts = new Set();
@@ -172,7 +179,7 @@ function cardMatchScore(entry, queryKeys, rawQuery = "") {
   for (const alt of splitLvSearchAlternatives(entry.lv)) bump(alt, 86);
   for (const ex of study.examples || []) bump(ex.de, 68);
   if (!score) for (const c of cardSearchCandidates(entry)) bump(c, 50);
-  return capArticleMismatchScore(entry, parsed, score);
+  return capCaseMismatchScore(entry, parsed, capArticleMismatchScore(entry, parsed, score));
 }
 function norm(e) {
   const o = { id: e.id || e.study?.id, de: e.de, lv: e.lv, level: e.level || "A1", study: e.study || null };
@@ -187,10 +194,15 @@ const all = flashcards.map(norm).filter((e) => e.de && e.lv);
 
 function find(q) {
   const qk = cardSearchKeys(q);
+  const parsed = parseGermanSearchQuery(q);
   let best = null, bestScore = 0;
   for (const e of all) {
     const s = cardMatchScore(e, qk, q);
-    if (s > bestScore) { bestScore = s; best = e; }
+    const exact = germanEntryExactMatchScore(e, parsed);
+    if (s > bestScore || (s === bestScore && s > 0 && exact > germanEntryExactMatchScore(best, parsed))) {
+      bestScore = s;
+      best = e;
+    }
   }
   return bestScore > 0 ? best : null;
 }
@@ -211,6 +223,9 @@ const cases = [
   ["Bitte", "Bitte"],
   ["lūdzu", "bitte"],
   ["lūgums", "Bitte"],
+  ["essen", "essen"],
+  ["Essen", "Essen"],
+  ["das Essen", "Essen"],
 ];
 
 let fail = 0;
