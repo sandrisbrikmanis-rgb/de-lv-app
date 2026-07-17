@@ -3736,13 +3736,13 @@ const A1_WORDS = [
   },
   {
     "de": "das",
-    "lv": "tas",
+    "lv": "vidus dzimtes noteiktais artikuls",
     "level": "A1",
     "study": {
       "id": "a1-das",
       "layout": "standardStudy",
-      "translation": "tas",
-      "explanation": "Var būt artikuls, norādāmais vietniekvārds vai relatīvais vietniekvārds.",
+      "translation": "vidus dzimtes noteiktais artikuls",
+      "explanation": "Lieto pie vidus dzimtes lietvārdiem. Dažos teikumos “das” var darboties arī kā vietniekvārds vai relatīvais vietniekvārds.",
       "examples": [
         {
           "de": "Das ist mein Auto.",
@@ -3775,7 +3775,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: tas/artikuls → das; ka → dass."
+        "text": "Atceries: vidus dzimte → das; ka → dass."
       },
       "sectionAccents": {
         "examples": [
@@ -3847,15 +3847,11 @@ const A1_WORDS = [
             "blue": [
               "das"
             ],
+            "purple": [
+              "vidus dzimte"
+            ],
             "red": [
               "dass"
-            ],
-            "purple": [
-              "tas",
-              "ka"
-            ],
-            "yellow": [
-              "artikuls"
             ]
           }
         },
@@ -3864,8 +3860,8 @@ const A1_WORDS = [
             "blue": [
               "das"
             ],
-            "red": [
-              "dass"
+            "purple": [
+              "vidus dzimtes artikulu"
             ]
           },
           {
@@ -3873,11 +3869,8 @@ const A1_WORDS = [
               "das"
             ],
             "purple": [
-              "tas",
-              "ka"
-            ],
-            "yellow": [
-              "artikuls"
+              "artikuls",
+              "vietniekvārds"
             ],
             "red": [
               "dass"
@@ -3886,8 +3879,8 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "das nav tas pats, kas dass.",
-        "das var būt artikuls vai “tas”; dass nozīmē “ka”."
+        "A1 līmenī das vispirms mācies kā vidus dzimtes artikulu.",
+        "das nav tas pats, kas dass — das var būt artikuls vai vietniekvārds, dass nozīmē “ka”."
       ]
     }
   },
@@ -7329,12 +7322,12 @@ const A1_WORDS = [
   },
   {
     "de": "haben",
-    "lv": "man ir • būt",
+    "lv": "man ir",
     "level": "A1",
     "study": {
       "id": "a1-haben",
       "layout": "standardStudy",
-      "translation": "man ir • būt",
+      "translation": "man ir",
       "explanation": [
         "Galvenā doma: haben nozīmē, ka kādam kaut kas ir.",
         "Latviski ļoti bieži tulko ar “man ir”, “tev ir”, “viņam ir”.",
@@ -7362,7 +7355,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "haben",
-          "meaning": "būt kādam / man ir",
+          "meaning": "man ir",
           "example": "Ich habe Zeit. = Man ir laiks."
         },
         {
@@ -16138,7 +16131,7 @@ const A1_WORDS = [
         },
         {
           "word": "haben",
-          "meaning": "būt kādam / man ir",
+          "meaning": "man ir",
           "example": "Ich habe Zeit."
         },
         {
@@ -17385,12 +17378,12 @@ const A1_WORDS = [
   },
   {
     "de": "sollen",
-    "lv": "vajadzēt",
+    "lv": "vajadzētu",
     "level": "A1",
     "study": {
       "id": "a1-sollen",
       "layout": "standardStudy",
-      "translation": "vajadzēt",
+      "translation": "vajadzētu",
       "explanation": [
         "Galvenā doma: sollen nozīmē, ka kādam vajadzētu vai ir jādara kaut kas pēc norādes.",
         "sollen bieži lieto, ja kāds cits saka, ko darīt.",
@@ -19896,8 +19889,6 @@ const A1_WORDS = [
   },
   {
     "de": "Weihnachten",
-    "de_article": "das",
-    "de_plural": "die Weihnachten",
     "lv": "ziemassvētki",
     "level": "A1"
   },
