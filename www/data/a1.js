@@ -21701,7 +21701,7 @@ const A1_WORDS = [
       "explanation": [
         "Galvenā doma: Sajūta, ka gribas ēst. tikai vienskaitlis — nav daudzskaitļa.",
         "der Appetit galvenokārt nozīmē: vēlme ēst.",
-        "Bieži raksturo: sajūtu (tikai vienskaitlī).",
+        "Raksturo sajūtu (tikai vienskaitlī).",
         "der Appetit ir tikai vienskaitlis — ēstgriba.",
         "A1 līmenī tie bieži nāk kopā, piemēram: Guten Appetit!"
       ],
@@ -21711,23 +21711,18 @@ const A1_WORDS = [
           "lv": "Labu apetīti!"
         },
         {
-          "de": "Guten Appetit!",
-          "lv": "labu apetīti!"
-        },
-        {
           "de": "Ich habe keinen Appetit.",
-          "lv": "man nav apetītes."
+          "lv": "Man nav apetītes."
         }
       ],
       "tip": [
         "der Appetit = apetīte",
-        "Izmanto der Appetit, kad konteksts atbilst šai nozīmei."
+        "Lieto 'der Appetit', ja konteksts atbilst šai nozīmei."
       ],
       "important": [
         "der Appetit ir tikai vienskaitlī.",
         "Nepareizi: die Appetite → Pareizi: der Appetit",
-        "Nepareizi: Ich bin Appetit. → Pareizi: Ich habe Appetit.",
-        "Sajūta: der Appetit."
+        "Nepareizi: Ich bin Appetit. → Pareizi: Ich habe Appetit."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21744,32 +21739,6 @@ const A1_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {
-              "blue": [
-                "der Appetit",
-                "appetit"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "ēstgriba"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "der Appetit",
-                "appetit"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "ēstgriba"
-              ]
-            }
-          },
           {
             "de": {
               "blue": [
