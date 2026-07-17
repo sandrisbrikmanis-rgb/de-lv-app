@@ -1704,7 +1704,7 @@ const A1_WORDS = [
   {
     "de": "Augenfarbe",
     "de_article": "die",
-    "de_plural": "die Augenfarbe",
+    "de_plural": "die Augenfarben",
     "lv": "acu krāsa",
     "level": "A1"
   },
@@ -2616,6 +2616,8 @@ const A1_WORDS = [
   },
   {
     "de": "Bitte",
+    "de_article": "die",
+    "de_plural": "die Bitten",
     "lv": "lūgums",
     "level": "A1",
     "study": {
@@ -2778,8 +2780,7 @@ const A1_WORDS = [
           }
         ]
       }
-    },
-    "de_article": "die"
+    }
   },
   {
     "de": "billig",
@@ -3736,13 +3737,13 @@ const A1_WORDS = [
   },
   {
     "de": "das",
-    "lv": "tas",
+    "lv": "vidus dzimtes noteiktais artikuls",
     "level": "A1",
     "study": {
       "id": "a1-das",
       "layout": "standardStudy",
-      "translation": "tas",
-      "explanation": "Var būt artikuls, norādāmais vietniekvārds vai relatīvais vietniekvārds.",
+      "translation": "vidus dzimtes noteiktais artikuls",
+      "explanation": "Lieto pie vidus dzimtes lietvārdiem. Dažos teikumos “das” var darboties arī kā vietniekvārds vai relatīvais vietniekvārds.",
       "examples": [
         {
           "de": "Das ist mein Auto.",
@@ -3775,7 +3776,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: tas/artikuls → das; ka → dass."
+        "text": "Atceries: vidus dzimte → das; ka → dass."
       },
       "sectionAccents": {
         "examples": [
@@ -3847,15 +3848,11 @@ const A1_WORDS = [
             "blue": [
               "das"
             ],
+            "purple": [
+              "vidus dzimte"
+            ],
             "red": [
               "dass"
-            ],
-            "purple": [
-              "tas",
-              "ka"
-            ],
-            "yellow": [
-              "artikuls"
             ]
           }
         },
@@ -3864,8 +3861,8 @@ const A1_WORDS = [
             "blue": [
               "das"
             ],
-            "red": [
-              "dass"
+            "purple": [
+              "vidus dzimtes artikulu"
             ]
           },
           {
@@ -3873,11 +3870,8 @@ const A1_WORDS = [
               "das"
             ],
             "purple": [
-              "tas",
-              "ka"
-            ],
-            "yellow": [
-              "artikuls"
+              "artikuls",
+              "vietniekvārds"
             ],
             "red": [
               "dass"
@@ -3886,8 +3880,8 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "das nav tas pats, kas dass.",
-        "das var būt artikuls vai “tas”; dass nozīmē “ka”."
+        "A1 līmenī das vispirms mācies kā vidus dzimtes artikulu.",
+        "das nav tas pats, kas dass — das var būt artikuls vai vietniekvārds, dass nozīmē “ka”."
       ]
     }
   },
@@ -4872,11 +4866,6 @@ const A1_WORDS = [
     "level": "A1"
   },
   {
-    "de": "einmal",
-    "lv": "vienreiz",
-    "level": "A1"
-  },
-  {
     "de": "eins",
     "lv": "viens",
     "level": "A1"
@@ -5170,7 +5159,7 @@ const A1_WORDS = [
   {
     "de": "Eltern",
     "de_article": "die",
-    "lv": "Vecāki",
+    "lv": "vecāki",
     "level": "A1"
   },
   {
@@ -7165,7 +7154,7 @@ const A1_WORDS = [
   {
     "de": "Geschwister",
     "de_article": "die",
-    "lv": "Brāļi un māsas",
+    "lv": "brāļi un māsas",
     "level": "A1"
   },
   {
@@ -7236,7 +7225,7 @@ const A1_WORDS = [
   {
     "de": "Gramm",
     "de_article": "das",
-    "de_plural": "die Gramme",
+    "de_plural": "die Gramm",
     "lv": "grams",
     "level": "A1"
   },
@@ -7329,12 +7318,12 @@ const A1_WORDS = [
   },
   {
     "de": "haben",
-    "lv": "man ir • būt",
+    "lv": "man ir",
     "level": "A1",
     "study": {
       "id": "a1-haben",
       "layout": "standardStudy",
-      "translation": "man ir • būt",
+      "translation": "man ir",
       "explanation": [
         "Galvenā doma: haben nozīmē, ka kādam kaut kas ir.",
         "Latviski ļoti bieži tulko ar “man ir”, “tev ir”, “viņam ir”.",
@@ -7362,7 +7351,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "haben",
-          "meaning": "būt kādam / man ir",
+          "meaning": "man ir",
           "example": "Ich habe Zeit. = Man ir laiks."
         },
         {
@@ -10915,6 +10904,8 @@ const A1_WORDS = [
   },
   {
     "de": "Laut",
+    "de_article": "der",
+    "de_plural": "die Laute",
     "lv": "skaņa",
     "level": "A1",
     "study": {
@@ -11077,8 +11068,7 @@ const A1_WORDS = [
           }
         ]
       }
-    },
-    "de_article": "der"
+    }
   },
   {
     "de": "leben",
@@ -11410,7 +11400,6 @@ const A1_WORDS = [
   {
     "de": "Leute",
     "de_article": "die",
-    "de_plural": "die Leute",
     "lv": "ļaudis",
     "level": "A1"
   },
@@ -11429,7 +11418,6 @@ const A1_WORDS = [
   {
     "de": "Liebe",
     "de_article": "die",
-    "de_plural": "die Lieben",
     "lv": "mīlestība",
     "level": "A1"
   },
@@ -11725,7 +11713,7 @@ const A1_WORDS = [
   },
   {
     "de": "links",
-    "lv": "Pa kreisi • Kreisais",
+    "lv": "pa kreisi • kreisais",
     "level": "A1"
   },
   {
@@ -12965,6 +12953,7 @@ const A1_WORDS = [
   },
   {
     "de": "Morgen",
+    "de_article": "der",
     "lv": "rīts",
     "level": "A1",
     "study": {
@@ -13126,8 +13115,7 @@ const A1_WORDS = [
           }
         ]
       }
-    },
-    "de_article": "der"
+    }
   },
   {
     "de": "morgens",
@@ -13680,7 +13668,6 @@ const A1_WORDS = [
   {
     "de": "Natur",
     "de_article": "die",
-    "de_plural": "die Naturen",
     "lv": "daba",
     "level": "A1"
   },
@@ -14042,13 +14029,6 @@ const A1_WORDS = [
     "de": "November",
     "de_article": "der",
     "lv": "novembris",
-    "level": "A1"
-  },
-  {
-    "de": "Null",
-    "de_article": "die",
-    "de_plural": "die Nullen",
-    "lv": "nulle",
     "level": "A1"
   },
   {
@@ -14610,13 +14590,6 @@ const A1_WORDS = [
     "level": "A1"
   },
   {
-    "de": "Paar",
-    "de_article": "das",
-    "de_plural": "die Paare",
-    "lv": "pāris",
-    "level": "A1"
-  },
-  {
     "de": "Papier",
     "de_article": "das",
     "de_plural": "die Papiere",
@@ -14931,7 +14904,6 @@ const A1_WORDS = [
   {
     "de": "Polizei",
     "de_article": "die",
-    "de_plural": "die Polizeien",
     "lv": "policija",
     "level": "A1"
   },
@@ -15241,7 +15213,7 @@ const A1_WORDS = [
     "level": "A1"
   },
   {
-    "de": "rad fahren",
+    "de": "Rad fahren",
     "lv": "braukt ar divriteni",
     "level": "A1"
   },
@@ -15259,7 +15231,7 @@ const A1_WORDS = [
   },
   {
     "de": "rechts",
-    "lv": "Pa labi • Labais",
+    "lv": "pa labi • labais",
     "level": "A1"
   },
   {
@@ -15490,7 +15462,6 @@ const A1_WORDS = [
   {
     "de": "Schnee",
     "de_article": "der",
-    "de_plural": "die Schnee",
     "lv": "sniegs",
     "level": "A1"
   },
@@ -16138,7 +16109,7 @@ const A1_WORDS = [
         },
         {
           "word": "haben",
-          "meaning": "būt kādam / man ir",
+          "meaning": "man ir",
           "example": "Ich habe Zeit."
         },
         {
@@ -17385,12 +17356,12 @@ const A1_WORDS = [
   },
   {
     "de": "sollen",
-    "lv": "vajadzēt",
+    "lv": "vajadzētu",
     "level": "A1",
     "study": {
       "id": "a1-sollen",
       "layout": "standardStudy",
-      "translation": "vajadzēt",
+      "translation": "vajadzētu",
       "explanation": [
         "Galvenā doma: sollen nozīmē, ka kādam vajadzētu vai ir jādara kaut kas pēc norādes.",
         "sollen bieži lieto, ja kāds cits saka, ko darīt.",
@@ -19896,8 +19867,6 @@ const A1_WORDS = [
   },
   {
     "de": "Weihnachten",
-    "de_article": "das",
-    "de_plural": "die Weihnachten",
     "lv": "ziemassvētki",
     "level": "A1"
   },
@@ -20407,7 +20376,6 @@ const A1_WORDS = [
   {
     "de": "Wetter",
     "de_article": "das",
-    "de_plural": "die Wetter",
     "lv": "laiks",
     "level": "A1"
   },
@@ -20708,7 +20676,6 @@ const A1_WORDS = [
   {
     "de": "Zucker",
     "de_article": "der",
-    "de_plural": "die Zucker",
     "lv": "cukurs",
     "level": "A1"
   },
@@ -21528,6 +21495,7 @@ const A1_WORDS = [
   },
   {
     "de": "Fernsehen",
+    "de_article": "das",
     "lv": "televīzija",
     "level": "A1",
     "study": {
@@ -21687,11 +21655,11 @@ const A1_WORDS = [
           }
         ]
       }
-    },
-    "de_article": "das"
+    }
   },
   {
     "de": "Appetit",
+    "de_article": "der",
     "lv": "ēstgriba",
     "level": "A1",
     "study": {
@@ -21812,8 +21780,7 @@ const A1_WORDS = [
           }
         ]
       }
-    },
-    "de_article": "der"
+    }
   },
   {
     "de": "essen",
@@ -21981,6 +21948,7 @@ const A1_WORDS = [
   },
   {
     "de": "Essen",
+    "de_article": "das",
     "lv": "ēdiens • maltīte",
     "level": "A1",
     "study": {
@@ -22152,11 +22120,11 @@ const A1_WORDS = [
           }
         ]
       }
-    },
-    "de_article": "das"
+    }
   },
   {
     "de": "Gemüse",
+    "de_article": "das",
     "lv": "dārzeņi",
     "level": "A1",
     "study": {
@@ -22311,11 +22279,11 @@ const A1_WORDS = [
           }
         ]
       }
-    },
-    "de_article": "das"
+    }
   },
   {
     "de": "Obst",
+    "de_article": "das",
     "lv": "augļi",
     "level": "A1",
     "study": {
@@ -22452,11 +22420,11 @@ const A1_WORDS = [
           }
         ]
       }
-    },
-    "de_article": "das"
+    }
   },
   {
     "de": "Ferien",
+    "de_article": "die",
     "lv": "brīvdienas (skola)",
     "level": "A1",
     "study": {
@@ -22614,11 +22582,11 @@ const A1_WORDS = [
           }
         ]
       }
-    },
-    "de_article": "die"
+    }
   },
   {
     "de": "Urlaub",
+    "de_article": "der",
     "lv": "atvaļinājums",
     "level": "A1",
     "study": {
@@ -22771,11 +22739,12 @@ const A1_WORDS = [
           }
         ]
       }
-    },
-    "de_article": "der"
+    }
   },
   {
     "de": "Stadt",
+    "de_article": "die",
+    "de_plural": "die Städte",
     "lv": "pilsēta",
     "level": "A1",
     "study": {
@@ -22922,11 +22891,12 @@ const A1_WORDS = [
           }
         ]
       }
-    },
-    "de_article": "die"
+    }
   },
   {
     "de": "Staat",
+    "de_article": "der",
+    "de_plural": "die Staaten",
     "lv": "valsts",
     "level": "A1",
     "study": {
@@ -23073,11 +23043,12 @@ const A1_WORDS = [
           }
         ]
       }
-    },
-    "de_article": "der"
+    }
   },
   {
     "de": "Uhr",
+    "de_article": "die",
+    "de_plural": "die Uhren",
     "lv": "pulkstenis",
     "level": "A1",
     "study": {
@@ -23228,11 +23199,12 @@ const A1_WORDS = [
           }
         ]
       }
-    },
-    "de_article": "die"
+    }
   },
   {
     "de": "Zeit",
+    "de_article": "die",
+    "de_plural": "die Zeiten",
     "lv": "laiks",
     "level": "A1",
     "study": {
@@ -23353,8 +23325,7 @@ const A1_WORDS = [
           }
         ]
       }
-    },
-    "de_article": "die"
+    }
   },
   {
     "de": "einmal",
