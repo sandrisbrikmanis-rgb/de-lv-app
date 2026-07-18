@@ -1,107 +1,3 @@
-const COURSE_LESSONS = [
-  {
-    id: "lesson1",
-    title: "Lekcija 1",
-    pronunciation: [],
-    grammar: [],
-    verbs: [],
-    sentenceStructure: [],
-    exercises: []
-  },
-  {
-    id: "lesson2",
-    title: "Lekcija 2",
-    pronunciation: [],
-    grammar: [],
-    verbs: [],
-    sentenceStructure: [],
-    exercises: []
-  },
-  {
-    id: "lesson3",
-    title: "Lekcija 3",
-    pronunciation: [],
-    grammar: [],
-    verbs: [],
-    sentenceStructure: [],
-    exercises: []
-  },
-  {
-    id: "lesson4",
-    title: "Lekcija 4",
-    pronunciation: [],
-    grammar: [],
-    verbs: [],
-    sentenceStructure: [],
-    exercises: []
-  },
-  {
-    id: "lesson5",
-    title: "Lekcija 5",
-    pronunciation: [],
-    grammar: [],
-    verbs: [],
-    sentenceStructure: [],
-    exercises: []
-  },
-  {
-    id: "lesson6",
-    title: "Lekcija 6",
-    pronunciation: [],
-    grammar: [],
-    verbs: [],
-    sentenceStructure: [],
-    exercises: []
-  },
-  {
-    id: "lesson7",
-    title: "Lekcija 7",
-    pronunciation: [],
-    grammar: [],
-    verbs: [],
-    sentenceStructure: [],
-    exercises: []
-  },
-  {
-    id: "lesson8",
-    title: "Lekcija 8",
-    pronunciation: [],
-    grammar: [],
-    verbs: [],
-    sentenceStructure: [],
-    exercises: []
-  },
-  {
-    id: "lesson9",
-    title: "Lekcija 9",
-    pronunciation: [],
-    grammar: [],
-    verbs: [],
-    sentenceStructure: [],
-    exercises: []
-  },
-  {
-    id: "lesson10",
-    title: "Lekcija 10",
-    pronunciation: [],
-    grammar: [],
-    verbs: [],
-    sentenceStructure: [],
-    exercises: []
-  },
-  {
-    id: "lesson11",
-    title: "Lekcija 11",
-    pronunciation: [],
-    grammar: [],
-    verbs: [],
-    sentenceStructure: [],
-    exercises: []
-  }
-];
-
-
-
 const COURSE_LESSON_HTML = {
   "kurssArticlesLesson": "\n  <h3>Artikuli</h3>\n\n  <div class=\"artikuli-info artikuli-intro-info\">\n    <span class=\"artikuli-info-icon\">i</span>\n    <div>Vācu artikuls ne vienmēr sakrīt ar latviešu dzimti. Tāpēc lietvārdus vislabāk mācīties kopā ar artikulu.</div>\n  </div>\n\n  <section class=\"artikuli-block\">\n    <h4 class=\"artikuli-header\"><span>•</span>Artikulu piemēri</h4>\n    <div class=\"artikuli-grid\">\n      <div class=\"kurss-example\">der Tisch — galds</div>\n      <div class=\"kurss-example\">die Tür — durvis</div>\n      <div class=\"kurss-example\">das Messer — nazis</div>\n      <div class=\"kurss-example\">das Mädchen — meitene</div>\n    </div>\n  </section>\n\n  <section class=\"artikuli-block\">\n    <h4 class=\"artikuli-header\"><span>♂</span>Bieži DER</h4>\n    <p class=\"artikuli-explain\">DER bieži ir vīriešu personas, dienas, mēneši, gadalaiki un daži vārdi ar noteiktām galotnēm.</p>\n\n    <h5 class=\"artikuli-subtitle\">Noteikumi</h5>\n    <div class=\"artikuli-grid\">\n      <div class=\"kurss-example\">-er → bieži DER, piemēram: der Computer, der Lehrer <span class=\"artikuli-note\">bet ne vienmēr</span></div>\n      <div class=\"kurss-example\">-ling → bieži DER, piemēram: der Schmetterling</div>\n      <div class=\"kurss-example\">-ismus → bieži DER, piemēram: der Tourismus, der Kapitalismus</div>\n      <div class=\"kurss-example\">vīriešu personas → der Mann, der Vater</div>\n      <div class=\"kurss-example\">profesijas → der Lehrer, der Arzt</div>\n      <div class=\"kurss-example\">automobiļu markas → der BMW, der Mercedes</div>\n      <div class=\"kurss-example\">dienas → der Montag, der Dienstag</div>\n      <div class=\"kurss-example\">mēneši → der August, der Dezember</div>\n      <div class=\"kurss-example\">gadalaiki → der Sommer, der Winter</div>\n    </div>\n\n    <h5 class=\"artikuli-subtitle\">Piemēri</h5>\n    <div class=\"artikuli-grid\">\n      <div class=\"kurss-example\">der Mann — vīrietis</div>\n      <div class=\"kurss-example\">der Vater — tēvs</div>\n      <div class=\"kurss-example\">der Montag — pirmdiena</div>\n      <div class=\"kurss-example\">der August — augusts</div>\n      <div class=\"kurss-example\">der Sommer — vasara</div>\n      <div class=\"kurss-example\">der Lehrer — skolotājs</div>\n      <div class=\"kurss-example\">der Computer — dators</div>\n      <div class=\"kurss-example\">der Schmetterling — taurenis</div>\n    </div>\n  </section>\n\n  <section class=\"artikuli-block\">\n    <h4 class=\"artikuli-header\"><span>♀</span>Bieži DIE</h4>\n    <p class=\"artikuli-explain\">DIE bieži ir sieviešu personas, daudzskaitlis un vārdi ar galotnēm -ung, -heit, -keit, -schaft, -ion, -tät, -ei.</p>\n\n    <h5 class=\"artikuli-subtitle\">Noteikumi</h5>\n    <div class=\"artikuli-grid\">\n      <div class=\"kurss-example\">-ung → die Wohnung, die Rechnung</div>\n      <div class=\"kurss-example\">-heit → die Freiheit, die Gesundheit</div>\n      <div class=\"kurss-example\">-keit → die Möglichkeit</div>\n      <div class=\"kurss-example\">-schaft → die Mannschaft</div>\n      <div class=\"kurss-example\">-ion → die Nation</div>\n      <div class=\"kurss-example\">-tät → die Universität</div>\n      <div class=\"kurss-example\">-ei → die Polizei, die Bäckerei</div>\n      <div class=\"kurss-example\">sieviešu personas → die Frau, die Mutter</div>\n      <div class=\"kurss-example\">motociklu markas → die Harley-Davidson, die Yamaha</div>\n      <div class=\"kurss-example\">daudzskaitlis → die Autos, die Häuser</div>\n      <div class=\"kurss-example\">daudzskaitlis gandrīz vienmēr → die Autos, die Häuser, die Kinder</div>\n    </div>\n\n    <h5 class=\"artikuli-subtitle\">Piemēri</h5>\n    <div class=\"artikuli-grid\">\n      <div class=\"kurss-example\">die Frau — sieviete</div>\n      <div class=\"kurss-example\">die Mutter — māte</div>\n      <div class=\"kurss-example\">die Wohnung — dzīvoklis</div>\n      <div class=\"kurss-example\">die Rechnung — rēķins</div>\n      <div class=\"kurss-example\">die Freiheit — brīvība</div>\n      <div class=\"kurss-example\">die Möglichkeit — iespēja</div>\n      <div class=\"kurss-example\">die Mannschaft — komanda</div>\n      <div class=\"kurss-example\">die Nation — nācija</div>\n      <div class=\"kurss-example\">die Universität — universitāte</div>\n      <div class=\"kurss-example\">die Polizei — policija</div>\n    </div>\n  </section>\n\n  <section class=\"artikuli-block\">\n    <h4 class=\"artikuli-header\"><span>◇</span>Bieži DAS</h4>\n    <p class=\"artikuli-explain\">DAS bieži ir pamazināmie ar -chen / -lein, daudzi vārdi ar -ment / -um un darbības vārdi kā lietvārdi.</p>\n\n    <h5 class=\"artikuli-subtitle\">Noteikumi</h5>\n    <div class=\"artikuli-grid\">\n      <div class=\"kurss-example\">-chen → das Mädchen, das Häuschen</div>\n      <div class=\"kurss-example\">-lein → das Fräulein</div>\n      <div class=\"kurss-example\">-ment → das Instrument</div>\n      <div class=\"kurss-example\">-um → das Zentrum, das Museum</div>\n      <div class=\"kurss-example\">metāli → das Gold, das Silber, das Eisen</div>\n      <div class=\"kurss-example\">ķīmiskie elementi → das Eisen, das Sauerstoff</div>\n      <div class=\"kurss-example\">viesnīcas → das Hotel</div>\n      <div class=\"kurss-example\">krāsas kā lietvārdi → das Rot, das Blau</div>\n      <div class=\"kurss-example\">darbības vārds kā lietvārds → das Essen, das Lernen</div>\n      <div class=\"kurss-example\">darbības vārdi kā lietvārdi → das Essen, das Lernen, das Lesen</div>\n    </div>\n\n    <h5 class=\"artikuli-subtitle\">Piemēri</h5>\n    <div class=\"artikuli-grid\">\n      <div class=\"kurss-example\">das Kind — bērns</div>\n      <div class=\"kurss-example\">das Mädchen — meitene</div>\n      <div class=\"kurss-example\">das Häuschen — mājiņa</div>\n      <div class=\"kurss-example\">das Instrument — instruments</div>\n      <div class=\"kurss-example\">das Zentrum — centrs</div>\n      <div class=\"kurss-example\">das Museum — muzejs</div>\n      <div class=\"kurss-example\">das Essen — ēšana / ēdiens</div>\n      <div class=\"kurss-example\">das Lernen — mācīšanās</div>\n    </div>\n  </section>\n\n  <section class=\"artikuli-block\">\n    <h4 class=\"artikuli-header\"><span>!</span>Svarīgi izņēmumi / jāiemācās ar artikulu</h4>\n    <p class=\"artikuli-explain\">Dažiem vārdiem artikulu nevar droši noteikt pēc galotnes vai latviešu dzimtes. Tos vislabāk mācīties kopā ar artikulu.</p>\n    <div class=\"artikuli-grid\">\n      <div class=\"kurss-example\">die Tür — durvis</div>\n      <div class=\"kurss-example\">das Messer — nazis</div>\n      <div class=\"kurss-example\">die Sonne — saule</div>\n      <div class=\"kurss-example\">der Mond — mēness</div>\n      <div class=\"kurss-example\">das Mädchen — meitene</div>\n      <div class=\"kurss-example\">das Auto — automašīna</div>\n      <div class=\"kurss-example\">der Käse — siers</div>\n      <div class=\"kurss-example\">die Gabel — dakša</div>\n    </div>\n  </section>\n\n  <div class=\"artikuli-info artikuli-bottom-info\">\n    <span class=\"artikuli-info-icon\">i</span>\n    <div>Galotnes un vārdu grupas palīdz uzminēt artikulu, bet tās nav 100% drošs likums. Ja neesi pārliecināts, mācies vārdu kopā ar artikulu.</div>\n  </div>\n",
   "kurssPronounsLesson": "\n            <h3>Vietniekvārdi</h3>\n            <p class=\"kurss-lesson-intro\">Nominativ, Akkusativ un Dativ — vietniekvārdu formas.</p>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Nominativ — kas?</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">ich — es</div><div class=\"kurss-example\">du — tu</div><div class=\"kurss-example\">er — viņš</div><div class=\"kurss-example\">sie — viņa</div><div class=\"kurss-example\">es — tas</div><div class=\"kurss-example\">wir — mēs</div><div class=\"kurss-example\">ihr — jūs</div><div class=\"kurss-example\">sie — viņi / viņas</div><div class=\"kurss-example\">Sie — Jūs (pieklājības)</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Akkusativ — ko?</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">mich — mani</div><div class=\"kurss-example\">dich — tevi</div><div class=\"kurss-example\">ihn — viņu (v.)</div><div class=\"kurss-example\">sie — viņu (s.)</div><div class=\"kurss-example\">es — to</div><div class=\"kurss-example\">uns — mūs</div><div class=\"kurss-example\">euch — jūs</div><div class=\"kurss-example\">sie — viņus / viņas</div><div class=\"kurss-example\">Sie — Jūs (pieklājības)</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Dativ — kam?</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">mir — man</div><div class=\"kurss-example\">dir — tev</div><div class=\"kurss-example\">ihm — viņam / tam</div><div class=\"kurss-example\">ihr — viņai</div><div class=\"kurss-example\">uns — mums</div><div class=\"kurss-example\">euch — jums</div><div class=\"kurss-example\">ihnen — viņiem / viņām</div><div class=\"kurss-example\">Ihnen — Jums (pieklājības)</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Kā izvēlēties formu?</h4>\n              <ul class=\"kurss-summary-list\"><li><span class=\"case-blue\">Nominativ</span> — teikuma priekšmets (kas dara?)</li><li><span class=\"case-red\">Akkusativ</span> — tiešais objekts (ko?)</li><li><span class=\"case-green\">Dativ</span> — netiešais objekts (kam?)</li></ul>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Piemēri</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Ich sehe <span class=\"case-red\">dich</span>. — Es tevi redzu.</div><div class=\"kurss-example\">Ich sehe <span class=\"case-red\">ihn</span>. — Es viņu redzu.</div><div class=\"kurss-example\">Wir mögen <span class=\"case-red\">euch</span>. — Mums jūs patīkat.</div><div class=\"kurss-example\">Ich helfe <span class=\"case-green\">dir</span>. — Es tev palīdzu.</div><div class=\"kurss-example\">Ich gebe <span class=\"case-green\">ihm</span> ein Buch. — Es dodu viņam grāmatu.</div><div class=\"kurss-example\">Wir danken <span class=\"case-green\">euch</span>. — Mēs jums pateicamies.</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Atceries!</h4>\n              <p>Nominativ vienmēr ir teikuma priekšmets, bet Akkusativ un Dativ — objekti. Skaties uz darbības vārdu un jautā: <span class=\"case-red\">ko?</span> vai <span class=\"case-green\">kam?</span></p>\n            </section>\n",
@@ -380,7 +276,7 @@ const COURSE_LESSON_DATA = {
           "Daudziem darbības vārdiem ar patskani e celmā vienskaitļa 2. un 3. personā tagadnē e vietā ir i vai ie.",
           "sprechen — ich spreche, du sprichst, er spricht.",
           "geben — ich gebe, du gibst, er gibt.",
-          "essen — ich esse, du ißt, er ißt.",
+          "essen — ich esse, du isst, er isst.",
           "nehmen — ich nehme, du nimmst, er nimmt.",
           "lesen — ich lese, du liest, er liest.",
           "sehen — ich sehe, du siehst, er sieht.",
@@ -1329,15 +1225,15 @@ const COURSE_LESSON_DATA = {
           {
             heading: "Kein — vienskaitlis",
             table: [
-              ["Nom.", "kein", "keine", "kein"],
-              ["Akk.", "keinen", "keine", "kein"]
+              ["Nominativ", "kein", "keine", "kein"],
+              ["Akkusativ", "keinen", "keine", "kein"]
             ]
           },
           {
             heading: "Kein — daudzskaitlis",
             table: [
-              ["Nom.", "keine"],
-              ["Akk.", "keine"]
+              ["Nominativ", "keine"],
+              ["Akkusativ", "keine"]
             ]
           },
           {
@@ -1611,13 +1507,13 @@ const COURSE_LESSON_DATA = {
     intro: "Četrpadsmitā lekcija: modālie darbības vārdi müssen, wollen un mögen.",
     sections: [
       { title: "Teksts / Lasīšana", items: [
-        "Ich muß lernen, denn ich will vorwärts kommen.",
-        "Du mußt lernen, denn du willst vorwärts kommen.",
-        "Er muß lernen, denn er will vorwärts kommen.",
-        "Sie muß lernen, denn sie will vorwärts kommen.",
-        "Es muß lernen, denn es will vorwärts kommen.",
+        "Ich muss lernen, denn ich will vorwärts kommen.",
+        "Du musst lernen, denn du willst vorwärts kommen.",
+        "Er muss lernen, denn er will vorwärts kommen.",
+        "Sie muss lernen, denn sie will vorwärts kommen.",
+        "Es muss lernen, denn es will vorwärts kommen.",
         "Wir müssen lernen, denn wir wollen vorwärts kommen.",
-        "Ihr müßt lernen, denn ihr wollt vorwärts kommen.",
+        "Ihr müsst lernen, denn ihr wollt vorwärts kommen.",
         "Sie müssen lernen, denn sie wollen vorwärts kommen.",
         "Ich mag die Suppe nicht essen, denn sie mundet mir nicht.",
         "Du magst die Suppe nicht essen, denn sie mundet dir nicht.",
@@ -1629,27 +1525,27 @@ const COURSE_LESSON_DATA = {
         "Sie mögen die Suppe nicht essen, denn sie mundet ihnen nicht."
       ] },
       { title: "Vārdiņi", items: [
-        "müssen — vajadzēt / būt jādara", "ich muß — man vajag / man jādara", "du mußt — tev vajag / tev jādara", "er muß — viņam vajag / viņam jādara", "sie muß — viņai vajag / viņai jādara", "es muß — tam vajag / tam jādara", "wir müssen — mums vajag / mums jādara", "ihr müßt — jums vajag / jums jādara", "sie müssen — viņiem / viņām vajag",
+        "müssen — vajadzēt / būt jādara", "ich muss — man vajag / man jādara", "du musst — tev vajag / tev jādara", "er muss — viņam vajag / viņam jādara", "sie muss — viņai vajag / viņai jādara", "es muss — tam vajag / tam jādara", "wir müssen — mums vajag / mums jādara", "ihr müsst — jums vajag / jums jādara", "sie müssen — viņiem / viņām vajag",
         "lernen — mācīties", "vorwärts — uz priekšu", "vorwärts kommen — tikt uz priekšu", "wollen — gribēt", "ich will — es gribu", "du willst — tu gribi", "er will — viņš grib", "sie will — viņa grib", "es will — tas grib", "wir wollen — mēs gribam", "ihr wollt — jūs gribat", "sie wollen — viņi / viņas grib",
         "mögen — gribēt / vēlēties / patikt", "ich mag — es gribu / man patīk", "du magst — tu gribi / tev patīk", "er mag — viņš grib / viņam patīk", "sie mag — viņa grib / viņai patīk", "es mag — tas grib / tam patīk", "wir mögen — mēs gribam", "ihr mögt — jūs gribat", "sie mögen — viņi / viņas grib",
         "die Suppe — zupa", "munden — labi garšot", "mir — man", "dir — tev", "ihm — viņam", "ihr — viņai", "uns — mums", "euch — jums", "ihnen — viņiem / viņām", "denn — jo"
       ] },
       { title: "Gramatika", items: [
         { heading: "Modālie darbības vārdi", text: "Darbības vārdi müssen, wollen un mögen ir modālie darbības vārdi." },
-        { heading: "1. un 3. persona vienskaitlī", text: "Tagadnes vienskaitlī 1. un 3. persona ir vienāda.", examples: ["ich muß", "er muß", "ich will", "er will", "ich mag", "er mag"] },
-        { heading: "Müssen", examples: ["ich muß", "du mußt", "er/sie/es muß", "wir müssen", "ihr müßt", "sie müssen"] },
+        { heading: "1. un 3. persona vienskaitlī", text: "Tagadnes vienskaitlī 1. un 3. persona ir vienāda.", examples: ["ich muss", "er muss", "ich will", "er will", "ich mag", "er mag"] },
+        { heading: "Müssen", examples: ["ich muss", "du musst", "er/sie/es muss", "wir müssen", "ihr müsst", "sie müssen"] },
         { heading: "Wollen", examples: ["ich will", "du willst", "er/sie/es will", "wir wollen", "ihr wollt", "sie wollen"] },
         { heading: "Mögen", examples: ["ich mag", "du magst", "er/sie/es mag", "wir mögen", "ihr mögt", "sie mögen"] },
-        { heading: "Celma patskaņu maiņa", examples: ["müssen: ich muß — wir müssen", "wollen: ich will — wir wollen", "mögen: ich mag — wir mögen"] },
-        { heading: "Müssen", text: "Müssen nozīmē vajadzēt / būt nepieciešamam.", examples: ["Ich muß lernen. — Man jāmācās."] },
+        { heading: "Celma patskaņu maiņa", examples: ["müssen: ich muss — wir müssen", "wollen: ich will — wir wollen", "mögen: ich mag — wir mögen"] },
+        { heading: "Müssen", text: "Müssen nozīmē vajadzēt / būt nepieciešamam.", examples: ["Ich muss lernen. — Man jāmācās."] },
         { heading: "Wollen", text: "Wollen nozīmē apzināti gribēt kaut ko darīt.", examples: ["Ich will vorwärts kommen. — Es gribu tikt uz priekšu."] },
         { heading: "Mögen", text: "Mögen izsaka vēlēšanos vai patiku.", examples: ["Ich mag die Suppe nicht essen. — Es negribu zupu ēst.", "Die Suppe mundet mir nicht. — Zupa man negaršo."] },
-        { heading: "Svarīgi", text: "Latviski bieži sakām “man jāmācās”, “tev jāraksta”, “viņam jānāk”. Vāciski šādos teikumos bieži lieto müssen.", examples: ["Ich muß lernen.", "Du mußt den Brief schreiben.", "Er muß heute kommen."] }
+        { heading: "Svarīgi", text: "Latviski bieži sakām “man jāmācās”, “tev jāraksta”, “viņam jānāk”. Vāciski šādos teikumos bieži lieto müssen.", examples: ["Ich muss lernen.", "Du musst den Brief schreiben.", "Er muss heute kommen."] }
       ] },
       { title: "Izruna", items: [
         "ß izrunā kā latviešu s.",
-        "ß raksta vārda vidū vai beigās pēc gara patskaņa vai divskaņa: die Füße, die Straße, ich muß, er muß.",
-        "Ja citās formās ir ss, tad pirms galotnes var būt ß: müssen, ich muß, du mußt, ihr müßt.",
+        "ß raksta vārda vidū vai beigās pēc gara patskaņa vai divskaņa: die Füße, die Straße, ich muss, er muss.",
+        "Ja citās formās ir ss, tad pirms galotnes var būt ß: müssen, ich muss, du musst, ihr müsst.",
         "ö vārdā mögen izrunā kā skaidru ö skaņu.",
         "Ja pēc g seko t, tad g izklausās tuvāk k skaņai: du magst, ihr mögt.",
         "Līdzīgi arī latviešu valodā vārdā “smags” g pirms s izklausās tuvāk k skaņai."
@@ -1657,18 +1553,18 @@ const COURSE_LESSON_DATA = {
       { title: "Pārtulko", type: "translationCards", cards: [
         { lv: "Kas grib čakli mācīties?", de: "Wer will fleißig lernen?" },
         { lv: "Visi skolnieki grib čakli mācīties.", de: "Alle Schüler wollen fleißig lernen." },
-        { lv: "Kam šodien jānāk?", de: "Wer muß heute kommen?" },
-        { lv: "Man šodien jānāk.", de: "Ich muß heute kommen." },
-        { lv: "Tev jāraksta vēstule.", de: "Du mußt den Brief schreiben." },
-        { lv: "Kam čakli jāmācās?", de: "Wer muß fleißig lernen?" },
+        { lv: "Kam šodien jānāk?", de: "Wer muss heute kommen?" },
+        { lv: "Man šodien jānāk.", de: "Ich muss heute kommen." },
+        { lv: "Tev jāraksta vēstule.", de: "Du musst den Brief schreiben." },
+        { lv: "Kam čakli jāmācās?", de: "Wer muss fleißig lernen?" },
         { lv: "Skolniekiem čakli jāmācās.", de: "Die Schüler müssen fleißig lernen." },
         { lv: "Es negribu zupu ēst, jo tā man negaršo.", de: "Ich mag die Suppe nicht essen, denn sie mundet mir nicht." },
         { lv: "Kas grib zupu ēst?", de: "Wer will die Suppe essen?" },
         { lv: "Elza grib zupu ēst.", de: "Elsa will die Suppe essen." },
-        { lv: "Kam jālasa grāmata?", de: "Wer muß das Buch lesen?" },
-        { lv: "Brālim jālasa grāmata.", de: "Der Bruder muß das Buch lesen." },
+        { lv: "Kam jālasa grāmata?", de: "Wer muss das Buch lesen?" },
+        { lv: "Brālim jālasa grāmata.", de: "Der Bruder muss das Buch lesen." },
         { lv: "Es negribu dziedāt.", de: "Ich mag nicht singen." },
-        { lv: "Tēvam jāpērk galds.", de: "Der Vater muß einen Tisch kaufen." }
+        { lv: "Tēvam jāpērk galds.", de: "Der Vater muss einen Tisch kaufen." }
       ] }
     ]
   },
@@ -1698,9 +1594,9 @@ const COURSE_LESSON_DATA = {
         "Ja, sie dürfen den Apfel schälen und entzweischneiden.",
         "Was essen die Kinder gern?",
         "Die Kinder essen Äpfel, Birnen, Pflaumen und Kirschen gern.",
-        "Ißt den Apfel!",
+        "Isst den Apfel!",
         "Was tut Grete?",
-        "Sie ißt den Apfel.",
+        "Sie isst den Apfel.",
         "Fräulein Müller, essen Sie auch einen Apfel!",
         "Mutter, dürfen wir diese Birnen essen?",
         "Nein, Kinder, diese Birnen sollt ihr nicht essen; sie sind nicht reif, sie sind unreif."
@@ -1708,14 +1604,14 @@ const COURSE_LESSON_DATA = {
       { title: "Vārdiņi", items: [
         "sollen — vajadzēt / būt pienākumam", "ich soll — man vajag / man jādara", "du sollst — tev vajag / tev jādara", "er soll — viņam vajag / viņam jādara", "wir sollen — mums vajag / mums jādara", "ihr sollt — jums vajag / jums jādara", "sie sollen — viņiem / viņām vajag",
         "dürfen — drīkstēt", "ich darf — es drīkstu", "du darfst — tu drīksti", "er darf — viņš drīkst", "wir dürfen — mēs drīkstam", "ihr dürft — jūs drīkstat", "sie dürfen — viņi / viņas drīkst",
-        "nicht — ne", "das Messer — nazis", "der Apfel — ābols", "die Äpfel — āboli", "schälen — mizot", "entzweischneiden — pārgriezt uz pusēm", "die Birne — bumbieris", "die Birnen — bumbieri", "die Pflaume — plūme", "die Pflaumen — plūmes", "die Kirsche — ķirsis", "die Kirschen — ķirši", "gern — labprāt", "reif — ienācies / nogatavojies", "unreif — neienācies / nenogatavojies", "nehmen — ņemt", "ich nehme — es ņemu", "du nimmst — tu ņem", "er nimmt — viņš ņem", "essen — ēst", "ich esse — es ēdu", "du ißt — tu ēd", "er ißt — viņš ēd", "wir essen — mēs ēdam", "ihr eßt — jūs ēdat", "sie essen — viņi / viņas ēd"
+        "nicht — ne", "das Messer — nazis", "der Apfel — ābols", "die Äpfel — āboli", "schälen — mizot", "entzweischneiden — pārgriezt uz pusēm", "die Birne — bumbieris", "die Birnen — bumbieri", "die Pflaume — plūme", "die Pflaumen — plūmes", "die Kirsche — ķirsis", "die Kirschen — ķirši", "gern — labprāt", "reif — ienācies / nogatavojies", "unreif — neienācies / nenogatavojies", "nehmen — ņemt", "ich nehme — es ņemu", "du nimmst — tu ņem", "er nimmt — viņš ņem", "essen — ēst", "ich esse — es ēdu", "du isst — tu ēd", "er isst — viņš ēd", "wir essen — mēs ēdam", "ihr esst — jūs ēdat", "sie essen — viņi / viņas ēd"
       ] },
       { title: "Gramatika", items: [
         { heading: "Sollen", text: "Sollen nozīmē vajadzēt pienākuma nozīmē." },
-        { heading: "Salīdzinājums", examples: ["müssen — vajadzēt aiz nepieciešamības vai pārliecības", "sollen — vajadzēt pienākuma nozīmē", "Ich muß lernen. — Man jāmācās, jo tas ir nepieciešams.", "Ich soll lernen. — Man jāmācās, jo tas ir mans pienākums."] },
+        { heading: "Salīdzinājums", examples: ["müssen — vajadzēt aiz nepieciešamības vai pārliecības", "sollen — vajadzēt pienākuma nozīmē", "Ich muss lernen. — Man jāmācās, jo tas ir nepieciešams.", "Ich soll lernen. — Man jāmācās, jo tas ir mans pienākums."] },
         { heading: "Sollen formas", text: "Darbības vārdam sollen tagadnes vienskaitļa 1. un 3. persona ir vienāda.", examples: ["ich soll", "du sollst", "er/sie/es soll", "wir sollen", "ihr sollt", "sie sollen"] },
         { heading: "Dürfen", text: "Dürfen nozīmē drīkstēt. Dürfen vienskaitlī celma patskanis ir a, bet daudzskaitlī ü.", examples: ["ich darf", "du darfst", "er/sie/es darf", "wir dürfen", "ihr dürft", "sie dürfen"] },
-        { heading: "Essen", text: "Essen loka šādi.", examples: ["ich esse", "du ißt", "er/sie/es ißt", "wir essen", "ihr eßt", "sie essen"] },
+        { heading: "Essen", text: "Essen loka šādi.", examples: ["ich esse", "du isst", "er/sie/es isst", "wir essen", "ihr esst", "sie essen"] },
         { heading: "Mūsdienu rakstība", text: "Ja projektā izmanto mūsdienu rakstību, drīkst rakstīt: du isst, er/sie/es isst, ihr esst." },
         { heading: "entzweischneiden", text: "Saliktajā darbības vārdā entzweischneiden uzsvars ir uz priedēkļa entzweí-, tāpēc tagadnē priedēklis atdalās un nostājas teikuma beigās.", examples: ["Ich schneide den Apfel entzwei. — Es pārgriežu ābolu uz pusēm."] }
       ] },
@@ -1733,12 +1629,12 @@ const COURSE_LESSON_DATA = {
         { lv: "Nē, vectēvs nedrīkst strādāt, jo viņš ir slims.", de: "Nein, der Großvater darf nicht arbeiten, denn er ist krank." },
         { lv: "Māt, vai es drīkstu plūmes ēst?", de: "Mutter, darf ich die Pflaumen essen?" },
         { lv: "Nē, plūmes tev nevajag ēst, tās ir neienākušās.", de: "Nein, die Pflaumen sollst du nicht essen, sie sind unreif." },
-        { lv: "Vai tu ēdi ābolu vai bumbieri?", de: "Ißt du einen Apfel oder eine Birne?" },
+        { lv: "Vai tu ēdi ābolu vai bumbieri?", de: "Isst du einen Apfel oder eine Birne?" },
         { lv: "Es ēdu bumbieri.", de: "Ich esse eine Birne." },
         { lv: "Kā garšo bumbieris?", de: "Wie mundet die Birne?" },
         { lv: "Bumbieris garšo ļoti labi.", de: "Die Birne mundet sehr gut." },
-        { lv: "Kam jāmācās?", de: "Wer muß lernen?" },
-        { lv: "Skolniekam jāmācās.", de: "Der Schüler muß lernen." },
+        { lv: "Kam jāmācās?", de: "Wer muss lernen?" },
+        { lv: "Skolniekam jāmācās.", de: "Der Schüler muss lernen." },
         { lv: "Vai viņš grib uz priekšu tikt?", de: "Will er vorwärts kommen?" },
         { lv: "Jā, viņš grib uz priekšu tikt.", de: "Ja, er will vorwärts kommen." },
         { lv: "Vai bērns drīkst nazi ņemt?", de: "Darf das Kind das Messer nehmen?" },
@@ -1949,7 +1845,7 @@ const COURSE_LESSON_DATA = {
         "Wo steht der Stuhl?", "Der Stuhl steht zwischen dem Klavier und dem Spiegel."
       ] },
       { title: "Vārdiņi", items: [
-        "vor — priekšā / pirms", "hinter — aiz", "unter — zem", "über — virs / pāri", "neben — blakus", "zwischen — starp", "werfen — mest", "stellen — novietot / nostādīt / nolikt", "der Spiegel — spogulis", "der Schrank — skapis", "der Eimer — spainis", "die Bank — sols", "das Bild — attēls / bilde", "das Klavier — klavieres", "der Großvater — vectēvs", "die Großmutter — vecmāmiņa", "der Stuhl — krēsls", "der Zaun — žogs", "die Brücke — tilts", "pflanzen — stādīt", "der Strauch — krūms", "wachsen — augt", "die Mühle — dzirnavas", "die Scheune — šķūnis", "der Teich — dīķis", "der Garten — dārzs", "das Feld — lauks", "die Laube — lapene", "die Wand — siena", "die Karte — karte", "das Land — zeme", "die Stadt — pilsēta", "der Berg — kalns", "der See — ezers", "der Fluß — upe", "zeigen — rādīt", "nennen — nosaukt", "so — tā"
+        "vor — priekšā / pirms", "hinter — aiz", "unter — zem", "über — virs / pāri", "neben — blakus", "zwischen — starp", "werfen — mest", "stellen — novietot / nostādīt / nolikt", "der Spiegel — spogulis", "der Schrank — skapis", "der Eimer — spainis", "die Bank — sols", "das Bild — attēls / bilde", "das Klavier — klavieres", "der Großvater — vectēvs", "die Großmutter — vecmāmiņa", "der Stuhl — krēsls", "der Zaun — žogs", "die Brücke — tilts", "pflanzen — stādīt", "der Strauch — krūms", "wachsen — augt", "die Mühle — dzirnavas", "die Scheune — šķūnis", "der Teich — dīķis", "der Garten — dārzs", "das Feld — lauks", "die Laube — lapene", "die Wand — siena", "die Karte — karte", "das Land — zeme", "die Stadt — pilsēta", "der Berg — kalns", "der See — ezers", "der Fluss — upe", "zeigen — rādīt", "nennen — nosaukt", "so — tā"
       ] },
       { title: "Gramatika", items: [
         { heading: "Wechselpräpositionen", text: "Šajā lekcijā turpinām prievārdus, kas var stāvēt gan ar Akkusativ, gan ar Dativ." },
@@ -1997,7 +1893,7 @@ const COURSE_LESSON_DATA = {
         "Unter dem Dache ist der Boden.", "Unter dem Hause ist der Keller.", "Auf dem Dache sind drei Schornsteine.",
         "Der Schornsteinfeger steigt aufs Dach und reinigt die Schornsteine.",
         "Die Stadt hat viele Häuser.", "In den Häusern sind viele Wohnungen.", "In den Wohnungen leben viele Menschen.", "Alle Menschen arbeiten.", "Alle Menschen müssen arbeiten.",
-        "Wir wohnen in dem vierten Stockwerk.", "Ich muß das Holz in das vierte Stockwerk tragen.", "Ich bringe das Holz in die Küche.", "Ich stecke das Holz in den Ofen.", "Ich zünde das Holz an.", "Bald brennt das Holz licht und hell."
+        "Wir wohnen in dem vierten Stockwerk.", "Ich muss das Holz in das vierte Stockwerk tragen.", "Ich bringe das Holz in die Küche.", "Ich stecke das Holz in den Ofen.", "Ich zünde das Holz an.", "Bald brennt das Holz licht und hell."
       ] },
       { title: "Vārdiņi", items: [
         "das Haus — māja", "das Stockwerk — stāvs", "die Mauer — mūris", "der Stein — akmens", "das Holz — koks / malka", "das Glas — stikls", "aus Glas — no stikla", "die Wohnung — dzīvoklis", "das Vorhaus — priekšnams / gaitenis", "die Küche — virtuve", "das Dach — jumts", "der Boden — bēniņi / grīda / zeme", "der Keller — pagrabs", "der Schornstein — skurstenis", "der Schornsteinfeger — skursteņslaucītājs", "die Stadt — pilsēta", "leben — dzīvot", "tragen — nest", "bringen — nest / atnest", "stecken — bāzt / ielikt", "der Ofen — krāsns", "anzünden — aizdedzināt", "bald — drīz", "brennen — degt", "licht — gaišs", "hell — gaišs / spožs", "die Tür — durvis", "das Fenster — logs", "der Mensch — cilvēks"
@@ -2057,9 +1953,9 @@ const COURSE_LESSON_DATA = {
         { lv: "Kur ir daudz dzīvokļu?", de: "Wo sind viele Wohnungen?" },
         { lv: "Kur dzīvo daudz cilvēku?", de: "Wo leben viele Menschen?" },
         { lv: "Kas strādā?", de: "Wer arbeitet?" },
-        { lv: "Kam jāstrādā?", de: "Wer muß arbeiten?" },
+        { lv: "Kam jāstrādā?", de: "Wer muss arbeiten?" },
         { lv: "Kurā stāvā tu dzīvo?", de: "In welchem Stockwerk wohnst du?" },
-        { lv: "Kurp tev jānes malka?", de: "Wohin mußt du das Holz tragen?" },
+        { lv: "Kurp tev jānes malka?", de: "Wohin musst du das Holz tragen?" },
         { lv: "Kurp tu liec malku?", de: "Wohin steckst du das Holz?" },
         { lv: "Ko tu aizdedzini?", de: "Was zündest du an?" },
         { lv: "Kas deg gaiši?", de: "Was brennt hell?" }
@@ -2078,7 +1974,7 @@ const COURSE_LESSON_DATA = {
         "Ein Mann steigt von dem Berge.", "Er geht über die Brücke und kommt auf den Hof.", "Er will mit dem Vater sprechen.",
         "Die Mutter tritt aus dem Hause.", "Sie geht auf den Hof und ruft den Vater.",
         "Der Vater kommt aus der Scheune.", "Er grüßt den Mann und geht mit dem Mann ins Zimmer.",
-        "Die Magd kommt aus der Küche.", "Sie muß Milch holen.", "Sie eilt in den Keller.", "Sie holt Milch.", "Sie steigt mit einem Eimer aus dem Keller.", "Sie geht in die Küche zurück.", "Sie arbeitet fleißig in der Küche."
+        "Die Magd kommt aus der Küche.", "Sie muss Milch holen.", "Sie eilt in den Keller.", "Sie holt Milch.", "Sie steigt mit einem Eimer aus dem Keller.", "Sie geht in die Küche zurück.", "Sie arbeitet fleißig in der Küche."
       ] },
       { title: "Vārdiņi", items: [
         "der Holzhauer — malkas cirtējs", "sägen — zāģēt", "spalten — skaldīt", "die Axt — cirvis", "von — no", "aus — no / iz", "mit — ar", "helfen — palīdzēt", "treten — iet / nākt / spert soli", "du trittst — tu ej / tu sper soli", "er tritt — viņš iet / sper soli", "rufen — saukt", "holen — atnest / atgādāt", "eilen — steigties", "zurück — atpakaļ", "finden — atrast", "sehen — redzēt", "du siehst — tu redzi", "er sieht — viņš redz", "fleißig — čakli", "die Scheune — šķūnis", "das Feld — lauks", "der Berg — kalns", "die Brücke — tilts", "der Hof — pagalms", "der Keller — pagrabs", "die Küche — virtuve", "die Milch — piens", "der Eimer — spainis", "die Säge — zāģis", "das Beil — cirvis"
@@ -2135,7 +2031,6 @@ const COURSE_LESSON_DATA = {
 
 
 
-window.COURSE_LESSONS = COURSE_LESSONS;
 window.COURSE_LESSON_HTML = COURSE_LESSON_HTML;
 
 window.COURSE_LESSON_DATA = COURSE_LESSON_DATA;
