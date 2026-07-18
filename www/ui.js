@@ -162,7 +162,6 @@ function infoPopupBodyHtml() {
 }
 
 const verbEntries = typeof VERB_ENTRIES !== "undefined" ? VERB_ENTRIES : (window.VERB_ENTRIES || []);
-window.COURSE_LESSONS = typeof COURSE_LESSONS !== "undefined" ? COURSE_LESSONS : (window.COURSE_LESSONS || []);
 
 window.flashcards = flashcards;
 
