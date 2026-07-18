@@ -1,0 +1,3826 @@
+{
+  "summary": {
+    "translationPairs": 1244,
+    "vocabItems": 464,
+    "htmlSections": 13,
+    "lessons": 21
+  },
+  "issueCounts": {
+    "semicolon_lv": 0,
+    "em_dash_lv": 23,
+    "german_in_lv": 49,
+    "old_eszett_de": 0,
+    "lv_full_lower_start": 72,
+    "de_full_lower_start": 35,
+    "lv_phrase_upper_start": 15,
+    "de_phrase_upper_start": 122,
+    "lv_full_missing_punct": 0,
+    "duplicate_pairs": 238,
+    "vocab_semicolon": 0,
+    "vocab_upper_lv": 2,
+    "empty_lv": 0,
+    "empty_de": 0
+  },
+  "issues": {
+    "semicolon_lv": [],
+    "em_dash_lv": [
+      {
+        "de": "Piemēri: hinlegen",
+        "lv": "er legt hin • aufmachen — er macht auf • anspitzen — er spitzt an.",
+        "source": "HTML:kurssLesson6"
+      },
+      {
+        "de": "Piemēri: ein Schüler",
+        "lv": "viens skolnieks • eine Schülerin — viena skolniece • ein Kind — viens bērns.",
+        "source": "HTML:kurssLesson6"
+      },
+      {
+        "de": "Piemēri: tas ir veseris",
+        "lv": "das ist ein Hammer • tā ir adata — das ist eine Nadel • tie ir veseri — das sind Hämmer • tās ir adatas — das sind Nadeln.",
+        "source": "HTML:kurssLesson6"
+      },
+      {
+        "de": "Der Wagen",
+        "lv": "rati un der Schlitten — ragavas latviešu valodā ir daudzskaitlinieki, bet vācu valodā šos vārdus lieto vienskaitlī un daudzskaitlī.",
+        "source": "HTML:kurssLesson6"
+      },
+      {
+        "de": "Piemēri: der Hammer",
+        "lv": "die Hämmer • der Garten — die Gärten • das Fenster — die Fenster • das Messer — die Messer.",
+        "source": "HTML:kurssLesson6"
+      },
+      {
+        "de": "Piemēri: die Nadel",
+        "lv": "die Nadeln • die Feder — die Federn.",
+        "source": "HTML:kurssLesson6"
+      },
+      {
+        "de": "Izņēmumi: die Mutter (māte)",
+        "lv": "die Mütter (mātes) • die Tochter (meita) — die Töchter (meitas).",
+        "source": "HTML:kurssLesson6"
+      },
+      {
+        "de": "Nenoteiktajam artikulam daudzskaitļa nav: das ist ein Wagen",
+        "lv": "das sind Wagen • das ist eine Nadel — das sind Nadeln.",
+        "source": "HTML:kurssLesson6"
+      },
+      {
+        "de": "gehen (gē",
+        "lv": "en) — iet",
+        "source": "HTML:kurssLesson1"
+      },
+      {
+        "de": "stehen (štē",
+        "lv": "en) — stāvēt",
+        "source": "HTML:kurssLesson1"
+      },
+      {
+        "de": "gehen (gē",
+        "lv": "en) — iet",
+        "source": "kurssLesson1/legacy"
+      },
+      {
+        "de": "stehen (štē",
+        "lv": "en) — stāvēt",
+        "source": "kurssLesson1/legacy"
+      },
+      {
+        "de": "Piemēri: hinlegen",
+        "lv": "er legt hin • aufmachen — er macht auf • anspitzen — er spitzt an.",
+        "source": "kurssLesson6/legacy"
+      },
+      {
+        "de": "Piemēri: ein Schüler",
+        "lv": "viens skolnieks • eine Schülerin — viena skolniece • ein Kind — viens bērns.",
+        "source": "kurssLesson6/legacy"
+      },
+      {
+        "de": "Piemēri: tas ir veseris",
+        "lv": "das ist ein Hammer • tā ir adata — das ist eine Nadel • tie ir veseri — das sind Hämmer • tās ir adatas — das sind Nadeln.",
+        "source": "kurssLesson6/legacy"
+      },
+      {
+        "de": "Der Wagen",
+        "lv": "rati un der Schlitten — ragavas latviešu valodā ir daudzskaitlinieki, bet vācu valodā šos vārdus lieto vienskaitlī un daudzskaitlī.",
+        "source": "kurssLesson6/legacy"
+      },
+      {
+        "de": "Piemēri: der Hammer",
+        "lv": "die Hämmer • der Garten — die Gärten • das Fenster — die Fenster • das Messer — die Messer.",
+        "source": "kurssLesson6/legacy"
+      },
+      {
+        "de": "Piemēri: die Nadel",
+        "lv": "die Nadeln • die Feder — die Federn.",
+        "source": "kurssLesson6/legacy"
+      },
+      {
+        "de": "Izņēmumi: die Mutter (māte)",
+        "lv": "die Mütter (mātes) • die Tochter (meita) — die Töchter (meitas).",
+        "source": "kurssLesson6/legacy"
+      },
+      {
+        "de": "Nenoteiktajam artikulam daudzskaitļa nav: das ist ein Wagen",
+        "lv": "das sind Wagen • das ist eine Nadel — das sind Nadeln.",
+        "source": "kurssLesson6/legacy"
+      },
+      {
+        "de": "Vārdos Schüler, Bücher",
+        "lv": "ü ir garš (ū), bet Müller — īss ü.",
+        "source": "kurssLesson8/Izruna"
+      },
+      {
+        "de": "ruhig (rū",
+        "lv": "ich) — mierīgi",
+        "source": "kurssLesson9/Vārdi"
+      },
+      {
+        "de": "Piemēram: müssen",
+        "lv": "ich muss, du musst, er muss • essen — ich esse, du isst, er isst.",
+        "source": "kurssLesson14/Izruna"
+      }
+    ],
+    "german_in_lv": [
+      {
+        "de": "motociklu markas → die Harley",
+        "lv": "Davidson, die Yamaha",
+        "source": "HTML:kurssArticlesLesson"
+      },
+      {
+        "de": "Füße (fūse)",
+        "lv": "pēdas",
+        "source": "HTML:kurssConsonantsLesson"
+      },
+      {
+        "de": "wie sind die Dinge?",
+        "lv": "kādas ir lietas?",
+        "source": "HTML:kurssLesson6"
+      },
+      {
+        "de": "Piemēri: hinlegen",
+        "lv": "er legt hin • aufmachen — er macht auf • anspitzen — er spitzt an.",
+        "source": "HTML:kurssLesson6"
+      },
+      {
+        "de": "Piemēri: tas ir veseris",
+        "lv": "das ist ein Hammer • tā ir adata — das ist eine Nadel • tie ir veseri — das sind Hämmer • tās ir adatas — das sind Nadeln.",
+        "source": "HTML:kurssLesson6"
+      },
+      {
+        "de": "Vīriešu un vidējās kārtas lietvārdi ar galotni",
+        "lv": "er, -el, -en daudzskaitlī bieži nepieņem galotni.",
+        "source": "HTML:kurssLesson6"
+      },
+      {
+        "de": "Piemēri: der Hammer",
+        "lv": "die Hämmer • der Garten — die Gärten • das Fenster — die Fenster • das Messer — die Messer.",
+        "source": "HTML:kurssLesson6"
+      },
+      {
+        "de": "Sieviešu kārtas lietvārdi ar galotni",
+        "lv": "el, -er daudzskaitlī pieņem -n.",
+        "source": "HTML:kurssLesson6"
+      },
+      {
+        "de": "Piemēri: die Nadel",
+        "lv": "die Nadeln • die Feder — die Federn.",
+        "source": "HTML:kurssLesson6"
+      },
+      {
+        "de": "Izņēmumi: die Mutter (māte)",
+        "lv": "die Mütter (mātes) • die Tochter (meita) — die Töchter (meitas).",
+        "source": "HTML:kurssLesson6"
+      },
+      {
+        "de": "Nenoteiktajam artikulam daudzskaitļa nav: das ist ein Wagen",
+        "lv": "das sind Wagen • das ist eine Nadel — das sind Nadeln.",
+        "source": "HTML:kurssLesson6"
+      },
+      {
+        "de": "Stāstāmā teikumā izteicējs",
+        "lv": "darbības vārds stāv otrā vietā: er legt den Schlüssel hin • dann legt er den Schlüssel hin.",
+        "source": "HTML:kurssLesson6"
+      },
+      {
+        "de": "Galotnes",
+        "lv": "en, -er, -el ir neuzsvērtas, tāpēc e šajās galotnēs ir vāji sadzirdams: kommen, nehmen, der Federhalter.",
+        "source": "HTML:kurssLesson4"
+      },
+      {
+        "de": "daudzskaitlī",
+        "lv": "sie",
+        "source": "HTML:kurssLesson4"
+      },
+      {
+        "de": "Lietvārdi ar galotni",
+        "lv": "chen un -lein ir vidējā kārtā: das Mädchen.",
+        "source": "HTML:kurssLesson4"
+      },
+      {
+        "de": "Īpašības un apstākļu vārdos galotne",
+        "lv": "ig izskan kā viegls -ich: niedrig (nīdrich).",
+        "source": "HTML:kurssLesson3"
+      },
+      {
+        "de": "Wer singt?",
+        "lv": "Sie singt.",
+        "source": "HTML:kurssLesson3"
+      },
+      {
+        "de": "vīriešu kārta",
+        "lv": "der",
+        "source": "HTML:kurssLesson3"
+      },
+      {
+        "de": "sieviešu kārta",
+        "lv": "die",
+        "source": "HTML:kurssLesson3"
+      },
+      {
+        "de": "vidējā kārta",
+        "lv": "das",
+        "source": "HTML:kurssLesson3"
+      },
+      {
+        "de": "Wir (vīr)",
+        "lv": "mēs. Vārdā wir ī izrunājams vienmēr gari.",
+        "source": "HTML:kurssLesson1"
+      },
+      {
+        "de": "Wir (vīr)",
+        "lv": "mēs. Vārdā wir ī izrunājams vienmēr gari.",
+        "source": "kurssLesson1/legacy"
+      },
+      {
+        "de": "Īpašības un apstākļu vārdos galotne",
+        "lv": "ig izskan kā viegls -ich: niedrig (nīdrich).",
+        "source": "kurssLesson3/legacy"
+      },
+      {
+        "de": "Wer singt?",
+        "lv": "Sie singt.",
+        "source": "kurssLesson3/legacy"
+      },
+      {
+        "de": "vīriešu kārta",
+        "lv": "der",
+        "source": "kurssLesson3/legacy"
+      },
+      {
+        "de": "sieviešu kārta",
+        "lv": "die",
+        "source": "kurssLesson3/legacy"
+      },
+      {
+        "de": "vidējā kārta",
+        "lv": "das",
+        "source": "kurssLesson3/legacy"
+      },
+      {
+        "de": "Galotnes",
+        "lv": "en, -er, -el ir neuzsvērtas, tāpēc e šajās galotnēs ir vāji sadzirdams: kommen, nehmen, der Federhalter.",
+        "source": "kurssLesson4/legacy"
+      },
+      {
+        "de": "daudzskaitlī",
+        "lv": "sie",
+        "source": "kurssLesson4/legacy"
+      },
+      {
+        "de": "Lietvārdi ar galotni",
+        "lv": "chen un -lein ir vidējā kārtā: das Mädchen.",
+        "source": "kurssLesson4/legacy"
+      },
+      {
+        "de": "wie sind die Dinge?",
+        "lv": "kādas ir lietas?",
+        "source": "kurssLesson6/legacy"
+      },
+      {
+        "de": "Piemēri: hinlegen",
+        "lv": "er legt hin • aufmachen — er macht auf • anspitzen — er spitzt an.",
+        "source": "kurssLesson6/legacy"
+      },
+      {
+        "de": "Piemēri: tas ir veseris",
+        "lv": "das ist ein Hammer • tā ir adata — das ist eine Nadel • tie ir veseri — das sind Hämmer • tās ir adatas — das sind Nadeln.",
+        "source": "kurssLesson6/legacy"
+      },
+      {
+        "de": "Vīriešu un vidējās kārtas lietvārdi ar galotni",
+        "lv": "er, -el, -en daudzskaitlī bieži nepieņem galotni.",
+        "source": "kurssLesson6/legacy"
+      },
+      {
+        "de": "Piemēri: der Hammer",
+        "lv": "die Hämmer • der Garten — die Gärten • das Fenster — die Fenster • das Messer — die Messer.",
+        "source": "kurssLesson6/legacy"
+      },
+      {
+        "de": "Sieviešu kārtas lietvārdi ar galotni",
+        "lv": "el, -er daudzskaitlī pieņem -n.",
+        "source": "kurssLesson6/legacy"
+      },
+      {
+        "de": "Piemēri: die Nadel",
+        "lv": "die Nadeln • die Feder — die Federn.",
+        "source": "kurssLesson6/legacy"
+      },
+      {
+        "de": "Izņēmumi: die Mutter (māte)",
+        "lv": "die Mütter (mātes) • die Tochter (meita) — die Töchter (meitas).",
+        "source": "kurssLesson6/legacy"
+      },
+      {
+        "de": "Nenoteiktajam artikulam daudzskaitļa nav: das ist ein Wagen",
+        "lv": "das sind Wagen • das ist eine Nadel — das sind Nadeln.",
+        "source": "kurssLesson6/legacy"
+      },
+      {
+        "de": "Stāstāmā teikumā izteicējs",
+        "lv": "darbības vārds stāv otrā vietā: er legt den Schlüssel hin • dann legt er den Schlüssel hin.",
+        "source": "kurssLesson6/legacy"
+      },
+      {
+        "de": "sprechen",
+        "lv": "ich spreche, du sprichst, er spricht.",
+        "source": "kurssLesson8/Gramatika"
+      },
+      {
+        "de": "geben",
+        "lv": "ich gebe, du gibst, er gibt.",
+        "source": "kurssLesson8/Gramatika"
+      },
+      {
+        "de": "essen",
+        "lv": "ich esse, du isst, er isst.",
+        "source": "kurssLesson8/Gramatika"
+      },
+      {
+        "de": "nehmen",
+        "lv": "ich nehme, du nimmst, er nimmt.",
+        "source": "kurssLesson8/Gramatika"
+      },
+      {
+        "de": "lesen",
+        "lv": "ich lese, du liest, er liest.",
+        "source": "kurssLesson8/Gramatika"
+      },
+      {
+        "de": "sehen",
+        "lv": "ich sehe, du siehst, er sieht.",
+        "source": "kurssLesson8/Gramatika"
+      },
+      {
+        "de": "ruhig (rū",
+        "lv": "ich) — mierīgi",
+        "source": "kurssLesson9/Vārdi"
+      },
+      {
+        "de": "Piemēram: müssen",
+        "lv": "ich muss, du musst, er muss • essen — ich esse, du isst, er isst.",
+        "source": "kurssLesson14/Izruna"
+      },
+      {
+        "de": "ich esse",
+        "lv": "es ēdu",
+        "source": "kurssLesson15/Vārdiņi"
+      }
+    ],
+    "old_eszett_de": [],
+    "lv_full_lower_start": [
+      {
+        "de": "DIE bieži ir sieviešu personas, daudzskaitlis un vārdi ar galotnēm",
+        "lv": "ung, -heit, -keit, -schaft, -ion, -tät, -ei.",
+        "source": "HTML:kurssArticlesLesson"
+      },
+      {
+        "de": "DAS bieži ir pamazināmie ar",
+        "lv": "chen / -lein, daudzi vārdi ar -ment / -um un darbības vārdi kā lietvārdi.",
+        "source": "HTML:kurssArticlesLesson"
+      },
+      {
+        "de": "Nominativ, Akkusativ un Dativ",
+        "lv": "vietniekvārdu formas.",
+        "source": "HTML:kurssPronounsLesson"
+      },
+      {
+        "de": "Nominativ",
+        "lv": "kas?",
+        "source": "HTML:kurssPronounsLesson"
+      },
+      {
+        "de": "Akkusativ",
+        "lv": "ko?",
+        "source": "HTML:kurssPronounsLesson"
+      },
+      {
+        "de": "Dativ",
+        "lv": "kam?",
+        "source": "HTML:kurssPronounsLesson"
+      },
+      {
+        "de": "was tut er?",
+        "lv": "ko viņš dara?",
+        "source": "HTML:kurssLesson2"
+      },
+      {
+        "de": "was tun sie?",
+        "lv": "ko viņi / viņas dara?",
+        "source": "HTML:kurssLesson2"
+      },
+      {
+        "de": "Ja darbības vārda celms beidzas ar t, d, chn, tad lokot galotņu",
+        "lv": "st un -t priekšā stāv e.",
+        "source": "HTML:kurssLesson2"
+      },
+      {
+        "de": "was ist das",
+        "lv": "kas tas ir?",
+        "source": "HTML:kurssLesson6"
+      },
+      {
+        "de": "wie sind die Dinge?",
+        "lv": "kādas ir lietas?",
+        "source": "HTML:kurssLesson6"
+      },
+      {
+        "de": "Der Wagen",
+        "lv": "rati un der Schlitten — ragavas latviešu valodā ir daudzskaitlinieki, bet vācu valodā šos vārdus lieto vienskaitlī un daudzskaitlī.",
+        "source": "HTML:kurssLesson6"
+      },
+      {
+        "de": "Vīriešu un vidējās kārtas lietvārdi ar galotni",
+        "lv": "er, -el, -en daudzskaitlī bieži nepieņem galotni.",
+        "source": "HTML:kurssLesson6"
+      },
+      {
+        "de": "Sieviešu kārtas lietvārdi ar galotni",
+        "lv": "el, -er daudzskaitlī pieņem -n.",
+        "source": "HTML:kurssLesson6"
+      },
+      {
+        "de": "Wen?, akuzatīvs, sitzen, fragen un",
+        "lv": "in galotne.",
+        "source": "HTML:kurssLesson5"
+      },
+      {
+        "de": "Daudz sieviešu kārtas vārdu atvasina ar galotni",
+        "lv": "in.",
+        "source": "HTML:kurssLesson5"
+      },
+      {
+        "de": "Galotnes",
+        "lv": "en, -er, -el ir neuzsvērtas, tāpēc e šajās galotnēs ir vāji sadzirdams: kommen, nehmen, der Federhalter.",
+        "source": "HTML:kurssLesson4"
+      },
+      {
+        "de": "Lietvārdi ar galotni",
+        "lv": "chen un -lein ir vidējā kārtā: das Mädchen.",
+        "source": "HTML:kurssLesson4"
+      },
+      {
+        "de": "liegt hier ein Buch?",
+        "lv": "vai šeit ir / atrodas grāmata?",
+        "source": "HTML:kurssLesson3"
+      },
+      {
+        "de": "Īpašības un apstākļu vārdos galotne",
+        "lv": "ig izskan kā viegls -ich: niedrig (nīdrich).",
+        "source": "HTML:kurssLesson3"
+      },
+      {
+        "de": "Ja galotne",
+        "lv": "ig beidzas ar e: -ige, tad g izrunā kā noteiktu g skaņu: niedrige (nīdrige) Bänke.",
+        "source": "HTML:kurssLesson3"
+      },
+      {
+        "de": "Pavēles izteiksme vienskaitļa 2. personā atbilst darbības vārda 2. personai vienskaitlī bez personu galotnes",
+        "lv": "st, pieliekot galotni -e.",
+        "source": "HTML:kurssLesson7"
+      },
+      {
+        "de": "Ļoti bieži galotne",
+        "lv": "e netiek lietota, ja pavēles forma ar to kļūst vienzilbīga: geh!, steh!, komm!, tu!, sing!, frag!",
+        "source": "HTML:kurssLesson7"
+      },
+      {
+        "de": "wer (vēr)",
+        "lv": "kas?",
+        "source": "HTML:kurssLesson1"
+      },
+      {
+        "de": "Wir (vīr)",
+        "lv": "mēs. Vārdā wir ī izrunājams vienmēr gari.",
+        "source": "HTML:kurssLesson1"
+      },
+      {
+        "de": "Darbības vārda pamatforma. Parasti infinitīvs beidzas ar",
+        "lv": "en.",
+        "source": "HTML:kurssLesson1"
+      },
+      {
+        "de": "kommst du?",
+        "lv": "vai tu nāc?",
+        "source": "HTML:kurssLesson1"
+      },
+      {
+        "de": "singt er?",
+        "lv": "vai viņš dzied?",
+        "source": "HTML:kurssLesson1"
+      },
+      {
+        "de": "wer (vēr)",
+        "lv": "kas?",
+        "source": "kurssLesson1/legacy"
+      },
+      {
+        "de": "Wir (vīr)",
+        "lv": "mēs. Vārdā wir ī izrunājams vienmēr gari.",
+        "source": "kurssLesson1/legacy"
+      },
+      {
+        "de": "Darbības vārda pamatforma. Parasti infinitīvs beidzas ar",
+        "lv": "en.",
+        "source": "kurssLesson1/legacy"
+      },
+      {
+        "de": "kommst du?",
+        "lv": "vai tu nāc?",
+        "source": "kurssLesson1/legacy"
+      },
+      {
+        "de": "singt er?",
+        "lv": "vai viņš dzied?",
+        "source": "kurssLesson1/legacy"
+      },
+      {
+        "de": "was tut er?",
+        "lv": "ko viņš dara?",
+        "source": "kurssLesson2/legacy"
+      },
+      {
+        "de": "was tun sie?",
+        "lv": "ko viņi / viņas dara?",
+        "source": "kurssLesson2/legacy"
+      },
+      {
+        "de": "Ja darbības vārda celms beidzas ar t, d, chn, tad lokot galotņu",
+        "lv": "st un -t priekšā stāv e.",
+        "source": "kurssLesson2/legacy"
+      },
+      {
+        "de": "liegt hier ein Buch?",
+        "lv": "vai šeit ir / atrodas grāmata?",
+        "source": "kurssLesson3/legacy"
+      },
+      {
+        "de": "Īpašības un apstākļu vārdos galotne",
+        "lv": "ig izskan kā viegls -ich: niedrig (nīdrich).",
+        "source": "kurssLesson3/legacy"
+      },
+      {
+        "de": "Ja galotne",
+        "lv": "ig beidzas ar e: -ige, tad g izrunā kā noteiktu g skaņu: niedrige (nīdrige) Bänke.",
+        "source": "kurssLesson3/legacy"
+      },
+      {
+        "de": "Galotnes",
+        "lv": "en, -er, -el ir neuzsvērtas, tāpēc e šajās galotnēs ir vāji sadzirdams: kommen, nehmen, der Federhalter.",
+        "source": "kurssLesson4/legacy"
+      },
+      {
+        "de": "Lietvārdi ar galotni",
+        "lv": "chen un -lein ir vidējā kārtā: das Mädchen.",
+        "source": "kurssLesson4/legacy"
+      },
+      {
+        "de": "Wen?, akuzatīvs, sitzen, fragen un",
+        "lv": "in galotne.",
+        "source": "kurssLesson5/legacy"
+      },
+      {
+        "de": "Daudz sieviešu kārtas vārdu atvasina ar galotni",
+        "lv": "in.",
+        "source": "kurssLesson5/legacy"
+      },
+      {
+        "de": "was ist das",
+        "lv": "kas tas ir?",
+        "source": "kurssLesson6/legacy"
+      },
+      {
+        "de": "wie sind die Dinge?",
+        "lv": "kādas ir lietas?",
+        "source": "kurssLesson6/legacy"
+      },
+      {
+        "de": "Der Wagen",
+        "lv": "rati un der Schlitten — ragavas latviešu valodā ir daudzskaitlinieki, bet vācu valodā šos vārdus lieto vienskaitlī un daudzskaitlī.",
+        "source": "kurssLesson6/legacy"
+      },
+      {
+        "de": "Vīriešu un vidējās kārtas lietvārdi ar galotni",
+        "lv": "er, -el, -en daudzskaitlī bieži nepieņem galotni.",
+        "source": "kurssLesson6/legacy"
+      },
+      {
+        "de": "Sieviešu kārtas lietvārdi ar galotni",
+        "lv": "el, -er daudzskaitlī pieņem -n.",
+        "source": "kurssLesson6/legacy"
+      },
+      {
+        "de": "Pavēles izteiksme vienskaitļa 2. personā atbilst darbības vārda 2. personai vienskaitlī bez personu galotnes",
+        "lv": "st, pieliekot galotni -e.",
+        "source": "kurssLesson7/legacy"
+      },
+      {
+        "de": "Ļoti bieži galotne",
+        "lv": "e netiek lietota, ja pavēles forma ar to kļūst vienzilbīga: geh!, steh!, komm!, tu!, sing!, frag!",
+        "source": "kurssLesson7/legacy"
+      },
+      {
+        "de": "setzt euch (zect oich)",
+        "lv": "sēstieties!",
+        "source": "kurssLesson8/Vārdi"
+      },
+      {
+        "de": "lies!",
+        "lv": "lasi!",
+        "source": "kurssLesson8/Vārdi"
+      },
+      {
+        "de": "was ist das",
+        "lv": "kas tas ir?",
+        "source": "kurssLesson8/Vārdi"
+      },
+      {
+        "de": "Vārdos Schüler, Bücher",
+        "lv": "ü ir garš (ū), bet Müller — īss ü.",
+        "source": "kurssLesson8/Izruna"
+      },
+      {
+        "de": "sprechen",
+        "lv": "ich spreche, du sprichst, er spricht.",
+        "source": "kurssLesson8/Gramatika"
+      },
+      {
+        "de": "geben",
+        "lv": "ich gebe, du gibst, er gibt.",
+        "source": "kurssLesson8/Gramatika"
+      },
+      {
+        "de": "essen",
+        "lv": "ich esse, du isst, er isst.",
+        "source": "kurssLesson8/Gramatika"
+      },
+      {
+        "de": "nehmen",
+        "lv": "ich nehme, du nimmst, er nimmt.",
+        "source": "kurssLesson8/Gramatika"
+      },
+      {
+        "de": "lesen",
+        "lv": "ich lese, du liest, er liest.",
+        "source": "kurssLesson8/Gramatika"
+      },
+      {
+        "de": "sehen",
+        "lv": "ich sehe, du siehst, er sieht.",
+        "source": "kurssLesson8/Gramatika"
+      },
+      {
+        "de": "sei gesund",
+        "lv": "esi vesels!",
+        "source": "kurssLesson10/Vārdi"
+      },
+      {
+        "de": "seid gesund",
+        "lv": "esiet veseli!",
+        "source": "kurssLesson10/Vārdi"
+      },
+      {
+        "de": "seien Sie gesund",
+        "lv": "esiet Jūs veseli!",
+        "source": "kurssLesson10/Vārdi"
+      },
+      {
+        "de": "h vārdā der Federhalter ir skaņa, kuru izrunā, bet vārdā der Sohn",
+        "lv": "garumzīme.",
+        "source": "kurssLesson12/Izruna"
+      },
+      {
+        "de": "wem",
+        "lv": "kam?",
+        "source": "kurssLesson16/Vārdiņi"
+      },
+      {
+        "de": "Vārdos wem, dem, den, der",
+        "lv": "e ir garš un šaurs.",
+        "source": "kurssLesson16/Izruna"
+      },
+      {
+        "de": "Vārdā gehorchen h ir dzirdams: ge",
+        "lv": "hor-chen.",
+        "source": "kurssLesson16/Izruna"
+      },
+      {
+        "de": "womit",
+        "lv": "ar ko?",
+        "source": "kurssLesson17/Vārdiņi"
+      },
+      {
+        "de": "mit wem",
+        "lv": "ar ko? / ar kuru?",
+        "source": "kurssLesson17/Vārdiņi"
+      },
+      {
+        "de": "wohin",
+        "lv": "kurp?",
+        "source": "kurssLesson18/Vārdiņi"
+      },
+      {
+        "de": "wo",
+        "lv": "kur?",
+        "source": "kurssLesson18/Vārdiņi"
+      },
+      {
+        "de": "Vārdā wohin h ir dzirdams: wo",
+        "lv": "hin.",
+        "source": "kurssLesson18/Izruna"
+      }
+    ],
+    "de_full_lower_start": [
+      {
+        "de": "ein Buch.",
+        "lv": "Es dodu viņam grāmatu.",
+        "source": "HTML:kurssPronounsLesson"
+      },
+      {
+        "de": "was tut er?",
+        "lv": "ko viņš dara?",
+        "source": "HTML:kurssLesson2"
+      },
+      {
+        "de": "was tun sie?",
+        "lv": "ko viņi / viņas dara?",
+        "source": "HTML:kurssLesson2"
+      },
+      {
+        "de": "was ist das",
+        "lv": "kas tas ir?",
+        "source": "HTML:kurssLesson6"
+      },
+      {
+        "de": "wie sind die Dinge?",
+        "lv": "kādas ir lietas?",
+        "source": "HTML:kurssLesson6"
+      },
+      {
+        "de": "liegt hier ein Buch?",
+        "lv": "vai šeit ir / atrodas grāmata?",
+        "source": "HTML:kurssLesson3"
+      },
+      {
+        "de": "wer (vēr)",
+        "lv": "kas?",
+        "source": "HTML:kurssLesson1"
+      },
+      {
+        "de": "kommst du?",
+        "lv": "vai tu nāc?",
+        "source": "HTML:kurssLesson1"
+      },
+      {
+        "de": "singt er?",
+        "lv": "vai viņš dzied?",
+        "source": "HTML:kurssLesson1"
+      },
+      {
+        "de": "wer (vēr)",
+        "lv": "kas?",
+        "source": "kurssLesson1/legacy"
+      },
+      {
+        "de": "kommst du?",
+        "lv": "vai tu nāc?",
+        "source": "kurssLesson1/legacy"
+      },
+      {
+        "de": "singt er?",
+        "lv": "vai viņš dzied?",
+        "source": "kurssLesson1/legacy"
+      },
+      {
+        "de": "was tut er?",
+        "lv": "ko viņš dara?",
+        "source": "kurssLesson2/legacy"
+      },
+      {
+        "de": "was tun sie?",
+        "lv": "ko viņi / viņas dara?",
+        "source": "kurssLesson2/legacy"
+      },
+      {
+        "de": "liegt hier ein Buch?",
+        "lv": "vai šeit ir / atrodas grāmata?",
+        "source": "kurssLesson3/legacy"
+      },
+      {
+        "de": "was ist das",
+        "lv": "kas tas ir?",
+        "source": "kurssLesson6/legacy"
+      },
+      {
+        "de": "wie sind die Dinge?",
+        "lv": "kādas ir lietas?",
+        "source": "kurssLesson6/legacy"
+      },
+      {
+        "de": "setzt euch (zect oich)",
+        "lv": "sēstieties!",
+        "source": "kurssLesson8/Vārdi"
+      },
+      {
+        "de": "lies!",
+        "lv": "lasi!",
+        "source": "kurssLesson8/Vārdi"
+      },
+      {
+        "de": "was ist das",
+        "lv": "kas tas ir?",
+        "source": "kurssLesson8/Vārdi"
+      },
+      {
+        "de": "sprechen",
+        "lv": "ich spreche, du sprichst, er spricht.",
+        "source": "kurssLesson8/Gramatika"
+      },
+      {
+        "de": "geben",
+        "lv": "ich gebe, du gibst, er gibt.",
+        "source": "kurssLesson8/Gramatika"
+      },
+      {
+        "de": "essen",
+        "lv": "ich esse, du isst, er isst.",
+        "source": "kurssLesson8/Gramatika"
+      },
+      {
+        "de": "nehmen",
+        "lv": "ich nehme, du nimmst, er nimmt.",
+        "source": "kurssLesson8/Gramatika"
+      },
+      {
+        "de": "lesen",
+        "lv": "ich lese, du liest, er liest.",
+        "source": "kurssLesson8/Gramatika"
+      },
+      {
+        "de": "sehen",
+        "lv": "ich sehe, du siehst, er sieht.",
+        "source": "kurssLesson8/Gramatika"
+      },
+      {
+        "de": "sei gesund",
+        "lv": "esi vesels!",
+        "source": "kurssLesson10/Vārdi"
+      },
+      {
+        "de": "seid gesund",
+        "lv": "esiet veseli!",
+        "source": "kurssLesson10/Vārdi"
+      },
+      {
+        "de": "seien Sie gesund",
+        "lv": "esiet Jūs veseli!",
+        "source": "kurssLesson10/Vārdi"
+      },
+      {
+        "de": "h vārdā der Federhalter ir skaņa, kuru izrunā, bet vārdā der Sohn",
+        "lv": "garumzīme.",
+        "source": "kurssLesson12/Izruna"
+      },
+      {
+        "de": "wem",
+        "lv": "kam?",
+        "source": "kurssLesson16/Vārdiņi"
+      },
+      {
+        "de": "womit",
+        "lv": "ar ko?",
+        "source": "kurssLesson17/Vārdiņi"
+      },
+      {
+        "de": "mit wem",
+        "lv": "ar ko? / ar kuru?",
+        "source": "kurssLesson17/Vārdiņi"
+      },
+      {
+        "de": "wohin",
+        "lv": "kurp?",
+        "source": "kurssLesson18/Vārdiņi"
+      },
+      {
+        "de": "wo",
+        "lv": "kur?",
+        "source": "kurssLesson18/Vārdiņi"
+      }
+    ],
+    "lv_phrase_upper_start": [
+      {
+        "de": "motociklu markas → die Harley",
+        "lv": "Davidson, die Yamaha",
+        "source": "HTML:kurssArticlesLesson"
+      },
+      {
+        "de": "Sie",
+        "lv": "Jūs (pieklājības)",
+        "source": "HTML:kurssPronounsLesson"
+      },
+      {
+        "de": "Sie",
+        "lv": "Jūs (pieklājības)",
+        "source": "HTML:kurssPronounsLesson"
+      },
+      {
+        "de": "Ihnen",
+        "lv": "Jums (pieklājības)",
+        "source": "HTML:kurssPronounsLesson"
+      },
+      {
+        "de": "Felix (fēliks)",
+        "lv": "Fēlikss",
+        "source": "HTML:kurssConsonantsLesson"
+      },
+      {
+        "de": "Nyx (nūks)",
+        "lv": "Nikse",
+        "source": "HTML:kurssConsonantsLesson"
+      },
+      {
+        "de": "Marie",
+        "lv": "Marija",
+        "source": "HTML:kurssLesson2"
+      },
+      {
+        "de": "ein Tisch",
+        "lv": "Tische",
+        "source": "HTML:kurssLesson3"
+      },
+      {
+        "de": "ein Heft",
+        "lv": "Hefte",
+        "source": "HTML:kurssLesson3"
+      },
+      {
+        "de": "Sie",
+        "lv": "Jūs",
+        "source": "HTML:kurssLesson7"
+      },
+      {
+        "de": "Marie",
+        "lv": "Marija",
+        "source": "kurssLesson2/legacy"
+      },
+      {
+        "de": "ein Tisch",
+        "lv": "Tische",
+        "source": "kurssLesson3/legacy"
+      },
+      {
+        "de": "ein Heft",
+        "lv": "Hefte",
+        "source": "kurssLesson3/legacy"
+      },
+      {
+        "de": "Sie",
+        "lv": "Jūs",
+        "source": "kurssLesson7/legacy"
+      },
+      {
+        "de": "Max (maks)",
+        "lv": "Maksis",
+        "source": "kurssLesson12/Vārdi"
+      }
+    ],
+    "de_phrase_upper_start": [
+      {
+        "de": "Ihnen",
+        "lv": "Jums (pieklājības)",
+        "source": "HTML:kurssPronounsLesson"
+      },
+      {
+        "de": "Nominativ vienmēr ir teikuma priekšmets, bet Akkusativ un Dativ",
+        "lv": "objekti. Skaties uz darbības vārdu un jautā:",
+        "source": "HTML:kurssPronounsLesson"
+      },
+      {
+        "de": "Patskaņi",
+        "lv": "garš un īss",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Tat (tāt)",
+        "lv": "darbs / rīcība",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Flur (flūr)",
+        "lv": "gaitenis",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Weg (vēk)",
+        "lv": "ceļš",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Hut (hūt)",
+        "lv": "cepure",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Hof (hōf)",
+        "lv": "pagalms",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Schlaf (šlāf)",
+        "lv": "miegs",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Pilz (pilc)",
+        "lv": "sēne",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Wort (vort)",
+        "lv": "vārds",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Mund (munt)",
+        "lv": "mute",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Feld (felt)",
+        "lv": "lauks",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Garten (garten)",
+        "lv": "dārzs",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Vogel (fogel)",
+        "lv": "putns",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Segel (zēgel)",
+        "lv": "bura",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Braten (brāten)",
+        "lv": "cepetis",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Bogen (bōgen)",
+        "lv": "loks",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Spiegel (špīgel)",
+        "lv": "spogulis",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Finger (finger)",
+        "lv": "pirksts",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Halter (halter)",
+        "lv": "turētājs",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Arbeiter (arbaiter)",
+        "lv": "strādnieks",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Häuser (hoizer)",
+        "lv": "mājas",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Rahmen (rāmen)",
+        "lv": "rāmis",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Ohr (ōr)",
+        "lv": "auss",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Kohle (kōle)",
+        "lv": "ogles",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Zahl (cāl)",
+        "lv": "skaitlis",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Huhn (hūn)",
+        "lv": "vista",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Schuh (šū)",
+        "lv": "kurpe",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Lampe (lampe)",
+        "lv": "lampa",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Hase (hāze)",
+        "lv": "zaķis",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Knabe (knābe)",
+        "lv": "zēns",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Rabe (rābe)",
+        "lv": "krauklis",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Fliege (flīge)",
+        "lv": "muša",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Ziege (cīge)",
+        "lv": "kaza",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Stiel (štīl)",
+        "lv": "kāts",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Saal (zāl)",
+        "lv": "zāle",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Saat (zāt)",
+        "lv": "sēja",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Staat (štāt)",
+        "lv": "valsts",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Beere (bēre)",
+        "lv": "oga",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "See (zē)",
+        "lv": "ezers / jūra",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Beet (bēt)",
+        "lv": "dobe",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Boot (bōt)",
+        "lv": "laiva",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Moor (mōr)",
+        "lv": "purvs",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Moos (mōs)",
+        "lv": "sūnas",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Wand (vant)",
+        "lv": "siena",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Wände (vende)",
+        "lv": "sienas",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Vater (fāter)",
+        "lv": "tēvs",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Väter (fēter)",
+        "lv": "tēvi",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Schrank (šrank)",
+        "lv": "skapis",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Schränke (šrenke)",
+        "lv": "skapji",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Bank (bank)",
+        "lv": "sols / banka",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Bänke (benke)",
+        "lv": "soli",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Tal (tāl)",
+        "lv": "ieleja",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Täler (tēler)",
+        "lv": "ielejas",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Rose (rōze)",
+        "lv": "roze",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Röschen (rēschen)",
+        "lv": "rozīte",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Ofen (ōfen)",
+        "lv": "krāsns",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Öfen (ēfen)",
+        "lv": "krāsnis",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Rock (rok)",
+        "lv": "svārki",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Röcke (röke)",
+        "lv": "svārki",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Kunst (kunst)",
+        "lv": "māksla",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Künste (künste)",
+        "lv": "mākslas",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Mutter (muter)",
+        "lv": "māte",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Mütter (mutter)",
+        "lv": "mātes",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Baum (baum)",
+        "lv": "koks",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Bäume (boime)",
+        "lv": "koki",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Haus (haus)",
+        "lv": "māja",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Häuser (hoizer)",
+        "lv": "mājas",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Strauch (štrauh)",
+        "lv": "krūms",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Sträucher (štroiher)",
+        "lv": "krūmi",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Maus (maus)",
+        "lv": "pele",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Mäuse (moize)",
+        "lv": "peles",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Leute (loite)",
+        "lv": "cilvēki",
+        "source": "HTML:kurssPronunciationLesson"
+      },
+      {
+        "de": "Bad (bāt)",
+        "lv": "vanna",
+        "source": "HTML:kurssConsonantsLesson"
+      },
+      {
+        "de": "Bäder (bēder)",
+        "lv": "vannas",
+        "source": "HTML:kurssConsonantsLesson"
+      },
+      {
+        "de": "Strauch (štrauh)",
+        "lv": "krūms",
+        "source": "HTML:kurssConsonantsLesson"
+      },
+      {
+        "de": "Nacht (naht)",
+        "lv": "nakts",
+        "source": "HTML:kurssConsonantsLesson"
+      },
+      {
+        "de": "Schule (šūle)",
+        "lv": "skola",
+        "source": "HTML:kurssConsonantsLesson"
+      },
+      {
+        "de": "Schüler (šūler)",
+        "lv": "skolēns",
+        "source": "HTML:kurssConsonantsLesson"
+      },
+      {
+        "de": "Schiff (šif)",
+        "lv": "kuģis",
+        "source": "HTML:kurssConsonantsLesson"
+      },
+      {
+        "de": "Schraube (šraube)",
+        "lv": "skrūve",
+        "source": "HTML:kurssConsonantsLesson"
+      },
+      {
+        "de": "Sprung (šprung)",
+        "lv": "lēciens",
+        "source": "HTML:kurssConsonantsLesson"
+      },
+      {
+        "de": "Stall (štal)",
+        "lv": "kūts",
+        "source": "HTML:kurssConsonantsLesson"
+      },
+      {
+        "de": "Stand (štant)",
+        "lv": "stāvoklis / vieta",
+        "source": "HTML:kurssConsonantsLesson"
+      },
+      {
+        "de": "Qual (kvāl)",
+        "lv": "mokas",
+        "source": "HTML:kurssConsonantsLesson"
+      },
+      {
+        "de": "Quartier (kvartīr)",
+        "lv": "kvartāls / apmešanās vieta",
+        "source": "HTML:kurssConsonantsLesson"
+      },
+      {
+        "de": "Rose (rōze)",
+        "lv": "roze",
+        "source": "HTML:kurssConsonantsLesson"
+      },
+      {
+        "de": "Zahl (cāl)",
+        "lv": "skaitlis",
+        "source": "HTML:kurssConsonantsLesson"
+      },
+      {
+        "de": "Zeit (cait)",
+        "lv": "laiks",
+        "source": "HTML:kurssConsonantsLesson"
+      },
+      {
+        "de": "Zink (cink)",
+        "lv": "cinks",
+        "source": "HTML:kurssConsonantsLesson"
+      },
+      {
+        "de": "Vater (fāter)",
+        "lv": "tēvs",
+        "source": "HTML:kurssConsonantsLesson"
+      },
+      {
+        "de": "Villa (villa)",
+        "lv": "villa",
+        "source": "HTML:kurssConsonantsLesson"
+      },
+      {
+        "de": "Klavier (klavīr)",
+        "lv": "klavieres",
+        "source": "HTML:kurssConsonantsLesson"
+      },
+      {
+        "de": "Felix (fēliks)",
+        "lv": "Fēlikss",
+        "source": "HTML:kurssConsonantsLesson"
+      },
+      {
+        "de": "Axt (akst)",
+        "lv": "cirvis",
+        "source": "HTML:kurssConsonantsLesson"
+      },
+      {
+        "de": "Mystik (mūstik)",
+        "lv": "mistika",
+        "source": "HTML:kurssConsonantsLesson"
+      },
+      {
+        "de": "Nyx (nūks)",
+        "lv": "Nikse",
+        "source": "HTML:kurssConsonantsLesson"
+      },
+      {
+        "de": "Mythe (mūte)",
+        "lv": "mīts",
+        "source": "HTML:kurssConsonantsLesson"
+      },
+      {
+        "de": "Fuß (fūs)",
+        "lv": "pēda",
+        "source": "HTML:kurssConsonantsLesson"
+      },
+      {
+        "de": "Füße (fūse)",
+        "lv": "pēdas",
+        "source": "HTML:kurssConsonantsLesson"
+      },
+      {
+        "de": "Grüße (grūse)",
+        "lv": "sveicieni",
+        "source": "HTML:kurssConsonantsLesson"
+      },
+      {
+        "de": "Piemēri: hinlegen",
+        "lv": "er legt hin • aufmachen — er macht auf • anspitzen — er spitzt an.",
+        "source": "HTML:kurssLesson6"
+      },
+      {
+        "de": "Piemēri: ein Schüler",
+        "lv": "viens skolnieks • eine Schülerin — viena skolniece • ein Kind — viens bērns.",
+        "source": "HTML:kurssLesson6"
+      },
+      {
+        "de": "Piemēri: tas ir veseris",
+        "lv": "das ist ein Hammer • tā ir adata — das ist eine Nadel • tie ir veseri — das sind Hämmer • tās ir adatas — das sind Nadeln.",
+        "source": "HTML:kurssLesson6"
+      },
+      {
+        "de": "Piemēri: der Hammer",
+        "lv": "die Hämmer • der Garten — die Gärten • das Fenster — die Fenster • das Messer — die Messer.",
+        "source": "HTML:kurssLesson6"
+      },
+      {
+        "de": "Piemēri: die Nadel",
+        "lv": "die Nadeln • die Feder — die Federn.",
+        "source": "HTML:kurssLesson6"
+      },
+      {
+        "de": "Izņēmumi: die Mutter (māte)",
+        "lv": "die Mütter (mātes) • die Tochter (meita) — die Töchter (meitas).",
+        "source": "HTML:kurssLesson6"
+      },
+      {
+        "de": "Nenoteiktajam artikulam daudzskaitļa nav: das ist ein Wagen",
+        "lv": "das sind Wagen • das ist eine Nadel — das sind Nadeln.",
+        "source": "HTML:kurssLesson6"
+      },
+      {
+        "de": "Stāstāmā teikumā izteicējs",
+        "lv": "darbības vārds stāv otrā vietā: er legt den Schlüssel hin • dann legt er den Schlüssel hin.",
+        "source": "HTML:kurssLesson6"
+      },
+      {
+        "de": "Piemēri: hinlegen",
+        "lv": "er legt hin • aufmachen — er macht auf • anspitzen — er spitzt an.",
+        "source": "kurssLesson6/legacy"
+      },
+      {
+        "de": "Piemēri: ein Schüler",
+        "lv": "viens skolnieks • eine Schülerin — viena skolniece • ein Kind — viens bērns.",
+        "source": "kurssLesson6/legacy"
+      },
+      {
+        "de": "Piemēri: tas ir veseris",
+        "lv": "das ist ein Hammer • tā ir adata — das ist eine Nadel • tie ir veseri — das sind Hämmer • tās ir adatas — das sind Nadeln.",
+        "source": "kurssLesson6/legacy"
+      },
+      {
+        "de": "Piemēri: der Hammer",
+        "lv": "die Hämmer • der Garten — die Gärten • das Fenster — die Fenster • das Messer — die Messer.",
+        "source": "kurssLesson6/legacy"
+      },
+      {
+        "de": "Piemēri: die Nadel",
+        "lv": "die Nadeln • die Feder — die Federn.",
+        "source": "kurssLesson6/legacy"
+      },
+      {
+        "de": "Izņēmumi: die Mutter (māte)",
+        "lv": "die Mütter (mātes) • die Tochter (meita) — die Töchter (meitas).",
+        "source": "kurssLesson6/legacy"
+      },
+      {
+        "de": "Nenoteiktajam artikulam daudzskaitļa nav: das ist ein Wagen",
+        "lv": "das sind Wagen • das ist eine Nadel — das sind Nadeln.",
+        "source": "kurssLesson6/legacy"
+      },
+      {
+        "de": "Stāstāmā teikumā izteicējs",
+        "lv": "darbības vārds stāv otrā vietā: er legt den Schlüssel hin • dann legt er den Schlüssel hin.",
+        "source": "kurssLesson6/legacy"
+      },
+      {
+        "de": "Max (maks)",
+        "lv": "Maksis",
+        "source": "kurssLesson12/Vārdi"
+      },
+      {
+        "de": "Piemēram: müssen",
+        "lv": "ich muss, du musst, er muss • essen — ich esse, du isst, er isst.",
+        "source": "kurssLesson14/Izruna"
+      },
+      {
+        "de": "Brot",
+        "lv": "maize",
+        "source": "kurssLesson16/Vārdiņi"
+      },
+      {
+        "de": "Milch",
+        "lv": "piens",
+        "source": "kurssLesson16/Vārdiņi"
+      }
+    ],
+    "lv_full_missing_punct": [],
+    "duplicate_pairs": [
+      {
+        "de": "der Tisch",
+        "lv": "galds",
+        "count": 4,
+        "sources": [
+          "HTML:kurssArticlesLesson",
+          "HTML:kurssLesson3",
+          "kurssLesson3/legacy"
+        ]
+      },
+      {
+        "de": "die Tür",
+        "lv": "durvis",
+        "count": 3,
+        "sources": [
+          "HTML:kurssArticlesLesson",
+          "HTML:kurssArticlesLesson",
+          "kurssLesson20/Vārdiņi"
+        ]
+      },
+      {
+        "de": "das Messer",
+        "lv": "nazis",
+        "count": 5,
+        "sources": [
+          "HTML:kurssArticlesLesson",
+          "HTML:kurssArticlesLesson",
+          "HTML:kurssLesson4"
+        ]
+      },
+      {
+        "de": "das Mädchen",
+        "lv": "meitene",
+        "count": 3,
+        "sources": [
+          "HTML:kurssArticlesLesson",
+          "HTML:kurssArticlesLesson",
+          "HTML:kurssArticlesLesson"
+        ]
+      },
+      {
+        "de": "die Mutter",
+        "lv": "māte",
+        "count": 3,
+        "sources": [
+          "HTML:kurssArticlesLesson",
+          "HTML:kurssLesson5",
+          "kurssLesson5/legacy"
+        ]
+      },
+      {
+        "de": "die Wohnung",
+        "lv": "dzīvoklis",
+        "count": 2,
+        "sources": [
+          "HTML:kurssArticlesLesson",
+          "kurssLesson20/Vārdiņi"
+        ]
+      },
+      {
+        "de": "das Kind",
+        "lv": "bērns",
+        "count": 2,
+        "sources": [
+          "HTML:kurssArticlesLesson",
+          "kurssLesson8/Vārdi"
+        ]
+      },
+      {
+        "de": "Sie",
+        "lv": "Jūs (pieklājības)",
+        "count": 2,
+        "sources": [
+          "HTML:kurssPronounsLesson",
+          "HTML:kurssPronounsLesson"
+        ]
+      },
+      {
+        "de": "mir",
+        "lv": "man",
+        "count": 2,
+        "sources": [
+          "HTML:kurssPronounsLesson",
+          "kurssLesson14/Vārdiņi"
+        ]
+      },
+      {
+        "de": "dir",
+        "lv": "tev",
+        "count": 2,
+        "sources": [
+          "HTML:kurssPronounsLesson",
+          "kurssLesson14/Vārdiņi"
+        ]
+      },
+      {
+        "de": "ihr",
+        "lv": "viņai",
+        "count": 2,
+        "sources": [
+          "HTML:kurssPronounsLesson",
+          "kurssLesson14/Vārdiņi"
+        ]
+      },
+      {
+        "de": "uns",
+        "lv": "mums",
+        "count": 2,
+        "sources": [
+          "HTML:kurssPronounsLesson",
+          "kurssLesson14/Vārdiņi"
+        ]
+      },
+      {
+        "de": "euch",
+        "lv": "jums",
+        "count": 2,
+        "sources": [
+          "HTML:kurssPronounsLesson",
+          "kurssLesson14/Vārdiņi"
+        ]
+      },
+      {
+        "de": "ihnen",
+        "lv": "viņiem / viņām",
+        "count": 2,
+        "sources": [
+          "HTML:kurssPronounsLesson",
+          "kurssLesson14/Vārdiņi"
+        ]
+      },
+      {
+        "de": "singen (zingen)",
+        "lv": "dziedāt",
+        "count": 4,
+        "sources": [
+          "HTML:kurssPronunciationLesson",
+          "HTML:kurssConsonantsLesson",
+          "HTML:kurssLesson1"
+        ]
+      },
+      {
+        "de": "Häuser (hoizer)",
+        "lv": "mājas",
+        "count": 2,
+        "sources": [
+          "HTML:kurssPronunciationLesson",
+          "HTML:kurssPronunciationLesson"
+        ]
+      },
+      {
+        "de": "wieder (vīder)",
+        "lv": "atkal",
+        "count": 4,
+        "sources": [
+          "HTML:kurssPronunciationLesson",
+          "HTML:kurssPronunciationLesson",
+          "HTML:kurssLesson6"
+        ]
+      },
+      {
+        "de": "Zahl (cāl)",
+        "lv": "skaitlis",
+        "count": 2,
+        "sources": [
+          "HTML:kurssPronunciationLesson",
+          "HTML:kurssConsonantsLesson"
+        ]
+      },
+      {
+        "de": "nehmen (nēmen)",
+        "lv": "ņemt",
+        "count": 3,
+        "sources": [
+          "HTML:kurssPronunciationLesson",
+          "HTML:kurssLesson4",
+          "kurssLesson4/legacy"
+        ]
+      },
+      {
+        "de": "hier (hīr)",
+        "lv": "šeit",
+        "count": 3,
+        "sources": [
+          "HTML:kurssPronunciationLesson",
+          "HTML:kurssLesson6",
+          "kurssLesson6/legacy"
+        ]
+      },
+      {
+        "de": "Vater (fāter)",
+        "lv": "tēvs",
+        "count": 2,
+        "sources": [
+          "HTML:kurssPronunciationLesson",
+          "HTML:kurssConsonantsLesson"
+        ]
+      },
+      {
+        "de": "Rose (rōze)",
+        "lv": "roze",
+        "count": 2,
+        "sources": [
+          "HTML:kurssPronunciationLesson",
+          "HTML:kurssConsonantsLesson"
+        ]
+      },
+      {
+        "de": "kurz (kurc)",
+        "lv": "īss",
+        "count": 2,
+        "sources": [
+          "HTML:kurssPronunciationLesson",
+          "kurssLesson9/Vārdi"
+        ]
+      },
+      {
+        "de": "Strauch (štrauh)",
+        "lv": "krūms",
+        "count": 2,
+        "sources": [
+          "HTML:kurssPronunciationLesson",
+          "HTML:kurssConsonantsLesson"
+        ]
+      },
+      {
+        "de": "kommen",
+        "lv": "nākt",
+        "count": 3,
+        "sources": [
+          "HTML:kurssVerbBasicsLesson",
+          "HTML:kurssLesson1",
+          "kurssLesson1/legacy"
+        ]
+      },
+      {
+        "de": "gehen",
+        "lv": "iet",
+        "count": 3,
+        "sources": [
+          "HTML:kurssVerbBasicsLesson",
+          "HTML:kurssLesson1",
+          "kurssLesson1/legacy"
+        ]
+      },
+      {
+        "de": "stehen",
+        "lv": "stāvēt",
+        "count": 4,
+        "sources": [
+          "HTML:kurssVerbBasicsLesson",
+          "HTML:kurssLesson1",
+          "kurssLesson1/legacy"
+        ]
+      },
+      {
+        "de": "singen",
+        "lv": "dziedāt",
+        "count": 5,
+        "sources": [
+          "HTML:kurssVerbBasicsLesson",
+          "HTML:kurssLesson7",
+          "HTML:kurssLesson1"
+        ]
+      },
+      {
+        "de": "du kommst",
+        "lv": "tu nāc",
+        "count": 3,
+        "sources": [
+          "HTML:kurssVerbBasicsLesson",
+          "HTML:kurssLesson1",
+          "kurssLesson1/legacy"
+        ]
+      },
+      {
+        "de": "er kommt",
+        "lv": "viņš nāk",
+        "count": 3,
+        "sources": [
+          "HTML:kurssVerbBasicsLesson",
+          "HTML:kurssLesson1",
+          "kurssLesson1/legacy"
+        ]
+      },
+      {
+        "de": "sie kommt",
+        "lv": "viņa nāk",
+        "count": 3,
+        "sources": [
+          "HTML:kurssVerbBasicsLesson",
+          "HTML:kurssLesson1",
+          "kurssLesson1/legacy"
+        ]
+      },
+      {
+        "de": "sie kommen",
+        "lv": "viņi / viņas nāk",
+        "count": 3,
+        "sources": [
+          "HTML:kurssVerbBasicsLesson",
+          "HTML:kurssLesson1",
+          "kurssLesson1/legacy"
+        ]
+      },
+      {
+        "de": "er singt",
+        "lv": "viņš dzied",
+        "count": 3,
+        "sources": [
+          "HTML:kurssVerbBasicsLesson",
+          "HTML:kurssLesson1",
+          "kurssLesson1/legacy"
+        ]
+      },
+      {
+        "de": "arbeiten",
+        "lv": "strādāt",
+        "count": 3,
+        "sources": [
+          "HTML:kurssVerbBasicsLesson",
+          "HTML:kurssLesson2",
+          "kurssLesson2/legacy"
+        ]
+      },
+      {
+        "de": "fragen",
+        "lv": "jautāt",
+        "count": 5,
+        "sources": [
+          "HTML:kurssVerbBasicsLesson",
+          "HTML:kurssLesson2",
+          "HTML:kurssLesson7"
+        ]
+      },
+      {
+        "de": "antworten",
+        "lv": "atbildēt",
+        "count": 3,
+        "sources": [
+          "HTML:kurssVerbBasicsLesson",
+          "HTML:kurssLesson2",
+          "kurssLesson2/legacy"
+        ]
+      },
+      {
+        "de": "rechnen",
+        "lv": "rēķināt",
+        "count": 3,
+        "sources": [
+          "HTML:kurssVerbBasicsLesson",
+          "HTML:kurssLesson2",
+          "kurssLesson2/legacy"
+        ]
+      },
+      {
+        "de": "zeichnen",
+        "lv": "zīmēt",
+        "count": 3,
+        "sources": [
+          "HTML:kurssVerbBasicsLesson",
+          "HTML:kurssLesson2",
+          "kurssLesson2/legacy"
+        ]
+      },
+      {
+        "de": "Was tust du?",
+        "lv": "Ko tu dari?",
+        "count": 3,
+        "sources": [
+          "HTML:kurssSentenceStructureLesson",
+          "HTML:kurssLesson2",
+          "kurssLesson2/legacy"
+        ]
+      },
+      {
+        "de": "Was tut er?",
+        "lv": "Ko viņš dara?",
+        "count": 3,
+        "sources": [
+          "HTML:kurssSentenceStructureLesson",
+          "HTML:kurssLesson2",
+          "kurssLesson2/legacy"
+        ]
+      },
+      {
+        "de": "Was tut sie?",
+        "lv": "Ko viņa dara?",
+        "count": 3,
+        "sources": [
+          "HTML:kurssSentenceStructureLesson",
+          "HTML:kurssLesson2",
+          "kurssLesson2/legacy"
+        ]
+      },
+      {
+        "de": "Was tun sie?",
+        "lv": "Ko viņi / viņas dara?",
+        "count": 3,
+        "sources": [
+          "HTML:kurssSentenceStructureLesson",
+          "HTML:kurssLesson2",
+          "kurssLesson2/legacy"
+        ]
+      },
+      {
+        "de": "Er kommt nicht.",
+        "lv": "Viņš nenāk.",
+        "count": 3,
+        "sources": [
+          "HTML:kurssSentenceStructureLesson",
+          "HTML:kurssLesson2",
+          "kurssLesson2/legacy"
+        ]
+      },
+      {
+        "de": "spielen",
+        "lv": "rotaļāties • spēlēt",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson2",
+          "kurssLesson2/legacy"
+        ]
+      },
+      {
+        "de": "nein",
+        "lv": "nē",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson2",
+          "kurssLesson2/legacy"
+        ]
+      },
+      {
+        "de": "nicht",
+        "lv": "ne",
+        "count": 3,
+        "sources": [
+          "HTML:kurssLesson2",
+          "kurssLesson2/legacy",
+          "kurssLesson15/Vārdiņi"
+        ]
+      },
+      {
+        "de": "was tut er?",
+        "lv": "ko viņš dara?",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson2",
+          "kurssLesson2/legacy"
+        ]
+      },
+      {
+        "de": "was tun sie?",
+        "lv": "ko viņi / viņas dara?",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson2",
+          "kurssLesson2/legacy"
+        ]
+      },
+      {
+        "de": "aber",
+        "lv": "bet",
+        "count": 3,
+        "sources": [
+          "HTML:kurssLesson2",
+          "kurssLesson2/legacy",
+          "kurssLesson8/Vārdi"
+        ]
+      },
+      {
+        "de": "Marie",
+        "lv": "Marija",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson2",
+          "kurssLesson2/legacy"
+        ]
+      },
+      {
+        "de": "Ja darbības vārda celms beidzas ar t, d, chn, tad lokot galotņu",
+        "lv": "st un -t priekšā stāv e.",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson2",
+          "kurssLesson2/legacy"
+        ]
+      },
+      {
+        "de": "Sie singen nicht.",
+        "lv": "Viņi nedzied.",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson2",
+          "kurssLesson2/legacy"
+        ]
+      },
+      {
+        "de": "liegt",
+        "lv": "atrodas, ir, guļ",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson6",
+          "kurssLesson6/legacy"
+        ]
+      },
+      {
+        "de": "der Bleistift (bleištift)",
+        "lv": "zīmulis",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson6",
+          "kurssLesson6/legacy"
+        ]
+      },
+      {
+        "de": "einige (einige)",
+        "lv": "daži",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson6",
+          "kurssLesson6/legacy"
+        ]
+      },
+      {
+        "de": "hinlegen",
+        "lv": "nolikt",
+        "count": 4,
+        "sources": [
+          "HTML:kurssLesson6",
+          "HTML:kurssLesson4",
+          "kurssLesson4/legacy"
+        ]
+      },
+      {
+        "de": "legt hin",
+        "lv": "noliek",
+        "count": 4,
+        "sources": [
+          "HTML:kurssLesson6",
+          "HTML:kurssLesson4",
+          "kurssLesson4/legacy"
+        ]
+      },
+      {
+        "de": "aufmachen",
+        "lv": "attaīsīt",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson6",
+          "kurssLesson6/legacy"
+        ]
+      },
+      {
+        "de": "er macht auf",
+        "lv": "viņš attaisa",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson6",
+          "kurssLesson6/legacy"
+        ]
+      },
+      {
+        "de": "anspitzen (anšpicen)",
+        "lv": "uzsmailināt",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson6",
+          "kurssLesson6/legacy"
+        ]
+      },
+      {
+        "de": "er spitzt an",
+        "lv": "viņš uzsmailina",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson6",
+          "kurssLesson6/legacy"
+        ]
+      },
+      {
+        "de": "sich setzen",
+        "lv": "apsēsties",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson6",
+          "kurssLesson6/legacy"
+        ]
+      },
+      {
+        "de": "setzt sich",
+        "lv": "apsēžas",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson6",
+          "kurssLesson6/legacy"
+        ]
+      },
+      {
+        "de": "der Schlüssel (šlūsel)",
+        "lv": "atslēga",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson6",
+          "kurssLesson6/legacy"
+        ]
+      },
+      {
+        "de": "das Fenster (fenster)",
+        "lv": "logs",
+        "count": 4,
+        "sources": [
+          "HTML:kurssLesson6",
+          "HTML:kurssLesson7",
+          "kurssLesson6/legacy"
+        ]
+      },
+      {
+        "de": "die Tafel (dī tāfel)",
+        "lv": "tāfele",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson6",
+          "kurssLesson6/legacy"
+        ]
+      },
+      {
+        "de": "der Garten",
+        "lv": "dārzs",
+        "count": 3,
+        "sources": [
+          "HTML:kurssLesson6",
+          "kurssLesson6/legacy",
+          "kurssLesson19/Vārdiņi"
+        ]
+      },
+      {
+        "de": "der Löffel",
+        "lv": "karote",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson6",
+          "kurssLesson6/legacy"
+        ]
+      },
+      {
+        "de": "zählen (cēlen)",
+        "lv": "skaitīt",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson6",
+          "kurssLesson6/legacy"
+        ]
+      },
+      {
+        "de": "die Nadel",
+        "lv": "adata",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson6",
+          "kurssLesson6/legacy"
+        ]
+      },
+      {
+        "de": "was ist das",
+        "lv": "kas tas ir?",
+        "count": 3,
+        "sources": [
+          "HTML:kurssLesson6",
+          "kurssLesson6/legacy",
+          "kurssLesson8/Vārdi"
+        ]
+      },
+      {
+        "de": "der Hammer",
+        "lv": "veseris",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson6",
+          "kurssLesson6/legacy"
+        ]
+      },
+      {
+        "de": "die Hämmer",
+        "lv": "veseri",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson6",
+          "kurssLesson6/legacy"
+        ]
+      },
+      {
+        "de": "der Deckel (dēr dekel)",
+        "lv": "vāks",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson6",
+          "kurssLesson6/legacy"
+        ]
+      },
+      {
+        "de": "der Teller",
+        "lv": "šķīvis",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson6",
+          "kurssLesson6/legacy"
+        ]
+      },
+      {
+        "de": "der Wagen",
+        "lv": "rati",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson6",
+          "kurssLesson6/legacy"
+        ]
+      },
+      {
+        "de": "der Schlitten",
+        "lv": "ragavas, kamanas",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson6",
+          "kurssLesson6/legacy"
+        ]
+      },
+      {
+        "de": "das Ding",
+        "lv": "lieta",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson6",
+          "kurssLesson6/legacy"
+        ]
+      },
+      {
+        "de": "die Dinge",
+        "lv": "lietas",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson6",
+          "kurssLesson6/legacy"
+        ]
+      },
+      {
+        "de": "wie sind die Dinge?",
+        "lv": "kādas ir lietas?",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson6",
+          "kurssLesson6/legacy"
+        ]
+      },
+      {
+        "de": "voll (fōl)",
+        "lv": "pilns",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson6",
+          "kurssLesson6/legacy"
+        ]
+      },
+      {
+        "de": "leer (lēr)",
+        "lv": "tukšs",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson6",
+          "kurssLesson6/legacy"
+        ]
+      },
+      {
+        "de": "schwer (švēr)",
+        "lv": "smags, grūts",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson6",
+          "kurssLesson6/legacy"
+        ]
+      },
+      {
+        "de": "leicht",
+        "lv": "viegls",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson6",
+          "kurssLesson6/legacy"
+        ]
+      },
+      {
+        "de": "der Eimer",
+        "lv": "spainis",
+        "count": 5,
+        "sources": [
+          "HTML:kurssLesson6",
+          "kurssLesson6/legacy",
+          "kurssLesson18/Vārdiņi"
+        ]
+      },
+      {
+        "de": "wieviel (vīfīl)",
+        "lv": "cik",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson6",
+          "kurssLesson6/legacy"
+        ]
+      },
+      {
+        "de": "wieviel Nadeln",
+        "lv": "cik adatu",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson6",
+          "kurssLesson6/legacy"
+        ]
+      },
+      {
+        "de": "dort",
+        "lv": "tur",
+        "count": 5,
+        "sources": [
+          "HTML:kurssLesson6",
+          "HTML:kurssLesson3",
+          "kurssLesson3/legacy"
+        ]
+      },
+      {
+        "de": "Piemēri: hinlegen",
+        "lv": "er legt hin • aufmachen — er macht auf • anspitzen — er spitzt an.",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson6",
+          "kurssLesson6/legacy"
+        ]
+      },
+      {
+        "de": "Piemēri: ein Schüler",
+        "lv": "viens skolnieks • eine Schülerin — viena skolniece • ein Kind — viens bērns.",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson6",
+          "kurssLesson6/legacy"
+        ]
+      },
+      {
+        "de": "Piemēri: tas ir veseris",
+        "lv": "das ist ein Hammer • tā ir adata — das ist eine Nadel • tie ir veseri — das sind Hämmer • tās ir adatas — das sind Nadeln.",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson6",
+          "kurssLesson6/legacy"
+        ]
+      },
+      {
+        "de": "Der Wagen",
+        "lv": "rati un der Schlitten — ragavas latviešu valodā ir daudzskaitlinieki, bet vācu valodā šos vārdus lieto vienskaitlī un daudzskaitlī.",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson6",
+          "kurssLesson6/legacy"
+        ]
+      },
+      {
+        "de": "Vīriešu un vidējās kārtas lietvārdi ar galotni",
+        "lv": "er, -el, -en daudzskaitlī bieži nepieņem galotni.",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson6",
+          "kurssLesson6/legacy"
+        ]
+      },
+      {
+        "de": "Piemēri: der Hammer",
+        "lv": "die Hämmer • der Garten — die Gärten • das Fenster — die Fenster • das Messer — die Messer.",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson6",
+          "kurssLesson6/legacy"
+        ]
+      },
+      {
+        "de": "Sieviešu kārtas lietvārdi ar galotni",
+        "lv": "el, -er daudzskaitlī pieņem -n.",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson6",
+          "kurssLesson6/legacy"
+        ]
+      },
+      {
+        "de": "Piemēri: die Nadel",
+        "lv": "die Nadeln • die Feder — die Federn.",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson6",
+          "kurssLesson6/legacy"
+        ]
+      },
+      {
+        "de": "Izņēmumi: die Mutter (māte)",
+        "lv": "die Mütter (mātes) • die Tochter (meita) — die Töchter (meitas).",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson6",
+          "kurssLesson6/legacy"
+        ]
+      },
+      {
+        "de": "Nenoteiktajam artikulam daudzskaitļa nav: das ist ein Wagen",
+        "lv": "das sind Wagen • das ist eine Nadel — das sind Nadeln.",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson6",
+          "kurssLesson6/legacy"
+        ]
+      },
+      {
+        "de": "Stāstāmā teikumā izteicējs",
+        "lv": "darbības vārds stāv otrā vietā: er legt den Schlüssel hin • dann legt er den Schlüssel hin.",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson6",
+          "kurssLesson6/legacy"
+        ]
+      },
+      {
+        "de": "Wen?, akuzatīvs, sitzen, fragen un",
+        "lv": "in galotne.",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson5",
+          "kurssLesson5/legacy"
+        ]
+      },
+      {
+        "de": "sitzen (zicen)",
+        "lv": "sēdēt",
+        "count": 3,
+        "sources": [
+          "HTML:kurssLesson5",
+          "kurssLesson5/legacy",
+          "kurssLesson9/Vārdi"
+        ]
+      },
+      {
+        "de": "fragen (frāgen)",
+        "lv": "jautāt",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson5",
+          "kurssLesson5/legacy"
+        ]
+      },
+      {
+        "de": "der Lehrer (dēr lērer)",
+        "lv": "skolotājs",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson5",
+          "kurssLesson5/legacy"
+        ]
+      },
+      {
+        "de": "gut (gūt)",
+        "lv": "labi",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson5",
+          "kurssLesson5/legacy"
+        ]
+      },
+      {
+        "de": "wen (vēn)",
+        "lv": "ko",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson5",
+          "kurssLesson5/legacy"
+        ]
+      },
+      {
+        "de": "loben",
+        "lv": "slavēt",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson5",
+          "kurssLesson5/legacy"
+        ]
+      },
+      {
+        "de": "der Schüler (šūler)",
+        "lv": "skolnieks",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson5",
+          "kurssLesson5/legacy"
+        ]
+      },
+      {
+        "de": "klein",
+        "lv": "mazs",
+        "count": 4,
+        "sources": [
+          "HTML:kurssLesson5",
+          "kurssLesson5/legacy",
+          "kurssLesson12/Vārdi"
+        ]
+      },
+      {
+        "de": "groß (grōs)",
+        "lv": "liels",
+        "count": 3,
+        "sources": [
+          "HTML:kurssLesson5",
+          "kurssLesson5/legacy",
+          "kurssLesson11/Vārdi"
+        ]
+      },
+      {
+        "de": "die Lehrerin",
+        "lv": "skolotāja",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson5",
+          "kurssLesson5/legacy"
+        ]
+      },
+      {
+        "de": "die Schülerin",
+        "lv": "skolniece",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson5",
+          "kurssLesson5/legacy"
+        ]
+      },
+      {
+        "de": "schlecht (šleht)",
+        "lv": "slikti",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson5",
+          "kurssLesson5/legacy"
+        ]
+      },
+      {
+        "de": "tadeln",
+        "lv": "pelt",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson5",
+          "kurssLesson5/legacy"
+        ]
+      },
+      {
+        "de": "oder (ōder)",
+        "lv": "vai",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson5",
+          "kurssLesson5/legacy"
+        ]
+      },
+      {
+        "de": "das Kind (kint)",
+        "lv": "bērns",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson5",
+          "kurssLesson5/legacy"
+        ]
+      },
+      {
+        "de": "artig (ārtich)",
+        "lv": "rātns",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson5",
+          "kurssLesson5/legacy"
+        ]
+      },
+      {
+        "de": "lieben (līben)",
+        "lv": "mīlēt",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson5",
+          "kurssLesson5/legacy"
+        ]
+      },
+      {
+        "de": "der Vater (fāter)",
+        "lv": "tēvs",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson5",
+          "kurssLesson5/legacy"
+        ]
+      },
+      {
+        "de": "Daudz sieviešu kārtas vārdu atvasina ar galotni",
+        "lv": "in.",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson5",
+          "kurssLesson5/legacy"
+        ]
+      },
+      {
+        "de": "er nimmt (nimt)",
+        "lv": "viņš ņem",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson4",
+          "kurssLesson4/legacy"
+        ]
+      },
+      {
+        "de": "der Federhalter (dēr fēderhalter)",
+        "lv": "spalvaskāts",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson4",
+          "kurssLesson4/legacy"
+        ]
+      },
+      {
+        "de": "einen Federhalter",
+        "lv": "spalvaskātu",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson4",
+          "kurssLesson4/legacy"
+        ]
+      },
+      {
+        "de": "zeigen",
+        "lv": "rādīt",
+        "count": 3,
+        "sources": [
+          "HTML:kurssLesson4",
+          "kurssLesson4/legacy",
+          "kurssLesson19/Vārdiņi"
+        ]
+      },
+      {
+        "de": "schwarz (švarc)",
+        "lv": "melns",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson4",
+          "kurssLesson4/legacy"
+        ]
+      },
+      {
+        "de": "weiß (veis)",
+        "lv": "balts",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson4",
+          "kurssLesson4/legacy"
+        ]
+      },
+      {
+        "de": "die Feder (dī fēder)",
+        "lv": "spalva",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson4",
+          "kurssLesson4/legacy"
+        ]
+      },
+      {
+        "de": "eine Feder",
+        "lv": "spalvu",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson4",
+          "kurssLesson4/legacy"
+        ]
+      },
+      {
+        "de": "spitz (špic)",
+        "lv": "smails",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson4",
+          "kurssLesson4/legacy"
+        ]
+      },
+      {
+        "de": "das Mädchen (mētchen)",
+        "lv": "meitene",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson4",
+          "kurssLesson4/legacy"
+        ]
+      },
+      {
+        "de": "ein Messer",
+        "lv": "nazi",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson4",
+          "kurssLesson4/legacy"
+        ]
+      },
+      {
+        "de": "scharf",
+        "lv": "ass",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson4",
+          "kurssLesson4/legacy"
+        ]
+      },
+      {
+        "de": "stumpf (štumpf)",
+        "lv": "neass, truls",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson4",
+          "kurssLesson4/legacy"
+        ]
+      },
+      {
+        "de": "dann",
+        "lv": "tad",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson4",
+          "kurssLesson4/legacy"
+        ]
+      },
+      {
+        "de": "hinaus",
+        "lv": "ārā",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson4",
+          "kurssLesson4/legacy"
+        ]
+      },
+      {
+        "de": "hinausgehen",
+        "lv": "iziet, iet ārā",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson4",
+          "kurssLesson4/legacy"
+        ]
+      },
+      {
+        "de": "Galotnes",
+        "lv": "en, -er, -el ir neuzsvērtas, tāpēc e šajās galotnēs ir vāji sadzirdams: kommen, nehmen, der Federhalter.",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson4",
+          "kurssLesson4/legacy"
+        ]
+      },
+      {
+        "de": "er",
+        "lv": "vīriešu kārta",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson4",
+          "kurssLesson4/legacy"
+        ]
+      },
+      {
+        "de": "sie",
+        "lv": "sieviešu kārta",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson4",
+          "kurssLesson4/legacy"
+        ]
+      },
+      {
+        "de": "es",
+        "lv": "vidējā kārta",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson4",
+          "kurssLesson4/legacy"
+        ]
+      },
+      {
+        "de": "daudzskaitlī",
+        "lv": "sie",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson4",
+          "kurssLesson4/legacy"
+        ]
+      },
+      {
+        "de": "Lietvārdi ar galotni",
+        "lv": "chen un -lein ir vidējā kārtā: das Mädchen.",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson4",
+          "kurssLesson4/legacy"
+        ]
+      },
+      {
+        "de": "wer",
+        "lv": "kas",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson3",
+          "kurssLesson3/legacy"
+        ]
+      },
+      {
+        "de": "was",
+        "lv": "kas",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson3",
+          "kurssLesson3/legacy"
+        ]
+      },
+      {
+        "de": "hier",
+        "lv": "šeit",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson3",
+          "kurssLesson3/legacy"
+        ]
+      },
+      {
+        "de": "ein Tisch",
+        "lv": "galds",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson3",
+          "kurssLesson3/legacy"
+        ]
+      },
+      {
+        "de": "die Bank",
+        "lv": "sols",
+        "count": 4,
+        "sources": [
+          "HTML:kurssLesson3",
+          "kurssLesson3/legacy",
+          "kurssLesson18/Vārdiņi"
+        ]
+      },
+      {
+        "de": "eine Bank",
+        "lv": "sols",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson3",
+          "kurssLesson3/legacy"
+        ]
+      },
+      {
+        "de": "liegen",
+        "lv": "atrasties guļus",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson3",
+          "kurssLesson3/legacy"
+        ]
+      },
+      {
+        "de": "liegt hier ein Buch?",
+        "lv": "vai šeit ir / atrodas grāmata?",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson3",
+          "kurssLesson3/legacy"
+        ]
+      },
+      {
+        "de": "das Buch",
+        "lv": "grāmata",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson3",
+          "kurssLesson3/legacy"
+        ]
+      },
+      {
+        "de": "ein Buch",
+        "lv": "grāmata",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson3",
+          "kurssLesson3/legacy"
+        ]
+      },
+      {
+        "de": "hängen",
+        "lv": "karāties",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson3",
+          "kurssLesson3/legacy"
+        ]
+      },
+      {
+        "de": "das Bild",
+        "lv": "bilde",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson3",
+          "kurssLesson3/legacy"
+        ]
+      },
+      {
+        "de": "ein Bild",
+        "lv": "bilde",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson3",
+          "kurssLesson3/legacy"
+        ]
+      },
+      {
+        "de": "die Tafel",
+        "lv": "tāfele",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson3",
+          "kurssLesson3/legacy"
+        ]
+      },
+      {
+        "de": "eine Tafel",
+        "lv": "tāfele",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson3",
+          "kurssLesson3/legacy"
+        ]
+      },
+      {
+        "de": "wie",
+        "lv": "kāds, kāda",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson3",
+          "kurssLesson3/legacy"
+        ]
+      },
+      {
+        "de": "ist",
+        "lv": "ir",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson3",
+          "kurssLesson3/legacy"
+        ]
+      },
+      {
+        "de": "dick",
+        "lv": "biezs, resns",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson3",
+          "kurssLesson3/legacy"
+        ]
+      },
+      {
+        "de": "das Heft",
+        "lv": "burtnīca",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson3",
+          "kurssLesson3/legacy"
+        ]
+      },
+      {
+        "de": "ein Heft",
+        "lv": "burtnīca",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson3",
+          "kurssLesson3/legacy"
+        ]
+      },
+      {
+        "de": "dünn",
+        "lv": "plāns, tievs",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson3",
+          "kurssLesson3/legacy"
+        ]
+      },
+      {
+        "de": "niedrig",
+        "lv": "zems",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson3",
+          "kurssLesson3/legacy"
+        ]
+      },
+      {
+        "de": "hoch",
+        "lv": "augsts",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson3",
+          "kurssLesson3/legacy"
+        ]
+      },
+      {
+        "de": "Īpašības un apstākļu vārdos galotne",
+        "lv": "ig izskan kā viegls -ich: niedrig (nīdrich).",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson3",
+          "kurssLesson3/legacy"
+        ]
+      },
+      {
+        "de": "Ja galotne",
+        "lv": "ig beidzas ar e: -ige, tad g izrunā kā noteiktu g skaņu: niedrige (nīdrige) Bänke.",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson3",
+          "kurssLesson3/legacy"
+        ]
+      },
+      {
+        "de": "Wer singt?",
+        "lv": "Sie singt.",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson3",
+          "kurssLesson3/legacy"
+        ]
+      },
+      {
+        "de": "Was liegt hier?",
+        "lv": "Hier liegt ein Buch.",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson3",
+          "kurssLesson3/legacy"
+        ]
+      },
+      {
+        "de": "vīriešu kārta",
+        "lv": "der",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson3",
+          "kurssLesson3/legacy"
+        ]
+      },
+      {
+        "de": "sieviešu kārta",
+        "lv": "die",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson3",
+          "kurssLesson3/legacy"
+        ]
+      },
+      {
+        "de": "vidējā kārta",
+        "lv": "das",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson3",
+          "kurssLesson3/legacy"
+        ]
+      },
+      {
+        "de": "der Tisch",
+        "lv": "die Tische",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson3",
+          "kurssLesson3/legacy"
+        ]
+      },
+      {
+        "de": "die Bank",
+        "lv": "die Bänke",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson3",
+          "kurssLesson3/legacy"
+        ]
+      },
+      {
+        "de": "das Heft",
+        "lv": "die Hefte",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson3",
+          "kurssLesson3/legacy"
+        ]
+      },
+      {
+        "de": "vīriešu kārta",
+        "lv": "ein",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson3",
+          "kurssLesson3/legacy"
+        ]
+      },
+      {
+        "de": "sieviešu kārta",
+        "lv": "eine",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson3",
+          "kurssLesson3/legacy"
+        ]
+      },
+      {
+        "de": "vidējā kārta",
+        "lv": "ein",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson3",
+          "kurssLesson3/legacy"
+        ]
+      },
+      {
+        "de": "ein Tisch",
+        "lv": "Tische",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson3",
+          "kurssLesson3/legacy"
+        ]
+      },
+      {
+        "de": "ein Heft",
+        "lv": "Hefte",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson3",
+          "kurssLesson3/legacy"
+        ]
+      },
+      {
+        "de": "singe",
+        "lv": "dziedi",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson7",
+          "kurssLesson7/legacy"
+        ]
+      },
+      {
+        "de": "singt",
+        "lv": "dziediet",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson7",
+          "kurssLesson7/legacy"
+        ]
+      },
+      {
+        "de": "singen Sie",
+        "lv": "dziediet",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson7",
+          "kurssLesson7/legacy"
+        ]
+      },
+      {
+        "de": "das Lied (das līt)",
+        "lv": "dziesma",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson7",
+          "kurssLesson7/legacy"
+        ]
+      },
+      {
+        "de": "Sie",
+        "lv": "Jūs",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson7",
+          "kurssLesson7/legacy"
+        ]
+      },
+      {
+        "de": "zählen",
+        "lv": "skaitīt",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson7",
+          "kurssLesson7/legacy"
+        ]
+      },
+      {
+        "de": "das Fräulein (froilein)",
+        "lv": "jaunkundze",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson7",
+          "kurssLesson7/legacy"
+        ]
+      },
+      {
+        "de": "der Müller",
+        "lv": "dzirnavnieks",
+        "count": 3,
+        "sources": [
+          "HTML:kurssLesson7",
+          "kurssLesson7/legacy",
+          "kurssLesson8/Vārdi"
+        ]
+      },
+      {
+        "de": "öffnen",
+        "lv": "atvērt",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson7",
+          "kurssLesson7/legacy"
+        ]
+      },
+      {
+        "de": "alle",
+        "lv": "visi",
+        "count": 3,
+        "sources": [
+          "HTML:kurssLesson7",
+          "kurssLesson7/legacy",
+          "kurssLesson8/Vārdi"
+        ]
+      },
+      {
+        "de": "der Spiegel (špīgel)",
+        "lv": "spogulis",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson7",
+          "kurssLesson7/legacy"
+        ]
+      },
+      {
+        "de": "der Lappen",
+        "lv": "lupata, slaukis",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson7",
+          "kurssLesson7/legacy"
+        ]
+      },
+      {
+        "de": "der Spaten",
+        "lv": "lāpsta",
+        "count": 3,
+        "sources": [
+          "HTML:kurssLesson7",
+          "kurssLesson7/legacy",
+          "kurssLesson17/Vārdiņi"
+        ]
+      },
+      {
+        "de": "der Besen",
+        "lv": "slota",
+        "count": 3,
+        "sources": [
+          "HTML:kurssLesson7",
+          "kurssLesson7/legacy",
+          "kurssLesson17/Vārdiņi"
+        ]
+      },
+      {
+        "de": "die Schaufel",
+        "lv": "lāpstiņa",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson7",
+          "kurssLesson7/legacy"
+        ]
+      },
+      {
+        "de": "die Schüssel",
+        "lv": "bļoda",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson7",
+          "kurssLesson7/legacy"
+        ]
+      },
+      {
+        "de": "das Zimmer",
+        "lv": "istaba",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson7",
+          "kurssLesson7/legacy"
+        ]
+      },
+      {
+        "de": "das Ufer (ūfer)",
+        "lv": "krasts",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson7",
+          "kurssLesson7/legacy"
+        ]
+      },
+      {
+        "de": "Pavēles izteiksme vienskaitļa 2. personā atbilst darbības vārda 2. personai vienskaitlī bez personu galotnes",
+        "lv": "st, pieliekot galotni -e.",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson7",
+          "kurssLesson7/legacy"
+        ]
+      },
+      {
+        "de": "Ļoti bieži galotne",
+        "lv": "e netiek lietota, ja pavēles forma ar to kļūst vienzilbīga: geh!, steh!, komm!, tu!, sing!, frag!",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson7",
+          "kurssLesson7/legacy"
+        ]
+      },
+      {
+        "de": "wir (vīr)",
+        "lv": "mēs",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson1",
+          "kurssLesson1/legacy"
+        ]
+      },
+      {
+        "de": "kommen (komen)",
+        "lv": "nākt",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson1",
+          "kurssLesson1/legacy"
+        ]
+      },
+      {
+        "de": "gehen (gē",
+        "lv": "en) — iet",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson1",
+          "kurssLesson1/legacy"
+        ]
+      },
+      {
+        "de": "stehen (štē",
+        "lv": "en) — stāvēt",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson1",
+          "kurssLesson1/legacy"
+        ]
+      },
+      {
+        "de": "du (dū) kommst",
+        "lv": "tu nāc",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson1",
+          "kurssLesson1/legacy"
+        ]
+      },
+      {
+        "de": "er (ēr) kommt",
+        "lv": "viņš nāk",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson1",
+          "kurssLesson1/legacy"
+        ]
+      },
+      {
+        "de": "sie (zī) kommt",
+        "lv": "viņa nāk",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson1",
+          "kurssLesson1/legacy"
+        ]
+      },
+      {
+        "de": "wer (vēr)",
+        "lv": "kas?",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson1",
+          "kurssLesson1/legacy"
+        ]
+      },
+      {
+        "de": "ja (jā)",
+        "lv": "jā",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson1",
+          "kurssLesson1/legacy"
+        ]
+      },
+      {
+        "de": "Wir (vīr)",
+        "lv": "mēs. Vārdā wir ī izrunājams vienmēr gari.",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson1",
+          "kurssLesson1/legacy"
+        ]
+      },
+      {
+        "de": "Darbības vārda pamatforma. Parasti infinitīvs beidzas ar",
+        "lv": "en.",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson1",
+          "kurssLesson1/legacy"
+        ]
+      },
+      {
+        "de": "ich →",
+        "lv": "e",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson1",
+          "kurssLesson1/legacy"
+        ]
+      },
+      {
+        "de": "du →",
+        "lv": "st",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson1",
+          "kurssLesson1/legacy"
+        ]
+      },
+      {
+        "de": "er / sie →",
+        "lv": "t",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson1",
+          "kurssLesson1/legacy"
+        ]
+      },
+      {
+        "de": "wir →",
+        "lv": "en",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson1",
+          "kurssLesson1/legacy"
+        ]
+      },
+      {
+        "de": "ihr →",
+        "lv": "t",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson1",
+          "kurssLesson1/legacy"
+        ]
+      },
+      {
+        "de": "sie →",
+        "lv": "en",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson1",
+          "kurssLesson1/legacy"
+        ]
+      },
+      {
+        "de": "kommst du?",
+        "lv": "vai tu nāc?",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson1",
+          "kurssLesson1/legacy"
+        ]
+      },
+      {
+        "de": "singt er?",
+        "lv": "vai viņš dzied?",
+        "count": 2,
+        "sources": [
+          "HTML:kurssLesson1",
+          "kurssLesson1/legacy"
+        ]
+      },
+      {
+        "de": "krank",
+        "lv": "slims",
+        "count": 2,
+        "sources": [
+          "kurssLesson10/Vārdi",
+          "kurssLesson12/Vārdi"
+        ]
+      },
+      {
+        "de": "lernen",
+        "lv": "mācīties",
+        "count": 2,
+        "sources": [
+          "kurssLesson10/Vārdi",
+          "kurssLesson14/Vārdiņi"
+        ]
+      },
+      {
+        "de": "alt",
+        "lv": "vecs",
+        "count": 2,
+        "sources": [
+          "kurssLesson10/Vārdi",
+          "kurssLesson12/Vārdi"
+        ]
+      },
+      {
+        "de": "der Schrank",
+        "lv": "skapis",
+        "count": 2,
+        "sources": [
+          "kurssLesson11/Vārdi",
+          "kurssLesson19/Vārdiņi"
+        ]
+      },
+      {
+        "de": "denn",
+        "lv": "jo",
+        "count": 2,
+        "sources": [
+          "kurssLesson11/Vārdi",
+          "kurssLesson14/Vārdiņi"
+        ]
+      },
+      {
+        "de": "die Grube",
+        "lv": "bedre",
+        "count": 2,
+        "sources": [
+          "kurssLesson12/Vārdi",
+          "kurssLesson17/Vārdiņi"
+        ]
+      },
+      {
+        "de": "groß",
+        "lv": "liels",
+        "count": 2,
+        "sources": [
+          "kurssLesson12/Vārdi",
+          "kurssLesson13/Vārdiņi"
+        ]
+      },
+      {
+        "de": "der Mensch",
+        "lv": "cilvēks",
+        "count": 2,
+        "sources": [
+          "kurssLesson13/Vārdiņi",
+          "kurssLesson20/Vārdiņi"
+        ]
+      },
+      {
+        "de": "werfen",
+        "lv": "mest",
+        "count": 2,
+        "sources": [
+          "kurssLesson17/Vārdiņi",
+          "kurssLesson19/Vārdiņi"
+        ]
+      },
+      {
+        "de": "die Diele",
+        "lv": "grīda",
+        "count": 2,
+        "sources": [
+          "kurssLesson17/Vārdiņi",
+          "kurssLesson18/Vārdiņi"
+        ]
+      },
+      {
+        "de": "helfen",
+        "lv": "palīdzēt",
+        "count": 2,
+        "sources": [
+          "kurssLesson17/Vārdiņi",
+          "kurssLesson21/Vārdiņi"
+        ]
+      },
+      {
+        "de": "mit",
+        "lv": "ar",
+        "count": 2,
+        "sources": [
+          "kurssLesson17/Vārdiņi",
+          "kurssLesson21/Vārdiņi"
+        ]
+      },
+      {
+        "de": "tragen",
+        "lv": "nest",
+        "count": 2,
+        "sources": [
+          "kurssLesson18/Vārdiņi",
+          "kurssLesson20/Vārdiņi"
+        ]
+      },
+      {
+        "de": "die Brücke",
+        "lv": "tilts",
+        "count": 2,
+        "sources": [
+          "kurssLesson19/Vārdiņi",
+          "kurssLesson21/Vārdiņi"
+        ]
+      },
+      {
+        "de": "die Scheune",
+        "lv": "šķūnis",
+        "count": 2,
+        "sources": [
+          "kurssLesson19/Vārdiņi",
+          "kurssLesson21/Vārdiņi"
+        ]
+      },
+      {
+        "de": "das Feld",
+        "lv": "lauks",
+        "count": 2,
+        "sources": [
+          "kurssLesson19/Vārdiņi",
+          "kurssLesson21/Vārdiņi"
+        ]
+      },
+      {
+        "de": "die Stadt",
+        "lv": "pilsēta",
+        "count": 2,
+        "sources": [
+          "kurssLesson19/Vārdiņi",
+          "kurssLesson20/Vārdiņi"
+        ]
+      },
+      {
+        "de": "der Berg",
+        "lv": "kalns",
+        "count": 2,
+        "sources": [
+          "kurssLesson19/Vārdiņi",
+          "kurssLesson21/Vārdiņi"
+        ]
+      },
+      {
+        "de": "die Küche",
+        "lv": "virtuve",
+        "count": 2,
+        "sources": [
+          "kurssLesson20/Vārdiņi",
+          "kurssLesson21/Vārdiņi"
+        ]
+      },
+      {
+        "de": "der Keller",
+        "lv": "pagrabs",
+        "count": 2,
+        "sources": [
+          "kurssLesson20/Vārdiņi",
+          "kurssLesson21/Vārdiņi"
+        ]
+      }
+    ],
+    "vocab_semicolon": [],
+    "vocab_upper_lv": [
+      {
+        "de": "Max (maks)",
+        "lv": "Maksis",
+        "source": "kurssLesson12/Vārdi"
+      },
+      {
+        "de": "Vārdos die Küche, die Dächer: ch izrunā kā “h” tipa skaņu, kā vācu ich",
+        "lv": "Laut.",
+        "source": "kurssLesson20/Izruna"
+      }
+    ],
+    "empty_lv": [],
+    "empty_de": []
+  }
+}
