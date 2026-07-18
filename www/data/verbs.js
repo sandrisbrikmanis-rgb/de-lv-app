@@ -18,7 +18,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gebacken",
-      "lv": "Cepts • Izcepts"
+      "lv": "cepts / izcepts"
     }
   },
   {
@@ -75,7 +75,7 @@ const VERB_ENTRIES = [
       "lv": "viņš kož"
     },
     "imperfektIndikativ": {
-      "de": "er biß",
+      "de": "er biss",
       "lv": "viņš koda"
     },
     "imperfektKonjunktiv": {
@@ -84,7 +84,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gebissen",
-      "lv": "Kosts • Sakosts"
+      "lv": "kosts / sakosts"
     }
   },
   {
@@ -106,7 +106,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geborgen",
-      "lv": "Paslēpts • Paglābts"
+      "lv": "paslēpts / paglābts"
     }
   },
   {
@@ -194,271 +194,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geboten",
-      "lv": "Solīts • Piedāvāts"
-    }
-  },
-  {
-    "infinitiv": {
-      "de": "binden",
-      "lv": "siet"
-    },
-    "praesens": {
-      "de": "er bindet",
-      "lv": "viņš sien"
-    },
-    "imperfektIndikativ": {
-      "de": "er band",
-      "lv": "viņš sēja"
-    },
-    "imperfektKonjunktiv": {
-      "de": "er bände",
-      "lv": "viņš sietu"
-    },
-    "partizipVergangenheit": {
-      "de": "gebunden",
-      "lv": "siets"
-    }
-  },
-  {
-    "infinitiv": {
-      "de": "bitten",
-      "lv": "lūgt"
-    },
-    "praesens": {
-      "de": "er bittet",
-      "lv": "viņš lūdz"
-    },
-    "imperfektIndikativ": {
-      "de": "er bat",
-      "lv": "viņš lūdza"
-    },
-    "imperfektKonjunktiv": {
-      "de": "er bäte",
-      "lv": "viņš lūgtu"
-    },
-    "partizipVergangenheit": {
-      "de": "gebeten",
-      "lv": "lūgts"
-    }
-  },
-  {
-    "infinitiv": {
-      "de": "blasen",
-      "lv": "pūst"
-    },
-    "praesens": {
-      "de": "er bläst",
-      "lv": "viņš pūš"
-    },
-    "imperfektIndikativ": {
-      "de": "er blies",
-      "lv": "viņš pūta"
-    },
-    "imperfektKonjunktiv": {
-      "de": "er bliese",
-      "lv": "viņš pūstu"
-    },
-    "partizipVergangenheit": {
-      "de": "geblasen",
-      "lv": "pūsts"
-    }
-  },
-  {
-    "infinitiv": {
-      "de": "backen",
-      "lv": "cept"
-    },
-    "praesens": {
-      "de": "er bäckt",
-      "lv": "viņš cep"
-    },
-    "imperfektIndikativ": {
-      "de": "er buk",
-      "lv": "viņš cepa"
-    },
-    "imperfektKonjunktiv": {
-      "de": "er büke",
-      "lv": "viņš ceptu"
-    },
-    "partizipVergangenheit": {
-      "de": "gebacken",
-      "lv": "Cepts • Izcepts"
-    }
-  },
-  {
-    "infinitiv": {
-      "de": "befehlen",
-      "lv": "pavēlēt"
-    },
-    "praesens": {
-      "de": "er befiehlt",
-      "lv": "viņš pavēl"
-    },
-    "imperfektIndikativ": {
-      "de": "er befahl",
-      "lv": "viņš pavēlēja"
-    },
-    "imperfektKonjunktiv": {
-      "de": "er beföhle",
-      "lv": "viņš pavēlētu"
-    },
-    "partizipVergangenheit": {
-      "de": "befohlen",
-      "lv": "pavēlēts"
-    }
-  },
-  {
-    "infinitiv": {
-      "de": "beginnen",
-      "lv": "sākt"
-    },
-    "praesens": {
-      "de": "er beginnt",
-      "lv": "viņš sāk"
-    },
-    "imperfektIndikativ": {
-      "de": "er begann",
-      "lv": "viņš sāka"
-    },
-    "imperfektKonjunktiv": {
-      "de": "er begönne / er begänne",
-      "lv": "viņš sāktu"
-    },
-    "partizipVergangenheit": {
-      "de": "begonnen",
-      "lv": "sākts"
-    }
-  },
-  {
-    "infinitiv": {
-      "de": "beißen",
-      "lv": "kost"
-    },
-    "praesens": {
-      "de": "er beißt",
-      "lv": "viņš kož"
-    },
-    "imperfektIndikativ": {
-      "de": "er biß",
-      "lv": "viņš koda"
-    },
-    "imperfektKonjunktiv": {
-      "de": "er bisse",
-      "lv": "viņš kostu"
-    },
-    "partizipVergangenheit": {
-      "de": "gebissen",
-      "lv": "Kosts • Sakosts"
-    }
-  },
-  {
-    "infinitiv": {
-      "de": "bergen",
-      "lv": "slēpt"
-    },
-    "praesens": {
-      "de": "er birgt",
-      "lv": "viņš slēpj"
-    },
-    "imperfektIndikativ": {
-      "de": "er barg",
-      "lv": "viņš slēpa"
-    },
-    "imperfektKonjunktiv": {
-      "de": "er bürge / er bärge",
-      "lv": "viņš slēptu"
-    },
-    "partizipVergangenheit": {
-      "de": "geborgen",
-      "lv": "Paslēpts • Paglābts"
-    }
-  },
-  {
-    "infinitiv": {
-      "de": "bersten",
-      "lv": "plīst"
-    },
-    "praesens": {
-      "de": "er birst",
-      "lv": "viņš plīst"
-    },
-    "imperfektIndikativ": {
-      "de": "er barst / er borst",
-      "lv": "viņš plīsa"
-    },
-    "imperfektKonjunktiv": {
-      "de": "er bärste / er börste",
-      "lv": "viņš plīstu"
-    },
-    "partizipVergangenheit": {
-      "de": "geborsten (er ist)",
-      "lv": "saplīsis"
-    }
-  },
-  {
-    "infinitiv": {
-      "de": "bewegen",
-      "lv": "pamudināt"
-    },
-    "praesens": {
-      "de": "er bewegt",
-      "lv": "viņš pamudina"
-    },
-    "imperfektIndikativ": {
-      "de": "er bewog",
-      "lv": "viņš pamudināja"
-    },
-    "imperfektKonjunktiv": {
-      "de": "er bewöge",
-      "lv": "viņš pamudinātu"
-    },
-    "partizipVergangenheit": {
-      "de": "bewogen",
-      "lv": "pamudināts"
-    }
-  },
-  {
-    "infinitiv": {
-      "de": "biegen",
-      "lv": "locīt"
-    },
-    "praesens": {
-      "de": "er biegt",
-      "lv": "viņš loka"
-    },
-    "imperfektIndikativ": {
-      "de": "er bog",
-      "lv": "viņš locīja"
-    },
-    "imperfektKonjunktiv": {
-      "de": "er böge",
-      "lv": "viņš locītu"
-    },
-    "partizipVergangenheit": {
-      "de": "gebogen",
-      "lv": "locīts"
-    }
-  },
-  {
-    "infinitiv": {
-      "de": "bieten",
-      "lv": "solīt"
-    },
-    "praesens": {
-      "de": "er bietet",
-      "lv": "viņš sola"
-    },
-    "imperfektIndikativ": {
-      "de": "er bot",
-      "lv": "viņš solīja"
-    },
-    "imperfektKonjunktiv": {
-      "de": "er böte",
-      "lv": "viņš solītu"
-    },
-    "partizipVergangenheit": {
-      "de": "geboten",
-      "lv": "Solīts • Piedāvāts"
+      "lv": "solīts / piedāvāts"
     }
   },
   {
@@ -568,7 +304,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geboren",
-      "lv": "Dzemdēts • Piedzimis"
+      "lv": "dzemdēts / piedzimis"
     }
   },
   {
@@ -600,7 +336,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er gilt",
-      "lv": "Viņš der • Ir spēkā"
+      "lv": "viņš der / ir spēkā"
     },
     "imperfektIndikativ": {
       "de": "er galt",
@@ -647,7 +383,7 @@ const VERB_ENTRIES = [
       "lv": "viņš bauda"
     },
     "imperfektIndikativ": {
-      "de": "er genoß",
+      "de": "er genoss",
       "lv": "viņš baudīja"
     },
     "imperfektKonjunktiv": {
@@ -691,7 +427,7 @@ const VERB_ENTRIES = [
       "lv": "viņš lej"
     },
     "imperfektIndikativ": {
-      "de": "er goß",
+      "de": "er goss",
       "lv": "viņš lēja"
     },
     "imperfektKonjunktiv": {
@@ -810,7 +546,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gegriffen",
-      "lv": "Ķerts • Satverts"
+      "lv": "ķerts / satverts"
     }
   },
   {
@@ -860,11 +596,11 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "kennen",
-      "lv": "Pazīt • Zināt"
+      "lv": "pazīt / zināt"
     },
     "praesens": {
-      "de": "kennen",
-      "lv": "pazīt / zināt"
+      "de": "er kennt",
+      "lv": "viņš pazīst"
     },
     "imperfektIndikativ": {
       "de": "kannte",
@@ -951,8 +687,8 @@ const VERB_ENTRIES = [
       "lv": "balināt"
     },
     "praesens": {
-      "de": "bleichen",
-      "lv": "balināt"
+      "de": "er bleicht",
+      "lv": "viņš balina"
     },
     "imperfektIndikativ": {
       "de": "blich",
@@ -986,7 +722,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gebraten",
-      "lv": "Cepts • Izcepts"
+      "lv": "cepts / izcepts"
     }
   },
   {
@@ -1008,7 +744,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gebrochen",
-      "lv": "Lauzts • Salauzts"
+      "lv": "lauzts / salauzts"
     }
   },
   {
@@ -1017,8 +753,8 @@ const VERB_ENTRIES = [
       "lv": "degt"
     },
     "praesens": {
-      "de": "brennen",
-      "lv": "degt"
+      "de": "er brennt",
+      "lv": "viņš deg"
     },
     "imperfektIndikativ": {
       "de": "brannte",
@@ -1052,7 +788,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gebracht",
-      "lv": "Nests • Atnests"
+      "lv": "nests / atnests"
     }
   },
   {
@@ -1080,11 +816,11 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "dingen",
-      "lv": "Nolīgt • Vienoties"
+      "lv": "nolīgt / vienoties"
     },
     "praesens": {
-      "de": "dingen",
-      "lv": "nolīgt / vienoties"
+      "de": "er dingt",
+      "lv": "viņš nolīgst"
     },
     "imperfektIndikativ": {
       "de": "dingte",
@@ -1149,8 +885,8 @@ const VERB_ENTRIES = [
       "lv": "šķist"
     },
     "praesens": {
-      "de": "dünken",
-      "lv": "šķist"
+      "de": "es dünkt",
+      "lv": "tas šķiet"
     },
     "imperfektIndikativ": {
       "de": "deuchte",
@@ -1171,8 +907,8 @@ const VERB_ENTRIES = [
       "lv": "drīkstēt"
     },
     "praesens": {
-      "de": "dürfen",
-      "lv": "drīkstēt"
+      "de": "er darf",
+      "lv": "viņš drīkst"
     },
     "imperfektIndikativ": {
       "de": "durfte",
@@ -1281,11 +1017,11 @@ const VERB_ENTRIES = [
       "lv": "ēst"
     },
     "praesens": {
-      "de": "er ißt",
+      "de": "er isst",
       "lv": "viņš ēd"
     },
     "imperfektIndikativ": {
-      "de": "er aß",
+      "de": "er ass",
       "lv": "viņš ēda"
     },
     "imperfektKonjunktiv": {
@@ -1294,7 +1030,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gegessen",
-      "lv": "Ēsts • Apēsts"
+      "lv": "ēsts / apēsts"
     }
   },
   {
@@ -1316,7 +1052,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gefahren (er ist)",
-      "lv": "Braucis • Aizbraucis"
+      "lv": "braucis / aizbraucis"
     }
   },
   {
@@ -1360,7 +1096,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gefangen",
-      "lv": "Ķerts • Noķerts"
+      "lv": "ķerts / noķerts"
     }
   },
   {
@@ -1439,7 +1175,7 @@ const VERB_ENTRIES = [
       "lv": "viņš tek"
     },
     "imperfektIndikativ": {
-      "de": "er floß",
+      "de": "er floss",
       "lv": "viņš tecēja"
     },
     "imperfektKonjunktiv": {
@@ -1457,11 +1193,11 @@ const VERB_ENTRIES = [
       "lv": "ēst, rīt"
     },
     "praesens": {
-      "de": "er frißt",
-      "lv": "Viņš ēd • Rij"
+      "de": "er frisst",
+      "lv": "viņš ēd / rij"
     },
     "imperfektIndikativ": {
-      "de": "er fraß",
+      "de": "er frass",
       "lv": "viņš ēda / rija"
     },
     "imperfektKonjunktiv": {
@@ -1586,11 +1322,11 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "haben",
-      "lv": "Būt • Piederēt"
+      "lv": "būt / piederēt"
     },
     "praesens": {
-      "de": "haben",
-      "lv": "būt / piederēt"
+      "de": "er hat",
+      "lv": "viņam ir"
     },
     "imperfektIndikativ": {
       "de": "hatte",
@@ -1634,7 +1370,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er heißt",
-      "lv": "Viņš sauc • Viņu sauc"
+      "lv": "viņš sauc / viņu sauc"
     },
     "imperfektIndikativ": {
       "de": "er hieß",
@@ -1699,8 +1435,8 @@ const VERB_ENTRIES = [
       "lv": "varēt"
     },
     "praesens": {
-      "de": "können",
-      "lv": "varēt"
+      "de": "er kann",
+      "lv": "viņš var"
     },
     "imperfektIndikativ": {
       "de": "konnte",
@@ -1744,7 +1480,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er lädt",
-      "lv": "Viņš krauj • Ielūdz"
+      "lv": "viņš krauj / ielūdz"
     },
     "imperfektIndikativ": {
       "de": "er lud",
@@ -1765,8 +1501,8 @@ const VERB_ENTRIES = [
       "lv": "likt, ļaut"
     },
     "praesens": {
-      "de": "er läßt",
-      "lv": "Viņš liek • Ļauj"
+      "de": "er lässt",
+      "lv": "viņš liek / ļauj"
     },
     "imperfektIndikativ": {
       "de": "er ließ",
@@ -1828,7 +1564,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "leihen",
-      "lv": "Aizdot • Aizņemties"
+      "lv": "aizdot / aizņemties"
     },
     "praesens": {
       "de": "er leiht",
@@ -1985,11 +1721,11 @@ const VERB_ENTRIES = [
       "lv": "mērīt"
     },
     "praesens": {
-      "de": "er mißt",
+      "de": "er misst",
       "lv": "viņš mēra"
     },
     "imperfektIndikativ": {
-      "de": "er maß",
+      "de": "er mass",
       "lv": "viņš mērīja"
     },
     "imperfektKonjunktiv": {
@@ -2007,8 +1743,8 @@ const VERB_ENTRIES = [
       "lv": "neizdoties"
     },
     "praesens": {
-      "de": "misslingen",
-      "lv": "neizdoties"
+      "de": "es misslingt",
+      "lv": "tas neizdodas"
     },
     "imperfektIndikativ": {
       "de": "misslang",
@@ -2029,8 +1765,8 @@ const VERB_ENTRIES = [
       "lv": "patikt"
     },
     "praesens": {
-      "de": "mögen",
-      "lv": "patikt"
+      "de": "er mag",
+      "lv": "viņam patīk"
     },
     "imperfektIndikativ": {
       "de": "mochte",
@@ -2051,8 +1787,8 @@ const VERB_ENTRIES = [
       "lv": "vajadzēt"
     },
     "praesens": {
-      "de": "müssen",
-      "lv": "vajadzēt"
+      "de": "er muss",
+      "lv": "viņam vajag"
     },
     "imperfektIndikativ": {
       "de": "musste",
@@ -2139,8 +1875,8 @@ const VERB_ENTRIES = [
       "lv": "kopt"
     },
     "praesens": {
-      "de": "pflegen",
-      "lv": "kopt"
+      "de": "er pflegt",
+      "lv": "viņš kopj"
     },
     "imperfektIndikativ": {
       "de": "pflegte vai pflog",
@@ -2202,7 +1938,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "raten",
-      "lv": "Ieteikt • Minēt"
+      "lv": "ieteikt / minēt"
     },
     "praesens": {
       "de": "er rät",
@@ -2253,7 +1989,7 @@ const VERB_ENTRIES = [
       "lv": "viņš rauj"
     },
     "imperfektIndikativ": {
-      "de": "er riß",
+      "de": "er riss",
       "lv": "viņš rāva"
     },
     "imperfektKonjunktiv": {
@@ -2372,7 +2108,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geronnen (er ist)",
-      "lv": "Tecējis • Sarecējis"
+      "lv": "tecējis / sarecējis"
     }
   },
   {
@@ -2422,7 +2158,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "saufen",
-      "lv": "Žūpot • Dzert"
+      "lv": "žūpot / dzert"
     },
     "praesens": {
       "de": "er säuft",
@@ -2491,8 +2227,8 @@ const VERB_ENTRIES = [
       "lv": "skanēt"
     },
     "praesens": {
-      "de": "schallen",
-      "lv": "skanēt"
+      "de": "es schallt",
+      "lv": "tas skan"
     },
     "imperfektIndikativ": {
       "de": "schallte vai scholl",
@@ -2510,7 +2246,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "scheiden",
-      "lv": "Šķirt • Šķirties"
+      "lv": "šķirt / šķirties"
     },
     "praesens": {
       "de": "er scheidet",
@@ -2532,7 +2268,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "scheinen",
-      "lv": "Spīdēt • Likties"
+      "lv": "spīdēt / likties"
     },
     "praesens": {
       "de": "er scheint",
@@ -2579,8 +2315,8 @@ const VERB_ENTRIES = [
       "lv": "cirpt"
     },
     "praesens": {
-      "de": "scheren",
-      "lv": "cirpt"
+      "de": "er schert",
+      "lv": "viņš cirpj"
     },
     "imperfektIndikativ": {
       "de": "schor vai scherte",
@@ -2627,7 +2363,7 @@ const VERB_ENTRIES = [
       "lv": "viņš šauj"
     },
     "imperfektIndikativ": {
-      "de": "er schoß",
+      "de": "er schoss",
       "lv": "viņš šāva"
     },
     "imperfektKonjunktiv": {
@@ -2645,8 +2381,8 @@ const VERB_ENTRIES = [
       "lv": "mocīt"
     },
     "praesens": {
-      "de": "schinden",
-      "lv": "mocīt"
+      "de": "er schindet",
+      "lv": "viņš moka"
     },
     "imperfektIndikativ": {
       "de": "schindete",
@@ -2759,7 +2495,7 @@ const VERB_ENTRIES = [
       "lv": "viņš slēdz"
     },
     "imperfektIndikativ": {
-      "de": "er schloß",
+      "de": "er schloss",
       "lv": "viņš slēdza"
     },
     "imperfektKonjunktiv": {
@@ -2803,7 +2539,7 @@ const VERB_ENTRIES = [
       "lv": "viņš met"
     },
     "imperfektIndikativ": {
-      "de": "er schmiß",
+      "de": "er schmiss",
       "lv": "viņš meta"
     },
     "imperfektKonjunktiv": {
@@ -2843,8 +2579,8 @@ const VERB_ENTRIES = [
       "lv": "šņākt"
     },
     "praesens": {
-      "de": "schnauben",
-      "lv": "šņākt"
+      "de": "er schnaubt",
+      "lv": "viņš šņāc"
     },
     "imperfektIndikativ": {
       "de": "schnaubte vai schnob",
@@ -3107,8 +2843,8 @@ const VERB_ENTRIES = [
       "lv": "būt"
     },
     "praesens": {
-      "de": "sein",
-      "lv": "būt"
+      "de": "er ist",
+      "lv": "viņš ir"
     },
     "imperfektIndikativ": {
       "de": "war",
@@ -3151,8 +2887,8 @@ const VERB_ENTRIES = [
       "lv": "vārīt"
     },
     "praesens": {
-      "de": "sieden",
-      "lv": "vārīt"
+      "de": "er siedet",
+      "lv": "viņš vāra"
     },
     "imperfektIndikativ": {
       "de": "sott vai siedete",
@@ -3243,7 +2979,7 @@ const VERB_ENTRIES = [
       "lv": "viņš sēž"
     },
     "imperfektIndikativ": {
-      "de": "er saß",
+      "de": "er sass",
       "lv": "viņš sēdēja"
     },
     "imperfektKonjunktiv": {
@@ -3258,11 +2994,11 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "sollen",
-      "lv": "Vajadzēt • Būt pienākumam"
+      "lv": "vajadzēt / būt pienākumam"
     },
     "praesens": {
-      "de": "sollen",
-      "lv": "vajadzēt / būt pienākumam"
+      "de": "er soll",
+      "lv": "viņam vajag"
     },
     "imperfektIndikativ": {
       "de": "sollte",
@@ -3327,8 +3063,8 @@ const VERB_ENTRIES = [
       "lv": "savienot"
     },
     "praesens": {
-      "de": "spleißen",
-      "lv": "savienot"
+      "de": "er spleißt",
+      "lv": "viņš savieno"
     },
     "imperfektIndikativ": {
       "de": "spliss",
@@ -3375,7 +3111,7 @@ const VERB_ENTRIES = [
       "lv": "viņš plaukst"
     },
     "imperfektIndikativ": {
-      "de": "er sproß",
+      "de": "er spross",
       "lv": "viņš plauka"
     },
     "imperfektKonjunktiv": {
@@ -3434,11 +3170,11 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "stecken",
-      "lv": "Bāzt • Iespraust"
+      "lv": "bāzt / iespraust"
     },
     "praesens": {
-      "de": "stecken",
-      "lv": "bāzt / iespraust"
+      "de": "er steckt",
+      "lv": "viņš bāž"
     },
     "imperfektIndikativ": {
       "de": "stak vai steckte",
@@ -3544,11 +3280,11 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "stieben",
-      "lv": "Putēt • Virpuļot"
+      "lv": "putēt / virpuļot"
     },
     "praesens": {
-      "de": "stieben",
-      "lv": "putēt / virpuļot"
+      "de": "es stiebt",
+      "lv": "tas put"
     },
     "imperfektIndikativ": {
       "de": "stob vai stiebte",
@@ -3569,8 +3305,8 @@ const VERB_ENTRIES = [
       "lv": "smirdēt"
     },
     "praesens": {
-      "de": "stinken",
-      "lv": "smirdēt"
+      "de": "es stinkt",
+      "lv": "tas smird"
     },
     "imperfektIndikativ": {
       "de": "stank",
@@ -3610,7 +3346,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "streichen",
-      "lv": "Krāsot • Strīpot"
+      "lv": "krāsot / strīpot"
     },
     "praesens": {
       "de": "er streicht",
@@ -3720,7 +3456,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "treten",
-      "lv": "Stāties • Iet"
+      "lv": "stāties / iet"
     },
     "praesens": {
       "de": "er tritt",
@@ -3837,7 +3573,7 @@ const VERB_ENTRIES = [
       "lv": "viņš izraisa īgnumu"
     },
     "imperfektIndikativ": {
-      "de": "er verdroß",
+      "de": "er verdross",
       "lv": "viņš izraisīja īgnumu"
     },
     "imperfektKonjunktiv": {
@@ -3855,11 +3591,11 @@ const VERB_ENTRIES = [
       "lv": "aizmirst"
     },
     "praesens": {
-      "de": "er vergißt",
+      "de": "er vergisst",
       "lv": "viņš aizmirst"
     },
     "imperfektIndikativ": {
-      "de": "er vergaß",
+      "de": "er vergass",
       "lv": "viņš aizmirsa"
     },
     "imperfektKonjunktiv": {
@@ -3943,8 +3679,8 @@ const VERB_ENTRIES = [
       "lv": "aust"
     },
     "praesens": {
-      "de": "weben",
-      "lv": "aust"
+      "de": "er webt",
+      "lv": "viņš auž"
     },
     "imperfektIndikativ": {
       "de": "wob",
@@ -4006,7 +3742,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "wenden",
-      "lv": "Grozīt • Apgriezt"
+      "lv": "grozīt / apgriezt"
     },
     "praesens": {
       "de": "er wendet",
@@ -4053,8 +3789,8 @@ const VERB_ENTRIES = [
       "lv": "kļūt"
     },
     "praesens": {
-      "de": "werden",
-      "lv": "kļūt"
+      "de": "er wird",
+      "lv": "viņš kļūst"
     },
     "imperfektIndikativ": {
       "de": "wurde",
@@ -4145,15 +3881,15 @@ const VERB_ENTRIES = [
       "lv": "viņš zina"
     },
     "imperfektIndikativ": {
-      "de": "er wußte",
+      "de": "er wusste",
       "lv": "viņš zināja"
     },
     "imperfektKonjunktiv": {
-      "de": "er wüßte",
+      "de": "er wüsste",
       "lv": "viņš zinātu"
     },
     "partizipVergangenheit": {
-      "de": "gewußt",
+      "de": "gewusst",
       "lv": "zināts"
     }
   },
@@ -4163,8 +3899,8 @@ const VERB_ENTRIES = [
       "lv": "gribēt"
     },
     "praesens": {
-      "de": "wollen",
-      "lv": "gribēt"
+      "de": "er will",
+      "lv": "viņš grib"
     },
     "imperfektIndikativ": {
       "de": "wollte",
@@ -4182,11 +3918,11 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "wringen",
-      "lv": "Izgriezt • Izspiest"
+      "lv": "izgriezt / izspiest"
     },
     "praesens": {
-      "de": "wringen",
-      "lv": "izgriezt / izspiest"
+      "de": "er wringt",
+      "lv": "viņš izgriež"
     },
     "imperfektIndikativ": {
       "de": "wrang",
@@ -4207,8 +3943,8 @@ const VERB_ENTRIES = [
       "lv": "vainot"
     },
     "praesens": {
-      "de": "zeihen",
-      "lv": "vainot"
+      "de": "er zeiht",
+      "lv": "viņš vaino"
     },
     "imperfektIndikativ": {
       "de": "zieh",
