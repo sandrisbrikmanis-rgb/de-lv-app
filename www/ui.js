@@ -3394,44 +3394,12 @@ function resetReviewDataForGroup(groupKey) {
 
 function verbForms(verb) {
   const infinitiv = (verb.infinitiv && verb.infinitiv.de) || verb.tagadne || (verb.present && verb.present.de) || "";
-  const praesensDisplay = {
-    kennen: { de: "er kennt", lv: "viņš pazīst" },
-    bleichen: { de: "er bleicht", lv: "viņš balina" },
-    brennen: { de: "er brennt", lv: "viņš deg" },
-    dingen: { de: "er dingt", lv: "viņš nolīgst" },
-    dünken: { de: "es dünkt", lv: "tas šķiet" },
-    dürfen: { de: "er darf", lv: "viņš drīkst" },
-    haben: { de: "er hat", lv: "viņam ir" },
-    können: { de: "er kann", lv: "viņš var" },
-    misslingen: { de: "es misslingt", lv: "tas neizdodas" },
-    mögen: { de: "er mag", lv: "viņam patīk" },
-    müssen: { de: "er muss", lv: "viņam vajag" },
-    pflegen: { de: "er pflegt", lv: "viņš kopj" },
-    schallen: { de: "es schallt", lv: "tas skan" },
-    scheren: { de: "er schert", lv: "viņš cirpj" },
-    schinden: { de: "er schindet", lv: "viņš moka" },
-    schnauben: { de: "er schnaubt", lv: "viņš šņāc" },
-    sein: { de: "er ist", lv: "viņš ir" },
-    sieden: { de: "er siedet", lv: "viņš vāra" },
-    sollen: { de: "er soll", lv: "viņam vajag" },
-    spleißen: { de: "er spleißt", lv: "viņš savieno" },
-    stecken: { de: "er steckt", lv: "viņš bāž" },
-    stieben: { de: "es stiebt", lv: "tas put" },
-    stinken: { de: "es stinkt", lv: "tas smird" },
-    weben: { de: "er webt", lv: "viņš auž" },
-    werden: { de: "er wird", lv: "viņš kļūst" },
-    wollen: { de: "er will", lv: "viņš grib" },
-    wringen: { de: "er wringt", lv: "viņš izgriež" },
-    zeihen: { de: "er zeiht", lv: "viņš vaino" }
-  }[infinitiv];
-  const storedPraesens = (verb.praesens && verb.praesens.de) || "";
-  const useDisplayPraesens = praesensDisplay && storedPraesens === infinitiv;
 
   return {
     infinitiv,
     infinitivLv: (verb.infinitiv && verb.infinitiv.lv) || verb.tagadneLv || (verb.present && verb.present.lv) || "",
-    praesens: useDisplayPraesens ? praesensDisplay.de : storedPraesens,
-    praesensLv: useDisplayPraesens ? praesensDisplay.lv : ((verb.praesens && verb.praesens.lv) || ""),
+    praesens: (verb.praesens && verb.praesens.de) || "",
+    praesensLv: (verb.praesens && verb.praesens.lv) || "",
     imperfektIndikativ: (verb.imperfektIndikativ && verb.imperfektIndikativ.de) || verb.nakotne || (verb.future && verb.future.de) || "",
     imperfektIndikativLv: (verb.imperfektIndikativ && verb.imperfektIndikativ.lv) || verb.nakotneLv || (verb.future && verb.future.lv) || "",
     imperfektKonjunktiv: (verb.imperfektKonjunktiv && verb.imperfektKonjunktiv.de) || "",
@@ -3556,8 +3524,8 @@ function spellingVerbOptions(verb) {
 
   return [
     { front: forms.tagadneLv, prompt: "Uzraksti infinitīvu", expected: forms.tagadne },
-    { front: forms.tagadneLv, prompt: "Uzraksti Präteritum", expected: forms.nakotne },
-    { front: forms.tagadneLv, prompt: "Uzraksti Partizip II", expected: forms.pagatne }
+    { front: forms.tagadneLv, prompt: "Uzraksti imperfektu", expected: forms.nakotne },
+    { front: forms.tagadneLv, prompt: "Uzraksti pagātnes divdabi", expected: forms.pagatne }
   ].filter((item) => item.front && item.expected);
 }
 
@@ -3606,8 +3574,8 @@ function verbRandomOptions(verb) {
   const forms = verbForms(verb);
   return [
     { show: forms.tagadneLv, prompt: "Uzmini infinitīvu", reveal: forms.tagadne },
-    { show: forms.tagadneLv, prompt: "Uzmini Präteritum", reveal: forms.nakotne },
-    { show: forms.tagadneLv, prompt: "Uzmini Partizip II", reveal: forms.pagatne }
+    { show: forms.tagadneLv, prompt: "Uzmini imperfektu", reveal: forms.nakotne },
+    { show: forms.tagadneLv, prompt: "Uzmini pagātnes divdabi", reveal: forms.pagatne }
   ].filter((item) => item.show && item.reveal);
 }
 
@@ -6133,7 +6101,7 @@ function renderVerbCard() {
 
   if (!verb) {
     elements.cardLevel.className = "verb-headings";
-    elements.cardLevel.innerHTML = "<span>Infinitiv</span><span>Präsens</span><span>Imperfekt<br>- Indikativ</span><span>Imperfekt<br>- Konjunktiv</span><span>Partizip der<br>Vergangenheit</span>";
+    elements.cardLevel.innerHTML = "<span>Infinitīvs</span><span>Tagadne</span><span>Imperfekts<br>- Indikatīvs</span><span>Imperfekts<br>- Konjunktīvs</span><span>Pagātnes<br>divdabis</span>";
     elements.word.textContent = state.reviewLastSession
       ? "Pēdējās sesijas pārskatīšana pabeigta."
       : (state.timeReviewMode
@@ -6179,11 +6147,11 @@ function renderVerbCard() {
 
   const forms = verbForms(verb);
   const stages = [
-    { label: "Infinitiv", buttonLabel: "Infinitiv", value: forms.infinitiv, translation: forms.infinitivLv },
-    { label: "Präsens", buttonLabel: "Präsens", value: forms.praesens, translation: forms.praesensLv },
-    { label: "Imperfekt Indikativ", buttonLabel: "Imperfekt<br>- Indikativ", value: forms.imperfektIndikativ, translation: forms.imperfektIndikativLv },
-    { label: "Imperfekt Konjunktiv", buttonLabel: "Imperfekt<br>- Konjunktiv", value: forms.imperfektKonjunktiv, translation: forms.imperfektKonjunktivLv },
-    { label: "Partizip der Vergangenheit", buttonLabel: "Partizip der<br>Vergangenheit", value: forms.partizipVergangenheit, translation: forms.partizipVergangenheitLv }
+    { label: "Infinitiv", buttonLabel: "Infinitīvs", value: forms.infinitiv, translation: forms.infinitivLv },
+    { label: "Präsens", buttonLabel: "Tagadne", value: forms.praesens, translation: forms.praesensLv },
+    { label: "Imperfekt Indikativ", buttonLabel: "Imperfekts<br>- Indikatīvs", value: forms.imperfektIndikativ, translation: forms.imperfektIndikativLv },
+    { label: "Imperfekt Konjunktiv", buttonLabel: "Imperfekts<br>- Konjunktīvs", value: forms.imperfektKonjunktiv, translation: forms.imperfektKonjunktivLv },
+    { label: "Partizip der Vergangenheit", buttonLabel: "Pagātnes<br>divdabis", value: forms.partizipVergangenheit, translation: forms.partizipVergangenheitLv }
   ];
   const stage = stages[state.verbStep] || stages[0];
 

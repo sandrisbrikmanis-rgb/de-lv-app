@@ -41,7 +41,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Damit ist mir wenig gedient.",
-    "lv": "No tā man maza jēga.",
+    "lv": "No tā man ir maza jēga.",
     "level": "Sätze"
   },
   {
@@ -175,7 +175,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Entweder ... oder ...",
+    "de": "Entweder... oder...",
     "lv": "Vai nu... vai...",
     "level": "Sätze"
   },
@@ -280,7 +280,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Was mich anbelangt, ...",
+    "de": "Was mich anbelangt,...",
     "lv": "Kas attiecas uz mani,...",
     "level": "Sätze"
   },
@@ -431,7 +431,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich habe einen Unfall gehabt.",
-    "lv": "Es ciemu negadījumā.",
+    "lv": "Es cietu negadījumā.",
     "level": "Sätze"
   },
   {
@@ -505,7 +505,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Nehmen wir an, dass ...",
+    "de": "Nehmen wir an, dass...",
     "lv": "Pieņemsim, ka...",
     "level": "Sätze"
   },
@@ -525,7 +525,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Meiner Ansicht nach ...",
+    "de": "Meiner Ansicht nach...",
     "lv": "Pēc manām domām...",
     "level": "Sätze"
   },
@@ -736,7 +736,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mir ist Angst und bange.",
-    "lv": "Man bail un bail.",
+    "lv": "Man ir ļoti bail.",
     "level": "Sätze"
   },
   {
@@ -981,7 +981,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Gute Besserung!",
-    "lv": "Veseļojieties!",
+    "lv": "Veseļojieties! • Atveseļojies!",
     "level": "Sätze"
   },
   {
@@ -1625,11 +1625,6 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Danke schön!",
-    "lv": "Paldies! • Pateicos!",
-    "level": "Sätze"
-  },
-  {
     "de": "Bitte schön!",
     "lv": "Lūdzu!",
     "level": "Sätze"
@@ -1686,7 +1681,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wie spät ist es?",
-    "lv": "Cik pulkstenis?",
+    "lv": "Cik ir pulkstenis?",
     "level": "Sätze"
   },
   {
@@ -1717,11 +1712,6 @@ const SENTENCE_ENTRIES = [
   {
     "de": "Guten Tag!",
     "lv": "Labdien!",
-    "level": "Sätze"
-  },
-  {
-    "de": "Wie spät ist es?",
-    "lv": "Cik pulkstenis?",
     "level": "Sätze"
   },
   {
@@ -1771,7 +1761,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wie viel Uhr ist es?",
-    "lv": "Cik pulkstenis?",
+    "lv": "Cik pulkstenis ir?",
     "level": "Sätze"
   },
   {
@@ -1800,18 +1790,13 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Auf Unkosten von ...",
+    "de": "Auf Unkosten von...",
     "lv": "Uz... rēķina.",
     "level": "Sätze"
   },
   {
     "de": "Er saß unter den Zuschauern.",
     "lv": "Viņš sēdēja starp skatītājiem.",
-    "level": "Sätze"
-  },
-  {
-    "de": "Unter der Bedingung, dass ...",
-    "lv": "Ar noteikumu, ka...",
     "level": "Sätze"
   },
   {
@@ -1986,17 +1971,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wach werden.",
-    "lv": "Modrināt.",
+    "lv": "Pamosties.",
     "level": "Sätze"
   },
   {
     "de": "Auf Wache sein.",
     "lv": "Stāvēt sardzē.",
-    "level": "Sätze"
-  },
-  {
-    "de": "Nicht wahr?",
-    "lv": "Vai ne?",
     "level": "Sätze"
   },
   {
@@ -2020,11 +2000,6 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Seit wann?",
-    "lv": "Kopš kura laika?",
-    "level": "Sätze"
-  },
-  {
     "de": "Bis wann?",
     "lv": "Līdz kuram laikam?",
     "level": "Sätze"
@@ -2042,11 +2017,6 @@ const SENTENCE_ENTRIES = [
   {
     "de": "Was wollen Sie?",
     "lv": "Ko jūs vēlaties?",
-    "level": "Sätze"
-  },
-  {
-    "de": "Was meinen Sie damit?",
-    "lv": "Ko jūs ar to domājat? • Kā jūs to domājat?",
     "level": "Sätze"
   },
   {
@@ -2340,12 +2310,12 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "zugrunde gehen.",
+    "de": "Zugrunde gehen.",
     "lv": "Iet bojā.",
     "level": "Sätze"
   },
   {
-    "de": "zugrunde legen.",
+    "de": "Zugrunde legen.",
     "lv": "Likt pamatā. • Ņemt par pamatu.",
     "level": "Sätze"
   },
@@ -2422,11 +2392,6 @@ const SENTENCE_ENTRIES = [
   {
     "de": "Zum Zweiten.",
     "lv": "Otrkārt.",
-    "level": "Sätze"
-  },
-  {
-    "de": "Gute Besserung!",
-    "lv": "Atveseļojies!",
     "level": "Sätze"
   },
   {
@@ -2532,11 +2497,6 @@ const SENTENCE_ENTRIES = [
   {
     "de": "Geh bitte zurück an deinen Platz!",
     "lv": "Ej atpakaļ uz savu vietu!",
-    "level": "Sätze"
-  },
-  {
-    "de": "Wie viel Uhr ist es?",
-    "lv": "Cik pulkstenis ir?",
     "level": "Sätze"
   },
   {
@@ -2885,11 +2845,6 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Wie spät ist es?",
-    "lv": "Cik ir pulkstenis?",
-    "level": "Sätze"
-  },
-  {
     "de": "Es ist halb sieben.",
     "lv": "Pulkstenis ir pus septiņi.",
     "level": "Sätze"
@@ -2921,7 +2876,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es ist schon lange her, dass wir uns gesehen haben.",
-    "lv": "Jau sen nesam satikušies.",
+    "lv": "Jau sen neesam satikušies.",
     "level": "Sätze"
   },
   {
@@ -3011,7 +2966,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Finn fährt bis Berlin mit, dann geht er ans Meer.",
-    "lv": "Finn brauc līdz Berlinēi, tad dosies pie jūras.",
+    "lv": "Finn brauc līdz Berlīnei, tad dosies pie jūras.",
     "level": "Sätze"
   },
   {
@@ -3096,7 +3051,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Nein, hier sitzt niemand.",
-    "lv": "Nē, šeit neviens nesēda.",
+    "lv": "Nē, šeit neviens nesēž.",
     "level": "Sätze"
   },
   {
@@ -3495,11 +3450,6 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Was fehlt dir?",
-    "lv": "Kas tev kait?",
-    "level": "Sätze"
-  },
-  {
     "de": "Ich habe starke Kopfschmerzen.",
     "lv": "Man ir stipras galvas sāpes.",
     "level": "Sätze"
@@ -3711,7 +3661,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Die Birnen sind sehr teuer.",
-    "lv": "Bumbieri ir ļoti dārgas.",
+    "lv": "Bumbieri ir ļoti dārgi.",
     "level": "Sätze"
   },
   {
@@ -3831,7 +3781,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte reinigen und bügeln Sie ihn!",
-    "lv": "Lūdzu, iztīriet un izglätte to!",
+    "lv": "Lūdzu, iztīriet un izgludinat to!",
     "level": "Sätze"
   },
   {
@@ -4032,4 +3982,3 @@ const SENTENCE_ENTRIES = [
 ];
 
 window.SENTENCE_ENTRIES = SENTENCE_ENTRIES;
-
