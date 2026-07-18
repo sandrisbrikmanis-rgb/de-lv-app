@@ -13,6 +13,7 @@
     "cap:copy": "npm run sync:www && npx cap copy",
     "cap:android": "npx cap open android",
     "cap:ios": "npx cap open ios",
+    "build:release": "powershell -ExecutionPolicy Bypass -Command \"Set-Location 'C:\\Users\\sandr\\OneDrive\\Documents\\Codex Backups\\LV-DE_STRADAJOSA\\DE-LV-App_MAIN'; & '.\\scripts\\build-release-aab.ps1'\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
