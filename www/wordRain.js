@@ -341,6 +341,16 @@
     return rect;
   }
 
+  function getControlsTop() {
+    const screen = document.querySelector(".group-detail-screen");
+    if (!screen || screen.hidden) return window.innerHeight;
+    const controls = screen.querySelector(":scope > .controls");
+    if (!controls) return window.innerHeight;
+    const rect = controls.getBoundingClientRect();
+    if (rect.top <= 0) return window.innerHeight;
+    return rect.top;
+  }
+
   function corridorWidths(viewportWidth, cardRect) {
     const minSide = viewportWidth * CORRIDOR_SIDE_MIN;
     const maxSide = viewportWidth * CORRIDOR_SIDE_MAX;
@@ -392,8 +402,9 @@
     const basinTop = cardRect
       ? Math.min(viewportHeight - 72, cardRect.bottom + BASIN_TOP_GAP)
       : viewportHeight * 0.58;
-    const basinHeight = viewportHeight - basinTop;
-    if (basinHeight < 64 || basinTop >= viewportHeight - 36) return;
+    const basinBottom = Math.min(viewportHeight - 8, getControlsTop() - 8);
+    const basinHeight = basinBottom - basinTop;
+    if (basinHeight < 64 || basinTop >= basinBottom - 24) return;
 
     const rowCount = basinHeight >= 180 ? 2 : 1;
     const columnCount = viewportWidth >= 1800 ? 8 : 6;
@@ -416,7 +427,7 @@
           xMin: Math.max(8, cellLeft + paddingX),
           xMax: Math.max(8, cellLeft + cellWidth - paddingX - WORD_MAX_WIDTH * 0.28),
           yMin: cellTop + paddingY,
-          yMax: Math.max(cellTop + paddingY, cellTop + cellHeight - paddingY)
+          yMax: Math.max(cellTop + paddingY, Math.min(cellTop + cellHeight - paddingY, basinBottom - paddingY))
         });
       }
     }
@@ -444,10 +455,11 @@
 
   function zoneKey(zones) {
     const cardRect = getCardRect();
+    const controlsTop = Math.round(getControlsTop());
     const cardKey = cardRect
       ? `${Math.round(cardRect.left)}:${Math.round(cardRect.top)}:${Math.round(cardRect.width)}:${Math.round(cardRect.height)}`
       : "none";
-    return `${window.innerWidth}x${window.innerHeight}:${cardKey}:${zones.length}`;
+    return `${window.innerWidth}x${window.innerHeight}:${cardKey}:${controlsTop}:${zones.length}`;
   }
 
   function assignZonesToItems(zones, count) {
@@ -639,6 +651,9 @@
 
     cardObserver = new ResizeObserver(() => scheduleRefresh(120));
     cardObserver.observe(card);
+
+    const controls = card.parentElement?.querySelector(":scope > .controls");
+    if (controls) cardObserver.observe(controls);
   }
 
   function buildItems(words) {
