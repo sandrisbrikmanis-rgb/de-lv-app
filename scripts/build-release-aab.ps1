@@ -77,4 +77,5 @@ Copy-AabArtifact -Source $aabOutput -DestinationDir $galaProduktsDir -FileName $
 
 Write-Host ''
 Write-Host 'Gatavs! Release .aab:'
-Write-Host "  $(Join-Path $galaProduktsDir $aabFileName)"
+$aabFinalPath = Join-Path $galaProduktsDir $aabFileName
+Write-Host "  $aabFinalPath"
