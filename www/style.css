@@ -7950,6 +7950,8 @@ main,
     padding: max(8px, env(safe-area-inset-top, 0px)) 0 max(8px, env(safe-area-inset-bottom, 0px));
     box-sizing: border-box;
     overflow: visible;
+    background: transparent !important;
+    background-color: transparent !important;
   }
 
   body.is-detail-screen .home-app-shell {
@@ -7963,6 +7965,8 @@ main,
     min-height: 0;
     margin: 0 auto;
     overflow: visible;
+    background: transparent !important;
+    background-color: transparent !important;
   }
 
   body.is-detail-screen .group-detail-screen {
@@ -7972,15 +7976,20 @@ main,
     height: auto;
     min-height: 100vh;
     overflow: visible;
+    background: transparent !important;
+    background-color: transparent !important;
   }
 
   body.is-detail-screen .group-detail-screen > .topbar {
     min-height: 0;
     flex-shrink: 0;
+    position: relative;
+    z-index: 2;
   }
 
   body.is-detail-screen .group-detail-screen > .card {
     position: relative;
+    z-index: 2;
     min-height: 360px;
     height: auto;
     margin: 0;
