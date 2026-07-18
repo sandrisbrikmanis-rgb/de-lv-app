@@ -6721,6 +6721,39 @@ main,
   }
 }
 
+@media (min-width: 1024px) {
+  body.is-detail-screen .group-detail-screen > .topbar {
+    background: linear-gradient(145deg, rgba(32, 33, 32, 0.9), rgba(23, 25, 24, 0.9)) !important;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+  }
+
+  body.is-detail-screen .group-detail-screen > .card {
+    background: rgba(31, 35, 34, 0.9) !important;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+  }
+
+  body.is-detail-screen .group-detail-screen > .card.has-study-card,
+  body.is-detail-screen .group-detail-screen > .card.has-rich-study-card,
+  body.is-detail-screen .group-detail-screen > .card.has-minimal-study-card,
+  body.is-detail-screen .group-detail-screen > .card:has(.flashcard-plural-row:not([hidden])) {
+    background: rgba(31, 35, 34, 0.94) !important;
+  }
+
+  body.is-detail-screen .group-detail-screen > .card .word,
+  body.is-detail-screen .group-detail-screen > .card .translation,
+  body.is-detail-screen .group-detail-screen > .card .hint,
+  body.is-detail-screen .group-detail-screen > .card .badge,
+  body.is-detail-screen .group-detail-screen > .card .card-inner,
+  body.is-detail-screen .group-detail-screen > .card .study-explanation,
+  body.is-detail-screen .group-detail-screen > .card .study-info,
+  body.is-detail-screen .group-detail-screen > .card .study-example-row,
+  body.is-detail-screen .group-detail-screen > .card .study-comparison-row {
+    opacity: 1;
+  }
+}
+
 /* Cards / Writing mode tabs (above the flashcard) */
 .mode-tabs {
   display: flex;
