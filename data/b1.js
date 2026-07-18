@@ -2605,7 +2605,6 @@ const B1_WORDS = [
   {
     "de": "Ackerbau",
     "de_article": "der",
-    "de_plural": "die Ackerbaus",
     "lv": "zemkopība",
     "level": "B1"
   },
@@ -3487,7 +3486,6 @@ const B1_WORDS = [
   {
     "de": "Ansehen",
     "de_article": "das",
-    "de_plural": "die Ansehens",
     "lv": "reputācija",
     "level": "B1",
     "study": {
@@ -3947,7 +3945,6 @@ const B1_WORDS = [
   {
     "de": "Armut",
     "de_article": "die",
-    "de_plural": "die Armuts",
     "lv": "nabadzība",
     "level": "B1"
   },
@@ -4051,7 +4048,6 @@ const B1_WORDS = [
   {
     "de": "Aufschnitt",
     "de_article": "der",
-    "de_plural": "die Aufschnitts",
     "lv": "aukstie uzgriežamie",
     "level": "B1"
   },
@@ -4072,7 +4068,6 @@ const B1_WORDS = [
   {
     "de": "Aufsehen",
     "de_article": "das",
-    "de_plural": "die Aufsehens",
     "lv": "ievērība",
     "level": "B1"
   },
@@ -5765,14 +5760,13 @@ const B1_WORDS = [
   {
     "de": "Autoabgase",
     "de_article": "die",
-    "de_plural": "die Autoabgase",
     "lv": "izpūtēja gāzes",
     "level": "B1"
   },
   {
     "de": "Autogeschäft",
     "de_article": "das",
-    "de_plural": "die Autogeschäfts",
+    "de_plural": "die Autogeschäfte",
     "lv": "automašīnu veikals",
     "level": "B1"
   },
@@ -5800,7 +5794,6 @@ const B1_WORDS = [
   {
     "de": "Backobst",
     "de_article": "das",
-    "de_plural": "die Backobsts",
     "lv": "žāvēti augļi",
     "level": "B1"
   },
@@ -5835,7 +5828,7 @@ const B1_WORDS = [
   {
     "de": "Faschingsball",
     "de_article": "der",
-    "de_plural": "die Faschingsballs",
+    "de_plural": "die Faschingsbälle",
     "lv": "karnevāls",
     "level": "B1"
   },
@@ -6069,7 +6062,6 @@ const B1_WORDS = [
   {
     "de": "Baukosten",
     "de_article": "die",
-    "de_plural": "die Baukostens",
     "lv": "būvizmaksas",
     "level": "B1"
   },
@@ -6737,7 +6729,6 @@ const B1_WORDS = [
   {
     "de": "Befinden",
     "de_article": "das",
-    "de_plural": "die Befindens",
     "lv": "pašsajūta",
     "level": "B1"
   },
@@ -7138,7 +7129,6 @@ const B1_WORDS = [
   {
     "de": "Beifall",
     "de_article": "der",
-    "de_plural": "die Beifalls",
     "lv": "aplausi",
     "level": "B1"
   },
@@ -7818,7 +7808,6 @@ const B1_WORDS = [
   {
     "de": "Benehmen",
     "de_article": "das",
-    "de_plural": "die Benehmens",
     "lv": "uzvedība",
     "level": "B1"
   },
@@ -8466,7 +8455,7 @@ const B1_WORDS = [
   {
     "de": "Berufswahl",
     "de_article": "die",
-    "de_plural": "die Berufswahls",
+    "de_plural": "die Berufswahlen",
     "lv": "profesijas izvēle",
     "level": "B1"
   },
@@ -9816,7 +9805,6 @@ const B1_WORDS = [
   {
     "de": "Beton",
     "de_article": "der",
-    "de_plural": "die Betons",
     "lv": "betons",
     "level": "B1"
   },
@@ -10506,7 +10494,6 @@ const B1_WORDS = [
   {
     "de": "Biathlon",
     "de_article": "das",
-    "de_plural": "die Biathlons",
     "lv": "biatlons",
     "level": "B1"
   },
@@ -11393,7 +11380,7 @@ const B1_WORDS = [
   {
     "de": "Blumenzwiebel",
     "de_article": "die",
-    "de_plural": "die Blumenzwiebels",
+    "de_plural": "die Blumenzwiebeln",
     "lv": "puķu sīpols",
     "level": "B1"
   },
@@ -11612,7 +11599,7 @@ const B1_WORDS = [
   {
     "de": "Bootspartie",
     "de_article": "die",
-    "de_plural": "die Bootspartie",
+    "de_plural": "die Bootspartien",
     "lv": "izbraukums ar laivu",
     "level": "B1"
   },
@@ -12035,7 +12022,7 @@ const B1_WORDS = [
   {
     "de": "Fußbremse",
     "de_article": "die",
-    "de_plural": "die Fußbremse",
+    "de_plural": "die Fußbremsen",
     "lv": "kājbremze",
     "level": "B1"
   },
@@ -13207,8 +13194,7 @@ const B1_WORDS = [
   {
     "de": "Dank",
     "de_article": "der",
-    "de_plural": "die Danke",
-    "lv": "pateicoties",
+    "lv": "pateicība",
     "level": "B1"
   },
   {
@@ -13735,7 +13721,6 @@ const B1_WORDS = [
   {
     "de": "Dasein",
     "de_article": "das",
-    "de_plural": "die Daseins",
     "lv": "būt klāt",
     "level": "B1"
   },
@@ -14606,8 +14591,7 @@ const B1_WORDS = [
   {
     "de": "Durcheinander",
     "de_article": "das",
-    "de_plural": "die Durcheinander",
-    "lv": "Juku jukām • Juceklis",
+    "lv": "juku jukām • juceklis",
     "level": "B1"
   },
   {
@@ -15223,7 +15207,6 @@ const B1_WORDS = [
   {
     "de": "Eifersucht",
     "de_article": "die",
-    "de_plural": "die Eifersuchts",
     "lv": "greizsirdība",
     "level": "B1"
   },
@@ -19087,7 +19070,7 @@ const B1_WORDS = [
     "de": "Einschreiben",
     "de_article": "das",
     "de_plural": "die Einschreiben",
-    "lv": "ierakstīt",
+    "lv": "ierakstīta vēstule",
     "level": "B1"
   },
   {
@@ -19970,7 +19953,6 @@ const B1_WORDS = [
   {
     "de": "Elektrizität",
     "de_article": "die",
-    "de_plural": "die Elektrizitäts",
     "lv": "elektrība",
     "level": "B1"
   },
@@ -19989,8 +19971,7 @@ const B1_WORDS = [
   {
     "de": "Elend",
     "de_article": "das",
-    "de_plural": "die Elende",
-    "lv": "Nožēlojams • Posts",
+    "lv": "posts • nožēlojams stāvoklis",
     "level": "B1"
   },
   {
@@ -22418,7 +22399,6 @@ const B1_WORDS = [
   {
     "de": "Erstaunen",
     "de_article": "das",
-    "de_plural": "die Erstaunens",
     "lv": "izbrīns",
     "level": "B1"
   },
@@ -23110,7 +23090,6 @@ const B1_WORDS = [
   {
     "de": "Feinwäsche",
     "de_article": "die",
-    "de_plural": "die Feinwäsche",
     "lv": "smalkveļa",
     "level": "B1"
   },
@@ -23701,7 +23680,7 @@ const B1_WORDS = [
   {
     "de": "Filmaufnahme",
     "de_article": "die",
-    "de_plural": "die Filmaufnahme",
+    "de_plural": "die Filmaufnahmen",
     "lv": "filmas uzņemšana",
     "level": "B1"
   },
@@ -24764,7 +24743,6 @@ const B1_WORDS = [
   {
     "de": "Frische",
     "de_article": "die",
-    "de_plural": "die Frische",
     "lv": "svaigums",
     "level": "B1"
   },
@@ -24856,7 +24834,6 @@ const B1_WORDS = [
   {
     "de": "Furcht",
     "de_article": "die",
-    "de_plural": "die Furchts",
     "lv": "bailes",
     "level": "B1"
   },
@@ -24882,7 +24859,6 @@ const B1_WORDS = [
   {
     "de": "Futter",
     "de_article": "das",
-    "de_plural": "die Futters",
     "lv": "barība",
     "level": "B1",
     "study": {
@@ -25087,7 +25063,6 @@ const B1_WORDS = [
   {
     "de": "Gänsehaut",
     "de_article": "die",
-    "de_plural": "die Gänsehauts",
     "lv": "zosāda",
     "level": "B1"
   },
@@ -25120,7 +25095,6 @@ const B1_WORDS = [
   {
     "de": "Gartenbau",
     "de_article": "der",
-    "de_plural": "die Gartenbaus",
     "lv": "dārzkopība",
     "level": "B1"
   },
@@ -25162,7 +25136,7 @@ const B1_WORDS = [
   {
     "de": "Gastfamilie",
     "de_article": "die",
-    "de_plural": "die Gastfamilie",
+    "de_plural": "die Gastfamilien",
     "lv": "viesģimene",
     "level": "B1"
   },
@@ -25506,7 +25480,6 @@ const B1_WORDS = [
   {
     "de": "Geflüster",
     "de_article": "das",
-    "de_plural": "die Geflüsters",
     "lv": "čuksti",
     "level": "B1"
   },
@@ -25542,7 +25515,6 @@ const B1_WORDS = [
   {
     "de": "Gegenwart",
     "de_article": "die",
-    "de_plural": "die Gegenwarts",
     "lv": "tagadne",
     "level": "B1"
   },
@@ -26136,7 +26108,6 @@ const B1_WORDS = [
   {
     "de": "Geologie",
     "de_article": "die",
-    "de_plural": "die Geologie",
     "lv": "ģeoloģija",
     "level": "B1"
   },
@@ -28122,7 +28093,7 @@ const B1_WORDS = [
   {
     "de": "Grillrost",
     "de_article": "der",
-    "de_plural": "die Grillrosts",
+    "de_plural": "die Grillroste",
     "lv": "grila režģis",
     "level": "B1"
   },
@@ -28466,7 +28437,6 @@ const B1_WORDS = [
   {
     "de": "Hagel",
     "de_article": "der",
-    "de_plural": "die Hagels",
     "lv": "krusa",
     "level": "B1"
   },
@@ -29568,7 +29538,7 @@ const B1_WORDS = [
   {
     "de": "Heizperiode",
     "de_article": "die",
-    "de_plural": "die Heizperiode",
+    "de_plural": "die Heizperioden",
     "lv": "apkures sezona",
     "level": "B1"
   },
@@ -30017,7 +29987,6 @@ const B1_WORDS = [
   {
     "de": "Heu",
     "de_article": "das",
-    "de_plural": "die Heus",
     "lv": "siens",
     "level": "B1"
   },
@@ -30550,7 +30519,6 @@ const B1_WORDS = [
   {
     "de": "Höhenangst",
     "de_article": "die",
-    "de_plural": "die Höhenangsts",
     "lv": "bailes no augstuma",
     "level": "B1"
   },
@@ -30776,7 +30744,7 @@ const B1_WORDS = [
   {
     "de": "Holzspan",
     "de_article": "der",
-    "de_plural": "die Holzspans",
+    "de_plural": "die Holzspäne",
     "lv": "koka skals",
     "level": "B1"
   },
@@ -30826,7 +30794,7 @@ const B1_WORDS = [
   {
     "de": "Hopfenstange",
     "de_article": "die",
-    "de_plural": "die Hopfenstange",
+    "de_plural": "die Hopfenstangen",
     "lv": "apiņu maikste",
     "level": "B1"
   },
@@ -31359,7 +31327,6 @@ const B1_WORDS = [
   {
     "de": "Hygiene",
     "de_article": "die",
-    "de_plural": "die Hygiene",
     "lv": "higiēna",
     "level": "B1"
   },
@@ -31569,8 +31536,7 @@ const B1_WORDS = [
   {
     "de": "Innere",
     "de_article": "das",
-    "de_plural": "die Innere",
-    "lv": "Iekšiene • Iekšējais",
+    "lv": "iekšiene • iekšējā daļa",
     "level": "B1"
   },
   {
@@ -32099,7 +32065,6 @@ const B1_WORDS = [
   {
     "de": "Jagdbeute",
     "de_article": "die",
-    "de_plural": "die Jagdbeute",
     "lv": "medījums",
     "level": "B1"
   },
@@ -32595,7 +32560,6 @@ const B1_WORDS = [
   {
     "de": "Jubel",
     "de_article": "der",
-    "de_plural": "die Jubels",
     "lv": "gaviles",
     "level": "B1"
   },
@@ -32619,7 +32583,6 @@ const B1_WORDS = [
   {
     "de": "Judo",
     "de_article": "das",
-    "de_plural": "die Judos",
     "lv": "džudo",
     "level": "B1"
   },
@@ -32793,14 +32756,14 @@ const B1_WORDS = [
   {
     "de": "Wahlkampagne",
     "de_article": "die",
-    "de_plural": "die Wahlkampagne",
+    "de_plural": "die Wahlkampagnen",
     "lv": "vēlēšanu kampaņa",
     "level": "B1"
   },
   {
     "de": "Werbekampagne",
     "de_article": "die",
-    "de_plural": "die Werbekampagne",
+    "de_plural": "die Werbekampagnen",
     "lv": "reklāmas kampaņa",
     "level": "B1"
   },
@@ -32934,21 +32897,21 @@ const B1_WORDS = [
   {
     "de": "Karteizettel",
     "de_article": "der",
-    "de_plural": "die Karteizettels",
+    "de_plural": "die Karteizettel",
     "lv": "kartotēkas kartīte",
     "level": "B1"
   },
   {
     "de": "Kartoffelerntemaschine",
     "de_article": "die",
-    "de_plural": "die Kartoffelerntemaschine",
+    "de_plural": "die Kartoffelerntemaschinen",
     "lv": "kartupeļu novācamais kombains",
     "level": "B1"
   },
   {
     "de": "Kartoffellegemaschine",
     "de_article": "die",
-    "de_plural": "die Kartoffellegemaschine",
+    "de_plural": "die Kartoffellegemaschinen",
     "lv": "kartupeļu stādāmā mašīna",
     "level": "B1"
   },
@@ -33180,7 +33143,6 @@ const B1_WORDS = [
   {
     "de": "Kehricht",
     "de_article": "der",
-    "de_plural": "die Kehrichts",
     "lv": "gruži",
     "level": "B1"
   },
@@ -34492,7 +34454,6 @@ const B1_WORDS = [
   {
     "de": "Komfort",
     "de_article": "der",
-    "de_plural": "die Komforts",
     "lv": "komforts",
     "level": "B1"
   },
@@ -34721,7 +34682,6 @@ const B1_WORDS = [
   {
     "de": "Können",
     "de_article": "das",
-    "de_plural": "die Könnens",
     "lv": "prasme",
     "level": "B1"
   },
@@ -34784,7 +34744,6 @@ const B1_WORDS = [
   {
     "de": "Körperbau",
     "de_article": "der",
-    "de_plural": "die Körperbaus",
     "lv": "ķermeņa uzbūve",
     "level": "B1"
   },
@@ -34834,21 +34793,18 @@ const B1_WORDS = [
   {
     "de": "Kost",
     "de_article": "die",
-    "de_plural": "die Kosts",
     "lv": "uzturs",
     "level": "B1"
   },
   {
     "de": "Rohkost",
     "de_article": "die",
-    "de_plural": "die Rohkosts",
     "lv": "zaļbarība",
     "level": "B1"
   },
   {
     "de": "Schonkost",
     "de_article": "die",
-    "de_plural": "die Schonkosts",
     "lv": "diētisks uzturs",
     "level": "B1"
   },
@@ -34882,7 +34838,6 @@ const B1_WORDS = [
   {
     "de": "Kraftverkehr",
     "de_article": "der",
-    "de_plural": "die Kraftverkehrs",
     "lv": "autosatiksme",
     "level": "B1"
   },
@@ -34979,7 +34934,7 @@ const B1_WORDS = [
   {
     "de": "Krautmarkt",
     "de_article": "der",
-    "de_plural": "die Krautmarkts",
+    "de_plural": "die Krautmärkte",
     "lv": "dārzeņu tirgus",
     "level": "B1"
   },
@@ -35493,7 +35448,6 @@ const B1_WORDS = [
   {
     "de": "Kunde",
     "de_article": "die",
-    "de_plural": "die Kunden",
     "lv": "vēsts",
     "level": "B1",
     "study": {
@@ -36165,7 +36119,6 @@ const B1_WORDS = [
   {
     "de": "Kürze",
     "de_article": "die",
-    "de_plural": "die Kürze",
     "lv": "īsums",
     "level": "B1",
     "study": {
@@ -36408,9 +36361,7 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "Laden",
-    "de_article": "der",
-    "de_plural": "die Läden",
+    "de": "laden",
     "lv": "iekraut",
     "level": "B1",
     "study": {
@@ -38069,7 +38020,7 @@ const B1_WORDS = [
   {
     "de": "Lesekarte",
     "de_article": "die",
-    "de_plural": "die Lesekarte",
+    "de_plural": "die Lesekarten",
     "lv": "lasītāja kartīte",
     "level": "B1"
   },
@@ -38118,7 +38069,6 @@ const B1_WORDS = [
   {
     "de": "Lidschatten",
     "de_article": "der",
-    "de_plural": "die Lidschattens",
     "lv": "plakstiņu ēnas",
     "level": "B1"
   },
@@ -38139,7 +38089,7 @@ const B1_WORDS = [
   {
     "de": "Liefertermin",
     "de_article": "der",
-    "de_plural": "die Liefertermins",
+    "de_plural": "die Liefertermine",
     "lv": "piegādes termiņš",
     "level": "B1"
   },
@@ -38186,7 +38136,6 @@ const B1_WORDS = [
   {
     "de": "Linke",
     "de_article": "die",
-    "de_plural": "die Linke",
     "lv": "kreisā roka",
     "level": "B1"
   },
@@ -38535,7 +38484,7 @@ const B1_WORDS = [
   {
     "de": "Löschapparat",
     "de_article": "der",
-    "de_plural": "die Löschapparats",
+    "de_plural": "die Löschapparate",
     "lv": "ugunsdzēšamais aparāts",
     "level": "B1"
   },
@@ -38951,7 +38900,7 @@ const B1_WORDS = [
   {
     "de": "Lottoschein",
     "de_article": "der",
-    "de_plural": "die Lottoscheins",
+    "de_plural": "die Lottoscheine",
     "lv": "loterijas biļete",
     "level": "B1"
   },
@@ -39146,7 +39095,6 @@ const B1_WORDS = [
   {
     "de": "Magie",
     "de_article": "die",
-    "de_plural": "die Magie",
     "lv": "maģija",
     "level": "B1"
   },
@@ -39163,7 +39111,7 @@ const B1_WORDS = [
   {
     "de": "Maifeier",
     "de_article": "die",
-    "de_plural": "die Maifeiers",
+    "de_plural": "die Maifeiern",
     "lv": "pirmā Maija svētki",
     "level": "B1"
   },
@@ -39309,7 +39257,6 @@ const B1_WORDS = [
   {
     "de": "Masern",
     "de_article": "die",
-    "de_plural": "die Maserns",
     "lv": "masalas",
     "level": "B1"
   },
@@ -39323,7 +39270,7 @@ const B1_WORDS = [
   {
     "de": "Maskenfest",
     "de_article": "das",
-    "de_plural": "die Maskenfests",
+    "de_plural": "die Maskenfeste",
     "lv": "masku balle",
     "level": "B1"
   },
@@ -39820,7 +39767,6 @@ const B1_WORDS = [
   {
     "de": "Mitgefühl",
     "de_article": "das",
-    "de_plural": "die Mitgefühls",
     "lv": "līdzjūtība",
     "level": "B1"
   },
@@ -39841,7 +39787,6 @@ const B1_WORDS = [
   {
     "de": "Mittelalter",
     "de_article": "das",
-    "de_plural": "die Mittelalters",
     "lv": "viduslaiki",
     "level": "B1"
   },
@@ -39896,7 +39841,7 @@ const B1_WORDS = [
   {
     "de": "Modenschau",
     "de_article": "die",
-    "de_plural": "die Modenschaus",
+    "de_plural": "die Modenschauen",
     "lv": "modes skate",
     "level": "B1"
   },
@@ -39936,7 +39881,6 @@ const B1_WORDS = [
   {
     "de": "Mondschein",
     "de_article": "der",
-    "de_plural": "die Mondscheins",
     "lv": "mēnesnīca",
     "level": "B1"
   },
@@ -39985,7 +39929,6 @@ const B1_WORDS = [
   {
     "de": "Morgenpost",
     "de_article": "die",
-    "de_plural": "die Morgenposts",
     "lv": "rīta pasts",
     "level": "B1"
   },
@@ -39999,7 +39942,6 @@ const B1_WORDS = [
   {
     "de": "Morgenrot",
     "de_article": "das",
-    "de_plural": "die Morgenrots",
     "lv": "rītablāzma",
     "level": "B1"
   },
@@ -40032,7 +39974,6 @@ const B1_WORDS = [
   {
     "de": "Motorsport",
     "de_article": "der",
-    "de_plural": "die Motorsports",
     "lv": "motosports",
     "level": "B1"
   },
@@ -40072,7 +40013,6 @@ const B1_WORDS = [
   {
     "de": "Hausmüll",
     "de_article": "der",
-    "de_plural": "die Hausmülls",
     "lv": "sadzīves atkritumi",
     "level": "B1"
   },
@@ -40696,7 +40636,6 @@ const B1_WORDS = [
   {
     "de": "Nebenkosten",
     "de_article": "die",
-    "de_plural": "die Nebenkostens",
     "lv": "papildu izmaksas",
     "level": "B1"
   },
@@ -41296,7 +41235,6 @@ const B1_WORDS = [
   {
     "de": "Nikotin",
     "de_article": "das",
-    "de_plural": "die Nikotins",
     "lv": "nikotīns",
     "level": "B1"
   },
@@ -42010,7 +41948,6 @@ const B1_WORDS = [
   {
     "de": "Ökologie",
     "de_article": "die",
-    "de_plural": "die Ökologie",
     "lv": "ekoloģija",
     "level": "B1"
   },
@@ -42417,7 +42354,6 @@ const B1_WORDS = [
   {
     "de": "Ozon",
     "de_article": "das",
-    "de_plural": "die Ozons",
     "lv": "ozons",
     "level": "B1"
   },
@@ -42511,7 +42447,7 @@ const B1_WORDS = [
   {
     "de": "Parkgebühr",
     "de_article": "die",
-    "de_plural": "die Parkgebührs",
+    "de_plural": "die Parkgebühren",
     "lv": "maksa par automašīnu stāvvietu",
     "level": "B1"
   },
@@ -42865,7 +42801,6 @@ const B1_WORDS = [
   {
     "de": "Pflege",
     "de_article": "die",
-    "de_plural": "die Pflege",
     "lv": "kopšana",
     "level": "B1"
   },
@@ -43874,7 +43809,7 @@ const B1_WORDS = [
   {
     "de": "Prüfzeit",
     "de_article": "die",
-    "de_plural": "die Prüfzeits",
+    "de_plural": "die Prüfzeiten",
     "lv": "pārbaudes laiks",
     "level": "B1"
   },
@@ -43952,7 +43887,6 @@ const B1_WORDS = [
   {
     "de": "Qualm",
     "de_article": "der",
-    "de_plural": "die Qualms",
     "lv": "dūmi",
     "level": "B1"
   },
@@ -44030,7 +43964,6 @@ const B1_WORDS = [
   {
     "de": "Rache",
     "de_article": "die",
-    "de_plural": "die Rache",
     "lv": "atriebība",
     "level": "B1"
   },
@@ -44054,7 +43987,6 @@ const B1_WORDS = [
   {
     "de": "Radau",
     "de_article": "der",
-    "de_plural": "die Radaus",
     "lv": "troksnis",
     "level": "B1"
   },
@@ -44236,9 +44168,7 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "Rasen",
-    "de_article": "der",
-    "de_plural": "die Rasen",
+    "de": "rasen",
     "lv": "joņot",
     "level": "B1",
     "study": {
@@ -44587,7 +44517,7 @@ const B1_WORDS = [
   {
     "de": "Raucherabteil",
     "de_article": "das",
-    "de_plural": "die Raucherabteils",
+    "de_plural": "die Raucherabteile",
     "lv": "smēķētāju nodalījums",
     "level": "B1"
   },
@@ -45067,7 +44997,7 @@ const B1_WORDS = [
   {
     "de": "Regenpfütze",
     "de_article": "die",
-    "de_plural": "die Regenpfütze",
+    "de_plural": "die Regenpfützen",
     "lv": "peļķe",
     "level": "B1"
   },
@@ -45202,7 +45132,6 @@ const B1_WORDS = [
   {
     "de": "Reisespesen",
     "de_article": "die",
-    "de_plural": "die Reisespesens",
     "lv": "ceļojuma izdevumi",
     "level": "B1"
   },
@@ -45349,7 +45278,6 @@ const B1_WORDS = [
   {
     "de": "Reitsport",
     "de_article": "der",
-    "de_plural": "die Reitsports",
     "lv": "jāšanas sports",
     "level": "B1"
   },
@@ -45628,7 +45556,6 @@ const B1_WORDS = [
   {
     "de": "Reue",
     "de_article": "die",
-    "de_plural": "die Reue",
     "lv": "nožēla",
     "level": "B1"
   },
@@ -46258,7 +46185,6 @@ const B1_WORDS = [
   {
     "de": "Rückkehr",
     "de_article": "die",
-    "de_plural": "die Rückkehrs",
     "lv": "atgriešanās",
     "level": "B1"
   },
@@ -46316,7 +46242,6 @@ const B1_WORDS = [
   {
     "de": "Rudersport",
     "de_article": "der",
-    "de_plural": "die Rudersports",
     "lv": "airēšanas sports",
     "level": "B1"
   },
@@ -46579,7 +46504,6 @@ const B1_WORDS = [
   {
     "de": "Ruhm",
     "de_article": "der",
-    "de_plural": "die Ruhms",
     "lv": "slava",
     "level": "B1"
   },
@@ -46939,7 +46863,6 @@ const B1_WORDS = [
   {
     "de": "Sägemehl",
     "de_article": "das",
-    "de_plural": "die Sägemehls",
     "lv": "zāģskaidas",
     "level": "B1"
   },
@@ -47275,14 +47198,12 @@ const B1_WORDS = [
   {
     "de": "Scham",
     "de_article": "die",
-    "de_plural": "die Schams",
     "lv": "kauns",
     "level": "B1"
   },
   {
     "de": "Schande",
     "de_article": "die",
-    "de_plural": "die Schande",
     "lv": "negods",
     "level": "B1"
   },
@@ -48656,7 +48577,6 @@ const B1_WORDS = [
   {
     "de": "Schneetreiben",
     "de_article": "das",
-    "de_plural": "die Schneetreibens",
     "lv": "spēcīgs sniegputenis",
     "level": "B1"
   },
@@ -49122,7 +49042,6 @@ const B1_WORDS = [
   {
     "de": "Schüttelfrost",
     "de_article": "der",
-    "de_plural": "die Schüttelfrosts",
     "lv": "drudzis",
     "level": "B1"
   },
@@ -49160,7 +49079,7 @@ const B1_WORDS = [
   {
     "de": "Schutzhülle",
     "de_article": "die",
-    "de_plural": "die Schutzhülle",
+    "de_plural": "die Schutzhüllen",
     "lv": "aizsargapvalks",
     "level": "B1"
   },
@@ -49501,7 +49420,6 @@ const B1_WORDS = [
   {
     "de": "Schwefel",
     "de_article": "der",
-    "de_plural": "die Schwefels",
     "lv": "sērs",
     "level": "B1"
   },
@@ -49563,14 +49481,12 @@ const B1_WORDS = [
   {
     "de": "Schwimmsport",
     "de_article": "der",
-    "de_plural": "die Schwimmsports",
     "lv": "peldēšanas sports",
     "level": "B1"
   },
   {
     "de": "Schwindel",
     "de_article": "der",
-    "de_plural": "die Schwindels",
     "lv": "reibonis",
     "level": "B1"
   },
@@ -49670,7 +49586,6 @@ const B1_WORDS = [
   {
     "de": "Segelsport",
     "de_article": "der",
-    "de_plural": "die Segelsports",
     "lv": "burāšana",
     "level": "B1"
   },
@@ -50191,7 +50106,7 @@ const B1_WORDS = [
   {
     "de": "Blinksignal",
     "de_article": "das",
-    "de_plural": "die Blinksignals",
+    "de_plural": "die Blinksignale",
     "lv": "gaismas signāls",
     "level": "B1"
   },
@@ -50365,7 +50280,6 @@ const B1_WORDS = [
   {
     "de": "Sitten",
     "de_article": "die",
-    "de_plural": "die Sittens",
     "lv": "paražas",
     "level": "B1"
   },
@@ -51080,14 +50994,12 @@ const B1_WORDS = [
   {
     "de": "Speerwerfen",
     "de_article": "das",
-    "de_plural": "die Speerwerfens",
     "lv": "šķēpa mešana",
     "level": "B1"
   },
   {
     "de": "Speichel",
     "de_article": "der",
-    "de_plural": "die Speichels",
     "lv": "siekalas",
     "level": "B1"
   },
@@ -52653,7 +52565,6 @@ const B1_WORDS = [
   {
     "de": "Stille",
     "de_article": "die",
-    "de_plural": "die Stille",
     "lv": "klusums",
     "level": "B1"
   },
@@ -53240,7 +53151,7 @@ const B1_WORDS = [
     "de": "Streifen",
     "de_article": "der",
     "de_plural": "die Streifen",
-    "lv": "Aizskart • Svītra",
+    "lv": "svītra • josla",
     "level": "B1"
   },
   {
@@ -53301,7 +53212,6 @@ const B1_WORDS = [
   {
     "de": "Strickwaren",
     "de_article": "die",
-    "de_plural": "die Strickwarens",
     "lv": "adījumi",
     "level": "B1"
   },
@@ -54482,7 +54392,6 @@ const B1_WORDS = [
   {
     "de": "Tauwetter",
     "de_article": "das",
-    "de_plural": "die Tauwetters",
     "lv": "atkusnis",
     "level": "B1"
   },
@@ -54727,7 +54636,6 @@ const B1_WORDS = [
   {
     "de": "Textilwaren",
     "de_article": "die",
-    "de_plural": "die Textilwarens",
     "lv": "tekstilpreces",
     "level": "B1"
   },
@@ -55259,7 +55167,6 @@ const B1_WORDS = [
   {
     "de": "Trauer",
     "de_article": "die",
-    "de_plural": "die Trauers",
     "lv": "sēras",
     "level": "B1"
   },
@@ -55573,7 +55480,6 @@ const B1_WORDS = [
   {
     "de": "Treue",
     "de_article": "die",
-    "de_plural": "die Treue",
     "lv": "uzticība",
     "level": "B1"
   },
@@ -55627,7 +55533,6 @@ const B1_WORDS = [
   {
     "de": "Tropen",
     "de_article": "die",
-    "de_plural": "die Tropens",
     "lv": "ģeogr. tropi",
     "level": "B1"
   },
@@ -55635,13 +55540,12 @@ const B1_WORDS = [
     "de": "Tropfen",
     "de_article": "der",
     "de_plural": "die Tropfen",
-    "lv": "pilēt",
+    "lv": "piliens",
     "level": "B1"
   },
   {
     "de": "Trost",
     "de_article": "der",
-    "de_plural": "die Trosts",
     "lv": "mierinājums",
     "level": "B1"
   },
@@ -55663,7 +55567,6 @@ const B1_WORDS = [
   {
     "de": "Trümmer",
     "de_article": "die",
-    "de_plural": "die Trümmers",
     "lv": "drupas",
     "level": "B1"
   },
@@ -56332,7 +56235,6 @@ const B1_WORDS = [
   {
     "de": "Überstunden",
     "de_article": "die",
-    "de_plural": "die Überstundens",
     "lv": "virsstundas",
     "level": "B1"
   },
@@ -56913,7 +56815,6 @@ const B1_WORDS = [
   {
     "de": "Unsinn",
     "de_article": "der",
-    "de_plural": "die Unsinns",
     "lv": "blēņas",
     "level": "B1"
   },
@@ -58199,7 +58100,7 @@ const B1_WORDS = [
     "de": "Vergehen",
     "de_article": "das",
     "de_plural": "die Vergehen",
-    "lv": "paiet",
+    "lv": "pārkāpums • noziegums",
     "level": "B1"
   },
   {
@@ -58424,7 +58325,6 @@ const B1_WORDS = [
   {
     "de": "Vernunft",
     "de_article": "die",
-    "de_plural": "die Vernunfts",
     "lv": "saprāts",
     "level": "B1"
   },
@@ -59567,7 +59467,6 @@ const B1_WORDS = [
   {
     "de": "Vorsicht",
     "de_article": "die",
-    "de_plural": "die Vorsichts",
     "lv": "piesardzība",
     "level": "B1"
   },
@@ -60206,8 +60105,8 @@ const B1_WORDS = [
   {
     "de": "Wagen",
     "de_article": "der",
-    "de_plural": "die Wagens",
-    "lv": "uzdrošināties",
+    "de_plural": "die Wagen",
+    "lv": "automašīna • vagons",
     "level": "B1",
     "study": {
       "id": "b1-wagen",
@@ -60886,7 +60785,6 @@ const B1_WORDS = [
   {
     "de": "Weile",
     "de_article": "die",
-    "de_plural": "die Weile",
     "lv": "brīdis",
     "level": "B1"
   },
@@ -61077,7 +60975,6 @@ const B1_WORDS = [
   {
     "de": "Weltall",
     "de_article": "das",
-    "de_plural": "die Weltalls",
     "lv": "visums",
     "level": "B1"
   },
@@ -61105,7 +61002,7 @@ const B1_WORDS = [
   {
     "de": "Weltteil",
     "de_article": "der",
-    "de_plural": "die Weltteils",
+    "de_plural": "die Weltteile",
     "lv": "pasaules daļa",
     "level": "B1"
   },
@@ -61600,7 +61497,6 @@ const B1_WORDS = [
   {
     "de": "Wiederhören",
     "de_article": "das",
-    "de_plural": "die Wiederhörens",
     "lv": "uz sadzirdēšanos!",
     "level": "B1"
   },
@@ -61883,7 +61779,6 @@ const B1_WORDS = [
   {
     "de": "Zorn",
     "de_article": "der",
-    "de_plural": "die Zorns",
     "lv": "dusmas",
     "level": "B1"
   },
@@ -62387,7 +62282,6 @@ const B1_WORDS = [
   {
     "de": "Zutritt",
     "de_article": "der",
-    "de_plural": "die Zutritts",
     "lv": "ieeja",
     "level": "B1"
   },
@@ -63869,6 +63763,7 @@ const B1_WORDS = [
   },
   {
     "de": "Erbe",
+    "de_article": "der",
     "lv": "mantinieks",
     "level": "B1",
     "study": {
@@ -63879,7 +63774,7 @@ const B1_WORDS = [
         "Galvenā doma: Cilvēks, kas mantojumā saņem īpašumu vai naudu.",
         "der Erbe galvenokārt nozīmē: cilvēks.",
         "Bieži raksturo: vīriešu dzimte.",
-        "der Erbe galvenokārt nozīmē: lieta / vērtība.",
+        "das Erbe galvenokārt nozīmē: lieta / vērtība.",
         "Bieži raksturo: neitrālā dzimte.",
         "der Erbe nozīmē mantinieku — personu, kas saņem mantojumu.",
         "das Erbe nozīmē pašu mantojumu kā lietu vai vērtību."
@@ -63887,7 +63782,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Er ist der Erbe seines Onkels.",
-          "lv": "Viņš ir savas onkļa mantinieks."
+          "lv": "viņš ir savas onkļa mantinieks."
         },
         {
           "de": "Er ist der Erbe seines Onkels.",
@@ -64025,11 +63920,11 @@ const B1_WORDS = [
           }
         ]
       }
-    },
-    "de_article": "der"
+    }
   },
   {
     "de": "Erbe",
+    "de_article": "das",
     "lv": "mantojums",
     "level": "B1",
     "study": {
@@ -64038,7 +63933,7 @@ const B1_WORDS = [
       "translation": "mantojums",
       "explanation": [
         "Galvenā doma: Mantojums kā lieta, īpašums vai vērtība, ko atstāj.",
-        "das Erbe galvenokārt nozīmē: cilvēks.",
+        "der Erbe galvenokārt nozīmē: cilvēks.",
         "Bieži raksturo: vīriešu dzimte.",
         "das Erbe galvenokārt nozīmē: lieta / vērtība.",
         "Bieži raksturo: neitrālā dzimte.",
@@ -64048,7 +63943,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Das Erbe ist sehr groß.",
-          "lv": "Mantojums ir ļoti liels."
+          "lv": "mantojums ir ļoti liels."
         },
         {
           "de": "Er ist der Erbe seines Onkels.",
@@ -64073,7 +63968,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Ja runa ir par cilvēku, lieto der Erbe vai die Erbin. Ja par mantojumu kā lietu, lieto das Erbe.",
-        "das Erbe = mantinieks"
+        "das Erbe = mantojums"
       ],
       "important": [
         "der Erbe = cilvēks (mantinieks).",
@@ -64186,11 +64081,11 @@ const B1_WORDS = [
           }
         ]
       }
-    },
-    "de_article": "das"
+    }
   },
   {
     "de": "Schaden",
+    "de_article": "der",
     "lv": "zaudējums • bojājums",
     "level": "B1",
     "study": {
@@ -64201,7 +64096,7 @@ const B1_WORDS = [
         "Galvenā doma: Lietvārds — materiāls, veselības vai citāds kaitējums.",
         "der Schaden galvenokārt nozīmē: kaitējums kā lieta.",
         "Bieži raksturo: lietvārds (der).",
-        "der Schaden galvenokārt nozīmē: nodarīt kaitējumu.",
+        "schaden galvenokārt nozīmē: nodarīt kaitējumu.",
         "Bieži raksturo: darbības vārds.",
         "der Schaden nozīmē zaudējumu, bojājumu vai kaitējumu.",
         "schaden nozīmē kaitēt, nodarīt kaitējumu.",
@@ -64210,7 +64105,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Am Auto ist ein Schaden.",
-          "lv": "Automašīnai ir bojājums."
+          "lv": "automašīnai ir bojājums."
         },
         {
           "de": "Der Sturm verursachte großen Schaden.",
@@ -64359,8 +64254,7 @@ const B1_WORDS = [
           }
         ]
       }
-    },
-    "de_article": "der"
+    }
   },
   {
     "de": "schaden",
@@ -64529,6 +64423,7 @@ const B1_WORDS = [
   },
   {
     "de": "Vertrauen",
+    "de_article": "das",
     "lv": "uzticība",
     "level": "B1",
     "study": {
@@ -64539,7 +64434,7 @@ const B1_WORDS = [
         "Galvenā doma: Lietvārds — uzticība, ticība kā jūta.",
         "das Vertrauen galvenokārt nozīmē: jūta / attiecība.",
         "Bieži raksturo: lietvārds (das).",
-        "das Vertrauen galvenokārt nozīmē: ticēt kādam.",
+        "vertrauen galvenokārt nozīmē: ticēt kādam.",
         "Bieži raksturo: darbības vārds.",
         "das Vertrauen nozīmē uzticību kā jūtu vai attiecību stāvokli.",
         "vertrauen nozīmē uzticēties kādam.",
@@ -64690,8 +64585,7 @@ const B1_WORDS = [
           }
         ]
       }
-    },
-    "de_article": "das"
+    }
   },
   {
     "de": "vertrauen",
@@ -64860,6 +64754,7 @@ const B1_WORDS = [
   },
   {
     "de": "Trotz",
+    "de_article": "der",
     "lv": "spīts • spītība",
     "level": "B1",
     "study": {
@@ -64870,7 +64765,7 @@ const B1_WORDS = [
         "Galvenā doma: Lietvārds — spīts, spītīga attieksme.",
         "der Trotz galvenokārt nozīmē: spītīga attieksme.",
         "Bieži raksturo: lietvārds (der).",
-        "der Trotz galvenokārt nozīmē: neskatoties uz.",
+        "trotz galvenokārt nozīmē: neskatoties uz.",
         "Bieži raksturo: prievārds.",
         "der Trotz nozīmē spītu vai spītību kā īpašību.",
         "trotz ir prievārds un nozīmē neraugoties uz kaut ko.",
@@ -64879,7 +64774,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Er macht es aus Trotz.",
-          "lv": "Viņš to dara spīta pēc."
+          "lv": "viņš to dara spīta pēc."
         },
         {
           "de": "Trotz des Regens gehen wir spazieren.",
@@ -65028,8 +64923,7 @@ const B1_WORDS = [
           }
         ]
       }
-    },
-    "de_article": "der"
+    }
   },
   {
     "de": "trotz",
