@@ -3394,44 +3394,12 @@ function resetReviewDataForGroup(groupKey) {
 
 function verbForms(verb) {
   const infinitiv = (verb.infinitiv && verb.infinitiv.de) || verb.tagadne || (verb.present && verb.present.de) || "";
-  const praesensDisplay = {
-    kennen: { de: "er kennt", lv: "viņš pazīst" },
-    bleichen: { de: "er bleicht", lv: "viņš balina" },
-    brennen: { de: "er brennt", lv: "viņš deg" },
-    dingen: { de: "er dingt", lv: "viņš nolīgst" },
-    dünken: { de: "es dünkt", lv: "tas šķiet" },
-    dürfen: { de: "er darf", lv: "viņš drīkst" },
-    haben: { de: "er hat", lv: "viņam ir" },
-    können: { de: "er kann", lv: "viņš var" },
-    misslingen: { de: "es misslingt", lv: "tas neizdodas" },
-    mögen: { de: "er mag", lv: "viņam patīk" },
-    müssen: { de: "er muss", lv: "viņam vajag" },
-    pflegen: { de: "er pflegt", lv: "viņš kopj" },
-    schallen: { de: "es schallt", lv: "tas skan" },
-    scheren: { de: "er schert", lv: "viņš cirpj" },
-    schinden: { de: "er schindet", lv: "viņš moka" },
-    schnauben: { de: "er schnaubt", lv: "viņš šņāc" },
-    sein: { de: "er ist", lv: "viņš ir" },
-    sieden: { de: "er siedet", lv: "viņš vāra" },
-    sollen: { de: "er soll", lv: "viņam vajag" },
-    spleißen: { de: "er spleißt", lv: "viņš savieno" },
-    stecken: { de: "er steckt", lv: "viņš bāž" },
-    stieben: { de: "es stiebt", lv: "tas put" },
-    stinken: { de: "es stinkt", lv: "tas smird" },
-    weben: { de: "er webt", lv: "viņš auž" },
-    werden: { de: "er wird", lv: "viņš kļūst" },
-    wollen: { de: "er will", lv: "viņš grib" },
-    wringen: { de: "er wringt", lv: "viņš izgriež" },
-    zeihen: { de: "er zeiht", lv: "viņš vaino" }
-  }[infinitiv];
-  const storedPraesens = (verb.praesens && verb.praesens.de) || "";
-  const useDisplayPraesens = praesensDisplay && storedPraesens === infinitiv;
 
   return {
     infinitiv,
     infinitivLv: (verb.infinitiv && verb.infinitiv.lv) || verb.tagadneLv || (verb.present && verb.present.lv) || "",
-    praesens: useDisplayPraesens ? praesensDisplay.de : storedPraesens,
-    praesensLv: useDisplayPraesens ? praesensDisplay.lv : ((verb.praesens && verb.praesens.lv) || ""),
+    praesens: (verb.praesens && verb.praesens.de) || "",
+    praesensLv: (verb.praesens && verb.praesens.lv) || "",
     imperfektIndikativ: (verb.imperfektIndikativ && verb.imperfektIndikativ.de) || verb.nakotne || (verb.future && verb.future.de) || "",
     imperfektIndikativLv: (verb.imperfektIndikativ && verb.imperfektIndikativ.lv) || verb.nakotneLv || (verb.future && verb.future.lv) || "",
     imperfektKonjunktiv: (verb.imperfektKonjunktiv && verb.imperfektKonjunktiv.de) || "",
