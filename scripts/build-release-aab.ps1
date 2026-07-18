@@ -3,7 +3,6 @@ $ErrorActionPreference = 'Stop'
 $root = Split-Path -Parent $PSScriptRoot
 $androidDir = Join-Path $root 'android'
 $galaProduktsDir = Join-Path $root 'gala-produkts'
-$backupDir = 'C:\Users\sandr\OneDrive\Dokumente\Codex Backups\Gala_Produkts'
 $keystoreProps = Join-Path $androidDir 'keystore.properties'
 $aabOutput = Join-Path $androidDir 'app\build\outputs\bundle\release\app-release.aab'
 
@@ -73,11 +72,9 @@ $version = if ($packageJson.version) { $packageJson.version } else { '1.0.0' }
 $timestamp = Get-Date -Format 'yyyyMMdd-HHmm'
 $aabFileName = "vacuvaloda-v$version-$timestamp.aab"
 
-Write-Host '=== 4/4 Kopē .aab uz gala-produkts un OneDrive backup ==='
+Write-Host '=== 4/4 Kopē .aab uz gala-produkts ==='
 Copy-AabArtifact -Source $aabOutput -DestinationDir $galaProduktsDir -FileName $aabFileName
-Copy-AabArtifact -Source $aabOutput -DestinationDir $backupDir -FileName $aabFileName
 
 Write-Host ''
 Write-Host 'Gatavs! Release .aab:'
 Write-Host "  $(Join-Path $galaProduktsDir $aabFileName)"
-Write-Host "  $(Join-Path $backupDir $aabFileName)"
