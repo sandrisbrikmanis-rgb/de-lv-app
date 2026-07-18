@@ -1,4 +1,4 @@
-$ErrorActionPreference = 'Stop'
+﻿$ErrorActionPreference = 'Stop'
 
 $root = Split-Path -Parent $PSScriptRoot
 $androidDir = Join-Path $root 'android'
@@ -23,7 +23,7 @@ function Copy-AabArtifact {
     Ensure-Directory -Path $DestinationDir
     $destination = Join-Path $DestinationDir $FileName
     Copy-Item -Path $Source -Destination $destination -Force
-    Write-Host "Kopēts: $destination"
+    Write-Host ('Kopēts: ' + $destination)
 }
 
 Write-Host '=== 1/4 Sinhronizē web aktīvus uz www/ ==='
@@ -34,7 +34,7 @@ Push-Location $root
 try {
     npx cap sync android
     if ($LASTEXITCODE -ne 0) {
-        throw "cap sync android neizdevās (exit code $LASTEXITCODE)"
+        throw ('cap sync android neizdevās (exit code ' + $LASTEXITCODE + ')')
     }
 }
 finally {
@@ -42,13 +42,13 @@ finally {
 }
 
 if (-not (Test-Path $keystoreProps)) {
-    throw @"
-Nav atrasts android/keystore.properties — release .aab nevar parakstīt.
+    throw @'
+Nav atrasts android/keystore.properties - release .aab nevar parakstīt.
 
 1. Kopējiet android/keystore.properties.example uz android/keystore.properties
 2. Aizpildiet keystore ceļu un paroles
 3. Palaidiet skriptu vēlreiz
-"@
+'@
 }
 
 Write-Host '=== 3/4 Gradle bundleRelease ==='
@@ -56,7 +56,7 @@ Push-Location $androidDir
 try {
     & .\gradlew.bat bundleRelease
     if ($LASTEXITCODE -ne 0) {
-        throw "bundleRelease neizdevās (exit code $LASTEXITCODE)"
+        throw ('bundleRelease neizdevās (exit code ' + $LASTEXITCODE + ')')
     }
 }
 finally {
@@ -64,13 +64,13 @@ finally {
 }
 
 if (-not (Test-Path $aabOutput)) {
-    throw "Nav atrasts .aab fails: $aabOutput"
+    throw ('Nav atrasts .aab fails: ' + $aabOutput)
 }
 
 $packageJson = Get-Content (Join-Path $root 'package.json') -Raw | ConvertFrom-Json
 $version = if ($packageJson.version) { $packageJson.version } else { '1.0.0' }
 $timestamp = Get-Date -Format 'yyyyMMdd-HHmm'
-$aabFileName = "vacuvaloda-v$version-$timestamp.aab"
+$aabFileName = 'vacuvaloda-v' + $version + '-' + $timestamp + '.aab'
 
 Write-Host '=== 4/4 Kopē .aab uz gala-produkts ==='
 Copy-AabArtifact -Source $aabOutput -DestinationDir $galaProduktsDir -FileName $aabFileName
@@ -78,4 +78,4 @@ Copy-AabArtifact -Source $aabOutput -DestinationDir $galaProduktsDir -FileName $
 Write-Host ''
 Write-Host 'Gatavs! Release .aab:'
 $aabFinalPath = Join-Path $galaProduktsDir $aabFileName
-Write-Host "  $aabFinalPath"
+Write-Host ('  ' + $aabFinalPath)
