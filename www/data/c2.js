@@ -45,7 +45,6 @@ const C2_WORDS = [
   {
     "de": "Sorgfaltspflicht",
     "de_article": "die",
-    "de_plural": "die Sorgfaltspflichts",
     "lv": "rūpības pienākums",
     "level": "C2"
   },
@@ -104,7 +103,7 @@ const C2_WORDS = [
   {
     "de": "Behandlungsraum",
     "de_article": "der",
-    "de_plural": "die Behandlungsraen",
+    "de_plural": "die Behandlungsräume",
     "lv": "ārsta kabinets",
     "level": "C2"
   },
@@ -128,7 +127,7 @@ const C2_WORDS = [
   {
     "de": "Benzingutschein",
     "de_article": "der",
-    "de_plural": "die Benzingutscheins",
+    "de_plural": "die Benzingutscheine",
     "lv": "benzīna talons",
     "level": "C2"
   },
@@ -202,7 +201,6 @@ const C2_WORDS = [
   {
     "de": "Elementarkenntnisse",
     "de_article": "die",
-    "de_plural": "die Elementarkenntnisse",
     "lv": "pamatzināšanas",
     "level": "C2"
   },
@@ -270,7 +268,7 @@ const C2_WORDS = [
   {
     "de": "Geschenkgutschein",
     "de_article": "der",
-    "de_plural": "die Geschenkgutscheins",
+    "de_plural": "die Geschenkgutscheine",
     "lv": "dāvanu karte",
     "level": "C2"
   },
@@ -312,7 +310,6 @@ const C2_WORDS = [
   {
     "de": "Katastrophendienst",
     "de_article": "der",
-    "de_plural": "die Katastrophendiensts",
     "lv": "katastrofu dienests",
     "level": "C2"
   },
@@ -410,14 +407,14 @@ const C2_WORDS = [
   {
     "de": "Schlafwagenzimmer",
     "de_article": "das",
-    "de_plural": "die Schlafwagenzimmers",
+    "de_plural": "die Schlafwagenzimmer",
     "lv": "guļamistaba",
     "level": "C2"
   },
   {
     "de": "Schlittschuhkufe",
     "de_article": "die",
-    "de_plural": "die Schlittschuhkufe",
+    "de_plural": "die Schlittschuhkufen",
     "lv": "ragavu sliece",
     "level": "C2"
   },
@@ -455,7 +452,7 @@ const C2_WORDS = [
   {
     "de": "Straßenbahnstrecke",
     "de_article": "die",
-    "de_plural": "die Straßenbahnstrecke",
+    "de_plural": "die Straßenbahnstrecken",
     "lv": "tramvaja līnija",
     "level": "C2"
   },
@@ -573,14 +570,14 @@ const C2_WORDS = [
   {
     "de": "Arbeitslosenbeihilfe",
     "de_article": "die",
-    "de_plural": "die Arbeitslosenbeihilfe",
+    "de_plural": "die Arbeitslosenbeihilfen",
     "lv": "bezdarbnieka pabalsts",
     "level": "C2"
   },
   {
     "de": "Ausbildungsbeihilfe",
     "de_article": "die",
-    "de_plural": "die Ausbildungsbeihilfe",
+    "de_plural": "die Ausbildungsbeihilfen",
     "lv": "mācību pabalsts",
     "level": "C2"
   },
@@ -636,7 +633,7 @@ const C2_WORDS = [
   {
     "de": "Wirtschaftsblock",
     "de_article": "der",
-    "de_plural": "die Wirtschaftsblocke",
+    "de_plural": "die Wirtschaftsblöcke",
     "lv": "ekonomiskais bloks",
     "level": "C2"
   },
@@ -671,7 +668,6 @@ const C2_WORDS = [
   {
     "de": "Informationsdefizit",
     "de_article": "das",
-    "de_plural": "die Informationsdefizits",
     "lv": "informācijas deficīts",
     "level": "C2"
   },
@@ -706,7 +702,7 @@ const C2_WORDS = [
   {
     "de": "Durchfuhrerlaubnis",
     "de_article": "die",
-    "de_plural": "die Durchfuhrerlaubse",
+    "de_plural": "die Durchfuhrerlaubnisse",
     "lv": "caurbraukšanas atļauja",
     "level": "C2"
   },
@@ -793,7 +789,7 @@ const C2_WORDS = [
   {
     "de": "Erfrischungsraum",
     "de_article": "der",
-    "de_plural": "die Erfrischungsraen",
+    "de_plural": "die Erfrischungsräume",
     "lv": "bufete",
     "level": "C2"
   },
@@ -821,7 +817,6 @@ const C2_WORDS = [
   {
     "de": "Fallschirmspringen",
     "de_article": "das",
-    "de_plural": "die Fallschirmspringens",
     "lv": "lēkšana ar izpletni",
     "level": "C2"
   },
@@ -870,7 +865,7 @@ const C2_WORDS = [
   {
     "de": "Gedächtnisschwäche",
     "de_article": "die",
-    "de_plural": "die Gedächtnisschwäche",
+    "de_plural": "die Gedächtnisschwächen",
     "lv": "slikta atmiņa",
     "level": "C2"
   },
@@ -905,7 +900,6 @@ const C2_WORDS = [
   {
     "de": "Geistesgegenwart",
     "de_article": "die",
-    "de_plural": "die Geistesgegenwarts",
     "lv": "attapība",
     "level": "C2"
   },
@@ -952,7 +946,7 @@ const C2_WORDS = [
   {
     "de": "Generalreparatur",
     "de_article": "die",
-    "de_plural": "die Generalreparaturs",
+    "de_plural": "die Generalreparaturen",
     "lv": "kapitālremonts",
     "level": "C2"
   },
@@ -980,7 +974,7 @@ const C2_WORDS = [
   {
     "de": "Schiedsgericht",
     "de_article": "das",
-    "de_plural": "die Schiedsgerichts",
+    "de_plural": "die Schiedsgerichte",
     "lv": "šķīrējtiesa",
     "level": "C2"
   },
@@ -1001,7 +995,6 @@ const C2_WORDS = [
   {
     "de": "Geschlechtsverkehr",
     "de_article": "der",
-    "de_plural": "die Geschlechtsverkehrs",
     "lv": "dzimumakts",
     "level": "C2"
   },
@@ -1062,7 +1055,7 @@ const C2_WORDS = [
   {
     "de": "Gewerkschaftsbeitrag",
     "de_article": "der",
-    "de_plural": "die Gewerkschaftsbeitrage",
+    "de_plural": "die Gewerkschaftsbeiträge",
     "lv": "arodbiedrības biedru maksa",
     "level": "C2"
   },
@@ -1202,7 +1195,7 @@ const C2_WORDS = [
   {
     "de": "Mannschaftskampf",
     "de_article": "der",
-    "de_plural": "die Mannschaftskampfe",
+    "de_plural": "die Mannschaftskämpfe",
     "lv": "komandu sacensības",
     "level": "C2"
   },
@@ -1277,7 +1270,6 @@ const C2_WORDS = [
   {
     "de": "Politische Ökonomie",
     "de_article": "die",
-    "de_plural": "die Politische Ökonomie",
     "lv": "politiskā ekonomija",
     "level": "C2"
   },
@@ -1315,7 +1307,7 @@ const C2_WORDS = [
   {
     "de": "Beschwerdeschrift",
     "de_article": "die",
-    "de_plural": "die Beschwerdeschrifts",
+    "de_plural": "die Beschwerdeschriften",
     "lv": "sūdzība",
     "level": "C2"
   },
@@ -1378,7 +1370,7 @@ const C2_WORDS = [
   {
     "de": "Vaterschaftsklage",
     "de_article": "die",
-    "de_plural": "die Vaterschaftsklage",
+    "de_plural": "die Vaterschaftsklagen",
     "lv": "sūdzība tiesā paternitātes noteikšanai",
     "level": "C2"
   },
@@ -1456,35 +1448,35 @@ const C2_WORDS = [
     "level": "C2"
   },
   {
-    "de": "die Karre",
+    "de": "Karre",
     "de_article": "die",
     "de_plural": "die Karren",
     "lv": "ķerra",
     "level": "C2"
   },
   {
-    "de": "der Karren",
+    "de": "Karren",
     "de_article": "der",
     "de_plural": "die Karren",
     "lv": "ķerra",
     "level": "C2"
   },
   {
-    "de": "der Kriegsbeschädigte",
+    "de": "Kriegsbeschädigte",
     "de_article": "der",
     "de_plural": "die Kriegsbeschädigten",
     "lv": "kara invalīds",
     "level": "C2"
   },
   {
-    "de": "der Kriegsgefangene",
+    "de": "Kriegsgefangene",
     "de_article": "der",
     "de_plural": "die Kriegsgefangenen",
     "lv": "karagūsteknis",
     "level": "C2"
   },
   {
-    "de": "der Sachverständige",
+    "de": "Sachverständige",
     "de_article": "der",
     "de_plural": "die Sachverständigen",
     "lv": "lietpratējs • eksperts",

@@ -588,14 +588,13 @@ const C1_WORDS = [
   {
     "de": "Kabelanschluss",
     "de_article": "der",
-    "de_plural": "die Kabelanschlusse",
+    "de_plural": "die Kabelanschlüsse",
     "lv": "televīzijas kabeļpieslēgums",
     "level": "C1"
   },
   {
     "de": "Kabelfernsehen",
     "de_article": "das",
-    "de_plural": "die Kabelfernsehens",
     "lv": "kabeļtelevīzija",
     "level": "C1"
   },
@@ -609,7 +608,7 @@ const C1_WORDS = [
   {
     "de": "Pressekampagne",
     "de_article": "die",
-    "de_plural": "die Pressekampagne",
+    "de_plural": "die Pressekampagnen",
     "lv": "preses kampaņa",
     "level": "C1"
   },
@@ -635,7 +634,7 @@ const C1_WORDS = [
   {
     "de": "Kostenanschlag",
     "de_article": "der",
-    "de_plural": "die Kostenanschlage",
+    "de_plural": "die Kostenanschläge",
     "lv": "izdevumu tāme",
     "level": "C1"
   },
@@ -687,7 +686,6 @@ const C1_WORDS = [
   {
     "de": "Menschenrechte",
     "de_article": "die",
-    "de_plural": "die Menschenrechte",
     "lv": "cilvēktiesības",
     "level": "C1"
   },
@@ -708,7 +706,7 @@ const C1_WORDS = [
   {
     "de": "Modezeitschrift",
     "de_article": "die",
-    "de_plural": "die Modezeitschrifts",
+    "de_plural": "die Modezeitschriften",
     "lv": "modes žurnāls",
     "level": "C1"
   },
@@ -734,7 +732,7 @@ const C1_WORDS = [
   {
     "de": "Nationaltracht",
     "de_article": "die",
-    "de_plural": "die Nationaltrachts",
+    "de_plural": "die Nationaltrachten",
     "lv": "tautastērps",
     "level": "C1"
   },
@@ -926,7 +924,7 @@ const C1_WORDS = [
   {
     "de": "Rettungsstelle",
     "de_article": "die",
-    "de_plural": "die Rettungsstelle",
+    "de_plural": "die Rettungsstellen",
     "lv": "ātrās palīdzības punkts",
     "level": "C1"
   },
@@ -938,7 +936,7 @@ const C1_WORDS = [
   {
     "de": "Schauspielhaus",
     "de_article": "das",
-    "de_plural": "die Schauspielhause",
+    "de_plural": "die Schauspielhäuser",
     "lv": "teātris",
     "level": "C1"
   },
@@ -992,7 +990,6 @@ const C1_WORDS = [
   {
     "de": "Schwiegereltern",
     "de_article": "die",
-    "de_plural": "die Schwiegerelterns",
     "lv": "vīra vecāki",
     "level": "C1"
   },
@@ -1027,7 +1024,6 @@ const C1_WORDS = [
   {
     "de": "Stabhochspringen",
     "de_article": "das",
-    "de_plural": "die Stabhochspringens",
     "lv": "kārtslēkšana",
     "level": "C1"
   },
@@ -1074,7 +1070,6 @@ const C1_WORDS = [
   {
     "de": "Tagesnachrichten",
     "de_article": "die",
-    "de_plural": "die Tagesnachrichtens",
     "lv": "dienas ziņas",
     "level": "C1"
   },
@@ -1122,7 +1117,7 @@ const C1_WORDS = [
     "de": "Unternehmen",
     "de_article": "das",
     "de_plural": "die Unternehmen",
-    "lv": "uzsākt",
+    "lv": "uzņēmums • pasākums",
     "level": "C1"
   },
   {
@@ -1444,7 +1439,7 @@ const C1_WORDS = [
   {
     "de": "Bedarfsartikel",
     "de_article": "der",
-    "de_plural": "die Bedarfsartikels",
+    "de_plural": "die Bedarfsartikel",
     "lv": "plaša patēriņa prece",
     "level": "C1"
   },
@@ -1478,7 +1473,7 @@ const C1_WORDS = [
   {
     "de": "Familienbeihilfe",
     "de_article": "die",
-    "de_plural": "die Familienbeihilfe",
+    "de_plural": "die Familienbeihilfen",
     "lv": "ģimenes pabalsts",
     "level": "C1"
   },
@@ -1654,7 +1649,6 @@ const C1_WORDS = [
   {
     "de": "Bildhauerkunst",
     "de_article": "die",
-    "de_plural": "die Bildhauerkunsts",
     "lv": "tēlniecība",
     "level": "C1"
   },
@@ -1668,7 +1662,7 @@ const C1_WORDS = [
   {
     "de": "Finanzblockade",
     "de_article": "die",
-    "de_plural": "die Finanzblockade",
+    "de_plural": "die Finanzblockaden",
     "lv": "finanšu blokāde",
     "level": "C1"
   },
@@ -1824,7 +1818,6 @@ const C1_WORDS = [
   {
     "de": "Diplomatie",
     "de_article": "die",
-    "de_plural": "die Diplomatie",
     "lv": "diplomātija",
     "level": "C1"
   },
@@ -1855,14 +1848,13 @@ const C1_WORDS = [
   {
     "de": "Durchfuhrverbot",
     "de_article": "das",
-    "de_plural": "die Durchfuhrverbots",
+    "de_plural": "die Durchfuhrverbote",
     "lv": "caurbraukšanas aizliegums",
     "level": "C1"
   },
   {
     "de": "Durchgangsverkehr",
     "de_article": "der",
-    "de_plural": "die Durchgangsverkehrs",
     "lv": "tranzītsatiksme",
     "level": "C1"
   },
@@ -1874,7 +1866,7 @@ const C1_WORDS = [
   {
     "de": "Einflusssphäre",
     "de_article": "die",
-    "de_plural": "die Einflusssphäre",
+    "de_plural": "die Einflusssphären",
     "lv": "ietekmes sfēra",
     "level": "C1"
   },
@@ -1924,7 +1916,7 @@ const C1_WORDS = [
   {
     "de": "Einspruchsrecht",
     "de_article": "das",
-    "de_plural": "die Einspruchsrechts",
+    "de_plural": "die Einspruchsrechte",
     "lv": "protesta tiesības • veto tiesības",
     "level": "C1"
   },
@@ -1973,7 +1965,7 @@ const C1_WORDS = [
   {
     "de": "Elementarregel",
     "de_article": "die",
-    "de_plural": "die Elementarregels",
+    "de_plural": "die Elementarregeln",
     "lv": "pamatlikums",
     "level": "C1"
   },
@@ -2052,7 +2044,6 @@ const C1_WORDS = [
   {
     "de": "Erntearbeiten",
     "de_article": "die",
-    "de_plural": "die Erntearbeitens",
     "lv": "ražas novākšanas darbi",
     "level": "C1"
   },
@@ -2111,7 +2102,6 @@ const C1_WORDS = [
   {
     "de": "Fortbildungskurse",
     "de_article": "die",
-    "de_plural": "die Fortbildungskurse",
     "lv": "kvalifikācijas paaugstināšanas kursi",
     "level": "C1"
   },
@@ -2163,21 +2153,19 @@ const C1_WORDS = [
   {
     "de": "Soziale Fürsorge",
     "de_article": "die",
-    "de_plural": "die Soziale Fürsorge",
     "lv": "sociālā apgāde",
     "level": "C1"
   },
   {
     "de": "Auffassungsgabe",
     "de_article": "die",
-    "de_plural": "die Auffassungsgabe",
+    "de_plural": "die Auffassungsgaben",
     "lv": "uztveres spēja",
     "level": "C1"
   },
   {
     "de": "Gebrauchtwaren",
     "de_article": "die",
-    "de_plural": "die Gebrauchtwarens",
     "lv": "lietotas mantas",
     "level": "C1"
   },
@@ -2226,7 +2214,7 @@ const C1_WORDS = [
   {
     "de": "Beichtgeheimnis",
     "de_article": "das",
-    "de_plural": "die Beichtgeheimse",
+    "de_plural": "die Beichtgeheimnisse",
     "lv": "bikts noslēpums",
     "level": "C1"
   },
@@ -2281,7 +2269,7 @@ const C1_WORDS = [
   {
     "de": "Gemäldegalerie",
     "de_article": "die",
-    "de_plural": "die Gemäldegalerie",
+    "de_plural": "die Gemäldegalerien",
     "lv": "gleznu galerija",
     "level": "C1"
   },
@@ -2295,7 +2283,6 @@ const C1_WORDS = [
   {
     "de": "Gemeineigentum",
     "de_article": "das",
-    "de_plural": "die Gemeineigenten",
     "lv": "sabiedriskais īpašums",
     "level": "C1"
   },
@@ -2394,7 +2381,7 @@ const C1_WORDS = [
   {
     "de": "Geschäftshaus",
     "de_article": "das",
-    "de_plural": "die Geschäftshause",
+    "de_plural": "die Geschäftshäuser",
     "lv": "tirdzniecības nams",
     "level": "C1"
   },
@@ -2447,14 +2434,13 @@ const C1_WORDS = [
   {
     "de": "Gewinnanteil",
     "de_article": "der",
-    "de_plural": "die Gewinnanteils",
+    "de_plural": "die Gewinnanteile",
     "lv": "peļņas daļa",
     "level": "C1"
   },
   {
     "de": "Gewissensbisse",
     "de_article": "die",
-    "de_plural": "die Gewissensbisse",
     "lv": "sirdsapziņas pārmetumi",
     "level": "C1"
   },
@@ -2504,7 +2490,6 @@ const C1_WORDS = [
   {
     "de": "Haft",
     "de_article": "die",
-    "de_plural": "die Hafts",
     "lv": "apcietinājums • arests",
     "level": "C1"
   },
@@ -2565,7 +2550,7 @@ const C1_WORDS = [
   {
     "de": "Haushaltsartikel",
     "de_article": "der",
-    "de_plural": "die Haushaltsartikels",
+    "de_plural": "die Haushaltsartikel",
     "lv": "saimniecības prece",
     "level": "C1"
   },
@@ -2613,14 +2598,12 @@ const C1_WORDS = [
   {
     "de": "Industrieabgase",
     "de_article": "die",
-    "de_plural": "die Industrieabgase",
     "lv": "rūpnieciskās izplūdes gāzes",
     "level": "C1"
   },
   {
     "de": "Industrieabwässer",
     "de_article": "die",
-    "de_plural": "die Industrieabwässers",
     "lv": "rūpnieciskie notekūdeņi",
     "level": "C1"
   },
@@ -2665,7 +2648,6 @@ const C1_WORDS = [
   {
     "de": "Justiz",
     "de_article": "die",
-    "de_plural": "die Justize",
     "lv": "justīcija • tieslietas • tiesa",
     "level": "C1"
   },
@@ -2722,7 +2704,7 @@ const C1_WORDS = [
   {
     "de": "Kabinettskrise",
     "de_article": "die",
-    "de_plural": "die Kabinettskrise",
+    "de_plural": "die Kabinettskrisen",
     "lv": "kabineta krīze",
     "level": "C1"
   },
@@ -2787,7 +2769,6 @@ const C1_WORDS = [
   {
     "de": "Linksextremismus",
     "de_article": "der",
-    "de_plural": "die Linksextremismuse",
     "lv": "kreisais ekstrēmisms",
     "level": "C1"
   },
@@ -2863,7 +2844,7 @@ const C1_WORDS = [
   {
     "de": "Nichtangriffspakt",
     "de_article": "der",
-    "de_plural": "die Nichtangriffspakts",
+    "de_plural": "die Nichtangriffspakte",
     "lv": "neuzbrukšanas pakts",
     "level": "C1"
   },
@@ -2965,7 +2946,7 @@ const C1_WORDS = [
   {
     "de": "Produktionsweise",
     "de_article": "die",
-    "de_plural": "die Produktionsweise",
+    "de_plural": "die Produktionsweisen",
     "lv": "ražošanas veids",
     "level": "C1"
   },
@@ -3002,7 +2983,7 @@ const C1_WORDS = [
   {
     "de": "Regenbogenpresse",
     "de_article": "die",
-    "de_plural": "die Regenbogenpresse",
+    "de_plural": "die Regenbogenpressen",
     "lv": "bulvārprese",
     "level": "C1"
   },
@@ -3030,7 +3011,7 @@ const C1_WORDS = [
   {
     "de": "Rentenanspruch",
     "de_article": "der",
-    "de_plural": "die Rentenanspruche",
+    "de_plural": "die Rentenansprüche",
     "lv": "tiesības uz pensiju",
     "level": "C1"
   },
@@ -3068,7 +3049,7 @@ const C1_WORDS = [
   {
     "de": "Scheidungsgrund",
     "de_article": "der",
-    "de_plural": "die Scheidungsgrunde",
+    "de_plural": "die Scheidungsgründe",
     "lv": "šķiršanās iemesls",
     "level": "C1"
   },
@@ -3101,7 +3082,6 @@ const C1_WORDS = [
   {
     "de": "Segelflugsport",
     "de_article": "der",
-    "de_plural": "die Segelflugsports",
     "lv": "planierisms",
     "level": "C1"
   },
@@ -3132,7 +3112,7 @@ const C1_WORDS = [
   {
     "de": "Sinfonieorchester",
     "de_article": "das",
-    "de_plural": "die Sinfonieorchesters",
+    "de_plural": "die Sinfonieorchester",
     "lv": "simfoniskais orķestris",
     "level": "C1"
   },
@@ -3202,7 +3182,6 @@ const C1_WORDS = [
   {
     "de": "Steuereinnahmen",
     "de_article": "die",
-    "de_plural": "die Steuereinnahmens",
     "lv": "nodokļu ieņēmumi",
     "level": "C1"
   },
@@ -3226,7 +3205,6 @@ const C1_WORDS = [
   {
     "de": "Tageseinnahmen",
     "de_article": "die",
-    "de_plural": "die Tageseinnahmens",
     "lv": "dienas ieņēmumi",
     "level": "C1"
   },
@@ -3387,7 +3365,6 @@ const C1_WORDS = [
   {
     "de": "Verkehrswesen",
     "de_article": "das",
-    "de_plural": "die Verkehrswesens",
     "lv": "transports",
     "level": "C1"
   },
@@ -3458,7 +3435,7 @@ const C1_WORDS = [
   {
     "de": "Versuchsanlage",
     "de_article": "die",
-    "de_plural": "die Versuchsanlage",
+    "de_plural": "die Versuchsanlagen",
     "lv": "izmēģinājumu iekārta",
     "level": "C1"
   },
@@ -3472,7 +3449,7 @@ const C1_WORDS = [
   {
     "de": "Versuchsreihe",
     "de_article": "die",
-    "de_plural": "die Versuchsreihe",
+    "de_plural": "die Versuchsreihen",
     "lv": "testu sērija",
     "level": "C1"
   },
@@ -3564,7 +3541,7 @@ const C1_WORDS = [
   {
     "de": "Wäscheschleuder",
     "de_article": "die",
-    "de_plural": "die Wäscheschleuders",
+    "de_plural": "die Wäscheschleudern",
     "lv": "veļas centrifūga",
     "level": "C1"
   },
@@ -3598,7 +3575,6 @@ const C1_WORDS = [
   {
     "de": "Wehrersatzdienst",
     "de_article": "der",
-    "de_plural": "die Wehrersatzdiensts",
     "lv": "civildienests karadienesta vietā",
     "level": "C1"
   },
@@ -4456,49 +4432,49 @@ const C1_WORDS = [
     }
   },
   {
-    "de": "der Hektar",
+    "de": "Hektar",
     "de_article": "der",
     "de_plural": "die Hektar",
     "lv": "hektārs",
     "level": "C1"
   },
   {
-    "de": "die Karre",
+    "de": "Karre",
     "de_article": "die",
     "de_plural": "die Karren",
     "lv": "ķerra",
     "level": "C1"
   },
   {
-    "de": "der Karren",
+    "de": "Karren",
     "de_article": "der",
     "de_plural": "die Karren",
     "lv": "ķerra",
     "level": "C1"
   },
   {
-    "de": "der Krüppel",
+    "de": "Krüppel",
     "de_article": "der",
     "de_plural": "die Krüppel",
     "lv": "kroplis",
     "level": "C1"
   },
   {
-    "de": "der Matsch",
+    "de": "Matsch",
     "de_article": "der",
     "de_plural": "die Matsche",
-    "lv": "mačs",
+    "lv": "dubļi • šļaka",
     "level": "C1"
   },
   {
-    "de": "der Panter",
+    "de": "Panter",
     "de_article": "der",
     "de_plural": "die Panter",
     "lv": "pantera",
     "level": "C1"
   },
   {
-    "de": "der Panther",
+    "de": "Panther",
     "de_article": "der",
     "de_plural": "die Panther",
     "lv": "pantera",
