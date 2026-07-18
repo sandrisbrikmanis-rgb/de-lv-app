@@ -3524,8 +3524,8 @@ function spellingVerbOptions(verb) {
 
   return [
     { front: forms.tagadneLv, prompt: "Uzraksti infinitīvu", expected: forms.tagadne },
-    { front: forms.tagadneLv, prompt: "Uzraksti Präteritum", expected: forms.nakotne },
-    { front: forms.tagadneLv, prompt: "Uzraksti Partizip II", expected: forms.pagatne }
+    { front: forms.tagadneLv, prompt: "Uzraksti imperfektu", expected: forms.nakotne },
+    { front: forms.tagadneLv, prompt: "Uzraksti pagātnes divdabi", expected: forms.pagatne }
   ].filter((item) => item.front && item.expected);
 }
 
@@ -3574,8 +3574,8 @@ function verbRandomOptions(verb) {
   const forms = verbForms(verb);
   return [
     { show: forms.tagadneLv, prompt: "Uzmini infinitīvu", reveal: forms.tagadne },
-    { show: forms.tagadneLv, prompt: "Uzmini Präteritum", reveal: forms.nakotne },
-    { show: forms.tagadneLv, prompt: "Uzmini Partizip II", reveal: forms.pagatne }
+    { show: forms.tagadneLv, prompt: "Uzmini imperfektu", reveal: forms.nakotne },
+    { show: forms.tagadneLv, prompt: "Uzmini pagātnes divdabi", reveal: forms.pagatne }
   ].filter((item) => item.show && item.reveal);
 }
 
@@ -6101,7 +6101,7 @@ function renderVerbCard() {
 
   if (!verb) {
     elements.cardLevel.className = "verb-headings";
-    elements.cardLevel.innerHTML = "<span>Infinitiv</span><span>Präsens</span><span>Imperfekt<br>- Indikativ</span><span>Imperfekt<br>- Konjunktiv</span><span>Partizip der<br>Vergangenheit</span>";
+    elements.cardLevel.innerHTML = "<span>Infinitīvs</span><span>Tagadne</span><span>Imperfekts<br>- Indikatīvs</span><span>Imperfekts<br>- Konjunktīvs</span><span>Pagātnes<br>divdabis</span>";
     elements.word.textContent = state.reviewLastSession
       ? "Pēdējās sesijas pārskatīšana pabeigta."
       : (state.timeReviewMode
@@ -6147,11 +6147,11 @@ function renderVerbCard() {
 
   const forms = verbForms(verb);
   const stages = [
-    { label: "Infinitiv", buttonLabel: "Infinitiv", value: forms.infinitiv, translation: forms.infinitivLv },
-    { label: "Präsens", buttonLabel: "Präsens", value: forms.praesens, translation: forms.praesensLv },
-    { label: "Imperfekt Indikativ", buttonLabel: "Imperfekt<br>- Indikativ", value: forms.imperfektIndikativ, translation: forms.imperfektIndikativLv },
-    { label: "Imperfekt Konjunktiv", buttonLabel: "Imperfekt<br>- Konjunktiv", value: forms.imperfektKonjunktiv, translation: forms.imperfektKonjunktivLv },
-    { label: "Partizip der Vergangenheit", buttonLabel: "Partizip der<br>Vergangenheit", value: forms.partizipVergangenheit, translation: forms.partizipVergangenheitLv }
+    { label: "Infinitiv", buttonLabel: "Infinitīvs", value: forms.infinitiv, translation: forms.infinitivLv },
+    { label: "Präsens", buttonLabel: "Tagadne", value: forms.praesens, translation: forms.praesensLv },
+    { label: "Imperfekt Indikativ", buttonLabel: "Imperfekts<br>- Indikatīvs", value: forms.imperfektIndikativ, translation: forms.imperfektIndikativLv },
+    { label: "Imperfekt Konjunktiv", buttonLabel: "Imperfekts<br>- Konjunktīvs", value: forms.imperfektKonjunktiv, translation: forms.imperfektKonjunktivLv },
+    { label: "Partizip der Vergangenheit", buttonLabel: "Pagātnes<br>divdabis", value: forms.partizipVergangenheit, translation: forms.partizipVergangenheitLv }
   ];
   const stage = stages[state.verbStep] || stages[0];
 
