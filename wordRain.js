@@ -2,9 +2,14 @@
   "use strict";
 
   const MIN_WIDTH = 1024;
-  const WORD_COUNT = 18;
+  const WORD_COUNT = 36;
   const COOLDOWN_SIZE = 8;
   const WORD_MAX_WIDTH = 230;
+  const BASIN_ZONE_WEIGHT = 0.48;
+  const CORRIDOR_SIDE_MAX = 0.18;
+  const CORRIDOR_SIDE_MIN = 0.12;
+  const CARD_ZONE_GAP = 16;
+  const BASIN_TOP_GAP = 24;
   const WORD_RAIN_CONFIG = {
     active_red: 0.40,
     problem_darkred: 0.30,
@@ -30,12 +35,13 @@
   let resizeTimer = null;
   let zoneDeck = [];
   let zoneDeckKey = "";
-  let columnDeck = [];
-  let columnDeckKey = "";
   let wordPool = [];
   let lastSnapshot = null;
   let lastGroupKey = "";
   let lastLayoutWidth = 0;
+  let lastLayoutHeight = 0;
+  let cardObserver = null;
+  let observedCard = null;
   const recentIds = [];
 
   function isWordRainEnabled() {
@@ -321,45 +327,169 @@
     return "";
   }
 
-  function columnCountForWidth(width) {
-    return width >= 1800 ? 6 : 5;
+  function getCardElement() {
+    const screen = document.querySelector(".group-detail-screen");
+    if (!screen || screen.hidden) return null;
+    return screen.querySelector(":scope > .card");
   }
 
-  function createZones() {
-    const width = window.innerWidth;
-    const height = window.innerHeight;
-    const columnCount = columnCountForWidth(width);
-    const rowCount = Math.max(3, Math.min(4, Math.ceil(WORD_COUNT / columnCount)));
-    const cellWidth = width / columnCount;
-    const cellHeight = height / rowCount;
-    const zones = [];
+  function getCardRect() {
+    const card = getCardElement();
+    if (!card) return null;
+    const rect = card.getBoundingClientRect();
+    if (rect.width <= 0 || rect.height <= 0) return null;
+    return rect;
+  }
+
+  function corridorWidths(viewportWidth, cardRect) {
+    const minSide = viewportWidth * CORRIDOR_SIDE_MIN;
+    const maxSide = viewportWidth * CORRIDOR_SIDE_MAX;
+
+    if (!cardRect) {
+      const fallback = Math.min(maxSide, Math.max(minSide, viewportWidth * 0.15));
+      return { left: fallback, right: fallback };
+    }
+
+    const leftSpace = Math.max(0, cardRect.left - CARD_ZONE_GAP);
+    const rightSpace = Math.max(0, viewportWidth - cardRect.right - CARD_ZONE_GAP);
+    return {
+      left: Math.max(72, Math.min(leftSpace, maxSide)),
+      right: Math.max(72, Math.min(rightSpace, maxSide))
+    };
+  }
+
+  function pushCorridorZones(zones, side, viewportWidth, viewportHeight, rowCount, weightShare, cardRect) {
+    const rowHeight = viewportHeight / rowCount;
+    const isLeft = side === "left";
+    const corridor = corridorWidths(viewportWidth, cardRect);
+    const corridorWidth = isLeft ? corridor.left : corridor.right;
+    if (corridorWidth < 72) return;
+
+    const xMin = isLeft ? 8 : Math.max(8, viewportWidth - corridorWidth);
+    const xMax = isLeft
+      ? Math.max(8, corridorWidth - WORD_MAX_WIDTH * 0.28)
+      : Math.max(8, viewportWidth - 8 - WORD_MAX_WIDTH * 0.28);
+    const zoneWeight = weightShare / rowCount;
+
+    for (let row = 0; row < rowCount; row += 1) {
+      const yMin = rowHeight * row + 10;
+      const yMax = rowHeight * (row + 1) - 10;
+      zones.push({
+        type: isLeft ? "corridor-left" : "corridor-right",
+        column: isLeft ? 0 : 1,
+        row,
+        weight: zoneWeight,
+        cellHeight: rowHeight,
+        xMin,
+        xMax: Math.max(xMin, xMax),
+        yMin,
+        yMax: Math.max(yMin, yMax)
+      });
+    }
+  }
+
+  function pushBasinZones(zones, viewportWidth, viewportHeight, cardRect) {
+    const basinTop = cardRect
+      ? Math.min(viewportHeight - 72, cardRect.bottom + BASIN_TOP_GAP)
+      : viewportHeight * 0.58;
+    const basinHeight = viewportHeight - basinTop;
+    if (basinHeight < 64 || basinTop >= viewportHeight - 36) return;
+
+    const rowCount = basinHeight >= 180 ? 2 : 1;
+    const columnCount = viewportWidth >= 1800 ? 8 : 6;
+    const cellWidth = viewportWidth / columnCount;
+    const cellHeight = basinHeight / rowCount;
+    const zoneWeight = BASIN_ZONE_WEIGHT / (rowCount * columnCount);
 
     for (let row = 0; row < rowCount; row += 1) {
       for (let column = 0; column < columnCount; column += 1) {
         const cellLeft = cellWidth * column;
-        const cellTop = cellHeight * row;
-        const paddingX = Math.min(22, Math.max(8, cellWidth * 0.12));
-        const paddingY = Math.min(28, Math.max(10, cellHeight * 0.12));
+        const cellTop = basinTop + cellHeight * row;
+        const paddingX = Math.min(18, Math.max(8, cellWidth * 0.1));
+        const paddingY = Math.min(16, Math.max(8, cellHeight * 0.12));
         zones.push({
-          type: "grid",
+          type: "basin",
           column,
           row,
-          columnCount,
-          rowCount,
+          weight: zoneWeight,
           cellHeight,
           xMin: Math.max(8, cellLeft + paddingX),
           xMax: Math.max(8, cellLeft + cellWidth - paddingX - WORD_MAX_WIDTH * 0.28),
           yMin: cellTop + paddingY,
-          yMax: cellTop + cellHeight - paddingY
+          yMax: Math.max(cellTop + paddingY, cellTop + cellHeight - paddingY)
         });
       }
+    }
+  }
+
+  function createZones() {
+    const viewportWidth = window.innerWidth;
+    const viewportHeight = window.innerHeight;
+    const cardRect = getCardRect();
+    const corridorShare = 1 - BASIN_ZONE_WEIGHT;
+    const corridorRowCount = 4;
+    const zones = [];
+
+    pushCorridorZones(zones, "left", viewportWidth, viewportHeight, corridorRowCount, corridorShare * 0.5, cardRect);
+    pushCorridorZones(zones, "right", viewportWidth, viewportHeight, corridorRowCount, corridorShare * 0.5, cardRect);
+    pushBasinZones(zones, viewportWidth, viewportHeight, cardRect);
+
+    if (!zones.length) {
+      pushCorridorZones(zones, "left", viewportWidth, viewportHeight, corridorRowCount, 0.5, null);
+      pushCorridorZones(zones, "right", viewportWidth, viewportHeight, corridorRowCount, 0.5, null);
     }
 
     return zones;
   }
 
   function zoneKey(zones) {
-    return `${window.innerWidth}x${window.innerHeight}:${zones.length}`;
+    const cardRect = getCardRect();
+    const cardKey = cardRect
+      ? `${Math.round(cardRect.left)}:${Math.round(cardRect.top)}:${Math.round(cardRect.width)}:${Math.round(cardRect.height)}`
+      : "none";
+    return `${window.innerWidth}x${window.innerHeight}:${cardKey}:${zones.length}`;
+  }
+
+  function assignZonesToItems(zones, count) {
+    if (!zones.length || count <= 0) return [];
+
+    const weightedZones = zones.map((zone) => ({
+      zone,
+      target: 0,
+      weight: zone.weight > 0 ? zone.weight : 1
+    }));
+    const totalWeight = weightedZones.reduce((sum, entry) => sum + entry.weight, 0);
+
+    weightedZones.forEach((entry) => {
+      entry.target = Math.round((entry.weight / totalWeight) * count);
+    });
+
+    let assigned = weightedZones.reduce((sum, entry) => sum + entry.target, 0);
+    while (assigned > count) {
+      const entry = weightedZones.find((candidate) => candidate.target > 0);
+      if (!entry) break;
+      entry.target -= 1;
+      assigned -= 1;
+    }
+    while (assigned < count) {
+      const entry = weightedZones.reduce((best, candidate) => {
+        if (!best) return candidate;
+        const bestRatio = best.target / best.weight;
+        const candidateRatio = candidate.target / candidate.weight;
+        return candidateRatio < bestRatio ? candidate : best;
+      }, null);
+      if (!entry) break;
+      entry.target += 1;
+      assigned += 1;
+    }
+
+    const assignments = [];
+    weightedZones.forEach((entry) => {
+      for (let index = 0; index < entry.target; index += 1) {
+        assignments.push(entry.zone);
+      }
+    });
+    return shuffle(assignments);
   }
 
   function rebuildZoneDeck(zones) {
@@ -388,18 +518,6 @@
     const index = zoneDeck.pop();
     if (!zoneDeck.length) rebuildZoneDeck(zones);
     return zones[index] || zones[0];
-  }
-
-  function rebuildColumnDeck(zones) {
-    columnDeck = shuffle(zones.map((zone, zoneIndex) => ({ zoneIndex, row: zone.row })));
-    columnDeckKey = zoneKey(zones);
-  }
-
-  function takeColumnSlot(zones, index) {
-    if (!columnDeck.length || columnDeckKey !== zoneKey(zones)) {
-      rebuildColumnDeck(zones);
-    }
-    return columnDeck[index % columnDeck.length] || { zoneIndex: 0, row: index };
   }
 
   function topResetY(item) {
@@ -507,6 +625,22 @@
     return layer;
   }
 
+  function setupCardObserver() {
+    const card = getCardElement();
+    if (card === observedCard) return;
+
+    if (cardObserver) {
+      cardObserver.disconnect();
+      cardObserver = null;
+    }
+    observedCard = card;
+
+    if (!card || typeof ResizeObserver === "undefined") return;
+
+    cardObserver = new ResizeObserver(() => scheduleRefresh(120));
+    cardObserver.observe(card);
+  }
+
   function buildItems(words) {
     const host = createLayer();
     if (items.length !== WORD_COUNT || host.children.length !== WORD_COUNT) {
@@ -535,14 +669,14 @@
       }
     }
 
+    setupCardObserver();
     const zones = createZones();
-    rebuildColumnDeck(zones);
+    const zoneAssignments = assignZonesToItems(zones, WORD_COUNT);
     items.forEach((item) => {
       item.placed = false;
     });
     items.forEach((item, index) => {
-      const slot = takeColumnSlot(zones, index);
-      resetItem(item, words, false, zones[slot.zoneIndex] || zones[0]);
+      resetItem(item, words, false, zoneAssignments[index] || chooseZone(zones));
     });
   }
 
@@ -558,7 +692,7 @@
     items.forEach((item) => {
       item.y += item.speed * delta;
       item.x += item.drift * delta;
-      if (item.y > item.zoneBottom) resetItem(item, wordPool, true);
+      if (item.y > item.zoneBottom) resetItem(item, wordPool, true, item.zone);
       applyItem(item);
     });
 
@@ -598,11 +732,14 @@
 
     const groupChanged = snapshot.groupKey !== lastGroupKey;
     const widthChanged = window.innerWidth !== lastLayoutWidth;
+    const heightChanged = window.innerHeight !== lastLayoutHeight;
     lastGroupKey = snapshot.groupKey;
     lastLayoutWidth = window.innerWidth;
+    lastLayoutHeight = window.innerHeight;
 
     createLayer().hidden = false;
-    if (groupChanged || !items.length || widthChanged) {
+    setupCardObserver();
+    if (groupChanged || !items.length || widthChanged || heightChanged) {
       buildItems(wordPool);
     }
 
@@ -637,7 +774,10 @@
 
       if (!enabled || groupChanged) {
         lastGroupKey = snapshot.groupKey;
+        lastLayoutWidth = window.innerWidth;
+        lastLayoutHeight = window.innerHeight;
         createLayer().hidden = false;
+        setupCardObserver();
         buildItems(wordPool);
         enabled = true;
         if (!animationFrame) animationFrame = window.requestAnimationFrame(animate);
