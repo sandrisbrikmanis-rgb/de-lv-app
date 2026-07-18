@@ -1,0 +1,127 @@
+{
+  "auditedAt": "2026-07-18T09:33:22.021Z",
+  "levels": [
+    {
+      "level": "A1",
+      "entries": 703,
+      "expectedAudio": 991,
+      "existing": 991,
+      "missing": 0,
+      "coveragePct": 100
+    },
+    {
+      "level": "A2",
+      "entries": 1640,
+      "expectedAudio": 2486,
+      "existing": 2486,
+      "missing": 0,
+      "coveragePct": 100
+    },
+    {
+      "level": "B1",
+      "entries": 3367,
+      "expectedAudio": 5253,
+      "existing": 5253,
+      "missing": 0,
+      "coveragePct": 100
+    },
+    {
+      "level": "B2",
+      "entries": 2118,
+      "expectedAudio": 3140,
+      "existing": 3140,
+      "missing": 0,
+      "coveragePct": 100
+    },
+    {
+      "level": "C1",
+      "entries": 572,
+      "expectedAudio": 921,
+      "existing": 921,
+      "missing": 0,
+      "coveragePct": 100
+    },
+    {
+      "level": "C2",
+      "entries": 219,
+      "expectedAudio": 399,
+      "existing": 399,
+      "missing": 0,
+      "coveragePct": 100
+    },
+    {
+      "level": "SENTENCES",
+      "entries": 796,
+      "expectedAudio": 796,
+      "existing": 796,
+      "missing": 0,
+      "coveragePct": 100
+    }
+  ],
+  "totalMissing": 0,
+  "reports": [
+    {
+      "level": "A1",
+      "entries": 703,
+      "expectedAudio": 991,
+      "existing": 991,
+      "missing": 0,
+      "coveragePct": 100,
+      "missingFiles": []
+    },
+    {
+      "level": "A2",
+      "entries": 1640,
+      "expectedAudio": 2486,
+      "existing": 2486,
+      "missing": 0,
+      "coveragePct": 100,
+      "missingFiles": []
+    },
+    {
+      "level": "B1",
+      "entries": 3367,
+      "expectedAudio": 5253,
+      "existing": 5253,
+      "missing": 0,
+      "coveragePct": 100,
+      "missingFiles": []
+    },
+    {
+      "level": "B2",
+      "entries": 2118,
+      "expectedAudio": 3140,
+      "existing": 3140,
+      "missing": 0,
+      "coveragePct": 100,
+      "missingFiles": []
+    },
+    {
+      "level": "C1",
+      "entries": 572,
+      "expectedAudio": 921,
+      "existing": 921,
+      "missing": 0,
+      "coveragePct": 100,
+      "missingFiles": []
+    },
+    {
+      "level": "C2",
+      "entries": 219,
+      "expectedAudio": 399,
+      "existing": 399,
+      "missing": 0,
+      "coveragePct": 100,
+      "missingFiles": []
+    },
+    {
+      "level": "SENTENCES",
+      "entries": 796,
+      "expectedAudio": 796,
+      "existing": 796,
+      "missing": 0,
+      "coveragePct": 100,
+      "missingFiles": []
+    }
+  ]
+}

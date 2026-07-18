@@ -1,0 +1,566 @@
+{
+  "generatedAt": "2026-07-18T09:33:14.749Z",
+  "created": 93,
+  "failed": 0,
+  "skipped": 0,
+  "results": [
+    {
+      "text": "Gefallen.",
+      "filename": "gefallen.mp3",
+      "level": "A1",
+      "status": "created"
+    },
+    {
+      "text": "die Jeans.",
+      "filename": "die_jeans.mp3",
+      "level": "A1",
+      "status": "created"
+    },
+    {
+      "text": "Können.",
+      "filename": "können.mp3",
+      "level": "A1",
+      "status": "created"
+    },
+    {
+      "text": "Weihnachten.",
+      "filename": "weihnachten.mp3",
+      "level": "A1",
+      "status": "created"
+    },
+    {
+      "text": "die Zeit.",
+      "filename": "die_zeit.mp3",
+      "level": "A1",
+      "status": "created"
+    },
+    {
+      "text": "die Zeiten.",
+      "filename": "plural_die_zeit.mp3",
+      "level": "A1",
+      "status": "created"
+    },
+    {
+      "text": "die Ameisen.",
+      "filename": "die_ameisen.mp3",
+      "level": "A2",
+      "status": "created"
+    },
+    {
+      "text": "die Banken.",
+      "filename": "plural_die_bank.mp3",
+      "level": "A2",
+      "status": "created"
+    },
+    {
+      "text": "die Bremsen.",
+      "filename": "plural_die_bremse.mp3",
+      "level": "A2",
+      "status": "created"
+    },
+    {
+      "text": "die Buntstifte.",
+      "filename": "plural_die_buntstift.mp3",
+      "level": "A2",
+      "status": "created"
+    },
+    {
+      "text": "die Chancen.",
+      "filename": "plural_die_chance.mp3",
+      "level": "A2",
+      "status": "created"
+    },
+    {
+      "text": "der Paprika.",
+      "filename": "der_paprika.mp3",
+      "level": "A2",
+      "status": "created"
+    },
+    {
+      "text": "die Paprikas.",
+      "filename": "plural_die_paprika.mp3",
+      "level": "A2",
+      "status": "created"
+    },
+    {
+      "text": "der Jugendliche.",
+      "filename": "der_jugendliche.mp3",
+      "level": "A2",
+      "status": "created"
+    },
+    {
+      "text": "die Jugendlichen.",
+      "filename": "plural_die_jugendliche.mp3",
+      "level": "A2",
+      "status": "created"
+    },
+    {
+      "text": "die Dörfer.",
+      "filename": "plural_die_dorf.mp3",
+      "level": "A2",
+      "status": "created"
+    },
+    {
+      "text": "die Eingänge.",
+      "filename": "plural_die_eingang.mp3",
+      "level": "A2",
+      "status": "created"
+    },
+    {
+      "text": "die Einkäufe.",
+      "filename": "plural_die_einkauf.mp3",
+      "level": "A2",
+      "status": "created"
+    },
+    {
+      "text": "die Einkaufszentren.",
+      "filename": "plural_die_einkaufszentrum.mp3",
+      "level": "A2",
+      "status": "created"
+    },
+    {
+      "text": "die Einwohner.",
+      "filename": "plural_die_einwohner.mp3",
+      "level": "A2",
+      "status": "created"
+    },
+    {
+      "text": "die Eisenbahnen.",
+      "filename": "plural_die_eisenbahn.mp3",
+      "level": "A2",
+      "status": "created"
+    },
+    {
+      "text": "die Eiskaffees.",
+      "filename": "plural_die_eiskaffee.mp3",
+      "level": "A2",
+      "status": "created"
+    },
+    {
+      "text": "die Enten.",
+      "filename": "plural_die_ente.mp3",
+      "level": "A2",
+      "status": "created"
+    },
+    {
+      "text": "die Erdgeschosse.",
+      "filename": "plural_die_erdgeschoss.mp3",
+      "level": "A2",
+      "status": "created"
+    },
+    {
+      "text": "die Erfolge.",
+      "filename": "plural_die_erfolg.mp3",
+      "level": "A2",
+      "status": "created"
+    },
+    {
+      "text": "die Erinnerungen.",
+      "filename": "plural_die_erinnerung.mp3",
+      "level": "A2",
+      "status": "created"
+    },
+    {
+      "text": "die Fabriken.",
+      "filename": "plural_die_fabrik.mp3",
+      "level": "A2",
+      "status": "created"
+    },
+    {
+      "text": "die Fähren.",
+      "filename": "plural_die_fähre.mp3",
+      "level": "A2",
+      "status": "created"
+    },
+    {
+      "text": "die Fahrgäste.",
+      "filename": "plural_die_fahrgast.mp3",
+      "level": "A2",
+      "status": "created"
+    },
+    {
+      "text": "die Felder.",
+      "filename": "plural_die_feld.mp3",
+      "level": "A2",
+      "status": "created"
+    },
+    {
+      "text": "die Felle.",
+      "filename": "plural_die_fell.mp3",
+      "level": "A2",
+      "status": "created"
+    },
+    {
+      "text": "Fertig / bereit.",
+      "filename": "fertig__bereit.mp3",
+      "level": "A2",
+      "status": "created"
+    },
+    {
+      "text": "Fest.",
+      "filename": "fest.mp3",
+      "level": "A2",
+      "status": "created"
+    },
+    {
+      "text": "Leiden.",
+      "filename": "leiden.mp3",
+      "level": "A2",
+      "status": "created"
+    },
+    {
+      "text": "Nutzen.",
+      "filename": "nutzen.mp3",
+      "level": "A2",
+      "status": "created"
+    },
+    {
+      "text": "Schaffen.",
+      "filename": "schaffen.mp3",
+      "level": "A2",
+      "status": "created"
+    },
+    {
+      "text": "Treffen.",
+      "filename": "treffen.mp3",
+      "level": "A2",
+      "status": "created"
+    },
+    {
+      "text": "der Wille.",
+      "filename": "der_wille.mp3",
+      "level": "A2",
+      "status": "created"
+    },
+    {
+      "text": "Drin / drinnen.",
+      "filename": "drin__drinnen.mp3",
+      "level": "A2",
+      "status": "created"
+    },
+    {
+      "text": "Sich anstrengen.",
+      "filename": "sich_anstrengen.mp3",
+      "level": "B1",
+      "status": "created"
+    },
+    {
+      "text": "Feige.",
+      "filename": "feige.mp3",
+      "level": "B1",
+      "status": "created"
+    },
+    {
+      "text": "Gehorsam.",
+      "filename": "gehorsam.mp3",
+      "level": "B1",
+      "status": "created"
+    },
+    {
+      "text": "Sich irren.",
+      "filename": "sich_irren.mp3",
+      "level": "B1",
+      "status": "created"
+    },
+    {
+      "text": "Laden.",
+      "filename": "laden.mp3",
+      "level": "B1",
+      "status": "created"
+    },
+    {
+      "text": "Sich lohnen.",
+      "filename": "sich_lohnen.mp3",
+      "level": "B1",
+      "status": "created"
+    },
+    {
+      "text": "Rasen.",
+      "filename": "rasen.mp3",
+      "level": "B1",
+      "status": "created"
+    },
+    {
+      "text": "Ringen.",
+      "filename": "ringen.mp3",
+      "level": "B1",
+      "status": "created"
+    },
+    {
+      "text": "Rudern.",
+      "filename": "rudern.mp3",
+      "level": "B1",
+      "status": "created"
+    },
+    {
+      "text": "Unrecht.",
+      "filename": "unrecht.mp3",
+      "level": "B1",
+      "status": "created"
+    },
+    {
+      "text": "Sich verlaufen.",
+      "filename": "sich_verlaufen.mp3",
+      "level": "B1",
+      "status": "created"
+    },
+    {
+      "text": "Wild.",
+      "filename": "wild.mp3",
+      "level": "B1",
+      "status": "created"
+    },
+    {
+      "text": "Anstatt ... zu.",
+      "filename": "anstatt_..._zu.mp3",
+      "level": "B1",
+      "status": "created"
+    },
+    {
+      "text": "Ohne ... zu.",
+      "filename": "ohne_..._zu.mp3",
+      "level": "B1",
+      "status": "created"
+    },
+    {
+      "text": "Sich bewerben.",
+      "filename": "sich_bewerben.mp3",
+      "level": "B1",
+      "status": "created"
+    },
+    {
+      "text": "Sich ereignen.",
+      "filename": "sich_ereignen.mp3",
+      "level": "B1",
+      "status": "created"
+    },
+    {
+      "text": "Sich konzentrieren.",
+      "filename": "sich_konzentrieren.mp3",
+      "level": "B1",
+      "status": "created"
+    },
+    {
+      "text": "Sich langweilen.",
+      "filename": "sich_langweilen.mp3",
+      "level": "B1",
+      "status": "created"
+    },
+    {
+      "text": "Sich scheiden.",
+      "filename": "sich_scheiden.mp3",
+      "level": "B1",
+      "status": "created"
+    },
+    {
+      "text": "Sich vergnügen.",
+      "filename": "sich_vergnügen.mp3",
+      "level": "B1",
+      "status": "created"
+    },
+    {
+      "text": "Sich wundern.",
+      "filename": "sich_wundern.mp3",
+      "level": "B1",
+      "status": "created"
+    },
+    {
+      "text": "der Drops.",
+      "filename": "der_drops.mp3",
+      "level": "B2",
+      "status": "created"
+    },
+    {
+      "text": "die Drops.",
+      "filename": "plural_die_drops.mp3",
+      "level": "B2",
+      "status": "created"
+    },
+    {
+      "text": "die Fessel.",
+      "filename": "die_fessel.mp3",
+      "level": "B2",
+      "status": "created"
+    },
+    {
+      "text": "Beziehen / sich beziehen auf.",
+      "filename": "beziehen__sich_beziehen_auf.mp3",
+      "level": "C1",
+      "status": "created"
+    },
+    {
+      "text": "der Hektar.",
+      "filename": "der_hektar.mp3",
+      "level": "C1",
+      "status": "created"
+    },
+    {
+      "text": "die Hektar.",
+      "filename": "plural_die_hektar.mp3",
+      "level": "C1",
+      "status": "created"
+    },
+    {
+      "text": "die Karre.",
+      "filename": "die_karre.mp3",
+      "level": "C1",
+      "status": "created"
+    },
+    {
+      "text": "die Karren.",
+      "filename": "plural_die_karre.mp3",
+      "level": "C1",
+      "status": "created"
+    },
+    {
+      "text": "der Karren.",
+      "filename": "der_karren.mp3",
+      "level": "C1",
+      "status": "created"
+    },
+    {
+      "text": "die Karren.",
+      "filename": "plural_die_karren.mp3",
+      "level": "C1",
+      "status": "created"
+    },
+    {
+      "text": "der Matsch.",
+      "filename": "der_matsch.mp3",
+      "level": "C1",
+      "status": "created"
+    },
+    {
+      "text": "die Matsche.",
+      "filename": "plural_die_matsch.mp3",
+      "level": "C1",
+      "status": "created"
+    },
+    {
+      "text": "der Panter.",
+      "filename": "der_panter.mp3",
+      "level": "C1",
+      "status": "created"
+    },
+    {
+      "text": "die Panter.",
+      "filename": "plural_die_panter.mp3",
+      "level": "C1",
+      "status": "created"
+    },
+    {
+      "text": "der Panther.",
+      "filename": "der_panther.mp3",
+      "level": "C1",
+      "status": "created"
+    },
+    {
+      "text": "die Panther.",
+      "filename": "plural_die_panther.mp3",
+      "level": "C1",
+      "status": "created"
+    },
+    {
+      "text": "Imstande.",
+      "filename": "imstande.mp3",
+      "level": "C2",
+      "status": "created"
+    },
+    {
+      "text": "Im Stande.",
+      "filename": "im_stande.mp3",
+      "level": "C2",
+      "status": "created"
+    },
+    {
+      "text": "Instand.",
+      "filename": "instand.mp3",
+      "level": "C2",
+      "status": "created"
+    },
+    {
+      "text": "In Stand.",
+      "filename": "in_stand.mp3",
+      "level": "C2",
+      "status": "created"
+    },
+    {
+      "text": "Inwiefern.",
+      "filename": "inwiefern.mp3",
+      "level": "C2",
+      "status": "created"
+    },
+    {
+      "text": "Inwieweit.",
+      "filename": "inwieweit.mp3",
+      "level": "C2",
+      "status": "created"
+    },
+    {
+      "text": "der Kriegsbeschädigte.",
+      "filename": "der_kriegsbeschädigte.mp3",
+      "level": "C2",
+      "status": "created"
+    },
+    {
+      "text": "die Kriegsbeschädigten.",
+      "filename": "plural_die_kriegsbeschädigte.mp3",
+      "level": "C2",
+      "status": "created"
+    },
+    {
+      "text": "der Kriegsgefangene.",
+      "filename": "der_kriegsgefangene.mp3",
+      "level": "C2",
+      "status": "created"
+    },
+    {
+      "text": "die Kriegsgefangenen.",
+      "filename": "plural_die_kriegsgefangene.mp3",
+      "level": "C2",
+      "status": "created"
+    },
+    {
+      "text": "der Sachverständige.",
+      "filename": "der_sachverständige.mp3",
+      "level": "C2",
+      "status": "created"
+    },
+    {
+      "text": "die Sachverständigen.",
+      "filename": "plural_die_sachverständige.mp3",
+      "level": "C2",
+      "status": "created"
+    },
+    {
+      "text": "Entweder... oder...",
+      "filename": "entweder..._oder....mp3",
+      "level": "SENTENCES",
+      "status": "created"
+    },
+    {
+      "text": "Was mich anbelangt,...",
+      "filename": "was_mich_anbelangt,....mp3",
+      "level": "SENTENCES",
+      "status": "created"
+    },
+    {
+      "text": "Nehmen wir an, dass...",
+      "filename": "nehmen_wir_an,_dass....mp3",
+      "level": "SENTENCES",
+      "status": "created"
+    },
+    {
+      "text": "Meiner Ansicht nach...",
+      "filename": "meiner_ansicht_nach....mp3",
+      "level": "SENTENCES",
+      "status": "created"
+    },
+    {
+      "text": "Auf Unkosten von...",
+      "filename": "auf_unkosten_von....mp3",
+      "level": "SENTENCES",
+      "status": "created"
+    }
+  ]
+}
