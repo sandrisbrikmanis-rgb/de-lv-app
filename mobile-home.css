@@ -672,6 +672,226 @@
   }
 }
 
+/*
+ * Android planšetes 7–11" — tikai touch ierīces.
+ * Neietekmē telefonu (≤768px) un PC (peles / hover).
+ * hover: none + max-height — rezerves Android WebView gadījumiem.
+ */
+@media (min-width: 769px) and (max-width: 1366px) and (pointer: coarse),
+       (min-width: 769px) and (max-width: 1366px) and (hover: none) and (max-height: 900px) {
+  body.is-home-screen main.home-main {
+    min-height: 100dvh;
+  }
+
+  #homeMenuScreen.mobile-home-v2 {
+    height: 100dvh;
+    min-height: 100dvh;
+    max-height: 100dvh;
+  }
+
+  .mobile-home-v2 .mh-shell {
+    height: 100dvh;
+    min-height: 100dvh;
+    max-height: 100dvh;
+  }
+
+  .mobile-home-v2 .mh-ui {
+    height: 100dvh;
+    max-height: 100dvh;
+  }
+
+  .mobile-home-v2 .mh-emblem-outline-only,
+  .mobile-home-v2 .mh-emblem-svg:not(.mh-emblem-outline-only),
+  .mobile-home-v2 .mh-emblem-img {
+    max-height: min(72dvh, 520px);
+  }
+
+  .mobile-home-v2 .menu-button-container button {
+    cursor: default;
+    transform: none !important;
+    touch-action: manipulation;
+    transition: background-color 140ms ease, border-color 140ms ease;
+  }
+
+  .mobile-home-v2 .menu-button-container button:hover {
+    transform: none !important;
+    border-color: rgba(255, 255, 255, 0.14) !important;
+  }
+
+  .mobile-home-v2 .menu-button-container button.menu-black:hover {
+    background-color: var(--mh-black-glass) !important;
+  }
+
+  .mobile-home-v2 .menu-button-container button.menu-red:hover {
+    background-color: var(--mh-red-glass) !important;
+  }
+
+  .mobile-home-v2 .menu-button-container button.menu-gold:hover {
+    background-color: var(--mh-gold-glass) !important;
+  }
+
+  .mobile-home-v2 .menu-button-container button.menu-black:active {
+    background-color: var(--mh-black-glass-active) !important;
+  }
+
+  .mobile-home-v2 .menu-button-container button.menu-red:active {
+    background-color: var(--mh-red-glass-active) !important;
+  }
+
+  .mobile-home-v2 .menu-button-container button.menu-gold:active {
+    background-color: var(--mh-gold-glass-active) !important;
+  }
+
+  body.is-home-screen .home-menu-screen.mobile-home-v2 .home-menu-groups {
+    display: grid !important;
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    grid-template-rows: repeat(3, minmax(0, 1fr)) !important;
+    flex-direction: unset !important;
+    gap: clamp(6px, 1.1dvh, 10px);
+    align-content: stretch;
+  }
+
+  .mobile-home-v2 .menu-button-container {
+    flex: unset !important;
+    width: 100% !important;
+    height: 100%;
+    min-height: 0;
+  }
+
+  .mobile-home-v2 .menu-button-container button {
+    padding: 0 clamp(8px, 1.4vw, 14px) !important;
+    border-radius: clamp(10px, 1.4dvh, 14px) !important;
+  }
+
+  .mobile-home-v2 .mobile-menu-btn-label {
+    font-size: clamp(0.78rem, 1.7dvh, 0.92rem);
+  }
+
+  .mobile-home-v2 .mobile-menu-btn-count {
+    font-size: clamp(0.72rem, 1.5dvh, 0.84rem);
+  }
+
+  /* Portrets: platāka kolonna, ģerbonis fonā, 3×3 režģis */
+  @media (orientation: portrait) {
+    .mobile-home-v2 .mh-bg {
+      position: fixed;
+      inset: 0;
+      align-items: flex-start;
+      padding-top: clamp(8px, 2.5dvh, 24px);
+    }
+
+    .mobile-home-v2 .mh-emblem-stack {
+      width: min(68vw, 400px);
+      max-height: min(34dvh, 300px);
+    }
+
+    .mobile-home-v2 .mh-emblem-outline-only,
+    .mobile-home-v2 .mh-emblem-svg:not(.mh-emblem-outline-only),
+    .mobile-home-v2 .mh-emblem-img {
+      max-height: min(34dvh, 300px);
+    }
+
+    .mobile-home-v2 .mh-ui {
+      width: min(680px, calc(100% - 28px));
+      margin: 0 auto;
+      padding: max(8px, env(safe-area-inset-top, 0px)) 0 max(8px, env(safe-area-inset-bottom, 0px));
+    }
+
+    .mobile-home-v2 .home-menu-header {
+      padding: 4px 6px clamp(6px, 1.2dvh, 10px);
+    }
+
+    .mobile-home-v2 .home-menu-header h1 {
+      font-size: clamp(1.3rem, 3.4dvh, 1.75rem);
+    }
+
+    .mobile-home-v2 .home-menu-header .subtitle {
+      font-size: clamp(0.78rem, 1.8dvh, 0.92rem);
+      max-width: 36ch;
+    }
+  }
+
+  /* Ainava (~1280×800): virsraksts → ģerbonis → izvēlne, bez pārklāšanās */
+  @media (orientation: landscape) {
+    .mobile-home-v2 .mh-shell {
+      display: grid;
+      grid-template-rows: auto auto minmax(0, 1fr);
+      grid-template-columns: minmax(0, 1fr);
+      align-content: start;
+      justify-items: center;
+      flex-direction: unset;
+      gap: 0;
+      padding:
+        max(8px, env(safe-area-inset-top, 0px))
+        clamp(16px, 3vw, 32px)
+        max(6px, env(safe-area-inset-bottom, 0px));
+      box-sizing: border-box;
+      overflow: hidden;
+    }
+
+    .mobile-home-v2 .mh-ui {
+      display: contents;
+      height: auto;
+      max-height: none;
+    }
+
+    .mobile-home-v2 .home-menu-header {
+      grid-row: 1;
+      width: min(720px, 100%);
+      padding: 4px 8px 0;
+      text-align: center;
+      position: relative;
+      z-index: 2;
+    }
+
+    .mobile-home-v2 .home-menu-header h1 {
+      font-size: clamp(1.25rem, 3.2dvh, 1.65rem);
+    }
+
+    .mobile-home-v2 .home-menu-header .subtitle {
+      margin-top: clamp(4px, 0.8dvh, 8px);
+      font-size: clamp(0.76rem, 1.6dvh, 0.9rem);
+      max-width: 40ch;
+    }
+
+    .mobile-home-v2 .mh-bg {
+      position: relative !important;
+      inset: auto !important;
+      grid-row: 2;
+      flex: unset !important;
+      width: min(200px, 24vw);
+      height: auto;
+      margin: clamp(10px, 2dvh, 16px) auto clamp(12px, 2.4dvh, 20px);
+      display: flex !important;
+      justify-content: center;
+      align-items: center;
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    .mobile-home-v2 .mh-emblem-stack {
+      width: 100%;
+      max-height: min(20dvh, 168px);
+    }
+
+    .mobile-home-v2 .mh-emblem-outline-only,
+    .mobile-home-v2 .mh-emblem-svg:not(.mh-emblem-outline-only),
+    .mobile-home-v2 .mh-emblem-img {
+      max-height: min(20dvh, 168px);
+    }
+
+    .mobile-home-v2 .home-menu-groups {
+      grid-row: 3;
+      width: min(860px, calc(100% - 12px));
+      min-height: 0;
+      margin-top: clamp(4px, 1dvh, 10px);
+      padding: 0 0 env(safe-area-inset-bottom, 0px);
+      position: relative;
+      z-index: 2;
+    }
+  }
+}
+
 /* Samsung force-dark: atkārtots piespiedu override */
 @media (max-width: 768px) and (prefers-color-scheme: dark) {
   html.is-home-screen,
