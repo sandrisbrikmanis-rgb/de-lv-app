@@ -1393,9 +1393,22 @@ function initStaticCourseLessons() {
   });
 }
 
+function ensureKurssOverlayOnBody() {
+  const overlay = elements.kurssPanel;
+  if (!overlay || overlay.parentElement === document.body) return;
+  document.body.appendChild(overlay);
+}
+
+function setKurssOpenState(isOpen) {
+  document.documentElement.classList.toggle("kurss-open", isOpen);
+  document.body.classList.toggle("kurss-open", isOpen);
+}
+
 function openKurss() {
+  ensureKurssOverlayOnBody();
   showKurssMenu();
   elements.kurssPanel.hidden = false;
+  setKurssOpenState(true);
 }
 
 function closeKurss() {
@@ -1403,6 +1416,7 @@ function closeKurss() {
     elements.kurssPanel.hidden = true;
     elements.kurssPanel.classList.remove("active");
   }
+  setKurssOpenState(false);
   showKurssMenu();
 }
 
@@ -7074,6 +7088,7 @@ if (elements.navBackBtn) {
 }
 
 try {
+ensureKurssOverlayOnBody();
 elements.kurssBackBtn.addEventListener("click", handleKurssBack);
 elements.kurssCloseBtn.addEventListener("click", closeKurss);
 elements.kurssPronunciationBtn.addEventListener("click", openPronunciationLesson);
