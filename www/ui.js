@@ -1344,7 +1344,7 @@ function renderCourseLessonFromData(target, lesson, exerciseAttribute) {
 }
 
 function scrollKurssPanelToTop() {
-  elements.kurssPanel?.querySelector(".kurss-panel")?.scrollTo({ top: 0, behavior: "auto" });
+  elements.kurssPanel?.querySelector(".kurss-body")?.scrollTo({ top: 0, behavior: "auto" });
 }
 
 function hideAllKurssPanels() {
