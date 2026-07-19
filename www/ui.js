@@ -5913,6 +5913,183 @@ function initMobileMenuDebugHelper() {
   window.setInterval(renderDebugPanel, 1000);
 }
 
+function isKurssScrollDebugEnabled() {
+  const params = new URLSearchParams(window.location.search);
+  if (params.has("debugKurss")) return true;
+  try {
+    return localStorage.getItem("debugKurss") === "1";
+  } catch (error) {
+    return false;
+  }
+}
+
+function initKurssScrollDebugHelper() {
+  if (!isKurssScrollDebugEnabled()) return;
+
+  const panel = document.createElement("div");
+  panel.id = "kurssScrollDebugPanel";
+  panel.setAttribute("aria-live", "polite");
+
+  const debugState = {
+    lastScroll: [],
+    lastTouch: [],
+    preventDefaultCalls: [],
+    maxLog: 10
+  };
+
+  function describeNode(node) {
+    if (!node || node.nodeType !== 1) return String(node);
+    const id = node.id ? `#${node.id}` : "";
+    const className = typeof node.className === "string" && node.className.trim()
+      ? `.${node.className.trim().split(/\s+/).slice(0, 2).join(".")}`
+      : "";
+    return `${node.tagName}${id}${className}`;
+  }
+
+  function parentChain(el) {
+    const parts = [];
+    let node = el;
+    while (node && node !== document.documentElement) {
+      parts.push(describeNode(node));
+      node = node.parentElement;
+    }
+    return parts.join(" < ");
+  }
+
+  function measureElement(el, label) {
+    if (!el) return `${label}: (missing)`;
+    const styles = getComputedStyle(el);
+    const rect = el.getBoundingClientRect();
+    const maxScroll = Math.max(0, el.scrollHeight - el.clientHeight);
+    return [
+      `${label}:`,
+      `  parent=${describeNode(el.parentElement)}`,
+      `  overflow-y=${styles.overflowY} overflow-x=${styles.overflowX}`,
+      `  height=${styles.height} max-height=${styles.maxHeight}`,
+      `  touch-action=${styles.touchAction}`,
+      `  scrollTop=${el.scrollTop} maxScroll=${maxScroll}`,
+      `  scrollHeight=${el.scrollHeight} clientHeight=${el.clientHeight}`,
+      `  rect.height=${Math.round(rect.height)}px`,
+      `  canScroll=${el.scrollHeight > el.clientHeight + 1}`
+    ].join("\n");
+  }
+
+  function scrollTargets() {
+    const overlay = elements.kurssPanel;
+    const panelEl = overlay?.querySelector(".kurss-panel");
+    const bodyEl = overlay?.querySelector(".kurss-body");
+    const menuEl = document.getElementById("kurssLessonsMenu");
+    return [
+      ["#kurssPanel", overlay],
+      [".kurss-panel", panelEl],
+      [".kurss-body", bodyEl],
+      ["#kurssLessonsMenu", menuEl],
+      ["html", document.documentElement],
+      ["body", document.body],
+      ["main.home-main", document.querySelector("main.home-main")],
+      [".home-app-shell", document.querySelector(".home-app-shell")],
+      ["#homeMenuScreen", document.getElementById("homeMenuScreen")]
+    ].filter(([, el]) => el);
+  }
+
+  function pushLog(bucket, line) {
+    bucket.push(line);
+    if (bucket.length > debugState.maxLog) bucket.shift();
+  }
+
+  function attachScrollListeners() {
+    scrollTargets().forEach(([label, el]) => {
+      if (el.__kurssScrollDebugBound) return;
+      el.__kurssScrollDebugBound = true;
+      el.addEventListener("scroll", () => {
+        pushLog(debugState.lastScroll, `${label} scrollTop=${el.scrollTop}`);
+        renderDebugPanel();
+      }, { passive: true });
+    });
+  }
+
+  function renderDebugPanel() {
+    const overlay = elements.kurssPanel;
+    const lines = [
+      "KURSS SCROLL DEBUG",
+      `time: ${new Date().toLocaleTimeString()}`,
+      `enable: ?debugKurss=1 or localStorage.debugKurss='1'`,
+      `viewport: ${window.innerWidth}x${window.innerHeight} @${window.devicePixelRatio}x`,
+      `kurss open: ${Boolean(overlay && !overlay.hidden)}`,
+      `kurss parent chain: ${overlay ? parentChain(overlay) : "n/a"}`,
+      `kurss on BODY: ${overlay?.parentElement === document.body}`,
+      "",
+      ...scrollTargets().map(([label, el]) => measureElement(el, label)),
+      "",
+      "Last scroll events:",
+      ...(debugState.lastScroll.length ? debugState.lastScroll : ["  (none)"]).map((line) => `  ${line}`),
+      "",
+      "Last touch events:",
+      ...(debugState.lastTouch.length ? debugState.lastTouch : ["  (none)"]).map((line) => `  ${line}`),
+      "",
+      "preventDefault() calls:",
+      ...(debugState.preventDefaultCalls.length ? debugState.preventDefaultCalls : ["  (none)"]).map((line) => `  ${line}`)
+    ];
+    panel.textContent = lines.join("\n");
+  }
+
+  if (!Event.prototype.__kurssScrollDebugPreventDefaultPatched) {
+    const originalPreventDefault = Event.prototype.preventDefault;
+    Event.prototype.preventDefault = function kurssDebugPreventDefault() {
+      if (isKurssScrollDebugEnabled() && /^(touch|wheel|pointer)/.test(this.type || "")) {
+        pushLog(
+          debugState.preventDefaultCalls,
+          `${this.type} preventDefault() on ${describeNode(this.target)}`
+        );
+        renderDebugPanel();
+      }
+      return originalPreventDefault.call(this);
+    };
+    Event.prototype.__kurssScrollDebugPreventDefaultPatched = true;
+  }
+
+  ["touchstart", "touchmove", "touchend"].forEach((type) => {
+    document.addEventListener(type, (event) => {
+      const prevented = event.defaultPrevented ? " defaultPrevented" : "";
+      pushLog(debugState.lastTouch, `${type} @${describeNode(event.target)}${prevented}`);
+      if (type === "touchmove") {
+        const before = scrollTargets().map(([label, el]) => `${label}:${el.scrollTop}`);
+        requestAnimationFrame(() => {
+          const after = scrollTargets()
+            .filter(([, el]) => el.scrollTop > 0)
+            .map(([label, el]) => `${label}:${el.scrollTop}`);
+          if (after.length) {
+            pushLog(debugState.lastScroll, `touchmove scroll changed ${after.join(", ")}`);
+          } else {
+            pushLog(debugState.lastScroll, `touchmove no scrollTop change (${before.join(", ")})`);
+          }
+          renderDebugPanel();
+        });
+      }
+      renderDebugPanel();
+    }, { capture: true, passive: true });
+  });
+
+  window.dumpKurssScrollDiagnostics = () => {
+    renderDebugPanel();
+    console.log(panel.textContent);
+    return panel.textContent;
+  };
+
+  const mount = () => {
+    if (!document.body.contains(panel)) document.body.appendChild(panel);
+    attachScrollListeners();
+    renderDebugPanel();
+  };
+
+  if (document.body) mount();
+  else document.addEventListener("DOMContentLoaded", mount);
+  window.setInterval(() => {
+    attachScrollListeners();
+    renderDebugPanel();
+  }, 1000);
+}
+
 function updateNavScreen() {
   const onHome = state.navScreen === "home";
   if (elements.homeMenuScreen) elements.homeMenuScreen.hidden = !onHome;
@@ -7051,6 +7228,7 @@ function render() {
 
 initStaticCourseLessons();
 initMobileMenuDebugHelper();
+initKurssScrollDebugHelper();
 renderMainMenuButtons();
 updateRestoreBtnLabel();
 updateKnownListBtn();
