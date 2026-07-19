@@ -3263,6 +3263,19 @@
         word-break: normal;
       }
     }
+
+    @media (max-height: 800px) {
+      .kurss-overlay {
+        padding: 8px;
+      }
+
+      .kurss-panel {
+        max-height: calc(100dvh - 16px);
+        overflow-y: auto;
+        overscroll-behavior: contain;
+        -webkit-overflow-scrolling: touch;
+      }
+    }
     /* Mobile-only: keep flashcard words from splitting letter by letter */
     @media (max-width: 768px) {
       .app-shell > .card .word,
