@@ -675,8 +675,10 @@
 /*
  * Android planšetes 7–11" — tikai touch ierīces.
  * Neietekmē telefonu (≤768px) un PC (peles / hover).
+ * hover: none + max-height — rezerves Android WebView gadījumiem.
  */
-@media (min-width: 769px) and (max-width: 1366px) and (pointer: coarse) {
+@media (min-width: 769px) and (max-width: 1366px) and (pointer: coarse),
+       (min-width: 769px) and (max-width: 1366px) and (hover: none) and (max-height: 900px) {
   body.is-home-screen main.home-main {
     min-height: 100dvh;
   }
@@ -809,63 +811,83 @@
     }
   }
 
-  /* Ainava: ģerbonis pa kreisi, izvēlne pa labi */
+  /* Ainava (~1280×800): virsraksts → ģerbonis → izvēlne, bez pārklāšanās */
   @media (orientation: landscape) {
     .mobile-home-v2 .mh-shell {
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      gap: clamp(12px, 2.4vw, 28px);
+      display: grid;
+      grid-template-rows: auto auto minmax(0, 1fr);
+      grid-template-columns: minmax(0, 1fr);
+      align-content: start;
+      justify-items: center;
+      flex-direction: unset;
+      gap: 0;
       padding:
-        max(6px, env(safe-area-inset-top, 0px))
-        clamp(14px, 2.5vw, 28px)
+        max(8px, env(safe-area-inset-top, 0px))
+        clamp(16px, 3vw, 32px)
         max(6px, env(safe-area-inset-bottom, 0px));
       box-sizing: border-box;
+      overflow: hidden;
+    }
+
+    .mobile-home-v2 .mh-ui {
+      display: contents;
+      height: auto;
+      max-height: none;
+    }
+
+    .mobile-home-v2 .home-menu-header {
+      grid-row: 1;
+      width: min(720px, 100%);
+      padding: 4px 8px 0;
+      text-align: center;
+      position: relative;
+      z-index: 2;
+    }
+
+    .mobile-home-v2 .home-menu-header h1 {
+      font-size: clamp(1.25rem, 3.2dvh, 1.65rem);
+    }
+
+    .mobile-home-v2 .home-menu-header .subtitle {
+      margin-top: clamp(4px, 0.8dvh, 8px);
+      font-size: clamp(0.76rem, 1.6dvh, 0.9rem);
+      max-width: 40ch;
     }
 
     .mobile-home-v2 .mh-bg {
       position: relative !important;
       inset: auto !important;
-      flex: 0 0 min(36vw, 300px);
-      width: min(36vw, 300px);
+      grid-row: 2;
+      flex: unset !important;
+      width: min(200px, 24vw);
       height: auto;
-      align-self: center;
-      padding-top: 0;
+      margin: clamp(10px, 2dvh, 16px) auto clamp(12px, 2.4dvh, 20px);
+      display: flex !important;
+      justify-content: center;
+      align-items: center;
+      pointer-events: none;
+      z-index: 1;
     }
 
     .mobile-home-v2 .mh-emblem-stack {
       width: 100%;
-      max-height: min(76dvh, 440px);
+      max-height: min(20dvh, 168px);
     }
 
     .mobile-home-v2 .mh-emblem-outline-only,
     .mobile-home-v2 .mh-emblem-svg:not(.mh-emblem-outline-only),
     .mobile-home-v2 .mh-emblem-img {
-      max-height: min(76dvh, 440px);
-    }
-
-    .mobile-home-v2 .mh-ui {
-      flex: 1 1 auto;
-      width: auto;
-      max-width: min(520px, 58vw);
-      min-width: 0;
-      margin: 0;
-      padding: 0;
-    }
-
-    .mobile-home-v2 .home-menu-header {
-      padding: 0 2px clamp(6px, 1.4dvh, 12px);
-      text-align: left;
-    }
-
-    .mobile-home-v2 .home-menu-header .subtitle {
-      margin-left: 0;
-      margin-right: 0;
-      max-width: none;
+      max-height: min(20dvh, 168px);
     }
 
     .mobile-home-v2 .home-menu-groups {
-      padding: 0;
+      grid-row: 3;
+      width: min(860px, calc(100% - 12px));
+      min-height: 0;
+      margin-top: clamp(4px, 1dvh, 10px);
+      padding: 0 0 env(safe-area-inset-bottom, 0px);
+      position: relative;
+      z-index: 2;
     }
   }
 }
