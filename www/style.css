@@ -8598,6 +8598,178 @@ main,
   html.is-detail-screen.is-tablet-study-scroll .card.has-study-card .card-study-extra {
     width: 100%;
   }
+
+  /* ── Rakst.: fiksēts viena ekrāna izkārtojums, bez lapas scroll ── */
+  html.is-detail-screen.is-tablet-spelling-fit,
+  html.is-detail-screen.is-tablet-spelling-fit body {
+    height: 100dvh;
+    max-height: 100dvh;
+    min-height: 0;
+    overflow: hidden;
+  }
+
+  html.is-detail-screen.is-tablet-spelling-fit body.is-detail-screen main.home-main {
+    height: 100dvh;
+    max-height: 100dvh;
+    min-height: 0;
+    overflow: hidden;
+  }
+
+  html.is-detail-screen.is-tablet-spelling-fit .home-app-shell,
+  html.is-detail-screen.is-tablet-spelling-fit .group-detail-screen {
+    height: 100%;
+    max-height: 100%;
+    min-height: 0;
+    overflow: hidden;
+    gap: clamp(6px, 0.9dvh, 10px);
+  }
+
+  html.is-detail-screen.is-tablet-spelling-fit .group-detail-screen > .card {
+    flex: 0 0 auto;
+    min-height: 0 !important;
+    height: auto;
+    max-height: none;
+    padding: clamp(10px, 1.4dvh, 14px) clamp(10px, 1.5vw, 14px);
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: stretch;
+  }
+
+  html.is-detail-screen.is-tablet-spelling-fit .group-detail-screen > .card .card-inner {
+    width: 100%;
+    min-height: 0;
+    gap: clamp(4px, 0.6dvh, 8px);
+    align-content: start;
+    overflow: hidden;
+  }
+
+  html.is-detail-screen.is-tablet-spelling-fit .group-detail-screen > .card .badge {
+    min-height: 22px;
+    padding: 3px 8px;
+    font-size: clamp(0.68rem, 1.4dvh, 0.78rem);
+  }
+
+  html.is-detail-screen.is-tablet-spelling-fit .group-detail-screen > .card .word {
+    font-size: clamp(1.35rem, 3.8dvh, 2rem) !important;
+    line-height: 1.1;
+    min-height: clamp(1.5rem, 4dvh, 2.2rem);
+  }
+
+  html.is-detail-screen.is-tablet-spelling-fit .group-detail-screen > .card .translation {
+    min-height: clamp(2.2rem, 5dvh, 3rem);
+    font-size: clamp(1rem, 2.5dvh, 1.3rem) !important;
+    line-height: 1.15;
+    font-weight: 800;
+    margin: 0;
+    padding-top: clamp(6px, 0.8dvh, 10px);
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+  }
+
+  html.is-detail-screen.is-tablet-spelling-fit .group-detail-screen > .card .translation:empty {
+    border-top-color: transparent;
+    visibility: hidden;
+  }
+
+  html.is-detail-screen.is-tablet-spelling-fit .group-detail-screen > .card .hint {
+    font-size: clamp(0.68rem, 1.45dvh, 0.8rem);
+    line-height: 1.25;
+    min-height: clamp(1rem, 2.2dvh, 1.35rem);
+  }
+
+  html.is-detail-screen.is-tablet-spelling-fit .group-detail-screen > .controls {
+    flex: 1 1 auto;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    padding-bottom: max(4px, env(safe-area-inset-bottom, 0px));
+    overflow: hidden;
+  }
+
+  html.is-detail-screen.is-tablet-spelling-fit .group-detail-screen > .controls > .action-buttons,
+  html.is-detail-screen.is-tablet-spelling-fit .group-detail-screen > .controls > .notice {
+    display: none !important;
+  }
+
+  html.is-detail-screen.is-tablet-spelling-fit .group-detail-screen .spelling-panel {
+    flex: 1 1 auto;
+    min-height: 0;
+    display: flex !important;
+    flex-direction: column;
+    gap: clamp(6px, 0.9dvh, 10px);
+    width: 100%;
+    margin: 0;
+    padding: clamp(10px, 1.3dvh, 14px);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  html.is-detail-screen.is-tablet-spelling-fit .group-detail-screen .spelling-row {
+    flex: 0 0 auto;
+    gap: clamp(6px, 0.8dvh, 9px);
+  }
+
+  html.is-detail-screen.is-tablet-spelling-fit .group-detail-screen .spelling-row input {
+    min-height: clamp(36px, 4.8dvh, 44px);
+    height: clamp(36px, 4.8dvh, 44px);
+    padding: clamp(6px, 0.8dvh, 9px) clamp(10px, 1.2vw, 12px);
+    font-size: clamp(0.88rem, 1.9dvh, 1rem);
+  }
+
+  html.is-detail-screen.is-tablet-spelling-fit .group-detail-screen .spelling-button-stack {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: clamp(6px, 0.8dvh, 9px);
+    width: 100%;
+  }
+
+  html.is-detail-screen.is-tablet-spelling-fit .group-detail-screen .spelling-button-stack button {
+    width: 100%;
+    min-height: clamp(34px, 4.5dvh, 42px);
+    font-size: clamp(0.78rem, 1.7dvh, 0.9rem);
+    font-weight: 800;
+    padding: clamp(5px, 0.7dvh, 8px) 8px;
+  }
+
+  html.is-detail-screen.is-tablet-spelling-fit .group-detail-screen #continueSpellingBtn[hidden] {
+    display: block !important;
+    visibility: hidden;
+    pointer-events: none;
+  }
+
+  html.is-detail-screen.is-tablet-spelling-fit .group-detail-screen .spelling-result {
+    flex: 1 1 auto;
+    min-height: clamp(5rem, 13dvh, 6.5rem);
+    max-height: clamp(5rem, 13dvh, 6.5rem);
+    overflow: hidden;
+    font-size: clamp(0.72rem, 1.55dvh, 0.84rem);
+    line-height: 1.28;
+  }
+
+  html.is-detail-screen.is-tablet-spelling-fit .group-detail-screen .spelling-result:empty {
+    visibility: hidden;
+  }
+
+  html.is-detail-screen.is-tablet-spelling-fit .group-detail-screen .spelling-incorrect-label {
+    font-size: clamp(0.76rem, 1.65dvh, 0.88rem);
+    margin-bottom: clamp(2px, 0.4dvh, 4px);
+  }
+
+  html.is-detail-screen.is-tablet-spelling-fit .group-detail-screen .spelling-user-answer,
+  html.is-detail-screen.is-tablet-spelling-fit .group-detail-screen .spelling-expected-answer {
+    font-size: clamp(0.8rem, 1.75dvh, 0.92rem);
+    line-height: 1.25;
+  }
+
+  html.is-detail-screen.is-tablet-spelling-fit .group-detail-screen .spelling-expected-label {
+    font-size: clamp(0.7rem, 1.5dvh, 0.8rem);
+    margin-top: clamp(2px, 0.4dvh, 4px);
+  }
+
+  html.is-detail-screen.is-tablet-spelling-fit .group-detail-screen .spelling-correct-label {
+    font-size: clamp(0.8rem, 1.75dvh, 0.92rem);
+  }
 }
 
 .home-menu-screen[hidden] {
