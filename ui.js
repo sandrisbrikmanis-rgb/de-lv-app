@@ -3935,6 +3935,76 @@ let lastAutoplayedCardKey = null;
 let cardAutoplayToken = 0;
 let activeRenderedCardKey = null;
 let activeSessionStartedAt = null;
+let cardAudioUnlockPromise = null;
+let lastFlashcardAudioActivationAt = 0;
+let lastFlashcardAudioActivationSrc = "";
+
+function resolveAudioUrl(src) {
+  if (!src) return null;
+  try {
+    return new URL(src, window.location.href).href;
+  } catch {
+    return src;
+  }
+}
+
+function unlockCardAudioPlayback() {
+  if (!cardAudioUnlockPromise) {
+    cardAudioUnlockPromise = Promise.resolve().then(() => {
+      const probe = new Audio();
+      probe.preload = "auto";
+      probe.setAttribute("playsinline", "");
+      probe.setAttribute("webkit-playsinline", "");
+      probe.volume = 0.01;
+      probe.src = resolveAudioUrl(`${getAudioBasePath()}public/audio/ab.mp3`) || "data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQAAAAA=";
+      return probe.play().catch(() => {});
+    });
+  }
+  return cardAudioUnlockPromise;
+}
+
+function createCardAudioElement(src) {
+  const audio = new Audio();
+  audio.preload = "auto";
+  audio.setAttribute("playsinline", "");
+  audio.setAttribute("webkit-playsinline", "");
+  audio.src = resolveAudioUrl(src);
+  return audio;
+}
+
+function activateFlashcardAudio(audioBtn) {
+  const src = audioBtn?.dataset?.audioSrc;
+  if (!src || audioBtn.hidden) return false;
+  const now = Date.now();
+  if (lastFlashcardAudioActivationSrc === src && now - lastFlashcardAudioActivationAt < 400) {
+    return true;
+  }
+  lastFlashcardAudioActivationAt = now;
+  lastFlashcardAudioActivationSrc = src;
+  unlockCardAudioPlayback();
+  replayCardAudio(src, audioBtn);
+  return true;
+}
+
+function handleFlashcardAudioPointer(event) {
+  const audioBtn = event.target.closest(".flashcard-audio-btn");
+  if (!audioBtn) return;
+  if (!activateFlashcardAudio(audioBtn)) return;
+  event.preventDefault();
+  event.stopPropagation();
+  if (typeof event.stopImmediatePropagation === "function") {
+    event.stopImmediatePropagation();
+  }
+}
+
+function initCardAudioInteraction() {
+  unlockCardAudioPlayback();
+  document.addEventListener("pointerup", handleFlashcardAudioPointer, true);
+  document.addEventListener("touchend", handleFlashcardAudioPointer, true);
+  const primeUnlock = () => unlockCardAudioPlayback();
+  document.addEventListener("pointerdown", primeUnlock, { capture: true, once: true, passive: true });
+  document.addEventListener("keydown", primeUnlock, { capture: true, once: true });
+}
 
 function hideCardTranslationDOM() {
   if (elements.translation) {
@@ -4479,38 +4549,42 @@ function playCardAudio(src, button, { onStarted } = {}) {
     activeCardAudioBtn = null;
   }
 
-  const audio = new Audio(src);
-  activeCardAudio = audio;
-  activeCardAudioBtn = button || null;
-  button?.classList.add("is-playing");
-  audio.addEventListener("ended", () => {
-    button?.classList.remove("is-playing");
-    if (activeCardAudioBtn === button) {
-      activeCardAudio = null;
-      activeCardAudioBtn = null;
+  const startPlayback = () => {
+    const audio = createCardAudioElement(src);
+    activeCardAudio = audio;
+    activeCardAudioBtn = button || null;
+    button?.classList.add("is-playing");
+    audio.addEventListener("ended", () => {
+      button?.classList.remove("is-playing");
+      if (activeCardAudioBtn === button) {
+        activeCardAudio = null;
+        activeCardAudioBtn = null;
+      }
+    });
+    audio.addEventListener("error", () => {
+      button?.classList.remove("is-playing");
+      if (activeCardAudio === audio) {
+        activeCardAudio = null;
+        activeCardAudioBtn = null;
+      }
+    });
+    const playAttempt = audio.play();
+    if (playAttempt && typeof playAttempt.then === "function") {
+      playAttempt
+        .then(() => onStarted?.())
+        .catch(() => {
+          button?.classList.remove("is-playing");
+          if (activeCardAudio === audio) {
+            activeCardAudio = null;
+            activeCardAudioBtn = null;
+          }
+        });
+    } else {
+      onStarted?.();
     }
-  });
-  audio.addEventListener("error", () => {
-    button?.classList.remove("is-playing");
-    if (activeCardAudio === audio) {
-      activeCardAudio = null;
-      activeCardAudioBtn = null;
-    }
-  });
-  const playAttempt = audio.play();
-  if (playAttempt && typeof playAttempt.then === "function") {
-    playAttempt
-      .then(() => onStarted?.())
-      .catch(() => {
-        button?.classList.remove("is-playing");
-        if (activeCardAudio === audio) {
-          activeCardAudio = null;
-          activeCardAudioBtn = null;
-        }
-      });
-  } else {
-    onStarted?.();
-  }
+  };
+
+  unlockCardAudioPlayback().finally(startPlayback);
 }
 
 function replayCardAudio(src, button) {
@@ -7051,6 +7125,7 @@ function render() {
 
 initStaticCourseLessons();
 initMobileMenuDebugHelper();
+initCardAudioInteraction();
 renderMainMenuButtons();
 updateRestoreBtnLabel();
 updateKnownListBtn();
@@ -7124,7 +7199,7 @@ document.querySelector(".card")?.addEventListener("click", (event) => {
   if (audioBtn) {
     event.preventDefault();
     event.stopPropagation();
-    replayCardAudio(audioBtn.dataset.audioSrc, audioBtn);
+    activateFlashcardAudio(audioBtn);
     return;
   }
   revealCard();
