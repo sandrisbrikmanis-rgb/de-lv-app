@@ -7030,7 +7030,7 @@ function cardElementNeedsTabletPageScroll(cardEl) {
 }
 
 function cardDataNeedsTabletPageScroll(card) {
-  if (state.spellingMode) return true;
+  if (state.spellingMode) return state.spellingChecked;
   if (card?.study && state.revealed) return true;
   return false;
 }
@@ -7264,6 +7264,7 @@ elements.spellingInput?.addEventListener("input", () => {
   }
   elements.knownBtn.disabled = state.spellingMode;
   elements.spellingResult.textContent = "";
+  syncTabletDetailLayoutMode(state.verbMode ? null : currentCard());
 });
 elements.spellingInput?.addEventListener("keydown", (event) => {
   if (event.key === "Enter") {
