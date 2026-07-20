@@ -6438,6 +6438,8 @@ function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
       : "Klikšķini uz kartītes, lai atvērtu skaidrojumu.");
 
   if (isMinimalStudy) {
+    if (!state.revealed) return true;
+
     const cardElement = elements.word.closest(".card");
     cardElement?.classList.add("has-study-card", "has-minimal-study-card");
     cardElement?.classList.remove("has-rich-study-card");
@@ -7021,7 +7023,7 @@ function isTabletTouchViewport() {
 }
 
 function cardElementNeedsTabletPageScroll(cardEl) {
-  if (!cardEl) return false;
+  if (!state.revealed || !cardEl) return false;
   return cardEl.classList.contains("has-study-card")
     || cardEl.classList.contains("has-rich-study-card")
     || cardEl.classList.contains("has-minimal-study-card");
@@ -7029,7 +7031,7 @@ function cardElementNeedsTabletPageScroll(cardEl) {
 
 function cardDataNeedsTabletPageScroll(card) {
   if (state.spellingMode) return true;
-  if (card?.study) return true;
+  if (card?.study && state.revealed) return true;
   return false;
 }
 
