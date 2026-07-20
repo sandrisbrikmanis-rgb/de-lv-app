@@ -13,6 +13,7 @@ $rootFiles = @(
     'style.css',
     'mobile-home.css',
     'groups.js',
+    'audio-index.js',
     'storage.js',
     'wordRain.js'
 )
