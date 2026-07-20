@@ -7042,6 +7042,8 @@ function syncTabletDetailLayoutMode(card = null) {
   );
   const flashcardFit = tablet && !needsScroll;
 
+  document.documentElement.classList.toggle("is-tablet-detail-compact", tablet);
+  document.body.classList.toggle("is-tablet-detail-compact", tablet);
   document.documentElement.classList.toggle("is-tablet-flashcard-fit", flashcardFit);
   document.body.classList.toggle("is-tablet-flashcard-fit", flashcardFit);
   document.documentElement.classList.toggle("is-tablet-study-scroll", needsScroll);
