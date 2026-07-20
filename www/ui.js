@@ -6213,7 +6213,9 @@ function renderVerbCard() {
     elements.cardLevel.className = "badge";
     elements.cardLevel.textContent = "Pareizrakstība · Darbības vārdi";
     elements.word.textContent = task ? task.front : "";
-    elements.translation.textContent = state.revealed && task ? `Atbilde: ${task.expected}` : "";
+    elements.translation.textContent = state.spellingChecked && !state.spellingCorrect && task
+      ? `Atbilde: ${task.expected}`
+      : "";
     elements.hint.textContent = task ? task.prompt : "Šim darbības vārdam nav pareizrakstības uzdevuma.";
     renderSpellingControls();
     updateKnownListBtn();
@@ -7030,7 +7032,7 @@ function cardElementNeedsTabletPageScroll(cardEl) {
 }
 
 function cardDataNeedsTabletPageScroll(card) {
-  if (state.spellingMode) return state.spellingChecked;
+  if (state.spellingMode) return false;
   if (card?.study && state.revealed) return true;
   return false;
 }
@@ -7038,14 +7040,17 @@ function cardDataNeedsTabletPageScroll(card) {
 function syncTabletDetailLayoutMode(card = null) {
   const tablet = isTabletTouchViewport() && state.navScreen === "detail";
   const cardEl = document.querySelector("article.card");
-  const needsScroll = tablet && (
+  const spellingFit = tablet && state.spellingMode;
+  const needsScroll = tablet && !spellingFit && (
     cardDataNeedsTabletPageScroll(card)
     || cardElementNeedsTabletPageScroll(cardEl)
   );
-  const flashcardFit = tablet && !needsScroll;
+  const flashcardFit = tablet && !needsScroll && !spellingFit;
 
   document.documentElement.classList.toggle("is-tablet-detail-compact", tablet);
   document.body.classList.toggle("is-tablet-detail-compact", tablet);
+  document.documentElement.classList.toggle("is-tablet-spelling-fit", spellingFit);
+  document.body.classList.toggle("is-tablet-spelling-fit", spellingFit);
   document.documentElement.classList.toggle("is-tablet-flashcard-fit", flashcardFit);
   document.body.classList.toggle("is-tablet-flashcard-fit", flashcardFit);
   document.documentElement.classList.toggle("is-tablet-study-scroll", needsScroll);
@@ -7126,7 +7131,9 @@ function render() {
     elements.cardLevel.className = "badge";
     elements.cardLevel.textContent = `${groupDisplayLabel(card.level)} · Pareizrakstība`;
     elements.word.textContent = task ? task.front : "";
-    elements.translation.textContent = state.revealed && task ? `Atbilde: ${task.expected}` : "";
+    elements.translation.textContent = state.spellingChecked && !state.spellingCorrect && task
+      ? `Atbilde: ${task.expected}`
+      : "";
     elements.hint.textContent = task ? task.prompt : "";
     renderSpellingControls();
     updateKnownListBtn();
