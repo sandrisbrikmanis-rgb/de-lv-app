@@ -8872,7 +8872,28 @@ html.debug-mobile-menu-layers .menu-button-container button {
   word-break: break-word;
 }
 
-/* Beats :root { color-scheme: dark } on Samsung first paint */
+/* Dev helper: ?debugKurss=1 or localStorage.debugKurss='1' */
+#kurssScrollDebugPanel {
+  position: fixed;
+  left: 8px;
+  right: 8px;
+  top: 8px;
+  z-index: 200001;
+  max-height: 42vh;
+  overflow: auto;
+  padding: 8px 10px;
+  border: 2px solid #ff4d4f;
+  border-radius: 8px;
+  background: rgba(12, 18, 28, 0.96);
+  color: #f5f8fc;
+  font: 10px/1.35 monospace;
+  white-space: pre-wrap;
+  word-break: break-word;
+  pointer-events: auto;
+  touch-action: pan-y;
+}
+
+/* Dev helper: ?debugMenu=1 */
 @media (max-width: 768px) {
   html.is-home-screen:root,
   html.is-home-screen {
