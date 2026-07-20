@@ -6008,6 +6008,7 @@ function updateNavScreen() {
   if (colorSchemeMeta) {
     colorSchemeMeta.setAttribute("content", isMobileHome ? "dark" : "light dark");
   }
+  syncTabletDetailLayoutMode();
 }
 
 function updateDetailScreenHeader(itemKey) {
@@ -7014,11 +7015,46 @@ function syncWordRain() {
 window.syncWordRain = syncWordRain;
 window.__wordRainVerbId = verbId;
 
+function isTabletTouchViewport() {
+  return window.matchMedia("(min-width: 769px) and (max-width: 1366px) and (pointer: coarse)").matches
+    || window.matchMedia("(min-width: 769px) and (max-width: 1366px) and (hover: none) and (max-height: 900px)").matches;
+}
+
+function cardElementNeedsTabletPageScroll(cardEl) {
+  if (!cardEl) return false;
+  return cardEl.classList.contains("has-study-card")
+    || cardEl.classList.contains("has-rich-study-card")
+    || cardEl.classList.contains("has-minimal-study-card");
+}
+
+function cardDataNeedsTabletPageScroll(card) {
+  if (state.spellingMode) return true;
+  if (card?.study) return true;
+  return false;
+}
+
+function syncTabletDetailLayoutMode(card = null) {
+  const tablet = isTabletTouchViewport() && state.navScreen === "detail";
+  const cardEl = document.querySelector("article.card");
+  const needsScroll = tablet && (
+    cardDataNeedsTabletPageScroll(card)
+    || cardElementNeedsTabletPageScroll(cardEl)
+  );
+  const flashcardFit = tablet && !needsScroll;
+
+  document.documentElement.classList.toggle("is-tablet-flashcard-fit", flashcardFit);
+  document.body.classList.toggle("is-tablet-flashcard-fit", flashcardFit);
+  document.documentElement.classList.toggle("is-tablet-study-scroll", needsScroll);
+  document.body.classList.toggle("is-tablet-study-scroll", needsScroll);
+}
+
 function resetCardScrollPosition(card) {
-  const cardInner = document.querySelector("article.card .card-inner");
+  const cardEl = document.querySelector("article.card");
+  const cardInner = cardEl?.querySelector(".card-inner");
   if (cardInner) cardInner.scrollTop = 0;
 
   if (state.navScreen !== "detail" || !window.matchMedia("(min-width: 769px)").matches) return;
+  if (isTabletTouchViewport() && !cardDataNeedsTabletPageScroll(card)) return;
   requestAnimationFrame(() => {
     window.scrollTo({ top: 0, left: 0, behavior: "auto" });
   });
@@ -7119,6 +7155,7 @@ function render() {
   updateProblemWordsBtn();
   updateSessionCompleteOverlay();
   } finally {
+    syncTabletDetailLayoutMode(state.verbMode ? null : currentCard());
     syncWordRain();
   }
 }
@@ -7153,6 +7190,7 @@ window.addEventListener("resize", () => {
     updateDetailToolbarButtons();
   }
   updateNavScreen();
+  syncTabletDetailLayoutMode();
 });
 
 if (elements.navBackBtn) {
