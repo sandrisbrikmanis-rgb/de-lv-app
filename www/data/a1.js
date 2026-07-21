@@ -18636,12 +18636,12 @@ const A1_WORDS = [
   },
   {
     "de": "unter",
-    "lv": "zem • starp",
+    "lv": "zem",
     "level": "A1",
     "study": {
       "id": "a1-unter",
       "layout": "standardStudy",
-      "translation": "zem • starp",
+      "translation": "zem",
       "explanation": [
         "Galvenā doma: unter nozīmē zem vai starp atkarībā no konteksta.",
         "Ja kaut kas atrodas zem galda, krēsla vai cita priekšmeta, lieto unter.",
