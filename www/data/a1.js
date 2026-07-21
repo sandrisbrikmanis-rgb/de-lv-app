@@ -23472,7 +23472,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-zeit",
       "layout": "standardStudy",
-      "translation": "laiks",
+      "translation": "laiks (brīdis / laika posms)",
       "explanation": [
         "Galvenā doma: Laiks kā jēdziens — brīdis, iespēja, laika posms.",
         "die Zeit galvenokārt nozīmē: brīdis, iespēja.",
