@@ -20376,8 +20376,270 @@ const A1_WORDS = [
   {
     "de": "Wetter",
     "de_article": "das",
-    "lv": "laiks",
-    "level": "A1"
+    "lv": "laiks (laikapstākļi)",
+    "level": "A1",
+    "study": {
+      "id": "a1-wetter",
+      "layout": "standardStudy",
+      "translation": "laiks (laikapstākļi)",
+      "explanation": [
+        "Galvenā doma: das Wetter nozīmē laikapstākļus — saulaini, lietaini, auksti vai silti.",
+        "Latviešu vārds „laiks” var nozīmēt gan laikapstākļus, gan laiku pulkstenī — vāciski tas ir atšķirīgi.",
+        "Par laiku dabā runā ar das Wetter: Wie ist das Wetter heute?",
+        "Teikumā bieži lieto das Wetter kopā ar vārdiem kā warm vai kalt.",
+        "Nesajauc ar die Zeit — tā ir laiks kā brīdis vai iespēja (Ich habe keine Zeit)."
+      ],
+      "examples": [
+        {
+          "de": "Wie ist das Wetter heute?",
+          "lv": "kāds laiks šodien?"
+        },
+        {
+          "de": "Das Wetter ist schön.",
+          "lv": "laiks ir jauks."
+        },
+        {
+          "de": "Das Wetter ist schlecht.",
+          "lv": "laiks ir slikts."
+        },
+        {
+          "de": "Im Winter ist das Wetter oft kalt.",
+          "lv": "ziemā laiks bieži ir auksts."
+        },
+        {
+          "de": "Wir sprechen über das Wetter.",
+          "lv": "mēs runājam par laiku."
+        },
+        {
+          "de": "Morgen wird das Wetter besser.",
+          "lv": "rīt laiks kļūs labāks."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Wetter",
+          "meaning": "laikapstākļi",
+          "example": "Das Wetter ist schön."
+        },
+        {
+          "word": "Zeit",
+          "meaning": "laiks (brīdis)",
+          "example": "Ich habe keine Zeit."
+        },
+        {
+          "word": "Regen",
+          "meaning": "lietus",
+          "example": "Es gibt viel Regen."
+        },
+        {
+          "word": "Sonne",
+          "meaning": "saule",
+          "example": "Die Sonne scheint."
+        }
+      ],
+      "tip": [
+        "Ja runā par sauli, lietu vai temperatūru ārpusē — lieto das Wetter.",
+        "Atceries: Wie ist das Wetter? = Kāds laiks? (ne pulkstenis)."
+      ],
+      "important": [
+        "das Wetter = laikapstākļi, ne laiks pulkstenī.",
+        "die Zeit = laiks kā brīdis vai iespēja — cita karte A1."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Wetter",
+            "Zeit"
+          ],
+          "purple": [
+            "laikapstākļus"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Wetter"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "laiks"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wetter"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "laiks"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wetter"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "laiks"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wetter"
+              ],
+              "yellow": [
+                "Winter"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "laiks"
+              ],
+              "yellow": [
+                "ziemā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wetter"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "laiku"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wetter"
+              ],
+              "green": [
+                "besser"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "laiks"
+              ],
+              "green": [
+                "labāks"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Wetter"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "laikapstākļi"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Wetter"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Zeit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "laiks"
+              ]
+            },
+            "example": {
+              "green": [
+                "Zeit"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Regen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "lietus"
+              ]
+            },
+            "example": {
+              "green": [
+                "Regen"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Sonne"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "saule"
+              ]
+            },
+            "example": {
+              "green": [
+                "Sonne"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Wetter"
+            ]
+          },
+          {
+            "blue": [
+              "Wetter"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "Wetter"
+            ]
+          },
+          {
+            "green": [
+              "Zeit"
+            ],
+            "purple": [
+              "laiks"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "wichtig",
