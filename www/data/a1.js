@@ -23467,7 +23467,7 @@ const A1_WORDS = [
     "de": "Zeit",
     "de_article": "die",
     "de_plural": "die Zeiten",
-    "lv": "laiks",
+    "lv": "laiks (brīdis / laika posms)",
     "level": "A1",
     "study": {
       "id": "a1-zeit",

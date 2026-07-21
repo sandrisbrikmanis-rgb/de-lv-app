@@ -23467,12 +23467,12 @@ const A1_WORDS = [
     "de": "Zeit",
     "de_article": "die",
     "de_plural": "die Zeiten",
-    "lv": "laiks",
+    "lv": "laiks (brīdis / laika posms)",
     "level": "A1",
     "study": {
       "id": "a1-zeit",
       "layout": "standardStudy",
-      "translation": "laiks",
+      "translation": "laiks (brīdis / laika posms)",
       "explanation": [
         "Galvenā doma: Laiks kā jēdziens — brīdis, iespēja, laika posms.",
         "die Zeit galvenokārt nozīmē: brīdis, iespēja.",
