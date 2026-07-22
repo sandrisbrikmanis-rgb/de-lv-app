@@ -7801,7 +7801,7 @@ const A1_WORDS = [
     "de": "Hand",
     "de_article": "die",
     "de_plural": "die Hände",
-    "lv": "roka",
+    "lv": "roka (plauksta)",
     "level": "A1"
   },
   {
