@@ -479,12 +479,12 @@ const A1_WORDS = [
   },
   {
     "de": "aber",
-    "lv": "bet • tomēr • taču",
+    "lv": "bet",
     "level": "A1",
     "study": {
       "id": "a1-aber",
       "layout": "standardStudy",
-      "translation": "bet • tomēr • taču",
+      "translation": "bet",
       "explanation": "Lieto, lai ieviestu pretstatu vai izteiktu iebildi. Bieži nozīmē “bet”, “tomēr” vai “taču”.",
       "examples": [
         {
