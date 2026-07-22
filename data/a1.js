@@ -16932,173 +16932,12 @@ const A1_WORDS = [
   },
   {
     "de": "sie",
-    "lv": "viņa",
-    "level": "A1",
-    "study": {
-      "id": "a1-sie",
-      "layout": "standardStudy",
-      "translation": "viņa",
-      "explanation": [
-        "Galvenā doma: Vienskaitļa forma — runā par vienu sievieti. Darbības vārds beidzas ar -t: kocht, isst, geht.",
-        "sie galvenokārt nozīmē: viena sieviete.",
-        "Bieži raksturo: darbības vārds vienskaitlī (-t).",
-        "sie galvenokārt nozīmē: vairāki cilvēki.",
-        "Bieži raksturo: darbības vārds daudzskaitlī (-en).",
-        "sie galvenokārt nozīmē: pieklājīga uzruna.",
-        "Bieži raksturo: obligāti ar lielo S.",
-        "Mazais sie nozīmē viņu, ja darbības vārds ir vienskaitlī (Sie kocht = viņa gatavo)."
-      ],
-      "examples": [
-        {
-          "de": "Sie kocht.",
-          "lv": "Viņa gatavo."
-        },
-        {
-          "de": "Sie kocht.",
-          "lv": "viņa gatavo."
-        },
-        {
-          "de": "Sie isst.",
-          "lv": "viņa ēd."
-        },
-        {
-          "de": "Sie kochen.",
-          "lv": "viņi gatavo."
-        },
-        {
-          "de": "Sie spielen Fußball.",
-          "lv": "viņi spēlē futbolu."
-        },
-        {
-          "de": "Sie kochen, bitte.",
-          "lv": "jūs gatavojat, lūdzu."
-        }
-      ],
-      "tip": [
-        "Vienskaitļa forma — runā par vienu sievieti. Darbības vārds beidzas ar -t: kocht, isst, geht.",
-        "Izmanto sie, kad konteksts atbilst šai nozīmei."
-      ],
-      "important": [
-        "Pieklājības uzruna vienmēr ar lielo S: Sie, nevis sie.",
-        "Viņa: Sie kocht. Viņi: sie kochen. Jūs: Sie kochen.",
-        "Nepareizi: sie kocht → Pareizi: Sie kocht",
-        "Nepareizi: Sie kocht (viņi) → Pareizi: Sie kochen"
-      ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "sie",
-            "kocht"
-          ],
-          "purple": [
-            "viņa"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "sie",
-                "sie"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "viņa"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "sie",
-                "sie"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "viņa"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "sie",
-                "sie"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "viņa"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "sie",
-                "sie"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "viņa"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "sie",
-                "sie"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "viņa"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "sie",
-                "sie"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "viņa"
-              ]
-            }
-          }
-        ],
-        "tip": [
-          {
-            "purple": [
-              "viņa"
-            ]
-          }
-        ],
-        "important": [
-          {
-            "blue": [
-              "sie"
-            ]
-          }
-        ]
-      }
-    }
-  },
-  {
-    "de": "sie",
-    "lv": "viņi",
+    "lv": "viņi / viņas",
     "level": "A1",
     "study": {
       "id": "a1-sie-study",
       "layout": "standardStudy",
-      "translation": "viņi",
+      "translation": "viņi / viņas",
       "explanation": [
         "Galvenā doma: Daudzskaitļa forma — runā par vairākiem cilvēkiem. Darbības vārds beidzas ar -en: kochen, essen, gehen.",
         "sie galvenokārt nozīmē: viena sieviete.",
@@ -17152,7 +16991,8 @@ const A1_WORDS = [
             "kochen"
           ],
           "purple": [
-            "viņi"
+            "viņi",
+            "viņas"
           ]
         },
         "examples": [
@@ -17165,7 +17005,33 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "viņi"
+                "Viņi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sie",
+                "sie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "viņa"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sie",
+                "sie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "viņa"
               ]
             }
           },
@@ -17197,40 +17063,13 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "green": [
-                "sie",
+              "yellow": [
                 "sie"
               ]
             },
             "lv": {
               "purple": [
-                "viņi"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "sie",
-                "sie"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "viņi"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "sie",
-                "sie"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "viņi"
+                "jūs"
               ]
             }
           }
