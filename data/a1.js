@@ -9145,8 +9145,200 @@ const A1_WORDS = [
   },
   {
     "de": "jung",
-    "lv": "jauns",
-    "level": "A1"
+    "lv": "jauns (par cilvēkiem)",
+    "level": "A1",
+    "study": {
+      "id": "a1-jung",
+      "layout": "standardStudy",
+      "translation": "jauns (par cilvēkiem)",
+      "explanation": [
+        "Galvenā doma: jung nozīmē jauns vecuma ziņā — lieto par cilvēkiem un dzīvniekiem, ne par lietām.",
+        "jung raksturo vecumu — pretstats ir alt (vecs).",
+        "Latviešu valodā vārdam jauns ir divas nozīmes: jauns vecumā (jung) un jauns/nesen radīts (neu).",
+        "Par lietām, kas nesen radītas vai iegādātas, lieto neu, ne jung.",
+        "jung lieto arī pārnestā nozīmē: jauna paaudze, jauns pāris, jauni cilvēki.",
+        "Ir arī lietvārds die Jugend (jaunatne, jaunība)."
+      ],
+      "examples": [
+        {
+          "de": "Sie ist noch jung.",
+          "lv": "viņa ir vēl jauna."
+        },
+        {
+          "de": "Der Hund ist jung.",
+          "lv": "suns ir jauns."
+        },
+        {
+          "de": "Wir sind noch jung.",
+          "lv": "mēs esam vēl jauni."
+        },
+        {
+          "de": "Er sieht sehr jung aus.",
+          "lv": "viņš izskatās ļoti jauns."
+        },
+        {
+          "de": "Das ist ein junges Paar.",
+          "lv": "tas ir jauns pāris."
+        },
+        {
+          "de": "Die junge Frau lächelt.",
+          "lv": "jaunā sieviete smaida."
+        },
+        {
+          "de": "Mein Bruder ist jünger als ich.",
+          "lv": "mans brālis ir jaunāks nekā es."
+        }
+      ],
+      "tip": [
+        "jung ir par vecumu (cilvēki, dzīvnieki) — ja runā par lietām, kas nesen radītas, lieto neu.",
+        "Pretstats: jung ↔ alt (jauns ↔ vecs)."
+      ],
+      "important": [
+        "jung raksturo vecumu, ne lietas jaunumu.",
+        "Par jaunām lietām (telefonu, automašīnu, māju) lieto neu, nevis jung.",
+        "Nepareizi: Mein Handy ist jung. → Pareizi: Mein Handy ist neu."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "jung"
+          ],
+          "purple": [
+            "jauns"
+          ],
+          "green": [
+            "neu"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "jung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jauna"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "jung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jauns"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "jung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jauni"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "jung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jauns"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "jungen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jauns"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "junge"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jaunā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "jünger"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jaunāks"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "jung"
+            ],
+            "green": [
+              "neu"
+            ]
+          },
+          {
+            "blue": [
+              "jung"
+            ],
+            "purple": [
+              "alt"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "jung"
+            ]
+          },
+          {
+            "green": [
+              "neu"
+            ],
+            "blue": [
+              "jung"
+            ]
+          },
+          {
+            "blue": [
+              "jung"
+            ],
+            "green": [
+              "neu"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Juni",
@@ -13957,8 +14149,200 @@ const A1_WORDS = [
   },
   {
     "de": "neu",
-    "lv": "jauns",
-    "level": "A1"
+    "lv": "jauns (par lietām)",
+    "level": "A1",
+    "study": {
+      "id": "a1-neu",
+      "layout": "standardStudy",
+      "translation": "jauns (par lietām)",
+      "explanation": [
+        "Galvenā doma: neu nozīmē jauns lietas ziņā — nesen radīts, iegādāts vai pirmoreiz izmantots.",
+        "neu raksturo lietas, ierīces, apģērbu, māju, ideju u.tml. — ne cilvēka vai dzīvnieka vecumu.",
+        "Latviešu valodā vārdam jauns ir divas nozīmes: jauns vecumā (jung) un jauns/nesen radīts (neu).",
+        "Par cilvēka vai dzīvnieka vecumu lieto jung, ne neu.",
+        "neu lieto arī pārnestā nozīmē: jauns darbs, jauna informācija, jauns sākums.",
+        "Pretstats ir alt (vecs); lietvārds das Neue nozīmē jaunumu."
+      ],
+      "examples": [
+        {
+          "de": "Mein Handy ist neu.",
+          "lv": "mans telefons ir jauns."
+        },
+        {
+          "de": "Wir haben ein neues Auto.",
+          "lv": "mums ir jauna automašīna."
+        },
+        {
+          "de": "Das ist meine neue Wohnung.",
+          "lv": "tas ir mans jaunais dzīvoklis."
+        },
+        {
+          "de": "Ich habe neue Schuhe gekauft.",
+          "lv": "es nopirku jaunas kurpes."
+        },
+        {
+          "de": "Das ist eine neue Idee.",
+          "lv": "tā ir jauna ideja."
+        },
+        {
+          "de": "Er hat einen neuen Job.",
+          "lv": "viņam ir jauns darbs."
+        },
+        {
+          "de": "Was gibt es Neues?",
+          "lv": "kas jauns?"
+        }
+      ],
+      "tip": [
+        "neu ir par lietām, ierīcēm un jaunumiem — ja runā par cilvēka vecumu, lieto jung.",
+        "Pretstats: neu ↔ alt (jauns ↔ vecs)."
+      ],
+      "important": [
+        "neu raksturo lietas un jaunumus, ne cilvēka vai dzīvnieka vecumu.",
+        "Par cilvēka vai dzīvnieka vecumu lieto jung, nevis neu.",
+        "Nepareizi: Meine Schwester ist neu. → Pareizi: Meine Schwester ist jung."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "neu"
+          ],
+          "purple": [
+            "jauns"
+          ],
+          "green": [
+            "jung"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "neu"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jauns"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "neues"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jauna"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "neue"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jaunais"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "neue"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jaunas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "neue"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jauna"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "neuen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jauns"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Neues"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jauns"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "neu"
+            ],
+            "green": [
+              "jung"
+            ]
+          },
+          {
+            "blue": [
+              "neu"
+            ],
+            "purple": [
+              "alt"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "neu"
+            ]
+          },
+          {
+            "green": [
+              "jung"
+            ],
+            "blue": [
+              "neu"
+            ]
+          },
+          {
+            "blue": [
+              "neu"
+            ],
+            "green": [
+              "jung"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "neun",
