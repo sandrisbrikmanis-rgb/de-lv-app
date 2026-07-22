@@ -2266,25 +2266,25 @@ const A1_WORDS = [
   },
   {
     "de": "bis",
-    "lv": "līdz • līdz kamēr • līdzko • līdz šim",
+    "lv": "līdz",
     "level": "A1",
     "study": {
       "id": "a1-bis",
       "layout": "standardStudy",
-      "translation": "līdz • līdz kamēr • līdzko • līdz šim",
+      "translation": "līdz",
       "explanation": "Norāda uz kādu robežu, laika punktu vai nosacījumu.",
       "examples": [
         {
           "de": "Ich warte bis zu deiner Ankunft.",
-          "lv": "es gaidu līdz tavām ierašanās."
+          "lv": "es gaidu līdz tavai ierašanās."
         },
         {
           "de": "Bleib hier, bis ich zurückkomme.",
           "lv": "paliec šeit, līdz es atgriezīšos."
         },
         {
-          "de": "Bis du fertig bist, hilf mir bitte.",
-          "lv": "līdzko tu būsi pabeidzis, lūdzu, palīdzi man."
+          "de": "Ich lerne Deutsch bis zum Abend.",
+          "lv": "es mācos vācu valodu līdz vakaram."
         },
         {
           "de": "Bis jetzt habe ich nichts verstanden.",
@@ -2308,11 +2308,6 @@ const A1_WORDS = [
           "example": "Ich warte, bis dass du kommst. – Es gaidu, līdz tu atnāksi."
         },
         {
-          "word": "sobald",
-          "meaning": "līdzko, tiklīdz",
-          "example": "Sobald du da bist, rufe mich an. – Līdzko tu būsi klāt, piezvani man."
-        },
-        {
           "word": "bis jetzt",
           "meaning": "līdz šim, līdz šai dienai",
           "example": "Bis jetzt ist alles gut. – Līdz šim viss ir labi."
@@ -2334,8 +2329,8 @@ const A1_WORDS = [
             ]
           },
           {
-            "blue": [
-              "Bis"
+            "purple": [
+              "bis"
             ]
           },
           {
@@ -2384,18 +2379,6 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "sobald"
-              ]
-            },
-            "example": {
-              "red": [
-                "Sobald"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "bis jetzt"
               ]
             },
@@ -2429,23 +2412,20 @@ const A1_WORDS = [
             ]
           },
           {
-            "red": [
-              "sobald"
-            ],
             "blue": [
-              "bis jetzt"
+              "bis jetzt",
+              "bis dass"
             ],
             "purple": [
-              "tiklīdz",
-              "līdzko",
-              "līdz šim"
+              "līdz šim",
+              "līdz tam, kamēr"
             ]
           }
         ]
       },
       "important": [
         "bis = līdz robežai vai laika punktam.",
-        "sobald = tiklīdz / līdzko; bis jetzt = līdz šim."
+        "bis jetzt = līdz šim; bis dass = līdz tam, kamēr."
       ]
     }
   },
