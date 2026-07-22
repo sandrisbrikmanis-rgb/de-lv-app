@@ -19846,7 +19846,192 @@ const A1_WORDS = [
   {
     "de": "was",
     "lv": "kas • ko",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-was",
+      "layout": "standardStudy",
+      "translation": "kas • ko",
+      "explanation": [
+        "Galvenā doma: was ir jautājamvārds par lietām un notikumiem — latviski tas ir kas vai ko, atkarībā no teikuma daļas.",
+        "was jautā par lietām, notikumiem un faktiem, nevis par personām.",
+        "Vācu valodā was nemainās pēc locījuma — tas vienmēr izskatās was.",
+        "Ja was ir teikuma priekšmets (subjekts), latviski to tulko ar kas (Was ist das? = Kas tas ir?).",
+        "Ja was ir darbības vārda papildinājums (objekts), latviski to tulko ar ko (Was machst du? = Ko tu dari?).",
+        "Par personām jautā ar wer (kas/kurš), nevis was."
+      ],
+      "examples": [
+        {
+          "de": "Was ist das?",
+          "lv": "Kas tas ir?"
+        },
+        {
+          "de": "Was ist passiert?",
+          "lv": "Kas notika?"
+        },
+        {
+          "de": "Was machst du gerade?",
+          "lv": "Ko tu tagad dari?"
+        },
+        {
+          "de": "Was möchtest du trinken?",
+          "lv": "Ko tu vēlies dzert?"
+        },
+        {
+          "de": "Was bedeutet dieses Wort?",
+          "lv": "Ko nozīmē šis vārds?"
+        },
+        {
+          "de": "Was ist dein Lieblingsessen?",
+          "lv": "Kas ir tavs mīļākais ēdiens?"
+        },
+        {
+          "de": "Was hast du gesagt?",
+          "lv": "Ko tu pasacīji?"
+        }
+      ],
+      "tip": [
+        "was pats nemainās — vācu valodā tas vienmēr ir was; latviski izvēlies kas vai ko pēc teikuma daļas.",
+        "Ātrs triks: ja uz jautājumu var atbildēt ar 'Tas ir ...', lieto kas; ja atbilde nāk pēc darbības vārda kā papildinājums, lieto ko."
+      ],
+      "important": [
+        "was jautā par lietām, notikumiem un faktiem — nekad par personām.",
+        "Par personām jautā ar wer (kas/kurš), nevis was.",
+        "was für (ein/eine) nozīmē kāds/kas par un jautā par īpašību vai veidu (Was für ein Film ist das? = Kāda tā ir filma?).",
+        "Nepareizi: Wer ist passiert? → Pareizi: Was ist passiert?"
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "was"
+          ],
+          "purple": [
+            "kas",
+            "ko"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Was"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Kas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Was"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Kas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Was"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Ko"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Was"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Ko"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Was"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Ko"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Was"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Kas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Was"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Ko"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "was"
+            ]
+          },
+          {
+            "purple": [
+              "kas",
+              "ko"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "was"
+            ]
+          },
+          {
+            "blue": [
+              "wer"
+            ]
+          },
+          {
+            "blue": [
+              "was für"
+            ]
+          },
+          {
+            "blue": [
+              "was"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "waschen",
