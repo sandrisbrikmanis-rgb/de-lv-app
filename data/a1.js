@@ -22491,17 +22491,17 @@ const A1_WORDS = [
   {
     "de": "Appetit",
     "de_article": "der",
-    "lv": "ēstgriba",
+    "lv": "apetīte",
     "level": "A1",
     "study": {
       "id": "a1-appetit",
       "layout": "standardStudy",
-      "translation": "ēstgriba",
+      "translation": "apetīte",
       "explanation": [
         "Galvenā doma: Sajūta, ka gribas ēst. tikai vienskaitlis — nav daudzskaitļa.",
         "der Appetit galvenokārt nozīmē: vēlme ēst.",
         "Bieži raksturo: sajūtu (tikai vienskaitlī).",
-        "der Appetit ir tikai vienskaitlis — ēstgriba.",
+        "der Appetit ir tikai vienskaitlis — apetīte.",
         "A1 līmenī tie bieži nāk kopā, piemēram: Guten Appetit!"
       ],
       "examples": [
@@ -22535,7 +22535,7 @@ const A1_WORDS = [
             "appetit"
           ],
           "purple": [
-            "ēstgriba",
+            "apetīte",
             "apetīti"
           ],
           "yellow": [
@@ -22552,7 +22552,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ēstgriba"
+                "apetīti"
               ]
             }
           },
@@ -22565,7 +22565,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ēstgriba"
+                "apetīti"
               ]
             }
           },
@@ -22578,20 +22578,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ēstgriba"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "der Appetit",
-                "appetit"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "ēstgriba"
+                "apetītes"
               ]
             }
           }
@@ -22599,7 +22586,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "ēstgriba"
+              "apetīte"
             ]
           }
         ],
