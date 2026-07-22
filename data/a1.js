@@ -20710,7 +20710,206 @@ const A1_WORDS = [
   {
     "de": "wer",
     "lv": "kas • kurš",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-wer",
+      "layout": "standardStudy",
+      "translation": "kas • kurš",
+      "explanation": [
+        "Galvenā doma: wer ir jautājamvārds par personas identitāti — latviski tas ir kas vai kurš.",
+        "wer jautā par cilvēkiem, ne par lietām vai notikumiem.",
+        "Par lietām un notikumiem jautā ar was, ne wer.",
+        "wer vācu valodā parasti ir teikuma priekšmets (nominatīvā) — Wer ist das? = Kas tas ir?",
+        "Ja jautā, kurš tieši no vairākiem cilvēkiem, wer bieži lieto kopā ar von (wer von euch = kurš no jums).",
+        "wer maina formu pēc locījuma: wen (akuzatīvs), wem (datīvs), wessen (ģenitīvs) — A1 līmenī visbiežāk sastopama ir tieši forma wer."
+      ],
+      "examples": [
+        {
+          "de": "Wer ist das?",
+          "lv": "Kas tas ir?"
+        },
+        {
+          "de": "Wer bist du?",
+          "lv": "Kas tu esi?"
+        },
+        {
+          "de": "Wer kommt heute?",
+          "lv": "Kas šodien nāk?"
+        },
+        {
+          "de": "Wer ist deine Lehrerin?",
+          "lv": "Kas ir tava skolotāja?"
+        },
+        {
+          "de": "Wer von euch spricht Deutsch?",
+          "lv": "Kurš no jums runā vāciski?"
+        },
+        {
+          "de": "Wer hat das gesagt?",
+          "lv": "Kas to teica?"
+        },
+        {
+          "de": "Wer möchte Kaffee?",
+          "lv": "Kurš vēlas kafiju?"
+        }
+      ],
+      "tip": [
+        "wer jautā par personām (kas/kurš) — par lietām un notikumiem lieto was.",
+        "Lai jautātu par izvēli starp vairākiem cilvēkiem, izmanto wer von... (kurš no...)."
+      ],
+      "important": [
+        "wer jautā tikai par personām, nekad par lietām.",
+        "Par lietām un notikumiem jautā ar was, nevis wer.",
+        "wer maina formu pēc locījuma: wen, wem, wessen — bet pamatforma ir wer.",
+        "Nepareizi: Wer ist passiert? → Pareizi: Was ist passiert?"
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "wer"
+          ],
+          "purple": [
+            "kas",
+            "kurš"
+          ],
+          "green": [
+            "was"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Wer"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Kas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wer"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Kas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wer"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Kas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wer"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Kas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wer"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Kurš"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wer"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Kas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wer"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Kurš"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "wer"
+            ],
+            "green": [
+              "was"
+            ]
+          },
+          {
+            "blue": [
+              "wer von"
+            ],
+            "purple": [
+              "kurš no"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "wer"
+            ]
+          },
+          {
+            "green": [
+              "was"
+            ],
+            "blue": [
+              "wer"
+            ]
+          },
+          {
+            "blue": [
+              "wer"
+            ]
+          },
+          {
+            "blue": [
+              "Wer"
+            ],
+            "green": [
+              "Was"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "werden",
