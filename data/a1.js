@@ -2463,7 +2463,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "lūdzu",
       "explanation": [
-        "Galvenā doma: Pieklājības vārds ar mazo burtu. Lieto, lai būtu pieklājīgi — lūdzu, prosim.",
+        "Galvenā doma: Pieklājības vārds ar mazo burtu. Lieto, lai būtu pieklājīgi — lūdzu.",
         "bitte galvenokārt nozīmē: pieklājība.",
         "Bieži raksturo: pieklājības vārds.",
         "bitte galvenokārt nozīmē: lūgums/pieprasījums.",
@@ -2500,7 +2500,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Mazais bitte = lūdzu (Bitte schön!, Kaffee, bitte). die Bitte ar lielo burtu = lūgums (eine Bitte, meine Bitte).",
-        "Pieklājības vārds ar mazo burtu. Lieto, lai būtu pieklājīgi — lūdzu, prosim."
+        "Pieklājības vārds ar mazo burtu. Lieto, lai būtu pieklājīgi — lūdzu."
       ],
       "important": [
         "bitte stāv ar mazo burtu — tas ir pieklājības vārds, ne lietvārds.",
