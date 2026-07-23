@@ -6771,7 +6771,167 @@ const A1_WORDS = [
   {
     "de": "für",
     "lv": "priekš • par",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-fuer",
+      "layout": "standardStudy",
+      "translation": "priekš • par",
+      "explanation": [
+        "Galvenā doma: für ir prievārds, kas vienmēr pārvalda akuzatīvu — latviski parasti priekš vai par.",
+        "Runājot par saņēmēju vai nolūku, für = priekš (für dich = priekš tevis).",
+        "Runājot par apmaiņu, maksu vai iemeslu, für = par (danke für das Geschenk = paldies par dāvanu).",
+        "für vienmēr prasa akuzatīvu neatkarīgi no nozīmes."
+      ],
+      "examples": [
+        {
+          "de": "Das ist für dich.",
+          "lv": "tas ir priekš tevis."
+        },
+        {
+          "de": "Danke für die Hilfe.",
+          "lv": "paldies par palīdzību."
+        },
+        {
+          "de": "Ich kaufe ein Geschenk für meine Mutter.",
+          "lv": "es pērku dāvanu savai mātei."
+        },
+        {
+          "de": "Was bezahlst du für das Auto?",
+          "lv": "cik tu maksā par auto?"
+        },
+        {
+          "de": "Das Buch ist für Kinder.",
+          "lv": "grāmata ir priekš bērniem."
+        },
+        {
+          "de": "Für heute ist das genug.",
+          "lv": "šodienai tas ir gana."
+        }
+      ],
+      "tip": [
+        "für vienmēr + akuzatīvs — neatkarīgi no nozīmes.",
+        "Saņēmējs/nolūks → priekš; apmaiņa/iemesls/maksa → par."
+      ],
+      "important": [
+        "für + Akkusativ vienmēr, piemēram für mich, für dich, für das Kind.",
+        "danke für / bezahlen für = 'par', ne 'priekš'."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "für"
+          ],
+          "purple": [
+            "priekš",
+            "par"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "für"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "priekš"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "für"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "par"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "für"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "savai"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "für"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "par"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "für"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "priekš"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Für"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "šodienai"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "für"
+            ]
+          },
+          {
+            "purple": [
+              "priekš",
+              "par"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "für",
+              "Akkusativ"
+            ]
+          },
+          {
+            "green": [
+              "danke für",
+              "bezahlen für"
+            ],
+            "purple": [
+              "par"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Fuß",
@@ -7189,7 +7349,163 @@ const A1_WORDS = [
   {
     "de": "gleich",
     "lv": "tūlīt • vienāds",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-gleich",
+      "layout": "standardStudy",
+      "translation": "tūlīt • vienāds",
+      "explanation": [
+        "Galvenā doma: gleich laika ziņā nozīmē tūlīt, salīdzinājumā nozīmē vienāds.",
+        "Ja runa ir par laiku, gleich = tūlīt/pēc brīža (Ich komme gleich. = Es tūlīt nāku.).",
+        "Ja runa ir par salīdzinājumu, gleich = vienāds/tāds pats (die gleiche Farbe = vienāda krāsa).",
+        "gleich var lietot arī kā prievārdu ar datīvu, nozīmē tāpat kā (gleich mir = tāpat kā man).",
+        "Konteksts (laika norāde vai salīdzinājums) parāda pareizo nozīmi."
+      ],
+      "examples": [
+        {
+          "de": "Ich komme gleich.",
+          "lv": "es tūlīt nāku."
+        },
+        {
+          "de": "Wir haben die gleiche Farbe.",
+          "lv": "mums ir vienāda krāsa."
+        },
+        {
+          "de": "Das Essen ist gleich fertig.",
+          "lv": "ēdiens tūlīt būs gatavs."
+        },
+        {
+          "de": "Beide Wege sind gleich lang.",
+          "lv": "abi ceļi ir vienādi gari."
+        },
+        {
+          "de": "Bis gleich!",
+          "lv": "līdz tūlīt!"
+        },
+        {
+          "de": "Sie sind gleich groß.",
+          "lv": "viņi ir vienāda auguma."
+        }
+      ],
+      "tip": [
+        "Par laiku (pēc brīža) → tūlīt.",
+        "Par salīdzinājumu (tāds pats) → vienāds."
+      ],
+      "important": [
+        "gleich = tūlīt (laiks) VAI vienāds (salīdzinājums).",
+        "Bis gleich! = līdz tūlīt! — ierasta atvadu frāze."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "gleich"
+          ],
+          "purple": [
+            "tūlīt",
+            "vienāds"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "gleich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tūlīt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "gleiche"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vienāda"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gleich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tūlīt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "gleich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vienādi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gleich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tūlīt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "gleich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vienāda"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "tūlīt"
+            ]
+          },
+          {
+            "green": [
+              "vienāds"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "purple": [
+              "tūlīt",
+              "vienāds"
+            ]
+          },
+          {
+            "blue": [
+              "Bis gleich!"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Glück",
@@ -8173,7 +8489,175 @@ const A1_WORDS = [
   {
     "de": "ihr",
     "lv": "jūs • viņai",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-ihr",
+      "layout": "standardStudy",
+      "translation": "jūs • viņai",
+      "explanation": [
+        "Galvenā doma: ihr ir divi dažādi vietniekvārdi ar vienādu rakstību — uzruna vairākiem cilvēkiem (jūs) un vietniekvārda sie datīva forma (viņai/viņas).",
+        "Ar mazo ihr kā uzrunu vairākiem cilvēkiem tulko kā jūs (Kommt ihr mit? = Vai jūs nākat līdzi?).",
+        "ihr kā piederības vietniekvārds nozīmē viņas (ihr Buch = viņas grāmata).",
+        "ihr kā datīva forma (no sie) nozīmē viņai (Ich gebe ihr das Buch. = Es dodu viņai grāmatu.).",
+        "Darbības vārda forma (kommt, habt) parāda, ka runa ir par jūs — uzrunu vairākiem cilvēkiem.",
+        "Pieklājīgā uzruna vienmēr ir Sie ar lielo burtu, nevis ihr."
+      ],
+      "examples": [
+        {
+          "de": "Kommt ihr heute Abend?",
+          "lv": "vai jūs nākat šovakar?"
+        },
+        {
+          "de": "Ich gebe ihr das Buch.",
+          "lv": "es dodu viņai grāmatu."
+        },
+        {
+          "de": "Wo wohnt ihr?",
+          "lv": "kur jūs dzīvojat?"
+        },
+        {
+          "de": "Er schreibt ihr einen Brief.",
+          "lv": "viņš raksta viņai vēstuli."
+        },
+        {
+          "de": "Habt ihr Zeit?",
+          "lv": "vai jums ir laiks?"
+        },
+        {
+          "de": "Das ist ihr Auto.",
+          "lv": "tā ir viņas automašīna."
+        }
+      ],
+      "tip": [
+        "ihr ar darbības vārda dsk. formu (kommt, habt) = jūs; ihr blakus vārdam kā datīvs vai piederība = viņai/viņas.",
+        "Pārbaudi: Habt ihr...? / Kommt ihr...? = jūs; Ich gebe ihr... / ihr Buch = viņai/viņas."
+      ],
+      "important": [
+        "ihr = jūs (uzruna vairākiem) VAI viņai (datīvs) VAI viņas (piederība) — pēc konteksta.",
+        "Pieklājīgā uzruna vienmēr Sie ar lielo burtu, nevis ihr.",
+        "Nepareizi: Ihr (pieklājīgi) → Pareizi: Sie."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "ihr"
+          ],
+          "purple": [
+            "jūs",
+            "viņai",
+            "viņas"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "ihr"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jūs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ihr"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "viņai"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ihr"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jūs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ihr"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "viņai"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ihr"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jums"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ihr"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "viņas"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "ihr"
+            ]
+          },
+          {
+            "blue": [
+              "ihr"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "purple": [
+              "jūs",
+              "viņai",
+              "viņas"
+            ]
+          },
+          {
+            "blue": [
+              "Sie"
+            ]
+          },
+          {
+            "blue": [
+              "Sie"
+            ],
+            "red": [
+              "Ihr"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "im",
@@ -9340,7 +9824,168 @@ const A1_WORDS = [
   {
     "de": "kein",
     "lv": "neviens • nekāds",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-kein",
+      "layout": "standardStudy",
+      "translation": "neviens • nekāds",
+      "explanation": [
+        "Galvenā doma: kein ir nolieguma artikuls, kas noliedz lietvārdu — latviski atkarībā no konteksta neviens vai nekāds.",
+        "kein locījas tāpat kā ein (kein/keine/keinen...) un stāv lietvārda priekšā.",
+        "Ar skaitāmiem lietvārdiem (cilvēkiem) kein bieži tulko kā neviens (kein Mensch = neviens cilvēks).",
+        "Ar nesaitāmiem vai abstraktiem lietvārdiem kein bieži tulko kā nekāds/nav vispār (kein Geld = nekādas naudas/nav naudas).",
+        "kein noliedz veselu lietvārdu, ne tikai darbības vārdu (salīdzini ar nicht)."
+      ],
+      "examples": [
+        {
+          "de": "Ich habe kein Geld.",
+          "lv": "man nav naudas."
+        },
+        {
+          "de": "Es gibt keine Milch mehr.",
+          "lv": "piena vairs nav nemaz."
+        },
+        {
+          "de": "Kein Mensch war da.",
+          "lv": "neviens cilvēks tur nebija."
+        },
+        {
+          "de": "Ich habe keine Zeit.",
+          "lv": "man nav laika."
+        },
+        {
+          "de": "Das ist kein Problem.",
+          "lv": "tā nav nekāda problēma."
+        },
+        {
+          "de": "Wir haben keine Kinder.",
+          "lv": "mums nav bērnu."
+        }
+      ],
+      "tip": [
+        "kein noliedz lietvārdu (kein + lietvārds), nicht noliedz darbības vārdu vai teikumu.",
+        "kein locījas kā ein: kein/keine/keinen/keiner."
+      ],
+      "important": [
+        "kein + lietvārds = 'nav nekāda/neviena X', ne 'nicht ein X'.",
+        "Nepareizi: Ich habe nicht ein Geld. → Pareizi: Ich habe kein Geld."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "kein"
+          ],
+          "purple": [
+            "neviens",
+            "nekāds"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "kein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nav"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "keine"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nav nemaz"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Kein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "neviens"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "keine"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nav"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "kein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nekāda"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "keine"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nav"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "kein"
+            ],
+            "green": [
+              "nicht"
+            ]
+          },
+          {
+            "blue": [
+              "kein/keine/keinen/keiner"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "kein"
+            ]
+          },
+          {
+            "red": [
+              "nicht ein Geld"
+            ],
+            "blue": [
+              "kein Geld"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Keks",
@@ -10422,7 +11067,163 @@ const A1_WORDS = [
   {
     "de": "lang",
     "lv": "garš • ilgs",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-lang",
+      "layout": "standardStudy",
+      "translation": "garš • ilgs",
+      "explanation": [
+        "Galvenā doma: lang telpiski nozīmē garš, laika ziņā nozīmē ilgs.",
+        "Ja runa ir par izmēru vai attālumu, lang = garš (ein langer Tisch = garš galds).",
+        "Ja runa ir par laika ilgumu, lang = ilgs (ein langer Tag = ilga diena).",
+        "Frāzē den ganzen Tag lang tas nozīmē visu dienu (garumā).",
+        "Latviski 'garš' un 'ilgs' ir divi dažādi vārdi, bet vācu lang aptver abas nozīmes."
+      ],
+      "examples": [
+        {
+          "de": "Der Tisch ist sehr lang.",
+          "lv": "galds ir ļoti garš."
+        },
+        {
+          "de": "Der Film war sehr lang.",
+          "lv": "filma bija ļoti ilga."
+        },
+        {
+          "de": "Wie lange dauert es?",
+          "lv": "cik ilgi tas ilgst?"
+        },
+        {
+          "de": "Sie hat lange Haare.",
+          "lv": "viņai ir gari mati."
+        },
+        {
+          "de": "Ich warte schon lange.",
+          "lv": "es gaidu jau ilgi."
+        },
+        {
+          "de": "Den ganzen Tag lang.",
+          "lv": "visu dienu (garumā)."
+        }
+      ],
+      "tip": [
+        "Par izmēru vai attālumu (mati, ceļš, galds) → garš.",
+        "Par laiku (diena, gaidīšana, filma) → ilgs."
+      ],
+      "important": [
+        "lang = garš (izmērs) VAI ilgs (laiks) — atkarībā no konteksta.",
+        "wie lange = cik ilgi (jautājums par laiku, ne izmēru)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "lang"
+          ],
+          "purple": [
+            "garš",
+            "ilgs"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "lang"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "garš"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "lang"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ilga"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "lange"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ilgi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "lange"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "gari"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "lange"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ilgi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "lang"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "garumā"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "garš"
+            ]
+          },
+          {
+            "green": [
+              "ilgs"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "purple": [
+              "garš",
+              "ilgs"
+            ]
+          },
+          {
+            "green": [
+              "wie lange"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "lange",
@@ -12347,7 +13148,180 @@ const A1_WORDS = [
     "de_article": "der",
     "de_plural": "die Männer",
     "lv": "vīrietis • vīrs",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-mann",
+      "layout": "standardStudy",
+      "translation": "vīrietis • vīrs",
+      "explanation": [
+        "Galvenā doma: der Mann var nozīmēt vīrieti (dzimums) vai vīru (laulātais).",
+        "Ja runa ir vienkārši par dzimumu vai personu, der Mann = vīrietis.",
+        "Ja runa ir par laulāto partneri, der Mann = vīrs (mein Mann = mans vīrs).",
+        "Piederības vietniekvārds (mein/dein/ihr Mann) gandrīz vienmēr nozīmē vīru — laulāto.",
+        "Daudzskaitlī: die Männer.",
+        "Sieviešu formai die Frau ir tāda pati divkārtēja nozīme: sieviete UN sieva."
+      ],
+      "examples": [
+        {
+          "de": "Er ist ein netter Mann.",
+          "lv": "viņš ir jauks vīrietis."
+        },
+        {
+          "de": "Das ist mein Mann.",
+          "lv": "tas ir mans vīrs."
+        },
+        {
+          "de": "Wie viele Männer sind hier?",
+          "lv": "cik vīriešu ir šeit?"
+        },
+        {
+          "de": "Mein Mann arbeitet in Berlin.",
+          "lv": "mans vīrs strādā Berlīnē."
+        },
+        {
+          "de": "Der Mann trägt einen Anzug.",
+          "lv": "vīrietis valkā uzvalku."
+        },
+        {
+          "de": "Ihr Mann ist Arzt.",
+          "lv": "viņas vīrs ir ārsts."
+        }
+      ],
+      "tip": [
+        "Ar piederības vārdu (mein/dein/ihr Mann) gandrīz vienmēr domāts vīrs (laulātais).",
+        "Bez piederības vārda (der Mann, ein Mann) parasti domāts vīrietis."
+      ],
+      "important": [
+        "der Mann = vīrietis VAI vīrs — atkarībā no konteksta.",
+        "mein Mann = mans vīrs (ne 'mans vīrietis').",
+        "Daudzskaitlī: die Männer."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "der Mann",
+            "Mann"
+          ],
+          "purple": [
+            "vīrietis",
+            "vīrs"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Mann"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vīrietis"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "mein Mann"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vīrs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Männer"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vīriešu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Mein Mann"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vīrs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Mann"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vīrietis"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Ihr Mann"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vīrs"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "green": [
+              "mein",
+              "dein",
+              "ihr Mann"
+            ],
+            "purple": [
+              "vīrs"
+            ]
+          },
+          {
+            "blue": [
+              "der Mann",
+              "ein Mann"
+            ],
+            "purple": [
+              "vīrietis"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "purple": [
+              "vīrietis",
+              "vīrs"
+            ]
+          },
+          {
+            "green": [
+              "mein Mann"
+            ]
+          },
+          {
+            "blue": [
+              "die Männer"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Marmelade",
@@ -13846,7 +14820,162 @@ const A1_WORDS = [
   {
     "de": "natürlich",
     "lv": "protams • dabisks",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-natuerlich",
+      "layout": "standardStudy",
+      "translation": "protams • dabisks",
+      "explanation": [
+        "Galvenā doma: natürlich kā apstākļa vārds nozīmē protams, kā īpašības vārds nozīmē dabisks.",
+        "Sarunā, apstiprinot kaut ko, natürlich = protams (Kommst du mit? – Natürlich! = Vai nāc līdzi? – Protams!).",
+        "Runājot par dabu, izcelsmi vai īpašībām, natürlich = dabisks (natürliche Schönheit = dabisks skaistums).",
+        "Konteksts (atbilde/apstiprinājums vai apraksts) parāda pareizo nozīmi."
+      ],
+      "examples": [
+        {
+          "de": "Kommst du mit? – Natürlich!",
+          "lv": "vai nāc līdzi? – protams!"
+        },
+        {
+          "de": "Das ist eine natürliche Reaktion.",
+          "lv": "tā ir dabiska reakcija."
+        },
+        {
+          "de": "Natürlich helfe ich dir.",
+          "lv": "protams, es tev palīdzēšu."
+        },
+        {
+          "de": "Sie hat natürliche rote Haare.",
+          "lv": "viņai ir dabiski rudi mati."
+        },
+        {
+          "de": "Natürlich kann ich das machen.",
+          "lv": "protams, es to varu izdarīt."
+        },
+        {
+          "de": "Das ist ganz natürlich.",
+          "lv": "tas ir pilnīgi dabiski/normāli."
+        }
+      ],
+      "tip": [
+        "Kā atsevišķs vārds, apstiprinot vai atbildot → protams.",
+        "Blakus lietvārdam, aprakstot izcelsmi vai īpašību → dabisks."
+      ],
+      "important": [
+        "natürlich = protams (apstākļa vārds, apstiprinājums) VAI dabisks (īpašības vārds).",
+        "Natürlich! kā atsevišķs saucienis vienmēr = protams!"
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "natürlich"
+          ],
+          "purple": [
+            "protams",
+            "dabisks"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Natürlich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "protams"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "natürliche"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dabiska"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Natürlich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "protams"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "natürliche"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dabiski"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Natürlich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "protams"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "natürlich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dabiski"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "protams"
+            ]
+          },
+          {
+            "green": [
+              "dabisks"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "purple": [
+              "protams",
+              "dabisks"
+            ]
+          },
+          {
+            "blue": [
+              "Natürlich!"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "neben",
@@ -16675,7 +17804,171 @@ const A1_WORDS = [
     "de_article": "die",
     "de_plural": "die Seiten",
     "lv": "lappuse • puse",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-seite",
+      "layout": "standardStudy",
+      "translation": "lappuse • puse",
+      "explanation": [
+        "Galvenā doma: die Seite var nozīmēt grāmatas/dokumenta lappusi vai kādas lietas pusi/malu.",
+        "Grāmatā, žurnālā vai tīmekļa vietnē die Seite = lappuse (Seite 5 = 5. lappuse).",
+        "Telpiskā nozīmē die Seite = puse (auf der linken Seite = kreisajā pusē).",
+        "Pārnestā nozīmē die Seite var nozīmēt arī pusi konfliktā vai domās (auf meiner Seite = manā pusē).",
+        "Konteksts (grāmata/lasīšana vai novietojums/attiecības) parāda pareizo nozīmi.",
+        "Daudzskaitlī abām nozīmēm: die Seiten."
+      ],
+      "examples": [
+        {
+          "de": "Schlagt die Seite zwanzig auf.",
+          "lv": "atveriet divdesmito lappusi."
+        },
+        {
+          "de": "Auf der linken Seite ist ein Park.",
+          "lv": "kreisajā pusē ir parks."
+        },
+        {
+          "de": "Die Webseite lädt langsam.",
+          "lv": "tīmekļa lappuse ielādējas lēni."
+        },
+        {
+          "de": "Er steht auf meiner Seite.",
+          "lv": "viņš ir manā pusē."
+        },
+        {
+          "de": "Das Buch hat 200 Seiten.",
+          "lv": "grāmatai ir 200 lappuses."
+        },
+        {
+          "de": "Auf der anderen Seite der Straße.",
+          "lv": "otrā ielas pusē."
+        }
+      ],
+      "tip": [
+        "Runā par grāmatu vai lasīšanu → lappuse. Runā par novietojumu, virzienu vai attiecībām → puse.",
+        "Seite X grāmatā vienmēr ir lappuse, ne puse."
+      ],
+      "important": [
+        "die Seite = lappuse VAI puse — konteksts izšķir.",
+        "Daudzskaitlī abām nozīmēm: die Seiten."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Seite",
+            "Seite"
+          ],
+          "purple": [
+            "lappuse",
+            "puse"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Seite"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lappusi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Seite"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pusē"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Webseite"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lappuse"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Seite"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pusē"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Seiten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lappuses"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Seite"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pusē"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "lappuse"
+            ],
+            "green": [
+              "puse"
+            ]
+          },
+          {
+            "blue": [
+              "Seite"
+            ],
+            "purple": [
+              "lappuse"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "purple": [
+              "lappuse",
+              "puse"
+            ]
+          },
+          {
+            "blue": [
+              "die Seiten"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Sekunde",
@@ -16928,7 +18221,164 @@ const A1_WORDS = [
   {
     "de": "sicher",
     "lv": "drošs • noteikti",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-sicher",
+      "layout": "standardStudy",
+      "translation": "drošs • noteikti",
+      "explanation": [
+        "Galvenā doma: sicher kā īpašības vārds nozīmē drošs, kā apstākļa vārds nozīmē noteikti/droši vien.",
+        "Runājot par vietu, situāciju vai personu, sicher = drošs (ein sicherer Ort = droša vieta).",
+        "Kā apstiprinājums vai pārliecība teikumā, sicher = noteikti/protams (Das ist sicher wahr. = Tas noteikti ir taisnība.).",
+        "sicher! kā atsevišķa atbilde nozīmē protams!/droši vien!"
+      ],
+      "examples": [
+        {
+          "de": "Ist das Wasser sicher?",
+          "lv": "vai ūdens ir drošs?"
+        },
+        {
+          "de": "Kommst du morgen? – Sicher!",
+          "lv": "vai tu nāc rīt? – noteikti!"
+        },
+        {
+          "de": "Er ist sicher zu Hause.",
+          "lv": "viņš droši vien ir mājās."
+        },
+        {
+          "de": "Das ist eine sichere Lösung.",
+          "lv": "tas ir drošs risinājums."
+        },
+        {
+          "de": "Ich bin mir sicher.",
+          "lv": "es esmu pārliecināts."
+        },
+        {
+          "de": "Fahr sicher!",
+          "lv": "brauc droši!"
+        }
+      ],
+      "tip": [
+        "Par vietu vai situāciju (drošība) → drošs.",
+        "Kā pārliecība vai apstiprinājums teikumā → noteikti/droši vien."
+      ],
+      "important": [
+        "sicher = drošs (īpašības vārds) VAI noteikti/droši vien (apstākļa vārds).",
+        "sich sicher sein = būt pārliecinātam."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sicher"
+          ],
+          "purple": [
+            "drošs",
+            "noteikti"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "sicher"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "drošs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Sicher"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "noteikti"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "sicher"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "droši vien"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sichere"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "drošs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "sicher"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pārliecināts"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sicher"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "droši"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "drošs"
+            ]
+          },
+          {
+            "green": [
+              "noteikti",
+              "droši vien"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "purple": [
+              "drošs",
+              "noteikti",
+              "droši vien"
+            ]
+          },
+          {
+            "green": [
+              "sich sicher sein"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "sie",
@@ -21236,7 +22686,178 @@ const A1_WORDS = [
   {
     "de": "wie",
     "lv": "kā • cik",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-wie",
+      "layout": "standardStudy",
+      "translation": "kā • cik",
+      "explanation": [
+        "Galvenā doma: wie jautā par veidu vai īpašību (kā) un par apjomu vai skaitu (cik), atkarībā no konteksta.",
+        "wie viena pati (Wie geht's?) jautā par veidu — latviski kā.",
+        "wie + īpašības vārds (wie viel, wie alt, wie lange) jautā par apjomu, vecumu vai ilgumu — latviski cik.",
+        "wie viel(e) nozīmē cik daudz; wie alt nozīmē cik vecs; wie lange nozīmē cik ilgi.",
+        "Salīdzinājumos wie nozīmē tāpat kā (so groß wie = tikpat liels kā)."
+      ],
+      "examples": [
+        {
+          "de": "Wie geht es dir?",
+          "lv": "kā tev iet?"
+        },
+        {
+          "de": "Wie heißt du?",
+          "lv": "kā tevi sauc?"
+        },
+        {
+          "de": "Wie viel kostet das?",
+          "lv": "cik tas maksā?"
+        },
+        {
+          "de": "Wie alt bist du?",
+          "lv": "cik tev gadu?"
+        },
+        {
+          "de": "Wie lange dauert der Film?",
+          "lv": "cik ilgi ilgst filma?"
+        },
+        {
+          "de": "Er ist so groß wie sein Vater.",
+          "lv": "viņš ir tikpat garš, kā viņa tēvs."
+        }
+      ],
+      "tip": [
+        "wie pati par sevi = kā (veids); wie + īpašības vārds (viel/alt/lange) = cik (apjoms).",
+        "Salīdzinājumā so ... wie = tikpat ... kā."
+      ],
+      "important": [
+        "wie viel(e) = cik daudz; wie alt = cik vecs; wie lange = cik ilgi.",
+        "wie viens pats (Wie...?) parasti = kā, ne cik.",
+        "Nepareizi: Cik tev iet? → Pareizi: Kā tev iet? (Wie geht's?)"
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "wie"
+          ],
+          "purple": [
+            "kā",
+            "cik"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Wie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "cik"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "cik"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "cik"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "wie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kā"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "wie"
+            ],
+            "purple": [
+              "kā",
+              "cik"
+            ]
+          },
+          {
+            "purple": [
+              "tikpat",
+              "kā"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "purple": [
+              "cik daudz",
+              "cik vecs",
+              "cik ilgi"
+            ]
+          },
+          {
+            "purple": [
+              "kā"
+            ]
+          },
+          {
+            "red": [
+              "Cik tev iet?"
+            ],
+            "blue": [
+              "Kā tev iet?"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "wieder",
@@ -23299,6 +24920,18 @@ const A1_WORDS = [
           "lv": "brīvdienās (skola)."
         }
       ],
+      "comparison": [
+        {
+          "word": "die Ferien",
+          "meaning": "skolas/studiju brīvlaiks (tikai dsk.)",
+          "example": "In den Ferien fahren wir weg. – Brīvdienās mēs braucam kaut kur."
+        },
+        {
+          "word": "der Urlaub",
+          "meaning": "atvaļinājums no darba (tikai vsk.)",
+          "example": "Ich habe zwei Wochen Urlaub. – Man ir divas nedēļas atvaļinājuma."
+        }
+      ],
       "tip": [
         "tikai daudzskaitlis. Skolas vai studiju brīvlaiks — vienmēr daudzskaitlī.",
         "Izmanto die Ferien, kad konteksts atbilst šai nozīmei."
@@ -23455,6 +25088,18 @@ const A1_WORDS = [
         {
           "de": "im Urlaub",
           "lv": "atvaļinājumā (darbs)."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Urlaub",
+          "meaning": "atvaļinājums no darba (tikai vsk.)",
+          "example": "Mein Vater ist im Urlaub. – Mans tēvs ir atvaļinājumā."
+        },
+        {
+          "word": "die Ferien",
+          "meaning": "skolas/studiju brīvlaiks (tikai dsk.)",
+          "example": "Die Kinder haben Ferien. – Bērniem ir brīvdienas."
         }
       ],
       "tip": [
