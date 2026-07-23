@@ -754,12 +754,12 @@ const C1_WORDS = [
     "de": "Öffentlichkeit",
     "de_article": "die",
     "de_plural": "die Öffentlichkeiten",
-    "lv": "sabiedrība",
+    "lv": "sabiedrība • atklātība",
     "level": "C1",
     "study": {
       "id": "c1-offentlichkeit",
       "layout": "standardStudy",
-      "translation": "sabiedrība",
+      "translation": "sabiedrība • atklātība",
       "explanation": "Galvenā doma: die Öffentlichkeit nozīmē sabiedrību kā publisko telpu vai cilvēkus kopumā. Frāzē an die Öffentlichkeit kommen tas nozīmē nonākt atklātībā.",
       "examples": [
         {
@@ -788,12 +788,12 @@ const C1_WORDS = [
     "de": "Partei",
     "de_article": "die",
     "de_plural": "die Parteien",
-    "lv": "partija",
+    "lv": "partija • puse",
     "level": "C1",
     "study": {
       "id": "c1-partei",
       "layout": "standardStudy",
-      "translation": "partija",
+      "translation": "partija • puse",
       "explanation": "Galvenā doma: die Partei parasti ir politiska partija. Juridiskā vai konflikta valodā tā var nozīmēt arī pusi.",
       "examples": [
         {
@@ -857,12 +857,12 @@ const C1_WORDS = [
     "de": "Prozess",
     "de_article": "der",
     "de_plural": "die Prozesse",
-    "lv": "process",
+    "lv": "process • prāva",
     "level": "C1",
     "study": {
       "id": "c1-prozess",
       "layout": "standardStudy",
-      "translation": "process",
+      "translation": "process • prāva",
       "explanation": "Galvenā doma: der Prozess ir process vai norise. Tiesā der Prozess nozīmē prāvu.",
       "examples": [
         {
@@ -1311,12 +1311,12 @@ const C1_WORDS = [
     "de": "Wahl",
     "de_article": "die",
     "de_plural": "die Wahlen",
-    "lv": "izvēle",
+    "lv": "izvēle • vēlēšanas",
     "level": "C1",
     "study": {
       "id": "c1-wahl",
       "layout": "standardStudy",
-      "translation": "izvēle",
+      "translation": "izvēle • vēlēšanas",
       "explanation": "die Wahl var nozīmēt izvēli starp iespējām. Politikas kontekstā Wahl nozīmē vēlēšanas. Tā var nozīmēt arī pašu balsošanu. Frāze eine Wahl treffen nozīmē izdarīt izvēli. zur Wahl gehen nozīmē doties uz vēlēšanām. Konteksts par politiku vai personīgu lēmumu parāda pareizo nozīmi.",
       "examples": [
         {

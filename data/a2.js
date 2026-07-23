@@ -29125,7 +29125,162 @@ const A2_WORDS = [
   {
     "de": "eng",
     "lv": "šaurs • ciešs",
-    "level": "A2"
+    "level": "A2",
+    "study": {
+      "id": "a2-eng",
+      "layout": "standardStudy",
+      "translation": "šaurs • ciešs",
+      "explanation": [
+        "Galvenā doma: eng par telpu nozīmē šaurs, par apģērbu vai attiecībām nozīmē ciešs.",
+        "Runājot par telpu vai ceļu, eng = šaurs (eine enge Straße = šaura iela).",
+        "Runājot par apģērbu, eng = piegulošs/ciešs (Die Hose ist eng. = Bikses ir cieši/šauri.).",
+        "Runājot par attiecībām, eng = ciešs (enge Freunde = tuvi/ciešs draugi)."
+      ],
+      "examples": [
+        {
+          "de": "Die Straße ist sehr eng.",
+          "lv": "iela ir ļoti šaura."
+        },
+        {
+          "de": "Die Hose ist mir zu eng.",
+          "lv": "bikses man ir pārāk šauras (cieši pieguļ)."
+        },
+        {
+          "de": "Wir sind enge Freunde.",
+          "lv": "mēs esam ciešs draugi."
+        },
+        {
+          "de": "Der Raum ist eng.",
+          "lv": "telpa ir šaura."
+        },
+        {
+          "de": "Sie haben eine enge Beziehung.",
+          "lv": "viņiem ir ciešas attiecības."
+        },
+        {
+          "de": "Der Weg wird enger.",
+          "lv": "ceļš top šaurāks."
+        }
+      ],
+      "tip": [
+        "Par telpu vai ceļu → šaurs.",
+        "Par apģērbu vai attiecībām → ciešs."
+      ],
+      "important": [
+        "eng = šaurs (telpa) VAI ciešs (apģērbs, attiecības).",
+        "Pretstats: eng ↔ weit (šaurs ↔ plašs)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "eng"
+          ],
+          "purple": [
+            "šaurs",
+            "ciešs"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "eng"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "šaura"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "eng"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "šauras"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "enge"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ciešs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eng"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "šaura"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "enge"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ciešas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "enger"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "šaurāks"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "šaurs"
+            ]
+          },
+          {
+            "green": [
+              "ciešs"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "purple": [
+              "šaurs",
+              "ciešs"
+            ]
+          },
+          {
+            "green": [
+              "weit"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Enkel",
@@ -34037,12 +34192,12 @@ const A2_WORDS = [
     "de": "Gang",
     "de_article": "der",
     "de_plural": "die Gänge",
-    "lv": "gaitenis",
+    "lv": "gaitenis • gaita • ēdiena kārta",
     "level": "A2",
     "study": {
       "id": "a2-gang",
       "layout": "standardStudy",
-      "translation": "gaitenis",
+      "translation": "gaitenis • gaita • ēdiena kārta",
       "explanation": [
         "Galvenā doma: der Gang nozīmi nosaka konteksts: telpā tas ir gaitenis, kustībā gaita, ēdienkartē ēdiena kārta.",
         "Mājā, skolā vai viesnīcā Gang ļoti bieži nozīmē gaitenis.",
@@ -38030,7 +38185,164 @@ const A2_WORDS = [
   {
     "de": "hart",
     "lv": "ciets • grūts",
-    "level": "A2"
+    "level": "A2",
+    "study": {
+      "id": "a2-hart",
+      "layout": "standardStudy",
+      "translation": "ciets • grūts",
+      "explanation": [
+        "Galvenā doma: hart par materiālu nozīmē ciets, par situāciju vai raksturu nozīmē grūts/skarbs.",
+        "Runājot par materiālu vai virsmu, hart = ciets (Der Stein ist hart. = Akmens ir ciets.).",
+        "Runājot par dzīves situāciju vai izturēšanos, hart = grūts/skarbs (harte Zeiten = grūti laiki; ein harter Chef = skarbs šefs).",
+        "hart arbeiten nozīmē cītīgi/smagi strādāt."
+      ],
+      "examples": [
+        {
+          "de": "Der Stein ist sehr hart.",
+          "lv": "akmens ir ļoti ciets."
+        },
+        {
+          "de": "Das war eine harte Zeit.",
+          "lv": "tas bija grūts laiks."
+        },
+        {
+          "de": "Er arbeitet hart.",
+          "lv": "viņš cītīgi strādā."
+        },
+        {
+          "de": "Das Brot ist hart geworden.",
+          "lv": "maize ir palikusi cieta."
+        },
+        {
+          "de": "Sie ist eine harte Chefin.",
+          "lv": "viņa ir skarba šefe."
+        },
+        {
+          "de": "Das Training war hart.",
+          "lv": "treniņš bija grūts."
+        }
+      ],
+      "tip": [
+        "Par materiālu vai virsmu (akmens, maize) → ciets.",
+        "Par situāciju, raksturu vai piepūli → grūts/skarbs."
+      ],
+      "important": [
+        "hart = ciets (materiāls) VAI grūts/skarbs (situācija, raksturs).",
+        "hart arbeiten = smagi/cītīgi strādāt."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "hart"
+          ],
+          "purple": [
+            "ciets",
+            "grūts"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "hart"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ciets"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "harte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "grūts"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "hart"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "cītīgi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hart"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "cieta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "harte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skarba"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "hart"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "grūts"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "ciets"
+            ]
+          },
+          {
+            "green": [
+              "grūts",
+              "skarbs"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "purple": [
+              "ciets",
+              "grūts",
+              "skarbs"
+            ]
+          },
+          {
+            "green": [
+              "hart arbeiten"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Hase",
@@ -40580,6 +40892,18 @@ const A2_WORDS = [
           "lv": "pazīt; wissen"
         }
       ],
+      "comparison": [
+        {
+          "word": "kennen",
+          "meaning": "pazīt (cilvēku, vietu, lietu)",
+          "example": "Ich kenne ihn. – Es viņu pazīstu."
+        },
+        {
+          "word": "wissen",
+          "meaning": "zināt (faktu, informāciju)",
+          "example": "Ich weiß seinen Namen. – Es zinu viņa vārdu."
+        }
+      ],
       "tip": [
         "kennen = pazīt",
         "Izmanto kennen, kad konteksts atbilst šai nozīmei."
@@ -40709,6 +41033,18 @@ const A2_WORDS = [
         {
           "de": "Ich weiß die Antwort.",
           "lv": "es zinu atbildi."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "wissen",
+          "meaning": "zināt (faktu, informāciju)",
+          "example": "Ich weiß, wo er wohnt. – Es zinu, kur viņš dzīvo."
+        },
+        {
+          "word": "kennen",
+          "meaning": "pazīt (cilvēku, vietu, lietu)",
+          "example": "Ich kenne die Stadt. – Es pazīstu pilsētu."
         }
       ],
       "tip": [
@@ -45364,6 +45700,38 @@ const A2_WORDS = [
           "lv": "grāmata atrodas šeit."
         }
       ],
+      "comparison": [
+        {
+          "word": "legen",
+          "meaning": "nolikt guļus (darbība)",
+          "example": "Ich lege das Buch hin. – Es nolieku grāmatu."
+        },
+        {
+          "word": "liegen",
+          "meaning": "atrasties guļus (stāvoklis)",
+          "example": "Das Buch liegt hier. – Grāmata atrodas šeit."
+        },
+        {
+          "word": "stellen",
+          "meaning": "nolikt stāvus (darbība)",
+          "example": "Ich stelle die Flasche hin. – Es nolieku pudeli stāvus."
+        },
+        {
+          "word": "stehen",
+          "meaning": "atrasties stāvus (stāvoklis)",
+          "example": "Die Flasche steht hier. – Pudele atrodas šeit."
+        },
+        {
+          "word": "setzen",
+          "meaning": "apsēdināt (darbība)",
+          "example": "Ich setze das Kind hin. – Es apsēdinu bērnu."
+        },
+        {
+          "word": "sitzen",
+          "meaning": "sēdēt (stāvoklis)",
+          "example": "Das Kind sitzt hier. – Bērns sēž šeit."
+        }
+      ],
       "tip": [
         "Stāvoklis: kaut kas jau atrodas guļus vai horizontāli.",
         "Izmanto liegen, kad konteksts atbilst šai nozīmei."
@@ -45482,6 +45850,38 @@ const A2_WORDS = [
         {
           "de": "Ich lege das Buch hierhin.",
           "lv": "es nolieku grāmatu šeit."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "legen",
+          "meaning": "nolikt guļus (darbība)",
+          "example": "Ich lege das Buch hin. – Es nolieku grāmatu."
+        },
+        {
+          "word": "liegen",
+          "meaning": "atrasties guļus (stāvoklis)",
+          "example": "Das Buch liegt hier. – Grāmata atrodas šeit."
+        },
+        {
+          "word": "stellen",
+          "meaning": "nolikt stāvus (darbība)",
+          "example": "Ich stelle die Flasche hin. – Es nolieku pudeli stāvus."
+        },
+        {
+          "word": "stehen",
+          "meaning": "atrasties stāvus (stāvoklis)",
+          "example": "Die Flasche steht hier. – Pudele atrodas šeit."
+        },
+        {
+          "word": "setzen",
+          "meaning": "apsēdināt (darbība)",
+          "example": "Ich setze das Kind hin. – Es apsēdinu bērnu."
+        },
+        {
+          "word": "sitzen",
+          "meaning": "sēdēt (stāvoklis)",
+          "example": "Das Kind sitzt hier. – Bērns sēž šeit."
         }
       ],
       "tip": [
@@ -55704,7 +56104,162 @@ const A2_WORDS = [
   {
     "de": "schwer",
     "lv": "smags • grūts",
-    "level": "A2"
+    "level": "A2",
+    "study": {
+      "id": "a2-schwer",
+      "layout": "standardStudy",
+      "translation": "smags • grūts",
+      "explanation": [
+        "Galvenā doma: schwer fiziski nozīmē smags, pārnestā nozīmē grūts.",
+        "Runājot par svaru, schwer = smags (Der Koffer ist schwer. = Koferis ir smags.).",
+        "Runājot par uzdevuma vai situācijas sarežģītību, schwer = grūts (Die Prüfung war schwer. = Eksāmens bija grūts.).",
+        "Konteksts (svars vai sarežģītība) parāda pareizo nozīmi."
+      ],
+      "examples": [
+        {
+          "de": "Der Koffer ist sehr schwer.",
+          "lv": "koferis ir ļoti smags."
+        },
+        {
+          "de": "Die Prüfung war schwer.",
+          "lv": "eksāmens bija grūts."
+        },
+        {
+          "de": "Das Buch ist schwer zu tragen.",
+          "lv": "grāmatu ir grūti (smagi) nest."
+        },
+        {
+          "de": "Das ist eine schwere Frage.",
+          "lv": "tas ir grūts jautājums."
+        },
+        {
+          "de": "Wie schwer bist du?",
+          "lv": "cik tu svari?"
+        },
+        {
+          "de": "Er hatte eine schwere Kindheit.",
+          "lv": "viņam bija grūta bērnība."
+        }
+      ],
+      "tip": [
+        "Par fizisku svaru (koferis, akmens) → smags.",
+        "Par sarežģītību (uzdevums, jautājums, dzīve) → grūts."
+      ],
+      "important": [
+        "schwer = smags (svars) VAI grūts (sarežģītība).",
+        "Pretstats: schwer ↔ leicht (smags/grūts ↔ viegls)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "schwer"
+          ],
+          "purple": [
+            "smags",
+            "grūts"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "schwer"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "smags"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "schwer"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "grūts"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schwer"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "smagi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "schwere"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "grūts"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schwer"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "svari"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "schwere"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "grūta"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "smags"
+            ]
+          },
+          {
+            "green": [
+              "grūts"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "purple": [
+              "smags",
+              "grūts"
+            ]
+          },
+          {
+            "green": [
+              "leicht"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "schwierig",
@@ -56717,6 +57272,38 @@ const A2_WORDS = [
           "lv": "stāvoklis; setzen"
         }
       ],
+      "comparison": [
+        {
+          "word": "sitzen",
+          "meaning": "sēdēt (stāvoklis)",
+          "example": "Das Kind sitzt hier. – Bērns sēž šeit."
+        },
+        {
+          "word": "setzen",
+          "meaning": "apsēdināt (darbība)",
+          "example": "Ich setze das Kind hin. – Es apsēdinu bērnu."
+        },
+        {
+          "word": "liegen",
+          "meaning": "atrasties guļus (stāvoklis)",
+          "example": "Das Buch liegt hier. – Grāmata atrodas šeit."
+        },
+        {
+          "word": "legen",
+          "meaning": "nolikt guļus (darbība)",
+          "example": "Ich lege das Buch hin. – Es nolieku grāmatu."
+        },
+        {
+          "word": "stehen",
+          "meaning": "atrasties stāvus (stāvoklis)",
+          "example": "Die Flasche steht hier. – Pudele atrodas šeit."
+        },
+        {
+          "word": "stellen",
+          "meaning": "nolikt stāvus (darbība)",
+          "example": "Ich stelle die Flasche hin. – Es nolieku pudeli stāvus."
+        }
+      ],
       "tip": [
         "Stāvoklis: kāds jau sēž.",
         "Izmanto sitzen, kad konteksts atbilst šai nozīmei."
@@ -56839,6 +57426,38 @@ const A2_WORDS = [
         {
           "de": "Ich setze das Kind auf den Stuhl.",
           "lv": "es apsēdinu bērnu uz krēsla."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "setzen",
+          "meaning": "apsēdināt (darbība)",
+          "example": "Ich setze das Kind hin. – Es apsēdinu bērnu."
+        },
+        {
+          "word": "sitzen",
+          "meaning": "sēdēt (stāvoklis)",
+          "example": "Das Kind sitzt hier. – Bērns sēž šeit."
+        },
+        {
+          "word": "legen",
+          "meaning": "nolikt guļus (darbība)",
+          "example": "Ich lege das Buch hin. – Es nolieku grāmatu."
+        },
+        {
+          "word": "liegen",
+          "meaning": "atrasties guļus (stāvoklis)",
+          "example": "Das Buch liegt hier. – Grāmata atrodas šeit."
+        },
+        {
+          "word": "stellen",
+          "meaning": "nolikt stāvus (darbība)",
+          "example": "Ich stelle die Flasche hin. – Es nolieku pudeli stāvus."
+        },
+        {
+          "word": "stehen",
+          "meaning": "atrasties stāvus (stāvoklis)",
+          "example": "Die Flasche steht hier. – Pudele atrodas šeit."
         }
       ],
       "tip": [
@@ -58124,6 +58743,38 @@ const A2_WORDS = [
           "lv": "stāvoklis; stellen"
         }
       ],
+      "comparison": [
+        {
+          "word": "stehen",
+          "meaning": "atrasties stāvus (stāvoklis)",
+          "example": "Die Flasche steht hier. – Pudele atrodas šeit."
+        },
+        {
+          "word": "stellen",
+          "meaning": "nolikt stāvus (darbība)",
+          "example": "Ich stelle die Flasche hin. – Es nolieku pudeli stāvus."
+        },
+        {
+          "word": "liegen",
+          "meaning": "atrasties guļus (stāvoklis)",
+          "example": "Das Buch liegt hier. – Grāmata atrodas šeit."
+        },
+        {
+          "word": "legen",
+          "meaning": "nolikt guļus (darbība)",
+          "example": "Ich lege das Buch hin. – Es nolieku grāmatu."
+        },
+        {
+          "word": "sitzen",
+          "meaning": "sēdēt (stāvoklis)",
+          "example": "Das Kind sitzt hier. – Bērns sēž šeit."
+        },
+        {
+          "word": "setzen",
+          "meaning": "apsēdināt (darbība)",
+          "example": "Ich setze das Kind hin. – Es apsēdinu bērnu."
+        }
+      ],
       "tip": [
         "Stāvoklis: kaut kas jau atrodas stāvus.",
         "Izmanto stehen, kad konteksts atbilst šai nozīmei."
@@ -58241,6 +58892,38 @@ const A2_WORDS = [
         {
           "de": "Ich stelle die Flasche hin.",
           "lv": "es nolieku pudeli stāvus."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "stellen",
+          "meaning": "nolikt stāvus (darbība)",
+          "example": "Ich stelle die Flasche hin. – Es nolieku pudeli stāvus."
+        },
+        {
+          "word": "stehen",
+          "meaning": "atrasties stāvus (stāvoklis)",
+          "example": "Die Flasche steht hier. – Pudele atrodas šeit."
+        },
+        {
+          "word": "legen",
+          "meaning": "nolikt guļus (darbība)",
+          "example": "Ich lege das Buch hin. – Es nolieku grāmatu."
+        },
+        {
+          "word": "liegen",
+          "meaning": "atrasties guļus (stāvoklis)",
+          "example": "Das Buch liegt hier. – Grāmata atrodas šeit."
+        },
+        {
+          "word": "setzen",
+          "meaning": "apsēdināt (darbība)",
+          "example": "Ich setze das Kind hin. – Es apsēdinu bērnu."
+        },
+        {
+          "word": "sitzen",
+          "meaning": "sēdēt (stāvoklis)",
+          "example": "Das Kind sitzt hier. – Bērns sēž šeit."
         }
       ],
       "tip": [
@@ -67663,7 +68346,162 @@ const A2_WORDS = [
   {
     "de": "weit",
     "lv": "tāls • plašs",
-    "level": "A2"
+    "level": "A2",
+    "study": {
+      "id": "a2-weit",
+      "layout": "standardStudy",
+      "translation": "tāls • plašs",
+      "explanation": [
+        "Galvenā doma: weit par attālumu nozīmē tāls, par platumu vai apjomu nozīmē plašs.",
+        "Runājot par distanci, weit = tāls (Die Schule ist weit. = Skola ir tāla.).",
+        "Runājot par platumu, telpu vai apjomu, weit = plašs (ein weites Feld = plašs lauks).",
+        "wie weit? nozīmē cik tālu?; von weitem nozīmē no tālienes."
+      ],
+      "examples": [
+        {
+          "de": "Die Schule ist weit von hier.",
+          "lv": "skola ir tālu no šejienes."
+        },
+        {
+          "de": "Wie weit ist es bis zur Stadt?",
+          "lv": "cik tālu ir līdz pilsētai?"
+        },
+        {
+          "de": "Das Feld ist sehr weit.",
+          "lv": "lauks ir ļoti plašs."
+        },
+        {
+          "de": "Der Rock ist zu weit.",
+          "lv": "svārki ir pārāk plaši."
+        },
+        {
+          "de": "Von weitem sieht man das Meer.",
+          "lv": "no tālienes redz jūru."
+        },
+        {
+          "de": "Wir sind noch weit vom Ziel.",
+          "lv": "mēs esam vēl tālu no mērķa."
+        }
+      ],
+      "tip": [
+        "Par attālumu (skola, ceļš) → tāls.",
+        "Par platumu vai apjomu (lauks, drēbes) → plašs."
+      ],
+      "important": [
+        "weit = tāls (attālums) VAI plašs (platums).",
+        "wie weit? = cik tālu? (ne 'cik plašs')."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "weit"
+          ],
+          "purple": [
+            "tāls",
+            "plašs"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "weit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tālu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "weit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tālu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "weit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "plašs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "weit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "plaši"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "weitem"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tālienes"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "weit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tālu"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "tāls"
+            ]
+          },
+          {
+            "green": [
+              "plašs"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "purple": [
+              "tāls",
+              "plašs"
+            ]
+          },
+          {
+            "blue": [
+              "wie weit?"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "weiter",
@@ -69945,6 +70783,18 @@ const A2_WORDS = [
           "lv": "es tevi redzu."
         }
       ],
+      "comparison": [
+        {
+          "word": "sehen",
+          "meaning": "redzēt (bez nodoma)",
+          "example": "Ich sehe einen Vogel. – Es redzu putnu."
+        },
+        {
+          "word": "schauen",
+          "meaning": "skatīties (aktīvi, ar nodomu)",
+          "example": "Ich schaue den Vogel an. – Es skatos uz putnu."
+        }
+      ],
       "tip": [
         "sehen = redzēt",
         "Izmanto sehen, kad konteksts atbilst šai nozīmei."
@@ -70049,6 +70899,18 @@ const A2_WORDS = [
         {
           "de": "Ich schaue fern.",
           "lv": "es skatos televizoru."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "schauen",
+          "meaning": "skatīties (aktīvi)",
+          "example": "Ich schaue aus dem Fenster. – Es skatos pa logu."
+        },
+        {
+          "word": "sehen",
+          "meaning": "redzēt (bez nodoma)",
+          "example": "Ich sehe dich. – Es tevi redzu."
         }
       ],
       "tip": [
@@ -70404,6 +71266,18 @@ const A2_WORDS = [
           "lv": "ko tu pateici?"
         }
       ],
+      "comparison": [
+        {
+          "word": "sagen",
+          "meaning": "pasacīt (konkrētu tekstu)",
+          "example": "Was hast du gesagt? – Ko tu pateici?"
+        },
+        {
+          "word": "sprechen",
+          "meaning": "runāt (valodu, sarunāties)",
+          "example": "Ich spreche Deutsch. – Es runāju vāciski."
+        }
+      ],
       "tip": [
         "sagen = teikt",
         "Izmanto sagen, kad konteksts atbilst šai nozīmei."
@@ -70508,6 +71382,18 @@ const A2_WORDS = [
         {
           "de": "Ich spreche Deutsch.",
           "lv": "es runāju vāciski."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sprechen",
+          "meaning": "runāt (process, valoda)",
+          "example": "Wir sprechen über die Arbeit. – Mēs runājam par darbu."
+        },
+        {
+          "word": "sagen",
+          "meaning": "pasacīt (konkrētu tekstu)",
+          "example": "Sag mir die Wahrheit. – Pasaki man patiesību."
         }
       ],
       "tip": [
