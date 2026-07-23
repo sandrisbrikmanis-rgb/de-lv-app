@@ -34,12 +34,263 @@ const A1_WORDS = [
   {
     "de": "sprechen",
     "lv": "runāt",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-sprechen-study",
+      "layout": "standardStudy",
+      "translation": "runāt",
+      "explanation": [
+        "Galvenā doma: Runāt, sarunāties vai lietot valodu.",
+        "sprechen galvenokārt nozīmē: runāt vai sarunāties.",
+        "Bieži raksturo: valodu/sarunu.",
+        "sprechen raksturo runāšanu vai valodas lietošanu."
+      ],
+      "examples": [
+        {
+          "de": "Ich spreche Deutsch.",
+          "lv": "Es runāju vāciski."
+        },
+        {
+          "de": "Wir sprechen über die Arbeit.",
+          "lv": "mēs runājam par darbu."
+        },
+        {
+          "de": "Ich spreche Deutsch.",
+          "lv": "es runāju vāciski."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sprechen",
+          "meaning": "runāt (process, valoda)",
+          "example": "Wir sprechen über die Arbeit. – Mēs runājam par darbu."
+        },
+        {
+          "word": "sagen",
+          "meaning": "pasacīt (konkrētu tekstu)",
+          "example": "Sag mir die Wahrheit. – Pasaki man patiesību."
+        }
+      ],
+      "tip": [
+        "sprechen = runāt",
+        "Izmanto sprechen, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "sprechen = runāt.",
+        "Runāt, sarunāties vai lietot valodu."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "sprechen"
+          ],
+          "purple": [
+            "runāt"
+          ],
+          "orange": [
+            "runāt"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "sprechen",
+                "sprechen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "runāt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "sprechen",
+                "sprechen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "runāt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "sprechen",
+                "sprechen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "runāt"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "runāt"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "sprechen"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "klein",
     "lv": "mazs",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-klein-study",
+      "layout": "standardStudy",
+      "translation": "mazs",
+      "explanation": [
+        "Galvenā doma: Mazs izmērā vai apjomā.",
+        "klein galvenokārt nozīmē: mazs izmērs.",
+        "Bieži raksturo: lietas/personas izmēru.",
+        "klein galvenokārt nozīmē: mazs/jauns.",
+        "Bieži raksturo: bērnu.",
+        "klein raksturo mazu izmēru."
+      ],
+      "examples": [
+        {
+          "de": "Das Zimmer ist klein.",
+          "lv": "Istaba ir maza."
+        },
+        {
+          "de": "Das Zimmer ist klein.",
+          "lv": "istaba ir maza."
+        },
+        {
+          "de": "Das Kind ist noch klein.",
+          "lv": "bērns vēl ir mazs."
+        },
+        {
+          "de": "Ich habe eine kleine Tasche.",
+          "lv": "man ir maza soma."
+        },
+        {
+          "de": "Das Kind ist klein.",
+          "lv": "bērns ir mazs."
+        }
+      ],
+      "tip": [
+        "klein = mazs",
+        "Izmanto klein, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "klein = mazs izmērā.",
+        "klein = mazs.",
+        "Mazs izmērā vai apjomā."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "klein"
+          ],
+          "purple": [
+            "mazs"
+          ],
+          "green": [
+            "Mazs"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "klein",
+                "klein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mazs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "klein",
+                "klein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mazs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "klein",
+                "klein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mazs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "klein",
+                "klein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mazs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "klein",
+                "klein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mazs"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "mazs"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "klein"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "alle",
@@ -967,7 +1218,109 @@ const A1_WORDS = [
   {
     "de": "auch",
     "lv": "arī",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-auch-study",
+      "layout": "standardStudy",
+      "translation": "arī",
+      "explanation": [
+        "Galvenā doma: Visbiežākais un neitrālākais “arī”.",
+        "auch galvenokārt nozīmē: vienkāršs “arī”.",
+        "Bieži raksturo: papildinājumu.",
+        "auch ir visparastākais vārds “arī”."
+      ],
+      "examples": [
+        {
+          "de": "Ich komme auch.",
+          "lv": "Es arī nāku."
+        },
+        {
+          "de": "Ich komme auch.",
+          "lv": "es arī nāku."
+        },
+        {
+          "de": "Sie arbeitet auch hier.",
+          "lv": "viņa arī strādā šeit."
+        }
+      ],
+      "tip": [
+        "auch = arī",
+        "Izmanto auch, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "Ich auch wünsche Ihnen nav pareiza vārdu kārtība.",
+        "auch = arī."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "auch",
+            "auch"
+          ],
+          "purple": [
+            "arī"
+          ],
+          "green": [
+            "Arī"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "auch",
+                "auch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "arī"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "auch",
+                "auch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "arī"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "auch",
+                "auch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "arī"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "arī"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "auch"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "auf",
@@ -7547,7 +7900,128 @@ const A1_WORDS = [
   {
     "de": "groß",
     "lv": "liels",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-gross-study",
+      "layout": "standardStudy",
+      "translation": "liels",
+      "explanation": [
+        "Galvenā doma: Liels izmērā vai cilvēkam - garš augumā.",
+        "groß galvenokārt nozīmē: liels izmērs.",
+        "Bieži raksturo: kopējo izmēru.",
+        "groß galvenokārt nozīmē: cilvēka augums.",
+        "Bieži raksturo: personu.",
+        "groß raksturo izmēru kopumā vai cilvēka augumu."
+      ],
+      "examples": [
+        {
+          "de": "Das Haus ist groß.",
+          "lv": "Māja ir liela."
+        },
+        {
+          "de": "Das Haus ist groß.",
+          "lv": "māja ir liela."
+        },
+        {
+          "de": "Er ist groß.",
+          "lv": "viņš ir garš augumā."
+        },
+        {
+          "de": "Das Zimmer ist groß.",
+          "lv": "istaba ir liela."
+        }
+      ],
+      "tip": [
+        "groß = liels",
+        "Izmanto groß, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "Cilvēkam Er ist groß nozīmē garš augumā.",
+        "groß = liels.",
+        "Liels izmērā vai cilvēkam - garš augumā."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "groß"
+          ],
+          "purple": [
+            "liels"
+          ],
+          "green": [
+            "Liels"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "groß",
+                "groß"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "liels"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "groß",
+                "groß"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "liels"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "groß",
+                "groß"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "liels"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "groß",
+                "groß"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "liels"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "liels"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "groß"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Großeltern",
@@ -8454,7 +8928,145 @@ const A1_WORDS = [
   {
     "de": "hoch",
     "lv": "augsts",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-hoch-study",
+      "layout": "standardStudy",
+      "translation": "augsts",
+      "explanation": [
+        "Galvenā doma: Augsts vertikāli, līmenī vai augstumā.",
+        "hoch galvenokārt nozīmē: liels augstumā.",
+        "Bieži raksturo: vertikālu augstumu.",
+        "hoch galvenokārt nozīmē: augsts līmenis.",
+        "Bieži raksturo: cenas/skaitļus.",
+        "hoch raksturo augstumu, vertikālu virzienu vai līmeni."
+      ],
+      "examples": [
+        {
+          "de": "Der Berg ist hoch.",
+          "lv": "Kalns ir augsts."
+        },
+        {
+          "de": "Der Berg ist hoch.",
+          "lv": "kalns ir augsts."
+        },
+        {
+          "de": "Die Miete ist hoch.",
+          "lv": "īre ir augsta."
+        },
+        {
+          "de": "Die Mauer ist hoch.",
+          "lv": "siena ir augsta."
+        },
+        {
+          "de": "Die Preise sind hoch.",
+          "lv": "cenas ir augstas."
+        }
+      ],
+      "tip": [
+        "hoch = augsts",
+        "Izmanto hoch, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "Cenām un līmenim bieži lieto hoch.",
+        "hoch = augsts.",
+        "Augsts vertikāli, līmenī vai augstumā."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "hoch"
+          ],
+          "purple": [
+            "augsts"
+          ],
+          "orange": [
+            "augsts"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "hoch",
+                "hoch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "augsts"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "hoch",
+                "hoch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "augsts"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "hoch",
+                "hoch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "augsts"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "hoch",
+                "hoch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "augsts"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "hoch",
+                "hoch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "augsts"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "augsts"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "hoch"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "höflich",
@@ -8463,8 +9075,120 @@ const A1_WORDS = [
   },
   {
     "de": "hören",
-    "lv": "dzirdēt",
-    "level": "A1"
+    "lv": "dzirdēt • klausīties",
+    "level": "A1",
+    "study": {
+      "id": "a1-hoeren-study",
+      "layout": "standardStudy",
+      "translation": "dzirdēt • klausīties",
+      "explanation": [
+        "Galvenā doma: Dzirdēt skaņu vai klausīties mūziku.",
+        "hören galvenokārt nozīmē: uztvert skaņu.",
+        "Bieži raksturo: skaņas.",
+        "hören lieto skaņām, mūzikai un tam, ko dzird."
+      ],
+      "examples": [
+        {
+          "de": "Ich höre Musik.",
+          "lv": "Es klausos mūziku."
+        },
+        {
+          "de": "Die Kinder hören eine Geschichte.",
+          "lv": "bērni klausās stāstu."
+        },
+        {
+          "de": "Ich höre dich.",
+          "lv": "es tevi dzirdu."
+        }
+      ],
+      "tip": [
+        "Dzirdēt skaņu vai klausīties mūziku.",
+        "Izmanto hören, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "hören = dzirdēt/klausīties skaņu.",
+        "Dzirdēt skaņu vai klausīties mūziku."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "hören"
+          ],
+          "purple": [
+            "dzirdēt / klausīties",
+            "klausīties",
+            "dzirdēt"
+          ],
+          "green": [
+            "klausīties",
+            "Dzirdēt"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "hören",
+                "hören"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dzirdēt",
+                "klausīties"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hören",
+                "hören"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dzirdēt",
+                "klausīties"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hören",
+                "hören"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dzirdēt",
+                "klausīties"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "dzirdēt"
+            ]
+          },
+          {
+            "purple": [
+              "klausīties"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "hören"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "hübsch",
@@ -9998,13 +10722,284 @@ const A1_WORDS = [
     "de": "kennen",
     "lv": "pazīt",
     "level": "A1",
-    "id": "a1-kennen"
+    "id": "a1-kennen",
+    "study": {
+      "id": "a1-kennen-study",
+      "layout": "standardStudy",
+      "translation": "pazīt",
+      "explanation": [
+        "Galvenā doma: Pazīt cilvēku, vietu vai lietu no pieredzes.",
+        "kennen galvenokārt nozīmē: personīga pazīšana.",
+        "Bieži raksturo: cilvēkus, vietas.",
+        "kennen lieto, ja pazīsti cilvēku, vietu vai lietu no personīgās pieredzes."
+      ],
+      "examples": [
+        {
+          "de": "Ich kenne ihn.",
+          "lv": "Es viņu pazīstu."
+        },
+        {
+          "de": "Kennen Sie diese Frau?",
+          "lv": "vai jūs pazīstat šo sievieti?"
+        },
+        {
+          "de": "Wo habt ihr euch kennengelernt?",
+          "lv": "kur jūs iepazināties?"
+        },
+        {
+          "de": "Ich kenne ihn.",
+          "lv": "es viņu pazīstu."
+        },
+        {
+          "de": "kennen",
+          "lv": "pazīt; wissen"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "kennen",
+          "meaning": "pazīt (cilvēku, vietu, lietu)",
+          "example": "Ich kenne ihn. – Es viņu pazīstu."
+        },
+        {
+          "word": "wissen",
+          "meaning": "zināt (faktu, informāciju)",
+          "example": "Ich weiß seinen Namen. – Es zinu viņa vārdu."
+        }
+      ],
+      "tip": [
+        "kennen = pazīt",
+        "Izmanto kennen, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "kennen = pazīt cilvēku/vietu.",
+        "kennen = pazīt.",
+        "Pazīt cilvēku, vietu vai lietu no pieredzes."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "kennen",
+            "kennen"
+          ],
+          "purple": [
+            "pazīt"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "kennen",
+                "kennen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pazīt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "kennen",
+                "kennen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pazīt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "kennen",
+                "kennen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pazīt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "kennen",
+                "kennen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pazīt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "kennen",
+                "kennen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pazīt"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "pazīt"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "kennen"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "wissen",
     "lv": "zināt",
     "level": "A1",
-    "id": "a1-wissen"
+    "id": "a1-wissen",
+    "study": {
+      "id": "a1-wissen-study",
+      "layout": "standardStudy",
+      "translation": "zināt",
+      "explanation": [
+        "Galvenā doma: Zināt faktu, atbildi vai informāciju.",
+        "wissen galvenokārt nozīmē: informācija/fakts.",
+        "Bieži raksturo: atbildes, datus.",
+        "wissen lieto, ja zini faktu, atbildi vai informāciju."
+      ],
+      "examples": [
+        {
+          "de": "Ich weiß, wo er wohnt.",
+          "lv": "Es zinu, kur viņš dzīvo."
+        },
+        {
+          "de": "Woher wissen Sie das?",
+          "lv": "no kurienes jūs to zināt?"
+        },
+        {
+          "de": "Ich weiß die Antwort.",
+          "lv": "es zinu atbildi."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "wissen",
+          "meaning": "zināt (faktu, informāciju)",
+          "example": "Ich weiß, wo er wohnt. – Es zinu, kur viņš dzīvo."
+        },
+        {
+          "word": "kennen",
+          "meaning": "pazīt (cilvēku, vietu, lietu)",
+          "example": "Ich kenne die Stadt. – Es pazīstu pilsētu."
+        }
+      ],
+      "tip": [
+        "wissen = zināt",
+        "Izmanto wissen, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "wissen = zināt faktu.",
+        "wissen = zināt.",
+        "Zināt faktu, atbildi vai informāciju."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "wissen",
+            "wissen"
+          ],
+          "purple": [
+            "zināt"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "wissen",
+                "wissen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zināt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "wissen",
+                "wissen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zināt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "wissen",
+                "wissen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zināt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "wissen",
+                "wissen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zināt"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "zināt"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "wissen"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Kilogramm",
@@ -12358,7 +13353,126 @@ const A1_WORDS = [
   {
     "de": "leise",
     "lv": "kluss",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-leise-study",
+      "layout": "standardStudy",
+      "translation": "kluss",
+      "explanation": [
+        "Galvenā doma: Kluss vai ar mazu skaļumu.",
+        "leise galvenokārt nozīmē: mazs skaļums.",
+        "Bieži raksturo: skaņu/balsi/mūziku.",
+        "leise raksturo mazu skaļumu vai klusu balsi/skaņu."
+      ],
+      "examples": [
+        {
+          "de": "Bitte sei leise.",
+          "lv": "Lūdzu, esi kluss."
+        },
+        {
+          "de": "Bitte sei leise.",
+          "lv": "lūdzu, esi kluss."
+        },
+        {
+          "de": "Die Musik ist leise.",
+          "lv": "mūzika ir klusa."
+        },
+        {
+          "de": "Sprich bitte leise.",
+          "lv": "lūdzu, runā klusi."
+        }
+      ],
+      "tip": [
+        "leise = kluss",
+        "Izmanto leise, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "leise = kluss skaņas ziņā.",
+        "leise = skaļums.",
+        "Kluss vai ar mazu skaļumu."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "leise"
+          ],
+          "purple": [
+            "kluss"
+          ],
+          "orange": [
+            "kluss"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "leise",
+                "leise"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kluss"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "leise",
+                "leise"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kluss"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "leise",
+                "leise"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kluss"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "leise",
+                "leise"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kluss"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "kluss"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "leise"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "lesen",
@@ -15511,7 +16625,105 @@ const A1_WORDS = [
   {
     "de": "noch",
     "lv": "vēl",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-noch-study",
+      "layout": "standardStudy",
+      "translation": "vēl",
+      "explanation": [
+        "Galvenā doma: Kaut kas joprojām turpinās vai vēl nav beidzies.",
+        "noch galvenokārt nozīmē: kaut kas joprojām turpinās.",
+        "Bieži raksturo: turpinājumu vai nepabeigtu stāvokli.",
+        "noch nozīmē vēl: kaut kas joprojām turpinās vai vēl nav beidzies."
+      ],
+      "examples": [
+        {
+          "de": "Ich bin noch zu Hause.",
+          "lv": "Es vēl esmu mājās."
+        },
+        {
+          "de": "Ich bin noch zu Hause.",
+          "lv": "es vēl esmu mājās."
+        },
+        {
+          "de": "Bist du noch da?",
+          "lv": "vai tu vēl esi šeit?"
+        }
+      ],
+      "tip": [
+        "Kaut kas joprojām turpinās vai vēl nav beidzies.",
+        "Izmanto noch, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "noch = vēl.",
+        "Kaut kas joprojām turpinās vai vēl nav beidzies."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "Vēl"
+          ],
+          "purple": [
+            "vēl"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "noch",
+                "noch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vēl"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "noch",
+                "noch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vēl"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "noch",
+                "noch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vēl"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "vēl"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "noch"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "normal",
@@ -15540,8 +16752,161 @@ const A1_WORDS = [
   },
   {
     "de": "nur",
-    "lv": "tikai",
-    "level": "A1"
+    "lv": "tikai • vienīgi",
+    "level": "A1",
+    "study": {
+      "id": "a1-nur-study",
+      "layout": "standardStudy",
+      "translation": "tikai • vienīgi",
+      "explanation": [
+        "Galvenā doma: Ierobežo daudzumu, cilvēku skaitu, izvēli vai iespējas.",
+        "nur galvenokārt nozīmē: ierobežots daudzums vai izvēle.",
+        "Bieži raksturo: cik daudz, kas tieši vai kurš vienīgais.",
+        "nur nozīmē tikai, vienīgi, nekas vairāk: tas ierobežo daudzumu vai izvēli."
+      ],
+      "examples": [
+        {
+          "de": "Ich habe nur zehn Euro.",
+          "lv": "Man ir tikai desmit eiro."
+        },
+        {
+          "de": "Ich habe nur zehn Euro.",
+          "lv": "man ir tikai desmit eiro."
+        },
+        {
+          "de": "Nur du kannst mir helfen.",
+          "lv": "tikai tu vari man palīdzēt."
+        },
+        {
+          "de": "Ich möchte nur Kaffee.",
+          "lv": "es gribu tikai kafiju."
+        },
+        {
+          "de": "Ich habe nur acht Euro.",
+          "lv": "man ir tikai astoņi eiro."
+        }
+      ],
+      "tip": [
+        "Ierobežo daudzumu, cilvēku skaitu, izvēli vai iespējas.",
+        "Izmanto nur, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "Latviešu “tikai” vācu valodā ne vienmēr ir nur.",
+        "nur = tikai / vienīgi."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "orange": [
+            "nur",
+            "nur"
+          ],
+          "purple": [
+            "tikai / vienīgi"
+          ],
+          "green": [
+            "vienīgi"
+          ],
+          "red": [
+            "Tikai"
+          ],
+          "yellow": [
+            "vienīgi",
+            "tikai"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "orange": [
+                "nur",
+                "nur"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tikai",
+                "vienīgi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "orange": [
+                "nur",
+                "nur"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tikai",
+                "vienīgi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "orange": [
+                "nur",
+                "nur"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tikai",
+                "vienīgi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "orange": [
+                "nur",
+                "nur"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tikai",
+                "vienīgi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "orange": [
+                "nur",
+                "nur"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tikai",
+                "vienīgi"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "tikai"
+            ]
+          },
+          {
+            "purple": [
+              "vienīgi"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "orange": [
+              "nur"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "ob",
@@ -16887,7 +18252,86 @@ const A1_WORDS = [
   {
     "de": "sagen",
     "lv": "teikt",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-sagen-study",
+      "layout": "standardStudy",
+      "translation": "teikt",
+      "explanation": [
+        "Galvenā doma: Pateikt konkrētu domu, vārdu vai teikumu.",
+        "sagen galvenokārt nozīmē: pateikt konkrētu domu.",
+        "Bieži raksturo: vārdus/teikumus.",
+        "sagen lieto konkrētam pateiktam tekstam."
+      ],
+      "examples": [
+        {
+          "de": "Was hast du gesagt?",
+          "lv": "ko tu pateici?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sagen",
+          "meaning": "pasacīt (konkrētu tekstu)",
+          "example": "Was hast du gesagt? – Ko tu pateici?"
+        },
+        {
+          "word": "sprechen",
+          "meaning": "runāt (valodu, sarunāties)",
+          "example": "Ich spreche Deutsch. – Es runāju vāciski."
+        }
+      ],
+      "tip": [
+        "sagen = teikt",
+        "Izmanto sagen, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "sagen = pateikt.",
+        "Pateikt konkrētu domu, vārdu vai teikumu."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sagen"
+          ],
+          "purple": [
+            "teikt"
+          ],
+          "green": [
+            "Teikt"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "sagen",
+                "sagen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "teikt"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "teikt"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "sagen"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Salat",
@@ -16918,7 +18362,120 @@ const A1_WORDS = [
   {
     "de": "schauen",
     "lv": "skatīties",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-schauen-study",
+      "layout": "standardStudy",
+      "translation": "skatīties",
+      "explanation": [
+        "Galvenā doma: Aktīvi skatīties vai palūkoties.",
+        "schauen galvenokārt nozīmē: aktīvi skatīties.",
+        "Bieži raksturo: darbību.",
+        "schauen nozīmē aktīvi skatīties."
+      ],
+      "examples": [
+        {
+          "de": "Ich schaue fern.",
+          "lv": "Es skatos televizoru."
+        },
+        {
+          "de": "Wir schauen aus dem Fenster.",
+          "lv": "mēs skatāmies pa logu."
+        },
+        {
+          "de": "Ich schaue fern.",
+          "lv": "es skatos televizoru."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "schauen",
+          "meaning": "skatīties (aktīvi)",
+          "example": "Ich schaue aus dem Fenster. – Es skatos pa logu."
+        },
+        {
+          "word": "sehen",
+          "meaning": "redzēt (bez nodoma)",
+          "example": "Ich sehe dich. – Es tevi redzu."
+        }
+      ],
+      "tip": [
+        "schauen = skatīties",
+        "Izmanto schauen, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "schauen = skatīties.",
+        "Aktīvi skatīties vai palūkoties."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "schauen"
+          ],
+          "purple": [
+            "skatīties"
+          ],
+          "orange": [
+            "skatīties"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "schauen",
+                "schauen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skatīties"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "schauen",
+                "schauen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skatīties"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "schauen",
+                "schauen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skatīties"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "skatīties"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "schauen"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "schicken",
@@ -16977,7 +18534,72 @@ const A1_WORDS = [
   {
     "de": "schon",
     "lv": "jau",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-schon-study",
+      "layout": "standardStudy",
+      "translation": "jau",
+      "explanation": [
+        "Galvenā doma: Kaut kas jau ir noticis vai jau ir spēkā.",
+        "schon galvenokārt nozīmē: kaut kas jau ir noticis vai spēkā.",
+        "Bieži raksturo: notikušu faktu vai esošu stāvokli.",
+        "schon nozīmē jau: kaut kas jau ir noticis vai jau ir spēkā."
+      ],
+      "examples": [
+        {
+          "de": "Ich bin schon zu Hause.",
+          "lv": "es jau esmu mājās."
+        }
+      ],
+      "tip": [
+        "Kaut kas jau ir noticis vai jau ir spēkā.",
+        "Izmanto schon, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "schon = jau.",
+        "Kaut kas jau ir noticis vai jau ir spēkā."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "schon",
+            "schon"
+          ],
+          "purple": [
+            "jau"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "schon",
+                "schon"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jau"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "jau"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "schon"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "schön",

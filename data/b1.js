@@ -13194,8 +13194,390 @@ const B1_WORDS = [
   {
     "de": "Dank",
     "de_article": "der",
-    "lv": "pateicība",
-    "level": "B1"
+    "lv": "pateicība • paldies",
+    "level": "B1",
+    "study": {
+      "id": "b1-dank-study",
+      "layout": "standardStudy",
+      "translation": "pateicība • paldies",
+      "explanation": [
+        "Galvenā doma: der Dank ir lietvārds un nozīmē pateicību kā jēdzienu.",
+        "Biežāk sastopamās frāzes ir Vielen Dank! un Herzlichen Dank! — tās nozīmē „liels paldies!” un „sirsnīgs paldies!”.",
+        "danke ir atbilde vai īss pateicības vārds sarunā: „paldies”.",
+        "danken ir darbības vārds: „pateikties”. ar kam? formu: Ich danke dir.",
+        "der Dank nav tas pats, kas danke: Dank ir lietvārds, danke ir sarunvalodas atbilde."
+      ],
+      "examples": [
+        {
+          "de": "Vielen Dank!",
+          "lv": "liels paldies!"
+        },
+        {
+          "de": "Herzlichen Dank!",
+          "lv": "sirsnīgs paldies!"
+        },
+        {
+          "de": "Danke schön!",
+          "lv": "liels paldies!"
+        },
+        {
+          "de": "Nein, danke.",
+          "lv": "nē, paldies."
+        },
+        {
+          "de": "Ich danke Ihnen für die Hilfe.",
+          "lv": "es pateicos jums par palīdzību."
+        },
+        {
+          "de": "Ich danke dir für das Geschenk.",
+          "lv": "es pateicos tev par dāvanu."
+        },
+        {
+          "de": "Zum Schluss nochmals herzlichen Dank.",
+          "lv": "noslēgumā vēlreiz sirsnīgs paldies."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Dank",
+          "meaning": "pateicība (lietvārds)",
+          "example": "Herzlichen Dank! = Sirsnīgs paldies!"
+        },
+        {
+          "word": "danke",
+          "meaning": "paldies (atbilde)",
+          "example": "Nein, danke. = Nē, paldies."
+        },
+        {
+          "word": "danken",
+          "meaning": "pateikties",
+          "example": "Ich danke dir. = Es tev pateicos."
+        },
+        {
+          "word": "Vielen Dank",
+          "meaning": "liels paldies (frāze)",
+          "example": "Vielen Dank für die Hilfe! = Liels paldies par palīdzību!"
+        },
+        {
+          "word": "bedanken (sich)",
+          "meaning": "pateikties formāli",
+          "example": "Ich bedanke mich bei Ihnen. = Es pateicos jums."
+        }
+      ],
+      "tip": {
+        "leftBlocks": [
+          {
+            "text": "Īsai atbildei sarunā lieto danke: Danke! / Nein, danke."
+          },
+          {
+            "text": "Formālākai pateicībai lieto Vielen Dank! vai Ich danke Ihnen."
+          }
+        ]
+      },
+      "important": {
+        "text": "der Dank ir lietvārds; danke ir atbilde; danken ir darbības vārds.",
+        "example": "Vielen Dank! = Liels paldies! Ich danke dir. = Es tev pateicos. Danke! = Paldies!"
+      },
+      "sectionAccents": {
+        "explanation": {
+          "de": {
+            "blue": [
+              "Dank",
+              "Vielen Dank",
+              "Herzlichen Dank",
+              "danke",
+              "danken"
+            ]
+          },
+          "lv": {
+            "purple": [
+              "pateicība",
+              "paldies",
+              "pateikties",
+              "liels paldies",
+              "sirsnīgs paldies"
+            ]
+          }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Vielen",
+                "Dank"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "liels paldies"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Herzlichen",
+                "Dank"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sirsnīgs paldies"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Danke",
+                "schön"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "liels paldies"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "danke"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "paldies"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "danke",
+                "Ihnen"
+              ],
+              "green": [
+                "Hilfe"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pateicos",
+                "palīdzību"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "danke",
+                "dir"
+              ],
+              "yellow": [
+                "Geschenk"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pateicos",
+                "dāvanu"
+              ],
+              "green": [
+                "tev"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Dank",
+                "herzlichen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sirsnīgs paldies",
+                "noslēgumā"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "blue": [
+                "Dank"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pateicība",
+                "lietvārds"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Herzlichen",
+                "Dank"
+              ],
+              "purple": [
+                "sirsnīgs paldies"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "danke"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "paldies",
+                "atbilde"
+              ]
+            },
+            "example": {
+              "green": [
+                "danke"
+              ],
+              "purple": [
+                "paldies"
+              ]
+            }
+          },
+          {
+            "word": {
+              "blue": [
+                "danken"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pateikties"
+              ]
+            },
+            "example": {
+              "blue": [
+                "danke",
+                "dir"
+              ],
+              "purple": [
+                "pateicos"
+              ],
+              "green": [
+                "tev"
+              ]
+            }
+          },
+          {
+            "word": {
+              "blue": [
+                "Vielen",
+                "Dank"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "liels paldies"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Vielen",
+                "Dank",
+                "Hilfe"
+              ],
+              "purple": [
+                "liels paldies",
+                "palīdzību"
+              ]
+            }
+          },
+          {
+            "word": {
+              "orange": [
+                "bedanken"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pateikties formāli"
+              ]
+            },
+            "example": {
+              "orange": [
+                "bedanke",
+                "mich"
+              ],
+              "purple": [
+                "pateicos"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "green": [
+                  "danke"
+                ],
+                "purple": [
+                  "atbildei",
+                  "paldies"
+                ]
+              }
+            },
+            {
+              "text": {
+                "blue": [
+                  "Vielen Dank",
+                  "danke Ihnen"
+                ],
+                "purple": [
+                  "formālākai",
+                  "pateicībai"
+                ]
+              }
+            }
+          ]
+        },
+        "important": [
+          {
+            "text": {
+              "blue": [
+                "Dank"
+              ],
+              "green": [
+                "danke"
+              ],
+              "orange": [
+                "danken"
+              ],
+              "purple": [
+                "lietvārds",
+                "atbilde",
+                "darbības vārds"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Vielen Dank",
+                "danke",
+                "dir"
+              ],
+              "purple": [
+                "liels paldies",
+                "pateicos",
+                "paldies"
+              ]
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "de": "dankbar",
@@ -37523,7 +37905,168 @@ const B1_WORDS = [
     "de_article": "der",
     "de_plural": "die Laute",
     "lv": "skaņa",
-    "level": "B1"
+    "level": "B1",
+    "study": {
+      "id": "b1-laut-study",
+      "layout": "standardStudy",
+      "translation": "skaņa",
+      "explanation": [
+        "Galvenā doma: Lietvārds ar artikulu der un lielo burtu. Nozīmē skaņu kā lietu, signālu vai valodas skaņu.",
+        "der Laut galvenokārt nozīmē: skaļa skaņa.",
+        "Bieži raksturo: īpašības vārds.",
+        "der Laut galvenokārt nozīmē: skaņas signāls.",
+        "Bieži raksturo: lietvārds (der).",
+        "laut ar mazo sākumburtu ir īpašības vārds — tas apraksta, cik skaļa ir skaņa (Die Musik ist laut = mūzika ir skaļa).",
+        "der Laut ar lielo burtu un artikulu der ir lietvārds — tas nozīmē skaņu kā lietu vai signālu (Der Laut ist schön = skaņa ir skaista).",
+        "Daudzskaitlī: die Laute."
+      ],
+      "examples": [
+        {
+          "de": "Der Laut ist schön.",
+          "lv": "Skaņa ir skaista."
+        },
+        {
+          "de": "Die Musik ist laut.",
+          "lv": "mūzika ir skaļa."
+        },
+        {
+          "de": "Sprich nicht so laut!",
+          "lv": "nerunā tik skaļi!"
+        },
+        {
+          "de": "Das ist sehr laut.",
+          "lv": "tas ir ļoti skaļi."
+        },
+        {
+          "de": "Der Laut ist schön.",
+          "lv": "skaņa ir skaista."
+        },
+        {
+          "de": "Ich höre einen Laut.",
+          "lv": "es dzirdu kādu skaņu."
+        }
+      ],
+      "tip": [
+        "Mazais laut = skaļš (īpašības vārds: ist laut). der Laut ar lielo burtu = skaņa (lietvārds: ein Laut, der Laut).",
+        "der Laut = skaņa"
+      ],
+      "important": [
+        "laut stāv ar mazo burtu un bez artikula — tas ir īpašības vārds.",
+        "der Laut ar lielo burtu un artikulu der ir lietvārds.",
+        "Daudzskaitlis: die Laute (valodas skaņas, skaņas signāli).",
+        "Nepareizi: Der Laut ist sehr. → Pareizi: Das ist sehr laut."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "der Laut",
+            "laut"
+          ],
+          "purple": [
+            "skaņa",
+            "skaņas"
+          ],
+          "yellow": [
+            "Laut",
+            "Laute"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "der Laut",
+                "laut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skaņa"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "der Laut",
+                "laut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skaņa"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "der Laut",
+                "laut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skaņa"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "der Laut",
+                "laut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skaņa"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "der Laut",
+                "laut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skaņa"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "der Laut",
+                "laut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skaņa"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "skaņa"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "der Laut"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Lautsprecher",
@@ -63689,7 +64232,341 @@ const B1_WORDS = [
   {
     "de": "sich befinden",
     "lv": "atrasties",
-    "level": "B1"
+    "level": "B1",
+    "study": {
+      "id": "b1-sich-befinden-study",
+      "layout": "standardStudy",
+      "translation": "atrasties",
+      "explanation": "Galvenā doma: sich befinden visbiežāk nozīmē atrasties noteiktā vietā. Tas ir formālāks nekā vienkāršais sein. To bieži lieto aprakstos, norādēs un oficiālā valodā. Justies nav šīs kartītes galvenā A2 nozīme. Justies vāciski parasti ir sich fühlen.",
+      "examples": [
+        {
+          "de": "Das Hotel befindet sich im Zentrum.",
+          "lv": "viesnīca atrodas centrā."
+        },
+        {
+          "de": "Die Toilette befindet sich im ersten Stock.",
+          "lv": "tualete atrodas pirmajā stāvā."
+        },
+        {
+          "de": "Der Eingang befindet sich links.",
+          "lv": "ieeja atrodas pa kreisi."
+        },
+        {
+          "de": "Die Schule befindet sich neben dem Park.",
+          "lv": "skola atrodas blakus parkam."
+        },
+        {
+          "de": "Ich fühle mich heute gut.",
+          "lv": "es šodien jūtos labi."
+        },
+        {
+          "de": "Das Buch liegt auf dem Tisch.",
+          "lv": "grāmata atrodas uz galda."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich befinden",
+          "meaning": "atrasties",
+          "example": "Das Büro befindet sich im zweiten Stock. = Birojs atrodas otrajā stāvā."
+        },
+        {
+          "word": "sein",
+          "meaning": "būt / atrasties",
+          "example": "Das Büro ist oben. = Birojs ir augšā."
+        },
+        {
+          "word": "liegen",
+          "meaning": "atrasties / gulēt",
+          "example": "Das Buch liegt auf dem Tisch. = Grāmata atrodas uz galda."
+        },
+        {
+          "word": "stehen",
+          "meaning": "stāvēt / atrasties",
+          "example": "Das Auto steht vor dem Haus. = Auto stāv pie mājas."
+        },
+        {
+          "word": "sich fühlen",
+          "meaning": "justies",
+          "example": "Ich fühle mich gut. = Es jūtos labi."
+        }
+      ],
+      "tip": {
+        "leftBlocks": [
+          {
+            "text": "Kartēs, norādēs un aprakstos sich befinden nozīmē atrasties."
+          },
+          {
+            "text": "Ja gribi pateikt “justies”, lieto sich fühlen, nevis sich befinden."
+          }
+        ]
+      },
+      "important": {
+        "text": "sich befinden nav par cilvēka sajūtām A2 līmenī. Galvenā nozīme ir atrašanās vieta.",
+        "example": "Das Hotel befindet sich hier = viesnīca atrodas šeit. Ich fühle mich gut = es jūtos labi."
+      },
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "befindet sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "atrodas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "befindet sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "atrodas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "befindet sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "atrodas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "befindet sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "atrodas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "red": [
+                "fühle mich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jūtos"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "liegt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "atrodas"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich befinden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "atrasties"
+              ]
+            },
+            "example": {
+              "blue": [
+                "befindet sich"
+              ],
+              "purple": [
+                "atrodas"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sein"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "būt",
+                "atrasties"
+              ]
+            },
+            "example": {
+              "green": [
+                "ist"
+              ],
+              "purple": [
+                "ir"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "liegen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "atrasties",
+                "gulēt"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "liegt"
+              ],
+              "purple": [
+                "atrodas"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "stehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "stāvēt",
+                "atrasties"
+              ]
+            },
+            "example": {
+              "orange": [
+                "steht"
+              ],
+              "purple": [
+                "stāv"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich fühlen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "justies"
+              ]
+            },
+            "example": {
+              "red": [
+                "fühle mich"
+              ],
+              "purple": [
+                "jūtos"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "sich befinden"
+                ],
+                "purple": [
+                  "atrasties"
+                ]
+              }
+            },
+            {
+              "text": {
+                "red": [
+                  "sich fühlen"
+                ],
+                "purple": [
+                  "justies"
+                ]
+              }
+            }
+          ]
+        },
+        "important": [
+          {
+            "text": {
+              "blue": [
+                "sich befinden"
+              ],
+              "purple": [
+                "atrašanās vieta"
+              ],
+              "red": [
+                "sajūtām"
+              ]
+            },
+            "example": {
+              "blue": [
+                "befindet sich"
+              ],
+              "red": [
+                "fühle mich"
+              ],
+              "purple": [
+                "atrodas",
+                "jūtos"
+              ]
+            }
+          }
+        ]
+      },
+      "accents": {
+        "blue": [
+          "sich befinden",
+          "befindet sich"
+        ],
+        "green": [
+          "sein",
+          "ist",
+          "liegt"
+        ],
+        "yellow": [
+          "liegen"
+        ],
+        "orange": [
+          "stehen",
+          "steht"
+        ],
+        "red": [
+          "sich fühlen",
+          "fühle mich"
+        ],
+        "purple": [
+          "atrasties",
+          "atrodas",
+          "justies",
+          "jūtos",
+          "atrašanās vieta"
+        ]
+      }
+    }
   },
   {
     "de": "sich bewerben",

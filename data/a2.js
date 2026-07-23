@@ -16379,7 +16379,168 @@ const A2_WORDS = [
     "de_article": "die",
     "de_plural": "die Bitten",
     "lv": "lūgums",
-    "level": "A2"
+    "level": "A2",
+    "study": {
+      "id": "a2-bitte-study",
+      "layout": "standardStudy",
+      "translation": "lūgums",
+      "explanation": [
+        "Galvenā doma: Lietvārds ar artikulu die un lielo burtu. Konkrēts lūgums vai pieprasījums.",
+        "die Bitte galvenokārt nozīmē: pieklājība.",
+        "Bieži raksturo: pieklājības vārds.",
+        "die Bitte galvenokārt nozīmē: lūgums/pieprasījums.",
+        "Bieži raksturo: lietvārds (die).",
+        "bitte ar mazo sākumburtu ir pieklājības vārds — tas nozīmē lūdzu (Bitte schön!, Eine Tasse Kaffee, bitte).",
+        "die Bitte ar lielo burtu un artikulu die ir lietvārds — tas nozīmē lūgumu vai pieprasījumu (Ich habe eine Bitte = man ir lūgums).",
+        "Daudzskaitlī: die Bitten."
+      ],
+      "examples": [
+        {
+          "de": "Ich habe eine Bitte.",
+          "lv": "Man ir viens lūgums."
+        },
+        {
+          "de": "Bitte schön!",
+          "lv": "lūdzu!"
+        },
+        {
+          "de": "Eine Tasse Kaffee, bitte.",
+          "lv": "vienu tasi kafijas, lūdzu."
+        },
+        {
+          "de": "Kann ich bitte fragen?",
+          "lv": "vai es drīkstu lūdzu jautāt?"
+        },
+        {
+          "de": "Ich habe eine Bitte.",
+          "lv": "man ir viens lūgums."
+        },
+        {
+          "de": "Die Bitte ist wichtig.",
+          "lv": "lūgums ir svarīgs."
+        }
+      ],
+      "tip": [
+        "Mazais bitte = lūdzu (Bitte schön!, Kaffee, bitte). die Bitte ar lielo burtu = lūgums (eine Bitte, meine Bitte).",
+        "Lietvārds ar artikulu die un lielo burtu. Konkrēts lūgums vai pieprasījums."
+      ],
+      "important": [
+        "bitte stāv ar mazo burtu — tas ir pieklājības vārds, ne lietvārds.",
+        "die Bitte ar lielo burtu un artikulu die ir lietvārds.",
+        "Daudzskaitlis: die Bitten (lūgumi).",
+        "Nepareizi: Die Bitte schön! → Pareizi: Bitte schön!"
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "die Bitte",
+            "bitte"
+          ],
+          "purple": [
+            "lūgums",
+            "lūgumi"
+          ],
+          "yellow": [
+            "Bitte",
+            "Bitten"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "die Bitte",
+                "bitte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lūgums"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "die Bitte",
+                "bitte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lūgums"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "die Bitte",
+                "bitte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lūgums"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "die Bitte",
+                "bitte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lūgums"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "die Bitte",
+                "bitte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lūgums"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "die Bitte",
+                "bitte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lūgums"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "lūgums"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "die Bitte"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "bitter",
@@ -64679,7 +64840,157 @@ const A2_WORDS = [
     "de_article": "der",
     "de_plural": "die Urlaube",
     "lv": "atvaļinājums",
-    "level": "A2"
+    "level": "A2",
+    "study": {
+      "id": "a2-urlaub-study",
+      "layout": "standardStudy",
+      "translation": "atvaļinājums",
+      "explanation": [
+        "Galvenā doma: tikai vienskaitlis. Atvaļinājums no darba — vienmēr vienskaitlī.",
+        "der Urlaub galvenokārt nozīmē: brīvais laiks no darba.",
+        "Bieži raksturo: tikai vienskaitlis.",
+        "der Urlaub ir tikai vienskaitlis — atvaļinājums no darba (im Urlaub)."
+      ],
+      "examples": [
+        {
+          "de": "Mein Vater ist im Urlaub.",
+          "lv": "Mans tēvs ir atvaļinājumā."
+        },
+        {
+          "de": "Mein Vater ist im Urlaub.",
+          "lv": "mans tēvs ir atvaļinājumā."
+        },
+        {
+          "de": "Nächste Woche habe ich Urlaub.",
+          "lv": "nākamnedēļ man ir atvaļinājums."
+        },
+        {
+          "de": "Wir machen Urlaub in Spanien.",
+          "lv": "mēs pavadām atvaļinājumu Spānijā."
+        },
+        {
+          "de": "im Urlaub",
+          "lv": "atvaļinājumā (darbs)."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Urlaub",
+          "meaning": "atvaļinājums no darba (tikai vsk.)",
+          "example": "Mein Vater ist im Urlaub. – Mans tēvs ir atvaļinājumā."
+        },
+        {
+          "word": "die Ferien",
+          "meaning": "skolas/studiju brīvlaiks (tikai dsk.)",
+          "example": "Die Kinder haben Ferien. – Bērniem ir brīvdienas."
+        }
+      ],
+      "tip": [
+        "tikai vienskaitlis. Atvaļinājums no darba — vienmēr vienskaitlī.",
+        "Izmanto der Urlaub, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "Nav pareizi: die Ferie, der Urlaube (A1 līmenī).",
+        "Urlaub: im Urlaub sein / Urlaub machen.",
+        "Nepareizi: die Urlaube → Pareizi: der Urlaub",
+        "Darbs: der Urlaub (tikai vienskaitlī)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "der Urlaub",
+            "urlaub"
+          ],
+          "purple": [
+            "atvaļinājums"
+          ],
+          "yellow": [
+            "Urlaub"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "der Urlaub",
+                "urlaub"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "atvaļinājums"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "der Urlaub",
+                "urlaub"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "atvaļinājums"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "der Urlaub",
+                "urlaub"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "atvaļinājums"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "der Urlaub",
+                "urlaub"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "atvaļinājums"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "der Urlaub",
+                "urlaub"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "atvaļinājums"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "atvaļinājums"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "der Urlaub"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "verbieten",
