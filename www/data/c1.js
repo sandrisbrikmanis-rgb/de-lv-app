@@ -2962,7 +2962,7 @@ const C1_WORDS = [
     "de": "Magnetstreifen",
     "de_article": "der",
     "de_plural": "die Magnetstreifen",
-    "lv": "metāla diegs uz kredītkartes",
+    "lv": "magnētiskā josla (uz kredītkartes)",
     "level": "C1"
   },
   {
@@ -3144,7 +3144,7 @@ const C1_WORDS = [
   {
     "de": "Rechenschaft",
     "de_article": "die",
-    "lv": "norēķins",
+    "lv": "atskaite (par savu rīcību) • atbildība",
     "level": "C1"
   },
   {
@@ -3794,8 +3794,156 @@ const C1_WORDS = [
     "de": "Zuschlag",
     "de_article": "der",
     "de_plural": "die Zuschläge",
-    "lv": "pielikums",
-    "level": "C1"
+    "lv": "piemaksa • uzcenojums",
+    "level": "C1",
+    "study": {
+      "id": "c1-zuschlag",
+      "layout": "standardStudy",
+      "translation": "piemaksa • uzcenojums",
+      "explanation": [
+        "Galvenā doma: der Zuschlag nozīmē piemaksu vai uzcenojumu — papildu summu, kas tiek pieskaitīta pamatcenai.",
+        "Ceļojumu/transporta kontekstā der Zuschlag ir papildu maksa par ātrāku vilcienu, labāku vietu u.tml.",
+        "Nejauc ar der Anhang/die Beilage (pielikums dokumentam) — tas ir cits vārds.",
+        "Izsolēs den Zuschlag erhalten nozīmē uzvarēt izsolē/saņemt pasūtījumu."
+      ],
+      "examples": [
+        {
+          "de": "Für den ICE muss man einen Zuschlag zahlen.",
+          "lv": "par ICE vilcienu jāmaksā piemaksa."
+        },
+        {
+          "de": "Der Zuschlag für die Nachtschicht beträgt 20%.",
+          "lv": "piemaksa par nakts maiņu ir 20%."
+        },
+        {
+          "de": "Sie erhielt den Zuschlag für den Auftrag.",
+          "lv": "viņa saņēma pasūtījumu (izsolē)."
+        },
+        {
+          "de": "Es gibt einen Zuschlag für Übergepäck.",
+          "lv": "par pārsvara bagāžu ir uzcenojums."
+        },
+        {
+          "de": "Der Preis versteht sich ohne Zuschläge.",
+          "lv": "cena ir bez piemaksām."
+        }
+      ],
+      "tip": [
+        "der Zuschlag = piemaksa/uzcenojums (papildu maksa), ne dokumenta pielikums.",
+        "den Zuschlag erhalten (izsolēs) = uzvarēt izsolē/saņemt pasūtījumu."
+      ],
+      "important": [
+        "der Zuschlag = piemaksa/uzcenojums, ne 'pielikums' dokumentam.",
+        "Dokumenta pielikums vācu valodā ir die Anlage/der Anhang."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "der Zuschlag"
+          ],
+          "purple": [
+            "piemaksu",
+            "uzcenojumu"
+          ],
+          "red": [
+            "der Anhang",
+            "die Beilage"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Zuschlag"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "piemaksa"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Zuschlag"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "piemaksa"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Zuschlag"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pasūtījumu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Zuschlag"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "uzcenojums"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Zuschläge"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "piemaksām"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "piemaksa",
+              "uzcenojums"
+            ]
+          },
+          {
+            "green": [
+              "den Zuschlag erhalten"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "purple": [
+              "piemaksa",
+              "uzcenojums"
+            ],
+            "red": [
+              "pielikums"
+            ]
+          },
+          {
+            "red": [
+              "die Anlage",
+              "der Anhang"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "beziehen / sich beziehen auf",

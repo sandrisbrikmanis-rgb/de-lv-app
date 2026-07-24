@@ -25450,8 +25450,165 @@ const B1_WORDS = [
   },
   {
     "de": "ganztägig",
-    "lv": "ar darbalaiku 24 stundas",
-    "level": "B1"
+    "lv": "visas dienas garumā • veselu dienu ilgs",
+    "level": "B1",
+    "study": {
+      "id": "b1-ganztaegig",
+      "layout": "standardStudy",
+      "translation": "visas dienas garumā • veselu dienu ilgs",
+      "explanation": [
+        "Galvenā doma: ganztägig nozīmē kaut ko, kas notiek vai ilgst visu dienu.",
+        "ganztägig raksturo notikumu vai pasākumu ilgumu (ein ganztägiger Ausflug = ekskursija, kas ilgst visu dienu).",
+        "Nejauc ar 'diennakts/24 stundu' nozīmi — tas vācu valodā ir rund um die Uhr, ne ganztägig.",
+        "ganztägig ir īpašības vārds; apstākļa vārda forma ganztags nozīmē 'visu dienu' (bez īpašības vārda funkcijas)."
+      ],
+      "examples": [
+        {
+          "de": "Wir machen einen ganztägigen Ausflug.",
+          "lv": "mēs dodamies ekskursijā, kas ilgst visu dienu."
+        },
+        {
+          "de": "Das Seminar ist ganztägig.",
+          "lv": "seminārs ilgst visu dienu."
+        },
+        {
+          "de": "Sie arbeitet ganztägig.",
+          "lv": "viņa strādā visu dienu."
+        },
+        {
+          "de": "Die Veranstaltung dauert ganztägig.",
+          "lv": "pasākums ilgst visu dienu."
+        },
+        {
+          "de": "Ein ganztägiger Kurs beginnt um 9 Uhr.",
+          "lv": "kurss, kas ilgst visu dienu, sākas pulksten 9."
+        },
+        {
+          "de": "Der Laden ist rund um die Uhr geöffnet.",
+          "lv": "veikals ir atvērts diennakti (24 stundas)."
+        }
+      ],
+      "tip": [
+        "ganztägig = visas dienas garumā/veselu dienu ilgs — ne 24 stundas.",
+        "24 stundu/diennakts nozīmei lieto rund um die Uhr, ne ganztägig."
+      ],
+      "important": [
+        "ganztägig = visas dienas garumā (viena diena), ne 24 stundu darba grafiks.",
+        "Nepareizi: ganztägig = 24 stundas → Pareizi: rund um die Uhr = 24 stundas/diennakts."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "ganztägig"
+          ],
+          "purple": [
+            "visas dienas garumā",
+            "veselu dienu ilgs"
+          ],
+          "red": [
+            "rund um die Uhr"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "ganztägigen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kas ilgst visu dienu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ganztägig"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "visu dienu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ganztägig"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "visu dienu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ganztägig"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "visu dienu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ganztägiger"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kas ilgst visu dienu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "red": [
+                "rund um die Uhr"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "diennakti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "visas dienas garumā"
+            ]
+          },
+          {
+            "red": [
+              "rund um die Uhr"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "purple": [
+              "visas dienas garumā"
+            ]
+          },
+          {
+            "red": [
+              "rund um die Uhr"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Garantie",
@@ -30876,7 +31033,7 @@ const B1_WORDS = [
     "de": "Hochzeitspaar",
     "de_article": "das",
     "de_plural": "die Hochzeitspaare",
-    "lv": "līgavas pāris",
+    "lv": "jaunlaulātie • kāzu pāris",
     "level": "B1"
   },
   {
@@ -31394,8 +31551,153 @@ const B1_WORDS = [
     "de": "Hort",
     "de_article": "der",
     "de_plural": "die Horte",
-    "lv": "bērnudārzs",
-    "level": "B1"
+    "lv": "pagarinātās dienas grupa • bērnu dienas centrs",
+    "level": "B1",
+    "study": {
+      "id": "b1-hort",
+      "layout": "standardStudy",
+      "translation": "pagarinātās dienas grupa • bērnu dienas centrs",
+      "explanation": [
+        "Galvenā doma: der Hort (arī Schulhort/Kinderhort) ir skolas vecuma bērnu pēcskolas pieskatīšanas iestāde.",
+        "Vācijā der Hort pieskata bērnus pēc skolas stundām, kamēr vecāki ir darbā.",
+        "Nejauc ar der Kindergarten — tas ir pirmsskolas vecuma bērnu (līdz 6 gadiem) iestāde.",
+        "Latviski tuvākais atbilstums ir pagarinātās dienas grupa vai bērnu dienas centrs."
+      ],
+      "examples": [
+        {
+          "de": "Mein Sohn geht nach der Schule in den Hort.",
+          "lv": "mans dēls pēc skolas dodas uz pagarinātās dienas grupu."
+        },
+        {
+          "de": "Der Hort schließt um 17 Uhr.",
+          "lv": "bērnu dienas centrs slēdzas pulksten 17."
+        },
+        {
+          "de": "Im Hort machen die Kinder ihre Hausaufgaben.",
+          "lv": "pagarinātās dienas grupā bērni dara mājasdarbus."
+        },
+        {
+          "de": "Meine Tochter ist noch im Kindergarten.",
+          "lv": "mana meita ir vēl bērnudārzā."
+        },
+        {
+          "de": "Der Hort betreut Schulkinder am Nachmittag.",
+          "lv": "bērnu dienas centrs pieskata skolas bērnus pēcpusdienā."
+        }
+      ],
+      "tip": [
+        "der Hort = skolas vecuma bērniem (pēc skolas).",
+        "der Kindergarten = pirmsskolas vecuma bērniem (līdz skolai)."
+      ],
+      "important": [
+        "der Hort ≠ bērnudārzs (Kindergarten) — atšķirīgas vecuma grupas.",
+        "der Hort = pagarinātās dienas grupa/bērnu dienas centrs (pēcskolas pieskatīšana)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "der Hort"
+          ],
+          "purple": [
+            "pagarinātās dienas grupa",
+            "bērnu dienas centrs"
+          ],
+          "red": [
+            "der Kindergarten"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Hort"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pagarinātās dienas grupu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hort"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "bērnu dienas centrs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hort"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pagarinātās dienas grupā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "red": [
+                "Kindergarten"
+              ]
+            },
+            "lv": {
+              "red": [
+                "bērnudārzā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hort"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "bērnu dienas centrs"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "der Hort"
+            ]
+          },
+          {
+            "red": [
+              "der Kindergarten"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "der Hort"
+            ],
+            "red": [
+              "Kindergarten"
+            ]
+          },
+          {
+            "purple": [
+              "pagarinātās dienas grupa",
+              "bērnu dienas centrs"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Hubschrauber",
@@ -32977,8 +33279,155 @@ const B1_WORDS = [
     "de": "Jünger",
     "de_article": "der",
     "de_plural": "die Jünger",
-    "lv": "jēzus māceklis",
-    "level": "B1"
+    "lv": "māceklis • sekotājs",
+    "level": "B1",
+    "study": {
+      "id": "b1-juenger",
+      "layout": "standardStudy",
+      "translation": "māceklis • sekotājs",
+      "explanation": [
+        "Galvenā doma: der Jünger nozīmē māceklis vai sekotājs — persona, kas seko skolotājam, idejai vai mācībai.",
+        "der Jünger var attiekties uz jebkura skolotāja vai domas virziena sekotāju, ne tikai reliģiskā kontekstā.",
+        "Bībeles/reliģiskā kontekstā die Jünger Jesu nozīmē Jēzus mācekļus — tā ir viena bieža, bet ne vienīgā lietojuma joma.",
+        "Pārnestā nozīmē der Jünger var nozīmēt arī kāda cilvēka vai idejas piekritēju (ein Jünger Nietzsches = Nīčes seku sekotājs).",
+        "Daudzskaitlī: die Jünger; sieviešu forma: die Jüngerin."
+      ],
+      "examples": [
+        {
+          "de": "Die zwölf Jünger folgten Jesus.",
+          "lv": "divpadsmit mācekļi sekoja Jēzum."
+        },
+        {
+          "de": "Er ist ein treuer Jünger seines Lehrers.",
+          "lv": "viņš ir sava skolotāja uzticams sekotājs."
+        },
+        {
+          "de": "Sie gilt als Jüngerin dieser philosophischen Richtung.",
+          "lv": "viņa tiek uzskatīta par šī filozofiskā virziena sekotāju."
+        },
+        {
+          "de": "Die Jünger lernten viel von ihrem Meister.",
+          "lv": "mācekļi mācījās daudz no sava meistara."
+        },
+        {
+          "de": "Er wurde zum Jünger des berühmten Künstlers.",
+          "lv": "viņš kļuva par slavenā mākslinieka mācekli."
+        }
+      ],
+      "tip": [
+        "der Jünger = māceklis/sekotājs — jebkura skolotāja vai idejas sekotājs.",
+        "die Jünger Jesu ir tikai VIENS bieži lietots piemērs, ne vienīgā nozīme."
+      ],
+      "important": [
+        "der Jünger ≠ tikai 'Jēzus māceklis' — tas ir vispārīgs vārds jebkuram māceklim/sekotājam.",
+        "Sieviešu forma: die Jüngerin."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "der Jünger"
+          ],
+          "purple": [
+            "māceklis",
+            "sekotājs"
+          ],
+          "green": [
+            "die Jünger Jesu"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "Jünger"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mācekļi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Jünger"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sekotājs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Jüngerin"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sekotāju"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Jünger"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mācekļi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Jünger"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mācekli"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "māceklis",
+              "sekotājs"
+            ]
+          },
+          {
+            "green": [
+              "die Jünger Jesu"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "Jēzus māceklis"
+            ],
+            "purple": [
+              "māceklim",
+              "sekotājam"
+            ]
+          },
+          {
+            "blue": [
+              "die Jüngerin"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Junggeselle",
@@ -33052,8 +33501,154 @@ const B1_WORDS = [
     "de": "Kader",
     "de_article": "der",
     "de_plural": "die Kader",
-    "lv": "kadrs",
-    "level": "B1"
+    "lv": "sastāvs • kodols",
+    "level": "B1",
+    "study": {
+      "id": "b1-kader",
+      "layout": "standardStudy",
+      "translation": "sastāvs • kodols",
+      "explanation": [
+        "Galvenā doma: der Kader nozīmē (kvalificētu) sastāvu vai kodolu — cilvēku grupu ar noteiktu lomu vai kvalifikāciju.",
+        "Sportā der Kader nozīmē komandas sastāvu (der Kader der Nationalmannschaft = valstsvienības sastāvs).",
+        "Politikā vai organizācijās der Kader nozīmē vadošo/apmācīto personāla kodolu.",
+        "Nejauc ar latviešu 'kadrs' (filmas kadrs) — tas vācu valodā ir das Bild vai die Einstellung, ne der Kader."
+      ],
+      "examples": [
+        {
+          "de": "Der Trainer wählt den Kader für das Spiel aus.",
+          "lv": "treneris izvēlas sastāvu spēlei."
+        },
+        {
+          "de": "Sie gehört zum Kader der besten Athleten.",
+          "lv": "viņa pieder pie labāko sportistu sastāva."
+        },
+        {
+          "de": "Der Kader des Unternehmens ist gut ausgebildet.",
+          "lv": "uzņēmuma kodols ir labi apmācīts."
+        },
+        {
+          "de": "Die Mannschaft hat einen breiten Kader.",
+          "lv": "komandai ir plašs sastāvs."
+        },
+        {
+          "de": "Er gehört zum militärischen Kader.",
+          "lv": "viņš pieder pie militārā kodola."
+        }
+      ],
+      "tip": [
+        "der Kader = sastāvs/kodols (cilvēku grupa) — sportā, politikā, organizācijās.",
+        "Latviešu 'kadrs' (filmas) ≠ der Kader — filmas kadrs vācu valodā ir das Bild/die Einstellung."
+      ],
+      "important": [
+        "der Kader = sastāvs/kodols, ne filmas kadrs.",
+        "Sportā bieži: der Kader der Nationalmannschaft = valstsvienības sastāvs."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "der Kader"
+          ],
+          "purple": [
+            "sastāvu",
+            "kodolu"
+          ],
+          "red": [
+            "kadrs"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Kader"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sastāvu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Kader"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sastāva"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Kader"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kodols"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Kader"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sastāvs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Kader"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kodola"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "sastāvs",
+              "kodols"
+            ]
+          },
+          {
+            "red": [
+              "kadrs"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "purple": [
+              "sastāvs",
+              "kodols"
+            ],
+            "red": [
+              "kadrs"
+            ]
+          },
+          {
+            "blue": [
+              "der Kader der Nationalmannschaft"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Käfig",
@@ -36777,7 +37372,7 @@ const B1_WORDS = [
   },
   {
     "de": "kurzfristig",
-    "lv": "pēkšņs",
+    "lv": "īstermiņa • uz īsu brīdi",
     "level": "B1"
   },
   {
@@ -43337,7 +43932,7 @@ const B1_WORDS = [
     "de": "Pantoffel",
     "de_article": "der",
     "de_plural": "die Pantoffeln",
-    "lv": "rītakurpe",
+    "lv": "čība",
     "level": "B1"
   },
   {
@@ -65119,7 +65714,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich erkälten",
-    "lv": "saķerties",
+    "lv": "saaukstēties",
     "level": "B1"
   },
   {
@@ -65144,7 +65739,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich umziehen",
-    "lv": "pārcelties",
+    "lv": "pārģērbties",
     "level": "B1"
   },
   {
