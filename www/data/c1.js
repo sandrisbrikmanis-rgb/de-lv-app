@@ -1264,8 +1264,176 @@ const C1_WORDS = [
   },
   {
     "de": "zusammenfassen",
-    "lv": "kopsavilkums",
-    "level": "C1"
+    "lv": "apkopot • rezumēt",
+    "level": "C1",
+    "study": {
+      "id": "c1-zusammenfassen",
+      "layout": "standardStudy",
+      "translation": "apkopot • rezumēt",
+      "explanation": [
+        "Galvenā doma: zusammenfassen ir darbības vārds — apkopot vai sakopot informāciju vienā īsā izklāstā.",
+        "zusammenfassen lieto, ja no vairākiem faktiem, tekstiem vai domām tiek izveidots īss pārskats.",
+        "Nejauc ar die Zusammenfassung — tas ar lielo burtu un artikulu die ir lietvārds, kas apzīmē pašu kopsavilkumu (rezultātu, gatavu tekstu).",
+        "zusammenfassen = process/darbība (apkopot, rezumēt); die Zusammenfassung = rezultāts (kopsavilkums kā lietvārds).",
+        "Kā daudzi vācu darbības vārdi, zusammenfassen var kļūt par lietvārdu ar lielo burtu un artikulu: zusammenfassen → die Zusammenfassung (substantivizācija)."
+      ],
+      "examples": [
+        {
+          "de": "Können Sie den Text zusammenfassen?",
+          "lv": "vai jūs varat apkopot šo tekstu?"
+        },
+        {
+          "de": "Ich fasse die wichtigsten Punkte zusammen.",
+          "lv": "es apkopoju svarīgākos punktus."
+        },
+        {
+          "de": "Er hat den Bericht kurz zusammengefasst.",
+          "lv": "viņš īsi rezumēja pārskatu."
+        },
+        {
+          "de": "Zusammenfassend kann man sagen, dass...",
+          "lv": "apkopojot var sacīt, ka..."
+        },
+        {
+          "de": "Ich schreibe eine Zusammenfassung des Buches.",
+          "lv": "es rakstu grāmatas kopsavilkumu."
+        },
+        {
+          "de": "Die Zusammenfassung ist zu lang.",
+          "lv": "kopsavilkums ir pārāk garš."
+        }
+      ],
+      "tip": [
+        "zusammenfassen (darbības vārds) = process — apkopot/rezumēt.",
+        "die Zusammenfassung (lietvārds, ar lielo burtu un artikulu die) = rezultāts — pats kopsavilkums."
+      ],
+      "important": [
+        "zusammenfassen = apkopot/rezumēt (darbības vārds).",
+        "die Zusammenfassung = kopsavilkums (lietvārds, substantivizēts no zusammenfassen).",
+        "Nepareizi: die zusammenfassen → Pareizi: die Zusammenfassung (lietvārds vienmēr ar lielo burtu)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "zusammenfassen"
+          ],
+          "purple": [
+            "apkopot",
+            "rezumēt"
+          ],
+          "green": [
+            "die Zusammenfassung"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "zusammenfassen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apkopot"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fasse",
+                "zusammen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apkopoju"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zusammengefasst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "rezumēja"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Zusammenfassend"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apkopojot"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Zusammenfassung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kopsavilkumu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Zusammenfassung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kopsavilkums"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "zusammenfassen"
+            ]
+          },
+          {
+            "green": [
+              "die Zusammenfassung"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "zusammenfassen"
+            ]
+          },
+          {
+            "green": [
+              "die Zusammenfassung"
+            ]
+          },
+          {
+            "green": [
+              "die Zusammenfassung"
+            ],
+            "red": [
+              "die zusammenfassen"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "zusammenhängen",
