@@ -9456,7 +9456,7 @@ const B2_WORDS = [
     "de": "Oberst",
     "de_article": "der",
     "de_plural": "die Oberste",
-    "lv": "augstākais",
+    "lv": "pulkvedis",
     "level": "B2"
   },
   {
