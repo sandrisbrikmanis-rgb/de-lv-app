@@ -7024,8 +7024,181 @@ const A1_WORDS = [
     "de": "Frau",
     "de_article": "die",
     "de_plural": "die Frauen",
-    "lv": "sieviete",
-    "level": "A1"
+    "lv": "sieviete • sieva",
+    "level": "A1",
+    "study": {
+      "id": "a1-frau",
+      "layout": "standardStudy",
+      "translation": "sieviete • sieva",
+      "explanation": [
+        "Galvenā doma: die Frau var nozīmēt sievieti (dzimums) vai sievu (laulātā).",
+        "Ja runa ir vienkārši par dzimumu vai personu, die Frau = sieviete.",
+        "Ja runa ir par laulāto partneri, die Frau = sieva (meine Frau = mana sieva).",
+        "Piederības vietniekvārds (meine/deine/seine Frau) gandrīz vienmēr nozīmē sievu — laulāto.",
+        "Daudzskaitlī: die Frauen.",
+        "Vīriešu formai der Mann ir tāda pati divkārtēja nozīme: vīrietis UN vīrs."
+      ],
+      "examples": [
+        {
+          "de": "Sie ist eine nette Frau.",
+          "lv": "viņa ir jauka sieviete."
+        },
+        {
+          "de": "Das ist meine Frau.",
+          "lv": "tas ir mana sieva."
+        },
+        {
+          "de": "Wie viele Frauen sind hier?",
+          "lv": "cik sieviešu ir šeit?"
+        },
+        {
+          "de": "Meine Frau arbeitet in Berlin.",
+          "lv": "mana sieva strādā Berlīnē."
+        },
+        {
+          "de": "Die Frau trägt ein Kleid.",
+          "lv": "sieviete valkā kleitu."
+        },
+        {
+          "de": "Seine Frau ist Ärztin.",
+          "lv": "viņa sieva ir ārste."
+        }
+      ],
+      "tip": [
+        "Ar piederības vārdu (meine/deine/seine Frau) gandrīz vienmēr domāta sieva (laulātā).",
+        "Bez piederības vārda (die Frau, eine Frau) parasti domāta sieviete."
+      ],
+      "important": [
+        "die Frau = sieviete VAI sieva — atkarībā no konteksta.",
+        "meine Frau = mana sieva (ne 'mana sieviete').",
+        "Daudzskaitlī: die Frauen."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Frau",
+            "Frau"
+          ],
+          "purple": [
+            "sieviete",
+            "sieva"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Frau"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sieviete"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "meine Frau"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sieva"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Frauen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sieviešu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Meine Frau"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sieva"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Frau"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sieviete"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Seine Frau"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sieva"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "green": [
+              "meine",
+              "deine",
+              "seine Frau"
+            ],
+            "purple": [
+              "sieva"
+            ]
+          },
+          {
+            "blue": [
+              "die Frau",
+              "eine Frau"
+            ],
+            "purple": [
+              "sieviete"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "purple": [
+              "sieviete",
+              "sieva"
+            ]
+          },
+          {
+            "green": [
+              "meine Frau"
+            ]
+          },
+          {
+            "blue": [
+              "die Frauen"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "frei",
