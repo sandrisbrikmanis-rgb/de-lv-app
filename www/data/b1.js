@@ -35065,7 +35065,138 @@ const B1_WORDS = [
     "de": "Können",
     "de_article": "das",
     "lv": "prasme",
-    "level": "B1"
+    "level": "B1",
+    "study": {
+      "id": "b1-koennen-study",
+      "layout": "standardStudy",
+      "translation": "prasme",
+      "explanation": [
+        "Galvenā doma: das Können ar lielo burtu un artikulu das ir lietvārds — prasme, spējas, meistarība.",
+        "können ar mazo burtu ir modālais darbības vārds — varēt/prast.",
+        "das Können bieži lieto, runājot par kāda cilvēka prasmēm kopumā (sein Können unter Beweis stellen = pierādīt savu meistarību).",
+        "Substantivizācija: darbības vārds + lielais burts = lietvārds (können → das Können)."
+      ],
+      "examples": [
+        {
+          "de": "Sein Können ist beeindruckend.",
+          "lv": "viņa prasme ir iespaidīga."
+        },
+        {
+          "de": "Sie zeigte ihr ganzes Können.",
+          "lv": "viņa parādīja visu savu meistarību."
+        },
+        {
+          "de": "Ich kann gut kochen.",
+          "lv": "es labi protu gatavot ēst."
+        },
+        {
+          "de": "Das Können der Musiker war großartig.",
+          "lv": "mūziķu prasme bija izcila."
+        }
+      ],
+      "tip": [
+        "das Können ar lielo burtu — lietvārds (prasme, meistarība).",
+        "können ar mazo burtu — darbības vārds (varēt/prast)."
+      ],
+      "important": [
+        "das Können = prasme/meistarība (lietvārds).",
+        "können = varēt/prast (modālais darbības vārds).",
+        "Daudzi vācu darbības vārdi var kļūt par lietvārdiem ar lielo burtu: können → das Können."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "das Können"
+          ],
+          "purple": [
+            "prasme",
+            "meistarība"
+          ],
+          "green": [
+            "können"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Können"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "prasme"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Können"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "meistarību"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "kann"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "protu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Können"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "prasme"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "das Können"
+            ]
+          },
+          {
+            "green": [
+              "können"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "das Können"
+            ]
+          },
+          {
+            "green": [
+              "können"
+            ]
+          },
+          {
+            "blue": [
+              "das Können"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Konserve",
@@ -37630,7 +37761,138 @@ const B1_WORDS = [
     "de_article": "die",
     "de_plural": "die Kosten",
     "lv": "izmaksas",
-    "level": "B1"
+    "level": "B1",
+    "study": {
+      "id": "b1-kosten-study",
+      "layout": "standardStudy",
+      "translation": "izmaksas",
+      "explanation": [
+        "Galvenā doma: die Kosten (tikai daudzskaitlī) ar artikulu die ir lietvārds — izmaksas, izdevumi.",
+        "kosten ar mazo burtu ir darbības vārds — maksāt (cik kaut kas maksā).",
+        "die Kosten lieto tikai daudzskaitlī — vienskaitļa formas nav (nevar sacīt 'eine Kosten').",
+        "Frāzē auf eigene Kosten nozīmē par saviem līdzekļiem/par savu naudu."
+      ],
+      "examples": [
+        {
+          "de": "Die Kosten sind sehr hoch.",
+          "lv": "izmaksas ir ļoti augstas."
+        },
+        {
+          "de": "Wer trägt die Kosten?",
+          "lv": "kurš sedz izmaksas?"
+        },
+        {
+          "de": "Das kostet 5 Euro.",
+          "lv": "tas maksā 5 eiro."
+        },
+        {
+          "de": "Ich reise auf eigene Kosten.",
+          "lv": "es ceļoju par savu naudu."
+        }
+      ],
+      "tip": [
+        "die Kosten ar lielo burtu un artikulu die — lietvārds, tikai daudzskaitlī.",
+        "kosten ar mazo burtu — darbības vārds (maksāt)."
+      ],
+      "important": [
+        "die Kosten = izmaksas (lietvārds, tikai dsk.).",
+        "kosten = maksāt (darbības vārds).",
+        "Nepareizi: eine Kosten → Pareizi: die Kosten (vienmēr dsk.)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Kosten"
+          ],
+          "purple": [
+            "izmaksas",
+            "izdevumi"
+          ],
+          "green": [
+            "kosten"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Kosten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "izmaksas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Kosten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "izmaksas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "kostet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "maksā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Kosten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "naudu"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "die Kosten"
+            ]
+          },
+          {
+            "green": [
+              "kosten"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "die Kosten"
+            ]
+          },
+          {
+            "green": [
+              "kosten"
+            ]
+          },
+          {
+            "blue": [
+              "die Kosten"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Laib",
@@ -42121,7 +42383,138 @@ const B1_WORDS = [
     "de_article": "der",
     "de_plural": "die Nutzen",
     "lv": "labums",
-    "level": "B1"
+    "level": "B1",
+    "study": {
+      "id": "b1-nutzen-study",
+      "layout": "standardStudy",
+      "translation": "labums",
+      "explanation": [
+        "Galvenā doma: der Nutzen ar lielo burtu un artikulu der ir lietvārds — labums, ieguvums.",
+        "nutzen ar mazo burtu ir darbības vārds — izmantot.",
+        "Frāzē von Nutzen sein nozīmē būt noderīgam/dot labumu.",
+        "zu jemandes Nutzen nozīmē kāda labā/labumam."
+      ],
+      "examples": [
+        {
+          "de": "Das ist von großem Nutzen.",
+          "lv": "tas dod lielu labumu."
+        },
+        {
+          "de": "Der Nutzen dieser App ist klar.",
+          "lv": "šīs aplikācijas labums ir skaidrs."
+        },
+        {
+          "de": "Ich nutze die Zeit zum Lernen.",
+          "lv": "es izmantoju laiku mācībām."
+        },
+        {
+          "de": "Das bringt keinen Nutzen.",
+          "lv": "tas nedod nekādu labumu."
+        }
+      ],
+      "tip": [
+        "der Nutzen ar lielo burtu — lietvārds (labums, ieguvums).",
+        "nutzen ar mazo burtu — darbības vārds (izmantot)."
+      ],
+      "important": [
+        "der Nutzen = labums/ieguvums (lietvārds).",
+        "nutzen = izmantot (darbības vārds).",
+        "von Nutzen sein = būt noderīgam."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "der Nutzen"
+          ],
+          "purple": [
+            "labums",
+            "ieguvums"
+          ],
+          "green": [
+            "nutzen"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Nutzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "labumu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Nutzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "labums"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "nutze"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "izmantoju"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Nutzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "labumu"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "der Nutzen"
+            ]
+          },
+          {
+            "green": [
+              "nutzen"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "der Nutzen"
+            ]
+          },
+          {
+            "green": [
+              "nutzen"
+            ]
+          },
+          {
+            "blue": [
+              "von Nutzen sein"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "nutzlos",
@@ -55730,7 +56123,138 @@ const B1_WORDS = [
     "de_article": "das",
     "de_plural": "die Treffen",
     "lv": "tikšanās",
-    "level": "B1"
+    "level": "B1",
+    "study": {
+      "id": "b1-treffen-study",
+      "layout": "standardStudy",
+      "translation": "tikšanās",
+      "explanation": [
+        "Galvenā doma: das Treffen ar lielo burtu un artikulu das ir lietvārds — tikšanās, sanākšana.",
+        "treffen ar mazo burtu ir darbības vārds — satikt/trāpīt/pieņemt (lēmumu).",
+        "das Treffen bieži lieto par plānotu sanākšanu (ein Treffen organisieren = organizēt tikšanos).",
+        "Daudzskaitlī: die Treffen."
+      ],
+      "examples": [
+        {
+          "de": "Das Treffen findet um 18 Uhr statt.",
+          "lv": "tikšanās notiek pulksten 18."
+        },
+        {
+          "de": "Wir organisieren ein Treffen.",
+          "lv": "mēs organizējam tikšanos."
+        },
+        {
+          "de": "Ich treffe heute einen Freund.",
+          "lv": "es šodien satieku draugu."
+        },
+        {
+          "de": "Das nächste Treffen ist am Montag.",
+          "lv": "nākamā tikšanās ir pirmdien."
+        }
+      ],
+      "tip": [
+        "das Treffen ar lielo burtu — lietvārds (tikšanās).",
+        "treffen ar mazo burtu — darbības vārds (satikt)."
+      ],
+      "important": [
+        "das Treffen = tikšanās (lietvārds).",
+        "treffen = satikt/trāpīt/pieņemt (darbības vārds, sk. arī 'eine Entscheidung treffen').",
+        "Daudzskaitlī: die Treffen."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "das Treffen"
+          ],
+          "purple": [
+            "tikšanās",
+            "sanākšana"
+          ],
+          "green": [
+            "treffen"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Treffen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tikšanās"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Treffen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tikšanos"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "treffe"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "satieku"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Treffen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tikšanās"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "das Treffen"
+            ]
+          },
+          {
+            "green": [
+              "treffen"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "das Treffen"
+            ]
+          },
+          {
+            "green": [
+              "treffen"
+            ]
+          },
+          {
+            "blue": [
+              "die Treffen"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Treffer",
@@ -62057,7 +62581,7 @@ const B1_WORDS = [
   },
   {
     "de": "wild",
-    "lv": "medījums",
+    "lv": "mežonīgs • savvaļas",
     "level": "B1"
   },
   {

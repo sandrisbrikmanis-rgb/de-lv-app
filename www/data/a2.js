@@ -50654,7 +50654,132 @@ const A2_WORDS = [
     "de_article": "der",
     "de_plural": "die Rasen",
     "lv": "zālājs",
-    "level": "A2"
+    "level": "A2",
+    "study": {
+      "id": "a2-rasen-study",
+      "layout": "standardStudy",
+      "translation": "zālājs",
+      "explanation": [
+        "Galvenā doma: der Rasen ar lielo burtu un artikulu der ir lietvārds — zālājs, pļaviņa (piem. dārzā).",
+        "rasen ar mazo burtu ir darbības vārds — joņot, traukties ļoti ātri.",
+        "der Rasen bieži attiecas uz kopto zālienu dārzā vai stadionā.",
+        "Daudzskaitlī: die Rasen."
+      ],
+      "examples": [
+        {
+          "de": "Der Rasen ist grün.",
+          "lv": "zālājs ir zaļš."
+        },
+        {
+          "de": "Ich mähe den Rasen.",
+          "lv": "es pļauju zālāju."
+        },
+        {
+          "de": "Das Auto rast durch die Stadt.",
+          "lv": "auto joņo cauri pilsētai."
+        },
+        {
+          "de": "Bitte den Rasen nicht betreten.",
+          "lv": "lūdzu, nekāpt uz zālāja."
+        }
+      ],
+      "tip": [
+        "der Rasen ar lielo burtu — lietvārds (zālājs).",
+        "rasen ar mazo burtu — darbības vārds (joņot)."
+      ],
+      "important": [
+        "der Rasen = zālājs (lietvārds).",
+        "rasen = joņot/traukties (darbības vārds)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "der Rasen"
+          ],
+          "purple": [
+            "zālājs",
+            "pļaviņa"
+          ],
+          "green": [
+            "rasen"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Rasen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zālājs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Rasen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zālāju"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "rast"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "joņo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Rasen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zālāja"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "der Rasen"
+            ]
+          },
+          {
+            "green": [
+              "rasen"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "der Rasen"
+            ]
+          },
+          {
+            "green": [
+              "rasen"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "rasieren",

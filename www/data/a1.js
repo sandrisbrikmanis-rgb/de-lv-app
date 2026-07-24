@@ -8077,7 +8077,173 @@ const A1_WORDS = [
   {
     "de": "gut",
     "lv": "labs",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-gut-study",
+      "layout": "standardStudy",
+      "translation": "labs",
+      "explanation": [
+        "Galvenā doma: gut ir īpašības/apstākļa vārds — labs, veiksmīgi, kārtībā.",
+        "gut raksturo kvalitāti, veselību vai to, kā kaut kas noris (Es geht mir gut. = Man klājas labi.).",
+        "Pieklājības frāzē guten Tag/Abend/Morgen gut maina galotni pēc locījuma.",
+        "Ja gut raksturo darbības vārdu, tas ir apstākļa vārds (gut schwimmen = labi peldēt).",
+        "Nejauc ar das Gut — tas ar lielo burtu un artikulu ir lietvārds (īpašums, muiža)."
+      ],
+      "examples": [
+        {
+          "de": "Das Essen ist gut.",
+          "lv": "ēdiens ir labs."
+        },
+        {
+          "de": "Wie geht es dir? – Gut, danke!",
+          "lv": "kā tev iet? – labi, paldies!"
+        },
+        {
+          "de": "Er spricht gut Deutsch.",
+          "lv": "viņš labi runā vāciski."
+        },
+        {
+          "de": "Guten Morgen!",
+          "lv": "labrīt!"
+        },
+        {
+          "de": "Das ist eine gute Idee.",
+          "lv": "tā ir laba ideja."
+        },
+        {
+          "de": "Alles ist gut.",
+          "lv": "viss ir kārtībā."
+        }
+      ],
+      "tip": [
+        "gut bez artikula ir īpašības/apstākļa vārds — labs/labi.",
+        "das Gut ar lielo burtu un artikulu ir pavisam cits vārds — lietvārds (īpašums, muiža)."
+      ],
+      "important": [
+        "gut = labs/labi (īpašības/apstākļa vārds).",
+        "das Gut = īpašums/muiža (lietvārds) — nejauc ar gut.",
+        "Guten Tag/Morgen/Abend — gut maina galotni pēc locījuma."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "gut"
+          ],
+          "purple": [
+            "labs",
+            "labi"
+          ],
+          "green": [
+            "das Gut"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "gut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "labs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "labi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "labi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Guten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "labrīt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gute"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "laba"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kārtībā"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "gut"
+            ]
+          },
+          {
+            "green": [
+              "das Gut"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "gut"
+            ]
+          },
+          {
+            "green": [
+              "das Gut"
+            ]
+          },
+          {
+            "blue": [
+              "Guten Tag",
+              "Morgen",
+              "Abend"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Haar",
@@ -11802,7 +11968,137 @@ const A1_WORDS = [
     "de_article": "der",
     "de_plural": "die Läden",
     "lv": "veikals",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-laden-study",
+      "layout": "standardStudy",
+      "translation": "veikals",
+      "explanation": [
+        "Galvenā doma: der Laden ar lielo burtu un artikulu der ir lietvārds — mazs veikals.",
+        "laden ar mazo burtu ir darbības vārds — iekraut vai uzlādēt.",
+        "der Laden ikdienā bieži apzīmē nelielu veikalu (im Laden einkaufen = pirkties veikalā).",
+        "Daudzskaitlī: die Läden."
+      ],
+      "examples": [
+        {
+          "de": "Ich gehe in den Laden.",
+          "lv": "es eju uz veikalu."
+        },
+        {
+          "de": "Der Laden ist geschlossen.",
+          "lv": "veikals ir slēgts."
+        },
+        {
+          "de": "Es gibt viele Läden hier.",
+          "lv": "šeit ir daudz veikalu."
+        },
+        {
+          "de": "Ich muss mein Handy laden.",
+          "lv": "man jāuzlādē telefons."
+        }
+      ],
+      "tip": [
+        "der Laden ar lielo burtu — lietvārds (veikals).",
+        "laden ar mazo burtu — darbības vārds (iekraut/uzlādēt)."
+      ],
+      "important": [
+        "der Laden = veikals (lietvārds).",
+        "laden = iekraut/uzlādēt (darbības vārds).",
+        "Daudzskaitlī: die Läden."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "der Laden"
+          ],
+          "purple": [
+            "veikals"
+          ],
+          "green": [
+            "laden"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Laden"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "veikalu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Laden"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "veikals"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Läden"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "veikalu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "laden"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "uzlādēt"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "der Laden"
+            ]
+          },
+          {
+            "green": [
+              "laden"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "der Laden"
+            ]
+          },
+          {
+            "green": [
+              "laden"
+            ]
+          },
+          {
+            "blue": [
+              "die Läden"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Lampe",

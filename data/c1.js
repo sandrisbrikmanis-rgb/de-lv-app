@@ -2692,12 +2692,16 @@ const C1_WORDS = [
     "level": "C1"
   },
   {
-    "de": "kriegsbeschädigte",
+    "de": "Kriegsbeschädigte",
+    "de_article": "der",
+    "de_plural": "die Kriegsbeschädigten",
     "lv": "kara invalīds",
     "level": "C1"
   },
   {
-    "de": "kriegsgefangene",
+    "de": "Kriegsgefangene",
+    "de_article": "der",
+    "de_plural": "die Kriegsgefangenen",
     "lv": "karagūsteknis",
     "level": "C1"
   },
