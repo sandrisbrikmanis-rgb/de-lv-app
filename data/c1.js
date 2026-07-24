@@ -1264,7 +1264,7 @@ const C1_WORDS = [
   },
   {
     "de": "zusammenfassen",
-    "lv": "saņemt kopā",
+    "lv": "kopsavilkums",
     "level": "C1"
   },
   {
