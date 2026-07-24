@@ -12494,12 +12494,12 @@ const A2_WORDS = [
     "de": "Bauer",
     "de_article": "der",
     "de_plural": "die Bauern",
-    "lv": "zemnieks • bandinieks",
+    "lv": "zemnieks",
     "level": "A2",
     "study": {
       "id": "a2-bauer",
       "layout": "standardStudy",
-      "translation": "zemnieks • bandinieks",
+      "translation": "zemnieks",
       "explanation": "Galvenā doma: der Bauer visbiežāk nozīmē zemnieku, bet šahā tas nozīmē bandinieku. Ikdienā der Bauer parasti ir cilvēks, kas strādā lauksaimniecībā. Šaha kontekstā der Bauer ir viena no figūrām. Zemkopis nav galvenā A2 nozīme. Konteksts parasti skaidri parāda, vai runa ir par cilvēku vai šahu.",
       "examples": [
         {
