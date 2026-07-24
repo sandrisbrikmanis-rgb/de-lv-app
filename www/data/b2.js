@@ -5832,8 +5832,7 @@ const B2_WORDS = [
   },
   {
     "de": "Gefallen",
-    "de_article": "der",
-    "de_plural": "die Gefallen",
+    "de_article": "das",
     "lv": "patikšana • patika",
     "level": "B2"
   },
@@ -7597,7 +7596,138 @@ const B2_WORDS = [
     "de_article": "das",
     "de_plural": "die Hochs",
     "lv": "tosts “lai dzīvo!”",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-hoch-study",
+      "layout": "standardStudy",
+      "translation": "tosts “lai dzīvo!”",
+      "explanation": [
+        "Galvenā doma: das Hoch ar lielo burtu un artikulu das ir lietvārds — svētku sauciens/tosts (Ein Hoch auf...! = Lai dzīvo...!) vai laika ziņās — augsta spiediena apgabals.",
+        "hoch ar mazo burtu ir īpašības vārds — augsts (der Berg ist hoch).",
+        "Frāzē ein Hoch ausbringen nozīmē uzsaukt tostu.",
+        "Laika ziņās das Hoch nozīmē anticiklonu — augsta gaisa spiediena apgabalu (pretstats: das Tief)."
+      ],
+      "examples": [
+        {
+          "de": "Wir bringen ein Hoch auf das Brautpaar aus.",
+          "lv": "mēs uzsaucam tostu jaunlaulātajiem."
+        },
+        {
+          "de": "Ein Hoch auf dich!",
+          "lv": "lai dzīvo tu!"
+        },
+        {
+          "de": "Morgen kommt ein Hoch.",
+          "lv": "rīt gaidāms anticiklons (augsts spiediens)."
+        },
+        {
+          "de": "Der Berg ist sehr hoch.",
+          "lv": "kalns ir ļoti augsts."
+        }
+      ],
+      "tip": [
+        "das Hoch ar lielo burtu — svētku sauciens vai anticiklons laika ziņās.",
+        "hoch ar mazo burtu — augsts (īpašības vārds)."
+      ],
+      "important": [
+        "das Hoch = tosts (“lai dzīvo!”) VAI anticiklons (laika ziņas) — lietvārds.",
+        "hoch = augsts — īpašības vārds, bez artikula.",
+        "Pretstats laika ziņās: das Hoch ↔ das Tief."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "das Hoch"
+          ],
+          "purple": [
+            "tosts",
+            "lai dzīvo"
+          ],
+          "green": [
+            "hoch"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Hoch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tostu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hoch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lai dzīvo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hoch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "anticiklons"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "hoch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "augsts"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "das Hoch"
+            ]
+          },
+          {
+            "green": [
+              "hoch"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "das Hoch"
+            ]
+          },
+          {
+            "green": [
+              "hoch"
+            ]
+          },
+          {
+            "blue": [
+              "das Tief"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Hochachtung",
@@ -8210,7 +8340,138 @@ const B2_WORDS = [
     "de_article": "das",
     "de_plural": "die Leiden",
     "lv": "ilga un smaga slimība",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-leiden-study",
+      "layout": "standardStudy",
+      "translation": "ilga un smaga slimība",
+      "explanation": [
+        "Galvenā doma: das Leiden ar lielo burtu un artikulu das ir lietvārds — ciešanas, ilga/smaga slimība.",
+        "leiden ar mazo burtu ir darbības vārds — ciest.",
+        "das Leiden bieži lieto medicīniskā vai literārā kontekstā (ein schweres Leiden = smaga slimība).",
+        "Daudzskaitlī: die Leiden."
+      ],
+      "examples": [
+        {
+          "de": "Er hat ein schweres Leiden.",
+          "lv": "viņam ir smaga slimība."
+        },
+        {
+          "de": "Das Leiden der Patienten war groß.",
+          "lv": "pacientu ciešanas bija lielas."
+        },
+        {
+          "de": "Er leidet an einer seltenen Krankheit.",
+          "lv": "viņš cieš no retas slimības."
+        },
+        {
+          "de": "Ihr Leiden dauerte Jahre.",
+          "lv": "viņas slimība ilga gadiem."
+        }
+      ],
+      "tip": [
+        "das Leiden ar lielo burtu — lietvārds (ciešanas, smaga slimība).",
+        "leiden ar mazo burtu — darbības vārds (ciest)."
+      ],
+      "important": [
+        "das Leiden = ciešanas/smaga slimība (lietvārds).",
+        "leiden = ciest (darbības vārds).",
+        "Daudzskaitlī: die Leiden."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "das Leiden"
+          ],
+          "purple": [
+            "ciešanas",
+            "smaga slimība"
+          ],
+          "green": [
+            "leiden"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Leiden"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "slimība"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Leiden"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ciešanas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "leidet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "cieš"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Leiden"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "slimība"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "das Leiden"
+            ]
+          },
+          {
+            "green": [
+              "leiden"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "das Leiden"
+            ]
+          },
+          {
+            "green": [
+              "leiden"
+            ]
+          },
+          {
+            "blue": [
+              "die Leiden"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "leidlich",
@@ -10734,7 +10995,138 @@ const B2_WORDS = [
     "de": "Sein",
     "de_article": "das",
     "lv": "esamība",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-sein-study",
+      "layout": "standardStudy",
+      "translation": "esamība",
+      "explanation": [
+        "Galvenā doma: das Sein ar lielo burtu un artikulu das ir lietvārds — esamība, eksistence (filozofisks jēdziens).",
+        "sein ar mazo burtu ir darbības vārds — būt.",
+        "das Sein bieži lieto filozofiskā vai abstraktā kontekstā (das menschliche Sein).",
+        "Substantivizācija: sein → das Sein, tāpat kā können → das Können."
+      ],
+      "examples": [
+        {
+          "de": "Das menschliche Sein ist komplex.",
+          "lv": "cilvēka esamība ir sarežģīta."
+        },
+        {
+          "de": "Sein oder Nichtsein, das ist die Frage.",
+          "lv": "būt vai nebūt, tāds ir jautājums."
+        },
+        {
+          "de": "Ich bin müde.",
+          "lv": "es esmu noguris."
+        },
+        {
+          "de": "Das Sein bestimmt das Bewusstsein.",
+          "lv": "esamība nosaka apziņu."
+        }
+      ],
+      "tip": [
+        "das Sein ar lielo burtu — lietvārds (esamība, filozofiskā nozīmē).",
+        "sein ar mazo burtu — darbības vārds (būt)."
+      ],
+      "important": [
+        "das Sein = esamība (lietvārds, abstrakts/filozofisks).",
+        "sein = būt (darbības vārds, ikdienā).",
+        "Šis vārds ir substantivizēts darbības vārds, tāpat kā das Können."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "das Sein"
+          ],
+          "purple": [
+            "esamība",
+            "eksistence"
+          ],
+          "green": [
+            "sein"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Sein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "esamība"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Sein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "būt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "bin"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "esmu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Sein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "esamība"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "das Sein"
+            ]
+          },
+          {
+            "green": [
+              "sein"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "das Sein"
+            ]
+          },
+          {
+            "green": [
+              "sein"
+            ]
+          },
+          {
+            "blue": [
+              "das Können"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Selbstgefühl",
