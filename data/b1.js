@@ -42225,7 +42225,7 @@ const B1_WORDS = [
     "de": "Notausgang",
     "de_article": "der",
     "de_plural": "die Notausgänge",
-    "lv": "rezerves izeja",
+    "lv": "avārijas izeja",
     "level": "B1"
   },
   {
