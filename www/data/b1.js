@@ -35312,7 +35312,7 @@ const B1_WORDS = [
   {
     "de": "Rohkost",
     "de_article": "die",
-    "lv": "zaļbarība",
+    "lv": "neapstrādāta pārtika",
     "level": "B1"
   },
   {
