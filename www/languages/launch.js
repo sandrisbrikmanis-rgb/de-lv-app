@@ -1,6 +1,7 @@
 (function () {
   const SPLASH_DURATION_MS = 4000;
   const STORAGE_KEY = window.AppLanguageRegistry.storageKey;
+  const FORCE_LANGUAGE_SELECTION = Boolean(window.AppLaunchConfig?.FORCE_LANGUAGE_SELECTION);
   let bootStarted = false;
 
   function delay(ms) {
@@ -117,6 +118,11 @@
     window.bootAppUi();
   }
 
+  function shouldShowLanguagePicker(savedLanguage) {
+    if (FORCE_LANGUAGE_SELECTION) return true;
+    return !savedLanguage || !window.AppLanguageRegistry.isValid(savedLanguage);
+  }
+
   async function runLaunchFlow() {
     const splash = document.getElementById("appSplashScreen");
     const languageScreen = document.getElementById("appLanguageScreen");
@@ -128,9 +134,9 @@
 
     const minSplashDelay = delay(SPLASH_DURATION_MS);
     let savedLanguage = getSavedLanguage();
-    let needsLanguagePicker = !savedLanguage || !window.AppLanguageRegistry.isValid(savedLanguage);
+    const needsLanguagePicker = shouldShowLanguagePicker(savedLanguage);
 
-    if (needsLanguagePicker && savedLanguage && !window.AppLanguageRegistry.isValid(savedLanguage)) {
+    if (!FORCE_LANGUAGE_SELECTION && savedLanguage && !window.AppLanguageRegistry.isValid(savedLanguage)) {
       clearSavedLanguage();
       savedLanguage = null;
     }
@@ -181,7 +187,8 @@
     run: runLaunchFlow,
     renderLanguageOptions,
     openLanguagePicker,
-    SPLASH_DURATION_MS
+    SPLASH_DURATION_MS,
+    FORCE_LANGUAGE_SELECTION
   };
 
   if (document.readyState === "loading") {
