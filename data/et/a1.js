@@ -188,12 +188,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "klein = mazs",
+        "klein = väike",
         "Kasuta sõna klein, kui kontekst vastab sellele tähendusele."
       ],
       "important": [
         "klein = mõõtmetelt väike.",
-        "klein = mazs.",
+        "klein = väike.",
         "Väike suuruse või mahu poolest."
       ],
       "sectionAccents": {
@@ -668,7 +668,7 @@ const A1_WORDS = [
               "alguspunkt"
             ],
             "green": [
-              "ajal",
+              "ajas",
               "kohas"
             ]
           }
@@ -682,7 +682,7 @@ const A1_WORDS = [
               "alguspunkti"
             ],
             "green": [
-              "ajal",
+              "ajas",
               "kohas"
             ]
           },
@@ -695,7 +695,7 @@ const A1_WORDS = [
             ],
             "purple": [
               "päritolu",
-              "seest välja"
+              "seestpoolt välja"
             ]
           }
         ]
@@ -769,7 +769,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: pretstats/iebilde → aber."
+        "text": "Pea meeles: vastand/vastuväide → aber."
       },
       "sectionAccents": {
         "examples": [
@@ -874,8 +874,8 @@ const A1_WORDS = [
               "aber"
             ],
             "purple": [
-              "pretstatu",
-              "iebildi"
+              "vastandit",
+              "vastuväidet"
             ]
           },
           {
@@ -1066,7 +1066,7 @@ const A1_WORDS = [
               "also"
             ],
             "purple": [
-              "järelduse"
+              "järeldust"
             ]
           },
           {
@@ -1452,10 +1452,10 @@ const A1_WORDS = [
               "auf"
             ],
             "purple": [
-              "peale"
+              "peal"
             ],
             "green": [
-              "pinna",
+              "pinnal",
               "üleval"
             ]
           }
@@ -1466,10 +1466,10 @@ const A1_WORDS = [
               "auf"
             ],
             "purple": [
-              "peale"
+              "peal"
             ],
             "green": [
-              "pinna",
+              "pinnal",
               "ülaosas"
             ]
           },
@@ -1678,8 +1678,8 @@ const A1_WORDS = [
               "aus"
             ],
             "purple": [
-              "seest välja",
-              "izcelsmi"
+              "seestpoolt välja",
+              "päritolu"
             ]
           },
           {
@@ -1687,7 +1687,7 @@ const A1_WORDS = [
               "ab"
             ],
             "purple": [
-              "alguspunkti"
+              "alguspunktist"
             ]
           }
         ]
@@ -1785,7 +1785,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Atceries: auf + das → aufs (kurp?, kurp?).",
+        "Pea meeles: auf + das → aufs (Akkusativ, kuhu?).",
         "Kõnekeeles ei öelda peaaegu kunagi täispikka auf das — kasutatakse aufs."
       ],
       "important": [
@@ -1807,7 +1807,7 @@ const A1_WORDS = [
           ],
           "green": [
             "kuhu?",
-            "liikumine"
+            "liikumisega"
           ]
         },
         "examples": [
@@ -1867,7 +1867,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "hobusele"
+                "hobuse"
               ]
             }
           },
@@ -1986,7 +1986,7 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "peale",
-                "juures"
+                "juurde"
               ]
             },
             "example": {
@@ -2166,7 +2166,7 @@ const A1_WORDS = [
             "suplema",
             "vees olema",
             "vett nautima",
-            "vannis käima"
+            "vannis käimist"
           ],
           "green": [
             "järves",
@@ -2175,8 +2175,8 @@ const A1_WORDS = [
           ],
           "red": [
             "schwimmen",
-            "ujumisliigutust",
-            "sportu"
+            "ujumisliigutustel",
+            "spordil"
           ]
         },
         "examples": [
@@ -2206,7 +2206,7 @@ const A1_WORDS = [
                 "suplema"
               ],
               "green": [
-                "järves"
+                "järve"
               ]
             }
           },
@@ -2264,8 +2264,8 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "ujuma",
-                "liikumine",
-                "sport"
+                "liikumisena",
+                "spordina"
               ]
             },
             "example": {
@@ -2749,7 +2749,7 @@ const A1_WORDS = [
             ],
             "green": [
               "piir",
-              "ajal",
+              "ajas",
               "tingimuses"
             ]
           }
@@ -2761,7 +2761,7 @@ const A1_WORDS = [
             ],
             "green": [
               "piirini",
-              "laika punktam"
+              "ajahetkeni"
             ]
           },
           {
@@ -2839,7 +2839,7 @@ const A1_WORDS = [
         "bitte kirjutatakse väikese tähega — see on viisakussõna, mitte nimisõna.",
         "die Bitte suure algustähega ja artikliga die on nimisõna.",
         "Mitmus: die Bitten (palved).",
-        "Nepareizi: Die Bitte schön! → Pareizi: Bitte schön!"
+        "Vale: Die Bitte schön! → Õige: Bitte schön!"
       ],
       "sectionAccents": {
         "explanation": {
@@ -2912,7 +2912,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "palun"
+                "palve"
               ]
             }
           },
@@ -2925,7 +2925,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "palun"
+                "palve"
               ]
             }
           }
@@ -3001,7 +3001,7 @@ const A1_WORDS = [
         "bitte kirjutatakse väikese tähega — see on viisakussõna, mitte nimisõna.",
         "die Bitte suure algustähega ja artikliga die on nimisõna.",
         "Mitmus: die Bitten (palved).",
-        "Nepareizi: Die Bitte schön! → Pareizi: Bitte schön!"
+        "Vale: Die Bitte schön! → Õige: Bitte schön!"
       ],
       "sectionAccents": {
         "explanation": {
@@ -3041,7 +3041,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "palve"
+                "palun"
               ]
             }
           },
@@ -3054,7 +3054,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "palve"
+                "palun"
               ]
             }
           },
@@ -3067,7 +3067,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "palve"
+                "palun"
               ]
             }
           },
@@ -3218,8 +3218,8 @@ const A1_WORDS = [
             "bleiben"
           ],
           "purple": [
-            "jääma",
-            "neiet prom"
+            "jäämist",
+            "ei lähe ära"
           ],
           "red": [
             "gehen",
@@ -3354,7 +3354,7 @@ const A1_WORDS = [
               "bleiben"
             ],
             "purple": [
-              "neiet prom"
+              "ei lähe ära"
             ],
             "red": [
               "gehen"
@@ -3568,7 +3568,7 @@ const A1_WORDS = [
                 "viib"
               ],
               "yellow": [
-                "raamatut"
+                "raamatu"
               ]
             }
           },
@@ -3586,7 +3586,7 @@ const A1_WORDS = [
                 "võtan"
               ],
               "yellow": [
-                "raamatut"
+                "raamatu"
               ]
             }
           }
@@ -3676,7 +3676,7 @@ const A1_WORDS = [
             ],
             "red": [
               "nehmen",
-              "võta endale"
+              "võtab endale"
             ]
           }
         },
@@ -3916,7 +3916,7 @@ const A1_WORDS = [
             },
             "lv": {
               "green": [
-                "siin"
+                "siia"
               ]
             }
           }
@@ -4011,7 +4011,7 @@ const A1_WORDS = [
               "da"
             ],
             "purple": [
-              "koha"
+              "kohasõna"
             ]
           },
           {
@@ -4276,7 +4276,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ka"
+                "et"
               ]
             }
           },
@@ -4288,7 +4288,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ka"
+                "et"
               ]
             }
           },
@@ -4300,7 +4300,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ka"
+                "et"
               ]
             }
           }
@@ -4317,7 +4317,7 @@ const A1_WORDS = [
                 "dass"
               ],
               "purple": [
-                "ka"
+                "et"
               ]
             }
           },
@@ -4373,7 +4373,7 @@ const A1_WORDS = [
               "dass"
             ],
             "purple": [
-              "ka"
+              "et"
             ]
           }
         },
@@ -4383,7 +4383,7 @@ const A1_WORDS = [
               "dass"
             ],
             "purple": [
-              "ka"
+              "et"
             ],
             "green": [
               "kõrvallauset"
@@ -4535,12 +4535,12 @@ const A1_WORDS = [
               "der"
             ],
             "purple": [
-              "meessoo artiklit"
+              "meessoo artiklina"
             ]
           },
           {
             "red": [
-              "Asesõna",
+              "Asesõnaline",
               "siduva"
             ]
           }
@@ -4711,7 +4711,7 @@ const A1_WORDS = [
               "die"
             ],
             "purple": [
-              "naissoo artiklit"
+              "naissoo artiklina"
             ]
           },
           {
@@ -4722,7 +4722,7 @@ const A1_WORDS = [
               "Mitmuses"
             ],
             "purple": [
-              "kõigile sugudele"
+              "kõigi sugude"
             ]
           }
         ]
@@ -5277,13 +5277,13 @@ const A1_WORDS = [
             "Eis"
           ],
           "purple": [
-            "ledu",
+            "jääd",
             "jää",
             "jäätis"
           ],
           "green": [
-            "toitu",
-            "desertu"
+            "toidust",
+            "magustoidust"
           ],
           "yellow": [
             "vett"
@@ -5325,7 +5325,7 @@ const A1_WORDS = [
                 "jää"
               ],
               "green": [
-                "järve"
+                "järvel"
               ]
             }
           },
@@ -5352,7 +5352,7 @@ const A1_WORDS = [
                 "jäätist"
               ],
               "yellow": [
-                "šokolaadi"
+                "šokolaadiga"
               ]
             }
           }
@@ -5447,7 +5447,7 @@ const A1_WORDS = [
             ],
             "green": [
               "toit",
-              "ziema",
+              "talv",
               "vesi"
             ]
           }
@@ -5465,11 +5465,11 @@ const A1_WORDS = [
           {
             "purple": [
               "jäätist",
-              "ledu"
+              "jääd"
             ],
             "green": [
               "toit",
-              "auksta virsma",
+              "külm pind",
               "vesi"
             ]
           }
@@ -5570,7 +5570,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: laiks/skaits → erst; daudzums → nur."
+        "text": "Pea meeles: aeg/arv → erst; hulk → nur."
       },
       "accents": {
         "blue": [
@@ -5709,7 +5709,7 @@ const A1_WORDS = [
               "nur"
             ],
             "purple": [
-              "daudzumu"
+              "hulka"
             ]
           }
         ]
@@ -6015,11 +6015,11 @@ const A1_WORDS = [
             "midagi"
           ],
           "green": [
-            "konteksta"
+            "kontekstist"
           ],
           "yellow": [
             "asja",
-            "daudzuma"
+            "hulga"
           ]
         },
         "examples": [
@@ -6394,10 +6394,10 @@ const A1_WORDS = [
             "ära viima"
           ],
           "green": [
-            "auto",
-            "bussi",
+            "autoga",
+            "bussiga",
             "rongiga",
-            "jalgratast",
+            "jalgrattaga",
             "transpordivahendit"
           ],
           "yellow": [
@@ -6435,7 +6435,7 @@ const A1_WORDS = [
                 "sõidan"
               ],
               "green": [
-                "auto"
+                "autoga"
               ]
             }
           },
@@ -6784,12 +6784,12 @@ const A1_WORDS = [
           "purple": [
             "leidma",
             "arvama",
-            "mõtlema",
+            "mõtlemist",
             "tunduma"
           ],
           "green": [
-            "kaotatud asja",
-            "arvamust"
+            "kaotatud asjast",
+            "arvamusest"
           ]
         },
         "examples": [
@@ -6927,7 +6927,7 @@ const A1_WORDS = [
             ],
             "purple": [
               "kaotatud asi",
-              "viedoklis"
+              "arvamus"
             ]
           }
         },
@@ -7117,7 +7117,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "naiste"
+                "naisi"
               ]
             }
           },
@@ -7566,7 +7566,7 @@ const A1_WORDS = [
             "geben"
           ],
           "purple": [
-            "andma"
+            "andmist"
           ],
           "red": [
             "nehmen",
@@ -7591,7 +7591,7 @@ const A1_WORDS = [
                 "anna"
               ],
               "yellow": [
-                "raamatut"
+                "raamat"
               ]
             }
           },
@@ -7609,7 +7609,7 @@ const A1_WORDS = [
                 "annan"
               ],
               "yellow": [
-                "numbrit"
+                "numbri"
               ]
             }
           },
@@ -7627,7 +7627,7 @@ const A1_WORDS = [
                 "võtan"
               ],
               "yellow": [
-                "raamatut"
+                "raamatu"
               ]
             }
           },
@@ -7645,7 +7645,7 @@ const A1_WORDS = [
                 "saan"
               ],
               "yellow": [
-                "kingitust"
+                "kingi"
               ]
             }
           }
@@ -8105,12 +8105,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "groß = liels",
+        "groß = suur",
         "Kasuta sõna groß, kui kontekst vastab sellele tähendusele."
       ],
       "important": [
         "Inimese puhul tähendab Er ist groß pikka kasvu.",
-        "groß = liels.",
+        "groß = suur.",
         "Suur suuruse poolest või inimese kohta - pikk kasvult."
       ],
       "sectionAccents": {
@@ -8499,7 +8499,7 @@ const A1_WORDS = [
             "tal on"
           ],
           "yellow": [
-            "abitegusõna"
+            "abitegusõnana"
           ]
         },
         "examples": [
@@ -8623,7 +8623,7 @@ const A1_WORDS = [
             "example": {
               "red": [
                 "mache",
-                "daru"
+                "teen"
               ]
             }
           }
@@ -8641,7 +8641,7 @@ const A1_WORDS = [
         "important": [
           {
             "blue": [
-              "haben"
+              "habe"
             ],
             "purple": [
               "mul on"
@@ -8649,7 +8649,7 @@ const A1_WORDS = [
           },
           {
             "blue": [
-              "habe"
+              "haben"
             ],
             "purple": [
               "õppisin",
@@ -8753,7 +8753,7 @@ const A1_WORDS = [
           ],
           "green": [
             "transporti",
-            "liikumist"
+            "liikumise"
           ]
         },
         "examples": [
@@ -8860,7 +8860,7 @@ const A1_WORDS = [
             "example": {
               "red": [
                 "Stoppen",
-                "Apturiet"
+                "Peatage"
               ]
             }
           },
@@ -8894,7 +8894,7 @@ const A1_WORDS = [
               "peatub"
             ],
             "green": [
-              "transports"
+              "transport"
             ]
           }
         },
@@ -8913,7 +8913,7 @@ const A1_WORDS = [
               "halte"
             ],
             "purple": [
-              "arvan"
+              "arvamuse"
             ]
           }
         ]
@@ -9304,12 +9304,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "hoch = augsts",
+        "hoch = kõrge",
         "Kasuta sõna hoch, kui kontekst vastab sellele tähendusele."
       ],
       "important": [
         "Hindade ja taseme puhul kasutatakse sageli hoch.",
-        "hoch = augsts.",
+        "hoch = kõrge.",
         "Kõrge vertikaalselt, tasemelt või kõrguselt."
       ],
       "sectionAccents": {
@@ -9386,7 +9386,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kõrge"
+                "kõrged"
               ]
             }
           }
@@ -9456,11 +9456,11 @@ const A1_WORDS = [
           ],
           "purple": [
             "kuulma / kuulama",
-            "kuulama",
+            "kuulata",
             "kuulma"
           ],
           "green": [
-            "kuulama",
+            "kuulata",
             "Kuulma"
           ]
         },
@@ -9474,8 +9474,8 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kuulma",
-                "kuulama"
+                "kuulan",
+                "kuulan"
               ]
             }
           },
@@ -9488,8 +9488,8 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kuulma",
-                "kuulama"
+                "kuulavad",
+                "kuulavad"
               ]
             }
           },
@@ -9502,8 +9502,8 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kuulma",
-                "kuulama"
+                "kuulen",
+                "kuulen"
               ]
             }
           }
@@ -9516,7 +9516,7 @@ const A1_WORDS = [
           },
           {
             "purple": [
-              "kuulama"
+              "kuulata"
             ]
           }
         ],
@@ -9608,7 +9608,7 @@ const A1_WORDS = [
           ],
           "purple": [
             "teie",
-            "tal",
+            "talle",
             "tema"
           ]
         },
@@ -9633,7 +9633,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tal"
+                "talle"
               ]
             }
           },
@@ -9657,7 +9657,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tal"
+                "talle"
               ]
             }
           },
@@ -9669,7 +9669,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "teile"
+                "teil"
               ]
             }
           },
@@ -9702,7 +9702,7 @@ const A1_WORDS = [
           {
             "purple": [
               "teie",
-              "tal",
+              "talle",
               "tema"
             ]
           },
@@ -9820,7 +9820,7 @@ const A1_WORDS = [
             "kus?"
           ],
           "green": [
-            "Dativ",
+            "kam?",
             "asukoht"
           ]
         },
@@ -9905,7 +9905,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kino"
+                "kinos"
               ]
             }
           },
@@ -9984,7 +9984,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "pie"
+                "juures"
               ]
             },
             "example": {
@@ -10017,7 +10017,7 @@ const A1_WORDS = [
               "im"
             ],
             "purple": [
-              "in dem",
+              "in + dem",
               "kus?"
             ],
             "red": [
@@ -10035,7 +10035,7 @@ const A1_WORDS = [
               "in dem"
             ],
             "green": [
-              "Dativ"
+              "kam?"
             ]
           },
           {
@@ -10118,10 +10118,10 @@ const A1_WORDS = [
             "peale"
           ],
           "green": [
-            "telpu",
-            "valsti",
-            "linna",
-            "hoonet"
+            "ruumist",
+            "riigist",
+            "linnast",
+            "hoonest"
           ]
         },
         "examples": [
@@ -10278,7 +10278,7 @@ const A1_WORDS = [
               "in"
             ],
             "purple": [
-              "pinda"
+              "pinnast"
             ]
           }
         ]
@@ -10362,7 +10362,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Atceries: in + das → ins (kurp?, kurp?).",
+        "Pea meeles: in + das → ins (Akkusativ, kuhu?).",
         "Kuhu? → ins; kus? → im — see on peamine erinevus!"
       ],
       "important": [
@@ -10379,7 +10379,7 @@ const A1_WORDS = [
           ],
           "purple": [
             "sees",
-            "sisse",
+            "sissepoole",
             "kuhu?"
           ],
           "green": [
@@ -10569,7 +10569,7 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "peale",
-                "juures"
+                "juurde"
               ]
             },
             "example": {
@@ -10585,7 +10585,7 @@ const A1_WORDS = [
               "ins"
             ],
             "purple": [
-              "in das",
+              "in + das",
               "kuhu?"
             ],
             "red": [
@@ -10719,12 +10719,12 @@ const A1_WORDS = [
       ],
       "tip": [
         "jung käib vanuse kohta (inimesed, loomad) — kui jutt on hiljuti valminud asjadest, kasutatakse neu.",
-        "Pretstats: jung ↔ alt (jauns ↔ vecs)."
+        "Vastand: jung ↔ alt (noor ↔ vana)."
       ],
       "important": [
-        "jung raksturo vecumu, ne lietas jaunumu.",
+        "jung kirjeldab vanust, mitte asja uudsust.",
         "Uute asjade kohta (telefon, auto, maja) kasutatakse neu, mitte jung.",
-        "Nepareizi: Mein Handy ist jung. → Pareizi: Mein Handy ist neu."
+        "Vale: Mein Handy ist jung. → Õige: Mein Handy ist neu."
       ],
       "sectionAccents": {
         "explanation": {
@@ -10932,7 +10932,7 @@ const A1_WORDS = [
       ],
       "important": [
         "kein + nimisõna = 'ei ole mingit/ühtegi X', mitte 'nicht ein X'.",
-        "Nepareizi: Ich habe nicht ein Geld. → Pareizi: Ich habe kein Geld."
+        "Vale: Ich habe nicht ein Geld. → Õige: Ich habe kein Geld."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11001,7 +11001,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "mingit"
+                "mingi"
               ]
             }
           },
@@ -11123,7 +11123,7 @@ const A1_WORDS = [
             "kennen"
           ],
           "purple": [
-            "tundma"
+            "tundmine"
           ]
         },
         "examples": [
@@ -11458,8 +11458,8 @@ const A1_WORDS = [
           ],
           "green": [
             "suudan",
-            "prasmi",
-            "võimalust"
+            "oskusest",
+            "võimalusest"
           ]
         },
         "examples": [
@@ -11595,7 +11595,7 @@ const A1_WORDS = [
               "können"
             ],
             "purple": [
-              "prasme",
+              "oskus",
               "võimalus"
             ]
           }
@@ -11792,7 +11792,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "maksma"
+                "maksta"
               ]
             }
           },
@@ -11882,7 +11882,7 @@ const A1_WORDS = [
                 "zahlen"
               ],
               "purple": [
-                "maksma"
+                "maksta"
               ]
             }
           },
@@ -11914,7 +11914,7 @@ const A1_WORDS = [
               "Was kostet"
             ],
             "purple": [
-              "hinda"
+              "hinna"
             ]
           },
           {
@@ -12225,7 +12225,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "poodi"
+                "poode"
               ]
             }
           },
@@ -12351,14 +12351,14 @@ const A1_WORDS = [
             "Land"
           ],
           "purple": [
-            "valsti",
-            "zemi",
+            "riigist",
+            "maad",
             "maa",
             "riik"
           ],
           "green": [
-            "Saksamaad",
-            "Latviju",
+            "Saksamaast",
+            "Eestist",
             "linna"
           ]
         },
@@ -12389,7 +12389,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "riik"
+                "riigist"
               ]
             }
           },
@@ -12794,7 +12794,7 @@ const A1_WORDS = [
                 "jätan"
               ],
               "yellow": [
-                "kotti"
+                "koti"
               ]
             }
           },
@@ -12913,7 +12913,7 @@ const A1_WORDS = [
             ],
             "purple": [
               "jääb",
-              "lubab"
+              "lubatakse"
             ]
           }
         },
@@ -13011,11 +13011,11 @@ const A1_WORDS = [
             "minema"
           ],
           "green": [
-            "inimest",
+            "Inimese",
             "looma",
             "filmi",
-            "masinat",
-            "programmu"
+            "masina",
+            "programmi"
           ]
         },
         "examples": [
@@ -13039,7 +13039,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jookseb"
+                "jooksevad"
               ]
             }
           },
@@ -13149,7 +13149,7 @@ const A1_WORDS = [
             ],
             "red": [
               "fahren",
-              "transports"
+              "transport"
             ]
           }
         },
@@ -13231,7 +13231,7 @@ const A1_WORDS = [
         "laut kirjutatakse väikese algustähega ja ilma artiklita — see on omadussõna.",
         "der Laut suure algustähega ja artikliga der on nimisõna.",
         "Mitmus: die Laute (keele häälikud, helisignaalid).",
-        "Nepareizi: Der Laut ist sehr. → Pareizi: Das ist sehr laut."
+        "Vale: Der Laut ist sehr. → Õige: Das ist sehr laut."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13279,7 +13279,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vali"
+                "valjult"
               ]
             }
           },
@@ -13394,7 +13394,7 @@ const A1_WORDS = [
         "laut kirjutatakse väikese algustähega ja ilma artiklita — see on omadussõna.",
         "der Laut suure algustähega ja artikliga der on nimisõna.",
         "Mitmus: die Laute (keele häälikud, helisignaalid).",
-        "Nepareizi: Der Laut ist sehr. → Pareizi: Das ist sehr laut."
+        "Vale: Der Laut ist sehr. → Õige: Das ist sehr laut."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13597,9 +13597,9 @@ const A1_WORDS = [
           ],
           "yellow": [
             "asja",
-            "laua",
+            "lauale",
             "voodile",
-            "pinna"
+            "pinnale"
           ]
         },
         "examples": [
@@ -13618,8 +13618,8 @@ const A1_WORDS = [
                 "panen"
               ],
               "yellow": [
-                "raamatut",
-                "laua"
+                "raamatu",
+                "lauale"
               ]
             }
           },
@@ -13637,7 +13637,7 @@ const A1_WORDS = [
                 "pane"
               ],
               "yellow": [
-                "võtme"
+                "võti"
               ]
             }
           },
@@ -13661,7 +13661,7 @@ const A1_WORDS = [
                 "lapse"
               ],
               "yellow": [
-                "voodis"
+                "voodisse"
               ]
             }
           },
@@ -13681,7 +13681,7 @@ const A1_WORDS = [
               ],
               "yellow": [
                 "Raamat",
-                "laua"
+                "laual"
               ]
             }
           }
@@ -13853,7 +13853,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "leise = kluss",
+        "leise = vaikne",
         "Kasuta sõna leise, kui kontekst vastab sellele tähendusele."
       ],
       "important": [
@@ -13922,7 +13922,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vaikne"
+                "vaikselt"
               ]
             }
           }
@@ -14083,7 +14083,7 @@ const A1_WORDS = [
               ],
               "yellow": [
                 "Raamat",
-                "laua"
+                "laual"
               ]
             }
           },
@@ -14140,8 +14140,8 @@ const A1_WORDS = [
                 "panen"
               ],
               "yellow": [
-                "raamatut",
-                "laua"
+                "raamatu",
+                "lauale"
               ]
             }
           }
@@ -14372,10 +14372,10 @@ const A1_WORDS = [
           "purple": [
             "tegema",
             "tegema",
-            "pagatavot"
+            "valmistama"
           ],
           "green": [
-            "tegevust",
+            "tegevusest",
             "fraasides"
           ]
         },
@@ -14388,7 +14388,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tee"
+                "teed"
               ]
             }
           },
@@ -14605,7 +14605,7 @@ const A1_WORDS = [
       },
       "important": [
         "das Mal / die Male — nimisõna artikliga.",
-        "ein Mal, zwei Mal — skaita reizes.",
+        "ein Mal, zwei Mal — loeb kordi.",
         "mal ilma artiklita (Komm mal her!) ei ole sama mis das Mal."
       ],
       "sectionAccents": {
@@ -14618,7 +14618,7 @@ const A1_WORDS = [
           ],
           "purple": [
             "korda",
-            "notikumu",
+            "sündmust",
             "juhtumit"
           ]
         },
@@ -14667,7 +14667,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "korda"
+                "kord"
               ]
             }
           }
@@ -14695,7 +14695,7 @@ const A1_WORDS = [
               "zwei Mal"
             ],
             "purple": [
-              "korda"
+              "kordi"
             ]
           },
           {
@@ -14873,7 +14873,7 @@ const A1_WORDS = [
               "ihr Mann"
             ],
             "purple": [
-              "abikaasa"
+              "abikaasat"
             ]
           },
           {
@@ -15062,12 +15062,12 @@ const A1_WORDS = [
             "mit dir"
           ],
           "purple": [
-            "ar",
+            "-ga",
             "koos"
           ],
           "green": [
-            "transporti",
-            "bussi",
+            "Transpordi",
+            "bussiga",
             "rongiga",
             "auto"
           ]
@@ -15131,7 +15131,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "ar",
+                "-ga",
                 "koos"
               ]
             },
@@ -15184,7 +15184,7 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "peale",
-                "juures"
+                "juurde"
               ]
             },
             "example": {
@@ -15370,7 +15370,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "meeldib"
+                "meeldivad"
               ],
               "green": [
                 "lapsed"
@@ -15572,7 +15572,7 @@ const A1_WORDS = [
         "morgen kirjutatakse väikese tähega — see on ajamäärsõna (homme).",
         "der Morgen suure algustähega ja artikliga der on nimisõna (hommik).",
         "Guten Morgen! — alati suure M-iga (hommik, mitte homme).",
-        "Nepareizi: Guten morgen! → Pareizi: Guten Morgen!"
+        "Vale: Guten morgen! → Õige: Guten Morgen!"
       ],
       "sectionAccents": {
         "explanation": {
@@ -15607,7 +15607,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "homme"
+                "homseni"
               ]
             }
           },
@@ -15646,7 +15646,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "homme"
+                "hommikust"
               ]
             }
           },
@@ -15659,7 +15659,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "homme"
+                "hommik"
               ]
             }
           }
@@ -15734,7 +15734,7 @@ const A1_WORDS = [
         "morgen kirjutatakse väikese tähega — see on ajamäärsõna (homme).",
         "der Morgen suure algustähega ja artikliga der on nimisõna (hommik).",
         "Guten Morgen! — alati suure M-iga (hommik, mitte homme).",
-        "Nepareizi: Guten morgen! → Pareizi: Guten Morgen!"
+        "Vale: Guten morgen! → Õige: Guten Morgen!"
       ],
       "sectionAccents": {
         "explanation": {
@@ -15744,7 +15744,7 @@ const A1_WORDS = [
           ],
           "purple": [
             "hommik",
-            "hommikud"
+            "hommikut"
           ],
           "yellow": [
             "Morgen"
@@ -15760,7 +15760,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "hommik"
+                "hommikust"
               ]
             }
           },
@@ -15786,7 +15786,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "hommik"
+                "homme"
               ]
             }
           },
@@ -15799,7 +15799,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "hommik"
+                "homme"
               ]
             }
           },
@@ -15812,7 +15812,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "hommik"
+                "hommikust"
               ]
             }
           },
@@ -16098,7 +16098,7 @@ const A1_WORDS = [
               "arbeiten"
             ],
             "purple": [
-              "lõpus"
+              "lõppu"
             ]
           }
         ]
@@ -16192,9 +16192,9 @@ const A1_WORDS = [
             "koju"
           ],
           "green": [
-            "linnadesse",
-            "riikidega",
-            "ajast"
+            "linnade",
+            "riikide",
+            "aja"
           ]
         },
         "examples": [
@@ -16287,7 +16287,7 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "peale",
-                "juures"
+                "juurde"
               ]
             },
             "example": {
@@ -16349,7 +16349,7 @@ const A1_WORDS = [
               "nach"
             ],
             "red": [
-              "kõigile kohtadele"
+              "kõigi kohtadega"
             ]
           },
           {
@@ -16528,7 +16528,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "loomulikult"
+                "loomulik"
               ]
             }
           }
@@ -16656,7 +16656,7 @@ const A1_WORDS = [
                 "sõidan"
               ],
               "yellow": [
-                "bussi"
+                "bussiga"
               ]
             }
           },
@@ -16674,7 +16674,7 @@ const A1_WORDS = [
                 "võta"
               ],
               "yellow": [
-                "raamatut"
+                "raamat"
               ]
             }
           },
@@ -16692,7 +16692,7 @@ const A1_WORDS = [
                 "tõin"
               ],
               "yellow": [
-                "raamatut"
+                "raamatu"
               ]
             }
           },
@@ -16796,7 +16796,7 @@ const A1_WORDS = [
               "nehmen"
             ],
             "purple": [
-              "võta endale"
+              "võtab endale"
             ],
             "red": [
               "bringen",
@@ -16888,12 +16888,12 @@ const A1_WORDS = [
       ],
       "tip": [
         "neu käib asjade, seadmete ja uudiste kohta — kui jutt on inimese vanusest, kasutatakse jung.",
-        "Pretstats: neu ↔ alt (jauns ↔ vecs)."
+        "Vastand: neu ↔ alt (uus ↔ vana)."
       ],
       "important": [
         "neu kirjeldab asju ja uudiseid, mitte inimese või looma vanust.",
         "Inimese või looma vanuse kohta kasutatakse jung, mitte neu.",
-        "Nepareizi: Meine Schwester ist neu. → Pareizi: Meine Schwester ist jung."
+        "Vale: Meine Schwester ist neu. → Õige: Meine Schwester ist jung."
       ],
       "sectionAccents": {
         "explanation": {
@@ -17271,7 +17271,7 @@ const A1_WORDS = [
             "nur"
           ],
           "purple": [
-            "ainult / üksnes"
+            "ainult, üksnes"
           ],
           "green": [
             "üksnes"
@@ -17447,7 +17447,7 @@ const A1_WORDS = [
           ],
           "purple": [
             "kas",
-            "kaudset küsimust",
+            "kaudse küsimuse",
             "Otseses küsimuses"
           ],
           "green": [
@@ -17552,7 +17552,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "kui",
+                "ja",
                 "millal"
               ]
             },
@@ -17570,7 +17570,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "ka"
+                "et"
               ]
             },
             "example": {
@@ -17688,9 +17688,9 @@ const A1_WORDS = [
             "ob"
           ],
           "purple": [
-            "kas",
+            "kasutatakse",
             "valime",
-            "kaudset küsimust"
+            "kaudse küsimuse"
           ]
         },
         "examples": [
@@ -17804,7 +17804,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "un"
+                "ja"
               ]
             },
             "example": {
@@ -17848,7 +17848,7 @@ const A1_WORDS = [
               "oder"
             ],
             "purple": [
-              "valikule"
+              "valiku"
             ]
           },
           {
@@ -18004,9 +18004,9 @@ const A1_WORDS = [
             "sobivale"
           ],
           "yellow": [
-            "riietust",
-            "värvidega",
-            "stilu"
+            "Riiete",
+            "Värvide",
+            "stiili"
           ]
         },
         "examples": [
@@ -18122,7 +18122,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "sobivale"
+                "sobiv"
               ]
             },
             "example": {
@@ -18165,7 +18165,7 @@ const A1_WORDS = [
               "passen"
             ],
             "yellow": [
-              "riietust"
+              "riietuse"
             ]
           },
           {
@@ -18321,10 +18321,10 @@ const A1_WORDS = [
             "kontrollima"
           ],
           "yellow": [
-            "toitu",
-            "jooki",
-            "meetodit",
-            "asja"
+            "toidust",
+            "joogist",
+            "meetodist",
+            "asjast"
           ]
         },
         "examples": [
@@ -18357,7 +18357,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "maitsma"
+                "maitsta"
               ],
               "yellow": [
                 "kooki"
@@ -18492,7 +18492,7 @@ const A1_WORDS = [
               "probieren"
             ],
             "red": [
-              "kontrollimiseks"
+              "kontrollimise"
             ]
           },
           {
@@ -18500,7 +18500,7 @@ const A1_WORDS = [
               "prüfen"
             ],
             "purple": [
-              "kontrollima"
+              "kontrollida"
             ]
           }
         ]
@@ -18627,7 +18627,7 @@ const A1_WORDS = [
             "ist"
           ],
           "purple": [
-            "vienskaitlis",
+            "ainsus",
             "riis"
           ],
           "red": [
@@ -18666,7 +18666,7 @@ const A1_WORDS = [
             "der Reis"
           ],
           "purple": [
-            "vienskaitlis",
+            "ainsuses",
             "riis"
           ]
         }
@@ -18752,11 +18752,11 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "sagen = teikt",
+        "sagen = ütlema",
         "Kasuta sõna sagen, kui kontekst vastab sellele tähendusele."
       ],
       "important": [
-        "sagen = pateikt.",
+        "sagen = ütlema.",
         "Öelda konkreetne mõte, sõna või lause."
       ],
       "sectionAccents": {
@@ -18781,7 +18781,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ütlema"
+                "ütlesid"
               ]
             }
           }
@@ -18899,7 +18899,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vaatama"
+                "vaatan"
               ]
             }
           },
@@ -18912,7 +18912,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vaatama"
+                "vaatame"
               ]
             }
           },
@@ -18925,7 +18925,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vaatama"
+                "vaatan"
               ]
             }
           }
@@ -19196,7 +19196,7 @@ const A1_WORDS = [
           ],
           "purple": [
             "ujuma",
-            "ujumisliigutustele"
+            "ujumisliigutustega"
           ],
           "red": [
             "baden",
@@ -19212,7 +19212,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ujuma"
+                "ujuda"
               ]
             }
           },
@@ -19269,8 +19269,8 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "ujuma",
-                "liikumine",
-                "sport"
+                "liikumisena",
+                "spordina"
               ]
             },
             "example": {
@@ -19360,10 +19360,10 @@ const A1_WORDS = [
               "ujuma"
             ],
             "blue": [
-              "liikumine"
+              "liikumisest"
             ],
             "red": [
-              "ujumine"
+              "ujuma"
             ]
           }
         ]
@@ -19609,7 +19609,7 @@ const A1_WORDS = [
               "sehen"
             ],
             "purple": [
-              "acis uztver"
+              "silmad tajuvad"
             ],
             "red": [
               "schauen",
@@ -19725,9 +19725,9 @@ const A1_WORDS = [
             "wir sind"
           ],
           "purple": [
-            "olema",
-            "asukohta",
-            "omadust"
+            "olemist",
+            "asukoha",
+            "omadusega"
           ]
         },
         "examples": [
@@ -19763,7 +19763,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ir"
+                "on"
               ]
             }
           },
@@ -19963,7 +19963,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "lehekülge"
+                "lehekülg"
               ]
             }
           },
@@ -19975,7 +19975,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "poolel"
+                "pool"
               ]
             }
           },
@@ -20023,7 +20023,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "poolel"
+                "pool"
               ]
             }
           }
@@ -20200,7 +20200,7 @@ const A1_WORDS = [
                 "pesen"
               ],
               "yellow": [
-                "auto"
+                "autot"
               ]
             }
           }
@@ -20445,7 +20445,7 @@ const A1_WORDS = [
         "tip": [
           {
             "blue": [
-              "kindel"
+              "kindlasti"
             ]
           },
           {
@@ -20523,7 +20523,7 @@ const A1_WORDS = [
       "important": [
         "Viisakas pöördumine alati suure S-iga: Sie, mitte sie.",
         "Tema: Sie kocht. Nemad: sie kochen. Teie: Sie kochen.",
-        "Nepareizi: sie kocht → Pareizi: Sie kocht",
+        "Vale: sie kocht → Õige: Sie kocht",
         "Vale: Sie kocht (nemad) → Õige: Sie kochen"
       ],
       "sectionAccents": {
@@ -20684,14 +20684,14 @@ const A1_WORDS = [
       "important": [
         "Viisakas pöördumine alati suure S-iga: Sie, mitte sie.",
         "Tema: Sie kocht. Nemad: sie kochen. Teie: Sie kochen.",
-        "Nepareizi: sie kocht → Pareizi: Sie kocht",
+        "Vale: sie kocht → Õige: Sie kocht",
         "Vale: Sie kocht (nemad) → Õige: Sie kochen"
       ],
       "sectionAccents": {
         "explanation": {
           "yellow": [
             "Sie",
-            "kochen"
+            "kocht"
           ],
           "purple": [
             "teie"
@@ -20928,7 +20928,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "istub"
+                "istuvad"
               ],
               "green": [
                 "Lapsed"
@@ -21037,7 +21037,7 @@ const A1_WORDS = [
               "sitzen"
             ],
             "purple": [
-              "istuli"
+              "istudes"
             ],
             "red": [
               "stehen"
@@ -21169,7 +21169,7 @@ const A1_WORDS = [
           "purple": [
             "peaks",
             "tuleb teha",
-            "juhised"
+            "juhise"
           ],
           "red": [
             "müssen"
@@ -21239,7 +21239,7 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "peaks",
-                "juhised"
+                "juhise"
               ]
             },
             "example": {
@@ -21922,9 +21922,9 @@ const A1_WORDS = [
             "üle"
           ],
           "green": [
-            "vestlust",
-            "teksti",
-            "teemat"
+            "vestlusest",
+            "tekstist",
+            "teemast"
           ]
         },
         "examples": [
@@ -21978,7 +21978,7 @@ const A1_WORDS = [
                 "üle"
               ],
               "yellow": [
-                "tänaval"
+                "tänava"
               ]
             }
           },
@@ -21996,7 +21996,7 @@ const A1_WORDS = [
                 "eest"
               ],
               "yellow": [
-                "kingitust"
+                "kingi"
               ]
             }
           }
@@ -22189,7 +22189,7 @@ const A1_WORDS = [
             "et"
           ],
           "green": [
-            "ajast",
+            "aja",
             "koha"
           ]
         },
@@ -22451,7 +22451,7 @@ const A1_WORDS = [
             "vahel"
           ],
           "green": [
-            "inimeste rühma"
+            "inimeste rühmast"
           ]
         },
         "examples": [
@@ -22728,7 +22728,7 @@ const A1_WORDS = [
             "Ich verstehe"
           ],
           "purple": [
-            "mõistma",
+            "mõistad",
             "mõistad"
           ],
           "red": [
@@ -22864,7 +22864,7 @@ const A1_WORDS = [
               "verstehen"
             ],
             "purple": [
-              "mõistma"
+              "mõista"
             ],
             "red": [
               "können",
@@ -23032,7 +23032,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Atceries: von + dem → vom (kam?).",
+        "Pea meeles: von + dem → vom (Dativ).",
         "Kõnekeeles ei öelda peaaegu kunagi von dem — kasutatakse vom."
       ],
       "important": [
@@ -23051,7 +23051,7 @@ const A1_WORDS = [
             "-st"
           ],
           "green": [
-            "Dativ",
+            "kam?",
             "päritolu"
           ]
         },
@@ -23231,7 +23231,7 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "peale",
-                "juures"
+                "juurde"
               ]
             },
             "example": {
@@ -23261,7 +23261,7 @@ const A1_WORDS = [
               "von dem"
             ],
             "green": [
-              "Dativ"
+              "kam?"
             ]
           },
           {
@@ -23642,7 +23642,7 @@ const A1_WORDS = [
         "was küsib asjade, sündmuste ja faktide kohta — mitte kunagi isikute kohta.",
         "Isikute kohta küsitakse sõnaga wer (kes/milline), mitte was.",
         "was für (ein/eine) tähendab milline/mis ja küsib omaduse või liigi kohta (Was für ein Film ist das? = Milline film see on?).",
-        "Nepareizi: Wer ist passiert? → Pareizi: Was ist passiert?"
+        "Vale: Wer ist passiert? → Õige: Was ist passiert?"
       ],
       "sectionAccents": {
         "explanation": {
@@ -23901,7 +23901,7 @@ const A1_WORDS = [
             "wenn"
           ],
           "purple": [
-            "kui",
+            "ja",
             "millal",
             "tingimust"
           ],
@@ -23919,7 +23919,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kui"
+                "ja"
               ]
             }
           },
@@ -23932,7 +23932,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kui"
+                "ja"
               ]
             }
           },
@@ -23971,7 +23971,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "kui",
+                "ja",
                 "millal"
               ]
             },
@@ -24122,7 +24122,7 @@ const A1_WORDS = [
         "wer küsib ainult isikute kohta, mitte kunagi asjade kohta.",
         "Asjade ja sündmuste kohta küsitakse was, mitte wer.",
         "wer muudab vormi käände järgi: wen, wem, wessen — aga põhivorm on wer.",
-        "Nepareizi: Wer ist passiert? → Pareizi: Was ist passiert?"
+        "Vale: Wer ist passiert? → Õige: Was ist passiert?"
       ],
       "sectionAccents": {
         "explanation": {
@@ -24665,7 +24665,7 @@ const A1_WORDS = [
                 "aeg"
               ],
               "green": [
-                "parem"
+                "paremaks"
               ]
             }
           }
@@ -25066,13 +25066,13 @@ const A1_WORDS = [
           ],
           "purple": [
             "peale",
-            "juures",
+            "juurde",
             "liiga",
-            "nenoteiksmi"
+            "tegevusnime"
           ],
           "green": [
-            "inimestele",
-            "asutustega"
+            "Inimeste",
+            "asutuste"
           ]
         },
         "examples": [
@@ -25084,7 +25084,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "arsti juures"
+                "arsti juurde"
               ]
             }
           },
@@ -25120,7 +25120,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "õppima"
+                "õppida"
               ]
             }
           }
@@ -25135,7 +25135,7 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "peale",
-                "juures",
+                "juurde",
                 "liiga",
                 "infinitiiv"
               ]
@@ -25206,7 +25206,7 @@ const A1_WORDS = [
               "zu teuer"
             ],
             "purple": [
-              "arsti juures",
+              "arsti juurde",
               "liiga kallis"
             ]
           }
@@ -25217,7 +25217,7 @@ const A1_WORDS = [
               "zu"
             ],
             "purple": [
-              "konstrukciju"
+              "konstruktsiooni"
             ]
           },
           {
@@ -25323,7 +25323,7 @@ const A1_WORDS = [
           "red": [
             "käik",
             "tuuletõmbus",
-            "vaibsts"
+            "näojoon"
           ]
         },
         "examples": [
@@ -25555,7 +25555,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Atceries: zu + dem → zum (kam?).",
+        "Pea meeles: zu + dem → zum (Dativ).",
         "Naissoost sõnade puhul: zu + der → zur."
       ],
       "important": [
@@ -25571,12 +25571,12 @@ const A1_WORDS = [
             "zu dem"
           ],
           "purple": [
-            "peale",
-            "juures"
+            "peaaegu",
+            "juurde"
           ],
           "green": [
-            "Dativ",
-            "eesmärk"
+            "kam?",
+            "eesmärki"
           ]
         },
         "examples": [
@@ -25588,7 +25588,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "arsti juures"
+                "arsti juurde"
               ]
             }
           },
@@ -25672,7 +25672,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "juuksuri juures"
+                "juuksuri juurde"
               ]
             }
           }
@@ -25687,7 +25687,7 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "peale",
-                "juures"
+                "juurde"
               ]
             },
             "example": {
@@ -25705,7 +25705,7 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "peale",
-                "juures"
+                "juurde"
               ]
             },
             "example": {
@@ -25723,7 +25723,7 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "peale",
-                "juures",
+                "juurde",
                 "liiga"
               ]
             },
@@ -25774,11 +25774,11 @@ const A1_WORDS = [
               "zum"
             ],
             "purple": [
-              "zu dem"
+              "zu + dem"
             ],
             "yellow": [
               "zur",
-              "zu der"
+              "zu + der"
             ]
           }
         },
@@ -25791,16 +25791,16 @@ const A1_WORDS = [
               "zu dem"
             ],
             "green": [
-              "Dativ"
+              "kam?"
             ]
           },
           {
             "purple": [
               "peale",
-              "juures"
+              "juurde"
             ],
             "green": [
-              "eesmärk"
+              "eesmärgile"
             ]
           },
           {
@@ -26052,7 +26052,7 @@ const A1_WORDS = [
       "important": [
         "fernsehen on lahutatav: sehen + fern.",
         "das Fernsehen ei ole mitmuses — ei ole *die Fernsehen.",
-        "Nepareizi: die Fernsehen → Pareizi: das Fernsehen",
+        "Vale: die Fernsehen → Õige: das Fernsehen",
         "Tegevus: fernsehen → ich sehe fern."
       ],
       "sectionAccents": {
@@ -26078,7 +26078,46 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "televisioon"
+                "televisioonis"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "das Fernsehen",
+                "fernsehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "televisioonis"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "das Fernsehen",
+                "fernsehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "televisioonis"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "das Fernsehen",
+                "fernsehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "televisiooniprogramm"
               ]
             }
           },
@@ -26104,46 +26143,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "televisioon"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "das Fernsehen",
-                "fernsehen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "televisioon"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "das Fernsehen",
-                "fernsehen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "televisioon"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "das Fernsehen",
-                "fernsehen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "televisioon"
+                "televisioonis"
               ]
             }
           }
@@ -26201,8 +26201,8 @@ const A1_WORDS = [
       ],
       "important": [
         "der Appetit on ainult ainsuses.",
-        "Nepareizi: die Appetite → Pareizi: der Appetit",
-        "Nepareizi: Ich bin Appetit. → Pareizi: Ich habe Appetit.",
+        "Vale: die Appetite → Õige: der Appetit",
+        "Vale: Ich bin Appetit. → Õige: Ich habe Appetit.",
         "Tunne: der Appetit."
       ],
       "sectionAccents": {
@@ -26341,7 +26341,7 @@ const A1_WORDS = [
           ],
           "blue": [
             "essen",
-            "esse"
+            "essen"
           ]
         },
         "examples": [
@@ -26354,7 +26354,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "sööma"
+                "söön"
               ]
             }
           },
@@ -26380,7 +26380,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "sööma"
+                "sööme"
               ]
             }
           },
@@ -26663,7 +26663,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Ei ole õige: die Gemüse, die Obsts.",
-        "Nepareizi: die Gemüse → Pareizi: das Gemüse",
+        "Vale: die Gemüse → Õige: das Gemüse",
         "das Gemüse = köögiviljad (üldiselt)."
       ],
       "sectionAccents": {
@@ -26689,7 +26689,20 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "köögiviljad"
+                "köögivilju"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "das Gemüse",
+                "gemüse"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "köögivilju"
               ]
             }
           },
@@ -26715,7 +26728,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "köögiviljad"
+                "köögivilju"
               ]
             }
           },
@@ -26741,20 +26754,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "köögiviljad"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "das Gemüse",
-                "gemüse"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "köögiviljad"
+                "köögivilju"
               ]
             }
           }
@@ -26817,7 +26817,7 @@ const A1_WORDS = [
         "Kasuta sõna das Obst, kui kontekst vastab sellele tähendusele."
       ],
       "important": [
-        "Nepareizi: die Obsts → Pareizi: das Obst",
+        "Vale: die Obsts → Õige: das Obst",
         "das Obst = puuviljad (üldiselt)."
       ],
       "sectionAccents": {
@@ -26843,7 +26843,20 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "puuviljad"
+                "puuvilju"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "das Obst",
+                "obst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "puuvilju"
               ]
             }
           },
@@ -26882,20 +26895,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "puuviljad"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "das Obst",
-                "obst"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "puuviljad"
+                "puuvilju"
               ]
             }
           }
@@ -26976,7 +26976,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Ferien alati Dativiga: in den Ferien.",
-        "Nepareizi: in der Ferien → Pareizi: in den Ferien",
+        "Vale: in der Ferien → Õige: in den Ferien",
         "Kool: die Ferien (ainult mitmuses).",
         "ainult mitmus. Kooli- või õppevaheaeg — alati mitmuses."
       ],
@@ -27069,7 +27069,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vaheaeg (kool)"
+                "vaheajal (kool)"
               ]
             }
           }
@@ -27147,7 +27147,7 @@ const A1_WORDS = [
       "important": [
         "Ei ole õige: die Ferie, der Urlaube (A1 tasemel).",
         "Urlaub: im Urlaub sein / Urlaub machen.",
-        "Nepareizi: die Urlaube → Pareizi: der Urlaub",
+        "Vale: die Urlaube → Õige: der Urlaub",
         "Töö: der Urlaub (ainult ainsuses)."
       ],
       "sectionAccents": {
@@ -27173,7 +27173,20 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "puhkus"
+                "puhkusel"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "der Urlaub",
+                "urlaub"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "puhkusel"
               ]
             }
           },
@@ -27199,7 +27212,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "puhkus"
+                "puhkuse"
               ]
             }
           },
@@ -27212,20 +27225,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "puhkus"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "der Urlaub",
-                "urlaub"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "puhkus"
+                "puhkusel"
               ]
             }
           },
@@ -27253,7 +27253,7 @@ const A1_WORDS = [
         "important": [
           {
             "green": [
-              "der Urlaub"
+              "der Urlaube"
             ]
           }
         ]
@@ -27408,7 +27408,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kell"
+                "kellal"
               ]
             }
           }
@@ -27495,7 +27495,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "aeg"
+                "aega"
               ]
             }
           },
@@ -27508,7 +27508,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "aeg"
+                "aega"
               ]
             }
           },
@@ -27521,7 +27521,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "aeg"
+                "aega"
               ]
             }
           },
@@ -27581,7 +27581,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "einmal = vienreiz",
+        "einmal = üks kord",
         "Kasuta sõna einmal, kui kontekst vastab sellele tähendusele."
       ],
       "important": [

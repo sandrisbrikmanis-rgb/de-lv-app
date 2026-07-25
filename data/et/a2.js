@@ -251,12 +251,12 @@ const A2_WORDS = [
             },
             "lv": {
               "green": [
-                "väljuma"
+                "väljub"
               ],
               "purple": [
                 "rong",
                 "kell kaheksa",
-                "väljuma"
+                "väljub"
               ]
             }
           },
@@ -299,11 +299,11 @@ const A2_WORDS = [
             },
             "lv": {
               "green": [
-                "väljuma"
+                "väljub"
               ],
               "purple": [
                 "rong",
-                "väljuma",
+                "väljub",
                 "sinu"
               ]
             }
@@ -322,7 +322,7 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "sõidame läbi",
-                "marsruuti",
+                "marsruudi",
                 "aeglaselt"
               ]
             }
@@ -337,11 +337,11 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "reisi",
+                "reisigrupp",
                 "asub",
                 "grupp",
                 "kohe",
-                "teel"
+                "teele"
               ]
             }
           }
@@ -360,11 +360,11 @@ const A2_WORDS = [
             },
             "example": {
               "green": [
-                "väljuma"
+                "väljub"
               ],
               "blue": [
                 "Rong",
-                "väljuma",
+                "väljub",
                 "fährt"
               ]
             }
@@ -384,7 +384,7 @@ const A2_WORDS = [
             },
             "example": {
               "green": [
-                "aizbraucu",
+                "sõidan",
                 "fahre",
                 "ära"
               ]
@@ -432,12 +432,12 @@ const A2_WORDS = [
             },
             "example": {
               "green": [
-                "väljuma"
+                "väljub"
               ],
               "red": [
                 "Buss",
                 "gleich",
-                "väljuma",
+                "väljub",
                 "kohe",
                 "geht"
               ]
@@ -475,9 +475,9 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "abfahren",
-                  "autobusa",
-                  "vilciena",
-                  "grafiku",
+                  "bussi",
+                  "rongi",
+                  "sõiduplaanist",
                   "kõne"
                 ]
               }
@@ -494,7 +494,7 @@ const A2_WORDS = [
                   "teele asuma"
                 ],
                 "yellow": [
-                  "inimestele",
+                  "inimestest",
                   "abfahren",
                   "reisil",
                   "sageli",
@@ -523,7 +523,7 @@ const A2_WORDS = [
                 "väljuma"
               ],
               "yellow": [
-                "nobraukt"
+                "läbi sõitma"
               ],
               "purple": [
                 "fahren"
@@ -547,15 +547,15 @@ const A2_WORDS = [
           "abfahren",
           "bussi",
           "marsruuti",
-          "nobraukt",
-          "noteiktu",
-          "tramvaju",
+          "läbi sõitma",
+          "kindlat",
+          "trammi",
           "rongiga",
           "tähendama",
           "minema",
           "väljuma",
           "sageli",
-          "posmu",
+          "lõigu",
           "Sõna",
           "teel",
           "teed"
@@ -567,7 +567,7 @@ const A2_WORDS = [
         ],
         "yellow": [
           "losfahren",
-          "nobraukt"
+          "läbi sõitma"
         ],
         "orange": [
           "ära sõitma"
@@ -695,7 +695,7 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "tuleb esitada",
-                "avaldus"
+                "avalduse"
               ]
             }
           },
@@ -710,7 +710,7 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "andke ära",
-                "võtme",
+                "võti",
                 "vastuvõtus"
               ]
             }
@@ -740,7 +740,7 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "annan ära",
-                "pakki",
+                "paki",
                 "postis"
               ]
             }
@@ -794,8 +794,8 @@ const A2_WORDS = [
                 "Antrag"
               ],
               "purple": [
-                "iesniedzu",
-                "pieteikumu"
+                "esitan",
+                "avalduse"
               ]
             }
           },
@@ -859,7 +859,7 @@ const A2_WORDS = [
                 "ein"
               ],
               "purple": [
-                "iesniedzu",
+                "esitan",
                 "dokumendid"
               ]
             }
@@ -901,7 +901,7 @@ const A2_WORDS = [
                 "aus"
               ],
               "purple": [
-                "izstaro"
+                "kiirgab"
               ]
             }
           }
@@ -1064,7 +1064,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "võtma",
+                "võtta",
                 "välja võtma"
               ]
             }
@@ -1176,7 +1176,7 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "järele minema",
-                "tooma"
+                "toon"
               ]
             }
           },
@@ -1204,7 +1204,7 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "järele minema",
-                "tooma"
+                "toon"
               ]
             }
           },
@@ -1293,7 +1293,7 @@ const A2_WORDS = [
             "bringen"
           ],
           "purple": [
-            "kohale toimetama"
+            "kohale toimetamist"
           ],
           "orange": [
             "bringen"
@@ -1309,7 +1309,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "tooma",
+                "toon",
                 "kohale toimetama"
               ]
             }
@@ -1323,7 +1323,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "tooma",
+                "tooge",
                 "kohale toimetama"
               ]
             }
@@ -1337,7 +1337,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "tooma",
+                "toome",
                 "kohale toimetama"
               ]
             }
@@ -1351,7 +1351,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "tooma",
+                "toon",
                 "kohale toimetama"
               ]
             }
@@ -1472,7 +1472,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "kohtumine",
+                "kohtumise",
                 "tuleb tühistada"
               ]
             }
@@ -1488,7 +1488,7 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "kontsert",
-                "tühistatud",
+                "tühistati",
                 "sai"
               ]
             }
@@ -1504,7 +1504,7 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "ütles ära",
-                "osalemist"
+                "osalemise"
               ]
             }
           },
@@ -1517,7 +1517,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "kohtumist",
+                "kohtumise",
                 "tühistab"
               ]
             }
@@ -1568,7 +1568,7 @@ const A2_WORDS = [
             },
             "example": {
               "blue": [
-                "kohtumist",
+                "kohtumise",
                 "tühistan",
                 "Termin",
                 "sage"
@@ -1590,9 +1590,9 @@ const A2_WORDS = [
             },
             "example": {
               "green": [
-                "pakkumist",
+                "pakkumise",
                 "Angebot",
-                "noraidu",
+                "lükkan",
                 "lehne"
               ]
             }
@@ -1614,9 +1614,9 @@ const A2_WORDS = [
             "example": {
               "yellow": [
                 "kündige",
-                "uzteicu",
+                "ütlen",
                 "Vertrag",
-                "lepingut"
+                "lepingu"
               ]
             }
           },
@@ -1636,7 +1636,7 @@ const A2_WORDS = [
             },
             "example": {
               "red": [
-                "broneeringut",
+                "broneeringu",
                 "storniere",
                 "Buchung",
                 "tühistan"
@@ -1674,9 +1674,9 @@ const A2_WORDS = [
                   "absagen"
                 ],
                 "yellow": [
-                  "kontserti",
-                  "üritust",
-                  "kohtumist",
+                  "kontserdi",
+                  "ürituse",
+                  "Kohtumise",
                   "absagen",
                   "kasutatakse"
                 ]
@@ -1689,7 +1689,7 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "ettepaneku",
-                  "pakkumist",
+                  "Pakkumise",
                   "ablehnen",
                   "sagedamini",
                   "kasutatakse"
@@ -1880,7 +1880,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "lukustab",
+                "lukusta",
                 "uks",
                 "palun"
               ]
@@ -1896,7 +1896,7 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "auto",
-                "lukustan"
+                "lukustasin"
               ]
             }
           },
@@ -1913,7 +1913,7 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "sõlmime",
-                "lepingut"
+                "lepingu"
               ]
             }
           },
@@ -1956,10 +1956,10 @@ const A2_WORDS = [
             },
             "lv": {
               "yellow": [
-                "lõpetama"
+                "lõpetada"
               ],
               "purple": [
-                "lõpetama",
+                "lõpetada",
                 "peatükki",
                 "tahab"
               ]
@@ -1985,7 +1985,7 @@ const A2_WORDS = [
               "blue": [
                 "lukustan",
                 "schließe",
-                "uks"
+                "ukse"
               ]
             }
           },
@@ -2003,8 +2003,8 @@ const A2_WORDS = [
             "example": {
               "green": [
                 "schließe",
-                "aizveru",
-                "uks"
+                "panen",
+                "ukse"
               ]
             }
           },
@@ -2021,10 +2021,10 @@ const A2_WORDS = [
             },
             "example": {
               "yellow": [
-                "pabeidzu",
+                "lõpetan",
                 "Arbeit",
                 "beende",
-                "tööd"
+                "töö"
               ]
             }
           },
@@ -2042,9 +2042,9 @@ const A2_WORDS = [
             "example": {
               "red": [
                 "unterschreibe",
-                "parakstu",
+                "kirjutan",
                 "Vertrag",
-                "lepingut"
+                "lepingule"
               ]
             }
           }
@@ -2078,10 +2078,10 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "abschließen",
-                  "projektu",
+                  "projektist",
                   "sõlmima",
                   "lõpetama",
-                  "lepingut",
+                  "lepingust",
                   "kõne"
                 ]
               }
@@ -2100,7 +2100,7 @@ const A2_WORDS = [
               "red": [
                 "schließen",
                 "sulgema",
-                "uks"
+                "ukse"
               ]
             },
             "example": {
@@ -2133,7 +2133,7 @@ const A2_WORDS = [
           "standardStudy",
           "abschließen",
           "lukustama",
-          "projektu",
+          "projekti",
           "sõlmima",
           "objekti",
           "lõpetama",
@@ -2283,13 +2283,13 @@ const A2_WORDS = [
           "purple": [
             "paigutama",
             "panema",
-            "välja lülitama",
-            "välja lülitama",
+            "välja lülitada",
+            "välja lülitada",
             "kõrvaldama"
           ],
           "yellow": [
             "auto",
-            "kotti",
+            "kott",
             "vett",
             "elektri",
             "mootori",
@@ -2303,7 +2303,7 @@ const A2_WORDS = [
             "ausschalten",
             "anhalten",
             "stoppen",
-            "peatama"
+            "peatamine"
           ]
         },
         "examples": [
@@ -2322,7 +2322,7 @@ const A2_WORDS = [
                 "paigutan"
               ],
               "yellow": [
-                "jalgratast"
+                "jalgratta"
               ]
             }
           },
@@ -2341,7 +2341,7 @@ const A2_WORDS = [
                 "pane"
               ],
               "yellow": [
-                "kotti"
+                "kott"
               ]
             }
           },
@@ -2380,7 +2380,7 @@ const A2_WORDS = [
               ],
               "yellow": [
                 "elekter",
-                "arve"
+                "arvete"
               ]
             }
           },
@@ -2431,7 +2431,7 @@ const A2_WORDS = [
             },
             "meaning": {
               "purple": [
-                "objekti"
+                "objektist"
               ]
             },
             "example": {
@@ -2444,7 +2444,7 @@ const A2_WORDS = [
               ],
               "yellow": [
                 "Fahrrad",
-                "jalgratast"
+                "jalgratta"
               ]
             }
           },
@@ -2472,7 +2472,7 @@ const A2_WORDS = [
               ],
               "yellow": [
                 "Computer",
-                "arvutit"
+                "arvuti"
               ]
             }
           },
@@ -2517,7 +2517,7 @@ const A2_WORDS = [
                 "stoppt"
               ],
               "purple": [
-                "aptur"
+                "peatab"
               ],
               "yellow": [
                 "Fahrer",
@@ -2549,7 +2549,7 @@ const A2_WORDS = [
               "yellow": [
                 "Tasche",
                 "Tür",
-                "kotti",
+                "koti",
                 "ustest"
               ]
             }
@@ -2564,9 +2564,9 @@ const A2_WORDS = [
                   "panema"
                 ],
                 "yellow": [
-                  "auto",
-                  "jalgratast",
-                  "kotti"
+                  "autost",
+                  "jalgrattast",
+                  "kotist"
                 ]
               }
             },
@@ -2577,8 +2577,8 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "vett",
-                  "gaasi",
-                  "elektri"
+                  "gaasist",
+                  "elektrist"
                 ]
               }
             }
@@ -2906,7 +2906,7 @@ const A2_WORDS = [
             },
             "lv": {
               "yellow": [
-                "Rakenduslik"
+                "rakendusmatemaatika"
               ],
               "purple": [
                 "praktiline"
@@ -2936,7 +2936,7 @@ const A2_WORDS = [
             },
             "lv": {
               "green": [
-                "rakendatud"
+                "rakendatakse"
               ]
             }
           },
@@ -2963,7 +2963,7 @@ const A2_WORDS = [
             },
             "lv": {
               "green": [
-                "rakendatud"
+                "rakendata"
               ]
             }
           },
@@ -2976,8 +2976,8 @@ const A2_WORDS = [
             },
             "lv": {
               "yellow": [
-                "rakenduslikku",
-                "praktikat"
+                "rakendusliku",
+                "praktika"
               ]
             }
           }
@@ -3000,7 +3000,7 @@ const A2_WORDS = [
                 "Methode"
               ],
               "green": [
-                "rakendatud"
+                "rakendatakse"
               ]
             }
           },
@@ -3056,7 +3056,7 @@ const A2_WORDS = [
                 "wende"
               ],
               "green": [
-                "pielietoju"
+                "rakendan"
               ]
             }
           }
@@ -3072,8 +3072,8 @@ const A2_WORDS = [
                   "rakenduslik"
                 ],
                 "green": [
-                  "teadust",
-                  "uuringutele",
+                  "Teaduse",
+                  "uuringute",
                   "õpingute"
                 ]
               }
@@ -3087,8 +3087,8 @@ const A2_WORDS = [
                   "rakendatud"
                 ],
                 "green": [
-                  "meetodit",
-                  "noteikumu"
+                  "meetodist",
+                  "reeglist"
                 ]
               }
             }
@@ -3130,7 +3130,7 @@ const A2_WORDS = [
           "rakendatud",
           "rakendatud",
           "rakendama",
-          "pielietoju"
+          "rakendan"
         ],
         "yellow": [
           "rakenduslik",
@@ -3235,7 +3235,7 @@ const A2_WORDS = [
         ],
         "red": [
           "beleidigen",
-          "apvaino"
+          "solvab"
         ],
         "purple": [
           "solvatud",
@@ -3251,11 +3251,11 @@ const A2_WORDS = [
                   "angreifen"
                 ],
                 "purple": [
-                  "rünnak"
+                  "rünnakuga"
                 ],
                 "green": [
-                  "fizisks",
-                  "otsene"
+                  "füüsilise",
+                  "otsese"
                 ]
               }
             },
@@ -3265,7 +3265,7 @@ const A2_WORDS = [
                   "beleidigen"
                 ],
                 "purple": [
-                  "apvaino"
+                  "solvab"
                 ],
                 "green": [
                   "sõnadega"
@@ -3281,11 +3281,11 @@ const A2_WORDS = [
                 "angreifen"
               ],
               "purple": [
-                "uzbrukumu",
-                "asu kritiku"
+                "rünnakut",
+                "teravat kriitikat"
               ],
               "red": [
-                "aizskart"
+                "riivama"
               ]
             },
             "example": {
@@ -3456,7 +3456,7 @@ const A2_WORDS = [
               "purple": [
                 "haagis",
                 "inimest",
-                "rotaslietu"
+                "ehet"
               ]
             },
             "example": {
@@ -3559,7 +3559,7 @@ const A2_WORDS = [
         "green": [
           "üles kütma",
           "kütame",
-          "iekuru"
+          "kütan"
         ],
         "yellow": [
           "õhutama",
@@ -3621,7 +3621,7 @@ const A2_WORDS = [
                 "anheizen"
               ],
               "purple": [
-                "burtisks",
+                "otsese",
                 "piltlik"
               ]
             },
@@ -3838,7 +3838,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "sidet",
+                "sideme",
                 "paneb"
               ]
             }
@@ -3871,7 +3871,7 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "paneb peale",
-                "seadet",
+                "seadme",
                 "arst",
                 "käe"
               ]
@@ -3892,7 +3892,7 @@ const A2_WORDS = [
             },
             "example": {
               "blue": [
-                "ieguldu",
+                "investeerin",
                 "raha",
                 "Geld",
                 "lege"
@@ -3914,9 +3914,9 @@ const A2_WORDS = [
             },
             "example": {
               "green": [
-                "raamatut",
+                "raamatu",
                 "panen",
-                "laua",
+                "lauale",
                 "Tisch",
                 "Buch",
                 "lege"
@@ -3937,7 +3937,7 @@ const A2_WORDS = [
             "example": {
               "yellow": [
                 "investiere",
-                "ieguldu",
+                "investeerin",
                 "raha",
                 "Geld"
               ]
@@ -3956,7 +3956,7 @@ const A2_WORDS = [
             },
             "example": {
               "red": [
-                "izveidoju",
+                "loon",
                 "erstelle",
                 "Konto",
                 "konto"
@@ -4006,7 +4006,7 @@ const A2_WORDS = [
               ],
               "red": [
                 "kinnitama",
-                "turvavöö",
+                "turvavööd",
                 "anlegen",
                 "vööd",
                 "Gurt"
@@ -4043,12 +4043,12 @@ const A2_WORDS = [
           "turvavöö",
           "investeerima",
           "looma",
-          "profilam",
+          "profiili",
           "anlegen",
-          "Failiem",
+          "Failide",
           "tähendama",
           "peale panema",
-          "jostai",
+          "turvavöö",
           "Raha",
           "peale panema",
           "kaustade",
@@ -4189,7 +4189,7 @@ const A2_WORDS = [
               "purple": [
                 "registreerib",
                 "lapse",
-                "koolis"
+                "kooli"
               ]
             }
           },
@@ -4207,7 +4207,7 @@ const A2_WORDS = [
               "purple": [
                 "end kirja panema",
                 "arsti",
-                "saan"
+                "varuosa"
               ]
             }
           },
@@ -4240,7 +4240,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "külastuse",
+                "külastusest",
                 "eelnevalt",
                 "teatab"
               ]
@@ -4304,7 +4304,7 @@ const A2_WORDS = [
                 "melden"
               ],
               "green": [
-                "piesakieties",
+                "registreeruge",
                 "Melden",
                 "bitte",
                 "Palun"
@@ -4348,7 +4348,7 @@ const A2_WORDS = [
                 "broneerin",
                 "Termin",
                 "buche",
-                "ajast"
+                "aja"
               ]
             }
           },
@@ -4365,7 +4365,7 @@ const A2_WORDS = [
             },
             "example": {
               "purple": [
-                "probleemi",
+                "probleemist",
                 "problem",
                 "teatan",
                 "melde"
@@ -4385,9 +4385,9 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "anmelden",
-                  "üritust",
-                  "kursust",
-                  "testu"
+                  "ürituse",
+                  "Kursuse",
+                  "testi"
                 ]
               }
             },
@@ -4399,7 +4399,7 @@ const A2_WORDS = [
                 "yellow": [
                   "end kirja panema",
                   "anmelden",
-                  "asutust",
+                  "asutuse",
                   "arsti",
                   "sageli"
                 ]
@@ -4440,11 +4440,11 @@ const A2_WORDS = [
           "registreerima",
           "süsteemidesse",
           "inimest",
-          "kursiem",
+          "kursuste",
           "tähendama",
           "teatama",
           "osalemist",
-          "skolai",
+          "kooli",
           "visiiti",
           "arsti",
           "kasutatakse",
@@ -4635,7 +4635,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "nakatuma",
+                "nakatuda",
                 "ei taha"
               ]
             }
@@ -4688,7 +4688,7 @@ const A2_WORDS = [
             },
             "example": {
               "blue": [
-                "aizdedzinu",
+                "süütan",
                 "stecke",
                 "Kerze",
                 "küünla"
@@ -4731,7 +4731,7 @@ const A2_WORDS = [
             },
             "example": {
               "yellow": [
-                "aizdedzinu",
+                "süütan",
                 "Kerze",
                 "küünla",
                 "zünde"
@@ -4789,7 +4789,7 @@ const A2_WORDS = [
                   "külge kinnitama",
                   "anstecken",
                   "mikrofoni",
-                  "märki",
+                  "märgi",
                   "prossi"
                 ]
               }
@@ -4845,7 +4845,7 @@ const A2_WORDS = [
           "nakatuma",
           "külge kinnitama",
           "anstecken",
-          "cigareti",
+          "sigareti",
           "Meditsiinis",
           "mitu",
           "riietuse",
@@ -4974,7 +4974,7 @@ const A2_WORDS = [
                 "ettevõte",
                 "uusi",
                 "võtab vastu",
-                "tööl"
+                "tööle"
               ]
             }
           },
@@ -4988,10 +4988,10 @@ const A2_WORDS = [
             },
             "lv": {
               "orange": [
-                "sisse lülitama"
+                "sisse lülitada"
               ],
               "purple": [
-                "sisse lülitama",
+                "sisse lülitada",
                 "kütte",
                 "saad"
               ]
@@ -5007,7 +5007,7 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "asume",
-                "lõpus",
+                "lõppu",
                 "järjekorra"
               ]
             }
@@ -5038,7 +5038,7 @@ const A2_WORDS = [
               "purple": [
                 "vastu võetud",
                 "autojuhina",
-                "tööl",
+                "tööle",
                 "sai"
               ]
             }
@@ -5073,14 +5073,14 @@ const A2_WORDS = [
                 "sisse lülitama",
                 "vastu võtma",
                 "korda saatma",
-                "tööl"
+                "tööle"
               ]
             },
             "example": {
               "blue": [
                 "võtab vastu",
                 "stellt",
-                "tööl",
+                "tööle",
                 "Firma",
                 "teda"
               ]
@@ -5097,7 +5097,7 @@ const A2_WORDS = [
                 "tööle võtma / seadistama",
                 "seadistama",
                 "vastu võtma",
-                "tööl"
+                "tööle"
               ]
             },
             "example": {
@@ -5105,7 +5105,7 @@ const A2_WORDS = [
                 "võtame tööle",
                 "stellen",
                 "uusi",
-                "tööl",
+                "tööle",
                 "Leute",
                 "neue"
               ]
@@ -5141,14 +5141,14 @@ const A2_WORDS = [
             "meaning": {
               "purple": [
                 "asuma",
-                "järjekorras"
+                "järjekorda"
               ]
             },
             "example": {
               "red": [
                 "asun",
                 "stelle",
-                "järjekorras",
+                "järjekorda",
                 "mich"
               ]
             }
@@ -5168,7 +5168,7 @@ const A2_WORDS = [
                   "anstellen",
                   "vastu võtma",
                   "sageli",
-                  "tööl",
+                  "tööle",
                   "tööd"
                 ]
               }
@@ -5183,8 +5183,8 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "igapäevane",
-                  "izteiciens",
-                  "seismiseks",
+                  "väljend",
+                  "seismise",
                   "anstellen",
                   "järjekorras"
                 ]
@@ -5202,7 +5202,7 @@ const A2_WORDS = [
                 "anstellen",
                 "jemanden",
                 "vastu võtma",
-                "tööl",
+                "tööle",
                 "kedagi"
               ]
             },
@@ -5513,7 +5513,7 @@ const A2_WORDS = [
                 "soovite",
                 "kohvi",
                 "viisi",
-                "milline"
+                "millist"
               ]
             }
           },
@@ -5529,7 +5529,7 @@ const A2_WORDS = [
               "purple": [
                 "probleem",
                 "viisi",
-                "teine"
+                "teist"
               ]
             }
           },
@@ -5562,9 +5562,9 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "abi",
-                "vaja",
+                "vajad",
                 "viisi",
-                "milline"
+                "millist"
               ]
             }
           },
@@ -5580,10 +5580,10 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "soojades",
+                "soojadel",
                 "elab",
                 "ainult",
-                "maades",
+                "maadel",
                 "liik"
               ]
             }
@@ -5768,11 +5768,11 @@ const A2_WORDS = [
                 "liik"
               ],
               "red": [
-                "konteksta",
+                "kontekstist",
                 "vaja",
                 "olenevad",
                 "kaardile",
-                "paveids",
+                "alaliik",
                 "liik"
               ]
             }
@@ -5923,7 +5923,7 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "artiklit",
-                "ajalehes",
+                "ajalehest",
                 "loen"
               ]
             }
@@ -6065,7 +6065,7 @@ const A2_WORDS = [
             "meaning": {
               "purple": [
                 "ajaleheartikkel",
-                "ajalehe",
+                "ajaleheartikkel",
                 "artikkel"
               ]
             },
@@ -6073,7 +6073,7 @@ const A2_WORDS = [
               "green": [
                 "der Zeitungsartikel",
                 "Zeitungsartikel",
-                "Ajalehe",
+                "Ajaleheartikkel",
                 "artikkel",
                 "uus"
               ],
@@ -6184,8 +6184,8 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "Artikel",
-                  "medijos",
-                  "Tekstos",
+                  "meedias",
+                  "Tekstides",
                   "artikkel"
                 ]
               }
@@ -6218,7 +6218,7 @@ const A2_WORDS = [
                 "Artikel"
               ],
               "red": [
-                "konteksta",
+                "kontekstist",
                 "Artikel",
                 "eesnimi"
               ]
@@ -6549,11 +6549,11 @@ const A2_WORDS = [
             },
             "lv": {
               "orange": [
-                "üles tõstma"
+                "üles tõsta"
               ],
               "purple": [
                 "sulepead",
-                "üles tõstma",
+                "üles tõsta",
                 "palun",
                 "saad"
               ]
@@ -6602,7 +6602,7 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "reegel",
-                "tühistatud",
+                "tühistati",
                 "sai"
               ]
             }
@@ -6677,7 +6677,7 @@ const A2_WORDS = [
                 "tõstan üles",
                 "Hand",
                 "hebe",
-                "roku"
+                "käe"
               ]
             }
           },
@@ -6696,7 +6696,7 @@ const A2_WORDS = [
             },
             "example": {
               "yellow": [
-                "kohtumist",
+                "kohtumise",
                 "tühistame",
                 "Termin",
                 "sagen"
@@ -6718,7 +6718,7 @@ const A2_WORDS = [
               "red": [
                 "Quittung",
                 "behalte",
-                "paturu",
+                "jätan",
                 "tšeki"
               ]
             }
@@ -6738,7 +6738,7 @@ const A2_WORDS = [
                   "aufheben",
                   "üles tõstma",
                   "sageli",
-                  "zemes"
+                  "maas"
                 ]
               }
             },
@@ -6751,10 +6751,10 @@ const A2_WORDS = [
                   "tühistama"
                 ],
                 "yellow": [
-                  "noteikumu",
+                  "reeglist",
                   "aufheben",
                   "tühistama",
-                  "otsust",
+                  "otsusest",
                   "kõne"
                 ]
               }
@@ -6768,10 +6768,10 @@ const A2_WORDS = [
                 "aufheben"
               ],
               "red": [
-                "erinevate",
+                "erinevad",
                 "aufheben",
-                "tähendustele",
-                "sõnadega",
+                "tähendused",
+                "sõnadest",
                 "üks"
               ]
             },
@@ -6803,9 +6803,9 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "aizliegumu",
+          "keeldu",
           "erinevad",
-          "noteikumu",
+          "reeglit",
           "aufheben",
           "tuleb vaadata",
           "säilitama",
@@ -6818,7 +6818,7 @@ const A2_WORDS = [
           "üles tõstma",
           "seepärast",
           "eesnimi",
-          "zemes"
+          "maast"
         ],
         "green": [
           "tühistama",
@@ -7177,10 +7177,10 @@ const A2_WORDS = [
                 ],
                 "purple": [
                   "foto",
-                  "videoierakstu"
+                  "videosalvestust"
                 ],
                 "yellow": [
-                  "Kaamera",
+                  "Kamera",
                   "Foto",
                   "Video"
                 ]
@@ -7195,9 +7195,9 @@ const A2_WORDS = [
                   "vastuvõttu"
                 ],
                 "green": [
-                  "kooli",
-                  "haiglat",
-                  "kursust"
+                  "koolist",
+                  "haiglast",
+                  "kursusest"
                 ]
               }
             }
@@ -7213,7 +7213,7 @@ const A2_WORDS = [
                 "foto"
               ],
               "purple": [
-                "salvestus",
+                "salvestis",
                 "foto",
                 "vastuvõtuprotsess"
               ]
@@ -7359,7 +7359,7 @@ const A2_WORDS = [
                 "lapsi",
                 "võtab vastu",
                 "kool",
-                "aastat",
+                "aasta",
                 "kuue"
               ]
             }
@@ -7432,7 +7432,7 @@ const A2_WORDS = [
             "example": {
               "blue": [
                 "salvestan",
-                "dziesmu",
+                "laulu",
                 "nehme",
                 "Lied"
               ]
@@ -7451,7 +7451,7 @@ const A2_WORDS = [
             },
             "example": {
               "green": [
-                "raamatut",
+                "raamatu",
                 "nehme",
                 "Buch",
                 "võtan"
@@ -7471,7 +7471,7 @@ const A2_WORDS = [
             },
             "example": {
               "yellow": [
-                "pakkumist",
+                "pakkumise",
                 "Angebot",
                 "võtan vastu",
                 "nehme"
@@ -7529,7 +7529,7 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "aufnehmen",
-                  "inimestele",
+                  "Inimeste",
                   "vastu võtma",
                   "sageli",
                   "gruppi"
@@ -7789,7 +7789,7 @@ const A2_WORDS = [
             "lv": {
               "green": [
                 "siiraste",
-                "sõnadega"
+                "sõnade"
               ]
             }
           }
@@ -7885,9 +7885,9 @@ const A2_WORDS = [
                   "südamlik"
                 ],
                 "green": [
-                  "Vabandus",
+                  "Vabanduse",
                   "kaastunde",
-                  "soovi"
+                  "soovide"
                 ]
               }
             },
@@ -8101,7 +8101,7 @@ const A2_WORDS = [
                 "muudab tähendust"
               ],
               "yellow": [
-                "objekti"
+                "objektist"
               ]
             },
             "example": {
@@ -8242,7 +8242,7 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "õpetaja",
-                "ülesannet",
+                "ülesande",
                 "annab"
               ]
             }
@@ -8257,9 +8257,9 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "kanna",
+                "kannab",
                 "kreemi",
-                "naha"
+                "nahale"
               ]
             }
           },
@@ -8275,8 +8275,8 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "maaler",
-                "seina",
-                "kanna",
+                "seinale",
+                "kannab",
                 "värvi"
               ]
             }
@@ -8313,7 +8313,7 @@ const A2_WORDS = [
               "purple": [
                 "ülemus",
                 "andis",
-                "töö",
+                "tööd",
                 "palju"
               ]
             }
@@ -8354,7 +8354,7 @@ const A2_WORDS = [
             "example": {
               "blue": [
                 "Õpetaja",
-                "ülesannet",
+                "ülesande",
                 "Aufgabe",
                 "Lehrer",
                 "trägt",
@@ -8375,7 +8375,7 @@ const A2_WORDS = [
             },
             "example": {
               "green": [
-                "raamatut",
+                "raamatu",
                 "Buch",
                 "annan",
                 "gebe"
@@ -8420,10 +8420,10 @@ const A2_WORDS = [
             "example": {
               "red": [
                 "Ettekandja",
-                "pasniedz",
+                "ulatab",
                 "serviert",
                 "Kellner",
-                "toitu",
+                "toidu",
                 "Essen"
               ]
             }
@@ -8441,7 +8441,7 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "Aufgabe",
-                  "objektu",
+                  "objekti",
                   "Vaata",
                   "Creme",
                   "ülesandeks andma"
@@ -8476,7 +8476,7 @@ const A2_WORDS = [
               ],
               "red": [
                 "auftragen",
-                "objekti",
+                "objektist",
                 "tähendust",
                 "muudab"
               ]
@@ -8758,7 +8758,7 @@ const A2_WORDS = [
               "green": [
                 "erscheint",
                 "kell kaheksa",
-                "ierodas",
+                "saabub",
                 "acht"
               ]
             }
@@ -8817,8 +8817,8 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "auftreten",
-                  "probleemi",
-                  "simptomu",
+                  "probleemist",
+                  "sümptomist",
                   "sageli",
                   "kasutatakse",
                   "kõne"
@@ -8836,7 +8836,7 @@ const A2_WORDS = [
                 "yellow": [
                   "auftreten",
                   "esinema",
-                  "skatuvi",
+                  "lavast",
                   "kõne"
                 ]
               }
@@ -8852,7 +8852,7 @@ const A2_WORDS = [
                 "tähendus",
                 "tritt",
                 "üks",
-                "pati"
+                "seesama"
               ]
             },
             "example": {
@@ -8879,14 +8879,14 @@ const A2_WORDS = [
           "käitumise",
           "kindlal",
           "probleem",
-          "simptoms",
-          "skatuves",
+          "sümptom",
+          "laval",
           "Inimese",
           "tähendama",
           "tekkima",
           "viga",
           "kasutatakse",
-          "rodas"
+          "tekib"
         ],
         "green": [
           "rollis esinema",
@@ -9044,7 +9044,7 @@ const A2_WORDS = [
             "lv": {
               "green": [
                 "pühendab",
-                "jõudu"
+                "jõu"
               ]
             }
           },
@@ -9094,7 +9094,7 @@ const A2_WORDS = [
                 "Zeit"
               ],
               "green": [
-                "veltu",
+                "kulutan",
                 "aega"
               ]
             }
@@ -9114,7 +9114,7 @@ const A2_WORDS = [
               "red": [
                 "gebe",
                 "aus",
-                "kulutasin"
+                "kulutan"
               ]
             }
           },
@@ -9132,7 +9132,7 @@ const A2_WORDS = [
             "example": {
               "purple": [
                 "verbringe",
-                "pavadu"
+                "veedan"
               ]
             }
           },
@@ -9196,7 +9196,7 @@ const A2_WORDS = [
               ],
               "purple": [
                 "tehtud pingutused",
-                "resursus"
+                "ressursse"
               ],
               "red": [
                 "kulutamist"
@@ -9364,9 +9364,9 @@ const A2_WORDS = [
                   "jäädvustama"
                 ],
                 "yellow": [
-                  "video",
-                  "heli",
-                  "andmetega"
+                  "videost",
+                  "helist",
+                  "andmetest"
                 ]
               }
             },
@@ -9376,7 +9376,7 @@ const A2_WORDS = [
                   "zeichnen"
                 ],
                 "purple": [
-                  "joonistamist"
+                  "joonistamisest"
                 ]
               }
             }
@@ -9639,7 +9639,7 @@ const A2_WORDS = [
             },
             "example": {
               "blue": [
-                "autobusa",
+                "bussist",
                 "väljun",
                 "steige"
               ]
@@ -9702,7 +9702,7 @@ const A2_WORDS = [
                 "verlässt",
                 "jäta",
                 "Firma",
-                "firmu"
+                "firmast"
               ]
             }
           }
@@ -9719,7 +9719,7 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "aussteigen",
-                  "transporti",
+                  "Transpordi",
                   "väljuma"
                 ]
               }
@@ -9731,9 +9731,9 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "välja astuma",
-                  "projektu",
-                  "lepingut",
-                  "gruppi"
+                  "projekti",
+                  "lepingu",
+                  "grupi"
                 ]
               }
             }
@@ -9769,7 +9769,7 @@ const A2_WORDS = [
               "red": [
                 "aussteigen",
                 "einsteigen",
-                "autobusa",
+                "bussi",
                 "bussis",
                 "sisse astuma",
                 "väljuma"
@@ -9790,7 +9790,7 @@ const A2_WORDS = [
           "tuleb vaadata",
           "Ülekantud",
           "projektist",
-          "tramvaju",
+          "trammi",
           "rongiga",
           "tähendama",
           "väljuma",
@@ -9944,7 +9944,7 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "valige",
-                "keelt",
+                "keel",
                 "palun"
               ]
             }
@@ -9973,7 +9973,7 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "valis",
-                "kleiti"
+                "kleidi"
               ]
             }
           },
@@ -9990,7 +9990,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "kandidaate",
+                "kandidaadid",
                 "valime välja",
                 "parimad"
               ]
@@ -10006,11 +10006,11 @@ const A2_WORDS = [
             },
             "lv": {
               "orange": [
-                "valima"
+                "valida"
               ],
               "purple": [
-                "valima",
-                "teemat",
+                "valida",
+                "teema",
                 "saad"
               ]
             }
@@ -10051,7 +10051,7 @@ const A2_WORDS = [
             "example": {
               "blue": [
                 "valin",
-                "pilti",
+                "pildi",
                 "wähle",
                 "Bild"
               ]
@@ -10072,8 +10072,8 @@ const A2_WORDS = [
             },
             "example": {
               "green": [
-                "balsoju",
-                "erakonda",
+                "hääletan",
+                "erakonna",
                 "Partei",
                 "wähle"
               ]
@@ -10095,7 +10095,7 @@ const A2_WORDS = [
             "example": {
               "yellow": [
                 "Vali",
-                "raamatut",
+                "raamat",
                 "Buch",
                 "Such"
               ]
@@ -10136,7 +10136,7 @@ const A2_WORDS = [
                 "markieren",
                 "richtige",
                 "antwort",
-                "vastust",
+                "vastus",
                 "õige"
               ]
             }
@@ -10152,9 +10152,9 @@ const A2_WORDS = [
                 "yellow": [
                   "auswählen",
                   "sobiv",
-                  "vali",
+                  "valid",
                   "menüüst",
-                  "saraksta",
+                  "nimekirjast",
                   "eesnimi"
                 ]
               }
@@ -10170,8 +10170,8 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "kontekstis",
-                  "politikas",
-                  "tähendama",
+                  "poliitika",
+                  "tähendada",
                   "hääletama",
                   "wählen",
                   "seepärast"
@@ -10226,12 +10226,12 @@ const A2_WORDS = [
           "valima",
           "auswählen",
           "kandidaati",
-          "sarakstos",
+          "nimekirjades",
           "teadlikult",
           "võimaluste",
           "menüüdes",
           "mitmele",
-          "variantu",
+          "variandi",
           "küsimustikes",
           "välja valima",
           "valikus",
@@ -10382,7 +10382,7 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "võtan seljast",
-                "jakki"
+                "jaki"
               ]
             }
           },
@@ -10411,7 +10411,7 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "kolime välja",
-                "järgmises",
+                "järgmisel",
                 "kuul"
               ]
             }
@@ -10442,8 +10442,8 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "võtan seljast",
-                "ülikonda",
-                "töö"
+                "ülikonna",
+                "tööd"
               ]
             }
           }
@@ -10484,10 +10484,10 @@ const A2_WORDS = [
             },
             "example": {
               "green": [
-                "uzvelku",
+                "panen",
                 "Jacke",
                 "ziehe",
-                "jakki"
+                "jaki"
               ]
             }
           },
@@ -10544,12 +10544,12 @@ const A2_WORDS = [
                   "ausziehen"
                 ],
                 "orange": [
-                  "seljast võtma"
+                  "seljast võtmist"
                 ],
                 "yellow": [
                   "ausziehen",
                   "Riietus",
-                  "seljast võtma"
+                  "seljast võtmist"
                 ]
               }
             },
@@ -10620,7 +10620,7 @@ const A2_WORDS = [
           "riietust",
           "seljast võtma",
           "tähendustele",
-          "nosaka",
+          "määrab",
           "Tähendust",
           "sagedane",
           "eesnimi",
@@ -10633,7 +10633,7 @@ const A2_WORDS = [
         ],
         "yellow": [
           "umziehen",
-          "izvilkt"
+          "välja tõmbama"
         ],
         "orange": [
           "kolima",
@@ -10930,7 +10930,7 @@ const A2_WORDS = [
             "meaning": {
               "purple": [
                 "raudtee",
-                "rongisõit"
+                "rongiga"
               ]
             },
             "example": {
@@ -11019,7 +11019,7 @@ const A2_WORDS = [
                 "Gleis"
               ],
               "purple": [
-                "perona"
+                "platvormilt"
               ]
             }
           }
@@ -11042,7 +11042,7 @@ const A2_WORDS = [
                   "der Zug"
                 ],
                 "purple": [
-                  "konkreetset rongi"
+                  "konkreetsest rongist"
                 ]
               }
             }
@@ -11233,7 +11233,7 @@ const A2_WORDS = [
                 "lint"
               ],
               "purple": [
-                "kingitust",
+                "kingituse",
                 "lint"
               ]
             }
@@ -11275,7 +11275,7 @@ const A2_WORDS = [
               ],
               "purple": [
                 "konveierilint",
-                "konveieri",
+                "konveierilint",
                 "liigub",
                 "lint",
                 "aeglaselt"
@@ -11329,8 +11329,8 @@ const A2_WORDS = [
             },
             "meaning": {
               "purple": [
-                "lente / saite / josla",
-                "josla",
+                "lint / pael / riba",
+                "riba",
                 "lint",
                 "pael"
               ]
@@ -11463,7 +11463,7 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "artikkel",
-                  "josla",
+                  "riba",
                   "lint",
                   "pael",
                   "Band"
@@ -11479,11 +11479,11 @@ const A2_WORDS = [
                   "Band"
                 ],
                 "purple": [
-                  "muusikagrupp"
+                  "muusikagruppi"
                 ],
                 "yellow": [
                   "artikkel",
-                  "muusika",
+                  "muusikagruppi",
                   "grupp",
                   "Band"
                 ]
@@ -11540,13 +11540,13 @@ const A2_WORDS = [
           "tähendama",
           "kingitust",
           "lintide",
-          "saikni",
-          "joslu",
+          "sidet",
+          "riba",
           "lint",
           "linti",
           "kasutatakse",
           "pael",
-          "saiti",
+          "sidet",
           "vahel",
           "Band",
           "juuste"
@@ -11557,13 +11557,13 @@ const A2_WORDS = [
         "yellow": [
           "das Förderband",
           "Förderband",
-          "josla"
+          "riba"
         ],
         "orange": [
           "lint"
         ],
         "purple": [
-          "lente / saite / josla",
+          "lint / pael / riba",
           "konveierilint",
           "muusikagrupp",
           "die Schleife",
@@ -11712,7 +11712,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "pingi",
+                "pingil",
                 "pargis",
                 "istume"
               ]
@@ -11734,7 +11734,7 @@ const A2_WORDS = [
               ],
               "purple": [
                 "vana",
-                "puust",
+                "puu",
                 "pink",
                 "seisab"
               ]
@@ -11753,7 +11753,7 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "paat",
-                "liivamadaliku"
+                "liivamadalikul"
               ]
             }
           },
@@ -11889,7 +11889,7 @@ const A2_WORDS = [
             "example": {
               "red": [
                 "Sandbank",
-                "istu",
+                "istume",
                 "Schiff",
                 "steckt",
                 "Laev",
@@ -11931,8 +11931,8 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "maksetest",
-                  "konto",
-                  "raha",
+                  "kontost",
+                  "rahast",
                   "Bank",
                   "kõne"
                 ]
@@ -11944,7 +11944,7 @@ const A2_WORDS = [
                   "Bank"
                 ],
                 "green": [
-                  "pink"
+                  "pinki"
                 ],
                 "yellow": [
                   "istumisest",
@@ -11964,7 +11964,7 @@ const A2_WORDS = [
                 "Bank"
               ],
               "red": [
-                "konteksta",
+                "kontekstisõna",
                 "eesnimi",
                 "Bank"
               ]
@@ -12006,7 +12006,7 @@ const A2_WORDS = [
           "pinki",
           "pank",
           "panka",
-          "Dabas",
+          "Looduse",
           "liivamadalikku",
           "vesi",
           "Bank",
@@ -12237,7 +12237,7 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "toetume",
-                "usaldust"
+                "usaldusele"
               ]
             }
           },
@@ -12250,7 +12250,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "lennuki",
+                "lennukimudelit",
                 "valmistab",
                 "mudelit"
               ]
@@ -12401,9 +12401,9 @@ const A2_WORDS = [
                   "Ehitama"
                 ],
                 "yellow": [
-                  "konstrukciju",
+                  "konstruktsioonist",
                   "bauen",
-                  "silda",
+                  "sillast",
                   "kõne"
                 ]
               }
@@ -12474,7 +12474,7 @@ const A2_WORDS = [
           "tähendama",
           "kasvatama",
           "tegema",
-          "tiltus",
+          "sildu",
           "bauen",
           "Ehitama",
           "kasutatakse",
@@ -12784,7 +12784,7 @@ const A2_WORDS = [
                   "Bauer"
                 ],
                 "purple": [
-                  "talunik"
+                  "talunikku"
                 ]
               }
             },
@@ -12794,7 +12794,7 @@ const A2_WORDS = [
                   "Bauer"
                 ],
                 "purple": [
-                  "ettur"
+                  "etturit"
                 ],
                 "yellow": [
                   "male"
@@ -12814,7 +12814,7 @@ const A2_WORDS = [
                 "ettur"
               ],
               "red": [
-                "zemkopis"
+                "maaharija"
               ]
             },
             "example": {
@@ -12968,7 +12968,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "papptopsi"
+                "papptops"
               ]
             }
           },
@@ -13147,7 +13147,7 @@ const A2_WORDS = [
                 "der Becher"
               ],
               "purple": [
-                "kruusi",
+                "kruusile",
                 "joogianumale"
               ]
             },
@@ -13334,7 +13334,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "kasutama"
+                "kasutada"
               ],
               "yellow": [
                 "masinat"
@@ -13352,7 +13352,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "kasutama"
+                "kasutada"
               ],
               "yellow": [
                 "seadet"
@@ -13385,7 +13385,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "teenindab"
+                "teenindatakse"
               ]
             }
           }
@@ -13428,7 +13428,7 @@ const A2_WORDS = [
                 "benutze"
               ],
               "purple": [
-                "lietoju"
+                "kasutan"
               ]
             }
           },
@@ -13527,7 +13527,7 @@ const A2_WORDS = [
               "purple": [
                 "teenindab",
                 "kasutatakse",
-                "juhib"
+                "juhitakse"
               ]
             },
             "example": {
@@ -13856,7 +13856,7 @@ const A2_WORDS = [
                   "Bedienung"
                 ],
                 "purple": [
-                  "teenindust"
+                  "teenindamist"
                 ]
               }
             }
@@ -13873,7 +13873,7 @@ const A2_WORDS = [
                 "teenindaja"
               ],
               "red": [
-                "apkalpe"
+                "meeskonda"
               ]
             },
             "example": {
@@ -14044,11 +14044,11 @@ const A2_WORDS = [
             },
             "lv": {
               "orange": [
-                "endale jätma"
+                "endale jätta"
               ],
               "purple": [
-                "raamatut",
-                "endale jätma",
+                "raamatu",
+                "endale jätta",
                 "saad"
               ]
             }
@@ -14063,11 +14063,11 @@ const A2_WORDS = [
             },
             "lv": {
               "orange": [
-                "endale jätma"
+                "endale jätta"
               ],
               "purple": [
                 "võtme",
-                "endale jätma",
+                "endale jätta",
                 "tahan"
               ]
             }
@@ -14081,7 +14081,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "ülejäägi",
+                "ülejäänu",
                 "jätke"
               ]
             }
@@ -14153,12 +14153,12 @@ const A2_WORDS = [
             "example": {
               "blue": [
                 "behalten",
-                "endale jätma",
+                "endale jätta",
                 "kannst",
                 "saad"
               ],
               "orange": [
-                "endale jätma"
+                "endale jätta"
               ]
             }
           },
@@ -14200,7 +14200,7 @@ const A2_WORDS = [
               "yellow": [
                 "jätan meelde",
                 "Nummer",
-                "numbrit",
+                "numbri",
                 "merke"
               ]
             }
@@ -14280,7 +14280,7 @@ const A2_WORDS = [
                   "teavet",
                   "arvude",
                   "behalten",
-                  "sõnadega",
+                  "Sõnade",
                   "sageli"
                 ]
               }
@@ -14340,12 +14340,12 @@ const A2_WORDS = [
           "omandis",
           "tähendama",
           "endale jätma",
-          "skaitli",
+          "arvu",
           "sageli",
           "meeles",
-          "sevis",
+          "enda",
           "seega",
-          "tulko",
+          "tõlgitakse",
           "sõna",
           "oma"
         ],
@@ -14465,7 +14465,7 @@ const A2_WORDS = [
             "lv": {
               "orange": [],
               "purple": [
-                "bussi",
+                "bussist",
                 "jäin maha"
               ]
             }
@@ -14635,7 +14635,7 @@ const A2_WORDS = [
                 "just",
                 "kann",
                 "kaum",
-                "saan"
+                "varuosa"
               ]
             }
           },
@@ -14677,7 +14677,7 @@ const A2_WORDS = [
                 ],
                 "orange": [],
                 "yellow": [
-                  "nenotika",
+                  "ei juhtunud",
                   "beinahe",
                   "juhtus",
                   "kasutatakse"
@@ -14714,7 +14714,7 @@ const A2_WORDS = [
                 "fast"
               ],
               "red": [
-                "stilistiski",
+                "stilistiliselt",
                 "beinahe",
                 "sarnased",
                 "sageli",
@@ -14748,12 +14748,12 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "kontekstos",
-          "latviski",
-          "nenotika",
+          "kontekstis",
+          "eesti keeles",
+          "ei juhtunud",
           "beinahe",
           "juhtus",
-          "uzsver",
+          "rõhutab",
           "sõnale",
           "Mõnes",
           "just",
@@ -14761,7 +14761,7 @@ const A2_WORDS = [
           "fast",
           "kõlab",
           "lähedane",
-          "tuvu"
+          "lähedal"
         ],
         "green": [
           "väikese vahega",
@@ -15094,7 +15094,7 @@ const A2_WORDS = [
                 "yellow": [
                   "teavet",
                   "bekannt",
-                  "faktiem",
+                  "Faktide",
                   "tuntud"
                 ]
               }
@@ -15111,7 +15111,7 @@ const A2_WORDS = [
                   "tuntud"
                 ],
                 "yellow": [
-                  "inimestele",
+                  "Inimeste",
                   "tuntud",
                   "bekannt",
                   "kohtade",
@@ -15169,12 +15169,12 @@ const A2_WORDS = [
           "suhete",
           "sõbralik",
           "tuntud",
-          "raksturot",
+          "kirjeldada",
           "bekannt",
           "inimene",
           "inimest",
           "kuulus",
-          "citiem",
+          "teistele",
           "tuntud",
           "fakt",
           "fakti",
@@ -15393,7 +15393,7 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "tellin",
-                "pitsat"
+                "pitsa"
               ]
             }
           },
@@ -15408,8 +15408,8 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "tellime",
-                "raamatut",
-                "internetis"
+                "raamatu",
+                "internetist"
               ]
             }
           },
@@ -15436,7 +15436,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "broneerima",
+                "broneerida",
                 "lauda"
               ]
             }
@@ -15465,7 +15465,7 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "tellisid",
-                "pileteid"
+                "piletid"
               ]
             }
           }
@@ -15549,7 +15549,7 @@ const A2_WORDS = [
                 "Grüß"
               ],
               "purple": [
-                "pasveicini"
+                "Tervita"
               ]
             }
           },
@@ -16161,7 +16161,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "pirnid"
+                "pirni"
               ]
             }
           },
@@ -16250,7 +16250,7 @@ const A2_WORDS = [
                 "Birne"
               ],
               "purple": [
-                "pirnid"
+                "pirni"
               ]
             }
           },
@@ -16336,7 +16336,7 @@ const A2_WORDS = [
                   "elektripirn"
                 ],
                 "yellow": [
-                  "lampu",
+                  "lambist",
                   "tule"
                 ]
               }
@@ -16350,7 +16350,7 @@ const A2_WORDS = [
                 "die Birne"
               ],
               "purple": [
-                "augli",
+                "vilja",
                 "elektripirni"
               ]
             },
@@ -16454,7 +16454,7 @@ const A2_WORDS = [
         "bitte kirjutatakse väikese tähega — see on viisakussõna, mitte nimisõna.",
         "die Bitte suure algustähega ja artikliga die on nimisõna.",
         "Mitmus: die Bitten (palved).",
-        "Nepareizi: Die Bitte schön! → Pareizi: Bitte schön!"
+        "Vale: Die Bitte schön! → Õige: Bitte schön!"
       ],
       "sectionAccents": {
         "explanation": {
@@ -16494,7 +16494,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "palve"
+                "palun"
               ]
             }
           },
@@ -16507,7 +16507,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "palve"
+                "palun"
               ]
             }
           },
@@ -16520,7 +16520,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "palve"
+                "palun"
               ]
             }
           },
@@ -16658,7 +16658,7 @@ const A2_WORDS = [
               "purple": [
                 "kohv",
                 "maitseb",
-                "mõru"
+                "mõruvalt"
               ]
             }
           },
@@ -16862,9 +16862,9 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "bitter",
-                  "maitset",
+                  "Maitse",
                   "mõru",
-                  "tulko"
+                  "tõlgitakse"
                 ]
               }
             },
@@ -16875,8 +16875,8 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "tõtt",
-                  "kaotust",
-                  "kogemust",
+                  "kaotuse",
+                  "Kogemuse",
                   "bitter",
                   "sageli",
                   "telg"
@@ -16893,7 +16893,7 @@ const A2_WORDS = [
               ],
               "red": [
                 "bitter",
-                "maitse",
+                "maitset",
                 "ainult",
                 "eesnimi"
               ]
@@ -16928,7 +16928,7 @@ const A2_WORDS = [
           "bitter",
           "kohvi",
           "tunde",
-          "skarbs",
+          "karm",
           "maitse",
           "maitset",
           "mõru",
@@ -17132,7 +17132,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "põrandalt",
+                "põrandale",
                 "kukub",
                 "klaas"
               ]
@@ -17148,10 +17148,10 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "põrandalt",
+                "põrandale",
                 "pane",
                 "palun",
-                "kotti"
+                "kott"
               ]
             }
           },
@@ -17207,7 +17207,7 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "tugeval",
-                "aluse",
+                "alusel",
                 "seisab"
               ]
             }
@@ -17248,7 +17248,7 @@ const A2_WORDS = [
             },
             "example": {
               "blue": [
-                "põrandalt",
+                "põrandal",
                 "Tasche",
                 "Boden",
                 "Kott"
@@ -17370,11 +17370,11 @@ const A2_WORDS = [
                   "Boden"
                 ],
                 "orange": [
-                  "põrand"
+                  "põrandat"
                 ],
                 "yellow": [
                   "Boden",
-                  "põrand",
+                  "põrandat",
                   "Ruumis"
                 ]
               }
@@ -17385,12 +17385,12 @@ const A2_WORDS = [
                   "Boden"
                 ],
                 "yellow": [
-                  "tähendama",
+                  "tähendada",
                   "pudeli",
                   "Boden",
                   "Aias",
                   "looduses",
-                  "zemi"
+                  "maad"
                 ]
               }
             }
@@ -17405,7 +17405,7 @@ const A2_WORDS = [
               "red": [
                 "muutub",
                 "tähendus",
-                "koha",
+                "kohast",
                 "Boden"
               ]
             },
@@ -17438,19 +17438,19 @@ const A2_WORDS = [
           "der Boden",
           "Ülekantud",
           "tähendama",
-          "stabilu",
+          "kindlat",
           "muld",
-          "augsni",
+          "mulda",
           "põhi",
           "alus",
-          "pamatu",
+          "alust",
           "sageli",
           "Boden",
           "põrand",
           "põrandat",
           "ruumis",
           "maa",
-          "zemi"
+          "maad"
         ],
         "green": [
           "der Fußboden",
@@ -17587,13 +17587,13 @@ const A2_WORDS = [
             },
             "lv": {
               "orange": [
-                "laenama"
+                "laenata"
               ],
               "purple": [
-                "laenama",
+                "laenata",
                 "jalgratast",
                 "sinu",
-                "saan"
+                "varuosa"
               ]
             }
           },
@@ -17607,7 +17607,7 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "laenan",
-                "raamatut",
+                "raamatu",
                 "oma"
               ]
             }
@@ -17624,7 +17624,7 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "laenab",
-                "venna",
+                "vennalt",
                 "raha"
               ]
             }
@@ -17642,7 +17642,7 @@ const A2_WORDS = [
               "purple": [
                 "sõbratarile",
                 "laenab",
-                "kleiti"
+                "kleidi"
               ]
             }
           },
@@ -17656,10 +17656,10 @@ const A2_WORDS = [
             },
             "lv": {
               "orange": [
-                "laenama"
+                "laenata"
               ],
               "purple": [
-                "laenama",
+                "laenata",
                 "sulepead",
                 "tohin"
               ]
@@ -17692,8 +17692,8 @@ const A2_WORDS = [
             "meaning": {
               "purple": [
                 "laenuks võtma / laenuks andma",
-                "laenama",
-                "laenama"
+                "laenuks",
+                "laenuks"
               ]
             },
             "example": {
@@ -17714,14 +17714,14 @@ const A2_WORDS = [
             "meaning": {
               "purple": [
                 "laenuks andma / laenuks võtma",
-                "laenama",
-                "laenama"
+                "laenuks",
+                "laenuks"
               ]
             },
             "example": {
               "green": [
-                "raamatut",
-                "laenama",
+                "raamatu",
+                "laenata",
                 "Kannst",
                 "leihen",
                 "Buch",
@@ -17764,7 +17764,7 @@ const A2_WORDS = [
             },
             "example": {
               "red": [
-                "raamatut",
+                "raamatu",
                 "annan tagasi",
                 "zurück",
                 "Buch",
@@ -17796,10 +17796,10 @@ const A2_WORDS = [
                   "borgen"
                 ],
                 "green": [
-                  "laenama"
+                  "laenuks"
                 ],
                 "yellow": [
-                  "laenama",
+                  "laenuks",
                   "borgen",
                   "sageli",
                   "teisele"
@@ -17816,7 +17816,7 @@ const A2_WORDS = [
               ],
               "red": [
                 "sõltuv",
-                "virziena",
+                "suunast",
                 "borgen",
                 "tähendus"
               ]
@@ -17836,7 +17836,7 @@ const A2_WORDS = [
         "blue": [
           "standardStudy",
           "laenama",
-          "latviski",
+          "eesti keeles",
           "isiku",
           "Suund",
           "tähendama",
@@ -18105,7 +18105,7 @@ const A2_WORDS = [
                 "ärgerlich"
               ],
               "purple": [
-                "ärritavalt"
+                "ärritav"
               ]
             }
           },
@@ -18357,14 +18357,14 @@ const A2_WORDS = [
               "brav"
             ],
             "purple": [
-              "kuulekat",
+              "kuulekalt",
               "korralikku",
               "hästi kasvatatud",
               "kuulekalt"
             ],
             "green": [
               "käitumist",
-              "uzvedas"
+              "käitub"
             ],
             "yellow": [
               "gut"
@@ -18425,7 +18425,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "korralikult"
+                "korralikud"
               ]
             }
           },
@@ -18593,7 +18593,7 @@ const A2_WORDS = [
               "green": [
                 "lapse",
                 "looma",
-                "käitumist"
+                "käitumisest"
               ]
             }
           },
@@ -18874,7 +18874,7 @@ const A2_WORDS = [
                 "an"
               ],
               "purple": [
-                "aizdedzinu"
+                "süütan"
               ]
             }
           },
@@ -18901,7 +18901,7 @@ const A2_WORDS = [
             },
             "example": {
               "purple": [
-                "kustutab"
+                "kustutavad"
               ]
             }
           },
@@ -18940,7 +18940,7 @@ const A2_WORDS = [
                 "verbrennen"
               ],
               "purple": [
-                "aizdedzini",
+                "süütad",
                 "põletatakse"
               ]
             }
@@ -18983,7 +18983,7 @@ const A2_WORDS = [
                 "brennen"
               ],
               "purple": [
-                "kõrvetavalt valutab"
+                "kõrvetavalt valutavad"
               ],
               "yellow": [
                 "Augen",
@@ -19265,11 +19265,11 @@ const A2_WORDS = [
             },
             "lv": {
               "green": [
-                "kaasa"
+                "kaasas"
               ],
               "purple": [
                 "raha",
-                "kaasa"
+                "kaasas"
               ]
             }
           },
@@ -19283,11 +19283,11 @@ const A2_WORDS = [
             },
             "lv": {
               "green": [
-                "kaasa"
+                "kaasas"
               ],
               "purple": [
                 "dokument",
-                "kaasa",
+                "kaasas",
                 "pass"
               ]
             }
@@ -19342,7 +19342,7 @@ const A2_WORDS = [
                 "seejuures"
               ],
               "purple": [
-                "vastutav",
+                "vastutustundlik",
                 "noor"
               ]
             }
@@ -19379,7 +19379,7 @@ const A2_WORDS = [
                 "dabei"
               ],
               "purple": [
-                "kaasa"
+                "kaasas"
               ]
             }
           },
@@ -19394,7 +19394,7 @@ const A2_WORDS = [
                 "mit dabei"
               ],
               "purple": [
-                "osaleb"
+                "osaled"
               ]
             }
           },
@@ -19449,14 +19449,14 @@ const A2_WORDS = [
                   "dabei"
                 ],
                 "green": [
-                  "kaasa"
+                  "kaasas"
                 ],
                 "yellow": [
-                  "latviski",
+                  "eesti keeles",
                   "ütlema",
                   "saksa keeles",
                   "sageli",
-                  "kaasa",
+                  "kaasas",
                   "saad"
                 ]
               }
@@ -19467,7 +19467,7 @@ const A2_WORDS = [
                   "dabei"
                 ],
                 "yellow": [
-                  "pievienotu",
+                  "lisada",
                   "pealegi",
                   "dabei",
                   "kasutatakse",
@@ -19509,7 +19509,7 @@ const A2_WORDS = [
               ],
               "red": [
                 "kaasatud",
-                "piedalos",
+                "osalen",
                 "protsessis",
                 "dabei",
                 "olen",
@@ -19532,7 +19532,7 @@ const A2_WORDS = [
           "sagedane",
           "dabei",
           "kaasa",
-          "sevis",
+          "enda",
           "Seepärast",
           "eesnimi",
           "keegi",
@@ -19865,7 +19865,7 @@ const A2_WORDS = [
                 "für das"
               ],
               "purple": [
-                "lapsele"
+                "lapse"
               ]
             }
           }
@@ -19881,7 +19881,7 @@ const A2_WORDS = [
                   "selle eest"
                 ],
                 "yellow": [
-                  "latviski",
+                  "eesti keeles",
                   "ütlema",
                   "saksa keeles",
                   "sageli",
@@ -19896,7 +19896,7 @@ const A2_WORDS = [
                   "dafür"
                 ],
                 "yellow": [
-                  "vastand",
+                  "vastandus",
                   "lauses",
                   "seevastu",
                   "sageli",
@@ -19953,11 +19953,11 @@ const A2_WORDS = [
           "mainitud",
           "tegevust",
           "otstarbeks",
-          "atbild",
+          "vastab",
           "seevastu",
           "Sageli",
           "dafür",
-          "ideju",
+          "idee",
           "kellelegi",
           "kasutatakse",
           "asja",
@@ -20098,8 +20098,8 @@ const A2_WORDS = [
                 "sellega"
               ],
               "purple": [
-                "töötama",
-                "saan"
+                "töötada",
+                "varuosa"
               ]
             }
           },
@@ -20115,7 +20115,7 @@ const A2_WORDS = [
                 "sellega"
               ],
               "purple": [
-                "tee"
+                "teed"
               ]
             }
           },
@@ -20151,7 +20151,7 @@ const A2_WORDS = [
               ],
               "purple": [
                 "keelt",
-                "saaks",
+                "saaksin",
                 "Saksamaal",
                 "õpin",
                 "saksa"
@@ -20207,14 +20207,14 @@ const A2_WORDS = [
             },
             "lv": {
               "green": [
-                "selleks"
+                "sellega"
               ],
               "orange": [
                 "sellega"
               ],
               "purple": [
                 "nõustun",
-                "nõus",
+                "nõustun",
                 "olen"
               ]
             }
@@ -20247,7 +20247,7 @@ const A2_WORDS = [
                 "mit dem"
               ],
               "purple": [
-                "sellega"
+                "selle"
               ]
             }
           },
@@ -20293,7 +20293,7 @@ const A2_WORDS = [
                 "yellow": [
                   "damit",
                   "kasutatakse",
-                  "asja",
+                  "asjaga",
                   "mõte"
                 ]
               }
@@ -20307,7 +20307,7 @@ const A2_WORDS = [
                   "et"
                 ],
                 "yellow": [
-                  "notiktu",
+                  "juhtuks",
                   "eesmärk",
                   "sageli",
                   "damit",
@@ -20353,7 +20353,7 @@ const A2_WORDS = [
               "red": [
                 "verstehe",
                 "langsam",
-                "Nejaukt",
+                "Ära aja",
                 "Sprich",
                 "damit",
                 "dich"
@@ -20367,7 +20367,7 @@ const A2_WORDS = [
           "standardStudy",
           "tähtsamaid",
           "kõrvallause",
-          "instrumentu",
+          "tööriista",
           "galvenie",
           "tuleb eraldada",
           "tähendama",
@@ -20600,7 +20600,7 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "tänan",
-                "kingitust"
+                "kingi"
               ],
               "green": [
                 "sulle"
@@ -20744,7 +20744,7 @@ const A2_WORDS = [
                   "danke"
                 ],
                 "purple": [
-                  "atbildei",
+                  "vastuseks",
                   "aitäh"
                 ]
               }
@@ -20756,8 +20756,8 @@ const A2_WORDS = [
                   "danke Ihnen"
                 ],
                 "purple": [
-                  "formaalsemale",
-                  "tänule"
+                  "Formaalsema",
+                  "tänu"
                 ]
               }
             }
@@ -20927,7 +20927,7 @@ const A2_WORDS = [
                 "sellele"
               ],
               "purple": [
-                "lootma",
+                "loota",
                 "saad"
               ]
             }
@@ -20944,7 +20944,7 @@ const A2_WORDS = [
                 "sellele"
               ],
               "purple": [
-                "vastuse"
+                "vastust"
               ]
             }
           },
@@ -20957,7 +20957,7 @@ const A2_WORDS = [
             },
             "lv": {
               "green": [
-                "sellel"
+                "selle"
               ],
               "purple": [
                 "raamat"
@@ -21024,7 +21024,7 @@ const A2_WORDS = [
                 "auf das"
               ],
               "purple": [
-                "raamatul"
+                "raamatu"
               ]
             }
           },
@@ -21078,10 +21078,10 @@ const A2_WORDS = [
                   "darauf"
                 ],
                 "orange": [
-                  "sellele"
+                  "selle"
                 ],
                 "yellow": [
-                  "latviski",
+                  "eesti keeles",
                   "saksa keeles",
                   "darauf",
                   "sageli"
@@ -21097,11 +21097,11 @@ const A2_WORDS = [
                 "darauf"
               ],
               "green": [
-                "sellel"
+                "sellele"
               ],
               "red": [
                 "rõõmustan",
-                "burtiski",
+                "sõna-sõnalt",
                 "ei tähenda",
                 "Darauf",
                 "freue",
@@ -21142,7 +21142,7 @@ const A2_WORDS = [
           "reageerima",
           "kasutatakse",
           "asja",
-          "domu",
+          "mõtet",
           "kõne"
         ],
         "green": [
@@ -21484,8 +21484,8 @@ const A2_WORDS = [
                 "darüber"
               ],
               "red": [
-                "tematisks",
-                "telpisks",
+                "teemaline",
+                "ruumiline",
                 "darüber"
               ]
             },
@@ -21684,7 +21684,7 @@ const A2_WORDS = [
               ],
               "purple": [
                 "ei sõida",
-                "vihm",
+                "vihma",
                 "seepärast",
                 "sajab vihma"
               ]
@@ -21861,12 +21861,12 @@ const A2_WORDS = [
                   "seepärast"
                 ],
                 "yellow": [
-                  "paskaidro",
-                  "iemeslu",
+                  "selgitatakse",
+                  "põhjust",
                   "lauses",
                   "sageli",
                   "darum",
-                  "sekas"
+                  "tagajärge"
                 ]
               }
             },
@@ -21879,7 +21879,7 @@ const A2_WORDS = [
                   "selle eest"
                 ],
                 "yellow": [
-                  "Izteiciens",
+                  "Väljend",
                   "darum",
                   "geht",
                   "kõne"
@@ -21929,12 +21929,12 @@ const A2_WORDS = [
           "Kõnekeeles",
           "formaalne",
           "loomulikum",
-          "iemeslu",
+          "põhjust",
           "tähendama",
           "sageli",
           "darum",
           "kasutatakse",
-          "sekas",
+          "tagajärge",
           "seetõttu",
           "seepärast",
           "koha",
@@ -22270,7 +22270,7 @@ const A2_WORDS = [
               ],
               "purple": [
                 "sellest",
-                "rodas",
+                "tekib",
                 "tuleb välja"
               ]
             }
@@ -22369,16 +22369,16 @@ const A2_WORDS = [
             "purple": [
               "ees",
               "enne seda",
-              "sellest"
+              "selle"
             ],
             "green": [
-              "koha"
+              "kohast"
             ],
             "yellow": [
               "ajast"
             ],
             "red": [
-              "hirmust",
+              "hirmu",
               "hoiatuse"
             ]
           }
@@ -22468,7 +22468,7 @@ const A2_WORDS = [
               "purple": [
                 "ees",
                 "enne seda",
-                "sellest"
+                "selle"
               ]
             },
             "example": {
@@ -22476,7 +22476,7 @@ const A2_WORDS = [
                 "davor"
               ],
               "purple": [
-                "sellest"
+                "selle"
               ]
             }
           },
@@ -22533,7 +22533,7 @@ const A2_WORDS = [
                 "davor"
               ],
               "purple": [
-                "sellest"
+                "selle"
               ],
               "green": [
                 "hirm",
@@ -22678,15 +22678,15 @@ const A2_WORDS = [
             ],
             "purple": [
               "selleks",
-              "selle juures",
-              "kohal",
+              "selle juurde",
+              "kohta",
               "pealegi"
             ],
             "green": [
-              "pievienots"
+              "lisatakse"
             ],
             "yellow": [
-              "arvamust"
+              "arvamusest"
             ],
             "red": [
               "dafür",
@@ -22751,7 +22751,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "selle juures"
+                "selle juurde"
               ]
             }
           },
@@ -22778,7 +22778,7 @@ const A2_WORDS = [
             "meaning": {
               "purple": [
                 "selleks",
-                "selle juures",
+                "selle juurde",
                 "kohal",
                 "pealegi"
               ]
@@ -22845,8 +22845,8 @@ const A2_WORDS = [
                 "dazu"
               ],
               "purple": [
-                "kohal",
-                "selle juures"
+                "kohta",
+                "selle juurde"
               ]
             }
           },
@@ -22988,9 +22988,9 @@ const A2_WORDS = [
             ],
             "purple": [
               "tekki",
-              "griestus",
+              "lage",
               "tekk",
-              "lagi"
+              "lage"
             ],
             "green": [
               "Bettdecke"
@@ -23169,7 +23169,7 @@ const A2_WORDS = [
             },
             "example": {
               "orange": [
-                "seina"
+                "seinal"
               ]
             }
           }
@@ -23185,7 +23185,7 @@ const A2_WORDS = [
               ],
               "green": [
                 "magamisest",
-                "siltumu"
+                "soojusest"
               ]
             }
           },
@@ -23198,7 +23198,7 @@ const A2_WORDS = [
                 "lagi"
               ],
               "yellow": [
-                "lampu",
+                "lambist",
                 "tube"
               ]
             }
@@ -23234,7 +23234,7 @@ const A2_WORDS = [
                 "Zimmerdecke"
               ],
               "purple": [
-                "lagi"
+                "lage"
               ]
             }
           }
@@ -23557,7 +23557,7 @@ const A2_WORDS = [
                 "denn"
               ],
               "purple": [
-                "iemeslu",
+                "põhjust",
                 "küsimust"
               ]
             }
@@ -23710,13 +23710,13 @@ const A2_WORDS = [
             ],
             "green": [
               "inimest",
-              "looma"
+              "loomast"
             ],
             "yellow": [
               "raamatut",
               "seina",
               "kihti",
-              "kangast"
+              "kanga"
             ],
             "red": [
               "dünn",
@@ -23914,7 +23914,7 @@ const A2_WORDS = [
                 "solvavalt"
               ],
               "green": [
-                "inimestele"
+                "Inimeste"
               ]
             }
           }
@@ -24326,7 +24326,7 @@ const A2_WORDS = [
               ],
               "red": [
                 "weißt",
-                "zini",
+                "tead",
                 "ja"
               ]
             }
@@ -24366,9 +24366,9 @@ const A2_WORDS = [
                   "ja"
                 ],
                 "yellow": [
-                  "emocija",
+                  "emotsioonina",
                   "lauses",
-                  "uzsvars",
+                  "rõhutusena",
                   "doch",
                   "kõlab",
                   "saksa"
@@ -24404,7 +24404,7 @@ const A2_WORDS = [
               "red": [
                 "tuleb tõlkida",
                 "sageli",
-                "sõnas",
+                "sõna-sõnalt",
                 "eesnimi",
                 "doch"
               ]
@@ -24437,14 +24437,14 @@ const A2_WORDS = [
           "standardStudy",
           "tähtsamaid",
           "eelnevale",
-          "sarunvalodas",
+          "kõnekeele",
           "vastupidi sellele",
           "Vastustes",
           "tähendama",
           "vastupidi",
           "sõnadega",
           "sageli",
-          "domai",
+          "mõttele",
           "vastas",
           "siiski",
           "üks",
@@ -24569,7 +24569,7 @@ const A2_WORDS = [
             "purple": [
               "doktor",
               "arsti",
-              "arst"
+              "arsti"
             ],
             "green": [
               "der Arzt"
@@ -24756,7 +24756,7 @@ const A2_WORDS = [
                 "Ärztin"
               ],
               "purple": [
-                "profesiju"
+                "ametist"
               ],
               "green": [
                 "kõige kindlam sõna"
@@ -24770,7 +24770,7 @@ const A2_WORDS = [
               ],
               "purple": [
                 "tiitel",
-                "arstile"
+                "arsti"
               ]
             }
           }
@@ -24913,7 +24913,7 @@ const A2_WORDS = [
             ],
             "purple": [
               "lõikama",
-              "pagriezt",
+              "pöörama",
               "keerama",
               "pöörleb"
             ],
@@ -25015,7 +25015,7 @@ const A2_WORDS = [
               "purple": [
                 "lõikama",
                 "keerama",
-                "pagriezt"
+                "pöörama"
               ]
             },
             "example": {
@@ -25052,7 +25052,7 @@ const A2_WORDS = [
             },
             "meaning": {
               "purple": [
-                "apgriezt"
+                "ümber pöörama"
               ]
             },
             "example": {
@@ -25069,7 +25069,7 @@ const A2_WORDS = [
             },
             "meaning": {
               "purple": [
-                "griezties"
+                "pöörduma"
               ]
             },
             "example": {
@@ -25087,7 +25087,7 @@ const A2_WORDS = [
             "meaning": {
               "purple": [
                 "ümber pöörama",
-                "pagriezties"
+                "ringi pöörduma"
               ]
             },
             "example": {
@@ -25114,7 +25114,7 @@ const A2_WORDS = [
                 "schneiden"
               ],
               "purple": [
-                "nazi",
+                "noa",
                 "kääridega"
               ]
             }
@@ -25137,7 +25137,7 @@ const A2_WORDS = [
                 "Drehen"
               ],
               "purple": [
-                "pagriezt",
+                "pöörama",
                 "keerama",
                 "pöörlema"
               ]
@@ -25149,7 +25149,7 @@ const A2_WORDS = [
                 "sich drehen"
               ],
               "purple": [
-                "griezties"
+                "pöörduma"
               ]
             }
           }
@@ -25161,7 +25161,7 @@ const A2_WORDS = [
         "dreht": "#24A8FF",
         "lõikama": "#B565FF",
         "keerama": "#B565FF",
-        "pagriezt": "#B565FF",
+        "pöörama": "#B565FF",
         "schneiden": "#FFD21F",
         "schneide": "#FFD21F",
         "wenden": "#35D46A",
@@ -25249,7 +25249,7 @@ const A2_WORDS = [
         "Pea meeles umlauti: drücken ü-ga ei ole sama mis drucken ilma ü-ta."
       ],
       "important": [
-        "drücken = spiest.",
+        "drücken = vajutama.",
         "drucken = trükkima.",
         "Need sõnad näevad sarnased välja, aga tähendus on teine."
       ],
@@ -25261,17 +25261,17 @@ const A2_WORDS = [
             ],
             "purple": [
               "vajutama",
-              "nospiest",
-              "piespiest"
+              "vajutama",
+              "vastu suruma"
             ],
             "green": [
-              "nuppu"
+              "Nupu"
             ],
             "yellow": [
               "drucken"
             ],
             "red": [
-              "trükkima"
+              "trükkimist"
             ]
           }
         },
@@ -25359,7 +25359,7 @@ const A2_WORDS = [
             "meaning": {
               "purple": [
                 "vajutama",
-                "nospiest"
+                "vajutama"
               ]
             },
             "example": {
@@ -25450,10 +25450,10 @@ const A2_WORDS = [
                 "drücken"
               ],
               "purple": [
-                "nospiest"
+                "vajutama"
               ],
               "yellow": [
-                "nuppudele",
+                "Nuppude",
                 "ekraanide"
               ]
             }
@@ -25467,7 +25467,7 @@ const A2_WORDS = [
                 "drucken"
               ],
               "green": [
-                "umlautu",
+                "umlauti",
                 "ü"
               ]
             }
@@ -25513,9 +25513,9 @@ const A2_WORDS = [
         "drücken": "#24A8FF",
         "Drück": "#24A8FF",
         "drückt": "#24A8FF",
+        "suruma": "#B565FF",
         "vajutama": "#B565FF",
-        "nospiest": "#B565FF",
-        "piespiest": "#B565FF",
+        "vastu suruma": "#B565FF",
         "drucken": "#FFD21F",
         "drucke": "#FFD21F",
         "trükkima": "#FF4D4D",
@@ -25795,7 +25795,7 @@ const A2_WORDS = [
             },
             "example": {
               "green": [
-                "liesa"
+                "lahja"
               ]
             }
           },
@@ -25952,8 +25952,8 @@ const A2_WORDS = [
             ],
             "purple": [
               "läbi",
-              "pa",
-              "ar",
+              "kaupa",
+              "-ga",
               "tõttu"
             ],
             "green": [
@@ -25988,7 +25988,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "pa"
+                "kaupa"
               ]
             }
           },
@@ -26000,7 +26000,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "ar"
+                "-ga"
               ]
             }
           },
@@ -26012,7 +26012,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "pa"
+                "kaupa"
               ]
             }
           },
@@ -26024,7 +26024,7 @@ const A2_WORDS = [
             },
             "lv": {
               "yellow": [
-                "ar"
+                "-ga"
               ]
             }
           },
@@ -26051,8 +26051,8 @@ const A2_WORDS = [
             "meaning": {
               "purple": [
                 "läbi",
-                "pa",
-                "ar"
+                "kaupa",
+                "-ga"
               ]
             },
             "example": {
@@ -26112,7 +26112,7 @@ const A2_WORDS = [
             },
             "meaning": {
               "purple": [
-                "ar"
+                "-ga"
               ]
             },
             "example": {
@@ -26149,8 +26149,8 @@ const A2_WORDS = [
                 "läbi"
               ],
               "green": [
-                "telpai",
-                "vietai"
+                "ruumist",
+                "kohast"
               ]
             }
           },
@@ -26160,7 +26160,7 @@ const A2_WORDS = [
                 "mit"
               ],
               "purple": [
-                "transporti"
+                "transpordist"
               ]
             }
           }
@@ -26198,7 +26198,7 @@ const A2_WORDS = [
                 "mit"
               ],
               "purple": [
-                "transporti",
+                "transpordiga",
                 "koos kellegagi"
               ]
             }
@@ -26210,8 +26210,8 @@ const A2_WORDS = [
         "Durch": "#24A8FF",
         "durch den Park": "#24A8FF",
         "läbi": "#B565FF",
-        "pa": "#B565FF",
-        "ar": "#B565FF",
+        "kaupa": "#B565FF",
+        "-ga": "#B565FF",
         "durch die Stadt": "#35D46A",
         "mit": "#FFD21F",
         "mit dem Bus": "#FFD21F",
@@ -26419,7 +26419,7 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "ei saa",
-                "teadma",
+                "teada",
                 "ju",
                 "kogu"
               ]
@@ -26542,7 +26542,7 @@ const A2_WORDS = [
             },
             "example": {
               "red": [
-                "plakana",
+                "tasane",
                 "flach",
                 "Land",
                 "Maa"
@@ -26563,7 +26563,7 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "sageli",
-                  "ajast",
+                  "ajaga",
                   "just",
                   "eben",
                   "koos"
@@ -26579,9 +26579,9 @@ const A2_WORDS = [
                   "nii see on"
                 ],
                 "yellow": [
-                  "attieksme",
+                  "suhtumine",
                   "lihtsalt",
-                  "latviski",
+                  "eesti keeles",
                   "sageli",
                   "eben",
                   "kõlab"
@@ -26627,10 +26627,10 @@ const A2_WORDS = [
           "Kõnekeeles",
           "omadussõna",
           "lausetes",
-          "Daudzos",
+          "Paljudes",
           "tasane",
           "tähendama",
-          "izsaka",
+          "väljendab",
           "sageli",
           "sile",
           "ajast",
@@ -26785,8 +26785,8 @@ const A2_WORDS = [
               "ehrlich"
             ],
             "purple": [
-              "ausat",
-              "avameelset",
+              "ausalt",
+              "avameelne",
               "ausalt"
             ],
             "green": [
@@ -26912,7 +26912,7 @@ const A2_WORDS = [
             },
             "example": {
               "yellow": [
-                "siiralt"
+                "siiras"
               ]
             }
           },
@@ -26969,8 +26969,8 @@ const A2_WORDS = [
                 "freundlich"
               ],
               "purple": [
-                "laipnu",
-                "jauku attieksmi"
+                "lahkest",
+                "toredast suhtumisest"
               ]
             }
           }
@@ -27290,7 +27290,7 @@ const A2_WORDS = [
               ],
               "purple": [
                 "ehtsast asjast",
-                "patiesu apgalvojumu"
+                "tõesest väitest"
               ]
             }
           }
@@ -27625,7 +27625,7 @@ const A2_WORDS = [
             },
             "example": {
               "yellow": [
-                "apciemoju",
+                "külastan",
                 "besuche",
                 "dich",
                 "sind"
@@ -27650,7 +27650,7 @@ const A2_WORDS = [
                 "bitte",
                 "Bring",
                 "kaasa",
-                "leiba",
+                "leib",
                 "Võta",
                 "Brot"
               ]
@@ -27674,7 +27674,7 @@ const A2_WORDS = [
                   "kontekstis",
                   "kutsuma",
                   "einladen",
-                  "Personu",
+                  "Inimeste",
                   "kutsuma"
                 ]
               }
@@ -27703,7 +27703,7 @@ const A2_WORDS = [
               "red": [
                 "tegevuse",
                 "einladen",
-                "fizisks",
+                "füüsiline",
                 "sotsiaalne",
                 "eesnimi"
               ]
@@ -27736,15 +27736,15 @@ const A2_WORDS = [
           "üritustele",
           "kontekstis",
           "kutsuma",
-          "draugiem",
+          "sõprade",
           "einladen",
           "inimest",
           "laadima",
           "tähendama",
-          "viesiem",
+          "külaliste",
           "kutsuma",
           "kaupa",
-          "kravu",
+          "koorma",
           "laden",
           "kasutatakse",
           "Teisel"
@@ -27891,7 +27891,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "telerit",
+                "teler",
                 "lülita sisse",
                 "palun"
               ]
@@ -27937,7 +27937,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "kaasatud",
+                "kaasati",
                 "politsei",
                 "sai"
               ]
@@ -27953,10 +27953,10 @@ const A2_WORDS = [
             },
             "lv": {
               "orange": [
-                "sisse lülitama"
+                "sisse lülitada"
               ],
               "purple": [
-                "sisse lülitama",
+                "sisse lülitada",
                 "radio",
                 "saad"
               ]
@@ -28002,7 +28002,7 @@ const A2_WORDS = [
                 "Computer",
                 "Lülita välja",
                 "Schalte",
-                "arvutit"
+                "arvuti"
               ]
             }
           },
@@ -28056,12 +28056,12 @@ const A2_WORDS = [
                   "einschalten"
                 ],
                 "orange": [
-                  "sisse lülitama"
+                  "sisse lülitamist"
                 ],
                 "yellow": [
                   "einschalten",
                   "Seadmete",
-                  "sisse lülitama"
+                  "sisse lülitamist"
                 ]
               }
             },
@@ -28072,7 +28072,7 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "institutsioonide",
-                  "Inimestele",
+                  "Inimeste",
                   "kaasama"
                 ]
               }
@@ -28091,7 +28091,7 @@ const A2_WORDS = [
               "red": [
                 "ausschalten",
                 "einschalten",
-                "pretstati",
+                "vastandid",
                 "seadmete"
               ]
             },
@@ -28231,7 +28231,7 @@ const A2_WORDS = [
       "important": [
         "einschlafen ei ole sama mis schlafen.",
         "schlafen = magama.",
-        "einschlafen = aizmigt.",
+        "einschlafen = magama jääma.",
         "Mein Bein ist eingeschlafen = mul jäi jalg tuimaks."
       ],
       "sectionAccents": {
@@ -28243,13 +28243,13 @@ const A2_WORDS = [
           "purple": [
             "magama jääma",
             "surnuks jääma",
-            "iemieg",
+            "uinub",
             "jääb tundetuks"
           ],
           "green": [
-            "inimest",
-            "roku",
-            "jalast",
+            "Inimese",
+            "käe",
+            "jala",
             "kehaosa"
           ]
         },
@@ -28293,7 +28293,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "magama jääma"
+                "magama jääda"
               ]
             }
           },
@@ -28407,7 +28407,7 @@ const A2_WORDS = [
                 "auf"
               ],
               "purple": [
-                "pamostos"
+                "ärkan"
               ]
             }
           },
@@ -28427,7 +28427,7 @@ const A2_WORDS = [
                 "taub"
               ],
               "purple": [
-                "tundetu"
+                "tundetuks"
               ]
             }
           }
@@ -28442,8 +28442,8 @@ const A2_WORDS = [
                 "magama jääma"
               ],
               "green": [
-                "inimest",
-                "miegu"
+                "inimesest",
+                "unest"
               ]
             }
           },
@@ -28453,10 +28453,10 @@ const A2_WORDS = [
                 "eingeschlafen"
               ],
               "purple": [
-                "notirpis"
+                "tuim"
               ],
               "green": [
-                "roku",
+                "käest",
                 "jalast"
               ]
             }
@@ -28592,7 +28592,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "bussis",
+                "bussi",
                 "astun"
               ]
             }
@@ -28608,7 +28608,7 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "astuge",
-                "ees",
+                "eest",
                 "palun"
               ]
             }
@@ -28636,7 +28636,7 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "lööb kaasa",
-                "projekti"
+                "projektis"
               ]
             }
           },
@@ -28652,7 +28652,7 @@ const A2_WORDS = [
               "purple": [
                 "firma",
                 "siseneb",
-                "turul"
+                "turule"
               ]
             }
           },
@@ -28745,7 +28745,7 @@ const A2_WORDS = [
             },
             "example": {
               "red": [
-                "piedalos",
+                "osalen",
                 "mache"
               ]
             }
@@ -28782,7 +28782,7 @@ const A2_WORDS = [
                 "yellow": [
                   "kaasa lööma",
                   "einsteigen",
-                  "Projekti",
+                  "Projektis",
                   "turul",
                   "alustama"
                 ]
@@ -28820,7 +28820,7 @@ const A2_WORDS = [
               "red": [
                 "aussteigen",
                 "einsteigen",
-                "autobusa",
+                "bussi",
                 "bussis",
                 "sisse astuma",
                 "väljuma"
@@ -28939,7 +28939,7 @@ const A2_WORDS = [
       ],
       "important": [
         "der Eintritt = sissepääs või tasu sisenemise eest.",
-        "der Eingang = fiziska ieeja.",
+        "der Eingang = füüsiline sissepääs.",
         "die Eintrittskarte = sissepääsupilet.",
         "Organisatsiooniga liitumist väljendatakse sageli ka sõnaga beitreten."
       ],
@@ -28949,7 +28949,7 @@ const A2_WORDS = [
             "Eintritt"
           ],
           "purple": [
-            "ieeju",
+            "sissepääsu",
             "sissepääsutasu",
             "liitumist"
           ],
@@ -28957,7 +28957,7 @@ const A2_WORDS = [
             "Eingang"
           ],
           "yellow": [
-            "muzeja",
+            "Muuseumi",
             "kino",
             "ürituse"
           ]
@@ -29162,8 +29162,8 @@ const A2_WORDS = [
                 "sissepääsutasu"
               ],
               "yellow": [
-                "hinda",
-                "üritust"
+                "hinnast",
+                "üritusest"
               ]
             }
           },
@@ -29174,7 +29174,7 @@ const A2_WORDS = [
               ],
               "purple": [
                 "ustest",
-                "koha"
+                "kohast"
               ]
             }
           }
@@ -29217,7 +29217,7 @@ const A2_WORDS = [
                 "beitreten"
               ],
               "purple": [
-                "liitumine"
+                "liitumist"
               ]
             }
           }
@@ -29400,7 +29400,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "lähedane"
+                "lähedased"
               ]
             }
           },
@@ -29957,7 +29957,7 @@ const A2_WORDS = [
             "dich"
           ],
           "red": [
-            "nesajaukt"
+            "mitte ajada segi"
           ]
         },
         "examples": [
@@ -29972,7 +29972,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "meelde tuletama"
+                "meelde tuletada"
               ],
               "green": [
                 "mulle"
@@ -30139,7 +30139,7 @@ const A2_WORDS = [
                 "vergesse"
               ],
               "purple": [
-                "aizmirstu"
+                "unustan"
               ]
             }
           },
@@ -30160,7 +30160,7 @@ const A2_WORDS = [
                 "Denk an"
               ],
               "purple": [
-                "atceries"
+                "Pea"
               ]
             }
           }
@@ -30429,7 +30429,7 @@ const A2_WORDS = [
         "explanation": {
           "blue": [
             "etwa",
-            "etwa + skaitlis",
+            "etwa + arv",
             "etwa küsimuses"
           ],
           "purple": [
@@ -30446,10 +30446,10 @@ const A2_WORDS = [
             "etteheidet"
           ],
           "yellow": [
-            "skaitlis",
+            "arv",
             "10 Euro",
             "10 eurot",
-            "arvude"
+            "Arvudega"
           ]
         },
         "examples": [
@@ -30667,7 +30667,7 @@ const A2_WORDS = [
                 "umbes"
               ],
               "yellow": [
-                "skaitli"
+                "arvuga"
               ]
             }
           },
@@ -30696,7 +30696,7 @@ const A2_WORDS = [
                 "umbes"
               ],
               "yellow": [
-                "skaitlis"
+                "arv"
               ]
             }
           },
@@ -30865,8 +30865,8 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "lahtris",
-                "ülemises",
-                "raamatut",
+                "ülemisse",
+                "raamat",
                 "pane"
               ]
             }
@@ -30885,7 +30885,7 @@ const A2_WORDS = [
               "purple": [
                 "matemaatika",
                 "ese",
-                "lemmik",
+                "lemmikaine",
                 "minu"
               ]
             }
@@ -30906,7 +30906,7 @@ const A2_WORDS = [
                 "õppeaine",
                 "ese",
                 "tähtis",
-                "õppe",
+                "õppeaine",
                 "keel",
                 "saksa"
               ]
@@ -30941,7 +30941,7 @@ const A2_WORDS = [
               "purple": [
                 "spetsialist",
                 "valdkonnas",
-                "selles"
+                "selle"
               ]
             }
           },
@@ -31006,7 +31006,7 @@ const A2_WORDS = [
               "purple": [
                 "õppeaine",
                 "ese",
-                "õppe"
+                "õppeaine"
               ]
             },
             "example": {
@@ -31015,7 +31015,7 @@ const A2_WORDS = [
                 "Bioloogia",
                 "Schulfach",
                 "Biologie",
-                "õppe"
+                "õppeaine"
               ],
               "purple": [
                 "õppeaine"
@@ -31033,7 +31033,7 @@ const A2_WORDS = [
               "purple": [
                 "kapiriiul",
                 "lahter",
-                "kapi"
+                "kapiriiul"
               ]
             },
             "example": {
@@ -31041,7 +31041,7 @@ const A2_WORDS = [
                 "das Schrankfach",
                 "Schrankfach",
                 "lahter",
-                "Kapi",
+                "Kapiriiul",
                 "klein",
                 "väike"
               ],
@@ -31116,7 +31116,7 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "ese",
-                  "õppe",
+                  "õppeaine",
                   "Koolis",
                   "Fach"
                 ]
@@ -31148,12 +31148,12 @@ const A2_WORDS = [
                 "Fach"
               ],
               "red": [
-                "kutsealases",
+                "kutseala",
                 "füüsiline",
                 "õppe",
                 "koht",
                 "Fach",
-                "joma"
+                "kutseala"
               ]
             },
             "example": {
@@ -31193,7 +31193,7 @@ const A2_WORDS = [
           "purple": [
             "lahtrit",
             "õppeainet",
-            "nozari",
+            "kutseala",
             "eriala"
           ],
           "green": [
@@ -31222,7 +31222,7 @@ const A2_WORDS = [
           "riiulis",
           "õppe",
           "valdkond",
-          "nozari",
+          "kutseala",
           "kapis",
           "Koolis",
           "Fach",
@@ -31507,7 +31507,7 @@ const A2_WORDS = [
               "purple": [
                 "asi",
                 "satub",
-                "kohtus"
+                "kohtusse"
               ]
             }
           },
@@ -31650,7 +31650,7 @@ const A2_WORDS = [
                 "gerichtsfall",
                 "kohtuasi",
                 "dauert",
-                "kohtu",
+                "Kohtuasi",
                 "kestab",
                 "lange",
                 "asi"
@@ -31683,9 +31683,9 @@ const A2_WORDS = [
                   "Fall"
                 ],
                 "yellow": [
-                  "Gramatikas",
+                  "Grammatika",
                   "kontekstis",
-                  "kääne",
+                  "käänet",
                   "Fall"
                 ]
               }
@@ -31702,10 +31702,10 @@ const A2_WORDS = [
                 "olukord"
               ],
               "red": [
-                "gramatikas",
+                "grammatikatermin",
                 "olukord",
-                "ikdienas",
-                "termins",
+                "igapäevane",
+                "grammatikatermin",
                 "Fall"
               ]
             },
@@ -31739,7 +31739,7 @@ const A2_WORDS = [
           ],
           "purple": [
             "juhtumit",
-            "kritienu",
+            "kukkumist",
             "käänet",
             "asja",
             "sel juhul"
@@ -31750,7 +31750,7 @@ const A2_WORDS = [
             "Juriidilises keeles"
           ],
           "red": [
-            "Dativ",
+            "kam?",
             "kuhu?"
           ]
         }
@@ -31765,7 +31765,7 @@ const A2_WORDS = [
           "juhtum",
           "juhtumit",
           "kukkumine",
-          "kritienu",
+          "kukkumist",
           "kääne",
           "Füüsilises",
           "tähendama",
@@ -31969,7 +31969,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "puudub"
+                "puudu"
               ],
               "yellow": [
                 "raha"
@@ -31987,7 +31987,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "puudub"
+                "puudu"
               ],
               "yellow": [
                 "kaks eurot"
@@ -32005,7 +32005,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "puudub"
+                "puuduvad"
               ],
               "green": [
                 "õpilast"
@@ -32036,7 +32036,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "puudub"
+                "puudus"
               ],
               "green": [
                 "sinust"
@@ -32080,7 +32080,7 @@ const A2_WORDS = [
                 "fehlt"
               ],
               "purple": [
-                "puudub"
+                "puudu"
               ],
               "yellow": [
                 "Geld",
@@ -32187,7 +32187,7 @@ const A2_WORDS = [
                 "fehlt"
               ],
               "purple": [
-                "puudub"
+                "puudu"
               ],
               "yellow": [
                 "Geld",
@@ -32215,7 +32215,7 @@ const A2_WORDS = [
                 "fehlst"
               ],
               "purple": [
-                "puudub"
+                "puudus"
               ],
               "green": [
                 "sinust"
@@ -32228,7 +32228,7 @@ const A2_WORDS = [
                 "fehlen"
               ],
               "purple": [
-                "puudub"
+                "puuduvad"
               ],
               "green": [
                 "Schüler",
@@ -32399,7 +32399,7 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "pinguta",
-                "tugevalt",
+                "tugevasti",
                 "kruvi"
               ]
             }
@@ -32574,12 +32574,12 @@ const A2_WORDS = [
             },
             "meaning": {
               "purple": [
-                "stabils"
+                "stabiilne"
               ]
             },
             "example": {
               "purple": [
-                "stabils",
+                "stabiilne",
                 "stabil",
                 "laud",
                 "tisch"
@@ -32595,12 +32595,12 @@ const A2_WORDS = [
                   "fest"
                 ],
                 "yellow": [
-                  "mezglu",
-                  "kruvi",
+                  "sõlmest",
+                  "kruvist",
                   "sageli",
                   "fest",
                   "kõne",
-                  "kaant"
+                  "kaanest"
                 ]
               }
             },
@@ -32616,10 +32616,10 @@ const A2_WORDS = [
                   "püsiv"
                 ],
                 "yellow": [
-                  "tähtaega",
+                  "tähtajast",
                   "sageli",
-                  "tööd",
-                  "plaani",
+                  "tööst",
+                  "plaanist",
                   "fest",
                   "kõne"
                 ]
@@ -32664,12 +32664,12 @@ const A2_WORDS = [
           "standardStudy",
           "materjali",
           "püsiv",
-          "pievilkts",
+          "kinni keeratud",
           "näiteks",
           "fikseeritud",
           "tähendama",
           "kindel",
-          "mezgls",
+          "sõlm",
           "kruvi",
           "tugev",
           "pinda",
@@ -32695,7 +32695,7 @@ const A2_WORDS = [
           "fikseeritud / kindlaksmääratud",
           "kõva / kindel",
           "kõva materjal",
-          "stabils",
+          "stabiilne",
           "stabil"
         ],
         "red": [
@@ -32811,7 +32811,7 @@ const A2_WORDS = [
               "purple": [
                 "süüta",
                 "palun",
-                "tuld"
+                "tuli"
               ]
             }
           },
@@ -32845,7 +32845,7 @@ const A2_WORDS = [
               ],
               "purple": [
                 "tulekahju",
-                "majja"
+                "majas"
               ]
             }
           },
@@ -32866,7 +32866,7 @@ const A2_WORDS = [
               "purple": [
                 "tuletõrjujad",
                 "tulekahju",
-                "kustutab"
+                "kustutavad"
               ]
             }
           },
@@ -32879,11 +32879,11 @@ const A2_WORDS = [
             },
             "lv": {
               "orange": [
-                "tuli"
+                "tule"
               ],
               "purple": [
                 "istume",
-                "tuli"
+                "tule"
               ]
             }
           },
@@ -33028,12 +33028,12 @@ const A2_WORDS = [
                 "Feuer"
               ],
               "purple": [
-                "kareivji",
+                "Sõdurid",
                 "soldaten",
-                "avab",
+                "avavad",
                 "feuer",
                 "geben",
-                "tuld"
+                "tule"
               ]
             }
           }
@@ -33052,7 +33052,7 @@ const A2_WORDS = [
                   "kontrollitud",
                   "sageli",
                   "Feuer",
-                  "tulko",
+                  "tõlgitakse",
                   "tuli"
                 ]
               }
@@ -33073,7 +33073,7 @@ const A2_WORDS = [
                   "Feuerwehr",
                   "sageli",
                   "Feuer",
-                  "maja",
+                  "majast",
                   "kõne"
                 ]
               }
@@ -33131,7 +33131,7 @@ const A2_WORDS = [
           "tulekahju",
           "das Feuer",
           "Feuerwehr",
-          "ugunskuru",
+          "lõket",
           "näiteks",
           "ohtlik",
           "põlemist",
@@ -33388,7 +33388,7 @@ const A2_WORDS = [
         "Kui mõte on “vanemate sõna kuulama” või “käsku täitma”, on täpsem sageli gehorchen või befolgen."
       ],
       "important": [
-        "folgen = sekot.",
+        "folgen = järgnema.",
         "Aus etwas folgt ... = millestki tuleneb ...",
         "gehorchen = kuuletuma / sõna kuulama.",
         "folgen nõuab Dativit: ich folge dir."
@@ -33455,7 +33455,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "järgnen"
+                "järgin"
               ],
               "yellow": [
                 "nõuannet"
@@ -33495,7 +33495,7 @@ const A2_WORDS = [
                 "tuleneb"
               ],
               "yellow": [
-                "arvude",
+                "arvudest",
                 "probleem"
               ]
             }
@@ -33516,7 +33516,7 @@ const A2_WORDS = [
               ],
               "green": [
                 "Laps",
-                "vanematele"
+                "vanemate"
               ]
             }
           }
@@ -33616,7 +33616,7 @@ const A2_WORDS = [
                 "järgnema"
               ],
               "green": [
-                "Dativit"
+                "Dativiga"
               ]
             }
           },
@@ -34054,8 +34054,8 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "viima milleni",
-                "probleemidega",
-                "viima"
+                "probleemideni",
+                "viia"
               ]
             }
           }
@@ -34070,7 +34070,7 @@ const A2_WORDS = [
             "meaning": {
               "purple": [
                 "viima / juhtima / juhtpositsioonil olema",
-                "juhtimisel",
+                "juhtima",
                 "juhtima",
                 "viima"
               ]
@@ -34102,7 +34102,7 @@ const A2_WORDS = [
               "green": [
                 "leitet",
                 "Firma",
-                "firmu",
+                "firmast",
                 "juhib"
               ]
             }
@@ -34176,9 +34176,9 @@ const A2_WORDS = [
             "example": {
               "purple": [
                 "problemen",
-                "probleemidega",
+                "probleemideni",
                 "führt",
-                "noved"
+                "viib"
               ]
             }
           }
@@ -34196,7 +34196,7 @@ const A2_WORDS = [
                 "yellow": [
                   "führen",
                   "sageli",
-                  "teed",
+                  "teest",
                   "kõne",
                   "viima"
                 ]
@@ -34211,11 +34211,11 @@ const A2_WORDS = [
                   "juhtima"
                 ],
                 "yellow": [
-                  "komandu",
+                  "meeskonnast",
                   "führen",
-                  "vestlust",
+                  "vestlusest",
                   "sageli",
-                  "firmu",
+                  "firmast",
                   "kõne"
                 ]
               }
@@ -34260,7 +34260,7 @@ const A2_WORDS = [
           "inimestele",
           "müügil",
           "ettevõtet",
-          "komandu",
+          "meeskonna",
           "tähendama",
           "Poes",
           "führen",
@@ -34474,7 +34474,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "koridoris"
+                "koridori"
               ],
               "yellow": [
                 "Tualett"
@@ -34540,7 +34540,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "käigus"
+                "käigul"
               ],
               "yellow": [
                 "Auto"
@@ -34643,7 +34643,7 @@ const A2_WORDS = [
                 "koridor"
               ],
               "yellow": [
-                "hoonet"
+                "hoonest"
               ]
             }
           },
@@ -34656,7 +34656,7 @@ const A2_WORDS = [
                 "roog"
               ],
               "yellow": [
-                "menüüd"
+                "menüüst"
               ]
             }
           }
@@ -34967,7 +34967,7 @@ const A2_WORDS = [
                 "vastu"
               ],
               "green": [
-                "lastele"
+                "laste"
               ]
             }
           },
@@ -35123,7 +35123,7 @@ const A2_WORDS = [
                 "vastas"
               ],
               "yellow": [
-                "koha"
+                "kohast"
               ]
             }
           },
@@ -35136,7 +35136,7 @@ const A2_WORDS = [
                 "vastu"
               ],
               "green": [
-                "attieksmi"
+                "suhtumisest"
               ]
             }
           }
@@ -35171,7 +35171,7 @@ const A2_WORDS = [
                 "kellegi vastu"
               ],
               "green": [
-                "inimesele"
+                "inimese"
               ]
             }
           },
@@ -35312,7 +35312,7 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "ei sobi",
-                "siin"
+                "siia"
               ]
             }
           },
@@ -35327,7 +35327,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "tervislikud",
+                "tervisliku",
                 "elu",
                 "kuulub",
                 "sport"
@@ -35403,7 +35403,7 @@ const A2_WORDS = [
               "green": [
                 "besitzt",
                 "kuulub",
-                "Tal",
+                "Talle",
                 "Auto"
               ]
             }
@@ -35417,7 +35417,7 @@ const A2_WORDS = [
             "meaning": {
               "purple": [
                 "sobima / vastama",
-                "vastab",
+                "vastama",
                 "sobima"
               ]
             },
@@ -35495,7 +35495,7 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "Konstrukcija",
+          "Konstruktsioon",
           "sobima",
           "kohane olema",
           "vajalikule",
@@ -35503,7 +35503,7 @@ const A2_WORDS = [
           "lausetes",
           "gehören",
           "tähendama",
-          "nosaka",
+          "määrab",
           "Tähendust",
           "osale",
           "Mõnes",
@@ -35662,7 +35662,7 @@ const A2_WORDS = [
                   "genau"
                 ],
                 "purple": [
-                  "täpsust"
+                  "täpsusest"
                 ]
               }
             },
@@ -35691,7 +35691,7 @@ const A2_WORDS = [
                 "eben"
               ],
               "purple": [
-                "konteksta"
+                "kontekstita"
               ]
             },
             "example": {
@@ -35828,7 +35828,7 @@ const A2_WORDS = [
           ],
           "yellow": [
             "joont",
-            "ajast",
+            "Aja",
             "Arvude"
           ]
         },
@@ -36015,7 +36015,7 @@ const A2_WORDS = [
                 "just praegu"
               ],
               "green": [
-                "tegevust"
+                "tegevusega"
               ]
             }
           },
@@ -36030,7 +36030,7 @@ const A2_WORDS = [
               "yellow": [
                 "teed",
                 "joont",
-                "formu"
+                "kuju"
               ]
             }
           }
@@ -36045,8 +36045,8 @@ const A2_WORDS = [
                 "sirge"
               ],
               "yellow": [
-                "formu",
-                "virzienu"
+                "kujust",
+                "suunast"
               ]
             }
           },
@@ -36060,7 +36060,7 @@ const A2_WORDS = [
                 "just praegu"
               ],
               "green": [
-                "tegevust"
+                "tegevusest"
               ]
             }
           },
@@ -36253,7 +36253,7 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "sõlmime",
-                "tehingut"
+                "tehingu"
               ]
             }
           },
@@ -36267,9 +36267,9 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "asjaajamist",
+                "asjaajamisi",
                 "linnas",
-                "poodi",
+                "poode",
                 "palju",
                 "tal"
               ]
@@ -36389,7 +36389,7 @@ const A2_WORDS = [
                 "schließen",
                 "suleme",
                 "vertrag",
-                "lepingut"
+                "lepingu"
               ]
             }
           }
@@ -36471,12 +36471,12 @@ const A2_WORDS = [
           "Geschäft",
           "ettevõte",
           "ettevõtet",
-          "Biznesa",
+          "Ärikontekstis",
           "tähendama",
           "pood",
           "poodi",
           "sageli",
-          "firmu"
+          "firmast"
         ],
         "green": [
           "der Laden",
@@ -36654,7 +36654,7 @@ const A2_WORDS = [
             "auhinna",
             "raha",
             "kogemust",
-            "ajast",
+            "aja",
             "usaldust"
           ]
         },
@@ -36674,7 +36674,7 @@ const A2_WORDS = [
                 "võidab"
               ],
               "yellow": [
-                "mängib",
+                "mängu",
                 "meeskond"
               ]
             }
@@ -36783,7 +36783,7 @@ const A2_WORDS = [
               "purple": [
                 "võitma",
                 "võitma",
-                "saama"
+                "saavutama"
               ]
             },
             "example": {
@@ -36791,11 +36791,11 @@ const A2_WORDS = [
                 "gewinnen"
               ],
               "purple": [
-                "uzvaram"
+                "võidame"
               ],
               "yellow": [
                 "Spiel",
-                "mängib"
+                "mängu"
               ]
             }
           },
@@ -36856,7 +36856,7 @@ const A2_WORDS = [
                 "verdient"
               ],
               "purple": [
-                "pelna"
+                "teenib"
               ]
             }
           }
@@ -36871,8 +36871,8 @@ const A2_WORDS = [
                 "võitma"
               ],
               "yellow": [
-                "mängu",
-                "konkursu",
+                "mängust",
+                "konkursist",
                 "võistlusest"
               ]
             }
@@ -36883,7 +36883,7 @@ const A2_WORDS = [
                 "võitma"
               ],
               "yellow": [
-                "balva",
+                "auhind",
                 "raha"
               ]
             }
@@ -36900,7 +36900,7 @@ const A2_WORDS = [
               ],
               "yellow": [
                 "Spiel",
-                "mängib"
+                "mängu"
               ]
             }
           },
@@ -36914,7 +36914,7 @@ const A2_WORDS = [
               ],
               "yellow": [
                 "Preis",
-                "auhinna"
+                "auhinda"
               ]
             }
           },
@@ -37046,9 +37046,9 @@ const A2_WORDS = [
           ],
           "yellow": [
             "lillede",
-            "taimedele",
+            "taimede",
             "vett",
-            "teed",
+            "tee",
             "vedelikku"
           ]
         },
@@ -37082,7 +37082,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "kastma"
+                "kasta"
               ],
               "yellow": [
                 "aeda"
@@ -37121,7 +37121,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "valab"
+                "vala"
               ],
               "yellow": [
                 "teed"
@@ -37195,7 +37195,7 @@ const A2_WORDS = [
                 "schenke ein"
               ],
               "purple": [
-                "ieleju"
+                "valan"
               ],
               "yellow": [
                 "Tee",
@@ -37241,7 +37241,7 @@ const A2_WORDS = [
                 "vett"
               ],
               "purple": [
-                "izlej"
+                "valab"
               ]
             }
           }
@@ -37256,7 +37256,7 @@ const A2_WORDS = [
                 "kastma"
               ],
               "yellow": [
-                "lilli",
+                "lilled",
                 "aed"
               ]
             }
@@ -37559,7 +37559,7 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "tugeval",
-                "aluse",
+                "alusel",
                 "maja",
                 "seisab"
               ]
@@ -37704,7 +37704,7 @@ const A2_WORDS = [
               ],
               "red": [
                 "der Boden",
-                "slapja",
+                "märg",
                 "Boden",
                 "Põrand",
                 "nass"
@@ -37761,12 +37761,12 @@ const A2_WORDS = [
                   "Grund"
                 ],
                 "yellow": [
-                  "tähendama",
-                  "pamatu",
-                  "ezeru",
+                  "tähendada",
+                  "alust",
+                  "järve",
                   "Grund",
                   "maja",
-                  "zemi"
+                  "maa"
                 ]
               }
             }
@@ -37819,19 +37819,19 @@ const A2_WORDS = [
           "der Grund",
           "põhjusel",
           "põhjus",
-          "iemeslu",
+          "põhjust",
           "tähendama",
           "põhi",
           "diesem",
-          "grunti",
+          "pinnast",
           "pinnas",
           "alus",
-          "pamatu",
+          "alust",
           "Fraas",
           "Grund",
           "Looduses",
           "seisab",
-          "zemi"
+          "maad"
         ],
         "green": [
           "sündmuse alus",
@@ -38108,7 +38108,7 @@ const A2_WORDS = [
           "green": [
             "seinal",
             "konksu otsas",
-            "kapis"
+            "kappi"
           ],
           "red": [
             "seisundit",
@@ -38151,10 +38151,10 @@ const A2_WORDS = [
                 "riputan"
               ],
               "yellow": [
-                "jakki"
+                "jaki"
               ],
               "green": [
-                "kapis"
+                "kappi"
               ]
             }
           },
@@ -38190,7 +38190,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "riputab"
+                "riputa"
               ],
               "yellow": [
                 "mantel"
@@ -38247,7 +38247,7 @@ const A2_WORDS = [
               ],
               "green": [
                 "Wand",
-                "seina"
+                "seinal"
               ]
             }
           },
@@ -38307,11 +38307,11 @@ const A2_WORDS = [
                 "hängen"
               ],
               "purple": [
-                "piekaram"
+                "riputame"
               ],
               "green": [
                 "Wand",
-                "seina"
+                "seinale"
               ]
             }
           }
@@ -38322,7 +38322,7 @@ const A2_WORDS = [
               "hängen"
             ],
             "purple": [
-              "seinal",
+              "seina",
               "konksu otsas",
               "kapis"
             ]
@@ -38333,7 +38333,7 @@ const A2_WORDS = [
               "legen"
             ],
             "purple": [
-              "paneb"
+              "pannakse"
             ]
           }
         ],
@@ -38343,7 +38343,7 @@ const A2_WORDS = [
               "hängen"
             ],
             "red": [
-              "panema"
+              "panemise"
             ]
           },
           {
@@ -38355,7 +38355,7 @@ const A2_WORDS = [
               "hängen"
             ],
             "purple": [
-              "piekar"
+              "riputatakse"
             ]
           }
         ]
@@ -38472,7 +38472,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "kõva"
+                "kõvaks"
               ]
             }
           },
@@ -38510,7 +38510,7 @@ const A2_WORDS = [
           {
             "green": [
               "raske",
-              "skarbs"
+              "karm"
             ]
           }
         ],
@@ -38519,7 +38519,7 @@ const A2_WORDS = [
             "purple": [
               "kõva",
               "raske",
-              "skarbs"
+              "karm"
             ]
           },
           {
@@ -38951,7 +38951,7 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "palju",
-                "puitu",
+                "puid",
                 "metsas"
               ]
             }
@@ -39088,9 +39088,9 @@ const A2_WORDS = [
                   "Holz"
                 ],
                 "yellow": [
-                  "pieskarties",
+                  "katsuda",
                   "materjali",
-                  "valmistab",
+                  "valmistatakse",
                   "kasutatakse",
                   "Holz",
                   "saad"
@@ -39101,9 +39101,9 @@ const A2_WORDS = [
               "text": {
                 "yellow": [
                   "der Baum",
-                  "zariem",
+                  "okstega",
                   "elavast",
-                  "lehtedega",
+                  "lehtede",
                   "kasutatakse",
                   "Baum",
                   "puitu",
@@ -39163,12 +39163,12 @@ const A2_WORDS = [
           "standardStudy",
           "Puitmaterjalid",
           "materjali",
-          "galdiem",
+          "laudade",
           "mööbli",
           "tähendama",
           "plankude",
           "Puit",
-          "koksni",
+          "puitu",
           "kasutatakse",
           "Küttepuud",
           "küttepuid",
@@ -39405,7 +39405,7 @@ const A2_WORDS = [
           "purple": [
             "sellega, et",
             "midagi tehes",
-            "veidu"
+            "viisi"
           ],
           "red": [
             "sel ajal kui",
@@ -39590,7 +39590,7 @@ const A2_WORDS = [
             ],
             "purple": [
               "meetodit",
-              "veidu"
+              "viisi"
             ],
             "red": [
               "während",
@@ -39941,8 +39941,8 @@ const A2_WORDS = [
               "je"
             ],
             "yellow": [
-              "hinnad",
-              "daudzuma"
+              "hinna",
+              "hulga"
             ],
             "purple": [
               "kaupa",
@@ -40246,7 +40246,7 @@ const A2_WORDS = [
             },
             "lv": {
               "yellow": [
-                "mäe",
+                "mäeharjal",
                 "harja"
               ]
             }
@@ -40285,7 +40285,7 @@ const A2_WORDS = [
             },
             "lv": {
               "yellow": [
-                "Mäe",
+                "mäehari",
                 "hari"
               ]
             }
@@ -40728,7 +40728,7 @@ const A2_WORDS = [
         "explanation": {
           "blue": [
             "kaum",
-            "kaum zu + nenoteiksme",
+            "kaum zu + tegevusnimi",
             "kaum zu glauben"
           ],
           "purple": [
@@ -40742,7 +40742,7 @@ const A2_WORDS = [
             "fast"
           ],
           "yellow": [
-            "daudzumu",
+            "hulka",
             "ajast"
           ]
         },
@@ -40968,7 +40968,7 @@ const A2_WORDS = [
           },
           {
             "blue": [
-              "kaum zu + nenoteiksme",
+              "kaum zu + tegevusnimi",
               "kaum zu glauben",
               "kaum zu verstehen"
             ],
@@ -40979,7 +40979,7 @@ const A2_WORDS = [
               "raske aru saada"
             ],
             "red": [
-              "burtiski",
+              "sõna-sõnalt",
               "peaaegu üldse mitte"
             ]
           }
@@ -41107,7 +41107,7 @@ const A2_WORDS = [
             "kennen"
           ],
           "purple": [
-            "tundma"
+            "tundmine"
           ]
         },
         "examples": [
@@ -41720,7 +41720,7 @@ const A2_WORDS = [
               ],
               "purple": [
                 "selge",
-                "mõtleb"
+                "mõtled"
               ]
             }
           },
@@ -41884,9 +41884,9 @@ const A2_WORDS = [
                   "klar"
                 ],
                 "yellow": [
-                  "instrukciju",
+                  "juhendist",
                   "arusaadav",
-                  "domu",
+                  "mõttest",
                   "klar",
                   "kõne"
                 ],
@@ -41951,7 +41951,7 @@ const A2_WORDS = [
         "blue": [
           "standardStudy",
           "Kõnekeeles",
-          "noteikumu",
+          "reeglit",
           "arusaadav",
           "olukorda",
           "korras",
@@ -41960,9 +41960,9 @@ const A2_WORDS = [
           "selge",
           "Alles",
           "sageli",
-          "gaisu",
+          "õhust",
           "vett",
-          "domu",
+          "mõtet",
           "klar",
           "kõne",
           "kõik"
@@ -42124,7 +42124,7 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "külge kleepima",
-                "paberit",
+                "paberi",
                 "saad"
               ]
             }
@@ -42177,7 +42177,7 @@ const A2_WORDS = [
               "purple": [
                 "külge kleepuma / kleepunud olema",
                 "kleepunud",
-                "pielipt"
+                "külge kleepuma"
               ]
             },
             "example": {
@@ -42281,11 +42281,11 @@ const A2_WORDS = [
                   "kleben"
                 ],
                 "green": [
-                  "pielipt"
+                  "külge kleepuma"
                 ],
                 "yellow": [
                   "plaaster",
-                  "subjekts",
+                  "alus",
                   "sõrmed",
                   "kleben",
                   "sedel",
@@ -42326,9 +42326,9 @@ const A2_WORDS = [
           "plaastritele",
           "kleepunud",
           "seisund",
-          "pielipis",
+          "kleepunud",
           "tegevus",
-          "pielipt",
+          "külge kleepuma",
           "kleebiste",
           "kleben",
           "paberit",
@@ -42342,7 +42342,7 @@ const A2_WORDS = [
         ],
         "green": [
           "külge hakkama",
-          "pielipt"
+          "külge kleepuma"
         ],
         "yellow": [
           "kleepunud olema",
@@ -42507,7 +42507,7 @@ const A2_WORDS = [
               "purple": [
                 "mantel",
                 "sobib",
-                "tal"
+                "talle"
               ]
             }
           },
@@ -42537,7 +42537,7 @@ const A2_WORDS = [
                 "sobib",
                 "värv",
                 "must",
-                "tal",
+                "talle",
                 "hästi"
               ]
             }
@@ -42625,10 +42625,10 @@ const A2_WORDS = [
             },
             "example": {
               "red": [
-                "uzvelku",
+                "panen",
                 "Jacke",
                 "ziehe",
-                "jakki"
+                "jaki"
               ]
             }
           },
@@ -42678,11 +42678,11 @@ const A2_WORDS = [
                   "kleiden"
                 ],
                 "yellow": [
-                  "subjekts",
+                  "alus",
                   "kleiden",
-                  "teikuma",
+                  "lause",
                   "sageli",
-                  "riie",
+                  "riideese",
                   "värv"
                 ]
               }
@@ -43045,7 +43045,7 @@ const A2_WORDS = [
                 "geomeetriline keha",
                 "geomeetriline",
                 "keha",
-                "kubs"
+                "kuup"
               ]
             }
           },
@@ -43181,16 +43181,16 @@ const A2_WORDS = [
               "purple": [
                 "keha / ihu",
                 "keha",
-                "miesa"
+                "ihu"
               ]
             },
             "example": {
               "green": [
-                "miesa"
+                "ihu"
               ],
               "red": [
                 "hing",
-                "miesa",
+                "ihu",
                 "Seele",
                 "Leib"
               ]
@@ -43205,8 +43205,8 @@ const A2_WORDS = [
             },
             "meaning": {
               "purple": [
-                "korpuss / apvalks",
-                "apvalks",
+                "korpus / kest",
+                "kest",
                 "korpus"
               ]
             },
@@ -43232,10 +43232,10 @@ const A2_WORDS = [
                   "Körper"
                 ],
                 "yellow": [
-                  "seisundit",
-                  "tervist",
+                  "seisundi",
+                  "tervise",
                   "inimese",
-                  "fizisko",
+                  "füüsilise",
                   "kasutatakse"
                 ]
               }
@@ -43246,11 +43246,11 @@ const A2_WORDS = [
                   "Körper"
                 ],
                 "yellow": [
-                  "Tehniskos",
-                  "fizisko",
-                  "korpusu",
-                  "tähendama",
-                  "tekstos",
+                  "Tehnilistes",
+                  "füüsilist",
+                  "korpust",
+                  "tähendada",
+                  "tekstides",
                   "Körper"
                 ]
               }
@@ -43266,7 +43266,7 @@ const A2_WORDS = [
               "red": [
                 "inimese",
                 "keha",
-                "tähendama",
+                "tähendada",
                 "Körper",
                 "ainult"
               ]
@@ -43309,7 +43309,7 @@ const A2_WORDS = [
           "Tehnilises",
           "tervist",
           "inimese",
-          "fizisku",
+          "füüsilist",
           "korpus",
           "liikumist",
           "keha",
@@ -43319,9 +43319,9 @@ const A2_WORDS = [
         ],
         "green": [
           "füüsiline osa",
-          "apvalks",
+          "kest",
           "korpus",
-          "miesa"
+          "ihu"
         ],
         "yellow": [
           "der geometrische Körper",
@@ -43333,7 +43333,7 @@ const A2_WORDS = [
         "purple": [
           "korpus / füüsiline osa",
           "geomeetriline keha",
-          "korpuss / apvalks",
+          "korpus / kest",
           "keha • korpus",
           "keha / ihu",
           "das Gehäuse",
@@ -43426,7 +43426,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "jõu"
+                "jõudu"
               ]
             }
           },
@@ -43442,7 +43442,7 @@ const A2_WORDS = [
               "purple": [
                 "palju",
                 "nõuab",
-                "jõu"
+                "jõudu"
               ]
             }
           },
@@ -43510,12 +43510,12 @@ const A2_WORDS = [
             },
             "lv": {
               "orange": [
-                "jõud"
+                "jõudu"
               ],
               "purple": [
                 "pausi",
                 "jälle",
-                "jõud"
+                "jõudu"
               ]
             }
           }
@@ -43625,16 +43625,16 @@ const A2_WORDS = [
             "meaning": {
               "purple": [
                 "tugevus / jõud",
-                "stiprums",
+                "tugevus",
                 "jõud"
               ]
             },
             "example": {
               "green": [
-                "stiprums"
+                "tugevus"
               ],
               "purple": [
-                "stiprums",
+                "tugevus",
                 "stärke",
                 "seine"
               ]
@@ -43649,13 +43649,13 @@ const A2_WORDS = [
                   "Kraft"
                 ],
                 "orange": [
-                  "jõud"
+                  "jõudu"
                 ],
                 "yellow": [
-                  "nogurumu",
-                  "võimet",
-                  "fizisku",
-                  "pingutust",
+                  "väsimusest",
+                  "võimekusest",
+                  "füüsilisest",
+                  "pingutusest",
                   "Kraft",
                   "kõne"
                 ]
@@ -43673,7 +43673,7 @@ const A2_WORDS = [
                   "jõus"
                 ],
                 "yellow": [
-                  "izteicienu",
+                  "väljendina",
                   "üksikut",
                   "õpi",
                   "Fraasi",
@@ -43693,7 +43693,7 @@ const A2_WORDS = [
                 "jõud"
               ],
               "red": [
-                "fizisks",
+                "füüsiline",
                 "Kraft",
                 "jõud",
                 "ainult"
@@ -43736,9 +43736,9 @@ const A2_WORDS = [
           "energia",
           "energiat",
           "vastupidavust",
-          "stiprums",
+          "tugevus",
           "Tehnilises",
-          "fizisku",
+          "füüsilist",
           "tähendama",
           "pingutust",
           "Fraasis",
@@ -43751,7 +43751,7 @@ const A2_WORDS = [
         "green": [
           "töötaja",
           "in Kraft",
-          "stiprums"
+          "tugevus"
         ],
         "yellow": [
           "die Fachkraft",
@@ -43957,10 +43957,10 @@ const A2_WORDS = [
             "bald"
           ],
           "green": [
-            "ajast",
+            "aja",
             "teksti",
-            "teed",
-            "vestlust"
+            "tee",
+            "vestluse"
           ]
         },
         "examples": [
@@ -44283,7 +44283,7 @@ const A2_WORDS = [
             "olukorda",
             "seisundit",
             "asukohta",
-            "novietojumu",
+            "asendit",
             "kihti",
             "kihti"
           ],
@@ -44293,7 +44293,7 @@ const A2_WORDS = [
             "perekonnas"
           ],
           "red": [
-            "Konteksts"
+            "Kontekst"
           ]
         },
         "examples": [
@@ -44326,7 +44326,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "olukord"
+                "olukorda"
               ],
               "green": [
                 "tuleb kontrollida"
@@ -44377,7 +44377,7 @@ const A2_WORDS = [
                 "kiht"
               ],
               "yellow": [
-                "paberi"
+                "paberikiht"
               ]
             }
           }
@@ -44393,7 +44393,7 @@ const A2_WORDS = [
             "meaning": {
               "purple": [
                 "olukord",
-                "seisund"
+                "seisukord"
               ]
             },
             "example": {
@@ -44481,7 +44481,7 @@ const A2_WORDS = [
             ],
             "red": [
               "tingimustest",
-              "probleemi"
+              "probleemist"
             ]
           },
           {
@@ -44492,9 +44492,9 @@ const A2_WORDS = [
               "asukohta"
             ],
             "green": [
-              "hotelli",
-              "hoonet",
-              "koha"
+              "hotellist",
+              "hoonest",
+              "kohast"
             ]
           }
         ],
@@ -44760,7 +44760,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "kannatab"
+                "kannatavad"
               ],
               "green": [
                 "stressi"
@@ -44928,7 +44928,7 @@ const A2_WORDS = [
             ],
             "purple": [
               "haigusele",
-              "probleemi"
+              "probleemile"
             ]
           },
           {
@@ -45046,10 +45046,10 @@ const A2_WORDS = [
             },
             "lv": {
               "orange": [
-                "laenama"
+                "laenata"
               ],
               "purple": [
-                "laenama",
+                "laenata",
                 "masinat",
                 "oma",
                 "saad"
@@ -45082,7 +45082,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "raamatukogus",
+                "raamatukogust",
                 "laenab",
                 "raamatut"
               ]
@@ -45100,7 +45100,7 @@ const A2_WORDS = [
               "purple": [
                 "laename",
                 "lastele",
-                "mängu"
+                "mänge"
               ]
             }
           },
@@ -45114,10 +45114,10 @@ const A2_WORDS = [
             },
             "lv": {
               "green": [
-                "laenama"
+                "laenata"
               ],
               "purple": [
-                "laenama",
+                "laenata",
                 "telefoni",
                 "tohin",
                 "sinu"
@@ -45152,14 +45152,14 @@ const A2_WORDS = [
             "meaning": {
               "purple": [
                 "laenuks andma / laenuks võtma",
-                "laenama",
-                "laenama"
+                "laenuks",
+                "laenuks"
               ]
             },
             "example": {
               "blue": [
                 "sulepead",
-                "aizdosi",
+                "laenad",
                 "Leihst",
                 "Stift"
               ]
@@ -45174,8 +45174,8 @@ const A2_WORDS = [
             "meaning": {
               "purple": [
                 "laenuks võtma / laenuks andma",
-                "laenama",
-                "laenama"
+                "laenuks",
+                "laenuks"
               ]
             },
             "example": {
@@ -45223,7 +45223,7 @@ const A2_WORDS = [
             },
             "example": {
               "red": [
-                "raamatut",
+                "raamatu",
                 "kaufe",
                 "ostan",
                 "Buch"
@@ -45239,10 +45239,10 @@ const A2_WORDS = [
                   "leihen"
                 ],
                 "orange": [
-                  "laenama"
+                  "laenata"
                 ],
                 "yellow": [
-                  "laenama",
+                  "laenata",
                   "Kannst",
                   "leihen",
                   "saad"
@@ -45283,7 +45283,7 @@ const A2_WORDS = [
                 "leihen"
               ],
               "red": [
-                "nopirkt",
+                "ostma",
                 "kaufen",
                 "leihen",
                 "ajast"
@@ -45635,7 +45635,7 @@ const A2_WORDS = [
                 "juhe"
               ],
               "purple": [
-                "elektriline",
+                "elektrijuhe",
                 "kahjustatud",
                 "juhe"
               ]
@@ -45659,7 +45659,7 @@ const A2_WORDS = [
               "purple": [
                 "telefoniliin",
                 "hõivatud",
-                "telefoni",
+                "telefoniliin",
                 "liin"
               ]
             }
@@ -45791,7 +45791,7 @@ const A2_WORDS = [
             "meaning": {
               "purple": [
                 "telefoniliin",
-                "telefoni",
+                "telefoniliin",
                 "liin"
               ]
             },
@@ -45805,7 +45805,7 @@ const A2_WORDS = [
               "red": [
                 "die Telefonleitung",
                 "Telefonleitung",
-                "Telefoni",
+                "Telefoniliin",
                 "liin",
                 "vaba",
                 "frei"
@@ -45860,8 +45860,8 @@ const A2_WORDS = [
                   "Leitung"
                 ],
                 "yellow": [
-                  "elektri",
-                  "telefoni",
+                  "elektrist",
+                  "telefonist",
                   "Leitung",
                   "vett",
                   "kõne"
@@ -45883,8 +45883,8 @@ const A2_WORDS = [
                 "juhtkond"
               ],
               "red": [
-                "tehniska",
-                "inimest",
+                "tehniline",
+                "inimeste",
                 "Leitung",
                 "liin",
                 "juhtkond"
@@ -45923,10 +45923,10 @@ const A2_WORDS = [
         "blue": [
           "standardStudy",
           "die Leitung",
-          "elektrisko",
+          "elektrijuhet",
           "kontekstis",
           "inimesi",
-          "tehnisku",
+          "tehnilist",
           "Telefoni",
           "toru",
           "Leitung",
@@ -45938,7 +45938,7 @@ const A2_WORDS = [
           "tööd",
           "juhib",
           "juhe",
-          "vadu"
+          "juhet"
         ],
         "green": [
           "die Führung",
@@ -46090,7 +46090,7 @@ const A2_WORDS = [
           ],
           "purple": [
             "magama",
-            "asuma"
+            "asub"
           ]
         },
         "examples": [
@@ -46118,7 +46118,7 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "magama",
-                "asuma"
+                "asuvad"
               ]
             }
           },
@@ -46621,7 +46621,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "mõtleb"
+                "mõtled"
               ]
             }
           },
@@ -46633,7 +46633,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "õigesti",
+                "õige",
                 "arvan"
               ]
             }
@@ -46646,7 +46646,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "mõtleb",
+                "mõtled",
                 "keda"
               ]
             }
@@ -46810,8 +46810,8 @@ const A2_WORDS = [
               ],
               "red": [
                 "kindlat",
-                "arvamust",
-                "mõeldut",
+                "arvamusele",
+                "mõeldud",
                 "meinen",
                 "osutab",
                 "sageli"
@@ -46833,12 +46833,12 @@ const A2_WORDS = [
         "blue": [
           "standardStudy",
           "kindlat",
-          "teiktais",
+          "öeldu",
           "arvama",
           "arvamust",
           "inimest",
           "tähendama",
-          "izsaka",
+          "väljendab",
           "meinen",
           "meinst",
           "sageli",
@@ -47070,7 +47070,7 @@ const A2_WORDS = [
                 "jäta meelde"
               ],
               "yellow": [
-                "numbrit"
+                "number"
               ]
             }
           },
@@ -47085,7 +47085,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "meelde jätma"
+                "meelde jätta"
               ],
               "yellow": [
                 "sõnu"
@@ -47189,7 +47189,7 @@ const A2_WORDS = [
             "example": {
               "yellow": [
                 "behalte",
-                "paturu"
+                "jätan"
               ]
             }
           }
@@ -47215,7 +47215,7 @@ const A2_WORDS = [
             ],
             "yellow": [
               "viga",
-              "olukorda"
+              "olukorrast"
             ]
           }
         ],
@@ -47615,7 +47615,7 @@ const A2_WORDS = [
             ],
             "purple": [
               "aitab",
-              "probleemi lahendama"
+              "probleemi lahendada"
             ]
           },
           {
@@ -47623,7 +47623,7 @@ const A2_WORDS = [
               "Medikament"
             ],
             "purple": [
-              "ravimil"
+              "ravimist"
             ]
           }
         ],
@@ -48082,7 +48082,7 @@ const A2_WORDS = [
             "der Nagel"
           ],
           "purple": [
-            "sõrmeküüs",
+            "sõrmeküünt",
             "nael"
           ]
         },
@@ -48447,7 +48447,7 @@ const A2_WORDS = [
               "purple": [
                 "hinnet",
                 "sain",
-                "head"
+                "hea"
               ]
             }
           },
@@ -48524,7 +48524,7 @@ const A2_WORDS = [
               ],
               "purple": [
                 "banknote",
-                "kaasa",
+                "kaasas",
                 "ainult"
               ]
             }
@@ -48582,7 +48582,7 @@ const A2_WORDS = [
               "purple": [
                 "koolihinne",
                 "hinne",
-                "kooli"
+                "koolihinne"
               ]
             },
             "example": {
@@ -48590,7 +48590,7 @@ const A2_WORDS = [
                 "die Schulnote",
                 "Schulnote",
                 "hinne",
-                "Kooli",
+                "Koolihinne",
                 "hea"
               ],
               "orange": [
@@ -48611,7 +48611,7 @@ const A2_WORDS = [
             "meaning": {
               "purple": [
                 "muusikanoot",
-                "muusika",
+                "muusikanoot",
                 "noot"
               ]
             },
@@ -48622,7 +48622,7 @@ const A2_WORDS = [
               "yellow": [
                 "die Musiknote",
                 "Musiknote",
-                "Muusika",
+                "Muusikanoot",
                 "kõrge",
                 "hoch",
                 "noot"
@@ -48691,10 +48691,10 @@ const A2_WORDS = [
                   "Note"
                 ],
                 "orange": [
-                  "hinne"
+                  "hinnet"
                 ],
                 "yellow": [
-                  "hinne",
+                  "hinnet",
                   "Koolis",
                   "Note"
                 ]
@@ -48706,14 +48706,14 @@ const A2_WORDS = [
                   "Note"
                 ],
                 "green": [
-                  "noot"
+                  "nooti"
                 ],
                 "yellow": [
                   "rahatäht",
                   "banknote",
                   "Muusikas",
                   "Note",
-                  "noot"
+                  "nooti"
                 ]
               }
             }
@@ -48726,9 +48726,9 @@ const A2_WORDS = [
                 "Note"
               ],
               "red": [
-                "nosaka",
-                "tähendust",
-                "joma",
+                "määrab",
+                "tähenduse",
+                "kutseala",
                 "Note"
               ]
             },
@@ -48757,7 +48757,7 @@ const A2_WORDS = [
           "standardStudy",
           "kontekstis",
           "banknote",
-          "banknoti",
+          "rahatähte",
           "die Note",
           "Ülekantud",
           "varjund",
@@ -49034,7 +49034,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "kasuta"
+                "kasutavad"
               ],
               "yellow": [
                 "internetti"
@@ -49052,7 +49052,7 @@ const A2_WORDS = [
             },
             "lv": {
               "red": [
-                "kasutama"
+                "kasutada"
               ],
               "yellow": [
                 "jalgratast"
@@ -49096,7 +49096,7 @@ const A2_WORDS = [
             "example": {
               "red": [
                 "benutze",
-                "lietoju"
+                "kasutan"
               ]
             }
           },
@@ -49149,8 +49149,8 @@ const A2_WORDS = [
               "nutzen"
             ],
             "purple": [
-              "ieguvumu",
-              "võimalust"
+              "kasu",
+              "võimalusel"
             ]
           },
           {
@@ -49168,7 +49168,7 @@ const A2_WORDS = [
               "nutzen"
             ],
             "red": [
-              "kasutama"
+              "kasutamist"
             ]
           },
           {
@@ -49306,9 +49306,9 @@ const A2_WORDS = [
             "vaba"
           ],
           "green": [
-            "ustest",
-            "logiem",
-            "veikaliem"
+            "uste",
+            "akende",
+            "poodide"
           ],
           "red": [
             "ehrlich"
@@ -49365,7 +49365,7 @@ const A2_WORDS = [
                 "avameelselt"
               ],
               "green": [
-                "räägi"
+                "räägib"
               ]
             }
           },
@@ -49495,9 +49495,9 @@ const A2_WORDS = [
               "avatud"
             ],
             "green": [
-              "ustest",
-              "logiem",
-              "veikaliem"
+              "Uste",
+              "akende",
+              "poodide"
             ]
           },
           {
@@ -49736,7 +49736,7 @@ const A2_WORDS = [
       ],
       "important": [
         "passieren tähendab A2 tasemel peamiselt juhtuma / aset leidma.",
-        "Koncerts notiek = Das Konzert findet statt, nevis Das Konzert passiert."
+        "Kontsert toimub = Das Konzert findet statt, mitte Das Konzert passiert."
       ],
       "sectionAccents": {
         "explanation": {
@@ -49754,7 +49754,7 @@ const A2_WORDS = [
             "vorbeifahren"
           ],
           "yellow": [
-            "sietu"
+            "sõela"
           ]
         },
         "examples": [
@@ -49781,7 +49781,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "juhtuma"
+                "juhtuda"
               ],
               "green": [
                 "igaühega"
@@ -49933,7 +49933,7 @@ const A2_WORDS = [
               "passieren"
             ],
             "purple": [
-              "üritustele"
+              "Ürituste"
             ]
           }
         ],
@@ -50017,7 +50017,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "der Patient = pacients. die Patientin = paciente. Daudzskaitlis: die Patienten."
+        "text": "der Patient = patsient. die Patientin = naispatsient. Mitmus: die Patienten."
       },
       "sectionAccents": {
         "explanation": {
@@ -50520,7 +50520,7 @@ const A2_WORDS = [
                 "yellow": [
                   "plaaster",
                   "Pflaster",
-                  "haava",
+                  "haavast",
                   "kõne"
                 ]
               }
@@ -50535,10 +50535,10 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "Pflaster",
-                  "laukumu",
+                  "väljakust",
                   "kõndimisest",
                   "tänavast",
-                  "kõne"
+                  "kõndimisest"
                 ]
               }
             }
@@ -50936,7 +50936,7 @@ const A2_WORDS = [
             "Rad"
           ],
           "purple": [
-            "riteni",
+            "ratast",
             "jalgratast"
           ],
           "green": [
@@ -51007,7 +51007,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "jalgratast"
+                "jalgrattaga"
               ]
             }
           },
@@ -51110,7 +51110,7 @@ const A2_WORDS = [
               "Rad"
             ],
             "purple": [
-              "riteni"
+              "ratast"
             ],
             "yellow": [
               "detailist"
@@ -51124,7 +51124,7 @@ const A2_WORDS = [
               "Rad"
             ],
             "purple": [
-              "sõitmist"
+              "sõitmisest"
             ]
           }
         ],
@@ -51137,7 +51137,7 @@ const A2_WORDS = [
               "das Fahrrad"
             ],
             "purple": [
-              "jalgrattale"
+              "jalgratta"
             ]
           },
           {
@@ -51280,7 +51280,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "muru"
+                "murule"
               ]
             }
           }
@@ -51369,15 +51369,15 @@ const A2_WORDS = [
             "Ich rate dir"
           ],
           "purple": [
-            "dot padomu",
+            "nõu andma",
             "ära arvama",
             "soovitan"
           ],
           "green": [
-            "Dativ"
+            "kam?"
           ],
           "yellow": [
-            "Konteksts"
+            "Kontekst"
           ]
         },
         "examples": [
@@ -51410,7 +51410,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "soovita"
+                "soovitad"
               ],
               "green": [
                 "mulle"
@@ -51428,10 +51428,10 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "ära arvama"
+                "ära arvata"
               ],
               "yellow": [
-                "vastust"
+                "vastuse"
               ]
             }
           },
@@ -51480,7 +51480,7 @@ const A2_WORDS = [
             "meaning": {
               "purple": [
                 "soovitama",
-                "dot padomu"
+                "nõu andma"
               ]
             },
             "example": {
@@ -51583,7 +51583,7 @@ const A2_WORDS = [
               "raten"
             ],
             "red": [
-              "ainult ära arvama"
+              "ainult ära arvamist"
             ]
           },
           {
@@ -51594,7 +51594,7 @@ const A2_WORDS = [
               "ma soovitan sulle"
             ],
             "red": [
-              "uzminu"
+              "arvan"
             ]
           }
         ]
@@ -51875,7 +51875,7 @@ const A2_WORDS = [
               "rechnen"
             ],
             "purple": [
-              "arvutama"
+              "arvutamist"
             ],
             "yellow": [
               "Matemaatikas"
@@ -51886,7 +51886,7 @@ const A2_WORDS = [
               "mit rechnen"
             ],
             "purple": [
-              "arvestama"
+              "arvestamisele"
             ]
           }
         ],
@@ -52047,12 +52047,12 @@ const A2_WORDS = [
           "purple": [
             "piisama",
             "ulatama",
-            "sniegties"
+            "ulatumist"
           ],
           "yellow": [
-            "daudzumu",
+            "hulka",
             "ajast",
-            "raha"
+            "rahast"
           ]
         },
         "examples": [
@@ -52070,7 +52070,7 @@ const A2_WORDS = [
                 "ei piisa"
               ],
               "yellow": [
-                "Raha"
+                "rahast"
               ]
             }
           },
@@ -52097,7 +52097,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "ulatama"
+                "ulatada"
               ],
               "yellow": [
                 "soola"
@@ -52190,7 +52190,7 @@ const A2_WORDS = [
                 "Reich"
               ],
               "purple": [
-                "pasniedz"
+                "ulatab"
               ]
             }
           },
@@ -52228,7 +52228,7 @@ const A2_WORDS = [
             "example": {
               "red": [
                 "Gib",
-                "Dod"
+                "annab"
               ]
             }
           },
@@ -52240,7 +52240,7 @@ const A2_WORDS = [
             },
             "meaning": {
               "purple": [
-                "sniegties"
+                "ulatumist"
               ]
             },
             "example": {
@@ -52513,7 +52513,7 @@ const A2_WORDS = [
           "purple": [
             "lõhnama",
             "nuusutama",
-            "haista"
+            "haistma"
           ],
           "green": [
             "inimene",
@@ -52536,7 +52536,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "lõhnab"
+                "lõhnavad"
               ],
               "green": [
                 "Lilled"
@@ -52657,7 +52657,7 @@ const A2_WORDS = [
                 "riechen"
               ],
               "purple": [
-                "lõhnab"
+                "lõhnavad"
               ]
             }
           },
@@ -52717,7 +52717,7 @@ const A2_WORDS = [
                 "duften"
               ],
               "purple": [
-                "lõhnab"
+                "lõhnavad"
               ]
             }
           },
@@ -52735,7 +52735,7 @@ const A2_WORDS = [
             "example": {
               "red": [
                 "stinkt",
-                "smird"
+                "haiseb"
               ]
             }
           }
@@ -52757,8 +52757,8 @@ const A2_WORDS = [
               "nuusutama"
             ],
             "green": [
-              "inimene",
-              "loom"
+              "inimesest",
+              "loomast"
             ]
           }
         ],
@@ -52781,7 +52781,7 @@ const A2_WORDS = [
             ],
             "purple": [
               "meeldiv lõhn",
-              "slikta smaka"
+              "halb hais"
             ]
           }
         ]
@@ -52972,7 +52972,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "paberi",
+                "paberit",
                 "rulli"
               ]
             }
@@ -52991,7 +52991,7 @@ const A2_WORDS = [
               ],
               "purple": [
                 "rull",
-                "laua"
+                "laual"
               ]
             }
           },
@@ -53005,7 +53005,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "mängib",
+                "mängid",
                 "kedagi",
                 "rolli"
               ]
@@ -53076,14 +53076,14 @@ const A2_WORDS = [
             "meaning": {
               "purple": [
                 "paberirull",
-                "paberi",
+                "paberirull",
                 "rull"
               ]
             },
             "example": {
               "yellow": [
                 "Papierrolle",
-                "paberi",
+                "paberirulli",
                 "kaufe",
                 "ostan",
                 "rulli"
@@ -53124,7 +53124,7 @@ const A2_WORDS = [
             "example": {
               "purple": [
                 "arbeit",
-                "töö",
+                "tööst",
                 "osa",
                 "teil"
               ]
@@ -53153,12 +53153,12 @@ const A2_WORDS = [
                   "Rolle"
                 ],
                 "green": [
-                  "rull"
+                  "rulli"
                 ],
                 "yellow": [
-                  "eset",
+                  "esemest",
                   "kangast",
-                  "paberit",
+                  "paberist",
                   "Rolle",
                   "kõne"
                 ]
@@ -53177,7 +53177,7 @@ const A2_WORDS = [
               ],
               "red": [
                 "ese",
-                "abstrakta",
+                "abstraktne",
                 "tähendus",
                 "sageli",
                 "Rolle",
@@ -53448,10 +53448,10 @@ const A2_WORDS = [
             "end koguma"
           ],
           "yellow": [
-            "postmarkidele",
+            "postmarkide",
             "seente",
             "raha",
-            "punktiem"
+            "punktide"
           ]
         },
         "examples": [
@@ -53508,7 +53508,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "kogub"
+                "koguvad"
               ],
               "yellow": [
                 "punkte"
@@ -53657,8 +53657,8 @@ const A2_WORDS = [
               "sammeln"
             ],
             "purple": [
-              "kogutud",
-              "vienuviet"
+              "kogutakse",
+              "ühte kohta"
             ]
           },
           {
@@ -53807,9 +53807,9 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "kirjuta",
-                "lauset",
+                "lause",
                 "palun",
-                "saksa"
+                "saksakeelne"
               ]
             }
           },
@@ -53847,7 +53847,7 @@ const A2_WORDS = [
               "purple": [
                 "komplekti",
                 "ostan",
-                "rehvide"
+                "rehvikomplekti"
               ]
             }
           },
@@ -53868,7 +53868,7 @@ const A2_WORDS = [
               ],
               "purple": [
                 "intressimäär",
-                "intressi",
+                "intressimäär",
                 "määr",
                 "madal"
               ]
@@ -53889,7 +53889,7 @@ const A2_WORDS = [
               ],
               "purple": [
                 "sete",
-                "kohvi",
+                "kohvisete",
                 "jääb",
                 "klaasi"
               ]
@@ -54029,7 +54029,7 @@ const A2_WORDS = [
             "meaning": {
               "purple": [
                 "intressimäär",
-                "intressi",
+                "intressimäär",
                 "määr"
               ]
             },
@@ -54042,7 +54042,7 @@ const A2_WORDS = [
               ],
               "red": [
                 "der Zinssatz",
-                "Intressi",
+                "Intressimäär",
                 "Zinssatz",
                 "kasvab",
                 "steigt",
@@ -54062,7 +54062,7 @@ const A2_WORDS = [
                 "kohvipaks / sete",
                 "sete",
                 "sete",
-                "kohvi"
+                "kohvipaks"
               ]
             },
             "example": {
@@ -54073,7 +54073,7 @@ const A2_WORDS = [
                 "der Kaffeesatz",
                 "kaffeesatz",
                 "sete",
-                "kohvi",
+                "Kohvipaks",
                 "bleibt",
                 "jääb",
                 "glas"
@@ -54106,7 +54106,7 @@ const A2_WORDS = [
                   "määr"
                 ],
                 "yellow": [
-                  "specifiska",
+                  "spetsiifiliseks",
                   "Kaffee",
                   "tähendus",
                   "Reifen",
@@ -54175,11 +54175,11 @@ const A2_WORDS = [
           "lause",
           "lauset",
           "Spordis",
-          "tarifs",
+          "tariif",
           "keeles",
           "rehvide",
           "Satz",
-          "setu"
+          "setti"
         ],
         "green": [
           "der deutsche Satz",
@@ -54209,7 +54209,7 @@ const A2_WORDS = [
         "red": [
           "der Zinssatz",
           "Zinssatz",
-          "tarifs"
+          "tariif"
         ]
       }
     }
@@ -54480,18 +54480,18 @@ const A2_WORDS = [
             "scharf"
           ],
           "purple": [
-            "ass",
+            "telg",
             "vürtsikas",
             "selge"
           ],
           "yellow": [
-            "nazi",
-            "kääridega",
+            "Noa",
+            "kääride",
             "toitu",
             "pilti"
           ],
           "red": [
-            "Konteksts"
+            "Kontekst"
           ]
         },
         "examples": [
@@ -54506,7 +54506,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "ass"
+                "telg"
               ],
               "yellow": [
                 "Nuga"
@@ -54542,7 +54542,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "ass"
+                "telg"
               ],
               "yellow": [
                 "Pilt"
@@ -54592,7 +54592,7 @@ const A2_WORDS = [
             },
             "meaning": {
               "purple": [
-                "ass"
+                "telg"
               ]
             },
             "example": {
@@ -54600,7 +54600,7 @@ const A2_WORDS = [
                 "scharfes"
               ],
               "purple": [
-                "ass"
+                "telg"
               ]
             }
           },
@@ -54641,7 +54641,7 @@ const A2_WORDS = [
                 "scharfes"
               ],
               "purple": [
-                "ass"
+                "telg"
               ]
             }
           },
@@ -54688,11 +54688,11 @@ const A2_WORDS = [
               "scharf"
             ],
             "yellow": [
-              "nazi",
-              "malu"
+              "Noa",
+              "serva"
             ],
             "purple": [
-              "ass"
+              "telg"
             ]
           },
           {
@@ -54700,7 +54700,7 @@ const A2_WORDS = [
               "scharf"
             ],
             "yellow": [
-              "toitu"
+              "Toidu"
             ],
             "purple": [
               "vürtsikas"
@@ -54713,7 +54713,7 @@ const A2_WORDS = [
               "scharf"
             ],
             "purple": [
-              "ass"
+              "telg"
             ],
             "red": [
               "ainult"
@@ -54727,7 +54727,7 @@ const A2_WORDS = [
               "vürtsikas toit"
             ],
             "red": [
-              "fiziski ass"
+              "füüsiliselt terav"
             ]
           }
         ]
@@ -55085,7 +55085,7 @@ const A2_WORDS = [
               ],
               "red": [
                 "subjektiivne",
-                "iespaids",
+                "mulje",
                 "scheinen",
                 "füüsiline",
                 "valgus"
@@ -55107,19 +55107,19 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "Konstrukcija",
+          "Konstruktsioon",
           "infinitiivi",
           "muljet",
           "scheinen",
           "inimest",
-          "likties",
+          "näima",
           "tähendama",
           "scheint",
           "tule",
-          "izsaka",
+          "väljendab",
           "paistma",
           "sageli",
-          "sauli",
+          "päikesest",
           "tundub",
           "tunduma",
           "kõne"
@@ -55365,7 +55365,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "madude",
+                "madusid",
                 "hirm"
               ]
             }
@@ -55381,7 +55381,7 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "lapsed",
-                "ootab",
+                "ootavad",
                 "järjekorras"
               ]
             }
@@ -55425,7 +55425,7 @@ const A2_WORDS = [
             "meaning": {
               "purple": [
                 "ootejärjekord",
-                "oote",
+                "ootejärjekord",
                 "rida"
               ]
             },
@@ -55433,7 +55433,7 @@ const A2_WORDS = [
               "green": [
                 "die Warteschlange",
                 "Warteschlange",
-                "Oote",
+                "Ootejärjekord",
                 "rida",
                 "pikk",
                 "lang"
@@ -55464,7 +55464,7 @@ const A2_WORDS = [
                 "Stühle",
                 "Reihe",
                 "järjekorras",
-                "seisab"
+                "seisavad"
               ]
             }
           },
@@ -55510,7 +55510,7 @@ const A2_WORDS = [
                   "rida"
                 ],
                 "yellow": [
-                  "inimestele",
+                  "inimeste",
                   "Schlange",
                   "piletite",
                   "kassa",
@@ -55527,11 +55527,11 @@ const A2_WORDS = [
                   "madu"
                 ],
                 "yellow": [
-                  "looma",
+                  "loomade",
                   "kontekstis",
                   "Schlange",
                   "madu",
-                  "Dabas"
+                  "Looduse"
                 ]
               }
             }
@@ -55544,8 +55544,8 @@ const A2_WORDS = [
                 "Schlange"
               ],
               "red": [
-                "konteksta",
-                "klasisks",
+                "kontekstist",
+                "klassikaline",
                 "Schlange",
                 "eesnimi"
               ]
@@ -55574,7 +55574,7 @@ const A2_WORDS = [
           "standardStudy",
           "die Schlange",
           "looma",
-          "Konteksts",
+          "Kontekst",
           "Schlange",
           "inimesed",
           "seisma",
@@ -55586,7 +55586,7 @@ const A2_WORDS = [
           "ootab",
           "rida",
           "järjekorras",
-          "rindu"
+          "järjekorda"
         ],
         "green": [
           "die Warteschlange",
@@ -55729,7 +55729,7 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "suleme",
-                "lepingut"
+                "lepingu"
               ]
             }
           },
@@ -55746,7 +55746,7 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "väsinud",
-                "sõnadega",
+                "sõnadest",
                 "järeldan"
               ]
             }
@@ -55761,10 +55761,10 @@ const A2_WORDS = [
             },
             "lv": {
               "orange": [
-                "sulgema"
+                "sulgeda"
               ],
               "purple": [
-                "sulgema",
+                "sulgeda",
                 "akna",
                 "saad"
               ]
@@ -55804,8 +55804,8 @@ const A2_WORDS = [
             "example": {
               "blue": [
                 "schließe",
-                "aizveru",
-                "uks"
+                "panen",
+                "ukse"
               ]
             }
           },
@@ -55826,7 +55826,7 @@ const A2_WORDS = [
               "green": [
                 "lukustan",
                 "schließe",
-                "uks"
+                "ukse"
               ]
             }
           },
@@ -55881,13 +55881,13 @@ const A2_WORDS = [
                   "schließen"
                 ],
                 "orange": [
-                  "sulgema"
+                  "sulgemist"
                 ],
                 "yellow": [
                   "schließen",
-                  "sulgema",
-                  "Uks",
-                  "logi"
+                  "sulgemist",
+                  "Uksed",
+                  "aknad"
                 ]
               }
             },
@@ -55900,7 +55900,7 @@ const A2_WORDS = [
                   "abschließen",
                   "lukustamist",
                   "Schlüssel",
-                  "rõhutama",
+                  "rõhutada",
                   "kasutatakse"
                 ]
               }
@@ -55956,7 +55956,7 @@ const A2_WORDS = [
           "sõlmima",
           "tähendama",
           "järeldama",
-          "Veikala",
+          "Poe",
           "poodi",
           "uks",
           "lepingut",
@@ -56153,7 +56153,7 @@ const A2_WORDS = [
                 "ukselukk",
                 "katki",
                 "lukk",
-                "ukse"
+                "ukselukk"
               ]
             }
           },
@@ -56169,7 +56169,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "jalgratta",
+                "jalgrattalukku",
                 "lukku",
                 "uut"
               ]
@@ -56189,7 +56189,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "lukus",
+                "lukku",
                 "võti",
                 "ei sobi"
               ]
@@ -56233,7 +56233,7 @@ const A2_WORDS = [
                 "das Schloss",
                 "Schloss",
                 "Loss",
-                "veca"
+                "vana"
               ],
               "orange": [
                 "loss"
@@ -56280,7 +56280,7 @@ const A2_WORDS = [
               "purple": [
                 "ukselukk",
                 "lukk",
-                "ukse"
+                "ukselukk"
               ]
             },
             "example": {
@@ -56292,7 +56292,7 @@ const A2_WORDS = [
                 "Türschloss",
                 "katki",
                 "lukk",
-                "Ukse",
+                "Ukselukk",
                 "kaputt"
               ],
               "purple": [
@@ -56310,14 +56310,14 @@ const A2_WORDS = [
             "meaning": {
               "purple": [
                 "jalgrattalukk",
-                "jalgratta",
+                "jalgrattalukk",
                 "lukk"
               ]
             },
             "example": {
               "red": [
                 "Fahrradschloss",
-                "jalgratta",
+                "jalgrattaluku",
                 "lukku",
                 "kaufe",
                 "ostan"
@@ -56340,7 +56340,7 @@ const A2_WORDS = [
               "purple": [
                 "der Schlüssel",
                 "schlüssel",
-                "pazudusi",
+                "kadunud",
                 "võti"
               ]
             }
@@ -56354,12 +56354,12 @@ const A2_WORDS = [
                   "Schloss"
                 ],
                 "orange": [
-                  "loss"
+                  "lossi"
                 ],
                 "yellow": [
                   "Schloss",
                   "Turismis",
-                  "loss"
+                  "lossi"
                 ]
               }
             },
@@ -56369,11 +56369,11 @@ const A2_WORDS = [
                   "Schloss"
                 ],
                 "green": [
-                  "lukk"
+                  "lukku"
                 ],
                 "yellow": [
-                  "jalgratast",
-                  "lukk",
+                  "jalgratta",
+                  "lukku",
                   "võtme",
                   "Schloss",
                   "ustest"
@@ -56389,10 +56389,10 @@ const A2_WORDS = [
                 "Schloss"
               ],
               "red": [
-                "konteksts",
+                "kontekst",
                 "Schloss",
-                "nosaka",
-                "tähendust"
+                "määrab",
+                "tähenduse"
               ]
             },
             "example": {
@@ -56745,7 +56745,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "võlga",
+                "võlgu",
                 "palju",
                 "tal"
               ]
@@ -56835,7 +56835,7 @@ const A2_WORDS = [
                 "Verantwortung",
                 "vastutust",
                 "trage",
-                "nesu"
+                "kannan"
               ]
             }
           },
@@ -56974,11 +56974,11 @@ const A2_WORDS = [
           "süüdlasele",
           "võlg",
           "Schuld",
-          "vainot",
+          "süüdistama",
           "Fraas",
           "geben",
           "süü",
-          "vainu",
+          "süüd",
           "kedagi"
         ],
         "green": [
@@ -57155,7 +57155,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "raskelt"
+                "raske"
               ]
             }
           },
@@ -57179,7 +57179,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "kaal"
+                "kaalud"
               ]
             }
           },
@@ -57856,7 +57856,7 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "vestleme",
-                "tööd"
+                "tööst"
               ]
             }
           },
@@ -57883,7 +57883,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "lõbutsen",
+                "lõbutsesin",
                 "hästi"
               ]
             }
@@ -57971,7 +57971,7 @@ const A2_WORDS = [
               "green": [
                 "Deutsch",
                 "spreche",
-                "saksa keeles",
+                "saksa keelt",
                 "räägin"
               ]
             }
@@ -58042,9 +58042,9 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "lõbutsema",
-                  "konteksts",
+                  "kontekst",
                   "üritus",
-                  "tähendama",
+                  "tähendada",
                   "õhtu",
                   "film"
                 ]
@@ -58283,7 +58283,7 @@ const A2_WORDS = [
             "sitzen"
           ],
           "purple": [
-            "istuma"
+            "istub"
           ]
         },
         "examples": [
@@ -58296,7 +58296,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "istuma"
+                "istun"
               ]
             }
           },
@@ -58309,7 +58309,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "istuma"
+                "istuda"
               ]
             }
           },
@@ -58322,7 +58322,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "istuma"
+                "istuvad"
               ]
             }
           },
@@ -58335,7 +58335,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "istuma"
+                "istun"
               ]
             }
           },
@@ -58356,7 +58356,7 @@ const A2_WORDS = [
         "tip": [
           {
             "purple": [
-              "istuma"
+              "istub"
             ]
           }
         ],
@@ -58439,8 +58439,8 @@ const A2_WORDS = [
             "setzen"
           ],
           "purple": [
-            "istuma panema",
-            "istuma panema"
+            "istuma paneb",
+            "istuma paneb"
           ]
         },
         "examples": [
@@ -58622,7 +58622,7 @@ const A2_WORDS = [
               "purple": [
                 "helistan",
                 "niipea kui",
-                "aeg"
+                "aega"
               ]
             }
           },
@@ -58744,7 +58744,7 @@ const A2_WORDS = [
                 "Niipea kui",
                 "tuleb",
                 "sobald",
-                "iesim",
+                "läheme",
                 "kommt"
               ],
               "orange": [
@@ -58766,11 +58766,11 @@ const A2_WORDS = [
             "example": {
               "green": [
                 "komme",
-                "aeg",
+                "aega",
                 "tulen",
                 "wenn",
                 "Zeit",
-                "kui"
+                "ja"
               ]
             }
           },
@@ -58878,7 +58878,7 @@ const A2_WORDS = [
                   "tegevus",
                   "järgmine",
                   "sobald",
-                  "uzreiz",
+                  "kohe",
                   "algab"
                 ]
               }
@@ -58893,7 +58893,7 @@ const A2_WORDS = [
               ],
               "red": [
                 "mõjutab",
-                "teikuma",
+                "lause",
                 "sobald",
                 "ülesehitust",
                 "saksa"
@@ -58932,7 +58932,7 @@ const A2_WORDS = [
           "tegevuse",
           "niipea kui",
           "lõpus",
-          "ievada",
+          "juhatab sisse",
           "niipea kui",
           "sobald",
           "keeles",
@@ -58947,7 +58947,7 @@ const A2_WORDS = [
           "minevikus üks kord",
           "niipea kui",
           "wenn",
-          "kui"
+          "ja"
         ],
         "yellow": [
           "als"
@@ -59165,7 +59165,7 @@ const A2_WORDS = [
               "purple": [
                 "nädalavahetusel",
                 "nädalavahetusel",
-                "tee"
+                "teed"
               ]
             }
           },
@@ -59196,7 +59196,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "küsimused",
+                "küsimusi",
                 "millised"
               ]
             }
@@ -59332,7 +59332,7 @@ const A2_WORDS = [
               "purple": [
                 "außerdem",
                 "pealegi",
-                "kallilt",
+                "kallis",
                 "teuer"
               ]
             }
@@ -59352,7 +59352,7 @@ const A2_WORDS = [
                 "yellow": [
                   "hoiatus",
                   "lauses",
-                  "sekas",
+                  "tagajärg",
                   "sonst"
                 ]
               }
@@ -59364,8 +59364,8 @@ const A2_WORDS = [
                 ],
                 "red": [],
                 "yellow": [
-                  "ieradumu",
-                  "tähendama",
+                  "harjumusest",
+                  "tähendada",
                   "sonst",
                   "kõne"
                 ]
@@ -59410,14 +59410,14 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "ieradumiem",
-          "kontekstos",
+          "Harjumuste",
+          "kontekstis",
           "hoiataks",
           "juhul",
           "tähendama",
           "vastasel",
           "teisiti",
-          "notiks",
+          "juhtub",
           "sageli",
           "Mõnes",
           "kasutatakse",
@@ -59767,7 +59767,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "seisma"
+                "seisab"
               ]
             }
           },
@@ -59780,7 +59780,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "seisma"
+                "seisab"
               ]
             }
           },
@@ -59793,7 +59793,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "seisma"
+                "seisund"
               ]
             }
           },
@@ -59814,7 +59814,7 @@ const A2_WORDS = [
         "tip": [
           {
             "purple": [
-              "seisma"
+              "Seisund"
             ]
           }
         ],
@@ -60140,7 +60140,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "tõusevad"
+                "tõuseb"
               ],
               "yellow": [
                 "Vesi"
@@ -60162,7 +60162,7 @@ const A2_WORDS = [
                 "astun"
               ],
               "yellow": [
-                "bussis"
+                "bussi"
               ]
             }
           },
@@ -60496,7 +60496,7 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "otsin",
-                "töö",
+                "töökohta",
                 "uut",
                 "koha"
               ]
@@ -60519,7 +60519,7 @@ const A2_WORDS = [
               ],
               "purple": [
                 "tasustatud",
-                "töö",
+                "töökoht",
                 "koht",
                 "hästi"
               ]
@@ -60540,7 +60540,7 @@ const A2_WORDS = [
                 "veel kord",
                 "loe",
                 "tekstis",
-                "koha"
+                "koht"
               ]
             }
           },
@@ -60578,7 +60578,7 @@ const A2_WORDS = [
                 "välja kuulutatud",
                 "internetis",
                 "vaba",
-                "töö",
+                "töökoht",
                 "koht"
               ]
             }
@@ -60596,7 +60596,7 @@ const A2_WORDS = [
               "purple": [
                 "koht / töökoht / katkend",
                 "katkend",
-                "töö",
+                "töökoht",
                 "koht"
               ]
             },
@@ -60604,7 +60604,7 @@ const A2_WORDS = [
               "blue": [
                 "otsin",
                 "Stelle",
-                "töö",
+                "töökohta",
                 "suche",
                 "koha"
               ]
@@ -60646,7 +60646,7 @@ const A2_WORDS = [
             },
             "meaning": {
               "purple": [
-                "töö",
+                "töökoht",
                 "koht"
               ]
             },
@@ -60656,7 +60656,7 @@ const A2_WORDS = [
               ],
               "yellow": [
                 "Arbeitsplatz",
-                "töö",
+                "töökoht",
                 "vaikne",
                 "ruhig",
                 "koht",
@@ -60691,7 +60691,7 @@ const A2_WORDS = [
                 "katkend",
                 "tähtis",
                 "wichtig",
-                "teksti",
+                "tekstilõik",
                 "Diese"
               ]
             }
@@ -60728,7 +60728,7 @@ const A2_WORDS = [
                   "otsima",
                   "Stelle",
                   "suchen",
-                  "töö"
+                  "töökohta"
                 ]
               }
             },
@@ -60741,7 +60741,7 @@ const A2_WORDS = [
                   "kindlat",
                   "dieser",
                   "Stelle",
-                  "koha",
+                  "kohta",
                   "Text"
                 ]
               }
@@ -60787,16 +60787,16 @@ const A2_WORDS = [
           "standardStudy",
           "die Stelle",
           "katkend",
-          "fragmentu",
+          "katkendit",
           "kontekstis",
           "kindlat",
           "Keha",
           "tähendama",
-          "traumas",
+          "vigastuse",
           "dieser",
           "Stelle",
           "Tekstis",
-          "amatu",
+          "ametikohta",
           "töö",
           "Fraas",
           "ruumis",
@@ -61081,7 +61081,7 @@ const A2_WORDS = [
               ],
               "purple": [
                 "nii on",
-                "õigesti"
+                "õige"
               ]
             }
           },
@@ -61180,7 +61180,7 @@ const A2_WORDS = [
                 ],
                 "purple": [
                   "nii on",
-                  "õigesti"
+                  "õige"
                 ]
               }
             },
@@ -61207,7 +61207,7 @@ const A2_WORDS = [
                 "tähendust"
               ],
               "yellow": [
-                "konstrukcijas"
+                "konstruktsioonist"
               ]
             },
             "example": {
@@ -61458,7 +61458,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "kanga"
+                "kangast"
               ],
               "yellow": [
                 "jakk"
@@ -61587,7 +61587,7 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "riietest",
-                  "aizkariem",
+                  "kardinatest",
                   "õmblemisest"
                 ]
               }
@@ -61601,7 +61601,7 @@ const A2_WORDS = [
                   "õppematerjali"
                 ],
                 "green": [
-                  "kooli"
+                  "koolist"
                 ]
               }
             }
@@ -61900,7 +61900,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "tahvli"
+                "tahvlile"
               ],
               "green": [
                 "Õpetaja"
@@ -61915,7 +61915,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "tahvlit"
+                "tahvel"
               ]
             }
           },
@@ -61930,7 +61930,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "tahvlikest"
+                "tahvli"
               ],
               "yellow": [
                 "šokolaadi"
@@ -61951,7 +61951,7 @@ const A2_WORDS = [
                 "tahvel"
               ],
               "yellow": [
-                "seina"
+                "seinal"
               ]
             }
           },
@@ -61987,7 +61987,7 @@ const A2_WORDS = [
                 "menüü"
               ],
               "yellow": [
-                "laua"
+                "laual"
               ]
             }
           }
@@ -62012,7 +62012,7 @@ const A2_WORDS = [
                 "Tafel"
               ],
               "purple": [
-                "tahvli"
+                "tahvlile"
               ]
             }
           },
@@ -62123,8 +62123,8 @@ const A2_WORDS = [
                   "die Speisekarte"
                 ],
                 "purple": [
-                  "tabulai",
-                  "menüüle"
+                  "andmetabeli",
+                  "menüü"
                 ]
               }
             }
@@ -62137,7 +62137,7 @@ const A2_WORDS = [
                 "die Tafel"
               ],
               "red": [
-                "datu tabulai"
+                "andmetabeli"
               ]
             },
             "example": {
@@ -62411,7 +62411,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "varu",
+                "varuosa",
                 "detailist"
               ]
             }
@@ -62528,7 +62528,7 @@ const A2_WORDS = [
               ],
               "green": [
                 "leicht",
-                "viegla",
+                "lihtne",
                 "erste",
                 "Esimene",
                 "osa",
@@ -62546,7 +62546,7 @@ const A2_WORDS = [
             "meaning": {
               "purple": [
                 "varuosa",
-                "varu",
+                "varuosa",
                 "detail"
               ]
             },
@@ -62557,7 +62557,7 @@ const A2_WORDS = [
               "yellow": [
                 "das Ersatzteil",
                 "Ersatzteil",
-                "Varu",
+                "Varuosa",
                 "detail",
                 "kallis",
                 "teuer"
@@ -62581,9 +62581,9 @@ const A2_WORDS = [
             },
             "example": {
               "red": [
-                "tükki",
+                "tüki",
                 "Kuchen",
-                "koogi",
+                "kooki",
                 "nehme",
                 "Stück",
                 "võtan"
@@ -62645,7 +62645,7 @@ const A2_WORDS = [
                   "osa"
                 ],
                 "yellow": [
-                  "kopumu",
+                  "terviku",
                   "loo",
                   "teksti",
                   "osa",
@@ -62668,7 +62668,7 @@ const A2_WORDS = [
                 "osa"
               ],
               "red": [
-                "abstrakta",
+                "abstraktne",
                 "füüsiline",
                 "detail",
                 "osa",
@@ -63137,7 +63137,7 @@ const A2_WORDS = [
                 "Frist"
               ],
               "purple": [
-                "pierakstam",
+                "arstiaeg",
                 "kohtuma",
                 "tähtaeg"
               ]
@@ -63503,7 +63503,7 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "Vee",
-                  "aukudega",
+                  "aukude",
                   "orgude"
                 ]
               }
@@ -63517,8 +63517,8 @@ const A2_WORDS = [
                   "madal"
                 ],
                 "yellow": [
-                  "Balsij",
-                  "tonim"
+                  "Hääle",
+                  "tooni"
                 ]
               }
             }
@@ -63724,7 +63724,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "suurepäraselt"
+                "suurepärane"
               ]
             }
           },
@@ -63915,8 +63915,8 @@ const A2_WORDS = [
           "trägst"
         ],
         "green": [
-          "Kandma",
-          "kandma",
+          "Nest",
+          "nest",
           "kannab"
         ],
         "yellow": [
@@ -63972,7 +63972,7 @@ const A2_WORDS = [
                 "tragen"
               ],
               "purple": [
-                "kandmist",
+                "kandmisest",
                 "käes"
               ]
             },
@@ -63984,7 +63984,7 @@ const A2_WORDS = [
                 "anziehen"
               ],
               "purple": [
-                "kandma",
+                "nest",
                 "kandma",
                 "kandma",
                 "selga panema"
@@ -64158,7 +64158,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "kohtan",
+                "kohtun",
                 "sõpra",
                 "täna"
               ]
@@ -64219,7 +64219,7 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "tuleb vastu võtta",
-                "otsus"
+                "otsuse"
               ]
             }
           },
@@ -64235,7 +64235,7 @@ const A2_WORDS = [
               "purple": [
                 "tegi",
                 "õige",
-                "valikut"
+                "valiku"
               ]
             }
           },
@@ -64249,7 +64249,7 @@ const A2_WORDS = [
               "purple": [
                 "tõele",
                 "ei vasta",
-                "õigesti"
+                "õige"
               ]
             }
           }
@@ -64346,7 +64346,7 @@ const A2_WORDS = [
                 "ühendust saama",
                 "ei saa",
                 "dich",
-                "sind"
+                "sinuga"
               ]
             }
           },
@@ -64359,7 +64359,7 @@ const A2_WORDS = [
             "meaning": {
               "purple": [
                 "sobima / vastama",
-                "vastab",
+                "vastama",
                 "sobima"
               ]
             },
@@ -64378,13 +64378,13 @@ const A2_WORDS = [
                   "treffen"
                 ],
                 "orange": [
-                  "kohtama"
+                  "kohtuma"
                 ],
                 "yellow": [
                   "kontekstis",
-                  "Inimest",
+                  "Inimeste",
                   "treffen",
-                  "kohtama",
+                  "kohtuma",
                   "sageli"
                 ]
               }
@@ -64400,7 +64400,7 @@ const A2_WORDS = [
                   "kontekstis",
                   "vastu võtma",
                   "treffen",
-                  "Otsuste"
+                  "otsust"
                 ]
               }
             }
@@ -64743,7 +64743,7 @@ const A2_WORDS = [
                 "üle jäänud"
               ],
               "yellow": [
-                "aeg"
+                "aega"
               ]
             }
           },
@@ -64876,7 +64876,7 @@ const A2_WORDS = [
                 "unnötig"
               ],
               "purple": [
-                "ebavajalikult"
+                "ebavajalik"
               ]
             }
           }
@@ -64899,7 +64899,7 @@ const A2_WORDS = [
                   "übrig bleiben"
                 ],
                 "purple": [
-                  "üle jääma"
+                  "üle jäämist"
                 ]
               }
             }
@@ -64912,7 +64912,7 @@ const A2_WORDS = [
                 "übrig"
               ],
               "red": [
-                "lieks",
+                "üleliigne",
                 "ebavajalik"
               ]
             },
@@ -65062,7 +65062,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "harjutust"
+                "harjutus"
               ],
               "yellow": [
                 "leheküljel"
@@ -65080,7 +65080,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "harjutust"
+                "harjutusi"
               ],
               "green": [
                 "kursusel"
@@ -65163,7 +65163,7 @@ const A2_WORDS = [
                 "übe"
               ],
               "purple": [
-                "vingrinos"
+                "harjutan"
               ]
             }
           },
@@ -65606,7 +65606,7 @@ const A2_WORDS = [
                 "yellow": [
                   "umsonst",
                   "asjata",
-                  "hinda",
+                  "hinnast",
                   "kõne"
                 ]
               }
@@ -65636,7 +65636,7 @@ const A2_WORDS = [
                 "umsonst"
               ],
               "red": [
-                "erinevad",
+                "erinevat",
                 "tähendust",
                 "segama",
                 "umsonst",
@@ -65669,7 +65669,7 @@ const A2_WORDS = [
         "blue": [
           "standardStudy",
           "erinevate",
-          "Konteksts",
+          "Kontekst",
           "kostenlos",
           "tulemuseta",
           "tulemusest",
@@ -65856,7 +65856,7 @@ const A2_WORDS = [
       "important": [
         "Ei ole õige: die Ferie, der Urlaube (A1 tasemel).",
         "Urlaub: im Urlaub sein / Urlaub machen.",
-        "Nepareizi: die Urlaube → Pareizi: der Urlaub",
+        "Vale: die Urlaube → Õige: der Urlaub",
         "Töö: der Urlaub (ainult ainsuses)."
       ],
       "sectionAccents": {
@@ -65882,7 +65882,20 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "puhkus"
+                "puhkusel"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "der Urlaub",
+                "urlaub"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "puhkusel"
               ]
             }
           },
@@ -65908,7 +65921,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "puhkus"
+                "puhkuse"
               ]
             }
           },
@@ -65921,20 +65934,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "puhkus"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "der Urlaub",
-                "urlaub"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "puhkus"
+                "puhkusel"
               ]
             }
           }
@@ -65949,7 +65949,7 @@ const A2_WORDS = [
         "important": [
           {
             "green": [
-              "der Urlaub"
+              "der Urlaube"
             ]
           }
         ]
@@ -66059,7 +66059,7 @@ const A2_WORDS = [
                 "Sild"
               ],
               "green": [
-                "linnaosad"
+                "linnaosa"
               ]
             }
           },
@@ -66074,7 +66074,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "ühendama"
+                "ühendada"
               ],
               "yellow": [
                 "kontoriga"
@@ -66101,7 +66101,7 @@ const A2_WORDS = [
                 "tee"
               ],
               "green": [
-                "külasid"
+                "küla"
               ]
             }
           },
@@ -66149,7 +66149,7 @@ const A2_WORDS = [
                 "Berliin"
               ],
               "yellow": [
-                "muusikat"
+                "muusikaga"
               ]
             }
           },
@@ -66167,7 +66167,7 @@ const A2_WORDS = [
                 "seina"
               ],
               "yellow": [
-                "kingad"
+                "kingapaelad"
               ]
             }
           }
@@ -66288,7 +66288,7 @@ const A2_WORDS = [
                   "verbinden"
                 ],
                 "purple": [
-                  "seotud",
+                  "seotuks",
                   "koos"
                 ]
               }
@@ -66563,7 +66563,7 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "klientidega",
-                "kontakti",
+                "kontakte",
                 "firmal",
                 "palju"
               ]
@@ -66703,7 +66703,7 @@ const A2_WORDS = [
             "example": {
               "red": [
                 "klientidega",
-                "kontakti",
+                "kontaktid",
                 "Kontakt",
                 "Kunden"
               ]
@@ -66747,7 +66747,7 @@ const A2_WORDS = [
                 "yellow": [
                   "Linnas",
                   "Verkehr",
-                  "tee"
+                  "teel"
                 ]
               }
             },
@@ -66757,11 +66757,11 @@ const A2_WORDS = [
                   "Verkehr"
                 ],
                 "yellow": [
-                  "ettevõtetele",
-                  "klientidega",
-                  "kontaktus",
-                  "tähendama",
-                  "sakarus",
+                  "ettevõtete",
+                  "Klientide",
+                  "kontakte",
+                  "tähendada",
+                  "suhteid",
                   "Verkehr"
                 ]
               }
@@ -66781,7 +66781,7 @@ const A2_WORDS = [
                 "liiklus",
                 "Verkehr",
                 "ainult",
-                "auto"
+                "autoliiklus"
               ]
             },
             "example": {
@@ -66812,14 +66812,14 @@ const A2_WORDS = [
           "teabe",
           "der Verkehr",
           "liiklus",
-          "satiksmi",
-          "Biznesa",
+          "liiklust",
+          "Ärikontekstis",
           "inimest",
           "liikumine",
           "liikumist",
           "tähendama",
           "linnas",
-          "sakarus",
+          "suhteid",
           "Verkehr",
           "läbikäimine",
           "keeles",
@@ -67034,7 +67034,7 @@ const A2_WORDS = [
               ],
               "purple": [
                 "veerand",
-                "pitsa"
+                "pitsat"
               ]
             }
           },
@@ -67138,7 +67138,7 @@ const A2_WORDS = [
             "example": {
               "blue": [
                 "Veerand",
-                "piisavalt",
+                "piisav",
                 "Viertel",
                 "genug"
               ],
@@ -67205,7 +67205,7 @@ const A2_WORDS = [
             "meaning": {
               "purple": [
                 "linnaosa / rajoon",
-                "linna",
+                "linnaosa",
                 "linnaosa",
                 "osa"
               ]
@@ -67259,11 +67259,11 @@ const A2_WORDS = [
                   "Viertel"
                 ],
                 "orange": [
-                  "veerand"
+                  "veerandit"
                 ],
                 "yellow": [
-                  "veerand",
-                  "daudzumu",
+                  "veerandit",
+                  "hulka",
                   "Viertel"
                 ]
               }
@@ -67275,12 +67275,12 @@ const A2_WORDS = [
                 ],
                 "green": [
                   "veerand tundi",
-                  "kvartal",
+                  "kvartalit",
                   "linnaosa"
                 ],
                 "yellow": [
-                  "kvartal",
-                  "pulksteni",
+                  "kvartalit",
+                  "kellaajaga",
                   "linnajagu",
                   "linna",
                   "tundi",
@@ -67297,7 +67297,7 @@ const A2_WORDS = [
                 "Viertel"
               ],
               "red": [
-                "daudzuma",
+                "hulga",
                 "linna",
                 "Viertel",
                 "aega",
@@ -67327,7 +67327,7 @@ const A2_WORDS = [
         "blue": [
           "standardStudy",
           "das Viertel",
-          "izteicienos",
+          "Ajaväljendites",
           "kvartal",
           "veerand",
           "veerandit",
@@ -67337,10 +67337,10 @@ const A2_WORDS = [
           "linnajagu",
           "näiteks",
           "Linna",
-          "veseluma",
+          "tervikust",
           "tundi",
           "Viertel",
-          "rajonu",
+          "linnaosa",
           "Aja",
           "acht"
         ],
@@ -67578,10 +67578,10 @@ const A2_WORDS = [
             },
             "lv": {
               "orange": [
-                "tutvustama"
+                "tutvustada"
               ],
               "purple": [
-                "tutvustama",
+                "tutvustada",
                 "tohin",
                 "sõpra",
                 "oma",
@@ -67603,7 +67603,7 @@ const A2_WORDS = [
                 "end tutvustama"
               ],
               "purple": [
-                "tutvustama",
+                "tutvustada",
                 "sooviksin",
                 "ees"
               ]
@@ -67618,10 +67618,10 @@ const A2_WORDS = [
             },
             "lv": {
               "green": [
-                "ette kujutama"
+                "ette kujutada"
               ],
               "purple": [
-                "ette kujutama",
+                "ette kujutada",
                 "saad"
               ]
             }
@@ -67635,10 +67635,10 @@ const A2_WORDS = [
             },
             "lv": {
               "green": [
-                "ette kujutama"
+                "ette kujutada"
               ],
               "purple": [
-                "ette kujutama",
+                "ette kujutada",
                 "ei saa"
               ]
             }
@@ -67760,7 +67760,7 @@ const A2_WORDS = [
                 "arvan",
                 "denke",
                 "dich",
-                "sind"
+                "sinule"
               ]
             }
           },
@@ -67780,7 +67780,7 @@ const A2_WORDS = [
             "example": {
               "red": [
                 "meinst",
-                "mõtleb"
+                "mõtled"
               ]
             }
           },
@@ -67816,7 +67816,7 @@ const A2_WORDS = [
                   "end tutvustama",
                   "vorstellen",
                   "tutvustama",
-                  "inimest",
+                  "inimesega",
                   "sageli"
                 ]
               }
@@ -67831,7 +67831,7 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "vorstellen",
-                  "latviski",
+                  "eesti keeles",
                   "etwas"
                 ]
               }
@@ -67874,7 +67874,7 @@ const A2_WORDS = [
           "ees",
           "sõnale",
           "etwas",
-          "ideju",
+          "idee",
           "eriti",
           "plaani",
           "kedagi",
@@ -67996,7 +67996,7 @@ const A2_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": "der Wagen",
-          "purple": "auto",
+          "purple": "autot",
           "red": "wagen"
         },
         "examples": [
@@ -68013,7 +68013,7 @@ const A2_WORDS = [
               "blue": "Wagen"
             },
             "lv": {
-              "purple": "auto"
+              "purple": "autoga"
             }
           },
           {
@@ -68164,8 +68164,8 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "menüüd",
-                "menüüd",
+                "menüü",
+                "menüü",
                 "valin"
               ]
             }
@@ -68180,7 +68180,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "vali",
+                "valid",
                 "värvi",
                 "keda"
               ]
@@ -68195,7 +68195,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "presidenti",
+                "presidendi",
                 "valime"
               ]
             }
@@ -68213,9 +68213,9 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "inimesed",
-                "erakonda",
+                "erakonna",
                 "paljud",
-                "hääletab"
+                "hääletavad"
               ]
             }
           },
@@ -68230,7 +68230,7 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "valige",
-                "numbrit",
+                "number",
                 "palun"
               ]
             }
@@ -68246,8 +68246,8 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "valis",
-                "valet",
-                "kursust"
+                "vale",
+                "kursuse"
               ]
             }
           }
@@ -68271,7 +68271,7 @@ const A2_WORDS = [
               "blue": [
                 "valin",
                 "Nummer",
-                "numbrit",
+                "numbri",
                 "wähle"
               ]
             }
@@ -68292,7 +68292,7 @@ const A2_WORDS = [
             "example": {
               "green": [
                 "valin",
-                "pilti",
+                "pildi",
                 "wähle",
                 "Bild"
               ]
@@ -68312,7 +68312,7 @@ const A2_WORDS = [
             "example": {
               "yellow": [
                 "entscheide",
-                "izlemju",
+                "otsustan",
                 "mich"
               ]
             }
@@ -68347,9 +68347,9 @@ const A2_WORDS = [
                   "hääletama"
                 ],
                 "yellow": [
-                  "kandidaati",
+                  "kandidaadi",
                   "kontekstis",
-                  "Erakonda",
+                  "Erakonna",
                   "hääletama",
                   "wählen"
                 ]
@@ -68361,8 +68361,8 @@ const A2_WORDS = [
                   "wählen"
                 ],
                 "yellow": [
-                  "valima",
-                  "telefoni",
+                  "valimist",
+                  "telefoninumbri",
                   "Nummer",
                   "numbrit",
                   "wählen"
@@ -68417,7 +68417,7 @@ const A2_WORDS = [
           "standardStudy",
           "valima",
           "kontekstis",
-          "Politikas",
+          "Poliitika",
           "automaadis",
           "võimaluste",
           "valima",
@@ -68427,7 +68427,7 @@ const A2_WORDS = [
           "hääletama",
           "Arvutis",
           "numbrit",
-          "opciju",
+          "valiku",
           "wählen",
           "vahel",
           "valima"
@@ -68609,10 +68609,10 @@ const A2_WORDS = [
                 "sel ajal kui"
               ],
               "purple": [
-                "telefoni",
+                "telefoniga",
                 "ootab",
                 "sel ajal kui",
-                "räägi"
+                "räägib"
               ]
             }
           },
@@ -68693,7 +68693,7 @@ const A2_WORDS = [
             "meaning": {
               "purple": [
                 "juures / ajal kindlatel tingimustel",
-                "tingimustes",
+                "tingimustel",
                 "kindlatel",
                 "ajal"
               ]
@@ -68726,11 +68726,11 @@ const A2_WORDS = [
             },
             "example": {
               "green": [
-                "kui"
+                "ja"
               ],
               "yellow": [
                 "komme",
-                "aeg",
+                "aega",
                 "tulen",
                 "wenn",
                 "Zeit"
@@ -68809,7 +68809,7 @@ const A2_WORDS = [
               ],
               "red": [
                 "struktuuri",
-                "teikuma",
+                "lause",
                 "während",
                 "muudab"
               ]
@@ -68843,9 +68843,9 @@ const A2_WORDS = [
           "eessõna",
           "tegevuse",
           "Genitiv",
-          "saiklis",
+          "sidesõna",
           "während",
-          "ievada",
+          "juhatab sisse",
           "tähendust",
           "keeles",
           "sageli",
@@ -68859,7 +68859,7 @@ const A2_WORDS = [
         "green": [
           "sel ajal kui",
           "bei",
-          "kui"
+          "ja"
         ],
         "yellow": [
           "wenn"
@@ -69000,7 +69000,7 @@ const A2_WORDS = [
                 "kõige tõenäolisemalt"
               ],
               "yellow": [
-                "õigesti"
+                "õige"
               ]
             }
           },
@@ -69048,7 +69048,7 @@ const A2_WORDS = [
                 "kindlasti"
               ],
               "yellow": [
-                "õigesti"
+                "õige"
               ]
             }
           },
@@ -69479,10 +69479,10 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "vahetama"
+                "vahetada"
               ],
               "yellow": [
-                "jakki"
+                "jaki"
               ]
             }
           }
@@ -69505,7 +69505,7 @@ const A2_WORDS = [
                 "wechsle"
               ],
               "purple": [
-                "samainu"
+                "vahetan"
               ]
             }
           },
@@ -69526,7 +69526,7 @@ const A2_WORDS = [
                 "um"
               ],
               "purple": [
-                "apmainu"
+                "vahetan"
               ]
             }
           },
@@ -69589,7 +69589,7 @@ const A2_WORDS = [
                 "ändere"
               ],
               "purple": [
-                "mainu"
+                "vahetan"
               ]
             }
           }
@@ -69603,9 +69603,9 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "Raha",
-                  "skolai",
-                  "darbam",
-                  "teemale"
+                  "kooli",
+                  "töö",
+                  "teema"
                 ]
               }
             },
@@ -69615,10 +69615,10 @@ const A2_WORDS = [
                   "umtauschen"
                 ],
                 "purple": [
-                  "vahetama"
+                  "vahetamisest"
                 ],
                 "yellow": [
-                  "kaupa"
+                  "kauba"
                 ]
               }
             }
@@ -70444,7 +70444,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "kaalub"
+                "kaalud"
               ]
             }
           },
@@ -70482,7 +70482,7 @@ const A2_WORDS = [
               ],
               "green": [
                 "Arst",
-                "beebit"
+                "beebi"
               ]
             }
           },
@@ -70642,7 +70642,7 @@ const A2_WORDS = [
                   "die Waage"
                 ],
                 "purple": [
-                  "kaalub"
+                  "kaalutakse"
                 ]
               }
             }
@@ -70898,7 +70898,7 @@ const A2_WORDS = [
               "purple": [
                 "itta",
                 "pilved",
-                "liigub"
+                "liiguvad"
               ]
             }
           },
@@ -70926,7 +70926,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "kasvatab",
+                "kasvatavad",
                 "lapsi",
                 "kahte"
               ]
@@ -71007,10 +71007,10 @@ const A2_WORDS = [
             },
             "example": {
               "yellow": [
-                "uzvelku",
+                "panen",
                 "Jacke",
                 "ziehe",
-                "jakki"
+                "jaki"
               ]
             }
           },
@@ -71050,7 +71050,7 @@ const A2_WORDS = [
             "meaning": {
               "purple": [
                 "minema laskma / tõmbuda laskma",
-                "tõmbama",
+                "tõmbuda",
                 "ära minema",
                 "laskma"
               ]
@@ -71060,11 +71060,11 @@ const A2_WORDS = [
                 "ziehen"
               ],
               "green": [
-                "tõmbama"
+                "tõmbuda"
               ],
               "purple": [
                 "ziehen lassen",
-                "tõmbama",
+                "tõmbuda",
                 "lassen",
                 "ziehen",
                 "teel",
@@ -71084,7 +71084,7 @@ const A2_WORDS = [
                   "umziehen"
                 ],
                 "yellow": [
-                  "kolimist",
+                  "kolimisest",
                   "umziehen",
                   "näed",
                   "ziehen",
@@ -71116,7 +71116,7 @@ const A2_WORDS = [
                 "tõmbama"
               ],
               "red": [
-                "fiziski",
+                "füüsiliselt",
                 "ziehen",
                 "ainult",
                 "tõmbama"
@@ -71147,7 +71147,7 @@ const A2_WORDS = [
           "kasvatama",
           "suunas",
           "lastele",
-          "izvilkt",
+          "välja tõmbama",
           "tähendama",
           "taimedele",
           "minema",
@@ -71156,7 +71156,7 @@ const A2_WORDS = [
           "jõudu",
           "tõmbama",
           "mingis",
-          "roku",
+          "käe",
           "tõmbab"
         ],
         "green": [
@@ -71165,7 +71165,7 @@ const A2_WORDS = [
           "välja kolima",
           "ligi tõmbama",
           "umziehen",
-          "izvilkt"
+          "välja tõmbama"
         ],
         "yellow": [
           "kolima",
@@ -71393,10 +71393,10 @@ const A2_WORDS = [
             },
             "lv": {
               "yellow": [
-                "kasvama"
+                "kasvavad"
               ],
               "purple": [
-                "kasvama",
+                "kasvavad",
                 "jätkab",
                 "hinnad"
               ]
@@ -71467,7 +71467,7 @@ const A2_WORDS = [
             "example": {
               "blue": [
                 "nehmen",
-                "kasvab",
+                "kasvavad",
                 "Preise",
                 "Hinnad"
               ]
@@ -71548,8 +71548,8 @@ const A2_WORDS = [
             },
             "example": {
               "purple": [
-                "suureneb",
-                "izmaksas",
+                "suurenevad",
+                "Kulud",
                 "erhöhen",
                 "kosten"
               ]
@@ -71583,11 +71583,11 @@ const A2_WORDS = [
                   "suurenema"
                 ],
                 "yellow": [
-                  "intensiivsust",
+                  "intensiivsuse",
                   "arvude",
                   "zunehmen",
                   "kasvama",
-                  "hindadel"
+                  "hindade"
                 ]
               }
             }
@@ -71602,7 +71602,7 @@ const A2_WORDS = [
               "red": [
                 "zunehmen",
                 "tähendust",
-                "temata",
+                "teemast",
                 "muudab"
               ]
             },
@@ -71632,17 +71632,17 @@ const A2_WORDS = [
           "standardStudy",
           "intensiivsuse",
           "juurde võtma",
-          "daudzumam",
+          "hulga",
           "probleemi",
           "zunehmen",
           "inimest",
           "tähendama",
           "kasvama",
-          "skaitam",
+          "arvu",
           "müra",
           "kaalus",
           "kaalu",
-          "tulko",
+          "tõlgitakse",
           "hinda",
           "tuult"
         ],
@@ -71822,7 +71822,7 @@ const A2_WORDS = [
               "purple": [
                 "hetkel",
                 "tube",
-                "vaba"
+                "vabu"
               ]
             }
           },
@@ -72108,7 +72108,7 @@ const A2_WORDS = [
           "olukorda",
           "kindlal",
           "hetkel",
-          "raksturo",
+          "kirjeldab",
           "derzeit",
           "sarnane",
           "praegu",
@@ -72223,10 +72223,10 @@ const A2_WORDS = [
             "sehen"
           ],
           "purple": [
-            "nägema"
+            "nägemist"
           ],
           "green": [
-            "Nägema"
+            "nägemist"
           ]
         },
         "examples": [
@@ -72357,7 +72357,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "vaatama"
+                "vaatan"
               ]
             }
           },
@@ -72370,7 +72370,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "vaatama"
+                "vaatame"
               ]
             }
           },
@@ -72383,7 +72383,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "vaatama"
+                "vaatan"
               ]
             }
           },
@@ -72473,7 +72473,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "vaatama",
+                "vaata",
                 "ära vaatama"
               ]
             }
@@ -72572,11 +72572,11 @@ const A2_WORDS = [
           ],
           "purple": [
             "kuulma / kuulama",
-            "kuulama",
+            "kuulata",
             "kuulma"
           ],
           "green": [
-            "kuulama",
+            "kuulata",
             "Kuulma"
           ]
         },
@@ -72590,8 +72590,8 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "kuulma",
-                "kuulama"
+                "kuulan",
+                "kuulan"
               ]
             }
           },
@@ -72604,8 +72604,8 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "kuulma",
-                "kuulama"
+                "kuulavad",
+                "kuulavad"
               ]
             }
           },
@@ -72618,8 +72618,8 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "kuulma",
-                "kuulama"
+                "kuulen",
+                "kuulen"
               ]
             }
           },
@@ -72646,7 +72646,7 @@ const A2_WORDS = [
           },
           {
             "purple": [
-              "kuulama"
+              "kuulata"
             ]
           }
         ],
@@ -72693,11 +72693,11 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "sagen = teikt",
+        "sagen = ütlema",
         "Kasuta sõna sagen, kui kontekst vastab sellele tähendusele."
       ],
       "important": [
-        "sagen = pateikt.",
+        "sagen = ütlema.",
         "Öelda konkreetne mõte, sõna või lause."
       ],
       "sectionAccents": {
@@ -72722,7 +72722,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "ütlema"
+                "ütlesid"
               ]
             }
           },
@@ -72936,12 +72936,12 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "groß = liels",
+        "groß = suur",
         "Kasuta sõna groß, kui kontekst vastab sellele tähendusele."
       ],
       "important": [
         "Inimese puhul tähendab Er ist groß pikka kasvu.",
-        "groß = liels.",
+        "groß = suur.",
         "Suur suuruse poolest või inimese kohta - pikk kasvult."
       ],
       "sectionAccents": {
@@ -73079,12 +73079,12 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "hoch = augsts",
+        "hoch = kõrge",
         "Kasuta sõna hoch, kui kontekst vastab sellele tähendusele."
       ],
       "important": [
         "Hindade ja taseme puhul kasutatakse sageli hoch.",
-        "hoch = augsts.",
+        "hoch = kõrge.",
         "Kõrge vertikaalselt, tasemelt või kõrguselt."
       ],
       "sectionAccents": {
@@ -73161,7 +73161,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "kõrge"
+                "kõrged"
               ]
             }
           }
@@ -73222,12 +73222,12 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "klein = mazs",
+        "klein = väike",
         "Kasuta sõna klein, kui kontekst vastab sellele tähendusele."
       ],
       "important": [
         "klein = mõõtmetelt väike.",
-        "klein = mazs.",
+        "klein = väike.",
         "Väike suuruse või mahu poolest."
       ],
       "sectionAccents": {
@@ -73372,7 +73372,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "leise = kluss",
+        "leise = vaikne",
         "Kasuta sõna leise, kui kontekst vastab sellele tähendusele."
       ],
       "important": [
@@ -73441,7 +73441,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "vaikne"
+                "vaikselt"
               ]
             }
           },
@@ -73895,7 +73895,7 @@ const A2_WORDS = [
             "nur"
           ],
           "purple": [
-            "ainult / üksnes"
+            "ainult, üksnes"
           ],
           "green": [
             "üksnes"
@@ -74363,7 +74363,21 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "ühesugune",
+                "ühesugused",
+                "kohe"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "gleich",
+                "gleich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ühesugused",
                 "kohe"
               ]
             }
@@ -74419,21 +74433,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "ühesugune",
-                "kohe"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "gleich",
-                "gleich"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "ühesugune",
+                "ühesugused",
                 "kohe"
               ]
             }
