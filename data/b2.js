@@ -7919,8 +7919,104 @@ const B2_WORDS = [
     "de": "Hochwasser",
     "de_article": "das",
     "de_plural": "die Hochwasser",
-    "lv": "ūdens uzplūdi, kas draud ar plūdiem",
-    "level": "B2"
+    "lv": "plūdi • augsts ūdens līmenis",
+    "level": "B2",
+    "study": {
+      "id": "b2-hochwasser",
+      "layout": "standardStudy",
+      "translation": "plūdi • augsts ūdens līmenis",
+      "explanation": "Galvenā doma: das Hochwasser nozīmē plūdus vai ļoti augstu ūdens līmeni upē, ezerā vai jūrā. Daudzskaitlis: die Hochwasser. Bieži lieto presē un brīdinājumos.",
+      "examples": [
+        {
+          "de": "Nach dem Regen gibt es Hochwasser.",
+          "lv": "pēc lietus ir plūdi."
+        },
+        {
+          "de": "Das Hochwasser bedroht die Stadt.",
+          "lv": "augsts ūdens līmenis apdraud pilsētu."
+        },
+        {
+          "de": "Die Behörden warnen vor Hochwasser.",
+          "lv": "iestādes brīdina par plūdiem."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "das Hochwasser",
+          "meaning": "plūdi • augsts ūdens līmenis",
+          "example": "Es gibt Hochwasser. = Ir plūdi."
+        },
+        {
+          "word": "die Überschwemmung",
+          "meaning": "plūdi (konkrēti)",
+          "example": "Die Überschwemmung zerstörte Häuser. = Plūdi izpostīja mājas."
+        },
+        {
+          "word": "der Pegel",
+          "meaning": "ūdens līmenis",
+          "example": "Der Pegel steigt. = Ūdens līmenis ceļas."
+        }
+      ],
+      "tip": {
+        "leftBlocks": [
+          {
+            "text": "Hoch = augsts, Wasser = ūdens. Hochwasser = augsts ūdens līmenis, kas bieži nozīmē plūdus."
+          }
+        ]
+      },
+      "important": {
+        "text": "das Hochwasser = plūdi vai augsts ūdens līmenis. Daudzskaitlis: die Hochwasser."
+      },
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "das Hochwasser"
+          ],
+          "purple": [
+            "plūdi",
+            "augsts ūdens līmenis"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Hochwasser"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "plūdi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hochwasser"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "augsts ūdens līmenis"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hochwasser"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "plūdiem"
+              ]
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "de": "hochwertig",
@@ -14470,8 +14566,107 @@ const B2_WORDS = [
   },
   {
     "de": "zuweisen",
-    "lv": "oficiāli kādam kaut ko piešķirt",
-    "level": "B2"
+    "lv": "piešķirt • norīkot",
+    "level": "B2",
+    "study": {
+      "id": "b2-zuweisen",
+      "layout": "standardStudy",
+      "translation": "piešķirt • norīkot",
+      "explanation": "Galvenā doma: zuweisen nozīmē oficiāli piešķirt vai norīkot — uzdevumu, lomu, resursu vai naudu konkrētai personai vai nodaļai. Sadalāms: weise ... zu.",
+      "examples": [
+        {
+          "de": "Der Chef weist ihm eine neue Aufgabe zu.",
+          "lv": "priekšnieks viņam piešķir jaunu uzdevumu."
+        },
+        {
+          "de": "Die Mittel wurden dem Projekt zugewiesen.",
+          "lv": "līdzekļi tika piešķirti projektam."
+        },
+        {
+          "de": "Sie wurde einer anderen Abteilung zugewiesen.",
+          "lv": "viņu norīkoja uz citu nodaļu."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "zuweisen",
+          "meaning": "piešķirt • norīkot",
+          "example": "Er weist die Aufgabe zu. = Viņš piešķir uzdevumu."
+        },
+        {
+          "word": "geben",
+          "meaning": "dot",
+          "example": "Er gibt mir die Arbeit. = Viņš man dod darbu."
+        },
+        {
+          "word": "verteilen",
+          "meaning": "sadalīt",
+          "example": "Er verteilt die Aufgaben. = Viņš sadala uzdevumus."
+        }
+      ],
+      "tip": {
+        "leftBlocks": [
+          {
+            "text": "zuweisen uzsver oficiālu piešķiršanu — darbā, administrācijā, projektos."
+          }
+        ]
+      },
+      "important": {
+        "text": "zuweisen = oficiāli piešķirt vai norīkot. Perfekt: zugewiesen. Sadalāms: weise ... zu."
+      },
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "zuweisen",
+            "weist",
+            "zu"
+          ],
+          "purple": [
+            "piešķirt",
+            "norīkot"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "weist",
+                "zu"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "piešķir"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zugewiesen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "piešķirti"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zugewiesen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "norīkoja"
+              ]
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Zuwendung",
@@ -14482,8 +14677,112 @@ const B2_WORDS = [
   },
   {
     "de": "zuwider",
-    "lv": "pret • pretēji • kļūt pretīgam • apriebties",
-    "level": "B2"
+    "lv": "pret • pretēji • nepatikt",
+    "level": "B2",
+    "study": {
+      "id": "b2-zuwider",
+      "layout": "standardStudy",
+      "translation": "pret • pretēji • nepatikt",
+      "explanation": "Galvenā doma: zuwider ir vārds ar vairākām funkcijām. Kā prievārds + datīvs tas nozīmē „pret, pretēji”: mir zuwider. Kā daļa no izteiciena jemandem zuwider sein/laufen nozīmē „kādam nepatikt, kļūt nepatīkams”. Ne jaukt ar wider (pret).",
+      "examples": [
+        {
+          "de": "Er handelte mir zuwider.",
+          "lv": "viņš rīkojās pret manu gribu."
+        },
+        {
+          "de": "Sein Benehmen ist mir zuwider.",
+          "lv": "viņa uzvedība man nepatīk."
+        },
+        {
+          "de": "Das läuft mir zuwider.",
+          "lv": "tas man nepatīk / tas mani apbēdina."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "zuwider (+ Dat.)",
+          "meaning": "pret • pretēji",
+          "example": "mir zuwider = pret manu gribu"
+        },
+        {
+          "word": "jemandem zuwider sein",
+          "meaning": "kādam nepatikt",
+          "example": "Es ist mir zuwider. = Man tas nepatīk."
+        },
+        {
+          "word": "wider",
+          "meaning": "pret (prievārds)",
+          "example": "wider den Willen = pret gribu"
+        },
+        {
+          "word": "widersprechen",
+          "meaning": "iebilst • nepiekrist",
+          "example": "Ich widerspreche. = Es iebilstu."
+        }
+      ],
+      "tip": {
+        "leftBlocks": [
+          {
+            "text": "Pamatnozīme: pret / pretēji (mir zuwider). Idiomātiski: jemandem zuwider sein/laufen = kādam nepatikt."
+          }
+        ]
+      },
+      "important": {
+        "text": "zuwider + datīvs = pret, pretēji. zuwider sein = nepatikt. Tas nav tas pats, kas wider."
+      },
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "zuwider"
+          ],
+          "purple": [
+            "pret",
+            "nepatikt"
+          ],
+          "green": [
+            "wider"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "zuwider"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pret"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zuwider"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nepatīk"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zuwider"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nepatīk"
+              ]
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "de": "zwanglos",
@@ -14959,41 +15258,54 @@ const B2_WORDS = [
   },
   {
     "de": "anbieten",
-    "lv": "piedāvāt aktīvi",
+    "lv": "piedāvāt",
     "level": "B2",
     "study": {
       "id": "b2-anbieten",
       "layout": "standardStudy",
-      "translation": "piedāvāt aktīvi",
-      "explanation": [
-        "Galvenā doma: Aktīvi piedāvāt kādam konkrēti — palīdzību, dzērienu, darbu vai pakalpojumu.",
-        "anbieten galvenokārt nozīmē: aktīvi piedāvāt kādam.",
-        "Bieži raksturo: darbības vārds, ko var sadalīt.",
-        "anbieten ir darbības vārds, ko var sadalīt un uzsver aktīvu piedāvāšanu konkrētai personai (Ich biete dir Hilfe an)."
-      ],
+      "translation": "piedāvāt",
+      "explanation": "Galvenā doma: anbieten nozīmē aktīvi piedāvāt kādam — palīdzību, dzērienu, darbu vai pakalpojumu. Sadalāms darbības vārds: ich biete an, er bietet an. Uzsver iniciatīvu no piedāvātāja puses.",
       "examples": [
         {
           "de": "Ich biete dir meine Hilfe an.",
-          "lv": "Es tev piedāvāju savu palīdzību."
+          "lv": "es tev piedāvāju savu palīdzību."
         },
         {
           "de": "Darf ich Ihnen etwas anbieten?",
           "lv": "vai drīkstu jums kaut ko piedāvāt?"
         },
         {
-          "de": "Ich biete dir Hilfe an.",
-          "lv": "es tev piedāvāju palīdzību."
+          "de": "Das Unternehmen bietet neue Stellen an.",
+          "lv": "uzņēmums piedāvā jaunas darba vietas."
         }
       ],
-      "tip": [
-        "Aktīvi piedāvāt kādam konkrēti — palīdzību, dzērienu, darbu vai pakalpojumu.",
-        "Izmanto anbieten, kad konteksts atbilst šai nozīmei."
+      "comparison": [
+        {
+          "word": "anbieten",
+          "meaning": "piedāvāt (aktīvi)",
+          "example": "Ich biete Hilfe an. = Es piedāvāju palīdzību."
+        },
+        {
+          "word": "bieten",
+          "meaning": "piedāvāt • dot",
+          "example": "Er bietet viel Geld. = Viņš piedāvā daudz naudas."
+        },
+        {
+          "word": "vorschlagen",
+          "meaning": "ierosināt",
+          "example": "Ich schlage vor. = Es ierosinu."
+        }
       ],
-      "important": [
-        "anbieten: Ich biete dir Hilfe an. (sadalāms: biete ... an)",
-        "Aktīva piedāvāšana kādam: anbieten → biete ... an.",
-        "Aktīvi piedāvāt kādam konkrēti — palīdzību, dzērienu, darbu vai pakalpojumu."
-      ],
+      "tip": {
+        "leftBlocks": [
+          {
+            "text": "anbieten uzsver, ka kāds aktīvi piedāvā kaut ko konkrētai personai: Ich biete dir ... an."
+          }
+        ]
+      },
+      "important": {
+        "text": "anbieten = piedāvāt aktīvi. Sadalāms: biete ... an. Perfekt: angeboten."
+      },
       "sectionAccents": {
         "explanation": {
           "green": [
@@ -15002,75 +15314,47 @@ const B2_WORDS = [
             "an"
           ],
           "purple": [
-            "piedāvāt aktīvi"
+            "piedāvāt"
           ]
         },
         "examples": [
           {
             "de": {
               "green": [
-                "anbieten",
-                "anbieten"
+                "biete",
+                "an"
               ]
             },
             "lv": {
               "purple": [
-                "piedāvāt aktīvi"
+                "piedāvāju"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "anbieten",
                 "anbieten"
               ]
             },
             "lv": {
               "purple": [
-                "piedāvāt aktīvi"
+                "piedāvāt"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "anbieten",
-                "anbieten"
+                "bietet",
+                "an"
               ]
             },
             "lv": {
               "purple": [
-                "piedāvāt aktīvi"
+                "piedāvā"
               ]
             }
-          },
-          {
-            "de": {
-              "green": [
-                "anbieten",
-                "anbieten"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "piedāvāt aktīvi"
-              ]
-            }
-          }
-        ],
-        "tip": [
-          {
-            "purple": [
-              "piedāvāt aktīvi"
-            ]
-          }
-        ],
-        "important": [
-          {
-            "green": [
-              "anbieten"
-            ]
           }
         ]
       }

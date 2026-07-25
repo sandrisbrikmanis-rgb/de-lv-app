@@ -2435,8 +2435,110 @@ const C1_WORDS = [
   },
   {
     "de": "gelegentlich",
-    "lv": "gadījuma • nejaušs • ja gadās • ja iznāk • sakarā ar",
-    "level": "C1"
+    "lv": "reizēm • gadījuma • sakarā ar",
+    "level": "C1",
+    "study": {
+      "id": "c1-gelegentlich",
+      "layout": "standardStudy",
+      "translation": "reizēm • gadījuma • sakarā ar",
+      "explanation": "Galvenā doma: gelegentlich ir vārds ar trim funkcijām. Īpašības vārds: gadījuma, nejaušs (ein gelegentlicher Besuch). Apstākļa vārds: reizēm, ik pa laikam (Er kommt gelegentlich). Prievārds + datīvs: sakarā ar (gelegentlich des Festes).",
+      "examples": [
+        {
+          "de": "Er kommt gelegentlich vorbei.",
+          "lv": "viņš reizēm iegriežas."
+        },
+        {
+          "de": "Ein gelegentlicher Besuch reicht.",
+          "lv": "gadījuma apmeklējums pietiek."
+        },
+        {
+          "de": "Gelegentlich des Festes gab es eine Rede.",
+          "lv": "svētku sakarā tika teikta runa."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "gelegentlich (Adv.)",
+          "meaning": "reizēm • ik pa laikam",
+          "example": "Er kommt gelegentlich. = Viņš reizēm atnāk."
+        },
+        {
+          "word": "gelegentlich (Adj.)",
+          "meaning": "gadījuma • nejaušs",
+          "example": "ein gelegentlicher Besuch = gadījuma apmeklējums"
+        },
+        {
+          "word": "gelegentlich (+ Gen.)",
+          "meaning": "sakarā ar",
+          "example": "gelegentlich des Festes = svētku sakarā"
+        },
+        {
+          "word": "manchmal",
+          "meaning": "reizēm",
+          "example": "Manchmal regnet es. = Reizēm līst."
+        }
+      ],
+      "tip": {
+        "leftBlocks": [
+          {
+            "text": "Pozīcija teikumā palīdz: pirms lietvārda = īpašības vārds; pēc darbības vārda = apstākļa vārds; + ģenitīvs = prievārds."
+          }
+        ]
+      },
+      "important": {
+        "text": "Adj.: gadījuma. Adv.: reizēm. Prep. + Gen.: sakarā ar. Konteksts nosaka nozīmi."
+      },
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "gelegentlich"
+          ],
+          "purple": [
+            "reizēm",
+            "gadījuma",
+            "sakarā ar"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "gelegentlich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "reizēm"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gelegentlich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "gadījuma"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gelegentlich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sakarā"
+              ]
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Gemäldegalerie",
@@ -3706,8 +3808,105 @@ const C1_WORDS = [
   },
   {
     "de": "wahlberechtigt",
-    "lv": "tāds • kam ir vēlēšanu tiesības",
-    "level": "C1"
+    "lv": "tāds, kam ir vēlēšanu tiesības",
+    "level": "C1",
+    "study": {
+      "id": "c1-wahlberechtigt",
+      "layout": "standardStudy",
+      "translation": "tāds, kam ir vēlēšanu tiesības",
+      "explanation": "Galvenā doma: wahlberechtigt ir īpašības vārds, kas nozīmē, ka personai ir tiesības piedalīties vēlēšanās — balsot vai kandidēt. Saliktenis: Wahl (vēlēšanas) + berechtigt (tiesīgs).",
+      "examples": [
+        {
+          "de": "Alle wahlberechtigten Bürger können wählen.",
+          "lv": "visi vēlētāji ar vēlēšanu tiesībām var balsot."
+        },
+        {
+          "de": "Ab 18 Jahren ist man wahlberechtigt.",
+          "lv": "no 18 gadu vecuma ir vēlēšanu tiesības."
+        },
+        {
+          "de": "Nicht alle Einwohner sind wahlberechtigt.",
+          "lv": "ne visiem iedzīvotājiem ir vēlēšanu tiesības."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "wahlberechtigt",
+          "meaning": "ar vēlēšanu tiesībām",
+          "example": "Er ist wahlberechtigt. = Viņam ir vēlēšanu tiesības."
+        },
+        {
+          "word": "wählen",
+          "meaning": "vēlēt • balsot",
+          "example": "Ich wähle heute. = Es šodien balsoju."
+        },
+        {
+          "word": "der Wähler",
+          "meaning": "vēlētājs",
+          "example": "Der Wähler geht zur Wahl. = Vēlētājs iet uz vēlēšanām."
+        }
+      ],
+      "tip": {
+        "leftBlocks": [
+          {
+            "text": "Wahl = vēlēšanas, berechtigt = tiesīgs. Bieži presē un juridiskos tekstos."
+          }
+        ]
+      },
+      "important": {
+        "text": "wahlberechtigt = ar vēlēšanu tiesībām. Pretējais: nicht wahlberechtigt."
+      },
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "wahlberechtigt",
+            "Wahl",
+            "berechtigt"
+          ],
+          "purple": [
+            "vēlēšanu tiesības"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "wahlberechtigten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vēlēšanu tiesībām"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "wahlberechtigt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vēlēšanu tiesības"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "wahlberechtigt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vēlēšanu tiesības"
+              ]
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "de": "wahrhaft",

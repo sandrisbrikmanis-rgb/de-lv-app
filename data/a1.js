@@ -8434,10 +8434,10 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "man ir",
       "explanation": [
-        "Galvenā doma: haben nozīmē, ka kādam kaut kas ir.",
-        "Latviski ļoti bieži tulko ar “man ir”, “tev ir”, “viņam ir”.",
-        "haben lieto arī kā palīgdarbības vārdu pagātnes laikā ar palīgvārdu.",
-        "A1 līmenī svarīgākais ir saprast: Ich habe = man ir."
+        "Galvenā doma: haben nozīmē, ka kādam kaut kas pieder vai ir pieejams.",
+        "Latviešu datīva konstrukcija „man ir / tev ir” vāciski ir nominatīvs + haben: Ich habe ..., Du hast ..., Er hat ... — nevis *mir habe.",
+        "Pēc haben seko akuzatīvs: Ich habe ein Auto. = Man ir automašīna.",
+        "haben lieto arī kā palīgdarbības vārdu Perfektā: Ich habe gelernt."
       ],
       "examples": [
         {
@@ -8483,8 +8483,9 @@ const A1_WORDS = [
         "text": "Atceries: Ich habe → man ir."
       },
       "important": [
-        "Latviski nesaka “es habēju”. Parasti tulko kā “man ir”.",
-        "pagātnes laikā ar palīgvārdu haben ir palīgvārds: Ich habe gelernt = es mācījos / esmu mācījies."
+        "Latviski „man ir” = vāciski Ich habe + akuzatīvs. Ne lietot datīvu: nepareizi *mir habe.",
+        "Ar sein un datīvu: Mir ist kalt. = Man ir auksti. (tas nav haben!)",
+        "Perfektā: Ich habe gelernt = es esmu mācījies."
       ],
       "sectionAccents": {
         "explanation": {
@@ -25894,57 +25895,54 @@ const A1_WORDS = [
   },
   {
     "de": "fernsehen",
-    "lv": "skatīties TV",
+    "lv": "skatīties televizoru",
     "level": "A1",
     "study": {
       "id": "a1-fernsehen",
       "layout": "standardStudy",
-      "translation": "skatīties TV",
-      "explanation": [
-        "Galvenā doma: darbības vārds, ko var sadalīt: ich sehe fern. Apraksta darbību — skatīties televīziju.",
-        "fernsehen galvenokārt nozīmē: skatīties pārraidi.",
-        "Bieži raksturo: darbību.",
-        "fernsehen galvenokārt nozīmē: TV kā medijs.",
-        "Bieži raksturo: lietvārdu (tikai vienskaitlī).",
-        "fernsehen ir darbības vārds, ko var sadalīt: ich sehe fern, du siehst fern.",
-        "das Fernsehen ir lietvārds un tikai vienskaitlis — tam nav daudzskaitļa formas."
-      ],
+      "translation": "skatīties televizoru",
+      "explanation": "Galvenā doma: fernsehen ir sadalāms darbības vārds — ich sehe fern, du siehst fern. Tas nozīmē skatīties televīziju. Ne jaukt ar lietvārdu das Fernsehen (televīzija kā medijs).",
       "examples": [
-        {
-          "de": "Ich sehe heute Abend fern.",
-          "lv": "Šovakar es skatos televīziju."
-        },
-        {
-          "de": "Was gibt es heute im Fernsehen?",
-          "lv": "ko šodien rāda televīzijā?"
-        },
-        {
-          "de": "Im Fernsehen läuft ein Film.",
-          "lv": "televīzijā tiek rādīta filma."
-        },
-        {
-          "de": "Das Fernsehen ist heute langweilig.",
-          "lv": "televīzijas programma šodien ir garlaicīga."
-        },
         {
           "de": "Ich sehe heute Abend fern.",
           "lv": "šovakar es skatos televīziju."
         },
         {
-          "de": "Was gibt es im Fernsehen?",
-          "lv": "Ko rāda televīzijā?"
+          "de": "Siehst du oft fern?",
+          "lv": "vai tu bieži skaties televīzoru?"
+        },
+        {
+          "de": "Die Kinder sehen am Nachmittag fern.",
+          "lv": "bērni pēcpusdienā skatās televīzoru."
         }
       ],
-      "tip": [
-        "Ja runā par darbību, lieto fernsehen (ich sehe fern). Ja runā par TV programmu vai mediju, lieto das Fernsehen.",
-        "darbības vārds, ko var sadalīt: ich sehe fern. Apraksta darbību — skatīties televīziju."
+      "comparison": [
+        {
+          "word": "fernsehen",
+          "meaning": "skatīties televizoru",
+          "example": "Ich sehe fern. = Es skatos televīziju."
+        },
+        {
+          "word": "das Fernsehen",
+          "meaning": "televīzija (medijs)",
+          "example": "Im Fernsehen läuft ein Film. = Televīzijā rāda filmu."
+        },
+        {
+          "word": "sehen",
+          "meaning": "redzēt",
+          "example": "Ich sehe einen Film. = Es redzu filmu."
+        }
       ],
-      "important": [
-        "fernsehen ir sadalāms: sehen + fern.",
-        "das Fernsehen nav daudzskaitlī — nav *die Fernsehen.",
-        "Nepareizi: die Fernsehen → Pareizi: das Fernsehen",
-        "Darbība: fernsehen → ich sehe fern."
-      ],
+      "tip": {
+        "leftBlocks": [
+          {
+            "text": "Par darbību lieto fernsehen (ich sehe fern). Par TV programmu vai mediju lieto das Fernsehen."
+          }
+        ]
+      },
+      "important": {
+        "text": "fernsehen = darbības vārds (ich sehe fern). das Fernsehen = lietvārds, tikai vienskaitlis."
+      },
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -25953,102 +25951,51 @@ const A1_WORDS = [
             "fern"
           ],
           "purple": [
-            "skatīties TV",
-            "skatīties"
+            "skatīties televizoru"
+          ],
+          "green": [
+            "das Fernsehen"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "fernsehen",
-                "fernsehen"
+                "sehe",
+                "fern"
               ]
             },
             "lv": {
               "purple": [
-                "skatīties TV"
+                "skatos televīziju"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "fernsehen",
-                "fernsehen"
+                "Siehst",
+                "fern"
               ]
             },
             "lv": {
               "purple": [
-                "skatīties TV"
+                "skaties televīzoru"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "fernsehen",
-                "fernsehen"
+                "sehen",
+                "fern"
               ]
             },
             "lv": {
               "purple": [
-                "skatīties TV"
+                "skatās televīzoru"
               ]
             }
-          },
-          {
-            "de": {
-              "blue": [
-                "fernsehen",
-                "fernsehen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "skatīties TV"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "fernsehen",
-                "fernsehen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "skatīties TV"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "fernsehen",
-                "fernsehen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "skatīties TV"
-              ]
-            }
-          }
-        ],
-        "tip": [
-          {
-            "purple": [
-              "skatīties TV"
-            ]
-          }
-        ],
-        "important": [
-          {
-            "blue": [
-              "fernsehen"
-            ]
           }
         ]
       }
