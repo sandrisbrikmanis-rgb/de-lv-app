@@ -17,6 +17,7 @@ window.LANGUAGE_UI_STRINGS = {
   groups: { sentences: "Laused" },
   nav: {
     backHome: "Tagasi peamenüüsse",
+    changeLanguage: "Muuda emakeelt",
     howItWorks: "Kuidas see töötab?",
     quickTools: "Kiirtööriistad"
   },

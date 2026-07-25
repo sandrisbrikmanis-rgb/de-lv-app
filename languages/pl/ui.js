@@ -17,6 +17,7 @@ window.LANGUAGE_UI_STRINGS = {
   groups: { sentences: "Zdania" },
   nav: {
     backHome: "Wróć do menu głównego",
+    changeLanguage: "Zmień język ojczysty",
     howItWorks: "Jak to działa?",
     quickTools: "Szybkie narzędzia"
   },
