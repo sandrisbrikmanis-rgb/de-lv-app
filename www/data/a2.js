@@ -53913,28 +53913,24 @@ const A2_WORDS = [
       ],
       "examples": [
         {
-          "de": "Ich schalte das Licht.",
-          "lv": "es pārslēdzu gaismu."
+          "de": "Ich schalte das Licht ein.",
+          "lv": "es ieslēdzu gaismu."
+        },
+        {
+          "de": "Ich schalte das Licht aus.",
+          "lv": "es izslēdzu gaismu."
         },
         {
           "de": "Er schaltet in den dritten Gang.",
           "lv": "viņš pārslēdz trešajā pārnesumā."
         },
         {
-          "de": "Kannst du bitte den Kanal schalten?",
-          "lv": "vai vari pārslēgt kanālu?"
+          "de": "Kannst du bitte auf Kanal 2 schalten?",
+          "lv": "vai vari, lūdzu, pārslēgt uz 2. kanālu?"
         },
         {
-          "de": "Ich schalte das Radio ein.",
-          "lv": "es ieslēdzu radio."
-        },
-        {
-          "de": "Er schaltet schnell.",
-          "lv": "viņš ātri saprot."
-        },
-        {
-          "de": "Die Ampel schaltet auf Rot.",
-          "lv": "signāls pārslēdzas uz sarkanu."
+          "de": "Die Ampel schaltet auf Grün.",
+          "lv": "luksofors pārslēdzas uz zaļo."
         }
       ],
       "tip": [
@@ -53960,13 +53956,27 @@ const A2_WORDS = [
         "examples": [
           {
             "de": {
-              "blue": [
-                "schalte"
+              "green": [
+                "schalte",
+                "ein"
               ]
             },
             "lv": {
               "purple": [
-                "pārslēdzu"
+                "ieslēdzu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "red": [
+                "schalte",
+                "aus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "izslēdzu"
               ]
             }
           },
@@ -53991,31 +54001,6 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "pārslēgt"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "schalte",
-                "ein"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "ieslēdzu"
-              ]
-            }
-          },
-          {
-            "de": {
-              "red": [
-                "schaltet schnell"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "ātri saprot"
               ]
             }
           },
