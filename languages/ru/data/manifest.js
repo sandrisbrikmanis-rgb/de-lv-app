@@ -1,7 +1,24 @@
 window.LANGUAGE_DATA_MANIFEST = {
+  nativeLanguage: "ru",
+  targetLanguage: "de",
+  fallbackNativeLanguage: "lv",
+  dataStatus: "fallback",
+  uiAvailable: true,
   code: "ru",
-  fallback: "lv",
   datasets: {
+    a1: "./data/ru/a1.js",
+    a2: "./data/ru/a2.js",
+    b1: "./data/ru/b1.js",
+    b2: "./data/ru/b2.js",
+    c1: "./data/ru/c1.js",
+    c2: "./data/ru/c2.js",
+    sentences: "./data/ru/sentences.js",
+    verbs: "./data/ru/verbs.js",
+    courseLessons: "./data/ru/courseLessons.js",
+    dialogueIdMap: "./data/ru/dialogueIdMap.js",
+    nounArticles: "./data/ru/nounArticles.js"
+  },
+  fallbackDatasets: {
     a1: "./data/a1.js",
     a2: "./data/a2.js",
     b1: "./data/b1.js",
