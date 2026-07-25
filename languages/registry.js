@@ -11,6 +11,8 @@
       nativeName: "Latviešu",
       nativeCode: "LV",
       active: true,
+      uiAvailable: true,
+      dataStatus: "complete",
       hasStudyData: true,
       uiPath: "./languages/lv/ui.js",
       dataManifestPath: "./languages/lv/data/manifest.js"
@@ -20,6 +22,8 @@
       nativeName: "Русский",
       nativeCode: "RU",
       active: true,
+      uiAvailable: true,
+      dataStatus: "fallback",
       hasStudyData: false,
       uiPath: "./languages/ru/ui.js",
       dataManifestPath: "./languages/ru/data/manifest.js"
@@ -29,6 +33,8 @@
       nativeName: "Polski",
       nativeCode: "PL",
       active: true,
+      uiAvailable: true,
+      dataStatus: "fallback",
       hasStudyData: false,
       uiPath: "./languages/pl/ui.js",
       dataManifestPath: "./languages/pl/data/manifest.js"
@@ -38,6 +44,8 @@
       nativeName: "Українська",
       nativeCode: "UK",
       active: true,
+      uiAvailable: true,
+      dataStatus: "fallback",
       hasStudyData: false,
       uiPath: "./languages/uk/ui.js",
       dataManifestPath: "./languages/uk/data/manifest.js"
@@ -47,6 +55,8 @@
       nativeName: "Lietuvių",
       nativeCode: "LT",
       active: true,
+      uiAvailable: true,
+      dataStatus: "fallback",
       hasStudyData: false,
       uiPath: "./languages/lt/ui.js",
       dataManifestPath: "./languages/lt/data/manifest.js"
@@ -56,6 +66,8 @@
       nativeName: "Eesti",
       nativeCode: "ET",
       active: true,
+      uiAvailable: true,
+      dataStatus: "fallback",
       hasStudyData: false,
       uiPath: "./languages/et/ui.js",
       dataManifestPath: "./languages/et/data/manifest.js"

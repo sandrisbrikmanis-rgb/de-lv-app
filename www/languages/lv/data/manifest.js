@@ -1,8 +1,10 @@
 window.LANGUAGE_DATA_MANIFEST = {
   nativeLanguage: "lv",
   targetLanguage: "de",
+  fallbackNativeLanguage: null,
+  dataStatus: "complete",
+  uiAvailable: true,
   code: "lv",
-  fallback: null,
   datasets: {
     a1: "./data/a1.js",
     a2: "./data/a2.js",
@@ -15,5 +17,6 @@ window.LANGUAGE_DATA_MANIFEST = {
     courseLessons: "./data/courseLessons.js",
     dialogueIdMap: "./data/dialogueIdMap.js",
     nounArticles: "./data/nounArticles.js"
-  }
+  },
+  fallbackDatasets: null
 };
