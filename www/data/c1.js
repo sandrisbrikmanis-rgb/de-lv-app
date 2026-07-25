@@ -164,7 +164,7 @@ const C1_WORDS = [
     "de": "Frachtbrief",
     "de_article": "der",
     "de_plural": "die Frachtbriefe",
-    "lv": "kravas pavadzīme • konosaments",
+    "lv": "kravas pavadzīme",
     "level": "C1"
   },
   {
@@ -199,7 +199,7 @@ const C1_WORDS = [
     "de": "Kindesmisshandlung",
     "de_article": "die",
     "de_plural": "die Kindesmisshandlungen",
-    "lv": "bērnu vardarbība",
+    "lv": "vardarbība pret bērniem",
     "level": "C1"
   },
   {
@@ -565,7 +565,7 @@ const C1_WORDS = [
     "de": "Inflationsrate",
     "de_article": "die",
     "de_plural": "die Inflationsraten",
-    "lv": "inflācijas procents",
+    "lv": "inflācijas līmenis",
     "level": "C1"
   },
   {
@@ -1155,7 +1155,7 @@ const C1_WORDS = [
   },
   {
     "de": "verantworten",
-    "lv": "atbildēt",
+    "lv": "uzņemties atbildību par",
     "level": "C1"
   },
   {
@@ -1441,7 +1441,7 @@ const C1_WORDS = [
   },
   {
     "de": "zusammenhängen",
-    "lv": "būt sakarā",
+    "lv": "būt saistītam (ar)",
     "level": "C1"
   },
   {
@@ -1796,7 +1796,7 @@ const C1_WORDS = [
   },
   {
     "de": "bewähren, sich",
-    "lv": "atspirināties • izrādīties par patiesu • attaisnoties",
+    "lv": "izrādīties par patiesu • attaisnoties",
     "level": "C1"
   },
   {
@@ -2345,7 +2345,7 @@ const C1_WORDS = [
     "de": "Geburtenrate",
     "de_article": "die",
     "de_plural": "die Geburtenraten",
-    "lv": "dzimstības procents",
+    "lv": "dzimstības līmenis",
     "level": "C1"
   },
   {
@@ -2423,7 +2423,7 @@ const C1_WORDS = [
     "de": "Geländefahrt",
     "de_article": "die",
     "de_plural": "die Geländefahrten",
-    "lv": "motokross",
+    "lv": "apvidus brauciens",
     "level": "C1"
   },
   {
@@ -2820,7 +2820,7 @@ const C1_WORDS = [
   {
     "de": "Justiz",
     "de_article": "die",
-    "lv": "justīcija • tieslietas • tiesa",
+    "lv": "justīcija • tieslietas",
     "level": "C1"
   },
   {

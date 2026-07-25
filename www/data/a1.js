@@ -2072,7 +2072,7 @@ const A1_WORDS = [
     "de": "Bad",
     "de_article": "das",
     "de_plural": "die Bäder",
-    "lv": "vanna",
+    "lv": "vannas istaba",
     "level": "A1"
   },
   {
@@ -12057,7 +12057,7 @@ const A1_WORDS = [
     "de": "Kleid",
     "de_article": "das",
     "de_plural": "die Kleider",
-    "lv": "tērps • apģērbs • kleita",
+    "lv": "kleita",
     "level": "A1"
   },
   {

@@ -14103,7 +14103,7 @@ const B1_WORDS = [
   {
     "de": "Dasein",
     "de_article": "das",
-    "lv": "būt klāt",
+    "lv": "esamība • eksistence",
     "level": "B1"
   },
   {
@@ -15380,7 +15380,7 @@ const B1_WORDS = [
     "de": "Ehe",
     "de_article": "die",
     "de_plural": "die Ehen",
-    "lv": "pirms",
+    "lv": "laulība",
     "level": "B1"
   },
   {
@@ -31026,7 +31026,7 @@ const B1_WORDS = [
   },
   {
     "de": "höchstens",
-    "lv": "maksimums",
+    "lv": "augstākais • ne vairāk kā",
     "level": "B1"
   },
   {
@@ -38943,7 +38943,7 @@ const B1_WORDS = [
     "de": "Lebenslauf",
     "de_article": "der",
     "de_plural": "die Lebensläufe",
-    "lv": "cV",
+    "lv": "dzīves apraksts (CV)",
     "level": "B1"
   },
   {
@@ -50604,7 +50604,7 @@ const B1_WORDS = [
     "de": "Schutzhelm",
     "de_article": "der",
     "de_plural": "die Schutzhelme",
-    "lv": "aizsargcepure",
+    "lv": "aizsargķivere",
     "level": "B1"
   },
   {
@@ -59762,7 +59762,7 @@ const B1_WORDS = [
     "de": "Vergehen",
     "de_article": "das",
     "de_plural": "die Vergehen",
-    "lv": "pārkāpums • noziegums",
+    "lv": "pārkāpums",
     "level": "B1"
   },
   {
