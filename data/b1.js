@@ -26074,14 +26074,209 @@ const B1_WORDS = [
     "de_article": "das",
     "de_plural": "die Gehälter",
     "lv": "alga",
-    "level": "B1"
+    "level": "B1",
+    "study": {
+      "id": "b1-gehalt",
+      "layout": "standardStudy",
+      "translation": "alga",
+      "explanation": "Galvenā doma: das Gehalt nozīmē algu vai atalgojumu. Savukārt der Gehalt nozīmē saturu — vēstules, runas vai līguma būtību. Artikuls pilnībā maina nozīmi un daudzskaitli.",
+      "examples": [
+        {
+          "de": "Sein Gehalt ist hoch.",
+          "lv": "viņa alga ir augsta."
+        },
+        {
+          "de": "Die Gehälter steigen jedes Jahr.",
+          "lv": "algas katru gadu pieaug."
+        },
+        {
+          "de": "Der Gehalt des Briefes war wichtig.",
+          "lv": "vēstules saturs bija svarīgs."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "das Gehalt",
+          "meaning": "alga • atalgojums",
+          "example": "Das Gehalt ist gut. = Alga ir laba. Plural: die Gehälter."
+        },
+        {
+          "word": "der Gehalt",
+          "meaning": "saturs • būtība",
+          "example": "Der Gehalt ist klar. = Saturs ir skaidrs. Plural: die Gehalte."
+        },
+        {
+          "word": "der Verdienst",
+          "meaning": "nopelnītais • ienākums",
+          "example": "Sein Verdienst ist hoch. = Viņa ienākums ir augsts."
+        }
+      ],
+      "tip": {
+        "leftBlocks": [
+          {
+            "text": "Par naudu un darba samaksu — das Gehalt (die Gehälter). Par vēstules vai runas saturu — der Gehalt (die Gehalte)."
+          }
+        ]
+      },
+      "important": {
+        "text": "das Gehalt = alga (die Gehälter). der Gehalt = saturs (die Gehalte). Artikuls nav sīkums — tas maina abas nozīmes."
+      },
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "das Gehalt",
+            "der Gehalt"
+          ],
+          "purple": [
+            "alga",
+            "saturs"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Gehalt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "alga"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gehälter"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "algas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Gehalt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "saturs"
+              ]
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Gehalt",
     "de_article": "der",
-    "de_plural": "die Gehälter",
+    "de_plural": "die Gehalte",
     "lv": "saturs",
-    "level": "B1"
+    "level": "B1",
+    "study": {
+      "id": "b1-gehalt-2",
+      "layout": "standardStudy",
+      "translation": "saturs",
+      "explanation": "Galvenā doma: der Gehalt nozīmē saturu — vēstules, runas, grāmatas vai līguma būtību. Savukārt das Gehalt nozīmē algu. Daudzskaitlis ir die Gehalte, nevis die Gehälter.",
+      "examples": [
+        {
+          "de": "Der Gehalt des Briefes war wichtig.",
+          "lv": "vēstules saturs bija svarīgs."
+        },
+        {
+          "de": "Die Gehalte der Reden waren unterschiedlich.",
+          "lv": "runu saturs bija atšķirīgs."
+        },
+        {
+          "de": "Sein Gehalt ist hoch.",
+          "lv": "viņa alga ir augsta."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Gehalt",
+          "meaning": "saturs • būtība",
+          "example": "Der Gehalt ist klar. = Saturs ir skaidrs. Plural: die Gehalte."
+        },
+        {
+          "word": "das Gehalt",
+          "meaning": "alga • atalgojums",
+          "example": "Das Gehalt ist gut. = Alga ir laba. Plural: die Gehälter."
+        },
+        {
+          "word": "der Inhalt",
+          "meaning": "saturs (vispārīgi)",
+          "example": "Der Inhalt ist interessant. = Saturs ir interesants."
+        }
+      ],
+      "tip": {
+        "leftBlocks": [
+          {
+            "text": "Par vēstules, runas vai teksta būtību — der Gehalt. Par darba samaksu — das Gehalt."
+          }
+        ]
+      },
+      "important": {
+        "text": "der Gehalt = saturs (die Gehalte). das Gehalt = alga (die Gehälter). Nepareizi: die Gehälter par saturu — pareizi: die Gehalte."
+      },
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "der Gehalt"
+          ],
+          "purple": [
+            "saturs"
+          ],
+          "blue": [
+            "das Gehalt"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "Gehalt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "saturs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Gehalte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "saturs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gehalt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "alga"
+              ]
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "de": "geheim",
@@ -55592,14 +55787,210 @@ const B1_WORDS = [
     "de_article": "der",
     "de_plural": null,
     "lv": "rasa",
-    "level": "B1"
+    "level": "B1",
+    "study": {
+      "id": "b1-tau",
+      "layout": "standardStudy",
+      "translation": "rasa",
+      "explanation": "Galvenā doma: der Tau nozīmē rasu — ūdens pilieni uz zāles vai lapām. Tas ir neskaitāms (tikai vienskaitlis). Savukārt das Tau nozīmē kuģa tauvu vai virvi.",
+      "examples": [
+        {
+          "de": "Am Morgen liegt Tau auf der Wiese.",
+          "lv": "no rīta pļavā ir rasa."
+        },
+        {
+          "de": "Die Blätter sind nass vom Tau.",
+          "lv": "lapas ir mitras no rasas."
+        },
+        {
+          "de": "Das Schiff liegt am Tau.",
+          "lv": "kuģis ir pie tauvas."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Tau",
+          "meaning": "rasa",
+          "example": "Der Tau glitzert. = Rasa mirdz. Tikai vienskaitlis."
+        },
+        {
+          "word": "das Tau",
+          "meaning": "kuģa tauva • virve",
+          "example": "Das Tau ist fest. = Tauva ir stingra. Plural: die Taue."
+        },
+        {
+          "word": "der Nebel",
+          "meaning": "migla",
+          "example": "Der Nebel ist dicht. = Migla ir blīva."
+        }
+      ],
+      "tip": {
+        "leftBlocks": [
+          {
+            "text": "Par rasa uz zāles vai augiem — der Tau (bez daudzskaitļa). Par kuģa virvi — das Tau (die Taue)."
+          }
+        ]
+      },
+      "important": {
+        "text": "der Tau = rasa (tikai vienskaitlis). das Tau = tauva (die Taue). Artikuls pilnībā maina nozīmi."
+      },
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "der Tau"
+          ],
+          "purple": [
+            "rasa"
+          ],
+          "green": [
+            "das Tau"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Tau"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "rasa"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Tau"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "rasas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Tau"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tauvas"
+              ]
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Tau",
     "de_article": "das",
     "de_plural": "die Taue",
     "lv": "kuģa tauva",
-    "level": "B1"
+    "level": "B1",
+    "study": {
+      "id": "b1-tau-2",
+      "layout": "standardStudy",
+      "translation": "kuģa tauva",
+      "explanation": "Galvenā doma: das Tau nozīmē kuģa tauvu vai stipru virvi. Daudzskaitlis ir die Taue. Savukārt der Tau nozīmē rasu un lieto tikai vienskaitlī.",
+      "examples": [
+        {
+          "de": "Das Schiff liegt am Tau.",
+          "lv": "kuģis ir pie tauvas."
+        },
+        {
+          "de": "Die Taue sind fest gebunden.",
+          "lv": "tauvas ir cieši piesietas."
+        },
+        {
+          "de": "Am Morgen liegt Tau auf der Wiese.",
+          "lv": "no rīta pļavā ir rasa."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "das Tau",
+          "meaning": "kuģa tauva • virve",
+          "example": "Das Tau ist fest. = Tauva ir stingra. Plural: die Taue."
+        },
+        {
+          "word": "der Tau",
+          "meaning": "rasa",
+          "example": "Der Tau glitzert. = Rasa mirdz. Tikai vienskaitlis."
+        },
+        {
+          "word": "das Seil",
+          "meaning": "virve",
+          "example": "Das Seil ist lang. = Virve ir gara."
+        }
+      ],
+      "tip": {
+        "leftBlocks": [
+          {
+            "text": "Par kuģa piesiešanu un virvēm — das Tau. Par rasa uz zāles — der Tau."
+          }
+        ]
+      },
+      "important": {
+        "text": "das Tau = tauva (die Taue). der Tau = rasa (tikai vienskaitlis). Nepārklāj piemērus starp nozīmēm."
+      },
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "das Tau"
+          ],
+          "purple": [
+            "tauva"
+          ],
+          "blue": [
+            "der Tau"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "Tau"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tauvas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Taue"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tauvas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Tau"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "rasa"
+              ]
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Taubenschlag",
@@ -60775,14 +61166,209 @@ const B1_WORDS = [
     "de_article": "der",
     "de_plural": "die Verwandten",
     "lv": "radinieks",
-    "level": "B1"
+    "level": "B1",
+    "study": {
+      "id": "b1-verwandte",
+      "layout": "standardStudy",
+      "translation": "radinieks",
+      "explanation": "Galvenā doma: der Verwandte nozīmē vīriešu dzimtes radinieku. Sieviešu forma ir die Verwandte. Abi lieto vienu daudzskaitli: die Verwandten.",
+      "examples": [
+        {
+          "de": "Er ist ein enger Verwandter.",
+          "lv": "viņš ir tuvs radinieks."
+        },
+        {
+          "de": "Meine Verwandten wohnen in Lettland.",
+          "lv": "mani radinieki dzīvo Latvijā."
+        },
+        {
+          "de": "Sie ist eine entfernte Verwandte.",
+          "lv": "viņa ir tāla radiniece."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Verwandte",
+          "meaning": "radinieks (vīr.)",
+          "example": "Er ist mein Verwandter. = Viņš ir mans radinieks."
+        },
+        {
+          "word": "die Verwandte",
+          "meaning": "radiniece",
+          "example": "Sie ist meine Verwandte. = Viņa ir mana radiniece."
+        },
+        {
+          "word": "die Verwandten",
+          "meaning": "radinieki (daudzsk.)",
+          "example": "Meine Verwandten kommen. = Mani radinieki nāk."
+        }
+      ],
+      "tip": {
+        "leftBlocks": [
+          {
+            "text": "Vīriešu forma — der Verwandte. Sieviešu forma — die Verwandte. Daudzskaitlis abiem — die Verwandten."
+          }
+        ]
+      },
+      "important": {
+        "text": "der Verwandte = radinieks (vīr.). die Verwandte = radiniece. Daudzskaitlis: die Verwandten."
+      },
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "der Verwandte",
+            "die Verwandte"
+          ],
+          "purple": [
+            "radinieks",
+            "radiniece"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Verwandter"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "radinieks"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Verwandten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "radinieki"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Verwandte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "radiniece"
+              ]
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Verwandte",
     "de_article": "die",
     "de_plural": "die Verwandten",
     "lv": "radiniece",
-    "level": "B1"
+    "level": "B1",
+    "study": {
+      "id": "b1-verwandte-2",
+      "layout": "standardStudy",
+      "translation": "radiniece",
+      "explanation": "Galvenā doma: die Verwandte nozīmē sieviešu dzimtes radinieci. Vīriešu forma ir der Verwandte. Daudzskaitlis abām formām ir die Verwandten.",
+      "examples": [
+        {
+          "de": "Sie ist eine entfernte Verwandte.",
+          "lv": "viņa ir tāla radiniece."
+        },
+        {
+          "de": "Meine Verwandten wohnen in Lettland.",
+          "lv": "mani radinieki dzīvo Latvijā."
+        },
+        {
+          "de": "Er ist ein enger Verwandter.",
+          "lv": "viņš ir tuvs radinieks."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Verwandte",
+          "meaning": "radiniece",
+          "example": "Sie ist meine Verwandte. = Viņa ir mana radiniece."
+        },
+        {
+          "word": "der Verwandte",
+          "meaning": "radinieks (vīr.)",
+          "example": "Er ist mein Verwandter. = Viņš ir mans radinieks."
+        },
+        {
+          "word": "die Verwandten",
+          "meaning": "radinieki (daudzsk.)",
+          "example": "Meine Verwandten kommen. = Mani radinieki nāk."
+        }
+      ],
+      "tip": {
+        "leftBlocks": [
+          {
+            "text": "Sieviešu forma — die Verwandte. Vīriešu forma — der Verwandte. Abi kopā daudzskaitlī — die Verwandten."
+          }
+        ]
+      },
+      "important": {
+        "text": "die Verwandte = radiniece. der Verwandte = radinieks (vīr.). Daudzskaitlis: die Verwandten."
+      },
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "die Verwandte"
+          ],
+          "purple": [
+            "radiniece"
+          ],
+          "blue": [
+            "der Verwandte"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "Verwandte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "radiniece"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Verwandten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "radinieki"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Verwandter"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "radinieks"
+              ]
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "de": "verwechseln",
@@ -61773,126 +62359,139 @@ const B1_WORDS = [
     "study": {
       "id": "b1-wagen",
       "layout": "standardStudy",
-      "translation": "uzdrošināties",
-      "explanation": "Galvenā doma: wagen nozīmē uzdrošināties darīt kaut ko riskantu. Tas nav lietvārds der Wagen.",
+      "translation": "automašīna • vagons",
+      "explanation": "Galvenā doma: der Wagen nozīmē transportlīdzekli — automašīnu, vagoku vai ratiņus. Daudzskaitlis ir die Wagen. Tas nav darbības vārds wagen (uzdrošināties).",
       "examples": [
         {
-          "de": "Ich wage es nicht, ihn zu fragen.",
-          "lv": "es neuzdrošinos viņam jautāt."
+          "de": "Der Wagen steht vor dem Haus.",
+          "lv": "automašīna stāv pie mājas."
         },
         {
-          "de": "Sie wagt einen neuen Versuch.",
-          "lv": "viņa uzdrošinās mēģināt vēlreiz."
+          "de": "Wir fahren mit dem Wagen zur Stadt.",
+          "lv": "mēs braucam ar automašīnu uz pilsētu."
         },
         {
-          "de": "Das ist ein gewagter Plan.",
-          "lv": "tas ir riskants plāns."
+          "de": "Der Güterwagen ist schwer beladen.",
+          "lv": "kravas vagons ir smagi noslogots."
         }
       ],
       "comparison": [
         {
-          "word": "wagen",
-          "meaning": "uzdrošināties, riskēt",
-          "example": "Ich wage es. = Es uzdrošinos."
+          "word": "der Wagen",
+          "meaning": "automašīna • vagons • rati",
+          "example": "Der Wagen ist neu. = Automašīna ir jauna."
         },
         {
-          "word": "sich trauen",
+          "word": "der Waggon",
+          "meaning": "vagons (vilciens)",
+          "example": "Der Waggon ist voll. = Vagons ir pilns."
+        },
+        {
+          "word": "das Auto",
+          "meaning": "automašīna",
+          "example": "Das Auto steht da. = Automašīna stāv tur."
+        },
+        {
+          "word": "wagen (Verb)",
           "meaning": "uzdrošināties",
-          "example": "Traust du dich? = Vai tu uzdrošinies?"
-        },
-        {
-          "word": "riskieren",
-          "meaning": "riskēt",
-          "example": "Ich riskiere nichts. = Es neriskēju."
+          "example": "Ich wage es nicht. = Es neuzdrošinos."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Drosmīgs solis ar risku: wagen."
+            "text": "der Wagen ar artikulu der ir lietvārds — transportlīdzeklis. wagen bez artikula ir darbības vārds — uzdrošināties."
           }
         ]
       },
       "important": {
-        "text": "wagen nav der Wagen. der Wagen ir transportlīdzeklis."
+        "text": "der Wagen = automašīna vai vagons (die Wagen). wagen = uzdrošināties — tas ir cits vārds."
       },
       "sectionAccents": {
         "explanation": {
-          "blue": "wagen",
-          "purple": "uzdrošināties",
-          "red": "der Wagen"
+          "blue": "der Wagen",
+          "purple": "automašīna",
+          "red": "wagen"
         },
         "examples": [
           {
             "de": {
-              "blue": "wage",
-              "green": "ihn"
+              "blue": "Wagen"
             },
             "lv": {
-              "purple": "neuzdrošinos"
+              "purple": "automašīna"
             }
           },
           {
             "de": {
-              "blue": "wagt",
-              "yellow": "Versuch"
+              "blue": "Wagen"
             },
             "lv": {
-              "purple": "uzdrošinās"
+              "purple": "automašīnu"
             }
           },
           {
             "de": {
-              "blue": "gewagter",
-              "yellow": "Plan"
+              "blue": "Güterwagen"
             },
             "lv": {
-              "red": "riskants"
+              "purple": "vagons"
             }
           }
         ],
         "comparison": [
           {
             "word": {
-              "green": "wagen"
+              "blue": "der Wagen"
+            },
+            "meaning": {
+              "purple": "automašīna"
+            },
+            "example": {
+              "blue": "Wagen"
+            }
+          },
+          {
+            "word": {
+              "green": "der Waggon"
+            },
+            "meaning": {
+              "purple": "vagons"
+            },
+            "example": {
+              "blue": "Waggon"
+            }
+          },
+          {
+            "word": {
+              "green": "das Auto"
+            },
+            "meaning": {
+              "purple": "automašīna"
+            },
+            "example": {
+              "blue": "Auto"
+            }
+          },
+          {
+            "word": {
+              "red": "wagen"
             },
             "meaning": {
               "purple": "uzdrošināties"
             },
             "example": {
-              "blue": "wage"
-            }
-          },
-          {
-            "word": {
-              "green": "sich trauen"
-            },
-            "meaning": {
-              "purple": "uzdrošināties"
-            },
-            "example": {
-              "red": "dich"
-            }
-          },
-          {
-            "word": {
-              "green": "riskieren"
-            },
-            "meaning": {
-              "purple": "riskēt"
-            },
-            "example": {
-              "red": "riskiere"
+              "red": "wage"
             }
           }
         ],
         "tip": {
-          "blue": "wagen",
-          "red": "risku"
+          "blue": "der Wagen",
+          "red": "wagen"
         },
         "important": {
-          "blue": "wagen",
-          "red": "der Wagen"
+          "blue": "der Wagen",
+          "red": "wagen"
         }
       }
     }
@@ -64457,14 +65056,210 @@ const B1_WORDS = [
     "de_article": "die",
     "de_plural": "die Steuern",
     "lv": "nodoklis",
-    "level": "B1"
+    "level": "B1",
+    "study": {
+      "id": "b1-steuer",
+      "layout": "standardStudy",
+      "translation": "nodoklis",
+      "explanation": "Galvenā doma: die Steuer nozīmē nodokli. Daudzskaitlis ir die Steuern. Savukārt das Steuer nozīmē stūri vai stūres rata — kuģa vai automašīnas vadības ierīci.",
+      "examples": [
+        {
+          "de": "Die Steuern sind hoch.",
+          "lv": "nodokļi ir augsti."
+        },
+        {
+          "de": "Er zahlt viel Steuer.",
+          "lv": "viņš maksā daudz nodokļu."
+        },
+        {
+          "de": "Er hält das Steuer fest.",
+          "lv": "viņš cieši tur stūri."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Steuer",
+          "meaning": "nodoklis",
+          "example": "Die Steuer ist hoch. = Nodoklis ir augsts. Plural: die Steuern."
+        },
+        {
+          "word": "das Steuer",
+          "meaning": "stūre • stūres rats",
+          "example": "Das Steuer ist fest. = Stūre ir stingra. Plural: die Steuer."
+        },
+        {
+          "word": "die Abgabe",
+          "meaning": "nodeva • maksājums",
+          "example": "Die Abgabe ist fällig. = Nodeva ir jāmaksā."
+        }
+      ],
+      "tip": {
+        "leftBlocks": [
+          {
+            "text": "Par nodokļiem un valsts maksājumiem — die Steuer (die Steuern). Par kuģa vai auto stūri — das Steuer (die Steuer)."
+          }
+        ]
+      },
+      "important": {
+        "text": "die Steuer = nodoklis (die Steuern). das Steuer = stūre (die Steuer). Artikuls un daudzskaitlis atšķiras."
+      },
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Steuer"
+          ],
+          "purple": [
+            "nodoklis"
+          ],
+          "green": [
+            "das Steuer"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Steuern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nodokļi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Steuer"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nodokļu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Steuer"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "stūri"
+              ]
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Steuer",
     "de_article": "das",
     "de_plural": "die Steuer",
     "lv": "stūre",
-    "level": "B1"
+    "level": "B1",
+    "study": {
+      "id": "b1-steuer-2",
+      "layout": "standardStudy",
+      "translation": "stūre",
+      "explanation": "Galvenā doma: das Steuer nozīmē stūri vai stūres rata — kuģa vai automašīnas vadības ierīci. Daudzskaitlis ir die Steuer. Savukārt die Steuer nozīmē nodokli (die Steuern).",
+      "examples": [
+        {
+          "de": "Er hält das Steuer fest.",
+          "lv": "viņš cieši tur stūri."
+        },
+        {
+          "de": "Die Steuer des Schiffes ist groß.",
+          "lv": "kuģa stūre ir liela."
+        },
+        {
+          "de": "Die Steuern sind hoch.",
+          "lv": "nodokļi ir augsti."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "das Steuer",
+          "meaning": "stūre • stūres rats",
+          "example": "Das Steuer ist fest. = Stūre ir stingra. Plural: die Steuer."
+        },
+        {
+          "word": "die Steuer",
+          "meaning": "nodoklis",
+          "example": "Die Steuer ist hoch. = Nodoklis ir augsts. Plural: die Steuern."
+        },
+        {
+          "word": "das Lenkrad",
+          "meaning": "stūre (auto)",
+          "example": "Das Lenkrad ist warm. = Stūre ir silta."
+        }
+      ],
+      "tip": {
+        "leftBlocks": [
+          {
+            "text": "Par kuģa vai auto vadību — das Steuer. Par nodokļiem — die Steuer."
+          }
+        ]
+      },
+      "important": {
+        "text": "das Steuer = stūre (die Steuer). die Steuer = nodoklis (die Steuern). Nepareizi: die Steuern par stūri."
+      },
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "das Steuer"
+          ],
+          "purple": [
+            "stūre"
+          ],
+          "blue": [
+            "die Steuer"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "Steuer"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "stūri"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Steuer"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "stūre"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Steuern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nodokļi"
+              ]
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "de": "verbessern",
@@ -65782,8 +66577,8 @@ const B1_WORDS = [
           "lv": "viņš ir savas onkļa mantinieks."
         },
         {
-          "de": "Er ist der Erbe seines Onkels.",
-          "lv": "viņš ir savas onkļa mantinieks."
+          "de": "Die Erben teilen das Vermögen.",
+          "lv": "mantinieki sadala mantu."
         },
         {
           "de": "Das Erbe besteht aus einem Haus.",
@@ -65839,8 +66634,44 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "der Erbe",
+                "Erben"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mantinieki"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "das Erbe",
                 "erbe"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mantojums"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Erbe"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mantojumu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "der Erbe"
               ]
             },
             "lv": {
@@ -65851,53 +66682,13 @@ const B1_WORDS = [
           },
           {
             "de": {
-              "blue": [
-                "der Erbe",
-                "erbe"
+              "green": [
+                "das Erbe"
               ]
             },
             "lv": {
               "purple": [
-                "mantinieks"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "der Erbe",
-                "erbe"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "mantinieks"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "der Erbe",
-                "erbe"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "mantinieks"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "der Erbe",
-                "erbe"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "mantinieks"
+                "mantojums"
               ]
             }
           }
@@ -65999,14 +66790,13 @@ const B1_WORDS = [
           },
           {
             "de": {
-              "green": [
-                "das Erbe",
-                "erbe"
+              "blue": [
+                "der Erbe"
               ]
             },
             "lv": {
               "purple": [
-                "mantojums"
+                "mantinieks"
               ]
             }
           },
@@ -66026,34 +66816,31 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
-                "das Erbe",
-                "erbe"
+                "Erbe"
               ]
             },
             "lv": {
               "purple": [
-                "mantojums"
+                "mantojumu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "der Erbe"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mantinieks"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "das Erbe",
-                "erbe"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "mantojums"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "das Erbe",
-                "erbe"
+                "das Erbe"
               ]
             },
             "lv": {
