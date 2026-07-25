@@ -18,6 +18,13 @@ $rootFiles = @(
     'wordRain.js'
 )
 
+$languagesSrc = Join-Path $root 'languages'
+$languagesDst = Join-Path $www 'languages'
+if (Test-Path $languagesDst) {
+    Remove-Item -Path $languagesDst -Recurse -Force
+}
+Copy-Item -Path $languagesSrc -Destination $languagesDst -Recurse -Force
+
 foreach ($file in $rootFiles) {
     Copy-Item -Path (Join-Path $root $file) -Destination (Join-Path $www $file) -Force
 }
