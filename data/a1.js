@@ -17906,7 +17906,7 @@ const A1_WORDS = [
   },
   {
     "de": "Ostern",
-    "lv": "lieldienas",
+    "lv": "Lieldienas",
     "level": "A1"
   },
   {
@@ -23796,7 +23796,7 @@ const A1_WORDS = [
   },
   {
     "de": "Weihnachten",
-    "lv": "ziemassvētki",
+    "lv": "Ziemassvētki",
     "level": "A1"
   },
   {

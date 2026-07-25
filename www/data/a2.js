@@ -39180,9 +39180,9 @@ const A2_WORDS = [
     }
   },
   {
-    "de": "Home-page",
+    "de": "Homepage",
     "de_article": "die",
-    "de_plural": "die Home-pages",
+    "de_plural": "die Homepages",
     "lv": "interneta mājas lapa",
     "level": "A2"
   },
@@ -40532,7 +40532,7 @@ const A2_WORDS = [
     "de": "Kartoffelchips",
     "de_article": "die",
     "de_plural": "die Kartoffelchipse",
-    "lv": "kartupeļu čipss",
+    "lv": "kartupeļu čipsi",
     "level": "A2"
   },
   {
@@ -41344,7 +41344,8 @@ const A2_WORDS = [
     }
   },
   {
-    "de": "ketchup / Ketschup",
+    "de": "Ketchup",
+    "de_article": "der",
     "lv": "kečups",
     "level": "A2"
   },
@@ -53851,7 +53852,7 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "Saure Sahne",
+    "de": "saure Sahne",
     "de_article": "die",
     "lv": "skābs krējums",
     "level": "A2"

@@ -48419,9 +48419,9 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "Same[n]",
+    "de": "Samen",
     "de_article": "der",
-    "de_plural": "die Same[n]e",
+    "de_plural": "die Samen",
     "lv": "sēkla",
     "level": "B1"
   },

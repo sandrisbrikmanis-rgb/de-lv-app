@@ -1046,7 +1046,7 @@ const C2_WORDS = [
     "level": "C2"
   },
   {
-    "de": "Gesetzgebende Gewalt",
+    "de": "gesetzgebende Gewalt",
     "de_article": "die",
     "de_plural": "die gesetzgebenden Gewalten",
     "lv": "likumdevēja vara",
@@ -1268,7 +1268,7 @@ const C2_WORDS = [
     "level": "C2"
   },
   {
-    "de": "Politische Ökonomie",
+    "de": "politische Ökonomie",
     "de_article": "die",
     "lv": "politiskā ekonomija",
     "level": "C2"

@@ -485,7 +485,8 @@ const B2_WORDS = [
     }
   },
   {
-    "de": "abzweigung",
+    "de": "Abzweigung",
+    "de_article": "die",
     "lv": "nozarojums • atzarojums",
     "level": "B2"
   },
@@ -522,7 +523,8 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "anmut",
+    "de": "Anmut",
+    "de_article": "die",
     "lv": "pievilcība • daiļums • grācija",
     "level": "B2"
   },
@@ -1604,7 +1606,7 @@ const B2_WORDS = [
     "de": "Bindung",
     "de_article": "die",
     "de_plural": "die Bindungen",
-    "lv": "saistījums • savienojums • kimisks savienojums • saite • siksnas • emocionālā saikne",
+    "lv": "saistījums • savienojums • ķīmisks savienojums • saite • siksnas • emocionālā saikne",
     "level": "B2"
   },
   {
@@ -1619,14 +1621,15 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "bienenwachs",
+    "de": "Bienenwachs",
+    "de_article": "das",
     "lv": "bišu vasks",
     "level": "B2"
   },
   {
-    "de": "Bierstock",
+    "de": "Bienenstock",
     "de_article": "der",
-    "de_plural": "die Bierstocke",
+    "de_plural": "die Bienenstöcke",
     "lv": "bišu strops",
     "level": "B2"
   },
@@ -2034,7 +2037,7 @@ const B2_WORDS = [
   {
     "de": "Bundeswehr",
     "de_article": "die",
-    "lv": "vFR bruņotie spēki",
+    "lv": "Vācijas bruņotie spēki",
     "level": "B2"
   },
   {
@@ -6557,9 +6560,9 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "Gläser",
+    "de": "Glaser",
     "de_article": "der",
-    "de_plural": "die Gläser",
+    "de_plural": "die Glaser",
     "lv": "stiklinieks",
     "level": "B2"
   },
@@ -7084,8 +7087,145 @@ const B2_WORDS = [
     "de": "Haube",
     "de_article": "die",
     "de_plural": "die Hauben",
-    "lv": "aube • apvalks • vāks • pārsegs",
-    "level": "B2"
+    "lv": "cepurīte • pārsegs",
+    "level": "B2",
+    "study": {
+      "id": "b2-haube",
+      "layout": "standardStudy",
+      "translation": "cepurīte • pārsegs",
+      "explanation": [
+        "Galvenā doma: die Haube var nozīmēt galvas cepurīti/kapuci vai pārsegu/vāku — konteksts nosaka nozīmi.",
+        "Uz galvas: die Haube = cepurīte, kapuce vai autortehnika konkrētā kontekstā (z. B. Nonne mit Haube).",
+        "Pie automašīnas: die Motorhaube vai einfach die Haube = motora pārsegs.",
+        "Virtuvē: die Dunsthaube = nosūcējs virs plīts. Tehnikā: pārsegs vai vāks virs iekārtas."
+      ],
+      "examples": [
+        {
+          "de": "Sie trägt eine warme Haube.",
+          "lv": "viņa valkā siltu cepurīti."
+        },
+        {
+          "de": "Die Nonne trägt eine schwarze Haube.",
+          "lv": "mūķene valkā melnu kapuci."
+        },
+        {
+          "de": "Er öffnet die Haube des Autos.",
+          "lv": "viņš atver automašīnas motora pārsegu."
+        },
+        {
+          "de": "Die Motorhaube ist kaputt.",
+          "lv": "motora pārsegs ir salauzts."
+        },
+        {
+          "de": "Über dem Herd hängt eine Dunsthaube.",
+          "lv": "virs plīts ir piestiprināts nosūcējs."
+        },
+        {
+          "de": "Setz den Deckel als Haube auf den Topf.",
+          "lv": "uzliec vāku kā pārsegu uz katla."
+        }
+      ],
+      "tip": [
+        "Runā par galvu, mūķeni, cepuri → cepurīte / kapuce.",
+        "Runā par auto, motoru → motora pārsegs.",
+        "Runā par plīti, iekārtu → nosūcējs vai pārsegs."
+      ],
+      "important": [
+        "die Haube = cepurīte/kapuce VAI motora pārsegs VAI nosūcējs/pārsegs — atkarībā no konteksta.",
+        "Salikteņi palīdz: Motorhaube (auto), Dunsthaube (virtuve)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Haube"
+          ],
+          "purple": [
+            "cepurīte",
+            "pārsegs",
+            "kapuce",
+            "motora pārsegs"
+          ],
+          "green": [
+            "Motorhaube",
+            "Dunsthaube"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Haube"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "cepurīti"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Haube"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kapuci"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Haube"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pārsegu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Motorhaube"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pārsegs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Dunsthaube"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nosūcējs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Haube"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pārsegu"
+              ]
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Haushaltung",
@@ -7121,7 +7261,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "hauten[g]",
+    "de": "hauteng",
     "lv": "piegulošs apģērbs",
     "level": "B2"
   },
@@ -7195,7 +7335,7 @@ const B2_WORDS = [
     "de": "Heimwerker",
     "de_article": "der",
     "de_plural": "die Heimwerker",
-    "lv": "mājamtnieks",
+    "lv": "mājamatnieks • mājmeistars",
     "level": "B2"
   },
   {
@@ -7571,17 +7711,17 @@ const B2_WORDS = [
     "de": "HIV",
     "de_article": "das",
     "de_plural": "die HIV",
-    "lv": "aIDS vīruss",
+    "lv": "HIV (cilvēka imūndeficīta vīruss)",
     "level": "B2"
   },
   {
-    "de": "hIV-negativ",
-    "lv": "aIDS negatīvs",
+    "de": "HIV-negativ",
+    "lv": "HIV negatīvs",
     "level": "B2"
   },
   {
-    "de": "hIV-positiv",
-    "lv": "aIDS pozitīvs",
+    "de": "HIV-positiv",
+    "lv": "HIV pozitīvs",
     "level": "B2"
   },
   {
@@ -9377,7 +9517,7 @@ const B2_WORDS = [
     "de": "Niedergang",
     "de_article": "der",
     "de_plural": "die Niedergänge",
-    "lv": "riets • pagrimums • pagrimsana",
+    "lv": "riets • pagrimums • pagrimšana",
     "level": "B2"
   },
   {
@@ -10386,7 +10526,7 @@ const B2_WORDS = [
     "de": "Rüge",
     "de_article": "die",
     "de_plural": "die Rügen",
-    "lv": "bāriens • rāviens",
+    "lv": "bāriens • rājiens",
     "level": "B2"
   },
   {
@@ -13012,7 +13152,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "verkräften",
+    "de": "verkraften",
     "lv": "uzturēt morālu spēku, lai pārvarētu kaut ko nepatīkamu",
     "level": "B2"
   },
@@ -13648,7 +13788,7 @@ const B2_WORDS = [
   },
   {
     "de": "vorzeitig",
-    "lv": "priekšlaicīgs • pāragrš",
+    "lv": "priekšlaicīgs • pāragrs",
     "level": "B2"
   },
   {

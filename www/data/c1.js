@@ -189,12 +189,16 @@ const C1_WORDS = [
     "level": "C1"
   },
   {
-    "de": "kinderschänder",
+    "de": "Kinderschänder",
+    "de_article": "der",
+    "de_plural": "die Kinderschänder",
     "lv": "pedofils",
     "level": "C1"
   },
   {
-    "de": "kindesmisshandlung",
+    "de": "Kindesmisshandlung",
+    "de_article": "die",
+    "de_plural": "die Kindesmisshandlungen",
     "lv": "bērnu vardarbība",
     "level": "C1"
   },
@@ -1781,7 +1785,7 @@ const C1_WORDS = [
     "level": "C1"
   },
   {
-    "de": "bevölmächtigen",
+    "de": "bevollmächtigen",
     "lv": "pilnvarot • piešķirt pilnvaru",
     "level": "C1"
   },
@@ -1859,7 +1863,7 @@ const C1_WORDS = [
     "de": "Bundesdeutsche",
     "de_article": "der",
     "de_plural": "die Bundesdeutsche",
-    "lv": "vFR pilsonis vai pilsone",
+    "lv": "VFR pilsonis vai pilsone",
     "level": "C1"
   },
   {
@@ -2319,7 +2323,7 @@ const C1_WORDS = [
     "level": "C1"
   },
   {
-    "de": "Soziale Fürsorge",
+    "de": "soziale Fürsorge",
     "de_article": "die",
     "lv": "sociālā apgāde",
     "level": "C1"
@@ -3359,7 +3363,7 @@ const C1_WORDS = [
   },
   {
     "de": "stimmberechtigt",
-    "lv": "balstiesīgs",
+    "lv": "balsstiesīgs",
     "level": "C1"
   },
   {
