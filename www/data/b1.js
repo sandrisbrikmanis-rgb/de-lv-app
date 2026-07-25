@@ -10534,8 +10534,103 @@ const B1_WORDS = [
     "de": "Bildschirm",
     "de_article": "der",
     "de_plural": "die Bildschirme",
-    "lv": "televizora vai datora monitora ekrāns",
-    "level": "B1"
+    "lv": "ekrāns",
+    "level": "B1",
+    "study": {
+      "id": "b1-bildschirm",
+      "layout": "standardStudy",
+      "translation": "ekrāns",
+      "explanation": "Galvenā doma: der Bildschirm ir ekrāns — datora monitora, telefona, planšetdatora vai televizora attēlošanas virsma. Daudzskaitlis: die Bildschirme.",
+      "examples": [
+        {
+          "de": "Der Bildschirm ist kaputt.",
+          "lv": "ekrāns ir salauzts."
+        },
+        {
+          "de": "Ich schaue auf den Bildschirm.",
+          "lv": "es skatos uz ekrānu."
+        },
+        {
+          "de": "Der Computer hat einen großen Bildschirm.",
+          "lv": "datoram ir liels ekrāns."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Bildschirm",
+          "meaning": "ekrāns",
+          "example": "Der Bildschirm leuchtet. = Ekrāns spīd."
+        },
+        {
+          "word": "der Monitor",
+          "meaning": "monitors (dators)",
+          "example": "Der Monitor ist neu. = Monitors ir jauns."
+        },
+        {
+          "word": "das Display",
+          "meaning": "displejs",
+          "example": "Das Display ist klein. = Displejs ir mazs."
+        }
+      ],
+      "tip": {
+        "leftBlocks": [
+          {
+            "text": "Bildschirm derīgs gan datoram, gan televizoram, gan telefonam — atkarībā no konteksta."
+          }
+        ]
+      },
+      "important": {
+        "text": "der Bildschirm = ekrāns. Daudzskaitlis: die Bildschirme."
+      },
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "der Bildschirm"
+          ],
+          "purple": [
+            "ekrāns"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Bildschirm"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ekrāns"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Bildschirm"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ekrānu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Bildschirm"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ekrāns"
+              ]
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Bildung",
@@ -13194,14 +13289,14 @@ const B1_WORDS = [
   {
     "de": "Dank",
     "de_article": "der",
-    "lv": "pateicība • paldies",
+    "lv": "pateicība",
     "level": "B1",
     "study": {
       "id": "b1-dank-study",
       "layout": "standardStudy",
-      "translation": "pateicība • paldies",
+      "translation": "pateicība",
       "explanation": [
-        "Galvenā doma: der Dank ir lietvārds un nozīmē pateicību kā jēdzienu.",
+        "Galvenā doma: der Dank ir lietvārds un nozīmē pateicību kā jēdzienu. Galvenā nozīme ir pateicība — ne jaukt ar sarunvalodas atbildi danke.",
         "Biežāk sastopamās frāzes ir Vielen Dank! un Herzlichen Dank! — tās nozīmē „liels paldies!” un „sirsnīgs paldies!”.",
         "danke ir atbilde vai īss pateicības vārds sarunā: „paldies”.",
         "danken ir darbības vārds: „pateikties”. ar kam? formu: Ich danke dir.",
@@ -31994,8 +32089,105 @@ const B1_WORDS = [
     "de": "Hupe",
     "de_article": "die",
     "de_plural": "die Hupen",
-    "lv": "automašīnas signalizācijas ierīce",
-    "level": "B1"
+    "lv": "signāltaure • taure",
+    "level": "B1",
+    "study": {
+      "id": "b1-hupe",
+      "layout": "standardStudy",
+      "translation": "signāltaure • taure",
+      "explanation": "Galvenā doma: die Hupe ir automašīnas signāltaure vai kuģa taure. Ar to brīdina citus satiksmē. Daudzskaitlis: die Hupen.",
+      "examples": [
+        {
+          "de": "Er hupt laut.",
+          "lv": "viņš skaļi signalizē ar tauri."
+        },
+        {
+          "de": "Die Hupe des Autos ist kaputt.",
+          "lv": "automašīnas signāltaure ir salauzta."
+        },
+        {
+          "de": "Das Schiff gibt ein Signal mit der Hupe.",
+          "lv": "kuģis dod signālu ar tauri."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Hupe",
+          "meaning": "signāltaure • taure",
+          "example": "Die Hupe ist laut. = Signāltaure ir skaļa."
+        },
+        {
+          "word": "hupen",
+          "meaning": "signalizēt ar tauri",
+          "example": "Er hupt. = Viņš signalizē."
+        },
+        {
+          "word": "das Signal",
+          "meaning": "signāls",
+          "example": "Das Signal ist klar. = Signāls ir skaidrs."
+        }
+      ],
+      "tip": {
+        "leftBlocks": [
+          {
+            "text": "Auto kontekstā — signāltaure. Kuģa kontekstā — taure. Darbības vārds: hupen."
+          }
+        ]
+      },
+      "important": {
+        "text": "die Hupe = signāltaure vai taure. Daudzskaitlis: die Hupen."
+      },
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Hupe",
+            "hupen"
+          ],
+          "purple": [
+            "signāltaure",
+            "taure"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "hupt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "signalizē"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hupe"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "signāltaure"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hupe"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tauri"
+              ]
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Hürde",
@@ -36149,7 +36341,104 @@ const B1_WORDS = [
     "de_article": "das",
     "de_plural": "die Kraftwerke",
     "lv": "spēkstacija",
-    "level": "B1"
+    "level": "B1",
+    "study": {
+      "id": "b1-kraftwerk",
+      "layout": "standardStudy",
+      "translation": "spēkstacija",
+      "explanation": "Galvenā doma: das Kraftwerk ir spēkstacija — rūpnīca, kas ražo elektroenerģiju. Vārds nav novecojis; tas ir aktuāls un bieži lietots presē, politikā un ikdienā. Daudzskaitlis: die Kraftwerke.",
+      "examples": [
+        {
+          "de": "Das Kraftwerk produziert Strom.",
+          "lv": "spēkstacija ražo elektrību."
+        },
+        {
+          "de": "Das Atomkraftwerk wurde stillgelegt.",
+          "lv": "atomspēkstacija tika slēgta."
+        },
+        {
+          "de": "Neue Kraftwerke nutzen erneuerbare Energie.",
+          "lv": "jaunās spēkstacijas izmanto atjaunojamo enerģiju."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "das Kraftwerk",
+          "meaning": "spēkstacija",
+          "example": "Das Kraftwerk ist groß. = Spēkstacija ir liela."
+        },
+        {
+          "word": "das Atomkraftwerk",
+          "meaning": "atomspēkstacija",
+          "example": "Das Atomkraftwerk ist umstritten. = Atomspēkstacija ir pretrunīga."
+        },
+        {
+          "word": "die Fabrik",
+          "meaning": "fabrika",
+          "example": "Die Fabrik produziert Autos. = Fabrika ražo automašīnas."
+        }
+      ],
+      "tip": {
+        "leftBlocks": [
+          {
+            "text": "Kraft = spēks, Werk = darbs/rūpnīca. Saliktenis nozīmē enerģijas ražošanas iekārtu kopumu."
+          }
+        ]
+      },
+      "important": {
+        "text": "das Kraftwerk = spēkstacija (aktīvi lietots vārds). Daudzskaitlis: die Kraftwerke."
+      },
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "das Kraftwerk",
+            "Kraftwerke"
+          ],
+          "purple": [
+            "spēkstacija",
+            "spēkstacijas"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Kraftwerk"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "spēkstacija"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Atomkraftwerk"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "atomspēkstacija"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Kraftwerke"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "spēkstacijas"
+              ]
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Kragen",

@@ -20413,14 +20413,14 @@ const A2_WORDS = [
   {
     "de": "Dank",
     "de_article": "der",
-    "lv": "pateicība • paldies",
+    "lv": "pateicība",
     "level": "A2",
     "study": {
       "id": "study-der-dank",
       "layout": "standardStudy",
-      "translation": "pateicība • paldies",
+      "translation": "pateicība",
       "explanation": [
-        "Galvenā doma: der Dank ir lietvārds un nozīmē pateicību kā jēdzienu.",
+        "Galvenā doma: der Dank ir lietvārds un nozīmē pateicību kā jēdzienu. Galvenā nozīme ir pateicība — ne jaukt ar sarunvalodas atbildi danke.",
         "Biežāk sastopamās frāzes ir Vielen Dank! un Herzlichen Dank! — tās nozīmē „liels paldies!” un „sirsnīgs paldies!”.",
         "danke ir atbilde vai īss pateicības vārds sarunā: „paldies”.",
         "danken ir darbības vārds: „pateikties”. ar kam? formu: Ich danke dir.",
@@ -49971,8 +49971,105 @@ const A2_WORDS = [
     "de": "Patient",
     "de_article": "der",
     "de_plural": "die Patienten",
-    "lv": "ārsta pacients",
-    "level": "A2"
+    "lv": "pacients",
+    "level": "A2",
+    "study": {
+      "id": "a2-patient",
+      "layout": "standardStudy",
+      "translation": "pacients",
+      "explanation": "Galvenā doma: der Patient ir cilvēks, kas saņem ārstēšanu slimnīcā vai pie ārsta. Sieviešu forma ir die Patientin. Daudzskaitlis: die Patienten.",
+      "examples": [
+        {
+          "de": "Der Patient wartet im Wartezimmer.",
+          "lv": "pacients gaida uzgaidāmajā telpā."
+        },
+        {
+          "de": "Die Ärztin untersucht den Patienten.",
+          "lv": "ārste pārbauda pacientu."
+        },
+        {
+          "de": "Die Patientin fühlt sich besser.",
+          "lv": "paciente jūtas labāk."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Patient",
+          "meaning": "pacients (vīr.)",
+          "example": "Der Patient ist krank. = Pacients ir slims."
+        },
+        {
+          "word": "die Patientin",
+          "meaning": "paciente",
+          "example": "Die Patientin ruht sich aus. = Paciente atpūšas."
+        },
+        {
+          "word": "der Kranke",
+          "meaning": "slimnieks",
+          "example": "Der Kranke liegt im Bett. = Slimnieks guļ gultā."
+        }
+      ],
+      "tip": {
+        "leftBlocks": [
+          {
+            "text": "Medicīnas kontekstā lieto Patient/Patientin. Kranke ir vispārīgāks vārds par slimu cilvēku."
+          }
+        ]
+      },
+      "important": {
+        "text": "der Patient = pacients. die Patientin = paciente. Daudzskaitlis: die Patienten."
+      },
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "der Patient",
+            "die Patientin"
+          ],
+          "purple": [
+            "pacients",
+            "paciente"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Patient"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pacients"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Patienten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pacientu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Patientin"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "paciente"
+              ]
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Pech",
@@ -49995,8 +50092,106 @@ const A2_WORDS = [
   {
     "de": "Personal",
     "de_article": "das",
-    "lv": "iestādes vai firmas viss personāls",
-    "level": "A2"
+    "lv": "personāls",
+    "level": "A2",
+    "study": {
+      "id": "a2-personal",
+      "layout": "standardStudy",
+      "translation": "personāls",
+      "explanation": "Galvenā doma: das Personal nozīmē visu darbinieku kopumu — slimnīcas, viesnīcas, veikala vai firmas personālu. Tas ir kolektīvais lietvārds un parasti lieto tikai vienskaitlī.",
+      "examples": [
+        {
+          "de": "Das Personal ist sehr freundlich.",
+          "lv": "personāls ir ļoti laipns."
+        },
+        {
+          "de": "Im Hotel arbeitet viel Personal.",
+          "lv": "viesnīcā strādā daudz personāla."
+        },
+        {
+          "de": "Das Krankenhaus sucht neues Personal.",
+          "lv": "slimnīca meklē jaunu personālu."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "das Personal",
+          "meaning": "personāls (kopā)",
+          "example": "Das Personal hilft. = Personāls palīdz."
+        },
+        {
+          "word": "der Mitarbeiter",
+          "meaning": "darbinieks",
+          "example": "Der Mitarbeiter arbeitet hier. = Darbinieks šeit strādā."
+        },
+        {
+          "word": "persönlich",
+          "meaning": "personīgs",
+          "example": "Das ist persönlich. = Tas ir personīgi."
+        }
+      ],
+      "tip": {
+        "leftBlocks": [
+          {
+            "text": "das Personal = visi darbinieki kopā. Ne jaukt ar persönlich (personīgs) vai der Personalausweis (personas apliecība)."
+          }
+        ]
+      },
+      "important": {
+        "text": "das Personal = personāls (vienskaitlis, kolektīvs). Parasti nav *die Personale."
+      },
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "das Personal"
+          ],
+          "purple": [
+            "personāls"
+          ],
+          "green": [
+            "persönlich"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Personal"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "personāls"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Personal"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "personāla"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Personal"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "personālu"
+              ]
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Personalausweis",
