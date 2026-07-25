@@ -18,10 +18,16 @@
   }
 
   window.AppDataLoader = {
-    async init(code) {
-      const entry = window.AppLanguageRegistry.get(code);
+    async init(nativeLanguageCode) {
+      const nativeLanguage = nativeLanguageCode;
+      const targetLanguage = window.AppLanguageContext?.getTargetLanguage?.() || "de";
+      const entry = window.AppLanguageRegistry.get(nativeLanguage);
       if (!entry) {
-        return { code: window.AppLanguageRegistry.defaultCode, fallback: true };
+        return {
+          nativeLanguage: window.AppLanguageRegistry.defaultCode,
+          targetLanguage,
+          fallback: true
+        };
       }
 
       const dataCode = entry.hasStudyData ? entry.code : window.AppLanguageRegistry.defaultCode;
@@ -33,14 +39,19 @@
       }
 
       return {
-        code: dataCode,
-        requestedCode: code,
-        fallback: dataCode !== code,
+        nativeLanguage,
+        targetLanguage,
+        dataNativeLanguage: dataCode,
+        requestedNativeLanguage: nativeLanguage,
+        fallback: dataCode !== nativeLanguage,
         manifest: window.LANGUAGE_DATA_MANIFEST || null
       };
     },
     getManifest() {
       return window.LANGUAGE_DATA_MANIFEST || null;
+    },
+    getTargetLanguage() {
+      return window.AppLanguageContext?.getTargetLanguage?.() || "de";
     }
   };
 })();

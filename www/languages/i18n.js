@@ -1,6 +1,6 @@
 (function () {
   const FALLBACK_CODE = window.AppLanguageRegistry?.defaultCode || "lv";
-  let currentCode = FALLBACK_CODE;
+  let nativeLanguage = FALLBACK_CODE;
   let strings = {};
   let fallbackStrings = null;
   const loadedUiScripts = new Set();
@@ -52,7 +52,7 @@
   async function fetchUiStrings(code) {
     const entry = window.AppLanguageRegistry.get(code);
     if (!entry) {
-      throw new Error(`Unknown language code: ${code}`);
+      throw new Error(`Unknown native language code: ${code}`);
     }
     if (!loadedUiScripts.has(entry.uiPath)) {
       await loadScript(entry.uiPath);
@@ -69,6 +69,13 @@
     if (fallbackStrings) return fallbackStrings;
     fallbackStrings = await fetchUiStrings(FALLBACK_CODE);
     return fallbackStrings;
+  }
+
+  function syncNativeLanguage(code) {
+    nativeLanguage = code;
+    if (window.AppLanguageContext && typeof window.AppLanguageContext.setNativeLanguage === "function") {
+      window.AppLanguageContext.setNativeLanguage(code);
+    }
   }
 
   function applyDataI18n(root) {
@@ -103,11 +110,11 @@
     storageKey: window.AppLanguageRegistry.storageKey,
     async init(code) {
       if (!window.AppLanguageRegistry.isValid(code)) {
-        throw new Error(`Invalid language code: ${code}`);
+        throw new Error(`Invalid native language code: ${code}`);
       }
       await ensureFallbackStrings();
       strings = await fetchUiStrings(code);
-      currentCode = code;
+      syncNativeLanguage(code);
       document.documentElement.lang = code;
       return code;
     },
@@ -116,27 +123,43 @@
         return false;
       }
       await window.AppI18n.init(code);
-      window.store.setItem(window.AppI18n.storageKey, code);
+      if (window.AppLanguageContext && typeof window.AppLanguageContext.saveNativeLanguageToStorage === "function") {
+        window.AppLanguageContext.saveNativeLanguageToStorage(code);
+      } else {
+        window.store.setItem(window.AppI18n.storageKey, code);
+      }
       if (typeof window.refreshAppLanguageUi === "function") {
         window.refreshAppLanguageUi(code);
       }
       return true;
     },
+    getNativeLanguage() {
+      return nativeLanguage;
+    },
+    getTargetLanguage() {
+      return window.AppLanguageContext?.getTargetLanguage?.() || "de";
+    },
     getCurrentLanguage() {
-      return currentCode;
+      return nativeLanguage;
     },
     getNativeCode() {
-      const entry = window.AppLanguageRegistry.get(currentCode);
+      if (window.AppLanguageContext && typeof window.AppLanguageContext.getNativeCode === "function") {
+        return window.AppLanguageContext.getNativeCode();
+      }
+      const entry = window.AppLanguageRegistry.get(nativeLanguage);
       return entry ? entry.nativeCode : "LV";
     },
+    getTargetCode() {
+      return window.AppLanguageContext?.getTargetCode?.() || "DE";
+    },
     getLanguageEntry() {
-      return window.AppLanguageRegistry.get(currentCode);
+      return window.AppLanguageRegistry.get(nativeLanguage);
     },
     t(key, params) {
       const primary = resolveStringValue(getByPath(strings, key), params);
       if (primary != null) return primary;
 
-      if (currentCode !== FALLBACK_CODE && fallbackStrings) {
+      if (nativeLanguage !== FALLBACK_CODE && fallbackStrings) {
         const fallback = resolveStringValue(getByPath(fallbackStrings, key), params);
         if (fallback != null) return fallback;
       }
@@ -154,7 +177,7 @@
     applyDataI18n,
     onLanguageReady(callback) {
       if (typeof callback === "function") {
-        callback(currentCode);
+        callback(nativeLanguage);
       }
     }
   };

@@ -1,4 +1,6 @@
 window.LANGUAGE_DATA_MANIFEST = {
+  nativeLanguage: "lv",
+  targetLanguage: "de",
   code: "lv",
   fallback: null,
   datasets: {
