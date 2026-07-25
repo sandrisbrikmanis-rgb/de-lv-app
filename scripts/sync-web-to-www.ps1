@@ -18,6 +18,15 @@ $rootFiles = @(
     'wordRain.js'
 )
 
+$assetsSrc = Join-Path $root 'assets'
+$assetsDst = Join-Path $www 'assets'
+if (Test-Path $assetsSrc) {
+    if (-not (Test-Path $assetsDst)) {
+        New-Item -ItemType Directory -Path $assetsDst | Out-Null
+    }
+    Copy-Item -Path (Join-Path $assetsSrc 'icon-only.png') -Destination (Join-Path $assetsDst 'icon-only.png') -Force
+}
+
 $languagesSrc = Join-Path $root 'languages'
 $languagesDst = Join-Path $www 'languages'
 if (Test-Path $languagesDst) {
