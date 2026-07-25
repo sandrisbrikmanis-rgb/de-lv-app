@@ -94,12 +94,15 @@
     const primaryPath = manifest.datasets?.[dataset] || null;
     const fallbackPath = manifest.fallbackDatasets?.[dataset]
       || window.AppDatasetRegistry.getLvPath(dataset);
+    const primaryExists = primaryPath ? await pathExists(primaryPath) : false;
 
-    if (primaryPath && await pathExists(primaryPath)) {
+    if (primaryExists) {
       return {
         path: primaryPath,
         dataNativeLanguage: manifest.nativeLanguage,
-        fallbackUsed: false
+        fallbackUsed: false,
+        primaryPath,
+        primaryExists: true
       };
     }
 
@@ -108,6 +111,8 @@
         path: null,
         dataNativeLanguage: null,
         fallbackUsed: false,
+        primaryPath,
+        primaryExists: false,
         error: `Dataset "${dataset}" is not configured for nativeLanguage "${manifest.nativeLanguage}".`
       };
     }
@@ -117,6 +122,8 @@
         path: null,
         dataNativeLanguage: manifest.fallbackNativeLanguage || DEFAULT_FALLBACK_NATIVE,
         fallbackUsed: true,
+        primaryPath,
+        primaryExists: false,
         error: `Dataset file not found for "${dataset}" (primary and fallback missing).`
       };
     }
@@ -124,12 +131,129 @@
     return {
       path: fallbackPath,
       dataNativeLanguage: manifest.fallbackNativeLanguage || DEFAULT_FALLBACK_NATIVE,
-      fallbackUsed: true
+      fallbackUsed: true,
+      primaryPath,
+      primaryExists: false
     };
+  }
+
+  const REQUIRED_NATIVE_DATASETS = ["a1", "a2"];
+  let lastLoadReport = null;
+
+  function buildLoadReport(nativeLanguage, targetLanguage, manifest) {
+    const registryEntry = window.AppLanguageRegistry.get(nativeLanguage);
+    return {
+      nativeLanguage,
+      targetLanguage,
+      manifestPath: registryEntry?.dataManifestPath || null,
+      dataStatus: manifest?.dataStatus || "fallback",
+      datasets: {},
+      errors: [],
+      warnings: [],
+      a1Path: null,
+      a2Path: null,
+      a1Count: Array.isArray(window.A1_WORDS) ? window.A1_WORDS.length : 0,
+      a2Count: Array.isArray(window.A2_WORDS) ? window.A2_WORDS.length : 0,
+      firstA1Native: Array.isArray(window.A1_WORDS) && window.A1_WORDS[0] ? window.A1_WORDS[0].lv : null
+    };
+  }
+
+  async function loadNativeLanguageData(nativeLanguageCode) {
+    const requestedNativeLanguage = nativeLanguageCode;
+    const nativeLanguage = resolveNativeLanguage(nativeLanguageCode);
+    const targetLanguage = getTargetLanguage();
+    const manifest = await ensureManifest(nativeLanguage);
+    const report = buildLoadReport(nativeLanguage, targetLanguage, manifest);
+
+    if (!manifest) {
+      const error = `No manifest available for nativeLanguage "${nativeLanguage}".`;
+      report.errors.push(error);
+      console.error(`[AppDataLoader] ${error}`);
+      lastLoadReport = report;
+      window.__APP_DATA_LOAD_REPORT__ = report;
+      return report;
+    }
+
+    const datasets = window.AppDatasetRegistry.supportedDatasets();
+    for (const dataset of datasets) {
+      const resolved = await resolveDatasetPath(manifest, dataset);
+      if (!resolved.path) {
+        const error = resolved.error || `Dataset "${dataset}" could not be resolved for "${nativeLanguage}".`;
+        report.errors.push(error);
+        console.error(`[AppDataLoader] ${error}`);
+        continue;
+      }
+
+      try {
+        await loadScript(resolved.path);
+        loadedDatasetScripts.add(resolved.path);
+      } catch (error) {
+        const message = `Failed to load dataset "${dataset}" from ${resolved.path}: ${error.message}`;
+        report.errors.push(message);
+        console.error(`[AppDataLoader] ${message}`);
+        if (REQUIRED_NATIVE_DATASETS.includes(dataset) && resolved.dataNativeLanguage === nativeLanguage) {
+          console.error(`[AppDataLoader] Required native dataset "${dataset}" for "${nativeLanguage}" did not load.`);
+        }
+        continue;
+      }
+
+      if (resolved.fallbackUsed) {
+        const warning = `Using fallback dataset for "${dataset}" (${nativeLanguage}): ${resolved.path}`;
+        report.warnings.push(warning);
+        console.warn(`[AppDataLoader] ${warning}`);
+      }
+
+      report.datasets[dataset] = {
+        path: resolved.path,
+        globalName: window.AppDatasetRegistry.getGlobalName(dataset),
+        dataNativeLanguage: resolved.dataNativeLanguage,
+        fallbackUsed: resolved.fallbackUsed,
+        primaryPath: resolved.primaryPath || null,
+        primaryExists: Boolean(resolved.primaryExists)
+      };
+
+      if (dataset === "a1") report.a1Path = resolved.path;
+      if (dataset === "a2") report.a2Path = resolved.path;
+    }
+
+    report.a1Count = Array.isArray(window.A1_WORDS) ? window.A1_WORDS.length : 0;
+    report.a2Count = Array.isArray(window.A2_WORDS) ? window.A2_WORDS.length : 0;
+    report.firstA1Native = Array.isArray(window.A1_WORDS) && window.A1_WORDS[0] ? window.A1_WORDS[0].lv : null;
+
+    if (nativeLanguage !== DEFAULT_FALLBACK_NATIVE) {
+      for (const dataset of REQUIRED_NATIVE_DATASETS) {
+        const entry = report.datasets[dataset];
+        if (entry?.primaryExists) {
+          if (!entry || entry.fallbackUsed || entry.path !== entry.primaryPath) {
+            const error = `Required native dataset "${dataset}" for "${nativeLanguage}" must load from ${entry.primaryPath}, but loaded ${entry?.path || "nothing"}.`;
+            report.errors.push(error);
+            console.error(`[AppDataLoader] ${error}`);
+          }
+        }
+      }
+    }
+
+    lastLoadReport = report;
+    window.__APP_DATA_LOAD_REPORT__ = report;
+    console.info("[AppDataLoader] Active language data loaded", {
+      nativeLanguage: report.nativeLanguage,
+      manifestPath: report.manifestPath,
+      a1Path: report.a1Path,
+      a2Path: report.a2Path,
+      a1Count: report.a1Count,
+      a2Count: report.a2Count,
+      firstA1Native: report.firstA1Native,
+      fallbackWarnings: report.warnings.length,
+      errors: report.errors.length
+    });
+    return report;
   }
 
   window.AppDataLoader = {
     getTargetLanguage,
+    getLastLoadReport() {
+      return lastLoadReport;
+    },
     getSupportedDatasets() {
       return window.AppDatasetRegistry.supportedDatasets();
     },
@@ -149,6 +273,7 @@
         manifest
       };
     },
+    loadNativeLanguageData,
     async loadDataset({ nativeLanguage, targetLanguage, dataset, loadScript: shouldLoadScript = false }) {
       const targetCheck = validateTargetLanguage(targetLanguage);
       if (!targetCheck.ok) {
