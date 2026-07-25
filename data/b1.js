@@ -444,7 +444,7 @@ const B1_WORDS = [
   {
     "de": "Angehörige",
     "de_article": "der",
-    "de_plural": "die Angehörige",
+    "de_plural": "die Angehörigen",
     "lv": "piederīgais",
     "level": "B1"
   },
@@ -3919,7 +3919,7 @@ const B1_WORDS = [
   {
     "de": "Arbeitslosigkeit",
     "de_article": "die",
-    "de_plural": "die Arbeitslosigkeiten",
+    "de_plural": null,
     "lv": "bezdarbs",
     "level": "B1"
   },
@@ -4744,7 +4744,7 @@ const B1_WORDS = [
   {
     "de": "Nudelauflauf",
     "de_article": "der",
-    "de_plural": "die Nudelauflaufe",
+    "de_plural": "die Nudelaufläufe",
     "lv": "makaronu sacepums",
     "level": "B1"
   },
@@ -5753,7 +5753,7 @@ const B1_WORDS = [
   {
     "de": "Bankauszug",
     "de_article": "der",
-    "de_plural": "die Bankauszuge",
+    "de_plural": "die Bankauszüge",
     "lv": "bankas izraksts",
     "level": "B1"
   },
@@ -6096,7 +6096,7 @@ const B1_WORDS = [
   {
     "de": "Beamte",
     "de_article": "der",
-    "de_plural": "die Beamte",
+    "de_plural": "die Beamten",
     "lv": "ierēdnis",
     "level": "B1"
   },
@@ -7105,7 +7105,7 @@ const B1_WORDS = [
   {
     "de": "Behinderte",
     "de_article": "der",
-    "de_plural": "die Behinderte",
+    "de_plural": "die Behinderten",
     "lv": "cilvēks ar invaliditāti",
     "level": "B1"
   },
@@ -10981,7 +10981,7 @@ const B1_WORDS = [
   {
     "de": "Blei",
     "de_article": "das",
-    "de_plural": "die Bleien",
+    "de_plural": null,
     "lv": "svins",
     "level": "B1"
   },
@@ -10998,7 +10998,7 @@ const B1_WORDS = [
   {
     "de": "Blinde",
     "de_article": "der",
-    "de_plural": "die Blinde",
+    "de_plural": "die Blinden",
     "lv": "neredzīgais",
     "level": "B1"
   },
@@ -12474,7 +12474,7 @@ const B1_WORDS = [
   {
     "de": "Chaos",
     "de_article": "das",
-    "de_plural": "die Chaose",
+    "de_plural": null,
     "lv": "haoss",
     "level": "B1"
   },
@@ -20307,7 +20307,7 @@ const B1_WORDS = [
   {
     "de": "Eiskunstlauf",
     "de_article": "der",
-    "de_plural": "die Eiskunstlaufe",
+    "de_plural": "die Eiskunstläufe",
     "lv": "daiļslidošana",
     "level": "B1"
   },
@@ -24886,7 +24886,7 @@ const B1_WORDS = [
   {
     "de": "Freie",
     "de_article": "das",
-    "de_plural": "die Freie",
+    "de_plural": null,
     "lv": "brīva daba",
     "level": "B1"
   },
@@ -24910,7 +24910,7 @@ const B1_WORDS = [
   {
     "de": "Fremde",
     "de_article": "der",
-    "de_plural": "die Fremde",
+    "de_plural": "die Fremden",
     "lv": "svešinieks",
     "level": "B1"
   },
@@ -25966,7 +25966,7 @@ const B1_WORDS = [
   {
     "de": "Geduld",
     "de_article": "die",
-    "de_plural": "die Gedulde",
+    "de_plural": null,
     "lv": "pacietība",
     "level": "B1"
   },
@@ -26000,7 +26000,7 @@ const B1_WORDS = [
   {
     "de": "Gefangene",
     "de_article": "der",
-    "de_plural": "die Gefangene",
+    "de_plural": "die Gefangenen",
     "lv": "gūsteknis",
     "level": "B1"
   },
@@ -28102,7 +28102,7 @@ const B1_WORDS = [
   {
     "de": "Glanz",
     "de_article": "der",
-    "de_plural": "die Glanzen",
+    "de_plural": null,
     "lv": "spožums",
     "level": "B1"
   },
@@ -28131,7 +28131,7 @@ const B1_WORDS = [
   {
     "de": "Glaube",
     "de_article": "der",
-    "de_plural": "die Glaube",
+    "de_plural": "die Glauben",
     "lv": "ticība",
     "level": "B1"
   },
@@ -46630,7 +46630,7 @@ const B1_WORDS = [
   {
     "de": "Reinemachen",
     "de_article": "das",
-    "de_plural": "die Reinemachen",
+    "de_plural": null,
     "lv": "uzkopšana",
     "level": "B1"
   },
@@ -46656,7 +46656,7 @@ const B1_WORDS = [
   {
     "de": "Reisescheck",
     "de_article": "der",
-    "de_plural": "die Reiseschecke",
+    "de_plural": "die Reiseschecks",
     "lv": "ceļojuma čeks",
     "level": "B1"
   },
@@ -46669,7 +46669,7 @@ const B1_WORDS = [
   {
     "de": "Reisende",
     "de_article": "der",
-    "de_plural": "die Reisende",
+    "de_plural": "die Reisenden",
     "lv": "ceļotājs",
     "level": "B1"
   },
@@ -48088,7 +48088,7 @@ const B1_WORDS = [
   {
     "de": "Ruß",
     "de_article": "der",
-    "de_plural": "die Russe",
+    "de_plural": "die Ruße",
     "lv": "kvēpi",
     "level": "B1"
   },
@@ -48419,9 +48419,9 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "Same[n]",
+    "de": "Samen",
     "de_article": "der",
-    "de_plural": "die Same[n]e",
+    "de_plural": "die Samen",
     "lv": "sēkla",
     "level": "B1"
   },
@@ -50322,7 +50322,7 @@ const B1_WORDS = [
   {
     "de": "Schoß",
     "de_article": "der",
-    "de_plural": "die Schosse",
+    "de_plural": "die Schöße",
     "lv": "klēpis",
     "level": "B1"
   },
@@ -51044,7 +51044,7 @@ const B1_WORDS = [
   {
     "de": "Schwule",
     "de_article": "der",
-    "de_plural": "die Schwule",
+    "de_plural": "die Schwulen",
     "lv": "homoseksuālis",
     "level": "B1"
   },
@@ -51077,7 +51077,7 @@ const B1_WORDS = [
   {
     "de": "Seegang",
     "de_article": "der",
-    "de_plural": "die Seegange",
+    "de_plural": null,
     "lv": "jūras viļņošanās",
     "level": "B1"
   },
@@ -51558,7 +51558,7 @@ const B1_WORDS = [
   {
     "de": "Sex",
     "de_article": "der",
-    "de_plural": "die Sexe",
+    "de_plural": null,
     "lv": "sekss",
     "level": "B1"
   },
@@ -53030,7 +53030,7 @@ const B1_WORDS = [
   {
     "de": "Sportfunk",
     "de_article": "der",
-    "de_plural": "die Sportfunke",
+    "de_plural": null,
     "lv": "sporta raidījumi",
     "level": "B1"
   },
@@ -54722,7 +54722,7 @@ const B1_WORDS = [
   {
     "de": "Strichkode",
     "de_article": "der",
-    "de_plural": "die Strichkode",
+    "de_plural": "die Strichkodes",
     "lv": "svītrkods",
     "level": "B1"
   },
@@ -54749,7 +54749,7 @@ const B1_WORDS = [
   {
     "de": "Stroh",
     "de_article": "das",
-    "de_plural": "die Strohe",
+    "de_plural": null,
     "lv": "salmi",
     "level": "B1"
   },
@@ -55590,7 +55590,7 @@ const B1_WORDS = [
   {
     "de": "Tau",
     "de_article": "der",
-    "de_plural": "die Taue",
+    "de_plural": null,
     "lv": "rasa",
     "level": "B1"
   },
@@ -56373,7 +56373,7 @@ const B1_WORDS = [
   {
     "de": "Ton",
     "de_article": "der",
-    "de_plural": "die Tone",
+    "de_plural": "die Töne",
     "lv": "skaņa",
     "level": "B1",
     "study": {
@@ -58378,7 +58378,7 @@ const B1_WORDS = [
   {
     "de": "Ungeduld",
     "de_article": "die",
-    "de_plural": "die Ungedulde",
+    "de_plural": null,
     "lv": "nepacietība",
     "level": "B1"
   },
@@ -60552,7 +60552,7 @@ const B1_WORDS = [
   {
     "de": "Verstand",
     "de_article": "der",
-    "de_plural": "die Verstande",
+    "de_plural": null,
     "lv": "prāts",
     "level": "B1"
   },
@@ -60821,7 +60821,7 @@ const B1_WORDS = [
   {
     "de": "Vieh",
     "de_article": "das",
-    "de_plural": "die Viehe",
+    "de_plural": null,
     "lv": "lopi",
     "level": "B1"
   },
@@ -61135,7 +61135,7 @@ const B1_WORDS = [
   {
     "de": "Vorsitzende",
     "de_article": "der",
-    "de_plural": "die Vorsitzende",
+    "de_plural": "die Vorsitzenden",
     "lv": "priekšsēdētājs",
     "level": "B1"
   },
@@ -61741,7 +61741,7 @@ const B1_WORDS = [
   {
     "de": "Wachstum",
     "de_article": "das",
-    "de_plural": "die Wachsten",
+    "de_plural": null,
     "lv": "augšana",
     "level": "B1"
   },
@@ -62062,7 +62062,7 @@ const B1_WORDS = [
   {
     "de": "Web",
     "de_article": "das",
-    "de_plural": "die Webe",
+    "de_plural": null,
     "lv": "internets",
     "level": "B1"
   },
@@ -62657,7 +62657,7 @@ const B1_WORDS = [
   {
     "de": "Weltraum",
     "de_article": "der",
-    "de_plural": "die Weltraen",
+    "de_plural": null,
     "lv": "kosmoss",
     "level": "B1"
   },
@@ -64462,7 +64462,7 @@ const B1_WORDS = [
   {
     "de": "Steuer",
     "de_article": "das",
-    "de_plural": "die Steuern",
+    "de_plural": "die Steuer",
     "lv": "stūre",
     "level": "B1"
   },
@@ -65760,6 +65760,7 @@ const B1_WORDS = [
   {
     "de": "Erbe",
     "de_article": "der",
+    "de_plural": "die Erben",
     "lv": "mantinieks",
     "level": "B1",
     "study": {

@@ -12069,7 +12069,7 @@ const A1_WORDS = [
   {
     "de": "Knoblauch",
     "de_article": "der",
-    "de_plural": "die Knoblauche",
+    "de_plural": null,
     "lv": "ķiploks",
     "level": "A1"
   },
@@ -17906,7 +17906,7 @@ const A1_WORDS = [
   },
   {
     "de": "Ostern",
-    "lv": "lieldienas",
+    "lv": "Lieldienas",
     "level": "A1"
   },
   {
@@ -23796,7 +23796,7 @@ const A1_WORDS = [
   },
   {
     "de": "Weihnachten",
-    "lv": "ziemassvētki",
+    "lv": "Ziemassvētki",
     "level": "A1"
   },
   {
