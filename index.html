@@ -170,14 +170,21 @@
           <button id="markMasteredBtn" type="button" hidden style="display: none;">100% zinu</button>
           <button class="extra-options-toggle" id="extraOptionsBtn" type="button" aria-expanded="false">Papildu opcijas ▼</button>
           <div class="mobile-extra-options" id="extraOptions" hidden>
+            <div class="desktop-side-group desktop-side-group-settings">
+              <div class="desktop-side-title" id="extraOptionsSettingsTitle">Iestatījumi</div>
+              <button id="appLanguageSettingsBtn" type="button">
+                <span id="appLanguageSettingsLabel">Lietotnes valoda</span>
+                <span class="app-language-current" id="appLanguageCurrentLabel"></span>
+              </button>
+            </div>
             <div class="desktop-side-group desktop-side-group-words">
-              <div class="desktop-side-title">Vārdu pārvaldība</div>
+              <div class="desktop-side-title" id="extraOptionsWordsTitle">Vārdu pārvaldība</div>
               <button id="weeklyReviewBtn" type="button">Nedēļas pārskats</button>
               <button id="monthlyReviewBtn" type="button">Mēneša pārskats</button>
               <button id="restoreBtn" type="button" aria-label="Atgriezt visu"></button>
             </div>
             <div class="desktop-side-group desktop-side-group-stats">
-              <div class="desktop-side-title">Statistika</div>
+              <div class="desktop-side-title" id="extraOptionsStatsTitle">Statistika</div>
               <button id="masteredListBtn" type="button" aria-label="Zināmi"></button>
               <button id="unwantedListBtn" type="button">Nevajadzīgie vārdi</button>
             </div>

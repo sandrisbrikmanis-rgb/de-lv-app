@@ -14,6 +14,13 @@ const store = {
     } catch (error) {
       memoryStore[key] = value;
     }
+  },
+  removeItem(key) {
+    try {
+      window.localStorage.removeItem(key);
+    } catch (error) {
+      delete memoryStore[key];
+    }
   }
 };
 

@@ -2129,9 +2129,13 @@ function handleKurssBack() {
 
 function loadDirection() {
   const saved = store.getItem(directionStorageKey);
-  if (saved === "native-de" || saved === "lv-de") return "native-de";
-  if (saved === "de-native" || saved === "de-lv") return "de-native";
-  return "de-native";
+  let direction = "de-native";
+  if (saved === "native-de" || saved === "lv-de") direction = "native-de";
+  else if (saved === "de-native" || saved === "de-lv") direction = "de-native";
+  if (saved === "de-lv" || saved === "lv-de") {
+    store.setItem(directionStorageKey, direction);
+  }
+  return direction;
 }
 
 function loadAudioAutoplay() {
@@ -6205,21 +6209,21 @@ function renderSpellingControls() {
 
   const card = state.verbMode ? currentVerb() : currentCard();
   const task = currentSpellingTask(card);
-  elements.spellingInput.placeholder = task ? "Ieraksti atbildi" : "";
+  elements.spellingInput.placeholder = task ? t("spelling.writeAnswer") : "";
 
   if (!state.spellingChecked) {
     elements.spellingResult.textContent = "";
   } else if (state.spellingCorrect) {
-    elements.spellingResult.innerHTML = `<div class="spelling-correct-label">${UI_ICONS.correct} Pareizi!</div>`;
+    elements.spellingResult.innerHTML = `<div class="spelling-correct-label">${UI_ICONS.correct} ${escapeHtml(t("spelling.correct"))}</div>`;
   } else if (task) {
     elements.spellingResult.innerHTML = `
-      <div class="spelling-incorrect-label">${UI_ICONS.incorrect} Nepareizi</div>
+      <div class="spelling-incorrect-label">${UI_ICONS.incorrect} ${escapeHtml(t("spelling.incorrect"))}</div>
       <div class="spelling-user-answer">${spellingDiffHtml(state.spellingAnswer, task.expected)}</div>
-      <div class="spelling-expected-label">Pareizi:</div>
+      <div class="spelling-expected-label">${escapeHtml(t("spelling.expectedLabel"))}</div>
       <div class="spelling-expected-answer">${escapeHtml(normalizeTypedAnswer(task.expected))}</div>
     `;
   } else {
-    elements.spellingResult.textContent = `${UI_ICONS.incorrect} Nepareizi`;
+    elements.spellingResult.textContent = `${UI_ICONS.incorrect} ${t("spelling.incorrect")}`;
   }
 }
 
@@ -6240,7 +6244,13 @@ function renderVerbCard() {
 
   if (!verb) {
     elements.cardLevel.className = "verb-headings";
-    elements.cardLevel.innerHTML = "<span>Infinitīvs</span><span>Tagadne</span><span>Imperfekts<br>- Indikatīvs</span><span>Imperfekts<br>- Konjunktīvs</span><span>Pagātnes<br>divdabis</span>";
+    elements.cardLevel.innerHTML = [
+      t("verb.infinitive"),
+      t("verb.present"),
+      t("verb.imperfectIndicative").replace(" - ", "<br>- "),
+      t("verb.imperfectSubjunctive").replace(" - ", "<br>- "),
+      t("verb.pastParticiple").replace(" ", "<br>")
+    ].map((label) => `<span>${label}</span>`).join("");
     elements.word.textContent = state.reviewLastSession
       ? t("notices.lastSessionDone")
       : (state.timeReviewMode
@@ -6251,7 +6261,7 @@ function renderVerbCard() {
       ? t("notices.knownReviewDone")
       : (shouldShowSessionCompleteOverlay()
       ? t("card.sessionComplete")
-      : (groupHasOnlyUnwanted(state.group) ? t("card.noActiveWords") : t("card.noCardsInSession")))))));
+      : (groupHasOnlyUnwanted(state.group) ? t("card.noActiveWords") : t("card.noCardsInSession"))))));
     elements.translation.textContent = "";
     elements.hint.textContent = "";
     updateKnownListBtn();
@@ -6262,12 +6272,12 @@ function renderVerbCard() {
   if (state.spellingMode) {
     const task = currentSpellingTask(verb);
     elements.cardLevel.className = "badge";
-    elements.cardLevel.textContent = "Pareizrakstība · Darbības vārdi";
+    elements.cardLevel.textContent = t("card.spellingVerbs");
     elements.word.textContent = task ? task.front : "";
     elements.translation.textContent = state.spellingChecked && !state.spellingCorrect && task
-      ? `Atbilde: ${task.expected}`
+      ? `${t("card.answerPrefix")} ${task.expected}`
       : "";
-    elements.hint.textContent = task ? task.prompt : "Šim darbības vārdam nav pareizrakstības uzdevuma.";
+    elements.hint.textContent = task ? task.prompt : t("spelling.noVerbTask");
     renderSpellingControls();
     updateKnownListBtn();
     updateSessionCompleteOverlay();
@@ -6277,22 +6287,22 @@ function renderVerbCard() {
   if (state.verbRandomMode) {
     const challenge = currentVerbChallenge(verb);
     elements.cardLevel.className = "badge";
-    elements.cardLevel.textContent = "Darbības vārdi · Jaukts treniņš";
+    elements.cardLevel.textContent = t("card.verbsShuffleTraining");
     elements.word.textContent = challenge ? challenge.show : "";
-    elements.translation.textContent = state.revealed && challenge ? `Atbilde: ${challenge.reveal}` : "";
+    elements.translation.textContent = state.revealed && challenge ? `${t("card.answerPrefix")} ${challenge.reveal}` : "";
     elements.hint.textContent = challenge
-      ? `${challenge.prompt}. Klikšķini uz kartītes, lai redzētu atbildi.`
-      : "Šim darbības vārdam nav pietiekami daudz formu jaukšanai.";
+      ? `${challenge.prompt}. ${t("verb.hintTapAnswer")}`
+      : t("verb.noShuffleForms");
     return;
   }
 
   const forms = verbForms(verb);
   const stages = [
-    { label: "Infinitiv", buttonLabel: "Infinitīvs", value: forms.infinitiv, translation: forms.infinitivLv },
-    { label: "Präsens", buttonLabel: "Tagadne", value: forms.praesens, translation: forms.praesensLv },
-    { label: "Imperfekt Indikativ", buttonLabel: "Imperfekts<br>- Indikatīvs", value: forms.imperfektIndikativ, translation: forms.imperfektIndikativLv },
-    { label: "Imperfekt Konjunktiv", buttonLabel: "Imperfekts<br>- Konjunktīvs", value: forms.imperfektKonjunktiv, translation: forms.imperfektKonjunktivLv },
-    { label: "Partizip der Vergangenheit", buttonLabel: "Pagātnes<br>divdabis", value: forms.partizipVergangenheit, translation: forms.partizipVergangenheitLv }
+    { label: "Infinitiv", buttonLabel: t("verb.infinitive"), value: forms.infinitiv, translation: forms.infinitivLv },
+    { label: "Präsens", buttonLabel: t("verb.present"), value: forms.praesens, translation: forms.praesensLv },
+    { label: "Imperfekt Indikativ", buttonLabel: t("verb.imperfectIndicative").replace(" - ", "<br>- "), value: forms.imperfektIndikativ, translation: forms.imperfektIndikativLv },
+    { label: "Imperfekt Konjunktiv", buttonLabel: t("verb.imperfectSubjunctive").replace(" - ", "<br>- "), value: forms.imperfektKonjunktiv, translation: forms.imperfektKonjunktivLv },
+    { label: "Partizip der Vergangenheit", buttonLabel: t("verb.pastParticiple").replace(" ", "<br>"), value: forms.partizipVergangenheit, translation: forms.partizipVergangenheitLv }
   ];
   const stage = stages[state.verbStep] || stages[0];
 
@@ -6303,16 +6313,42 @@ function renderVerbCard() {
   elements.word.textContent = stage.value;
   setPrimaryCardAudio(null);
   setInlineGermanAudioButtons(null, "");
-  elements.translation.textContent = `Tulkojums: ${stage.translation}`;
+  elements.translation.textContent = stage.translation ? `${t("verb.translationPrefix")} ${stage.translation}` : "";
+  const verbTapHint = t("verb.hintTapSwitch");
   elements.hint.textContent = state.reviewLastSession
-    ? `Pēdējā sesija: ${Math.min(lastSessionReviewDoneCount() + 1, lastSessionReviewTotalCount())} / ${lastSessionReviewTotalCount()}. Klikšķini uz kartītes, lai pārslēgtu formu.`
+    ? t("verb.hintSessionProgress", {
+      label: t("card.lastSessionLabel"),
+      current: Math.min(lastSessionReviewDoneCount() + 1, lastSessionReviewTotalCount()),
+      total: lastSessionReviewTotalCount(),
+      tap: verbTapHint
+    })
     : (state.timeReviewMode
-    ? `${timeConfig.label}: ${state.timeReviewIndex + 1} / ${deck.length}. Klikšķini uz kartītes, lai pārslēgtu formu.`
+    ? t("verb.hintSessionProgress", {
+      label: timeConfig.label,
+      current: state.timeReviewIndex + 1,
+      total: deck.length,
+      tap: verbTapHint
+    })
     : (state.problemMode
-    ? `Problemātiskie: ${state.problemIndex + 1} / ${deck.length}. Klikšķini uz kartītes, lai pārslēgtu formu.`
+    ? t("verb.hintSessionProgress", {
+      label: t("card.problemLabel"),
+      current: state.problemIndex + 1,
+      total: deck.length,
+      tap: verbTapHint
+    })
     : (state.reviewKnown
-    ? `Zināmie: ${state.index + 1} / ${deck.length}. Klikšķini uz kartītes, lai pārslēgtu formu.`
-    : `Sesija: ${Math.min(sessionDoneCount() + 1, sessionTotalCount())} / ${sessionTotalCount()}. Klikšķini uz kartītes, lai pārslēgtu formu.`)));
+    ? t("verb.hintSessionProgress", {
+      label: t("buttons.known"),
+      current: state.index + 1,
+      total: deck.length,
+      tap: verbTapHint
+    })
+    : t("verb.hintSessionProgress", {
+      label: t("card.sessionLabel"),
+      current: Math.min(sessionDoneCount() + 1, sessionTotalCount()),
+      total: sessionTotalCount(),
+      tap: verbTapHint
+    }))));
   updateKnownListBtn();
   updateProblemWordsBtn();
   updateSessionCompleteOverlay();
@@ -7158,16 +7194,16 @@ function render() {
       ? ""
       : (shouldShowSessionCompleteOverlay()
       ? t("card.sessionComplete")
-      : (groupHasOnlyUnwanted(state.group) ? t("card.noActiveWords") : t("card.noCardsInSession"))))))));
+      : (groupHasOnlyUnwanted(state.group) ? t("card.noActiveWords") : t("card.noCardsInSession")))))));
     elements.translation.textContent = "";
     if (state.reviewLastSession || state.timeReviewMode || state.problemMode || state.reviewKnown) {
       elements.hint.textContent = "";
     } else if (shouldShowGroupCompleteOverlay()) {
       elements.hint.textContent = getGroupCompleteTexts(state.group).description;
     } else if (shouldShowSessionCompleteOverlay()) {
-      elements.hint.textContent = "Izvēlies, ko darīt tālāk.";
+      elements.hint.textContent = t("hints.chooseNextStep");
     } else {
-      elements.hint.textContent = "Izvēlies citu režīmu vai atgriezies vēlāk pārskatīšanai.";
+      elements.hint.textContent = t("hints.chooseModeOrReturn");
     }
     updateKnownListBtn();
     updateProblemWordsBtn();
@@ -7219,6 +7255,43 @@ function render() {
   } finally {
     syncTabletDetailLayoutMode(state.verbMode ? null : currentCard());
     syncWordRain();
+  }
+}
+
+function updateKurssStaticLabels() {
+  if (elements.kurssBackBtn && elements.kurssList && !elements.kurssList.hidden) {
+    elements.kurssBackBtn.textContent = t("kurss.back");
+  }
+  if (elements.kurssTitle && elements.kurssList && !elements.kurssList.hidden) {
+    elements.kurssTitle.textContent = t("kurss.title");
+    elements.kurssSubtitle.textContent = t("kurss.subtitle");
+  }
+
+  const kurssItemMap = [
+    ["kurssPronunciationBtn", "kurss.pronunciation", "kurss.pronunciationDesc"],
+    ["kurssArticlesBtn", "kurss.articles", "kurss.articlesDesc"],
+    ["kurssPronounsBtn", "kurss.pronouns", "kurss.pronounsDesc"],
+    ["kurssLessonsBtn", "kurss.lessons", "kurss.lessonsDesc"],
+    ["kurssVerbBasicsBtn", "kurss.verbBasics", "kurss.verbBasicsDesc"],
+    ["kurssSentenceStructureBtn", "kurss.sentenceStructure", "kurss.sentenceStructureDesc"],
+    ["kurssVowelsLessonBtn", "kurss.vowelsTitle", "kurss.vowelsDesc"],
+    ["kurssConsonantsLessonBtn", "kurss.consonantsTitle", "kurss.consonantsDesc"]
+  ];
+  kurssItemMap.forEach(([elementKey, titleKey, descKey]) => {
+    const button = elements[elementKey];
+    if (!button) return;
+    const title = button.querySelector(".kurss-item-title");
+    const desc = button.querySelector(".kurss-item-desc");
+    if (title) title.textContent = t(titleKey);
+    if (desc) desc.textContent = t(descKey);
+  });
+
+  const kurssTip = document.getElementById("kurssTip");
+  if (kurssTip) {
+    const textWrap = kurssTip.querySelector("span:not(.kurss-tip-icon)");
+    if (textWrap) {
+      textWrap.innerHTML = `<strong>${escapeHtml(t("kurss.tipTitle"))}</strong>${escapeHtml(t("kurss.tipBody"))}`;
+    }
   }
 }
 
@@ -7291,6 +7364,17 @@ function applyLocalizedStaticUi() {
   if (elements.kurssBackBtn) elements.kurssBackBtn.setAttribute("aria-label", t("kurss.backToMain"));
   if (elements.kurssCloseBtn) elements.kurssCloseBtn.setAttribute("aria-label", t("kurss.closeCourse"));
 
+  const settingsTitle = document.getElementById("extraOptionsSettingsTitle");
+  if (settingsTitle) settingsTitle.textContent = t("extra.settings");
+  const wordsTitle = document.getElementById("extraOptionsWordsTitle");
+  if (wordsTitle) wordsTitle.textContent = t("extra.wordManagement");
+  const statsTitle = document.getElementById("extraOptionsStatsTitle");
+  if (statsTitle) statsTitle.textContent = t("extra.statistics");
+  const languageSettingsLabel = document.getElementById("appLanguageSettingsLabel");
+  if (languageSettingsLabel) languageSettingsLabel.textContent = t("settings.appLanguage");
+  updateAppLanguageSettingsLabel();
+
+  updateKurssStaticLabels();
   updateKnownListBtn();
   updateRestoreBtnLabel();
   updateDetailToolbarButtons();
@@ -7299,7 +7383,32 @@ function applyLocalizedStaticUi() {
   renderModeButtons();
 }
 
+function updateAppLanguageSettingsLabel() {
+  const currentLabel = document.getElementById("appLanguageCurrentLabel");
+  if (!currentLabel) return;
+  const entry = window.AppI18n?.getLanguageEntry?.();
+  currentLabel.textContent = entry ? entry.nativeName : "";
+}
+
+function refreshAppLanguageUi() {
+  applyLocalizedStaticUi();
+  if (elements.directionLabel) {
+    elements.directionLabel.textContent = directionButtonLabel();
+  }
+  if (state.navScreen === "detail") {
+    renderCard();
+  } else {
+    renderMainMenuButtons();
+  }
+}
+
+window.refreshAppLanguageUi = refreshAppLanguageUi;
+
+let appUiBooted = false;
+
 function bootAppUi() {
+  if (appUiBooted) return;
+  appUiBooted = true;
   applyLocalizedStaticUi();
   initStaticCourseLessons();
   initMobileMenuDebugHelper();
@@ -7451,6 +7560,14 @@ elements.extraOptionsBtn.addEventListener("click", () => {
   elements.extraOptionsBtn.setAttribute("aria-expanded", opening ? "true" : "false");
   elements.extraOptionsBtn.textContent = opening ? t("buttons.extraOptionsClose") : t("buttons.extraOptionsOpen");
 });
+const appLanguageSettingsBtn = document.getElementById("appLanguageSettingsBtn");
+if (appLanguageSettingsBtn) {
+  appLanguageSettingsBtn.addEventListener("click", async () => {
+    if (window.AppLaunch && typeof window.AppLaunch.openLanguagePicker === "function") {
+      await window.AppLaunch.openLanguagePicker();
+    }
+  });
+}
 elements.problemWordsBtn?.addEventListener("click", selectProblemWords);
 elements.weeklyReviewBtn.addEventListener("click", () => openTimeReviewModal("week"));
 elements.monthlyReviewBtn.addEventListener("click", () => openTimeReviewModal("month"));
