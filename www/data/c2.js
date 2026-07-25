@@ -858,7 +858,7 @@ const C2_WORDS = [
   {
     "de": "Geburtenkontrolle",
     "de_article": "die",
-    "de_plural": "die Geburtenkontrolle",
+    "de_plural": "die Geburtenkontrollen",
     "lv": "dzimstības kontrole",
     "level": "C2"
   },

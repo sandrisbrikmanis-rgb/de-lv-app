@@ -766,7 +766,7 @@ const B2_WORDS = [
   {
     "de": "Organbank",
     "de_article": "die",
-    "de_plural": "die Organbanke",
+    "de_plural": "die Organbanken",
     "lv": "orgānu banka",
     "level": "B2"
   },
@@ -794,7 +794,7 @@ const B2_WORDS = [
   {
     "de": "Bankscheck",
     "de_article": "der",
-    "de_plural": "die Bankschecke",
+    "de_plural": "die Bankschecks",
     "lv": "bankas čeks",
     "level": "B2"
   },
@@ -845,7 +845,7 @@ const B2_WORDS = [
   {
     "de": "Militärbasis",
     "de_article": "die",
-    "de_plural": "die Militärbasise",
+    "de_plural": "die Militärbasen",
     "lv": "militārā bāze",
     "level": "B2"
   },
@@ -1445,7 +1445,7 @@ const B2_WORDS = [
   },
   {
     "de": "Betracht",
-    "de_article": "die",
+    "de_article": "der",
     "lv": "vērā ņemšana • apsvēršana",
     "level": "B2"
   },
@@ -1719,7 +1719,7 @@ const B2_WORDS = [
   {
     "de": "Militärblock",
     "de_article": "der",
-    "de_plural": "die Militärblocke",
+    "de_plural": "die Militärblöcke",
     "lv": "militārais bloks",
     "level": "B2"
   },
@@ -2118,7 +2118,7 @@ const B2_WORDS = [
   {
     "de": "Cholera",
     "de_article": "die",
-    "de_plural": "die Cholerae",
+    "de_plural": null,
     "lv": "holera",
     "level": "B2"
   },
@@ -2386,7 +2386,7 @@ const B2_WORDS = [
   {
     "de": "Delegierte",
     "de_article": "der",
-    "de_plural": "die Delegierte",
+    "de_plural": "die Delegierten",
     "lv": "delegāts",
     "level": "B2"
   },
@@ -3226,7 +3226,7 @@ const B2_WORDS = [
   {
     "de": "Ehrenmitglied",
     "de_article": "das",
-    "de_plural": "die Ehrenmitgliede",
+    "de_plural": "die Ehrenmitglieder",
     "lv": "goda biedrs",
     "level": "B2"
   },
@@ -3744,7 +3744,7 @@ const B2_WORDS = [
   {
     "de": "Einstandsgeld",
     "de_article": "das",
-    "de_plural": "die Einstandsgelde",
+    "de_plural": "die Einstandsgelder",
     "lv": "iestāšanās nauda",
     "level": "B2"
   },
@@ -3858,14 +3858,14 @@ const B2_WORDS = [
   {
     "de": "Eisgang",
     "de_article": "der",
-    "de_plural": "die Eisgange",
+    "de_plural": "die Eisgänge",
     "lv": "ledus iešana",
     "level": "B2"
   },
   {
     "de": "Eisschnelllauf",
     "de_article": "der",
-    "de_plural": "die Eisschnelllaufe",
+    "de_plural": "die Eisschnellläufe",
     "lv": "ātrslidošana",
     "level": "B2"
   },
@@ -3903,7 +3903,7 @@ const B2_WORDS = [
   {
     "de": "Empfangschef",
     "de_article": "der",
-    "de_plural": "die Empfangschefe",
+    "de_plural": "die Empfangschefs",
     "lv": "administrators viesnīcā",
     "level": "B2"
   },
@@ -4355,7 +4355,7 @@ const B2_WORDS = [
   {
     "de": "Erbanspruch",
     "de_article": "der",
-    "de_plural": "die Erbanspruche",
+    "de_plural": "die Erbansprüche",
     "lv": "mantojuma tiesības",
     "level": "B2"
   },
@@ -5008,7 +5008,7 @@ const B2_WORDS = [
   {
     "de": "Farbige",
     "de_article": "der",
-    "de_plural": "die Farbige",
+    "de_plural": "die Farbigen",
     "lv": "krāsainais cilvēks",
     "level": "B2"
   },
@@ -5036,7 +5036,7 @@ const B2_WORDS = [
   {
     "de": "Fasanenjagd",
     "de_article": "die",
-    "de_plural": "die Fasanenjagde",
+    "de_plural": "die Fasanenjagden",
     "lv": "fazānu medības",
     "level": "B2"
   },
@@ -5097,7 +5097,7 @@ const B2_WORDS = [
   {
     "de": "Faulbaum",
     "de_article": "der",
-    "de_plural": "die Faulbaen",
+    "de_plural": "die Faulbäume",
     "lv": "ieva",
     "level": "B2"
   },
@@ -5242,7 +5242,7 @@ const B2_WORDS = [
   {
     "de": "Lieferfirma",
     "de_article": "die",
-    "de_plural": "die Lieferfirmae",
+    "de_plural": "die Lieferfirmen",
     "lv": "piegādātājfirma",
     "level": "B2"
   },
@@ -5256,7 +5256,7 @@ const B2_WORDS = [
   {
     "de": "Flaum",
     "de_article": "der",
-    "de_plural": "die Flaen",
+    "de_plural": null,
     "lv": "dūna • pūka",
     "level": "B2"
   },
@@ -5314,7 +5314,7 @@ const B2_WORDS = [
   {
     "de": "Flugfeld",
     "de_article": "das",
-    "de_plural": "die Flugfelde",
+    "de_plural": "die Flugfelder",
     "lv": "lidlauks",
     "level": "B2"
   },
@@ -5380,7 +5380,7 @@ const B2_WORDS = [
   {
     "de": "Studienfonds",
     "de_article": "der",
-    "de_plural": "die Studienfondse",
+    "de_plural": "die Studienfonds",
     "lv": "studiju fonds",
     "level": "B2"
   },
@@ -5517,7 +5517,7 @@ const B2_WORDS = [
   {
     "de": "Frosteinbruch",
     "de_article": "der",
-    "de_plural": "die Frosteinbruche",
+    "de_plural": "die Frosteinbrüche",
     "lv": "sala iestāšanās",
     "level": "B2"
   },
@@ -5919,7 +5919,7 @@ const B2_WORDS = [
   {
     "de": "Geistliche",
     "de_article": "der",
-    "de_plural": "die Geistliche",
+    "de_plural": "die Geistlichen",
     "lv": "garīdznieks",
     "level": "B2"
   },
@@ -5931,7 +5931,7 @@ const B2_WORDS = [
   {
     "de": "Geländelauf",
     "de_article": "der",
-    "de_plural": "die Geländelaufe",
+    "de_plural": "die Geländeläufe",
     "lv": "kross",
     "level": "B2"
   },
@@ -5986,14 +5986,14 @@ const B2_WORDS = [
   {
     "de": "Gelehrte",
     "de_article": "der",
-    "de_plural": "die Gelehrte",
+    "de_plural": "die Gelehrten",
     "lv": "zinātnieks",
     "level": "B2"
   },
   {
     "de": "Geliebte",
     "de_article": "der",
-    "de_plural": "die Geliebte",
+    "de_plural": "die Geliebten",
     "lv": "mīļais • mīļotais • mīļākais",
     "level": "B2"
   },
@@ -6225,7 +6225,7 @@ const B2_WORDS = [
   {
     "de": "Gesandte",
     "de_article": "der",
-    "de_plural": "die Gesandte",
+    "de_plural": "die Gesandten",
     "lv": "sūtnis",
     "level": "B2"
   },
@@ -6244,7 +6244,7 @@ const B2_WORDS = [
   {
     "de": "Geschiedene",
     "de_article": "der",
-    "de_plural": "die Geschiedene",
+    "de_plural": "die Geschiedenen",
     "lv": "šķirtenis",
     "level": "B2"
   },
@@ -6350,7 +6350,7 @@ const B2_WORDS = [
   },
   {
     "de": "Gespött",
-    "de_article": "der",
+    "de_article": "das",
     "lv": "zobošanās",
     "level": "B2"
   },
@@ -6816,7 +6816,7 @@ const B2_WORDS = [
   {
     "de": "Grenzbeamte",
     "de_article": "der",
-    "de_plural": "die Grenzbeamte",
+    "de_plural": "die Grenzbeamten",
     "lv": "robežapsardzes ierēdnis",
     "level": "B2"
   },
@@ -6867,7 +6867,7 @@ const B2_WORDS = [
   },
   {
     "de": "Großmut",
-    "de_article": "der",
+    "de_article": "die",
     "lv": "augstsirdība",
     "level": "B2"
   },
@@ -6907,7 +6907,7 @@ const B2_WORDS = [
   {
     "de": "Gummizug",
     "de_article": "der",
-    "de_plural": "die Gummizuge",
+    "de_plural": "die Gummizüge",
     "lv": "ieveramā gumija",
     "level": "B2"
   },
@@ -6952,7 +6952,7 @@ const B2_WORDS = [
   {
     "de": "Güterversand",
     "de_article": "der",
-    "de_plural": "die Güterversande",
+    "de_plural": null,
     "lv": "preču nosūtīšana",
     "level": "B2"
   },
@@ -7142,7 +7142,7 @@ const B2_WORDS = [
   {
     "de": "Heilige",
     "de_article": "der",
-    "de_plural": "die Heilige",
+    "de_plural": "die Heiligen",
     "lv": "svētais",
     "level": "B2"
   },
@@ -7771,7 +7771,7 @@ const B2_WORDS = [
   {
     "de": "Hochverrat",
     "de_article": "der",
-    "de_plural": "die Hochverrate",
+    "de_plural": null,
     "lv": "valsts nodevība",
     "level": "B2"
   },
@@ -7969,7 +7969,8 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "keuchhusten",
+    "de": "Keuchhusten",
+    "de_article": "der",
     "lv": "garais klepus",
     "level": "B2"
   },
@@ -8080,7 +8081,7 @@ const B2_WORDS = [
   {
     "de": "Konsum",
     "de_article": "der",
-    "de_plural": "die Konsen",
+    "de_plural": null,
     "lv": "patēriņš",
     "level": "B2"
   },
@@ -8190,7 +8191,7 @@ const B2_WORDS = [
   {
     "de": "Landsmann",
     "de_article": "der",
-    "de_plural": "die Landsmänner",
+    "de_plural": "die Landsleute",
     "lv": "tautietis • novadnieks",
     "level": "B2"
   },
@@ -8236,7 +8237,7 @@ const B2_WORDS = [
   {
     "de": "Staffellauf",
     "de_article": "der",
-    "de_plural": "die Staffellaufe",
+    "de_plural": "die Staffelläufe",
     "lv": "stafetes skrējiens",
     "level": "B2"
   },
@@ -8584,7 +8585,7 @@ const B2_WORDS = [
   {
     "de": "Lochband",
     "de_article": "das",
-    "de_plural": "die Lochbande",
+    "de_plural": "die Lochbänder",
     "lv": "perfolente",
     "level": "B2"
   },
@@ -8645,7 +8646,7 @@ const B2_WORDS = [
   {
     "de": "Luftbad",
     "de_article": "das",
-    "de_plural": "die Luftbade",
+    "de_plural": "die Luftbäder",
     "lv": "gaisa pelde",
     "level": "B2"
   },
@@ -8794,14 +8795,14 @@ const B2_WORDS = [
   {
     "de": "Mark",
     "de_article": "das",
-    "de_plural": "die Marke",
+    "de_plural": null,
     "lv": "kaulu smadzenes",
     "level": "B2"
   },
   {
     "de": "Marketing",
     "de_article": "das",
-    "de_plural": "die Marketinge",
+    "de_plural": null,
     "lv": "marketings • tirgzinība",
     "level": "B2"
   },
@@ -8847,7 +8848,7 @@ const B2_WORDS = [
   },
   {
     "de": "Massaker",
-    "de_article": "der",
+    "de_article": "das",
     "de_plural": "die Massaker",
     "lv": "asinspirts",
     "level": "B2"
@@ -8957,7 +8958,7 @@ const B2_WORDS = [
   {
     "de": "Mikrofilm",
     "de_article": "der",
-    "de_plural": "die Mikrofilms",
+    "de_plural": "die Mikrofilme",
     "lv": "mikrofilma",
     "level": "B2"
   },
@@ -9441,14 +9442,14 @@ const B2_WORDS = [
   {
     "de": "Nutzholz",
     "de_article": "das",
-    "de_plural": "die Nutzholze",
+    "de_plural": "die Nutzhölzer",
     "lv": "lietaskoki",
     "level": "B2"
   },
   {
     "de": "Oberhand",
     "de_article": "die",
-    "de_plural": "die Oberhande",
+    "de_plural": null,
     "lv": "virsroka",
     "level": "B2"
   },
@@ -9503,7 +9504,7 @@ const B2_WORDS = [
   {
     "de": "Ökobauer",
     "de_article": "der",
-    "de_plural": "die Ökobauer",
+    "de_plural": "die Ökobauern",
     "lv": "zemnieks, kas ražo ekoloģiski tīru lauksaimniecības produkciju",
     "level": "B2"
   },
@@ -9664,7 +9665,7 @@ const B2_WORDS = [
   {
     "de": "Pachtvertrag",
     "de_article": "der",
-    "de_plural": "die Pachtvertrage",
+    "de_plural": "die Pachtverträge",
     "lv": "nomas līgums",
     "level": "B2"
   },
@@ -9898,7 +9899,7 @@ const B2_WORDS = [
   },
   {
     "de": "Porno",
-    "de_article": "das",
+    "de_article": "der",
     "lv": "pornogrāfiju saturošs darbs",
     "level": "B2"
   },
@@ -9982,7 +9983,7 @@ const B2_WORDS = [
   {
     "de": "Propaganda",
     "de_article": "die",
-    "de_plural": "die Propagandae",
+    "de_plural": null,
     "lv": "propaganda",
     "level": "B2"
   },
@@ -10115,7 +10116,7 @@ const B2_WORDS = [
   {
     "de": "Raumflug",
     "de_article": "der",
-    "de_plural": "die Raumfluge",
+    "de_plural": "die Raumflüge",
     "lv": "lidojums kosmosā • kosmiskais starpplanētu lidojums",
     "level": "B2"
   },
@@ -10514,7 +10515,7 @@ const B2_WORDS = [
   {
     "de": "Schadenersatz",
     "de_article": "der",
-    "de_plural": "die Schadenersatze",
+    "de_plural": null,
     "lv": "materiāla kompensācija par zaudējumiem",
     "level": "B2"
   },
@@ -10744,7 +10745,7 @@ const B2_WORDS = [
   {
     "de": "Schmach",
     "de_article": "die",
-    "de_plural": "die Schmache",
+    "de_plural": null,
     "lv": "kauns • negods",
     "level": "B2"
   },
@@ -11630,7 +11631,7 @@ const B2_WORDS = [
   {
     "de": "Staatenlose",
     "de_article": "der",
-    "de_plural": "die Staatenlose",
+    "de_plural": "die Staatenlosen",
     "lv": "bezpavalstnieks",
     "level": "B2"
   },
@@ -11863,7 +11864,7 @@ const B2_WORDS = [
   {
     "de": "Tagegeld",
     "de_article": "das",
-    "de_plural": "die Tagegelde",
+    "de_plural": "die Tagegelder",
     "lv": "komandējuma dienasnauda",
     "level": "B2"
   },
@@ -12057,7 +12058,7 @@ const B2_WORDS = [
   {
     "de": "Triumphbogen",
     "de_article": "der",
-    "de_plural": "die Triumphbogen",
+    "de_plural": "die Triumphbögen",
     "lv": "triumfa arka",
     "level": "B2"
   },
@@ -12130,7 +12131,7 @@ const B2_WORDS = [
   {
     "de": "Überfluss",
     "de_article": "der",
-    "de_plural": "die Überflusse",
+    "de_plural": null,
     "lv": "pārpilnība",
     "level": "B2"
   },
@@ -13231,7 +13232,7 @@ const B2_WORDS = [
   {
     "de": "Verstorbene",
     "de_article": "der",
-    "de_plural": "die Verstorbene",
+    "de_plural": "die Verstorbenen",
     "lv": "aizgājējs • mirušais",
     "level": "B2"
   },
@@ -13687,7 +13688,7 @@ const B2_WORDS = [
   {
     "de": "Wahlfach",
     "de_article": "das",
-    "de_plural": "die Wahlfache",
+    "de_plural": "die Wahlfächer",
     "lv": "fakultatīvs priekšmets skolā vai augstskolā",
     "level": "B2"
   },
@@ -13924,7 +13925,7 @@ const B2_WORDS = [
   {
     "de": "Werktätige",
     "de_article": "der",
-    "de_plural": "die Werktätige",
+    "de_plural": "die Werktätigen",
     "lv": "strādājošais",
     "level": "B2"
   },
