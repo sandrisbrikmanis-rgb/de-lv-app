@@ -220,5 +220,39 @@ window.LANGUAGE_UI_STRINGS = {
     noVerbTask: "Selle tegusõna jaoks pole õigekirja ülesannet.",
     writeAnswer: "Sisesta vastus"
   },
-  progress: { verbsHeading: "Tegusõnad", courseHeading: "Kursus" }
+  progress: { verbsHeading: "Tegusõnad", courseHeading: "Kursus" },
+  study: {
+    hints: {
+      tapToOpenExplanation: "Klõpsa kaardil, et avada selgitus.",
+      tapToRevealGerman: "Klõpsa kaardil, et näha saksa sõna."
+    },
+    sections: {
+      mainIdea: "Põhiidee",
+      explanation: "Selgitus",
+      examples: "Näited",
+      comparison: "Võrdlus",
+      tip: "Nõuanne",
+      important: "Tähtis",
+      mistakes: "Tüüpilised vead",
+      remember: "Pea meeles",
+      comparisonFocus: "Oluline võrdlus",
+      comparisonBadge: "VÕRDLUSKAART"
+    },
+    table: {
+      word: "Sõna",
+      meaning: "Tähendus",
+      example: "Näide",
+      native: "ET",
+      german: "DE",
+      mainMeaning: "Peamine tähendus",
+      describes: "Kirjeldab",
+      translation: "Tõlge"
+    },
+    minimal: {
+      tipLabel: "Nõuanne:",
+      pluralLabel: "MITM.",
+      formsLabel: "Vormid:",
+      noteLabel: "Märkus:"
+    }
+  }
 };
