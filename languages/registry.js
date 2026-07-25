@@ -1,4 +1,10 @@
 (function () {
+  /**
+   * Dzimto valodu / UI valodu reģistrs.
+   * Šie kodi ir nativeLanguage vērtības, nevis targetLanguage.
+   * Mērķa valoda (targetLanguage) šajā projektā vienmēr ir "de"
+   * un tiek definēta AppLanguageContext.
+   */
   const LANGUAGE_REGISTRY = [
     {
       code: "lv",
@@ -73,6 +79,7 @@
       return Boolean(entry && entry.active);
     },
     defaultCode: "lv",
-    storageKey: "appLanguage"
+    storageKey: "appLanguage",
+    role: "nativeLanguage"
   };
 })();

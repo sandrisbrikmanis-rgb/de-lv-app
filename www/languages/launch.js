@@ -9,6 +9,9 @@
   }
 
   function getSavedLanguage() {
+    if (window.AppLanguageContext && typeof window.AppLanguageContext.readNativeLanguageFromStorage === "function") {
+      return window.AppLanguageContext.readNativeLanguageFromStorage();
+    }
     try {
       const value = window.store?.getItem(STORAGE_KEY);
       return value == null ? null : String(value).trim();
@@ -30,6 +33,10 @@
   }
 
   function saveLanguage(code) {
+    if (window.AppLanguageContext && typeof window.AppLanguageContext.saveNativeLanguageToStorage === "function") {
+      window.AppLanguageContext.saveNativeLanguageToStorage(code);
+      return;
+    }
     window.store.setItem(STORAGE_KEY, code);
   }
 
@@ -174,7 +181,7 @@
     const selectedCode = await waitForLanguageSelection(languageScreen);
     hideLaunchScreen(languageScreen);
 
-    if (!selectedCode || selectedCode === window.AppI18n.getCurrentLanguage()) {
+    if (!selectedCode || selectedCode === window.AppI18n.getNativeLanguage()) {
       return false;
     }
 

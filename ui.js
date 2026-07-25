@@ -15,10 +15,42 @@ function t(key, params) {
 }
 
 function nativeLangCode() {
+  if (window.AppLanguageContext && typeof window.AppLanguageContext.getNativeCode === "function") {
+    return window.AppLanguageContext.getNativeCode();
+  }
   if (window.AppI18n && typeof window.AppI18n.getNativeCode === "function") {
     return window.AppI18n.getNativeCode();
   }
   return "LV";
+}
+
+function targetLangCode() {
+  if (window.AppLanguageContext && typeof window.AppLanguageContext.getTargetCode === "function") {
+    return window.AppLanguageContext.getTargetCode();
+  }
+  if (window.AppI18n && typeof window.AppI18n.getTargetCode === "function") {
+    return window.AppI18n.getTargetCode();
+  }
+  return "DE";
+}
+
+function appLanguagePairLabel() {
+  if (window.AppLanguageContext && typeof window.AppLanguageContext.getLanguagePairLabel === "function") {
+    return window.AppLanguageContext.getLanguagePairLabel();
+  }
+  return `${nativeLangCode()}-${targetLangCode()}`;
+}
+
+function localizedAppTitle() {
+  const pair = appLanguagePairLabel();
+  return String(t("app.title")).replace(/[A-Z]{2,3}-DE\b/g, pair);
+}
+
+function isTargetToNativeDirection(direction = state.direction) {
+  if (window.AppLanguageContext && typeof window.AppLanguageContext.isTargetToNativeDirection === "function") {
+    return window.AppLanguageContext.isTargetToNativeDirection(direction);
+  }
+  return direction === "de-native" || direction === "de-lv";
 }
 
 function getSessionModes() {
@@ -2129,9 +2161,11 @@ function handleKurssBack() {
 
 function loadDirection() {
   const saved = store.getItem(directionStorageKey);
-  let direction = "de-native";
-  if (saved === "native-de" || saved === "lv-de") direction = "native-de";
-  else if (saved === "de-native" || saved === "de-lv") direction = "de-native";
+  const defaultDirection = window.AppLanguageContext?.directionTargetToNative || "de-native";
+  const nativeToTarget = window.AppLanguageContext?.directionNativeToTarget || "native-de";
+  let direction = defaultDirection;
+  if (saved === nativeToTarget || saved === "lv-de") direction = nativeToTarget;
+  else if (saved === defaultDirection || saved === "de-lv") direction = defaultDirection;
   if (saved === "de-lv" || saved === "lv-de") {
     store.setItem(directionStorageKey, direction);
   }
@@ -2493,7 +2527,7 @@ function isDueForReview(status) {
 
 function directionButtonLabel() {
   const code = nativeLangCode();
-  return state.direction === "de-native"
+  return isTargetToNativeDirection()
     ? t("direction.deToNative", { code })
     : t("direction.nativeToDe", { code });
 }
@@ -5689,7 +5723,9 @@ function continueSpelling() {
 }
 
 function toggleDirection() {
-  state.direction = state.direction === "de-native" ? "native-de" : "de-native";
+  const targetToNative = window.AppLanguageContext?.directionTargetToNative || "de-native";
+  const nativeToTarget = window.AppLanguageContext?.directionNativeToTarget || "native-de";
+  state.direction = state.direction === targetToNative ? nativeToTarget : targetToNative;
   state.revealed = false;
   resetSpellingTask();
   saveDirection();
@@ -7300,10 +7336,10 @@ function applyLocalizedStaticUi() {
     window.AppI18n.applyDataI18n(document.getElementById("appRoot") || document);
   }
 
-  document.title = t("app.title");
+  document.title = localizedAppTitle();
 
   const homeHeader = document.querySelector(".home-menu-header h1");
-  if (homeHeader) homeHeader.textContent = t("app.title");
+  if (homeHeader) homeHeader.textContent = localizedAppTitle();
   const homeSubtitle = document.querySelector(".home-menu-header .subtitle");
   if (homeSubtitle) homeSubtitle.textContent = t("app.subtitle");
 
