@@ -7,6 +7,42 @@ function normalizeIdText(text) {
     .replace(/^-+|-+$/g, "");
 }
 
+function t(key, params) {
+  if (window.AppI18n && typeof window.AppI18n.t === "function") {
+    return window.AppI18n.t(key, params);
+  }
+  return key;
+}
+
+function nativeLangCode() {
+  if (window.AppI18n && typeof window.AppI18n.getNativeCode === "function") {
+    return window.AppI18n.getNativeCode();
+  }
+  return "LV";
+}
+
+function getSessionModes() {
+  return {
+    easy: { name: t("modes.easy"), newCount: 5, reviewCount: 5, sessionMax: 10 },
+    normal: { name: t("modes.normal"), newCount: 15, reviewCount: 5, sessionMax: 20 },
+    intense: { name: t("modes.intense"), newCount: 20, reviewCount: 10, sessionMax: 30 }
+  };
+}
+
+function getMainMenuItems() {
+  return [
+    { key: "A1", label: "A1", type: "group" },
+    { key: "A2", label: "A2", type: "group" },
+    { key: "B1", label: "B1", type: "group" },
+    { key: "B2", label: "B2", type: "group" },
+    { key: "C1", label: "C1", type: "group" },
+    { key: "C2", label: "C2", type: "group" },
+    { key: "kurss", label: t("menu.course"), type: "kurss" },
+    { key: "Sätze", label: t("menu.sentences"), type: "group" },
+    { key: "verbs", label: t("menu.verbs"), type: "verbs" }
+  ];
+}
+
 const usedStableIds = new Set();
 
 function buildStableId(card) {
@@ -109,7 +145,11 @@ function buttonWithIcon(iconName, label, iconClass = "ui-icon") {
 }
 
 function modeButtonHtml(mode, sessionMax) {
-  const names = { easy: "Viegls", normal: "Normāls", intense: "Intensīvs" };
+  const names = {
+    easy: t("modes.easy"),
+    normal: t("modes.normal"),
+    intense: t("modes.intense")
+  };
   return `<span class="mode-btn-label"><span class="mode-dot mode-dot--${mode}" aria-hidden="true"></span><span class="mode-btn-text">${escapeHtml(names[mode])} · ${sessionMax}</span></span>`;
 }
 
@@ -125,7 +165,8 @@ const INFO_CARD_ICON_SVGS = {
 };
 
 function infoMockDirectionBtn() {
-  return '<span class="info-mock-btn info-mock-btn--direction"><span class="direction-label">🔄 DE ➔ LV</span></span>';
+  const code = nativeLangCode();
+  return `<span class="info-mock-btn info-mock-btn--direction"><span class="direction-label">${escapeHtml(t("direction.deToNative", { code }))}</span></span>`;
 }
 
 function infoMockToolBtn(iconName, shortLabel) {
@@ -137,11 +178,11 @@ function infoMockModeRow() {
 }
 
 function infoMockActionRow() {
-  return `<span class="info-mock-actions"><span class="info-mock-btn info-mock-btn--known">Zinu pareizi</span><span class="info-mock-btn info-mock-btn--unknown">Nezinu</span><span class="info-mock-btn info-mock-btn--next">Nākamais vārds</span></span>`;
+  return `<span class="info-mock-actions"><span class="info-mock-btn info-mock-btn--known">${escapeHtml(t("buttons.known"))}</span><span class="info-mock-btn info-mock-btn--unknown">${escapeHtml(t("buttons.unknown"))}</span><span class="info-mock-btn info-mock-btn--next">${escapeHtml(t("buttons.next"))}</span></span>`;
 }
 
 function infoMockExtraBtn() {
-  return '<span class="info-mock-btn info-mock-btn--extra">Papildu opcijas ▼</span>';
+  return `<span class="info-mock-btn info-mock-btn--extra">${escapeHtml(t("buttons.extraOptionsOpen"))}</span>`;
 }
 
 function infoFeatureRow(iconHtml, title, bodyHtml) {
@@ -149,15 +190,16 @@ function infoFeatureRow(iconHtml, title, bodyHtml) {
 }
 
 function infoPopupBodyHtml() {
+  const code = nativeLangCode();
   return `<div class="info-feature-list">
-    ${infoFeatureRow(infoMockDirectionBtn(), "Tulkojuma virziens", "Nospied, lai pārslēgtu starp <strong>DE→LV</strong> un <strong>LV→DE</strong>.")}
-    ${infoFeatureRow(infoMockToolBtn("flame", "Probl."), "Problemātiskie vārdi", "Nospied <strong>Probl.</strong>, lai mācītos vārdus, ar kuriem esi kļūdījies. Parastajā plūsmā «Nezinu» pievieno vārdu šeit; šeit «Zinu pareizi» samazina kļūdu pakāpi.")}
-    ${infoFeatureRow(infoMockToolBtn("pen", "Rakst."), "Pareizrakstība", "Nospied <strong>Rakst.</strong>, lai pirms atbildes jāieraksta vārds ar roku.")}
-    ${infoFeatureRow(infoMockModeRow(), "Sesijas intensitāte", "Izvēlies, cik vārdu mācīties vienā sesijā: <strong>Viegls · 10</strong>, <strong>Normāls · 20</strong> vai <strong>Intensīvs · 30</strong>.")}
-    ${infoFeatureRow(INFO_CARD_ICON_SVGS.speaker, "Klausīšanās", "Nospied skaļruņa ikonu kartītē, lai noklausītos izrunu.")}
-    ${infoFeatureRow(INFO_CARD_ICON_SVGS.unwanted, "Nevajadzīgie vārdi", "Nospied pārsvītroto aci kartītes stūrī — vārds pazudīs no plūsmas. Atgriezt vari sadaļā Papildu opcijas.")}
-    ${infoFeatureRow(infoMockActionRow(), "Atbildes", "<strong>Zinu pareizi</strong> — zini atbildi. <strong>Nezinu</strong> — palīdz atcerēties un pievieno problemātiskajiem. <strong>Nākamais vārds</strong> — izlaiž bez vērtējuma.")}
-    ${infoFeatureRow(infoMockExtraBtn(), "Papildu opcijas", "Atver <strong>Papildu opcijas</strong>, lai skatītu nedēļas un mēneša pārskatu, Zināmos vārdus un atgrieztu paslēptos.")}
+    ${infoFeatureRow(infoMockDirectionBtn(), t("info.directionTitle"), t("info.directionBody", { code }))}
+    ${infoFeatureRow(infoMockToolBtn("flame", t("tools.problemShort")), t("info.problemTitle"), t("info.problemBody"))}
+    ${infoFeatureRow(infoMockToolBtn("pen", t("tools.spellingShort")), t("info.spellingTitle"), t("info.spellingBody"))}
+    ${infoFeatureRow(infoMockModeRow(), t("info.intensityTitle"), t("info.intensityBody"))}
+    ${infoFeatureRow(INFO_CARD_ICON_SVGS.speaker, t("info.listeningTitle"), t("info.listeningBody"))}
+    ${infoFeatureRow(INFO_CARD_ICON_SVGS.unwanted, t("info.unwantedTitle"), t("info.unwantedBody"))}
+    ${infoFeatureRow(infoMockActionRow(), t("info.answersTitle"), t("info.answersBody"))}
+    ${infoFeatureRow(infoMockExtraBtn(), t("info.extraTitle"), t("info.extraBody"))}
   </div>`;
 }
 
@@ -233,23 +275,9 @@ const legacyUnwantedStorageKey = "deLvFlashcardsUnwanted";
 const unwantedStorageKey = "deLvFlashcardsExplicitUnwanted";
 const masteredStorageKey = "deLvFlashcardsMastered100";
 const groupCompleteShownStorageKey = "deLvFlashcardsGroupCompleteShown";
-const sessionModes = {
-  easy: { name: "Viegls", newCount: 5, reviewCount: 5, sessionMax: 10 },
-  normal: { name: "Normāls", newCount: 15, reviewCount: 5, sessionMax: 20 },
-  intense: { name: "Intensīvs", newCount: 20, reviewCount: 10, sessionMax: 30 }
-};
+const sessionModes = getSessionModes();
 
-const MAIN_MENU_ITEMS = [
-  { key: "A1", label: "A1", type: "group" },
-  { key: "A2", label: "A2", type: "group" },
-  { key: "B1", label: "B1", type: "group" },
-  { key: "B2", label: "B2", type: "group" },
-  { key: "C1", label: "C1", type: "group" },
-  { key: "C2", label: "C2", type: "group" },
-  { key: "kurss", label: "Kurss", type: "kurss" },
-  { key: "Sätze", label: "Teikumi", type: "group" },
-  { key: "verbs", label: "Darbības vārdi", type: "verbs" }
-];
+const MAIN_MENU_ITEMS = getMainMenuItems();
 
 const state = {
   navScreen: "home",
@@ -1366,9 +1394,9 @@ function hideAllKurssPanels() {
 }
 
 function showKurssMenu() {
-  elements.kurssBackBtn.textContent = "‹ Kurss";
-  elements.kurssTitle.textContent = "Kurss";
-  elements.kurssSubtitle.textContent = "Vācu valodas pamati soli pa solim";
+  elements.kurssBackBtn.textContent = t("kurss.back");
+  elements.kurssTitle.textContent = t("kurss.title");
+  elements.kurssSubtitle.textContent = t("kurss.subtitle");
   hideAllKurssPanels();
   elements.kurssList.hidden = false;
   elements.kurssTip.hidden = false;
@@ -1423,49 +1451,49 @@ function closeKurss() {
 
 function openArticlesLesson() {
   hideAllKurssPanels();
-  elements.kurssTitle.textContent = "Artikuli";
-  elements.kurssSubtitle.textContent = "Der, die, das un lietojuma pamati.";
+  elements.kurssTitle.textContent = t("kurss.articles");
+  elements.kurssSubtitle.textContent = t("kurss.articlesSubtitle");
   elements.kurssArticlesLesson.hidden = false;
   scrollKurssPanelToTop();
 }
 
 function openPronounsLesson() {
   hideAllKurssPanels();
-  elements.kurssTitle.textContent = "Vietniekvārdi";
-  elements.kurssSubtitle.textContent = "Nominativ, Akkusativ un Dativ — vietniekvārdu formas.";
+  elements.kurssTitle.textContent = t("kurss.pronouns");
+  elements.kurssSubtitle.textContent = t("kurss.pronounsSubtitle");
   elements.kurssPronounsLesson.hidden = false;
   scrollKurssPanelToTop();
 }
 
 function openPronunciationLesson() {
   hideAllKurssPanels();
-  elements.kurssTitle.textContent = "Izruna";
-  elements.kurssSubtitle.textContent = "Vācu valodas skaņas un izrunas pamati";
+  elements.kurssTitle.textContent = t("kurss.pronunciation");
+  elements.kurssSubtitle.textContent = t("kurss.pronunciationSubtitle");
   elements.kurssPronunciationMenu.hidden = false;
   scrollKurssPanelToTop();
 }
 
 function openVowelsLesson() {
   hideAllKurssPanels();
-  elements.kurssTitle.textContent = "Izruna";
-  elements.kurssSubtitle.textContent = "Patskaņi — garš un īss";
+  elements.kurssTitle.textContent = t("kurss.pronunciation");
+  elements.kurssSubtitle.textContent = t("kurss.vowelsSubtitle");
   elements.kurssPronunciationLesson.hidden = false;
   scrollKurssPanelToTop();
 }
 
 function openConsonantsLesson() {
   hideAllKurssPanels();
-  elements.kurssTitle.textContent = "Izruna";
-  elements.kurssSubtitle.textContent = "Līdzskaņi un burtu savienojumi";
+  elements.kurssTitle.textContent = t("kurss.pronunciation");
+  elements.kurssSubtitle.textContent = t("kurss.consonantsSubtitle");
   elements.kurssConsonantsLesson.hidden = false;
   scrollKurssPanelToTop();
 }
 
 function openLessonsMenu() {
   hideAllKurssPanels();
-  elements.kurssBackBtn.textContent = "‹ Kurss";
-  elements.kurssTitle.textContent = "Lekcijas";
-  elements.kurssSubtitle.textContent = "Mācību lekcijas secīgā kārtībā no 1 līdz 39.";
+  elements.kurssBackBtn.textContent = t("kurss.back");
+  elements.kurssTitle.textContent = t("kurss.lessons");
+  elements.kurssSubtitle.textContent = t("kurss.lessonsSubtitle");
   elements.kurssLessonsMenu.hidden = false;
   scrollKurssPanelToTop();
 }
@@ -2068,16 +2096,16 @@ function prepareLesson8Accordion() {
 
 function openVerbBasicsLesson() {
   hideAllKurssPanels();
-  elements.kurssTitle.textContent = "Darbības vārdu pamati";
-  elements.kurssSubtitle.textContent = "Personas, formas un biežākie darbības vārdi.";
+  elements.kurssTitle.textContent = t("kurss.verbBasics");
+  elements.kurssSubtitle.textContent = t("kurss.verbBasicsDesc");
   elements.kurssVerbBasicsLesson.hidden = false;
   scrollKurssPanelToTop();
 }
 
 function openSentenceStructureLesson() {
   hideAllKurssPanels();
-  elements.kurssTitle.textContent = "Teikumu uzbūve";
-  elements.kurssSubtitle.textContent = "Vienkārša vārdu secība vācu teikumos.";
+  elements.kurssTitle.textContent = t("kurss.sentenceStructure");
+  elements.kurssSubtitle.textContent = t("kurss.sentenceStructureDesc");
   elements.kurssSentenceStructureLesson.hidden = false;
   scrollKurssPanelToTop();
 }
@@ -2101,7 +2129,13 @@ function handleKurssBack() {
 
 function loadDirection() {
   const saved = store.getItem(directionStorageKey);
-  return saved === "lv-de" ? "lv-de" : "de-lv";
+  let direction = "de-native";
+  if (saved === "native-de" || saved === "lv-de") direction = "native-de";
+  else if (saved === "de-native" || saved === "de-lv") direction = "de-native";
+  if (saved === "de-lv" || saved === "lv-de") {
+    store.setItem(directionStorageKey, direction);
+  }
+  return direction;
 }
 
 function loadAudioAutoplay() {
@@ -2217,13 +2251,17 @@ function updateProblemWordsBtn() {
   if (!elements.problemWordsBtn) return;
   const count = countProblematicWords();
   const compact = detailToolbarCompact();
-  const ariaLabel = count ? `Problemātiskie vārdi (${count})` : "Problemātiskie vārdi";
+  const ariaLabel = count
+    ? t("tools.problemWithCount", { count })
+    : t("tools.problemFull");
   if (compact) {
     const badge = count ? `<span class="detail-tool-badge">${count}</span>` : "";
-    elements.problemWordsBtn.innerHTML = `${compactToolButtonHtml("flame", "Probl.")}${badge}`;
+    elements.problemWordsBtn.innerHTML = `${compactToolButtonHtml("flame", t("tools.problemShort"))}${badge}`;
     elements.problemWordsBtn.classList.remove("ui-btn-with-icon");
   } else {
-    const label = count ? `Problemātiskie vārdi (${count})` : "Problemātiskie vārdi";
+    const label = count
+      ? t("tools.problemWithCount", { count })
+      : t("tools.problemFull");
     elements.problemWordsBtn.innerHTML = buttonWithIcon("flame", label);
     elements.problemWordsBtn.classList.add("ui-btn-with-icon");
   }
@@ -2241,14 +2279,14 @@ function updateDetailToolbarButtons() {
   updateProblemWordsBtn();
   if (!elements.spellingModeBtn) return;
   if (detailToolbarCompact()) {
-    elements.spellingModeBtn.innerHTML = compactToolButtonHtml("pen", "Rakst.");
+    elements.spellingModeBtn.innerHTML = compactToolButtonHtml("pen", t("tools.spellingShort"));
     elements.spellingModeBtn.classList.remove("ui-btn-with-icon");
   } else {
-    elements.spellingModeBtn.innerHTML = buttonWithIcon("pen", "Pareizrakstība");
+    elements.spellingModeBtn.innerHTML = buttonWithIcon("pen", t("tools.spellingFull"));
     elements.spellingModeBtn.classList.add("ui-btn-with-icon");
   }
-  elements.spellingModeBtn.setAttribute("aria-label", "Pareizrakstība");
-  elements.spellingModeBtn.setAttribute("title", "Pareizrakstība");
+  elements.spellingModeBtn.setAttribute("aria-label", t("tools.spellingFull"));
+  elements.spellingModeBtn.setAttribute("title", t("tools.spellingFull"));
   elements.spellingModeBtn.className = state.spellingMode
     ? "detail-tool-icon-btn group-btn active spelling-active"
     : "detail-tool-icon-btn group-btn";
@@ -2454,7 +2492,10 @@ function isDueForReview(status) {
 }
 
 function directionButtonLabel() {
-  return state.direction === "de-lv" ? "🔄 DE ➔ LV" : "🔄 LV ➔ DE";
+  const code = nativeLangCode();
+  return state.direction === "de-native"
+    ? t("direction.deToNative", { code })
+    : t("direction.nativeToDe", { code });
 }
 
 function fisherYatesShuffle(array) {
@@ -2714,13 +2755,13 @@ function totalLearnedCount() {
 function updateKnownListBtn() {
   if (!elements.masteredListBtn) return;
   elements.masteredListBtn.classList.add("ui-btn-with-icon");
-  elements.masteredListBtn.innerHTML = buttonWithIcon("trophy", `Zināmi (${totalLearnedCount()})`);
+  elements.masteredListBtn.innerHTML = buttonWithIcon("trophy", t("buttons.knownWithCount", { count: totalLearnedCount() }));
 }
 
 function updateRestoreBtnLabel() {
   if (!elements.restoreBtn) return;
   elements.restoreBtn.classList.add("ui-btn-with-icon");
-  elements.restoreBtn.innerHTML = buttonWithIcon("warning", "Atgriezt visu", "ui-icon ui-icon--warning");
+  elements.restoreBtn.innerHTML = buttonWithIcon("warning", t("buttons.restoreAll"), "ui-icon ui-icon--warning");
 }
 
 function loadGroupCompleteShown() {
@@ -2751,8 +2792,8 @@ function isGroupFullyLearned(group) {
 function getGroupCompleteTexts(group) {
   const label = groupDisplayLabel(group);
   return {
-    title: `Izcili! ${label} līmenis ir pabeigts! 🎉`,
-    description: "Tu esi apguvis visus šīs grupas vārdus. Laiks spert nākamo soli!"
+    title: t("card.levelCompleteTitle", { label }),
+    description: t("card.levelCompleteDesc")
   };
 }
 
@@ -2841,7 +2882,7 @@ function dismissGroupCompleteOverlay() {
 function chooseAnotherGroupFromComplete() {
   dismissGroupCompleteOverlay();
   goToHomeScreen();
-  setNotice("Izvēlies nākamo grupu galvenajā izvēlnē.");
+  setNotice(t("notices.chooseNextGroup"));
   updateSessionCompleteOverlay();
   render();
 }
@@ -2900,7 +2941,7 @@ function restartCompletedSession() {
   state.verbMode = state.lastCompletedSession.groupKey === "verbs";
   saveSession();
   updateSessionCompleteOverlay();
-  setNotice("Sesija ielādēta no jauna ar jauktu secību.");
+  setNotice(t("notices.sessionReloaded"));
   render();
 }
 
@@ -2936,7 +2977,7 @@ function markSessionAsLearned() {
   resetCardReveal();
   createSession();
   updateSessionCompleteOverlay();
-  setNotice("Sesijas vārdi pārvietoti uz zināmajiem.");
+  setNotice(t("notices.sessionMovedToKnown"));
   render();
 }
 
@@ -2984,7 +3025,7 @@ function problemCardGroupKey(card) {
 }
 
 function problemEmptyMessage() {
-  return "Nav problemātisko vārdu.";
+  return t("notices.noProblems");
 }
 
 function normalizeProblemIndex() {
@@ -3179,30 +3220,43 @@ function learnedWithinDays(status, days) {
 
 function timeReviewConfig() {
   return state.timeReviewMode === "month"
-    ? { days: 30, empty: "Nav iemācītu vārdu mēneša pārskatam.", done: "Mēneša pārskats pabeigts.", label: "Mēneša pārskats" }
-    : { days: 7, empty: "Nav iemācītu vārdu nedēļas pārskatam.", done: "Nedēļas pārskats pabeigts.", label: "Nedēļas pārskats" };
+    ? {
+        days: 30,
+        empty: t("review.monthEmpty"),
+        done: t("review.monthDone"),
+        label: t("review.monthLabel")
+      }
+    : {
+        days: 7,
+        empty: t("review.weekEmpty"),
+        done: t("review.weekDone"),
+        label: t("review.weekLabel")
+      };
 }
 
 function latvianWordCountLabel(count) {
+  if (window.AppI18n && typeof window.AppI18n.wordCountLabel === "function") {
+    return window.AppI18n.wordCountLabel(count);
+  }
   const n = Number(count) || 0;
   const mod10 = n % 10;
   const mod100 = n % 100;
-  if (mod100 >= 11 && mod100 <= 19) return "vārdi";
-  if (mod10 === 1) return "vārds";
-  return "vārdi";
+  if (mod100 >= 11 && mod100 <= 19) return t("plural.wordsMany");
+  if (mod10 === 1) return t("plural.wordOne");
+  return t("plural.wordsFew");
 }
 
 function timeReviewModalConfig(mode) {
   return mode === "month"
     ? {
         days: 30,
-        empty: "Nav iemācītu vārdu mēneša pārskatam.",
-        countTitle: (count) => `Šomēnes iemācīti: ${count} ${latvianWordCountLabel(count)}`
+        empty: t("review.monthEmpty"),
+        countTitle: (count) => t("review.monthCount", { count, words: latvianWordCountLabel(count) })
       }
     : {
         days: 7,
-        empty: "Nav iemācītu vārdu nedēļas pārskatam.",
-        countTitle: (count) => `Šonedēļ iemācīti: ${count} ${latvianWordCountLabel(count)}`
+        empty: t("review.weekEmpty"),
+        countTitle: (count) => t("review.weekCount", { count, words: latvianWordCountLabel(count) })
       };
 }
 
@@ -3258,7 +3312,7 @@ function renderTimeReviewModalContent(container, mode) {
         <span class="modal-level-badge">[${escapeHtml(groupDisplayLabel(entry.level))}]</span>
         <strong>${escapeHtml(entry.de)}</strong>
       </div>
-      <button type="button" class="modal-remove-btn" data-restore-time-review="${escapeHtml(entry.id)}" data-time-review-group="${escapeHtml(entry.groupKey)}">Atgriezt</button>
+      <button type="button" class="modal-remove-btn" data-restore-time-review="${escapeHtml(entry.id)}" data-time-review-group="${escapeHtml(entry.groupKey)}">${escapeHtml(t("buttons.restore"))}</button>
     </div>
   `).join("");
 }
@@ -3283,8 +3337,8 @@ function restoreFromTimeReview(id, groupKey) {
 function openTimeReviewModal(mode) {
   showWordListModal({
     id: "timeReviewModal",
-    title: mode === "month" ? "Mēneša pārskats" : "Nedēļas pārskats",
-    ariaLabel: mode === "month" ? "Mēneša pārskats" : "Nedēļas pārskats",
+    title: mode === "month" ? t("review.monthLabel") : t("review.weekLabel"),
+    ariaLabel: mode === "month" ? t("review.monthLabel") : t("review.weekLabel"),
     listId: "timeReviewList",
     renderContent: (container) => renderTimeReviewModalContent(container, mode),
     onListClick: (event) => {
@@ -3313,13 +3367,13 @@ function ensureInfoPopup() {
   popup.hidden = true;
   popup.setAttribute("role", "dialog");
   popup.setAttribute("aria-modal", "true");
-  popup.setAttribute("aria-label", "Kā tas strādā?");
+  popup.setAttribute("aria-label", t("info.title"));
   popup.innerHTML = `
     <div class="modal-backdrop" aria-hidden="true"></div>
     <div class="modal-content info-popup-content">
       <header class="modal-header">
-        <h2>Kā tas strādā?</h2>
-        <button type="button" class="modal-close" aria-label="Aizvērt">×</button>
+        <h2>${escapeHtml(t("info.title"))}</h2>
+        <button type="button" class="modal-close" aria-label="${escapeHtml(t("buttons.close"))}">×</button>
       </header>
       <div class="info-popup-body">
         ${infoPopupBodyHtml()}
@@ -3393,7 +3447,7 @@ function startTimeReview(mode) {
     })
     .map((card) => idForSessionKey(card, groupKey));
 
-  setNotice(state.timeReviewIds.length ? `Rādām: ${config.label}.` : config.empty);
+  setNotice(state.timeReviewIds.length ? t("notices.showingTimeReview", { label: config.label }) : config.empty);
   render();
 }
 
@@ -3527,7 +3581,7 @@ function spellingCardId(card) {
 
 function spellingVerbOptions(verb) {
   const forms = verbForms(verb);
-  if (state.direction === "de-lv") {
+  if (state.direction === "de-native") {
     return [
       { front: forms.tagadne, prompt: "Uzraksti latviski", expected: forms.tagadneLv },
       { front: forms.nakotne, prompt: "Uzraksti latviski", expected: forms.nakotneLv },
@@ -3559,9 +3613,9 @@ function currentSpellingTask(card) {
   state.spellingTask = {
     id,
     direction: state.direction,
-    front: state.direction === "de-lv" ? formatGermanEntry(card) : card.lv,
-    prompt: state.direction === "de-lv" ? "Uzraksti latviski" : "Uzraksti vāciski",
-    expected: state.direction === "de-lv" ? card.lv : formatGermanEntry(card)
+    front: state.direction === "de-native" ? formatGermanEntry(card) : card.lv,
+    prompt: state.direction === "de-native" ? t("spelling.writeNative") : t("spelling.writeGerman"),
+    expected: state.direction === "de-native" ? card.lv : formatGermanEntry(card)
   };
   return state.spellingTask;
 }
@@ -4321,7 +4375,7 @@ function applyFlashcardSingularAudio(card, autoplayToken, {
   enablePrimaryAudio = true,
   enableAutoplay = true,
 } = {}) {
-  const isGermanToLatvian = state.direction === "de-lv";
+  const isGermanToLatvian = state.direction === "de-native";
   const germanText = formatGermanEntry(card);
   const singularAudioSrc = resolveFlashcardSingularAudioSrc(card, study);
   const label = audioLabel || flashcardGermanAudioLabel(card, germanText, study);
@@ -4414,7 +4468,7 @@ function updateAutoplayButtonUI() {
 function cardAutoplaySessionKey(card) {
   const renderKey = activeCardRenderKey(card);
   if (!renderKey) return null;
-  if (state.direction === "lv-de") {
+  if (state.direction === "native-de") {
     return `${renderKey}:revealed:${state.revealed ? "1" : "0"}`;
   }
   return renderKey;
@@ -4446,7 +4500,7 @@ function getScheduleAutoplaySkipReason(card, autoplayToken, germanOnFront, prefe
 }
 
 function scheduleCardAutoplay(card, autoplayToken = cardAutoplayToken, preferredSrc = null, germanOnFront = null) {
-  const isGermanToLatvian = state.direction === "de-lv";
+  const isGermanToLatvian = state.direction === "de-native";
   const autoplayGermanOnFront = germanOnFront ?? flashcardGermanOnFront(card, isGermanToLatvian, card.study);
   if (getScheduleAutoplaySkipReason(card, autoplayToken, autoplayGermanOnFront, preferredSrc)) return;
   const key = cardAutoplaySessionKey(card);
@@ -4508,7 +4562,7 @@ function renderGermanAlternativesTranslation(alternatives) {
 
 function renderWordCardContent(card, autoplayToken = cardAutoplayToken) {
   beginFlashcardAudioRender(card);
-  const isDeFront = state.direction === "de-lv";
+  const isDeFront = state.direction === "de-native";
   const germanText = formatGermanEntry(card);
   const frontText = isDeFront ? germanText : card.lv;
   const backText = isDeFront ? card.lv : formatGermanArticleAlternative(germanText);
@@ -4813,7 +4867,7 @@ function findCardByQuery(query) {
 
 function showStudyCardNotFoundMessage() {
   const notice = document.createElement("div");
-  notice.textContent = "Kartīte netika atrasta";
+  notice.textContent = t("card.cardNotFound");
   notice.setAttribute("role", "status");
   notice.style.cssText = [
     "position:fixed",
@@ -4945,7 +4999,7 @@ function renderUnwantedList(container) {
   }).filter((item) => item && item.id);
 
   if (!cards.length) {
-    container.innerHTML = `<p class="modal-empty">Nav nevajadzīgo vārdu.</p>`;
+    container.innerHTML = `<p class="modal-empty">${escapeHtml(t("lists.noUnwanted"))}</p>`;
     return;
   }
 
@@ -4955,7 +5009,7 @@ function renderUnwantedList(container) {
         <strong>${escapeHtml(formatGermanEntry(card))} ➔ ${escapeHtml(card.lv)}</strong>
         <span class="modal-level">${escapeHtml(groupDisplayLabel(card.level))}</span>
       </div>
-      <button type="button" class="modal-remove-btn" data-restore-unwanted="${card.id}">Atgriezt</button>
+      <button type="button" class="modal-remove-btn" data-restore-unwanted="${card.id}">${escapeHtml(t("buttons.restore"))}</button>
     </div>
   `).join("");
 }
@@ -5096,7 +5150,7 @@ function getAllLearnedEntries() {
 function renderKnownList(container) {
   const entries = getAllLearnedEntries();
   if (!entries.length) {
-    container.innerHTML = `<p class="modal-empty">Nav iemācīto vārdu.</p>`;
+    container.innerHTML = `<p class="modal-empty">${escapeHtml(t("lists.noLearned"))}</p>`;
     return;
   }
 
@@ -5165,7 +5219,7 @@ function renderMasteredList(container) {
   }).filter((item) => item && item.id);
 
   if (!cards.length) {
-    container.innerHTML = `<p class="modal-empty">Nav 100% zināmo vārdu.</p>`;
+    container.innerHTML = `<p class="modal-empty">${escapeHtml(t("lists.noMastered"))}</p>`;
     return;
   }
 
@@ -5224,13 +5278,13 @@ function addCardToMastered(card) {
 function markCurrentMastered() {
   const card = currentVisibleMasterableCard();
   if (!card) {
-    setNotice("Nav kartītes, ko pievienot 100% zināmajiem.");
+    setNotice(t("notices.noCardForMastered"));
     openMasteredList();
     return;
   }
 
   const added = addCardToMastered(card);
-  setNotice(added ? "Vārds pievienots 100% zināmajiem." : "Vārds jau ir 100% zināmo sarakstā.");
+  setNotice(added ? t("notices.addedMastered") : t("notices.alreadyMastered"));
   openMasteredList();
 }
 
@@ -5250,7 +5304,7 @@ function markCurrentUnwanted() {
   if (state.verbMode) return;
   const card = currentCard();
   if (!card) {
-    setNotice("Nav kartītes, ko atzīmēt kā nevajadzīgu.");
+    setNotice(t("notices.noCardForUnwanted"));
     return;
   }
 
@@ -5273,13 +5327,13 @@ function markCurrentUnwanted() {
   state.order = Object.fromEntries(Object.entries(state.order).map(([key, ids]) => [key, ids.filter((item) => item !== id)]));
   state.revealed = false;
   resetSpellingTask();
-  setNotice("Vārds atzīmēts kā nevajadzīgs.");
+  setNotice(t("notices.markedUnwanted"));
   render();
 }
 
 function markKnown() {
   if (state.spellingMode && !state.spellingCorrect) {
-    setNotice("Vispirms ievadi pareizu atbildi un nospied Pārbaudīt.");
+    setNotice(t("notices.enterAnswerFirst"));
     return;
   }
 
@@ -5294,7 +5348,7 @@ function markKnown() {
 
     updateLastCorrectTimestamp(idForSessionKey(card, activeGroupKey()));
     nextTimeReviewCard();
-    setNotice(currentTimeReviewCard() ? `Turpinām: ${config.label}.` : config.done);
+    setNotice(currentTimeReviewCard() ? t("notices.continueTimeReview", { label: config.label }) : config.done);
     render();
     return;
   }
@@ -5310,9 +5364,9 @@ function markKnown() {
     const id = idForSessionKey(card, problemCardGroupKey(card));
     const graduated = completeProblemCard(id, problemCardGroupKey(card));
     if (graduated) {
-      setNotice(problemDeck().length ? "Vārds pārvietots uz Zināmi!" : "Problemātiskie vārdi izmācīti. Vārds pārvietots uz Zināmi!");
+      setNotice(problemDeck().length ? t("notices.movedToKnown") : t("notices.problemsFinishedMoved"));
     } else {
-      setNotice(problemDeck().length ? "Kļūdu pakāpe samazināta." : problemEmptyMessage());
+      setNotice(problemDeck().length ? t("notices.errorLevelReduced") : problemEmptyMessage());
     }
     render();
     return;
@@ -5321,16 +5375,16 @@ function markKnown() {
   if (state.reviewLastSession) {
     const card = currentLastSessionCard();
     if (!card) {
-      setNotice("Pēdējās sesijas pārskatīšana pabeigta.");
+      setNotice(t("notices.lastSessionDone"));
       render();
       return;
     }
 
     completeLastSessionReviewCard(idForSessionKey(card, state.lastCompletedSession.groupKey));
     if (!currentLastSessionCard()) {
-      setNotice("Pēdējās sesijas pārskatīšana pabeigta.");
+      setNotice(t("notices.lastSessionDone"));
     } else {
-      setNotice("Turpinām pēdējās sesijas pārskatīšanu.");
+      setNotice(t("notices.continueLastSession"));
     }
     render();
     return;
@@ -5338,16 +5392,16 @@ function markKnown() {
 
   if (state.reviewKnown) {
     if (!currentKnownCard()) {
-      setNotice("Zināmo vārdu pārskatīšana pabeigta.");
+      setNotice(t("notices.knownReviewDone"));
       render();
       return;
     }
 
     nextKnownCard();
     if (!currentKnownCard()) {
-      setNotice("Zināmo vārdu pārskatīšana pabeigta.");
+      setNotice(t("notices.knownReviewDone"));
     } else {
-      setNotice("Turpinām zināmo vārdu pārskatīšanu.");
+      setNotice(t("notices.continueKnownReview"));
     }
     render();
     return;
@@ -5356,7 +5410,7 @@ function markKnown() {
   if (state.verbMode) {
     const verb = currentVerb();
     if (!verb) {
-      setNotice("Nav darbības vārdu, ko atzīmēt.");
+      setNotice(t("notices.noVerbToMark"));
       return;
     }
 
@@ -5373,14 +5427,14 @@ function markKnown() {
     recordLearnedTimestamp(id);
     saveProgress();
     completeCurrentSessionCard(id);
-    setNotice("Darbības vārds atzīmēts kā zināms.");
+    setNotice(t("notices.verbMarkedKnown"));
     render();
     return;
   }
 
   const card = currentCard();
   if (!card) {
-    setNotice("Nav kartīšu, ko atzīmēt.");
+    setNotice(t("notices.noCardToMark"));
     return;
   }
 
@@ -5393,7 +5447,7 @@ function markKnown() {
   recordLearnedTimestamp(id);
   saveProgress();
   state.revealed = false;
-  setNotice("Atzīmēts kā zināms.");
+  setNotice(t("notices.markedKnown"));
   completeCurrentSessionCard(id);
   render();
 }
@@ -5403,7 +5457,7 @@ function markUnknown() {
     const card = state.verbMode ? currentVerb() : currentCard();
     const task = currentSpellingTask(card);
     if (!card || !task) {
-      setNotice("Nav kartītes, ko atzīmēt.");
+      setNotice(t("notices.noCard"));
       render();
       return;
     }
@@ -5413,7 +5467,7 @@ function markUnknown() {
     state.spellingChecked = true;
     state.spellingCorrect = false;
     state.revealed = true;
-    setNotice("Atbilde atklāta. Vārds paliek sesijā.");
+    setNotice(t("notices.answerRevealed"));
     render();
     return;
   }
@@ -5436,7 +5490,7 @@ function markUnknown() {
     updateReviewStatus(id, false);
     saveProgress();
     nextTimeReviewCard();
-    setNotice(currentTimeReviewCard() ? "Atgriezts mācīšanās režīmā." : config.done);
+    setNotice(currentTimeReviewCard() ? t("notices.returnedToStudy") : config.done);
     render();
     return;
   }
@@ -5450,7 +5504,7 @@ function markUnknown() {
     }
 
     rotateProblemDeck();
-    setNotice("Atstāts problemātiskajā grupā.");
+    setNotice(t("notices.leftInProblems"));
     render();
     return;
   }
@@ -5458,7 +5512,7 @@ function markUnknown() {
   if (state.reviewLastSession) {
     const card = currentLastSessionCard();
     if (!card) {
-      setNotice("Pēdējās sesijas pārskatīšana pabeigta.");
+      setNotice(t("notices.lastSessionDone"));
       render();
       return;
     }
@@ -5474,9 +5528,9 @@ function markUnknown() {
     saveProgress();
     nextLastSessionCard();
     if (!currentLastSessionCard()) {
-      setNotice("Pēdējās sesijas pārskatīšana pabeigta.");
+      setNotice(t("notices.lastSessionDone"));
     } else {
-      setNotice("Atgriezts mācīšanās režīmā.");
+      setNotice(t("notices.returnedToStudy"));
     }
     render();
     return;
@@ -5485,7 +5539,7 @@ function markUnknown() {
   if (state.reviewKnown) {
     const card = currentKnownCard();
     if (!card) {
-      setNotice("Zināmo vārdu pārskatīšana pabeigta.");
+      setNotice(t("notices.knownReviewDone"));
       render();
       return;
     }
@@ -5504,9 +5558,9 @@ function markUnknown() {
     state.verbStep = 0;
 
     if (!currentKnownCard()) {
-      setNotice("Zināmo vārdu pārskatīšana pabeigta.");
+      setNotice(t("notices.knownReviewDone"));
     } else {
-      setNotice("Atgriezts mācīšanās režīmā.");
+      setNotice(t("notices.returnedToStudy"));
     }
     render();
     return;
@@ -5525,14 +5579,14 @@ function markUnknown() {
     }
     saveProgress();
     rotateSession();
-    setNotice("Atstāts pārskatīšanai.");
+    setNotice(t("notices.leftForReview"));
     render();
     return;
   }
 
   const card = currentCard();
   if (!card) {
-    setNotice("Nav kartīšu, ko atzīmēt.");
+    setNotice(t("notices.noCardToMark"));
     return;
   }
 
@@ -5542,7 +5596,7 @@ function markUnknown() {
   updateReviewStatus(id, false);
   saveProgress();
   state.revealed = true;
-  setNotice("Atstāts pārskatīšanai.");
+  setNotice(t("notices.leftForReview"));
   rotateSession();
   render();
 }
@@ -5579,14 +5633,14 @@ function nextCard() {
 
   if (state.reviewLastSession) {
     if (!currentLastSessionCard()) {
-      setNotice("Pēdējās sesijas pārskatīšana pabeigta.");
+      setNotice(t("notices.lastSessionDone"));
       render();
       return;
     }
 
     nextLastSessionCard();
     if (!currentLastSessionCard()) {
-      setNotice("Pēdējās sesijas pārskatīšana pabeigta.");
+      setNotice(t("notices.lastSessionDone"));
     }
     render();
     return;
@@ -5594,14 +5648,14 @@ function nextCard() {
 
   if (state.reviewKnown) {
     if (!currentKnownCard()) {
-      setNotice("Zināmo vārdu pārskatīšana pabeigta.");
+      setNotice(t("notices.knownReviewDone"));
       render();
       return;
     }
 
     nextKnownCard();
     if (!currentKnownCard()) {
-      setNotice("Zināmo vārdu pārskatīšana pabeigta.");
+      setNotice(t("notices.knownReviewDone"));
     }
     render();
     return;
@@ -5635,7 +5689,7 @@ function continueSpelling() {
 }
 
 function toggleDirection() {
-  state.direction = state.direction === "de-lv" ? "lv-de" : "de-lv";
+  state.direction = state.direction === "de-native" ? "native-de" : "de-native";
   state.revealed = false;
   resetSpellingTask();
   saveDirection();
@@ -5648,7 +5702,7 @@ function toggleVerbRandomMode() {
   state.revealed = false;
   state.verbStep = 0;
   resetVerbChallenge();
-  setNotice(state.verbRandomMode ? "Darbības vārdu jaukšana ieslēgta." : "Darbības vārdu jaukšana izslēgta.");
+  setNotice(state.verbRandomMode ? t("notices.verbShuffleOn") : t("notices.verbShuffleOff"));
   render();
 }
 
@@ -5663,7 +5717,7 @@ function toggleSpellingMode() {
   }
   state.revealed = false;
   resetSpellingTask();
-  setNotice(state.spellingMode ? "Pareizrakstības režīms ieslēgts." : "Pareizrakstības režīms izslēgts.");
+  setNotice(state.spellingMode ? t("notices.spellingOn") : t("notices.spellingOff"));
   render();
 }
 
@@ -5681,7 +5735,7 @@ function reviewKnown() {
     saveSession();
   }
   state.revealed = false;
-  setNotice("Rādām zināmās kartītes.");
+  setNotice(t("notices.showingKnown"));
   render();
 }
 
@@ -5690,7 +5744,7 @@ function selectProblemWords() {
     state.problemMode = false;
     state.problemIndex = 0;
     state.revealed = false;
-    setNotice("Problemātisko vārdu režīms izslēgts.");
+    setNotice(t("notices.problemModeOff"));
     render();
     return;
   }
@@ -5708,13 +5762,13 @@ function selectProblemWords() {
   state.verbIndex = 0;
   state.verbStep = 0;
   state.revealed = false;
-  setNotice(problemDeck().length ? "Rādām problemātiskos vārdus." : problemEmptyMessage());
+  setNotice(problemDeck().length ? t("notices.showingProblems") : problemEmptyMessage());
   render();
 }
 
 function reviewLastSession() {
   if (!state.lastCompletedSession || !Array.isArray(state.lastCompletedSession.ids) || !state.lastCompletedSession.ids.length) {
-    setNotice("Nav pabeigtas sesijas, ko pārskatīt.");
+    setNotice(t("notices.noCompletedSession"));
     return;
   }
 
@@ -5732,7 +5786,7 @@ function reviewLastSession() {
   state.verbStep = 0;
   state.revealed = false;
   state.verbMode = state.lastCompletedSession.groupKey === "verbs";
-  setNotice("Rādām pēdējo pabeigto sesiju.");
+  setNotice(t("notices.showingLastSession"));
   render();
 }
 
@@ -5748,8 +5802,8 @@ function archiveLastSession() {
   saveLastCompletedSession();
   createSession();
   setNotice(state.session && state.session.ids.length
-    ? "Pēdējā sesija atzīmēta kā iemācīta. Ielādēta nākamā sesija."
-    : "Pēdējā sesija atzīmēta kā iemācīta.");
+    ? t("notices.sessionArchivedNext")
+    : t("notices.sessionArchived"));
   render();
 }
 
@@ -5763,19 +5817,19 @@ function ensureRestoreAllConfirmPopup() {
   popup.hidden = true;
   popup.setAttribute("role", "dialog");
   popup.setAttribute("aria-modal", "true");
-  popup.setAttribute("aria-label", "Apstiprināt visu progressa dzēšanu");
+  popup.setAttribute("aria-label", t("restore.ariaLabel"));
   popup.innerHTML = `
     <div class="modal-backdrop" aria-hidden="true"></div>
     <div class="modal-content restore-confirm-content">
       <header class="modal-header">
-        <h2 class="modal-title-with-icon">${appIconSvg("warning", "ui-icon ui-icon--warning")}<span>Atgriezt visu</span></h2>
-        <button type="button" class="modal-close" aria-label="Aizvērt">×</button>
+        <h2 class="modal-title-with-icon">${appIconSvg("warning", "ui-icon ui-icon--warning")}<span>${escapeHtml(t("buttons.restoreAll"))}</span></h2>
+        <button type="button" class="modal-close" aria-label="${escapeHtml(t("buttons.close"))}">×</button>
       </header>
       <div class="restore-confirm-body">
-        <p>Uzmanību! Viss iemācītais progress un vārdu vēsture tiks pilnībā nodzēsta pa nullēm.</p>
+        <p>${escapeHtml(t("restore.warning"))}</p>
         <div class="restore-confirm-actions">
-          <button type="button" class="restore-confirm-btn" id="restoreConfirmBtn">Dzēst</button>
-          <button type="button" class="restore-cancel-btn" id="restoreCancelBtn">Atcelt</button>
+          <button type="button" class="restore-confirm-btn" id="restoreConfirmBtn">${escapeHtml(t("buttons.delete"))}</button>
+          <button type="button" class="restore-cancel-btn" id="restoreCancelBtn">${escapeHtml(t("buttons.cancel"))}</button>
         </div>
       </div>
     </div>
@@ -5814,7 +5868,7 @@ function wipeAllProgress() {
   store.setItem(sessionStorageKey, "null");
   store.setItem(lastCompletedSessionStorageKey, "null");
   store.setItem(groupCompleteShownStorageKey, "{}");
-  store.setItem(directionStorageKey, "de-lv");
+  store.setItem(directionStorageKey, "de-native");
   store.setItem(modeStorageKey, "normal");
   closeRestoreAllConfirm();
   window.location.reload();
@@ -5865,9 +5919,9 @@ function mainMenuCount(item) {
 }
 
 function detailScreenHeading(itemKey) {
-  if (itemKey === "verbs") return "Darbības vārdi";
-  if (itemKey === "kurss") return "Kurss";
-  const match = MAIN_MENU_ITEMS.find((item) => item.key === itemKey);
+  if (itemKey === "verbs") return t("progress.verbsHeading");
+  if (itemKey === "kurss") return t("progress.courseHeading");
+  const match = getMainMenuItems().find((item) => item.key === itemKey);
   return match ? match.label : groupLabel(itemKey);
 }
 
@@ -6055,8 +6109,9 @@ function mainMenuColorClass(index) {
 function renderMainMenuButtons() {
   if (!elements.mainMenuButtons) return;
   elements.mainMenuButtons.innerHTML = "";
+  const menuItems = getMainMenuItems();
 
-  MAIN_MENU_ITEMS.forEach((item, index) => {
+  menuItems.forEach((item, index) => {
     const colorClass = mainMenuColorClass(index);
     const container = document.createElement("div");
     container.className = "menu-button-container";
@@ -6114,7 +6169,7 @@ function renderModeButtons() {
   const showVerbRandomButton = state.verbMode;
   elements.verbRandomBtn.hidden = !showVerbRandomButton;
   elements.verbRandomBtn.style.display = showVerbRandomButton ? "" : "none";
-  elements.verbRandomBtn.textContent = "Jaukt darbības vārdus";
+  elements.verbRandomBtn.textContent = t("buttons.shuffleVerbs");
   elements.verbRandomBtn.className = state.verbRandomMode ? "group-btn active" : "";
   elements.verbRandomBtn.setAttribute("aria-pressed", state.verbRandomMode ? "true" : "false");
   updateDetailToolbarButtons();
@@ -6124,7 +6179,7 @@ function renderModeButtons() {
   if (elements.cardUnwantedBtn) elements.cardUnwantedBtn.hidden = state.verbMode;
   if (elements.cardAutoplayBtn) elements.cardAutoplayBtn.hidden = state.verbMode;
   elements.unwantedListBtn.hidden = state.verbMode;
-  for (const [mode, config] of Object.entries(sessionModes)) {
+  for (const [mode, config] of Object.entries(getSessionModes())) {
     const button = document.createElement("button");
     button.type = "button";
     button.innerHTML = modeButtonHtml(mode, config.sessionMax);
@@ -6154,21 +6209,21 @@ function renderSpellingControls() {
 
   const card = state.verbMode ? currentVerb() : currentCard();
   const task = currentSpellingTask(card);
-  elements.spellingInput.placeholder = task ? "Ieraksti atbildi" : "";
+  elements.spellingInput.placeholder = task ? t("spelling.writeAnswer") : "";
 
   if (!state.spellingChecked) {
     elements.spellingResult.textContent = "";
   } else if (state.spellingCorrect) {
-    elements.spellingResult.innerHTML = `<div class="spelling-correct-label">${UI_ICONS.correct} Pareizi!</div>`;
+    elements.spellingResult.innerHTML = `<div class="spelling-correct-label">${UI_ICONS.correct} ${escapeHtml(t("spelling.correct"))}</div>`;
   } else if (task) {
     elements.spellingResult.innerHTML = `
-      <div class="spelling-incorrect-label">${UI_ICONS.incorrect} Nepareizi</div>
+      <div class="spelling-incorrect-label">${UI_ICONS.incorrect} ${escapeHtml(t("spelling.incorrect"))}</div>
       <div class="spelling-user-answer">${spellingDiffHtml(state.spellingAnswer, task.expected)}</div>
-      <div class="spelling-expected-label">Pareizi:</div>
+      <div class="spelling-expected-label">${escapeHtml(t("spelling.expectedLabel"))}</div>
       <div class="spelling-expected-answer">${escapeHtml(normalizeTypedAnswer(task.expected))}</div>
     `;
   } else {
-    elements.spellingResult.textContent = `${UI_ICONS.incorrect} Nepareizi`;
+    elements.spellingResult.textContent = `${UI_ICONS.incorrect} ${t("spelling.incorrect")}`;
   }
 }
 
@@ -6189,18 +6244,24 @@ function renderVerbCard() {
 
   if (!verb) {
     elements.cardLevel.className = "verb-headings";
-    elements.cardLevel.innerHTML = "<span>Infinitīvs</span><span>Tagadne</span><span>Imperfekts<br>- Indikatīvs</span><span>Imperfekts<br>- Konjunktīvs</span><span>Pagātnes<br>divdabis</span>";
+    elements.cardLevel.innerHTML = [
+      t("verb.infinitive"),
+      t("verb.present"),
+      t("verb.imperfectIndicative").replace(" - ", "<br>- "),
+      t("verb.imperfectSubjunctive").replace(" - ", "<br>- "),
+      t("verb.pastParticiple").replace(" ", "<br>")
+    ].map((label) => `<span>${label}</span>`).join("");
     elements.word.textContent = state.reviewLastSession
-      ? "Pēdējās sesijas pārskatīšana pabeigta."
+      ? t("notices.lastSessionDone")
       : (state.timeReviewMode
       ? (state.timeReviewIds.length ? timeConfig.done : timeConfig.empty)
       : (state.problemMode
       ? problemEmptyMessage()
       : (state.reviewKnown
-      ? "Zināmo vārdu pārskatīšana pabeigta."
+      ? t("notices.knownReviewDone")
       : (shouldShowSessionCompleteOverlay()
-      ? "Sesija pabeigta!"
-      : (groupHasOnlyUnwanted(state.group) ? "Šajā grupā nav aktīvu vārdu." : "Šajā sesijā nav kartīšu.")))));
+      ? t("card.sessionComplete")
+      : (groupHasOnlyUnwanted(state.group) ? t("card.noActiveWords") : t("card.noCardsInSession"))))));
     elements.translation.textContent = "";
     elements.hint.textContent = "";
     updateKnownListBtn();
@@ -6211,12 +6272,12 @@ function renderVerbCard() {
   if (state.spellingMode) {
     const task = currentSpellingTask(verb);
     elements.cardLevel.className = "badge";
-    elements.cardLevel.textContent = "Pareizrakstība · Darbības vārdi";
+    elements.cardLevel.textContent = t("card.spellingVerbs");
     elements.word.textContent = task ? task.front : "";
     elements.translation.textContent = state.spellingChecked && !state.spellingCorrect && task
-      ? `Atbilde: ${task.expected}`
+      ? `${t("card.answerPrefix")} ${task.expected}`
       : "";
-    elements.hint.textContent = task ? task.prompt : "Šim darbības vārdam nav pareizrakstības uzdevuma.";
+    elements.hint.textContent = task ? task.prompt : t("spelling.noVerbTask");
     renderSpellingControls();
     updateKnownListBtn();
     updateSessionCompleteOverlay();
@@ -6226,22 +6287,22 @@ function renderVerbCard() {
   if (state.verbRandomMode) {
     const challenge = currentVerbChallenge(verb);
     elements.cardLevel.className = "badge";
-    elements.cardLevel.textContent = "Darbības vārdi · Jaukts treniņš";
+    elements.cardLevel.textContent = t("card.verbsShuffleTraining");
     elements.word.textContent = challenge ? challenge.show : "";
-    elements.translation.textContent = state.revealed && challenge ? `Atbilde: ${challenge.reveal}` : "";
+    elements.translation.textContent = state.revealed && challenge ? `${t("card.answerPrefix")} ${challenge.reveal}` : "";
     elements.hint.textContent = challenge
-      ? `${challenge.prompt}. Klikšķini uz kartītes, lai redzētu atbildi.`
-      : "Šim darbības vārdam nav pietiekami daudz formu jaukšanai.";
+      ? `${challenge.prompt}. ${t("verb.hintTapAnswer")}`
+      : t("verb.noShuffleForms");
     return;
   }
 
   const forms = verbForms(verb);
   const stages = [
-    { label: "Infinitiv", buttonLabel: "Infinitīvs", value: forms.infinitiv, translation: forms.infinitivLv },
-    { label: "Präsens", buttonLabel: "Tagadne", value: forms.praesens, translation: forms.praesensLv },
-    { label: "Imperfekt Indikativ", buttonLabel: "Imperfekts<br>- Indikatīvs", value: forms.imperfektIndikativ, translation: forms.imperfektIndikativLv },
-    { label: "Imperfekt Konjunktiv", buttonLabel: "Imperfekts<br>- Konjunktīvs", value: forms.imperfektKonjunktiv, translation: forms.imperfektKonjunktivLv },
-    { label: "Partizip der Vergangenheit", buttonLabel: "Pagātnes<br>divdabis", value: forms.partizipVergangenheit, translation: forms.partizipVergangenheitLv }
+    { label: "Infinitiv", buttonLabel: t("verb.infinitive"), value: forms.infinitiv, translation: forms.infinitivLv },
+    { label: "Präsens", buttonLabel: t("verb.present"), value: forms.praesens, translation: forms.praesensLv },
+    { label: "Imperfekt Indikativ", buttonLabel: t("verb.imperfectIndicative").replace(" - ", "<br>- "), value: forms.imperfektIndikativ, translation: forms.imperfektIndikativLv },
+    { label: "Imperfekt Konjunktiv", buttonLabel: t("verb.imperfectSubjunctive").replace(" - ", "<br>- "), value: forms.imperfektKonjunktiv, translation: forms.imperfektKonjunktivLv },
+    { label: "Partizip der Vergangenheit", buttonLabel: t("verb.pastParticiple").replace(" ", "<br>"), value: forms.partizipVergangenheit, translation: forms.partizipVergangenheitLv }
   ];
   const stage = stages[state.verbStep] || stages[0];
 
@@ -6252,16 +6313,42 @@ function renderVerbCard() {
   elements.word.textContent = stage.value;
   setPrimaryCardAudio(null);
   setInlineGermanAudioButtons(null, "");
-  elements.translation.textContent = `Tulkojums: ${stage.translation}`;
+  elements.translation.textContent = stage.translation ? `${t("verb.translationPrefix")} ${stage.translation}` : "";
+  const verbTapHint = t("verb.hintTapSwitch");
   elements.hint.textContent = state.reviewLastSession
-    ? `Pēdējā sesija: ${Math.min(lastSessionReviewDoneCount() + 1, lastSessionReviewTotalCount())} / ${lastSessionReviewTotalCount()}. Klikšķini uz kartītes, lai pārslēgtu formu.`
+    ? t("verb.hintSessionProgress", {
+      label: t("card.lastSessionLabel"),
+      current: Math.min(lastSessionReviewDoneCount() + 1, lastSessionReviewTotalCount()),
+      total: lastSessionReviewTotalCount(),
+      tap: verbTapHint
+    })
     : (state.timeReviewMode
-    ? `${timeConfig.label}: ${state.timeReviewIndex + 1} / ${deck.length}. Klikšķini uz kartītes, lai pārslēgtu formu.`
+    ? t("verb.hintSessionProgress", {
+      label: timeConfig.label,
+      current: state.timeReviewIndex + 1,
+      total: deck.length,
+      tap: verbTapHint
+    })
     : (state.problemMode
-    ? `Problemātiskie: ${state.problemIndex + 1} / ${deck.length}. Klikšķini uz kartītes, lai pārslēgtu formu.`
+    ? t("verb.hintSessionProgress", {
+      label: t("card.problemLabel"),
+      current: state.problemIndex + 1,
+      total: deck.length,
+      tap: verbTapHint
+    })
     : (state.reviewKnown
-    ? `Zināmie: ${state.index + 1} / ${deck.length}. Klikšķini uz kartītes, lai pārslēgtu formu.`
-    : `Sesija: ${Math.min(sessionDoneCount() + 1, sessionTotalCount())} / ${sessionTotalCount()}. Klikšķini uz kartītes, lai pārslēgtu formu.`)));
+    ? t("verb.hintSessionProgress", {
+      label: t("buttons.known"),
+      current: state.index + 1,
+      total: deck.length,
+      tap: verbTapHint
+    })
+    : t("verb.hintSessionProgress", {
+      label: t("card.sessionLabel"),
+      current: Math.min(sessionDoneCount() + 1, sessionTotalCount()),
+      total: sessionTotalCount(),
+      tap: verbTapHint
+    }))));
   updateKnownListBtn();
   updateProblemWordsBtn();
   updateSessionCompleteOverlay();
@@ -6392,7 +6479,7 @@ function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
 
   beginFlashcardAudioRender(card);
 
-  const isGermanToLatvian = state.direction === "de-lv";
+  const isGermanToLatvian = state.direction === "de-native";
   const germanText = formatGermanEntry(card);
   const frontText = isPairedStudy
     ? formatLvDisplay(study.title || study.translation || card.lv)
@@ -7096,27 +7183,27 @@ function render() {
     elements.cardLevel.className = "badge";
     elements.cardLevel.textContent = groupDisplayLabel(state.group);
     elements.word.textContent = state.reviewLastSession
-      ? "Pēdējās sesijas pārskatīšana pabeigta."
+      ? t("notices.lastSessionDone")
       : (state.timeReviewMode
       ? (state.timeReviewIds.length ? timeConfig.done : timeConfig.empty)
       : (state.problemMode
       ? problemEmptyMessage()
       : (state.reviewKnown
-      ? "Zināmo vārdu pārskatīšana pabeigta."
+      ? t("notices.knownReviewDone")
       : (shouldShowGroupCompleteOverlay()
       ? ""
       : (shouldShowSessionCompleteOverlay()
-      ? "Sesija pabeigta!"
-      : (groupHasOnlyUnwanted(state.group) ? "Šajā grupā nav aktīvu vārdu." : "Šajā sesijā nav kartīšu."))))));
+      ? t("card.sessionComplete")
+      : (groupHasOnlyUnwanted(state.group) ? t("card.noActiveWords") : t("card.noCardsInSession")))))));
     elements.translation.textContent = "";
     if (state.reviewLastSession || state.timeReviewMode || state.problemMode || state.reviewKnown) {
       elements.hint.textContent = "";
     } else if (shouldShowGroupCompleteOverlay()) {
       elements.hint.textContent = getGroupCompleteTexts(state.group).description;
     } else if (shouldShowSessionCompleteOverlay()) {
-      elements.hint.textContent = "Izvēlies, ko darīt tālāk.";
+      elements.hint.textContent = t("hints.chooseNextStep");
     } else {
-      elements.hint.textContent = "Izvēlies citu režīmu vai atgriezies vēlāk pārskatīšanai.";
+      elements.hint.textContent = t("hints.chooseModeOrReturn");
     }
     updateKnownListBtn();
     updateProblemWordsBtn();
@@ -7161,7 +7248,7 @@ function render() {
   renderWordCardContent(card, autoplayToken);
   elements.hint.textContent = state.revealed
     ? ""
-    : "Klikšķini uz kartītes, lai redzētu tulkojumu.";
+    : t("hints.tapToReveal");
   updateKnownListBtn();
   updateProblemWordsBtn();
   updateSessionCompleteOverlay();
@@ -7171,14 +7258,184 @@ function render() {
   }
 }
 
-initStaticCourseLessons();
-initMobileMenuDebugHelper();
-initCardAudioInteraction();
-renderMainMenuButtons();
-updateRestoreBtnLabel();
-updateKnownListBtn();
-updateDetailToolbarButtons();
-updateNavScreen();
+function updateKurssStaticLabels() {
+  if (elements.kurssBackBtn && elements.kurssList && !elements.kurssList.hidden) {
+    elements.kurssBackBtn.textContent = t("kurss.back");
+  }
+  if (elements.kurssTitle && elements.kurssList && !elements.kurssList.hidden) {
+    elements.kurssTitle.textContent = t("kurss.title");
+    elements.kurssSubtitle.textContent = t("kurss.subtitle");
+  }
+
+  const kurssItemMap = [
+    ["kurssPronunciationBtn", "kurss.pronunciation", "kurss.pronunciationDesc"],
+    ["kurssArticlesBtn", "kurss.articles", "kurss.articlesDesc"],
+    ["kurssPronounsBtn", "kurss.pronouns", "kurss.pronounsDesc"],
+    ["kurssLessonsBtn", "kurss.lessons", "kurss.lessonsDesc"],
+    ["kurssVerbBasicsBtn", "kurss.verbBasics", "kurss.verbBasicsDesc"],
+    ["kurssSentenceStructureBtn", "kurss.sentenceStructure", "kurss.sentenceStructureDesc"],
+    ["kurssVowelsLessonBtn", "kurss.vowelsTitle", "kurss.vowelsDesc"],
+    ["kurssConsonantsLessonBtn", "kurss.consonantsTitle", "kurss.consonantsDesc"]
+  ];
+  kurssItemMap.forEach(([elementKey, titleKey, descKey]) => {
+    const button = elements[elementKey];
+    if (!button) return;
+    const title = button.querySelector(".kurss-item-title");
+    const desc = button.querySelector(".kurss-item-desc");
+    if (title) title.textContent = t(titleKey);
+    if (desc) desc.textContent = t(descKey);
+  });
+
+  const kurssTip = document.getElementById("kurssTip");
+  if (kurssTip) {
+    const textWrap = kurssTip.querySelector("span:not(.kurss-tip-icon)");
+    if (textWrap) {
+      textWrap.innerHTML = `<strong>${escapeHtml(t("kurss.tipTitle"))}</strong>${escapeHtml(t("kurss.tipBody"))}`;
+    }
+  }
+}
+
+function applyLocalizedStaticUi() {
+  if (window.AppI18n && typeof window.AppI18n.applyDataI18n === "function") {
+    window.AppI18n.applyDataI18n(document.getElementById("appRoot") || document);
+  }
+
+  document.title = t("app.title");
+
+  const homeHeader = document.querySelector(".home-menu-header h1");
+  if (homeHeader) homeHeader.textContent = t("app.title");
+  const homeSubtitle = document.querySelector(".home-menu-header .subtitle");
+  if (homeSubtitle) homeSubtitle.textContent = t("app.subtitle");
+
+  if (elements.navBackBtn) {
+    elements.navBackBtn.setAttribute("aria-label", t("nav.backHome"));
+  }
+  if (elements.infoBtn) {
+    const infoLabel = t("nav.howItWorks");
+    elements.infoBtn.innerHTML = `<span class="info-icon" aria-hidden="true">ⓘ</span> ${escapeHtml(infoLabel)}`;
+  }
+  if (elements.cardUnwantedBtn) {
+    elements.cardUnwantedBtn.setAttribute("aria-label", t("buttons.unwantedWords"));
+    elements.cardUnwantedBtn.setAttribute("title", t("buttons.markUnwanted"));
+  }
+  if (elements.directionBtn) {
+    elements.directionBtn.setAttribute("aria-label", t("info.directionTitle"));
+  }
+  if (elements.problemWordsBtn) {
+    elements.problemWordsBtn.setAttribute("aria-label", t("tools.problemFull"));
+    elements.problemWordsBtn.setAttribute("title", t("tools.problemFull"));
+  }
+  if (elements.spellingModeBtn) {
+    elements.spellingModeBtn.setAttribute("aria-label", t("tools.spellingFull"));
+    elements.spellingModeBtn.setAttribute("title", t("tools.spellingFull"));
+  }
+  if (elements.knownBtn) elements.knownBtn.textContent = t("buttons.known");
+  if (elements.unknownBtn) elements.unknownBtn.textContent = t("buttons.unknown");
+  if (elements.nextBtn) elements.nextBtn.textContent = t("buttons.next");
+  if (elements.checkSpellingBtn) elements.checkSpellingBtn.textContent = t("buttons.check");
+  if (elements.continueSpellingBtn) elements.continueSpellingBtn.textContent = t("buttons.continue");
+  if (elements.weeklyReviewBtn) elements.weeklyReviewBtn.textContent = t("buttons.weeklyReview");
+  if (elements.monthlyReviewBtn) elements.monthlyReviewBtn.textContent = t("buttons.monthlyReview");
+  if (elements.unwantedListBtn) elements.unwantedListBtn.textContent = t("buttons.unwantedWords");
+  if (elements.restartSessionBtn) elements.restartSessionBtn.textContent = t("buttons.restartSession");
+  if (elements.markSessionLearnedBtn) elements.markSessionLearnedBtn.textContent = t("buttons.markSessionLearned");
+  if (elements.chooseAnotherGroupBtn) elements.chooseAnotherGroupBtn.textContent = t("buttons.chooseAnotherGroup");
+  if (elements.hint && !elements.hint.textContent) elements.hint.textContent = t("hints.tapToReveal");
+  if (elements.flashcardPluralRow) {
+    const pluralLabel = elements.flashcardPluralRow.querySelector(".flashcard-plural-label");
+    if (pluralLabel) pluralLabel.textContent = t("card.pluralLabel");
+  }
+  if (elements.sessionCompleteOverlay) {
+    const title = elements.sessionCompleteOverlay.querySelector("h3");
+    if (title) title.textContent = t("card.sessionComplete");
+  }
+  if (elements.groupCompleteTitle && elements.groupCompleteDesc) {
+    const texts = getGroupCompleteTexts(state.group);
+    elements.groupCompleteTitle.textContent = texts.title;
+    elements.groupCompleteDesc.textContent = texts.description;
+  }
+  if (elements.extraOptionsBtn) {
+    const expanded = elements.extraOptionsBtn.getAttribute("aria-expanded") === "true";
+    elements.extraOptionsBtn.textContent = expanded ? t("buttons.extraOptionsClose") : t("buttons.extraOptionsOpen");
+  }
+  if (elements.kurssPanel) {
+    elements.kurssPanel.setAttribute("aria-label", t("kurss.panelLabel"));
+  }
+  if (elements.kurssBackBtn) elements.kurssBackBtn.setAttribute("aria-label", t("kurss.backToMain"));
+  if (elements.kurssCloseBtn) elements.kurssCloseBtn.setAttribute("aria-label", t("kurss.closeCourse"));
+
+  const settingsTitle = document.getElementById("extraOptionsSettingsTitle");
+  if (settingsTitle) settingsTitle.textContent = t("extra.settings");
+  const wordsTitle = document.getElementById("extraOptionsWordsTitle");
+  if (wordsTitle) wordsTitle.textContent = t("extra.wordManagement");
+  const statsTitle = document.getElementById("extraOptionsStatsTitle");
+  if (statsTitle) statsTitle.textContent = t("extra.statistics");
+  const languageSettingsLabel = document.getElementById("appLanguageSettingsLabel");
+  if (languageSettingsLabel) languageSettingsLabel.textContent = t("settings.appLanguage");
+  updateAppLanguageSettingsLabel();
+
+  updateKurssStaticLabels();
+  updateKnownListBtn();
+  updateRestoreBtnLabel();
+  updateDetailToolbarButtons();
+  updateProblemWordsBtn();
+  renderMainMenuButtons();
+  renderModeButtons();
+}
+
+function updateAppLanguageSettingsLabel() {
+  const currentLabel = document.getElementById("appLanguageCurrentLabel");
+  if (!currentLabel) return;
+  const entry = window.AppI18n?.getLanguageEntry?.();
+  currentLabel.textContent = entry ? entry.nativeName : "";
+}
+
+function refreshAppLanguageUi() {
+  applyLocalizedStaticUi();
+  if (elements.directionLabel) {
+    elements.directionLabel.textContent = directionButtonLabel();
+  }
+  if (state.navScreen === "detail") {
+    renderCard();
+  } else {
+    renderMainMenuButtons();
+  }
+}
+
+window.refreshAppLanguageUi = refreshAppLanguageUi;
+
+let appUiBooted = false;
+
+function bootAppUi() {
+  if (appUiBooted) return;
+  appUiBooted = true;
+  applyLocalizedStaticUi();
+  initStaticCourseLessons();
+  initMobileMenuDebugHelper();
+  initCardAudioInteraction();
+  updateNavScreen();
+
+  const studyCardTestParam = new URLSearchParams(window.location.search).get("study")
+    || new URLSearchParams(window.location.search).get("card");
+
+  if (!activateStudyCardTestMode(studyCardTestParam)) {
+    try {
+      if (state.navScreen === "detail") {
+        renderCard();
+      } else {
+        renderMainMenuButtons();
+      }
+    } catch (error) {
+      console.error("Render failed:", error);
+      renderGroupButtons();
+      if (elements.notice) {
+        elements.notice.textContent = t("notices.loadFailed");
+      }
+    }
+  }
+}
+
+window.bootAppUi = bootAppUi;
 
 function syncCardCornerControlsPlacement() {
   const controls = document.querySelector(".card-corner-controls");
@@ -7301,8 +7558,16 @@ elements.extraOptionsBtn.addEventListener("click", () => {
   const opening = elements.extraOptions.hidden;
   elements.extraOptions.hidden = !opening;
   elements.extraOptionsBtn.setAttribute("aria-expanded", opening ? "true" : "false");
-  elements.extraOptionsBtn.textContent = opening ? "Papildu opcijas ▲" : "Papildu opcijas ▼";
+  elements.extraOptionsBtn.textContent = opening ? t("buttons.extraOptionsClose") : t("buttons.extraOptionsOpen");
 });
+const appLanguageSettingsBtn = document.getElementById("appLanguageSettingsBtn");
+if (appLanguageSettingsBtn) {
+  appLanguageSettingsBtn.addEventListener("click", async () => {
+    if (window.AppLaunch && typeof window.AppLaunch.openLanguagePicker === "function") {
+      await window.AppLaunch.openLanguagePicker();
+    }
+  });
+}
 elements.problemWordsBtn?.addEventListener("click", selectProblemWords);
 elements.weeklyReviewBtn.addEventListener("click", () => openTimeReviewModal("week"));
 elements.monthlyReviewBtn.addEventListener("click", () => openTimeReviewModal("month"));
@@ -7330,23 +7595,4 @@ if (elements.chooseAnotherGroupBtn) {
 }
 } catch (error) {
   console.error("UI event binding failed:", error);
-}
-
-const studyCardTestParam = new URLSearchParams(window.location.search).get("study")
-  || new URLSearchParams(window.location.search).get("card");
-
-if (!activateStudyCardTestMode(studyCardTestParam)) {
-  try {
-    if (state.navScreen === "detail") {
-      renderCard();
-    } else {
-      renderMainMenuButtons();
-    }
-  } catch (error) {
-    console.error("Render failed:", error);
-    renderGroupButtons();
-    if (elements.notice) {
-      elements.notice.textContent = "Neizdevās ielādēt kartītes. Pārlādē lapu vai pārbaudi, vai visi datu faili ir pieejami.";
-    }
-  }
 }

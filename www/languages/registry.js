@@ -1,0 +1,78 @@
+(function () {
+  const LANGUAGE_REGISTRY = [
+    {
+      code: "lv",
+      nativeName: "Latviešu",
+      nativeCode: "LV",
+      active: true,
+      hasStudyData: true,
+      uiPath: "./languages/lv/ui.js",
+      dataManifestPath: "./languages/lv/data/manifest.js"
+    },
+    {
+      code: "ru",
+      nativeName: "Русский",
+      nativeCode: "RU",
+      active: true,
+      hasStudyData: false,
+      uiPath: "./languages/ru/ui.js",
+      dataManifestPath: "./languages/ru/data/manifest.js"
+    },
+    {
+      code: "pl",
+      nativeName: "Polski",
+      nativeCode: "PL",
+      active: true,
+      hasStudyData: false,
+      uiPath: "./languages/pl/ui.js",
+      dataManifestPath: "./languages/pl/data/manifest.js"
+    },
+    {
+      code: "uk",
+      nativeName: "Українська",
+      nativeCode: "UK",
+      active: true,
+      hasStudyData: false,
+      uiPath: "./languages/uk/ui.js",
+      dataManifestPath: "./languages/uk/data/manifest.js"
+    },
+    {
+      code: "lt",
+      nativeName: "Lietuvių",
+      nativeCode: "LT",
+      active: true,
+      hasStudyData: false,
+      uiPath: "./languages/lt/ui.js",
+      dataManifestPath: "./languages/lt/data/manifest.js"
+    },
+    {
+      code: "et",
+      nativeName: "Eesti",
+      nativeCode: "ET",
+      active: true,
+      hasStudyData: false,
+      uiPath: "./languages/et/ui.js",
+      dataManifestPath: "./languages/et/data/manifest.js"
+    }
+  ];
+
+  const byCode = Object.fromEntries(LANGUAGE_REGISTRY.map((entry) => [entry.code, entry]));
+
+  window.AppLanguageRegistry = {
+    all() {
+      return LANGUAGE_REGISTRY.slice();
+    },
+    active() {
+      return LANGUAGE_REGISTRY.filter((entry) => entry.active);
+    },
+    get(code) {
+      return byCode[code] || null;
+    },
+    isValid(code) {
+      const entry = byCode[code];
+      return Boolean(entry && entry.active);
+    },
+    defaultCode: "lv",
+    storageKey: "appLanguage"
+  };
+})();
