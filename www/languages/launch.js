@@ -72,6 +72,25 @@
     });
   }
 
+  function hideLaunchScreen(element) {
+    if (!element) return;
+    element.hidden = true;
+    element.setAttribute("aria-hidden", "true");
+  }
+
+  function hideAllLaunchScreens(splash, languageScreen) {
+    hideLaunchScreen(splash);
+    hideLaunchScreen(languageScreen);
+  }
+
+  function revealApplication(appRoot) {
+    document.body.classList.remove("app-launching");
+    if (appRoot) {
+      appRoot.hidden = false;
+      appRoot.removeAttribute("aria-hidden");
+    }
+  }
+
   async function initializeLanguage(code) {
     const activeLanguage = await window.AppI18n.init(code);
     await window.AppDataLoader.init(activeLanguage);
@@ -118,23 +137,23 @@
 
     if (needsLanguagePicker) {
       await minSplashDelay;
-      if (splash) splash.hidden = true;
+      hideLaunchScreen(splash);
       if (languageScreen) {
         languageScreen.hidden = false;
+        languageScreen.removeAttribute("aria-hidden");
         renderLanguageOptions(languageScreen.querySelector("#languageOptionsList"));
         savedLanguage = await waitForLanguageSelection(languageScreen);
         saveLanguage(savedLanguage);
-        languageScreen.hidden = true;
+        hideAllLaunchScreens(splash, languageScreen);
+        revealApplication(appRoot);
       }
       await initializeLanguage(savedLanguage);
     } else {
       const initPromise = initializeLanguage(savedLanguage);
       await Promise.all([minSplashDelay, initPromise]);
-      if (splash) splash.hidden = true;
+      hideAllLaunchScreens(splash, languageScreen);
+      revealApplication(appRoot);
     }
-
-    document.body.classList.remove("app-launching");
-    if (appRoot) appRoot.hidden = false;
 
     bootApplicationOnce();
   }
@@ -145,8 +164,9 @@
 
     renderLanguageOptions(languageScreen.querySelector("#languageOptionsList"));
     languageScreen.hidden = false;
+    languageScreen.removeAttribute("aria-hidden");
     const selectedCode = await waitForLanguageSelection(languageScreen);
-    languageScreen.hidden = true;
+    hideLaunchScreen(languageScreen);
 
     if (!selectedCode || selectedCode === window.AppI18n.getCurrentLanguage()) {
       return false;

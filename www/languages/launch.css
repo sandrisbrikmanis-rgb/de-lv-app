@@ -18,6 +18,12 @@ body.app-launching #appRoot {
   color: #f8fafc;
 }
 
+.app-launch-screen[hidden] {
+  display: none !important;
+  visibility: hidden;
+  pointer-events: none;
+}
+
 .app-splash-screen {
   flex-direction: column;
   gap: 0;
