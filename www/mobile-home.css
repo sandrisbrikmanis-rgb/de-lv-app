@@ -3,6 +3,13 @@
  * Ielādē pēc style.css; darbojas tikai ar .mobile-home-v2 uz mobilā.
  */
 
+body.is-home-screen #homeMenuScreen.mobile-home-v2 .home-menu-language-btn {
+  position: fixed;
+  top: max(12px, env(safe-area-inset-top, 0px));
+  left: max(12px, env(safe-area-inset-left, 0px));
+  z-index: 20;
+}
+
 @media (max-width: 768px) {
   html.is-home-screen,
   html.is-home-screen body,
@@ -158,11 +165,6 @@
   .mobile-home-v2 .mh-ui .menu-button-container,
   .mobile-home-v2 .mh-ui .menu-button-container button {
     pointer-events: auto;
-  }
-
-  .mobile-home-v2 .home-menu-language-btn {
-    top: max(8px, env(safe-area-inset-top, 0px));
-    left: max(10px, env(safe-area-inset-left, 0px));
   }
 
   .mobile-home-v2 .home-menu-header {
@@ -533,11 +535,6 @@
   .mobile-home-v2 .mh-ui .menu-button-container,
   .mobile-home-v2 .mh-ui .menu-button-container button {
     pointer-events: auto;
-  }
-
-  .mobile-home-v2 .home-menu-language-btn {
-    top: max(8px, env(safe-area-inset-top, 0px));
-    left: max(10px, env(safe-area-inset-left, 0px));
   }
 
   .mobile-home-v2 .home-menu-header {

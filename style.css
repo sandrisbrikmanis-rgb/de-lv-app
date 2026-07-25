@@ -8777,10 +8777,10 @@ main,
 }
 
 .home-menu-language-btn {
-  position: absolute;
-  top: 12px;
-  left: 12px;
-  z-index: 3;
+  position: fixed;
+  top: max(12px, env(safe-area-inset-top, 0px));
+  left: max(12px, env(safe-area-inset-left, 0px));
+  z-index: 20;
   flex: 0 0 auto;
   width: 36px;
   min-width: 36px;
@@ -8789,8 +8789,8 @@ main,
   margin: 0;
   padding: 0;
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  background: rgba(0, 0, 0, 0.28);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  background: rgba(255, 255, 255, 0.1);
   color: #ffffff;
   font-size: 1.25rem;
   font-weight: 800;
@@ -8806,8 +8806,8 @@ main,
 
 .home-menu-language-btn:hover,
 .home-menu-language-btn:focus-visible {
-  border-color: rgba(255, 255, 255, 0.34);
-  background: rgba(0, 0, 0, 0.4);
+  border-color: rgba(255, 255, 255, 0.42);
+  background: rgba(255, 255, 255, 0.16);
   outline: none;
 }
 
@@ -9021,6 +9021,7 @@ body.is-home-screen .home-app-shell {
     pointer-events: none;
   }
 
+  .mobile-level-menu-content .home-menu-language-btn,
   .mobile-level-menu-content .home-menu-header,
   .mobile-level-menu-content .home-menu-groups,
   .mobile-level-menu-content .menu-button-container,
