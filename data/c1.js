@@ -1240,7 +1240,7 @@ const C1_WORDS = [
   {
     "de": "Vorgesetzte",
     "de_article": "der",
-    "de_plural": "die Vorgesetzte",
+    "de_plural": "die Vorgesetzten",
     "lv": "priekšnieks",
     "level": "C1"
   },
@@ -1535,7 +1535,7 @@ const C1_WORDS = [
   {
     "de": "Abgeordnete",
     "de_article": "der",
-    "de_plural": "die Abgeordnete",
+    "de_plural": "die Abgeordneten",
     "lv": "deputāts • pārstāvis • delegāts",
     "level": "C1"
   },
@@ -1848,7 +1848,7 @@ const C1_WORDS = [
   {
     "de": "Blutsverwandte",
     "de_article": "der",
-    "de_plural": "die Blutsverwandte",
+    "de_plural": "die Blutsverwandten",
     "lv": "asinsradinieks",
     "level": "C1"
   },
@@ -1862,7 +1862,7 @@ const C1_WORDS = [
   {
     "de": "Bundesdeutsche",
     "de_article": "der",
-    "de_plural": "die Bundesdeutsche",
+    "de_plural": "die Bundesdeutschen",
     "lv": "VFR pilsonis vai pilsone",
     "level": "C1"
   },
@@ -2095,7 +2095,7 @@ const C1_WORDS = [
   {
     "de": "Einstandsgebühr",
     "de_article": "die",
-    "de_plural": "die Einstandsgebührs",
+    "de_plural": "die Einstandsgebühren",
     "lv": "iestāšanās maksa",
     "level": "C1"
   },
@@ -2422,7 +2422,7 @@ const C1_WORDS = [
   {
     "de": "Geländefahrt",
     "de_article": "die",
-    "de_plural": "die Geländefahrts",
+    "de_plural": "die Geländefahrten",
     "lv": "motokross",
     "level": "C1"
   },
@@ -3337,7 +3337,7 @@ const C1_WORDS = [
   {
     "de": "Staatsangehörige",
     "de_article": "der",
-    "de_plural": "die Staatsangehörige",
+    "de_plural": "die Staatsangehörigen",
     "lv": "pavalstnieks",
     "level": "C1"
   },

@@ -12069,7 +12069,7 @@ const A1_WORDS = [
   {
     "de": "Knoblauch",
     "de_article": "der",
-    "de_plural": "die Knoblauche",
+    "de_plural": null,
     "lv": "ķiploks",
     "level": "A1"
   },

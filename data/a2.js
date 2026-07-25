@@ -2738,7 +2738,7 @@ const A2_WORDS = [
   {
     "de": "Aerobic",
     "de_article": "die",
-    "de_plural": "die Aerobice",
+    "de_plural": null,
     "lv": "aerobika",
     "level": "A2"
   },
@@ -5393,7 +5393,7 @@ const A2_WORDS = [
   {
     "de": "Ärger",
     "de_article": "der",
-    "de_plural": "die Ärger",
+    "de_plural": null,
     "lv": "dusmas • kaitinājums",
     "level": "A2"
   },
@@ -18195,7 +18195,7 @@ const A2_WORDS = [
   {
     "de": "Bowling",
     "de_article": "das",
-    "de_plural": "die Bowlinge",
+    "de_plural": "die Bowlings",
     "lv": "boulings",
     "level": "A2"
   },
@@ -29233,7 +29233,7 @@ const A2_WORDS = [
   {
     "de": "Eishockey",
     "de_article": "das",
-    "de_plural": "die Eishockeye",
+    "de_plural": null,
     "lv": "hokejs uz ledus",
     "level": "A2"
   },
@@ -29247,7 +29247,7 @@ const A2_WORDS = [
   {
     "de": "Eislauf",
     "de_article": "der",
-    "de_plural": "die Eislaufe",
+    "de_plural": null,
     "lv": "slidošana",
     "level": "A2"
   },
@@ -38746,7 +38746,7 @@ const A2_WORDS = [
   {
     "de": "Hockey",
     "de_article": "das",
-    "de_plural": "die Hockeye",
+    "de_plural": null,
     "lv": "hokejs",
     "level": "A2"
   },
@@ -40531,7 +40531,7 @@ const A2_WORDS = [
   {
     "de": "Kartoffelchips",
     "de_article": "die",
-    "de_plural": "die Kartoffelchipse",
+    "de_plural": "die Kartoffelchips",
     "lv": "kartupeļu čipsi",
     "level": "A2"
   },
@@ -42763,7 +42763,7 @@ const A2_WORDS = [
   {
     "de": "Kleingeld",
     "de_article": "das",
-    "de_plural": "die Kleingelde",
+    "de_plural": null,
     "lv": "sīknauda",
     "level": "A2"
   },
@@ -44498,7 +44498,7 @@ const A2_WORDS = [
   },
   {
     "de": "Laken",
-    "de_article": "der",
+    "de_article": "das",
     "de_plural": "die Laken",
     "lv": "palags",
     "level": "A2"
@@ -46335,7 +46335,7 @@ const A2_WORDS = [
   {
     "de": "Mathematik",
     "de_article": "die",
-    "de_plural": "die Mathematiken",
+    "de_plural": null,
     "lv": "matemātika",
     "level": "A2"
   },
@@ -50270,7 +50270,7 @@ const A2_WORDS = [
   {
     "de": "Physik",
     "de_article": "die",
-    "de_plural": "die Physiken",
+    "de_plural": null,
     "lv": "fizika",
     "level": "A2"
   },
@@ -50939,7 +50939,7 @@ const A2_WORDS = [
     }
   },
   {
-    "de": "rasieren",
+    "de": "sich rasieren",
     "lv": "skūties",
     "level": "A2"
   },
@@ -68783,7 +68783,7 @@ const A2_WORDS = [
   {
     "de": "Wäsche",
     "de_article": "die",
-    "de_plural": "die Wäschen",
+    "de_plural": null,
     "lv": "veļa",
     "level": "A2"
   },
@@ -69427,7 +69427,7 @@ const A2_WORDS = [
   {
     "de": "Werbung",
     "de_article": "die",
-    "de_plural": "die Werbungen",
+    "de_plural": null,
     "lv": "reklāma",
     "level": "A2"
   },
