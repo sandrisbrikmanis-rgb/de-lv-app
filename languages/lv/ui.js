@@ -253,5 +253,39 @@ window.LANGUAGE_UI_STRINGS = {
   progress: {
     verbsHeading: "Darbības vārdi",
     courseHeading: "Kurss"
+  },
+  study: {
+    hints: {
+      tapToOpenExplanation: "Klikšķini uz kartītes, lai atvērtu skaidrojumu.",
+      tapToRevealGerman: "Klikšķini uz kartītes, lai redzētu vācu vārdu."
+    },
+    sections: {
+      mainIdea: "Galvenā doma",
+      explanation: "Skaidrojums",
+      examples: "Piemēri",
+      comparison: "Salīdzinājums",
+      tip: "Padoms",
+      important: "Svarīgi",
+      mistakes: "Tipiskās kļūdas",
+      remember: "Atceries",
+      comparisonFocus: "Svarīgs salīdzinājums",
+      comparisonBadge: "SALĪDZINĀJUMA KARTĪTE"
+    },
+    table: {
+      word: "Vārds",
+      meaning: "Nozīme",
+      example: "Piemērs",
+      native: "LV",
+      german: "DE",
+      mainMeaning: "Galvenā nozīme",
+      describes: "Raksturo",
+      translation: "Tulkojums"
+    },
+    minimal: {
+      tipLabel: "Padoms:",
+      pluralLabel: "DAUDZSK.",
+      formsLabel: "Formas:",
+      noteLabel: "Norāde:"
+    }
   }
 };

@@ -220,5 +220,39 @@ window.LANGUAGE_UI_STRINGS = {
     noVerbTask: "Для цього дієслова немає завдання з правопису.",
     writeAnswer: "Введіть відповідь"
   },
-  progress: { verbsHeading: "Дієслова", courseHeading: "Курс" }
+  progress: { verbsHeading: "Дієслова", courseHeading: "Курс" },
+  study: {
+    hints: {
+      tapToOpenExplanation: "Натисніть на картку, щоб відкрити пояснення.",
+      tapToRevealGerman: "Натисніть на картку, щоб побачити німецьке слово."
+    },
+    sections: {
+      mainIdea: "Головна думка",
+      explanation: "Пояснення",
+      examples: "Приклади",
+      comparison: "Порівняння",
+      tip: "Порада",
+      important: "Важливо",
+      mistakes: "Типові помилки",
+      remember: "Пам'ятай",
+      comparisonFocus: "Важливе порівняння",
+      comparisonBadge: "КАРТКА ПОРІВНЯННЯ"
+    },
+    table: {
+      word: "Слово",
+      meaning: "Значення",
+      example: "Приклад",
+      native: "UK",
+      german: "DE",
+      mainMeaning: "Головне значення",
+      describes: "Описує",
+      translation: "Переклад"
+    },
+    minimal: {
+      tipLabel: "Порада:",
+      pluralLabel: "МН. Ч.",
+      formsLabel: "Форми:",
+      noteLabel: "Примітка:"
+    }
+  }
 };

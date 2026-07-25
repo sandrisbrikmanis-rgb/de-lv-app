@@ -220,5 +220,39 @@ window.LANGUAGE_UI_STRINGS = {
     noVerbTask: "Brak zadania pisowni dla tego czasownika.",
     writeAnswer: "Wpisz odpowiedź"
   },
-  progress: { verbsHeading: "Czasowniki", courseHeading: "Kurs" }
+  progress: { verbsHeading: "Czasowniki", courseHeading: "Kurs" },
+  study: {
+    hints: {
+      tapToOpenExplanation: "Kliknij kartę, aby otworzyć wyjaśnienie.",
+      tapToRevealGerman: "Kliknij kartę, aby zobaczyć niemieckie słowo."
+    },
+    sections: {
+      mainIdea: "Główna myśl",
+      explanation: "Wyjaśnienie",
+      examples: "Przykłady",
+      comparison: "Porównanie",
+      tip: "Wskazówka",
+      important: "Ważne",
+      mistakes: "Typowe błędy",
+      remember: "Pamiętaj",
+      comparisonFocus: "Ważne porównanie",
+      comparisonBadge: "KARTA PORÓWNAWCZA"
+    },
+    table: {
+      word: "Słowo",
+      meaning: "Znaczenie",
+      example: "Przykład",
+      native: "PL",
+      german: "DE",
+      mainMeaning: "Główne znaczenie",
+      describes: "Opisuje",
+      translation: "Tłumaczenie"
+    },
+    minimal: {
+      tipLabel: "Wskazówka:",
+      pluralLabel: "LM.",
+      formsLabel: "Formy:",
+      noteLabel: "Uwaga:"
+    }
+  }
 };

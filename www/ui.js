@@ -151,6 +151,57 @@ const STUDY_SECTION_ICONS = {
   info: "ⓘ"
 };
 
+const STUDY_MAIN_IDEA_PREFIXES = [
+  "Galvenā doma",
+  "Põhiidee",
+  "Pagrindinė mintis",
+  "Главная мысль",
+  "Головна думка",
+  "Główna myśl"
+];
+
+function escapeRegex(value) {
+  return String(value).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function studyMainIdeaPrefixPattern() {
+  return STUDY_MAIN_IDEA_PREFIXES.map(escapeRegex).join("|");
+}
+
+function studySectionTitle(key) {
+  return t(`study.sections.${key}`);
+}
+
+function studyTableHeader(key) {
+  return t(`study.table.${key}`);
+}
+
+function splitStudyMainIdea(value, studyLinesFn) {
+  const prefixPattern = studyMainIdeaPrefixPattern();
+  const inlineRegex = new RegExp(`(?:${prefixPattern})\\s*:\\s*([^.!?]*(?:[.!?]|$))`, "iu");
+  const lineRegex = new RegExp(`^\\s*(?:${prefixPattern})\\s*:\\s*(.*)$`, "iu");
+  const stripRegex = new RegExp(`^\\s*(?:${prefixPattern})\\s*:\\s*`, "iu");
+
+  if (typeof value === "string") {
+    const match = value.match(inlineRegex);
+    if (match) {
+      return {
+        mainIdea: match[1].trim(),
+        explanationLines: studyLinesFn(value.replace(match[0], "").trim())
+      };
+    }
+  }
+  const lines = studyLinesFn(value);
+  const firstMainIdeaIndex = lines.findIndex((line) => lineRegex.test(line));
+  if (firstMainIdeaIndex >= 0) {
+    return {
+      mainIdea: lines[firstMainIdeaIndex].replace(stripRegex, "").trim(),
+      explanationLines: lines.filter((_, index) => index !== firstMainIdeaIndex)
+    };
+  }
+  return { mainIdea: "", explanationLines: lines };
+}
+
 const UI_ICONS = {
   correct: "✓",
   incorrect: "✗",
@@ -6560,8 +6611,8 @@ function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
   elements.hint.textContent = state.revealed
     ? ""
     : (isMinimalStudy
-      ? "Klikšķini uz kartītes, lai redzētu vācu vārdu."
-      : "Klikšķini uz kartītes, lai atvērtu skaidrojumu.");
+      ? t("study.hints.tapToRevealGerman")
+      : t("study.hints.tapToOpenExplanation"));
 
   if (isMinimalStudy) {
     if (!state.revealed) return true;
@@ -6590,7 +6641,7 @@ function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
     cardElement?.classList.toggle("has-minimal-study-extra", hasMinimalExtra);
     if (hasMinimalExtra && elements.cardStudyExtra) {
       const pluralHtml = Array.isArray(study.variants) && study.variants.some((variant) => variant.plural)
-        ? `<p class="minimal-study-plural-row"><strong>DAUDZSK.</strong> ${study.variants.filter((variant) => variant.plural).map((variant, index) => {
+        ? `<p class="minimal-study-plural-row"><strong>${escapeStudyCardText(t("study.minimal.pluralLabel"))}</strong> ${study.variants.filter((variant) => variant.plural).map((variant, index) => {
             const label = String(variant.plural || "").trim();
             const audioSrc = nounPluralAudioSrc(null, variant.de, variant.plural);
             const line = `<span class="minimal-study-variant-line"><span>${escapeStudyCardText(label)}</span>${comparisonWordAudioButtonHtml(label, audioSrc)}</span>`;
@@ -6598,13 +6649,13 @@ function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
           }).join("")}</p>`
         : "";
       const noteHtml = study.note
-        ? `<p class="minimal-study-forms"><strong>${escapeStudyCardText(study.noteLabel || "Norāde:")}</strong> ${escapeStudyCardText(study.note)}</p>`
+        ? `<p class="minimal-study-forms"><strong>${escapeStudyCardText(study.noteLabel || t("study.minimal.noteLabel"))}</strong> ${escapeStudyCardText(study.note)}</p>`
         : "";
       const tipHtml = study.tip
-        ? `<p class="minimal-study-tip"><strong>Padoms:</strong> ${escapeStudyCardText(study.tip)}</p>`
+        ? `<p class="minimal-study-tip"><strong>${escapeStudyCardText(t("study.minimal.tipLabel"))}</strong> ${escapeStudyCardText(study.tip)}</p>`
         : "";
       const formsHtml = study.forms
-        ? `<p class="minimal-study-forms"><strong>${escapeStudyCardText(study.formsLabel || "Formas:")}</strong> ${escapeStudyCardText(study.forms)}</p>`
+        ? `<p class="minimal-study-forms"><strong>${escapeStudyCardText(study.formsLabel || t("study.minimal.formsLabel"))}</strong> ${escapeStudyCardText(study.forms)}</p>`
         : "";
       const examplesHtml = Array.isArray(study.examples) && study.examples.length
         ? `<div class="minimal-study-examples">${study.examples.map((example) => {
@@ -6758,11 +6809,11 @@ function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
   }).join("");
   const comparison = state.revealed && Array.isArray(study.comparison) && study.comparison.length ? `
     <section class="study-section study-comparison">
-      <h3>${STUDY_SECTION_ICONS.comparison} Salīdzinājums</h3>
+      <h3>${STUDY_SECTION_ICONS.comparison} ${studySectionTitle("comparison")}</h3>
       <div class="study-standard-table study-comparison-table">
-        <div class="study-table-header">Vārds</div>
-        <div class="study-table-header">Nozīme</div>
-        <div class="study-table-header">Piemērs</div>
+        <div class="study-table-header">${studyTableHeader("word")}</div>
+        <div class="study-table-header">${studyTableHeader("meaning")}</div>
+        <div class="study-table-header">${studyTableHeader("example")}</div>
         ${study.comparison.map((item, index) => {
           const accentRules = sectionAccentRules("comparison", index);
           return `
@@ -6811,7 +6862,7 @@ function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
     `;
   const tip = state.revealed && hasStudyContent(study.tip) ? `
     <section class="study-section study-tip">
-      <h3>${STUDY_SECTION_ICONS.tip} Padoms</h3>
+      <h3>${STUDY_SECTION_ICONS.tip} ${studySectionTitle("tip")}</h3>
       <div class="study-tip-grid${hasTipRight ? "" : " study-tip-grid-single"}">
         <div class="study-tip-panel">
           ${tipLeft}
@@ -6826,30 +6877,10 @@ function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
     </section>
   ` : "";
 
-  const splitMainIdea = (value) => {
-    if (typeof value === "string") {
-      const match = value.match(/Galvenā doma\s*:\s*([^.!?]*(?:[.!?]|$))/i);
-      if (match) {
-        return {
-          mainIdea: match[1].trim(),
-          explanationLines: studyLines(value.replace(match[0], "").trim())
-        };
-      }
-    }
-    const lines = studyLines(value);
-    const firstMainIdeaIndex = lines.findIndex((line) => /^\s*Galvenā doma\s*:/i.test(line));
-    if (firstMainIdeaIndex >= 0) {
-      return {
-        mainIdea: lines[firstMainIdeaIndex].replace(/^\s*Galvenā doma\s*:\s*/i, ""),
-        explanationLines: lines.filter((_, index) => index !== firstMainIdeaIndex)
-      };
-    }
-    return { mainIdea: "", explanationLines: lines };
-  };
-  const splitExplanation = splitMainIdea(study.explanation);
+  const splitExplanation = splitStudyMainIdea(study.explanation, studyLines);
   const mainIdea = splitExplanation.mainIdea ? `
     <section class="study-main-idea">
-      <h3>Galvenā doma</h3>
+      <h3>${studySectionTitle("mainIdea")}</h3>
       <p>${formatStudyText(splitExplanation.mainIdea, study.sectionAccents?.explanation?.mainIdea || study.sectionAccents?.explanation?.text || study.sectionAccents?.explanation)}</p>
     </section>
   ` : "";
@@ -6859,13 +6890,13 @@ function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
   }).join("");
   const explanation = Array.isArray(study.explanationLines) && study.explanationLines.length ? `
     <section class="study-explanation">
-      <h3>${STUDY_SECTION_ICONS.explanation} Skaidrojums</h3>
+      <h3>${STUDY_SECTION_ICONS.explanation} ${studySectionTitle("explanation")}</h3>
       ${explanationBody}
       <ul class="study-explanation-list">
         ${study.explanationLines.map((line) => `<li>${formatStudyText(line)}</li>`).join("")}
       </ul>
     </section>
-  ` : `<section class="study-explanation"><h3>${STUDY_SECTION_ICONS.explanation} Skaidrojums</h3>${explanationBody}</section>`;
+  ` : `<section class="study-explanation"><h3>${STUDY_SECTION_ICONS.explanation} ${studySectionTitle("explanation")}</h3>${explanationBody}</section>`;
   const renderComparisonRichWordBlocks = () => {
     const items = Array.isArray(study.words) ? study.words : (Array.isArray(study.items) ? study.items : (Array.isArray(study.terms) ? study.terms : []));
     if (!items.length) return "";
@@ -6889,7 +6920,7 @@ function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
         : `<p>${formatStudyText(tipValue, accentRules?.tip)}</p>`;
       return `
         <section class="study-section study-tip comparison-word-tip">
-          <h3>${STUDY_SECTION_ICONS.tip} Padoms</h3>
+          <h3>${STUDY_SECTION_ICONS.tip} ${studySectionTitle("tip")}</h3>
           <div class="study-tip-grid study-tip-grid-single">
             <div class="study-tip-panel">${tipBody}</div>
           </div>
@@ -6901,7 +6932,7 @@ function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
       if (!hasStudyContent(importantValue)) return "";
       return `
         <section class="study-important comparison-word-important">
-          <h3>${STUDY_SECTION_ICONS.important} Svarīgi</h3>
+          <h3>${STUDY_SECTION_ICONS.important} ${studySectionTitle("important")}</h3>
           ${renderStudyParagraphs(importantValue, "important")}
         </section>
       `;
@@ -6914,25 +6945,25 @@ function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
           const accent = item.accent || COMPARISON_WORD_ACCENTS[index % COMPARISON_WORD_ACCENTS.length];
           const germanWord = String(item.de || item.word || "").trim();
           const audioSrc = comparisonWordAudioSrc(germanWord);
-          const splitWordExplanation = splitMainIdea(item.explanation || item.description || "");
+          const splitWordExplanation = splitStudyMainIdea(item.explanation || item.description || "", studyLines);
           const explanationSource = splitWordExplanation.explanationLines.length
             ? splitWordExplanation.explanationLines
             : studyLines(item.description || "");
           const mainIdeaBlock = (splitWordExplanation.mainIdea || item.description) ? `
             <section class="study-main-idea">
-              <h3>Galvenā doma</h3>
+              <h3>${studySectionTitle("mainIdea")}</h3>
               <p>${formatStudyText(splitWordExplanation.mainIdea || item.description, accentRules?.explanation?.mainIdea || accentRules?.explanation)}</p>
             </section>
           ` : "";
           const explanationBlock = explanationSource.length ? `
             <section class="study-explanation">
-              <h3>${STUDY_SECTION_ICONS.explanation} Skaidrojums</h3>
+              <h3>${STUDY_SECTION_ICONS.explanation} ${studySectionTitle("explanation")}</h3>
               ${explanationSource.map((line, lineIndex) => `<p>${formatStudyText(line, textAccentRules("explanation", lineIndex) || accentRules?.explanation)}</p>`).join("")}
             </section>
           ` : "";
           const examplesBlock = Array.isArray(item.examples) && item.examples.length ? `
             <section class="study-section study-examples">
-              <h3>${STUDY_SECTION_ICONS.examples} Piemēri</h3>
+              <h3>${STUDY_SECTION_ICONS.examples} ${studySectionTitle("examples")}</h3>
               <div class="study-standard-table study-examples-table">${renderWordExamples(item.examples, accentRules)}</div>
             </section>
           ` : "";
@@ -6994,14 +7025,14 @@ function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
     if (!rows.length) return "";
     return `
       <section class="study-section study-comparison">
-        <h3>${STUDY_SECTION_ICONS.comparison} Salīdzinājums</h3>
+        <h3>${STUDY_SECTION_ICONS.comparison} ${studySectionTitle("comparison")}</h3>
         <div class="study-standard-table comparison-matrix-table">
-          <div class="study-table-header">LV</div>
-          <div class="study-table-header">DE</div>
-          <div class="study-table-header">Galvenā nozīme</div>
-          <div class="study-table-header">Raksturo</div>
-          <div class="study-table-header">Piemērs</div>
-          <div class="study-table-header">Tulkojums</div>
+          <div class="study-table-header">${studyTableHeader("native")}</div>
+          <div class="study-table-header">${studyTableHeader("german")}</div>
+          <div class="study-table-header">${studyTableHeader("mainMeaning")}</div>
+          <div class="study-table-header">${studyTableHeader("describes")}</div>
+          <div class="study-table-header">${studyTableHeader("example")}</div>
+          <div class="study-table-header">${studyTableHeader("translation")}</div>
           ${rows.map((row, index) => {
             const accentRules = sectionAccentRules("comparisonTable", index) || sectionAccentRules("matrix", index);
             return `
@@ -7024,7 +7055,7 @@ function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
     if (!lines.length) return "";
     return `
       <section class="comparison-focus">
-        <h3>${STUDY_SECTION_ICONS.comparison} Svarīgs salīdzinājums</h3>
+        <h3>${STUDY_SECTION_ICONS.comparison} ${studySectionTitle("comparisonFocus")}</h3>
         ${lines.map((line, index) => `<p>${formatStudyText(line, sectionAccentRules("importantComparison", index))}</p>`).join("")}
       </section>
     `;
@@ -7035,7 +7066,7 @@ function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
     if (!value.length) return "";
     return `
       <section class="study-important comparison-important">
-        <h3>${STUDY_SECTION_ICONS.important} Svarīgi</h3>
+        <h3>${STUDY_SECTION_ICONS.important} ${studySectionTitle("important")}</h3>
         ${value.map((line, index) => `<p>${formatStudyText(line, sectionAccentRules("important", index))}</p>`).join("")}
       </section>
     `;
@@ -7046,7 +7077,7 @@ function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
     if (!rows.length) return "";
     return `
       <section class="study-section comparison-mistakes">
-        <h3>${STUDY_SECTION_ICONS.mistakes} Tipiskās kļūdas</h3>
+        <h3>${STUDY_SECTION_ICONS.mistakes} ${studySectionTitle("mistakes")}</h3>
         <div class="comparison-mistake-list">
           ${rows.map((row, index) => {
             const accentRules = sectionAccentRules("mistakes", index);
@@ -7069,7 +7100,7 @@ function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
     if (!lines.length) return "";
     return `
       <section class="comparison-remember">
-        <h3>${STUDY_SECTION_ICONS.remember} Atceries</h3>
+        <h3>${STUDY_SECTION_ICONS.remember} ${studySectionTitle("remember")}</h3>
         ${lines.map((line, index) => `<p>${formatStudyText(line, sectionAccentRules("remember", index))}</p>`).join("")}
       </section>
     `;
@@ -7079,7 +7110,7 @@ function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
     const lead = study.lead || study.subtitleText || study.question || "";
     elements.cardStudyExtra.hidden = false;
     elements.cardStudyExtra.innerHTML = `
-      <div class="comparison-study-badge">${STUDY_SECTION_ICONS.comparisonBadge} SALĪDZINĀJUMA KARTĪTE</div>
+      <div class="comparison-study-badge">${STUDY_SECTION_ICONS.comparisonBadge} ${studySectionTitle("comparisonBadge")}</div>
       ${lead ? `<p class="comparison-study-lead">${formatStudyText(lead, study.sectionAccents?.lead)}</p>` : ""}
       ${renderComparisonRichWordBlocks()}
       ${renderComparisonMatrix()}
@@ -7094,7 +7125,7 @@ function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
 
   const important = state.revealed && hasStudyContent(study.important) ? `
     <section class="study-important">
-      <h3>${STUDY_SECTION_ICONS.important} Svarīgi</h3>
+      <h3>${STUDY_SECTION_ICONS.important} ${studySectionTitle("important")}</h3>
       ${Array.isArray(study.important) || typeof study.important === "string"
         ? renderStudyParagraphs(study.important, "important")
         : studyLines(study.important).map((line, index) => {
@@ -7110,7 +7141,7 @@ function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
     ${mainIdea}
     ${explanation}
     <section class="study-section study-examples">
-      <h3>${STUDY_SECTION_ICONS.examples} Piemēri</h3>
+      <h3>${STUDY_SECTION_ICONS.examples} ${studySectionTitle("examples")}</h3>
       <div class="study-standard-table study-examples-table">${examples}</div>
     </section>
 ${comparison}

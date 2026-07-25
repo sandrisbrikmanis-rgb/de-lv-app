@@ -220,5 +220,39 @@ window.LANGUAGE_UI_STRINGS = {
     noVerbTask: "Для этого глагола нет задания на правописание.",
     writeAnswer: "Введите ответ"
   },
-  progress: { verbsHeading: "Глаголы", courseHeading: "Курс" }
+  progress: { verbsHeading: "Глаголы", courseHeading: "Курс" },
+  study: {
+    hints: {
+      tapToOpenExplanation: "Нажмите на карточку, чтобы открыть пояснение.",
+      tapToRevealGerman: "Нажмите на карточку, чтобы увидеть немецкое слово."
+    },
+    sections: {
+      mainIdea: "Главная мысль",
+      explanation: "Пояснение",
+      examples: "Примеры",
+      comparison: "Сравнение",
+      tip: "Совет",
+      important: "Важно",
+      mistakes: "Типичные ошибки",
+      remember: "Запомни",
+      comparisonFocus: "Важное сравнение",
+      comparisonBadge: "КАРТОЧКА СРАВНЕНИЯ"
+    },
+    table: {
+      word: "Слово",
+      meaning: "Значение",
+      example: "Пример",
+      native: "RU",
+      german: "DE",
+      mainMeaning: "Основное значение",
+      describes: "Описывает",
+      translation: "Перевод"
+    },
+    minimal: {
+      tipLabel: "Совет:",
+      pluralLabel: "МН. Ч.",
+      formsLabel: "Формы:",
+      noteLabel: "Заметка:"
+    }
+  }
 };

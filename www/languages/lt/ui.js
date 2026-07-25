@@ -220,5 +220,39 @@ window.LANGUAGE_UI_STRINGS = {
     noVerbTask: "Šiam veiksmažodžiui nėra rašybos užduoties.",
     writeAnswer: "Įrašykite atsakymą"
   },
-  progress: { verbsHeading: "Veiksmažodžiai", courseHeading: "Kursas" }
+  progress: { verbsHeading: "Veiksmažodžiai", courseHeading: "Kursas" },
+  study: {
+    hints: {
+      tapToOpenExplanation: "Spustelėkite kortelę, kad atidarytumėte paaiškinimą.",
+      tapToRevealGerman: "Spustelėkite kortelę, kad pamatytumėte vokišką žodį."
+    },
+    sections: {
+      mainIdea: "Pagrindinė mintis",
+      explanation: "Paaiškinimas",
+      examples: "Pavyzdžiai",
+      comparison: "Palyginimas",
+      tip: "Patarimas",
+      important: "Svarbu",
+      mistakes: "Tipinės klaidos",
+      remember: "Prisimink",
+      comparisonFocus: "Svarbus palyginimas",
+      comparisonBadge: "PALYGINIMO KORTELĖ"
+    },
+    table: {
+      word: "Žodis",
+      meaning: "Reikšmė",
+      example: "Pavyzdys",
+      native: "LT",
+      german: "DE",
+      mainMeaning: "Pagrindinė reikšmė",
+      describes: "Aprašo",
+      translation: "Vertimas"
+    },
+    minimal: {
+      tipLabel: "Patarimas:",
+      pluralLabel: "DAUGSK.",
+      formsLabel: "Formos:",
+      noteLabel: "Pastaba:"
+    }
+  }
 };
