@@ -353,6 +353,7 @@ let spellingAutoNextTimer = null;
 
 const elements = {
   homeMenuScreen: document.getElementById("homeMenuScreen"),
+  homeMenuLanguageBtn: document.getElementById("homeMenuLanguageBtn"),
   mainMenuButtons: document.getElementById("mainMenuButtons"),
   groupDetailScreen: document.getElementById("groupDetailScreen"),
   navBackBtn: document.getElementById("navBackBtn"),
@@ -7346,6 +7347,9 @@ function applyLocalizedStaticUi() {
   if (elements.navBackBtn) {
     elements.navBackBtn.setAttribute("aria-label", t("nav.backHome"));
   }
+  if (elements.homeMenuLanguageBtn) {
+    elements.homeMenuLanguageBtn.setAttribute("aria-label", t("nav.changeLanguage"));
+  }
   if (elements.infoBtn) {
     const infoLabel = t("nav.howItWorks");
     elements.infoBtn.innerHTML = `<span class="info-icon" aria-hidden="true">ⓘ</span> ${escapeHtml(infoLabel)}`;
@@ -7501,6 +7505,14 @@ if (elements.navBackBtn) {
   elements.navBackBtn.addEventListener("click", () => {
     goToHomeScreen();
     setNotice("");
+  });
+}
+
+if (elements.homeMenuLanguageBtn) {
+  elements.homeMenuLanguageBtn.addEventListener("click", async () => {
+    if (window.AppLaunch && typeof window.AppLaunch.openLanguagePicker === "function") {
+      await window.AppLaunch.openLanguagePicker();
+    }
   });
 }
 

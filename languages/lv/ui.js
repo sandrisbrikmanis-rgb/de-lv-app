@@ -25,6 +25,7 @@ window.LANGUAGE_UI_STRINGS = {
   },
   nav: {
     backHome: "Atgriezties galvenajā izvēlnē",
+    changeLanguage: "Mainīt dzimto valodu",
     howItWorks: "Kā tas strādā?",
     quickTools: "Ātrie rīki"
   },

@@ -171,10 +171,31 @@
     bootApplicationOnce();
   }
 
+  function applyLanguageScreenI18n() {
+    const title = document.querySelector(".language-screen-title");
+    const footer = document.querySelector(".language-screen-footer");
+    if (title && window.AppI18n) {
+      title.textContent = window.AppI18n.t("languageSelect.title");
+    }
+    if (footer && window.AppI18n) {
+      footer.textContent = window.AppI18n.t("languageSelect.footer");
+    }
+  }
+
+  async function switchAppLanguage(code) {
+    saveLanguage(code);
+    await window.AppI18n.switchLanguage(code);
+    if (window.AppDataLoader && typeof window.AppDataLoader.init === "function") {
+      await window.AppDataLoader.init(code);
+    }
+    return true;
+  }
+
   async function openLanguagePicker() {
     const languageScreen = document.getElementById("appLanguageScreen");
     if (!languageScreen) return false;
 
+    applyLanguageScreenI18n();
     renderLanguageOptions(languageScreen.querySelector("#languageOptionsList"));
     languageScreen.hidden = false;
     languageScreen.removeAttribute("aria-hidden");
@@ -185,8 +206,7 @@
       return false;
     }
 
-    saveLanguage(selectedCode);
-    await window.AppI18n.switchLanguage(selectedCode);
+    await switchAppLanguage(selectedCode);
     return true;
   }
 

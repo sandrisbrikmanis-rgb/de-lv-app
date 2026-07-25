@@ -17,6 +17,7 @@ window.LANGUAGE_UI_STRINGS = {
   groups: { sentences: "Речення" },
   nav: {
     backHome: "Повернутися до головного меню",
+    changeLanguage: "Змінити рідну мову",
     howItWorks: "Як це працює?",
     quickTools: "Швидкі інструменти"
   },

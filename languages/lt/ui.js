@@ -17,6 +17,7 @@ window.LANGUAGE_UI_STRINGS = {
   groups: { sentences: "Sakiniai" },
   nav: {
     backHome: "Grįžti į pagrindinį meniu",
+    changeLanguage: "Keisti gimtąją kalbą",
     howItWorks: "Kaip tai veikia?",
     quickTools: "Greiti įrankiai"
   },
