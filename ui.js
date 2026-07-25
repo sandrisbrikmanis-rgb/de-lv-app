@@ -129,15 +129,29 @@ function datasetWords(name) {
   return Array.isArray(dataset) ? dataset.map(ensureStableId) : [];
 }
 
-const flashcards = [
-  ...datasetWords("A1_WORDS"),
-  ...datasetWords("A2_WORDS"),
-  ...datasetWords("B1_WORDS"),
-  ...datasetWords("B2_WORDS"),
-  ...datasetWords("C1_WORDS"),
-  ...datasetWords("C2_WORDS"),
-  ...datasetWords("SENTENCE_ENTRIES")
-];
+let flashcards = [];
+
+function rebuildFlashcardCollections() {
+  flashcards = [
+    ...datasetWords("A1_WORDS"),
+    ...datasetWords("A2_WORDS"),
+    ...datasetWords("B1_WORDS"),
+    ...datasetWords("B2_WORDS"),
+    ...datasetWords("C1_WORDS"),
+    ...datasetWords("C2_WORDS"),
+    ...datasetWords("SENTENCE_ENTRIES")
+  ];
+  window.flashcards = flashcards;
+  window.wordEntries = flashcards.filter((card) => card.level !== "Sätze");
+  window["sätze"] = flashcards.filter((card) => card.level === "Sätze");
+  window.sentenceEntries = [];
+  mergeSaetzeIntoSentenceEntries();
+  if (typeof window.syncWordRain === "function") {
+    window.syncWordRain();
+  }
+}
+
+window.rebuildFlashcardCollections = rebuildFlashcardCollections;
 
 const STUDY_SECTION_ICONS = {
   explanation: "ℹ️",
@@ -286,23 +300,13 @@ function infoPopupBodyHtml() {
   </div>`;
 }
 
-const verbEntries = typeof VERB_ENTRIES !== "undefined" ? VERB_ENTRIES : (window.VERB_ENTRIES || []);
+function getVerbEntries() {
+  return Array.isArray(window.VERB_ENTRIES) ? window.VERB_ENTRIES : [];
+}
 
-window.flashcards = flashcards;
-
-const wordEntries = flashcards.filter((card) => card.level !== "Sätze");
-const saetze = flashcards.filter((card) => card.level === "Sätze");
-
-window.wordEntries = (Array.isArray(window.wordEntries) && window.wordEntries.length) ? window.wordEntries : wordEntries;
 window["sätze"] = window["sätze"] || [];
 window.sentenceEntries = window.sentenceEntries || [];
 window.COMPARISON_STUDY_CARDS = [];
-
-for (const s of saetze) {
-  if (!window["sätze"].some((x) => x.de === s.de && x.lv === s.lv)) {
-    window["sätze"].push(s);
-  }
-}
 
 function mergeSaetzeIntoSentenceEntries() {
   for (const s of window["sätze"]) {
@@ -311,8 +315,6 @@ function mergeSaetzeIntoSentenceEntries() {
     }
   }
 }
-
-mergeSaetzeIntoSentenceEntries();
 
 function normalizeEntry(e, type) {
   const entry = {
@@ -331,8 +333,8 @@ function normalizeEntry(e, type) {
 function allEntries() {
   mergeSaetzeIntoSentenceEntries();
   return [
-    ...window.wordEntries.map((e) => normalizeEntry(e, "word")),
-    ...window.sentenceEntries.map((e) => normalizeEntry(e, "sentence")),
+    ...(window.wordEntries || []).map((e) => normalizeEntry(e, "word")),
+    ...(window.sentenceEntries || []).map((e) => normalizeEntry(e, "sentence")),
   ].filter((e) => e.de && e.lv && e.level);
 }
 
@@ -2558,7 +2560,7 @@ function activeGroupKey() {
 }
 
 function activeCardsForSession() {
-  return state.verbMode ? verbEntries : baseCardsForGroup(state.group).filter((card) => !isMasteredCard(card));
+  return state.verbMode ? getVerbEntries() : baseCardsForGroup(state.group).filter((card) => !isMasteredCard(card));
 }
 
 function idForSessionCard(card) {
@@ -2566,7 +2568,7 @@ function idForSessionCard(card) {
 }
 
 function cardsForSessionKey(groupKey) {
-  return groupKey === "verbs" ? verbEntries : baseCardsForGroup(groupKey);
+  return groupKey === "verbs" ? getVerbEntries() : baseCardsForGroup(groupKey);
 }
 
 function idForSessionKey(card, groupKey) {
@@ -3776,9 +3778,10 @@ function currentVerb() {
     if (position >= deck.length) return null;
     return deck[position];
   }
-  if (!verbEntries.length) return null;
-  if (state.verbIndex >= verbEntries.length) state.verbIndex = 0;
-  return verbEntries[state.verbIndex];
+  const verbs = getVerbEntries();
+  if (!verbs.length) return null;
+  if (state.verbIndex >= verbs.length) state.verbIndex = 0;
+  return verbs[state.verbIndex];
 }
 
 function cardId(card) {
@@ -4632,7 +4635,7 @@ function flashcardPluralLabel(card) {
 function a1AudioForBareWord(de) {
   const bare = stripGermanArticle(de);
   if (!bare) return null;
-  const entry = wordEntries.find((item) => (
+  const entry = (window.wordEntries || []).find((item) => (
     item.level === "A1" && String(item.de || "").trim().toLowerCase() === bare.toLowerCase()
   ));
   return entry ? a1AudioSrc(a1SingularAudioFile(entry)) : null;
@@ -4904,7 +4907,7 @@ function resolveSearchCard(entry) {
   const targetId = entry.id || entry.study?.id;
   const targetDe = entry.de;
   const targetLevel = entry.level;
-  const pools = [flashcards];
+  const pools = [window.flashcards || flashcards];
   for (const pool of pools) {
     const found = pool.find((card) => (
       (targetId && (card.id === targetId || card.study?.id === targetId))
@@ -5217,7 +5220,7 @@ function getAllLearnedEntries() {
 
   const verbIds = state.learned.verbs || [];
   for (const id of verbIds) {
-    const verb = verbEntries.find((candidate) => verbId(candidate) === id);
+    const verb = getVerbEntries().find((candidate) => verbId(candidate) === id);
     if (verb) {
       const forms = verbForms(verb);
       entries.push({
@@ -6001,7 +6004,7 @@ function setNotice(text) {
 }
 
 function mainMenuCount(item) {
-  if (item.type === "verbs") return verbEntries.length;
+  if (item.type === "verbs") return getVerbEntries().length;
   if (item.type === "kurss") return "";
   return baseCardsForGroup(item.key).length;
 }
@@ -6016,7 +6019,7 @@ function detailScreenHeading(itemKey) {
 function groupProgressTitle(itemKey) {
   if (itemKey === "verbs") {
     const learned = (state.learned.verbs || []).length;
-    return `Darbības vārdi · ${learned}/${verbEntries.length}`;
+    return `Darbības vārdi · ${learned}/${getVerbEntries().length}`;
   }
   const heading = detailScreenHeading(itemKey);
   const total = baseCardsForGroup(itemKey).length;

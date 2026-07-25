@@ -102,6 +102,13 @@
   async function initializeLanguage(code) {
     const activeLanguage = await window.AppI18n.init(code);
     await window.AppDataLoader.init(activeLanguage);
+    const loadReport = await window.AppDataLoader.loadNativeLanguageData(activeLanguage);
+    if (loadReport?.errors?.length) {
+      console.error("[AppLaunch] Native language data load completed with errors:", loadReport.errors);
+    }
+    if (typeof window.rebuildFlashcardCollections === "function") {
+      window.rebuildFlashcardCollections();
+    }
     return activeLanguage;
   }
 
@@ -184,10 +191,7 @@
 
   async function switchAppLanguage(code) {
     saveLanguage(code);
-    await window.AppI18n.switchLanguage(code);
-    if (window.AppDataLoader && typeof window.AppDataLoader.init === "function") {
-      await window.AppDataLoader.init(code);
-    }
+    window.location.reload();
     return true;
   }
 
