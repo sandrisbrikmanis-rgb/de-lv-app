@@ -47849,8 +47849,164 @@ const A2_WORDS = [
     "de": "Nagel",
     "de_article": "der",
     "de_plural": "die Nägel",
-    "lv": "pirksta nags",
-    "level": "A2"
+    "lv": "pirksta nags • nagla",
+    "level": "A2",
+    "study": {
+      "id": "a2-nagel",
+      "layout": "standardStudy",
+      "translation": "pirksta nags • nagla",
+      "explanation": [
+        "Galvenā doma: der Nagel var nozīmēt pirksta nagu vai metāla nagliņu — konteksts nosaka nozīmi.",
+        "Runājot par ķermeņa daļu, der Nagel = pirksta/kājas pirksta nags.",
+        "Runājot par būvniecību, mēbelēm vai darbarīkiem, der Nagel = nagla (metāla priekšmets, ko iedzen ar āmuru).",
+        "Frāzē den Nagel auf den Kopf treffen (trāpīt naglai tieši galvā) nozīmē precīzi pateikt/uzminēt.",
+        "Daudzskaitlī: die Nägel — abām nozīmēm."
+      ],
+      "examples": [
+        {
+          "de": "Ich schneide mir die Nägel.",
+          "lv": "es griežu nagus."
+        },
+        {
+          "de": "Der Nagel ist im Finger eingewachsen.",
+          "lv": "nags ir ieaugis pirkstā."
+        },
+        {
+          "de": "Ich schlage einen Nagel in die Wand.",
+          "lv": "es iedzenu naglu sienā."
+        },
+        {
+          "de": "Wo ist der Hammer und der Nagel?",
+          "lv": "kur ir āmurs un nagla?"
+        },
+        {
+          "de": "Du hast den Nagel auf den Kopf getroffen.",
+          "lv": "tu trāpīji naglai tieši galvā."
+        },
+        {
+          "de": "Ihre Nägel sind lackiert.",
+          "lv": "viņas nagi ir lakoti."
+        }
+      ],
+      "tip": [
+        "Runā par ķermeni (pirkstiem) → pirksta nags.",
+        "Runā par būvniecību/darbarīkiem (āmurs, siena) → nagla."
+      ],
+      "important": [
+        "der Nagel = pirksta nags VAI nagla — atkarībā no konteksta.",
+        "den Nagel auf den Kopf treffen = precīzi uzminēt/pateikt (idiomātisks izteiciens)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "der Nagel"
+          ],
+          "purple": [
+            "pirksta nags",
+            "nagla"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Nägel"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nagus"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Nagel"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nags"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Nagel"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "naglu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Nagel"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nagla"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Nagel"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "naglai"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Nägel"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nagi"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "pirksta nags"
+            ]
+          },
+          {
+            "green": [
+              "nagla"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "purple": [
+              "pirksta nags",
+              "nagla"
+            ]
+          },
+          {
+            "green": [
+              "den Nagel auf den Kopf treffen"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "nah",
@@ -53742,8 +53898,169 @@ const A2_WORDS = [
   },
   {
     "de": "schalten",
-    "lv": "ieslēgt",
-    "level": "A2"
+    "lv": "pārslēgt",
+    "level": "A2",
+    "study": {
+      "id": "a2-schalten",
+      "layout": "standardStudy",
+      "translation": "pārslēgt",
+      "explanation": [
+        "Galvenā doma: schalten nozīmē pārslēgt — ieslēgt, izslēgt vai mainīt kādu iestatījumu/pārnesumu.",
+        "Ar elektrību schalten bieži nozīmē pārslēgt slēdzi (Licht schalten = pārslēgt gaismu).",
+        "Auto kontekstā schalten nozīmē pārslēgt pārnesumu (in den zweiten Gang schalten = pārslēgt otrajā pārnesumā).",
+        "Konkrētu 'ieslēgt' nozīmi precīzāk pauž einschalten, ne vienkārši schalten.",
+        "schalten var lietot arī pārnestā nozīmē — 'saprast, aptvert' (sarunvalodā: Er schaltet schnell. = viņš ātri saprot)."
+      ],
+      "examples": [
+        {
+          "de": "Ich schalte das Licht.",
+          "lv": "es pārslēdzu gaismu."
+        },
+        {
+          "de": "Er schaltet in den dritten Gang.",
+          "lv": "viņš pārslēdz trešajā pārnesumā."
+        },
+        {
+          "de": "Kannst du bitte den Kanal schalten?",
+          "lv": "vai vari pārslēgt kanālu?"
+        },
+        {
+          "de": "Ich schalte das Radio ein.",
+          "lv": "es ieslēdzu radio."
+        },
+        {
+          "de": "Er schaltet schnell.",
+          "lv": "viņš ātri saprot."
+        },
+        {
+          "de": "Die Ampel schaltet auf Rot.",
+          "lv": "signāls pārslēdzas uz sarkanu."
+        }
+      ],
+      "tip": [
+        "schalten pats par sevi = pārslēgt (vispārīgi, arī pārnesumus).",
+        "Precīza 'ieslēgt' nozīme = einschalten; 'izslēgt' = ausschalten."
+      ],
+      "important": [
+        "schalten = pārslēgt, ne tikai 'ieslēgt' — precīzāk par elektrību/pārnesumiem.",
+        "schnell schalten (sarunvalodā) = ātri saprast/aptvert."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "schalten"
+          ],
+          "purple": [
+            "pārslēgt"
+          ],
+          "green": [
+            "einschalten"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "schalte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pārslēdzu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schaltet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pārslēdz"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schalten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pārslēgt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "schalte",
+                "ein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ieslēdzu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "red": [
+                "schaltet schnell"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ātri saprot"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schaltet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pārslēdzas"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "pārslēgt"
+            ]
+          },
+          {
+            "green": [
+              "einschalten"
+            ],
+            "red": [
+              "ausschalten"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "pārslēgt"
+            ]
+          },
+          {
+            "red": [
+              "schnell schalten"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Schalter",
@@ -62942,8 +63259,170 @@ const A2_WORDS = [
   },
   {
     "de": "toll",
-    "lv": "traks",
-    "level": "A2"
+    "lv": "lielisks • foršs • brīnišķīgs",
+    "level": "A2",
+    "study": {
+      "id": "a2-toll",
+      "layout": "standardStudy",
+      "translation": "lielisks • foršs • brīnišķīgs",
+      "explanation": [
+        "Galvenā doma: toll sarunvalodā nozīmē lielisks, foršs, brīnišķīgs — pozitīvs izsauciens.",
+        "toll bieži lieto, izsakot entuziasmu vai apbrīnu (Das ist toll! = Tas ir lieliski!).",
+        "Retākā, vecākā nozīme ir 'traks/nesaprātīgs' — šī nozīme mūsdienās gandrīz nav lietota (nejaukt ar verrückt).",
+        "toll ir sarunvalodas vārds — formālā valodā biežāk lieto großartig, wunderbar, fantastisch."
+      ],
+      "examples": [
+        {
+          "de": "Das Konzert war toll!",
+          "lv": "koncerts bija lielisks!"
+        },
+        {
+          "de": "Du siehst toll aus.",
+          "lv": "tu izskaties foršs."
+        },
+        {
+          "de": "Wir hatten einen tollen Urlaub.",
+          "lv": "mums bija brīnišķīgs atvaļinājums."
+        },
+        {
+          "de": "Toll, dass du kommst!",
+          "lv": "lieliski, ka tu nāc!"
+        },
+        {
+          "de": "Er hat eine tolle Idee.",
+          "lv": "viņam ir lieliska ideja."
+        },
+        {
+          "de": "Das Essen schmeckt toll.",
+          "lv": "ēdiens garšo lieliski."
+        }
+      ],
+      "tip": [
+        "toll ikdienas sarunvalodā = lielisks/foršs/brīnišķīgs (pozitīvi).",
+        "Nejauc ar verrückt (traks) — toll mūsdienās gandrīz netiek lietots šajā nozīmē."
+      ],
+      "important": [
+        "toll = lielisks/foršs/brīnišķīgs — pozitīvs vārds sarunvalodā.",
+        "Nepareizi: toll = traks (mūsdienu nozīmē) → Pareizi: verrückt = traks."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "toll"
+          ],
+          "purple": [
+            "lielisks",
+            "foršs",
+            "brīnišķīgs"
+          ],
+          "red": [
+            "verrückt"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "toll"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lielisks"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "toll"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "foršs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "tollen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "brīnišķīgs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Toll"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lieliski"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "tolle"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lieliska"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "toll"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lieliski"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "lielisks",
+              "foršs",
+              "brīnišķīgs"
+            ]
+          },
+          {
+            "red": [
+              "verrückt"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "purple": [
+              "lielisks",
+              "foršs",
+              "brīnišķīgs"
+            ]
+          },
+          {
+            "red": [
+              "verrückt"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Top",

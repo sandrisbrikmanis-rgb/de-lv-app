@@ -7821,7 +7821,7 @@ const B2_WORDS = [
   },
   {
     "de": "humanitär",
-    "lv": "žēlsirdīgs",
+    "lv": "humanitārs",
     "level": "B2"
   },
   {
@@ -11259,8 +11259,172 @@ const B2_WORDS = [
   },
   {
     "de": "sofern",
-    "lv": "ja • tā kā",
-    "level": "B2"
+    "lv": "ja • ar noteikumu, ka",
+    "level": "B2",
+    "study": {
+      "id": "b2-sofern",
+      "layout": "standardStudy",
+      "translation": "ja • ar noteikumu, ka",
+      "explanation": [
+        "Galvenā doma: sofern ir nosacījuma savienojums — nozīmē ja/ar noteikumu, ka.",
+        "sofern ievieš nosacījuma palīgteikumu, līdzīgi kā wenn, bet ir formālāks un tipiskāks rakstveida stilam.",
+        "sofern NEnozīmē 'tā kā' (cēloņa savienojums) — tas vācu valodā ir da vai weil.",
+        "Bieži lieto juridiskos/formālos tekstos (sofern nicht anders vereinbart = ja nav norunāts citādi)."
+      ],
+      "examples": [
+        {
+          "de": "Ich komme, sofern ich Zeit habe.",
+          "lv": "es nāku, ja man ir laiks."
+        },
+        {
+          "de": "Sofern nichts anderes vereinbart ist, gilt der Standardpreis.",
+          "lv": "ja nav norunāts citādi, ir spēkā standarta cena."
+        },
+        {
+          "de": "Sofern das Wetter gut ist, machen wir einen Ausflug.",
+          "lv": "ar noteikumu, ka laiks būs labs, mēs dosimies ekskursijā."
+        },
+        {
+          "de": "Sofern möglich, bitte pünktlich sein.",
+          "lv": "ja iespējams, lūdzu, esiet precīzi."
+        },
+        {
+          "de": "Er hilft, sofern er kann.",
+          "lv": "viņš palīdz, ja viņš var."
+        },
+        {
+          "de": "Da es regnet, bleiben wir zu Hause.",
+          "lv": "tā kā līst, mēs paliekam mājās."
+        }
+      ],
+      "tip": [
+        "sofern = ja/ar noteikumu, ka (nosacījums) — nejaukt ar cēloni.",
+        "'tā kā' (cēlonis) vācu valodā ir da/weil, ne sofern."
+      ],
+      "important": [
+        "sofern ir nosacījuma, ne cēloņa savienojums.",
+        "Nepareizi: sofern = tā kā → Pareizi: da/weil = tā kā."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sofern"
+          ],
+          "purple": [
+            "ja",
+            "ar noteikumu, ka"
+          ],
+          "red": [
+            "da",
+            "weil"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "sofern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ja"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Sofern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ja"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Sofern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ar noteikumu, ka"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Sofern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ja"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sofern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ja"
+              ]
+            }
+          },
+          {
+            "de": {
+              "red": [
+                "Da"
+              ]
+            },
+            "lv": {
+              "red": [
+                "tā kā"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "ja",
+              "ar noteikumu, ka"
+            ]
+          },
+          {
+            "red": [
+              "da",
+              "weil"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "sofern"
+            ]
+          },
+          {
+            "red": [
+              "da",
+              "weil"
+            ],
+            "purple": [
+              "tā kā"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Söldner",
