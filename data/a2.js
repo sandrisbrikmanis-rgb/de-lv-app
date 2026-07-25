@@ -67746,7 +67746,146 @@ const A2_WORDS = [
     "de_article": "der",
     "de_plural": "die Wagen",
     "lv": "automašīna • vagons",
-    "level": "A2"
+    "level": "A2",
+    "study": {
+      "id": "a2-wagen",
+      "layout": "standardStudy",
+      "translation": "automašīna • vagons",
+      "explanation": "Galvenā doma: der Wagen nozīmē transportlīdzekli — automašīnu, vagoku vai ratiņus. Daudzskaitlis ir die Wagen. Tas nav darbības vārds wagen (uzdrošināties).",
+      "examples": [
+        {
+          "de": "Der Wagen steht vor dem Haus.",
+          "lv": "automašīna stāv pie mājas."
+        },
+        {
+          "de": "Wir fahren mit dem Wagen zur Stadt.",
+          "lv": "mēs braucam ar automašīnu uz pilsētu."
+        },
+        {
+          "de": "Der Güterwagen ist schwer beladen.",
+          "lv": "kravas vagons ir smagi noslogots."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Wagen",
+          "meaning": "automašīna • vagons • rati",
+          "example": "Der Wagen ist neu. = Automašīna ir jauna."
+        },
+        {
+          "word": "der Waggon",
+          "meaning": "vagons (vilciens)",
+          "example": "Der Waggon ist voll. = Vagons ir pilns."
+        },
+        {
+          "word": "das Auto",
+          "meaning": "automašīna",
+          "example": "Das Auto steht da. = Automašīna stāv tur."
+        },
+        {
+          "word": "wagen (Verb)",
+          "meaning": "uzdrošināties",
+          "example": "Ich wage es nicht. = Es neuzdrošinos."
+        }
+      ],
+      "tip": {
+        "leftBlocks": [
+          {
+            "text": "der Wagen ar artikulu der ir lietvārds — transportlīdzeklis. wagen bez artikula ir darbības vārds — uzdrošināties."
+          }
+        ]
+      },
+      "important": {
+        "text": "der Wagen = automašīna vai vagons (die Wagen). wagen = uzdrošināties — tas ir cits vārds."
+      },
+      "sectionAccents": {
+        "explanation": {
+          "blue": "der Wagen",
+          "purple": "automašīna",
+          "red": "wagen"
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": "Wagen"
+            },
+            "lv": {
+              "purple": "automašīna"
+            }
+          },
+          {
+            "de": {
+              "blue": "Wagen"
+            },
+            "lv": {
+              "purple": "automašīnu"
+            }
+          },
+          {
+            "de": {
+              "blue": "Güterwagen"
+            },
+            "lv": {
+              "purple": "vagons"
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "blue": "der Wagen"
+            },
+            "meaning": {
+              "purple": "automašīna"
+            },
+            "example": {
+              "blue": "Wagen"
+            }
+          },
+          {
+            "word": {
+              "green": "der Waggon"
+            },
+            "meaning": {
+              "purple": "vagons"
+            },
+            "example": {
+              "blue": "Waggon"
+            }
+          },
+          {
+            "word": {
+              "green": "das Auto"
+            },
+            "meaning": {
+              "purple": "automašīna"
+            },
+            "example": {
+              "blue": "Auto"
+            }
+          },
+          {
+            "word": {
+              "red": "wagen"
+            },
+            "meaning": {
+              "purple": "uzdrošināties"
+            },
+            "example": {
+              "red": "wage"
+            }
+          }
+        ],
+        "tip": {
+          "blue": "der Wagen",
+          "red": "wagen"
+        },
+        "important": {
+          "blue": "der Wagen",
+          "red": "wagen"
+        }
+      }
+    }
   },
   {
     "de": "wählen",
