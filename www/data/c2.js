@@ -1236,7 +1236,7 @@ const C2_WORDS = [
     "de": "Mutterschaftsurlaub",
     "de_article": "der",
     "de_plural": "die Mutterschaftsurlaube",
-    "lv": "pēcdzemdību atvaļinājums",
+    "lv": "grūtniecības un dzemdību atvaļinājums",
     "level": "C2"
   },
   {

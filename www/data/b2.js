@@ -2281,7 +2281,7 @@ const B2_WORDS = [
   {
     "de": "Dasein",
     "de_article": "das",
-    "lv": "eksistence",
+    "lv": "esamība • eksistence",
     "level": "B2"
   },
   {
@@ -4484,7 +4484,7 @@ const B2_WORDS = [
     "de": "Erkenntnis",
     "de_article": "die",
     "de_plural": "die Erkenntnisse",
-    "lv": "uzskats • viedoklis",
+    "lv": "atziņa • izpratne",
     "level": "B2"
   },
   {
@@ -5174,7 +5174,7 @@ const B2_WORDS = [
     "de": "Festigkeit",
     "de_article": "die",
     "de_plural": "die Festigkeiten",
-    "lv": "cietums • stingrums • stiprums",
+    "lv": "cietība",
     "level": "B2"
   },
   {
@@ -7310,7 +7310,7 @@ const B2_WORDS = [
     "de": "Heilstätte",
     "de_article": "die",
     "de_plural": "die Heilstätten",
-    "lv": "ārstniecības iestāde",
+    "lv": "sanatorija",
     "level": "B2"
   },
   {
@@ -8794,7 +8794,7 @@ const B2_WORDS = [
     "de": "Luftaufnahme",
     "de_article": "die",
     "de_plural": "die Luftaufnahmen",
-    "lv": "uzņēmums no gaisa",
+    "lv": "gaisa fotogrāfija • aerofotoattēls",
     "level": "B2"
   },
   {
@@ -8864,7 +8864,7 @@ const B2_WORDS = [
     "de": "Magensäure",
     "de_article": "die",
     "de_plural": "die Magensäuren",
-    "lv": "kuņģa sula",
+    "lv": "kuņģa skābe",
     "level": "B2"
   },
   {
@@ -9313,8 +9313,139 @@ const B2_WORDS = [
     "de": "Nachdruck",
     "de_article": "der",
     "de_plural": "die Nachdrucke",
-    "lv": "uzsvērums • spēks • spars",
-    "level": "B2"
+    "lv": "uzsvērums",
+    "level": "B2",
+    "study": {
+      "id": "b2-nachdruck",
+      "layout": "standardStudy",
+      "translation": "uzsvērums • atkārtots izdevums",
+      "explanation": [
+        "Galvenā doma: der Nachdruck var nozīmēt uzsvērumu vai grāmatas atkārtotu izdevumu.",
+        "Nachdruck auf etwas legen = likt uzsvērumu uz kaut ko, uzstāt uz kaut ko.",
+        "Der Nachdruck eines Buches = grāmatas atkārtots izdevums (reprint).",
+        "Konteksts (darījumi/pārrunas vai izdevniecība) nosaka pareizo nozīmi."
+      ],
+      "examples": [
+        {
+          "de": "Er legt Nachdruck auf die Frist.",
+          "lv": "viņš uzsver termiņu."
+        },
+        {
+          "de": "Mit Nachdruck forderte sie eine Antwort.",
+          "lv": "viņa uzstājīgi pieprasīja atbildi."
+        },
+        {
+          "de": "Der Nachdruck des Romans erschien im Frühjahr.",
+          "lv": "romāna atkārtotais izdevums iznāca pavasarī."
+        },
+        {
+          "de": "Dieses Buch ist bereits im Nachdruck.",
+          "lv": "šī grāmata jau ir atkārtotā izdevumā."
+        },
+        {
+          "de": "Der Verlag plant einen Nachdruck.",
+          "lv": "izdevējs plāno atkārtotu izdevumu."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Nachdruck legen auf",
+          "meaning": "uzsvērt, uzstāt",
+          "example": "Er legt Nachdruck auf die Frist. = Viņš uzsver termiņu."
+        },
+        {
+          "word": "der Nachdruck (Buch)",
+          "meaning": "atkārtots izdevums",
+          "example": "Der Nachdruck erschien im Frühjahr. = Atkārtotais izdevums iznāca pavasarī."
+        },
+        {
+          "word": "der Druck",
+          "meaning": "spiediens / druka",
+          "example": "Unter Druck stehen = būt spiedienā."
+        }
+      ],
+      "tip": [
+        "Pārrunās un prasībās: Nachdruck = uzsvērums.",
+        "Izdevniecībā un grāmatās: Nachdruck = atkārtots izdevums."
+      ],
+      "important": [
+        "Nachdruck auf etwas legen = likt uzsvērumu.",
+        "der Nachdruck eines Buches = atkārtots izdevums."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "der Nachdruck"
+          ],
+          "purple": [
+            "uzsvērums",
+            "atkārtots izdevums"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Nachdruck"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "uzsver"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Nachdruck"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "uzstājīgi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Nachdruck"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "atkārtotais izdevums"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Nachdruck"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "atkārtotā izdevumā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Nachdruck"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "atkārtotu izdevumu"
+              ]
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "de": "nachdrücklich",
@@ -9459,7 +9590,7 @@ const B2_WORDS = [
   {
     "de": "Nesselfieber",
     "de_article": "das",
-    "lv": "alerģija • nātru drudzis",
+    "lv": "nātrene",
     "level": "B2"
   },
   {
@@ -10227,7 +10358,7 @@ const B2_WORDS = [
   },
   {
     "de": "raffiniert",
-    "lv": "tīrīts • rafinēts • izsmalcināts • viltīgs • rūdīts",
+    "lv": "rafinēts • viltīgs",
     "level": "B2"
   },
   {
@@ -10921,7 +11052,7 @@ const B2_WORDS = [
   {
     "de": "Schmuggel",
     "de_article": "der",
-    "lv": "kontrabanda • spekulācija",
+    "lv": "kontrabanda",
     "level": "B2"
   },
   {
@@ -11395,7 +11526,7 @@ const B2_WORDS = [
   },
   {
     "de": "smart",
-    "lv": "eleganti ģērbts",
+    "lv": "gudrs • viltīgs",
     "level": "B2"
   },
   {
@@ -11654,7 +11785,7 @@ const B2_WORDS = [
   },
   {
     "de": "spärlich",
-    "lv": "trūcīgs • nabadzīgs",
+    "lv": "niecīgs • skops • rets",
     "level": "B2"
   },
   {
@@ -12244,7 +12375,7 @@ const B2_WORDS = [
     "de": "Tusch",
     "de_article": "der",
     "de_plural": "die Tusche",
-    "lv": "tušs",
+    "lv": "fanfāra",
     "level": "B2"
   },
   {
@@ -12997,7 +13128,7 @@ const B2_WORDS = [
     "de": "Vergehen",
     "de_article": "das",
     "de_plural": "die Vergehen",
-    "lv": "pārkāpums • noziegums",
+    "lv": "pārkāpums",
     "level": "B2"
   },
   {
@@ -14101,7 +14232,7 @@ const B2_WORDS = [
     "de": "Wettrennen",
     "de_article": "das",
     "de_plural": "die Wettrennen",
-    "lv": "zirgu skriešanās sacīkstes",
+    "lv": "sacīkstes • skrējiens",
     "level": "B2"
   },
   {
@@ -14393,7 +14524,7 @@ const B2_WORDS = [
     "de": "Zwischenraum",
     "de_article": "der",
     "de_plural": "die Zwischenräume",
-    "lv": "starplaiks • atstarpe • starptelpa",
+    "lv": "atstarpe • starptelpa",
     "level": "B2"
   },
   {

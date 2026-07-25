@@ -11582,13 +11582,13 @@ const A2_WORDS = [
     "de": "Bank",
     "de_article": "die",
     "de_plural": "die Banken",
-    "lv": "banka • sols • sēklis",
+    "lv": "banka",
     "level": "A2",
     "study": {
       "id": "a2-bank",
       "layout": "standardStudy",
       "translation": "banka • sols • sēklis",
-      "explanation": "Galvenā doma: die Bank nozīmē banku, solu vai sēkli atkarībā no situācijas. die Bank var nozīmēt finanšu iestādi. Tā var nozīmēt arī soliņu, uz kura sēž. Dabas un ūdens kontekstā Bank var nozīmēt sēkli vai smilšu banku. Salikteņi palīdz atšķirt nozīmes: Bankfiliale, Parkbank, Sandbank. Konteksts par naudu, sēdēšanu vai ūdeni parasti uzreiz pasaka pareizo nozīmi.",
+      "explanation": "Galvenā doma: die Bank nozīmē banku, solu vai sēkli atkarībā no situācijas. Finanšu nozīmei daudzskaitlis ir die Banken. Soliņam (Sitzbank) daudzskaitlis ir die Bänke — ar umlautu! Dabas kontekstā Sandbank nozīmē smilšu sēkli. Salikteņi palīdz: Bankfiliale, Parkbank, Sandbank.",
       "examples": [
         {
           "de": "Ich gehe heute zur Bank.",
@@ -11613,13 +11613,22 @@ const A2_WORDS = [
         {
           "de": "Vor dem Haus steht eine Holzbank.",
           "lv": "mājas priekšā stāv koka sols."
+        },
+        {
+          "de": "Die Bänke im Park sind nass.",
+          "lv": "soliņi parkā ir mitri."
         }
       ],
       "comparison": [
         {
-          "word": "die Bank",
-          "meaning": "banka / sols / sēklis",
-          "example": "Ich gehe zur Bank. = Es eju uz banku."
+          "word": "die Bank (Finanz)",
+          "meaning": "banka",
+          "example": "Ich gehe zur Bank. = Es eju uz banku. Plural: die Banken."
+        },
+        {
+          "word": "die Bank (Sitzbank)",
+          "meaning": "sols / soliņš",
+          "example": "Wir sitzen auf einer Bank. = Mēs sēžam uz soliņa. Plural: die Bänke."
         },
         {
           "word": "die Bankfiliale",
@@ -11648,13 +11657,13 @@ const A2_WORDS = [
             "text": "Ja runa ir par naudu, kontu vai maksājumiem, Bank nozīmē banka."
           },
           {
-            "text": "Ja runa ir par sēdēšanu parkā vai uz ielas, Bank nozīmē sols vai soliņš."
+            "text": "Ja runa ir par sēdēšanu parkā vai uz ielas, Bank nozīmē sols — daudzskaitlī die Bänke."
           }
         ]
       },
       "important": {
-        "text": "Bank ir konteksta vārds.",
-        "example": "zur Bank gehen = iet uz banku. auf der Bank sitzen = sēdēt uz soliņa. Sandbank = smilšu sēklis."
+        "text": "Bank ir konteksta vārds ar atšķirīgiem daudzskaitļiem.",
+        "example": "die Banken = bankas (finanses). die Bänke = soliņi. Sandbank = smilšu sēklis."
       },
       "sectionAccents": {
         "examples": [
@@ -11766,6 +11775,23 @@ const A2_WORDS = [
                 "koka",
                 "sols",
                 "stāv"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Bänke",
+                "Park"
+              ]
+            },
+            "lv": {
+              "green": [
+                "soliņi"
+              ],
+              "purple": [
+                "parkā",
+                "mitri"
               ]
             }
           }
@@ -18202,7 +18228,7 @@ const A2_WORDS = [
   {
     "de": "Boxen",
     "de_article": "das",
-    "lv": "boksēties • bokss",
+    "lv": "bokss",
     "level": "A2"
   },
   {
@@ -18216,7 +18242,7 @@ const A2_WORDS = [
     "de": "Braten",
     "de_article": "der",
     "de_plural": "die Braten",
-    "lv": "cept • cepetis",
+    "lv": "cepetis",
     "level": "A2"
   },
   {
@@ -42905,12 +42931,12 @@ const A2_WORDS = [
     "de": "Körper",
     "de_article": "der",
     "de_plural": "die Körper",
-    "lv": "ķermenis • korpuss",
+    "lv": "ķermenis",
     "level": "A2",
     "study": {
       "id": "a2-körper",
       "layout": "standardStudy",
-      "translation": "ķermenis • korpuss",
+      "translation": "ķermenis",
       "explanation": [
         "Galvenā doma: Körper visbiežāk nozīmē cilvēka vai dzīvnieka ķermeni — miesu, veselību un fizisko stāvokli.",
         "Veselības, sporta un medicīnas tekstos Körper parasti ir ķermenis: Der Körper braucht Ruhe.",
@@ -45321,8 +45347,161 @@ const A2_WORDS = [
     "de": "Leiter",
     "de_article": "der",
     "de_plural": "die Leiter",
-    "lv": "vadītājs • pieslienamās kāpnes",
-    "level": "A2"
+    "lv": "vadītājs",
+    "level": "A2",
+    "study": {
+      "id": "a2-leiter",
+      "layout": "standardStudy",
+      "translation": "vadītājs • pieslienamās kāpnes",
+      "explanation": [
+        "Galvenā doma: Leiter ir homonīms — atkarībā no dzimtes nozīmē vadītāju vai kāpnes.",
+        "der Leiter (vīr. dz.) = vadītājs, priekšnieks; daudzskaitlis: die Leiter.",
+        "die Leiter (siev. dz.) = (pieslienamās) kāpnes; daudzskaitlis: die Leitern.",
+        "Artikuls un konteksts parasti uzreiz norāda pareizo nozīmi."
+      ],
+      "examples": [
+        {
+          "de": "Der Leiter der Firma ist sehr nett.",
+          "lv": "uzņēmuma vadītājs ir ļoti jauks."
+        },
+        {
+          "de": "Unser Abteilungsleiter kommt morgen.",
+          "lv": "mūsu nodaļas vadītājs rīt atbrauc."
+        },
+        {
+          "de": "Ich steige auf die Leiter.",
+          "lv": "es kāpju uz kāpnēm."
+        },
+        {
+          "de": "Die Leiter steht an der Wand.",
+          "lv": "kāpnes stāv pie sienas."
+        },
+        {
+          "de": "Bring bitte die Leitern aus dem Keller.",
+          "lv": "lūdzu, iznes kāpnes no pagraba."
+        },
+        {
+          "de": "Der Projektleiter erklärt den Plan.",
+          "lv": "projekta vadītājs izskaidro plānu."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Leiter",
+          "meaning": "vadītājs",
+          "example": "Der Leiter der Firma. = Uzņēmuma vadītājs. Plural: die Leiter."
+        },
+        {
+          "word": "die Leiter",
+          "meaning": "pieslienamās kāpnes",
+          "example": "Ich steige auf die Leiter. = Es kāpju uz kāpnēm. Plural: die Leitern."
+        },
+        {
+          "word": "der Abteilungsleiter",
+          "meaning": "nodaļas vadītājs",
+          "example": "Unser Abteilungsleiter kommt morgen."
+        },
+        {
+          "word": "die Treppe",
+          "meaning": "kāpnes (pastāvīgas)",
+          "example": "Wir gehen die Treppe hinauf."
+        }
+      ],
+      "tip": [
+        "der Leiter = cilvēks, kas vada (vadītājs).",
+        "die Leiter = priekšmets, uz kura kāpj (kāpnes)."
+      ],
+      "important": [
+        "der Leiter (vīr.) = vadītājs, Plural die Leiter.",
+        "die Leiter (siev.) = kāpnes, Plural die Leitern."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "der Leiter",
+            "die Leiter"
+          ],
+          "purple": [
+            "vadītājs",
+            "kāpnes"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Leiter"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vadītājs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Abteilungsleiter"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vadītājs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Leiter"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kāpnēm"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Leiter"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kāpnes"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Leitern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kāpnes"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Projektleiter"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vadītājs"
+              ]
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Leitung",
@@ -48651,7 +48830,7 @@ const A2_WORDS = [
   },
   {
     "de": "nu",
-    "lv": "acumirkli",
+    "lv": "acumirklī",
     "level": "A2"
   },
   {
@@ -49805,7 +49984,7 @@ const A2_WORDS = [
     "de": "Pension",
     "de_article": "die",
     "de_plural": "die Pensionen",
-    "lv": "pensija",
+    "lv": "viesu nams • pansija",
     "level": "A2"
   },
   {
@@ -52044,7 +52223,7 @@ const A2_WORDS = [
     "de": "Rezeption",
     "de_article": "die",
     "de_plural": "die Rezeptionen",
-    "lv": "viesnīcas administrācija",
+    "lv": "reģistratūra • recepcija",
     "level": "A2"
   },
   {
@@ -52417,7 +52596,7 @@ const A2_WORDS = [
   {
     "de": "Rindfleisch",
     "de_article": "das",
-    "lv": "liellopu vērša gaļa",
+    "lv": "liellopu gaļa",
     "level": "A2"
   },
   {
@@ -69439,13 +69618,13 @@ const A2_WORDS = [
     "de": "Wert",
     "de_article": "der",
     "de_plural": "die Werte",
-    "lv": "vērts • vērtība",
+    "lv": "vērtība",
     "level": "A2",
     "study": {
       "id": "a2-wert",
       "layout": "standardStudy",
-      "translation": "vērts",
-      "explanation": "Galvenā doma: wert nozīmē vērts, parasti jautājumā vai izteikumā par vērtību. Frāze es ist wert nozīmē “tas ir tā vērts”. Ar naudu bieži lieto wert sein: Das ist 50 Euro wert. Īpašības vārds dārgs parasti ir teuer, nevis wert.",
+      "translation": "vērtība",
+      "explanation": "Galvenā doma: der Wert nozīmē vērtību (piem. materiālu, morālu). Atsevišķi īpašības vārds wert nozīmē vērts: Das ist viel wert. Frāze es ist wert nozīmē “tas ir tā vērts”. Ar naudu bieži lieto wert sein: Das ist 50 Euro wert. Īpašības vārds dārgs parasti ir teuer, nevis wert.",
       "examples": [
         {
           "de": "Das ist viel Geld wert.",
