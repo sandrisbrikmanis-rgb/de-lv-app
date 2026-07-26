@@ -38768,5 +38768,1284 @@
     }
    }
   }
+ },
+ "b1-stift": {
+  "de": "Stift",
+  "de_article": "der",
+  "de_plural": "die Stifte",
+  "lv": "pliiats",
+  "level": "B1",
+  "study": {
+   "id": "b1-stift",
+   "layout": "standardStudy",
+   "translation": "pliiats",
+   "explanation": "Põhiidee: der Stift on igapäevaselt kirjutusvahend - pliiats või pastapliiats. Tehniliselt võib see olla ka tihvt või väike metallosa.",
+   "examples": [
+    {
+     "de": "Hast du einen Stift?",
+     "lv": "kas sul on pliiats?"
+    },
+    {
+     "de": "Ich schreibe mit einem Stift.",
+     "lv": "ma kirjutan pastapliiatsiga."
+    },
+    {
+     "de": "Der Stift hält die Teile zusammen.",
+     "lv": "tihvt hoiab osad koos."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "der Stift",
+     "meaning": "pliiats, pastapliiats • tihvt",
+     "example": "Hast du einen Stift? = Kas sul on pliiats?"
+    },
+    {
+     "word": "der Bleistift",
+     "meaning": "pliiats",
+     "example": "Der Bleistift ist spitz. = Pliiats on terav."
+    },
+    {
+     "word": "der Kugelschreiber",
+     "meaning": "kuulpeen",
+     "example": "Der Kugelschreiber schreibt blau. = Kuulpeen kirjutab sinist värvi."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Koolis või kontoris on Stift tavaliselt kirjutusvahend."
+     }
+    ]
+   },
+   "important": {
+    "text": "Tehnikas võib der Stift olla tihvt, mitte pliiats."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "der Stift",
+     "purple": "kirjutusvahend",
+     "red": "tihvt"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Stift"
+      },
+      "lv": {
+       "purple": "pliiats"
+      }
+     },
+     {
+      "de": {
+       "blue": "Stift"
+      },
+      "lv": {
+       "purple": "pastapliiatsiga"
+      }
+     },
+     {
+      "de": {
+       "blue": "Stift",
+       "yellow": "Teile"
+      },
+      "lv": {
+       "red": "Tihvt"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "der Stift"
+      },
+      "meaning": {
+       "purple": "pliiats"
+      },
+      "example": {
+       "blue": "Stift"
+      }
+     },
+     {
+      "word": {
+       "green": "der Bleistift"
+      },
+      "meaning": {
+       "purple": "pliiats"
+      },
+      "example": {
+       "red": "Bleistift"
+      }
+     },
+     {
+      "word": {
+       "green": "der Kugelschreiber"
+      },
+      "meaning": {
+       "purple": "kuulpeen"
+      },
+      "example": {
+       "red": "Kugelschreiber"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "Stift",
+     "purple": "kirjutusvahend"
+    },
+    "important": {
+     "blue": "der Stift",
+     "red": "tihvt"
+    }
+   }
+  }
+ },
+ "b1-stillen": {
+  "de": "stillen",
+  "lv": "imetama",
+  "level": "B1",
+  "study": {
+   "id": "b1-stillen",
+   "layout": "standardStudy",
+   "translation": "imetama",
+   "explanation": "Põhiidee: stillen tähendab enamasti lapse imetamist. Vajaduste, janu või uudishimu puhul tähendab see rahuldamist või kustutamist.",
+   "examples": [
+    {
+     "de": "Die Mutter stillt ihr Baby.",
+     "lv": "ema imetab oma last."
+    },
+    {
+     "de": "Wasser stillt den Durst.",
+     "lv": "vesi kustutab janu."
+    },
+    {
+     "de": "Das Gespräch stillte ihre Neugier.",
+     "lv": "vestlus rahuldas tema uudishimu."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "stillen",
+     "meaning": "imetama • kustutama",
+     "example": "Die Mutter stillt das Baby. = Ema imetab last."
+    },
+    {
+     "word": "beruhigen",
+     "meaning": "rahustama",
+     "example": "Ich beruhige das Kind. = Ma rahustan last."
+    },
+    {
+     "word": "füttern",
+     "meaning": "toitma",
+     "example": "Ich füttere das Baby. = Ma toidan last."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Baby stillen = imetama; Durst stillen = janu kustutama."
+     }
+    ]
+   },
+   "important": {
+    "text": "stillen ei ole sama, mis still sein. stillen on tegusõna."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "stillen",
+     "purple": "imetamist",
+     "red": "rahuldamist"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "stillt",
+       "green": "Mutter",
+       "yellow": "Baby"
+      },
+      "lv": {
+       "purple": "imetab"
+      }
+     },
+     {
+      "de": {
+       "blue": "stillt",
+       "yellow": "Durst"
+      },
+      "lv": {
+       "red": "kustutab"
+      }
+     },
+     {
+      "de": {
+       "blue": "stillte",
+       "yellow": "Neugier"
+      },
+      "lv": {
+       "red": "rahuldas"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "stillen"
+      },
+      "meaning": {
+       "purple": "imetama"
+      },
+      "example": {
+       "blue": "stillt",
+       "yellow": "Baby"
+      }
+     },
+     {
+      "word": {
+       "green": "beruhigen"
+      },
+      "meaning": {
+       "purple": "rahustama"
+      },
+      "example": {
+       "red": "beruhige",
+       "yellow": "Kind"
+      }
+     },
+     {
+      "word": {
+       "green": "füttern"
+      },
+      "meaning": {
+       "purple": "toitma"
+      },
+      "example": {
+       "red": "füttere",
+       "yellow": "Baby"
+      }
+     }
+    ],
+    "tip": {
+     "blue": [
+      "Baby stillen",
+      "Durst stillen"
+     ],
+     "purple": "imetama",
+     "red": "kustutama"
+    },
+    "important": {
+     "blue": "stillen",
+     "red": "still sein"
+    }
+   }
+  }
+ },
+ "b1-stoßen": {
+  "de": "stoßen",
+  "lv": "tõukama",
+  "level": "B1",
+  "study": {
+   "id": "b1-stoßen",
+   "layout": "standardStudy",
+   "translation": "tõukama",
+   "explanation": "Põhiidee: stoßen tähendab tõukamist, põrkamist või millegagi kokku põrkumist. Konstruktsioon auf etwas stoßen tähendab millelegi juhuslikult otsa sattumist või leidmist.",
+   "examples": [
+    {
+     "de": "Bitte stoß mich nicht.",
+     "lv": "palun ära tõuka mind."
+    },
+    {
+     "de": "Der Wagen stieß gegen die Mauer.",
+     "lv": "auto põrkas vastu seina."
+    },
+    {
+     "de": "Wir sind auf ein Problem gestoßen.",
+     "lv": "me sattusime probleemile otsa."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "stoßen",
+     "meaning": "tõukama, põrkama • otsa sattuma",
+     "example": "Er stößt gegen die Tür. = Ta põrkab vastu ust."
+    },
+    {
+     "word": "schieben",
+     "meaning": "lükkama pikemas liikumises",
+     "example": "Ich schiebe den Wagen. = Ma lükkan käru."
+    },
+    {
+     "word": "treffen",
+     "meaning": "kohtama või tabama",
+     "example": "Ich treffe ihn morgen. = Ma kohtan teda homme."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Millegi vastu tõuke või kokkupõrkega: stoßen."
+     }
+    ]
+   },
+   "important": {
+    "text": "auf etwas stoßen tähendab millelegi otsa sattumist, mitte lihtsalt tõukamist."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "stoßen",
+     "purple": "tõukamist",
+     "red": "auf etwas stoßen"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "stoß",
+       "green": "mich"
+      },
+      "lv": {
+       "purple": "ära tõuka"
+      }
+     },
+     {
+      "de": {
+       "blue": "stieß",
+       "yellow": "Mauer"
+      },
+      "lv": {
+       "red": "põrkas"
+      }
+     },
+     {
+      "de": {
+       "blue": "gestoßen",
+       "yellow": "Problem"
+      },
+      "lv": {
+       "red": "sattusime otsa"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "stoßen"
+      },
+      "meaning": {
+       "purple": "tõukama"
+      },
+      "example": {
+       "blue": "stößt",
+       "yellow": "Tür"
+      }
+     },
+     {
+      "word": {
+       "green": "schieben"
+      },
+      "meaning": {
+       "purple": "lükkama"
+      },
+      "example": {
+       "red": "schiebe",
+       "yellow": "Wagen"
+      }
+     },
+     {
+      "word": {
+       "green": "treffen"
+      },
+      "meaning": {
+       "purple": "kohtama"
+      },
+      "example": {
+       "red": "treffe",
+       "green": "ihn"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "stoßen",
+     "purple": "tõuke"
+    },
+    "important": {
+     "blue": "auf etwas stoßen",
+     "red": "otsa sattumist"
+    }
+   }
+  }
+ },
+ "b1-streichen": {
+  "de": "streichen",
+  "lv": "maha tõmbama",
+  "level": "B1",
+  "study": {
+   "id": "b1-streichen",
+   "layout": "standardStudy",
+   "translation": "maha tõmbama",
+   "explanation": "Põhiidee: streichen tähendab mahatõmbamist või nimekirjast eemaldamist. Seina, aia või värviga tähendab see värvimist; käega - silitamist.",
+   "examples": [
+    {
+     "de": "Wir streichen diesen Punkt von der Liste.",
+     "lv": "me tõmbame selle punkti nimekirjast maha."
+    },
+    {
+     "de": "Am Wochenende streichen wir die Küche weiß.",
+     "lv": "nädalavahetusel värvime köögi valgeks."
+    },
+    {
+     "de": "Sie streicht dem Kind über den Kopf.",
+     "lv": "ta silitab lapse pead."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "streichen",
+     "meaning": "maha tõmbama • värvima • silitama",
+     "example": "Der Termin wird gestrichen. = Tähtaeg tühistatakse."
+    },
+    {
+     "word": "löschen",
+     "meaning": "kustutama faili, teksti või tuld",
+     "example": "Ich lösche die Datei. = Ma kustutan faili."
+    },
+    {
+     "word": "malen",
+     "meaning": "joonistama või maalima pilti",
+     "example": "Das Kind malt ein Bild. = Laps joonistab pilti."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Nimekirjast välja või pintsliga üle pinna: streichen."
+     }
+    ]
+   },
+   "important": {
+    "text": "eine Wand streichen tähendab seina värvimist, mitte seina mahatõmbamist."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "streichen",
+     "purple": "maha tõmbamist",
+     "red": "värvimist"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "streichen",
+       "yellow": "Punkt"
+      },
+      "lv": {
+       "purple": "tõmbame maha"
+      }
+     },
+     {
+      "de": {
+       "blue": "streichen",
+       "yellow": "Küche"
+      },
+      "lv": {
+       "red": "värvime"
+      }
+     },
+     {
+      "de": {
+       "blue": "streicht",
+       "green": "Kind"
+      },
+      "lv": {
+       "red": "silitab"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "streichen"
+      },
+      "meaning": {
+       "purple": "maha tõmbama"
+      },
+      "example": {
+       "blue": "gestrichen",
+       "yellow": "Termin"
+      }
+     },
+     {
+      "word": {
+       "green": "löschen"
+      },
+      "meaning": {
+       "purple": "kustutama"
+      },
+      "example": {
+       "red": "lösche",
+       "yellow": "Datei"
+      }
+     },
+     {
+      "word": {
+       "green": "malen"
+      },
+      "meaning": {
+       "purple": "joonistama"
+      },
+      "example": {
+       "red": "malt",
+       "yellow": "Bild"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "streichen",
+     "purple": "nimekirjast",
+     "red": "pintsliga"
+    },
+    "important": {
+     "blue": "streichen",
+     "red": "värvimist"
+    }
+   }
+  }
+ },
+ "b1-strom": {
+  "de": "Strom",
+  "de_article": "der",
+  "de_plural": "die Ströme",
+  "lv": "vool",
+  "level": "B1",
+  "study": {
+   "id": "b1-strom",
+   "layout": "standardStudy",
+   "translation": "vool",
+   "explanation": "Põhiidee: der Strom on igapäevaselt enamasti elekter või elektrivool. Teises kontekstis võib see olla suur jõgi või vool.",
+   "examples": [
+    {
+     "de": "Der Strom ist ausgefallen.",
+     "lv": "vool on kadunud."
+    },
+    {
+     "de": "Dieses Gerät verbraucht viel Strom.",
+     "lv": "see seade tarbib palju voolu."
+    },
+    {
+     "de": "Der Strom fließt ins Meer.",
+     "lv": "suur vool suubub merre."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "der Strom",
+     "meaning": "elekter, vool • suur jõgi",
+     "example": "Der Strom ist weg. = Voolu ei ole."
+    },
+    {
+     "word": "der Fluss",
+     "meaning": "jõgi",
+     "example": "Der Fluss ist breit. = Jõgi on lai."
+    },
+    {
+     "word": "die Energie",
+     "meaning": "energia",
+     "example": "Wir sparen Energie. = Me säästame energiat."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Kodus, seadmetes ja arvetes tähendab der Strom tavaliselt elektrit."
+     }
+    ]
+   },
+   "important": {
+    "text": "der Strom ei ole ainult jõgi; igapäevaselt tähendab see väga sageli elektrit."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "der Strom",
+     "purple": "elekter",
+     "red": "jõgi"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Strom"
+      },
+      "lv": {
+       "purple": "Vool"
+      }
+     },
+     {
+      "de": {
+       "blue": "Strom",
+       "yellow": "Gerät"
+      },
+      "lv": {
+       "purple": "voolu"
+      }
+     },
+     {
+      "de": {
+       "blue": "Strom",
+       "yellow": "Meer"
+      },
+      "lv": {
+       "red": "vool"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "der Strom"
+      },
+      "meaning": {
+       "purple": "elekter"
+      },
+      "example": {
+       "blue": "Strom"
+      }
+     },
+     {
+      "word": {
+       "green": "der Fluss"
+      },
+      "meaning": {
+       "purple": "jõgi"
+      },
+      "example": {
+       "red": "Fluss"
+      }
+     },
+     {
+      "word": {
+       "green": "die Energie"
+      },
+      "meaning": {
+       "purple": "energia"
+      },
+      "example": {
+       "red": "Energie"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "der Strom",
+     "purple": "elektrit"
+    },
+    "important": {
+     "blue": "der Strom",
+     "red": "jõgi",
+     "purple": "elektrit"
+    }
+   }
+  }
+ },
+ "b1-stürzen": {
+  "de": "stürzen",
+  "lv": "kukkuma",
+  "level": "B1",
+  "study": {
+   "id": "b1-stürzen",
+   "layout": "standardStudy",
+   "translation": "kukkuma",
+   "explanation": "Põhiidee: stürzen tähendab järsku kukkumist või langemist. Objektiga võib see tähendada ümber kukutamist, ka valitsuse või ametniku kukutamist.",
+   "examples": [
+    {
+     "de": "Er stürzte auf der Treppe.",
+     "lv": "ta kukkus trepil."
+    },
+    {
+     "de": "Der Sturm stürzte mehrere Bäume um.",
+     "lv": "torm murdis mitu puud."
+    },
+    {
+     "de": "Die Regierung wurde gestürzt.",
+     "lv": "valitsus kukutati."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "stürzen",
+     "meaning": "järsult kukkuma • kukutama",
+     "example": "Er stürzt zu Boden. = Ta kukub maha."
+    },
+    {
+     "word": "fallen",
+     "meaning": "kukkuma neutraalselt",
+     "example": "Das Glas fällt auf den Boden. = Klaas kukub põrandale."
+    },
+    {
+     "word": "umfallen",
+     "meaning": "ümber kukkuma",
+     "example": "Der Stuhl fällt um. = Tool kukub ümber."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Järsk kukkumine või poliitiline kukutamine: stürzen."
+     }
+    ]
+   },
+   "important": {
+    "text": "Regierung stürzen tähendab valitsuse kukutamist, mitte lihtsalt valitsuse kukkumist."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "stürzen",
+     "purple": "kukkumist",
+     "red": "kukutama"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "stürzte",
+       "yellow": "Treppe"
+      },
+      "lv": {
+       "purple": "kukkus"
+      }
+     },
+     {
+      "de": {
+       "blue": "stürzte",
+       "yellow": "Bäume"
+      },
+      "lv": {
+       "red": "murdis"
+      }
+     },
+     {
+      "de": {
+       "blue": "gestürzt",
+       "green": "Regierung"
+      },
+      "lv": {
+       "red": "kukutati"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "stürzen"
+      },
+      "meaning": {
+       "purple": "kukkuma"
+      },
+      "example": {
+       "blue": "stürzt"
+      }
+     },
+     {
+      "word": {
+       "green": "fallen"
+      },
+      "meaning": {
+       "purple": "kukkuma"
+      },
+      "example": {
+       "red": "fällt"
+      }
+     },
+     {
+      "word": {
+       "green": "umfallen"
+      },
+      "meaning": {
+       "purple": "ümber kukkuma"
+      },
+      "example": {
+       "red": "fällt um"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "stürzen",
+     "purple": "kukkumine",
+     "red": "kukutamine"
+    },
+    "important": {
+     "blue": "stürzen",
+     "red": "kukutamist"
+    }
+   }
+  }
+ },
+ "b1-szene": {
+  "de": "Szene",
+  "de_article": "die",
+  "de_plural": "die Szenen",
+  "lv": "stseen",
+  "level": "B1",
+  "study": {
+   "id": "b1-szene",
+   "layout": "standardStudy",
+   "translation": "stseen",
+   "explanation": "Põhiidee: die Szene tähendab stseeni filmis, teatris või konkreetses olukorras. Kõnekeeles võib see tähendada ka kindlat inimeste ringkonda.",
+   "examples": [
+    {
+     "de": "Diese Szene im Film ist sehr stark.",
+     "lv": "see stseen filmis on väga tugev."
+    },
+    {
+     "de": "Mach bitte keine Szene.",
+     "lv": "palun ära tee skandaali."
+    },
+    {
+     "de": "Er kennt die Berliner Musikszene gut.",
+     "lv": "ta tunneb hästi Berliini muusikaringkonda."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "die Szene",
+     "meaning": "stseen • ringkond",
+     "example": "Die Szene ist kurz. = Stseen on lühike."
+    },
+    {
+     "word": "die Bühne",
+     "meaning": "lava",
+     "example": "Sie steht auf der Bühne. = Ta seisab laval."
+    },
+    {
+     "word": "die Situation",
+     "meaning": "olukord",
+     "example": "Die Situation ist schwierig. = Olukord on keeruline."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Filmis on see stseen; inimeste ringkonnas või stiilis - Szene."
+     }
+    ]
+   },
+   "important": {
+    "text": "keine Szene machen tähendab skandaali mitte tegemist."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "die Szene",
+     "purple": "stseeni",
+     "red": "ringkonda"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Szene",
+       "yellow": "Film"
+      },
+      "lv": {
+       "purple": "stseen"
+      }
+     },
+     {
+      "de": {
+       "blue": "Szene"
+      },
+      "lv": {
+       "red": "skandaali"
+      }
+     },
+     {
+      "de": {
+       "blue": "Musikszene",
+       "green": "Berliner"
+      },
+      "lv": {
+       "red": "ringkonda"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "die Szene"
+      },
+      "meaning": {
+       "purple": "stseen"
+      },
+      "example": {
+       "blue": "Szene"
+      }
+     },
+     {
+      "word": {
+       "green": "die Bühne"
+      },
+      "meaning": {
+       "purple": "lava"
+      },
+      "example": {
+       "red": "Bühne"
+      }
+     },
+     {
+      "word": {
+       "green": "die Situation"
+      },
+      "meaning": {
+       "purple": "olukord"
+      },
+      "example": {
+       "red": "Situation"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "Szene",
+     "purple": "stseen"
+    },
+    "important": {
+     "blue": "Szene",
+     "red": "skandaali"
+    }
+   }
+  }
+ },
+ "b1-tank": {
+  "de": "Tank",
+  "de_article": "der",
+  "de_plural": "die Tanks",
+  "lv": "paak",
+  "level": "B1",
+  "study": {
+   "id": "b1-tank",
+   "layout": "standardStudy",
+   "translation": "paak",
+   "explanation": "Põhiidee: der Tank on tavaliselt kütuse- või vedelikupaak. Sõjaväelises kontekstis on saksa keeles tanki jaoks sagedasem sõna der Panzer.",
+   "examples": [
+    {
+     "de": "Der Tank ist fast leer.",
+     "lv": "paak on peaaegu tühi."
+    },
+    {
+     "de": "Ich fülle den Tank mit Benzin.",
+     "lv": "ma täidan paagi bensiiniga."
+    },
+    {
+     "de": "Der Panzer rollt über die Straße.",
+     "lv": "tank veereb üle tänava."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "der Tank",
+     "meaning": "paak",
+     "example": "Der Tank ist leer. = Paak on tühi."
+    },
+    {
+     "word": "der Behälter",
+     "meaning": "anum, paak",
+     "example": "Der Behälter ist voll. = Anum on täis."
+    },
+    {
+     "word": "der Panzer",
+     "meaning": "sõjatank",
+     "example": "Der Panzer ist schwer. = Tank on raske."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Autos ja seadmetes Tank = paak; sõjaväeliselt tavaliselt Panzer."
+     }
+    ]
+   },
+   "important": {
+    "text": "Eestikeelne tank on saksa keeles tavaliselt der Panzer, mitte der Tank."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "der Tank",
+     "purple": "paak",
+     "red": "der Panzer"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Tank"
+      },
+      "lv": {
+       "purple": "Paak"
+      }
+     },
+     {
+      "de": {
+       "blue": "Tank",
+       "yellow": "Benzin"
+      },
+      "lv": {
+       "purple": "paagi"
+      }
+     },
+     {
+      "de": {
+       "red": "Panzer",
+       "yellow": "Straße"
+      },
+      "lv": {
+       "red": "Tank"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "der Tank"
+      },
+      "meaning": {
+       "purple": "paak"
+      },
+      "example": {
+       "blue": "Tank"
+      }
+     },
+     {
+      "word": {
+       "green": "der Behälter"
+      },
+      "meaning": {
+       "purple": "anum"
+      },
+      "example": {
+       "red": "Behälter"
+      }
+     },
+     {
+      "word": {
+       "green": "der Panzer"
+      },
+      "meaning": {
+       "purple": "sõjatank"
+      },
+      "example": {
+       "red": "Panzer"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "Tank",
+     "purple": "paak",
+     "red": "Panzer"
+    },
+    "important": {
+     "blue": "der Tank",
+     "red": "der Panzer"
+    }
+   }
+  }
+ },
+ "b1-tau": {
+  "de": "Tau",
+  "de_article": "der",
+  "de_plural": null,
+  "lv": "kaste",
+  "level": "B1",
+  "study": {
+   "id": "b1-tau",
+   "layout": "standardStudy",
+   "translation": "kaste",
+   "explanation": "Põhiidee: der Tau tähendab kastet — veepiisku murul või lehtedel. See on loenduseta (ainult ainsuses). Seevastu das Tau tähendab laevaköit või köit.",
+   "examples": [
+    {
+     "de": "Am Morgen liegt Tau auf der Wiese.",
+     "lv": "hommikul on heinamaal kaste."
+    },
+    {
+     "de": "Die Blätter sind nass vom Tau.",
+     "lv": "lehed on kastest märjad."
+    },
+    {
+     "de": "Das Schiff liegt am Tau.",
+     "lv": "laev on köie ääres."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "der Tau",
+     "meaning": "kaste",
+     "example": "Der Tau glitzert. = Kaste sädeleb. Ainult ainsuses."
+    },
+    {
+     "word": "das Tau",
+     "meaning": "laevaköis • köis",
+     "example": "Das Tau ist fest. = Köis on tugev. Mitmus: die Taue."
+    },
+    {
+     "word": "der Nebel",
+     "meaning": "udu",
+     "example": "Der Nebel ist dicht. = Udu on tihe."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Rohu või taimede kaste kohta — der Tau (mitmuseta). Laevaköie kohta — das Tau (die Taue)."
+     }
+    ]
+   },
+   "important": {
+    "text": "der Tau = kaste (ainult ainsuses). das Tau = köis (die Taue). Artikkel muudab täielikult tähendust."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "der Tau"
+     ],
+     "purple": [
+      "kaste"
+     ],
+     "green": [
+      "das Tau"
+     ]
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Tau"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kaste"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Tau"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kastest"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "Tau"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "köie"
+       ]
+      }
+     }
+    ]
+   }
+  }
+ },
+ "b1-tau-2": {
+  "de": "Tau",
+  "de_article": "das",
+  "de_plural": "die Taue",
+  "lv": "köis",
+  "level": "B1",
+  "study": {
+   "id": "b1-tau-2",
+   "layout": "standardStudy",
+   "translation": "köis",
+   "explanation": "Põhiidee: das Tau tähendab laevaköit või tugevat köit. Mitmus on die Taue. Seevastu der Tau tähendab kastet ja seda kasutatakse ainult ainsuses.",
+   "examples": [
+    {
+     "de": "Das Schiff liegt am Tau.",
+     "lv": "laev on köie ääres."
+    },
+    {
+     "de": "Die Taue sind fest gebunden.",
+     "lv": "köied on tugevalt seotud."
+    },
+    {
+     "de": "Am Morgen liegt Tau auf der Wiese.",
+     "lv": "hommikul on heinamaal kaste."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "das Tau",
+     "meaning": "laevaköis • köis",
+     "example": "Das Tau ist fest. = Köis on tugev. Mitmus: die Taue."
+    },
+    {
+     "word": "der Tau",
+     "meaning": "kaste",
+     "example": "Der Tau glitzert. = Kaste sädeleb. Ainult ainsuses."
+    },
+    {
+     "word": "das Seil",
+     "meaning": "köis",
+     "example": "Das Seil ist lang. = Köis on pikk."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Laeva kinnitamise ja köite kohta — das Tau. Rohu kaste kohta — der Tau."
+     }
+    ]
+   },
+   "important": {
+    "text": "das Tau = köis (die Taue). der Tau = kaste (ainult ainsuses). Ära sega näiteid tähenduste vahel."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "green": [
+      "das Tau"
+     ],
+     "purple": [
+      "köis"
+     ],
+     "blue": [
+      "der Tau"
+     ]
+    },
+    "examples": [
+     {
+      "de": {
+       "green": [
+        "Tau"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "köie"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "Taue"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "Köied"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Tau"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kaste"
+       ]
+      }
+     }
+    ]
+   }
+  }
  }
 }
