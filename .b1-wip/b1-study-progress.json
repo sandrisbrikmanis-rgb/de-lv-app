@@ -42727,5 +42727,1280 @@
     }
    }
   }
+ },
+ "b1-verbrennen": {
+  "de": "verbrennen",
+  "lv": "põletama",
+  "level": "B1",
+  "study": {
+   "id": "b1-verbrennen",
+   "layout": "standardStudy",
+   "translation": "põletama",
+   "explanation": "Põhiidee: verbrennen tähendab põletamist või kahjustuseni ära põlemist. Kehaosaga tähendab see põletushaava saamist.",
+   "examples": [
+    {
+     "de": "Bitte verbrenne das Papier nicht.",
+     "lv": "palun ära põleta paberit."
+    },
+    {
+     "de": "Das Holz verbrennt sehr schnell.",
+     "lv": "puit põleb väga kiiresti ära."
+    },
+    {
+     "de": "Ich habe mir die Hand verbrannt.",
+     "lv": "ma põletasin käe ära."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "verbrennen",
+     "meaning": "põletama, ära põlema, end põletama",
+     "example": "Das Papier verbrennt. = Paber põleb ära."
+    },
+    {
+     "word": "brennen",
+     "meaning": "põlema",
+     "example": "Das Feuer brennt. = Tuli põleb."
+    },
+    {
+     "word": "anzünden",
+     "meaning": "süütama",
+     "example": "Ich zünde die Kerze an. = Ma süütan küünla."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Kui tuli tekitab kahju või hävitab täielikult, kasuta verbrennen."
+     }
+    ]
+   },
+   "important": {
+    "text": "sich die Hand verbrennen tähendab käe põletamist, mitte käe täielikku ärapõletamist."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "verbrennen",
+     "purple": "põletamist",
+     "red": "end põletama"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "verbrenne",
+       "yellow": "Papier"
+      },
+      "lv": {
+       "purple": "ära põleta"
+      }
+     },
+     {
+      "de": {
+       "blue": "verbrennt",
+       "yellow": "Holz"
+      },
+      "lv": {
+       "purple": "põleb ära"
+      }
+     },
+     {
+      "de": {
+       "blue": "verbrannt",
+       "yellow": "Hand"
+      },
+      "lv": {
+       "red": "põletasin ära"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "verbrennen"
+      },
+      "meaning": {
+       "purple": "põletama"
+      },
+      "example": {
+       "blue": "verbrennt"
+      }
+     },
+     {
+      "word": {
+       "green": "brennen"
+      },
+      "meaning": {
+       "purple": "põlema"
+      },
+      "example": {
+       "red": "brennt"
+      }
+     },
+     {
+      "word": {
+       "green": "anzünden"
+      },
+      "meaning": {
+       "purple": "süütama"
+      },
+      "example": {
+       "red": "zünde"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "verbrennen",
+     "purple": "tuli"
+    },
+    "important": {
+     "blue": "verbrennen",
+     "red": "põletamist"
+    }
+   }
+  }
+ },
+ "b1-verderben": {
+  "de": "verderben",
+  "lv": "rikkuma",
+  "level": "B1",
+  "study": {
+   "id": "b1-verderben",
+   "layout": "standardStudy",
+   "translation": "rikkuma",
+   "explanation": "Põhiidee: verderben tähendab millegi rikkumist või ise riknemist. Toidu puhul tähendab see sageli, et see pole enam söödav.",
+   "examples": [
+    {
+     "de": "Der Regen verdirbt den Ausflug.",
+     "lv": "vihm rikub väljasõidu."
+    },
+    {
+     "de": "Die Milch ist verdorben.",
+     "lv": "piim on riknenud."
+    },
+    {
+     "de": "Die schlechte Nachricht verdarb ihm die Stimmung.",
+     "lv": "halb uudis rikkus tema tuju."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "verderben",
+     "meaning": "rikkuma • riknema",
+     "example": "Die Milch ist verdorben. = Piim on riknenud."
+    },
+    {
+     "word": "kaputtmachen",
+     "meaning": "katki tegema või lõhkuma eset",
+     "example": "Er macht das Handy kaputt. = Ta teeb telefoni katki."
+    },
+    {
+     "word": "schlecht werden",
+     "meaning": "riknema toidu kohta",
+     "example": "Die Milch wird schlecht. = Piim rikneb."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Toit, plaan või tuju võib verderben."
+     }
+    ]
+   },
+   "important": {
+    "text": "verdorben toidu kohta tähendab riknenud, mitte lihtsalt halva maitsega."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "verderben",
+     "purple": "rikkumist",
+     "red": "riknema"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "verdirbt",
+       "yellow": "Ausflug"
+      },
+      "lv": {
+       "purple": "rikub"
+      }
+     },
+     {
+      "de": {
+       "blue": "verdorben",
+       "yellow": "Milch"
+      },
+      "lv": {
+       "red": "riknenud"
+      }
+     },
+     {
+      "de": {
+       "blue": "verdarb",
+       "yellow": "Stimmung"
+      },
+      "lv": {
+       "purple": "rikkus"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "verderben"
+      },
+      "meaning": {
+       "purple": "rikkuma"
+      },
+      "example": {
+       "blue": "verdorben"
+      }
+     },
+     {
+      "word": {
+       "green": "kaputtmachen"
+      },
+      "meaning": {
+       "purple": "katki tegema"
+      },
+      "example": {
+       "red": "kaputt"
+      }
+     },
+     {
+      "word": {
+       "green": "schlecht werden"
+      },
+      "meaning": {
+       "purple": "riknema"
+      },
+      "example": {
+       "red": "schlecht"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "verderben",
+     "yellow": [
+      "Toit",
+      "plaan",
+      "tuju"
+     ]
+    },
+    "important": {
+     "blue": "verdorben",
+     "red": "riknenud"
+    }
+   }
+  }
+ },
+ "b1-verfolgen": {
+  "de": "verfolgen",
+  "lv": "jälgima",
+  "level": "B1",
+  "study": {
+   "id": "b1-verfolgen",
+   "layout": "standardStudy",
+   "translation": "jälgima",
+   "explanation": "Põhiidee: verfolgen tähendab jälgimist, tagaajamist või jälitamist. Tähendus muutub tugevamaks, kui objekt on inimene.",
+   "examples": [
+    {
+     "de": "Die Polizei verfolgt den Täter.",
+     "lv": "politsei jälitab kurjategijat."
+    },
+    {
+     "de": "Ich verfolge die Nachrichten jeden Abend.",
+     "lv": "ma jälgin iga õhtu uudiseid."
+    },
+    {
+     "de": "Der Hund verfolgt die Katze.",
+     "lv": "koer ajab kassi taga."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "verfolgen",
+     "meaning": "jälgima, jälitama",
+     "example": "Ich verfolge die Nachrichten. = Ma jälgin uudiseid."
+    },
+    {
+     "word": "folgen",
+     "meaning": "kellegi järel käima",
+     "example": "Ich folge dir. = Ma käin sinu järel."
+    },
+    {
+     "word": "beobachten",
+     "meaning": "vaatlema",
+     "example": "Ich beobachte die Straße. = Ma vaatlen tänavat."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Uudiseid saab jälgida; inimest saab jälitada: verfolgen."
+     }
+    ]
+   },
+   "important": {
+    "text": "verfolgen inimesega tähendab sageli jälitamist, mitte rahulikult jälgimist."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "verfolgen",
+     "purple": "jälgimist",
+     "red": "jälitama"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "verfolgt",
+       "green": "Polizei"
+      },
+      "lv": {
+       "red": "jälitab"
+      }
+     },
+     {
+      "de": {
+       "blue": "verfolge",
+       "yellow": "Nachrichten"
+      },
+      "lv": {
+       "purple": "jälgin"
+      }
+     },
+     {
+      "de": {
+       "blue": "verfolgt",
+       "green": "Hund"
+      },
+      "lv": {
+       "red": "ajab taga"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "verfolgen"
+      },
+      "meaning": {
+       "purple": "jälgima"
+      },
+      "example": {
+       "blue": "verfolge"
+      }
+     },
+     {
+      "word": {
+       "green": "folgen"
+      },
+      "meaning": {
+       "purple": "järel käima"
+      },
+      "example": {
+       "red": "folge"
+      }
+     },
+     {
+      "word": {
+       "green": "beobachten"
+      },
+      "meaning": {
+       "purple": "vaatlema"
+      },
+      "example": {
+       "red": "beobachte"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "verfolgen",
+     "purple": "jälgida",
+     "red": "jälitada"
+    },
+    "important": {
+     "blue": "verfolgen",
+     "red": "jälitamist"
+    }
+   }
+  }
+ },
+ "b1-verhältnis": {
+  "de": "Verhältnis",
+  "de_article": "das",
+  "de_plural": "die Verhältnisse",
+  "lv": "suhe",
+  "level": "B1",
+  "study": {
+   "id": "b1-verhältnis",
+   "layout": "standardStudy",
+   "translation": "suhe",
+   "explanation": "Põhiidee: das Verhältnis tähendab suhet, proportsiooni või vastastikust osakaalu. Mitmuses Verhältnisse tähendab sageli olusid.",
+   "examples": [
+    {
+     "de": "Ich habe ein gutes Verhältnis zu meinen Kollegen.",
+     "lv": "mul on head suhted kolleegidega."
+    },
+    {
+     "de": "Das Verhältnis von Preis und Leistung ist gut.",
+     "lv": "hinna ja kvaliteedi suhe on hea."
+    },
+    {
+     "de": "Die politischen Verhältnisse haben sich geändert.",
+     "lv": "poliitilised olud on muutunud."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "das Verhältnis",
+     "meaning": "suhe, proportsioon, olud",
+     "example": "Das Verhältnis ist gut. = Suhe on hea."
+    },
+    {
+     "word": "die Beziehung",
+     "meaning": "isiklikud suhted",
+     "example": "Ihre Beziehung ist stabil. = Nende suhted on stabiilsed."
+    },
+    {
+     "word": "der Anteil",
+     "meaning": "osa tervikust",
+     "example": "Der Anteil ist groß. = Osa on suur."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Inimeste või arvude vahel: Verhältnis; mitmuses sageli olud."
+     }
+    ]
+   },
+   "important": {
+    "text": "Verhältnisse mitmuses tõlgitakse sageli kui olud, mitte suhted."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "das Verhältnis",
+     "purple": "suhet",
+     "red": "olusid"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Verhältnis",
+       "green": "Kollegen"
+      },
+      "lv": {
+       "purple": "suhted"
+      }
+     },
+     {
+      "de": {
+       "blue": "Verhältnis",
+       "yellow": [
+        "Preis",
+        "Leistung"
+       ]
+      },
+      "lv": {
+       "red": "suhe"
+      }
+     },
+     {
+      "de": {
+       "blue": "Verhältnisse",
+       "yellow": "politischen"
+      },
+      "lv": {
+       "red": "olud"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "das Verhältnis"
+      },
+      "meaning": {
+       "purple": "suhe"
+      },
+      "example": {
+       "blue": "Verhältnis"
+      }
+     },
+     {
+      "word": {
+       "green": "die Beziehung"
+      },
+      "meaning": {
+       "purple": "suhe"
+      },
+      "example": {
+       "red": "Beziehung"
+      }
+     },
+     {
+      "word": {
+       "green": "der Anteil"
+      },
+      "meaning": {
+       "purple": "osa"
+      },
+      "example": {
+       "red": "Anteil"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "Verhältnis",
+     "purple": "inimeste",
+     "red": "olud"
+    },
+    "important": {
+     "blue": "Verhältnisse",
+     "red": "olud"
+    }
+   }
+  }
+ },
+ "b1-verlegen": {
+  "de": "verlegen",
+  "lv": "edasi lükkama",
+  "level": "B1",
+  "study": {
+   "id": "b1-verlegen",
+   "layout": "standardStudy",
+   "translation": "edasi lükkama",
+   "explanation": "Põhiidee: verlegen tähendab edasilükkamist või teisaldamist. Igapäevaselt tähendab see ka millegi ära panemist nii, et seda enam ei leia.",
+   "examples": [
+    {
+     "de": "Wir verlegen den Termin auf Freitag.",
+     "lv": "me lükkame tähtaja reedele edasi."
+    },
+    {
+     "de": "Ich habe meinen Schlüssel verlegt.",
+     "lv": "ma panin võtme kuhugi ära ja ei leia seda."
+    },
+    {
+     "de": "Der Verlag verlegt das Buch im Herbst.",
+     "lv": "kirjastus annab raamatu sügisel välja."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "verlegen",
+     "meaning": "edasi lükkama • kuhugi ära panema • välja andma",
+     "example": "Ich habe den Schlüssel verlegt. = Ma ei leia võtit."
+    },
+    {
+     "word": "verschieben",
+     "meaning": "edasi lükkama teisele ajale",
+     "example": "Wir verschieben den Termin. = Me lükkame tähtaja edasi."
+    },
+    {
+     "word": "verlieren",
+     "meaning": "kaotama",
+     "example": "Ich verliere den Schlüssel. = Ma kaotan võtme."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Termin verlegen = edasi lükkama; Schlüssel verlegen = kuhugi panema ja mitte leidma."
+     }
+    ]
+   },
+   "important": {
+    "text": "Schlüssel verlegen ei ole sama, mis verlieren: asi on tavaliselt kuhugi pandud."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "verlegen",
+     "purple": "edasilükkamist",
+     "red": "ei leia seda"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "verlegen",
+       "yellow": "Termin"
+      },
+      "lv": {
+       "purple": "lükkame edasi"
+      }
+     },
+     {
+      "de": {
+       "blue": "verlegt",
+       "yellow": "Schlüssel"
+      },
+      "lv": {
+       "red": "ei leia seda"
+      }
+     },
+     {
+      "de": {
+       "blue": "verlegt",
+       "green": "Verlag",
+       "yellow": "Buch"
+      },
+      "lv": {
+       "red": "annab välja"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "verlegen"
+      },
+      "meaning": {
+       "purple": "edasi lükkama"
+      },
+      "example": {
+       "blue": "verlegt",
+       "yellow": "Schlüssel"
+      }
+     },
+     {
+      "word": {
+       "green": "verschieben"
+      },
+      "meaning": {
+       "purple": "edasi lükkama"
+      },
+      "example": {
+       "red": "verschieben"
+      }
+     },
+     {
+      "word": {
+       "green": "verlieren"
+      },
+      "meaning": {
+       "purple": "kaotama"
+      },
+      "example": {
+       "red": "verliere"
+      }
+     }
+    ],
+    "tip": {
+     "blue": [
+      "Termin verlegen",
+      "Schlüssel verlegen"
+     ],
+     "purple": "edasi lükkama",
+     "red": "mitte leidma"
+    },
+    "important": {
+     "yellow": "Schlüssel",
+     "red": "verlieren"
+    }
+   }
+  }
+ },
+ "b1-verletzen": {
+  "de": "verletzen",
+  "lv": "vigastama",
+  "level": "B1",
+  "study": {
+   "id": "b1-verletzen",
+   "layout": "standardStudy",
+   "translation": "vigastama",
+   "explanation": "Põhiidee: verletzen tähendab vigastamist või haavamist. Seda kasutatakse ka tunnete ja reeglite rikkumise kohta.",
+   "examples": [
+    {
+     "de": "Er hat sich beim Sport am Knie verletzt.",
+     "lv": "ta vigastas sportides põlve."
+    },
+    {
+     "de": "Deine Worte haben sie verletzt.",
+     "lv": "sinu sõnad solvasid teda."
+    },
+    {
+     "de": "Der Fahrer hat die Verkehrsregeln verletzt.",
+     "lv": "juht rikkus liikluseeskirju."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "verletzen",
+     "meaning": "vigastama, solvama, rikkuma",
+     "example": "Er verletzt sich. = Ta vigastab end."
+    },
+    {
+     "word": "beleidigen",
+     "meaning": "solvama sõnadega",
+     "example": "Er beleidigt mich. = Ta solvab mind."
+    },
+    {
+     "word": "brechen",
+     "meaning": "murdma • reeglit rikkuma",
+     "example": "Er bricht die Regel. = Ta rikub reeglit."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Keha vigastab, tundeid solvab, reegleid rikub: verletzen."
+     }
+    ]
+   },
+   "important": {
+    "text": "Regeln verletzen tähendab reeglite rikkumist, mitte nende füüsilist vigastamist."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "verletzen",
+     "purple": "vigastamist",
+     "red": "rikkumist"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "verletzt",
+       "yellow": "Knie"
+      },
+      "lv": {
+       "purple": "vigastas"
+      }
+     },
+     {
+      "de": {
+       "blue": "verletzt",
+       "yellow": "Worte"
+      },
+      "lv": {
+       "red": "solvasid"
+      }
+     },
+     {
+      "de": {
+       "blue": "verletzt",
+       "yellow": "Verkehrsregeln"
+      },
+      "lv": {
+       "red": "rikkus"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "verletzen"
+      },
+      "meaning": {
+       "purple": "vigastama"
+      },
+      "example": {
+       "blue": "verletzt"
+      }
+     },
+     {
+      "word": {
+       "green": "beleidigen"
+      },
+      "meaning": {
+       "purple": "solvama"
+      },
+      "example": {
+       "red": "beleidigt"
+      }
+     },
+     {
+      "word": {
+       "green": "brechen"
+      },
+      "meaning": {
+       "purple": "rikkuma"
+      },
+      "example": {
+       "red": "bricht"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "verletzen",
+     "purple": "vigastab",
+     "red": "rikub"
+    },
+    "important": {
+     "yellow": "Regeln",
+     "red": "rikkumist"
+    }
+   }
+  }
+ },
+ "b1-versichern": {
+  "de": "versichern",
+  "lv": "kindlustama",
+  "level": "B1",
+  "study": {
+   "id": "b1-versichern",
+   "layout": "standardStudy",
+   "translation": "kindlustama",
+   "explanation": "Põhiidee: versichern tähendab kindlustamist. Kõnes tähendab see ka kinnitamist või millegi kindlalt ütlemist.",
+   "examples": [
+    {
+     "de": "Ich versichere mein Auto.",
+     "lv": "ma kindlustan oma auto."
+    },
+    {
+     "de": "Er versicherte mir, dass alles in Ordnung ist.",
+     "lv": "ta kinnitas mulle, et kõik on korras."
+    },
+    {
+     "de": "Das Haus ist gegen Feuer versichert.",
+     "lv": "maja on kindlustatud tulekahju vastu."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "versichern",
+     "meaning": "kindlustama • kinnitama",
+     "example": "Ich versichere das Auto. = Ma kindlustan auto."
+    },
+    {
+     "word": "sichern",
+     "meaning": "kindlustama, turvaliseks tegema",
+     "example": "Ich sichere die Tür. = Ma teen ukse turvaliseks."
+    },
+    {
+     "word": "bestätigen",
+     "meaning": "kinnitama",
+     "example": "Ich bestätige den Termin. = Ma kinnitan tähtaja."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Leping riski kohta: kindlustama; lause koos dass-iga: kinnitama."
+     }
+    ]
+   },
+   "important": {
+    "text": "Ich versichere dir tähendab ma kinnitan sulle, mitte ma kindlustan sind."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "versichern",
+     "purple": "kindlustamist",
+     "red": "kinnitamist"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "versichere",
+       "yellow": "Auto"
+      },
+      "lv": {
+       "purple": "kindlustan"
+      }
+     },
+     {
+      "de": {
+       "blue": "versicherte",
+       "green": "mir"
+      },
+      "lv": {
+       "red": "kinnitas"
+      }
+     },
+     {
+      "de": {
+       "blue": "versichert",
+       "yellow": "Haus"
+      },
+      "lv": {
+       "purple": "kindlustatud"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "versichern"
+      },
+      "meaning": {
+       "purple": "kindlustama"
+      },
+      "example": {
+       "blue": "versichere"
+      }
+     },
+     {
+      "word": {
+       "green": "sichern"
+      },
+      "meaning": {
+       "purple": "turvaliseks tegema"
+      },
+      "example": {
+       "red": "sichere"
+      }
+     },
+     {
+      "word": {
+       "green": "bestätigen"
+      },
+      "meaning": {
+       "purple": "kinnitama"
+      },
+      "example": {
+       "red": "bestätige"
+      }
+     }
+    ],
+    "tip": {
+     "purple": "kindlustama",
+     "red": "kinnitama"
+    },
+    "important": {
+     "blue": "versichere",
+     "red": "kinnitan"
+    }
+   }
+  }
+ },
+ "b1-vertreten": {
+  "de": "vertreten",
+  "lv": "esindama",
+  "level": "B1",
+  "study": {
+   "id": "b1-vertreten",
+   "layout": "standardStudy",
+   "translation": "esindama",
+   "explanation": "Põhiidee: vertreten tähendab inimese, grupi, ettevõtte või arvamuse esindamist. Töökontekstis võib see tähendada kellegi asendamist.",
+   "examples": [
+    {
+     "de": "Sie vertritt die Firma auf der Messe.",
+     "lv": "ta esindab ettevõtet messil."
+    },
+    {
+     "de": "Ich vertrete heute meinen Kollegen.",
+     "lv": "ma asendan täna kolleegi."
+    },
+    {
+     "de": "Er vertritt eine klare Meinung.",
+     "lv": "ta esindab selget seisukohta."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "vertreten",
+     "meaning": "esindama, asendama, kaitsma",
+     "example": "Sie vertritt die Firma. = Ta esindab ettevõtet."
+    },
+    {
+     "word": "ersetzen",
+     "meaning": "asendama asja või inimest",
+     "example": "Das ersetzt den alten Plan. = See asendab vana plaani."
+    },
+    {
+     "word": "darstellen",
+     "meaning": "kujutama või näitama",
+     "example": "Die Grafik stellt Daten dar. = Graafik kujutab andmeid."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Räägib või tegutseb kellegi nimel: vertreten."
+     }
+    ]
+   },
+   "important": {
+    "text": "Kollegen vertreten tähendab kolleegi asendamist, mitte ainult teda esindamist."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "vertreten",
+     "purple": "esindamist",
+     "red": "asendamist"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "vertritt",
+       "green": "Firma"
+      },
+      "lv": {
+       "purple": "esindab"
+      }
+     },
+     {
+      "de": {
+       "blue": "vertrete",
+       "green": "Kollegen"
+      },
+      "lv": {
+       "red": "asendan"
+      }
+     },
+     {
+      "de": {
+       "blue": "vertritt",
+       "yellow": "Meinung"
+      },
+      "lv": {
+       "red": "esindab"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "vertreten"
+      },
+      "meaning": {
+       "purple": "esindama"
+      },
+      "example": {
+       "blue": "vertritt"
+      }
+     },
+     {
+      "word": {
+       "green": "ersetzen"
+      },
+      "meaning": {
+       "purple": "asendama"
+      },
+      "example": {
+       "red": "ersetzt"
+      }
+     },
+     {
+      "word": {
+       "green": "darstellen"
+      },
+      "meaning": {
+       "purple": "kujutama"
+      },
+      "example": {
+       "red": "stellt"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "vertreten",
+     "purple": "nimel"
+    },
+    "important": {
+     "green": "Kollegen",
+     "red": "asendamist"
+    }
+   }
+  }
+ },
+ "b1-verwandte": {
+  "de": "Verwandte",
+  "de_article": "der",
+  "de_plural": "die Verwandten",
+  "lv": "sugulane (mees)",
+  "level": "B1",
+  "study": {
+   "id": "b1-verwandte",
+   "layout": "standardStudy",
+   "translation": "sugulane (mees)",
+   "explanation": "Põhiidee: der Verwandte tähendab meessoost sugulast. Naissoost vorm on die Verwandte. Mõlemal on ühine mitmus: die Verwandten.",
+   "examples": [
+    {
+     "de": "Er ist ein enger Verwandter.",
+     "lv": "ta on lähedane sugulane."
+    },
+    {
+     "de": "Meine Verwandten wohnen in Lettland.",
+     "lv": "minu sugulased elavad Lätis."
+    },
+    {
+     "de": "Sie ist eine entfernte Verwandte.",
+     "lv": "ta on kauge sugulane."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "der Verwandte",
+     "meaning": "sugulane (mees)",
+     "example": "Er ist mein Verwandter. = Ta on minu sugulane."
+    },
+    {
+     "word": "die Verwandte",
+     "meaning": "sugulane (naine)",
+     "example": "Sie ist meine Verwandte. = Ta on minu sugulane."
+    },
+    {
+     "word": "die Verwandten",
+     "meaning": "sugulased (mitmus)",
+     "example": "Meine Verwandten kommen. = Minu sugulased tulevad."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Meessoost vorm — der Verwandte. Naissoost vorm — die Verwandte. Mitmus mõlemale — die Verwandten."
+     }
+    ]
+   },
+   "important": {
+    "text": "der Verwandte = sugulane (mees). die Verwandte = sugulane (naine). Mitmus: die Verwandten."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "der Verwandte",
+      "die Verwandte"
+     ],
+     "purple": [
+      "sugulane (mees)",
+      "sugulane (naine)"
+     ]
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Verwandter"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "sugulane"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Verwandten"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "sugulased"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "Verwandte"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "sugulane"
+       ]
+      }
+     }
+    ]
+   }
+  }
+ },
+ "b1-verwandte-2": {
+  "de": "Verwandte",
+  "de_article": "die",
+  "de_plural": "die Verwandten",
+  "lv": "sugulane (naine)",
+  "level": "B1",
+  "study": {
+   "id": "b1-verwandte-2",
+   "layout": "standardStudy",
+   "translation": "sugulane (naine)",
+   "explanation": "Põhiidee: die Verwandte tähendab naissoost sugulast. Meessoost vorm on der Verwandte. Mitmus mõlemale vormile on die Verwandten.",
+   "examples": [
+    {
+     "de": "Sie ist eine entfernte Verwandte.",
+     "lv": "ta on kauge sugulane."
+    },
+    {
+     "de": "Meine Verwandten wohnen in Lettland.",
+     "lv": "minu sugulased elavad Lätis."
+    },
+    {
+     "de": "Er ist ein enger Verwandter.",
+     "lv": "ta on lähedane sugulane."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "die Verwandte",
+     "meaning": "sugulane (naine)",
+     "example": "Sie ist meine Verwandte. = Ta on minu sugulane."
+    },
+    {
+     "word": "der Verwandte",
+     "meaning": "sugulane (mees)",
+     "example": "Er ist mein Verwandter. = Ta on minu sugulane."
+    },
+    {
+     "word": "die Verwandten",
+     "meaning": "sugulased (mitmus)",
+     "example": "Meine Verwandten kommen. = Minu sugulased tulevad."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Naissoost vorm — die Verwandte. Meessoost vorm — der Verwandte. Mõlemad koos mitmuses — die Verwandten."
+     }
+    ]
+   },
+   "important": {
+    "text": "die Verwandte = sugulane (naine). der Verwandte = sugulane (mees). Mitmus: die Verwandten."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "green": [
+      "die Verwandte"
+     ],
+     "purple": [
+      "sugulane (naine)"
+     ],
+     "blue": [
+      "der Verwandte"
+     ]
+    },
+    "examples": [
+     {
+      "de": {
+       "green": [
+        "Verwandte"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "sugulane"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Verwandten"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "sugulased"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Verwandter"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "sugulane"
+       ]
+      }
+     }
+    ]
+   }
+  }
  }
 }
