@@ -22045,5 +22045,1772 @@
     }
    }
   }
+ },
+ "b1-sich-gewöhnen": {
+  "de": "sich gewöhnen",
+  "lv": "harjuma",
+  "level": "B1",
+  "study": {
+   "id": "b1-sich-gewöhnen",
+   "layout": "standardStudy",
+   "translation": "harjuma",
+   "explanation": "Põhiidee: sich gewöhnen tähendab harjumist uue olukorra, koha, inimese või rütmiga. Tavaliselt kasutatakse konstruktsiooni sich gewöhnen an + akusatiiv.",
+   "examples": [
+    {
+     "de": "Ich gewöhne mich an die neue Arbeit.",
+     "lv": "ma harjun uue tööga."
+    },
+    {
+     "de": "Sie hat sich schnell an die Stadt gewöhnt.",
+     "lv": "ta harjus kiiresti linnaga."
+    },
+    {
+     "de": "Man muss sich daran gewöhnen.",
+     "lv": "sellega tuleb harjuda."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "sich gewöhnen an",
+     "meaning": "harjuma millegagi",
+     "example": "Ich gewöhne mich daran. = Ma harjun sellega."
+    },
+    {
+     "word": "gewöhnen",
+     "meaning": "harjutama",
+     "example": "Ich gewöhne das Kind daran. = Ma harjutan last sellega."
+    },
+    {
+     "word": "sich eingewöhnen",
+     "meaning": "uude keskkonda sisse elama",
+     "example": "Ich gewöhne mich langsam ein. = Ma elan aeglaselt sisse."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "sich gewöhnen an + akusatiiv: an die Arbeit, an die Stadt, daran."
+     }
+    ]
+   },
+   "important": {
+    "text": "Koos sich-ga on tähendus „harjuma”; ilma sich-ta tähendab gewöhnen sageli „kedagi harjutama”."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "gewöhne mich"
+       ],
+       "yellow": [
+        "Arbeit"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "harjun"
+       ],
+       "yellow": [
+        "tööga"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "gewöhnt"
+       ],
+       "yellow": [
+        "Stadt"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "harjus"
+       ],
+       "yellow": [
+        "linnaga"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "sich",
+        "gewöhnen"
+       ],
+       "red": [
+        "daran"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "tuleb harjuda"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "sich gewöhnen",
+      "sich gewöhnen an"
+     ],
+     "purple": [
+      "harjumist"
+     ],
+     "yellow": [
+      "olukorra",
+      "koha",
+      "inimese",
+      "rütmiga"
+     ],
+     "red": [
+      "akusatiiv"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "sich gewöhnen an"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "harjuma millegagi"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "gewöhnen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "harjutama"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "sich eingewöhnen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "uude keskkonda sisse elama"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "an die Arbeit",
+      "an die Stadt",
+      "daran"
+     ]
+    },
+    "important": {
+     "purple": [
+      "harjuma",
+      "harjutama"
+     ]
+    }
+   }
+  }
+ },
+ "b1-gitter": {
+  "de": "Gitter",
+  "de_article": "das",
+  "de_plural": "die Gitter",
+  "lv": "võre",
+  "level": "B1",
+  "study": {
+   "id": "b1-gitter",
+   "layout": "standardStudy",
+   "translation": "võre",
+   "explanation": "Põhiidee: das Gitter tähendab võret või trelle - avadega struktuuri akna, ukse, puuri või ventilatsiooni juures.",
+   "examples": [
+    {
+     "de": "Vor dem Fenster ist ein Gitter.",
+     "lv": "akna ees on võre."
+    },
+    {
+     "de": "Der Hund steht hinter dem Gitter.",
+     "lv": "koer seisab trellide taga."
+    },
+    {
+     "de": "Das Gitter am Balkon ist kaputt.",
+     "lv": "rõdu võre on katki."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "das Gitter",
+     "meaning": "võre / trellid",
+     "example": "Das Gitter schützt das Fenster. = Võre kaitseb akent."
+    },
+    {
+     "word": "das Geländer",
+     "meaning": "käsipuu",
+     "example": "Halt dich am Geländer fest. = Hoia käsipuust kinni."
+    },
+    {
+     "word": "der Zaun",
+     "meaning": "aed",
+     "example": "Der Zaun ist aus Holz. = Aed on puidust."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Avadega kaitsestruktuur akna, ukse või puuri juures → das Gitter."
+     }
+    ]
+   },
+   "important": {
+    "text": "Käsipuu jaoks kasutatakse sagedamini das Geländer; das Gitter ei ole üldsõna igasuguse käsipuu kohta."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Gitter"
+       ],
+       "yellow": [
+        "Fenster"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "võre"
+       ],
+       "yellow": [
+        "akna"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Gitter"
+       ],
+       "green": [
+        "Hund"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "trellide taga"
+       ],
+       "green": [
+        "Koer"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Gitter"
+       ],
+       "yellow": [
+        "Balkon"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "võre"
+       ],
+       "yellow": [
+        "Rõdu"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "das Gitter"
+     ],
+     "purple": [
+      "võret",
+      "trelle"
+     ],
+     "yellow": [
+      "akna",
+      "ukse",
+      "puuri",
+      "ventilatsiooni"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "das Gitter"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "võre / trellid"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "das Geländer"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "käsipuu"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "der Zaun"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "aed"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "akna",
+      "ukse",
+      "puuri"
+     ]
+    },
+    "important": {
+     "purple": [
+      "käsipuu"
+     ]
+    }
+   }
+  }
+ },
+ "b1-greifen": {
+  "de": "greifen",
+  "lv": "haarama",
+  "level": "B1",
+  "study": {
+   "id": "b1-greifen",
+   "layout": "standardStudy",
+   "translation": "haarama",
+   "explanation": "Põhiidee: greifen tähendab haaramist või millegi järele sirutumist käega. Ülekantud tähenduses zu Maßnahmen greifen tähendab meetmetele appi hakkama.",
+   "examples": [
+    {
+     "de": "Sie greift nach dem Glas.",
+     "lv": "ta sirutub klaasi järele."
+    },
+    {
+     "de": "Der Polizist greift den Dieb am Arm.",
+     "lv": "politseinik haarab vargal käest."
+    },
+    {
+     "de": "Wir müssen zu neuen Maßnahmen greifen.",
+     "lv": "me peame appi hakkama uutele meetmetele."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "greifen",
+     "meaning": "haarama / sirutuma / appi hakkama",
+     "example": "Sie greift nach dem Glas. = Ta sirutub klaasi järele."
+    },
+    {
+     "word": "fassen",
+     "meaning": "haarama / hoomama",
+     "example": "Fass meine Hand! = Haara mu käest!"
+    },
+    {
+     "word": "nehmen",
+     "meaning": "võtma",
+     "example": "Nimm bitte das Glas. = Võta palun klaas."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Greifen näitab sageli liikumist millegi poole: nach dem Glas greifen."
+     }
+    ]
+   },
+   "important": {
+    "text": "nehmen tähendab võtma; greifen rõhutab rohkem sirutumis- või haaramisliikumist."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "greift"
+       ],
+       "yellow": [
+        "Glas"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "sirutub"
+       ],
+       "yellow": [
+        "klaasi"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "greift"
+       ],
+       "green": [
+        "Polizist",
+        "Dieb"
+       ],
+       "yellow": [
+        "Arm"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "haarab"
+       ],
+       "green": [
+        "Politseinik",
+        "vargal"
+       ],
+       "yellow": [
+        "käest"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "greifen"
+       ],
+       "yellow": [
+        "Maßnahmen"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "peame appi hakkama"
+       ],
+       "yellow": [
+        "meetmetele"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "greifen",
+      "zu Maßnahmen greifen"
+     ],
+     "purple": [
+      "haaramist",
+      "sirutumist",
+      "appi hakkama"
+     ],
+     "yellow": [
+      "käest",
+      "meetmetele"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "greifen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "haarama / sirutuma / appi hakkama"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "fassen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "haarama / hoomama"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "nehmen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "võtma"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "liikumist millegi poole"
+     ]
+    },
+    "important": {
+     "purple": [
+      "võtma",
+      "sirutumis-",
+      "haaramisliikumist"
+     ]
+    }
+   }
+  }
+ },
+ "b1-griff": {
+  "de": "Griff",
+  "de_article": "der",
+  "de_plural": "die Griffe",
+  "lv": "käepide",
+  "level": "B1",
+  "study": {
+   "id": "b1-griff",
+   "layout": "standardStudy",
+   "translation": "käepide",
+   "explanation": "Põhiidee: der Griff on enamasti käepide - koht, kust eset haaratakse. Spordis või liikumises võib see olla ka haare.",
+   "examples": [
+    {
+     "de": "Der Griff der Tür ist locker.",
+     "lv": "ukse käepide on lahti."
+    },
+    {
+     "de": "Halte den Griff gut fest.",
+     "lv": "hoia käepidemest tugevasti kinni."
+    },
+    {
+     "de": "Beim Klettern braucht man einen sicheren Griff.",
+     "lv": "ronides on vaja kindlat haaret."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "der Griff",
+     "meaning": "käepide / haare",
+     "example": "Der Griff ist aus Metall. = Käepide on metallist."
+    },
+    {
+     "word": "der Henkel",
+     "meaning": "sang",
+     "example": "Die Tasse hat einen Henkel. = Tassil on sang."
+    },
+    {
+     "word": "greifen",
+     "meaning": "haarama",
+     "example": "Sie greift nach dem Glas. = Ta sirutub klaasi järele."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Der Griff on koht, kust sa haarad; greifen on tegevus ise."
+     }
+    ]
+   },
+   "important": {
+    "text": "Tassi või ämbri sanga jaoks sobib sageli der Henkel, mitte der Griff."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Griff"
+       ],
+       "yellow": [
+        "Tür"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "käepide"
+       ],
+       "yellow": [
+        "Ukse"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Griff"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "käepidemest"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Griff"
+       ],
+       "green": [
+        "Klettern"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "haaret"
+       ],
+       "green": [
+        "Ronides"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "der Griff"
+     ],
+     "purple": [
+      "käepide",
+      "haare"
+     ],
+     "yellow": [
+      "eset"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "der Griff"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "käepide / haare"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "der Henkel"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "sang"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "greifen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "haarama"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "koht",
+      "tegevus",
+      "haarad"
+     ]
+    },
+    "important": {
+     "purple": [
+      "sanga"
+     ]
+    }
+   }
+  }
+ },
+ "b1-gut": {
+  "de": "Gut",
+  "de_article": "das",
+  "de_plural": "die Güter",
+  "lv": "vara",
+  "level": "B1",
+  "study": {
+   "id": "b1-gut",
+   "layout": "standardStudy",
+   "translation": "vara",
+   "explanation": "Põhiidee: das Gut tähendab vara, omandit või mõisat/talu. Mitmuses die Güter tähendab sageli kaupu või materiaalseid väärtusi.",
+   "examples": [
+    {
+     "de": "Das Gut liegt außerhalb der Stadt.",
+     "lv": "mõis asub linnast väljas."
+    },
+    {
+     "de": "Er verlor sein ganzes Gut.",
+     "lv": "ta kaotas kogu oma vara."
+    },
+    {
+     "de": "Der Zug transportiert Güter.",
+     "lv": "rong veab kaupu."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "das Gut",
+     "meaning": "vara / mõis",
+     "example": "Das Gut ist alt. = Mõis on vana."
+    },
+    {
+     "word": "die Güter",
+     "meaning": "kaubad / materiaalsed väärtused",
+     "example": "Der Zug bringt Güter. = Rong veab kaupu."
+    },
+    {
+     "word": "gut",
+     "meaning": "hea",
+     "example": "Das Essen ist gut. = Toit on hea."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Artikliga das Gut on nimisõna; ilma artiklita gut tähendab tavaliselt hea."
+     }
+    ]
+   },
+   "important": {
+    "text": "Ära aja segi das Gut omadussõnaga gut; artikkel muudab täielikult sõna rolli lauses."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Gut"
+       ],
+       "green": [
+        "Stadt"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "Mõis"
+       ],
+       "green": [
+        "linnast"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Gut"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "vara"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Güter"
+       ],
+       "yellow": [
+        "Zug"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kaupu"
+       ],
+       "yellow": [
+        "Rong"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "das Gut",
+      "die Güter"
+     ],
+     "purple": [
+      "vara",
+      "omandit",
+      "mõisat/talu",
+      "kaupu"
+     ],
+     "yellow": [
+      "materiaalseid väärtusi"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "das Gut"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "vara / mõis"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "die Güter"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "kaubad / materiaalsed väärtused"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "gut"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "hea"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "artikliga"
+     ]
+    },
+    "important": {
+     "purple": [
+      "artikkel",
+      "sõna rolli"
+     ]
+    }
+   }
+  }
+ },
+ "b1-handeln": {
+  "de": "handeln",
+  "lv": "tegutsema",
+  "level": "B1",
+  "study": {
+   "id": "b1-handeln",
+   "layout": "standardStudy",
+   "translation": "tegutsema",
+   "explanation": "Põhiidee: handeln tähendab tegutsemist konkreetses olukorras. Koos von-ga tähendab see „olla teemaks”, aga koos mit-ga või kaupadega - kauplemist.",
+   "examples": [
+    {
+     "de": "Wir müssen schnell handeln.",
+     "lv": "me peame kiiresti tegutsema."
+    },
+    {
+     "de": "Der Film handelt von einer Familie.",
+     "lv": "film räägib ühest perest."
+    },
+    {
+     "de": "Die Firma handelt mit Holz.",
+     "lv": "ettevõte kaupleb puiduga."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "handeln",
+     "meaning": "tegutsema / olla teemaks / kauplema",
+     "example": "Wir müssen handeln. = Me peame tegutsema."
+    },
+    {
+     "word": "arbeiten",
+     "meaning": "töötama",
+     "example": "Ich arbeite im Büro. = Ma töötan kontoris."
+    },
+    {
+     "word": "verkaufen",
+     "meaning": "müüma",
+     "example": "Sie verkauft Brot. = Ta müüb leiba."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "handeln küsib: mida teha, millest tekst räägib, või millega kaubeldakse?"
+     }
+    ]
+   },
+   "important": {
+    "text": "handelt von kasutatakse filmi, raamatu või teksti teema kohta; see ei ole „tegutsema”."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "handeln"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "peame tegutsema"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "handelt von"
+       ],
+       "yellow": [
+        "Film"
+       ],
+       "green": [
+        "Familie"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "räägib"
+       ],
+       "yellow": [
+        "Film"
+       ],
+       "green": [
+        "perest"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "handelt mit"
+       ],
+       "yellow": [
+        "Holz"
+       ],
+       "green": [
+        "Firma"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kaupleb"
+       ],
+       "yellow": [
+        "puiduga"
+       ],
+       "green": [
+        "Ettevõte"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "handeln",
+      "von",
+      "mit"
+     ],
+     "purple": [
+      "tegutsema",
+      "olla teemaks",
+      "kauplema"
+     ],
+     "yellow": [
+      "kaupadega"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "handeln"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "tegutsema / olla teemaks / kauplema"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "arbeiten"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "töötama"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "verkaufen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "müüma"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "mida teha",
+      "millest tekst räägib",
+      "kaubeldakse"
+     ]
+    },
+    "important": {
+     "purple": [
+      "teema"
+     ]
+    }
+   }
+  }
+ },
+ "b1-handgriff": {
+  "de": "Handgriff",
+  "de_article": "der",
+  "de_plural": "die Handgriffe",
+  "lv": "võte",
+  "level": "B1",
+  "study": {
+   "id": "b1-handgriff",
+   "layout": "standardStudy",
+   "translation": "võte",
+   "explanation": "Põhiidee: der Handgriff tähendab lühikest praktilist liigutust või võtet töös. Kui jutt on eseme osast, võib see tähendada ka käepidet.",
+   "examples": [
+    {
+     "de": "Mit einem Handgriff war die Tür offen.",
+     "lv": "ühe võttega oli uks lahti."
+    },
+    {
+     "de": "Der Handgriff der Maschine ist kaputt.",
+     "lv": "masina käepide on katki."
+    },
+    {
+     "de": "Diese Arbeit braucht nur wenige Handgriffe.",
+     "lv": "selleks tööks on vaja ainult mõnda liigutust."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "der Handgriff",
+     "meaning": "võte / liigutus / käepide",
+     "example": "Ein Handgriff reicht. = Piisab ühest võttest."
+    },
+    {
+     "word": "der Griff",
+     "meaning": "käepide / haare",
+     "example": "Der Griff ist locker. = Käepide on lahti."
+    },
+    {
+     "word": "die Handlung",
+     "meaning": "tegevus / tegutsemine",
+     "example": "Die Handlung war falsch. = Tegutsemine oli vale."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Töö käigus on Handgriff sageli üks väike samm käega."
+     }
+    ]
+   },
+   "important": {
+    "text": "Kui jutt on ainult käepidemest, piisab sageli sõnast der Griff; Handgriff rõhutab rohkem praktilist liigutust või võtet."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Handgriff"
+       ],
+       "yellow": [
+        "Tür"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "võttega"
+       ],
+       "yellow": [
+        "uks"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Handgriff"
+       ],
+       "yellow": [
+        "Maschine"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "käepide"
+       ],
+       "yellow": [
+        "Masina"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Handgriffe"
+       ],
+       "yellow": [
+        "Arbeit"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "liigutust"
+       ],
+       "yellow": [
+        "tööks"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "der Handgriff"
+     ],
+     "purple": [
+      "liigutust",
+      "võtet",
+      "käepidet"
+     ],
+     "yellow": [
+      "eseme osa",
+      "töös"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "der Handgriff"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "võte / liigutus / käepide"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "der Griff"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "käepide / haare"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "die Handlung"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "tegevus / tegutsemine"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "töö käigus"
+     ]
+    },
+    "important": {
+     "purple": [
+      "praktilist liigutust",
+      "võtet"
+     ]
+    }
+   }
+  }
+ },
+ "b1-hauen": {
+  "de": "hauen",
+  "lv": "lööma",
+  "level": "B1",
+  "study": {
+   "id": "b1-hauen",
+   "layout": "standardStudy",
+   "translation": "lööma",
+   "explanation": "Põhiidee: hauen tähendab kõnekeeles löömist, raiumist või hoobi andmist. See kõlab otsesemalt ja jämedamalt kui neutraalne schlagen.",
+   "examples": [
+    {
+     "de": "Er haut mit der Faust auf den Tisch.",
+     "lv": "ta lööb rusikaga vastu lauda."
+    },
+    {
+     "de": "Der Arbeiter haut Holz.",
+     "lv": "töömees raiub puid."
+    },
+    {
+     "de": "Hau ab!",
+     "lv": "kao ära!"
+    }
+   ],
+   "comparison": [
+    {
+     "word": "hauen",
+     "meaning": "lööma / raiuma",
+     "example": "Er haut auf den Tisch. = Ta lööb vastu lauda."
+    },
+    {
+     "word": "schlagen",
+     "meaning": "lööma",
+     "example": "Er schlägt den Ball. = Ta lööb palli."
+    },
+    {
+     "word": "hacken",
+     "meaning": "tükeldama",
+     "example": "Sie hackt Gemüse. = Ta tükeldab köögivilju."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "hauen on kõnekeelne löök; Hau ab! on eraldi väljend „Kao ära!”"
+     }
+    ]
+   },
+   "important": {
+    "text": "Neutraalses saksa keeles on sageli kindlam kasutada schlagen; hauen võib kõlada jämedalt."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "haut"
+       ],
+       "yellow": [
+        "Faust",
+        "Tisch"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "lööb"
+       ],
+       "yellow": [
+        "rusikaga",
+        "lauda"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "haut"
+       ],
+       "yellow": [
+        "Holz"
+       ],
+       "green": [
+        "Arbeiter"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "raiub"
+       ],
+       "yellow": [
+        "puid"
+       ],
+       "green": [
+        "Töömees"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Hau ab"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kao ära"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "hauen",
+      "schlagen"
+     ],
+     "purple": [
+      "lööma",
+      "raiuma",
+      "hoopi"
+     ],
+     "red": [
+      "kõnekeeles",
+      "jämedamalt"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "hauen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "lööma / raiuma"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "schlagen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "lööma"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "hacken"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "tükeldama"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "löök",
+      "kao ära"
+     ]
+    },
+    "important": {
+     "purple": [
+      "schlagen",
+      "jämedalt"
+     ]
+    }
+   }
+  }
+ },
+ "b1-haufen": {
+  "de": "Haufen",
+  "de_article": "der",
+  "de_plural": "die Haufen",
+  "lv": "hunnik",
+  "level": "B1",
+  "study": {
+   "id": "b1-haufen",
+   "layout": "standardStudy",
+   "translation": "hunnik",
+   "explanation": "Põhiidee: der Haufen tähendab hunnikut või kuhja, tavaliselt mitte eriti korrastatud. Inimeste kohta võib see tähendada salka, kuid see tähendus on mitteformaalne.",
+   "examples": [
+    {
+     "de": "Vor dem Haus liegt ein Haufen Sand.",
+     "lv": "maja juures on hunnik liiva."
+    },
+    {
+     "de": "Auf dem Tisch liegt ein Haufen Papier.",
+     "lv": "laual on hunnik paberit."
+    },
+    {
+     "de": "Ein Haufen Kinder spielt im Hof.",
+     "lv": "õues mängib lastesalk."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "der Haufen",
+     "meaning": "hunnik / kuhi / salk",
+     "example": "Ein Haufen Sand liegt dort. = Seal on liivahunnik."
+    },
+    {
+     "word": "der Stapel",
+     "meaning": "korralik virn",
+     "example": "Ein Stapel Bücher liegt auf dem Tisch. = Laual on raamatuvirn."
+    },
+    {
+     "word": "die Menge",
+     "meaning": "hulk / rahvahulk",
+     "example": "Eine Menge Leute wartet. = Ootab suur rahvahulk."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Haufen on sageli korrastamata hunnik; Stapel on korralikult virnastatud."
+     }
+    ]
+   },
+   "important": {
+    "text": "Inimeste kohta kõlab ein Haufen Leute mitteformaalselt; ametlikus tekstis on parem kasutada viele Leute või eine Gruppe."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Haufen"
+       ],
+       "yellow": [
+        "Sand"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "hunnik"
+       ],
+       "yellow": [
+        "liiva"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Haufen"
+       ],
+       "yellow": [
+        "Papier"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "hunnik"
+       ],
+       "yellow": [
+        "paberit"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Haufen"
+       ],
+       "green": [
+        "Kinder",
+        "Hof"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "lastesalk"
+       ],
+       "green": [
+        "õues"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "der Haufen"
+     ],
+     "purple": [
+      "hunnikut",
+      "kuhja",
+      "salka"
+     ],
+     "red": [
+      "mitteformaalne"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "der Haufen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "hunnik / kuhi / salk"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "der Stapel"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "korralik virn"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "die Menge"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "hulk / rahvahulk"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "korrastamata hunnik",
+      "korralikult virnastatud"
+     ]
+    },
+    "important": {
+     "purple": [
+      "mitteformaalselt",
+      "viele Leute",
+      "eine Gruppe"
+     ]
+    }
+   }
+  }
+ },
+ "b1-herausgeben": {
+  "de": "herausgeben",
+  "lv": "avaldama",
+  "level": "B1",
+  "study": {
+   "id": "b1-herausgeben",
+   "layout": "standardStudy",
+   "translation": "avaldama",
+   "explanation": "Põhiidee: herausgeben tähendab raamatu, ajalehe või teabe avalikult avaldamist. Teises olukorras võib see tähendada ka väljastamist või millegi ära andmist.",
+   "examples": [
+    {
+     "de": "Der Verlag gibt ein neues Buch heraus.",
+     "lv": "kirjastus avaldab uue raamatu."
+    },
+    {
+     "de": "Die Zeitung wird täglich herausgegeben.",
+     "lv": "ajaleht ilmub iga päev."
+    },
+    {
+     "de": "Bitte geben Sie die Unterlagen heraus.",
+     "lv": "palun väljastage dokumendid."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "herausgeben",
+     "meaning": "avaldama / väljastama",
+     "example": "Der Verlag gibt ein Buch heraus. = Kirjastus avaldab raamatu."
+    },
+    {
+     "word": "ausgeben",
+     "meaning": "kulutama / jagama",
+     "example": "Er gibt viel Geld aus. = Ta kulutab palju raha."
+    },
+    {
+     "word": "zurückgeben",
+     "meaning": "tagasi andma",
+     "example": "Ich gebe das Buch zurück. = Ma annan raamatu tagasi."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Verlag gibt heraus = avaldab; Behörde gibt heraus = väljastab."
+     }
+    ]
+   },
+   "important": {
+    "text": "Raha kulutamine on Geld ausgeben, mitte Geld herausgeben."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "gibt",
+        "heraus"
+       ],
+       "green": [
+        "Verlag"
+       ],
+       "yellow": [
+        "Buch"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "avaldab"
+       ],
+       "green": [
+        "Kirjastus"
+       ],
+       "yellow": [
+        "raamatu"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "herausgegeben"
+       ],
+       "yellow": [
+        "Zeitung"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "ilmub"
+       ],
+       "yellow": [
+        "Ajaleht"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "geben",
+        "heraus"
+       ],
+       "yellow": [
+        "Unterlagen"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "väljastage"
+       ],
+       "yellow": [
+        "dokumendid"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "herausgeben"
+     ],
+     "purple": [
+      "avaldama",
+      "väljastama",
+      "ära andma"
+     ],
+     "yellow": [
+      "raamatu",
+      "ajalehe",
+      "teabe"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "herausgeben"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "avaldama / väljastama"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "ausgeben"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "kulutama / jagama"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "zurückgeben"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "tagasi andma"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "avaldab",
+      "väljastab"
+     ]
+    },
+    "important": {
+     "purple": [
+      "kulutamine"
+     ]
+    }
+   }
+  }
  }
 }
