@@ -1,0 +1,1228 @@
+[
+ {
+  "de": "sich abfinden",
+  "lv": "leppima millegagi",
+  "level": "B2",
+  "study": {
+   "id": "b2-sich-abfinden",
+   "layout": "minimalStudy",
+   "translation": "leppima millegagi",
+   "rektion": "mit + kellele?",
+   "explanation": "sich abfinden nõuab kindlat eessõna mit + kellele?.",
+   "forms": "mit + kellele?",
+   "formsLabel": "Rektsioon:",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "sich abfinden"
+     ],
+     "red": [
+      "mit + kellele?"
+     ],
+     "purple": [
+      "leppima millegagi"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "de": "sich abwenden",
+  "lv": "pöörduma millestki ära",
+  "level": "B2",
+  "study": {
+   "id": "b2-sich-abwenden",
+   "layout": "minimalStudy",
+   "translation": "pöörduma millestki ära",
+   "rektion": "von + kellele?",
+   "explanation": "sich abwenden nõuab kindlat eessõna von + kellele?.",
+   "forms": "von + kellele?",
+   "formsLabel": "Rektsioon:",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "sich abwenden"
+     ],
+     "red": [
+      "von + kellele?"
+     ],
+     "purple": [
+      "pöörduma millestki ära"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "de": "sich befassen",
+  "lv": "tegelema millegaga",
+  "level": "B2",
+  "study": {
+   "id": "b2-sich-befassen",
+   "layout": "minimalStudy",
+   "translation": "tegelema millegaga",
+   "rektion": "mit + kellele?",
+   "explanation": "sich befassen nõuab kindlat eessõna mit + kellele?.",
+   "forms": "mit + kellele?",
+   "formsLabel": "Rektsioon:",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "sich befassen"
+     ],
+     "red": [
+      "mit + kellele?"
+     ],
+     "purple": [
+      "tegelema millegaga"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "de": "sich begnügen",
+  "lv": "rahulduma millegaga",
+  "level": "B2",
+  "study": {
+   "id": "b2-sich-begnuegen",
+   "layout": "minimalStudy",
+   "translation": "rahulduma millegaga",
+   "rektion": "mit + kellele?",
+   "explanation": "sich begnügen nõuab kindlat eessõna mit + kellele?.",
+   "forms": "mit + kellele?",
+   "formsLabel": "Rektsioon:",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "sich begnügen"
+     ],
+     "red": [
+      "mit + kellele?"
+     ],
+     "purple": [
+      "rahulduma millegaga"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "de": "sich bemächtigen",
+  "lv": "haarama • enda valdusesse võtma",
+  "level": "B2",
+  "study": {
+   "id": "b2-sich-bemaechtigen",
+   "layout": "minimalStudy",
+   "translation": "haarama • enda valdusesse võtma",
+   "rektion": "+ omastavas käändes",
+   "explanation": "sich bemächtigen nõuab kindlat eessõna + omastavas käändes.",
+   "forms": "+ omastavas käändes",
+   "formsLabel": "Rektsioon:",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "sich bemächtigen"
+     ],
+     "red": [
+      "+ omastavas käändes"
+     ],
+     "purple": [
+      "haarama",
+      "enda valdusesse võtma"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "de": "sich berufen",
+  "lv": "viitama millelegi",
+  "level": "B2",
+  "study": {
+   "id": "b2-sich-berufen",
+   "layout": "minimalStudy",
+   "translation": "viitama millelegi",
+   "rektion": "auf + mida?",
+   "explanation": "sich berufen nõuab kindlat eessõna auf + mida?.",
+   "forms": "auf + mida?",
+   "formsLabel": "Rektsioon:",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "sich berufen"
+     ],
+     "red": [
+      "auf + mida?"
+     ],
+     "purple": [
+      "viitama millelegi"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "de": "sich beschränken",
+  "lv": "piirduma millegaga",
+  "level": "B2",
+  "study": {
+   "id": "b2-sich-beschraenken",
+   "layout": "minimalStudy",
+   "translation": "piirduma millegaga",
+   "rektion": "auf + mida?",
+   "explanation": "sich beschränken nõuab kindlat eessõna auf + mida?.",
+   "forms": "auf + mida?",
+   "formsLabel": "Rektsioon:",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "sich beschränken"
+     ],
+     "red": [
+      "auf + mida?"
+     ],
+     "purple": [
+      "piirduma millegaga"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "de": "sich betätigen",
+  "lv": "tegutsema • osalema",
+  "level": "B2",
+  "study": {
+   "id": "b2-sich-betaetigen",
+   "layout": "minimalStudy",
+   "translation": "tegutsema • osalema",
+   "rektion": "in + kus?",
+   "explanation": "sich betätigen nõuab kindlat eessõna in + kus?.",
+   "forms": "in + kus?",
+   "formsLabel": "Rektsioon:",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "sich betätigen"
+     ],
+     "red": [
+      "in + kus?"
+     ],
+     "purple": [
+      "tegutsema",
+      "osalema"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "de": "sich einlassen",
+  "lv": "laskuma millessegi",
+  "level": "B2",
+  "study": {
+   "id": "b2-sich-einlassen",
+   "layout": "minimalStudy",
+   "translation": "laskuma millessegi",
+   "rektion": "auf + mida?",
+   "explanation": "sich einlassen nõuab kindlat eessõna auf + mida?.",
+   "forms": "auf + mida?",
+   "formsLabel": "Rektsioon:",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "sich einlassen"
+     ],
+     "red": [
+      "auf + mida?"
+     ],
+     "purple": [
+      "laskuma millessegi"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "de": "sich einprägen",
+  "lv": "meelde jätma",
+  "level": "B2",
+  "study": {
+   "id": "b2-sich-einpraegen",
+   "layout": "minimalStudy",
+   "translation": "meelde jätma",
+   "rektion": "in + mida?",
+   "explanation": "sich einprägen nõuab kindlat eessõna in + mida?.",
+   "forms": "in + mida?",
+   "formsLabel": "Rektsioon:",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "sich einprägen"
+     ],
+     "red": [
+      "in + mida?"
+     ],
+     "purple": [
+      "meelde jätma"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "de": "sich einschleichen",
+  "lv": "sisse hiilima • sisse imbuma",
+  "level": "B2",
+  "study": {
+   "id": "b2-sich-einschleichen",
+   "layout": "minimalStudy",
+   "translation": "sisse hiilima • sisse imbuma",
+   "rektion": "in + mida?",
+   "explanation": "sich einschleichen nõuab kindlat eessõna in + mida?.",
+   "forms": "in + mida?",
+   "formsLabel": "Rektsioon:",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "sich einschleichen"
+     ],
+     "red": [
+      "in + mida?"
+     ],
+     "purple": [
+      "sisse hiilima",
+      "sisse imbuma"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "de": "sich einschränken",
+  "lv": "piirduma",
+  "level": "B2",
+  "study": {
+   "id": "b2-sich-einschraenken",
+   "layout": "minimalStudy",
+   "translation": "piirduma",
+   "rektion": "auf + mida?",
+   "explanation": "sich einschränken nõuab kindlat eessõna auf + mida?.",
+   "forms": "auf + mida?",
+   "formsLabel": "Rektsioon:",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "sich einschränken"
+     ],
+     "red": [
+      "auf + mida?"
+     ],
+     "purple": [
+      "piirduma"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "de": "sich empfehlen",
+  "lv": "olema soovitatav",
+  "level": "B2",
+  "study": {
+   "id": "b2-sich-empfehlen",
+   "layout": "minimalStudy",
+   "translation": "olema soovitatav",
+   "rektion": "zu + kellele?",
+   "explanation": "sich empfehlen nõuab kindlat eessõna zu + kellele?.",
+   "forms": "zu + kellele?",
+   "formsLabel": "Rektsioon:",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "sich empfehlen"
+     ],
+     "red": [
+      "zu + kellele?"
+     ],
+     "purple": [
+      "olema soovitatav"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "de": "sich empören",
+  "lv": "nördima • mässama",
+  "level": "B2",
+  "study": {
+   "id": "b2-sich-empoeren",
+   "layout": "minimalStudy",
+   "translation": "nördima • mässama",
+   "rektion": "über + mida?",
+   "explanation": "sich empören nõuab kindlat eessõna über + mida?.",
+   "forms": "über + mida?",
+   "formsLabel": "Rektsioon:",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "sich empören"
+     ],
+     "red": [
+      "über + mida?"
+     ],
+     "purple": [
+      "nördima",
+      "mässama"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "de": "sich enthalten",
+  "lv": "hoiduma millestki",
+  "level": "B2",
+  "study": {
+   "id": "b2-sich-enthalten",
+   "layout": "minimalStudy",
+   "translation": "hoiduma millestki",
+   "rektion": "von + kellele?",
+   "explanation": "sich enthalten nõuab kindlat eessõna von + kellele?.",
+   "forms": "von + kellele?",
+   "formsLabel": "Rektsioon:",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "sich enthalten"
+     ],
+     "red": [
+      "von + kellele?"
+     ],
+     "purple": [
+      "hoiduma millestki"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "de": "sich entledigen",
+  "lv": "vabanema • lahti saama",
+  "level": "B2",
+  "study": {
+   "id": "b2-sich-entledigen",
+   "layout": "minimalStudy",
+   "translation": "vabanema • lahti saama",
+   "rektion": "+ omastavas käändes",
+   "explanation": "sich entledigen nõuab kindlat eessõna + omastavas käändes.",
+   "forms": "+ omastavas käändes",
+   "formsLabel": "Rektsioon:",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "sich entledigen"
+     ],
+     "red": [
+      "+ omastavas käändes"
+     ],
+     "purple": [
+      "vabanema",
+      "lahti saama"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "de": "sich entrüsten",
+  "lv": "nördima • tuliseks minema",
+  "level": "B2",
+  "study": {
+   "id": "b2-sich-entruesten",
+   "layout": "minimalStudy",
+   "translation": "nördima • tuliseks minema",
+   "rektion": "über + mida?",
+   "explanation": "sich entrüsten nõuab kindlat eessõna über + mida?.",
+   "forms": "über + mida?",
+   "formsLabel": "Rektsioon:",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "sich entrüsten"
+     ],
+     "red": [
+      "über + mida?"
+     ],
+     "purple": [
+      "nördima",
+      "tuliseks minema"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "de": "sich entsinnen",
+  "lv": "meenutama • meeles pidama",
+  "level": "B2",
+  "study": {
+   "id": "b2-sich-entsinnen",
+   "layout": "minimalStudy",
+   "translation": "meenutama • meeles pidama",
+   "rektion": "+ omastavas käändes",
+   "explanation": "sich entsinnen nõuab kindlat eessõna + omastavas käändes.",
+   "forms": "+ omastavas käändes",
+   "formsLabel": "Rektsioon:",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "sich entsinnen"
+     ],
+     "red": [
+      "+ omastavas käändes"
+     ],
+     "purple": [
+      "meenutama",
+      "meeles pidama"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "de": "sich erbarmen",
+  "lv": "halastama • kaasa tundma",
+  "level": "B2",
+  "study": {
+   "id": "b2-sich-erbarmen",
+   "layout": "minimalStudy",
+   "translation": "halastama • kaasa tundma",
+   "rektion": "über + mida?",
+   "explanation": "sich erbarmen nõuab kindlat eessõna über + mida?.",
+   "forms": "über + mida?",
+   "formsLabel": "Rektsioon:",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "sich erbarmen"
+     ],
+     "red": [
+      "über + mida?"
+     ],
+     "purple": [
+      "halastama",
+      "kaasa tundma"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "de": "sich ergeben",
+  "lv": "tulenema • alistuma",
+  "level": "B2",
+  "study": {
+   "id": "b2-sich-ergeben",
+   "layout": "minimalStudy",
+   "translation": "tulenema • alistuma",
+   "rektion": "aus + kellele?",
+   "explanation": "sich ergeben nõuab kindlat eessõna aus + kellele?.",
+   "forms": "aus + kellele?",
+   "formsLabel": "Rektsioon:",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "sich ergeben"
+     ],
+     "red": [
+      "aus + kellele?"
+     ],
+     "purple": [
+      "tulenema",
+      "alistuma"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "de": "sich erniedrigen",
+  "lv": "end alandama",
+  "level": "B2",
+  "study": {
+   "id": "b2-sich-erniedrigen",
+   "layout": "minimalStudy",
+   "translation": "end alandama",
+   "rektion": "vor + kellele?",
+   "explanation": "sich erniedrigen nõuab kindlat eessõna vor + kellele?.",
+   "forms": "vor + kellele?",
+   "formsLabel": "Rektsioon:",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "sich erniedrigen"
+     ],
+     "red": [
+      "vor + kellele?"
+     ],
+     "purple": [
+      "end alandama"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "de": "sich erregen",
+  "lv": "erutuma millegi pärast",
+  "level": "B2",
+  "study": {
+   "id": "b2-sich-erregen",
+   "layout": "minimalStudy",
+   "translation": "erutuma millegi pärast",
+   "rektion": "über + mida?",
+   "explanation": "sich erregen nõuab kindlat eessõna über + mida?.",
+   "forms": "über + mida?",
+   "formsLabel": "Rektsioon:",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "sich erregen"
+     ],
+     "red": [
+      "über + mida?"
+     ],
+     "purple": [
+      "erutuma millegi pärast"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "de": "sich erweisen",
+  "lv": "osutuma milleks",
+  "level": "B2",
+  "study": {
+   "id": "b2-sich-erweisen",
+   "layout": "minimalStudy",
+   "translation": "osutuma milleks",
+   "rektion": "als + mis?",
+   "explanation": "sich erweisen nõuab kindlat eessõna als + mis?.",
+   "forms": "als + mis?",
+   "formsLabel": "Rektsioon:",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "sich erweisen"
+     ],
+     "red": [
+      "als + mis?"
+     ],
+     "purple": [
+      "osutuma milleks"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "de": "sich fassen",
+  "lv": "haarama • end koguma • end valitsema",
+  "level": "B2",
+  "study": {
+   "id": "b2-sich-fassen",
+   "layout": "minimalStudy",
+   "translation": "haarama • end koguma • end valitsema",
+   "rektion": "an + kellele?",
+   "explanation": "sich fassen nõuab kindlat eessõna an + kellele?.",
+   "forms": "an + kellele?",
+   "formsLabel": "Rektsioon:",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "sich fassen"
+     ],
+     "red": [
+      "an + kellele?"
+     ],
+     "purple": [
+      "haarama",
+      "end koguma",
+      "end valitsema"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "de": "sich fügen",
+  "lv": "kohanema • alluma",
+  "level": "B2",
+  "study": {
+   "id": "b2-sich-fuegen",
+   "layout": "minimalStudy",
+   "translation": "kohanema • alluma",
+   "rektion": "in + mida?",
+   "explanation": "sich fügen nõuab kindlat eessõna in + mida?.",
+   "forms": "in + mida?",
+   "formsLabel": "Rektsioon:",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "sich fügen"
+     ],
+     "red": [
+      "in + mida?"
+     ],
+     "purple": [
+      "kohanema",
+      "alluma"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "de": "sich genieren",
+  "lv": "häbenema",
+  "level": "B2",
+  "study": {
+   "id": "b2-sich-genieren",
+   "layout": "minimalStudy",
+   "translation": "häbenema",
+   "rektion": "vor + kellele?",
+   "explanation": "sich genieren nõuab kindlat eessõna vor + kellele?.",
+   "forms": "vor + kellele?",
+   "formsLabel": "Rektsioon:",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "sich genieren"
+     ],
+     "red": [
+      "vor + kellele?"
+     ],
+     "purple": [
+      "häbenema"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "de": "sich gesellen",
+  "lv": "ühinema",
+  "level": "B2",
+  "study": {
+   "id": "b2-sich-gesellen",
+   "layout": "minimalStudy",
+   "translation": "ühinema",
+   "rektion": "zu + kellele?",
+   "explanation": "sich gesellen nõuab kindlat eessõna zu + kellele?.",
+   "forms": "zu + kellele?",
+   "formsLabel": "Rektsioon:",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "sich gesellen"
+     ],
+     "red": [
+      "zu + kellele?"
+     ],
+     "purple": [
+      "ühinema"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "de": "sich gestalten",
+  "lv": "kujunema milleks",
+  "level": "B2",
+  "study": {
+   "id": "b2-sich-gestalten",
+   "layout": "minimalStudy",
+   "translation": "kujunema milleks",
+   "rektion": "zu + kellele?",
+   "explanation": "sich gestalten nõuab kindlat eessõna zu + kellele?.",
+   "forms": "zu + kellele?",
+   "formsLabel": "Rektsioon:",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "sich gestalten"
+     ],
+     "red": [
+      "zu + kellele?"
+     ],
+     "purple": [
+      "kujunema milleks"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "de": "sich grauen",
+  "lv": "kartma midagi",
+  "level": "B2",
+  "study": {
+   "id": "b2-sich-grauen",
+   "layout": "minimalStudy",
+   "translation": "kartma midagi",
+   "rektion": "vor + kellele?",
+   "explanation": "sich grauen nõuab kindlat eessõna vor + kellele?.",
+   "forms": "vor + kellele?",
+   "formsLabel": "Rektsioon:",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "sich grauen"
+     ],
+     "red": [
+      "vor + kellele?"
+     ],
+     "purple": [
+      "kartma midagi"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "de": "sich herausbilden",
+  "lv": "välja kujunema milleks",
+  "level": "B2",
+  "study": {
+   "id": "b2-sich-herausbilden",
+   "layout": "minimalStudy",
+   "translation": "välja kujunema milleks",
+   "rektion": "zu + kellele?",
+   "explanation": "sich herausbilden nõuab kindlat eessõna zu + kellele?.",
+   "forms": "zu + kellele?",
+   "formsLabel": "Rektsioon:",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "sich herausbilden"
+     ],
+     "red": [
+      "zu + kellele?"
+     ],
+     "purple": [
+      "välja kujunema milleks"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "de": "sich heraushalten",
+  "lv": "eemale hoidma millestki",
+  "level": "B2",
+  "study": {
+   "id": "b2-sich-heraushalten",
+   "layout": "minimalStudy",
+   "translation": "eemale hoidma millestki",
+   "rektion": "aus + kellele?",
+   "explanation": "sich heraushalten nõuab kindlat eessõna aus + kellele?.",
+   "forms": "aus + kellele?",
+   "formsLabel": "Rektsioon:",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "sich heraushalten"
+     ],
+     "red": [
+      "aus + kellele?"
+     ],
+     "purple": [
+      "eemale hoidma millestki"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "de": "sich herausstellen",
+  "lv": "selguma milleks",
+  "level": "B2",
+  "study": {
+   "id": "b2-sich-herausstellen",
+   "layout": "minimalStudy",
+   "translation": "selguma milleks",
+   "rektion": "als + mis?",
+   "explanation": "sich herausstellen nõuab kindlat eessõna als + mis?.",
+   "forms": "als + mis?",
+   "formsLabel": "Rektsioon:",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "sich herausstellen"
+     ],
+     "red": [
+      "als + mis?"
+     ],
+     "purple": [
+      "selguma milleks"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "de": "sich hervortun",
+  "lv": "silma paistma",
+  "level": "B2",
+  "study": {
+   "id": "b2-sich-hervortun",
+   "layout": "minimalStudy",
+   "translation": "silma paistma",
+   "rektion": "in + kus?",
+   "explanation": "sich hervortun nõuab kindlat eessõna in + kus?.",
+   "forms": "in + kus?",
+   "formsLabel": "Rektsioon:",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "sich hervortun"
+     ],
+     "red": [
+      "in + kus?"
+     ],
+     "purple": [
+      "silma paistma"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "de": "sich hingeben",
+  "lv": "end pühendama • end andma",
+  "level": "B2",
+  "study": {
+   "id": "b2-sich-hingeben",
+   "layout": "minimalStudy",
+   "translation": "end pühendama • end andma",
+   "rektion": "+ kellele?",
+   "explanation": "sich hingeben nõuab kindlat eessõna + kellele?.",
+   "forms": "+ kellele?",
+   "formsLabel": "Rektsioon:",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "sich hingeben"
+     ],
+     "red": [
+      "+ kellele?"
+     ],
+     "purple": [
+      "end pühendama",
+      "end andma"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "de": "sich paaren",
+  "lv": "paarduma millegaga",
+  "level": "B2",
+  "study": {
+   "id": "b2-sich-paaren",
+   "layout": "minimalStudy",
+   "translation": "paarduma millegaga",
+   "rektion": "mit + kellele?",
+   "explanation": "sich paaren nõuab kindlat eessõna mit + kellele?.",
+   "forms": "mit + kellele?",
+   "formsLabel": "Rektsioon:",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "sich paaren"
+     ],
+     "red": [
+      "mit + kellele?"
+     ],
+     "purple": [
+      "paarduma millegaga"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "de": "sich revanchieren",
+  "lv": "tasuma • kätte maksma",
+  "level": "B2",
+  "study": {
+   "id": "b2-sich-revanchieren",
+   "layout": "minimalStudy",
+   "translation": "tasuma • kätte maksma",
+   "rektion": "bei + kellele?",
+   "explanation": "sich revanchieren nõuab kindlat eessõna bei + kellele?.",
+   "forms": "bei + kellele?",
+   "formsLabel": "Rektsioon:",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "sich revanchieren"
+     ],
+     "red": [
+      "bei + kellele?"
+     ],
+     "purple": [
+      "tasuma",
+      "kätte maksma"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "de": "sich scheren",
+  "lv": "hoolima millestki",
+  "level": "B2",
+  "study": {
+   "id": "b2-sich-scheren",
+   "layout": "minimalStudy",
+   "translation": "hoolima millestki",
+   "rektion": "um + mida?",
+   "explanation": "sich scheren nõuab kindlat eessõna um + mida?.",
+   "forms": "um + mida?",
+   "formsLabel": "Rektsioon:",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "sich scheren"
+     ],
+     "red": [
+      "um + mida?"
+     ],
+     "purple": [
+      "hoolima millestki"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "de": "sich vereinigen",
+  "lv": "ühinema millegaga",
+  "level": "B2",
+  "study": {
+   "id": "b2-sich-vereinigen",
+   "layout": "minimalStudy",
+   "translation": "ühinema millegaga",
+   "rektion": "mit + kellele?",
+   "explanation": "sich vereinigen nõuab kindlat eessõna mit + kellele?.",
+   "forms": "mit + kellele?",
+   "formsLabel": "Rektsioon:",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "sich vereinigen"
+     ],
+     "red": [
+      "mit + kellele?"
+     ],
+     "purple": [
+      "ühinema millegaga"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "de": "sich versehen",
+  "lv": "eksima • varustama millegaga",
+  "level": "B2",
+  "study": {
+   "id": "b2-sich-versehen",
+   "layout": "minimalStudy",
+   "translation": "eksima • varustama millegaga",
+   "rektion": "mit + kellele?",
+   "explanation": "sich versehen nõuab kindlat eessõna mit + kellele?.",
+   "forms": "mit + kellele?",
+   "formsLabel": "Rektsioon:",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "sich versehen"
+     ],
+     "red": [
+      "mit + kellele?"
+     ],
+     "purple": [
+      "eksima",
+      "varustama millegaga"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "de": "sich versöhnen",
+  "lv": "leppima millegaga",
+  "level": "B2",
+  "study": {
+   "id": "b2-sich-versoehnen",
+   "layout": "minimalStudy",
+   "translation": "leppima millegaga",
+   "rektion": "mit + kellele?",
+   "explanation": "sich versöhnen nõuab kindlat eessõna mit + kellele?.",
+   "forms": "mit + kellele?",
+   "formsLabel": "Rektsioon:",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "sich versöhnen"
+     ],
+     "red": [
+      "mit + kellele?"
+     ],
+     "purple": [
+      "leppima millegaga"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "de": "sich verstellen",
+  "lv": "teesklema keda",
+  "level": "B2",
+  "study": {
+   "id": "b2-sich-verstellen",
+   "layout": "minimalStudy",
+   "translation": "teesklema keda",
+   "rektion": "als + mida?",
+   "explanation": "sich verstellen nõuab kindlat eessõna als + mida?.",
+   "forms": "als + mida?",
+   "formsLabel": "Rektsioon:",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "sich verstellen"
+     ],
+     "red": [
+      "als + mida?"
+     ],
+     "purple": [
+      "teesklema keda"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "de": "sich verwundern",
+  "lv": "imestama millegi üle",
+  "level": "B2",
+  "study": {
+   "id": "b2-sich-verwundern",
+   "layout": "minimalStudy",
+   "translation": "imestama millegi üle",
+   "rektion": "über + mida?",
+   "explanation": "sich verwundern nõuab kindlat eessõna über + mida?.",
+   "forms": "über + mida?",
+   "formsLabel": "Rektsioon:",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "sich verwundern"
+     ],
+     "red": [
+      "über + mida?"
+     ],
+     "purple": [
+      "imestama millegi üle"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "de": "sich widersetzen",
+  "lv": "vastu panema • vastu seisma",
+  "level": "B2",
+  "study": {
+   "id": "b2-sich-widersetzen",
+   "layout": "minimalStudy",
+   "translation": "vastu panema • vastu seisma",
+   "rektion": "+ kellele?",
+   "explanation": "sich widersetzen nõuab kindlat eessõna + kellele?.",
+   "forms": "+ kellele?",
+   "formsLabel": "Rektsioon:",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "sich widersetzen"
+     ],
+     "red": [
+      "+ kellele?"
+     ],
+     "purple": [
+      "vastu panema",
+      "vastu seisma"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "de": "sich verlaufen",
+  "lv": "ära eksima",
+  "level": "B2",
+  "study": {
+   "id": "b2-sich-verlaufen",
+   "layout": "minimalStudy",
+   "translation": "ära eksima",
+   "explanation": "sich verlaufen tähendab ära eksimist. Sellel puudub kindel eessõna. Ei tohi segamini ajada verlaufen'iga (kulgema).",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "sich verlaufen"
+     ],
+     "purple": [
+      "ära eksimist"
+     ],
+     "red": [
+      "verlaufen"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "de": "verlaufen",
+  "lv": "kulgema • toimuma",
+  "level": "B2",
+  "study": {
+   "id": "b2-verlaufen",
+   "layout": "minimalStudy",
+   "translation": "kulgema • toimuma",
+   "explanation": "verlaufen (ilma sich'ita) tähendab kulgemist või toimumist. Ei ole sünonüüm sõnaga sich verlaufen (ära eksima).",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "verlaufen"
+     ],
+     "purple": [
+      "kulgemist",
+      "toimumist"
+     ],
+     "red": [
+      "sich verlaufen"
+     ]
+    }
+   }
+  }
+ }
+]
