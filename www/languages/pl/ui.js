@@ -208,7 +208,61 @@ window.LANGUAGE_UI_STRINGS = {
     vowelsDesc: "Długie i krótkie samogłoski z przykładami.",
     consonantsTitle: "Spółgłoski i połączenia liter",
     consonantsDesc: "Najważniejsze dźwięki spółgłoskowe dla początkujących.",
-    lessonProgress: "Lekcja {lesson} · Tłumacz: {current} / {total}"
+    lessonProgress: "Lekcja {lesson} · Tłumacz: {current} / {total}",
+    exerciseProgress: "Lekcja {lesson} · Ćwiczenie",
+    sections: {
+      grammar: "Gramatyka",
+      exercise: "Ćwiczenie",
+      translate: "Tłumacz",
+      exerciseCombined: "Übung / Ćwiczenie"
+    },
+    hints: {
+      tapToRevealAnswer: "Dotknij karty, aby zobaczyć odpowiedź.",
+      tapToContinue: "Dotknij karty, aby kontynuować.",
+      tapToRevealGerman: "Dotknij karty, aby zobaczyć niemieckie tłumaczenie.",
+      tapNextStep: "Dotknij karty, aby przejść do następnego kroku.",
+      exerciseCardAria: "Karta ćwiczenia {title}"
+    },
+    cta: {
+      tapNextCard: "Dotknij następnej karty",
+      tapToRevealAnswer: "Dotknij, aby zobaczyć odpowiedź",
+      tapContinue: "Dotknij, aby kontynuować",
+      transformSentence: "Przekształć zdanie.",
+      transformThirdSingular: "Przekształć zdanie w 3. osobie liczby pojedynczej.",
+      transformFirstPlural: "Przekształć zdanie w 1. osobie liczby mnogiej."
+    },
+    exerciseMeta: {
+      fillCase: "Übung I — użyj właściwego przypadku",
+      chooseCasePlural: "Wybierz właściwy przypadek i utwórz liczbę mnogą!",
+      answerPlural: "Teraz odpowiedz w liczbie mnogiej.",
+      translate: "Übung II — tłumacz",
+      formDu: "Forma 1/3: ty (liczba pojedyncza)",
+      formIhr: "Forma 2/3: wy (liczba mnoga)",
+      formSie: "Forma 3/3: Sie (forma grzecznościowa)"
+    },
+    lessonItems: {
+      "1": { title: "Lekcja 1", menuDesc: "Czasowniki w czasie teraźniejszym, słówka, gramatyka i ćwiczenia." },
+      "2": { title: "Lekcja 2", menuDesc: "Dialogi, słowa, wymowa, gramatyka i tłumaczenie." },
+      "3": { title: "Lekcja 3", menuDesc: "Dialogi, słowa, wymowa, gramatyka i tłumaczenie." },
+      "4": { title: "Lekcja 4", menuDesc: "Biernik, nehmen, hinlegen, hinausgehen i przymiotniki." },
+      "5": { title: "Lekcja 5", menuDesc: "Wen?, biernik, sitzen, fragen i końcówka -in." },
+      "6": { title: "Lekcja 6", menuDesc: "Liczebniki, liczba mnoga, umlauty i formy liczby mnogiej rzeczowników." },
+      "7": { title: "Lekcja 7", menuDesc: "Tryb rozkazujący, forma grzecznościowa i liczba mnoga." },
+      "8": { title: "Lekcja 8", menuDesc: "Czasowniki zwrotne, zmiana e → i/ie i biernik." },
+      "9": { title: "Lekcja 9", menuDesc: "Wiele przedmiotów, dieser/jener, liczba pojedyncza i mnoga." },
+      "10": { title: "Lekcja 10", menuDesc: "Sein, können, zdrowie, wiek i zawody." },
+      "11": { title: "Lekcja 11", menuDesc: "Haben, kein/keine/keinen, przynależność i złożone rzeczowniki." },
+      "12": { title: "Lekcja 12", menuDesc: "Stopnie wyższe, als/wie, wiek i kolory." },
+      "13": { title: "Lekcja 13", menuDesc: "Der Körper, części ciała, turnen i jeder." },
+      "14": { title: "Lekcja 14", menuDesc: "müssen, wollen, mögen i czasowniki modalne." },
+      "15": { title: "Lekcja 15", menuDesc: "sollen, dürfen, essen i owoce." },
+      "16": { title: "Lekcja 16", menuDesc: "Celownik, geben, sich nähern." },
+      "17": { title: "Lekcja 17", menuDesc: "mit + Dativ, womit / mit wem i Umlaut." },
+      "18": { title: "Lekcja 18", menuDesc: "wohin / wo, Akkusativ lub Dativ z an / in / auf." },
+      "19": { title: "Lekcja 19", menuDesc: "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen." },
+      "20": { title: "Lekcja 20", menuDesc: "Haus, Stockwerk, Dativ/Akkusativ i złożone rzeczowniki." },
+      "21": { title: "Lekcja 21", menuDesc: "woher / wohin / wo, von / aus / mit + Dativ." }
+    }
   },
   plural: { wordOne: "słowo", wordsFew: "słowa", wordsMany: "słów" },
   spelling: {

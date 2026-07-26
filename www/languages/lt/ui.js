@@ -208,7 +208,61 @@ window.LANGUAGE_UI_STRINGS = {
     vowelsDesc: "Ilgos ir trumpos balsės su pavyzdžiais.",
     consonantsTitle: "Priebalsės ir raidžių junginiai",
     consonantsDesc: "Svarbiausi priebalsių garsai pradedantiesiems.",
-    lessonProgress: "Pamoka {lesson} · Versti: {current} / {total}"
+    lessonProgress: "Pamoka {lesson} · Versti: {current} / {total}",
+    exerciseProgress: "Pamoka {lesson} · Pratimas",
+    sections: {
+      grammar: "Gramatika",
+      exercise: "Pratimas",
+      translate: "Versti",
+      exerciseCombined: "Übung / Pratimas"
+    },
+    hints: {
+      tapToRevealAnswer: "Palieskite kortelę, kad pamatytumėte atsakymą.",
+      tapToContinue: "Palieskite kortelę, kad tęstumėte.",
+      tapToRevealGerman: "Palieskite kortelę, kad pamatytumėte vokišką vertimą.",
+      tapNextStep: "Palieskite kortelę, kad pereitumėte prie kito žingsnio.",
+      exerciseCardAria: "{title} pratimo kortelė"
+    },
+    cta: {
+      tapNextCard: "Palieskite kitą kortelę",
+      tapToRevealAnswer: "Palieskite, kad pamatytumėte atsakymą",
+      tapContinue: "Palieskite tęsti",
+      transformSentence: "Perrašykite sakinį.",
+      transformThirdSingular: "Perrašykite sakinį 3-ojo asmens vienaskaita.",
+      transformFirstPlural: "Perrašykite sakinį 1-ojo asmens daugiskaita."
+    },
+    exerciseMeta: {
+      fillCase: "Übung I — naudokite tinkamą linksnį",
+      chooseCasePlural: "Pasirinkite tinkamą linksnį ir sudarykite daugiskaitą!",
+      answerPlural: "Dabar atsakykite daugiskaita.",
+      translate: "Übung II — verskite",
+      formDu: "Forma 1/3: tu (vienaskaita)",
+      formIhr: "Forma 2/3: jūs (daugiskaita)",
+      formSie: "Forma 3/3: Sie (mandagumo forma)"
+    },
+    lessonItems: {
+      "1": { title: "Pamoka 1", menuDesc: "Veiksmažodžiai esamuoju laiku, žodžiai, gramatika ir pratimas." },
+      "2": { title: "Pamoka 2", menuDesc: "Dialogai, žodžiai, tarimas, gramatika ir vertimas." },
+      "3": { title: "Pamoka 3", menuDesc: "Dialogai, žodžiai, tarimas, gramatika ir vertimas." },
+      "4": { title: "Pamoka 4", menuDesc: "Galininkas, nehmen, hinlegen, hinausgehen ir būdvardžiai." },
+      "5": { title: "Pamoka 5", menuDesc: "Wen?, galininkas, sitzen, fragen ir -in galūnė." },
+      "6": { title: "Pamoka 6", menuDesc: "Skaičiai, daugiskaita, umlautai ir daiktavardžių daugiskaitos formos." },
+      "7": { title: "Pamoka 7", menuDesc: "Liepiamoji nuosaka, mandagumo forma ir daugiskaita." },
+      "8": { title: "Pamoka 8", menuDesc: "Refleksyvūs veiksmažodžiai, e → i/ie kaita ir galininkas." },
+      "9": { title: "Pamoka 9", menuDesc: "Keli daiktai, dieser/jener, vienaskaita ir daugiskaita." },
+      "10": { title: "Pamoka 10", menuDesc: "Sein, können, sveikata, amžius ir profesijos." },
+      "11": { title: "Pamoka 11", menuDesc: "Haben, kein/keine/keinen, priklausomybė ir sudėtiniai daiktavardžiai." },
+      "12": { title: "Pamoka 12", menuDesc: "Palyginamieji laipsniai, als/wie, amžius ir spalvos." },
+      "13": { title: "Pamoka 13", menuDesc: "Der Körper, kūno dalys, turnen ir jeder." },
+      "14": { title: "Pamoka 14", menuDesc: "müssen, wollen, mögen ir modaliniai veiksmažodžiai." },
+      "15": { title: "Pamoka 15", menuDesc: "sollen, dürfen, essen ir vaisiai." },
+      "16": { title: "Pamoka 16", menuDesc: "Naudininkas, geben, sich nähern." },
+      "17": { title: "Pamoka 17", menuDesc: "mit + Dativ, womit / mit wem ir Umlaut." },
+      "18": { title: "Pamoka 18", menuDesc: "wohin / wo, Akkusativ arba Dativ su an / in / auf." },
+      "19": { title: "Pamoka 19", menuDesc: "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen." },
+      "20": { title: "Pamoka 20", menuDesc: "Haus, Stockwerk, Dativ/Akkusativ ir sudėtiniai daiktavardžiai." },
+      "21": { title: "Pamoka 21", menuDesc: "woher / wohin / wo, von / aus / mit + Dativ." }
+    }
   },
   plural: { wordOne: "žodis", wordsFew: "žodžiai", wordsMany: "žodžių" },
   spelling: {
