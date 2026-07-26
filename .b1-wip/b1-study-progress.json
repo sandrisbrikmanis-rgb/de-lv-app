@@ -33698,5 +33698,1265 @@
     }
    }
   }
+ },
+ "b1-rasen": {
+  "de": "rasen",
+  "lv": "kihutama",
+  "level": "B1",
+  "study": {
+   "id": "b1-rasen",
+   "layout": "standardStudy",
+   "translation": "kihutama",
+   "explanation": "Põhiidee: rasen tähendab kihutamist või väga kiiret liikumist, sageli liiga kiiret. Tormi kohta võib see tähendada möllamist.",
+   "examples": [
+    {
+     "de": "Das Auto rast durch die Stadt.",
+     "lv": "auto kihutab läbi linna."
+    },
+    {
+     "de": "Der Zug raste an uns vorbei.",
+     "lv": "rong kihutas meist mööda."
+    },
+    {
+     "de": "Der Sturm rast die ganze Nacht.",
+     "lv": "torm möllab kogu öö."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "rasen",
+     "meaning": "kihutama • möllama",
+     "example": "Das Auto rast. = Auto kihutab."
+    },
+    {
+     "word": "fahren",
+     "meaning": "sõitma",
+     "example": "Ich fahre langsam. = Ma sõidan aeglaselt."
+    },
+    {
+     "word": "toben",
+     "meaning": "möllama",
+     "example": "Der Sturm tobt. = Torm mölllab."
+    }
+   ],
+   "tip": "Kui kiirus tundub liiga suur, sobib sageli rasen.",
+   "important": "rasen ei ole neutraalne sõitma; sõnas on liigne kiirus või jõud.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "rasen",
+     "purple": "kihutamist",
+     "red": "liiga kiiret"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "rast",
+       "yellow": "Auto"
+      },
+      "lv": {
+       "purple": "kihutab"
+      }
+     },
+     {
+      "de": {
+       "blue": "raste",
+       "yellow": "Zug"
+      },
+      "lv": {
+       "purple": "kihutas"
+      }
+     },
+     {
+      "de": {
+       "blue": "rast",
+       "yellow": "Sturm"
+      },
+      "lv": {
+       "red": "möllab"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "rasen"
+      },
+      "meaning": {
+       "purple": "kihutama"
+      },
+      "example": {
+       "blue": "rast",
+       "yellow": "Auto"
+      }
+     },
+     {
+      "word": {
+       "green": "fahren"
+      },
+      "meaning": {
+       "purple": "sõitma"
+      },
+      "example": {
+       "red": "fahre"
+      }
+     },
+     {
+      "word": {
+       "green": "toben"
+      },
+      "meaning": {
+       "purple": "möllama"
+      },
+      "example": {
+       "red": "tobt",
+       "yellow": "Sturm"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "rasen",
+     "red": "liiga suur"
+    },
+    "important": {
+     "blue": "rasen",
+     "red": "sõitma"
+    }
+   }
+  }
+ },
+ "b1-rate": {
+  "de": "Rate",
+  "de_article": "die",
+  "de_plural": "die Raten",
+  "lv": "osamakse",
+  "level": "B1",
+  "study": {
+   "id": "b1-rate",
+   "layout": "standardStudy",
+   "translation": "osamakse",
+   "explanation": "Põhiidee: die Rate on korraline makseosa, näiteks järelmaksuga ostmisel. der Rat ühe -e-ga tähendab nõuannet.",
+   "examples": [
+    {
+     "de": "Ich zahle das Auto in Raten.",
+     "lv": "ma maksan auto eest osade kaupa."
+    },
+    {
+     "de": "Die monatliche Rate ist hoch.",
+     "lv": "kuine osamakse on suur."
+    },
+    {
+     "de": "Die letzte Rate ist im Juni fällig.",
+     "lv": "viimane osamakse tuleb teha juunis."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "die Rate",
+     "meaning": "osamakse, makseosa",
+     "example": "Die Rate ist hoch. = Osamakse on suur."
+    },
+    {
+     "word": "der Rat",
+     "meaning": "nõuanne",
+     "example": "Danke für deinen Rat. = Tänan sinu nõuande eest."
+    },
+    {
+     "word": "die Ratenzahlung",
+     "meaning": "järelmaks",
+     "example": "Ratenzahlung ist möglich. = Järelmaks on võimalik."
+    }
+   ],
+   "tip": "Rate lõpus -e-ga on sageli makseosa.",
+   "important": "Ära aja segi die Rate sõnaga der Rat. Artikkel ja lõpp muudavad tähendust.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "die Rate",
+     "purple": "makseosa",
+     "red": "der Rat"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Raten",
+       "yellow": "Auto"
+      },
+      "lv": {
+       "purple": "osade kaupa"
+      }
+     },
+     {
+      "de": {
+       "blue": "Rate",
+       "yellow": "monatliche"
+      },
+      "lv": {
+       "purple": "osamakse"
+      }
+     },
+     {
+      "de": {
+       "blue": "Rate",
+       "yellow": "Juni"
+      },
+      "lv": {
+       "purple": "osamakse"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "die Rate"
+      },
+      "meaning": {
+       "purple": "osamakse"
+      },
+      "example": {
+       "blue": "Rate"
+      }
+     },
+     {
+      "word": {
+       "green": "der Rat"
+      },
+      "meaning": {
+       "purple": "nõuanne"
+      },
+      "example": {
+       "red": "Rat"
+      }
+     },
+     {
+      "word": {
+       "green": "die Ratenzahlung"
+      },
+      "meaning": {
+       "purple": "järelmaks"
+      },
+      "example": {
+       "red": "Ratenzahlung"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "Rate",
+     "purple": "makseosa"
+    },
+    "important": {
+     "blue": "die Rate",
+     "red": "der Rat"
+    }
+   }
+  }
+ },
+ "b1-räumen": {
+  "de": "räumen",
+  "lv": "koristama",
+  "level": "B1",
+  "study": {
+   "id": "b1-räumen",
+   "layout": "standardStudy",
+   "translation": "koristama",
+   "explanation": "Põhiidee: räumen tähendab koha vabaks tegemist: eemaldamist, vabastamist või lahkumist. aufräumen tähendab korrastamist.",
+   "examples": [
+    {
+     "de": "Die Polizei räumt die Straße.",
+     "lv": "politsei vabastab tänava."
+    },
+    {
+     "de": "Wir müssen die Wohnung räumen.",
+     "lv": "me peame korterist välja kolima."
+    },
+    {
+     "de": "Bitte räum dein Zimmer auf.",
+     "lv": "palun korista oma tuba."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "räumen",
+     "meaning": "vabastama, eemaldama, välja kolima",
+     "example": "Die Polizei räumt die Straße. = Politsei vabastab tänava."
+    },
+    {
+     "word": "aufräumen",
+     "meaning": "korrastama",
+     "example": "Ich räume das Zimmer auf. = Ma korrastan tuba."
+    },
+    {
+     "word": "verlassen",
+     "meaning": "lahkuma kohast",
+     "example": "Wir verlassen das Haus. = Me lahkume majast."
+    }
+   ],
+   "tip": "Kui koht peab jääma vabaks, mõtle räumen.",
+   "important": "räumen ei ole ainult korrastama. Igapäevaselt on korrastamine tavaliselt aufräumen.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "räumen",
+     "purple": "vabaks",
+     "red": "aufräumen"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "räumt",
+       "yellow": "Straße"
+      },
+      "lv": {
+       "purple": "vabastab"
+      }
+     },
+     {
+      "de": {
+       "blue": "räumen",
+       "yellow": "Wohnung"
+      },
+      "lv": {
+       "purple": "peame välja kolima"
+      }
+     },
+     {
+      "de": {
+       "red": "räum",
+       "yellow": "Zimmer"
+      },
+      "lv": {
+       "red": "korista"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "räumen"
+      },
+      "meaning": {
+       "purple": "vabastama"
+      },
+      "example": {
+       "blue": "räumt",
+       "yellow": "Straße"
+      }
+     },
+     {
+      "word": {
+       "green": "aufräumen"
+      },
+      "meaning": {
+       "purple": "korrastama"
+      },
+      "example": {
+       "red": "räume",
+       "yellow": "Zimmer"
+      }
+     },
+     {
+      "word": {
+       "green": "verlassen"
+      },
+      "meaning": {
+       "purple": "lahkuma"
+      },
+      "example": {
+       "red": "verlassen",
+       "yellow": "Haus"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "räumen",
+     "purple": "vabaks"
+    },
+    "important": {
+     "blue": "räumen",
+     "red": "aufräumen"
+    }
+   }
+  }
+ },
+ "b1-rausch": {
+  "de": "Rausch",
+  "de_article": "der",
+  "de_plural": "die Räusche",
+  "lv": "joove",
+  "level": "B1",
+  "study": {
+   "id": "b1-rausch",
+   "layout": "standardStudy",
+   "translation": "joove",
+   "explanation": "Põhiidee: der Rausch on joove või joobeseisund. Ülekantud tähenduses võib see olla ka tugev vaimustus.",
+   "examples": [
+    {
+     "de": "Er war im Rausch.",
+     "lv": "ta oli joobes."
+    },
+    {
+     "de": "Der Rausch ließ langsam nach.",
+     "lv": "joove läks aeglaselt üle."
+    },
+    {
+     "de": "Sie erlebten einen Rausch der Gefühle.",
+     "lv": "nad kogesid tunnete joovastust."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "der Rausch",
+     "meaning": "joove, joobumus",
+     "example": "Er war im Rausch. = Ta oli joobes."
+    },
+    {
+     "word": "die Freude",
+     "meaning": "rõõm",
+     "example": "Die Freude war groß. = Rõõm oli suur."
+    },
+    {
+     "word": "die Sucht",
+     "meaning": "sõltuvus",
+     "example": "Sucht ist gefährlich. = Sõltuvus on ohtlik."
+    }
+   ],
+   "tip": "Rausch on seisund, kus inimene on joobes või vaimustatud.",
+   "important": "Rausch ei ole lihtsalt rõõm; sellel on joobumuse või kontrolli kaotuse varjund.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "der Rausch",
+     "purple": "joove",
+     "red": "joobeseisund"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Rausch"
+      },
+      "lv": {
+       "purple": "joobes"
+      }
+     },
+     {
+      "de": {
+       "blue": "Rausch"
+      },
+      "lv": {
+       "purple": "Joove"
+      }
+     },
+     {
+      "de": {
+       "blue": "Rausch",
+       "yellow": "Gefühle"
+      },
+      "lv": {
+       "red": "joovastust"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "der Rausch"
+      },
+      "meaning": {
+       "purple": "joove"
+      },
+      "example": {
+       "blue": "Rausch"
+      }
+     },
+     {
+      "word": {
+       "green": "die Freude"
+      },
+      "meaning": {
+       "purple": "rõõm"
+      },
+      "example": {
+       "red": "Freude"
+      }
+     },
+     {
+      "word": {
+       "green": "die Sucht"
+      },
+      "meaning": {
+       "purple": "sõltuvus"
+      },
+      "example": {
+       "red": "Sucht"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "Rausch",
+     "purple": "joobes"
+    },
+    "important": {
+     "blue": "Rausch",
+     "red": "rõõm"
+    }
+   }
+  }
+ },
+ "b1-regeln": {
+  "de": "regeln",
+  "lv": "korraldama",
+  "level": "B1",
+  "study": {
+   "id": "b1-regeln",
+   "layout": "standardStudy",
+   "translation": "korraldama",
+   "explanation": "Põhiidee: regeln tähendab küsimuse korraldamist või protsessi kordaseadmist. Tehniliselt võib see tähendada ka reguleerimist.",
+   "examples": [
+    {
+     "de": "Wir regeln das morgen.",
+     "lv": "me korraldame selle homme."
+    },
+    {
+     "de": "Das Gesetz regelt diese Frage.",
+     "lv": "seadus reguleerib seda küsimust."
+    },
+    {
+     "de": "Der Thermostat regelt die Temperatur.",
+     "lv": "termostaat reguleerib temperatuuri."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "regeln",
+     "meaning": "korraldama, reguleerima",
+     "example": "Wir regeln das morgen. = Me korraldame selle homme."
+    },
+    {
+     "word": "organisieren",
+     "meaning": "organiseerima",
+     "example": "Sie organisiert die Reise. = Ta organiseerib reisi."
+    },
+    {
+     "word": "einstellen",
+     "meaning": "reguleerima või tööle võtma",
+     "example": "Ich stelle die Heizung ein. = Ma reguleerin küttet."
+    }
+   ],
+   "tip": "Kui asi tuleb korda ajada, kasuta regeln.",
+   "important": "regeln ei ole ainult tehniline reguleerimine; väga sageli tähendab see asja korraldamist.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "regeln",
+     "purple": "korraldamist",
+     "red": "reguleerima"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "regeln"
+      },
+      "lv": {
+       "purple": "korraldame"
+      }
+     },
+     {
+      "de": {
+       "blue": "regelt",
+       "yellow": "Frage"
+      },
+      "lv": {
+       "red": "reguleerib"
+      }
+     },
+     {
+      "de": {
+       "blue": "regelt",
+       "yellow": "Temperatur"
+      },
+      "lv": {
+       "red": "reguleerib"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "regeln"
+      },
+      "meaning": {
+       "purple": "korraldama"
+      },
+      "example": {
+       "blue": "regeln"
+      }
+     },
+     {
+      "word": {
+       "green": "organisieren"
+      },
+      "meaning": {
+       "purple": "organiseerima"
+      },
+      "example": {
+       "red": "organisiert",
+       "yellow": "Reise"
+      }
+     },
+     {
+      "word": {
+       "green": "einstellen"
+      },
+      "meaning": {
+       "purple": "reguleerima"
+      },
+      "example": {
+       "red": "stelle",
+       "yellow": "Heizung"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "regeln",
+     "purple": "korda"
+    },
+    "important": {
+     "blue": "regeln",
+     "red": "reguleerimine"
+    }
+   }
+  }
+ },
+ "b1-reißen": {
+  "de": "reißen",
+  "lv": "rebenema",
+  "level": "B1",
+  "study": {
+   "id": "b1-reißen",
+   "layout": "standardStudy",
+   "translation": "rebenema",
+   "explanation": "Põhiidee: reißen tähendab ise rebenemist või millegi rebimist. Reisen ühe s-ga ei ole sama - see tähendab reisimist.",
+   "examples": [
+    {
+     "de": "Das Seil reißt.",
+     "lv": "köis rebeneb."
+    },
+    {
+     "de": "Er reißt das Papier in Stücke.",
+     "lv": "ta rebib paberi tükkideks."
+    },
+    {
+     "de": "Der Wind reißt die Tür auf.",
+     "lv": "tuul rebib ukse pärani lahti."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "reißen",
+     "meaning": "rebenema või rebima",
+     "example": "Das Seil reißt. = Köis rebeneb."
+    },
+    {
+     "word": "reisen",
+     "meaning": "reisima",
+     "example": "Wir reisen nach Berlin. = Me reisime Berliini."
+    },
+    {
+     "word": "brechen",
+     "meaning": "murduma",
+     "example": "Der Ast bricht. = Oks murdub."
+    }
+   ],
+   "tip": "reißen ß-ga on rebenema/rebima; reisen s-ga on reisima.",
+   "important": "Ilma objektita on reißen sageli rebenema; objektiga - rebima või lahti rebima.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "reißen",
+     "purple": "rebenema",
+     "red": "Reisen"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "reißt",
+       "yellow": "Seil"
+      },
+      "lv": {
+       "purple": "rebeneb"
+      }
+     },
+     {
+      "de": {
+       "blue": "reißt",
+       "yellow": "Papier"
+      },
+      "lv": {
+       "purple": "rebib"
+      }
+     },
+     {
+      "de": {
+       "blue": "reißt",
+       "yellow": "Tür"
+      },
+      "lv": {
+       "purple": "rebib lahti"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "reißen"
+      },
+      "meaning": {
+       "purple": "rebenema"
+      },
+      "example": {
+       "blue": "reißt",
+       "yellow": "Seil"
+      }
+     },
+     {
+      "word": {
+       "green": "reisen"
+      },
+      "meaning": {
+       "purple": "reisima"
+      },
+      "example": {
+       "red": "reisen",
+       "green": "Berlin"
+      }
+     },
+     {
+      "word": {
+       "green": "brechen"
+      },
+      "meaning": {
+       "purple": "murduma"
+      },
+      "example": {
+       "red": "bricht",
+       "yellow": "Ast"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "reißen",
+     "red": "reisen"
+    },
+    "important": {
+     "blue": "reißen",
+     "yellow": "objektita"
+    }
+   }
+  }
+ },
+ "b1-reizen": {
+  "de": "reizen",
+  "lv": "ärritama",
+  "level": "B1",
+  "study": {
+   "id": "b1-reizen",
+   "layout": "standardStudy",
+   "translation": "ärritama",
+   "explanation": "Põhiidee: reizen tähendab keha või närvide ärritamist. Reisi, pakkumise või idee puhul võib see tähendada ahvatlemist.",
+   "examples": [
+    {
+     "de": "Der Rauch reizt die Augen.",
+     "lv": "suits ärritab silmi."
+    },
+    {
+     "de": "Seine Worte reizten mich.",
+     "lv": "tema sõnad ärritasid mind."
+    },
+    {
+     "de": "Diese Reise reizt mich sehr.",
+     "lv": "see reis ahvatleb mind väga."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "reizen",
+     "meaning": "ärritama, tüütama või ahvatlema",
+     "example": "Der Rauch reizt die Augen. = Suits ärritab silmi."
+    },
+    {
+     "word": "nerven",
+     "meaning": "kõnekeeles tüütama",
+     "example": "Der Lärm nervt mich. = Müra tüütab mind."
+    },
+    {
+     "word": "locken",
+     "meaning": "ahvatlema",
+     "example": "Das Angebot lockt viele Kunden. = Pakkumine ahvatleb paljusid kliente."
+    }
+   ],
+   "tip": "Silmi ärritab, inimest tüütab, reis ahvatleb - kõik võib olla reizen.",
+   "important": "reizen tõlge muutub objekti järgi, seega vaata alati, mis on „reizen”.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "reizen",
+     "purple": "ärritama",
+     "red": "ahvatlema"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "reizt",
+       "yellow": "Augen"
+      },
+      "lv": {
+       "purple": "ärritab"
+      }
+     },
+     {
+      "de": {
+       "blue": "reizten",
+       "yellow": "Worte"
+      },
+      "lv": {
+       "purple": "ärritasid"
+      }
+     },
+     {
+      "de": {
+       "blue": "reizt",
+       "yellow": "Reise"
+      },
+      "lv": {
+       "red": "ahvatleb"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "reizen"
+      },
+      "meaning": {
+       "purple": "ärritama"
+      },
+      "example": {
+       "blue": "reizt",
+       "yellow": "Augen"
+      }
+     },
+     {
+      "word": {
+       "green": "nerven"
+      },
+      "meaning": {
+       "purple": "tüütama"
+      },
+      "example": {
+       "red": "nervt",
+       "yellow": "Lärm"
+      }
+     },
+     {
+      "word": {
+       "green": "locken"
+      },
+      "meaning": {
+       "purple": "ahvatlema"
+      },
+      "example": {
+       "red": "lockt",
+       "green": "Kunden"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "reizen",
+     "purple": [
+      "ärritab",
+      "tüütab"
+     ],
+     "red": "ahvatleb"
+    },
+    "important": {
+     "blue": "reizen",
+     "yellow": "objekti"
+    }
+   }
+  }
+ },
+ "b1-richten": {
+  "de": "richten",
+  "lv": "suunama",
+  "level": "B1",
+  "study": {
+   "id": "b1-richten",
+   "layout": "standardStudy",
+   "translation": "suunama",
+   "explanation": "Põhiidee: richten tähendab millegi suunamist või adresseerimist kindlas suunas. Juriidiliselt võib see tähendada ka kohut mõistmist.",
+   "examples": [
+    {
+     "de": "Sie richtet den Blick nach vorn.",
+     "lv": "ta suunab pilgu ette."
+    },
+    {
+     "de": "Die Frage richtet sich an den Lehrer.",
+     "lv": "küsimus on suunatud õpetajale."
+    },
+    {
+     "de": "Der Richter richtet über den Fall.",
+     "lv": "kohtunik mõistab selle asja üle kohut."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "richten",
+     "meaning": "suunama, adresseerima • kohut mõistma",
+     "example": "Sie richtet den Blick nach vorn. = Ta suunab pilgu ette."
+    },
+    {
+     "word": "schicken",
+     "meaning": "saatma",
+     "example": "Ich schicke dir eine E-Mail. = Ma saadan sulle e-kirja."
+    },
+    {
+     "word": "urteilen",
+     "meaning": "hindama, otsustama",
+     "example": "Urteile nicht zu schnell. = Ära otsusta liiga kiiresti."
+    }
+   ],
+   "tip": "Suund või adressaat - richten.",
+   "important": "richten ei ole tavaline saatmine; see tähendab sageli pilgu, küsimuse või tähelepanu suunamist.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "richten",
+     "purple": "suunama",
+     "red": "kohut mõistma"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "richtet",
+       "yellow": "Blick"
+      },
+      "lv": {
+       "purple": "suunab"
+      }
+     },
+     {
+      "de": {
+       "blue": "richtet sich",
+       "green": "Lehrer"
+      },
+      "lv": {
+       "purple": "suunatud"
+      }
+     },
+     {
+      "de": {
+       "blue": "richtet",
+       "green": "Richter"
+      },
+      "lv": {
+       "red": "mõistab kohut"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "richten"
+      },
+      "meaning": {
+       "purple": "suunama"
+      },
+      "example": {
+       "blue": "richtet",
+       "yellow": "Blick"
+      }
+     },
+     {
+      "word": {
+       "green": "schicken"
+      },
+      "meaning": {
+       "purple": "saatma"
+      },
+      "example": {
+       "red": "schicke",
+       "yellow": "E-Mail"
+      }
+     },
+     {
+      "word": {
+       "green": "urteilen"
+      },
+      "meaning": {
+       "purple": "otsustama"
+      },
+      "example": {
+       "red": "Urteile"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "richten",
+     "purple": "Suund"
+    },
+    "important": {
+     "blue": "richten",
+     "red": "saatmine"
+    }
+   }
+  }
+ },
+ "b1-rollen": {
+  "de": "rollen",
+  "lv": "veerema",
+  "level": "B1",
+  "study": {
+   "id": "b1-rollen",
+   "layout": "standardStudy",
+   "translation": "veerema",
+   "explanation": "Põhiidee: rollen tähendab ise veeremist või millegi veeretamist/rullimist. Tähenduse määrab, kas on objekt.",
+   "examples": [
+    {
+     "de": "Der Ball rollt über den Boden.",
+     "lv": "pall veereb üle põranda."
+    },
+    {
+     "de": "Sie rollt den Teppich zusammen.",
+     "lv": "ta rullib vaiba kokku."
+    },
+    {
+     "de": "Der Wagen rollt langsam los.",
+     "lv": "auto hakkab aeglaselt veerema."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "rollen",
+     "meaning": "veerema, veeretama, rullima",
+     "example": "Der Ball rollt. = Pall veereb."
+    },
+    {
+     "word": "drehen",
+     "meaning": "pöörama, pöörlema",
+     "example": "Das Rad dreht sich. = Ratas pöörleb."
+    },
+    {
+     "word": "schieben",
+     "meaning": "lükkama",
+     "example": "Er schiebt den Wagen. = Ta lükkab käru."
+    }
+   ],
+   "tip": "Ümar liikumine edasi - rollen.",
+   "important": "Kui asi liigub ise, tõlgitakse rollen sageli kui veerema; objektiga - veeretama või kokku rullima.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "rollen",
+     "purple": "veerema",
+     "red": "objekt"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "rollt",
+       "yellow": "Ball"
+      },
+      "lv": {
+       "purple": "veereb"
+      }
+     },
+     {
+      "de": {
+       "blue": "rollt",
+       "yellow": "Teppich"
+      },
+      "lv": {
+       "purple": "rullib kokku"
+      }
+     },
+     {
+      "de": {
+       "blue": "rollt",
+       "yellow": "Wagen"
+      },
+      "lv": {
+       "purple": "veerema"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "rollen"
+      },
+      "meaning": {
+       "purple": "veerema"
+      },
+      "example": {
+       "blue": "rollt",
+       "yellow": "Ball"
+      }
+     },
+     {
+      "word": {
+       "green": "drehen"
+      },
+      "meaning": {
+       "purple": "pöörlema"
+      },
+      "example": {
+       "red": "dreht",
+       "yellow": "Rad"
+      }
+     },
+     {
+      "word": {
+       "green": "schieben"
+      },
+      "meaning": {
+       "purple": "lükkama"
+      },
+      "example": {
+       "red": "schiebt",
+       "yellow": "Wagen"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "rollen",
+     "purple": "Ümar liikumine"
+    },
+    "important": {
+     "blue": "rollen",
+     "purple": "veerema",
+     "red": "kokku rullima"
+    }
+   }
+  }
+ },
+ "b1-rösten": {
+  "de": "rösten",
+  "lv": "röstima",
+  "level": "B1",
+  "study": {
+   "id": "b1-rösten",
+   "layout": "standardStudy",
+   "translation": "röstima",
+   "explanation": "Põhiidee: rösten tähendab toidu röstimist või kergelt röstimist, eriti kohvi, leiva, seemnete või pähklite puhul.",
+   "examples": [
+    {
+     "de": "Wir rösten Kaffee.",
+     "lv": "me röstime kohvi."
+    },
+    {
+     "de": "Ich röste das Brot kurz.",
+     "lv": "ma röstin leiba lühidalt."
+    },
+    {
+     "de": "Die Nüsse werden im Ofen geröstet.",
+     "lv": "pähklid röstitakse ahjus."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "rösten",
+     "meaning": "röstima",
+     "example": "Wir rösten Kaffee. = Me röstime kohvi."
+    },
+    {
+     "word": "braten",
+     "meaning": "praadima pannil",
+     "example": "Ich brate Fleisch. = Ma praen liha."
+    },
+    {
+     "word": "backen",
+     "meaning": "küpsetama ahjus",
+     "example": "Sie backt Brot. = Ta küpsetab leiba."
+    }
+   ],
+   "tip": "Kohv, leib, seemned või pähklid - rösten.",
+   "important": "rösten ei ole braten. braten on tavaliselt praadimine pannil.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "rösten",
+     "purple": "röstimist",
+     "yellow": "pähkleid"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "rösten",
+       "yellow": "Kaffee"
+      },
+      "lv": {
+       "purple": "röstime"
+      }
+     },
+     {
+      "de": {
+       "blue": "röste",
+       "yellow": "Brot"
+      },
+      "lv": {
+       "purple": "röstin"
+      }
+     },
+     {
+      "de": {
+       "blue": "geröstet",
+       "yellow": "Nüsse"
+      },
+      "lv": {
+       "purple": "röstitakse"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "rösten"
+      },
+      "meaning": {
+       "purple": "röstima"
+      },
+      "example": {
+       "blue": "rösten",
+       "yellow": "Kaffee"
+      }
+     },
+     {
+      "word": {
+       "green": "braten"
+      },
+      "meaning": {
+       "purple": "praadima pannil"
+      },
+      "example": {
+       "red": "brate",
+       "yellow": "Fleisch"
+      }
+     },
+     {
+      "word": {
+       "green": "backen"
+      },
+      "meaning": {
+       "purple": "küpsetama ahjus"
+      },
+      "example": {
+       "red": "backt",
+       "yellow": "Brot"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "rösten",
+     "yellow": [
+      "Kohv",
+      "pähklid"
+     ]
+    },
+    "important": {
+     "blue": "rösten",
+     "red": "braten"
+    }
+   }
+  }
  }
 }
