@@ -9784,5 +9784,7122 @@
     }
    }
   }
+ },
+ "b1-dagegen": {
+  "de": "dagegen",
+  "lv": "seevastu",
+  "level": "B1",
+  "study": {
+   "id": "b1-dagegen",
+   "layout": "standardStudy",
+   "translation": "seevastu",
+   "explanation": "Põhiidee: dagegen tähendab seevastu või selle vastu. See võib näidata kontrasti või vastuseisu millelegi.",
+   "examples": [
+    {
+     "de": "Ich bin dagegen.",
+     "lv": "ma olen selle vastu."
+    },
+    {
+     "de": "Er mag Tee, ich dagegen trinke Kaffee.",
+     "lv": "talle meeldib tee, mina aga joon seevastu kohvi."
+    },
+    {
+     "de": "Was kann man dagegen tun?",
+     "lv": "mida saab selle vastu teha?"
+    }
+   ],
+   "comparison": [
+    {
+     "word": "dagegen",
+     "meaning": "selle vastu / seevastu",
+     "example": "Ich bin dagegen. = Ma olen selle vastu."
+    },
+    {
+     "word": "dafür",
+     "meaning": "selle poolt",
+     "example": "Ich bin dafür. = Ma olen selle poolt."
+    },
+    {
+     "word": "hingegen",
+     "meaning": "seevastu",
+     "example": "Er bleibt, sie hingegen geht. = Tema jääb, tema seevastu läheb."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Poolt/vastu hääletusel: dafür = poolt, dagegen = vastu."
+     }
+    ]
+   },
+   "important": {
+    "text": "dagegen ei ole ainult suund „vastu”; sageli väljendab see arvamust või kontrasti."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "dagegen"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "selle vastu"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "dagegen",
+        "Kaffee"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "seevastu",
+        "kohvi"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "dagegen",
+        "tun"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "selle vastu",
+        "teha"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "dagegen"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "dagegen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "selle vastu / seevastu"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "dafür"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "selle poolt"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "hingegen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "seevastu"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "dagegen"
+     ]
+    },
+    "important": {
+     "purple": [
+      "dagegen"
+     ]
+    }
+   }
+  }
+ },
+ "b1-daher": {
+  "de": "daher",
+  "lv": "seetõttu",
+  "level": "B1",
+  "study": {
+   "id": "b1-daher",
+   "layout": "standardStudy",
+   "translation": "seetõttu",
+   "explanation": "Põhiidee: daher tähendab seetõttu. Harvemini võib see tähendada sealt, kuid B1 tekstides ühendab see kõige sagedamini põhjuse ja tagajärje.",
+   "examples": [
+    {
+     "de": "Es regnet, daher bleiben wir zu Hause.",
+     "lv": "sajab, seetõttu me jääme koju."
+    },
+    {
+     "de": "Er war krank, daher kam er nicht.",
+     "lv": "ta oli haige, seetõttu ei tulnud."
+    },
+    {
+     "de": "Die Idee kommt daher.",
+     "lv": "idee tuleb sealt."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "daher",
+     "meaning": "seetõttu / sealt",
+     "example": "Es bin müde, daher gehe ich. = Olen väsinud, seetõttu lähen."
+    },
+    {
+     "word": "deshalb",
+     "meaning": "seetõttu",
+     "example": "Deshalb warten wir. = Seetõttu me ootame."
+    },
+    {
+     "word": "von dort",
+     "meaning": "sealt",
+     "example": "Er kommt von dort. = Ta tuleb sealt."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Põhjuse ja tagajärje vahel tõlgitakse daher tavaliselt kui seetõttu."
+     }
+    ]
+   },
+   "important": {
+    "text": "daher kui „sealt” on harvem; algajal on parem õppida „seetõttu”."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "daher",
+        "bleiben"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "seetõttu",
+        "jääme"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "daher",
+        "kam"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "seetõttu",
+        "ei tulnud"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "daher"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "sealt"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "daher"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "daher"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "seetõttu / sealt"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "deshalb"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "seetõttu"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "von dort"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "sealt"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "daher"
+     ]
+    },
+    "important": {
+     "purple": [
+      "daher"
+     ]
+    }
+   }
+  }
+ },
+ "b1-dahin": {
+  "de": "dahin",
+  "lv": "sinna",
+  "level": "B1",
+  "study": {
+   "id": "b1-dahin",
+   "layout": "standardStudy",
+   "translation": "sinna",
+   "explanation": "Põhiidee: dahin tähendab sinna. Ülekantud tähenduses es ist dahin tähendab, et miski on läinud või kadunud.",
+   "examples": [
+    {
+     "de": "Ich gehe dahin.",
+     "lv": "ma lähen sinna."
+    },
+    {
+     "de": "Stell die Tasche dahin.",
+     "lv": "pane kott sinna."
+    },
+    {
+     "de": "Meine Hoffnung ist dahin.",
+     "lv": "minu lootus on läinud."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "dahin",
+     "meaning": "sinna / läinud",
+     "example": "Ich fahre dahin. = Ma sõidan sinna."
+    },
+    {
+     "word": "dort",
+     "meaning": "seal",
+     "example": "Ich bin dort. = Ma olen seal."
+    },
+    {
+     "word": "daher",
+     "meaning": "seetõttu / sealt",
+     "example": "Daher kommt das Problem. = Sealt tuleb probleem."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Liikumine või asetamine kohta → dahin; asukoht → dort."
+     }
+    ]
+   },
+   "important": {
+    "text": "dahin näitab suunda kohta, aga dort näitab asukohta. Es ist dahin = see on läinud."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "dahin"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "sinna"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "dahin"
+       ],
+       "yellow": [
+        "Tasche"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "sinna"
+       ],
+       "yellow": [
+        "kott"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "dahin"
+       ],
+       "yellow": [
+        "Hoffnung"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "läinud"
+       ],
+       "yellow": [
+        "lootus"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "dahin"
+     ],
+     "purple": [
+      "sinna",
+      "läinud",
+      "kadunud"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "dahin"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "sinna / läinud"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "dort"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "seal"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "daher"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "seetõttu / sealt"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "liikumine",
+      "asukoht"
+     ]
+    },
+    "important": {
+     "purple": [
+      "suunda",
+      "asukohta",
+      "läinud"
+     ]
+    }
+   }
+  }
+ },
+ "b1-dank-study": {
+  "de": "Dank",
+  "de_article": "der",
+  "lv": "tänu",
+  "level": "B1",
+  "study": {
+   "id": "b1-dank-study",
+   "layout": "standardStudy",
+   "translation": "tänu",
+   "explanation": [
+    "Põhiidee: der Dank on nimisõna ja tähendab tänu kui mõistet. Peamine tähendus on tänu — ära aja segi kõnekeelse vastusega danke.",
+    "Sagedasemad väljendid on Vielen Dank! ja Herzlichen Dank! — need tähendavad „suur tänu!” ja „südamlik tänu!”.",
+    "danke on vastus või lühike tänusõna vestluses: „aitäh”.",
+    "danken on tegusõna: „tänama”. kellele? vormis: Ich danke dir.",
+    "der Dank ei ole sama, mis danke: Dank on nimisõna, danke on kõnekeelne vastus."
+   ],
+   "examples": [
+    {
+     "de": "Vielen Dank!",
+     "lv": "suur tänu!"
+    },
+    {
+     "de": "Herzlichen Dank!",
+     "lv": "südamlik tänu!"
+    },
+    {
+     "de": "Danke schön!",
+     "lv": "suur tänu!"
+    },
+    {
+     "de": "Nein, danke.",
+     "lv": "ei, aitäh."
+    },
+    {
+     "de": "Ich danke Ihnen für die Hilfe.",
+     "lv": "ma tänan teid abi eest."
+    },
+    {
+     "de": "Ich danke dir für das Geschenk.",
+     "lv": "ma tänan sind kingituse eest."
+    },
+    {
+     "de": "Zum Schluss nochmals herzlichen Dank.",
+     "lv": "lõpetuseks veel kord südamlik tänu."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "der Dank",
+     "meaning": "tänu (nimisõna)",
+     "example": "Herzlichen Dank! = Südamlik tänu!"
+    },
+    {
+     "word": "danke",
+     "meaning": "aitäh (vastus)",
+     "example": "Nein, danke. = Ei, aitäh."
+    },
+    {
+     "word": "danken",
+     "meaning": "tänama",
+     "example": "Ich danke dir. = Ma tänan sind."
+    },
+    {
+     "word": "Vielen Dank",
+     "meaning": "suur tänu (väljend)",
+     "example": "Vielen Dank für die Hilfe! = Suur tänu abi eest!"
+    },
+    {
+     "word": "bedanken (sich)",
+     "meaning": "tänama (end) formaalselt",
+     "example": "Ich bedanke mich bei Ihnen. = Ma tänan teid."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Lühikeseks vastuseks vestluses kasuta danke: Danke! / Nein, danke."
+     },
+     {
+      "text": "Formaalsemaks tänamiseks kasuta Vielen Dank! või Ich danke Ihnen."
+     }
+    ]
+   },
+   "important": {
+    "text": "der Dank on nimisõna; danke on vastus; danken on tegusõna."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "de": {
+      "blue": [
+       "Dank",
+       "Vielen Dank",
+       "Herzlichen Dank",
+       "danke",
+       "danken"
+      ]
+     },
+     "lv": {
+      "purple": [
+       "tänu",
+       "aitäh",
+       "tänama",
+       "suur tänu",
+       "südamlik tänu"
+      ]
+     }
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Vielen",
+        "Dank"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "suur tänu"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Herzlichen",
+        "Dank"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "südamlik tänu"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Danke",
+        "schön"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "suur tänu"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "danke"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "aitäh"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "danke",
+        "Ihnen"
+       ],
+       "green": [
+        "Hilfe"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "tänan",
+        "abi"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "danke",
+        "dir"
+       ],
+       "yellow": [
+        "Geschenk"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "tänan",
+        "kingituse"
+       ],
+       "green": [
+        "sind"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Dank",
+        "herzlichen"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "südamlik tänu",
+        "lõpetuseks"
+       ]
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "blue": [
+        "Dank"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "tänu",
+        "nimisõna"
+       ]
+      },
+      "example": {
+       "blue": [
+        "Herzlichen",
+        "Dank"
+       ],
+       "purple": [
+        "südamlik tänu"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "danke"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "aitäh",
+        "vastus"
+       ]
+      },
+      "example": {
+       "green": [
+        "danke"
+       ],
+       "purple": [
+        "aitäh"
+       ]
+      }
+     },
+     {
+      "word": {
+       "blue": [
+        "danken"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "tänama"
+       ]
+      },
+      "example": {
+       "blue": [
+        "danke",
+        "dir"
+       ],
+       "purple": [
+        "tänan"
+       ],
+       "green": [
+        "sind"
+       ]
+      }
+     },
+     {
+      "word": {
+       "blue": [
+        "Vielen",
+        "Dank"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "suur tänu"
+       ]
+      },
+      "example": {
+       "blue": [
+        "Vielen",
+        "Dank",
+        "Hilfe"
+       ],
+       "purple": [
+        "suur tänu",
+        "abi"
+       ]
+      }
+     },
+     {
+      "word": {
+       "orange": [
+        "bedanken"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "tänama formaalselt"
+       ]
+      },
+      "example": {
+       "orange": [
+        "bedanke",
+        "mich"
+       ],
+       "purple": [
+        "tänan"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "leftBlocks": [
+      {
+       "text": {
+        "green": [
+         "danke"
+        ],
+        "purple": [
+         "vastuseks",
+         "aitäh"
+        ]
+       }
+      },
+      {
+       "text": {
+        "blue": [
+         "Vielen Dank",
+         "danke Ihnen"
+        ],
+        "purple": [
+         "formaalsemaks",
+         "tänamiseks"
+        ]
+       }
+      }
+     ]
+    },
+    "important": [
+     {
+      "text": {
+       "blue": [
+        "Dank"
+       ],
+       "green": [
+        "danke"
+       ],
+       "orange": [
+        "danken"
+       ],
+       "purple": [
+        "nimisõna",
+        "vastus",
+        "tegusõna"
+       ]
+      },
+      "example": {
+       "blue": [
+        "Vielen Dank",
+        "danke",
+        "dir"
+       ],
+       "purple": [
+        "suur tänu",
+        "tänan",
+        "aitäh"
+       ]
+      }
+     }
+    ]
+   }
+  }
+ },
+ "b1-daran": {
+  "de": "daran",
+  "lv": "par to",
+  "level": "B1",
+  "study": {
+   "id": "b1-daran",
+   "layout": "standardStudy",
+   "translation": "par to",
+   "explanation": "Põhiidee: daran tähendab selle kohta, selle juures või selle asja juures. Täpse tõlke määrab tegusõna: denken an, arbeiten an, sich erinnern an.",
+   "examples": [
+    {
+     "de": "Ich denke daran.",
+     "lv": "ma mõtlen selle peale."
+    },
+    {
+     "de": "Wir arbeiten daran.",
+     "lv": "me töötame selle kallal."
+    },
+    {
+     "de": "Daran erinnere ich mich gut.",
+     "lv": "seda ma mäletan hästi."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "daran",
+     "meaning": "selle peale / selle juures",
+     "example": "Ich denke daran. = Ma mõtlen selle peale."
+    },
+    {
+     "word": "darauf",
+     "meaning": "selle peale (oodata)",
+     "example": "Ich warte darauf. = Ma ootan seda."
+    },
+    {
+     "word": "damit",
+     "meaning": "sellega",
+     "example": "Ich beginne damit. = Ma alustan sellega."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Vaata tegusõna: denken an → daran; arbeiten an → daran; warten auf → darauf."
+     }
+    ]
+   },
+   "important": {
+    "text": "daran ei ole kohasõna. See viitab varem mainitud asjale, mõttele või tegevusele."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "daran"
+       ],
+       "red": [
+        "denke"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "selle peale"
+       ],
+       "red": [
+        "mõtlen"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "daran"
+       ],
+       "red": [
+        "arbeiten"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "selle kallal"
+       ],
+       "red": [
+        "töötame"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Daran"
+       ],
+       "red": [
+        "erinnere"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "seda"
+       ],
+       "red": [
+        "mäletan"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "daran"
+     ],
+     "red": [
+      "denken an",
+      "arbeiten an",
+      "sich erinnern an"
+     ],
+     "purple": [
+      "selle peale",
+      "selle juures"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "daran"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "selle peale / selle juures"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "darauf"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "selle peale (oodata)"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "damit"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "sellega"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "denken an",
+      "arbeiten an",
+      "warten auf"
+     ]
+    },
+    "important": {
+     "purple": [
+      "asjale",
+      "mõttele",
+      "tegevusele"
+     ]
+    }
+   }
+  }
+ },
+ "b1-darstellen": {
+  "de": "darstellen",
+  "lv": "kujutama",
+  "level": "B1",
+  "study": {
+   "id": "b1-darstellen",
+   "layout": "standardStudy",
+   "translation": "kujutama",
+   "explanation": "Põhiidee: darstellen tähendab kujutamist, näitamist või mängimist nii, et teised mõistaksid olukorda, andmeid või rolli. See ei ole sama, mis sich vorstellen = ette kujutama või end tutvustama.",
+   "examples": [
+    {
+     "de": "Die Grafik stellt die Zahlen dar.",
+     "lv": "graafik kujutab arve."
+    },
+    {
+     "de": "Der Film stellt das Leben im Dorf dar.",
+     "lv": "film näitab elu külas."
+    },
+    {
+     "de": "Sie stellt eine Ärztin dar.",
+     "lv": "ta mängib arsti."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "darstellen",
+     "meaning": "kujutama / näitama / mängima",
+     "example": "Die Tabelle stellt Daten dar. = Tabel kujutab andmeid."
+    },
+    {
+     "word": "zeigen",
+     "meaning": "näitama",
+     "example": "Ich zeige dir das Bild. = Ma näitan sulle pilti."
+    },
+    {
+     "word": "sich vorstellen",
+     "meaning": "ette kujutama / end tutvustama",
+     "example": "Ich stelle mich kurz vor. = Ma tutvustan end lühidalt."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Andmed, graafikud, olukorrad ja rollid werden dargestellt; end vorstellen = end tutvustama."
+     }
+    ]
+   },
+   "important": {
+    "text": "Ära aja segi darstellen sõnaga sich vorstellen: darstellen näitab/kujutab midagi, sich vorstellen on ette kujutamine või end tutvustamine."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "stellt",
+        "dar"
+       ],
+       "yellow": [
+        "Zahlen",
+        "Grafik"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kujutab"
+       ],
+       "yellow": [
+        "arve",
+        "Graafik"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "stellt",
+        "dar"
+       ],
+       "yellow": [
+        "Leben"
+       ],
+       "green": [
+        "Dorf"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "näitab"
+       ],
+       "yellow": [
+        "elu"
+       ],
+       "green": [
+        "külas"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "stellt",
+        "dar"
+       ],
+       "green": [
+        "Ärztin"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "mängib"
+       ],
+       "green": [
+        "arsti"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "darstellen",
+      "sich vorstellen"
+     ],
+     "purple": [
+      "kujutama",
+      "näitama",
+      "mängima",
+      "ette kujutama",
+      "end tutvustama"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "darstellen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "kujutama / näitama / mängima"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "zeigen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "näitama"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "sich vorstellen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "ette kujutama / end tutvustama"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "end tutvustama"
+     ]
+    },
+    "important": {
+     "purple": [
+      "näitab/kujutab",
+      "ette kujutamine",
+      "end tutvustamine"
+     ]
+    }
+   }
+  }
+ },
+ "b1-darunter": {
+  "de": "darunter",
+  "lv": "tostarp",
+  "level": "B1",
+  "study": {
+   "id": "b1-darunter",
+   "layout": "standardStudy",
+   "translation": "tostarp",
+   "explanation": "Põhiidee: darunter tähendab tostarp või selle all. Nimekirjades tähendab darunter sageli „nende hulgas”.",
+   "examples": [
+    {
+     "de": "Viele Gäste kamen, darunter auch Kinder.",
+     "lv": "tuli palju külalisi, tostarp ka lapsi."
+    },
+    {
+     "de": "Der Schlüssel liegt darunter.",
+     "lv": "võti asub selle all."
+    },
+    {
+     "de": "Es gibt viele Probleme, darunter die hohen Kosten.",
+     "lv": "on palju probleeme, tostarp kõrged kulud."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "darunter",
+     "meaning": "tostarp / selle all",
+     "example": "Darunter sind viele Kinder. = Nende hulgas on palju lapsi."
+    },
+    {
+     "word": "unter",
+     "meaning": "all",
+     "example": "Der Ball liegt unter dem Tisch. = Pall on laua all."
+    },
+    {
+     "word": "davon",
+     "meaning": "sellest",
+     "example": "Drei davon sind neu. = Kolm neist on uued."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Nimekirjades tähendab darunter tavaliselt tostarp."
+     }
+    ]
+   },
+   "important": {
+    "text": "darunter ei ole ainult füüsiliselt „selle all”; väga sageli sissejuhatab see ühe osa grupist."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "darunter",
+        "Kinder"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "tostarp",
+        "lapsi"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Schlüssel",
+        "darunter"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "võti",
+        "selle all"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "darunter",
+        "Kosten"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "tostarp",
+        "kõrged kulud"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "darunter"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "darunter"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "tostarp / selle all"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "unter"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "all"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "davon"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "sellest"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "darunter"
+     ]
+    },
+    "important": {
+     "purple": [
+      "darunter"
+     ]
+    }
+   }
+  }
+ },
+ "b1-decken": {
+  "de": "decken",
+  "lv": "katma",
+  "level": "B1",
+  "study": {
+   "id": "b1-decken",
+   "layout": "standardStudy",
+   "translation": "katma",
+   "explanation": "Põhiidee: decken tähendab katmist, kuid objekt muudab tõlget: den Tisch decken = lauda katma, Kosten decken = kulusid katma, etwas mit Schnee decken = üle katma.",
+   "examples": [
+    {
+     "de": "Ich decke den Tisch.",
+     "lv": "ma katan lauda."
+    },
+    {
+     "de": "Die Versicherung deckt die Kosten.",
+     "lv": "kindlustus katab kulud."
+    },
+    {
+     "de": "Der Schnee deckt die Straße.",
+     "lv": "lumi katab tee."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "decken",
+     "meaning": "katma / üle katma",
+     "example": "Ich decke den Tisch. = Ma katan lauda."
+    },
+    {
+     "word": "abdecken",
+     "meaning": "üle katma / kinni katma",
+     "example": "Deck den Kuchen ab. = Kata kook kinni."
+    },
+    {
+     "word": "zudecken",
+     "meaning": "kinni katma",
+     "example": "Ich decke das Kind zu. = Ma katan lapse kinni."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Vaata objekti: Tisch decken, Kosten decken, Straße mit Schnee decken."
+     }
+    ]
+   },
+   "important": {
+    "text": "Tisch decken ei ole sõna-sõnalt „lauda katma” peites tähenduses, vaid „lauda katma” söögiks; Kosten decken = kulusid katma."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "decke"
+       ],
+       "yellow": [
+        "Tisch"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "katan"
+       ],
+       "yellow": [
+        "lauda"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "deckt"
+       ],
+       "yellow": [
+        "Kosten"
+       ],
+       "green": [
+        "Versicherung"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "katab"
+       ],
+       "yellow": [
+        "kulud"
+       ],
+       "green": [
+        "Kindlustus"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "deckt"
+       ],
+       "yellow": [
+        "Straße",
+        "Schnee"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "katab"
+       ],
+       "yellow": [
+        "tee",
+        "Lumi"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "decken"
+     ],
+     "yellow": [
+      "Tisch",
+      "Kosten",
+      "Schnee"
+     ],
+     "purple": [
+      "lauda katma",
+      "kulusid katma",
+      "üle katma"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "decken"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "katma / üle katma"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "abdecken"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "üle katma / kinni katma"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "zudecken"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "kinni katma"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "tisch",
+      "kosten",
+      "straße",
+      "schnee"
+     ]
+    },
+    "important": {
+     "purple": [
+      "lauda katma",
+      "kulusid katma"
+     ]
+    }
+   }
+  }
+ },
+ "b1-dienen": {
+  "de": "dienen",
+  "lv": "teenima",
+  "level": "B1",
+  "study": {
+   "id": "b1-dienen",
+   "layout": "standardStudy",
+   "translation": "teenima",
+   "explanation": "Põhiidee: dienen tähendab teenimist või millegi eesmärgi täitmist. Koos als-iga tähendab see „teenima kui”.",
+   "examples": [
+    {
+     "de": "Dieses Zimmer dient als Büro.",
+     "lv": "see tuba teenib kontorina."
+    },
+    {
+     "de": "Der Knopf dient zur Sicherheit.",
+     "lv": "nupp teenib turvalisust."
+    },
+    {
+     "de": "Er dient in der Armee.",
+     "lv": "ta teenib sõjaväes."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "dienen",
+     "meaning": "teenima / kõlbama",
+     "example": "Das dient als Beispiel. = See on näitena."
+    },
+    {
+     "word": "helfen",
+     "meaning": "aitama",
+     "example": "Ich helfe dir. = Ma aitan sind."
+    },
+    {
+     "word": "nutzen",
+     "meaning": "kasutama",
+     "example": "Ich nutze das Programm. = Ma kasutan programmi."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "dienen als = teenima kui; dienen zu = kõlbama milleks."
+     }
+    ]
+   },
+   "important": {
+    "text": "dienen ei ole tavaline „inimest aitama”; aitamine on tavaliselt helfen."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "dient",
+        "Büro"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "teenib",
+        "kontorina"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Knopf",
+        "dient",
+        "Sicherheit"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "nupp",
+        "teenib",
+        "turvalisust"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "dient",
+        "Armee"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "teenib",
+        "sõjaväes"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "dienen"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "dienen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "teenima / kõlbama"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "helfen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "aitama"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "nutzen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "kasutama"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "dienen"
+     ]
+    },
+    "important": {
+     "purple": [
+      "dienen"
+     ]
+    }
+   }
+  }
+ },
+ "b1-druck": {
+  "de": "Druck",
+  "de_article": "der",
+  "de_plural": "die Drücke",
+  "lv": "rõhk",
+  "level": "B1",
+  "study": {
+   "id": "b1-druck",
+   "layout": "standardStudy",
+   "translation": "rõhk",
+   "explanation": "Põhiidee: der Druck tähendab rõhku füüsiliselt või psühholoogiliselt. Trükikonteksti puhul tähendab see trükkimist või trükist.",
+   "examples": [
+    {
+     "de": "Der Druck im Reifen ist zu niedrig.",
+     "lv": "rõhk rehvis on liiga madal."
+    },
+    {
+     "de": "Sie steht unter großem Druck.",
+     "lv": "ta on suure surve all."
+    },
+    {
+     "de": "Der Druck des Buches dauert lange.",
+     "lv": "raamatu trükkimine kestab kaua."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "der Druck",
+     "meaning": "rõhk / trükkimine",
+     "example": "Der Druck ist hoch. = Rõhk on kõrge."
+    },
+    {
+     "word": "die Belastung",
+     "meaning": "koormus",
+     "example": "Die Belastung ist groß. = Koormus on suur."
+    },
+    {
+     "word": "das Drucken",
+     "meaning": "trükkimine tegevusena",
+     "example": "Das Drucken ist teuer. = Trükkimine on kallis."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "unter Druck stehen = olla surve all; Druck des Buches = raamatu trükkimine."
+     }
+    ]
+   },
+   "important": {
+    "text": "der Druck ei ole ainult printeri trükk; inimene võib ka unter Druck stehen."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Druck"
+       ],
+       "yellow": [
+        "Reifen"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "Rõhk"
+       ],
+       "yellow": [
+        "rehvis"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "unter",
+        "Druck"
+       ],
+       "green": [
+        "Sie"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "surve all"
+       ],
+       "green": [
+        "Ta"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Druck"
+       ],
+       "yellow": [
+        "Buches"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "trükkimine"
+       ],
+       "yellow": [
+        "Raamatu"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "Druck"
+     ],
+     "purple": [
+      "rõhku",
+      "trükkimist"
+     ],
+     "yellow": [
+      "Trükkimise"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "der Druck"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "rõhk / trükkimine"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "die Belastung"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "koormus"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "das Drucken"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "trükkimine tegevusena"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "surve all",
+      "trükkimine"
+     ]
+    },
+    "important": {
+     "purple": [
+      "trükk",
+      "surve all"
+     ]
+    }
+   }
+  }
+ },
+ "b1-durchfall": {
+  "de": "Durchfall",
+  "de_article": "der",
+  "de_plural": "die Durchfälle",
+  "lv": "kõhulahtisus",
+  "level": "B1",
+  "study": {
+   "id": "b1-durchfall",
+   "layout": "standardStudy",
+   "translation": "kõhulahtisus",
+   "explanation": "Põhiidee: der Durchfall tähendab igapäevaselt kõhulahtisust. Eksami kontekstis tähendab sarnane tegusõna durchfallen läbikukkumist.",
+   "examples": [
+    {
+     "de": "Ich habe Durchfall.",
+     "lv": "mul on kõhulahtisus."
+    },
+    {
+     "de": "Bei Durchfall soll man viel trinken.",
+     "lv": "kõhulahtisuse korral tuleb palju juua."
+    },
+    {
+     "de": "Er ist durch die Prüfung gefallen.",
+     "lv": "ta kukkus eksamil läbi."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "der Durchfall",
+     "meaning": "kõhulahtisus",
+     "example": "Ich habe Durchfall. = Mul on kõhulahtisus."
+    },
+    {
+     "word": "durchfallen",
+     "meaning": "läbi kukkuma",
+     "example": "Sie fällt durch. = Ta kukub läbi."
+    },
+    {
+     "word": "die Magenprobleme",
+     "meaning": "kõhuprobleemid",
+     "example": "Ich habe Magenprobleme. = Mul on kõhuprobleemid."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Nimisõnana on der Durchfall peaaegu alati meditsiiniline kõhulahtisus."
+     }
+    ]
+   },
+   "important": {
+    "text": "Ära aja segi der Durchfall sõnaga durchfallen: üks on terviseprobleem, teine - eksamil läbikukkumine."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Durchfall"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kõhulahtisus"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Durchfall",
+        "trinken"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kõhulahtisuse",
+        "juua"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Prüfung",
+        "gefallen"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kukkus läbi",
+        "eksamil"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "Durchfall"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "der Durchfall"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "kõhulahtisus"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "durchfallen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "läbi kukkuma"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "die Magenprobleme"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "kõhuprobleemid"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "durchfall"
+     ]
+    },
+    "important": {
+     "purple": [
+      "durchfall"
+     ]
+    }
+   }
+  }
+ },
+ "b1-durchführen": {
+  "de": "durchführen",
+  "lv": "läbi viima",
+  "level": "B1",
+  "study": {
+   "id": "b1-durchführen",
+   "layout": "standardStudy",
+   "translation": "läbi viima",
+   "explanation": "Põhiidee: durchführen tähendab planeeritud tegevuse läbiviimist või elluviimist. Seda kasutatakse kontrollide, remontide, katsete ja ürituste kohta.",
+   "examples": [
+    {
+     "de": "Wir führen eine Kontrolle durch.",
+     "lv": "me viime läbi kontrolli."
+    },
+    {
+     "de": "Die Firma führt die Reparatur durch.",
+     "lv": "ettevõte teostab remonti."
+    },
+    {
+     "de": "Das Experiment wurde im Labor durchgeführt.",
+     "lv": "katse viidi läbi laboris."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "durchführen",
+     "meaning": "läbi viima / ellu viima",
+     "example": "Wir führen den Plan durch. = Me viime plaani ellu."
+    },
+    {
+     "word": "machen",
+     "meaning": "tegema",
+     "example": "Ich mache die Arbeit. = Ma teen tööd."
+    },
+    {
+     "word": "veranstalten",
+     "meaning": "korraldama",
+     "example": "Wir veranstalten ein Konzert. = Me korraldame kontserti."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Kontrolle, Reparatur, Experiment → durchführen."
+     }
+    ]
+   },
+   "important": {
+    "text": "durchführen ei ole sõna-sõnalt „läbi viima” otseses mõttes; B1 tekstides tähendab see tavaliselt läbi viima."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "führen",
+        "Kontrolle",
+        "durch"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "viime läbi",
+        "kontrolli"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Firma",
+        "Reparatur",
+        "durch"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "ettevõte",
+        "teostab",
+        "remonti"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Experiment",
+        "durchgeführt"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "katse",
+        "viidi läbi"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "durchführen"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "durchführen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "läbi viima / ellu viima"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "machen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "tegema"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "veranstalten"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "korraldama"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "durchführen"
+     ]
+    },
+    "important": {
+     "purple": [
+      "durchführen"
+     ]
+    }
+   }
+  }
+ },
+ "b1-eher": {
+  "de": "eher",
+  "lv": "pigem",
+  "level": "B1",
+  "study": {
+   "id": "b1-eher",
+   "layout": "standardStudy",
+   "translation": "pigem",
+   "explanation": "Põhiidee: eher tähendab enamasti pigem, kui valid või hindad variantide vahel. Ajakontekstis võib see tähendada varem.",
+   "examples": [
+    {
+     "de": "Ich würde eher zu Hause bleiben.",
+     "lv": "ma jääksin pigem koju."
+    },
+    {
+     "de": "Das ist eher schwierig.",
+     "lv": "see on pigem raske."
+    },
+    {
+     "de": "Kannst du eher kommen?",
+     "lv": "kas sa saad varem tulla?"
+    }
+   ],
+   "comparison": [
+    {
+     "word": "eher",
+     "meaning": "pigem / varem",
+     "example": "Ich nehme eher Tee. = Ma võtan pigem teed."
+    },
+    {
+     "word": "früher",
+     "meaning": "varem ajas või minevikus",
+     "example": "Früher war es anders. = Varem oli teisiti."
+    },
+    {
+     "word": "lieber",
+     "meaning": "pigem meelsamini",
+     "example": "Ich trinke lieber Kaffee. = Ma joon meelsamini kohvi."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Valikus või hinnangus eher = pigem; ajas/graafikus eher = varem."
+     }
+    ]
+   },
+   "important": {
+    "text": "eher ei ole alati „varem”; B1 tekstides väljendab see väga sageli kalduvust: pigem."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "eher"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "pigem"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "eher"
+       ],
+       "red": [
+        "schwierig"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "pigem"
+       ],
+       "red": [
+        "raske"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "eher"
+       ],
+       "yellow": [
+        "kommen"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "varem"
+       ],
+       "yellow": [
+        "tulla"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "eher"
+     ],
+     "purple": [
+      "pigem",
+      "varem"
+     ],
+     "yellow": [
+      "Ajakontekstis"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "eher"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "pigem / varem"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "früher"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "varem ajas või minevikus"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "lieber"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "pigem meelsamini"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "valikus",
+      "ajas"
+     ]
+    },
+    "important": {
+     "purple": [
+      "b1 tekstides"
+     ]
+    }
+   }
+  }
+ },
+ "b1-eigen": {
+  "de": "eigen",
+  "lv": "oma",
+  "level": "B1",
+  "study": {
+   "id": "b1-eigen",
+   "layout": "standardStudy",
+   "translation": "oma",
+   "explanation": "Põhiidee: eigen tähendab oma, rõhutades kuuluvust või iseseisvust. Iseloomu või stiili kohta võib see tähendada omapärane.",
+   "examples": [
+    {
+     "de": "Jeder hat seinen eigenen Stil.",
+     "lv": "igaühel on oma stiil."
+    },
+    {
+     "de": "Sie hat ein eigenes Zimmer.",
+     "lv": "tal on oma tuba."
+    },
+    {
+     "de": "Er hat einen ganz eigenen Humor.",
+     "lv": "tal on väga omapärane huumorimeel."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "eigen",
+     "meaning": "oma / omapärane",
+     "example": "Das ist mein eigenes Auto. = See on minu enda auto."
+    },
+    {
+     "word": "selbst",
+     "meaning": "ise",
+     "example": "Ich mache das selbst. = Ma teen seda ise."
+    },
+    {
+     "word": "allein",
+     "meaning": "üksinda",
+     "example": "Ich bin allein. = Ma olen üksinda."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "eigenes Zimmer, eigener Stil, eigene Meinung → oma."
+     }
+    ]
+   },
+   "important": {
+    "text": "eigen ei ole sama, mis allein: eigen = oma, allein = üksinda."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "eigenen"
+       ],
+       "yellow": [
+        "Stil"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "oma"
+       ],
+       "yellow": [
+        "stiil"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "eigenes"
+       ],
+       "yellow": [
+        "Zimmer"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "oma"
+       ],
+       "yellow": [
+        "tuba"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "eigenen"
+       ],
+       "yellow": [
+        "Humor"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "omapärane"
+       ],
+       "yellow": [
+        "huumorimeel"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "eigen"
+     ],
+     "purple": [
+      "oma",
+      "omapärane"
+     ],
+     "yellow": [
+      "kuuluvust",
+      "iseseisvust"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "eigen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "oma / omapärane"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "selbst"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "ise"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "allein"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "üksinda"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "zimmer",
+      "stil",
+      "meinung"
+     ]
+    },
+    "important": {
+     "purple": [
+      "oma",
+      "üksinda"
+     ]
+    }
+   }
+  }
+ },
+ "b1-einbrechen": {
+  "de": "einbrechen",
+  "lv": "sisse murdma",
+  "level": "B1",
+  "study": {
+   "id": "b1-einbrechen",
+   "layout": "standardStudy",
+   "translation": "sisse murdma",
+   "explanation": "Põhiidee: einbrechen tähendab enamasti kuhugi sisse murdma. See võib tähendada ka füüsiliselt sisse vajuma/kokku varisema või koos Nacht-iga saabuma.",
+   "examples": [
+    {
+     "de": "Die Diebe sind in das Haus eingebrochen.",
+     "lv": "vargad murdsid majja sisse."
+    },
+    {
+     "de": "Das alte Dach ist eingebrochen.",
+     "lv": "vana katus on sisse vajunud."
+    },
+    {
+     "de": "Die Nacht bricht früh ein.",
+     "lv": "öö saabub varakult."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Kuritegu + maja → einbrechen = sisse murdma; Dach → sisse vajuma; Nacht → saabuma."
+     }
+    ]
+   },
+   "important": {
+    "text": "einbrechen ei ole tavaliselt „objekti sisse murdma”, vaid „kuhugi sisse murdma”. Hoone osadega tähendab see sisse vajumist/kokku varisemist."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "eingebrochen"
+       ],
+       "green": [
+        "Diebe"
+       ],
+       "yellow": [
+        "Haus"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "murdsid sisse"
+       ],
+       "green": [
+        "Vargad"
+       ],
+       "yellow": [
+        "majja"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "eingebrochen"
+       ],
+       "yellow": [
+        "Dach"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "sisse vajunud"
+       ],
+       "yellow": [
+        "katus"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "bricht",
+        "ein"
+       ],
+       "yellow": [
+        "Nacht"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "saabub"
+       ],
+       "yellow": [
+        "Öö"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "einbrechen"
+     ],
+     "purple": [
+      "sisse murdma",
+      "sisse vajuma",
+      "saabuma"
+     ],
+     "yellow": [
+      "Nacht"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "einbrechen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "sisse murdma / sisse vajuma"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "eintreten"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "sisenema / saabuma"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "einstürzen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "kokku varisema"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "sisse murdma",
+      "sisse vajuma",
+      "saabuma"
+     ]
+    },
+    "important": {
+     "purple": [
+      "kuhugi sisse murdma",
+      "sisse vajumist/kokku varisemist"
+     ]
+    }
+   }
+  }
+ },
+ "b1-eindeutig": {
+  "de": "eindeutig",
+  "lv": "üheselt mõistetav",
+  "level": "B1",
+  "study": {
+   "id": "b1-eindeutig",
+   "layout": "standardStudy",
+   "translation": "üheselt mõistetav",
+   "explanation": "Põhiidee: eindeutig tähendab selge ja üheselt mõistetav, kui pole kahtlust ega kahte tõlgendust. See ei ole sama, mis einfach = lihtne.",
+   "examples": [
+    {
+     "de": "Die Antwort ist eindeutig.",
+     "lv": "vastus on üheselt mõistetav."
+    },
+    {
+     "de": "Das Ergebnis zeigt eindeutig, was passiert ist.",
+     "lv": "tulemus näitab selgelt, mis juhtus."
+    },
+    {
+     "de": "Die Aufgabe ist einfach, aber nicht eindeutig.",
+     "lv": "ülesanne on lihtne, aga mitte üheselt mõistetav."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Kui pole kahtlust tähenduse või tulemuse osas, kasuta eindeutig."
+     }
+    ]
+   },
+   "important": {
+    "text": "eindeutig ei ole einfach: eindeutig = üheselt mõistetav, einfach = lihtne."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "eindeutig"
+       ],
+       "yellow": [
+        "Antwort"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "üheselt mõistetav"
+       ],
+       "yellow": [
+        "Vastus"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "eindeutig"
+       ],
+       "yellow": [
+        "Ergebnis"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "selgelt"
+       ],
+       "yellow": [
+        "Tulemus"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "eindeutig"
+       ],
+       "red": [
+        "einfach"
+       ],
+       "yellow": [
+        "Aufgabe"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "üheselt mõistetav"
+       ],
+       "red": [
+        "lihtne"
+       ],
+       "yellow": [
+        "Ülesanne"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "eindeutig"
+     ],
+     "red": [
+      "einfach"
+     ],
+     "purple": [
+      "selge",
+      "üheselt mõistetav",
+      "lihtne"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "eindeutig"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "selge / üheselt mõistetav"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "einfach"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "lihtne"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "deutlich"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "selgelt / hästi märgatav"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "pole kahtlust"
+     ]
+    },
+    "important": {
+     "purple": [
+      "üheselt mõistetav",
+      "lihtne"
+     ]
+    }
+   }
+  }
+ },
+ "b1-eindruck": {
+  "de": "Eindruck",
+  "de_article": "der",
+  "de_plural": "die Eindrücke",
+  "lv": "mulje",
+  "level": "B1",
+  "study": {
+   "id": "b1-eindruck",
+   "layout": "standardStudy",
+   "translation": "mulje",
+   "explanation": "Põhiidee: der Eindruck tähendab muljet - seda, kuidas miski sulle tundub või millist tunnet tekitab. Väga sage väljend on einen Eindruck machen.",
+   "examples": [
+    {
+     "de": "Der Film hat einen starken Eindruck gemacht.",
+     "lv": "film jättis tugeva mulje."
+    },
+    {
+     "de": "Ich habe den Eindruck, dass er müde ist.",
+     "lv": "mul on mulje, et ta on väsinud."
+    },
+    {
+     "de": "Der erste Eindruck ist wichtig.",
+     "lv": "esimene mulje on tähtis."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "der Eindruck",
+     "meaning": "mulje",
+     "example": "Der Eindruck war positiv. = Mulje oli positiivne."
+    },
+    {
+     "word": "einen Eindruck machen",
+     "meaning": "muljet jätma",
+     "example": "Sie macht einen guten Eindruck. = Ta jätab hea mulje."
+    },
+    {
+     "word": "die Meinung",
+     "meaning": "arvamus",
+     "example": "Das ist meine Meinung. = See on minu arvamus."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Pea meeles väljend: einen guten Eindruck machen = jätta hea mulje."
+     }
+    ]
+   },
+   "important": {
+    "text": "Eindruck on tunne või mulje, mitte kindel arvamus; arvamus on Meinung."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Eindruck gemacht"
+       ],
+       "yellow": [
+        "Film"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "jättis",
+        "mulje"
+       ],
+       "yellow": [
+        "Film"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "habe den Eindruck"
+       ],
+       "green": [
+        "er"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "mulje"
+       ],
+       "green": [
+        "ta"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Eindruck"
+       ],
+       "red": [
+        "erste"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "mulje"
+       ],
+       "red": [
+        "Esimene"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "Eindruck",
+      "einen Eindruck machen"
+     ],
+     "purple": [
+      "muljet",
+      "tundub",
+      "tunnet"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "der Eindruck"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "mulje"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "einen Eindruck machen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "muljet jätma"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "die Meinung"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "arvamus"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "jätta hea mulje"
+     ]
+    },
+    "important": {
+     "purple": [
+      "mulje",
+      "arvamus"
+     ]
+    }
+   }
+  }
+ },
+ "b1-einerlei": {
+  "de": "einerlei",
+  "lv": "ükskõik",
+  "level": "B1",
+  "study": {
+   "id": "b1-einerlei",
+   "layout": "standardStudy",
+   "translation": "ükskõik",
+   "explanation": "Põhiidee: einerlei tähendab ükskõik või pole tähtis. See kõlab formaalsemalt või vanamoodsamalt kui igapäevane egal.",
+   "examples": [
+    {
+     "de": "Mir ist das einerlei.",
+     "lv": "mulle on see ükskõik."
+    },
+    {
+     "de": "Es ist einerlei, wer zuerst kommt.",
+     "lv": "pole tähtis, kes tuleb esimesena."
+    },
+    {
+     "de": "Im Alltag sagt man öfter: Das ist mir egal.",
+     "lv": "igapäevaselt öeldakse sagedamini: Mulle on see ükskõik."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "einerlei",
+     "meaning": "ükskõik / pole tähtis",
+     "example": "Mir ist das einerlei. = Mulle on see ükskõik."
+    },
+    {
+     "word": "egal",
+     "meaning": "ükskõik",
+     "example": "Das ist mir egal. = Mulle on see ükskõik."
+    },
+    {
+     "word": "gleichgültig",
+     "meaning": "ükskõikne",
+     "example": "Er ist mir nicht gleichgültig. = Ta ei ole mulle ükskõikne."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Igapäevaselt kasutatakse sagedamini egal; einerlei tunne ära kui formaalsem „ükskõik”."
+     }
+    ]
+   },
+   "important": {
+    "text": "einerlei ei ole kõige sagedasem kõnekeele sõna; kõnes on kindlam kasutada egal."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "einerlei"
+       ],
+       "green": [
+        "Mir"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "ükskõik"
+       ],
+       "green": [
+        "Mulle"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "einerlei"
+       ],
+       "green": [
+        "wer"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "pole tähtis"
+       ],
+       "green": [
+        "kes"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "egal"
+       ],
+       "yellow": [
+        "Alltag"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "ükskõik"
+       ],
+       "yellow": [
+        "Igapäevaselt"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "einerlei",
+      "egal"
+     ],
+     "purple": [
+      "ükskõik",
+      "pole tähtis"
+     ],
+     "red": [
+      "formaalsemalt",
+      "vanamoodsamalt"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "einerlei"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "ükskõik / pole tähtis"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "egal"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "ükskõik"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "gleichgültig"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "ükskõikne"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "formaalsemat",
+      "ükskõik"
+     ]
+    },
+    "important": {
+     "purple": [
+      "kõnekeele"
+     ]
+    }
+   }
+  }
+ },
+ "b1-einerseits": {
+  "de": "einerseits",
+  "lv": "ühest küljest",
+  "level": "B1",
+  "study": {
+   "id": "b1-einerseits",
+   "layout": "standardStudy",
+   "translation": "ühest küljest",
+   "explanation": "Põhiidee: einerseits tähendab ühest küljest. Seda kasutatakse sageli koos sõnaga andererseits, et näidata kahte vastandlikku poolt.",
+   "examples": [
+    {
+     "de": "Einerseits ist die Wohnung schön, andererseits ist sie teuer.",
+     "lv": "ühest küljest on korter ilus, teisest küljest on see kallis."
+    },
+    {
+     "de": "Einerseits möchte ich kommen, andererseits habe ich keine Zeit.",
+     "lv": "ühest küljest tahan ma tulla, teisest küljest pole mul aega."
+    },
+    {
+     "de": "Einerseits verstehe ich dich.",
+     "lv": "ühest küljest ma saan sinust aru."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "einerseits",
+     "meaning": "ühest küljest",
+     "example": "Einerseits ist das gut. = Ühest küljest on see hea."
+    },
+    {
+     "word": "andererseits",
+     "meaning": "teisest küljest",
+     "example": "Andererseits ist es teuer. = Teisest küljest on see kallis."
+    },
+    {
+     "word": "zwar ... aber",
+     "meaning": "küll ... aga",
+     "example": "Es ist zwar schön, aber teuer. = See on küll ilus, aga kallis."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Einerseits kutsub peaaegu alati jätkama sõnaga andererseits."
+     }
+    ]
+   },
+   "important": {
+    "text": "Kui kasutad einerseits, on sageli vaja ka teist poolt: andererseits."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Einerseits",
+        "andererseits"
+       ],
+       "yellow": [
+        "Wohnung"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "ühest küljest",
+        "teisest küljest"
+       ],
+       "yellow": [
+        "korter"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Einerseits",
+        "andererseits"
+       ],
+       "yellow": [
+        "Zeit"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "ühest küljest",
+        "teisest küljest"
+       ],
+       "yellow": [
+        "aega"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Einerseits"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "Ühest küljest"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "einerseits",
+      "andererseits"
+     ],
+     "purple": [
+      "ühest küljest",
+      "teisest küljest"
+     ],
+     "red": [
+      "vastandlikku poolt"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "einerseits"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "ühest küljest"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "andererseits"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "teisest küljest"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "zwar ... aber"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "küll ... aga"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "einerseits",
+      "andererseits"
+     ]
+    },
+    "important": {
+     "purple": [
+      "teist poolt"
+     ]
+    }
+   }
+  }
+ },
+ "b1-einfahrt": {
+  "de": "Einfahrt",
+  "de_article": "die",
+  "de_plural": "die Einfahrten",
+  "lv": "sissesõidutee",
+  "level": "B1",
+  "study": {
+   "id": "b1-einfahrt",
+   "layout": "standardStudy",
+   "translation": "sissesõidutee",
+   "explanation": "Põhiidee: die Einfahrt tähendab sissesõiduteed või sissesõitu. See võib olla koht, kust sisse sõidetakse, või sissesõitmise protsess ise.",
+   "examples": [
+    {
+     "de": "Bitte parken Sie nicht vor der Einfahrt.",
+     "lv": "palun ärge parkige sissesõidutee ees."
+    },
+    {
+     "de": "Die Einfahrt in den Tunnel ist gesperrt.",
+     "lv": "sissesõit tunnelisse on suletud."
+    },
+    {
+     "de": "Die Einfahrt ist sehr schmal.",
+     "lv": "sissesõidutee on väga kitsas."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "die Einfahrt",
+     "meaning": "sissesõidutee / sissesõit",
+     "example": "Die Einfahrt ist frei. = Sissesõidutee on vaba."
+    },
+    {
+     "word": "die Ausfahrt",
+     "meaning": "väljasõidutee / väljasõit",
+     "example": "Die Ausfahrt ist gesperrt. = Väljasõidutee on suletud."
+    },
+    {
+     "word": "die Auffahrt",
+     "meaning": "pealesõidutee",
+     "example": "Die Auffahrt zur Autobahn ist voll. = Pealesõidutee kiirteele on täis."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Ein- = sisse/sisse sõitma, Aus- = välja/välja sõitma: Einfahrt vs Ausfahrt."
+     }
+    ]
+   },
+   "important": {
+    "text": "Ära aja segi Einfahrt sõnaga Ausfahrt: üks on sissesõit, teine väljasõit."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Einfahrt"
+       ],
+       "red": [
+        "parken"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "sissesõidutee"
+       ],
+       "red": [
+        "ärge parkige"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Einfahrt"
+       ],
+       "green": [
+        "Tunnel"
+       ],
+       "red": [
+        "gesperrt"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "Sissesõit"
+       ],
+       "green": [
+        "tunnelisse"
+       ],
+       "red": [
+        "suletud"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Einfahrt"
+       ],
+       "red": [
+        "schmal"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "Sissesõidutee"
+       ],
+       "red": [
+        "kitsas"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "Einfahrt"
+     ],
+     "purple": [
+      "sissesõiduteed",
+      "sissesõitu"
+     ],
+     "green": [
+      "koht"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "die Einfahrt"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "sissesõidutee / sissesõit"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "die Ausfahrt"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "väljasõidutee / väljasõit"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "die Auffahrt"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "pealesõidutee"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "sisse sõitma",
+      "välja sõitma"
+     ]
+    },
+    "important": {
+     "purple": [
+      "sissesõit",
+      "väljasõit"
+     ]
+    }
+   }
+  }
+ },
+ "b1-einfallen": {
+  "de": "einfallen",
+  "lv": "meelde tulema",
+  "level": "B1",
+  "study": {
+   "id": "b1-einfallen",
+   "layout": "standardStudy",
+   "translation": "meelde tulema",
+   "explanation": "Põhiidee: einfallen tähendab meelde tulema. Konstruktsioon on daativis: mir fällt etwas ein. Füüsiliselt võib eingefallen tähendada sisse vajunud/kokku varisenud.",
+   "examples": [
+    {
+     "de": "Mir fällt eine Idee ein.",
+     "lv": "mulle tuleb meelde idee."
+    },
+    {
+     "de": "Sein Name fällt mir nicht ein.",
+     "lv": "tema nimi ei tule mulle meelde."
+    },
+    {
+     "de": "Die Decke ist eingefallen.",
+     "lv": "lagi on sisse vajunud."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Pea meeles vorm: Mir fällt etwas ein = mulle tuleb midagi meelde."
+     }
+    ]
+   },
+   "important": {
+    "text": "Ära ütle „ich falle eine Idee ein”. Õigesti: Mir fällt eine Idee ein."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "fällt",
+        "ein"
+       ],
+       "yellow": [
+        "Idee"
+       ],
+       "green": [
+        "Mir"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "tuleb meelde"
+       ],
+       "yellow": [
+        "idee"
+       ],
+       "green": [
+        "Mulle"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "fällt",
+        "ein"
+       ],
+       "yellow": [
+        "Name"
+       ],
+       "green": [
+        "mir"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "ei tule meelde"
+       ],
+       "yellow": [
+        "nimi"
+       ],
+       "green": [
+        "mulle"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "eingefallen"
+       ],
+       "yellow": [
+        "Decke"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "sisse vajunud"
+       ],
+       "yellow": [
+        "Lagi"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "einfallen"
+     ],
+     "red": [
+      "daativis"
+     ],
+     "green": [
+      "mir"
+     ],
+     "purple": [
+      "meelde tulema"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "einfallen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "meelde tulema"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "sich erinnern"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "meenutama"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "einstürzen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "kokku varisema"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "tuleb meelde"
+     ]
+    },
+    "important": {
+     "purple": [
+      "mir"
+     ]
+    }
+   }
+  }
+ },
+ "b1-einfarbig": {
+  "de": "einfarbig",
+  "lv": "ühevärviline",
+  "level": "B1",
+  "study": {
+   "id": "b1-einfarbig",
+   "layout": "standardStudy",
+   "translation": "ühevärviline",
+   "explanation": "Põhiidee: einfarbig tähendab ühevärviline - ühte värvi, ilma mustri või värvide seguta.",
+   "examples": [
+    {
+     "de": "Ich suche ein einfarbiges Hemd.",
+     "lv": "ma otsin ühevärvilist särki."
+    },
+    {
+     "de": "Die Wand ist einfarbig gestrichen.",
+     "lv": "sein on värvitud ühte värvi."
+    },
+    {
+     "de": "Das Kleid ist nicht bunt, sondern einfarbig.",
+     "lv": "kleit ei ole kirju, vaid ühevärviline."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "einfarbig",
+     "meaning": "ühevärviline",
+     "example": "Das Hemd ist einfarbig. = Särk on ühevärviline."
+    },
+    {
+     "word": "farbig",
+     "meaning": "värviline",
+     "example": "Das Bild ist farbig. = Pilt on värviline."
+    },
+    {
+     "word": "bunt",
+     "meaning": "kirju / mitmevärviline",
+     "example": "Der Pullover ist bunt. = Kampsun on kirju."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "einfarbig = üks värv; bunt = palju värve."
+     }
+    ]
+   },
+   "important": {
+    "text": "einfarbig ei ole „värviline”; see rõhutab täpselt üht värvi."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "einfarbiges"
+       ],
+       "yellow": [
+        "Hemd"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "ühevärvilist"
+       ],
+       "yellow": [
+        "särki"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "einfarbig"
+       ],
+       "yellow": [
+        "Wand"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "ühte värvi"
+       ],
+       "yellow": [
+        "Sein"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "einfarbig"
+       ],
+       "red": [
+        "bunt"
+       ],
+       "yellow": [
+        "Kleid"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "ühevärviline"
+       ],
+       "red": [
+        "kirju"
+       ],
+       "yellow": [
+        "Kleit"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "einfarbig"
+     ],
+     "purple": [
+      "ühevärviline",
+      "ühte värvi"
+     ],
+     "red": [
+      "mustrit",
+      "värvide segu"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "einfarbig"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "ühevärviline"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "farbig"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "värviline"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "bunt"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "kirju / mitmevärviline"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "üks värv",
+      "palju värve"
+     ]
+    },
+    "important": {
+     "purple": [
+      "üht värvi"
+     ]
+    }
+   }
+  }
+ },
+ "b1-einfluss": {
+  "de": "Einfluss",
+  "de_article": "der",
+  "de_plural": "die Einflüsse",
+  "lv": "mõju",
+  "level": "B1",
+  "study": {
+   "id": "b1-einfluss",
+   "layout": "standardStudy",
+   "translation": "mõju",
+   "explanation": "Põhiidee: der Einfluss tähendab mõju inimesele, otsusele või olukorrale. Väga sage konstruktsioon on Einfluss auf + mida?.",
+   "examples": [
+    {
+     "de": "Das Wetter hat Einfluss auf unsere Pläne.",
+     "lv": "ilm mõjutab meie plaane."
+    },
+    {
+     "de": "Er hat großen Einfluss auf die Entscheidung.",
+     "lv": "tal on suur mõju otsusele."
+    },
+    {
+     "de": "Soziale Medien üben Einfluss auf Jugendliche aus.",
+     "lv": "sotsiaalmeedia mõjutab noori."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "der Einfluss",
+     "meaning": "mõju",
+     "example": "Sein Einfluss ist groß. = Tema mõju on suur."
+    },
+    {
+     "word": "Einfluss auf etwas haben",
+     "meaning": "mõjutama midagi",
+     "example": "Das hat Einfluss auf den Preis. = See mõjutab hinda."
+    },
+    {
+     "word": "die Wirkung",
+     "meaning": "toime / efekt",
+     "example": "Die Wirkung ist stark. = Toime on tugev."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Pea meeles konstruktsioon: Einfluss auf + mida?."
+     }
+    ]
+   },
+   "important": {
+    "text": "Einfluss kasutatakse sageli koos haben või ausüben: Einfluss haben, Einfluss ausüben."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Einfluss auf"
+       ],
+       "yellow": [
+        "Pläne"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "mõjutab"
+       ],
+       "yellow": [
+        "plaane"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Einfluss auf"
+       ],
+       "yellow": [
+        "Entscheidung"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "mõju"
+       ],
+       "yellow": [
+        "otsusele"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Einfluss auf",
+        "aus"
+       ],
+       "green": [
+        "Jugendliche"
+       ],
+       "yellow": [
+        "Medien"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "mõjutab"
+       ],
+       "green": [
+        "noori"
+       ],
+       "yellow": [
+        "Sotsiaalmeedia"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "Einfluss",
+      "Einfluss auf"
+     ],
+     "red": [
+      "mida?"
+     ],
+     "purple": [
+      "mõju"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "der Einfluss"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "mõju"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "Einfluss auf etwas haben"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "mõjutama midagi"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "die Wirkung"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "toime / efekt"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "mida?"
+     ]
+    },
+    "important": {
+     "purple": [
+      "mõju"
+     ]
+    }
+   }
+  }
+ },
+ "b1-einfügen": {
+  "de": "einfügen",
+  "lv": "sisestama",
+  "level": "B1",
+  "study": {
+   "id": "b1-einfügen",
+   "layout": "standardStudy",
+   "translation": "sisestama",
+   "explanation": "Põhiidee: einfügen tähendab millegi sisestamist või lisamist teksti, dokumenti, pilti või süsteemi.",
+   "examples": [
+    {
+     "de": "Füge das Bild in das Dokument ein.",
+     "lv": "sisesta pilt dokumenti."
+    },
+    {
+     "de": "Ich füge einen Satz in den Text ein.",
+     "lv": "ma sisestan lause teksti."
+    },
+    {
+     "de": "Das neue Teil fügt sich gut in das System ein.",
+     "lv": "uus osa sobitub hästi süsteemi."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Tekstis või dokumendis einfügen = sisestama; sich einfügen = sobituma."
+     }
+    ]
+   },
+   "important": {
+    "text": "einfügen on sageli tehniline/dokumendi tegevus; „lisama” on sagedamini hinzufügen."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Füge",
+        "ein"
+       ],
+       "yellow": [
+        "Bild",
+        "Dokument"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "sisesta"
+       ],
+       "yellow": [
+        "pilt",
+        "dokumenti"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "füge",
+        "ein"
+       ],
+       "yellow": [
+        "Satz",
+        "Text"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "sisestan"
+       ],
+       "yellow": [
+        "lause",
+        "teksti"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "fügt sich",
+        "ein"
+       ],
+       "yellow": [
+        "System",
+        "Teil"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "sobitub"
+       ],
+       "yellow": [
+        "süsteemi",
+        "osa"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "einfügen"
+     ],
+     "purple": [
+      "sisestama",
+      "lisama"
+     ],
+     "yellow": [
+      "tekstis",
+      "dokumendis",
+      "pildis",
+      "süsteemis"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "einfügen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "sisestama / lisama"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "hinzufügen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "lisama"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "einsetzen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "sisestama / kasutama"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "sisestama",
+      "sobituma"
+     ]
+    },
+    "important": {
+     "purple": [
+      "dokumendi tegevus",
+      "lisama"
+     ]
+    }
+   }
+  }
+ },
+ "b1-einführen": {
+  "de": "einführen",
+  "lv": "kasutusele võtma",
+  "level": "B1",
+  "study": {
+   "id": "b1-einführen",
+   "layout": "standardStudy",
+   "translation": "kasutusele võtma",
+   "explanation": "Põhiidee: einführen tähendab uue süsteemi, reegli või meetodi kasutusele võtmist. Kaubanduses tähendab see kaupade sisse toomist/importimist.",
+   "examples": [
+    {
+     "de": "Die Schule führt neue Regeln ein.",
+     "lv": "kool võtab kasutusele uued reeglid."
+    },
+    {
+     "de": "Die Firma führt ein neues System ein.",
+     "lv": "ettevõte võtab kasutusele uue süsteemi."
+    },
+    {
+     "de": "Das Land führt viel Kaffee ein.",
+     "lv": "riik impordib palju kohvi."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "einführen",
+     "meaning": "kasutusele võtma / importima",
+     "example": "Wir führen neue Regeln ein. = Me võtame kasutusele uued reeglid."
+    },
+    {
+     "word": "importieren",
+     "meaning": "importima",
+     "example": "Wir importieren Kaffee. = Me impordime kohvi."
+    },
+    {
+     "word": "vorstellen",
+     "meaning": "tutvustama / esitlema",
+     "example": "Ich stelle das Projekt vor. = Ma esitlen projekti."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Reegleid, süsteemi või meetodit führt man ein; kaupu saab ka einführen = importida."
+     }
+    ]
+   },
+   "important": {
+    "text": "einführen ei ole sama, mis vorstellen: vorstellen on esitlemine või tutvustamine, mitte kasutusele võtmine."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "führt",
+        "ein"
+       ],
+       "yellow": [
+        "Regeln"
+       ],
+       "green": [
+        "Schule"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "võtab kasutusele"
+       ],
+       "yellow": [
+        "reeglid"
+       ],
+       "green": [
+        "Kool"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "führt",
+        "ein"
+       ],
+       "yellow": [
+        "System"
+       ],
+       "green": [
+        "Firma"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "võtab kasutusele"
+       ],
+       "yellow": [
+        "süsteemi"
+       ],
+       "green": [
+        "Ettevõte"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "führt",
+        "ein"
+       ],
+       "yellow": [
+        "Kaffee"
+       ],
+       "green": [
+        "Land"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "impordib"
+       ],
+       "yellow": [
+        "kohvi"
+       ],
+       "green": [
+        "Riik"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "einführen"
+     ],
+     "purple": [
+      "kasutusele võtma",
+      "importima"
+     ],
+     "yellow": [
+      "süsteemi",
+      "reeglit",
+      "meetodit",
+      "kaupu"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "einführen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "kasutusele võtma / importima"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "importieren"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "importima"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "vorstellen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "tutvustama / esitlema"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "reegleid",
+      "süsteemi",
+      "meetodit",
+      "kaupu"
+     ]
+    },
+    "important": {
+     "purple": [
+      "kasutusele võtmine",
+      "esitlemine"
+     ]
+    }
+   }
+  }
+ },
+ "b1-einführung": {
+  "de": "Einführung",
+  "de_article": "die",
+  "de_plural": "die Einführungen",
+  "lv": "sissejuhatus",
+  "level": "B1",
+  "study": {
+   "id": "b1-einführung",
+   "layout": "standardStudy",
+   "translation": "sissejuhatus",
+   "explanation": "Põhiidee: die Einführung tähendab sissejuhatust või kasutuselevõttu. Tekstis või kursusel on see sissejuhatus; uues süsteemis, reeglites või tootes - kasutuselevõtt.",
+   "examples": [
+    {
+     "de": "Die Einführung in das Thema war klar.",
+     "lv": "sissejuhatus teemasse oli selge."
+    },
+    {
+     "de": "Die Einführung des neuen Systems dauert lange.",
+     "lv": "uue süsteemi kasutuselevõtt kestab kaua."
+    },
+    {
+     "de": "Im Buch gibt es eine kurze Einführung.",
+     "lv": "raamatus on lühike sissejuhatus."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "die Einführung",
+     "meaning": "sissejuhatus / kasutuselevõtt",
+     "example": "Die Einführung war hilfreich. = Sissejuhatus oli kasulik."
+    },
+    {
+     "word": "die Einleitung",
+     "meaning": "sissejuhatus tekstis",
+     "example": "Die Einleitung ist kurz. = Sissejuhatus on lühike."
+    },
+    {
+     "word": "die Umsetzung",
+     "meaning": "elluviimine",
+     "example": "Die Umsetzung dauert lange. = Elluviimine kestab kaua."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Tekst/kursus → sissejuhatus; süsteem/reeglid → kasutuselevõtt."
+     }
+    ]
+   },
+   "important": {
+    "text": "Ära aja segi Einführung sõnaga Einleitung: Einleitung on tavaliselt teksti sissejuhatus, Einführung võib olla ka praktikas kasutuselevõtt."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Einführung"
+       ],
+       "yellow": [
+        "Thema"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "Sissejuhatus"
+       ],
+       "yellow": [
+        "teemasse"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Einführung"
+       ],
+       "yellow": [
+        "Systems"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kasutuselevõtt"
+       ],
+       "yellow": [
+        "süsteemi"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Einführung"
+       ],
+       "yellow": [
+        "Buch"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "sissejuhatus"
+       ],
+       "yellow": [
+        "Raamatus"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "Einführung"
+     ],
+     "purple": [
+      "sissejuhatust",
+      "kasutuselevõttu"
+     ],
+     "yellow": [
+      "Tekstis",
+      "kursusel",
+      "süsteemis"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "die Einführung"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "sissejuhatus / kasutuselevõtt"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "die Einleitung"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "sissejuhatus tekstis"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "die Umsetzung"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "elluviimine"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "tekst",
+      "kursus",
+      "süsteem",
+      "reeglid"
+     ]
+    },
+    "important": {
+     "purple": [
+      "kasutuselevõtt praktikas"
+     ]
+    }
+   }
+  }
+ },
+ "b1-sich-eingewöhnen": {
+  "de": "sich eingewöhnen",
+  "lv": "harjuma",
+  "level": "B1",
+  "study": {
+   "id": "b1-sich-eingewöhnen",
+   "layout": "standardStudy",
+   "translation": "harjuma",
+   "explanation": "Põhiidee: sich eingewöhnen tähendab harjumist uue koha, töö, kooli või olukorraga. See rõhutab kohanemisprotsessi.",
+   "examples": [
+    {
+     "de": "Ich muss mich erst an die neue Arbeit eingewöhnen.",
+     "lv": "ma pean kõigepealt harjuma uue tööga."
+    },
+    {
+     "de": "Das Kind gewöhnt sich schnell in der Schule ein.",
+     "lv": "laps harjub kiiresti kooliga."
+    },
+    {
+     "de": "Nach dem Umzug haben wir uns gut eingewöhnt.",
+     "lv": "pärast kolimist harjusime hästi."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "sich eingewöhnen",
+     "meaning": "harjuma uue keskkonnaga",
+     "example": "Ich gewöhne mich langsam ein. = Ma harjun aeglaselt."
+    },
+    {
+     "word": "sich gewöhnen an",
+     "meaning": "millegagi harjuma",
+     "example": "Ich gewöhne mich an das Klima. = Ma harjun kliimaga."
+    },
+    {
+     "word": "sich anpassen",
+     "meaning": "kohanema",
+     "example": "Er passt sich schnell an. = Ta kohaneb kiiresti."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Uues töökohas, koolis või kohas peab inimene sich eingewöhnen."
+     }
+    ]
+   },
+   "important": {
+    "text": "sich eingewöhnen on tavaliselt protsess pärast muutust, mitte ühekordne tegevus."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "eingewöhnen"
+       ],
+       "yellow": [
+        "Arbeit"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "pean harjuma"
+       ],
+       "yellow": [
+        "tööga"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "gewöhnt sich",
+        "ein"
+       ],
+       "green": [
+        "Kind"
+       ],
+       "yellow": [
+        "Schule"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "harjub"
+       ],
+       "green": [
+        "Laps"
+       ],
+       "yellow": [
+        "kooliga"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "eingewöhnt"
+       ],
+       "yellow": [
+        "Umzug"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "harjusime"
+       ],
+       "yellow": [
+        "kolimist"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "sich eingewöhnen"
+     ],
+     "purple": [
+      "harjumist",
+      "kohanemisprotsessi"
+     ],
+     "yellow": [
+      "koha",
+      "töö",
+      "kooli"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "sich eingewöhnen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "harjuma uue keskkonnaga"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "sich gewöhnen an"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "millegagi harjuma"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "sich anpassen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "kohanema"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "töökohas",
+      "koolis",
+      "kohas"
+     ]
+    },
+    "important": {
+     "purple": [
+      "protsess pärast muutust"
+     ]
+    }
+   }
+  }
+ },
+ "b1-einhalten": {
+  "de": "einhalten",
+  "lv": "järgima",
+  "level": "B1",
+  "study": {
+   "id": "b1-einhalten",
+   "layout": "standardStudy",
+   "translation": "järgima",
+   "explanation": "Põhiidee: einhalten tähendab reegli, tähtaja, lubaduse või distantsi järgimist. Seda kasutatakse, kui midagi tuleb täpselt täita või hoida.",
+   "examples": [
+    {
+     "de": "Bitte halten Sie die Regeln ein.",
+     "lv": "palun järgige reegleid."
+    },
+    {
+     "de": "Wir müssen den Termin einhalten.",
+     "lv": "me peame järgima tähtaega."
+    },
+    {
+     "de": "Halten Sie bitte Abstand ein.",
+     "lv": "palun hoidke distantsi."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "einhalten",
+     "meaning": "järgima / täpselt täitma",
+     "example": "Wir halten die Frist ein. = Me järgime tähtaega."
+    },
+    {
+     "word": "beachten",
+     "meaning": "arvesse võtma / järgima",
+     "example": "Bitte beachten Sie die Hinweise. = Palun võtke arvesse juhiseid."
+    },
+    {
+     "word": "halten",
+     "meaning": "pidama / hoidma",
+     "example": "Er hält sein Versprechen. = Ta peab lubadust."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Regeln, Termin, Frist, Abstand einhalten = täpselt järgima."
+     }
+    ]
+   },
+   "important": {
+    "text": "einhalten nõuab tavaliselt konkreetset normi või piiri: reeglit, tähtaega, distantsi."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "halten",
+        "ein"
+       ],
+       "yellow": [
+        "Regeln"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "järgige"
+       ],
+       "yellow": [
+        "reegleid"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "einhalten"
+       ],
+       "yellow": [
+        "Termin"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "peame järgima"
+       ],
+       "yellow": [
+        "tähtaega"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Halten",
+        "ein"
+       ],
+       "yellow": [
+        "Abstand"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "hoidke"
+       ],
+       "yellow": [
+        "distantsi"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "einhalten"
+     ],
+     "purple": [
+      "järgima",
+      "täpselt täitma"
+     ],
+     "yellow": [
+      "reeglit",
+      "tähtaega",
+      "lubadust",
+      "distantsi"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "einhalten"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "järgima / täpselt täitma"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "beachten"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "arvesse võtma / järgima"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "halten"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "pidama / hoidma"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "regeln",
+      "termin",
+      "frist",
+      "abstand"
+     ]
+    },
+    "important": {
+     "purple": [
+      "reeglit",
+      "tähtaega",
+      "distantsi"
+     ]
+    }
+   }
+  }
+ },
+ "b1-einheimisch": {
+  "de": "einheimisch",
+  "lv": "kohalik",
+  "level": "B1",
+  "study": {
+   "id": "b1-einheimisch",
+   "layout": "standardStudy",
+   "translation": "kohalik",
+   "explanation": "Põhiidee: einheimisch tähendab kohalik või sellele kohale iseloomulik. Seda kasutatakse inimeste, taimede, loomade ja toodete kohta.",
+   "examples": [
+    {
+     "de": "Die einheimische Bevölkerung kennt die Berge gut.",
+     "lv": "kohalikud elanikud tunnevad mägesid hästi."
+    },
+    {
+     "de": "Diese Pflanze ist hier einheimisch.",
+     "lv": "see taim on siin kohalik."
+    },
+    {
+     "de": "Wir kaufen einheimische Produkte.",
+     "lv": "me ostame kohalikke tooteid."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "einheimisch",
+     "meaning": "kohalik",
+     "example": "Das ist eine einheimische Pflanze. = See on kohalik taim."
+    },
+    {
+     "word": "heimisch",
+     "meaning": "kohalik / omane teatud keskkonnale",
+     "example": "Diese Art ist hier heimisch. = See liik on siin kohalik."
+    },
+    {
+     "word": "ausländisch",
+     "meaning": "välismaine",
+     "example": "Das ist ein ausländisches Produkt. = See on välismaine toode."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Inimesed, taimed, loomad või tooted sellest kohast → einheimisch."
+     }
+    ]
+   },
+   "important": {
+    "text": "einheimisch ei ole lihtsalt „mõnus”; see tähendab kohalik, sellele kohale kuuluv."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "einheimische"
+       ],
+       "green": [
+        "Bevölkerung"
+       ],
+       "yellow": [
+        "Berge"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "Kohalikud"
+       ],
+       "green": [
+        "elanikud"
+       ],
+       "yellow": [
+        "mägesid"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "einheimisch"
+       ],
+       "yellow": [
+        "Pflanze"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kohalik"
+       ],
+       "yellow": [
+        "taim"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "einheimische"
+       ],
+       "yellow": [
+        "Produkte"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kohalikke"
+       ],
+       "yellow": [
+        "tooteid"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "einheimisch"
+     ],
+     "purple": [
+      "kohalik",
+      "iseloomulik"
+     ],
+     "green": [
+      "inimestele"
+     ],
+     "yellow": [
+      "taimedele",
+      "loomadele",
+      "toodetele"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "einheimisch"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "kohalik"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "heimisch"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "kohalik / omane teatud keskkonnale"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "ausländisch"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "välismaine"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "taimed",
+      "loomad",
+      "tooted"
+     ]
+    },
+    "important": {
+     "purple": [
+      "mõnus"
+     ]
+    }
+   }
+  }
+ },
+ "b1-einheit": {
+  "de": "Einheit",
+  "de_article": "die",
+  "de_plural": "die Einheiten",
+  "lv": "üksus",
+  "level": "B1",
+  "study": {
+   "id": "b1-einheit",
+   "layout": "standardStudy",
+   "translation": "üksus",
+   "explanation": "Põhiidee: die Einheit tähendab üksust. See võib olla õppetükk, tehniline üksus või mõõtühik olenevalt kontekstist.",
+   "examples": [
+    {
+     "de": "Die nächste Einheit beginnt morgen.",
+     "lv": "järgmine õppetükk algab homme."
+    },
+    {
+     "de": "Meter ist eine Einheit für Länge.",
+     "lv": "meeter on pikkuse mõõtühik."
+    },
+    {
+     "de": "Das Gerät besteht aus zwei Einheiten.",
+     "lv": "seade koosneb kahest üksusest."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "die Einheit",
+     "meaning": "üksus",
+     "example": "Diese Einheit ist wichtig. = See üksus on tähtis."
+    },
+    {
+     "word": "die Maßeinheit",
+     "meaning": "mõõtühik",
+     "example": "Kilogramm ist eine Maßeinheit. = Kilogramm on mõõtühik."
+    },
+    {
+     "word": "das Kapitel",
+     "meaning": "peatükk",
+     "example": "Das Kapitel ist kurz. = Peatükk on lühike."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Kontekst ütleb: kursus → õppetükk; mõõtmine → mõõtühik; tehnika → üksus/moodul."
+     }
+    ]
+   },
+   "important": {
+    "text": "Einheit ei ole alati „ühtsus”; õppe- ja tehnilistes tekstides on see sageli konkreetne üksus."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Einheit"
+       ],
+       "yellow": [
+        "nächste"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "õppetükk"
+       ],
+       "yellow": [
+        "Järgmine"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Einheit"
+       ],
+       "yellow": [
+        "Meter",
+        "Länge"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "mõõtühik"
+       ],
+       "yellow": [
+        "Meeter",
+        "pikkuse"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Einheiten"
+       ],
+       "yellow": [
+        "Gerät"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "üksustest"
+       ],
+       "yellow": [
+        "Seade"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "Einheit"
+     ],
+     "purple": [
+      "üksust",
+      "mõõtühik"
+     ],
+     "yellow": [
+      "õppetükk",
+      "tehniline üksus"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "die Einheit"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "üksus"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "die Maßeinheit"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "mõõtühik"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "das Kapitel"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "peatükk"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "õppetükk",
+      "mõõtühik",
+      "moodul"
+     ]
+    },
+    "important": {
+     "purple": [
+      "ühtsus"
+     ]
+    }
+   }
+  }
+ },
+ "b1-längeneinheit": {
+  "de": "Längeneinheit",
+  "de_article": "die",
+  "de_plural": "die Längeneinheiten",
+  "lv": "pikkusühik",
+  "level": "B1",
+  "study": {
+   "id": "b1-längeneinheit",
+   "layout": "standardStudy",
+   "translation": "pikkusühik",
+   "explanation": "Põhiidee: die Längeneinheit tähendab pikkusühikut. Seda kasutatakse, rääkides meetritest, sentimeetritest, kilomeetritest ja muudest pikkusühikutest.",
+   "examples": [
+    {
+     "de": "Meter ist eine Längeneinheit.",
+     "lv": "meeter on pikkusühik."
+    },
+    {
+     "de": "Welche Längeneinheit passt hier?",
+     "lv": "milline pikkusühik siia sobib?"
+    },
+    {
+     "de": "Zentimeter und Kilometer sind Längeneinheiten.",
+     "lv": "sentimeetrid ja kilomeetrid on pikkusühikud."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "die Längeneinheit",
+     "meaning": "pikkusühik",
+     "example": "Meter ist eine Längeneinheit. = Meeter on pikkusühik."
+    },
+    {
+     "word": "die Gewichtseinheit",
+     "meaning": "kaaluühik",
+     "example": "Kilogramm ist eine Gewichtseinheit. = Kilogramm on kaaluühik."
+    },
+    {
+     "word": "die Maßeinheit",
+     "meaning": "mõõtühik",
+     "example": "Sekunde ist eine Maßeinheit. = Sekund on mõõtühik."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Länge = pikkus; Einheit = üksus: Längeneinheit = pikkusühik."
+     }
+    ]
+   },
+   "important": {
+    "text": "Ära aja segi Längeneinheit sõnaga Gewichtseinheit: üks mõõdab pikkust, teine kaalu/massi."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Längeneinheit"
+       ],
+       "yellow": [
+        "Meter"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "pikkusühik"
+       ],
+       "yellow": [
+        "Meeter"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Längeneinheit"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "pikkusühik"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Längeneinheiten"
+       ],
+       "yellow": [
+        "Zentimeter",
+        "Kilometer"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "pikkusühikud"
+       ],
+       "yellow": [
+        "Sentimeetrid",
+        "kilomeetrid"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "Längeneinheit"
+     ],
+     "purple": [
+      "pikkusühikut"
+     ],
+     "yellow": [
+      "meetritest",
+      "sentimeetritest",
+      "kilomeetritest"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "die Längeneinheit"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "pikkusühik"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "die Gewichtseinheit"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "kaaluühik"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "die Maßeinheit"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "mõõtühik"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "pikkus",
+      "üksus",
+      "pikkusühik"
+     ]
+    },
+    "important": {
+     "purple": [
+      "pikkust",
+      "kaalu/massi"
+     ]
+    }
+   }
+  }
+ },
+ "b1-einheitlich": {
+  "de": "einheitlich",
+  "lv": "ühtne",
+  "level": "B1",
+  "study": {
+   "id": "b1-einheitlich",
+   "layout": "standardStudy",
+   "translation": "ühtne",
+   "explanation": "Põhiidee: einheitlich tähendab ühtne või ühesugune kogu süsteemis. Seda kasutatakse reeglite, stiili, värvi, kuju või korra kohta.",
+   "examples": [
+    {
+     "de": "Wir brauchen einheitliche Regeln.",
+     "lv": "meil on vaja ühtseid reegleid."
+    },
+    {
+     "de": "Die Mitarbeiter tragen einheitliche Kleidung.",
+     "lv": "töötajad kannavad ühesugust riietust."
+    },
+    {
+     "de": "Das Design ist einheitlich.",
+     "lv": "disain on ühtne."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Kui kõikjal peab olema ühesugune stiil või kord, kasuta einheitlich."
+     }
+    ]
+   },
+   "important": {
+    "text": "einheitlich ei ole einzig: einheitlich = ühtne/ühesugune, einzig = ainus."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "einheitliche"
+       ],
+       "yellow": [
+        "Regeln"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "ühtseid"
+       ],
+       "yellow": [
+        "reegleid"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "einheitliche"
+       ],
+       "green": [
+        "Mitarbeiter"
+       ],
+       "yellow": [
+        "Kleidung"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "ühesugust"
+       ],
+       "green": [
+        "Töötajad"
+       ],
+       "yellow": [
+        "riietust"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "einheitlich"
+       ],
+       "yellow": [
+        "Design"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "ühtne"
+       ],
+       "yellow": [
+        "Disain"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "einheitlich"
+     ],
+     "purple": [
+      "ühtne",
+      "ühesugune"
+     ],
+     "yellow": [
+      "reeglitele",
+      "stiilile",
+      "värvile",
+      "kujule"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "einheitlich"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "ühtne / ühesugune"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "einzig"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "ainus"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "gleich"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "ühesugune"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "ühesugune stiil",
+      "kord"
+     ]
+    },
+    "important": {
+     "purple": [
+      "ühtne/ühesugune",
+      "ainus"
+     ]
+    }
+   }
+  }
+ },
+ "b1-einholen": {
+  "de": "einholen",
+  "lv": "hankima",
+  "level": "B1",
+  "study": {
+   "id": "b1-einholen",
+   "layout": "standardStudy",
+   "translation": "hankima",
+   "explanation": "Põhiidee: einholen tähendab hankimist või saamist - informatsiooni, nõu või luba. Liikumises võib see tähendada kellegi järele jõudmist.",
+   "examples": [
+    {
+     "de": "Wir holen Informationen ein.",
+     "lv": "me hangime informatsiooni."
+    },
+    {
+     "de": "Ich muss eine Genehmigung einholen.",
+     "lv": "ma pean hankima loa."
+    },
+    {
+     "de": "Der Läufer holt den anderen ein.",
+     "lv": "jooksja jõuab teisele järele."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "einholen",
+     "meaning": "hankima / saama / järele jõudma",
+     "example": "Ich hole Rat ein. = Ma küsin nõu."
+    },
+    {
+     "word": "holen",
+     "meaning": "tooma / järele minema",
+     "example": "Ich hole das Kind ab. = Ma lähen lapsele järele."
+    },
+    {
+     "word": "überholen",
+     "meaning": "mööduma",
+     "example": "Das Auto überholt uns. = Auto möödub meist."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Informatsiooni, nõu või luba holt man ein; jooksjale saab ka einholen = järele jõuda."
+     }
+    ]
+   },
+   "important": {
+    "text": "einholen ei ole tavaline „saada mida iganes”; seda kasutatakse väga sageli koos sõnadega Informationen, Rat või Genehmigung."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "holen",
+        "ein"
+       ],
+       "yellow": [
+        "Informationen"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "hangime"
+       ],
+       "yellow": [
+        "informatsiooni"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "einholen"
+       ],
+       "yellow": [
+        "Genehmigung"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "pean hankima"
+       ],
+       "yellow": [
+        "loa"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "holt",
+        "ein"
+       ],
+       "green": [
+        "Läufer"
+       ],
+       "yellow": [
+        "anderen"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "jõuab järele"
+       ],
+       "green": [
+        "Jooksja"
+       ],
+       "yellow": [
+        "teisele"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "einholen"
+     ],
+     "purple": [
+      "hankima",
+      "saama",
+      "järele jõudma"
+     ],
+     "yellow": [
+      "informatsiooni",
+      "nõu",
+      "luba"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "einholen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "hankima / saama / järele jõudma"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "holen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "tooma / järele minema"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "überholen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "mööduma"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "informatsiooni",
+      "nõu",
+      "luba",
+      "jooksjale"
+     ]
+    },
+    "important": {
+     "purple": [
+      "informationen",
+      "rat",
+      "genehmigung"
+     ]
+    }
+   }
+  }
+ },
+ "b1-einsatz": {
+  "de": "Einsatz",
+  "de_article": "der",
+  "de_plural": "die Einsätze",
+  "lv": "kasutamine",
+  "level": "B1",
+  "study": {
+   "id": "b1-einsatz",
+   "layout": "standardStudy",
+   "translation": "kasutamine",
+   "explanation": "Põhiidee: der Einsatz tähendab aktiivset kasutamist või osalemist konkreetses olukorras. Sagedased väljendid on im Einsatz ja zum Einsatz kommen; mängudes võib Einsatz olla ka panus.",
+   "examples": [
+    {
+     "de": "Der Einsatz moderner Technik spart Zeit.",
+     "lv": "moodsa tehnika kasutamine säästab aega."
+    },
+    {
+     "de": "Die Feuerwehr ist seit zwei Stunden im Einsatz.",
+     "lv": "tuletõrjujad on juba kaks tundi väljakutsel."
+    },
+    {
+     "de": "Bei diesem Spiel ist der Einsatz zu hoch.",
+     "lv": "selles mängus on panus liiga suur."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "der Einsatz",
+     "meaning": "kasutamine / osalemine / panus",
+     "example": "Der Einsatz der Technik hilft uns. = Tehnika kasutamine aitab meid."
+    },
+    {
+     "word": "die Verwendung",
+     "meaning": "kasutamine",
+     "example": "Die Verwendung des Geräts ist einfach. = Seadme kasutamine on lihtne."
+    },
+    {
+     "word": "die Wette",
+     "meaning": "kihlveod",
+     "example": "Er verliert die Wette. = Ta kaotab kihlveo."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Einsatz küsib alati: mida kaasatakse või kasutatakse ja millises olukorras?"
+     }
+    ]
+   },
+   "important": {
+    "text": "Ära aja segi der Einsatz sõnaga einsetzen: der Einsatz on nimisõna, einsetzen on tegusõna „kasutama/kaasama”."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Einsatz"
+       ],
+       "yellow": [
+        "Technik"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kasutamine"
+       ],
+       "yellow": [
+        "tehnika"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "im Einsatz"
+       ],
+       "green": [
+        "Feuerwehr"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "väljakutsel"
+       ],
+       "green": [
+        "Tuletõrjujad"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Einsatz"
+       ],
+       "yellow": [
+        "Spiel"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "panus"
+       ],
+       "yellow": [
+        "mängus"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "der Einsatz",
+      "im Einsatz",
+      "zum Einsatz kommen"
+     ],
+     "purple": [
+      "kasutamist",
+      "osalemist",
+      "panus"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "der Einsatz"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "kasutamine / osalemine / panus"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "die Verwendung"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "kasutamine"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "die Wette"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "kihlveod"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "kaasatakse",
+      "kasutatakse"
+     ]
+    },
+    "important": {
+     "purple": [
+      "nimisõna",
+      "tegusõna"
+     ]
+    }
+   }
+  }
+ },
+ "b1-einsetzen": {
+  "de": "einsetzen",
+  "lv": "kasutama",
+  "level": "B1",
+  "study": {
+   "id": "b1-einsetzen",
+   "layout": "standardStudy",
+   "translation": "kasutama",
+   "explanation": "Põhiidee: einsetzen tähendab millegi kasutamist või kaasamist eesmärgi nimel. Objekt muudab tõlget: tehnikat kasutatakse, inimest kaasatakse/määratakse, aga vihm või valu võib alata.",
+   "examples": [
+    {
+     "de": "Wir setzen moderne Technik im Unterricht ein.",
+     "lv": "me kasutame kaasaegset tehnikat õppetöös."
+    },
+    {
+     "de": "Der Trainer setzt den neuen Spieler ein.",
+     "lv": "treener kaasab uue mängija."
+    },
+    {
+     "de": "Am Abend setzte starker Regen ein.",
+     "lv": "õhtul algas tugev vihm."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "einsetzen",
+     "meaning": "kasutama / kaasama / algama",
+     "example": "Wir setzen die Software ein. = Me kasutame tarkvara."
+    },
+    {
+     "word": "benutzen",
+     "meaning": "kasutama",
+     "example": "Ich benutze das Handy. = Ma kasutan telefoni."
+    },
+    {
+     "word": "beginnen",
+     "meaning": "algama",
+     "example": "Der Kurs beginnt morgen. = Kursus algab homme."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Vaata objekti: Technik einsetzen, Spieler einsetzen, Regen setzt ein."
+     }
+    ]
+   },
+   "important": {
+    "text": "Võti on objekt: einsetzen ei ole üks tõlge kõigile olukordadele."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "setzen",
+        "ein"
+       ],
+       "yellow": [
+        "Technik"
+       ],
+       "green": [
+        "Unterricht"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kasutame"
+       ],
+       "yellow": [
+        "tehnikat"
+       ],
+       "green": [
+        "õppetöös"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "setzt",
+        "ein"
+       ],
+       "green": [
+        "Trainer",
+        "Spieler"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kaasab"
+       ],
+       "green": [
+        "Treener",
+        "mängija"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "setzte",
+        "ein"
+       ],
+       "yellow": [
+        "Regen"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "algas"
+       ],
+       "yellow": [
+        "vihm"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "einsetzen"
+     ],
+     "purple": [
+      "kasutama",
+      "kaasama",
+      "algama"
+     ],
+     "yellow": [
+      "tehnikat",
+      "vihma",
+      "valu"
+     ],
+     "green": [
+      "inimest"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "einsetzen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "kasutama / kaasama / algama"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "benutzen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "kasutama"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "beginnen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "algama"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "technik einsetzen",
+      "spieler einsetzen",
+      "regen setzt ein"
+     ]
+    },
+    "important": {
+     "purple": [
+      "objekt"
+     ]
+    }
+   }
+  }
+ },
+ "b1-einstellen": {
+  "de": "einstellen",
+  "lv": "reguleerima",
+  "level": "B1",
+  "study": {
+   "id": "b1-einstellen",
+   "layout": "standardStudy",
+   "translation": "reguleerima",
+   "explanation": "Põhiidee: einstellen tähendab seadistamist või reguleerimist. Töötajate puhul tähendab see tööle võtmist, aga ajalehe, projekti või teenuse puhul - lõpetamist.",
+   "examples": [
+    {
+     "de": "Ich stelle die Heizung auf 20 Grad ein.",
+     "lv": "ma reguleerin küttet 20 kraadile."
+    },
+    {
+     "de": "Die Firma stellt drei neue Mitarbeiter ein.",
+     "lv": "ettevõte võtab tööle kolm uut töötajat."
+    },
+    {
+     "de": "Die Zeitung wurde nach 50 Jahren eingestellt.",
+     "lv": "ajalehe väljaandmine lõpetati 50 aasta pärast."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "einstellen",
+     "meaning": "seadistama / tööle võtma / lõpetama",
+     "example": "Ich stelle den Wecker ein. = Ma seadistan äratuskella."
+    },
+    {
+     "word": "anstellen",
+     "meaning": "tööle võtma",
+     "example": "Die Firma stellt ihn an. = Firma võtab ta tööle."
+    },
+    {
+     "word": "ausschalten",
+     "meaning": "välja lülitama",
+     "example": "Ich schalte das Licht aus. = Ma lülitan valguse välja."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Seadet einstellen, Mitarbeiter einstellen, Zeitung einstellen - objektil on otsustav tähendus."
+     }
+    ]
+   },
+   "important": {
+    "text": "einstellen ei ole lihtsalt „välja lülitama”; lõpetamise tähendus puudutab tavaliselt tegevust, väljaandmist või teenust."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "stelle",
+        "ein"
+       ],
+       "yellow": [
+        "Heizung"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "reguleerin"
+       ],
+       "yellow": [
+        "küttet"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "stellt",
+        "ein"
+       ],
+       "green": [
+        "Mitarbeiter"
+       ],
+       "yellow": [
+        "Firma"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "võtab tööle"
+       ],
+       "green": [
+        "töötajat"
+       ],
+       "yellow": [
+        "Ettevõte"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "eingestellt"
+       ],
+       "yellow": [
+        "Zeitung"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "lõpetati"
+       ],
+       "yellow": [
+        "Ajalehe väljaandmine"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "einstellen"
+     ],
+     "purple": [
+      "seadistama",
+      "reguleerima",
+      "tööle võtma",
+      "lõpetama"
+     ],
+     "green": [
+      "töötajate"
+     ],
+     "yellow": [
+      "ajalehe",
+      "projekti",
+      "teenuse"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "einstellen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "seadistama / tööle võtma / lõpetama"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "anstellen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "tööle võtma"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "ausschalten"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "välja lülitama"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "mitarbeiter"
+     ]
+    },
+    "important": {
+     "purple": [
+      "lõpetamise tähendus"
+     ]
+    }
+   }
+  }
+ },
+ "b1-eintreten": {
+  "de": "eintreten",
+  "lv": "sisenema",
+  "level": "B1",
+  "study": {
+   "id": "b1-eintreten",
+   "layout": "standardStudy",
+   "translation": "sisenema",
+   "explanation": "Põhiidee: eintreten tähendab sisenemist või liitumist. Seda kasutatakse ruumi sisenemise, organisatsiooniga liitumise ja ka hetke kohta, mil sündmus või tagajärg saabub.",
+   "examples": [
+    {
+     "de": "Bitte treten Sie ein.",
+     "lv": "palun sisenege."
+    },
+    {
+     "de": "Er tritt im Herbst in den Verein ein.",
+     "lv": "ta liitub sügisel ühinguga."
+    },
+    {
+     "de": "Die gewünschte Wirkung tritt erst später ein.",
+     "lv": "soovitud toime saabub alles hiljem."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "eintreten",
+     "meaning": "sisenema / liituma",
+     "example": "Treten Sie ein! = Sisenege!"
+    },
+    {
+     "word": "betreten",
+     "meaning": "sisenema kohta",
+     "example": "Bitte betreten Sie den Raum nicht. = Palun ärge sisenege ruumi."
+    },
+    {
+     "word": "beitreten",
+     "meaning": "liituma organisatsiooniga",
+     "example": "Ich trete dem Verein bei. = Ma liitun ühinguga."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Ruumi tritt man ein; organisatsiooniga tritt man ein või bei; tagajärjed treten ein."
+     }
+    ]
+   },
+   "important": {
+    "text": "eintreten sündmusega ei tähenda füüsiliselt sisenemist: Die Wirkung tritt ein = toime saabub."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "treten",
+        "ein"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "sisenege"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "tritt",
+        "ein"
+       ],
+       "green": [
+        "Verein"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "liitub"
+       ],
+       "green": [
+        "ühinguga"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "tritt",
+        "ein"
+       ],
+       "yellow": [
+        "Wirkung"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "saabub"
+       ],
+       "yellow": [
+        "toime"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "eintreten"
+     ],
+     "purple": [
+      "sisenemist",
+      "liitumist",
+      "saabub"
+     ],
+     "yellow": [
+      "ruumi",
+      "sündmus",
+      "tagajärg"
+     ],
+     "green": [
+      "organisatsiooniga"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "eintreten"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "sisenema / liituma"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "betreten"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "sisenema kohta"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "beitreten"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "liituma organisatsiooniga"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "ruumi",
+      "tagajärjed"
+     ]
+    },
+    "important": {
+     "purple": [
+      "toime saabub"
+     ]
+    }
+   }
+  }
+ },
+ "b1-einziehen": {
+  "de": "einziehen",
+  "lv": "sisse kolima",
+  "level": "B1",
+  "study": {
+   "id": "b1-einziehen",
+   "layout": "standardStudy",
+   "translation": "sisse kolima",
+   "explanation": "Põhiidee: einziehen tähendab kõige sagedamini uude elukohta sisse kolimist. Teise objektiga võib see tähendada makse sissenõudmist või millegi sissetõmbamist.",
+   "examples": [
+    {
+     "de": "Wir ziehen morgen in die neue Wohnung ein.",
+     "lv": "me kolime homme uude korterisse sisse."
+    },
+    {
+     "de": "Die Bank zieht die monatliche Gebühr ein.",
+     "lv": "pank nõuab sisse kuutasu."
+    },
+    {
+     "de": "Zieh den Bauch ein.",
+     "lv": "tõmba kõht sisse."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "einziehen",
+     "meaning": "sisse kolima / sisse nõudma / sisse tõmbama",
+     "example": "Wir ziehen in die Wohnung ein. = Me kolime korterisse sisse."
+    },
+    {
+     "word": "umziehen",
+     "meaning": "kolima",
+     "example": "Wir ziehen nächste Woche um. = Me kolime järgmisel nädalal."
+    },
+    {
+     "word": "ausziehen",
+     "meaning": "välja kolima / seljast võtma",
+     "example": "Sie zieht aus. = Ta kolib välja."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Wohnung einziehen = sisse kolima; Gebühr einziehen = sisse nõudma; Bauch einziehen = sisse tõmbama."
+     }
+    ]
+   },
+   "important": {
+    "text": "einziehen rõhutab uude kohta sisenemist; umziehen rõhutab kolimisprotsessi."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "ziehen",
+        "ein"
+       ],
+       "yellow": [
+        "Wohnung"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kolime sisse"
+       ],
+       "yellow": [
+        "korterisse"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "zieht",
+        "ein"
+       ],
+       "yellow": [
+        "Gebühr"
+       ],
+       "green": [
+        "Bank"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "nõuab sisse"
+       ],
+       "yellow": [
+        "kuutasu"
+       ],
+       "green": [
+        "Pank"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Zieh",
+        "ein"
+       ],
+       "yellow": [
+        "Bauch"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "tõmba sisse"
+       ],
+       "yellow": [
+        "kõht"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "einziehen"
+     ],
+     "purple": [
+      "sisse kolima",
+      "sisse nõudma",
+      "sisse tõmbama"
+     ],
+     "yellow": [
+      "elukohta",
+      "makset"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "einziehen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "sisse kolima / sisse nõudma / sisse tõmbama"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "umziehen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "kolima"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "ausziehen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "välja kolima / seljast võtma"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "sisse kolima",
+      "sisse nõudma",
+      "sisse tõmbama"
+     ]
+    },
+    "important": {
+     "purple": [
+      "sisenemist",
+      "kolimisprotsessi"
+     ]
+    }
+   }
+  }
+ },
+ "b1-empfangen": {
+  "de": "empfangen",
+  "lv": "vastu võtma",
+  "level": "B1",
+  "study": {
+   "id": "b1-empfangen",
+   "layout": "standardStudy",
+   "translation": "vastu võtma",
+   "explanation": "Põhiidee: empfangen tähendab vastuvõtmist formaalsemas või tehnilises olukorras, külaliste vastuvõtmist või signaali vastuvõtmist. Igapäevane „saama” on sagedamini bekommen.",
+   "examples": [
+    {
+     "de": "Wir haben Ihre Nachricht empfangen.",
+     "lv": "me oleme teie sõnumi vastu võtnud."
+    },
+    {
+     "de": "Die Ministerin empfängt die Gäste im Rathaus.",
+     "lv": "minister võtab külalisi vastu raekojas."
+    },
+    {
+     "de": "Das Radio empfängt kein Signal.",
+     "lv": "raadio ei võta signaali vastu."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "empfangen",
+     "meaning": "vastu võtma",
+     "example": "Wir empfangen ein Signal. = Me võtame signaali vastu."
+    },
+    {
+     "word": "bekommen",
+     "meaning": "igapäevaselt saama",
+     "example": "Ich bekomme eine E-Mail. = Ma saan e-kirja."
+    },
+    {
+     "word": "begrüßen",
+     "meaning": "tervitama",
+     "example": "Ich begrüße die Gäste. = Ma tervitan külalisi."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Sõnumit või signaali empfangen; inimesi empfangen = vastu võtma."
+     }
+    ]
+   },
+   "important": {
+    "text": "empfangen kõlab formaalsemalt või tehnilisemalt kui bekommen; külalistega tähendab see vastuvõtmist, mitte lihtsalt saamist."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "empfangen"
+       ],
+       "yellow": [
+        "Nachricht"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "vastu võtnud"
+       ],
+       "yellow": [
+        "sõnumi"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "empfängt"
+       ],
+       "green": [
+        "Ministerin",
+        "Gäste",
+        "Rathaus"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "võtab vastu"
+       ],
+       "green": [
+        "Minister",
+        "külalisi",
+        "raekojas"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "empfängt"
+       ],
+       "yellow": [
+        "Radio",
+        "Signal"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "ei võta vastu"
+       ],
+       "yellow": [
+        "Raadio",
+        "signaali"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "empfangen",
+      "bekommen"
+     ],
+     "purple": [
+      "vastu võtma"
+     ],
+     "yellow": [
+      "signaali"
+     ],
+     "green": [
+      "külalisi"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "empfangen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "vastu võtma"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "bekommen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "igapäevaselt saama"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "begrüßen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "tervitama"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "vastu võtma"
+     ]
+    },
+    "important": {
+     "purple": [
+      "formaalsemalt",
+      "tehnilisemalt",
+      "vastuvõtmist"
+     ]
+    }
+   }
+  }
+ },
+ "b1-entfernen": {
+  "de": "entfernen",
+  "lv": "eemaldama",
+  "level": "B1",
+  "study": {
+   "id": "b1-entfernen",
+   "layout": "standardStudy",
+   "translation": "eemaldama",
+   "explanation": "Põhiidee: entfernen tähendab millegi eemaldamist, kustutamist või ära viimist kohalt. Refleksiivselt sich entfernen tähendab eemaldumist mingist kohast või inimesest.",
+   "examples": [
+    {
+     "de": "Bitte entfernen Sie den Fleck sofort.",
+     "lv": "palun eemaldage plekk kohe."
+    },
+    {
+     "de": "Die Polizei entfernte das falsch geparkte Auto.",
+     "lv": "politsei viis ära valesti pargitud auto."
+    },
+    {
+     "de": "Er entfernte sich langsam vom Haus.",
+     "lv": "ta eemaldus aeglaselt majast."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "entfernen",
+     "meaning": "eemaldama / ära viima / kustutama",
+     "example": "Entfernen Sie die Datei. = Kustutage fail."
+    },
+    {
+     "word": "wegnehmen",
+     "meaning": "ära võtma",
+     "example": "Nimm das Glas weg. = Võta klaas ära."
+    },
+    {
+     "word": "sich entfernen",
+     "meaning": "eemalduma",
+     "example": "Sie entfernt sich vom Bahnhof. = Ta eemaldub jaamast."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Objekti entfernen = eemaldama; sich entfernen = ise eemaldub."
+     }
+    ]
+   },
+   "important": {
+    "text": "Kui liikumine ära on inimesel endal, on vaja refleksiivset vormi sich entfernen."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "entfernen"
+       ],
+       "yellow": [
+        "Fleck"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "eemaldage"
+       ],
+       "yellow": [
+        "plekk"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "entfernte"
+       ],
+       "yellow": [
+        "Auto"
+       ],
+       "green": [
+        "Polizei"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "viis ära"
+       ],
+       "yellow": [
+        "auto"
+       ],
+       "green": [
+        "Politsei"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "entfernte sich"
+       ],
+       "yellow": [
+        "Haus"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "eemaldus"
+       ],
+       "yellow": [
+        "majast"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "entfernen",
+      "sich entfernen"
+     ],
+     "purple": [
+      "eemaldama",
+      "kustutama",
+      "ära viima",
+      "eemalduma"
+     ],
+     "yellow": [
+      "kohalt"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "entfernen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "eemaldama / ära viima / kustutama"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "wegnehmen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "ära võtma"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "sich entfernen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "eemalduma"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "eemaldama",
+      "eemaldub"
+     ]
+    },
+    "important": {
+     "purple": [
+      "liikumine ära"
+     ]
+    }
+   }
+  }
  }
 }
