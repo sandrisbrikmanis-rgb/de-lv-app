@@ -64140,7 +64140,7 @@ const A2_WORDS = [
     "de": "Traube",
     "de_article": "die",
     "de_plural": "die Trauben",
-    "lv": "viinamarjad",
+    "lv": "viinamari",
     "level": "A2"
   },
   {
@@ -72261,21 +72261,8 @@ const A2_WORDS = [
     "de": "Zwilling",
     "de_article": "der",
     "de_plural": "die Zwillinge",
-    "lv": "kaksikud",
-    "level": "A2",
-    "study": {
-      "id": "a2-zwilling",
-      "layout": "minimalStudy",
-      "translation": "kaksikud",
-      "accent": "blue",
-      "variants": [
-        {
-          "article": "der",
-          "de": "Zwilling",
-          "plural": "die Zwillinge"
-        }
-      ]
-    }
+    "lv": "kaksik",
+    "level": "A2"
   },
   {
     "de": "sehen",

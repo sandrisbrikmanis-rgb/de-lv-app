@@ -14808,7 +14808,7 @@ const B1_WORDS = [
     "de": "Droge",
     "de_article": "die",
     "de_plural": "die Drogen",
-    "lv": "narkootikumid",
+    "lv": "narkootikum",
     "level": "B1"
   },
   {
@@ -22891,7 +22891,7 @@ const B1_WORDS = [
     "de": "Erwartung",
     "de_article": "die",
     "de_plural": "die Erwartungen",
-    "lv": "ootused",
+    "lv": "ootus",
     "level": "B1"
   },
   {
@@ -23053,7 +23053,7 @@ const B1_WORDS = [
     "de": "Fähigkeit",
     "de_article": "die",
     "de_plural": "die Fähigkeiten",
-    "lv": "võimed",
+    "lv": "võime",
     "level": "B1"
   },
   {
@@ -34000,7 +34000,7 @@ const B1_WORDS = [
   {
     "de": "Jubel",
     "de_article": "der",
-    "lv": "hõisked",
+    "lv": "juubeldus",
     "level": "B1"
   },
   {
@@ -36559,7 +36559,7 @@ const B1_WORDS = [
     "de": "Kontaktlinse",
     "de_article": "die",
     "de_plural": "die Kontaktlinsen",
-    "lv": "kontaktläätsed",
+    "lv": "kontaktlääts",
     "level": "B1"
   },
   {
@@ -36831,7 +36831,7 @@ const B1_WORDS = [
     "de": "Krampf",
     "de_article": "der",
     "de_plural": "die Krämpfe",
-    "lv": "krambid",
+    "lv": "kramp",
     "level": "B1"
   },
   {
@@ -45498,7 +45498,7 @@ const B1_WORDS = [
     "de": "Plage",
     "de_article": "die",
     "de_plural": "die Plagen",
-    "lv": "piinad",
+    "lv": "nuhtlus",
     "level": "B1"
   },
   {
@@ -46338,7 +46338,7 @@ const B1_WORDS = [
     "de": "Qual",
     "de_article": "die",
     "de_plural": "die Qualen",
-    "lv": "piinad",
+    "lv": "piin",
     "level": "B1"
   },
   {
@@ -65122,7 +65122,7 @@ const B1_WORDS = [
     "de": "Windel",
     "de_article": "die",
     "de_plural": "die Windeln",
-    "lv": "mähkmed",
+    "lv": "mähe",
     "level": "B1"
   },
   {

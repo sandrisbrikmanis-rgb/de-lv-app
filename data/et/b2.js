@@ -2335,7 +2335,7 @@ const B2_WORDS = [
     "de": "Debatte",
     "de_article": "die",
     "de_plural": "die Debatten",
-    "lv": "debatid",
+    "lv": "debatt",
     "level": "B2"
   },
   {

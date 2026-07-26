@@ -2334,7 +2334,7 @@ const C1_WORDS = [
     "de": "Feuerwerkskörper",
     "de_article": "der",
     "de_plural": "die Feuerwerkskörper",
-    "lv": "ilutulestikuraketid",
+    "lv": "ilutulestikurakett",
     "level": "C1"
   },
   {
