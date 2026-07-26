@@ -23812,5 +23812,1501 @@
     }
    }
   }
+ },
+ "b1-herkommen": {
+  "de": "herkommen",
+  "lv": "siia tulema",
+  "level": "B1",
+  "study": {
+   "id": "b1-herkommen",
+   "layout": "standardStudy",
+   "translation": "siia tulema",
+   "explanation": "Põhiidee: herkommen tähendab siia tulemist, rääkija juurde või sellesse kohta. Küsimus Wo kommst du her? tähendab „Kust sa pärit oled?”.",
+   "examples": [
+    {
+     "de": "Komm bitte mal her!",
+     "lv": "tule, palun, siia!"
+    },
+    {
+     "de": "Wo kommst du her?",
+     "lv": "kust sa pärit oled?"
+    },
+    {
+     "de": "Der Geruch kommt aus der Küche her.",
+     "lv": "lõhn tuleb köögist."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "herkommen",
+     "meaning": "siia tulema / pärit olema",
+     "example": "Komm her! = Tule siia!"
+    },
+    {
+     "word": "kommen",
+     "meaning": "tulema",
+     "example": "Ich komme um acht. = Ma tulen kell kaheksa."
+    },
+    {
+     "word": "hingehen",
+     "meaning": "sinna minema",
+     "example": "Ich gehe zum Arzt hin. = Ma lähen arsti juurde."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "her- näitab liikumist siia: komm her!"
+     }
+    ]
+   },
+   "important": {
+    "text": "Wo kommst du her? ei ole hetkelisest liikumisest, vaid päritolust."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Komm",
+        "her"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "tule",
+        "siia"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "kommst",
+        "her"
+       ],
+       "red": [
+        "Wo"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kust ... pärit"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "kommt",
+        "her"
+       ],
+       "green": [
+        "Küche"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "tuleb"
+       ],
+       "green": [
+        "köögist"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "herkommen",
+      "Wo kommst du her"
+     ],
+     "purple": [
+      "siia tulemist",
+      "kust sa pärit oled"
+     ],
+     "red": [
+      "päritolust"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "herkommen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "siia tulema / pärit olema"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "kommen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "tulema"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "hingehen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "sinna minema"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "siia"
+     ]
+    },
+    "important": {
+     "purple": [
+      "päritolust"
+     ]
+    }
+   }
+  }
+ },
+ "b1-hinausgehen": {
+  "de": "hinausgehen",
+  "lv": "välja minema",
+  "level": "B1",
+  "study": {
+   "id": "b1-hinausgehen",
+   "layout": "standardStudy",
+   "translation": "välja minema",
+   "explanation": "Põhiidee: hinausgehen tähendab ruumist või kohast väljaminemist rääkija vaatepunktist eemale. Väljend über etwas hinausgehen tähendab piiri ületamist.",
+   "examples": [
+    {
+     "de": "Ich gehe kurz hinaus.",
+     "lv": "ma lähen korraks välja."
+    },
+    {
+     "de": "Die Kinder gehen in den Garten hinaus.",
+     "lv": "lapsed lähevad aeda."
+    },
+    {
+     "de": "Das geht über meine Erfahrung hinaus.",
+     "lv": "see ületab minu kogemuse."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "hinausgehen",
+     "meaning": "välja minema / ületama",
+     "example": "Ich gehe hinaus. = Ma lähen välja."
+    },
+    {
+     "word": "herauskommen",
+     "meaning": "siia välja tulema",
+     "example": "Komm bitte heraus! = Tule, palun, välja!"
+    },
+    {
+     "word": "ausgehen",
+     "meaning": "väljas käima / lõppema",
+     "example": "Wir gehen heute aus. = Me läheme täna välja."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "hinaus- näitab tavaliselt liikumist eemale välja; heraus- sagedamini siia välja."
+     }
+    ]
+   },
+   "important": {
+    "text": "über etwas hinausgehen on ülekantud tähendus: piiri ületamine, mitte füüsiline väljaminek."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "gehe",
+        "hinaus"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "lähen välja"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "gehen",
+        "hinaus"
+       ],
+       "green": [
+        "Kinder",
+        "Garten"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "lähevad"
+       ],
+       "green": [
+        "Lapsed",
+        "aeda"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "geht",
+        "hinaus"
+       ],
+       "yellow": [
+        "Erfahrung"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "ületab"
+       ],
+       "yellow": [
+        "kogemuse"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "hinausgehen",
+      "über etwas hinausgehen"
+     ],
+     "purple": [
+      "väljaminemist",
+      "piiri ületamist"
+     ],
+     "yellow": [
+      "ruumist",
+      "kohast",
+      "piiri"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "hinausgehen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "välja minema / ületama"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "herauskommen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "siia välja tulema"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "ausgehen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "väljas käima / lõppema"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "eemale välja",
+      "siia välja"
+     ]
+    },
+    "important": {
+     "purple": [
+      "piiri ületamine"
+     ]
+    }
+   }
+  }
+ },
+ "b1-hinweis": {
+  "de": "Hinweis",
+  "de_article": "der",
+  "de_plural": "die Hinweise",
+  "lv": "juhis",
+  "level": "B1",
+  "study": {
+   "id": "b1-hinweis",
+   "layout": "standardStudy",
+   "translation": "juhis",
+   "explanation": "Põhiidee: der Hinweis on juhis, märkus või teave, mis aitab midagi märgata, mõista või leida.",
+   "examples": [
+    {
+     "de": "Danke für den Hinweis.",
+     "lv": "tänan juhise eest."
+    },
+    {
+     "de": "Auf dem Schild steht ein wichtiger Hinweis.",
+     "lv": "sildil on tähtis juhis."
+    },
+    {
+     "de": "Der Hinweis hat mir sehr geholfen.",
+     "lv": "see juhis mind väga aitas."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "der Hinweis",
+     "meaning": "juhis / märkus",
+     "example": "Danke für den Hinweis. = Tänan juhise eest."
+    },
+    {
+     "word": "der Rat",
+     "meaning": "nõuanne",
+     "example": "Danke für deinen Rat. = Tänan sinu nõuande eest."
+    },
+    {
+     "word": "die Warnung",
+     "meaning": "hoiatus",
+     "example": "Die Warnung war wichtig. = Hoiatus oli tähtis."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Hinweis juhib millelegi tähelepanu; Rat soovitab, mida teha."
+     }
+    ]
+   },
+   "important": {
+    "text": "der Hinweis ei ole sama, mis der Rat: Hinweis juhib tähelepanu, Rat soovitab."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Hinweis"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "juhise"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Hinweis"
+       ],
+       "yellow": [
+        "Schild"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "juhis"
+       ],
+       "yellow": [
+        "sildil"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Hinweis"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "juhis"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "der Hinweis"
+     ],
+     "purple": [
+      "juhis",
+      "märkus"
+     ],
+     "yellow": [
+      "teave"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "der Hinweis"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "juhis / märkus"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "der Rat"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "nõuanne"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "die Warnung"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "hoiatus"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "juhib tähelepanu",
+      "soovitab"
+     ]
+    },
+    "important": {
+     "purple": [
+      "juhib tähelepanu",
+      "soovitab"
+     ]
+    }
+   }
+  }
+ },
+ "b1-holen": {
+  "de": "holen",
+  "lv": "tooma",
+  "level": "B1",
+  "study": {
+   "id": "b1-holen",
+   "layout": "standardStudy",
+   "translation": "tooma",
+   "explanation": "Põhiidee: holen tähendab kuhugi minemist millegi järele ja selle toomist, vedu või kaasa võtmist. Sageli kasutatakse ka inimeste kohta: jemanden abholen.",
+   "examples": [
+    {
+     "de": "Ich hole die Kinder von der Schule ab.",
+     "lv": "ma toon lapsed koolist ära."
+    },
+    {
+     "de": "Kannst du bitte Brot holen?",
+     "lv": "kas sa saad palun tuua leiba?"
+    },
+    {
+     "de": "Wir holen den Arzt.",
+     "lv": "me kutsume arsti."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "holen",
+     "meaning": "minema järele ja tooma",
+     "example": "Ich hole Brot. = Ma toon leiba."
+    },
+    {
+     "word": "bringen",
+     "meaning": "kellelegi tooma",
+     "example": "Bring mir bitte Wasser. = Too mulle palun vett."
+    },
+    {
+     "word": "nehmen",
+     "meaning": "võtma",
+     "example": "Nimm die Tasche. = Võta kott."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "holen rõhutab minemist millegi järele; bringen rõhutab kellelegi toomist."
+     }
+    ]
+   },
+   "important": {
+    "text": "abholen on inimeste puhul väga sage: Kinder abholen = lapsi ära tooma."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "hole",
+        "ab"
+       ],
+       "green": [
+        "Kinder",
+        "Schule"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "toon ära"
+       ],
+       "green": [
+        "lapsed",
+        "koolist"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "holen"
+       ],
+       "yellow": [
+        "Brot"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "tuua"
+       ],
+       "yellow": [
+        "leiba"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "holen"
+       ],
+       "green": [
+        "Arzt"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kutsume"
+       ],
+       "green": [
+        "arsti"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "holen",
+      "abholen"
+     ],
+     "purple": [
+      "tooma",
+      "vedama",
+      "kaasa võtma"
+     ],
+     "yellow": [
+      "millegi"
+     ],
+     "green": [
+      "inimestega"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "holen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "minema järele ja tooma"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "bringen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "kellelegi tooma"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "nehmen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "võtma"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "minemist millegi järele",
+      "kellelegi toomist"
+     ]
+    },
+    "important": {
+     "purple": [
+      "lapsi ära tooma"
+     ]
+    }
+   }
+  }
+ },
+ "b1-homosexuelle": {
+  "de": "Homosexuelle",
+  "de_article": "der",
+  "de_plural": "die Homosexuellen",
+  "lv": "homoseksuaal",
+  "level": "B1",
+  "study": {
+   "id": "b1-homosexuelle",
+   "layout": "minimalStudy",
+   "translation": "homoseksuaal",
+   "accent": "blue",
+   "variants": [
+    {
+     "article": "der",
+     "de": "Homosexuelle",
+     "plural": "die Homosexuellen"
+    },
+    {
+     "article": "die",
+     "de": "Homosexuelle"
+    }
+   ]
+  }
+ },
+ "b1-horchen": {
+  "de": "horchen",
+  "lv": "kuulatlema",
+  "level": "B1",
+  "study": {
+   "id": "b1-horchen",
+   "layout": "standardStudy",
+   "translation": "kuulatlema",
+   "explanation": "Põhiidee: horchen tähendab tähelepanelikult kuulatlemist, sageli et midagi kuulda. See võib tähendada ka salaja pealt kuulamist.",
+   "examples": [
+    {
+     "de": "Sie horcht an der Tür.",
+     "lv": "ta kuulatleb ukse taga."
+    },
+    {
+     "de": "Die Kinder horchen auf die Geräusche.",
+     "lv": "lapsed kuulatlevad tähelepanelikult hääli."
+    },
+    {
+     "de": "Er horcht heimlich mit.",
+     "lv": "ta kuulab salaja pealt."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "horchen",
+     "meaning": "tähelepanelikult kuulatlema",
+     "example": "Sie horcht an der Tür. = Ta kuulatleb ukse taga."
+    },
+    {
+     "word": "hören",
+     "meaning": "kuulma / kuulama",
+     "example": "Ich höre Musik. = Ma kuulan muusikat."
+    },
+    {
+     "word": "zuhören",
+     "meaning": "kedagi kuulama",
+     "example": "Hör mir bitte zu. = Palun kuula mind."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "horchen = eriti tähelepanelikult kuulatlema, sageli pinevusega või salaja."
+     }
+    ]
+   },
+   "important": {
+    "text": "hören on laiem ja neutraalsem; horchen rõhutab aktiivset kuulatlemist."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "horcht"
+       ],
+       "yellow": [
+        "Tür"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kuulatleb"
+       ],
+       "yellow": [
+        "ukse taga"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "horchen"
+       ],
+       "green": [
+        "Kinder"
+       ],
+       "yellow": [
+        "Geräusche"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kuulatlevad"
+       ],
+       "green": [
+        "Lapsed"
+       ],
+       "yellow": [
+        "hääli"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "horcht",
+        "mit"
+       ],
+       "red": [
+        "heimlich"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kuulab pealt"
+       ],
+       "red": [
+        "salaja"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "horchen"
+     ],
+     "purple": [
+      "kuulatlemist",
+      "pealt kuulamist"
+     ],
+     "red": [
+      "salaja"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "horchen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "tähelepanelikult kuulatlema"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "hören"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "kuulma / kuulama"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "zuhören"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "kedagi kuulama"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "salaja"
+     ]
+    },
+    "important": {
+     "purple": [
+      "aktiivset kuulatlemist"
+     ]
+    }
+   }
+  }
+ },
+ "b1-hort": {
+  "de": "Hort",
+  "de_article": "der",
+  "de_plural": "die Horte",
+  "lv": "pikapäevarühm • laste päevakeskus",
+  "level": "B1",
+  "study": {
+   "id": "b1-hort",
+   "layout": "standardStudy",
+   "translation": "pikapäevarühm • laste päevakeskus",
+   "explanation": [
+    "Põhiidee: der Hort (ka Schulhort/Kinderhort) on koolieas laste koolijärgse hoiu asutus.",
+    "Saksamaal hoiab der Hort lapsi pärast koolitunde, kui vanemad on tööl.",
+    "Ära aja segi der Kindergarten'iga — see on koolieelses eas laste (kuni 6 aastat) asutus.",
+    "Eesti keeles on lähim vaste pikapäevarühm või laste päevakeskus."
+   ],
+   "examples": [
+    {
+     "de": "Mein Sohn geht nach der Schule in den Hort.",
+     "lv": "mu poeg läheb pärast kooli pikapäevarühma."
+    },
+    {
+     "de": "Der Hort schließt um 17 Uhr.",
+     "lv": "laste päevakeskus suletakse kell 17."
+    },
+    {
+     "de": "Im Hort machen die Kinder ihre Hausaufgaben.",
+     "lv": "pikapäevarühmas teevad lapsed kodutöid."
+    },
+    {
+     "de": "Meine Tochter ist noch im Kindergarten.",
+     "lv": "mu tütar on veel lasteaias."
+    },
+    {
+     "de": "Der Hort betreut Schulkinder am Nachmittag.",
+     "lv": "laste päevakeskus hoiab koolilapsi pärastlõunal."
+    }
+   ],
+   "tip": [
+    "der Hort = koolieas lastele (pärast kooli).",
+    "der Kindergarten = koolieelses eas lastele (enne kooli)."
+   ],
+   "important": [
+    "der Hort ≠ lasteaed (Kindergarten) — erinevad vanuserühmad.",
+    "der Hort = pikapäevarühm/laste päevakeskus (koolijärgne hoid)."
+   ],
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "der Hort"
+     ],
+     "purple": [
+      "pikapäevarühm",
+      "laste päevakeskus"
+     ],
+     "red": [
+      "der Kindergarten"
+     ]
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Hort"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "pikapäevarühma"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Hort"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "Laste päevakeskus"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Hort"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "Pikapäevarühmas"
+       ]
+      }
+     },
+     {
+      "de": {
+       "red": [
+        "Kindergarten"
+       ]
+      },
+      "lv": {
+       "red": [
+        "lasteaias"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Hort"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "Laste päevakeskus"
+       ]
+      }
+     }
+    ],
+    "tip": [
+     {
+      "blue": [
+       "der Hort"
+      ]
+     },
+     {
+      "red": [
+       "der Kindergarten"
+      ]
+     }
+    ],
+    "important": [
+     {
+      "blue": [
+       "der Hort"
+      ],
+      "red": [
+       "Kindergarten"
+      ]
+     },
+     {
+      "purple": [
+       "pikapäevarühm",
+       "laste päevakeskus"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "b1-hupe": {
+  "de": "Hupe",
+  "de_article": "die",
+  "de_plural": "die Hupen",
+  "lv": "signaalpasun • pasun",
+  "level": "B1",
+  "study": {
+   "id": "b1-hupe",
+   "layout": "standardStudy",
+   "translation": "signaalpasun • pasun",
+   "explanation": "Põhiidee: die Hupe on auto signaalpasun või laeva pasun. Sellega hoiatatakse teisi liikluses. Mitmus: die Hupen.",
+   "examples": [
+    {
+     "de": "Er hupt laut.",
+     "lv": "ta tuutab valjult."
+    },
+    {
+     "de": "Die Hupe des Autos ist kaputt.",
+     "lv": "auto signaalpasun on katki."
+    },
+    {
+     "de": "Das Schiff gibt ein Signal mit der Hupe.",
+     "lv": "laev annab pasunaga signaali."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "die Hupe",
+     "meaning": "signaalpasun • pasun",
+     "example": "Die Hupe ist laut. = Signaalpasun on vali."
+    },
+    {
+     "word": "hupen",
+     "meaning": "tuutama",
+     "example": "Er hupt. = Ta tuutab."
+    },
+    {
+     "word": "das Signal",
+     "meaning": "signaal",
+     "example": "Das Signal ist klar. = Signaal on selge."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Auto kontekstis — signaalpasun. Laeva kontekstis — pasun. Tegusõna: hupen."
+     }
+    ]
+   },
+   "important": {
+    "text": "die Hupe = signaalpasun või pasun. Mitmus: die Hupen."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "die Hupe",
+      "hupen"
+     ],
+     "purple": [
+      "signaalpasun",
+      "pasun"
+     ]
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "hupt"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "tuutab"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Hupe"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "signaalpasun"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Hupe"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "annab signaali"
+       ]
+      }
+     }
+    ]
+   }
+  }
+ },
+ "b1-hüten": {
+  "de": "hüten",
+  "lv": "hoidma",
+  "level": "B1",
+  "study": {
+   "id": "b1-hüten",
+   "layout": "standardStudy",
+   "translation": "hoidma",
+   "explanation": "Põhiidee: hüten tähendab hoidmist, valvamist või karjatamist. Lastega tähendab see hoidmist, loomadega - karjatamist, aga sich hüten tähendab hoiduma.",
+   "examples": [
+    {
+     "de": "Sie hütet die Kinder am Nachmittag.",
+     "lv": "ta hoiab pärastlõunal lapsi."
+    },
+    {
+     "de": "Der Junge hütet die Schafe.",
+     "lv": "poiss karjatab lambaid."
+    },
+    {
+     "de": "Hüte dich vor falschen Versprechen.",
+     "lv": "hoidu valedest lubadustest."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "hüten",
+     "meaning": "hoidma / valvama / karjatama",
+     "example": "Sie hütet die Kinder. = Ta hoiab lapsi."
+    },
+    {
+     "word": "bewachen",
+     "meaning": "valvama",
+     "example": "Der Hund bewacht das Haus. = Koer valvab maja."
+    },
+    {
+     "word": "aufpassen",
+     "meaning": "jälgima / hoidma",
+     "example": "Pass auf die Kinder auf. = Hoia lastel silma peal."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "hüten ühendab sageli hoidmise ja valvamise; sich hüten = hoiduma."
+     }
+    ]
+   },
+   "important": {
+    "text": "sich hüten ei ole lihtsalt „hoidma”, vaid „hoiduma millestki”."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "hütet"
+       ],
+       "green": [
+        "Kinder"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "hoiab"
+       ],
+       "green": [
+        "lapsi"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "hütet"
+       ],
+       "green": [
+        "Junge"
+       ],
+       "yellow": [
+        "Schafe"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "karjatab"
+       ],
+       "green": [
+        "Poiss"
+       ],
+       "yellow": [
+        "lambaid"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Hüte dich"
+       ],
+       "red": [
+        "Versprechen"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "hoidu"
+       ],
+       "red": [
+        "lubadustest"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "hüten",
+      "sich hüten"
+     ],
+     "purple": [
+      "hoidma",
+      "valvama",
+      "karjatama",
+      "hoiduma"
+     ],
+     "green": [
+      "lastega"
+     ],
+     "yellow": [
+      "loomadega"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "hüten"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "hoidma / valvama / karjatama"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "bewachen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "valvama"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "aufpassen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "jälgima / hoidma"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "hoidmise",
+      "valvamise",
+      "hoiduma"
+     ]
+    },
+    "important": {
+     "purple": [
+      "hoiduma millestki"
+     ]
+    }
+   }
+  }
+ },
+ "b1-innerhalb": {
+  "de": "innerhalb",
+  "lv": "sees",
+  "level": "B1",
+  "study": {
+   "id": "b1-innerhalb",
+   "layout": "standardStudy",
+   "translation": "sees",
+   "explanation": "Põhiidee: innerhalb tähendab mingi piiri sees või kindla tähtaja jooksul. See võib olla koha, aja või võimaluste piires.",
+   "examples": [
+    {
+     "de": "Innerhalb der Stadt darf man langsam fahren.",
+     "lv": "linna piires tuleb sõita aeglaselt."
+    },
+    {
+     "de": "Bitte antworten Sie innerhalb einer Woche.",
+     "lv": "palun vastake nädala jooksul."
+    },
+    {
+     "de": "Das liegt innerhalb unserer Möglichkeiten.",
+     "lv": "see on meie võimaluste piires."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "innerhalb",
+     "meaning": "sees / jooksul / piires",
+     "example": "Innerhalb einer Woche. = Nädala jooksul."
+    },
+    {
+     "word": "außerhalb",
+     "meaning": "väljaspool",
+     "example": "Wir wohnen außerhalb der Stadt. = Me elame väljaspool linna."
+    },
+    {
+     "word": "in",
+     "meaning": "sees / järgi",
+     "example": "Ich bin in der Stadt. = Ma olen linnas."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "innerhalb paneb alati mõtlema piirile: linna, nädala või võimaluste piires."
+     }
+    ]
+   },
+   "important": {
+    "text": "Ajalises tähenduses on innerhalb einer Woche „nädala jooksul”, mitte sõna-sõnalt „nädala sees”."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Innerhalb"
+       ],
+       "green": [
+        "Stadt"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "piires"
+       ],
+       "green": [
+        "Linna"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "innerhalb"
+       ],
+       "yellow": [
+        "Woche"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "jooksul"
+       ],
+       "yellow": [
+        "nädala"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "innerhalb"
+       ],
+       "yellow": [
+        "Möglichkeiten"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "piires"
+       ],
+       "yellow": [
+        "võimaluste"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "innerhalb"
+     ],
+     "purple": [
+      "sees",
+      "jooksul",
+      "piires"
+     ],
+     "yellow": [
+      "koha",
+      "aja",
+      "võimaluste"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "innerhalb"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "sees / jooksul / piires"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "außerhalb"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "väljaspool"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "in"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "sees / järgi"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "linna",
+      "nädala",
+      "võimaluste"
+     ]
+    },
+    "important": {
+     "purple": [
+      "nädala sees"
+     ]
+    }
+   }
+  }
  }
 }

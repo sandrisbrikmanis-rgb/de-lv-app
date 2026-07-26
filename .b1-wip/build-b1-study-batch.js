@@ -1,6 +1,16 @@
 const fs = require("fs");
 
 function buildStudy(origStudy, trans) {
+  if (origStudy.layout === "minimalStudy") {
+    const out = { id: origStudy.id, layout: origStudy.layout, translation: trans.lv };
+    if (origStudy.accent !== undefined) out.accent = origStudy.accent;
+    if (origStudy.variants !== undefined) out.variants = origStudy.variants;
+    for (const key of Object.keys(origStudy)) {
+      if (!(key in out)) out[key] = origStudy[key];
+    }
+    return out;
+  }
+
   const out = { id: origStudy.id, layout: origStudy.layout, translation: trans.lv };
 
   if (typeof origStudy.explanation === "string") {
@@ -65,7 +75,9 @@ function buildStudy(origStudy, trans) {
 
   if (origStudy.sectionAccents) {
     const sa = JSON.parse(JSON.stringify(origStudy.sectionAccents));
-    if (Array.isArray(sa.examples)) {
+    if (trans.accentsOverride && trans.accentsOverride.examples) {
+      sa.examples = trans.accentsOverride.examples;
+    } else if (Array.isArray(sa.examples)) {
       sa.examples.forEach((exAcc, i) => {
         if (exAcc.lv) {
           const tex = trans.examples[i];
@@ -84,7 +96,9 @@ function buildStudy(origStudy, trans) {
         }
       });
     }
-    if (Array.isArray(sa.comparison)) {
+    if (trans.accentsOverride && trans.accentsOverride.comparison) {
+      sa.comparison = trans.accentsOverride.comparison;
+    } else if (Array.isArray(sa.comparison)) {
       sa.comparison.forEach((cAcc, i) => {
         if (cAcc.meaning) {
           const colorKey = Object.keys(cAcc.meaning)[0];
