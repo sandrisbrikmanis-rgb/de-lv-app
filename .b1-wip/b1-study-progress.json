@@ -32427,5 +32427,1276 @@
     ]
    }
   }
+ },
+ "b1-objekt": {
+  "de": "Objekt",
+  "de_article": "das",
+  "de_plural": "die Objekte",
+  "lv": "objekt",
+  "level": "B1",
+  "study": {
+   "id": "b1-objekt",
+   "layout": "standardStudy",
+   "translation": "objekt",
+   "explanation": "Põhiidee: das Objekt on objekt, ese või hoone, millest räägitakse. Grammatikas tähendab Objekt sihitist.",
+   "examples": [
+    {
+     "de": "Das Objekt wird verkauft.",
+     "lv": "objekt müüakse."
+    },
+    {
+     "de": "Die Polizei beobachtet das Objekt.",
+     "lv": "politsei jälgib objekti."
+    },
+    {
+     "de": "Im Satz ist das ein Objekt.",
+     "lv": "lauses on see sihitis."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "das Objekt",
+     "meaning": "objekt • grammatikas sihitis",
+     "example": "Das Objekt wird verkauft. = Objekt müüakse."
+    },
+    {
+     "word": "der Gegenstand",
+     "meaning": "ese",
+     "example": "Der Gegenstand liegt auf dem Tisch. = Ese on laual."
+    },
+    {
+     "word": "das Subjekt",
+     "meaning": "lause alus",
+     "example": "Das Subjekt steht oft vorn. = Lause alus on sageli alguses."
+    }
+   ],
+   "tip": "Objekt grammatikas ei ole alus, vaid sihitis.",
+   "important": "Igapäevaselt võib Objekt olla ka hoone või jälgitav sihtmärk; grammatikas on see sihitis.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "das Objekt",
+     "purple": "objekt",
+     "red": "sihitist"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Objekt"
+      },
+      "lv": {
+       "purple": "Objekt"
+      }
+     },
+     {
+      "de": {
+       "blue": "Objekt",
+       "green": "Polizei"
+      },
+      "lv": {
+       "purple": "objekti"
+      }
+     },
+     {
+      "de": {
+       "blue": "Objekt",
+       "yellow": "Satz"
+      },
+      "lv": {
+       "red": "sihitis"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "das Objekt"
+      },
+      "meaning": {
+       "purple": "objekt"
+      },
+      "example": {
+       "blue": "Objekt"
+      }
+     },
+     {
+      "word": {
+       "green": "der Gegenstand"
+      },
+      "meaning": {
+       "purple": "ese"
+      },
+      "example": {
+       "red": "Gegenstand"
+      }
+     },
+     {
+      "word": {
+       "green": "das Subjekt"
+      },
+      "meaning": {
+       "purple": "lause alus"
+      },
+      "example": {
+       "red": "Subjekt"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "Objekt",
+     "red": "alus"
+    },
+    "important": {
+     "blue": "Objekt",
+     "red": "sihitis"
+    }
+   }
+  }
+ },
+ "b1-ohnmacht": {
+  "de": "Ohnmacht",
+  "de_article": "die",
+  "de_plural": "die Ohnmachten",
+  "lv": "teadvusetus",
+  "level": "B1",
+  "study": {
+   "id": "b1-ohnmacht",
+   "layout": "standardStudy",
+   "translation": "teadvusetus",
+   "explanation": "Põhiidee: die Ohnmacht tähendab teadvusetust või minestamist. Ülekantud tähenduses võib see tähendada ka jõuetust.",
+   "examples": [
+    {
+     "de": "Sie fiel plötzlich in Ohnmacht.",
+     "lv": "ta minestas äkki."
+    },
+    {
+     "de": "Nach dem Unfall war er kurz in Ohnmacht.",
+     "lv": "pärast õnnetust oli ta lühikest aega teadvuseta."
+    },
+    {
+     "de": "Er spürte Ohnmacht gegenüber der Situation.",
+     "lv": "ta tundis jõuetust selle olukorra ees."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "die Ohnmacht",
+     "meaning": "teadvusetus • ülekantult jõuetus",
+     "example": "Sie fiel in Ohnmacht. = Ta minestas."
+    },
+    {
+     "word": "die Bewusstlosigkeit",
+     "meaning": "teadvusetus",
+     "example": "Die Bewusstlosigkeit dauerte nur kurz. = Teadvusetus kestis vaid lühikest aega."
+    },
+    {
+     "word": "die Machtlosigkeit",
+     "meaning": "jõuetus",
+     "example": "Er fühlt Machtlosigkeit. = Ta tunneb jõuetust."
+    }
+   ],
+   "tip": "in Ohnmacht fallen = minestama.",
+   "important": "Ohnmacht võib olla füüsiline teadvusetus või tunne, et ei saa midagi mõjutada.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "die Ohnmacht",
+     "purple": "teadvusetust",
+     "red": "jõuetust"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Ohnmacht"
+      },
+      "lv": {
+       "purple": "minestas"
+      }
+     },
+     {
+      "de": {
+       "blue": "Ohnmacht",
+       "yellow": "Unfall"
+      },
+      "lv": {
+       "purple": "teadvuseta"
+      }
+     },
+     {
+      "de": {
+       "blue": "Ohnmacht",
+       "yellow": "Situation"
+      },
+      "lv": {
+       "red": "jõuetust"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "die Ohnmacht"
+      },
+      "meaning": {
+       "purple": "teadvusetus"
+      },
+      "example": {
+       "blue": "Ohnmacht"
+      }
+     },
+     {
+      "word": {
+       "green": "die Bewusstlosigkeit"
+      },
+      "meaning": {
+       "purple": "teadvusetus"
+      },
+      "example": {
+       "red": "Bewusstlosigkeit"
+      }
+     },
+     {
+      "word": {
+       "green": "die Machtlosigkeit"
+      },
+      "meaning": {
+       "purple": "jõuetus"
+      },
+      "example": {
+       "red": "Machtlosigkeit"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "in Ohnmacht fallen",
+     "purple": "minestama"
+    },
+    "important": {
+     "blue": "Ohnmacht",
+     "red": "ei saa midagi mõjutada"
+    }
+   }
+  }
+ },
+ "b1-opfern": {
+  "de": "opfern",
+  "lv": "ohverdama",
+  "level": "B1",
+  "study": {
+   "id": "b1-opfern",
+   "layout": "standardStudy",
+   "translation": "ohverdama",
+   "explanation": "Põhiidee: opfern tähendab millegi olulise ohverdamist mingi eesmärgi nimel. Raha või asjade puhul heategevuses on loomulikum spenden.",
+   "examples": [
+    {
+     "de": "Er opfert viel Zeit für das Projekt.",
+     "lv": "ta ohverdab palju aega projektile."
+    },
+    {
+     "de": "Viele Menschen opfern ihre Freizeit für andere.",
+     "lv": "paljud inimesed ohverdavad oma vaba aja teiste heaks."
+    },
+    {
+     "de": "Sie spendet Geld für einen guten Zweck.",
+     "lv": "ta annetab raha heale eesmärgile."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "opfern",
+     "meaning": "olulist ohverdama",
+     "example": "Er opfert Zeit. = Ta ohverdab aega."
+    },
+    {
+     "word": "spenden",
+     "meaning": "raha või asju annetama",
+     "example": "Sie spendet Geld. = Ta annetab raha."
+    },
+    {
+     "word": "sich einsetzen",
+     "meaning": "seisma, aktiivselt aitama",
+     "example": "Er setzt sich für Kinder ein. = Ta seisab laste eest."
+    }
+   ],
+   "tip": "Kui midagi antakse ära kaotustundega, sobib sageli opfern.",
+   "important": "opfern rõhutab ohvrit; spenden on neutraalsem sõna annetuste jaoks.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "opfern",
+     "purple": "ohverdamist",
+     "red": "spenden"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "opfert",
+       "yellow": "Zeit"
+      },
+      "lv": {
+       "purple": "ohverdab"
+      }
+     },
+     {
+      "de": {
+       "blue": "opfern",
+       "yellow": "Freizeit"
+      },
+      "lv": {
+       "purple": "ohverdavad"
+      }
+     },
+     {
+      "de": {
+       "red": "spendet",
+       "yellow": "Geld"
+      },
+      "lv": {
+       "purple": "annetab"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "opfern"
+      },
+      "meaning": {
+       "purple": "ohverdama"
+      },
+      "example": {
+       "blue": "opfert",
+       "yellow": "Zeit"
+      }
+     },
+     {
+      "word": {
+       "green": "spenden"
+      },
+      "meaning": {
+       "purple": "annetama"
+      },
+      "example": {
+       "red": "spendet",
+       "yellow": "Geld"
+      }
+     },
+     {
+      "word": {
+       "green": "sich einsetzen"
+      },
+      "meaning": {
+       "purple": "seisma"
+      },
+      "example": {
+       "red": "setzt sich",
+       "green": "Kinder"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "opfern",
+     "purple": "antakse ära"
+    },
+    "important": {
+     "blue": "opfern",
+     "red": "spenden"
+    }
+   }
+  }
+ },
+ "b1-orientieren": {
+  "de": "orientieren",
+  "lv": "orienteeruma",
+  "level": "B1",
+  "study": {
+   "id": "b1-orientieren",
+   "layout": "standardStudy",
+   "translation": "orienteeruma",
+   "explanation": "Põhiidee: sich orientieren tähendab orienteerumist kohas või olukorras. orientieren an tähendab millegi järgi juhindumist.",
+   "examples": [
+    {
+     "de": "Ich kann mich in der Stadt gut orientieren.",
+     "lv": "ma orienteerun linnas hästi."
+    },
+    {
+     "de": "Wir orientieren uns an den aktuellen Preisen.",
+     "lv": "me juhindume praegustest hindadest."
+    },
+    {
+     "de": "Die Karte hilft mir, mich zu orientieren.",
+     "lv": "kaart aitab mul orienteeruda."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "sich orientieren",
+     "meaning": "orienteeruma",
+     "example": "Ich orientiere mich in der Stadt. = Ma orienteerun linnas."
+    },
+    {
+     "word": "sich informieren",
+     "meaning": "infot hankima",
+     "example": "Ich informiere mich über den Kurs. = Ma hangin infot kursuse kohta."
+    },
+    {
+     "word": "sich richten nach",
+     "meaning": "millegi järgi juhinduma",
+     "example": "Wir richten uns nach dem Plan. = Me juhindume plaanist."
+    }
+   ],
+   "tip": "Koht või olukord: sich orientieren; eeskuju või hindade järgi: orientieren an.",
+   "important": "orientieren kasutatakse sageli refleksiivselt: ich orientiere mich.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "sich orientieren",
+      "orientieren an"
+     ],
+     "purple": "orienteerumist",
+     "red": "juhindumist"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "orientieren",
+       "green": "Stadt"
+      },
+      "lv": {
+       "purple": "orienteerun"
+      }
+     },
+     {
+      "de": {
+       "blue": "orientieren uns",
+       "yellow": "Preisen"
+      },
+      "lv": {
+       "purple": "juhindume"
+      }
+     },
+     {
+      "de": {
+       "blue": "orientieren",
+       "yellow": "Karte"
+      },
+      "lv": {
+       "purple": "orienteeruda"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "sich orientieren"
+      },
+      "meaning": {
+       "purple": "orienteeruma"
+      },
+      "example": {
+       "blue": "orientiere mich",
+       "green": "Stadt"
+      }
+     },
+     {
+      "word": {
+       "green": "sich informieren"
+      },
+      "meaning": {
+       "purple": "infot hankima"
+      },
+      "example": {
+       "red": "informiere mich",
+       "yellow": "Kurs"
+      }
+     },
+     {
+      "word": {
+       "green": "sich richten nach"
+      },
+      "meaning": {
+       "purple": "millegi järgi juhinduma"
+      },
+      "example": {
+       "red": "richten uns",
+       "yellow": "Plan"
+      }
+     }
+    ],
+    "tip": {
+     "blue": [
+      "sich orientieren",
+      "orientieren an"
+     ],
+     "purple": "juhindumist"
+    },
+    "important": {
+     "blue": "orientiere mich",
+     "red": "refleksiivselt"
+    }
+   }
+  }
+ },
+ "b1-periode": {
+  "de": "Periode",
+  "de_article": "die",
+  "de_plural": "die Perioden",
+  "lv": "periood",
+  "level": "B1",
+  "study": {
+   "id": "b1-periode",
+   "layout": "standardStudy",
+   "translation": "periood",
+   "explanation": "Põhiidee: die Periode tähendab ajaperioodi või tsüklit. Meditsiinis ja igapäevaselt võib see tähendada menstruatsiooni.",
+   "examples": [
+    {
+     "de": "Diese Periode dauerte drei Jahre.",
+     "lv": "see periood kestis kolm aastat."
+    },
+    {
+     "de": "In dieser Periode gab es viele Veränderungen.",
+     "lv": "sel perioodil oli palju muutusi."
+    },
+    {
+     "de": "Sie hat ihre Periode.",
+     "lv": "tal on menstruatsioon."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "die Periode",
+     "meaning": "periood • menstruatsioon",
+     "example": "Diese Periode dauerte drei Jahre. = See periood kestis kolm aastat."
+    },
+    {
+     "word": "der Zeitraum",
+     "meaning": "ajavahemik",
+     "example": "Der Zeitraum ist kurz. = Ajavahemik on lühike."
+    },
+    {
+     "word": "die Regel",
+     "meaning": "menstruatsioon • ka reegel",
+     "example": "Sie hat ihre Regel. = Tal on menstruatsioon."
+    }
+   ],
+   "tip": "Aeg, tsükkel või menstruatsioon: die Periode.",
+   "important": "Meditsiinilises kontekstis tähendab Periode sageli menstruatsiooni, mitte ainult ajavahemikku.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "die Periode",
+     "purple": "periodu",
+     "red": "menstruatsiooni"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Periode",
+       "yellow": "Jahre"
+      },
+      "lv": {
+       "purple": "periood"
+      }
+     },
+     {
+      "de": {
+       "blue": "Periode",
+       "yellow": "Veränderungen"
+      },
+      "lv": {
+       "purple": "perioodil"
+      }
+     },
+     {
+      "de": {
+       "blue": "Periode"
+      },
+      "lv": {
+       "red": "menstruatsioon"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "die Periode"
+      },
+      "meaning": {
+       "purple": "periood"
+      },
+      "example": {
+       "blue": "Periode"
+      }
+     },
+     {
+      "word": {
+       "green": "der Zeitraum"
+      },
+      "meaning": {
+       "purple": "ajavahemik"
+      },
+      "example": {
+       "red": "Zeitraum"
+      }
+     },
+     {
+      "word": {
+       "green": "die Regel"
+      },
+      "meaning": {
+       "purple": "menstruatsioon"
+      },
+      "example": {
+       "red": "Regel"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "die Periode",
+     "purple": "tsükkel"
+    },
+    "important": {
+     "blue": "Periode",
+     "red": "menstruatsiooni"
+    }
+   }
+  }
+ },
+ "b1-pflegen": {
+  "de": "pflegen",
+  "lv": "hooldama",
+  "level": "B1",
+  "study": {
+   "id": "b1-pflegen",
+   "layout": "standardStudy",
+   "translation": "hooldama",
+   "explanation": "Põhiidee: pflegen tähendab inimese, naha, taime või asja hooldamist. Konstruktsioon pflegen zu + infinitiiv tähendab „olema tavaks teha”.",
+   "examples": [
+    {
+     "de": "Sie pflegt ihre Mutter zu Hause.",
+     "lv": "ta hooldab kodus oma ema."
+    },
+    {
+     "de": "Man sollte die Haut regelmäßig pflegen.",
+     "lv": "nahka tuleb regulaarselt hooldada."
+    },
+    {
+     "de": "Er pflegt früh aufzustehen.",
+     "lv": "tal on tavaks vara tõusta."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "pflegen",
+     "meaning": "hooldama • olema tavaks",
+     "example": "Sie pflegt ihre Mutter. = Ta hooldab oma ema."
+    },
+    {
+     "word": "sich kümmern um",
+     "meaning": "hoolitsema",
+     "example": "Er kümmert sich um das Kind. = Ta hoolitseb lapse eest."
+    },
+    {
+     "word": "putzen",
+     "meaning": "puhastama",
+     "example": "Ich putze die Küche. = Ma puhastan kööki."
+    }
+   ],
+   "tip": "Hooldamine on pflegen; hoolitsemine laiemalt on sich kümmern um.",
+   "important": "pflegen zu + infinitiiv on erilaadne, pisut formaalsem konstruktsioon: „olema tavaks teha”.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "pflegen",
+      "pflegen zu"
+     ],
+     "purple": "hooldamist",
+     "red": "olema tavaks"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "pflegt",
+       "green": "Mutter"
+      },
+      "lv": {
+       "purple": "hooldab"
+      }
+     },
+     {
+      "de": {
+       "blue": "pflegen",
+       "yellow": "Haut"
+      },
+      "lv": {
+       "purple": "tuleb hooldada"
+      }
+     },
+     {
+      "de": {
+       "blue": "pflegt",
+       "purple": "aufzustehen"
+      },
+      "lv": {
+       "red": "tavaks"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "pflegen"
+      },
+      "meaning": {
+       "purple": "hooldama"
+      },
+      "example": {
+       "blue": "pflegt",
+       "green": "Mutter"
+      }
+     },
+     {
+      "word": {
+       "green": "sich kümmern um"
+      },
+      "meaning": {
+       "purple": "hoolitsema"
+      },
+      "example": {
+       "red": "kümmert sich",
+       "green": "Kind"
+      }
+     },
+     {
+      "word": {
+       "green": "putzen"
+      },
+      "meaning": {
+       "purple": "puhastama"
+      },
+      "example": {
+       "red": "putze",
+       "yellow": "Küche"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "pflegen",
+     "red": "sich kümmern um"
+    },
+    "important": {
+     "blue": "pflegen zu",
+     "red": "olema tavaks"
+    }
+   }
+  }
+ },
+ "b1-pochen": {
+  "de": "pochen",
+  "lv": "koputama",
+  "level": "B1",
+  "study": {
+   "id": "b1-pochen",
+   "layout": "standardStudy",
+   "translation": "koputama",
+   "explanation": "Põhiidee: pochen tähendab tugevat koputamist või tuksumist. pochen auf tähendab oma õigustele või nõudele rõhumist.",
+   "examples": [
+    {
+     "de": "Jemand pocht laut an die Tür.",
+     "lv": "keegi koputab valjult uksele."
+    },
+    {
+     "de": "Mein Herz pocht schnell.",
+     "lv": "mu süda tuksub kiiresti."
+    },
+    {
+     "de": "Sie pocht auf ihr Recht.",
+     "lv": "ta rõhub oma õigustele."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "pochen",
+     "meaning": "koputama, tuksuma • rõhuma",
+     "example": "Jemand pocht an die Tür. = Keegi koputab uksele."
+    },
+    {
+     "word": "klopfen",
+     "meaning": "koputama",
+     "example": "Er klopft an die Tür. = Ta koputab uksele."
+    },
+    {
+     "word": "bestehen auf",
+     "meaning": "nõudma",
+     "example": "Sie besteht auf einer Antwort. = Ta nõuab vastust."
+    }
+   ],
+   "tip": "Uks või süda pocht; õiguste puhul pocht auf.",
+   "important": "auf etwas pochen tähendab millelegi rõhumist, mitte füüsilist koputamist.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "pochen",
+      "pochen auf"
+     ],
+     "purple": "koputamist",
+     "red": "rõhumist"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "pocht",
+       "yellow": "Tür"
+      },
+      "lv": {
+       "purple": "koputab"
+      }
+     },
+     {
+      "de": {
+       "blue": "pocht",
+       "yellow": "Herz"
+      },
+      "lv": {
+       "purple": "tuksub"
+      }
+     },
+     {
+      "de": {
+       "blue": "pocht",
+       "yellow": "Recht"
+      },
+      "lv": {
+       "red": "rõhub"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "pochen"
+      },
+      "meaning": {
+       "purple": "koputama"
+      },
+      "example": {
+       "blue": "pocht",
+       "yellow": "Tür"
+      }
+     },
+     {
+      "word": {
+       "green": "klopfen"
+      },
+      "meaning": {
+       "purple": "koputama"
+      },
+      "example": {
+       "red": "klopft",
+       "yellow": "Tür"
+      }
+     },
+     {
+      "word": {
+       "green": "bestehen auf"
+      },
+      "meaning": {
+       "purple": "nõudma"
+      },
+      "example": {
+       "red": "besteht auf",
+       "yellow": "Antwort"
+      }
+     }
+    ],
+    "tip": {
+     "blue": [
+      "pocht",
+      "pocht auf"
+     ],
+     "yellow": [
+      "Uks",
+      "süda"
+     ]
+    },
+    "important": {
+     "blue": "pochen",
+     "red": "rõhumist"
+    }
+   }
+  }
+ },
+ "b1-posten": {
+  "de": "Posten",
+  "de_article": "der",
+  "de_plural": "die Posten",
+  "lv": "ametikoht",
+  "level": "B1",
+  "study": {
+   "id": "b1-posten",
+   "layout": "standardStudy",
+   "translation": "ametikoht",
+   "explanation": "Põhiidee: der Posten tähendab sageli ametikohta või positsiooni. Valves või sõjaväes võib see olla postipunkt, eelarves - rida.",
+   "examples": [
+    {
+     "de": "Sie bekam einen neuen Posten im Ministerium.",
+     "lv": "ta sai ministeeriumis uue ametikoha."
+    },
+    {
+     "de": "Der Soldat steht auf seinem Posten.",
+     "lv": "sõdur seisab oma postil."
+    },
+    {
+     "de": "Dieser Posten im Budget ist zu hoch.",
+     "lv": "see eelarverida on liiga suur."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "der Posten",
+     "meaning": "ametikoht, post, rida",
+     "example": "Sie bekam einen neuen Posten. = Ta sai uue ametikoha."
+    },
+    {
+     "word": "die Stelle",
+     "meaning": "töökoht, amet",
+     "example": "Ich suche eine Stelle. = Ma otsin töökohta."
+    },
+    {
+     "word": "die Post",
+     "meaning": "post (postiasutus)",
+     "example": "Die Post ist geschlossen. = Postkontor on suletud."
+    }
+   ],
+   "tip": "Ametikoht või eelarverida: der Posten; postiasutus: die Post.",
+   "important": "der Posten ei ole die Post. Artikkel muudab ka tähendust.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "der Posten",
+     "purple": "ametikohta",
+     "red": "postipunkt"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Posten",
+       "green": "Ministerium"
+      },
+      "lv": {
+       "purple": "ametikoha"
+      }
+     },
+     {
+      "de": {
+       "blue": "Posten",
+       "green": "Soldat"
+      },
+      "lv": {
+       "red": "postil"
+      }
+     },
+     {
+      "de": {
+       "blue": "Posten",
+       "yellow": "Budget"
+      },
+      "lv": {
+       "purple": "eelarverida"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "der Posten"
+      },
+      "meaning": {
+       "purple": "ametikoht"
+      },
+      "example": {
+       "blue": "Posten"
+      }
+     },
+     {
+      "word": {
+       "green": "die Stelle"
+      },
+      "meaning": {
+       "purple": "töökoht"
+      },
+      "example": {
+       "red": "Stelle"
+      }
+     },
+     {
+      "word": {
+       "green": "die Post"
+      },
+      "meaning": {
+       "purple": "post"
+      },
+      "example": {
+       "red": "Post"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "der Posten",
+     "red": "die Post"
+    },
+    "important": {
+     "blue": "der Posten",
+     "red": "die Post"
+    }
+   }
+  }
+ },
+ "b1-probe": {
+  "de": "Probe",
+  "de_article": "die",
+  "de_plural": "die Proben",
+  "lv": "proov",
+  "level": "B1",
+  "study": {
+   "id": "b1-probe",
+   "layout": "standardStudy",
+   "translation": "proov",
+   "explanation": "Põhiidee: die Probe tähendab kontrolli, proovi (näidist) või (kunstilist) proovi. Tähenduse määrab olukord.",
+   "examples": [
+    {
+     "de": "Die Probe war erfolgreich.",
+     "lv": "proov oli edukas."
+    },
+    {
+     "de": "Der Arzt nimmt eine Probe vom Blut.",
+     "lv": "arst võtab vereproovi."
+    },
+    {
+     "de": "Die Probe für das Konzert beginnt um sechs.",
+     "lv": "kontserdi proov algab kell kuus."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "die Probe",
+     "meaning": "kontroll, proov (näidis) või proov (harjutus)",
+     "example": "Die Probe beginnt um sechs. = Proov algab kell kuus."
+    },
+    {
+     "word": "die Prüfung",
+     "meaning": "eksam või kontrolltöö",
+     "example": "Die Prüfung ist schwer. = Eksam on raske."
+    },
+    {
+     "word": "das Muster",
+     "meaning": "näidis, mudel",
+     "example": "Das Muster ist kostenlos. = Näidis on tasuta."
+    }
+   ],
+   "tip": "Labor, test või kontsert - kõikjal võib olla die Probe.",
+   "important": "Kooli eksami jaoks kasutatakse tavaliselt die Prüfung, mitte die Probe.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "die Probe",
+     "purple": "kontrolli",
+     "red": "proovi"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Probe"
+      },
+      "lv": {
+       "purple": "Proov"
+      }
+     },
+     {
+      "de": {
+       "blue": "Probe",
+       "yellow": "Blut"
+      },
+      "lv": {
+       "purple": "vereproovi"
+      }
+     },
+     {
+      "de": {
+       "blue": "Probe",
+       "yellow": "Konzert"
+      },
+      "lv": {
+       "red": "proov"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "die Probe"
+      },
+      "meaning": {
+       "purple": "kontroll"
+      },
+      "example": {
+       "blue": "Probe"
+      }
+     },
+     {
+      "word": {
+       "green": "die Prüfung"
+      },
+      "meaning": {
+       "purple": "eksam"
+      },
+      "example": {
+       "red": "Prüfung"
+      }
+     },
+     {
+      "word": {
+       "green": "das Muster"
+      },
+      "meaning": {
+       "purple": "näidis"
+      },
+      "example": {
+       "red": "Muster"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "die Probe",
+     "yellow": [
+      "Labor",
+      "kontsert"
+     ]
+    },
+    "important": {
+     "blue": "die Probe",
+     "red": "die Prüfung"
+    }
+   }
+  }
+ },
+ "b1-rang": {
+  "de": "Rang",
+  "de_article": "der",
+  "de_plural": "die Ränge",
+  "lv": "auaste",
+  "level": "B1",
+  "study": {
+   "id": "b1-rang",
+   "layout": "standardStudy",
+   "translation": "auaste",
+   "explanation": "Põhiidee: der Rang tähendab auastet, järku või kohta hierarhias. Teatris võib see tähendada rõdu taset.",
+   "examples": [
+    {
+     "de": "Er hat einen hohen Rang in der Armee.",
+     "lv": "tal on sõjaväes kõrge auaste."
+    },
+    {
+     "de": "Diese Frage hat hohen Rang.",
+     "lv": "sellel küsimusel on suur tähtsus."
+    },
+    {
+     "de": "Unsere Plätze sind im ersten Rang.",
+     "lv": "meie kohad on esimesel rõdul."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "der Rang",
+     "meaning": "auaste, järk, koht hierarhias",
+     "example": "Er hat einen hohen Rang. = Tal on kõrge auaste."
+    },
+    {
+     "word": "die Reihe",
+     "meaning": "rida",
+     "example": "Wir sitzen in der dritten Reihe. = Me istume kolmandas reas."
+    },
+    {
+     "word": "der Balkon",
+     "meaning": "rõdu",
+     "example": "Der Balkon ist voll. = Rõdu on täis."
+    }
+   ],
+   "tip": "Hierarhia, tähtsus või teatri rõdu: der Rang.",
+   "important": "Teatris võib Rang olla rõdu tase, mitte teenistusaste.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "der Rang",
+     "purple": "auastet",
+     "red": "Teatris"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Rang",
+       "green": "Armee"
+      },
+      "lv": {
+       "purple": "auaste"
+      }
+     },
+     {
+      "de": {
+       "blue": "Rang",
+       "yellow": "Frage"
+      },
+      "lv": {
+       "purple": "tähtsus"
+      }
+     },
+     {
+      "de": {
+       "blue": "Rang",
+       "yellow": "Plätze"
+      },
+      "lv": {
+       "red": "rõdul"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "der Rang"
+      },
+      "meaning": {
+       "purple": "auaste"
+      },
+      "example": {
+       "blue": "Rang"
+      }
+     },
+     {
+      "word": {
+       "green": "die Reihe"
+      },
+      "meaning": {
+       "purple": "rida"
+      },
+      "example": {
+       "red": "Reihe"
+      }
+     },
+     {
+      "word": {
+       "green": "der Balkon"
+      },
+      "meaning": {
+       "purple": "rõdu"
+      },
+      "example": {
+       "red": "Balkon"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "der Rang",
+     "purple": "Hierarhia"
+    },
+    "important": {
+     "blue": "Rang",
+     "red": "Teatris"
+    }
+   }
+  }
  }
 }
