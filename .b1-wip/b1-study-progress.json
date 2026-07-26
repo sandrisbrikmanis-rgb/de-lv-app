@@ -27005,5 +27005,1404 @@
     }
    }
   }
+ },
+ "b1-knapp": {
+  "de": "knapp",
+  "lv": "napp",
+  "level": "B1",
+  "study": {
+   "id": "b1-knapp",
+   "layout": "standardStudy",
+   "translation": "napp",
+   "explanation": "Põhiidee: knapp tähendab, et millestki on vähe või seda jätkub napilt. See puudutab sageli aega, raha, kohta või väikest ülekaalu.",
+   "examples": [
+    {
+     "de": "Die Zeit ist knapp.",
+     "lv": "aega on napilt."
+    },
+    {
+     "de": "Das Geld wird knapp.",
+     "lv": "raha hakkab nappima."
+    },
+    {
+     "de": "Er hat knapp gewonnen.",
+     "lv": "ta võitis napilt."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "knapp",
+     "meaning": "napilt / vaevu / väikese varuga",
+     "example": "Die Zeit ist knapp. = Aega on napilt."
+    },
+    {
+     "word": "eng",
+     "meaning": "kitsas / tihe",
+     "example": "Der Raum ist eng. = Ruum on kitsas."
+    },
+    {
+     "word": "kurz",
+     "meaning": "lühike",
+     "example": "Die Antwort ist kurz. = Vastus on lühike."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "knapp tähendab: jätkub, aga peaaegu ei jätku."
+     }
+    ]
+   },
+   "important": {
+    "text": "knapp ei ole klein. See räägib väikesest varust, puudusest või väga väikesest ülekaalust."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "knapp"
+       ],
+       "yellow": [
+        "Zeit"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "napilt"
+       ],
+       "yellow": [
+        "Aega"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "knapp"
+       ],
+       "yellow": [
+        "Geld"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "nappima"
+       ],
+       "yellow": [
+        "Raha"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "knapp"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "võitis napilt"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "knapp"
+     ],
+     "purple": [
+      "napilt",
+      "vaevu",
+      "väikest ülekaalu"
+     ],
+     "yellow": [
+      "aega",
+      "raha",
+      "kohta"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "knapp"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "napilt / vaevu / väikese varuga"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "eng"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "kitsas / tihe"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "kurz"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "lühike"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "peaaegu ei jätku"
+     ]
+    },
+    "important": {
+     "purple": [
+      "väikest varu",
+      "puudust",
+      "väga väikest ülekaalu"
+     ]
+    }
+   }
+  }
+ },
+ "b1-kommando": {
+  "de": "Kommando",
+  "de_article": "das",
+  "de_plural": "die Kommandos",
+  "lv": "käsklus",
+  "level": "B1",
+  "study": {
+   "id": "b1-kommando",
+   "layout": "standardStudy",
+   "translation": "käsklus",
+   "explanation": "Põhiidee: das Kommando on käsklus või korraldus, eriti sõjaväelises, spordi- või organiseeritud olukorras. See võib tähendada ka juhtimisüksust.",
+   "examples": [
+    {
+     "de": "Der Soldat wartet auf das Kommando.",
+     "lv": "sõdur ootab käsklust."
+    },
+    {
+     "de": "Auf mein Kommando laufen alle los.",
+     "lv": "minu käskluse peale hakkavad kõik jooksma."
+    },
+    {
+     "de": "Das Kommando übernimmt die Leitung.",
+     "lv": "juhtimisüksus võtab juhtimise üle."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "das Kommando",
+     "meaning": "käsklus / komando",
+     "example": "Warte auf mein Kommando. = Oota minu käsklust."
+    },
+    {
+     "word": "der Befehl",
+     "meaning": "käsklus",
+     "example": "Der Befehl kam vom Chef. = Käsklus tuli ülemuselt."
+    },
+    {
+     "word": "die Mannschaft",
+     "meaning": "meeskond spordis",
+     "example": "Die Mannschaft spielt gut. = Meeskond mängib hästi."
+    }
+   ],
+   "tip": "Käsklus, mille peale kõik tegutsevad korraga → das Kommando.",
+   "important": "Spordimeeskond on tavaliselt die Mannschaft või das Team, mitte das Kommando.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "das Kommando",
+     "purple": [
+      "käsklus",
+      "komando"
+     ],
+     "green": [
+      "sõjaväelises",
+      "spordi"
+     ]
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Kommando",
+       "green": "Soldat"
+      },
+      "lv": {
+       "purple": "käsklust",
+       "green": "Sõdur"
+      }
+     },
+     {
+      "de": {
+       "blue": "Kommando"
+      },
+      "lv": {
+       "purple": "käskluse"
+      }
+     },
+     {
+      "de": {
+       "blue": "Kommando",
+       "yellow": "Leitung"
+      },
+      "lv": {
+       "purple": "Juhtimisüksus",
+       "yellow": "juhtimise"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "das Kommando"
+      },
+      "meaning": {
+       "purple": "käsklus"
+      },
+      "example": {
+       "blue": "Kommando",
+       "purple": "käsklust"
+      }
+     },
+     {
+      "word": {
+       "green": "der Befehl"
+      },
+      "meaning": {
+       "purple": "käsklus"
+      },
+      "example": {
+       "red": "Befehl",
+       "purple": "Käsklus"
+      }
+     },
+     {
+      "word": {
+       "green": "die Mannschaft"
+      },
+      "meaning": {
+       "purple": "meeskond spordis"
+      },
+      "example": {
+       "red": "Mannschaft",
+       "purple": "Meeskond"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "das Kommando",
+     "purple": "Käsklus"
+    },
+    "important": {
+     "red": [
+      "die Mannschaft",
+      "das Team"
+     ],
+     "blue": "das Kommando",
+     "purple": "Spordimeeskond"
+    }
+   }
+  }
+ },
+ "b1-koennen-study": {
+  "de": "Können",
+  "de_article": "das",
+  "lv": "oskus",
+  "level": "B1",
+  "study": {
+   "id": "b1-koennen-study",
+   "layout": "standardStudy",
+   "translation": "oskus",
+   "explanation": [
+    "Põhiidee: das Können suure tähega ja artikliga das on nimisõna — oskus, võimed, meisterlikkus.",
+    "können väikese tähega on modaalverb — võima/oskama.",
+    "das Können't kasutatakse sageli, rääkides kellegi oskustest tervikuna (sein Können unter Beweis stellen = tõestada oma meisterlikkust).",
+    "Substantiveerimine: tegusõna + suur täht = nimisõna (können → das Können)."
+   ],
+   "examples": [
+    {
+     "de": "Sein Können ist beeindruckend.",
+     "lv": "tema oskus on muljetavaldav."
+    },
+    {
+     "de": "Sie zeigte ihr ganzes Können.",
+     "lv": "ta näitas kogu oma meisterlikkust."
+    },
+    {
+     "de": "Ich kann gut kochen.",
+     "lv": "ma oskan hästi süüa teha."
+    },
+    {
+     "de": "Das Können der Musiker war großartig.",
+     "lv": "muusikute oskus oli suurepärane."
+    }
+   ],
+   "tip": [
+    "das Können suure tähega — nimisõna (oskus, meisterlikkus).",
+    "können väikese tähega — tegusõna (võima/oskama)."
+   ],
+   "important": [
+    "das Können = oskus/meisterlikkus (nimisõna).",
+    "können = võima/oskama (modaalverb).",
+    "Paljud saksa tegusõnad võivad muutuda nimisõnaks suure tähega: können → das Können."
+   ],
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "das Können"
+     ],
+     "purple": [
+      "oskus",
+      "meisterlikkus"
+     ],
+     "green": [
+      "können"
+     ]
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Können"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "oskus"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Können"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "meisterlikkust"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "kann"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "oskan"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Können"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "oskus"
+       ]
+      }
+     }
+    ],
+    "tip": [
+     {
+      "blue": [
+       "das Können"
+      ]
+     },
+     {
+      "green": [
+       "können"
+      ]
+     }
+    ],
+    "important": [
+     {
+      "blue": [
+       "das Können"
+      ]
+     },
+     {
+      "green": [
+       "können"
+      ]
+     },
+     {
+      "blue": [
+       "das Können"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "b1-kraftwerk": {
+  "de": "Kraftwerk",
+  "de_article": "das",
+  "de_plural": "die Kraftwerke",
+  "lv": "elektrijaam",
+  "level": "B1",
+  "study": {
+   "id": "b1-kraftwerk",
+   "layout": "standardStudy",
+   "translation": "elektrijaam",
+   "explanation": "Põhiidee: das Kraftwerk on elektrijaam — tehas, mis toodab elektrienergiat. Sõna ei ole vananenud; see on aktuaalne ja sageli kasutusel meedias, poliitikas ja igapäevaelus. Mitmus: die Kraftwerke.",
+   "examples": [
+    {
+     "de": "Das Kraftwerk produziert Strom.",
+     "lv": "elektrijaam toodab elektrit."
+    },
+    {
+     "de": "Das Atomkraftwerk wurde stillgelegt.",
+     "lv": "tuumaelektrijaam suleti."
+    },
+    {
+     "de": "Neue Kraftwerke nutzen erneuerbare Energie.",
+     "lv": "uued elektrijaamad kasutavad taastuvenergiat."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "das Kraftwerk",
+     "meaning": "elektrijaam",
+     "example": "Das Kraftwerk ist groß. = Elektrijaam on suur."
+    },
+    {
+     "word": "das Atomkraftwerk",
+     "meaning": "tuumaelektrijaam",
+     "example": "Das Atomkraftwerk ist umstritten. = Tuumaelektrijaam on vastuoluline."
+    },
+    {
+     "word": "die Fabrik",
+     "meaning": "tehas",
+     "example": "Die Fabrik produziert Autos. = Tehas toodab autosid."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Kraft = jõud, Werk = töö/tehas. Liitsõna tähendab energiatootmise seadmete kogumit."
+     }
+    ]
+   },
+   "important": {
+    "text": "das Kraftwerk = elektrijaam (aktiivselt kasutatav sõna). Mitmus: die Kraftwerke."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "das Kraftwerk",
+      "Kraftwerke"
+     ],
+     "purple": [
+      "elektrijaam",
+      "elektrijaamad"
+     ]
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Kraftwerk"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "Elektrijaam"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Atomkraftwerk"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "Tuumaelektrijaam"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Kraftwerke"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "elektrijaamad"
+       ]
+      }
+     }
+    ]
+   }
+  }
+ },
+ "b1-kreuzen": {
+  "de": "kreuzen",
+  "lv": "ületama",
+  "level": "B1",
+  "study": {
+   "id": "b1-kreuzen",
+   "layout": "standardStudy",
+   "translation": "ületama",
+   "explanation": "Põhiidee: kreuzen tähendab ületamist või ristumist. Teed, jooned või marsruudid võivad sich kreuzen - ristuda.",
+   "examples": [
+    {
+     "de": "Wir kreuzen die Straße.",
+     "lv": "me ületame tänavat."
+    },
+    {
+     "de": "Die Wege kreuzen sich hier.",
+     "lv": "teed ristuvad siin."
+    },
+    {
+     "de": "Kreuze bitte die richtige Antwort an.",
+     "lv": "märgi, palun, õige vastus ristiga."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "kreuzen",
+     "meaning": "ületama / ristama",
+     "example": "Die Wege kreuzen sich. = Teed ristuvad."
+    },
+    {
+     "word": "überqueren",
+     "meaning": "ületama",
+     "example": "Wir überqueren die Straße. = Me ületame tänavat."
+    },
+    {
+     "word": "ankreuzen",
+     "meaning": "ristiga märkima",
+     "example": "Kreuzen Sie die Antwort an. = Märkige vastus."
+    }
+   ],
+   "tip": "Kui jooned või teed moodustavad risti, sobib sageli kreuzen.",
+   "important": "Testis vastust tavaliselt ankreuzen, mitte lihtsalt kreuzen.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "kreuzen",
+      "sich kreuzen"
+     ],
+     "purple": [
+      "ületama",
+      "ristuma"
+     ],
+     "yellow": [
+      "Teed",
+      "jooned"
+     ]
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "kreuzen",
+       "yellow": "Straße"
+      },
+      "lv": {
+       "purple": "ületame",
+       "yellow": "tänavat"
+      }
+     },
+     {
+      "de": {
+       "blue": "kreuzen",
+       "yellow": "Wege"
+      },
+      "lv": {
+       "purple": "ristuvad",
+       "yellow": "Teed"
+      }
+     },
+     {
+      "de": {
+       "blue": "Kreuze",
+       "yellow": "Antwort"
+      },
+      "lv": {
+       "purple": "Märgi",
+       "yellow": "vastus"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "kreuzen"
+      },
+      "meaning": {
+       "purple": "ületama"
+      },
+      "example": {
+       "blue": "kreuzen",
+       "purple": "ristuvad"
+      }
+     },
+     {
+      "word": {
+       "green": "überqueren"
+      },
+      "meaning": {
+       "purple": "ületama"
+      },
+      "example": {
+       "red": "überqueren",
+       "purple": "ületame"
+      }
+     },
+     {
+      "word": {
+       "green": "ankreuzen"
+      },
+      "meaning": {
+       "purple": "märkima"
+      },
+      "example": {
+       "red": "Kreuzen",
+       "purple": "Märkige"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "kreuzen",
+     "purple": "risti",
+     "yellow": [
+      "jooned",
+      "teed"
+     ]
+    },
+    "important": {
+     "red": "ankreuzen",
+     "blue": "kreuzen",
+     "purple": "testis"
+    }
+   }
+  }
+ },
+ "b1-kunde-2": {
+  "de": "Kunde",
+  "de_article": "der",
+  "de_plural": "die Kunden",
+  "lv": "klients",
+  "level": "B1",
+  "study": {
+   "id": "b1-kunde-2",
+   "layout": "standardStudy",
+   "translation": "klients",
+   "explanation": "Põhiidee: der Kunde tähendab klienti või ostjat. Vanemas või kirjanduslikus keeles võib die Kunde tähendada sõnumit või teadet.",
+   "examples": [
+    {
+     "de": "Der Kunde bezahlt an der Kasse.",
+     "lv": "klients maksab kassas."
+    },
+    {
+     "de": "Unsere Kunden sind zufrieden.",
+     "lv": "meie kliendid on rahul."
+    },
+    {
+     "de": "Die Kunde verbreitete sich schnell.",
+     "lv": "sõnum levis kiiresti."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "der Kunde",
+     "meaning": "klient",
+     "example": "Der Kunde wartet. = Klient ootab."
+    },
+    {
+     "word": "die Kundin",
+     "meaning": "naisklient",
+     "example": "Die Kundin fragt nach dem Preis. = Klient küsib hinda."
+    },
+    {
+     "word": "die Kunde",
+     "meaning": "sõnum",
+     "example": "Die Kunde kam spät. = Sõnum saabus hilja."
+    }
+   ],
+   "tip": "Poes või teeninduses peaaegu alati: der Kunde = klient.",
+   "important": "Artikkel muudab tähendust: der Kunde on inimene, die Kunde on sõnum.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "der Kunde",
+      "die Kunde"
+     ],
+     "purple": [
+      "klient",
+      "sõnum"
+     ]
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Kunde",
+       "green": "Kasse"
+      },
+      "lv": {
+       "purple": "Klient",
+       "green": "kassas"
+      }
+     },
+     {
+      "de": {
+       "blue": "Kunden"
+      },
+      "lv": {
+       "purple": "kliendid"
+      }
+     },
+     {
+      "de": {
+       "blue": "Kunde"
+      },
+      "lv": {
+       "purple": "Sõnum"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "der Kunde"
+      },
+      "meaning": {
+       "purple": "klient"
+      },
+      "example": {
+       "blue": "Kunde",
+       "purple": "Klient"
+      }
+     },
+     {
+      "word": {
+       "green": "die Kundin"
+      },
+      "meaning": {
+       "purple": "naisklient"
+      },
+      "example": {
+       "red": "Kundin",
+       "purple": "Klient"
+      }
+     },
+     {
+      "word": {
+       "green": "die Kunde"
+      },
+      "meaning": {
+       "purple": "sõnum"
+      },
+      "example": {
+       "red": "Kunde",
+       "purple": "Sõnum"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "der Kunde",
+     "purple": "klient",
+     "green": [
+      "Poes",
+      "teeninduses"
+     ]
+    },
+    "important": {
+     "red": "Artikkel",
+     "blue": [
+      "der Kunde",
+      "die Kunde"
+     ],
+     "purple": [
+      "inimene",
+      "sõnum"
+     ]
+    }
+   }
+  }
+ },
+ "b1-kunde": {
+  "de": "Kunde",
+  "de_article": "die",
+  "lv": "sõnum",
+  "level": "B1",
+  "study": {
+   "id": "b1-kunde",
+   "layout": "standardStudy",
+   "translation": "sõnum",
+   "explanation": "Põhiidee: die Kunde on sõnum või teade. Seevastu der Kunde tähendab klienti või ostjat.",
+   "examples": [
+    {
+     "de": "Die Kunde verbreitete sich schnell.",
+     "lv": "sõnum levis kiiresti."
+    },
+    {
+     "de": "Die Kunde kam aus dem Norden.",
+     "lv": "teade tuli põhjast."
+    },
+    {
+     "de": "Der Kunde bezahlt an der Kasse.",
+     "lv": "klient maksab kassas."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "die Kunde",
+     "meaning": "sõnum • teade",
+     "example": "Die Kunde kam spät. = Sõnum saabus hilja."
+    },
+    {
+     "word": "der Kunde",
+     "meaning": "klient",
+     "example": "Der Kunde wartet. = Klient ootab."
+    },
+    {
+     "word": "die Nachricht",
+     "meaning": "teade",
+     "example": "Ich habe eine Nachricht bekommen. = Ma sain teate."
+    }
+   ],
+   "tip": "Artikkel muudab tähendust: die Kunde = sõnum, der Kunde = klient.",
+   "important": "Selle kaardi puhul peab jääma 'sõnum', sest klient on der Kunde teise artikliga.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "die Kunde",
+      "der Kunde"
+     ],
+     "purple": [
+      "sõnum",
+      "klient"
+     ],
+     "red": "Seevastu"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Kunde"
+      },
+      "lv": {
+       "purple": "Sõnum"
+      }
+     },
+     {
+      "de": {
+       "blue": "Kunde",
+       "green": "Norden"
+      },
+      "lv": {
+       "purple": "Teade",
+       "green": "põhjast"
+      }
+     },
+     {
+      "de": {
+       "red": "Kunde",
+       "green": "Kasse"
+      },
+      "lv": {
+       "purple": "Klient",
+       "green": "kassas"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "die Kunde"
+      },
+      "meaning": {
+       "purple": "sõnum"
+      },
+      "example": {
+       "blue": "Kunde",
+       "purple": "Sõnum"
+      }
+     },
+     {
+      "word": {
+       "green": "der Kunde"
+      },
+      "meaning": {
+       "purple": "klient"
+      },
+      "example": {
+       "red": "Kunde",
+       "purple": "Klient"
+      }
+     },
+     {
+      "word": {
+       "green": "die Nachricht"
+      },
+      "meaning": {
+       "purple": "teade"
+      },
+      "example": {
+       "red": "Nachricht",
+       "purple": "teate"
+      }
+     }
+    ],
+    "tip": {
+     "blue": [
+      "die Kunde",
+      "der Kunde"
+     ],
+     "purple": [
+      "sõnum",
+      "klient"
+     ],
+     "red": "Artikkel"
+    },
+    "important": {
+     "purple": "sõnum",
+     "red": "der Kunde"
+    }
+   }
+  }
+ },
+ "b1-kündigen": {
+  "de": "kündigen",
+  "lv": "üles ütlema",
+  "level": "B1",
+  "study": {
+   "id": "b1-kündigen",
+   "layout": "standardStudy",
+   "translation": "üles ütlema",
+   "explanation": "Põhiidee: kündigen tähendab ametlikult töösuhte, lepingu või tellimuse lõpetamist.",
+   "examples": [
+    {
+     "de": "Ich habe meinen Job gekündigt.",
+     "lv": "ma ütlesin töö üles."
+    },
+    {
+     "de": "Der Chef kündigt dem Mitarbeiter.",
+     "lv": "ülemus vallandab töötaja."
+    },
+    {
+     "de": "Wir kündigen den Vertrag zum Monatsende.",
+     "lv": "me ütleme lepingu üles kuu lõpus."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "kündigen",
+     "meaning": "üles ütlema",
+     "example": "Ich kündige den Vertrag. = Ma ütlen lepingu üles."
+    },
+    {
+     "word": "entlassen",
+     "meaning": "töölt vallandama",
+     "example": "Die Firma entlässt Mitarbeiter. = Firma vallandab töötajaid."
+    },
+    {
+     "word": "aufhören",
+     "meaning": "lõpetama",
+     "example": "Ich höre mit dem Kurs auf. = Ma lõpetan kursuse."
+    }
+   ],
+   "tip": "Töö, leping või tellimus lõpeb ametlikult → kündigen.",
+   "important": "Kui tööandja vallandab inimese, võib saksa keeles olla jemandem kündigen või entlassen; konstruktsioon on tähtis.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "kündigen",
+     "purple": "ametlikult lõpetamist",
+     "yellow": [
+      "töösuhte",
+      "lepingu",
+      "tellimuse"
+     ]
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "gekündigt",
+       "yellow": "Job"
+      },
+      "lv": {
+       "purple": "ütlesin üles",
+       "yellow": "töö"
+      }
+     },
+     {
+      "de": {
+       "blue": "kündigt",
+       "green": [
+        "Chef",
+        "Mitarbeiter"
+       ]
+      },
+      "lv": {
+       "purple": "vallandab",
+       "green": [
+        "Ülemus",
+        "töötaja"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": "kündigen",
+       "yellow": "Vertrag"
+      },
+      "lv": {
+       "purple": "ütleme üles",
+       "yellow": "lepingu"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "kündigen"
+      },
+      "meaning": {
+       "purple": "üles ütlema"
+      },
+      "example": {
+       "blue": "kündige",
+       "purple": "ütlen üles"
+      }
+     },
+     {
+      "word": {
+       "green": "entlassen"
+      },
+      "meaning": {
+       "purple": "töölt vallandama"
+      },
+      "example": {
+       "red": "entlässt",
+       "purple": "vallandab"
+      }
+     },
+     {
+      "word": {
+       "green": "aufhören"
+      },
+      "meaning": {
+       "purple": "lõpetama"
+      },
+      "example": {
+       "red": "höre",
+       "purple": "lõpetan"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "kündigen",
+     "purple": "ametlikult",
+     "yellow": [
+      "Töö",
+      "leping",
+      "tellimus"
+     ]
+    },
+    "important": {
+     "blue": "kündigen",
+     "red": "entlassen",
+     "purple": "konstruktsioon"
+    }
+   }
+  }
+ },
+ "b1-kuppeln": {
+  "de": "kuppeln",
+  "lv": "ühendama",
+  "level": "B1",
+  "study": {
+   "id": "b1-kuppeln",
+   "layout": "standardStudy",
+   "translation": "ühendama",
+   "explanation": "Põhiidee: kuppeln tähendab kahe osa või sõiduki mehaanilist ühendamist. Tehnilises keeles on see sageli haakimine.",
+   "examples": [
+    {
+     "de": "Die Maschine kuppelt die Wagen zusammen.",
+     "lv": "masin haagib vagunid kokku."
+    },
+    {
+     "de": "Der Fahrer kuppelt den Anhänger an.",
+     "lv": "juht haagib haagise külge."
+    },
+    {
+     "de": "Die beiden Systeme sind gekoppelt.",
+     "lv": "mõlemad süsteemid on ühendatud."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "kuppeln",
+     "meaning": "haakima / ühendama",
+     "example": "Der Fahrer kuppelt den Anhänger an. = Juht haagib haagise külge."
+    },
+    {
+     "word": "verbinden",
+     "meaning": "ühendama",
+     "example": "Das Kabel verbindet die Geräte. = Kaabel ühendab seadmed."
+    },
+    {
+     "word": "anschließen",
+     "meaning": "ühendama (voolu)",
+     "example": "Ich schließe den Drucker an. = Ma ühendan printeri."
+    }
+   ],
+   "tip": "Tehniline või mehaaniline ühendamine → kuppeln.",
+   "important": "kuppeln ei ole üldine 'ühendama' kõikideks juhtudeks; igapäevaselt sobib sagedamini verbinden.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "kuppeln",
+     "purple": "ühendamist",
+     "yellow": [
+      "osa",
+      "sõiduki"
+     ]
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "kuppelt",
+       "yellow": "Wagen"
+      },
+      "lv": {
+       "purple": "haagib kokku",
+       "yellow": "vagunid"
+      }
+     },
+     {
+      "de": {
+       "blue": "kuppelt",
+       "yellow": "Anhänger",
+       "green": "Fahrer"
+      },
+      "lv": {
+       "purple": "haagib külge",
+       "yellow": "haagise",
+       "green": "Juht"
+      }
+     },
+     {
+      "de": {
+       "blue": "gekoppelt",
+       "yellow": "Systeme"
+      },
+      "lv": {
+       "purple": "ühendatud",
+       "yellow": "süsteemid"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "kuppeln"
+      },
+      "meaning": {
+       "purple": "haakima"
+      },
+      "example": {
+       "blue": "kuppelt",
+       "purple": "haagib külge"
+      }
+     },
+     {
+      "word": {
+       "green": "verbinden"
+      },
+      "meaning": {
+       "purple": "ühendama"
+      },
+      "example": {
+       "red": "verbindet",
+       "purple": "ühendab"
+      }
+     },
+     {
+      "word": {
+       "green": "anschließen"
+      },
+      "meaning": {
+       "purple": "ühendama (voolu)"
+      },
+      "example": {
+       "red": "schließe",
+       "purple": "ühendan"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "kuppeln",
+     "purple": "ühendamine",
+     "yellow": "mehaaniline"
+    },
+    "important": {
+     "blue": "kuppeln",
+     "red": "verbinden",
+     "purple": "üldine"
+    }
+   }
+  }
+ },
+ "b1-kurs": {
+  "de": "Kurs",
+  "de_article": "der",
+  "de_plural": "die Kurse",
+  "lv": "kursus",
+  "level": "B1",
+  "study": {
+   "id": "b1-kurs",
+   "layout": "standardStudy",
+   "translation": "kursus",
+   "explanation": "Põhiidee: der Kurs on kursus kui õppetundide kogum või suund. Finantskeeles võib see tähendada ka väärtpaberi kurssi.",
+   "examples": [
+    {
+     "de": "Ich besuche einen Deutschkurs.",
+     "lv": "ma käin saksa keele kursusel."
+    },
+    {
+     "de": "Das Schiff hält Kurs nach Norden.",
+     "lv": "laev hoiab kurssi põhja poole."
+    },
+    {
+     "de": "Der Kurs der Aktie steigt.",
+     "lv": "aktsia kurss tõuseb."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "der Kurs",
+     "meaning": "kursus / suund",
+     "example": "Der Kurs beginnt morgen. = Kursus algab homme."
+    },
+    {
+     "word": "die Richtung",
+     "meaning": "suund",
+     "example": "Die Richtung stimmt. = Suund on õige."
+    },
+    {
+     "word": "der Unterricht",
+     "meaning": "õppetund",
+     "example": "Der Unterricht dauert eine Stunde. = Tund kestab ühe tunni."
+    }
+   ],
+   "tip": "Õpe, laeva suund või börsihind → der Kurs.",
+   "important": "Eesti keeles sobib 'kurss' mitmes tähenduses, aga saksa keeles määrab kontekst, kas jutt on õppest, suunast või hinnast.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "der Kurs",
+     "purple": "kursus",
+     "yellow": [
+      "õppe",
+      "suund",
+      "kurssi"
+     ]
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Deutschkurs"
+      },
+      "lv": {
+       "purple": "kursusel"
+      }
+     },
+     {
+      "de": {
+       "blue": "Kurs",
+       "yellow": "Schiff"
+      },
+      "lv": {
+       "purple": "kurssi",
+       "yellow": "Laev"
+      }
+     },
+     {
+      "de": {
+       "blue": "Kurs",
+       "yellow": "Aktie"
+      },
+      "lv": {
+       "purple": "kurss",
+       "yellow": "Aktsia"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "der Kurs"
+      },
+      "meaning": {
+       "purple": "kursus"
+      },
+      "example": {
+       "blue": "Kurs",
+       "purple": "Kursus"
+      }
+     },
+     {
+      "word": {
+       "green": "die Richtung"
+      },
+      "meaning": {
+       "purple": "suund"
+      },
+      "example": {
+       "red": "Richtung",
+       "purple": "Suund"
+      }
+     },
+     {
+      "word": {
+       "green": "der Unterricht"
+      },
+      "meaning": {
+       "purple": "õppetund"
+      },
+      "example": {
+       "red": "Unterricht",
+       "purple": "Tund"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "der Kurs",
+     "purple": "Õpe",
+     "yellow": [
+      "Õpe",
+      "suund",
+      "hind"
+     ]
+    },
+    "important": {
+     "purple": "kontekst",
+     "yellow": [
+      "õppest",
+      "suunast",
+      "hinnast"
+     ]
+    }
+   }
+  }
  }
 }

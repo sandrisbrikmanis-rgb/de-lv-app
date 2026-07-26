@@ -57,6 +57,8 @@ function buildStudy(origStudy, trans) {
       out.tip = trans.tip;
     } else if (typeof origStudy.tip.text === "string") {
       out.tip = { text: trans.tip };
+    } else if (typeof origStudy.tip === "string") {
+      out.tip = trans.tip;
     } else {
       throw new Error(origStudy.id + ": unexpected tip shape");
     }
@@ -68,6 +70,8 @@ function buildStudy(origStudy, trans) {
       out.important = trans.important;
     } else if (typeof origStudy.important.text === "string") {
       out.important = { text: trans.important };
+    } else if (typeof origStudy.important === "string") {
+      out.important = trans.important;
     } else {
       throw new Error(origStudy.id + ": unexpected important shape");
     }
