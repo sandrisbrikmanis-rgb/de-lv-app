@@ -669,7 +669,7 @@ const C1_WORDS = [
   {
     "de": "Leichtathletik",
     "de_article": "die",
-    "de_plural": "die Leichtathletiken",
+    "de_plural": null,
     "lv": "kergejõustik",
     "level": "C1"
   },
@@ -724,7 +724,7 @@ const C1_WORDS = [
   {
     "de": "Morgengymnastik",
     "de_article": "die",
-    "de_plural": "die Morgengymnastiken",
+    "de_plural": null,
     "lv": "hommikvõimlemine",
     "level": "C1"
   },
@@ -973,7 +973,7 @@ const C1_WORDS = [
   {
     "de": "Schneewittchen",
     "de_article": "das",
-    "de_plural": "die Schneewittchen",
+    "de_plural": null,
     "lv": "muinasjututegelane Lumivalgeke",
     "level": "C1"
   },
@@ -1182,7 +1182,7 @@ const C1_WORDS = [
   {
     "de": "Verkehrsstau",
     "de_article": "der",
-    "de_plural": "die Verkehrsstaue",
+    "de_plural": "die Verkehrsstaus",
     "lv": "liiklusummik",
     "level": "C1"
   },
@@ -2116,7 +2116,7 @@ const C1_WORDS = [
   {
     "de": "Eisenbahnverkehr",
     "de_article": "der",
-    "de_plural": "die Eisenbahnverkehre",
+    "de_plural": null,
     "lv": "raudteeliiklus",
     "level": "C1"
   },
@@ -2311,14 +2311,14 @@ const C1_WORDS = [
   {
     "de": "Friedenspolitik",
     "de_article": "die",
-    "de_plural": "die Friedenspolitiken",
+    "de_plural": null,
     "lv": "rahupoliitika",
     "level": "C1"
   },
   {
-    "de": "Führunternehmen",
+    "de": "Fuhrunternehmen",
     "de_article": "das",
-    "de_plural": "die Führunternehmen",
+    "de_plural": "die Fuhrunternehmen",
     "lv": "veoettevõte",
     "level": "C1"
   },
@@ -3014,7 +3014,7 @@ const C1_WORDS = [
   {
     "de": "Leistungssport",
     "de_article": "der",
-    "lv": "profispordi",
+    "lv": "tippspord",
     "level": "C1"
   },
   {
@@ -3352,7 +3352,7 @@ const C1_WORDS = [
   {
     "de": "Segelflugsport",
     "de_article": "der",
-    "lv": "purilennuspordi",
+    "lv": "purilennusport",
     "level": "C1"
   },
   {
@@ -4257,7 +4257,7 @@ const C1_WORDS = [
           "lv": "ta kavatseb projekti lõpetada."
         },
         {
-          "de": "beabsichtigen + zu + nenoteiksme",
+          "de": "beabsichtigen + zu + Infinitiv",
           "lv": "kavatseda midagi teha."
         }
       ],
@@ -4969,7 +4969,7 @@ const C1_WORDS = [
   {
     "de": "Matsch",
     "de_article": "der",
-    "de_plural": "die Matsche",
+    "de_plural": null,
     "lv": "pori • lörts",
     "level": "C1"
   },
