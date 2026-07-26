@@ -20491,5 +20491,1559 @@
     ]
    }
   }
+ },
+ "b1-gebiet": {
+  "de": "Gebiet",
+  "de_article": "das",
+  "de_plural": "die Gebiete",
+  "lv": "valdkond",
+  "level": "B1",
+  "study": {
+   "id": "b1-gebiet",
+   "layout": "standardStudy",
+   "translation": "valdkond",
+   "explanation": "Põhiidee: das Gebiet tähendab valdkonda või territooriumi. Teadmiste, töö ja teadustöö kontekstis on see valdkond; geograafias on see piirkond või territoorium.",
+   "examples": [
+    {
+     "de": "Sie arbeitet auf diesem Gebiet.",
+     "lv": "ta töötab selles valdkonnas."
+    },
+    {
+     "de": "Das Gebiet ist schwer zugänglich.",
+     "lv": "see territoorium on raskesti ligipääsetav."
+    },
+    {
+     "de": "Auf dem Gebiet der Medizin gibt es neue Regeln.",
+     "lv": "meditsiini valdkonnas on uued reeglid."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "das Gebiet",
+     "meaning": "valdkond / territoorium",
+     "example": "Das ist mein Gebiet. = See on minu valdkond."
+    },
+    {
+     "word": "der Bereich",
+     "meaning": "valdkond / tsoon / osa",
+     "example": "Dieser Bereich ist wichtig. = See valdkond on tähtis."
+    },
+    {
+     "word": "die Gegend",
+     "meaning": "ümbruskond",
+     "example": "Die Gegend ist schön. = Ümbruskond on ilus."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Töö või teadmised → Gebiet = valdkond; kaart või maa → Gebiet = territoorium."
+     }
+    ]
+   },
+   "important": {
+    "text": "das Gebiet ei ole ainult geograafiline koht; väga sageli on see abstraktne töö- või teadmiste valdkond."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Gebiet"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "valdkonnas"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Gebiet"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "territoorium"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Gebiet"
+       ],
+       "yellow": [
+        "Medizin"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "valdkonnas"
+       ],
+       "yellow": [
+        "Meditsiini"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "das Gebiet"
+     ],
+     "purple": [
+      "valdkonda",
+      "territooriumi",
+      "piirkond"
+     ],
+     "yellow": [
+      "Teadmiste",
+      "töö",
+      "teadustöö",
+      "geograafias"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "das Gebiet"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "valdkond / territoorium"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "der Bereich"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "valdkond / tsoon / osa"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "die Gegend"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "ümbruskond"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "valdkond",
+      "territoorium"
+     ]
+    },
+    "important": {
+     "purple": [
+      "abstraktne töö- või teadmiste valdkond"
+     ]
+    }
+   }
+  }
+ },
+ "b1-gehalt": {
+  "de": "Gehalt",
+  "de_article": "das",
+  "de_plural": "die Gehälter",
+  "lv": "palk",
+  "level": "B1",
+  "study": {
+   "id": "b1-gehalt",
+   "layout": "standardStudy",
+   "translation": "palk",
+   "explanation": "Põhiidee: das Gehalt tähendab palka või tasu. Seevastu der Gehalt tähendab sisu — kirja, kõne või lepingu olemust. Artikkel muudab täielikult tähendust ja mitmust.",
+   "examples": [
+    {
+     "de": "Sein Gehalt ist hoch.",
+     "lv": "tema palk on kõrge."
+    },
+    {
+     "de": "Die Gehälter steigen jedes Jahr.",
+     "lv": "palgad tõusevad igal aastal."
+    },
+    {
+     "de": "Der Gehalt des Briefes war wichtig.",
+     "lv": "kirja sisu oli tähtis."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "das Gehalt",
+     "meaning": "palk • tasu",
+     "example": "Das Gehalt ist gut. = Palk on hea. Plural: die Gehälter."
+    },
+    {
+     "word": "der Gehalt",
+     "meaning": "sisu • olemus",
+     "example": "Der Gehalt ist klar. = Sisu on selge. Plural: die Gehalte."
+    },
+    {
+     "word": "der Verdienst",
+     "meaning": "teenitu • sissetulek",
+     "example": "Sein Verdienst ist hoch. = Tema sissetulek on kõrge."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Raha ja töötasu kohta — das Gehalt (die Gehälter). Kirja või kõne sisu kohta — der Gehalt (die Gehalte)."
+     }
+    ]
+   },
+   "important": {
+    "text": "das Gehalt = palk (die Gehälter). der Gehalt = sisu (die Gehalte). Artikkel ei ole pisiasi — see muudab mõlemat tähendust."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "das Gehalt",
+      "der Gehalt"
+     ],
+     "purple": [
+      "palk",
+      "sisu"
+     ]
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Gehalt"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "palk"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Gehälter"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "palgad"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "Gehalt"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "sisu"
+       ]
+      }
+     }
+    ]
+   }
+  }
+ },
+ "b1-gehalt-2": {
+  "de": "Gehalt",
+  "de_article": "der",
+  "de_plural": "die Gehalte",
+  "lv": "sisu",
+  "level": "B1",
+  "study": {
+   "id": "b1-gehalt-2",
+   "layout": "standardStudy",
+   "translation": "sisu",
+   "explanation": "Põhiidee: der Gehalt tähendab sisu — kirja, kõne, raamatu või lepingu olemust. Seevastu das Gehalt tähendab palka. Mitmus on die Gehalte, mitte die Gehälter.",
+   "examples": [
+    {
+     "de": "Der Gehalt des Briefes war wichtig.",
+     "lv": "kirja sisu oli tähtis."
+    },
+    {
+     "de": "Die Gehalte der Reden waren unterschiedlich.",
+     "lv": "kõnede sisu oli erinev."
+    },
+    {
+     "de": "Sein Gehalt ist hoch.",
+     "lv": "tema palk on kõrge."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "der Gehalt",
+     "meaning": "sisu • olemus",
+     "example": "Der Gehalt ist klar. = Sisu on selge. Plural: die Gehalte."
+    },
+    {
+     "word": "das Gehalt",
+     "meaning": "palk • tasu",
+     "example": "Das Gehalt ist gut. = Palk on hea. Plural: die Gehälter."
+    },
+    {
+     "word": "der Inhalt",
+     "meaning": "sisu (üldiselt)",
+     "example": "Der Inhalt ist interessant. = Sisu on huvitav."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Kirja, kõne või teksti olemuse kohta — der Gehalt. Töötasu kohta — das Gehalt."
+     }
+    ]
+   },
+   "important": {
+    "text": "der Gehalt = sisu (die Gehalte). das Gehalt = palk (die Gehälter). Valesti: die Gehälter sisu kohta — õigesti: die Gehalte."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "green": [
+      "der Gehalt"
+     ],
+     "purple": [
+      "sisu"
+     ],
+     "blue": [
+      "das Gehalt"
+     ]
+    },
+    "examples": [
+     {
+      "de": {
+       "green": [
+        "Gehalt"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "sisu"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "Gehalte"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "sisu"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Gehalt"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "palk"
+       ]
+      }
+     }
+    ]
+   }
+  }
+ },
+ "b1-gelten": {
+  "de": "gelten",
+  "lv": "kehtima",
+  "level": "B1",
+  "study": {
+   "id": "b1-gelten",
+   "layout": "standardStudy",
+   "translation": "kehtima",
+   "explanation": "Põhiidee: gelten tähendab kehtimist või kehtivust kindlal ajal, kohas või olukorras. Konstruktsioon gelten als tähendab millekski peetama.",
+   "examples": [
+    {
+     "de": "Die Regel gilt ab Montag.",
+     "lv": "reegel kehtib alates esmaspäevast."
+    },
+    {
+     "de": "Das Ticket gilt nur heute.",
+     "lv": "pilet kehtib ainult täna."
+    },
+    {
+     "de": "Er gilt als Experte.",
+     "lv": "teda peetakse eksperdiks."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "gelten",
+     "meaning": "kehtima",
+     "example": "Das Gesetz gilt überall. = Seadus kehtib kõikjal."
+    },
+    {
+     "word": "gelten als",
+     "meaning": "peetama millekski",
+     "example": "Sie gilt als Expertin. = Teda peetakse eksperdiks."
+    },
+    {
+     "word": "passen",
+     "meaning": "sobima",
+     "example": "Der Schlüssel passt nicht. = Võti ei sobi."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Regel, Gesetz, Ticket gilt; inimene gilt als Expertin."
+     }
+    ]
+   },
+   "important": {
+    "text": "gelten ei ole füüsilise sobivuse kohta nagu võti või riietus; sellel on tavaliselt kehtivuse või maine tähendus."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "gilt"
+       ],
+       "yellow": [
+        "Regel"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kehtib"
+       ],
+       "yellow": [
+        "Reegel"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "gilt"
+       ],
+       "yellow": [
+        "Ticket"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kehtib"
+       ],
+       "yellow": [
+        "Pilet"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "gilt als"
+       ],
+       "green": [
+        "Experte"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "peetakse"
+       ],
+       "green": [
+        "eksperdiks"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "gelten",
+      "gelten als"
+     ],
+     "purple": [
+      "kehtimist",
+      "kehtivust",
+      "millekski peetama"
+     ],
+     "yellow": [
+      "ajal",
+      "kohas",
+      "olukorras"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "gelten"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "kehtima"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "gelten als"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "peetama millekski"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "passen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "sobima"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "inimene",
+      "expertin"
+     ]
+    },
+    "important": {
+     "purple": [
+      "kehtivuse",
+      "maine tähendus"
+     ]
+    }
+   }
+  }
+ },
+ "b1-gemein": {
+  "de": "gemein",
+  "lv": "alatu",
+  "level": "B1",
+  "study": {
+   "id": "b1-gemein",
+   "layout": "standardStudy",
+   "translation": "alatu",
+   "explanation": "Põhiidee: gemein tähendab tänapäeva igapäevakeeles enamasti alatu, kuri või ebameeldiv. „Ühine” on tavaliselt gemeinsam, mitte gemein.",
+   "examples": [
+    {
+     "de": "Das war wirklich gemein.",
+     "lv": "see oli tõesti alatu."
+    },
+    {
+     "de": "Sei nicht so gemein zu deinem Bruder!",
+     "lv": "ära ole nii kuri oma venna vastu!"
+    },
+    {
+     "de": "Diese Bemerkung war ziemlich gemein.",
+     "lv": "see märkus oli üsna ebameeldiv."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "gemein",
+     "meaning": "alatu / kuri / ebameeldiv",
+     "example": "Das ist gemein. = See on alatu."
+    },
+    {
+     "word": "gemeinsam",
+     "meaning": "ühine",
+     "example": "Wir haben ein gemeinsames Ziel. = Meil on ühine eesmärk."
+    },
+    {
+     "word": "gewöhnlich",
+     "meaning": "tavaline",
+     "example": "Das ist gewöhnlich. = See on tavaline."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Kui jutt on inimese käitumisest või märkusest, on gemein peaaegu alati negatiivne."
+     }
+    ]
+   },
+   "important": {
+    "text": "Ära aja segi gemein sõnaga gemeinsam: gemein = alatu, gemeinsam = ühine."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "gemein"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "alatu"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "gemein"
+       ],
+       "green": [
+        "Bruder"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kuri"
+       ],
+       "green": [
+        "venna"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "gemein"
+       ],
+       "yellow": [
+        "Bemerkung"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "ebameeldiv"
+       ],
+       "yellow": [
+        "märkus"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "gemein",
+      "gemeinsam"
+     ],
+     "purple": [
+      "alatu",
+      "kuri",
+      "ebameeldiv",
+      "ühine"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "gemein"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "alatu / kuri / ebameeldiv"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "gemeinsam"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "ühine"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "gewöhnlich"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "tavaline"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "negatiivne"
+     ]
+    },
+    "important": {
+     "purple": [
+      "alatu",
+      "ühine"
+     ]
+    }
+   }
+  }
+ },
+ "b1-gerät": {
+  "de": "Gerät",
+  "de_article": "das",
+  "de_plural": "die Geräte",
+  "lv": "seade",
+  "level": "B1",
+  "study": {
+   "id": "b1-gerät",
+   "layout": "standardStudy",
+   "translation": "seade",
+   "explanation": "Põhiidee: das Gerät tähendab konkreetse funktsiooniga seadet või aparaati. Seda kasutatakse tehniliste asjade kohta kodus, tööl, meditsiinis või kontoris.",
+   "examples": [
+    {
+     "de": "Das Gerät funktioniert nicht.",
+     "lv": "seade ei tööta."
+    },
+    {
+     "de": "Schalten Sie das Gerät bitte aus.",
+     "lv": "palun lülitage seade välja."
+    },
+    {
+     "de": "Dieses Gerät misst den Blutdruck.",
+     "lv": "see seade mõõdab vererõhku."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "das Gerät",
+     "meaning": "seade / aparaat",
+     "example": "Das Gerät ist neu. = Seade on uus."
+    },
+    {
+     "word": "das Werkzeug",
+     "meaning": "tööriist",
+     "example": "Das Werkzeug liegt im Keller. = Tööriist asub keldris."
+    },
+    {
+     "word": "die Maschine",
+     "meaning": "masin / seade",
+     "example": "Die Maschine läuft den ganzen Tag. = Masin töötab kogu päeva."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Kui asjal on tehniline funktsioon, sobib väga sageli das Gerät."
+     }
+    ]
+   },
+   "important": {
+    "text": "das Gerät on ainsuses „seade”; mitmuses on die Geräte."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Gerät",
+        "funktioniert"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "Seade",
+        "ei tööta"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Gerät",
+        "aus"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "lülitage välja",
+        "seade"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Gerät"
+       ],
+       "yellow": [
+        "Blutdruck"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "seade"
+       ],
+       "yellow": [
+        "vererõhku"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "das Gerät"
+     ],
+     "purple": [
+      "seadet",
+      "aparaati"
+     ],
+     "yellow": [
+      "funktsiooniga",
+      "tehniliste asjade",
+      "meditsiinis",
+      "kontoris"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "das Gerät"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "seade / aparaat"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "das Werkzeug"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "tööriist"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "die Maschine"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "masin / seade"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "tehniline funktsioon"
+     ]
+    },
+    "important": {
+     "purple": [
+      "ainsuses",
+      "mitmuses"
+     ]
+    }
+   }
+  }
+ },
+ "b1-geschlecht": {
+  "de": "Geschlecht",
+  "de_article": "das",
+  "de_plural": "die Geschlechter",
+  "lv": "sugu",
+  "level": "B1",
+  "study": {
+   "id": "b1-geschlecht",
+   "layout": "standardStudy",
+   "translation": "sugu",
+   "explanation": "Põhiidee: das Geschlecht tähendab sugu inimestel või loomadel. Keele grammatikas tähendab see sugu, näiteks mees-, nais- või kesksugu.",
+   "examples": [
+    {
+     "de": "Bitte geben Sie Ihr Geschlecht an.",
+     "lv": "palun märkige oma sugu."
+    },
+    {
+     "de": "Das grammatische Geschlecht ist maskulin.",
+     "lv": "grammatiline sugu on mehe sugu."
+    },
+    {
+     "de": "In der Statistik wird nach Geschlecht unterschieden.",
+     "lv": "statistikas kohaselt eristatakse soo järgi."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "das Geschlecht",
+     "meaning": "sugu",
+     "example": "Das Geschlecht wird im Formular gefragt. = Vormis küsitakse sugu."
+    },
+    {
+     "word": "das Genus",
+     "meaning": "grammatiline sugu",
+     "example": "Das Genus ist feminin. = Sugu on naissugu."
+    },
+    {
+     "word": "die Generation",
+     "meaning": "põlvkond",
+     "example": "Diese Generation ist jung. = See põlvkond on noor."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Inimesel Geschlecht = sugu; sõnal grammatikas Geschlecht = sugu."
+     }
+    ]
+   },
+   "important": {
+    "text": "das Geschlecht ei ole „põlvkond”; sellel sõnal on saksa keeles die Generation."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Geschlecht"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "sugu"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Geschlecht",
+        "maskulin"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "sugu",
+        "mehe sugu"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Geschlecht"
+       ],
+       "yellow": [
+        "Statistik"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "soo järgi"
+       ],
+       "yellow": [
+        "Statistikas kohaselt"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "das Geschlecht"
+     ],
+     "purple": [
+      "sugu"
+     ],
+     "green": [
+      "inimestel",
+      "loomadel"
+     ],
+     "yellow": [
+      "grammatikas"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "das Geschlecht"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "sugu"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "das Genus"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "grammatiline sugu"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "die Generation"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "põlvkond"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "sugu"
+     ]
+    },
+    "important": {
+     "purple": [
+      "põlvkond"
+     ]
+    }
+   }
+  }
+ },
+ "b1-gesellschaft": {
+  "de": "Gesellschaft",
+  "de_article": "die",
+  "de_plural": "die Gesellschaften",
+  "lv": "ühiskond",
+  "level": "B1",
+  "study": {
+   "id": "b1-gesellschaft",
+   "layout": "standardStudy",
+   "translation": "ühiskond",
+   "explanation": "Põhiidee: die Gesellschaft tähendab enamasti ühiskonda. Juriidilistes või ettevõtete nimedes võib see tähendada ühingut/ettevõtet, aga seltskondlikus kontekstis - seltskonda.",
+   "examples": [
+    {
+     "de": "Die Gesellschaft verändert sich.",
+     "lv": "ühiskond muutub."
+    },
+    {
+     "de": "Er arbeitet bei einer großen Gesellschaft.",
+     "lv": "ta töötab suures ettevõttes."
+    },
+    {
+     "de": "Ich war in guter Gesellschaft.",
+     "lv": "ma olin heas seltskonnas."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "die Gesellschaft",
+     "meaning": "ühiskond / ettevõte",
+     "example": "Die Gesellschaft verändert sich. = Ühiskond muutub."
+    },
+    {
+     "word": "die Firma",
+     "meaning": "firma",
+     "example": "Die Firma wächst schnell. = Firma kasvab kiiresti."
+    },
+    {
+     "word": "die Gemeinschaft",
+     "meaning": "kogukond",
+     "example": "Die Gemeinschaft hilft einander. = Kogukond aitab üksteist."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Õpi kõigepealt Gesellschaft kui „ühiskond”; ettevõtte ja seltskonna tähenduse näitab kontekst."
+     }
+    ]
+   },
+   "important": {
+    "text": "die Gesellschaft ei ole sama, mis die Gemeinschaft: Gesellschaft on laiem ühiskond, Gemeinschaft on lähedasem kogukond."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Gesellschaft"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "Ühiskond"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Gesellschaft"
+       ],
+       "green": [
+        "Er"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "ettevõttes"
+       ],
+       "green": [
+        "Ta"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Gesellschaft"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "seltskonnas"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "die Gesellschaft"
+     ],
+     "purple": [
+      "ühiskonda",
+      "ühingut/ettevõtet"
+     ],
+     "yellow": [
+      "ettevõtete nimedes",
+      "kontekstis"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "die Gesellschaft"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "ühiskond / ettevõte"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "die Firma"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "firma"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "die Gemeinschaft"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "kogukond"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "kontekst"
+     ]
+    },
+    "important": {
+     "purple": [
+      "ühiskond",
+      "kogukond"
+     ]
+    }
+   }
+  }
+ },
+ "b1-gewinn": {
+  "de": "Gewinn",
+  "de_article": "der",
+  "de_plural": "die Gewinne",
+  "lv": "kasum",
+  "level": "B1",
+  "study": {
+   "id": "b1-gewinn",
+   "layout": "standardStudy",
+   "translation": "kasum",
+   "explanation": "Põhiidee: der Gewinn tähendab kasumit - raha, mis jääb pärast kulusid järele. Mängudes, võistlustes ja loteriides tähendab see võitu.",
+   "examples": [
+    {
+     "de": "Der Gewinn der Firma ist gestiegen.",
+     "lv": "ettevõtte kasum on kasvanud."
+    },
+    {
+     "de": "Nach Abzug der Kosten bleibt kaum Gewinn.",
+     "lv": "pärast kulude mahaarvamist kasumit peaaegu ei jää."
+    },
+    {
+     "de": "Der Gewinn im Lotto war hoch.",
+     "lv": "loterii võit oli suur."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "der Gewinn",
+     "meaning": "kasum / võit",
+     "example": "Der Gewinn ist hoch. = Kasum on suur."
+    },
+    {
+     "word": "der Umsatz",
+     "meaning": "käive",
+     "example": "Der Umsatz steigt. = Käive kasvab."
+    },
+    {
+     "word": "der Preis",
+     "meaning": "hind / auhind",
+     "example": "Der Preis ist hoch. = Hind on kõrge."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Ettevõttes Gewinn = kasum; loteriis Gewinn = võit."
+     }
+    ]
+   },
+   "important": {
+    "text": "Gewinn ei ole Umsatz. Umsatz on kogu tulude summa, Gewinn on see, mis jääb pärast kulusid järele."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Gewinn"
+       ],
+       "yellow": [
+        "Firma"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kasum"
+       ],
+       "yellow": [
+        "Ettevõtte"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Gewinn"
+       ],
+       "yellow": [
+        "Kosten"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kasumit"
+       ],
+       "yellow": [
+        "kulude"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Gewinn"
+       ],
+       "yellow": [
+        "Lotto"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "võit"
+       ],
+       "yellow": [
+        "loterii"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "der Gewinn"
+     ],
+     "purple": [
+      "kasumit",
+      "võitu"
+     ],
+     "yellow": [
+      "kulude",
+      "Mängudes",
+      "võistlustes",
+      "loteriides"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "der Gewinn"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "kasum / võit"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "der Umsatz"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "käive"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "der Preis"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "hind / auhind"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "kasum",
+      "võit"
+     ]
+    },
+    "important": {
+     "purple": [
+      "tulude summa",
+      "jääb pärast kulusid järele"
+     ]
+    }
+   }
+  }
+ },
+ "b1-gewiss": {
+  "de": "gewiss",
+  "lv": "kindel",
+  "level": "B1",
+  "study": {
+   "id": "b1-gewiss",
+   "layout": "standardStudy",
+   "translation": "kindel",
+   "explanation": "Põhiidee: gewiss tähendab kindel, teatud või „kindlasti”. See kõlab pisut formaalsemalt kui sicher ja esineb sageli väljendites nagu ein gewisses Risiko.",
+   "examples": [
+    {
+     "de": "Das ist gewiss richtig.",
+     "lv": "see on kindlasti õige."
+    },
+    {
+     "de": "Ein gewisses Risiko bleibt.",
+     "lv": "teatud risk jääb."
+    },
+    {
+     "de": "Ich bin mir gewiss, dass es klappt.",
+     "lv": "ma olen kindel, et see õnnestub."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "gewiss",
+     "meaning": "kindel / teatud / kindlasti",
+     "example": "Das ist gewiss. = See on kindel."
+    },
+    {
+     "word": "sicher",
+     "meaning": "kindel / kindlasti",
+     "example": "Das ist sicher. = See on kindel."
+    },
+    {
+     "word": "bestimmt",
+     "meaning": "kindlasti / kindel",
+     "example": "Er kommt bestimmt. = Ta tuleb kindlasti."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "gewiss tähendab sageli „kindlasti”, aga ein gewisses Risiko = teatud risk."
+     }
+    ]
+   },
+   "important": {
+    "text": "gewiss on pisut formaalsem; igapäevaselt kuuled sagedamini sicher või bestimmt."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "gewiss"
+       ],
+       "yellow": [
+        "richtig"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kindlasti"
+       ],
+       "yellow": [
+        "õige"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "gewisses"
+       ],
+       "yellow": [
+        "Risiko"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "teatud"
+       ],
+       "yellow": [
+        "risk"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "gewiss"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kindel"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "gewiss",
+      "ein gewisses Risiko"
+     ],
+     "purple": [
+      "kindel",
+      "teatud",
+      "kindlasti"
+     ],
+     "red": [
+      "formaalsemalt"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "gewiss"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "kindel / teatud / kindlasti"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "sicher"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "kindel / kindlasti"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "bestimmt"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "kindlasti / kindel"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "kindlasti",
+      "teatud risk"
+     ]
+    },
+    "important": {
+     "purple": [
+      "formaalsem"
+     ]
+    }
+   }
+  }
  }
 }
