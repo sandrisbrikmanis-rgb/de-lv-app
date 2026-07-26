@@ -6480,5 +6480,3309 @@
     }
    }
   }
+ },
+ "b1-sich-beruhigen": {
+  "de": "sich beruhigen",
+  "lv": "rahunema",
+  "level": "B1",
+  "study": {
+   "id": "b1-sich-beruhigen",
+   "layout": "standardStudy",
+   "translation": "rahunema",
+   "explanation": "Põhiidee: sich beruhigen tähendab ise rahunemist. Ilma sich-ta tähendab beruhigen kellegi teise või olukorra rahustamist.",
+   "examples": [
+    {
+     "de": "Beruhig dich bitte.",
+     "lv": "palun rahune."
+    },
+    {
+     "de": "Nach ein paar Minuten beruhigte sie sich.",
+     "lv": "mõne minuti pärast ta rahunes."
+    },
+    {
+     "de": "Die Lage hat sich beruhigt.",
+     "lv": "olukord on rahunenud."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "sich beruhigen",
+     "meaning": "rahunema",
+     "example": "Ich beruhige mich. = Ma rahunen."
+    },
+    {
+     "word": "beruhigen",
+     "meaning": "kedagi rahustama",
+     "example": "Ich beruhige das Kind. = Ma rahustan last."
+    },
+    {
+     "word": "sich entspannen",
+     "meaning": "lõõgastuma",
+     "example": "Ich entspanne mich. = Ma lõõgastun."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Koos sich-ga rahuneb inimene või olukord ise; ilma sich-ta rahustad sina kedagi teist."
+     }
+    ]
+   },
+   "important": {
+    "text": "Beruhig dich! on käsklus „rahune”, mitte „rahusta kedagi”."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Beruhig",
+        "dich"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "rahune"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "beruhigte",
+        "sich"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "rahunes"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "hat sich beruhigt"
+       ],
+       "yellow": [
+        "Lage"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "rahunenud"
+       ],
+       "yellow": [
+        "Olukord"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "sich beruhigen",
+      "beruhigen"
+     ],
+     "purple": [
+      "rahunema",
+      "rahustama"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "sich beruhigen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "rahunema"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "beruhigen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "kedagi rahustama"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "sich entspannen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "lõõgastuma"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "rahuneb",
+      "rahustad"
+     ]
+    },
+    "important": {
+     "purple": [
+      "rahune"
+     ]
+    }
+   }
+  }
+ },
+ "b1-berühmtheit": {
+  "de": "Berühmtheit",
+  "de_article": "die",
+  "de_plural": "die Berühmtheiten",
+  "lv": "kuulsus",
+  "level": "B1",
+  "study": {
+   "id": "b1-berühmtheit",
+   "layout": "standardStudy",
+   "translation": "kuulsus",
+   "explanation": "Põhiidee: die Berühmtheit tähendab kuulsust või kuulsat isikut. Ainsuses ilma kontekstita on see sageli kuulsus; mitmuses Berühmtheiten on tavaliselt kuulsused.",
+   "examples": [
+    {
+     "de": "Er träumt von Berühmtheit.",
+     "lv": "ta unistab kuulsusest."
+    },
+    {
+     "de": "Die Berühmtheit kam erst spät.",
+     "lv": "kuulsus tuli alles hilja."
+    },
+    {
+     "de": "Viele Berühmtheiten waren eingeladen.",
+     "lv": "kutsuti palju kuulsusi."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "die Berühmtheit",
+     "meaning": "kuulsus / kuulsa isik",
+     "example": "Er sucht Berühmtheit. = Ta püüdleb kuulsuse poole."
+    },
+    {
+     "word": "der Ruhm",
+     "meaning": "kuulsus",
+     "example": "Sein Ruhm wächst. = Tema kuulsus kasvab."
+    },
+    {
+     "word": "der Star",
+     "meaning": "täht / kuulsus",
+     "example": "Sie ist ein Star. = Ta on täht."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Berühmtheit ainsuses sageli = kuulsus; Berühmtheiten mitmuses = kuulsused."
+     }
+    ]
+   },
+   "important": {
+    "text": "Kui mõeldakse konkreetset kuulsat isikut, öeldakse igapäevaselt sagedamini Star või berühmte Person."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Berühmtheit"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kuulsusest"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Berühmtheit"
+       ],
+       "red": [
+        "spät"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "Kuulsus"
+       ],
+       "red": [
+        "hilja"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Berühmtheiten"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kuulsusi"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "Berühmtheit",
+      "Berühmtheiten"
+     ],
+     "purple": [
+      "kuulsust",
+      "kuulsat isikut",
+      "kuulsusi"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "die Berühmtheit"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "kuulsus / kuulsa isik"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "der Ruhm"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "kuulsus"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "der Star"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "täht / kuulsus"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "kuulsus",
+      "kuulsused"
+     ]
+    },
+    "important": {
+     "purple": [
+      "kuulus isik"
+     ]
+    }
+   }
+  }
+ },
+ "b1-beschließen": {
+  "de": "beschließen",
+  "lv": "otsustama",
+  "level": "B1",
+  "study": {
+   "id": "b1-beschließen",
+   "layout": "standardStudy",
+   "translation": "otsustama",
+   "explanation": "Põhiidee: beschließen tähendab otsustamist või ametlikult otsuse vastuvõtmist. Ürituse, kõne või õhtuga võib see tähendada ka lõpetamist.",
+   "examples": [
+    {
+     "de": "Wir haben beschlossen, umzuziehen.",
+     "lv": "me otsustasime kolida."
+    },
+    {
+     "de": "Der Rat beschließt neue Regeln.",
+     "lv": "nõukogu võtab vastu uued reeglid."
+    },
+    {
+     "de": "Die Rede beschloss den Abend.",
+     "lv": "kõne lõpetas õhtu."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "beschließen",
+     "meaning": "otsustama / otsust vastu võtma",
+     "example": "Der Rat beschließt neue Regeln. = Nõukogu võtab vastu uued reeglid."
+    },
+    {
+     "word": "entscheiden",
+     "meaning": "otsustama",
+     "example": "Ich entscheide mich morgen. = Ma otsustan homme."
+    },
+    {
+     "word": "schließen",
+     "meaning": "sulgema",
+     "example": "Bitte schließen Sie die Tür. = Palun sulgege uks."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Otsus grupis või ametlikult → beschließen; ukse sulgemine → schließen."
+     }
+    ]
+   },
+   "important": {
+    "text": "Ära aja segi beschließen sõnaga schließen: beschließen = otsustama või lõpetama, schließen = sulgema."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "beschlossen"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "otsustasime"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "beschließt"
+       ],
+       "green": [
+        "Rat"
+       ],
+       "yellow": [
+        "Regeln"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "võtab vastu"
+       ],
+       "green": [
+        "Nõukogu"
+       ],
+       "yellow": [
+        "reeglid"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "beschloss"
+       ],
+       "yellow": [
+        "Rede",
+        "Abend"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "lõpetas"
+       ],
+       "yellow": [
+        "Kõne",
+        "õhtu"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "beschließen"
+     ],
+     "purple": [
+      "otsustama",
+      "otsust vastu võtma",
+      "lõpetama"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "beschließen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "otsustama / otsust vastu võtma"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "entscheiden"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "otsustama"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "schließen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "sulgema"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "otsus",
+      "sulgemine"
+     ]
+    },
+    "important": {
+     "purple": [
+      "otsustama",
+      "sulgema"
+     ]
+    }
+   }
+  }
+ },
+ "b1-beschwerde": {
+  "de": "Beschwerde",
+  "de_article": "die",
+  "de_plural": "die Beschwerden",
+  "lv": "kaebus",
+  "level": "B1",
+  "study": {
+   "id": "b1-beschwerde",
+   "layout": "standardStudy",
+   "translation": "kaebus",
+   "explanation": "Põhiidee: die Beschwerde tähendab kaebust probleemi kohta. Meditsiinis tähendab mitmus Beschwerden terviseprobleeme või vaevusi.",
+   "examples": [
+    {
+     "de": "Ich möchte eine Beschwerde einreichen.",
+     "lv": "ma soovin esitada kaebuse."
+    },
+    {
+     "de": "Die Beschwerde wurde ernst genommen.",
+     "lv": "kaebust võeti tõsiselt."
+    },
+    {
+     "de": "Er hat Beschwerden im Rücken.",
+     "lv": "tal on seljavaevused."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "die Beschwerde",
+     "meaning": "kaebus",
+     "example": "Die Beschwerde ist berechtigt. = Kaebus on põhjendatud."
+    },
+    {
+     "word": "die Klage",
+     "meaning": "kohtuhagi",
+     "example": "Die Klage läuft noch. = Hagi kestab veel."
+    },
+    {
+     "word": "die Schmerzen",
+     "meaning": "valu",
+     "example": "Ich habe Schmerzen. = Mul on valu."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Klienditeeninduses Beschwerde = kaebus; arsti juures Beschwerden = vaevused."
+     }
+    ]
+   },
+   "important": {
+    "text": "Beschwerden arsti juures ei ole üks kaebus paberil, vaid terviseprobleemid või sümptomid."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Beschwerde"
+       ],
+       "yellow": [
+        "einreichen"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "esitada kaebuse"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Beschwerde"
+       ],
+       "red": [
+        "ernst genommen"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "Kaebust"
+       ],
+       "red": [
+        "võeti tõsiselt"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Beschwerden"
+       ],
+       "yellow": [
+        "Rücken"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "vaevused"
+       ],
+       "yellow": [
+        "selja"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "Beschwerde",
+      "Beschwerden"
+     ],
+     "purple": [
+      "kaebust",
+      "vaevused"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "die Beschwerde"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "kaebus"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "die Klage"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "kohtuhagi"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "die Schmerzen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "valu"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "kaebus",
+      "vaevused"
+     ]
+    },
+    "important": {
+     "purple": [
+      "terviseprobleemid",
+      "sümptomid"
+     ]
+    }
+   }
+  }
+ },
+ "b1-besorgen": {
+  "de": "besorgen",
+  "lv": "hankima",
+  "level": "B1",
+  "study": {
+   "id": "b1-besorgen",
+   "layout": "standardStudy",
+   "translation": "hankima",
+   "explanation": "Põhiidee: besorgen tähendab vajaliku asja hankimist, ostmist või leidmist. See ei ole sama, mis kellegi eest hoolitsemine.",
+   "examples": [
+    {
+     "de": "Ich besorge die Tickets.",
+     "lv": "ma hangin piletid."
+    },
+    {
+     "de": "Kannst du Milch besorgen?",
+     "lv": "kas sa saad piima osta?"
+    },
+    {
+     "de": "Wir müssen einen Handwerker besorgen.",
+     "lv": "me peame leidma meistri."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "besorgen",
+     "meaning": "hankima / muretsema",
+     "example": "Ich besorge Brot. = Ma hangin leiba."
+    },
+    {
+     "word": "kaufen",
+     "meaning": "ostma",
+     "example": "Ich kaufe Brot. = Ma ostan leiba."
+    },
+    {
+     "word": "sich kümmern um",
+     "meaning": "hoolitsema",
+     "example": "Ich kümmere mich um das Kind. = Ma hoolitsen lapse eest."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Kui ülesanne on midagi hankida või korraldada, kasuta besorgen."
+     }
+    ]
+   },
+   "important": {
+    "text": "Muretsemine on sich Sorgen machen; kellegi eest hoolitsemine on sich kümmern um, mitte besorgen."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "besorge"
+       ],
+       "yellow": [
+        "Tickets"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "hangin"
+       ],
+       "yellow": [
+        "piletid"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "besorgen"
+       ],
+       "yellow": [
+        "Milch"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "osta"
+       ],
+       "yellow": [
+        "piima"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "besorgen"
+       ],
+       "green": [
+        "Handwerker"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "leidma"
+       ],
+       "green": [
+        "meistri"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "besorgen"
+     ],
+     "purple": [
+      "hankima",
+      "ostma",
+      "leidma"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "besorgen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "hankima / muretsema"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "kaufen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "ostma"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "sich kümmern um"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "hoolitsema"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "hankida",
+      "korraldada"
+     ]
+    },
+    "important": {
+     "purple": [
+      "sich Sorgen machen",
+      "sich kümmern um"
+     ]
+    }
+   }
+  }
+ },
+ "b1-bestehen": {
+  "de": "bestehen",
+  "lv": "püsima",
+  "level": "B1",
+  "study": {
+   "id": "b1-bestehen",
+   "layout": "standardStudy",
+   "translation": "püsima",
+   "explanation": "Põhiidee: bestehen muudab tähendust vastavalt konstruktsioonile: Problem besteht = püsib, Prüfung bestehen = sooritama, aus bestehen = koosnema millestki, auf etwas bestehen = nõudma midagi.",
+   "examples": [
+    {
+     "de": "Das Problem besteht noch.",
+     "lv": "probleem püsib endiselt."
+    },
+    {
+     "de": "Sie hat die Prüfung bestanden.",
+     "lv": "ta sooritas eksami."
+    },
+    {
+     "de": "Das Team besteht aus fünf Personen.",
+     "lv": "meeskond koosneb viiest inimesest."
+    },
+    {
+     "de": "Er besteht auf seiner Meinung.",
+     "lv": "ta nõuab oma arvamust."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "bestehen",
+     "meaning": "püsima / sooritama",
+     "example": "Das Problem besteht noch. = Probleem püsib endiselt."
+    },
+    {
+     "word": "bestehen aus",
+     "meaning": "koosnema millestki",
+     "example": "Das Team besteht aus fünf Personen. = Meeskond koosneb viiest inimesest."
+    },
+    {
+     "word": "bestehen auf",
+     "meaning": "nõudma midagi",
+     "example": "Er besteht auf seiner Meinung. = Ta nõuab oma arvamust."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Prüfung bestehen = sooritama; aus bestehen = koosnema; auf etwas bestehen = nõudma."
+     }
+    ]
+   },
+   "important": {
+    "text": "bestehen tähenduse määrab väga sageli eessõna: aus, auf või eksami objekt."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Problem",
+        "besteht"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "probleem",
+        "püsib"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Prüfung",
+        "bestanden"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "sooritas",
+        "eksami"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "besteht",
+        "Personen"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "koosneb",
+        "inimestest"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "besteht",
+        "Meinung"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "nõuab",
+        "arvamust"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "bestehen",
+      "bestehen aus",
+      "bestehen auf"
+     ],
+     "purple": [
+      "püsib",
+      "sooritama",
+      "koosnema",
+      "nõudma"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "bestehen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "püsima / sooritama"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "bestehen aus"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "koosnema millestki"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "bestehen auf"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "nõudma midagi"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "sooritama",
+      "koosnema",
+      "nõudma"
+     ]
+    },
+    "important": {
+     "purple": [
+      "bestehen"
+     ]
+    }
+   }
+  }
+ },
+ "b1-bestimmen": {
+  "de": "bestimmen",
+  "lv": "määrama",
+  "level": "B1",
+  "study": {
+   "id": "b1-bestimmen",
+   "layout": "standardStudy",
+   "translation": "määrama",
+   "explanation": "Põhiidee: bestimmen tähendab millegi kindlaksmääramist või ette nägemist kindlaks eesmärgiks. Otsus määrab tavaliselt hinna, tähtaja, doosi, korra või kasutuse.",
+   "examples": [
+    {
+     "de": "Der Arzt bestimmt die Dosis.",
+     "lv": "arst määrab doosi."
+    },
+    {
+     "de": "Wir bestimmen morgen den Termin.",
+     "lv": "me määrame homme tähtaja."
+    },
+    {
+     "de": "Dieser Raum ist für Kinder bestimmt.",
+     "lv": "see ruum on ette nähtud lastele."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "bestimmen",
+     "meaning": "määrama / ette nägema",
+     "example": "Der Preis wird neu bestimmt. = Hind määratakse uuesti."
+    },
+    {
+     "word": "entscheiden",
+     "meaning": "otsustama",
+     "example": "Wir entscheiden morgen. = Me otsustame homme."
+    },
+    {
+     "word": "festlegen",
+     "meaning": "ametlikult kindlaks määrama",
+     "example": "Wir legen den Termin fest. = Me määrame ametlikult tähtaja."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Kui otsus määrab hinna, doosi, tähtaja või eesmärgi, sobib tavaliselt bestimmen."
+     }
+    ]
+   },
+   "important": {
+    "text": "bestimmen on sageli konkreetne kindlaksmääramine; entscheiden rõhutab rohkem valikut ennast."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "bestimmt"
+       ],
+       "yellow": [
+        "Dosis"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "määrab"
+       ],
+       "yellow": [
+        "doosi"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "bestimmen"
+       ],
+       "yellow": [
+        "Termin"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "määrame"
+       ],
+       "yellow": [
+        "tähtaja"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "bestimmt"
+       ],
+       "green": [
+        "Kinder"
+       ],
+       "yellow": [
+        "Raum"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "ette nähtud"
+       ],
+       "green": [
+        "lastele"
+       ],
+       "yellow": [
+        "ruum"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "bestimmen"
+     ],
+     "purple": [
+      "määrata"
+     ],
+     "yellow": [
+      "hinna",
+      "tähtaja",
+      "doosi"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "bestimmen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "määrama / ette nägema"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "entscheiden"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "otsustama"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "festlegen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "ametlikult kindlaks määrama"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "hinna",
+      "doosi",
+      "tähtaja"
+     ]
+    },
+    "important": {
+     "purple": [
+      "entscheiden"
+     ]
+    }
+   }
+  }
+ },
+ "b1-betrieb": {
+  "de": "Betrieb",
+  "de_article": "der",
+  "de_plural": "die Betriebe",
+  "lv": "ettevõte",
+  "level": "B1",
+  "study": {
+   "id": "b1-betrieb",
+   "layout": "standardStudy",
+   "translation": "ettevõte",
+   "explanation": "Põhiidee: der Betrieb tähendab enamasti ettevõtet või töö-/tegevusprotsessi. Väljend in Betrieb tähendab, et seade või süsteem töötab.",
+   "examples": [
+    {
+     "de": "Der Betrieb hat 50 Mitarbeiter.",
+     "lv": "ettevõttes on 50 töötajat."
+    },
+    {
+     "de": "Die Maschine ist in Betrieb.",
+     "lv": "masin töötab."
+    },
+    {
+     "de": "Während des Betriebs wird die Tür geschlossen.",
+     "lv": "töö ajal uks suletakse."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "der Betrieb",
+     "meaning": "ettevõte / tegevus",
+     "example": "Der Betrieb läuft gut. = Ettevõte töötab hästi."
+    },
+    {
+     "word": "die Firma",
+     "meaning": "firma",
+     "example": "Die Firma sucht neue Mitarbeiter. = Firma otsib uusi töötajaid."
+    },
+    {
+     "word": "die Fabrik",
+     "meaning": "tehas",
+     "example": "Die Fabrik produziert Möbel. = Tehas toodab mööblit."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Ettevõte = Betrieb; seade in Betrieb = töötab."
+     }
+    ]
+   },
+   "important": {
+    "text": "der Betrieb ei ole ainult tehas; see võib olla ettevõte, tööprotsess või tehniline tegevus."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Betrieb"
+       ],
+       "green": [
+        "Mitarbeiter"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "ettevõttes"
+       ],
+       "green": [
+        "töötajat"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "in Betrieb"
+       ],
+       "yellow": [
+        "Maschine"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "töötab"
+       ],
+       "yellow": [
+        "Masin"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Betriebs"
+       ],
+       "yellow": [
+        "Tür"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "töö ajal"
+       ],
+       "yellow": [
+        "uks"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "Betrieb",
+      "in Betrieb"
+     ],
+     "purple": [
+      "ettevõtet",
+      "töötab"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "der Betrieb"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "ettevõte / tegevus"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "die Firma"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "firma"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "die Fabrik"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "tehas"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "ettevõte",
+      "töötab"
+     ]
+    },
+    "important": {
+     "purple": [
+      "ettevõte",
+      "tööprotsess",
+      "tehniline tegevus"
+     ]
+    }
+   }
+  }
+ },
+ "b1-bewegen": {
+  "de": "bewegen",
+  "lv": "liigutama",
+  "level": "B1",
+  "study": {
+   "id": "b1-bewegen",
+   "layout": "standardStudy",
+   "translation": "liigutama",
+   "explanation": "Põhiidee: bewegen tähendab millegi liigutamist või ümberpaigutamist. Inimese ja emotsioonidega võib see tähendada liigutama (hingeliselt); sich bewegen tähendab ise liikumist.",
+   "examples": [
+    {
+     "de": "Bitte bewege den Tisch nicht.",
+     "lv": "palun ära liiguta lauda."
+    },
+    {
+     "de": "Ich muss mich mehr bewegen.",
+     "lv": "ma pean rohkem liikuma."
+    },
+    {
+     "de": "Die Geschichte hat mich sehr bewegt.",
+     "lv": "lugu liigutas mind väga."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "bewegen",
+     "meaning": "liigutama (füüsiliselt / hingeliselt)",
+     "example": "Das bewegt mich. = See liigutab mind."
+    },
+    {
+     "word": "sich bewegen",
+     "meaning": "liikuma",
+     "example": "Ich bewege mich viel. = Ma liigun palju."
+    },
+    {
+     "word": "verschieben",
+     "meaning": "nihutama",
+     "example": "Wir verschieben den Tisch. = Me nihutame lauda."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Liiguta objekti → bewegen; liigu ise → sich bewegen; emotsioonid → bewegt."
+     }
+    ]
+   },
+   "important": {
+    "text": "Ilma sich-ta on bewegen tavaliselt „millegi liigutamine”; koos sich-ga on see enda liikumine."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "bewege"
+       ],
+       "yellow": [
+        "Tisch"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "ära liiguta"
+       ],
+       "yellow": [
+        "lauda"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "mich",
+        "bewegen"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "liikuma"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "bewegt"
+       ],
+       "yellow": [
+        "Geschichte"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "liigutas"
+       ],
+       "yellow": [
+        "Lugu"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "bewegen",
+      "sich bewegen"
+     ],
+     "purple": [
+      "liigutama",
+      "liikuma"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "bewegen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "liigutama (füüsiliselt / hingeliselt)"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "sich bewegen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "liikuma"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "verschieben"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "nihutama"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "liiguta",
+      "liigu",
+      "emotsioonid"
+     ]
+    },
+    "important": {
+     "purple": [
+      "liigutama",
+      "liikumine"
+     ]
+    }
+   }
+  }
+ },
+ "b1-beziehen": {
+  "de": "beziehen",
+  "lv": "saama",
+  "level": "B1",
+  "study": {
+   "id": "b1-beziehen",
+   "layout": "standardStudy",
+   "translation": "saama",
+   "explanation": "Põhiidee: beziehen tähendab regulaarse makse saamist või ruumidesse sisse kolimist. Konstruktsioon sich beziehen auf tähendab millegi kohta käimist.",
+   "examples": [
+    {
+     "de": "Sie bezieht eine kleine Rente.",
+     "lv": "ta saab väikest pensioni."
+    },
+    {
+     "de": "Wir beziehen nächste Woche die neue Wohnung.",
+     "lv": "me kolime järgmisel nädalal uude korterisse."
+    },
+    {
+     "de": "Die Regel bezieht sich auf alle Schüler.",
+     "lv": "reegel kehtib kõigi õpilaste kohta."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "beziehen",
+     "meaning": "saama / sisse kolima",
+     "example": "Sie bezieht eine Rente. = Ta saab pensioni."
+    },
+    {
+     "word": "sich beziehen auf",
+     "meaning": "käima millegi kohta",
+     "example": "Die Regel bezieht sich auf alle Schüler. = Reegel kehtib kõigi õpilaste kohta."
+    },
+    {
+     "word": "einziehen",
+     "meaning": "sisse kolima",
+     "example": "Wir ziehen morgen ein. = Me kolime homme sisse."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Rente beziehen = pensioni saama; Wohnung beziehen = sisse kolima; sich beziehen auf = millegi kohta käima."
+     }
+    ]
+   },
+   "important": {
+    "text": "sich beziehen auf on eriline konstruktsioon: millegi kohta käima."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "bezieht",
+        "Rente"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "saab"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "beziehen",
+        "Wohnung"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kolime"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Regel",
+        "bezieht",
+        "Schüler"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "reegel",
+        "kehtib",
+        "õpilaste"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "beziehen",
+      "sich beziehen auf"
+     ],
+     "purple": [
+      "saama",
+      "sisse kolima",
+      "käima"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "beziehen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "saama / sisse kolima"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "sich beziehen auf"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "käima millegi kohta"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "einziehen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "sisse kolima"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "saama",
+      "sisse kolima",
+      "käima"
+     ]
+    },
+    "important": {
+     "purple": [
+      "beziehen"
+     ]
+    }
+   }
+  }
+ },
+ "b1-bildschirm": {
+  "de": "Bildschirm",
+  "de_article": "der",
+  "de_plural": "die Bildschirme",
+  "lv": "ekraan",
+  "level": "B1",
+  "study": {
+   "id": "b1-bildschirm",
+   "layout": "standardStudy",
+   "translation": "ekraan",
+   "explanation": "Põhiidee: der Bildschirm on ekraan — arvutimonitori, telefoni, tahvelarvuti või teleri kuvamispind. Mitmus: die Bildschirme.",
+   "examples": [
+    {
+     "de": "Der Bildschirm ist kaputt.",
+     "lv": "ekraan on katki."
+    },
+    {
+     "de": "Ich schaue auf den Bildschirm.",
+     "lv": "ma vaatan ekraani."
+    },
+    {
+     "de": "Der Computer hat einen großen Bildschirm.",
+     "lv": "arvutil on suur ekraan."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "der Bildschirm",
+     "meaning": "ekraan",
+     "example": "Der Bildschirm leuchtet. = Ekraan särab."
+    },
+    {
+     "word": "der Monitor",
+     "meaning": "monitor (arvuti)",
+     "example": "Der Monitor ist neu. = Monitor on uus."
+    },
+    {
+     "word": "das Display",
+     "meaning": "displei",
+     "example": "Das Display ist klein. = Displei on väike."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Bildschirm sobib nii arvutile, telerile kui ka telefonile — sõltuvalt kontekstist."
+     }
+    ]
+   },
+   "important": {
+    "text": "der Bildschirm = ekraan. Mitmus: die Bildschirme."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "der Bildschirm"
+     ],
+     "purple": [
+      "ekraan"
+     ]
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Bildschirm"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "ekraan"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Bildschirm"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "ekraani"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Bildschirm"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "ekraan"
+       ]
+      }
+     }
+    ]
+   }
+  }
+ },
+ "b1-bieten": {
+  "de": "bieten",
+  "lv": "pakkuma",
+  "level": "B1",
+  "study": {
+   "id": "b1-bieten",
+   "layout": "standardStudy",
+   "translation": "pakkuma",
+   "explanation": "Põhiidee: bieten tähendab millegi pakkumist või andmist võimaluse, teenuse või hüvena. anbieten tähendab sagedamini kellelegi konkreetselt aktiivselt pakkumist.",
+   "examples": [
+    {
+     "de": "Die Schule bietet viele Kurse an.",
+     "lv": "kool pakub palju kursusi."
+    },
+    {
+     "de": "Das Hotel bietet einen schönen Blick auf den See.",
+     "lv": "hotell pakub ilusat vaadet järvele."
+    },
+    {
+     "de": "Was bietest du mir dafür?",
+     "lv": "mida sa mulle selle eest pakud?"
+    }
+   ],
+   "comparison": [
+    {
+     "word": "bieten",
+     "meaning": "pakkuma / andma",
+     "example": "Das Programm bietet viele Möglichkeiten. = Programm pakub palju võimalusi."
+    },
+    {
+     "word": "anbieten",
+     "meaning": "kellelegi konkreetselt pakkuma",
+     "example": "Ich biete dir meine Hilfe an. = Ma pakun sulle oma abi."
+    },
+    {
+     "word": "geben",
+     "meaning": "andma",
+     "example": "Ich gebe dir Geld. = Ma annan sulle raha."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Võimalused, kursused, teenused või vaade sageli etwas bieten = midagi pakub/annab."
+     }
+    ]
+   },
+   "important": {
+    "text": "bieten kirjeldab sageli, mida koht, programm või teenus pakub; anbieten rõhutab rohkem aktiivset kellelegi pakkumist."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "bietet",
+        "an"
+       ],
+       "yellow": [
+        "Kurse"
+       ],
+       "green": [
+        "Schule"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "pakub"
+       ],
+       "yellow": [
+        "kursusi"
+       ],
+       "green": [
+        "Kool"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "bietet"
+       ],
+       "yellow": [
+        "Blick"
+       ],
+       "green": [
+        "Hotel",
+        "See"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "pakub"
+       ],
+       "yellow": [
+        "vaadet"
+       ],
+       "green": [
+        "Hotell",
+        "järvele"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "bietest"
+       ],
+       "green": [
+        "mir"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "pakud"
+       ],
+       "green": [
+        "mulle"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "bieten",
+      "anbieten"
+     ],
+     "purple": [
+      "pakkuma",
+      "andma"
+     ],
+     "yellow": [
+      "võimalust",
+      "teenust",
+      "hüve"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "bieten"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "pakkuma / andma"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "anbieten"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "kellelegi konkreetselt pakkuma"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "geben"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "andma"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "annab",
+      "pakub"
+     ]
+    },
+    "important": {
+     "purple": [
+      "annab",
+      "aktiivset pakkumist"
+     ]
+    }
+   }
+  }
+ },
+ "b1-blase": {
+  "de": "Blase",
+  "de_article": "die",
+  "de_plural": "die Blasen",
+  "lv": "põis",
+  "level": "B1",
+  "study": {
+   "id": "b1-blase",
+   "layout": "standardStudy",
+   "translation": "põis",
+   "explanation": "Põhiidee: die Blase tähendab põit, villi või mulli. Nahal on see tavaliselt vill, kehas - põis, vees või õhus - mull.",
+   "examples": [
+    {
+     "de": "Ich habe eine Blase am Fuß.",
+     "lv": "mul on jalal vill."
+    },
+    {
+     "de": "Die Blase tut weh.",
+     "lv": "põis valutab."
+    },
+    {
+     "de": "Im Wasser steigen Blasen auf.",
+     "lv": "vees tõusevad mullid."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "die Blase",
+     "meaning": "vill / põis / mull",
+     "example": "Ich habe eine Blase am Fuß. = Mul on jalal vill."
+    },
+    {
+     "word": "die Wunde",
+     "meaning": "haav",
+     "example": "Die Wunde heilt. = Haav paraneb."
+    },
+    {
+     "word": "der Ballon",
+     "meaning": "õhupall",
+     "example": "Der Ballon ist rot. = Õhupall on punane."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Jalg → vill; keha → põis; vee-/õhumullid → Blasen."
+     }
+    ]
+   },
+   "important": {
+    "text": "Jalal on Blase eesti keeles tavaliselt „vill”, mitte „põis”. Meditsiinis võib Blase olla ka kusepõis."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Blase"
+       ],
+       "yellow": [
+        "Fuß"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "vill"
+       ],
+       "yellow": [
+        "jalal"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Blase"
+       ],
+       "red": [
+        "tut weh"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "Põis"
+       ],
+       "red": [
+        "valutab"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Blasen"
+       ],
+       "yellow": [
+        "Wasser"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "mullid"
+       ],
+       "yellow": [
+        "Vees"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "Blase",
+      "Blasen"
+     ],
+     "purple": [
+      "põit",
+      "villi",
+      "mulli"
+     ],
+     "yellow": [
+      "nahal",
+      "kehas",
+      "vees"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "die Blase"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "vill / põis / mull"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "die Wunde"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "haav"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "der Ballon"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "õhupall"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "vill",
+      "põis",
+      "mullid"
+     ]
+    },
+    "important": {
+     "purple": [
+      "vill",
+      "kusepõis"
+     ]
+    }
+   }
+  }
+ },
+ "b1-block": {
+  "de": "Block",
+  "de_article": "der",
+  "de_plural": "die Blöcke",
+  "lv": "plokk",
+  "level": "B1",
+  "study": {
+   "id": "b1-block",
+   "layout": "standardStudy",
+   "translation": "plokk",
+   "explanation": "Põhiidee: der Block tähendab plokki või märkmikku. Materjali kontekstis võib see olla klots või suur tükk.",
+   "examples": [
+    {
+     "de": "Ich schreibe es in den Block.",
+     "lv": "ma kirjutan selle märkmikku."
+    },
+    {
+     "de": "Der Unterricht ist in drei Blöcke geteilt.",
+     "lv": "tund on jagatud kolmeks plokiks."
+    },
+    {
+     "de": "Ein Block Eis lag auf der Straße.",
+     "lv": "tänaval oli jääklots."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "der Block",
+     "meaning": "plokk / märkmik / klots",
+     "example": "Ich brauche einen Block. = Mul on vaja märkmikku."
+    },
+    {
+     "word": "das Heft",
+     "meaning": "vihik",
+     "example": "Das Heft ist voll. = Vihik on täis."
+    },
+    {
+     "word": "der Klotz",
+     "meaning": "klots",
+     "example": "Der Klotz ist schwer. = Klots on raske."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Kirjutamiseks Block = märkmik; struktuuris = plokk; materjalis = klots."
+     }
+    ]
+   },
+   "important": {
+    "text": "der Block on kontori- või õppekontekstis sageli märkmik või osa, mitte raske pakk."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Block"
+       ],
+       "yellow": [
+        "schreibe"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "märkmikku"
+       ],
+       "yellow": [
+        "kirjutan"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Blöcke"
+       ],
+       "yellow": [
+        "Unterricht"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "plokiks"
+       ],
+       "yellow": [
+        "Tund"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Block"
+       ],
+       "yellow": [
+        "Eis"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "klots"
+       ],
+       "yellow": [
+        "jää"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "Block"
+     ],
+     "purple": [
+      "plokki",
+      "märkmikku",
+      "klots"
+     ],
+     "yellow": [
+      "Materjali"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "der Block"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "plokk / märkmik / klots"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "das Heft"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "vihik"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "der Klotz"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "klots"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "märkmik",
+      "plokk",
+      "klots"
+     ]
+    },
+    "important": {
+     "purple": [
+      "pakk"
+     ]
+    }
+   }
+  }
+ },
+ "b1-bloß": {
+  "de": "bloß",
+  "lv": "ainult",
+  "level": "B1",
+  "study": {
+   "id": "b1-bloß",
+   "layout": "standardStudy",
+   "translation": "ainult",
+   "explanation": "Põhiidee: bloß tähendab kõnekeeles väga sageli ainult või lihtsalt. Omadussõnana tähendab see paljas, näiteks mit bloßen Händen.",
+   "examples": [
+    {
+     "de": "Das war bloß ein Witz.",
+     "lv": "see oli ainult nali."
+    },
+    {
+     "de": "Ich habe bloß fünf Euro.",
+     "lv": "mul on ainult viis eurot."
+    },
+    {
+     "de": "Mit bloßen Händen ist das schwer.",
+     "lv": "paljaste kätega on see raske."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "bloß",
+     "meaning": "ainult / lihtsalt / paljas",
+     "example": "Das ist bloß ein Beispiel. = See on ainult näide."
+    },
+    {
+     "word": "nur",
+     "meaning": "ainult",
+     "example": "Ich habe nur eine Frage. = Mul on ainult üks küsimus."
+    },
+    {
+     "word": "nackt",
+     "meaning": "paljas",
+     "example": "Er ist nackt. = Ta on alasti."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Kõnes bloß ≈ nur; nimisõna juures võib bloß tähendada paljas."
+     }
+    ]
+   },
+   "important": {
+    "text": "bloß kui „paljas” esineb tavaliselt vormides nagu bloßen Händen; tavaline „ainult” tähendus on palju sagedasem."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "bloß"
+       ],
+       "yellow": [
+        "Witz"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "ainult"
+       ],
+       "yellow": [
+        "nali"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "bloß"
+       ],
+       "yellow": [
+        "fünf Euro"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "ainult"
+       ],
+       "yellow": [
+        "viis eurot"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "bloßen"
+       ],
+       "yellow": [
+        "Händen"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "paljaste"
+       ],
+       "yellow": [
+        "kätega"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "bloß",
+      "bloßen Händen"
+     ],
+     "purple": [
+      "ainult",
+      "lihtsalt",
+      "paljas"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "bloß"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "ainult / lihtsalt / paljas"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "nur"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "ainult"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "nackt"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "paljas"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "ainult",
+      "paljas"
+     ]
+    },
+    "important": {
+     "purple": [
+      "paljas",
+      "ainult"
+     ]
+    }
+   }
+  }
+ },
+ "b1-bogen": {
+  "de": "Bogen",
+  "de_article": "der",
+  "de_plural": "die Bogen",
+  "lv": "kaar",
+  "level": "B1",
+  "study": {
+   "id": "b1-bogen",
+   "layout": "standardStudy",
+   "translation": "kaar",
+   "explanation": "Põhiidee: der Bogen tähendab kaart. Sõltuvalt kontekstist võib see olla ka võlvkaar või leht, näiteks Fragebogen.",
+   "examples": [
+    {
+     "de": "Der Bogen ist aus Holz.",
+     "lv": "kaar on puust."
+    },
+    {
+     "de": "Die Brücke hat einen schönen Bogen.",
+     "lv": "sillal on ilus võlvkaar."
+    },
+    {
+     "de": "Bitte füllen Sie den Bogen aus.",
+     "lv": "palun täitke ankeet."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "der Bogen",
+     "meaning": "kaar / võlvkaar / ankeet",
+     "example": "Füllen Sie den Bogen aus. = Täitke ankeet."
+    },
+    {
+     "word": "das Formular",
+     "meaning": "vorm",
+     "example": "Das Formular ist lang. = Vorm on pikk."
+    },
+    {
+     "word": "die Kurve",
+     "meaning": "kurv",
+     "example": "Die Kurve ist scharf. = Kurv on terav."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Fragebogen või Bogen ausfüllen tähendab ankeedi täitmist."
+     }
+    ]
+   },
+   "important": {
+    "text": "der Bogen ei ole „seadus”; see tähendus on algajale eksitav."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Bogen",
+        "Holz"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "Kaar"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Brücke",
+        "Bogen"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "võlvkaar"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Bogen",
+        "aus"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "täitke",
+        "ankeedi"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "Bogen"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "der Bogen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "kaar / võlvkaar / ankeet"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "das Formular"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "vorm"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "die Kurve"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "kurv"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "bogen"
+     ]
+    },
+    "important": {
+     "purple": [
+      "bogen"
+     ]
+    }
+   }
+  }
+ },
+ "b1-botschaft": {
+  "de": "Botschaft",
+  "de_article": "die",
+  "de_plural": "die Botschaften",
+  "lv": "saatkond",
+  "level": "B1",
+  "study": {
+   "id": "b1-botschaft",
+   "layout": "standardStudy",
+   "translation": "saatkond",
+   "explanation": "Põhiidee: die Botschaft tähendab saatkonda või sõnumit. Hoone ja institutsioon on saatkond, aga teksti või kõne sisu on sõnum.",
+   "examples": [
+    {
+     "de": "Die Botschaft ist heute geschlossen.",
+     "lv": "saatkond on täna suletud."
+    },
+    {
+     "de": "Die Botschaft des Films ist klar.",
+     "lv": "filmi sõnum on selge."
+    },
+    {
+     "de": "Ich habe einen Termin in der Botschaft.",
+     "lv": "mul on aeg saatkonnas."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "die Botschaft",
+     "meaning": "saatkond / sõnum",
+     "example": "Die Botschaft ist offen. = Saatkond on avatud."
+    },
+    {
+     "word": "die Nachricht",
+     "meaning": "teade",
+     "example": "Ich habe eine Nachricht bekommen. = Ma sain teate."
+    },
+    {
+     "word": "die Mitteilung",
+     "meaning": "teadaanne",
+     "example": "Die Mitteilung ist kurz. = Teadaanne on lühike."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Riigiasutus → saatkond; filmi või kõne mõte → sõnum."
+     }
+    ]
+   },
+   "important": {
+    "text": "die Botschaft ei ole tavaline sõnum lühisõnumi mõttes; lühisõnum või teade on tavaliselt die Nachricht."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Botschaft",
+        "geschlossen"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "Saatkond",
+        "suletud"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Botschaft",
+        "Films"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "sõnum",
+        "filmi"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Termin",
+        "Botschaft"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "aeg",
+        "saatkonnas"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "Botschaft"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "die Botschaft"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "saatkond / sõnum"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "die Nachricht"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "teade"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "die Mitteilung"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "teadaanne"
+       ]
+      }
+     }
+    ],
+    "important": {
+     "purple": [
+      "botschaft"
+     ]
+    }
+   }
+  }
+ },
+ "b1-brand": {
+  "de": "Brand",
+  "de_article": "der",
+  "de_plural": "die Brände",
+  "lv": "tulekahju",
+  "level": "B1",
+  "study": {
+   "id": "b1-brand",
+   "layout": "standardStudy",
+   "translation": "tulekahju",
+   "explanation": "Põhiidee: der Brand tähendab tulekahju. Naha/meditsiini kontekstis võib see tähendada põletust, aga kaubamärk on saksa keeles die Marke, mitte Brand.",
+   "examples": [
+    {
+     "de": "Der Brand wurde schnell gelöscht.",
+     "lv": "tulekahju kustutati kiiresti."
+    },
+    {
+     "de": "Bei dem Brand wurde niemand verletzt.",
+     "lv": "tulekahjus keegi ei saanud viga."
+    },
+    {
+     "de": "Der Brand an der Hand tat weh.",
+     "lv": "põletus käel valutas."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "der Brand",
+     "meaning": "tulekahju / põletus",
+     "example": "Der Brand ist gefährlich. = Tulekahju on ohtlik."
+    },
+    {
+     "word": "das Feuer",
+     "meaning": "tuli",
+     "example": "Das Feuer brennt. = Tuli põleb."
+    },
+    {
+     "word": "die Marke",
+     "meaning": "kaubamärk",
+     "example": "Diese Marke ist bekannt. = See kaubamärk on tuntud."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Uudistes Brand = tulekahju; ingliskeelne „brand” on saksa keeles Marke."
+     }
+    ]
+   },
+   "important": {
+    "text": "Ära aja segi der Brand ingliskeelse sõnaga „brand”: saksa keeles on kaubamärk die Marke."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Brand"
+       ],
+       "red": [
+        "gelöscht"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "Tulekahju"
+       ],
+       "red": [
+        "kustutati kiiresti"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Brand"
+       ],
+       "green": [
+        "niemand"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "tulekahjus"
+       ],
+       "green": [
+        "keegi"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Brand"
+       ],
+       "yellow": [
+        "Hand"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "Põletus"
+       ],
+       "yellow": [
+        "käel"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "Brand"
+     ],
+     "red": [
+      "die Marke"
+     ],
+     "purple": [
+      "tulekahju",
+      "põletust",
+      "kaubamärk"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "der Brand"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "tulekahju / põletus"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "das Feuer"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "tuli"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "die Marke"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "kaubamärk"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "tulekahju",
+      "kaubamärk"
+     ]
+    },
+    "important": {
+     "purple": [
+      "kaubamärk"
+     ]
+    }
+   }
+  }
+ },
+ "b1-bund": {
+  "de": "Bund",
+  "de_article": "der",
+  "de_plural": "die Bünde",
+  "lv": "liit",
+  "level": "B1",
+  "study": {
+   "id": "b1-bund",
+   "layout": "standardStudy",
+   "translation": "liit",
+   "explanation": "Põhiidee: der Bund tähendab föderatsiooni või liitu. Esemetega võib see tähendada kimpu, näiteks ein Bund Schlüssel või ein Bund Kräuter.",
+   "examples": [
+    {
+     "de": "Der Bund unterstützt die Länder.",
+     "lv": "föderatsioon toetab liidumaid."
+    },
+    {
+     "de": "Deutschland ist ein Bund von Ländern.",
+     "lv": "Saksamaa on liidumaade föderatiivne liit."
+    },
+    {
+     "de": "Ein Bund Kräuter liegt auf dem Tisch.",
+     "lv": "laual on maitsetaimede kimp."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "der Bund",
+     "meaning": "liit / föderatsioon / kimp",
+     "example": "Der Bund entscheidet. = Föderatsioon otsustab."
+    },
+    {
+     "word": "das Bündel",
+     "meaning": "kimp",
+     "example": "Das Bündel ist schwer. = Kimp on raske."
+    },
+    {
+     "word": "der Verein",
+     "meaning": "ühing",
+     "example": "Der Verein ist klein. = Ühing on väike."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Poliitikas Bund = föderatsioon; asjadega ein Bund = kimp."
+     }
+    ]
+   },
+   "important": {
+    "text": "Kimbu tähendus tuleb ära tunda objekti järgi: Schlüssel, Kräuter, Briefe jms."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Bund"
+       ],
+       "green": [
+        "Länder"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "Föderatsioon"
+       ],
+       "green": [
+        "liidumaid"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Bund"
+       ],
+       "green": [
+        "Ländern"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "liit"
+       ],
+       "green": [
+        "liidumaade"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Bund"
+       ],
+       "yellow": [
+        "Kräuter"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kimp"
+       ],
+       "yellow": [
+        "maitsetaimede"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "Bund"
+     ],
+     "purple": [
+      "föderatsiooni",
+      "liitu",
+      "kimpu"
+     ],
+     "yellow": [
+      "Schlüssel",
+      "Kräuter"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "der Bund"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "liit / föderatsioon / kimp"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "das Bündel"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "kimp"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "der Verein"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "ühing"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "föderatsioon",
+      "kimp"
+     ]
+    },
+    "important": {
+     "purple": [
+      "schlüssel",
+      "kräuter",
+      "briefe"
+     ]
+    }
+   }
+  }
+ },
+ "b1-dadurch": {
+  "de": "dadurch",
+  "lv": "sellega",
+  "level": "B1",
+  "study": {
+   "id": "b1-dadurch",
+   "layout": "standardStudy",
+   "translation": "sellega",
+   "explanation": "Põhiidee: dadurch tähendab sellega või seeläbi. See seob varem mainitud põhjuse tagajärjega.",
+   "examples": [
+    {
+     "de": "Er hat viel gelernt. Dadurch hat er bestanden.",
+     "lv": "ta õppis palju. Sellega ta sooritas eksami."
+    },
+    {
+     "de": "Die Tür war offen. Dadurch kam kalte Luft hinein.",
+     "lv": "uks oli lahti. Seetõttu tuli sisse külm õhk."
+    },
+    {
+     "de": "Dadurch sparen wir Zeit.",
+     "lv": "seeläbi me hoiame kokku aega."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "dadurch",
+     "meaning": "sellega / seeläbi",
+     "example": "Dadurch wird es leichter. = Seeläbi muutub see kergemaks."
+    },
+    {
+     "word": "deshalb",
+     "meaning": "seetõttu",
+     "example": "Deshalb bleibe ich zu Hause. = Seetõttu jään ma koju."
+    },
+    {
+     "word": "damit",
+     "meaning": "et / sellega",
+     "example": "Ich spare Geld, damit ich reisen kann. = Ma kogun raha, et saaksin reisida."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Kui teine lause näitab tagajärge, sobib sageli dadurch."
+     }
+    ]
+   },
+   "important": {
+    "text": "dadurch viitab varem mainitud tegevusele või olukorrale, mitte lihtsalt kohale."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Dadurch",
+        "bestanden"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "Sellega",
+        "sooritas"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Dadurch",
+        "Luft"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "Seetõttu",
+        "õhk"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Dadurch",
+        "Zeit"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "Seeläbi",
+        "aega"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "dadurch"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "dadurch"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "sellega / seeläbi"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "deshalb"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "seetõttu"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "damit"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "et / sellega"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "dadurch"
+     ]
+    },
+    "important": {
+     "purple": [
+      "dadurch"
+     ]
+    }
+   }
+  }
  }
 }
