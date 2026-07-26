@@ -41394,5 +41394,1338 @@
     }
    }
   }
+ },
+ "b1-überholen": {
+  "de": "überholen",
+  "lv": "mööduma",
+  "level": "B1",
+  "study": {
+   "id": "b1-überholen",
+   "layout": "standardStudy",
+   "translation": "mööduma",
+   "explanation": "Põhiidee: überholen liikluses tähendab möödumist. Tehnilises keeles võib see tähendada mootori või masina kapitaalremonti.",
+   "examples": [
+    {
+     "de": "Der Lkw überholt das Auto.",
+     "lv": "veoauto möödub autost."
+    },
+    {
+     "de": "Auf dieser Straße darf man nicht überholen.",
+     "lv": "sellel teel ei tohi mööduda."
+    },
+    {
+     "de": "Die Werkstatt überholt den alten Motor.",
+     "lv": "töökoda teeb vanale mootorile kapitaalremondi."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "überholen",
+     "meaning": "mööduma • kapitaalremonti tegema",
+     "example": "Er überholt das Auto. = Ta möödub autost."
+    },
+    {
+     "word": "vorbeifahren",
+     "meaning": "mööda sõitma",
+     "example": "Ich fahre am Haus vorbei. = Ma sõidan majast mööda."
+    },
+    {
+     "word": "reparieren",
+     "meaning": "remontima",
+     "example": "Ich repariere den Motor. = Ma remondin mootorit."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Teel möödud teisest autost: überholen."
+     }
+    ]
+   },
+   "important": {
+    "text": "Einen Motor überholen tähendab kapitaalremonti, mitte mootorist möödumist."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "überholen",
+     "purple": "mööduma",
+     "red": "remontima"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "überholt",
+       "yellow": "Auto"
+      },
+      "lv": {
+       "purple": "möödub"
+      }
+     },
+     {
+      "de": {
+       "blue": "überholen",
+       "yellow": "Straße"
+      },
+      "lv": {
+       "purple": "mööduda"
+      }
+     },
+     {
+      "de": {
+       "blue": "überholt",
+       "yellow": "Motor"
+      },
+      "lv": {
+       "red": "teeb kapitaalremondi"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "überholen"
+      },
+      "meaning": {
+       "purple": "mööduma"
+      },
+      "example": {
+       "blue": "überholt"
+      }
+     },
+     {
+      "word": {
+       "green": "vorbeifahren"
+      },
+      "meaning": {
+       "purple": "mööda sõitma"
+      },
+      "example": {
+       "red": "vorbei"
+      }
+     },
+     {
+      "word": {
+       "green": "reparieren"
+      },
+      "meaning": {
+       "purple": "remontima"
+      },
+      "example": {
+       "red": "repariere",
+       "yellow": "Motor"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "überholen",
+     "purple": "mööd"
+    },
+    "important": {
+     "blue": "überholen",
+     "red": "kapitaalremonti"
+    }
+   }
+  }
+ },
+ "b1-übernehmen": {
+  "de": "übernehmen",
+  "lv": "üle võtma",
+  "level": "B1",
+  "study": {
+   "id": "b1-übernehmen",
+   "layout": "standardStudy",
+   "translation": "üle võtma",
+   "explanation": "Põhiidee: übernehmen tähendab töö, ülesande või vastutuse ülevõtmist. Koos Kosten-iga tähendab see kulude endale võtmist.",
+   "examples": [
+    {
+     "de": "Ich übernehme diese Aufgabe.",
+     "lv": "ma võtan selle ülesande üle."
+    },
+    {
+     "de": "Die Firma übernimmt die Kosten.",
+     "lv": "ettevõte võtab kulud enda kanda."
+    },
+    {
+     "de": "Kannst du morgen meine Schicht übernehmen?",
+     "lv": "kas sa saad homme minu vahetuse üle võtta?"
+    }
+   ],
+   "comparison": [
+    {
+     "word": "übernehmen",
+     "meaning": "üle võtma, endale võtma",
+     "example": "Ich übernehme die Aufgabe. = Ma võtan ülesande üle."
+    },
+    {
+     "word": "nehmen",
+     "meaning": "võtma",
+     "example": "Ich nehme das Buch. = Ma võtan raamatu."
+    },
+    {
+     "word": "bekommen",
+     "meaning": "saama",
+     "example": "Ich bekomme eine Antwort. = Ma saan vastuse."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Töö, vahetus või vastutus läheb sinu peale: übernehmen."
+     }
+    ]
+   },
+   "important": {
+    "text": "Kosten übernehmen tähendab kulude endale võtmist, mitte lihtsalt nende saamist."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "übernehmen",
+     "purple": "üle võtma",
+     "red": "endale võtma"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "übernehme",
+       "yellow": "Aufgabe"
+      },
+      "lv": {
+       "purple": "võtan üle"
+      }
+     },
+     {
+      "de": {
+       "blue": "übernimmt",
+       "yellow": "Kosten"
+      },
+      "lv": {
+       "red": "võtab enda kanda"
+      }
+     },
+     {
+      "de": {
+       "blue": "übernehmen",
+       "yellow": "Schicht"
+      },
+      "lv": {
+       "purple": "üle võtta"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "übernehmen"
+      },
+      "meaning": {
+       "purple": "üle võtma"
+      },
+      "example": {
+       "blue": "übernehme"
+      }
+     },
+     {
+      "word": {
+       "green": "nehmen"
+      },
+      "meaning": {
+       "purple": "võtma"
+      },
+      "example": {
+       "red": "nehme"
+      }
+     },
+     {
+      "word": {
+       "green": "bekommen"
+      },
+      "meaning": {
+       "purple": "saama"
+      },
+      "example": {
+       "red": "bekomme"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "übernehmen",
+     "purple": "vastutus"
+    },
+    "important": {
+     "yellow": "Kosten",
+     "red": "endale võtmist"
+    }
+   }
+  }
+ },
+ "b1-übersehen": {
+  "de": "übersehen",
+  "lv": "märkamata jätma",
+  "level": "B1",
+  "study": {
+   "id": "b1-übersehen",
+   "layout": "standardStudy",
+   "translation": "märkamata jätma",
+   "explanation": "Põhiidee: übersehen tähendab enamasti vea või detaili märkamata jätmist. Kõrgemalt kohalt võib see tähendada tervikpildi ülevaatamist.",
+   "examples": [
+    {
+     "de": "Ich habe den Fehler übersehen.",
+     "lv": "ma jätsin vea märkamata."
+    },
+    {
+     "de": "Von hier kann man die ganze Stadt übersehen.",
+     "lv": "siit saab kogu linna üle vaadata."
+    },
+    {
+     "de": "Bitte übersieh diese Kleinigkeit nicht.",
+     "lv": "palun ära jäta seda pisiasja tähelepanuta."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "übersehen",
+     "meaning": "märkamata jätma • üle vaatama",
+     "example": "Ich habe den Fehler übersehen. = Ma jätsin vea märkamata."
+    },
+    {
+     "word": "sehen",
+     "meaning": "nägema",
+     "example": "Ich sehe das Haus. = Ma näen maja."
+    },
+    {
+     "word": "bemerken",
+     "meaning": "märkama",
+     "example": "Ich bemerke den Fehler. = Ma märkan viga."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Fehler übersehen tähendab tavaliselt vea märkamata jätmist."
+     }
+    ]
+   },
+   "important": {
+    "text": "übersehen võib olla vastandlike tähendustega: detaili märkamata jätmine või tervikpildi ülevaatamine."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "übersehen",
+     "purple": "märkamata jätmist",
+     "red": "üle vaatamist"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "übersehen",
+       "yellow": "Fehler"
+      },
+      "lv": {
+       "purple": "jätsin märkamata"
+      }
+     },
+     {
+      "de": {
+       "blue": "übersehen",
+       "green": "Stadt"
+      },
+      "lv": {
+       "red": "üle vaadata"
+      }
+     },
+     {
+      "de": {
+       "blue": "übersieh",
+       "yellow": "Kleinigkeit"
+      },
+      "lv": {
+       "purple": "ära jäta tähelepanuta"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "übersehen"
+      },
+      "meaning": {
+       "purple": "märkamata jätma"
+      },
+      "example": {
+       "blue": "übersehen"
+      }
+     },
+     {
+      "word": {
+       "green": "sehen"
+      },
+      "meaning": {
+       "purple": "nägema"
+      },
+      "example": {
+       "red": "sehe"
+      }
+     },
+     {
+      "word": {
+       "green": "bemerken"
+      },
+      "meaning": {
+       "purple": "märkama"
+      },
+      "example": {
+       "red": "bemerke",
+       "yellow": "Fehler"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "übersehen",
+     "yellow": "Fehler",
+     "purple": "märkamata jätmist"
+    },
+    "important": {
+     "blue": "übersehen",
+     "purple": "märkamata jätmine",
+     "red": "ülevaatamine"
+    }
+   }
+  }
+ },
+ "b1-umgehen": {
+  "de": "umgehen",
+  "lv": "ümber käima",
+  "level": "B1",
+  "study": {
+   "id": "b1-umgehen",
+   "layout": "standardStudy",
+   "translation": "ümber käima",
+   "explanation": "Põhiidee: umgehen tähendab inimese, asja või olukorraga ümber käimist. See võib tähendada ka takistusest ümberpõikamist või reeglitest kõrvalehiilimist.",
+   "examples": [
+    {
+     "de": "Er kann gut mit Kindern umgehen.",
+     "lv": "ta oskab hästi lastega ümber käia."
+    },
+    {
+     "de": "Wir umgehen die Baustelle.",
+     "lv": "me põikame ehitusplatsist mööda."
+    },
+    {
+     "de": "Man darf die Regeln nicht umgehen.",
+     "lv": "reeglitest ei tohi kõrvale hiilida."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "umgehen",
+     "meaning": "ümber käima • kõrvale hiilima",
+     "example": "Er geht gut mit Kindern um. = Ta käib lastega hästi ümber."
+    },
+    {
+     "word": "behandeln",
+     "meaning": "kohtlema",
+     "example": "Er behandelt sie freundlich. = Ta kohtleb teda sõbralikult."
+    },
+    {
+     "word": "vermeiden",
+     "meaning": "vältima",
+     "example": "Ich vermeide Fehler. = Ma väldin vigu."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "mit jemandem umgehen = kellegagi ümber käima."
+     }
+    ]
+   },
+   "important": {
+    "text": "Regeln umgehen tähendab reeglitest kõrvalehiilimist, tavaliselt negatiivses tähenduses."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "umgehen",
+     "purple": "ümber käima",
+     "red": "kõrvale hiilima"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "umgehen",
+       "green": "Kindern"
+      },
+      "lv": {
+       "purple": "ümber käia"
+      }
+     },
+     {
+      "de": {
+       "blue": "umgehen",
+       "yellow": "Baustelle"
+      },
+      "lv": {
+       "red": "põikame mööda"
+      }
+     },
+     {
+      "de": {
+       "blue": "umgehen",
+       "yellow": "Regeln"
+      },
+      "lv": {
+       "red": "kõrvale hiilida"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "umgehen"
+      },
+      "meaning": {
+       "purple": "ümber käima"
+      },
+      "example": {
+       "blue": [
+        "geht",
+        "um"
+       ],
+       "green": "Kindern"
+      }
+     },
+     {
+      "word": {
+       "green": "behandeln"
+      },
+      "meaning": {
+       "purple": "kohtlema"
+      },
+      "example": {
+       "red": "behandelt"
+      }
+     },
+     {
+      "word": {
+       "green": "vermeiden"
+      },
+      "meaning": {
+       "purple": "vältima"
+      },
+      "example": {
+       "red": "vermeide"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "umgehen",
+     "green": "kellegagi"
+    },
+    "important": {
+     "yellow": "Regeln",
+     "red": "kõrvalehiilimist"
+    }
+   }
+  }
+ },
+ "b1-umschlag": {
+  "de": "Umschlag",
+  "de_article": "der",
+  "de_plural": "die Umschläge",
+  "lv": "ümbrik",
+  "level": "B1",
+  "study": {
+   "id": "b1-umschlag",
+   "layout": "standardStudy",
+   "translation": "ümbrik",
+   "explanation": "Põhiidee: der Umschlag tähendab enamasti kirjaümbrikku. Sõltuvalt objektist võib see tähendada ka kaant, katet või kompressi.",
+   "examples": [
+    {
+     "de": "Der Brief liegt im Umschlag.",
+     "lv": "kiri on ümbrikus."
+    },
+    {
+     "de": "Der Umschlag des Buches ist rot.",
+     "lv": "raamatu kaas on punane."
+    },
+    {
+     "de": "Der Arzt macht einen kalten Umschlag.",
+     "lv": "arst paneb külma kompressi."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "der Umschlag",
+     "meaning": "ümbrik • kaas • kompress",
+     "example": "Der Brief ist im Umschlag. = Kiri on ümbrikus."
+    },
+    {
+     "word": "der Brief",
+     "meaning": "kiri",
+     "example": "Der Brief ist lang. = Kiri on pikk."
+    },
+    {
+     "word": "der Bezug",
+     "meaning": "kate",
+     "example": "Der Bezug ist sauber. = Kate on puhas."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Kirjal on ümbrik; raamatul võib olla kaas."
+     }
+    ]
+   },
+   "important": {
+    "text": "der Umschlag muudab tähendust objekti järgi: Brief, Buch või kalte Kompresse."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "der Umschlag",
+     "purple": "ümbrikku",
+     "red": "kaant"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Umschlag",
+       "yellow": "Brief"
+      },
+      "lv": {
+       "purple": "ümbrikus"
+      }
+     },
+     {
+      "de": {
+       "blue": "Umschlag",
+       "yellow": "Buches"
+      },
+      "lv": {
+       "red": "kaas"
+      }
+     },
+     {
+      "de": {
+       "blue": "Umschlag",
+       "green": "Arzt"
+      },
+      "lv": {
+       "red": "kompressi"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "der Umschlag"
+      },
+      "meaning": {
+       "purple": "ümbrik"
+      },
+      "example": {
+       "blue": "Umschlag"
+      }
+     },
+     {
+      "word": {
+       "green": "der Brief"
+      },
+      "meaning": {
+       "purple": "kiri"
+      },
+      "example": {
+       "red": "Brief"
+      }
+     },
+     {
+      "word": {
+       "green": "der Bezug"
+      },
+      "meaning": {
+       "purple": "kate"
+      },
+      "example": {
+       "red": "Bezug"
+      }
+     }
+    ],
+    "tip": {
+     "purple": "ümbrik",
+     "red": "kaas"
+    },
+    "important": {
+     "blue": "der Umschlag",
+     "yellow": [
+      "Brief",
+      "Buch"
+     ],
+     "red": "Kompresse"
+    }
+   }
+  }
+ },
+ "b1-unterhalten": {
+  "de": "unterhalten",
+  "lv": "meelt lahutama",
+  "level": "B1",
+  "study": {
+   "id": "b1-unterhalten",
+   "layout": "standardStudy",
+   "translation": "meelt lahutama",
+   "explanation": "Põhiidee: unterhalten tähendab meelelahutust pakkumist või ülalpidamist. sich unterhalten tähendab vestlemist.",
+   "examples": [
+    {
+     "de": "Der Film unterhält die Zuschauer.",
+     "lv": "film lõbustab vaatajaid."
+    },
+    {
+     "de": "Wir haben uns lange über die Reise unterhalten.",
+     "lv": "me vestlesime kaua reisist."
+    },
+    {
+     "de": "Er muss seine Familie unterhalten.",
+     "lv": "ta peab oma perekonda ülal pidama."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "unterhalten",
+     "meaning": "lõbustama • ülal pidama",
+     "example": "Der Film unterhält uns. = Film lõbustab meid."
+    },
+    {
+     "word": "sich unterhalten",
+     "meaning": "vestlema",
+     "example": "Wir unterhalten uns. = Me vestleme."
+    },
+    {
+     "word": "sprechen",
+     "meaning": "rääkima",
+     "example": "Wir sprechen Deutsch. = Me räägime saksa keelt."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Ilma sich-ta: lõbustama või ülal pidama; sich-ga: vestlema."
+     }
+    ]
+   },
+   "important": {
+    "text": "unterhalten ja sich unterhalten tuleb eristada sich järgi: tähendus muutub."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "unterhalten",
+     "purple": "lõbustama",
+     "red": "sich unterhalten"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "unterhält",
+       "green": "Zuschauer"
+      },
+      "lv": {
+       "purple": "lõbustab"
+      }
+     },
+     {
+      "de": {
+       "blue": "unterhalten",
+       "red": "uns"
+      },
+      "lv": {
+       "red": "vestlesime"
+      }
+     },
+     {
+      "de": {
+       "blue": "unterhalten",
+       "green": "Familie"
+      },
+      "lv": {
+       "purple": "peab ülal pidama"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "unterhalten"
+      },
+      "meaning": {
+       "purple": "lõbustama"
+      },
+      "example": {
+       "blue": "unterhält"
+      }
+     },
+     {
+      "word": {
+       "green": "sich unterhalten"
+      },
+      "meaning": {
+       "purple": "vestlema"
+      },
+      "example": {
+       "red": "uns"
+      }
+     },
+     {
+      "word": {
+       "green": "sprechen"
+      },
+      "meaning": {
+       "purple": "rääkima"
+      },
+      "example": {
+       "red": "sprechen"
+      }
+     }
+    ],
+    "tip": {
+     "purple": "lõbustama",
+     "red": "vestlema"
+    },
+    "important": {
+     "blue": "unterhalten",
+     "red": "sich unterhalten"
+    }
+   }
+  }
+ },
+ "b1-untersuchung": {
+  "de": "Untersuchung",
+  "de_article": "die",
+  "de_plural": "die Untersuchungen",
+  "lv": "uurimine",
+  "level": "B1",
+  "study": {
+   "id": "b1-untersuchung",
+   "layout": "standardStudy",
+   "translation": "uurimine",
+   "explanation": "Põhiidee: die Untersuchung tähendab uurimist, kontrolli või uuringut. Kontekst näitab, kas jutt on arstist, politseist või teadusest.",
+   "examples": [
+    {
+     "de": "Die ärztliche Untersuchung dauert zehn Minuten.",
+     "lv": "arsti läbivaatus kestab kümme minutit."
+    },
+    {
+     "de": "Die Polizei leitet eine Untersuchung ein.",
+     "lv": "politsei alustab uurimist."
+    },
+    {
+     "de": "Die Untersuchung liefert neue Ergebnisse.",
+     "lv": "uuring annab uusi tulemusi."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "die Untersuchung",
+     "meaning": "uurimine, kontroll, uuring",
+     "example": "Die Untersuchung beginnt. = Uurimine algab."
+    },
+    {
+     "word": "die Prüfung",
+     "meaning": "eksam või ametlik kontroll",
+     "example": "Die Prüfung ist schwer. = Eksam on raske."
+    },
+    {
+     "word": "die Forschung",
+     "meaning": "teadustöö kui protsess",
+     "example": "Die Forschung ist wichtig. = Teadustöö on tähtis."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Arst kontrollib, politsei uurib, teadus uurib: die Untersuchung."
+     }
+    ]
+   },
+   "important": {
+    "text": "die Untersuchung ei ole ainult politsei uurimine; meditsiinis on see ka arsti läbivaatus."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "die Untersuchung",
+     "purple": "uurimist",
+     "red": "uuringut"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Untersuchung",
+       "green": "ärztliche"
+      },
+      "lv": {
+       "purple": "läbivaatus"
+      }
+     },
+     {
+      "de": {
+       "blue": "Untersuchung",
+       "green": "Polizei"
+      },
+      "lv": {
+       "purple": "uurimist"
+      }
+     },
+     {
+      "de": {
+       "blue": "Untersuchung",
+       "yellow": "Ergebnisse"
+      },
+      "lv": {
+       "red": "Uuring"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "die Untersuchung"
+      },
+      "meaning": {
+       "purple": "uurimine"
+      },
+      "example": {
+       "blue": "Untersuchung"
+      }
+     },
+     {
+      "word": {
+       "green": "die Prüfung"
+      },
+      "meaning": {
+       "purple": "eksam"
+      },
+      "example": {
+       "red": "Prüfung"
+      }
+     },
+     {
+      "word": {
+       "green": "die Forschung"
+      },
+      "meaning": {
+       "purple": "teadustöö"
+      },
+      "example": {
+       "red": "Forschung"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "die Untersuchung",
+     "green": [
+      "Arst",
+      "politsei"
+     ],
+     "red": "uurib"
+    },
+    "important": {
+     "blue": "die Untersuchung",
+     "red": "arsti läbivaatus"
+    }
+   }
+  }
+ },
+ "b1-verändern": {
+  "de": "verändern",
+  "lv": "muutma",
+  "level": "B1",
+  "study": {
+   "id": "b1-verändern",
+   "layout": "standardStudy",
+   "translation": "muutma",
+   "explanation": "Põhiidee: verändern tähendab millegi muutmist nii, et see saab teistsuguseks. sich verändern tähendab enda muutumist.",
+   "examples": [
+    {
+     "de": "Die neue Regel verändert den Alltag.",
+     "lv": "uus reegel muudab igapäevaelu."
+    },
+    {
+     "de": "Der Umzug hat sein Leben verändert.",
+     "lv": "kolimine muutis tema elu."
+    },
+    {
+     "de": "Die Stadt verändert sich schnell.",
+     "lv": "linn muutub kiiresti."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "verändern",
+     "meaning": "oluliselt muutma",
+     "example": "Das verändert die Situation. = See muudab olukorda."
+    },
+    {
+     "word": "ändern",
+     "meaning": "muutma või parandama konkreetset asja",
+     "example": "Ich ändere den Termin. = Ma muudan tähtaega."
+    },
+    {
+     "word": "sich verändern",
+     "meaning": "muutuma",
+     "example": "Alles verändert sich. = Kõik muutub."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Kui miski muutub teistsuguseks, kasutatakse sageli verändern."
+     }
+    ]
+   },
+   "important": {
+    "text": "sich verändern on enda muutumine; verändern ilma sich-ta tähendab millegi muu muutmist."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "verändern",
+     "purple": "muutma",
+     "red": "sich verändern"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "verändert",
+       "yellow": "Alltag"
+      },
+      "lv": {
+       "purple": "muudab"
+      }
+     },
+     {
+      "de": {
+       "blue": "verändert",
+       "yellow": "Leben"
+      },
+      "lv": {
+       "purple": "muutis"
+      }
+     },
+     {
+      "de": {
+       "blue": "verändert",
+       "red": "sich"
+      },
+      "lv": {
+       "red": "muutub"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "verändern"
+      },
+      "meaning": {
+       "purple": "muutma"
+      },
+      "example": {
+       "blue": "verändert"
+      }
+     },
+     {
+      "word": {
+       "green": "ändern"
+      },
+      "meaning": {
+       "purple": "muutma"
+      },
+      "example": {
+       "red": "ändere"
+      }
+     },
+     {
+      "word": {
+       "green": "sich verändern"
+      },
+      "meaning": {
+       "purple": "muutuma"
+      },
+      "example": {
+       "red": "sich"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "verändern",
+     "purple": "teistsuguseks"
+    },
+    "important": {
+     "red": "sich verändern",
+     "purple": "muutma"
+    }
+   }
+  }
+ },
+ "b1-verband": {
+  "de": "Verband",
+  "de_article": "der",
+  "de_plural": "die Verbände",
+  "lv": "side",
+  "level": "B1",
+  "study": {
+   "id": "b1-verband",
+   "layout": "standardStudy",
+   "translation": "side",
+   "explanation": "Põhiidee: der Verband on meditsiinis side. Organisatsioonide keeles tähendab see liitu või föderatsiooni.",
+   "examples": [
+    {
+     "de": "Die Ärztin legt einen Verband an.",
+     "lv": "arst paneb sideme peale."
+    },
+    {
+     "de": "Der Verband muss trocken bleiben.",
+     "lv": "side peab jääma kuivaks."
+    },
+    {
+     "de": "Der Verband vertritt viele Sportvereine.",
+     "lv": "liit esindab paljusid spordiklubisid."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "der Verband",
+     "meaning": "side • liit",
+     "example": "Der Verband ist sauber. = Side on puhas."
+    },
+    {
+     "word": "der Verein",
+     "meaning": "selts",
+     "example": "Der Verein hat viele Mitglieder. = Seltsil on palju liikmeid."
+    },
+    {
+     "word": "die Verbindung",
+     "meaning": "ühendus, side",
+     "example": "Die Verbindung ist stabil. = Ühendus on stabiilne."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Haaval on der Verband side; organisatsioonis - liit."
+     }
+    ]
+   },
+   "important": {
+    "text": "der Verband ei ole die Verbindung: side või liit ei ole ühendus."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "der Verband",
+     "purple": "side",
+     "red": "liitu"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Verband",
+       "green": "Ärztin"
+      },
+      "lv": {
+       "purple": "sideme"
+      }
+     },
+     {
+      "de": {
+       "blue": "Verband"
+      },
+      "lv": {
+       "purple": "Side"
+      }
+     },
+     {
+      "de": {
+       "blue": "Verband",
+       "yellow": "Sportvereine"
+      },
+      "lv": {
+       "red": "Liit"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "der Verband"
+      },
+      "meaning": {
+       "purple": "side"
+      },
+      "example": {
+       "blue": "Verband"
+      }
+     },
+     {
+      "word": {
+       "green": "der Verein"
+      },
+      "meaning": {
+       "purple": "selts"
+      },
+      "example": {
+       "red": "Verein"
+      }
+     },
+     {
+      "word": {
+       "green": "die Verbindung"
+      },
+      "meaning": {
+       "purple": "ühendus"
+      },
+      "example": {
+       "red": "Verbindung"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "der Verband",
+     "purple": "side",
+     "red": "liit"
+    },
+    "important": {
+     "blue": "der Verband",
+     "red": "die Verbindung"
+    }
+   }
+  }
+ },
+ "b1-verbindung": {
+  "de": "Verbindung",
+  "de_article": "die",
+  "de_plural": "die Verbindungen",
+  "lv": "ühendus",
+  "level": "B1",
+  "study": {
+   "id": "b1-verbindung",
+   "layout": "standardStudy",
+   "translation": "ühendus",
+   "explanation": "Põhiidee: die Verbindung tähendab ühendust või sidet asjade, inimeste, kohtade või süsteemide vahel.",
+   "examples": [
+    {
+     "de": "Die Internetverbindung ist schlecht.",
+     "lv": "internetiühendus on halb."
+    },
+    {
+     "de": "Es gibt eine direkte Verbindung nach Berlin.",
+     "lv": "on otseühendus Berliini."
+    },
+    {
+     "de": "Ich habe eine Verbindung zu dieser Firma.",
+     "lv": "mul on side selle ettevõttega."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "die Verbindung",
+     "meaning": "ühendus, side",
+     "example": "Die Verbindung ist stabil. = Ühendus on stabiilne."
+    },
+    {
+     "word": "der Anschluss",
+     "meaning": "liitumine",
+     "example": "Der Anschluss funktioniert. = Liitumine töötab."
+    },
+    {
+     "word": "der Verband",
+     "meaning": "side • liit",
+     "example": "Der Verband ist sauber. = Side on puhas."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Internet, transport või inimestevaheline side: die Verbindung."
+     }
+    ]
+   },
+   "important": {
+    "text": "die Verbindung ei ole der Verband. Ühendus ja side (meditsiiniline) on erinevad sõnad."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "die Verbindung",
+     "purple": "ühendust",
+     "red": "sidet"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Internetverbindung"
+      },
+      "lv": {
+       "purple": "internetiühendus"
+      }
+     },
+     {
+      "de": {
+       "blue": "Verbindung",
+       "green": "Berlin"
+      },
+      "lv": {
+       "purple": "otseühendus"
+      }
+     },
+     {
+      "de": {
+       "blue": "Verbindung",
+       "yellow": "Firma"
+      },
+      "lv": {
+       "red": "side"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "die Verbindung"
+      },
+      "meaning": {
+       "purple": "ühendus"
+      },
+      "example": {
+       "blue": "Verbindung"
+      }
+     },
+     {
+      "word": {
+       "green": "der Anschluss"
+      },
+      "meaning": {
+       "purple": "liitumine"
+      },
+      "example": {
+       "red": "Anschluss"
+      }
+     },
+     {
+      "word": {
+       "green": "der Verband"
+      },
+      "meaning": {
+       "purple": "side"
+      },
+      "example": {
+       "red": "Verband"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "die Verbindung",
+     "purple": "side"
+    },
+    "important": {
+     "blue": "die Verbindung",
+     "red": "der Verband"
+    }
+   }
+  }
  }
 }
