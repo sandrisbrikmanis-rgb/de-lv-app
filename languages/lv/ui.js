@@ -234,7 +234,61 @@ window.LANGUAGE_UI_STRINGS = {
     vowelsDesc: "Garie un īsie patskaņi ar piemēriem.",
     consonantsTitle: "Līdzskaņi un burtu savienojumi",
     consonantsDesc: "Svarīgākās līdzskaņu skaņas iesācējam.",
-    lessonProgress: "Lekcija {lesson} · Pārtulko: {current} / {total}"
+    lessonProgress: "Lekcija {lesson} · Pārtulko: {current} / {total}",
+    exerciseProgress: "Lekcija {lesson} · Vingrinājums",
+    sections: {
+      grammar: "Gramatika",
+      exercise: "Vingrinājums",
+      translate: "Pārtulko",
+      exerciseCombined: "Übung / Vingrinājums"
+    },
+    hints: {
+      tapToRevealAnswer: "Pieskaries kartītei, lai redzētu atbildi.",
+      tapToContinue: "Pieskaries kartītei, lai turpinātu.",
+      tapToRevealGerman: "Pieskaries kartītei, lai redzētu vācu tulkojumu.",
+      tapNextStep: "Pieskaries kartītei, lai pārietu uz nākamo soli.",
+      exerciseCardAria: "{title} vingrinājuma kartīte"
+    },
+    cta: {
+      tapNextCard: "Pieskaries nākamajai kartītei",
+      tapToRevealAnswer: "Pieskaries, lai redzētu atbildi",
+      tapContinue: "Pieskaries turpināt",
+      transformSentence: "Pārveido teikumu.",
+      transformThirdSingular: "Pārveido teikumu 3. personā vienskaitlī.",
+      transformFirstPlural: "Pārveido teikumu 1. personā daudzskaitlī."
+    },
+    exerciseMeta: {
+      fillCase: "Übung I — lieto pareizo locījumu",
+      chooseCasePlural: "Liec pareizo locījumu un darini daudzskaitli!",
+      answerPlural: "Tagad atbildi daudzskaitlī.",
+      translate: "Übung II — tulko",
+      formDu: "Forma 1/3: Tu (vienskaitlis)",
+      formIhr: "Forma 2/3: Jūs (daudzskaitlis)",
+      formSie: "Forma 3/3: Sie (pieklājīgā forma)"
+    },
+    lessonItems: {
+      "1": { title: "Lekcija 1", menuDesc: "Darbības vārdi tagadnē, vārdiņi, gramatika un treniņš." },
+      "2": { title: "Lekcija 2", menuDesc: "Dialogi, vārdi, izruna, gramatika un pārtulkošana." },
+      "3": { title: "Lekcija 3", menuDesc: "Dialogi, vārdi, izruna, gramatika un pārtulkošana." },
+      "4": { title: "Lekcija 4", menuDesc: "Akuzatīvs, nehmen, hinlegen, hinausgehen un īpašības vārdi." },
+      "5": { title: "Lekcija 5", menuDesc: "Wen?, akuzatīvs, sitzen, fragen un -in galotne." },
+      "6": { title: "Lekcija 6", menuDesc: "Skaitļi, daudzskaitlis, umlauti un lietvārdu daudzskaitļa formas." },
+      "7": { title: "Lekcija 7", menuDesc: "Pavēles izteiksme, uzrunas forma un daudzskaitlis." },
+      "8": { title: "Lekcija 8", menuDesc: "Refleksīvie darbības vārdi, e → i/ie maiņa un akuzatīvs." },
+      "9": { title: "Lekcija 9", menuDesc: "Vairāki priekšmeti, dieser/jener, vienskaitlis un daudzskaitlis." },
+      "10": { title: "Lekcija 10", menuDesc: "Sein, können, veselība, vecums un profesijas." },
+      "11": { title: "Lekcija 11", menuDesc: "Haben, kein/keine/keinen, piederība un saliktie lietvārdi." },
+      "12": { title: "Lekcija 12", menuDesc: "Salīdzināmās pakāpes, als/wie, vecums un krāsas." },
+      "13": { title: "Lekcija 13", menuDesc: "Der Körper, ķermeņa daļas, turnen un jeder." },
+      "14": { title: "Lekcija 14", menuDesc: "müssen, wollen, mögen un modālie darbības vārdi." },
+      "15": { title: "Lekcija 15", menuDesc: "sollen, dürfen, essen un augļi." },
+      "16": { title: "Lekcija 16", menuDesc: "Dativs, geben, sich nähern." },
+      "17": { title: "Lekcija 17", menuDesc: "mit + Dativ, womit / mit wem un Umlaut." },
+      "18": { title: "Lekcija 18", menuDesc: "wohin / wo, Akkusativ vai Dativ ar an / in / auf." },
+      "19": { title: "Lekcija 19", menuDesc: "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen." },
+      "20": { title: "Lekcija 20", menuDesc: "Haus, Stockwerk, Dativ/Akkusativ un saliktie lietvārdi." },
+      "21": { title: "Lekcija 21", menuDesc: "woher / wohin / wo, von / aus / mit + Dativ." }
+    }
   },
   plural: {
     wordOne: "vārds",

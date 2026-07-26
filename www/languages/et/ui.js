@@ -208,7 +208,61 @@ window.LANGUAGE_UI_STRINGS = {
     vowelsDesc: "Pikad ja lühikesed täishäälikud näidetega.",
     consonantsTitle: "Kaashäälikud ja tähekombinatsioonid",
     consonantsDesc: "Olulisemad kaashäälikuhelid algajale.",
-    lessonProgress: "Õppetund {lesson} · Tõlgi: {current} / {total}"
+    lessonProgress: "Õppetund {lesson} · Tõlgi: {current} / {total}",
+    exerciseProgress: "Õppetund {lesson} · Harjutus",
+    sections: {
+      grammar: "Grammatika",
+      exercise: "Harjutus",
+      translate: "Tõlgi",
+      exerciseCombined: "Übung / Harjutus"
+    },
+    hints: {
+      tapToRevealAnswer: "Klõpsa kaardil, et näha vastust.",
+      tapToContinue: "Klõpsa kaardil, et jätkata.",
+      tapToRevealGerman: "Klõpsa kaardil, et näha saksa tõlget.",
+      tapNextStep: "Klõpsa kaardil, et minna järgmise sammu juurde.",
+      exerciseCardAria: "{title} harjutuskaart"
+    },
+    cta: {
+      tapNextCard: "Klõpsa järgmisele kaardile",
+      tapToRevealAnswer: "Klõpsa, et näha vastust",
+      tapContinue: "Klõpsa jätkamiseks",
+      transformSentence: "Muuda lauset.",
+      transformThirdSingular: "Muuda lause 3. isikus ainsuses.",
+      transformFirstPlural: "Muuda lause 1. isikus mitmuses."
+    },
+    exerciseMeta: {
+      fillCase: "Übung I — kasuta õiget käänet",
+      chooseCasePlural: "Pane õige kääne ja tee mitmus!",
+      answerPlural: "Nüüd vasta mitmuses.",
+      translate: "Übung II — tõlgi",
+      formDu: "Vorm 1/3: sina (ainsus)",
+      formIhr: "Vorm 2/3: teie (mitmus)",
+      formSie: "Vorm 3/3: Sie (viisakusvorm)"
+    },
+    lessonItems: {
+      "1": { title: "Õppetund 1", menuDesc: "Tegusõnad olevikus, sõnad, grammatika ja treening." },
+      "2": { title: "Õppetund 2", menuDesc: "Dialoogid, sõnad, hääldus, grammatika ja tõlkimine." },
+      "3": { title: "Õppetund 3", menuDesc: "Dialoogid, sõnad, hääldus, grammatika ja tõlkimine." },
+      "4": { title: "Õppetund 4", menuDesc: "Akusatiiv, nehmen, hinlegen, hinausgehen ja omadussõnad." },
+      "5": { title: "Õppetund 5", menuDesc: "Wen?, akusatiiv, sitzen, fragen ja -in lõpp." },
+      "6": { title: "Õppetund 6", menuDesc: "Arvsõnad, mitmus, täishäälikumuutused ja nimisõnade mitmuse vormid." },
+      "7": { title: "Õppetund 7", menuDesc: "Käskiv kõneviis, viisakusvorm ja mitmus." },
+      "8": { title: "Õppetund 8", menuDesc: "Refleksiivsed tegusõnad, e → i/ie muutus ja akusatiiv." },
+      "9": { title: "Õppetund 9", menuDesc: "Mitu eset, dieser/jener, ainsus ja mitmus." },
+      "10": { title: "Õppetund 10", menuDesc: "Sein, können, tervis, vanus ja ametid." },
+      "11": { title: "Õppetund 11", menuDesc: "Haben, kein/keine/keinen, omand ja liitsõnad." },
+      "12": { title: "Õppetund 12", menuDesc: "Võrdlusastmed, als/wie, vanus ja värvid." },
+      "13": { title: "Õppetund 13", menuDesc: "Der Körper, kehaosad, turnen ja jeder." },
+      "14": { title: "Õppetund 14", menuDesc: "müssen, wollen, mögen ja modaalsed tegusõnad." },
+      "15": { title: "Õppetund 15", menuDesc: "sollen, dürfen, essen ja puuviljad." },
+      "16": { title: "Õppetund 16", menuDesc: "Dativ, geben, sich nähern." },
+      "17": { title: "Õppetund 17", menuDesc: "mit + Dativ, womit / mit wem ja Umlaut." },
+      "18": { title: "Õppetund 18", menuDesc: "wohin / wo, Akkusativ või Dativ koos an / in / auf." },
+      "19": { title: "Õppetund 19", menuDesc: "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen." },
+      "20": { title: "Õppetund 20", menuDesc: "Haus, Stockwerk, Dativ/Akkusativ ja liitsõnad." },
+      "21": { title: "Õppetund 21", menuDesc: "woher / wohin / wo, von / aus / mit + Dativ." }
+    }
   },
   plural: { wordOne: "sõna", wordsFew: "sõna", wordsMany: "sõna" },
   spelling: {

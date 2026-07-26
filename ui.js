@@ -524,83 +524,108 @@ const elements = {
 
 const courseLessonIds = Array.from({ length: 21 }, (_, index) => `kurssLesson${index + 1}`);
 
+const COURSE_SECTION_I18N_KEYS = {
+  "Gramatika": "kurss.sections.grammar",
+  "Vingrinājums": "kurss.sections.exercise",
+  "Pārtulko": "kurss.sections.translate",
+  "Übung / Vingrinājums": "kurss.sections.exerciseCombined"
+};
+
+function getCourseLessonNumber(lessonId) {
+  return String(lessonId || "").match(/\d+/)?.[0] || "";
+}
+
+function getCourseSectionDisplayTitle(title) {
+  const key = COURSE_SECTION_I18N_KEYS[title];
+  return key ? t(key) : title;
+}
+
+function getCourseLessonMenuTitle(lessonNumber) {
+  return t(`kurss.lessonItems.${lessonNumber}.title`);
+}
+
+function getCourseLessonMenuDesc(lessonNumber) {
+  return t(`kurss.lessonItems.${lessonNumber}.menuDesc`);
+}
+
+function getCourseLessonHeaderTitle(lessonId, lesson) {
+  const lessonNumber = getCourseLessonNumber(lessonId);
+  if (lesson?.title) return lesson.title;
+  return lessonNumber ? getCourseLessonMenuTitle(lessonNumber) : "";
+}
+
+function getCourseLessonHeaderSubtitle(lesson) {
+  return lesson?.subtitle || "";
+}
+
+function getCourseExerciseHint(sectionTitle, lessonId) {
+  if (lessonId === "lesson9" && sectionTitle === "Übung / Vingrinājums") {
+    return t("kurss.hints.tapNextStep");
+  }
+  if (sectionTitle === "Vingrinājums") return t("kurss.hints.tapToContinue");
+  if (sectionTitle === "Pārtulko") return t("kurss.hints.tapToRevealGerman");
+  return t("kurss.hints.tapToRevealAnswer");
+}
+
+function formatCourseTranslateProgress(lessonNumber, current, total) {
+  return t("kurss.lessonProgress", { lesson: lessonNumber, current, total });
+}
+
+function formatCourseExerciseProgress(lessonNumber, sourceIndex, sourceTotal, microIndex, microTotal) {
+  const progressParts = [t("kurss.exerciseProgress", { lesson: lessonNumber }), (sourceIndex + 1) + " / " + sourceTotal];
+  if (microTotal > 1) progressParts.push((microIndex + 1) + " / " + microTotal);
+  return progressParts.join(" · ");
+}
+
 const courseLessonConfigs = {
   kurssLesson1: {
-    title: "Lekcija 1",
-    subtitle: "Darbības vārdi tagadnē, vārdiņi, gramatika un pārtulko",
     prepare: () => { prepareLesson1Accordion(); renderCourseTranslateCard("lesson1", 0, false); }
   },
   kurssLesson2: {
-    title: "Lekcija 2",
-    subtitle: "Dialogi, vārdi, izruna, gramatika un pārtulko",
     prepare: () => { prepareLesson2Accordion(); renderCourseTranslateCard("lesson2", 0, false); }
   },
   kurssLesson3: {
-    title: "Lekcija 3",
-    subtitle: "Artikuli, vietas vārdi un pārtulko",
     prepare: () => { prepareLesson3Accordion(); renderCourseTranslateCard("lesson3", 0, false); }
   },
   kurssLesson4: {
-    title: "Lekcija 4",
-    subtitle: "Objekti klasē, īpašības un pārtulko",
     prepare: () => { prepareLesson4Accordion(); renderCourseTranslateCard("lesson4", 0, false); }
   },
   kurssLesson5: {
-    title: "Lekcija 5",
-    subtitle: "Wen?, akuzatīvs, sitzen, fragen un -in galotne.",
     prepare: () => { prepareLesson5Accordion(); renderCourseTranslateCard("lesson5", 0, false); }
   },
   kurssLesson6: {
-    title: "Lekcija 6",
-    subtitle: "Darbības vārdi, vietas apstākļi un pārtulko",
     prepare: () => { prepareLesson6Accordion(); renderCourseTranslateCard("lesson6", 0, false); }
   },
   kurssLesson7: {
-    title: "Lekcija 7",
-    subtitle: "Pavēles izteiksme, uzrunas forma un daudzskaitlis.",
     prepare: () => { prepareLesson7Accordion(); renderLesson7ExerciseCard(0, "challenge"); }
   },
   kurssLesson8: {
-    title: "Lekcija 8",
-    subtitle: "Refleksīvie darbības vārdi, e → i/ie maiņa un akuzatīvs",
     dataKey: "kurssLesson8",
     exerciseAttribute: "data-lesson8-exercise-card",
     prepare: () => { prepareLesson8Accordion(); renderLesson8ExerciseCard(0, "challenge"); renderCourseTranslateCard("lesson8", 0, false); }
   },
   kurssLesson9: {
-    title: "Lekcija 9",
-    subtitle: "dieser/jener, vietniekvārdi, daudzskaitlis un teikumu pārveidošana",
     dataKey: "kurssLesson9",
     exerciseAttribute: "data-lesson9-exercise-card",
     prepare: () => { prepareLesson9Accordion(); renderLesson9ExerciseCard(0, "challenge"); renderCourseTranslateCard("lesson9", 0, false); }
   },
   kurssLesson10: {
-    title: "Lekcija 10",
-    subtitle: "sein, können, pamatformas un pārtulko",
     dataKey: "kurssLesson10",
     prepare: () => { prepareLesson10Accordion(); renderCourseTranslateCard("lesson10", 0, false); }
   },
   kurssLesson11: {
-    title: "Lekcija 11",
-    subtitle: "haben, kein/keine/kein, draugi un istabas apraksts",
     dataKey: "kurssLesson11",
     prepare: () => { prepareLesson11Accordion(); renderCourseTranslateCard("lesson11", 0, false); }
   },
   kurssLesson12: {
-    title: "Lekcija 12",
-    subtitle: "Īpašības vārdu salīdzināmās pakāpes, krāsas un īpašības.",
     dataKey: "kurssLesson12",
     prepare: () => { prepareLesson12Accordion(); renderCourseTranslateCard("lesson12", 0, false); }
   },
   kurssLesson13: {
-    title: "Lekcija 13",
-    subtitle: "Der Körper, ķermeņa daļas, turnen, jeder un daudzskaitlis.",
     dataKey: "kurssLesson13",
     prepare: () => { prepareLesson13Accordion(); renderCourseExerciseCard("lesson13", 0, "challenge"); renderCourseTranslateCard("lesson13", 0, false); }
   },
   kurssLesson14: {
-    title: "Lekcija 14",
-    subtitle: "müssen, wollen, mögen",
     dataKey: "kurssLesson14",
     prepare: () => {
       const accordions = Array.from(elements.kurssLesson14.querySelectorAll(".lesson1-accordion"));
@@ -609,8 +634,6 @@ const courseLessonConfigs = {
     }
   },
   kurssLesson15: {
-    title: "Lekcija 15",
-    subtitle: "sollen, dürfen, essen, augļi",
     dataKey: "kurssLesson15",
     prepare: () => {
       const accordions = Array.from(elements.kurssLesson15.querySelectorAll(".lesson1-accordion"));
@@ -619,8 +642,6 @@ const courseLessonConfigs = {
     }
   },
   kurssLesson16: {
-    title: "Lekcija 16",
-    subtitle: "Dativs, geben, sich nähern",
     dataKey: "kurssLesson16",
     prepare: () => {
       const accordions = Array.from(elements.kurssLesson16.querySelectorAll(".lesson1-accordion"));
@@ -630,8 +651,6 @@ const courseLessonConfigs = {
     }
   },
   kurssLesson17: {
-    title: "Lekcija 17",
-    subtitle: "mit + Dativ, womit / mit wem, darbības vārdi ar Umlaut",
     dataKey: "kurssLesson17",
     prepare: () => {
       const accordions = Array.from(elements.kurssLesson17.querySelectorAll(".lesson1-accordion"));
@@ -641,8 +660,6 @@ const courseLessonConfigs = {
     }
   },
   kurssLesson18: {
-    title: "Lekcija 18",
-    subtitle: "wohin / wo, Akkusativ vai Dativ ar an / in / auf",
     dataKey: "kurssLesson18",
     prepare: () => {
       const accordions = Array.from(elements.kurssLesson18.querySelectorAll(".lesson1-accordion"));
@@ -652,8 +669,6 @@ const courseLessonConfigs = {
     }
   },
   kurssLesson19: {
-    title: "Lekcija 19",
-    subtitle: "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen",
     dataKey: "kurssLesson19",
     prepare: () => {
       const accordions = Array.from(elements.kurssLesson19.querySelectorAll(".lesson1-accordion"));
@@ -663,8 +678,6 @@ const courseLessonConfigs = {
     }
   },
   kurssLesson20: {
-    title: "Lekcija 20",
-    subtitle: "Haus, Stockwerk, Dativ/Akkusativ, saliktie lietvārdi",
     dataKey: "kurssLesson20",
     prepare: () => {
       const accordions = Array.from(elements.kurssLesson20.querySelectorAll(".lesson1-accordion"));
@@ -674,8 +687,6 @@ const courseLessonConfigs = {
     }
   },
   kurssLesson21: {
-    title: "Lekcija 21",
-    subtitle: "woher / wohin / wo, von / aus / mit + Dativ",
     dataKey: "kurssLesson21",
     prepare: () => {
       const accordions = Array.from(elements.kurssLesson21.querySelectorAll(".lesson1-accordion"));
@@ -714,9 +725,10 @@ function openCourseLesson(lessonId) {
   const target = elements[lessonId];
   if (!config || !target) return;
 
+  const lesson = window.COURSE_LESSON_DATA?.[config.dataKey || lessonId];
   hideAllKurssPanels();
-  elements.kurssTitle.textContent = config.title;
-  elements.kurssSubtitle.textContent = config.subtitle || "";
+  elements.kurssTitle.textContent = getCourseLessonHeaderTitle(lessonId, lesson);
+  elements.kurssSubtitle.textContent = getCourseLessonHeaderSubtitle(lesson);
   hideCourseLessonPanels(lessonId);
   renderCourseLesson(lessonId);
   target.hidden = false;
@@ -934,9 +946,9 @@ function expandExerciseToMicrocards(card, sourceCardIndex) {
   if (card.infinitive && card.du) {
     const prompt = card.infinitive + " — " + card.lv;
     const forms = [
-      { label: "du", value: card.du, meta: "Forma 1/3: Tu (vienskaitlis)" },
-      { label: "ihr", value: card.ihr, meta: "Forma 2/3: Jūs (daudzskaitlis)" },
-      { label: "Sie", value: card.sie, meta: "Forma 3/3: Sie (pieklājīgā forma)" }
+      { label: "du", value: card.du, meta: t("kurss.exerciseMeta.formDu") },
+      { label: "ihr", value: card.ihr, meta: t("kurss.exerciseMeta.formIhr") },
+      { label: "Sie", value: card.sie, meta: t("kurss.exerciseMeta.formSie") }
     ];
     return finalizeMicrocards(forms.map((form) => createMicroCard({
       meta: form.meta,
@@ -953,7 +965,7 @@ function expandExerciseToMicrocards(card, sourceCardIndex) {
       const current = card.forms[i];
       const next = card.forms[i + 1];
       microcards.push(createMicroCard({
-        meta: formatExerciseFormMeta(next, i + 1 >= card.forms.length - 1 ? "Pieskaries nākamajai kartītei" : "Pārveido teikumu."),
+        meta: formatExerciseFormMeta(next, i + 1 >= card.forms.length - 1 ? t("kurss.cta.tapNextCard") : t("kurss.cta.transformSentence")),
         basePrefix: "",
         challengeSegment: current?.text || "",
         answerSegment: next?.text || "",
@@ -966,28 +978,28 @@ function expandExerciseToMicrocards(card, sourceCardIndex) {
   if (card.ich && card.er) {
     return finalizeMicrocards([
       createMicroCard({
-        meta: "Pārveido teikumu 3. personā vienskaitlī.",
+        meta: t("kurss.cta.transformThirdSingular"),
         challengeSegment: card.ich,
         answerSegment: card.er
       }, sourceCardIndex, 0, 3),
       createMicroCard({
-        meta: "Pārveido teikumu 1. personā daudzskaitlī.",
+        meta: t("kurss.cta.transformFirstPlural"),
         challengeSegment: card.er,
         answerSegment: card.wir || ""
       }, sourceCardIndex, 1, 3),
       createMicroCard({
-        meta: "Pieskaries nākamajai kartītei.",
+        meta: t("kurss.cta.tapNextCard"),
         challengeSegment: card.wir || "",
         answerSegment: "",
         isDone: true,
-        cta: "Pieskaries nākamajai kartītei"
+        cta: t("kurss.cta.tapNextCard")
       }, sourceCardIndex, 2, 3)
     ], sourceCardIndex);
   }
 
   if (card.lv && card.de && !card.prompt) {
     return finalizeMicrocards([createMicroCard({
-      meta: "Übung II — tulko",
+      meta: t("kurss.exerciseMeta.translate"),
       challengeSegment: card.lv,
       answerSegment: card.de
     }, sourceCardIndex, 0, 1)], sourceCardIndex);
@@ -996,8 +1008,8 @@ function expandExerciseToMicrocards(card, sourceCardIndex) {
   if (card.prompt && card.answer) {
     const microcards = [];
     const baseMeta = card.type === "fill"
-      ? "Übung I — lieto pareizo locījumu"
-      : resolveExerciseMeta(card.instruction, card.task, "Liec pareizo locījumu un darini daudzskaitli!");
+      ? t("kurss.exerciseMeta.fillCase")
+      : resolveExerciseMeta(card.instruction, card.task, t("kurss.exerciseMeta.chooseCasePlural"));
     const singularSplit = splitPromptAnswerSegments(card.prompt, card.answer);
     singularSplit.segments.forEach((segment) => {
       microcards.push(createMicroCard({
@@ -1013,7 +1025,7 @@ function expandExerciseToMicrocards(card, sourceCardIndex) {
       const pluralSplit = splitPromptAnswerSegments(card.prompt, secondAnswer);
       pluralSplit.segments.forEach((segment) => {
         microcards.push(createMicroCard({
-          meta: resolveExerciseMeta(null, card.task2, "Tagad atbildi daudzskaitlī."),
+          meta: resolveExerciseMeta(null, card.task2, t("kurss.exerciseMeta.answerPlural")),
           basePrefix: pluralSplit.basePrefix,
           challengeSegment: segment.challenge,
           answerSegment: segment.answer
@@ -1025,7 +1037,7 @@ function expandExerciseToMicrocards(card, sourceCardIndex) {
   }
 
   return finalizeMicrocards([createMicroCard({
-    meta: card.type === "fill" ? "Übung I — lieto pareizo locījumu" : "",
+    meta: card.type === "fill" ? t("kurss.exerciseMeta.fillCase") : "",
     challengeSegment: card.prompt || card.lv || "",
     answerSegment: card.answer || card.de || ""
   }, sourceCardIndex, 0, 1)], sourceCardIndex);
@@ -1157,12 +1169,12 @@ function renderExerciseCardShell(target, options) {
       if (answerText) {
         bodyParts.push('<span class="lesson1-training-answer">' + highlightAnswerSegment(challengeText, answerText) + "</span>");
       } else if (micro.isDone) {
-        bodyParts.push('<span class="exercise-card-cta">' + escapeHtml(cta || "Pieskaries nākamajai kartītei") + "</span>");
+        bodyParts.push('<span class="exercise-card-cta">' + escapeHtml(cta || t("kurss.cta.tapNextCard")) + "</span>");
       }
     } else {
       const fullPrompt = basePrefix + challengeText;
       bodyParts.push('<span class="lesson1-training-text exercise-card-prompt">' + escapeHtml(fullPrompt).replace(/\n/g, "<br>") + "</span>");
-      bodyParts.push('<span class="exercise-card-cta">' + escapeHtml(cta || (micro.isDone ? "Pieskaries nākamajai kartītei" : "Pieskaries, lai redzētu atbildi")) + "</span>");
+      bodyParts.push('<span class="exercise-card-cta">' + escapeHtml(cta || (micro.isDone ? t("kurss.cta.tapNextCard") : t("kurss.cta.tapToRevealAnswer"))) + "</span>");
     }
   } else if (isReveal) {
     bodyParts.push('<span class="lesson1-training-text exercise-card-prompt exercise-card-prompt-muted">' + escapeHtml(prompt || "") + '</span>');
@@ -1196,11 +1208,9 @@ function renderMicroExerciseCard(target, lessonId, deckIndex = 0, phase = "chall
   const safeIndex = ((Number(deckIndex) || 0) % deck.length + deck.length) % deck.length;
   const micro = deck[safeIndex];
   const sourceCardTotal = getExerciseSourceCardTotal(normalizedLessonId);
-  const progressParts = ["Lekcija " + lessonNumber + " · Vingrinājums", (micro.sourceCardIndex + 1) + " / " + sourceCardTotal];
-  if (micro.microTotal > 1) progressParts.push((micro.microIndex + 1) + " / " + micro.microTotal);
-  const progress = progressParts.join(" · ");
+  const progress = formatCourseExerciseProgress(lessonNumber, micro.sourceCardIndex, sourceCardTotal, micro.microIndex, micro.microTotal);
   const isLastDeck = safeIndex >= deck.length - 1;
-  const revealCta = isLastDeck ? "Pieskaries nākamajai kartītei" : "Pieskaries turpināt";
+  const revealCta = isLastDeck ? t("kurss.cta.tapNextCard") : t("kurss.cta.tapContinue");
 
   target.dataset.lessonId = normalizedLessonId;
   target.dataset.deckIndex = String(safeIndex);
@@ -1216,7 +1226,7 @@ function renderMicroExerciseCard(target, lessonId, deckIndex = 0, phase = "chall
     meta: micro.meta,
     phase,
     micro,
-    cta: phase === "reveal" ? revealCta : (micro.cta || (micro.isDone && !micro.answerSegment ? "Pieskaries nākamajai kartītei" : "Pieskaries, lai redzētu atbildi"))
+    cta: phase === "reveal" ? revealCta : (micro.cta || (micro.isDone && !micro.answerSegment ? t("kurss.cta.tapNextCard") : t("kurss.cta.tapToRevealAnswer")))
   });
 }
 
@@ -1300,7 +1310,7 @@ function renderCourseTranslateCard(lessonId, index = 0, showingBack = false) {
   target.dataset.trainingIndex = String(safeIndex);
   target.dataset.showingBack = showingBack ? "true" : "false";
   target.innerHTML =
-    '<span class="lesson1-training-progress">Lekcija ' + lessonNumber + ' · Pārtulko: ' + (safeIndex + 1) + ' / ' + cards.length + '</span>' +
+    '<span class="lesson1-training-progress">' + escapeHtml(formatCourseTranslateProgress(lessonNumber, safeIndex + 1, cards.length)) + '</span>' +
     '<span class="lesson1-training-text">' + escapeHtml(card.lv || "") + '</span>' +
     (showingBack ? '<span class="lesson1-training-divider"></span><span class="lesson1-training-answer">' + escapeHtml(formatGermanEntry(card) || "") + '</span>' : '');
 }
@@ -1436,23 +1446,20 @@ function renderCourseLessonFromData(target, lesson, exerciseAttribute) {
     }
     if (isExercise) {
       let attr = exerciseAttribute || "data-course-exercise-card";
-      let hint = "Pieskaries kartītei, lai redzētu atbildi.";
+      const hint = getCourseExerciseHint(section.title, lesson.id || "");
       if (section.title === "Vingrinājums") {
         attr = 'data-course-exercise-card data-lesson-id="' + escapeHtml(lesson.id || "") + '"';
-        hint = "Pieskaries kartītei, lai turpinātu.";
       }
       if (section.title === "Pārtulko") {
         attr = 'data-course-translate-card data-lesson-id="' + escapeHtml(lesson.id || "") + '"';
-        hint = "Pieskaries kartītei, lai redzētu vācu tulkojumu.";
       }
       if (lesson.id === "lesson9" && section.title === "Übung / Vingrinājums") {
         attr = "data-lesson9-exercise-card";
-        hint = "Pieskaries kartītei, lai pārietu uz nākamo soli.";
-      }      bodyParts.push('<div class="lesson1-training-wrap"><button class="lesson1-training-flashcard" type="button" ' + attr + ' data-training-index="0" data-showing-back="false" aria-label="' + escapeHtml(lesson.title + ' vingrinājuma kartīte') + '"></button><p class="lesson1-training-hint">' + hint + '</p></div>');
+      }      bodyParts.push('<div class="lesson1-training-wrap"><button class="lesson1-training-flashcard" type="button" ' + attr + ' data-training-index="0" data-showing-back="false" aria-label="' + escapeHtml(t("kurss.hints.exerciseCardAria", { title: lesson.title || "" })) + '"></button><p class="lesson1-training-hint">' + escapeHtml(hint) + '</p></div>');
     } else {
       bodyParts.push(renderCourseLessonItems(section.items));
     }
-    return '<details class="lesson1-accordion"' + openAttr + '><summary><span class="lesson1-number ' + numberClass + '">' + (index + 1) + '.</span><span>' + escapeHtml(section.title) + '</span><span class="lesson1-chevron">⌄</span></summary><div class="' + contentClass + '">' + bodyParts.join("") + '</div></details>';
+    return '<details class="lesson1-accordion"' + openAttr + '><summary><span class="lesson1-number ' + numberClass + '">' + (index + 1) + '.</span><span>' + escapeHtml(getCourseSectionDisplayTitle(section.title)) + '</span><span class="lesson1-chevron">⌄</span></summary><div class="' + contentClass + '">' + bodyParts.join("") + '</div></details>';
   }).join("");
   target.innerHTML = '<h3>' + escapeHtml(lesson.title) + '</h3>' + (intro ? '<p class="kurss-lesson-intro">' + escapeHtml(intro) + '</p>' : "") + sectionsHtml;
 }
@@ -1725,7 +1732,7 @@ function renderLesson1TrainingCard(index = 0, showingBack = false) {
   card.dataset.trainingIndex = String(safeIndex);
   card.dataset.showingBack = showingBack ? "true" : "false";
   const answerHtml = showingBack ? `<span class="lesson1-training-divider" aria-hidden="true"></span><span class="lesson1-training-answer">${item.back}</span>` : "";
-  card.innerHTML = `<span class="lesson1-training-progress">Lekcija 1 · Pārtulko: ${safeIndex + 1} / ${lesson1TrainingCards.length}</span><span class="lesson1-training-text">${item.front}</span>${answerHtml}`;
+  card.innerHTML = `<span class="lesson1-training-progress">${escapeHtml(formatCourseTranslateProgress("1", safeIndex + 1, lesson1TrainingCards.length))}</span><span class="lesson1-training-text">${item.front}</span>${answerHtml}`;
 }
 
 function handleLesson1TrainingCardClick(card) {
@@ -1747,7 +1754,7 @@ function renderLesson2TrainingCard(index = 0, showingBack = false) {
   card.dataset.trainingIndex = String(safeIndex);
   card.dataset.showingBack = showingBack ? "true" : "false";
   const answerHtml = showingBack ? `<span class="lesson1-training-divider" aria-hidden="true"></span><span class="lesson1-training-answer">${item.back}</span>` : "";
-  card.innerHTML = `<span class="lesson1-training-progress">Lekcija 2 · Pārtulko: ${safeIndex + 1} / ${lesson2TrainingCards.length}</span><span class="lesson1-training-text">${item.front}</span>${answerHtml}`;
+  card.innerHTML = `<span class="lesson1-training-progress">${escapeHtml(formatCourseTranslateProgress("2", safeIndex + 1, lesson2TrainingCards.length))}</span><span class="lesson1-training-text">${item.front}</span>${answerHtml}`;
 }
 
 function handleLesson2TrainingCardClick(card) {
@@ -1767,7 +1774,7 @@ function renderLesson3TrainingCard(index = 0, showingBack = false) {
   card.dataset.trainingIndex = String(safeIndex);
   card.dataset.showingBack = showingBack ? "true" : "false";
   const answerHtml = showingBack ? `<span class="lesson1-training-divider" aria-hidden="true"></span><span class="lesson1-training-answer">${item.back}</span>` : "";
-  card.innerHTML = `<span class="lesson1-training-progress">Lekcija 3 · Pārtulko: ${safeIndex + 1} / ${lesson3TrainingCards.length}</span><span class="lesson1-training-text">${item.front}</span>${answerHtml}`;
+  card.innerHTML = `<span class="lesson1-training-progress">${escapeHtml(formatCourseTranslateProgress("3", safeIndex + 1, lesson3TrainingCards.length))}</span><span class="lesson1-training-text">${item.front}</span>${answerHtml}`;
 }
 
 function handleLesson3TrainingCardClick(card) {
@@ -1787,7 +1794,7 @@ function renderLesson4TrainingCard(index = 0, showingBack = false) {
   card.dataset.trainingIndex = String(safeIndex);
   card.dataset.showingBack = showingBack ? "true" : "false";
   const answerHtml = showingBack ? `<span class="lesson1-training-divider" aria-hidden="true"></span><span class="lesson1-training-answer">${item.back}</span>` : "";
-  card.innerHTML = `<span class="lesson1-training-progress">Lekcija 4 · Pārtulko: ${safeIndex + 1} / ${lesson4TrainingCards.length}</span><span class="lesson1-training-text">${item.front}</span>${answerHtml}`;
+  card.innerHTML = `<span class="lesson1-training-progress">${escapeHtml(formatCourseTranslateProgress("4", safeIndex + 1, lesson4TrainingCards.length))}</span><span class="lesson1-training-text">${item.front}</span>${answerHtml}`;
 }
 
 function handleLesson4TrainingCardClick(card) {
@@ -1807,7 +1814,7 @@ function renderLesson5TrainingCard(index = 0, showingBack = false) {
   card.dataset.trainingIndex = String(safeIndex);
   card.dataset.showingBack = showingBack ? "true" : "false";
   const answerHtml = showingBack ? `<span class="lesson1-training-divider" aria-hidden="true"></span><span class="lesson1-training-answer">${item.back}</span>` : "";
-  card.innerHTML = `<span class="lesson1-training-progress">Lekcija 5 · Pārtulko: ${safeIndex + 1} / ${lesson5TrainingCards.length}</span><span class="lesson1-training-text">${item.front}</span>${answerHtml}`;
+  card.innerHTML = `<span class="lesson1-training-progress">${escapeHtml(formatCourseTranslateProgress("5", safeIndex + 1, lesson5TrainingCards.length))}</span><span class="lesson1-training-text">${item.front}</span>${answerHtml}`;
 }
 
 function handleLesson5TrainingCardClick(card) {
@@ -1828,7 +1835,7 @@ function renderLesson6TrainingCard(index = 0, showingBack = false) {
   card.dataset.trainingIndex = String(safeIndex);
   card.dataset.showingBack = showingBack ? "true" : "false";
   const answerHtml = showingBack ? `<span class="lesson1-training-divider" aria-hidden="true"></span><span class="lesson1-training-answer">${item.back}</span>` : "";
-  card.innerHTML = `<span class="lesson1-training-progress">Lekcija 6 · Pārtulko: ${safeIndex + 1} / ${lesson6TrainingCards.length}</span><span class="lesson1-training-text">${item.front}</span>${answerHtml}`;
+  card.innerHTML = `<span class="lesson1-training-progress">${escapeHtml(formatCourseTranslateProgress("6", safeIndex + 1, lesson6TrainingCards.length))}</span><span class="lesson1-training-text">${item.front}</span>${answerHtml}`;
 }
 
 function handleLesson6TrainingCardClick(card) {
@@ -7357,6 +7364,15 @@ function updateKurssStaticLabels() {
     if (desc) desc.textContent = t(descKey);
   });
 
+  for (let lessonNumber = 1; lessonNumber <= 21; lessonNumber++) {
+    const button = elements[`kurssLesson${lessonNumber}Btn`];
+    if (!button) continue;
+    const title = button.querySelector(".kurss-item-title");
+    const desc = button.querySelector(".kurss-item-desc");
+    if (title) title.textContent = getCourseLessonMenuTitle(lessonNumber);
+    if (desc) desc.textContent = getCourseLessonMenuDesc(lessonNumber);
+  }
+
   const kurssTip = document.getElementById("kurssTip");
   if (kurssTip) {
     const textWrap = kurssTip.querySelector("span:not(.kurss-tip-icon)");
@@ -7464,8 +7480,63 @@ function updateAppLanguageSettingsLabel() {
   currentLabel.textContent = entry ? entry.nativeName : "";
 }
 
+function refreshOpenKurssUi() {
+  exerciseMicroDeckCache.clear();
+  updateKurssStaticLabels();
+  if (!elements.kurssPanel || elements.kurssPanel.hidden) return;
+
+  const activeLessonId = courseLessonIds.find((lessonId) => elements[lessonId] && !elements[lessonId].hidden);
+  if (activeLessonId) {
+    openCourseLesson(activeLessonId);
+    return;
+  }
+
+  if (elements.kurssLessonsMenu && !elements.kurssLessonsMenu.hidden) {
+    openLessonsMenu();
+    return;
+  }
+
+  if (elements.kurssArticlesLesson && !elements.kurssArticlesLesson.hidden) {
+    openArticlesLesson();
+    return;
+  }
+
+  if (elements.kurssPronounsLesson && !elements.kurssPronounsLesson.hidden) {
+    openPronounsLesson();
+    return;
+  }
+
+  if (elements.kurssPronunciationMenu && !elements.kurssPronunciationMenu.hidden) {
+    openPronunciationLesson();
+    return;
+  }
+
+  if (elements.kurssPronunciationLesson && !elements.kurssPronunciationLesson.hidden) {
+    openVowelsLesson();
+    return;
+  }
+
+  if (elements.kurssConsonantsLesson && !elements.kurssConsonantsLesson.hidden) {
+    openConsonantsLesson();
+    return;
+  }
+
+  if (elements.kurssVerbBasicsLesson && !elements.kurssVerbBasicsLesson.hidden) {
+    openVerbBasicsLesson();
+    return;
+  }
+
+  if (elements.kurssSentenceStructureLesson && !elements.kurssSentenceStructureLesson.hidden) {
+    openSentenceStructureLesson();
+    return;
+  }
+
+  showKurssMenu();
+}
+
 function refreshAppLanguageUi() {
   applyLocalizedStaticUi();
+  refreshOpenKurssUi();
   if (elements.directionLabel) {
     elements.directionLabel.textContent = directionButtonLabel();
   }
