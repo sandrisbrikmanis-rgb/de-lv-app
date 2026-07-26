@@ -25308,5 +25308,1702 @@
     }
    }
   }
+ },
+ "b1-irren": {
+  "de": "sich irren",
+  "lv": "eksima",
+  "level": "B1",
+  "study": {
+   "id": "b1-irren",
+   "layout": "standardStudy",
+   "translation": "eksima",
+   "explanation": "Põhiidee: irren tähendab eksimist või rändamist. Igapäevaselt kasutatakse enamasti refleksiivset vormi sich irren; ilma sich-ta võib sõna tähendada ka ekslemist.",
+   "examples": [
+    {
+     "de": "Da irrst du dich.",
+     "lv": "siin sa eksid."
+    },
+    {
+     "de": "Ich habe mich in der Adresse geirrt.",
+     "lv": "ma eksisin aadressiga."
+    },
+    {
+     "de": "Wir irren durch die Stadt.",
+     "lv": "me ekslesime mööda linna."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "sich irren",
+     "meaning": "eksima",
+     "example": "Ich irre mich. = Ma eksin."
+    },
+    {
+     "word": "sich täuschen",
+     "meaning": "eksima / end petma lasta",
+     "example": "Ich habe mich getäuscht. = Ma eksisin."
+    },
+    {
+     "word": "sich verlaufen",
+     "meaning": "ära eksima jalgsi",
+     "example": "Wir haben uns verlaufen. = Me eksisime ära."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Põhiväljend: sich irren = eksima."
+     }
+    ]
+   },
+   "important": {
+    "text": "Refleksiivne vorm muudab tähendust: sich irren = eksima, irren = ka ekslema."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "irrst"
+       ],
+       "red": [
+        "dich"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "eksid"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "geirrt"
+       ],
+       "yellow": [
+        "Adresse"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "eksisin"
+       ],
+       "yellow": [
+        "aadressiga"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "irren"
+       ],
+       "green": [
+        "Stadt"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "ekslesime"
+       ],
+       "green": [
+        "linna"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "irren",
+      "sich irren"
+     ],
+     "purple": [
+      "eksimist",
+      "rändamist",
+      "ekslemist"
+     ],
+     "red": [
+      "sich"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "sich irren"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "eksima"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "sich täuschen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "eksima / end petma lasta"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "sich verlaufen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "ära eksima jalgsi"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "eksima"
+     ]
+    },
+    "important": {
+     "purple": [
+      "eksima",
+      "ekslema"
+     ]
+    }
+   }
+  }
+ },
+ "b1-jagen": {
+  "de": "jagen",
+  "lv": "jahtima",
+  "level": "B1",
+  "study": {
+   "id": "b1-jagen",
+   "layout": "standardStudy",
+   "translation": "jahtima",
+   "explanation": "Põhiidee: jagen tähendab loomade jahtimist või kellelegi järele kihutamist. Ülekantud tähenduses võib see tähendada ka kiirustamist ühest kohast või asjast teise juurde.",
+   "examples": [
+    {
+     "de": "Im Herbst jagen viele Menschen Wild.",
+     "lv": "sügisel jahivad paljud inimesed metsloomi."
+    },
+    {
+     "de": "Der Hund jagt die Katze.",
+     "lv": "koer ajab kassi taga."
+    },
+    {
+     "de": "Er jagt von einem Termin zum nächsten.",
+     "lv": "ta kihutab ühest kohtumisest teise."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "jagen",
+     "meaning": "jahtima / taga ajama / kihutama",
+     "example": "Der Hund jagt die Katze. = Koer ajab kassi taga."
+    },
+    {
+     "word": "verfolgen",
+     "meaning": "jälitama",
+     "example": "Die Polizei verfolgt den Täter. = Politsei jälitab süüdlast."
+    },
+    {
+     "word": "sich beeilen",
+     "meaning": "kiirustama",
+     "example": "Ich muss mich beeilen. = Ma pean kiirustama."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "jagen on eesmärgipärane liikumine: jahtimine, jälitamine või kiirustamine järgmisse kohta."
+     }
+    ]
+   },
+   "important": {
+    "text": "Mitte iga eestikeelne „taga ajama” ei ole jagen; valiku määrab kontekst."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "jagen"
+       ],
+       "green": [
+        "Menschen"
+       ],
+       "yellow": [
+        "Wild"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "jahivad"
+       ],
+       "green": [
+        "inimesed"
+       ],
+       "yellow": [
+        "metsloomi"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "jagt"
+       ],
+       "green": [
+        "Hund",
+        "Katze"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "ajab taga"
+       ],
+       "green": [
+        "Koer",
+        "kassi"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "jagt"
+       ],
+       "yellow": [
+        "Termin"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kihutab"
+       ],
+       "yellow": [
+        "kohtumisest"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "jagen"
+     ],
+     "purple": [
+      "jahtimist",
+      "taga kihutamist",
+      "kiirustamist"
+     ],
+     "yellow": [
+      "loomi"
+     ],
+     "green": [
+      "kellelegi"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "jagen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "jahtima / taga ajama / kihutama"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "verfolgen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "jälitama"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "sich beeilen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "kiirustama"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "eesmärki"
+     ]
+    },
+    "important": {
+     "purple": [
+      "kontekst"
+     ]
+    }
+   }
+  }
+ },
+ "b1-jahrgang": {
+  "de": "Jahrgang",
+  "de_article": "der",
+  "de_plural": "die Jahrgänge",
+  "lv": "väljaandmisaasta",
+  "level": "B1",
+  "study": {
+   "id": "b1-jahrgang",
+   "layout": "standardStudy",
+   "translation": "väljaandmisaasta",
+   "explanation": "Põhiidee: der Jahrgang seob inimese, veini, ajakirja või grupi kindla aastaga. See võib olla sünniaasta, saagi aasta, väljaanne või ühe aasta rühm.",
+   "examples": [
+    {
+     "de": "Dieser Wein ist Jahrgang 2018.",
+     "lv": "see vein on 2018. aasta saak."
+    },
+    {
+     "de": "Die Zeitschrift ist Jahrgang 2020.",
+     "lv": "ajakiri on 2020. aasta väljaanne."
+    },
+    {
+     "de": "Er ist Jahrgang 1995.",
+     "lv": "ta on sündinud 1995. aastal."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "der Jahrgang",
+     "meaning": "kindla aasta väljaanne / rühm",
+     "example": "Er ist Jahrgang 1995. = Ta on sündinud 1995. aastal."
+    },
+    {
+     "word": "das Jahr",
+     "meaning": "aasta",
+     "example": "Das Jahr hat zwölf Monate. = Aastas on kaksteist kuud."
+    },
+    {
+     "word": "die Generation",
+     "meaning": "põlvkond",
+     "example": "Diese Generation reist viel. = See põlvkond reisib palju."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Jahrgang seob alati midagi kindla aastaga: inimest, veini või väljaannet."
+     }
+    ]
+   },
+   "important": {
+    "text": "Tavalise kalendriaasta kohta kasutatakse das Jahr; der Jahrgang on täpsem."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Jahrgang"
+       ],
+       "yellow": [
+        "Wein"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "2018. aasta saak"
+       ],
+       "yellow": [
+        "vein"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Jahrgang"
+       ],
+       "yellow": [
+        "Zeitschrift"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "2020. aasta väljaanne"
+       ],
+       "yellow": [
+        "Ajakiri"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Jahrgang"
+       ],
+       "green": [
+        "Er"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "sündinud"
+       ],
+       "green": [
+        "Ta"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "der Jahrgang"
+     ],
+     "purple": [
+      "sünniaasta",
+      "saagi aasta",
+      "väljaanne",
+      "rühm"
+     ],
+     "yellow": [
+      "veini",
+      "ajakirja"
+     ],
+     "green": [
+      "inimest"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "der Jahrgang"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "kindla aasta väljaanne / rühm"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "das Jahr"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "aasta"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "die Generation"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "põlvkond"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "inimest"
+     ]
+    },
+    "important": {
+     "purple": [
+      "täpsem"
+     ]
+    }
+   }
+  }
+ },
+ "b1-juenger": {
+  "de": "Jünger",
+  "de_article": "der",
+  "de_plural": "die Jünger",
+  "lv": "jünger • järgija",
+  "level": "B1",
+  "study": {
+   "id": "b1-juenger",
+   "layout": "standardStudy",
+   "translation": "jünger • järgija",
+   "explanation": [
+    "Põhiidee: der Jünger tähendab jüngrit või järgijat — inimest, kes järgib õpetajat, ideed või õpetust.",
+    "der Jünger võib viidata igasuguse õpetaja või mõttesuuna järgijale, mitte ainult religioosses kontekstis.",
+    "Piibli/religioosses kontekstis tähendab die Jünger Jesu Jeesuse jüngreid — see on üks sage, kuid mitte ainus kasutusvaldkond.",
+    "Ülekantud tähenduses võib der Jünger tähendada ka kellegi või mingi idee toetajat (ein Jünger Nietzsches = Nietzsche õpetuse järgija).",
+    "Mitmuses: die Jünger; naissoost vorm: die Jüngerin."
+   ],
+   "examples": [
+    {
+     "de": "Die zwölf Jünger folgten Jesus.",
+     "lv": "kaksteist jüngrit järgisid Jeesust."
+    },
+    {
+     "de": "Er ist ein treuer Jünger seines Lehrers.",
+     "lv": "ta on oma õpetaja ustav järgija."
+    },
+    {
+     "de": "Sie gilt als Jüngerin dieser philosophischen Richtung.",
+     "lv": "teda peetakse selle filosoofilise suuna järgijaks."
+    },
+    {
+     "de": "Die Jünger lernten viel von ihrem Meister.",
+     "lv": "jüngrid õppisid palju oma meistrilt."
+    },
+    {
+     "de": "Er wurde zum Jünger des berühmten Künstlers.",
+     "lv": "ta sai kuulsa kunstniku jüngriks."
+    }
+   ],
+   "tip": [
+    "der Jünger = jünger/järgija — igasuguse õpetaja või idee järgija.",
+    "die Jünger Jesu on vaid ÜKS sageli kasutatav näide, mitte ainus tähendus."
+   ],
+   "important": [
+    "der Jünger ≠ ainult 'Jeesuse jünger' — see on üldsõna igasuguse jüngri/järgija kohta.",
+    "Naissoost vorm: die Jüngerin."
+   ],
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "der Jünger"
+     ],
+     "purple": [
+      "jünger",
+      "järgija"
+     ],
+     "green": [
+      "die Jünger Jesu"
+     ]
+    },
+    "examples": [
+     {
+      "de": {
+       "green": [
+        "Jünger"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "jüngrit"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Jünger"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "järgija"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Jüngerin"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "järgijaks"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "Jünger"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "jüngrid"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Jünger"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "jüngriks"
+       ]
+      }
+     }
+    ],
+    "tip": [
+     {
+      "blue": [
+       "jünger",
+       "järgija"
+      ]
+     },
+     {
+      "green": [
+       "die Jünger Jesu"
+      ]
+     }
+    ],
+    "important": [
+     {
+      "green": [
+       "Jeesuse jünger"
+      ],
+      "purple": [
+       "jüngrile",
+       "järgijale"
+      ]
+     },
+     {
+      "blue": [
+       "die Jüngerin"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "b1-kader": {
+  "de": "Kader",
+  "de_article": "der",
+  "de_plural": "die Kader",
+  "lv": "koosseis • tuumik",
+  "level": "B1",
+  "study": {
+   "id": "b1-kader",
+   "layout": "standardStudy",
+   "translation": "koosseis • tuumik",
+   "explanation": [
+    "Põhiidee: der Kader tähendab (kvalifitseeritud) koosseisu või tuumikut — inimeste rühma kindla rolli või kvalifikatsiooniga.",
+    "Spordis tähendab der Kader meeskonna koosseisu (der Kader der Nationalmannschaft = koondise koosseis).",
+    "Poliitikas või organisatsioonide kontekstis tähendab der Kader juhtiva/koolitatud personali tuumikut.",
+    "Ära aja segi eestikeelse 'kaader' (filmikaader) sõnaga — see on saksa keeles das Bild või die Einstellung, mitte der Kader."
+   ],
+   "examples": [
+    {
+     "de": "Der Trainer wählt den Kader für das Spiel aus.",
+     "lv": "treener valib koosseisu mänguks."
+    },
+    {
+     "de": "Sie gehört zum Kader der besten Athleten.",
+     "lv": "ta kuulub parimate sportlaste koosseisu."
+    },
+    {
+     "de": "Der Kader des Unternehmens ist gut ausgebildet.",
+     "lv": "ettevõtte tuumik on hästi koolitatud."
+    },
+    {
+     "de": "Die Mannschaft hat einen breiten Kader.",
+     "lv": "meeskonnal on lai koosseis."
+    },
+    {
+     "de": "Er gehört zum militärischen Kader.",
+     "lv": "ta kuulub sõjaväe tuumikusse."
+    }
+   ],
+   "tip": [
+    "der Kader = koosseis/tuumik (inimeste rühm) — spordis, poliitikas, organisatsioonides.",
+    "Eestikeelne 'kaader' (film) ≠ der Kader — filmikaader on saksa keeles das Bild/die Einstellung."
+   ],
+   "important": [
+    "der Kader = koosseis/tuumik, mitte filmikaader.",
+    "Spordis sageli: der Kader der Nationalmannschaft = koondise koosseis."
+   ],
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "der Kader"
+     ],
+     "purple": [
+      "koosseisu",
+      "tuumikut"
+     ],
+     "red": [
+      "kaader"
+     ]
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Kader"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "koosseisu"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Kader"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "koosseisu"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Kader"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "tuumik"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Kader"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "koosseis"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Kader"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "tuumikusse"
+       ]
+      }
+     }
+    ],
+    "tip": [
+     {
+      "blue": [
+       "koosseis",
+       "tuumik"
+      ]
+     },
+     {
+      "red": [
+       "kaader"
+      ]
+     }
+    ],
+    "important": [
+     {
+      "purple": [
+       "koosseis",
+       "tuumik"
+      ],
+      "red": [
+       "kaader"
+      ]
+     },
+     {
+      "blue": [
+       "der Kader der Nationalmannschaft"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "b1-kehren": {
+  "de": "kehren",
+  "lv": "pühkima",
+  "level": "B1",
+  "study": {
+   "id": "b1-kehren",
+   "layout": "standardStudy",
+   "translation": "pühkima",
+   "explanation": "Põhiidee: kehren tähendab pühkimist luuaga. Harvemini võib see tähendada ka pilgu või liikumise pööramist teise suunda.",
+   "examples": [
+    {
+     "de": "Sie kehrt den Hof.",
+     "lv": "ta pühib õue."
+    },
+    {
+     "de": "Der Hausmeister kehrt die Treppe.",
+     "lv": "majahoidja pühib treppi."
+    },
+    {
+     "de": "Er kehrt den Blick zur Tür.",
+     "lv": "ta pöörab pilgu ukse poole."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "kehren",
+     "meaning": "pühkima / pöörama",
+     "example": "Sie kehrt den Hof. = Ta pühib õue."
+    },
+    {
+     "word": "fegen",
+     "meaning": "pühkima",
+     "example": "Ich fege den Boden. = Ma pühin põrandat."
+    },
+    {
+     "word": "zurückkehren",
+     "meaning": "tagasi pöörduma",
+     "example": "Er kehrt nach Hause zurück. = Ta pöördub koju tagasi."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Luua ja õuega kasutatakse sageli kehren; zurückkehren on teine sõna."
+     }
+    ]
+   },
+   "important": {
+    "text": "Ära aja segi kehren sõnaga zurückkehren: zurückkehren tähendab tagasi pöördumist."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "kehrt"
+       ],
+       "green": [
+        "Hof"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "pühib"
+       ],
+       "green": [
+        "õue"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "kehrt"
+       ],
+       "green": [
+        "Hausmeister"
+       ],
+       "yellow": [
+        "Treppe"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "pühib"
+       ],
+       "green": [
+        "Majahoidja"
+       ],
+       "yellow": [
+        "treppi"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "kehrt"
+       ],
+       "yellow": [
+        "Blick"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "pöörab"
+       ],
+       "yellow": [
+        "pilgu"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "kehren"
+     ],
+     "purple": [
+      "pühkimist",
+      "pööramist"
+     ],
+     "yellow": [
+      "luuaga",
+      "pilgu"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "kehren"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "pühkima / pöörama"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "fegen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "pühkima"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "zurückkehren"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "tagasi pöörduma"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "teine sõna"
+     ]
+    },
+    "important": {
+     "purple": [
+      "tagasi pöördumist"
+     ]
+    }
+   }
+  }
+ },
+ "b1-kern": {
+  "de": "Kern",
+  "de_article": "der",
+  "de_plural": "die Kerne",
+  "lv": "tuum",
+  "level": "B1",
+  "study": {
+   "id": "b1-kern",
+   "layout": "standardStudy",
+   "translation": "tuum",
+   "explanation": "Põhiidee: der Kern tähendab tuuma, seemet/kivi või asja olemust. Seda kasutatakse nii puuviljade kui ka ülekantud tähenduses kõige tähtsama mõtte kohta.",
+   "examples": [
+    {
+     "de": "Der Apfel hat viele Kerne.",
+     "lv": "õunal on palju seemneid."
+    },
+    {
+     "de": "Der Kern der Sache ist einfach.",
+     "lv": "asja tuum on lihtne."
+    },
+    {
+     "de": "Im Kern hat er recht.",
+     "lv": "sisuliselt on tal õigus."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "der Kern",
+     "meaning": "tuum / olemus / seeme",
+     "example": "Der Kern der Sache ist wichtig. = Asja tuum on tähtis."
+    },
+    {
+     "word": "der Samen",
+     "meaning": "seeme",
+     "example": "Die Samen liegen auf der Erde. = Seemned lebavad maas."
+    },
+    {
+     "word": "der Mittelpunkt",
+     "meaning": "keskpunkt",
+     "example": "Der Tisch steht im Mittelpunkt. = Laud seisab keskel."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Kern on sageli „keskpunkt” või „olemus” - puuviljas, asjas või argumendis."
+     }
+    ]
+   },
+   "important": {
+    "text": "Puuviljade puhul tõlgitakse der Kern eesti keeles vahel seeme või kivi; kontekst määrab tõlke."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Kerne"
+       ],
+       "yellow": [
+        "Apfel"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "seemneid"
+       ],
+       "yellow": [
+        "Õunal"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Kern"
+       ],
+       "yellow": [
+        "Sache"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "tuum"
+       ],
+       "yellow": [
+        "Asja"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Kern"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "Sisuliselt"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "der Kern"
+     ],
+     "purple": [
+      "tuuma",
+      "seemet",
+      "kivi",
+      "olemust"
+     ],
+     "yellow": [
+      "puuviljade",
+      "mõtte"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "der Kern"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "tuum / olemus / seeme"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "der Samen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "seeme"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "der Mittelpunkt"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "keskpunkt"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "puuviljas",
+      "asjas",
+      "argumendis"
+     ]
+    },
+    "important": {
+     "purple": [
+      "puuviljade"
+     ]
+    }
+   }
+  }
+ },
+ "b1-kiefer": {
+  "de": "Kiefer",
+  "de_article": "der",
+  "de_plural": "die Kiefer",
+  "lv": "lõualuu",
+  "level": "B1",
+  "study": {
+   "id": "b1-kiefer",
+   "layout": "standardStudy",
+   "translation": "lõualuu",
+   "explanation": "Põhiidee: der Kiefer tähendab lõualuu. Teise artikliga die Kiefer tähendab mändi, seetõttu on artikkel selle kaardi puhul eriti tähtis.",
+   "examples": [
+    {
+     "de": "Mein Kiefer tut weh.",
+     "lv": "mul valutab lõualuu."
+    },
+    {
+     "de": "Der Zahnarzt untersucht den Kiefer.",
+     "lv": "hambaarst uurib lõualuud."
+    },
+    {
+     "de": "Die Kiefer wächst im Wald.",
+     "lv": "mänd kasvab metsas."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "der Kiefer",
+     "meaning": "lõualuu",
+     "example": "Der Kiefer tut weh. = Lõualuu valutab."
+    },
+    {
+     "word": "die Kiefer",
+     "meaning": "mänd",
+     "example": "Die Kiefer ist hoch. = Mänd on kõrge."
+    },
+    {
+     "word": "der Kiefernwald",
+     "meaning": "männimets",
+     "example": "Der Kiefernwald ist trocken. = Männimets on kuiv."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Artikkel eristab tähendust: der Kiefer = lõualuu, die Kiefer = mänd."
+     }
+    ]
+   },
+   "important": {
+    "text": "Siin ei ole artikkel pisiasi; der ja die muudavad täielikult sõna tähendust."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Kiefer"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "valutab"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Kiefer"
+       ],
+       "green": [
+        "Zahnarzt"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "lõualuud"
+       ],
+       "green": [
+        "Hambaarst"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Kiefer"
+       ],
+       "green": [
+        "Wald"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "Mänd"
+       ],
+       "green": [
+        "metsas"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "der Kiefer",
+      "die Kiefer"
+     ],
+     "purple": [
+      "lõualuud",
+      "mändi"
+     ],
+     "red": [
+      "artikkel"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "der Kiefer"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "lõualuu"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "die Kiefer"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "mänd"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "der Kiefernwald"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "männimets"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "artikkel"
+     ]
+    },
+    "important": {
+     "purple": [
+      "muudavad sõna tähendust"
+     ]
+    }
+   }
+  }
+ },
+ "b1-kippen": {
+  "de": "kippen",
+  "lv": "ümber kukkuma",
+  "level": "B1",
+  "study": {
+   "id": "b1-kippen",
+   "layout": "standardStudy",
+   "translation": "ümber kukkuma",
+   "explanation": "Põhiidee: kippen tähendab ümberkukkumist, kallutamist või kaldu vajumist nii, et miski kaotab tasakaalu. Ülekantud tähenduses võib olukord või meeleolu kippen - kiiresti halvemuse poole muutuda.",
+   "examples": [
+    {
+     "de": "Das Glas kippt um.",
+     "lv": "klaas kukub ümber."
+    },
+    {
+     "de": "Kipp den Stuhl nicht nach hinten.",
+     "lv": "ära kalluta tooli tahapoole."
+    },
+    {
+     "de": "Die Stimmung kann schnell kippen.",
+     "lv": "meeleolu võib kiiresti halvemuse poole muutuda."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "kippen",
+     "meaning": "ümber kukkuma / kalduma / muutuma",
+     "example": "Das Glas kippt um. = Klaas kukub ümber."
+    },
+    {
+     "word": "fallen",
+     "meaning": "kukkuma",
+     "example": "Das Glas fällt auf den Boden. = Klaas kukub põrandale."
+    },
+    {
+     "word": "umdrehen",
+     "meaning": "ümber pöörama",
+     "example": "Dreh die Karte um. = Pööra kaart ümber."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "kippen algab kaldumisest: klaas, tool või olukord kaotab tasakaalu."
+     }
+    ]
+   },
+   "important": {
+    "text": "kippen ei ole lihtsalt fallen; sageli on kõigepealt kaldumine või äkiline meeleolu muutus."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "kippt"
+       ],
+       "yellow": [
+        "Glas"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kukub ümber"
+       ],
+       "yellow": [
+        "Klaas"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Kipp"
+       ],
+       "yellow": [
+        "Stuhl"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "ära kalluta"
+       ],
+       "yellow": [
+        "tooli"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "kippen"
+       ],
+       "yellow": [
+        "Stimmung"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "muutuda"
+       ],
+       "yellow": [
+        "Meeleolu"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "kippen"
+     ],
+     "purple": [
+      "ümber kukkumist",
+      "kallutamist",
+      "kaldu vajumist",
+      "muutumist"
+     ],
+     "yellow": [
+      "tasakaalu",
+      "meeleolu"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "kippen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "ümber kukkuma / kalduma / muutuma"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "fallen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "kukkuma"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "umdrehen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "ümber pöörama"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "klaas",
+      "tool",
+      "olukord"
+     ]
+    },
+    "important": {
+     "purple": [
+      "kaldumine",
+      "meeleolu muutus"
+     ]
+    }
+   }
+  }
+ },
+ "b1-klappen": {
+  "de": "klappen",
+  "lv": "õnnestuma",
+  "level": "B1",
+  "study": {
+   "id": "b1-klappen",
+   "layout": "standardStudy",
+   "translation": "õnnestuma",
+   "explanation": "Põhiidee: klappen tähendab kõnekeeles õnnestumist või hästi toimimist. Seda kasutatakse sageli plaani, kohtumise või praktilise lahenduse kohta; sõna-sõnalt võib see tähendada kinni klõpsamist või sulgumist.",
+   "examples": [
+    {
+     "de": "Hat alles geklappt?",
+     "lv": "kas kõik õnnestus?"
+    },
+    {
+     "de": "Der Plan klappt gut.",
+     "lv": "plaan õnnestub hästi."
+    },
+    {
+     "de": "Die Tür klappt zu.",
+     "lv": "uks klõpsab kinni."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "klappen",
+     "meaning": "õnnestuma / toimima",
+     "example": "Alles hat geklappt. = Kõik õnnestus."
+    },
+    {
+     "word": "funktionieren",
+     "meaning": "töötama",
+     "example": "Der Drucker funktioniert. = Printer töötab."
+    },
+    {
+     "word": "gelingen",
+     "meaning": "õnnestuma",
+     "example": "Der Kuchen ist gelungen. = Kook õnnestus."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Das klappt! on igapäevane väljend: „See õnnestub!”"
+     }
+    ]
+   },
+   "important": {
+    "text": "klappen on kõnekeelsem kui gelingen; formaalsemas tekstis on sageli parem gelingen."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "geklappt"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "õnnestus"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "klappt"
+       ],
+       "yellow": [
+        "Plan"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "õnnestub"
+       ],
+       "yellow": [
+        "Plaan"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "klappt"
+       ],
+       "yellow": [
+        "Tür"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "klõpsab kinni"
+       ],
+       "yellow": [
+        "Uks"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "klappen"
+     ],
+     "purple": [
+      "õnnestumist",
+      "toimimist",
+      "kinni klõpsamist",
+      "sulgumist"
+     ],
+     "yellow": [
+      "plaani",
+      "kohtumist",
+      "lahendust"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "klappen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "õnnestuma / toimima"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "funktionieren"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "töötama"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "gelingen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "õnnestuma"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "õnnestub"
+     ]
+    },
+    "important": {
+     "purple": [
+      "kõnekeelsem",
+      "formaalsemas"
+     ]
+    }
+   }
+  }
  }
 }
