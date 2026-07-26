@@ -18260,6 +18260,7 @@ const A1_WORDS = [
         "Põhiidee: probieren tähendab proovima või maitsma.",
         "Kui jutt on toidust või joogist, tähendab probieren sageli maitsma.",
         "Kui jutt on tegevusest, meetodist või asjast, tähendab probieren proovima.",
+        "testen tähendab süstemaatilist testimist või kontrollimist, mitte lihtsalt proovimist.",
         "See ei ole sama mis prüfen, mis tähendab põhjalikumalt kontrollima."
       ],
       "examples": [
@@ -18278,6 +18279,10 @@ const A1_WORDS = [
         {
           "de": "Kann ich die Jacke anprobieren?",
           "lv": "kas ma saan jakki proovida?"
+        },
+        {
+          "de": "Wir testen die neue Software.",
+          "lv": "me testime uut tarkvara."
         }
       ],
       "comparison": [
@@ -18285,6 +18290,11 @@ const A1_WORDS = [
           "word": "probieren",
           "meaning": "proovima / maitsma",
           "example": "Probier mal die Suppe!"
+        },
+        {
+          "word": "testen",
+          "meaning": "testima / kontrollima",
+          "example": "Wir testen die Software."
         },
         {
           "word": "versuchen",
@@ -18303,22 +18313,25 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Pea meeles: toit → probieren = maitsma."
+        "text": "Pea meeles: toit → probieren = maitsma; tarkvara → testen = testima."
       },
       "important": [
         "probieren ei ole peamine sõna ametliku kontrollimise jaoks.",
+        "testen on süstemaatilisem kui probieren.",
         "Dokumenti või arvet kontrollida on tavaliselt prüfen."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "probieren",
-            "prüfen"
+            "prüfen",
+            "testen"
           ],
           "purple": [
             "proovima",
             "maitsma",
-            "kontrollima"
+            "kontrollima",
+            "testima"
           ],
           "yellow": [
             "toidust",
@@ -18399,6 +18412,24 @@ const A1_WORDS = [
                 "jakki"
               ]
             }
+          },
+          {
+            "de": {
+              "blue": [
+                "testen"
+              ],
+              "yellow": [
+                "Software"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "testime"
+              ],
+              "yellow": [
+                "tarkvara"
+              ]
+            }
           }
         ],
         "comparison": [
@@ -18417,6 +18448,24 @@ const A1_WORDS = [
             "example": {
               "blue": [
                 "Probier"
+              ]
+            }
+          },
+          {
+            "word": {
+              "blue": [
+                "testen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "testima",
+                "kontrollima"
+              ]
+            },
+            "example": {
+              "blue": [
+                "testen"
               ]
             }
           },
