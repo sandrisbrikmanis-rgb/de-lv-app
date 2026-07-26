@@ -28404,5 +28404,1423 @@
     }
    }
   }
+ },
+ "b1-kürze": {
+  "de": "Kürze",
+  "de_article": "die",
+  "lv": "lühidus",
+  "level": "B1",
+  "study": {
+   "id": "b1-kürze",
+   "layout": "standardStudy",
+   "translation": "lühidus",
+   "explanation": "Põhiidee: die Kürze tähendab lühidust. Väljend in Kürze tähendab varsti ja seda tuleb käsitleda eraldi konstruktsioonina.",
+   "examples": [
+    {
+     "de": "Die Kürze des Textes ist angenehm.",
+     "lv": "teksti lühidus on meeldiv."
+    },
+    {
+     "de": "Ich erkläre es in aller Kürze.",
+     "lv": "ma selgitan seda täiesti lühidalt."
+    },
+    {
+     "de": "Der Zug kommt in Kürze.",
+     "lv": "rong saabub varsti."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "die Kürze",
+     "meaning": "lühidus",
+     "example": "Die Kürze ist ein Vorteil. = Lühidus on eelis."
+    },
+    {
+     "word": "in Kürze",
+     "meaning": "varsti",
+     "example": "Der Zug kommt in Kürze. = Rong saabub varsti."
+    },
+    {
+     "word": "kurz",
+     "meaning": "lühike",
+     "example": "Der Text ist kurz. = Tekst on lühike."
+    }
+   ],
+   "tip": "die Kürze = lühidus; in Kürze = varsti.",
+   "important": "Algajal ei tohi õppida die Kürze kui 'varsti'; varsti on väljend in Kürze.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "die Kürze",
+      "in Kürze"
+     ],
+     "purple": [
+      "lühidust",
+      "varsti"
+     ],
+     "red": "eraldi konstruktsioonina"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Kürze",
+       "yellow": "Textes"
+      },
+      "lv": {
+       "purple": "lühidus",
+       "yellow": "Teksti"
+      }
+     },
+     {
+      "de": {
+       "blue": "Kürze"
+      },
+      "lv": {
+       "purple": "lühidalt"
+      }
+     },
+     {
+      "de": {
+       "blue": "in Kürze",
+       "yellow": "Zug"
+      },
+      "lv": {
+       "purple": "varsti",
+       "yellow": "Rong"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "die Kürze"
+      },
+      "meaning": {
+       "purple": "lühidus"
+      },
+      "example": {
+       "blue": "Kürze",
+       "purple": "Lühidus"
+      }
+     },
+     {
+      "word": {
+       "green": "in Kürze"
+      },
+      "meaning": {
+       "purple": "varsti"
+      },
+      "example": {
+       "red": "in Kürze",
+       "purple": "varsti"
+      }
+     },
+     {
+      "word": {
+       "green": "kurz"
+      },
+      "meaning": {
+       "purple": "lühike"
+      },
+      "example": {
+       "red": "kurz",
+       "purple": "lühike"
+      }
+     }
+    ],
+    "tip": {
+     "blue": [
+      "die Kürze",
+      "in Kürze"
+     ],
+     "purple": [
+      "lühidus",
+      "varsti"
+     ]
+    },
+    "important": {
+     "blue": "die Kürze",
+     "red": "in Kürze",
+     "purple": "varsti"
+    }
+   }
+  }
+ },
+ "b1-laden": {
+  "de": "laden",
+  "lv": "laadima",
+  "level": "B1",
+  "study": {
+   "id": "b1-laden",
+   "layout": "standardStudy",
+   "translation": "laadima",
+   "explanation": "Põhiidee: laden tähendab laadimist või täislaadimist. Inimestega võib see tähendada ka kutsumist.",
+   "examples": [
+    {
+     "de": "Wir laden die Kisten ins Auto.",
+     "lv": "me laadime kastid autosse."
+    },
+    {
+     "de": "Ich muss mein Handy laden.",
+     "lv": "ma pean telefoni laadima."
+    },
+    {
+     "de": "Sie lädt uns zum Essen ein.",
+     "lv": "ta kutsub meid õhtusöögile."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "laden",
+     "meaning": "laadima",
+     "example": "Ich lade mein Handy. = Ma laadin telefoni."
+    },
+    {
+     "word": "einladen",
+     "meaning": "kutsuma",
+     "example": "Sie lädt uns ein. = Ta kutsub meid."
+    },
+    {
+     "word": "beladen",
+     "meaning": "täis laadima",
+     "example": "Der Lkw ist beladen. = Veoauto on täis laaditud."
+    }
+   ],
+   "tip": "Esemed autosse või aku elektriga → laden.",
+   "important": "Kellegi kutsumine on tavaliselt einladen, mitte lihtsalt laden.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "laden",
+     "purple": [
+      "laadimist",
+      "täislaadimist",
+      "kutsumist"
+     ],
+     "green": "inimestega"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "laden",
+       "yellow": [
+        "Kisten",
+        "Auto"
+       ]
+      },
+      "lv": {
+       "purple": "laadime",
+       "yellow": [
+        "kastid",
+        "autosse"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": "laden",
+       "yellow": "Handy"
+      },
+      "lv": {
+       "purple": "pean laadima",
+       "yellow": "telefoni"
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "lädt",
+        "ein"
+       ],
+       "green": "uns"
+      },
+      "lv": {
+       "purple": "kutsub",
+       "green": "meid"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "laden"
+      },
+      "meaning": {
+       "purple": "laadima"
+      },
+      "example": {
+       "blue": "lade",
+       "purple": "laadin"
+      }
+     },
+     {
+      "word": {
+       "green": "einladen"
+      },
+      "meaning": {
+       "purple": "kutsuma"
+      },
+      "example": {
+       "red": "ein",
+       "purple": "kutsub"
+      }
+     },
+     {
+      "word": {
+       "green": "beladen"
+      },
+      "meaning": {
+       "purple": "täis laadima"
+      },
+      "example": {
+       "red": "beladen",
+       "purple": "täis laaditud"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "laden",
+     "purple": [
+      "elektriga",
+      "autosse"
+     ],
+     "yellow": [
+      "Esemed",
+      "aku"
+     ]
+    },
+    "important": {
+     "blue": "laden",
+     "red": "einladen",
+     "purple": "Kutsumine"
+    }
+   }
+  }
+ },
+ "b1-lager": {
+  "de": "Lager",
+  "de_article": "das",
+  "de_plural": "die Lager",
+  "lv": "ladu",
+  "level": "B1",
+  "study": {
+   "id": "b1-lager",
+   "layout": "standardStudy",
+   "translation": "ladu",
+   "explanation": "Põhiidee: das Lager on tavaliselt ladu või hoiukoht. Teises kontekstis võib see olla laager või tehniline laager (mehhaanikas).",
+   "examples": [
+    {
+     "de": "Die Waren liegen im Lager.",
+     "lv": "kaubad on laos."
+    },
+    {
+     "de": "Die Kinder fahren ins Ferienlager.",
+     "lv": "lapsed sõidavad puhkuselaagrisse."
+    },
+    {
+     "de": "Das Lager der Maschine ist kaputt.",
+     "lv": "masina laager on katki."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "das Lager",
+     "meaning": "ladu / laager",
+     "example": "Die Waren sind im Lager. = Kaubad on laos."
+    },
+    {
+     "word": "die Unterkunft",
+     "meaning": "öömaja",
+     "example": "Die Unterkunft ist sauber. = Öömaja on puhas."
+    },
+    {
+     "word": "das Camp",
+     "meaning": "laager",
+     "example": "Das Camp liegt am See. = Laager on järve ääres."
+    }
+   ],
+   "tip": "Kaubad hoiustatakse → das Lager.",
+   "important": "Tehniline tähendus laager (mehhaaniline) on spetsiifiline; igapäevaselt on das Lager sagedamini ladu või laager.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "das Lager",
+     "purple": [
+      "ladu",
+      "laager",
+      "laager (mehhaanikas)"
+     ],
+     "yellow": "hoiukoht"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Lager",
+       "yellow": "Waren"
+      },
+      "lv": {
+       "purple": "laos",
+       "yellow": "Kaubad"
+      }
+     },
+     {
+      "de": {
+       "blue": "Ferienlager",
+       "green": "Kinder"
+      },
+      "lv": {
+       "purple": "puhkuselaagrisse",
+       "green": "Lapsed"
+      }
+     },
+     {
+      "de": {
+       "blue": "Lager",
+       "yellow": "Maschine"
+      },
+      "lv": {
+       "purple": "laager",
+       "yellow": "Masina"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "das Lager"
+      },
+      "meaning": {
+       "purple": "ladu"
+      },
+      "example": {
+       "blue": "Lager",
+       "purple": "laos"
+      }
+     },
+     {
+      "word": {
+       "green": "die Unterkunft"
+      },
+      "meaning": {
+       "purple": "öömaja"
+      },
+      "example": {
+       "red": "Unterkunft",
+       "purple": "Öömaja"
+      }
+     },
+     {
+      "word": {
+       "green": "das Camp"
+      },
+      "meaning": {
+       "purple": "laager"
+      },
+      "example": {
+       "red": "Camp",
+       "purple": "Laager"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "das Lager",
+     "purple": "hoiustatakse",
+     "yellow": "Kaubad"
+    },
+    "important": {
+     "blue": "das Lager",
+     "purple": [
+      "ladu",
+      "laager"
+     ],
+     "red": "laager"
+    }
+   }
+  }
+ },
+ "b1-hörer": {
+  "de": "Hörer",
+  "de_article": "der",
+  "de_plural": "die Hörer",
+  "lv": "kuulaja",
+  "level": "B1",
+  "study": {
+   "id": "b1-hörer",
+   "layout": "standardStudy",
+   "translation": "kuulaja",
+   "explanation": "Põhiidee: der Hörer on kuulaja raadios, loengul või vestluses. Tehnilises kontekstis võib see olla ka telefonitoru.",
+   "examples": [
+    {
+     "de": "Die Hörer stellen viele Fragen.",
+     "lv": "kuulajad esitavad palju küsimusi."
+    },
+    {
+     "de": "Der Moderator begrüßt die Hörer.",
+     "lv": "saatejuht tervitab kuulajaid."
+    },
+    {
+     "de": "Leg den Hörer bitte auf.",
+     "lv": "pane, palun, toru ära."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "der Hörer",
+     "meaning": "kuulaja / telefonitoru",
+     "example": "Die Hörer rufen an. = Kuulajad helistavad."
+    },
+    {
+     "word": "der Zuhörer",
+     "meaning": "kohapealne kuulaja",
+     "example": "Die Zuhörer sitzen im Saal. = Kuulajad istuvad saalis."
+    },
+    {
+     "word": "der Kopfhörer",
+     "meaning": "kõrvaklapid",
+     "example": "Ich brauche Kopfhörer. = Mul on vaja kõrvaklappe."
+    }
+   ],
+   "tip": "Raadios või loengul inimene, kes kuulab → der Hörer.",
+   "important": "Telefoni kontekstis võib der Hörer olla toru, mitte inimene.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "der Hörer",
+     "purple": [
+      "kuulaja",
+      "telefonitoru"
+     ],
+     "yellow": "telefoni"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Hörer"
+      },
+      "lv": {
+       "purple": "Kuulajad"
+      }
+     },
+     {
+      "de": {
+       "blue": "Hörer",
+       "green": "Moderator"
+      },
+      "lv": {
+       "purple": "kuulajaid",
+       "green": "saatejuht"
+      }
+     },
+     {
+      "de": {
+       "blue": "Hörer"
+      },
+      "lv": {
+       "purple": "toru"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "der Hörer"
+      },
+      "meaning": {
+       "purple": "kuulaja"
+      },
+      "example": {
+       "blue": "Hörer",
+       "purple": "Kuulajad"
+      }
+     },
+     {
+      "word": {
+       "green": "der Zuhörer"
+      },
+      "meaning": {
+       "purple": "kohapealne kuulaja"
+      },
+      "example": {
+       "red": "Zuhörer",
+       "purple": "Kuulajad"
+      }
+     },
+     {
+      "word": {
+       "green": "der Kopfhörer"
+      },
+      "meaning": {
+       "purple": "kõrvaklapid"
+      },
+      "example": {
+       "red": "Kopfhörer",
+       "purple": "kõrvaklapid"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "der Hörer",
+     "purple": "kuulab",
+     "yellow": [
+      "Raadios",
+      "loengul"
+     ]
+    },
+    "important": {
+     "blue": "der Hörer",
+     "yellow": "Telefoni",
+     "purple": "toru"
+    }
+   }
+  }
+ },
+ "b1-inhalt": {
+  "de": "Inhalt",
+  "de_article": "der",
+  "de_plural": "die Inhalte",
+  "lv": "sisu",
+  "level": "B1",
+  "study": {
+   "id": "b1-inhalt",
+   "layout": "standardStudy",
+   "translation": "sisu",
+   "explanation": "Põhiidee: der Inhalt on sisu - tekstis, kotis, anumas või failis. Tehniliselt võib see tähendada ka mahtu.",
+   "examples": [
+    {
+     "de": "Der Inhalt des Briefes ist wichtig.",
+     "lv": "kirja sisu on tähtis."
+    },
+    {
+     "de": "Bitte prüfen Sie den Inhalt der Tasche.",
+     "lv": "palun kontrollige koti sisu."
+    },
+    {
+     "de": "Die Flasche hat einen Inhalt von einem Liter.",
+     "lv": "pudeli maht on üks liiter."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "der Inhalt",
+     "meaning": "sisu",
+     "example": "Der Inhalt ist klar. = Sisu on selge."
+    },
+    {
+     "word": "das Thema",
+     "meaning": "teema",
+     "example": "Das Thema ist interessant. = Teema on huvitav."
+    },
+    {
+     "word": "der Umfang",
+     "meaning": "maht",
+     "example": "Der Umfang ist groß. = Maht on suur."
+    }
+   ],
+   "tip": "Mis on sees tekstis, kotis või anumas → der Inhalt.",
+   "important": "Mahu tähendus on tehniline; igapäevaselt on der Inhalt enamasti sisu.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "der Inhalt",
+     "purple": [
+      "sisu",
+      "mahtu"
+     ],
+     "yellow": [
+      "tekstis",
+      "anumas"
+     ]
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Inhalt",
+       "yellow": "Briefes"
+      },
+      "lv": {
+       "purple": "sisu",
+       "yellow": "Kirja"
+      }
+     },
+     {
+      "de": {
+       "blue": "Inhalt",
+       "yellow": "Tasche"
+      },
+      "lv": {
+       "purple": "sisu",
+       "yellow": "koti"
+      }
+     },
+     {
+      "de": {
+       "blue": "Inhalt",
+       "yellow": "Flasche"
+      },
+      "lv": {
+       "purple": "maht",
+       "yellow": "Pudeli"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "der Inhalt"
+      },
+      "meaning": {
+       "purple": "sisu"
+      },
+      "example": {
+       "blue": "Inhalt",
+       "purple": "Sisu"
+      }
+     },
+     {
+      "word": {
+       "green": "das Thema"
+      },
+      "meaning": {
+       "purple": "teema"
+      },
+      "example": {
+       "red": "Thema",
+       "purple": "Teema"
+      }
+     },
+     {
+      "word": {
+       "green": "der Umfang"
+      },
+      "meaning": {
+       "purple": "maht"
+      },
+      "example": {
+       "red": "Umfang",
+       "purple": "Maht"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "der Inhalt",
+     "purple": "sees",
+     "yellow": [
+      "tekstis",
+      "kotis",
+      "anumas"
+     ]
+    },
+    "important": {
+     "blue": "der Inhalt",
+     "purple": "sisu",
+     "red": "Mahu"
+    }
+   }
+  }
+ },
+ "b1-kante": {
+  "de": "Kante",
+  "de_article": "die",
+  "de_plural": "die Kanten",
+  "lv": "serv",
+  "level": "B1",
+  "study": {
+   "id": "b1-kante",
+   "layout": "standardStudy",
+   "translation": "serv",
+   "explanation": "Põhiidee: die Kante on eseme serv või äär. See ei ole tavaline territooriumi piir, vaid füüsiline terav või selge serv.",
+   "examples": [
+    {
+     "de": "Pass auf die scharfe Kante auf.",
+     "lv": "hoia teravast servast eemale."
+    },
+    {
+     "de": "Der Tisch hat eine runde Kante.",
+     "lv": "laual on ümar serv."
+    },
+    {
+     "de": "Er stellt das Glas an die Kante.",
+     "lv": "ta paneb klaasi serva äärde."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "die Kante",
+     "meaning": "serv / äär",
+     "example": "Die Kante ist scharf. = Serv on terav."
+    },
+    {
+     "word": "der Rand",
+     "meaning": "äär / veer",
+     "example": "Am Rand steht ein Baum. = Ääres seisab puu."
+    },
+    {
+     "word": "die Grenze",
+     "meaning": "piir",
+     "example": "Die Grenze ist geschlossen. = Piir on suletud."
+    }
+   ],
+   "tip": "Eseme füüsiline serv või äär → die Kante.",
+   "important": "Territooriumi piiride jaoks kasutatakse die Grenze; eseme serva jaoks sageli die Kante.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "die Kante",
+     "purple": [
+      "serv",
+      "äär"
+     ],
+     "yellow": "eseme"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Kante",
+       "red": "scharfe"
+      },
+      "lv": {
+       "purple": "teravast servast",
+       "red": "teravast"
+      }
+     },
+     {
+      "de": {
+       "blue": "Kante",
+       "yellow": "Tisch"
+      },
+      "lv": {
+       "purple": "serv",
+       "yellow": "Laual"
+      }
+     },
+     {
+      "de": {
+       "blue": "Kante",
+       "yellow": "Glas"
+      },
+      "lv": {
+       "purple": "serva äärde",
+       "yellow": "klaasi"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "die Kante"
+      },
+      "meaning": {
+       "purple": "serv"
+      },
+      "example": {
+       "blue": "Kante",
+       "purple": "Serv"
+      }
+     },
+     {
+      "word": {
+       "green": "der Rand"
+      },
+      "meaning": {
+       "purple": "äär"
+      },
+      "example": {
+       "red": "Rand",
+       "purple": "Ääres"
+      }
+     },
+     {
+      "word": {
+       "green": "die Grenze"
+      },
+      "meaning": {
+       "purple": "piir"
+      },
+      "example": {
+       "red": "Grenze",
+       "purple": "Piir"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "die Kante",
+     "purple": "serv",
+     "yellow": "Eseme"
+    },
+    "important": {
+     "red": "die Grenze",
+     "blue": "die Kante",
+     "purple": [
+      "piiride",
+      "serva"
+     ]
+    }
+   }
+  }
+ },
+ "b1-kastanie": {
+  "de": "Kastanie",
+  "de_article": "die",
+  "de_plural": "die Kastanien",
+  "lv": "kastan",
+  "level": "B1",
+  "study": {
+   "id": "b1-kastanie",
+   "layout": "standardStudy",
+   "translation": "kastan",
+   "explanation": "Põhiidee: die Kastanie võib tähendada nii kastanipuud kui ka kastani vilja ennast. Kontekst näitab, kumb tähendus on mõeldud.",
+   "examples": [
+    {
+     "de": "Vor dem Haus steht eine Kastanie.",
+     "lv": "maja ees kasvab kastan."
+    },
+    {
+     "de": "Das Kind sammelt Kastanien.",
+     "lv": "laps korjab kastaneid."
+    },
+    {
+     "de": "Im Herbst fallen die Kastanien auf den Weg.",
+     "lv": "sügisel kukuvad kastanid teele."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "die Kastanie",
+     "meaning": "kastan / kastani",
+     "example": "Die Kastanie blüht. = Kastan õitseb."
+    },
+    {
+     "word": "der Kastanienbaum",
+     "meaning": "kastanipuu",
+     "example": "Der Kastanienbaum ist alt. = Kastanipuu on vana."
+    },
+    {
+     "word": "die Nuss",
+     "meaning": "pähkel",
+     "example": "Die Nuss ist hart. = Pähkel on kõva."
+    }
+   ],
+   "tip": "Puu või vili? Vaata konteksti die Kastanie ümber.",
+   "important": "Eesti keeles tuleb sageli eristada kastanit kui puud ja kastanit kui vilja.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "die Kastanie",
+     "purple": [
+      "kastanipuud",
+      "vilja"
+     ],
+     "yellow": "Kontekst"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Kastanie",
+       "green": "Haus"
+      },
+      "lv": {
+       "purple": "kastan",
+       "green": "maja"
+      }
+     },
+     {
+      "de": {
+       "blue": "Kastanien",
+       "green": "Kind"
+      },
+      "lv": {
+       "purple": "kastaneid",
+       "green": "Laps"
+      }
+     },
+     {
+      "de": {
+       "blue": "Kastanien",
+       "green": "Herbst"
+      },
+      "lv": {
+       "purple": "kastanid",
+       "green": "Sügisel"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "die Kastanie"
+      },
+      "meaning": {
+       "purple": "kastan"
+      },
+      "example": {
+       "blue": "Kastanie",
+       "purple": "Kastan"
+      }
+     },
+     {
+      "word": {
+       "green": "der Kastanienbaum"
+      },
+      "meaning": {
+       "purple": "kastanipuu"
+      },
+      "example": {
+       "red": "Kastanienbaum",
+       "purple": "Kastanipuu"
+      }
+     },
+     {
+      "word": {
+       "green": "die Nuss"
+      },
+      "meaning": {
+       "purple": "pähkel"
+      },
+      "example": {
+       "red": "Nuss",
+       "purple": "Pähkel"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "die Kastanie",
+     "purple": [
+      "puu",
+      "vili"
+     ],
+     "yellow": "konteksti"
+    },
+    "important": {
+     "purple": [
+      "puud",
+      "vilja"
+     ]
+    }
+   }
+  }
+ },
+ "b1-kosten-study": {
+  "de": "Kosten",
+  "de_article": "die",
+  "de_plural": "die Kosten",
+  "lv": "kulud",
+  "level": "B1",
+  "study": {
+   "id": "b1-kosten-study",
+   "layout": "standardStudy",
+   "translation": "kulud",
+   "explanation": [
+    "Põhiidee: die Kosten (ainult mitmuses) artikliga die on nimisõna — kulud, väljaminekud.",
+    "kosten väikese tähega on tegusõna — maksma (kui palju miski maksab).",
+    "die Kosten't kasutatakse ainult mitmuses — ainsuse vormi ei ole (ei saa öelda 'eine Kosten').",
+    "Väljendis auf eigene Kosten tähendab oma vahenditega/oma raha eest."
+   ],
+   "examples": [
+    {
+     "de": "Die Kosten sind sehr hoch.",
+     "lv": "kulud on väga suured."
+    },
+    {
+     "de": "Wer trägt die Kosten?",
+     "lv": "kes katab kulud?"
+    },
+    {
+     "de": "Das kostet 5 Euro.",
+     "lv": "see maksab 5 eurot."
+    },
+    {
+     "de": "Ich reise auf eigene Kosten.",
+     "lv": "ma reisin oma raha eest."
+    }
+   ],
+   "tip": [
+    "die Kosten suure tähega ja artikliga die — nimisõna, ainult mitmuses.",
+    "kosten väikese tähega — tegusõna (maksma)."
+   ],
+   "important": [
+    "die Kosten = kulud (nimisõna, ainult mitmus).",
+    "kosten = maksma (tegusõna).",
+    "Valesti: eine Kosten → Õigesti: die Kosten (alati mitmuses)."
+   ],
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "die Kosten"
+     ],
+     "purple": [
+      "kulud",
+      "väljaminekud"
+     ],
+     "green": [
+      "kosten"
+     ]
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Kosten"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kulud"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Kosten"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kulud"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "kostet"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "maksab"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Kosten"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "raha"
+       ]
+      }
+     }
+    ],
+    "tip": [
+     {
+      "blue": [
+       "die Kosten"
+      ]
+     },
+     {
+      "green": [
+       "kosten"
+      ]
+     }
+    ],
+    "important": [
+     {
+      "blue": [
+       "die Kosten"
+      ]
+     },
+     {
+      "green": [
+       "kosten"
+      ]
+     },
+     {
+      "blue": [
+       "die Kosten"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "b1-landen": {
+  "de": "landen",
+  "lv": "maanduma",
+  "level": "B1",
+  "study": {
+   "id": "b1-landen",
+   "layout": "standardStudy",
+   "translation": "maanduma",
+   "explanation": "Põhiidee: landen tähendab maandumist või kuhugi jõudmist. Laeva või paadi puhul võib see tähendada ka kaldale randumist.",
+   "examples": [
+    {
+     "de": "Das Flugzeug landet pünktlich.",
+     "lv": "lennuk maandub õigel ajal."
+    },
+    {
+     "de": "Das Boot landet am Ufer.",
+     "lv": "paat randub kaldal."
+    },
+    {
+     "de": "Die E-Mail landet im Spamordner.",
+     "lv": "e-kiri jõuab rämpspostikausta."
+    }
+   ],
+   "tip": "Lennuk või miski jõuab kindlasse kohta → landen.",
+   "important": "Inimene linnas tavaliselt kommt an; lennuk landet.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "landen",
+     "purple": [
+      "maandumist",
+      "kuhugi jõudmist",
+      "randumist"
+     ],
+     "yellow": [
+      "Laeva",
+      "paadi"
+     ]
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "landet",
+       "yellow": "Flugzeug"
+      },
+      "lv": {
+       "purple": "maandub",
+       "yellow": "Lennuk"
+      }
+     },
+     {
+      "de": {
+       "blue": "landet",
+       "yellow": "Boot"
+      },
+      "lv": {
+       "purple": "randub",
+       "yellow": "Paat"
+      }
+     },
+     {
+      "de": {
+       "blue": "landet",
+       "yellow": "E-Mail"
+      },
+      "lv": {
+       "purple": "jõuab",
+       "yellow": "E-kiri"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "landen"
+      },
+      "meaning": {
+       "purple": "maanduma"
+      },
+      "example": {
+       "blue": "landet",
+       "purple": "maandub"
+      }
+     },
+     {
+      "word": {
+       "green": "ankommen"
+      },
+      "meaning": {
+       "purple": "saabuma"
+      },
+      "example": {
+       "red": "kommt an",
+       "purple": "saabub"
+      }
+     },
+     {
+      "word": {
+       "green": "anlegen"
+      },
+      "meaning": {
+       "purple": "randuma"
+      },
+      "example": {
+       "red": "legt",
+       "purple": "randub"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "landen",
+     "purple": "jõuab",
+     "yellow": "Lennuk"
+    },
+    "important": {
+     "blue": "landet",
+     "red": "kommt an",
+     "purple": [
+      "lennuk",
+      "inimene"
+     ]
+    }
+   }
+  }
+ },
+ "b1-laut-study": {
+  "de": "Laut",
+  "de_article": "der",
+  "de_plural": "die Laute",
+  "lv": "heli",
+  "level": "B1",
+  "study": {
+   "id": "b1-laut-study",
+   "layout": "standardStudy",
+   "translation": "heli",
+   "explanation": [
+    "Põhiidee: Nimisõna artikliga der ja suure tähega. Tähendab heli kui asja, signaali või keele häälikut.",
+    "der Laut tähendab peamiselt: vali heli.",
+    "Sageli kirjeldab: omadussõna.",
+    "der Laut tähendab peamiselt: helisignaal.",
+    "Sageli kirjeldab: nimisõna (der).",
+    "laut väikese algustähega on omadussõna — see kirjeldab, kui vali on heli (Die Musik ist laut = muusika on vali).",
+    "der Laut suure tähega ja artikliga der on nimisõna — see tähendab heli kui asja või signaali (Der Laut ist schön = heli on ilus).",
+    "Mitmuses: die Laute."
+   ],
+   "examples": [
+    {
+     "de": "Der Laut ist schön.",
+     "lv": "Heli on ilus."
+    },
+    {
+     "de": "Die Musik ist laut.",
+     "lv": "muusika on vali."
+    },
+    {
+     "de": "Sprich nicht so laut!",
+     "lv": "ära räägi nii valjult!"
+    },
+    {
+     "de": "Das ist sehr laut.",
+     "lv": "see on väga valjult."
+    },
+    {
+     "de": "Der Laut ist schön.",
+     "lv": "heli on ilus."
+    },
+    {
+     "de": "Ich höre einen Laut.",
+     "lv": "ma kuulen mingit heli."
+    }
+   ],
+   "tip": [
+    "Väike laut = vali (omadussõna: ist laut). der Laut suure tähega = heli (nimisõna: ein Laut, der Laut).",
+    "der Laut = heli"
+   ],
+   "important": [
+    "laut on väikese tähega ja ilma artiklita — see on omadussõna.",
+    "der Laut suure tähega ja artikliga der on nimisõna.",
+    "Mitmus: die Laute (keele häälikud, helisignaalid).",
+    "Valesti: Der Laut ist sehr. → Õigesti: Das ist sehr laut."
+   ],
+   "sectionAccents": {
+    "explanation": {
+     "green": [
+      "der Laut",
+      "laut"
+     ],
+     "purple": [
+      "heli",
+      "helid"
+     ],
+     "yellow": [
+      "Laut",
+      "Laute"
+     ]
+    },
+    "examples": [
+     {
+      "de": {
+       "green": [
+        "der Laut",
+        "laut"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "heli"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "der Laut",
+        "laut"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "heli"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "der Laut",
+        "laut"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "heli"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "der Laut",
+        "laut"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "heli"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "der Laut",
+        "laut"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "heli"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "der Laut",
+        "laut"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "heli"
+       ]
+      }
+     }
+    ],
+    "tip": [
+     {
+      "purple": [
+       "heli"
+      ]
+     }
+    ],
+    "important": [
+     {
+      "green": [
+       "der Laut"
+      ]
+     }
+    ]
+   }
+  }
  }
 }
