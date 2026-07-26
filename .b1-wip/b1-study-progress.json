@@ -31167,5 +31167,1265 @@
     }
    }
   }
+ },
+ "b1-nachdem": {
+  "de": "nachdem",
+  "lv": "pärast seda kui",
+  "level": "B1",
+  "study": {
+   "id": "b1-nachdem",
+   "layout": "standardStudy",
+   "translation": "pärast seda kui",
+   "explanation": "Põhiidee: nachdem sissejuhatab kõrvallauset ja tähendab pärast seda kui. Saksa keeles seisab tegusõna selles kõrvallauses lõpus.",
+   "examples": [
+    {
+     "de": "Nachdem ich gegessen hatte, ging ich schlafen.",
+     "lv": "pärast seda kui olin söönud, läksin magama."
+    },
+    {
+     "de": "Nachdem der Kurs beendet war, gingen wir nach Hause.",
+     "lv": "pärast seda kui kursus oli lõppenud, läksime koju."
+    },
+    {
+     "de": "Je nachdem, wie das Wetter ist, fahren wir morgen los.",
+     "lv": "olenevalt ilmast läheme homme teele."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "nachdem",
+     "meaning": "pärast seda kui",
+     "example": "Nachdem ich gegessen hatte, ging ich schlafen. = Pärast seda kui olin söönud, läksin magama."
+    },
+    {
+     "word": "danach",
+     "meaning": "pärast seda",
+     "example": "Danach gingen wir nach Hause. = Pärast seda läksime koju."
+    },
+    {
+     "word": "bevor",
+     "meaning": "enne",
+     "example": "Bevor ich gehe, rufe ich an. = Enne kui lähen, helistan."
+    }
+   ],
+   "tip": "nachdem nõuab tervet kõrvallauset; danach võib seista üksinda.",
+   "important": "Pärast nachdem käib tegusõna tavaliselt lause lõpus: nachdem ich gegessen hatte.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "nachdem",
+     "purple": "pärast seda kui",
+     "red": "lõpus"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Nachdem",
+       "purple": "hatte"
+      },
+      "lv": {
+       "purple": "Pärast seda kui"
+      }
+     },
+     {
+      "de": {
+       "blue": "Nachdem",
+       "yellow": "Kurs"
+      },
+      "lv": {
+       "purple": "Pärast seda kui"
+      }
+     },
+     {
+      "de": {
+       "red": "Je nachdem",
+       "yellow": "Wetter"
+      },
+      "lv": {
+       "purple": "Olenevalt"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "nachdem"
+      },
+      "meaning": {
+       "purple": "pärast seda kui"
+      },
+      "example": {
+       "blue": "Nachdem"
+      }
+     },
+     {
+      "word": {
+       "green": "danach"
+      },
+      "meaning": {
+       "purple": "pärast seda"
+      },
+      "example": {
+       "red": "Danach"
+      }
+     },
+     {
+      "word": {
+       "green": "bevor"
+      },
+      "meaning": {
+       "purple": "enne"
+      },
+      "example": {
+       "red": "Bevor"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "nachdem",
+     "red": "danach"
+    },
+    "important": {
+     "blue": "nachdem",
+     "purple": "gegessen hatte"
+    }
+   }
+  }
+ },
+ "b1-nachfrage": {
+  "de": "Nachfrage",
+  "de_article": "die",
+  "de_plural": "die Nachfragen",
+  "lv": "nõudlus",
+  "level": "B1",
+  "study": {
+   "id": "b1-nachfrage",
+   "layout": "standardStudy",
+   "translation": "nõudlus",
+   "explanation": "Põhiidee: die Nachfrage tähendab majanduses nõudlust kaupade või teenuste järele. Kirjavahetuses võib see tähendada ka järelepärimist või lisaküsimust.",
+   "examples": [
+    {
+     "de": "Die Nachfrage nach Wohnungen ist groß.",
+     "lv": "nõudlus korterite järele on suur."
+    },
+    {
+     "de": "Bei hoher Nachfrage steigen die Preise.",
+     "lv": "kui nõudlus on suur, hinnad tõusevad."
+    },
+    {
+     "de": "Vielen Dank für Ihre Nachfrage.",
+     "lv": "suur tänu teie järelepärimise eest."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "die Nachfrage",
+     "meaning": "nõudlus • järelepärimine",
+     "example": "Die Nachfrage ist groß. = Nõudlus on suur."
+    },
+    {
+     "word": "die Frage",
+     "meaning": "küsimus",
+     "example": "Ich habe eine Frage. = Mul on küsimus."
+    },
+    {
+     "word": "das Angebot",
+     "meaning": "pakkumine",
+     "example": "Das Angebot ist begrenzt. = Pakkumine on piiratud."
+    }
+   ],
+   "tip": "Turul on Nachfrage vastand sõnale Angebot.",
+   "important": "die Nachfrage ei ole tavaline küsimus. Lihtsa küsimuse jaoks kasutatakse die Frage.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "die Nachfrage",
+     "purple": "nõudlust",
+     "red": "küsimust"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Nachfrage",
+       "yellow": "Wohnungen"
+      },
+      "lv": {
+       "purple": "Nõudlus"
+      }
+     },
+     {
+      "de": {
+       "blue": "Nachfrage",
+       "yellow": "Preise"
+      },
+      "lv": {
+       "purple": "nõudlus"
+      }
+     },
+     {
+      "de": {
+       "blue": "Nachfrage"
+      },
+      "lv": {
+       "purple": "järelepärimise"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "die Nachfrage"
+      },
+      "meaning": {
+       "purple": "nõudlus"
+      },
+      "example": {
+       "blue": "Nachfrage"
+      }
+     },
+     {
+      "word": {
+       "green": "die Frage"
+      },
+      "meaning": {
+       "purple": "küsimus"
+      },
+      "example": {
+       "red": "Frage"
+      }
+     },
+     {
+      "word": {
+       "green": "das Angebot"
+      },
+      "meaning": {
+       "purple": "pakkumine"
+      },
+      "example": {
+       "red": "Angebot"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "Nachfrage",
+     "red": "Angebot"
+    },
+    "important": {
+     "blue": "die Nachfrage",
+     "red": "die Frage"
+    }
+   }
+  }
+ },
+ "b1-nachgeben": {
+  "de": "nachgeben",
+  "lv": "järele andma",
+  "level": "B1",
+  "study": {
+   "id": "b1-nachgeben",
+   "layout": "standardStudy",
+   "translation": "järele andma",
+   "explanation": "Põhiidee: nachgeben tähendab järeleandmist või survele alistumist. Materjali kohta võib see tähendada, et see paindub või annab järele.",
+   "examples": [
+    {
+     "de": "Nach langer Diskussion gab er nach.",
+     "lv": "pärast pikka arutelu ta andis järele."
+    },
+    {
+     "de": "Ich gebe dem Druck nicht nach.",
+     "lv": "ma ei anna survele järele."
+    },
+    {
+     "de": "Der Boden gibt unter dem Gewicht nach.",
+     "lv": "põrand annab raskuse all järele."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "nachgeben",
+     "meaning": "järele andma survele",
+     "example": "Er gab nach. = Ta andis järele."
+    },
+    {
+     "word": "aufgeben",
+     "meaning": "alla andma, proovimist lõpetama",
+     "example": "Gib nicht auf! = Ära anna alla!"
+    },
+    {
+     "word": "zugeben",
+     "meaning": "tunnistama",
+     "example": "Sie gibt den Fehler zu. = Ta tunnistab viga."
+    }
+   ],
+   "tip": "Surve ja samm tagasi: nachgeben.",
+   "important": "nachgeben ei ole aufgeben. nachgeben on järele andmine kindlas olukorras, aga aufgeben on proovimise lõpetamine.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "nachgeben",
+     "purple": "järeleandmist",
+     "red": "survele"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "gab nach",
+       "green": "er"
+      },
+      "lv": {
+       "purple": "andis järele"
+      }
+     },
+     {
+      "de": {
+       "blue": "gebe",
+       "yellow": "Druck"
+      },
+      "lv": {
+       "purple": "ei anna järele"
+      }
+     },
+     {
+      "de": {
+       "blue": "gibt",
+       "yellow": "Boden"
+      },
+      "lv": {
+       "purple": "annab järele"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "nachgeben"
+      },
+      "meaning": {
+       "purple": "järele andma"
+      },
+      "example": {
+       "blue": "gab nach"
+      }
+     },
+     {
+      "word": {
+       "green": "aufgeben"
+      },
+      "meaning": {
+       "purple": "alla andma"
+      },
+      "example": {
+       "red": "Gib nicht auf"
+      }
+     },
+     {
+      "word": {
+       "green": "zugeben"
+      },
+      "meaning": {
+       "purple": "tunnistama"
+      },
+      "example": {
+       "red": "gibt den Fehler zu",
+       "yellow": "Fehler"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "nachgeben",
+     "purple": "samm tagasi"
+    },
+    "important": {
+     "blue": "nachgeben",
+     "red": "aufgeben"
+    }
+   }
+  }
+ },
+ "b1-neigen": {
+  "de": "neigen",
+  "lv": "kalduma",
+  "level": "B1",
+  "study": {
+   "id": "b1-neigen",
+   "layout": "standardStudy",
+   "translation": "kalduma",
+   "explanation": "Põhiidee: neigen tähendab millegi poole kaldumist või mingis suunas kaldu olemist. Füüsiliselt võib see tähendada ka pea või eseme kallutamist.",
+   "examples": [
+    {
+     "de": "Er neigt zu schnellen Entscheidungen.",
+     "lv": "tal on kalduvus kiirete otsuste poole."
+    },
+    {
+     "de": "Sie neigt den Kopf leicht zur Seite.",
+     "lv": "ta kallutab kergelt pead küljele."
+    },
+    {
+     "de": "Das Wetter neigt im April zu Extremen.",
+     "lv": "aprillis kaldub ilm äärmustesse."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "neigen",
+     "meaning": "kalduma • kallutama",
+     "example": "Er neigt zu Fehlern. = Tal on kalduvus vigade poole."
+    },
+    {
+     "word": "sich nähern",
+     "meaning": "lähenema",
+     "example": "Der Zug nähert sich dem Bahnhof. = Rong läheneb jaamale."
+    },
+    {
+     "word": "biegen",
+     "meaning": "painutama",
+     "example": "Er biegt den Draht. = Ta painutab traati."
+    }
+   ],
+   "tip": "neigen zu + millele?: kalduvus millegi poole.",
+   "important": "neigen ei ole sich nähern. neigen näitab kalduvust või kallet, sich nähern näitab lähenemist.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "neigen",
+     "purple": "kalduvust",
+     "red": "kallutamist"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "neigt",
+       "yellow": "Entscheidungen"
+      },
+      "lv": {
+       "purple": "kalduvus"
+      }
+     },
+     {
+      "de": {
+       "blue": "neigt",
+       "yellow": "Kopf"
+      },
+      "lv": {
+       "purple": "kallutab"
+      }
+     },
+     {
+      "de": {
+       "blue": "neigt",
+       "yellow": "Extremen"
+      },
+      "lv": {
+       "purple": "kaldub"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "neigen"
+      },
+      "meaning": {
+       "purple": "kalduvust"
+      },
+      "example": {
+       "blue": "neigt",
+       "yellow": "Fehlern"
+      }
+     },
+     {
+      "word": {
+       "green": "sich nähern"
+      },
+      "meaning": {
+       "purple": "lähenema"
+      },
+      "example": {
+       "red": "nähert sich",
+       "green": "Bahnhof"
+      }
+     },
+     {
+      "word": {
+       "green": "biegen"
+      },
+      "meaning": {
+       "purple": "painutama"
+      },
+      "example": {
+       "red": "biegt",
+       "yellow": "Draht"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "neigen zu",
+     "purple": "kalduvus"
+    },
+    "important": {
+     "blue": "neigen",
+     "red": "sich nähern"
+    }
+   }
+  }
+ },
+ "b1-neigung": {
+  "de": "Neigung",
+  "de_article": "die",
+  "de_plural": "die Neigungen",
+  "lv": "kalduvus",
+  "level": "B1",
+  "study": {
+   "id": "b1-neigung",
+   "layout": "standardStudy",
+   "translation": "kalduvus",
+   "explanation": "Põhiidee: die Neigung tähendab kalduvust või soodumust millegi poole. Tehnilises kontekstis võib see tähendada ka kallet.",
+   "examples": [
+    {
+     "de": "Sie hat eine Neigung zur Musik.",
+     "lv": "tal on kalduvus muusika poole."
+    },
+    {
+     "de": "Seine Neigung zu Risiken ist bekannt.",
+     "lv": "tema kalduvus riski poole on teada."
+    },
+    {
+     "de": "Die Neigung des Daches ist stark.",
+     "lv": "katuse kalle on suur."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "die Neigung",
+     "meaning": "kalduvus, soodumus • kalle",
+     "example": "Sie hat eine Neigung zur Musik. = Tal on kalduvus muusika poole."
+    },
+    {
+     "word": "das Interesse",
+     "meaning": "huvi",
+     "example": "Sie hat Interesse an Kunst. = Tal on huvi kunsti vastu."
+    },
+    {
+     "word": "der Hang",
+     "meaning": "nõlv • ka kalduvus",
+     "example": "Der Hang ist steil. = Nõlv on järsk."
+    }
+   ],
+   "tip": "Sisemine suund või kalduvus: die Neigung.",
+   "important": "die Neigung ei ole lihtsalt Interesse. Neigung näitab sagedamini püsivat kalduvust või kallet.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "die Neigung",
+     "purple": "kalduvust",
+     "red": "kallet"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Neigung",
+       "yellow": "Musik"
+      },
+      "lv": {
+       "purple": "kalduvus"
+      }
+     },
+     {
+      "de": {
+       "blue": "Neigung",
+       "yellow": "Risiken"
+      },
+      "lv": {
+       "purple": "kalduvus"
+      }
+     },
+     {
+      "de": {
+       "blue": "Neigung",
+       "yellow": "Daches"
+      },
+      "lv": {
+       "red": "kalle"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "die Neigung"
+      },
+      "meaning": {
+       "purple": "kalduvus"
+      },
+      "example": {
+       "blue": "Neigung",
+       "yellow": "Musik"
+      }
+     },
+     {
+      "word": {
+       "green": "das Interesse"
+      },
+      "meaning": {
+       "purple": "huvi"
+      },
+      "example": {
+       "red": "Interesse"
+      }
+     },
+     {
+      "word": {
+       "green": "der Hang"
+      },
+      "meaning": {
+       "purple": "nõlv"
+      },
+      "example": {
+       "red": "Hang"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "die Neigung",
+     "purple": "kalduvus"
+    },
+    "important": {
+     "blue": "die Neigung",
+     "red": "Interesse"
+    }
+   }
+  }
+ },
+ "b1-nerven": {
+  "de": "nerven",
+  "lv": "ärritama",
+  "level": "B1",
+  "study": {
+   "id": "b1-nerven",
+   "layout": "standardStudy",
+   "translation": "ärritama",
+   "explanation": "Põhiidee: nerven kõnekeeles tähendab ärritamist või närvidele käimist. Seda kasutatakse inimeste, müra või olukordade kohta, mis segavad.",
+   "examples": [
+    {
+     "de": "Der Lärm nervt mich seit Stunden.",
+     "lv": "müra ärritab mind juba mitu tundi."
+    },
+    {
+     "de": "Seine ständigen Fragen nerven alle.",
+     "lv": "tema pidevad küsimused ärritavad kõiki."
+    },
+    {
+     "de": "Hör bitte auf, du nervst!",
+     "lv": "palun lõpeta, sa käid närvidele!"
+    }
+   ],
+   "comparison": [
+    {
+     "word": "nerven",
+     "meaning": "ärritama, närvidele käima",
+     "example": "Der Lärm nervt mich. = Müra ärritab mind."
+    },
+    {
+     "word": "stören",
+     "meaning": "segama",
+     "example": "Bitte nicht stören. = Palun mitte segada."
+    },
+    {
+     "word": "ärgern",
+     "meaning": "vihastama, ärritama",
+     "example": "Das ärgert mich. = See vihastab mind."
+    }
+   ],
+   "tip": "Kui miski käib närvidele, kasuta nerven.",
+   "important": "nerven on kõnekeelne. Formaalsemas olukorras on sageli kindlam stören.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "nerven",
+     "purple": "ärritamist",
+     "red": "kõnekeeles"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "nervt",
+       "yellow": "Lärm"
+      },
+      "lv": {
+       "purple": "ärritab"
+      }
+     },
+     {
+      "de": {
+       "blue": "nerven",
+       "yellow": "Fragen"
+      },
+      "lv": {
+       "purple": "ärritavad"
+      }
+     },
+     {
+      "de": {
+       "blue": "nervst"
+      },
+      "lv": {
+       "purple": "käid närvidele"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "nerven"
+      },
+      "meaning": {
+       "purple": "ärritama"
+      },
+      "example": {
+       "blue": "nervt",
+       "yellow": "Lärm"
+      }
+     },
+     {
+      "word": {
+       "green": "stören"
+      },
+      "meaning": {
+       "purple": "segama"
+      },
+      "example": {
+       "red": "stören"
+      }
+     },
+     {
+      "word": {
+       "green": "ärgern"
+      },
+      "meaning": {
+       "purple": "vihastama"
+      },
+      "example": {
+       "red": "ärgert"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "nerven",
+     "purple": "käib närvidele"
+    },
+    "important": {
+     "blue": "nerven",
+     "red": "stören"
+    }
+   }
+  }
+ },
+ "b1-nieder": {
+  "de": "nieder",
+  "lv": "alla",
+  "level": "B1",
+  "study": {
+   "id": "b1-nieder",
+   "layout": "standardStudy",
+   "translation": "alla",
+   "explanation": "Põhiidee: nieder tähendab alla, maha või ära, aga tänapäeva igapäevases saksa keeles esineb see sageli liitsõnades ja tegusõnades.",
+   "examples": [
+    {
+     "de": "Der Baum liegt nieder.",
+     "lv": "puu lamab maas."
+    },
+    {
+     "de": "Er schlug den Gegner nieder.",
+     "lv": "ta lõi vastase maha."
+    },
+    {
+     "de": "Sie ließ sich auf dem Stuhl nieder.",
+     "lv": "ta istus tooli peale."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "nieder",
+     "meaning": "alla, maha, ära",
+     "example": "Der Baum liegt nieder. = Puu lamab maas."
+    },
+    {
+     "word": "unten",
+     "meaning": "all, alla",
+     "example": "Ich warte unten. = Ma ootan all."
+    },
+    {
+     "word": "herunter",
+     "meaning": "alla ülalt",
+     "example": "Komm bitte herunter! = Palun tule alla!"
+    }
+   ],
+   "tip": "nieder tähendab sageli liikumist või seisundit allapoole.",
+   "important": "Lihtsa igapäevase „all” jaoks kasutatakse sagedamini unten või herunter; nieder on sageli liitsõnades.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "nieder",
+     "purple": "alla",
+     "red": "liitsõnades"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "nieder",
+       "yellow": "Baum"
+      },
+      "lv": {
+       "purple": "maas"
+      }
+     },
+     {
+      "de": {
+       "blue": "nieder",
+       "green": "Gegner"
+      },
+      "lv": {
+       "purple": "lõi maha"
+      }
+     },
+     {
+      "de": {
+       "blue": "nieder",
+       "yellow": "Stuhl"
+      },
+      "lv": {
+       "purple": "istus"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "nieder"
+      },
+      "meaning": {
+       "purple": "alla"
+      },
+      "example": {
+       "blue": "nieder"
+      }
+     },
+     {
+      "word": {
+       "green": "unten"
+      },
+      "meaning": {
+       "purple": "all"
+      },
+      "example": {
+       "red": "unten"
+      }
+     },
+     {
+      "word": {
+       "green": "herunter"
+      },
+      "meaning": {
+       "purple": "allapoole"
+      },
+      "example": {
+       "red": "herunter"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "nieder",
+     "purple": "allapoole"
+    },
+    "important": {
+     "blue": "nieder",
+     "red": [
+      "unten",
+      "herunter"
+     ]
+    }
+   }
+  }
+ },
+ "b1-not": {
+  "de": "Not",
+  "de_article": "die",
+  "de_plural": "die Nöte",
+  "lv": "häda",
+  "level": "B1",
+  "study": {
+   "id": "b1-not",
+   "layout": "standardStudy",
+   "translation": "häda",
+   "explanation": "Põhiidee: die Not tähendab tõsist puudust, viletsust või hädalist olukorda. Väljendites võib see tähendada ka „kui vaja”.",
+   "examples": [
+    {
+     "de": "Viele Menschen leben in Not.",
+     "lv": "paljud inimesed elavad vaesuses."
+    },
+    {
+     "de": "In der Not hilft man einander.",
+     "lv": "hädaajal aitavad inimesed üksteist."
+    },
+    {
+     "de": "Zur Not rufen wir ein Taxi.",
+     "lv": "kui vaja, kutsume takso."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "die Not",
+     "meaning": "puudus, viletsus, raske olukord",
+     "example": "Sie leben in Not. = Nad elavad vaesuses."
+    },
+    {
+     "word": "die Notwendigkeit",
+     "meaning": "vajadus",
+     "example": "Es gibt keine Notwendigkeit. = Pole vajadust."
+    },
+    {
+     "word": "der Notfall",
+     "meaning": "hädaolukord",
+     "example": "Das ist ein Notfall. = See on hädaolukord."
+    }
+   ],
+   "tip": "die Not on raske olukord, mitte tavaline vajadus.",
+   "important": "Ära aja segi die Not sõnaga die Notwendigkeit. Not on viletsus või puudus, Notwendigkeit on vajadus.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "die Not",
+     "purple": "puudust",
+     "red": "hädalist olukorda"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Not",
+       "green": "Menschen"
+      },
+      "lv": {
+       "purple": "vaesuses"
+      }
+     },
+     {
+      "de": {
+       "blue": "Not"
+      },
+      "lv": {
+       "purple": "Hädaajal"
+      }
+     },
+     {
+      "de": {
+       "blue": "Zur Not",
+       "yellow": "Taxi"
+      },
+      "lv": {
+       "purple": "Kui vaja"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "die Not"
+      },
+      "meaning": {
+       "purple": "puudus"
+      },
+      "example": {
+       "blue": "Not"
+      }
+     },
+     {
+      "word": {
+       "green": "die Notwendigkeit"
+      },
+      "meaning": {
+       "purple": "vajadus"
+      },
+      "example": {
+       "red": "Notwendigkeit"
+      }
+     },
+     {
+      "word": {
+       "green": "der Notfall"
+      },
+      "meaning": {
+       "purple": "hädaolukord"
+      },
+      "example": {
+       "red": "Notfall"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "die Not",
+     "red": "vajadus"
+    },
+    "important": {
+     "blue": "die Not",
+     "red": "die Notwendigkeit"
+    }
+   }
+  }
+ },
+ "b1-nüchtern": {
+  "de": "nüchtern",
+  "lv": "kaine",
+  "level": "B1",
+  "study": {
+   "id": "b1-nüchtern",
+   "layout": "standardStudy",
+   "translation": "kaine",
+   "explanation": "Põhiidee: nüchtern tähendab kaine või selge peaga. Arsti juures tähendab see sageli tühja kõhuga.",
+   "examples": [
+    {
+     "de": "Der Fahrer muss nüchtern sein.",
+     "lv": "juht peab olema kaine."
+    },
+    {
+     "de": "Kommen Sie bitte nüchtern zur Untersuchung.",
+     "lv": "palun tulge uuringule tühja kõhuga."
+    },
+    {
+     "de": "Sie beurteilt die Lage nüchtern.",
+     "lv": "ta hindab olukorda asjalikult."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "nüchtern",
+     "meaning": "kaine • tühja kõhuga • asjalik",
+     "example": "Der Fahrer ist nüchtern. = Juht on kaine."
+    },
+    {
+     "word": "betrunken",
+     "meaning": "purjus",
+     "example": "Er ist betrunken. = Ta on purjus."
+    },
+    {
+     "word": "sachlich",
+     "meaning": "asjalik",
+     "example": "Bleib sachlich. = Jää asjalikuks."
+    }
+   ],
+   "tip": "Alkohol, arst või jahe pilk: nüchtern.",
+   "important": "Arsti juures tähendab nüchtern sageli tühja kõhuga, mitte ainult kaine.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "nüchtern",
+     "purple": "kaine",
+     "red": "tühja kõhuga"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "nüchtern",
+       "green": "Fahrer"
+      },
+      "lv": {
+       "purple": "kaine"
+      }
+     },
+     {
+      "de": {
+       "blue": "nüchtern",
+       "yellow": "Untersuchung"
+      },
+      "lv": {
+       "red": "tühja kõhuga"
+      }
+     },
+     {
+      "de": {
+       "blue": "nüchtern",
+       "yellow": "Lage"
+      },
+      "lv": {
+       "purple": "asjalikult"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "nüchtern"
+      },
+      "meaning": {
+       "purple": "kaine"
+      },
+      "example": {
+       "blue": "nüchtern"
+      }
+     },
+     {
+      "word": {
+       "green": "betrunken"
+      },
+      "meaning": {
+       "purple": "purjus"
+      },
+      "example": {
+       "red": "betrunken"
+      }
+     },
+     {
+      "word": {
+       "green": "sachlich"
+      },
+      "meaning": {
+       "purple": "asjalik"
+      },
+      "example": {
+       "red": "sachlich"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "nüchtern",
+     "yellow": [
+      "Alkohol",
+      "arst"
+     ]
+    },
+    "important": {
+     "blue": "nüchtern",
+     "red": "tühja kõhuga"
+    }
+   }
+  }
+ },
+ "b1-nutzen-study": {
+  "de": "Nutzen",
+  "de_article": "der",
+  "de_plural": "die Nutzen",
+  "lv": "kasu",
+  "level": "B1",
+  "study": {
+   "id": "b1-nutzen-study",
+   "layout": "standardStudy",
+   "translation": "kasu",
+   "explanation": [
+    "Põhiidee: der Nutzen suure tähega ja artikliga der on nimisõna — kasu, tulu.",
+    "nutzen väikese tähega on tegusõna — kasutama.",
+    "Väljendis von Nutzen sein tähendab olla kasulik/tuua kasu.",
+    "zu jemandes Nutzen tähendab kellegi kasuks/hüvanguks."
+   ],
+   "examples": [
+    {
+     "de": "Das ist von großem Nutzen.",
+     "lv": "see toob suurt kasu."
+    },
+    {
+     "de": "Der Nutzen dieser App ist klar.",
+     "lv": "selle rakenduse kasu on selge."
+    },
+    {
+     "de": "Ich nutze die Zeit zum Lernen.",
+     "lv": "ma kasutan aega õppimiseks."
+    },
+    {
+     "de": "Das bringt keinen Nutzen.",
+     "lv": "see ei too mingit kasu."
+    }
+   ],
+   "tip": [
+    "der Nutzen suure tähega — nimisõna (kasu, tulu).",
+    "nutzen väikese tähega — tegusõna (kasutama)."
+   ],
+   "important": [
+    "der Nutzen = kasu/tulu (nimisõna).",
+    "nutzen = kasutama (tegusõna).",
+    "von Nutzen sein = olla kasulik."
+   ],
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "der Nutzen"
+     ],
+     "purple": [
+      "kasu",
+      "tulu"
+     ],
+     "green": [
+      "nutzen"
+     ]
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Nutzen"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kasu"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Nutzen"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kasu"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "nutze"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kasutan"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Nutzen"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kasu"
+       ]
+      }
+     }
+    ],
+    "tip": [
+     {
+      "blue": [
+       "der Nutzen"
+      ]
+     },
+     {
+      "green": [
+       "nutzen"
+      ]
+     }
+    ],
+    "important": [
+     {
+      "blue": [
+       "der Nutzen"
+      ]
+     },
+     {
+      "green": [
+       "nutzen"
+      ]
+     },
+     {
+      "blue": [
+       "von Nutzen sein"
+      ]
+     }
+    ]
+   }
+  }
  }
 }
