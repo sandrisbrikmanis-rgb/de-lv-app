@@ -44002,5 +44002,1416 @@
     ]
    }
   }
+ },
+ "b1-vorkommen": {
+  "de": "vorkommen",
+  "lv": "juhtuma",
+  "level": "B1",
+  "study": {
+   "id": "b1-vorkommen",
+   "layout": "standardStudy",
+   "translation": "juhtuma",
+   "explanation": "Põhiidee: vorkommen tähendab juhtumist või esinemist. Konstruktsioon jemandem vorkommen tähendab kellelegi tunduma.",
+   "examples": [
+    {
+     "de": "So etwas kommt in der Praxis oft vor.",
+     "lv": "sellised asjad juhtuvad praktikas sageli."
+    },
+    {
+     "de": "Dieses Wort kommt im Text mehrmals vor.",
+     "lv": "see sõna esineb tekstis mitu korda."
+    },
+    {
+     "de": "Das kommt mir seltsam vor.",
+     "lv": "see tundub mulle kummaline."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "vorkommen",
+     "meaning": "juhtuma, esinema, tunduma",
+     "example": "Das kommt oft vor. = See juhtub sageli."
+    },
+    {
+     "word": "passieren",
+     "meaning": "juhtuma",
+     "example": "Was ist passiert? = Mis juhtus?"
+    },
+    {
+     "word": "scheinen",
+     "meaning": "tunduma",
+     "example": "Das scheint richtig. = See tundub õige."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "kommt vor = juhtub; kommt mir vor = mulle tundub."
+     }
+    ]
+   },
+   "important": {
+    "text": "vorkommen on lahknev tegusõna: Das kommt oft vor."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "vorkommen",
+     "purple": "juhtuma",
+     "red": "jemandem vorkommen"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "kommt",
+        "vor"
+       ],
+       "yellow": "Praxis"
+      },
+      "lv": {
+       "purple": "juhtuvad"
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "kommt",
+        "vor"
+       ],
+       "yellow": "Text"
+      },
+      "lv": {
+       "purple": "esineb"
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "kommt",
+        "vor"
+       ],
+       "green": "mir"
+      },
+      "lv": {
+       "red": "tundub"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "vorkommen"
+      },
+      "meaning": {
+       "purple": "juhtuma"
+      },
+      "example": {
+       "blue": [
+        "kommt",
+        "vor"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": "passieren"
+      },
+      "meaning": {
+       "purple": "juhtuma"
+      },
+      "example": {
+       "red": "passiert"
+      }
+     },
+     {
+      "word": {
+       "green": "scheinen"
+      },
+      "meaning": {
+       "purple": "tunduma"
+      },
+      "example": {
+       "red": "scheint"
+      }
+     }
+    ],
+    "tip": {
+     "blue": [
+      "kommt vor",
+      "kommt mir vor"
+     ],
+     "purple": "juhtub",
+     "red": "tundub"
+    },
+    "important": {
+     "blue": [
+      "kommt",
+      "vor"
+     ],
+     "red": "lahknev"
+    }
+   }
+  }
+ },
+ "b1-vorstellung": {
+  "de": "Vorstellung",
+  "de_article": "die",
+  "de_plural": "die Vorstellungen",
+  "lv": "etendus",
+  "level": "B1",
+  "study": {
+   "id": "b1-vorstellung",
+   "layout": "standardStudy",
+   "translation": "etendus",
+   "explanation": "Põhiidee: die Vorstellung tähendab etendust või seanssi. Mõtetes tähendab see ettekujutust millestki.",
+   "examples": [
+    {
+     "de": "Die Vorstellung beginnt um acht Uhr.",
+     "lv": "etendus algab kell kaheksa."
+    },
+    {
+     "de": "Ich habe keine klare Vorstellung davon.",
+     "lv": "mul pole sellest selget ettekujutust."
+    },
+    {
+     "de": "Die nächste Vorstellung ist ausverkauft.",
+     "lv": "järgmine etendus on välja müüdud."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "die Vorstellung",
+     "meaning": "etendus, seanss • ettekujutus",
+     "example": "Die Vorstellung beginnt. = Etendus algab."
+    },
+    {
+     "word": "die Idee",
+     "meaning": "idee",
+     "example": "Ich habe eine Idee. = Mul on idee."
+    },
+    {
+     "word": "die Aufführung",
+     "meaning": "etendus, esitus",
+     "example": "Die Aufführung war gut. = Etendus oli hea."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Teatris või kinos: etendus; peas: ettekujutus."
+     }
+    ]
+   },
+   "important": {
+    "text": "Vorstellungsgespräch on töövestlus, mitte etendus."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "die Vorstellung",
+     "purple": "etendust",
+     "red": "ettekujutust"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Vorstellung",
+       "yellow": "acht Uhr"
+      },
+      "lv": {
+       "purple": "Etendus"
+      }
+     },
+     {
+      "de": {
+       "blue": "Vorstellung"
+      },
+      "lv": {
+       "red": "ettekujutust"
+      }
+     },
+     {
+      "de": {
+       "blue": "Vorstellung"
+      },
+      "lv": {
+       "purple": "etendus"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "die Vorstellung"
+      },
+      "meaning": {
+       "purple": "etendus"
+      },
+      "example": {
+       "blue": "Vorstellung"
+      }
+     },
+     {
+      "word": {
+       "green": "die Idee"
+      },
+      "meaning": {
+       "purple": "idee"
+      },
+      "example": {
+       "red": "Idee"
+      }
+     },
+     {
+      "word": {
+       "green": "die Aufführung"
+      },
+      "meaning": {
+       "purple": "etendus"
+      },
+      "example": {
+       "red": "Aufführung"
+      }
+     }
+    ],
+    "tip": {
+     "purple": "etendus",
+     "red": "ettekujutus"
+    },
+    "important": {
+     "blue": "Vorstellungsgespräch",
+     "red": "töövestlus"
+    }
+   }
+  }
+ },
+ "b1-vorziehen": {
+  "de": "vorziehen",
+  "lv": "eelistama",
+  "level": "B1",
+  "study": {
+   "id": "b1-vorziehen",
+   "layout": "standardStudy",
+   "translation": "eelistama",
+   "explanation": "Põhiidee: vorziehen tähendab eelistamist. Tähtaja puhul tähendab see varasemale ajale nihutamist.",
+   "examples": [
+    {
+     "de": "Ich ziehe Tee dem Kaffee vor.",
+     "lv": "ma eelistan teed kohvile."
+    },
+    {
+     "de": "Wir ziehen den Termin auf Mittwoch vor.",
+     "lv": "me nihutame tähtaja varasemaks kolmapäevale."
+    },
+    {
+     "de": "Sie zieht es vor, zu Hause zu bleiben.",
+     "lv": "ta eelistab koju jääda."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "vorziehen",
+     "meaning": "eelistama • varasemaks nihutama",
+     "example": "Ich ziehe Tee vor. = Ma eelistan teed."
+    },
+    {
+     "word": "bevorzugen",
+     "meaning": "eelistama",
+     "example": "Ich bevorzuge Tee. = Ma eelistan teed."
+    },
+    {
+     "word": "verschieben",
+     "meaning": "edasi lükkama",
+     "example": "Wir verschieben den Termin. = Me lükkame tähtaja edasi."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Eelistus: etwas vorziehen; varasem tähtaeg: Termin vorziehen."
+     }
+    ]
+   },
+   "important": {
+    "text": "vorziehen on lahknev tegusõna: Wir ziehen den Termin vor."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "vorziehen",
+     "purple": "eelistamist",
+     "red": "varasemale ajale"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "ziehe",
+        "vor"
+       ],
+       "yellow": [
+        "Tee",
+        "Kaffee"
+       ]
+      },
+      "lv": {
+       "purple": "eelistan"
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "ziehen",
+        "vor"
+       ],
+       "yellow": "Termin"
+      },
+      "lv": {
+       "red": "nihutame"
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "zieht",
+        "vor"
+       ],
+       "green": "Sie"
+      },
+      "lv": {
+       "purple": "eelistab"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "vorziehen"
+      },
+      "meaning": {
+       "purple": "eelistama"
+      },
+      "example": {
+       "blue": [
+        "ziehe",
+        "vor"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": "bevorzugen"
+      },
+      "meaning": {
+       "purple": "eelistama"
+      },
+      "example": {
+       "red": "bevorzuge"
+      }
+     },
+     {
+      "word": {
+       "green": "verschieben"
+      },
+      "meaning": {
+       "purple": "edasi lükkama"
+      },
+      "example": {
+       "red": "verschieben"
+      }
+     }
+    ],
+    "tip": {
+     "blue": [
+      "vorziehen",
+      "Termin vorziehen"
+     ],
+     "purple": "Eelistus"
+    },
+    "important": {
+     "blue": [
+      "ziehen",
+      "vor"
+     ],
+     "red": "lahknev"
+    }
+   }
+  }
+ },
+ "b1-wache": {
+  "de": "Wache",
+  "de_article": "die",
+  "de_plural": "die Wachen",
+  "lv": "valve",
+  "level": "B1",
+  "study": {
+   "id": "b1-wache",
+   "layout": "standardStudy",
+   "translation": "valve",
+   "explanation": "Põhiidee: die Wache tähendab valvet, valvepostitust või politseijaoskonda. See on nimisõna, mitte tegevus.",
+   "examples": [
+    {
+     "de": "Die Wache steht vor dem Eingang.",
+     "lv": "valve seisab sissepääsu juures."
+    },
+    {
+     "de": "Er hat heute Nacht Wache.",
+     "lv": "tal on täna öösel valvekord."
+    },
+    {
+     "de": "Die Polizei bringt ihn zur Wache.",
+     "lv": "politsei viib ta jaoskonda."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "die Wache",
+     "meaning": "valve, valvepost, jaoskond",
+     "example": "Die Wache ist am Eingang. = Valve on sissepääsu juures."
+    },
+    {
+     "word": "der Wächter",
+     "meaning": "valvur",
+     "example": "Der Wächter kontrolliert die Tür. = Valvur kontrollib ust."
+    },
+    {
+     "word": "wachen",
+     "meaning": "olema valvel, valvama",
+     "example": "Der Hund wacht. = Koer valvab."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "die Wache on koht või valve; wachen on tegevus."
+     }
+    ]
+   },
+   "important": {
+    "text": "die Wache ja wachen ei ole sama: üks on nimisõna, teine tegusõna."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "die Wache",
+     "purple": "valvet",
+     "red": "jaoskonda"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Wache",
+       "yellow": "Eingang"
+      },
+      "lv": {
+       "purple": "Valve"
+      }
+     },
+     {
+      "de": {
+       "blue": "Wache",
+       "yellow": "Nacht"
+      },
+      "lv": {
+       "purple": "valvekord"
+      }
+     },
+     {
+      "de": {
+       "blue": "Wache",
+       "green": "Polizei"
+      },
+      "lv": {
+       "red": "jaoskonda"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "die Wache"
+      },
+      "meaning": {
+       "purple": "valve"
+      },
+      "example": {
+       "blue": "Wache"
+      }
+     },
+     {
+      "word": {
+       "green": "der Wächter"
+      },
+      "meaning": {
+       "purple": "valvur"
+      },
+      "example": {
+       "red": "Wächter"
+      }
+     },
+     {
+      "word": {
+       "green": "wachen"
+      },
+      "meaning": {
+       "purple": "valvama"
+      },
+      "example": {
+       "red": "wacht"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "die Wache",
+     "red": "wachen"
+    },
+    "important": {
+     "blue": "die Wache",
+     "red": "wachen"
+    }
+   }
+  }
+ },
+ "b1-wachen": {
+  "de": "wachen",
+  "lv": "valvel olema",
+  "level": "B1",
+  "study": {
+   "id": "b1-wachen",
+   "layout": "standardStudy",
+   "translation": "valvel olema",
+   "explanation": "Põhiidee: wachen tähendab valvel olemist või valvamist. aufwachen tähendab ärkamist.",
+   "examples": [
+    {
+     "de": "Ich wache die ganze Nacht.",
+     "lv": "ma olen valvel kogu öö."
+    },
+    {
+     "de": "Der Hund wacht vor dem Haus.",
+     "lv": "koer valvab maja."
+    },
+    {
+     "de": "Ich wache um sieben Uhr auf.",
+     "lv": "ma ärkan kell seitse."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "wachen",
+     "meaning": "valvel olema, valvama",
+     "example": "Der Hund wacht. = Koer valvab."
+    },
+    {
+     "word": "aufwachen",
+     "meaning": "ärkama",
+     "example": "Ich wache früh auf. = Ma ärkan vara."
+    },
+    {
+     "word": "bewachen",
+     "meaning": "valvama (kaitsma)",
+     "example": "Sie bewachen das Haus. = Nad valvavad maja."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Valvel või valves: wachen; ärkama: aufwachen."
+     }
+    ]
+   },
+   "important": {
+    "text": "wachen ja aufwachen ei ole sünonüümid: üks on valvel olemine, teine ärkamine."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "wachen",
+     "purple": "valvel olemist",
+     "red": "aufwachen"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "wache",
+       "yellow": "Nacht"
+      },
+      "lv": {
+       "purple": "valvel"
+      }
+     },
+     {
+      "de": {
+       "blue": "wacht",
+       "green": "Hund"
+      },
+      "lv": {
+       "purple": "valvab"
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "wache",
+        "auf"
+       ]
+      },
+      "lv": {
+       "red": "ärkan"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "wachen"
+      },
+      "meaning": {
+       "purple": "valvama"
+      },
+      "example": {
+       "blue": "wacht"
+      }
+     },
+     {
+      "word": {
+       "green": "aufwachen"
+      },
+      "meaning": {
+       "purple": "ärkama"
+      },
+      "example": {
+       "red": "auf"
+      }
+     },
+     {
+      "word": {
+       "green": "bewachen"
+      },
+      "meaning": {
+       "purple": "valvama"
+      },
+      "example": {
+       "red": "bewachen"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "wachen",
+     "red": "aufwachen"
+    },
+    "important": {
+     "blue": "wachen",
+     "red": "aufwachen"
+    }
+   }
+  }
+ },
+ "b1-wagen": {
+  "de": "Wagen",
+  "de_article": "der",
+  "de_plural": "die Wagen",
+  "lv": "auto • vagun",
+  "level": "B1",
+  "study": {
+   "id": "b1-wagen",
+   "layout": "standardStudy",
+   "translation": "auto • vagun",
+   "explanation": "Põhiidee: der Wagen tähendab sõidukit — autot, vagunit või käru. Mitmus on die Wagen. See ei ole tegusõna wagen (julgema).",
+   "examples": [
+    {
+     "de": "Der Wagen steht vor dem Haus.",
+     "lv": "auto seisab maja juures."
+    },
+    {
+     "de": "Wir fahren mit dem Wagen zur Stadt.",
+     "lv": "me sõidame autoga linna."
+    },
+    {
+     "de": "Der Güterwagen ist schwer beladen.",
+     "lv": "kaubavagun on raskelt koormatud."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "der Wagen",
+     "meaning": "auto • vagun • käru",
+     "example": "Der Wagen ist neu. = Auto on uus."
+    },
+    {
+     "word": "der Waggon",
+     "meaning": "vagun (rongi)",
+     "example": "Der Waggon ist voll. = Vagun on täis."
+    },
+    {
+     "word": "das Auto",
+     "meaning": "auto",
+     "example": "Das Auto steht da. = Auto seisab seal."
+    },
+    {
+     "word": "wagen (Verb)",
+     "meaning": "julgema",
+     "example": "Ich wage es nicht. = Ma ei julge."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "der Wagen artikliga der on nimisõna — sõiduk. wagen ilma artiklita on tegusõna — julgema."
+     }
+    ]
+   },
+   "important": {
+    "text": "der Wagen = auto või vagun (die Wagen). wagen = julgema — see on teine sõna."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "der Wagen",
+     "purple": "auto",
+     "red": "wagen"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Wagen"
+      },
+      "lv": {
+       "purple": "auto"
+      }
+     },
+     {
+      "de": {
+       "blue": "Wagen"
+      },
+      "lv": {
+       "purple": "autoga"
+      }
+     },
+     {
+      "de": {
+       "blue": "Güterwagen"
+      },
+      "lv": {
+       "purple": "vagun"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "blue": "der Wagen"
+      },
+      "meaning": {
+       "purple": "auto"
+      },
+      "example": {
+       "blue": "Wagen"
+      }
+     },
+     {
+      "word": {
+       "green": "der Waggon"
+      },
+      "meaning": {
+       "purple": "vagun"
+      },
+      "example": {
+       "blue": "Waggon"
+      }
+     },
+     {
+      "word": {
+       "green": "das Auto"
+      },
+      "meaning": {
+       "purple": "auto"
+      },
+      "example": {
+       "blue": "Auto"
+      }
+     },
+     {
+      "word": {
+       "red": "wagen"
+      },
+      "meaning": {
+       "purple": "julgema"
+      },
+      "example": {
+       "red": "wage"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "der Wagen",
+     "red": "wagen"
+    },
+    "important": {
+     "blue": "der Wagen",
+     "red": "wagen"
+    }
+   }
+  }
+ },
+ "b1-wechsel": {
+  "de": "Wechsel",
+  "de_article": "der",
+  "de_plural": "die Wechsel",
+  "lv": "vahetus",
+  "level": "B1",
+  "study": {
+   "id": "b1-wechsel",
+   "layout": "standardStudy",
+   "translation": "vahetus",
+   "explanation": "Põhiidee: der Wechsel tähendab vahetust või muutust. Erilistes väljendites, näiteks Wechselkurs, muutub tähendus täpsemaks.",
+   "examples": [
+    {
+     "de": "Der Wechsel der Jahreszeiten ist schön.",
+     "lv": "aastaaegade vaheldumine on ilus."
+    },
+    {
+     "de": "Ich brauche einen Wechsel der Perspektive.",
+     "lv": "mul on vaja vaatenurga vahetust."
+    },
+    {
+     "de": "Der Wechselkurs ist heute niedrig.",
+     "lv": "valuutakurss on täna madal."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "der Wechsel",
+     "meaning": "vahetus, muutus",
+     "example": "Der Wechsel ist wichtig. = Vahetus on tähtis."
+    },
+    {
+     "word": "die Änderung",
+     "meaning": "muudatus",
+     "example": "Die Änderung ist klein. = Muudatus on väike."
+    },
+    {
+     "word": "wechseln",
+     "meaning": "vahetama",
+     "example": "Ich wechsle das Geld. = Ma vahetan raha."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Kui miski vahetub või olukord muutub: der Wechsel."
+     }
+    ]
+   },
+   "important": {
+    "text": "der Wechselkurs tähendab valuutakurssi, mitte lihtsalt vahetusprotsessi."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "der Wechsel",
+     "purple": "vahetust",
+     "red": "Wechselkurs"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Wechsel",
+       "yellow": "Jahreszeiten"
+      },
+      "lv": {
+       "purple": "vaheldumine"
+      }
+     },
+     {
+      "de": {
+       "blue": "Wechsel",
+       "yellow": "Perspektive"
+      },
+      "lv": {
+       "purple": "vahetust"
+      }
+     },
+     {
+      "de": {
+       "blue": "Wechselkurs"
+      },
+      "lv": {
+       "red": "Valuutakurss"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "der Wechsel"
+      },
+      "meaning": {
+       "purple": "vahetus"
+      },
+      "example": {
+       "blue": "Wechsel"
+      }
+     },
+     {
+      "word": {
+       "green": "die Änderung"
+      },
+      "meaning": {
+       "purple": "muudatus"
+      },
+      "example": {
+       "red": "Änderung"
+      }
+     },
+     {
+      "word": {
+       "green": "wechseln"
+      },
+      "meaning": {
+       "purple": "vahetama"
+      },
+      "example": {
+       "red": "wechsle"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "der Wechsel",
+     "purple": "vahetub"
+    },
+    "important": {
+     "blue": "Wechselkurs",
+     "red": "valuutakurssi"
+    }
+   }
+  }
+ },
+ "b1-weder": {
+  "de": "weder",
+  "lv": "ei ... ega",
+  "level": "B1",
+  "study": {
+   "id": "b1-weder",
+   "layout": "standardStudy",
+   "translation": "ei ... ega",
+   "explanation": "Põhiidee: weder kasutatakse paaris koos noch-iga. Konstruktsioon weder ... noch tähendab ei ... ega.",
+   "examples": [
+    {
+     "de": "Ich trinke weder Kaffee noch Tee.",
+     "lv": "ma ei joo ei kohvi ega teed."
+    },
+    {
+     "de": "Er ist weder müde noch krank.",
+     "lv": "ta ei ole väsinud ega haige."
+    },
+    {
+     "de": "Weder Anna noch Max kommt heute.",
+     "lv": "ei Anna ega Max ei tule täna."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "weder ... noch",
+     "meaning": "ei ... ega",
+     "example": "Weder Kaffee noch Tee. = Ei kohvi ega teed."
+    },
+    {
+     "word": "entweder ... oder",
+     "meaning": "kas ... või",
+     "example": "Entweder Tee oder Kaffee. = Kas teed või kohvi."
+    },
+    {
+     "word": "sowohl ... als auch",
+     "meaning": "nii ... kui ka",
+     "example": "Sowohl Tee als auch Kaffee. = Nii teed kui ka kohvi."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "weder ootab peaaegu alati teist osa noch."
+     }
+    ]
+   },
+   "important": {
+    "text": "weder ... noch moodustab juba eituse; ära lisa nicht ilma vajaduseta."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "weder",
+      "noch"
+     ],
+     "purple": "ei ... ega"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "weder",
+        "noch"
+       ],
+       "yellow": [
+        "Kaffee",
+        "Tee"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "ei",
+        "ega"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "weder",
+        "noch"
+       ],
+       "yellow": [
+        "müde",
+        "krank"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "ei",
+        "ega"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Weder",
+        "noch"
+       ],
+       "green": [
+        "Anna",
+        "Max"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "ei",
+        "ega"
+       ]
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "weder ... noch"
+      },
+      "meaning": {
+       "purple": "ei ... ega"
+      },
+      "example": {
+       "blue": [
+        "Weder",
+        "noch"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": "entweder ... oder"
+      },
+      "meaning": {
+       "purple": "kas ... või"
+      },
+      "example": {
+       "red": [
+        "Entweder",
+        "oder"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": "sowohl ... als auch"
+      },
+      "meaning": {
+       "purple": "nii ... kui ka"
+      },
+      "example": {
+       "red": [
+        "Sowohl",
+        "als auch"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "blue": [
+      "weder",
+      "noch"
+     ]
+    },
+    "important": {
+     "blue": "weder ... noch",
+     "red": "nicht"
+    }
+   }
+  }
+ },
+ "b1-welle": {
+  "de": "Welle",
+  "de_article": "die",
+  "de_plural": "die Wellen",
+  "lv": "laine",
+  "level": "B1",
+  "study": {
+   "id": "b1-welle",
+   "layout": "standardStudy",
+   "translation": "laine",
+   "explanation": "Põhiidee: die Welle tähendab lainet vees, õhus või ülekantud tähenduses. Tehnikas võib see tähendada ka võlli.",
+   "examples": [
+    {
+     "de": "Die Welle war sehr hoch.",
+     "lv": "laine oli väga kõrge."
+    },
+    {
+     "de": "Eine Welle von Protesten begann.",
+     "lv": "algas protestilaine."
+    },
+    {
+     "de": "Die Welle in der Maschine ist beschädigt.",
+     "lv": "masina võll on kahjustatud."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "die Welle",
+     "meaning": "laine • võll",
+     "example": "Die Welle ist hoch. = Laine on kõrge."
+    },
+    {
+     "word": "die Woge",
+     "meaning": "suur, tugev laine",
+     "example": "Die Wogen sind stark. = Lained on tugevad."
+    },
+    {
+     "word": "die Achse",
+     "meaning": "telg",
+     "example": "Die Achse ist kaputt. = Telg on katki."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Meres ja ülekantud tähenduses tavaliselt laine; masinas võib olla võll."
+     }
+    ]
+   },
+   "important": {
+    "text": "Tehnikas võib die Welle tähendada võlli, mitte veelainet."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "die Welle",
+     "purple": "lainet",
+     "red": "võlli"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Welle"
+      },
+      "lv": {
+       "purple": "Laine"
+      }
+     },
+     {
+      "de": {
+       "blue": "Welle",
+       "yellow": "Protesten"
+      },
+      "lv": {
+       "purple": "laine"
+      }
+     },
+     {
+      "de": {
+       "blue": "Welle",
+       "yellow": "Maschine"
+      },
+      "lv": {
+       "red": "võll"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "die Welle"
+      },
+      "meaning": {
+       "purple": "laine"
+      },
+      "example": {
+       "blue": "Welle"
+      }
+     },
+     {
+      "word": {
+       "green": "die Woge"
+      },
+      "meaning": {
+       "purple": "laine"
+      },
+      "example": {
+       "red": "Wogen"
+      }
+     },
+     {
+      "word": {
+       "green": "die Achse"
+      },
+      "meaning": {
+       "purple": "telg"
+      },
+      "example": {
+       "red": "Achse"
+      }
+     }
+    ],
+    "tip": {
+     "purple": "laine",
+     "red": "võll"
+    },
+    "important": {
+     "blue": "die Welle",
+     "red": "võlli"
+    }
+   }
+  }
+ },
+ "b1-wenden": {
+  "de": "wenden",
+  "lv": "pöörama",
+  "level": "B1",
+  "study": {
+   "id": "b1-wenden",
+   "layout": "standardStudy",
+   "translation": "pöörama",
+   "explanation": "Põhiidee: wenden tähendab pööramist või ümberpööramist. sich an jemanden wenden tähendab kellegi poole pöördumist.",
+   "examples": [
+    {
+     "de": "Bitte wenden Sie das Auto.",
+     "lv": "palun pöörake auto ümber."
+    },
+    {
+     "de": "Wenden Sie das Blatt.",
+     "lv": "pöörake leht."
+    },
+    {
+     "de": "Sie wendet sich an den Arzt.",
+     "lv": "ta pöördub arsti poole."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "wenden",
+     "meaning": "pöörama, ümber pöörama",
+     "example": "Wenden Sie das Auto. = Pöörake auto ümber."
+    },
+    {
+     "word": "drehen",
+     "meaning": "keerama, pöörama",
+     "example": "Dreh den Schlüssel. = Keera võti."
+    },
+    {
+     "word": "sich wenden an",
+     "meaning": "kellegi poole pöörduma",
+     "example": "Ich wende mich an dich. = Ma pöördun sinu poole."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Muuda suunda või lehe külge: wenden; otsi abi: sich wenden an."
+     }
+    ]
+   },
+   "important": {
+    "text": "sich an jemanden wenden tähendab kellegi poole pöördumist, mitte füüsilist pööramist."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "wenden",
+     "purple": "pöörama",
+     "red": "sich an jemanden wenden"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "wenden",
+       "yellow": "Auto"
+      },
+      "lv": {
+       "purple": "pöörake ümber"
+      }
+     },
+     {
+      "de": {
+       "blue": "Wenden",
+       "yellow": "Blatt"
+      },
+      "lv": {
+       "purple": "Pöörake"
+      }
+     },
+     {
+      "de": {
+       "blue": "wendet",
+       "red": "sich",
+       "green": "Arzt"
+      },
+      "lv": {
+       "red": "pöördub"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "wenden"
+      },
+      "meaning": {
+       "purple": "pöörama"
+      },
+      "example": {
+       "blue": "Wenden"
+      }
+     },
+     {
+      "word": {
+       "green": "drehen"
+      },
+      "meaning": {
+       "purple": "keerama"
+      },
+      "example": {
+       "red": "Dreh"
+      }
+     },
+     {
+      "word": {
+       "green": "sich wenden an"
+      },
+      "meaning": {
+       "purple": "pöörduma"
+      },
+      "example": {
+       "red": "wende"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "wenden",
+     "red": "sich wenden an"
+    },
+    "important": {
+     "red": "sich an jemanden wenden"
+    }
+   }
+  }
  }
 }
