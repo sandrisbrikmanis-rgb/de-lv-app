@@ -208,7 +208,61 @@ window.LANGUAGE_UI_STRINGS = {
     vowelsDesc: "Довгі та короткі голосні з прикладами.",
     consonantsTitle: "Приголосні та літерні поєднання",
     consonantsDesc: "Найважливіші приголосні звуки для початківців.",
-    lessonProgress: "Урок {lesson} · Переклад: {current} / {total}"
+    lessonProgress: "Урок {lesson} · Переклад: {current} / {total}",
+    exerciseProgress: "Урок {lesson} · Вправа",
+    sections: {
+      grammar: "Граматика",
+      exercise: "Вправа",
+      translate: "Переклад",
+      exerciseCombined: "Übung / Вправа"
+    },
+    hints: {
+      tapToRevealAnswer: "Натисніть на картку, щоб побачити відповідь.",
+      tapToContinue: "Натисніть на картку, щоб продовжити.",
+      tapToRevealGerman: "Натисніть на картку, щоб побачити німецький переклад.",
+      tapNextStep: "Натисніть на картку, щоб перейти до наступного кроку.",
+      exerciseCardAria: "Картка вправи {title}"
+    },
+    cta: {
+      tapNextCard: "Натисніть наступну картку",
+      tapToRevealAnswer: "Натисніть, щоб побачити відповідь",
+      tapContinue: "Натисніть, щоб продовжити",
+      transformSentence: "Перетворіть речення.",
+      transformThirdSingular: "Перетворіть речення в 3-й особі однини.",
+      transformFirstPlural: "Перетворіть речення в 1-й особі множини."
+    },
+    exerciseMeta: {
+      fillCase: "Übung I — використовуйте правильний відмінок",
+      chooseCasePlural: "Оберіть правильний відмінок і утворіть множину!",
+      answerPlural: "Тепер відповідайте у множині.",
+      translate: "Übung II — перекладайте",
+      formDu: "Форма 1/3: ти (однина)",
+      formIhr: "Форма 2/3: ви (множина)",
+      formSie: "Форма 3/3: Sie (ввічлива форма)"
+    },
+    lessonItems: {
+      "1": { title: "Урок 1", menuDesc: "Дієслова в теперішньому часі, слова, граматика й тренування." },
+      "2": { title: "Урок 2", menuDesc: "Діалоги, слова, вимова, граматика й переклад." },
+      "3": { title: "Урок 3", menuDesc: "Діалоги, слова, вимова, граматика й переклад." },
+      "4": { title: "Урок 4", menuDesc: "Знахідний відмінок, nehmen, hinlegen, hinausgehen і прикметники." },
+      "5": { title: "Урок 5", menuDesc: "Wen?, знахідний відмінок, sitzen, fragen і закінчення -in." },
+      "6": { title: "Урок 6", menuDesc: "Числівники, множина, умляути й форми множини іменників." },
+      "7": { title: "Урок 7", menuDesc: "Наказовий спосіб, ввічлива форма й множина." },
+      "8": { title: "Урок 8", menuDesc: "Зворотні дієслова, чергування e → i/ie і знахідний відмінок." },
+      "9": { title: "Урок 9", menuDesc: "Кілька предметів, dieser/jener, однина й множина." },
+      "10": { title: "Урок 10", menuDesc: "Sein, können, здоров'я, вік і професії." },
+      "11": { title: "Урок 11", menuDesc: "Haben, kein/keine/keinen, належність і складні іменники." },
+      "12": { title: "Урок 12", menuDesc: "Ступені порівняння, als/wie, вік і кольори." },
+      "13": { title: "Урок 13", menuDesc: "Der Körper, частини тіла, turnen і jeder." },
+      "14": { title: "Урок 14", menuDesc: "müssen, wollen, mögen і модальні дієслова." },
+      "15": { title: "Урок 15", menuDesc: "sollen, dürfen, essen і фрукти." },
+      "16": { title: "Урок 16", menuDesc: "Давальний відмінок, geben, sich nähern." },
+      "17": { title: "Урок 17", menuDesc: "mit + Dativ, womit / mit wem і Umlaut." },
+      "18": { title: "Урок 18", menuDesc: "wohin / wo, Akkusativ або Dativ з an / in / auf." },
+      "19": { title: "Урок 19", menuDesc: "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen." },
+      "20": { title: "Урок 20", menuDesc: "Haus, Stockwerk, Dativ/Akkusativ і складні іменники." },
+      "21": { title: "Урок 21", menuDesc: "woher / wohin / wo, von / aus / mit + Dativ." }
+    }
   },
   plural: { wordOne: "слово", wordsFew: "слова", wordsMany: "слів" },
   spelling: {

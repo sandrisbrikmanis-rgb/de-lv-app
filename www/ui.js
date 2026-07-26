@@ -554,13 +554,44 @@ function getCourseLessonMenuDesc(lessonNumber) {
 }
 
 function getCourseLessonHeaderTitle(lessonId, lesson) {
-  const lessonNumber = getCourseLessonNumber(lessonId);
-  if (lesson?.title) return lesson.title;
-  return lessonNumber ? getCourseLessonMenuTitle(lessonNumber) : "";
+  const lessonNumber = getCourseLessonNumber(lessonId) || String(lesson?.id || "").match(/\d+/)?.[0];
+  if (lessonNumber) return getCourseLessonMenuTitle(lessonNumber);
+  return lesson?.title || "";
 }
 
 function getCourseLessonHeaderSubtitle(lesson) {
+  const lessonNumber = String(lesson?.id || "").match(/\d+/)?.[0];
+  if (lessonNumber) return getCourseLessonMenuDesc(lessonNumber);
   return lesson?.subtitle || "";
+}
+
+function localizeLegacyCourseLessonUi(target, lessonId, lesson) {
+  if (!target) return;
+  const lessonNumber = getCourseLessonNumber(lessonId) || String(lesson?.id || "").match(/\d+/)?.[0];
+  const lessonKey = lessonNumber ? `lesson${lessonNumber}` : "";
+  const h3 = target.querySelector("h3");
+  if (h3 && lessonNumber) h3.textContent = getCourseLessonMenuTitle(lessonNumber);
+  const intro = target.querySelector(".kurss-lesson-intro");
+  if (intro && lessonNumber) intro.textContent = getCourseLessonMenuDesc(lessonNumber);
+
+  target.querySelectorAll(".lesson1-accordion").forEach((accordion) => {
+    const titleSpan = accordion.querySelector("summary > span:nth-of-type(2)");
+    if (!titleSpan) return;
+    const rawTitle = titleSpan.textContent.trim();
+    const internalTitle = Object.keys(COURSE_SECTION_I18N_KEYS).find((key) => key === rawTitle);
+    if (internalTitle) {
+      titleSpan.textContent = getCourseSectionDisplayTitle(internalTitle);
+      const hint = accordion.querySelector(".lesson1-training-hint");
+      if (hint) hint.textContent = getCourseExerciseHint(internalTitle, lessonKey);
+    }
+    const progress = accordion.querySelector(".lesson1-training-progress");
+    if (progress && lessonNumber && (internalTitle === "Pārtulko" || rawTitle === "Pārtulko")) {
+      const match = progress.textContent.match(/(\d+)\s*\/\s*(\d+)/);
+      if (match) {
+        progress.textContent = formatCourseTranslateProgress(lessonNumber, Number(match[1]), Number(match[2]));
+      }
+    }
+  });
 }
 
 function getCourseExerciseHint(sectionTitle, lessonId) {
@@ -715,7 +746,7 @@ function renderCourseLesson(lessonId) {
   if (!config || !target) return;
 
   const lesson = window.COURSE_LESSON_DATA?.[config.dataKey || lessonId];
-  renderCourseLessonFromData(target, lesson, config.exerciseAttribute);
+  renderCourseLessonFromData(target, lesson, config.exerciseAttribute, lessonId);
   if (lesson?.id) renderCourseExerciseCard(lesson.id, 0, "challenge");
   target.classList.add("course-lesson");
 }
@@ -1437,13 +1468,16 @@ function renderCourseLessonItems(items) {
   }).join("") + '</div>';
 }
 
-function renderCourseLessonFromData(target, lesson, exerciseAttribute) {
+function renderCourseLessonFromData(target, lesson, exerciseAttribute, lessonId) {
   if (target && lesson?.legacyHtml) {
     target.innerHTML = lesson.legacyHtml;
+    localizeLegacyCourseLessonUi(target, lessonId, lesson);
     return;
   }
   if (!target || !lesson || !Array.isArray(lesson.sections)) return;
-  const intro = lesson.intro || lesson.description || "";
+  const lessonNumber = getCourseLessonNumber(lessonId) || String(lesson?.id || "").match(/\d+/)?.[0];
+  const displayTitle = lessonNumber ? getCourseLessonMenuTitle(lessonNumber) : (lesson.title || "");
+  const intro = lessonNumber ? getCourseLessonMenuDesc(lessonNumber) : (lesson.intro || lesson.description || "");
   const sectionsHtml = lesson.sections.map((section, index) => {
     const isExercise = Array.isArray(section.cards);
     const openAttr = index === 0 ? " open" : "";
@@ -1470,7 +1504,7 @@ function renderCourseLessonFromData(target, lesson, exerciseAttribute) {
     }
     return '<details class="lesson1-accordion"' + openAttr + '><summary><span class="lesson1-number ' + numberClass + '">' + (index + 1) + '.</span><span>' + escapeHtml(getCourseSectionDisplayTitle(section.title)) + '</span><span class="lesson1-chevron">⌄</span></summary><div class="' + contentClass + '">' + bodyParts.join("") + '</div></details>';
   }).join("");
-  target.innerHTML = '<h3>' + escapeHtml(lesson.title) + '</h3>' + (intro ? '<p class="kurss-lesson-intro">' + escapeHtml(intro) + '</p>' : "") + sectionsHtml;
+  target.innerHTML = '<h3>' + escapeHtml(displayTitle) + '</h3>' + (intro ? '<p class="kurss-lesson-intro">' + escapeHtml(intro) + '</p>' : "") + sectionsHtml;
 }
 
 function scrollKurssPanelToTop() {

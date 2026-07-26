@@ -208,7 +208,61 @@ window.LANGUAGE_UI_STRINGS = {
     vowelsDesc: "Долгие и краткие гласные с примерами.",
     consonantsTitle: "Согласные и буквенные сочетания",
     consonantsDesc: "Важнейшие согласные звуки для начинающих.",
-    lessonProgress: "Урок {lesson} · Перевод: {current} / {total}"
+    lessonProgress: "Урок {lesson} · Перевод: {current} / {total}",
+    exerciseProgress: "Урок {lesson} · Упражнение",
+    sections: {
+      grammar: "Грамматика",
+      exercise: "Упражнение",
+      translate: "Перевод",
+      exerciseCombined: "Übung / Упражнение"
+    },
+    hints: {
+      tapToRevealAnswer: "Нажмите на карточку, чтобы увидеть ответ.",
+      tapToContinue: "Нажмите на карточку, чтобы продолжить.",
+      tapToRevealGerman: "Нажмите на карточку, чтобы увидеть немецкий перевод.",
+      tapNextStep: "Нажмите на карточку, чтобы перейти к следующему шагу.",
+      exerciseCardAria: "Карточка упражнения {title}"
+    },
+    cta: {
+      tapNextCard: "Нажмите следующую карточку",
+      tapToRevealAnswer: "Нажмите, чтобы увидеть ответ",
+      tapContinue: "Нажмите, чтобы продолжить",
+      transformSentence: "Преобразуйте предложение.",
+      transformThirdSingular: "Преобразуйте предложение в 3-м лице единственного числа.",
+      transformFirstPlural: "Преобразуйте предложение в 1-м лице множественного числа."
+    },
+    exerciseMeta: {
+      fillCase: "Übung I — используйте правильный падеж",
+      chooseCasePlural: "Выберите правильный падеж и образуйте множественное число!",
+      answerPlural: "Теперь ответьте во множественном числе.",
+      translate: "Übung II — переводите",
+      formDu: "Форма 1/3: ты (единственное число)",
+      formIhr: "Форма 2/3: вы (множественное число)",
+      formSie: "Форма 3/3: Sie (вежливая форма)"
+    },
+    lessonItems: {
+      "1": { title: "Урок 1", menuDesc: "Глаголы в настоящем времени, слова, грамматика и тренировка." },
+      "2": { title: "Урок 2", menuDesc: "Диалоги, слова, произношение, грамматика и перевод." },
+      "3": { title: "Урок 3", menuDesc: "Диалоги, слова, произношение, грамматика и перевод." },
+      "4": { title: "Урок 4", menuDesc: "Винительный падеж, nehmen, hinlegen, hinausgehen и прилагательные." },
+      "5": { title: "Урок 5", menuDesc: "Wen?, винительный падеж, sitzen, fragen и окончание -in." },
+      "6": { title: "Урок 6", menuDesc: "Числительные, множественное число, умляуты и формы множественного числа существительных." },
+      "7": { title: "Урок 7", menuDesc: "Повелительное наклонение, вежливая форма и множественное число." },
+      "8": { title: "Урок 8", menuDesc: "Возвратные глаголы, чередование e → i/ie и винительный падеж." },
+      "9": { title: "Урок 9", menuDesc: "Несколько предметов, dieser/jener, единственное и множественное число." },
+      "10": { title: "Урок 10", menuDesc: "Sein, können, здоровье, возраст и профессии." },
+      "11": { title: "Урок 11", menuDesc: "Haben, kein/keine/keinen, принадлежность и составные существительные." },
+      "12": { title: "Урок 12", menuDesc: "Сравнительная степень, als/wie, возраст и цвета." },
+      "13": { title: "Урок 13", menuDesc: "Der Körper, части тела, turnen и jeder." },
+      "14": { title: "Урок 14", menuDesc: "müssen, wollen, mögen и модальные глаголы." },
+      "15": { title: "Урок 15", menuDesc: "sollen, dürfen, essen и фрукты." },
+      "16": { title: "Урок 16", menuDesc: "Дательный падеж, geben, sich nähern." },
+      "17": { title: "Урок 17", menuDesc: "mit + Dativ, womit / mit wem и Umlaut." },
+      "18": { title: "Урок 18", menuDesc: "wohin / wo, Akkusativ или Dativ с an / in / auf." },
+      "19": { title: "Урок 19", menuDesc: "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen." },
+      "20": { title: "Урок 20", menuDesc: "Haus, Stockwerk, Dativ/Akkusativ и составные существительные." },
+      "21": { title: "Урок 21", menuDesc: "woher / wohin / wo, von / aus / mit + Dativ." }
+    }
   },
   plural: { wordOne: "слово", wordsFew: "слова", wordsMany: "слов" },
   spelling: {
