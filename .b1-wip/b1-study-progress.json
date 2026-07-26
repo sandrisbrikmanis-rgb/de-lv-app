@@ -37466,5 +37466,1307 @@
     }
    }
   }
+ },
+ "b1-sich-sorgen": {
+  "de": "sich sorgen",
+  "lv": "muretsema",
+  "level": "B1",
+  "study": {
+   "id": "b1-sich-sorgen",
+   "layout": "standardStudy",
+   "translation": "muretsema",
+   "explanation": "Põhiidee: sich sorgen tähendab kellegi või millegi pärast muretsemist. Tavaliselt kasutatakse sich um jemanden/etwas sorgen.",
+   "examples": [
+    {
+     "de": "Ich sorge mich um meine Mutter.",
+     "lv": "ma muretsen oma ema pärast."
+    },
+    {
+     "de": "Mach dir keine Sorgen um mich.",
+     "lv": "ära muretse minu pärast."
+    },
+    {
+     "de": "Viele Eltern sorgen sich um ihre Kinder.",
+     "lv": "paljud vanemad muretsevad oma laste pärast."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "sich sorgen",
+     "meaning": "muretsema",
+     "example": "Ich sorge mich um dich. = Ma muretsen sinu pärast."
+    },
+    {
+     "word": "sich kümmern um",
+     "meaning": "praktiliselt hoolitsema",
+     "example": "Ich kümmere mich um das Kind. = Ma hoolitsen lapse eest."
+    },
+    {
+     "word": "die Sorge",
+     "meaning": "mure",
+     "example": "Das ist meine Sorge. = See on minu mure."
+    }
+   ],
+   "tip": "Sisemine tunne: sich sorgen; praktiline abi: sich kümmern um.",
+   "important": "sich sorgen kasutatakse koos um-iga: sich um jemanden sorgen.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "sich sorgen",
+     "purple": "muretsemist",
+     "red": "um"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "sorge",
+       "green": "Mutter"
+      },
+      "lv": {
+       "purple": "muretsen"
+      }
+     },
+     {
+      "de": {
+       "blue": "Sorgen",
+       "green": "mich"
+      },
+      "lv": {
+       "purple": "Ära muretse"
+      }
+     },
+     {
+      "de": {
+       "blue": "sorgen",
+       "green": "Eltern"
+      },
+      "lv": {
+       "purple": "muretsevad"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "sich sorgen"
+      },
+      "meaning": {
+       "purple": "muretsema"
+      },
+      "example": {
+       "blue": "sorge",
+       "green": "dich"
+      }
+     },
+     {
+      "word": {
+       "green": "sich kümmern um"
+      },
+      "meaning": {
+       "purple": "hoolitsema"
+      },
+      "example": {
+       "red": "kümmere mich",
+       "green": "Kind"
+      }
+     },
+     {
+      "word": {
+       "green": "die Sorge"
+      },
+      "meaning": {
+       "purple": "mure"
+      },
+      "example": {
+       "red": "Sorge"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "sich sorgen",
+     "red": "sich kümmern um"
+    },
+    "important": {
+     "blue": "sich sorgen",
+     "red": "um"
+    }
+   }
+  }
+ },
+ "b1-sowie": {
+  "de": "sowie",
+  "lv": "samuti kui",
+  "level": "B1",
+  "study": {
+   "id": "b1-sowie",
+   "layout": "standardStudy",
+   "translation": "samuti kui",
+   "explanation": "Põhiidee: sowie tähendab enamasti samuti kui ja ühendab kaks asja. Ajalauses võib see tähendada niipea kui.",
+   "examples": [
+    {
+     "de": "Wir brauchen Milch sowie Brot.",
+     "lv": "meil on vaja piima, samuti leiba."
+    },
+    {
+     "de": "Der Preis gilt für Erwachsene sowie Kinder.",
+     "lv": "hind kehtib täiskasvanutele, samuti lastele."
+    },
+    {
+     "de": "Sowie ich Zeit habe, rufe ich dich an.",
+     "lv": "niipea kui mul on aega, helistan sulle."
+    }
+   ],
+   "tip": "Loetelus sowie = samuti; ajalauses = niipea kui.",
+   "important": "sowie ei ole automaatselt ainult „niipea kui”; loeteludes tähendab see sageli „samuti kui”.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "sowie",
+     "purple": "samuti kui",
+     "red": "niipea kui"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "sowie",
+       "yellow": "Brot"
+      },
+      "lv": {
+       "purple": "samuti"
+      }
+     },
+     {
+      "de": {
+       "blue": "sowie",
+       "green": "Kinder"
+      },
+      "lv": {
+       "purple": "samuti"
+      }
+     },
+     {
+      "de": {
+       "blue": "Sowie",
+       "yellow": "Zeit"
+      },
+      "lv": {
+       "red": "Niipea kui"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "sowie"
+      },
+      "meaning": {
+       "purple": "samuti kui"
+      },
+      "example": {
+       "blue": "sowie"
+      }
+     },
+     {
+      "word": {
+       "green": "und"
+      },
+      "meaning": {
+       "purple": "ja"
+      },
+      "example": {
+       "red": "und"
+      }
+     },
+     {
+      "word": {
+       "green": "sobald"
+      },
+      "meaning": {
+       "purple": "niipea kui"
+      },
+      "example": {
+       "red": "Sobald"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "sowie",
+     "purple": "samuti",
+     "red": "niipea kui"
+    },
+    "important": {
+     "blue": "sowie",
+     "red": "niipea kui"
+    }
+   }
+  }
+ },
+ "b1-spannung": {
+  "de": "Spannung",
+  "de_article": "die",
+  "de_plural": "die Spannungen",
+  "lv": "pinge",
+  "level": "B1",
+  "study": {
+   "id": "b1-spannung",
+   "layout": "standardStudy",
+   "translation": "pinge",
+   "explanation": "Põhiidee: die Spannung tähendab pinget või põnevust. Tehnilises keeles, eriti elektris, tähendab see elektripinget.",
+   "examples": [
+    {
+     "de": "Die Spannung im Film war groß.",
+     "lv": "filmis oli suur pinge."
+    },
+    {
+     "de": "Zwischen den beiden herrscht Spannung.",
+     "lv": "nende kahe vahel valitseb pinge."
+    },
+    {
+     "de": "Die Spannung beträgt 230 Volt.",
+     "lv": "pinge on 230 volti."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "die Spannung",
+     "meaning": "pinge • elektris pinge",
+     "example": "Die Spannung ist groß. = Pinge on suur."
+    },
+    {
+     "word": "der Stress",
+     "meaning": "stress, ülekoormus",
+     "example": "Ich habe viel Stress. = Mul on palju stressi."
+    },
+    {
+     "word": "die Kraft",
+     "meaning": "jõud",
+     "example": "Er hat viel Kraft. = Tal on palju jõudu."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Loos või suhetes pinge; elektris pinge (voltides)."
+     }
+    ]
+   },
+   "important": {
+    "text": "Elektris tõlgitakse die Spannung kui pinge, mitte emotsionaalne pinge."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "die Spannung",
+     "purple": "pinget",
+     "red": "elektripinget"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Spannung",
+       "yellow": "Film"
+      },
+      "lv": {
+       "purple": "pinge"
+      }
+     },
+     {
+      "de": {
+       "blue": "Spannung",
+       "green": "beiden"
+      },
+      "lv": {
+       "purple": "pinge"
+      }
+     },
+     {
+      "de": {
+       "blue": "Spannung",
+       "yellow": "230 Volt"
+      },
+      "lv": {
+       "red": "Pinge"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "die Spannung"
+      },
+      "meaning": {
+       "purple": "pinge"
+      },
+      "example": {
+       "blue": "Spannung"
+      }
+     },
+     {
+      "word": {
+       "green": "der Stress"
+      },
+      "meaning": {
+       "purple": "stress"
+      },
+      "example": {
+       "red": "Stress"
+      }
+     },
+     {
+      "word": {
+       "green": "die Kraft"
+      },
+      "meaning": {
+       "purple": "jõud"
+      },
+      "example": {
+       "red": "Kraft"
+      }
+     }
+    ],
+    "tip": {
+     "purple": "pinge",
+     "red": "pinge"
+    },
+    "important": {
+     "blue": "die Spannung",
+     "red": "pinge"
+    }
+   }
+  }
+ },
+ "b1-speichern": {
+  "de": "speichern",
+  "lv": "salvestama",
+  "level": "B1",
+  "study": {
+   "id": "b1-speichern",
+   "layout": "standardStudy",
+   "translation": "salvestama",
+   "explanation": "Põhiidee: speichern tähendab andmete või teabe salvestamist. Laiemalt võib see tähendada ka energia või ainete kogumist.",
+   "examples": [
+    {
+     "de": "Speichere die Datei bitte.",
+     "lv": "palun salvesta fail."
+    },
+    {
+     "de": "Das Handy speichert die Fotos automatisch.",
+     "lv": "telefon salvestab fotod automaatselt."
+    },
+    {
+     "de": "Der Körper speichert Energie.",
+     "lv": "keha kogub energiat."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "speichern",
+     "meaning": "salvestama • koguma",
+     "example": "Ich speichere die Datei. = Ma salvestan faili."
+    },
+    {
+     "word": "sparen",
+     "meaning": "kokku hoidma, raha koguma",
+     "example": "Ich spare Geld. = Ma kogun raha."
+    },
+    {
+     "word": "aufbewahren",
+     "meaning": "hoidma eset või dokumenti",
+     "example": "Ich bewahre die Quittung auf. = Ma hoian tšekki."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Arvutis või telefonis: speichern = salvestama."
+     }
+    ]
+   },
+   "important": {
+    "text": "speichern ei ole sparen. sparen tähendab kokku hoidmist või raha kogumist."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "speichern",
+     "purple": "salvestamist",
+     "red": "koguma"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Speichere",
+       "yellow": "Datei"
+      },
+      "lv": {
+       "purple": "salvesta"
+      }
+     },
+     {
+      "de": {
+       "blue": "speichert",
+       "yellow": "Fotos"
+      },
+      "lv": {
+       "purple": "salvestab"
+      }
+     },
+     {
+      "de": {
+       "blue": "speichert",
+       "yellow": "Energie"
+      },
+      "lv": {
+       "red": "kogub"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "speichern"
+      },
+      "meaning": {
+       "purple": "salvestama"
+      },
+      "example": {
+       "blue": "speichere",
+       "yellow": "Datei"
+      }
+     },
+     {
+      "word": {
+       "green": "sparen"
+      },
+      "meaning": {
+       "purple": "kokku hoidma"
+      },
+      "example": {
+       "red": "spare",
+       "yellow": "Geld"
+      }
+     },
+     {
+      "word": {
+       "green": "aufbewahren"
+      },
+      "meaning": {
+       "purple": "hoidma"
+      },
+      "example": {
+       "red": "bewahre",
+       "yellow": "Quittung"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "speichern",
+     "purple": "salvestama"
+    },
+    "important": {
+     "blue": "speichern",
+     "red": "sparen"
+    }
+   }
+  }
+ },
+ "b1-sperren": {
+  "de": "sperren",
+  "lv": "blokeerima",
+  "level": "B1",
+  "study": {
+   "id": "b1-sperren",
+   "layout": "standardStudy",
+   "translation": "blokeerima",
+   "explanation": "Põhiidee: sperren tähendab blokeerimist või juurdepääsu sulgemist. Seda kasutatakse teede, sissepääsude, kontode, kaartide ja keeldude kohta.",
+   "examples": [
+    {
+     "de": "Die Polizei sperrt die Straße.",
+     "lv": "politsei blokeerib tänava."
+    },
+    {
+     "de": "Ich lasse meine Karte sperren.",
+     "lv": "ma lasen oma kaardi blokeerida."
+    },
+    {
+     "de": "Der Eingang ist gesperrt.",
+     "lv": "sissepääs on suletud."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "sperren",
+     "meaning": "blokeerima, juurdepääsu sulgema",
+     "example": "Die Straße ist gesperrt. = Tänav on suletud."
+    },
+    {
+     "word": "abschließen",
+     "meaning": "lukustama",
+     "example": "Ich schließe die Tür ab. = Ma lukustan ukse."
+    },
+    {
+     "word": "schließen",
+     "meaning": "sulgema",
+     "example": "Ich schließe das Fenster. = Ma suleb akna."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Kui juurdepääs pole enam võimalik, kasuta sperren."
+     }
+    ]
+   },
+   "important": {
+    "text": "sperren ei ole lihtsalt sulgemine; see tähendab juurdepääsu blokeerimist."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "sperren",
+     "purple": "blokeerimist",
+     "red": "keeldude"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "sperrt",
+       "green": "Polizei",
+       "yellow": "Straße"
+      },
+      "lv": {
+       "purple": "blokeerib"
+      }
+     },
+     {
+      "de": {
+       "blue": "sperren",
+       "yellow": "Karte"
+      },
+      "lv": {
+       "purple": "blokeerida"
+      }
+     },
+     {
+      "de": {
+       "blue": "gesperrt",
+       "yellow": "Eingang"
+      },
+      "lv": {
+       "red": "suletud"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "sperren"
+      },
+      "meaning": {
+       "purple": "blokeerima"
+      },
+      "example": {
+       "blue": "gesperrt",
+       "yellow": "Straße"
+      }
+     },
+     {
+      "word": {
+       "green": "abschließen"
+      },
+      "meaning": {
+       "purple": "lukustama"
+      },
+      "example": {
+       "red": "schließe",
+       "yellow": "Tür"
+      }
+     },
+     {
+      "word": {
+       "green": "schließen"
+      },
+      "meaning": {
+       "purple": "sulgema"
+      },
+      "example": {
+       "red": "schließe",
+       "yellow": "Fenster"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "sperren",
+     "purple": "juurdepääs"
+    },
+    "important": {
+     "blue": "sperren",
+     "red": "sulgema"
+    }
+   }
+  }
+ },
+ "b1-spitze": {
+  "de": "Spitze",
+  "de_article": "die",
+  "de_plural": "die Spitzen",
+  "lv": "tipp",
+  "level": "B1",
+  "study": {
+   "id": "b1-spitze",
+   "layout": "standardStudy",
+   "translation": "tipp",
+   "explanation": "Põhiidee: die Spitze on terav ots või kõrgeim punkt. Ülekantud tähenduses võib see olla juhtkond või tippposition.",
+   "examples": [
+    {
+     "de": "Die Spitze des Bleistifts ist abgebrochen.",
+     "lv": "pliiatsi tipp on murdunud."
+    },
+    {
+     "de": "Wir standen auf der Spitze des Berges.",
+     "lv": "me seisime mäe tipus."
+    },
+    {
+     "de": "Sie steht an der Spitze der Firma.",
+     "lv": "ta on ettevõtte juhtkonnas."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "die Spitze",
+     "meaning": "tipp, mäetipp, juhtkond",
+     "example": "Die Spitze ist scharf. = Tipp on terav."
+    },
+    {
+     "word": "der Gipfel",
+     "meaning": "mäetipp",
+     "example": "Der Gipfel ist hoch. = Tipp on kõrge."
+    },
+    {
+     "word": "das Ende",
+     "meaning": "lõpp, ots",
+     "example": "Das Ende ist nah. = Lõpp on lähedal."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Kõige teravam või kõrgeim punkt: die Spitze."
+     }
+    ]
+   },
+   "important": {
+    "text": "an der Spitze tähendab juhtkonnas, mitte ainult füüsiliselt üleval."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "die Spitze",
+     "purple": "terav ots",
+     "red": "juhtkond"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Spitze",
+       "yellow": "Bleistifts"
+      },
+      "lv": {
+       "purple": "tipp"
+      }
+     },
+     {
+      "de": {
+       "blue": "Spitze",
+       "yellow": "Berges"
+      },
+      "lv": {
+       "purple": "tipus"
+      }
+     },
+     {
+      "de": {
+       "blue": "Spitze",
+       "green": "Firma"
+      },
+      "lv": {
+       "red": "juhtkonnas"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "die Spitze"
+      },
+      "meaning": {
+       "purple": "tipp"
+      },
+      "example": {
+       "blue": "Spitze"
+      }
+     },
+     {
+      "word": {
+       "green": "der Gipfel"
+      },
+      "meaning": {
+       "purple": "mäetipp"
+      },
+      "example": {
+       "red": "Gipfel"
+      }
+     },
+     {
+      "word": {
+       "green": "das Ende"
+      },
+      "meaning": {
+       "purple": "lõpp"
+      },
+      "example": {
+       "red": "Ende"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "die Spitze",
+     "purple": "punkt"
+    },
+    "important": {
+     "blue": "an der Spitze",
+     "red": "juhtkonnas"
+    }
+   }
+  }
+ },
+ "b1-spritzen": {
+  "de": "spritzen",
+  "lv": "pritsima",
+  "level": "B1",
+  "study": {
+   "id": "b1-spritzen",
+   "layout": "standardStudy",
+   "translation": "pritsima",
+   "explanation": "Põhiidee: spritzen tähendab pritsimist või vedeliku piserdamist. Meditsiinis võib see tähendada süstimist.",
+   "examples": [
+    {
+     "de": "Das Wasser spritzt auf den Boden.",
+     "lv": "vesi pritsib põrandale."
+    },
+    {
+     "de": "Der Gärtner spritzt die Pflanzen.",
+     "lv": "aednik piserdab taimi."
+    },
+    {
+     "de": "Der Arzt spritzt das Medikament.",
+     "lv": "arst süstib ravimit."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "spritzen",
+     "meaning": "pritsima, piserdama, süstima",
+     "example": "Wasser spritzt. = Vesi pritsib."
+    },
+    {
+     "word": "gießen",
+     "meaning": "kastma",
+     "example": "Ich gieße die Blumen. = Ma kastan lilli."
+    },
+    {
+     "word": "sprühen",
+     "meaning": "pihustama",
+     "example": "Ich sprühe Parfüm. = Ma pihustan parfüümi."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Pritsmed, aerosool või süst: spritzen."
+     }
+    ]
+   },
+   "important": {
+    "text": "Arsti juures võib spritzen tähendada süstimist, mitte pritsimist."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "spritzen",
+     "purple": "pritsimist",
+     "red": "süstimist"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "spritzt",
+       "yellow": "Wasser"
+      },
+      "lv": {
+       "purple": "pritsib"
+      }
+     },
+     {
+      "de": {
+       "blue": "spritzt",
+       "green": "Gärtner",
+       "yellow": "Pflanzen"
+      },
+      "lv": {
+       "purple": "piserdab"
+      }
+     },
+     {
+      "de": {
+       "blue": "spritzt",
+       "green": "Arzt",
+       "yellow": "Medikament"
+      },
+      "lv": {
+       "red": "süstib"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "spritzen"
+      },
+      "meaning": {
+       "purple": "pritsima"
+      },
+      "example": {
+       "blue": "spritzt",
+       "yellow": "Wasser"
+      }
+     },
+     {
+      "word": {
+       "green": "gießen"
+      },
+      "meaning": {
+       "purple": "kastma"
+      },
+      "example": {
+       "red": "gieße",
+       "yellow": "Blumen"
+      }
+     },
+     {
+      "word": {
+       "green": "sprühen"
+      },
+      "meaning": {
+       "purple": "pihustama"
+      },
+      "example": {
+       "red": "sprühe",
+       "yellow": "Parfüm"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "spritzen",
+     "purple": "Pritsmed",
+     "red": "süst"
+    },
+    "important": {
+     "blue": "spritzen",
+     "red": "süstimist"
+    }
+   }
+  }
+ },
+ "b1-sprung": {
+  "de": "Sprung",
+  "de_article": "der",
+  "de_plural": "die Sprünge",
+  "lv": "hüpe",
+  "level": "B1",
+  "study": {
+   "id": "b1-sprung",
+   "layout": "standardStudy",
+   "translation": "hüpe",
+   "explanation": "Põhiidee: der Sprung tähendab hüpet. Klaasis, seinas või materjalis võib see tähendada mõra.",
+   "examples": [
+    {
+     "de": "Der Sprung war sehr weit.",
+     "lv": "hüpe oli väga pikk."
+    },
+    {
+     "de": "Im Glas ist ein Sprung.",
+     "lv": "klaasis on mõra."
+    },
+    {
+     "de": "Der Sportler machte einen großen Sprung.",
+     "lv": "sportlane tegi suure hüppe."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "der Sprung",
+     "meaning": "hüpe • mõra",
+     "example": "Der Sprung war weit. = Hüpe oli pikk."
+    },
+    {
+     "word": "der Riss",
+     "meaning": "mõra",
+     "example": "In der Wand ist ein Riss. = Seinas on mõra."
+    },
+    {
+     "word": "springen",
+     "meaning": "hüppama",
+     "example": "Er springt hoch. = Ta hüppab kõrgele."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Õhus on see hüpe; klaasis või seinas on see mõra."
+     }
+    ]
+   },
+   "important": {
+    "text": "ein Sprung im Glas tähendab mõra, mitte hüpet."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "der Sprung",
+     "purple": "hüpet",
+     "red": "mõra"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Sprung"
+      },
+      "lv": {
+       "purple": "Hüpe"
+      }
+     },
+     {
+      "de": {
+       "blue": "Sprung",
+       "yellow": "Glas"
+      },
+      "lv": {
+       "red": "mõra"
+      }
+     },
+     {
+      "de": {
+       "blue": "Sprung",
+       "green": "Sportler"
+      },
+      "lv": {
+       "purple": "hüppe"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "der Sprung"
+      },
+      "meaning": {
+       "purple": "hüpe"
+      },
+      "example": {
+       "blue": "Sprung"
+      }
+     },
+     {
+      "word": {
+       "green": "der Riss"
+      },
+      "meaning": {
+       "purple": "mõra"
+      },
+      "example": {
+       "red": "Riss"
+      }
+     },
+     {
+      "word": {
+       "green": "springen"
+      },
+      "meaning": {
+       "purple": "hüppama"
+      },
+      "example": {
+       "red": "springt"
+      }
+     }
+    ],
+    "tip": {
+     "purple": "hüpe",
+     "red": "mõra"
+    },
+    "important": {
+     "blue": "Sprung",
+     "red": "mõra"
+    }
+   }
+  }
+ },
+ "b1-stand": {
+  "de": "Stand",
+  "de_article": "der",
+  "de_plural": "die Stände",
+  "lv": "seis",
+  "level": "B1",
+  "study": {
+   "id": "b1-stand",
+   "layout": "standardStudy",
+   "translation": "seis",
+   "explanation": "Põhiidee: der Stand tähendab hetkeseisu või olukorda. Näitusel või turul võib see tähendada müügilette.",
+   "examples": [
+    {
+     "de": "Wie ist der aktuelle Stand?",
+     "lv": "milline on praegune seis?"
+    },
+    {
+     "de": "Unser Stand ist in Halle 3.",
+     "lv": "meie stend on 3. hallis."
+    },
+    {
+     "de": "Der Wasserstand ist niedrig.",
+     "lv": "veetase on madal."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "der Stand",
+     "meaning": "seis • stend",
+     "example": "Der Stand ist unklar. = Seis pole selge."
+    },
+    {
+     "word": "der Zustand",
+     "meaning": "seisund, kvaliteet",
+     "example": "Der Zustand ist gut. = Seisund on hea."
+    },
+    {
+     "word": "der Standort",
+     "meaning": "asukoht",
+     "example": "Der Standort ist zentral. = Asukoht on kesksel kohal."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Projekti edenemise kohta küsitakse: Wie ist der Stand?"
+     }
+    ]
+   },
+   "important": {
+    "text": "Näitusel võib Stand olla stend, mitte olukord."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "der Stand",
+     "purple": "seisu",
+     "red": "stendu"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Stand",
+       "yellow": "aktuelle"
+      },
+      "lv": {
+       "purple": "seis"
+      }
+     },
+     {
+      "de": {
+       "blue": "Stand",
+       "green": "Halle 3"
+      },
+      "lv": {
+       "red": "stend"
+      }
+     },
+     {
+      "de": {
+       "blue": "Wasserstand",
+       "yellow": "Wasser"
+      },
+      "lv": {
+       "purple": "tase"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "der Stand"
+      },
+      "meaning": {
+       "purple": "seis"
+      },
+      "example": {
+       "blue": "Stand"
+      }
+     },
+     {
+      "word": {
+       "green": "der Zustand"
+      },
+      "meaning": {
+       "purple": "seisund"
+      },
+      "example": {
+       "red": "Zustand"
+      }
+     },
+     {
+      "word": {
+       "green": "der Standort"
+      },
+      "meaning": {
+       "purple": "asukoht"
+      },
+      "example": {
+       "red": "Standort"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "der Stand",
+     "purple": "edenemise"
+    },
+    "important": {
+     "blue": "Stand",
+     "red": "stend"
+    }
+   }
+  }
+ },
+ "b1-stellung": {
+  "de": "Stellung",
+  "de_article": "die",
+  "de_plural": "die Stellungen",
+  "lv": "positsioon",
+  "level": "B1",
+  "study": {
+   "id": "b1-stellung",
+   "layout": "standardStudy",
+   "translation": "positsioon",
+   "explanation": "Põhiidee: die Stellung tähendab positsiooni või seisundit. Seda kasutatakse kehaasendi, töökoha ja seisukoha kohta.",
+   "examples": [
+    {
+     "de": "Die Stellung des Körpers ist wichtig.",
+     "lv": "kehaasend on tähtis."
+    },
+    {
+     "de": "Er sucht eine neue Stellung.",
+     "lv": "ta otsib uut töökohta."
+    },
+    {
+     "de": "Sie nimmt Stellung zu dem Problem.",
+     "lv": "ta väljendab seisukohta probleemi kohta."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "die Stellung",
+     "meaning": "positsioon, amet, seisukoht",
+     "example": "Er sucht eine Stellung. = Ta otsib tööd."
+    },
+    {
+     "word": "der Stand",
+     "meaning": "hetkeseis",
+     "example": "Wie ist der Stand? = Milline on seis?"
+    },
+    {
+     "word": "die Stelle",
+     "meaning": "koht • töökoht",
+     "example": "Die Stelle ist frei. = Töökoht on vaba."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Positsioon, töö või seisukoht: die Stellung."
+     }
+    ]
+   },
+   "important": {
+    "text": "eine Stellung suchen tähendab töökoha otsimist."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "die Stellung",
+     "purple": "positsiooni",
+     "red": "seisukohta"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Stellung",
+       "yellow": "Körpers"
+      },
+      "lv": {
+       "purple": "Kehaasend"
+      }
+     },
+     {
+      "de": {
+       "blue": "Stellung",
+       "green": "Er"
+      },
+      "lv": {
+       "red": "töökohta"
+      }
+     },
+     {
+      "de": {
+       "blue": "Stellung",
+       "yellow": "Problem"
+      },
+      "lv": {
+       "red": "seisukohta"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "die Stellung"
+      },
+      "meaning": {
+       "purple": "positsioon"
+      },
+      "example": {
+       "blue": "Stellung"
+      }
+     },
+     {
+      "word": {
+       "green": "der Stand"
+      },
+      "meaning": {
+       "purple": "hetkeseis"
+      },
+      "example": {
+       "red": "Stand"
+      }
+     },
+     {
+      "word": {
+       "green": "die Stelle"
+      },
+      "meaning": {
+       "purple": "töökoht"
+      },
+      "example": {
+       "red": "Stelle"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "die Stellung",
+     "purple": "Positsioon"
+    },
+    "important": {
+     "blue": "Stellung",
+     "red": "töökoha"
+    }
+   }
+  }
  }
 }
