@@ -36210,5 +36210,1261 @@
     }
    }
   }
+ },
+ "b1-schmieren": {
+  "de": "schmieren",
+  "lv": "määrima",
+  "level": "B1",
+  "study": {
+   "id": "b1-schmieren",
+   "layout": "standardStudy",
+   "translation": "määrima",
+   "explanation": "Põhiidee: schmieren tähendab määrimist või pinna kokku määrimist. Kõnekeeles võib see tähendada ka lohakalt kirjutamist või ära määrimist.",
+   "examples": [
+    {
+     "de": "Sie schmiert Butter aufs Brot.",
+     "lv": "ta määrib võid leivale."
+    },
+    {
+     "de": "Der Mechaniker schmiert die Kette.",
+     "lv": "mehaanik õlitab ketti."
+    },
+    {
+     "de": "Das Kind schmiert an die Wand.",
+     "lv": "laps määrib seina kokku."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "schmieren",
+     "meaning": "määrima, õlitama, kokku määrima",
+     "example": "Sie schmiert Butter aufs Brot. = Ta määrib võid leivale."
+    },
+    {
+     "word": "streichen",
+     "meaning": "värvima pintsliga",
+     "example": "Er streicht die Wand. = Ta värvib seina."
+    },
+    {
+     "word": "ölen",
+     "meaning": "õlitama",
+     "example": "Ich öle die Kette. = Ma õlitan ketti."
+    }
+   ],
+   "tip": "Rasv, või, õli või määrimine → schmieren.",
+   "important": "schmieren kõlab sageli lohakamalt kui lihtsalt streichen.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "schmieren",
+     "purple": "määrimist",
+     "red": "lohakalt"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "schmiert",
+       "yellow": "Butter"
+      },
+      "lv": {
+       "purple": "määrib"
+      }
+     },
+     {
+      "de": {
+       "blue": "schmiert",
+       "yellow": "Kette"
+      },
+      "lv": {
+       "purple": "õlitab"
+      }
+     },
+     {
+      "de": {
+       "blue": "schmiert",
+       "green": "Kind"
+      },
+      "lv": {
+       "red": "määrib kokku"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "schmieren"
+      },
+      "meaning": {
+       "purple": "määrima"
+      },
+      "example": {
+       "blue": "schmiert",
+       "yellow": "Butter"
+      }
+     },
+     {
+      "word": {
+       "green": "streichen"
+      },
+      "meaning": {
+       "purple": "värvima"
+      },
+      "example": {
+       "red": "streicht",
+       "yellow": "Wand"
+      }
+     },
+     {
+      "word": {
+       "green": "ölen"
+      },
+      "meaning": {
+       "purple": "õlitama"
+      },
+      "example": {
+       "red": "öle",
+       "yellow": "Kette"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "schmieren",
+     "yellow": "või"
+    },
+    "important": {
+     "blue": "schmieren",
+     "red": "streichen"
+    }
+   }
+  }
+ },
+ "b1-schmücken": {
+  "de": "schmücken",
+  "lv": "kaunistama",
+  "level": "B1",
+  "study": {
+   "id": "b1-schmücken",
+   "layout": "standardStudy",
+   "translation": "kaunistama",
+   "explanation": "Põhiidee: schmücken tähendab ruumi, eseme või inimese kaunistamist. sich schmücken tähendab enda kaunistamist.",
+   "examples": [
+    {
+     "de": "Wir schmücken den Weihnachtsbaum.",
+     "lv": "me kaunistame jõulukuuske."
+    },
+    {
+     "de": "Blumen schmücken den Tisch.",
+     "lv": "lilled kaunistavad lauda."
+    },
+    {
+     "de": "Sie schmückt sich mit einer Kette.",
+     "lv": "ta ehib end kaelakeega."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "schmücken",
+     "meaning": "kaunistama",
+     "example": "Wir schmücken den Baum. = Me kaunistame kuuske."
+    },
+    {
+     "word": "dekorieren",
+     "meaning": "dekoreerima ruumi või eset",
+     "example": "Sie dekoriert den Raum. = Ta dekoreerib ruumi."
+    },
+    {
+     "word": "sich anziehen",
+     "meaning": "riietuma",
+     "example": "Er zieht sich warm an. = Ta riietub soojalt."
+    }
+   ],
+   "tip": "Kui miski muutub ehete abil ilusamaks, kasuta schmücken.",
+   "important": "sich schmücken on end ehtima; schmücken ilma sich-ta tähendab tavaliselt millegi muu kaunistamist.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "schmücken",
+     "purple": "kaunistamist",
+     "red": "sich schmücken"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "schmücken",
+       "yellow": "Weihnachtsbaum"
+      },
+      "lv": {
+       "purple": "kaunistame"
+      }
+     },
+     {
+      "de": {
+       "blue": "schmücken",
+       "yellow": "Tisch"
+      },
+      "lv": {
+       "purple": "kaunistavad"
+      }
+     },
+     {
+      "de": {
+       "blue": "schmückt sich",
+       "yellow": "Kette"
+      },
+      "lv": {
+       "red": "ehib end"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "schmücken"
+      },
+      "meaning": {
+       "purple": "kaunistama"
+      },
+      "example": {
+       "blue": "schmücken",
+       "yellow": "Baum"
+      }
+     },
+     {
+      "word": {
+       "green": "dekorieren"
+      },
+      "meaning": {
+       "purple": "dekoreerima"
+      },
+      "example": {
+       "red": "dekoriert",
+       "yellow": "Raum"
+      }
+     },
+     {
+      "word": {
+       "green": "sich anziehen"
+      },
+      "meaning": {
+       "purple": "riietuma"
+      },
+      "example": {
+       "red": "zieht sich",
+       "yellow": "warm"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "schmücken",
+     "purple": "ilusamaks"
+    },
+    "important": {
+     "blue": [
+      "sich schmücken",
+      "schmücken"
+     ],
+     "red": "end ehtima"
+    }
+   }
+  }
+ },
+ "b1-schnitt": {
+  "de": "Schnitt",
+  "de_article": "der",
+  "de_plural": "die Schnitte",
+  "lv": "lõige",
+  "level": "B1",
+  "study": {
+   "id": "b1-schnitt",
+   "layout": "standardStudy",
+   "translation": "lõige",
+   "explanation": "Põhiidee: der Schnitt on lõige või lõikamise tulemus. Olenevalt valdkonnast võib see olla rõivalõige, filmimontaaž või keskmine näitaja.",
+   "examples": [
+    {
+     "de": "Der Schnitt an der Hand ist tief.",
+     "lv": "lõige käes on sügav."
+    },
+    {
+     "de": "Der Schnitt des Kleides ist modern.",
+     "lv": "kleidi lõige on moodne."
+    },
+    {
+     "de": "Der Film hat einen schnellen Schnitt.",
+     "lv": "filmil on kiire montaaž."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "der Schnitt",
+     "meaning": "lõige, rõivalõige, montaaž",
+     "example": "Der Schnitt ist tief. = Lõige on sügav."
+    },
+    {
+     "word": "der Durchschnitt",
+     "meaning": "keskmine näitaja",
+     "example": "Der Durchschnitt ist hoch. = Keskmine näitaja on kõrge."
+    },
+    {
+     "word": "die Wunde",
+     "meaning": "haav",
+     "example": "Die Wunde blutet. = Haav veritseb."
+    }
+   ],
+   "tip": "Kui miski on lõigatud või lõikega vormitud, mõtle Schnitt.",
+   "important": "Haav ei ole alati Schnitt; laiema haava jaoks kasutatakse sagedamini die Wunde.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "der Schnitt",
+     "purple": "lõige",
+     "red": "rõivalõige"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Schnitt",
+       "yellow": "Hand"
+      },
+      "lv": {
+       "purple": "Lõige"
+      }
+     },
+     {
+      "de": {
+       "blue": "Schnitt",
+       "yellow": "Kleides"
+      },
+      "lv": {
+       "red": "lõige"
+      }
+     },
+     {
+      "de": {
+       "blue": "Schnitt",
+       "yellow": "Film"
+      },
+      "lv": {
+       "red": "montaaž"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "der Schnitt"
+      },
+      "meaning": {
+       "purple": "lõige"
+      },
+      "example": {
+       "blue": "Schnitt"
+      }
+     },
+     {
+      "word": {
+       "green": "der Durchschnitt"
+      },
+      "meaning": {
+       "purple": "keskmine näitaja"
+      },
+      "example": {
+       "red": "Durchschnitt"
+      }
+     },
+     {
+      "word": {
+       "green": "die Wunde"
+      },
+      "meaning": {
+       "purple": "haav"
+      },
+      "example": {
+       "red": "Wunde"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "Schnitt",
+     "purple": "lõiget"
+    },
+    "important": {
+     "blue": "Schnitt",
+     "red": "die Wunde"
+    }
+   }
+  }
+ },
+ "b1-schuldig": {
+  "de": "schuldig",
+  "lv": "süüdi",
+  "level": "B1",
+  "study": {
+   "id": "b1-schuldig",
+   "layout": "standardStudy",
+   "translation": "süüdi",
+   "explanation": "Põhiidee: schuldig tähendab süüdi. Konstruktsioonis jemandem etwas schuldig sein tähendab see kellelegi midagi võlgu olemist.",
+   "examples": [
+    {
+     "de": "Er ist schuldig.",
+     "lv": "ta on süüdi."
+    },
+    {
+     "de": "Sie fühlt sich schuldig.",
+     "lv": "ta tunneb end süüdi olevat."
+    },
+    {
+     "de": "Ich bin dir noch zehn Euro schuldig.",
+     "lv": "ma olen sulle veel kümme eurot võlgu."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "schuldig",
+     "meaning": "süüdi • võlgu",
+     "example": "Er ist schuldig. = Ta on süüdi."
+    },
+    {
+     "word": "die Schuld",
+     "meaning": "süü, võlg",
+     "example": "Das ist nicht meine Schuld. = See ei ole minu süü."
+    },
+    {
+     "word": "unschuldig",
+     "meaning": "süütu",
+     "example": "Sie ist unschuldig. = Ta on süütu."
+    }
+   ],
+   "tip": "Süüdi või võlgu: schuldig.",
+   "important": "Ich bin dir etwas schuldig tähendab „ma olen sulle midagi võlgu”.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "schuldig",
+     "purple": "süüdi",
+     "red": "võlgu"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "schuldig",
+       "green": "Er"
+      },
+      "lv": {
+       "purple": "süüdi"
+      }
+     },
+     {
+      "de": {
+       "blue": "schuldig",
+       "green": "Sie"
+      },
+      "lv": {
+       "purple": "süüdi"
+      }
+     },
+     {
+      "de": {
+       "blue": "schuldig",
+       "yellow": "Euro"
+      },
+      "lv": {
+       "red": "võlgu"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "schuldig"
+      },
+      "meaning": {
+       "purple": "süüdi"
+      },
+      "example": {
+       "blue": "schuldig"
+      }
+     },
+     {
+      "word": {
+       "green": "die Schuld"
+      },
+      "meaning": {
+       "purple": "süü"
+      },
+      "example": {
+       "red": "Schuld"
+      }
+     },
+     {
+      "word": {
+       "green": "unschuldig"
+      },
+      "meaning": {
+       "purple": "süütu"
+      },
+      "example": {
+       "red": "unschuldig"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "schuldig",
+     "purple": "Süüdi",
+     "red": "võlgu"
+    },
+    "important": {
+     "blue": "schuldig",
+     "red": "võlgu"
+    }
+   }
+  }
+ },
+ "b1-schützen": {
+  "de": "schützen",
+  "lv": "kaitsma",
+  "level": "B1",
+  "study": {
+   "id": "b1-schützen",
+   "layout": "standardStudy",
+   "translation": "kaitsma",
+   "explanation": "Põhiidee: schützen tähendab kellegi või millegi kaitsmist ohu eest. sich schützen tähendab ennast kaitsma.",
+   "examples": [
+    {
+     "de": "Die Jacke schützt vor Regen.",
+     "lv": "jope kaitseb vihma eest."
+    },
+    {
+     "de": "Wir schützen die Kinder.",
+     "lv": "me kaitseme lapsi."
+    },
+    {
+     "de": "Man muss sich vor der Sonne schützen.",
+     "lv": "tuleb end kaitsta päikese eest."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "schützen",
+     "meaning": "kaitsma",
+     "example": "Die Jacke schützt vor Regen. = Jope kaitseb vihma eest."
+    },
+    {
+     "word": "retten",
+     "meaning": "päästma ohust",
+     "example": "Sie retten den Hund. = Nad päästavad koera."
+    },
+    {
+     "word": "bewachen",
+     "meaning": "valvama",
+     "example": "Er bewacht das Haus. = Ta valvab maja."
+    }
+   ],
+   "tip": "Millegi eest kaitseb: schützen vor + mille eest?.",
+   "important": "schützen vor kasutatakse daativiga: vor Regen, vor der Sonne.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "schützen",
+     "purple": "kaitsma",
+     "red": "sich schützen"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "schützt",
+       "yellow": "Regen"
+      },
+      "lv": {
+       "purple": "kaitseb"
+      }
+     },
+     {
+      "de": {
+       "blue": "schützen",
+       "green": "Kinder"
+      },
+      "lv": {
+       "purple": "kaitseme"
+      }
+     },
+     {
+      "de": {
+       "blue": "schützen",
+       "yellow": "Sonne"
+      },
+      "lv": {
+       "red": "tuleb end kaitsta"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "schützen"
+      },
+      "meaning": {
+       "purple": "kaitsma"
+      },
+      "example": {
+       "blue": "schützt",
+       "yellow": "Regen"
+      }
+     },
+     {
+      "word": {
+       "green": "retten"
+      },
+      "meaning": {
+       "purple": "päästma"
+      },
+      "example": {
+       "red": "retten",
+       "green": "Hund"
+      }
+     },
+     {
+      "word": {
+       "green": "bewachen"
+      },
+      "meaning": {
+       "purple": "valvama"
+      },
+      "example": {
+       "red": "bewacht",
+       "yellow": "Haus"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "schützen vor",
+     "red": "mille eest?"
+    },
+    "important": {
+     "blue": "schützen vor",
+     "red": "daativiga"
+    }
+   }
+  }
+ },
+ "b1-schwanken": {
+  "de": "schwanken",
+  "lv": "kõikuma",
+  "level": "B1",
+  "study": {
+   "id": "b1-schwanken",
+   "layout": "standardStudy",
+   "translation": "kõikuma",
+   "explanation": "Põhiidee: schwanken tähendab füüsilist kõikumist või ülekantud tähenduses kahtlemist võimaluste vahel.",
+   "examples": [
+    {
+     "de": "Das Boot schwankt stark.",
+     "lv": "paat kõigub tugevalt."
+    },
+    {
+     "de": "Die Preise schwanken stark.",
+     "lv": "hinnad kõiguvad tugevalt."
+    },
+    {
+     "de": "Er schwankt zwischen zwei Möglichkeiten.",
+     "lv": "ta kahtleb kahe võimaluse vahel."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "schwanken",
+     "meaning": "kõikuma, kahtlema",
+     "example": "Die Preise schwanken. = Hinnad kõiguvad."
+    },
+    {
+     "word": "wackeln",
+     "meaning": "logisema",
+     "example": "Der Tisch wackelt. = Laud logiseb."
+    },
+    {
+     "word": "zweifeln",
+     "meaning": "kahtlema",
+     "example": "Ich zweifle daran. = Ma kahtlen selles."
+    }
+   ],
+   "tip": "Ebastabiilne liikumine või ebakindel otsus: schwanken.",
+   "important": "zweifeln on sisemine kahtlus; schwanken rõhutab kõikumist võimaluste vahel.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "schwanken",
+     "purple": "kõikuma",
+     "red": "kahtlema"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "schwankt",
+       "yellow": "Boot"
+      },
+      "lv": {
+       "purple": "kõigub"
+      }
+     },
+     {
+      "de": {
+       "blue": "schwanken",
+       "yellow": "Preise"
+      },
+      "lv": {
+       "purple": "kõiguvad"
+      }
+     },
+     {
+      "de": {
+       "blue": "schwankt",
+       "yellow": "Möglichkeiten"
+      },
+      "lv": {
+       "red": "kahtleb"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "schwanken"
+      },
+      "meaning": {
+       "purple": "kõikuma"
+      },
+      "example": {
+       "blue": "schwanken",
+       "yellow": "Preise"
+      }
+     },
+     {
+      "word": {
+       "green": "wackeln"
+      },
+      "meaning": {
+       "purple": "logisema"
+      },
+      "example": {
+       "red": "wackelt",
+       "yellow": "Tisch"
+      }
+     },
+     {
+      "word": {
+       "green": "zweifeln"
+      },
+      "meaning": {
+       "purple": "kahtlema"
+      },
+      "example": {
+       "red": "zweifle"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "schwanken",
+     "purple": "Ebastabiilne"
+    },
+    "important": {
+     "blue": "schwanken",
+     "red": "zweifeln"
+    }
+   }
+  }
+ },
+ "b1-senden": {
+  "de": "senden",
+  "lv": "saatma",
+  "level": "B1",
+  "study": {
+   "id": "b1-senden",
+   "layout": "standardStudy",
+   "translation": "saatma",
+   "explanation": "Põhiidee: senden tähendab sõnumi saatmist või signaali/saate edastamist. Igapäevaselt on inimestele loomulikum schicken.",
+   "examples": [
+    {
+     "de": "Ich sende dir eine Nachricht.",
+     "lv": "ma saadan sulle sõnumi."
+    },
+    {
+     "de": "Der Sender sendet ein Signal.",
+     "lv": "saatja saadab signaali."
+    },
+    {
+     "de": "Die Sendung wird live gesendet.",
+     "lv": "saade edastatakse otseülekandes."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "senden",
+     "meaning": "saatma või edastama",
+     "example": "Ich sende eine Nachricht. = Ma saadan sõnumi."
+    },
+    {
+     "word": "schicken",
+     "meaning": "igapäevaselt saatma",
+     "example": "Ich schicke dir das Foto. = Ma saadan sulle foto."
+    },
+    {
+     "word": "übertragen",
+     "meaning": "üle kandma",
+     "example": "Das Spiel wird übertragen. = Mäng kantakse üle."
+    }
+   ],
+   "tip": "Sõnum, signaal või saade: senden.",
+   "important": "senden kõlab formaalsemalt või tehnilisemalt kui schicken.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "senden",
+     "purple": "saatma",
+     "red": "edastama"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "sende",
+       "yellow": "Nachricht"
+      },
+      "lv": {
+       "purple": "saadan"
+      }
+     },
+     {
+      "de": {
+       "blue": "sendet",
+       "yellow": "Signal"
+      },
+      "lv": {
+       "red": "saadab"
+      }
+     },
+     {
+      "de": {
+       "blue": "gesendet",
+       "yellow": "Sendung"
+      },
+      "lv": {
+       "red": "edastatakse"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "senden"
+      },
+      "meaning": {
+       "purple": "saatma"
+      },
+      "example": {
+       "blue": "sende",
+       "yellow": "Nachricht"
+      }
+     },
+     {
+      "word": {
+       "green": "schicken"
+      },
+      "meaning": {
+       "purple": "saatma"
+      },
+      "example": {
+       "red": "schicke",
+       "yellow": "Foto"
+      }
+     },
+     {
+      "word": {
+       "green": "übertragen"
+      },
+      "meaning": {
+       "purple": "üle kandma"
+      },
+      "example": {
+       "red": "übertragen"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "senden",
+     "yellow": [
+      "Sõnum",
+      "signaal"
+     ]
+    },
+    "important": {
+     "blue": "senden",
+     "red": "schicken"
+    }
+   }
+  }
+ },
+ "b1-senken": {
+  "de": "senken",
+  "lv": "langetama",
+  "level": "B1",
+  "study": {
+   "id": "b1-senken",
+   "layout": "standardStudy",
+   "translation": "langetama",
+   "explanation": "Põhiidee: senken tähendab millegi langetamist või alla laskmist. Erinevalt sõnast sinken on sellel tavaliselt objekt.",
+   "examples": [
+    {
+     "de": "Die Firma senkt die Preise.",
+     "lv": "ettevõte langetab hindu."
+    },
+    {
+     "de": "Sie senkt den Kopf.",
+     "lv": "ta langetab pea."
+    },
+    {
+     "de": "Bitte senken Sie die Stimme.",
+     "lv": "palun langetage häält."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "senken",
+     "meaning": "langetama, alla laskma",
+     "example": "Die Firma senkt die Preise. = Ettevõte langetab hindu."
+    },
+    {
+     "word": "sinken",
+     "meaning": "langema, vajuma",
+     "example": "Die Preise sinken. = Hinnad langevad."
+    },
+    {
+     "word": "heben",
+     "meaning": "tõstma",
+     "example": "Er hebt die Hand. = Ta tõstab käe."
+    }
+   ],
+   "tip": "Keegi langetab midagi: senken; miski langeb ise: sinken.",
+   "important": "senken on objektiga; sinken toimub tavaliselt iseenesest.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "senken",
+     "purple": "langetamist",
+     "red": "sinken"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "senkt",
+       "yellow": "Preise"
+      },
+      "lv": {
+       "purple": "langetab"
+      }
+     },
+     {
+      "de": {
+       "blue": "senkt",
+       "yellow": "Kopf"
+      },
+      "lv": {
+       "red": "langetab"
+      }
+     },
+     {
+      "de": {
+       "blue": "senken",
+       "yellow": "Stimme"
+      },
+      "lv": {
+       "red": "langetage"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "senken"
+      },
+      "meaning": {
+       "purple": "langetama"
+      },
+      "example": {
+       "blue": "senkt",
+       "yellow": "Preise"
+      }
+     },
+     {
+      "word": {
+       "green": "sinken"
+      },
+      "meaning": {
+       "purple": "langema"
+      },
+      "example": {
+       "red": "sinken",
+       "yellow": "Preise"
+      }
+     },
+     {
+      "word": {
+       "green": "heben"
+      },
+      "meaning": {
+       "purple": "tõstma"
+      },
+      "example": {
+       "red": "hebt",
+       "yellow": "Hand"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "senken",
+     "red": "sinken"
+    },
+    "important": {
+     "blue": "senken",
+     "red": "sinken"
+    }
+   }
+  }
+ },
+ "b1-sinn": {
+  "de": "Sinn",
+  "de_article": "der",
+  "de_plural": "die Sinne",
+  "lv": "mõte",
+  "level": "B1",
+  "study": {
+   "id": "b1-sinn",
+   "layout": "standardStudy",
+   "translation": "mõte",
+   "explanation": "Põhiidee: der Sinn tähendab mõtet või tähendust. Väljendites võib see tähendada ka tunnetust, näiteks Sinn für Humor.",
+   "examples": [
+    {
+     "de": "Das hat keinen Sinn.",
+     "lv": "sellel pole mõtet."
+    },
+    {
+     "de": "Was ist der Sinn dieses Wortes?",
+     "lv": "mis on selle sõna tähendus?"
+    },
+    {
+     "de": "Sie hat Sinn für Humor.",
+     "lv": "tal on huumorimeel."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "der Sinn",
+     "meaning": "mõte, tähendus, tunnetus",
+     "example": "Das hat keinen Sinn. = Sellel pole mõtet."
+    },
+    {
+     "word": "die Bedeutung",
+     "meaning": "tähendus",
+     "example": "Die Bedeutung ist klar. = Tähendus on selge."
+    },
+    {
+     "word": "das Gefühl",
+     "meaning": "tunne",
+     "example": "Ich habe ein gutes Gefühl. = Mul on hea tunne."
+    }
+   ],
+   "tip": "Mõte tekstis või elus: Sinn; sõna tähendus sageli ka Bedeutung.",
+   "important": "Sinn für Humor on huumorimeel, mitte sõna-sõnalt „huumori mõte”.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "der Sinn",
+     "purple": "mõtet",
+     "red": "tunnetust"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Sinn"
+      },
+      "lv": {
+       "purple": "mõtet"
+      }
+     },
+     {
+      "de": {
+       "blue": "Sinn",
+       "yellow": "Wortes"
+      },
+      "lv": {
+       "purple": "tähendus"
+      }
+     },
+     {
+      "de": {
+       "blue": "Sinn",
+       "yellow": "Humor"
+      },
+      "lv": {
+       "red": "huumorimeel"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "der Sinn"
+      },
+      "meaning": {
+       "purple": "mõte"
+      },
+      "example": {
+       "blue": "Sinn"
+      }
+     },
+     {
+      "word": {
+       "green": "die Bedeutung"
+      },
+      "meaning": {
+       "purple": "tähendus"
+      },
+      "example": {
+       "red": "Bedeutung"
+      }
+     },
+     {
+      "word": {
+       "green": "das Gefühl"
+      },
+      "meaning": {
+       "purple": "tunne"
+      },
+      "example": {
+       "red": "Gefühl"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "Sinn",
+     "red": "Bedeutung"
+    },
+    "important": {
+     "blue": "Sinn für Humor",
+     "red": "huumorimeel"
+    }
+   }
+  }
+ },
+ "b1-sitz": {
+  "de": "Sitz",
+  "de_article": "der",
+  "de_plural": "die Sitze",
+  "lv": "iste",
+  "level": "B1",
+  "study": {
+   "id": "b1-sitz",
+   "layout": "standardStudy",
+   "translation": "iste",
+   "explanation": "Põhiidee: der Sitz tähendab istet või istekohta. Ettevõtte või asutuse kohta tähendab see asukohta/peakontorit.",
+   "examples": [
+    {
+     "de": "Der Sitz ist frei.",
+     "lv": "iste on vaba."
+    },
+    {
+     "de": "Bitte nehmen Sie auf diesem Sitz Platz.",
+     "lv": "palun istuge sellele istmele."
+    },
+    {
+     "de": "Die Firma hat ihren Sitz in Berlin.",
+     "lv": "ettevõtte peakontor on Berliinis."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "der Sitz",
+     "meaning": "iste, istekoht • peakontor",
+     "example": "Der Sitz ist frei. = Iste on vaba."
+    },
+    {
+     "word": "der Platz",
+     "meaning": "koht",
+     "example": "Der Platz ist frei. = Koht on vaba."
+    },
+    {
+     "word": "der Standort",
+     "meaning": "asukoht",
+     "example": "Der Standort ist gut. = Asukoht on hea."
+    }
+   ],
+   "tip": "Kus istutakse või kus ettevõte asub: der Sitz.",
+   "important": "Ettevõtte Sitz on peakontor, mitte füüsiline tool.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "der Sitz",
+     "purple": "istet",
+     "red": "peakontorit"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Sitz"
+      },
+      "lv": {
+       "purple": "Iste"
+      }
+     },
+     {
+      "de": {
+       "blue": "Sitz"
+      },
+      "lv": {
+       "purple": "istmele"
+      }
+     },
+     {
+      "de": {
+       "blue": "Sitz",
+       "green": "Firma"
+      },
+      "lv": {
+       "red": "peakontor"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "der Sitz"
+      },
+      "meaning": {
+       "purple": "iste"
+      },
+      "example": {
+       "blue": "Sitz"
+      }
+     },
+     {
+      "word": {
+       "green": "der Platz"
+      },
+      "meaning": {
+       "purple": "koht"
+      },
+      "example": {
+       "red": "Platz"
+      }
+     },
+     {
+      "word": {
+       "green": "der Standort"
+      },
+      "meaning": {
+       "purple": "asukoht"
+      },
+      "example": {
+       "red": "Standort"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "der Sitz",
+     "purple": "istutakse"
+    },
+    "important": {
+     "blue": "Sitz",
+     "red": "peakontor"
+    }
+   }
+  }
  }
 }
