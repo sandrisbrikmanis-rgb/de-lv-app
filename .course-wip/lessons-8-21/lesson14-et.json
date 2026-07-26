@@ -1,0 +1,240 @@
+{
+ "id": "lesson14",
+ "title": "14. õppetund",
+ "subtitle": "müssen, wollen, mögen",
+ "intro": "Neljateistkümnes õppetund: modaaltegusõnad müssen, wollen ja mögen.",
+ "sections": [
+  {
+   "title": "Tekst / Lugemine",
+   "items": [
+    "Ich muss lernen, denn ich will vorwärts kommen.",
+    "Du musst lernen, denn du willst vorwärts kommen.",
+    "Er muss lernen, denn er will vorwärts kommen.",
+    "Sie muss lernen, denn sie will vorwärts kommen.",
+    "Es muss lernen, denn es will vorwärts kommen.",
+    "Wir müssen lernen, denn wir wollen vorwärts kommen.",
+    "Ihr müsst lernen, denn ihr wollt vorwärts kommen.",
+    "Sie müssen lernen, denn sie wollen vorwärts kommen.",
+    "Ich mag die Suppe nicht essen, denn sie mundet mir nicht.",
+    "Du magst die Suppe nicht essen, denn sie mundet dir nicht.",
+    "Er mag die Suppe nicht essen, denn sie mundet ihm nicht.",
+    "Sie mag die Suppe nicht essen, denn sie mundet ihr nicht.",
+    "Es mag die Suppe nicht essen, denn sie mundet ihm nicht.",
+    "Wir mögen die Suppe nicht essen, denn sie mundet uns nicht.",
+    "Ihr mögt die Suppe nicht essen, denn sie mundet euch nicht.",
+    "Sie mögen die Suppe nicht essen, denn sie mundet ihnen nicht."
+   ]
+  },
+  {
+   "title": "Sõnad",
+   "items": [
+    "müssen — pidama (kohustus)",
+    "ich muss — mina pean",
+    "du musst — sina pead",
+    "er muss — tema peab",
+    "sie muss — tema peab (naine)",
+    "es muss — see peab",
+    "wir müssen — meie peame",
+    "ihr müsst — teie peate",
+    "sie müssen — nemad peavad",
+    "lernen — õppima",
+    "vorwärts — edasi",
+    "vorwärts kommen — edasi jõudma",
+    "wollen — tahtma",
+    "ich will — mina tahan",
+    "du willst — sina tahad",
+    "er will — tema tahab",
+    "sie will — tema tahab (naine)",
+    "es will — see tahab",
+    "wir wollen — meie tahame",
+    "ihr wollt — teie tahate",
+    "sie wollen — nemad tahavad",
+    "mögen — meeldida / soovida",
+    "ich mag — mina soovin / mulle meeldib",
+    "du magst — sina soovid / sulle meeldib",
+    "er mag — tema soovib / talle meeldib",
+    "sie mag — tema soovib / talle meeldib (naine)",
+    "es mag — see soovib / sellele meeldib",
+    "wir mögen — meie soovime",
+    "ihr mögt — teie soovite",
+    "sie mögen — nemad soovivad",
+    "die Suppe — supp",
+    "munden — hästi maitsema",
+    "mir — mulle",
+    "dir — sulle",
+    "ihm — talle",
+    "ihr — talle (naine)",
+    "uns — meile",
+    "euch — teile",
+    "ihnen — neile",
+    "denn — sest"
+   ]
+  },
+  {
+   "title": "Gramatika",
+   "items": [
+    {
+     "heading": "Modaaltegusõnad",
+     "text": "Tegusõnad müssen, wollen ja mögen on modaaltegusõnad."
+    },
+    {
+     "heading": "Ainsuse 1. ja 3. isik",
+     "text": "Oleviku ainsuses on 1. ja 3. isik ühesugused.",
+     "examples": [
+      "ich muss",
+      "er muss",
+      "ich will",
+      "er will",
+      "ich mag",
+      "er mag"
+     ]
+    },
+    {
+     "heading": "Müssen",
+     "examples": [
+      "ich muss",
+      "du musst",
+      "er/sie/es muss",
+      "wir müssen",
+      "ihr müsst",
+      "sie müssen"
+     ]
+    },
+    {
+     "heading": "Wollen",
+     "examples": [
+      "ich will",
+      "du willst",
+      "er/sie/es will",
+      "wir wollen",
+      "ihr wollt",
+      "sie wollen"
+     ]
+    },
+    {
+     "heading": "Mögen",
+     "examples": [
+      "ich mag",
+      "du magst",
+      "er/sie/es mag",
+      "wir mögen",
+      "ihr mögt",
+      "sie mögen"
+     ]
+    },
+    {
+     "heading": "Tüve täishääliku muutus",
+     "examples": [
+      "müssen: ich muss — wir müssen",
+      "wollen: ich will — wir wollen",
+      "mögen: ich mag — wir mögen"
+     ]
+    },
+    {
+     "heading": "Müssen",
+     "text": "Müssen tähendab pidama / olema vajalik.",
+     "examples": [
+      "Ich muss lernen. — Mina pean õppima."
+     ]
+    },
+    {
+     "heading": "Wollen",
+     "text": "Wollen tähendab teadlikult midagi tahta teha.",
+     "examples": [
+      "Ich will vorwärts kommen. — Mina tahan edasi jõuda."
+     ]
+    },
+    {
+     "heading": "Mögen",
+     "text": "Mögen väljendab soovi või meeldimist.",
+     "examples": [
+      "Ich mag die Suppe nicht essen. — Mina ei taha suppi süüa.",
+      "Die Suppe mundet mir nicht. — Supp ei maitse mulle."
+     ]
+    },
+    {
+     "heading": "Tähtis",
+     "text": "Eesti keeles ütleme sageli „ma pean õppima”, „sa pead kirjutama”, „ta peab tulema”. Saksa keeles kasutatakse sellistes lausetes sageli müssen.",
+     "examples": [
+      "Ich muss lernen.",
+      "Du musst den Brief schreiben.",
+      "Er muss heute kommen."
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Hääldus",
+   "items": [
+    "ß hääldatakse kui eesti s.",
+    "ß kirjutatakse sõna keskel või lõpus pärast pikka täishäälikut või diftongi: die Füße, die Straße, ich muss, er muss.",
+    "Kui teistes vormides on ss, siis enne lõppu võib olla ß: müssen, ich muss, du musst, ihr müsst.",
+    "ö sõnas mögen hääldatakse selge ö-häälikuna.",
+    "Kui g järel on t, kõlab g lähemale k-häälikule: du magst, ihr mögt.",
+    "Selline hääldusmuutus (g kõlab nagu k) on tavaline enne kurte kaashäälikuid."
+   ]
+  },
+  {
+   "title": "Pārtulko",
+   "type": "translationCards",
+   "cards": [
+    {
+     "lv": "Kes tahab usinasti õppida?",
+     "de": "Wer will fleißig lernen?"
+    },
+    {
+     "lv": "Kõik õpilased tahavad usinasti õppida.",
+     "de": "Alle Schüler wollen fleißig lernen."
+    },
+    {
+     "lv": "Kes peab täna tulema?",
+     "de": "Wer muss heute kommen?"
+    },
+    {
+     "lv": "Mina pean täna tulema.",
+     "de": "Ich muss heute kommen."
+    },
+    {
+     "lv": "Sina pead kirjutama kirja.",
+     "de": "Du musst den Brief schreiben."
+    },
+    {
+     "lv": "Kes peab usinasti õppima?",
+     "de": "Wer muss fleißig lernen?"
+    },
+    {
+     "lv": "Õpilased peavad usinasti õppima.",
+     "de": "Die Schüler müssen fleißig lernen."
+    },
+    {
+     "lv": "Mina ei taha suppi süüa, sest see mulle ei maitse.",
+     "de": "Ich mag die Suppe nicht essen, denn sie mundet mir nicht."
+    },
+    {
+     "lv": "Kes tahab suppi süüa?",
+     "de": "Wer will die Suppe essen?"
+    },
+    {
+     "lv": "Elsa tahab suppi süüa.",
+     "de": "Elsa will die Suppe essen."
+    },
+    {
+     "lv": "Kes peab raamatut lugema?",
+     "de": "Wer muss das Buch lesen?"
+    },
+    {
+     "lv": "Vend peab raamatut lugema.",
+     "de": "Der Bruder muss das Buch lesen."
+    },
+    {
+     "lv": "Mina ei taha laulda.",
+     "de": "Ich mag nicht singen."
+    },
+    {
+     "lv": "Isa peab ostma laua.",
+     "de": "Der Vater muss einen Tisch kaufen."
+    }
+   ]
+  }
+ ]
+}
