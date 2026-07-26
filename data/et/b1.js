@@ -29334,7 +29334,107 @@ const B1_WORDS = [
     "de_article": "die",
     "de_plural": "die Handarbeiten",
     "lv": "käsitöö",
-    "level": "B1"
+    "level": "B1",
+    "study": {
+      "id": "b1-handarbeit",
+      "layout": "standardStudy",
+      "translation": "käsitöö",
+      "explanation": "Põhiidee: die Handarbeit tähendab käsitööd, tikandit või muud käsitsi tehtud tööd. das Handwerk tähendab ametit või käsitööstust, näiteks puuseppa või tisleri.",
+      "examples": [
+        {
+          "de": "Sie macht Handarbeit in der Freizeit.",
+          "lv": "ta teeb vabal ajal käsitööd."
+        },
+        {
+          "de": "Die Handarbeit ist sehr schön.",
+          "lv": "käsitöö on väga ilus."
+        },
+        {
+          "de": "Er lernt ein Handwerk.",
+          "lv": "ta õpib ametit."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Handarbeit",
+          "meaning": "käsitöö / tikand",
+          "example": "Sie macht Handarbeit. = Ta teeb käsitööd."
+        },
+        {
+          "word": "das Handwerk",
+          "meaning": "amet / käsitööstus",
+          "example": "Er lernt ein Handwerk. = Ta õpib ametit."
+        }
+      ],
+      "tip": "Handarbeit = käsitöö kodus; Handwerk = amet või eriala.",
+      "important": "Handarbeit ei ole sama mis Handwerk. Handarbeit on töö tulemus; Handwerk on amet.",
+      "sectionAccents": {
+              "explanation": {
+                      "blue": "Handarbeit",
+                      "purple": "käsitööd",
+                      "green": "Handwerk",
+                      "yellow": "ametit"
+              },
+              "examples": [
+                      {
+                              "de": {
+                                      "blue": "Handarbeit"
+                              },
+                              "lv": {
+                                      "purple": "käsitööd"
+                              }
+                      },
+                      {
+                              "de": {
+                                      "blue": "Handarbeit"
+                              },
+                              "lv": {
+                                      "purple": "käsitöö"
+                              }
+                      },
+                      {
+                              "de": {
+                                      "green": "Handwerk"
+                              },
+                              "lv": {
+                                      "yellow": "ametit"
+                              }
+                      }
+              ],
+              "comparison": [
+                      {
+                              "word": {
+                                      "blue": "die Handarbeit"
+                              },
+                              "meaning": {
+                                      "purple": "käsitöö"
+                              },
+                              "example": {
+                                      "blue": "Handarbeit"
+                              }
+                      },
+                      {
+                              "word": {
+                                      "green": "das Handwerk"
+                              },
+                              "meaning": {
+                                      "yellow": "amet"
+                              },
+                              "example": {
+                                      "green": "Handwerk"
+                              }
+                      }
+              ],
+              "tip": {
+                      "blue": "Handarbeit",
+                      "green": "Handwerk"
+              },
+              "important": {
+                      "blue": "Handarbeit",
+                      "green": "Handwerk"
+              }
+      }
+    }
   },
   {
     "de": "Handbuch",
@@ -29725,7 +29825,107 @@ const B1_WORDS = [
     "de_article": "das",
     "de_plural": "die Handwerke",
     "lv": "käsitöö",
-    "level": "B1"
+    "level": "B1",
+    "study": {
+      "id": "b1-handwerk",
+      "layout": "standardStudy",
+      "translation": "käsitöö",
+      "explanation": "Põhiidee: das Handwerk tähendab ametit või käsitööstust, näiteks puuseppa või tisleri. die Handarbeit tähendab käsitööd või tikandit kui tegevust või tulemust.",
+      "examples": [
+        {
+          "de": "Er lernt ein Handwerk.",
+          "lv": "ta õpib ametit."
+        },
+        {
+          "de": "Das Handwerk hat eine lange Tradition.",
+          "lv": "käsitööstusel on pikk traditsioon."
+        },
+        {
+          "de": "Sie macht Handarbeit in der Freizeit.",
+          "lv": "ta teeb vabal ajal käsitööd."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "das Handwerk",
+          "meaning": "amet / käsitööstus",
+          "example": "Er lernt ein Handwerk. = Ta õpib ametit."
+        },
+        {
+          "word": "die Handarbeit",
+          "meaning": "käsitöö / tikand",
+          "example": "Sie macht Handarbeit. = Ta teeb käsitööd."
+        }
+      ],
+      "tip": "Handwerk = amet; Handarbeit = käsitöö tegemine.",
+      "important": "Handwerk ei ole sama mis Handarbeit. Handwerk on amet või eriala.",
+      "sectionAccents": {
+              "explanation": {
+                      "blue": "Handwerk",
+                      "purple": "ametit",
+                      "green": "Handarbeit",
+                      "yellow": "käsitööd"
+              },
+              "examples": [
+                      {
+                              "de": {
+                                      "blue": "Handwerk"
+                              },
+                              "lv": {
+                                      "purple": "ametit"
+                              }
+                      },
+                      {
+                              "de": {
+                                      "blue": "Handwerk"
+                              },
+                              "lv": {
+                                      "purple": "käsitööstusel"
+                              }
+                      },
+                      {
+                              "de": {
+                                      "green": "Handarbeit"
+                              },
+                              "lv": {
+                                      "yellow": "käsitööd"
+                              }
+                      }
+              ],
+              "comparison": [
+                      {
+                              "word": {
+                                      "blue": "das Handwerk"
+                              },
+                              "meaning": {
+                                      "purple": "amet"
+                              },
+                              "example": {
+                                      "blue": "Handwerk"
+                              }
+                      },
+                      {
+                              "word": {
+                                      "green": "die Handarbeit"
+                              },
+                              "meaning": {
+                                      "yellow": "käsitöö"
+                              },
+                              "example": {
+                                      "green": "Handarbeit"
+                              }
+                      }
+              ],
+              "tip": {
+                      "blue": "Handwerk",
+                      "green": "Handarbeit"
+              },
+              "important": {
+                      "blue": "Handwerk",
+                      "green": "Handarbeit"
+              }
+      }
+    }
   },
   {
     "de": "Happen",
@@ -30377,7 +30577,107 @@ const B1_WORDS = [
   {
     "de": "heran",
     "lv": "siia",
-    "level": "B1"
+    "level": "B1",
+    "study": {
+      "id": "b1-heran",
+      "layout": "standardStudy",
+      "translation": "siia",
+      "explanation": "Põhiidee: heran tähendab lähemale või ligi liikumist rääkija poole. herbei tähendab siia kutsumist või millegi siia toomist.",
+      "examples": [
+        {
+          "de": "Komm bitte heran!",
+          "lv": "palun tule lähemale!"
+        },
+        {
+          "de": "Er trat langsam heran.",
+          "lv": "ta astus aeglaselt lähemale."
+        },
+        {
+          "de": "Ruf die Kinder herbei!",
+          "lv": "kutsu lapsed siia!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "heran",
+          "meaning": "lähemale / ligi",
+          "example": "Komm heran! = Tule lähemale!"
+        },
+        {
+          "word": "herbei",
+          "meaning": "siia / juurde",
+          "example": "Ruf die Kinder herbei! = Kutsu lapsed siia!"
+        }
+      ],
+      "tip": "heran = liigu lähemale; herbei = too või kutsu siia.",
+      "important": "heran rõhutab lähenemist; herbei rõhutab siia kutsumist või toomist.",
+      "sectionAccents": {
+              "explanation": {
+                      "blue": "heran",
+                      "purple": "lähemale",
+                      "red": "herbei",
+                      "yellow": "siia"
+              },
+              "examples": [
+                      {
+                              "de": {
+                                      "blue": "heran"
+                              },
+                              "lv": {
+                                      "purple": "lähemale"
+                              }
+                      },
+                      {
+                              "de": {
+                                      "blue": "heran"
+                              },
+                              "lv": {
+                                      "purple": "lähemale"
+                              }
+                      },
+                      {
+                              "de": {
+                                      "red": "herbei"
+                              },
+                              "lv": {
+                                      "yellow": "siia"
+                              }
+                      }
+              ],
+              "comparison": [
+                      {
+                              "word": {
+                                      "blue": "heran"
+                              },
+                              "meaning": {
+                                      "purple": "lähemale"
+                              },
+                              "example": {
+                                      "blue": "heran"
+                              }
+                      },
+                      {
+                              "word": {
+                                      "red": "herbei"
+                              },
+                              "meaning": {
+                                      "yellow": "siia"
+                              },
+                              "example": {
+                                      "red": "herbei"
+                              }
+                      }
+              ],
+              "tip": {
+                      "blue": "heran",
+                      "red": "herbei"
+              },
+              "important": {
+                      "blue": "heran",
+                      "red": "herbei"
+              }
+      }
+    }
   },
   {
     "de": "herauf",
@@ -30574,7 +30874,107 @@ const B1_WORDS = [
   {
     "de": "herbei",
     "lv": "siia",
-    "level": "B1"
+    "level": "B1",
+    "study": {
+      "id": "b1-herbei",
+      "layout": "standardStudy",
+      "translation": "siia",
+      "explanation": "Põhiidee: herbei tähendab millegi või kellegi siia kutsumist või toomist. heran tähendab lähemale liikumist rääkija poole.",
+      "examples": [
+        {
+          "de": "Ruf die Kinder herbei!",
+          "lv": "kutsu lapsed siia!"
+        },
+        {
+          "de": "Hol mir die Zeitung herbei!",
+          "lv": "too mulle ajaleht siia!"
+        },
+        {
+          "de": "Komm bitte heran!",
+          "lv": "palun tule lähemale!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "herbei",
+          "meaning": "siia / juurde",
+          "example": "Ruf die Kinder herbei! = Kutsu lapsed siia!"
+        },
+        {
+          "word": "heran",
+          "meaning": "lähemale / ligi",
+          "example": "Komm heran! = Tule lähemale!"
+        }
+      ],
+      "tip": "herbei = too või kutsu siia; heran = liigu lähemale.",
+      "important": "herbei ei ole sama mis heran. herbei tähendab siia toomist või kutsumist.",
+      "sectionAccents": {
+              "explanation": {
+                      "blue": "herbei",
+                      "purple": "siia",
+                      "red": "heran",
+                      "yellow": "lähemale"
+              },
+              "examples": [
+                      {
+                              "de": {
+                                      "blue": "herbei"
+                              },
+                              "lv": {
+                                      "purple": "siia"
+                              }
+                      },
+                      {
+                              "de": {
+                                      "blue": "herbei"
+                              },
+                              "lv": {
+                                      "purple": "siia"
+                              }
+                      },
+                      {
+                              "de": {
+                                      "red": "heran"
+                              },
+                              "lv": {
+                                      "yellow": "lähemale"
+                              }
+                      }
+              ],
+              "comparison": [
+                      {
+                              "word": {
+                                      "blue": "herbei"
+                              },
+                              "meaning": {
+                                      "purple": "siia"
+                              },
+                              "example": {
+                                      "blue": "herbei"
+                              }
+                      },
+                      {
+                              "word": {
+                                      "red": "heran"
+                              },
+                              "meaning": {
+                                      "yellow": "lähemale"
+                              },
+                              "example": {
+                                      "red": "heran"
+                              }
+                      }
+              ],
+              "tip": {
+                      "blue": "herbei",
+                      "red": "heran"
+              },
+              "important": {
+                      "blue": "herbei",
+                      "red": "heran"
+              }
+      }
+    }
   },
   {
     "de": "Herdplatte",
@@ -56970,7 +57370,107 @@ const B1_WORDS = [
   {
     "de": "testen",
     "lv": "proovima",
-    "level": "B1"
+    "level": "B1",
+    "study": {
+      "id": "b1-testen",
+      "layout": "standardStudy",
+      "translation": "proovima",
+      "explanation": "Põhiidee: testen tähendab süstemaatilist testimist või kontrollimist. probieren tähendab proovimist või maitsmist ilma formaalse kontrollita.",
+      "examples": [
+        {
+          "de": "Wir testen die neue Software.",
+          "lv": "me testime uut tarkvara."
+        },
+        {
+          "de": "Der Arzt testet das Medikament.",
+          "lv": "arst testib ravimit."
+        },
+        {
+          "de": "Probier mal die Suppe!",
+          "lv": "maitse suppi!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "testen",
+          "meaning": "testima / kontrollima",
+          "example": "Wir testen die Software. = Me testime tarkvara."
+        },
+        {
+          "word": "probieren",
+          "meaning": "proovima / maitsma",
+          "example": "Probier mal die Suppe! = Maitse suppi!"
+        }
+      ],
+      "tip": "testen = kontrolli süstemaatiliselt; probieren = proovi või maitse.",
+      "important": "testen ei ole sama mis probieren. testen on formaalsem ja süstemaatilisem.",
+      "sectionAccents": {
+              "explanation": {
+                      "blue": "testen",
+                      "purple": "testimist",
+                      "red": "probieren",
+                      "yellow": "maitsmist"
+              },
+              "examples": [
+                      {
+                              "de": {
+                                      "blue": "testen"
+                              },
+                              "lv": {
+                                      "purple": "testime"
+                              }
+                      },
+                      {
+                              "de": {
+                                      "blue": "testet"
+                              },
+                              "lv": {
+                                      "purple": "testib"
+                              }
+                      },
+                      {
+                              "de": {
+                                      "red": "Probier"
+                              },
+                              "lv": {
+                                      "yellow": "maitse"
+                              }
+                      }
+              ],
+              "comparison": [
+                      {
+                              "word": {
+                                      "blue": "testen"
+                              },
+                              "meaning": {
+                                      "purple": "testima"
+                              },
+                              "example": {
+                                      "blue": "testen"
+                              }
+                      },
+                      {
+                              "word": {
+                                      "red": "probieren"
+                              },
+                              "meaning": {
+                                      "yellow": "maitsma"
+                              },
+                              "example": {
+                                      "red": "Probier"
+                              }
+                      }
+              ],
+              "tip": {
+                      "blue": "testen",
+                      "red": "probieren"
+              },
+              "important": {
+                      "blue": "testen",
+                      "red": "probieren"
+              }
+      }
+    }
   },
   {
     "de": "Textilwaren",
@@ -58559,7 +59059,108 @@ const B1_WORDS = [
   {
     "de": "überreden",
     "lv": "veenma",
-    "level": "B1"
+    "level": "B1",
+    "study": {
+      "id": "b1-überreden",
+      "layout": "standardStudy",
+      "translation": "veenma",
+      "explanation": "Põhiidee: überreden tähendab kedagi kõnetada või meelitada, et ta midagi teeks. See rõhutab tegevust, mitte ainult mõtlemist. überzeugen tähendab kedagi argumentidega veenda.",
+      "examples": [
+        {
+          "de": "Er hat mich überredet, mitzukommen.",
+          "lv": "ta kõnetas mind kaasa tulema."
+        },
+        {
+          "de": "Sie überredete ihn, früher zu gehen.",
+          "lv": "ta kõnetas teda varem minema."
+        },
+        {
+          "de": "Sie überzeugte ihn mit guten Argumenten.",
+          "lv": "ta veenis teda heade argumentidega."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "überreden",
+          "meaning": "kõnetama / veenma tegutsema",
+          "example": "Er hat mich überredet, mitzukommen. = Ta kõnetas mind kaasa tulema."
+        },
+        {
+          "word": "überzeugen",
+          "meaning": "veenma argumentidega",
+          "example": "Sie überzeugte ihn mit Argumenten. = Ta veenis teda argumentidega."
+        }
+      ],
+      "tip": "überreden = veenda tegutsema; überzeugen = veenda mõtlema või uskuma.",
+      "important": "überreden ei ole sama mis überzeugen. überreden tähendab kedagi tegutsema kõnetada.",
+      "sectionAccents": {
+              "explanation": {
+                      "blue": "überreden",
+                      "purple": "kõnetada",
+                      "green": "tegevust",
+                      "red": "überzeugen",
+                      "yellow": "argumentidega"
+              },
+              "examples": [
+                      {
+                              "de": {
+                                      "blue": "überredet"
+                              },
+                              "lv": {
+                                      "purple": "kõnetas"
+                              }
+                      },
+                      {
+                              "de": {
+                                      "blue": "überredete"
+                              },
+                              "lv": {
+                                      "purple": "kõnetas"
+                              }
+                      },
+                      {
+                              "de": {
+                                      "red": "überzeugte"
+                              },
+                              "lv": {
+                                      "yellow": "veenis"
+                              }
+                      }
+              ],
+              "comparison": [
+                      {
+                              "word": {
+                                      "blue": "überreden"
+                              },
+                              "meaning": {
+                                      "purple": "kõnetama"
+                              },
+                              "example": {
+                                      "blue": "überredet"
+                              }
+                      },
+                      {
+                              "word": {
+                                      "red": "überzeugen"
+                              },
+                              "meaning": {
+                                      "yellow": "veenma"
+                              },
+                              "example": {
+                                      "red": "überzeugte"
+                              }
+                      }
+              ],
+              "tip": {
+                      "blue": "überreden",
+                      "red": "überzeugen"
+              },
+              "important": {
+                      "blue": "überreden",
+                      "red": "überzeugen"
+              }
+      }
+    }
   },
   {
     "de": "übersehen",
@@ -58721,7 +59322,108 @@ const B1_WORDS = [
   {
     "de": "überzeugen",
     "lv": "veenma",
-    "level": "B1"
+    "level": "B1",
+    "study": {
+      "id": "b1-überzeugen",
+      "layout": "standardStudy",
+      "translation": "veenma",
+      "explanation": "Põhiidee: überzeugen tähendab kedagi argumentide või tõenditega veenda. See rõhutab uskumist või veendumust. überreden tähendab kedagi kõnetada, et ta midagi teeks.",
+      "examples": [
+        {
+          "de": "Sie überzeugte ihn mit guten Argumenten.",
+          "lv": "ta veenis teda heade argumentidega."
+        },
+        {
+          "de": "Ich konnte ihn nicht überzeugen.",
+          "lv": "ma ei suutnud teda veenda."
+        },
+        {
+          "de": "Er hat mich überredet, mitzukommen.",
+          "lv": "ta kõnetas mind kaasa tulema."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "überzeugen",
+          "meaning": "veenma argumentidega",
+          "example": "Sie überzeugte ihn mit Argumenten. = Ta veenis teda argumentidega."
+        },
+        {
+          "word": "überreden",
+          "meaning": "kõnetama / veenma tegutsema",
+          "example": "Er hat mich überredet, mitzukommen. = Ta kõnetas mind kaasa tulema."
+        }
+      ],
+      "tip": "überzeugen = veenda mõtlema; überreden = veenda tegutsema.",
+      "important": "überzeugen ei ole sama mis überreden. überzeugen tähendab veendumuse tekitamist.",
+      "sectionAccents": {
+              "explanation": {
+                      "blue": "überzeugen",
+                      "purple": "veenda",
+                      "green": "argumentide",
+                      "red": "überreden",
+                      "yellow": "tegutsema"
+              },
+              "examples": [
+                      {
+                              "de": {
+                                      "blue": "überzeugte"
+                              },
+                              "lv": {
+                                      "purple": "veenis"
+                              }
+                      },
+                      {
+                              "de": {
+                                      "blue": "überzeugen"
+                              },
+                              "lv": {
+                                      "purple": "veenda"
+                              }
+                      },
+                      {
+                              "de": {
+                                      "red": "überredet"
+                              },
+                              "lv": {
+                                      "yellow": "kõnetas"
+                              }
+                      }
+              ],
+              "comparison": [
+                      {
+                              "word": {
+                                      "blue": "überzeugen"
+                              },
+                              "meaning": {
+                                      "purple": "veenma"
+                              },
+                              "example": {
+                                      "blue": "überzeugte"
+                              }
+                      },
+                      {
+                              "word": {
+                                      "red": "überreden"
+                              },
+                              "meaning": {
+                                      "yellow": "kõnetama"
+                              },
+                              "example": {
+                                      "red": "überredet"
+                              }
+                      }
+              ],
+              "tip": {
+                      "blue": "überzeugen",
+                      "red": "überreden"
+              },
+              "important": {
+                      "blue": "überzeugen",
+                      "red": "überreden"
+              }
+      }
+    }
   },
   {
     "de": "sich überzeugen",
@@ -60796,7 +61498,107 @@ const B1_WORDS = [
     "de": "Vernunft",
     "de_article": "die",
     "lv": "mõistus",
-    "level": "B1"
+    "level": "B1",
+    "study": {
+      "id": "b1-vernunft",
+      "layout": "standardStudy",
+      "translation": "mõistus",
+      "explanation": "Põhiidee: die Vernunft tähendab mõistlikkust, arukust ja terve mõistust. See rõhutab ratsionaalset mõtlemist. der Verstand tähendab arusaamist ja vaimset võimet mõista.",
+      "examples": [
+        {
+          "de": "Er handelt aus Vernunft.",
+          "lv": "ta tegutseb mõistlikkusest."
+        },
+        {
+          "de": "Das ist der gesunde Menschenverstand.",
+          "lv": "see on terve mõistus."
+        },
+        {
+          "de": "Das geht über meinen Verstand.",
+          "lv": "see ületab minu arusaamise."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Vernunft",
+          "meaning": "mõistlikkus / arukus",
+          "example": "Er handelt aus Vernunft. = Ta tegutseb mõistlikkusest."
+        },
+        {
+          "word": "der Verstand",
+          "meaning": "arusaamine / taip",
+          "example": "Das geht über meinen Verstand. = See ületab minu arusaamise."
+        }
+      ],
+      "tip": "Vernunft = mõistlikkus; Verstand = arusaamise võime.",
+      "important": "Ära aja segi Vernunft (mõistlikkus) ja Verstand (arusaamine).",
+      "sectionAccents": {
+              "explanation": {
+                      "blue": "Vernunft",
+                      "purple": "mõistlikkust",
+                      "green": "Verstand",
+                      "yellow": "arusaamist"
+              },
+              "examples": [
+                      {
+                              "de": {
+                                      "blue": "Vernunft"
+                              },
+                              "lv": {
+                                      "purple": "mõistlikkusest"
+                              }
+                      },
+                      {
+                              "de": {
+                                      "blue": "Menschenverstand"
+                              },
+                              "lv": {
+                                      "purple": "mõistus"
+                              }
+                      },
+                      {
+                              "de": {
+                                      "green": "Verstand"
+                              },
+                              "lv": {
+                                      "yellow": "arusaamise"
+                              }
+                      }
+              ],
+              "comparison": [
+                      {
+                              "word": {
+                                      "blue": "die Vernunft"
+                              },
+                              "meaning": {
+                                      "purple": "mõistlikkus"
+                              },
+                              "example": {
+                                      "blue": "Vernunft"
+                              }
+                      },
+                      {
+                              "word": {
+                                      "green": "der Verstand"
+                              },
+                              "meaning": {
+                                      "yellow": "arusaamine"
+                              },
+                              "example": {
+                                      "green": "Verstand"
+                              }
+                      }
+              ],
+              "tip": {
+                      "blue": "Vernunft",
+                      "green": "Verstand"
+              },
+              "important": {
+                      "blue": "Vernunft",
+                      "green": "Verstand"
+              }
+      }
+    }
   },
   {
     "de": "Versammlung",
@@ -61362,7 +62164,107 @@ const B1_WORDS = [
     "de_article": "der",
     "de_plural": null,
     "lv": "mõistus",
-    "level": "B1"
+    "level": "B1",
+    "study": {
+      "id": "b1-verstand",
+      "layout": "standardStudy",
+      "translation": "mõistus",
+      "explanation": "Põhiidee: der Verstand tähendab arusaamist, taipu ja vaimset võimet mõista. die Vernunft tähendab mõistlikkust, arukust ja ratsionaalset mõtlemist.",
+      "examples": [
+        {
+          "de": "Das geht über meinen Verstand.",
+          "lv": "see ületab minu arusaamise."
+        },
+        {
+          "de": "Er hat einen scharfen Verstand.",
+          "lv": "tal on terav arusaamine."
+        },
+        {
+          "de": "Er handelt aus Vernunft.",
+          "lv": "ta tegutseb mõistlikkusest."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Verstand",
+          "meaning": "arusaamine / taip",
+          "example": "Das geht über meinen Verstand. = See ületab minu arusaamise."
+        },
+        {
+          "word": "die Vernunft",
+          "meaning": "mõistlikkus / arukus",
+          "example": "Er handelt aus Vernunft. = Ta tegutseb mõistlikkusest."
+        }
+      ],
+      "tip": "Verstand = arusaamine; Vernunft = mõistlikkus.",
+      "important": "Ära aja segi Verstand (arusaamine) ja Vernunft (mõistlikkus).",
+      "sectionAccents": {
+              "explanation": {
+                      "blue": "Verstand",
+                      "purple": "arusaamist",
+                      "green": "Vernunft",
+                      "yellow": "mõistlikkust"
+              },
+              "examples": [
+                      {
+                              "de": {
+                                      "blue": "Verstand"
+                              },
+                              "lv": {
+                                      "purple": "arusaamise"
+                              }
+                      },
+                      {
+                              "de": {
+                                      "blue": "Verstand"
+                              },
+                              "lv": {
+                                      "purple": "arusaamine"
+                              }
+                      },
+                      {
+                              "de": {
+                                      "green": "Vernunft"
+                              },
+                              "lv": {
+                                      "yellow": "mõistlikkusest"
+                              }
+                      }
+              ],
+              "comparison": [
+                      {
+                              "word": {
+                                      "blue": "der Verstand"
+                              },
+                              "meaning": {
+                                      "purple": "arusaamine"
+                              },
+                              "example": {
+                                      "blue": "Verstand"
+                              }
+                      },
+                      {
+                              "word": {
+                                      "green": "die Vernunft"
+                              },
+                              "meaning": {
+                                      "yellow": "mõistlikkus"
+                              },
+                              "example": {
+                                      "green": "Vernunft"
+                              }
+                      }
+              ],
+              "tip": {
+                      "blue": "Verstand",
+                      "green": "Vernunft"
+              },
+              "important": {
+                      "blue": "Verstand",
+                      "green": "Vernunft"
+              }
+      }
+    }
   },
   {
     "de": "verstärken",
