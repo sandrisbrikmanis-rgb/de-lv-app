@@ -45413,5 +45413,1525 @@
     }
    }
   }
+ },
+ "b1-werben": {
+  "de": "werben",
+  "lv": "reklaamima",
+  "level": "B1",
+  "study": {
+   "id": "b1-werben",
+   "layout": "standardStudy",
+   "translation": "reklaamima",
+   "explanation": "Peamine mõte: werben tähendab reklaamima või meelitama. werben um tähendab püüdma saada toetust, hääli või tähelepanu.",
+   "examples": [
+    {
+     "de": "Die Firma wirbt für ein neues Produkt.",
+     "lv": "ettevõte reklaamib uut toodet."
+    },
+    {
+     "de": "Die Partei wirbt um Stimmen.",
+     "lv": "partei püüab saada hääli."
+    },
+    {
+     "de": "Der Verein wirbt neue Mitglieder.",
+     "lv": "ühing meelitab uusi liikmeid."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "werben",
+     "meaning": "reklaamima, meelitama",
+     "example": "Die Firma wirbt. = Ettevõte reklaamib."
+    },
+    {
+     "word": "sich bewerben",
+     "meaning": "kandideerima töökohale",
+     "example": "Ich bewerbe mich. = Ma kandideerin."
+    },
+    {
+     "word": "reklamieren",
+     "meaning": "esitama kaebuse",
+     "example": "Ich reklamiere den Fehler. = Ma esitasin kaebuse vea kohta."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Toodet või tuge reklaamitakse: werben."
+     }
+    ]
+   },
+   "important": {
+    "text": "werben ei ole sich bewerben. sich bewerben tähendab kandideerimist."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "werben",
+     "purple": "reklaamima",
+     "red": "werben um"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "wirbt",
+       "green": "Firma",
+       "yellow": "Produkt"
+      },
+      "lv": {
+       "purple": "reklaamib"
+      }
+     },
+     {
+      "de": {
+       "blue": "wirbt",
+       "red": "um",
+       "yellow": "Stimmen"
+      },
+      "lv": {
+       "red": "saada"
+      }
+     },
+     {
+      "de": {
+       "blue": "wirbt",
+       "green": "Mitglieder"
+      },
+      "lv": {
+       "purple": "meelitab"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "werben"
+      },
+      "meaning": {
+       "purple": "reklaamima"
+      },
+      "example": {
+       "blue": "wirbt"
+      }
+     },
+     {
+      "word": {
+       "green": "sich bewerben"
+      },
+      "meaning": {
+       "purple": "kandideerima"
+      },
+      "example": {
+       "red": "bewerbe"
+      }
+     },
+     {
+      "word": {
+       "green": "reklamieren"
+      },
+      "meaning": {
+       "purple": "kaebuse"
+      },
+      "example": {
+       "red": "reklamiere"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "werben",
+     "purple": "reklaamitakse"
+    },
+    "important": {
+     "blue": "werben",
+     "red": "sich bewerben"
+    }
+   }
+  }
+ },
+ "b1-werk": {
+  "de": "Werk",
+  "de_article": "das",
+  "de_plural": "die Werke",
+  "lv": "teos",
+  "level": "B1",
+  "study": {
+   "id": "b1-werk",
+   "layout": "standardStudy",
+   "translation": "teos",
+   "explanation": "Peamine mõte: das Werk on loodud teos, näiteks raamat, kunstiteos või kompositsioon. See võib tähendada ka tehast.",
+   "examples": [
+    {
+     "de": "Das Werk des Autors ist bekannt.",
+     "lv": "autori teos on tuntud."
+    },
+    {
+     "de": "Dieses Werk wurde 1920 geschrieben.",
+     "lv": "see teos kirjutati 1920. aastal."
+    },
+    {
+     "de": "Er arbeitet in einem Werk.",
+     "lv": "ta töötab tehases."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "das Werk",
+     "meaning": "loodud teos • tehas",
+     "example": "Das Werk ist bekannt. = Teos on tuntud."
+    },
+    {
+     "word": "die Arbeit",
+     "meaning": "töö, tegemine",
+     "example": "Die Arbeit ist schwer. = Töö on raske."
+    },
+    {
+     "word": "die Fabrik",
+     "meaning": "tehas",
+     "example": "Die Fabrik ist groß. = Tehas on suur."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Autori, helilooja või kunstniku tulemus: das Werk."
+     }
+    ]
+   },
+   "important": {
+    "text": "das Werk ei ole tavaline tööpäev; see on loodud asi või tehas."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "das Werk",
+     "purple": "loodud teos",
+     "red": "tehast"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Werk",
+       "green": "Autors"
+      },
+      "lv": {
+       "purple": "teos"
+      }
+     },
+     {
+      "de": {
+       "blue": "Werk",
+       "yellow": "1920"
+      },
+      "lv": {
+       "purple": "teos"
+      }
+     },
+     {
+      "de": {
+       "blue": "Werk"
+      },
+      "lv": {
+       "red": "tehases"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "das Werk"
+      },
+      "meaning": {
+       "purple": "teos"
+      },
+      "example": {
+       "blue": "Werk"
+      }
+     },
+     {
+      "word": {
+       "green": "die Arbeit"
+      },
+      "meaning": {
+       "purple": "töö"
+      },
+      "example": {
+       "red": "Arbeit"
+      }
+     },
+     {
+      "word": {
+       "green": "die Fabrik"
+      },
+      "meaning": {
+       "purple": "tehas"
+      },
+      "example": {
+       "red": "Fabrik"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "das Werk",
+     "purple": "tulemus"
+    },
+    "important": {
+     "blue": "das Werk",
+     "red": "tehas"
+    }
+   }
+  }
+ },
+ "b1-zeugnis": {
+  "de": "Zeugnis",
+  "de_article": "das",
+  "de_plural": "die Zeugnisse",
+  "lv": "tunnistus",
+  "level": "B1",
+  "study": {
+   "id": "b1-zeugnis",
+   "layout": "standardStudy",
+   "translation": "tunnistus",
+   "explanation": "Peamine mõte: das Zeugnis tähendab tunnistust, tõendit või ametlikku väljavõtet. Koolis on see tavaliselt hindeleht.",
+   "examples": [
+    {
+     "de": "Das Kind bekommt heute sein Zeugnis.",
+     "lv": "laps saab täna oma tunnistuse."
+    },
+    {
+     "de": "Ich brauche ein ärztliches Zeugnis.",
+     "lv": "mul on vaja arstitõendit."
+    },
+    {
+     "de": "Der Zeuge gibt vor Gericht ein Zeugnis ab.",
+     "lv": "tunnistaja annab kohtus tunnistuse."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "das Zeugnis",
+     "meaning": "tunnistus, tõend, väljavõte",
+     "example": "Das Zeugnis ist gut. = Tunnistus on hea."
+    },
+    {
+     "word": "die Bescheinigung",
+     "meaning": "tõend, kinnitus",
+     "example": "Ich brauche eine Bescheinigung. = Mul on vaja tõendit."
+    },
+    {
+     "word": "der Zeuge",
+     "meaning": "tunnistaja",
+     "example": "Der Zeuge spricht. = Tunnistaja räägib."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Kool, arst või kohus: das Zeugnis kinnitab fakti."
+     }
+    ]
+   },
+   "important": {
+    "text": "ärztliches Zeugnis on sageli arstitõend, mitte kooli hindeleht."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "das Zeugnis",
+     "purple": "tunnistust",
+     "red": "tõendit"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Zeugnis",
+       "green": "Kind"
+      },
+      "lv": {
+       "purple": "tunnistuse"
+      }
+     },
+     {
+      "de": {
+       "blue": "Zeugnis",
+       "green": "ärztliches"
+      },
+      "lv": {
+       "red": "arstitõendit"
+      }
+     },
+     {
+      "de": {
+       "blue": "Zeugnis",
+       "green": "Zeuge"
+      },
+      "lv": {
+       "purple": "tunnistuse"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "das Zeugnis"
+      },
+      "meaning": {
+       "purple": "tunnistus"
+      },
+      "example": {
+       "blue": "Zeugnis"
+      }
+     },
+     {
+      "word": {
+       "green": "die Bescheinigung"
+      },
+      "meaning": {
+       "purple": "tõendit"
+      },
+      "example": {
+       "red": "Bescheinigung"
+      }
+     },
+     {
+      "word": {
+       "green": "der Zeuge"
+      },
+      "meaning": {
+       "purple": "tunnistaja"
+      },
+      "example": {
+       "red": "Zeuge"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "das Zeugnis",
+     "purple": "kinnitab"
+    },
+    "important": {
+     "blue": "ärztliches Zeugnis",
+     "red": "arstitõend"
+    }
+   }
+  }
+ },
+ "b1-zugeben": {
+  "de": "zugeben",
+  "lv": "tunnistama",
+  "level": "B1",
+  "study": {
+   "id": "b1-zugeben",
+   "layout": "standardStudy",
+   "translation": "tunnistama",
+   "explanation": "Peamine mõte: zugeben tähendab vea või tõe tunnistamist. Toidu või ainete puhul tähendab dazugeben lisamist.",
+   "examples": [
+    {
+     "de": "Ich gebe zu, dass ich einen Fehler gemacht habe.",
+     "lv": "ma tunnistan, et tegin vea."
+    },
+    {
+     "de": "Sie gab die Wahrheit zu.",
+     "lv": "ta tunnistas tõde."
+    },
+    {
+     "de": "Gib noch etwas Salz dazu.",
+     "lv": "lisa veel pisut soola."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "zugeben",
+     "meaning": "tunnistama",
+     "example": "Ich gebe es zu. = Ma tunnistan seda."
+    },
+    {
+     "word": "dazugeben",
+     "meaning": "juurde lisama",
+     "example": "Gib Salz dazu. = Lisa soola."
+    },
+    {
+     "word": "gestehen",
+     "meaning": "tunnistama (tõsisemalt)",
+     "example": "Er gesteht den Fehler. = Ta tunnistab vea."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Viga või tõde tunnistatakse: zugeben."
+     }
+    ]
+   },
+   "important": {
+    "text": "Gib Salz dazu tähendab lisamist, mitte tunnistamist."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "zugeben",
+     "purple": "tunnistamist",
+     "red": "dazugeben"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "gebe",
+        "zu"
+       ],
+       "yellow": "Fehler"
+      },
+      "lv": {
+       "purple": "tunnistan"
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "gab",
+        "zu"
+       ],
+       "yellow": "Wahrheit"
+      },
+      "lv": {
+       "purple": "tunnistas"
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Gib",
+        "dazu"
+       ],
+       "yellow": "Salz"
+      },
+      "lv": {
+       "red": "Lisa"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "zugeben"
+      },
+      "meaning": {
+       "purple": "tunnistama"
+      },
+      "example": {
+       "blue": [
+        "gebe",
+        "zu"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": "dazugeben"
+      },
+      "meaning": {
+       "purple": "lisama"
+      },
+      "example": {
+       "red": "dazu",
+       "yellow": "Salz"
+      }
+     },
+     {
+      "word": {
+       "green": "gestehen"
+      },
+      "meaning": {
+       "purple": "tunnistama"
+      },
+      "example": {
+       "red": "gesteht",
+       "yellow": "Fehler"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "zugeben",
+     "purple": "tunnistatakse"
+    },
+    "important": {
+     "blue": "dazu",
+     "red": "lisamist"
+    }
+   }
+  }
+ },
+ "b1-zünden": {
+  "de": "zünden",
+  "lv": "süttima",
+  "level": "B1",
+  "study": {
+   "id": "b1-zünden",
+   "layout": "standardStudy",
+   "translation": "süttima",
+   "explanation": "Peamine mõte: zünden tähendab süttimist, käivitumist või toimimist. Konkreetse süütamise jaoks kasutatakse sageli anzünden.",
+   "examples": [
+    {
+     "de": "Er zündet die Kerze an.",
+     "lv": "ta süütab küünla."
+    },
+    {
+     "de": "Das Feuerzeug zündet nicht.",
+     "lv": "välgumihkel ei sütti."
+    },
+    {
+     "de": "Die Idee hat sofort gezündet.",
+     "lv": "idee toimis kohe."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "zünden",
+     "meaning": "süttima, toimima",
+     "example": "Die Idee zündet. = Idee toimib."
+    },
+    {
+     "word": "anzünden",
+     "meaning": "midagi süütama",
+     "example": "Ich zünde die Kerze an. = Ma süütan küünla."
+    },
+    {
+     "word": "brennen",
+     "meaning": "põlema",
+     "example": "Die Kerze brennt. = Küünal põleb."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Mehhanism, tuli või idee hakkab toimima: zünden."
+     }
+    ]
+   },
+   "important": {
+    "text": "anzünden tähendab konkreetselt millegi süütamist; zünden võib olla ka ülekantud tähenduses."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "zünden",
+     "purple": "süttimist",
+     "red": "toimimist"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "zündet",
+       "yellow": "Kerze"
+      },
+      "lv": {
+       "purple": "süütab"
+      }
+     },
+     {
+      "de": {
+       "blue": "zündet",
+       "yellow": "Feuerzeug"
+      },
+      "lv": {
+       "purple": "ei sütti"
+      }
+     },
+     {
+      "de": {
+       "blue": "gezündet",
+       "yellow": "Idee"
+      },
+      "lv": {
+       "red": "toimis"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "zünden"
+      },
+      "meaning": {
+       "purple": "toimib"
+      },
+      "example": {
+       "blue": "zündet"
+      }
+     },
+     {
+      "word": {
+       "green": "anzünden"
+      },
+      "meaning": {
+       "purple": "süütan"
+      },
+      "example": {
+       "red": "zünde"
+      }
+     },
+     {
+      "word": {
+       "green": "brennen"
+      },
+      "meaning": {
+       "purple": "põleb"
+      },
+      "example": {
+       "red": "brennt"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "zünden",
+     "red": "toimima"
+    },
+    "important": {
+     "red": "anzünden",
+     "blue": "zünden"
+    }
+   }
+  }
+ },
+ "b1-zusammenhang": {
+  "de": "Zusammenhang",
+  "de_article": "der",
+  "de_plural": "die Zusammenhänge",
+  "lv": "seos",
+  "level": "B1",
+  "study": {
+   "id": "b1-zusammenhang",
+   "layout": "standardStudy",
+   "translation": "seos",
+   "explanation": "Peamine mõte: der Zusammenhang tähendab seost või konteksti asjade vahel. im Zusammenhang mit tähendab seoses millegagi.",
+   "examples": [
+    {
+     "de": "Ich sehe keinen Zusammenhang.",
+     "lv": "ma ei näe mingit seost."
+    },
+    {
+     "de": "Das steht im Zusammenhang mit der Arbeit.",
+     "lv": "see on seoses tööga."
+    },
+    {
+     "de": "Im Zusammenhang wird der Satz klar.",
+     "lv": "kontekstis muutub lause selgeks."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "der Zusammenhang",
+     "meaning": "seos, kontekst",
+     "example": "Der Zusammenhang ist klar. = Seos on selge."
+    },
+    {
+     "word": "die Verbindung",
+     "meaning": "ühendus, side",
+     "example": "Die Verbindung ist stabil. = Ühendus on stabiilne."
+    },
+    {
+     "word": "der Kontext",
+     "meaning": "kontekst",
+     "example": "Der Kontext hilft. = Kontekst aitab."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Kui asjad on tähenduslikult seotud, otsi Zusammenhang."
+     }
+    ]
+   },
+   "important": {
+    "text": "im Zusammenhang mit on püsiväljend: seoses millegaga."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "der Zusammenhang",
+     "purple": "seost",
+     "red": "im Zusammenhang mit"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Zusammenhang"
+      },
+      "lv": {
+       "purple": "seost"
+      }
+     },
+     {
+      "de": {
+       "blue": "Zusammenhang",
+       "yellow": "Arbeit"
+      },
+      "lv": {
+       "red": "seoses"
+      }
+     },
+     {
+      "de": {
+       "blue": "Zusammenhang",
+       "yellow": "Satz"
+      },
+      "lv": {
+       "red": "Kontekstis"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "der Zusammenhang"
+      },
+      "meaning": {
+       "purple": "seos"
+      },
+      "example": {
+       "blue": "Zusammenhang"
+      }
+     },
+     {
+      "word": {
+       "green": "die Verbindung"
+      },
+      "meaning": {
+       "purple": "ühendus"
+      },
+      "example": {
+       "red": "Verbindung"
+      }
+     },
+     {
+      "word": {
+       "green": "der Kontext"
+      },
+      "meaning": {
+       "purple": "kontekst"
+      },
+      "example": {
+       "red": "Kontext"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "Zusammenhang",
+     "purple": "seotud"
+    },
+    "important": {
+     "blue": "im Zusammenhang mit",
+     "purple": "seoses millegaga"
+    }
+   }
+  }
+ },
+ "b1-beruf": {
+  "de": "Beruf",
+  "de_article": "der",
+  "de_plural": "die Berufe",
+  "lv": "amet",
+  "level": "B1",
+  "study": {
+   "id": "b1-beruf",
+   "layout": "standardStudy",
+   "translation": "amet",
+   "explanation": "Peamine mõte: der Beruf tähendab inimese ametit või püsivat töövaldkonda. See vastab küsimusele, mida inimene professionaalselt teeb. die Arbeit on töö üldiselt või konkreetne töö. der Job on argisem sõna töö või töökoha jaoks. Tegevus ei ole der Beruf peamine tähendus A2 tasemel.",
+   "examples": [
+    {
+     "de": "Was bist du von Beruf?",
+     "lv": "mis on sinu amet?"
+    },
+    {
+     "de": "Mein Beruf ist Lehrer.",
+     "lv": "minu amet on õpetaja."
+    },
+    {
+     "de": "Sie sucht einen neuen Beruf.",
+     "lv": "ta otsib uut ametit."
+    },
+    {
+     "de": "Er liebt seinen Beruf.",
+     "lv": "ta armastab oma ametit."
+    },
+    {
+     "de": "Ich habe heute viel Arbeit.",
+     "lv": "mul on täna palju tööd."
+    },
+    {
+     "de": "Der Job ist gut bezahlt.",
+     "lv": "töö on hästi tasustatud."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "der Beruf",
+     "meaning": "amet / elukutse",
+     "example": "Was bist du von Beruf? = Mis on sinu amet?"
+    },
+    {
+     "word": "die Arbeit",
+     "meaning": "töö",
+     "example": "Ich habe viel Arbeit. = Mul on palju tööd."
+    },
+    {
+     "word": "der Job",
+     "meaning": "töö / tööke",
+     "example": "Er sucht einen Job. = Ta otsib tööd."
+    },
+    {
+     "word": "die Ausbildung",
+     "meaning": "väljaõpe / kutseharidus",
+     "example": "Sie macht eine Ausbildung. = Ta õpib elukutset."
+    },
+    {
+     "word": "die Beschäftigung",
+     "meaning": "tegevus",
+     "example": "Lesen ist eine schöne Beschäftigung. = Lugemine on tore tegevus."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Kui küsimus on inimese ameti kohta, kasuta der Beruf."
+     },
+     {
+      "text": "Kui jutt on konkreetsest tööpäevast, ülesandest või töö hulgast, kasutatakse sagedamini die Arbeit."
+     }
+    ]
+   },
+   "important": {
+    "text": "der Beruf ei ole lihtsalt suvaline tegevus. See on tavaliselt inimese amet või töövaldkond.",
+    "example": "von Beruf Lehrer = ametilt õpetaja. viel Arbeit = palju tööd."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Beruf"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "amet"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Beruf"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "amet"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Beruf"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "ametit"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Beruf"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "ametit"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "Arbeit"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "tööd"
+       ]
+      }
+     },
+     {
+      "de": {
+       "yellow": [
+        "Job"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "Töö"
+       ]
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "der Beruf"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "amet",
+        "elukutse"
+       ]
+      },
+      "example": {
+       "blue": [
+        "Beruf"
+       ],
+       "purple": [
+        "amet"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "die Arbeit"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "töö"
+       ]
+      },
+      "example": {
+       "green": [
+        "Arbeit"
+       ],
+       "purple": [
+        "tööd"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "der Job"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "töö",
+        "tööke"
+       ]
+      },
+      "example": {
+       "yellow": [
+        "Job"
+       ],
+       "purple": [
+        "tööd"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "die Ausbildung"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "väljaõpe",
+        "kutseharidus"
+       ]
+      },
+      "example": {
+       "orange": [
+        "Ausbildung"
+       ],
+       "purple": [
+        "õpib elukutset"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "die Beschäftigung"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "tegevus"
+       ]
+      },
+      "example": {
+       "red": [
+        "Beschäftigung"
+       ],
+       "purple": [
+        "tegevus"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "leftBlocks": [
+      {
+       "text": {
+        "blue": [
+         "Beruf"
+        ],
+        "purple": [
+         "ameti"
+        ]
+       }
+      },
+      {
+       "text": {
+        "green": [
+         "Arbeit"
+        ],
+        "purple": [
+         "töö"
+        ]
+       }
+      }
+     ]
+    },
+    "important": [
+     {
+      "text": {
+       "blue": [
+        "der Beruf"
+       ],
+       "purple": [
+        "amet",
+        "töövaldkond"
+       ],
+       "red": [
+        "tegevus"
+       ]
+      },
+      "example": {
+       "blue": [
+        "Beruf"
+       ],
+       "green": [
+        "Arbeit"
+       ],
+       "purple": [
+        "ametilt",
+        "tööd"
+       ]
+      }
+     }
+    ]
+   },
+   "accents": {
+    "blue": [
+     "der Beruf",
+     "Beruf"
+    ],
+    "green": [
+     "Arbeit"
+    ],
+    "yellow": [
+     "Job"
+    ],
+    "orange": [
+     "Ausbildung"
+    ],
+    "red": [
+     "Beschäftigung"
+    ],
+    "purple": [
+     "amet",
+     "ametit",
+     "elukutse",
+     "kutseala",
+     "töö",
+     "tööd",
+     "tegevus",
+     "töövaldkond"
+    ]
+   }
+  }
+ },
+ "b1-steuer": {
+  "de": "Steuer",
+  "de_article": "die",
+  "de_plural": "die Steuern",
+  "lv": "maks",
+  "level": "B1",
+  "study": {
+   "id": "b1-steuer",
+   "layout": "standardStudy",
+   "translation": "maks",
+   "explanation": "Peamine mõte: die Steuer tähendab maksu. Mitmus on die Steuern. Seevastu das Steuer tähendab rooli ehk laeva või auto juhtimisseadet.",
+   "examples": [
+    {
+     "de": "Die Steuern sind hoch.",
+     "lv": "maksud on kõrged."
+    },
+    {
+     "de": "Er zahlt viel Steuer.",
+     "lv": "ta maksab palju makse."
+    },
+    {
+     "de": "Er hält das Steuer fest.",
+     "lv": "ta hoiab rooli kõvasti kinni."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "die Steuer",
+     "meaning": "maks",
+     "example": "Die Steuer ist hoch. = Maks on kõrge. Mitmus: die Steuern."
+    },
+    {
+     "word": "das Steuer",
+     "meaning": "rool",
+     "example": "Das Steuer ist fest. = Rool on kindel. Mitmus: die Steuer."
+    },
+    {
+     "word": "die Abgabe",
+     "meaning": "lõiv • makse",
+     "example": "Die Abgabe ist fällig. = Lõiv tuleb maksta."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Maksude ja riigile tehtavate maksete kohta — die Steuer (die Steuern). Laeva või auto rooli kohta — das Steuer (die Steuer)."
+     }
+    ]
+   },
+   "important": {
+    "text": "die Steuer = maks (die Steuern). das Steuer = rool (die Steuer). Artikkel ja mitmus erinevad."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "die Steuer"
+     ],
+     "purple": [
+      "maks"
+     ],
+     "green": [
+      "das Steuer"
+     ]
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Steuern"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "maksud"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Steuer"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "makse"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "Steuer"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "rooli"
+       ]
+      }
+     }
+    ]
+   }
+  }
+ },
+ "b1-steuer-2": {
+  "de": "Steuer",
+  "de_article": "das",
+  "de_plural": "die Steuer",
+  "lv": "rool",
+  "level": "B1",
+  "study": {
+   "id": "b1-steuer-2",
+   "layout": "standardStudy",
+   "translation": "rool",
+   "explanation": "Peamine mõte: das Steuer tähendab rooli ehk laeva või auto juhtimisseadet. Mitmus on die Steuer. Seevastu die Steuer tähendab maksu (die Steuern).",
+   "examples": [
+    {
+     "de": "Er hält das Steuer fest.",
+     "lv": "ta hoiab rooli kõvasti kinni."
+    },
+    {
+     "de": "Die Steuer des Schiffes ist groß.",
+     "lv": "laeva rool on suur."
+    },
+    {
+     "de": "Die Steuern sind hoch.",
+     "lv": "maksud on kõrged."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "das Steuer",
+     "meaning": "rool",
+     "example": "Das Steuer ist fest. = Rool on kindel. Mitmus: die Steuer."
+    },
+    {
+     "word": "die Steuer",
+     "meaning": "maks",
+     "example": "Die Steuer ist hoch. = Maks on kõrge. Mitmus: die Steuern."
+    },
+    {
+     "word": "das Lenkrad",
+     "meaning": "rool (auto)",
+     "example": "Das Lenkrad ist warm. = Rool on soe."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Laeva või auto juhtimise kohta — das Steuer. Maksude kohta — die Steuer."
+     }
+    ]
+   },
+   "important": {
+    "text": "das Steuer = rool (die Steuer). die Steuer = maks (die Steuern). Vale: die Steuern rooli kohta."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "green": [
+      "das Steuer"
+     ],
+     "purple": [
+      "rool"
+     ],
+     "blue": [
+      "die Steuer"
+     ]
+    },
+    "examples": [
+     {
+      "de": {
+       "green": [
+        "Steuer"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "rooli"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "Steuer"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "rool"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Steuern"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "maksud"
+       ]
+      }
+     }
+    ]
+   }
+  }
+ },
+ "b1-weil": {
+  "de": "weil",
+  "lv": "sest • kuna",
+  "level": "B1",
+  "study": {
+   "id": "b1-weil",
+   "layout": "standardStudy",
+   "translation": "sest • kuna",
+   "explanation": [
+    "Peamine mõte: kõige sagedamini kasutatav põhjussidesõna. Pärast weil on tegusõna lause lõpus.",
+    "weil tähendab peamiselt: selgitab põhjust.",
+    "Sageli iseloomustab: kõige sagedasem variant.",
+    "weil selgitab põhjust ja on kõige sagedasem variant."
+   ],
+   "examples": [
+    {
+     "de": "Ich bleibe zu Hause, weil ich krank bin.",
+     "lv": "Ma jään koju, sest olen haige."
+    },
+    {
+     "de": "Ich bleibe zu Hause, weil ich krank bin.",
+     "lv": "ma jään koju, sest olen haige."
+    },
+    {
+     "de": "Ich lerne Deutsch, weil ich in Deutschland arbeite.",
+     "lv": "ma õpin saksa keelt, sest töötan Saksamaal."
+    },
+    {
+     "de": "Er kommt nicht, weil er müde ist.",
+     "lv": "ta ei tule, sest on väsinud."
+    },
+    {
+     "de": "Ich bleibe, weil ich krank bin.",
+     "lv": "ma jään, sest olen haige."
+    }
+   ],
+   "tip": [
+    "Kõige sagedamini kasutatav põhjussidesõna. Pärast weil on tegusõna lause lõpus.",
+    "Kasuta weil, kui kontekst vastab sellele tähendusele."
+   ],
+   "important": [
+    "weil ich bin krank — vale; õige: weil ich krank bin.",
+    "Vale: weil ich bin krank → Õige: weil ich krank bin",
+    "weil = kõige sagedasem põhjussidesõna."
+   ],
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "weil"
+     ],
+     "purple": [
+      "sest",
+      "kuna"
+     ]
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "weil",
+        "weil"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "sest",
+        "kuna"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "weil",
+        "weil"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "sest",
+        "kuna"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "weil",
+        "weil"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "sest",
+        "kuna"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "weil",
+        "weil"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "sest",
+        "kuna"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "weil",
+        "weil"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "sest",
+        "kuna"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "weil",
+        "weil"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "sest",
+        "kuna"
+       ]
+      }
+     }
+    ],
+    "tip": [
+     {
+      "purple": [
+       "sest"
+      ]
+     },
+     {
+      "purple": [
+       "kuna"
+      ]
+     }
+    ],
+    "important": [
+     {
+      "blue": [
+       "weil"
+      ]
+     }
+    ]
+   }
+  }
  }
 }

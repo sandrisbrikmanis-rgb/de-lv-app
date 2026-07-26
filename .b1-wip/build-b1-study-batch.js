@@ -68,6 +68,9 @@ function buildStudy(origStudy, trans) {
     if (Array.isArray(origStudy.important)) {
       if (!Array.isArray(trans.important) || trans.important.length !== origStudy.important.length) throw new Error(origStudy.id + ": important array length mismatch");
       out.important = trans.important;
+    } else if (typeof origStudy.important.text === "string" && origStudy.important.example !== undefined) {
+      if (typeof trans.important !== "object" || trans.important === null) throw new Error(origStudy.id + ": expected important {text, example} object");
+      out.important = { text: trans.important.text, example: trans.important.example };
     } else if (typeof origStudy.important.text === "string") {
       out.important = { text: trans.important };
     } else if (typeof origStudy.important === "string") {
@@ -94,8 +97,10 @@ function buildStudy(origStudy, trans) {
             });
           } else {
             if (colorKeys.length !== 1) throw new Error(origStudy.id + ": examples[" + i + "] has multiple lv colors but no .colors map provided");
-            if (!tex.purple) throw new Error(origStudy.id + ": missing examples[" + i + "].purple translation");
-            exAcc.lv[colorKeys[0]] = tex.purple;
+            const ck = colorKeys[0];
+            const val = tex[ck] !== undefined ? tex[ck] : tex.purple;
+            if (val === undefined) throw new Error(origStudy.id + ": missing examples[" + i + "]." + ck + " translation");
+            exAcc.lv[ck] = val;
           }
         }
       });
@@ -108,7 +113,15 @@ function buildStudy(origStudy, trans) {
           const colorKey = Object.keys(cAcc.meaning)[0];
           const tc = trans.comparison[i];
           if (!tc) throw new Error(origStudy.id + ": missing comparison[" + i + "] translation for accents");
-          cAcc.meaning[colorKey] = [tc.meaning];
+          const orig = cAcc.meaning[colorKey];
+          if (Array.isArray(orig)) {
+            if (!Array.isArray(tc.meaningAccent) || tc.meaningAccent.length !== orig.length) {
+              throw new Error(origStudy.id + ": comparison[" + i + "] meaningAccent array length mismatch");
+            }
+            cAcc.meaning[colorKey] = tc.meaningAccent;
+          } else {
+            cAcc.meaning[colorKey] = Array.isArray(tc.meaningAccent) ? tc.meaningAccent[0] : (tc.meaningAccent || tc.meaning);
+          }
         }
       });
     }
@@ -118,6 +131,11 @@ function buildStudy(origStudy, trans) {
       }
     }
     out.sectionAccents = sa;
+  }
+
+  if (origStudy.accents) {
+    if (!trans.topAccents) throw new Error(origStudy.id + ": missing topAccents override for top-level accents field");
+    out.accents = trans.topAccents;
   }
 
   return out;
