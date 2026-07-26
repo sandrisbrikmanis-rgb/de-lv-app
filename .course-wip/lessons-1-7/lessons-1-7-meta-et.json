@@ -1,0 +1,9 @@
+{
+ "lesson1": { "title": "1. õppetund", "subtitle": "Tegusõnad olevikus, sõnad, grammatika ja tõlkimine" },
+ "lesson2": { "title": "2. õppetund", "subtitle": "Dialoogid, sõnad, hääldus, grammatika ja tõlkimine" },
+ "lesson3": { "title": "3. õppetund", "subtitle": "Artiklid, kohasõnad ja tõlkimine" },
+ "lesson4": { "title": "4. õppetund", "subtitle": "Klassiruumi esemed, omadused ja tõlkimine" },
+ "lesson5": { "title": "5. õppetund", "subtitle": "Wen?, akusatiiv, sitzen, fragen ja -in lõpp." },
+ "lesson6": { "title": "6. õppetund", "subtitle": "Tegusõnad, kohamäärsõnad ja tõlkimine" },
+ "lesson7": { "title": "7. õppetund", "subtitle": "Käskiv kõneviis, viisakusvorm ja mitmus." }
+}
