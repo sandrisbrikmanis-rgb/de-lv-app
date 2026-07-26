@@ -16901,5 +16901,3595 @@
     }
    }
   }
+ },
+ "b1-enthalten": {
+  "de": "enthalten",
+  "lv": "sisaldama",
+  "level": "B1",
+  "study": {
+   "id": "b1-enthalten",
+   "layout": "standardStudy",
+   "translation": "sisaldama",
+   "explanation": "Põhiidee: enthalten tähendab sisaldamist või millegi hõlmamist tervikuna. Seda kasutatakse koostisosade, hindade, tekstide, nimekirjade ja komplektide kohta.",
+   "examples": [
+    {
+     "de": "Das Getränk enthält viel Zucker.",
+     "lv": "jook sisaldab palju suhkrut."
+    },
+    {
+     "de": "Der Preis enthält das Frühstück.",
+     "lv": "hind sisaldab hommikusööki."
+    },
+    {
+     "de": "Der Bericht enthält wichtige Informationen.",
+     "lv": "aruanne sisaldab olulist infot."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "enthalten",
+     "meaning": "sisaldama",
+     "example": "Das Paket enthält Bücher. = Pakis sisaldab raamatuid."
+    },
+    {
+     "word": "beinhalten",
+     "meaning": "sisaldama",
+     "example": "Der Text beinhaltet Beispiele. = Tekst sisaldab näiteid."
+    },
+    {
+     "word": "halten",
+     "meaning": "hoidma",
+     "example": "Ich halte die Tasche. = Ma hoian kotti."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Kui mõte on „see on sees või kaasatud”, sobib saksa keeles sageli enthalten."
+     }
+    ]
+   },
+   "important": {
+    "text": "enthalten ei ole halten. halten = hoidma; enthalten = sisaldama."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "enthält"
+       ],
+       "yellow": [
+        "Getränk",
+        "Zucker"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "sisaldab"
+       ],
+       "yellow": [
+        "Jook",
+        "suhkrut"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "enthält"
+       ],
+       "yellow": [
+        "Preis",
+        "Frühstück"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "sisaldab"
+       ],
+       "yellow": [
+        "Hind",
+        "hommikusööki"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "enthält"
+       ],
+       "yellow": [
+        "Bericht",
+        "Informationen"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "sisaldab"
+       ],
+       "yellow": [
+        "Aruanne",
+        "infot"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "enthalten"
+     ],
+     "purple": [
+      "sisaldamist",
+      "hõlmamist"
+     ],
+     "yellow": [
+      "koostisosade",
+      "hindade",
+      "tekstide",
+      "nimekirjade",
+      "komplektide"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "enthalten"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "sisaldama"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "beinhalten"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "sisaldama"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "halten"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "hoidma"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "sees",
+      "kaasatud"
+     ]
+    },
+    "important": {
+     "purple": [
+      "hoidma",
+      "sisaldama"
+     ]
+    }
+   }
+  }
+ },
+ "b1-entkommen": {
+  "de": "entkommen",
+  "lv": "pääsema",
+  "level": "B1",
+  "study": {
+   "id": "b1-entkommen",
+   "layout": "standardStudy",
+   "translation": "pääsema",
+   "explanation": "Põhiidee: entkommen tähendab edukalt pääsemist või vabanemist ohust, kontrollist või halvast olukorrast. See esineb sageli daativiga: der Polizei, dem Feuer, der Gefahr.",
+   "examples": [
+    {
+     "de": "Der Gefangene ist aus dem Gefängnis entkommen.",
+     "lv": "vang pääses vanglast."
+    },
+    {
+     "de": "Sie entkam der Polizei in der Nacht.",
+     "lv": "ta pääses öösel politsei eest."
+    },
+    {
+     "de": "Die Familie entkam dem Feuer nur knapp.",
+     "lv": "perekond pääses vaevu tulekahjust."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "entkommen",
+     "meaning": "pääsema",
+     "example": "Er ist der Gefahr entkommen. = Ta pääses ohust."
+    },
+    {
+     "word": "fliehen",
+     "meaning": "põgenema",
+     "example": "Viele Menschen fliehen aus der Stadt. = Paljud inimesed põgenevad linnast."
+    },
+    {
+     "word": "sich retten",
+     "meaning": "end päästma",
+     "example": "Sie rettet sich aus dem Haus. = Ta pääseb majast välja."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "entkommen vastab küsimusele „millest õnnestus pääseda?” - sageli daativiga."
+     }
+    ]
+   },
+   "important": {
+    "text": "entkommen rõhutab edukat tulemust; fliehen kirjeldab põgenemist ennast."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "entkommen"
+       ],
+       "green": [
+        "Gefangene"
+       ],
+       "yellow": [
+        "Gefängnis"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "pääses"
+       ],
+       "green": [
+        "Vang"
+       ],
+       "yellow": [
+        "vanglast"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "entkam"
+       ],
+       "green": [
+        "Polizei"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "pääses"
+       ],
+       "green": [
+        "politsei"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "entkam"
+       ],
+       "yellow": [
+        "Feuer"
+       ],
+       "green": [
+        "Familie"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "pääses"
+       ],
+       "yellow": [
+        "tulekahjust"
+       ],
+       "green": [
+        "Perekond"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "entkommen"
+     ],
+     "purple": [
+      "pääsema"
+     ],
+     "red": [
+      "daativiga"
+     ],
+     "green": [
+      "der Polizei"
+     ],
+     "yellow": [
+      "dem Feuer",
+      "der Gefahr"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "entkommen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "pääsema"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "fliehen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "põgenema"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "sich retten"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "end päästma"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "õnnestus pääseda"
+     ]
+    },
+    "important": {
+     "purple": [
+      "edukat tulemust",
+      "põgenemist"
+     ]
+    }
+   }
+  }
+ },
+ "b1-entlassen": {
+  "de": "entlassen",
+  "lv": "vallandama",
+  "level": "B1",
+  "study": {
+   "id": "b1-entlassen",
+   "layout": "standardStudy",
+   "translation": "vallandama",
+   "explanation": "Põhiidee: entlassen tähendab töölt vallandamist või asutusest vabastamist. Eesti keeles tõlge muutub koha järgi: firma vallandab, haigla kirjutab välja, vangla vabastab.",
+   "examples": [
+    {
+     "de": "Die Firma entlässt viele Mitarbeiter.",
+     "lv": "ettevõte vallandab palju töötajaid."
+    },
+    {
+     "de": "Der Patient wurde aus dem Krankenhaus entlassen.",
+     "lv": "patsient kirjutati haiglast välja."
+    },
+    {
+     "de": "Der Gefangene wurde aus dem Gefängnis entlassen.",
+     "lv": "vang vabastati vanglast."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "entlassen",
+     "meaning": "vallandama / välja kirjutama / vabastama",
+     "example": "Sie wurde entlassen. = Ta vallandati."
+    },
+    {
+     "word": "kündigen",
+     "meaning": "üles ütlema tööd või lepingut",
+     "example": "Er kündigt den Vertrag. = Ta ütleb lepingu üles."
+    },
+    {
+     "word": "freilassen",
+     "meaning": "vabaks laskma",
+     "example": "Die Polizei lässt ihn frei. = Politsei laseb ta vabaks."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Firma entlässt, Krankenhaus entlässt, Gefängnis entlässt - eesti keeles vali vastavalt kohale."
+     }
+    ]
+   },
+   "important": {
+    "text": "Haiglast entlassen on eesti keeles tavaliselt „välja kirjutama”, mitte „vallandama”."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "entlässt"
+       ],
+       "green": [
+        "Mitarbeiter"
+       ],
+       "yellow": [
+        "Firma"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "vallandab"
+       ],
+       "green": [
+        "töötajaid"
+       ],
+       "yellow": [
+        "Ettevõte"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "entlassen"
+       ],
+       "green": [
+        "Patient"
+       ],
+       "yellow": [
+        "Krankenhaus"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kirjutati välja"
+       ],
+       "green": [
+        "Patsient"
+       ],
+       "yellow": [
+        "haiglast"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "entlassen"
+       ],
+       "green": [
+        "Gefangene"
+       ],
+       "yellow": [
+        "Gefängnis"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "vabastati"
+       ],
+       "green": [
+        "Vang"
+       ],
+       "yellow": [
+        "vanglast"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "entlassen"
+     ],
+     "purple": [
+      "vallandama",
+      "vabastama",
+      "vallandab",
+      "kirjutab välja",
+      "vabastab"
+     ],
+     "yellow": [
+      "firma",
+      "haigla",
+      "vangla"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "entlassen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "vallandama / välja kirjutama / vabastama"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "kündigen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "üles ütlema tööd või lepingut"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "freilassen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "vabaks laskma"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "vali vastavalt kohale"
+     ]
+    },
+    "important": {
+     "purple": [
+      "vallandama"
+     ]
+    }
+   }
+  }
+ },
+ "b1-entsprechen": {
+  "de": "entsprechen",
+  "lv": "vastama",
+  "level": "B1",
+  "study": {
+   "id": "b1-entsprechen",
+   "layout": "standardStudy",
+   "translation": "vastama",
+   "explanation": "Põhiidee: entsprechen tähendab nõuetele, reeglitele, plaanile või ootustele vastamist. Saksa keeles nõuab see daativi: dem Plan, den Regeln, unseren Erwartungen.",
+   "examples": [
+    {
+     "de": "Das entspricht den Regeln.",
+     "lv": "see vastab reeglitele."
+    },
+    {
+     "de": "Die Wohnung entspricht unseren Erwartungen.",
+     "lv": "korter vastab meie ootustele."
+    },
+    {
+     "de": "Das Ergebnis entspricht nicht der Wahrheit.",
+     "lv": "tulemus ei vasta tõele."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "entsprechen",
+     "meaning": "vastama",
+     "example": "Das entspricht dem Plan. = See vastab plaanile."
+    },
+    {
+     "word": "passen",
+     "meaning": "sobima",
+     "example": "Der Schlüssel passt nicht. = Võti ei sobi."
+    },
+    {
+     "word": "antworten",
+     "meaning": "vastama (küsimusele)",
+     "example": "Sie antwortet auf die Frage. = Ta vastab küsimusele."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "entsprechen küsib alati „millele vastab?” - saksa keeles on vastus daativis."
+     }
+    ]
+   },
+   "important": {
+    "text": "Ära aja segi entsprechen sõnaga antworten: entsprechen = vastama (millelegi), antworten = vastama (küsimusele)."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "entspricht"
+       ],
+       "yellow": [
+        "Regeln"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "vastab"
+       ],
+       "yellow": [
+        "reeglitele"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "entspricht"
+       ],
+       "yellow": [
+        "Erwartungen"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "vastab"
+       ],
+       "yellow": [
+        "ootustele"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "entspricht"
+       ],
+       "yellow": [
+        "Wahrheit"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "ei vasta"
+       ],
+       "yellow": [
+        "tõele"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "entsprechen"
+     ],
+     "red": [
+      "daativit",
+      "dem Plan",
+      "den Regeln",
+      "unseren Erwartungen"
+     ],
+     "yellow": [
+      "nõuetele",
+      "reeglitele",
+      "plaanile",
+      "ootustele"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "entsprechen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "vastama"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "passen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "sobima"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "antworten"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "vastama (küsimusele)"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "millele vastab"
+     ]
+    },
+    "important": {
+     "purple": [
+      "vastama (millelegi)",
+      "vastama (küsimusele)"
+     ]
+    }
+   }
+  }
+ },
+ "b1-entstehen": {
+  "de": "entstehen",
+  "lv": "tekkima",
+  "level": "B1",
+  "study": {
+   "id": "b1-entstehen",
+   "layout": "standardStudy",
+   "translation": "tekkima",
+   "explanation": "Põhiidee: entstehen tähendab tekkimist protsessi tulemusena. Sõna tavaliselt ei rõhuta tegijat, vaid tekkimist ennast: probleem tekib, kulud tekivad, hoone valmib.",
+   "examples": [
+    {
+     "de": "Hier entsteht ein neues Gebäude.",
+     "lv": "siia valmib uus hoone."
+    },
+    {
+     "de": "Durch den Fehler sind hohe Kosten entstanden.",
+     "lv": "vea tõttu tekkisid suured kulud."
+    },
+    {
+     "de": "Aus dem Streit entstand ein Problem.",
+     "lv": "tülist tekkis probleem."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "entstehen",
+     "meaning": "tekkima",
+     "example": "Ein Problem entsteht. = Tekib probleem."
+    },
+    {
+     "word": "schaffen",
+     "meaning": "looma teadlikult",
+     "example": "Sie schafft neue Arbeitsplätze. = Ta loob uusi töökohti."
+    },
+    {
+     "word": "passieren",
+     "meaning": "juhtuma",
+     "example": "Was ist passiert? = Mis juhtus?"
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Kui peamine on tulemus, mis kujuneb protsessi käigus, kasuta entstehen."
+     }
+    ]
+   },
+   "important": {
+    "text": "entstehen ei ütle, et keegi loob midagi teadlikult; selleks sobib pigem schaffen."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "entsteht"
+       ],
+       "yellow": [
+        "Gebäude"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "valmib"
+       ],
+       "yellow": [
+        "hoone"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "entstanden"
+       ],
+       "red": [
+        "Fehler"
+       ],
+       "yellow": [
+        "Kosten"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "tekkisid"
+       ],
+       "red": [
+        "Vea tõttu"
+       ],
+       "yellow": [
+        "kulud"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "entstand"
+       ],
+       "red": [
+        "Streit"
+       ],
+       "yellow": [
+        "Problem"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "tekkis"
+       ],
+       "red": [
+        "tülist"
+       ],
+       "yellow": [
+        "probleem"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "entstehen"
+     ],
+     "purple": [
+      "tekkima",
+      "valmib"
+     ],
+     "yellow": [
+      "probleem",
+      "kulud",
+      "hoone"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "entstehen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "tekkima"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "schaffen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "looma teadlikult"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "passieren"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "juhtuma"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "kujuneb protsessi käigus"
+     ]
+    },
+    "important": {
+     "purple": [
+      "loob teadlikult"
+     ]
+    }
+   }
+  }
+ },
+ "b1-erhalten": {
+  "de": "erhalten",
+  "lv": "saama",
+  "level": "B1",
+  "study": {
+   "id": "b1-erhalten",
+   "layout": "standardStudy",
+   "translation": "saama",
+   "explanation": "Põhiidee: erhalten tähendab enamasti formaalselt kirja, sõnumi, raha või dokumendi saamist. Teine sage tähendus on millegi säilitamine või heas seisukorras hoidmine.",
+   "examples": [
+    {
+     "de": "Ich habe Ihre Nachricht erhalten.",
+     "lv": "ma sain teie sõnumi."
+    },
+    {
+     "de": "Sie erhält jeden Monat Unterstützung.",
+     "lv": "ta saab iga kuu toetust."
+    },
+    {
+     "de": "Wir müssen das alte Gebäude erhalten.",
+     "lv": "me peame säilitama vana hoone."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "erhalten",
+     "meaning": "saama / säilitama",
+     "example": "Ich erhalte einen Brief. = Ma saan kirja."
+    },
+    {
+     "word": "bekommen",
+     "meaning": "igapäevaselt saama",
+     "example": "Ich bekomme Hilfe. = Ma saan abi."
+    },
+    {
+     "word": "bewahren",
+     "meaning": "säilitama",
+     "example": "Wir bewahren die Tradition. = Me säilitame traditsiooni."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Dokumenti erhalten = saama; hoonet või traditsiooni erhalten = säilitama."
+     }
+    ]
+   },
+   "important": {
+    "text": "erhalten kui „saama” kõlab formaalsemalt kui bekommen; igapäevakõnes piisab sageli sõnast bekommen."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "erhalten"
+       ],
+       "yellow": [
+        "Nachricht"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "sain"
+       ],
+       "yellow": [
+        "sõnumi"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "erhält"
+       ],
+       "yellow": [
+        "Unterstützung"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "saab"
+       ],
+       "yellow": [
+        "toetust"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "erhalten"
+       ],
+       "yellow": [
+        "Gebäude"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "peame säilitama"
+       ],
+       "yellow": [
+        "hoone"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "erhalten"
+     ],
+     "purple": [
+      "saama",
+      "säilitama",
+      "hoidma"
+     ],
+     "yellow": [
+      "kirja",
+      "sõnumit",
+      "raha",
+      "dokumenti"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "erhalten"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "saama / säilitama"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "bekommen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "igapäevaselt saama"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "bewahren"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "säilitama"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "saama",
+      "säilitama"
+     ]
+    },
+    "important": {
+     "purple": [
+      "formaalsemalt",
+      "igapäevakõnes"
+     ]
+    }
+   }
+  }
+ },
+ "b1-eröffnen": {
+  "de": "eröffnen",
+  "lv": "avama",
+  "level": "B1",
+  "study": {
+   "id": "b1-eröffnen",
+   "layout": "standardStudy",
+   "translation": "avama",
+   "explanation": "Põhiidee: eröffnen tähendab ametlikult avamist, väljakuulutamist või millegi avaliku/formaalse alustamist: kontot, poodi, näitust, istungit.",
+   "examples": [
+    {
+     "de": "Die Bank eröffnet ein neues Konto.",
+     "lv": "pank avab uue konto."
+    },
+    {
+     "de": "Der Bürgermeister eröffnet die Ausstellung.",
+     "lv": "linnapea avab näituse."
+    },
+    {
+     "de": "Die Sitzung wird um neun Uhr eröffnet.",
+     "lv": "istung avatakse kell üheksa."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "eröffnen",
+     "meaning": "ametlikult avama",
+     "example": "Sie eröffnet ein Konto. = Ta avab konto."
+    },
+    {
+     "word": "öffnen",
+     "meaning": "füüsiliselt avama",
+     "example": "Ich öffne die Tür. = Ma avan ukse."
+    },
+    {
+     "word": "beginnen",
+     "meaning": "alustama",
+     "example": "Wir beginnen die Sitzung. = Me alustame istungit."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Kontot, näitust või istungit eröffnet man; ust öffnet man."
+     }
+    ]
+   },
+   "important": {
+    "text": "eröffnen on tavaliselt ametlik algus või avamine, mitte lihtsalt ukse avamine."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "eröffnet"
+       ],
+       "yellow": [
+        "Konto"
+       ],
+       "green": [
+        "Bank"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "avab"
+       ],
+       "yellow": [
+        "konto"
+       ],
+       "green": [
+        "Pank"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "eröffnet"
+       ],
+       "yellow": [
+        "Ausstellung"
+       ],
+       "green": [
+        "Bürgermeister"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "avab"
+       ],
+       "yellow": [
+        "näituse"
+       ],
+       "green": [
+        "Linnapea"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "eröffnet"
+       ],
+       "yellow": [
+        "Sitzung"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "avatakse"
+       ],
+       "yellow": [
+        "Istung"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "eröffnen"
+     ],
+     "purple": [
+      "avama",
+      "alustama"
+     ],
+     "yellow": [
+      "kontot",
+      "poodi",
+      "näitust",
+      "istungit"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "eröffnen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "ametlikult avama"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "öffnen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "füüsiliselt avama"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "beginnen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "alustama"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "kontot",
+      "näitust",
+      "istungit",
+      "ust"
+     ]
+    },
+    "important": {
+     "purple": [
+      "ametlik algus",
+      "avamine"
+     ]
+    }
+   }
+  }
+ },
+ "b1-erscheinen": {
+  "de": "erscheinen",
+  "lv": "ilmuma",
+  "level": "B1",
+  "study": {
+   "id": "b1-erscheinen",
+   "layout": "standardStudy",
+   "translation": "ilmuma",
+   "explanation": "Põhiidee: erscheinen tähendab ilmumist, saabumist või avaldatuna välja tulemist. Tähenduse määrab subjekt: inimene ilmub või saabub, raamat/artikkel ilmub trükis.",
+   "examples": [
+    {
+     "de": "Er erschien plötzlich im Zimmer.",
+     "lv": "ta ilmus äkki tuppa."
+    },
+    {
+     "de": "Das Buch erscheint im Herbst.",
+     "lv": "raamat ilmub sügisel."
+    },
+    {
+     "de": "Sie erschien nicht zum Termin.",
+     "lv": "ta ei ilmunud kohtumisele."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "erscheinen",
+     "meaning": "ilmuma / kohale tulema",
+     "example": "Der Artikel erscheint morgen. = Artikkel ilmub homme."
+    },
+    {
+     "word": "auftauchen",
+     "meaning": "esile kerkima",
+     "example": "Er taucht plötzlich auf. = Ta kerkib äkki esile."
+    },
+    {
+     "word": "ankommen",
+     "meaning": "kohale saabuma",
+     "example": "Der Zug kommt an. = Rong saabub."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Väljaanne erscheint = ilmub; inimene zum Termin erscheint = ilmub kohale."
+     }
+    ]
+   },
+   "important": {
+    "text": "erscheinen ei ole ainult füüsiline ilmumine; raamatute ja artiklite puhul tähendab see „ilmuma trükis”."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "erschien"
+       ],
+       "green": [
+        "Zimmer"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "ilmus"
+       ],
+       "green": [
+        "tuppa"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "erscheint"
+       ],
+       "yellow": [
+        "Buch"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "ilmub"
+       ],
+       "yellow": [
+        "Raamat"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "erschien"
+       ],
+       "yellow": [
+        "Termin"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "ei ilmunud"
+       ],
+       "yellow": [
+        "kohtumisele"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "erscheinen"
+     ],
+     "purple": [
+      "ilmuma",
+      "kohale tulema"
+     ],
+     "yellow": [
+      "raamat",
+      "artikkel"
+     ],
+     "green": [
+      "inimene"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "erscheinen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "ilmuma / kohale tulema"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "auftauchen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "esile kerkima"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "ankommen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "kohale saabuma"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "ilmub",
+      "ilmub kohale"
+     ]
+    },
+    "important": {
+     "purple": [
+      "ilmuma trükis"
+     ]
+    }
+   }
+  }
+ },
+ "b1-ersetzen": {
+  "de": "ersetzen",
+  "lv": "asendama",
+  "level": "B1",
+  "study": {
+   "id": "b1-ersetzen",
+   "layout": "standardStudy",
+   "translation": "asendama",
+   "explanation": "Põhiidee: ersetzen tähendab ühe asja, inimese või lahenduse asendamist teisega. Kahjukontekstis tähendab Schaden ersetzen kahju hüvitamist.",
+   "examples": [
+    {
+     "de": "Wir müssen das alte Gerät ersetzen.",
+     "lv": "me peame asendama vana seadme."
+    },
+    {
+     "de": "Die Maschine ersetzt mehrere Arbeiter.",
+     "lv": "masin asendab mitmeid töötajaid."
+    },
+    {
+     "de": "Die Versicherung ersetzt den Schaden.",
+     "lv": "kindlustus hüvitab kahju."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "ersetzen",
+     "meaning": "asendama / hüvitama",
+     "example": "Das ersetzt die alte Lösung. = See asendab vana lahenduse."
+    },
+    {
+     "word": "austauschen",
+     "meaning": "vahetama",
+     "example": "Wir tauschen das Teil aus. = Me vahetame osa."
+    },
+    {
+     "word": "entschädigen",
+     "meaning": "kompenseerima",
+     "example": "Die Firma entschädigt den Kunden. = Firma kompenseerib kliendile."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Kui miski asub teise asja asemele, kasuta ersetzen."
+     }
+    ]
+   },
+   "important": {
+    "text": "Schaden ersetzen tähendab kahju hüvitamist, mitte „kahjustuse asendamist”."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "ersetzen"
+       ],
+       "yellow": [
+        "Gerät"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "peame asendama"
+       ],
+       "yellow": [
+        "seadme"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "ersetzt"
+       ],
+       "yellow": [
+        "Maschine"
+       ],
+       "green": [
+        "Arbeiter"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "asendab"
+       ],
+       "yellow": [
+        "Masin"
+       ],
+       "green": [
+        "töötajaid"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "ersetzt"
+       ],
+       "yellow": [
+        "Schaden"
+       ],
+       "green": [
+        "Versicherung"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "hüvitab"
+       ],
+       "yellow": [
+        "kahju"
+       ],
+       "green": [
+        "Kindlustus"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "ersetzen"
+     ],
+     "purple": [
+      "asendama",
+      "hüvitama"
+     ],
+     "yellow": [
+      "asja",
+      "lahendust",
+      "Schaden"
+     ],
+     "green": [
+      "inimest"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "ersetzen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "asendama / hüvitama"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "austauschen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "vahetama"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "entschädigen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "kompenseerima"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "asub teise asja asemele"
+     ]
+    },
+    "important": {
+     "purple": [
+      "kahjustuse asendamist"
+     ]
+    }
+   }
+  }
+ },
+ "b1-fassen": {
+  "de": "fassen",
+  "lv": "haarama",
+  "level": "B1",
+  "study": {
+   "id": "b1-fassen",
+   "layout": "standardStudy",
+   "translation": "haarama",
+   "explanation": "Põhiidee: fassen tähendab füüsiliselt haaramist või mõistusega hoomamist. Ruumide ja arvude puhul tähendab see kindla arvu inimeste või asjade mahutamist.",
+   "examples": [
+    {
+     "de": "Sie fasst mich am Arm.",
+     "lv": "ta haarab mind käest."
+    },
+    {
+     "de": "Ich kann diesen Gedanken nicht fassen.",
+     "lv": "ma ei suuda seda mõtet hoomata."
+    },
+    {
+     "de": "Der Saal fasst 200 Personen.",
+     "lv": "saal mahutab 200 inimest."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "fassen",
+     "meaning": "haarama / hoomama / mahutama",
+     "example": "Ich kann es nicht fassen. = Ma ei suuda seda hoomata."
+    },
+    {
+     "word": "greifen",
+     "meaning": "käega haarama",
+     "example": "Er greift nach der Tasche. = Ta sirutub koti järele."
+    },
+    {
+     "word": "verstehen",
+     "meaning": "mõistma",
+     "example": "Ich verstehe dich. = Ma saan sinust aru."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Käega fassen = haarama; mõistusega fassen = hoomama; Saal fasst = mahutab."
+     }
+    ]
+   },
+   "important": {
+    "text": "fassen sõltub objektist: kätt haaratakse, mõtet hoomatakse, inimesi mahutatakse."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "fasst"
+       ],
+       "yellow": [
+        "Arm"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "haarab"
+       ],
+       "yellow": [
+        "käest"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "fassen"
+       ],
+       "yellow": [
+        "Gedanken"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "hoomata"
+       ],
+       "yellow": [
+        "mõtet"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "fasst"
+       ],
+       "yellow": [
+        "Saal",
+        "Personen"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "mahutab"
+       ],
+       "yellow": [
+        "Saal",
+        "inimest"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "fassen"
+     ],
+     "purple": [
+      "haarama",
+      "hoomama",
+      "mahutama"
+     ],
+     "yellow": [
+      "ruumide",
+      "arvude"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "fassen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "haarama / hoomama / mahutama"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "greifen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "käega haarama"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "verstehen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "mõistma"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "haarama",
+      "hoomama",
+      "mahutab"
+     ]
+    },
+    "important": {
+     "purple": [
+      "haaratakse",
+      "hoomatakse",
+      "mahutatakse"
+     ]
+    }
+   }
+  }
+ },
+ "b1-faul": {
+  "de": "faul",
+  "lv": "laisk",
+  "level": "B1",
+  "study": {
+   "id": "b1-faul",
+   "layout": "standardStudy",
+   "translation": "laisk",
+   "explanation": "Põhiidee: faul inimese kohta tähendab laisk. Puuviljade, toidu või materjali kohta tähendab see mäda või rikutud.",
+   "examples": [
+    {
+     "de": "Er ist heute sehr faul.",
+     "lv": "ta on täna väga laisk."
+    },
+    {
+     "de": "Die Äpfel sind faul.",
+     "lv": "õunad on mädad."
+    },
+    {
+     "de": "Sei nicht so faul und hilf mir bitte.",
+     "lv": "ära ole nii laisk ja palun aita mind."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "faul",
+     "meaning": "laisk / mäda",
+     "example": "Er ist faul. = Ta on laisk."
+    },
+    {
+     "word": "träge",
+     "meaning": "loid / laisavõitu",
+     "example": "Er wirkt heute träge. = Ta tundub täna loid."
+    },
+    {
+     "word": "verdorben",
+     "meaning": "rikutud",
+     "example": "Das Essen ist verdorben. = Toit on rikutud."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Inimene võib olla faul = laisk; toit võib olla faul = mäda."
+     }
+    ]
+   },
+   "important": {
+    "text": "Toidu kohta ei tähenda faul „laisk”; see tähendab mäda või rikutud."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "faul"
+       ],
+       "green": [
+        "Er"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "laisk"
+       ],
+       "green": [
+        "Ta"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "faul"
+       ],
+       "yellow": [
+        "Äpfel"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "mädad"
+       ],
+       "yellow": [
+        "Õunad"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "faul"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "laisk"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "faul"
+     ],
+     "purple": [
+      "laisk",
+      "mäda",
+      "rikutud"
+     ],
+     "green": [
+      "inimese"
+     ],
+     "yellow": [
+      "puuviljade",
+      "toidu",
+      "materjali"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "faul"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "laisk / mäda"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "träge"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "loid / laisavõitu"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "verdorben"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "rikutud"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "laisk",
+      "mäda"
+     ]
+    },
+    "important": {
+     "purple": [
+      "laisk"
+     ]
+    }
+   }
+  }
+ },
+ "b1-festhalten": {
+  "de": "festhalten",
+  "lv": "kõvasti kinni hoidma",
+  "level": "B1",
+  "study": {
+   "id": "b1-festhalten",
+   "layout": "standardStudy",
+   "translation": "kõvasti kinni hoidma",
+   "explanation": "Põhiidee: festhalten tähendab kõvasti kinni hoidmist, et miski ei liiguks ega läheks ära. Ülekantud tähenduses tähendab see info üleskirjutamist või fikseerimist.",
+   "examples": [
+    {
+     "de": "Halte dich gut fest!",
+     "lv": "hoia kõvasti kinni!"
+    },
+    {
+     "de": "Sie hält das Kind fest.",
+     "lv": "ta hoiab last kõvasti kinni."
+    },
+    {
+     "de": "Wir halten die Ergebnisse schriftlich fest.",
+     "lv": "me fikseerime tulemused kirjalikult."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "festhalten",
+     "meaning": "kõvasti kinni hoidma / fikseerima",
+     "example": "Halte das Seil fest. = Hoia köit kõvasti kinni."
+    },
+    {
+     "word": "halten",
+     "meaning": "hoidma",
+     "example": "Ich halte die Tasche. = Ma hoian kotti."
+    },
+    {
+     "word": "feststellen",
+     "meaning": "tuvastama",
+     "example": "Ich stelle einen Fehler fest. = Ma tuvastan vea."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Kätega festhalten = kõvasti kinni hoidma; kirjalikult festhalten = fikseerima."
+     }
+    ]
+   },
+   "important": {
+    "text": "Ära aja segi festhalten sõnaga feststellen: festhalten = hoidma/fikseerima, feststellen = tuvastama."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Halte",
+        "fest"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "hoia kõvasti kinni"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "hält",
+        "fest"
+       ],
+       "green": [
+        "Kind"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "hoiab kinni"
+       ],
+       "green": [
+        "last"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "halten",
+        "fest"
+       ],
+       "yellow": [
+        "Ergebnisse"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "fikseerime"
+       ],
+       "yellow": [
+        "tulemused"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "festhalten"
+     ],
+     "purple": [
+      "kõvasti kinni hoidmist",
+      "üleskirjutamist",
+      "fikseerimist"
+     ],
+     "yellow": [
+      "infot"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "festhalten"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "kõvasti kinni hoidma / fikseerima"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "halten"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "hoidma"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "feststellen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "tuvastama"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "kõvasti kinni hoidma",
+      "fikseerima"
+     ]
+    },
+    "important": {
+     "purple": [
+      "hoidma/fikseerima",
+      "tuvastama"
+     ]
+    }
+   }
+  }
+ },
+ "b1-festlegen": {
+  "de": "festlegen",
+  "lv": "kindlaks määrama",
+  "level": "B1",
+  "study": {
+   "id": "b1-festlegen",
+   "layout": "standardStudy",
+   "translation": "kindlaks määrama",
+   "explanation": "Põhiidee: festlegen tähendab tähtaja, hinna, plaani, korra või reegli varasemat selget kindlaksmääramist. Pärast seda ei ole see enam vabalt avatud küsimus.",
+   "examples": [
+    {
+     "de": "Wir legen den Termin fest.",
+     "lv": "me määrame tähtaja kindlaks."
+    },
+    {
+     "de": "Der Preis wurde vertraglich festgelegt.",
+     "lv": "hind määrati lepingus kindlaks."
+    },
+    {
+     "de": "Die Regeln sind klar festgelegt.",
+     "lv": "reeglid on selgelt kindlaks määratud."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "festlegen",
+     "meaning": "eelnevalt kindlaks määrama",
+     "example": "Wir legen den Plan fest. = Me määrame plaani kindlaks."
+    },
+    {
+     "word": "bestimmen",
+     "meaning": "kindlaks määrama",
+     "example": "Der Arzt bestimmt die Dosis. = Arst määrab annuse kindlaks."
+    },
+    {
+     "word": "feststellen",
+     "meaning": "tuvastama",
+     "example": "Ich stelle einen Fehler fest. = Ma tuvastan vea."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Termin, Preis, Regel festlegen = selgelt ette kindlaks määrama."
+     }
+    ]
+   },
+   "important": {
+    "text": "festlegen = eelnevalt kindlaks määrama; feststellen = juba olemasoleva fakti tuvastamine."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "legen",
+        "fest"
+       ],
+       "yellow": [
+        "Termin"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "määrame kindlaks"
+       ],
+       "yellow": [
+        "tähtaja"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "festgelegt"
+       ],
+       "yellow": [
+        "Preis"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "määrati kindlaks"
+       ],
+       "yellow": [
+        "Hind"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "festgelegt"
+       ],
+       "yellow": [
+        "Regeln"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kindlaks määratud"
+       ],
+       "yellow": [
+        "Reeglid"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "festlegen"
+     ],
+     "purple": [
+      "kindlaks määrama"
+     ],
+     "yellow": [
+      "tähtaja",
+      "hinna",
+      "plaani",
+      "korra",
+      "reegli"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "festlegen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "eelnevalt kindlaks määrama"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "bestimmen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "kindlaks määrama"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "feststellen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "tuvastama"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "ette kindlaks määrama"
+     ]
+    },
+    "important": {
+     "purple": [
+      "olemasoleva fakti"
+     ]
+    }
+   }
+  }
+ },
+ "b1-feststellen": {
+  "de": "feststellen",
+  "lv": "tuvastama",
+  "level": "B1",
+  "study": {
+   "id": "b1-feststellen",
+   "layout": "standardStudy",
+   "translation": "tuvastama",
+   "explanation": "Põhiidee: feststellen tähendab fakti tuvastamist või selgeksmõtlemist pärast kontrolli, tähelepanekut või analüüsi. See ei ole sama, mis tähtaja või hinna eelnev kindlaksmääramine.",
+   "examples": [
+    {
+     "de": "Der Arzt stellt eine Krankheit fest.",
+     "lv": "arst tuvastab haiguse."
+    },
+    {
+     "de": "Wir haben einen Fehler im System festgestellt.",
+     "lv": "me tuvastasime süsteemis vea."
+    },
+    {
+     "de": "Ich stelle fest, dass du recht hast.",
+     "lv": "ma tuvastan, et sul on õigus."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "feststellen",
+     "meaning": "tuvastama / fakti selgitama",
+     "example": "Ich stelle einen Fehler fest. = Ma tuvastan vea."
+    },
+    {
+     "word": "festlegen",
+     "meaning": "eelnevalt kindlaks määrama",
+     "example": "Wir legen den Termin fest. = Me määrame tähtaja kindlaks."
+    },
+    {
+     "word": "bemerken",
+     "meaning": "märkama",
+     "example": "Ich bemerke den Fehler. = Ma märkan viga."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Fakti, viga või haigust stellt man fest; tähtaega või hinda legt man fest."
+     }
+    ]
+   },
+   "important": {
+    "text": "feststellen = tuvastada juba olemasolev fakt; festlegen = kindlaks määrata otsus, tähtaeg või hind."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "stellt",
+        "fest"
+       ],
+       "green": [
+        "Arzt"
+       ],
+       "yellow": [
+        "Krankheit"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "tuvastab"
+       ],
+       "green": [
+        "Arst"
+       ],
+       "yellow": [
+        "haiguse"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "festgestellt"
+       ],
+       "yellow": [
+        "Fehler",
+        "System"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "tuvastasime"
+       ],
+       "yellow": [
+        "vea",
+        "süsteemis"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "stelle",
+        "fest"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "tuvastan"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "feststellen"
+     ],
+     "purple": [
+      "tuvastamist",
+      "selgeksmõtlemist"
+     ],
+     "yellow": [
+      "fakti",
+      "kontrolli",
+      "tähelepaneku",
+      "analüüsi",
+      "tähtaja",
+      "hinna"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "feststellen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "tuvastama / fakti selgitama"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "festlegen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "eelnevalt kindlaks määrama"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "bemerken"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "märkama"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "fakti",
+      "viga",
+      "haigust",
+      "tähtaega",
+      "hinda"
+     ]
+    },
+    "important": {
+     "purple": [
+      "olemasolev fakt",
+      "otsus"
+     ]
+    }
+   }
+  }
+ },
+ "b1-folge": {
+  "de": "Folge",
+  "de_article": "die",
+  "de_plural": "die Folgen",
+  "lv": "tagajärg",
+  "level": "B1",
+  "study": {
+   "id": "b1-folge",
+   "layout": "standardStudy",
+   "translation": "tagajärg",
+   "explanation": "Põhiidee: die Folge tähendab enamasti tagajärge või tulemust, mis tekib mingi sündmuse järel. Meediakontekstis tähendab Folge seriaali, saate või taskuhäälingu osa.",
+   "examples": [
+    {
+     "de": "Das war die Folge des Unfalls.",
+     "lv": "need olid õnnetuse tagajärjed."
+    },
+    {
+     "de": "Die Entscheidung hatte schwere Folgen.",
+     "lv": "otsusel olid rasked tagajärjed."
+    },
+    {
+     "de": "In der nächsten Folge passiert viel.",
+     "lv": "järgmises osas juhtub palju."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "die Folge",
+     "meaning": "tagajärg / osa",
+     "example": "Das hat Folgen. = Sellel on tagajärjed."
+    },
+    {
+     "word": "die Konsequenz",
+     "meaning": "tagajärg / loogiline tulemus",
+     "example": "Das ist die Konsequenz. = Need on tagajärjed."
+    },
+    {
+     "word": "die Episode",
+     "meaning": "episood",
+     "example": "Die Episode ist kurz. = Episood on lühike."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Das hat Folgen = sellel on tagajärjed; nächste Folge = järgmine osa."
+     }
+    ]
+   },
+   "important": {
+    "text": "Folge tähendus muutub konteksti järgi: põhjus-tagajärg tekstis on need tagajärjed, seriaalis on see osa."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Folge"
+       ],
+       "yellow": [
+        "Unfalls"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "tagajärjed"
+       ],
+       "yellow": [
+        "õnnetuse"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Folgen"
+       ],
+       "yellow": [
+        "Entscheidung"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "tagajärjed"
+       ],
+       "yellow": [
+        "Otsusel"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Folge"
+       ],
+       "yellow": [
+        "nächsten"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "osas"
+       ],
+       "yellow": [
+        "Järgmises"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "die Folge",
+      "Folge"
+     ],
+     "purple": [
+      "tagajärge",
+      "tulemust",
+      "osa"
+     ],
+     "yellow": [
+      "sündmuse",
+      "seriaali",
+      "saate",
+      "taskuhäälingu"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "die Folge"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "tagajärg / osa"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "die Konsequenz"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "tagajärg / loogiline tulemus"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "die Episode"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "episood"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "tagajärjed",
+      "osa"
+     ]
+    },
+    "important": {
+     "purple": [
+      "tagajärjed",
+      "osa"
+     ]
+    }
+   }
+  }
+ },
+ "b1-fördern": {
+  "de": "fördern",
+  "lv": "edendama",
+  "level": "B1",
+  "study": {
+   "id": "b1-fördern",
+   "layout": "standardStudy",
+   "translation": "edendama",
+   "explanation": "Põhiidee: fördern tähendab arengu edendamist või inimese, projekti või protsessi toetamist. Tööstuses tähendab see maavarade, näiteks nafta või söe kaevandamist.",
+   "examples": [
+    {
+     "de": "Sport fördert die Gesundheit.",
+     "lv": "sport edendab tervist."
+    },
+    {
+     "de": "Die Schule fördert begabte Kinder.",
+     "lv": "kool toetab andekaid lapsi."
+    },
+    {
+     "de": "In der Region wird Öl gefördert.",
+     "lv": "piirkonnas kaevandatakse naftat."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "fördern",
+     "meaning": "edendama / toetama / kaevandama",
+     "example": "Das fördert die Entwicklung. = See edendab arengut."
+    },
+    {
+     "word": "fordern",
+     "meaning": "nõudma",
+     "example": "Sie fordert mehr Geld. = Ta nõuab rohkem raha."
+    },
+    {
+     "word": "unterstützen",
+     "meaning": "toetama",
+     "example": "Wir unterstützen das Projekt. = Me toetame projekti."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "fördern koos ö-ga edendab; fordern ilma ö-ta nõuab midagi."
+     }
+    ]
+   },
+   "important": {
+    "text": "Ära aja segi fördern ja fordern: üks edendab või toetab, teine nõuab."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "fördert"
+       ],
+       "yellow": [
+        "Sport",
+        "Gesundheit"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "edendab"
+       ],
+       "yellow": [
+        "Sport",
+        "tervist"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "fördert"
+       ],
+       "green": [
+        "Kinder"
+       ],
+       "yellow": [
+        "Schule"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "toetab"
+       ],
+       "green": [
+        "lapsi"
+       ],
+       "yellow": [
+        "Kool"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "gefördert"
+       ],
+       "yellow": [
+        "Öl",
+        "Region"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kaevandatakse"
+       ],
+       "yellow": [
+        "naftat",
+        "Piirkonnas"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "fördern"
+     ],
+     "purple": [
+      "edendama",
+      "toetama",
+      "kaevandama"
+     ],
+     "green": [
+      "inimese"
+     ],
+     "yellow": [
+      "projekti",
+      "protsessi",
+      "naftat",
+      "sütt"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "fördern"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "edendama / toetama / kaevandama"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "fordern"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "nõudma"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "unterstützen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "toetama"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "edendab",
+      "nõuab"
+     ]
+    },
+    "important": {
+     "purple": [
+      "edendab",
+      "toetab",
+      "nõuab"
+     ]
+    }
+   }
+  }
+ },
+ "b1-fortfahren": {
+  "de": "fortfahren",
+  "lv": "jätkama",
+  "level": "B1",
+  "study": {
+   "id": "b1-fortfahren",
+   "layout": "standardStudy",
+   "translation": "jätkama",
+   "explanation": "Põhiidee: fortfahren tähendab alustatud tegevuse jätkamist, eriti formaalsemas keeles. Sõna-sõnalt transpordiga võib see tähendada ka minema sõitmist.",
+   "examples": [
+    {
+     "de": "Bitte fahren Sie fort.",
+     "lv": "palun jätkake."
+    },
+    {
+     "de": "Wir fahren mit der Arbeit fort.",
+     "lv": "me jätkame tööd."
+    },
+    {
+     "de": "Nach dem Streit fuhr er einfach fort.",
+     "lv": "pärast tüli sõitis ta lihtsalt minema."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "fortfahren",
+     "meaning": "jätkama / minema sõitma",
+     "example": "Fahren Sie fort. = Jätkake."
+    },
+    {
+     "word": "weitermachen",
+     "meaning": "jätkama tegemist",
+     "example": "Wir machen morgen weiter. = Me jätkame homme."
+    },
+    {
+     "word": "wegfahren",
+     "meaning": "ära sõitma",
+     "example": "Er fährt weg. = Ta sõidab ära."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Vestluses Fahren Sie fort! = Jätkake!; autoga fortfahren = minema sõitma."
+     }
+    ]
+   },
+   "important": {
+    "text": "fortfahren ei ole ainult sõitmine; formaalses tekstis tähendab see sageli „jätkama”."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "fahren",
+        "fort"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "jätkake"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "fahren",
+        "fort"
+       ],
+       "yellow": [
+        "Arbeit"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "jätkame"
+       ],
+       "yellow": [
+        "tööd"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "fuhr",
+        "fort"
+       ],
+       "yellow": [
+        "Streit"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "sõitis minema"
+       ],
+       "yellow": [
+        "tüli"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "fortfahren"
+     ],
+     "purple": [
+      "jätkama",
+      "minema sõitma"
+     ],
+     "yellow": [
+      "tegevust",
+      "transporti"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "fortfahren"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "jätkama / minema sõitma"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "weitermachen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "jätkama tegemist"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "wegfahren"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "ära sõitma"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "jätkake",
+      "minema sõitma"
+     ]
+    },
+    "important": {
+     "purple": [
+      "jätkama"
+     ]
+    }
+   }
+  }
+ },
+ "b1-fressen": {
+  "de": "fressen",
+  "lv": "õgima",
+  "level": "B1",
+  "study": {
+   "id": "b1-fressen",
+   "layout": "standardStudy",
+   "translation": "õgima",
+   "explanation": "Põhiidee: fressen kasutatakse, kui loom sööb. Inimese kohta kõlab see jämedalt või halvustavalt, umbes nagu „õgima” või „ahmima”.",
+   "examples": [
+    {
+     "de": "Der Hund frisst sein Futter.",
+     "lv": "koer sööb oma sööta."
+    },
+    {
+     "de": "Die Katze frisst Fisch.",
+     "lv": "kass sööb kala."
+    },
+    {
+     "de": "Sag nicht, dass Menschen fressen.",
+     "lv": "ära ütle, et inimesed „õgivad”."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "fressen",
+     "meaning": "sööma (looma kohta) / õgima",
+     "example": "Der Hund frisst. = Koer sööb."
+    },
+    {
+     "word": "essen",
+     "meaning": "sööma (inimese kohta)",
+     "example": "Ich esse Brot. = Ma söön leiba."
+    },
+    {
+     "word": "verschlingen",
+     "meaning": "ahmima",
+     "example": "Er verschlingt das Essen. = Ta ahmib toitu."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Loom frisst, inimene isst. Inimese kohta on fressen teadlikult jäme."
+     }
+    ]
+   },
+   "important": {
+    "text": "Igapäevaselt kasuta inimeste kohta essen, mitte fressen, kui ei taha kõlada jämedalt."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "frisst"
+       ],
+       "green": [
+        "Hund"
+       ],
+       "yellow": [
+        "Futter"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "sööb"
+       ],
+       "green": [
+        "Koer"
+       ],
+       "yellow": [
+        "sööta"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "frisst"
+       ],
+       "green": [
+        "Katze"
+       ],
+       "yellow": [
+        "Fisch"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "sööb"
+       ],
+       "green": [
+        "Kass"
+       ],
+       "yellow": [
+        "kala"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "fressen"
+       ],
+       "green": [
+        "Menschen"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "õgivad"
+       ],
+       "green": [
+        "inimesed"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "fressen"
+     ],
+     "purple": [
+      "sööb",
+      "õgib",
+      "ahmib"
+     ],
+     "green": [
+      "loom",
+      "inimese"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "fressen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "sööma (looma kohta) / õgima"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "essen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "sööma (inimese kohta)"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "verschlingen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "ahmima"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "jäme"
+     ]
+    },
+    "important": {
+     "purple": [
+      "jämedalt"
+     ]
+    }
+   }
+  }
+ },
+ "b1-futter": {
+  "de": "Futter",
+  "de_article": "das",
+  "lv": "sööt",
+  "level": "B1",
+  "study": {
+   "id": "b1-futter",
+   "layout": "standardStudy",
+   "translation": "sööt",
+   "explanation": "Põhiidee: das Futter tähendab tavaliselt loomasööta. Riietuse kontekstis tähendab Futter jope, mantli või koti voodrit.",
+   "examples": [
+    {
+     "de": "Das Futter für den Hund ist leer.",
+     "lv": "koera sööt on otsas."
+    },
+    {
+     "de": "Die Pferde bekommen frisches Futter.",
+     "lv": "hobused saavad värsket sööta."
+    },
+    {
+     "de": "Die Jacke hat ein warmes Futter.",
+     "lv": "jope vooder on soe."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "das Futter",
+     "meaning": "loomasööt / vooder",
+     "example": "Das Futter ist teuer. = Sööt on kallis."
+    },
+    {
+     "word": "das Essen",
+     "meaning": "toit inimestele",
+     "example": "Das Essen ist fertig. = Toit on valmis."
+    },
+    {
+     "word": "die Nahrung",
+     "meaning": "toitumine",
+     "example": "Pflanzen brauchen Nahrung. = Taimed vajavad toitu."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Loomadele antakse Futter; jopel on Futter vooder."
+     }
+    ]
+   },
+   "important": {
+    "text": "Futter ei kasutata tavaliselt inimeste toidu kohta; inimestel on Essen või Nahrung."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Futter"
+       ],
+       "green": [
+        "Hund"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "sööt"
+       ],
+       "green": [
+        "Koera"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Futter"
+       ],
+       "green": [
+        "Pferde"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "sööta"
+       ],
+       "green": [
+        "Hobused"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Futter"
+       ],
+       "yellow": [
+        "Jacke"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "vooder"
+       ],
+       "yellow": [
+        "Jope"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "das Futter",
+      "Futter"
+     ],
+     "purple": [
+      "sööta",
+      "voodrit"
+     ],
+     "green": [
+      "looma"
+     ],
+     "yellow": [
+      "jopel",
+      "mantlil",
+      "kotil"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "das Futter"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "loomasööt / vooder"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "das Essen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "toit inimestele"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "die Nahrung"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "toitumine"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "vooder"
+     ]
+    },
+    "important": {
+     "purple": [
+      "inimeste",
+      "inimestel"
+     ]
+    }
+   }
+  }
+ },
+ "b1-ganztaegig": {
+  "de": "ganztägig",
+  "lv": "kogu päeva kestev • terve päeva pikkune",
+  "level": "B1",
+  "study": {
+   "id": "b1-ganztaegig",
+   "layout": "standardStudy",
+   "translation": "kogu päeva kestev • terve päeva pikkune",
+   "explanation": [
+    "Põhiidee: ganztägig tähendab midagi, mis toimub või kestab kogu päeva.",
+    "ganztägig kirjeldab sündmuse või ürituse kestust (ein ganztägiger Ausflug = ekskursioon, mis kestab kogu päeva).",
+    "Ära aja segi tähendusega '24 tundi/ööpäevaringselt' — see on saksa keeles rund um die Uhr, mitte ganztägig.",
+    "ganztägig on omadussõna; määrsõna vorm ganztags tähendab 'kogu päeva' (ilma omadussõna funktsioonita)."
+   ],
+   "examples": [
+    {
+     "de": "Wir machen einen ganztägigen Ausflug.",
+     "lv": "me läheme ekskursioonile, mis kestab kogu päeva."
+    },
+    {
+     "de": "Das Seminar ist ganztägig.",
+     "lv": "seminar kestab kogu päeva."
+    },
+    {
+     "de": "Sie arbeitet ganztägig.",
+     "lv": "ta töötab kogu päeva."
+    },
+    {
+     "de": "Die Veranstaltung dauert ganztägig.",
+     "lv": "üritus kestab kogu päeva."
+    },
+    {
+     "de": "Ein ganztägiger Kurs beginnt um 9 Uhr.",
+     "lv": "kursus, mis kestab kogu päeva, algab kell 9."
+    },
+    {
+     "de": "Der Laden ist rund um die Uhr geöffnet.",
+     "lv": "pood on avatud ööpäevaringselt (24 tundi)."
+    }
+   ],
+   "tip": [
+    "ganztägig = kogu päeva kestev/terve päeva pikkune — mitte 24 tundi.",
+    "24 tunni/ööpäevaringse tähenduse jaoks kasuta rund um die Uhr, mitte ganztägig."
+   ],
+   "important": [
+    "ganztägig = kogu päeva kestev (üks päev), mitte 24-tunnine töögraafik.",
+    "Valesti: ganztägig = 24 tundi → Õigesti: rund um die Uhr = 24 tundi/ööpäevaringselt."
+   ],
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "ganztägig"
+     ],
+     "purple": [
+      "kogu päeva kestev",
+      "terve päeva pikkune"
+     ],
+     "red": [
+      "rund um die Uhr"
+     ]
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "ganztägigen"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kestab kogu päeva"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "ganztägig"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kogu päeva"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "ganztägig"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kogu päeva"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "ganztägig"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kogu päeva"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "ganztägiger"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kestab kogu päeva"
+       ]
+      }
+     },
+     {
+      "de": {
+       "red": [
+        "rund um die Uhr"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "ööpäevaringselt"
+       ]
+      }
+     }
+    ],
+    "tip": [
+     {
+      "blue": [
+       "kogu päeva kestev"
+      ]
+     },
+     {
+      "red": [
+       "rund um die Uhr"
+      ]
+     }
+    ],
+    "important": [
+     {
+      "purple": [
+       "kogu päeva kestev"
+      ]
+     },
+     {
+      "red": [
+       "rund um die Uhr"
+      ]
+     }
+    ]
+   }
+  }
  }
 }
