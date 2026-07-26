@@ -1,0 +1,428 @@
+{
+ "id": "lesson9",
+ "title": "9. õppetund",
+ "subtitle": "Mitmed esemed, dieser/jener, ainsus ja mitmus",
+ "intro": "Üheksas õppetund: nimisõnade mitmus, näitavad asesõnad dieser/jener, harjutused ja tõlkimine.",
+ "sections": [
+  {
+   "title": "Dialoogid / laused",
+   "items": [
+    "Hier liegen mehrere Hefte.",
+    "Dort liegen mehrere Bleistifte.",
+    "Ich nehme ein Heft.",
+    "Ich öffne das Heft.",
+    "Ich nehme auch einen Bleistift.",
+    "Ich spitze den Bleistift an.",
+    "Ich setze mich und schreibe langsam.",
+    "Ich schreibe schnell.",
+    "Ich schreibe nicht mehr.",
+    "Ich mache das Heft zu.",
+    "Ich lege den Bleistift hin.",
+    "Ich sitze ruhig.",
+    "Dieser Brief ist lang.",
+    "Dieses Buch ist dick.",
+    "Diese Schüssel ist rein.",
+    "Diese Briefe sind lang.",
+    "Jener Brief ist kurz.",
+    "Jenes Buch ist dünn.",
+    "Jene Schüssel ist schmutzig.",
+    "Jene Briefe sind kurz."
+   ]
+  },
+  {
+   "title": "Sõnad",
+   "items": [
+    "mehrere (meerere) — mitu, mitmed",
+    "hier (hiir) — siin",
+    "dort — seal",
+    "auch — ka",
+    "langsam (langzaam) — aeglaselt",
+    "schnell (šnel) — kiiresti",
+    "mehr (meer) — rohkem",
+    "zumachen — sulgema",
+    "ich mache zu — mina sulgen",
+    "sitzen (zitsen) — istuma",
+    "ruhig (ruu-ih) — rahulikult",
+    "dieser (diizer) — see",
+    "jener (jeener) — too",
+    "der Brief (deer briif) — kiri",
+    "die Briefe — kirjad",
+    "kurz (kurts) — lühike",
+    "rein — puhas",
+    "schmutzig (šmutsih) — must (määrdunud)"
+   ]
+  },
+  {
+   "title": "Gramatika",
+   "items": [
+    {
+     "heading": "Näitavad asesõnad",
+     "text": "Näitavaid asesõnu dieser ja jener käänatakse nagu määravat artiklit."
+    },
+    {
+     "heading": "Ainsus",
+     "table": [
+      [
+       "Nominativ",
+       "dieser Bleistift",
+       "jene Feder",
+       "dieses Heft"
+      ],
+      [
+       "Akkusativ",
+       "diesen Bleistift",
+       "jene Feder",
+       "dieses Heft"
+      ]
+     ]
+    },
+    {
+     "heading": "Mitmus",
+     "table": [
+      [
+       "Nominativ",
+       "diese Bleistifte",
+       "jene Federn",
+       "diese Hefte"
+      ],
+      [
+       "Akkusativ",
+       "diese Bleistifte",
+       "jene Federn",
+       "diese Hefte"
+      ]
+     ]
+    },
+    {
+     "heading": "Artiklit ei kasutata",
+     "text": "Kui nimisõna ees on asesõna või arvsõna, artiklit ei kasutata."
+    },
+    {
+     "examples": [
+      "viele Hefte",
+      "mehrere Kinder",
+      "einige Bücher",
+      "alle Federn",
+      "dieser Schüler",
+      "jene Schülerin",
+      "dieses Fenster",
+      "jene Messer"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Übung / Vingrinājums",
+   "type": "grammarTransformCards",
+   "cards": [
+    {
+     "base": "Ich nehme ein Heft.",
+     "forms": [
+      {
+       "label": "1/4 Algne lause",
+       "task": "Muuda see lause ainsuse 3. isikusse.",
+       "text": "Ich nehme ein Heft."
+      },
+      {
+       "label": "2/4 Er vorm",
+       "task": "Muuda algne lause mitmuse 1. isikusse.",
+       "text": "Er nimmt ein Heft."
+      },
+      {
+       "label": "3/4 Wir vorm",
+       "task": "Kasuta nimisõna ainsuse asemel mitmust.",
+       "text": "Wir nehmen ein Heft."
+      },
+      {
+       "label": "4/4 Mitmus",
+       "task": "Valmis. Järgmine klõps näitab uut kaarti.",
+       "text": "Ich nehme Hefte."
+      }
+     ]
+    },
+    {
+     "base": "Ich öffne das Heft.",
+     "forms": [
+      {
+       "label": "1/4 Algne lause",
+       "task": "Muuda see lause ainsuse 3. isikusse.",
+       "text": "Ich öffne das Heft."
+      },
+      {
+       "label": "2/4 Er vorm",
+       "task": "Muuda algne lause mitmuse 1. isikusse.",
+       "text": "Er öffnet das Heft."
+      },
+      {
+       "label": "3/4 Wir vorm",
+       "task": "Kasuta nimisõna ainsuse asemel mitmust.",
+       "text": "Wir öffnen das Heft."
+      },
+      {
+       "label": "4/4 Mitmus",
+       "task": "Valmis. Järgmine klõps näitab uut kaarti.",
+       "text": "Ich öffne die Hefte."
+      }
+     ]
+    },
+    {
+     "base": "Ich nehme auch einen Bleistift.",
+     "forms": [
+      {
+       "label": "1/4 Algne lause",
+       "task": "Muuda see lause ainsuse 3. isikusse.",
+       "text": "Ich nehme auch einen Bleistift."
+      },
+      {
+       "label": "2/4 Er vorm",
+       "task": "Muuda algne lause mitmuse 1. isikusse.",
+       "text": "Er nimmt auch einen Bleistift."
+      },
+      {
+       "label": "3/4 Wir vorm",
+       "task": "Kasuta nimisõna ainsuse asemel mitmust.",
+       "text": "Wir nehmen auch einen Bleistift."
+      },
+      {
+       "label": "4/4 Mitmus",
+       "task": "Valmis. Järgmine klõps näitab uut kaarti.",
+       "text": "Ich nehme auch Bleistifte."
+      }
+     ]
+    },
+    {
+     "base": "Ich spitze den Bleistift an.",
+     "forms": [
+      {
+       "label": "1/4 Algne lause",
+       "task": "Muuda see lause ainsuse 3. isikusse.",
+       "text": "Ich spitze den Bleistift an."
+      },
+      {
+       "label": "2/4 Er vorm",
+       "task": "Muuda algne lause mitmuse 1. isikusse.",
+       "text": "Er spitzt den Bleistift an."
+      },
+      {
+       "label": "3/4 Wir vorm",
+       "task": "Kasuta nimisõna ainsuse asemel mitmust.",
+       "text": "Wir spitzen den Bleistift an."
+      },
+      {
+       "label": "4/4 Mitmus",
+       "task": "Valmis. Järgmine klõps näitab uut kaarti.",
+       "text": "Ich spitze die Bleistifte an."
+      }
+     ]
+    },
+    {
+     "base": "Ich setze mich und schreibe langsam.",
+     "forms": [
+      {
+       "label": "1/4 Algne lause",
+       "task": "Muuda see lause ainsuse 3. isikusse.",
+       "text": "Ich setze mich und schreibe langsam."
+      },
+      {
+       "label": "2/4 Er vorm",
+       "task": "Muuda algne lause mitmuse 1. isikusse.",
+       "text": "Er setzt sich und schreibt langsam."
+      },
+      {
+       "label": "3/4 Wir vorm",
+       "task": "Kasuta nimisõna ainsuse asemel mitmust.",
+       "text": "Wir setzen uns und schreiben langsam."
+      },
+      {
+       "label": "4/4 Mitmus",
+       "task": "Valmis. Järgmine klõps näitab uut kaarti.",
+       "text": "Ich setze mich und schreibe langsam."
+      }
+     ]
+    },
+    {
+     "base": "Ich schreibe schnell.",
+     "forms": [
+      {
+       "label": "1/4 Algne lause",
+       "task": "Muuda see lause ainsuse 3. isikusse.",
+       "text": "Ich schreibe schnell."
+      },
+      {
+       "label": "2/4 Er vorm",
+       "task": "Muuda algne lause mitmuse 1. isikusse.",
+       "text": "Er schreibt schnell."
+      },
+      {
+       "label": "3/4 Wir vorm",
+       "task": "Kasuta nimisõna ainsuse asemel mitmust.",
+       "text": "Wir schreiben schnell."
+      },
+      {
+       "label": "4/4 Mitmus",
+       "task": "Valmis. Järgmine klõps näitab uut kaarti.",
+       "text": "Ich schreibe schnell."
+      }
+     ]
+    },
+    {
+     "base": "Ich mache das Heft zu.",
+     "forms": [
+      {
+       "label": "1/4 Algne lause",
+       "task": "Muuda see lause ainsuse 3. isikusse.",
+       "text": "Ich mache das Heft zu."
+      },
+      {
+       "label": "2/4 Er vorm",
+       "task": "Muuda algne lause mitmuse 1. isikusse.",
+       "text": "Er macht das Heft zu."
+      },
+      {
+       "label": "3/4 Wir vorm",
+       "task": "Kasuta nimisõna ainsuse asemel mitmust.",
+       "text": "Wir machen das Heft zu."
+      },
+      {
+       "label": "4/4 Mitmus",
+       "task": "Valmis. Järgmine klõps näitab uut kaarti.",
+       "text": "Ich mache die Hefte zu."
+      }
+     ]
+    },
+    {
+     "base": "Ich lege den Bleistift hin.",
+     "forms": [
+      {
+       "label": "1/4 Algne lause",
+       "task": "Muuda see lause ainsuse 3. isikusse.",
+       "text": "Ich lege den Bleistift hin."
+      },
+      {
+       "label": "2/4 Er vorm",
+       "task": "Muuda algne lause mitmuse 1. isikusse.",
+       "text": "Er legt den Bleistift hin."
+      },
+      {
+       "label": "3/4 Wir vorm",
+       "task": "Kasuta nimisõna ainsuse asemel mitmust.",
+       "text": "Wir legen den Bleistift hin."
+      },
+      {
+       "label": "4/4 Mitmus",
+       "task": "Valmis. Järgmine klõps näitab uut kaarti.",
+       "text": "Ich lege die Bleistifte hin."
+      }
+     ]
+    },
+    {
+     "base": "Ich sitze ruhig.",
+     "forms": [
+      {
+       "label": "1/4 Algne lause",
+       "task": "Muuda see lause ainsuse 3. isikusse.",
+       "text": "Ich sitze ruhig."
+      },
+      {
+       "label": "2/4 Er vorm",
+       "task": "Muuda algne lause mitmuse 1. isikusse.",
+       "text": "Er sitzt ruhig."
+      },
+      {
+       "label": "3/4 Wir vorm",
+       "task": "Kasuta nimisõna ainsuse asemel mitmust.",
+       "text": "Wir sitzen ruhig."
+      },
+      {
+       "label": "4/4 Mitmus",
+       "task": "Valmis. Järgmine klõps näitab uut kaarti.",
+       "text": "Ich sitze ruhig."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Pārtulko",
+   "type": "translationCards",
+   "cards": [
+    {
+     "lv": "Tüdruk istub maha ja kirjutab kirja.",
+     "de": "Das Mädchen setzt sich und schreibt einen Brief."
+    },
+    {
+     "lv": "Kas kiri on lühike?",
+     "de": "Ist der Brief kurz?"
+    },
+    {
+     "lv": "Ei, kiri ei ole lühike, see on pikk.",
+     "de": "Nein, der Brief ist nicht kurz, er ist lang."
+    },
+    {
+     "lv": "Mida teie teete?",
+     "de": "Was machen Sie?"
+    },
+    {
+     "lv": "Meie istume ja loeme.",
+     "de": "Wir sitzen und lesen."
+    },
+    {
+     "lv": "Paul, istu maha ja loe!",
+     "de": "Paul, setz dich und lies!"
+    },
+    {
+     "lv": "Härra õpetaja, istuge maha ja lugege!",
+     "de": "Herr Lehrer, setzen Sie sich und lesen Sie!"
+    },
+    {
+     "lv": "Kuidas lapsed kirjutavad?",
+     "de": "Wie schreiben die Kinder?"
+    },
+    {
+     "lv": "Kas nemad kirjutavad kiiresti või aeglaselt?",
+     "de": "Schreiben sie schnell oder langsam?"
+    },
+    {
+     "lv": "Nemad kirjutavad väga aeglaselt.",
+     "de": "Sie schreiben sehr langsam."
+    },
+    {
+     "lv": "Milline on see taldrik?",
+     "de": "Wie ist dieser Teller?"
+    },
+    {
+     "lv": "See taldrik ei ole puhas, see on must.",
+     "de": "Dieser Teller ist nicht rein, er ist schmutzig."
+    },
+    {
+     "lv": "Kas kirjad on pikad või lühikesed?",
+     "de": "Sind die Briefe lang oder kurz?"
+    },
+    {
+     "lv": "Anna, terita see pliiats!",
+     "de": "Anna, spitz diesen Bleistift an!"
+    },
+    {
+     "lv": "Härra õpetaja, palun teritage see pliiats!",
+     "de": "Herr Lehrer, bitte spitzen Sie diesen Bleistift an!"
+    },
+    {
+     "lv": "Pane too pliiats maha!",
+     "de": "Leg jenen Bleistift hin!"
+    },
+    {
+     "lv": "Sule aken!",
+     "de": "Mach das Fenster zu!"
+    },
+    {
+     "lv": "Mida tüdruk lõpuks teeb?",
+     "de": "Was macht das Mädchen endlich?"
+    },
+    {
+     "lv": "Tema sulgeb akna ja läheb välja.",
+     "de": "Sie macht das Fenster zu und geht hinaus."
+    }
+   ]
+  }
+ ]
+}

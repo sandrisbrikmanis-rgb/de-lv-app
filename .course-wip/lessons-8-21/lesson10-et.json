@@ -1,0 +1,275 @@
+{
+ "id": "lesson10",
+ "title": "10. õppetund",
+ "subtitle": "Sein, können, tervis, vanus ja elukutsed",
+ "intro": "Kümnes õppetund: sein, können, käskiva kõneviisi vormid, tervis, vanus ja elukutsed.",
+ "sections": [
+  {
+   "title": "Dialoogid / laused",
+   "items": [
+    "Ich bin gesund.",
+    "Du bist gesund.",
+    "Er ist gesund.",
+    "Sie ist gesund.",
+    "Es ist gesund.",
+    "Wir sind gesund.",
+    "Ihr seid gesund.",
+    "Sie sind gesund.",
+    "Ich kann arbeiten.",
+    "Du kannst arbeiten.",
+    "Er kann arbeiten.",
+    "Sie kann arbeiten.",
+    "Es kann arbeiten.",
+    "Wir können arbeiten.",
+    "Ihr könnt arbeiten.",
+    "Sie können arbeiten.",
+    "Otto, sei gesund!",
+    "Otto und Franz, seid gesund!",
+    "Fräulein Müller, seien Sie gesund!",
+    "Ich bin ein Knabe.",
+    "Du bist ein Mädchen.",
+    "Er ist ein Schüler.",
+    "Sie ist eine Schülerin.",
+    "Was ist der Lehrer?",
+    "Der Lehrer ist ein Mann.",
+    "Wer ist ein Mann?",
+    "Der Lehrer ist ein Mann.",
+    "Was ist die Lehrerin?",
+    "Die Lehrerin ist eine Frau.",
+    "Wer ist eine Frau?",
+    "Die Lehrerin ist eine Frau.",
+    "Wer ist gesund?",
+    "Ich bin gesund.",
+    "Wir sind gesund.",
+    "Ist der Großvater gesund?",
+    "Nein, der Großvater ist krank.",
+    "Er kann nicht arbeiten.",
+    "Die Großmutter ist gesund.",
+    "Sie kann arbeiten.",
+    "Hans und Franz, seid ihr gesund?",
+    "Ja, wir sind gesund.",
+    "Wir können fleißig lernen.",
+    "Alle Kinder sind gesund.",
+    "Sie können fleißig lernen.",
+    "Adolf, wie alt bist du?",
+    "Ich bin zehn Jahre alt.",
+    "Wie alt ist Anna?",
+    "Anna ist acht Jahre alt."
+   ]
+  },
+  {
+   "title": "Sõnad",
+   "items": [
+    "gesund (gezunt) — terve",
+    "ich bin gesund — mina olen terve",
+    "du bist — sina oled",
+    "wir sind — meie oleme",
+    "ihr seid (iir zait) — teie olete",
+    "ich kann — mina saan/võin",
+    "du kannst — sina saad/võid",
+    "er kann — tema saab/võib",
+    "wir können — meie saame/võime",
+    "ihr könnt — teie saate/võite",
+    "sie können — nemad saavad/võivad",
+    "sei gesund — ole terve!",
+    "seid gesund — olge terved!",
+    "seien Sie gesund — olge Teie terve!",
+    "der Knabe (deer knaabe) — poiss",
+    "der Mann — mees",
+    "die Frau — naine",
+    "der Großvater (deer groosfaater) — vanaisa",
+    "krank — haige",
+    "fleißig (flaiših) — usin",
+    "lernen — õppima",
+    "alt — vana",
+    "das Jahr (jaar) — aasta",
+    "die Jahre — aastad",
+    "wie — kuidas, milline, kui"
+   ]
+  },
+  {
+   "title": "Hääldus",
+   "items": [
+    "Täishäälikute muundvorme tuleb õigesti hääldada.",
+    "ö hääldatakse ümarate huultega kui e: wir können, ihr könnt, sie können, der Löffel.",
+    "ü hääldatakse ümarate huultega kui i: Müller (müller), Bücher (bücher).",
+    "Täishääliku pikkus või lühidus sõltub järgnevatest kaashäälikutest.",
+    "Kui täishäälikule järgneb üks kaashäälik, hääldatakse täishäälikut pikalt: Vögel (foogel), Schüler (šuuler), Bücher (buuher).",
+    "Kui täishäälikule järgneb kaks või rohkem kaashäälikut, hääldatakse täishäälikut lühidalt: wir können, der Löffel, der Müller.",
+    "Saksa keele o hääldatakse puhta täishäälikuna, mitte diftongina.",
+    "Õigesti hääldatuna: der Großvater (deer groosfaater).",
+    "Diftongi ei hääldatakse kui ai: seid (zait), fleißig (flaiših).",
+    "Saksa e võib olla kitsas või lai: der Lehrer (deer leerer). Tüve ee on pikk ja kitsas, lõpu e on lühike ja lai."
+   ]
+  },
+  {
+   "title": "Gramatika",
+   "items": [
+    {
+     "heading": "Sein",
+     "text": "Abitegusõna sein — olema käänatakse ebareeglipäraselt. Seepärast tuleb see hästi ära õppida."
+    },
+    {
+     "heading": "Sein — Präsens",
+     "table": [
+      [
+       "ich",
+       "bin"
+      ],
+      [
+       "du",
+       "bist"
+      ],
+      [
+       "er / sie / es",
+       "ist"
+      ],
+      [
+       "wir",
+       "sind"
+      ],
+      [
+       "ihr",
+       "seid"
+      ],
+      [
+       "sie",
+       "sind"
+      ]
+     ]
+    },
+    {
+     "heading": "Sein — Imperativ",
+     "examples": [
+      "sei!",
+      "seid!",
+      "seien Sie!"
+     ]
+    },
+    {
+     "heading": "Können",
+     "text": "Samamoodi käänatakse ebareeglipäraselt ka abitegusõna können — võima/oskama."
+    },
+    {
+     "heading": "Können — Präsens",
+     "table": [
+      [
+       "ich",
+       "kann"
+      ],
+      [
+       "du",
+       "kannst"
+      ],
+      [
+       "er / sie / es",
+       "kann"
+      ],
+      [
+       "wir",
+       "können"
+      ],
+      [
+       "ihr",
+       "könnt"
+      ],
+      [
+       "sie",
+       "können"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Pārtulko",
+   "type": "translationCards",
+   "cards": [
+    {
+     "lv": "Kas sina oled terve?",
+     "de": "Bist du gesund?"
+    },
+    {
+     "lv": "Jah, mina olen terve.",
+     "de": "Ja, ich bin gesund."
+    },
+    {
+     "lv": "Kas Paul on terve?",
+     "de": "Ist Paul gesund?"
+    },
+    {
+     "lv": "Ei, Paul ei ole terve, tema on haige.",
+     "de": "Nein, Paul ist nicht gesund, er ist krank."
+    },
+    {
+     "lv": "Kas tema saab töötada?",
+     "de": "Kann er arbeiten?"
+    },
+    {
+     "lv": "Ei, tema ei saa töötada.",
+     "de": "Nein, er kann nicht arbeiten."
+    },
+    {
+     "lv": "Kas vanaisa on vana?",
+     "de": "Ist der Großvater alt?"
+    },
+    {
+     "lv": "Jah, tema on väga vana.",
+     "de": "Ja, er ist sehr alt."
+    },
+    {
+     "lv": "Vanaisa ja vanaema on väga vanad.",
+     "de": "Der Großvater und die Großmutter sind sehr alt."
+    },
+    {
+     "lv": "Kui vana on Adolf?",
+     "de": "Wie alt ist Adolf?"
+    },
+    {
+     "lv": "Adolf on üheksa aastat vana.",
+     "de": "Adolf ist neun Jahre alt."
+    },
+    {
+     "lv": "Kes sina oled?",
+     "de": "Was bist du?"
+    },
+    {
+     "lv": "Mina olen mees.",
+     "de": "Ich bin ein Mann."
+    },
+    {
+     "lv": "Kas tema on õpetaja?",
+     "de": "Ist er ein Lehrer?"
+    },
+    {
+     "lv": "Ei, tema on töömees.",
+     "de": "Nein, er ist ein Arbeiter."
+    },
+    {
+     "lv": "Kes on õpetaja?",
+     "de": "Was ist der Lehrer?"
+    },
+    {
+     "lv": "Õpetaja on mees.",
+     "de": "Der Lehrer ist ein Mann."
+    },
+    {
+     "lv": "Kes on õpetajanna?",
+     "de": "Was ist die Lehrerin?"
+    },
+    {
+     "lv": "Õpetajanna on naine.",
+     "de": "Die Lehrerin ist eine Frau."
+    },
+    {
+     "lv": "Kes saab töötada?",
+     "de": "Wer kann arbeiten?"
+    },
+    {
+     "lv": "Meie kõik saame töötada.",
+     "de": "Wir können alle arbeiten."
+    }
+   ]
+  }
+ ]
+}

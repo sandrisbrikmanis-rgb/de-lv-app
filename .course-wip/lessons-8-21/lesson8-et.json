@@ -1,0 +1,382 @@
+{
+ "id": "lesson8",
+ "title": "8. õppetund",
+ "subtitle": "Refleksiivsed tegusõnad, e → i/ie muutus ja akusatiiv.",
+ "sections": [
+  {
+   "title": "Dialoogid / laused",
+   "items": [
+    "Der Lehrer kommt. Alle Schüler stehen auf und grüßen den Lehrer. Sie sagen: „Guten Morgen, Herr Lehrer!“",
+    "Der Lehrer grüßt die Schüler und sagt: „Kinder, setzt euch!“",
+    "Die Schüler setzen sich und nehmen die Bücher und die Hefte.",
+    "Der Lehrer fragt die Schüler, Paul spricht aber sehr leise.",
+    "Der Lehrer sagt: „Paul, sprich nicht leise, sprich laut!“",
+    "Paul spricht jetzt laut, alle Schüler sprechen laut.",
+    "Der Lehrer sagt: „Hans, nimm das Buch und lies!“",
+    "Hans liest nicht gut, er liest schlecht.",
+    "Zwei Schüler lesen nicht laut. Sie lesen leise.",
+    "Der Lehrer sagt: „Lest laut und deutlich!“",
+    "Alle Schüler lesen jetzt laut und deutlich.",
+    "Dann schreiben die Schüler.",
+    "Endlich erzählt der Lehrer, und die Schüler hören zu.",
+    "Das ist der Arbeiter. Das sind zwei Arbeiter.",
+    "Das ist der Müller. Das sind drei Müller.",
+    "Das ist der Tischler. Das sind einige Tischler.",
+    "Das ist der Bäcker. Das sind viele Bäcker.",
+    "Das ist der Schneider. Das sind die Schneider.",
+    "Das ist der Gärtner. Das sind die Gärtner.",
+    "Das ist ein Schuster. Das sind Schuster."
+   ]
+  },
+  {
+   "title": "Sõnad",
+   "items": [
+    "alle — kõik",
+    "aufstehen — püsti tõusma",
+    "stehen auf — tõuseb püsti",
+    "grüßen (grüsen) — tervitama",
+    "guten Morgen — tere hommikust",
+    "gut — hea",
+    "der Morgen — hommik",
+    "der Herr — härra",
+    "das Kind — laps",
+    "die Kinder — lapsed",
+    "setzt euch (zetst oih) — istuge!",
+    "sie setzen sich — nemad istuvad maha",
+    "fragen (koos akusatiiviga) — küsima",
+    "sprechen — rääkima",
+    "er spricht — tema räägib",
+    "aber — aga",
+    "sehr (zeer) — väga",
+    "leise — vaikselt",
+    "laut — valjult",
+    "jetzt (jetst) — praegu",
+    "lesen — lugema",
+    "lies! — loe!",
+    "gut — hästi",
+    "schlecht — halvasti",
+    "deutlich (doitlih) — selgelt, arusaadavalt",
+    "schreiben — kirjutama",
+    "endlich (entlih) — lõpuks",
+    "erzählen (ertseelen) — jutustama",
+    "zuhören — kuulama",
+    "sie hören zu — nemad kuulavad",
+    "was ist das — mis see on?",
+    "der Arbeiter — töömees",
+    "der Müller — mölder",
+    "der Tischler — puusepp",
+    "der Bäcker (deer beeker) — pagar",
+    "der Schneider (deer šnaider) — rätsepp",
+    "der Gärtner (deer gertner) — aednik",
+    "der Schuster — kingsepp"
+   ]
+  },
+  {
+   "title": "Hääldus",
+   "items": [
+    "ä, nagu juba mainitud, hääldatakse kas kitsa lühikese või pika e-häälikuna. Näited: der Bäcker (beeker), das Mädchen (meetchen).",
+    "ä hääldatakse mõnikord ka laia e-häälikuna, näiteks sõnas der Gärtner (deer gertner).",
+    "Sõnades Schüler, Bücher on ü pikk, aga sõnas Müller on ü lühike.",
+    "ie hääldatakse kui pikk ii: liest (liist).",
+    "ß hääldatakse kui s: grüßen (grüsen).",
+    "eu hääldatakse kui oi: deutlich (doitlih)."
+   ]
+  },
+  {
+   "title": "Gramatika",
+   "items": [
+    "Paljudel tegusõnadel, mille tüves on täishäälik e, on ainsuse 2. ja 3. isikus olevikus e asemel i või ie.",
+    "sprechen — ich spreche, du sprichst, er spricht.",
+    "geben — ich gebe, du gibst, er gibt.",
+    "essen — ich esse, du isst, er isst.",
+    "nehmen — ich nehme, du nimmst, er nimmt.",
+    "lesen — ich lese, du liest, er liest.",
+    "sehen — ich sehe, du siehst, er sieht.",
+    "Nendel tegusõnadel on ka ainsuse käskivas kõneviisis tüves e asemel i või ie: Paul, sprich! Lies! Paul und Hans, lest und sprecht!",
+    "Eesti keeles ei ole refleksiivsetel tegusõnadel eraldi käänet. Saksa keeles ei ole neil ka erilist pöördumist. Neid pööratakse samamoodi nagu teisi tegusõnu, lisades refleksiivse asesõna sich.",
+    "Präsens: ich setze mich, du setzt dich, er/sie/es setzt sich, wir setzen uns, ihr setzt euch, sie setzen sich.",
+    "Käskiv kõneviis: setz(e) dich!, setzt euch!, setzen Sie sich!"
+   ]
+  },
+  {
+   "title": "Übung / Vingrinājums",
+   "exerciseType": "mixed",
+   "description": "Übung I — kasuta õiget käänet. Übung II — tõlkekaardid.",
+   "cards": [
+    {
+     "type": "fill",
+     "prompt": "Das Kind grüßt d... Lehrer.",
+     "answer": "Das Kind grüßt den Lehrer."
+    },
+    {
+     "type": "fill",
+     "prompt": "Das Kind grüßt d... Lehrerin.",
+     "answer": "Das Kind grüßt die Lehrerin."
+    },
+    {
+     "type": "fill",
+     "prompt": "Das Kind grüßt d... Fräulein.",
+     "answer": "Das Kind grüßt das Fräulein."
+    },
+    {
+     "type": "fill",
+     "prompt": "Das Kind grüßt d... Schüler.",
+     "answer": "Das Kind grüßt den Schüler."
+    },
+    {
+     "type": "fill",
+     "prompt": "Das Kind grüßt d... Schülerin.",
+     "answer": "Das Kind grüßt die Schülerin."
+    },
+    {
+     "type": "fill",
+     "prompt": "Der Schüler nimmt d... Eimer.",
+     "answer": "Der Schüler nimmt den Eimer."
+    },
+    {
+     "type": "fill",
+     "prompt": "Der Schüler nimmt d... Teller.",
+     "answer": "Der Schüler nimmt den Teller."
+    },
+    {
+     "type": "fill",
+     "prompt": "Der Schüler nimmt d... Hammer.",
+     "answer": "Der Schüler nimmt den Hammer."
+    },
+    {
+     "type": "fill",
+     "prompt": "Der Schüler nimmt d... Schlüssel.",
+     "answer": "Der Schüler nimmt den Schlüssel."
+    },
+    {
+     "type": "fill",
+     "prompt": "Der Schüler nimmt d... Schüssel.",
+     "answer": "Der Schüler nimmt die Schüssel."
+    },
+    {
+     "type": "fill",
+     "prompt": "Der Schüler nimmt d... Nadel.",
+     "answer": "Der Schüler nimmt die Nadel."
+    },
+    {
+     "type": "fill",
+     "prompt": "Der Schüler nimmt d... Messer.",
+     "answer": "Der Schüler nimmt das Messer."
+    },
+    {
+     "type": "fill",
+     "prompt": "Der Schüler nimmt d... Spiegel.",
+     "answer": "Der Schüler nimmt den Spiegel."
+    },
+    {
+     "type": "fill",
+     "prompt": "Der Schüler nimmt d... Buch.",
+     "answer": "Der Schüler nimmt das Buch."
+    },
+    {
+     "type": "fill",
+     "prompt": "Der Schüler nimmt d... Heft.",
+     "answer": "Der Schüler nimmt das Heft."
+    },
+    {
+     "type": "fill",
+     "prompt": "Der Schüler nimmt d... Bleistift.",
+     "answer": "Der Schüler nimmt den Bleistift."
+    },
+    {
+     "type": "fill",
+     "prompt": "Der Schüler nimmt d... Federhalter.",
+     "answer": "Der Schüler nimmt den Federhalter."
+    },
+    {
+     "type": "translate",
+     "lv": "Tervita õpetajat ja õpetajannat!",
+     "de": "Grüße den Lehrer und die Lehrerin!"
+    },
+    {
+     "type": "translate",
+     "lv": "Keda sina tervitad?",
+     "de": "Wen grüßt du?"
+    },
+    {
+     "type": "translate",
+     "lv": "Mina tervitan preilit.",
+     "de": "Ich grüße das Fräulein."
+    },
+    {
+     "type": "translate",
+     "lv": "Avage kõik aknad!",
+     "de": "Öffnet alle Fenster!"
+    },
+    {
+     "type": "translate",
+     "lv": "Meie avame kõik aknad.",
+     "de": "Wir öffnen alle Fenster."
+    },
+    {
+     "type": "translate",
+     "lv": "Kas sina avad akna?",
+     "de": "Öffnest du das Fenster?"
+    },
+    {
+     "type": "translate",
+     "lv": "Ei, mina ei avanud akent.",
+     "de": "Nein, ich habe das Fenster nicht geöffnet."
+    },
+    {
+     "type": "translate",
+     "lv": "Kõik õpilased istuvad maha.",
+     "de": "Alle Schüler setzen sich."
+    },
+    {
+     "type": "translate",
+     "lv": "Paul, istu maha!",
+     "de": "Paul, setz dich!"
+    },
+    {
+     "type": "translate",
+     "lv": "Lapsed, istuge!",
+     "de": "Kinder, setzt euch!"
+    },
+    {
+     "type": "translate",
+     "lv": "Ära räägi vaikselt!",
+     "de": "Sprich nicht leise!"
+    },
+    {
+     "type": "translate",
+     "lv": "Kuidas tema räägib?",
+     "de": "Wie spricht er?"
+    },
+    {
+     "type": "translate",
+     "lv": "Kõik õpilased räägivad valjult.",
+     "de": "Alle Schüler sprechen laut."
+    },
+    {
+     "type": "translate",
+     "lv": "Kes loeb valjult?",
+     "de": "Wer liest laut?"
+    },
+    {
+     "type": "translate",
+     "lv": "Õpilane loeb valjult ja selgelt.",
+     "de": "Die Schülerin liest laut und deutlich."
+    },
+    {
+     "type": "translate",
+     "lv": "Loe hästi!",
+     "de": "Lies gut!"
+    },
+    {
+     "type": "translate",
+     "lv": "Ära räägi vaikselt!",
+     "de": "Sprich nicht leise!"
+    },
+    {
+     "type": "translate",
+     "lv": "Lugege hästi!",
+     "de": "Lest gut!"
+    },
+    {
+     "type": "translate",
+     "lv": "Hans kirjutab hästi, aga Anna kirjutab halvasti.",
+     "de": "Hans schreibt gut, aber Anna schreibt schlecht."
+    },
+    {
+     "type": "translate",
+     "lv": "Preili Müller, palun laulge laul!",
+     "de": "Fräulein Müller, singen Sie, bitte, ein Lied!"
+    },
+    {
+     "type": "translate",
+     "lv": "Härra õpetaja, palun istuge!",
+     "de": "Herr Lehrer, bitte, setzen Sie sich!"
+    }
+   ]
+  },
+  {
+   "title": "Pārtulko",
+   "exerciseType": "translate",
+   "description": "Tõlgi eestikeelsed laused saksa keelde.",
+   "cards": [
+    {
+     "lv": "Tervita õpetajat ja õpetajannat.",
+     "de": "Grüße den Lehrer und die Lehrerin!"
+    },
+    {
+     "lv": "Avage kõik aknad!",
+     "de": "Öffnet alle Fenster!"
+    },
+    {
+     "lv": "Meie avame kõik aknad.",
+     "de": "Wir öffnen alle Fenster."
+    },
+    {
+     "lv": "Kas sina avasid akna?",
+     "de": "Hast du das Fenster geöffnet?"
+    },
+    {
+     "lv": "Ei, mina ei avanud akent.",
+     "de": "Nein, ich habe das Fenster nicht geöffnet."
+    },
+    {
+     "lv": "Kõik õpilased istuvad maha.",
+     "de": "Alle Schüler setzen sich."
+    },
+    {
+     "lv": "Paul, istu!",
+     "de": "Paul, setz dich!"
+    },
+    {
+     "lv": "Lapsed, istuge!",
+     "de": "Kinder, setzt euch!"
+    },
+    {
+     "lv": "Ära räägi vaikselt!",
+     "de": "Sprich nicht leise!"
+    },
+    {
+     "lv": "Kuidas tema räägib?",
+     "de": "Wie spricht er?"
+    },
+    {
+     "lv": "Kõik õpilased räägivad valjult.",
+     "de": "Alle Schüler sprechen laut."
+    },
+    {
+     "lv": "Kes loeb valjult?",
+     "de": "Wer liest laut?"
+    },
+    {
+     "lv": "Õpilane loeb valjult ja selgelt.",
+     "de": "Die Schülerin liest laut und deutlich."
+    },
+    {
+     "lv": "Loe hästi!",
+     "de": "Lies gut!"
+    },
+    {
+     "lv": "Ära räägi vaikselt!",
+     "de": "Sprich nicht leise!"
+    },
+    {
+     "lv": "Lugege hästi!",
+     "de": "Lest gut!"
+    },
+    {
+     "lv": "Hans kirjutab hästi, aga Anna kirjutab halvasti.",
+     "de": "Hans schreibt gut, aber Anna schreibt schlecht."
+    },
+    {
+     "lv": "Preili Müller, palun laulge laul!",
+     "de": "Fräulein Müller, singen Sie, bitte, ein Lied!"
+    },
+    {
+     "lv": "Härra õpetaja, palun istuge!",
+     "de": "Herr Lehrer, bitte, setzen Sie sich!"
+    }
+   ]
+  }
+ ]
+}
