@@ -13,7 +13,8 @@ work described in the task. It is **not** part of the shipped app and will be
 
 ## Status
 
-Batches completed: 320 / 324 study cards (98.8%).
+Batches completed: 324 / 324 study cards (100%). All study cards translated.
+Next step: final assembly into `data/et/b1.js`.
 
 ## Process
 

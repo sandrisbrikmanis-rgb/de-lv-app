@@ -48624,5 +48624,674 @@
     ]
    }
   }
+ },
+ "b1-vertrauen": {
+  "de": "Vertrauen",
+  "de_article": "das",
+  "lv": "usaldus",
+  "level": "B1",
+  "study": {
+   "id": "b1-vertrauen",
+   "layout": "standardStudy",
+   "translation": "usaldus",
+   "explanation": [
+    "Peamine mõte: nimisõna — usaldus, usk kui tunne.",
+    "das Vertrauen tähendab peamiselt: tunne / suhe.",
+    "Sageli iseloomustab: nimisõna (das).",
+    "vertrauen tähendab peamiselt: kedagi usaldama.",
+    "Sageli iseloomustab: tegusõna.",
+    "das Vertrauen tähendab usaldust kui tunnet või suhte seisundit.",
+    "vertrauen tähendab kedagi usaldama.",
+    "Tegusõnaga vertrauen tuleb kohustuslikult kasutada: kellele?"
+   ],
+   "examples": [
+    {
+     "de": "Ich habe großes Vertrauen zu dir.",
+     "lv": "Mul on suur usaldus sinu vastu."
+    },
+    {
+     "de": "Ich habe Vertrauen zu meinem Arzt.",
+     "lv": "mul on usaldus oma arsti vastu."
+    },
+    {
+     "de": "Das Vertrauen ist wichtig.",
+     "lv": "usaldus on tähtis."
+    },
+    {
+     "de": "Kann ich dir vertrauen?",
+     "lv": "kas ma saan sind usaldada?"
+    },
+    {
+     "de": "Er hat mein Vertrauen verloren.",
+     "lv": "ta kaotas minu usalduse."
+    },
+    {
+     "de": "Wir vertrauen unserem Lehrer.",
+     "lv": "me usaldame oma õpetajat."
+    }
+   ],
+   "tip": [
+    "Kui jutt on usaldusest kui tundest, kasuta das Vertrauen. Tegevuse — usaldama kohta kasuta vertrauen + kellele?.",
+    "Nimisõna — usaldus, usk kui tunne."
+   ],
+   "important": [
+    "das Vertrauen = nimisõna (usaldus).",
+    "vertrauen = tegusõna (usaldama) + kellele?.",
+    "Vale: Ich habe Vertrauen in dich. → Õige: Ich habe Vertrauen zu dir.",
+    "das Vertrauen = usaldus."
+   ],
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "das Vertrauen",
+      "vertrauen"
+     ],
+     "purple": [
+      "usaldus"
+     ],
+     "green": [
+      "das Vertrauen",
+      "Vertrauen"
+     ]
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "das Vertrauen",
+        "vertrauen"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "usaldus"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "das Vertrauen",
+        "vertrauen"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "usaldus"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "das Vertrauen",
+        "vertrauen"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "usaldus"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "das Vertrauen",
+        "vertrauen"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "usaldus"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "das Vertrauen",
+        "vertrauen"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "usaldus"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "das Vertrauen",
+        "vertrauen"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "usaldus"
+       ]
+      }
+     }
+    ],
+    "tip": [
+     {
+      "purple": [
+       "usaldus"
+      ]
+     }
+    ],
+    "important": [
+     {
+      "blue": [
+       "das Vertrauen"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "b1-vertrauen-study": {
+  "de": "vertrauen",
+  "lv": "usaldama",
+  "level": "B1",
+  "study": {
+   "id": "b1-vertrauen-study",
+   "layout": "standardStudy",
+   "translation": "usaldama",
+   "explanation": [
+    "Peamine mõte: tegusõna — kedagi usaldama. Nõuab kellele? vormi: jemandem vertrauen.",
+    "vertrauen tähendab peamiselt: tunne / suhe.",
+    "Sageli iseloomustab: nimisõna (das).",
+    "vertrauen tähendab peamiselt: kedagi usaldama.",
+    "Sageli iseloomustab: tegusõna.",
+    "das Vertrauen tähendab usaldust kui tunnet või suhte seisundit.",
+    "vertrauen tähendab kedagi usaldama.",
+    "Tegusõnaga vertrauen tuleb kohustuslikult kasutada: kellele?"
+   ],
+   "examples": [
+    {
+     "de": "Ich vertraue dir.",
+     "lv": "Ma usaldan sind."
+    },
+    {
+     "de": "Ich habe Vertrauen zu meinem Arzt.",
+     "lv": "mul on usaldus oma arsti vastu."
+    },
+    {
+     "de": "Das Vertrauen ist wichtig.",
+     "lv": "usaldus on tähtis."
+    },
+    {
+     "de": "Kann ich dir vertrauen?",
+     "lv": "kas ma saan sind usaldada?"
+    },
+    {
+     "de": "Er hat mein Vertrauen verloren.",
+     "lv": "ta kaotas minu usalduse."
+    },
+    {
+     "de": "Wir vertrauen unserem Lehrer.",
+     "lv": "me usaldame oma õpetajat."
+    }
+   ],
+   "tip": [
+    "Kui jutt on usaldusest kui tundest, kasuta das Vertrauen. Tegevuse — usaldama kohta kasuta vertrauen + kellele?.",
+    "Tegusõna — kedagi usaldama. Nõuab kellele? vormi: jemandem vertrauen."
+   ],
+   "important": [
+    "das Vertrauen = nimisõna (usaldus).",
+    "vertrauen = tegusõna (usaldama) + kellele?.",
+    "Vale: Ich habe Vertrauen in dich. → Õige: Ich habe Vertrauen zu dir.",
+    "das Vertrauen = usaldus."
+   ],
+   "sectionAccents": {
+    "explanation": {
+     "green": [
+      "vertrauen",
+      "vertrauen"
+     ],
+     "purple": [
+      "usaldama"
+     ],
+     "blue": [
+      "vertrauen",
+      "vertraue"
+     ]
+    },
+    "examples": [
+     {
+      "de": {
+       "green": [
+        "vertrauen",
+        "vertrauen"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "usaldama"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "vertrauen",
+        "vertrauen"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "usaldama"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "vertrauen",
+        "vertrauen"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "usaldama"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "vertrauen",
+        "vertrauen"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "usaldama"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "vertrauen",
+        "vertrauen"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "usaldama"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "vertrauen",
+        "vertrauen"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "usaldama"
+       ]
+      }
+     }
+    ],
+    "tip": [
+     {
+      "purple": [
+       "usaldama"
+      ]
+     }
+    ],
+    "important": [
+     {
+      "green": [
+       "vertrauen"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "b1-trotz": {
+  "de": "Trotz",
+  "de_article": "der",
+  "lv": "jonn • kangekaelsus",
+  "level": "B1",
+  "study": {
+   "id": "b1-trotz",
+   "layout": "standardStudy",
+   "translation": "jonn • kangekaelsus",
+   "explanation": [
+    "Peamine mõte: nimisõna — jonn, jonnakas suhtumine.",
+    "der Trotz tähendab peamiselt: jonnakas suhtumine.",
+    "Sageli iseloomustab: nimisõna (der).",
+    "trotz tähendab peamiselt: hoolimata millestki.",
+    "Sageli iseloomustab: eessõna.",
+    "der Trotz tähendab jonni või kangekaelsust kui omadust.",
+    "trotz on eessõna ja tähendab millestki hoolimata.",
+    "Eessõnaga trotz tuleb kohustuslikult kasutada genitiivi: trotz des Regens, trotz des Wetters."
+   ],
+   "examples": [
+    {
+     "de": "Er macht es aus Trotz.",
+     "lv": "ta teeb seda jonnist."
+    },
+    {
+     "de": "Trotz des Regens gehen wir spazieren.",
+     "lv": "hoolimata vihmast läheme jalutama."
+    },
+    {
+     "de": "Er macht es aus Trotz.",
+     "lv": "ta teeb seda jonnist."
+    },
+    {
+     "de": "Trotz des schlechten Wetters fahren wir.",
+     "lv": "hoolimata halvast ilmast me sõidame."
+    },
+    {
+     "de": "Sie hat viel Trotz.",
+     "lv": "temal on palju jonni."
+    },
+    {
+     "de": "Trotz der Krankheit kommt er.",
+     "lv": "hoolimata haigusest ta tuleb."
+    }
+   ],
+   "tip": [
+    "Kui jutt on jonnist kui omadusest, kasuta der Trotz. Takistusest hoolimata kasuta trotz + genitiiv.",
+    "Nimisõna — jonn, jonnakas suhtumine."
+   ],
+   "important": [
+    "der Trotz = nimisõna (jonn).",
+    "trotz = eessõna (hoolimata) + genitiiv.",
+    "trotz dem Regen — vale; õige: trotz des Regens.",
+    "Vale: Trotz dem Regen gehen wir. → Õige: Trotz des Regens gehen wir."
+   ],
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "der Trotz",
+      "Trotz"
+     ],
+     "purple": [
+      "jonn"
+     ]
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "der Trotz",
+        "trotz"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "jonn",
+        "kangekaelsus"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "der Trotz",
+        "trotz"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "jonn",
+        "kangekaelsus"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "der Trotz",
+        "trotz"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "jonn",
+        "kangekaelsus"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "der Trotz",
+        "trotz"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "jonn",
+        "kangekaelsus"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "der Trotz",
+        "trotz"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "jonn",
+        "kangekaelsus"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "der Trotz",
+        "trotz"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "jonn",
+        "kangekaelsus"
+       ]
+      }
+     }
+    ],
+    "tip": [
+     {
+      "purple": [
+       "jonn"
+      ]
+     },
+     {
+      "purple": [
+       "kangekaelsus"
+      ]
+     }
+    ],
+    "important": [
+     {
+      "blue": [
+       "der Trotz"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "b1-trotz-study": {
+  "de": "trotz",
+  "lv": "hoolimata",
+  "level": "B1",
+  "study": {
+   "id": "b1-trotz-study",
+   "layout": "standardStudy",
+   "translation": "hoolimata",
+   "explanation": [
+    "Peamine mõte: eessõna — hoolimata millestki. Nõuab genitiivi: trotz + genitiiv.",
+    "trotz tähendab peamiselt: jonnakas suhtumine.",
+    "Sageli iseloomustab: nimisõna (der).",
+    "trotz tähendab peamiselt: hoolimata millestki.",
+    "Sageli iseloomustab: eessõna.",
+    "der Trotz tähendab jonni või kangekaelsust kui omadust.",
+    "trotz on eessõna ja tähendab millestki hoolimata.",
+    "Eessõnaga trotz tuleb kohustuslikult kasutada genitiivi: trotz des Regens, trotz des Wetters."
+   ],
+   "examples": [
+    {
+     "de": "Trotz des Regens gehen wir spazieren.",
+     "lv": "Hoolimata vihmast läheme jalutama."
+    },
+    {
+     "de": "Trotz des Regens gehen wir spazieren.",
+     "lv": "hoolimata vihmast läheme jalutama."
+    },
+    {
+     "de": "Er macht es aus Trotz.",
+     "lv": "ta teeb seda jonnist."
+    },
+    {
+     "de": "Trotz des schlechten Wetters fahren wir.",
+     "lv": "hoolimata halvast ilmast me sõidame."
+    },
+    {
+     "de": "Sie hat viel Trotz.",
+     "lv": "temal on palju jonni."
+    },
+    {
+     "de": "Trotz der Krankheit kommt er.",
+     "lv": "hoolimata haigusest ta tuleb."
+    }
+   ],
+   "tip": [
+    "Kui jutt on jonnist kui omadusest, kasuta der Trotz. Takistusest hoolimata kasuta trotz + genitiiv.",
+    "Eessõna — hoolimata millestki. Nõuab genitiivi: trotz + genitiiv."
+   ],
+   "important": [
+    "der Trotz = nimisõna (jonn).",
+    "trotz = eessõna (hoolimata) + genitiiv.",
+    "trotz dem Regen — vale; õige: trotz des Regens.",
+    "Vale: Trotz dem Regen gehen wir. → Õige: Trotz des Regens gehen wir."
+   ],
+   "sectionAccents": {
+    "explanation": {
+     "green": [
+      "trotz",
+      "trotz"
+     ],
+     "purple": [
+      "hoolimata"
+     ],
+     "yellow": [
+      "trotz",
+      "des Regens"
+     ]
+    },
+    "examples": [
+     {
+      "de": {
+       "green": [
+        "trotz",
+        "trotz"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "hoolimata"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "trotz",
+        "trotz"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "hoolimata"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "trotz",
+        "trotz"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "hoolimata"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "trotz",
+        "trotz"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "hoolimata"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "trotz",
+        "trotz"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "hoolimata"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "trotz",
+        "trotz"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "hoolimata"
+       ]
+      }
+     }
+    ],
+    "tip": [
+     {
+      "purple": [
+       "hoolimata"
+      ]
+     }
+    ],
+    "important": [
+     {
+      "green": [
+       "trotz"
+      ]
+     }
+    ]
+   }
+  }
  }
 }
