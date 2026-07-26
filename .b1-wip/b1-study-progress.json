@@ -34958,5 +34958,1257 @@
     }
    }
   }
+ },
+ "b1-ruf-2": {
+  "de": "Ruf",
+  "de_article": "der",
+  "de_plural": "die Rufe",
+  "lv": "hüüd",
+  "level": "B1",
+  "study": {
+   "id": "b1-ruf-2",
+   "layout": "standardStudy",
+   "translation": "hüüd",
+   "explanation": "Põhiidee: der Ruf tähendab hüüdu või kutset. Inimese, firma või asutuse kohta tähendab see sageli mainet.",
+   "examples": [
+    {
+     "de": "Ich hörte einen lauten Ruf.",
+     "lv": "ma kuulsin valju hüüdu."
+    },
+    {
+     "de": "Der Ruf kam aus dem Wald.",
+     "lv": "hüüd tuli metsast."
+    },
+    {
+     "de": "Die Firma hat einen guten Ruf.",
+     "lv": "ettevõttel on hea maine."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "der Ruf",
+     "meaning": "hüüd • maine",
+     "example": "Ich hörte einen Ruf. = Ma kuulsin hüüdu."
+    },
+    {
+     "word": "der Anruf",
+     "meaning": "telefonikõne",
+     "example": "Ich bekam einen Anruf. = Ma sain kõne."
+    },
+    {
+     "word": "der Ruhm",
+     "meaning": "kuulsus",
+     "example": "Ruhm ist nicht alles. = Kuulsus ei ole kõik."
+    }
+   ],
+   "tip": "Hääle hüüd või maine: der Ruf.",
+   "important": "Ruf ei ole sama, mis Ruhm. Ruhm on kuulsus, aga Ruf on sageli maine.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "der Ruf",
+     "purple": "hüüdu",
+     "red": "mainet"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Ruf"
+      },
+      "lv": {
+       "purple": "hüüdu"
+      }
+     },
+     {
+      "de": {
+       "blue": "Ruf",
+       "green": "Wald"
+      },
+      "lv": {
+       "purple": "Hüüd"
+      }
+     },
+     {
+      "de": {
+       "blue": "Ruf",
+       "green": "Firma"
+      },
+      "lv": {
+       "red": "maine"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "der Ruf"
+      },
+      "meaning": {
+       "purple": "hüüd"
+      },
+      "example": {
+       "blue": "Ruf"
+      }
+     },
+     {
+      "word": {
+       "green": "der Anruf"
+      },
+      "meaning": {
+       "purple": "telefonikõne"
+      },
+      "example": {
+       "red": "Anruf"
+      }
+     },
+     {
+      "word": {
+       "green": "der Ruhm"
+      },
+      "meaning": {
+       "purple": "kuulsus"
+      },
+      "example": {
+       "red": "Ruhm"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "der Ruf",
+     "purple": "maine"
+    },
+    "important": {
+     "blue": "Ruf",
+     "red": "Ruhm"
+    }
+   }
+  }
+ },
+ "b1-ruhen": {
+  "de": "ruhen",
+  "lv": "puhkama",
+  "level": "B1",
+  "study": {
+   "id": "b1-ruhen",
+   "layout": "standardStudy",
+   "translation": "puhkama",
+   "explanation": "Põhiidee: ruhen tähendab rahulikult olemist, puhkamist või ajutiselt seisma jäämist. Igapäevaselt öeldakse inimese kohta sagedamini sich ausruhen.",
+   "examples": [
+    {
+     "de": "Nach der Arbeit ruht er sich aus.",
+     "lv": "pärast tööd ta puhkab."
+    },
+    {
+     "de": "Der See ruht still in der Sonne.",
+     "lv": "järv lamab rahulikult päikese käes."
+    },
+    {
+     "de": "Das Verfahren ruht im Moment.",
+     "lv": "protsess on praegu peatatud."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "ruhen",
+     "meaning": "rahul olema, seiskuma",
+     "example": "Das Verfahren ruht. = Protsess on peatatud."
+    },
+    {
+     "word": "sich ausruhen",
+     "meaning": "puhkama",
+     "example": "Ich ruhe mich kurz aus. = Ma puhkan korraks."
+    },
+    {
+     "word": "schlafen",
+     "meaning": "magama",
+     "example": "Das Kind schläft. = Laps magab."
+    }
+   ],
+   "tip": "Rahu või paus: ruhen; igapäevane puhkus: sich ausruhen.",
+   "important": "ruhen kõlab formaalsemalt kui sich ausruhen, eriti protsesside või asjade puhul.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "ruhen",
+     "purple": "rahul olemist",
+     "red": "sich ausruhen"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "ruht",
+       "green": "er"
+      },
+      "lv": {
+       "purple": "puhkab"
+      }
+     },
+     {
+      "de": {
+       "blue": "ruht",
+       "yellow": "See"
+      },
+      "lv": {
+       "purple": "rahulikult"
+      }
+     },
+     {
+      "de": {
+       "blue": "ruht",
+       "yellow": "Verfahren"
+      },
+      "lv": {
+       "red": "peatatud"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "ruhen"
+      },
+      "meaning": {
+       "purple": "rahul olema"
+      },
+      "example": {
+       "blue": "ruht",
+       "yellow": "Verfahren"
+      }
+     },
+     {
+      "word": {
+       "green": "sich ausruhen"
+      },
+      "meaning": {
+       "purple": "puhkama"
+      },
+      "example": {
+       "red": "ruhe mich",
+       "purple": "puhkan"
+      }
+     },
+     {
+      "word": {
+       "green": "schlafen"
+      },
+      "meaning": {
+       "purple": "magama"
+      },
+      "example": {
+       "red": "schläft"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "ruhen",
+     "red": "sich ausruhen"
+    },
+    "important": {
+     "blue": "ruhen",
+     "red": "formaalsemalt"
+    }
+   }
+  }
+ },
+ "b1-rüsten": {
+  "de": "rüsten",
+  "lv": "valmistuma",
+  "level": "B1",
+  "study": {
+   "id": "b1-rüsten",
+   "layout": "standardStudy",
+   "translation": "valmistuma",
+   "explanation": "Põhiidee: rüsten tähendab valmistumist või varustamist. Sõjaväelises kontekstis tähendab see relvastumist või relvastamist.",
+   "examples": [
+    {
+     "de": "Wir rüsten uns für den Winter.",
+     "lv": "me valmistume talveks."
+    },
+    {
+     "de": "Das Land rüstet seine Armee aus.",
+     "lv": "riik relvastab oma armeed."
+    },
+    {
+     "de": "Sie rüsten sich für eine lange Reise.",
+     "lv": "nad valmistuvad pikaks reisiks."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "rüsten",
+     "meaning": "valmistuma, varustuma • relvastuma",
+     "example": "Wir rüsten uns für den Winter. = Me valmistume talveks."
+    },
+    {
+     "word": "vorbereiten",
+     "meaning": "valmistama",
+     "example": "Ich bereite das Essen vor. = Ma valmistan toitu."
+    },
+    {
+     "word": "aufrüsten",
+     "meaning": "relvastust suurendama",
+     "example": "Der Staat rüstet auf. = Riik relvastub."
+    }
+   ],
+   "tip": "Kui valmistumine on seotud varustusega, sobib rüsten.",
+   "important": "Sõjaväelises kontekstis on rüsten ja aufrüsten seotud relvastumisega.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "rüsten",
+     "purple": "valmistumist",
+     "red": "relvastumist"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "rüsten",
+       "yellow": "Winter"
+      },
+      "lv": {
+       "purple": "valmistume"
+      }
+     },
+     {
+      "de": {
+       "blue": "rüstet",
+       "yellow": "Armee"
+      },
+      "lv": {
+       "red": "relvastab"
+      }
+     },
+     {
+      "de": {
+       "blue": "rüsten",
+       "yellow": "Reise"
+      },
+      "lv": {
+       "purple": "valmistuvad"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "rüsten"
+      },
+      "meaning": {
+       "purple": "valmistuma"
+      },
+      "example": {
+       "blue": "rüsten",
+       "yellow": "Winter"
+      }
+     },
+     {
+      "word": {
+       "green": "vorbereiten"
+      },
+      "meaning": {
+       "purple": "valmistama"
+      },
+      "example": {
+       "red": "bereite",
+       "yellow": "Essen"
+      }
+     },
+     {
+      "word": {
+       "green": "aufrüsten"
+      },
+      "meaning": {
+       "purple": "relvastust suurendama"
+      },
+      "example": {
+       "red": "rüstet auf"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "rüsten",
+     "yellow": "varustusega"
+    },
+    "important": {
+     "blue": "rüsten",
+     "red": "aufrüsten"
+    }
+   }
+  }
+ },
+ "b1-saat": {
+  "de": "Saat",
+  "de_article": "die",
+  "de_plural": "die Saaten",
+  "lv": "külv",
+  "level": "B1",
+  "study": {
+   "id": "b1-saat",
+   "layout": "standardStudy",
+   "translation": "külv",
+   "explanation": "Põhiidee: die Saat tähendab seemet, külvi või külvatud põldu. Ühe üksiku seemne kohta kasutatakse sagedamini der Samen.",
+   "examples": [
+    {
+     "de": "Die Saat geht auf.",
+     "lv": "külv tärkab."
+    },
+    {
+     "de": "Der Bauer bringt die Saat aus.",
+     "lv": "talunik külvab seemet."
+    },
+    {
+     "de": "Die Saat steht gut.",
+     "lv": "külv kasvab hästi."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "die Saat",
+     "meaning": "seeme, külv",
+     "example": "Die Saat geht auf. = Külv tärkab."
+    },
+    {
+     "word": "der Samen",
+     "meaning": "üksik seeme",
+     "example": "Der Samen ist klein. = Seeme on väike."
+    },
+    {
+     "word": "säen",
+     "meaning": "külvama",
+     "example": "Wir säen Weizen. = Me külvame nisu."
+    }
+   ],
+   "tip": "Põld ja külvatu tervikuna: die Saat.",
+   "important": "Igapäevaselt on ühe seemne jaoks kindlam sõna der Samen.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "die Saat",
+     "purple": "seemet",
+     "red": "der Samen"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Saat"
+      },
+      "lv": {
+       "purple": "Külv"
+      }
+     },
+     {
+      "de": {
+       "blue": "Saat",
+       "green": "Bauer"
+      },
+      "lv": {
+       "purple": "külvab"
+      }
+     },
+     {
+      "de": {
+       "blue": "Saat"
+      },
+      "lv": {
+       "purple": "Külv"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "die Saat"
+      },
+      "meaning": {
+       "purple": "külv"
+      },
+      "example": {
+       "blue": "Saat"
+      }
+     },
+     {
+      "word": {
+       "green": "der Samen"
+      },
+      "meaning": {
+       "purple": "seeme"
+      },
+      "example": {
+       "red": "Samen"
+      }
+     },
+     {
+      "word": {
+       "green": "säen"
+      },
+      "meaning": {
+       "purple": "külvama"
+      },
+      "example": {
+       "red": "säen",
+       "yellow": "Weizen"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "die Saat",
+     "purple": "külvatu"
+    },
+    "important": {
+     "blue": "die Saat",
+     "red": "der Samen"
+    }
+   }
+  }
+ },
+ "b1-schale": {
+  "de": "Schale",
+  "de_article": "die",
+  "de_plural": "die Schalen",
+  "lv": "koor",
+  "level": "B1",
+  "study": {
+   "id": "b1-schale",
+   "layout": "standardStudy",
+   "translation": "koor",
+   "explanation": "Põhiidee: die Schale on puuvilja koor, koda või välimine kate. See võib tähendada ka kaussi või nõu.",
+   "examples": [
+    {
+     "de": "Die Schale der Orange ist dick.",
+     "lv": "apelsini koor on paks."
+    },
+    {
+     "de": "Die Nuss hat eine harte Schale.",
+     "lv": "pähklil on kõva koda."
+    },
+    {
+     "de": "Stell die Schale auf den Tisch.",
+     "lv": "pane kauss lauale."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "die Schale",
+     "meaning": "koor, koda • kauss",
+     "example": "Die Schale der Orange ist dick. = Apelsini koor on paks."
+    },
+    {
+     "word": "die Rinde",
+     "meaning": "puu koor või leiva koorik",
+     "example": "Die Rinde ist dunkel. = Puu koor on tume."
+    },
+    {
+     "word": "die Schüssel",
+     "meaning": "kauss",
+     "example": "Die Schüssel ist leer. = Kauss on tühi."
+    }
+   ],
+   "tip": "Puuviljale ja pähklile Schale; puule Rinde.",
+   "important": "Puu koore jaoks kasutatakse tavaliselt die Rinde, mitte die Schale.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "die Schale",
+     "purple": "koor",
+     "red": "kaussi"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Schale",
+       "yellow": "Orange"
+      },
+      "lv": {
+       "purple": "koor"
+      }
+     },
+     {
+      "de": {
+       "blue": "Schale",
+       "yellow": "Nuss"
+      },
+      "lv": {
+       "purple": "koda"
+      }
+     },
+     {
+      "de": {
+       "blue": "Schale",
+       "yellow": "Tisch"
+      },
+      "lv": {
+       "red": "kauss"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "die Schale"
+      },
+      "meaning": {
+       "purple": "koor"
+      },
+      "example": {
+       "blue": "Schale",
+       "yellow": "Orange"
+      }
+     },
+     {
+      "word": {
+       "green": "die Rinde"
+      },
+      "meaning": {
+       "purple": "puu koor"
+      },
+      "example": {
+       "red": "Rinde"
+      }
+     },
+     {
+      "word": {
+       "green": "die Schüssel"
+      },
+      "meaning": {
+       "purple": "kauss"
+      },
+      "example": {
+       "red": "Schüssel"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "Schale",
+     "red": "Rinde"
+    },
+    "important": {
+     "blue": "Schale",
+     "red": "Rinde"
+    }
+   }
+  }
+ },
+ "b1-schicht": {
+  "de": "Schicht",
+  "de_article": "die",
+  "de_plural": "die Schichten",
+  "lv": "kiht",
+  "level": "B1",
+  "study": {
+   "id": "b1-schicht",
+   "layout": "standardStudy",
+   "translation": "kiht",
+   "explanation": "Põhiidee: die Schicht tähendab kihti või kordonit. Töökontekstis tähendab see vahetust.",
+   "examples": [
+    {
+     "de": "Auf dem Boden liegt eine Schicht Staub.",
+     "lv": "põrandal on tolmukiht."
+    },
+    {
+     "de": "Ich arbeite heute in der Nachtschicht.",
+     "lv": "täna töötan öövahetuses."
+    },
+    {
+     "de": "Die Farbe bildet eine dünne Schicht.",
+     "lv": "värv moodustab õhukese kihi."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "die Schicht",
+     "meaning": "kiht, kord • töövahetus",
+     "example": "Eine Schicht Staub liegt dort. = Seal on tolmukiht."
+    },
+    {
+     "word": "die Lage",
+     "meaning": "olukord või asend",
+     "example": "Die Lage ist ernst. = Olukord on tõsine."
+    },
+    {
+     "word": "die Schichtarbeit",
+     "meaning": "vahetustega töö",
+     "example": "Schichtarbeit ist anstrengend. = Vahetustega töö on väsitav."
+    }
+   ],
+   "tip": "Pinnal on Schicht; töös võib Schicht olla vahetus.",
+   "important": "Töökontekstis tähendab Schicht sageli vahetust, mitte kihti.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "die Schicht",
+     "purple": "kihti",
+     "red": "vahetust"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Schicht",
+       "yellow": "Staub"
+      },
+      "lv": {
+       "purple": "tolmukiht"
+      }
+     },
+     {
+      "de": {
+       "blue": "Nachtschicht"
+      },
+      "lv": {
+       "red": "öövahetuses"
+      }
+     },
+     {
+      "de": {
+       "blue": "Schicht",
+       "yellow": "Farbe"
+      },
+      "lv": {
+       "purple": "kihi"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "die Schicht"
+      },
+      "meaning": {
+       "purple": "kiht"
+      },
+      "example": {
+       "blue": "Schicht"
+      }
+     },
+     {
+      "word": {
+       "green": "die Lage"
+      },
+      "meaning": {
+       "purple": "olukord"
+      },
+      "example": {
+       "red": "Lage"
+      }
+     },
+     {
+      "word": {
+       "green": "die Schichtarbeit"
+      },
+      "meaning": {
+       "purple": "vahetustega töö"
+      },
+      "example": {
+       "red": "Schichtarbeit"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "Schicht",
+     "red": "vahetus"
+    },
+    "important": {
+     "blue": "Schicht",
+     "red": "vahetust"
+    }
+   }
+  }
+ },
+ "b1-schimmel": {
+  "de": "Schimmel",
+  "de_article": "der",
+  "de_plural": "die Schimmel",
+  "lv": "hallitus",
+  "level": "B1",
+  "study": {
+   "id": "b1-schimmel",
+   "layout": "standardStudy",
+   "translation": "hallitus",
+   "explanation": "Põhiidee: der Schimmel tähendab tavaliselt hallitust. Harvem võib see tähendada ka hallikat või valget hobust.",
+   "examples": [
+    {
+     "de": "An der Wand ist Schimmel.",
+     "lv": "seinal on hallitus."
+    },
+    {
+     "de": "Schimmel in der Wohnung ist gefährlich.",
+     "lv": "hallitus korteris on ohtlik."
+    },
+    {
+     "de": "Der Schimmel läuft über die Wiese.",
+     "lv": "hall hobune jookseb üle heinamaa."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "der Schimmel",
+     "meaning": "hallitus • hall hobune",
+     "example": "An der Wand ist Schimmel. = Seinal on hallitus."
+    },
+    {
+     "word": "der Pilz",
+     "meaning": "seen",
+     "example": "Der Pilz wächst im Wald. = Seen kasvab metsas."
+    },
+    {
+     "word": "das Pferd",
+     "meaning": "hobune",
+     "example": "Das Pferd läuft schnell. = Hobune jookseb kiiresti."
+    }
+   ],
+   "tip": "Sein või toit: Schimmel = hallitus.",
+   "important": "Hobuse tähendus on olemas, aga igapäevaselt on Schimmel enamasti hallitus.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "der Schimmel",
+     "purple": "hallitust",
+     "red": "hobust"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Schimmel",
+       "yellow": "Wand"
+      },
+      "lv": {
+       "purple": "hallitus"
+      }
+     },
+     {
+      "de": {
+       "blue": "Schimmel",
+       "green": "Wohnung"
+      },
+      "lv": {
+       "purple": "Hallitus"
+      }
+     },
+     {
+      "de": {
+       "blue": "Schimmel",
+       "green": "Wiese"
+      },
+      "lv": {
+       "red": "hobune"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "der Schimmel"
+      },
+      "meaning": {
+       "purple": "hallitus"
+      },
+      "example": {
+       "blue": "Schimmel"
+      }
+     },
+     {
+      "word": {
+       "green": "der Pilz"
+      },
+      "meaning": {
+       "purple": "seen"
+      },
+      "example": {
+       "red": "Pilz"
+      }
+     },
+     {
+      "word": {
+       "green": "das Pferd"
+      },
+      "meaning": {
+       "purple": "hobune"
+      },
+      "example": {
+       "red": "Pferd"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "Schimmel",
+     "purple": "hallitus"
+    },
+    "important": {
+     "blue": "Schimmel",
+     "red": "Hobuse"
+    }
+   }
+  }
+ },
+ "b1-schlag": {
+  "de": "Schlag",
+  "de_article": "der",
+  "de_plural": "die Schläge",
+  "lv": "löök",
+  "level": "B1",
+  "study": {
+   "id": "b1-schlag",
+   "layout": "standardStudy",
+   "translation": "löök",
+   "explanation": "Põhiidee: der Schlag tähendab lööki või hoopi. Kontekstis võib see olla ka välgutabamus, kellalöök või tüüp.",
+   "examples": [
+    {
+     "de": "Der Schlag traf ihn am Arm.",
+     "lv": "löök tabas teda käsivarde."
+    },
+    {
+     "de": "Ein Schlag traf den Baum.",
+     "lv": "välgulöök tabas puud."
+    },
+    {
+     "de": "Die Uhr tut zwölf Schläge.",
+     "lv": "kell lööb kaksteist."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "der Schlag",
+     "meaning": "löök, hoop • kontekstis välgulöök",
+     "example": "Der Schlag traf ihn. = Löök tabas teda."
+    },
+    {
+     "word": "der Stoß",
+     "meaning": "tõuge",
+     "example": "Der Stoß war stark. = Tõuge oli tugev."
+    },
+    {
+     "word": "der Blitz",
+     "meaning": "välk",
+     "example": "Der Blitz war hell. = Välk oli hele."
+    }
+   ],
+   "tip": "Äkiline hoop: der Schlag.",
+   "important": "Schlag on väga kontekstitundlik; välgu puhul on see sageli välgulöök.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "der Schlag",
+     "purple": "lööki",
+     "red": "välgutabamus"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Schlag",
+       "green": "Arm"
+      },
+      "lv": {
+       "purple": "Löök"
+      }
+     },
+     {
+      "de": {
+       "blue": "Schlag",
+       "yellow": "Baum"
+      },
+      "lv": {
+       "red": "Välgulöök"
+      }
+     },
+     {
+      "de": {
+       "blue": "Schläge",
+       "yellow": "Uhr"
+      },
+      "lv": {
+       "red": "lööb"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "der Schlag"
+      },
+      "meaning": {
+       "purple": "löök"
+      },
+      "example": {
+       "blue": "Schlag"
+      }
+     },
+     {
+      "word": {
+       "green": "der Stoß"
+      },
+      "meaning": {
+       "purple": "tõuge"
+      },
+      "example": {
+       "red": "Stoß"
+      }
+     },
+     {
+      "word": {
+       "green": "der Blitz"
+      },
+      "meaning": {
+       "purple": "välk"
+      },
+      "example": {
+       "red": "Blitz"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "der Schlag",
+     "purple": "hoop"
+    },
+    "important": {
+     "blue": "Schlag",
+     "red": "välgulöök"
+    }
+   }
+  }
+ },
+ "b1-schleifen": {
+  "de": "schleifen",
+  "lv": "lihvima",
+  "level": "B1",
+  "study": {
+   "id": "b1-schleifen",
+   "layout": "standardStudy",
+   "translation": "lihvima",
+   "explanation": "Põhiidee: schleifen tähendab pinna või tööriista lihvimist, teritamist või poleerimist. Teistes kontekstides võib see tähendada ka mööda maad vedelemist.",
+   "examples": [
+    {
+     "de": "Er schleift das Messer.",
+     "lv": "ta teritab nuga."
+    },
+    {
+     "de": "Wir schleifen den Tisch ab.",
+     "lv": "me lihvime lauda."
+    },
+    {
+     "de": "Das Kleid schleift über den Boden.",
+     "lv": "kleit vedeleb mööda põrandat."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "schleifen",
+     "meaning": "lihvima, teritama • mööda maad vedelema",
+     "example": "Er schleift das Messer. = Ta teritab nuga."
+    },
+    {
+     "word": "schärfen",
+     "meaning": "teritama",
+     "example": "Ich schärfe das Messer. = Ma teritan nuga."
+    },
+    {
+     "word": "ziehen",
+     "meaning": "vedama",
+     "example": "Er zieht den Wagen. = Ta veab käru."
+    }
+   ],
+   "tip": "Pinda, nuga või metalli töödeldakse → schleifen.",
+   "important": "schleifen ei ole sama, mis schlafen. schlafen tähendab magama.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "schleifen",
+     "purple": "lihvimist",
+     "red": "vedelemist"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "schleift",
+       "yellow": "Messer"
+      },
+      "lv": {
+       "purple": "teritab"
+      }
+     },
+     {
+      "de": {
+       "blue": "schleifen",
+       "yellow": "Tisch"
+      },
+      "lv": {
+       "purple": "lihvime"
+      }
+     },
+     {
+      "de": {
+       "blue": "schleift",
+       "yellow": "Kleid"
+      },
+      "lv": {
+       "red": "vedeleb"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "schleifen"
+      },
+      "meaning": {
+       "purple": "lihvima"
+      },
+      "example": {
+       "blue": "schleift",
+       "yellow": "Messer"
+      }
+     },
+     {
+      "word": {
+       "green": "schärfen"
+      },
+      "meaning": {
+       "purple": "teritama"
+      },
+      "example": {
+       "red": "schärfe",
+       "yellow": "Messer"
+      }
+     },
+     {
+      "word": {
+       "green": "ziehen"
+      },
+      "meaning": {
+       "purple": "vedama"
+      },
+      "example": {
+       "red": "zieht",
+       "yellow": "Wagen"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "schleifen",
+     "purple": "töödeldakse"
+    },
+    "important": {
+     "blue": "schleifen",
+     "red": "schlafen"
+    }
+   }
+  }
+ },
+ "b1-schmelzen": {
+  "de": "schmelzen",
+  "lv": "sulama",
+  "level": "B1",
+  "study": {
+   "id": "b1-schmelzen",
+   "layout": "standardStudy",
+   "translation": "sulama",
+   "explanation": "Põhiidee: schmelzen tähendab sulamist või sulatamist. Kui aine muutub ise, tõlgi 'sulama'; kui keegi seda teeb, tõlgi 'sulatama'.",
+   "examples": [
+    {
+     "de": "Der Schnee schmilzt in der Sonne.",
+     "lv": "lumi sulab päikese käes."
+    },
+    {
+     "de": "Ich schmelze die Butter.",
+     "lv": "ma sulatan võid."
+    },
+    {
+     "de": "Das Eis ist geschmolzen.",
+     "lv": "jää on sulanud."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "schmelzen",
+     "meaning": "sulama või sulatama",
+     "example": "Der Schnee schmilzt. = Lumi sulab."
+    },
+    {
+     "word": "auftauen",
+     "meaning": "üles sulatama",
+     "example": "Ich taue das Fleisch auf. = Ma sulatan liha üles."
+    },
+    {
+     "word": "kochen",
+     "meaning": "keetma",
+     "example": "Das Wasser kocht. = Vesi keeb."
+    }
+   ],
+   "tip": "Ise → sulab; objektiga → sulatab.",
+   "important": "schmelzen ei ole sama, mis auftauen. auftauen tähendab üles sulatamist.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "schmelzen",
+     "purple": "sulamist",
+     "red": "sulatamist"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "schmilzt",
+       "yellow": "Schnee"
+      },
+      "lv": {
+       "purple": "sulab"
+      }
+     },
+     {
+      "de": {
+       "blue": "schmelze",
+       "yellow": "Butter"
+      },
+      "lv": {
+       "red": "sulatan"
+      }
+     },
+     {
+      "de": {
+       "blue": "geschmolzen",
+       "yellow": "Eis"
+      },
+      "lv": {
+       "purple": "sulanud"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "schmelzen"
+      },
+      "meaning": {
+       "purple": "sulama"
+      },
+      "example": {
+       "blue": "schmilzt",
+       "yellow": "Schnee"
+      }
+     },
+     {
+      "word": {
+       "green": "auftauen"
+      },
+      "meaning": {
+       "purple": "üles sulatama"
+      },
+      "example": {
+       "red": "taue",
+       "yellow": "Fleisch"
+      }
+     },
+     {
+      "word": {
+       "green": "kochen"
+      },
+      "meaning": {
+       "purple": "keetma"
+      },
+      "example": {
+       "red": "kocht",
+       "yellow": "Wasser"
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "sulab",
+      "sulatab"
+     ]
+    },
+    "important": {
+     "blue": "schmelzen",
+     "red": "auftauen"
+    }
+   }
+  }
  }
 }

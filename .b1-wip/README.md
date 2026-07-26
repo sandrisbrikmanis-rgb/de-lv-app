@@ -13,7 +13,7 @@ work described in the task. It is **not** part of the shipped app and will be
 
 ## Status
 
-Batches completed: 220 / 324 study cards (67.9%).
+Batches completed: 230 / 324 study cards (71.0%).
 
 ## Process
 
