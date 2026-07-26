@@ -1477,7 +1477,7 @@ function renderCourseLessonFromData(target, lesson, exerciseAttribute, lessonId)
   if (!target || !lesson || !Array.isArray(lesson.sections)) return;
   const lessonNumber = getCourseLessonNumber(lessonId) || String(lesson?.id || "").match(/\d+/)?.[0];
   const displayTitle = lessonNumber ? getCourseLessonMenuTitle(lessonNumber) : (lesson.title || "");
-  const intro = lessonNumber ? getCourseLessonMenuDesc(lessonNumber) : (lesson.intro || lesson.description || "");
+  const intro = lesson.intro || lesson.description || "";
   const sectionsHtml = lesson.sections.map((section, index) => {
     const isExercise = Array.isArray(section.cards);
     const openAttr = index === 0 ? " open" : "";
@@ -5038,6 +5038,15 @@ function cardMatchScore(entry, queryKeys, rawQuery = "") {
   for (const alt of splitLvSearchAlternatives(study.translation)) bump(alt, 84);
   for (const alt of splitLvSearchAlternatives(study.title)) bump(alt, 82);
 
+  for (const nativeText of collectEntryNativeFrontTexts(entry)) {
+    bump(nativeText, 91);
+  }
+
+  const multilingualKeys = multilingualCardSearchIndex?.get(getCardIdentityKey(entry));
+  if (multilingualKeys && queryKeys.some((key) => multilingualKeys.has(key))) {
+    score = Math.max(score, 91);
+  }
+
   bump(entry.de_plural, 80);
   bump(study.subtitle, 78);
   bump(study.title, 78);
@@ -5081,6 +5090,151 @@ function preferExactGermanHomograph(entries, parsed, fallback) {
   if (formattedMatches.length === 1) return formattedMatches[0];
 
   return fallback;
+}
+
+const CARD_SEARCH_DATASETS = ["a1", "a2", "b1", "b2", "c1", "c2", "sentences"];
+
+function getCardIdentityKey(entry) {
+  const de = String(entry?.de || "").trim();
+  const level = String(entry?.level || "").trim();
+  if (!de || !level) return "";
+  return `${level}::${de}`;
+}
+
+function collectEntryNativeFrontTexts(entry) {
+  const study = entry?.study || {};
+  const texts = [];
+  const push = (value) => {
+    const raw = String(value || "").trim();
+    if (!raw) return;
+    texts.push(raw);
+    for (const alt of splitLvSearchAlternatives(raw)) {
+      if (alt) texts.push(alt);
+    }
+  };
+
+  push(entry.lv);
+  push(study.translation);
+  push(study.title);
+  for (const item of study.words || []) {
+    push(item.lv);
+    push(item.meaning);
+  }
+  for (const example of study.examples || []) {
+    push(example.lv);
+  }
+  for (const row of study.comparison || study.comparisonTable || []) {
+    push(row.lv);
+    push(row.meaning);
+    push(row.translation);
+  }
+  for (const item of study.tip?.rightItems || []) {
+    push(item.lv);
+  }
+
+  return [...new Set(texts)];
+}
+
+let multilingualCardSearchIndex = null;
+let multilingualCardSearchIndexPromise = null;
+
+async function pathExistsForCardSearch(url) {
+  if (!url) return false;
+  try {
+    const response = await fetch(url, { method: "HEAD", cache: "force-cache" });
+    return response.ok;
+  } catch {
+    return false;
+  }
+}
+
+async function fetchDatasetEntriesForCardSearch(path, globalName) {
+  if (!path || !globalName) return [];
+  try {
+    const response = await fetch(path, { cache: "force-cache" });
+    if (!response.ok) return [];
+    const code = await response.text();
+    const data = new Function(`${code}; return typeof ${globalName} !== "undefined" ? ${globalName} : [];`)();
+    return Array.isArray(data) ? data : [];
+  } catch (error) {
+    console.warn("[card-search] Failed to load dataset", path, error);
+    return [];
+  }
+}
+
+async function resolveDatasetPathForCardSearch(manifest, dataset) {
+  const primary = manifest.datasets?.[dataset] || null;
+  if (primary && await pathExistsForCardSearch(primary)) {
+    return primary;
+  }
+  const fallback = manifest.fallbackDatasets?.[dataset]
+    || window.AppDatasetRegistry?.getLvPath?.(dataset)
+    || null;
+  if (fallback && await pathExistsForCardSearch(fallback)) {
+    return fallback;
+  }
+  return null;
+}
+
+async function buildMultilingualCardSearchIndex() {
+  const index = new Map();
+  const loadedPaths = new Map();
+  const registry = window.AppLanguageRegistry?.active?.() || [];
+  const targetLanguage = window.AppDataLoader?.getTargetLanguage?.() || "de";
+
+  for (const langEntry of registry) {
+    const manifest = window.AppDatasetRegistry?.buildManifest?.(langEntry.code, {
+      targetLanguage,
+      dataStatus: langEntry.dataStatus || "fallback",
+    });
+    if (!manifest) continue;
+
+    for (const dataset of CARD_SEARCH_DATASETS) {
+      const path = await resolveDatasetPathForCardSearch(manifest, dataset);
+      if (!path) continue;
+
+      let items = loadedPaths.get(path);
+      if (!items) {
+        const globalName = window.AppDatasetRegistry.getGlobalName(dataset);
+        items = await fetchDatasetEntriesForCardSearch(path, globalName);
+        loadedPaths.set(path, items);
+      }
+
+      const entryType = dataset === "sentences" ? "sentence" : "word";
+      for (const item of items) {
+        const entry = normalizeEntry(item, entryType);
+        if (!entry.de || !entry.level) continue;
+        const key = getCardIdentityKey(entry);
+        if (!key) continue;
+        if (!index.has(key)) index.set(key, new Set());
+        const searchKeys = index.get(key);
+        for (const text of collectEntryNativeFrontTexts(entry)) {
+          for (const searchKey of cardSearchKeys(text)) {
+            searchKeys.add(searchKey);
+          }
+        }
+      }
+    }
+  }
+
+  return index;
+}
+
+async function ensureMultilingualCardSearchIndex() {
+  if (multilingualCardSearchIndex) return multilingualCardSearchIndex;
+  if (!multilingualCardSearchIndexPromise) {
+    multilingualCardSearchIndexPromise = buildMultilingualCardSearchIndex()
+      .then((index) => {
+        multilingualCardSearchIndex = index;
+        return index;
+      })
+      .catch((error) => {
+        multilingualCardSearchIndexPromise = null;
+        console.warn("[card-search] Multilingual index build failed:", error);
+        return new Map();
+      });
+  }
+  return multilingualCardSearchIndexPromise;
 }
 
 function resolveSearchCard(entry) {
@@ -5157,10 +5311,11 @@ function showStudyCardNotFoundMessage() {
   window.setTimeout(() => notice.remove(), 3200);
 }
 
-function activateStudyCardTestMode(value) {
+async function activateStudyCardTestMode(value) {
   const query = decodeCardQuery(value);
   if (!query) return false;
 
+  await ensureMultilingualCardSearchIndex();
   const card = findCardByQuery(query);
   if (!card) {
     console.warn("Study card not found:", query);
@@ -7737,7 +7892,8 @@ function bootAppUi() {
   const studyCardTestParam = new URLSearchParams(window.location.search).get("study")
     || new URLSearchParams(window.location.search).get("card");
 
-  if (!activateStudyCardTestMode(studyCardTestParam)) {
+  activateStudyCardTestMode(studyCardTestParam).then((activated) => {
+    if (activated) return;
     try {
       if (state.navScreen === "detail") {
         renderCard();
@@ -7751,7 +7907,7 @@ function bootAppUi() {
         elements.notice.textContent = t("notices.loadFailed");
       }
     }
-  }
+  });
 }
 
 window.bootAppUi = bootAppUi;

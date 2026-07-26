@@ -112,7 +112,7 @@
     return activeLanguage;
   }
 
-  function bootApplicationOnce() {
+  async function bootApplicationOnce() {
     if (bootStarted) return;
     bootStarted = true;
 
@@ -125,7 +125,7 @@
     const studyCardTestParam = new URLSearchParams(window.location.search).get("study")
       || new URLSearchParams(window.location.search).get("card");
 
-    if (typeof activateStudyCardTestMode === "function" && activateStudyCardTestMode(studyCardTestParam)) {
+    if (typeof activateStudyCardTestMode === "function" && await activateStudyCardTestMode(studyCardTestParam)) {
       return;
     }
 
