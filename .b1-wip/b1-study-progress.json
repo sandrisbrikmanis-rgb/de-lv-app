@@ -40047,5 +40047,1352 @@
     ]
    }
   }
+ },
+ "b1-tauchen": {
+  "de": "tauchen",
+  "lv": "sukelduma",
+  "level": "B1",
+  "study": {
+   "id": "b1-tauchen",
+   "layout": "standardStudy",
+   "translation": "sukelduma",
+   "explanation": "Põhiidee: tauchen tähendab vee alla sukeldumist. Objektiga tähendab see millegi vedelikku kastmist või sukeldamist.",
+   "examples": [
+    {
+     "de": "Wir tauchen im Meer.",
+     "lv": "me sukeldume merre."
+    },
+    {
+     "de": "Der Taucher taucht bis zum Wrack.",
+     "lv": "sukelduja sukeldub vrakini."
+    },
+    {
+     "de": "Sie taucht das Brot in die Suppe.",
+     "lv": "ta kastab leiba suppi."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "tauchen",
+     "meaning": "sukelduma • kastma",
+     "example": "Wir tauchen im See. = Me sukeldume järve."
+    },
+    {
+     "word": "schwimmen",
+     "meaning": "ujuma vee peal",
+     "example": "Ich schwimme im See. = Ma ujun järves."
+    },
+    {
+     "word": "eintauchen",
+     "meaning": "kastma, sukeldama",
+     "example": "Ich tauche den Pinsel ein. = Ma kastan pintsli."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Vee alla või vedelikku sisse: tauchen."
+     }
+    ]
+   },
+   "important": {
+    "text": "tauchen ei ole lihtsalt ujumine; see tähendab vee alla minemist."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "tauchen",
+     "purple": "sukeldumist",
+     "red": "kastmist"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "tauchen",
+       "yellow": "Meer"
+      },
+      "lv": {
+       "purple": "sukeldume"
+      }
+     },
+     {
+      "de": {
+       "blue": "taucht",
+       "green": "Taucher",
+       "yellow": "Wrack"
+      },
+      "lv": {
+       "purple": "sukeldub"
+      }
+     },
+     {
+      "de": {
+       "blue": "taucht",
+       "yellow": [
+        "Brot",
+        "Suppe"
+       ]
+      },
+      "lv": {
+       "red": "kastab"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "tauchen"
+      },
+      "meaning": {
+       "purple": "sukelduma"
+      },
+      "example": {
+       "blue": "tauchen"
+      }
+     },
+     {
+      "word": {
+       "green": "schwimmen"
+      },
+      "meaning": {
+       "purple": "ujuma"
+      },
+      "example": {
+       "red": "schwimme"
+      }
+     },
+     {
+      "word": {
+       "green": "eintauchen"
+      },
+      "meaning": {
+       "purple": "kastma"
+      },
+      "example": {
+       "red": "tauche",
+       "yellow": "Pinsel"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "tauchen",
+     "purple": "Vee alla"
+    },
+    "important": {
+     "blue": "tauchen",
+     "red": "ujuma"
+    }
+   }
+  }
+ },
+ "b1-taufen": {
+  "de": "taufen",
+  "lv": "ristima",
+  "level": "B1",
+  "study": {
+   "id": "b1-taufen",
+   "layout": "standardStudy",
+   "translation": "ristima",
+   "explanation": "Põhiidee: taufen tähendab religioosses tähenduses ristimist. Laiemalt kasutatakse seda ka siis, kui laevale, projektile või muule asjale antakse nimi.",
+   "examples": [
+    {
+     "de": "Das Kind wird am Sonntag getauft.",
+     "lv": "laps ristitakse pühapäeval."
+    },
+    {
+     "de": "Der Pfarrer tauft das Baby.",
+     "lv": "vaimulik ristib last."
+    },
+    {
+     "de": "Sie tauften das Schiff auf den Namen Emma.",
+     "lv": "nad nimetasid laeva Emmaks."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "taufen",
+     "meaning": "ristima • nime andma",
+     "example": "Das Kind wird getauft. = Laps ristitakse."
+    },
+    {
+     "word": "nennen",
+     "meaning": "nimetama",
+     "example": "Wir nennen ihn Max. = Me nimetame teda Maxiks."
+    },
+    {
+     "word": "heiraten",
+     "meaning": "abielluma",
+     "example": "Sie heiraten im Mai. = Nad abielluvad mais."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Kirikus või ametliku nime andmisel: taufen."
+     }
+    ]
+   },
+   "important": {
+    "text": "taufen ei ole sobima; see tähendab ristimist või nime andmist."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "taufen",
+     "purple": "ristimist",
+     "red": "nime annab"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "getauft",
+       "green": "Kind"
+      },
+      "lv": {
+       "purple": "ristitakse"
+      }
+     },
+     {
+      "de": {
+       "blue": "tauft",
+       "green": [
+        "Pfarrer",
+        "Baby"
+       ]
+      },
+      "lv": {
+       "purple": "ristib"
+      }
+     },
+     {
+      "de": {
+       "blue": "tauften",
+       "yellow": "Schiff"
+      },
+      "lv": {
+       "red": "nimetasid"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "taufen"
+      },
+      "meaning": {
+       "purple": "ristima"
+      },
+      "example": {
+       "blue": "getauft"
+      }
+     },
+     {
+      "word": {
+       "green": "nennen"
+      },
+      "meaning": {
+       "purple": "nimetama"
+      },
+      "example": {
+       "red": "nennen"
+      }
+     },
+     {
+      "word": {
+       "green": "heiraten"
+      },
+      "meaning": {
+       "purple": "abielluma"
+      },
+      "example": {
+       "red": "heiraten"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "taufen",
+     "purple": "Kirikus",
+     "red": "nime"
+    },
+    "important": {
+     "blue": "taufen",
+     "red": "sobima"
+    }
+   }
+  }
+ },
+ "b1-teilnehmen": {
+  "de": "teilnehmen",
+  "lv": "osalema",
+  "level": "B1",
+  "study": {
+   "id": "b1-teilnehmen",
+   "layout": "standardStudy",
+   "translation": "osalema",
+   "explanation": "Põhiidee: teilnehmen tähendab osalemist üritusel, kursusel, vestluses või võistlusel. Õige konstruktsioon on an + millel? teilnehmen.",
+   "examples": [
+    {
+     "de": "Ich nehme an dem Kurs teil.",
+     "lv": "ma osalen kursusel."
+    },
+    {
+     "de": "Viele Schüler nehmen am Wettbewerb teil.",
+     "lv": "paljud õpilased osalevad võistlusel."
+    },
+    {
+     "de": "Sie nimmt an der Besprechung teil.",
+     "lv": "ta osaleb koosolekul."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "teilnehmen",
+     "meaning": "osalema",
+     "example": "Ich nehme am Kurs teil. = Ma osalen kursusel."
+    },
+    {
+     "word": "mitmachen",
+     "meaning": "mitteametlikult osalema",
+     "example": "Machst du mit? = Kas sa lööd kaasa?"
+    },
+    {
+     "word": "besuchen",
+     "meaning": "külastama",
+     "example": "Ich besuche einen Kurs. = Ma külastan kursust."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Milleski osalemine: an + millel? teilnehmen."
+     }
+    ]
+   },
+   "important": {
+    "text": "Ütle an dem Kurs teilnehmen või am Kurs teilnehmen, mitte den Kurs teilnehmen."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "teilnehmen",
+     "purple": "osalemist",
+     "red": "an + millel?"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "nehme",
+        "teil"
+       ],
+       "yellow": "Kurs"
+      },
+      "lv": {
+       "purple": "osalen"
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "nehmen",
+        "teil"
+       ],
+       "green": "Schüler",
+       "yellow": "Wettbewerb"
+      },
+      "lv": {
+       "purple": "osalevad"
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "nimmt",
+        "teil"
+       ],
+       "yellow": "Besprechung"
+      },
+      "lv": {
+       "purple": "osaleb"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "teilnehmen"
+      },
+      "meaning": {
+       "purple": "osalema"
+      },
+      "example": {
+       "blue": [
+        "nehme",
+        "teil"
+       ],
+       "yellow": "Kurs"
+      }
+     },
+     {
+      "word": {
+       "green": "mitmachen"
+      },
+      "meaning": {
+       "purple": "kaasa lööma"
+      },
+      "example": {
+       "red": "mit"
+      }
+     },
+     {
+      "word": {
+       "green": "besuchen"
+      },
+      "meaning": {
+       "purple": "külastama"
+      },
+      "example": {
+       "red": "besuche",
+       "yellow": "Kurs"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "teilnehmen",
+     "red": "an + millel?"
+    },
+    "important": {
+     "blue": "teilnehmen",
+     "red": "den Kurs teilnehmen"
+    }
+   }
+  }
+ },
+ "b1-titel": {
+  "de": "Titel",
+  "de_article": "der",
+  "de_plural": "die Titel",
+  "lv": "pealkiri",
+  "level": "B1",
+  "study": {
+   "id": "b1-titel",
+   "layout": "standardStudy",
+   "translation": "pealkiri",
+   "explanation": "Põhiidee: der Titel tähendab raamatu, laulu, filmi või teksti pealkirja. See võib tähendada ka tiitlit, näiteks akadeemilist või spordititlit.",
+   "examples": [
+    {
+     "de": "Der Titel des Buches ist kurz.",
+     "lv": "raamatu pealkiri on lühike."
+    },
+    {
+     "de": "Ich kenne den Titel des Liedes nicht.",
+     "lv": "ma ei tea laulu pealkirja."
+    },
+    {
+     "de": "Er trägt den Titel Professor.",
+     "lv": "tal on professori tiitel."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "der Titel",
+     "meaning": "pealkiri • tiitel",
+     "example": "Der Titel ist bekannt. = Pealkiri on teada."
+    },
+    {
+     "word": "die Überschrift",
+     "meaning": "pealkiri",
+     "example": "Die Überschrift ist groß. = Pealkiri on suur."
+    },
+    {
+     "word": "der Name",
+     "meaning": "nimi",
+     "example": "Wie ist der Name? = Milline on nimi?"
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Raamatul, laulul või filmil on tavaliselt der Titel."
+     }
+    ]
+   },
+   "important": {
+    "text": "Artikli või peatüki pealkirja jaoks on sageli täpsem sõna die Überschrift."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "der Titel",
+     "purple": "pealkirja",
+     "red": "tiitlit"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Titel",
+       "yellow": "Buches"
+      },
+      "lv": {
+       "purple": "pealkiri"
+      }
+     },
+     {
+      "de": {
+       "blue": "Titel",
+       "yellow": "Liedes"
+      },
+      "lv": {
+       "purple": "pealkirja"
+      }
+     },
+     {
+      "de": {
+       "blue": "Titel",
+       "green": "Professor"
+      },
+      "lv": {
+       "red": "tiitel"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "der Titel"
+      },
+      "meaning": {
+       "purple": "pealkiri"
+      },
+      "example": {
+       "blue": "Titel"
+      }
+     },
+     {
+      "word": {
+       "green": "die Überschrift"
+      },
+      "meaning": {
+       "purple": "pealkiri"
+      },
+      "example": {
+       "red": "Überschrift"
+      }
+     },
+     {
+      "word": {
+       "green": "der Name"
+      },
+      "meaning": {
+       "purple": "nimi"
+      },
+      "example": {
+       "red": "Name"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "der Titel",
+     "yellow": [
+      "Raamatul",
+      "laulul",
+      "filmil"
+     ]
+    },
+    "important": {
+     "red": "die Überschrift"
+    }
+   }
+  }
+ },
+ "b1-ton": {
+  "de": "Ton",
+  "de_article": "der",
+  "de_plural": "die Töne",
+  "lv": "heli",
+  "level": "B1",
+  "study": {
+   "id": "b1-ton",
+   "layout": "standardStudy",
+   "translation": "heli",
+   "explanation": "Põhiidee: der Ton tähendab heli või tooni. Seda kasutatakse audio, hääle, muusika, värvitooni ja vestlustooni kohta.",
+   "examples": [
+    {
+     "de": "Der Ton ist zu leise.",
+     "lv": "heli on liiga vaikne."
+    },
+    {
+     "de": "Sprich bitte in einem ruhigen Ton.",
+     "lv": "palun räägi rahulikus toonis."
+    },
+    {
+     "de": "Dieser Ton passt gut zur Wandfarbe.",
+     "lv": "see toon sobib hästi seina värviga."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "der Ton",
+     "meaning": "heli, toon",
+     "example": "Der Ton ist laut. = Heli on vali."
+    },
+    {
+     "word": "die Stimme",
+     "meaning": "hääl",
+     "example": "Ihre Stimme ist ruhig. = Tema hääl on rahulik."
+    },
+    {
+     "word": "die Farbe",
+     "meaning": "värv",
+     "example": "Die Farbe ist hell. = Värv on hele."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Mida kuuled või kuidas kõlab vestlus: der Ton."
+     }
+    ]
+   },
+   "important": {
+    "text": "in einem Ton rääkides tähendab kõnetooni, mitte ainult heli kõrgust."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "der Ton",
+     "purple": "heli",
+     "red": "tooni"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Ton"
+      },
+      "lv": {
+       "purple": "Heli"
+      }
+     },
+     {
+      "de": {
+       "blue": "Ton",
+       "yellow": "ruhigen"
+      },
+      "lv": {
+       "red": "toonis"
+      }
+     },
+     {
+      "de": {
+       "blue": "Ton",
+       "yellow": "Wandfarbe"
+      },
+      "lv": {
+       "red": "toon"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "der Ton"
+      },
+      "meaning": {
+       "purple": "heli"
+      },
+      "example": {
+       "blue": "Ton"
+      }
+     },
+     {
+      "word": {
+       "green": "die Stimme"
+      },
+      "meaning": {
+       "purple": "hääl"
+      },
+      "example": {
+       "red": "Stimme"
+      }
+     },
+     {
+      "word": {
+       "green": "die Farbe"
+      },
+      "meaning": {
+       "purple": "värv"
+      },
+      "example": {
+       "red": "Farbe"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "der Ton",
+     "purple": "kõlab"
+    },
+    "important": {
+     "blue": "in einem Ton",
+     "red": "kõnetooni"
+    }
+   }
+  }
+ },
+ "b1-trauen": {
+  "de": "trauen",
+  "lv": "usaldama",
+  "level": "B1",
+  "study": {
+   "id": "b1-trauen",
+   "layout": "standardStudy",
+   "translation": "usaldama",
+   "explanation": "Põhiidee: trauen tähendab kellegi usaldamist või uskumist, et keegi millegagi hakkama saab. sich trauen tähendab julgemist.",
+   "examples": [
+    {
+     "de": "Ich traue dir.",
+     "lv": "ma usaldan sind."
+    },
+    {
+     "de": "Ich traue ihr diese Aufgabe zu.",
+     "lv": "ma usun, et ta suudab selle ülesandega hakkama saada."
+    },
+    {
+     "de": "Er traut sich nicht, allein zu sprechen.",
+     "lv": "ta ei julge üksi rääkida."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "trauen",
+     "meaning": "usaldama, uskuma võimetesse",
+     "example": "Ich traue dir. = Ma usaldan sind."
+    },
+    {
+     "word": "vertrauen",
+     "meaning": "sügavamalt usaldama",
+     "example": "Ich vertraue dir. = Ma usaldan sind."
+    },
+    {
+     "word": "sich trauen",
+     "meaning": "julgema",
+     "example": "Traust du dich? = Kas sa julged?"
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Kellelegi usalda: trauen; ise julge: sich trauen."
+     }
+    ]
+   },
+   "important": {
+    "text": "Ich traue dir = ma usaldan sind; ich traue mich = ma julgen."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "trauen",
+     "purple": "usaldamist",
+     "red": "sich trauen"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "traue",
+       "green": "dir"
+      },
+      "lv": {
+       "purple": "usaldan"
+      }
+     },
+     {
+      "de": {
+       "blue": "traue",
+       "green": "ihr",
+       "yellow": "Aufgabe"
+      },
+      "lv": {
+       "purple": "usun"
+      }
+     },
+     {
+      "de": {
+       "blue": "traut",
+       "red": "sich"
+      },
+      "lv": {
+       "red": "ei julge"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "trauen"
+      },
+      "meaning": {
+       "purple": "usaldama"
+      },
+      "example": {
+       "blue": "traue"
+      }
+     },
+     {
+      "word": {
+       "green": "vertrauen"
+      },
+      "meaning": {
+       "purple": "usaldama"
+      },
+      "example": {
+       "red": "vertraue"
+      }
+     },
+     {
+      "word": {
+       "green": "sich trauen"
+      },
+      "meaning": {
+       "purple": "julgema"
+      },
+      "example": {
+       "red": "dich"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "trauen",
+     "red": "sich trauen"
+    },
+    "important": {
+     "blue": [
+      "traue",
+      "traue mich"
+     ],
+     "purple": "usaldan",
+     "red": "julgen"
+    }
+   }
+  }
+ },
+ "b1-treffen-study": {
+  "de": "Treffen",
+  "de_article": "das",
+  "de_plural": "die Treffen",
+  "lv": "kohtumine",
+  "level": "B1",
+  "study": {
+   "id": "b1-treffen-study",
+   "layout": "standardStudy",
+   "translation": "kohtumine",
+   "explanation": [
+    "Põhiidee: das Treffen suure tähega ja artikliga das on nimisõna — kohtumine, koosviibimine.",
+    "treffen väikese tähega on tegusõna — kohtama/tabama/langetama (otsuse).",
+    "das Treffen't kasutatakse sageli planeeritud koosviibimise kohta (ein Treffen organisieren = kohtumist korraldama).",
+    "Mitmuses: die Treffen."
+   ],
+   "examples": [
+    {
+     "de": "Das Treffen findet um 18 Uhr statt.",
+     "lv": "kohtumine toimub kell 18."
+    },
+    {
+     "de": "Wir organisieren ein Treffen.",
+     "lv": "me korraldame kohtumist."
+    },
+    {
+     "de": "Ich treffe heute einen Freund.",
+     "lv": "ma kohtan täna sõpra."
+    },
+    {
+     "de": "Das nächste Treffen ist am Montag.",
+     "lv": "järgmine kohtumine on esmaspäeval."
+    }
+   ],
+   "tip": [
+    "das Treffen suure tähega — nimisõna (kohtumine).",
+    "treffen väikese tähega — tegusõna (kohtama)."
+   ],
+   "important": [
+    "das Treffen = kohtumine (nimisõna).",
+    "treffen = kohtama/tabama/langetama (tegusõna, vt ka 'eine Entscheidung treffen').",
+    "Mitmuses: die Treffen."
+   ],
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "das Treffen"
+     ],
+     "purple": [
+      "kohtumine",
+      "koosviibimine"
+     ],
+     "green": [
+      "treffen"
+     ]
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Treffen"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kohtumine"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Treffen"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kohtumist"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "treffe"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kohtan"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Treffen"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kohtumine"
+       ]
+      }
+     }
+    ],
+    "tip": [
+     {
+      "blue": [
+       "das Treffen"
+      ]
+     },
+     {
+      "green": [
+       "treffen"
+      ]
+     }
+    ],
+    "important": [
+     {
+      "blue": [
+       "das Treffen"
+      ]
+     },
+     {
+      "green": [
+       "treffen"
+      ]
+     },
+     {
+      "blue": [
+       "die Treffen"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "b1-treiben": {
+  "de": "treiben",
+  "lv": "tegelema",
+  "level": "B1",
+  "study": {
+   "id": "b1-treiben",
+   "layout": "standardStudy",
+   "translation": "tegelema",
+   "explanation": "Põhiidee: treiben tähendab sageli millegagi tegelemist, eriti spordiga. See võib tähendada ka ajamist, suunamist või millegi ebamäärase tegemist.",
+   "examples": [
+    {
+     "de": "Er treibt viel Sport.",
+     "lv": "ta tegeleb palju spordiga."
+    },
+    {
+     "de": "Der Wind treibt das Boot aufs Meer.",
+     "lv": "tuul ajab paati merre."
+    },
+    {
+     "de": "Was treibst du heute Abend?",
+     "lv": "mida sa täna õhtul teed?"
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Sport treiben on kindel ja väga sage väljend."
+     }
+    ]
+   },
+   "important": {
+    "text": "Was treibst du? on kõnekeelne küsimus selle kohta, mida inimene teeb."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "treiben",
+     "purple": "tegelemist",
+     "red": "ajamist"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "treibt",
+       "yellow": "Sport"
+      },
+      "lv": {
+       "purple": "tegeleb"
+      }
+     },
+     {
+      "de": {
+       "blue": "treibt",
+       "yellow": "Boot"
+      },
+      "lv": {
+       "red": "ajab"
+      }
+     },
+     {
+      "de": {
+       "blue": "treibst"
+      },
+      "lv": {
+       "purple": "teed"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "treiben"
+      },
+      "meaning": {
+       "purple": "tegelema"
+      },
+      "example": {
+       "blue": "treiben",
+       "yellow": "Sport"
+      }
+     },
+     {
+      "word": {
+       "green": "machen"
+      },
+      "meaning": {
+       "purple": "tegema"
+      },
+      "example": {
+       "red": "machst"
+      }
+     },
+     {
+      "word": {
+       "green": "antreiben"
+      },
+      "meaning": {
+       "purple": "ajama"
+      },
+      "example": {
+       "red": "treibt",
+       "green": "uns"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "Sport treiben",
+     "purple": "väljend"
+    },
+    "important": {
+     "blue": "Was treibst du?",
+     "purple": "teeb"
+    }
+   }
+  }
+ },
+ "b1-trennen": {
+  "de": "trennen",
+  "lv": "eraldama",
+  "level": "B1",
+  "study": {
+   "id": "b1-trennen",
+   "layout": "standardStudy",
+   "translation": "eraldama",
+   "explanation": [
+    "Põhiidee: trennen tähendab eraldamist — füüsiliselt või sümboolselt ühe asja eristamist teisest.",
+    "Asjade sortimisel ja jagamisel kasutatakse sageli trennen: eraldada paber plastist.",
+    "Seina, barjääri või piiriga tähendab trennen ruumi või territooriumi jagamist.",
+    "Refleksiivne vorm sich trennen tähendab lahku minemist — suhte katkestamist või eraldi minemist.",
+    "Tunnuste järgi eristamine on tavaliselt unterscheiden, mitte trennen."
+   ],
+   "examples": [
+    {
+     "de": "Bitte trenne Papier und Plastik.",
+     "lv": "palun eralda paber ja plast."
+    },
+    {
+     "de": "Eine Wand trennt die beiden Zimmer.",
+     "lv": "sein eraldab mõlemad toad."
+    },
+    {
+     "de": "Sie haben sich nach zehn Jahren getrennt.",
+     "lv": "nad läksid lahku pärast kümmet aastat."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "trennen",
+     "meaning": "eraldama, lahutama",
+     "example": "Die Wand trennt die Zimmer. = Sein eraldab toad."
+    },
+    {
+     "word": "unterscheiden",
+     "meaning": "tunnuste järgi eristama",
+     "example": "Ich kann die Farben unterscheiden. = Ma suudan eristada värve."
+    },
+    {
+     "word": "sich trennen",
+     "meaning": "lahku minema",
+     "example": "Sie trennen sich. = Nad lähevad lahku."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Kui asjad või inimesed lähevad eraldi, kasuta trennen."
+     }
+    ]
+   },
+   "important": {
+    "text": "sich trennen tähendab lahku minemist; unterscheiden tähendab tunnuste järgi eristamist."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "trennen",
+     "purple": "eraldamist",
+     "red": "sich trennen"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "trenne",
+       "yellow": [
+        "Papier",
+        "Plastik"
+       ]
+      },
+      "lv": {
+       "purple": "eralda"
+      }
+     },
+     {
+      "de": {
+       "blue": "trennt",
+       "yellow": "Zimmer"
+      },
+      "lv": {
+       "purple": "eraldab"
+      }
+     },
+     {
+      "de": {
+       "blue": "getrennt",
+       "red": "sich"
+      },
+      "lv": {
+       "red": "läksid lahku"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "trennen"
+      },
+      "meaning": {
+       "purple": "eraldama"
+      },
+      "example": {
+       "blue": "trennt"
+      }
+     },
+     {
+      "word": {
+       "green": "unterscheiden"
+      },
+      "meaning": {
+       "purple": "eristama"
+      },
+      "example": {
+       "red": "unterscheiden"
+      }
+     },
+     {
+      "word": {
+       "green": "sich trennen"
+      },
+      "meaning": {
+       "purple": "lahku minema"
+      },
+      "example": {
+       "red": "sich"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "trennen",
+     "purple": "eraldi"
+    },
+    "important": {
+     "red": [
+      "sich trennen",
+      "unterscheiden"
+     ]
+    }
+   }
+  }
+ },
+ "b1-übergeben": {
+  "de": "übergeben",
+  "lv": "üle andma",
+  "level": "B1",
+  "study": {
+   "id": "b1-übergeben",
+   "layout": "standardStudy",
+   "translation": "üle andma",
+   "explanation": "Põhiidee: übergeben tähendab kellelegi eseme, dokumendi või vastutuse üleandmist. sich übergeben tähendab oksendamist.",
+   "examples": [
+    {
+     "de": "Ich übergebe dir den Schlüssel.",
+     "lv": "ma annan sulle võtme üle."
+    },
+    {
+     "de": "Die Ärztin übergibt dem Kollegen den Bericht.",
+     "lv": "arst annab kolleegile aruande üle."
+    },
+    {
+     "de": "Ihm ist schlecht, er muss sich übergeben.",
+     "lv": "tal on halb, ta peab oksendama."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "übergeben",
+     "meaning": "üle andma",
+     "example": "Ich übergebe den Schlüssel. = Ma annan võtme üle."
+    },
+    {
+     "word": "geben",
+     "meaning": "andma",
+     "example": "Ich gebe dir das Buch. = Ma annan sulle raamatu."
+    },
+    {
+     "word": "sich übergeben",
+     "meaning": "oksendama",
+     "example": "Er muss sich übergeben. = Ta peab oksendama."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Ilma sich-ta on see üleandmine; sich-ga on see oksendamine."
+     }
+    ]
+   },
+   "important": {
+    "text": "sich übergeben on refleksiivne väljend hoopis teise tähendusega."
+   },
+   "sectionAccents": {
+    "explanation": {
+     "blue": "übergeben",
+     "purple": "üle andmist",
+     "red": "sich übergeben"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "übergebe",
+       "yellow": "Schlüssel"
+      },
+      "lv": {
+       "purple": "annan üle"
+      }
+     },
+     {
+      "de": {
+       "blue": "übergibt",
+       "green": "Kollegen",
+       "yellow": "Bericht"
+      },
+      "lv": {
+       "purple": "annab üle"
+      }
+     },
+     {
+      "de": {
+       "blue": "übergeben",
+       "red": "sich"
+      },
+      "lv": {
+       "red": "peab oksendama"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "übergeben"
+      },
+      "meaning": {
+       "purple": "üle andma"
+      },
+      "example": {
+       "blue": "übergebe"
+      }
+     },
+     {
+      "word": {
+       "green": "geben"
+      },
+      "meaning": {
+       "purple": "andma"
+      },
+      "example": {
+       "red": "gebe"
+      }
+     },
+     {
+      "word": {
+       "green": "sich übergeben"
+      },
+      "meaning": {
+       "purple": "oksendama"
+      },
+      "example": {
+       "red": "sich"
+      }
+     }
+    ],
+    "tip": {
+     "purple": "üle andmine",
+     "red": "oksendamine"
+    },
+    "important": {
+     "red": "sich übergeben"
+    }
+   }
+  }
  }
 }
