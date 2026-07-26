@@ -607,7 +607,7 @@ const VERB_ENTRIES = [
       "lv": "ta tundis"
     },
     "imperfektKonjunktiv": {
-      "de": "kannte",
+      "de": "kennte",
       "lv": "ta tundis"
     },
     "partizipVergangenheit": {
@@ -761,7 +761,7 @@ const VERB_ENTRIES = [
       "lv": "ta põles"
     },
     "imperfektKonjunktiv": {
-      "de": "brannte",
+      "de": "brennte",
       "lv": "ta põles"
     },
     "partizipVergangenheit": {
@@ -1021,7 +1021,7 @@ const VERB_ENTRIES = [
       "lv": "ta sööb"
     },
     "imperfektIndikativ": {
-      "de": "er ass",
+      "de": "er aß",
       "lv": "ta sõi"
     },
     "imperfektKonjunktiv": {
@@ -1197,7 +1197,7 @@ const VERB_ENTRIES = [
       "lv": "ta sööb / kugistab"
     },
     "imperfektIndikativ": {
-      "de": "er frass",
+      "de": "er fraß",
       "lv": "ta sõi / kugistas"
     },
     "imperfektKonjunktiv": {
@@ -1725,7 +1725,7 @@ const VERB_ENTRIES = [
       "lv": "ta mõõdab"
     },
     "imperfektIndikativ": {
-      "de": "er mass",
+      "de": "er maß",
       "lv": "ta mõõtis"
     },
     "imperfektKonjunktiv": {
@@ -2979,7 +2979,7 @@ const VERB_ENTRIES = [
       "lv": "ta istub"
     },
     "imperfektIndikativ": {
-      "de": "er sass",
+      "de": "er saß",
       "lv": "ta istus"
     },
     "imperfektKonjunktiv": {

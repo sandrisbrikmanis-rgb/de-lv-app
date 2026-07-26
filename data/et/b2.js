@@ -50,7 +50,7 @@ const B2_WORDS = [
   {
     "de": "Akrobatik",
     "de_article": "die",
-    "de_plural": "die Akrobatiken",
+    "de_plural": null,
     "lv": "akrobaatika",
     "level": "B2"
   },
@@ -1530,7 +1530,7 @@ const B2_WORDS = [
   {
     "de": "Bewusstsein",
     "de_article": "das",
-    "de_plural": "die Bewusstseine",
+    "de_plural": null,
     "lv": "teadvus",
     "level": "B2"
   },
@@ -2656,7 +2656,7 @@ const B2_WORDS = [
   {
     "de": "Doping",
     "de_article": "das",
-    "de_plural": "die Dopinge",
+    "de_plural": null,
     "lv": "doping",
     "level": "B2"
   },
@@ -2935,7 +2935,7 @@ const B2_WORDS = [
   {
     "de": "Dumping",
     "de_article": "das",
-    "de_plural": "die Dumpinge",
+    "de_plural": null,
     "lv": "dumping",
     "level": "B2"
   },
@@ -3315,7 +3315,7 @@ const B2_WORDS = [
   {
     "de": "Eifer",
     "de_article": "der",
-    "de_plural": "die Eifer",
+    "de_plural": null,
     "lv": "hoolsus • usinus • kirg • õhin • innukus",
     "level": "B2"
   },
@@ -7268,7 +7268,7 @@ const B2_WORDS = [
   {
     "de": "Heck",
     "de_article": "das",
-    "de_plural": "die Hecke",
+    "de_plural": "die Hecks",
     "lv": "laeva ahter",
     "level": "B2"
   },
@@ -9823,7 +9823,7 @@ const B2_WORDS = [
   {
     "de": "Oberst",
     "de_article": "der",
-    "de_plural": "die Oberste",
+    "de_plural": "die Obersten",
     "lv": "kolonel",
     "level": "B2"
   },
@@ -10162,6 +10162,7 @@ const B2_WORDS = [
   {
     "de": "Pfahlbau",
     "de_article": "der",
+    "de_plural": "die Pfahlbauten",
     "lv": "vaiehitis",
     "level": "B2"
   },
