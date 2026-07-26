@@ -900,7 +900,7 @@ const C2_WORDS = [
   {
     "de": "Geistesgegenwart",
     "de_article": "die",
-    "lv": "kohaloleku vaim",
+    "lv": "vaimne kohalolek",
     "level": "C2"
   },
   {

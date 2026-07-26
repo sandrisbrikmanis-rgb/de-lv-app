@@ -2580,7 +2580,7 @@ const B2_WORDS = [
     "de": "Direktion",
     "de_article": "die",
     "de_plural": "die Direktionen",
-    "lv": "kaassõna rektsioon",
+    "lv": "juhatus",
     "level": "B2"
   },
   {
@@ -6141,14 +6141,176 @@ const B2_WORDS = [
     "de_article": "der",
     "de_plural": "die Genossen",
     "lv": "liige",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-genosse",
+      "layout": "standardStudy",
+      "translation": "liige",
+      "explanation": "Põhiidee: Genosse tähendab eriti poliitilises või ajaloolises kontekstis seltsilist või parteiülast. Mitglied on neutraalne liige; Kamerad on sõjaväelises või sõbralikus tähenduses seltsimees.",
+      "examples": [
+        {
+          "de": "Genosse Müller spricht heute.",
+          "lv": "seltsiline Müller kõneleb täna."
+        },
+        {
+          "de": "Er ist Mitglied im Verein.",
+          "lv": "ta on ühingu liige."
+        },
+        {
+          "de": "Er war mein Kamerad in der Armee.",
+          "lv": "ta oli minu seltsimees armees."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Genosse",
+          "meaning": "seltsiline / parteiülane",
+          "example": "Genosse Müller spricht. = Seltsiline Müller kõneleb."
+        },
+        {
+          "word": "das Mitglied",
+          "meaning": "liige",
+          "example": "Er ist Mitglied im Verein. = Ta on ühingu liige."
+        },
+        {
+          "word": "der Kamerad",
+          "meaning": "seltsimees",
+          "example": "Er war mein Kamerad. = Ta oli minu seltsimees."
+        }
+      ],
+      "tip": "Genosse on tugevalt seotud poliitilise või ajaloolise kontekstiga.",
+      "important": "Ära kasuta Genosse lihtsalt sõna liige asemel. Mitglied on neutraalsem.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": "Genosse",
+          "purple": "seltsiline",
+          "green": "Mitglied",
+          "yellow": "liige",
+          "red": "Kamerad"
+        },
+        "examples": [
+          {
+            "de": { "blue": "Genosse" },
+            "lv": { "purple": "seltsiline" }
+          },
+          {
+            "de": { "green": "Mitglied" },
+            "lv": { "yellow": "liige" }
+          },
+          {
+            "de": { "red": "Kamerad" },
+            "lv": { "purple": "seltsimees" }
+          }
+        ],
+        "comparison": [
+          {
+            "word": { "blue": "der Genosse" },
+            "meaning": { "purple": "seltsiline" },
+            "example": { "blue": "Genosse" }
+          },
+          {
+            "word": { "green": "das Mitglied" },
+            "meaning": { "yellow": "liige" },
+            "example": { "green": "Mitglied" }
+          },
+          {
+            "word": { "red": "der Kamerad" },
+            "meaning": { "purple": "seltsimees" },
+            "example": { "red": "Kamerad" }
+          }
+        ],
+        "tip": { "blue": "Genosse", "green": "Mitglied" },
+        "important": { "blue": "Genosse", "green": "Mitglied" }
+      }
+    }
   },
   {
     "de": "Genossin",
     "de_article": "die",
     "de_plural": "die Genossinnen",
     "lv": "liige (naine)",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-genossin",
+      "layout": "standardStudy",
+      "translation": "liige (naine)",
+      "explanation": "Põhiidee: die Genossin on naissoost Genosse. Nagu Genosse, tähendab see eriti poliitilises või ajaloolises kontekstis seltsilist või parteiülast.",
+      "examples": [
+        {
+          "de": "Genossin Schmidt spricht heute.",
+          "lv": "seltsiline Schmidt kõneleb täna."
+        },
+        {
+          "de": "Sie ist Mitglied im Verein.",
+          "lv": "ta on ühingu liige."
+        },
+        {
+          "de": "Sie war meine Kameradin in der Armee.",
+          "lv": "ta oli minu seltsimees armees."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Genossin",
+          "meaning": "seltsiline (naine)",
+          "example": "Genossin Schmidt spricht. = Seltsiline Schmidt kõneleb."
+        },
+        {
+          "word": "das Mitglied",
+          "meaning": "liige",
+          "example": "Sie ist Mitglied im Verein. = Ta on ühingu liige."
+        },
+        {
+          "word": "die Kameradin",
+          "meaning": "seltsimees (naine)",
+          "example": "Sie war meine Kameradin. = Ta oli minu seltsimees."
+        }
+      ],
+      "tip": "Genossin järgib sama loogikat nagu Genosse, aga naissoost vormis.",
+      "important": "Ära kasuta Genossin lihtsalt sõna liige asemel. Mitglied on neutraalsem.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": "Genossin",
+          "purple": "seltsiline",
+          "green": "Mitglied",
+          "yellow": "liige",
+          "red": "Kameradin"
+        },
+        "examples": [
+          {
+            "de": { "blue": "Genossin" },
+            "lv": { "purple": "seltsiline" }
+          },
+          {
+            "de": { "green": "Mitglied" },
+            "lv": { "yellow": "liige" }
+          },
+          {
+            "de": { "red": "Kameradin" },
+            "lv": { "purple": "seltsimees" }
+          }
+        ],
+        "comparison": [
+          {
+            "word": { "blue": "die Genossin" },
+            "meaning": { "purple": "seltsiline" },
+            "example": { "blue": "Genossin" }
+          },
+          {
+            "word": { "green": "das Mitglied" },
+            "meaning": { "yellow": "liige" },
+            "example": { "green": "Mitglied" }
+          },
+          {
+            "word": { "red": "die Kameradin" },
+            "meaning": { "purple": "seltsimees" },
+            "example": { "red": "Kameradin" }
+          }
+        ],
+        "tip": { "blue": "Genossin", "green": "Mitglied" },
+        "important": { "blue": "Genossin", "green": "Mitglied" }
+      }
+    }
   },
   {
     "de": "genügsam",
@@ -6434,7 +6596,7 @@ const B2_WORDS = [
     "de": "Getriebe",
     "de_article": "das",
     "de_plural": "die Getriebe",
-    "lv": "mootor",
+    "lv": "käigukast",
     "level": "B2"
   },
   {
@@ -6897,7 +7059,7 @@ const B2_WORDS = [
     "de": "Grundriss",
     "de_article": "der",
     "de_plural": "die Grundrisse",
-    "lv": "õhuke",
+    "lv": "põhiplaan",
     "level": "B2"
   },
   {
@@ -9667,13 +9829,75 @@ const B2_WORDS = [
     "de_article": "der",
     "de_plural": "die Neger",
     "lv": "neeger",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-neger",
+      "layout": "standardStudy",
+      "translation": "neeger",
+      "explanation": "Põhiidee: Neger on ajalooline ja tänapäeval solvav sõna tumedanahalise inimese kohta. Saksa keeles ei kasutata seda sõna enam neutraalses või kaasaegses keeles.",
+      "examples": [
+        {
+          "de": "In alten Texten steht das Wort Neger.",
+          "lv": "vanades tekstides esineb sõna neeger."
+        },
+        {
+          "de": "Heute sagt man schwarze Person oder Person afrikanischer Herkunft.",
+          "lv": "tänapäeval öeldakse mustanahaline inimene või Aafrika päritolu inimene."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Neger",
+          "meaning": "ajalooline, solvav",
+          "example": "In alten Texten steht Neger. = Vanades tekstides esineb neeger."
+        },
+        {
+          "word": "schwarze Person",
+          "meaning": "kaasaegne, neutraalne",
+          "example": "Heute sagt man schwarze Person. = Tänapäeval öeldakse mustanahaline inimene."
+        }
+      ],
+      "tip": "Õpi sõna ajalooliseks kontekstiks, aga ära kasuta seda igapäevases keeles.",
+      "important": "Neger on tänapäeval solvav. Kaasaegses saksa keeles kasuta neutraalsemaid väljendeid.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": "Neger",
+          "purple": "neeger",
+          "red": "solvav",
+          "green": "schwarze Person"
+        },
+        "examples": [
+          {
+            "de": { "blue": "Neger" },
+            "lv": { "purple": "neeger" }
+          },
+          {
+            "de": { "green": "schwarze Person" },
+            "lv": { "purple": "mustanahaline inimene" }
+          }
+        ],
+        "comparison": [
+          {
+            "word": { "blue": "Neger" },
+            "meaning": { "red": "solvav" },
+            "example": { "blue": "Neger" }
+          },
+          {
+            "word": { "green": "schwarze Person" },
+            "meaning": { "purple": "neutraalne" },
+            "example": { "green": "schwarze Person" }
+          }
+        ],
+        "tip": { "blue": "Neger", "red": "solvav" },
+        "important": { "blue": "Neger", "red": "solvav", "green": "schwarze Person" }
+      }
+    }
   },
   {
     "de": "Nenner",
     "de_article": "der",
     "de_plural": "die Nenner",
-    "lv": "hüüdja",
+    "lv": "nimetaja",
     "level": "B2"
   },
   {
@@ -10027,7 +10251,87 @@ const B2_WORDS = [
     "de_article": "die",
     "de_plural": "die Pachten",
     "lv": "üür",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-pacht",
+      "layout": "standardStudy",
+      "translation": "üür",
+      "explanation": "Põhiidee: die Pacht on rendileping maatüki, põllu või ettevõtte jaoks. die Miete on eluruumi üür. Pacht rõhutab kasutusõigust, mitte elamispinda.",
+      "examples": [
+        {
+          "de": "Er zahlt die Pacht für das Feld.",
+          "lv": "ta maksab põllu eest renti."
+        },
+        {
+          "de": "Die Miete für die Wohnung ist hoch.",
+          "lv": "korteri üür on kõrge."
+        },
+        {
+          "de": "Der Pachtvertrag läuft zehn Jahre.",
+          "lv": "rendileping kehtib kümme aastat."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Pacht",
+          "meaning": "rent (maatükk, ettevõte)",
+          "example": "Die Pacht für das Feld ist hoch. = Põllu rent on kõrge."
+        },
+        {
+          "word": "die Miete",
+          "meaning": "üür (eluruum)",
+          "example": "Die Miete ist hoch. = Üür on kõrge."
+        },
+        {
+          "word": "der Pachtvertrag",
+          "meaning": "rendileping",
+          "example": "Der Pachtvertrag läuft zehn Jahre. = Rendileping kehtib kümme aastat."
+        }
+      ],
+      "tip": "Pacht on maatüki või ettevõtte jaoks; Miete on eluruumi jaoks.",
+      "important": "Ära tõlgi Pacht sõnaga üür, kui jutt on põllust või ettevõttest.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": "die Pacht",
+          "purple": "rent",
+          "green": "die Miete",
+          "yellow": "üür"
+        },
+        "examples": [
+          {
+            "de": { "blue": "Pacht", "yellow": "Feld" },
+            "lv": { "purple": "renti" }
+          },
+          {
+            "de": { "green": "Miete", "yellow": "Wohnung" },
+            "lv": { "yellow": "üür" }
+          },
+          {
+            "de": { "blue": "Pachtvertrag" },
+            "lv": { "purple": "rendileping" }
+          }
+        ],
+        "comparison": [
+          {
+            "word": { "blue": "die Pacht" },
+            "meaning": { "purple": "rent" },
+            "example": { "blue": "Pacht" }
+          },
+          {
+            "word": { "green": "die Miete" },
+            "meaning": { "yellow": "üür" },
+            "example": { "green": "Miete" }
+          },
+          {
+            "word": { "blue": "der Pachtvertrag" },
+            "meaning": { "purple": "rendileping" },
+            "example": { "blue": "Pachtvertrag" }
+          }
+        ],
+        "tip": { "blue": "Pacht", "green": "Miete" },
+        "important": { "blue": "Pacht", "green": "Miete" }
+      }
+    }
   },
   {
     "de": "Pachtvertrag",
@@ -10462,7 +10766,7 @@ const B2_WORDS = [
     "de": "Rain",
     "de_article": "der",
     "de_plural": "die Raine",
-    "lv": "eht",
+    "lv": "põlluveer",
     "level": "B2"
   },
   {
@@ -11143,7 +11447,7 @@ const B2_WORDS = [
   },
   {
     "de": "schmollen",
-    "lv": "möllama",
+    "lv": "mossitama",
     "level": "B2"
   },
   {
@@ -14043,7 +14347,7 @@ const B2_WORDS = [
     "de": "Wade",
     "de_article": "die",
     "de_plural": "die Waden",
-    "lv": "mari (kalamari)",
+    "lv": "säär",
     "level": "B2"
   },
   {

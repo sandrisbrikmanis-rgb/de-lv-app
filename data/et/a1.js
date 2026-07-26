@@ -8062,7 +8062,7 @@ const A1_WORDS = [
     "de": "Gras",
     "de_article": "das",
     "de_plural": "die Gräser",
-    "lv": "rohi • saal",
+    "lv": "rohi",
     "level": "A1"
   },
   {
@@ -15872,12 +15872,12 @@ const A1_WORDS = [
   },
   {
     "de": "müssen",
-    "lv": "vajama",
+    "lv": "pidama",
     "level": "A1",
     "study": {
       "id": "a1-müssen",
       "layout": "standardStudy",
-      "translation": "vajama",
+      "translation": "pidama",
       "explanation": [
         "Põhiidee: müssen tähendab, et midagi tuleb teha.",
         "Eesti keeles tõlgitakse müssen sageli väljenditega “ma pean...”, “sa pead...”, “me peame...”.",
@@ -15905,7 +15905,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "müssen",
-          "meaning": "vajama / tegema pidama",
+          "meaning": "pidama",
           "example": "Ich muss gehen."
         },
         {
@@ -26444,12 +26444,12 @@ const A1_WORDS = [
   {
     "de": "Essen",
     "de_article": "das",
-    "lv": "toit • eine",
+    "lv": "toit",
     "level": "A1",
     "study": {
       "id": "a1-essen-study",
       "layout": "standardStudy",
-      "translation": "toit • eine",
+      "translation": "toit",
       "explanation": [
         "Põhiidee: Nimisõna — toit või terve söögikord.",
         "das Essen tähendab peamiselt: toitu tarbima.",

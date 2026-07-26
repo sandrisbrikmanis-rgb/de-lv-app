@@ -192,7 +192,7 @@ const C1_WORDS = [
     "de": "Kinderschänder",
     "de_article": "der",
     "de_plural": "die Kinderschänder",
-    "lv": "pedofiil",
+    "lv": "lapse väärkohtleja",
     "level": "C1"
   },
   {
@@ -459,7 +459,7 @@ const C1_WORDS = [
     "de": "Gepäckträger",
     "de_article": "der",
     "de_plural": "die Gepäckträger",
-    "lv": "pagasiruum",
+    "lv": "pagasiraam",
     "level": "C1"
   },
   {
@@ -1254,7 +1254,87 @@ const C1_WORDS = [
     "de_article": "der",
     "de_plural": "die Wettbewerbe",
     "lv": "konkurss",
-    "level": "C1"
+    "level": "C1",
+    "study": {
+      "id": "c1-wettbewerb",
+      "layout": "standardStudy",
+      "translation": "konkurss",
+      "explanation": "Põhiidee: der Wettbewerb võib tähendada töökonkurssi, turukonkurentsi või võistlust. Täpne tähendus sõltub kontekstist.",
+      "examples": [
+        {
+          "de": "Viele Schüler nehmen am Wettbewerb teil.",
+          "lv": "paljud õpilased osalevad võistlusel."
+        },
+        {
+          "de": "Die Firma steht im starken Wettbewerb.",
+          "lv": "ettevõte on tugevas konkurentsis."
+        },
+        {
+          "de": "Er hat den Wettbewerb um die Stelle gewonnen.",
+          "lv": "ta võitis töökoha konkursi."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Wettbewerb",
+          "meaning": "konkurss (töökoha jaoks)",
+          "example": "Er hat den Wettbewerb gewonnen. = Ta võitis konkursi."
+        },
+        {
+          "word": "der Wettbewerb",
+          "meaning": "konkurents (turul)",
+          "example": "Die Firma steht im Wettbewerb. = Ettevõte on konkurentsis."
+        },
+        {
+          "word": "der Wettbewerb",
+          "meaning": "võistlus",
+          "example": "Viele nehmen am Wettbewerb teil. = Paljud osalevad võistlusel."
+        }
+      ],
+      "tip": "Kontekst näitab, kas tegu on töökonkursi, turukonkurentsi või võistlusega.",
+      "important": "Üks saksa sõna Wettbewerb võib tähendada nii konkurssi, konkurentsi kui ka võistlust.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": "der Wettbewerb",
+          "purple": "konkurss",
+          "green": "konkurents",
+          "yellow": "võistlus"
+        },
+        "examples": [
+          {
+            "de": { "blue": "Wettbewerb" },
+            "lv": { "yellow": "võistlusel" }
+          },
+          {
+            "de": { "blue": "Wettbewerb" },
+            "lv": { "green": "konkurentsis" }
+          },
+          {
+            "de": { "blue": "Wettbewerb", "yellow": "Stelle" },
+            "lv": { "purple": "konkursi" }
+          }
+        ],
+        "comparison": [
+          {
+            "word": { "blue": "der Wettbewerb" },
+            "meaning": { "purple": "konkurss" },
+            "example": { "blue": "Wettbewerb" }
+          },
+          {
+            "word": { "blue": "der Wettbewerb" },
+            "meaning": { "green": "konkurents" },
+            "example": { "blue": "Wettbewerb" }
+          },
+          {
+            "word": { "blue": "der Wettbewerb" },
+            "meaning": { "yellow": "võistlus" },
+            "example": { "blue": "Wettbewerb" }
+          }
+        ],
+        "tip": { "blue": "Wettbewerb" },
+        "important": { "blue": "Wettbewerb", "purple": "konkurss", "green": "konkurents", "yellow": "võistlus" }
+      }
+    }
   },
   {
     "de": "sich zufrieden geben",
@@ -1877,7 +1957,7 @@ const C1_WORDS = [
     "de": "Dachgepäckträger",
     "de_article": "der",
     "de_plural": "die Dachgepäckträger",
-    "lv": "katusepagasiruum",
+    "lv": "katuse pagasiraam",
     "level": "C1"
   },
   {
