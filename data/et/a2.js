@@ -24857,12 +24857,12 @@ const A2_WORDS = [
   },
   {
     "de": "drehen",
-    "lv": "lõikama",
+    "lv": "keerama • pöörama",
     "level": "A2",
     "study": {
       "id": "a2-drehen",
       "layout": "standardStudy",
-      "translation": "lõikama",
+      "translation": "keerama • pöörama",
       "explanation": [
         "Põhiidee: drehen tähendab midagi ümber telje keerama või pöörama, mitte noaga lõikama.",
         "Seda kasutatakse, kui miski pöörleb või seda keeratakse.",
@@ -25546,12 +25546,12 @@ const A2_WORDS = [
   },
   {
     "de": "dünn",
-    "lv": "plaan",
+    "lv": "õhuke",
     "level": "A2",
     "study": {
       "id": "a2-dünn",
       "layout": "standardStudy",
-      "translation": "plaan",
+      "translation": "õhuke",
       "explanation": [
         "Põhiidee: dünn tähendus muutub olenevalt asjast: inimene on kõhn, paber on õhuke, juuksed võivad olla hõredad, supp võib olla vedel.",
         "Inimese või looma kohta tähendab dünn kõhn.",
@@ -25628,7 +25628,7 @@ const A2_WORDS = [
               "dünn"
             ],
             "purple": [
-              "plaan",
+              "õhuke",
               "peenike",
               "harv",
               "vedel"
@@ -40013,8 +40013,108 @@ const A2_WORDS = [
     "de": "Job",
     "de_article": "der",
     "de_plural": "die Jobs",
-    "lv": "ajutine töö",
-    "level": "A2"
+    "lv": "darbs",
+    "level": "A2",
+    "study": {
+      "id": "a2-job",
+      "layout": "standardStudy",
+      "translation": "darbs",
+      "explanation": "Põhiidee: der Job on igapäevane sõna töökoha või töö jaoks. See ei tähenda ainult ajutist tööd. Beruf on amet või elukutse.",
+      "examples": [
+        {
+          "de": "Der Job ist gut bezahlt.",
+          "lv": "töö on hästi tasustatud."
+        },
+        {
+          "de": "Er sucht einen neuen Job.",
+          "lv": "ta otsib uut tööd."
+        },
+        {
+          "de": "Sein Beruf ist Lehrer.",
+          "lv": "tema amet on õpetaja."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Job",
+          "meaning": "töö / töökoht",
+          "example": "Der Job ist anstrengend. = Töö on väsitav."
+        },
+        {
+          "word": "der Beruf",
+          "meaning": "amet / elukutse",
+          "example": "Sein Beruf ist Arzt. = Tema amet on arst."
+        },
+        {
+          "word": "der Minijob",
+          "meaning": "väike osaline töö",
+          "example": "Sie hat einen Minijob. = Tal on väike osaline töö."
+        },
+        {
+          "word": "der Nebenjob",
+          "meaning": "töö kõrvalt",
+          "example": "Er hat einen Nebenjob. = Tal on töö kõrvalt."
+        },
+        {
+          "word": "der Aushilfsjob",
+          "meaning": "ajutine abitöö",
+          "example": "Er macht einen Aushilfsjob. = Ta teeb ajutist abitööd."
+        }
+      ],
+      "tip": "Job on laiem ja igapäevasem kui Beruf.",
+      "important": "Job ei tähenda alati ajutist tööd. Beruf rõhutab ametit või elukutset.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": "der Job",
+          "purple": "töö",
+          "green": "Beruf",
+          "yellow": "amet"
+        },
+        "examples": [
+          {
+            "de": { "blue": "Job" },
+            "lv": { "purple": "töö" }
+          },
+          {
+            "de": { "blue": "Job" },
+            "lv": { "purple": "tööd" }
+          },
+          {
+            "de": { "green": "Beruf" },
+            "lv": { "yellow": "amet" }
+          }
+        ],
+        "comparison": [
+          {
+            "word": { "blue": "der Job" },
+            "meaning": { "purple": "töö" },
+            "example": { "blue": "Job" }
+          },
+          {
+            "word": { "green": "der Beruf" },
+            "meaning": { "yellow": "amet" },
+            "example": { "green": "Beruf" }
+          },
+          {
+            "word": { "blue": "der Minijob" },
+            "meaning": { "purple": "osaline töö" },
+            "example": { "blue": "Minijob" }
+          },
+          {
+            "word": { "blue": "der Nebenjob" },
+            "meaning": { "purple": "töö kõrvalt" },
+            "example": { "blue": "Nebenjob" }
+          },
+          {
+            "word": { "blue": "der Aushilfsjob" },
+            "meaning": { "purple": "ajutine abitöö" },
+            "example": { "blue": "Aushilfsjob" }
+          }
+        ],
+        "tip": { "blue": "Job", "green": "Beruf" },
+        "important": { "blue": "Job", "green": "Beruf" }
+      }
+    }
   },
   {
     "de": "jobben",
@@ -52805,7 +52905,7 @@ const A2_WORDS = [
     "de": "Rock",
     "de_article": "der",
     "de_plural": "die Röcke",
-    "lv": "seelik • jakk",
+    "lv": "seelik",
     "level": "A2"
   },
   {
@@ -61747,7 +61847,7 @@ const A2_WORDS = [
     "de": "Strumpf",
     "de_article": "der",
     "de_plural": "die Strümpfe",
-    "lv": "sokk",
+    "lv": "sukk",
     "level": "A2"
   },
   {
@@ -62211,7 +62311,7 @@ const A2_WORDS = [
     "de": "Tanne",
     "de_article": "die",
     "de_plural": "die Tannen",
-    "lv": "kuusk",
+    "lv": "nulg",
     "level": "A2"
   },
   {
@@ -68459,7 +68559,7 @@ const A2_WORDS = [
   },
   {
     "de": "wahr",
-    "lv": "siiras",
+    "lv": "tõsi • tõene",
     "level": "A2"
   },
   {
@@ -71251,7 +71351,7 @@ const A2_WORDS = [
     "de": "Zuhause",
     "de_article": "das",
     "de_plural": "die Zuhause",
-    "lv": "maja",
+    "lv": "kodu",
     "level": "A2"
   },
   {

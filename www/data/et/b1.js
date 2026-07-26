@@ -3135,7 +3135,7 @@ const B1_WORDS = [
     "de": "Anruf",
     "de_article": "der",
     "de_plural": "die Anrufe",
-    "lv": "kell",
+    "lv": "kõne",
     "level": "B1"
   },
   {
@@ -4043,7 +4043,7 @@ const B1_WORDS = [
   {
     "de": "Aufschnitt",
     "de_article": "der",
-    "lv": "külmad road",
+    "lv": "külmad lihalõigud",
     "level": "B1"
   },
   {
@@ -9826,7 +9826,7 @@ const B1_WORDS = [
   },
   {
     "de": "betragen",
-    "lv": "saavutama",
+    "lv": "ulatuma • moodustama",
     "level": "B1"
   },
   {
@@ -12481,7 +12481,7 @@ const B1_WORDS = [
     "de": "Burg",
     "de_article": "die",
     "de_plural": "die Burgen",
-    "lv": "palee",
+    "lv": "kindlus • loss",
     "level": "B1"
   },
   {
@@ -15869,7 +15869,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich eignen",
-    "lv": "kihla vedama",
+    "lv": "sobima",
     "level": "B1"
   },
   {
@@ -34104,7 +34104,7 @@ const B1_WORDS = [
     "de": "Kampf",
     "de_article": "der",
     "de_plural": "die Kämpfe",
-    "lv": "maadlus",
+    "lv": "võitlus",
     "level": "B1"
   },
   {
@@ -35773,7 +35773,7 @@ const B1_WORDS = [
     "de": "Kolonne",
     "de_article": "die",
     "de_plural": "die Kolonnen",
-    "lv": "sammas",
+    "lv": "kolonn",
     "level": "B1"
   },
   {
@@ -36847,7 +36847,7 @@ const B1_WORDS = [
   },
   {
     "de": "kulturell",
-    "lv": "kultuurne",
+    "lv": "kultuuriline",
     "level": "B1"
   },
   {
@@ -40766,7 +40766,7 @@ const B1_WORDS = [
     "de": "Lücke",
     "de_article": "die",
     "de_plural": "die Lücken",
-    "lv": "sälk",
+    "lv": "lünk",
     "level": "B1"
   },
   {
@@ -42386,7 +42386,7 @@ const B1_WORDS = [
     "de": "Nachteil",
     "de_article": "der",
     "de_plural": "die Nachteile",
-    "lv": "kaotus",
+    "lv": "puudus • miinus",
     "level": "B1"
   },
   {
@@ -42477,7 +42477,87 @@ const B1_WORDS = [
     "de_article": "die",
     "de_plural": "die Nationen",
     "lv": "rahvus",
-    "level": "B1"
+    "level": "B1",
+    "study": {
+      "id": "b1-nation",
+      "layout": "standardStudy",
+      "translation": "rahvus",
+      "explanation": "Põhiidee: die Nation tähendab rahvast või riiki tervikuna. Nationalität tähendab kodakondsust või rahvust isiku tasandil.",
+      "examples": [
+        {
+          "de": "Die deutsche Nation feiert heute.",
+          "lv": "saksa rahvas tähistab täna."
+        },
+        {
+          "de": "Er hat die deutsche Nationalität.",
+          "lv": "tal on saksa kodakondsus."
+        },
+        {
+          "de": "Welche Nationalität hast du?",
+          "lv": "mis kodakondsus sul on?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Nation",
+          "meaning": "rahvas / natsioon",
+          "example": "Die Nation feiert. = Rahvas tähistab."
+        },
+        {
+          "word": "die Nationalität",
+          "meaning": "kodakondsus / rahvus",
+          "example": "Welche Nationalität hast du? = Mis kodakondsus sul on?"
+        },
+        {
+          "word": "der Staat",
+          "meaning": "riik",
+          "example": "Der Staat hilft. = Riik aitab."
+        }
+      ],
+      "tip": "Nation on suurem üksus; Nationalität on isiku omadus.",
+      "important": "Ära aja segi die Nation (rahvas/riik) ja die Nationalität (kodakondsus).",
+      "sectionAccents": {
+        "explanation": {
+          "blue": "die Nation",
+          "purple": "rahvas",
+          "green": "Nationalität",
+          "yellow": "kodakondsus"
+        },
+        "examples": [
+          {
+            "de": { "blue": "Nation" },
+            "lv": { "purple": "rahvas" }
+          },
+          {
+            "de": { "green": "Nationalität" },
+            "lv": { "yellow": "kodakondsus" }
+          },
+          {
+            "de": { "green": "Nationalität" },
+            "lv": { "yellow": "kodakondsus" }
+          }
+        ],
+        "comparison": [
+          {
+            "word": { "blue": "die Nation" },
+            "meaning": { "purple": "rahvas" },
+            "example": { "blue": "Nation" }
+          },
+          {
+            "word": { "green": "die Nationalität" },
+            "meaning": { "yellow": "kodakondsus" },
+            "example": { "green": "Nationalität" }
+          },
+          {
+            "word": { "blue": "der Staat" },
+            "meaning": { "purple": "riik" },
+            "example": { "blue": "Staat" }
+          }
+        ],
+        "tip": { "blue": "Nation", "green": "Nationalität" },
+        "important": { "blue": "die Nation", "green": "die Nationalität" }
+      }
+    }
   },
   {
     "de": "nebenbei",
@@ -42921,7 +43001,7 @@ const B1_WORDS = [
     "de": "Neuheit",
     "de_article": "die",
     "de_plural": "die Neuheiten",
-    "lv": "uudis",
+    "lv": "uudsus • uuendus",
     "level": "B1"
   },
   {
@@ -43940,7 +44020,7 @@ const B1_WORDS = [
   },
   {
     "de": "ökonomisch",
-    "lv": "ökonoomne",
+    "lv": "majanduslik",
     "level": "B1"
   },
   {
@@ -46324,7 +46404,88 @@ const B1_WORDS = [
     "de_article": "der",
     "de_plural": "die Räte",
     "lv": "nõu",
-    "level": "B1"
+    "level": "B1",
+    "study": {
+      "id": "b1-rat",
+      "layout": "standardStudy",
+      "translation": "nõu",
+      "explanation": "Põhiidee: der Rat tähendab nõuannet või soovitust. Mitmus die Räte tähendab nõukogu. Ära aja segi die Rate (osamakse) ega die Räte (nõukogu).",
+      "examples": [
+        {
+          "de": "Danke für deinen Rat.",
+          "lv": "tänan sinu nõuande eest."
+        },
+        {
+          "de": "Ich brauche deinen Rat.",
+          "lv": "mul on vaja sinu nõuannet."
+        },
+        {
+          "de": "Der Rat der Stadt tagt heute.",
+          "lv": "linna nõukogu istub täna."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Rat",
+          "meaning": "nõuanne",
+          "example": "Danke für deinen Rat. = Tänan sinu nõuande eest."
+        },
+        {
+          "word": "die Räte",
+          "meaning": "nõukogu",
+          "example": "Der Rat der Stadt tagt heute. = Linna nõukogu istub täna."
+        },
+        {
+          "word": "die Rate",
+          "meaning": "osamakse",
+          "example": "Die Rate ist hoch. = Osamakse on suur."
+        }
+      ],
+      "tip": "Üksikul der Rat on nõuanne; mitmus die Räte on nõukogu.",
+      "important": "Ära aja segi der Rat (nõuanne), die Räte (nõukogu) ja die Rate (osamakse).",
+      "sectionAccents": {
+        "explanation": {
+          "blue": "der Rat",
+          "purple": "nõuanne",
+          "red": "die Räte",
+          "green": "nõukogu",
+          "yellow": "die Rate"
+        },
+        "examples": [
+          {
+            "de": { "blue": "Rat" },
+            "lv": { "purple": "nõuande" }
+          },
+          {
+            "de": { "blue": "Rat" },
+            "lv": { "purple": "nõuannet" }
+          },
+          {
+            "de": { "red": "Rat", "green": "Stadt" },
+            "lv": { "green": "nõukogu" }
+          }
+        ],
+        "comparison": [
+          {
+            "word": { "green": "der Rat" },
+            "meaning": { "purple": "nõuanne" },
+            "example": { "blue": "Rat" }
+          },
+          {
+            "word": { "green": "die Räte" },
+            "meaning": { "purple": "nõukogu" },
+            "example": { "red": "Rat" }
+          },
+          {
+            "word": { "green": "die Rate" },
+            "meaning": { "purple": "osamakse" },
+            "example": { "yellow": "Rate" }
+          }
+        ],
+        "tip": { "blue": "der Rat", "red": "die Räte" },
+        "important": { "blue": "der Rat", "red": "die Räte", "yellow": "die Rate" }
+      }
+    }
   },
   {
     "de": "Rate",
