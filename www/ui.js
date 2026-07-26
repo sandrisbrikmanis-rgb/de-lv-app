@@ -535,6 +535,11 @@ function getCourseLessonNumber(lessonId) {
   return String(lessonId || "").match(/\d+/)?.[0] || "";
 }
 
+function getActiveCourseLanguageCode() {
+  const code = window.AppI18n?.getCurrentLanguage?.() || window.AppLanguageRegistry?.defaultCode || "lv";
+  return String(code).toLowerCase();
+}
+
 function getCourseSectionDisplayTitle(title) {
   const key = COURSE_SECTION_I18N_KEYS[title];
   return key ? t(key) : title;
@@ -1047,6 +1052,9 @@ function getExerciseSourceCards(lessonId) {
   const lessonNumber = String(lessonId || "").match(/\d+/)?.[0];
   if (!lessonNumber) return [];
   if (lessonNumber === "7") {
+    if (getActiveCourseLanguageCode() === "et" && typeof lesson7ExerciseCardsEt !== "undefined") {
+      return lesson7ExerciseCardsEt;
+    }
     return typeof lesson7ExerciseCards !== "undefined" ? lesson7ExerciseCards : [];
   }
   if (lessonNumber === "8") {
@@ -1269,13 +1277,14 @@ function handleCourseExerciseCardClick(card) {
 }function getCourseTranslateCards(lessonId) {
   const lessonNumber = String(lessonId || "").match(/\d+/)?.[0];
   if (!lessonNumber) return [];
+  const isEt = getActiveCourseLanguageCode() === "et";
   const legacyDecks = {
-    lesson1: typeof lesson1TrainingCards !== "undefined" ? lesson1TrainingCards : [],
-    lesson2: typeof lesson2TrainingCards !== "undefined" ? lesson2TrainingCards : [],
-    lesson3: typeof lesson3TrainingCards !== "undefined" ? lesson3TrainingCards : [],
-    lesson4: typeof lesson4TrainingCards !== "undefined" ? lesson4TrainingCards : [],
-    lesson5: typeof lesson5TrainingCards !== "undefined" ? lesson5TrainingCards : [],
-    lesson6: typeof lesson6TrainingCards !== "undefined" ? lesson6TrainingCards : []
+    lesson1: (isEt && typeof lesson1TrainingCardsEt !== "undefined") ? lesson1TrainingCardsEt : (typeof lesson1TrainingCards !== "undefined" ? lesson1TrainingCards : []),
+    lesson2: (isEt && typeof lesson2TrainingCardsEt !== "undefined") ? lesson2TrainingCardsEt : (typeof lesson2TrainingCards !== "undefined" ? lesson2TrainingCards : []),
+    lesson3: (isEt && typeof lesson3TrainingCardsEt !== "undefined") ? lesson3TrainingCardsEt : (typeof lesson3TrainingCards !== "undefined" ? lesson3TrainingCards : []),
+    lesson4: (isEt && typeof lesson4TrainingCardsEt !== "undefined") ? lesson4TrainingCardsEt : (typeof lesson4TrainingCards !== "undefined" ? lesson4TrainingCards : []),
+    lesson5: (isEt && typeof lesson5TrainingCardsEt !== "undefined") ? lesson5TrainingCardsEt : (typeof lesson5TrainingCards !== "undefined" ? lesson5TrainingCards : []),
+    lesson6: (isEt && typeof lesson6TrainingCardsEt !== "undefined") ? lesson6TrainingCardsEt : (typeof lesson6TrainingCards !== "undefined" ? lesson6TrainingCards : [])
   };
   const legacyDeck = legacyDecks[`lesson${lessonNumber}`];
   if (legacyDeck) return legacyDeck.map((card) => ({ lv: card.front || card.lv || "", de: card.back || card.de || "" }));
@@ -1604,6 +1613,19 @@ const lesson1TrainingCards = [
   { front: "Vai jūs ejat?", back: "Geht ihr?" },
   { front: "Albert un Marta nāk un iet.", back: "Albert und Marta kommen und gehen." }
 ];
+const lesson1TrainingCardsEt = [
+  { front: "Kas sina tuled?", back: "Kommst du?" },
+  { front: "Jah, mina tulen.", back: "Ja, ich komme." },
+  { front: "Kes laulab?", back: "Wer singt?" },
+  { front: "Marta laulab.", back: "Marta singt." },
+  { front: "Kas nemad lähevad?", back: "Gehen sie?" },
+  { front: "Jah, nemad lähevad.", back: "Ja, sie gehen." },
+  { front: "Kas tema seisab?", back: "Steht er?" },
+  { front: "Jah, tema seisab.", back: "Ja, er steht." },
+  { front: "Meie läheme.", back: "Wir gehen." },
+  { front: "Kas teie lähete?", back: "Geht ihr?" },
+  { front: "Albert ja Marta tulevad ja lähevad.", back: "Albert und Marta kommen und gehen." }
+];
 const lesson2TrainingCards = [
   { front: "Kas jautā?", back: "Wer fragt?" },
   { front: "Pauls jautā.", back: "Paul fragt." },
@@ -1620,6 +1642,23 @@ const lesson2TrainingCards = [
   { front: "Mēs nākam un atbildam.", back: "Wir kommen und antworten." },
   { front: "Kas iet?", back: "Wer geht?" },
   { front: "Mēs ejam.", back: "Wir gehen." }
+];
+const lesson2TrainingCardsEt = [
+  { front: "Kes küsib?", back: "Wer fragt?" },
+  { front: "Paul küsib.", back: "Paul fragt." },
+  { front: "Nemad küsivad.", back: "Sie fragen." },
+  { front: "Kas Paul vastab?", back: "Antwortet Paul?" },
+  { front: "Ei, tema ei vasta, tema küsib.", back: "Nein, er antwortet nicht, er fragt." },
+  { front: "Kas Paul ja Marie laulavad?", back: "Singen Paul und Marie?" },
+  { front: "Ei, nemad ei laula, nemad arvutavad.", back: "Nein, sie singen nicht, sie rechnen." },
+  { front: "Mida sina teed?", back: "Was tust du?" },
+  { front: "Mina seisan ja laulan.", back: "Ich stehe und singe." },
+  { front: "Kas teie joonistate?", back: "Zeichnet ihr?" },
+  { front: "Jah, meie joonistame, aga Marie mängib.", back: "Ja, wir zeichnen, aber Marie spielt." },
+  { front: "Mida teie teete?", back: "Was tut ihr?" },
+  { front: "Meie tuleme ja vastame.", back: "Wir kommen und antworten." },
+  { front: "Kes läheb?", back: "Wer geht?" },
+  { front: "Meie läheme.", back: "Wir gehen." }
 ];
 
 const lesson3TrainingCards = [
@@ -1646,6 +1685,30 @@ const lesson3TrainingCards = [
   { front: "Kas tur karājas?", back: "Was hängt dort?" },
   { front: "Tur karājas tāfele.", back: "Dort hängt eine Tafel." }
 ];
+const lesson3TrainingCardsEt = [
+  { front: "Kas sina arvutad?", back: "Rechnest du?" },
+  { front: "Ei, mina ei arvuta, mina joonistan.", back: "Nein, ich rechne nicht, ich zeichne." },
+  { front: "Mis seal seisab?", back: "Was steht dort?" },
+  { front: "Seal seisab laud.", back: "Dort steht ein Tisch." },
+  { front: "Mis siin on?", back: "Was liegt hier?" },
+  { front: "Siin on raamat.", back: "Hier liegt ein Buch." },
+  { front: "Kas raamat on õhuke?", back: "Ist das Buch dünn?" },
+  { front: "Ei, raamat on paks.", back: "Nein, das Buch ist dick." },
+  { front: "Mis on õhuke?", back: "Was ist dünn?" },
+  { front: "Vihik on õhuke.", back: "Das Heft ist dünn." },
+  { front: "Milline on pink?", back: "Wie ist die Bank?" },
+  { front: "Pink on madal.", back: "Die Bank ist niedrig." },
+  { front: "Milline on laud?", back: "Wie ist der Tisch?" },
+  { front: "Laud on kõrge.", back: "Der Tisch ist hoch." },
+  { front: "Kas seal on vihik?", back: "Liegt dort ein Heft?" },
+  { front: "Jah, seal on vihik.", back: "Ja, dort liegt ein Heft." },
+  { front: "Kas Paul tuleb?", back: "Kommt Paul?" },
+  { front: "Ei, Paul ei tule, tema seisab.", back: "Nein, Paul kommt nicht, er steht." },
+  { front: "Mis siin ripub?", back: "Was hängt hier?" },
+  { front: "Siin ripub pilt.", back: "Hier hängt ein Bild." },
+  { front: "Mis seal ripub?", back: "Was hängt dort?" },
+  { front: "Seal ripub tahvel.", back: "Dort hängt eine Tafel." }
+];
 const lesson4TrainingCards = [
   { front: "Meitene ņem spalvas kātu.", back: "Das Mädchen nimmt einen Federhalter." },
   { front: "Spalvas kāts nav balts, viņš ir melns.", back: "Der Federhalter ist nicht weiß, er ist schwarz." },
@@ -1664,6 +1727,24 @@ const lesson4TrainingCards = [
   { front: "Kāda ir grāmata?", back: "Wie ist das Buch?" },
   { front: "Grāmata ir maza.", back: "Das Buch ist klein." }
 ];
+const lesson4TrainingCardsEt = [
+  { front: "Tüdruk võtab sulepea.", back: "Das Mädchen nimmt einen Federhalter." },
+  { front: "Sulepea ei ole valge, see on must.", back: "Der Federhalter ist nicht weiß, er ist schwarz." },
+  { front: "Paul võtab sule.", back: "Paul nimmt eine Feder." },
+  { front: "Milline on sulg?", back: "Wie ist die Feder?" },
+  { front: "Kas sulg on terav?", back: "Ist die Feder spitz?" },
+  { front: "Kas tema võtab noa?", back: "Nimmt er ein Messer?" },
+  { front: "Ei, tema võtab sule.", back: "Nein, er nimmt eine Feder." },
+  { front: "Tema paneb sule maha.", back: "Er legt die Feder hin." },
+  { front: "Kas nuga on nüri?", back: "Ist das Messer stumpf?" },
+  { front: "Ei, see on terav.", back: "Nein, es ist scharf." },
+  { front: "Mida teeb tüdruk?", back: "Was tut das Mädchen?" },
+  { front: "Tema läheb välja ja töötab.", back: "Es geht hinaus und arbeitet." },
+  { front: "Mida näitab Olga?", back: "Was zeigt Olga?" },
+  { front: "Olga näitab raamatut.", back: "Olga zeigt ein Buch." },
+  { front: "Milline on raamat?", back: "Wie ist das Buch?" },
+  { front: "Raamat on väike.", back: "Das Buch ist klein." }
+];
 const lesson5TrainingCards = [
   { front: "Ko mīl tēvs?", back: "Wen liebt der Vater?" },
   { front: "Ko slavē skolotāja?", back: "Wen lobt die Lehrerin?" },
@@ -1681,6 +1762,24 @@ const lesson5TrainingCards = [
   { front: "Kāds ir bērns?", back: "Wie ist das Kind?" },
   { front: "Bērns ir rātns.", back: "Das Kind ist artig." },
   { front: "Tēvs un māte mīl bērnu.", back: "Der Vater und die Mutter lieben das Kind." }
+];
+const lesson5TrainingCardsEt = [
+  { front: "Keda armastab isa?", back: "Wen liebt der Vater?" },
+  { front: "Keda kiidab õpetajanna?", back: "Wen lobt die Lehrerin?" },
+  { front: "Mida sina võtad?", back: "Was nimmst du?" },
+  { front: "Keda sina küsid?", back: "Wen fragst du?" },
+  { front: "Keda laidab õpetaja?", back: "Wen tadelt der Lehrer?" },
+  { front: "Õpetaja küsib õpilaselt.", back: "Der Lehrer fragt den Schüler." },
+  { front: "Kuidas vastab õpilane?", back: "Wie antwortet der Schüler?" },
+  { front: "Õpilane vastab halvasti.", back: "Der Schüler antwortet schlecht." },
+  { front: "Kas õpilane (naine) vastab halvasti?", back: "Antwortet die Schülerin schlecht?" },
+  { front: "Ei, õpilane (naine) ei vasta halvasti, tema vastab hästi.", back: "Nein, die Schülerin antwortet nicht schlecht, sie antwortet gut." },
+  { front: "Tüdruk võtab sulepea, sule ja noa.", back: "Das Mädchen nimmt den Federhalter, die Feder und das Messer." },
+  { front: "Tema paneb noa ja sulepea maha.", back: "Sie legt das Messer und den Federhalter hin." },
+  { front: "Tüdruk läheb välja ja töötab.", back: "Das Mädchen geht hinaus und arbeitet." },
+  { front: "Milline on laps?", back: "Wie ist das Kind?" },
+  { front: "Laps on sõnakuulelik.", back: "Das Kind ist artig." },
+  { front: "Isa ja ema armastavad last.", back: "Der Vater und die Mutter lieben das Kind." }
 ];
 const lesson6TrainingCards = [
   { front: "Pauls ņem zīmuli un zīmē.", back: "Paul nimmt einen Bleistift und zeichnet." },
@@ -1705,6 +1804,29 @@ const lesson6TrainingCards = [
   { front: "Kāds ir spalvaskāts?", back: "Wie ist der Federhalter?" },
   { front: "Spalvaskāts ir melns.", back: "Der Federhalter ist schwarz." }
 ];
+const lesson6TrainingCardsEt = [
+  { front: "Paul võtab pliiatsi ja joonistab.", back: "Paul nimmt einen Bleistift und zeichnet." },
+  { front: "Mida tema joonistab?", back: "Was zeichnet er?" },
+  { front: "Tema joonistab ämbrit.", back: "Er zeichnet einen Eimer." },
+  { front: "Kes joonistab vankrit?", back: "Wer zeichnet einen Wagen?" },
+  { front: "Tüdruk joonistab kelku.", back: "Das Mädchen zeichnet einen Schlitten." },
+  { front: "Kui palju nõelu on siin?", back: "Wieviel Nadeln sind hier?" },
+  { front: "Siin on kuus nõela.", back: "Hier sind sechs Nadeln." },
+  { front: "Kui palju taldrikuid?", back: "Wieviel Teller?" },
+  { front: "Mina võtan kolm nõela.", back: "Ich nehme drei Nadeln." },
+  { front: "Mina panen kaks nõela maha.", back: "Ich lege zwei Nadeln hin." },
+  { front: "Kes loeb nuge ja taldrikuid?", back: "Wer zählt die Messer und die Teller?" },
+  { front: "See on kaas.", back: "Das ist ein Deckel." },
+  { front: "Need on kaaned.", back: "Das sind Deckel." },
+  { front: "See on sulg.", back: "Das ist eine Feder." },
+  { front: "Need on suled.", back: "Das sind Federn." },
+  { front: "Mida teeb õpetaja?", back: "Was tut der Lehrer?" },
+  { front: "Õpetaja võtab noa ja teritab pliiatsit.", back: "Der Lehrer nimmt ein Messer und spitzt den Bleistift an." },
+  { front: "Mis see on?", back: "Was ist das?" },
+  { front: "See on sulepea.", back: "Das ist ein Federhalter." },
+  { front: "Milline on sulepea?", back: "Wie ist der Federhalter?" },
+  { front: "Sulepea on must.", back: "Der Federhalter ist schwarz." }
+];
 
 const lesson7ExerciseCards = [
   { infinitive: "fragen", lv: "jautāt", du: "frag! / frage!", ihr: "fragt!", sie: "fragen Sie!" },
@@ -1723,6 +1845,24 @@ const lesson7ExerciseCards = [
   { infinitive: "singen", lv: "dziedāt", du: "sing! / singe!", ihr: "singt!", sie: "singen Sie!" },
   { infinitive: "tun", lv: "darīt", du: "tu!", ihr: "tut!", sie: "tun Sie!" },
   { infinitive: "nehmen", lv: "ņemt", du: "nimm!", ihr: "nehmt!", sie: "nehmen Sie!" }
+];
+const lesson7ExerciseCardsEt = [
+  { infinitive: "fragen", lv: "küsima", du: "frag! / frage!", ihr: "fragt!", sie: "fragen Sie!" },
+  { infinitive: "antworten", lv: "vastama", du: "antworte!", ihr: "antwortet!", sie: "antworten Sie!" },
+  { infinitive: "loben", lv: "kiitma", du: "lob! / lobe!", ihr: "lobt!", sie: "loben Sie!" },
+  { infinitive: "lieben", lv: "armastama", du: "lieb! / liebe!", ihr: "liebt!", sie: "lieben Sie!" },
+  { infinitive: "zählen", lv: "lugema", du: "zähl! / zähle!", ihr: "zählt!", sie: "zählen Sie!" },
+  { infinitive: "zeigen", lv: "näitama", du: "zeig! / zeige!", ihr: "zeigt!", sie: "zeigen Sie!" },
+  { infinitive: "zeichnen", lv: "joonistama", du: "zeichne!", ihr: "zeichnet!", sie: "zeichnen Sie!" },
+  { infinitive: "rechnen", lv: "arvutama", du: "rechne!", ihr: "rechnet!", sie: "rechnen Sie!" },
+  { infinitive: "arbeiten", lv: "töötama", du: "arbeite!", ihr: "arbeitet!", sie: "arbeiten Sie!" },
+  { infinitive: "kommen", lv: "tulema", du: "komm! / komme!", ihr: "kommt!", sie: "kommen Sie!" },
+  { infinitive: "gehen", lv: "minema", du: "geh! / gehe!", ihr: "geht!", sie: "gehen Sie!" },
+  { infinitive: "stehen", lv: "seisma", du: "steh! / stehe!", ihr: "steht!", sie: "stehen Sie!" },
+  { infinitive: "öffnen", lv: "avama", du: "öffne!", ihr: "öffnet!", sie: "öffnen Sie!" },
+  { infinitive: "singen", lv: "laulma", du: "sing! / singe!", ihr: "singt!", sie: "singen Sie!" },
+  { infinitive: "tun", lv: "tegema", du: "tu!", ihr: "tut!", sie: "tun Sie!" },
+  { infinitive: "nehmen", lv: "võtma", du: "nimm!", ihr: "nehmt!", sie: "nehmen Sie!" }
 ];
 function renderLesson1TrainingCard(index = 0, showingBack = false) {
   const card = elements.kurssLesson1.querySelector("[data-lesson1-training-card]");
