@@ -29822,5 +29822,1350 @@
     ]
    }
   }
+ },
+ "b1-leisten": {
+  "de": "leisten",
+  "lv": "sooritama",
+  "level": "B1",
+  "study": {
+   "id": "b1-leisten",
+   "layout": "standardStudy",
+   "translation": "sooritama",
+   "explanation": "Põhiidee: leisten tähendab sooritamist või mingi töö, teenuse või panuse andmist. Koos sich-ga tähendab see endale lubamist.",
+   "examples": [
+    {
+     "de": "Sie leistet gute Arbeit.",
+     "lv": "ta sooritab head tööd."
+    },
+    {
+     "de": "Wir leisten Hilfe.",
+     "lv": "me osutame abi."
+    },
+    {
+     "de": "Das kann ich mir nicht leisten.",
+     "lv": "seda ma ei saa endale lubada."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "leisten",
+     "meaning": "sooritama",
+     "example": "Sie leistet gute Arbeit. = Ta sooritab head tööd."
+    },
+    {
+     "word": "schaffen",
+     "meaning": "hakkama saama",
+     "example": "Ich schaffe das. = Ma saan sellega hakkama."
+    },
+    {
+     "word": "sich leisten",
+     "meaning": "endale lubama",
+     "example": "Ich kann mir das leisten. = Ma võin seda endale lubada."
+    }
+   ],
+   "tip": "Töö, abi või panus → leisten.",
+   "important": "sich leisten on eraldi konstruktsioon tähendusega 'endale lubama'.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "leisten",
+      "sich leisten"
+     ],
+     "purple": [
+      "sooritamist",
+      "endale lubamist"
+     ],
+     "yellow": [
+      "töö",
+      "teenuse"
+     ]
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "leistet",
+       "yellow": "Arbeit"
+      },
+      "lv": {
+       "purple": "sooritab",
+       "yellow": "tööd"
+      }
+     },
+     {
+      "de": {
+       "blue": "leisten",
+       "yellow": "Hilfe"
+      },
+      "lv": {
+       "purple": "osutame",
+       "yellow": "abi"
+      }
+     },
+     {
+      "de": {
+       "blue": "leisten",
+       "red": "mir"
+      },
+      "lv": {
+       "purple": "endale lubada"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "leisten"
+      },
+      "meaning": {
+       "purple": "sooritama"
+      },
+      "example": {
+       "blue": "leistet",
+       "purple": "sooritab"
+      }
+     },
+     {
+      "word": {
+       "green": "schaffen"
+      },
+      "meaning": {
+       "purple": "hakkama saama"
+      },
+      "example": {
+       "red": "schaffe",
+       "purple": "saan hakkama"
+      }
+     },
+     {
+      "word": {
+       "green": "sich leisten"
+      },
+      "meaning": {
+       "purple": "endale lubama"
+      },
+      "example": {
+       "red": "leisten",
+       "purple": "endale lubada"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "leisten",
+     "purple": [
+      "töö",
+      "abi",
+      "panus"
+     ]
+    },
+    "important": {
+     "red": "sich leisten",
+     "purple": "endale lubama"
+    }
+   }
+  }
+ },
+ "b1-leistung": {
+  "de": "Leistung",
+  "de_article": "die",
+  "de_plural": "die Leistungen",
+  "lv": "saavutus",
+  "level": "B1",
+  "study": {
+   "id": "b1-leistung",
+   "layout": "standardStudy",
+   "translation": "saavutus",
+   "explanation": "Põhiidee: die Leistung tähendab sooritust, saavutust või tulemust. Tehnikas tähendab see võimsust, näiteks mootoril või seadmel.",
+   "examples": [
+    {
+     "de": "Das war eine starke Leistung.",
+     "lv": "see oli tugev sooritus."
+    },
+    {
+     "de": "Seine Leistung in der Prüfung war gut.",
+     "lv": "tema sooritus eksamil oli hea."
+    },
+    {
+     "de": "Der Motor hat eine hohe Leistung.",
+     "lv": "mootoril on suur võimsus."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "die Leistung",
+     "meaning": "sooritus / saavutus / võimsus",
+     "example": "Die Leistung war gut. = Sooritus oli hea."
+    },
+    {
+     "word": "das Ergebnis",
+     "meaning": "tulemus",
+     "example": "Das Ergebnis ist positiv. = Tulemus on positiivne."
+    },
+    {
+     "word": "die Kraft",
+     "meaning": "jõud",
+     "example": "Die Kraft des Motors ist groß. = Mootori jõud on suur."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Inimesel Leistung = sooritus; mootoril Leistung = võimsus."
+     }
+    ]
+   },
+   "important": {
+    "text": "Leistung ei ole ainult lõpptulemus; see hindab sageli sooritust või võimsust ennast."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "Leistung"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "sooritus"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Leistung"
+       ],
+       "yellow": [
+        "Prüfung"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "sooritus"
+       ],
+       "yellow": [
+        "eksamil"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Leistung"
+       ],
+       "yellow": [
+        "Motor"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "võimsus"
+       ],
+       "yellow": [
+        "Mootoril"
+       ]
+      }
+     }
+    ],
+    "explanation": {
+     "blue": [
+      "die Leistung"
+     ],
+     "purple": [
+      "sooritust",
+      "saavutust",
+      "tulemust",
+      "võimsust"
+     ],
+     "yellow": [
+      "mootoril",
+      "seadmel"
+     ]
+    },
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "die Leistung"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "sooritus / saavutus / võimsus"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "das Ergebnis"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "tulemus"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "die Kraft"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "jõud"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "purple": [
+      "sooritus",
+      "võimsus"
+     ]
+    },
+    "important": {
+     "purple": [
+      "sooritust",
+      "võimsust"
+     ]
+    }
+   }
+  }
+ },
+ "b1-locker": {
+  "de": "locker",
+  "lv": "lõtv",
+  "level": "B1",
+  "study": {
+   "id": "b1-locker",
+   "layout": "standardStudy",
+   "translation": "lõtv",
+   "explanation": "Põhiidee: locker tähendab lõtv või vaba, kui miski ei ole kõvasti kinnitatud. Inimeste, vestluse või tuju kohta tähendab see sundimatu.",
+   "examples": [
+    {
+     "de": "Die Schraube ist locker.",
+     "lv": "kruvi on lõtv."
+    },
+    {
+     "de": "Er trägt eine lockere Jacke.",
+     "lv": "ta kannab vaba jakki."
+    },
+    {
+     "de": "Nach ein paar Minuten wurde die Stimmung locker.",
+     "lv": "mõne minuti pärast muutus meeleolu sundimatuks."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "locker",
+     "meaning": "lõtv, vaba, sundimatu",
+     "example": "Die Schraube ist locker. = Kruvi on lõtv."
+    },
+    {
+     "word": "lose",
+     "meaning": "lahtine, kinnitamata",
+     "example": "Ein loser Knopf kann abfallen. = Lahtine nööp võib maha kukkuda."
+    },
+    {
+     "word": "fest",
+     "meaning": "tugev, kindel",
+     "example": "Der Deckel sitzt fest. = Kaas püsib kindlalt."
+    }
+   ],
+   "tip": "Mõtle vastandile fest: kui pole kindlalt kinni, on see locker.",
+   "important": "locker ei ole leicht. leicht tähendab kerge, aga locker tähendab lõtv või sundimatu.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "locker",
+     "purple": [
+      "lõtv",
+      "vaba"
+     ],
+     "red": "sundimatu"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "locker",
+       "yellow": "Schraube"
+      },
+      "lv": {
+       "purple": "lõtv"
+      }
+     },
+     {
+      "de": {
+       "blue": "lockere",
+       "yellow": "Jacke"
+      },
+      "lv": {
+       "purple": "vaba"
+      }
+     },
+     {
+      "de": {
+       "blue": "locker",
+       "green": "Stimmung"
+      },
+      "lv": {
+       "purple": "sundimatuks"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "locker"
+      },
+      "meaning": {
+       "purple": "lõtv"
+      },
+      "example": {
+       "blue": "locker",
+       "yellow": "Schraube"
+      }
+     },
+     {
+      "word": {
+       "green": "lose"
+      },
+      "meaning": {
+       "purple": "lahtine"
+      },
+      "example": {
+       "red": "loser",
+       "yellow": "Knopf"
+      }
+     },
+     {
+      "word": {
+       "green": "fest"
+      },
+      "meaning": {
+       "purple": "tugev"
+      },
+      "example": {
+       "red": "fest",
+       "yellow": "Deckel"
+      }
+     }
+    ],
+    "tip": {
+     "red": "fest",
+     "blue": "locker"
+    },
+    "important": {
+     "blue": "locker",
+     "red": "leicht"
+    }
+   }
+  }
+ },
+ "b1-los": {
+  "de": "Los",
+  "de_article": "das",
+  "de_plural": "die Lose",
+  "lv": "loosipilet",
+  "level": "B1",
+  "study": {
+   "id": "b1-los",
+   "layout": "standardStudy",
+   "translation": "loosipilet",
+   "explanation": "Põhiidee: das Los on loosipilet, mida tõmmatakse või ostetakse. Tõsisemas, ülekantud keeles võib see tähendada ka inimese saatust.",
+   "examples": [
+    {
+     "de": "Jeder Teilnehmer zieht ein Los.",
+     "lv": "iga osaleja tõmbab loosipileti."
+    },
+    {
+     "de": "Mit diesem Los hat sie gewonnen.",
+     "lv": "selle loosipiletiga ta võitis."
+    },
+    {
+     "de": "Er nahm sein Los an.",
+     "lv": "ta võttis vastu oma saatuse."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "das Los",
+     "meaning": "loosipilet • ülekantult saatus",
+     "example": "Jeder Teilnehmer zieht ein Los. = Iga osaleja tõmbab loosipileti."
+    },
+    {
+     "word": "der Gewinn",
+     "meaning": "võit",
+     "example": "Der Gewinn wird morgen ausgezahlt. = Võit makstakse homme välja."
+    },
+    {
+     "word": "das Schicksal",
+     "meaning": "saatus",
+     "example": "Das Schicksal war hart. = Saatus oli karm."
+    }
+   ],
+   "tip": "Loteriis ja loosimises: das Los = loosipilet.",
+   "important": "Ära aja segi das Los sõnaga los kui eraldi sõnaga väljendites losgehen või losfahren.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "das Los",
+     "purple": "loosipilet",
+     "red": "saatust"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Los",
+       "green": "Teilnehmer"
+      },
+      "lv": {
+       "purple": "loosipileti"
+      }
+     },
+     {
+      "de": {
+       "blue": "Los",
+       "purple": "gewonnen"
+      },
+      "lv": {
+       "purple": "võitis"
+      }
+     },
+     {
+      "de": {
+       "blue": "Los"
+      },
+      "lv": {
+       "red": "saatuse"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "das Los"
+      },
+      "meaning": {
+       "purple": "loosipilet"
+      },
+      "example": {
+       "blue": "Los",
+       "green": "Teilnehmer"
+      }
+     },
+     {
+      "word": {
+       "green": "der Gewinn"
+      },
+      "meaning": {
+       "purple": "võit"
+      },
+      "example": {
+       "red": "Gewinn"
+      }
+     },
+     {
+      "word": {
+       "green": "das Schicksal"
+      },
+      "meaning": {
+       "purple": "saatus"
+      },
+      "example": {
+       "red": "Schicksal"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "das Los",
+     "purple": "loosipilet"
+    },
+    "important": {
+     "blue": "das Los",
+     "red": [
+      "losgehen",
+      "losfahren"
+     ]
+    }
+   }
+  }
+ },
+ "b1-löschen": {
+  "de": "löschen",
+  "lv": "kustutama",
+  "level": "B1",
+  "study": {
+   "id": "b1-löschen",
+   "layout": "standardStudy",
+   "translation": "kustutama",
+   "explanation": "Põhiidee: löschen kasutatakse, kui kustutatakse tuld või andmeid. Väljendis den Durst löschen tähendab see janu kustutamist.",
+   "examples": [
+    {
+     "de": "Die Feuerwehr löscht den Brand.",
+     "lv": "tuletõrjujad kustutavad tulekahju."
+    },
+    {
+     "de": "Bitte lösche die alte Datei.",
+     "lv": "palun kustuta vana fail."
+    },
+    {
+     "de": "Ein Glas Wasser löscht den Durst.",
+     "lv": "klaas vett kustutab janu."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "löschen",
+     "meaning": "kustutama tuld või andmeid",
+     "example": "Bitte lösche die Datei. = Palun kustuta fail."
+    },
+    {
+     "word": "ausschalten",
+     "meaning": "seadet välja lülitama",
+     "example": "Schalte bitte den Computer aus. = Palun lülita arvuti välja."
+    },
+    {
+     "word": "lösen",
+     "meaning": "lahendama või lahti siduma",
+     "example": "Wir lösen das Problem. = Me lahendame probleemi."
+    }
+   ],
+   "tip": "Tuli, fail või janu: löschen.",
+   "important": "löschen ei ole sama, mis lösen. löschen = kustutama; lösen = lahendama või lahti siduma.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "löschen",
+     "purple": "kustutamist",
+     "yellow": "andmeid"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "löscht",
+       "yellow": "Brand"
+      },
+      "lv": {
+       "purple": "kustutavad"
+      }
+     },
+     {
+      "de": {
+       "blue": "lösche",
+       "yellow": "Datei"
+      },
+      "lv": {
+       "purple": "kustuta"
+      }
+     },
+     {
+      "de": {
+       "blue": "löscht",
+       "yellow": "Durst"
+      },
+      "lv": {
+       "purple": "kustutab"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "löschen"
+      },
+      "meaning": {
+       "purple": "kustutama"
+      },
+      "example": {
+       "blue": "lösche",
+       "yellow": "Datei"
+      }
+     },
+     {
+      "word": {
+       "green": "ausschalten"
+      },
+      "meaning": {
+       "purple": "välja lülitama"
+      },
+      "example": {
+       "red": "Schalte",
+       "yellow": "Computer"
+      }
+     },
+     {
+      "word": {
+       "green": "lösen"
+      },
+      "meaning": {
+       "purple": "lahendama"
+      },
+      "example": {
+       "red": "lösen",
+       "yellow": "Problem"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "löschen",
+     "yellow": [
+      "Tuli",
+      "fail",
+      "janu"
+     ]
+    },
+    "important": {
+     "blue": "löschen",
+     "red": "lösen"
+    }
+   }
+  }
+ },
+ "b1-lösen": {
+  "de": "lösen",
+  "lv": "lahendama",
+  "level": "B1",
+  "study": {
+   "id": "b1-lösen",
+   "layout": "standardStudy",
+   "translation": "lahendama",
+   "explanation": "Põhiidee: lösen tähendab enamasti probleemi või ülesande lahendamist. Teise objektiga võib see tähendada lahti sidumist, vabastamist või lahustamist.",
+   "examples": [
+    {
+     "de": "Wir müssen dieses Problem lösen.",
+     "lv": "me peame selle probleemi lahendama."
+    },
+    {
+     "de": "Sie löst vorsichtig den Knoten.",
+     "lv": "ta harutab ettevaatlikult sõlme lahti."
+    },
+    {
+     "de": "Zucker löst sich im Tee.",
+     "lv": "suhkur lahustub tees."
+    },
+    {
+     "de": "Ich löse am Automaten eine Fahrkarte.",
+     "lv": "ma ostan automaadist pileti."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "lösen",
+     "meaning": "lahendama • lahti siduma • lahustama",
+     "example": "Wir lösen das Problem. = Me lahendame probleemi."
+    },
+    {
+     "word": "auflösen",
+     "meaning": "lahustama või lõpetama",
+     "example": "Die Gruppe löst sich auf. = Grupp laguneb."
+    },
+    {
+     "word": "löschen",
+     "meaning": "kustutama",
+     "example": "Ich lösche die Datei. = Ma kustutan faili."
+    }
+   ],
+   "tip": "Kui ees on probleem, ülesanne või sõlm, mõtle lösen'ile.",
+   "important": "lösen ja löschen erinevad ühe tähe poolest, aga tähendus on erinev: lahendama versus kustutama.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "lösen",
+     "purple": "lahendama",
+     "red": "objekti"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "lösen",
+       "yellow": "Problem"
+      },
+      "lv": {
+       "purple": "peame lahendama"
+      }
+     },
+     {
+      "de": {
+       "blue": "löst",
+       "yellow": "Knoten"
+      },
+      "lv": {
+       "purple": "harutab lahti"
+      }
+     },
+     {
+      "de": {
+       "blue": "löst sich",
+       "yellow": "Zucker"
+      },
+      "lv": {
+       "purple": "lahustub"
+      }
+     },
+     {
+      "de": {
+       "blue": "löse",
+       "yellow": "Fahrkarte"
+      },
+      "lv": {
+       "purple": "ostan"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "lösen"
+      },
+      "meaning": {
+       "purple": "lahendama"
+      },
+      "example": {
+       "blue": "lösen",
+       "yellow": "Problem"
+      }
+     },
+     {
+      "word": {
+       "green": "auflösen"
+      },
+      "meaning": {
+       "purple": "lahustama"
+      },
+      "example": {
+       "red": "löst sich auf"
+      }
+     },
+     {
+      "word": {
+       "green": "löschen"
+      },
+      "meaning": {
+       "purple": "kustutama"
+      },
+      "example": {
+       "red": "lösche",
+       "yellow": "Datei"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "lösen",
+     "yellow": [
+      "probleem",
+      "ülesanne",
+      "sõlm"
+     ]
+    },
+    "important": {
+     "blue": "lösen",
+     "red": "löschen"
+    }
+   }
+  }
+ },
+ "b1-lösung": {
+  "de": "Lösung",
+  "de_article": "die",
+  "de_plural": "die Lösungen",
+  "lv": "lahendus",
+  "level": "B1",
+  "study": {
+   "id": "b1-lösung",
+   "layout": "standardStudy",
+   "translation": "lahendus",
+   "explanation": "Põhiidee: die Lösung on lahendus probleemile, ülesandele või olukorrale. Keemias võib see tähendada ka lahust.",
+   "examples": [
+    {
+     "de": "Wir suchen eine Lösung für das Problem.",
+     "lv": "me otsime probleemile lahendust."
+    },
+    {
+     "de": "Diese Lösung spart Zeit.",
+     "lv": "see lahendus säästab aega."
+    },
+    {
+     "de": "Im Labor steht eine chemische Lösung.",
+     "lv": "laboris on keemiline lahus."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "die Lösung",
+     "meaning": "lahendus • keemias lahus",
+     "example": "Wir suchen eine Lösung. = Me otsime lahendust."
+    },
+    {
+     "word": "die Antwort",
+     "meaning": "vastus küsimusele",
+     "example": "Die Antwort ist richtig. = Vastus on õige."
+    },
+    {
+     "word": "das Ergebnis",
+     "meaning": "tulemus",
+     "example": "Das Ergebnis ist gut. = Tulemus on hea."
+    }
+   ],
+   "tip": "Probleemile on vaja Lösung, küsimusele on vaja Antwort.",
+   "important": "die Lösung ei ole alati vastus; sageli on see viis, kuidas probleemi lahendada.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "die Lösung",
+     "purple": "lahendus",
+     "yellow": "lahust"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Lösung",
+       "yellow": "Problem"
+      },
+      "lv": {
+       "purple": "lahendust"
+      }
+     },
+     {
+      "de": {
+       "blue": "Lösung",
+       "yellow": "Zeit"
+      },
+      "lv": {
+       "purple": "lahendus"
+      }
+     },
+     {
+      "de": {
+       "blue": "Lösung",
+       "green": "Labor"
+      },
+      "lv": {
+       "purple": "lahus"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "die Lösung"
+      },
+      "meaning": {
+       "purple": "lahendus"
+      },
+      "example": {
+       "blue": "Lösung"
+      }
+     },
+     {
+      "word": {
+       "green": "die Antwort"
+      },
+      "meaning": {
+       "purple": "vastus"
+      },
+      "example": {
+       "red": "Antwort"
+      }
+     },
+     {
+      "word": {
+       "green": "das Ergebnis"
+      },
+      "meaning": {
+       "purple": "tulemus"
+      },
+      "example": {
+       "red": "Ergebnis"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "Lösung",
+     "red": "Antwort"
+    },
+    "important": {
+     "blue": "die Lösung",
+     "red": "vastus"
+    }
+   }
+  }
+ },
+ "b1-macht": {
+  "de": "Macht",
+  "de_article": "die",
+  "de_plural": "die Mächte",
+  "lv": "võim",
+  "level": "B1",
+  "study": {
+   "id": "b1-macht",
+   "layout": "standardStudy",
+   "translation": "võim",
+   "explanation": "Põhiidee: die Macht tähendab võimu või võimet mõjutada inimesi, otsuseid ja poliitikat. Füüsilise jõu kohta kasutatakse tavaliselt die Kraft.",
+   "examples": [
+    {
+     "de": "Die Regierung hat viel Macht.",
+     "lv": "valitsusel on suur võim."
+    },
+    {
+     "de": "Die Partei kam an die Macht.",
+     "lv": "partei tuli võimule."
+    },
+    {
+     "de": "Wissen kann Macht bedeuten.",
+     "lv": "teadmised võivad tähendada võimu."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "die Macht",
+     "meaning": "võim, mõjuvõime",
+     "example": "Die Partei kam an die Macht. = Partei tuli võimule."
+    },
+    {
+     "word": "die Kraft",
+     "meaning": "füüsiline jõud või energia",
+     "example": "Er hat viel Kraft. = Tal on palju jõudu."
+    },
+    {
+     "word": "der Einfluss",
+     "meaning": "mõju",
+     "example": "Sie hat Einfluss auf die Entscheidung. = Tal on mõju otsusele."
+    }
+   ],
+   "tip": "Poliitikas ja mõjus mõtle die Macht, mitte die Kraft.",
+   "important": "die Macht võib olla võim teiste üle; die Kraft on keha või energia jõud.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "die Macht",
+     "purple": "võimu",
+     "red": "die Kraft"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Macht",
+       "green": "Regierung"
+      },
+      "lv": {
+       "purple": "võim"
+      }
+     },
+     {
+      "de": {
+       "blue": "Macht",
+       "green": "Partei"
+      },
+      "lv": {
+       "purple": "võimule"
+      }
+     },
+     {
+      "de": {
+       "blue": "Macht",
+       "yellow": "Wissen"
+      },
+      "lv": {
+       "purple": "võimu"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "die Macht"
+      },
+      "meaning": {
+       "purple": "võim"
+      },
+      "example": {
+       "blue": "Macht",
+       "green": "Partei"
+      }
+     },
+     {
+      "word": {
+       "green": "die Kraft"
+      },
+      "meaning": {
+       "purple": "jõud"
+      },
+      "example": {
+       "red": "Kraft"
+      }
+     },
+     {
+      "word": {
+       "green": "der Einfluss"
+      },
+      "meaning": {
+       "purple": "mõju"
+      },
+      "example": {
+       "red": "Einfluss",
+       "yellow": "Entscheidung"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "die Macht",
+     "red": "die Kraft"
+    },
+    "important": {
+     "blue": "die Macht",
+     "red": "die Kraft"
+    }
+   }
+  }
+ },
+ "b1-maß": {
+  "de": "Maß",
+  "de_article": "das",
+  "de_plural": "die Maße",
+  "lv": "mõõt",
+  "level": "B1",
+  "study": {
+   "id": "b1-maß",
+   "layout": "standardStudy",
+   "translation": "mõõt",
+   "explanation": "Põhiidee: das Maß tähendab mõõtu, piiri või mahtu. Mitmuses die Maße tähendab tavaliselt mõõtmeid.",
+   "examples": [
+    {
+     "de": "Alles hat sein Maß.",
+     "lv": "kõigel on oma mõõt."
+    },
+    {
+     "de": "Seine Kritik ging über jedes Maß hinaus.",
+     "lv": "tema kriitika ületas igasuguse mõõdu."
+    },
+    {
+     "de": "Bitte schicken Sie mir die genauen Maße.",
+     "lv": "palun saatke mulle täpsed mõõtmed."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "das Maß",
+     "meaning": "mõõt, piir, maht",
+     "example": "Alles hat sein Maß. = Kõigel on oma mõõt."
+    },
+    {
+     "word": "die Maße",
+     "meaning": "mõõtmed",
+     "example": "Die Maße stimmen nicht. = Mõõtmed ei klapi."
+    },
+    {
+     "word": "die Maßnahme",
+     "meaning": "meede, tegevus",
+     "example": "Diese Maßnahme hilft. = See meede aitab."
+    }
+   ],
+   "tip": "Ainsuses Maß on mõõt; mitmuses Maße on sageli mõõtmed.",
+   "important": "Ära aja segi das Maß sõnaga die Maßnahme. Maß on mõõt, Maßnahme on konkreetne tegevus või meede.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "das Maß",
+     "purple": "mõõtu",
+     "red": "die Maße"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Maß"
+      },
+      "lv": {
+       "purple": "mõõt"
+      }
+     },
+     {
+      "de": {
+       "blue": "Maß",
+       "yellow": "Kritik"
+      },
+      "lv": {
+       "purple": "mõõdu"
+      }
+     },
+     {
+      "de": {
+       "red": "Maße"
+      },
+      "lv": {
+       "purple": "mõõtmed"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "das Maß"
+      },
+      "meaning": {
+       "purple": "mõõt"
+      },
+      "example": {
+       "blue": "Maß"
+      }
+     },
+     {
+      "word": {
+       "green": "die Maße"
+      },
+      "meaning": {
+       "purple": "mõõtmed"
+      },
+      "example": {
+       "red": "Maße"
+      }
+     },
+     {
+      "word": {
+       "green": "die Maßnahme"
+      },
+      "meaning": {
+       "purple": "meede"
+      },
+      "example": {
+       "red": "Maßnahme"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "Maß",
+     "red": "Maße"
+    },
+    "important": {
+     "blue": "das Maß",
+     "red": "die Maßnahme"
+    }
+   }
+  }
+ },
+ "b1-messe": {
+  "de": "Messe",
+  "de_article": "die",
+  "de_plural": "die Messen",
+  "lv": "messi",
+  "level": "B1",
+  "study": {
+   "id": "b1-messe",
+   "layout": "standardStudy",
+   "translation": "messi",
+   "explanation": "Põhiidee: die Messe on suur näitus või mess, kus ettevõtted näitavad tooteid ja loovad kliendisuhteid. Kirikus tähendab see missat.",
+   "examples": [
+    {
+     "de": "Wir besuchen die Buchmesse in Frankfurt.",
+     "lv": "me külastame raamatumessi Frankfurdis."
+    },
+    {
+     "de": "Viele Firmen stellen ihre Produkte auf der Messe vor.",
+     "lv": "paljud ettevõtted esitlevad messil oma tooteid."
+    },
+    {
+     "de": "Am Sonntag geht die Familie zur Messe.",
+     "lv": "pühapäeval läheb perekond missale."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "die Messe",
+     "meaning": "mess, näitus • kirikus missa",
+     "example": "Wir besuchen die Messe. = Me külastame messi."
+    },
+    {
+     "word": "die Ausstellung",
+     "meaning": "näitus",
+     "example": "Die Ausstellung zeigt moderne Kunst. = Näitus näitab moodsat kunsti."
+    },
+    {
+     "word": "der Markt",
+     "meaning": "turg",
+     "example": "Der Markt ist heute voll. = Turg on täna täis."
+    }
+   ],
+   "tip": "Ettevõtted ja tooted suurel üritusel: die Messe.",
+   "important": "Kontekst määrab tähenduse: Frankfurdis on die Messe mess, kirikus on see missa.",
+   "sectionAccents": {
+    "explanation": {
+     "blue": "die Messe",
+     "purple": "mess",
+     "red": "missat"
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": "Buchmesse",
+       "green": "Frankfurt"
+      },
+      "lv": {
+       "purple": "raamatumessi"
+      }
+     },
+     {
+      "de": {
+       "blue": "Messe",
+       "green": "Firmen",
+       "yellow": "Produkte"
+      },
+      "lv": {
+       "purple": "messil"
+      }
+     },
+     {
+      "de": {
+       "blue": "Messe",
+       "green": "Familie"
+      },
+      "lv": {
+       "red": "missale"
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": "die Messe"
+      },
+      "meaning": {
+       "purple": "mess"
+      },
+      "example": {
+       "blue": "Messe"
+      }
+     },
+     {
+      "word": {
+       "green": "die Ausstellung"
+      },
+      "meaning": {
+       "purple": "näitus"
+      },
+      "example": {
+       "red": "Ausstellung"
+      }
+     },
+     {
+      "word": {
+       "green": "der Markt"
+      },
+      "meaning": {
+       "purple": "turg"
+      },
+      "example": {
+       "red": "Markt"
+      }
+     }
+    ],
+    "tip": {
+     "blue": "die Messe",
+     "green": "Ettevõtted"
+    },
+    "important": {
+     "blue": "die Messe",
+     "red": [
+      "mess",
+      "missa"
+     ]
+    }
+   }
+  }
  }
 }
