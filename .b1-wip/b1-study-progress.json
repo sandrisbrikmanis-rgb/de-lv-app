@@ -46933,5 +46933,1696 @@
     ]
    }
   }
+ },
+ "b1-da": {
+  "de": "da",
+  "lv": "kuna • sest",
+  "level": "B1",
+  "study": {
+   "id": "b1-da",
+   "layout": "standardStudy",
+   "translation": "kuna • sest",
+   "explanation": [
+    "Peamine mõte: põhjussidesõna, kui põhjus on juba teada või mainitud. Pärast da on tegusõna lause lõpus.",
+    "da tähendab peamiselt: selgitab teadaolevat põhjust.",
+    "Sageli iseloomustab: põhjus on juba mainitud.",
+    "da kui sidesõna tähendab kuna/sest, kui põhjus on juba varem teada või mainitud.",
+    "Mõlemad nõuavad tegusõna lause lõpus."
+   ],
+   "examples": [
+    {
+     "de": "Da ich krank bin, bleibe ich zu Hause.",
+     "lv": "Kuna olen haige, jään koju."
+    },
+    {
+     "de": "Da ich krank bin, bleibe ich zu Hause.",
+     "lv": "kuna olen haige, jään koju."
+    },
+    {
+     "de": "Da du keine Zeit hast, machen wir es morgen.",
+     "lv": "kuna sul pole aega, teeme seda homme."
+    },
+    {
+     "de": "Da das Wetter schlecht ist, fahren wir nicht.",
+     "lv": "kuna ilm on halb, me ei sõida."
+    },
+    {
+     "de": "Da ich krank bin, bleibe ich.",
+     "lv": "kuna olen haige, jään."
+    }
+   ],
+   "tip": [
+    "Põhjussidesõna, kui põhjus on juba teada või mainitud. Pärast da on tegusõna lause lõpus.",
+    "Kasuta da, kui kontekst vastab sellele tähendusele."
+   ],
+   "important": [
+    "da kui sidesõna ≠ da kui seal (kohamäärsõna).",
+    "Vale: Da ich bin krank, ... → Õige: Da ich krank bin, ...",
+    "da (sidesõna) = põhjus on juba teada."
+   ],
+   "sectionAccents": {
+    "explanation": {
+     "green": [
+      "da",
+      "da"
+     ],
+     "purple": [
+      "kuna",
+      "sest"
+     ],
+     "blue": [
+      "da"
+     ]
+    },
+    "examples": [
+     {
+      "de": {
+       "green": [
+        "da",
+        "da"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kuna",
+        "sest"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "da",
+        "da"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kuna",
+        "sest"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "da",
+        "da"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kuna",
+        "sest"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "da",
+        "da"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kuna",
+        "sest"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "da",
+        "da"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kuna",
+        "sest"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "da",
+        "da"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kuna",
+        "sest"
+       ]
+      }
+     }
+    ],
+    "tip": [
+     {
+      "purple": [
+       "kuna"
+      ]
+     },
+     {
+      "purple": [
+       "sest"
+      ]
+     }
+    ],
+    "important": [
+     {
+      "green": [
+       "da"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "b1-obwohl": {
+  "de": "obwohl",
+  "lv": "kuigi • ehkki",
+  "level": "B1",
+  "study": {
+   "id": "b1-obwohl",
+   "layout": "standardStudy",
+   "translation": "kuigi • ehkki",
+   "explanation": [
+    "Peamine mõte: sissejuhatab vastupidise põhjuse kõrvallauses. Tegusõna on lause lõpus.",
+    "obwohl tähendab peamiselt: vastupidine põhjus.",
+    "Sageli iseloomustab: kõrvallause.",
+    "obwohl tähendab kuigi ja sissejuhatab kõrvallauset, kus tegusõna on lõpus."
+   ],
+   "examples": [
+    {
+     "de": "Obwohl es müde bin, gehe ich spazieren.",
+     "lv": "Kuigi olen väsinud, lähen jalutama."
+    },
+    {
+     "de": "Obwohl es regnet, gehen wir raus.",
+     "lv": "kuigi sajab, läheme välja."
+    },
+    {
+     "de": "Obwohl er krank ist, arbeitet er.",
+     "lv": "kuigi ta on haige, töötab ta."
+    },
+    {
+     "de": "Obwohl ich wenig Zeit habe, helfe ich dir.",
+     "lv": "kuigi mul on vähe aega, aitan sind."
+    },
+    {
+     "de": "Obwohl es regnet, gehen wir.",
+     "lv": "kuigi sajab, läheme."
+    },
+    {
+     "de": "Obwohl es regnet, gehen wir raus.",
+     "lv": "Kuigi sajab, läheme välja."
+    }
+   ],
+   "tip": [
+    "Sissejuhatab vastupidise põhjuse kõrvallauses. Tegusõna on lause lõpus.",
+    "Kasuta obwohl, kui kontekst vastab sellele tähendusele."
+   ],
+   "important": [
+    "obwohl sissejuhatab kõrvallauset — tegusõna on lõpus.",
+    "Vale: Obwohl ich bin müde, ... → Õige: Obwohl ich müde bin, ...",
+    "obwohl = kuigi (kõrvallause).",
+    "Sissejuhatab vastupidise põhjuse kõrvallauses. Tegusõna on lause lõpus."
+   ],
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "obwohl"
+     ],
+     "purple": [
+      "kuigi"
+     ]
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "obwohl",
+        "obwohl"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kuigi",
+        "ehkki"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "obwohl",
+        "obwohl"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kuigi",
+        "ehkki"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "obwohl",
+        "obwohl"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kuigi",
+        "ehkki"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "obwohl",
+        "obwohl"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kuigi",
+        "ehkki"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "obwohl",
+        "obwohl"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kuigi",
+        "ehkki"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "obwohl",
+        "obwohl"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kuigi",
+        "ehkki"
+       ]
+      }
+     }
+    ],
+    "tip": [
+     {
+      "purple": [
+       "kuigi"
+      ]
+     },
+     {
+      "purple": [
+       "ehkki"
+      ]
+     }
+    ],
+    "important": [
+     {
+      "blue": [
+       "obwohl"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "b1-trotzdem": {
+  "de": "trotzdem",
+  "lv": "sellegipoolest • ikkagi",
+  "level": "B1",
+  "study": {
+   "id": "b1-trotzdem",
+   "layout": "standardStudy",
+   "translation": "sellegipoolest • ikkagi",
+   "explanation": [
+    "Peamine mõte: näitab tulemust, hoolimata põhjusest. Tegusõna on 2. kohal.",
+    "trotzdem tähendab peamiselt: tulemus sellest hoolimata.",
+    "Sageli iseloomustab: pealause.",
+    "trotzdem tähendab sellegipoolest ja seisab pealauses — pärast seda on tegusõna 2. kohal."
+   ],
+   "examples": [
+    {
+     "de": "Ich bin müde. Trotzdem gehe ich spazieren.",
+     "lv": "Olen väsinud. Sellegipoolest lähen jalutama."
+    },
+    {
+     "de": "Es regnet. Trotzdem gehen wir raus.",
+     "lv": "sajab. sellegipoolest läheme välja."
+    },
+    {
+     "de": "Er ist krank. Trotzdem arbeitet er.",
+     "lv": "ta on haige. sellegipoolest töötab ta."
+    },
+    {
+     "de": "Ich habe wenig Zeit. Trotzdem helfe ich dir.",
+     "lv": "mul on vähe aega. sellegipoolest aitan sind."
+    },
+    {
+     "de": "Es regnet. Trotzdem gehen wir.",
+     "lv": "sajab. sellegipoolest läheme."
+    },
+    {
+     "de": "Es regnet. Trotzdem gehen wir raus.",
+     "lv": "Sajab. Sellegipoolest läheme välja."
+    }
+   ],
+   "tip": [
+    "Näitab tulemust, hoolimata põhjusest. Tegusõna on 2. kohal.",
+    "Kasuta trotzdem, kui kontekst vastab sellele tähendusele."
+   ],
+   "important": [
+    "trotzdem seisab pealauses — tegusõna 2. kohal.",
+    "trotz (eessõna) ≠ trotzdem (määrsõna).",
+    "Vale: Trotzdem ich gehe. → Õige: Trotzdem gehe ich.",
+    "trotzdem = sellegipoolest (pealause)."
+   ],
+   "sectionAccents": {
+    "explanation": {
+     "green": [
+      "trotzdem"
+     ],
+     "purple": [
+      "sellegipoolest"
+     ]
+    },
+    "examples": [
+     {
+      "de": {
+       "green": [
+        "trotzdem",
+        "trotzdem"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "sellegipoolest",
+        "ikkagi"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "trotzdem",
+        "trotzdem"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "sellegipoolest",
+        "ikkagi"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "trotzdem",
+        "trotzdem"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "sellegipoolest",
+        "ikkagi"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "trotzdem",
+        "trotzdem"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "sellegipoolest",
+        "ikkagi"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "trotzdem",
+        "trotzdem"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "sellegipoolest",
+        "ikkagi"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "trotzdem",
+        "trotzdem"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "sellegipoolest",
+        "ikkagi"
+       ]
+      }
+     }
+    ],
+    "tip": [
+     {
+      "purple": [
+       "sellegipoolest"
+      ]
+     },
+     {
+      "purple": [
+       "ikkagi"
+      ]
+     }
+    ],
+    "important": [
+     {
+      "green": [
+       "trotzdem"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "b1-anstatt-zu": {
+  "de": "anstatt ... zu",
+  "lv": "selle asemel, et",
+  "level": "B1",
+  "study": {
+   "id": "b1-anstatt-zu",
+   "layout": "standardStudy",
+   "translation": "selle asemel, et",
+   "explanation": [
+    "Peamine mõte: üks tegevus toimub teise asemel. anstatt + zu + infinitiiv.",
+    "anstatt ... zu tähendab peamiselt: üks tegevus asendab teist.",
+    "Sageli iseloomustab: alternatiivne tegevus.",
+    "Näidetes otsi tüüpilist igapäevast kasutust."
+   ],
+   "examples": [
+    {
+     "de": "Anstatt zu warten, rufe ich an.",
+     "lv": "Selle asemel, et oodata, helistan."
+    }
+   ],
+   "tip": [
+    "anstatt ... zu = selle asemel, et",
+    "Kasuta anstatt ... zu, kui kontekst vastab sellele tähendusele."
+   ],
+   "important": [
+    "anstatt ... zu = selle asemel, et.",
+    "Üks tegevus toimub teise asemel. anstatt + zu + infinitiiv."
+   ],
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "anstatt",
+      "zu"
+     ],
+     "purple": [
+      "selle asemel, et"
+     ]
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "anstatt ... zu",
+        "anstatt ... zu"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "selle asemel, et"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "anstatt ... zu",
+        "anstatt ... zu"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "selle asemel, et"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "anstatt ... zu",
+        "anstatt ... zu"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "selle asemel, et"
+       ]
+      }
+     }
+    ],
+    "tip": [
+     {
+      "purple": [
+       "selle asemel, et"
+      ]
+     }
+    ],
+    "important": [
+     {
+      "blue": [
+       "anstatt ... zu"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "b1-ohne-zu": {
+  "de": "ohne ... zu",
+  "lv": "ilma et",
+  "level": "B1",
+  "study": {
+   "id": "b1-ohne-zu",
+   "layout": "standardStudy",
+   "translation": "ilma et",
+   "explanation": [
+    "Peamine mõte: tegevus ei toimu. ohne + zu + infinitiiv.",
+    "ohne ... zu tähendab peamiselt: tegevus ei toimu.",
+    "Sageli iseloomustab: vahele jäetud tegevus.",
+    "Näidetes otsi tüüpilist igapäevast kasutust."
+   ],
+   "examples": [
+    {
+     "de": "Er ging, ohne sich zu verabschieden.",
+     "lv": "ta lahkus ilma hüvasti jätmata."
+    }
+   ],
+   "tip": [
+    "ohne ... zu = ilma",
+    "Kasuta ohne ... zu, kui kontekst vastab sellele tähendusele."
+   ],
+   "important": [
+    "ohne + mida? (ilma juustuta) ≠ ohne ... zu (midagi ei tehta).",
+    "ohne ... zu = ilma (tegevus ei toimu).",
+    "Tegevus ei toimu. ohne + zu + infinitiiv."
+   ],
+   "sectionAccents": {
+    "explanation": {
+     "green": [
+      "ohne ... zu",
+      "ohne ... zu"
+     ],
+     "purple": [
+      "ilma"
+     ],
+     "red": [
+      "ohne",
+      "zu"
+     ]
+    },
+    "examples": [
+     {
+      "de": {
+       "green": [
+        "ohne ... zu",
+        "ohne ... zu"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "ilma (midagi tehes)"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "ohne ... zu",
+        "ohne ... zu"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "ilma (midagi tehes)"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "ohne ... zu",
+        "ohne ... zu"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "ilma (midagi tehes)"
+       ]
+      }
+     }
+    ],
+    "tip": [
+     {
+      "purple": [
+       "ilma"
+      ]
+     }
+    ],
+    "important": [
+     {
+      "green": [
+       "ohne ... zu"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "b1-sich-befinden-study": {
+  "de": "sich befinden",
+  "lv": "asuma",
+  "level": "B1",
+  "study": {
+   "id": "b1-sich-befinden-study",
+   "layout": "standardStudy",
+   "translation": "asuma",
+   "explanation": "Peamine mõte: sich befinden tähendab enamasti kindlas kohas asumist. See on formaalsem kui lihtne sein. Seda kasutatakse sageli kirjeldustes, viidetes ja ametlikus keeles. Tundmine ei ole selle kaardi peamine A2 tähendus. Tundma end on saksa keeles tavaliselt sich fühlen.",
+   "examples": [
+    {
+     "de": "Das Hotel befindet sich im Zentrum.",
+     "lv": "hotell asub kesklinnas."
+    },
+    {
+     "de": "Die Toilette befindet sich im ersten Stock.",
+     "lv": "tualett asub esimesel korrusel."
+    },
+    {
+     "de": "Der Eingang befindet sich links.",
+     "lv": "sissepääs asub vasakul."
+    },
+    {
+     "de": "Die Schule befindet sich neben dem Park.",
+     "lv": "kool asub pargi kõrval."
+    },
+    {
+     "de": "Ich fühle mich heute gut.",
+     "lv": "ma tunnen end täna hästi."
+    },
+    {
+     "de": "Das Buch liegt auf dem Tisch.",
+     "lv": "raamat asub laual."
+    }
+   ],
+   "comparison": [
+    {
+     "word": "sich befinden",
+     "meaning": "asuma",
+     "example": "Das Büro befindet sich im zweiten Stock. = Kontor asub teisel korrusel."
+    },
+    {
+     "word": "sein",
+     "meaning": "olema / asuma",
+     "example": "Das Büro ist oben. = Kontor on üleval."
+    },
+    {
+     "word": "liegen",
+     "meaning": "asuma / lamama",
+     "example": "Das Buch liegt auf dem Tisch. = Raamat asub laual."
+    },
+    {
+     "word": "stehen",
+     "meaning": "seisma / asuma",
+     "example": "Das Auto steht vor dem Haus. = Auto seisab maja ees."
+    },
+    {
+     "word": "sich fühlen",
+     "meaning": "tundma end",
+     "example": "Ich fühle mich gut. = Ma tunnen end hästi."
+    }
+   ],
+   "tip": {
+    "leftBlocks": [
+     {
+      "text": "Kaartidel, viidetes ja kirjeldustes tähendab sich befinden asumist."
+     },
+     {
+      "text": "Kui tahad öelda \"end tundma\", kasuta sich fühlen, mitte sich befinden."
+     }
+    ]
+   },
+   "important": {
+    "text": "sich befinden ei ole A2 tasemel inimese tunnete kohta. Peamine tähendus on asukoht.",
+    "example": "Das Hotel befindet sich hier = hotell asub siin. Ich fühle mich gut = ma tunnen end hästi."
+   },
+   "sectionAccents": {
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "befindet sich"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "asub"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "befindet sich"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "asub"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "befindet sich"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "asub"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "befindet sich"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "asub"
+       ]
+      }
+     },
+     {
+      "de": {
+       "red": [
+        "fühle mich"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "tunnen end"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "liegt"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "asub"
+       ]
+      }
+     }
+    ],
+    "comparison": [
+     {
+      "word": {
+       "green": [
+        "sich befinden"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "asuma"
+       ]
+      },
+      "example": {
+       "blue": [
+        "befindet sich"
+       ],
+       "purple": [
+        "asub"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "sein"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "olema",
+        "asuma"
+       ]
+      },
+      "example": {
+       "green": [
+        "ist"
+       ],
+       "purple": [
+        "on"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "liegen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "asuma",
+        "lamama"
+       ]
+      },
+      "example": {
+       "yellow": [
+        "liegt"
+       ],
+       "purple": [
+        "asub"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "stehen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "seisma",
+        "asuma"
+       ]
+      },
+      "example": {
+       "orange": [
+        "steht"
+       ],
+       "purple": [
+        "seisab"
+       ]
+      }
+     },
+     {
+      "word": {
+       "green": [
+        "sich fühlen"
+       ]
+      },
+      "meaning": {
+       "purple": [
+        "tundma end"
+       ]
+      },
+      "example": {
+       "red": [
+        "fühle mich"
+       ],
+       "purple": [
+        "tunnen end"
+       ]
+      }
+     }
+    ],
+    "tip": {
+     "leftBlocks": [
+      {
+       "text": {
+        "blue": [
+         "sich befinden"
+        ],
+        "purple": [
+         "asumist"
+        ]
+       }
+      },
+      {
+       "text": {
+        "red": [
+         "sich fühlen"
+        ],
+        "purple": [
+         "end tundma"
+        ]
+       }
+      }
+     ]
+    },
+    "important": [
+     {
+      "text": {
+       "blue": [
+        "sich befinden"
+       ],
+       "purple": [
+        "asukoht"
+       ],
+       "red": [
+        "tunnete"
+       ]
+      },
+      "example": {
+       "blue": [
+        "befindet sich"
+       ],
+       "red": [
+        "fühle mich"
+       ],
+       "purple": [
+        "asub",
+        "tunnen end"
+       ]
+      }
+     }
+    ]
+   },
+   "accents": {
+    "blue": [
+     "sich befinden",
+     "befindet sich"
+    ],
+    "green": [
+     "sein",
+     "ist",
+     "liegt"
+    ],
+    "yellow": [
+     "liegen"
+    ],
+    "orange": [
+     "stehen",
+     "steht"
+    ],
+    "red": [
+     "sich fühlen",
+     "fühle mich"
+    ],
+    "purple": [
+     "asuma",
+     "asub",
+     "tundma end",
+     "tunnen end",
+     "asukoht"
+    ]
+   }
+  }
+ },
+ "b1-erbe": {
+  "de": "Erbe",
+  "de_article": "der",
+  "de_plural": "die Erben",
+  "lv": "pärija",
+  "level": "B1",
+  "study": {
+   "id": "b1-erbe",
+   "layout": "standardStudy",
+   "translation": "pärija",
+   "explanation": [
+    "Peamine mõte: inimene, kes saab pärandina vara või raha.",
+    "der Erbe tähendab peamiselt: inimene.",
+    "Sageli iseloomustab: meessugu.",
+    "das Erbe tähendab peamiselt: asi / väärtus.",
+    "Sageli iseloomustab: kesksugu.",
+    "der Erbe tähendab pärijat — inimest, kes saab pärandi.",
+    "das Erbe tähendab pärandit ennast kui asja või väärtust."
+   ],
+   "examples": [
+    {
+     "de": "Er ist der Erbe seines Onkels.",
+     "lv": "ta on oma onu pärija."
+    },
+    {
+     "de": "Die Erben teilen das Vermögen.",
+     "lv": "pärijad jagavad vara."
+    },
+    {
+     "de": "Das Erbe besteht aus einem Haus.",
+     "lv": "pärand koosneb majast."
+    },
+    {
+     "de": "Sie hat ein großes Erbe bekommen.",
+     "lv": "ta sai suure pärandi."
+    },
+    {
+     "de": "Wer ist der Erbe?",
+     "lv": "kes on pärija?"
+    },
+    {
+     "de": "Das Erbe wird geteilt.",
+     "lv": "pärand jagatakse."
+    }
+   ],
+   "tip": [
+    "Kui jutt on inimesest, kasuta der Erbe või die Erbin. Kui pärandist kui asjast, kasuta das Erbe.",
+    "der Erbe = pärija"
+   ],
+   "important": [
+    "der Erbe = inimene (pärija).",
+    "das Erbe = asi (pärand).",
+    "Ära aja segi: der Erbe ist groß (inimene) vs das Erbe ist groß (pärand).",
+    "Vale: das Erbe wohnt in Berlin → Õige: der Erbe wohnt in Berlin"
+   ],
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "der Erbe",
+      "Erbe"
+     ],
+     "purple": [
+      "pärija"
+     ]
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "der Erbe",
+        "erbe"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "pärija"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "Erben"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "pärijad"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "das Erbe",
+        "erbe"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "pärand"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "Erbe"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "pärandi"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "der Erbe"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "pärija"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "das Erbe"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "pärand"
+       ]
+      }
+     }
+    ],
+    "tip": [
+     {
+      "purple": [
+       "pärija"
+      ]
+     }
+    ],
+    "important": [
+     {
+      "blue": [
+       "der Erbe"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "b1-erbe-study": {
+  "de": "Erbe",
+  "de_article": "das",
+  "lv": "pärand",
+  "level": "B1",
+  "study": {
+   "id": "b1-erbe-study",
+   "layout": "standardStudy",
+   "translation": "pärand",
+   "explanation": [
+    "Peamine mõte: pärand kui asi, vara või väärtus, mis jäetakse maha.",
+    "der Erbe tähendab peamiselt: inimene.",
+    "Sageli iseloomustab: meessugu.",
+    "das Erbe tähendab peamiselt: asi / väärtus.",
+    "Sageli iseloomustab: kesksugu.",
+    "der Erbe tähendab pärijat — inimest, kes saab pärandi.",
+    "das Erbe tähendab pärandit ennast kui asja või väärtust."
+   ],
+   "examples": [
+    {
+     "de": "Das Erbe ist sehr groß.",
+     "lv": "pärand on väga suur."
+    },
+    {
+     "de": "Er ist der Erbe seines Onkels.",
+     "lv": "ta on oma onu pärija."
+    },
+    {
+     "de": "Das Erbe besteht aus einem Haus.",
+     "lv": "pärand koosneb majast."
+    },
+    {
+     "de": "Sie hat ein großes Erbe bekommen.",
+     "lv": "ta sai suure pärandi."
+    },
+    {
+     "de": "Wer ist der Erbe?",
+     "lv": "kes on pärija?"
+    },
+    {
+     "de": "Das Erbe wird geteilt.",
+     "lv": "pärand jagatakse."
+    }
+   ],
+   "tip": [
+    "Kui jutt on inimesest, kasuta der Erbe või die Erbin. Kui pärandist kui asjast, kasuta das Erbe.",
+    "das Erbe = pärand"
+   ],
+   "important": [
+    "der Erbe = inimene (pärija).",
+    "das Erbe = asi (pärand).",
+    "Ära aja segi: der Erbe ist groß (inimene) vs das Erbe ist groß (pärand).",
+    "Vale: das Erbe wohnt in Berlin → Õige: der Erbe wohnt in Berlin"
+   ],
+   "sectionAccents": {
+    "explanation": {
+     "green": [
+      "das Erbe",
+      "Erbe"
+     ],
+     "purple": [
+      "pärand"
+     ]
+    },
+    "examples": [
+     {
+      "de": {
+       "green": [
+        "das Erbe",
+        "erbe"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "pärand"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "der Erbe"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "pärija"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "das Erbe",
+        "erbe"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "pärand"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "Erbe"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "pärandi"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "der Erbe"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "pärija"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "das Erbe"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "pärand"
+       ]
+      }
+     }
+    ],
+    "tip": [
+     {
+      "purple": [
+       "pärand"
+      ]
+     }
+    ],
+    "important": [
+     {
+      "green": [
+       "das Erbe"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "b1-schaden": {
+  "de": "Schaden",
+  "de_article": "der",
+  "lv": "kahju • kahjustus",
+  "level": "B1",
+  "study": {
+   "id": "b1-schaden",
+   "layout": "standardStudy",
+   "translation": "kahju • kahjustus",
+   "explanation": [
+    "Peamine mõte: nimisõna — materiaalne, tervisega seotud või muu kahju.",
+    "der Schaden tähendab peamiselt: kahju kui asi.",
+    "Sageli iseloomustab: nimisõna (der).",
+    "schaden tähendab peamiselt: kahju tekitama.",
+    "Sageli iseloomustab: tegusõna.",
+    "der Schaden tähendab kahju, kahjustust või vigastust.",
+    "schaden tähendab kahjustama, kahju tekitama.",
+    "Tegusõnaga schaden tuleb kohustuslikult kasutada: kellele/millele?"
+   ],
+   "examples": [
+    {
+     "de": "Am Auto ist ein Schaden.",
+     "lv": "autol on kahjustus."
+    },
+    {
+     "de": "Der Sturm verursachte großen Schaden.",
+     "lv": "torm põhjustas suurt kahju."
+    },
+    {
+     "de": "Am Auto ist ein Schaden.",
+     "lv": "autol on kahjustus."
+    },
+    {
+     "de": "Wer zahlt den Schaden?",
+     "lv": "kes maksab kahju eest?"
+    },
+    {
+     "de": "Der Schaden ist groß.",
+     "lv": "kahju on suur."
+    },
+    {
+     "de": "Das schadet der Gesundheit.",
+     "lv": "see kahjustab tervist."
+    }
+   ],
+   "tip": [
+    "Kui jutt on kahjustusest või kahjust kui asjast, kasuta der Schaden. Kahjustamise kohta kasuta schaden + kellele/millele?.",
+    "Nimisõna — materiaalne, tervisega seotud või muu kahju."
+   ],
+   "important": [
+    "der Schaden = nimisõna (kahju).",
+    "schaden = tegusõna (kahjustama) + kellele/millele?.",
+    "Vale: Der Schaden schadet → Õige: Etwas schadet der Gesundheit.",
+    "der Schaden = kahju."
+   ],
+   "sectionAccents": {
+    "explanation": {
+     "blue": [
+      "der Schaden",
+      "Schaden"
+     ],
+     "purple": [
+      "kahju"
+     ]
+    },
+    "examples": [
+     {
+      "de": {
+       "blue": [
+        "der Schaden",
+        "schaden"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kahju",
+        "kahjustus"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "der Schaden",
+        "schaden"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kahju",
+        "kahjustus"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "der Schaden",
+        "schaden"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kahju",
+        "kahjustus"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "der Schaden",
+        "schaden"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kahju",
+        "kahjustus"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "der Schaden",
+        "schaden"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kahju",
+        "kahjustus"
+       ]
+      }
+     },
+     {
+      "de": {
+       "blue": [
+        "der Schaden",
+        "schaden"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kahju",
+        "kahjustus"
+       ]
+      }
+     }
+    ],
+    "tip": [
+     {
+      "purple": [
+       "kahju"
+      ]
+     },
+     {
+      "purple": [
+       "kahjustus"
+      ]
+     }
+    ],
+    "important": [
+     {
+      "blue": [
+       "der Schaden"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "b1-schaden-study": {
+  "de": "schaden",
+  "lv": "kahjustama",
+  "level": "B1",
+  "study": {
+   "id": "b1-schaden-study",
+   "layout": "standardStudy",
+   "translation": "kahjustama",
+   "explanation": [
+    "Peamine mõte: tegusõna — kahju tekitama. Nõuab kellele? vormi: jemandem schaden.",
+    "schaden tähendab peamiselt: kahju kui asi.",
+    "Sageli iseloomustab: nimisõna (der).",
+    "schaden tähendab peamiselt: kahju tekitama.",
+    "Sageli iseloomustab: tegusõna.",
+    "der Schaden tähendab kahju, kahjustust või vigastust.",
+    "schaden tähendab kahjustama, kahju tekitama.",
+    "Tegusõnaga schaden tuleb kohustuslikult kasutada: kellele/millele?"
+   ],
+   "examples": [
+    {
+     "de": "Rauchen schadet der Gesundheit.",
+     "lv": "Suitsetamine kahjustab tervist."
+    },
+    {
+     "de": "Der Sturm verursachte großen Schaden.",
+     "lv": "torm põhjustas suurt kahju."
+    },
+    {
+     "de": "Am Auto ist ein Schaden.",
+     "lv": "autol on kahjustus."
+    },
+    {
+     "de": "Wer zahlt den Schaden?",
+     "lv": "kes maksab kahju eest?"
+    },
+    {
+     "de": "Der Schaden ist groß.",
+     "lv": "kahju on suur."
+    },
+    {
+     "de": "Das schadet der Gesundheit.",
+     "lv": "see kahjustab tervist."
+    }
+   ],
+   "tip": [
+    "Kui jutt on kahjustusest või kahjust kui asjast, kasuta der Schaden. Kahjustamise kohta kasuta schaden + kellele/millele?.",
+    "Tegusõna — kahju tekitama. Nõuab kellele? vormi: jemandem schaden."
+   ],
+   "important": [
+    "der Schaden = nimisõna (kahju).",
+    "schaden = tegusõna (kahjustama) + kellele/millele?.",
+    "Vale: Der Schaden schadet → Õige: Etwas schadet der Gesundheit.",
+    "der Schaden = kahju."
+   ],
+   "sectionAccents": {
+    "explanation": {
+     "green": [
+      "schaden",
+      "schaden"
+     ],
+     "purple": [
+      "kahjustama"
+     ],
+     "red": [
+      "schaden",
+      "schadet"
+     ]
+    },
+    "examples": [
+     {
+      "de": {
+       "green": [
+        "schaden",
+        "schaden"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kahjustama"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "schaden",
+        "schaden"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kahjustama"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "schaden",
+        "schaden"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kahjustama"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "schaden",
+        "schaden"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kahjustama"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "schaden",
+        "schaden"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kahjustama"
+       ]
+      }
+     },
+     {
+      "de": {
+       "green": [
+        "schaden",
+        "schaden"
+       ]
+      },
+      "lv": {
+       "purple": [
+        "kahjustama"
+       ]
+      }
+     }
+    ],
+    "tip": [
+     {
+      "purple": [
+       "kahjustama"
+      ]
+     }
+    ],
+    "important": [
+     {
+      "green": [
+       "schaden"
+      ]
+     }
+    ]
+   }
+  }
  }
 }
