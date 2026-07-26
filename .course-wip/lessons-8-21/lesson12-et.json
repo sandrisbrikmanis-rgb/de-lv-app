@@ -1,0 +1,301 @@
+{
+ "id": "lesson12",
+ "title": "12. õppetund",
+ "subtitle": "Võrdlusastmed, als / wie, vanus, omadussõnad ja värvid.",
+ "intro": "Kaheteistkümnes õppetund: võrdlusastmed, als / wie, vanus, omadussõnad ja värvid.",
+ "sections": [
+  {
+   "title": "Dialoogid / laused",
+   "items": [
+    "Wie heißt du? Ich heiße Hans Grube.",
+    "Wieviel Brüder hast du, Hans?",
+    "Ich habe einen Bruder.",
+    "Wie heißt er? Er heißt Max.",
+    "Ist Max groß? Nein, er ist kleiner als ich.",
+    "Wie alt bist du? Ich bin zwölf Jahre alt.",
+    "Wie alt ist Max? Max ist zehn Jahre alt.",
+    "Wieviel Schwestern hast du? Ich habe zwei Schwestern.",
+    "Wie heißen sie? Sie heißen Elsa und Ida.",
+    "Ida ist älter als ich; sie ist dreizehn Jahre alt.",
+    "Sie ist so alt wie mein Vetter.",
+    "Wer ist am ältesten? Die Großmutter ist am ältesten.",
+    "Wer ist älter, die Lehrerin oder der Lehrer?",
+    "Die Lehrerin ist ebenso alt wie der Lehrer.",
+    "Wer ist am jüngsten? Elsa ist am jüngsten.",
+    "Der Bruder ist faul, aber die Schwester ist fleißig.",
+    "Der Schüler ist klein, aber der Lehrer ist groß.",
+    "Die Schülerin ist jung, aber die Lehrerin ist alt.",
+    "Der Sohn ist gesund, aber die Tochter ist krank.",
+    "Der Federhalter ist blau, der Bleistift ist braun.",
+    "Das Lineal ist gelb, das Gummi ist grau.",
+    "Der Baum ist grün, die Blume ist rot.",
+    "Die Tinte ist schwarz, die Kreide ist weiß."
+   ]
+  },
+  {
+   "title": "Sõnad",
+   "items": [
+    "heißen — nimetama (kutsuma)",
+    "wie heißt du — mis su nimi on",
+    "ich heiße — minu nimi on",
+    "die Grube — auk",
+    "wieviel — kui palju",
+    "Max (maks) — Max",
+    "groß — suur",
+    "klein — väike",
+    "kleiner als ich — väiksem kui mina",
+    "alt — vana",
+    "jung — noor",
+    "jünger als ich — noorem kui mina",
+    "so alt wie — sama vana kui",
+    "der Vetter (deer feter) — nõbu",
+    "am ältesten (am eltesten) — kõige vanem",
+    "ebenso — samuti",
+    "wie — nagu, kuidas",
+    "am jüngsten — kõige noorem",
+    "faul — laisk",
+    "fleißig — usin",
+    "blau — sinine",
+    "braun — pruun",
+    "gelb — kollane",
+    "das Gummi (das gumii) — kustutuskumm",
+    "grau — hall",
+    "der Baum — puu",
+    "grün — roheline",
+    "die Blume — lill",
+    "rot — punane",
+    "die Tinte — tint",
+    "die Kreide — kriit",
+    "weiß — valge",
+    "schwarz — must",
+    "krank — haige",
+    "gesund — terve"
+   ]
+  },
+  {
+   "title": "Hääldus",
+   "items": [
+    "x hääldatakse kui ks: Max (maks), Felix (feeliks).",
+    "Sõnades Schwester, am jüngsten hääldatakse st tavalise st-häälikuna: Schwester (švester), jüngsten (jünksten).",
+    "h sõnas der Federhalter on hääldatav häälik, aga sõnas der Sohn on see pikendusmärk."
+   ]
+  },
+  {
+   "title": "Gramatika",
+   "items": [
+    {
+     "heading": "Komparativ",
+     "text": "Omadussõna võrdlev aste (Komparativ) moodustatakse algastmest (Positiv) lõpuga -er.",
+     "examples": [
+      "klein — kleiner",
+      "alt — älter",
+      "jung — jünger"
+     ]
+    },
+    {
+     "heading": "Umlaut võrdlevas astmes",
+     "text": "Enamikul üherõhulistel omadussõnadel, mille tüves on täishäälik a, o, u, on võrdlevas astmes Umlaut.",
+     "examples": [
+      "lang — länger",
+      "groß — größer",
+      "kurz — kürzer"
+     ]
+    },
+    {
+     "heading": "Võrdlemine sõnadega wie ja als",
+     "text": "wie kasutatakse võrdsuse väljendamiseks. als kasutatakse ebavõrdsuse väljendamiseks.",
+     "examples": [
+      "Elsa ist so alt wie mein Vetter.",
+      "Ida ist älter als ich."
+     ]
+    },
+    {
+     "heading": "Superlativ",
+     "text": "Ülivõrre (Superlativ) moodustatakse, lisades algastmele lõpu -sten või -esten ja ette sõna am.",
+     "examples": [
+      "Ida ist am jüngsten.",
+      "Die Großmutter ist am ältesten."
+     ]
+    },
+    {
+     "heading": "Ebareeglipärased võrdlusastmed",
+     "table": [
+      [
+       "Positiv",
+       "Komparativ",
+       "Superlativ"
+      ],
+      [
+       "nah (lähedal)",
+       "näher",
+       "am nächsten"
+      ],
+      [
+       "hoch (kõrge)",
+       "höher",
+       "am höchsten"
+      ],
+      [
+       "gut (hea)",
+       "besser",
+       "am besten"
+      ],
+      [
+       "viel (palju)",
+       "mehr",
+       "am meisten"
+      ],
+      [
+       "bald (peagi)",
+       "eher",
+       "am ehesten"
+      ],
+      [
+       "gern (meelsasti)",
+       "lieber",
+       "am liebsten"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Pārtulko",
+   "type": "translationCards",
+   "cards": [
+    {
+     "lv": "Kes on vanem, sina või mina?",
+     "de": "Wer ist älter, du oder ich?"
+    },
+    {
+     "lv": "Sina oled vanem kui mina.",
+     "de": "Du bist älter als ich."
+    },
+    {
+     "lv": "Kes on kõige vanem?",
+     "de": "Wer ist am ältesten?"
+    },
+    {
+     "lv": "Paul on kõige vanem.",
+     "de": "Paul ist am ältesten."
+    },
+    {
+     "lv": "Mis su nimi on?",
+     "de": "Wie heißt du?"
+    },
+    {
+     "lv": "Minu nimi on Peter.",
+     "de": "Ich heiße Peter."
+    },
+    {
+     "lv": "Mis on tema nimi?",
+     "de": "Wie heißt er?"
+    },
+    {
+     "lv": "Tema nimi on Johann.",
+     "de": "Er heißt Johann."
+    },
+    {
+     "lv": "Mis on Teie nimi?",
+     "de": "Wie heißen Sie?"
+    },
+    {
+     "lv": "Kui vana Teie olete?",
+     "de": "Wie alt sind Sie?"
+    },
+    {
+     "lv": "Mina olen 20 aastat vana.",
+     "de": "Ich bin zwanzig Jahre alt."
+    },
+    {
+     "lv": "Kas Max on suur?",
+     "de": "Ist Max groß?"
+    },
+    {
+     "lv": "Ei, Max ei ole suur, Rudolf on suurem.",
+     "de": "Nein, Max ist nicht groß, Rudolf ist größer."
+    },
+    {
+     "lv": "Kes on kõige suurem?",
+     "de": "Wer ist am größten?"
+    },
+    {
+     "lv": "Franz on kõige suurem.",
+     "de": "Franz ist am größten."
+    },
+    {
+     "lv": "Kui vana on ema?",
+     "de": "Wie alt ist die Mutter?"
+    },
+    {
+     "lv": "Ema on sama vana kui isa.",
+     "de": "Die Mutter ist ebenso alt wie der Vater."
+    },
+    {
+     "lv": "Mitu õde sinul on?",
+     "de": "Wieviel Schwestern hast du?"
+    },
+    {
+     "lv": "Minul on kolm õde.",
+     "de": "Ich habe drei Schwestern."
+    },
+    {
+     "lv": "Mis on nende nimed?",
+     "de": "Wie heißen sie?"
+    },
+    {
+     "lv": "Nende nimed on Elsa, Martha ja Alma.",
+     "de": "Sie heißen Elsa, Martha und Alma."
+    },
+    {
+     "lv": "Mitu venda Teil on?",
+     "de": "Wieviel Brüder haben Sie?"
+    },
+    {
+     "lv": "Minul on üks vend.",
+     "de": "Ich habe einen Bruder."
+    },
+    {
+     "lv": "Milline on tint?",
+     "de": "Wie ist die Tinte?"
+    },
+    {
+     "lv": "See on must.",
+     "de": "Sie ist schwarz."
+    },
+    {
+     "lv": "Milline on kriit?",
+     "de": "Wie ist die Kreide?"
+    },
+    {
+     "lv": "See on valge.",
+     "de": "Sie ist weiß."
+    },
+    {
+     "lv": "Millised on lilled?",
+     "de": "Wie sind die Blumen?"
+    },
+    {
+     "lv": "Need on sinised, punased, kollased ja valged.",
+     "de": "Sie sind blau, rot, gelb und weiß."
+    },
+    {
+     "lv": "Kas vend on terve?",
+     "de": "Ist der Bruder gesund?"
+    },
+    {
+     "lv": "Jah, vend on terve, aga õde on haige.",
+     "de": "Ja, der Bruder ist gesund, aber die Schwester ist krank."
+    },
+    {
+     "lv": "Kas teie olete õnnelikud?",
+     "de": "Sind Sie glücklich?"
+    },
+    {
+     "lv": "Jah, meie oleme õnnelikud, sest meie oleme terved.",
+     "de": "Ja, wir sind glücklich, denn wir sind gesund."
+    }
+   ]
+  }
+ ]
+}
