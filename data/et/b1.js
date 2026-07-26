@@ -29770,7 +29770,7 @@ const B1_WORDS = [
   {
     "de": "Hass",
     "de_article": "der",
-    "de_plural": "die Hasse",
+    "de_plural": null,
     "lv": "vihkamine",
     "level": "B1"
   },
@@ -32169,7 +32169,7 @@ const B1_WORDS = [
   {
     "de": "Hürdenlauf",
     "de_article": "der",
-    "de_plural": "die Hürdenlaufe",
+    "de_plural": "die Hürdenläufe",
     "lv": "tõkkejooks",
     "level": "B1"
   },
@@ -33111,7 +33111,7 @@ const B1_WORDS = [
   {
     "de": "Jagderlaubnis",
     "de_article": "die",
-    "de_plural": "die Jagderlaubse",
+    "de_plural": "die Jagderlaubnisse",
     "lv": "jahiluba",
     "level": "B1"
   },
@@ -34713,7 +34713,7 @@ const B1_WORDS = [
   {
     "de": "Kettenglied",
     "de_article": "das",
-    "de_plural": "die Kettengliede",
+    "de_plural": "die Kettenglieder",
     "lv": "keti lüli",
     "level": "B1"
   },
@@ -35324,7 +35324,7 @@ const B1_WORDS = [
   {
     "de": "Klatsch",
     "de_article": "der",
-    "de_plural": "die Klatsche",
+    "de_plural": null,
     "lv": "kuulujutud",
     "level": "B1"
   },
@@ -36249,7 +36249,7 @@ const B1_WORDS = [
   {
     "de": "Kosmos",
     "de_article": "der",
-    "de_plural": "die Kosmose",
+    "de_plural": null,
     "lv": "universum",
     "level": "B1"
   },
@@ -36437,14 +36437,14 @@ const B1_WORDS = [
   {
     "de": "Muskelkrampf",
     "de_article": "der",
-    "de_plural": "die Muskelkrampfe",
+    "de_plural": "die Muskelkrämpfe",
     "lv": "lihaskrambid",
     "level": "B1"
   },
   {
     "de": "Magenkrampf",
     "de_article": "der",
-    "de_plural": "die Magenkrampfe",
+    "de_plural": "die Magenkrämpfe",
     "lv": "maokrambid",
     "level": "B1"
   },
@@ -36853,7 +36853,7 @@ const B1_WORDS = [
   {
     "de": "Kummer",
     "de_article": "der",
-    "de_plural": "die Kummer",
+    "de_plural": null,
     "lv": "mure",
     "level": "B1"
   },
@@ -39500,7 +39500,7 @@ const B1_WORDS = [
   {
     "de": "Leid",
     "de_article": "das",
-    "de_plural": "die Leide",
+    "de_plural": null,
     "lv": "kannatused",
     "level": "B1"
   },
@@ -39959,7 +39959,7 @@ const B1_WORDS = [
   {
     "de": "Liegeplatz",
     "de_article": "der",
-    "de_plural": "die Liegeplatze",
+    "de_plural": "die Liegeplätze",
     "lv": "magamiskoht",
     "level": "B1"
   },
@@ -40014,7 +40014,7 @@ const B1_WORDS = [
   {
     "de": "Lob",
     "de_article": "das",
-    "de_plural": "die Lobe",
+    "de_plural": null,
     "lv": "kiitus",
     "level": "B1"
   },
@@ -41089,7 +41089,7 @@ const B1_WORDS = [
   {
     "de": "Mars",
     "de_article": "der",
-    "de_plural": "die Marse",
+    "de_plural": null,
     "lv": "Marss",
     "level": "B1"
   },
@@ -41624,7 +41624,7 @@ const B1_WORDS = [
   {
     "de": "Mitleid",
     "de_article": "das",
-    "de_plural": "die Mitleide",
+    "de_plural": null,
     "lv": "kaastunne",
     "level": "B1"
   },
@@ -41659,7 +41659,7 @@ const B1_WORDS = [
   {
     "de": "Mobbing",
     "de_article": "das",
-    "de_plural": "die Mobbinge",
+    "de_plural": null,
     "lv": "kiusamine",
     "level": "B1"
   },
@@ -41671,7 +41671,7 @@ const B1_WORDS = [
   {
     "de": "Mobilfunk",
     "de_article": "der",
-    "de_plural": "die Mobilfunke",
+    "de_plural": null,
     "lv": "mobiilsidevõrk",
     "level": "B1"
   },
@@ -41884,7 +41884,7 @@ const B1_WORDS = [
   {
     "de": "Mumps",
     "de_article": "der",
-    "de_plural": "die Mumpse",
+    "de_plural": null,
     "lv": "mumps",
     "level": "B1"
   },
@@ -42411,7 +42411,7 @@ const B1_WORDS = [
   {
     "de": "Nachwuchs",
     "de_article": "der",
-    "de_plural": "die Nachwuchse",
+    "de_plural": null,
     "lv": "järelkasv",
     "level": "B1"
   },
@@ -43584,7 +43584,7 @@ const B1_WORDS = [
   {
     "de": "Obdachlose",
     "de_article": "der",
-    "de_plural": "die Obdachlose",
+    "de_plural": "die Obdachlosen",
     "lv": "kodutu",
     "level": "B1"
   },
@@ -44532,14 +44532,14 @@ const B1_WORDS = [
   {
     "de": "Pendelbus",
     "de_article": "der",
-    "de_plural": "die Pendelbuse",
+    "de_plural": "die Pendelbusse",
     "lv": "eeslinnabuss",
     "level": "B1"
   },
   {
     "de": "Pendelzug",
     "de_article": "der",
-    "de_plural": "die Pendelzuge",
+    "de_plural": "die Pendelzüge",
     "lv": "eeslinnarong",
     "level": "B1"
   },
@@ -45099,7 +45099,7 @@ const B1_WORDS = [
   {
     "de": "Plunder",
     "de_article": "der",
-    "de_plural": "die Plundern",
+    "de_plural": null,
     "lv": "kolu",
     "level": "B1"
   },
@@ -45850,7 +45850,7 @@ const B1_WORDS = [
   {
     "de": "Putz",
     "de_article": "der",
-    "de_plural": "die Putze",
+    "de_plural": null,
     "lv": "krohv",
     "level": "B1"
   },
@@ -46813,7 +46813,7 @@ const B1_WORDS = [
   {
     "de": "Reck",
     "de_article": "das",
-    "de_plural": "die Recke",
+    "de_plural": "die Recks",
     "lv": "kang",
     "level": "B1"
   },
@@ -52405,7 +52405,7 @@ const B1_WORDS = [
   {
     "de": "Skispringen",
     "de_article": "das",
-    "de_plural": "die Skispringen",
+    "de_plural": null,
     "lv": "suusahüpped",
     "level": "B1"
   },

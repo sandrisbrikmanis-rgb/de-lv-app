@@ -33731,7 +33731,7 @@ const A2_WORDS = [
   {
     "de": "Fragebogen",
     "de_article": "der",
-    "de_plural": "die Fragebogen",
+    "de_plural": "die Fragebögen",
     "lv": "küsimustik",
     "level": "A2"
   },
