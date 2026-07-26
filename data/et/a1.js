@@ -8931,7 +8931,7 @@ const A1_WORDS = [
     "de": "Hand",
     "de_article": "die",
     "de_plural": "die Hände",
-    "lv": "käsi (kämbal)",
+    "lv": "käsi (kämmal)",
     "level": "A1"
   },
   {

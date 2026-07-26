@@ -47,7 +47,7 @@ const DIALOGUE_ID_MAP = {
   "diag_046": { "de": "Darf ich beim Aufräumen helfen?", "lv": "Kas ma tohin koristamisel aidata?" },
   "diag_047": { "de": "Was trinkst du morgens, Kaffee oder Tee?", "lv": "Mida sa hommikuti jood, kohvi või teed?" },
   "diag_048": { "de": "Gewöhnlich trinke ich morgens eine Tasse Kaffee.", "lv": "Tavaliselt joon hommikuti tassi kohvi." },
-  "diag_049": { "de": "Am liebsten trinke ich schwarzen Kaffee.", "lv": "Kõige rohkem meeldib mulle musta kohv." },
+  "diag_049": { "de": "Am liebsten trinke ich schwarzen Kaffee.", "lv": "Kõige rohkem meeldib mulle must kohv." },
   "diag_050": { "de": "Guten Morgen, hast du gut geschlafen?", "lv": "Tere hommikust, kas magasid hästi?" },
   "diag_051": { "de": "Ich bin noch sehr müde.", "lv": "Olen ikka veel väga väsinud." },
   "diag_052": { "de": "Willst du Kaffee oder Milch?", "lv": "Kas tahad kohvi või piima?" },

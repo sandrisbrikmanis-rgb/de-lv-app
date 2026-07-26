@@ -757,7 +757,7 @@ const C2_WORDS = [
     "de": "Empfehlungsschreiben",
     "de_article": "das",
     "de_plural": "die Empfehlungsschreiben",
-    "lv": "kirjalik soovitus",
+    "lv": "soovituskiri",
     "level": "C2"
   },
   {
@@ -1336,7 +1336,7 @@ const C2_WORDS = [
     "de": "Selbstverteidigung",
     "de_article": "die",
     "de_plural": "die Selbstverteidigungen",
-    "lv": "enesekaitsevõtete kogum",
+    "lv": "enesekaitse",
     "level": "C2"
   },
   {

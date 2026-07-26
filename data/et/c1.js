@@ -3014,7 +3014,7 @@ const C1_WORDS = [
   {
     "de": "Leistungssport",
     "de_article": "der",
-    "lv": "profispordi",
+    "lv": "tippspord",
     "level": "C1"
   },
   {
@@ -3352,7 +3352,7 @@ const C1_WORDS = [
   {
     "de": "Segelflugsport",
     "de_article": "der",
-    "lv": "purilennuspordi",
+    "lv": "purilennusport",
     "level": "C1"
   },
   {
@@ -4257,7 +4257,7 @@ const C1_WORDS = [
           "lv": "ta kavatseb projekti lõpetada."
         },
         {
-          "de": "beabsichtigen + zu + nenoteiksme",
+          "de": "beabsichtigen + zu + Infinitiv",
           "lv": "kavatseda midagi teha."
         }
       ],

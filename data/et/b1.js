@@ -1540,7 +1540,7 @@ const B1_WORDS = [
     "de": "Abiturient",
     "de_article": "der",
     "de_plural": "die Abiturienten",
-    "lv": "abituriendi",
+    "lv": "abituriend",
     "level": "B1"
   },
   {
@@ -3166,21 +3166,21 @@ const B1_WORDS = [
     "de": "Anschlag",
     "de_article": "der",
     "de_plural": "die Anschläge",
-    "lv": "atendaat",
+    "lv": "atentaat",
     "level": "B1",
     "study": {
       "id": "b1-anschlag",
       "layout": "standardStudy",
-      "translation": "atendaat",
-      "explanation": "Põhiidee: der Anschlag tähendab sageli atendaati või rünnakut. Vanemas või formaalses kasutuses võib see tähendada ka seinal olevat teadet.",
+      "translation": "atentaat",
+      "explanation": "Põhiidee: der Anschlag tähendab sageli atentaati või rünnakut. Vanemas või formaalses kasutuses võib see tähendada ka seinal olevat teadet.",
       "examples": [
         {
           "de": "Bei dem Anschlag wurden viele Menschen verletzt.",
-          "lv": "atendaadis sai vigastada palju inimesi."
+          "lv": "atentaadis sai vigastada palju inimesi."
         },
         {
           "de": "Die Polizei untersucht den Anschlag.",
-          "lv": "politsei uurib atendaati."
+          "lv": "politsei uurib atentaati."
         },
         {
           "de": "Der Anschlag hängt am Eingang.",
@@ -3190,8 +3190,8 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "der Anschlag",
-          "meaning": "atendaat / teade",
-          "example": "Die Polizei untersucht den Anschlag. = Politsei uurib atendaati."
+          "meaning": "atentaat / teade",
+          "example": "Die Polizei untersucht den Anschlag. = Politsei uurib atentaati."
         },
         {
           "word": "der Angriff",
@@ -3207,7 +3207,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Uudistes on der Anschlag peaaegu alati atendaat või rünnak."
+            "text": "Uudistes on der Anschlag peaaegu alati atentaat või rünnak."
           }
         ]
       },
@@ -7166,7 +7166,7 @@ const B1_WORDS = [
   },
   {
     "de": "beißend",
-    "lv": "kaustav",
+    "lv": "salvav",
     "level": "B1"
   },
   {
@@ -7195,7 +7195,7 @@ const B1_WORDS = [
     "de": "Bekanntschaft",
     "de_article": "die",
     "de_plural": "die Bekanntschaften",
-    "lv": "tuttavaks olemine",
+    "lv": "tutvus",
     "level": "B1"
   },
   {
@@ -10650,7 +10650,7 @@ const B1_WORDS = [
     "de": "Bierstube",
     "de_article": "die",
     "de_plural": "die Bierstuben",
-    "lv": "õlleköök",
+    "lv": "õlletuba",
     "level": "B1"
   },
   {
@@ -13666,12 +13666,12 @@ const B1_WORDS = [
   },
   {
     "de": "daran",
-    "lv": "par to",
+    "lv": "selle kohta",
     "level": "B1",
     "study": {
       "id": "b1-daran",
       "layout": "standardStudy",
-      "translation": "par to",
+      "translation": "selle kohta",
       "explanation": "Põhiidee: daran tähendab selle kohta, selle juures või selle asja juures. Täpse tõlke määrab tegusõna: denken an, arbeiten an, sich erinnern an.",
       "examples": [
         {
@@ -14031,17 +14031,17 @@ const B1_WORDS = [
   },
   {
     "de": "darunter",
-    "lv": "tostarp",
+    "lv": "sealhulgas",
     "level": "B1",
     "study": {
       "id": "b1-darunter",
       "layout": "standardStudy",
-      "translation": "tostarp",
-      "explanation": "Põhiidee: darunter tähendab tostarp või selle all. Nimekirjades tähendab darunter sageli „nende hulgas”.",
+      "translation": "sealhulgas",
+      "explanation": "Põhiidee: darunter tähendab sealhulgas või selle all. Nimekirjades tähendab darunter sageli „nende hulgas”.",
       "examples": [
         {
           "de": "Viele Gäste kamen, darunter auch Kinder.",
-          "lv": "tuli palju külalisi, tostarp ka lapsi."
+          "lv": "tuli palju külalisi, sealhulgas ka lapsi."
         },
         {
           "de": "Der Schlüssel liegt darunter.",
@@ -14049,13 +14049,13 @@ const B1_WORDS = [
         },
         {
           "de": "Es gibt viele Probleme, darunter die hohen Kosten.",
-          "lv": "on palju probleeme, tostarp kõrged kulud."
+          "lv": "on palju probleeme, sealhulgas kõrged kulud."
         }
       ],
       "comparison": [
         {
           "word": "darunter",
-          "meaning": "tostarp / selle all",
+          "meaning": "sealhulgas / selle all",
           "example": "Darunter sind viele Kinder. = Nende hulgas on palju lapsi."
         },
         {
@@ -14072,7 +14072,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Nimekirjades tähendab darunter tavaliselt tostarp."
+            "text": "Nimekirjades tähendab darunter tavaliselt sealhulgas."
           }
         ]
       },
@@ -24528,7 +24528,7 @@ const B1_WORDS = [
     "de": "Folie",
     "de_article": "die",
     "de_plural": "die Folien",
-    "lv": "fooliumi",
+    "lv": "foolium",
     "level": "B1"
   },
   {
@@ -31970,7 +31970,7 @@ const B1_WORDS = [
     "de": "Huf",
     "de_article": "der",
     "de_plural": "die Hufe",
-    "lv": "kabja",
+    "lv": "kabjas",
     "level": "B1"
   },
   {
@@ -35387,7 +35387,7 @@ const B1_WORDS = [
   },
   {
     "de": "kleinmütig",
-    "lv": "argpüksik",
+    "lv": "argpükslik",
     "level": "B1"
   },
   {
@@ -36262,7 +36262,7 @@ const B1_WORDS = [
   {
     "de": "Rohkost",
     "de_article": "die",
-    "lv": "toorlik toit",
+    "lv": "toores toit",
     "level": "B1"
   },
   {
@@ -36866,17 +36866,17 @@ const B1_WORDS = [
     "de": "Kunde",
     "de_article": "der",
     "de_plural": "die Kunden",
-    "lv": "klients",
+    "lv": "klient",
     "level": "B1",
     "study": {
       "id": "b1-kunde-2",
       "layout": "standardStudy",
-      "translation": "klients",
+      "translation": "klient",
       "explanation": "Põhiidee: der Kunde tähendab klienti või ostjat. Vanemas või kirjanduslikus keeles võib die Kunde tähendada sõnumit või teadet.",
       "examples": [
         {
           "de": "Der Kunde bezahlt an der Kasse.",
-          "lv": "klients maksab kassas."
+          "lv": "klient maksab kassas."
         },
         {
           "de": "Unsere Kunden sind zufrieden.",
@@ -39185,7 +39185,7 @@ const B1_WORDS = [
     "de": "Lauch",
     "de_article": "der",
     "de_plural": "die Lauche",
-    "lv": "poorileek",
+    "lv": "porrulauk",
     "level": "B1"
   },
   {
@@ -41950,7 +41950,7 @@ const B1_WORDS = [
   },
   {
     "de": "mutlos",
-    "lv": "argpüksik",
+    "lv": "argpükslik",
     "level": "B1"
   },
   {
@@ -44383,7 +44383,7 @@ const B1_WORDS = [
     "de": "Pantoffel",
     "de_article": "der",
     "de_plural": "die Pantoffeln",
-    "lv": "toapapu",
+    "lv": "tuhvel",
     "level": "B1"
   },
   {
@@ -44978,7 +44978,7 @@ const B1_WORDS = [
     "de": "Pickel",
     "de_article": "der",
     "de_plural": "die Pickel",
-    "lv": "vistand",
+    "lv": "vistrik",
     "level": "B1"
   },
   {
@@ -45025,7 +45025,7 @@ const B1_WORDS = [
     "de": "Plakette",
     "de_article": "die",
     "de_plural": "die Plaketten",
-    "lv": "sildmärk",
+    "lv": "plakett",
     "level": "B1"
   },
   {
@@ -48224,7 +48224,7 @@ const B1_WORDS = [
   {
     "de": "Rudersport",
     "de_article": "der",
-    "lv": "aerutamisspordi",
+    "lv": "aerutamissport",
     "level": "B1"
   },
   {
@@ -51381,7 +51381,7 @@ const B1_WORDS = [
   },
   {
     "de": "schwarzfahren",
-    "lv": "pilešita sõitma",
+    "lv": "piletita sõitma",
     "level": "B1"
   },
   {
@@ -58619,7 +58619,7 @@ const B1_WORDS = [
     "de": "Umgang",
     "de_article": "der",
     "de_plural": "die Umgänge",
-    "lv": "ümberkäimine",
+    "lv": "lävimine",
     "level": "B1"
   },
   {
@@ -58957,7 +58957,7 @@ const B1_WORDS = [
     "de": "Umweg",
     "de_article": "der",
     "de_plural": "die Umwege",
-    "lv": "ümbertee",
+    "lv": "ümbersõit",
     "level": "B1"
   },
   {
@@ -59095,7 +59095,7 @@ const B1_WORDS = [
   },
   {
     "de": "unnötig",
-    "lv": "mittevajalik",
+    "lv": "ebavajalik",
     "level": "B1"
   },
   {
@@ -59473,7 +59473,7 @@ const B1_WORDS = [
   },
   {
     "de": "unwohl",
-    "lv": "kehvasti tundev",
+    "lv": "halb",
     "level": "B1"
   },
   {
@@ -60592,7 +60592,7 @@ const B1_WORDS = [
   },
   {
     "de": "verheiraten",
-    "lv": "abielluma panema",
+    "lv": "abiellama",
     "level": "B1"
   },
   {
@@ -60985,7 +60985,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich verrechnen",
-    "lv": "end ümber arvestama",
+    "lv": "arvestust eksima",
     "level": "B1"
   },
   {

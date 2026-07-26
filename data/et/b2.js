@@ -5260,7 +5260,7 @@ const B2_WORDS = [
     "de": "Flaum",
     "de_article": "der",
     "de_plural": null,
-    "lv": "udusulg • ehe",
+    "lv": "udusulg • ebe",
     "level": "B2"
   },
   {
@@ -6556,7 +6556,7 @@ const B2_WORDS = [
     "de": "Gipsverband",
     "de_article": "der",
     "de_plural": "die Gipsverbände",
-    "lv": "kipssideme",
+    "lv": "gipsplaastr",
     "level": "B2"
   },
   {
@@ -6607,7 +6607,7 @@ const B2_WORDS = [
   },
   {
     "de": "gleichmütig",
-    "lv": "tasakaalukas • külmaverelinie",
+    "lv": "tasakaalukas • rahulik",
     "level": "B2"
   },
   {
@@ -7704,7 +7704,7 @@ const B2_WORDS = [
     "de": "Hitzkopf",
     "de_article": "der",
     "de_plural": "die Hitzköpfe",
-    "lv": "kuumaverelie",
+    "lv": "tulipea",
     "level": "B2"
   },
   {
@@ -8135,7 +8135,7 @@ const B2_WORDS = [
   },
   {
     "de": "irrsinnig",
-    "lv": "hulluv • nõdrameelne",
+    "lv": "hullumeelne • nõdrameelne",
     "level": "B2"
   },
   {
@@ -9893,7 +9893,7 @@ const B2_WORDS = [
     "de": "Ölgewinnung",
     "de_article": "die",
     "de_plural": "die Ölgewinnungen",
-    "lv": "nafta tootmine",
+    "lv": "naftatootmine",
     "level": "B2"
   },
   {
@@ -10684,7 +10684,7 @@ const B2_WORDS = [
     "de": "Richtfest",
     "de_article": "das",
     "de_plural": "die Richtfeste",
-    "lv": "harjatõsta pidu",
+    "lv": "sarikapidu",
     "level": "B2"
   },
   {
@@ -11133,7 +11133,7 @@ const B2_WORDS = [
     "de": "Schmerzensgeld",
     "de_article": "das",
     "de_plural": "die Schmerzensgelder",
-    "lv": "valurahaka",
+    "lv": "valuraha",
     "level": "B2"
   },
   {
@@ -11190,7 +11190,7 @@ const B2_WORDS = [
   },
   {
     "de": "schrill",
-    "lv": "kimedа • lõikav",
+    "lv": "kimeda • lõikav",
     "level": "B2"
   },
   {
@@ -12853,7 +12853,7 @@ const B2_WORDS = [
     "de": "Union",
     "de_article": "die",
     "de_plural": "die Unionen",
-    "lv": "liit • uniooni",
+    "lv": "liit • unioon",
     "level": "B2"
   },
   {
@@ -13917,7 +13917,7 @@ const B2_WORDS = [
     "de": "Vorliebe",
     "de_article": "die",
     "de_plural": "die Vorlieben",
-    "lv": "eriline meeldivus",
+    "lv": "eelistus",
     "level": "B2"
   },
   {
@@ -14518,7 +14518,7 @@ const B2_WORDS = [
     "de": "Zusage",
     "de_article": "die",
     "de_plural": "die Zusagen",
-    "lv": "nõustuv vastus",
+    "lv": "jaatav vastus",
     "level": "B2"
   },
   {
