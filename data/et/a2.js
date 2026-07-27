@@ -40013,12 +40013,12 @@ const A2_WORDS = [
     "de": "Job",
     "de_article": "der",
     "de_plural": "die Jobs",
-    "lv": "darbs",
+    "lv": "töö",
     "level": "A2",
     "study": {
       "id": "a2-job",
       "layout": "standardStudy",
-      "translation": "darbs",
+      "translation": "töö",
       "explanation": "Põhiidee: der Job on igapäevane sõna töökoha või töö jaoks. See ei tähenda ainult ajutist tööd. Beruf on amet või elukutse.",
       "examples": [
         {
@@ -41175,8 +41175,8 @@ const A2_WORDS = [
           "lv": "ma tunnen teda."
         },
         {
-          "de": "kennen",
-          "lv": "tundma; wissen"
+          "de": "Kennst du diese Stadt?",
+          "lv": "kas sa tunned seda linna?"
         }
       ],
       "comparison": [
@@ -41266,13 +41266,12 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
-                "kennen",
-                "kennen"
+                "Kennst"
               ]
             },
             "lv": {
               "purple": [
-                "tundma"
+                "tunned"
               ]
             }
           }
@@ -48965,7 +48964,7 @@ const A2_WORDS = [
       "tip": "Saksamaal kasutatakse kõnekeeles ja ametiasutustes väga sageli sõna \"das Kennzeichen\".",
       "examples": [
         {
-          "de": "Wo ir tavam Nummernschild?",
+          "de": "Wo ist dein Nummernschild?",
           "lv": "Kus on sinu numbrimärk?"
         },
         {
@@ -58331,8 +58330,8 @@ const A2_WORDS = [
           "lv": "ma istun laua taga."
         },
         {
-          "de": "sitzen",
-          "lv": "seisund; setzen"
+          "de": "Sie sitzt schon seit einer Stunde hier.",
+          "lv": "ta istub siin juba tund aega."
         }
       ],
       "comparison": [
@@ -58442,13 +58441,12 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
-                "sitzen",
-                "sitzen"
+                "sitzt"
               ]
             },
             "lv": {
               "purple": [
-                "istuma"
+                "istub"
               ]
             }
           }
@@ -59802,8 +59800,8 @@ const A2_WORDS = [
           "lv": "pudel seisab laual."
         },
         {
-          "de": "stehen",
-          "lv": "seisund; stellen"
+          "de": "Das Auto steht vor dem Haus.",
+          "lv": "auto seisab maja ees."
         }
       ],
       "comparison": [
@@ -59887,13 +59885,12 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
-                "stehen",
-                "stehen"
+                "steht"
               ]
             },
             "lv": {
               "purple": [
-                "seisund"
+                "seisab"
               ]
             }
           },

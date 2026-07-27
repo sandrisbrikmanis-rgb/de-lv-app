@@ -195,7 +195,125 @@ const C2_WORDS = [
           "de": "Gramm und Tonne sind Gewichtseinheiten.",
           "lv": "gramm ja tonn on kaaluühikud."
         }
-      ]
+      ],
+      "comparison": [
+        {
+          "word": "die Gewichtseinheit",
+          "meaning": "kaaluühik (nt kilogramm, gramm)",
+          "example": "Kilogramm ist eine Gewichtseinheit. = Kilogramm on kaaluühik."
+        },
+        {
+          "word": "das Gewicht",
+          "meaning": "kaal (konkreetne väärtus)",
+          "example": "Das Gewicht des Pakets beträgt 5 kg. = Paki kaal on 5 kg."
+        },
+        {
+          "word": "die Masse",
+          "meaning": "mass (füüsikaline suurus)",
+          "example": "Die Masse eines Objekts ändert sich nicht. = Objekti mass ei muutu."
+        }
+      ],
+      "tip": "Liitsõna koosneb osadest das Gewicht (kaal) + die Einheit (ühik) — kaaluühik.",
+      "important": "Ära aja segi die Gewichtseinheit (mõõtühik, nt kilogramm) ja das Gewicht (kaal ise, konkreetne väärtus).",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Gewichtseinheit"
+          ],
+          "purple": [
+            "kaaluühik"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Gewichtseinheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kaaluühik"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gewichtseinheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kaaluühikut"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gewichtseinheiten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kaaluühikud"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "blue": [
+                "die Gewichtseinheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kaaluühik"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Gewicht"
+              ]
+            },
+            "meaning": {
+              "yellow": [
+                "kaal"
+              ]
+            }
+          },
+          {
+            "word": {
+              "red": [
+                "die Masse"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "mass"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "Gewichtseinheit"
+          ]
+        },
+        "important": {
+          "blue": [
+            "Gewichtseinheit"
+          ],
+          "green": [
+            "Gewicht"
+          ]
+        }
+      }
     }
   },
   {

@@ -6257,25 +6257,138 @@ const A1_WORDS = [
           "example": "Das ist euer Haus. = See on teie maja."
         }
       ],
-      "info": [
-        "ihr = teie (aluse vorm)",
-        "euch = teid (Akkusativi vorm) / teile (Dativi vorm)",
-        "euer = teie (omastav vorm)"
-      ],
       "tip": {
         "text": "“euch” vastab küsimusele “kellele?” või on otsesihitis lausetes, kus on “teie”.",
         "example": "Ma aitan teid. = Ich helfe euch. Ma näen teid. = Ich sehe euch. Ma räägin teile. = Ich erzähle euch."
       },
-      "accents": {
-        "blue": [
-          "ihr"
+      "important": [
+        "euch on üks ja sama vorm nii Akkusativi (teid) kui ka Dativi (teile) jaoks — täpne tähendus selgub lause struktuurist ja tegusõnast.",
+        "ihr = teie (alusevorm), euch = teid/teile (kaas- või otsesihitis), euer = teie (omastav vorm)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "euch"
+          ],
+          "purple": [
+            "teid",
+            "teile"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "euch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "teid"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "euch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "teid"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "euch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "teile"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "euch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "teid"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "erinnert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mäletate"
+              ]
+            }
+          }
         ],
-        "yellow": [
-          "euch"
+        "comparison": [
+          {
+            "word": {
+              "blue": [
+                "ihr"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "teie"
+              ]
+            }
+          },
+          {
+            "word": {
+              "yellow": [
+                "euch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "teid / teile"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "euer"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "teie"
+              ]
+            }
+          }
         ],
-        "green": [
-          "euer"
-        ]
+        "tip": {
+          "purple": [
+            "kellele?"
+          ]
+        },
+        "important": {
+          "blue": [
+            "euch"
+          ],
+          "yellow": [
+            "Akkusativi",
+            "Dativi"
+          ]
+        }
       }
     }
   },
@@ -11091,8 +11204,8 @@ const A1_WORDS = [
           "lv": "ma tunnen teda."
         },
         {
-          "de": "kennen",
-          "lv": "tundma; wissen"
+          "de": "Kennst du diese Stadt?",
+          "lv": "kas sa tunned seda linna?"
         }
       ],
       "comparison": [
@@ -11182,13 +11295,12 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "kennen",
-                "kennen"
+                "Kennst"
               ]
             },
             "lv": {
               "purple": [
-                "tundma"
+                "tunned"
               ]
             }
           }
@@ -14290,7 +14402,36 @@ const A1_WORDS = [
       "id": "a1-liter",
       "layout": "standardStudy",
       "translation": "liiter",
-      "explanation": "Saksamaal öeldakse tavaliselt 'der Liter', aga Austrias ja Šveitsis võib kuulda ka 'das Liter'. Mitmuse vorm jääb muutumatuks: 'die Liter'.",
+      "explanation": "Põhiidee: der Liter on mahu mõõtühik. Saksamaal öeldakse tavaliselt der Liter, aga Austrias ja Šveitsis võib kuulda ka das Liter. Mitmuse vorm on alati die Liter — see ei muutu.",
+      "examples": [
+        {
+          "de": "Ich brauche einen Liter Milch.",
+          "lv": "mul on vaja liitrit piima."
+        },
+        {
+          "de": "Die Flasche fasst zwei Liter.",
+          "lv": "pudel mahutab kaks liitrit."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Liter",
+          "meaning": "Saksamaa tavavorm",
+          "example": "In Deutschland sagt man meist der Liter. = Saksamaal öeldakse enamasti der Liter."
+        },
+        {
+          "word": "das Liter",
+          "meaning": "Austria/Šveitsi vorm",
+          "example": "In Österreich hört man auch das Liter. = Austrias kuuleb ka das Liter."
+        },
+        {
+          "word": "die Liter",
+          "meaning": "mitmus (muutumatu)",
+          "example": "Die Flasche fasst zwei Liter. = Pudel mahutab kaks liitrit."
+        }
+      ],
+      "tip": "Kui kahtled artikli valikus, kasuta der Liter — see on kõige levinum vorm.",
+      "important": "Mitmuses on alati die Liter, sõltumata ainsuse artiklist — vorm ei muutu (zwei Liter, mitte zwei Litere).",
       "sectionAccents": {
         "explanation": {
           "green": [
@@ -14299,6 +14440,80 @@ const A1_WORDS = [
           "blue": [
             "das Liter"
           ],
+          "purple": [
+            "die Liter"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "einen Liter"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "liitrit"
+              ]
+            }
+          },
+          {
+            "de": {
+              "purple": [
+                "zwei Liter"
+              ]
+            },
+            "lv": {
+              "yellow": [
+                "kaks liitrit"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Liter"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Saksamaa tavavorm"
+              ]
+            }
+          },
+          {
+            "word": {
+              "blue": [
+                "das Liter"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Austria/Šveitsi vorm"
+              ]
+            }
+          },
+          {
+            "word": {
+              "purple": [
+                "die Liter"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "mitmus (muutumatu)"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "green": [
+            "der Liter"
+          ]
+        },
+        "important": {
           "purple": [
             "die Liter"
           ]
@@ -20541,28 +20756,28 @@ const A1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Sie kochen.",
-          "lv": "Nad teevad süüa."
+          "de": "Anna kocht. Sie kocht jeden Tag.",
+          "lv": "Anna teeb süüa. Ta teeb seda iga päev."
         },
         {
-          "de": "Sie kocht.",
-          "lv": "ta teeb süüa."
+          "de": "Maria ist Ärztin. Sie arbeitet im Krankenhaus.",
+          "lv": "Maria on arst. Ta töötab haiglas."
         },
         {
-          "de": "Sie isst.",
-          "lv": "ta sööb."
+          "de": "Anna und Paul kochen. Sie kochen zusammen.",
+          "lv": "Anna ja Paul teevad süüa. Nad teevad seda koos."
         },
         {
-          "de": "Sie kochen.",
-          "lv": "nad teevad süüa."
+          "de": "Die Kinder spielen im Garten. Sie spielen Fußball.",
+          "lv": "Lapsed mängivad aias. Nad mängivad jalgpalli."
         },
         {
-          "de": "Sie spielen Fußball.",
-          "lv": "nad mängivad jalgpalli."
+          "de": "Frau Keller, kochen Sie gern?",
+          "lv": "proua Keller, kas te teete meelsasti süüa?"
         },
         {
-          "de": "Sie kochen, bitte.",
-          "lv": "teie teete süüa, palun."
+          "de": "Herr Müller, sind Sie neu hier?",
+          "lv": "härra Müller, kas te olete siin uus?"
         }
       ],
       "tip": [
@@ -20570,10 +20785,11 @@ const A1_WORDS = [
         "Kasuta sõna sie, kui kontekst vastab sellele tähendusele."
       ],
       "important": [
-        "Viisakas pöördumine alati suure S-iga: Sie, mitte sie.",
-        "Tema: Sie kocht. Nemad: sie kochen. Teie: Sie kochen.",
-        "Vale: sie kocht → Õige: Sie kocht",
-        "Vale: Sie kocht (nemad) → Õige: Sie kochen"
+        "Lause alguses on sie alati suure algustähega — Sie —, olenemata tähendusest. Seetõttu tuleb tähendus (tema, nemad või viisakas Teie) määrata konteksti ja tegusõna vormi järgi, mitte suurtähe järgi.",
+        "Viisakas pöördumine on alati suure S-iga: Sie, mitte sie.",
+        "Tema: sie kocht (ainsus). Nemad: sie kochen (mitmus, tuttavlik). Teie: Sie kochen (mitmus, viisakas).",
+        "Vale: sie kocht → Õige: Sie kocht (lausealguses)",
+        "Vale: Sie kocht (nemad tähenduses) → Õige: Sie kochen"
       ],
       "sectionAccents": {
         "explanation": {
@@ -20589,9 +20805,41 @@ const A1_WORDS = [
         "examples": [
           {
             "de": {
+              "orange": [
+                "Anna"
+              ],
+              "blue": [
+                "Sie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Ta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "orange": [
+                "Maria"
+              ],
+              "blue": [
+                "Sie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Ta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "orange": [
+                "Anna und Paul"
+              ],
               "green": [
-                "sie",
-                "sie"
+                "Sie"
               ]
             },
             "lv": {
@@ -20602,65 +20850,46 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "blue": [
-                "sie",
-                "sie"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "ta"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "sie",
-                "sie"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "ta"
-              ]
-            }
-          },
-          {
-            "de": {
+              "orange": [
+                "Kinder"
+              ],
               "green": [
-                "sie",
-                "sie"
+                "Sie"
               ]
             },
             "lv": {
               "purple": [
-                "nad"
+                "Nad"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "sie",
-                "sie"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "nad"
-              ]
-            }
-          },
-          {
-            "de": {
+              "orange": [
+                "Frau Keller"
+              ],
               "yellow": [
-                "sie"
+                "Sie"
               ]
             },
             "lv": {
               "purple": [
-                "teie"
+                "te"
+              ]
+            }
+          },
+          {
+            "de": {
+              "orange": [
+                "Herr Müller"
+              ],
+              "yellow": [
+                "Sie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "te"
               ]
             }
           }
@@ -20674,8 +20903,14 @@ const A1_WORDS = [
         ],
         "important": [
           {
+            "blue": [
+              "Sie"
+            ],
             "green": [
-              "sie"
+              "Sie"
+            ],
+            "yellow": [
+              "Sie"
             ]
           }
         ]
@@ -26535,11 +26770,11 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "das Essen = sööma",
+        "das Essen = toit • söögikord",
         "Kasuta sõna das Essen, kui kontekst vastab sellele tähendusele."
       ],
       "important": [
-        "essen on tegusõna ilma artiklita.",
+        "essen on tegusõna ilma artiklita — see tähendab sööma.",
         "das Essen ei ole sama mis essen.",
         "Tegevus: essen.",
         "Asi/söögikord: das Essen."
@@ -27361,8 +27596,8 @@ const A1_WORDS = [
           "lv": "On kaheksa (kell)."
         },
         {
-          "de": "die Uhr",
-          "lv": "seade/aeg kellal; die Zeit"
+          "de": "Die Uhr zeigt die Zeit.",
+          "lv": "kell näitab aega."
         }
       ],
       "tip": [
@@ -27371,7 +27606,7 @@ const A1_WORDS = [
       ],
       "important": [
         "die Uhr: seade (meine Uhr) või kellaaeg (acht Uhr).",
-        "die Uhr: kontrolli enne kasutamist konteksti."
+        "die Uhr ei ole sama mis die Zeit: die Uhr on seade, mis näitab die Zeit ehk aega."
       ],
       "sectionAccents": {
         "explanation": {
@@ -27451,13 +27686,18 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "die Uhr",
-                "uhr"
+                "Uhr"
+              ],
+              "green": [
+                "Zeit"
               ]
             },
             "lv": {
               "purple": [
-                "kellal"
+                "kell"
+              ],
+              "yellow": [
+                "aega"
               ]
             }
           }

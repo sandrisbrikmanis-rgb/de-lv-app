@@ -6491,12 +6491,12 @@ const B1_WORDS = [
   },
   {
     "de": "sich bedienen",
-    "lv": "end teenindama",
+    "lv": "endale võtma • kasutama",
     "level": "B1",
     "study": {
       "id": "b1-sich-bedienen",
       "layout": "standardStudy",
-      "translation": "kasutama",
+      "translation": "endale võtma • kasutama",
       "explanation": "Põhiidee: sich bedienen tähendab ise võtmist/end teenindamist või mõne vahendi kasutamist. Ilma sich-ta tähendab bedienen teist inimest teenindamist.",
       "examples": [
         {
@@ -11543,7 +11543,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "der Bogen ei ole „seadus”; see tähendus on algajale eksitav."
+        "text": "der Bogen tähendab ka vibu (Pfeil und Bogen) või viiulipoognat — need tähendused erinevad selle kaardi tähendustest (kaar, võlvkaar, ankeet)."
       },
       "sectionAccents": {
         "examples": [
@@ -15265,7 +15265,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "durchführen ei ole sõna-sõnalt „läbi viima” otseses mõttes; B1 tekstides tähendab see tavaliselt läbi viima."
+        "text": "durchführen ei tähenda kedagi ruumist läbi viima, vaid tegevuse, protsessi, ürituse või kontrolli teostamist ja elluviimist."
       },
       "sectionAccents": {
         "examples": [
@@ -66937,8 +66937,8 @@ const B1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Obwohl es müde bin, gehe ich spazieren.",
-          "lv": "Kuigi olen väsinud, lähen jalutama."
+          "de": "Obwohl ich müde bin, gehe ich spazieren.",
+          "lv": "Kuigi ma olen väsinud, lähen ma jalutama."
         },
         {
           "de": "Obwohl es regnet, gehen wir raus.",

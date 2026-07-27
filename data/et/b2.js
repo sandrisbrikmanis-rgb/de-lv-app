@@ -10250,12 +10250,12 @@ const B2_WORDS = [
     "de": "Pacht",
     "de_article": "die",
     "de_plural": "die Pachten",
-    "lv": "üür",
+    "lv": "rent",
     "level": "B2",
     "study": {
       "id": "b2-pacht",
       "layout": "standardStudy",
-      "translation": "üür",
+      "translation": "rent",
       "explanation": "Põhiidee: die Pacht on rendileping maatüki, põllu või ettevõtte jaoks. die Miete on eluruumi üür. Pacht rõhutab kasutusõigust, mitte elamispinda.",
       "examples": [
         {
@@ -15163,8 +15163,8 @@ const B2_WORDS = [
           "lv": "ma muudan tähtaega."
         },
         {
-          "de": "ändern",
-          "lv": "muutma detaili; wechseln"
+          "de": "Ich ändere meine Telefonnummer, aber ich wechsle den Anbieter nicht.",
+          "lv": "ma muudan oma telefoninumbrit, aga ma ei vaheta operaatorit."
         }
       ],
       "tip": [
@@ -15246,14 +15246,18 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "ändern",
-                "ändern"
+                "ändere"
+              ],
+              "red": [
+                "wechsle"
               ]
             },
             "lv": {
               "purple": [
-                "muutma",
-                "parandama"
+                "muudan"
+              ],
+              "yellow": [
+                "vaheta"
               ]
             }
           }
@@ -15445,8 +15449,8 @@ const B2_WORDS = [
           "lv": "rakendus tagab turvalisuse."
         },
         {
-          "de": "bieten",
-          "lv": "mida miski pakub; anbieten"
+          "de": "Das Hotel bietet einen schönen Blick auf das Meer.",
+          "lv": "hotell pakub ilusat vaadet merele."
         }
       ],
       "tip": [
@@ -15527,14 +15531,12 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "bieten",
-                "bieten"
+                "bietet"
               ]
             },
             "lv": {
               "purple": [
-                "pakkuma",
-                "andma"
+                "pakub"
               ]
             }
           }
@@ -15699,8 +15701,8 @@ const B2_WORDS = [
           "lv": "me nõuame suuremat turvalisust."
         },
         {
-          "de": "fordern",
-          "lv": "nõudma; fördern"
+          "de": "Die Gewerkschaft fordert höhere Löhne, aber der Staat fördert nur kleine Betriebe.",
+          "lv": "ametiühing nõuab kõrgemat palka, aga riik toetab ainult väikeettevõtteid."
         }
       ],
       "tip": [
@@ -15782,14 +15784,18 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "fordern",
-                "fordern"
+                "fordert"
+              ],
+              "red": [
+                "fördert"
               ]
             },
             "lv": {
               "purple": [
-                "nõudma",
-                "küsima"
+                "nõuab"
+              ],
+              "yellow": [
+                "toetab"
               ]
             }
           }
