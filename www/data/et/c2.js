@@ -873,7 +873,7 @@ const C2_WORDS = [
     "de": "Gedächtnisstörung",
     "de_article": "die",
     "de_plural": "die Gedächtnisstörungen",
-    "lv": "mäluhäired",
+    "lv": "mäluhäire",
     "level": "C2"
   },
   {
@@ -1350,7 +1350,7 @@ const C2_WORDS = [
     "de": "Steuererleichterung",
     "de_article": "die",
     "de_plural": "die Steuererleichterungen",
-    "lv": "maksusoodustused",
+    "lv": "maksusoodustus",
     "level": "C2"
   },
   {
