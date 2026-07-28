@@ -260,9 +260,6 @@ const B2_WORDS = [
           ],
           "red": [
             "mit + kam?"
-          ],
-          "purple": [
-            "susitaikyti su"
           ]
         }
       }
@@ -478,7 +475,7 @@ const B2_WORDS = [
             "von + kam?"
           ],
           "purple": [
-            "nusigręžti nuo"
+            "nustatyto"
           ]
         }
       }
@@ -933,9 +930,6 @@ const B2_WORDS = [
           ],
           "red": [
             "mit + kam?"
-          ],
-          "purple": [
-            "užsiimti"
           ]
         }
       }
@@ -989,9 +983,6 @@ const B2_WORDS = [
           ],
           "red": [
             "mit + kam?"
-          ],
-          "purple": [
-            "tenkintis"
           ]
         }
       }
@@ -1167,13 +1158,6 @@ const B2_WORDS = [
         "explanation": {
           "blue": [
             "sich bemächtigen"
-          ],
-          "red": [
-            "+ priklausomybės forma"
-          ],
-          "purple": [
-            "pagriebti",
-            "paimti į savo valdžią"
           ]
         }
       }
@@ -1261,10 +1245,7 @@ const B2_WORDS = [
             "sich berufen"
           ],
           "red": [
-            "auf + ko?"
-          ],
-          "purple": [
-            "remtis"
+            "auf"
           ]
         }
       }
@@ -1320,10 +1301,7 @@ const B2_WORDS = [
             "sich beschränken"
           ],
           "red": [
-            "auf + ko?"
-          ],
-          "purple": [
-            "apsiriboti"
+            "auf"
           ]
         }
       }
@@ -1424,10 +1402,6 @@ const B2_WORDS = [
           ],
           "red": [
             "in + kur?"
-          ],
-          "purple": [
-            "veikti",
-            "dalyvauti"
           ]
         }
       }
@@ -3582,10 +3556,7 @@ const B2_WORDS = [
             "sich einlassen"
           ],
           "red": [
-            "auf + ko?"
-          ],
-          "purple": [
-            "įsileisti"
+            "auf"
           ]
         }
       }
@@ -3632,12 +3603,6 @@ const B2_WORDS = [
         "explanation": {
           "blue": [
             "sich einprägen"
-          ],
-          "red": [
-            "in + ko?"
-          ],
-          "purple": [
-            "įsiminti"
           ]
         }
       }
@@ -3669,13 +3634,6 @@ const B2_WORDS = [
         "explanation": {
           "blue": [
             "sich einschleichen"
-          ],
-          "red": [
-            "in + ko?"
-          ],
-          "purple": [
-            "įslinkti",
-            "iezagties"
           ]
         }
       }
@@ -3706,10 +3664,7 @@ const B2_WORDS = [
             "sich einschränken"
           ],
           "red": [
-            "auf + ko?"
-          ],
-          "purple": [
-            "apsiriboti"
+            "auf"
           ]
         }
       }
@@ -3929,9 +3884,6 @@ const B2_WORDS = [
           ],
           "red": [
             "zu + kam?"
-          ],
-          "purple": [
-            "būti rekomenduojamam"
           ]
         }
       }
@@ -3965,11 +3917,7 @@ const B2_WORDS = [
             "sich empören"
           ],
           "red": [
-            "über + ko?"
-          ],
-          "purple": [
-            "pasipiktinti",
-            "sacelties"
+            "über"
           ]
         }
       }
@@ -4073,9 +4021,6 @@ const B2_WORDS = [
           ],
           "red": [
             "von + kam?"
-          ],
-          "purple": [
-            "susilaikyti nuo"
           ]
         }
       }
@@ -4122,13 +4067,6 @@ const B2_WORDS = [
         "explanation": {
           "blue": [
             "sich entledigen"
-          ],
-          "red": [
-            "+ priklausomybės forma"
-          ],
-          "purple": [
-            "Atsikratyti",
-            "atsikratyti"
           ]
         }
       }
@@ -4167,11 +4105,7 @@ const B2_WORDS = [
             "sich entrüsten"
           ],
           "red": [
-            "über + ko?"
-          ],
-          "purple": [
-            "pasipiktinti",
-            "sadumpoties"
+            "über"
           ]
         }
       }
@@ -4204,12 +4138,8 @@ const B2_WORDS = [
           "blue": [
             "sich entsinnen"
           ],
-          "red": [
-            "+ priklausomybės forma"
-          ],
           "purple": [
-            "Atsiminti",
-            "prisiminti"
+            "prielinksnio"
           ]
         }
       }
@@ -4338,11 +4268,7 @@ const B2_WORDS = [
             "sich erbarmen"
           ],
           "red": [
-            "über + ko?"
-          ],
-          "purple": [
-            "Pasigailėti",
-            "pasigailėti"
+            "über"
           ]
         }
       }
@@ -4436,10 +4362,6 @@ const B2_WORDS = [
           ],
           "red": [
             "aus + kam?"
-          ],
-          "purple": [
-            "išplaukti",
-            "pasiduoti"
           ]
         }
       }
@@ -4567,7 +4489,7 @@ const B2_WORDS = [
             "vor + kam?"
           ],
           "purple": [
-            "nusižeminti"
+            "nustatyto"
           ]
         }
       }
@@ -4620,10 +4542,7 @@ const B2_WORDS = [
             "sich erregen"
           ],
           "red": [
-            "über + ko?"
-          ],
-          "purple": [
-            "nerimauti dėl"
+            "über"
           ]
         }
       }
@@ -4766,9 +4685,6 @@ const B2_WORDS = [
           ],
           "red": [
             "als + kas?"
-          ],
-          "purple": [
-            "pasirodyti esant"
           ]
         }
       }
@@ -5075,11 +4991,6 @@ const B2_WORDS = [
           ],
           "red": [
             "an + kam?"
-          ],
-          "purple": [
-            "pagriebti",
-            "susiimti",
-            "susilaikyti"
           ]
         }
       }
@@ -5559,12 +5470,8 @@ const B2_WORDS = [
           "blue": [
             "sich fügen"
           ],
-          "red": [
-            "in + ko?"
-          ],
           "purple": [
-            "prisitaikyti",
-            "paklusti (pasiduoti)"
+            "prielinksnio"
           ]
         }
       }
@@ -6128,9 +6035,6 @@ const B2_WORDS = [
           ],
           "red": [
             "vor + kam?"
-          ],
-          "purple": [
-            "gėdytis"
           ]
         }
       }
@@ -6331,7 +6235,7 @@ const B2_WORDS = [
             "zu + kam?"
           ],
           "purple": [
-            "prisijungti"
+            "prielinksnio"
           ]
         }
       }
@@ -6382,9 +6286,6 @@ const B2_WORDS = [
           ],
           "red": [
             "zu + kam?"
-          ],
-          "purple": [
-            "formuotis į"
           ]
         }
       }
@@ -6786,9 +6687,6 @@ const B2_WORDS = [
           ],
           "red": [
             "vor + kam?"
-          ],
-          "purple": [
-            "bijotis"
           ]
         }
       }
@@ -7142,8 +7040,7 @@ const B2_WORDS = [
           "purple": [
             "Kepurėlė",
             "gaubtas",
-            "kapuce",
-            "variklio dangtis"
+            "variklio"
           ],
           "green": [
             "Motorhaube",
@@ -7169,11 +7066,7 @@ const B2_WORDS = [
                 "Haube"
               ]
             },
-            "lv": {
-              "purple": [
-                "kapuci"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -7415,9 +7308,6 @@ const B2_WORDS = [
           ],
           "red": [
             "zu + kam?"
-          ],
-          "purple": [
-            "išsivystyti į / tapti"
           ]
         }
       }
@@ -7447,9 +7337,6 @@ const B2_WORDS = [
           ],
           "red": [
             "aus + kam?"
-          ],
-          "purple": [
-            "laikytis atokiau nuo"
           ]
         }
       }
@@ -7479,9 +7366,6 @@ const B2_WORDS = [
           ],
           "red": [
             "als + kas?"
-          ],
-          "purple": [
-            "pasirodyti esant"
           ]
         }
       }
@@ -7526,9 +7410,6 @@ const B2_WORDS = [
           ],
           "red": [
             "in + kur?"
-          ],
-          "purple": [
-            "išsiskirti"
           ]
         }
       }
@@ -7619,10 +7500,6 @@ const B2_WORDS = [
           ],
           "red": [
             "+ kam?"
-          ],
-          "purple": [
-            "atdoties",
-            "nodoties"
           ]
         }
       }
@@ -7780,7 +7657,7 @@ const B2_WORDS = [
             "das Hoch"
           ],
           "purple": [
-            "tosts",
+            "tostas",
             "tegyvuoja"
           ],
           "green": [
@@ -7796,7 +7673,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "tostu"
+                "tostą"
               ]
             }
           },
@@ -7808,7 +7685,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "tegyvuoja"
+                "tegyvuoji"
               ]
             }
           },
@@ -7820,7 +7697,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "anticiklons"
+                "anticiklono"
               ]
             }
           },
@@ -7973,8 +7850,7 @@ const B2_WORDS = [
             "das Hochwasser"
           ],
           "purple": [
-            "potvynis",
-            "Aukštas vandens lygis"
+            "potvynį"
           ]
         },
         "examples": [
@@ -8010,7 +7886,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "potvyniais"
+                "potvynį"
               ]
             }
           }
@@ -8621,7 +8497,7 @@ const B2_WORDS = [
             "das Leiden"
           ],
           "purple": [
-            "kančios",
+            "kančia",
             "sunki liga"
           ],
           "green": [
@@ -8637,7 +8513,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "liga"
+                "ligą"
               ]
             }
           },
@@ -9474,7 +9350,7 @@ const B2_WORDS = [
             "der Nachdruck"
           ],
           "purple": [
-            "pabrėžimas",
+            "pabrėžimą",
             "pakartotinis leidimas"
           ]
         },
@@ -9485,11 +9361,7 @@ const B2_WORDS = [
                 "Nachdruck"
               ]
             },
-            "lv": {
-              "purple": [
-                "uzsver"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -9497,11 +9369,7 @@ const B2_WORDS = [
                 "Nachdruck"
               ]
             },
-            "lv": {
-              "purple": [
-                "primygtinai"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -10014,9 +9882,6 @@ const B2_WORDS = [
           ],
           "red": [
             "mit + kam?"
-          ],
-          "purple": [
-            "poruotis su"
           ]
         }
       }
@@ -10670,10 +10535,6 @@ const B2_WORDS = [
           ],
           "red": [
             "bei + kam?"
-          ],
-          "purple": [
-            "Atsimokėti",
-            "atsikeršyti"
           ]
         }
       }
@@ -11009,12 +10870,6 @@ const B2_WORDS = [
         "explanation": {
           "blue": [
             "sich scheren"
-          ],
-          "red": [
-            "um + ko?"
-          ],
-          "purple": [
-            "rūpintis"
           ]
         }
       }
@@ -11445,11 +11300,7 @@ const B2_WORDS = [
                 "bin"
               ]
             },
-            "lv": {
-              "purple": [
-                "esmu"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -11679,8 +11530,7 @@ const B2_WORDS = [
             "sofern"
           ],
           "purple": [
-            "jei",
-            "ar noteikumu, ka"
+            "jei"
           ],
           "red": [
             "da",
@@ -11718,11 +11568,7 @@ const B2_WORDS = [
                 "Sofern"
               ]
             },
-            "lv": {
-              "purple": [
-                "ar noteikumu, ka"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -11764,8 +11610,7 @@ const B2_WORDS = [
         "tip": [
           {
             "blue": [
-              "jei",
-              "ar noteikumu, ka"
+              "jei"
             ]
           },
           {
@@ -13152,9 +12997,6 @@ const B2_WORDS = [
           ],
           "red": [
             "mit + kam?"
-          ],
-          "purple": [
-            "susivienyti su"
           ]
         }
       }
@@ -13483,10 +13325,6 @@ const B2_WORDS = [
           ],
           "red": [
             "mit + kam?"
-          ],
-          "purple": [
-            "pamiršti",
-            "Aprūpinti su"
           ]
         }
       }
@@ -13536,9 +13374,6 @@ const B2_WORDS = [
           ],
           "red": [
             "mit + kam?"
-          ],
-          "purple": [
-            "susitaikyti su"
           ]
         }
       }
@@ -13587,10 +13422,7 @@ const B2_WORDS = [
             "sich verstellen"
           ],
           "red": [
-            "als + ko?"
-          ],
-          "purple": [
-            "apsimesti kuo"
+            "als"
           ]
         }
       }
@@ -13706,10 +13538,7 @@ const B2_WORDS = [
             "sich verwundern"
           ],
           "red": [
-            "über + ko?"
-          ],
-          "purple": [
-            "stebėtis (kuo)"
+            "über"
           ]
         }
       }
@@ -14389,10 +14218,6 @@ const B2_WORDS = [
           ],
           "red": [
             "+ kam?"
-          ],
-          "purple": [
-            "priešintis",
-            "stoti prieš"
           ]
         }
       }
@@ -14618,7 +14443,7 @@ const B2_WORDS = [
         "explanation": {
           "blue": [
             "zuweisen",
-            "weist",
+            "weise",
             "zu"
           ],
           "purple": [
@@ -14648,7 +14473,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "skirti"
+                "skirtos"
               ]
             }
           },
@@ -14885,70 +14710,60 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "ändern",
-                "ändern"
+                "ändere"
               ]
             },
             "lv": {
               "purple": [
-                "keisti",
-                "taisyti"
+                "keičiu"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "ändern",
                 "ändern"
               ]
             },
             "lv": {
               "purple": [
-                "keisti",
-                "taisyti"
+                "keisti"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "ändern",
                 "ändern"
               ]
             },
             "lv": {
               "purple": [
-                "keisti",
-                "taisyti"
+                "keičiame"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "ändern",
-                "ändern"
+                "ändere"
               ]
             },
             "lv": {
               "purple": [
-                "keisti",
-                "taisyti"
+                "keičiu"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "ändern",
                 "ändern"
               ]
             },
             "lv": {
               "purple": [
-                "keisti",
-                "taisyti"
+                "keisti"
               ]
             }
           }
@@ -14959,11 +14774,7 @@ const B2_WORDS = [
               "keisti"
             ]
           },
-          {
-            "purple": [
-              "taisyti"
-            ]
-          }
+          {}
         ],
         "important": [
           {
@@ -15030,58 +14841,34 @@ const B2_WORDS = [
           {
             "de": {
               "green": [
-                "wechseln",
-                "wechseln"
+                "wechsle"
               ]
             },
-            "lv": {
-              "purple": [
-                "sukeisti",
-                "pakeisti"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "green": [
-                "wechseln",
                 "wechseln"
               ]
             },
-            "lv": {
-              "purple": [
-                "sukeisti",
-                "pakeisti"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "green": [
-                "wechseln",
                 "wechseln"
               ]
             },
-            "lv": {
-              "purple": [
-                "sukeisti",
-                "pakeisti"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "green": [
-                "wechseln",
-                "wechseln"
+                "wechsle"
               ]
             },
-            "lv": {
-              "purple": [
-                "sukeisti",
-                "pakeisti"
-              ]
-            }
+            "lv": {}
           }
         ],
         "tip": [
@@ -15166,72 +14953,46 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "bieten",
+                "bietet"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "blue": [
                 "bieten"
               ]
             },
             "lv": {
               "purple": [
-                "pasiūlyti",
-                "teikti"
+                "pasiūlyti"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "bieten",
-                "bieten"
+                "bietet"
               ]
             },
-            "lv": {
-              "purple": [
-                "pasiūlyti",
-                "teikti"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "blue": [
-                "bieten",
-                "bieten"
+                "bietet"
               ]
             },
-            "lv": {
-              "purple": [
-                "pasiūlyti",
-                "teikti"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "blue": [
-                "bieten",
                 "bieten"
               ]
             },
-            "lv": {
-              "purple": [
-                "pasiūlyti",
-                "teikti"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "bieten",
-                "bieten"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "pasiūlyti",
-                "teikti"
-              ]
-            }
+            "lv": {}
           }
         ],
         "tip": [
@@ -15242,7 +15003,7 @@ const B2_WORDS = [
           },
           {
             "purple": [
-              "teikti"
+              "teikia"
             ]
           }
         ],
@@ -15413,7 +15174,6 @@ const B2_WORDS = [
             "fordern"
           ],
           "purple": [
-            "reikalauti",
             "reikalauti"
           ]
         },
@@ -15421,69 +15181,59 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "fordern",
-                "fordern"
+                "fordert"
               ]
             },
             "lv": {
               "purple": [
-                "reikalauti",
-                "reikalauti"
+                "reikalauja"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "fordern",
                 "fordern"
               ]
             },
             "lv": {
               "purple": [
-                "reikalauti",
-                "reikalauti"
+                "reikalaujame"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "fordern",
-                "fordern"
+                "fordert"
               ]
             },
             "lv": {
               "purple": [
-                "reikalauti",
-                "reikalauti"
+                "reikalauja"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "fordern",
                 "fordern"
               ]
             },
             "lv": {
               "purple": [
-                "reikalauti",
-                "reikalauti"
+                "reikalaujame"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "fordern",
                 "fordern"
               ]
             },
             "lv": {
               "purple": [
-                "reikalauti",
                 "reikalauti"
               ]
             }
@@ -15562,64 +15312,43 @@ const B2_WORDS = [
             "fördern"
           ],
           "purple": [
-            "skatinti",
-            "remti"
+            "skatinti"
           ]
         },
         "examples": [
           {
             "de": {
               "green": [
-                "fördern",
-                "fördern"
+                "fördert"
               ]
             },
             "lv": {
               "purple": [
-                "skatinti",
-                "remti"
+                "skatina"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "fördern",
-                "fördern"
+                "fördert"
               ]
             },
-            "lv": {
-              "purple": [
-                "skatinti",
-                "remti"
-              ]
-            }
+            "lv": {}
+          },
+          {
+            "de": {},
+            "lv": {}
           },
           {
             "de": {
               "green": [
-                "fördern",
-                "fördern"
+                "fördert"
               ]
             },
             "lv": {
               "purple": [
-                "skatinti",
-                "remti"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "fördern",
-                "fördern"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "skatinti",
-                "remti"
+                "remia"
               ]
             }
           }
@@ -15630,11 +15359,7 @@ const B2_WORDS = [
               "skatinti"
             ]
           },
-          {
-            "purple": [
-              "remti"
-            ]
-          }
+          {}
         ],
         "important": [
           {
@@ -15685,8 +15410,7 @@ const B2_WORDS = [
             "verlaufen"
           ],
           "purple": [
-            "vykti",
-            "riedėti"
+            "vykti"
           ],
           "red": [
             "sich verlaufen"
@@ -15696,5 +15420,4 @@ const B2_WORDS = [
     }
   }
 ];
-
 window.B2_WORDS = B2_WORDS;

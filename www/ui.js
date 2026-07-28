@@ -6880,8 +6880,7 @@ function cardHasRenderableStudy(study) {
   if (!study || typeof study !== "object") return false;
   const layout = study.layout || "standardStudy";
   if (layout === "minimalStudy") {
-    return hasStudyFieldContent(study.variants)
-      || hasStudyFieldContent(study.note)
+    return hasStudyFieldContent(study.note)
       || hasStudyFieldContent(study.forms)
       || hasStudyFieldContent(study.tip)
       || hasStudyFieldContent(study.examples);
@@ -7119,30 +7118,53 @@ function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
   const collectAccentRules = (accentRules) => studyAccentColors.flatMap((accent) => (
     Array.isArray(accentRules?.[accent]) ? accentRules[accent] : []
   ).filter((term) => String(term || "").trim()).map((term) => ({ accent, term: String(term) })));
+  const findAccentMatches = (raw, rules) => {
+    const selected = [];
+    let coveredUntil = -1;
+    for (const { accent, term } of rules) {
+      const candidates = [];
+      const boundaryRegex = new RegExp(accentBoundaryPattern(term), "giu");
+      for (const match of raw.matchAll(boundaryRegex)) {
+        candidates.push({
+          accent,
+          start: match.index,
+          end: match.index + match[0].length,
+          value: match[0],
+          length: match[0].length,
+        });
+      }
+      if (!candidates.length && term.length >= 4) {
+        const stem = term.replace(/(?:en|ern|eln)$/i, "");
+        if (stem.length >= 3) {
+          const stemRegex = new RegExp(accentBoundaryPattern(stem) + "[\\p{L}\\p{N}_]*", "giu");
+          for (const match of raw.matchAll(stemRegex)) {
+            candidates.push({
+              accent,
+              start: match.index,
+              end: match.index + match[0].length,
+              value: match[0],
+              length: match[0].length,
+            });
+          }
+        }
+      }
+      candidates.sort((a, b) => a.start - b.start || b.length - a.length);
+      for (const match of candidates) {
+        if (match.start >= coveredUntil) {
+          selected.push(match);
+          coveredUntil = match.end;
+          break;
+        }
+      }
+    }
+    return selected.sort((a, b) => a.start - b.start);
+  };
   const formatStudyText = (value, accentRules = study.accents) => {
     const raw = String(value || "");
     const rules = collectAccentRules(accentRules);
     if (!raw || !rules.length) return escapeStudyCardText(raw);
 
-    const matches = rules.flatMap(({ accent, term }) => {
-      const regex = new RegExp(accentBoundaryPattern(term), "giu");
-      return Array.from(raw.matchAll(regex), (match) => ({
-        accent,
-        start: match.index,
-        end: match.index + match[0].length,
-        value: match[0],
-        length: match[0].length,
-      }));
-    }).sort((a, b) => a.start - b.start || b.length - a.length);
-
-    const selected = [];
-    let coveredUntil = -1;
-    for (const match of matches) {
-      if (match.start >= coveredUntil) {
-        selected.push(match);
-        coveredUntil = match.end;
-      }
-    }
+    const selected = findAccentMatches(raw, rules);
     if (!selected.length) return escapeStudyCardText(raw);
 
     let html = "";
@@ -7273,7 +7295,8 @@ function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
     const accentRules = textAccentRules("explanation", index);
     return `<p>${formatStudyText(line, accentRules)}</p>`;
   }).join("");
-  const explanation = Array.isArray(study.explanationLines) && study.explanationLines.length ? `
+  const explanation = (splitExplanation.mainIdea || explanationBody.trim()) ? (
+    Array.isArray(study.explanationLines) && study.explanationLines.length ? `
     <section class="study-explanation">
       <h3>${STUDY_SECTION_ICONS.explanation} ${studySectionTitle("explanation")}</h3>
       ${explanationBody}
@@ -7281,7 +7304,14 @@ function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
         ${study.explanationLines.map((line) => `<li>${formatStudyText(line)}</li>`).join("")}
       </ul>
     </section>
-  ` : `<section class="study-explanation"><h3>${STUDY_SECTION_ICONS.explanation} ${studySectionTitle("explanation")}</h3>${explanationBody}</section>`;
+  ` : `<section class="study-explanation"><h3>${STUDY_SECTION_ICONS.explanation} ${studySectionTitle("explanation")}</h3>${explanationBody}</section>`
+  ) : "";
+  const examplesSection = examples.trim() ? `
+    <section class="study-section study-examples">
+      <h3>${STUDY_SECTION_ICONS.examples} ${studySectionTitle("examples")}</h3>
+      <div class="study-standard-table study-examples-table">${examples}</div>
+    </section>
+  ` : "";
   const renderComparisonRichWordBlocks = () => {
     const items = Array.isArray(study.words) ? study.words : (Array.isArray(study.items) ? study.items : (Array.isArray(study.terms) ? study.terms : []));
     if (!items.length) return "";
@@ -7525,10 +7555,7 @@ function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
   elements.cardStudyExtra.innerHTML = `
     ${mainIdea}
     ${explanation}
-    <section class="study-section study-examples">
-      <h3>${STUDY_SECTION_ICONS.examples} ${studySectionTitle("examples")}</h3>
-      <div class="study-standard-table study-examples-table">${examples}</div>
-    </section>
+    ${examplesSection}
 ${comparison}
     ${info}
     ${tip}

@@ -963,6 +963,17 @@
     .card.has-study-card .word {
       font-size: clamp(2.1rem, 4.5vw, 3.5rem);
       line-height: 1.08;
+      color: var(--text-main);
+    }
+
+    .card.has-study-card:not(.has-minimal-study-card) .translation {
+      color: var(--muted);
+    }
+
+    .card.has-study-card .comparison-subtitle-row,
+    .card.has-study-card .comparison-subtitle-part {
+      color: var(--muted);
+      font-weight: 700;
     }
 
     .card.has-study-card .study-main-idea,
@@ -1512,6 +1523,7 @@
       font-weight: 700;
       line-height: 1.3;
       margin-top: 8px;
+      color: var(--muted);
     }
 
     .minimal-study-variants {
@@ -1565,32 +1577,14 @@
       color: var(--yellow);
     }
 
-    .minimal-study-de--blue {
-      color: var(--blue);
-    }
-
-    .minimal-study-de--green {
-      color: var(--green);
-    }
-
-    .minimal-study-de--lightGreen {
-      color: #7ae99f;
-    }
-
-    .minimal-study-de--yellow {
-      color: var(--yellow);
-    }
-
-    .minimal-study-de--red {
-      color: var(--red);
-    }
-
-    .minimal-study-de--orange {
-      color: var(--orange);
-    }
-
+    .minimal-study-de--blue,
+    .minimal-study-de--green,
+    .minimal-study-de--lightGreen,
+    .minimal-study-de--yellow,
+    .minimal-study-de--red,
+    .minimal-study-de--orange,
     .minimal-study-de--darkGreen {
-      color: #1a9e4a;
+      color: var(--muted);
     }
 
     .card.minimal-study-card--blue.has-minimal-study-card .card-inner {
