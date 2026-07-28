@@ -212,8 +212,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "priestate",
-                "istabu"
+                "pristato"
               ]
             }
           }
@@ -256,11 +255,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "anbauen"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "anbauen"
@@ -356,7 +351,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "nurodykite",
-                "adresi"
+                "adresą"
               ]
             }
           },
@@ -369,8 +364,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "nurodė",
-                "vecumu"
+                "nurodė"
               ]
             }
           },
@@ -384,8 +378,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "didžiosios",
-                "auto"
+                "automobiliu"
               ]
             }
           }
@@ -428,11 +421,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "angeben"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "angeben"
@@ -568,7 +557,7 @@ const B1_WORDS = [
               "purple": [
                 "pritvirtiname",
                 "ženklą",
-                "durims"
+                "durų"
               ]
             }
           },
@@ -580,12 +569,7 @@ const B1_WORDS = [
                 "an"
               ]
             },
-            "lv": {
-              "purple": [
-                "piestiprina",
-                "lampu"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -597,7 +581,6 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "izteica",
                 "pasiūlymą"
               ]
             }
@@ -641,11 +624,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "anbringen"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "anbringen"
@@ -756,7 +735,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "mažinti",
-                "stresu"
+                "stresą"
               ]
             }
           },
@@ -770,8 +749,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "samazina",
-                "darba vietu"
+                "darbo"
               ]
             }
           },
@@ -783,12 +761,7 @@ const B1_WORDS = [
                 "ab"
               ]
             },
-            "lv": {
-              "purple": [
-                "nojaucam",
-                "telti"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -799,7 +772,6 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "įgyja",
                 "anglys"
               ]
             }
@@ -843,11 +815,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "abbauen"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "abbauen"
@@ -929,8 +897,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "nutraukti",
-                "sarunu"
+                "nutraukti"
               ]
             }
           },
@@ -1001,11 +968,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "abbrechen"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "abbrechen"
@@ -1086,7 +1049,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "uždengia",
+                "uždenk",
                 "pyragą"
               ]
             }
@@ -1101,8 +1064,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "apsedzam",
-                "augus"
+                "augalus"
               ]
             }
           },
@@ -1114,12 +1076,7 @@ const B1_WORDS = [
                 "ab"
               ]
             },
-            "lv": {
-              "purple": [
-                "nuima",
-                "galdu"
-              ]
-            }
+            "lv": {}
           }
         ],
         "comparison": [
@@ -1160,11 +1117,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "abdecken"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "abdecken"
@@ -1278,8 +1231,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "traukinys",
-                "atiet"
+                "traukinys"
               ]
             }
           },
@@ -1293,8 +1245,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "išeiti",
-                "skolas"
+                "išeina"
               ]
             }
           },
@@ -1308,8 +1259,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vakarėlis",
-                "pasirodė"
+                "vakarėlis"
               ]
             }
           }
@@ -1352,11 +1302,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "abgehen"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "abgehen"
@@ -1432,8 +1378,8 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "priklausomas",
-                "oro sąlygoms"
+                "priklauso",
+                "oro"
               ]
             }
           },
@@ -1448,7 +1394,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "sprendimas",
-                "priklausomas"
+                "priklauso"
               ]
             }
           },
@@ -1463,54 +1409,26 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "nuimu",
-                "Paveikslėlį"
+                "paveikslą"
               ]
             }
           }
         ],
         "comparison": [
           {
-            "word": {
-              "green": [
-                "abhängen von"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Būti priklausomam nuo"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "hängen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "kabėti"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "abnehmen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "nuimti"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           }
         ],
-        "tip": {
-          "purple": [
-            "abhängen"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "abhängen"
@@ -1626,7 +1544,6 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "novelciet",
                 "paltą"
               ]
             }
@@ -1639,12 +1556,7 @@ const B1_WORDS = [
                 "ab"
               ]
             },
-            "lv": {
-              "purple": [
-                "noliek",
-                "somu"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -1656,7 +1568,6 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tvarko",
                 "egzaminą"
               ]
             }
@@ -1700,11 +1611,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "ablegen"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "ablegen"
@@ -1814,8 +1721,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "nuima",
-                "akiniai"
+                "akinius"
               ]
             }
           },
@@ -1828,7 +1734,6 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "nometusi",
                 "kilogramus"
               ]
             }
@@ -1843,7 +1748,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "pakelti",
-                "telefonu"
+                "telefoną"
               ]
             }
           }
@@ -1886,11 +1791,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "abnehmen"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "abnehmen"
@@ -1980,11 +1881,7 @@ const B1_WORDS = [
                 "Absatz"
               ]
             },
-            "lv": {
-              "purple": [
-                "rindkopu"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -2007,8 +1904,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kulnas",
-                "kurpes"
+                "kulnas"
               ]
             }
           },
@@ -2019,12 +1915,7 @@ const B1_WORDS = [
                 "gestiegen"
               ]
             },
-            "lv": {
-              "purple": [
-                "noiets",
-                "suaugęs"
-              ]
-            }
+            "lv": {}
           }
         ],
         "comparison": [
@@ -2065,11 +1956,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "absatz"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "absatz"
@@ -2159,7 +2046,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "baigimas",
-                "projekta"
+                "projekto"
               ]
             }
           },
@@ -2172,8 +2059,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ieguva",
-                "diplomu"
+                "diplomą"
               ]
             }
           },
@@ -2185,7 +2071,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Baigimo"
+                "baigęs"
               ]
             }
           }
@@ -2228,11 +2114,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "abschluss"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "abschluss"
@@ -2333,7 +2215,6 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tarpsnis",
                 "Kelio"
               ]
             }
@@ -2377,11 +2258,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "abschnitt"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "abschnitt"
@@ -2460,12 +2337,7 @@ const B1_WORDS = [
                 "ab"
               ]
             },
-            "lv": {
-              "purple": [
-                "noliec",
-                "mugursomu"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -2478,9 +2350,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "praleidžia",
-                "Vaikus",
-                "skolas"
+                "Vaikus"
               ]
             }
           },
@@ -2493,55 +2363,26 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ministrs",
-                "atcelts"
+                "ministras"
               ]
             }
           }
         ],
         "comparison": [
           {
-            "word": {
-              "green": [
-                "absetzen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "nolikt / izlaist / atcelt no amata"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "abstellen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "padėti"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "entlassen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "atleisti iš darbo"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           }
         ],
-        "tip": {
-          "purple": [
-            "absetzen"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "absetzen"
@@ -2838,8 +2679,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "įranga",
-                "darbojas"
+                "įranga"
               ]
             }
           },
@@ -2852,8 +2692,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "įmonė",
-                "įrenginį"
+                "įmonė"
               ]
             }
           },
@@ -2910,11 +2749,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "anlage"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "anlage"
@@ -2990,8 +2825,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "įjungia",
-                "gaismu"
+                "įjunk"
               ]
             }
           },
@@ -3005,7 +2839,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "įjungti",
-                "televizoru"
+                "televizorių"
               ]
             }
           },
@@ -3019,7 +2853,6 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "sagatavo",
                 "salotas"
               ]
             }
@@ -3027,47 +2860,19 @@ const B1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {
-              "green": [
-                "anmachen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "įjungti"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "ausschalten"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "išjungti"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "anschalten"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "įjungti"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           }
         ],
-        "tip": {
-          "purple": [
-            "anmachen"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "anmachen"
@@ -3235,8 +3040,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Pasikėsinime",
-                "Žmonės"
+                "žmonių"
               ]
             }
           },
@@ -3249,8 +3053,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "policija",
-                "Pasikėsinimą"
+                "policija"
               ]
             }
           },
@@ -3261,12 +3064,7 @@ const B1_WORDS = [
                 "Eingang"
               ]
             },
-            "lv": {
-              "purple": [
-                "pranešimas",
-                "ieejas"
-              ]
-            }
+            "lv": {}
           }
         ],
         "comparison": [
@@ -3307,11 +3105,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "anschlag"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "anschlag"
@@ -3388,8 +3182,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ryšys",
-                "nedarbojas"
+                "ryšys"
               ]
             }
           },
@@ -3400,12 +3193,7 @@ const B1_WORDS = [
                 "verpasst"
               ]
             },
-            "lv": {
-              "purple": [
-                "praleidome",
-                "vilcienu"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -3458,11 +3246,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "anschluss"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "anschluss"
@@ -3550,8 +3334,8 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "gydytojai",
-                "reputacija"
+                "Gydytoja",
+                "reputaciją"
               ]
             }
           },
@@ -3564,8 +3348,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "reputacija",
-                "pieaugusi"
+                "reputacija"
               ]
             }
           },
@@ -3622,11 +3405,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "ansehen"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "ansehen"
@@ -3782,12 +3561,7 @@ const B1_WORDS = [
                 "Hilfe"
               ]
             },
-            "lv": {
-              "purple": [
-                "iesniedzu",
-                "pieteikumu"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -3856,11 +3630,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "antrag"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "antrag"
@@ -4154,7 +3924,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "gavau",
-                "uzdevumu"
+                "užduotį"
               ]
             }
           },
@@ -4167,8 +3937,8 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "įmonei",
-                "užsakymas"
+                "Įmonė",
+                "užsakymą"
               ]
             }
           },
@@ -4181,7 +3951,6 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "užduotyje",
                 "miesto"
               ]
             }
@@ -4225,11 +3994,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "auftrag"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "auftrag"
@@ -4325,8 +4090,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "reikia sumažinti",
-                "įdėtas darbas"
+                "įdėtą"
               ]
             }
           }
@@ -4374,11 +4138,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "aufwand"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "aufwand"
@@ -4467,9 +4227,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "teatras",
-                "uzved",
-                "lugu"
+                "teatras"
               ]
             }
           },
@@ -4483,7 +4241,6 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "žodžiai",
                 "nurodyti",
                 "sąraše"
               ]
@@ -4500,7 +4257,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "nurodykite",
-                "išlaidos"
+                "išlaidas"
               ]
             }
           }
@@ -4548,11 +4305,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "aufführen"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "aufführen"
@@ -4629,9 +4382,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "uzturamies"
-              ],
               "green": [
                 "sode"
               ]
@@ -4648,9 +4398,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "uzturies"
-              ],
               "green": [
                 "tu"
               ]
@@ -4666,9 +4413,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "Uždelsė"
-              ],
               "red": [
                 "Spūstis"
               ]
@@ -4679,10 +4423,6 @@ const B1_WORDS = [
           "blue": [
             "sich aufhalten",
             "aufhalten"
-          ],
-          "purple": [
-            "apsistoti",
-            "sutrukdyti"
           ],
           "green": [
             "vietoje"
@@ -4726,18 +4466,8 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "apsistoti",
-            "sutrukdyti"
-          ]
-        },
-        "important": {
-          "purple": [
-            "apsistoti",
-            "sutrukdyti"
-          ]
-        }
+        "tip": {},
+        "important": {}
       }
     }
   },
@@ -4862,14 +4592,7 @@ const B1_WORDS = [
                 "Erfolg"
               ]
             },
-            "lv": {
-              "purple": [
-                "izredzes uz"
-              ],
-              "yellow": [
-                "pasiekimams"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -4880,14 +4603,7 @@ const B1_WORDS = [
                 "hier"
               ]
             },
-            "lv": {
-              "purple": [
-                "skats"
-              ],
-              "green": [
-                "vietinės"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -4900,10 +4616,10 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "perspektyvos"
+                "perspektyvas"
               ],
               "yellow": [
-                "darbu"
+                "darbą"
               ]
             }
           }
@@ -4914,11 +4630,7 @@ const B1_WORDS = [
             "Aussicht auf"
           ],
           "purple": [
-            "perspektyvos",
-            "skatu"
-          ],
-          "yellow": [
-            "ateities rezultatą"
+            "perspektyvas"
           ]
         },
         "comparison": [
@@ -4959,15 +4671,10 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "perspektyvos",
-            "skats"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
-            "perspektyvos"
+            "perspektyvas"
           ]
         }
       }
@@ -5046,9 +4753,6 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "tarimas"
-              ],
-              "red": [
-                "skaidra"
               ]
             }
           },
@@ -5062,9 +4766,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "izrunu"
-              ],
               "yellow": [
                 "vokiečių"
               ]
@@ -5079,14 +4780,7 @@ const B1_WORDS = [
                 "Rede"
               ]
             },
-            "lv": {
-              "purple": [
-                "minčių apsikeitimas"
-              ],
-              "yellow": [
-                "runas"
-              ]
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -5094,8 +4788,7 @@ const B1_WORDS = [
             "Aussprache"
           ],
           "purple": [
-            "izrunu",
-            "minčių apsikeitimą"
+            "mintis"
           ]
         },
         "comparison": [
@@ -5136,12 +4829,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "tarimas",
-            "minčių apsikeitimas"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "formaliau"
@@ -5204,9 +4892,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "izsniedz"
-              ],
               "green": [
                 "Įstaiga"
               ],
@@ -5229,11 +4914,8 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "išstato"
-              ],
               "green": [
-                "Muzejs"
+                "Muziejus"
               ],
               "yellow": [
                 "meną"
@@ -5254,9 +4936,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "izraksta"
-              ],
               "green": [
                 "Gydytojas"
               ],
@@ -5271,60 +4950,29 @@ const B1_WORDS = [
             "ausstellen"
           ],
           "purple": [
-            "išduoti",
-            "eksponuoti"
+            "išduoti"
           ],
           "yellow": [
-            "dokumentu",
-            "meną",
-            "preces"
+            "dokumentą",
+            "meno",
+            "prekes"
           ]
         },
         "comparison": [
           {
-            "word": {
-              "green": [
-                "ausstellen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "išduoti / eksponuoti"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "zeigen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "rodyti"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "ausgeben"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "išleisti / eikvoti"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           }
         ],
-        "tip": {
-          "purple": [
-            "išduoti",
-            "išrašyti",
-            "eksponuoti"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "oficialiai išduoti"
@@ -5440,14 +5088,8 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "izdara"
-              ],
-              "yellow": [
-                "spiedienu"
-              ],
               "green": [
-                "įmonių"
+                "įmonei"
               ]
             }
           },
@@ -5461,14 +5103,7 @@ const B1_WORDS = [
                 "Einfluss"
               ]
             },
-            "lv": {
-              "purple": [
-                "rada"
-              ],
-              "yellow": [
-                "ietekmi"
-              ]
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -5480,9 +5115,7 @@ const B1_WORDS = [
             "vykdyti"
           ],
           "yellow": [
-            "profesiju",
-            "ietekmi",
-            "spiedienu"
+            "profesiją"
           ]
         },
         "comparison": [
@@ -5523,14 +5156,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "beruf",
-            "druck",
-            "einfluss",
-            "einfluss"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "beruf",
@@ -5638,9 +5264,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "izrakstu no"
-              ],
               "yellow": [
                 "registro"
               ]
@@ -5657,7 +5280,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "išsikėlimas iš"
+                "Išsikraustymas"
               ],
               "yellow": [
                 "buto"
@@ -5676,9 +5299,6 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "sąskaitos išrašas"
-              ],
-              "yellow": [
-                "galda"
               ]
             }
           }
@@ -5688,13 +5308,12 @@ const B1_WORDS = [
             "Auszug"
           ],
           "purple": [
-            "izrakstu",
-            "išsikėlimą"
+            "išsikraustymą"
           ],
           "yellow": [
-            "teksta",
-            "dokumenta",
-            "konta"
+            "teksto",
+            "dokumento",
+            "kontekste"
           ]
         },
         "comparison": [
@@ -5735,16 +5354,11 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "išrašas",
-            "išsikėlimas"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
-            "išsikėlimą",
-            "persikėlimą"
+            "išsikraustymą",
+            "persikraustymą"
           ]
         }
       }
@@ -5954,7 +5568,7 @@ const B1_WORDS = [
                 "Statyba"
               ],
               "yellow": [
-                "Tilta"
+                "Tilto"
               ]
             }
           },
@@ -5970,9 +5584,6 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "pastatas"
-              ],
-              "yellow": [
-                "tirgus laukuma"
               ]
             }
           },
@@ -6001,7 +5612,6 @@ const B1_WORDS = [
           ],
           "purple": [
             "Statybą",
-            "celtni",
             "Statybvietę"
           ]
         },
@@ -6043,16 +5653,10 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "Statyba",
-            "pastatas",
-            "Statybvietėje"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
-            "process",
+            "procesas",
             "objektas"
           ]
         }
@@ -6212,7 +5816,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Dubenyje"
+                "dubenį"
               ],
               "yellow": [
                 "daržoves"
@@ -6229,9 +5833,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "iegurnis"
-              ],
               "red": [
                 "skauda"
               ]
@@ -6243,9 +5844,7 @@ const B1_WORDS = [
             "Becken"
           ],
           "purple": [
-            "baseinu",
-            "tvertni",
-            "iegurni"
+            "baseiną"
           ]
         },
         "comparison": [
@@ -6286,20 +5885,8 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "Baseine",
-            "iegurnis",
-            "talpa",
-            "dubuo"
-          ]
-        },
-        "important": {
-          "purple": [
-            "vieta",
-            "dobums"
-          ]
-        }
+        "tip": {},
+        "important": {}
       }
     }
   },
@@ -6405,9 +5992,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "reikšminga"
-              ],
               "green": [
                 "gydytoja"
               ]
@@ -6437,9 +6021,7 @@ const B1_WORDS = [
             "bedeutend"
           ],
           "purple": [
-            "reikšmingas",
-            "žymus",
-            "žymiai"
+            "reikšmingas"
           ]
         },
         "comparison": [
@@ -6480,13 +6062,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "reikšmingas",
-            "žymus",
-            "žymiai"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "formalesnis"
@@ -6554,11 +6130,7 @@ const B1_WORDS = [
                 "sich"
               ]
             },
-            "lv": {
-              "purple": [
-                "paimkite patys"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -6569,14 +6141,7 @@ const B1_WORDS = [
                 "Technik"
               ]
             },
-            "lv": {
-              "purple": [
-                "izmanto"
-              ],
-              "yellow": [
-                "tehniku"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -6591,14 +6156,8 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "apkalpojas"
-              ],
-              "green": [
-                "Viesi"
-              ],
               "yellow": [
-                "bufetes"
+                "bufeto"
               ]
             }
           }
@@ -6609,9 +6168,8 @@ const B1_WORDS = [
             "bedienen"
           ],
           "purple": [
-            "pačiam paimti",
-            "apsitarnauti",
-            "naudoti",
+            "pačiam",
+            "naudotis",
             "aptarnauti"
           ]
         },
@@ -6653,16 +6211,10 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "paimkite patys",
-            "aptarnauti"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
-            "apkalpojas pats",
-            "naudoja priemonę"
+            "naudojasi"
           ]
         }
       }
@@ -6951,7 +6503,7 @@ const B1_WORDS = [
               ],
               "green": [
                 "Gydytojas",
-                "pacientu"
+                "pacientą"
               ]
             }
           },
@@ -6968,11 +6520,8 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "izturas"
-              ],
               "green": [
-                "visiem"
+                "visais"
               ],
               "red": [
                 "draugiškai"
@@ -7059,16 +6608,10 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "gydyti",
-            "elgtis",
-            "aptarti"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
-            "process",
+            "procesas",
             "rezultatas"
           ]
         }
@@ -7303,11 +6846,8 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "piesakos"
-              ],
               "yellow": [
-                "kursam"
+                "kursą"
               ]
             }
           },
@@ -7326,8 +6866,7 @@ const B1_WORDS = [
                 "įrodo"
               ],
               "yellow": [
-                "Skaičiai",
-                "apgalvojumu"
+                "Skaičiai"
               ]
             }
           }
@@ -7339,7 +6878,7 @@ const B1_WORDS = [
           "purple": [
             "užimti",
             "užsiregistruoti",
-            "įrodyti"
+            "įrodymas"
           ],
           "yellow": [
             "vieta",
@@ -7385,17 +6924,11 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "platz",
-            "kurs",
-            "aussage"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
-            "užimtas",
-            "rezervuotas"
+            "užimta",
+            "rezervuota"
           ]
         }
       }
@@ -7538,9 +7071,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "pažymėjo"
-              ],
               "red": [
                 "trumpai"
               ]
@@ -7552,13 +7082,10 @@ const B1_WORDS = [
             "bemerken"
           ],
           "purple": [
-            "pastebėti",
-            "pažymėti"
+            "pastebėti"
           ],
           "yellow": [
-            "Akims",
-            "dzirdi",
-            "protą"
+            "akimis"
           ]
         },
         "comparison": [
@@ -7599,13 +7126,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "klaidą",
-            "pakeitimą",
-            "faktu"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "pastebėti",
@@ -7725,7 +7246,7 @@ const B1_WORDS = [
                 "Stengiamės"
               ],
               "green": [
-                "klientų labui"
+                "kliento"
               ]
             }
           }
@@ -7734,12 +7255,7 @@ const B1_WORDS = [
           "blue": [
             "sich bemühen"
           ],
-          "red": [
-            "um + ko?",
-            "zu + infinityvą"
-          ],
           "purple": [
-            "stengtis",
             "stengtis"
           ]
         },
@@ -7781,11 +7297,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "lösung"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "mandagiau",
@@ -7894,7 +7406,7 @@ const B1_WORDS = [
               ],
               "green": [
                 "Gydytoja",
-                "pacientu"
+                "pacientą"
               ]
             }
           },
@@ -7932,7 +7444,7 @@ const B1_WORDS = [
               ],
               "green": [
                 "Tėvai",
-                "mokytoją"
+                "mokytoju"
               ]
             }
           }
@@ -7985,13 +7497,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "ekspertas",
-            "grupė",
-            "Žmonės"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "den Kunden"
@@ -8150,8 +7656,7 @@ const B1_WORDS = [
             "Bereich"
           ],
           "purple": [
-            "jomu",
-            "zonu"
+            "zoną"
           ]
         },
         "comparison": [
@@ -8192,15 +7697,10 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "sritis",
-            "zona"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
-            "abstrakta joma"
+            "abstrakti"
           ]
         }
       }
@@ -8363,15 +7863,14 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "praneša",
-                "už"
+                "praneša"
               ],
               "green": [
                 "Kolegė",
                 "viršininkui"
               ],
               "yellow": [
-                "rezultatams"
+                "rezultatus"
               ]
             }
           }
@@ -8423,15 +7922,10 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "notikumiem",
-            "rezultatams"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
-            "über + ko?",
+            "über",
             "von + kam?"
           ]
         }
@@ -8528,11 +8022,7 @@ const B1_WORDS = [
                 "dich"
               ]
             },
-            "lv": {
-              "purple": [
-                "nomierinies"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -8558,7 +8048,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "nurimusi"
+                "nurimo"
               ],
               "yellow": [
                 "Situacija"
@@ -8614,17 +8104,8 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "nurims",
-            "nomierini"
-          ]
-        },
-        "important": {
-          "purple": [
-            "nomierinies"
-          ]
-        }
+        "tip": {},
+        "important": {}
       }
     }
   },
@@ -8688,11 +8169,7 @@ const B1_WORDS = [
                 "Berühmtheit"
               ]
             },
-            "lv": {
-              "purple": [
-                "slavu"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -8708,7 +8185,7 @@ const B1_WORDS = [
                 "šlovė"
               ],
               "red": [
-                "vėlu"
+                "vėliau"
               ]
             }
           },
@@ -8720,7 +8197,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "įžymybės"
+                "įžymybių"
               ]
             }
           }
@@ -8731,9 +8208,7 @@ const B1_WORDS = [
             "Berühmtheiten"
           ],
           "purple": [
-            "slavu",
-            "slavenu personu",
-            "įžymybės"
+            "įžymybes"
           ]
         },
         "comparison": [
@@ -8774,17 +8249,8 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "šlovė",
-            "įžymybės"
-          ]
-        },
-        "important": {
-          "purple": [
-            "slavena persona"
-          ]
-        }
+        "tip": {},
+        "important": {}
       }
     }
   },
@@ -8911,12 +8377,6 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "priima"
-              ],
-              "green": [
-                "Padome"
-              ],
-              "yellow": [
-                "noteikumus"
               ]
             }
           },
@@ -8931,12 +8391,8 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "sudarė"
-              ],
               "yellow": [
-                "Runa",
-                "vakaru"
+                "vakarą"
               ]
             }
           }
@@ -8947,8 +8403,7 @@ const B1_WORDS = [
           ],
           "purple": [
             "nuspręsti",
-            "priimti sprendimą",
-            "sudaryti"
+            "priimti sprendimą"
           ]
         },
         "comparison": [
@@ -8989,12 +8444,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "sprendimas",
-            "uždaryti"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "nuspręsti",
@@ -9096,10 +8546,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "skundas"
-              ],
-              "red": [
-                "uztverta nopietni"
+                "skundą"
               ]
             }
           },
@@ -9112,14 +8559,7 @@ const B1_WORDS = [
                 "Rücken"
               ]
             },
-            "lv": {
-              "purple": [
-                "kaites"
-              ],
-              "yellow": [
-                "muguras"
-              ]
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -9128,8 +8568,7 @@ const B1_WORDS = [
             "Beschwerden"
           ],
           "purple": [
-            "skundą",
-            "kaites"
+            "skundą"
           ]
         },
         "comparison": [
@@ -9170,16 +8609,11 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "skundas",
-            "kaites"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "sveikatos negalavimai",
-            "simptomi"
+            "simptomai"
           ]
         }
       }
@@ -9281,7 +8715,7 @@ const B1_WORDS = [
                 "parūpinsiu"
               ],
               "yellow": [
-                "Bilieto"
+                "bilietus"
               ]
             }
           },
@@ -9299,7 +8733,7 @@ const B1_WORDS = [
                 "nupirkti"
               ],
               "yellow": [
-                "pienu"
+                "pieno"
               ]
             }
           },
@@ -9317,7 +8751,7 @@ const B1_WORDS = [
                 "reikia rasti"
               ],
               "green": [
-                "meistras"
+                "meistrą"
               ]
             }
           }
@@ -9327,7 +8761,6 @@ const B1_WORDS = [
             "besorgen"
           ],
           "purple": [
-            "parūpinti",
             "nupirkti",
             "rasti"
           ]
@@ -9370,12 +8803,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "Gauti",
-            "suorganizuoti"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "sich Sorgen machen",
@@ -9498,7 +8926,6 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "sutvarkė",
                 "egzaminą"
               ]
             }
@@ -9512,8 +8939,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "susideda",
-                "asmenims"
+                "susideda"
               ]
             }
           },
@@ -9524,23 +8950,15 @@ const B1_WORDS = [
                 "Meinung"
               ]
             },
-            "lv": {
-              "purple": [
-                "reikalauja",
-                "viedokli"
-              ]
-            }
+            "lv": {}
           }
         ],
         "explanation": {
           "blue": [
-            "bestehen",
-            "bestehen aus",
-            "bestehen auf"
+            "bestehen"
           ],
           "purple": [
             "egzistuoja",
-            "sutvarkyti",
             "susidėti",
             "reikalauti"
           ]
@@ -9554,8 +8972,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "egzistuoti",
-                "sutvarkyti"
+                "egzistuoti"
               ]
             }
           },
@@ -9584,13 +9001,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "sutvarkyti",
-            "susidėti",
-            "reikalauti"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "bestehen"
@@ -9660,14 +9071,7 @@ const B1_WORDS = [
                 "Dosis"
               ]
             },
-            "lv": {
-              "purple": [
-                "nosaka"
-              ],
-              "yellow": [
-                "devu"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -9679,9 +9083,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "noteiksim"
-              ],
               "yellow": [
                 "terminą"
               ]
@@ -9700,14 +9101,8 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "numatyta"
-              ],
               "green": [
                 "vaikams"
-              ],
-              "yellow": [
-                "patalpa"
               ]
             }
           }
@@ -9720,9 +9115,7 @@ const B1_WORDS = [
             "nustatyti"
           ],
           "yellow": [
-            "cenu",
-            "terminą",
-            "devu"
+            "terminą"
           ]
         },
         "comparison": [
@@ -9763,13 +9156,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "cenu",
-            "devu",
-            "terminą"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "entscheiden"
@@ -9915,7 +9302,7 @@ const B1_WORDS = [
                 "įmonėje"
               ],
               "green": [
-                "darbinieku"
+                "darbuotojų"
               ]
             }
           },
@@ -9928,14 +9315,7 @@ const B1_WORDS = [
                 "Maschine"
               ]
             },
-            "lv": {
-              "purple": [
-                "darbojas"
-              ],
-              "yellow": [
-                "Įrenginys"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -9948,7 +9328,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Veiksmo metu"
+                "Veikimo"
               ],
               "yellow": [
                 "durys"
@@ -9962,8 +9342,8 @@ const B1_WORDS = [
             "in Betrieb"
           ],
           "purple": [
-            "įmonių",
-            "darbojas"
+            "įmonę",
+            "darbo"
           ]
         },
         "comparison": [
@@ -10004,17 +9384,12 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "įmonė",
-            "darbojas"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "įmonė",
-            "darba process",
-            "techninis veiksmas"
+            "darbo",
+            "techninė"
           ]
         }
       }
@@ -10139,14 +9514,7 @@ const B1_WORDS = [
                 "Tisch"
               ]
             },
-            "lv": {
-              "purple": [
-                "nekustini"
-              ],
-              "yellow": [
-                "galdu"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -10157,7 +9525,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "reikia judėti"
+                "reikia"
               ]
             }
           },
@@ -10173,9 +9541,6 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "Sujaudino"
-              ],
-              "yellow": [
-                "Pasakojimas"
               ]
             }
           }
@@ -10186,9 +9551,8 @@ const B1_WORDS = [
             "sich bewegen"
           ],
           "purple": [
-            "judinti",
-            "Sujaudinti",
-            "judėti"
+            "judėti",
+            "Sujaudinti"
           ]
         },
         "comparison": [
@@ -10229,16 +9593,9 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "kustini",
-            "kusties",
-            "emocijas"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
-            "judinti",
             "judėjimas"
           ]
         }
@@ -10372,7 +9729,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "gauna",
-                "pensiju"
+                "pensiją"
               ]
             }
           },
@@ -10385,8 +9742,8 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "įsikelsime",
-                "bute"
+                "įsikraustysime",
+                "butą"
               ]
             }
           },
@@ -10401,7 +9758,6 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "taisyklė",
-                "attiecas",
                 "mokiniams"
               ]
             }
@@ -10457,13 +9813,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "gauti",
-            "įsikraustyti",
-            "liesti"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "beziehen"
@@ -10624,7 +9974,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ekranas"
+                "ekraną"
               ]
             }
           }
@@ -10735,10 +10085,7 @@ const B1_WORDS = [
                 "siūlo"
               ],
               "yellow": [
-                "kursu"
-              ],
-              "green": [
-                "Skola"
+                "kursų"
               ]
             }
           },
@@ -10756,15 +10103,9 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "sniedz"
-              ],
-              "yellow": [
-                "skatu"
-              ],
               "green": [
                 "Viešbutis",
-                "ezeru"
+                "ežerą"
               ]
             }
           },
@@ -10778,9 +10119,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "siūlo"
-              ],
               "green": [
                 "man"
               ]
@@ -10797,9 +10135,7 @@ const B1_WORDS = [
             "teikti"
           ],
           "yellow": [
-            "galimybę",
-            "pakalpojumu",
-            "labumu"
+            "galimybę"
           ]
         },
         "comparison": [
@@ -10840,15 +10176,9 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "sniedz",
-            "siūlo"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
-            "sniedz",
             "Aktyvų pasiūlymą"
           ]
         }
@@ -10993,13 +10323,11 @@ const B1_WORDS = [
         ],
         "explanation": {
           "blue": [
-            "Blase",
-            "Blasen"
+            "Blase"
           ],
           "purple": [
             "pūslę",
-            "tulznu",
-            "burbuli"
+            "burbulą"
           ],
           "yellow": [
             "odos",
@@ -11045,17 +10373,11 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "pūslė",
-            "pūslė",
-            "Burbulai"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "pūslė",
-            "šlapimo pūslė"
+            "šlapimo"
           ]
         }
       }
@@ -11180,9 +10502,6 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "Bloknote"
-              ],
-              "yellow": [
-                "pierakstu"
               ]
             }
           },
@@ -11197,7 +10516,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "blokos"
+                "blokus"
               ],
               "yellow": [
                 "Pamoka"
@@ -11214,11 +10533,8 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "trinka"
-              ],
               "yellow": [
-                "ledus"
+                "ledo"
               ]
             }
           }
@@ -11228,9 +10544,7 @@ const B1_WORDS = [
             "Block"
           ],
           "purple": [
-            "bloku",
-            "Bloknotą",
-            "trinka"
+            "Block"
           ],
           "yellow": [
             "Medžiagos"
@@ -11274,18 +10588,8 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "Bloknotas",
-            "blokas",
-            "trinka"
-          ]
-        },
-        "important": {
-          "purple": [
-            "Rąstas"
-          ]
-        }
+        "tip": {},
+        "important": {}
       }
     }
   },
@@ -11376,9 +10680,6 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "tik"
-              ],
-              "yellow": [
-                "pieci eiro"
               ]
             }
           },
@@ -11392,9 +10693,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "nuogoms"
-              ],
               "yellow": [
                 "rankomis"
               ]
@@ -11408,8 +10706,8 @@ const B1_WORDS = [
           ],
           "purple": [
             "tik",
-            "paprastai",
-            "kails/pliks"
+            "paprasčiausiai",
+            "Kaip"
           ]
         },
         "comparison": [
@@ -11450,15 +10748,9 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "tik",
-            "kails/pliks"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
-            "nuogas",
             "tik"
           ]
         }
@@ -11569,7 +10861,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "lankas",
-                "medinis"
+                "medžio"
               ]
             }
           },
@@ -11582,8 +10874,8 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tiltam",
-                "arka"
+                "Tiltas",
+                "arką"
               ]
             }
           },
@@ -11594,12 +10886,7 @@ const B1_WORDS = [
                 "aus"
               ]
             },
-            "lv": {
-              "purple": [
-                "aizpildiet",
-                "veidlapu"
-              ]
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -11645,11 +10932,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "bogen"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "bogen"
@@ -11782,8 +11065,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pranešimas",
-                "filmas"
+                "Filmo"
               ]
             }
           },
@@ -11796,7 +11078,6 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pieraksts",
                 "ambasadoje"
               ]
             }
@@ -11978,7 +11259,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "gaisre"
+                "Gaisro"
               ],
               "green": [
                 "niekas"
@@ -11994,14 +11275,7 @@ const B1_WORDS = [
                 "Hand"
               ]
             },
-            "lv": {
-              "purple": [
-                "apdegums"
-              ],
-              "yellow": [
-                "rokas"
-              ]
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -12013,7 +11287,6 @@ const B1_WORDS = [
           ],
           "purple": [
             "gaisrą",
-            "apdegumu",
             "prekės ženklas"
           ]
         },
@@ -12055,12 +11328,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "gaisras",
-            "prekės ženklas"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "prekės ženklas"
@@ -12375,7 +11643,7 @@ const B1_WORDS = [
                 "federacija"
               ],
               "green": [
-                "zemes"
+                "žemes"
               ]
             }
           },
@@ -12393,7 +11661,7 @@ const B1_WORDS = [
                 "sąjunga"
               ],
               "green": [
-                "zemju"
+                "žemių"
               ]
             }
           },
@@ -12411,7 +11679,7 @@ const B1_WORDS = [
                 "ryšulys"
               ],
               "yellow": [
-                "prieskoninę žolelę"
+                "prieskoninių"
               ]
             }
           }
@@ -12423,7 +11691,7 @@ const B1_WORDS = [
           "purple": [
             "federaciją",
             "sąjungą",
-            "ryšuliai"
+            "ryšulį"
           ],
           "yellow": [
             "Schlüssel",
@@ -12468,12 +11736,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "federacija",
-            "ryšulys"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "schlüssel",
@@ -12714,8 +11977,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tuo būdu",
-                "sutvarkė"
+                "tuo būdu"
               ]
             }
           },
@@ -12743,7 +12005,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "tuo būdu",
-                "laiku"
+                "laiką"
               ]
             }
           }
@@ -12791,11 +12053,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "dadurch"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "dadurch"
@@ -12877,8 +12135,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "priešingai",
-                "kafiju"
+                "priešingai"
               ]
             }
           },
@@ -12940,11 +12197,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "dagegen"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "dagegen"
@@ -13019,8 +12272,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "todėl",
-                "paliekam"
+                "todėl"
               ]
             }
           },
@@ -13034,7 +12286,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "todėl",
-                "neatėjo"
+                "neatvyko"
               ]
             }
           },
@@ -13094,11 +12346,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "daher"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "daher"
@@ -13183,9 +12431,6 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "ten"
-              ],
-              "yellow": [
-                "somu"
               ]
             }
           },
@@ -13199,9 +12444,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "pagalam"
-              ],
               "yellow": [
                 "viltis"
               ]
@@ -13213,9 +12455,8 @@ const B1_WORDS = [
             "dahin"
           ],
           "purple": [
-            "ten",
-            "pagalam",
-            "dingęs"
+            "tenai",
+            "Pagrindinė"
           ]
         },
         "comparison": [
@@ -13256,17 +12497,10 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "judesys",
-            "buvimo vieta"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
-            "virzienu",
-            "Buvimo vietą",
-            "pagalam"
+            "Buvimo vietą"
           ]
         }
       }
@@ -13387,10 +12621,8 @@ const B1_WORDS = [
           "lv": {
             "purple": [
               "padėka",
-              "paldies",
               "dėkoti",
-              "liels paldies",
-              "nuoširdus ačiū"
+              "nuoširdus"
             ]
           }
         },
@@ -13402,11 +12634,7 @@ const B1_WORDS = [
                 "Dank"
               ]
             },
-            "lv": {
-              "purple": [
-                "liels paldies"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -13417,7 +12645,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "nuoširdus ačiū"
+                "nuoširdus"
               ]
             }
           },
@@ -13428,11 +12656,7 @@ const B1_WORDS = [
                 "schön"
               ]
             },
-            "lv": {
-              "purple": [
-                "liels paldies"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -13440,11 +12664,7 @@ const B1_WORDS = [
                 "danke"
               ]
             },
-            "lv": {
-              "purple": [
-                "paldies"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -13458,7 +12678,6 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pateicos",
                 "pagalbą"
               ]
             }
@@ -13475,11 +12694,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pateicos",
                 "dovaną"
-              ],
-              "green": [
-                "tev"
               ]
             }
           },
@@ -13492,8 +12707,8 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "nuoširdus ačiū",
-                "pabaigoje"
+                "nuoširdus",
+                "pabaigai"
               ]
             }
           }
@@ -13517,7 +12732,7 @@ const B1_WORDS = [
                 "Dank"
               ],
               "purple": [
-                "nuoširdus ačiū"
+                "Nuoširdus"
               ]
             }
           },
@@ -13529,16 +12744,12 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "paldies",
                 "atsakymas"
               ]
             },
             "example": {
               "green": [
                 "danke"
-              ],
-              "purple": [
-                "paldies"
               ]
             }
           },
@@ -13557,12 +12768,6 @@ const B1_WORDS = [
               "blue": [
                 "danke",
                 "dir"
-              ],
-              "purple": [
-                "pateicos"
-              ],
-              "green": [
-                "tev"
               ]
             }
           },
@@ -13573,11 +12778,7 @@ const B1_WORDS = [
                 "Dank"
               ]
             },
-            "meaning": {
-              "purple": [
-                "liels paldies"
-              ]
-            },
+            "meaning": {},
             "example": {
               "blue": [
                 "Vielen",
@@ -13585,7 +12786,6 @@ const B1_WORDS = [
                 "Hilfe"
               ],
               "purple": [
-                "liels paldies",
                 "pagalbą"
               ]
             }
@@ -13605,9 +12805,6 @@ const B1_WORDS = [
               "orange": [
                 "bedanke",
                 "mich"
-              ],
-              "purple": [
-                "pateicos"
               ]
             }
           }
@@ -13662,11 +12859,6 @@ const B1_WORDS = [
                 "Vielen Dank",
                 "danke",
                 "dir"
-              ],
-              "purple": [
-                "liels paldies",
-                "pateicos",
-                "paldies"
               ]
             }
           }
@@ -13743,9 +12935,6 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "apie tai"
-              ],
-              "red": [
-                "manau"
               ]
             }
           },
@@ -13776,14 +12965,7 @@ const B1_WORDS = [
                 "erinnere"
               ]
             },
-            "lv": {
-              "purple": [
-                "to"
-              ],
-              "red": [
-                "atceros"
-              ]
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -13797,7 +12979,7 @@ const B1_WORDS = [
           ],
           "purple": [
             "apie tai",
-            "prie to"
+            "prie"
           ]
         },
         "comparison": [
@@ -13838,17 +13020,9 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "denken an",
-            "arbeiten an",
-            "warten auf"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
-            "lietu",
-            "domu",
             "veiksmą"
           ]
         }
@@ -13929,7 +13103,7 @@ const B1_WORDS = [
               ],
               "yellow": [
                 "skaičius",
-                "Grafiks"
+                "Grafikas"
               ]
             }
           },
@@ -13947,9 +13121,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "parodo"
-              ],
               "yellow": [
                 "gyvenimą"
               ],
@@ -13973,7 +13144,7 @@ const B1_WORDS = [
                 "vaidina"
               ],
               "green": [
-                "gydytojai"
+                "gydytoją"
               ]
             }
           }
@@ -13987,8 +13158,7 @@ const B1_WORDS = [
             "vaizduoti",
             "parodyti",
             "vaidinti",
-            "įsivaizduoti",
-            "susipažinti"
+            "įsivaizduoti"
           ]
         },
         "comparison": [
@@ -14029,16 +13199,11 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "susipažinti"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "rodo/vaizduoja",
-            "įsivaizduoti",
-            "susipažinti"
+            "įsivaizduoti"
           ]
         }
       }
@@ -14106,7 +13271,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "tarp jų",
-                "vaikai"
+                "vaikų"
               ]
             }
           },
@@ -14182,11 +13347,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "darunter"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "darunter"
@@ -14286,14 +13447,7 @@ const B1_WORDS = [
                 "Tisch"
               ]
             },
-            "lv": {
-              "purple": [
-                "kloju"
-              ],
-              "yellow": [
-                "galdu"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -14308,11 +13462,8 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "sedz"
-              ],
               "yellow": [
-                "išlaidos"
+                "išlaidas"
               ],
               "green": [
                 "Draudimas"
@@ -14330,12 +13481,9 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "uždengia"
-              ],
               "yellow": [
                 "kelią",
-                "Sniegs"
+                "Sniegas"
               ]
             }
           }
@@ -14350,8 +13498,6 @@ const B1_WORDS = [
             "Schnee"
           ],
           "purple": [
-            "kloti stalą",
-            "segt izmaksas",
             "uždengti"
           ]
         },
@@ -14393,20 +13539,8 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "tisch",
-            "kosten",
-            "straße",
-            "schnee"
-          ]
-        },
-        "important": {
-          "purple": [
-            "kloti stalą",
-            "segt izmaksas"
-          ]
-        }
+        "tip": {},
+        "important": {}
       }
     }
   },
@@ -14578,7 +13712,6 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kalpo",
                 "biuras"
               ]
             }
@@ -14593,8 +13726,6 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "saga",
-                "kalpo",
                 "saugumui"
               ]
             }
@@ -14606,12 +13737,7 @@ const B1_WORDS = [
                 "Armee"
               ]
             },
-            "lv": {
-              "purple": [
-                "dien",
-                "Kariuomenėje"
-              ]
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -14657,11 +13783,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "dienen"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "dienen"
@@ -14906,7 +14028,7 @@ const B1_WORDS = [
                 "slėgis"
               ],
               "yellow": [
-                "padangoje"
+                "Padangos"
               ]
             }
           },
@@ -14921,9 +14043,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "zem liela spiediena"
-              ],
               "green": [
                 "Ji"
               ]
@@ -14953,11 +14072,10 @@ const B1_WORDS = [
             "Druck"
           ],
           "purple": [
-            "spiedienu",
             "spausdinimą"
           ],
           "yellow": [
-            "Drukas"
+            "Druck"
           ]
         },
         "comparison": [
@@ -14998,16 +14116,10 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "Būti spaudžiamam",
-            "spausdinimas"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
-            "druka",
-            "zem spiediena"
+            "Druck"
           ]
         }
       }
@@ -15138,7 +14250,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "viduriavimas"
+                "viduriuoju"
               ]
             }
           },
@@ -15151,7 +14263,6 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "caurejas",
                 "reikia gerti"
               ]
             }
@@ -15165,8 +14276,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "sužlugo",
-                "egzamine"
+                "egzamino"
               ]
             }
           }
@@ -15214,11 +14324,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "durchfall"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "durchfall"
@@ -15294,8 +14400,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "veicam",
-                "patikrinimą"
+                "patikrą"
               ]
             }
           },
@@ -15310,8 +14415,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "įmonė",
-                "veic",
-                "remontu"
+                "remontą"
               ]
             }
           },
@@ -15324,8 +14428,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "eksperiments",
-                "veikts"
+                "Eksperimentas"
               ]
             }
           }
@@ -15373,11 +14476,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "durchführen"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "durchführen"
@@ -15582,9 +14681,6 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "anksčiau"
-              ],
-              "yellow": [
-                "ateiti"
               ]
             }
           }
@@ -15639,17 +14735,8 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "pasirinkime",
-            "laiku"
-          ]
-        },
-        "important": {
-          "purple": [
-            "b1 tekstos"
-          ]
-        }
+        "tip": {},
+        "important": {}
       }
     }
   },
@@ -15750,10 +14837,10 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "savas"
+                "savo"
               ],
               "yellow": [
-                "stilius"
+                "stilių"
               ]
             }
           },
@@ -15768,10 +14855,10 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "sava"
+                "savo"
               ],
               "yellow": [
-                "kambarys"
+                "kambarį"
               ]
             }
           },
@@ -15786,10 +14873,10 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "savotiška"
+                "savotišką"
               ],
               "yellow": [
-                "humoro jausmas"
+                "humoro"
               ]
             }
           }
@@ -15800,11 +14887,9 @@ const B1_WORDS = [
           ],
           "purple": [
             "savas",
-            "paties",
             "savotiškas"
           ],
           "yellow": [
-            "priklausymą",
             "nepriklausomybę"
           ]
         },
@@ -15846,16 +14931,10 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "zimmer",
-            "stil",
-            "meinung"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
-            "savas/paties",
+            "savas",
             "vienas pats"
           ]
         }
@@ -15969,13 +15048,13 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "įsibrovė"
+                "įsilaužė"
               ],
               "green": [
                 "Vagys"
               ],
               "yellow": [
-                "namuose"
+                "namą"
               ]
             }
           },
@@ -15989,9 +15068,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "iebrucis"
-              ],
               "yellow": [
                 "stogas"
               ]
@@ -16008,11 +15084,8 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "įstoja"
-              ],
               "yellow": [
-                "Nakts"
+                "Naktis"
               ]
             }
           }
@@ -16022,9 +15095,7 @@ const B1_WORDS = [
             "einbrechen"
           ],
           "purple": [
-            "įsilaužti",
-            "iebrukt",
-            "įstoti"
+            "įsilaužti"
           ],
           "yellow": [
             "Nacht"
@@ -16032,53 +15103,22 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {
-              "green": [
-                "einbrechen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "ielauzties / iebrukt"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "eintreten"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "įeiti / įstoti"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "einstürzen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "sugriūti"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           }
         ],
-        "tip": {
-          "purple": [
-            "įsilaužti",
-            "iebrukt",
-            "įstoti"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
-            "įsibrauti į vietą",
-            "iebrukt/sabrukt"
+            "įsilaužti"
           ]
         }
       }
@@ -16128,14 +15168,7 @@ const B1_WORDS = [
                 "Antwort"
               ]
             },
-            "lv": {
-              "purple": [
-                "nedviprasmiška"
-              ],
-              "yellow": [
-                "Atbilde"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -16147,9 +15180,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "skaidri"
-              ],
               "yellow": [
                 "Rezultatas"
               ]
@@ -16169,13 +15199,13 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vienareikšmis"
+                "vienareikšmė"
               ],
               "red": [
-                "paprastas"
+                "paprasta"
               ],
               "yellow": [
-                "Uzdevums"
+                "Užduotis"
               ]
             }
           }
@@ -16189,56 +15219,26 @@ const B1_WORDS = [
           ],
           "purple": [
             "aiškus",
-            "vienareikšmis",
             "paprastas"
           ]
         },
         "comparison": [
           {
-            "word": {
-              "green": [
-                "eindeutig"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "aiškus / nedviprasmiškas"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "einfach"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "paprastas"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "deutlich"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "aiškiai / gerai įžiūrimi"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           }
         ],
-        "tip": {
-          "purple": [
-            "nėra abejonių"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
-            "vienareikšmis",
             "paprastas"
           ]
         }
@@ -16310,11 +15310,10 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Paliko",
-                "iespaidu"
+                "Paliko"
               ],
               "yellow": [
-                "Filma"
+                "Filmas"
               ]
             }
           },
@@ -16328,9 +15327,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "ir iespaids"
-              ],
               "green": [
                 "jis"
               ]
@@ -16350,7 +15346,7 @@ const B1_WORDS = [
                 "įspūdis"
               ],
               "red": [
-                "Pirmais"
+                "Pirmasis"
               ]
             }
           }
@@ -16361,7 +15357,6 @@ const B1_WORDS = [
             "einen Eindruck machen"
           ],
           "purple": [
-            "iespaidu",
             "atrodo",
             "jausmą"
           ]
@@ -16404,11 +15399,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "Palikti gerą įspūdį"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "įspūdis",
@@ -16500,9 +15491,6 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "nesvarbu"
-              ],
-              "green": [
-                "kuris"
               ]
             }
           },
@@ -16520,7 +15508,7 @@ const B1_WORDS = [
                 "vis tiek"
               ],
               "yellow": [
-                "Kasdienybėje"
+                "Kasdienėje"
               ]
             }
           }
@@ -16577,17 +15565,8 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "formalesnį",
-            "vis tiek"
-          ]
-        },
-        "important": {
-          "purple": [
-            "sarunvalodas"
-          ]
-        }
+        "tip": {},
+        "important": {}
       }
     }
   },
@@ -16679,7 +15658,7 @@ const B1_WORDS = [
                 "kita vertus"
               ],
               "yellow": [
-                "laika"
+                "laiko"
               ]
             }
           },
@@ -16702,11 +15681,10 @@ const B1_WORDS = [
             "andererseits"
           ],
           "purple": [
-            "viena vertus",
-            "kita vertus"
+            "vienos"
           ],
           "red": [
-            "priešingos pusės"
+            "priešingas"
           ]
         },
         "comparison": [
@@ -16747,17 +15725,8 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "einerseits",
-            "andererseits"
-          ]
-        },
-        "important": {
-          "purple": [
-            "otro pusi"
-          ]
-        }
+        "tip": {},
+        "important": {}
       }
     }
   },
@@ -16824,14 +15793,7 @@ const B1_WORDS = [
                 "parken"
               ]
             },
-            "lv": {
-              "purple": [
-                "iebrauktuves"
-              ],
-              "red": [
-                "nenovietojiet auto"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -16850,10 +15812,10 @@ const B1_WORDS = [
                 "įvažiavimas"
               ],
               "green": [
-                "tunelyje"
+                "tunelį"
               ],
               "red": [
-                "uždaryta"
+                "uždarytas"
               ]
             }
           },
@@ -16881,7 +15843,6 @@ const B1_WORDS = [
             "Einfahrt"
           ],
           "purple": [
-            "iebrauktuvi",
             "įvažiavimą"
           ],
           "green": [
@@ -16926,16 +15887,11 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "iebraukt",
-            "izbraukt"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
-            "įvažiavimas",
-            "išvažiavimas"
+            "įvažiavimą",
+            "išvažiavimą"
           ]
         }
       }
@@ -17018,9 +15974,6 @@ const B1_WORDS = [
               "purple": [
                 "neateina į galvą"
               ],
-              "yellow": [
-                "žodis"
-              ],
               "green": [
                 "man"
               ]
@@ -17035,14 +15988,7 @@ const B1_WORDS = [
                 "Decke"
               ]
             },
-            "lv": {
-              "purple": [
-                "įsibrovę"
-              ],
-              "yellow": [
-                "Griesti"
-              ]
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -17050,58 +15996,27 @@ const B1_WORDS = [
             "einfallen"
           ],
           "red": [
-            "dative"
+            "dativą"
           ],
           "green": [
             "mir"
-          ],
-          "purple": [
-            "ateiti į galvą"
           ]
         },
         "comparison": [
           {
-            "word": {
-              "green": [
-                "einfallen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "ateiti į galvą"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "sich erinnern"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "prisiminti"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "einstürzen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "sugriūti"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           }
         ],
-        "tip": {
-          "purple": [
-            "ateina į galvą"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "mir"
@@ -17173,10 +16088,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vienspalvę"
-              ],
-              "yellow": [
-                "kreklu"
+                "vienspalvių"
               ]
             }
           },
@@ -17213,12 +16125,6 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "vienspalvė"
-              ],
-              "red": [
-                "raiba"
-              ],
-              "yellow": [
-                "Kleita"
               ]
             }
           }
@@ -17228,12 +16134,10 @@ const B1_WORDS = [
             "einfarbig"
           ],
           "purple": [
-            "vienspalvis",
-            "viena spalva"
+            "vienspalvis"
           ],
           "red": [
-            "raksta",
-            "spalvų mišinio"
+            "spalvos"
           ]
         },
         "comparison": [
@@ -17274,12 +16178,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "viena spalva",
-            "daug spalvų"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "vieną spalvą"
@@ -17353,10 +16252,10 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "įtakoje"
+                "įtakos"
               ],
               "yellow": [
-                "planus"
+                "planams"
               ]
             }
           },
@@ -17370,11 +16269,8 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "ietekme uz"
-              ],
               "yellow": [
-                "sprendimą"
+                "sprendimui"
               ]
             }
           },
@@ -17393,13 +16289,10 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "įtakoje"
+                "įtakos"
               ],
               "green": [
-                "jaunuolius"
-              ],
-              "yellow": [
-                "mediji"
+                "jaunimui"
               ]
             }
           }
@@ -17408,12 +16301,6 @@ const B1_WORDS = [
           "blue": [
             "Einfluss",
             "Einfluss auf"
-          ],
-          "red": [
-            "kurp?"
-          ],
-          "purple": [
-            "ietekmi"
           ]
         },
         "comparison": [
@@ -17454,16 +16341,8 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "kurp?"
-          ]
-        },
-        "important": {
-          "purple": [
-            "įtaka"
-          ]
-        }
+        "tip": {},
+        "important": {}
       }
     }
   },
@@ -17514,12 +16393,9 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "ievieto"
-              ],
               "yellow": [
                 "Paveikslėlį",
-                "dokumente"
+                "dokumentą"
               ]
             }
           },
@@ -17535,12 +16411,8 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "ievietoju"
-              ],
               "yellow": [
-                "teikumu",
-                "tekste"
+                "tekstą"
               ]
             }
           },
@@ -17560,7 +16432,7 @@ const B1_WORDS = [
                 "įsilieja"
               ],
               "yellow": [
-                "sistemoje",
+                "sistemą",
                 "dalis"
               ]
             }
@@ -17571,63 +16443,33 @@ const B1_WORDS = [
             "einfügen"
           ],
           "purple": [
-            "įdėti",
             "įtraukti"
           ],
           "yellow": [
-            "tekste",
-            "dokumente",
-            "Paveikslėlyje",
-            "sistemoje"
+            "tekstą",
+            "dokumentą",
+            "paveikslėlį",
+            "sistemą"
           ]
         },
         "comparison": [
           {
-            "word": {
-              "green": [
-                "einfügen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "įdėti / įtraukti"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "hinzufügen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "pridėti"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "einsetzen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "ievietot / izmantot"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           }
         ],
-        "tip": {
-          "purple": [
-            "įdėti",
-            "įsilieti"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
-            "dokumento veiksmas",
+            "dokumentų",
             "pridėti"
           ]
         }
@@ -17702,12 +16544,6 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "įveda"
-              ],
-              "yellow": [
-                "noteikumus"
-              ],
-              "green": [
-                "Skola"
               ]
             }
           },
@@ -17752,12 +16588,6 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "importuoja"
-              ],
-              "yellow": [
-                "kafijas"
-              ],
-              "green": [
-                "Valsts"
               ]
             }
           }
@@ -17772,9 +16602,8 @@ const B1_WORDS = [
           ],
           "yellow": [
             "sistemą",
-            "noteikumu",
-            "metodi",
-            "preces"
+            "metodą",
+            "Prekyboje"
           ]
         },
         "comparison": [
@@ -17815,18 +16644,10 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "noteikumus",
-            "sistemą",
-            "metodi",
-            "preces"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
-            "įvesti",
-            "prezentuoti"
+            "įvesti"
           ]
         }
       }
@@ -17900,7 +16721,7 @@ const B1_WORDS = [
                 "įvadas"
               ],
               "yellow": [
-                "temoje"
+                "temą"
               ]
             }
           },
@@ -17946,7 +16767,6 @@ const B1_WORDS = [
             "Einführung"
           ],
           "purple": [
-            "ievadu",
             "įvedimą"
           ],
           "yellow": [
@@ -17993,17 +16813,10 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "tekstas",
-            "kursas",
-            "sistema",
-            "noteikumi"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
-            "įvedimas į praktiką"
+            "įvedimą"
           ]
         }
       }
@@ -18075,7 +16888,7 @@ const B1_WORDS = [
                 "reikia priprasti"
               ],
               "yellow": [
-                "darba"
+                "darbo"
               ]
             }
           },
@@ -18093,14 +16906,11 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "pierod"
-              ],
               "green": [
                 "Vaikas"
               ],
               "yellow": [
-                "mokykloje"
+                "mokyklos"
               ]
             }
           },
@@ -18118,7 +16928,7 @@ const B1_WORDS = [
                 "pripratome"
               ],
               "yellow": [
-                "persikraustymas"
+                "persikraustymo"
               ]
             }
           }
@@ -18132,9 +16942,8 @@ const B1_WORDS = [
             "prisitaikymo procesą"
           ],
           "yellow": [
-            "vietas",
-            "darba",
-            "skolas"
+            "vietos",
+            "darbo"
           ]
         },
         "comparison": [
@@ -18175,13 +16984,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "Darbe",
-            "mokykloje",
-            "vietoje"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "procesas po pokyčių"
@@ -18252,14 +17055,7 @@ const B1_WORDS = [
                 "Regeln"
               ]
             },
-            "lv": {
-              "purple": [
-                "atkreipkite dėmesį"
-              ],
-              "yellow": [
-                "noteikumus"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -18272,10 +17068,10 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "reikia atsižvelgti"
+                "reikia"
               ],
               "yellow": [
-                "terminas"
+                "termino"
               ]
             }
           },
@@ -18289,29 +17085,16 @@ const B1_WORDS = [
                 "Abstand"
               ]
             },
-            "lv": {
-              "purple": [
-                "atkreipkite dėmesį"
-              ],
-              "yellow": [
-                "distanci"
-              ]
-            }
+            "lv": {}
           }
         ],
         "explanation": {
           "blue": [
             "einhalten"
           ],
-          "purple": [
-            "paisyti",
-            "atlikti tiksliai"
-          ],
           "yellow": [
-            "noteikumu",
-            "terminą",
-            "pažadą",
-            "distanci"
+            "termino",
+            "pažado"
           ]
         },
         "comparison": [
@@ -18352,19 +17135,10 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "regeln",
-            "termin",
-            "frist",
-            "abstand"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
-            "noteikumu",
-            "terminą",
-            "distanci"
+            "termino"
           ]
         }
       }
@@ -18492,12 +17266,12 @@ const B1_WORDS = [
             "būdingas"
           ],
           "green": [
-            "žmonėms"
+            "žmones"
           ],
           "yellow": [
-            "augiem",
-            "gyvūnams",
-            "produktiem"
+            "augalus",
+            "gyvūnus",
+            "produktus"
           ]
         },
         "comparison": [
@@ -18538,13 +17312,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "augi",
-            "gyvūnai",
-            "produkti"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "jaukus"
@@ -18618,10 +17386,10 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "mokymo vienetas"
+                "mokymosi"
               ],
               "yellow": [
-                "Kita"
+                "kitas"
               ]
             }
           },
@@ -18640,8 +17408,7 @@ const B1_WORDS = [
                 "matavimo vienetas"
               ],
               "yellow": [
-                "Metrs",
-                "garuma"
+                "metras"
               ]
             }
           },
@@ -18656,7 +17423,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vienetams"
+                "vienetų"
               ],
               "yellow": [
                 "Prietaisas"
@@ -18673,7 +17440,7 @@ const B1_WORDS = [
             "matavimo vienetas"
           ],
           "yellow": [
-            "mokymo skyrius",
+            "mokymosi",
             "techninis vienetas"
           ]
         },
@@ -18715,16 +17482,10 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "mokymo vienetas",
-            "matavimo vienetas",
-            "modulis"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
-            "vienybė"
+            "vienybę"
           ]
         }
       }
@@ -18798,7 +17559,7 @@ const B1_WORDS = [
                 "ilgio matavimo vienetas"
               ],
               "yellow": [
-                "Metrs"
+                "metras"
               ]
             }
           },
@@ -18829,8 +17590,8 @@ const B1_WORDS = [
                 "ilgio matavimo vienetai"
               ],
               "yellow": [
-                "Centimetri",
-                "kilometri"
+                "centimetrai",
+                "kilometrai"
               ]
             }
           }
@@ -18843,9 +17604,9 @@ const B1_WORDS = [
             "ilgio matavimo vienetą"
           ],
           "yellow": [
-            "metriem",
-            "centimetriem",
-            "kilometriem"
+            "metrus",
+            "centimetrus",
+            "kilometrus"
           ]
         },
         "comparison": [
@@ -18886,19 +17647,8 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "ilgis",
-            "vienetas",
-            "ilgio matavimo vienetas"
-          ]
-        },
-        "important": {
-          "purple": [
-            "garumu",
-            "svaru/masu"
-          ]
-        }
+        "tip": {},
+        "important": {}
       }
     }
   },
@@ -18948,10 +17698,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vienotus"
-              ],
-              "yellow": [
-                "noteikumus"
+                "vieningų"
               ]
             }
           },
@@ -18969,13 +17716,10 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vienodą"
+                "vienodus"
               ],
               "green": [
-                "Darbinieki"
-              ],
-              "yellow": [
-                "aprengiu"
+                "darbuotojai"
               ]
             }
           },
@@ -18993,7 +17737,7 @@ const B1_WORDS = [
                 "vieningas"
               ],
               "yellow": [
-                "Dizains"
+                "dizainas"
               ]
             }
           }
@@ -19007,59 +17751,29 @@ const B1_WORDS = [
             "vienodas"
           ],
           "yellow": [
-            "noteikumiem",
-            "stilu",
+            "stilių",
             "spalvą",
-            "formu"
+            "formą"
           ]
         },
         "comparison": [
           {
-            "word": {
-              "green": [
-                "einheitlich"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "vientisas / vienodas"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "einzig"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "vienintelis"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "gleich"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "vienodas"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           }
         ],
-        "tip": {
-          "purple": [
-            "vienodam stiliui",
-            "tvarkai"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
-            "vientisas/vienodas",
+            "vieningas",
             "vienintelis"
           ]
         }
@@ -19151,7 +17865,7 @@ const B1_WORDS = [
                 "reikia gauti"
               ],
               "yellow": [
-                "leidimas"
+                "leidimą"
               ]
             }
           },
@@ -19170,13 +17884,10 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pasiekia"
+                "pasiveja"
               ],
               "green": [
                 "Bėgikas"
-              ],
-              "yellow": [
-                "otru"
               ]
             }
           }
@@ -19188,11 +17899,10 @@ const B1_WORDS = [
           "purple": [
             "surinkti",
             "gauti",
-            "pasiekti"
+            "pasivyti"
           ],
           "yellow": [
             "informaciją",
-            "padomu",
             "Leidimą"
           ]
         },
@@ -19234,14 +17944,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "informaciją",
-            "padomu",
-            "Leidimą",
-            "bėgiką"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "informationen",
@@ -19420,9 +18123,6 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "naudojimas"
-              ],
-              "yellow": [
-                "tehnikas"
               ]
             }
           },
@@ -19437,7 +18137,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "iškvietime"
+                "iškvietimą"
               ],
               "green": [
                 "Ugniagesiai"
@@ -19454,9 +18154,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "likme"
-              ],
               "yellow": [
                 "žaidime"
               ]
@@ -19470,9 +18167,7 @@ const B1_WORDS = [
             "zum Einsatz kommen"
           ],
           "purple": [
-            "naudojimą",
-            "iesaisti",
-            "likme"
+            "naudojimą"
           ]
         },
         "comparison": [
@@ -19513,16 +18208,11 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "įtrauktas",
-            "izmantots"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "daiktavardis",
-            "veikla"
+            "veiksmažodis"
           ]
         }
       }
@@ -19626,12 +18316,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "izmantojam"
-              ],
-              "yellow": [
-                "tehniku"
-              ],
               "green": [
                 "mokymuose"
               ]
@@ -19649,9 +18333,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "iesaista"
-              ],
               "green": [
                 "Treneris",
                 "žaidėją"
@@ -19688,12 +18369,11 @@ const B1_WORDS = [
             "prasidėti"
           ],
           "yellow": [
-            "tehniku",
             "lietus",
-            "skausmai"
+            "skausmas"
           ],
           "green": [
-            "žmonių"
+            "žmogus"
           ]
         },
         "comparison": [
@@ -19734,13 +18414,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "technik einsetzen",
-            "spieler einsetzen",
-            "regen setzt ein"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "objektas"
@@ -19826,14 +18500,7 @@ const B1_WORDS = [
                 "Heizung"
               ]
             },
-            "lv": {
-              "purple": [
-                "sureguliavau"
-              ],
-              "yellow": [
-                "apkuri"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -19853,7 +18520,7 @@ const B1_WORDS = [
                 "priima į darbą"
               ],
               "green": [
-                "darbiniekus"
+                "darbą"
               ],
               "yellow": [
                 "Įmonė"
@@ -19874,7 +18541,7 @@ const B1_WORDS = [
                 "nutraukta"
               ],
               "yellow": [
-                "Laikraščio išleidimas"
+                "laikraščio"
               ]
             }
           }
@@ -19890,12 +18557,11 @@ const B1_WORDS = [
             "nutraukti"
           ],
           "green": [
-            "darbiniekiem"
+            "darbuotojais"
           ],
           "yellow": [
-            "laikrakstu",
-            "projektu",
-            "pakalpojumu"
+            "laikraščiu",
+            "projektu"
           ]
         },
         "comparison": [
@@ -19936,11 +18602,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "mitarbeiter"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "nutraukimo reikšmė"
@@ -20033,11 +18695,7 @@ const B1_WORDS = [
                 "ein"
               ]
             },
-            "lv": {
-              "purple": [
-                "užeikite"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -20054,7 +18712,7 @@ const B1_WORDS = [
                 "įstoja"
               ],
               "green": [
-                "Draugijoje"
+                "draugiją"
               ]
             }
           },
@@ -20068,14 +18726,7 @@ const B1_WORDS = [
                 "Wirkung"
               ]
             },
-            "lv": {
-              "purple": [
-                "įstoja"
-              ],
-              "yellow": [
-                "poveikis"
-              ]
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -20084,16 +18735,15 @@ const B1_WORDS = [
           ],
           "purple": [
             "įeiti",
-            "įstoti",
-            "įstoja"
+            "įstoti"
           ],
           "yellow": [
-            "patalpoje",
+            "patalpą",
             "įvykis",
             "pasekmės"
           ],
           "green": [
-            "organizacijoje"
+            "organizaciją"
           ]
         },
         "comparison": [
@@ -20134,15 +18784,10 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "patalpoje",
-            "pasekmės"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
-            "poveikis prasideda"
+            "poveikis"
           ]
         }
       }
@@ -20244,7 +18889,7 @@ const B1_WORDS = [
                 "įsikeliame"
               ],
               "yellow": [
-                "bute"
+                "butą"
               ]
             }
           },
@@ -20265,11 +18910,8 @@ const B1_WORDS = [
               "purple": [
                 "ima"
               ],
-              "yellow": [
-                "maksu"
-              ],
               "green": [
-                "Banka"
+                "bankas"
               ]
             }
           },
@@ -20284,9 +18926,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "ievelc"
-              ],
               "yellow": [
                 "pilvą"
               ]
@@ -20298,13 +18937,11 @@ const B1_WORDS = [
             "einziehen"
           ],
           "purple": [
-            "įsikraustyti",
-            "inkasuoti",
-            "ievilkt"
+            "įsikelti"
           ],
           "yellow": [
-            "gyvenamojoje vietoje",
-            "mokėjimą"
+            "gyvenamąją",
+            "mokestį"
           ]
         },
         "comparison": [
@@ -20345,17 +18982,10 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "įsikraustyti",
-            "inkasuoti",
-            "ievilkt"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
-            "įėjimą",
-            "persikėlimo procesą"
+            "persikraustymo"
           ]
         }
       }
@@ -20521,10 +19151,10 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "gavę"
+                "gavome"
               ],
               "yellow": [
-                "žinią"
+                "žinutę"
               ]
             }
           },
@@ -20544,8 +19174,7 @@ const B1_WORDS = [
                 "priima"
               ],
               "green": [
-                "Ministre",
-                "viesus",
+                "ministrė",
                 "rotušėje"
               ]
             }
@@ -20561,12 +19190,9 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "neuztver"
-              ],
               "yellow": [
-                "Radio",
-                "signalą"
+                "radijo",
+                "signalo"
               ]
             }
           }
@@ -20578,14 +19204,10 @@ const B1_WORDS = [
           ],
           "purple": [
             "gauti",
-            "priimti",
-            "suvokti • priimti"
+            "priimti"
           ],
           "yellow": [
             "signalą"
-          ],
-          "green": [
-            "viesus"
           ]
         },
         "comparison": [
@@ -20626,11 +19248,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "priimti"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "formaliau",
@@ -20757,14 +19375,7 @@ const B1_WORDS = [
                 "Fleck"
               ]
             },
-            "lv": {
-              "purple": [
-                "nuimkite"
-              ],
-              "yellow": [
-                "traipu"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -20800,11 +19411,8 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "Nutolo"
-              ],
               "yellow": [
-                "namai"
+                "namų"
               ]
             }
           }
@@ -20817,11 +19425,10 @@ const B1_WORDS = [
           "purple": [
             "nuimti",
             "ištrinti",
-            "pašalinti",
-            "tolti"
+            "pašalinti"
           ],
           "yellow": [
-            "vietas"
+            "vietos"
           ]
         },
         "comparison": [
@@ -20862,15 +19469,10 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "nuimti",
-            "Nutolsta"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
-            "judėjimas šalin"
+            "judesys"
           ]
         }
       }
@@ -20956,12 +19558,9 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "satur"
-              ],
               "yellow": [
-                "Gėrimas",
-                "cukura"
+                "gėrime",
+                "cukraus"
               ]
             }
           },
@@ -20976,11 +19575,8 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "įtrauktos"
-              ],
               "yellow": [
-                "Kainoje",
+                "kainą",
                 "pusryčiai"
               ]
             }
@@ -20996,12 +19592,9 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "ietver"
-              ],
               "yellow": [
-                "Pranešimas",
-                "informaciją"
+                "pranešime",
+                "informacija"
               ]
             }
           }
@@ -21015,11 +19608,11 @@ const B1_WORDS = [
             "apimti"
           ],
           "yellow": [
-            "sudedamosioms dalims",
-            "Kainoms",
-            "tekstiem",
-            "sarakstiem",
-            "komplektiem"
+            "sudėtyje",
+            "kaip",
+            "tekstus",
+            "sąrašus",
+            "komplektus"
           ]
         },
         "comparison": [
@@ -21060,15 +19653,9 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "viduje",
-            "įtrauktas"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
-            "laikyti",
             "turėti savo sudėtyje",
             "apimti"
           ]
@@ -21146,9 +19733,6 @@ const B1_WORDS = [
               ],
               "green": [
                 "Kalinys"
-              ],
-              "yellow": [
-                "cietuma"
               ]
             }
           },
@@ -21166,7 +19750,7 @@ const B1_WORDS = [
                 "Pabėgo"
               ],
               "green": [
-                "policijas"
+                "policijos"
               ]
             }
           },
@@ -21204,7 +19788,7 @@ const B1_WORDS = [
             "išsigelbėti"
           ],
           "red": [
-            "dativą"
+            "dativu"
           ],
           "green": [
             "der Polizei"
@@ -21252,15 +19836,11 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "pavyko pabėgti"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "sėkmingą rezultatą",
-            "Pabėgimą"
+            "pabrėžia"
           ]
         }
       }
@@ -21335,7 +19915,7 @@ const B1_WORDS = [
                 "Atleidžia"
               ],
               "green": [
-                "darbinieku"
+                "darbuotojų"
               ],
               "yellow": [
                 "Įmonė"
@@ -21359,7 +19939,7 @@ const B1_WORDS = [
                 "išrašytas"
               ],
               "green": [
-                "Pacients"
+                "pacientas"
               ],
               "yellow": [
                 "ligoninės"
@@ -21379,14 +19959,8 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "Išlaisvintas"
-              ],
               "green": [
                 "Kalinys"
-              ],
-              "yellow": [
-                "cietuma"
               ]
             }
           }
@@ -21397,13 +19971,9 @@ const B1_WORDS = [
           ],
           "purple": [
             "atleisti",
-            "išlaisvinti",
-            "Atleidžia",
-            "izraksta",
-            "Išlaisvina"
+            "Atleidžia"
           ],
           "yellow": [
-            "firma",
             "ligoninė",
             "kalėjimas"
           ]
@@ -21446,11 +20016,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "pasirink pagal vietą"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "atleisti"
@@ -21544,10 +20110,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "atitikti"
-              ],
-              "yellow": [
-                "noteikumiem"
+                "atitinka"
               ]
             }
           },
@@ -21562,10 +20125,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "atitikti"
-              ],
-              "yellow": [
-                "laukiame"
+                "atitinka"
               ]
             }
           },
@@ -21580,10 +20140,10 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "neatbilst"
+                "neatitinka"
               ],
               "yellow": [
-                "tiesai"
+                "tiesos"
               ]
             }
           }
@@ -21593,16 +20153,14 @@ const B1_WORDS = [
             "entsprechen"
           ],
           "red": [
-            "dativą",
+            "dativo",
             "dem Plan",
             "den Regeln",
             "unseren Erwartungen"
           ],
           "yellow": [
-            "reikalavimams",
-            "noteikumiem",
-            "planui",
-            "laukiame"
+            "reiškia",
+            "planą"
           ]
         },
         "comparison": [
@@ -21643,15 +20201,11 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "kam atbilst"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
-            "atitikti",
-            "atsakyti"
+            "atitinka",
+            "atsako"
           ]
         }
       }
@@ -21719,9 +20273,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "top"
-              ],
               "yellow": [
                 "pastatas"
               ]
@@ -21740,9 +20291,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "atsirado"
-              ],
               "red": [
                 "Dėl klaidos"
               ],
@@ -21764,9 +20312,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "atsirado"
-              ],
               "red": [
                 "ginčo"
               ],
@@ -21781,10 +20326,7 @@ const B1_WORDS = [
             "entstehen"
           ],
           "purple": [
-            "atsirasti",
-            "tapt",
-            "rodas",
-            "top"
+            "atsirasti"
           ],
           "yellow": [
             "problema",
@@ -21830,11 +20372,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "susidaro proceso eigoje"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "Sąmoningai sukuria"
@@ -22055,7 +20593,7 @@ const B1_WORDS = [
                 "gavau"
               ],
               "yellow": [
-                "žinią"
+                "žinutę"
               ]
             }
           },
@@ -22071,9 +20609,6 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "gauna"
-              ],
-              "yellow": [
-                "atbalstu"
               ]
             }
           },
@@ -22091,7 +20626,7 @@ const B1_WORDS = [
                 "reikia išsaugoti"
               ],
               "yellow": [
-                "pastatas"
+                "pastatą"
               ]
             }
           }
@@ -22102,14 +20637,12 @@ const B1_WORDS = [
           ],
           "purple": [
             "gauti",
-            "išsaugoti",
-            "išlaikyti"
+            "išsaugoti"
           ],
           "yellow": [
             "laišką",
             "žinią",
-            "naudu",
-            "dokumentu"
+            "dokumentą"
           ]
         },
         "comparison": [
@@ -22150,12 +20683,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "gauti",
-            "išsaugoti"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "formaliau",
@@ -22351,14 +20879,8 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "atver"
-              ],
-              "yellow": [
-                "kontu"
-              ],
               "green": [
-                "Banka"
+                "bankas"
               ]
             }
           },
@@ -22375,9 +20897,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "Atskleidžia"
-              ],
               "yellow": [
                 "parodą"
               ],
@@ -22396,9 +20915,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "Atskleista"
-              ],
               "yellow": [
                 "Posėdis"
               ]
@@ -22411,14 +20927,10 @@ const B1_WORDS = [
           ],
           "purple": [
             "atidaryti",
-            "atrasti",
             "pradėti"
           ],
           "yellow": [
-            "kontu",
-            "veikalu",
-            "parodą",
-            "sėdėk"
+            "parodą"
           ]
         },
         "comparison": [
@@ -22459,18 +20971,11 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "kontu",
-            "parodą",
-            "sėdėk",
-            "durys"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
-            "oficiali pradžia",
-            "Atidarymas"
+            "oficialią",
+            "atidarymą"
           ]
         }
       }
@@ -22580,9 +21085,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "išeis"
-              ],
               "yellow": [
                 "Knyga"
               ]
@@ -22612,9 +21114,9 @@ const B1_WORDS = [
             "erscheinen"
           ],
           "purple": [
-            "pasirodyti / atsirasti",
+            "pasirodyti",
             "atvykti",
-            "išeiti"
+            "išeina"
           ],
           "yellow": [
             "knyga",
@@ -22662,12 +21164,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "išeina",
-            "ierodas"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "išeiti"
@@ -22752,7 +21249,7 @@ const B1_WORDS = [
                 "reikia pakeisti"
               ],
               "yellow": [
-                "prietaisas"
+                "prietaisą"
               ]
             }
           },
@@ -22776,7 +21273,7 @@ const B1_WORDS = [
                 "Mašina"
               ],
               "green": [
-                "darbininkus"
+                "darbuotojus"
               ]
             }
           },
@@ -22796,9 +21293,6 @@ const B1_WORDS = [
               "purple": [
                 "Atlygina"
               ],
-              "yellow": [
-                "praradimus"
-              ],
               "green": [
                 "Draudimas"
               ]
@@ -22814,12 +21308,11 @@ const B1_WORDS = [
             "Atlyginti"
           ],
           "yellow": [
-            "lietu",
             "sprendimą",
             "Schaden"
           ],
           "green": [
-            "žmonių"
+            "žmogų"
           ]
         },
         "comparison": [
@@ -22860,14 +21353,10 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "užima kito daikto vietą"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
-            "Pakeisti gedimą"
+            "pakeisti"
           ]
         }
       }
@@ -23213,14 +21702,7 @@ const B1_WORDS = [
                 "Arm"
               ]
             },
-            "lv": {
-              "purple": [
-                "satver"
-              ],
-              "yellow": [
-                "rokas"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -23231,14 +21713,7 @@ const B1_WORDS = [
                 "Gedanken"
               ]
             },
-            "lv": {
-              "purple": [
-                "aptvert"
-              ],
-              "yellow": [
-                "domu"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -23251,9 +21726,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "ietilpst"
-              ],
               "yellow": [
                 "Salėje",
                 "žmonių"
@@ -23267,12 +21739,11 @@ const B1_WORDS = [
           ],
           "purple": [
             "sugriebti",
-            "aptvert",
             "sutalpinti"
           ],
           "yellow": [
-            "patalpoms",
-            "skaičiams"
+            "patalpomis",
+            "skaičiais"
           ]
         },
         "comparison": [
@@ -23313,20 +21784,8 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "sugriebti",
-            "aptvert",
-            "ietilpina"
-          ]
-        },
-        "important": {
-          "purple": [
-            "satver",
-            "aptver",
-            "ietilpina"
-          ]
-        }
+        "tip": {},
+        "important": {}
       }
     }
   },
@@ -23422,9 +21881,6 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "supuvę"
-              ],
-              "yellow": [
-                "Āboliai"
               ]
             }
           },
@@ -23446,15 +21902,14 @@ const B1_WORDS = [
             "faul"
           ],
           "purple": [
-            "tingus",
-            "sapuvis",
-            "sugadintas"
+            "tinginys",
+            "sugedęs"
           ],
           "green": [
-            "žmonių"
+            "žmogų"
           ],
           "yellow": [
-            "Vaisiams",
+            "vaisius",
             "maistą",
             "medžiagą"
           ]
@@ -23497,15 +21952,10 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "tingus",
-            "sapuvis"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
-            "tingus"
+            "tinginys"
           ]
         }
       }
@@ -23671,7 +22121,6 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "turies",
                 "Tvirtai"
               ]
             }
@@ -23687,11 +22136,8 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "ten"
-              ],
               "green": [
-                "Vaikų"
+                "vaiką"
               ]
             }
           },
@@ -23766,12 +22212,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "tvirtai laikyti",
-            "fiksuoti"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "laikyti/fiksuoti",
@@ -23861,14 +22302,7 @@ const B1_WORDS = [
                 "Preis"
               ]
             },
-            "lv": {
-              "purple": [
-                "noteikta"
-              ],
-              "yellow": [
-                "Cena"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -23879,14 +22313,7 @@ const B1_WORDS = [
                 "Regeln"
               ]
             },
-            "lv": {
-              "purple": [
-                "tikrai"
-              ],
-              "yellow": [
-                "Noteikumi"
-              ]
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -23898,10 +22325,8 @@ const B1_WORDS = [
           ],
           "yellow": [
             "terminą",
-            "cenu",
             "planą",
-            "tvarką",
-            "noteikumu"
+            "tvarką"
           ]
         },
         "comparison": [
@@ -23942,14 +22367,10 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "nustatyti iš anksto"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
-            "esamą faktą"
+            "esantį"
           ]
         }
       }
@@ -24031,9 +22452,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "nustato"
-              ],
               "green": [
                 "Gydytojas"
               ],
@@ -24053,9 +22471,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "nustatėme"
-              ],
               "yellow": [
                 "klaidą",
                 "sistemoje"
@@ -24069,11 +22484,7 @@ const B1_WORDS = [
                 "fest"
               ]
             },
-            "lv": {
-              "purple": [
-                "nustatau"
-              ]
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -24081,16 +22492,14 @@ const B1_WORDS = [
             "feststellen"
           ],
           "purple": [
-            "konstatuoti",
-            "išsiaiškinti"
+            "konstatuoti"
           ],
           "yellow": [
-            "faktu",
+            "faktą",
             "patikrinimo",
             "stebėjimo",
             "Analizės",
-            "terminą",
-            "cenu"
+            "terminą"
           ]
         },
         "comparison": [
@@ -24131,18 +22540,10 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "faktu",
-            "klaidą",
-            "ligą",
-            "terminą",
-            "cenu"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
-            "esamą faktą",
+            "esantį",
             "sprendimą"
           ]
         }
@@ -24453,10 +22854,10 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pasekmės"
+                "pasekmes"
               ],
               "yellow": [
-                "Sprendimui"
+                "sprendimas"
               ]
             }
           },
@@ -24474,7 +22875,7 @@ const B1_WORDS = [
                 "serijoje"
               ],
               "yellow": [
-                "Kitame"
+                "kitoje"
               ]
             }
           }
@@ -24485,12 +22886,11 @@ const B1_WORDS = [
             "Folge"
           ],
           "purple": [
-            "pasekmės",
+            "pasekmę",
             "rezultatą",
             "seriją"
           ],
           "yellow": [
-            "notikuma",
             "serialo",
             "laidos",
             "podkasto"
@@ -24534,12 +22934,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "pasekmės",
-            "serija"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "pasekmės",
@@ -24624,11 +23019,8 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "veicina"
-              ],
               "yellow": [
-                "Sports",
+                "sportas",
                 "sveikatą"
               ]
             }
@@ -24646,14 +23038,8 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "atbalsta"
-              ],
               "green": [
                 "Vaikus"
-              ],
-              "yellow": [
-                "Skola"
               ]
             }
           },
@@ -24668,11 +23054,8 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "įgyja"
-              ],
               "yellow": [
-                "naftu",
+                "nafta",
                 "Regione"
               ]
             }
@@ -24684,17 +23067,15 @@ const B1_WORDS = [
           ],
           "purple": [
             "skatinti",
-            "remti",
             "gauti"
           ],
           "green": [
-            "žmonių"
+            "žmogų"
           ],
           "yellow": [
-            "projektu",
-            "procesu",
-            "naftu",
-            "anglys"
+            "projektą",
+            "naftą",
+            "anglį"
           ]
         },
         "comparison": [
@@ -24735,19 +23116,8 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "stumia į priekį",
-            "prasa"
-          ]
-        },
-        "important": {
-          "purple": [
-            "veicina",
-            "atbalsta",
-            "prasa"
-          ]
-        }
+        "tip": {},
+        "important": {}
       }
     }
   },
@@ -24832,11 +23202,7 @@ const B1_WORDS = [
                 "fort"
               ]
             },
-            "lv": {
-              "purple": [
-                "turpiniet"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -24853,7 +23219,7 @@ const B1_WORDS = [
                 "tęsiame"
               ],
               "yellow": [
-                "darbu"
+                "darbą"
               ]
             }
           },
@@ -24868,9 +23234,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "aizbrauca prom"
-              ],
               "yellow": [
                 "ginčo"
               ]
@@ -24928,12 +23291,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "turpiniet",
-            "nuvažiuoti"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "tęsti"
@@ -25087,17 +23445,7 @@ const B1_WORDS = [
                 "Futter"
               ]
             },
-            "lv": {
-              "purple": [
-                "valgo"
-              ],
-              "green": [
-                "Suns"
-              ],
-              "yellow": [
-                "Maistą"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -25112,14 +23460,8 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "valgo"
-              ],
               "green": [
-                "Katinas"
-              ],
-              "yellow": [
-                "zivi"
+                "katė"
               ]
             }
           },
@@ -25133,9 +23475,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "rij"
-              ],
               "green": [
                 "Žmonės"
               ]
@@ -25147,13 +23486,11 @@ const B1_WORDS = [
             "fressen"
           ],
           "purple": [
-            "valgo",
-            "rytoj",
-            "praryti"
+            "ryti"
           ],
           "green": [
             "gyvūnas",
-            "žmonių"
+            "žmogų"
           ]
         },
         "comparison": [
@@ -25194,16 +23531,8 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "rupji"
-          ]
-        },
-        "important": {
-          "purple": [
-            "rupji"
-          ]
-        }
+        "tip": {},
+        "important": {}
       }
     }
   },
@@ -25414,11 +23743,8 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "Maistą"
-              ],
               "green": [
-                "Zirgi"
+                "žirgai"
               ]
             }
           },
@@ -25431,14 +23757,7 @@ const B1_WORDS = [
                 "Jacke"
               ]
             },
-            "lv": {
-              "purple": [
-                "odere"
-              ],
-              "yellow": [
-                "Jakas"
-              ]
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -25446,16 +23765,11 @@ const B1_WORDS = [
             "das Futter",
             "Futter"
           ],
-          "purple": [
-            "Maistą",
-            "oderi"
-          ],
           "green": [
-            "gyvūną"
+            "gyvūnų"
           ],
           "yellow": [
-            "švarke",
-            "palte",
+            "paltelyje",
             "krepšyje"
           ]
         },
@@ -25497,11 +23811,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "odere"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "žmonių",
@@ -25596,10 +23906,6 @@ const B1_WORDS = [
           "blue": [
             "ganztägig"
           ],
-          "purple": [
-            "per visą dieną",
-            "veselu dienu ilgs"
-          ],
           "red": [
             "rund um die Uhr"
           ]
@@ -25611,9 +23917,17 @@ const B1_WORDS = [
                 "ganztägigen"
               ]
             },
+            "lv": {}
+          },
+          {
+            "de": {
+              "blue": [
+                "ganztägig"
+              ]
+            },
             "lv": {
               "purple": [
-                "kas ilgst visu dienu"
+                "visą"
               ]
             }
           },
@@ -25625,7 +23939,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "visu dienu"
+                "visą"
               ]
             }
           },
@@ -25637,19 +23951,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "visu dienu"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "ganztägig"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "visu dienu"
+                "visą"
               ]
             }
           },
@@ -25659,11 +23961,7 @@ const B1_WORDS = [
                 "ganztägiger"
               ]
             },
-            "lv": {
-              "purple": [
-                "kas ilgst visu dienu"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -25671,11 +23969,7 @@ const B1_WORDS = [
                 "rund um die Uhr"
               ]
             },
-            "lv": {
-              "purple": [
-                "diennakti"
-              ]
-            }
+            "lv": {}
           }
         ],
         "tip": [
@@ -25909,14 +24203,12 @@ const B1_WORDS = [
             "das Gebiet"
           ],
           "purple": [
-            "jomu",
-            "teritoriju",
-            "apgabals"
+            "teritoriją"
           ],
           "yellow": [
-            "Žiniose",
-            "Darbe",
-            "tyrinėjime",
+            "Žinių",
+            "darbo",
+            "tyrimų",
             "geografijoje"
           ]
         },
@@ -25958,12 +24250,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "sritis",
-            "teritorija"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "abstrakti darbo ar žinių sritis"
@@ -26223,8 +24510,8 @@ const B1_WORDS = [
             "der Gehalt"
           ],
           "purple": [
-            "atlyginimas",
-            "turinys"
+            "atlyginimą",
+            "turinį"
           ]
         },
         "examples": [
@@ -26246,11 +24533,7 @@ const B1_WORDS = [
                 "Gehälter"
               ]
             },
-            "lv": {
-              "purple": [
-                "algas"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -26326,7 +24609,7 @@ const B1_WORDS = [
             "der Gehalt"
           ],
           "purple": [
-            "turinys"
+            "turinį"
           ],
           "blue": [
             "das Gehalt"
@@ -26561,10 +24844,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "galioje"
-              ],
-              "yellow": [
-                "Noteikums"
+                "galioja"
               ]
             }
           },
@@ -26578,9 +24858,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "tinkama"
-              ],
               "yellow": [
                 "Bilietas"
               ]
@@ -26611,8 +24888,8 @@ const B1_WORDS = [
             "gelten als"
           ],
           "purple": [
-            "galioti",
-            "Būti tinkamam",
+            "galiojantis",
+            "būti",
             "būti laikomam"
           ],
           "yellow": [
@@ -26659,16 +24936,11 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "asmuo",
-            "expertin"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "galiojimo",
-            "reputacijos reikšmė"
+            "reputacijos"
           ]
         }
       }
@@ -26739,11 +25011,7 @@ const B1_WORDS = [
                 "gemein"
               ]
             },
-            "lv": {
-              "purple": [
-                "nekrietni"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -26759,7 +25027,7 @@ const B1_WORDS = [
                 "piktas"
               ],
               "green": [
-                "Brolį"
+                "broliu"
               ]
             }
           },
@@ -26773,11 +25041,8 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "nejauka"
-              ],
               "yellow": [
-                "pastaba"
+                "pastebėjimas"
               ]
             }
           }
@@ -26788,9 +25053,8 @@ const B1_WORDS = [
             "gemeinsam"
           ],
           "purple": [
-            "niekšingas",
+            "niekšiškas",
             "piktas",
-            "nejauks",
             "bendras"
           ]
         },
@@ -26832,14 +25096,10 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "negatyvus"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
-            "niekšingas",
+            "niekšiškas",
             "bendras"
           ]
         }
@@ -27003,8 +25263,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "prietaisas",
-                "nedarbojas"
+                "prietaisas"
               ]
             }
           },
@@ -27017,8 +25276,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "išjunkite",
-                "įrenginį"
+                "išjunkite"
               ]
             }
           },
@@ -27034,9 +25292,6 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "prietaisas"
-              ],
-              "yellow": [
-                "asinsspiedienu"
               ]
             }
           }
@@ -27046,12 +25301,11 @@ const B1_WORDS = [
             "das Gerät"
           ],
           "purple": [
-            "įrenginį",
-            "Aparatą"
+            "įrenginį"
           ],
           "yellow": [
-            "funkciju",
-            "techniniams dalykams",
+            "funkcija",
+            "technines",
             "medicinoje",
             "Biure"
           ]
@@ -27094,15 +25348,11 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "tehniska funkcija"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
-            "vienskaitlis",
-            "daudzskaitlis"
+            "vienaskaita",
+            "daugiskaita"
           ]
         }
       }
@@ -27274,11 +25524,7 @@ const B1_WORDS = [
                 "Geschlecht"
               ]
             },
-            "lv": {
-              "purple": [
-                "dzimumu"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -27289,8 +25535,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "dzimte",
-                "vyrų"
+                "vyriška"
               ]
             }
           },
@@ -27304,9 +25549,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "dzimuma"
-              ],
               "yellow": [
                 "Statistikoje"
               ]
@@ -27316,10 +25558,6 @@ const B1_WORDS = [
         "explanation": {
           "blue": [
             "das Geschlecht"
-          ],
-          "purple": [
-            "dzimumu",
-            "dzimti"
           ],
           "green": [
             "žmonėms",
@@ -27367,12 +25605,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "lytis",
-            "dzimte"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "karta"
@@ -27536,11 +25769,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "kontekstas"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "visuomenė",
@@ -27731,10 +25960,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pelnas"
-              ],
-              "yellow": [
-                "izmaksu"
+                "pelno"
               ]
             }
           },
@@ -27752,7 +25978,7 @@ const B1_WORDS = [
                 "laimikis"
               ],
               "yellow": [
-                "loterijoje"
+                "loterijos"
               ]
             }
           }
@@ -27763,12 +25989,12 @@ const B1_WORDS = [
           ],
           "purple": [
             "pelną",
-            "laimestu"
+            "laimikį"
           ],
           "yellow": [
-            "išlaidoms",
+            "išlaidų",
             "Žaidimuose",
-            "konkursos",
+            "konkursuose",
             "loterijose"
           ]
         },
@@ -27810,12 +26036,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "pelnas",
-            "laimikis"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "pajamų suma",
@@ -27889,9 +26110,6 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "tikrai"
-              ],
-              "yellow": [
-                "pareizi"
               ]
             }
           },
@@ -27905,9 +26123,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "noteikts"
-              ],
               "yellow": [
                 "rizika"
               ]
@@ -27933,7 +26148,6 @@ const B1_WORDS = [
           ],
           "purple": [
             "tikras",
-            "noteikts",
             "tikrai"
           ],
           "red": [
@@ -27978,12 +26192,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "tikrai",
-            "noteikts risks"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "formalesnis"
@@ -28073,11 +26282,8 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "pierodu"
-              ],
               "yellow": [
-                "darba"
+                "darbo"
               ]
             }
           },
@@ -28091,9 +26297,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "pierada"
-              ],
               "yellow": [
                 "miesto"
               ]
@@ -28126,12 +26329,9 @@ const B1_WORDS = [
           ],
           "yellow": [
             "situacijos",
-            "vietas",
+            "vietos",
             "Žmogaus",
-            "ritma"
-          ],
-          "red": [
-            "Galininkas"
+            "ritmo"
           ]
         },
         "comparison": [
@@ -28172,13 +26372,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "an die Arbeit",
-            "an die Stadt",
-            "daran"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "priprasti",
@@ -28278,9 +26472,6 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "grotelės"
-              ],
-              "yellow": [
-                "loga"
               ]
             }
           },
@@ -28295,10 +26486,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "grotomis"
-              ],
-              "green": [
-                "Suns"
+                "grotų"
               ]
             }
           },
@@ -28316,7 +26504,7 @@ const B1_WORDS = [
                 "grotelės"
               ],
               "yellow": [
-                "Balkona"
+                "balkono"
               ]
             }
           }
@@ -28326,14 +26514,11 @@ const B1_WORDS = [
             "das Gitter"
           ],
           "purple": [
-            "tinklelį",
-            "restes"
+            "tinklelį"
           ],
           "yellow": [
-            "loga",
-            "durims",
-            "Narvo",
-            "ventiliacijos"
+            "durų",
+            "Narvo"
           ]
         },
         "comparison": [
@@ -28374,13 +26559,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "loga",
-            "durims",
-            "Narvo"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "turėklams"
@@ -28599,9 +26778,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "sniedzas"
-              ],
               "yellow": [
                 "stiklinės"
               ]
@@ -28621,15 +26797,8 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "satver"
-              ],
               "green": [
-                "Policists",
-                "zagli"
-              ],
-              "yellow": [
-                "rokas"
+                "policininkas"
               ]
             }
           },
@@ -28645,9 +26814,6 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "reikia imtis"
-              ],
-              "yellow": [
-                "renginiams"
               ]
             }
           }
@@ -28659,12 +26825,7 @@ const B1_WORDS = [
           ],
           "purple": [
             "sugriebti",
-            "sniegties",
             "griebtis"
-          ],
-          "yellow": [
-            "roku",
-            "renginiams"
           ]
         },
         "comparison": [
@@ -28705,15 +26866,11 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "judesį į kažką"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "paimti",
-            "siekimas",
+            "siekimo",
             "griebimo judesį"
           ]
         }
@@ -28807,7 +26964,7 @@ const B1_WORDS = [
                 "rankena"
               ],
               "yellow": [
-                "Durvju"
+                "durų"
               ]
             }
           },
@@ -28817,11 +26974,7 @@ const B1_WORDS = [
                 "Griff"
               ]
             },
-            "lv": {
-              "purple": [
-                "roktura"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -28833,9 +26986,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "sugriebimą"
-              ],
               "green": [
                 "Lipant"
               ]
@@ -28847,11 +26997,7 @@ const B1_WORDS = [
             "der Griff"
           ],
           "purple": [
-            "rankena",
-            "sugriebimas"
-          ],
-          "yellow": [
-            "dalyką"
+            "rankena"
           ]
         },
         "comparison": [
@@ -28892,18 +27038,8 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "vieta",
-            "veikla",
-            "satver"
-          ]
-        },
-        "important": {
-          "purple": [
-            "ausytė"
-          ]
-        }
+        "tip": {},
+        "important": {}
       }
     }
   },
@@ -29128,10 +27264,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "preces"
-              ],
-              "yellow": [
-                "Vilciens"
+                "prekes"
               ]
             }
           }
@@ -29143,13 +27276,12 @@ const B1_WORDS = [
           ],
           "purple": [
             "turtą",
-            "mantu",
             "ūkį",
             "dvarą",
-            "preces"
+            "prekes"
           ],
           "yellow": [
-            "materialinės vertybės"
+            "materialines"
           ]
         },
         "comparison": [
@@ -29190,14 +27322,10 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "artikula"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
-            "artikuls",
+            "artikelis",
             "žodžio vaidmenį"
           ]
         }
@@ -29438,7 +27566,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "reikia elgtis"
+                "reikia"
               ]
             }
           },
@@ -29455,11 +27583,8 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "ir par"
-              ],
               "yellow": [
-                "Filma"
+                "filmas"
               ],
               "green": [
                 "šeimą"
@@ -29479,12 +27604,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "tirgojas"
-              ],
-              "yellow": [
-                "koksni"
-              ],
               "green": [
                 "Įmonė"
               ]
@@ -29499,12 +27618,10 @@ const B1_WORDS = [
           ],
           "purple": [
             "veikti",
-            "veikti",
-            "Būti tema",
-            "tirgoties"
+            "Būti tema"
           ],
           "yellow": [
-            "prekėms"
+            "prekėmis"
           ]
         },
         "comparison": [
@@ -29545,13 +27662,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "ką daryti",
-            "par ko ir teksts",
-            "tirgojas"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "temą"
@@ -29624,9 +27735,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "būdą"
-              ],
               "yellow": [
                 "durys"
               ]
@@ -29661,10 +27769,10 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "judesiai"
+                "judesių"
               ],
               "yellow": [
-                "darbam"
+                "darbui"
               ]
             }
           }
@@ -29674,12 +27782,10 @@ const B1_WORDS = [
             "der Handgriff"
           ],
           "purple": [
-            "judesį",
-            "būdą",
-            "rokturi"
+            "judesį"
           ],
           "yellow": [
-            "dalyko dalį",
+            "dalį",
             "Darbe"
           ]
         },
@@ -29721,15 +27827,10 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "Darbo procese"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
-            "praktišką judesį",
-            "būdą"
+            "praktišką judesį"
           ]
         }
       }
@@ -29878,12 +27979,8 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "sit"
-              ],
               "yellow": [
-                "kumštį",
-                "galdu"
+                "kumščiu"
               ]
             }
           },
@@ -29900,11 +27997,8 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "Kerta"
-              ],
               "yellow": [
-                "malku"
+                "malkas"
               ],
               "green": [
                 "Darbininkas"
@@ -29919,7 +28013,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "dingsti"
+                "dink"
               ]
             }
           }
@@ -29931,12 +28025,10 @@ const B1_WORDS = [
           ],
           "purple": [
             "mušti",
-            "kirsti",
-            "triecienu"
+            "kirsti"
           ],
           "red": [
-            "šnekamojoje kalboje",
-            "šiurkščiau"
+            "šnekamojoje kalboje"
           ]
         },
         "comparison": [
@@ -29977,16 +28069,10 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "smūgis",
-            "dingsti"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
-            "schlagen",
-            "rupji"
+            "schlagen"
           ]
         }
       }
@@ -30074,9 +28160,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "krūva"
-              ],
               "yellow": [
                 "popierių"
               ]
@@ -30108,12 +28191,10 @@ const B1_WORDS = [
             "der Haufen"
           ],
           "purple": [
-            "kaudzi",
-            "krūvą",
-            "baru"
+            "krūvą"
           ],
           "red": [
-            "neformali"
+            "neformalus"
           ]
         },
         "comparison": [
@@ -30154,12 +28235,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "netvarkinga krūva",
-            "tvarkingai sukrautas"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "neformaliai",
@@ -30480,9 +28556,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "izdod"
-              ],
               "green": [
                 "Leidykla"
               ],
@@ -30501,9 +28574,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "izdota"
-              ],
               "yellow": [
                 "Laikraštis"
               ]
@@ -30520,9 +28590,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "izsniedziet"
-              ],
               "yellow": [
                 "dokumentus"
               ]
@@ -30582,12 +28649,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "izdod",
-            "izsniedz"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "leisti"
@@ -30686,8 +28748,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Ateik",
-                "šen"
+                "Ateik"
               ]
             }
           },
@@ -30701,11 +28762,7 @@ const B1_WORDS = [
                 "Wo"
               ]
             },
-            "lv": {
-              "purple": [
-                "no kurienes"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -30722,7 +28779,7 @@ const B1_WORDS = [
                 "ateina"
               ],
               "green": [
-                "virtuves"
+                "virtuvės"
               ]
             }
           }
@@ -30731,13 +28788,6 @@ const B1_WORDS = [
           "blue": [
             "herkommen",
             "Wo kommst du her"
-          ],
-          "purple": [
-            "Ateiti čia",
-            "no kurienes tu esi"
-          ],
-          "red": [
-            "izcelsmi"
           ]
         },
         "comparison": [
@@ -30778,16 +28828,8 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "čia"
-          ]
-        },
-        "important": {
-          "purple": [
-            "izcelsmi"
-          ]
-        }
+        "tip": {},
+        "important": {}
       }
     }
   },
@@ -30922,7 +28964,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "išeinu lauk"
+                "išeinu"
               ]
             }
           },
@@ -30939,11 +28981,11 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "išeiti"
+                "išeina"
               ],
               "green": [
                 "Vaikai",
-                "sode"
+                "sodą"
               ]
             }
           },
@@ -30960,9 +29002,6 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "viršija"
-              ],
-              "yellow": [
-                "pieredzi"
               ]
             }
           }
@@ -30973,12 +29012,11 @@ const B1_WORDS = [
             "über etwas hinausgehen"
           ],
           "purple": [
-            "išeiti lauk",
+            "išeiti",
             "viršyti"
           ],
           "yellow": [
-            "telpas",
-            "vietas",
+            "vietos",
             "ribą"
           ]
         },
@@ -31020,12 +29058,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "šalin, laukan",
-            "čia, lauk"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "viršyti ribą"
@@ -31138,11 +29171,7 @@ const B1_WORDS = [
                 "Hinweis"
               ]
             },
-            "lv": {
-              "purple": [
-                "nurodymą"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -31154,11 +29183,8 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "nurodymas"
-              ],
               "yellow": [
-                "ženklai"
+                "ženklo"
               ]
             }
           },
@@ -31168,11 +29194,7 @@ const B1_WORDS = [
                 "Hinweis"
               ]
             },
-            "lv": {
-              "purple": [
-                "nurodymas"
-              ]
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -31180,7 +29202,6 @@ const B1_WORDS = [
             "der Hinweis"
           ],
           "purple": [
-            "nurodymas",
             "pastaba"
           ],
           "yellow": [
@@ -31225,16 +29246,10 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "nurodo",
-            "iesaka"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
-            "nurodo",
-            "iesaka"
+            "nurodo"
           ]
         }
       }
@@ -31434,12 +29449,8 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "paimu"
-              ],
               "green": [
-                "Vaikus",
-                "skolas"
+                "Vaikus"
               ]
             }
           },
@@ -31455,9 +29466,6 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "atnešti"
-              ],
-              "yellow": [
-                "maizi"
               ]
             }
           },
@@ -31472,7 +29480,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pasaucam"
+                "pasikviečiame"
               ],
               "green": [
                 "gydytoją"
@@ -31487,14 +29495,14 @@ const B1_WORDS = [
           ],
           "purple": [
             "atnešti",
-            "atvest",
+            "atvežti",
             "paimti"
           ],
           "yellow": [
-            "kažkaip"
+            "kažko"
           ],
           "green": [
-            "asmenims"
+            "asmenimis"
           ]
         },
         "comparison": [
@@ -31535,17 +29543,8 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "Ėjimą parsinešti",
-            "pristatymą kam nors"
-          ]
-        },
-        "important": {
-          "purple": [
-            "paimti vaikus"
-          ]
-        }
+        "tip": {},
+        "important": {}
       }
     }
   },
@@ -31698,7 +29697,7 @@ const B1_WORDS = [
                 "klausosi"
               ],
               "yellow": [
-                "durims"
+                "durų"
               ]
             }
           },
@@ -31715,14 +29714,11 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "klausosi"
-              ],
               "green": [
                 "Vaikai"
               ],
               "yellow": [
-                "triukšmuose"
+                "triukšmus"
               ]
             }
           },
@@ -31736,14 +29732,7 @@ const B1_WORDS = [
                 "heimlich"
               ]
             },
-            "lv": {
-              "purple": [
-                "išklauso"
-              ],
-              "red": [
-                "slepus"
-              ]
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -31751,11 +29740,7 @@ const B1_WORDS = [
             "horchen"
           ],
           "purple": [
-            "įsiklausyti",
-            "išklausyti"
-          ],
-          "red": [
-            "slepus"
+            "įsiklausyti"
           ]
         },
         "comparison": [
@@ -31796,14 +29781,10 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "slepeni"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
-            "Aktyvų klausymąsi"
+            "aktyvų"
           ]
         }
       }
@@ -32144,8 +30125,7 @@ const B1_WORDS = [
             "hupen"
           ],
           "purple": [
-            "signalinis ragas",
-            "taure"
+            "signalinis ragas"
           ]
         },
         "examples": [
@@ -32157,7 +30137,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "signalizuoja"
+                "signalą"
               ]
             }
           },
@@ -32179,11 +30159,7 @@ const B1_WORDS = [
                 "Hupe"
               ]
             },
-            "lv": {
-              "purple": [
-                "tauri"
-              ]
-            }
+            "lv": {}
           }
         ]
       }
@@ -32273,7 +30249,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pieskata"
+                "pietų"
               ],
               "green": [
                 "Vaikus"
@@ -32294,13 +30270,10 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "gana"
+                "gano"
               ],
               "green": [
                 "Berniukas"
-              ],
-              "yellow": [
-                "aitas"
               ]
             }
           },
@@ -32314,11 +30287,8 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "sargies"
-              ],
               "red": [
-                "pažadams"
+                "pažadų"
               ]
             }
           }
@@ -32335,10 +30305,10 @@ const B1_WORDS = [
             "saugotis"
           ],
           "green": [
-            "vaikams"
+            "vaikais"
           ],
           "yellow": [
-            "gyvūnams"
+            "gyvūnais"
           ]
         },
         "comparison": [
@@ -32379,13 +30349,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "priežiūrą",
-            "saugojimą",
-            "saugotis"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "saugotis",
@@ -32690,11 +30654,8 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "laiku"
-              ],
               "yellow": [
-                "savaitės"
+                "savaitę"
               ]
             }
           },
@@ -32712,7 +30673,7 @@ const B1_WORDS = [
                 "ribose"
               ],
               "yellow": [
-                "galimybę"
+                "galimybių"
               ]
             }
           }
@@ -32723,13 +30684,13 @@ const B1_WORDS = [
           ],
           "purple": [
             "viduje",
-            "laiku",
+            "laiko",
             "ribose"
           ],
           "yellow": [
-            "vietas",
-            "laika",
-            "galimybę"
+            "vietos",
+            "laiko",
+            "gali"
           ]
         },
         "comparison": [
@@ -32770,13 +30731,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "miesto",
-            "savaitės",
-            "galimybę"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "per savaitę"
@@ -33041,8 +30996,7 @@ const B1_WORDS = [
           ],
           "purple": [
             "klysti",
-            "klysti",
-            "klaidžioja"
+            "klaidžioti"
           ],
           "red": [
             "sich"
@@ -33086,15 +31040,11 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "klysti"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "klysti",
-            "klaidžioja"
+            "klaidžioti"
           ]
         }
       }
@@ -33222,7 +31172,7 @@ const B1_WORDS = [
                 "medžioja"
               ],
               "green": [
-                "Žmonės"
+                "žmonių"
               ],
               "yellow": [
                 "gyvūnus"
@@ -33240,12 +31190,8 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "dzen"
-              ],
               "green": [
-                "Suns",
-                "katiną"
+                "katę"
               ]
             }
           },
@@ -33259,11 +31205,8 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "steidzas"
-              ],
               "yellow": [
-                "susitikimas"
+                "susitikimo"
               ]
             }
           }
@@ -33279,9 +31222,6 @@ const B1_WORDS = [
           ],
           "yellow": [
             "gyvūnus"
-          ],
-          "green": [
-            "kažkam"
           ]
         },
         "comparison": [
@@ -33322,11 +31262,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "tikslą"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "kontekstas"
@@ -33445,7 +31381,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "metų derlius"
+                "metų"
               ],
               "yellow": [
                 "vynas"
@@ -33462,9 +31398,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "gada izlaidums"
-              ],
               "yellow": [
                 "Žurnalas"
               ]
@@ -33496,7 +31429,6 @@ const B1_WORDS = [
           "purple": [
             "gimimo metai",
             "derliaus metai",
-            "izlaidums",
             "grupė"
           ],
           "yellow": [
@@ -33504,7 +31436,7 @@ const B1_WORDS = [
             "žurnalą"
           ],
           "green": [
-            "žmonių"
+            "žmogų"
           ]
         },
         "comparison": [
@@ -33545,11 +31477,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "žmonių"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "specifiškesnis"
@@ -33715,7 +31643,6 @@ const B1_WORDS = [
             "der Jünger"
           ],
           "purple": [
-            "pameistrys",
             "sekėjas"
           ],
           "green": [
@@ -33729,11 +31656,7 @@ const B1_WORDS = [
                 "Jünger"
               ]
             },
-            "lv": {
-              "purple": [
-                "pameistriai"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -33753,11 +31676,7 @@ const B1_WORDS = [
                 "Jüngerin"
               ]
             },
-            "lv": {
-              "purple": [
-                "sekėją"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -33765,11 +31684,7 @@ const B1_WORDS = [
                 "Jünger"
               ]
             },
-            "lv": {
-              "purple": [
-                "pameistriai"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -33777,17 +31692,12 @@ const B1_WORDS = [
                 "Jünger"
               ]
             },
-            "lv": {
-              "purple": [
-                "pameistrį"
-              ]
-            }
+            "lv": {}
           }
         ],
         "tip": [
           {
             "blue": [
-              "pameistrys",
               "sekėjas"
             ]
           },
@@ -33803,7 +31713,6 @@ const B1_WORDS = [
               "Jėzaus mokinys"
             ],
             "purple": [
-              "pameistriui",
               "sekėjui"
             ]
           },
@@ -33936,11 +31845,10 @@ const B1_WORDS = [
             "der Kader"
           ],
           "purple": [
-            "sudėtį",
-            "kodolu"
+            "sudėtį"
           ],
           "red": [
-            "kadrs"
+            "Kader"
           ]
         },
         "examples": [
@@ -33964,7 +31872,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "sudėties"
+                "sudėčiai"
               ]
             }
           },
@@ -33998,11 +31906,7 @@ const B1_WORDS = [
                 "Kader"
               ]
             },
-            "lv": {
-              "purple": [
-                "kodola"
-              ]
-            }
+            "lv": {}
           }
         ],
         "tip": [
@@ -34014,7 +31918,7 @@ const B1_WORDS = [
           },
           {
             "red": [
-              "kadrs"
+              "Kader"
             ]
           }
         ],
@@ -34025,7 +31929,7 @@ const B1_WORDS = [
               "branduolys"
             ],
             "red": [
-              "kadrs"
+              "Kader"
             ]
           },
           {
@@ -34387,14 +32291,7 @@ const B1_WORDS = [
                 "Hof"
               ]
             },
-            "lv": {
-              "purple": [
-                "slauka"
-              ],
-              "green": [
-                "pagalmu"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -34409,14 +32306,8 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "slauka"
-              ],
-              "green": [
-                "Kiemsargis"
-              ],
               "yellow": [
-                "laiptai"
+                "laiptus"
               ]
             }
           },
@@ -34429,14 +32320,7 @@ const B1_WORDS = [
                 "Blick"
               ]
             },
-            "lv": {
-              "purple": [
-                "pakreipia"
-              ],
-              "yellow": [
-                "skatienu"
-              ]
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -34445,12 +32329,7 @@ const B1_WORDS = [
           ],
           "purple": [
             "šluoti",
-            "šluoti",
             "pakreipti"
-          ],
-          "yellow": [
-            "slotu",
-            "skatienu"
           ]
         },
         "comparison": [
@@ -34491,11 +32370,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "Kitas žodis"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "sugrįžti"
@@ -34622,10 +32497,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "sėklytę"
-              ],
-              "yellow": [
-                "Ābolui"
+                "sėklyčių"
               ]
             }
           },
@@ -34641,9 +32513,6 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "Esmė"
-              ],
-              "yellow": [
-                "Lietas"
               ]
             }
           },
@@ -34665,14 +32534,12 @@ const B1_WORDS = [
             "der Kern"
           ],
           "purple": [
-            "kodolu",
             "sėklytę",
             "kauliuką",
             "Esmę"
           ],
           "yellow": [
-            "Vaisiams",
-            "domu"
+            "vaisius"
           ]
         },
         "comparison": [
@@ -34713,13 +32580,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "Vaisiuje",
-            "dalyke",
-            "Argumente"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "Vaisiams"
@@ -34821,7 +32682,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "žandikaulis"
+                "žandikaulį"
               ]
             }
           },
@@ -34868,11 +32729,10 @@ const B1_WORDS = [
             "die Kiefer"
           ],
           "purple": [
-            "žandikaulį",
-            "priedi"
+            "žandikaulį"
           ],
           "red": [
-            "artikuls"
+            "artikeliu"
           ]
         },
         "comparison": [
@@ -34913,11 +32773,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "artikuls"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
             "keičia žodžio reikšmę"
@@ -35014,9 +32870,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "Apvirtimo"
-              ],
               "yellow": [
                 "Stiklinė"
               ]
@@ -35032,11 +32885,8 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "nesasver"
-              ],
               "yellow": [
-                "kėdę"
+                "kėdės"
               ]
             }
           },
@@ -35050,9 +32900,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "keistis"
-              ],
               "yellow": [
                 "Nuotaika"
               ]
@@ -35064,10 +32911,7 @@ const B1_WORDS = [
             "kippen"
           ],
           "purple": [
-            "apversti",
-            "nuversti",
-            "palenkti",
-            "keistis"
+            "apverstis"
           ],
           "yellow": [
             "pusiausvyrą",
@@ -35112,16 +32956,9 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "stiklinė",
-            "kėdė",
-            "situacija"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
-            "palinkimas",
             "nuotaikos pokytis"
           ]
         }
@@ -35243,9 +33080,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "izdodas"
-              ],
               "yellow": [
                 "Planas"
               ]
@@ -35265,7 +33099,7 @@ const B1_WORDS = [
                 "Užsitrenkia"
               ],
               "yellow": [
-                "Durvis"
+                "durys"
               ]
             }
           }
@@ -35276,8 +33110,6 @@ const B1_WORDS = [
           ],
           "purple": [
             "pavykti",
-            "atidirbti",
-            "aizkrist",
             "Užsidaryti"
           ],
           "yellow": [
@@ -35324,15 +33156,11 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "izdosies"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
-            "šnekamiškesnis",
-            "formalesnė"
+            "šnekamesnis",
+            "formalesniame"
           ]
         }
       }
@@ -35574,7 +33402,7 @@ const B1_WORDS = [
                 "mažai"
               ],
               "yellow": [
-                "Laika"
+                "laiko"
               ]
             }
           },
@@ -35590,9 +33418,6 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "trūkti"
-              ],
-              "yellow": [
-                "Naudas"
               ]
             }
           },
@@ -35604,7 +33429,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "nedidelį pranašumą"
+                "nedidele"
               ]
             }
           }
@@ -35615,13 +33440,11 @@ const B1_WORDS = [
           ],
           "purple": [
             "mažai",
-            "tik tikko",
-            "nedidelį pranašumą"
+            "nedideliu"
           ],
           "yellow": [
             "laiku",
-            "naudu",
-            "vietu"
+            "vieta"
           ]
         },
         "comparison": [
@@ -35662,14 +33485,10 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "beveik nepakanka"
-          ]
-        },
+        "tip": {},
         "important": {
           "purple": [
-            "mazu rezervi",
+            "mažą",
             "trūkumą",
             "nedidelį pranašumą"
           ]
@@ -35880,8 +33699,8 @@ const B1_WORDS = [
             "komanda"
           ],
           "green": [
-            "karinė",
-            "sporta"
+            "karinėje",
+            "sporto"
           ]
         },
         "examples": [
@@ -36129,11 +33948,7 @@ const B1_WORDS = [
                 "kann"
               ]
             },
-            "lv": {
-              "purple": [
-                "protu"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -36143,7 +33958,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "įgūdis"
+                "įgūdžiai"
               ]
             }
           }
@@ -36395,8 +34210,7 @@ const B1_WORDS = [
             "Kraftwerke"
           ],
           "purple": [
-            "elektrinė",
-            "elektrinės"
+            "elektrinė"
           ]
         },
         "examples": [
@@ -36643,8 +34457,7 @@ const B1_WORDS = [
             "sich kreuzen"
           ],
           "purple": [
-            "kirsti",
-            "krustoties"
+            "kirsti"
           ],
           "yellow": [
             "Keliai",
@@ -37019,8 +34832,7 @@ const B1_WORDS = [
           "blue": "der Kunde",
           "purple": "klientas",
           "green": [
-            "Parduotuvėje",
-            "servise"
+            "Parduotuvėje"
           ]
         },
         "important": {
@@ -37244,9 +35056,8 @@ const B1_WORDS = [
           "blue": "kündigen",
           "purple": "oficialiai nutraukti",
           "yellow": [
-            "Darbo santykiai",
-            "sutartį",
-            "abonementu"
+            "darbo",
+            "sutartį"
           ]
         },
         "examples": [
@@ -37272,7 +35083,7 @@ const B1_WORDS = [
               "purple": "Atleidžia",
               "green": [
                 "Viršininkas",
-                "darbinieku"
+                "darbuotoją"
               ]
             }
           },
@@ -37329,9 +35140,8 @@ const B1_WORDS = [
           "blue": "kündigen",
           "purple": "oficialiai",
           "yellow": [
-            "Darbs",
-            "sutartis",
-            "abonements"
+            "Darbas",
+            "sutartis"
           ]
         },
         "important": {
@@ -37444,7 +35254,7 @@ const B1_WORDS = [
           "blue": "kuppeln",
           "purple": "sujungti",
           "yellow": [
-            "dalys",
+            "dalis",
             "transporto priemones"
           ]
         },
@@ -37601,9 +35411,8 @@ const B1_WORDS = [
           "blue": "der Kurs",
           "purple": "kursas",
           "yellow": [
-            "mokymo",
-            "kryptis",
-            "cenu"
+            "mokymosi",
+            "kryptis"
           ]
         },
         "examples": [
@@ -37678,7 +35487,7 @@ const B1_WORDS = [
           "blue": "der Kurs",
           "purple": "Mokymai",
           "yellow": [
-            "Mokymai",
+            "Mokymasis",
             "kryptis",
             "kaina"
           ]
@@ -37686,9 +35495,7 @@ const B1_WORDS = [
         "important": {
           "purple": "kontekstas",
           "yellow": [
-            "mokymams",
-            "virzienu",
-            "cenu"
+            "mokymąsi"
           ]
         }
       }
@@ -37758,8 +35565,7 @@ const B1_WORDS = [
             "in Kürze"
           ],
           "purple": [
-            "trumpumą",
-            "netrukus"
+            "trumpumą"
           ],
           "red": "atskira konstrukcija"
         },
@@ -37837,8 +35643,7 @@ const B1_WORDS = [
             "in Kürze"
           ],
           "purple": [
-            "trumpumas",
-            "netrukus"
+            "trumpumas"
           ]
         },
         "important": {
@@ -38016,8 +35821,7 @@ const B1_WORDS = [
             "lv": {
               "purple": "iekraujam",
               "yellow": [
-                "kastes",
-                "automobilyje"
+                "automobilį"
               ]
             }
           },
@@ -38086,11 +35890,10 @@ const B1_WORDS = [
         "tip": {
           "blue": "laden",
           "purple": [
-            "elektrą",
+            "elektra",
             "automobilyje"
           ],
           "yellow": [
-            "Dalykai",
             "baterija"
           ]
         },
@@ -38172,8 +35975,7 @@ const B1_WORDS = [
           "blue": "das Lager",
           "purple": [
             "sandėlis",
-            "stovykla",
-            "gultnis"
+            "stovykla"
           ],
           "yellow": "laikymo vieta"
         },
@@ -38326,8 +36128,7 @@ const B1_WORDS = [
         "explanation": {
           "blue": "der Hörer",
           "purple": [
-            "klausytojas",
-            "klausule"
+            "klausytojas"
           ],
           "yellow": "telefono"
         },
@@ -38401,7 +36202,7 @@ const B1_WORDS = [
           "blue": "der Hörer",
           "purple": "klausosi",
           "yellow": [
-            "Radio",
+            "radiją",
             "paskaitoje"
           ]
         },
@@ -38461,8 +36262,7 @@ const B1_WORDS = [
         "explanation": {
           "blue": "der Inhalt",
           "purple": [
-            "turinys",
-            "tilpumu"
+            "turinys"
           ],
           "yellow": [
             "tekste",
@@ -38688,8 +36488,7 @@ const B1_WORDS = [
           "red": "die Grenze",
           "blue": "die Kante",
           "purple": [
-            "riboms",
-            "malai"
+            "riboms"
           ]
         }
       }
@@ -38743,8 +36542,7 @@ const B1_WORDS = [
         "explanation": {
           "blue": "die Kastanie",
           "purple": [
-            "kaštonų medį",
-            "augli"
+            "Kastanie"
           ],
           "yellow": "Konteksts"
         },
@@ -38828,8 +36626,7 @@ const B1_WORDS = [
         },
         "important": {
           "purple": [
-            "kaštonas",
-            "kaštainį"
+            "kaštonas"
           ]
         }
       }
@@ -38884,7 +36681,6 @@ const B1_WORDS = [
             "die Kosten"
           ],
           "purple": [
-            "išlaidos",
             "išlaidos"
           ],
           "green": [
@@ -38912,7 +36708,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "išlaidos"
+                "išlaidas"
               ]
             }
           },
@@ -38922,11 +36718,7 @@ const B1_WORDS = [
                 "kostet"
               ]
             },
-            "lv": {
-              "purple": [
-                "moka"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -38934,11 +36726,7 @@ const B1_WORDS = [
                 "Kosten"
               ]
             },
-            "lv": {
-              "purple": [
-                "naudu"
-              ]
-            }
+            "lv": {}
           }
         ],
         "tip": [
@@ -39016,13 +36804,10 @@ const B1_WORDS = [
         "explanation": {
           "blue": "landen",
           "purple": [
-            "nusileisti",
-            "patekti",
-            "sustoti"
+            "nusileisti"
           ],
           "yellow": [
-            "Laivui",
-            "laivai"
+            "Laivui"
           ]
         },
         "examples": [
@@ -39305,7 +37090,7 @@ const B1_WORDS = [
           ],
           "purple": [
             "garsas",
-            "garso"
+            "garsą"
           ],
           "yellow": [
             "Laut",
@@ -39329,13 +37114,36 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
-                "der Laut",
                 "laut"
               ]
             },
             "lv": {
               "purple": [
-                "garsas"
+                "garsi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "laut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "garsiai"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "laut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "garsiai"
               ]
             }
           },
@@ -39355,39 +37163,12 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
-                "der Laut",
                 "laut"
               ]
             },
             "lv": {
               "purple": [
-                "garsas"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "der Laut",
-                "laut"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "garsas"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "der Laut",
-                "laut"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "garsas"
+                "garsą"
               ]
             }
           }
@@ -39400,11 +37181,7 @@ const B1_WORDS = [
           }
         ],
         "important": [
-          {
-            "green": [
-              "der Laut"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -39622,11 +37399,10 @@ const B1_WORDS = [
           "purple": [
             "nuveikti",
             "teikti",
-            "leisti sau"
+            "leisten"
           ],
           "yellow": [
-            "darbu",
-            "pakalpojumu"
+            "darbą"
           ]
         },
         "examples": [
@@ -39702,8 +37478,7 @@ const B1_WORDS = [
           "blue": "leisten",
           "purple": [
             "darbas",
-            "pagalba",
-            "investicija"
+            "pagalba"
           ]
         },
         "important": {
@@ -39773,11 +37548,7 @@ const B1_WORDS = [
                 "Leistung"
               ]
             },
-            "lv": {
-              "purple": [
-                "sniegums"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -39789,9 +37560,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "sniegums"
-              ],
               "yellow": [
                 "egzamine"
               ]
@@ -39807,11 +37575,8 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "jauda"
-              ],
               "yellow": [
-                "Motoram"
+                "Motoras"
               ]
             }
           }
@@ -39820,15 +37585,8 @@ const B1_WORDS = [
           "blue": [
             "die Leistung"
           ],
-          "purple": [
-            "sniegumu",
-            "veikumu",
-            "sasniegumu",
-            "jaudu"
-          ],
           "yellow": [
-            "motoram",
-            "įrenginiui"
+            "motorui"
           ]
         },
         "comparison": [
@@ -39869,18 +37627,8 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "sniegums",
-            "jauda"
-          ]
-        },
-        "important": {
-          "purple": [
-            "sniegumu",
-            "jaudu"
-          ]
-        }
+        "tip": {},
+        "important": {}
       }
     }
   },
@@ -40116,7 +37864,7 @@ const B1_WORDS = [
         "explanation": {
           "blue": "locker",
           "purple": [
-            "atsileidęs",
+            "atsipalaidavęs",
             "laisvas"
           ],
           "red": "nesuvaržytas"
@@ -40490,8 +38238,7 @@ const B1_WORDS = [
         "tip": {
           "blue": "löschen",
           "yellow": [
-            "Uguns",
-            "fails",
+            "failas",
             "troškulys"
           ]
         },
@@ -41568,7 +39315,7 @@ const B1_WORDS = [
           "blue": "die Messe",
           "red": [
             "paroda",
-            "mise"
+            "mišios"
           ]
         }
       }
@@ -43441,7 +41188,7 @@ const B1_WORDS = [
         "tip": {
           "blue": "nüchtern",
           "yellow": [
-            "Alkohols",
+            "Alkoholis",
             "gydytojas"
           ]
         },
@@ -43506,8 +41253,7 @@ const B1_WORDS = [
             "der Nutzen"
           ],
           "purple": [
-            "nauda",
-            "ieguvums"
+            "nauda"
           ],
           "green": [
             "nutzen"
@@ -43520,11 +41266,7 @@ const B1_WORDS = [
                 "Nutzen"
               ]
             },
-            "lv": {
-              "purple": [
-                "labumu"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -43544,11 +41286,7 @@ const B1_WORDS = [
                 "nutze"
               ]
             },
-            "lv": {
-              "purple": [
-                "izmantoju"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -43556,11 +41294,7 @@ const B1_WORDS = [
                 "Nutzen"
               ]
             },
-            "lv": {
-              "purple": [
-                "labumu"
-              ]
-            }
+            "lv": {}
           }
         ],
         "tip": [
@@ -45265,7 +42999,7 @@ const B1_WORDS = [
             "pocht auf"
           ],
           "yellow": [
-            "Durvis",
+            "Durys",
             "širdis"
           ]
         },
@@ -45735,7 +43469,7 @@ const B1_WORDS = [
           "blue": "die Probe",
           "yellow": [
             "Laboratorija",
-            "koncerts"
+            "koncertas"
           ]
         },
         "important": {
@@ -47413,10 +45147,6 @@ const B1_WORDS = [
         ],
         "tip": {
           "blue": "reizen",
-          "purple": [
-            "kairina",
-            "kaitina"
-          ],
           "red": "vilina"
         },
         "important": {
@@ -48146,8 +45876,7 @@ const B1_WORDS = [
         "tip": {
           "blue": "rösten",
           "yellow": [
-            "Kafija",
-            "rieksti"
+            "riešutai"
           ]
         },
         "important": {
@@ -50235,8 +47964,7 @@ const B1_WORDS = [
         ],
         "tip": {
           "purple": [
-            "tirpsta",
-            "tirpinti"
+            "tirpsta"
           ]
         },
         "important": {
@@ -51838,7 +49566,7 @@ const B1_WORDS = [
         "tip": {
           "blue": "senden",
           "yellow": [
-            "Žinia",
+            "Žinutė",
             "signalas"
           ]
         },
@@ -54708,10 +52436,6 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "blue": [
-            "Baby stillen",
-            "Durst stillen"
-          ],
           "purple": "žindyti",
           "red": "malšinti"
         },
@@ -56129,7 +53853,7 @@ const B1_WORDS = [
             "der Tau"
           ],
           "purple": [
-            "rasa"
+            "rasą"
           ],
           "green": [
             "das Tau"
@@ -56144,7 +53868,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "rasa"
+                "rasos"
               ]
             }
           },
@@ -56156,7 +53880,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "rasas"
+                "rasos"
               ]
             }
           },
@@ -56166,11 +53890,7 @@ const B1_WORDS = [
                 "Tau"
               ]
             },
-            "lv": {
-              "purple": [
-                "tauvas"
-              ]
-            }
+            "lv": {}
           }
         ]
       }
@@ -56234,7 +53954,7 @@ const B1_WORDS = [
             "das Tau"
           ],
           "purple": [
-            "tauva"
+            "Tau"
           ],
           "blue": [
             "der Tau"
@@ -56247,11 +53967,7 @@ const B1_WORDS = [
                 "Tau"
               ]
             },
-            "lv": {
-              "purple": [
-                "tauvas"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -56259,11 +53975,7 @@ const B1_WORDS = [
                 "Taue"
               ]
             },
-            "lv": {
-              "purple": [
-                "tauvas"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -56273,7 +53985,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "rasa"
+                "rasos"
               ]
             }
           }
@@ -57015,12 +54727,7 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "blue": "der Titel",
-          "yellow": [
-            "Knygai",
-            "dziesmai",
-            "filmai"
-          ]
+          "blue": "der Titel"
         },
         "important": {
           "red": "die Überschrift"
@@ -57442,8 +55149,7 @@ const B1_WORDS = [
             "das Treffen"
           ],
           "purple": [
-            "susitikimas",
-            "susirinkimas"
+            "susitikimas"
           ],
           "green": [
             "treffen"
@@ -57480,11 +55186,7 @@ const B1_WORDS = [
                 "treffe"
               ]
             },
-            "lv": {
-              "purple": [
-                "satieku"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -59464,10 +57166,6 @@ const B1_WORDS = [
         ],
         "tip": {
           "blue": "die Untersuchung",
-          "green": [
-            "Gydytojas",
-            "policija"
-          ],
           "red": "tiria"
         },
         "important": {
@@ -60268,12 +57966,7 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "blue": "verderben",
-          "yellow": [
-            "Patiekalas",
-            "planas",
-            "nuotaika"
-          ]
+          "blue": "verderben"
         },
         "important": {
           "blue": "verdorben",
@@ -60830,10 +58523,6 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "blue": [
-            "Termin verlegen",
-            "Schlüssel verlegen"
-          ],
           "purple": "perkelti",
           "red": "neatrast"
         },
@@ -61509,8 +59198,7 @@ const B1_WORDS = [
             "die Verwandte"
           ],
           "purple": [
-            "giminaitis",
-            "giminaitė"
+            "giminės"
           ]
         },
         "examples": [
@@ -61532,11 +59220,7 @@ const B1_WORDS = [
                 "Verwandten"
               ]
             },
-            "lv": {
-              "purple": [
-                "radinieki"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -61612,7 +59296,7 @@ const B1_WORDS = [
             "die Verwandte"
           ],
           "purple": [
-            "giminaitė"
+            "giminės"
           ],
           "blue": [
             "der Verwandte"
@@ -61637,11 +59321,7 @@ const B1_WORDS = [
                 "Verwandten"
               ]
             },
-            "lv": {
-              "purple": [
-                "radinieki"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -61936,10 +59616,6 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "blue": [
-            "kommt vor",
-            "kommt mir vor"
-          ],
           "purple": "atsitinka",
           "red": "atrodo"
         },
@@ -62317,10 +59993,6 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "blue": [
-            "vorziehen",
-            "Termin vorziehen"
-          ],
           "purple": "Priekšroka"
         },
         "important": {
@@ -63179,7 +60851,6 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "nei",
                 "nei"
               ]
             }
@@ -63195,12 +60866,7 @@ const B1_WORDS = [
                 "krank"
               ]
             },
-            "lv": {
-              "purple": [
-                "ne",
-                "ne"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -63213,12 +60879,7 @@ const B1_WORDS = [
                 "Max"
               ]
             },
-            "lv": {
-              "purple": [
-                "ne",
-                "ne"
-              ]
-            }
+            "lv": {}
           }
         ],
         "comparison": [
@@ -63265,12 +60926,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "blue": [
-            "weder",
-            "noch"
-          ]
-        },
+        "tip": {},
         "important": {
           "blue": "weder ... noch",
           "red": "nicht"
@@ -65036,7 +62692,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "profesiju"
+                "profesijos"
               ]
             }
           },
@@ -65048,7 +62704,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "profesiju"
+                "profesiją"
               ]
             }
           },
@@ -65060,7 +62716,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "darba"
+                "darbo"
               ]
             }
           },
@@ -65115,7 +62771,7 @@ const B1_WORDS = [
                 "Arbeit"
               ],
               "purple": [
-                "darba"
+                "darbo"
               ]
             }
           },
@@ -65136,7 +62792,7 @@ const B1_WORDS = [
                 "Job"
               ],
               "purple": [
-                "darbu"
+                "darbo"
               ]
             }
           },
@@ -65214,7 +62870,7 @@ const B1_WORDS = [
               ],
               "purple": [
                 "profesija",
-                "darba joma"
+                "darbo"
               ],
               "red": [
                 "užsiėmimas"
@@ -65228,8 +62884,8 @@ const B1_WORDS = [
                 "Arbeit"
               ],
               "purple": [
-                "profesijas",
-                "darba"
+                "profesija",
+                "darbo"
               ]
             }
           }
@@ -65398,7 +63054,7 @@ const B1_WORDS = [
             "die Steuer"
           ],
           "purple": [
-            "mokestis"
+            "mokestį"
           ],
           "green": [
             "das Steuer"
@@ -65435,11 +63091,7 @@ const B1_WORDS = [
                 "Steuer"
               ]
             },
-            "lv": {
-              "purple": [
-                "kampą"
-              ]
-            }
+            "lv": {}
           }
         ]
       }
@@ -65503,7 +63155,7 @@ const B1_WORDS = [
             "das Steuer"
           ],
           "purple": [
-            "vairas"
+            "vairą"
           ],
           "blue": [
             "die Steuer"
@@ -65516,11 +63168,7 @@ const B1_WORDS = [
                 "Steuer"
               ]
             },
-            "lv": {
-              "purple": [
-                "kampą"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -65609,109 +63257,77 @@ const B1_WORDS = [
         "explanation": {
           "blue": [
             "weil"
-          ],
-          "purple": [
-            "nes",
-            "todėl kad"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "weil",
                 "weil"
               ]
             },
             "lv": {
               "purple": [
-                "nes",
-                "todėl kad"
+                "nes"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "weil",
                 "weil"
               ]
             },
             "lv": {
               "purple": [
-                "nes",
-                "todėl kad"
+                "nes"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "weil",
                 "weil"
               ]
             },
             "lv": {
               "purple": [
-                "nes",
-                "todėl kad"
+                "nes"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "weil",
                 "weil"
               ]
             },
             "lv": {
               "purple": [
-                "nes",
-                "todėl kad"
+                "nes"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "weil",
                 "weil"
               ]
             },
             "lv": {
               "purple": [
-                "nes",
-                "todėl kad"
+                "nes"
               ]
             }
           },
           {
-            "de": {
-              "blue": [
-                "weil",
-                "weil"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "nes",
-                "todėl kad"
-              ]
-            }
+            "de": {},
+            "lv": {}
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "nes"
-            ]
-          },
-          {
-            "purple": [
-              "todėl kad"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
           {
@@ -65772,12 +63388,10 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "green": [
-            "da",
             "da"
           ],
           "purple": [
-            "nes",
-            "par cik"
+            "nes"
           ],
           "blue": [
             "da"
@@ -65787,99 +63401,51 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
-                "da",
                 "da"
               ]
             },
-            "lv": {
-              "purple": [
-                "nes",
-                "par cik"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "green": [
-                "da",
                 "da"
               ]
             },
-            "lv": {
-              "purple": [
-                "nes",
-                "par cik"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "green": [
-                "da",
                 "da"
               ]
             },
-            "lv": {
-              "purple": [
-                "nes",
-                "par cik"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "green": [
-                "da",
                 "da"
               ]
             },
-            "lv": {
-              "purple": [
-                "nes",
-                "par cik"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "green": [
-                "da",
                 "da"
               ]
             },
-            "lv": {
-              "purple": [
-                "nes",
-                "par cik"
-              ]
-            }
+            "lv": {}
           },
           {
-            "de": {
-              "green": [
-                "da",
-                "da"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "nes",
-                "par cik"
-              ]
-            }
+            "de": {},
+            "lv": {}
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "nes"
-            ]
-          },
-          {
-            "purple": [
-              "par cik"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
           {
@@ -65945,22 +63511,17 @@ const B1_WORDS = [
         "explanation": {
           "blue": [
             "obwohl"
-          ],
-          "purple": [
-            "kaut gan"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "obwohl",
                 "obwohl"
               ]
             },
             "lv": {
               "purple": [
-                "kaut gan",
                 "nors"
               ]
             }
@@ -65968,13 +63529,11 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "obwohl",
                 "obwohl"
               ]
             },
             "lv": {
               "purple": [
-                "kaut gan",
                 "nors"
               ]
             }
@@ -65982,13 +63541,11 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "obwohl",
                 "obwohl"
               ]
             },
             "lv": {
               "purple": [
-                "kaut gan",
                 "nors"
               ]
             }
@@ -65996,13 +63553,11 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "obwohl",
                 "obwohl"
               ]
             },
             "lv": {
               "purple": [
-                "kaut gan",
                 "nors"
               ]
             }
@@ -66010,13 +63565,11 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "obwohl",
                 "obwohl"
               ]
             },
             "lv": {
               "purple": [
-                "kaut gan",
                 "nors"
               ]
             }
@@ -66024,29 +63577,19 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "obwohl",
                 "obwohl"
               ]
             },
             "lv": {
               "purple": [
-                "kaut gan",
                 "nors"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "kaut gan"
-            ]
-          },
-          {
-            "purple": [
-              "nors"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
           {
@@ -66121,99 +63664,79 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
-                "trotzdem",
                 "trotzdem"
               ]
             },
             "lv": {
               "purple": [
-                "tačiau",
-                "vis tiek"
+                "tačiau"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "trotzdem",
                 "trotzdem"
               ]
             },
             "lv": {
               "purple": [
-                "tačiau",
-                "vis tiek"
+                "tačiau"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "trotzdem",
                 "trotzdem"
               ]
             },
             "lv": {
               "purple": [
-                "tačiau",
-                "vis tiek"
+                "tačiau"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "trotzdem",
                 "trotzdem"
               ]
             },
             "lv": {
               "purple": [
-                "tačiau",
-                "vis tiek"
+                "tačiau"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "trotzdem",
                 "trotzdem"
               ]
             },
             "lv": {
               "purple": [
-                "tačiau",
-                "vis tiek"
+                "tačiau"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "trotzdem",
                 "trotzdem"
               ]
             },
             "lv": {
               "purple": [
-                "tačiau",
-                "vis tiek"
+                "tačiau"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "tačiau"
-            ]
-          },
-          {
-            "purple": [
-              "vis tiek"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
           {
@@ -66267,8 +63790,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "anstatt ... zu",
-                "anstatt ... zu"
+                "Anstatt"
               ]
             },
             "lv": {
@@ -66278,30 +63800,12 @@ const B1_WORDS = [
             }
           },
           {
-            "de": {
-              "blue": [
-                "anstatt ... zu",
-                "anstatt ... zu"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "užuot"
-              ]
-            }
+            "de": {},
+            "lv": {}
           },
           {
-            "de": {
-              "blue": [
-                "anstatt ... zu",
-                "anstatt ... zu"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "užuot"
-              ]
-            }
+            "de": {},
+            "lv": {}
           }
         ],
         "tip": [
@@ -66353,11 +63857,7 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "green": [
-            "ohne ... zu",
             "ohne ... zu"
-          ],
-          "purple": [
-            "be"
           ],
           "red": [
             "ohne",
@@ -66368,49 +63868,22 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
-                "ohne ... zu",
-                "ohne ... zu"
+                "ohne"
               ]
             },
-            "lv": {
-              "purple": [
-                "be (kažką darant)"
-              ]
-            }
+            "lv": {}
           },
           {
-            "de": {
-              "green": [
-                "ohne ... zu",
-                "ohne ... zu"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "be (kažką darant)"
-              ]
-            }
+            "de": {},
+            "lv": {}
           },
           {
-            "de": {
-              "green": [
-                "ohne ... zu",
-                "ohne ... zu"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "be (kažką darant)"
-              ]
-            }
+            "de": {},
+            "lv": {}
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "be (kažką darant)"
-            ]
-          }
+          {}
         ],
         "important": [
           {
@@ -66516,11 +63989,7 @@ const B1_WORDS = [
                 "befindet sich"
               ]
             },
-            "lv": {
-              "purple": [
-                "atrodas"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -66528,11 +63997,7 @@ const B1_WORDS = [
                 "befindet sich"
               ]
             },
-            "lv": {
-              "purple": [
-                "atrodas"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -66540,11 +64005,7 @@ const B1_WORDS = [
                 "befindet sich"
               ]
             },
-            "lv": {
-              "purple": [
-                "atrodas"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -66552,11 +64013,7 @@ const B1_WORDS = [
                 "befindet sich"
               ]
             },
-            "lv": {
-              "purple": [
-                "atrodas"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -66576,11 +64033,7 @@ const B1_WORDS = [
                 "liegt"
               ]
             },
-            "lv": {
-              "purple": [
-                "atrodas"
-              ]
-            }
+            "lv": {}
           }
         ],
         "comparison": [
@@ -66598,9 +64051,6 @@ const B1_WORDS = [
             "example": {
               "blue": [
                 "befindet sich"
-              ],
-              "purple": [
-                "atrodas"
               ]
             }
           },
@@ -66619,9 +64069,6 @@ const B1_WORDS = [
             "example": {
               "green": [
                 "ist"
-              ],
-              "purple": [
-                "ir"
               ]
             }
           },
@@ -66631,18 +64078,10 @@ const B1_WORDS = [
                 "liegen"
               ]
             },
-            "meaning": {
-              "purple": [
-                "rastis",
-                "miegoti"
-              ]
-            },
+            "meaning": {},
             "example": {
               "yellow": [
                 "liegt"
-              ],
-              "purple": [
-                "atrodas"
               ]
             }
           },
@@ -66722,7 +64161,7 @@ const B1_WORDS = [
                 "buvimo vieta"
               ],
               "red": [
-                "jausmais"
+                "jaučiuosi"
               ]
             },
             "example": {
@@ -66733,7 +64172,6 @@ const B1_WORDS = [
                 "fühle mich"
               ],
               "purple": [
-                "atrodas",
                 "jaučiuosi"
               ]
             }
@@ -66903,7 +64341,7 @@ const B1_WORDS = [
             "Erbe"
           ],
           "purple": [
-            "įpėdinis"
+            "įpėdinį"
           ]
         },
         "examples": [
@@ -66926,11 +64364,7 @@ const B1_WORDS = [
                 "Erben"
               ]
             },
-            "lv": {
-              "purple": [
-                "mantinieki"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -66951,11 +64385,7 @@ const B1_WORDS = [
                 "Erbe"
               ]
             },
-            "lv": {
-              "purple": [
-                "mantojumu"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -67108,11 +64538,7 @@ const B1_WORDS = [
                 "Erbe"
               ]
             },
-            "lv": {
-              "purple": [
-                "mantojumu"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -67147,11 +64573,7 @@ const B1_WORDS = [
           }
         ],
         "important": [
-          {
-            "green": [
-              "das Erbe"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -67218,21 +64640,48 @@ const B1_WORDS = [
             "Schaden"
           ],
           "purple": [
-            "nuostolis"
+            "nuostolį"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "der Schaden",
+                "schaden"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "blue": [
+                "Der",
                 "schaden"
               ]
             },
             "lv": {
               "purple": [
-                "nuostolis",
-                "Gedimas"
+                "nuostolių"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schaden"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "blue": [
+                "schaden"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nuostolį"
               ]
             }
           },
@@ -67245,79 +64694,27 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "nuostolis",
-                "Gedimas"
+                "nuostolis"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "der Schaden",
-                "schaden"
+                "der",
+                "schadet"
               ]
             },
-            "lv": {
-              "purple": [
-                "nuostolis",
-                "Gedimas"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "der Schaden",
-                "schaden"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "nuostolis",
-                "Gedimas"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "der Schaden",
-                "schaden"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "nuostolis",
-                "Gedimas"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "der Schaden",
-                "schaden"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "nuostolis",
-                "Gedimas"
-              ]
-            }
+            "lv": {}
           }
         ],
         "tip": [
           {
             "purple": [
-              "nuostolis"
+              "nuostolį"
             ]
           },
-          {
-            "purple": [
-              "Gedimas"
-            ]
-          }
+          {}
         ],
         "important": [
           {
@@ -67386,93 +64783,69 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "green": [
-            "schaden",
             "schaden"
           ],
           "purple": [
             "kenkti"
           ],
           "red": [
-            "schaden",
-            "schadet"
+            "schaden"
           ]
         },
         "examples": [
           {
             "de": {
               "green": [
-                "schaden",
-                "schaden"
+                "schadet"
               ]
             },
             "lv": {
               "purple": [
-                "kenkti"
+                "kenkia"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "schaden",
                 "schaden"
               ]
             },
-            "lv": {
-              "purple": [
-                "kenkti"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "green": [
-                "schaden",
                 "schaden"
               ]
             },
-            "lv": {
-              "purple": [
-                "kenkti"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "green": [
-                "schaden",
                 "schaden"
               ]
             },
-            "lv": {
-              "purple": [
-                "kenkti"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "green": [
-                "schaden",
                 "schaden"
               ]
             },
-            "lv": {
-              "purple": [
-                "kenkti"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "green": [
-                "schaden",
-                "schaden"
+                "schadet"
               ]
             },
             "lv": {
               "purple": [
-                "kenkti"
+                "kenkia"
               ]
             }
           }
@@ -67480,7 +64853,7 @@ const B1_WORDS = [
         "tip": [
           {
             "purple": [
-              "kenkti"
+              "kenkimą"
             ]
           }
         ],
@@ -67555,9 +64928,6 @@ const B1_WORDS = [
             "das Vertrauen",
             "vertrauen"
           ],
-          "purple": [
-            "ištikimybė"
-          ],
           "green": [
             "das Vertrauen",
             "Vertrauen"
@@ -67567,15 +64937,18 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "das Vertrauen",
                 "vertrauen"
               ]
             },
-            "lv": {
-              "purple": [
-                "ištikimybė"
+            "lv": {}
+          },
+          {
+            "de": {
+              "blue": [
+                "vertrauen"
               ]
-            }
+            },
+            "lv": {}
           },
           {
             "de": {
@@ -67584,71 +64957,35 @@ const B1_WORDS = [
                 "vertrauen"
               ]
             },
-            "lv": {
-              "purple": [
-                "ištikimybė"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "blue": [
-                "das Vertrauen",
                 "vertrauen"
               ]
             },
-            "lv": {
-              "purple": [
-                "ištikimybė"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "blue": [
-                "das Vertrauen",
                 "vertrauen"
               ]
             },
-            "lv": {
-              "purple": [
-                "ištikimybė"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "blue": [
-                "das Vertrauen",
                 "vertrauen"
               ]
             },
-            "lv": {
-              "purple": [
-                "ištikimybė"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "das Vertrauen",
-                "vertrauen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "ištikimybė"
-              ]
-            }
+            "lv": {}
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "ištikimybė"
-            ]
-          }
+          {}
         ],
         "important": [
           {
@@ -67717,22 +65054,55 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "green": [
-            "vertrauen",
             "vertrauen"
           ],
           "purple": [
             "pasitikėti"
           ],
           "blue": [
-            "vertrauen",
-            "vertraue"
+            "vertrauen"
           ]
         },
         "examples": [
           {
             "de": {
               "green": [
-                "vertrauen",
+                "vertraue"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pasitikiu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "vertrauen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pasitikiu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "vertrauen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pasitikėjimas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
                 "vertrauen"
               ]
             },
@@ -67745,65 +65115,24 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
-                "vertrauen",
                 "vertrauen"
               ]
             },
             "lv": {
               "purple": [
-                "pasitikėti"
+                "pasitikėjimą"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "vertrauen",
                 "vertrauen"
               ]
             },
             "lv": {
               "purple": [
-                "pasitikėti"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "vertrauen",
-                "vertrauen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "pasitikėti"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "vertrauen",
-                "vertrauen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "pasitikėti"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "vertrauen",
-                "vertrauen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "pasitikėti"
+                "pasitikime"
               ]
             }
           }
@@ -67894,86 +65223,63 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "der Trotz",
                 "trotz"
               ]
             },
             "lv": {
               "purple": [
-                "priešgyniavimas",
-                "užsispyrimas"
+                "priešgyniavimo"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "der Trotz",
+                "trotz"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "blue": [
                 "trotz"
               ]
             },
             "lv": {
               "purple": [
-                "priešgyniavimas",
-                "užsispyrimas"
+                "priešgyniavimo"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "der Trotz",
+                "trotz"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "blue": [
                 "trotz"
               ]
             },
             "lv": {
               "purple": [
-                "priešgyniavimas",
-                "užsispyrimas"
+                "užsispyrimo"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "der Trotz",
+                "der",
                 "trotz"
               ]
             },
-            "lv": {
-              "purple": [
-                "priešgyniavimas",
-                "užsispyrimas"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "der Trotz",
-                "trotz"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "priešgyniavimas",
-                "užsispyrimas"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "der Trotz",
-                "trotz"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "priešgyniavimas",
-                "užsispyrimas"
-              ]
-            }
+            "lv": {}
           }
         ],
         "tip": [
@@ -67984,7 +65290,7 @@ const B1_WORDS = [
           },
           {
             "purple": [
-              "užsispyrimas"
+              "užsispyrimą"
             ]
           }
         ],
@@ -68055,7 +65361,6 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "green": [
-            "trotz",
             "trotz"
           ],
           "purple": [
@@ -68070,7 +65375,6 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
-                "trotz",
                 "trotz"
               ]
             },
@@ -68083,7 +65387,6 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
-                "trotz",
                 "trotz"
               ]
             },
@@ -68096,7 +65399,14 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
-                "trotz",
+                "trotz"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "green": [
                 "trotz"
               ]
             },
@@ -68109,33 +65419,14 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
-                "trotz",
                 "trotz"
               ]
             },
-            "lv": {
-              "purple": [
-                "nepaisant"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "green": [
-                "trotz",
-                "trotz"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "nepaisant"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "trotz",
                 "trotz"
               ]
             },
@@ -68164,5 +65455,4 @@ const B1_WORDS = [
     }
   }
 ];
-
 window.B1_WORDS = B1_WORDS;

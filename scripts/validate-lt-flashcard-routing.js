@@ -12,8 +12,7 @@ function cardHasRenderableStudy(study) {
   if (!study || typeof study !== 'object') return false;
   const layout = study.layout || 'standardStudy';
   if (layout === 'minimalStudy') {
-    return hasStudyFieldContent(study.variants)
-      || hasStudyFieldContent(study.note)
+    return hasStudyFieldContent(study.note)
       || hasStudyFieldContent(study.forms)
       || hasStudyFieldContent(study.tip)
       || hasStudyFieldContent(study.examples);

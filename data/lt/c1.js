@@ -1322,7 +1322,6 @@ const C1_WORDS = [
             "zusammenfassen"
           ],
           "purple": [
-            "apkopot",
             "apibendrinti"
           ],
           "green": [
@@ -1336,11 +1335,7 @@ const C1_WORDS = [
                 "zusammenfassen"
               ]
             },
-            "lv": {
-              "purple": [
-                "apkopot"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -1349,11 +1344,7 @@ const C1_WORDS = [
                 "zusammen"
               ]
             },
-            "lv": {
-              "purple": [
-                "apkopoju"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -1361,11 +1352,7 @@ const C1_WORDS = [
                 "zusammengefasst"
               ]
             },
-            "lv": {
-              "purple": [
-                "apibendrino"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -1373,11 +1360,7 @@ const C1_WORDS = [
                 "Zusammenfassend"
               ]
             },
-            "lv": {
-              "purple": [
-                "apkopojot"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -1385,11 +1368,7 @@ const C1_WORDS = [
                 "Zusammenfassung"
               ]
             },
-            "lv": {
-              "purple": [
-                "kopsavilkumu"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -2494,9 +2473,7 @@ const C1_WORDS = [
             "gelegentlich"
           ],
           "purple": [
-            "kartais",
-            "atvejo",
-            "ryšium su"
+            "kartais"
           ]
         },
         "examples": [
@@ -2515,14 +2492,10 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
-                "gelegentlich"
+                "gelegentlicher"
               ]
             },
-            "lv": {
-              "purple": [
-                "atvejo"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -2530,11 +2503,7 @@ const C1_WORDS = [
                 "Gelegentlich"
               ]
             },
-            "lv": {
-              "purple": [
-                "ryšyje"
-              ]
-            }
+            "lv": {}
           }
         ]
       }
@@ -3864,7 +3833,7 @@ const C1_WORDS = [
             "berechtigt"
           ],
           "purple": [
-            "rinkimų teisė"
+            "rinkimuose"
           ]
         },
         "examples": [
@@ -3876,7 +3845,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "rinkimų teisėms"
+                "rinkėjai"
               ]
             }
           },
@@ -3886,11 +3855,7 @@ const C1_WORDS = [
                 "wahlberechtigt"
               ]
             },
-            "lv": {
-              "purple": [
-                "rinkimų teisė"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -3898,11 +3863,7 @@ const C1_WORDS = [
                 "wahlberechtigt"
               ]
             },
-            "lv": {
-              "purple": [
-                "rinkimų teisė"
-              ]
-            }
+            "lv": {}
           }
         ]
       }
@@ -4044,10 +4005,6 @@ const C1_WORDS = [
           "blue": [
             "der Zuschlag"
           ],
-          "purple": [
-            "piemaksu",
-            "uzcenojumu"
-          ],
           "red": [
             "der Anhang",
             "die Beilage"
@@ -4060,11 +4017,7 @@ const C1_WORDS = [
                 "Zuschlag"
               ]
             },
-            "lv": {
-              "purple": [
-                "piemaksa"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -4072,11 +4025,7 @@ const C1_WORDS = [
                 "Zuschlag"
               ]
             },
-            "lv": {
-              "purple": [
-                "piemaksa"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -4096,11 +4045,7 @@ const C1_WORDS = [
                 "Zuschlag"
               ]
             },
-            "lv": {
-              "purple": [
-                "uzcenojums"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -4110,18 +4055,13 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "priedams"
+                "priedų"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "piemaksa",
-              "uzcenojums"
-            ]
-          },
+          {},
           {
             "green": [
               "den Zuschlag erhalten"
@@ -4129,15 +4069,7 @@ const C1_WORDS = [
           }
         ],
         "important": [
-          {
-            "purple": [
-              "piemaksa",
-              "uzcenojums"
-            ],
-            "red": [
-              "pielikums"
-            ]
-          },
+          {},
           {
             "red": [
               "die Anlage",
@@ -4177,64 +4109,27 @@ const C1_WORDS = [
         "beziehen / sich beziehen auf: prieš vartodamas patikrink kontekstą ir palygink su kitais žodžiais kortelėje."
       ],
       "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "beziehen",
-            "bezieht"
-          ],
-          "purple": [
-            "Taikyti",
-            "liesti"
-          ]
-        },
+        "explanation": {},
         "examples": [
           {
             "de": {
               "blue": [
-                "beziehen / sich beziehen auf",
                 "beziehen / sich beziehen auf"
               ]
             },
-            "lv": {
-              "purple": [
-                "Taikyti",
-                "taikytis kam"
-              ]
-            }
+            "lv": {}
           },
           {
-            "de": {
-              "blue": [
-                "beziehen / sich beziehen auf",
-                "beziehen / sich beziehen auf"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Taikyti",
-                "taikytis kam"
-              ]
-            }
+            "de": {},
+            "lv": {}
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "Taikyti"
-            ]
-          },
-          {
-            "purple": [
-              "taikytis kam"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "beziehen / sich beziehen auf"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -4290,8 +4185,7 @@ const C1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "green": [
-            "beabsichtigen",
-            "beabsichtigt"
+            "beabsichtigen"
           ],
           "purple": [
             "ketinti",
@@ -4302,86 +4196,62 @@ const C1_WORDS = [
           {
             "de": {
               "green": [
-                "beabsichtigen",
-                "beabsichtigen"
+                "beabsichtigt"
               ]
             },
             "lv": {
               "purple": [
-                "ketinti",
-                "planuoti"
+                "ketina"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "beabsichtigen",
                 "beabsichtigen"
               ]
             },
             "lv": {
               "purple": [
-                "ketinti",
-                "planuoti"
+                "ketinate"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "beabsichtigen",
                 "beabsichtigen"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "green": [
+                "beabsichtigt"
               ]
             },
             "lv": {
               "purple": [
-                "ketinti",
-                "planuoti"
+                "ketina"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "beabsichtigen",
                 "beabsichtigen"
               ]
             },
             "lv": {
               "purple": [
-                "ketinti",
-                "planuoti"
+                "ketinti"
               ]
             }
           },
           {
-            "de": {
-              "green": [
-                "beabsichtigen",
-                "beabsichtigen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "ketinti",
-                "planuoti"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "beabsichtigen",
-                "beabsichtigen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "ketinti",
-                "planuoti"
-              ]
-            }
+            "de": {},
+            "lv": {}
           }
         ],
         "tip": [
@@ -4392,7 +4262,7 @@ const C1_WORDS = [
           },
           {
             "purple": [
-              "planuoti"
+              "planą"
             ]
           }
         ],
@@ -4454,8 +4324,7 @@ const C1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "unterstellen",
-            "unterstellt"
+            "unterstellen"
           ],
           "purple": [
             "priekaištauti",
@@ -4469,86 +4338,58 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
-                "unterstellen",
-                "unterstellen"
+                "unterstellt"
               ]
             },
             "lv": {
               "purple": [
-                "priekaištauti",
-                "priskirti nepagrįstai"
+                "primetamas"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "unterstellen",
+                "unterstellen"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "blue": [
                 "unterstellen"
               ]
             },
             "lv": {
               "purple": [
-                "priekaištauti",
-                "priskirti nepagrįstai"
+                "priekaištauti"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "unterstellen",
-                "unterstellen"
+                "Untreue"
               ]
             },
             "lv": {
               "purple": [
-                "priekaištauti",
-                "priskirti nepagrįstai"
+                "priekaištaujama"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "unterstellen",
                 "unterstellen"
               ]
             },
-            "lv": {
-              "purple": [
-                "priekaištauti",
-                "priskirti nepagrįstai"
-              ]
-            }
+            "lv": {}
           },
           {
-            "de": {
-              "blue": [
-                "unterstellen",
-                "unterstellen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "priekaištauti",
-                "priskirti nepagrįstai"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "unterstellen",
-                "unterstellen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "priekaištauti",
-                "priskirti nepagrįstai"
-              ]
-            }
+            "de": {},
+            "lv": {}
           }
         ],
         "tip": [
@@ -4559,7 +4400,7 @@ const C1_WORDS = [
           },
           {
             "purple": [
-              "priskirti nepagrįstai"
+              "priekaištauti"
             ]
           }
         ],
@@ -4609,8 +4450,7 @@ const C1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "green": [
-            "voraussetzen",
-            "voraus"
+            "voraussetzen"
           ],
           "purple": [
             "prielaidą"
@@ -4620,60 +4460,40 @@ const C1_WORDS = [
           {
             "de": {
               "green": [
-                "voraussetzen",
-                "voraussetzen"
+                "voraus"
               ]
             },
             "lv": {
               "purple": [
-                "priimti kaip prielaidą"
+                "prielaida"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "voraussetzen",
-                "voraussetzen"
+                "voraus"
               ]
             },
             "lv": {
               "purple": [
-                "priimti kaip prielaidą"
+                "prielaida"
               ]
             }
           },
           {
-            "de": {
-              "green": [
-                "voraussetzen",
-                "voraussetzen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "priimti kaip prielaidą"
-              ]
-            }
+            "de": {},
+            "lv": {}
           },
           {
-            "de": {
-              "green": [
-                "voraussetzen",
-                "voraussetzen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "priimti kaip prielaidą"
-              ]
-            }
+            "de": {},
+            "lv": {}
           }
         ],
         "tip": [
           {
             "purple": [
-              "priimti kaip prielaidą"
+              "priimti"
             ]
           }
         ],
@@ -4731,8 +4551,7 @@ const C1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "bewahren",
-            "bewahrt"
+            "bewahren"
           ],
           "purple": [
             "apsaugoti"
@@ -4742,7 +4561,42 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
-                "bewahren",
+                "bewahren"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "išsaugome"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bewahren"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "išsaugo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bewahren"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "išsaugome"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
                 "bewahren"
               ]
             },
@@ -4754,60 +4608,8 @@ const C1_WORDS = [
             }
           },
           {
-            "de": {
-              "blue": [
-                "bewahren",
-                "bewahren"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "apsaugoti",
-                "išsaugoti"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "bewahren",
-                "bewahren"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "apsaugoti",
-                "išsaugoti"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "bewahren",
-                "bewahren"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "apsaugoti",
-                "išsaugoti"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "bewahren",
-                "bewahren"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "apsaugoti",
-                "išsaugoti"
-              ]
-            }
+            "de": {},
+            "lv": {}
           }
         ],
         "tip": [
@@ -4816,11 +4618,7 @@ const C1_WORDS = [
               "apsaugoti"
             ]
           },
-          {
-            "purple": [
-              "išsaugoti"
-            ]
-          }
+          {}
         ],
         "important": [
           {
@@ -4872,22 +4670,31 @@ const C1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "green": [
-            "aufrechterhalten",
-            "erhält",
-            "auf"
+            "aufrechterhalten"
           ],
           "purple": [
-            "palaikyti galiojantį"
+            "palaikymą"
           ],
           "yellow": [
-            "palaikyti galiojantį"
+            "palaikymą"
           ]
         },
         "examples": [
           {
             "de": {
               "green": [
-                "aufrechterhalten",
+                "auf"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "palaiko"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
                 "aufrechterhalten"
               ]
             },
@@ -4900,41 +4707,18 @@ const C1_WORDS = [
           {
             "de": {
               "green": [
-                "aufrechterhalten",
-                "aufrechterhalten"
+                "auf"
               ]
             },
             "lv": {
               "purple": [
-                "palaikyti galiojantį"
+                "palaiko"
               ]
             }
           },
           {
-            "de": {
-              "green": [
-                "aufrechterhalten",
-                "aufrechterhalten"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "palaikyti galiojantį"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "aufrechterhalten",
-                "aufrechterhalten"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "palaikyti galiojantį"
-              ]
-            }
+            "de": {},
+            "lv": {}
           }
         ],
         "tip": [
@@ -5004,5 +4788,4 @@ const C1_WORDS = [
     "level": "C1"
   }
 ];
-
 window.C1_WORDS = C1_WORDS;
