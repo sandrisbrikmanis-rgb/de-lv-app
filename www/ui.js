@@ -4832,6 +4832,7 @@ function renderGermanAlternativesTranslation(alternatives) {
 
 function renderWordCardContent(card, autoplayToken = cardAutoplayToken) {
   beginFlashcardAudioRender(card);
+  if (elements.translation) elements.translation.className = "translation";
   const isDeFront = state.direction === "de-native";
   const germanText = formatGermanEntry(card);
   const frontText = isDeFront ? germanText : card.lv;
@@ -6867,6 +6868,48 @@ function formatLvDisplay(value) {
     .replace(/\s*,\s*/g, ", ");
 }
 
+function hasStudyFieldContent(value) {
+  if (value === undefined || value === null) return false;
+  if (typeof value === "string") return value.trim().length > 0;
+  if (Array.isArray(value)) return value.some(hasStudyFieldContent);
+  if (typeof value === "object") return Object.values(value).some(hasStudyFieldContent);
+  return Boolean(value);
+}
+
+function cardHasRenderableStudy(study) {
+  if (!study || typeof study !== "object") return false;
+  const layout = study.layout || "standardStudy";
+  if (layout === "minimalStudy") {
+    return hasStudyFieldContent(study.variants)
+      || hasStudyFieldContent(study.note)
+      || hasStudyFieldContent(study.forms)
+      || hasStudyFieldContent(study.tip)
+      || hasStudyFieldContent(study.examples);
+  }
+  if (layout === "comparisonStudy") {
+    return hasStudyFieldContent(study.words)
+      || hasStudyFieldContent(study.items)
+      || hasStudyFieldContent(study.terms)
+      || hasStudyFieldContent(study.comparison)
+      || hasStudyFieldContent(study.comparisonTable)
+      || hasStudyFieldContent(study.subtitle)
+      || hasStudyFieldContent(study.subtitleText)
+      || hasStudyFieldContent(study.title)
+      || hasStudyFieldContent(study.lead)
+      || hasStudyFieldContent(study.question);
+  }
+  return hasStudyFieldContent(study.explanation)
+    || hasStudyFieldContent(study.explanationLines)
+    || hasStudyFieldContent(study.examples)
+    || hasStudyFieldContent(study.comparison)
+    || hasStudyFieldContent(study.tip)
+    || hasStudyFieldContent(study.important)
+    || hasStudyFieldContent(study.info)
+    || hasStudyFieldContent(study.words)
+    || hasStudyFieldContent(study.items)
+    || hasStudyFieldContent(study.terms);
+}
+
 function clearStudyCard() {
   const cardElement = elements.word?.closest(".card");
   cardElement?.classList.remove("has-study-card");
@@ -6882,11 +6925,14 @@ function clearStudyCard() {
     elements.cardStudyExtra.hidden = true;
     elements.cardStudyExtra.innerHTML = "";
   }
+  if (elements.translation) {
+    elements.translation.className = "translation";
+  }
 }
 
 function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
   const study = card.study;
-  if (!study) return false;
+  if (!study || !cardHasRenderableStudy(study)) return false;
   const layout = study.layout || "standardStudy";
   const isComparisonStudy = layout === "comparisonStudy";
   const isMinimalStudy = layout === "minimalStudy";
@@ -7527,7 +7573,7 @@ function cardElementNeedsTabletPageScroll(cardEl) {
 
 function cardDataNeedsTabletPageScroll(card) {
   if (state.spellingMode) return false;
-  if (card?.study && state.revealed) return true;
+  if (card?.study && state.revealed && cardHasRenderableStudy(card.study)) return true;
   return false;
 }
 
