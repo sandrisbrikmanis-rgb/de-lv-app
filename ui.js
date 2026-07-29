@@ -3876,7 +3876,7 @@ function spellingDiffHtml(answer, expected) {
       parts.unshift('<span class="spelling-error-char">' + escapeHtml(typed[i - 1]) + '</span>');
       i--;
     } else {
-      parts.unshift('<span class="spelling-missing-char" title="trūkst: ' + escapeHtml(correct[j - 1]) + '">□</span>');
+      parts.unshift('<span class="spelling-missing-char" title="' + escapeHtml(t("spelling.missingChar", { char: correct[j - 1] })) + '">□</span>');
       j--;
     }
   }
@@ -3891,17 +3891,18 @@ function spellingCardId(card) {
 function spellingVerbOptions(verb) {
   const forms = verbForms(verb);
   if (state.direction === "de-native") {
+    const nativePrompt = t("spelling.writeNative");
     return [
-      { front: forms.tagadne, prompt: "Uzraksti latviski", expected: forms.tagadneLv },
-      { front: forms.nakotne, prompt: "Uzraksti latviski", expected: forms.nakotneLv },
-      { front: forms.pagatne, prompt: "Uzraksti latviski", expected: forms.pagatneLv }
+      { front: forms.tagadne, prompt: nativePrompt, expected: forms.tagadneLv },
+      { front: forms.nakotne, prompt: nativePrompt, expected: forms.nakotneLv },
+      { front: forms.pagatne, prompt: nativePrompt, expected: forms.pagatneLv }
     ].filter((item) => item.front && item.expected);
   }
 
   return [
-    { front: forms.tagadneLv, prompt: "Uzraksti infinitīvu", expected: forms.tagadne },
-    { front: forms.tagadneLv, prompt: "Uzraksti imperfektu", expected: forms.nakotne },
-    { front: forms.tagadneLv, prompt: "Uzraksti pagātnes divdabi", expected: forms.pagatne }
+    { front: forms.tagadneLv, prompt: t("verb.writeInfinitive"), expected: forms.tagadne },
+    { front: forms.tagadneLv, prompt: t("verb.writeImperfect"), expected: forms.nakotne },
+    { front: forms.tagadneLv, prompt: t("verb.writePastParticiple"), expected: forms.pagatne }
   ].filter((item) => item.front && item.expected);
 }
 
@@ -3949,9 +3950,9 @@ function checkSpellingAnswer() {
 function verbRandomOptions(verb) {
   const forms = verbForms(verb);
   return [
-    { show: forms.tagadneLv, prompt: "Uzmini infinitīvu", reveal: forms.tagadne },
-    { show: forms.tagadneLv, prompt: "Uzmini imperfektu", reveal: forms.nakotne },
-    { show: forms.tagadneLv, prompt: "Uzmini pagātnes divdabi", reveal: forms.pagatne }
+    { show: forms.tagadneLv, prompt: t("verb.guessInfinitive"), reveal: forms.tagadne },
+    { show: forms.tagadneLv, prompt: t("verb.guessImperfect"), reveal: forms.nakotne },
+    { show: forms.tagadneLv, prompt: t("verb.guessPastParticiple"), reveal: forms.pagatne }
   ].filter((item) => item.show && item.reveal);
 }
 
@@ -4693,7 +4694,7 @@ function applyFlashcardSingularAudio(card, autoplayToken, {
   const germanOnFront = flashcardGermanOnFront(card, isGermanToLatvian, study);
 
   if (enablePrimaryAudio) {
-    setPrimaryCardAudio(singularAudioSrc, `Klausīties: ${label}`);
+    setPrimaryCardAudio(singularAudioSrc, t("buttons.listenWithWord", { word: label }));
   }
   setInlineGermanAudioButtons(singularAudioSrc, label, buttons);
 
@@ -4738,12 +4739,12 @@ function setPrimaryCardAudio(src, label) {
   if (!btn) return;
   btn.hidden = !src || state.verbMode;
   if (!src) return;
-  btn.dataset.audioLabel = label || "Automātiska izruna";
+  btn.dataset.audioLabel = label || t("buttons.autoplayLabel");
   updateAutoplayButtonUI();
 }
 
 function setInlineGermanAudioButtons(src, germanText, { onWord = false, onTranslation = false } = {}) {
-  const label = `Klausīties: ${germanText}`;
+  const label = t("buttons.listenWithWord", { word: germanText });
   const show = Boolean(src && !state.verbMode);
   const buttons = [
     { btn: elements.singularAudioBtn, visible: show && onWord },
@@ -4764,14 +4765,14 @@ function setInlineGermanAudioButtons(src, germanText, { onWord = false, onTransl
 function updateAutoplayButtonUI() {
   const btn = elements.cardAutoplayBtn;
   if (!btn || btn.hidden) return;
-  const baseLabel = btn.dataset.audioLabel || "Automātiska izruna";
+  const baseLabel = btn.dataset.audioLabel || t("buttons.autoplayLabel");
   btn.classList.toggle("is-enabled", state.audioAutoplay);
   btn.classList.toggle("is-disabled", !state.audioAutoplay);
   btn.setAttribute("aria-pressed", state.audioAutoplay ? "true" : "false");
-  btn.title = state.audioAutoplay ? "Izslēgt automātisko izrunu" : "Ieslēgt automātisko izrunu";
+  btn.title = state.audioAutoplay ? t("buttons.disableAutoplay") : t("buttons.enableAutoplay");
   btn.setAttribute(
     "aria-label",
-    state.audioAutoplay ? `${baseLabel} (automātiski ieslēgts)` : `${baseLabel} (automātiski izslēgts)`
+    state.audioAutoplay ? t("buttons.autoplayAriaOn", { label: baseLabel }) : t("buttons.autoplayAriaOff", { label: baseLabel })
   );
 }
 
@@ -5514,7 +5515,7 @@ function ensureWordListModal(config) {
     <div class="modal-content">
       <header class="modal-header">
         <h2>${escapeHtml(title)}</h2>
-        <button type="button" class="modal-close" aria-label="Aizvērt">×</button>
+        <button type="button" class="modal-close" aria-label="${escapeHtml(t("buttons.close"))}">×</button>
       </header>
       ${actionsHtml}
       <div class="modal-list" id="${listId}"></div>
@@ -5561,8 +5562,8 @@ function showWordListModal(config) {
 function openUnwantedList() {
   showWordListModal({
     id: "unwantedWordsModal",
-    title: "Nevajadzīgie vārdi",
-    ariaLabel: "Nevajadzīgie vārdi",
+    title: t("buttons.unwantedWords"),
+    ariaLabel: t("buttons.unwantedWords"),
     listId: "unwantedWordsList",
     renderContent: renderUnwantedList,
     onListClick: (event) => {
@@ -5624,9 +5625,9 @@ function renderKnownList(container) {
     <div class="modal-row">
       <div class="modal-word">
         <strong>${escapeHtml(entry.de)} ➔ ${escapeHtml(entry.lv)}</strong>
-        <span class="modal-level">${escapeHtml(entry.groupKey === "verbs" ? "Darbības vārdi" : groupDisplayLabel(entry.level))}</span>
+        <span class="modal-level">${escapeHtml(entry.groupKey === "verbs" ? t("progress.verbsHeading") : groupDisplayLabel(entry.level))}</span>
       </div>
-      <button type="button" class="modal-remove-btn" data-restore-known="${escapeHtml(entry.id)}" data-restore-known-group="${escapeHtml(entry.groupKey)}">Atgriezt</button>
+      <button type="button" class="modal-remove-btn" data-restore-known="${escapeHtml(entry.id)}" data-restore-known-group="${escapeHtml(entry.groupKey)}">${escapeHtml(t("buttons.restore"))}</button>
     </div>
   `).join("");
 }
@@ -5634,8 +5635,8 @@ function renderKnownList(container) {
 function openKnownList() {
   showWordListModal({
     id: "knownWordsModal",
-    title: "Zināmi",
-    ariaLabel: "Zināmi",
+    title: t("buttons.knownWords"),
+    ariaLabel: t("buttons.knownWords"),
     listId: "knownWordsList",
     renderContent: renderKnownList,
     onListClick: (event) => {
@@ -5695,7 +5696,7 @@ function renderMasteredList(container) {
         <strong>${escapeHtml(formatGermanEntry(card))} ➔ ${escapeHtml(card.lv)}</strong>
         <span class="modal-level">${escapeHtml(groupDisplayLabel(card.level))}</span>
       </div>
-      <button type="button" class="modal-remove-btn" data-restore-mastered="${card.id}">Atgriezt</button>
+      <button type="button" class="modal-remove-btn" data-restore-mastered="${card.id}">${escapeHtml(t("buttons.restore"))}</button>
     </div>
   `).join("");
 }
@@ -5703,8 +5704,8 @@ function renderMasteredList(container) {
 function openMasteredList() {
   showWordListModal({
     id: "masteredWordsModal",
-    title: "100% zināmi",
-    ariaLabel: "100% zināmi",
+    title: t("buttons.masteredWords"),
+    ariaLabel: t("buttons.masteredWords"),
     listId: "masteredWordsList",
     renderContent: renderMasteredList,
     onListClick: (event) => {
@@ -6895,8 +6896,8 @@ function renderMinimalStudyVariantLine(article, de) {
 
 function comparisonWordAudioButtonHtml(word, src) {
   if (!src) return "";
-  const label = `Klausīties: ${word}`;
-  return `<button type="button" class="flashcard-audio-btn comparison-word-audio-btn" data-audio-src="${escapeStudyCardText(src)}" aria-label="${escapeStudyCardText(label)}" title="Klausīties"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg></button>`;
+  const label = t("buttons.listenWithWord", { word });
+  return `<button type="button" class="flashcard-audio-btn comparison-word-audio-btn" data-audio-src="${escapeStudyCardText(src)}" aria-label="${escapeStudyCardText(label)}" title="${escapeStudyCardText(t("buttons.listen"))}"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg></button>`;
 }
 
 function formatLvDisplay(value) {
@@ -7736,10 +7737,10 @@ function render() {
   if (state.spellingMode) {
     const task = currentSpellingTask(card);
     elements.cardLevel.className = "badge";
-    elements.cardLevel.textContent = `${groupDisplayLabel(card.level)} · Pareizrakstība`;
+    elements.cardLevel.textContent = `${groupDisplayLabel(card.level)} · ${t("card.spelling")}`;
     elements.word.textContent = task ? task.front : "";
     elements.translation.textContent = state.spellingChecked && !state.spellingCorrect && task
-      ? `Atbilde: ${task.expected}`
+      ? `${t("card.answerPrefix")} ${task.expected}`
       : "";
     elements.hint.textContent = task ? task.prompt : "";
     renderSpellingControls();
@@ -7751,13 +7752,13 @@ function render() {
 
   elements.cardLevel.className = "badge";
   elements.cardLevel.textContent = state.reviewLastSession
-    ? `${groupDisplayLabel(card.level)} · Pēdējā sesija: ${Math.min(lastSessionReviewDoneCount() + 1, lastSessionReviewTotalCount())} / ${lastSessionReviewTotalCount()}`
+    ? `${groupDisplayLabel(card.level)} · ${t("card.lastSessionLabel")}: ${Math.min(lastSessionReviewDoneCount() + 1, lastSessionReviewTotalCount())} / ${lastSessionReviewTotalCount()}`
     : (state.timeReviewMode
-    ? `${card.level} · ${timeConfig.label}: ${state.timeReviewIndex + 1}/${deck.length}`
+    ? `${groupDisplayLabel(card.level)} · ${timeConfig.label}: ${state.timeReviewIndex + 1}/${deck.length}`
     : (state.problemMode
-    ? `${groupDisplayLabel(problemCardGroupKey(card))} · Problemātiskie: ${state.problemIndex + 1}/${deck.length}`
+    ? `${groupDisplayLabel(problemCardGroupKey(card))} · ${t("card.problemLabel")}: ${state.problemIndex + 1}/${deck.length}`
     : (!state.reviewKnown && sessionMatchesActiveGroup()
-    ? `${groupDisplayLabel(card.level)} · Sesija: ${Math.min(sessionDoneCount() + 1, sessionTotalCount())} / ${sessionTotalCount()}`
+    ? `${groupDisplayLabel(card.level)} · ${t("card.sessionLabel")}: ${Math.min(sessionDoneCount() + 1, sessionTotalCount())} / ${sessionTotalCount()}`
     : `${groupDisplayLabel(card.level)} · ${state.index + 1}/${deck.length}`)));
   if (renderStudyCard(card, autoplayToken)) {
     updateKnownListBtn();

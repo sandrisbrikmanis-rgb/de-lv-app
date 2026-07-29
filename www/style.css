@@ -2644,7 +2644,7 @@
       font-size: 0.9rem;
     }
 
-    /* Compact "Nevajadz─½gie v─ürdi" popup ÔÇö sits exactly over the study card */
+    /* Compact "Nevajadzīgie vārdi" popup — sits exactly over the study card */
     .card-popup-overlay {
       position: absolute;
       inset: 0;
@@ -3149,7 +3149,7 @@
       }
     }
   
-    /* Mobile-only: compact split labels for Teikumi and Darb─½bas v─ürdi */
+    /* Mobile-only: compact split labels for Teikumi and Darbības vārdi */
     @media (max-width: 768px) {
       #groupButtons button:nth-child(4),
       #groupButtons button:nth-child(8) {
@@ -3541,7 +3541,7 @@
       }
     }
 
-    /* Lekcija 1 V─ürdi┼åi highlighted info block */
+    /* Lekcija 1 Vārdiņi highlighted info block */
     #kurssLesson1 .lesson1-vardini-info {
       display: grid;
       grid-template-columns: auto 1fr;
@@ -3756,7 +3756,7 @@
         width: 100%;
       }
     }
-    /* Lekcija 1 Treni┼å┼í flashcard */
+    /* Lekcija 1 Treniņš flashcard */
     #kurssLesson1 .lesson1-training-wrap {
       display: grid;
       gap: 12px;
@@ -4052,7 +4052,7 @@
 }
 
 
-/* Nevajadz─½gie v─ürdi list formatting */
+/* Nevajadzīgie vārdi list formatting */
 .unwanted-word {
   overflow-wrap: normal;
   word-break: normal;
@@ -4230,7 +4230,7 @@
 }
 
 
-/* Nevajadz─½gie v─ürdi visibility fix */
+/* Nevajadzīgie vārdi visibility fix */
 .unwanted-panel {
   background: #0c1520;
   color: #eef3f8;
@@ -4266,7 +4266,7 @@
 }
 
 
-/* Nevajadz─½gie Atgriezt button visibility */
+/* Nevajadzīgie Atgriezt button visibility */
 .unwanted-row button[data-restore-unwanted] {
   color: #ffffff;
   background: linear-gradient(145deg, #0b63d8, #064db5);
@@ -4434,7 +4434,7 @@
   border-color: #5aa2ff;
 }
 
-/* Kart─½tes st┼½ra ikona ÔÇö meda─╝a (100% zin─üms) */
+/* Kartītes stūra ikona — medaļa (100% zināms) */
 .card-mastered-btn {
   position: absolute;
   right: 14px;
@@ -4481,17 +4481,17 @@
   }
 }
 
-/* KRITISKS LABOJUMS: kam─ôr jebkur┼í PopUp logs (Info, dro┼í─½ba, p─ürskati u.c.) kart─½t─ô
-   ir atv─ôrts, meda─╝as un p─ürsv─½trot─üs acs ikonas kart─½tes st┼½ros ir j─üpasl─ôpj un to
-   klik┼í─Ài j─üblo─À─ô piln─½b─ü ÔÇö pret─ôj─ü gad─½jum─ü lietot─üjs var nejau┼íi izmest vai atz─½m─ôt
-   v─ürdu, kuru vi┼å┼í aiz PopUp loga neredz. */
+/* KRITISKS LABOJUMS: kamēr jebkurš PopUp logs (Info, drošība, pārskati u.c.) kartītē
+   ir atvērts, medaļas un pārsvītrotās acs ikonas kartītes stūros ir jāpaslēpj un to
+   klikšķi jābloķē pilnībā — pretējā gadījumā lietotājs var nejauši izmest vai atzīmēt
+   vārdu, kuru viņš aiz PopUp loga neredz. */
 .card:has(.card-popup-overlay:not([hidden])) .card-mastered-btn,
 .card:has(.card-popup-overlay:not([hidden])) .card-corner-controls {
   visibility: hidden !important;
   pointer-events: none !important;
 }
 
-/* Papildu opciju panelis ÔÇö Uzst─üd─½jumi/P─ürskati un info (Ôôÿ) poga */
+/* Papildu opciju panelis — Uzstādījumi/Pārskati un info (ⓘ) poga */
 #extraOptions {
   position: relative;
 }
@@ -4530,7 +4530,7 @@
   outline: none;
 }
 
-/* Pareizrakst─½bas sl─ôdzis */
+/* Pareizrakstības slēdzis */
 .switch-row {
   display: flex;
   align-items: center;
@@ -4591,15 +4591,15 @@
   outline-offset: 2px;
 }
 
-/* Full-size PC replacements for the small mobile switch/Ôôÿ icon ÔÇö hidden by
-   default (incl. on mobile, which keeps using the switch-row/small Ôôÿ above
+/* Full-size PC replacements for the small mobile switch/ⓘ icon — hidden by
+   default (incl. on mobile, which keeps using the switch-row/small ⓘ above
    untouched) and only revealed for desktop widths further down this file. */
 .desktop-spelling-toggle-btn,
 .desktop-info-btn {
   display: none;
 }
 
-/* Info (Ôôÿ) popup */
+/* Info (ⓘ) popup */
 .info-panel-body {
   display: grid;
   gap: 14px;
@@ -4634,9 +4634,9 @@
   -webkit-overflow-scrolling: touch;
 }
 
-/* KRITISKS LABOJUMS: Info logam j─üb┼½t piln─½b─ü necaursp─½d─½gam un absol┼½ti augst─ükaj─ü
-   sl─ün─½, lai tas fiziski un vizu─üli nosegtu meda─╝as/acs ikonas kart─½tes st┼½ros un
-   blo─À─ôtu jebk─üdus klik┼í─Àus uz t─üm, kam─ôr logs ir atv─ôrts. */
+/* KRITISKS LABOJUMS: Info logam jābūt pilnībā necaurspīdīgam un absolūti augstākajā
+   slānī, lai tas fiziski un vizuāli nosegtu medaļas/acs ikonas kartītes stūros un
+   bloķētu jebkādus klikšķus uz tām, kamēr logs ir atvērts. */
 #infoPanel {
   position: absolute !important;
   inset: 0 !important;
@@ -4657,9 +4657,9 @@
   text-align: left;
 }
 
-/* "Norestart─ôt progresu" dro┼í─½bas popup ÔÇö piesieta pie kart─½tes, nevis peld pa visu ekr─ünu.
-   KRITISKS LABOJUMS: piln─½b─ü necaursp─½d─½gs melns fons + absol┼½ti augst─ük─ü sl─ü┼åu priorit─üte,
-   lai nosegtu un blo─À─ôtu meda─╝as/acs ikonas kart─½tes st┼½ros. */
+/* "Norestartēt progresu" drošības popup — piesieta pie kartītes, nevis peld pa visu ekrānu.
+   KRITISKS LABOJUMS: pilnībā necaurspīdīgs melns fons + absolūti augstākā slāņu prioritāte,
+   lai nosegtu un bloķētu medaļas/acs ikonas kartītes stūros. */
 #resetConfirmPanel {
   position: absolute !important;
   inset: 0 !important;
@@ -4789,7 +4789,7 @@
   min-height: 58px;
 }
 
-/* Lekcija 2 P─ürtulko flashcard: same visual component as Lekcija 1 */
+/* Lekcija 2 Pārtulko flashcard: same visual component as Lekcija 1 */
 #kurssLesson2 .lesson1-training-wrap {
   display: grid;
   gap: 12px;
@@ -5915,7 +5915,7 @@
 }
 
 #kurssLesson7 .lesson7-exercise-step::before {
-  content: "Ô£ô";
+  content: "✓";
   display: inline-grid;
   place-items: center;
   width: 24px;
@@ -6051,7 +6051,7 @@
   overflow-wrap: normal; word-break: normal;
 }
 #kurssLesson8 .lesson7-exercise-step::before {
-  content: "Ô£ô"; display: inline-grid; place-items: center; flex: 0 0 auto;
+  content: "✓"; display: inline-grid; place-items: center; flex: 0 0 auto;
   width: 28px; height: 28px; border-radius: 999px; background: #45d582; color: #07311e;
   font-size: 16px; font-weight: 900;
 }
@@ -6148,7 +6148,7 @@
 .course-lesson .lesson7-exercise-instruction { width:min(640px,100%); border-radius:12px; border:1px solid rgba(44,198,117,.55); background:linear-gradient(135deg,rgba(20,91,69,.72),rgba(15,63,52,.78)); padding:14px 18px; color:#f4fff8; font-weight:900; }
 .course-lesson .lesson7-exercise-step { display:inline-flex; align-items:center; justify-content:center; margin:0 auto; border-radius:12px; border:1px solid rgba(53,214,128,.75); background:rgba(19,111,72,.72); padding:8px 16px; color:#f5fff8; font-weight:900; }
 
-/* Unified exercise card zones (Kurss ÔåÆ Vingrin─üjums) */
+/* Unified exercise card zones (Kurss → Vingrinājums) */
 .exercise-unified-card,
 #kurssLesson7 .lesson1-training-flashcard.exercise-unified-card,
 #kurssLesson8 .lesson1-training-flashcard.exercise-unified-card,
@@ -6366,7 +6366,7 @@
   color: #ffffff !important;
 }
 
-/* "Problem─ütiskie" fire-mode toggle: pinned to the top of the level buttons, always highlighted */
+/* "Problemātiskie" fire-mode toggle: pinned to the top of the level buttons, always highlighted */
 #groupButtons button.group-btn-fire {
   grid-column: 1 / -1;
   order: -1;
@@ -6880,10 +6880,10 @@ main,
   outline-offset: 2px;
 }
 
-/* PC UZST─ÇD─¬JUMI: pilnv─ôrt─½g─üs "Pareizrakst─½ba" un "Ôôÿ K─ü tas str─üd─ü?" pogas.
+/* PC UZSTĀDĪJUMI: pilnvērtīgās "Pareizrakstība" un "ⓘ Kā tas strādā?" pogas.
    Placed after the generic cross-browser button-color override layer above so
    these !important colors always win on desktop, regardless of source order
-   drift elsewhere in this file. Mobile is untouched ÔÇö these buttons are
+   drift elsewhere in this file. Mobile is untouched — these buttons are
    display:none outside of the @media (min-width: 769px) block. */
 /* PC sānjoslas paneļi un pogas — tumšs, vienots stils (pārraksta globālos pārrakstus) */
 @media (min-width: 769px) {
@@ -7109,13 +7109,13 @@ main,
 }
 
 /* =========================================================================
-   DZEL┼¢AINS DRO┼á─¬BAS SL─ÇNIS ÔÇö T─¬┼áI PIEVIENOTS FAILA PA┼á─Ç BEIG─ÇS, lai ┼í─½s
-   k─ürtulas ar !important nevar─ôtu p─ürrakst─½t neviena cita, v─ôl─ük pievienota
-   k─ürtula ┼íaj─ü fail─ü. ┼áis bloks garant─ô, ka Info logs (#infoPanel), dro┼í─½bas
-   logs (#resetConfirmPanel) un jebkur┼í cits uz kart─½tes eso┼íais PopUp logs
-   (.card-popup-overlay) VIENM─ÆR piln─½b─ü fiziski un vizu─üli nosedz kart─½ti un
-   blo─À─ô klik┼í─Àus uz st┼½ra ikon─üm (­ƒÅà meda─╝a, ­ƒæü´©ÅÔÇì­ƒù¿´©Å p─ürsv─½trot─ü acs), kam─ôr
-   attiec─½gais logs ir atv─ôrts (t.i. tam nav 'hidden' atrib┼½ta).
+   STINGRS DROŠĪBAS SLĀNIS — TĪŠI PIEVIENOTS FAILA PAŠĀ BEIGĀS, lai šīs
+   kārtulas ar !important nevarētu pārrakstīt neviena cita, vēlāk pievienota
+   kārtula šajā failā. Šis bloks garantē, ka Info logs (#infoPanel), drošības
+   logs (#resetConfirmPanel) un jebkurš cits uz kartītes esošais PopUp logs
+   (.card-popup-overlay) VIENMĒR pilnībā fiziski un vizuāli nosedz kartīti un
+   bloķē klikšķus uz stūra ikonām (medaļa, pārsvītrotā acs), kamēr
+   attiecīgais logs ir atvērts (t.i. tam nav 'hidden' atribūta).
    ========================================================================= */
 #infoPanel,
 #resetConfirmPanel,

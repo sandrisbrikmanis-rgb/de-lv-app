@@ -47,11 +47,16 @@ window.LANGUAGE_UI_STRINGS = {
     chooseAnotherGroup: "Обрати іншу групу",
     listen: "Слухати",
     listenPlural: "Слухати множину",
+    listenWithWord: "Слухати: {word}",
     autoplayOn: "Автовідтворення увімкнено",
     autoplayOff: "Автовідтворення вимкнено",
+    autoplayLabel: "Автовідтворення",
+    autoplayAriaOn: "{label} (автоматично увімкнено)",
+    autoplayAriaOff: "{label} (автоматично вимкнено)",
     disableAutoplay: "Вимкнути автовідтворення",
     enableAutoplay: "Увімкнути автовідтворення",
-    markUnwanted: "Позначити як непотрібне"
+    markUnwanted: "Позначити як непотрібне",
+    masteredWords: "100% відомі"
   },
   tools: {
     problemShort: "Пробл.",
@@ -92,7 +97,16 @@ window.LANGUAGE_UI_STRINGS = {
     pastParticiple: "Дієприкметник минулого часу",
     infinitiv: "Infinitiv",
     writeInfinitive: "Напишіть інфінітив",
-    guessInfinitive: "Вгадайте інфінітив"
+    guessInfinitive: "Вгадайте інфінітив",
+    writeImperfect: "Напишіть минулий час",
+    guessImperfect: "Вгадайте минулий час",
+    writePastParticiple: "Напишіть дієприкметник минулого часу",
+    guessPastParticiple: "Вгадайте дієприкметник минулого часу",
+    translationPrefix: "Переклад:",
+    hintTapAnswer: "Натисніть картку, щоб побачити відповідь.",
+    hintTapSwitch: "Натисніть картку, щоб змінити форму.",
+    hintSessionProgress: "{label}: {current} / {total}. {tap}",
+    noShuffleForms: "У цього дієслова недостатньо форм для перемішування."
   },
   notices: {
     chooseNextGroup: "Оберіть наступну групу в головному меню.",
@@ -272,7 +286,8 @@ window.LANGUAGE_UI_STRINGS = {
     incorrect: "Неправильно",
     expectedLabel: "Правильно:",
     noVerbTask: "Для цього дієслова немає завдання з правопису.",
-    writeAnswer: "Введіть відповідь"
+    writeAnswer: "Введіть відповідь",
+    missingChar: "не вистачає: {char}"
   },
   progress: { verbsHeading: "Дієслова", courseHeading: "Курс" },
   study: {
