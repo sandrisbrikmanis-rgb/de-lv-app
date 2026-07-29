@@ -47,11 +47,16 @@ window.LANGUAGE_UI_STRINGS = {
     chooseAnotherGroup: "Vali teine grupp",
     listen: "Kuula",
     listenPlural: "Kuula mitmust",
+    listenWithWord: "Kuula: {word}",
     autoplayOn: "Automaatne esitus sees",
     autoplayOff: "Automaatne esitus väljas",
+    autoplayLabel: "Automaatne esitus",
+    autoplayAriaOn: "{label} (automaatselt sees)",
+    autoplayAriaOff: "{label} (automaatselt väljas)",
     disableAutoplay: "Lülita automaatne esitus välja",
     enableAutoplay: "Lülita automaatne esitus sisse",
-    markUnwanted: "Märgi ebavajalikuks"
+    markUnwanted: "Märgi ebavajalikuks",
+    masteredWords: "100% tuntud"
   },
   tools: {
     problemShort: "Probl.",
@@ -92,7 +97,16 @@ window.LANGUAGE_UI_STRINGS = {
     pastParticiple: "Mineviku osavõte",
     infinitiv: "Infinitiv",
     writeInfinitive: "Kirjuta infinitiiv",
-    guessInfinitive: "Arva infinitiiv"
+    guessInfinitive: "Arva infinitiiv",
+    writeImperfect: "Kirjuta imperfekt",
+    guessImperfect: "Arva imperfekt",
+    writePastParticiple: "Kirjuta mineviku kesksõna",
+    guessPastParticiple: "Arva mineviku kesksõna",
+    translationPrefix: "Tõlge:",
+    hintTapAnswer: "Puuduta kaarti, et näha vastust.",
+    hintTapSwitch: "Puuduta kaarti, et vahetada vormi.",
+    hintSessionProgress: "{label}: {current} / {total}. {tap}",
+    noShuffleForms: "Sellel tegusõnal ei ole segamiseks piisavalt vorme."
   },
   notices: {
     chooseNextGroup: "Vali järgmine grupp peamenüüst.",
@@ -272,7 +286,8 @@ window.LANGUAGE_UI_STRINGS = {
     incorrect: "Valesti",
     expectedLabel: "Õigesti:",
     noVerbTask: "Selle tegusõna jaoks pole õigekirja ülesannet.",
-    writeAnswer: "Sisesta vastus"
+    writeAnswer: "Sisesta vastus",
+    missingChar: "puudub: {char}"
   },
   progress: { verbsHeading: "Tegusõnad", courseHeading: "Kursus" },
   study: {

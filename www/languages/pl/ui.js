@@ -47,11 +47,16 @@ window.LANGUAGE_UI_STRINGS = {
     chooseAnotherGroup: "Wybierz inną grupę",
     listen: "Słuchaj",
     listenPlural: "Słuchaj liczby mnogiej",
+    listenWithWord: "Słuchaj: {word}",
     autoplayOn: "Automatyczne odtwarzanie włączone",
     autoplayOff: "Automatyczne odtwarzanie wyłączone",
+    autoplayLabel: "Automatyczne odtwarzanie",
+    autoplayAriaOn: "{label} (automatycznie włączone)",
+    autoplayAriaOff: "{label} (automatycznie wyłączone)",
     disableAutoplay: "Wyłącz automatyczne odtwarzanie",
     enableAutoplay: "Włącz automatyczne odtwarzanie",
-    markUnwanted: "Oznacz jako niepotrzebne"
+    markUnwanted: "Oznacz jako niepotrzebne",
+    masteredWords: "100% znane"
   },
   tools: {
     problemShort: "Probl.",
@@ -92,7 +97,16 @@ window.LANGUAGE_UI_STRINGS = {
     pastParticiple: "Imiesłów przeszły",
     infinitiv: "Infinitiv",
     writeInfinitive: "Napisz bezokolicznik",
-    guessInfinitive: "Zgadnij bezokolicznik"
+    guessInfinitive: "Zgadnij bezokolicznik",
+    writeImperfect: "Napisz czas przeszły",
+    guessImperfect: "Zgadnij czas przeszły",
+    writePastParticiple: "Napisz imiesłów przeszły",
+    guessPastParticiple: "Zgadnij imiesłów przeszły",
+    translationPrefix: "Tłumaczenie:",
+    hintTapAnswer: "Kliknij kartę, aby zobaczyć odpowiedź.",
+    hintTapSwitch: "Kliknij kartę, aby zmienić formę.",
+    hintSessionProgress: "{label}: {current} / {total}. {tap}",
+    noShuffleForms: "Ten czasownik nie ma wystarczającej liczby form do losowania."
   },
   notices: {
     chooseNextGroup: "Wybierz następną grupę w menu głównym.",
@@ -272,7 +286,8 @@ window.LANGUAGE_UI_STRINGS = {
     incorrect: "Niepoprawnie",
     expectedLabel: "Poprawnie:",
     noVerbTask: "Brak zadania pisowni dla tego czasownika.",
-    writeAnswer: "Wpisz odpowiedź"
+    writeAnswer: "Wpisz odpowiedź",
+    missingChar: "brakuje: {char}"
   },
   progress: { verbsHeading: "Czasowniki", courseHeading: "Kurs" },
   study: {

@@ -56,8 +56,8 @@
       nativeCode: "LT",
       active: true,
       uiAvailable: true,
-      dataStatus: "fallback",
-      hasStudyData: false,
+      dataStatus: "complete",
+      hasStudyData: true,
       uiPath: "./languages/lt/ui.js",
       dataManifestPath: "./languages/lt/data/manifest.js"
     },

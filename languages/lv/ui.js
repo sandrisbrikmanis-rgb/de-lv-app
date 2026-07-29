@@ -55,11 +55,16 @@ window.LANGUAGE_UI_STRINGS = {
     chooseAnotherGroup: "Izvēlēties citu grupu",
     listen: "Klausīties",
     listenPlural: "Klausīties daudzskaitli",
+    listenWithWord: "Klausīties: {word}",
     autoplayOn: "Automātiska izruna ieslēgta",
     autoplayOff: "Automātiska izruna izslēgta",
+    autoplayLabel: "Automātiska izruna",
+    autoplayAriaOn: "{label} (automātiski ieslēgts)",
+    autoplayAriaOff: "{label} (automātiski izslēgts)",
     disableAutoplay: "Izslēgt automātisko izrunu",
     enableAutoplay: "Ieslēgt automātisko izrunu",
-    markUnwanted: "Atzīmēt kā nevajadzīgu"
+    markUnwanted: "Atzīmēt kā nevajadzīgu",
+    masteredWords: "100% zināmi"
   },
   tools: {
     problemShort: "Probl.",
@@ -108,6 +113,10 @@ window.LANGUAGE_UI_STRINGS = {
     infinitiv: "Infinitiv",
     writeInfinitive: "Uzraksti infinitīvu",
     guessInfinitive: "Uzmini infinitīvu",
+    writeImperfect: "Uzraksti imperfektu",
+    guessImperfect: "Uzmini imperfektu",
+    writePastParticiple: "Uzraksti pagātnes divdabi",
+    guessPastParticiple: "Uzmini pagātnes divdabi",
     translationPrefix: "Tulkojums:",
     hintTapAnswer: "Klikšķini uz kartītes, lai redzētu atbildi.",
     hintTapSwitch: "Klikšķini uz kartītes, lai pārslēgtu formu.",
@@ -302,7 +311,8 @@ window.LANGUAGE_UI_STRINGS = {
     incorrect: "Nepareizi",
     expectedLabel: "Pareizi:",
     noVerbTask: "Šim darbības vārdam nav pareizrakstības uzdevuma.",
-    writeAnswer: "Ieraksti atbildi"
+    writeAnswer: "Ieraksti atbildi",
+    missingChar: "trūkst: {char}"
   },
   progress: {
     verbsHeading: "Darbības vārdi",
