@@ -1635,7 +1635,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wie heißt du?"
           },
           {
-            "lv": "Mane vadina Pēteris.",
+            "lv": "Mane vadina Petras.",
             "de": "Ich heiße Peter."
           },
           {
@@ -1643,7 +1643,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wie heißt er?"
           },
           {
-            "lv": "Jį vadina Jānis.",
+            "lv": "Jį vadina Jonas.",
             "de": "Er heißt Johann."
           },
           {
@@ -1663,7 +1663,7 @@ const COURSE_LESSON_DATA = {
             "de": "Ist Max groß?"
           },
           {
-            "lv": "Ne, Maksis nėra didelis, Rūdolfs yra didesnis.",
+            "lv": "Ne, Maksis nėra didelis, Rudolfas yra didesnis.",
             "de": "Nein, Max ist nicht groß, Rudolf ist größer."
           },
           {
@@ -2163,23 +2163,23 @@ const COURSE_LESSON_DATA = {
             "de": "Wer atmet tief?"
           },
           {
-            "lv": "Pēteris ir Anna kvėpuoja giliai.",
+            "lv": "Petras ir Anna kvėpuoja giliai.",
             "de": "Peter und Anna atmen tief."
           },
           {
-            "lv": "Ar Roberts taip pat mankštinasi?",
+            "lv": "Ar Robertas taip pat mankštinasi?",
             "de": "Turnt Robert auch?"
           },
           {
-            "lv": "Ne, Roberts ir Jānis nesimankština.",
+            "lv": "Ne, Robertas ir Jonas nesimankština.",
             "de": "Nein, Robert und Johann turnen nicht."
           },
           {
-            "lv": "Robert, mankštinkis!",
+            "lv": "Robertai, mankštinkis!",
             "de": "Robert, turne!"
           },
           {
-            "lv": "Robert ir Jāni, mankštinkitės!",
+            "lv": "Robertai ir Jonai, mankštinkitės!",
             "de": "Robert und Johann, turnt!"
           },
           {

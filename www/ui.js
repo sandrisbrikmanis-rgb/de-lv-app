@@ -528,8 +528,26 @@ const COURSE_SECTION_I18N_KEYS = {
   "Gramatika": "kurss.sections.grammar",
   "Vingrinājums": "kurss.sections.exercise",
   "Pārtulko": "kurss.sections.translate",
-  "Übung / Vingrinājums": "kurss.sections.exerciseCombined"
+  "Išversk": "kurss.sections.translate",
+  "Pratimas": "kurss.sections.exercise",
+  "Übung / Vingrinājums": "kurss.sections.exerciseCombined",
+  "Übung / Pratimas": "kurss.sections.exerciseCombined"
 };
+
+const COURSE_TRANSLATE_SECTION_TITLES = new Set(["Pārtulko", "Išversk"]);
+const COURSE_EXERCISE_SECTION_TITLES = new Set(["Vingrinājums", "Pratimas", "Übung / Vingrinājums", "Übung / Pratimas"]);
+
+function isCourseTranslateSection(title) {
+  return COURSE_TRANSLATE_SECTION_TITLES.has(String(title || "").trim());
+}
+
+function isCourseExerciseSection(title) {
+  return COURSE_EXERCISE_SECTION_TITLES.has(String(title || "").trim());
+}
+
+function findCourseLessonCardSection(lesson, matcher) {
+  return lesson?.sections?.find((section) => matcher(section.title) && Array.isArray(section.cards)) || null;
+}
 
 function getCourseLessonNumber(lessonId) {
   return String(lessonId || "").match(/\d+/)?.[0] || "";
@@ -585,7 +603,7 @@ function localizeLegacyCourseLessonUi(target, lessonId, lesson) {
       if (hint) hint.textContent = getCourseExerciseHint(internalTitle, lessonKey);
     }
     const progress = accordion.querySelector(".lesson1-training-progress");
-    if (progress && lessonNumber && (internalTitle === "Pārtulko" || rawTitle === "Pārtulko")) {
+    if (progress && lessonNumber && (isCourseTranslateSection(internalTitle) || isCourseTranslateSection(rawTitle))) {
       const match = progress.textContent.match(/(\d+)\s*\/\s*(\d+)/);
       if (match) {
         progress.textContent = formatCourseTranslateProgress(lessonNumber, Number(match[1]), Number(match[2]));
@@ -595,11 +613,11 @@ function localizeLegacyCourseLessonUi(target, lessonId, lesson) {
 }
 
 function getCourseExerciseHint(sectionTitle, lessonId) {
-  if (lessonId === "lesson9" && sectionTitle === "Übung / Vingrinājums") {
+  if (lessonId === "lesson9" && (sectionTitle === "Übung / Vingrinājums" || sectionTitle === "Übung / Pratimas")) {
     return t("kurss.hints.tapNextStep");
   }
-  if (sectionTitle === "Vingrinājums") return t("kurss.hints.tapToContinue");
-  if (sectionTitle === "Pārtulko") return t("kurss.hints.tapToRevealGerman");
+  if (sectionTitle === "Vingrinājums" || sectionTitle === "Pratimas") return t("kurss.hints.tapToContinue");
+  if (isCourseTranslateSection(sectionTitle)) return t("kurss.hints.tapToRevealGerman");
   return t("kurss.hints.tapToRevealAnswer");
 }
 
@@ -802,7 +820,7 @@ function getCourseExerciseCards(lessonId) {
   const lessonNumber = String(lessonId || "").match(/\d+/)?.[0];
   if (!lessonNumber) return [];
   const lesson = window.COURSE_LESSON_DATA?.[`kurssLesson${lessonNumber}`];
-  return lesson?.sections?.find((section) => section.title === "Vingrinājums" && Array.isArray(section.cards))?.cards || [];
+  return findCourseLessonCardSection(lesson, isCourseExerciseSection)?.cards || [];
 }
 
 function resolveExerciseMeta(instruction, task, fallback) {
@@ -1083,8 +1101,12 @@ function getExerciseSourceCards(lessonId) {
   const lessonNumber = String(lessonId || "").match(/\d+/)?.[0];
   if (!lessonNumber) return [];
   if (lessonNumber === "7") {
-    if (getActiveCourseLanguageCode() === "et" && typeof lesson7ExerciseCardsEt !== "undefined") {
+    const lang = getActiveCourseLanguageCode();
+    if (lang === "et" && typeof lesson7ExerciseCardsEt !== "undefined") {
       return lesson7ExerciseCardsEt;
+    }
+    if (lang === "lt" && typeof lesson7ExerciseCardsLt !== "undefined") {
+      return lesson7ExerciseCardsLt;
     }
     return typeof lesson7ExerciseCards !== "undefined" ? lesson7ExerciseCards : [];
   }
@@ -1096,7 +1118,7 @@ function getExerciseSourceCards(lessonId) {
   }
   if (lessonNumber === "9") {
     const lesson = window.COURSE_LESSON_DATA?.kurssLesson9;
-    return lesson?.sections?.find((section) => section.title === "Übung / Vingrinājums")?.cards || [];
+    return findCourseLessonCardSection(lesson, isCourseExerciseSection)?.cards || [];
   }
   const normalizedLessonId = lessonId.startsWith("lesson") ? lessonId : `lesson${lessonNumber}`;
   return getCourseExerciseCards(normalizedLessonId);
@@ -1308,19 +1330,37 @@ function handleCourseExerciseCardClick(card) {
 }function getCourseTranslateCards(lessonId) {
   const lessonNumber = String(lessonId || "").match(/\d+/)?.[0];
   if (!lessonNumber) return [];
-  const isEt = getActiveCourseLanguageCode() === "et";
-  const legacyDecks = {
-    lesson1: (isEt && typeof lesson1TrainingCardsEt !== "undefined") ? lesson1TrainingCardsEt : (typeof lesson1TrainingCards !== "undefined" ? lesson1TrainingCards : []),
-    lesson2: (isEt && typeof lesson2TrainingCardsEt !== "undefined") ? lesson2TrainingCardsEt : (typeof lesson2TrainingCards !== "undefined" ? lesson2TrainingCards : []),
-    lesson3: (isEt && typeof lesson3TrainingCardsEt !== "undefined") ? lesson3TrainingCardsEt : (typeof lesson3TrainingCards !== "undefined" ? lesson3TrainingCards : []),
-    lesson4: (isEt && typeof lesson4TrainingCardsEt !== "undefined") ? lesson4TrainingCardsEt : (typeof lesson4TrainingCards !== "undefined" ? lesson4TrainingCards : []),
-    lesson5: (isEt && typeof lesson5TrainingCardsEt !== "undefined") ? lesson5TrainingCardsEt : (typeof lesson5TrainingCards !== "undefined" ? lesson5TrainingCards : []),
-    lesson6: (isEt && typeof lesson6TrainingCardsEt !== "undefined") ? lesson6TrainingCardsEt : (typeof lesson6TrainingCards !== "undefined" ? lesson6TrainingCards : [])
-  };
-  const legacyDeck = legacyDecks[`lesson${lessonNumber}`];
-  if (legacyDeck) return legacyDeck.map((card) => ({ lv: card.front || card.lv || "", de: card.back || card.de || "" }));
+  const lang = getActiveCourseLanguageCode();
+  if (lang === "lt") {
+    const ltDecks = {
+      lesson1: typeof lesson1TrainingCardsLt !== "undefined" ? lesson1TrainingCardsLt : [],
+      lesson2: typeof lesson2TrainingCardsLt !== "undefined" ? lesson2TrainingCardsLt : [],
+      lesson3: typeof lesson3TrainingCardsLt !== "undefined" ? lesson3TrainingCardsLt : [],
+      lesson4: typeof lesson4TrainingCardsLt !== "undefined" ? lesson4TrainingCardsLt : [],
+      lesson5: typeof lesson5TrainingCardsLt !== "undefined" ? lesson5TrainingCardsLt : [],
+      lesson6: typeof lesson6TrainingCardsLt !== "undefined" ? lesson6TrainingCardsLt : []
+    };
+    const ltDeck = ltDecks[`lesson${lessonNumber}`];
+    if (ltDeck?.length) {
+      return ltDeck.map((card) => ({ lv: card.front || card.lv || "", de: card.back || card.de || "" }));
+    }
+  } else if (lang !== "lt") {
+    const isEt = lang === "et";
+    const legacyDecks = {
+      lesson1: (isEt && typeof lesson1TrainingCardsEt !== "undefined") ? lesson1TrainingCardsEt : (typeof lesson1TrainingCards !== "undefined" ? lesson1TrainingCards : []),
+      lesson2: (isEt && typeof lesson2TrainingCardsEt !== "undefined") ? lesson2TrainingCardsEt : (typeof lesson2TrainingCards !== "undefined" ? lesson2TrainingCards : []),
+      lesson3: (isEt && typeof lesson3TrainingCardsEt !== "undefined") ? lesson3TrainingCardsEt : (typeof lesson3TrainingCards !== "undefined" ? lesson3TrainingCards : []),
+      lesson4: (isEt && typeof lesson4TrainingCardsEt !== "undefined") ? lesson4TrainingCardsEt : (typeof lesson4TrainingCards !== "undefined" ? lesson4TrainingCards : []),
+      lesson5: (isEt && typeof lesson5TrainingCardsEt !== "undefined") ? lesson5TrainingCardsEt : (typeof lesson5TrainingCards !== "undefined" ? lesson5TrainingCards : []),
+      lesson6: (isEt && typeof lesson6TrainingCardsEt !== "undefined") ? lesson6TrainingCardsEt : (typeof lesson6TrainingCards !== "undefined" ? lesson6TrainingCards : [])
+    };
+    const legacyDeck = legacyDecks[`lesson${lessonNumber}`];
+    if (legacyDeck?.length) {
+      return legacyDeck.map((card) => ({ lv: card.front || card.lv || "", de: card.back || card.de || "" }));
+    }
+  }
   const lesson = window.COURSE_LESSON_DATA?.[`kurssLesson${lessonNumber}`];
-  return lesson?.sections?.find((section) => section.title === "Pārtulko" && Array.isArray(section.cards))?.cards || [];
+  return findCourseLessonCardSection(lesson, isCourseTranslateSection)?.cards || [];
 }
 
 function getCourseTranslateLessonIdFromCard(card) {
@@ -1490,13 +1530,13 @@ function renderCourseLessonFromData(target, lesson, exerciseAttribute, lessonId)
     if (isExercise) {
       let attr = exerciseAttribute || "data-course-exercise-card";
       const hint = getCourseExerciseHint(section.title, lesson.id || "");
-      if (section.title === "Vingrinājums") {
+      if (section.title === "Vingrinājums" || section.title === "Pratimas") {
         attr = 'data-course-exercise-card data-lesson-id="' + escapeHtml(lesson.id || "") + '"';
       }
-      if (section.title === "Pārtulko") {
+      if (isCourseTranslateSection(section.title)) {
         attr = 'data-course-translate-card data-lesson-id="' + escapeHtml(lesson.id || "") + '"';
       }
-      if (lesson.id === "lesson9" && section.title === "Übung / Vingrinājums") {
+      if (lesson.id === "lesson9" && (section.title === "Übung / Vingrinājums" || section.title === "Übung / Pratimas")) {
         attr = "data-lesson9-exercise-card";
       }      bodyParts.push('<div class="lesson1-training-wrap"><button class="lesson1-training-flashcard" type="button" ' + attr + ' data-training-index="0" data-showing-back="false" aria-label="' + escapeHtml(t("kurss.hints.exerciseCardAria", { title: lesson.title || "" })) + '"></button><p class="lesson1-training-hint">' + escapeHtml(hint) + '</p></div>');
     } else {
@@ -2322,7 +2362,7 @@ function prepareLesson13Accordion() {
 }
 function getLesson9ExerciseCards() {
   const lesson = window.COURSE_LESSON_DATA?.kurssLesson9;
-  return lesson?.sections?.find(section => section.title === "Übung / Vingrinājums")?.cards || [];
+  return findCourseLessonCardSection(lesson, isCourseExerciseSection)?.cards || [];
 }
 
 function formatExerciseFormMeta(form, fallback) {
