@@ -73,11 +73,10 @@ for (const lvl of ["a1", "a2", "b1", "b2", "c1", "c2"]) {
   }
 }
 
-// Two pre-existing residual gaps are accepted (documented, non-regressable
-// edge cases: "sitzen"/"stehen" A2 cards use a meta-text placeholder row
-// ("būsena; setzen" / "būsena; stellen") where even the LV highlight term
-// does not literally match the text, so no reliable LT equivalent exists).
-const ACCEPTED_RESIDUAL_GAPS = 2;
+// The former "sitzen"/"stehen" A2 meta-text placeholder rows were
+// completed with real example sentences (2026-07-30), so no residual
+// gaps are expected anymore.
+const ACCEPTED_RESIDUAL_GAPS = 0;
 
 if (results.length > ACCEPTED_RESIDUAL_GAPS) {
   console.error(`Highlight density validation FAILED: ${results.length} cards have new highlight gaps (expected <= ${ACCEPTED_RESIDUAL_GAPS}).`);

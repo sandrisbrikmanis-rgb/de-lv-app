@@ -52739,8 +52739,8 @@ const A2_WORDS = [
           "lv": "aš sėdžiu prie stalo."
         },
         {
-          "de": "sitzen",
-          "lv": "būsena; setzen"
+          "de": "Sie sitzt schon seit einer Stunde hier.",
+          "lv": "ji sėdi čia jau visą valandą."
         }
       ],
       "comparison": [
@@ -52845,10 +52845,14 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
-                "sitzen"
+                "sitzt"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "sėdi"
+              ]
+            }
           }
         ],
         "tip": [
@@ -54103,8 +54107,8 @@ const A2_WORDS = [
           "lv": "butelis stovi ant stalo."
         },
         {
-          "de": "stehen",
-          "lv": "būsena; stellen"
+          "de": "Das Auto steht vor dem Haus.",
+          "lv": "automobilis stovi prie namo."
         }
       ],
       "comparison": [
@@ -54185,14 +54189,14 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
-                "stehen"
+                "steht"
               ]
             },
-            "lv": {}
-          },
-          {
-            "de": {},
-            "lv": {}
+            "lv": {
+              "purple": [
+                "stovi"
+              ]
+            }
           }
         ],
         "tip": [
