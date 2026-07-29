@@ -255,7 +255,17 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "anbauen"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "anbauen"
@@ -421,7 +431,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "angeben"
+                ],
+                "purple": [
+                  "nurodyti"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "angeben"
@@ -569,7 +592,11 @@ const B1_WORDS = [
                 "an"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "pritvirtina"
+              ]
+            }
           },
           {
             "de": {
@@ -624,7 +651,17 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "anbringen"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "anbringen"
@@ -761,7 +798,11 @@ const B1_WORDS = [
                 "ab"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "išardome"
+              ]
+            }
           },
           {
             "de": {
@@ -815,7 +856,17 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "abbauen"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "abbauen"
@@ -968,7 +1019,17 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "abbrechen"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "abbrechen"
@@ -1076,7 +1137,11 @@ const B1_WORDS = [
                 "ab"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "po"
+              ]
+            }
           }
         ],
         "comparison": [
@@ -1117,7 +1182,17 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "abdecken"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "abdecken"
@@ -1302,7 +1377,17 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "abgehen"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "abgehen"
@@ -1428,7 +1513,20 @@ const B1_WORDS = [
             "meaning": {}
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "abhängen"
+                ],
+                "purple": [
+                  "būti priklausomam"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "abhängen"
@@ -1556,7 +1654,11 @@ const B1_WORDS = [
                 "ab"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "nudeda"
+              ]
+            }
           },
           {
             "de": {
@@ -1611,7 +1713,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "ablegen"
+                ],
+                "purple": [
+                  "egzaminą"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "ablegen"
@@ -1791,7 +1906,17 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "abnehmen"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "abnehmen"
@@ -1881,7 +2006,11 @@ const B1_WORDS = [
                 "Absatz"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "pastraipą"
+              ]
+            }
           },
           {
             "de": {
@@ -1915,7 +2044,11 @@ const B1_WORDS = [
                 "gestiegen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "pardavimai"
+              ]
+            }
           }
         ],
         "comparison": [
@@ -1956,7 +2089,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "Absatz"
+                ],
+                "purple": [
+                  "pastraipa"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "absatz"
@@ -2114,7 +2260,17 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "Abschluss"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "abschluss"
@@ -2258,7 +2414,17 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "Abschnitt"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "abschnitt"
@@ -2337,7 +2503,11 @@ const B1_WORDS = [
                 "ab"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "padėk"
+              ]
+            }
           },
           {
             "de": {
@@ -2382,7 +2552,17 @@ const B1_WORDS = [
             "meaning": {}
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "absetzen"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "absetzen"
@@ -2749,7 +2929,17 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "Anlage"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "anlage"
@@ -2872,7 +3062,17 @@ const B1_WORDS = [
             "meaning": {}
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "anmachen"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "anmachen"
@@ -3064,7 +3264,11 @@ const B1_WORDS = [
                 "Eingang"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "prie"
+              ]
+            }
           }
         ],
         "comparison": [
@@ -3105,7 +3309,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "Anschlag"
+                ],
+                "purple": [
+                  "atentatas"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "anschlag"
@@ -3193,7 +3410,11 @@ const B1_WORDS = [
                 "verpasst"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "į"
+              ]
+            }
           },
           {
             "de": {
@@ -3246,7 +3467,17 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "Anschluss"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "anschluss"
@@ -3405,7 +3636,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "Ansehen"
+                ],
+                "purple": [
+                  "reputaciją"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "ansehen"
@@ -3561,7 +3805,11 @@ const B1_WORDS = [
                 "Hilfe"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "prašymą"
+              ]
+            }
           },
           {
             "de": {
@@ -3630,7 +3878,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "Antrag"
+                ],
+                "purple": [
+                  "prašymas"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "antrag"
@@ -3994,7 +4255,17 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "Auftrag"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "auftrag"
@@ -4138,7 +4409,17 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "Aufwand"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "aufwand"
@@ -4305,7 +4586,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "aufgeführt"
+                ],
+                "purple": [
+                  "aufführen"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "aufführen"
@@ -4466,8 +4760,22 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
-        "important": {}
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "Su"
+                ]
+              }
+            }
+          ]
+        },
+        "important": {
+          "blue": [
+            "sich aufhalten"
+          ]
+        }
       }
     }
   },
@@ -4592,7 +4900,11 @@ const B1_WORDS = [
                 "Erfolg"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "perspektyvos"
+              ]
+            }
           },
           {
             "de": {
@@ -4603,7 +4915,11 @@ const B1_WORDS = [
                 "hier"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Iš"
+              ]
+            }
           },
           {
             "de": {
@@ -4671,7 +4987,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "Aussicht auf"
+                ],
+                "purple": [
+                  "perspektyvos"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "perspektyvas"
@@ -4780,7 +5109,11 @@ const B1_WORDS = [
                 "Rede"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Po"
+              ]
+            }
           }
         ],
         "explanation": {
@@ -4829,7 +5162,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "Aussprache"
+                ],
+                "purple": [
+                  "tarimas"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "formaliau"
@@ -4972,7 +5318,20 @@ const B1_WORDS = [
             "meaning": {}
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "ausstellen"
+                ],
+                "purple": [
+                  "išduoti"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "oficialiai išduoti"
@@ -5103,7 +5462,11 @@ const B1_WORDS = [
                 "Einfluss"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "turi"
+              ]
+            }
           }
         ],
         "explanation": {
@@ -5156,7 +5519,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "ausüben"
+                ],
+                "purple": [
+                  "einfluss"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "beruf",
@@ -5354,7 +5730,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "Auszug aus"
+                ],
+                "purple": [
+                  "Išsikraustymas"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "išsikraustymą",
@@ -5653,7 +6042,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "auf dem Bau"
+                ],
+                "purple": [
+                  "Statybvietėje"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "procesas",
@@ -5885,8 +6287,28 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
-        "important": {}
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "Becken"
+                ],
+                "purple": [
+                  "baseinas"
+                ]
+              }
+            }
+          ]
+        },
+        "important": {
+          "blue": [
+            "Becken"
+          ],
+          "purple": [
+            "baseino"
+          ]
+        }
       }
     }
   },
@@ -6062,7 +6484,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "bedeutend"
+                ],
+                "purple": [
+                  "reikšmingas"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "formalesnis"
@@ -6130,7 +6565,11 @@ const B1_WORDS = [
                 "sich"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "imkite patys"
+              ]
+            }
           },
           {
             "de": {
@@ -6141,7 +6580,11 @@ const B1_WORDS = [
                 "Technik"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "naudoja"
+              ]
+            }
           },
           {
             "de": {
@@ -6211,7 +6654,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "bedienen"
+                ],
+                "purple": [
+                  "aptarnauti"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "naudojasi"
@@ -6608,7 +7064,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "behandeln"
+                ],
+                "purple": [
+                  "aptarti"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "procesas",
@@ -6924,7 +7393,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "belegen"
+                ],
+                "purple": [
+                  "į"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "užimta",
@@ -7126,7 +7608,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "bemerken"
+                ],
+                "purple": [
+                  "pastebi"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "pastebėti",
@@ -7297,7 +7792,17 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "sich bemühen"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "mandagiau",
@@ -7497,7 +8002,17 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "beraten sich"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "den Kunden"
@@ -7697,7 +8212,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "Bereich"
+                ],
+                "purple": [
+                  "sritis"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "abstrakti"
@@ -7922,7 +8450,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "berichten"
+                ],
+                "purple": [
+                  "über"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "über",
@@ -8022,7 +8563,11 @@ const B1_WORDS = [
                 "dich"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "nurimk"
+              ]
+            }
           },
           {
             "de": {
@@ -8104,8 +8649,28 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
-        "important": {}
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "sich"
+                ],
+                "purple": [
+                  "nurimsta"
+                ]
+              }
+            }
+          ]
+        },
+        "important": {
+          "blue": [
+            "Beruhig"
+          ],
+          "purple": [
+            "nurimk"
+          ]
+        }
       }
     }
   },
@@ -8169,7 +8734,11 @@ const B1_WORDS = [
                 "Berühmtheit"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "šlovę"
+              ]
+            }
           },
           {
             "de": {
@@ -8249,8 +8818,25 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
-        "important": {}
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "Berühmtheiten"
+                ],
+                "purple": [
+                  "šlovė"
+                ]
+              }
+            }
+          ]
+        },
+        "important": {
+          "purple": [
+            "žinomas asmuo"
+          ]
+        }
       }
     }
   },
@@ -8444,7 +9030,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "beschließen"
+                ],
+                "purple": [
+                  "uždarymas"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "nuspręsti",
@@ -8559,7 +9158,11 @@ const B1_WORDS = [
                 "Rücken"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "negalavimų"
+              ]
+            }
           }
         ],
         "explanation": {
@@ -8609,7 +9212,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "Beschwerden"
+                ],
+                "purple": [
+                  "skundas"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "sveikatos negalavimai",
@@ -8803,7 +9419,17 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "besorgen"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "sich Sorgen machen",
@@ -8950,7 +9576,11 @@ const B1_WORDS = [
                 "Meinung"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "atkakliai laikosi"
+              ]
+            }
           }
         ],
         "explanation": {
@@ -9001,7 +9631,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "bestehen"
+                ],
+                "purple": [
+                  "reikalauti"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "bestehen"
@@ -9071,7 +9714,11 @@ const B1_WORDS = [
                 "Dosis"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "nustato"
+              ]
+            }
           },
           {
             "de": {
@@ -9156,7 +9803,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "bestimmen"
+                ],
+                "purple": [
+                  "nustato"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "entscheiden"
@@ -9315,7 +9975,11 @@ const B1_WORDS = [
                 "Maschine"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "veikia"
+              ]
+            }
           },
           {
             "de": {
@@ -9384,7 +10048,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "in Betrieb"
+                ],
+                "purple": [
+                  "veikia"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "įmonė",
@@ -9514,7 +10191,11 @@ const B1_WORDS = [
                 "Tisch"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "nejudink"
+              ]
+            }
           },
           {
             "de": {
@@ -9593,7 +10274,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "sich bewegen"
+                ],
+                "purple": [
+                  "judėk"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "judėjimas"
@@ -9813,7 +10507,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "sich beziehen auf"
+                ],
+                "purple": [
+                  "įsikraustyti"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "beziehen"
@@ -10176,7 +10883,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "bieten"
+                ],
+                "purple": [
+                  "siūlo"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "Aktyvų pasiūlymą"
@@ -10373,7 +11093,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "Blasen"
+                ],
+                "purple": [
+                  "Burbulai"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "pūslė",
@@ -10588,8 +11321,25 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
-        "important": {}
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "Block"
+                ],
+                "purple": [
+                  "blokas"
+                ]
+              }
+            }
+          ]
+        },
+        "important": {
+          "blue": [
+            "Block"
+          ]
+        }
       }
     }
   },
@@ -10748,7 +11498,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "bloß"
+                ],
+                "purple": [
+                  "prie"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "tik"
@@ -10886,7 +11649,11 @@ const B1_WORDS = [
                 "aus"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "užpildykite"
+              ]
+            }
           }
         ],
         "explanation": {
@@ -10932,7 +11699,17 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "Bogen"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "bogen"
@@ -11275,7 +12052,11 @@ const B1_WORDS = [
                 "Hand"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "ant"
+              ]
+            }
           }
         ],
         "explanation": {
@@ -11328,7 +12109,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "Brand"
+                ],
+                "purple": [
+                  "gaisras"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "prekės ženklas"
@@ -11736,7 +12530,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "Bund"
+                ],
+                "purple": [
+                  "federacija"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "schlüssel",
@@ -12053,7 +12860,17 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "dadurch"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "dadurch"
@@ -12197,7 +13014,17 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "dagegen"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "dagegen"
@@ -12346,7 +13173,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "daher"
+                ],
+                "purple": [
+                  "todėl"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "daher"
@@ -12497,7 +13337,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "dahin"
+                ],
+                "purple": [
+                  "į"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "Buvimo vietą"
@@ -12634,7 +13487,11 @@ const B1_WORDS = [
                 "Dank"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "dėkui"
+              ]
+            }
           },
           {
             "de": {
@@ -12656,7 +13513,11 @@ const B1_WORDS = [
                 "schön"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "dėkui"
+              ]
+            }
           },
           {
             "de": {
@@ -12664,7 +13525,11 @@ const B1_WORDS = [
                 "danke"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "dėkui"
+              ]
+            }
           },
           {
             "de": {
@@ -12965,7 +13830,11 @@ const B1_WORDS = [
                 "erinnere"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "gerai atsimenu"
+              ]
+            }
           }
         ],
         "explanation": {
@@ -13020,7 +13889,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "daran"
+                ],
+                "purple": [
+                  "veiksmažodį"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "veiksmą"
@@ -13199,7 +14081,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "stellt"
+                ],
+                "purple": [
+                  "vaidmenys"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "rodo/vaizduoja",
@@ -13347,7 +14242,17 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "darunter"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "darunter"
@@ -13447,7 +14352,11 @@ const B1_WORDS = [
                 "Tisch"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "dengiu"
+              ]
+            }
           },
           {
             "de": {
@@ -13539,8 +14448,28 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
-        "important": {}
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "decken"
+                ],
+                "purple": [
+                  "į"
+                ]
+              }
+            }
+          ]
+        },
+        "important": {
+          "blue": [
+            "decken"
+          ],
+          "purple": [
+            "dengti"
+          ]
+        }
       }
     }
   },
@@ -13737,7 +14666,11 @@ const B1_WORDS = [
                 "Armee"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "tarnauja"
+              ]
+            }
           }
         ],
         "explanation": {
@@ -13783,7 +14716,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "dienen"
+                ],
+                "purple": [
+                  "tarnauti"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "dienen"
@@ -14116,7 +15062,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "Druck"
+                ],
+                "purple": [
+                  "spausdinimas"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "Druck"
@@ -14324,7 +15283,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "Durchfall"
+                ],
+                "purple": [
+                  "viduriavimas"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "durchfall"
@@ -14476,7 +15448,17 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "durchführen"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "durchführen"
@@ -14735,8 +15717,28 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
-        "important": {}
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "eher"
+                ],
+                "purple": [
+                  "greičiau"
+                ]
+              }
+            }
+          ]
+        },
+        "important": {
+          "blue": [
+            "eher"
+          ],
+          "purple": [
+            "greičiau"
+          ]
+        }
       }
     }
   },
@@ -14931,7 +15933,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "eigenes"
+                ],
+                "purple": [
+                  "savas"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "savas",
@@ -15115,7 +16130,20 @@ const B1_WORDS = [
             "meaning": {}
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "einbrechen"
+                ],
+                "purple": [
+                  "įsilaužti"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "įsilaužti"
@@ -15168,7 +16196,11 @@ const B1_WORDS = [
                 "Antwort"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "vienareikšmis"
+              ]
+            }
           },
           {
             "de": {
@@ -15236,7 +16268,20 @@ const B1_WORDS = [
             "meaning": {}
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "eindeutig"
+                ],
+                "purple": [
+                  "dėl"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "paprastas"
@@ -15399,7 +16444,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "Eindruck"
+                ],
+                "purple": [
+                  "palikti"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "įspūdis",
@@ -15565,8 +16623,25 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
-        "important": {}
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "einerlei"
+                ],
+                "purple": [
+                  "vis tiek"
+                ]
+              }
+            }
+          ]
+        },
+        "important": {
+          "blue": [
+            "einerlei"
+          ]
+        }
       }
     }
   },
@@ -15725,8 +16800,25 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
-        "important": {}
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "andererseits"
+                ],
+                "purple": [
+                  "su"
+                ]
+              }
+            }
+          ]
+        },
+        "important": {
+          "blue": [
+            "andererseits"
+          ]
+        }
       }
     }
   },
@@ -15793,7 +16885,11 @@ const B1_WORDS = [
                 "parken"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "įvažos"
+              ]
+            }
           },
           {
             "de": {
@@ -15887,7 +16983,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "Einfahrt"
+                ],
+                "purple": [
+                  "į"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "įvažiavimą",
@@ -15988,7 +17097,11 @@ const B1_WORDS = [
                 "Decke"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "įgriuvo"
+              ]
+            }
           }
         ],
         "explanation": {
@@ -16016,7 +17129,20 @@ const B1_WORDS = [
             "meaning": {}
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "fällt"
+                ],
+                "purple": [
+                  "mir"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "mir"
@@ -16178,7 +17304,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "einfarbig"
+                ],
+                "purple": [
+                  "viena spalva"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "vieną spalvą"
@@ -16341,8 +17480,22 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
-        "important": {}
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "Einfluss auf"
+                ]
+              }
+            }
+          ]
+        },
+        "important": {
+          "blue": [
+            "Einfluss"
+          ]
+        }
       }
     }
   },
@@ -16466,7 +17619,20 @@ const B1_WORDS = [
             "meaning": {}
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "einfügen"
+                ],
+                "purple": [
+                  "dokumente"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "dokumentų",
@@ -16644,7 +17810,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "einführen"
+                ],
+                "purple": [
+                  "importuoti"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "įvesti"
@@ -16813,7 +17992,17 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "įvedimas"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "įvedimą"
@@ -16984,7 +18173,17 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "sich eingewöhnen"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "procesas po pokyčių"
@@ -17055,7 +18254,11 @@ const B1_WORDS = [
                 "Regeln"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "laikykitės"
+              ]
+            }
           },
           {
             "de": {
@@ -17085,7 +18288,11 @@ const B1_WORDS = [
                 "Abstand"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "laikykitės"
+              ]
+            }
           }
         ],
         "explanation": {
@@ -17135,7 +18342,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "einhalten"
+                ],
+                "purple": [
+                  "Termin"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "termino"
@@ -17312,7 +18532,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "einheimisch"
+                ],
+                "purple": [
+                  "iš"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "jaukus"
@@ -17482,7 +18715,17 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "matavimo vienetas"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "vienybę"
@@ -17647,8 +18890,25 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
-        "important": {}
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "Längeneinheit"
+                ],
+                "purple": [
+                  "ilgio matavimo vienetas"
+                ]
+              }
+            }
+          ]
+        },
+        "important": {
+          "blue": [
+            "Längeneinheit"
+          ]
+        }
       }
     }
   },
@@ -17770,7 +19030,20 @@ const B1_WORDS = [
             "meaning": {}
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "einheitlich"
+                ],
+                "purple": [
+                  "vienodas"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "vieningas",
@@ -17944,7 +19217,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "einholen"
+                ],
+                "purple": [
+                  "pasivyti"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "informationen",
@@ -18208,7 +19494,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "Einsatz"
+                ],
+                "purple": [
+                  "naudojamas"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "daiktavardis",
@@ -18414,7 +19713,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "einsetzen"
+                ],
+                "purple": [
+                  "objektą"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "objektas"
@@ -18500,7 +19812,11 @@ const B1_WORDS = [
                 "Heizung"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "nustatau"
+              ]
+            }
           },
           {
             "de": {
@@ -18602,7 +19918,17 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "einstellen"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "nutraukimo reikšmė"
@@ -18695,7 +20021,11 @@ const B1_WORDS = [
                 "ein"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "įeikite"
+              ]
+            }
           },
           {
             "de": {
@@ -18726,7 +20056,11 @@ const B1_WORDS = [
                 "Wirkung"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "pasireiškia"
+              ]
+            }
           }
         ],
         "explanation": {
@@ -18784,7 +20118,17 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "treten"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "poveikis"
@@ -18982,7 +20326,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "einziehen"
+                ],
+                "purple": [
+                  "įsikelti"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "persikraustymo"
@@ -19248,7 +20605,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "empfangen"
+                ],
+                "purple": [
+                  "priimti"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "formaliau",
@@ -19375,7 +20745,11 @@ const B1_WORDS = [
                 "Fleck"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "pašalinkite"
+              ]
+            }
           },
           {
             "de": {
@@ -19469,7 +20843,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "sich entfernen"
+                ],
+                "purple": [
+                  "pašalinti"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "judesys"
@@ -19653,7 +21040,17 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "enthalten"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "turėti savo sudėtyje",
@@ -19836,7 +21233,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "entkommen"
+                ],
+                "purple": [
+                  "pabėgti"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "sėkmingą rezultatą",
@@ -20016,7 +21426,17 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "entlässt"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "atleisti"
@@ -20201,7 +21621,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "entsprechen"
+                ],
+                "purple": [
+                  "atitinka"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "atitinka",
@@ -20372,7 +21805,17 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "entstehen"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "Sąmoningai sukuria"
@@ -20683,7 +22126,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "erhalten"
+                ],
+                "purple": [
+                  "išsaugoti"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "formaliau",
@@ -20971,7 +22427,17 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "eröffnet"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "oficialią",
@@ -21164,7 +22630,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "erscheint"
+                ],
+                "purple": [
+                  "išeina"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "išeiti"
@@ -21353,7 +22832,17 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "ersetzen"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "pakeisti"
@@ -21702,7 +23191,11 @@ const B1_WORDS = [
                 "Arm"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "sugriebia"
+              ]
+            }
           },
           {
             "de": {
@@ -21713,7 +23206,11 @@ const B1_WORDS = [
                 "Gedanken"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "suvokti"
+              ]
+            }
           },
           {
             "de": {
@@ -21784,8 +23281,28 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
-        "important": {}
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "fassen"
+                ],
+                "purple": [
+                  "sugriebti"
+                ]
+              }
+            }
+          ]
+        },
+        "important": {
+          "blue": [
+            "fassen"
+          ],
+          "purple": [
+            "sugriebia"
+          ]
+        }
       }
     }
   },
@@ -21952,7 +23469,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "faul"
+                ],
+                "purple": [
+                  "tinginys"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "tinginys"
@@ -22212,7 +23742,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "festhalten"
+                ],
+                "purple": [
+                  "tvirtai laikyti"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "laikyti/fiksuoti",
@@ -22302,7 +23845,11 @@ const B1_WORDS = [
                 "Preis"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "nustatyta"
+              ]
+            }
           },
           {
             "de": {
@@ -22313,7 +23860,11 @@ const B1_WORDS = [
                 "Regeln"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "nustatytos"
+              ]
+            }
           }
         ],
         "explanation": {
@@ -22367,7 +23918,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "festlegen"
+                ],
+                "purple": [
+                  "nustatyti"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "esantį"
@@ -22484,7 +24048,11 @@ const B1_WORDS = [
                 "fest"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "konstatuoju"
+              ]
+            }
           }
         ],
         "explanation": {
@@ -22540,7 +24108,17 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "stellt"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "esantį",
@@ -22934,7 +24512,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "Folgen"
+                ],
+                "purple": [
+                  "serija"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "pasekmės",
@@ -23116,8 +24707,28 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
-        "important": {}
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "fördern"
+                ],
+                "purple": [
+                  "skatina"
+                ]
+              }
+            }
+          ]
+        },
+        "important": {
+          "blue": [
+            "fördern"
+          ],
+          "purple": [
+            "skatina"
+          ]
+        }
       }
     }
   },
@@ -23202,7 +24813,11 @@ const B1_WORDS = [
                 "fort"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "tęskite"
+              ]
+            }
           },
           {
             "de": {
@@ -23291,7 +24906,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "fortfahren"
+                ],
+                "purple": [
+                  "nuvažiuoti"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "tęsti"
@@ -23445,7 +25073,11 @@ const B1_WORDS = [
                 "Futter"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "ėda"
+              ]
+            }
           },
           {
             "de": {
@@ -23531,8 +25163,28 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
-        "important": {}
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "fressen"
+                ],
+                "purple": [
+                  "Apie"
+                ]
+              }
+            }
+          ]
+        },
+        "important": {
+          "blue": [
+            "fressen"
+          ],
+          "purple": [
+            "Apie"
+          ]
+        }
       }
     }
   },
@@ -23757,7 +25409,11 @@ const B1_WORDS = [
                 "Jacke"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "pamušalas"
+              ]
+            }
           }
         ],
         "explanation": {
@@ -23811,7 +25467,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "Futter"
+                ],
+                "purple": [
+                  "pamušalas"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "žmonių",
@@ -23917,7 +25586,11 @@ const B1_WORDS = [
                 "ganztägigen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "visą"
+              ]
+            }
           },
           {
             "de": {
@@ -23961,7 +25634,11 @@ const B1_WORDS = [
                 "ganztägiger"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "visą"
+              ]
+            }
           },
           {
             "de": {
@@ -23969,7 +25646,11 @@ const B1_WORDS = [
                 "rund um die Uhr"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "visą"
+              ]
+            }
           }
         ],
         "tip": [
@@ -24250,7 +25931,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "Gebiet"
+                ],
+                "purple": [
+                  "teritorija"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "abstrakti darbo ar žinių sritis"
@@ -24533,7 +26227,11 @@ const B1_WORDS = [
                 "Gehälter"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "atlyginimai"
+              ]
+            }
           },
           {
             "de": {
@@ -24936,7 +26634,17 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "gilt als"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "galiojimo",
@@ -25011,7 +26719,11 @@ const B1_WORDS = [
                 "gemein"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "niekšinga"
+              ]
+            }
           },
           {
             "de": {
@@ -25096,7 +26808,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "gemein"
+                ],
+                "purple": [
+                  "apie"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "niekšiškas",
@@ -25348,7 +27073,17 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "das Gerät"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "vienaskaita",
@@ -25524,7 +27259,11 @@ const B1_WORDS = [
                 "Geschlecht"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "lytį"
+              ]
+            }
           },
           {
             "de": {
@@ -25605,7 +27344,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "Geschlecht"
+                ],
+                "purple": [
+                  "lytis"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "karta"
@@ -25769,7 +27521,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "Gesellschaft"
+                ],
+                "purple": [
+                  "visuomenė"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "visuomenė",
@@ -26036,7 +27801,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "Gewinn"
+                ],
+                "purple": [
+                  "laimikis"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "pajamų suma",
@@ -26192,7 +27970,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "ein gewisses Risiko"
+                ],
+                "purple": [
+                  "tikrai"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "formalesnis"
@@ -26372,7 +28163,17 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "sich gewöhnen an"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "priprasti",
@@ -26559,7 +28360,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "das Gitter"
+                ],
+                "purple": [
+                  "prie"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "turėklams"
@@ -26866,7 +28680,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "greifen"
+                ],
+                "purple": [
+                  "į"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "paimti",
@@ -26974,7 +28801,11 @@ const B1_WORDS = [
                 "Griff"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "rankenos"
+              ]
+            }
           },
           {
             "de": {
@@ -27038,8 +28869,25 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
-        "important": {}
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "der Griff"
+                ]
+              }
+            }
+          ]
+        },
+        "important": {
+          "blue": [
+            "der Griff"
+          ],
+          "purple": [
+            "rankena"
+          ]
+        }
       }
     }
   },
@@ -27322,7 +29170,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "das Gut"
+                ],
+                "purple": [
+                  "artikeliu"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "artikelis",
@@ -27662,7 +29523,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "handeln"
+                ],
+                "purple": [
+                  "apie"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "temą"
@@ -27827,7 +29701,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "Handgriff"
+                ],
+                "purple": [
+                  "veiksmas"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "praktišką judesį"
@@ -28069,7 +29956,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "Hau ab"
+                ],
+                "purple": [
+                  "dink"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "schlagen"
@@ -28235,7 +30135,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "Haufen"
+                ],
+                "purple": [
+                  "krūva"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "neformaliai",
@@ -28649,7 +30562,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "heraus"
+                ],
+                "purple": [
+                  "išleidžia"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "leisti"
@@ -28762,7 +30688,11 @@ const B1_WORDS = [
                 "Wo"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "iš"
+              ]
+            }
           },
           {
             "de": {
@@ -28828,8 +30758,22 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
-        "important": {}
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "Komm"
+                ]
+              }
+            }
+          ]
+        },
+        "important": {
+          "blue": [
+            "Wo kommst du her"
+          ]
+        }
       }
     }
   },
@@ -29058,7 +31002,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "hinaus"
+                ],
+                "purple": [
+                  "į"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "viršyti ribą"
@@ -29171,7 +31128,11 @@ const B1_WORDS = [
                 "Hinweis"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "už"
+              ]
+            }
           },
           {
             "de": {
@@ -29194,7 +31155,11 @@ const B1_WORDS = [
                 "Hinweis"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "nuoroda"
+              ]
+            }
           }
         ],
         "explanation": {
@@ -29246,7 +31211,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "Hinweis"
+                ],
+                "purple": [
+                  "nurodo"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "nurodo"
@@ -29543,8 +31521,22 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
-        "important": {}
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "holen"
+                ]
+              }
+            }
+          ]
+        },
+        "important": {
+          "blue": [
+            "abholen"
+          ]
+        }
       }
     }
   },
@@ -29732,7 +31724,11 @@ const B1_WORDS = [
                 "heimlich"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "klausosi"
+              ]
+            }
           }
         ],
         "explanation": {
@@ -29781,7 +31777,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "horchen"
+                ],
+                "purple": [
+                  "klausytis"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "aktyvų"
@@ -30159,7 +32168,11 @@ const B1_WORDS = [
                 "Hupe"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "signalą"
+              ]
+            }
           }
         ]
       }
@@ -30349,7 +32362,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "sich hüten"
+                ],
+                "purple": [
+                  "saugotis"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "saugotis",
@@ -30731,7 +32757,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "innerhalb"
+                ],
+                "purple": [
+                  "ribose"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "per savaitę"
@@ -31040,7 +33079,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "sich irren"
+                ],
+                "purple": [
+                  "klysti"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "klysti",
@@ -31262,7 +33314,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "jagen"
+                ],
+                "purple": [
+                  "medžioti"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "kontekstas"
@@ -31477,7 +33542,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "Jahrgang"
+                ],
+                "purple": [
+                  "metais"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "specifiškesnis"
@@ -31656,7 +33734,11 @@ const B1_WORDS = [
                 "Jünger"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "mokinių"
+              ]
+            }
           },
           {
             "de": {
@@ -31676,7 +33758,11 @@ const B1_WORDS = [
                 "Jüngerin"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "pasekėja"
+              ]
+            }
           },
           {
             "de": {
@@ -31684,7 +33770,11 @@ const B1_WORDS = [
                 "Jünger"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "mokiniai"
+              ]
+            }
           },
           {
             "de": {
@@ -31692,7 +33782,11 @@ const B1_WORDS = [
                 "Jünger"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "mokiniu"
+              ]
+            }
           }
         ],
         "tip": [
@@ -31906,7 +34000,11 @@ const B1_WORDS = [
                 "Kader"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "branduoliui"
+              ]
+            }
           }
         ],
         "tip": [
@@ -32291,7 +34389,11 @@ const B1_WORDS = [
                 "Hof"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "šluoja"
+              ]
+            }
           },
           {
             "de": {
@@ -32320,7 +34422,11 @@ const B1_WORDS = [
                 "Blick"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "į"
+              ]
+            }
           }
         ],
         "explanation": {
@@ -32370,7 +34476,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "kehren"
+                ],
+                "purple": [
+                  "šluota"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "sugrįžti"
@@ -32580,7 +34699,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "Kern"
+                ],
+                "purple": [
+                  "Esmė"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "Vaisiams"
@@ -32773,7 +34905,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "der Kiefer"
+                ],
+                "purple": [
+                  "žandikaulis"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "keičia žodžio reikšmę"
@@ -32956,7 +35101,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "kippen"
+                ],
+                "purple": [
+                  "nuo"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "nuotaikos pokytis"
@@ -33156,7 +35314,20 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "klappt"
+                ],
+                "purple": [
+                  "pavyks"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "šnekamesnis",
@@ -33485,7 +35656,17 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "knapp"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "purple": [
             "mažą",
@@ -33948,7 +36129,11 @@ const B1_WORDS = [
                 "kann"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "moku"
+              ]
+            }
           },
           {
             "de": {
@@ -36718,7 +38903,11 @@ const B1_WORDS = [
                 "kostet"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "kainuoja"
+              ]
+            }
           },
           {
             "de": {
@@ -36726,7 +38915,11 @@ const B1_WORDS = [
                 "Kosten"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "už"
+              ]
+            }
           }
         ],
         "tip": [
@@ -37181,7 +39374,11 @@ const B1_WORDS = [
           }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "Laut"
+            ]
+          }
         ]
       }
     }
@@ -37548,7 +39745,11 @@ const B1_WORDS = [
                 "Leistung"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "pasirodymas"
+              ]
+            }
           },
           {
             "de": {
@@ -37627,8 +39828,22 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
-        "important": {}
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "Leistung"
+                ]
+              }
+            }
+          ]
+        },
+        "important": {
+          "blue": [
+            "Leistung"
+          ]
+        }
       }
     }
   },
@@ -41266,7 +43481,11 @@ const B1_WORDS = [
                 "Nutzen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "naudą"
+              ]
+            }
           },
           {
             "de": {
@@ -41286,7 +43505,11 @@ const B1_WORDS = [
                 "nutze"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "išnaudoju"
+              ]
+            }
           },
           {
             "de": {
@@ -41294,7 +43517,11 @@ const B1_WORDS = [
                 "Nutzen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "naudos"
+              ]
+            }
           }
         ],
         "tip": [
@@ -52436,8 +54663,18 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": "žindyti",
-          "red": "malšinti"
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "stillen"
+                ],
+                "purple": [
+                  "žindyti"
+                ]
+              }
+            }
+          ]
         },
         "important": {
           "blue": "stillen",
@@ -53890,7 +56127,11 @@ const B1_WORDS = [
                 "Tau"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "prie"
+              ]
+            }
           }
         ]
       }
@@ -53967,7 +56208,11 @@ const B1_WORDS = [
                 "Tau"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "prie"
+              ]
+            }
           },
           {
             "de": {
@@ -53975,7 +56220,11 @@ const B1_WORDS = [
                 "Taue"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "pririšti"
+              ]
+            }
           },
           {
             "de": {
@@ -54727,7 +56976,15 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "blue": "der Titel"
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "Titel"
+                ]
+              }
+            }
+          ]
         },
         "important": {
           "red": "die Überschrift"
@@ -55186,7 +57443,11 @@ const B1_WORDS = [
                 "treffe"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "su"
+              ]
+            }
           },
           {
             "de": {
@@ -57165,8 +59426,15 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "blue": "die Untersuchung",
-          "red": "tiria"
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "Untersuchung"
+                ]
+              }
+            }
+          ]
         },
         "important": {
           "blue": "die Untersuchung",
@@ -57966,7 +60234,15 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "blue": "verderben"
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "verderben"
+                ]
+              }
+            }
+          ]
         },
         "important": {
           "blue": "verdorben",
@@ -58523,8 +60799,18 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": "perkelti",
-          "red": "neatrast"
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "verlegen"
+                ],
+                "purple": [
+                  "perkelti"
+                ]
+              }
+            }
+          ]
         },
         "important": {
           "yellow": "Schlüssel",
@@ -59220,7 +61506,11 @@ const B1_WORDS = [
                 "Verwandten"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "giminaičiai"
+              ]
+            }
           },
           {
             "de": {
@@ -59321,7 +61611,11 @@ const B1_WORDS = [
                 "Verwandten"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "giminaičiai"
+              ]
+            }
           },
           {
             "de": {
@@ -59616,8 +61910,18 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": "atsitinka",
-          "red": "atrodo"
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "kommt"
+                ],
+                "purple": [
+                  "atsitinka"
+                ]
+              }
+            }
+          ]
         },
         "important": {
           "blue": [
@@ -59993,7 +62297,15 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": "Priekšroka"
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "vorziehen"
+                ]
+              }
+            }
+          ]
         },
         "important": {
           "blue": [
@@ -60866,7 +63178,11 @@ const B1_WORDS = [
                 "krank"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "nei"
+              ]
+            }
           },
           {
             "de": {
@@ -60879,7 +63195,11 @@ const B1_WORDS = [
                 "Max"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "nei"
+              ]
+            }
           }
         ],
         "comparison": [
@@ -60926,7 +63246,17 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {},
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "weder"
+                ]
+              }
+            }
+          ]
+        },
         "important": {
           "blue": "weder ... noch",
           "red": "nicht"
@@ -63091,7 +65421,11 @@ const B1_WORDS = [
                 "Steuer"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "vairą"
+              ]
+            }
           }
         ]
       }
@@ -63168,7 +65502,11 @@ const B1_WORDS = [
                 "Steuer"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "vairą"
+              ]
+            }
           },
           {
             "de": {
@@ -63326,8 +65664,19 @@ const B1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "weil"
+            ],
+            "purple": [
+              "Po"
+            ]
+          },
+          {
+            "blue": [
+              "weil"
+            ]
+          }
         ],
         "important": [
           {
@@ -63404,7 +65753,11 @@ const B1_WORDS = [
                 "da"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "kadangi"
+              ]
+            }
           },
           {
             "de": {
@@ -63412,7 +65765,11 @@ const B1_WORDS = [
                 "da"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "kadangi"
+              ]
+            }
           },
           {
             "de": {
@@ -63420,7 +65777,11 @@ const B1_WORDS = [
                 "da"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "kadangi"
+              ]
+            }
           },
           {
             "de": {
@@ -63428,7 +65789,11 @@ const B1_WORDS = [
                 "da"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "kadangi"
+              ]
+            }
           },
           {
             "de": {
@@ -63436,7 +65801,11 @@ const B1_WORDS = [
                 "da"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "kadangi"
+              ]
+            }
           },
           {
             "de": {},
@@ -63444,8 +65813,19 @@ const B1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "da"
+            ],
+            "purple": [
+              "Po"
+            ]
+          },
+          {
+            "blue": [
+              "da"
+            ]
+          }
         ],
         "important": [
           {
@@ -63589,7 +65969,11 @@ const B1_WORDS = [
         ],
         "tip": [
           {},
-          {}
+          {
+            "blue": [
+              "obwohl"
+            ]
+          }
         ],
         "important": [
           {
@@ -63736,7 +66120,11 @@ const B1_WORDS = [
         ],
         "tip": [
           {},
-          {}
+          {
+            "blue": [
+              "trotzdem"
+            ]
+          }
         ],
         "important": [
           {
@@ -63871,7 +66259,11 @@ const B1_WORDS = [
                 "ohne"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "neatsisveikinęs"
+              ]
+            }
           },
           {
             "de": {},
@@ -63883,7 +66275,19 @@ const B1_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "ohne ... zu"
+            ],
+            "purple": [
+              "be"
+            ]
+          },
+          {
+            "blue": [
+              "ohne ... zu"
+            ]
+          }
         ],
         "important": [
           {
@@ -63989,7 +66393,11 @@ const B1_WORDS = [
                 "befindet sich"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "randasi"
+              ]
+            }
           },
           {
             "de": {
@@ -63997,7 +66405,11 @@ const B1_WORDS = [
                 "befindet sich"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "randasi"
+              ]
+            }
           },
           {
             "de": {
@@ -64005,7 +66417,11 @@ const B1_WORDS = [
                 "befindet sich"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "randasi"
+              ]
+            }
           },
           {
             "de": {
@@ -64013,7 +66429,11 @@ const B1_WORDS = [
                 "befindet sich"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "randasi"
+              ]
+            }
           },
           {
             "de": {
@@ -64033,7 +66453,11 @@ const B1_WORDS = [
                 "liegt"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "ant"
+              ]
+            }
           }
         ],
         "comparison": [
@@ -64364,7 +66788,11 @@ const B1_WORDS = [
                 "Erben"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "įpėdiniai"
+              ]
+            }
           },
           {
             "de": {
@@ -64385,7 +66813,11 @@ const B1_WORDS = [
                 "Erbe"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "palikimą"
+              ]
+            }
           },
           {
             "de": {
@@ -64538,7 +66970,11 @@ const B1_WORDS = [
                 "Erbe"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "palikimą"
+              ]
+            }
           },
           {
             "de": {
@@ -64573,7 +67009,14 @@ const B1_WORDS = [
           }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "der Erbe"
+            ],
+            "purple": [
+              "įpėdinis"
+            ]
+          }
         ]
       }
     }
@@ -64650,7 +67093,11 @@ const B1_WORDS = [
                 "schaden"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "apgadintas"
+              ]
+            }
           },
           {
             "de": {
@@ -64671,7 +67118,11 @@ const B1_WORDS = [
                 "schaden"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "apgadintas"
+              ]
+            }
           },
           {
             "de": {
@@ -64705,7 +67156,11 @@ const B1_WORDS = [
                 "schadet"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "kenkia"
+              ]
+            }
           }
         ],
         "tip": [
@@ -64811,7 +67266,11 @@ const B1_WORDS = [
                 "schaden"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "nuostolių"
+              ]
+            }
           },
           {
             "de": {
@@ -64819,7 +67278,11 @@ const B1_WORDS = [
                 "schaden"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "apgadintas"
+              ]
+            }
           },
           {
             "de": {
@@ -64827,7 +67290,11 @@ const B1_WORDS = [
                 "schaden"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "nuostolį"
+              ]
+            }
           },
           {
             "de": {
@@ -64835,7 +67302,11 @@ const B1_WORDS = [
                 "schaden"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "nuostolis"
+              ]
+            }
           },
           {
             "de": {
@@ -64940,7 +67411,11 @@ const B1_WORDS = [
                 "vertrauen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "pasitikiu"
+              ]
+            }
           },
           {
             "de": {
@@ -64948,7 +67423,11 @@ const B1_WORDS = [
                 "vertrauen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "pasitikiu"
+              ]
+            }
           },
           {
             "de": {
@@ -64957,7 +67436,11 @@ const B1_WORDS = [
                 "vertrauen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "pasitikėjimas"
+              ]
+            }
           },
           {
             "de": {
@@ -64965,7 +67448,11 @@ const B1_WORDS = [
                 "vertrauen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "pasitikėti"
+              ]
+            }
           },
           {
             "de": {
@@ -64973,7 +67460,11 @@ const B1_WORDS = [
                 "vertrauen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "pasitikėjimą"
+              ]
+            }
           },
           {
             "de": {
@@ -64981,11 +67472,27 @@ const B1_WORDS = [
                 "vertrauen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "pasitikime"
+              ]
+            }
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "das Vertrauen"
+            ],
+            "purple": [
+              "pasitikėjimą"
+            ]
+          },
+          {
+            "purple": [
+              "pasitikėjimas"
+            ]
+          }
         ],
         "important": [
           {
@@ -65238,7 +67745,11 @@ const B1_WORDS = [
                 "trotz"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "nepaisant"
+              ]
+            }
           },
           {
             "de": {
@@ -65258,7 +67769,11 @@ const B1_WORDS = [
                 "trotz"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "nepaisant"
+              ]
+            }
           },
           {
             "de": {
@@ -65279,7 +67794,11 @@ const B1_WORDS = [
                 "trotz"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "nepaisant"
+              ]
+            }
           }
         ],
         "tip": [
@@ -65402,7 +67921,11 @@ const B1_WORDS = [
                 "trotz"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "iš"
+              ]
+            }
           },
           {
             "de": {
@@ -65422,7 +67945,11 @@ const B1_WORDS = [
                 "trotz"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "užsispyrimo"
+              ]
+            }
           },
           {
             "de": {

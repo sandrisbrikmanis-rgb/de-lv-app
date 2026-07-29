@@ -1335,7 +1335,11 @@ const C1_WORDS = [
                 "zusammenfassen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "apibendrinti"
+              ]
+            }
           },
           {
             "de": {
@@ -1344,7 +1348,11 @@ const C1_WORDS = [
                 "zusammen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "apibendrinu"
+              ]
+            }
           },
           {
             "de": {
@@ -1352,7 +1360,11 @@ const C1_WORDS = [
                 "zusammengefasst"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "reziumavo"
+              ]
+            }
           },
           {
             "de": {
@@ -1360,7 +1372,11 @@ const C1_WORDS = [
                 "Zusammenfassend"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "apibendrinant"
+              ]
+            }
           },
           {
             "de": {
@@ -1368,7 +1384,11 @@ const C1_WORDS = [
                 "Zusammenfassung"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "santrauką"
+              ]
+            }
           },
           {
             "de": {
@@ -2495,7 +2515,11 @@ const C1_WORDS = [
                 "gelegentlicher"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "atsitiktinio"
+              ]
+            }
           },
           {
             "de": {
@@ -2503,7 +2527,11 @@ const C1_WORDS = [
                 "Gelegentlich"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "proga"
+              ]
+            }
           }
         ]
       }
@@ -3855,7 +3883,11 @@ const C1_WORDS = [
                 "wahlberechtigt"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Nuo"
+              ]
+            }
           },
           {
             "de": {
@@ -3863,7 +3895,11 @@ const C1_WORDS = [
                 "wahlberechtigt"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "balsavimo teisę"
+              ]
+            }
           }
         ]
       }
@@ -4017,7 +4053,11 @@ const C1_WORDS = [
                 "Zuschlag"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "priedą"
+              ]
+            }
           },
           {
             "de": {
@@ -4025,7 +4065,11 @@ const C1_WORDS = [
                 "Zuschlag"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "priedas"
+              ]
+            }
           },
           {
             "de": {
@@ -4045,7 +4089,11 @@ const C1_WORDS = [
                 "Zuschlag"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "antkainis"
+              ]
+            }
           },
           {
             "de": {
@@ -4069,7 +4117,14 @@ const C1_WORDS = [
           }
         ],
         "important": [
-          {},
+          {
+            "blue": [
+              "der Zuschlag"
+            ],
+            "purple": [
+              "antkainis"
+            ]
+          },
           {
             "red": [
               "die Anlage",
@@ -4117,7 +4172,11 @@ const C1_WORDS = [
                 "beziehen / sich beziehen auf"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "priskirti"
+              ]
+            }
           },
           {
             "de": {},
@@ -4125,11 +4184,23 @@ const C1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "purple": [
+              "sietis su"
+            ]
+          },
+          {
+            "blue": [
+              "beziehen / sich beziehen auf"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "purple": [
+              "sietis su"
+            ]
+          }
         ]
       }
     }
@@ -4223,7 +4294,11 @@ const C1_WORDS = [
                 "beabsichtigen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "neplanuojame"
+              ]
+            }
           },
           {
             "de": {
@@ -4353,7 +4428,11 @@ const C1_WORDS = [
                 "unterstellen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "dėl"
+              ]
+            }
           },
           {
             "de": {
@@ -4385,7 +4464,11 @@ const C1_WORDS = [
                 "unterstellen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "nepagrįsta kaltė"
+              ]
+            }
           },
           {
             "de": {},

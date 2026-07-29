@@ -1349,7 +1349,11 @@ const A1_WORDS = [
                 "auf"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "į"
+              ]
+            }
           },
           {
             "de": {
@@ -1542,7 +1546,11 @@ const A1_WORDS = [
                 "aus"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "iš"
+              ]
+            }
           },
           {
             "de": {
@@ -1550,7 +1558,11 @@ const A1_WORDS = [
                 "aus"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "iš"
+              ]
+            }
           },
           {
             "de": {
@@ -1558,7 +1570,11 @@ const A1_WORDS = [
                 "aus"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "iš"
+              ]
+            }
           }
         ],
         "comparison": [
@@ -1751,7 +1767,11 @@ const A1_WORDS = [
                 "aufs"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "ant"
+              ]
+            }
           },
           {
             "de": {
@@ -1771,7 +1791,11 @@ const A1_WORDS = [
                 "aufs"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "į"
+              ]
+            }
           },
           {
             "de": {
@@ -1779,7 +1803,11 @@ const A1_WORDS = [
                 "aufs"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "ant"
+              ]
+            }
           },
           {
             "de": {
@@ -1787,7 +1815,11 @@ const A1_WORDS = [
                 "aufs"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "ant"
+              ]
+            }
           },
           {
             "de": {
@@ -1795,7 +1827,11 @@ const A1_WORDS = [
                 "aufs"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "ant"
+              ]
+            }
           },
           {
             "de": {
@@ -1803,7 +1839,11 @@ const A1_WORDS = [
                 "aufs"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "į"
+              ]
+            }
           },
           {
             "de": {
@@ -1897,9 +1937,21 @@ const A1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "left": {}
-        },
+        "tip": [
+          {
+            "blue": [
+              "aufs"
+            ],
+            "purple": [
+              "kur?"
+            ]
+          },
+          {
+            "blue": [
+              "auf das"
+            ]
+          }
+        ],
         "important": [
           {
             "blue": [
@@ -2109,7 +2161,11 @@ const A1_WORDS = [
                 "schwimmt"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "plaukia"
+              ]
+            }
           },
           {
             "de": {
@@ -2977,7 +3033,11 @@ const A1_WORDS = [
           }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "Bitte"
+            ]
+          }
         ]
       }
     }
@@ -3100,7 +3160,11 @@ const A1_WORDS = [
                 "bleibe"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "pasilieku"
+              ]
+            }
           },
           {
             "de": {
@@ -3108,7 +3172,11 @@ const A1_WORDS = [
                 "Bleib"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "pasilik"
+              ]
+            }
           },
           {
             "de": {
@@ -3116,7 +3184,11 @@ const A1_WORDS = [
                 "bleiben"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "pasiliekame"
+              ]
+            }
           },
           {
             "de": {
@@ -3124,7 +3196,11 @@ const A1_WORDS = [
                 "gehe"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "einu"
+              ]
+            }
           }
         ],
         "comparison": [
@@ -3730,7 +3806,11 @@ const A1_WORDS = [
                 "Da"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "čia"
+              ]
+            }
           },
           {
             "de": {
@@ -4515,7 +4595,11 @@ const A1_WORDS = [
                 "Dieser"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "šis"
+              ]
+            }
           }
         ],
         "comparison": [
@@ -4715,7 +4799,11 @@ const A1_WORDS = [
                 "einen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "kokio nors"
+              ]
+            }
           }
         ],
         "comparison": [
@@ -5552,7 +5640,11 @@ const A1_WORDS = [
                 "etwas"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "kažko"
+              ]
+            }
           },
           {
             "de": {
@@ -5572,7 +5664,11 @@ const A1_WORDS = [
                 "etwas"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "truputį"
+              ]
+            }
           },
           {
             "de": {
@@ -5592,7 +5688,11 @@ const A1_WORDS = [
                 "etwas"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "truputį"
+              ]
+            }
           }
         ],
         "comparison": [
@@ -5938,7 +6038,11 @@ const A1_WORDS = [
                 "Schule"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "vežu"
+              ]
+            }
           },
           {
             "de": {
@@ -5968,7 +6072,11 @@ const A1_WORDS = [
                 "München"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "važiuojame"
+              ]
+            }
           }
         ],
         "comparison": [
@@ -6075,8 +6183,19 @@ const A1_WORDS = [
         },
         "important": [
           {
-            "text": {},
-            "example": {}
+            "text": {
+              "blue": [
+                "fahren"
+              ],
+              "purple": [
+                "važiuoti"
+              ]
+            },
+            "example": {
+              "purple": [
+                "važiuoti"
+              ]
+            }
           }
         ]
       }
@@ -6264,7 +6383,11 @@ const A1_WORDS = [
                 "gefunden"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "radai"
+              ]
+            }
           },
           {
             "de": {
@@ -6537,7 +6660,11 @@ const A1_WORDS = [
                 "Frau"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "moteris"
+              ]
+            }
           },
           {
             "de": {
@@ -6581,7 +6708,11 @@ const A1_WORDS = [
                 "Frau"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "moteris"
+              ]
+            }
           },
           {
             "de": {
@@ -6793,7 +6924,11 @@ const A1_WORDS = [
                 "für"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "skirta"
+              ]
+            }
           },
           {
             "de": {
@@ -6837,7 +6972,11 @@ const A1_WORDS = [
                 "für"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "skirta"
+              ]
+            }
           },
           {
             "de": {
@@ -7398,7 +7537,11 @@ const A1_WORDS = [
                 "gleich"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "greitai"
+              ]
+            }
           },
           {
             "de": {
@@ -7561,7 +7704,11 @@ const A1_WORDS = [
                 "groß"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "aukštas"
+              ]
+            }
           },
           {
             "de": {
@@ -7762,7 +7909,11 @@ const A1_WORDS = [
                 "gute"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "gera"
+              ]
+            }
           },
           {
             "de": {
@@ -7912,7 +8063,11 @@ const A1_WORDS = [
                 "Hast"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "turi"
+              ]
+            }
           },
           {
             "de": {
@@ -8145,7 +8300,11 @@ const A1_WORDS = [
                 "halte"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "laikau"
+              ]
+            }
           },
           {
             "de": {
@@ -8177,7 +8336,11 @@ const A1_WORDS = [
                 "halte"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "laikau"
+              ]
+            }
           }
         ],
         "comparison": [
@@ -8447,7 +8610,11 @@ const A1_WORDS = [
                 "heißt"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "kaip"
+              ]
+            }
           },
           {
             "de": {
@@ -8455,7 +8622,11 @@ const A1_WORDS = [
                 "heißt"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "kaip"
+              ]
+            }
           },
           {
             "de": {
@@ -9006,7 +9177,11 @@ const A1_WORDS = [
                 "ihr"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "jūs"
+              ]
+            }
           },
           {
             "de": {
@@ -9345,9 +9520,24 @@ const A1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "left": {}
-        },
+        "tip": [
+          {
+            "blue": [
+              "im"
+            ],
+            "purple": [
+              "kur?"
+            ]
+          },
+          {
+            "blue": [
+              "im"
+            ],
+            "purple": [
+              "kur?"
+            ]
+          }
+        ],
         "important": [
           {
             "blue": [
@@ -9462,7 +9652,11 @@ const A1_WORDS = [
                 "in"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "mokyklą"
+              ]
+            }
           },
           {
             "de": {
@@ -9482,7 +9676,11 @@ const A1_WORDS = [
                 "ins"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "į"
+              ]
+            }
           }
         ],
         "comparison": [
@@ -9649,7 +9847,11 @@ const A1_WORDS = [
                 "ins"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "į"
+              ]
+            }
           },
           {
             "de": {
@@ -9705,7 +9907,11 @@ const A1_WORDS = [
                 "ins"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "į"
+              ]
+            }
           },
           {
             "de": {
@@ -9725,7 +9931,11 @@ const A1_WORDS = [
                 "ins"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "į"
+              ]
+            }
           }
         ],
         "comparison": [
@@ -9814,9 +10024,24 @@ const A1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "left": {}
-        },
+        "tip": [
+          {
+            "blue": [
+              "ins"
+            ],
+            "purple": [
+              "kurp?"
+            ]
+          },
+          {
+            "blue": [
+              "ins"
+            ],
+            "purple": [
+              "kurp?"
+            ]
+          }
+        ],
         "important": [
           {
             "blue": [
@@ -10174,7 +10399,11 @@ const A1_WORDS = [
                 "kein"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "neturiu"
+              ]
+            }
           },
           {
             "de": {
@@ -10182,7 +10411,11 @@ const A1_WORDS = [
                 "keine"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "nebeliko"
+              ]
+            }
           },
           {
             "de": {
@@ -10190,7 +10423,11 @@ const A1_WORDS = [
                 "Kein"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "nė vieno"
+              ]
+            }
           },
           {
             "de": {
@@ -10198,7 +10435,11 @@ const A1_WORDS = [
                 "keine"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "neturiu"
+              ]
+            }
           },
           {
             "de": {
@@ -10218,7 +10459,11 @@ const A1_WORDS = [
                 "keine"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "neturime"
+              ]
+            }
           }
         ],
         "tip": [
@@ -10359,7 +10604,11 @@ const A1_WORDS = [
                 "kennengelernt"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "susipažinote"
+              ]
+            }
           },
           {
             "de": {
@@ -10464,7 +10713,11 @@ const A1_WORDS = [
         },
         "examples": [
           {
-            "de": {},
+            "de": {
+              "blue": [
+                "weiß"
+              ]
+            },
             "lv": {
               "purple": [
                 "žinau"
@@ -10484,7 +10737,11 @@ const A1_WORDS = [
             }
           },
           {
-            "de": {},
+            "de": {
+              "blue": [
+                "weiß"
+              ]
+            },
             "lv": {
               "purple": [
                 "žinau"
@@ -10640,7 +10897,11 @@ const A1_WORDS = [
                 "kann"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "moku"
+              ]
+            }
           },
           {
             "de": {
@@ -10648,7 +10909,11 @@ const A1_WORDS = [
                 "Kannst"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "gali"
+              ]
+            }
           },
           {
             "de": {
@@ -10656,7 +10921,11 @@ const A1_WORDS = [
                 "können"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "gali"
+              ]
+            }
           },
           {
             "de": {
@@ -10664,7 +10933,11 @@ const A1_WORDS = [
                 "kann"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "moka"
+              ]
+            }
           }
         ],
         "comparison": [
@@ -10876,7 +11149,11 @@ const A1_WORDS = [
                 "kostet"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "kainuoja"
+              ]
+            }
           },
           {
             "de": {
@@ -10884,7 +11161,11 @@ const A1_WORDS = [
                 "kostet"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "kainuoja"
+              ]
+            }
           },
           {
             "de": {
@@ -10892,7 +11173,11 @@ const A1_WORDS = [
                 "kostet"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Kiek kainuoja"
+              ]
+            }
           },
           {
             "de": {
@@ -10900,7 +11185,11 @@ const A1_WORDS = [
                 "kostet"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "kainuoja"
+              ]
+            }
           },
           {
             "de": {
@@ -11318,7 +11607,11 @@ const A1_WORDS = [
                 "Laden"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "parduotuvę"
+              ]
+            }
           },
           {
             "de": {
@@ -11338,7 +11631,11 @@ const A1_WORDS = [
                 "Läden"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "parduotuvių"
+              ]
+            }
           },
           {
             "de": {
@@ -11494,7 +11791,11 @@ const A1_WORDS = [
                 "Land"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "valstybė"
+              ]
+            }
           },
           {
             "de": {
@@ -11711,7 +12012,11 @@ const A1_WORDS = [
                 "lange"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "trunka"
+              ]
+            }
           },
           {
             "de": {
@@ -11719,7 +12024,11 @@ const A1_WORDS = [
                 "lange"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "ilgus"
+              ]
+            }
           },
           {
             "de": {
@@ -11739,7 +12048,11 @@ const A1_WORDS = [
                 "lang"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "ištisai"
+              ]
+            }
           }
         ],
         "tip": [
@@ -12099,7 +12412,11 @@ const A1_WORDS = [
                 "läuft"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "bėga"
+              ]
+            }
           },
           {
             "de": {
@@ -12107,7 +12424,11 @@ const A1_WORDS = [
                 "laufen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "bėga"
+              ]
+            }
           },
           {
             "de": {
@@ -12115,7 +12436,11 @@ const A1_WORDS = [
                 "läuft"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "rodomas"
+              ]
+            }
           },
           {
             "de": {
@@ -12123,7 +12448,11 @@ const A1_WORDS = [
                 "läuft"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "veikia"
+              ]
+            }
           }
         ],
         "comparison": [
@@ -12545,7 +12874,11 @@ const A1_WORDS = [
           }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "Laut"
+            ]
+          }
         ]
       }
     }
@@ -13411,7 +13744,11 @@ const A1_WORDS = [
                 "macht Spaß"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "smagu"
+              ]
+            }
           }
         ],
         "comparison": [
@@ -13578,7 +13915,11 @@ const A1_WORDS = [
                 "ein Mal"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "vieną"
+              ]
+            }
           }
         ],
         "tip": {
@@ -13982,7 +14323,11 @@ const A1_WORDS = [
                 "mit dir"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "su"
+              ]
+            }
           },
           {
             "de": {
@@ -13990,7 +14335,11 @@ const A1_WORDS = [
                 "mit dem Bus"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "autobusu"
+              ]
+            }
           },
           {
             "de": {
@@ -13998,7 +14347,11 @@ const A1_WORDS = [
                 "mit dem Stift"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "rašikliu"
+              ]
+            }
           },
           {
             "de": {
@@ -14006,7 +14359,11 @@ const A1_WORDS = [
                 "mit"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "ateisi kartu"
+              ]
+            }
           }
         ],
         "comparison": [
@@ -14692,7 +15049,14 @@ const A1_WORDS = [
           }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "Morgen"
+            ],
+            "purple": [
+              "rytoj"
+            ]
+          }
         ]
       }
     }
@@ -15085,7 +15449,11 @@ const A1_WORDS = [
                 "nach"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "po"
+              ]
+            }
           }
         ],
         "comparison": [
@@ -15285,7 +15653,11 @@ const A1_WORDS = [
                 "Natürlich"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "žinoma"
+              ]
+            }
           },
           {
             "de": {
@@ -15293,7 +15665,11 @@ const A1_WORDS = [
                 "natürliche"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "natūrali"
+              ]
+            }
           },
           {
             "de": {
@@ -15301,7 +15677,11 @@ const A1_WORDS = [
                 "Natürlich"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "žinoma"
+              ]
+            }
           },
           {
             "de": {
@@ -15309,7 +15689,11 @@ const A1_WORDS = [
                 "natürliche"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "natūrali"
+              ]
+            }
           },
           {
             "de": {
@@ -15317,7 +15701,11 @@ const A1_WORDS = [
                 "Natürlich"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "žinoma"
+              ]
+            }
           },
           {
             "de": {
@@ -15325,15 +15713,34 @@ const A1_WORDS = [
                 "natürlich"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "natūralu/normalu"
+              ]
+            }
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "purple": [
+              "žinoma"
+            ]
+          },
+          {
+            "purple": [
+              "natūralus"
+            ]
+          }
         ],
         "important": [
-          {},
+          {
+            "blue": [
+              "natürlich"
+            ],
+            "purple": [
+              "natūralus"
+            ]
+          },
           {
             "blue": [
               "Natürlich!"
@@ -15684,7 +16091,11 @@ const A1_WORDS = [
                 "neu"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "naujas"
+              ]
+            }
           },
           {
             "de": {
@@ -15692,7 +16103,11 @@ const A1_WORDS = [
                 "neues"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "naują"
+              ]
+            }
           },
           {
             "de": {
@@ -15700,7 +16115,11 @@ const A1_WORDS = [
                 "neue"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "naujas"
+              ]
+            }
           },
           {
             "de": {
@@ -15708,7 +16127,11 @@ const A1_WORDS = [
                 "neue"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "naujus"
+              ]
+            }
           },
           {
             "de": {
@@ -15716,7 +16139,11 @@ const A1_WORDS = [
                 "neue"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "nauja"
+              ]
+            }
           },
           {
             "de": {
@@ -15724,7 +16151,11 @@ const A1_WORDS = [
                 "neuen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "naują"
+              ]
+            }
           },
           {
             "de": {
@@ -15732,7 +16163,11 @@ const A1_WORDS = [
                 "Neues"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "naujo"
+              ]
+            }
           }
         ],
         "tip": [
@@ -16086,7 +16521,11 @@ const A1_WORDS = [
         ],
         "tip": [
           {},
-          {}
+          {
+            "blue": [
+              "nur"
+            ]
+          }
         ],
         "important": [
           {
@@ -16470,7 +16909,11 @@ const A1_WORDS = [
                 "oder"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "ar ne"
+              ]
+            }
           }
         ],
         "comparison": [
@@ -16732,7 +17175,11 @@ const A1_WORDS = [
                 "Jacke"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "tinka"
+              ]
+            }
           },
           {
             "de": {
@@ -16743,7 +17190,11 @@ const A1_WORDS = [
                 "Kleid"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "tinka"
+              ]
+            }
           },
           {
             "de": {
@@ -16769,7 +17220,11 @@ const A1_WORDS = [
                 "Das passt"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "tinka"
+              ]
+            }
           }
         ],
         "comparison": [
@@ -17451,8 +17906,16 @@ const A1_WORDS = [
         },
         "examples": [
           {
-            "de": {},
-            "lv": {}
+            "de": {
+              "blue": [
+                "gesagt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pasakei"
+              ]
+            }
           }
         ],
         "tip": [
@@ -17885,7 +18348,11 @@ const A1_WORDS = [
                 "schwimmt"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "plaukia"
+              ]
+            }
           },
           {
             "de": {
@@ -18143,7 +18610,11 @@ const A1_WORDS = [
                 "sehe"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "matau"
+              ]
+            }
           },
           {
             "de": {
@@ -18151,7 +18622,11 @@ const A1_WORDS = [
                 "Siehst"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "matai"
+              ]
+            }
           },
           {
             "de": {
@@ -18159,7 +18634,11 @@ const A1_WORDS = [
                 "sehe"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "matau"
+              ]
+            }
           },
           {
             "de": {
@@ -18372,7 +18851,11 @@ const A1_WORDS = [
                 "bin"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "esu"
+              ]
+            }
           },
           {
             "de": {
@@ -18392,7 +18875,11 @@ const A1_WORDS = [
                 "ist"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "yra"
+              ]
+            }
           },
           {
             "de": {
@@ -18583,7 +19070,11 @@ const A1_WORDS = [
                 "Seite"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "puslapį"
+              ]
+            }
           },
           {
             "de": {
@@ -18603,7 +19094,11 @@ const A1_WORDS = [
                 "Webseite"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "puslapis"
+              ]
+            }
           },
           {
             "de": {
@@ -18623,7 +19118,11 @@ const A1_WORDS = [
                 "Seiten"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "puslapių"
+              ]
+            }
           },
           {
             "de": {
@@ -18964,7 +19463,11 @@ const A1_WORDS = [
                 "sicher"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "saugus"
+              ]
+            }
           },
           {
             "de": {
@@ -18996,7 +19499,11 @@ const A1_WORDS = [
                 "sichere"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "saugus"
+              ]
+            }
           },
           {
             "de": {
@@ -19004,7 +19511,11 @@ const A1_WORDS = [
                 "sicher"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "tikras"
+              ]
+            }
           },
           {
             "de": {
@@ -19012,7 +19523,11 @@ const A1_WORDS = [
                 "sicher"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "saugiai"
+              ]
+            }
           }
         ],
         "tip": [
@@ -19178,7 +19693,16 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "purple": [
+              "apie"
+            ]
+          },
+          {
+            "blue": [
+              "sie"
+            ]
+          }
         ],
         "important": [
           {
@@ -19273,7 +19797,11 @@ const A1_WORDS = [
                 "Sie"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "ji"
+              ]
+            }
           },
           {
             "de": {
@@ -19281,7 +19809,11 @@ const A1_WORDS = [
                 "Sie"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "ji"
+              ]
+            }
           },
           {
             "de": {
@@ -19289,7 +19821,11 @@ const A1_WORDS = [
                 "Sie"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "jie"
+              ]
+            }
           },
           {
             "de": {
@@ -19297,7 +19833,11 @@ const A1_WORDS = [
                 "Sie"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "jie"
+              ]
+            }
           },
           {
             "de": {
@@ -20051,7 +20591,11 @@ const A1_WORDS = [
                 "liegt"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "ant"
+              ]
+            }
           }
         ],
         "comparison": [
@@ -20465,7 +21009,11 @@ const A1_WORDS = [
                 "Wetter"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "apie"
+              ]
+            }
           },
           {
             "de": {
@@ -20708,7 +21256,11 @@ const A1_WORDS = [
                 "Tisch"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "aplink"
+              ]
+            }
           },
           {
             "de": {
@@ -21204,7 +21756,11 @@ const A1_WORDS = [
                 "verstehe"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "suprantu"
+              ]
+            }
           },
           {
             "de": {
@@ -21212,7 +21768,11 @@ const A1_WORDS = [
                 "Verstehst"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "supranti"
+              ]
+            }
           },
           {
             "de": {
@@ -21232,7 +21792,11 @@ const A1_WORDS = [
                 "kann"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "moku"
+              ]
+            }
           }
         ],
         "comparison": [
@@ -21506,7 +22070,11 @@ const A1_WORDS = [
                 "vom"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "iš"
+              ]
+            }
           },
           {
             "de": {
@@ -21538,7 +22106,11 @@ const A1_WORDS = [
                 "vom"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "iš"
+              ]
+            }
           },
           {
             "de": {
@@ -21546,7 +22118,11 @@ const A1_WORDS = [
                 "vom"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "iš"
+              ]
+            }
           },
           {
             "de": {
@@ -21554,7 +22130,11 @@ const A1_WORDS = [
                 "vom"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "iš"
+              ]
+            }
           },
           {
             "de": {
@@ -21562,7 +22142,11 @@ const A1_WORDS = [
                 "vom"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "iš"
+              ]
+            }
           },
           {
             "de": {
@@ -21664,9 +22248,18 @@ const A1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "left": {}
-        },
+        "tip": [
+          {
+            "blue": [
+              "vom"
+            ]
+          },
+          {
+            "blue": [
+              "von dem"
+            ]
+          }
+        ],
         "important": [
           {
             "blue": [
@@ -21679,7 +22272,11 @@ const A1_WORDS = [
               "kam?"
             ]
           },
-          {},
+          {
+            "purple": [
+              "nuo"
+            ]
+          },
           {
             "yellow": [
               "von der Mutter"
@@ -22093,7 +22690,11 @@ const A1_WORDS = [
                 "Was"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Ką"
+              ]
+            }
           },
           {
             "de": {
@@ -22101,7 +22702,11 @@ const A1_WORDS = [
                 "Was"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Ką"
+              ]
+            }
           },
           {
             "de": {
@@ -22109,7 +22714,11 @@ const A1_WORDS = [
                 "Was"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Ką"
+              ]
+            }
           },
           {
             "de": {
@@ -22129,7 +22738,11 @@ const A1_WORDS = [
                 "Was"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Ką"
+              ]
+            }
           }
         ],
         "tip": [
@@ -22330,7 +22943,11 @@ const A1_WORDS = [
                 "bin"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "kai"
+              ]
+            }
           },
           {
             "de": {
@@ -22734,7 +23351,11 @@ const A1_WORDS = [
                 "werde"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "pavargstu"
+              ]
+            }
           },
           {
             "de": {
@@ -22742,7 +23363,11 @@ const A1_WORDS = [
                 "wird"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "darosi"
+              ]
+            }
           },
           {
             "de": {
@@ -22762,7 +23387,11 @@ const A1_WORDS = [
                 "bin"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "pavargęs"
+              ]
+            }
           }
         ],
         "comparison": [
@@ -22952,7 +23581,11 @@ const A1_WORDS = [
                 "Wetter"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "oras"
+              ]
+            }
           },
           {
             "de": {
@@ -22960,7 +23593,11 @@ const A1_WORDS = [
                 "Wetter"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "oras"
+              ]
+            }
           },
           {
             "de": {
@@ -22968,7 +23605,11 @@ const A1_WORDS = [
                 "Wetter"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "oras"
+              ]
+            }
           },
           {
             "de": {
@@ -22991,7 +23632,11 @@ const A1_WORDS = [
                 "Wetter"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "apie"
+              ]
+            }
           },
           {
             "de": {
@@ -23002,7 +23647,11 @@ const A1_WORDS = [
                 "besser"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "oras"
+              ]
+            }
           }
         ],
         "comparison": [
@@ -23261,7 +23910,14 @@ const A1_WORDS = [
           }
         ],
         "important": [
-          {},
+          {
+            "blue": [
+              "wie"
+            ],
+            "purple": [
+              "kiek"
+            ]
+          },
           {
             "purple": [
               "kaip"
@@ -23416,7 +24072,11 @@ const A1_WORDS = [
                 "zur Schule"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "mokyklą"
+              ]
+            }
           },
           {
             "de": {
@@ -23649,7 +24309,11 @@ const A1_WORDS = [
                 "mit dem Zug"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "traukiniu"
+              ]
+            }
           },
           {
             "de": {
@@ -23896,7 +24560,11 @@ const A1_WORDS = [
                 "zum"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "į"
+              ]
+            }
           },
           {
             "de": {
@@ -23904,7 +24572,11 @@ const A1_WORDS = [
                 "zum"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "į"
+              ]
+            }
           },
           {
             "de": {
@@ -23924,7 +24596,11 @@ const A1_WORDS = [
                 "zum"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "į"
+              ]
+            }
           },
           {
             "de": {
@@ -23932,7 +24608,11 @@ const A1_WORDS = [
                 "zum"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "į"
+              ]
+            }
           },
           {
             "de": {
@@ -23952,7 +24632,11 @@ const A1_WORDS = [
                 "zum"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "pas"
+              ]
+            }
           }
         ],
         "comparison": [
@@ -24030,9 +24714,14 @@ const A1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "left": {}
-        },
+        "tip": [
+          {
+            "blue": [
+              "zum"
+            ]
+          },
+          {}
+        ],
         "important": [
           {
             "blue": [
@@ -24394,7 +25083,11 @@ const A1_WORDS = [
           }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "Fernsehen"
+            ]
+          }
         ]
       }
     }
@@ -24615,7 +25308,11 @@ const A1_WORDS = [
                 "essen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "maistas"
+              ]
+            }
           },
           {
             "de": {
@@ -24623,7 +25320,11 @@ const A1_WORDS = [
                 "essen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "maistas"
+              ]
+            }
           },
           {
             "de": {
@@ -24631,7 +25332,11 @@ const A1_WORDS = [
                 "essen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "maistas"
+              ]
+            }
           }
         ],
         "tip": [
@@ -24726,7 +25431,11 @@ const A1_WORDS = [
                 "essen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "maistas"
+              ]
+            }
           },
           {
             "de": {
@@ -24759,7 +25468,11 @@ const A1_WORDS = [
                 "essen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "maistas"
+              ]
+            }
           },
           {
             "de": {
@@ -24768,7 +25481,11 @@ const A1_WORDS = [
                 "essen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "maistas"
+              ]
+            }
           },
           {
             "de": {
@@ -24777,7 +25494,11 @@ const A1_WORDS = [
                 "essen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "maistas"
+              ]
+            }
           }
         ],
         "tip": [
@@ -24793,7 +25514,11 @@ const A1_WORDS = [
           }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "Essen"
+            ]
+          }
         ]
       }
     }
@@ -24943,7 +25668,11 @@ const A1_WORDS = [
           }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "gemüse"
+            ]
+          }
         ]
       }
     }
@@ -25243,7 +25972,11 @@ const A1_WORDS = [
           }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "ferien"
+            ]
+          }
         ]
       }
     }
@@ -25483,7 +26216,11 @@ const A1_WORDS = [
                 "uhr"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "valandą"
+              ]
+            }
           },
           {
             "de": {
@@ -25491,7 +26228,11 @@ const A1_WORDS = [
                 "uhr"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "valandą"
+              ]
+            }
           },
           {
             "de": {
@@ -25511,7 +26252,11 @@ const A1_WORDS = [
                 "uhr"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "valandos"
+              ]
+            }
           },
           {
             "de": {
@@ -25519,7 +26264,11 @@ const A1_WORDS = [
                 "uhr"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "valandos"
+              ]
+            }
           },
           {
             "de": {
@@ -25724,7 +26473,11 @@ const A1_WORDS = [
                 "einmal"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "kartą"
+              ]
+            }
           },
           {
             "de": {
@@ -25732,7 +26485,11 @@ const A1_WORDS = [
                 "einmal"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "kartą"
+              ]
+            }
           },
           {
             "de": {},
@@ -25843,10 +26600,23 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "noch mal"
+            ]
+          },
+          {
+            "blue": [
+              "noch mal"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "purple": [
+              "dar kartą"
+            ]
+          }
         ]
       }
     }
