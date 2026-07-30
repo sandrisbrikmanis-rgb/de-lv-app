@@ -45,8 +45,8 @@
       nativeCode: "UK",
       active: true,
       uiAvailable: true,
-      dataStatus: "fallback",
-      hasStudyData: false,
+      dataStatus: "complete",
+      hasStudyData: true,
       uiPath: "./languages/uk/ui.js",
       dataManifestPath: "./languages/uk/data/manifest.js"
     },
