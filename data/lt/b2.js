@@ -7066,7 +7066,11 @@ const B2_WORDS = [
                 "Haube"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "gobtuvą"
+              ]
+            }
           },
           {
             "de": {
@@ -9361,7 +9365,11 @@ const B2_WORDS = [
                 "Nachdruck"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "pabrėžia"
+              ]
+            }
           },
           {
             "de": {
@@ -9369,7 +9377,11 @@ const B2_WORDS = [
                 "Nachdruck"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "atkakliai"
+              ]
+            }
           },
           {
             "de": {
@@ -11300,7 +11312,11 @@ const B2_WORDS = [
                 "bin"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "esu"
+              ]
+            }
           },
           {
             "de": {
@@ -11568,7 +11584,11 @@ const B2_WORDS = [
                 "Sofern"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "su sąlyga"
+              ]
+            }
           },
           {
             "de": {
@@ -14844,7 +14864,11 @@ const B2_WORDS = [
                 "wechsle"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "keičiu"
+              ]
+            }
           },
           {
             "de": {
@@ -14852,7 +14876,11 @@ const B2_WORDS = [
                 "wechseln"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "pasikeisti"
+              ]
+            }
           },
           {
             "de": {
@@ -14860,7 +14888,11 @@ const B2_WORDS = [
                 "wechseln"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "keičiame"
+              ]
+            }
           },
           {
             "de": {
@@ -14868,7 +14900,11 @@ const B2_WORDS = [
                 "wechsle"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "keičiu"
+              ]
+            }
           }
         ],
         "tip": [
@@ -14956,7 +14992,11 @@ const B2_WORDS = [
                 "bietet"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "siūlo"
+              ]
+            }
           },
           {
             "de": {
@@ -14976,7 +15016,11 @@ const B2_WORDS = [
                 "bietet"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "siūlo"
+              ]
+            }
           },
           {
             "de": {
@@ -14984,7 +15028,11 @@ const B2_WORDS = [
                 "bietet"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "užtikrina"
+              ]
+            }
           },
           {
             "de": {
@@ -14992,7 +15040,11 @@ const B2_WORDS = [
                 "bieten"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "teikia"
+              ]
+            }
           }
         ],
         "tip": [
@@ -15334,11 +15386,23 @@ const B2_WORDS = [
                 "fördert"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "stiprina"
+              ]
+            }
           },
           {
-            "de": {},
-            "lv": {}
+            "de": {
+              "blue": [
+                "gefördert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "išgaunama"
+              ]
+            }
           },
           {
             "de": {
