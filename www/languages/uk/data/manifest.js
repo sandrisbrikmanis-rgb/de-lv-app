@@ -2,7 +2,7 @@ window.LANGUAGE_DATA_MANIFEST = {
   nativeLanguage: "uk",
   targetLanguage: "de",
   fallbackNativeLanguage: "lv",
-  dataStatus: "fallback",
+  dataStatus: "complete",
   uiAvailable: true,
   code: "uk",
   datasets: {
