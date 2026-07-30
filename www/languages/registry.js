@@ -67,8 +67,8 @@
       nativeCode: "ET",
       active: true,
       uiAvailable: true,
-      dataStatus: "fallback",
-      hasStudyData: false,
+      dataStatus: "complete",
+      hasStudyData: true,
       uiPath: "./languages/et/ui.js",
       dataManifestPath: "./languages/et/data/manifest.js"
     }
