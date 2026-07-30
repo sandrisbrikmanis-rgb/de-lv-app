@@ -23079,9 +23079,9 @@ const A1_WORDS = [
         "Pagrindinė mintis: wer yra klausiamasis žodis apie asmens tapatybę — lietuviškai tai kas arba kuris.",
         "wer klausia apie žmones, o ne apie daiktus ar įvykius.",
         "Apie daiktus ir įvykius klausiama su was, ne wer.",
-        "wer vokiečių kalboje paprastai yra sakinio veiksnys (vardininko linksnyje) — Wer ist das? = Kas tai yra?",
+        "wer vokiečių kalboje paprastai yra sakinio veiksnys (nominatyve) — Wer ist das? = Kas tai yra?",
         "Jei klausiama, kuris konkrečiai iš kelių žmonių, wer dažnai vartojamas su von (wer von euch = kuris iš jūsų).",
-        "wer kinta pagal linksnį: wen (galininkas), wem (naudininkas), wessen (kilmininkas) — A1 lygyje dažniausiai sutinkama forma yra wer."
+        "wer kinta pagal linksnį: wen (akuzatyvas), wem (datyvas), wessen (kilmininkas) — A1 lygyje dažniausiai sutinkama forma yra wer."
       ],
       "examples": [
         {
