@@ -58224,8 +58224,8 @@ const A2_WORDS = [
           "lv": "Я сиджу за столом."
         },
         {
-          "de": "sitzen",
-          "lv": "хвороба; setzen"
+          "de": "Sie sitzt schon seit einer Stunde hier.",
+          "lv": "вона сидить тут уже цілу годину."
         }
       ],
       "comparison": [
@@ -58335,13 +58335,12 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
-                "sitzen",
-                "sitzen"
+                "sitzt"
               ]
             },
             "lv": {
               "purple": [
-                "сидіти"
+                "сидить"
               ]
             }
           }
@@ -59695,8 +59694,8 @@ const A2_WORDS = [
           "lv": "пляшка стоїть на столі."
         },
         {
-          "de": "stehen",
-          "lv": "хвороба; stellen"
+          "de": "Das Auto steht vor dem Haus.",
+          "lv": "машина стоїть біля будинку."
         }
       ],
       "comparison": [
@@ -59780,26 +59779,12 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
-                "stehen",
-                "stehen"
+                "steht"
               ]
             },
             "lv": {
               "purple": [
-                "стояти"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "stehen",
-                "stehen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "стояти"
+                "стоїть"
               ]
             }
           }
