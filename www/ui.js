@@ -528,8 +528,26 @@ const COURSE_SECTION_I18N_KEYS = {
   "Gramatika": "kurss.sections.grammar",
   "Vingrinājums": "kurss.sections.exercise",
   "Pārtulko": "kurss.sections.translate",
-  "Übung / Vingrinājums": "kurss.sections.exerciseCombined"
+  "Išversk": "kurss.sections.translate",
+  "Pratimas": "kurss.sections.exercise",
+  "Übung / Vingrinājums": "kurss.sections.exerciseCombined",
+  "Übung / Pratimas": "kurss.sections.exerciseCombined"
 };
+
+const COURSE_TRANSLATE_SECTION_TITLES = new Set(["Pārtulko", "Išversk"]);
+const COURSE_EXERCISE_SECTION_TITLES = new Set(["Vingrinājums", "Pratimas", "Übung / Vingrinājums", "Übung / Pratimas"]);
+
+function isCourseTranslateSection(title) {
+  return COURSE_TRANSLATE_SECTION_TITLES.has(String(title || "").trim());
+}
+
+function isCourseExerciseSection(title) {
+  return COURSE_EXERCISE_SECTION_TITLES.has(String(title || "").trim());
+}
+
+function findCourseLessonCardSection(lesson, matcher) {
+  return lesson?.sections?.find((section) => matcher(section.title) && Array.isArray(section.cards)) || null;
+}
 
 function getCourseLessonNumber(lessonId) {
   return String(lessonId || "").match(/\d+/)?.[0] || "";
@@ -585,7 +603,7 @@ function localizeLegacyCourseLessonUi(target, lessonId, lesson) {
       if (hint) hint.textContent = getCourseExerciseHint(internalTitle, lessonKey);
     }
     const progress = accordion.querySelector(".lesson1-training-progress");
-    if (progress && lessonNumber && (internalTitle === "Pārtulko" || rawTitle === "Pārtulko")) {
+    if (progress && lessonNumber && (isCourseTranslateSection(internalTitle) || isCourseTranslateSection(rawTitle))) {
       const match = progress.textContent.match(/(\d+)\s*\/\s*(\d+)/);
       if (match) {
         progress.textContent = formatCourseTranslateProgress(lessonNumber, Number(match[1]), Number(match[2]));
@@ -595,11 +613,11 @@ function localizeLegacyCourseLessonUi(target, lessonId, lesson) {
 }
 
 function getCourseExerciseHint(sectionTitle, lessonId) {
-  if (lessonId === "lesson9" && sectionTitle === "Übung / Vingrinājums") {
+  if (lessonId === "lesson9" && (sectionTitle === "Übung / Vingrinājums" || sectionTitle === "Übung / Pratimas")) {
     return t("kurss.hints.tapNextStep");
   }
-  if (sectionTitle === "Vingrinājums") return t("kurss.hints.tapToContinue");
-  if (sectionTitle === "Pārtulko") return t("kurss.hints.tapToRevealGerman");
+  if (sectionTitle === "Vingrinājums" || sectionTitle === "Pratimas") return t("kurss.hints.tapToContinue");
+  if (isCourseTranslateSection(sectionTitle)) return t("kurss.hints.tapToRevealGerman");
   return t("kurss.hints.tapToRevealAnswer");
 }
 
@@ -802,7 +820,7 @@ function getCourseExerciseCards(lessonId) {
   const lessonNumber = String(lessonId || "").match(/\d+/)?.[0];
   if (!lessonNumber) return [];
   const lesson = window.COURSE_LESSON_DATA?.[`kurssLesson${lessonNumber}`];
-  return lesson?.sections?.find((section) => section.title === "Vingrinājums" && Array.isArray(section.cards))?.cards || [];
+  return findCourseLessonCardSection(lesson, isCourseExerciseSection)?.cards || [];
 }
 
 function resolveExerciseMeta(instruction, task, fallback) {
@@ -1083,8 +1101,12 @@ function getExerciseSourceCards(lessonId) {
   const lessonNumber = String(lessonId || "").match(/\d+/)?.[0];
   if (!lessonNumber) return [];
   if (lessonNumber === "7") {
-    if (getActiveCourseLanguageCode() === "et" && typeof lesson7ExerciseCardsEt !== "undefined") {
+    const lang = getActiveCourseLanguageCode();
+    if (lang === "et" && typeof lesson7ExerciseCardsEt !== "undefined") {
       return lesson7ExerciseCardsEt;
+    }
+    if (lang === "lt" && typeof lesson7ExerciseCardsLt !== "undefined") {
+      return lesson7ExerciseCardsLt;
     }
     return typeof lesson7ExerciseCards !== "undefined" ? lesson7ExerciseCards : [];
   }
@@ -1096,7 +1118,7 @@ function getExerciseSourceCards(lessonId) {
   }
   if (lessonNumber === "9") {
     const lesson = window.COURSE_LESSON_DATA?.kurssLesson9;
-    return lesson?.sections?.find((section) => section.title === "Übung / Vingrinājums")?.cards || [];
+    return findCourseLessonCardSection(lesson, isCourseExerciseSection)?.cards || [];
   }
   const normalizedLessonId = lessonId.startsWith("lesson") ? lessonId : `lesson${lessonNumber}`;
   return getCourseExerciseCards(normalizedLessonId);
@@ -1308,19 +1330,37 @@ function handleCourseExerciseCardClick(card) {
 }function getCourseTranslateCards(lessonId) {
   const lessonNumber = String(lessonId || "").match(/\d+/)?.[0];
   if (!lessonNumber) return [];
-  const isEt = getActiveCourseLanguageCode() === "et";
-  const legacyDecks = {
-    lesson1: (isEt && typeof lesson1TrainingCardsEt !== "undefined") ? lesson1TrainingCardsEt : (typeof lesson1TrainingCards !== "undefined" ? lesson1TrainingCards : []),
-    lesson2: (isEt && typeof lesson2TrainingCardsEt !== "undefined") ? lesson2TrainingCardsEt : (typeof lesson2TrainingCards !== "undefined" ? lesson2TrainingCards : []),
-    lesson3: (isEt && typeof lesson3TrainingCardsEt !== "undefined") ? lesson3TrainingCardsEt : (typeof lesson3TrainingCards !== "undefined" ? lesson3TrainingCards : []),
-    lesson4: (isEt && typeof lesson4TrainingCardsEt !== "undefined") ? lesson4TrainingCardsEt : (typeof lesson4TrainingCards !== "undefined" ? lesson4TrainingCards : []),
-    lesson5: (isEt && typeof lesson5TrainingCardsEt !== "undefined") ? lesson5TrainingCardsEt : (typeof lesson5TrainingCards !== "undefined" ? lesson5TrainingCards : []),
-    lesson6: (isEt && typeof lesson6TrainingCardsEt !== "undefined") ? lesson6TrainingCardsEt : (typeof lesson6TrainingCards !== "undefined" ? lesson6TrainingCards : [])
-  };
-  const legacyDeck = legacyDecks[`lesson${lessonNumber}`];
-  if (legacyDeck) return legacyDeck.map((card) => ({ lv: card.front || card.lv || "", de: card.back || card.de || "" }));
+  const lang = getActiveCourseLanguageCode();
+  if (lang === "lt") {
+    const ltDecks = {
+      lesson1: typeof lesson1TrainingCardsLt !== "undefined" ? lesson1TrainingCardsLt : [],
+      lesson2: typeof lesson2TrainingCardsLt !== "undefined" ? lesson2TrainingCardsLt : [],
+      lesson3: typeof lesson3TrainingCardsLt !== "undefined" ? lesson3TrainingCardsLt : [],
+      lesson4: typeof lesson4TrainingCardsLt !== "undefined" ? lesson4TrainingCardsLt : [],
+      lesson5: typeof lesson5TrainingCardsLt !== "undefined" ? lesson5TrainingCardsLt : [],
+      lesson6: typeof lesson6TrainingCardsLt !== "undefined" ? lesson6TrainingCardsLt : []
+    };
+    const ltDeck = ltDecks[`lesson${lessonNumber}`];
+    if (ltDeck?.length) {
+      return ltDeck.map((card) => ({ lv: card.front || card.lv || "", de: card.back || card.de || "" }));
+    }
+  } else if (lang !== "lt") {
+    const isEt = lang === "et";
+    const legacyDecks = {
+      lesson1: (isEt && typeof lesson1TrainingCardsEt !== "undefined") ? lesson1TrainingCardsEt : (typeof lesson1TrainingCards !== "undefined" ? lesson1TrainingCards : []),
+      lesson2: (isEt && typeof lesson2TrainingCardsEt !== "undefined") ? lesson2TrainingCardsEt : (typeof lesson2TrainingCards !== "undefined" ? lesson2TrainingCards : []),
+      lesson3: (isEt && typeof lesson3TrainingCardsEt !== "undefined") ? lesson3TrainingCardsEt : (typeof lesson3TrainingCards !== "undefined" ? lesson3TrainingCards : []),
+      lesson4: (isEt && typeof lesson4TrainingCardsEt !== "undefined") ? lesson4TrainingCardsEt : (typeof lesson4TrainingCards !== "undefined" ? lesson4TrainingCards : []),
+      lesson5: (isEt && typeof lesson5TrainingCardsEt !== "undefined") ? lesson5TrainingCardsEt : (typeof lesson5TrainingCards !== "undefined" ? lesson5TrainingCards : []),
+      lesson6: (isEt && typeof lesson6TrainingCardsEt !== "undefined") ? lesson6TrainingCardsEt : (typeof lesson6TrainingCards !== "undefined" ? lesson6TrainingCards : [])
+    };
+    const legacyDeck = legacyDecks[`lesson${lessonNumber}`];
+    if (legacyDeck?.length) {
+      return legacyDeck.map((card) => ({ lv: card.front || card.lv || "", de: card.back || card.de || "" }));
+    }
+  }
   const lesson = window.COURSE_LESSON_DATA?.[`kurssLesson${lessonNumber}`];
-  return lesson?.sections?.find((section) => section.title === "Pārtulko" && Array.isArray(section.cards))?.cards || [];
+  return findCourseLessonCardSection(lesson, isCourseTranslateSection)?.cards || [];
 }
 
 function getCourseTranslateLessonIdFromCard(card) {
@@ -1490,13 +1530,13 @@ function renderCourseLessonFromData(target, lesson, exerciseAttribute, lessonId)
     if (isExercise) {
       let attr = exerciseAttribute || "data-course-exercise-card";
       const hint = getCourseExerciseHint(section.title, lesson.id || "");
-      if (section.title === "Vingrinājums") {
+      if (section.title === "Vingrinājums" || section.title === "Pratimas") {
         attr = 'data-course-exercise-card data-lesson-id="' + escapeHtml(lesson.id || "") + '"';
       }
-      if (section.title === "Pārtulko") {
+      if (isCourseTranslateSection(section.title)) {
         attr = 'data-course-translate-card data-lesson-id="' + escapeHtml(lesson.id || "") + '"';
       }
-      if (lesson.id === "lesson9" && section.title === "Übung / Vingrinājums") {
+      if (lesson.id === "lesson9" && (section.title === "Übung / Vingrinājums" || section.title === "Übung / Pratimas")) {
         attr = "data-lesson9-exercise-card";
       }      bodyParts.push('<div class="lesson1-training-wrap"><button class="lesson1-training-flashcard" type="button" ' + attr + ' data-training-index="0" data-showing-back="false" aria-label="' + escapeHtml(t("kurss.hints.exerciseCardAria", { title: lesson.title || "" })) + '"></button><p class="lesson1-training-hint">' + escapeHtml(hint) + '</p></div>');
     } else {
@@ -2322,7 +2362,7 @@ function prepareLesson13Accordion() {
 }
 function getLesson9ExerciseCards() {
   const lesson = window.COURSE_LESSON_DATA?.kurssLesson9;
-  return lesson?.sections?.find(section => section.title === "Übung / Vingrinājums")?.cards || [];
+  return findCourseLessonCardSection(lesson, isCourseExerciseSection)?.cards || [];
 }
 
 function formatExerciseFormMeta(form, fallback) {
@@ -3836,7 +3876,7 @@ function spellingDiffHtml(answer, expected) {
       parts.unshift('<span class="spelling-error-char">' + escapeHtml(typed[i - 1]) + '</span>');
       i--;
     } else {
-      parts.unshift('<span class="spelling-missing-char" title="trūkst: ' + escapeHtml(correct[j - 1]) + '">□</span>');
+      parts.unshift('<span class="spelling-missing-char" title="' + escapeHtml(t("spelling.missingChar", { char: correct[j - 1] })) + '">□</span>');
       j--;
     }
   }
@@ -3851,17 +3891,18 @@ function spellingCardId(card) {
 function spellingVerbOptions(verb) {
   const forms = verbForms(verb);
   if (state.direction === "de-native") {
+    const nativePrompt = t("spelling.writeNative");
     return [
-      { front: forms.tagadne, prompt: "Uzraksti latviski", expected: forms.tagadneLv },
-      { front: forms.nakotne, prompt: "Uzraksti latviski", expected: forms.nakotneLv },
-      { front: forms.pagatne, prompt: "Uzraksti latviski", expected: forms.pagatneLv }
+      { front: forms.tagadne, prompt: nativePrompt, expected: forms.tagadneLv },
+      { front: forms.nakotne, prompt: nativePrompt, expected: forms.nakotneLv },
+      { front: forms.pagatne, prompt: nativePrompt, expected: forms.pagatneLv }
     ].filter((item) => item.front && item.expected);
   }
 
   return [
-    { front: forms.tagadneLv, prompt: "Uzraksti infinitīvu", expected: forms.tagadne },
-    { front: forms.tagadneLv, prompt: "Uzraksti imperfektu", expected: forms.nakotne },
-    { front: forms.tagadneLv, prompt: "Uzraksti pagātnes divdabi", expected: forms.pagatne }
+    { front: forms.tagadneLv, prompt: t("verb.writeInfinitive"), expected: forms.tagadne },
+    { front: forms.tagadneLv, prompt: t("verb.writeImperfect"), expected: forms.nakotne },
+    { front: forms.tagadneLv, prompt: t("verb.writePastParticiple"), expected: forms.pagatne }
   ].filter((item) => item.front && item.expected);
 }
 
@@ -3909,9 +3950,9 @@ function checkSpellingAnswer() {
 function verbRandomOptions(verb) {
   const forms = verbForms(verb);
   return [
-    { show: forms.tagadneLv, prompt: "Uzmini infinitīvu", reveal: forms.tagadne },
-    { show: forms.tagadneLv, prompt: "Uzmini imperfektu", reveal: forms.nakotne },
-    { show: forms.tagadneLv, prompt: "Uzmini pagātnes divdabi", reveal: forms.pagatne }
+    { show: forms.tagadneLv, prompt: t("verb.guessInfinitive"), reveal: forms.tagadne },
+    { show: forms.tagadneLv, prompt: t("verb.guessImperfect"), reveal: forms.nakotne },
+    { show: forms.tagadneLv, prompt: t("verb.guessPastParticiple"), reveal: forms.pagatne }
   ].filter((item) => item.show && item.reveal);
 }
 
@@ -4653,7 +4694,7 @@ function applyFlashcardSingularAudio(card, autoplayToken, {
   const germanOnFront = flashcardGermanOnFront(card, isGermanToLatvian, study);
 
   if (enablePrimaryAudio) {
-    setPrimaryCardAudio(singularAudioSrc, `Klausīties: ${label}`);
+    setPrimaryCardAudio(singularAudioSrc, t("buttons.listenWithWord", { word: label }));
   }
   setInlineGermanAudioButtons(singularAudioSrc, label, buttons);
 
@@ -4698,12 +4739,12 @@ function setPrimaryCardAudio(src, label) {
   if (!btn) return;
   btn.hidden = !src || state.verbMode;
   if (!src) return;
-  btn.dataset.audioLabel = label || "Automātiska izruna";
+  btn.dataset.audioLabel = label || t("buttons.autoplayLabel");
   updateAutoplayButtonUI();
 }
 
 function setInlineGermanAudioButtons(src, germanText, { onWord = false, onTranslation = false } = {}) {
-  const label = `Klausīties: ${germanText}`;
+  const label = t("buttons.listenWithWord", { word: germanText });
   const show = Boolean(src && !state.verbMode);
   const buttons = [
     { btn: elements.singularAudioBtn, visible: show && onWord },
@@ -4724,14 +4765,14 @@ function setInlineGermanAudioButtons(src, germanText, { onWord = false, onTransl
 function updateAutoplayButtonUI() {
   const btn = elements.cardAutoplayBtn;
   if (!btn || btn.hidden) return;
-  const baseLabel = btn.dataset.audioLabel || "Automātiska izruna";
+  const baseLabel = btn.dataset.audioLabel || t("buttons.autoplayLabel");
   btn.classList.toggle("is-enabled", state.audioAutoplay);
   btn.classList.toggle("is-disabled", !state.audioAutoplay);
   btn.setAttribute("aria-pressed", state.audioAutoplay ? "true" : "false");
-  btn.title = state.audioAutoplay ? "Izslēgt automātisko izrunu" : "Ieslēgt automātisko izrunu";
+  btn.title = state.audioAutoplay ? t("buttons.disableAutoplay") : t("buttons.enableAutoplay");
   btn.setAttribute(
     "aria-label",
-    state.audioAutoplay ? `${baseLabel} (automātiski ieslēgts)` : `${baseLabel} (automātiski izslēgts)`
+    state.audioAutoplay ? t("buttons.autoplayAriaOn", { label: baseLabel }) : t("buttons.autoplayAriaOff", { label: baseLabel })
   );
 }
 
@@ -4832,6 +4873,7 @@ function renderGermanAlternativesTranslation(alternatives) {
 
 function renderWordCardContent(card, autoplayToken = cardAutoplayToken) {
   beginFlashcardAudioRender(card);
+  if (elements.translation) elements.translation.className = "translation";
   const isDeFront = state.direction === "de-native";
   const germanText = formatGermanEntry(card);
   const frontText = isDeFront ? germanText : card.lv;
@@ -5473,7 +5515,7 @@ function ensureWordListModal(config) {
     <div class="modal-content">
       <header class="modal-header">
         <h2>${escapeHtml(title)}</h2>
-        <button type="button" class="modal-close" aria-label="Aizvērt">×</button>
+        <button type="button" class="modal-close" aria-label="${escapeHtml(t("buttons.close"))}">×</button>
       </header>
       ${actionsHtml}
       <div class="modal-list" id="${listId}"></div>
@@ -5520,8 +5562,8 @@ function showWordListModal(config) {
 function openUnwantedList() {
   showWordListModal({
     id: "unwantedWordsModal",
-    title: "Nevajadzīgie vārdi",
-    ariaLabel: "Nevajadzīgie vārdi",
+    title: t("buttons.unwantedWords"),
+    ariaLabel: t("buttons.unwantedWords"),
     listId: "unwantedWordsList",
     renderContent: renderUnwantedList,
     onListClick: (event) => {
@@ -5583,9 +5625,9 @@ function renderKnownList(container) {
     <div class="modal-row">
       <div class="modal-word">
         <strong>${escapeHtml(entry.de)} ➔ ${escapeHtml(entry.lv)}</strong>
-        <span class="modal-level">${escapeHtml(entry.groupKey === "verbs" ? "Darbības vārdi" : groupDisplayLabel(entry.level))}</span>
+        <span class="modal-level">${escapeHtml(entry.groupKey === "verbs" ? t("progress.verbsHeading") : groupDisplayLabel(entry.level))}</span>
       </div>
-      <button type="button" class="modal-remove-btn" data-restore-known="${escapeHtml(entry.id)}" data-restore-known-group="${escapeHtml(entry.groupKey)}">Atgriezt</button>
+      <button type="button" class="modal-remove-btn" data-restore-known="${escapeHtml(entry.id)}" data-restore-known-group="${escapeHtml(entry.groupKey)}">${escapeHtml(t("buttons.restore"))}</button>
     </div>
   `).join("");
 }
@@ -5593,8 +5635,8 @@ function renderKnownList(container) {
 function openKnownList() {
   showWordListModal({
     id: "knownWordsModal",
-    title: "Zināmi",
-    ariaLabel: "Zināmi",
+    title: t("buttons.knownWords"),
+    ariaLabel: t("buttons.knownWords"),
     listId: "knownWordsList",
     renderContent: renderKnownList,
     onListClick: (event) => {
@@ -5654,7 +5696,7 @@ function renderMasteredList(container) {
         <strong>${escapeHtml(formatGermanEntry(card))} ➔ ${escapeHtml(card.lv)}</strong>
         <span class="modal-level">${escapeHtml(groupDisplayLabel(card.level))}</span>
       </div>
-      <button type="button" class="modal-remove-btn" data-restore-mastered="${card.id}">Atgriezt</button>
+      <button type="button" class="modal-remove-btn" data-restore-mastered="${card.id}">${escapeHtml(t("buttons.restore"))}</button>
     </div>
   `).join("");
 }
@@ -5662,8 +5704,8 @@ function renderMasteredList(container) {
 function openMasteredList() {
   showWordListModal({
     id: "masteredWordsModal",
-    title: "100% zināmi",
-    ariaLabel: "100% zināmi",
+    title: t("buttons.masteredWords"),
+    ariaLabel: t("buttons.masteredWords"),
     listId: "masteredWordsList",
     renderContent: renderMasteredList,
     onListClick: (event) => {
@@ -6854,8 +6896,8 @@ function renderMinimalStudyVariantLine(article, de) {
 
 function comparisonWordAudioButtonHtml(word, src) {
   if (!src) return "";
-  const label = `Klausīties: ${word}`;
-  return `<button type="button" class="flashcard-audio-btn comparison-word-audio-btn" data-audio-src="${escapeStudyCardText(src)}" aria-label="${escapeStudyCardText(label)}" title="Klausīties"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg></button>`;
+  const label = t("buttons.listenWithWord", { word });
+  return `<button type="button" class="flashcard-audio-btn comparison-word-audio-btn" data-audio-src="${escapeStudyCardText(src)}" aria-label="${escapeStudyCardText(label)}" title="${escapeStudyCardText(t("buttons.listen"))}"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg></button>`;
 }
 
 function formatLvDisplay(value) {
@@ -6865,6 +6907,47 @@ function formatLvDisplay(value) {
     .replace(/\s*;\s*/g, "; ")
     .replace(/\s*•\s*/g, " • ")
     .replace(/\s*,\s*/g, ", ");
+}
+
+function hasStudyFieldContent(value) {
+  if (value === undefined || value === null) return false;
+  if (typeof value === "string") return value.trim().length > 0;
+  if (Array.isArray(value)) return value.some(hasStudyFieldContent);
+  if (typeof value === "object") return Object.values(value).some(hasStudyFieldContent);
+  return Boolean(value);
+}
+
+function cardHasRenderableStudy(study) {
+  if (!study || typeof study !== "object") return false;
+  const layout = study.layout || "standardStudy";
+  if (layout === "minimalStudy") {
+    return hasStudyFieldContent(study.note)
+      || hasStudyFieldContent(study.forms)
+      || hasStudyFieldContent(study.tip)
+      || hasStudyFieldContent(study.examples);
+  }
+  if (layout === "comparisonStudy") {
+    return hasStudyFieldContent(study.words)
+      || hasStudyFieldContent(study.items)
+      || hasStudyFieldContent(study.terms)
+      || hasStudyFieldContent(study.comparison)
+      || hasStudyFieldContent(study.comparisonTable)
+      || hasStudyFieldContent(study.subtitle)
+      || hasStudyFieldContent(study.subtitleText)
+      || hasStudyFieldContent(study.title)
+      || hasStudyFieldContent(study.lead)
+      || hasStudyFieldContent(study.question);
+  }
+  return hasStudyFieldContent(study.explanation)
+    || hasStudyFieldContent(study.explanationLines)
+    || hasStudyFieldContent(study.examples)
+    || hasStudyFieldContent(study.comparison)
+    || hasStudyFieldContent(study.tip)
+    || hasStudyFieldContent(study.important)
+    || hasStudyFieldContent(study.info)
+    || hasStudyFieldContent(study.words)
+    || hasStudyFieldContent(study.items)
+    || hasStudyFieldContent(study.terms);
 }
 
 function clearStudyCard() {
@@ -6882,11 +6965,14 @@ function clearStudyCard() {
     elements.cardStudyExtra.hidden = true;
     elements.cardStudyExtra.innerHTML = "";
   }
+  if (elements.translation) {
+    elements.translation.className = "translation";
+  }
 }
 
 function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
   const study = card.study;
-  if (!study) return false;
+  if (!study || !cardHasRenderableStudy(study)) return false;
   const layout = study.layout || "standardStudy";
   const isComparisonStudy = layout === "comparisonStudy";
   const isMinimalStudy = layout === "minimalStudy";
@@ -7073,30 +7159,53 @@ function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
   const collectAccentRules = (accentRules) => studyAccentColors.flatMap((accent) => (
     Array.isArray(accentRules?.[accent]) ? accentRules[accent] : []
   ).filter((term) => String(term || "").trim()).map((term) => ({ accent, term: String(term) })));
+  const findAccentMatches = (raw, rules) => {
+    const selected = [];
+    let coveredUntil = -1;
+    for (const { accent, term } of rules) {
+      const candidates = [];
+      const boundaryRegex = new RegExp(accentBoundaryPattern(term), "giu");
+      for (const match of raw.matchAll(boundaryRegex)) {
+        candidates.push({
+          accent,
+          start: match.index,
+          end: match.index + match[0].length,
+          value: match[0],
+          length: match[0].length,
+        });
+      }
+      if (!candidates.length && term.length >= 4) {
+        const stem = term.replace(/(?:en|ern|eln)$/i, "");
+        if (stem.length >= 3) {
+          const stemRegex = new RegExp(accentBoundaryPattern(stem) + "[\\p{L}\\p{N}_]*", "giu");
+          for (const match of raw.matchAll(stemRegex)) {
+            candidates.push({
+              accent,
+              start: match.index,
+              end: match.index + match[0].length,
+              value: match[0],
+              length: match[0].length,
+            });
+          }
+        }
+      }
+      candidates.sort((a, b) => a.start - b.start || b.length - a.length);
+      for (const match of candidates) {
+        if (match.start >= coveredUntil) {
+          selected.push(match);
+          coveredUntil = match.end;
+          break;
+        }
+      }
+    }
+    return selected.sort((a, b) => a.start - b.start);
+  };
   const formatStudyText = (value, accentRules = study.accents) => {
     const raw = String(value || "");
     const rules = collectAccentRules(accentRules);
     if (!raw || !rules.length) return escapeStudyCardText(raw);
 
-    const matches = rules.flatMap(({ accent, term }) => {
-      const regex = new RegExp(accentBoundaryPattern(term), "giu");
-      return Array.from(raw.matchAll(regex), (match) => ({
-        accent,
-        start: match.index,
-        end: match.index + match[0].length,
-        value: match[0],
-        length: match[0].length,
-      }));
-    }).sort((a, b) => a.start - b.start || b.length - a.length);
-
-    const selected = [];
-    let coveredUntil = -1;
-    for (const match of matches) {
-      if (match.start >= coveredUntil) {
-        selected.push(match);
-        coveredUntil = match.end;
-      }
-    }
+    const selected = findAccentMatches(raw, rules);
     if (!selected.length) return escapeStudyCardText(raw);
 
     let html = "";
@@ -7195,6 +7304,8 @@ function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
     `).join("")
     : Array.isArray(study.tip)
       ? study.tip.map((line, index) => `<p>${formatStudyText(line, textAccentRules("tip", index) || study.sectionAccents?.tip?.leftBlocks?.[index]?.text)}</p>`).join("")
+    : typeof study.tip === "string"
+      ? renderStudyParagraphs(study.tip, "tip")
     : `
       <p>${formatStudyText(study.tip?.left || study.tip?.text || "", study.sectionAccents?.tip?.left)}</p>
       ${Array.isArray(study.tip?.leftItems) && study.tip.leftItems.length ? `<ul>${study.tip.leftItems.map((item) => `<li>${formatStudyText(item, study.sectionAccents?.tip?.leftItems)}</li>`).join("")}</ul>` : ""}
@@ -7227,7 +7338,8 @@ function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
     const accentRules = textAccentRules("explanation", index);
     return `<p>${formatStudyText(line, accentRules)}</p>`;
   }).join("");
-  const explanation = Array.isArray(study.explanationLines) && study.explanationLines.length ? `
+  const explanation = (splitExplanation.mainIdea || explanationBody.trim()) ? (
+    Array.isArray(study.explanationLines) && study.explanationLines.length ? `
     <section class="study-explanation">
       <h3>${STUDY_SECTION_ICONS.explanation} ${studySectionTitle("explanation")}</h3>
       ${explanationBody}
@@ -7235,7 +7347,14 @@ function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
         ${study.explanationLines.map((line) => `<li>${formatStudyText(line)}</li>`).join("")}
       </ul>
     </section>
-  ` : `<section class="study-explanation"><h3>${STUDY_SECTION_ICONS.explanation} ${studySectionTitle("explanation")}</h3>${explanationBody}</section>`;
+  ` : `<section class="study-explanation"><h3>${STUDY_SECTION_ICONS.explanation} ${studySectionTitle("explanation")}</h3>${explanationBody}</section>`
+  ) : "";
+  const examplesSection = examples.trim() ? `
+    <section class="study-section study-examples">
+      <h3>${STUDY_SECTION_ICONS.examples} ${studySectionTitle("examples")}</h3>
+      <div class="study-standard-table study-examples-table">${examples}</div>
+    </section>
+  ` : "";
   const renderComparisonRichWordBlocks = () => {
     const items = Array.isArray(study.words) ? study.words : (Array.isArray(study.items) ? study.items : (Array.isArray(study.terms) ? study.terms : []));
     if (!items.length) return "";
@@ -7479,10 +7598,7 @@ function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
   elements.cardStudyExtra.innerHTML = `
     ${mainIdea}
     ${explanation}
-    <section class="study-section study-examples">
-      <h3>${STUDY_SECTION_ICONS.examples} ${studySectionTitle("examples")}</h3>
-      <div class="study-standard-table study-examples-table">${examples}</div>
-    </section>
+    ${examplesSection}
 ${comparison}
     ${info}
     ${tip}
@@ -7527,7 +7643,7 @@ function cardElementNeedsTabletPageScroll(cardEl) {
 
 function cardDataNeedsTabletPageScroll(card) {
   if (state.spellingMode) return false;
-  if (card?.study && state.revealed) return true;
+  if (card?.study && state.revealed && cardHasRenderableStudy(card.study)) return true;
   return false;
 }
 
@@ -7623,10 +7739,10 @@ function render() {
   if (state.spellingMode) {
     const task = currentSpellingTask(card);
     elements.cardLevel.className = "badge";
-    elements.cardLevel.textContent = `${groupDisplayLabel(card.level)} · Pareizrakstība`;
+    elements.cardLevel.textContent = `${groupDisplayLabel(card.level)} · ${t("card.spelling")}`;
     elements.word.textContent = task ? task.front : "";
     elements.translation.textContent = state.spellingChecked && !state.spellingCorrect && task
-      ? `Atbilde: ${task.expected}`
+      ? `${t("card.answerPrefix")} ${task.expected}`
       : "";
     elements.hint.textContent = task ? task.prompt : "";
     renderSpellingControls();
@@ -7638,13 +7754,13 @@ function render() {
 
   elements.cardLevel.className = "badge";
   elements.cardLevel.textContent = state.reviewLastSession
-    ? `${groupDisplayLabel(card.level)} · Pēdējā sesija: ${Math.min(lastSessionReviewDoneCount() + 1, lastSessionReviewTotalCount())} / ${lastSessionReviewTotalCount()}`
+    ? `${groupDisplayLabel(card.level)} · ${t("card.lastSessionLabel")}: ${Math.min(lastSessionReviewDoneCount() + 1, lastSessionReviewTotalCount())} / ${lastSessionReviewTotalCount()}`
     : (state.timeReviewMode
-    ? `${card.level} · ${timeConfig.label}: ${state.timeReviewIndex + 1}/${deck.length}`
+    ? `${groupDisplayLabel(card.level)} · ${timeConfig.label}: ${state.timeReviewIndex + 1}/${deck.length}`
     : (state.problemMode
-    ? `${groupDisplayLabel(problemCardGroupKey(card))} · Problemātiskie: ${state.problemIndex + 1}/${deck.length}`
+    ? `${groupDisplayLabel(problemCardGroupKey(card))} · ${t("card.problemLabel")}: ${state.problemIndex + 1}/${deck.length}`
     : (!state.reviewKnown && sessionMatchesActiveGroup()
-    ? `${groupDisplayLabel(card.level)} · Sesija: ${Math.min(sessionDoneCount() + 1, sessionTotalCount())} / ${sessionTotalCount()}`
+    ? `${groupDisplayLabel(card.level)} · ${t("card.sessionLabel")}: ${Math.min(sessionDoneCount() + 1, sessionTotalCount())} / ${sessionTotalCount()}`
     : `${groupDisplayLabel(card.level)} · ${state.index + 1}/${deck.length}`)));
   if (renderStudyCard(card, autoplayToken)) {
     updateKnownListBtn();

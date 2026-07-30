@@ -47,11 +47,16 @@ window.LANGUAGE_UI_STRINGS = {
     chooseAnotherGroup: "Выбрать другую группу",
     listen: "Слушать",
     listenPlural: "Слушать множественное число",
+    listenWithWord: "Слушать: {word}",
     autoplayOn: "Автовоспроизведение включено",
     autoplayOff: "Автовоспроизведение выключено",
+    autoplayLabel: "Автовоспроизведение",
+    autoplayAriaOn: "{label} (автоматически включено)",
+    autoplayAriaOff: "{label} (автоматически выключено)",
     disableAutoplay: "Выключить автовоспроизведение",
     enableAutoplay: "Включить автовоспроизведение",
-    markUnwanted: "Отметить как ненужное"
+    markUnwanted: "Отметить как ненужное",
+    masteredWords: "100% известные"
   },
   tools: {
     problemShort: "Пробл.",
@@ -92,7 +97,16 @@ window.LANGUAGE_UI_STRINGS = {
     pastParticiple: "Причастие прошедшего времени",
     infinitiv: "Infinitiv",
     writeInfinitive: "Напишите инфинитив",
-    guessInfinitive: "Угадайте инфинитив"
+    guessInfinitive: "Угадайте инфинитив",
+    writeImperfect: "Напишите прошедшее время",
+    guessImperfect: "Угадайте прошедшее время",
+    writePastParticiple: "Напишите причастие прошедшего времени",
+    guessPastParticiple: "Угадайте причастие прошедшего времени",
+    translationPrefix: "Перевод:",
+    hintTapAnswer: "Нажмите на карточку, чтобы увидеть ответ.",
+    hintTapSwitch: "Нажмите на карточку, чтобы переключить форму.",
+    hintSessionProgress: "{label}: {current} / {total}. {tap}",
+    noShuffleForms: "У этого глагола недостаточно форм для перемешивания."
   },
   notices: {
     chooseNextGroup: "Выберите следующую группу в главном меню.",
@@ -272,7 +286,8 @@ window.LANGUAGE_UI_STRINGS = {
     incorrect: "Неправильно",
     expectedLabel: "Правильно:",
     noVerbTask: "Для этого глагола нет задания на правописание.",
-    writeAnswer: "Введите ответ"
+    writeAnswer: "Введите ответ",
+    missingChar: "не хватает: {char}"
   },
   progress: { verbsHeading: "Глаголы", courseHeading: "Курс" },
   study: {

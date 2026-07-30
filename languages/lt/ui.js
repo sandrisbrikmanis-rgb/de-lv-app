@@ -47,11 +47,16 @@ window.LANGUAGE_UI_STRINGS = {
     chooseAnotherGroup: "Pasirinkti kitą grupę",
     listen: "Klausyti",
     listenPlural: "Klausyti daugiskaitos",
+    listenWithWord: "Klausyti: {word}",
     autoplayOn: "Automatinis atkūrimas įjungtas",
     autoplayOff: "Automatinis atkūrimas išjungtas",
+    autoplayLabel: "Automatinis atkūrimas",
+    autoplayAriaOn: "{label} (automatiškai įjungta)",
+    autoplayAriaOff: "{label} (automatiškai išjungta)",
     disableAutoplay: "Išjungti automatinį atkūrimą",
     enableAutoplay: "Įjungti automatinį atkūrimą",
-    markUnwanted: "Pažymėti kaip nereikalingą"
+    markUnwanted: "Pažymėti kaip nereikalingą",
+    masteredWords: "100% žinomi"
   },
   tools: {
     problemShort: "Probl.",
@@ -92,7 +97,16 @@ window.LANGUAGE_UI_STRINGS = {
     pastParticiple: "Būtojo laiko dalyvis",
     infinitiv: "Infinitiv",
     writeInfinitive: "Parašykite bendratį",
-    guessInfinitive: "Atspėkite bendratį"
+    guessInfinitive: "Atspėkite bendratį",
+    writeImperfect: "Parašykite būtąjį laiką",
+    guessImperfect: "Atspėkite būtąjį laiką",
+    writePastParticiple: "Parašykite būtojo laiko dalyvį",
+    guessPastParticiple: "Atspėkite būtojo laiko dalyvį",
+    translationPrefix: "Vertimas:",
+    hintTapAnswer: "Spustelėkite kortelę, kad pamatytumėte atsakymą.",
+    hintTapSwitch: "Spustelėkite kortelę, kad pakeistumėte formą.",
+    hintSessionProgress: "{label}: {current} / {total}. {tap}",
+    noShuffleForms: "Šiam veiksmažodžiui nėra pakankamai formų maišymui."
   },
   notices: {
     chooseNextGroup: "Pasirinkite kitą grupę pagrindiniame meniu.",
@@ -272,7 +286,8 @@ window.LANGUAGE_UI_STRINGS = {
     incorrect: "Neteisingai",
     expectedLabel: "Teisingai:",
     noVerbTask: "Šiam veiksmažodžiui nėra rašybos užduoties.",
-    writeAnswer: "Įrašykite atsakymą"
+    writeAnswer: "Įrašykite atsakymą",
+    missingChar: "trūksta: {char}"
   },
   progress: { verbsHeading: "Veiksmažodžiai", courseHeading: "Kursas" },
   study: {

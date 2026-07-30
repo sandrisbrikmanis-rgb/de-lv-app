@@ -380,7 +380,125 @@ const C1_WORDS = [
           "de": "Nebenan steht ein Mehrfamilienhaus.",
           "lv": "kõrval asub kortermaja."
         }
-      ]
+      ],
+      "comparison": [
+        {
+          "word": "das Einfamilienhaus",
+          "meaning": "üksikelamu (ühele perele)",
+          "example": "Sie wohnen in einem Einfamilienhaus. = Nad elavad üksikelamus."
+        },
+        {
+          "word": "das Mehrfamilienhaus",
+          "meaning": "kortermaja (mitmele perele)",
+          "example": "Nebenan steht ein Mehrfamilienhaus. = Kõrval asub kortermaja."
+        },
+        {
+          "word": "das Reihenhaus",
+          "meaning": "ridaelamu",
+          "example": "Das Reihenhaus hat eine gemeinsame Wand. = Ridaelamul on ühine sein."
+        }
+      ],
+      "tip": "Liitsõna koosneb osadest eine Familie (üks pere) + Haus (maja) — see aitab meelde jätta, et tegu on ühe pere majaga.",
+      "important": "Ära aja segi das Einfamilienhaus (üksikelamu) ja das Mehrfamilienhaus (kortermaja) — vahe on majas elavate perede arvus.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Einfamilienhaus"
+          ],
+          "purple": [
+            "Põhiidee"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Einfamilienhaus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "üksikelamus"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Einfamilienhaus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "üksikelamul"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Mehrfamilienhaus"
+              ]
+            },
+            "lv": {
+              "yellow": [
+                "kortermaja"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "blue": [
+                "das Einfamilienhaus"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "üksikelamu"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Mehrfamilienhaus"
+              ]
+            },
+            "meaning": {
+              "yellow": [
+                "kortermaja"
+              ]
+            }
+          },
+          {
+            "word": {
+              "red": [
+                "das Reihenhaus"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ridaelamu"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "Liitsõna"
+          ]
+        },
+        "important": {
+          "blue": [
+            "Einfamilienhaus"
+          ],
+          "green": [
+            "Mehrfamilienhaus"
+          ]
+        }
+      }
     }
   },
   {
@@ -778,7 +896,125 @@ const C1_WORDS = [
           "de": "Die Öffentlichkeit hat ein Recht auf Information.",
           "lv": "avalikkusel on õigus infole."
         }
-      ]
+      ],
+      "comparison": [
+        {
+          "word": "die Öffentlichkeit",
+          "meaning": "avalikkus (inimesed, avalik ruum)",
+          "example": "Die Öffentlichkeit reagierte kritisch. = Avalikkus reageeris kriitiliselt."
+        },
+        {
+          "word": "öffentlich",
+          "meaning": "avalik (omadussõna)",
+          "example": "Das ist eine öffentliche Angelegenheit. = See on avalik asi."
+        },
+        {
+          "word": "die Privatsphäre",
+          "meaning": "privaatsfäär (vastand)",
+          "example": "Er schützt seine Privatsphäre. = Ta kaitseb oma privaatsust."
+        }
+      ],
+      "tip": "Väljend an die Öffentlichkeit kommen/gehen tähendab avalikuks saamist või minemist.",
+      "important": "Ära aja segi die Öffentlichkeit (avalikkus, nimisõna) ja öffentlich (avalik, omadussõna).",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Öffentlichkeit"
+          ],
+          "purple": [
+            "avalikkus"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Öffentlichkeit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "avalikkus"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Öffentlichkeit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "avalikuks"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Öffentlichkeit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "avalikkusel"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "blue": [
+                "die Öffentlichkeit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "avalikkus"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "öffentlich"
+              ]
+            },
+            "meaning": {
+              "yellow": [
+                "avalik"
+              ]
+            }
+          },
+          {
+            "word": {
+              "red": [
+                "die Privatsphäre"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "privaatsfäär"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "Öffentlichkeit"
+          ]
+        },
+        "important": {
+          "blue": [
+            "Öffentlichkeit"
+          ],
+          "green": [
+            "öffentlich"
+          ]
+        }
+      }
     }
   },
   {
@@ -812,7 +1048,126 @@ const C1_WORDS = [
           "de": "Beide Parteien müssen den Vertrag unterschreiben.",
           "lv": "mõlemad pooled peavad lepingu allkirjastama."
         }
-      ]
+      ],
+      "comparison": [
+        {
+          "word": "die Partei (politisch)",
+          "meaning": "poliitiline partei",
+          "example": "Diese Partei gewann die Wahl. = See partei võitis valimised."
+        },
+        {
+          "word": "die Partei (juristisch)",
+          "meaning": "pool (lepingus, vaidluses)",
+          "example": "Beide Parteien müssen unterschreiben. = Mõlemad pooled peavad allkirjastama."
+        },
+        {
+          "word": "der Teil",
+          "meaning": "osa (millestki)",
+          "example": "Das ist nur ein Teil der Lösung. = See on vaid osa lahendusest."
+        }
+      ],
+      "tip": "Kontekst näitab, kas Partei on poliitiline organisatsioon või juriidiline pool.",
+      "important": "Ära aja segi die Partei (pool, osaline vaidluses või lepingus) ja der Teil (osa millestki) — need on erineva tähendusega.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Partei"
+          ],
+          "purple": [
+            "partei",
+            "pool"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Partei"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "partei"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Partei"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "partei"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Parteien"
+              ]
+            },
+            "lv": {
+              "yellow": [
+                "pooled"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "blue": [
+                "die Partei (politisch)"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "poliitiline partei"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Partei (juristisch)"
+              ]
+            },
+            "meaning": {
+              "yellow": [
+                "pool"
+              ]
+            }
+          },
+          {
+            "word": {
+              "red": [
+                "der Teil"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "osa"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "Partei"
+          ]
+        },
+        "important": {
+          "blue": [
+            "Partei"
+          ],
+          "red": [
+            "Teil"
+          ]
+        }
+      }
     }
   },
   {
@@ -881,7 +1236,126 @@ const C1_WORDS = [
           "de": "Wir verbessern den ganzen Prozess.",
           "lv": "me täiustame kogu protsessi."
         }
-      ]
+      ],
+      "comparison": [
+        {
+          "word": "der Prozess (allgemein)",
+          "meaning": "protsess, kulg",
+          "example": "Wir verbessern den Prozess. = Me täiustame protsessi."
+        },
+        {
+          "word": "der Prozess (juristisch)",
+          "meaning": "kohtuprotsess",
+          "example": "Der Prozess vor Gericht beginnt morgen. = Kohtuprotsess algab homme."
+        },
+        {
+          "word": "das Verfahren",
+          "meaning": "menetlus (ametlik protsess)",
+          "example": "Das Verfahren wurde eingestellt. = Menetlus lõpetati."
+        }
+      ],
+      "tip": "Kontekst (kohus, äri, tehnika) näitab, kas Prozess tähendab üldist protsessi või kohtuprotsessi.",
+      "important": "Ära aja segi der Prozess (protsess, kohtuprotsess) ja das Verfahren (ametlik menetlus) — Verfahren on formaalsem sõna.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Prozess"
+          ],
+          "purple": [
+            "protsess",
+            "kohtuprotsess"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Prozess"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "protsess"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Prozess"
+              ]
+            },
+            "lv": {
+              "yellow": [
+                "kohtuprotsess"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Prozess"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "protsessi"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "blue": [
+                "der Prozess (allgemein)"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "protsess"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Prozess (juristisch)"
+              ]
+            },
+            "meaning": {
+              "yellow": [
+                "kohtuprotsess"
+              ]
+            }
+          },
+          {
+            "word": {
+              "red": [
+                "das Verfahren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "menetlus"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "Prozess"
+          ]
+        },
+        "important": {
+          "blue": [
+            "Prozess"
+          ],
+          "red": [
+            "Verfahren"
+          ]
+        }
+      }
     }
   },
   {
@@ -1302,37 +1776,75 @@ const C1_WORDS = [
         },
         "examples": [
           {
-            "de": { "blue": "Wettbewerb" },
-            "lv": { "yellow": "võistlusel" }
+            "de": {
+              "blue": "Wettbewerb"
+            },
+            "lv": {
+              "yellow": "võistlusel"
+            }
           },
           {
-            "de": { "blue": "Wettbewerb" },
-            "lv": { "green": "konkurentsis" }
+            "de": {
+              "blue": "Wettbewerb"
+            },
+            "lv": {
+              "green": "konkurentsis"
+            }
           },
           {
-            "de": { "blue": "Wettbewerb", "yellow": "Stelle" },
-            "lv": { "purple": "konkursi" }
+            "de": {
+              "blue": "Wettbewerb",
+              "yellow": "Stelle"
+            },
+            "lv": {
+              "purple": "konkursi"
+            }
           }
         ],
         "comparison": [
           {
-            "word": { "blue": "der Wettbewerb" },
-            "meaning": { "purple": "konkurss" },
-            "example": { "blue": "Wettbewerb" }
+            "word": {
+              "blue": "der Wettbewerb"
+            },
+            "meaning": {
+              "purple": "konkurss"
+            },
+            "example": {
+              "blue": "Wettbewerb"
+            }
           },
           {
-            "word": { "blue": "der Wettbewerb" },
-            "meaning": { "green": "konkurents" },
-            "example": { "blue": "Wettbewerb" }
+            "word": {
+              "blue": "der Wettbewerb"
+            },
+            "meaning": {
+              "green": "konkurents"
+            },
+            "example": {
+              "blue": "Wettbewerb"
+            }
           },
           {
-            "word": { "blue": "der Wettbewerb" },
-            "meaning": { "yellow": "võistlus" },
-            "example": { "blue": "Wettbewerb" }
+            "word": {
+              "blue": "der Wettbewerb"
+            },
+            "meaning": {
+              "yellow": "võistlus"
+            },
+            "example": {
+              "blue": "Wettbewerb"
+            }
           }
         ],
-        "tip": { "blue": "Wettbewerb" },
-        "important": { "blue": "Wettbewerb", "purple": "konkurss", "green": "konkurents", "yellow": "võistlus" }
+        "tip": {
+          "blue": "Wettbewerb"
+        },
+        "important": {
+          "blue": "Wettbewerb",
+          "purple": "konkurss",
+          "green": "konkurents",
+          "yellow": "võistlus"
+        }
       }
     }
   },
@@ -1569,7 +2081,12 @@ const C1_WORDS = [
       "id": "c1-wahl",
       "layout": "standardStudy",
       "translation": "valik • valimised",
-      "explanation": "die Wahl võib tähendada valikut võimaluste vahel. Poliitika kontekstis tähendab Wahl valimisi. See võib tähendada ka hääletamist ennast. Väljend eine Wahl treffen tähendab valiku tegemist. zur Wahl gehen tähendab valimistele minemist. Kontekst poliitika või isikliku otsuse kohta näitab õiget tähendust.",
+      "explanation": [
+        "Põhiidee: die Wahl tähendab valikut kahe või enama võimaluse vahel.",
+        "Poliitika kontekstis tähendab die Wahl valimisi või hääletamist ennast.",
+        "Väljend eine Wahl treffen tähendab valiku tegemist; zur Wahl gehen tähendab valimistele minemist.",
+        "Kontekst — isiklik otsus või poliitika — näitab, kumb tähendus on õige."
+      ],
       "examples": [
         {
           "de": "Du hast die Wahl.",
@@ -1595,7 +2112,162 @@ const C1_WORDS = [
           "de": "Bei der Wahl stimmen wir ab.",
           "lv": "valimistel me hääletame."
         }
-      ]
+      ],
+      "comparison": [
+        {
+          "word": "die Wahl (Möglichkeit)",
+          "meaning": "valik (kahe või enama võimaluse vahel)",
+          "example": "Du hast die Wahl. = Sul on valik."
+        },
+        {
+          "word": "die Wahl (Politik)",
+          "meaning": "valimised",
+          "example": "Die Wahl findet am Sonntag statt. = Valimised toimuvad pühapäeval."
+        },
+        {
+          "word": "die Auswahl",
+          "meaning": "valikuvõimalus, sortiment",
+          "example": "Es gibt eine große Auswahl. = Valikuvõimalusi on palju."
+        }
+      ],
+      "tip": "eine Wahl treffen = valikut teha; zur Wahl gehen = valimistele minna.",
+      "important": "Ära aja segi die Wahl (valik / valimised) ja die Auswahl (valikuvõimalus, nt poes olev sortiment).",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Wahl"
+          ],
+          "purple": [
+            "valik",
+            "valimisi"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Wahl"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "valik"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wahl"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "valiku"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Wahl"
+              ]
+            },
+            "lv": {
+              "yellow": [
+                "valimised"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Wahl"
+              ]
+            },
+            "lv": {
+              "yellow": [
+                "valimistele"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wahl"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "valik"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Wahl"
+              ]
+            },
+            "lv": {
+              "yellow": [
+                "valimistel"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "blue": [
+                "die Wahl (Möglichkeit)"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "valik"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Wahl (Politik)"
+              ]
+            },
+            "meaning": {
+              "yellow": [
+                "valimised"
+              ]
+            }
+          },
+          {
+            "word": {
+              "red": [
+                "die Auswahl"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "valikuvõimalus"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "Wahl"
+          ]
+        },
+        "important": {
+          "blue": [
+            "Wahl"
+          ],
+          "red": [
+            "Auswahl"
+          ]
+        }
+      }
     }
   },
   {
@@ -2334,7 +3006,7 @@ const C1_WORDS = [
     "de": "Feuerwerkskörper",
     "de_article": "der",
     "de_plural": "die Feuerwerkskörper",
-    "lv": "ilutulestikuraketid",
+    "lv": "ilutulestikurakett",
     "level": "C1"
   },
   {
@@ -3928,7 +4600,7 @@ const C1_WORDS = [
             "berechtigt"
           ],
           "purple": [
-            "valimisõigus"
+            "Põhiidee"
           ]
         },
         "examples": [
@@ -4182,8 +4854,8 @@ const C1_WORDS = [
         "tip": [
           {
             "blue": [
-              "piemaksa",
-              "uzcenojums"
+              "der",
+              "der"
             ]
           },
           {
@@ -4228,8 +4900,12 @@ const C1_WORDS = [
       ],
       "examples": [
         {
-          "de": "beziehen / sich beziehen auf.",
-          "lv": "seostama • käima millegi kohta"
+          "de": "Er bezieht seit einem Jahr eine Rente.",
+          "lv": "ta saab juba aasta pensioni."
+        },
+        {
+          "de": "Der Bericht bezieht sich auf die Ereignisse des letzten Jahres.",
+          "lv": "aruanne käib eelmise aasta sündmuste kohta."
         }
       ],
       "tip": [
@@ -4243,40 +4919,36 @@ const C1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "beziehen",
-            "bezieht"
+            "Põhiidee",
+            "Põhiidee"
           ],
           "purple": [
             "seostada",
-            "käima"
+            "Põhiidee"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "beziehen / sich beziehen auf",
-                "beziehen / sich beziehen auf"
+                "bezieht"
               ]
             },
             "lv": {
               "purple": [
-                "seostama",
-                "käima millegi kohta"
+                "saab"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "beziehen / sich beziehen auf",
-                "beziehen / sich beziehen auf"
+                "bezieht sich auf"
               ]
             },
             "lv": {
               "purple": [
-                "seostama",
-                "käima millegi kohta"
+                "käib"
               ]
             }
           }
@@ -4289,14 +4961,14 @@ const C1_WORDS = [
           },
           {
             "purple": [
-              "käima millegi kohta"
+              "Formaalne"
             ]
           }
         ],
         "important": [
           {
             "blue": [
-              "beziehen / sich beziehen auf"
+              "Formaalne"
             ]
           }
         ]
@@ -4355,10 +5027,10 @@ const C1_WORDS = [
         "explanation": {
           "green": [
             "beabsichtigen",
-            "beabsichtigt"
+            "beabsichtigen"
           ],
           "purple": [
-            "kavatsema",
+            "kavatsus",
             "plaanima"
           ]
         },
@@ -4366,14 +5038,14 @@ const C1_WORDS = [
           {
             "de": {
               "green": [
-                "beabsichtigen",
-                "beabsichtigen"
+                "beabsichtigt",
+                "beabsichtigt"
               ]
             },
             "lv": {
               "purple": [
-                "kavatsema",
-                "plaanima"
+                "kavatseb",
+                "kavatseb"
               ]
             }
           },
@@ -4386,8 +5058,8 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kavatsema",
-                "plaanima"
+                "kavatsete",
+                "mida"
               ]
             }
           },
@@ -4400,8 +5072,22 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kavatsema",
-                "plaanima"
+                "plaani",
+                "plaani"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "beabsichtigt",
+                "beabsichtigt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kavatseb",
+                "kavatseb"
               ]
             }
           },
@@ -4414,36 +5100,8 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kavatsema",
-                "plaanima"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "beabsichtigen",
-                "beabsichtigen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "kavatsema",
-                "plaanima"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "beabsichtigen",
-                "beabsichtigen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "kavatsema",
-                "plaanima"
+                "kavatseda",
+                "kavatseda"
               ]
             }
           }
@@ -4451,12 +5109,12 @@ const C1_WORDS = [
         "tip": [
           {
             "purple": [
-              "kavatseda"
+              "kavatsema"
             ]
           },
           {
             "purple": [
-              "plaanida"
+              "plaanist"
             ]
           }
         ],
@@ -4502,8 +5160,8 @@ const C1_WORDS = [
           "lv": "talle heidetakse ette truudusetust."
         },
         {
-          "de": "unterstellen",
-          "lv": "alusetu süü; voraussetzen"
+          "de": "Er unterstellt seinem Kollegen Faulheit, ohne Beweise zu haben.",
+          "lv": "ta heidab oma kolleegile ette laiskust, ilma tõenditeta."
         }
       ],
       "tip": [
@@ -4519,28 +5177,28 @@ const C1_WORDS = [
         "explanation": {
           "blue": [
             "unterstellen",
-            "unterstellt"
+            "unterstellen"
           ],
           "purple": [
-            "ette heitma",
+            "ette heita",
             "alusetult omistama"
           ],
           "red": [
-            "ette heitma"
+            "ette heita"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "unterstellen",
-                "unterstellen"
+                "unterstellt",
+                "unterstellt"
               ]
             },
             "lv": {
               "purple": [
-                "ette heitma",
-                "alusetult omistama"
+                "Mulle",
+                "Mulle"
               ]
             }
           },
@@ -4553,8 +5211,8 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ette heitma",
-                "alusetult omistama"
+                "ärge",
+                "ärge"
               ]
             }
           },
@@ -4567,50 +5225,34 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ette heitma",
-                "alusetult omistama"
+                "ette heita",
+                "kellelegi"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "unterstellen",
-                "unterstellen"
+                "unterstellt",
+                "unterstellt"
               ]
             },
             "lv": {
               "purple": [
-                "ette heitma",
-                "alusetult omistama"
+                "talle",
+                "talle"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "unterstellen",
-                "unterstellen"
+                "unterstellt"
               ]
             },
             "lv": {
               "purple": [
-                "ette heitma",
-                "alusetult omistama"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "unterstellen",
-                "unterstellen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "ette heitma",
-                "alusetult omistama"
+                "heidab"
               ]
             }
           }
@@ -4623,7 +5265,7 @@ const C1_WORDS = [
           },
           {
             "purple": [
-              "alusetult omistama"
+              "unterstellen"
             ]
           }
         ],
@@ -4677,15 +5319,15 @@ const C1_WORDS = [
             "voraus"
           ],
           "purple": [
-            "eeldust"
+            "eeldus"
           ]
         },
         "examples": [
           {
             "de": {
               "green": [
-                "voraussetzen",
-                "voraussetzen"
+                "Wir",
+                "Wir"
               ]
             },
             "lv": {
@@ -4697,34 +5339,8 @@ const C1_WORDS = [
           {
             "de": {
               "green": [
-                "voraussetzen",
-                "voraussetzen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "eeldame"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "voraussetzen",
-                "voraussetzen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "eeldame"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "voraussetzen",
-                "voraussetzen"
+                "Wir",
+                "Wir"
               ]
             },
             "lv": {
@@ -4779,8 +5395,8 @@ const C1_WORDS = [
           "lv": "me säilitame traditsioone."
         },
         {
-          "de": "bewahren",
-          "lv": "kaitsma/säilitama; aufrechterhalten"
+          "de": "Man muss die Natur für die nächste Generation bewahren.",
+          "lv": "loodust tuleb säilitada järgmise põlvkonna jaoks."
         }
       ],
       "tip": [
@@ -4789,14 +5405,14 @@ const C1_WORDS = [
       ],
       "important": [
         "bewahren: Wertvolles bewahren — hoida väärtuslikku.",
-        "Valesti: Wir bewahren den Frieden auf. → Õigesti: Wir erhalten den Frieden auf.",
+        "den Frieden bewahren = rahu säilitama (üldiselt); den Frieden aufrechterhalten = rahu pidevalt ja pingutades hoidma.",
         "bewahren → kaitsma, säilitama."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "bewahren",
-            "bewahrt"
+            "bewahren"
           ],
           "purple": [
             "kaitsma"
@@ -4812,8 +5428,8 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kaitsma",
-                "säilitama"
+                "säilitame",
+                "säilitame"
               ]
             }
           },
@@ -4826,8 +5442,8 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kaitsma",
-                "säilitama"
+                "nad",
+                "säilitavad"
               ]
             }
           },
@@ -4840,36 +5456,20 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kaitsma",
-                "säilitama"
+                "säilitame",
+                "säilitame"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "bewahren",
                 "bewahren"
               ]
             },
             "lv": {
               "purple": [
-                "kaitsma",
-                "säilitama"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "bewahren",
-                "bewahren"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "kaitsma",
-                "säilitama"
+                "säilitada"
               ]
             }
           }
@@ -4882,7 +5482,7 @@ const C1_WORDS = [
           },
           {
             "purple": [
-              "säilitama"
+              "bewahren"
             ]
           }
         ],
@@ -4941,18 +5541,18 @@ const C1_WORDS = [
             "auf"
           ],
           "purple": [
-            "kehtivana hoidma"
+            "Põhiidee"
           ],
           "yellow": [
-            "kehtivana hoidma"
+            "Põhiidee"
           ]
         },
         "examples": [
           {
             "de": {
               "green": [
-                "aufrechterhalten",
-                "aufrechterhalten"
+                "Der",
+                "Der"
               ]
             },
             "lv": {
@@ -4977,21 +5577,8 @@ const C1_WORDS = [
           {
             "de": {
               "green": [
-                "aufrechterhalten",
-                "aufrechterhalten"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "kehtivana"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "aufrechterhalten",
-                "aufrechterhalten"
+                "Der",
+                "Der"
               ]
             },
             "lv": {

@@ -95,13 +95,13 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "sprechen",
-                "sprechen"
+                "spreche",
+                "spreche"
               ]
             },
             "lv": {
               "purple": [
-                "rääkima"
+                "räägin"
               ]
             }
           },
@@ -114,20 +114,20 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "rääkima"
+                "räägime"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "sprechen",
-                "sprechen"
+                "spreche",
+                "spreche"
               ]
             },
             "lv": {
               "purple": [
-                "rääkima"
+                "räägin"
               ]
             }
           }
@@ -368,8 +368,8 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "juures",
-                "peale"
+                "seina",
+                "seina"
               ]
             }
           },
@@ -393,7 +393,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "juures"
+                "mere"
               ]
             }
           }
@@ -410,7 +410,7 @@ const A1_WORDS = [
                 "an"
               ],
               "purple": [
-                "juures"
+                "der"
               ]
             }
           },
@@ -425,7 +425,7 @@ const A1_WORDS = [
                 "auf"
               ],
               "purple": [
-                "peale"
+                "auf"
               ]
             }
           },
@@ -451,7 +451,7 @@ const A1_WORDS = [
               "an"
             ],
             "purple": [
-              "juures"
+              "Pea"
             ],
             "green": [
               "seina",
@@ -571,7 +571,19 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "-st"
+                "alates"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ab"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "alates"
               ]
             }
           },
@@ -595,19 +607,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "-st"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "ab"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "-st"
+                "jaamast"
               ]
             }
           }
@@ -624,7 +624,7 @@ const A1_WORDS = [
                 "ab"
               ],
               "purple": [
-                "-st"
+                "Montag"
               ]
             }
           },
@@ -639,7 +639,7 @@ const A1_WORDS = [
                 "von"
               ],
               "purple": [
-                "-st"
+                "von"
               ]
             }
           },
@@ -654,7 +654,7 @@ const A1_WORDS = [
                 "aus"
               ],
               "purple": [
-                "-st"
+                "aus"
               ]
             }
           }
@@ -805,7 +805,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ju"
+                "tal"
               ]
             }
           }
@@ -1015,7 +1015,7 @@ const A1_WORDS = [
                 "also"
               ],
               "purple": [
-                "seega"
+                "regnet"
               ]
             }
           },
@@ -1375,7 +1375,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "peale"
+                "panen"
               ]
             }
           },
@@ -1387,7 +1387,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "peale"
+                "sõidame"
               ]
             }
           },
@@ -1399,7 +1399,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "peale"
+                "kass"
               ]
             }
           }
@@ -1416,7 +1416,7 @@ const A1_WORDS = [
                 "auf"
               ],
               "purple": [
-                "peale"
+                "Ich"
               ]
             }
           },
@@ -1429,7 +1429,7 @@ const A1_WORDS = [
             "example": {
               "green": [
                 "an",
-                "juures"
+                "Ich"
               ]
             }
           },
@@ -1456,7 +1456,7 @@ const A1_WORDS = [
             ],
             "green": [
               "pinnal",
-              "üleval"
+              "Pea"
             ]
           }
         },
@@ -1470,7 +1470,7 @@ const A1_WORDS = [
             ],
             "green": [
               "pinnal",
-              "ülaosas"
+              "auf"
             ]
           },
           {
@@ -1481,7 +1481,7 @@ const A1_WORDS = [
               "in"
             ],
             "purple": [
-              "juures",
+              "Kui",
               "sees"
             ]
           }
@@ -1586,7 +1586,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "-st"
+                "olen"
               ]
             }
           },
@@ -1598,7 +1598,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "-st"
+                "läheb"
               ]
             }
           },
@@ -1610,7 +1610,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "-st"
+                "võtan"
               ]
             }
           }
@@ -1627,7 +1627,7 @@ const A1_WORDS = [
                 "aus"
               ],
               "purple": [
-                "-st"
+                "aus"
               ]
             }
           },
@@ -1642,7 +1642,7 @@ const A1_WORDS = [
                 "von"
               ],
               "purple": [
-                "-st"
+                "von"
               ]
             }
           },
@@ -1657,7 +1657,7 @@ const A1_WORDS = [
                 "ab"
               ],
               "purple": [
-                "-st"
+                "Montag"
               ]
             }
           }
@@ -1891,7 +1891,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "paadile"
+                "tule"
               ]
             }
           },
@@ -1985,7 +1985,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "peale",
+                "sse",
                 "juurde"
               ]
             },
@@ -1996,17 +1996,21 @@ const A1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "left": {
+        "tip": [
+          {
             "blue": [
               "aufs"
             ],
             "purple": [
-              "auf das",
               "kuhu?"
             ]
+          },
+          {
+            "purple": [
+              "auf das"
+            ]
           }
-        },
+        ],
         "important": [
           {
             "blue": [
@@ -2016,7 +2020,7 @@ const A1_WORDS = [
               "auf das"
             ],
             "green": [
-              "kuhu?"
+              "aufs"
             ]
           },
           {
@@ -2188,7 +2192,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "suplema"
+                "lähen"
               ]
             }
           },
@@ -2203,7 +2207,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "suplema"
+                "läheme"
               ],
               "green": [
                 "järve"
@@ -2230,7 +2234,7 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "lähen ujuma"
+                "käin"
               ]
             }
           }
@@ -2315,7 +2319,7 @@ const A1_WORDS = [
               "baden"
             ],
             "purple": [
-              "puhkamine vees"
+              "Pea"
             ],
             "red": [
               "schwimmen",
@@ -2770,8 +2774,8 @@ const A1_WORDS = [
               "bis dass"
             ],
             "purple": [
-              "siiani",
-              "seni, kuni"
+              "bis",
+              "bis"
             ]
           }
         ]
@@ -3011,7 +3015,7 @@ const A1_WORDS = [
           ],
           "purple": [
             "palve",
-            "palved"
+            "palve"
           ],
           "yellow": [
             "Bitte",
@@ -3022,7 +3026,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "die Bitte",
+                "Ich",
                 "bitte"
               ]
             },
@@ -3035,7 +3039,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "die Bitte",
+                "Bitte",
                 "bitte"
               ]
             },
@@ -3048,7 +3052,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "die Bitte",
+                "Eine",
                 "bitte"
               ]
             },
@@ -3061,7 +3065,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "die Bitte",
+                "Kann",
                 "bitte"
               ]
             },
@@ -3074,7 +3078,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "die Bitte",
+                "Ich",
                 "bitte"
               ]
             },
@@ -3108,7 +3112,7 @@ const A1_WORDS = [
         "important": [
           {
             "green": [
-              "die Bitte"
+              "bitte"
             ]
           }
         ]
@@ -3321,7 +3325,7 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "sõitma",
-                "transporti"
+                "sõitma"
               ]
             },
             "example": {
@@ -3370,7 +3374,7 @@ const A1_WORDS = [
               "jääma"
             ],
             "green": [
-              "warten",
+              "bleiben",
               "ootama"
             ]
           },
@@ -3510,7 +3514,7 @@ const A1_WORDS = [
           "purple": [
             "tooma",
             "viima",
-            "kohale toimetama"
+            "Põhiidee"
           ],
           "red": [
             "nehmen",
@@ -3694,7 +3698,7 @@ const A1_WORDS = [
               "nehmen"
             ],
             "blue": [
-              "bringen"
+              "nehmen"
             ]
           }
         ]
@@ -4471,52 +4475,20 @@ const A1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {
-              "green": [
-                "der"
-              ]
-            },
-            "example": {
-              "blue": [
-                "der"
-              ]
-            }
+            "word": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "die"
-              ]
-            },
-            "example": {
-              "green": [
-                "die"
-              ]
-            }
+            "word": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "das"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "das"
-              ]
-            }
+            "word": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "welcher"
-              ]
-            },
-            "example": {
-              "red": [
-                "Welcher"
-              ]
-            }
+            "word": {},
+            "example": {}
           }
         ],
         "tip": {
@@ -4541,7 +4513,7 @@ const A1_WORDS = [
           {
             "red": [
               "Asesõnaline",
-              "siduva"
+              "Asesõnaline"
             ]
           }
         ]
@@ -4609,90 +4581,32 @@ const A1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {
-              "green": [
-                "der"
-              ]
-            },
-            "example": {
-              "blue": [
-                "der"
-              ]
-            }
+            "word": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "die"
-              ]
-            },
-            "example": {
-              "green": [
-                "die"
-              ]
-            }
+            "word": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "das"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "das"
-              ]
-            }
+            "word": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "die",
-                "Plural"
-              ]
-            },
-            "example": {
-              "red": [
-                "die"
-              ]
-            }
+            "word": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "die"
-              ]
-            },
-            "example": {
-              "blue": [
-                "die"
-              ]
-            }
+            "word": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "die"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Die",
-                "die"
-              ]
-            }
+            "word": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "die"
-              ]
-            },
-            "example": {
-              "blue": [
-                "die"
-              ]
-            }
+            "word": {},
+            "example": {}
           }
         ],
         "tip": {
@@ -4807,65 +4721,20 @@ const A1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {
-              "green": [
-                "dieser"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Dieser"
-              ],
-              "purple": [
-                "see"
-              ]
-            }
+            "word": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "diese"
-              ]
-            },
-            "example": {
-              "green": [
-                "Diese"
-              ],
-              "purple": [
-                "see"
-              ]
-            }
+            "word": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "dieses"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "Dieses"
-              ],
-              "purple": [
-                "see"
-              ]
-            }
+            "word": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "diese",
-                "Plural"
-              ]
-            },
-            "example": {
-              "red": [
-                "Diese"
-              ],
-              "purple": [
-                "selle"
-              ]
-            }
+            "word": {},
+            "example": {}
           }
         ],
         "tip": {
@@ -5028,7 +4897,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "keegi"
+                "üks"
               ]
             }
           },
@@ -5052,104 +4921,35 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kedagi"
+                "otsib"
               ]
             }
           }
         ],
         "comparison": [
           {
-            "word": {
-              "green": [
-                "ein"
-              ]
-            },
-            "example": {
-              "blue": [
-                "ein"
-              ],
-              "purple": [
-                "üks"
-              ]
-            }
+            "word": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "eine"
-              ]
-            },
-            "example": {
-              "green": [
-                "eine"
-              ],
-              "purple": [
-                "üks"
-              ]
-            }
+            "word": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "ein"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "ein"
-              ],
-              "purple": [
-                "üks"
-              ]
-            }
+            "word": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "– (puudub)"
-              ]
-            },
-            "example": {
-              "red": [
-                "Kinder",
-                "Bücher"
-              ],
-              "purple": [
-                "lapsed",
-                "raamatu"
-              ]
-            }
+            "word": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "der"
-              ]
-            },
-            "example": {
-              "blue": [
-                "der"
-              ],
-              "purple": [
-                "mees"
-              ]
-            }
+            "word": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "ein"
-              ]
-            },
-            "example": {
-              "green": [
-                "ein"
-              ],
-              "purple": [
-                "üks",
-                "keegi"
-              ]
-            }
+            "word": {},
+            "example": {}
           }
         ],
         "tip": {
@@ -5159,7 +4959,7 @@ const A1_WORDS = [
             ],
             "purple": [
               "üks",
-              "keegi"
+              "Pea"
             ],
             "green": [
               "ebamäärane"
@@ -5286,7 +5086,7 @@ const A1_WORDS = [
             "magustoidust"
           ],
           "yellow": [
-            "vett"
+            "Põhiidee"
           ]
         },
         "examples": [
@@ -5439,7 +5239,7 @@ const A1_WORDS = [
         "tip": {
           "left": {
             "blue": [
-              "das Eis"
+              "Pea"
             ],
             "purple": [
               "jäätis",
@@ -5681,7 +5481,7 @@ const A1_WORDS = [
               "arv"
             ],
             "purple": [
-              "kogus"
+              "Pea"
             ]
           }
         },
@@ -5703,7 +5503,7 @@ const A1_WORDS = [
             ],
             "green": [
               "ajast",
-              "järjestusest"
+              "erst"
             ],
             "yellow": [
               "nur"
@@ -5802,76 +5602,28 @@ const A1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {
-              "green": [
-                "ich"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Ich"
-              ]
-            }
+            "word": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "er"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Er"
-              ]
-            }
+            "word": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "sie"
-              ]
-            },
-            "example": {
-              "red": [
-                "Sie"
-              ]
-            }
+            "word": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "es"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "Das"
-              ]
-            }
+            "word": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "es"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Es"
-              ]
-            }
+            "word": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "es"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Es"
-              ]
-            }
+            "word": {},
+            "example": {}
           }
         ],
         "info": [
@@ -5905,7 +5657,7 @@ const A1_WORDS = [
               "es"
             ],
             "red": [
-              "ich"
+              "Saksa"
             ],
             "purple": [
               "es"
@@ -5920,7 +5672,7 @@ const A1_WORDS = [
             ],
             "purple": [
               "see",
-              "nii"
+              "Eesti"
             ]
           }
         ]
@@ -6043,7 +5795,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "veidi"
+                "kas"
               ],
               "yellow": [
                 "aega"
@@ -6143,7 +5895,7 @@ const A1_WORDS = [
             "example": {
               "yellow": [
                 "ein bisschen",
-                "natuke"
+                "Ich"
               ]
             }
           },
@@ -6169,7 +5921,7 @@ const A1_WORDS = [
         "tip": {
           "left": {
             "blue": [
-              "etwas"
+              "Pea"
             ],
             "purple": [
               "midagi",
@@ -6179,7 +5931,7 @@ const A1_WORDS = [
               "asi"
             ],
             "green": [
-              "aste"
+              "Pea"
             ]
           }
         },
@@ -6257,25 +6009,143 @@ const A1_WORDS = [
           "example": "Das ist euer Haus. = See on teie maja."
         }
       ],
-      "info": [
-        "ihr = teie (aluse vorm)",
-        "euch = teid (Akkusativi vorm) / teile (Dativi vorm)",
-        "euer = teie (omastav vorm)"
-      ],
       "tip": {
         "text": "“euch” vastab küsimusele “kellele?” või on otsesihitis lausetes, kus on “teie”.",
         "example": "Ma aitan teid. = Ich helfe euch. Ma näen teid. = Ich sehe euch. Ma räägin teile. = Ich erzähle euch."
       },
-      "accents": {
-        "blue": [
-          "ihr"
+      "info": [
+        "ihr = teie (lause aluse vorm)",
+        "euch = teid (Akkusativ) / teile (Dativ)",
+        "euer = teie (omastav vorm)"
+      ],
+      "important": [
+        "euch on üks ja sama vorm nii Akkusativi (teid) kui ka Dativi (teile) jaoks — täpne tähendus selgub lause struktuurist ja tegusõnast.",
+        "ihr = teie (alusevorm), euch = teid/teile (kaas- või otsesihitis), euer = teie (omastav vorm)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "euch"
+          ],
+          "purple": [
+            "teid",
+            "teile"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "euch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "teid"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "euch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "teid"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "euch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "teile"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "euch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "teid"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "erinnert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mäletate"
+              ]
+            }
+          }
         ],
-        "yellow": [
-          "euch"
+        "comparison": [
+          {
+            "word": {
+              "blue": [
+                "ihr"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "teie"
+              ]
+            }
+          },
+          {
+            "word": {
+              "yellow": [
+                "euch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "teid / teile"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "euer"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "teie"
+              ]
+            }
+          }
         ],
-        "green": [
-          "euer"
-        ]
+        "tip": {
+          "purple": [
+            "kellele?"
+          ]
+        },
+        "important": {
+          "blue": [
+            "euch"
+          ],
+          "yellow": [
+            "Akkusativi",
+            "Dativi"
+          ]
+        }
       }
     }
   },
@@ -6398,7 +6268,7 @@ const A1_WORDS = [
             "bussiga",
             "rongiga",
             "jalgrattaga",
-            "transpordivahendit"
+            "Põhiidee"
           ],
           "yellow": [
             "gehen",
@@ -6454,7 +6324,7 @@ const A1_WORDS = [
                 "viin"
               ],
               "green": [
-                "tütart",
+                "tütre",
                 "kooli"
               ]
             }
@@ -6475,7 +6345,7 @@ const A1_WORDS = [
               ],
               "green": [
                 "sind",
-                "kodus"
+                "viin"
               ]
             }
           },
@@ -6507,7 +6377,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "transporti"
+                "sõidukiga"
               ]
             },
             "example": {
@@ -6542,7 +6412,7 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "jooksma",
-                "minema"
+                "jooksma"
               ]
             },
             "example": {
@@ -6597,7 +6467,7 @@ const A1_WORDS = [
               "gehen"
             ],
             "green": [
-              "transpordivahend",
+              "Pea",
               "jalgsi"
             ]
           }
@@ -6801,7 +6671,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "leidma"
+                "leia"
               ]
             }
           },
@@ -6825,7 +6695,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tundub"
+                "minu"
               ]
             }
           },
@@ -6860,7 +6730,7 @@ const A1_WORDS = [
                 "finde"
               ],
               "purple": [
-                "tundub"
+                "Ich"
               ]
             }
           },
@@ -6896,7 +6766,7 @@ const A1_WORDS = [
             "example": {
               "green": [
                 "denke",
-                "arvan"
+                "Ich"
               ]
             }
           },
@@ -6909,7 +6779,7 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "uskuma",
-                "mõtlema"
+                "uskuma"
               ]
             },
             "example": {
@@ -6945,10 +6815,10 @@ const A1_WORDS = [
               "finde"
             ],
             "purple": [
-              "tundub"
+              "Ich"
             ],
             "red": [
-              "atrod"
+              "Ich"
             ]
           }
         ]
@@ -7166,7 +7036,7 @@ const A1_WORDS = [
               "seine Frau"
             ],
             "purple": [
-              "naine"
+              "naist"
             ]
           },
           {
@@ -7175,7 +7045,7 @@ const A1_WORDS = [
               "eine Frau"
             ],
             "purple": [
-              "naine"
+              "naist"
             ]
           }
         ],
@@ -7409,7 +7279,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jaoks"
+                "raamat"
               ]
             }
           },
@@ -7757,7 +7627,7 @@ const A1_WORDS = [
               "saama"
             ],
             "blue": [
-              "geben"
+              "bekommen"
             ]
           }
         ]
@@ -7976,7 +7846,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ühtmoodi"
+                "mõlemad"
               ]
             }
           },
@@ -8000,7 +7870,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ühesugune"
+                "nad"
               ]
             }
           }
@@ -8161,7 +8031,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "suur"
+                "pikka"
               ]
             }
           },
@@ -8496,7 +8366,7 @@ const A1_WORDS = [
           "purple": [
             "mul on",
             "sul on",
-            "tal on"
+            "Põhiidee"
           ],
           "yellow": [
             "abitegusõnana"
@@ -8535,7 +8405,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "oleme näljased"
+                "meil"
               ]
             }
           },
@@ -8652,8 +8522,8 @@ const A1_WORDS = [
               "haben"
             ],
             "purple": [
-              "õppisin",
-              "olen õppinud"
+              "Koos",
+              "Koos"
             ]
           }
         ]
@@ -8752,7 +8622,7 @@ const A1_WORDS = [
             "millekski pidama"
           ],
           "green": [
-            "transporti",
+            "Põhiidee",
             "liikumise"
           ]
         },
@@ -8801,7 +8671,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "arvan"
+                "pean"
               ]
             }
           }
@@ -9080,7 +8950,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "nimi"
+                "kuidas"
               ]
             }
           },
@@ -9139,13 +9009,13 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "hüüdma"
+                "kutsuma"
               ]
             },
             "example": {
               "green": [
                 "nennt",
-                "nimi"
+                "nennt"
               ]
             }
           },
@@ -9202,7 +9072,7 @@ const A1_WORDS = [
               "Wie heißt du"
             ],
             "purple": [
-              "kuidas sind kutsutakse"
+              "Wie"
             ]
           },
           {
@@ -9455,21 +9325,21 @@ const A1_WORDS = [
             "hören"
           ],
           "purple": [
-            "kuulma / kuulama",
+            "Põhiidee",
             "kuulata",
-            "kuulma"
+            "Kuulda"
           ],
           "green": [
             "kuulata",
-            "Kuulma"
+            "Kuulda"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "hören",
-                "hören"
+                "höre",
+                "höre"
               ]
             },
             "lv": {
@@ -9496,8 +9366,8 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "hören",
-                "hören"
+                "höre",
+                "höre"
               ]
             },
             "lv": {
@@ -9511,7 +9381,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "kuulma"
+              "Kuulda"
             ]
           },
           {
@@ -9621,7 +9491,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "teie"
+                "kas"
               ]
             }
           },
@@ -9645,7 +9515,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "teie"
+                "kus"
               ]
             }
           },
@@ -9816,11 +9686,11 @@ const A1_WORDS = [
             "in dem"
           ],
           "purple": [
-            "sees",
+            "mees",
             "kus?"
           ],
           "green": [
-            "kam?",
+            "eessõna",
             "asukoht"
           ]
         },
@@ -9845,7 +9715,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "keskuses"
+                "elame"
               ]
             }
           },
@@ -10011,21 +9881,23 @@ const A1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "left": {
+        "tip": [
+          {
             "blue": [
               "im"
             ],
             "purple": [
               "in + dem",
               "kus?"
-            ],
+            ]
+          },
+          {
             "red": [
               "ins",
               "kuhu?"
             ]
           }
-        },
+        ],
         "important": [
           {
             "blue": [
@@ -10035,7 +9907,7 @@ const A1_WORDS = [
               "in dem"
             ],
             "green": [
-              "kam?"
+              "dem"
             ]
           },
           {
@@ -10115,7 +9987,7 @@ const A1_WORDS = [
           ],
           "purple": [
             "sees",
-            "peale"
+            "Põhiidee"
           ],
           "green": [
             "ruumist",
@@ -10176,76 +10048,24 @@ const A1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {
-              "green": [
-                "in"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "sees",
-                "sissepoole"
-              ]
-            },
-            "example": {
-              "blue": [
-                "in"
-              ],
-              "purple": [
-                "kooli"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "auf"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "pinnal"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "auf"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "an"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "juures"
-              ]
-            },
-            "example": {
-              "green": [
-                "an"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "bei"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "juures"
-              ]
-            },
-            "example": {
-              "red": [
-                "bei"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": {
@@ -10378,7 +10198,7 @@ const A1_WORDS = [
             "in das"
           ],
           "purple": [
-            "sees",
+            "ins",
             "sissepoole",
             "kuhu?"
           ],
@@ -10470,7 +10290,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vees"
+                "paneb"
               ]
             }
           },
@@ -10533,8 +10353,8 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "sees",
-                "peale",
-                "iseseisvat artiklit"
+                "sees",
+                "sees"
               ]
             },
             "example": {
@@ -10568,7 +10388,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "peale",
+                "sse",
                 "juurde"
               ]
             },
@@ -10579,21 +10399,23 @@ const A1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "left": {
+        "tip": [
+          {
             "blue": [
               "ins"
             ],
             "purple": [
               "in + das",
               "kuhu?"
-            ],
+            ]
+          },
+          {
             "red": [
               "im",
               "kus?"
             ]
           }
-        },
+        ],
         "important": [
           {
             "blue": [
@@ -10603,7 +10425,7 @@ const A1_WORDS = [
               "in das"
             ],
             "green": [
-              "kuhu?"
+              "ins"
             ]
           },
           {
@@ -10759,7 +10581,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "uus"
+                "koer"
               ]
             }
           },
@@ -10783,19 +10605,19 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "uus"
+                "näeb"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "jungen"
+                "junges"
               ]
             },
             "lv": {
               "purple": [
-                "uus"
+                "see"
               ]
             }
           },
@@ -10940,7 +10762,7 @@ const A1_WORDS = [
             "kein"
           ],
           "purple": [
-            "mitte keegi",
+            "Põhiidee",
             "mitte mingi"
           ]
         },
@@ -10965,7 +10787,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ei ole üldse"
+                "piima"
               ]
             }
           },
@@ -10977,7 +10799,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "mitte keegi"
+                "ükski"
               ]
             }
           },
@@ -11091,8 +10913,8 @@ const A1_WORDS = [
           "lv": "ma tunnen teda."
         },
         {
-          "de": "kennen",
-          "lv": "tundma; wissen"
+          "de": "Kennst du diese Stadt?",
+          "lv": "kas sa tunned seda linna?"
         }
       ],
       "comparison": [
@@ -11130,13 +10952,13 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "kennen",
-                "kennen"
+                "kenne",
+                "kenne"
               ]
             },
             "lv": {
               "purple": [
-                "tundma"
+                "tunnen"
               ]
             }
           },
@@ -11149,7 +10971,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tundma"
+                "kas"
               ]
             }
           },
@@ -11162,33 +10984,32 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tundma"
+                "kus"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "kennen",
-                "kennen"
+                "kenne",
+                "kenne"
               ]
             },
             "lv": {
               "purple": [
-                "tundma"
+                "tunnen"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "kennen",
-                "kennen"
+                "Kennst"
               ]
             },
             "lv": {
               "purple": [
-                "tundma"
+                "tunned"
               ]
             }
           }
@@ -11267,20 +11088,20 @@ const A1_WORDS = [
             "wissen"
           ],
           "purple": [
-            "teadma"
+            "Teada"
           ]
         },
         "examples": [
           {
             "de": {
               "green": [
-                "wissen",
-                "wissen"
+                "Ich",
+                "Ich"
               ]
             },
             "lv": {
               "purple": [
-                "teadma"
+                "tean"
               ]
             }
           },
@@ -11293,33 +11114,20 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "teadma"
+                "kust"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "wissen",
-                "wissen"
+                "Ich",
+                "Ich"
               ]
             },
             "lv": {
               "purple": [
-                "teadma"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "wissen",
-                "wissen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "teadma"
+                "tean"
               ]
             }
           }
@@ -11457,7 +11265,7 @@ const A1_WORDS = [
             "oskama"
           ],
           "green": [
-            "suudan",
+            "Põhiidee",
             "oskusest",
             "võimalusest"
           ]
@@ -11566,7 +11374,7 @@ const A1_WORDS = [
             "example": {
               "yellow": [
                 "muss",
-                "tuleb õppida"
+                "Ich"
               ]
             }
           },
@@ -11712,8 +11520,8 @@ const A1_WORDS = [
           ],
           "purple": [
             "maksma",
-            "hinda",
-            "kui palju midagi maksab"
+            "Põhiidee",
+            "Põhiidee"
           ],
           "green": [
             "Was kostet"
@@ -11923,7 +11731,7 @@ const A1_WORDS = [
               "zahlen"
             ],
             "purple": [
-              "makse tegemine"
+              "makse tasumine"
             ]
           }
         ],
@@ -12351,7 +12159,7 @@ const A1_WORDS = [
             "Land"
           ],
           "purple": [
-            "riigist",
+            "Põhiidee",
             "maad",
             "maa",
             "riik"
@@ -12657,7 +12465,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pikkuses"
+                "kogu"
               ]
             }
           }
@@ -12778,8 +12586,8 @@ const A1_WORDS = [
             "Jäta mind rahule"
           ],
           "green": [
-            "kohas",
-            "luban"
+            "Põhiidee",
+            "luba"
           ]
         },
         "examples": [
@@ -12818,7 +12626,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "lubavad"
+                "vanemad"
               ]
             }
           },
@@ -13007,7 +12815,7 @@ const A1_WORDS = [
           ],
           "purple": [
             "jooksma",
-            "toimima",
+            "Põhiidee",
             "minema"
           ],
           "green": [
@@ -13051,7 +12859,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "minema"
+                "film"
               ]
             }
           },
@@ -13063,7 +12871,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "toimib"
+                "masin"
               ]
             }
           }
@@ -13078,7 +12886,7 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "jooksma",
-                "toimima"
+                "jooksma"
               ]
             },
             "example": {
@@ -13160,8 +12968,8 @@ const A1_WORDS = [
             ],
             "purple": [
               "jooksma",
-              "minema",
-              "toimima"
+              "laufen",
+              "laufen"
             ]
           },
           {
@@ -13169,7 +12977,7 @@ const A1_WORDS = [
               "Ich laufe"
             ],
             "purple": [
-              "jalgsi liikumist"
+              "Ich"
             ],
             "red": [
               "sõitmist"
@@ -13240,7 +13048,7 @@ const A1_WORDS = [
           ],
           "purple": [
             "vali",
-            "valjult"
+            "Põhiidee"
           ]
         },
         "examples": [
@@ -13305,7 +13113,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vali"
+                "heli"
               ]
             }
           },
@@ -13318,7 +13126,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vali"
+                "kuulen"
               ]
             }
           }
@@ -13428,13 +13236,39 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "der Laut",
+                "Die",
                 "laut"
               ]
             },
             "lv": {
               "purple": [
-                "heli"
+                "muusika"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Sprich",
+                "laut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ära"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Das",
+                "laut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "see"
               ]
             }
           },
@@ -13454,33 +13288,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "der Laut",
-                "laut"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "heli"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "der Laut",
-                "laut"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "heli"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "der Laut",
+                "Ich",
                 "laut"
               ]
             },
@@ -13501,7 +13309,7 @@ const A1_WORDS = [
         "important": [
           {
             "green": [
-              "der Laut"
+              "laut"
             ]
           }
         ]
@@ -13677,7 +13485,7 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "asub"
+                "raamat"
               ],
               "yellow": [
                 "Raamat",
@@ -13713,7 +13521,7 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "asuma",
-                "magama"
+                "lamama"
               ]
             },
             "example": {
@@ -13747,7 +13555,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "istet võtma"
+                "istuma"
               ]
             },
             "example": {
@@ -13763,11 +13571,11 @@ const A1_WORDS = [
               "legen"
             ],
             "purple": [
-              "pane"
+              "Pea"
             ],
             "red": [
               "liegen",
-              "asub"
+              "Pea"
             ]
           }
         },
@@ -13785,7 +13593,7 @@ const A1_WORDS = [
               "lege"
             ],
             "purple": [
-              "panen"
+              "Ich"
             ],
             "red": [
               "liegt",
@@ -14059,7 +13867,7 @@ const A1_WORDS = [
           ],
           "purple": [
             "asuma",
-            "magama",
+            "lamama",
             "panema"
           ],
           "yellow": [
@@ -14079,7 +13887,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "asub"
+                "raamat"
               ],
               "yellow": [
                 "Raamat",
@@ -14099,7 +13907,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "asub"
+                "minu"
               ],
               "yellow": [
                 "telefon",
@@ -14156,7 +13964,7 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "asuma",
-                "magama"
+                "lamama"
               ]
             },
             "example": {
@@ -14223,11 +14031,11 @@ const A1_WORDS = [
               "liegen"
             ],
             "purple": [
-              "on paigas"
+              "Pea"
             ],
             "red": [
               "legen",
-              "pane"
+              "Pea"
             ]
           }
         },
@@ -14290,7 +14098,36 @@ const A1_WORDS = [
       "id": "a1-liter",
       "layout": "standardStudy",
       "translation": "liiter",
-      "explanation": "Saksamaal öeldakse tavaliselt 'der Liter', aga Austrias ja Šveitsis võib kuulda ka 'das Liter'. Mitmuse vorm jääb muutumatuks: 'die Liter'.",
+      "explanation": "Põhiidee: der Liter on mahu mõõtühik. Saksamaal öeldakse tavaliselt der Liter, aga Austrias ja Šveitsis võib kuulda ka das Liter. Mitmuse vorm on alati die Liter — see ei muutu.",
+      "examples": [
+        {
+          "de": "Ich brauche einen Liter Milch.",
+          "lv": "mul on vaja liitrit piima."
+        },
+        {
+          "de": "Die Flasche fasst zwei Liter.",
+          "lv": "pudel mahutab kaks liitrit."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Liter",
+          "meaning": "Saksamaa tavavorm",
+          "example": "In Deutschland sagt man meist der Liter. = Saksamaal öeldakse enamasti der Liter."
+        },
+        {
+          "word": "das Liter",
+          "meaning": "Austria/Šveitsi vorm",
+          "example": "In Österreich hört man auch das Liter. = Austrias kuuleb ka das Liter."
+        },
+        {
+          "word": "die Liter",
+          "meaning": "mitmus (muutumatu)",
+          "example": "Die Flasche fasst zwei Liter. = Pudel mahutab kaks liitrit."
+        }
+      ],
+      "tip": "Kui kahtled artikli valikus, kasuta der Liter — see on kõige levinum vorm.",
+      "important": "Mitmuses on alati die Liter, sõltumata ainsuse artiklist — vorm ei muutu (zwei Liter, mitte zwei Litere).",
       "sectionAccents": {
         "explanation": {
           "green": [
@@ -14299,6 +14136,80 @@ const A1_WORDS = [
           "blue": [
             "das Liter"
           ],
+          "purple": [
+            "die Liter"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "einen Liter"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "liitrit"
+              ]
+            }
+          },
+          {
+            "de": {
+              "purple": [
+                "zwei Liter"
+              ]
+            },
+            "lv": {
+              "yellow": [
+                "kaks liitrit"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Liter"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Saksamaa tavavorm"
+              ]
+            }
+          },
+          {
+            "word": {
+              "blue": [
+                "das Liter"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Austria/Šveitsi vorm"
+              ]
+            }
+          },
+          {
+            "word": {
+              "purple": [
+                "die Liter"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "mitmus (muutumatu)"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "green": [
+            "der Liter"
+          ]
+        },
+        "important": {
           "purple": [
             "die Liter"
           ]
@@ -14403,7 +14314,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "täidan"
+                "teen"
               ],
               "yellow": [
                 "kodutöid"
@@ -14443,73 +14354,24 @@ const A1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {
-              "green": [
-                "machen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "tegema",
-                "tegema"
-              ]
-            },
-            "example": {
-              "blue": [
-                "machst"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "tun"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "tegema"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "tust"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "arbeiten"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "töötama"
-              ]
-            },
-            "example": {
-              "green": [
-                "arbeite"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "kochen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "valmistama"
-              ]
-            },
-            "example": {
-              "red": [
-                "koche"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": {
@@ -14812,7 +14674,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "abikaasa"
+                "see"
               ]
             }
           },
@@ -14824,7 +14686,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "meeste"
+                "kui"
               ]
             }
           },
@@ -14836,7 +14698,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "abikaasa"
+                "minu"
               ]
             }
           },
@@ -14860,7 +14722,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "abikaasa"
+                "tema"
               ]
             }
           }
@@ -15183,7 +15045,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "peale",
+                "sse",
                 "juurde"
               ]
             },
@@ -15482,7 +15344,7 @@ const A1_WORDS = [
               "möchte"
             ],
             "purple": [
-              "meeldib",
+              "mögen",
               "sooviksin"
             ]
           },
@@ -15581,7 +15443,7 @@ const A1_WORDS = [
           ],
           "purple": [
             "homme",
-            "homseni"
+            "Põhiidee"
           ]
         },
         "examples": [
@@ -15754,7 +15616,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "der Morgen",
+                "Guten",
                 "morgen"
               ]
             },
@@ -15767,33 +15629,20 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "der Morgen",
+                "Bis",
                 "morgen"
               ]
             },
             "lv": {
               "purple": [
-                "hommik"
+                "homseni"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "der Morgen",
-                "morgen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "homme"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "der Morgen",
+                "Ich",
                 "morgen"
               ]
             },
@@ -15806,7 +15655,20 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "der Morgen",
+                "Morgen",
+                "morgen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "homme"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Guten",
                 "morgen"
               ]
             },
@@ -15840,7 +15702,7 @@ const A1_WORDS = [
         "important": [
           {
             "green": [
-              "der Morgen"
+              "morgen"
             ]
           }
         ]
@@ -15957,7 +15819,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tuleb minna"
+                "pean"
               ]
             }
           },
@@ -15970,7 +15832,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tuleb oodata"
+                "pead"
               ]
             }
           },
@@ -15983,7 +15845,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tuleb õppida"
+                "peame"
               ]
             }
           },
@@ -15996,7 +15858,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tuleb töötada"
+                "pean"
               ]
             }
           }
@@ -16010,8 +15872,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "vajama",
-                "tuleb teha"
+                "pidama",
+                "pidama"
               ]
             },
             "example": {
@@ -16187,7 +16049,7 @@ const A1_WORDS = [
             "nach Hause"
           ],
           "purple": [
-            "peale",
+            "Põhiidee",
             "pärast",
             "koju"
           ],
@@ -16209,7 +16071,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "peale"
+                "sõidan"
               ],
               "green": [
                 "Berliini"
@@ -16254,7 +16116,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "üle"
+                "kümme"
               ]
             }
           }
@@ -16268,7 +16130,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "peale",
+                "sse",
                 "pärast"
               ]
             },
@@ -16286,7 +16148,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "peale",
+                "sse",
                 "juurde"
               ]
             },
@@ -16541,7 +16403,7 @@ const A1_WORDS = [
           },
           {
             "green": [
-              "loomulik"
+              "looduslik"
             ]
           }
         ],
@@ -16689,7 +16551,7 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "tõin"
+                "toon"
               ],
               "yellow": [
                 "raamatu"
@@ -16707,10 +16569,10 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "võtan"
+                "tulen"
               ],
               "green": [
-                "sind"
+                "tulen"
               ]
             }
           }
@@ -16928,7 +16790,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "noor"
+                "meil"
               ]
             }
           },
@@ -16964,7 +16826,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "noor"
+                "see"
               ]
             }
           },
@@ -16988,7 +16850,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "uus"
+                "uut"
               ]
             }
           }
@@ -17295,7 +17157,7 @@ const A1_WORDS = [
             "lv": {
               "purple": [
                 "ainult",
-                "üksnes"
+                "Mul"
               ]
             }
           },
@@ -17309,7 +17171,7 @@ const A1_WORDS = [
             "lv": {
               "purple": [
                 "ainult",
-                "üksnes"
+                "mul"
               ]
             }
           },
@@ -17323,7 +17185,7 @@ const A1_WORDS = [
             "lv": {
               "purple": [
                 "ainult",
-                "üksnes"
+                "ainult"
               ]
             }
           },
@@ -17337,7 +17199,7 @@ const A1_WORDS = [
             "lv": {
               "purple": [
                 "ainult",
-                "üksnes"
+                "tahan"
               ]
             }
           },
@@ -17351,7 +17213,7 @@ const A1_WORDS = [
             "lv": {
               "purple": [
                 "ainult",
-                "üksnes"
+                "mul"
               ]
             }
           }
@@ -17359,12 +17221,12 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "ainult"
+              "Piirab"
             ]
           },
           {
             "purple": [
-              "üksnes"
+              "Piirab"
             ]
           }
         ],
@@ -17534,7 +17396,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "kas",
+                "või",
                 "valikus"
               ]
             },
@@ -17552,8 +17414,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "ja",
-                "millal"
+                "kui",
+                "kui"
               ]
             },
             "example": {
@@ -17600,7 +17462,7 @@ const A1_WORDS = [
               "ob"
             ],
             "red": [
-              "valiku või"
+              "ole"
             ]
           },
           {
@@ -17706,7 +17568,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kas"
+                "kohvi"
               ],
               "yellow": [
                 "Kohvi",
@@ -17722,7 +17584,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kas"
+                "täna"
               ]
             }
           },
@@ -17768,7 +17630,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "kas",
+                "või",
                 "valikus"
               ]
             },
@@ -18001,7 +17863,7 @@ const A1_WORDS = [
           "purple": [
             "sobima",
             "sobima",
-            "sobivale"
+            "Põhiidee"
           ],
           "yellow": [
             "Riiete",
@@ -18021,7 +17883,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "der"
+                "jakk"
               ],
               "yellow": [
                 "Jakk"
@@ -18039,7 +17901,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "der"
+                "kleit"
               ],
               "yellow": [
                 "Kleit"
@@ -18173,7 +18035,7 @@ const A1_WORDS = [
               "aeg",
               "plaan",
               "lahendus",
-              "der"
+              "See"
             ]
           }
         ]
@@ -18331,7 +18193,7 @@ const A1_WORDS = [
             "proovima",
             "maitsma",
             "kontrollima",
-            "testima"
+            "Põhiidee"
           ],
           "yellow": [
             "toidust",
@@ -18406,7 +18268,7 @@ const A1_WORDS = [
             },
             "lv": {
               "green": [
-                "selga proovima"
+                "kas"
               ],
               "yellow": [
                 "jakki"
@@ -18546,10 +18408,10 @@ const A1_WORDS = [
           },
           {
             "red": [
-              "prüfen"
+              "testen"
             ],
             "purple": [
-              "kontrollida"
+              "testen"
             ]
           }
         ]
@@ -18824,8 +18686,8 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "sagen",
-                "sagen"
+                "Was",
+                "Was"
               ]
             },
             "lv": {
@@ -18942,8 +18804,8 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "schauen",
-                "schauen"
+                "schaue",
+                "schaue"
               ]
             },
             "lv": {
@@ -18968,8 +18830,8 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "schauen",
-                "schauen"
+                "schaue",
+                "schaue"
               ]
             },
             "lv": {
@@ -19303,7 +19165,7 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "suplema"
+                "lähen"
               ]
             }
           }
@@ -19391,7 +19253,7 @@ const A1_WORDS = [
             ],
             "red": [
               "baden",
-              "puhkamine vees"
+              "Pea"
             ]
           }
         },
@@ -19928,7 +19790,7 @@ const A1_WORDS = [
               "ma olen"
             ],
             "red": [
-              "mina olema"
+              "Ich"
             ]
           }
         ]
@@ -20036,7 +19898,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "lehekülg"
+                "veebileht"
               ]
             }
           },
@@ -20083,7 +19945,7 @@ const A1_WORDS = [
               "lehekülg"
             ],
             "green": [
-              "pool"
+              "Jutt"
             ]
           },
           {
@@ -20099,7 +19961,7 @@ const A1_WORDS = [
           {
             "purple": [
               "lehekülg",
-              "pool"
+              "die"
             ]
           },
           {
@@ -20195,7 +20057,7 @@ const A1_WORDS = [
           "purple": [
             "end",
             "endale",
-            "tegijat ennast"
+            "Põhiidee"
           ]
         },
         "examples": [
@@ -20207,7 +20069,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "peseb ennast"
+                "peseb"
               ]
             }
           },
@@ -20282,7 +20144,7 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "mind",
-                "end"
+                "mind"
               ]
             },
             "example": {
@@ -20300,7 +20162,7 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "sind",
-                "end"
+                "sind"
               ]
             },
             "example": {
@@ -20333,7 +20195,7 @@ const A1_WORDS = [
               "sich"
             ],
             "purple": [
-              "iseendale suunatud tegevus"
+              "Pea"
             ]
           }
         },
@@ -20426,7 +20288,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kindel"
+                "kas"
               ]
             }
           },
@@ -20474,7 +20336,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "veendunud"
+                "olen"
               ]
             }
           },
@@ -20486,7 +20348,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kindlalt"
+                "sõida"
               ]
             }
           }
@@ -20500,7 +20362,7 @@ const A1_WORDS = [
           {
             "green": [
               "kindlasti",
-              "arvatavasti"
+              "Koha"
             ]
           }
         ],
@@ -20509,7 +20371,7 @@ const A1_WORDS = [
             "purple": [
               "kindel",
               "kindlasti",
-              "arvatavasti"
+              "sicher"
             ]
           },
           {
@@ -20541,28 +20403,28 @@ const A1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Sie kochen.",
-          "lv": "Nad teevad süüa."
+          "de": "Anna kocht. Sie kocht jeden Tag.",
+          "lv": "Anna teeb süüa. Ta teeb seda iga päev."
         },
         {
-          "de": "Sie kocht.",
-          "lv": "ta teeb süüa."
+          "de": "Maria ist Ärztin. Sie arbeitet im Krankenhaus.",
+          "lv": "Maria on arst. Ta töötab haiglas."
         },
         {
-          "de": "Sie isst.",
-          "lv": "ta sööb."
+          "de": "Anna und Paul kochen. Sie kochen zusammen.",
+          "lv": "Anna ja Paul teevad süüa. Nad teevad seda koos."
         },
         {
-          "de": "Sie kochen.",
-          "lv": "nad teevad süüa."
+          "de": "Die Kinder spielen im Garten. Sie spielen Fußball.",
+          "lv": "Lapsed mängivad aias. Nad mängivad jalgpalli."
         },
         {
-          "de": "Sie spielen Fußball.",
-          "lv": "nad mängivad jalgpalli."
+          "de": "Frau Keller, kochen Sie gern?",
+          "lv": "proua Keller, kas te teete meelsasti süüa?"
         },
         {
-          "de": "Sie kochen, bitte.",
-          "lv": "teie teete süüa, palun."
+          "de": "Herr Müller, sind Sie neu hier?",
+          "lv": "härra Müller, kas te olete siin uus?"
         }
       ],
       "tip": [
@@ -20570,10 +20432,11 @@ const A1_WORDS = [
         "Kasuta sõna sie, kui kontekst vastab sellele tähendusele."
       ],
       "important": [
-        "Viisakas pöördumine alati suure S-iga: Sie, mitte sie.",
-        "Tema: Sie kocht. Nemad: sie kochen. Teie: Sie kochen.",
-        "Vale: sie kocht → Õige: Sie kocht",
-        "Vale: Sie kocht (nemad) → Õige: Sie kochen"
+        "Lause alguses on sie alati suure algustähega — Sie —, olenemata tähendusest. Seetõttu tuleb tähendus (tema, nemad või viisakas Teie) määrata konteksti ja tegusõna vormi järgi, mitte suurtähe järgi.",
+        "Viisakas pöördumine on alati suure S-iga: Sie, mitte sie.",
+        "Tema: sie kocht (ainsus). Nemad: sie kochen (mitmus, tuttavlik). Teie: Sie kochen (mitmus, viisakas).",
+        "Vale: sie kocht → Õige: Sie kocht (lausealguses)",
+        "Vale: Sie kocht (nemad tähenduses) → Õige: Sie kochen"
       ],
       "sectionAccents": {
         "explanation": {
@@ -20582,16 +20445,48 @@ const A1_WORDS = [
             "kochen"
           ],
           "purple": [
-            "nad",
+            "Põhiidee",
             "tema"
           ]
         },
         "examples": [
           {
             "de": {
+              "orange": [
+                "Anna"
+              ],
+              "blue": [
+                "Sie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Ta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "orange": [
+                "Maria"
+              ],
+              "blue": [
+                "Sie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Ta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "orange": [
+                "Anna und Paul"
+              ],
               "green": [
-                "sie",
-                "sie"
+                "Sie"
               ]
             },
             "lv": {
@@ -20602,65 +20497,46 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "blue": [
-                "sie",
-                "sie"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "ta"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "sie",
-                "sie"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "ta"
-              ]
-            }
-          },
-          {
-            "de": {
+              "orange": [
+                "Kinder"
+              ],
               "green": [
-                "sie",
-                "sie"
+                "Sie"
               ]
             },
             "lv": {
               "purple": [
-                "nad"
+                "Nad"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "sie",
-                "sie"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "nad"
-              ]
-            }
-          },
-          {
-            "de": {
+              "orange": [
+                "Frau Keller"
+              ],
               "yellow": [
-                "sie"
+                "Sie"
               ]
             },
             "lv": {
               "purple": [
-                "teie"
+                "te"
+              ]
+            }
+          },
+          {
+            "de": {
+              "orange": [
+                "Herr Müller"
+              ],
+              "yellow": [
+                "Sie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "te"
               ]
             }
           }
@@ -20668,14 +20544,20 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "nad"
+              "Mitmuse"
             ]
           }
         ],
         "important": [
           {
+            "blue": [
+              "Sie"
+            ],
             "green": [
-              "sie"
+              "Sie"
+            ],
+            "yellow": [
+              "Sie"
             ]
           }
         ]
@@ -20769,7 +20651,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "teie"
+                "teeb"
               ]
             }
           },
@@ -20782,7 +20664,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "teie"
+                "sööb"
               ]
             }
           },
@@ -20795,7 +20677,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "teie"
+                "nad"
               ]
             }
           },
@@ -20808,7 +20690,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "teie"
+                "nad"
               ]
             }
           },
@@ -21052,7 +20934,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "magama",
+                "lamama",
                 "pikali"
               ]
             },
@@ -21217,7 +21099,7 @@ const A1_WORDS = [
           ],
           "purple": [
             "peaks",
-            "tuleb teha",
+            "Põhiidee",
             "juhise"
           ],
           "red": [
@@ -21247,7 +21129,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tuleb tulla"
+                "pead"
               ]
             }
           },
@@ -21260,7 +21142,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tuleb jääda"
+                "pean"
               ]
             }
           },
@@ -21273,7 +21155,7 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "tuleb minna"
+                "pean"
               ]
             }
           }
@@ -21359,7 +21241,7 @@ const A1_WORDS = [
             ],
             "red": [
               "müssen",
-              "tingimata"
+              "Pea"
             ]
           }
         },
@@ -21369,7 +21251,7 @@ const A1_WORDS = [
               "Was soll ich machen"
             ],
             "purple": [
-              "mida ma peaksin tegema"
+              "Was"
             ]
           },
           {
@@ -21579,7 +21461,7 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "asub"
+                "raamat"
               ]
             }
           }
@@ -21628,7 +21510,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "magama",
+                "lamama",
                 "pikali"
               ]
             },
@@ -21662,7 +21544,7 @@ const A1_WORDS = [
               "stehen"
             ],
             "purple": [
-              "püsti"
+              "Pea"
             ],
             "red": [
               "sitzen"
@@ -21681,7 +21563,7 @@ const A1_WORDS = [
               "seisundit"
             ],
             "green": [
-              "stellen"
+              "stehen"
             ]
           },
           {
@@ -21967,7 +21849,7 @@ const A1_WORDS = [
           ],
           "purple": [
             "kohal",
-            "eest",
+            "Põhiidee",
             "üle"
           ],
           "green": [
@@ -22006,10 +21888,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "eest"
+                "räägime"
               ],
               "green": [
-                "ajast"
+                "räägime"
               ]
             }
           },
@@ -22042,7 +21924,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "eest"
+                "rõõmustan"
               ],
               "yellow": [
                 "kingi"
@@ -22060,7 +21942,7 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "kohal",
-                "eest",
+                "kohal",
                 "üle"
               ]
             },
@@ -22139,7 +22021,7 @@ const A1_WORDS = [
               "über"
             ],
             "purple": [
-              "kohasõna"
+              "über"
             ]
           },
           {
@@ -22233,7 +22115,7 @@ const A1_WORDS = [
           ],
           "purple": [
             "kell",
-            "umbes",
+            "ümber",
             "ümber",
             "et"
           ],
@@ -22269,7 +22151,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "umbes"
+                "ümber"
               ],
               "yellow": [
                 "laua"
@@ -22287,7 +22169,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "umbes"
+                "ümber"
               ],
               "yellow": [
                 "nurga"
@@ -22497,7 +22379,7 @@ const A1_WORDS = [
           ],
           "purple": [
             "all",
-            "vahel"
+            "Põhiidee"
           ],
           "green": [
             "inimeste rühmast"
@@ -22587,7 +22469,7 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "all",
-                "vahel"
+                "all"
               ]
             },
             "example": {
@@ -22605,7 +22487,7 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "kohal",
-                "eest"
+                "kohal"
               ]
             },
             "example": {
@@ -22665,7 +22547,7 @@ const A1_WORDS = [
               "unter"
             ],
             "purple": [
-              "vahel"
+              "unter"
             ]
           },
           {
@@ -22795,7 +22677,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "mõistan"
+                "saan"
               ]
             }
           },
@@ -22807,7 +22689,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "mõistad"
+                "kas"
               ]
             }
           },
@@ -22819,7 +22701,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ei saa aru"
+                "saa"
               ]
             }
           },
@@ -22917,7 +22799,7 @@ const A1_WORDS = [
             ],
             "red": [
               "können",
-              "oskama"
+              "osata"
             ]
           }
         },
@@ -22935,7 +22817,7 @@ const A1_WORDS = [
               "verstehe"
             ],
             "purple": [
-              "mõistan"
+              "Ich"
             ]
           }
         ]
@@ -23097,10 +22979,10 @@ const A1_WORDS = [
             "von dem"
           ],
           "purple": [
-            "-st"
+            "vom"
           ],
           "green": [
-            "kam?",
+            "vom",
             "päritolu"
           ]
         },
@@ -23279,7 +23161,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "peale",
+                "sse",
                 "juurde"
               ]
             },
@@ -23290,17 +23172,21 @@ const A1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "left": {
+        "tip": [
+          {
             "blue": [
               "vom"
             ],
             "purple": [
-              "von dem",
-              "-st"
+              "Pea"
+            ]
+          },
+          {
+            "purple": [
+              "von dem"
             ]
           }
-        },
+        ],
         "important": [
           {
             "blue": [
@@ -23310,13 +23196,13 @@ const A1_WORDS = [
               "von dem"
             ],
             "green": [
-              "kam?"
+              "vom"
             ]
           },
           {
             "purple": [
-              "kellelt",
-              "kust"
+              "Osutab",
+              "Osutab"
             ]
           },
           {
@@ -23517,7 +23403,7 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "pärast",
-                "peale"
+                "poole"
               ]
             },
             "example": {
@@ -23712,7 +23598,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Kes"
+                "Mis"
               ]
             }
           },
@@ -23724,19 +23610,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Kes"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Was"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Mida"
+                "Mis"
               ]
             }
           },
@@ -23772,7 +23646,19 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Kes"
+                "Mida"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Was"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Mis"
               ]
             }
           },
@@ -23951,7 +23837,7 @@ const A1_WORDS = [
           ],
           "purple": [
             "ja",
-            "millal",
+            "Põhiidee",
             "tingimust"
           ],
           "green": [
@@ -23968,7 +23854,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ja"
+                "kui"
               ]
             }
           },
@@ -23981,7 +23867,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ja"
+                "kui"
               ]
             }
           },
@@ -23994,7 +23880,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "millal"
+                "kui"
               ]
             }
           },
@@ -24020,8 +23906,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "ja",
-                "millal"
+                "kui",
+                "kui"
               ]
             },
             "example": {
@@ -24179,8 +24065,8 @@ const A1_WORDS = [
             "wer"
           ],
           "purple": [
-            "mis",
-            "milline"
+            "Põhiidee",
+            "Põhiidee"
           ],
           "green": [
             "was"
@@ -24195,7 +24081,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Kes"
+                "Mis"
               ]
             }
           },
@@ -24286,7 +24172,7 @@ const A1_WORDS = [
               "wer von"
             ],
             "purple": [
-              "kes teist"
+              "kes neist"
             ]
           }
         ],
@@ -24415,7 +24301,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "muutub"
+                "läheb"
               ]
             }
           },
@@ -24427,7 +24313,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "muutub"
+                "saab"
               ]
             }
           },
@@ -24642,7 +24528,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "aeg"
+                "milline"
               ]
             }
           },
@@ -24654,7 +24540,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "aeg"
+                "ilm"
               ]
             }
           },
@@ -24666,7 +24552,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "aeg"
+                "ilm"
               ]
             }
           },
@@ -24681,7 +24567,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "aeg"
+                "talvel"
               ],
               "yellow": [
                 "talvel"
@@ -24696,7 +24582,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ajast"
+                "räägime"
               ]
             }
           },
@@ -24711,7 +24597,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "aeg"
+                "homme"
               ],
               "green": [
                 "paremaks"
@@ -24929,7 +24815,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kui palju"
+                "kui"
               ]
             }
           },
@@ -24941,7 +24827,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kui palju"
+                "kui"
               ]
             }
           },
@@ -24953,7 +24839,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kuidas"
+                "sama"
               ]
             }
           }
@@ -24965,7 +24851,7 @@ const A1_WORDS = [
             ],
             "purple": [
               "kuidas",
-              "kui palju"
+              "wie"
             ]
           },
           {
@@ -25114,7 +25000,7 @@ const A1_WORDS = [
             "zu gehen"
           ],
           "purple": [
-            "peale",
+            "poole",
             "juurde",
             "liiga",
             "tegevusnime"
@@ -25183,7 +25069,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "peale",
+                "sse",
                 "juurde",
                 "liiga",
                 "infinitiiv"
@@ -25203,7 +25089,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "peale"
+                "sse"
               ]
             },
             "example": {
@@ -25221,7 +25107,7 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "sees",
-                "kohale"
+                "sees"
               ]
             },
             "example": {
@@ -25624,7 +25510,7 @@ const A1_WORDS = [
             "juurde"
           ],
           "green": [
-            "kam?",
+            "zum",
             "eesmärki"
           ]
         },
@@ -25735,7 +25621,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "peale",
+                "sse",
                 "juurde"
               ]
             },
@@ -25753,7 +25639,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "peale",
+                "sse",
                 "juurde"
               ]
             },
@@ -25771,7 +25657,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "peale",
+                "sse",
                 "juurde",
                 "liiga"
               ]
@@ -25790,7 +25676,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "peale"
+                "sse"
               ]
             },
             "example": {
@@ -25817,20 +25703,22 @@ const A1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "left": {
+        "tip": [
+          {
             "blue": [
               "zum"
             ],
             "purple": [
               "zu + dem"
-            ],
+            ]
+          },
+          {
             "yellow": [
               "zur",
               "zu + der"
             ]
           }
-        },
+        ],
         "important": [
           {
             "blue": [
@@ -25840,12 +25728,12 @@ const A1_WORDS = [
               "zu dem"
             ],
             "green": [
-              "kam?"
+              "zum"
             ]
           },
           {
             "purple": [
-              "peale",
+              "Osutab",
               "juurde"
             ],
             "green": [
@@ -26016,7 +25904,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vaatan telerit"
+                "täna"
               ]
             }
           },
@@ -26029,7 +25917,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vaata telerit"
+                "kas"
               ]
             }
           },
@@ -26042,7 +25930,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vaatab telerit"
+                "lapsed"
               ]
             }
           }
@@ -26111,17 +25999,17 @@ const A1_WORDS = [
           ],
           "purple": [
             "televisioon",
-            "programmis"
+            "Põhiidee"
           ],
           "yellow": [
-            "im Fernsehen"
+            "Põhiidee"
           ]
         },
         "examples": [
           {
             "de": {
               "green": [
-                "das Fernsehen",
+                "Was",
                 "fernsehen"
               ]
             },
@@ -26134,7 +26022,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "das Fernsehen",
+                "Was",
                 "fernsehen"
               ]
             },
@@ -26147,7 +26035,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "das Fernsehen",
+                "Fernsehen",
                 "fernsehen"
               ]
             },
@@ -26173,20 +26061,20 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "das Fernsehen",
-                "fernsehen"
+                "Ich",
+                "Ich"
               ]
             },
             "lv": {
               "purple": [
-                "televisioon"
+                "täna"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "das Fernsehen",
+                "Was",
                 "fernsehen"
               ]
             },
@@ -26200,14 +26088,14 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "televisioon"
+              "Kui"
             ]
           }
         ],
         "important": [
           {
             "green": [
-              "das Fernsehen"
+              "fernsehen"
             ]
           }
         ]
@@ -26272,7 +26160,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "der Appetit",
+                "Guten",
                 "appetit"
               ]
             },
@@ -26285,7 +26173,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "der Appetit",
+                "Guten",
                 "appetit"
               ]
             },
@@ -26298,7 +26186,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "der Appetit",
+                "Ich",
                 "appetit"
               ]
             },
@@ -26397,8 +26285,8 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "essen",
-                "essen"
+                "esse",
+                "esse"
               ]
             },
             "lv": {
@@ -26416,7 +26304,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "sööma"
+                "mida"
               ]
             }
           },
@@ -26442,7 +26330,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "sööma"
+                "toit"
               ]
             }
           },
@@ -26455,7 +26343,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "sööma"
+                "toit"
               ]
             }
           },
@@ -26468,7 +26356,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "sööma"
+                "toit"
               ]
             }
           }
@@ -26535,11 +26423,11 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "das Essen = sööma",
+        "das Essen = toit • söögikord",
         "Kasuta sõna das Essen, kui kontekst vastab sellele tähendusele."
       ],
       "important": [
-        "essen on tegusõna ilma artiklita.",
+        "essen on tegusõna ilma artiklita — see tähendab sööma.",
         "das Essen ei ole sama mis essen.",
         "Tegevus: essen.",
         "Asi/söögikord: das Essen."
@@ -26569,7 +26457,35 @@ const A1_WORDS = [
             "lv": {
               "purple": [
                 "toit",
-                "söögikord"
+                "Toit"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "Was",
+                "essen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mida",
+                "mida"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "Wir",
+                "essen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sööme",
+                "sööme"
               ]
             }
           },
@@ -26583,7 +26499,7 @@ const A1_WORDS = [
             "lv": {
               "purple": [
                 "toit",
-                "söögikord"
+                "toit"
               ]
             }
           },
@@ -26597,7 +26513,7 @@ const A1_WORDS = [
             "lv": {
               "purple": [
                 "toit",
-                "söögikord"
+                "toit"
               ]
             }
           },
@@ -26611,35 +26527,7 @@ const A1_WORDS = [
             "lv": {
               "purple": [
                 "toit",
-                "söögikord"
-              ]
-            }
-          },
-          {
-            "de": {
-              "yellow": [
-                "das Essen",
-                "essen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "toit",
-                "söögikord"
-              ]
-            }
-          },
-          {
-            "de": {
-              "yellow": [
-                "das Essen",
-                "essen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "toit",
-                "söögikord"
+                "toit"
               ]
             }
           }
@@ -26659,7 +26547,7 @@ const A1_WORDS = [
         "important": [
           {
             "yellow": [
-              "das Essen"
+              "essen"
             ]
           }
         ]
@@ -26732,7 +26620,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "das Gemüse",
+                "Ich",
                 "gemüse"
               ]
             },
@@ -26745,33 +26633,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "das Gemüse",
-                "gemüse"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "köögivilju"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "das Gemüse",
-                "gemüse"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "köögiviljad"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "das Gemüse",
+                "Ich",
                 "gemüse"
               ]
             },
@@ -26797,7 +26659,33 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "das Gemüse",
+                "Wir",
+                "gemüse"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "köögivilju"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Ich",
+                "gemüse"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "köögiviljad"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Ich",
                 "gemüse"
               ]
             },
@@ -26818,7 +26706,7 @@ const A1_WORDS = [
         "important": [
           {
             "blue": [
-              "das Gemüse"
+              "ole"
             ]
           }
         ]
@@ -26886,7 +26774,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "das Obst",
+                "Wir",
                 "obst"
               ]
             },
@@ -26899,7 +26787,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "das Obst",
+                "Wir",
                 "obst"
               ]
             },
@@ -26912,7 +26800,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "das Obst",
+                "Obst",
                 "obst"
               ]
             },
@@ -26925,7 +26813,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "das Obst",
+                "Ich",
                 "obst"
               ]
             },
@@ -26938,7 +26826,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "das Obst",
+                "Wir",
                 "obst"
               ]
             },
@@ -27047,72 +26935,72 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "die Ferien",
+                "den",
                 "ferien"
               ]
             },
             "lv": {
               "purple": [
-                "vaheaeg (kool)"
+                "Vaheajal"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "die Ferien",
+                "den",
                 "ferien"
               ]
             },
             "lv": {
               "purple": [
-                "vaheaeg (kool)"
+                "vaheajal"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "die Ferien",
+                "Was",
                 "ferien"
               ]
             },
             "lv": {
               "purple": [
-                "vaheaeg (kool)"
+                "mida"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "die Ferien",
+                "Die",
                 "ferien"
               ]
             },
             "lv": {
               "purple": [
-                "vaheaeg (kool)"
+                "kool"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "die Ferien",
+                "den",
                 "ferien"
               ]
             },
             "lv": {
               "purple": [
-                "vaheaeg (kool)"
+                "vaheajal"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "die Ferien",
+                "den",
                 "ferien"
               ]
             },
@@ -27126,14 +27014,14 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "vaheaeg (kool)"
+              "ainult"
             ]
           }
         ],
         "important": [
           {
             "blue": [
-              "die Ferien"
+              "Ferien"
             ]
           }
         ]
@@ -27216,7 +27104,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "der Urlaub",
+                "Mein",
                 "urlaub"
               ]
             },
@@ -27229,7 +27117,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "der Urlaub",
+                "Mein",
                 "urlaub"
               ]
             },
@@ -27242,7 +27130,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "der Urlaub",
+                "Nächste",
                 "urlaub"
               ]
             },
@@ -27255,7 +27143,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "der Urlaub",
+                "Wir",
                 "urlaub"
               ]
             },
@@ -27268,26 +27156,13 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "der Urlaub",
+                "Urlaub",
                 "urlaub"
               ]
             },
             "lv": {
               "purple": [
                 "puhkusel"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "der Urlaub",
-                "urlaub"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "puhkus"
               ]
             }
           }
@@ -27361,8 +27236,8 @@ const A1_WORDS = [
           "lv": "On kaheksa (kell)."
         },
         {
-          "de": "die Uhr",
-          "lv": "seade/aeg kellal; die Zeit"
+          "de": "Die Uhr zeigt die Zeit.",
+          "lv": "kell näitab aega."
         }
       ],
       "tip": [
@@ -27371,7 +27246,7 @@ const A1_WORDS = [
       ],
       "important": [
         "die Uhr: seade (meine Uhr) või kellaaeg (acht Uhr).",
-        "die Uhr: kontrolli enne kasutamist konteksti."
+        "die Uhr ei ole sama mis die Zeit: die Uhr on seade, mis näitab die Zeit ehk aega."
       ],
       "sectionAccents": {
         "explanation": {
@@ -27386,7 +27261,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "die Uhr",
+                "ist",
                 "uhr"
               ]
             },
@@ -27399,7 +27274,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "die Uhr",
+                "ist",
                 "uhr"
               ]
             },
@@ -27412,7 +27287,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "die Uhr",
+                "Meine",
                 "uhr"
               ]
             },
@@ -27425,7 +27300,20 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "die Uhr",
+                "ist",
+                "uhr"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kaheksa"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ist",
                 "uhr"
               ]
             },
@@ -27438,26 +27326,18 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "die Uhr",
-                "uhr"
+                "Uhr"
+              ],
+              "green": [
+                "Zeit"
               ]
             },
             "lv": {
               "purple": [
                 "kell"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "die Uhr",
-                "uhr"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "kellal"
+              ],
+              "yellow": [
+                "aega"
               ]
             }
           }
@@ -27538,7 +27418,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "die Zeit",
+                "Ich",
                 "zeit"
               ]
             },
@@ -27551,7 +27431,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "die Zeit",
+                "Ich",
                 "zeit"
               ]
             },
@@ -27564,7 +27444,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "die Zeit",
+                "Hast",
                 "zeit"
               ]
             },
@@ -27657,7 +27537,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "üks kord",
+                "olin",
                 "kord"
               ]
             }
@@ -27671,21 +27551,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "üks kord",
-                "kord"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "einmal",
-                "einmal"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "üks kord",
+                "olin",
                 "kord"
               ]
             }
@@ -27749,7 +27615,7 @@ const A1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "yellow": [
-            "noch mal"
+            "Põhiidee"
           ],
           "purple": [
             "veel kord"
@@ -27794,32 +27660,19 @@ const A1_WORDS = [
                 "veel kord"
               ]
             }
-          },
-          {
-            "de": {
-              "yellow": [
-                "noch mal",
-                "noch mal"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "veel kord"
-              ]
-            }
           }
         ],
         "tip": [
           {
             "purple": [
-              "veel kord"
+              "Kasuta"
             ]
           }
         ],
         "important": [
           {
             "yellow": [
-              "noch mal"
+              "Tähendab"
             ]
           }
         ]

@@ -58231,8 +58231,8 @@ const A2_WORDS = [
           "lv": "es sēžu pie galda."
         },
         {
-          "de": "sitzen",
-          "lv": "stāvoklis; setzen"
+          "de": "Sie sitzt schon seit einer Stunde hier.",
+          "lv": "viņa sēž šeit jau veselu stundu."
         }
       ],
       "comparison": [
@@ -58342,13 +58342,12 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
-                "sitzen",
-                "sitzen"
+                "sitzt"
               ]
             },
             "lv": {
               "purple": [
-                "sēdēt"
+                "sēž"
               ]
             }
           }
@@ -59702,8 +59701,8 @@ const A2_WORDS = [
           "lv": "pudele stāv uz galda."
         },
         {
-          "de": "stehen",
-          "lv": "stāvoklis; stellen"
+          "de": "Das Auto steht vor dem Haus.",
+          "lv": "automašīna stāv pie mājas."
         }
       ],
       "comparison": [
@@ -59787,26 +59786,12 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
-                "stehen",
-                "stehen"
+                "steht"
               ]
             },
             "lv": {
               "purple": [
-                "stāvēt"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "stehen",
-                "stehen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "stāvēt"
+                "stāv"
               ]
             }
           }

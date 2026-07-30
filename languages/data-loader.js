@@ -187,6 +187,13 @@
       try {
         await loadScript(resolved.path);
         loadedDatasetScripts.add(resolved.path);
+        if (nativeLanguage === "lt" && dataset === "courseLessons") {
+          const trainingCardsPath = "./data/lt/courseTrainingCards.js";
+          if (await pathExists(trainingCardsPath)) {
+            await loadScript(trainingCardsPath);
+            loadedDatasetScripts.add(trainingCardsPath);
+          }
+        }
       } catch (error) {
         const message = `Failed to load dataset "${dataset}" from ${resolved.path}: ${error.message}`;
         report.errors.push(message);

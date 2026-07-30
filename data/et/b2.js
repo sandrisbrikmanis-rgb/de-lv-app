@@ -262,7 +262,7 @@ const B2_WORDS = [
             "mit + kellele?"
           ],
           "purple": [
-            "leppima millegagi"
+            "sich"
           ]
         }
       }
@@ -478,7 +478,7 @@ const B2_WORDS = [
             "von + kellele?"
           ],
           "purple": [
-            "pöörduma millestki ära"
+            "sich"
           ]
         }
       }
@@ -935,7 +935,7 @@ const B2_WORDS = [
             "mit + kellele?"
           ],
           "purple": [
-            "tegelema millegaga"
+            "sich"
           ]
         }
       }
@@ -991,7 +991,7 @@ const B2_WORDS = [
             "mit + kellele?"
           ],
           "purple": [
-            "rahulduma millegaga"
+            "sich"
           ]
         }
       }
@@ -1172,8 +1172,8 @@ const B2_WORDS = [
             "+ omastavas käändes"
           ],
           "purple": [
-            "haarama",
-            "enda valdusesse võtma"
+            "sich",
+            "sich"
           ]
         }
       }
@@ -1264,7 +1264,7 @@ const B2_WORDS = [
             "auf + mida?"
           ],
           "purple": [
-            "viitama millelegi"
+            "sich"
           ]
         }
       }
@@ -1323,7 +1323,7 @@ const B2_WORDS = [
             "auf + mida?"
           ],
           "purple": [
-            "piirduma millegaga"
+            "sich"
           ]
         }
       }
@@ -1426,8 +1426,8 @@ const B2_WORDS = [
             "in + kus?"
           ],
           "purple": [
-            "tegutsema",
-            "osalema"
+            "sich",
+            "sich"
           ]
         }
       }
@@ -2335,7 +2335,7 @@ const B2_WORDS = [
     "de": "Debatte",
     "de_article": "die",
     "de_plural": "die Debatten",
-    "lv": "debatid",
+    "lv": "debatt",
     "level": "B2"
   },
   {
@@ -3585,7 +3585,7 @@ const B2_WORDS = [
             "auf + mida?"
           ],
           "purple": [
-            "laskuma millessegi"
+            "sich"
           ]
         }
       }
@@ -3637,7 +3637,7 @@ const B2_WORDS = [
             "in + mida?"
           ],
           "purple": [
-            "meelde jätma"
+            "sich"
           ]
         }
       }
@@ -3674,8 +3674,8 @@ const B2_WORDS = [
             "in + mida?"
           ],
           "purple": [
-            "sisse hiilima",
-            "sisse imbuma"
+            "sich",
+            "sich"
           ]
         }
       }
@@ -3709,7 +3709,7 @@ const B2_WORDS = [
             "auf + mida?"
           ],
           "purple": [
-            "piirduma"
+            "sich"
           ]
         }
       }
@@ -3931,7 +3931,7 @@ const B2_WORDS = [
             "zu + kellele?"
           ],
           "purple": [
-            "olema soovitatav"
+            "sich"
           ]
         }
       }
@@ -3968,8 +3968,8 @@ const B2_WORDS = [
             "über + mida?"
           ],
           "purple": [
-            "nördima",
-            "mässama"
+            "sich",
+            "sich"
           ]
         }
       }
@@ -4075,7 +4075,7 @@ const B2_WORDS = [
             "von + kellele?"
           ],
           "purple": [
-            "hoiduma millestki"
+            "sich"
           ]
         }
       }
@@ -4127,8 +4127,8 @@ const B2_WORDS = [
             "+ omastavas käändes"
           ],
           "purple": [
-            "vabanema",
-            "lahti saama"
+            "sich",
+            "sich"
           ]
         }
       }
@@ -4170,8 +4170,8 @@ const B2_WORDS = [
             "über + mida?"
           ],
           "purple": [
-            "nördima",
-            "tuliseks minema"
+            "sich",
+            "sich"
           ]
         }
       }
@@ -4208,8 +4208,8 @@ const B2_WORDS = [
             "+ omastavas käändes"
           ],
           "purple": [
-            "meenutama",
-            "meeles pidama"
+            "sich",
+            "sich"
           ]
         }
       }
@@ -4341,8 +4341,8 @@ const B2_WORDS = [
             "über + mida?"
           ],
           "purple": [
-            "halastama",
-            "kaasa tundma"
+            "sich",
+            "sich"
           ]
         }
       }
@@ -4438,8 +4438,8 @@ const B2_WORDS = [
             "aus + kellele?"
           ],
           "purple": [
-            "tulenema",
-            "alistuma"
+            "sich",
+            "sich"
           ]
         }
       }
@@ -4567,7 +4567,7 @@ const B2_WORDS = [
             "vor + kellele?"
           ],
           "purple": [
-            "end alandama"
+            "sich"
           ]
         }
       }
@@ -4623,7 +4623,7 @@ const B2_WORDS = [
             "über + mida?"
           ],
           "purple": [
-            "erutuma millegi pärast"
+            "sich"
           ]
         }
       }
@@ -4768,7 +4768,7 @@ const B2_WORDS = [
             "als + mis?"
           ],
           "purple": [
-            "osutuma milleks"
+            "sich"
           ]
         }
       }
@@ -5077,9 +5077,9 @@ const B2_WORDS = [
             "an + kellele?"
           ],
           "purple": [
-            "haarama",
-            "end koguma",
-            "end valitsema"
+            "sich",
+            "sich",
+            "sich"
           ]
         }
       }
@@ -5563,8 +5563,8 @@ const B2_WORDS = [
             "in + mida?"
           ],
           "purple": [
-            "kohanema",
-            "alluma"
+            "sich",
+            "sich"
           ]
         }
       }
@@ -6130,7 +6130,7 @@ const B2_WORDS = [
             "vor + kellele?"
           ],
           "purple": [
-            "häbenema"
+            "sich"
           ]
         }
       }
@@ -6190,37 +6190,73 @@ const B2_WORDS = [
         },
         "examples": [
           {
-            "de": { "blue": "Genosse" },
-            "lv": { "purple": "seltsiline" }
+            "de": {
+              "blue": "Genosse"
+            },
+            "lv": {
+              "purple": "seltsiline"
+            }
           },
           {
-            "de": { "green": "Mitglied" },
-            "lv": { "yellow": "liige" }
+            "de": {
+              "green": "Mitglied"
+            },
+            "lv": {
+              "yellow": "liige"
+            }
           },
           {
-            "de": { "red": "Kamerad" },
-            "lv": { "purple": "seltsimees" }
+            "de": {
+              "red": "Kamerad"
+            },
+            "lv": {
+              "purple": "seltsimees"
+            }
           }
         ],
         "comparison": [
           {
-            "word": { "blue": "der Genosse" },
-            "meaning": { "purple": "seltsiline" },
-            "example": { "blue": "Genosse" }
+            "word": {
+              "blue": "der Genosse"
+            },
+            "meaning": {
+              "purple": "seltsiline"
+            },
+            "example": {
+              "blue": "Genosse"
+            }
           },
           {
-            "word": { "green": "das Mitglied" },
-            "meaning": { "yellow": "liige" },
-            "example": { "green": "Mitglied" }
+            "word": {
+              "green": "das Mitglied"
+            },
+            "meaning": {
+              "yellow": "liige"
+            },
+            "example": {
+              "green": "Mitglied"
+            }
           },
           {
-            "word": { "red": "der Kamerad" },
-            "meaning": { "purple": "seltsimees" },
-            "example": { "red": "Kamerad" }
+            "word": {
+              "red": "der Kamerad"
+            },
+            "meaning": {
+              "purple": "seltsimees"
+            },
+            "example": {
+              "red": "Kamerad"
+            }
           }
         ],
-        "tip": { "blue": "Genosse", "green": "Mitglied" },
-        "important": { "blue": "Genosse", "green": "Mitglied" }
+        "tip": {
+          "blue": "Genosse",
+          "green": "Mitglied"
+        },
+        "important": {
+          "blue": "Genosse",
+          "green": "Mitglied"
+        }
       }
     }
   },
@@ -6278,37 +6314,73 @@ const B2_WORDS = [
         },
         "examples": [
           {
-            "de": { "blue": "Genossin" },
-            "lv": { "purple": "seltsiline" }
+            "de": {
+              "blue": "Genossin"
+            },
+            "lv": {
+              "purple": "seltsiline"
+            }
           },
           {
-            "de": { "green": "Mitglied" },
-            "lv": { "yellow": "liige" }
+            "de": {
+              "green": "Mitglied"
+            },
+            "lv": {
+              "yellow": "liige"
+            }
           },
           {
-            "de": { "red": "Kameradin" },
-            "lv": { "purple": "seltsimees" }
+            "de": {
+              "red": "Kameradin"
+            },
+            "lv": {
+              "purple": "seltsimees"
+            }
           }
         ],
         "comparison": [
           {
-            "word": { "blue": "die Genossin" },
-            "meaning": { "purple": "seltsiline" },
-            "example": { "blue": "Genossin" }
+            "word": {
+              "blue": "die Genossin"
+            },
+            "meaning": {
+              "purple": "seltsiline"
+            },
+            "example": {
+              "blue": "Genossin"
+            }
           },
           {
-            "word": { "green": "das Mitglied" },
-            "meaning": { "yellow": "liige" },
-            "example": { "green": "Mitglied" }
+            "word": {
+              "green": "das Mitglied"
+            },
+            "meaning": {
+              "yellow": "liige"
+            },
+            "example": {
+              "green": "Mitglied"
+            }
           },
           {
-            "word": { "red": "die Kameradin" },
-            "meaning": { "purple": "seltsimees" },
-            "example": { "red": "Kameradin" }
+            "word": {
+              "red": "die Kameradin"
+            },
+            "meaning": {
+              "purple": "seltsimees"
+            },
+            "example": {
+              "red": "Kameradin"
+            }
           }
         ],
-        "tip": { "blue": "Genossin", "green": "Mitglied" },
-        "important": { "blue": "Genossin", "green": "Mitglied" }
+        "tip": {
+          "blue": "Genossin",
+          "green": "Mitglied"
+        },
+        "important": {
+          "blue": "Genossin",
+          "green": "Mitglied"
+        }
       }
     }
   },
@@ -6493,7 +6565,7 @@ const B2_WORDS = [
             "zu + kellele?"
           ],
           "purple": [
-            "ühinema"
+            "sich"
           ]
         }
       }
@@ -6546,7 +6618,7 @@ const B2_WORDS = [
             "zu + kellele?"
           ],
           "purple": [
-            "kujunema milleks"
+            "sich"
           ]
         }
       }
@@ -6950,7 +7022,7 @@ const B2_WORDS = [
             "vor + kellele?"
           ],
           "purple": [
-            "kartma midagi"
+            "sich"
           ]
         }
       }
@@ -7579,7 +7651,7 @@ const B2_WORDS = [
             "zu + kellele?"
           ],
           "purple": [
-            "välja kujunema milleks"
+            "sich"
           ]
         }
       }
@@ -7611,7 +7683,7 @@ const B2_WORDS = [
             "aus + kellele?"
           ],
           "purple": [
-            "eemale hoidma millestki"
+            "sich"
           ]
         }
       }
@@ -7643,7 +7715,7 @@ const B2_WORDS = [
             "als + mis?"
           ],
           "purple": [
-            "selguma milleks"
+            "sich"
           ]
         }
       }
@@ -7690,7 +7762,7 @@ const B2_WORDS = [
             "in + kus?"
           ],
           "purple": [
-            "silma paistma"
+            "sich"
           ]
         }
       }
@@ -7783,8 +7855,8 @@ const B2_WORDS = [
             "+ kellele?"
           ],
           "purple": [
-            "end pühendama",
-            "end andma"
+            "sich",
+            "sich"
           ]
         }
       }
@@ -8136,7 +8208,7 @@ const B2_WORDS = [
           ],
           "purple": [
             "üleujutus",
-            "kõrge veetase"
+            "kõrget veetaset"
           ]
         },
         "examples": [
@@ -9868,28 +9940,55 @@ const B2_WORDS = [
         },
         "examples": [
           {
-            "de": { "blue": "Neger" },
-            "lv": { "purple": "neeger" }
+            "de": {
+              "blue": "Neger"
+            },
+            "lv": {
+              "purple": "neeger"
+            }
           },
           {
-            "de": { "green": "schwarze Person" },
-            "lv": { "purple": "mustanahaline inimene" }
+            "de": {
+              "green": "schwarze Person"
+            },
+            "lv": {
+              "purple": "mustanahaline inimene"
+            }
           }
         ],
         "comparison": [
           {
-            "word": { "blue": "Neger" },
-            "meaning": { "red": "solvav" },
-            "example": { "blue": "Neger" }
+            "word": {
+              "blue": "Neger"
+            },
+            "meaning": {
+              "red": "solvav"
+            },
+            "example": {
+              "blue": "Neger"
+            }
           },
           {
-            "word": { "green": "schwarze Person" },
-            "meaning": { "purple": "neutraalne" },
-            "example": { "green": "schwarze Person" }
+            "word": {
+              "green": "schwarze Person"
+            },
+            "meaning": {
+              "purple": "neutraalne"
+            },
+            "example": {
+              "green": "schwarze Person"
+            }
           }
         ],
-        "tip": { "blue": "Neger", "red": "solvav" },
-        "important": { "blue": "Neger", "red": "solvav", "green": "schwarze Person" }
+        "tip": {
+          "blue": "Neger",
+          "red": "solvav"
+        },
+        "important": {
+          "blue": "Neger",
+          "red": "solvav",
+          "green": "schwarze Person"
+        }
       }
     }
   },
@@ -10240,7 +10339,7 @@ const B2_WORDS = [
             "mit + kellele?"
           ],
           "purple": [
-            "paarduma millegaga"
+            "sich"
           ]
         }
       }
@@ -10250,12 +10349,12 @@ const B2_WORDS = [
     "de": "Pacht",
     "de_article": "die",
     "de_plural": "die Pachten",
-    "lv": "üür",
+    "lv": "rent",
     "level": "B2",
     "study": {
       "id": "b2-pacht",
       "layout": "standardStudy",
-      "translation": "üür",
+      "translation": "rent",
       "explanation": "Põhiidee: die Pacht on rendileping maatüki, põllu või ettevõtte jaoks. die Miete on eluruumi üür. Pacht rõhutab kasutusõigust, mitte elamispinda.",
       "examples": [
         {
@@ -10299,37 +10398,75 @@ const B2_WORDS = [
         },
         "examples": [
           {
-            "de": { "blue": "Pacht", "yellow": "Feld" },
-            "lv": { "purple": "renti" }
+            "de": {
+              "blue": "Pacht",
+              "yellow": "Feld"
+            },
+            "lv": {
+              "purple": "renti"
+            }
           },
           {
-            "de": { "green": "Miete", "yellow": "Wohnung" },
-            "lv": { "yellow": "üür" }
+            "de": {
+              "green": "Miete",
+              "yellow": "Wohnung"
+            },
+            "lv": {
+              "yellow": "üür"
+            }
           },
           {
-            "de": { "blue": "Pachtvertrag" },
-            "lv": { "purple": "rendileping" }
+            "de": {
+              "blue": "Pachtvertrag"
+            },
+            "lv": {
+              "purple": "rendileping"
+            }
           }
         ],
         "comparison": [
           {
-            "word": { "blue": "die Pacht" },
-            "meaning": { "purple": "rent" },
-            "example": { "blue": "Pacht" }
+            "word": {
+              "blue": "die Pacht"
+            },
+            "meaning": {
+              "purple": "rent"
+            },
+            "example": {
+              "blue": "Pacht"
+            }
           },
           {
-            "word": { "green": "die Miete" },
-            "meaning": { "yellow": "üür" },
-            "example": { "green": "Miete" }
+            "word": {
+              "green": "die Miete"
+            },
+            "meaning": {
+              "yellow": "üür"
+            },
+            "example": {
+              "green": "Miete"
+            }
           },
           {
-            "word": { "blue": "der Pachtvertrag" },
-            "meaning": { "purple": "rendileping" },
-            "example": { "blue": "Pachtvertrag" }
+            "word": {
+              "blue": "der Pachtvertrag"
+            },
+            "meaning": {
+              "purple": "rendileping"
+            },
+            "example": {
+              "blue": "Pachtvertrag"
+            }
           }
         ],
-        "tip": { "blue": "Pacht", "green": "Miete" },
-        "important": { "blue": "Pacht", "green": "Miete" }
+        "tip": {
+          "blue": "Pacht",
+          "green": "Miete"
+        },
+        "important": {
+          "blue": "Pacht",
+          "green": "Miete"
+        }
       }
     }
   },
@@ -10977,8 +11114,8 @@ const B2_WORDS = [
             "bei + kellele?"
           ],
           "purple": [
-            "tasuma",
-            "kätte maksma"
+            "sich",
+            "sich"
           ]
         }
       }
@@ -11319,7 +11456,7 @@ const B2_WORDS = [
             "um + mida?"
           ],
           "purple": [
-            "hoolima millestki"
+            "sich"
           ]
         }
       }
@@ -13459,7 +13596,7 @@ const B2_WORDS = [
             "mit + kellele?"
           ],
           "purple": [
-            "ühinema millegaga"
+            "sich"
           ]
         }
       }
@@ -13790,8 +13927,8 @@ const B2_WORDS = [
             "mit + kellele?"
           ],
           "purple": [
-            "eksima",
-            "varustama millegaga"
+            "sich",
+            "sich"
           ]
         }
       }
@@ -13843,7 +13980,7 @@ const B2_WORDS = [
             "mit + kellele?"
           ],
           "purple": [
-            "leppima millegaga"
+            "sich"
           ]
         }
       }
@@ -13895,7 +14032,7 @@ const B2_WORDS = [
             "als + mida?"
           ],
           "purple": [
-            "teesklema keda"
+            "sich"
           ]
         }
       }
@@ -14014,7 +14151,7 @@ const B2_WORDS = [
             "über + mida?"
           ],
           "purple": [
-            "imestama millegi üle"
+            "sich"
           ]
         }
       }
@@ -14696,8 +14833,8 @@ const B2_WORDS = [
             "+ kellele?"
           ],
           "purple": [
-            "vastu panema",
-            "vastu seisma"
+            "sich",
+            "sich"
           ]
         }
       }
@@ -14923,12 +15060,12 @@ const B2_WORDS = [
         "explanation": {
           "blue": [
             "zuweisen",
-            "weist",
+            "weise",
             "zu"
           ],
           "purple": [
-            "määrama",
-            "eraldama"
+            "Peamine",
+            "eraldamist"
           ]
         },
         "examples": [
@@ -15163,8 +15300,8 @@ const B2_WORDS = [
           "lv": "ma muudan tähtaega."
         },
         {
-          "de": "ändern",
-          "lv": "muutma detaili; wechseln"
+          "de": "Ich ändere meine Telefonnummer, aber ich wechsle den Anbieter nicht.",
+          "lv": "ma muudan oma telefoninumbrit, aga ma ei vaheta operaatorit."
         }
       ],
       "tip": [
@@ -15190,14 +15327,14 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "ändern",
-                "ändern"
+                "ändere",
+                "ändere"
               ]
             },
             "lv": {
               "purple": [
-                "muutma",
-                "parandama"
+                "muudan",
+                "muudan"
               ]
             }
           },
@@ -15210,8 +15347,8 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "muutma",
-                "parandama"
+                "muuta",
+                "kas"
               ]
             }
           },
@@ -15224,36 +15361,40 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "muutma",
-                "parandama"
+                "muudame",
+                "muudame"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "ändern",
-                "ändern"
+                "ändere",
+                "ändere"
               ]
             },
             "lv": {
               "purple": [
-                "muutma",
-                "parandama"
+                "muudan",
+                "muudan"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "ändern",
-                "ändern"
+                "ändere"
+              ],
+              "red": [
+                "wechsle"
               ]
             },
             "lv": {
               "purple": [
-                "muutma",
-                "parandama"
+                "muudan"
+              ],
+              "yellow": [
+                "vaheta"
               ]
             }
           }
@@ -15261,12 +15402,12 @@ const B2_WORDS = [
         "tip": [
           {
             "purple": [
-              "muutma"
+              "Muuta"
             ]
           },
           {
             "purple": [
-              "parandama"
+              "Muuta"
             ]
           }
         ],
@@ -15328,21 +15469,21 @@ const B2_WORDS = [
           ],
           "purple": [
             "vahetama",
-            "asendama"
+            "Peamine"
           ]
         },
         "examples": [
           {
             "de": {
               "green": [
-                "wechseln",
-                "wechseln"
+                "wechsle",
+                "wechsle"
               ]
             },
             "lv": {
               "purple": [
-                "vahetama",
-                "asendama"
+                "vahetan",
+                "vahetan"
               ]
             }
           },
@@ -15356,7 +15497,7 @@ const B2_WORDS = [
             "lv": {
               "purple": [
                 "vahetama",
-                "asendama"
+                "pean"
               ]
             }
           },
@@ -15369,22 +15510,22 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "vahetama",
-                "asendama"
+                "vahetame",
+                "vahetame"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "wechseln",
-                "wechseln"
+                "wechsle",
+                "wechsle"
               ]
             },
             "lv": {
               "purple": [
-                "vahetama",
-                "asendama"
+                "vahetan",
+                "vahetan"
               ]
             }
           }
@@ -15392,12 +15533,12 @@ const B2_WORDS = [
         "tip": [
           {
             "purple": [
-              "vahetama"
+              "Vahetada"
             ]
           },
           {
             "purple": [
-              "asendama"
+              "Vahetada"
             ]
           }
         ],
@@ -15445,8 +15586,8 @@ const B2_WORDS = [
           "lv": "rakendus tagab turvalisuse."
         },
         {
-          "de": "bieten",
-          "lv": "mida miski pakub; anbieten"
+          "de": "Das Hotel bietet einen schönen Blick auf das Meer.",
+          "lv": "hotell pakub ilusat vaadet merele."
         }
       ],
       "tip": [
@@ -15463,7 +15604,7 @@ const B2_WORDS = [
             "bieten"
           ],
           "purple": [
-            "pakkuma",
+            "Pakkuda",
             "andma"
           ]
         },
@@ -15471,14 +15612,14 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "bieten",
-                "bieten"
+                "bietet",
+                "bietet"
               ]
             },
             "lv": {
               "purple": [
-                "pakkuma",
-                "andma"
+                "Kool",
+                "Kool"
               ]
             }
           },
@@ -15491,50 +15632,48 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "pakkuma",
-                "andma"
+                "pakkuda",
+                "kas"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "bieten",
-                "bieten"
+                "bietet",
+                "bietet"
               ]
             },
             "lv": {
               "purple": [
-                "pakkuma",
-                "andma"
+                "kool",
+                "kool"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "bieten",
-                "bieten"
+                "bietet",
+                "bietet"
               ]
             },
             "lv": {
               "purple": [
-                "pakkuma",
-                "andma"
+                "rakendus",
+                "rakendus"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "bieten",
-                "bieten"
+                "bietet"
               ]
             },
             "lv": {
               "purple": [
-                "pakkuma",
-                "andma"
+                "pakub"
               ]
             }
           }
@@ -15542,12 +15681,12 @@ const B2_WORDS = [
         "tip": [
           {
             "purple": [
-              "pakkuma"
+              "Pakkuda"
             ]
           },
           {
             "purple": [
-              "andma"
+              "Pakkuda"
             ]
           }
         ],
@@ -15619,7 +15758,7 @@ const B2_WORDS = [
             "an"
           ],
           "purple": [
-            "pakkuma"
+            "pakkuja"
           ]
         },
         "examples": [
@@ -15699,8 +15838,8 @@ const B2_WORDS = [
           "lv": "me nõuame suuremat turvalisust."
         },
         {
-          "de": "fordern",
-          "lv": "nõudma; fördern"
+          "de": "Die Gewerkschaft fordert höhere Löhne, aber der Staat fördert nur kleine Betriebe.",
+          "lv": "ametiühing nõuab kõrgemat palka, aga riik toetab ainult väikeettevõtteid."
         }
       ],
       "tip": [
@@ -15719,21 +15858,21 @@ const B2_WORDS = [
           ],
           "purple": [
             "nõudma",
-            "küsima"
+            "Peamine"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "fordern",
-                "fordern"
+                "fordert",
+                "fordert"
               ]
             },
             "lv": {
               "purple": [
-                "nõudma",
-                "küsima"
+                "nõuab",
+                "nõuab"
               ]
             }
           },
@@ -15746,8 +15885,22 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "nõudma",
-                "küsima"
+                "nõuame",
+                "nõuame"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fordert",
+                "fordert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nõuab",
+                "nõuab"
               ]
             }
           },
@@ -15760,36 +15913,26 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "nõudma",
-                "küsima"
+                "nõuame",
+                "nõuame"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "fordern",
-                "fordern"
+                "fordert"
+              ],
+              "red": [
+                "fördert"
               ]
             },
             "lv": {
               "purple": [
-                "nõudma",
-                "küsima"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "fordern",
-                "fordern"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "nõudma",
-                "küsima"
+                "nõuab"
+              ],
+              "yellow": [
+                "toetab"
               ]
             }
           }
@@ -15797,12 +15940,12 @@ const B2_WORDS = [
         "tip": [
           {
             "purple": [
-              "nõudma"
+              "Nõuda"
             ]
           },
           {
             "purple": [
-              "küsima"
+              "Nõuda"
             ]
           }
         ],
@@ -15868,63 +16011,63 @@ const B2_WORDS = [
           ],
           "purple": [
             "soodustama",
-            "toetama"
+            "toetada"
           ]
         },
         "examples": [
           {
             "de": {
               "green": [
-                "fördern",
-                "fördern"
+                "fördert",
+                "fördert"
               ]
             },
             "lv": {
               "purple": [
-                "soodustama",
-                "toetama"
+                "soodustab",
+                "Sport"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "fördern",
-                "fördern"
+                "fördert",
+                "fördert"
               ]
             },
             "lv": {
               "purple": [
-                "soodustama",
-                "toetama"
+                "soodustab",
+                "sport"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "fördern",
-                "fördern"
+                "der",
+                "der"
               ]
             },
             "lv": {
               "purple": [
-                "soodustama",
-                "toetama"
+                "piirkonnas",
+                "piirkonnas"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "fördern",
-                "fördern"
+                "fördert",
+                "fördert"
               ]
             },
             "lv": {
               "purple": [
-                "soodustama",
-                "toetama"
+                "kool",
+                "toetab"
               ]
             }
           }
@@ -15932,12 +16075,12 @@ const B2_WORDS = [
         "tip": [
           {
             "purple": [
-              "soodustama"
+              "Soodustada"
             ]
           },
           {
             "purple": [
-              "toetama"
+              "toetada"
             ]
           }
         ],
