@@ -100,9 +100,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "говорити"
-              ]
+              "purple": []
             }
           },
           {
@@ -114,7 +112,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "говорити"
+                "говоримо"
               ]
             }
           },
@@ -126,9 +124,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "говорити"
-              ]
+              "purple": []
             }
           }
         ],
@@ -201,12 +197,8 @@ const A1_WORDS = [
           "blue": [
             "klein"
           ],
-          "purple": [
-            "маленький"
-          ],
-          "green": [
-            "Маленький"
-          ]
+          "purple": [],
+          "green": []
         },
         "examples": [
           {
@@ -218,7 +210,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "маленький"
+                "маленька"
               ]
             }
           },
@@ -231,7 +223,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "маленький"
+                "маленька"
               ]
             }
           },
@@ -244,7 +236,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "маленький"
+                "маленька"
               ]
             }
           },
@@ -257,7 +249,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "маленький"
+                "маленька"
               ]
             }
           },
@@ -270,16 +262,14 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "маленький"
+                "маленька"
               ]
             }
           }
         ],
         "tip": [
           {
-            "purple": [
-              "маленький"
-            ]
+            "purple": []
           }
         ],
         "important": [
@@ -320,7 +310,7 @@ const A1_WORDS = [
   },
   {
     "de": "an",
-    "lv": "at • to • present",
+    "lv": "біля • на • поруч",
     "level": "A1",
     "study": {
       "id": "a1-an",
@@ -367,10 +357,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "в",
-                "до"
-              ]
+              "purple": []
             }
           },
           {
@@ -380,9 +367,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "в"
-              ]
+              "purple": []
             }
           },
           {
@@ -392,9 +377,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "в"
-              ]
+              "purple": []
             }
           }
         ],
@@ -409,9 +392,7 @@ const A1_WORDS = [
               "green": [
                 "an"
               ],
-              "purple": [
-                "в"
-              ]
+              "purple": []
             }
           },
           {
@@ -424,9 +405,7 @@ const A1_WORDS = [
               "yellow": [
                 "auf"
               ],
-              "purple": [
-                "до"
-              ]
+              "purple": []
             }
           },
           {
@@ -439,9 +418,7 @@ const A1_WORDS = [
               "red": [
                 "beim"
               ],
-              "purple": [
-                "в"
-              ]
+              "purple": []
             }
           }
         ],
@@ -450,12 +427,10 @@ const A1_WORDS = [
             "blue": [
               "an"
             ],
-            "purple": [
-              "в"
-            ],
+            "purple": [],
             "green": [
               "стіни",
-              "вікно",
+              "вікна",
               "краю"
             ]
           }
@@ -465,13 +440,11 @@ const A1_WORDS = [
             "blue": [
               "an"
             ],
-            "purple": [
-              "в"
-            ],
+            "purple": [],
             "green": [
               "поверхні",
               "стіни",
-              "вікно",
+              "вікна",
               "краю"
             ]
           },
@@ -582,9 +555,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "від"
-              ]
+              "purple": []
             }
           },
           {
@@ -594,9 +565,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "від"
-              ]
+              "purple": []
             }
           },
           {
@@ -623,9 +592,7 @@ const A1_WORDS = [
               "green": [
                 "ab"
               ],
-              "purple": [
-                "від"
-              ]
+              "purple": []
             }
           },
           {
@@ -653,9 +620,7 @@ const A1_WORDS = [
               "blue": [
                 "aus"
               ],
-              "purple": [
-                "від"
-              ]
+              "purple": []
             }
           }
         ],
@@ -664,13 +629,8 @@ const A1_WORDS = [
             "blue": [
               "ab"
             ],
-            "purple": [
-              "відправна точка"
-            ],
-            "green": [
-              "протягом",
-              "замість"
-            ]
+            "purple": [],
+            "green": []
           }
         },
         "important": [
@@ -678,13 +638,8 @@ const A1_WORDS = [
             "blue": [
               "ab"
             ],
-            "purple": [
-              "відправна точка"
-            ],
-            "green": [
-              "протягом",
-              "замість"
-            ]
+            "purple": [],
+            "green": []
           },
           {
             "yellow": [
@@ -694,7 +649,6 @@ const A1_WORDS = [
               "aus"
             ],
             "purple": [
-              "походження",
               "зсередини"
             ]
           }
@@ -804,9 +758,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "проте"
-              ]
+              "purple": []
             }
           }
         ],
@@ -836,9 +788,7 @@ const A1_WORDS = [
               "yellow": [
                 "sondern"
               ],
-              "purple": [
-                "ні"
-              ]
+              "purple": []
             }
           },
           {
@@ -851,9 +801,7 @@ const A1_WORDS = [
               "red": [
                 "jedoch"
               ],
-              "purple": [
-                "проте"
-              ]
+              "purple": []
             }
           }
         ],
@@ -863,7 +811,6 @@ const A1_WORDS = [
               "aber"
             ],
             "purple": [
-              "навпаки",
               "заперечення"
             ]
           }
@@ -873,17 +820,13 @@ const A1_WORDS = [
             "green": [
               "aber"
             ],
-            "purple": [
-              "навпаки",
-              "заперечив"
-            ]
+            "purple": []
           },
           {
             "yellow": [
               "sondern"
             ],
             "purple": [
-              "ні",
               "але"
             ]
           }
@@ -1029,9 +972,7 @@ const A1_WORDS = [
               "yellow": [
                 "auch"
               ],
-              "purple": [
-                "також"
-              ]
+              "purple": []
             }
           },
           {
@@ -1073,9 +1014,7 @@ const A1_WORDS = [
             "green": [
               "deshalb"
             ],
-            "purple": [
-              "тому"
-            ]
+            "purple": []
           }
         ]
       },
@@ -1273,9 +1212,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "також"
-              ]
+              "purple": []
             }
           },
           {
@@ -1286,9 +1223,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "також"
-              ]
+              "purple": []
             }
           },
           {
@@ -1299,9 +1234,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "також"
-              ]
+              "purple": []
             }
           }
         ],
@@ -1374,9 +1307,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "до"
-              ]
+              "purple": []
             }
           },
           {
@@ -1386,9 +1317,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "до"
-              ]
+              "purple": []
             }
           },
           {
@@ -1398,9 +1327,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "до"
-              ]
+              "purple": []
             }
           }
         ],
@@ -1415,9 +1342,7 @@ const A1_WORDS = [
               "blue": [
                 "auf"
               ],
-              "purple": [
-                "до"
-              ]
+              "purple": []
             }
           },
           {
@@ -1428,8 +1353,7 @@ const A1_WORDS = [
             },
             "example": {
               "green": [
-                "an",
-                "в"
+                "an"
               ]
             }
           },
@@ -1451,12 +1375,9 @@ const A1_WORDS = [
             "blue": [
               "auf"
             ],
-            "purple": [
-              "до"
-            ],
+            "purple": [],
             "green": [
-              "поверхні",
-              "вище"
+              "поверхні"
             ]
           }
         },
@@ -1465,12 +1386,9 @@ const A1_WORDS = [
             "blue": [
               "auf"
             ],
-            "purple": [
-              "до"
-            ],
+            "purple": [],
             "green": [
-              "поверхні",
-              "на вершині"
+              "поверхні"
             ]
           },
           {
@@ -1481,7 +1399,6 @@ const A1_WORDS = [
               "in"
             ],
             "purple": [
-              "в",
               "всередині"
             ]
           }
@@ -1585,9 +1502,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "від"
-              ]
+              "purple": []
             }
           },
           {
@@ -1597,9 +1512,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "від"
-              ]
+              "purple": []
             }
           },
           {
@@ -1609,9 +1522,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "від"
-              ]
+              "purple": []
             }
           }
         ],
@@ -1626,9 +1537,7 @@ const A1_WORDS = [
               "green": [
                 "aus"
               ],
-              "purple": [
-                "від"
-              ]
+              "purple": []
             }
           },
           {
@@ -1656,9 +1565,7 @@ const A1_WORDS = [
               "yellow": [
                 "ab"
               ],
-              "purple": [
-                "від"
-              ]
+              "purple": []
             }
           }
         ],
@@ -1802,7 +1709,6 @@ const A1_WORDS = [
           ],
           "purple": [
             "до",
-            "зверху",
             "де"
           ],
           "green": [
@@ -1818,9 +1724,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "на даху"
-              ]
+              "purple": []
             }
           },
           {
@@ -1830,9 +1734,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "на дивані"
-              ]
+              "purple": []
             }
           },
           {
@@ -1854,9 +1756,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "на ліжку"
-              ]
+              "purple": []
             }
           },
           {
@@ -1866,9 +1766,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "на коні"
-              ]
+              "purple": []
             }
           },
           {
@@ -1878,9 +1776,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "на полиці"
-              ]
+              "purple": []
             }
           },
           {
@@ -1890,9 +1786,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "на човні"
-              ]
+              "purple": []
             }
           },
           {
@@ -1902,9 +1796,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "до святкування"
-              ]
+              "purple": []
             }
           }
         ],
@@ -1950,9 +1842,7 @@ const A1_WORDS = [
               ]
             },
             "meaning": {
-              "purple": [
-                "в"
-              ]
+              "purple": []
             },
             "example": {
               "green": [
@@ -1985,8 +1875,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "до",
-                "в"
+                "до"
               ]
             },
             "example": {
@@ -2002,8 +1891,7 @@ const A1_WORDS = [
               "aufs"
             ],
             "purple": [
-              "auf das",
-              "де"
+              "auf das"
             ]
           }
         },
@@ -2020,9 +1908,7 @@ const A1_WORDS = [
             ]
           },
           {
-            "purple": [
-              "де"
-            ],
+            "purple": [],
             "green": [
               "рух"
             ]
@@ -2163,19 +2049,13 @@ const A1_WORDS = [
             "baden"
           ],
           "purple": [
-            "плавати",
+            "плавальному",
             "бути у воді",
-            "насолоджуйся водою",
             "прийняти ванну"
           ],
-          "green": [
-            "в озері",
-            "в морі",
-            "в басейні"
-          ],
+          "green": [],
           "red": [
             "schwimmen",
-            "плавальний рух",
             "спорт"
           ]
         },
@@ -2202,9 +2082,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "плавати"
-              ],
+              "purple": [],
               "green": [
                 "в озері"
               ]
@@ -2218,7 +2096,7 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "плавати"
+                "плаває"
               ]
             }
           },
@@ -2229,9 +2107,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "red": [
-                "я йду плавати"
-              ]
+              "red": []
             }
           }
         ],
@@ -2263,7 +2139,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "плавати",
+                "плавання",
                 "рух",
                 "спорт"
               ]
@@ -2333,12 +2209,8 @@ const A1_WORDS = [
             ]
           },
           {
-            "purple": [
-              "плавати"
-            ],
-            "blue": [
-              "німецькою мовою"
-            ],
+            "purple": [],
+            "blue": [],
             "red": [
               "ситуації"
             ]
@@ -2509,8 +2381,7 @@ const A1_WORDS = [
               "bei"
             ],
             "green": [
-              "людини",
-              "місць",
+              "місці",
               "компанії"
             ]
           }
@@ -2522,7 +2393,7 @@ const A1_WORDS = [
             ],
             "green": [
               "людини",
-              "місць",
+              "місці",
               "в компанії"
             ]
           },
@@ -2747,11 +2618,7 @@ const A1_WORDS = [
             "purple": [
               "bis"
             ],
-            "green": [
-              "кордону",
-              "протягом",
-              "в стані"
-            ]
+            "green": []
           }
         },
         "important": [
@@ -2759,10 +2626,7 @@ const A1_WORDS = [
             "purple": [
               "bis"
             ],
-            "green": [
-              "кордону",
-              "на певний момент часу"
-            ]
+            "green": []
           },
           {
             "blue": [
@@ -2770,7 +2634,6 @@ const A1_WORDS = [
               "bis dass"
             ],
             "purple": [
-              "дотепер",
               "поки"
             ]
           }
@@ -2911,9 +2774,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "будь ласка"
-              ]
+              "purple": []
             }
           },
           {
@@ -2924,9 +2785,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "будь ласка"
-              ]
+              "purple": []
             }
           }
         ],
@@ -3011,7 +2870,7 @@ const A1_WORDS = [
           ],
           "purple": [
             "запит",
-            "запити"
+            "запит"
           ],
           "yellow": [
             "Bitte",
@@ -3027,9 +2886,29 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "запит"
+              "purple": []
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "die Bitte",
+                "bitte"
               ]
+            },
+            "lv": {
+              "purple": []
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "die Bitte",
+                "bitte"
+              ]
+            },
+            "lv": {
+              "purple": []
             }
           },
           {
@@ -3053,35 +2932,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "запит"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "die Bitte",
-                "bitte"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "запит"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "die Bitte",
-                "bitte"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "запит"
-              ]
+              "purple": []
             }
           },
           {
@@ -3217,10 +3068,7 @@ const A1_WORDS = [
           "blue": [
             "bleiben"
           ],
-          "purple": [
-            "залишитися",
-            "не йди геть"
-          ],
+          "purple": [],
           "red": [
             "gehen",
             "fahren"
@@ -3246,9 +3094,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "залишитися"
-              ]
+              "purple": []
             }
           },
           {
@@ -3258,9 +3104,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "давай залишимося"
-              ]
+              "purple": []
             }
           },
           {
@@ -3302,8 +3146,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "йти",
-                "піти геть"
+                "йти"
               ]
             },
             "example": {
@@ -3320,7 +3163,6 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "диск",
                 "транспорт"
               ]
             },
@@ -3353,9 +3195,7 @@ const A1_WORDS = [
             "blue": [
               "bleiben"
             ],
-            "purple": [
-              "не йди геть"
-            ],
+            "purple": [],
             "red": [
               "gehen"
             ]
@@ -3366,9 +3206,7 @@ const A1_WORDS = [
             "blue": [
               "bleiben"
             ],
-            "purple": [
-              "залишитися"
-            ],
+            "purple": [],
             "green": [
               "warten",
               "чекати"
@@ -3509,7 +3347,6 @@ const A1_WORDS = [
           ],
           "purple": [
             "приносити",
-            "забрати",
             "доставити"
           ],
           "red": [
@@ -3528,9 +3365,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "приносить"
-              ],
+              "purple": [],
               "yellow": [
                 "води"
               ]
@@ -3546,12 +3381,8 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "Я вас відвезу"
-              ],
-              "green": [
-                "ви"
-              ]
+              "purple": [],
+              "green": []
             }
           },
           {
@@ -3564,11 +3395,9 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "забрати"
-              ],
+              "purple": [],
               "yellow": [
-                "книга"
+                "книгу"
               ]
             }
           },
@@ -3582,11 +3411,9 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "red": [
-                "Я беру"
-              ],
+              "red": [],
               "yellow": [
-                "книга"
+                "книгу"
               ]
             }
           }
@@ -3600,8 +3427,6 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "приносити",
-                "забрати",
                 "доставити"
               ]
             },
@@ -3636,10 +3461,7 @@ const A1_WORDS = [
               ]
             },
             "meaning": {
-              "purple": [
-                "йти слідом",
-                "приносити"
-              ]
+              "purple": []
             },
             "example": {
               "yellow": [
@@ -3654,10 +3476,7 @@ const A1_WORDS = [
               ]
             },
             "meaning": {
-              "purple": [
-                "взяти з собою",
-                "приносити"
-              ]
+              "purple": []
             },
             "example": {
               "green": [
@@ -3671,12 +3490,9 @@ const A1_WORDS = [
             "blue": [
               "bringen"
             ],
-            "purple": [
-              "переїхати до когось"
-            ],
+            "purple": [],
             "red": [
-              "nehmen",
-              "беріть собі"
+              "nehmen"
             ]
           }
         },
@@ -3685,9 +3501,7 @@ const A1_WORDS = [
             "blue": [
               "bringen"
             ],
-            "purple": [
-              "направлення до когось"
-            ]
+            "purple": []
           },
           {
             "red": [
@@ -3903,9 +3717,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "green": [
-                "тут"
-              ]
+              "green": []
             }
           },
           {
@@ -3915,9 +3727,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "green": [
-                "тут"
-              ]
+              "green": []
             }
           }
         ],
@@ -4000,9 +3810,7 @@ const A1_WORDS = [
             "purple": [
               "там"
             ],
-            "green": [
-              "тут"
-            ]
+            "green": []
           }
         },
         "important": [
@@ -4011,7 +3819,7 @@ const A1_WORDS = [
               "da"
             ],
             "purple": [
-              "місць"
+              "місця"
             ]
           },
           {
@@ -4181,9 +3989,7 @@ const A1_WORDS = [
             "blue": [
               "das"
             ],
-            "purple": [
-              "середній клас"
-            ],
+            "purple": [],
             "red": [
               "dass"
             ]
@@ -4194,9 +4000,7 @@ const A1_WORDS = [
             "blue": [
               "das"
             ],
-            "purple": [
-              "середня частина статті"
-            ]
+            "purple": []
           },
           {
             "blue": [
@@ -4346,9 +4150,7 @@ const A1_WORDS = [
               "yellow": [
                 "damit"
               ],
-              "purple": [
-                "до"
-              ]
+              "purple": []
             }
           },
           {
@@ -4361,9 +4163,7 @@ const A1_WORDS = [
               "red": [
                 "ob"
               ],
-              "purple": [
-                "або"
-              ]
+              "purple": []
             }
           }
         ],
@@ -4396,9 +4196,7 @@ const A1_WORDS = [
             "yellow": [
               "артикль"
             ],
-            "purple": [
-              "що"
-            ]
+            "purple": []
           }
         ]
       },
@@ -4524,9 +4322,7 @@ const A1_WORDS = [
             "blue": [
               "der"
             ],
-            "purple": [
-              "чоловіча стать"
-            ]
+            "purple": []
           }
         },
         "important": [
@@ -4534,14 +4330,12 @@ const A1_WORDS = [
             "blue": [
               "der"
             ],
-            "purple": [
-              "стаття чоловічого роду"
-            ]
+            "purple": []
           },
           {
             "red": [
               "Займенник",
-              "відносний"
+              "відносне"
             ]
           }
         ]
@@ -4700,9 +4494,7 @@ const A1_WORDS = [
             "blue": [
               "die"
             ],
-            "purple": [
-              "жіноча стать"
-            ]
+            "purple": []
           }
         },
         "important": [
@@ -4710,9 +4502,7 @@ const A1_WORDS = [
             "blue": [
               "die"
             ],
-            "purple": [
-              "жіноча стаття"
-            ]
+            "purple": []
           },
           {
             "blue": [
@@ -4787,9 +4577,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "цей"
-              ]
+              "purple": []
             }
           },
           {
@@ -4799,9 +4587,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "цей"
-              ]
+              "purple": []
             }
           }
         ],
@@ -4816,9 +4602,7 @@ const A1_WORDS = [
               "blue": [
                 "Dieser"
               ],
-              "purple": [
-                "цей"
-              ]
+              "purple": []
             }
           },
           {
@@ -4831,9 +4615,7 @@ const A1_WORDS = [
               "green": [
                 "Diese"
               ],
-              "purple": [
-                "цей"
-              ]
+              "purple": []
             }
           },
           {
@@ -4846,9 +4628,7 @@ const A1_WORDS = [
               "yellow": [
                 "Dieses"
               ],
-              "purple": [
-                "цей"
-              ]
+              "purple": []
             }
           },
           {
@@ -4862,9 +4642,7 @@ const A1_WORDS = [
               "red": [
                 "Diese"
               ],
-              "purple": [
-                "ці"
-              ]
+              "purple": []
             }
           }
         ],
@@ -4876,9 +4654,7 @@ const A1_WORDS = [
             "purple": [
               "цей"
             ],
-            "green": [
-              "чоловіча стать"
-            ]
+            "green": []
           }
         },
         "important": [
@@ -4892,9 +4668,7 @@ const A1_WORDS = [
             "yellow": [
               "dieses"
             ],
-            "purple": [
-              "сім'ї"
-            ]
+            "purple": []
           },
           {
             "red": [
@@ -5027,9 +4801,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "хтось"
-              ]
+              "purple": []
             }
           },
           {
@@ -5039,9 +4811,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "поодинці"
-              ]
+              "purple": []
             }
           },
           {
@@ -5051,9 +4821,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "хтось"
-              ]
+              "purple": []
             }
           }
         ],
@@ -5068,9 +4836,7 @@ const A1_WORDS = [
               "blue": [
                 "ein"
               ],
-              "purple": [
-                "один"
-              ]
+              "purple": []
             }
           },
           {
@@ -5083,9 +4849,7 @@ const A1_WORDS = [
               "green": [
                 "eine"
               ],
-              "purple": [
-                "поодинці"
-              ]
+              "purple": []
             }
           },
           {
@@ -5098,15 +4862,13 @@ const A1_WORDS = [
               "yellow": [
                 "ein"
               ],
-              "purple": [
-                "один"
-              ]
+              "purple": []
             }
           },
           {
             "word": {
               "green": [
-                "– (nav)"
+                "– (немає)"
               ]
             },
             "example": {
@@ -5114,10 +4876,7 @@ const A1_WORDS = [
                 "Kinder",
                 "Bücher"
               ],
-              "purple": [
-                "дітей",
-                "книги"
-              ]
+              "purple": []
             }
           },
           {
@@ -5130,9 +4889,7 @@ const A1_WORDS = [
               "blue": [
                 "der"
               ],
-              "purple": [
-                "чоловік"
-              ]
+              "purple": []
             }
           },
           {
@@ -5145,10 +4902,7 @@ const A1_WORDS = [
               "green": [
                 "ein"
               ],
-              "purple": [
-                "один",
-                "хтось"
-              ]
+              "purple": []
             }
           }
         ],
@@ -5161,9 +4915,7 @@ const A1_WORDS = [
               "один",
               "хтось"
             ],
-            "green": [
-              "не конкретний"
-            ]
+            "green": []
           }
         },
         "important": [
@@ -5171,9 +4923,7 @@ const A1_WORDS = [
             "blue": [
               "ein"
             ],
-            "red": [
-              "вказаний артикль"
-            ]
+            "red": []
           },
           {
             "blue": [
@@ -5182,7 +4932,7 @@ const A1_WORDS = [
               "das"
             ],
             "green": [
-              "конкретно відомо"
+              "конкретно відома"
             ]
           }
         ]
@@ -5282,12 +5032,9 @@ const A1_WORDS = [
             "морозиво"
           ],
           "green": [
-            "харчування",
             "десерт"
           ],
-          "yellow": [
-            "води"
-          ]
+          "yellow": []
         },
         "examples": [
           {
@@ -5310,7 +5057,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "морозиво"
+                "морозива"
               ]
             }
           },
@@ -5325,7 +5072,7 @@ const A1_WORDS = [
                 "лід"
               ],
               "green": [
-                "озера"
+                "озері"
               ]
             }
           },
@@ -5411,7 +5158,7 @@ const A1_WORDS = [
             "example": {
               "yellow": [
                 "kalt",
-                "холодний"
+                "холодна"
               ]
             }
           },
@@ -5446,9 +5193,7 @@ const A1_WORDS = [
               "лід"
             ],
             "green": [
-              "харчування",
-              "зима",
-              "води"
+              "зима"
             ]
           }
         },
@@ -5458,7 +5203,6 @@ const A1_WORDS = [
               "das Eis"
             ],
             "purple": [
-              "лід",
               "морозиво"
             ]
           },
@@ -5468,9 +5212,7 @@ const A1_WORDS = [
               "лід"
             ],
             "green": [
-              "харчування",
-              "холодна поверхня",
-              "води"
+              "холодна поверхня"
             ]
           }
         ]
@@ -5677,8 +5419,7 @@ const A1_WORDS = [
               "nur"
             ],
             "green": [
-              "час",
-              "номер"
+              "час"
             ],
             "purple": [
               "кількість"
@@ -5790,14 +5531,10 @@ const A1_WORDS = [
             ]
           },
           {
-            "blue": [
-              "я"
-            ]
+            "blue": []
           },
           {
-            "blue": [
-              "я"
-            ]
+            "blue": []
           }
         ],
         "comparison": [
@@ -5856,9 +5593,7 @@ const A1_WORDS = [
               ]
             },
             "example": {
-              "blue": [
-                "я"
-              ]
+              "blue": []
             }
           },
           {
@@ -5868,9 +5603,7 @@ const A1_WORDS = [
               ]
             },
             "example": {
-              "blue": [
-                "я"
-              ]
+              "blue": []
             }
           }
         ],
@@ -5881,47 +5614,32 @@ const A1_WORDS = [
             ]
           },
           {
-            "green": [
-              "мене"
-            ]
+            "green": []
           }
         ],
         "tip": {
           "left": {
-            "blue": [
-              "мене"
-            ],
+            "blue": [],
             "red": [
               "ich"
             ],
-            "purple": [
-              "мене"
-            ]
+            "purple": []
           }
         },
         "important": [
           {
-            "blue": [
-              "мене"
-            ],
+            "blue": [],
             "red": [
               "ich"
             ],
-            "purple": [
-              "мене"
-            ]
+            "purple": []
           },
           {
             "red": [
               "ich"
             ],
-            "blue": [
-              "мене"
-            ],
-            "purple": [
-              "що",
-              "так"
-            ]
+            "blue": [],
+            "purple": []
           }
         ]
       },
@@ -6018,8 +5736,7 @@ const A1_WORDS = [
             "контекст"
           ],
           "yellow": [
-            "справа",
-            "кількість"
+            "кількістю"
           ]
         },
         "examples": [
@@ -6124,9 +5841,7 @@ const A1_WORDS = [
               "green": [
                 "was"
               ],
-              "purple": [
-                "щось"
-              ]
+              "purple": []
             }
           },
           {
@@ -6388,17 +6103,12 @@ const A1_WORDS = [
           "blue": [
             "fahren"
           ],
-          "purple": [
-            "диск",
-            "нести",
-            "забрати"
-          ],
+          "purple": [],
           "green": [
             "auto",
             "автобус",
             "поїзд",
-            "велосипед",
-            "транспортний засіб"
+            "велосипед"
           ],
           "yellow": [
             "gehen",
@@ -6413,9 +6123,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "водіння"
-              ],
+              "purple": [],
               "green": [
                 "Берлін"
               ]
@@ -6431,9 +6139,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "водіння"
-              ],
+              "purple": [],
               "green": [
                 "auto"
               ]
@@ -6450,12 +6156,9 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "привести"
-              ],
+              "purple": [],
               "green": [
-                "дочка",
-                "школа"
+                "дочку"
               ]
             }
           },
@@ -6470,13 +6173,8 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "Я вас відвезу"
-              ],
-              "green": [
-                "ви",
-                "вдома"
-              ]
+              "purple": [],
+              "green": []
             }
           },
           {
@@ -6489,9 +6187,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "ходімо"
-              ],
+              "purple": [],
               "green": [
                 "Мюнхен"
               ]
@@ -6559,7 +6255,6 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "приносити",
                 "доставити"
               ]
             },
@@ -6608,19 +6303,13 @@ const A1_WORDS = [
               "blue": [
                 "fahren"
               ],
-              "purple": [
-                "диск"
-              ]
+              "purple": []
             },
             "example": {
               "blue": [
                 "fahren"
               ],
-              "purple": [
-                "диск",
-                "нести",
-                "забрати"
-              ]
+              "purple": []
             }
           }
         ]
@@ -6783,12 +6472,9 @@ const A1_WORDS = [
           ],
           "purple": [
             "знайти",
-            "розглянути",
-            "думати",
-            "здається"
+            "думати"
           ],
           "green": [
-            "програна справа",
             "думка"
           ]
         },
@@ -6812,9 +6498,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "знайдено"
-              ]
+              "purple": []
             }
           },
           {
@@ -6836,9 +6520,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "здається"
-              ]
+              "purple": []
             }
           }
         ],
@@ -6878,7 +6560,7 @@ const A1_WORDS = [
             "example": {
               "yellow": [
                 "suche",
-                "шукаєш"
+                "шукаю"
               ]
             }
           },
@@ -6926,7 +6608,6 @@ const A1_WORDS = [
               "finden"
             ],
             "purple": [
-              "програна справа",
               "думка"
             ]
           }
@@ -6944,12 +6625,8 @@ const A1_WORDS = [
             "blue": [
               "finde"
             ],
-            "purple": [
-              "здається"
-            ],
-            "red": [
-              "знахідки"
-            ]
+            "purple": [],
+            "red": []
           }
         ]
       }
@@ -7080,7 +6757,7 @@ const A1_WORDS = [
             "Frau"
           ],
           "purple": [
-            "жінка",
+            "жінку",
             "дружина"
           ]
         },
@@ -7166,7 +6843,7 @@ const A1_WORDS = [
               "seine Frau"
             ],
             "purple": [
-              "дружина"
+              "дружину"
             ]
           },
           {
@@ -7372,9 +7049,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "для"
-              ]
+              "purple": []
             }
           },
           {
@@ -7384,9 +7059,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "власні"
-              ]
+              "purple": []
             }
           },
           {
@@ -7396,9 +7069,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "для"
-              ]
+              "purple": []
             }
           },
           {
@@ -7565,9 +7236,7 @@ const A1_WORDS = [
           "blue": [
             "geben"
           ],
-          "purple": [
-            "дарувати"
-          ],
+          "purple": [],
           "red": [
             "nehmen",
             "bekommen"
@@ -7587,11 +7256,9 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "дає"
-              ],
+              "purple": [],
               "yellow": [
-                "книга"
+                "книгу"
               ]
             }
           },
@@ -7623,11 +7290,9 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "red": [
-                "Я беру"
-              ],
+              "red": [],
               "yellow": [
-                "книга"
+                "книгу"
               ]
             }
           },
@@ -7712,7 +7377,6 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "приносити",
                 "доставити"
               ]
             },
@@ -7732,8 +7396,7 @@ const A1_WORDS = [
               "віддати"
             ],
             "red": [
-              "nehmen",
-              "беріть собі"
+              "nehmen"
             ]
           }
         },
@@ -7753,9 +7416,7 @@ const A1_WORDS = [
             "yellow": [
               "bekommen"
             ],
-            "purple": [
-              "отримати"
-            ],
+            "purple": [],
             "blue": [
               "geben"
             ]
@@ -7928,7 +7589,7 @@ const A1_WORDS = [
           ],
           "purple": [
             "негайно",
-            "рівні"
+            "рівно"
           ]
         },
         "examples": [
@@ -7939,9 +7600,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "негайно"
-              ]
+              "purple": []
             }
           },
           {
@@ -7951,9 +7610,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "рівні"
-              ]
+              "purple": []
             }
           },
           {
@@ -7963,9 +7620,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "негайно"
-              ]
+              "purple": []
             }
           },
           {
@@ -7975,9 +7630,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "порівну"
-              ]
+              "purple": []
             }
           },
           {
@@ -7987,9 +7640,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "негайно"
-              ]
+              "purple": []
             }
           },
           {
@@ -7999,29 +7650,22 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "рівні"
-              ]
+              "purple": []
             }
           }
         ],
         "tip": [
           {
-            "blue": [
-              "негайно"
-            ]
+            "blue": []
           },
           {
-            "green": [
-              "рівні"
-            ]
+            "green": []
           }
         ],
         "important": [
           {
             "purple": [
-              "негайно",
-              "рівні"
+              "негайно"
             ]
           },
           {
@@ -8160,9 +7804,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "великий"
-              ]
+              "purple": []
             }
           },
           {
@@ -8174,7 +7816,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "великий"
+                "велика"
               ]
             }
           }
@@ -8318,9 +7960,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "добре"
-              ]
+              "purple": []
             }
           },
           {
@@ -8366,9 +8006,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "добре"
-              ]
+              "purple": []
             }
           },
           {
@@ -8378,9 +8016,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "в порядку"
-              ]
+              "purple": []
             }
           }
         ],
@@ -8483,7 +8119,7 @@ const A1_WORDS = [
         "text": "Пам'ятай: Ich habe → Я маю."
       },
       "important": [
-        "латиське «man ir» = німецьке Ich habe + знахідний відмінок. Давальний відмінок не вживайте: неправильно *mir habe.",
+        "українське «у мене є» = німецьке Ich habe + знахідний відмінок. Давальний відмінок не вживайте: неправильно *mir habe.",
         "З sein і давальним: Mir ist kalt. = Мені холодно. (це не haben!)",
         "Ідеально: Ich habe gelernt = Я вчився."
       ],
@@ -8494,9 +8130,7 @@ const A1_WORDS = [
             "Ich habe"
           ],
           "purple": [
-            "я маю",
-            "у вас є",
-            "він має"
+            "я маю"
           ],
           "yellow": [
             "допоміжне дієслово"
@@ -8510,9 +8144,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "я маю"
-              ]
+              "purple": []
             }
           },
           {
@@ -8568,9 +8200,7 @@ const A1_WORDS = [
               "blue": [
                 "habe"
               ],
-              "purple": [
-                "я маю"
-              ]
+              "purple": []
             }
           },
           {
@@ -8622,8 +8252,7 @@ const A1_WORDS = [
             },
             "example": {
               "red": [
-                "mache",
-                "робити"
+                "mache"
               ]
             }
           }
@@ -8643,18 +8272,13 @@ const A1_WORDS = [
             "blue": [
               "haben"
             ],
-            "purple": [
-              "я маю"
-            ]
+            "purple": []
           },
           {
             "blue": [
               "habe"
             ],
-            "purple": [
-              "Я навчався",
-              "я вчився"
-            ]
+            "purple": []
           }
         ]
       }
@@ -8747,12 +8371,9 @@ const A1_WORDS = [
           ],
           "purple": [
             "утримувати",
-            "щоб зупинитися",
-            "щоб зупинитися",
             "розглядати як"
           ],
           "green": [
-            "транспорт",
             "рух"
           ]
         },
@@ -8764,9 +8385,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "утримувати"
-              ]
+              "purple": []
             }
           },
           {
@@ -8788,9 +8407,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "СТІЙ"
-              ]
+              "purple": []
             }
           },
           {
@@ -8800,9 +8417,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "Я вірю"
-              ]
+              "purple": []
             }
           }
         ],
@@ -8814,10 +8429,7 @@ const A1_WORDS = [
               ]
             },
             "meaning": {
-              "purple": [
-                "утримувати",
-                "щоб зупинитися"
-              ]
+              "purple": []
             },
             "example": {
               "blue": [
@@ -8859,8 +8471,7 @@ const A1_WORDS = [
             },
             "example": {
               "red": [
-                "Stoppen",
-                "Припиніть це"
+                "Stoppen"
               ]
             }
           },
@@ -8877,8 +8488,7 @@ const A1_WORDS = [
             },
             "example": {
               "green": [
-                "denke",
-                "думаю"
+                "denke"
               ]
             }
           }
@@ -8889,10 +8499,7 @@ const A1_WORDS = [
               "halten",
               "hält"
             ],
-            "purple": [
-              "в руці",
-              "зупиняється"
-            ],
+            "purple": [],
             "green": [
               "транспорт"
             ]
@@ -8903,18 +8510,13 @@ const A1_WORDS = [
             "blue": [
               "halten"
             ],
-            "purple": [
-              "утримувати",
-              "щоб зупинитися"
-            ]
+            "purple": []
           },
           {
             "blue": [
               "halte"
             ],
-            "purple": [
-              "Я вірю"
-            ]
+            "purple": []
           }
         ]
       }
@@ -9055,7 +8657,6 @@ const A1_WORDS = [
             "Wie heißt du"
           ],
           "purple": [
-            "дзвонив",
             "означає"
           ]
         },
@@ -9067,9 +8668,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "мене звати"
-              ]
+              "purple": []
             }
           },
           {
@@ -9079,9 +8678,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "дзвонив"
-              ]
+              "purple": []
             }
           },
           {
@@ -9103,9 +8700,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "засоби"
-              ]
+              "purple": []
             }
           }
         ],
@@ -9118,17 +8713,14 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "називатися",
-                "означає"
+                "називатися"
               ]
             },
             "example": {
               "blue": [
                 "heiße"
               ],
-              "purple": [
-                "дзвонив"
-              ]
+              "purple": []
             }
           },
           {
@@ -9138,14 +8730,11 @@ const A1_WORDS = [
               ]
             },
             "meaning": {
-              "purple": [
-                "дзвонити"
-              ]
+              "purple": []
             },
             "example": {
               "green": [
-                "nennt",
-                "дзвонив"
+                "nennt"
               ]
             }
           },
@@ -9162,8 +8751,7 @@ const A1_WORDS = [
             },
             "example": {
               "yellow": [
-                "bedeutet",
-                "засоби"
+                "bedeutet"
               ]
             }
           },
@@ -9318,10 +8906,10 @@ const A1_WORDS = [
             "hoch"
           ],
           "purple": [
-            "висока"
+            "високий"
           ],
           "orange": [
-            "висока"
+            "високий"
           ]
         },
         "examples": [
@@ -9386,7 +8974,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "висока"
+                "високі"
               ]
             }
           }
@@ -9394,7 +8982,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "висока"
+              "високий"
             ]
           }
         ],
@@ -9455,13 +9043,11 @@ const A1_WORDS = [
             "hören"
           ],
           "purple": [
-            "чути / слухати",
             "слухати",
             "чути"
           ],
           "green": [
-            "слухати",
-            "Щоб почути"
+            "слухати"
           ]
         },
         "examples": [
@@ -9474,8 +9060,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "чути",
-                "слухати"
+                "слухаю"
               ]
             }
           },
@@ -9488,8 +9073,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "чути",
-                "слухати"
+                "слухають"
               ]
             }
           },
@@ -9501,23 +9085,16 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "чути",
-                "слухати"
-              ]
+              "purple": []
             }
           }
         ],
         "tip": [
           {
-            "purple": [
-              "чути"
-            ]
+            "purple": []
           },
           {
-            "purple": [
-              "слухати"
-            ]
+            "purple": []
           }
         ],
         "important": [
@@ -9608,7 +9185,6 @@ const A1_WORDS = [
           ],
           "purple": [
             "ви",
-            "до неї",
             "її"
           ]
         },
@@ -9620,9 +9196,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "ви"
-              ]
+              "purple": []
             }
           },
           {
@@ -9632,9 +9206,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "до неї"
-              ]
+              "purple": []
             }
           },
           {
@@ -9644,9 +9216,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "ви"
-              ]
+              "purple": []
             }
           },
           {
@@ -9656,9 +9226,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "до неї"
-              ]
+              "purple": []
             }
           },
           {
@@ -9668,9 +9236,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "тобі"
-              ]
+              "purple": []
             }
           },
           {
@@ -9701,8 +9267,6 @@ const A1_WORDS = [
         "important": [
           {
             "purple": [
-              "ви",
-              "до неї",
               "її"
             ]
           },
@@ -9816,7 +9380,6 @@ const A1_WORDS = [
             "in dem"
           ],
           "purple": [
-            "всередині",
             "де?"
           ],
           "green": [
@@ -9931,7 +9494,6 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "всередині",
                 "де?"
               ]
             },
@@ -9949,8 +9511,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "всередину",
-                "де"
+                "всередину"
               ]
             },
             "example": {
@@ -9966,9 +9527,7 @@ const A1_WORDS = [
               ]
             },
             "meaning": {
-              "purple": [
-                "всередині"
-              ]
+              "purple": []
             },
             "example": {
               "green": [
@@ -10017,12 +9576,10 @@ const A1_WORDS = [
               "im"
             ],
             "purple": [
-              "in dem",
-              "де?"
+              "in dem"
             ],
             "red": [
-              "ins",
-              "де"
+              "ins"
             ]
           }
         },
@@ -10114,14 +9671,13 @@ const A1_WORDS = [
             "in"
           ],
           "purple": [
-            "всередині",
+            "всередину",
             "до"
           ],
           "green": [
-            "простір",
-            "країна",
+            "країну",
             "місто",
-            "будівля"
+            "будівлю"
           ]
         },
         "examples": [
@@ -10182,18 +9738,13 @@ const A1_WORDS = [
               ]
             },
             "meaning": {
-              "purple": [
-                "всередині",
-                "всередину"
-              ]
+              "purple": []
             },
             "example": {
               "blue": [
                 "in"
               ],
-              "purple": [
-                "до школи"
-              ]
+              "purple": []
             }
           },
           {
@@ -10203,9 +9754,7 @@ const A1_WORDS = [
               ]
             },
             "meaning": {
-              "purple": [
-                "на поверхні"
-              ]
+              "purple": []
             },
             "example": {
               "yellow": [
@@ -10220,9 +9769,7 @@ const A1_WORDS = [
               ]
             },
             "meaning": {
-              "purple": [
-                "в"
-              ]
+              "purple": []
             },
             "example": {
               "green": [
@@ -10237,9 +9784,7 @@ const A1_WORDS = [
               ]
             },
             "meaning": {
-              "purple": [
-                "в"
-              ]
+              "purple": []
             },
             "example": {
               "red": [
@@ -10254,8 +9799,7 @@ const A1_WORDS = [
               "in"
             ],
             "purple": [
-              "всередині",
-              "в кімнаті"
+              "всередині"
             ]
           }
         },
@@ -10265,7 +9809,6 @@ const A1_WORDS = [
               "in"
             ],
             "purple": [
-              "в Берліні",
               "в школі",
               "до kino"
             ]
@@ -10378,7 +9921,7 @@ const A1_WORDS = [
             "in das"
           ],
           "purple": [
-            "всередині",
+            "всередину",
             "всередину",
             "де"
           ],
@@ -10419,9 +9962,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "в зарубіжні країни"
-              ]
+              "purple": []
             }
           },
           {
@@ -10431,9 +9972,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "в будинку"
-              ]
+              "purple": []
             }
           },
           {
@@ -10444,9 +9983,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ставить",
-                "гроші",
-                "в гаманці"
+                "гроші"
               ]
             }
           },
@@ -10457,9 +9994,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "до музею"
-              ]
+              "purple": []
             }
           },
           {
@@ -10469,9 +10004,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "у воді"
-              ]
+              "purple": []
             }
           },
           {
@@ -10496,8 +10029,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "всередину",
-                "де"
+                "всередину"
               ]
             },
             "example": {
@@ -10514,7 +10046,6 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "всередині",
                 "де?"
               ]
             },
@@ -10532,9 +10063,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "всередині",
                 "до",
-                "самостійна стаття"
+                "самостійною статтею"
               ]
             },
             "example": {
@@ -10568,8 +10098,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "до",
-                "в"
+                "до"
               ]
             },
             "example": {
@@ -10585,12 +10114,10 @@ const A1_WORDS = [
               "ins"
             ],
             "purple": [
-              "in das",
-              "де"
+              "in das"
             ],
             "red": [
-              "im",
-              "де?"
+              "im"
             ]
           }
         },
@@ -10746,9 +10273,17 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "новий"
+              "purple": []
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "jung"
               ]
+            },
+            "lv": {
+              "purple": []
             }
           },
           {
@@ -10759,7 +10294,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "новий"
+                "молоді"
               ]
             }
           },
@@ -10770,21 +10305,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "молодий"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "jung"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "новий"
-              ]
+              "purple": []
             }
           },
           {
@@ -10794,9 +10315,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "новий"
-              ]
+              "purple": []
             }
           },
           {
@@ -10806,9 +10325,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "новий"
-              ]
+              "purple": []
             }
           },
           {
@@ -10964,9 +10481,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "зовсім ні"
-              ]
+              "purple": []
             }
           },
           {
@@ -10976,9 +10491,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "ніхто"
-              ]
+              "purple": []
             }
           },
           {
@@ -10988,9 +10501,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "немає"
-              ]
+              "purple": []
             }
           },
           {
@@ -11000,9 +10511,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "нічого"
-              ]
+              "purple": []
             }
           },
           {
@@ -11135,9 +10644,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "знати"
-              ]
+              "purple": []
             }
           },
           {
@@ -11148,9 +10655,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "знати"
-              ]
+              "purple": []
             }
           },
           {
@@ -11161,9 +10666,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "знати"
-              ]
+              "purple": []
             }
           },
           {
@@ -11174,9 +10677,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "знати"
-              ]
+              "purple": []
             }
           },
           {
@@ -11279,9 +10780,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "знати"
-              ]
+              "purple": []
             }
           },
           {
@@ -11292,9 +10791,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "знати"
-              ]
+              "purple": []
             }
           },
           {
@@ -11305,9 +10802,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "знати"
-              ]
+              "purple": []
             }
           },
           {
@@ -11318,9 +10813,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "знати"
-              ]
+              "purple": []
             }
           }
         ],
@@ -11453,12 +10946,9 @@ const A1_WORDS = [
             "können"
           ],
           "purple": [
-            "вміти",
-            "зрозуміти"
+            "вміти"
           ],
           "green": [
-            "здатність",
-            "майстерність",
             "можливість"
           ]
         },
@@ -11470,9 +10960,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "зрозуміти"
-              ]
+              "purple": []
             }
           },
           {
@@ -11482,9 +10970,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "ви можете"
-              ]
+              "purple": []
             }
           },
           {
@@ -11506,9 +10992,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "знати"
-              ]
+              "purple": []
             }
           }
         ],
@@ -11521,17 +11005,14 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "вміти",
-                "зрозуміти"
+                "вміти"
               ]
             },
             "example": {
               "blue": [
                 "kann"
               ],
-              "purple": [
-                "зрозуміти"
-              ]
+              "purple": []
             }
           },
           {
@@ -11547,8 +11028,7 @@ const A1_WORDS = [
             },
             "example": {
               "red": [
-                "Darf",
-                "я можу"
+                "Darf"
               ]
             }
           },
@@ -11559,14 +11039,11 @@ const A1_WORDS = [
               ]
             },
             "meaning": {
-              "purple": [
-                "потребувати"
-              ]
+              "purple": []
             },
             "example": {
               "yellow": [
-                "muss",
-                "треба вчитися"
+                "muss"
               ]
             }
           },
@@ -11583,8 +11060,7 @@ const A1_WORDS = [
             },
             "example": {
               "green": [
-                "weiß",
-                "я знаю"
+                "weiß"
               ]
             }
           }
@@ -11594,10 +11070,7 @@ const A1_WORDS = [
             "blue": [
               "können"
             ],
-            "purple": [
-              "майстерність",
-              "можливість"
-            ]
+            "purple": []
           }
         },
         "important": [
@@ -11609,8 +11082,6 @@ const A1_WORDS = [
               "dürfen"
             ],
             "purple": [
-              "вміти",
-              "зрозуміти",
               "бути дозволеним"
             ]
           },
@@ -11712,7 +11183,6 @@ const A1_WORDS = [
           ],
           "purple": [
             "платити",
-            "ціна",
             "скільки щось коштує"
           ],
           "green": [
@@ -11731,9 +11201,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "платить"
-              ]
+              "purple": []
             }
           },
           {
@@ -11743,9 +11211,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "платить"
-              ]
+              "purple": []
             }
           },
           {
@@ -11755,9 +11221,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "платить"
-              ]
+              "purple": []
             }
           },
           {
@@ -11767,9 +11231,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "не платить"
-              ]
+              "purple": []
             }
           },
           {
@@ -11779,9 +11241,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "я плачу"
-              ]
+              "purple": []
             }
           },
           {
@@ -11815,9 +11275,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "я заплачу"
-              ]
+              "purple": []
             }
           }
         ],
@@ -11831,17 +11289,14 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "платити",
-                "ціна",
-                "скільки це коштує"
+                "ціна"
               ]
             },
             "example": {
               "blue": [
                 "kostet"
               ],
-              "purple": [
-                "платить"
-              ]
+              "purple": []
             }
           },
           {
@@ -11860,9 +11315,7 @@ const A1_WORDS = [
               "yellow": [
                 "bezahle"
               ],
-              "purple": [
-                "я плачу"
-              ]
+              "purple": []
             }
           },
           {
@@ -11901,9 +11354,7 @@ const A1_WORDS = [
               "blue": [
                 "kostet"
               ],
-              "purple": [
-                "платить"
-              ]
+              "purple": []
             }
           }
         ],
@@ -11913,18 +11364,14 @@ const A1_WORDS = [
               "kosten",
               "Was kostet"
             ],
-            "purple": [
-              "ціна"
-            ]
+            "purple": []
           },
           {
             "yellow": [
               "bezahlen",
               "zahlen"
             ],
-            "purple": [
-              "здійснення платежу"
-            ]
+            "purple": []
           }
         ],
         "important": [
@@ -11942,7 +11389,6 @@ const A1_WORDS = [
           },
           {
             "purple": [
-              "платити",
               "ситуації"
             ]
           }
@@ -12353,12 +11799,11 @@ const A1_WORDS = [
           "purple": [
             "країна",
             "земля",
-            "поля",
             "країна"
           ],
           "green": [
-            "Німеччина",
-            "Латвія",
+            "Німеччину",
+            "Латвію",
             "міст"
           ]
         },
@@ -12389,7 +11834,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "країна"
+                "країни"
               ]
             }
           },
@@ -12401,7 +11846,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "сільська місцевість"
+                "сільську місцевість"
               ]
             }
           },
@@ -12412,9 +11857,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "в сільській місцевості"
-              ]
+              "purple": []
             }
           }
         ],
@@ -12428,8 +11871,7 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "країна",
-                "земля",
-                "поля"
+                "земля"
               ]
             },
             "example": {
@@ -12510,12 +11952,8 @@ const A1_WORDS = [
             "blue": [
               "aufs Land"
             ],
-            "purple": [
-              "в сільську місцевість"
-            ],
-            "red": [
-              "до країни"
-            ]
+            "purple": [],
+            "red": []
           },
           {
             "blue": [
@@ -12542,7 +11980,7 @@ const A1_WORDS = [
         "Що стосується розміру чи відстані, lang = довгий (ein langer Tisch = довгий стіл).",
         "Щодо тривалості часу, lang = довгий (ein langer Tag = довгий день).",
         "У фразі den ganzen Tag lang це означає весь день (за довжиною).",
-        "Латвійські «garš» і «ilgs» — це два різні слова, але німецьке lang охоплює обидва значення."
+        "В українській мові «довгий» (простір) і «тривалий» (час) — це різні слова, але німецьке lang охоплює обидва значення."
       ],
       "examples": [
         {
@@ -12584,8 +12022,8 @@ const A1_WORDS = [
             "lang"
           ],
           "purple": [
-            "довго",
-            "довго"
+            "довгий",
+            "довгий"
           ]
         },
         "examples": [
@@ -12597,7 +12035,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "довго"
+                "довгий"
               ]
             }
           },
@@ -12609,7 +12047,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "довго"
+                "довгий"
               ]
             }
           },
@@ -12620,9 +12058,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "протягом тривалого часу"
-              ]
+              "purple": []
             }
           },
           {
@@ -12633,7 +12069,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "довго"
+                "довге"
               ]
             }
           },
@@ -12644,9 +12080,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "протягом тривалого часу"
-              ]
+              "purple": []
             }
           },
           {
@@ -12656,9 +12090,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "в довжину"
-              ]
+              "purple": []
             }
           }
         ],
@@ -12677,8 +12109,8 @@ const A1_WORDS = [
         "important": [
           {
             "purple": [
-              "довго",
-              "довго"
+              "довгий",
+              "довгий"
             ]
           },
           {
@@ -12772,13 +12204,8 @@ const A1_WORDS = [
             "lassen",
             "Lass mich"
           ],
-          "purple": [
-            "піти",
-            "дозволяють",
-            "Залиште мене в спокої"
-          ],
+          "purple": [],
           "green": [
-            "замість",
             "дозвіл"
           ]
         },
@@ -12790,12 +12217,8 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "Я пішов"
-              ],
-              "yellow": [
-                "фінська"
-              ]
+              "purple": [],
+              "yellow": []
             }
           },
           {
@@ -12805,9 +12228,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "залишити"
-              ]
+              "purple": []
             }
           },
           {
@@ -12817,9 +12238,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "дозволяє"
-              ]
+              "purple": []
             }
           },
           {
@@ -12829,9 +12248,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "залиш мене в спокої"
-              ]
+              "purple": []
             }
           }
         ],
@@ -12843,10 +12260,7 @@ const A1_WORDS = [
               ]
             },
             "meaning": {
-              "purple": [
-                "піти",
-                "дозволяють"
-              ]
+              "purple": []
             },
             "example": {
               "blue": [
@@ -12912,8 +12326,7 @@ const A1_WORDS = [
               "lassen"
             ],
             "purple": [
-              "залишається",
-              "дозволяє"
+              "залишається"
             ]
           }
         },
@@ -12922,18 +12335,13 @@ const A1_WORDS = [
             "blue": [
               "lassen"
             ],
-            "purple": [
-              "піти",
-              "дозволяють"
-            ]
+            "purple": []
           },
           {
             "blue": [
               "Lass mich in Ruhe"
             ],
-            "purple": [
-              "залиш мене в спокої"
-            ]
+            "purple": []
           }
         ]
       }
@@ -13007,15 +12415,12 @@ const A1_WORDS = [
           ],
           "purple": [
             "бігти",
-            "оперувати",
             "йти"
           ],
           "green": [
-            "людей",
-            "тварина",
+            "тварини",
             "фільм",
-            "автомобіль",
-            "програма"
+            "програми"
           ]
         },
         "examples": [
@@ -13027,7 +12432,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "бігати"
+                "бігає"
               ]
             }
           },
@@ -13039,7 +12444,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "бігати"
+                "бігають"
               ]
             }
           },
@@ -13050,9 +12455,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "йти"
-              ]
+              "purple": []
             }
           },
           {
@@ -13076,10 +12479,7 @@ const A1_WORDS = [
               ]
             },
             "meaning": {
-              "purple": [
-                "бігти",
-                "оперувати"
-              ]
+              "purple": []
             },
             "example": {
               "blue": [
@@ -13111,9 +12511,7 @@ const A1_WORDS = [
               ]
             },
             "meaning": {
-              "purple": [
-                "диск"
-              ]
+              "purple": []
             },
             "example": {
               "red": [
@@ -13159,21 +12557,15 @@ const A1_WORDS = [
               "laufen"
             ],
             "purple": [
-              "бігти",
-              "йти",
-              "оперувати"
+              "йти"
             ]
           },
           {
             "blue": [
               "Ich laufe"
             ],
-            "purple": [
-              "рухи ногами"
-            ],
-            "red": [
-              "водіння"
-            ]
+            "purple": [],
+            "red": []
           }
         ]
       }
@@ -13239,8 +12631,8 @@ const A1_WORDS = [
             "laut"
           ],
           "purple": [
-            "голосно",
-            "голосно"
+            "голосна",
+            "голосна"
           ]
         },
         "examples": [
@@ -13253,7 +12645,20 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "голосно"
+                "голосна"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "laut",
+                "laut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "голосна"
               ]
             }
           },
@@ -13291,9 +12696,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "голосно"
-              ]
+              "purple": []
             }
           },
           {
@@ -13304,22 +12707,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "голосно"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "laut",
-                "laut"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "голосно"
-              ]
+              "purple": []
             }
           }
         ],
@@ -13404,7 +12792,7 @@ const A1_WORDS = [
           ],
           "purple": [
             "звук",
-            "звуки"
+            "звук"
           ],
           "yellow": [
             "Laut",
@@ -13433,9 +12821,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "звук"
-              ]
+              "purple": []
             }
           },
           {
@@ -13446,9 +12832,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "звук"
-              ]
+              "purple": []
             }
           },
           {
@@ -13459,9 +12843,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "звук"
-              ]
+              "purple": []
             }
           },
           {
@@ -13590,16 +12972,11 @@ const A1_WORDS = [
             "legen",
             "liegen"
           ],
-          "purple": [
-            "покласти вниз",
-            "знаходиться",
-            "спить"
-          ],
+          "purple": [],
           "yellow": [
-            "справа",
             "стіл",
-            "ліжка",
-            "поверхні"
+            "ліжко",
+            "поверхню"
           ]
         },
         "examples": [
@@ -13614,11 +12991,9 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "Я поставив його"
-              ],
+              "purple": [],
               "yellow": [
-                "книга",
+                "книгу",
                 "стіл"
               ]
             }
@@ -13633,9 +13008,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "покласти вниз"
-              ],
+              "purple": [],
               "yellow": [
                 "ключ"
               ]
@@ -13654,15 +13027,11 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "покласти вниз"
-              ],
+              "purple": [],
               "green": [
-                "дитина"
+                "дитину"
               ],
-              "yellow": [
-                "в ліжку"
-              ]
+              "yellow": []
             }
           },
           {
@@ -13676,12 +13045,9 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "red": [
-                "знаходиться"
-              ],
+              "red": [],
               "yellow": [
-                "книга",
-                "стіл"
+                "книга"
               ]
             }
           }
@@ -13712,7 +13078,6 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "бути розташованим",
                 "спати"
               ]
             },
@@ -13729,9 +13094,7 @@ const A1_WORDS = [
               ]
             },
             "meaning": {
-              "purple": [
-                "стоячи"
-              ]
+              "purple": []
             },
             "example": {
               "yellow": [
@@ -13762,12 +13125,9 @@ const A1_WORDS = [
             "blue": [
               "legen"
             ],
-            "purple": [
-              "покласти вниз"
-            ],
+            "purple": [],
             "red": [
-              "liegen",
-              "знаходиться"
+              "liegen"
             ]
           }
         },
@@ -13784,9 +13144,7 @@ const A1_WORDS = [
             "blue": [
               "lege"
             ],
-            "purple": [
-              "Я поставив його"
-            ],
+            "purple": [],
             "red": [
               "liegt",
               "знаходиться"
@@ -13882,9 +13240,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "тихий"
-              ]
+              "purple": []
             }
           },
           {
@@ -13895,9 +13251,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "тихий"
-              ]
+              "purple": []
             }
           },
           {
@@ -13908,9 +13262,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "тихий"
-              ]
+              "purple": []
             }
           },
           {
@@ -13921,17 +13273,13 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "тихий"
-              ]
+              "purple": []
             }
           }
         ],
         "tip": [
           {
-            "purple": [
-              "тихий"
-            ]
+            "purple": []
           }
         ],
         "important": [
@@ -14058,13 +13406,9 @@ const A1_WORDS = [
             "legen"
           ],
           "purple": [
-            "бути розташованим",
-            "спати",
-            "покласти вниз"
+            "спати"
           ],
-          "yellow": [
-            "справа"
-          ]
+          "yellow": []
         },
         "examples": [
           {
@@ -14078,12 +13422,9 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "знаходиться"
-              ],
+              "purple": [],
               "yellow": [
-                "книга",
-                "стіл"
+                "книга"
               ]
             }
           },
@@ -14098,9 +13439,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "знаходиться"
-              ],
+              "purple": [],
               "yellow": [
                 "телефон",
                 "в машині"
@@ -14120,9 +13459,7 @@ const A1_WORDS = [
               "purple": [
                 "спить"
               ],
-              "green": [
-                "в ліжку"
-              ]
+              "green": []
             }
           },
           {
@@ -14136,11 +13473,9 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "red": [
-                "Я поставив його"
-              ],
+              "red": [],
               "yellow": [
-                "книга",
+                "книгу",
                 "стіл"
               ]
             }
@@ -14155,7 +13490,6 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "бути розташованим",
                 "спати"
               ]
             },
@@ -14222,12 +13556,9 @@ const A1_WORDS = [
             "blue": [
               "liegen"
             ],
-            "purple": [
-              "знаходиться на місці"
-            ],
+            "purple": [],
             "red": [
-              "legen",
-              "покласти вниз"
+              "legen"
             ]
           }
         },
@@ -14237,7 +13568,6 @@ const A1_WORDS = [
               "liegen"
             ],
             "purple": [
-              "хвороба",
               "розташування"
             ]
           },
@@ -14245,10 +13575,7 @@ const A1_WORDS = [
             "red": [
               "legen"
             ],
-            "purple": [
-              "діяльність",
-              "покласти вниз"
-            ]
+            "purple": []
           }
         ]
       }
@@ -14370,14 +13697,9 @@ const A1_WORDS = [
             "machen"
           ],
           "purple": [
-            "робити",
-            "зробити",
-            "готувати"
+            "робити"
           ],
-          "green": [
-            "діяльність",
-            "у словосполученнях"
-          ]
+          "green": []
         },
         "examples": [
           {
@@ -14388,7 +13710,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "робити"
+                "робиш"
               ]
             }
           },
@@ -14402,9 +13724,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "заповнити"
-              ],
+              "purple": [],
               "yellow": [
                 "домашнє завдання"
               ]
@@ -14420,12 +13740,8 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "ми робимо"
-              ],
-              "yellow": [
-                "піца"
-              ]
+              "purple": [],
+              "yellow": []
             }
           },
           {
@@ -14449,10 +13765,7 @@ const A1_WORDS = [
               ]
             },
             "meaning": {
-              "purple": [
-                "робити",
-                "зробити"
-              ]
+              "purple": []
             },
             "example": {
               "blue": [
@@ -14467,9 +13780,7 @@ const A1_WORDS = [
               ]
             },
             "meaning": {
-              "purple": [
-                "робити"
-              ]
+              "purple": []
             },
             "example": {
               "yellow": [
@@ -14484,9 +13795,7 @@ const A1_WORDS = [
               ]
             },
             "meaning": {
-              "purple": [
-                "на роботу"
-              ]
+              "purple": []
             },
             "example": {
               "green": [
@@ -14501,9 +13810,7 @@ const A1_WORDS = [
               ]
             },
             "meaning": {
-              "purple": [
-                "готувати"
-              ]
+              "purple": []
             },
             "example": {
               "red": [
@@ -14539,7 +13846,7 @@ const A1_WORDS = [
               "це весело"
             ],
             "red": [
-              "веселиться"
+              "весело"
             ]
           }
         ]
@@ -14618,8 +13925,7 @@ const A1_WORDS = [
           ],
           "purple": [
             "один раз",
-            "подія",
-            "справа"
+            "подія"
           ]
         },
         "examples": [
@@ -14630,9 +13936,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "перший раз"
-              ]
+              "purple": []
             }
           },
           {
@@ -14654,9 +13958,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "один раз"
-              ]
+              "purple": []
             }
           },
           {
@@ -14666,9 +13968,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "один раз"
-              ]
+              "purple": []
             }
           }
         ],
@@ -14678,8 +13978,7 @@ const A1_WORDS = [
             "mal"
           ],
           "purple": [
-            "іменник",
-            "частинка"
+            "іменник"
           ]
         },
         "important": [
@@ -14823,9 +14122,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "чоловічий"
-              ]
+              "purple": []
             }
           },
           {
@@ -15062,8 +14359,7 @@ const A1_WORDS = [
             "mit dir"
           ],
           "purple": [
-            "з",
-            "разом з"
+            "з"
           ],
           "green": [
             "транспорт",
@@ -15080,9 +14376,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "з вами"
-              ]
+              "purple": []
             }
           },
           {
@@ -15104,9 +14398,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "з ручкою"
-              ]
+              "purple": []
             }
           },
           {
@@ -15116,9 +14408,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "разом з"
-              ]
+              "purple": []
             }
           }
         ],
@@ -15165,9 +14455,7 @@ const A1_WORDS = [
               ]
             },
             "meaning": {
-              "purple": [
-                "в"
-              ]
+              "purple": []
             },
             "example": {
               "green": [
@@ -15183,8 +14471,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "до",
-                "в"
+                "до"
               ]
             },
             "example": {
@@ -15211,7 +14498,7 @@ const A1_WORDS = [
               "mit"
             ],
             "purple": [
-              "давальний"
+              "давального"
             ],
             "yellow": [
               "dem Bus",
@@ -15223,9 +14510,7 @@ const A1_WORDS = [
             "blue": [
               "Kommst du mit"
             ],
-            "purple": [
-              "приходьте"
-            ]
+            "purple": []
           }
         ]
       }
@@ -15354,12 +14639,8 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "смак"
-              ],
-              "yellow": [
-                "кава"
-              ]
+              "purple": [],
+              "yellow": []
             }
           },
           {
@@ -15369,9 +14650,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "подобається"
-              ],
+              "purple": [],
               "green": [
                 "дітей"
               ]
@@ -15387,9 +14666,7 @@ const A1_WORDS = [
               "red": [
                 "хотів би"
               ],
-              "yellow": [
-                "кава"
-              ]
+              "yellow": []
             }
           }
         ],
@@ -15481,19 +14758,13 @@ const A1_WORDS = [
             "red": [
               "möchte"
             ],
-            "purple": [
-              "подобається",
-              "хотів би"
-            ]
+            "purple": []
           },
           {
             "blue": [
               "mag"
             ],
-            "purple": [
-              "смак",
-              "подобається"
-            ]
+            "purple": []
           }
         ]
       }
@@ -15580,8 +14851,7 @@ const A1_WORDS = [
             "morgen"
           ],
           "purple": [
-            "завтра",
-            "до завтра"
+            "завтра"
           ]
         },
         "examples": [
@@ -15645,9 +14915,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "завтра"
-              ]
+              "purple": []
             }
           },
           {
@@ -15658,9 +14926,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "завтра"
-              ]
+              "purple": []
             }
           }
         ],
@@ -15759,9 +15025,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "ранок"
-              ]
+              "purple": []
             }
           },
           {
@@ -15772,9 +15036,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "ранок"
-              ]
+              "purple": []
             }
           },
           {
@@ -15785,9 +15047,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "ранок"
-              ]
+              "purple": []
             }
           },
           {
@@ -15798,9 +15058,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "ранок"
-              ]
+              "purple": []
             }
           },
           {
@@ -15811,9 +15069,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "ранок"
-              ]
+              "purple": []
             }
           },
           {
@@ -15937,15 +15193,8 @@ const A1_WORDS = [
             "müssen",
             "Ich muss"
           ],
-          "purple": [
-            "слід зробити",
-            "я роблю",
-            "так, ви знаєте",
-            "ми робимо"
-          ],
-          "green": [
-            "в кінці"
-          ]
+          "purple": [],
+          "green": []
         },
         "examples": [
           {
@@ -15956,9 +15205,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "треба йти"
-              ]
+              "purple": []
             }
           },
           {
@@ -15969,9 +15216,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "треба чекати"
-              ]
+              "purple": []
             }
           },
           {
@@ -15982,9 +15227,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "треба вчитися"
-              ]
+              "purple": []
             }
           },
           {
@@ -15995,9 +15238,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "треба працювати"
-              ]
+              "purple": []
             }
           }
         ],
@@ -16009,10 +15250,7 @@ const A1_WORDS = [
               ]
             },
             "meaning": {
-              "purple": [
-                "потребувати",
-                "слід зробити"
-              ]
+              "purple": []
             },
             "example": {
               "blue": [
@@ -16028,8 +15266,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "вміти",
-                "зрозуміти"
+                "вміти"
               ]
             },
             "example": {
@@ -16078,9 +15315,7 @@ const A1_WORDS = [
             "blue": [
               "Ich muss"
             ],
-            "purple": [
-              "я роблю"
-            ]
+            "purple": []
           }
         },
         "important": [
@@ -16193,7 +15428,7 @@ const A1_WORDS = [
           ],
           "green": [
             "міст",
-            "країни",
+            "країнах",
             "час"
           ]
         },
@@ -16241,9 +15476,7 @@ const A1_WORDS = [
               "purple": [
                 "після"
               ],
-              "yellow": [
-                "прийом їжі"
-              ]
+              "yellow": []
             }
           },
           {
@@ -16253,9 +15486,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "закінчено"
-              ]
+              "purple": []
             }
           }
         ],
@@ -16286,8 +15517,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "до",
-                "в"
+                "до"
               ]
             },
             "example": {
@@ -16303,9 +15533,7 @@ const A1_WORDS = [
               ]
             },
             "meaning": {
-              "purple": [
-                "всередині"
-              ]
+              "purple": []
             },
             "example": {
               "green": [
@@ -16321,7 +15549,6 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "раніше",
                 "попереду"
               ]
             },
@@ -16348,9 +15575,7 @@ const A1_WORDS = [
             "blue": [
               "nach"
             ],
-            "red": [
-              "для всіх місць"
-            ]
+            "red": []
           },
           {
             "green": [
@@ -16480,7 +15705,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "природний"
+                "природна"
               ]
             }
           },
@@ -16503,9 +15728,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "природно"
-              ]
+              "purple": []
             }
           },
           {
@@ -16652,9 +15875,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "водіння"
-              ],
+              "purple": [],
               "yellow": [
                 "автобус"
               ]
@@ -16670,11 +15891,9 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "взяти"
-              ],
+              "purple": [],
               "yellow": [
-                "книга"
+                "книгу"
               ]
             }
           },
@@ -16692,7 +15911,7 @@ const A1_WORDS = [
                 "Я приніс"
               ],
               "yellow": [
-                "книга"
+                "книгу"
               ]
             }
           },
@@ -16706,12 +15925,8 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "red": [
-                "візьму"
-              ],
-              "green": [
-                "ви"
-              ]
+              "red": [],
+              "green": []
             }
           }
         ],
@@ -16742,8 +15957,6 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "приносити",
-                "забрати",
                 "доставити"
               ]
             },
@@ -16760,10 +15973,7 @@ const A1_WORDS = [
               ]
             },
             "meaning": {
-              "purple": [
-                "йти слідом",
-                "приносити"
-              ]
+              "purple": []
             },
             "example": {
               "yellow": [
@@ -16795,12 +16005,9 @@ const A1_WORDS = [
             "blue": [
               "nehmen"
             ],
-            "purple": [
-              "беріть собі"
-            ],
+            "purple": [],
             "red": [
-              "bringen",
-              "принести комусь"
+              "bringen"
             ]
           }
         },
@@ -16809,9 +16016,7 @@ const A1_WORDS = [
             "blue": [
               "nehme den Bus"
             ],
-            "purple": [
-              "Я подорожую автобусом"
-            ]
+            "purple": []
           },
           {
             "blue": [
@@ -16927,9 +16132,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "новий"
-              ]
+              "purple": []
             }
           },
           {
@@ -16939,9 +16142,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "новий"
-              ]
+              "purple": []
             }
           },
           {
@@ -16963,9 +16164,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "новий"
-              ]
+              "purple": []
             }
           },
           {
@@ -16975,9 +16174,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "новий"
-              ]
+              "purple": []
             }
           },
           {
@@ -16987,9 +16184,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "новий"
-              ]
+              "purple": []
             }
           }
         ],
@@ -17130,9 +16325,7 @@ const A1_WORDS = [
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "більше"
-          ],
+          "green": [],
           "purple": [
             "ще"
           ]
@@ -17270,9 +16463,7 @@ const A1_WORDS = [
             "nur",
             "nur"
           ],
-          "purple": [
-            "тільки / винятково"
-          ],
+          "purple": [],
           "green": [
             "тільки"
           ],
@@ -17293,10 +16484,18 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "тільки",
-                "тільки"
+              "purple": []
+            }
+          },
+          {
+            "de": {
+              "orange": [
+                "nur",
+                "nur"
               ]
+            },
+            "lv": {
+              "purple": []
             }
           },
           {
@@ -17321,10 +16520,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "тільки",
-                "тільки"
-              ]
+              "purple": []
             }
           },
           {
@@ -17335,37 +16531,16 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "тільки",
-                "тільки"
-              ]
-            }
-          },
-          {
-            "de": {
-              "orange": [
-                "nur",
-                "nur"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "тільки",
-                "тільки"
-              ]
+              "purple": []
             }
           }
         ],
         "tip": [
           {
-            "purple": [
-              "тільки"
-            ]
+            "purple": []
           },
           {
-            "purple": [
-              "тільки"
-            ]
+            "purple": []
           }
         ],
         "important": [
@@ -17447,8 +16622,7 @@ const A1_WORDS = [
           ],
           "purple": [
             "або",
-            "непряме питання",
-            "У прямому питанні"
+            "непряме питання"
           ],
           "green": [
             "fragen",
@@ -17465,9 +16639,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "або"
-              ]
+              "purple": []
             }
           },
           {
@@ -17477,9 +16649,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "або"
-              ]
+              "purple": []
             }
           },
           {
@@ -17489,9 +16659,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "або"
-              ]
+              "purple": []
             }
           },
           {
@@ -17501,9 +16669,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "red": [
-                "або"
-              ]
+              "red": []
             }
           }
         ],
@@ -17534,8 +16700,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "або",
-                "у виборі"
+                "або"
               ]
             },
             "example": {
@@ -17585,9 +16750,7 @@ const A1_WORDS = [
             "blue": [
               "ob"
             ],
-            "purple": [
-              "не знаю чи"
-            ],
+            "purple": [],
             "red": [
               "oder",
               "кава або чай"
@@ -17599,9 +16762,7 @@ const A1_WORDS = [
             "blue": [
               "ob"
             ],
-            "red": [
-              "факультативно або"
-            ]
+            "red": []
           },
           {
             "red": [
@@ -17689,8 +16850,7 @@ const A1_WORDS = [
           ],
           "purple": [
             "або",
-            "ми вибираємо",
-            "непряме питання"
+            "ми вибираємо"
           ]
         },
         "examples": [
@@ -17705,9 +16865,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "або"
-              ],
+              "purple": [],
               "yellow": [
                 "кава",
                 "чай"
@@ -17721,9 +16879,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "або"
-              ]
+              "purple": []
             }
           },
           {
@@ -17737,11 +16893,8 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "або"
-              ],
+              "purple": [],
               "yellow": [
-                "піца",
                 "салат"
               ]
             }
@@ -17753,9 +16906,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "чи ні"
-              ]
+              "purple": []
             }
           }
         ],
@@ -17768,8 +16919,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "або",
-                "у виборі"
+                "або"
               ]
             },
             "example": {
@@ -17838,7 +16988,7 @@ const A1_WORDS = [
             ],
             "purple": [
               "вибір",
-              "варіанти"
+              "варіантами"
             ]
           }
         },
@@ -17855,9 +17005,7 @@ const A1_WORDS = [
             "red": [
               "ob"
             ],
-            "purple": [
-              "в непрямому питанні"
-            ]
+            "purple": []
           }
         ]
       }
@@ -17999,14 +17147,12 @@ const A1_WORDS = [
             "Das passt"
           ],
           "purple": [
-            "робити ставки",
-            "влаштовувати",
-            "підходить"
+            "підходити"
           ],
           "yellow": [
             "одяг",
-            "кольори",
-            "стиль"
+            "кольорів",
+            "стилю"
           ]
         },
         "examples": [
@@ -18023,9 +17169,7 @@ const A1_WORDS = [
               "purple": [
                 "der"
               ],
-              "yellow": [
-                "Піджак"
-              ]
+              "yellow": []
             }
           },
           {
@@ -18041,9 +17185,7 @@ const A1_WORDS = [
               "purple": [
                 "der"
               ],
-              "yellow": [
-                "плаття"
-              ]
+              "yellow": []
             }
           },
           {
@@ -18085,10 +17227,7 @@ const A1_WORDS = [
               ]
             },
             "meaning": {
-              "purple": [
-                "робити ставки",
-                "влаштовувати"
-              ]
+              "purple": []
             },
             "example": {
               "blue": [
@@ -18104,7 +17243,6 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "влаштовувати",
                 "стояти"
               ]
             },
@@ -18121,9 +17259,7 @@ const A1_WORDS = [
               ]
             },
             "meaning": {
-              "purple": [
-                "підходить"
-              ]
+              "purple": []
             },
             "example": {
               "yellow": [
@@ -18171,7 +17307,7 @@ const A1_WORDS = [
           {
             "purple": [
               "час",
-              "планувати",
+              "план",
               "рішення",
               "der"
             ]
@@ -18316,15 +17452,10 @@ const A1_WORDS = [
             "prüfen"
           ],
           "purple": [
-            "спробувати",
-            "на смак",
-            "перевірити"
+            "спробувати"
           ],
           "yellow": [
-            "харчування",
-            "пити",
-            "метод",
-            "справа"
+            "метод"
           ]
         },
         "examples": [
@@ -18338,9 +17469,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "смак"
-              ],
+              "purple": [],
               "yellow": [
                 "суп"
               ]
@@ -18356,9 +17485,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "на смак"
-              ],
+              "purple": [],
               "yellow": [
                 "торт"
               ]
@@ -18374,9 +17501,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "давай спробуємо"
-              ],
+              "purple": [],
               "yellow": [
                 "метод"
               ]
@@ -18395,9 +17520,7 @@ const A1_WORDS = [
               "green": [
                 "приміряти"
               ],
-              "yellow": [
-                "піджак"
-              ]
+              "yellow": []
             }
           }
         ],
@@ -18410,8 +17533,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "спробувати",
-                "на смак"
+                "спробувати"
               ]
             },
             "example": {
@@ -18478,12 +17600,8 @@ const A1_WORDS = [
             "blue": [
               "probieren"
             ],
-            "yellow": [
-              "харчування"
-            ],
-            "purple": [
-              "на смак"
-            ]
+            "yellow": [],
+            "purple": []
           }
         },
         "important": [
@@ -18491,17 +17609,13 @@ const A1_WORDS = [
             "blue": [
               "probieren"
             ],
-            "red": [
-              "для огляду"
-            ]
+            "red": []
           },
           {
             "red": [
               "prüfen"
             ],
-            "purple": [
-              "перевірити"
-            ]
+            "purple": []
           }
         ]
       }
@@ -18627,7 +17741,7 @@ const A1_WORDS = [
             "ist"
           ],
           "purple": [
-            "однина",
+            "однині",
             "рис"
           ],
           "red": [
@@ -18764,12 +17878,8 @@ const A1_WORDS = [
           "blue": [
             "sagen"
           ],
-          "purple": [
-            "сказати"
-          ],
-          "green": [
-            "Скажіть"
-          ]
+          "purple": [],
+          "green": []
         },
         "examples": [
           {
@@ -18781,7 +17891,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "сказати"
+                "сказав"
               ]
             }
           }
@@ -18898,9 +18008,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "дивитися"
-              ]
+              "purple": []
             }
           },
           {
@@ -18912,7 +18020,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "дивитися"
+                "дивимося"
               ]
             }
           },
@@ -18924,9 +18032,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "дивитися"
-              ]
+              "purple": []
             }
           }
         ],
@@ -19195,8 +18301,7 @@ const A1_WORDS = [
             "schwimmen"
           ],
           "purple": [
-            "плавати",
-            "плавальні рухи"
+            "плавати"
           ],
           "red": [
             "baden",
@@ -19224,7 +18329,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "плавати"
+                "плаває"
               ]
             }
           },
@@ -19238,9 +18343,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "давай плавати"
-              ],
+              "purple": [],
               "green": [
                 "в басейні"
               ]
@@ -19268,7 +18371,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "плавати",
+                "плавання",
                 "рух",
                 "спорт"
               ]
@@ -19356,9 +18459,7 @@ const A1_WORDS = [
             ]
           },
           {
-            "purple": [
-              "плавати"
-            ],
+            "purple": [],
             "blue": [
               "рух"
             ],
@@ -19473,7 +18574,6 @@ const A1_WORDS = [
             "Ich sehe"
           ],
           "purple": [
-            "побачити",
             "очі"
           ],
           "red": [
@@ -19501,9 +18601,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "побачити"
-              ]
+              "purple": []
             }
           },
           {
@@ -19525,9 +18623,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "red": [
-                "давайте дивитися"
-              ]
+              "red": []
             }
           }
         ],
@@ -19574,7 +18670,6 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "подивитися на",
                 "дивитися"
               ]
             },
@@ -19634,8 +18729,7 @@ const A1_WORDS = [
               "я бачу"
             ],
             "red": [
-              "schaue",
-              "дивитися"
+              "schaue"
             ]
           }
         ]
@@ -19725,9 +18819,7 @@ const A1_WORDS = [
             "wir sind"
           ],
           "purple": [
-            "бути",
-            "розташування",
-            "характеристика"
+            "бути"
           ]
         },
         "examples": [
@@ -19750,9 +18842,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "бути"
-              ]
+              "purple": []
             }
           },
           {
@@ -19762,9 +18852,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "є"
-              ]
+              "purple": []
             }
           },
           {
@@ -19774,9 +18862,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "ми є"
-              ]
+              "purple": []
             }
           }
         ],
@@ -19857,8 +18943,7 @@ const A1_WORDS = [
               "du bist"
             ],
             "purple": [
-              "я",
-              "ти є"
+              "я"
             ]
           }
         },
@@ -19878,9 +18963,7 @@ const A1_WORDS = [
             "purple": [
               "я"
             ],
-            "red": [
-              "я буду"
-            ]
+            "red": []
           }
         ]
       }
@@ -19950,7 +19033,7 @@ const A1_WORDS = [
             "Seite"
           ],
           "purple": [
-            "сторінки",
+            "сторінка",
             "бік"
           ]
         },
@@ -19963,7 +19046,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "сторінки"
+                "сторінку"
               ]
             }
           },
@@ -19974,9 +19057,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "на боці"
-              ]
+              "purple": []
             }
           },
           {
@@ -19987,7 +19068,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "сторінки"
+                "сторінка"
               ]
             }
           },
@@ -19998,9 +19079,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "на боці"
-              ]
+              "purple": []
             }
           },
           {
@@ -20010,9 +19089,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "сторінки"
-              ]
+              "purple": []
             }
           },
           {
@@ -20022,35 +19099,30 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "на боці"
-              ]
+              "purple": []
             }
           }
         ],
         "tip": [
           {
             "blue": [
-              "сторінки"
+              "сторінка"
             ],
-            "green": [
-              "бік"
-            ]
+            "green": []
           },
           {
             "blue": [
               "Seite"
             ],
             "purple": [
-              "сторінки"
+              "сторінка"
             ]
           }
         ],
         "important": [
           {
             "purple": [
-              "сторінки",
-              "бік"
+              "сторінка"
             ]
           },
           {
@@ -20143,11 +19215,7 @@ const A1_WORDS = [
             "ich wasche mich",
             "er wäscht sich"
           ],
-          "purple": [
-            "себе",
-            "собі",
-            "сам творець"
-          ]
+          "purple": []
         },
         "examples": [
           {
@@ -20157,9 +19225,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "миє"
-              ]
+              "purple": []
             }
           },
           {
@@ -20169,9 +19235,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "Я сяду"
-              ]
+              "purple": []
             }
           },
           {
@@ -20182,7 +19246,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "щасливий"
+                "щаслива"
               ]
             }
           },
@@ -20196,9 +19260,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "red": [
-                "Я вмивався"
-              ],
+              "red": [],
               "yellow": [
                 "auto"
               ]
@@ -20214,8 +19276,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "себе",
-                "собі"
+                "себе"
               ]
             },
             "example": {
@@ -20231,10 +19292,7 @@ const A1_WORDS = [
               ]
             },
             "meaning": {
-              "purple": [
-                "мене",
-                "себе"
-              ]
+              "purple": []
             },
             "example": {
               "green": [
@@ -20249,10 +19307,7 @@ const A1_WORDS = [
               ]
             },
             "meaning": {
-              "purple": [
-                "ви",
-                "себе"
-              ]
+              "purple": []
             },
             "example": {
               "yellow": [
@@ -20283,9 +19338,7 @@ const A1_WORDS = [
             "blue": [
               "sich"
             ],
-            "purple": [
-              "дія над собою"
-            ]
+            "purple": []
           }
         },
         "important": [
@@ -20364,8 +19417,7 @@ const A1_WORDS = [
             "sicher"
           ],
           "purple": [
-            "безпечний",
-            "однозначно"
+            "безпечне"
           ]
         },
         "examples": [
@@ -20377,7 +19429,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "безпечний"
+                "безпечна"
               ]
             }
           },
@@ -20388,9 +19440,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "однозначно"
-              ]
+              "purple": []
             }
           },
           {
@@ -20400,9 +19450,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "ймовірно"
-              ]
+              "purple": []
             }
           },
           {
@@ -20413,7 +19461,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "безпечний"
+                "безпечне"
               ]
             }
           },
@@ -20445,23 +19493,16 @@ const A1_WORDS = [
         "tip": [
           {
             "blue": [
-              "безпечний"
+              "безпечно"
             ]
           },
           {
-            "green": [
-              "однозначно",
-              "ймовірно"
-            ]
+            "green": []
           }
         ],
         "important": [
           {
-            "purple": [
-              "безпечний",
-              "однозначно",
-              "ймовірно"
-            ]
+            "purple": []
           },
           {
             "green": [
@@ -20533,7 +19574,6 @@ const A1_WORDS = [
             "kochen"
           ],
           "purple": [
-            "вони",
             "її"
           ]
         },
@@ -20559,9 +19599,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "її"
-              ]
+              "purple": []
             }
           },
           {
@@ -20572,9 +19610,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "її"
-              ]
+              "purple": []
             }
           },
           {
@@ -20618,9 +19654,7 @@ const A1_WORDS = [
         ],
         "tip": [
           {
-            "purple": [
-              "вони"
-            ]
+            "purple": []
           }
         ],
         "important": [
@@ -20706,9 +19740,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "ви"
-              ]
+              "purple": []
             }
           },
           {
@@ -20719,9 +19751,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "ви"
-              ]
+              "purple": []
             }
           },
           {
@@ -20732,9 +19762,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "ви"
-              ]
+              "purple": []
             }
           },
           {
@@ -20745,9 +19773,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "ви"
-              ]
+              "purple": []
             }
           },
           {
@@ -20758,9 +19784,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "ви"
-              ]
+              "purple": []
             }
           },
           {
@@ -20896,8 +19920,7 @@ const A1_WORDS = [
             "sitzen"
           ],
           "purple": [
-            "сидіти",
-            "сидячи"
+            "сидіти"
           ],
           "red": [
             "stehen",
@@ -20912,9 +19935,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "сидячи"
-              ]
+              "purple": []
             }
           },
           {
@@ -20927,9 +19948,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "сидячи"
-              ],
+              "purple": [],
               "green": [
                 "діти"
               ]
@@ -20942,9 +19961,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "red": [
-                "стоячи"
-              ]
+              "red": []
             }
           },
           {
@@ -21004,7 +20021,7 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "спати",
-                "лежачи"
+                "лежати"
               ]
             },
             "example": {
@@ -21036,9 +20053,7 @@ const A1_WORDS = [
             "blue": [
               "sitzen"
             ],
-            "purple": [
-              "сідаючи"
-            ],
+            "purple": [],
             "red": [
               "stehen"
             ],
@@ -21052,9 +20067,7 @@ const A1_WORDS = [
             "blue": [
               "sitzen"
             ],
-            "purple": [
-              "сидіти"
-            ]
+            "purple": []
           },
           {
             "green": [
@@ -21168,7 +20181,6 @@ const A1_WORDS = [
           ],
           "purple": [
             "повинен",
-            "слід зробити",
             "приміткаs"
           ],
           "red": [
@@ -21223,9 +20235,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "red": [
-                "треба йти"
-              ]
+              "red": []
             }
           }
         ],
@@ -21255,9 +20265,7 @@ const A1_WORDS = [
               ]
             },
             "meaning": {
-              "purple": [
-                "обов'язковий"
-              ]
+              "purple": []
             },
             "example": {
               "red": [
@@ -21305,12 +20313,9 @@ const A1_WORDS = [
             "blue": [
               "sollen"
             ],
-            "purple": [
-              "каже хтось"
-            ],
+            "purple": [],
             "red": [
-              "müssen",
-              "обов'язковий"
+              "müssen"
             ]
           }
         },
@@ -21319,9 +20324,7 @@ const A1_WORDS = [
             "blue": [
               "Was soll ich machen"
             ],
-            "purple": [
-              "що мені робити"
-            ]
+            "purple": []
           },
           {
             "blue": [
@@ -21472,7 +20475,7 @@ const A1_WORDS = [
           ],
           "purple": [
             "стояти",
-            "стоячи"
+            "стояти"
           ],
           "red": [
             "sitzen",
@@ -21487,9 +20490,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "стоячи"
-              ]
+              "purple": []
             }
           },
           {
@@ -21502,9 +20503,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "стоячи"
-              ],
+              "purple": [],
               "yellow": [
                 "Стілець"
               ]
@@ -21517,9 +20516,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "red": [
-                "сидячи"
-              ]
+              "red": []
             }
           },
           {
@@ -21529,9 +20526,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "red": [
-                "знаходиться"
-              ]
+              "red": []
             }
           }
         ],
@@ -21545,7 +20540,7 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "стояти",
-                "стоячи"
+                "стояти"
               ]
             },
             "example": {
@@ -21580,7 +20575,7 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "спати",
-                "лежачи"
+                "лежати"
               ]
             },
             "example": {
@@ -21612,9 +20607,7 @@ const A1_WORDS = [
             "blue": [
               "stehen"
             ],
-            "purple": [
-              "стоячи"
-            ],
+            "purple": [],
             "red": [
               "sitzen"
             ],
@@ -21628,9 +20621,7 @@ const A1_WORDS = [
             "blue": [
               "stehen"
             ],
-            "purple": [
-              "хвороба"
-            ],
+            "purple": [],
             "green": [
               "stellen"
             ]
@@ -21917,14 +20908,11 @@ const A1_WORDS = [
             "über"
           ],
           "purple": [
-            "вище",
-            "для",
-            "закінчено"
+            "вище"
           ],
           "green": [
-            "розмова",
-            "текст",
-            "тема"
+            "розмову",
+            "текст"
           ]
         },
         "examples": [
@@ -21938,12 +20926,8 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "вище"
-              ],
-              "yellow": [
-                "стіл"
-              ]
+              "purple": [],
+              "yellow": []
             }
           },
           {
@@ -21956,9 +20940,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "для"
-              ],
+              "purple": [],
               "green": [
                 "час"
               ]
@@ -21974,12 +20956,8 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "закінчено"
-              ],
-              "yellow": [
-                "для вулиці"
-              ]
+              "purple": [],
+              "yellow": []
             }
           },
           {
@@ -21992,12 +20970,8 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "для"
-              ],
-              "yellow": [
-                "подарунок"
-              ]
+              "purple": [],
+              "yellow": []
             }
           }
         ],
@@ -22009,11 +20983,7 @@ const A1_WORDS = [
               ]
             },
             "meaning": {
-              "purple": [
-                "вище",
-                "для",
-                "закінчено"
-              ]
+              "purple": []
             },
             "example": {
               "blue": [
@@ -22062,9 +21032,7 @@ const A1_WORDS = [
               ]
             },
             "meaning": {
-              "purple": [
-                "від"
-              ]
+              "purple": []
             },
             "example": {
               "green": [
@@ -22079,8 +21047,7 @@ const A1_WORDS = [
               "über"
             ],
             "purple": [
-              "тема",
-              "вище"
+              "тема"
             ]
           }
         },
@@ -22183,10 +21150,7 @@ const A1_WORDS = [
             "um ... zu"
           ],
           "purple": [
-            "в",
-            "прибл",
-            "навколо",
-            "до"
+            "навколо"
           ],
           "green": [
             "час",
@@ -22204,9 +21168,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "о восьмій годині"
-              ]
+              "purple": []
             }
           },
           {
@@ -22219,12 +21181,8 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "прибл"
-              ],
-              "yellow": [
-                "стіл"
-              ]
+              "purple": [],
+              "yellow": []
             }
           },
           {
@@ -22237,12 +21195,8 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "прибл"
-              ],
-              "yellow": [
-                "кути"
-              ]
+              "purple": [],
+              "yellow": []
             }
           },
           {
@@ -22253,9 +21207,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "до"
-              ]
+              "purple": []
             }
           }
         ],
@@ -22268,8 +21220,6 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "в",
-                "прибл",
                 "до"
               ]
             },
@@ -22286,10 +21236,7 @@ const A1_WORDS = [
               ]
             },
             "meaning": {
-              "purple": [
-                "на день",
-                "в"
-              ]
+              "purple": []
             },
             "example": {
               "green": [
@@ -22322,9 +21269,7 @@ const A1_WORDS = [
               ]
             },
             "meaning": {
-              "purple": [
-                "для"
-              ]
+              "purple": []
             },
             "example": {
               "red": [
@@ -22348,17 +21293,13 @@ const A1_WORDS = [
             "blue": [
               "um"
             ],
-            "purple": [
-              "в"
-            ]
+            "purple": []
           },
           {
             "blue": [
               "um ... zu"
             ],
-            "purple": [
-              "до"
-            ]
+            "purple": []
           }
         ]
       }
@@ -22451,7 +21392,7 @@ const A1_WORDS = [
             "між"
           ],
           "green": [
-            "група людей"
+            "групу людей"
           ]
         },
         "examples": [
@@ -22468,9 +21409,7 @@ const A1_WORDS = [
               "purple": [
                 "під"
               ],
-              "yellow": [
-                "стіл"
-              ]
+              "yellow": []
             }
           },
           {
@@ -22486,9 +21425,7 @@ const A1_WORDS = [
               "purple": [
                 "під"
               ],
-              "yellow": [
-                "сутінки"
-              ]
+              "yellow": []
             }
           },
           {
@@ -22501,12 +21438,8 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "між ними"
-              ],
-              "green": [
-                "Друг"
-              ]
+              "purple": [],
+              "green": []
             }
           },
           {
@@ -22519,12 +21452,8 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "red": [
-                "вище"
-              ],
-              "yellow": [
-                "стіл"
-              ]
+              "red": [],
+              "yellow": []
             }
           }
         ],
@@ -22554,10 +21483,7 @@ const A1_WORDS = [
               ]
             },
             "meaning": {
-              "purple": [
-                "вище",
-                "для"
-              ]
+              "purple": []
             },
             "example": {
               "red": [
@@ -22605,9 +21531,7 @@ const A1_WORDS = [
             "blue": [
               "unter dem Tisch"
             ],
-            "purple": [
-              "під столом"
-            ]
+            "purple": []
           }
         },
         "important": [
@@ -22727,14 +21651,9 @@ const A1_WORDS = [
             "verstehen",
             "Ich verstehe"
           ],
-          "purple": [
-            "щоб зрозуміти",
-            "зрозуміти"
-          ],
+          "purple": [],
           "red": [
-            "können",
-            "зрозуміти",
-            "навчати"
+            "können"
           ]
         },
         "examples": [
@@ -22745,9 +21664,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "я розумію"
-              ]
+              "purple": []
             }
           },
           {
@@ -22757,9 +21674,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "зрозуміти"
-              ]
+              "purple": []
             }
           },
           {
@@ -22769,9 +21684,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "я не розумію"
-              ]
+              "purple": []
             }
           },
           {
@@ -22781,9 +21694,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "red": [
-                "зрозуміти"
-              ]
+              "red": []
             }
           }
         ],
@@ -22813,8 +21724,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "вміти",
-                "зрозуміти"
+                "вміти"
               ]
             },
             "example": {
@@ -22863,9 +21773,7 @@ const A1_WORDS = [
             "blue": [
               "verstehen"
             ],
-            "purple": [
-              "щоб зрозуміти"
-            ],
+            "purple": [],
             "red": [
               "können",
               "зрозуміти"
@@ -22877,9 +21785,7 @@ const A1_WORDS = [
             "blue": [
               "verstehen"
             ],
-            "red": [
-              "зрозуміти"
-            ]
+            "red": []
           },
           {
             "blue": [
@@ -23063,9 +21969,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "від ст"
-              ]
+              "purple": []
             }
           },
           {
@@ -23099,9 +22003,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "від аеропорту"
-              ]
+              "purple": []
             }
           },
           {
@@ -23123,9 +22025,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "від святкування"
-              ]
+              "purple": []
             }
           },
           {
@@ -23135,9 +22035,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "від фермера"
-              ]
+              "purple": []
             }
           },
           {
@@ -23230,8 +22128,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "до",
-                "в"
+                "до"
               ]
             },
             "example": {
@@ -23247,8 +22144,7 @@ const A1_WORDS = [
               "vom"
             ],
             "purple": [
-              "von dem",
-              "від"
+              "von dem"
             ]
           }
         },
@@ -23265,10 +22161,7 @@ const A1_WORDS = [
             ]
           },
           {
-            "purple": [
-              "від чого",
-              "звідки"
-            ]
+            "purple": []
           },
           {
             "yellow": [
@@ -23363,9 +22256,7 @@ const A1_WORDS = [
             "fünf vor acht"
           ],
           "purple": [
-            "раніше",
-            "попереду",
-            "поки"
+            "раніше"
           ],
           "green": [
             "час",
@@ -23383,12 +22274,8 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "раніше"
-              ],
-              "yellow": [
-                "прийом їжі"
-              ]
+              "purple": [],
+              "yellow": []
             }
           },
           {
@@ -23401,12 +22288,8 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "попереду"
-              ],
-              "yellow": [
-                "додому"
-              ]
+              "purple": [],
+              "yellow": []
             }
           },
           {
@@ -23416,9 +22299,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "без п'яти"
-              ]
+              "purple": []
             }
           },
           {
@@ -23434,9 +22315,7 @@ const A1_WORDS = [
               "red": [
                 "Після"
               ],
-              "yellow": [
-                "прийом їжі"
-              ]
+              "yellow": []
             }
           }
         ],
@@ -23449,7 +22328,6 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "раніше",
                 "попереду"
               ]
             },
@@ -23518,8 +22396,7 @@ const A1_WORDS = [
               "vor"
             ],
             "purple": [
-              "раніше",
-              "попереду"
+              "раніше"
             ]
           }
         },
@@ -23539,7 +22416,6 @@ const A1_WORDS = [
               "vor dem Haus"
             ],
             "purple": [
-              "перед їжею",
               "перед будинком"
             ]
           }
@@ -23600,8 +22476,8 @@ const A1_WORDS = [
         "Головна думка: was є питальним словом про речі та події - латиською мовою це що або що, залежно від частини речення.",
         "was запитує про речі, події та факти, а не про осіб.",
         "У німецькій мові was не змінюється при флексії - він завжди виглядає як was.",
-        "Якщо was є підметом речення, латиською мовою він перекладається як kas (Was ist das? = Що це?).",
-        "Якщо was є доповненням (об’єктом) дієслова, латиською мовою воно перекладається як ko (Was machst du? = Що ти робиш?).",
+        "Якщо was є підметом речення, він перекладається як що (Was ist das? = Що це?).",
+        "Якщо was є доповненням (об’єктом) дієслова, воно перекладається як що (Was machst du? = Що ти робиш?).",
         "Особи запитуються за допомогою wer (хто/хто), а не was."
       ],
       "examples": [
@@ -23722,9 +22598,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "Що"
-              ]
+              "purple": []
             }
           },
           {
@@ -23902,12 +22776,9 @@ const A1_WORDS = [
           ],
           "purple": [
             "якщо",
-            "коли",
-            "хвороба"
+            "коли"
           ],
-          "green": [
-            "в кінці"
-          ]
+          "green": []
         },
         "examples": [
           {
@@ -23956,9 +22827,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "red": [
-                "або"
-              ]
+              "red": []
             }
           }
         ],
@@ -24038,9 +22907,7 @@ const A1_WORDS = [
             "blue": [
               "wenn"
             ],
-            "purple": [
-              "хвороба"
-            ],
+            "purple": [],
             "yellow": [
               "wann",
               "коли?"
@@ -24130,8 +22997,7 @@ const A1_WORDS = [
             "wer"
           ],
           "purple": [
-            "що",
-            "ВООЗ"
+            "що"
           ],
           "green": [
             "was"
@@ -24157,9 +23023,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "Що"
-              ]
+              "purple": []
             }
           },
           {
@@ -24181,9 +23045,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "Що"
-              ]
+              "purple": []
             }
           },
           {
@@ -24193,9 +23055,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "ВООЗ"
-              ]
+              "purple": []
             }
           },
           {
@@ -24205,9 +23065,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "Що"
-              ]
+              "purple": []
             }
           },
           {
@@ -24217,9 +23075,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "ВООЗ"
-              ]
+              "purple": []
             }
           }
         ],
@@ -24353,9 +23209,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "становлення"
-              ]
+              "purple": []
             }
           },
           {
@@ -24455,8 +23309,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "робити",
-                "зробити"
+                "робити"
               ]
             },
             "example": {
@@ -24490,9 +23343,7 @@ const A1_WORDS = [
             "blue": [
               "werde"
             ],
-            "purple": [
-              "становлення"
-            ],
+            "purple": [],
             "red": [
               "bin",
               "я"
@@ -24580,9 +23431,7 @@ const A1_WORDS = [
             "Wetter",
             "Zeit"
           ],
-          "purple": [
-            "погодні умови"
-          ]
+          "purple": []
         },
         "examples": [
           {
@@ -24592,9 +23441,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "час"
-              ]
+              "purple": []
             }
           },
           {
@@ -24604,9 +23451,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "час"
-              ]
+              "purple": []
             }
           },
           {
@@ -24616,9 +23461,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "час"
-              ]
+              "purple": []
             }
           },
           {
@@ -24661,11 +23504,9 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "час"
-              ],
+              "purple": [],
               "green": [
-                "краще"
+                "краща"
               ]
             }
           }
@@ -24921,7 +23762,6 @@ const A1_WORDS = [
           },
           {
             "purple": [
-              "також",
               "як"
             ]
           }
@@ -24930,8 +23770,7 @@ const A1_WORDS = [
           {
             "purple": [
               "скільки",
-              "скільки років",
-              "як довго"
+              "скільки років"
             ]
           },
           {
@@ -24940,9 +23779,7 @@ const A1_WORDS = [
             ]
           },
           {
-            "red": [
-              "скільки ти робиш"
-            ],
+            "red": [],
             "blue": [
               "як справи"
             ]
@@ -25065,14 +23902,10 @@ const A1_WORDS = [
             "zu gehen"
           ],
           "purple": [
-            "до",
-            "в",
-            "теж",
-            "не правлять"
+            "до"
           ],
           "green": [
-            "людям",
-            "установи"
+            "установами"
           ]
         },
         "examples": [
@@ -25135,7 +23968,6 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "до",
-                "в",
                 "теж",
                 "інфінітив"
               ]
@@ -25153,9 +23985,7 @@ const A1_WORDS = [
               ]
             },
             "meaning": {
-              "purple": [
-                "до"
-              ]
+              "purple": []
             },
             "example": {
               "yellow": [
@@ -25171,7 +24001,6 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "всередині",
                 "до місця"
               ]
             },
@@ -25188,9 +24017,7 @@ const A1_WORDS = [
               ]
             },
             "meaning": {
-              "purple": [
-                "в"
-              ]
+              "purple": []
             },
             "example": {
               "red": [
@@ -25206,7 +24033,6 @@ const A1_WORDS = [
               "zu teuer"
             ],
             "purple": [
-              "до лікаря",
               "занадто дорого"
             ]
           }
@@ -25216,17 +24042,13 @@ const A1_WORDS = [
             "blue": [
               "zu"
             ],
-            "purple": [
-              "будівництво"
-            ]
+            "purple": []
           },
           {
             "blue": [
               "zu teuer"
             ],
-            "purple": [
-              "занадто дорого"
-            ],
+            "purple": [],
             "red": [
               "дорого"
             ]
@@ -25317,13 +24139,10 @@ const A1_WORDS = [
             "mit dem Zug fahren"
           ],
           "purple": [
-            "поїзд",
             "Потяг"
           ],
           "red": [
-            "марш",
-            "проект",
-            "функція"
+            "марш"
           ]
         },
         "examples": [
@@ -25358,9 +24177,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "поїзд"
-              ]
+              "purple": []
             }
           },
           {
@@ -25402,8 +24219,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "залізниця",
-                "поїзд"
+                "залізниця"
               ]
             },
             "example": {
@@ -25467,12 +24283,8 @@ const A1_WORDS = [
             ]
           },
           {
-            "red": [
-              "Найрідкісніші значення"
-            ],
-            "purple": [
-              "a1 в заголовку"
-            ]
+            "red": [],
+            "purple": []
           }
         ]
       }
@@ -25571,12 +24383,10 @@ const A1_WORDS = [
             "zu dem"
           ],
           "purple": [
-            "до",
-            "в"
+            "до"
           ],
           "green": [
-            "кому?",
-            "мета"
+            "кому?"
           ]
         },
         "examples": [
@@ -25599,9 +24409,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "до станції"
-              ]
+              "purple": []
             }
           },
           {
@@ -25635,9 +24443,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "до аеропорту"
-              ]
+              "purple": []
             }
           },
           {
@@ -25686,8 +24492,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "до",
-                "в"
+                "до"
               ]
             },
             "example": {
@@ -25723,7 +24528,6 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "до",
-                "в",
                 "теж"
               ]
             },
@@ -25796,12 +24600,9 @@ const A1_WORDS = [
           },
           {
             "purple": [
-              "до",
-              "в"
+              "до"
             ],
-            "green": [
-              "мета"
-            ]
+            "green": []
           },
           {
             "yellow": [
@@ -25950,9 +24751,7 @@ const A1_WORDS = [
             "sehe",
             "fern"
           ],
-          "purple": [
-            "дивитися телевізор"
-          ],
+          "purple": [],
           "green": [
             "das Fernsehen"
           ]
@@ -25966,9 +24765,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "дивитися телевізор"
-              ]
+              "purple": []
             }
           },
           {
@@ -25980,7 +24777,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "дивитися телевізор"
+                "дивишся телевізор"
               ]
             }
           },
@@ -25992,9 +24789,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "дивитися телевізор"
-              ]
+              "purple": []
             }
           }
         ]
@@ -26061,8 +24856,7 @@ const A1_WORDS = [
             "Fernsehen"
           ],
           "purple": [
-            "телебачення",
-            "в програмі"
+            "телебачення"
           ],
           "yellow": [
             "im Fernsehen"
@@ -26077,9 +24871,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "телебачення"
-              ]
+              "purple": []
             }
           },
           {
@@ -26090,9 +24882,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "телебачення"
-              ]
+              "purple": []
             }
           },
           {
@@ -26103,9 +24893,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "телебачення"
-              ]
+              "purple": []
             }
           },
           {
@@ -26116,9 +24904,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "телебачення"
-              ]
+              "purple": []
             }
           },
           {
@@ -26129,9 +24915,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "телебачення"
-              ]
+              "purple": []
             }
           },
           {
@@ -26142,9 +24926,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "телебачення"
-              ]
+              "purple": []
             }
           }
         ],
@@ -26379,9 +25161,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "їсти"
-              ]
+              "purple": []
             }
           },
           {
@@ -26392,9 +25172,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "їсти"
-              ]
+              "purple": []
             }
           },
           {
@@ -26405,9 +25183,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "їсти"
-              ]
+              "purple": []
             }
           },
           {
@@ -26418,9 +25194,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "їсти"
-              ]
+              "purple": []
             }
           }
         ],
@@ -26502,7 +25276,6 @@ const A1_WORDS = [
             "essen"
           ],
           "purple": [
-            "харчування",
             "їжа"
           ],
           "green": [
@@ -26519,7 +25292,52 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "харчування",
+                "їжа"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "das Essen",
+                "essen"
+              ]
+            },
+            "lv": {
+              "purple": []
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "das Essen",
+                "essen"
+              ]
+            },
+            "lv": {
+              "purple": []
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "das Essen",
+                "essen"
+              ]
+            },
+            "lv": {
+              "purple": []
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "das Essen",
+                "essen"
+              ]
+            },
+            "lv": {
+              "purple": [
                 "їжа"
               ]
             }
@@ -26533,63 +25351,6 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "харчування",
-                "їжа"
-              ]
-            }
-          },
-          {
-            "de": {
-              "yellow": [
-                "das Essen",
-                "essen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "харчування",
-                "їжа"
-              ]
-            }
-          },
-          {
-            "de": {
-              "yellow": [
-                "das Essen",
-                "essen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "харчування",
-                "їжа"
-              ]
-            }
-          },
-          {
-            "de": {
-              "yellow": [
-                "das Essen",
-                "essen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "харчування",
-                "їжа"
-              ]
-            }
-          },
-          {
-            "de": {
-              "yellow": [
-                "das Essen",
-                "essen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "харчування",
                 "їжа"
               ]
             }
@@ -26597,14 +25358,10 @@ const A1_WORDS = [
         ],
         "tip": [
           {
-            "purple": [
-              "харчування"
-            ]
+            "purple": []
           },
           {
-            "purple": [
-              "їжа"
-            ]
+            "purple": []
           }
         ],
         "important": [
@@ -26843,7 +25600,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "фрукти"
+                "фруктів"
               ]
             }
           },
@@ -26856,7 +25613,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "фрукти"
+                "фруктів"
               ]
             }
           },
@@ -26986,10 +25743,7 @@ const A1_WORDS = [
             "die Ferien",
             "ferien"
           ],
-          "purple": [
-            "свята",
-            "школа"
-          ],
+          "purple": [],
           "green": [
             "Ferien"
           ]
@@ -27003,9 +25757,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "канікули (школа)"
-              ]
+              "purple": []
             }
           },
           {
@@ -27016,9 +25768,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "канікули (школа)"
-              ]
+              "purple": []
             }
           },
           {
@@ -27029,9 +25779,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "канікули (школа)"
-              ]
+              "purple": []
             }
           },
           {
@@ -27042,9 +25790,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "канікули (школа)"
-              ]
+              "purple": []
             }
           },
           {
@@ -27055,9 +25801,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "канікули (школа)"
-              ]
+              "purple": []
             }
           },
           {
@@ -27068,17 +25812,13 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "канікули (школа)"
-              ]
+              "purple": []
             }
           }
         ],
         "tip": [
           {
-            "purple": [
-              "канікули (школа)"
-            ]
+            "purple": []
           }
         ],
         "important": [
@@ -27172,9 +25912,18 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "відпустка"
+              "purple": []
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "der Urlaub",
+                "urlaub"
               ]
+            },
+            "lv": {
+              "purple": []
             }
           },
           {
@@ -27198,9 +25947,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "відпустка"
-              ]
+              "purple": []
             }
           },
           {
@@ -27211,9 +25958,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "відпустка"
-              ]
+              "purple": []
             }
           },
           {
@@ -27224,22 +25969,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "відпустка"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "der Urlaub",
-                "urlaub"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "відпустка"
-              ]
+              "purple": []
             }
           }
         ],
@@ -27343,7 +26073,20 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "годинник"
+                "година"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "die Uhr",
+                "uhr"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "година"
               ]
             }
           },
@@ -27368,9 +26111,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "годинник"
-              ]
+              "purple": []
             }
           },
           {
@@ -27382,20 +26123,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "годинник"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "die Uhr",
-                "uhr"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "годинник"
+                "година"
               ]
             }
           },
@@ -27593,10 +26321,7 @@ const A1_WORDS = [
           "green": [
             "einmal"
           ],
-          "purple": [
-            "один раз",
-            "один раз"
-          ]
+          "purple": []
         },
         "examples": [
           {
@@ -27607,10 +26332,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "один раз",
-                "один раз"
-              ]
+              "purple": []
             }
           },
           {
@@ -27621,10 +26343,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "один раз",
-                "один раз"
-              ]
+              "purple": []
             }
           },
           {
@@ -27635,10 +26354,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "один раз",
-                "один раз"
-              ]
+              "purple": []
             }
           }
         ],
@@ -27715,9 +26431,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "знову"
-              ]
+              "purple": []
             }
           },
           {
@@ -27728,9 +26442,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "знову"
-              ]
+              "purple": []
             }
           },
           {
@@ -27741,9 +26453,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "знову"
-              ]
+              "purple": []
             }
           },
           {
@@ -27754,17 +26464,13 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "знову"
-              ]
+              "purple": []
             }
           }
         ],
         "tip": [
           {
-            "purple": [
-              "знову"
-            ]
+            "purple": []
           }
         ],
         "important": [

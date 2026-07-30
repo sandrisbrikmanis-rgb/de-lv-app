@@ -250,7 +250,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "миритися з",
       "rektion": "mit + кому?",
-      "explanation": "sich abfinden вимагали певних прийменник mit + кому?.",
+      "explanation": "sich abfinden вимагає певного прийменника mit + кому?.",
       "forms": "mit + кому?",
       "formsLabel": "Керування:",
       "sectionAccents": {
@@ -261,9 +261,7 @@ const B2_WORDS = [
           "red": [
             "mit + кому?"
           ],
-          "purple": [
-            "миритися з"
-          ]
+          "purple": []
         }
       }
     }
@@ -466,7 +464,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "відвернутися від",
       "rektion": "von + кому?",
-      "explanation": "sich abwenden вимагали певних прийменник von + кому?.",
+      "explanation": "sich abwenden вимагає певного прийменника von + кому?.",
       "forms": "von + кому?",
       "formsLabel": "Керування:",
       "sectionAccents": {
@@ -477,9 +475,7 @@ const B2_WORDS = [
           "red": [
             "von + кому?"
           ],
-          "purple": [
-            "відвернутися від"
-          ]
+          "purple": []
         }
       }
     }
@@ -923,7 +919,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "мати справу з",
       "rektion": "mit + кому?",
-      "explanation": "sich befassen вимагали певних прийменник mit + кому?.",
+      "explanation": "sich befassen вимагає певного прийменника mit + кому?.",
       "forms": "mit + кому?",
       "formsLabel": "Керування:",
       "sectionAccents": {
@@ -934,9 +930,7 @@ const B2_WORDS = [
           "red": [
             "mit + кому?"
           ],
-          "purple": [
-            "мати справу з"
-          ]
+          "purple": []
         }
       }
     }
@@ -979,7 +973,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "бути задоволеним",
       "rektion": "mit + кому?",
-      "explanation": "sich begnügen вимагали певних прийменник mit + кому?.",
+      "explanation": "sich begnügen вимагає певного прийменника mit + кому?.",
       "forms": "mit + кому?",
       "formsLabel": "Керування:",
       "sectionAccents": {
@@ -990,9 +984,7 @@ const B2_WORDS = [
           "red": [
             "mit + кому?"
           ],
-          "purple": [
-            "бути задоволеним"
-          ]
+          "purple": []
         }
       }
     }
@@ -1168,13 +1160,8 @@ const B2_WORDS = [
           "blue": [
             "sich bemächtigen"
           ],
-          "red": [
-            "+ присвійна форма"
-          ],
-          "purple": [
-            "схопити",
-            "отримати у своє володіння"
-          ]
+          "red": [],
+          "purple": []
         }
       }
     }
@@ -1252,7 +1239,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "звертатися до",
       "rektion": "auf + кого?",
-      "explanation": "sich berufen вимагали певних прийменник auf + кого?.",
+      "explanation": "sich berufen вимагає певного прийменника auf + кого?.",
       "forms": "auf + кого?",
       "formsLabel": "Керування:",
       "sectionAccents": {
@@ -1263,9 +1250,7 @@ const B2_WORDS = [
           "red": [
             "auf + кого?"
           ],
-          "purple": [
-            "звертатися до"
-          ]
+          "purple": []
         }
       }
     }
@@ -1311,7 +1296,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "обмежити себе",
       "rektion": "auf + кого?",
-      "explanation": "sich beschränken вимагали певних прийменник auf + кого?.",
+      "explanation": "sich beschränken вимагає певного прийменника auf + кого?.",
       "forms": "auf + кого?",
       "formsLabel": "Керування:",
       "sectionAccents": {
@@ -1322,9 +1307,7 @@ const B2_WORDS = [
           "red": [
             "auf + кого?"
           ],
-          "purple": [
-            "обмежити себе"
-          ]
+          "purple": []
         }
       }
     }
@@ -1414,7 +1397,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "оперувати • брати участь",
       "rektion": "in + де?",
-      "explanation": "sich betätigen вимагали певних прийменник in + де?.",
+      "explanation": "sich betätigen вимагає певного прийменника in + де?.",
       "forms": "in + де?",
       "formsLabel": "Керування:",
       "sectionAccents": {
@@ -1425,10 +1408,7 @@ const B2_WORDS = [
           "red": [
             "in + де?"
           ],
-          "purple": [
-            "оперувати",
-            "брати участь"
-          ]
+          "purple": []
         }
       }
     }
@@ -3573,7 +3553,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "впустити",
       "rektion": "auf + кого?",
-      "explanation": "sich einlassen вимагали певних прийменник auf + кого?.",
+      "explanation": "sich einlassen вимагає певного прийменника auf + кого?.",
       "forms": "auf + кого?",
       "formsLabel": "Керування:",
       "sectionAccents": {
@@ -3584,9 +3564,7 @@ const B2_WORDS = [
           "red": [
             "auf + кого?"
           ],
-          "purple": [
-            "впустити"
-          ]
+          "purple": []
         }
       }
     }
@@ -3625,7 +3603,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "запам'ятовувати",
       "rektion": "in + кого?",
-      "explanation": "sich einprägen вимагали певних прийменник in + кого?.",
+      "explanation": "sich einprägen вимагає певного прийменника in + кого?.",
       "forms": "in + кого?",
       "formsLabel": "Керування:",
       "sectionAccents": {
@@ -3636,9 +3614,7 @@ const B2_WORDS = [
           "red": [
             "in + кого?"
           ],
-          "purple": [
-            "запам'ятовувати"
-          ]
+          "purple": []
         }
       }
     }
@@ -3662,7 +3638,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "підкрастися • підкрастися",
       "rektion": "in + кого?",
-      "explanation": "sich einschleichen вимагали певних прийменник in + кого?.",
+      "explanation": "sich einschleichen вимагає певного прийменника in + кого?.",
       "forms": "in + кого?",
       "formsLabel": "Керування:",
       "sectionAccents": {
@@ -3673,10 +3649,7 @@ const B2_WORDS = [
           "red": [
             "in + кого?"
           ],
-          "purple": [
-            "підкрастися",
-            "підкрастися"
-          ]
+          "purple": []
         }
       }
     }
@@ -3697,7 +3670,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "обмежити себе",
       "rektion": "auf + кого?",
-      "explanation": "sich einschränken вимагали певних прийменник auf + кого?.",
+      "explanation": "sich einschränken вимагає певного прийменника auf + кого?.",
       "forms": "auf + кого?",
       "formsLabel": "Керування:",
       "sectionAccents": {
@@ -3708,9 +3681,7 @@ const B2_WORDS = [
           "red": [
             "auf + кого?"
           ],
-          "purple": [
-            "обмежити себе"
-          ]
+          "purple": []
         }
       }
     }
@@ -3919,7 +3890,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "бути рекомендованим",
       "rektion": "zu + кому?",
-      "explanation": "sich empfehlen вимагали певних прийменник zu + кому?.",
+      "explanation": "sich empfehlen вимагає певного прийменника zu + кому?.",
       "forms": "zu + кому?",
       "formsLabel": "Керування:",
       "sectionAccents": {
@@ -3930,9 +3901,7 @@ const B2_WORDS = [
           "red": [
             "zu + кому?"
           ],
-          "purple": [
-            "бути рекомендованим"
-          ]
+          "purple": []
         }
       }
     }
@@ -3956,7 +3925,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "злитися • бунтувати",
       "rektion": "über + кого?",
-      "explanation": "sich empören вимагали певних прийменник über + кого?.",
+      "explanation": "sich empören вимагає певного прийменника über + кого?.",
       "forms": "über + кого?",
       "formsLabel": "Керування:",
       "sectionAccents": {
@@ -3967,10 +3936,7 @@ const B2_WORDS = [
           "red": [
             "über + ko?"
           ],
-          "purple": [
-            "злитися",
-            "бунтувати"
-          ]
+          "purple": []
         }
       }
     }
@@ -4063,7 +4029,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "утримуватися від",
       "rektion": "von + кому?",
-      "explanation": "sich enthalten вимагали певних прийменник von + кому?.",
+      "explanation": "sich enthalten вимагає певного прийменника von + кому?.",
       "forms": "von + кому?",
       "formsLabel": "Керування:",
       "sectionAccents": {
@@ -4074,9 +4040,7 @@ const B2_WORDS = [
           "red": [
             "von + кому?"
           ],
-          "purple": [
-            "утримуватися від"
-          ]
+          "purple": []
         }
       }
     }
@@ -4123,13 +4087,8 @@ const B2_WORDS = [
           "blue": [
             "sich entledigen"
           ],
-          "red": [
-            "+ присвійна форма"
-          ],
-          "purple": [
-            "позбутися",
-            "позбутися"
-          ]
+          "red": [],
+          "purple": []
         }
       }
     }
@@ -4158,7 +4117,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "злитися • бунтувати",
       "rektion": "über + кого?",
-      "explanation": "sich entrüsten вимагали певних прийменник über + кого?.",
+      "explanation": "sich entrüsten вимагає певного прийменника über + кого?.",
       "forms": "über + кого?",
       "formsLabel": "Керування:",
       "sectionAccents": {
@@ -4169,10 +4128,7 @@ const B2_WORDS = [
           "red": [
             "über + ko?"
           ],
-          "purple": [
-            "злитися",
-            "заколот"
-          ]
+          "purple": []
         }
       }
     }
@@ -4204,13 +4160,8 @@ const B2_WORDS = [
           "blue": [
             "sich entsinnen"
           ],
-          "red": [
-            "+ присвійна форма"
-          ],
-          "purple": [
-            "пам'ятати",
-            "пам'ятати"
-          ]
+          "red": [],
+          "purple": []
         }
       }
     }
@@ -4329,7 +4280,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "помилувати • помилувати",
       "rektion": "über + кого?",
-      "explanation": "sich erbarmen вимагали певних прийменник über + кого?.",
+      "explanation": "sich erbarmen вимагає певного прийменника über + кого?.",
       "forms": "über + кого?",
       "formsLabel": "Керування:",
       "sectionAccents": {
@@ -4340,10 +4291,7 @@ const B2_WORDS = [
           "red": [
             "über + ko?"
           ],
-          "purple": [
-            "мати милосердя",
-            "в жалості"
-          ]
+          "purple": []
         }
       }
     }
@@ -4426,7 +4374,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "приводити • здаватися",
       "rektion": "aus + кому?",
-      "explanation": "sich ergeben вимагали певних прийменник aus + кому?.",
+      "explanation": "sich ergeben вимагає певного прийменника aus + кому?.",
       "forms": "aus + кому?",
       "formsLabel": "Керування:",
       "sectionAccents": {
@@ -4437,10 +4385,7 @@ const B2_WORDS = [
           "red": [
             "aus + кому?"
           ],
-          "purple": [
-            "слідувати",
-            "здаватися"
-          ]
+          "purple": []
         }
       }
     }
@@ -4555,7 +4500,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "упокори себе",
       "rektion": "vor + кому?",
-      "explanation": "sich erniedrigen вимагали певних прийменник vor + кому?.",
+      "explanation": "sich erniedrigen вимагає певного прийменника vor + кому?.",
       "forms": "vor + кому?",
       "formsLabel": "Керування:",
       "sectionAccents": {
@@ -4566,9 +4511,7 @@ const B2_WORDS = [
           "red": [
             "vor + кому?"
           ],
-          "purple": [
-            "упокори себе"
-          ]
+          "purple": []
         }
       }
     }
@@ -4611,7 +4554,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "турбуватися про",
       "rektion": "über + кого?",
-      "explanation": "sich erregen вимагали певних прийменник über + кого?.",
+      "explanation": "sich erregen вимагає певного прийменника über + кого?.",
       "forms": "über + кого?",
       "formsLabel": "Керування:",
       "sectionAccents": {
@@ -4622,9 +4565,7 @@ const B2_WORDS = [
           "red": [
             "über + ko?"
           ],
-          "purple": [
-            "турбуватися про"
-          ]
+          "purple": []
         }
       }
     }
@@ -4756,7 +4697,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "виявитися",
       "rektion": "als + хто?",
-      "explanation": "sich erweisen вимагали певних прийменник als + хто?.",
+      "explanation": "sich erweisen вимагає певного прийменника als + хто?.",
       "forms": "als + хто?",
       "formsLabel": "Керування:",
       "sectionAccents": {
@@ -4767,9 +4708,7 @@ const B2_WORDS = [
           "red": [
             "als + хто?"
           ],
-          "purple": [
-            "виявитися"
-          ]
+          "purple": []
         }
       }
     }
@@ -5065,7 +5004,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "схопити • отримати • стримати",
       "rektion": "an + кому?",
-      "explanation": "sich fassen вимагали певних прийменник an + кому?.",
+      "explanation": "sich fassen вимагає певного прийменника an + кому?.",
       "forms": "an + кому?",
       "formsLabel": "Керування:",
       "sectionAccents": {
@@ -5076,11 +5015,7 @@ const B2_WORDS = [
           "red": [
             "an + кому?"
           ],
-          "purple": [
-            "схопити",
-            "отримати",
-            "контролювати себе"
-          ]
+          "purple": []
         }
       }
     }
@@ -5551,7 +5486,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "пристосовуватися • підкорятися",
       "rektion": "in + кого?",
-      "explanation": "sich fügen вимагали певних прийменник in + кого?.",
+      "explanation": "sich fügen вимагає певного прийменника in + кого?.",
       "forms": "in + кого?",
       "formsLabel": "Керування:",
       "sectionAccents": {
@@ -5562,10 +5497,7 @@ const B2_WORDS = [
           "red": [
             "in + кого?"
           ],
-          "purple": [
-            "адаптуватися",
-            "підкорятися"
-          ]
+          "purple": []
         }
       }
     }
@@ -6118,7 +6050,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "соромитися",
       "rektion": "vor + кому?",
-      "explanation": "sich genieren вимагали певних прийменник vor + кому?.",
+      "explanation": "sich genieren вимагає певного прийменника vor + кому?.",
       "forms": "vor + кому?",
       "formsLabel": "Керування:",
       "sectionAccents": {
@@ -6129,9 +6061,7 @@ const B2_WORDS = [
           "red": [
             "vor + кому?"
           ],
-          "purple": [
-            "соромитися"
-          ]
+          "purple": []
         }
       }
     }
@@ -6319,7 +6249,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "щоб приєднатися",
       "rektion": "zu + кому?",
-      "explanation": "sich gesellen вимагали певних прийменник zu + кому?.",
+      "explanation": "sich gesellen вимагає певного прийменника zu + кому?.",
       "forms": "zu + кому?",
       "formsLabel": "Керування:",
       "sectionAccents": {
@@ -6330,9 +6260,7 @@ const B2_WORDS = [
           "red": [
             "zu + кому?"
           ],
-          "purple": [
-            "щоб приєднатися"
-          ]
+          "purple": []
         }
       }
     }
@@ -6372,7 +6300,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "формувати в",
       "rektion": "zu + кому?",
-      "explanation": "sich gestalten вимагали певних прийменник zu + кому?.",
+      "explanation": "sich gestalten вимагає певного прийменника zu + кому?.",
       "forms": "zu + кому?",
       "formsLabel": "Керування:",
       "sectionAccents": {
@@ -6383,9 +6311,7 @@ const B2_WORDS = [
           "red": [
             "zu + кому?"
           ],
-          "purple": [
-            "формувати в"
-          ]
+          "purple": []
         }
       }
     }
@@ -6776,7 +6702,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "боятися",
       "rektion": "vor + кому?",
-      "explanation": "sich grauen вимагали певних прийменник vor + кому?.",
+      "explanation": "sich grauen вимагає певного прийменника vor + кому?.",
       "forms": "vor + кому?",
       "formsLabel": "Керування:",
       "sectionAccents": {
@@ -6787,9 +6713,7 @@ const B2_WORDS = [
           "red": [
             "vor + кому?"
           ],
-          "purple": [
-            "боятися"
-          ]
+          "purple": []
         }
       }
     }
@@ -7142,8 +7066,7 @@ const B2_WORDS = [
           "purple": [
             "шапка",
             "капот",
-            "капот",
-            "кришка двигуна"
+            "капот"
           ],
           "green": [
             "Motorhaube",
@@ -7158,9 +7081,7 @@ const B2_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "капелюх"
-              ]
+              "purple": []
             }
           },
           {
@@ -7170,9 +7091,7 @@ const B2_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "капот"
-              ]
+              "purple": []
             }
           },
           {
@@ -7206,9 +7125,7 @@ const B2_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "екстрактор"
-              ]
+              "purple": []
             }
           },
           {
@@ -7218,9 +7135,7 @@ const B2_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "капот"
-              ]
+              "purple": []
             }
           }
         ]
@@ -7405,7 +7320,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "формувати в",
       "rektion": "zu + кому?",
-      "explanation": "sich herausbilden вимагали певних прийменник zu + кому?.",
+      "explanation": "sich herausbilden вимагає певного прийменника zu + кому?.",
       "forms": "zu + кому?",
       "formsLabel": "Керування:",
       "sectionAccents": {
@@ -7416,9 +7331,7 @@ const B2_WORDS = [
           "red": [
             "zu + кому?"
           ],
-          "purple": [
-            "формувати в"
-          ]
+          "purple": []
         }
       }
     }
@@ -7437,7 +7350,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "триматися подалі від",
       "rektion": "aus + кому?",
-      "explanation": "sich heraushalten вимагали певних прийменник aus + кому?.",
+      "explanation": "sich heraushalten вимагає певного прийменника aus + кому?.",
       "forms": "aus + кому?",
       "formsLabel": "Керування:",
       "sectionAccents": {
@@ -7448,9 +7361,7 @@ const B2_WORDS = [
           "red": [
             "aus + кому?"
           ],
-          "purple": [
-            "триматися подалі від"
-          ]
+          "purple": []
         }
       }
     }
@@ -7469,7 +7380,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "виявитися",
       "rektion": "als + хто?",
-      "explanation": "sich herausstellen вимагали певних прийменник als + хто?.",
+      "explanation": "sich herausstellen вимагає певного прийменника als + хто?.",
       "forms": "als + хто?",
       "formsLabel": "Керування:",
       "sectionAccents": {
@@ -7480,9 +7391,7 @@ const B2_WORDS = [
           "red": [
             "als + хто?"
           ],
-          "purple": [
-            "виявитися"
-          ]
+          "purple": []
         }
       }
     }
@@ -7516,7 +7425,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "виділятися",
       "rektion": "in + де?",
-      "explanation": "sich hervortun вимагали певних прийменник in + де?.",
+      "explanation": "sich hervortun вимагає певного прийменника in + де?.",
       "forms": "in + де?",
       "formsLabel": "Керування:",
       "sectionAccents": {
@@ -7527,9 +7436,7 @@ const B2_WORDS = [
           "red": [
             "in + де?"
           ],
-          "purple": [
-            "виділятися"
-          ]
+          "purple": []
         }
       }
     }
@@ -7620,10 +7527,7 @@ const B2_WORDS = [
           "red": [
             "+ кому?"
           ],
-          "purple": [
-            "здатися",
-            "здатися"
-          ]
+          "purple": []
         }
       }
     }
@@ -7780,8 +7684,7 @@ const B2_WORDS = [
             "das Hoch"
           ],
           "purple": [
-            "тост",
-            "жити"
+            "тост"
           ],
           "green": [
             "hoch"
@@ -7795,9 +7698,7 @@ const B2_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "тости"
-              ]
+              "purple": []
             }
           },
           {
@@ -7807,9 +7708,7 @@ const B2_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "жити"
-              ]
+              "purple": []
             }
           },
           {
@@ -8636,9 +8535,7 @@ const B2_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "захворювання"
-              ]
+              "purple": []
             }
           },
           {
@@ -8661,7 +8558,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "страждання"
+                "страждає"
               ]
             }
           },
@@ -8672,9 +8569,7 @@ const B2_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "захворювання"
-              ]
+              "purple": []
             }
           }
         ],
@@ -9486,9 +9381,7 @@ const B2_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "підкреслює"
-              ]
+              "purple": []
             }
           },
           {
@@ -9498,9 +9391,7 @@ const B2_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "наполегливо"
-              ]
+              "purple": []
             }
           },
           {
@@ -9522,9 +9413,7 @@ const B2_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "у перевиданні"
-              ]
+              "purple": []
             }
           },
           {
@@ -10004,7 +9893,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "спаровуватися з",
       "rektion": "mit + кому?",
-      "explanation": "sich paaren вимагали певних прийменник mit + кому?.",
+      "explanation": "sich paaren вимагає певного прийменника mit + кому?.",
       "forms": "mit + кому?",
       "formsLabel": "Керування:",
       "sectionAccents": {
@@ -10015,9 +9904,7 @@ const B2_WORDS = [
           "red": [
             "mit + кому?"
           ],
-          "purple": [
-            "спаровуватися з"
-          ]
+          "purple": []
         }
       }
     }
@@ -10660,7 +10547,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "відплатити • помститися",
       "rektion": "bei + кому?",
-      "explanation": "sich revanchieren вимагали певних прийменник bei + кому?.",
+      "explanation": "sich revanchieren вимагає певного прийменника bei + кому?.",
       "forms": "bei + кому?",
       "formsLabel": "Керування:",
       "sectionAccents": {
@@ -10671,10 +10558,7 @@ const B2_WORDS = [
           "red": [
             "bei + кому?"
           ],
-          "purple": [
-            "погасити",
-            "помститися"
-          ]
+          "purple": []
         }
       }
     }
@@ -11002,7 +10886,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "піклуватися про",
       "rektion": "um + кого?",
-      "explanation": "sich scheren вимагали певних прийменник um + кого?.",
+      "explanation": "sich scheren вимагає певного прийменника um + кого?.",
       "forms": "um + кого?",
       "formsLabel": "Керування:",
       "sectionAccents": {
@@ -11013,9 +10897,7 @@ const B2_WORDS = [
           "red": [
             "um + кого?"
           ],
-          "purple": [
-            "піклуватися про"
-          ]
+          "purple": []
         }
       }
     }
@@ -11679,8 +11561,7 @@ const B2_WORDS = [
             "sofern"
           ],
           "purple": [
-            "якщо",
-            "за умови, що"
+            "якщо"
           ],
           "red": [
             "da",
@@ -11695,9 +11576,7 @@ const B2_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "якщо"
-              ]
+              "purple": []
             }
           },
           {
@@ -11719,9 +11598,7 @@ const B2_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "за умови, що"
-              ]
+              "purple": []
             }
           },
           {
@@ -11755,9 +11632,7 @@ const B2_WORDS = [
               ]
             },
             "lv": {
-              "red": [
-                "тоді як"
-              ]
+              "red": []
             }
           }
         ],
@@ -11786,9 +11661,7 @@ const B2_WORDS = [
               "da",
               "weil"
             ],
-            "purple": [
-              "тоді як"
-            ]
+            "purple": []
           }
         ]
       }
@@ -13142,7 +13015,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "злитися з",
       "rektion": "mit + кому?",
-      "explanation": "sich vereinigen вимагали певних прийменник mit + кому?.",
+      "explanation": "sich vereinigen вимагає певного прийменника mit + кому?.",
       "forms": "mit + кому?",
       "formsLabel": "Керування:",
       "sectionAccents": {
@@ -13153,9 +13026,7 @@ const B2_WORDS = [
           "red": [
             "mit + кому?"
           ],
-          "purple": [
-            "злитися з"
-          ]
+          "purple": []
         }
       }
     }
@@ -13473,7 +13344,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "забувати • оснастити с",
       "rektion": "mit + кому?",
-      "explanation": "sich versehen вимагали певних прийменник mit + кому?.",
+      "explanation": "sich versehen вимагає певного прийменника mit + кому?.",
       "forms": "mit + кому?",
       "formsLabel": "Керування:",
       "sectionAccents": {
@@ -13484,10 +13355,7 @@ const B2_WORDS = [
           "red": [
             "mit + кому?"
           ],
-          "purple": [
-            "забути",
-            "оснастити с"
-          ]
+          "purple": []
         }
       }
     }
@@ -13526,7 +13394,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "миритися з",
       "rektion": "mit + кому?",
-      "explanation": "sich versöhnen вимагали певних прийменник mit + кому?.",
+      "explanation": "sich versöhnen вимагає певного прийменника mit + кому?.",
       "forms": "mit + кому?",
       "formsLabel": "Керування:",
       "sectionAccents": {
@@ -13537,9 +13405,7 @@ const B2_WORDS = [
           "red": [
             "mit + кому?"
           ],
-          "purple": [
-            "миритися з"
-          ]
+          "purple": []
         }
       }
     }
@@ -13578,7 +13444,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "уособлювати",
       "rektion": "als + кого?",
-      "explanation": "sich verstellen вимагали певних прийменник als + кого?.",
+      "explanation": "sich verstellen вимагає певного прийменника als + кого?.",
       "forms": "als + кого?",
       "formsLabel": "Керування:",
       "sectionAccents": {
@@ -13589,9 +13455,7 @@ const B2_WORDS = [
           "red": [
             "als + кого?"
           ],
-          "purple": [
-            "уособлювати"
-          ]
+          "purple": []
         }
       }
     }
@@ -13697,7 +13561,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "дивуватися",
       "rektion": "über + кого?",
-      "explanation": "sich verwundern вимагали певних прийменник über + кого?.",
+      "explanation": "sich verwundern вимагає певного прийменника über + кого?.",
       "forms": "über + кого?",
       "formsLabel": "Керування:",
       "sectionAccents": {
@@ -13708,9 +13572,7 @@ const B2_WORDS = [
           "red": [
             "über + ko?"
           ],
-          "purple": [
-            "дивуватися"
-          ]
+          "purple": []
         }
       }
     }
@@ -14390,10 +14252,7 @@ const B2_WORDS = [
           "red": [
             "+ кому?"
           ],
-          "purple": [
-            "чинити опір",
-            "до обличчя"
-          ]
+          "purple": []
         }
       }
     }
@@ -14621,10 +14480,7 @@ const B2_WORDS = [
             "weist",
             "zu"
           ],
-          "purple": [
-            "призначати",
-            "призначити"
-          ]
+          "purple": []
         },
         "examples": [
           {
@@ -14635,9 +14491,7 @@ const B2_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "призначає"
-              ]
+              "purple": []
             }
           },
           {
@@ -14647,9 +14501,7 @@ const B2_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "надано"
-              ]
+              "purple": []
             }
           },
           {
@@ -14659,9 +14511,7 @@ const B2_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "призначений"
-              ]
+              "purple": []
             }
           }
         ]
@@ -14736,8 +14586,7 @@ const B2_WORDS = [
             "zuwider"
           ],
           "purple": [
-            "проти",
-            "не подобається"
+            "проти"
           ],
           "green": [
             "wider"
@@ -14877,8 +14726,7 @@ const B2_WORDS = [
             "ändern"
           ],
           "purple": [
-            "змінитися",
-            "щоб виправити"
+            "змінити"
           ]
         },
         "examples": [
@@ -14891,8 +14739,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "змінитися",
-                "щоб виправити"
+                "зміню"
               ]
             }
           },
@@ -14905,8 +14752,31 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "змінитися",
-                "щоб виправити"
+                "змінити"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ändern",
+                "ändern"
+              ]
+            },
+            "lv": {
+              "purple": []
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ändern",
+                "ändern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "зміню"
               ]
             }
           },
@@ -14919,36 +14789,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "змінитися",
-                "щоб виправити"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "ändern",
-                "ändern"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "змінитися",
-                "щоб виправити"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "ändern",
-                "ändern"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "змінитися",
-                "щоб виправити"
+                "змінити"
               ]
             }
           }
@@ -14956,13 +14797,11 @@ const B2_WORDS = [
         "tip": [
           {
             "purple": [
-              "змінитися"
+              "Змінити"
             ]
           },
           {
-            "purple": [
-              "щоб виправити"
-            ]
+            "purple": []
           }
         ],
         "important": [
@@ -15035,10 +14874,7 @@ const B2_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "обміняти",
-                "замінити"
-              ]
+              "purple": []
             }
           },
           {
@@ -15049,10 +14885,7 @@ const B2_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "обміняти",
-                "замінити"
-              ]
+              "purple": []
             }
           },
           {
@@ -15063,10 +14896,7 @@ const B2_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "обміняти",
-                "замінити"
-              ]
+              "purple": []
             }
           },
           {
@@ -15077,23 +14907,16 @@ const B2_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "обміняти",
-                "замінити"
-              ]
+              "purple": []
             }
           }
         ],
         "tip": [
           {
-            "purple": [
-              "обміняти"
-            ]
+            "purple": []
           },
           {
-            "purple": [
-              "замінити"
-            ]
+            "purple": []
           }
         ],
         "important": [
@@ -15159,7 +14982,7 @@ const B2_WORDS = [
           ],
           "purple": [
             "пропонувати",
-            "надавати"
+            "надає"
           ]
         },
         "examples": [
@@ -15172,8 +14995,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "пропонувати",
-                "надавати"
+                "пропонує"
               ]
             }
           },
@@ -15186,8 +15008,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "пропонувати",
-                "надавати"
+                "пропонувати"
               ]
             }
           },
@@ -15200,8 +15021,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "пропонувати",
-                "надавати"
+                "пропонує"
               ]
             }
           },
@@ -15213,10 +15033,7 @@ const B2_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "пропонувати",
-                "надавати"
-              ]
+              "purple": []
             }
           },
           {
@@ -15227,22 +15044,17 @@ const B2_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "пропонувати",
-                "надавати"
-              ]
+              "purple": []
             }
           }
         ],
         "tip": [
           {
-            "purple": [
-              "пропонувати"
-            ]
+            "purple": []
           },
           {
             "purple": [
-              "надавати"
+              "надає"
             ]
           }
         ],
@@ -15326,9 +15138,7 @@ const B2_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "Я пропоную"
-              ]
+              "purple": []
             }
           },
           {
@@ -15351,9 +15161,7 @@ const B2_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "пропозиції"
-              ]
+              "purple": []
             }
           }
         ]
@@ -15413,8 +15221,7 @@ const B2_WORDS = [
             "fordern"
           ],
           "purple": [
-            "просити",
-            "попросити"
+            "просить"
           ]
         },
         "examples": [
@@ -15427,8 +15234,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "просити",
-                "попросити"
+                "просить"
               ]
             }
           },
@@ -15440,10 +15246,7 @@ const B2_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "просити",
-                "попросити"
-              ]
+              "purple": []
             }
           },
           {
@@ -15455,8 +15258,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "просити",
-                "попросити"
+                "просить"
               ]
             }
           },
@@ -15468,10 +15270,7 @@ const B2_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "просити",
-                "попросити"
-              ]
+              "purple": []
             }
           },
           {
@@ -15482,23 +15281,16 @@ const B2_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "просити",
-                "попросити"
-              ]
+              "purple": []
             }
           }
         ],
         "tip": [
           {
-            "purple": [
-              "просити"
-            ]
+            "purple": []
           },
           {
-            "purple": [
-              "попросити"
-            ]
+            "purple": []
           }
         ],
         "important": [
@@ -15575,10 +15367,29 @@ const B2_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "сприяти",
-                "підтримувати"
+              "purple": []
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "fördern",
+                "fördern"
               ]
+            },
+            "lv": {
+              "purple": []
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "fördern",
+                "fördern"
+              ]
+            },
+            "lv": {
+              "purple": []
             }
           },
           {
@@ -15590,36 +15401,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "сприяти",
-                "підтримувати"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "fördern",
-                "fördern"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "сприяти",
-                "підтримувати"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "fördern",
-                "fördern"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "сприяти",
-                "підтримувати"
+                "підтримує"
               ]
             }
           }
@@ -15660,9 +15442,7 @@ const B2_WORDS = [
           "blue": [
             "sich verlaufen"
           ],
-          "purple": [
-            "заблукати"
-          ],
+          "purple": [],
           "red": [
             "verlaufen"
           ]
@@ -15685,7 +15465,6 @@ const B2_WORDS = [
             "verlaufen"
           ],
           "purple": [
-            "мати місце",
             "котитися"
           ],
           "red": [
