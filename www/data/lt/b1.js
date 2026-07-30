@@ -37794,7 +37794,7 @@ const B1_WORDS = [
             },
             "example": {
               "blue": "Kürze",
-              "purple": "Īsums"
+              "purple": "Trumpumas"
             }
           },
           {
