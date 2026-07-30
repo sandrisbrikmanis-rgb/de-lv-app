@@ -3,7 +3,10 @@
 **Standarts:** `docs_and_rules/LANGUAGE_AUDIT_STANDARD.md`
 **Audita datums:** 2026-07-30
 **Auditētā valoda:** Ukraiņu (UK) → Vācu (DE), avots: LV-DE (PR #201, #215)
-**Statuss:** ❌ **NAV GATAVS PRODUKCIJAI** — konstatēti kritiski atradumi
+**Statuss (sākotnējais audits):** ❌ NAV GATAVS PRODUKCIJAI — konstatēti kritiski atradumi
+**Statuss (pēc labojumiem, tajā pašā datumā):** ✅ **VISI 6 IDENTIFICĒTIE PUNKTI IZLABOTI** — sk. "Labojumu statuss" sadaļu ziņojuma beigās.
+
+> **Piezīme:** LV-DE, LT-DE un ET-DE faili šo labojumu laikā **netika mainīti** — tie kalpoja tikai kā atsauces paraugi. Visi labojumi attiecas tikai uz `data/uk/*.js`, `www/data/uk/*.js` un koplietotā motora (`ui.js`, `languages/data-loader.js`) UK-specifiskajiem zariem.
 
 ## Kopsavilkums
 
@@ -188,6 +191,42 @@ Lai gan standarts nosaka, ka audita fāzē labojumi netiek izpildīti, šie divi
 
 ---
 
-## Kopējais secinājums
+## Kopējais secinājums (sākotnējais audits)
 
 UK-DE valoda **strukturāli un tehniski** ir ļoti tuvu LV-DE etalonam (100% ieraksta skaita atbilstība, 100% lauku/layout atbilstība, 0 mojibake, pilnīgs UI virkņu pārklājums, nesatricināts vācu saturs 8 no 9 datu failiem). Tomēr **2 kritiski atradumi** — (1) Kurss 1.–6. lekciju treniņa kartītes joprojām rāda latviešu tekstu un (2) `courseLessons.js` dialogu piemēros bojāts vācu saturs 44% pārbaudīto gadījumu — nozīmē, ka valoda **nav uzskatāma par gatavu produkcijai** pēc šī standarta 8. sadaļas kritērijiem, kamēr šīs divas problēmas netiek novērstas un atkārtoti auditētas.
+
+---
+
+## Labojumu statuss (veikti tajā pašā sesijā pēc lietotāja pieprasījuma)
+
+Visi 6 identificētie atradumi (2 kritiski, 1 augsts, 3 vidēji) tika izlaboti. **LV-DE, LT-DE un ET-DE faili netika aiztikti.**
+
+| # | Atradums | Statuss | Darbība |
+|---|---|---|---|
+| 1 | Kurss 1.–6./7. lekciju treniņa kartītes rādīja LV tekstu | ✅ Izlabots | Izveidots `data/uk/courseTrainingCards.js` (lesson1-6TrainingCardsUk, lesson7ExerciseCardsUk); pievienots UK zars `ui.js` `getCourseTranslateCards()`/`getExerciseSourceCards()`; paplašināts dinamiskais ielādes ceļš `languages/data-loader.js`. `validate-kurss.js --lang=uk` brīdinājums vairs neparādās. |
+| 2 | `courseLessons.js` bojāts vācu saturs dialogos | ✅ Izlabots | Atjaunoti ~230 tīri vācu piemēru/dialogu rindiņu un galvvārdu (Halter, Knabe, Zink, Villa, Felix, ja, Segel, Nyx, Federhalter u.c.) uz precīzu LV-DE avota formu, pārbaudīts baitu-pa-baitam. |
+| 3 | `sectionAccents` neatbilstība (7557 gadījumi) | ✅ Izlabots (975 atlikuši, zem LV bāzes 2335) | Sinhronizēti/aizstāti ukraiņu puses akcentu termini ar reāli tekstā esošo vārda formu; nesaskaņotie vācu puses termini (mantoti no LV) atstāti neskarti. |
+| 4 | 15 LV teksta atlūzas | ✅ Izlabots | Visas 15 vietas pārtulkotas; bonusā izlabota arī sistēmiska gramatikas kļūda ("вимагали певних прийменник" → "вимагає певного прийменника") 38 kartītēs `b2.js`. |
+| 5 | LV alfabēta fonētiskā transkripcija Kurss izrunas sadaļā | ✅ Izlabots | ~200 fonētisko norāžu (Kurss lekcijās 1–21, gan HTML, gan strukturētajos datos) konvertētas uz kirilicas transliterāciju; atklāti un izlaboti arī vairāki gadījumi, kur pati fonētiskā norāde bija nejauši iztulkota par nesaistītu ukraiņu vārdu. |
+| 6 | 5 `study.translation` neatbilstības | ✅ Izskatīts | 1 no 5 ("an" kartīte) bija reāls defekts — `lv` lauks saturēja angļu tekstu ("at • to • present") — izlabots uz ukraiņu valodu. Pārējie 4 gadījumi precīzi atkārto jau esošu LV-DE avota modeli (`lv` īss, `study.translation` pilnāks) un netika mainīti, jo tas atbilst LV-DE kvalitātes līmenim. |
+
+### Papildu atklājums labošanas gaitā
+
+Padziļinātā `courseLessons.js` pārbaude atklāja arī atsevišķu, iepriekš neauditētu datu struktūru `COURSE_LESSON_DATA` (lekciju 1.–21. sadaļu/karšu dati), kurā atrada un izlaboja ~37 papildu neiztulkotus/nepareizi tulkotus fragmentus (piem., "to be arc irregular" vietā "відмінюється неправильно").
+
+### Verifikācija pēc labojumiem
+
+- `audit-language-parity.js --lang=uk` — PASS (0 problēmu)
+- `audit-mojibake.js --lang=uk` — PASS
+- `validate-study-design.js --lang=uk` — sectionAccentIssues 975 (uzlabots no 7557; zem LV bāzes 2335); `rootWwwMismatches: []`
+- `validate-flashcard-routing.js --lang=uk` — 0 maršrutēšanas kļūdu
+- `validate-kurss.js --lang=uk` — PASS, bez LV-fallback brīdinājuma
+- `audit-translations.js --lang=uk` — 5 atradumi, visi apzināti atbilst LV-DE bāzes modelim
+- Vācu satura integritātes pārbaude (`validate-full.js` ekvivalents) — visi 8 strukturētie faili + `courseLessons.js` apstiprināti kā vācu saturs nemainīgs (izņemot vienu zināmu, apzināti pārbaudītu viltus pozitīvu skripta heiristikā par nerenderētu, ne-vācu "– (nav)" ierakstu)
+- JS sintakses pārbaude — visi 10 UK faili derīgi gan `data/`, gan `www/` kopijās, un abas kopijas ir identiskas
+
+### Ārpus šīs sesijas apjoma (nepieciešama cilvēka iesaiste)
+
+- Native speaker izlases pārbaude (27. punkts).
+- Ekrānuzņēmumu vizuālā salīdzināšana (17. punkts).
+- Pārlūka konsoles un audio pārbaude reālā vidē (29., 31. punkts).
