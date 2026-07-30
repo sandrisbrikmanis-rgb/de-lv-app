@@ -1,4 +1,17 @@
+#!/usr/bin/env node
+/**
+ * Verifies that ui.js's study-vs-flashcard routing decision is consistent
+ * for a given native language's data. Generalized from the LT-specific
+ * validate-lt-flashcard-routing.js per LANGUAGE_AUDIT_STANDARD.md §5.
+ *
+ * Run: node scripts/validate-flashcard-routing.js --lang=lt
+ */
 const fs = require('fs');
+const path = require('path');
+const { ROOT, parseLangArg, dataDir, fileExists } = require('./lib/audit-common');
+
+const lang = parseLangArg('lt');
+const DIR = dataDir(lang);
 
 function hasStudyFieldContent(value) {
   if (value === undefined || value === null) return false;
@@ -46,9 +59,9 @@ function shouldUseStudyRenderer(card) {
 }
 
 const files = [
-  ['data/lt/a1.js', 'A1_WORDS'], ['data/lt/a2.js', 'A2_WORDS'], ['data/lt/b1.js', 'B1_WORDS'],
-  ['data/lt/b2.js', 'B2_WORDS'], ['data/lt/c1.js', 'C1_WORDS'], ['data/lt/c2.js', 'C2_WORDS'],
-  ['data/lt/sentences.js', 'SENTENCE_ENTRIES']
+  [`${DIR}/a1.js`, 'A1_WORDS'], [`${DIR}/a2.js`, 'A2_WORDS'], [`${DIR}/b1.js`, 'B1_WORDS'],
+  [`${DIR}/b2.js`, 'B2_WORDS'], [`${DIR}/c1.js`, 'C1_WORDS'], [`${DIR}/c2.js`, 'C2_WORDS'],
+  [`${DIR}/sentences.js`, 'SENTENCE_ENTRIES']
 ];
 
 let total = 0;
@@ -58,9 +71,9 @@ let flashcardRenderer = 0;
 const flashcardExamples = [];
 
 for (const [file, varName] of files) {
-  delete global.A1_WORDS; delete global.A2_WORDS; delete global.B1_WORDS; delete global.B2_WORDS;
-  delete global.C1_WORDS; delete global.C2_WORDS; delete global.SENTENCE_ENTRIES;
-  eval(fs.readFileSync(file, 'utf8').replace(/window\./g, 'global.'));
+  if (!fileExists(file)) continue;
+  for (const name of ['A1_WORDS', 'A2_WORDS', 'B1_WORDS', 'B2_WORDS', 'C1_WORDS', 'C2_WORDS', 'SENTENCE_ENTRIES']) delete global[name];
+  eval(fs.readFileSync(path.join(ROOT, file), 'utf8').replace(/window\./g, 'global.'));
   const words = global[varName];
   if (!Array.isArray(words)) continue;
   for (const card of words) {
@@ -79,19 +92,24 @@ for (const [file, varName] of files) {
   }
 }
 
-const kino = (() => {
+// Benchmark card (any language): "Kino" is a well-known LT/LV audit case where
+// the card must render as a plain flashcard, not a minimalStudy shell.
+const kinoFile = `${DIR}/a2.js`;
+let kino = null;
+if (fileExists(kinoFile)) {
   delete global.A2_WORDS;
-  eval(fs.readFileSync('data/lt/a2.js', 'utf8').replace(/window\./g, 'global.'));
-  return global.A2_WORDS.find((w) => w.de === 'Kino');
-})();
+  eval(fs.readFileSync(path.join(ROOT, kinoFile), 'utf8').replace(/window\./g, 'global.'));
+  kino = (global.A2_WORDS || []).find((w) => w.de === 'Kino');
+}
 
 console.log(JSON.stringify({
+  lang,
   total,
   noStudy,
   studyRenderer,
   flashcardRenderer,
   flashcardExamples,
-  kinoLv: kino.lv,
-  kinoStudyTranslation: kino.study.translation,
-  kinoUsesStudyRenderer: shouldUseStudyRenderer(kino)
+  kinoLv: kino ? kino.lv : null,
+  kinoStudyTranslation: kino?.study ? kino.study.translation : null,
+  kinoUsesStudyRenderer: kino ? shouldUseStudyRenderer(kino) : null
 }, null, 2));

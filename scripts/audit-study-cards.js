@@ -3,14 +3,21 @@
  * Audit explanatory study cards against standardStudy rules in ui.js.
  * Usage:
  *   node scripts/audit-study-cards.js
+ *   node scripts/audit-study-cards.js --lang=lt
  *   node scripts/audit-study-cards.js --json > scripts/study-cards-audit-report.json
  *   node scripts/audit-study-cards.js --failures-only
+ *
+ * Defaults to --lang=lv to preserve the original script's behavior.
+ * Generalized per LANGUAGE_AUDIT_STANDARD.md §5.
  */
 const fs = require("fs");
 const path = require("path");
 const vm = require("vm");
+const { ROOT, parseLangArg, dataDir } = require("./lib/audit-common");
 
-const root = path.join(__dirname, "..");
+const root = ROOT;
+const lang = parseLangArg("lv");
+const DIR = dataDir(lang);
 const DATA_FILES = ["a1.js", "a2.js", "b1.js", "b2.js", "c1.js", "c2.js"];
 const jsonOut = process.argv.includes("--json");
 const failuresOnly = process.argv.includes("--failures-only");
@@ -27,13 +34,13 @@ const RULES = {
 };
 
 function loadWords(fileName) {
-  const filePath = path.join(root, "data", fileName);
+  const filePath = path.join(root, DIR, fileName);
   const code = fs.readFileSync(filePath, "utf8");
-  const match = code.match(/const\s+(\w+)_WORDS\s*=\s*(\[[\s\S]*\]);/);
-  if (!match) throw new Error(`Could not load ${fileName}`);
-  const sandbox = {};
-  vm.runInNewContext(`${match[1]}_WORDS = ${match[2]};`, sandbox);
-  return sandbox[`${match[1]}_WORDS`] || [];
+  const sandbox = { window: {} };
+  vm.createContext(sandbox);
+  vm.runInContext(code, sandbox);
+  const key = Object.keys(sandbox.window).find((k) => k.endsWith("_WORDS"));
+  return key ? sandbox.window[key] : [];
 }
 
 function countExplanation(study) {
@@ -120,6 +127,7 @@ function auditMinimalStudy(card, file) {
 
 const report = {
   generatedAt: new Date().toISOString(),
+  lang,
   rules: RULES,
   summary: {
     totalStudyCards: 0,
@@ -132,6 +140,7 @@ const report = {
 };
 
 for (const file of DATA_FILES) {
+  if (!fs.existsSync(path.join(root, DIR, file))) continue;
   const words = loadWords(file);
   for (const card of words) {
     if (!card.study) continue;
