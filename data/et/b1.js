@@ -257,8 +257,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "anbauen"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "anbauen"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -429,8 +435,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "angeben"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "angeben"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -641,8 +653,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "anbringen"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "anbringen"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -784,7 +802,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "võtame maha",
+                "võtame",
                 "telgi"
               ]
             }
@@ -843,8 +861,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "abbauen"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "abbauen"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -1001,8 +1025,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "abbrechen"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "abbrechen"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -1085,7 +1115,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kata kinni",
+                "palun",
                 "kook"
               ]
             }
@@ -1100,7 +1130,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "katame kinni",
+                "katame",
                 "taimed"
               ]
             }
@@ -1160,8 +1190,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "abdecken"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "abdecken"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -1351,8 +1387,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "abgehen"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "abgehen"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -1460,7 +1502,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "võtan maha",
+                "võtan",
                 "pildi"
               ]
             }
@@ -1468,45 +1510,27 @@ const B1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {
-              "green": [
-                "abhängen von"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "sõltuma millestki"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "hängen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "rippuma"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "abnehmen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "eemaldama"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           }
         ],
         "tip": {
-          "purple": [
-            "abhängen"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "abhängen"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -1624,7 +1648,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "võtke seljast",
+                "palun",
                 "mantel"
               ]
             }
@@ -1639,7 +1663,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "paneb ära",
+                "paneb",
                 "koti"
               ]
             }
@@ -1699,8 +1723,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "ablegen"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "ablegen"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -1812,7 +1842,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "võta ära",
+                "palun",
                 "prillid"
               ]
             }
@@ -1885,8 +1915,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "abnehmen"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "abnehmen"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -2064,8 +2100,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "absatz"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "absatz"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -2226,8 +2268,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "abschluss"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "abschluss"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -2374,8 +2422,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "abschnitt"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "abschnitt"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -2458,7 +2512,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pane maha",
+                "palun",
                 "seljakott"
               ]
             }
@@ -2474,7 +2528,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "laseb maha",
+                "buss",
                 "lapsed"
               ]
             }
@@ -2496,45 +2550,27 @@ const B1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {
-              "green": [
-                "absetzen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "maha panema / välja laskma / ametist tagandama"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "abstellen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "paigutama"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "entlassen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "töölt vabastama"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           }
         ],
         "tip": {
-          "purple": [
-            "absetzen"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "absetzen"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -2906,8 +2942,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "anlage"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "anlage"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -2985,7 +3027,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "lülita sisse",
+                "palun",
                 "tuli"
               ]
             }
@@ -3022,45 +3064,27 @@ const B1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {
-              "green": [
-                "anmachen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "sisse lülitama"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "ausschalten"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "välja lülitama"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "anschalten"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "sisse lülitama"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           }
         ],
         "tip": {
-          "purple": [
-            "anmachen"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "anmachen"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -3230,7 +3254,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "atendaadis",
+                "atentaadis",
                 "inimesi"
               ]
             }
@@ -3245,7 +3269,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "politsei",
-                "atendaati"
+                "atentaati"
               ]
             }
           },
@@ -3273,7 +3297,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "atendaat / teade"
+                "atentaat / teade"
               ]
             }
           },
@@ -3303,8 +3327,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "anschlag"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "anschlag"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -3397,7 +3427,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jäime maha",
+                "jäime",
                 "ühendusrongist"
               ]
             }
@@ -3454,8 +3484,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "anschluss"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "anschluss"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -3618,8 +3654,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "ansehen"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "ansehen"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -3852,8 +3894,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "antrag"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "antrag"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -4221,8 +4269,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "auftrag"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "auftrag"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -4370,8 +4424,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "aufwand"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "aufwand"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -4544,8 +4604,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "aufführen"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "aufführen"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -4676,11 +4742,11 @@ const B1_WORDS = [
             "aufhalten"
           ],
           "purple": [
-            "viibima",
-            "takistama"
+            "Põhiidee",
+            "takistamist"
           ],
           "green": [
-            "kohas"
+            "Põhiidee"
           ]
         },
         "comparison": [
@@ -4722,9 +4788,15 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "viibima",
-            "takistama"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "viibima",
+                  "takistama"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -4909,11 +4981,11 @@ const B1_WORDS = [
             "Aussicht auf"
           ],
           "purple": [
-            "väljavaated",
+            "väljavaateid",
             "vaadet"
           ],
           "yellow": [
-            "tuleviku tulemust"
+            "tuleviku tulemusele"
           ]
         },
         "comparison": [
@@ -4955,14 +5027,20 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "väljavaated",
-            "vaade"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "väljavaated",
+                  "vaade"
+                ]
+              }
+            }
           ]
         },
         "important": {
           "purple": [
-            "väljavaated"
+            "väljavaateid"
           ]
         }
       }
@@ -5132,9 +5210,15 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "hääldus",
-            "arvamustevahetus"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "hääldus",
+                  "arvamustevahetus"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -5266,62 +5350,44 @@ const B1_WORDS = [
             "ausstellen"
           ],
           "purple": [
-            "väljastada",
-            "välja panna"
+            "väljastab",
+            "Põhiidee"
           ],
           "yellow": [
-            "dokumenti",
+            "dokumendi",
             "kunsti",
-            "preces"
+            "Põhiidee"
           ]
         },
         "comparison": [
           {
-            "word": {
-              "green": [
-                "ausstellen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "väljastama / välja panema"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "zeigen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "näitama"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "ausgeben"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "väljastama / kulutama"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           }
         ],
         "tip": {
-          "purple": [
-            "väljastama",
-            "välja panema"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "väljastama",
+                  "välja panema"
+                ]
+              }
+            }
           ]
         },
         "important": {
           "purple": [
-            "ametlikult väljastama"
+            "ametlikku väljastamist"
           ]
         }
       }
@@ -5470,13 +5536,13 @@ const B1_WORDS = [
             "ausüben"
           ],
           "purple": [
-            "teostada",
-            "avaldada"
+            "Põhiidee",
+            "Põhiidee"
           ],
           "yellow": [
-            "elukutset",
+            "elukutse",
             "mõju",
-            "survet"
+            "surve"
           ]
         },
         "comparison": [
@@ -5518,11 +5584,17 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "beruf",
-            "druck",
-            "einfluss",
-            "einfluss"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "beruf",
+                  "druck",
+                  "einfluss",
+                  "einfluss"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -5730,9 +5802,15 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "väljavõte",
-            "väljakolimine"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "väljavõte",
+                  "väljakolimine"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -5984,7 +6062,7 @@ const B1_WORDS = [
                 "ehitusplatsil"
               ],
               "green": [
-                "inimeste"
+                "inimesi"
               ]
             }
           }
@@ -6038,10 +6116,16 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "ehitamine",
-            "ehitis",
-            "ehitusplatsil"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "ehitamine",
+                  "ehitis",
+                  "ehitusplatsil"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -6281,11 +6365,17 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "basseinis",
-            "vaagen",
-            "mahuti",
-            "kauss"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "basseinis",
+                  "vaagen",
+                  "mahuti",
+                  "kauss"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -6475,10 +6565,16 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "tähtis",
-            "märkimisväärne",
-            "märkimisväärselt"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "tähtis",
+                  "märkimisväärne",
+                  "märkimisväärselt"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -6603,10 +6699,10 @@ const B1_WORDS = [
             "bedienen"
           ],
           "purple": [
-            "ise võtma",
-            "end teenindama",
-            "kasutama",
-            "teenindama"
+            "Põhiidee",
+            "end teenindamist",
+            "kasutamist",
+            "teenindamist"
           ]
         },
         "comparison": [
@@ -6648,9 +6744,15 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "teenindage end ise",
-            "teenindada"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "teenindage end ise",
+                  "teenindada"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -7003,9 +7105,9 @@ const B1_WORDS = [
             "behandeln"
           ],
           "purple": [
-            "ravima",
-            "käituma",
-            "käsitlema"
+            "Põhiidee",
+            "Põhiidee",
+            "Põhiidee"
           ],
           "yellow": [
             "teema"
@@ -7054,10 +7156,16 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "ravima",
-            "käituma",
-            "käsitlema"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "ravima",
+                  "käituma",
+                  "käsitlema"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -7331,9 +7439,9 @@ const B1_WORDS = [
             "belegen"
           ],
           "purple": [
-            "hõivama",
-            "registreeruma",
-            "tõestama"
+            "Põhiidee",
+            "registreerumist",
+            "tõestamist"
           ],
           "yellow": [
             "koht",
@@ -7380,10 +7488,16 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "platz",
-            "kurs",
-            "aussage"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "platz",
+                  "kurs",
+                  "aussage"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -7546,12 +7660,12 @@ const B1_WORDS = [
             "bemerken"
           ],
           "purple": [
-            "märkama",
-            "märkima"
+            "Põhiidee",
+            "Põhiidee"
           ],
           "yellow": [
-            "silmadega",
-            "kuulmisega",
+            "silmade",
+            "kuulmise",
             "mõistusega"
           ]
         },
@@ -7594,10 +7708,16 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "viga",
-            "muutust",
-            "fakti"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "viga",
+                  "muutust",
+                  "fakti"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -7733,8 +7853,8 @@ const B1_WORDS = [
             "zu + infinitiiv"
           ],
           "purple": [
-            "pingutama",
-            "püüdlema"
+            "pingutamist",
+            "püüdlemist"
           ]
         },
         "comparison": [
@@ -7776,8 +7896,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "lösung"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "lösung"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -7937,8 +8063,8 @@ const B1_WORDS = [
             "sich beraten"
           ],
           "purple": [
-            "nõustama",
-            "arutama"
+            "nõustamist",
+            "Põhiidee"
           ]
         },
         "comparison": [
@@ -7980,10 +8106,16 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "ekspert",
-            "grupp",
-            "inimesed"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "ekspert",
+                  "grupp",
+                  "inimesed"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -8187,9 +8319,15 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "valdkond",
-            "tsoon"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "valdkond",
+                  "tsoon"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -8374,8 +8512,8 @@ const B1_WORDS = [
             "berichten"
           ],
           "purple": [
-            "teatama",
-            "jutustama"
+            "Põhiidee",
+            "jutustamist"
           ]
         },
         "comparison": [
@@ -8417,9 +8555,15 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "sündmustest",
-            "tulemustest"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "sündmustest",
+                  "tulemustest"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -8565,8 +8709,8 @@ const B1_WORDS = [
             "beruhigen"
           ],
           "purple": [
-            "rahunema",
-            "rahustama"
+            "rahunemist",
+            "rahustamist"
           ]
         },
         "comparison": [
@@ -8608,9 +8752,15 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "rahuneb",
-            "rahustad"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "rahuneb",
+                  "rahustad"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -8726,7 +8876,7 @@ const B1_WORDS = [
           "purple": [
             "kuulsust",
             "kuulsat isikut",
-            "kuulsusi"
+            "kuulsust"
           ]
         },
         "comparison": [
@@ -8768,14 +8918,20 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "kuulsus",
-            "kuulsused"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "kuulsus",
+                  "kuulsused"
+                ]
+              }
+            }
           ]
         },
         "important": {
           "purple": [
-            "kuulus isik"
+            "Kui"
           ]
         }
       }
@@ -8939,9 +9095,9 @@ const B1_WORDS = [
             "beschließen"
           ],
           "purple": [
-            "otsustama",
-            "otsust vastu võtma",
-            "lõpetama"
+            "otsustamist",
+            "Põhiidee",
+            "lõpetamist"
           ]
         },
         "comparison": [
@@ -8983,9 +9139,15 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "otsus",
-            "sulgemine"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "otsus",
+                  "sulgemine"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -9122,7 +9284,7 @@ const B1_WORDS = [
           ],
           "purple": [
             "kaebust",
-            "vaevused"
+            "vaevusi"
           ]
         },
         "comparison": [
@@ -9164,9 +9326,15 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "kaebus",
-            "vaevused"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "kaebus",
+                  "vaevused"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -9320,9 +9488,9 @@ const B1_WORDS = [
             "besorgen"
           ],
           "purple": [
-            "hankima",
-            "ostma",
-            "leidma"
+            "Põhiidee",
+            "Põhiidee",
+            "Põhiidee"
           ]
         },
         "comparison": [
@@ -9364,9 +9532,15 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "hankida",
-            "korraldada"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "hankida",
+                  "korraldada"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -9506,7 +9680,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "koosneb",
-                "inimestest"
+                "inimesest"
               ]
             }
           },
@@ -9528,8 +9702,8 @@ const B1_WORDS = [
         "explanation": {
           "blue": [
             "bestehen",
-            "bestehen aus",
-            "bestehen auf"
+            "Põhiidee",
+            "Põhiidee"
           ],
           "purple": [
             "püsib",
@@ -9577,10 +9751,16 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "sooritama",
-            "koosnema",
-            "nõudma"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "sooritama",
+                  "koosnema",
+                  "nõudma"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -9709,7 +9889,7 @@ const B1_WORDS = [
             "bestimmen"
           ],
           "purple": [
-            "määrata"
+            "määrab"
           ],
           "yellow": [
             "hinna",
@@ -9756,10 +9936,16 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "hinna",
-            "doosi",
-            "tähtaja"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "hinna",
+                  "doosi",
+                  "tähtaja"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -9997,9 +10183,15 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "ettevõte",
-            "töötab"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "ettevõte",
+                  "töötab"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -10179,7 +10371,7 @@ const B1_WORDS = [
           ],
           "purple": [
             "liigutama",
-            "liikuma"
+            "Põhiidee"
           ]
         },
         "comparison": [
@@ -10221,15 +10413,21 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "liiguta",
-            "liigu",
-            "emotsioonid"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "liiguta",
+                  "liigu",
+                  "emotsioonid"
+                ]
+              }
+            }
           ]
         },
         "important": {
           "purple": [
-            "liigutama",
+            "liigutamine",
             "liikumine"
           ]
         }
@@ -10402,9 +10600,9 @@ const B1_WORDS = [
             "sich beziehen auf"
           ],
           "purple": [
-            "saama",
-            "sisse kolima",
-            "käima"
+            "Põhiidee",
+            "Põhiidee",
+            "Põhiidee"
           ]
         },
         "comparison": [
@@ -10446,10 +10644,16 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "saama",
-            "sisse kolima",
-            "käima"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "saama",
+                  "sisse kolima",
+                  "käima"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -10781,12 +10985,12 @@ const B1_WORDS = [
             "anbieten"
           ],
           "purple": [
-            "pakkuma",
-            "andma"
+            "Põhiidee",
+            "Põhiidee"
           ],
           "yellow": [
-            "võimalust",
-            "teenust",
+            "võimaluse",
+            "teenuse",
             "hüve"
           ]
         },
@@ -10829,15 +11033,21 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "annab",
-            "pakub"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "annab",
+                  "pakub"
+                ]
+              }
+            }
           ]
         },
         "important": {
           "purple": [
-            "annab",
-            "aktiivset pakkumist"
+            "bieten",
+            "bieten"
           ]
         }
       }
@@ -10982,7 +11192,7 @@ const B1_WORDS = [
         "explanation": {
           "blue": [
             "Blase",
-            "Blasen"
+            "Blase"
           ],
           "purple": [
             "põit",
@@ -11034,10 +11244,16 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "vill",
-            "põis",
-            "mullid"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "vill",
+                  "põis",
+                  "mullid"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -11263,10 +11479,16 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "märkmik",
-            "plokk",
-            "klots"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "märkmik",
+                  "plokk",
+                  "klots"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -11439,9 +11661,15 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "ainult",
-            "paljas"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "ainult",
+                  "paljas"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -11583,7 +11811,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "täitke",
-                "ankeedi"
+                "ankeet"
               ]
             }
           }
@@ -11632,8 +11860,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "bogen"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "bogen"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -12042,9 +12276,15 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "tulekahju",
-            "kaubamärk"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "tulekahju",
+                  "kaubamärk"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -12455,9 +12695,15 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "föderatsioon",
-            "kimp"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "föderatsioon",
+                  "kimp"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -12778,8 +13024,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "dadurch"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "dadurch"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -12927,8 +13179,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "dagegen"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "dagegen"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -13081,8 +13339,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "daher"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "daher"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -13243,9 +13507,15 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "liikumine",
-            "asukoht"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "liikumine",
+                  "asukoht"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -13356,7 +13626,8 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "der Dank on nimisõna; danke on vastus; danken on tegusõna."
+        "text": "der Dank on nimisõna; danke on vastus; danken on tegusõna.",
+        "example": "Vielen Dank! = Suur tänu! Ich danke dir. = Ma tänan sind. Danke! = Aitäh!"
       },
       "sectionAccents": {
         "explanation": {
@@ -13583,7 +13854,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "tänama formaalselt"
+                "tänama"
               ]
             },
             "example": {
@@ -13781,7 +14052,7 @@ const B1_WORDS = [
             "sich erinnern an"
           ],
           "purple": [
-            "selle peale",
+            "Põhiidee",
             "selle juures"
           ]
         },
@@ -13824,10 +14095,16 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "denken an",
-            "arbeiten an",
-            "warten auf"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "denken an",
+                  "arbeiten an",
+                  "warten auf"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -13970,8 +14247,8 @@ const B1_WORDS = [
           ],
           "purple": [
             "kujutama",
-            "näitama",
-            "mängima",
+            "Põhiidee",
+            "Põhiidee",
             "ette kujutama",
             "end tutvustama"
           ]
@@ -14015,8 +14292,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "end tutvustama"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "end tutvustama"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -14090,7 +14373,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tostarp",
+                "tuli",
                 "lapsi"
               ]
             }
@@ -14118,7 +14401,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tostarp",
+                "palju",
                 "kõrged kulud"
               ]
             }
@@ -14138,7 +14421,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "tostarp / selle all"
+                "sealhulgas"
               ]
             }
           },
@@ -14168,8 +14451,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "darunter"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "darunter"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -14379,11 +14668,17 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "tisch",
-            "kosten",
-            "straße",
-            "schnee"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "tisch",
+                  "kosten",
+                  "straße",
+                  "schnee"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -14643,8 +14938,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "dienen"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "dienen"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -14942,7 +15243,7 @@ const B1_WORDS = [
             "trükkimist"
           ],
           "yellow": [
-            "Trükkimise"
+            "trükkimist"
           ]
         },
         "comparison": [
@@ -14984,15 +15285,21 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "surve all",
-            "trükkimine"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "surve all",
+                  "trükkimine"
+                ]
+              }
+            }
           ]
         },
         "important": {
           "purple": [
             "trükk",
-            "surve all"
+            "der"
           ]
         }
       }
@@ -15150,7 +15457,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kukkus läbi",
+                "kukkus",
                 "eksamil"
               ]
             }
@@ -15200,8 +15507,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "durchfall"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "durchfall"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -15359,8 +15672,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "durchführen"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "durchführen"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -15625,9 +15944,15 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "valikus",
-            "ajas"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "valikus",
+                  "ajas"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -15831,10 +16156,16 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "zimmer",
-            "stil",
-            "meinung"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "zimmer",
+                  "stil",
+                  "meinung"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -15953,7 +16284,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "murdsid sisse"
+                "vargad"
               ],
               "green": [
                 "Vargad"
@@ -16016,47 +16347,29 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {
-              "green": [
-                "einbrechen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "sisse murdma / sisse vajuma"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "eintreten"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "sisenema / saabuma"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "einstürzen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "kokku varisema"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           }
         ],
         "tip": {
-          "purple": [
-            "sisse murdma",
-            "sisse vajuma",
-            "saabuma"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "sisse murdma",
+                  "sisse vajuma",
+                  "saabuma"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -16179,45 +16492,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {
-              "green": [
-                "eindeutig"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "selge / üheselt mõistetav"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "einfach"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "lihtne"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "deutlich"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "selgelt / hästi märgatav"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           }
         ],
         "tip": {
-          "purple": [
-            "pole kahtlust"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "pole kahtlust"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -16389,8 +16684,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "jätta hea mulje"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "jätta hea mulje"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -16562,9 +16863,15 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "formaalsemat",
-            "ükskõik"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "formaalsemat",
+                  "ükskõik"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -16687,7 +16994,7 @@ const B1_WORDS = [
           ],
           "purple": [
             "ühest küljest",
-            "teisest küljest"
+            "Põhiidee"
           ],
           "red": [
             "vastandlikku poolt"
@@ -16732,9 +17039,15 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "einerseits",
-            "andererseits"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "einerseits",
+                  "andererseits"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -16911,9 +17224,15 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "sisse sõitma",
-            "välja sõitma"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "sisse sõitma",
+                  "välja sõitma"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -17000,7 +17319,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ei tule meelde"
+                "tema"
               ],
               "yellow": [
                 "nimi"
@@ -17045,45 +17364,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {
-              "green": [
-                "einfallen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "meelde tulema"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "sich erinnern"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "meenutama"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "einstürzen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "kokku varisema"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           }
         ],
         "tip": {
-          "purple": [
-            "tuleb meelde"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "tuleb meelde"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -17216,7 +17517,7 @@ const B1_WORDS = [
             "ühte värvi"
           ],
           "red": [
-            "mustrit",
+            "mustri",
             "värvide segu"
           ]
         },
@@ -17259,9 +17560,15 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "üks värv",
-            "palju värve"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "üks värv",
+                  "palju värve"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -17439,13 +17746,19 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "mida?"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "mida?"
+                ]
+              }
+            }
           ]
         },
         "important": {
           "purple": [
-            "mõju"
+            "Einfluss"
           ]
         }
       }
@@ -17555,58 +17868,40 @@ const B1_WORDS = [
             "einfügen"
           ],
           "purple": [
-            "sisestama",
-            "lisama"
+            "sisestamist",
+            "Põhiidee"
           ],
           "yellow": [
-            "tekstis",
-            "dokumendis",
-            "pildis",
-            "süsteemis"
+            "teksti",
+            "dokumenti",
+            "pilti",
+            "süsteemi"
           ]
         },
         "comparison": [
           {
-            "word": {
-              "green": [
-                "einfügen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "sisestama / lisama"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "hinzufügen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "lisama"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "einsetzen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "sisestama / kasutama"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           }
         ],
         "tip": {
-          "purple": [
-            "sisestama",
-            "sobituma"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "sisestama",
+                  "sobituma"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -17751,14 +18046,14 @@ const B1_WORDS = [
             "einführen"
           ],
           "purple": [
-            "kasutusele võtma",
-            "importima"
+            "Põhiidee",
+            "Põhiidee"
           ],
           "yellow": [
             "süsteemi",
-            "reeglit",
-            "meetodit",
-            "kaupu"
+            "reegli",
+            "meetodi",
+            "Põhiidee"
           ]
         },
         "comparison": [
@@ -17800,11 +18095,17 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "reegleid",
-            "süsteemi",
-            "meetodit",
-            "kaupu"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "reegleid",
+                  "süsteemi",
+                  "meetodit",
+                  "kaupu"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -17978,16 +18279,22 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "tekst",
-            "kursus",
-            "süsteem",
-            "reeglid"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "tekst",
+                  "kursus",
+                  "süsteem",
+                  "reeglid"
+                ]
+              }
+            }
           ]
         },
         "important": {
           "purple": [
-            "kasutuselevõtt praktikas"
+            "Ära"
           ]
         }
       }
@@ -18056,7 +18363,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pean harjuma"
+                "pean"
               ],
               "yellow": [
                 "tööga"
@@ -18160,10 +18467,16 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "töökohas",
-            "koolis",
-            "kohas"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "töökohas",
+                  "koolis",
+                  "kohas"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -18288,13 +18601,13 @@ const B1_WORDS = [
             "einhalten"
           ],
           "purple": [
-            "järgima",
-            "täpselt täitma"
+            "Põhiidee",
+            "täpselt täita"
           ],
           "yellow": [
-            "reeglit",
-            "tähtaega",
-            "lubadust",
+            "reegli",
+            "tähtaja",
+            "lubaduse",
             "distantsi"
           ]
         },
@@ -18337,11 +18650,17 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "regeln",
-            "termin",
-            "frist",
-            "abstand"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "regeln",
+                  "termin",
+                  "frist",
+                  "abstand"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -18476,12 +18795,12 @@ const B1_WORDS = [
             "iseloomulik"
           ],
           "green": [
-            "inimestele"
+            "inimeste"
           ],
           "yellow": [
-            "taimedele",
-            "loomadele",
-            "toodetele"
+            "taimede",
+            "loomade",
+            "toodete"
           ]
         },
         "comparison": [
@@ -18523,10 +18842,16 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "taimed",
-            "loomad",
-            "tooted"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "taimed",
+                  "loomad",
+                  "tooted"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -18640,7 +18965,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "üksustest"
+                "üksusest"
               ],
               "yellow": [
                 "Seade"
@@ -18700,10 +19025,16 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "õppetükk",
-            "mõõtühik",
-            "moodul"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "õppetükk",
+                  "mõõtühik",
+                  "moodul"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -18871,10 +19202,16 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "pikkus",
-            "üksus",
-            "pikkusühik"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "pikkus",
+                  "üksus",
+                  "pikkusühik"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -18991,54 +19328,36 @@ const B1_WORDS = [
             "ühesugune"
           ],
           "yellow": [
-            "reeglitele",
-            "stiilile",
-            "värvile",
-            "kujule"
+            "reeglite",
+            "stiili",
+            "värvi",
+            "Põhiidee"
           ]
         },
         "comparison": [
           {
-            "word": {
-              "green": [
-                "einheitlich"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "ühtne / ühesugune"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "einzig"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "ainus"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "gleich"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "ühesugune"
-              ]
-            }
+            "word": {},
+            "meaning": {}
           }
         ],
         "tip": {
-          "purple": [
-            "ühesugune stiil",
-            "kord"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "ühesugune stiil",
+                  "kord"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -19154,7 +19473,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jõuab järele"
+                "jooksja"
               ],
               "green": [
                 "Jooksja"
@@ -19170,9 +19489,9 @@ const B1_WORDS = [
             "einholen"
           ],
           "purple": [
-            "hankima",
-            "saama",
-            "järele jõudma"
+            "Põhiidee",
+            "Põhiidee",
+            "Põhiidee"
           ],
           "yellow": [
             "informatsiooni",
@@ -19219,11 +19538,17 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "informatsiooni",
-            "nõu",
-            "luba",
-            "jooksjale"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "informatsiooni",
+                  "nõu",
+                  "luba",
+                  "jooksjale"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -19498,9 +19823,15 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "kaasatakse",
-            "kasutatakse"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "kaasatakse",
+                  "kasutatakse"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -19667,13 +19998,13 @@ const B1_WORDS = [
             "einsetzen"
           ],
           "purple": [
-            "kasutama",
-            "kaasama",
-            "algama"
+            "kasutamist",
+            "Põhiidee",
+            "alata"
           ],
           "yellow": [
             "tehnikat",
-            "vihma",
+            "vihm",
             "valu"
           ],
           "green": [
@@ -19719,10 +20050,16 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "technik einsetzen",
-            "spieler einsetzen",
-            "regen setzt ein"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "technik einsetzen",
+                  "spieler einsetzen",
+                  "regen setzt ein"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -19868,10 +20205,10 @@ const B1_WORDS = [
             "einstellen"
           ],
           "purple": [
-            "seadistama",
-            "reguleerima",
-            "tööle võtma",
-            "lõpetama"
+            "seadistamist",
+            "reguleerimist",
+            "Põhiidee",
+            "lõpetamist"
           ],
           "green": [
             "töötajate"
@@ -19921,8 +20258,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "mitarbeiter"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "mitarbeiter"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -20119,9 +20462,15 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "ruumi",
-            "tagajärjed"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "ruumi",
+                  "tagajärjed"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -20225,7 +20574,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kolime sisse"
+                "kolime"
               ],
               "yellow": [
                 "korterisse"
@@ -20269,7 +20618,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tõmba sisse"
+                "tõmba"
               ],
               "yellow": [
                 "kõht"
@@ -20282,13 +20631,13 @@ const B1_WORDS = [
             "einziehen"
           ],
           "purple": [
-            "sisse kolima",
-            "sisse nõudma",
-            "sisse tõmbama"
+            "Põhiidee",
+            "Põhiidee",
+            "Põhiidee"
           ],
           "yellow": [
             "elukohta",
-            "makset"
+            "makse"
           ]
         },
         "comparison": [
@@ -20330,10 +20679,16 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "sisse kolima",
-            "sisse nõudma",
-            "sisse tõmbama"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "sisse kolima",
+                  "sisse nõudma",
+                  "sisse tõmbama"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -20525,7 +20880,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "võtab vastu"
+                "minister"
               ],
               "green": [
                 "Minister",
@@ -20546,7 +20901,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ei võta vastu"
+                "raadio"
               ],
               "yellow": [
                 "Raadio",
@@ -20561,13 +20916,13 @@ const B1_WORDS = [
             "bekommen"
           ],
           "purple": [
-            "vastu võtma"
+            "Põhiidee"
           ],
           "yellow": [
             "signaali"
           ],
           "green": [
-            "külalisi"
+            "külaliste"
           ]
         },
         "comparison": [
@@ -20609,8 +20964,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "vastu võtma"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "vastu võtma"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -20797,10 +21158,10 @@ const B1_WORDS = [
             "sich entfernen"
           ],
           "purple": [
-            "eemaldama",
-            "kustutama",
-            "ära viima",
-            "eemalduma"
+            "eemaldamist",
+            "kustutamist",
+            "Põhiidee",
+            "eemaldumist"
           ],
           "yellow": [
             "kohalt"
@@ -20845,9 +21206,15 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "eemaldama",
-            "eemaldub"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "eemaldama",
+                  "eemaldub"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -21043,9 +21410,15 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "sees",
-            "kaasatud"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "sees",
+                  "kaasatud"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -21181,7 +21554,7 @@ const B1_WORDS = [
             "entkommen"
           ],
           "purple": [
-            "pääsema"
+            "Põhiidee"
           ],
           "red": [
             "daativiga"
@@ -21233,8 +21606,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "õnnestus pääseda"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "õnnestus pääseda"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -21336,7 +21715,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kirjutati välja"
+                "patsient"
               ],
               "green": [
                 "Patsient"
@@ -21376,8 +21755,8 @@ const B1_WORDS = [
             "entlassen"
           ],
           "purple": [
-            "vallandama",
-            "vabastama",
+            "vallandab",
+            "vabastab",
             "vallandab",
             "kirjutab välja",
             "vabastab"
@@ -21427,8 +21806,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "vali vastavalt kohale"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "vali vastavalt kohale"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -21573,7 +21958,7 @@ const B1_WORDS = [
             "entsprechen"
           ],
           "red": [
-            "daativit",
+            "daativi",
             "dem Plan",
             "den Regeln",
             "unseren Erwartungen"
@@ -21624,8 +22009,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "millele vastab"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "millele vastab"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -21761,7 +22152,7 @@ const B1_WORDS = [
             "entstehen"
           ],
           "purple": [
-            "tekkima",
+            "Põhiidee",
             "valmib"
           ],
           "yellow": [
@@ -21809,13 +22200,19 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "kujuneb protsessi käigus"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "kujuneb protsessi käigus"
+                ]
+              }
+            }
           ]
         },
         "important": {
           "purple": [
-            "loob teadlikult"
+            "entstehen"
           ]
         }
       }
@@ -22079,15 +22476,15 @@ const B1_WORDS = [
             "erhalten"
           ],
           "purple": [
-            "saama",
-            "säilitama",
-            "hoidma"
+            "Põhiidee",
+            "säilitamine",
+            "Põhiidee"
           ],
           "yellow": [
             "kirja",
-            "sõnumit",
+            "sõnumi",
             "raha",
-            "dokumenti"
+            "dokumendi"
           ]
         },
         "comparison": [
@@ -22129,9 +22526,15 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "saama",
-            "säilitama"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "saama",
+                  "säilitama"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -22388,8 +22791,8 @@ const B1_WORDS = [
             "eröffnen"
           ],
           "purple": [
-            "avama",
-            "alustama"
+            "Põhiidee",
+            "alustamist"
           ],
           "yellow": [
             "kontot",
@@ -22437,11 +22840,17 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "kontot",
-            "näitust",
-            "istungit",
-            "ust"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "kontot",
+                  "näitust",
+                  "istungit",
+                  "ust"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -22589,8 +22998,8 @@ const B1_WORDS = [
             "erscheinen"
           ],
           "purple": [
-            "ilmuma",
-            "kohale tulema"
+            "ilmub",
+            "Põhiidee"
           ],
           "yellow": [
             "raamat",
@@ -22639,9 +23048,15 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "ilmub",
-            "ilmub kohale"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "ilmub",
+                  "ilmub kohale"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -22786,16 +23201,16 @@ const B1_WORDS = [
             "ersetzen"
           ],
           "purple": [
-            "asendama",
-            "hüvitama"
+            "asendamist",
+            "hüvitamist"
           ],
           "yellow": [
             "asja",
-            "lahendust",
+            "lahenduse",
             "Schaden"
           ],
           "green": [
-            "inimest"
+            "inimese"
           ]
         },
         "comparison": [
@@ -22837,8 +23252,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "asub teise asja asemele"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "asub teise asja asemele"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -23242,9 +23663,9 @@ const B1_WORDS = [
             "fassen"
           ],
           "purple": [
-            "haarama",
-            "hoomama",
-            "mahutama"
+            "Põhiidee",
+            "Põhiidee",
+            "mahutamist"
           ],
           "yellow": [
             "ruumide",
@@ -23290,10 +23711,16 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "haarama",
-            "hoomama",
-            "mahutab"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "haarama",
+                  "hoomama",
+                  "mahutab"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -23474,9 +23901,15 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "laisk",
-            "mäda"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "laisk",
+                  "mäda"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -23663,7 +24096,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "hoiab kinni"
+                "hoiab"
               ],
               "green": [
                 "last"
@@ -23700,7 +24133,7 @@ const B1_WORDS = [
             "fikseerimist"
           ],
           "yellow": [
-            "infot"
+            "info"
           ]
         },
         "comparison": [
@@ -23742,9 +24175,15 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "kõvasti kinni hoidma",
-            "fikseerima"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "kõvasti kinni hoidma",
+                  "fikseerima"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -23820,7 +24259,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "määrame kindlaks"
+                "määrame"
               ],
               "yellow": [
                 "tähtaja"
@@ -23838,7 +24277,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "määrati kindlaks"
+                "hind"
               ],
               "yellow": [
                 "Hind"
@@ -23869,7 +24308,7 @@ const B1_WORDS = [
             "festlegen"
           ],
           "purple": [
-            "kindlaks määrama"
+            "Põhiidee"
           ],
           "yellow": [
             "tähtaja",
@@ -23918,8 +24357,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "ette kindlaks määrama"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "ette kindlaks määrama"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -24107,12 +24552,18 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "fakti",
-            "viga",
-            "haigust",
-            "tähtaega",
-            "hinda"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "fakti",
+                  "viga",
+                  "haigust",
+                  "tähtaega",
+                  "hinda"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -24510,9 +24961,15 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "tagajärjed",
-            "osa"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "tagajärjed",
+                  "osa"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -24658,9 +25115,9 @@ const B1_WORDS = [
             "fördern"
           ],
           "purple": [
-            "edendama",
-            "toetama",
-            "kaevandama"
+            "edendamist",
+            "Põhiidee",
+            "kaevandamist"
           ],
           "green": [
             "inimese"
@@ -24668,8 +25125,8 @@ const B1_WORDS = [
           "yellow": [
             "projekti",
             "protsessi",
-            "naftat",
-            "sütt"
+            "nafta",
+            "Põhiidee"
           ]
         },
         "comparison": [
@@ -24711,9 +25168,15 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "edendab",
-            "nõuab"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "edendab",
+                  "nõuab"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -24844,7 +25307,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "sõitis minema"
+                "pärast"
               ],
               "yellow": [
                 "tüli"
@@ -24857,12 +25320,12 @@ const B1_WORDS = [
             "fortfahren"
           ],
           "purple": [
-            "jätkama",
-            "minema sõitma"
+            "Põhiidee",
+            "Põhiidee"
           ],
           "yellow": [
-            "tegevust",
-            "transporti"
+            "tegevuse",
+            "transpordiga"
           ]
         },
         "comparison": [
@@ -24904,9 +25367,15 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "jätkake",
-            "minema sõitma"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "jätkake",
+                  "minema sõitma"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -25123,8 +25592,8 @@ const B1_WORDS = [
           ],
           "purple": [
             "sööb",
-            "õgib",
-            "ahmib"
+            "Põhiidee",
+            "ahmima"
           ],
           "green": [
             "loom",
@@ -25170,8 +25639,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "jäme"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "jäme"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -25429,9 +25904,9 @@ const B1_WORDS = [
             "looma"
           ],
           "yellow": [
-            "jopel",
-            "mantlil",
-            "kotil"
+            "jope",
+            "mantli",
+            "koti"
           ]
         },
         "comparison": [
@@ -25473,8 +25948,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "vooder"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "vooder"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -25572,8 +26053,8 @@ const B1_WORDS = [
             "ganztägig"
           ],
           "purple": [
-            "kogu päeva kestev",
-            "terve päeva pikkune"
+            "Põhiidee",
+            "Põhiidee"
           ],
           "red": [
             "rund um die Uhr"
@@ -25934,9 +26415,15 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "valdkond",
-            "territoorium"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "valdkond",
+                  "territoorium"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -26635,9 +27122,15 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "inimene",
-            "expertin"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "inimene",
+                  "expertin"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -26808,8 +27301,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "negatiivne"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "negatiivne"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -26992,7 +27491,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "lülitage välja",
+                "palun",
                 "seade"
               ]
             }
@@ -27070,8 +27569,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "tehniline funktsioon"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "tehniline funktsioon"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -27342,8 +27847,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "sugu"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "sugu"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -27510,8 +28021,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "kontekst"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "kontekst"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -27739,7 +28256,7 @@ const B1_WORDS = [
             "võitu"
           ],
           "yellow": [
-            "kulude",
+            "Põhiidee",
             "Mängudes",
             "võistlustes",
             "loteriides"
@@ -27784,9 +28301,15 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "kasum",
-            "võit"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "kasum",
+                  "võit"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -27952,9 +28475,15 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "kindlasti",
-            "teatud risk"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "kindlasti",
+                  "teatud risk"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -28146,10 +28675,16 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "an die Arbeit",
-            "an die Stadt",
-            "daran"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "an die Arbeit",
+                  "an die Stadt",
+                  "daran"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -28348,10 +28883,16 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "akna",
-            "ukse",
-            "puuri"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "akna",
+                  "ukse",
+                  "puuri"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -28636,7 +29177,7 @@ const B1_WORDS = [
             "appi hakkama"
           ],
           "yellow": [
-            "käest",
+            "käega",
             "meetmetele"
           ]
         },
@@ -28679,8 +29220,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "liikumist millegi poole"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "liikumist millegi poole"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -28866,10 +29413,16 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "koht",
-            "tegevus",
-            "haarad"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "koht",
+                  "tegevus",
+                  "haarad"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -29163,8 +29716,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "artikliga"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "artikliga"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -29369,70 +29928,70 @@ const B1_WORDS = [
       "tip": "Handarbeit = käsitöö kodus; Handwerk = amet või eriala.",
       "important": "Handarbeit ei ole sama mis Handwerk. Handarbeit on töö tulemus; Handwerk on amet.",
       "sectionAccents": {
-              "explanation": {
-                      "blue": "Handarbeit",
-                      "purple": "käsitööd",
-                      "green": "Handwerk",
-                      "yellow": "ametit"
-              },
-              "examples": [
-                      {
-                              "de": {
-                                      "blue": "Handarbeit"
-                              },
-                              "lv": {
-                                      "purple": "käsitööd"
-                              }
-                      },
-                      {
-                              "de": {
-                                      "blue": "Handarbeit"
-                              },
-                              "lv": {
-                                      "purple": "käsitöö"
-                              }
-                      },
-                      {
-                              "de": {
-                                      "green": "Handwerk"
-                              },
-                              "lv": {
-                                      "yellow": "ametit"
-                              }
-                      }
-              ],
-              "comparison": [
-                      {
-                              "word": {
-                                      "blue": "die Handarbeit"
-                              },
-                              "meaning": {
-                                      "purple": "käsitöö"
-                              },
-                              "example": {
-                                      "blue": "Handarbeit"
-                              }
-                      },
-                      {
-                              "word": {
-                                      "green": "das Handwerk"
-                              },
-                              "meaning": {
-                                      "yellow": "amet"
-                              },
-                              "example": {
-                                      "green": "Handwerk"
-                              }
-                      }
-              ],
-              "tip": {
-                      "blue": "Handarbeit",
-                      "green": "Handwerk"
-              },
-              "important": {
-                      "blue": "Handarbeit",
-                      "green": "Handwerk"
-              }
+        "explanation": {
+          "blue": "Handarbeit",
+          "purple": "käsitööd",
+          "green": "Handwerk",
+          "yellow": "ametit"
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": "Handarbeit"
+            },
+            "lv": {
+              "purple": "käsitööd"
+            }
+          },
+          {
+            "de": {
+              "blue": "Handarbeit"
+            },
+            "lv": {
+              "purple": "käsitöö"
+            }
+          },
+          {
+            "de": {
+              "green": "Handwerk"
+            },
+            "lv": {
+              "yellow": "ametit"
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "blue": "die Handarbeit"
+            },
+            "meaning": {
+              "purple": "käsitöö"
+            },
+            "example": {
+              "blue": "Handarbeit"
+            }
+          },
+          {
+            "word": {
+              "green": "das Handwerk"
+            },
+            "meaning": {
+              "yellow": "amet"
+            },
+            "example": {
+              "green": "Handwerk"
+            }
+          }
+        ],
+        "tip": {
+          "blue": "Handarbeit",
+          "green": "Handwerk"
+        },
+        "important": {
+          "blue": "Handarbeit",
+          "green": "Handwerk"
+        }
       }
     }
   },
@@ -29510,7 +30069,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "peame tegutsema"
+                "peame"
               ]
             }
           },
@@ -29570,9 +30129,9 @@ const B1_WORDS = [
             "mit"
           ],
           "purple": [
-            "tegutsema",
+            "tegutsemist",
             "olla teemaks",
-            "kauplema"
+            "kaupadega"
           ],
           "yellow": [
             "kaupadega"
@@ -29617,10 +30176,16 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "mida teha",
-            "millest tekst räägib",
-            "kaubeldakse"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "mida teha",
+                  "millest tekst räägib",
+                  "kaubeldakse"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -29793,8 +30358,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "töö käigus"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "töö käigus"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -29860,70 +30431,70 @@ const B1_WORDS = [
       "tip": "Handwerk = amet; Handarbeit = käsitöö tegemine.",
       "important": "Handwerk ei ole sama mis Handarbeit. Handwerk on amet või eriala.",
       "sectionAccents": {
-              "explanation": {
-                      "blue": "Handwerk",
-                      "purple": "ametit",
-                      "green": "Handarbeit",
-                      "yellow": "käsitööd"
-              },
-              "examples": [
-                      {
-                              "de": {
-                                      "blue": "Handwerk"
-                              },
-                              "lv": {
-                                      "purple": "ametit"
-                              }
-                      },
-                      {
-                              "de": {
-                                      "blue": "Handwerk"
-                              },
-                              "lv": {
-                                      "purple": "käsitööstusel"
-                              }
-                      },
-                      {
-                              "de": {
-                                      "green": "Handarbeit"
-                              },
-                              "lv": {
-                                      "yellow": "käsitööd"
-                              }
-                      }
-              ],
-              "comparison": [
-                      {
-                              "word": {
-                                      "blue": "das Handwerk"
-                              },
-                              "meaning": {
-                                      "purple": "amet"
-                              },
-                              "example": {
-                                      "blue": "Handwerk"
-                              }
-                      },
-                      {
-                              "word": {
-                                      "green": "die Handarbeit"
-                              },
-                              "meaning": {
-                                      "yellow": "käsitöö"
-                              },
-                              "example": {
-                                      "green": "Handarbeit"
-                              }
-                      }
-              ],
-              "tip": {
-                      "blue": "Handwerk",
-                      "green": "Handarbeit"
-              },
-              "important": {
-                      "blue": "Handwerk",
-                      "green": "Handarbeit"
-              }
+        "explanation": {
+          "blue": "Handwerk",
+          "purple": "ametit",
+          "green": "Handarbeit",
+          "yellow": "käsitööd"
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": "Handwerk"
+            },
+            "lv": {
+              "purple": "ametit"
+            }
+          },
+          {
+            "de": {
+              "blue": "Handwerk"
+            },
+            "lv": {
+              "purple": "käsitööstusel"
+            }
+          },
+          {
+            "de": {
+              "green": "Handarbeit"
+            },
+            "lv": {
+              "yellow": "käsitööd"
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "blue": "das Handwerk"
+            },
+            "meaning": {
+              "purple": "amet"
+            },
+            "example": {
+              "blue": "Handwerk"
+            }
+          },
+          {
+            "word": {
+              "green": "die Handarbeit"
+            },
+            "meaning": {
+              "yellow": "käsitöö"
+            },
+            "example": {
+              "green": "Handarbeit"
+            }
+          }
+        ],
+        "tip": {
+          "blue": "Handwerk",
+          "green": "Handarbeit"
+        },
+        "important": {
+          "blue": "Handwerk",
+          "green": "Handarbeit"
+        }
       }
     }
   },
@@ -30101,9 +30672,9 @@ const B1_WORDS = [
             "schlagen"
           ],
           "purple": [
-            "lööma",
-            "raiuma",
-            "hoopi"
+            "Põhiidee",
+            "Põhiidee",
+            "hoobi"
           ],
           "red": [
             "kõnekeeles",
@@ -30149,9 +30720,15 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "löök",
-            "kao ära"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "löök",
+                  "kao ära"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -30325,9 +30902,15 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "korrastamata hunnik",
-            "korralikult virnastatud"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "korrastamata hunnik",
+                  "korralikult virnastatud"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -30612,70 +31195,70 @@ const B1_WORDS = [
       "tip": "heran = liigu lähemale; herbei = too või kutsu siia.",
       "important": "heran rõhutab lähenemist; herbei rõhutab siia kutsumist või toomist.",
       "sectionAccents": {
-              "explanation": {
-                      "blue": "heran",
-                      "purple": "lähemale",
-                      "red": "herbei",
-                      "yellow": "siia"
-              },
-              "examples": [
-                      {
-                              "de": {
-                                      "blue": "heran"
-                              },
-                              "lv": {
-                                      "purple": "lähemale"
-                              }
-                      },
-                      {
-                              "de": {
-                                      "blue": "heran"
-                              },
-                              "lv": {
-                                      "purple": "lähemale"
-                              }
-                      },
-                      {
-                              "de": {
-                                      "red": "herbei"
-                              },
-                              "lv": {
-                                      "yellow": "siia"
-                              }
-                      }
-              ],
-              "comparison": [
-                      {
-                              "word": {
-                                      "blue": "heran"
-                              },
-                              "meaning": {
-                                      "purple": "lähemale"
-                              },
-                              "example": {
-                                      "blue": "heran"
-                              }
-                      },
-                      {
-                              "word": {
-                                      "red": "herbei"
-                              },
-                              "meaning": {
-                                      "yellow": "siia"
-                              },
-                              "example": {
-                                      "red": "herbei"
-                              }
-                      }
-              ],
-              "tip": {
-                      "blue": "heran",
-                      "red": "herbei"
-              },
-              "important": {
-                      "blue": "heran",
-                      "red": "herbei"
-              }
+        "explanation": {
+          "blue": "heran",
+          "purple": "lähemale",
+          "red": "herbei",
+          "yellow": "siia"
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": "heran"
+            },
+            "lv": {
+              "purple": "lähemale"
+            }
+          },
+          {
+            "de": {
+              "blue": "heran"
+            },
+            "lv": {
+              "purple": "lähemale"
+            }
+          },
+          {
+            "de": {
+              "red": "herbei"
+            },
+            "lv": {
+              "yellow": "siia"
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "blue": "heran"
+            },
+            "meaning": {
+              "purple": "lähemale"
+            },
+            "example": {
+              "blue": "heran"
+            }
+          },
+          {
+            "word": {
+              "red": "herbei"
+            },
+            "meaning": {
+              "yellow": "siia"
+            },
+            "example": {
+              "red": "herbei"
+            }
+          }
+        ],
+        "tip": {
+          "blue": "heran",
+          "red": "herbei"
+        },
+        "important": {
+          "blue": "heran",
+          "red": "herbei"
+        }
       }
     }
   },
@@ -30804,9 +31387,9 @@ const B1_WORDS = [
             "herausgeben"
           ],
           "purple": [
-            "avaldama",
-            "väljastama",
-            "ära andma"
+            "avaldamist",
+            "väljastamist",
+            "Põhiidee"
           ],
           "yellow": [
             "raamatu",
@@ -30853,9 +31436,15 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "avaldab",
-            "väljastab"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "avaldab",
+                  "väljastab"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -30909,70 +31498,70 @@ const B1_WORDS = [
       "tip": "herbei = too või kutsu siia; heran = liigu lähemale.",
       "important": "herbei ei ole sama mis heran. herbei tähendab siia toomist või kutsumist.",
       "sectionAccents": {
-              "explanation": {
-                      "blue": "herbei",
-                      "purple": "siia",
-                      "red": "heran",
-                      "yellow": "lähemale"
-              },
-              "examples": [
-                      {
-                              "de": {
-                                      "blue": "herbei"
-                              },
-                              "lv": {
-                                      "purple": "siia"
-                              }
-                      },
-                      {
-                              "de": {
-                                      "blue": "herbei"
-                              },
-                              "lv": {
-                                      "purple": "siia"
-                              }
-                      },
-                      {
-                              "de": {
-                                      "red": "heran"
-                              },
-                              "lv": {
-                                      "yellow": "lähemale"
-                              }
-                      }
-              ],
-              "comparison": [
-                      {
-                              "word": {
-                                      "blue": "herbei"
-                              },
-                              "meaning": {
-                                      "purple": "siia"
-                              },
-                              "example": {
-                                      "blue": "herbei"
-                              }
-                      },
-                      {
-                              "word": {
-                                      "red": "heran"
-                              },
-                              "meaning": {
-                                      "yellow": "lähemale"
-                              },
-                              "example": {
-                                      "red": "heran"
-                              }
-                      }
-              ],
-              "tip": {
-                      "blue": "herbei",
-                      "red": "heran"
-              },
-              "important": {
-                      "blue": "herbei",
-                      "red": "heran"
-              }
+        "explanation": {
+          "blue": "herbei",
+          "purple": "siia",
+          "red": "heran",
+          "yellow": "lähemale"
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": "herbei"
+            },
+            "lv": {
+              "purple": "siia"
+            }
+          },
+          {
+            "de": {
+              "blue": "herbei"
+            },
+            "lv": {
+              "purple": "siia"
+            }
+          },
+          {
+            "de": {
+              "red": "heran"
+            },
+            "lv": {
+              "yellow": "lähemale"
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "blue": "herbei"
+            },
+            "meaning": {
+              "purple": "siia"
+            },
+            "example": {
+              "blue": "herbei"
+            }
+          },
+          {
+            "word": {
+              "red": "heran"
+            },
+            "meaning": {
+              "yellow": "lähemale"
+            },
+            "example": {
+              "red": "heran"
+            }
+          }
+        ],
+        "tip": {
+          "blue": "herbei",
+          "red": "heran"
+        },
+        "important": {
+          "blue": "herbei",
+          "red": "heran"
+        }
       }
     }
   },
@@ -31073,7 +31662,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kust ... pärit"
+                "kust"
               ]
             }
           },
@@ -31107,7 +31696,7 @@ const B1_WORDS = [
             "kust sa pärit oled"
           ],
           "red": [
-            "päritolust"
+            "Põhiidee"
           ]
         },
         "comparison": [
@@ -31149,8 +31738,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "siia"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "siia"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -31292,7 +31887,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "lähen välja"
+                "lähen"
               ]
             }
           },
@@ -31391,9 +31986,15 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "eemale välja",
-            "siia välja"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "eemale välja",
+                  "siia välja"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -31596,9 +32197,15 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "juhib tähelepanu",
-            "soovitab"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "juhib tähelepanu",
+                  "soovitab"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -31805,7 +32412,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "toon ära"
+                "toon"
               ],
               "green": [
                 "lapsed",
@@ -31856,15 +32463,15 @@ const B1_WORDS = [
             "abholen"
           ],
           "purple": [
-            "tooma",
-            "vedama",
-            "kaasa võtma"
+            "Põhiidee",
+            "Põhiidee",
+            "Põhiidee"
           ],
           "yellow": [
             "millegi"
           ],
           "green": [
-            "inimestega"
+            "inimeste"
           ]
         },
         "comparison": [
@@ -31906,9 +32513,15 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "minemist millegi järele",
-            "kellelegi toomist"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "minemist millegi järele",
+                  "kellelegi toomist"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -32108,7 +32721,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kuulab pealt"
+                "kuulab"
               ],
               "red": [
                 "salaja"
@@ -32167,8 +32780,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "salaja"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "salaja"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -32551,7 +33170,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "annab signaali"
+                "laev"
               ]
             }
           }
@@ -32699,9 +33318,9 @@ const B1_WORDS = [
             "sich hüten"
           ],
           "purple": [
-            "hoidma",
-            "valvama",
-            "karjatama",
+            "hoiduma",
+            "Põhiidee",
+            "karjatamist",
             "hoiduma"
           ],
           "green": [
@@ -32750,10 +33369,16 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "hoidmise",
-            "valvamise",
-            "hoiduma"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "hoidmise",
+                  "valvamise",
+                  "hoiduma"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -33140,10 +33765,16 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "linna",
-            "nädala",
-            "võimaluste"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "linna",
+                  "nädala",
+                  "võimaluste"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -33456,8 +34087,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "eksima"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "eksima"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -33610,7 +34247,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ajab taga"
+                "koer"
               ],
               "green": [
                 "Koer",
@@ -33643,11 +34280,11 @@ const B1_WORDS = [
           ],
           "purple": [
             "jahtimist",
-            "taga kihutamist",
+            "Põhiidee",
             "kiirustamist"
           ],
           "yellow": [
-            "loomi"
+            "Põhiidee"
           ],
           "green": [
             "kellelegi"
@@ -33692,8 +34329,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "eesmärki"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "eesmärki"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -33873,7 +34516,7 @@ const B1_WORDS = [
             "ajakirja"
           ],
           "green": [
-            "inimest"
+            "inimese"
           ]
         },
         "comparison": [
@@ -33915,8 +34558,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "inimest"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "inimest"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -34172,8 +34821,8 @@ const B1_WORDS = [
               "Jeesuse jünger"
             ],
             "purple": [
-              "jüngrile",
-              "järgijale"
+              "der",
+              "der"
             ]
           },
           {
@@ -34860,8 +35509,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "teine sõna"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "teine sõna"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -35082,10 +35737,16 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "puuviljas",
-            "asjas",
-            "argumendis"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "puuviljas",
+                  "asjas",
+                  "argumendis"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -35236,7 +35897,7 @@ const B1_WORDS = [
             "die Kiefer"
           ],
           "purple": [
-            "lõualuud",
+            "lõualuu",
             "mändi"
           ],
           "red": [
@@ -35282,13 +35943,19 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "artikkel"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "artikkel"
+                ]
+              }
+            }
           ]
         },
         "important": {
           "purple": [
-            "muudavad sõna tähendust"
+            "Siin"
           ]
         }
       }
@@ -35432,10 +36099,10 @@ const B1_WORDS = [
             "kippen"
           ],
           "purple": [
-            "ümber kukkumist",
+            "Põhiidee",
             "kallutamist",
             "kaldu vajumist",
-            "muutumist"
+            "Põhiidee"
           ],
           "yellow": [
             "tasakaalu",
@@ -35481,10 +36148,16 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "klaas",
-            "tool",
-            "olukord"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "klaas",
+                  "tool",
+                  "olukord"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -35650,8 +36323,8 @@ const B1_WORDS = [
           ],
           "yellow": [
             "plaani",
-            "kohtumist",
-            "lahendust"
+            "kohtumise",
+            "lahenduse"
           ]
         },
         "comparison": [
@@ -35693,8 +36366,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "õnnestub"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "õnnestub"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -35983,7 +36662,7 @@ const B1_WORDS = [
           ],
           "purple": [
             "napilt",
-            "vaevu",
+            "Põhiidee",
             "väikest ülekaalu"
           ],
           "yellow": [
@@ -36031,15 +36710,21 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "peaaegu ei jätku"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "peaaegu ei jätku"
+                ]
+              }
+            }
           ]
         },
         "important": {
           "purple": [
-            "väikest varu",
-            "puudust",
-            "väga väikest ülekaalu"
+            "väikesest varu",
+            "puudusest",
+            "väga väikesest ülekaalust"
           ]
         }
       }
@@ -36245,7 +36930,7 @@ const B1_WORDS = [
           "blue": "das Kommando",
           "purple": [
             "käsklus",
-            "komando"
+            "Kommando"
           ],
           "green": [
             "sõjaväelises",
@@ -36764,7 +37449,7 @@ const B1_WORDS = [
           ],
           "purple": [
             "elektrijaam",
-            "elektrijaamad"
+            "elektrijaam"
           ]
         },
         "examples": [
@@ -37011,8 +37696,8 @@ const B1_WORDS = [
             "sich kreuzen"
           ],
           "purple": [
-            "ületama",
-            "ristuma"
+            "Põhiidee",
+            "ristuda"
           ],
           "yellow": [
             "Teed",
@@ -39673,7 +40358,7 @@ const B1_WORDS = [
           ],
           "purple": [
             "heli",
-            "helid"
+            "heli"
           ],
           "yellow": [
             "Laut",
@@ -39697,13 +40382,39 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
-                "der Laut",
+                "Die",
                 "laut"
               ]
             },
             "lv": {
               "purple": [
-                "heli"
+                "muusika"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Sprich",
+                "laut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ära"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Das",
+                "laut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "see"
               ]
             }
           },
@@ -39723,33 +40434,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
-                "der Laut",
-                "laut"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "heli"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "der Laut",
-                "laut"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "heli"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "der Laut",
+                "Ich",
                 "laut"
               ]
             },
@@ -39770,7 +40455,7 @@ const B1_WORDS = [
         "important": [
           {
             "green": [
-              "der Laut"
+              "laut"
             ]
           }
         ]
@@ -39985,7 +40670,7 @@ const B1_WORDS = [
         "explanation": {
           "blue": [
             "leisten",
-            "sich leisten"
+            "Põhiidee"
           ],
           "purple": [
             "sooritamist",
@@ -40237,9 +40922,15 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "sooritus",
-            "võimsus"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "sooritus",
+                  "võimsus"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -42925,37 +43616,73 @@ const B1_WORDS = [
         },
         "examples": [
           {
-            "de": { "blue": "Nation" },
-            "lv": { "purple": "rahvas" }
+            "de": {
+              "blue": "Nation"
+            },
+            "lv": {
+              "purple": "rahvas"
+            }
           },
           {
-            "de": { "green": "Nationalität" },
-            "lv": { "yellow": "kodakondsus" }
+            "de": {
+              "green": "Nationalität"
+            },
+            "lv": {
+              "yellow": "kodakondsus"
+            }
           },
           {
-            "de": { "green": "Nationalität" },
-            "lv": { "yellow": "kodakondsus" }
+            "de": {
+              "green": "Nationalität"
+            },
+            "lv": {
+              "yellow": "kodakondsus"
+            }
           }
         ],
         "comparison": [
           {
-            "word": { "blue": "die Nation" },
-            "meaning": { "purple": "rahvas" },
-            "example": { "blue": "Nation" }
+            "word": {
+              "blue": "die Nation"
+            },
+            "meaning": {
+              "purple": "rahvas"
+            },
+            "example": {
+              "blue": "Nation"
+            }
           },
           {
-            "word": { "green": "die Nationalität" },
-            "meaning": { "yellow": "kodakondsus" },
-            "example": { "green": "Nationalität" }
+            "word": {
+              "green": "die Nationalität"
+            },
+            "meaning": {
+              "yellow": "kodakondsus"
+            },
+            "example": {
+              "green": "Nationalität"
+            }
           },
           {
-            "word": { "blue": "der Staat" },
-            "meaning": { "purple": "riik" },
-            "example": { "blue": "Staat" }
+            "word": {
+              "blue": "der Staat"
+            },
+            "meaning": {
+              "purple": "riik"
+            },
+            "example": {
+              "blue": "Staat"
+            }
           }
         ],
-        "tip": { "blue": "Nation", "green": "Nationalität" },
-        "important": { "blue": "die Nation", "green": "die Nationalität" }
+        "tip": {
+          "blue": "Nation",
+          "green": "Nationalität"
+        },
+        "important": {
+          "blue": "die Nation",
+          "green": "die Nationalität"
+        }
       }
     }
   },
@@ -46853,37 +47580,75 @@ const B1_WORDS = [
         },
         "examples": [
           {
-            "de": { "blue": "Rat" },
-            "lv": { "purple": "nõuande" }
+            "de": {
+              "blue": "Rat"
+            },
+            "lv": {
+              "purple": "nõuande"
+            }
           },
           {
-            "de": { "blue": "Rat" },
-            "lv": { "purple": "nõuannet" }
+            "de": {
+              "blue": "Rat"
+            },
+            "lv": {
+              "purple": "nõuannet"
+            }
           },
           {
-            "de": { "red": "Rat", "green": "Stadt" },
-            "lv": { "green": "nõukogu" }
+            "de": {
+              "red": "Rat",
+              "green": "Stadt"
+            },
+            "lv": {
+              "green": "nõukogu"
+            }
           }
         ],
         "comparison": [
           {
-            "word": { "green": "der Rat" },
-            "meaning": { "purple": "nõuanne" },
-            "example": { "blue": "Rat" }
+            "word": {
+              "green": "der Rat"
+            },
+            "meaning": {
+              "purple": "nõuanne"
+            },
+            "example": {
+              "blue": "Rat"
+            }
           },
           {
-            "word": { "green": "die Räte" },
-            "meaning": { "purple": "nõukogu" },
-            "example": { "red": "Rat" }
+            "word": {
+              "green": "die Räte"
+            },
+            "meaning": {
+              "purple": "nõukogu"
+            },
+            "example": {
+              "red": "Rat"
+            }
           },
           {
-            "word": { "green": "die Rate" },
-            "meaning": { "purple": "osamakse" },
-            "example": { "yellow": "Rate" }
+            "word": {
+              "green": "die Rate"
+            },
+            "meaning": {
+              "purple": "osamakse"
+            },
+            "example": {
+              "yellow": "Rate"
+            }
           }
         ],
-        "tip": { "blue": "der Rat", "red": "die Räte" },
-        "important": { "blue": "der Rat", "red": "die Räte", "yellow": "die Rate" }
+        "tip": {
+          "blue": "der Rat",
+          "red": "die Räte"
+        },
+        "important": {
+          "blue": "der Rat",
+          "red": "die Räte",
+          "yellow": "die Rate"
+        }
       }
     }
   },
@@ -55236,12 +56001,16 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "blue": [
-            "Baby stillen",
-            "Durst stillen"
-          ],
-          "purple": "imetama",
-          "red": "kustutama"
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "Baby stillen",
+                  "Durst stillen"
+                ]
+              }
+            }
+          ]
         },
         "important": {
           "blue": "stillen",
@@ -56762,7 +57531,7 @@ const B1_WORDS = [
             "das Tau"
           ],
           "purple": [
-            "köis"
+            "köit"
           ],
           "blue": [
             "der Tau"
@@ -57405,70 +58174,70 @@ const B1_WORDS = [
       "tip": "testen = kontrolli süstemaatiliselt; probieren = proovi või maitse.",
       "important": "testen ei ole sama mis probieren. testen on formaalsem ja süstemaatilisem.",
       "sectionAccents": {
-              "explanation": {
-                      "blue": "testen",
-                      "purple": "testimist",
-                      "red": "probieren",
-                      "yellow": "maitsmist"
-              },
-              "examples": [
-                      {
-                              "de": {
-                                      "blue": "testen"
-                              },
-                              "lv": {
-                                      "purple": "testime"
-                              }
-                      },
-                      {
-                              "de": {
-                                      "blue": "testet"
-                              },
-                              "lv": {
-                                      "purple": "testib"
-                              }
-                      },
-                      {
-                              "de": {
-                                      "red": "Probier"
-                              },
-                              "lv": {
-                                      "yellow": "maitse"
-                              }
-                      }
-              ],
-              "comparison": [
-                      {
-                              "word": {
-                                      "blue": "testen"
-                              },
-                              "meaning": {
-                                      "purple": "testima"
-                              },
-                              "example": {
-                                      "blue": "testen"
-                              }
-                      },
-                      {
-                              "word": {
-                                      "red": "probieren"
-                              },
-                              "meaning": {
-                                      "yellow": "maitsma"
-                              },
-                              "example": {
-                                      "red": "Probier"
-                              }
-                      }
-              ],
-              "tip": {
-                      "blue": "testen",
-                      "red": "probieren"
-              },
-              "important": {
-                      "blue": "testen",
-                      "red": "probieren"
-              }
+        "explanation": {
+          "blue": "testen",
+          "purple": "testimist",
+          "red": "probieren",
+          "yellow": "maitsmist"
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": "testen"
+            },
+            "lv": {
+              "purple": "testime"
+            }
+          },
+          {
+            "de": {
+              "blue": "testet"
+            },
+            "lv": {
+              "purple": "testib"
+            }
+          },
+          {
+            "de": {
+              "red": "Probier"
+            },
+            "lv": {
+              "yellow": "maitse"
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "blue": "testen"
+            },
+            "meaning": {
+              "purple": "testima"
+            },
+            "example": {
+              "blue": "testen"
+            }
+          },
+          {
+            "word": {
+              "red": "probieren"
+            },
+            "meaning": {
+              "yellow": "maitsma"
+            },
+            "example": {
+              "red": "Probier"
+            }
+          }
+        ],
+        "tip": {
+          "blue": "testen",
+          "red": "probieren"
+        },
+        "important": {
+          "blue": "testen",
+          "red": "probieren"
+        }
       }
     }
   },
@@ -57643,11 +58412,16 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "blue": "der Titel",
-          "yellow": [
-            "Raamatul",
-            "laulul",
-            "filmil"
+          "leftBlocks": [
+            {
+              "text": {
+                "yellow": [
+                  "Raamatul",
+                  "laulul",
+                  "filmil"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -59094,71 +59868,71 @@ const B1_WORDS = [
       "tip": "überreden = veenda tegutsema; überzeugen = veenda mõtlema või uskuma.",
       "important": "überreden ei ole sama mis überzeugen. überreden tähendab kedagi tegutsema kõnetada.",
       "sectionAccents": {
-              "explanation": {
-                      "blue": "überreden",
-                      "purple": "kõnetada",
-                      "green": "tegevust",
-                      "red": "überzeugen",
-                      "yellow": "argumentidega"
-              },
-              "examples": [
-                      {
-                              "de": {
-                                      "blue": "überredet"
-                              },
-                              "lv": {
-                                      "purple": "kõnetas"
-                              }
-                      },
-                      {
-                              "de": {
-                                      "blue": "überredete"
-                              },
-                              "lv": {
-                                      "purple": "kõnetas"
-                              }
-                      },
-                      {
-                              "de": {
-                                      "red": "überzeugte"
-                              },
-                              "lv": {
-                                      "yellow": "veenis"
-                              }
-                      }
-              ],
-              "comparison": [
-                      {
-                              "word": {
-                                      "blue": "überreden"
-                              },
-                              "meaning": {
-                                      "purple": "kõnetama"
-                              },
-                              "example": {
-                                      "blue": "überredet"
-                              }
-                      },
-                      {
-                              "word": {
-                                      "red": "überzeugen"
-                              },
-                              "meaning": {
-                                      "yellow": "veenma"
-                              },
-                              "example": {
-                                      "red": "überzeugte"
-                              }
-                      }
-              ],
-              "tip": {
-                      "blue": "überreden",
-                      "red": "überzeugen"
-              },
-              "important": {
-                      "blue": "überreden",
-                      "red": "überzeugen"
-              }
+        "explanation": {
+          "blue": "überreden",
+          "purple": "kõnetada",
+          "green": "tegevust",
+          "red": "überzeugen",
+          "yellow": "argumentidega"
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": "überredet"
+            },
+            "lv": {
+              "purple": "kõnetas"
+            }
+          },
+          {
+            "de": {
+              "blue": "überredete"
+            },
+            "lv": {
+              "purple": "kõnetas"
+            }
+          },
+          {
+            "de": {
+              "red": "überzeugte"
+            },
+            "lv": {
+              "yellow": "veenis"
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "blue": "überreden"
+            },
+            "meaning": {
+              "purple": "kõnetama"
+            },
+            "example": {
+              "blue": "überredet"
+            }
+          },
+          {
+            "word": {
+              "red": "überzeugen"
+            },
+            "meaning": {
+              "yellow": "veenma"
+            },
+            "example": {
+              "red": "überzeugte"
+            }
+          }
+        ],
+        "tip": {
+          "blue": "überreden",
+          "red": "überzeugen"
+        },
+        "important": {
+          "blue": "überreden",
+          "red": "überzeugen"
+        }
       }
     }
   },
@@ -59357,71 +60131,71 @@ const B1_WORDS = [
       "tip": "überzeugen = veenda mõtlema; überreden = veenda tegutsema.",
       "important": "überzeugen ei ole sama mis überreden. überzeugen tähendab veendumuse tekitamist.",
       "sectionAccents": {
-              "explanation": {
-                      "blue": "überzeugen",
-                      "purple": "veenda",
-                      "green": "argumentide",
-                      "red": "überreden",
-                      "yellow": "tegutsema"
-              },
-              "examples": [
-                      {
-                              "de": {
-                                      "blue": "überzeugte"
-                              },
-                              "lv": {
-                                      "purple": "veenis"
-                              }
-                      },
-                      {
-                              "de": {
-                                      "blue": "überzeugen"
-                              },
-                              "lv": {
-                                      "purple": "veenda"
-                              }
-                      },
-                      {
-                              "de": {
-                                      "red": "überredet"
-                              },
-                              "lv": {
-                                      "yellow": "kõnetas"
-                              }
-                      }
-              ],
-              "comparison": [
-                      {
-                              "word": {
-                                      "blue": "überzeugen"
-                              },
-                              "meaning": {
-                                      "purple": "veenma"
-                              },
-                              "example": {
-                                      "blue": "überzeugte"
-                              }
-                      },
-                      {
-                              "word": {
-                                      "red": "überreden"
-                              },
-                              "meaning": {
-                                      "yellow": "kõnetama"
-                              },
-                              "example": {
-                                      "red": "überredet"
-                              }
-                      }
-              ],
-              "tip": {
-                      "blue": "überzeugen",
-                      "red": "überreden"
-              },
-              "important": {
-                      "blue": "überzeugen",
-                      "red": "überreden"
-              }
+        "explanation": {
+          "blue": "überzeugen",
+          "purple": "veenda",
+          "green": "argumentide",
+          "red": "überreden",
+          "yellow": "tegutsema"
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": "überzeugte"
+            },
+            "lv": {
+              "purple": "veenis"
+            }
+          },
+          {
+            "de": {
+              "blue": "überzeugen"
+            },
+            "lv": {
+              "purple": "veenda"
+            }
+          },
+          {
+            "de": {
+              "red": "überredet"
+            },
+            "lv": {
+              "yellow": "kõnetas"
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "blue": "überzeugen"
+            },
+            "meaning": {
+              "purple": "veenma"
+            },
+            "example": {
+              "blue": "überzeugte"
+            }
+          },
+          {
+            "word": {
+              "red": "überreden"
+            },
+            "meaning": {
+              "yellow": "kõnetama"
+            },
+            "example": {
+              "red": "überredet"
+            }
+          }
+        ],
+        "tip": {
+          "blue": "überzeugen",
+          "red": "überreden"
+        },
+        "important": {
+          "blue": "überzeugen",
+          "red": "überreden"
+        }
       }
     }
   },
@@ -60293,12 +61067,16 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "blue": "die Untersuchung",
-          "green": [
-            "Arst",
-            "politsei"
-          ],
-          "red": "uurib"
+          "leftBlocks": [
+            {
+              "text": {
+                "green": [
+                  "Arst",
+                  "politsei"
+                ]
+              }
+            }
+          ]
         },
         "important": {
           "blue": "die Untersuchung",
@@ -61098,11 +61876,16 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "blue": "verderben",
-          "yellow": [
-            "Toit",
-            "plaan",
-            "tuju"
+          "leftBlocks": [
+            {
+              "text": {
+                "yellow": [
+                  "Toit",
+                  "plaan",
+                  "tuju"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -61533,70 +62316,70 @@ const B1_WORDS = [
       "tip": "Vernunft = mõistlikkus; Verstand = arusaamise võime.",
       "important": "Ära aja segi Vernunft (mõistlikkus) ja Verstand (arusaamine).",
       "sectionAccents": {
-              "explanation": {
-                      "blue": "Vernunft",
-                      "purple": "mõistlikkust",
-                      "green": "Verstand",
-                      "yellow": "arusaamist"
-              },
-              "examples": [
-                      {
-                              "de": {
-                                      "blue": "Vernunft"
-                              },
-                              "lv": {
-                                      "purple": "mõistlikkusest"
-                              }
-                      },
-                      {
-                              "de": {
-                                      "blue": "Menschenverstand"
-                              },
-                              "lv": {
-                                      "purple": "mõistus"
-                              }
-                      },
-                      {
-                              "de": {
-                                      "green": "Verstand"
-                              },
-                              "lv": {
-                                      "yellow": "arusaamise"
-                              }
-                      }
-              ],
-              "comparison": [
-                      {
-                              "word": {
-                                      "blue": "die Vernunft"
-                              },
-                              "meaning": {
-                                      "purple": "mõistlikkus"
-                              },
-                              "example": {
-                                      "blue": "Vernunft"
-                              }
-                      },
-                      {
-                              "word": {
-                                      "green": "der Verstand"
-                              },
-                              "meaning": {
-                                      "yellow": "arusaamine"
-                              },
-                              "example": {
-                                      "green": "Verstand"
-                              }
-                      }
-              ],
-              "tip": {
-                      "blue": "Vernunft",
-                      "green": "Verstand"
-              },
-              "important": {
-                      "blue": "Vernunft",
-                      "green": "Verstand"
-              }
+        "explanation": {
+          "blue": "Vernunft",
+          "purple": "mõistlikkust",
+          "green": "Verstand",
+          "yellow": "arusaamist"
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": "Vernunft"
+            },
+            "lv": {
+              "purple": "mõistlikkusest"
+            }
+          },
+          {
+            "de": {
+              "blue": "Menschenverstand"
+            },
+            "lv": {
+              "purple": "mõistus"
+            }
+          },
+          {
+            "de": {
+              "green": "Verstand"
+            },
+            "lv": {
+              "yellow": "arusaamise"
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "blue": "die Vernunft"
+            },
+            "meaning": {
+              "purple": "mõistlikkus"
+            },
+            "example": {
+              "blue": "Vernunft"
+            }
+          },
+          {
+            "word": {
+              "green": "der Verstand"
+            },
+            "meaning": {
+              "yellow": "arusaamine"
+            },
+            "example": {
+              "green": "Verstand"
+            }
+          }
+        ],
+        "tip": {
+          "blue": "Vernunft",
+          "green": "Verstand"
+        },
+        "important": {
+          "blue": "Vernunft",
+          "green": "Verstand"
+        }
       }
     }
   },
@@ -61760,12 +62543,16 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "blue": [
-            "Termin verlegen",
-            "Schlüssel verlegen"
-          ],
-          "purple": "edasi lükkama",
-          "red": "mitte leidma"
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "Termin verlegen",
+                  "Schlüssel verlegen"
+                ]
+              }
+            }
+          ]
         },
         "important": {
           "yellow": "Schlüssel",
@@ -62199,70 +62986,70 @@ const B1_WORDS = [
       "tip": "Verstand = arusaamine; Vernunft = mõistlikkus.",
       "important": "Ära aja segi Verstand (arusaamine) ja Vernunft (mõistlikkus).",
       "sectionAccents": {
-              "explanation": {
-                      "blue": "Verstand",
-                      "purple": "arusaamist",
-                      "green": "Vernunft",
-                      "yellow": "mõistlikkust"
-              },
-              "examples": [
-                      {
-                              "de": {
-                                      "blue": "Verstand"
-                              },
-                              "lv": {
-                                      "purple": "arusaamise"
-                              }
-                      },
-                      {
-                              "de": {
-                                      "blue": "Verstand"
-                              },
-                              "lv": {
-                                      "purple": "arusaamine"
-                              }
-                      },
-                      {
-                              "de": {
-                                      "green": "Vernunft"
-                              },
-                              "lv": {
-                                      "yellow": "mõistlikkusest"
-                              }
-                      }
-              ],
-              "comparison": [
-                      {
-                              "word": {
-                                      "blue": "der Verstand"
-                              },
-                              "meaning": {
-                                      "purple": "arusaamine"
-                              },
-                              "example": {
-                                      "blue": "Verstand"
-                              }
-                      },
-                      {
-                              "word": {
-                                      "green": "die Vernunft"
-                              },
-                              "meaning": {
-                                      "yellow": "mõistlikkus"
-                              },
-                              "example": {
-                                      "green": "Vernunft"
-                              }
-                      }
-              ],
-              "tip": {
-                      "blue": "Verstand",
-                      "green": "Vernunft"
-              },
-              "important": {
-                      "blue": "Verstand",
-                      "green": "Vernunft"
-              }
+        "explanation": {
+          "blue": "Verstand",
+          "purple": "arusaamist",
+          "green": "Vernunft",
+          "yellow": "mõistlikkust"
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": "Verstand"
+            },
+            "lv": {
+              "purple": "arusaamise"
+            }
+          },
+          {
+            "de": {
+              "blue": "Verstand"
+            },
+            "lv": {
+              "purple": "arusaamine"
+            }
+          },
+          {
+            "de": {
+              "green": "Vernunft"
+            },
+            "lv": {
+              "yellow": "mõistlikkusest"
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "blue": "der Verstand"
+            },
+            "meaning": {
+              "purple": "arusaamine"
+            },
+            "example": {
+              "blue": "Verstand"
+            }
+          },
+          {
+            "word": {
+              "green": "die Vernunft"
+            },
+            "meaning": {
+              "yellow": "mõistlikkus"
+            },
+            "example": {
+              "green": "Vernunft"
+            }
+          }
+        ],
+        "tip": {
+          "blue": "Verstand",
+          "green": "Vernunft"
+        },
+        "important": {
+          "blue": "Verstand",
+          "green": "Vernunft"
+        }
       }
     }
   },
@@ -62539,8 +63326,8 @@ const B1_WORDS = [
             "die Verwandte"
           ],
           "purple": [
-            "sugulane (mees)",
-            "sugulane (naine)"
+            "Põhiidee",
+            "Põhiidee"
           ]
         },
         "examples": [
@@ -62642,7 +63429,7 @@ const B1_WORDS = [
             "die Verwandte"
           ],
           "purple": [
-            "sugulane (naine)"
+            "Põhiidee"
           ],
           "blue": [
             "der Verwandte"
@@ -62966,12 +63753,16 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "blue": [
-            "kommt vor",
-            "kommt mir vor"
-          ],
-          "purple": "juhtub",
-          "red": "tundub"
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "kommt vor",
+                  "kommt mir vor"
+                ]
+              }
+            }
+          ]
         },
         "important": {
           "blue": [
@@ -63347,11 +64138,16 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "blue": [
-            "vorziehen",
-            "Termin vorziehen"
-          ],
-          "purple": "Eelistus"
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "vorziehen",
+                  "Termin vorziehen"
+                ]
+              }
+            }
+          ]
         },
         "important": {
           "blue": [
@@ -64296,9 +65092,15 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "blue": [
-            "weder",
-            "noch"
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "weder",
+                  "noch"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -66641,8 +67443,8 @@ const B1_WORDS = [
             "weil"
           ],
           "purple": [
-            "sest",
-            "kuna"
+            "Peamine",
+            "Peamine"
           ]
         },
         "examples": [
@@ -66656,7 +67458,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "sest",
-                "kuna"
+                "jään"
               ]
             }
           },
@@ -66670,7 +67472,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "sest",
-                "kuna"
+                "jään"
               ]
             }
           },
@@ -66684,7 +67486,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "sest",
-                "kuna"
+                "õpin"
               ]
             }
           },
@@ -66698,7 +67500,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "sest",
-                "kuna"
+                "tule"
               ]
             }
           },
@@ -66712,21 +67514,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "sest",
-                "kuna"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "weil",
-                "weil"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "sest",
-                "kuna"
+                "jään"
               ]
             }
           }
@@ -66734,12 +67522,12 @@ const B1_WORDS = [
         "tip": [
           {
             "purple": [
-              "sest"
+              "Kõige"
             ]
           },
           {
             "purple": [
-              "kuna"
+              "Kõige"
             ]
           }
         ],
@@ -66824,7 +67612,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "kuna",
-                "sest"
+                "Kuna"
               ]
             }
           },
@@ -66838,7 +67626,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "kuna",
-                "sest"
+                "kuna"
               ]
             }
           },
@@ -66852,7 +67640,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "kuna",
-                "sest"
+                "kuna"
               ]
             }
           },
@@ -66866,7 +67654,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "kuna",
-                "sest"
+                "kuna"
               ]
             }
           },
@@ -66880,21 +67668,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "kuna",
-                "sest"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "da",
-                "da"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "kuna",
-                "sest"
+                "kuna"
               ]
             }
           }
@@ -66902,12 +67676,12 @@ const B1_WORDS = [
         "tip": [
           {
             "purple": [
-              "kuna"
+              "Põhjussidesõna"
             ]
           },
           {
             "purple": [
-              "sest"
+              "Põhjussidesõna"
             ]
           }
         ],
@@ -66991,7 +67765,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "kuigi",
-                "ehkki"
+                "Kuigi"
               ]
             }
           },
@@ -67005,7 +67779,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "kuigi",
-                "ehkki"
+                "kuigi"
               ]
             }
           },
@@ -67019,7 +67793,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "kuigi",
-                "ehkki"
+                "kuigi"
               ]
             }
           },
@@ -67033,7 +67807,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "kuigi",
-                "ehkki"
+                "kuigi"
               ]
             }
           },
@@ -67047,7 +67821,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "kuigi",
-                "ehkki"
+                "kuigi"
               ]
             }
           },
@@ -67061,7 +67835,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "kuigi",
-                "ehkki"
+                "Kuigi"
               ]
             }
           }
@@ -67069,12 +67843,12 @@ const B1_WORDS = [
         "tip": [
           {
             "purple": [
-              "kuigi"
+              "Sissejuhatab"
             ]
           },
           {
             "purple": [
-              "ehkki"
+              "Sissejuhatab"
             ]
           }
         ],
@@ -67158,7 +67932,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "sellegipoolest",
-                "ikkagi"
+                "Olen"
               ]
             }
           },
@@ -67172,7 +67946,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "sellegipoolest",
-                "ikkagi"
+                "sajab"
               ]
             }
           },
@@ -67186,7 +67960,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "sellegipoolest",
-                "ikkagi"
+                "haige"
               ]
             }
           },
@@ -67200,7 +67974,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "sellegipoolest",
-                "ikkagi"
+                "mul"
               ]
             }
           },
@@ -67214,7 +67988,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "sellegipoolest",
-                "ikkagi"
+                "sajab"
               ]
             }
           },
@@ -67228,7 +68002,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "sellegipoolest",
-                "ikkagi"
+                "Sajab"
               ]
             }
           }
@@ -67236,12 +68010,12 @@ const B1_WORDS = [
         "tip": [
           {
             "purple": [
-              "sellegipoolest"
+              "Näitab"
             ]
           },
           {
             "purple": [
-              "ikkagi"
+              "Näitab"
             ]
           }
         ],
@@ -67290,41 +68064,15 @@ const B1_WORDS = [
             "zu"
           ],
           "purple": [
-            "selle asemel, et"
+            "Peamine"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "anstatt ... zu",
-                "anstatt ... zu"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "selle asemel, et"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "anstatt ... zu",
-                "anstatt ... zu"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "selle asemel, et"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "anstatt ... zu",
-                "anstatt ... zu"
+                "Anstatt",
+                "Anstatt"
               ]
             },
             "lv": {
@@ -67387,7 +68135,7 @@ const B1_WORDS = [
             "ohne ... zu"
           ],
           "purple": [
-            "ilma"
+            "Peamine"
           ],
           "red": [
             "ohne",
@@ -67398,39 +68146,13 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
-                "ohne ... zu",
-                "ohne ... zu"
+                "ging",
+                "ging"
               ]
             },
             "lv": {
               "purple": [
-                "ilma (midagi tehes)"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "ohne ... zu",
-                "ohne ... zu"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "ilma (midagi tehes)"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "ohne ... zu",
-                "ohne ... zu"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "ilma (midagi tehes)"
+                "lahkus"
               ]
             }
           }
@@ -68179,7 +68901,7 @@ const B1_WORDS = [
         "important": [
           {
             "green": [
-              "das Erbe"
+              "der"
             ]
           }
         ]
@@ -68255,7 +68977,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "der Schaden",
+                "Auto",
                 "schaden"
               ]
             },
@@ -68269,7 +68991,21 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "der Schaden",
+                "Der",
+                "schaden"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kahju",
+                "põhjustas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Auto",
                 "schaden"
               ]
             },
@@ -68283,14 +69019,14 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "der Schaden",
+                "Wer",
                 "schaden"
               ]
             },
             "lv": {
               "purple": [
                 "kahju",
-                "kahjustus"
+                "kes"
               ]
             }
           },
@@ -68304,35 +69040,21 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "kahju",
-                "kahjustus"
+                "kahju"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "der Schaden",
-                "schaden"
+                "Das",
+                "schadet"
               ]
             },
             "lv": {
               "purple": [
                 "kahju",
-                "kahjustus"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "der Schaden",
-                "schaden"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "kahju",
-                "kahjustus"
+                "kahjustab"
               ]
             }
           }
@@ -68424,20 +69146,20 @@ const B1_WORDS = [
           ],
           "red": [
             "schaden",
-            "schadet"
+            "schaden"
           ]
         },
         "examples": [
           {
             "de": {
               "green": [
-                "schaden",
-                "schaden"
+                "schadet",
+                "schadet"
               ]
             },
             "lv": {
               "purple": [
-                "kahjustama"
+                "kahjustab"
               ]
             }
           },
@@ -68450,7 +69172,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kahjustama"
+                "torm"
               ]
             }
           },
@@ -68463,7 +69185,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kahjustama"
+                "kahjustus"
               ]
             }
           },
@@ -68476,7 +69198,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kahjustama"
+                "kes"
               ]
             }
           },
@@ -68489,20 +69211,20 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kahjustama"
+                "kahju"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "schaden",
-                "schaden"
+                "schadet",
+                "schadet"
               ]
             },
             "lv": {
               "purple": [
-                "kahjustama"
+                "kahjustab"
               ]
             }
           }
@@ -68510,7 +69232,7 @@ const B1_WORDS = [
         "tip": [
           {
             "purple": [
-              "kahjustama"
+              "Kahjustamise"
             ]
           }
         ],
@@ -68597,7 +69319,20 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "das Vertrauen",
+                "Ich",
+                "vertrauen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "usaldus"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Ich",
                 "vertrauen"
               ]
             },
@@ -68623,7 +69358,20 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "das Vertrauen",
+                "Kann",
+                "vertrauen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hat",
                 "vertrauen"
               ]
             },
@@ -68636,39 +69384,13 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "das Vertrauen",
+                "Wir",
                 "vertrauen"
               ]
             },
             "lv": {
               "purple": [
-                "usaldus"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "das Vertrauen",
-                "vertrauen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "usaldus"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "das Vertrauen",
-                "vertrauen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "usaldus"
+                "usaldame"
               ]
             }
           }
@@ -68762,13 +69484,13 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
-                "vertrauen",
-                "vertrauen"
+                "vertraue",
+                "vertraue"
               ]
             },
             "lv": {
               "purple": [
-                "usaldama"
+                "usaldan"
               ]
             }
           },
@@ -68781,7 +69503,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "usaldama"
+                "mul"
               ]
             }
           },
@@ -68794,7 +69516,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "usaldama"
+                "usaldus"
               ]
             }
           },
@@ -68807,7 +69529,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "usaldama"
+                "usaldada"
               ]
             }
           },
@@ -68820,7 +69542,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "usaldama"
+                "usalduse"
               ]
             }
           },
@@ -68833,7 +69555,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "usaldama"
+                "usaldame"
               ]
             }
           }
@@ -68924,84 +69646,84 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "der Trotz",
+                "macht",
                 "trotz"
               ]
             },
             "lv": {
               "purple": [
                 "jonn",
-                "kangekaelsus"
+                "teeb"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "der Trotz",
+                "Trotz",
                 "trotz"
               ]
             },
             "lv": {
               "purple": [
-                "jonn",
-                "kangekaelsus"
+                "hoolimata",
+                "hoolimata"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "der Trotz",
+                "macht",
                 "trotz"
               ]
             },
             "lv": {
               "purple": [
                 "jonn",
-                "kangekaelsus"
+                "teeb"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "der Trotz",
+                "Trotz",
                 "trotz"
               ]
             },
             "lv": {
               "purple": [
-                "jonn",
-                "kangekaelsus"
+                "hoolimata",
+                "hoolimata"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "der Trotz",
+                "Sie",
                 "trotz"
               ]
             },
             "lv": {
               "purple": [
                 "jonn",
-                "kangekaelsus"
+                "temal"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "der Trotz",
+                "Trotz",
                 "trotz"
               ]
             },
             "lv": {
               "purple": [
-                "jonn",
-                "kangekaelsus"
+                "hoolimata",
+                "hoolimata"
               ]
             }
           }
@@ -69014,7 +69736,7 @@ const B1_WORDS = [
           },
           {
             "purple": [
-              "kangekaelsus"
+              "Kui"
             ]
           }
         ],
@@ -69132,7 +69854,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "hoolimata"
+                "teeb"
               ]
             }
           },
@@ -69158,7 +69880,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "hoolimata"
+                "temal"
               ]
             }
           },
