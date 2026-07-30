@@ -187,8 +187,8 @@
       try {
         await loadScript(resolved.path);
         loadedDatasetScripts.add(resolved.path);
-        if (nativeLanguage === "lt" && dataset === "courseLessons") {
-          const trainingCardsPath = "./data/lt/courseTrainingCards.js";
+        if ((nativeLanguage === "lt" || nativeLanguage === "uk") && dataset === "courseLessons") {
+          const trainingCardsPath = `./data/${nativeLanguage}/courseTrainingCards.js`;
           if (await pathExists(trainingCardsPath)) {
             await loadScript(trainingCardsPath);
             loadedDatasetScripts.add(trainingCardsPath);

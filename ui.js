@@ -1108,6 +1108,9 @@ function getExerciseSourceCards(lessonId) {
     if (lang === "lt" && typeof lesson7ExerciseCardsLt !== "undefined") {
       return lesson7ExerciseCardsLt;
     }
+    if (lang === "uk" && typeof lesson7ExerciseCardsUk !== "undefined") {
+      return lesson7ExerciseCardsUk;
+    }
     return typeof lesson7ExerciseCards !== "undefined" ? lesson7ExerciseCards : [];
   }
   if (lessonNumber === "8") {
@@ -1343,6 +1346,19 @@ function handleCourseExerciseCardClick(card) {
     const ltDeck = ltDecks[`lesson${lessonNumber}`];
     if (ltDeck?.length) {
       return ltDeck.map((card) => ({ lv: card.front || card.lv || "", de: card.back || card.de || "" }));
+    }
+  } else if (lang === "uk") {
+    const ukDecks = {
+      lesson1: typeof lesson1TrainingCardsUk !== "undefined" ? lesson1TrainingCardsUk : [],
+      lesson2: typeof lesson2TrainingCardsUk !== "undefined" ? lesson2TrainingCardsUk : [],
+      lesson3: typeof lesson3TrainingCardsUk !== "undefined" ? lesson3TrainingCardsUk : [],
+      lesson4: typeof lesson4TrainingCardsUk !== "undefined" ? lesson4TrainingCardsUk : [],
+      lesson5: typeof lesson5TrainingCardsUk !== "undefined" ? lesson5TrainingCardsUk : [],
+      lesson6: typeof lesson6TrainingCardsUk !== "undefined" ? lesson6TrainingCardsUk : []
+    };
+    const ukDeck = ukDecks[`lesson${lessonNumber}`];
+    if (ukDeck?.length) {
+      return ukDeck.map((card) => ({ lv: card.front || card.lv || "", de: card.back || card.de || "" }));
     }
   } else if (lang !== "lt") {
     const isEt = lang === "et";
