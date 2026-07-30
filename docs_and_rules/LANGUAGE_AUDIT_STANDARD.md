@@ -94,21 +94,28 @@ Process ir vienāds visām valodām, bet kritēriji jāsagatavo valodas eksperta
 
 ## 5. Audita rīki un skripti
 
-Esošie LT-specifiskie skripti jāvispārina ar valodas kodu kā parametru, lai tos var atkārtoti izmantot jebkurai valodai:
+Visi zemāk minētie skripti **ir izveidoti** (2026-07-30) un pieņem `--lang=<code>` parametru, lai tos var atkārtoti izmantot jebkurai valodai bez pārrakstīšanas. Kopīgā palīgloģika (datu ceļu izšķirtspēja, `--lang` parsēšana, vm-based datu ielāde) atrodas `scripts/lib/audit-common.js`.
 
-| Esošais skripts | Vispārinātais mērķis |
-|---|---|
-| `scripts/validate-lt-study-design.js` | `--lang=<code>` — sectionAccents pilnīgums, layout struktūra |
-| `scripts/validate-lt-flashcard-routing.js` | `--lang=<code>` — pārbauda, ka `ui.js` motors nerāda hardcoded citas valodas datus |
-| `scripts/validate-lt-kurss.js` | `--lang=<code>` — Kurss sadaļu nosaukumu maršrutēšana, karšu skaits, LV vārdu atlūzas |
-| `scripts/smoke-test-lt-ui.js` | `--lang=<code>` — end-to-end HTTP/DOM pārbaude |
-| `scripts/audit-translations.js` | `--lang=<code>` — semikolu/nesakritības pārbaude jebkurai valodai |
-| `scripts/audit-study-cards.js` | `--lang=<code>` — vispārināta uz jebkuru `data/{lang}/*.js` |
+| Skripts | Lietojums | Aizstāj (vecais LT-specifiskais) |
+|---|---|---|
+| `scripts/validate-study-design.js` | `--lang=<code>` — sectionAccents pilnīgums, layout struktūra, `www/` sinhronizācija | `validate-lt-study-design.js` |
+| `scripts/validate-flashcard-routing.js` | `--lang=<code>` — pārbauda, ka `ui.js` motors nerāda hardcoded citas valodas datus | `validate-lt-flashcard-routing.js` |
+| `scripts/validate-kurss.js` | `--lang=<code>` — Kurss lekciju struktūra, translate/exercise karšu skaits, LV vārdu atlūzas | `validate-lt-kurss.js` |
+| `scripts/smoke-test-ui.js` | `--lang=<code>` — end-to-end HTTP/DOM pārbaude | `smoke-test-lt-ui.js` |
+| `scripts/audit-translations.js` | `--lang=<code>` (noklusējums `lv`) — semikolu/nesakritības pārbaude jebkurai valodai, visi 6 līmeņi | (paplašināts vietā) |
+| `scripts/audit-study-cards.js` | `--lang=<code>` (noklusējums `lv`) — vispārināts uz jebkuru `data/{lang}/*.js` | (paplašināts vietā) |
+| `scripts/audit-language-parity.js` | `--lang=<code>` — salīdzina ieraksta skaitu, lauku shēmu un `study.layout` sadalījumu pret LV atbilstošo failu | (jauns) |
+| `scripts/audit-mojibake.js` | `--lang=<code>` — regex meklēšana pēc bojātiem kodējuma artefaktiem valodas un koplietotajos failos | (jauns) |
 
-Ieteicamie jauni skripti (izveide ir atsevišķs uzdevums, ne šī standarta daļa):
+Piemēri:
 
-- `scripts/audit-language-parity.js --lang=<code>` — salīdzina ieraksta skaitu, lauku shēmu un `study.layout` sadalījumu pret LV atbilstošo failu.
-- `scripts/audit-mojibake.js --lang=<code>` — regex meklēšana pēc bojātiem kodējuma artefaktiem valodas un koplietotajos failos.
+```bash
+node scripts/validate-study-design.js --lang=lt
+node scripts/audit-language-parity.js --lang=et
+node scripts/audit-mojibake.js --lang=lv
+```
+
+`scripts/validate-lt-highlight-density.js` (highlight blīvuma regresijas aizsargs) **netika vispārināts** — tas satur LT-specifiskas, saturam piesaistītas zināšanas (piem., precīzs pieņemamo atlikušo gadījumu skaits konkrētām `sitzen`/`stehen` kartēm), kas nav automātiski pārnesamas uz citām valodām bez tāda paša satura audita.
 
 ## 6. Audita procesa posmi
 

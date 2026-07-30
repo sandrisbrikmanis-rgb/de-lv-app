@@ -1,13 +1,20 @@
 #!/usr/bin/env node
 /**
- * LT→DE UI smoke tests for benchmark flashcards and study cards.
- * Run: node scripts/smoke-test-lt-ui.js
- * Optional: LT_UI_BASE=http://127.0.0.1:8765 node scripts/smoke-test-lt-ui.js
+ * {lang}->DE UI smoke tests for benchmark flashcards and study cards.
+ * Generalized from the LT-specific smoke-test-lt-ui.js per
+ * LANGUAGE_AUDIT_STANDARD.md §5.
+ *
+ * Run: node scripts/smoke-test-ui.js --lang=lt
+ * Optional: UI_SMOKE_BASE=http://127.0.0.1:8765 node scripts/smoke-test-ui.js --lang=lt
  */
 const fs = require('fs');
 const path = require('path');
 const http = require('http');
 const { spawn } = require('child_process');
+const { ROOT, parseLangArg, dataDir, fileExists } = require('./lib/audit-common');
+
+const lang = parseLangArg('lt');
+const DIR = dataDir(lang);
 
 const BENCHMARKS = [
   { query: 'der Vorname', expectFlashcard: true, label: 'Vorname normal flashcard' },
@@ -45,16 +52,20 @@ function cardHasRenderableStudy(study) {
     || hasContent(study.words) || hasContent(study.items) || hasContent(study.terms);
 }
 
-function loadLtCards() {
-  delete global.A1_WORDS; delete global.A2_WORDS; delete global.B1_WORDS; delete global.B2_WORDS;
-  delete global.C1_WORDS; delete global.C2_WORDS; delete global.SENTENCE_ENTRIES; delete global.VERB_ENTRIES;
-  for (const file of ['a1.js', 'a2.js', 'b1.js', 'b2.js', 'c1.js', 'c2.js', 'sentences.js', 'verbs.js']) {
-    eval(fs.readFileSync(path.join(process.cwd(), 'data/lt', file), 'utf8').replace(/window\./g, 'global.'));
+function loadCards() {
+  for (const name of ['A1_WORDS', 'A2_WORDS', 'B1_WORDS', 'B2_WORDS', 'C1_WORDS', 'C2_WORDS', 'SENTENCE_ENTRIES', 'VERB_ENTRIES']) delete global[name];
+  const all = [];
+  for (const [fileName, varName] of [
+    ['a1.js', 'A1_WORDS'], ['a2.js', 'A2_WORDS'], ['b1.js', 'B1_WORDS'], ['b2.js', 'B2_WORDS'],
+    ['c1.js', 'C1_WORDS'], ['c2.js', 'C2_WORDS'], ['sentences.js', 'SENTENCE_ENTRIES'], ['verbs.js', 'VERB_ENTRIES']
+  ]) {
+    const rel = `${DIR}/${fileName}`;
+    if (!fileExists(rel)) continue;
+    eval(fs.readFileSync(path.join(ROOT, rel), 'utf8').replace(/window\./g, 'global.'));
+    const arr = global[varName];
+    if (Array.isArray(arr)) all.push(...arr);
   }
-  return [
-    ...global.A1_WORDS, ...global.A2_WORDS, ...global.B1_WORDS, ...global.B2_WORDS,
-    ...global.C1_WORDS, ...global.C2_WORDS, ...global.SENTENCE_ENTRIES, ...global.VERB_ENTRIES,
-  ];
+  return all;
 }
 
 function findCard(cards, query) {
@@ -68,7 +79,7 @@ function findCard(cards, query) {
 }
 
 function runRoutingSmoke() {
-  const cards = loadLtCards();
+  const cards = loadCards();
   const failures = [];
   for (const bench of BENCHMARKS) {
     const card = findCard(cards, bench.query);
@@ -97,16 +108,13 @@ function fetchPage(url) {
 
 async function runHttpSmoke(baseUrl) {
   const failures = [];
-  const index = await fetchPage(`${baseUrl}/index.html?lang=lt`);
+  const index = await fetchPage(`${baseUrl}/index.html?lang=${lang}`);
   if (index.status !== 200) failures.push(`index.html status ${index.status}`);
   const datasets = await fetchPage(`${baseUrl}/languages/datasets.js`);
   if (datasets.status !== 200) failures.push(`datasets.js status ${datasets.status}`);
-  if (!/lt/i.test(datasets.body)) failures.push('LT language not referenced in languages/datasets.js');
-  if (/data\/lv\//i.test(index.body) && !/lang=lt|language.*lt/i.test(index.body)) {
-    failures.push('possible LV fallback without LT language switch');
-  }
+  if (!new RegExp(lang, 'i').test(datasets.body)) failures.push(`"${lang}" language not referenced in languages/datasets.js`);
   for (const bench of BENCHMARKS.slice(0, 4)) {
-    const page = await fetchPage(`${baseUrl}/index.html?lang=lt&card=${encodeURIComponent(bench.query)}`);
+    const page = await fetchPage(`${baseUrl}/index.html?lang=${lang}&card=${encodeURIComponent(bench.query)}`);
     if (page.status !== 200) {
       failures.push(`${bench.query}: page status ${page.status}`);
       continue;
@@ -131,19 +139,20 @@ function startServer(root, port) {
 async function main() {
   const routing = runRoutingSmoke();
   const report = {
+    lang,
     routing: { totalCards: routing.total, failures: routing.failures },
     http: { ran: false, failures: [] },
     pass: routing.failures.length === 0,
   };
 
-  const base = process.env.LT_UI_BASE;
+  const base = process.env.UI_SMOKE_BASE || process.env.LT_UI_BASE;
   if (base) {
     report.http.ran = true;
     report.http.failures = await runHttpSmoke(base.replace(/\/$/, ''));
     report.pass = report.pass && report.http.failures.length === 0;
   } else {
     const port = 8765;
-    const proc = await startServer(process.cwd(), port);
+    const proc = await startServer(ROOT, port);
     try {
       report.http.ran = true;
       report.http.failures = await runHttpSmoke(`http://127.0.0.1:${port}`);

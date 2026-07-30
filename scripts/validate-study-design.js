@@ -1,42 +1,50 @@
 #!/usr/bin/env node
 /**
- * Comprehensive LT–DE study card and flashcard routing validation.
- * Run: node scripts/validate-lt-study-design.js
+ * Comprehensive {lang}-DE study card and flashcard routing validation.
+ * Generalized from the LT-specific validate-lt-study-design.js per
+ * docs_and_rules/LANGUAGE_AUDIT_STANDARD.md §5.
+ *
+ * Run: node scripts/validate-study-design.js --lang=lt
+ *      node scripts/validate-study-design.js --lang=lv
  */
-const fs = require('fs');
-const path = require('path');
+const fs = require("fs");
+const path = require("path");
+const { ROOT, parseLangArg, dataDir, fileExists, readFile } = require("./lib/audit-common");
 
-const LT_FILES = [
-  ['data/lt/a1.js', 'A1_WORDS'],
-  ['data/lt/a2.js', 'A2_WORDS'],
-  ['data/lt/b1.js', 'B1_WORDS'],
-  ['data/lt/b2.js', 'B2_WORDS'],
-  ['data/lt/c1.js', 'C1_WORDS'],
-  ['data/lt/c2.js', 'C2_WORDS'],
-  ['data/lt/sentences.js', 'SENTENCE_ENTRIES'],
-  ['data/lt/verbs.js', 'VERB_ENTRIES'],
-  ['data/lt/courseLessons.js', 'COURSE_LESSON_HTML'],
+const lang = parseLangArg("lt");
+const DIR = dataDir(lang);
+
+const FILES = [
+  [`${DIR}/a1.js`, "A1_WORDS"],
+  [`${DIR}/a2.js`, "A2_WORDS"],
+  [`${DIR}/b1.js`, "B1_WORDS"],
+  [`${DIR}/b2.js`, "B2_WORDS"],
+  [`${DIR}/c1.js`, "C1_WORDS"],
+  [`${DIR}/c2.js`, "C2_WORDS"],
+  [`${DIR}/sentences.js`, "SENTENCE_ENTRIES"],
+  [`${DIR}/verbs.js`, "VERB_ENTRIES"],
+  [`${DIR}/courseLessons.js`, "COURSE_LESSON_HTML"],
 ];
 
-const SKIP_CARD_VALIDATION = new Set(['data/lt/courseLessons.js']);
+const SKIP_CARD_VALIDATION = new Set([`${DIR}/courseLessons.js`]);
 
-const ACCENT_COLORS = ['blue', 'green', 'yellow', 'orange', 'purple', 'red'];
+const ACCENT_COLORS = ["blue", "green", "yellow", "orange", "purple", "red"];
 
 function hasContent(value) {
   if (value === undefined || value === null) return false;
-  if (typeof value === 'string') return value.trim().length > 0;
+  if (typeof value === "string") return value.trim().length > 0;
   if (Array.isArray(value)) return value.some(hasContent);
-  if (typeof value === 'object') return Object.values(value).some(hasContent);
+  if (typeof value === "object") return Object.values(value).some(hasContent);
   return Boolean(value);
 }
 
 function cardHasRenderableStudy(study) {
-  if (!study || typeof study !== 'object') return false;
-  const layout = study.layout || 'standardStudy';
-  if (layout === 'minimalStudy') {
+  if (!study || typeof study !== "object") return false;
+  const layout = study.layout || "standardStudy";
+  if (layout === "minimalStudy") {
     return hasContent(study.note) || hasContent(study.forms) || hasContent(study.tip) || hasContent(study.examples);
   }
-  if (layout === 'comparisonStudy') {
+  if (layout === "comparisonStudy") {
     return hasContent(study.words) || hasContent(study.items) || hasContent(study.terms)
       || hasContent(study.comparison) || hasContent(study.comparisonTable)
       || hasContent(study.subtitle) || hasContent(study.subtitleText)
@@ -49,7 +57,7 @@ function cardHasRenderableStudy(study) {
 }
 
 function escapeRegex(value) {
-  return String(value).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  return String(value).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
 function boundaryPattern(term) {
@@ -59,7 +67,7 @@ function boundaryPattern(term) {
 function matchesTerm(text, term) {
   if (!text || !term) return false;
   try {
-    return new RegExp(boundaryPattern(term), 'iu').test(String(text));
+    return new RegExp(boundaryPattern(term), "iu").test(String(text));
   } catch {
     return false;
   }
@@ -67,17 +75,13 @@ function matchesTerm(text, term) {
 
 function stemMatch(text, term) {
   if (!text || !term || term.length < 4) return false;
-  const stem = String(term).replace(/(?:en|ern|eln)$/i, '');
+  const stem = String(term).replace(/(?:en|ern|eln)$/i, "");
   if (stem.length < 3) return false;
   try {
-    return new RegExp(accentBoundaryPattern(stem) + '[\\p{L}\\p{N}_]*', 'iu').test(String(text));
+    return new RegExp(boundaryPattern(stem) + "[\\p{L}\\p{N}_]*", "iu").test(String(text));
   } catch {
     return false;
   }
-}
-
-function accentBoundaryPattern(term) {
-  return `(?<![\\p{L}\\p{N}_])${escapeRegex(term)}(?![\\p{L}\\p{N}_])`;
 }
 
 function asArray(value) {
@@ -89,39 +93,39 @@ function collectSectionTexts(study, sectionKey, index = null, field = null) {
   const texts = [];
   const push = (v) => {
     if (v === undefined || v === null) return;
-    if (typeof v === 'string') { if (v.trim()) texts.push(v); return; }
+    if (typeof v === "string") { if (v.trim()) texts.push(v); return; }
     if (Array.isArray(v)) { v.forEach(push); return; }
-    if (typeof v === 'object') ['text', 'example', 'de', 'lv', 'word', 'meaning', 'description', 'left', 'right'].forEach((k) => push(v[k]));
+    if (typeof v === "object") ["text", "example", "de", "lv", "word", "meaning", "description", "left", "right"].forEach((k) => push(v[k]));
   };
-  if (sectionKey === 'explanation') {
+  if (sectionKey === "explanation") {
     push(study.explanation);
     (study.explanationLines || []).forEach(push);
     return texts;
   }
-  if (sectionKey === 'examples') {
+  if (sectionKey === "examples") {
     const rows = index !== null ? asArray(study.examples?.[index]) : asArray(study.examples);
     rows.forEach((ex) => {
-      if (!field || field === 'de') push(ex.de);
-      if (!field || field === 'lv') push(ex.lv);
+      if (!field || field === "de") push(ex.de);
+      if (!field || field === "lv") push(ex.lv);
     });
     return texts;
   }
-  if (sectionKey === 'comparison') {
+  if (sectionKey === "comparison") {
     const rows = index !== null ? asArray(study.comparison?.[index]) : asArray(study.comparison);
     rows.forEach((r) => {
-      if (!field || field === 'word') push(r.word);
-      if (!field || field === 'meaning') push(r.meaning);
-      if (!field || field === 'example') push(r.example);
+      if (!field || field === "word") push(r.word);
+      if (!field || field === "meaning") push(r.meaning);
+      if (!field || field === "example") push(r.example);
     });
     return texts;
   }
-  if (sectionKey === 'tip') {
-    if (field === 'left') { push(study.tip?.left || study.tip?.text); return texts; }
-    if (field === 'right') { push(study.tip?.right || study.tip?.example); return texts; }
+  if (sectionKey === "tip") {
+    if (field === "left") { push(study.tip?.left || study.tip?.text); return texts; }
+    if (field === "right") { push(study.tip?.right || study.tip?.example); return texts; }
     push(study.tip);
     return texts;
   }
-  if (sectionKey === 'important') {
+  if (sectionKey === "important") {
     const source = study.important;
     const rows = index !== null
       ? asArray(Array.isArray(source) ? source[index] : source)
@@ -129,22 +133,12 @@ function collectSectionTexts(study, sectionKey, index = null, field = null) {
     rows.forEach(push);
     return texts;
   }
-  if (sectionKey === 'info') { asArray(study.info).forEach(push); return texts; }
+  if (sectionKey === "info") { asArray(study.info).forEach(push); return texts; }
   return texts;
 }
 
 function fold(value) {
-  return String(value || '').normalize('NFD').replace(/\p{M}/gu, '').toLowerCase();
-}
-
-function accentTermMatches(study, sectionKey, index, field, term) {
-  const texts = collectSectionTexts(study, sectionKey, index, field);
-  const blob = texts.join('\n');
-  if (matchesTerm(blob, term) || stemMatch(blob, term)) return true;
-  for (const text of texts) {
-    if (extendedForm(text, term) || substringMatch(text, term)) return true;
-  }
-  return false;
+  return String(value || "").normalize("NFD").replace(/\p{M}/gu, "").toLowerCase();
 }
 
 function substringMatch(text, term) {
@@ -158,7 +152,7 @@ function substringMatch(text, term) {
 function extendedForm(text, term) {
   if (!text || !term || term.length < 3) return null;
   try {
-    const re = new RegExp(`(?<![\\p{L}\\p{N}_])${escapeRegex(term)}\\p{L}*`, 'iu');
+    const re = new RegExp(`(?<![\\p{L}\\p{N}_])${escapeRegex(term)}\\p{L}*`, "iu");
     const m = String(text).match(re);
     if (m && m[0].length > term.length) return m[0];
   } catch {
@@ -167,15 +161,25 @@ function extendedForm(text, term) {
   return null;
 }
 
+function accentTermMatches(study, sectionKey, index, field, term) {
+  const texts = collectSectionTexts(study, sectionKey, index, field);
+  const blob = texts.join("\n");
+  if (matchesTerm(blob, term) || stemMatch(blob, term)) return true;
+  for (const text of texts) {
+    if (extendedForm(text, term) || substringMatch(text, term)) return true;
+  }
+  return false;
+}
+
 function validateSectionAccents(study, sectionAccents, report, cardDe) {
-  if (!sectionAccents || typeof sectionAccents !== 'object') return;
+  if (!sectionAccents || typeof sectionAccents !== "object") return;
   let hasAny = false;
   const checkMap = (sectionKey, index, field, accentMap) => {
-    if (!accentMap || typeof accentMap !== 'object') return;
+    if (!accentMap || typeof accentMap !== "object") return;
     for (const color of ACCENT_COLORS) {
       if (!Array.isArray(accentMap[color])) continue;
       for (const term of accentMap[color]) {
-        const raw = String(term || '').trim();
+        const raw = String(term || "").trim();
         if (!raw) {
           report.sectionAccentIssues++;
           continue;
@@ -193,7 +197,7 @@ function validateSectionAccents(study, sectionAccents, report, cardDe) {
   for (const [sectionKey, rules] of Object.entries(sectionAccents)) {
     if (Array.isArray(rules)) {
       rules.forEach((entry, index) => {
-        if (!entry || typeof entry !== 'object') return;
+        if (!entry || typeof entry !== "object") return;
         const hasColors = ACCENT_COLORS.some((c) => Array.isArray(entry[c]));
         if (hasColors) {
           checkMap(sectionKey, index, null, entry);
@@ -205,7 +209,7 @@ function validateSectionAccents(study, sectionAccents, report, cardDe) {
       });
       continue;
     }
-    if (rules && typeof rules === 'object') {
+    if (rules && typeof rules === "object") {
       const hasColors = ACCENT_COLORS.some((c) => Array.isArray(rules[c]));
       if (hasColors) {
         checkMap(sectionKey, null, null, rules);
@@ -220,17 +224,11 @@ function validateSectionAccents(study, sectionAccents, report, cardDe) {
 }
 
 function loadCards(file, varName) {
-  delete global.A1_WORDS;
-  delete global.A2_WORDS;
-  delete global.B1_WORDS;
-  delete global.B2_WORDS;
-  delete global.C1_WORDS;
-  delete global.C2_WORDS;
-  delete global.SENTENCE_ENTRIES;
-  delete global.VERB_ENTRIES;
-  delete global.COURSE_LESSON_HTML;
-  const code = fs.readFileSync(path.join(process.cwd(), file), 'utf8');
-  eval(code.replace(/window\./g, 'global.'));
+  for (const name of ["A1_WORDS", "A2_WORDS", "B1_WORDS", "B2_WORDS", "C1_WORDS", "C2_WORDS", "SENTENCE_ENTRIES", "VERB_ENTRIES", "COURSE_LESSON_HTML"]) {
+    delete global[name];
+  }
+  const code = readFile(file);
+  eval(code.replace(/window\./g, "global."));
   return global[varName];
 }
 
@@ -264,13 +262,13 @@ function validateFile(file, varName) {
       report.studyObjectNoRenderable++;
       report.flashcard++;
       if (report.examples.studyObjectNoRenderable.length < 5) {
-        report.examples.studyObjectNoRenderable.push({ de: card.de, layout: study.layout || 'standardStudy' });
+        report.examples.studyObjectNoRenderable.push({ de: card.de, layout: study.layout || "standardStudy" });
       }
       continue;
     }
-    const layout = study.layout || 'standardStudy';
-    if (layout === 'minimalStudy') report.minimalStudy++;
-    else if (layout === 'comparisonStudy') report.comparisonStudy++;
+    const layout = study.layout || "standardStudy";
+    if (layout === "minimalStudy") report.minimalStudy++;
+    else if (layout === "comparisonStudy") report.comparisonStudy++;
     else report.standardStudy++;
 
     if (study.sectionAccents) {
@@ -282,22 +280,22 @@ function validateFile(file, varName) {
 
 function compareRootWww() {
   const mismatches = [];
-  for (const [file] of LT_FILES) {
-    const root = path.join(process.cwd(), file);
-    const www = path.join(process.cwd(), file.replace(/^data\//, 'www/data/'));
+  for (const [file] of FILES) {
+    const root = path.join(ROOT, file);
+    const www = path.join(ROOT, file.replace(new RegExp(`^${DIR}/`), `www/${DIR}/`));
     if (!fs.existsSync(root) || !fs.existsSync(www)) {
-      mismatches.push({ file, issue: 'missing-copy' });
+      mismatches.push({ file, issue: "missing-copy" });
       continue;
     }
-    const a = fs.readFileSync(root, 'utf8');
-    const b = fs.readFileSync(www, 'utf8');
-    if (a !== b) mismatches.push({ file, issue: 'content-diff' });
+    const a = fs.readFileSync(root, "utf8");
+    const b = fs.readFileSync(www, "utf8");
+    if (a !== b) mismatches.push({ file, issue: "content-diff" });
   }
-  for (const uiFile of ['ui.js', 'style.css']) {
-    const root = path.join(process.cwd(), uiFile);
-    const www = path.join(process.cwd(), 'www', uiFile);
-    if (fs.existsSync(root) && fs.existsSync(www) && fs.readFileSync(root, 'utf8') !== fs.readFileSync(www, 'utf8')) {
-      mismatches.push({ file: uiFile, issue: 'content-diff' });
+  for (const uiFile of ["ui.js", "style.css"]) {
+    const root = path.join(ROOT, uiFile);
+    const www = path.join(ROOT, "www", uiFile);
+    if (fs.existsSync(root) && fs.existsSync(www) && fs.readFileSync(root, "utf8") !== fs.readFileSync(www, "utf8")) {
+      mismatches.push({ file: uiFile, issue: "content-diff" });
     }
   }
   return mismatches;
@@ -317,11 +315,10 @@ function main() {
     emptySectionAccents: 0,
   };
 
-  for (const [file, varName] of LT_FILES) {
-    const full = path.join(process.cwd(), file);
-    if (!fs.existsSync(full)) continue;
+  for (const [file, varName] of FILES) {
+    if (!fileExists(file)) continue;
     if (SKIP_CARD_VALIDATION.has(file)) {
-      perFile.push({ file, skipped: true, reason: 'not a flashcard array' });
+      perFile.push({ file, skipped: true, reason: "not a flashcard array" });
       continue;
     }
     try {
@@ -335,6 +332,7 @@ function main() {
 
   const sync = compareRootWww();
   const result = {
+    lang,
     totals,
     perFile,
     rootWwwMismatches: sync,
