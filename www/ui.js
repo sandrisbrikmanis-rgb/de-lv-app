@@ -7304,6 +7304,8 @@ function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
     `).join("")
     : Array.isArray(study.tip)
       ? study.tip.map((line, index) => `<p>${formatStudyText(line, textAccentRules("tip", index) || study.sectionAccents?.tip?.leftBlocks?.[index]?.text)}</p>`).join("")
+    : typeof study.tip === "string"
+      ? renderStudyParagraphs(study.tip, "tip")
     : `
       <p>${formatStudyText(study.tip?.left || study.tip?.text || "", study.sectionAccents?.tip?.left)}</p>
       ${Array.isArray(study.tip?.leftItems) && study.tip.leftItems.length ? `<ul>${study.tip.leftItems.map((item) => `<li>${formatStudyText(item, study.sectionAccents?.tip?.leftItems)}</li>`).join("")}</ul>` : ""}

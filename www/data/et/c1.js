@@ -406,7 +406,7 @@ const C1_WORDS = [
             "Einfamilienhaus"
           ],
           "purple": [
-            "üksikelamu"
+            "Põhiidee"
           ]
         },
         "examples": [
@@ -487,7 +487,7 @@ const C1_WORDS = [
         ],
         "tip": {
           "blue": [
-            "Einfamilienhaus"
+            "Liitsõna"
           ]
         },
         "important": {
@@ -1776,37 +1776,75 @@ const C1_WORDS = [
         },
         "examples": [
           {
-            "de": { "blue": "Wettbewerb" },
-            "lv": { "yellow": "võistlusel" }
+            "de": {
+              "blue": "Wettbewerb"
+            },
+            "lv": {
+              "yellow": "võistlusel"
+            }
           },
           {
-            "de": { "blue": "Wettbewerb" },
-            "lv": { "green": "konkurentsis" }
+            "de": {
+              "blue": "Wettbewerb"
+            },
+            "lv": {
+              "green": "konkurentsis"
+            }
           },
           {
-            "de": { "blue": "Wettbewerb", "yellow": "Stelle" },
-            "lv": { "purple": "konkursi" }
+            "de": {
+              "blue": "Wettbewerb",
+              "yellow": "Stelle"
+            },
+            "lv": {
+              "purple": "konkursi"
+            }
           }
         ],
         "comparison": [
           {
-            "word": { "blue": "der Wettbewerb" },
-            "meaning": { "purple": "konkurss" },
-            "example": { "blue": "Wettbewerb" }
+            "word": {
+              "blue": "der Wettbewerb"
+            },
+            "meaning": {
+              "purple": "konkurss"
+            },
+            "example": {
+              "blue": "Wettbewerb"
+            }
           },
           {
-            "word": { "blue": "der Wettbewerb" },
-            "meaning": { "green": "konkurents" },
-            "example": { "blue": "Wettbewerb" }
+            "word": {
+              "blue": "der Wettbewerb"
+            },
+            "meaning": {
+              "green": "konkurents"
+            },
+            "example": {
+              "blue": "Wettbewerb"
+            }
           },
           {
-            "word": { "blue": "der Wettbewerb" },
-            "meaning": { "yellow": "võistlus" },
-            "example": { "blue": "Wettbewerb" }
+            "word": {
+              "blue": "der Wettbewerb"
+            },
+            "meaning": {
+              "yellow": "võistlus"
+            },
+            "example": {
+              "blue": "Wettbewerb"
+            }
           }
         ],
-        "tip": { "blue": "Wettbewerb" },
-        "important": { "blue": "Wettbewerb", "purple": "konkurss", "green": "konkurents", "yellow": "võistlus" }
+        "tip": {
+          "blue": "Wettbewerb"
+        },
+        "important": {
+          "blue": "Wettbewerb",
+          "purple": "konkurss",
+          "green": "konkurents",
+          "yellow": "võistlus"
+        }
       }
     }
   },
@@ -2101,7 +2139,7 @@ const C1_WORDS = [
           ],
           "purple": [
             "valik",
-            "valimised"
+            "valimisi"
           ]
         },
         "examples": [
@@ -4562,7 +4600,7 @@ const C1_WORDS = [
             "berechtigt"
           ],
           "purple": [
-            "valimisõigus"
+            "Põhiidee"
           ]
         },
         "examples": [
@@ -4816,8 +4854,8 @@ const C1_WORDS = [
         "tip": [
           {
             "blue": [
-              "piemaksa",
-              "uzcenojums"
+              "der",
+              "der"
             ]
           },
           {
@@ -4881,12 +4919,12 @@ const C1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "beziehen",
-            "bezieht"
+            "Põhiidee",
+            "Põhiidee"
           ],
           "purple": [
             "seostada",
-            "käima"
+            "Põhiidee"
           ]
         },
         "examples": [
@@ -4923,14 +4961,14 @@ const C1_WORDS = [
           },
           {
             "purple": [
-              "käima millegi kohta"
+              "Formaalne"
             ]
           }
         ],
         "important": [
           {
             "blue": [
-              "beziehen / sich beziehen auf"
+              "Formaalne"
             ]
           }
         ]
@@ -4989,10 +5027,10 @@ const C1_WORDS = [
         "explanation": {
           "green": [
             "beabsichtigen",
-            "beabsichtigt"
+            "beabsichtigen"
           ],
           "purple": [
-            "kavatsema",
+            "kavatsus",
             "plaanima"
           ]
         },
@@ -5000,14 +5038,14 @@ const C1_WORDS = [
           {
             "de": {
               "green": [
-                "beabsichtigen",
-                "beabsichtigen"
+                "beabsichtigt",
+                "beabsichtigt"
               ]
             },
             "lv": {
               "purple": [
-                "kavatsema",
-                "plaanima"
+                "kavatseb",
+                "kavatseb"
               ]
             }
           },
@@ -5020,8 +5058,8 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kavatsema",
-                "plaanima"
+                "kavatsete",
+                "mida"
               ]
             }
           },
@@ -5034,8 +5072,22 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kavatsema",
-                "plaanima"
+                "plaani",
+                "plaani"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "beabsichtigt",
+                "beabsichtigt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kavatseb",
+                "kavatseb"
               ]
             }
           },
@@ -5048,36 +5100,8 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kavatsema",
-                "plaanima"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "beabsichtigen",
-                "beabsichtigen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "kavatsema",
-                "plaanima"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "beabsichtigen",
-                "beabsichtigen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "kavatsema",
-                "plaanima"
+                "kavatseda",
+                "kavatseda"
               ]
             }
           }
@@ -5085,12 +5109,12 @@ const C1_WORDS = [
         "tip": [
           {
             "purple": [
-              "kavatseda"
+              "kavatsema"
             ]
           },
           {
             "purple": [
-              "plaanida"
+              "plaanist"
             ]
           }
         ],
@@ -5153,28 +5177,28 @@ const C1_WORDS = [
         "explanation": {
           "blue": [
             "unterstellen",
-            "unterstellt"
+            "unterstellen"
           ],
           "purple": [
-            "ette heitma",
+            "ette heita",
             "alusetult omistama"
           ],
           "red": [
-            "ette heitma"
+            "ette heita"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "unterstellen",
-                "unterstellen"
+                "unterstellt",
+                "unterstellt"
               ]
             },
             "lv": {
               "purple": [
-                "ette heitma",
-                "alusetult omistama"
+                "Mulle",
+                "Mulle"
               ]
             }
           },
@@ -5187,8 +5211,8 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ette heitma",
-                "alusetult omistama"
+                "ärge",
+                "ärge"
               ]
             }
           },
@@ -5201,22 +5225,22 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ette heitma",
-                "alusetult omistama"
+                "ette heita",
+                "kellelegi"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "unterstellen",
-                "unterstellen"
+                "unterstellt",
+                "unterstellt"
               ]
             },
             "lv": {
               "purple": [
-                "ette heitma",
-                "alusetult omistama"
+                "talle",
+                "talle"
               ]
             }
           },
@@ -5228,21 +5252,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "heidab ette"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "unterstellen",
-                "unterstellen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "ette heitma",
-                "alusetult omistama"
+                "heidab"
               ]
             }
           }
@@ -5255,7 +5265,7 @@ const C1_WORDS = [
           },
           {
             "purple": [
-              "alusetult omistama"
+              "unterstellen"
             ]
           }
         ],
@@ -5309,15 +5319,15 @@ const C1_WORDS = [
             "voraus"
           ],
           "purple": [
-            "eeldust"
+            "eeldus"
           ]
         },
         "examples": [
           {
             "de": {
               "green": [
-                "voraussetzen",
-                "voraussetzen"
+                "Wir",
+                "Wir"
               ]
             },
             "lv": {
@@ -5329,34 +5339,8 @@ const C1_WORDS = [
           {
             "de": {
               "green": [
-                "voraussetzen",
-                "voraussetzen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "eeldame"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "voraussetzen",
-                "voraussetzen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "eeldame"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "voraussetzen",
-                "voraussetzen"
+                "Wir",
+                "Wir"
               ]
             },
             "lv": {
@@ -5428,7 +5412,7 @@ const C1_WORDS = [
         "explanation": {
           "blue": [
             "bewahren",
-            "bewahrt"
+            "bewahren"
           ],
           "purple": [
             "kaitsma"
@@ -5444,8 +5428,8 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kaitsma",
-                "säilitama"
+                "säilitame",
+                "säilitame"
               ]
             }
           },
@@ -5458,8 +5442,8 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kaitsma",
-                "säilitama"
+                "nad",
+                "säilitavad"
               ]
             }
           },
@@ -5472,8 +5456,8 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kaitsma",
-                "säilitama"
+                "säilitame",
+                "säilitame"
               ]
             }
           },
@@ -5488,20 +5472,6 @@ const C1_WORDS = [
                 "säilitada"
               ]
             }
-          },
-          {
-            "de": {
-              "blue": [
-                "bewahren",
-                "bewahren"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "kaitsma",
-                "säilitama"
-              ]
-            }
           }
         ],
         "tip": [
@@ -5512,7 +5482,7 @@ const C1_WORDS = [
           },
           {
             "purple": [
-              "säilitama"
+              "bewahren"
             ]
           }
         ],
@@ -5571,18 +5541,18 @@ const C1_WORDS = [
             "auf"
           ],
           "purple": [
-            "kehtivana hoidma"
+            "Põhiidee"
           ],
           "yellow": [
-            "kehtivana hoidma"
+            "Põhiidee"
           ]
         },
         "examples": [
           {
             "de": {
               "green": [
-                "aufrechterhalten",
-                "aufrechterhalten"
+                "Der",
+                "Der"
               ]
             },
             "lv": {
@@ -5607,21 +5577,8 @@ const C1_WORDS = [
           {
             "de": {
               "green": [
-                "aufrechterhalten",
-                "aufrechterhalten"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "kehtivana"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "aufrechterhalten",
-                "aufrechterhalten"
+                "Der",
+                "Der"
               ]
             },
             "lv": {
