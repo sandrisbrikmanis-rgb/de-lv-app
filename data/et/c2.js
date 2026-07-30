@@ -302,7 +302,7 @@ const C2_WORDS = [
         ],
         "tip": {
           "blue": [
-            "Gewichtseinheit"
+            "Liitsõna"
           ]
         },
         "important": {
@@ -1593,70 +1593,70 @@ const C2_WORDS = [
       "tip": "inwiefern = milles osas; inwieweit = kui palju.",
       "important": "inwiefern ja inwieweit ei ole alati täiesti vahetatavad, aga inwiefern rõhutab aspekti.",
       "sectionAccents": {
-              "explanation": {
-                      "blue": "inwiefern",
-                      "purple": "milles osas",
-                      "red": "inwieweit",
-                      "yellow": "kui palju"
-              },
-              "examples": [
-                      {
-                              "de": {
-                                      "blue": "Inwiefern"
-                              },
-                              "lv": {
-                                      "purple": "milles osas"
-                              }
-                      },
-                      {
-                              "de": {
-                                      "blue": "Inwiefern"
-                              },
-                              "lv": {
-                                      "purple": "mil moel"
-                              }
-                      },
-                      {
-                              "de": {
-                                      "red": "Inwieweit"
-                              },
-                              "lv": {
-                                      "yellow": "kui palju"
-                              }
-                      }
-              ],
-              "comparison": [
-                      {
-                              "word": {
-                                      "blue": "inwiefern"
-                              },
-                              "meaning": {
-                                      "purple": "milles osas"
-                              },
-                              "example": {
-                                      "blue": "Inwiefern"
-                              }
-                      },
-                      {
-                              "word": {
-                                      "red": "inwieweit"
-                              },
-                              "meaning": {
-                                      "yellow": "kuivõrd"
-                              },
-                              "example": {
-                                      "red": "Inwieweit"
-                              }
-                      }
-              ],
-              "tip": {
-                      "blue": "inwiefern",
-                      "red": "inwieweit"
-              },
-              "important": {
-                      "blue": "inwiefern",
-                      "red": "inwieweit"
-              }
+        "explanation": {
+          "blue": "inwiefern",
+          "purple": "milles osas",
+          "red": "inwieweit",
+          "yellow": "kui palju"
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": "Inwiefern"
+            },
+            "lv": {
+              "purple": "milles osas"
+            }
+          },
+          {
+            "de": {
+              "blue": "Inwiefern"
+            },
+            "lv": {
+              "purple": "mil moel"
+            }
+          },
+          {
+            "de": {
+              "red": "Inwieweit"
+            },
+            "lv": {
+              "yellow": "kui palju"
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "blue": "inwiefern"
+            },
+            "meaning": {
+              "purple": "milles osas"
+            },
+            "example": {
+              "blue": "Inwiefern"
+            }
+          },
+          {
+            "word": {
+              "red": "inwieweit"
+            },
+            "meaning": {
+              "yellow": "kuivõrd"
+            },
+            "example": {
+              "red": "Inwieweit"
+            }
+          }
+        ],
+        "tip": {
+          "blue": "inwiefern",
+          "red": "inwieweit"
+        },
+        "important": {
+          "blue": "inwiefern",
+          "red": "inwieweit"
+        }
       }
     }
   },
@@ -1698,70 +1698,70 @@ const C2_WORDS = [
       "tip": "inwieweit = kui palju; inwiefern = milles osas.",
       "important": "inwieweit rõhutab määra või ulatust; inwiefern rõhutab aspekti.",
       "sectionAccents": {
-              "explanation": {
-                      "blue": "inwieweit",
-                      "purple": "kui palju",
-                      "red": "inwiefern",
-                      "yellow": "milles osas"
-              },
-              "examples": [
-                      {
-                              "de": {
-                                      "blue": "Inwieweit"
-                              },
-                              "lv": {
-                                      "purple": "kui palju"
-                              }
-                      },
-                      {
-                              "de": {
-                                      "blue": "Inwieweit"
-                              },
-                              "lv": {
-                                      "purple": "kuivõrd"
-                              }
-                      },
-                      {
-                              "de": {
-                                      "red": "Inwiefern"
-                              },
-                              "lv": {
-                                      "yellow": "milles osas"
-                              }
-                      }
-              ],
-              "comparison": [
-                      {
-                              "word": {
-                                      "blue": "inwieweit"
-                              },
-                              "meaning": {
-                                      "purple": "kuivõrd"
-                              },
-                              "example": {
-                                      "blue": "Inwieweit"
-                              }
-                      },
-                      {
-                              "word": {
-                                      "red": "inwiefern"
-                              },
-                              "meaning": {
-                                      "yellow": "milles osas"
-                              },
-                              "example": {
-                                      "red": "Inwiefern"
-                              }
-                      }
-              ],
-              "tip": {
-                      "blue": "inwieweit",
-                      "red": "inwiefern"
-              },
-              "important": {
-                      "blue": "inwieweit",
-                      "red": "inwiefern"
-              }
+        "explanation": {
+          "blue": "inwieweit",
+          "purple": "kui palju",
+          "red": "inwiefern",
+          "yellow": "milles osas"
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": "Inwieweit"
+            },
+            "lv": {
+              "purple": "kui palju"
+            }
+          },
+          {
+            "de": {
+              "blue": "Inwieweit"
+            },
+            "lv": {
+              "purple": "kuivõrd"
+            }
+          },
+          {
+            "de": {
+              "red": "Inwiefern"
+            },
+            "lv": {
+              "yellow": "milles osas"
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "blue": "inwieweit"
+            },
+            "meaning": {
+              "purple": "kuivõrd"
+            },
+            "example": {
+              "blue": "Inwieweit"
+            }
+          },
+          {
+            "word": {
+              "red": "inwiefern"
+            },
+            "meaning": {
+              "yellow": "milles osas"
+            },
+            "example": {
+              "red": "Inwiefern"
+            }
+          }
+        ],
+        "tip": {
+          "blue": "inwieweit",
+          "red": "inwiefern"
+        },
+        "important": {
+          "blue": "inwieweit",
+          "red": "inwiefern"
+        }
       }
     }
   },
