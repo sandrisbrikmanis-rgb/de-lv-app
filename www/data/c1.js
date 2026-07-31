@@ -3862,9 +3862,6 @@ const C1_WORDS = [
             "wahlberechtigt",
             "Wahl",
             "berechtigt"
-          ],
-          "purple": [
-            "vēlēšanu tiesības"
           ]
         },
         "examples": [
@@ -4178,30 +4175,11 @@ const C1_WORDS = [
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "beziehen",
-            "bezieht"
-          ],
           "purple": [
-            "attiecināt",
-            "attiekties"
+            "attiecināt"
           ]
         },
         "examples": [
-          {
-            "de": {
-              "blue": [
-                "beziehen / sich beziehen auf",
-                "beziehen / sich beziehen auf"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "attiecināt",
-                "attiekties uz"
-              ]
-            }
-          },
           {
             "de": {
               "blue": [
@@ -4223,18 +4201,10 @@ const C1_WORDS = [
               "attiecināt"
             ]
           },
-          {
-            "purple": [
-              "attiekties uz"
-            ]
-          }
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "beziehen / sich beziehen auf"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -4290,8 +4260,7 @@ const C1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "green": [
-            "beabsichtigen",
-            "beabsichtigt"
+            "beabsichtigen"
           ],
           "purple": [
             "nodomāt",
@@ -4302,14 +4271,12 @@ const C1_WORDS = [
           {
             "de": {
               "green": [
-                "beabsichtigen",
-                "beabsichtigen"
+                "beabsichtigt"
               ]
             },
             "lv": {
               "purple": [
-                "nodomāt",
-                "plānot"
+                "nodomājis"
               ]
             }
           },
@@ -4322,8 +4289,28 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "nodomāt",
-                "plānot"
+                "nodomājat"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "beabsichtigen",
+                "beabsichtigen"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "green": [
+                "beabsichtigt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nodomājis"
               ]
             }
           },
@@ -4336,50 +4323,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "nodomāt",
-                "plānot"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "beabsichtigen",
-                "beabsichtigen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "nodomāt",
-                "plānot"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "beabsichtigen",
-                "beabsichtigen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "nodomāt",
-                "plānot"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "beabsichtigen",
-                "beabsichtigen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "nodomāt",
-                "plānot"
+                "nodomāt"
               ]
             }
           }
@@ -4392,7 +4336,7 @@ const C1_WORDS = [
           },
           {
             "purple": [
-              "plānot"
+              "plānu"
             ]
           }
         ],
@@ -4454,8 +4398,7 @@ const C1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "unterstellen",
-            "unterstellt"
+            "unterstellen"
           ],
           "purple": [
             "pārmest",
@@ -4469,14 +4412,12 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
-                "unterstellen",
-                "unterstellen"
+                "unterstellt"
               ]
             },
             "lv": {
               "purple": [
-                "pārmest",
-                "piedēvēt bez pamata"
+                "pārmet"
               ]
             }
           },
@@ -4487,12 +4428,7 @@ const C1_WORDS = [
                 "unterstellen"
               ]
             },
-            "lv": {
-              "purple": [
-                "pārmest",
-                "piedēvēt bez pamata"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -4503,8 +4439,19 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pārmest",
-                "piedēvēt bez pamata"
+                "pārmest"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "unterstellt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pārmest"
               ]
             }
           },
@@ -4515,40 +4462,7 @@ const C1_WORDS = [
                 "unterstellen"
               ]
             },
-            "lv": {
-              "purple": [
-                "pārmest",
-                "piedēvēt bez pamata"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "unterstellen",
-                "unterstellen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "pārmest",
-                "piedēvēt bez pamata"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "unterstellen",
-                "unterstellen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "pārmest",
-                "piedēvēt bez pamata"
-              ]
-            }
+            "lv": {}
           }
         ],
         "tip": [
@@ -4557,11 +4471,7 @@ const C1_WORDS = [
               "pārmest"
             ]
           },
-          {
-            "purple": [
-              "piedēvēt bez pamata"
-            ]
-          }
+          {}
         ],
         "important": [
           {
@@ -4618,64 +4528,16 @@ const C1_WORDS = [
         },
         "examples": [
           {
-            "de": {
-              "green": [
-                "voraussetzen",
-                "voraussetzen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "pieņemt kā priekšnoteikumu"
-              ]
-            }
+            "de": {},
+            "lv": {}
           },
           {
-            "de": {
-              "green": [
-                "voraussetzen",
-                "voraussetzen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "pieņemt kā priekšnoteikumu"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "voraussetzen",
-                "voraussetzen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "pieņemt kā priekšnoteikumu"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "voraussetzen",
-                "voraussetzen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "pieņemt kā priekšnoteikumu"
-              ]
-            }
+            "de": {},
+            "lv": {}
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "pieņemt kā priekšnoteikumu"
-            ]
-          }
+          {}
         ],
         "important": [
           {
@@ -4731,8 +4593,7 @@ const C1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "bewahren",
-            "bewahrt"
+            "bewahren"
           ],
           "purple": [
             "pasargāt"
@@ -4748,8 +4609,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pasargāt",
-                "saglabāt"
+                "saglabājam"
               ]
             }
           },
@@ -4762,8 +4622,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pasargāt",
-                "saglabāt"
+                "saglabā"
               ]
             }
           },
@@ -4776,22 +4635,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pasargāt",
-                "saglabāt"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "bewahren",
-                "bewahren"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "pasargāt",
-                "saglabāt"
+                "saglabājam"
               ]
             }
           },
@@ -4816,11 +4660,7 @@ const C1_WORDS = [
               "pasargāt"
             ]
           },
-          {
-            "purple": [
-              "saglabāt"
-            ]
-          }
+          {}
         ],
         "important": [
           {
@@ -4875,27 +4715,12 @@ const C1_WORDS = [
             "aufrechterhalten",
             "erhält",
             "auf"
-          ],
-          "purple": [
-            "uzturēt spēkā"
-          ],
-          "yellow": [
-            "uzturēt spēkā"
           ]
         },
         "examples": [
           {
-            "de": {
-              "green": [
-                "aufrechterhalten",
-                "aufrechterhalten"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "uzturēt spēkā"
-              ]
-            }
+            "de": {},
+            "lv": {}
           },
           {
             "de": {
@@ -4904,37 +4729,11 @@ const C1_WORDS = [
                 "aufrechterhalten"
               ]
             },
-            "lv": {
-              "purple": [
-                "uzturēt spēkā"
-              ]
-            }
+            "lv": {}
           },
           {
-            "de": {
-              "green": [
-                "aufrechterhalten",
-                "aufrechterhalten"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "uzturēt spēkā"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "aufrechterhalten",
-                "aufrechterhalten"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "uzturēt spēkā"
-              ]
-            }
+            "de": {},
+            "lv": {}
           }
         ],
         "tip": [
