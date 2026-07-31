@@ -1042,16 +1042,10 @@ const A2_WORDS = [
         },
         "examples": [
           {
-            "de": {
-              "blue": [
-                "abholen",
-                "abholen"
-              ]
-            },
+            "de": {},
             "lv": {
               "purple": [
-                "paņemt",
-                "izņemt"
+                "paņemšu"
               ]
             }
           },
@@ -1064,36 +1058,15 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "paņemt",
-                "izņemt"
+                "paņemt"
               ]
             }
           },
           {
-            "de": {
-              "blue": [
-                "abholen",
-                "abholen"
-              ]
-            },
+            "de": {},
             "lv": {
               "purple": [
-                "paņemt",
-                "izņemt"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "abholen",
-                "abholen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "paņemt",
-                "izņemt"
+                "paņemšu"
               ]
             }
           }
@@ -1106,7 +1079,7 @@ const A2_WORDS = [
           },
           {
             "purple": [
-              "izņemt"
+              "paņemt"
             ]
           }
         ],
@@ -1169,14 +1142,12 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
-                "holen",
-                "holen"
+                "hole"
               ]
             },
             "lv": {
               "purple": [
-                "aiziet pakaļ",
-                "atnest"
+                "atnesu"
               ]
             }
           },
@@ -1187,48 +1158,23 @@ const A2_WORDS = [
                 "holen"
               ]
             },
-            "lv": {
-              "purple": [
-                "aiziet pakaļ",
-                "atnest"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "green": [
-                "holen",
-                "holen"
+                "hole"
               ]
             },
             "lv": {
               "purple": [
-                "aiziet pakaļ",
-                "atnest"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "holen",
-                "holen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "aiziet pakaļ",
-                "atnest"
+                "atnesu"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "aiziet pakaļ"
-            ]
-          },
+          {},
           {
             "purple": [
               "atnest"
@@ -1303,14 +1249,12 @@ const A2_WORDS = [
           {
             "de": {
               "yellow": [
-                "bringen",
-                "bringen"
+                "bringe"
               ]
             },
             "lv": {
               "purple": [
-                "atnest",
-                "nogādāt"
+                "atnesu"
               ]
             }
           },
@@ -1323,8 +1267,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "atnest",
-                "nogādāt"
+                "atnesiet"
               ]
             }
           },
@@ -1337,22 +1280,19 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "atnest",
-                "nogādāt"
+                "atnesam"
               ]
             }
           },
           {
             "de": {
               "yellow": [
-                "bringen",
-                "bringen"
+                "bringe"
               ]
             },
             "lv": {
               "purple": [
-                "atnest",
-                "nogādāt"
+                "atnesu"
               ]
             }
           }
@@ -1363,11 +1303,7 @@ const A2_WORDS = [
               "atnest"
             ]
           },
-          {
-            "purple": [
-              "nogādāt"
-            ]
-          }
+          {}
         ],
         "important": [
           {
@@ -5591,130 +5527,29 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {
-              "green": [
-                "die Art",
-                "Art"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "veids"
-              ]
-            },
-            "example": {
-              "blue": [
-                "leichter",
-                "vieglāk",
-                "diese",
-                "veidā",
-                "geht",
-                "Šādā",
-                "Art"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "die Art",
-                "Art"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "suga"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Art"
-              ],
-              "purple": [
-                "suga"
-              ],
-              "green": [
-                "Diese",
-                "dzīvo",
-                "lebt",
-                "mežā",
-                "suga",
-                "Wald"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "der Typ",
-                "Typ"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "tips / cilvēka tips",
-                "cilvēka",
-                "tips"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "mans",
-                "tips",
-                "Typ"
-              ],
-              "orange": [
-                "tips"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "die Sorte",
-                "Sorte"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "šķirne"
-              ]
-            },
-            "example": {
-              "red": [
-                "möchten",
-                "šķirni",
-                "Welche",
-                "Sorte",
-                "tējas",
-                "Kādu"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "purple": [
-                "die Weise",
-                "weise"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "veids / paņēmiens",
-                "paņēmiens",
-                "veids"
-              ]
-            },
-            "example": {
-              "purple": [
-                "izdodas",
-                "klappt",
-                "diese",
-                "veidā",
-                "weise",
-                "šādā"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": {
@@ -11321,134 +11156,29 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {
-              "green": [
-                "das Band",
-                "Band"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "lente / saite / josla",
-                "josla",
-                "lente",
-                "saite"
-              ]
-            },
-            "example": {
-              "blue": [
-                "sarkana",
-                "lente",
-                "rotes",
-                "Band"
-              ],
-              "orange": [
-                "lente"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "Band"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "saikne"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Band"
-              ],
-              "purple": [
-                "saikne"
-              ],
-              "green": [
-                "cilvēkiem",
-                "Menschen",
-                "zwischen",
-                "saikne",
-                "starp",
-                "Band"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "das Förderband",
-                "Förderband"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "konveijera lente",
-                "konveijera",
-                "lente"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "das Förderband",
-                "Förderband",
-                "kustas",
-                "läuft",
-                "Lente"
-              ],
-              "orange": [
-                "lente"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "die Band",
-                "Band"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "mūzikas grupa",
-                "mūzikas",
-                "grupa"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Band"
-              ],
-              "red": [
-                "die Band",
-                "spielt",
-                "Grupa",
-                "spēlē",
-                "Band"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "purple": [
-                "die Schleife",
-                "schleife"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "bante"
-              ]
-            },
-            "example": {
-              "purple": [
-                "schleife",
-                "skaista",
-                "schöne",
-                "bante"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": {
@@ -11806,10 +11536,7 @@ const A2_WORDS = [
             },
             "meaning": {
               "purple": [
-                "banka / sols / sēklis",
-                "sēklis",
-                "banka",
-                "sols"
+                "banka"
               ]
             },
             "example": {
@@ -11821,32 +11548,14 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {
-              "green": [
-                "die Bankfiliale",
-                "Bankfiliale"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "bankas filiāle",
-                "filiāle",
-                "bankas"
-              ]
-            },
-            "example": {
-              "green": [
-                "die Bankfiliale",
-                "Bankfiliale",
-                "geöffnet",
-                "atvērta",
-                "filiāle",
-                "Bankas"
-              ],
-              "purple": [
-                "bankas filiāle"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
+          },
+          {
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -11855,68 +11564,17 @@ const A2_WORDS = [
                 "Parkbank"
               ]
             },
-            "meaning": {
-              "purple": [
-                "parka soliņš",
-                "soliņš",
-                "parka"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "Parkbank",
-                "sitzen",
-                "soliņa",
-                "parka",
-                "sēžam"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "die Sandbank",
-                "Sandbank"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "smilšu sēklis",
-                "sēklis",
-                "smilšu"
-              ]
-            },
+            "meaning": {},
             "example": {
               "red": [
-                "Sandbank",
-                "uzsēdies",
-                "Schiff",
-                "steckt",
-                "Kuģis",
-                "sēkļa"
+                "Parkbank"
               ]
             }
           },
           {
-            "word": {
-              "purple": [
-                "der Stuhl",
-                "stuhl"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "krēsls"
-              ]
-            },
-            "example": {
-              "purple": [
-                "krēsla",
-                "sitze",
-                "stuhl",
-                "sēžu"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": {
@@ -11981,10 +11639,8 @@ const A2_WORDS = [
               ],
               "red": [
                 "Sandbank",
-                "sitzen",
-                "soliņa",
-                "banku",
-                "sēdēt",
+                "soliņi",
+                "banka",
                 "Bank"
               ]
             }
@@ -12259,132 +11915,29 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {
-              "green": [
-                "bauen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "būvēt • celt • taisīt",
-                "taisīt",
-                "būvēt",
-                "celt"
-              ]
-            },
-            "example": {
-              "blue": [
-                "bauen",
-                "būvēt",
-                "Haus",
-                "māju"
-              ],
-              "orange": [
-                "Būvēt"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "bauen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "audzēt"
-              ]
-            },
-            "example": {
-              "blue": [
-                "bauen"
-              ],
-              "purple": [
-                "audzēt"
-              ],
-              "green": [
-                "dārzeņus",
-                "audzēt",
-                "Gemüse",
-                "bauen"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "auf etwas bauen",
-                "bauen",
-                "etwas"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "balstīties / paļauties",
-                "balstīties",
-                "paļauties"
-              ]
-            },
-            "example": {
-              "blue": [
-                "bauen"
-              ],
-              "orange": [
-                "balstīties"
-              ],
-              "yellow": [
-                "balstīties",
-                "Vertrauen",
-                "uzticību",
-                "bauen"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "machen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "darīt / taisīt vispārīgi",
-                "vispārīgi",
-                "taisīt",
-                "darīt"
-              ]
-            },
-            "example": {
-              "red": [
-                "sarakstu",
-                "Liste",
-                "mache",
-                "taisu"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "purple": [
-                "herstellen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "ražot / izgatavot",
-                "izgatavot",
-                "ražot"
-              ]
-            },
-            "example": {
-              "purple": [
-                "mēbeles",
-                "stellt",
-                "firma",
-                "möbel",
-                "ražo"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": {
@@ -13011,106 +12564,29 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {
-              "green": [
-                "der Becher"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "krūze",
-                "glāze"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Becher"
-              ],
-              "purple": [
-                "krūze"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "das Glas"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "glāze"
-              ]
-            },
-            "example": {
-              "green": [
-                "Glas"
-              ],
-              "purple": [
-                "glāze"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "die Tasse"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "tasīte",
-                "krūze"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "Tasse"
-              ],
-              "purple": [
-                "tasīte"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "der Pappbecher"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "kartona glāze"
-              ]
-            },
-            "example": {
-              "orange": [
-                "Pappbecher"
-              ],
-              "purple": [
-                "kartona glāze"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "der Plastikbecher"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "plastmasas glāze"
-              ]
-            },
-            "example": {
-              "red": [
-                "Plastikbecher"
-              ],
-              "purple": [
-                "plastmasas glāze"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": {
@@ -14463,7 +13939,6 @@ const A2_WORDS = [
               ]
             },
             "lv": {
-              "orange": [],
               "purple": [
                 "autobusu",
                 "nokavēju"
@@ -14478,7 +13953,6 @@ const A2_WORDS = [
               ]
             },
             "lv": {
-              "orange": [],
               "purple": [
                 "nokrita"
               ]
@@ -14494,7 +13968,6 @@ const A2_WORDS = [
               ]
             },
             "lv": {
-              "orange": [],
               "purple": [
                 "saplīsa",
                 "glāze"
@@ -14509,7 +13982,6 @@ const A2_WORDS = [
               ]
             },
             "lv": {
-              "orange": [],
               "purple": [
                 "nokavējām"
               ]
@@ -14523,7 +13995,6 @@ const A2_WORDS = [
               ]
             },
             "lv": {
-              "orange": [],
               "purple": [
                 "uzvarēja"
               ]
@@ -14537,7 +14008,6 @@ const A2_WORDS = [
               ]
             },
             "lv": {
-              "orange": [],
               "purple": [
                 "aizmirsu"
               ]
@@ -14564,8 +14034,7 @@ const A2_WORDS = [
                 "gelacht",
                 "hätte",
                 "sāku"
-              ],
-              "orange": []
+              ]
             }
           },
           {
@@ -14574,17 +14043,14 @@ const A2_WORDS = [
                 "fast"
               ]
             },
-            "meaning": {
-              "purple": []
-            },
+            "meaning": {},
             "example": {
               "green": [
                 "fertig",
                 "gatavs",
                 "esmu",
                 "fast"
-              ],
-              "orange": []
+              ]
             }
           },
           {
@@ -16463,8 +15929,7 @@ const A2_WORDS = [
             "bitte"
           ],
           "purple": [
-            "lūgums",
-            "lūgumi"
+            "lūgums"
           ],
           "yellow": [
             "Bitte",
@@ -16475,7 +15940,6 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
-                "die Bitte",
                 "bitte"
               ]
             },
@@ -16488,46 +15952,30 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
-                "die Bitte",
                 "bitte"
               ]
             },
-            "lv": {
-              "purple": [
-                "lūgums"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "green": [
-                "die Bitte",
                 "bitte"
               ]
             },
-            "lv": {
-              "purple": [
-                "lūgums"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "green": [
-                "die Bitte",
                 "bitte"
               ]
             },
-            "lv": {
-              "purple": [
-                "lūgums"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "green": [
-                "die Bitte",
                 "bitte"
               ]
             },
@@ -16559,11 +16007,7 @@ const A2_WORDS = [
           }
         ],
         "important": [
-          {
-            "green": [
-              "die Bitte"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -22032,12 +21476,8 @@ const A2_WORDS = [
             "green": [
               "darüber"
             ],
-            "yellow": [
-              "daraus"
-            ],
             "red": [
-              "von dem",
-              "weg davon"
+              "von dem"
             ]
           }
         },
@@ -22117,102 +21557,29 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {
-              "green": [
-                "davon"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "no tā",
-                "par to"
-              ]
-            },
-            "example": {
-              "blue": [
-                "davon"
-              ],
-              "purple": [
-                "par to"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "darüber"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "par to"
-              ]
-            },
-            "example": {
-              "green": [
-                "darüber"
-              ],
-              "purple": [
-                "par to"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "daraus"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "no tā"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "daraus"
-              ],
-              "purple": [
-                "no tā"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "von dem"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "no tā konkrētā"
-              ]
-            },
-            "example": {
-              "orange": [
-                "von dem"
-              ],
-              "purple": [
-                "no tās kūkas"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "weg davon"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "prom no tā"
-              ]
-            },
-            "example": {
-              "red": [
-                "prom no tā"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": [
@@ -22687,10 +22054,6 @@ const A2_WORDS = [
             ],
             "yellow": [
               "viedokli"
-            ],
-            "red": [
-              "dafür",
-              "dabei"
             ]
           }
         },
@@ -22991,15 +22354,6 @@ const A2_WORDS = [
               "griestus",
               "sega",
               "griesti"
-            ],
-            "green": [
-              "Bettdecke"
-            ],
-            "yellow": [
-              "Zimmerdecke"
-            ],
-            "red": [
-              "Dach"
             ]
           }
         },
@@ -23355,9 +22709,6 @@ const A2_WORDS = [
             ],
             "yellow": [
               "dann"
-            ],
-            "red": [
-              "deshalb"
             ]
           }
         },
@@ -24568,8 +23919,7 @@ const A2_WORDS = [
             ],
             "purple": [
               "doktors",
-              "ārstu",
-              "ārsts"
+              "ārstu"
             ],
             "green": [
               "der Arzt"
@@ -24578,7 +23928,7 @@ const A2_WORDS = [
               "die Ärztin"
             ],
             "red": [
-              "Titel",
+              "tituls",
               "tituls"
             ]
           }
@@ -24914,7 +24264,6 @@ const A2_WORDS = [
             "purple": [
               "griezt",
               "pagriezt",
-              "grozīt",
               "rotē"
             ],
             "green": [
@@ -25006,95 +24355,29 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {
-              "green": [
-                "drehen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "griezt",
-                "grozīt",
-                "pagriezt"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Dreh"
-              ],
-              "purple": [
-                "pagriez"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "schneiden"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "griezt ar nazi"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "griežu maizi"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "wenden"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "apgriezt"
-              ]
-            },
-            "example": {
-              "green": [
-                "Apgrieziet"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "sich drehen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "griezties"
-              ]
-            },
-            "example": {
-              "red": [
-                "griežas"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "umdrehen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "apgriezt otrādi",
-                "pagriezties"
-              ]
-            },
-            "example": {
-              "orange": [
-                "Pagriezies"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": [
@@ -25351,96 +24634,29 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {
-              "green": [
-                "drücken"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "spiest",
-                "nospiest"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Drück"
-              ],
-              "purple": [
-                "nospied"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "drucken"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "drukāt"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "drucke"
-              ],
-              "red": [
-                "drukāju"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "schieben"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "stumt"
-              ]
-            },
-            "example": {
-              "green": [
-                "Pastum"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "ziehen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "vilkt"
-              ]
-            },
-            "example": {
-              "red": [
-                "Velc"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "anklicken"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "uzklikšķināt"
-              ]
-            },
-            "example": {
-              "orange": [
-                "Uzklikšķiniet"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": [
@@ -25496,12 +24712,6 @@ const A2_WORDS = [
           },
           {
             "text": {
-              "blue": [
-                "drücken"
-              ],
-              "red": [
-                "drucken"
-              ],
               "purple": [
                 "nozīme ir cita"
               ]
@@ -25638,13 +24848,6 @@ const A2_WORDS = [
               "papīrs",
               "mati",
               "zupa"
-            ],
-            "yellow": [
-              "dick"
-            ],
-            "red": [
-              "schmal",
-              "flüssig"
             ]
           }
         },
@@ -25820,9 +25023,6 @@ const A2_WORDS = [
         "tip": [
           {
             "text": {
-              "blue": [
-                "dünn"
-              ],
               "purple": [
                 "plāns",
                 "tievs"
@@ -25961,9 +25161,6 @@ const A2_WORDS = [
             ],
             "yellow": [
               "mit"
-            ],
-            "red": [
-              "wegen"
             ]
           }
         },
@@ -26043,100 +25240,29 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {
-              "green": [
-                "durch"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "caur",
-                "pa",
-                "ar"
-              ]
-            },
-            "example": {
-              "blue": [
-                "durch"
-              ],
-              "purple": [
-                "caur"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "durch den Park"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "caur parku"
-              ]
-            },
-            "example": {
-              "blue": [
-                "durch den Park"
-              ],
-              "purple": [
-                "caur parku"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "durch die Stadt"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "pa pilsētu"
-              ]
-            },
-            "example": {
-              "green": [
-                "durch die Stadt"
-              ],
-              "purple": [
-                "pa pilsētu"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "mit"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "ar"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "ar autobusu"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "wegen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "dēļ"
-              ]
-            },
-            "example": {
-              "red": [
-                "dēļ"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": [
@@ -28237,8 +27363,7 @@ const A2_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "einschlafen",
-            "eingeschlafen"
+            "einschlafen"
           ],
           "purple": [
             "aizmigt",
@@ -29680,114 +28805,29 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {
-              "green": [
-                "erfahren"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "uzzināt",
-                "pieredzēt"
-              ]
-            },
-            "example": {
-              "blue": [
-                "erfahre"
-              ],
-              "purple": [
-                "uzzinu"
-              ],
-              "yellow": [
-                "Nachricht",
-                "ziņu"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "wissen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "zināt"
-              ]
-            },
-            "example": {
-              "red": [
-                "weiß"
-              ],
-              "purple": [
-                "zinu"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "lernen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "mācīties",
-                "uzzināt"
-              ]
-            },
-            "example": {
-              "green": [
-                "lerne"
-              ],
-              "purple": [
-                "mācos"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "erleben"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "piedzīvot"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "erlebe"
-              ],
-              "purple": [
-                "piedzīvoju"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "erfahren"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "pieredzējis"
-              ]
-            },
-            "example": {
-              "blue": [
-                "erfahrener"
-              ],
-              "purple": [
-                "pieredzējis"
-              ],
-              "green": [
-                "Arzt",
-                "ārsts"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": [
@@ -32472,119 +31512,29 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {
-              "green": [
-                "fest"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "ciets / stingrs",
-                "stingrs",
-                "ciets"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Boden",
-                "cieta",
-                "fest",
-                "Zeme"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "fest"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "fiksēts / noteikts",
-                "noteikts",
-                "fiksēts"
-              ]
-            },
-            "example": {
-              "orange": [
-                "fiksēts"
-              ],
-              "green": [
-                "fiksēts",
-                "termiņš",
-                "fester",
-                "Termin"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "fest"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "pastāvīgs"
-              ]
-            },
-            "example": {
-              "red": [
-                "pastāvīgs"
-              ],
-              "yellow": [
-                "pastāvīgs",
-                "Arbeit",
-                "darbs",
-                "feste"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "hart"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "ciets materiāls",
-                "materiāls",
-                "ciets"
-              ]
-            },
-            "example": {
-              "orange": [
-                "ciets"
-              ],
-              "red": [
-                "Akmens",
-                "ciets",
-                "Stein",
-                "hart"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "purple": [
-                "stabil"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "stabils"
-              ]
-            },
-            "example": {
-              "purple": [
-                "stabils",
-                "stabil",
-                "galds",
-                "tisch"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": {
@@ -34550,87 +33500,24 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {
-              "green": [
-                "der Gang"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "gaitenis",
-                "gaita",
-                "ēdiena kārta"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Gang"
-              ],
-              "purple": [
-                "gaitenis"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "der Flur"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "priekšnams",
-                "gaitenis"
-              ]
-            },
-            "example": {
-              "green": [
-                "Flur"
-              ],
-              "purple": [
-                "priekšnamā"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "das Gehen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "iešana"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "Gehen"
-              ],
-              "purple": [
-                "iešana"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "der Gang"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "pārnesums"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Gang"
-              ],
-              "purple": [
-                "pārnesums"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": [
@@ -35022,95 +33909,24 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {
-              "green": [
-                "gegenüber"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "pretī",
-                "pret",
-                "salīdzinot ar"
-              ]
-            },
-            "example": {
-              "blue": [
-                "gegenüber"
-              ],
-              "purple": [
-                "pretī"
-              ],
-              "yellow": [
-                "Bahnhof",
-                "stacijai"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "gegen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "pret"
-              ]
-            },
-            "example": {
-              "red": [
-                "gegen"
-              ],
-              "purple": [
-                "pret"
-              ],
-              "yellow": [
-                "Plan",
-                "plānu"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "vor"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "priekšā",
-                "pirms"
-              ]
-            },
-            "example": {
-              "green": [
-                "vor"
-              ],
-              "purple": [
-                "priekšā"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "im Vergleich zu"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "salīdzinot ar"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "im Vergleich zu"
-              ],
-              "purple": [
-                "salīdzinot ar"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": [
@@ -35891,9 +34707,6 @@ const A2_WORDS = [
             "de": {
               "blue": [
                 "gerade"
-              ],
-              "green": [
-                "ruft an"
               ]
             },
             "lv": {
@@ -37191,9 +36004,6 @@ const A2_WORDS = [
               ]
             },
             "example": {
-              "green": [
-                "schenke ein"
-              ],
               "purple": [
                 "ieleju"
               ],
@@ -38959,125 +37769,29 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {
-              "green": [
-                "Holz"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "koksne / materiāls",
-                "materiāls",
-                "koksne"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Galds",
-                "Tisch",
-                "Holz",
-                "koka"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "Holz"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "malka"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Holz"
-              ],
-              "green": [
-                "krāsnij",
-                "Malka",
-                "Holz",
-                "Ofen"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "der Baum",
-                "Baum"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "dzīvs koks",
-                "dzīvs",
-                "koks"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "der Baum",
-                "augsts",
-                "Baum",
-                "hoch",
-                "Koks"
-              ],
-              "orange": [
-                "Koks"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "das Brett",
-                "Brett"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "dēlis"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Holz"
-              ],
-              "purple": [
-                "dēlis"
-              ],
-              "red": [
-                "Brett",
-                "dēlis",
-                "Holz",
-                "koka"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "purple": [
-                "der Wald",
-                "wald"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "mežs"
-              ]
-            },
-            "example": {
-              "purple": [
-                "stehen",
-                "bäume",
-                "koki",
-                "mežā",
-                "wald"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": {
@@ -39410,9 +38124,6 @@ const A2_WORDS = [
           "red": [
             "kamēr",
             "während"
-          ],
-          "yellow": [
-            "metodi"
           ]
         },
         "examples": [
@@ -39851,88 +38562,24 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {
-              "green": [
-                "je"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "jebkad"
-              ]
-            },
-            "example": {
-              "blue": [
-                "je"
-              ],
-              "purple": [
-                "jebkad"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "je"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "pa",
-                "par vienību"
-              ]
-            },
-            "example": {
-              "blue": [
-                "je"
-              ],
-              "yellow": [
-                "Stück"
-              ],
-              "purple": [
-                "par gabalu"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "je ... desto"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "jo ... jo"
-              ]
-            },
-            "example": {
-              "red": [
-                "Je",
-                "desto",
-                "Jo",
-                "jo"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "jemals"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "jebkad"
-              ]
-            },
-            "example": {
-              "green": [
-                "jemals"
-              ],
-              "purple": [
-                "jebkad"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": [
@@ -40293,88 +38940,24 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {
-              "green": [
-                "der Kamm",
-                "Kamm"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "ķemme"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Kamm"
-              ],
-              "purple": [
-                "ķemmi"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "der Kamm",
-                "Kamm"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "sekste"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Kamm"
-              ],
-              "green": [
-                "Hahns",
-                "gaiļa",
-                "sekste"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "der Bergkamm",
-                "Bergkamm"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "kalna kore",
-                "kore"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "Bergkamm",
-                "kalna",
-                "kores"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "die Bürste",
-                "Bürste"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "suka"
-              ]
-            },
-            "example": {
-              "red": [
-                "Bürste",
-                "suka"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": {
@@ -40968,15 +39551,11 @@ const A2_WORDS = [
           },
           {
             "blue": [
-              "kaum zu + nenoteiksme",
-              "kaum zu glauben",
-              "kaum zu verstehen"
+              "kaum zu + nenoteiksme"
             ],
             "purple": [
               "grūti",
-              "gandrīz nevar",
-              "grūti noticēt",
-              "grūti saprast"
+              "gandrīz nevar"
             ],
             "red": [
               "burtiski",
@@ -41114,13 +39693,12 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
-                "kennen",
-                "kennen"
+                "kenne"
               ]
             },
             "lv": {
               "purple": [
-                "pazīt"
+                "pazīstu"
               ]
             }
           },
@@ -41131,11 +39709,7 @@ const A2_WORDS = [
                 "kennen"
               ]
             },
-            "lv": {
-              "purple": [
-                "pazīt"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -41144,22 +39718,17 @@ const A2_WORDS = [
                 "kennen"
               ]
             },
-            "lv": {
-              "purple": [
-                "pazīt"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "blue": [
-                "kennen",
-                "kennen"
+                "kenne"
               ]
             },
             "lv": {
               "purple": [
-                "pazīt"
+                "pazīstu"
               ]
             }
           },
@@ -41255,17 +39824,8 @@ const A2_WORDS = [
         },
         "examples": [
           {
-            "de": {
-              "green": [
-                "wissen",
-                "wissen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "zināt"
-              ]
-            }
+            "de": {},
+            "lv": {}
           },
           {
             "de": {
@@ -41281,30 +39841,8 @@ const A2_WORDS = [
             }
           },
           {
-            "de": {
-              "green": [
-                "wissen",
-                "wissen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "zināt"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "wissen",
-                "wissen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "zināt"
-              ]
-            }
+            "de": {},
+            "lv": {}
           }
         ],
         "tip": [
@@ -41756,124 +40294,29 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {
-              "green": [
-                "klar"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "skaidrs / saprotams",
-                "saprotams",
-                "skaidrs"
-              ]
-            },
-            "example": {
-              "blue": [
-                "skaidrs",
-                "klar"
-              ],
-              "orange": [
-                "skaidrs"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "klar"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "dzidrs"
-              ]
-            },
-            "example": {
-              "green": [
-                "dzidrs",
-                "klares",
-                "Wasser",
-                "ūdens"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "alles klar",
-                "alles",
-                "klar"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "viss kārtībā / skaidrs",
-                "kārtībā",
-                "skaidrs",
-                "viss"
-              ]
-            },
-            "example": {
-              "blue": [
-                "klar"
-              ],
-              "yellow": [
-                "alles klar",
-                "kārtībā",
-                "Alles",
-                "klar",
-                "Viss"
-              ],
-              "orange": [
-                "viss kārtībā"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "deutlich"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "skaidri / labi saskatāmi",
-                "saskatāmi",
-                "skaidri",
-                "labi"
-              ]
-            },
-            "example": {
-              "orange": [
-                "skaidri"
-              ],
-              "red": [
-                "deutlich",
-                "skaidri",
-                "Sprich",
-                "Runā"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "purple": [
-                "bereit"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "gatavs"
-              ]
-            },
-            "example": {
-              "purple": [
-                "bereit",
-                "gatavs",
-                "esmu"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": {
@@ -42148,112 +40591,29 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {
-              "green": [
-                "kleben"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "līmēt"
-              ]
-            },
-            "example": {
-              "blue": [
-                "fotogrāfiju",
-                "līmēju",
-                "klebe",
-                "Foto"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "kleben"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "pielipt / būt pielipušam",
-                "pielipušam",
-                "pielipt"
-              ]
-            },
-            "example": {
-              "green": [
-                "pielipusi",
-                "Zettel",
-                "Zīmīte",
-                "klebt"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "ankleben"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "pielīmēt pie kaut kā",
-                "pielīmēt"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "pielīmēju",
-                "Zettel",
-                "zīmīti",
-                "klebe"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "haften"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "turēties / pieķerties",
-                "pieķerties",
-                "turēties"
-              ]
-            },
-            "example": {
-              "red": [
-                "haftet",
-                "Kleber",
-                "turas",
-                "labi",
-                "Līme"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "purple": [
-                "leimen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "līmēt ar līmi",
-                "līmēt",
-                "līmi"
-              ]
-            },
-            "example": {
-              "purple": [
-                "leimt",
-                "holz",
-                "koku",
-                "līmē"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": {
@@ -42993,235 +41353,46 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
-                "gesunder",
-                "wichtig",
                 "Körper"
               ]
             },
-            "lv": {
-              "orange": [
-                "ķermenis"
-              ],
-              "purple": [
-                "ķermenis",
-                "svarīgs",
-                "vesels"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "blue": [
-                "beschädigt",
-                "der Körper",
-                "Körper",
-                "Autos"
+                "den Körper",
+                "Körper"
               ]
             },
-            "lv": {
-              "green": [
-                "korpuss"
-              ],
-              "purple": [
-                "automašīnas",
-                "korpuss",
-                "bojāts"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "geometrischer",
-                "Körper",
-                "Würfel"
-              ]
-            },
-            "lv": {
-              "orange": [
-                "ķermenis"
-              ],
-              "purple": [
-                "ģeometrisks ķermenis",
-                "ģeometrisks",
-                "ķermenis",
-                "kubs"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Körper",
-                "Sport"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "ķermenim",
-                "sports",
-                "labs"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "der Körper",
-                "reagiert",
-                "Körper",
-                "Stress"
-              ]
-            },
-            "lv": {
-              "orange": [
-                "ķermenis"
-              ],
-              "purple": [
-                "ķermenis",
-                "stresu",
-                "reaģē"
-              ]
-            }
+            "lv": {}
           }
         ],
         "comparison": [
           {
-            "word": {
-              "green": [
-                "der Körper",
-                "Körper"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "ķermenis"
-              ]
-            },
-            "example": {
-              "blue": [
-                "der Körper",
-                "Ķermenim",
-                "braucht",
-                "atpūtu",
-                "Körper",
-                "Ruhe"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "Körper"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "korpuss / fiziska daļa",
-                "fiziska",
-                "korpuss",
-                "daļa"
-              ]
-            },
-            "example": {
-              "blue": [
-                "der Körper",
-                "Körper"
-              ],
-              "green": [
-                "automašīnas",
-                "korpuss",
-                "Körper",
-                "Autos"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "der geometrische Körper",
-                "geometrische Körper",
-                "geometrische",
-                "Körper"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "ģeometrisks ķermenis",
-                "ģeometrisks",
-                "ķermenis"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Körper"
-              ],
-              "orange": [
-                "ķermenis"
-              ],
-              "purple": [
-                "ģeometrisks ķermenis"
-              ],
-              "yellow": [
-                "geometrischer",
-                "ģeometrisks",
-                "ķermenis",
-                "Körper"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "der Leib",
-                "Leib"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "ķermenis / miesa",
-                "ķermenis",
-                "miesa"
-              ]
-            },
-            "example": {
-              "green": [
-                "miesa"
-              ],
-              "red": [
-                "dvēsele",
-                "miesa",
-                "Seele",
-                "Leib"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "purple": [
-                "das Gehäuse",
-                "gehäuse"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "korpuss / apvalks",
-                "apvalks",
-                "korpuss"
-              ]
-            },
-            "example": {
-              "green": [
-                "korpuss"
-              ],
-              "purple": [
-                "das Gehäuse",
-                "gehäuse",
-                "ierīces",
-                "korpuss",
-                "geräts"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": {
@@ -43522,123 +41693,29 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {
-              "green": [
-                "die Kraft",
-                "Kraft"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "spēks / enerģija",
-                "enerģija",
-                "spēks"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Kraft",
-                "spēks"
-              ],
-              "orange": [
-                "spēks"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "in Kraft",
-                "Kraft"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "spēkā"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Kraft"
-              ],
-              "green": [
-                "in Kraft",
-                "Gesetz",
-                "Likums",
-                "Kraft",
-                "spēkā"
-              ],
-              "purple": [
-                "spēkā"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "die Fachkraft",
-                "Fachkraft"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "speciālists / darbinieks",
-                "speciālists",
-                "darbinieks"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "speciāliste",
-                "Fachkraft",
-                "gute",
-                "laba"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "die Energie",
-                "Energie"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "enerģija"
-              ]
-            },
-            "example": {
-              "red": [
-                "enerģiju",
-                "Energie"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "purple": [
-                "die Stärke",
-                "stärke"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "stiprums / spēks",
-                "stiprums",
-                "spēks"
-              ]
-            },
-            "example": {
-              "green": [
-                "stiprums"
-              ],
-              "purple": [
-                "stiprums",
-                "stärke",
-                "seine"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": {
@@ -44721,9 +42798,6 @@ const A2_WORDS = [
             "ciest",
             "slimot",
             "paciest"
-          ],
-          "red": [
-            "nicht leiden können"
           ],
           "green": [
             "slimības",
@@ -46087,26 +44161,16 @@ const A2_WORDS = [
           "blue": [
             "liegen",
             "liegen"
-          ],
-          "purple": [
-            "gulēt",
-            "atrasties"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "liegen",
-                "liegen"
+                "liegt"
               ]
             },
-            "lv": {
-              "purple": [
-                "gulēt",
-                "atrasties"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -46115,53 +44179,20 @@ const A2_WORDS = [
                 "liegen"
               ]
             },
-            "lv": {
-              "purple": [
-                "gulēt",
-                "atrasties"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "blue": [
-                "liegen",
-                "liegen"
+                "liegt"
               ]
             },
-            "lv": {
-              "purple": [
-                "gulēt",
-                "atrasties"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "liegen",
-                "liegen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "gulēt",
-                "atrasties"
-              ]
-            }
+            "lv": {}
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "gulēt"
-            ]
-          },
-          {
-            "purple": [
-              "atrasties"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
           {
@@ -46241,54 +44272,23 @@ const A2_WORDS = [
             "legen"
           ],
           "purple": [
-            "nolikt guļus"
+            "noliek guļus"
           ]
         },
         "examples": [
           {
             "de": {
               "green": [
-                "legen",
-                "legen"
+                "lege"
               ]
             },
-            "lv": {
-              "purple": [
-                "nolikt guļus"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "legen",
-                "legen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "nolikt guļus"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "legen",
-                "legen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "nolikt guļus"
-              ]
-            }
+            "lv": {}
           }
         ],
         "tip": [
           {
             "purple": [
-              "nolikt guļus"
+              "noliek guļus"
             ]
           }
         ],
@@ -46696,86 +44696,24 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {
-              "green": [
-                "meinen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "domāt / uzskatīt / domāt konkrēti",
-                "konkrēti",
-                "uzskatīt",
-                "domāt"
-              ]
-            },
-            "example": {
-              "blue": [
-                "meinst",
-                "domā"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "denken"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "domāt prātā",
-                "domāt",
-                "prātā"
-              ]
-            },
-            "example": {
-              "green": [
-                "domāju",
-                "denke",
-                "dich",
-                "tevi"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "glauben"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "ticēt / domāt",
-                "domāt",
-                "ticēt"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "domāju",
-                "glaube",
-                "kommt",
-                "nāks"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "bedeuten"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "nozīmēt"
-              ]
-            },
-            "example": {
-              "red": [
-                "bedeutet"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": {
@@ -47413,9 +45351,6 @@ const A2_WORDS = [
           "green": [
             "naudas",
             "materiālos"
-          ],
-          "red": [
-            "die Mitte"
           ]
         },
         "examples": [
@@ -49309,9 +47244,6 @@ const A2_WORDS = [
             "durvīm",
             "logiem",
             "veikaliem"
-          ],
-          "red": [
-            "ehrlich"
           ]
         },
         "examples": [
@@ -49749,7 +47681,6 @@ const A2_WORDS = [
             "atgadīties"
           ],
           "red": [
-            "stattfinden",
             "vorbeigehen",
             "vorbeifahren"
           ],
@@ -49839,81 +47770,24 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {
-              "green": [
-                "passieren"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "notikt",
-                "atgadīties"
-              ]
-            },
-            "example": {
-              "blue": [
-                "passiert"
-              ],
-              "purple": [
-                "notika"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "geschehen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "notikt"
-              ]
-            },
-            "example": {
-              "green": [
-                "geschehen"
-              ],
-              "purple": [
-                "noticis"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "stattfinden"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "notikt kā pasākumam"
-              ]
-            },
-            "example": {
-              "red": [
-                "findet statt",
-                "notiek"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "vorbeigehen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "paiet garām"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "geht vorbei",
-                "paiet garām"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": [
@@ -50026,8 +47900,7 @@ const A2_WORDS = [
             "die Patientin"
           ],
           "purple": [
-            "pacients",
-            "paciente"
+            "Patient"
           ]
         },
         "examples": [
@@ -50146,10 +48019,7 @@ const A2_WORDS = [
             "das Personal"
           ],
           "purple": [
-            "personāls"
-          ],
-          "green": [
-            "persönlich"
+            "personālu"
           ]
         },
         "examples": [
@@ -50347,164 +48217,33 @@ const A2_WORDS = [
                 "vecs"
               ]
             }
-          },
-          {
-            "de": {
-              "blue": [
-                "das Pflaster",
-                "Pflaster",
-                "über"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "bruģi"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Pflaster",
-                "klebt",
-                "Wunde"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "plāksteri",
-                "brūces",
-                "uzlīmē"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "das Pflaster",
-                "Pflaster",
-                "nass"
-              ]
-            },
-            "lv": {
-              "green": [
-                "bruģis"
-              ],
-              "purple": [
-                "bruģis",
-                "slapjš"
-              ]
-            }
           }
         ],
         "comparison": [
           {
-            "word": {
-              "green": [
-                "das Pflaster",
-                "Pflaster"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "plāksteris"
-              ]
-            },
-            "example": {
-              "blue": [
-                "plāksteri",
-                "Pflaster"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "Pflaster"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "bruģis"
-              ]
-            },
-            "example": {
-              "blue": [
-                "das Pflaster",
-                "Pflaster"
-              ],
-              "green": [
-                "Pflaster",
-                "bruģi",
-                "über"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "der Verband",
-                "Verband"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "pārsējs"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "pārsēju",
-                "Verband"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "der Stein",
-                "Stein"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "akmens"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Pflaster"
-              ],
-              "red": [
-                "Pflaster",
-                "akmeņi",
-                "Steine",
-                "bruģī",
-                "alte",
-                "veci"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "purple": [
-                "pflastern"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "bruģēt"
-              ]
-            },
-            "example": {
-              "purple": [
-                "gepflastert",
-                "bruģēta",
-                "straße",
-                "iela",
-                "tiek"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": {
@@ -51026,82 +48765,24 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {
-              "green": [
-                "das Rad"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "ritenis"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Rad"
-              ],
-              "purple": [
-                "ritenis"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "das Rad"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "velosipēds"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Rad"
-              ],
-              "purple": [
-                "velosipēds"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "das Fahrrad"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "velosipēds"
-              ]
-            },
-            "example": {
-              "green": [
-                "Fahrrad"
-              ],
-              "purple": [
-                "velosipēdu"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "das Lenkrad"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "stūre"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "Lenkrad",
-                "stūre"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": [
@@ -51132,9 +48813,6 @@ const A2_WORDS = [
           {
             "blue": [
               "das Rad"
-            ],
-            "green": [
-              "das Fahrrad"
             ],
             "purple": [
               "velosipēdam"
@@ -51472,83 +49150,24 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {
-              "green": [
-                "raten"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "ieteikt",
-                "dot padomu"
-              ]
-            },
-            "example": {
-              "blue": [
-                "rate"
-              ],
-              "purple": [
-                "iesaku"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "raten"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "uzminēt"
-              ]
-            },
-            "example": {
-              "blue": [
-                "raten"
-              ],
-              "purple": [
-                "uzminēt"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "empfehlen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "ieteikt"
-              ]
-            },
-            "example": {
-              "green": [
-                "empfehle"
-              ],
-              "purple": [
-                "iesaku"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "beraten"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "konsultēt"
-              ]
-            },
-            "example": {
-              "red": [
-                "berät",
-                "konsultē"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": [
@@ -51793,80 +49412,24 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {
-              "green": [
-                "rechnen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "rēķināt"
-              ]
-            },
-            "example": {
-              "blue": [
-                "rechnen"
-              ],
-              "purple": [
-                "rēķināt"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "mit etwas rechnen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "rēķināties ar kaut ko"
-              ]
-            },
-            "example": {
-              "blue": [
-                "rechnen"
-              ],
-              "purple": [
-                "rēķināties"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "berechnen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "aprēķināt"
-              ]
-            },
-            "example": {
-              "green": [
-                "berechnen",
-                "aprēķināt"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "zählen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "skaitīt"
-              ]
-            },
-            "example": {
-              "red": [
-                "zählen",
-                "skaitīt"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": [
@@ -52155,102 +49718,29 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {
-              "green": [
-                "reichen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "pietikt"
-              ]
-            },
-            "example": {
-              "blue": [
-                "reicht"
-              ],
-              "purple": [
-                "pietiek"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "reichen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "pasniegt"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Reich"
-              ],
-              "purple": [
-                "pasniedz"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "genügen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "pietikt"
-              ]
-            },
-            "example": {
-              "green": [
-                "genügt"
-              ],
-              "purple": [
-                "pietiek"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "geben"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "dot"
-              ]
-            },
-            "example": {
-              "red": [
-                "Gib",
-                "Dod"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "sich erstrecken"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "sniegties"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "erstreckt"
-              ],
-              "purple": [
-                "sniedzas"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": [
@@ -52518,10 +50008,6 @@ const A2_WORDS = [
           "green": [
             "cilvēks",
             "dzīvnieks"
-          ],
-          "red": [
-            "duften",
-            "stinken"
           ]
         },
         "examples": [
@@ -53645,7 +51131,6 @@ const A2_WORDS = [
             },
             "example": {
               "green": [
-                "hebe auf",
                 "paceļu"
               ]
             }
@@ -54585,101 +52070,29 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {
-              "green": [
-                "scharf"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "ass"
-              ]
-            },
-            "example": {
-              "blue": [
-                "scharfes"
-              ],
-              "purple": [
-                "ass"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "scharf"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "pikants"
-              ]
-            },
-            "example": {
-              "blue": [
-                "scharfes"
-              ],
-              "purple": [
-                "pikants"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "scharf"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "fokusēts",
-                "skaidrs"
-              ]
-            },
-            "example": {
-              "blue": [
-                "scharfes"
-              ],
-              "purple": [
-                "ass"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "spitz"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "smails"
-              ]
-            },
-            "example": {
-              "red": [
-                "spitzer",
-                "smails"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
-            "word": {
-              "green": [
-                "würzig"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "garšvielām bagāts"
-              ]
-            },
-            "example": {
-              "green": [
-                "würzige",
-                "garšvielām"
-              ]
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": [
@@ -58281,24 +55694,16 @@ const A2_WORDS = [
           "blue": [
             "sitzen",
             "sitzen"
-          ],
-          "purple": [
-            "sēdēt"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "sitzen",
-                "sitzen"
+                "sitze"
               ]
             },
-            "lv": {
-              "purple": [
-                "sēdēt"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -58320,24 +55725,15 @@ const A2_WORDS = [
                 "sitzen"
               ]
             },
-            "lv": {
-              "purple": [
-                "sēdēt"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "blue": [
-                "sitzen",
-                "sitzen"
+                "sitze"
               ]
             },
-            "lv": {
-              "purple": [
-                "sēdēt"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -58353,11 +55749,7 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "sēdēt"
-            ]
-          }
+          {}
         ],
         "important": [
           {
@@ -58438,7 +55830,6 @@ const A2_WORDS = [
             "setzen"
           ],
           "purple": [
-            "sēdināt",
             "likt sēdus"
           ]
         },
@@ -58446,52 +55837,14 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
-                "setzen",
-                "setzen"
+                "setze"
               ]
             },
-            "lv": {
-              "purple": [
-                "sēdināt",
-                "likt sēdus"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "setzen",
-                "setzen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "sēdināt",
-                "likt sēdus"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "setzen",
-                "setzen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "sēdināt",
-                "likt sēdus"
-              ]
-            }
+            "lv": {}
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "sēdināt"
-            ]
-          },
+          {},
           {
             "purple": [
               "likt sēdus"
@@ -59160,7 +56513,6 @@ const A2_WORDS = [
               ]
             },
             "lv": {
-              "red": [],
               "purple": [
                 "nedēļas",
                 "nogalē",
@@ -59210,7 +56562,6 @@ const A2_WORDS = [
               ]
             },
             "lv": {
-              "red": [],
               "purple": [
                 "nedzeru",
                 "kafiju"
@@ -59225,9 +56576,7 @@ const A2_WORDS = [
                 "sonst"
               ]
             },
-            "meaning": {
-              "purple": []
-            },
+            "meaning": {},
             "example": {
               "blue": [
                 "citādi",
@@ -59300,9 +56649,7 @@ const A2_WORDS = [
                 "normalerweise"
               ]
             },
-            "meaning": {
-              "purple": []
-            },
+            "meaning": {},
             "example": {
               "red": [
                 "normalerweise",
@@ -59753,35 +57100,25 @@ const A2_WORDS = [
             "stehen"
           ],
           "purple": [
-            "stāvēt"
+            "stāvus"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "stehen",
-                "stehen"
+                "steht"
               ]
             },
-            "lv": {
-              "purple": [
-                "stāvēt"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "blue": [
-                "stehen",
-                "stehen"
+                "steht"
               ]
             },
-            "lv": {
-              "purple": [
-                "stāvēt"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -59799,7 +57136,7 @@ const A2_WORDS = [
         "tip": [
           {
             "purple": [
-              "stāvēt"
+              "stāvus"
             ]
           }
         ],
@@ -59891,22 +57228,17 @@ const A2_WORDS = [
             "stellen"
           ],
           "purple": [
-            "nolikt stāvus"
+            "noliek stāvus"
           ]
         },
         "examples": [
           {
             "de": {
               "green": [
-                "stellen",
-                "stellen"
+                "stelle"
               ]
             },
-            "lv": {
-              "purple": [
-                "nolikt stāvus"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -59915,43 +57247,21 @@ const A2_WORDS = [
                 "stellen"
               ]
             },
-            "lv": {
-              "purple": [
-                "nolikt stāvus"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "green": [
-                "stellen",
-                "stellen"
+                "stelle"
               ]
             },
-            "lv": {
-              "purple": [
-                "nolikt stāvus"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "stellen",
-                "stellen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "nolikt stāvus"
-              ]
-            }
+            "lv": {}
           }
         ],
         "tip": [
           {
             "purple": [
-              "nolikt stāvus"
+              "noliek stāvus"
             ]
           }
         ],
@@ -65861,7 +63171,30 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
-                "der Urlaub",
+                "urlaub"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "atvaļinājumā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "urlaub"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "atvaļinājumā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
                 "urlaub"
               ]
             },
@@ -65874,52 +63207,24 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
-                "der Urlaub",
                 "urlaub"
               ]
             },
             "lv": {
               "purple": [
-                "atvaļinājums"
+                "atvaļinājumu"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "der Urlaub",
                 "urlaub"
               ]
             },
             "lv": {
               "purple": [
-                "atvaļinājums"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "der Urlaub",
-                "urlaub"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "atvaļinājums"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "der Urlaub",
-                "urlaub"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "atvaļinājums"
+                "atvaļinājumā"
               ]
             }
           }
@@ -72208,49 +69513,22 @@ const A2_WORDS = [
             "sehen"
           ],
           "purple": [
-            "redzēt"
+            "redzi"
           ],
           "green": [
-            "Redzēt"
+            "redzi"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "sehen",
-                "sehen"
+                "sehe"
               ]
             },
             "lv": {
               "purple": [
-                "redzēt"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "sehen",
-                "sehen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "redzēt"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "sehen",
-                "sehen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "redzēt"
+                "redzu"
               ]
             }
           }
@@ -72336,15 +69614,10 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
-                "schauen",
-                "schauen"
+                "schaue"
               ]
             },
-            "lv": {
-              "purple": [
-                "skatīties"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -72355,35 +69628,17 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "skatīties"
+                "skatāmies"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "schauen",
-                "schauen"
+                "schaue"
               ]
             },
-            "lv": {
-              "purple": [
-                "skatīties"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "schauen",
-                "schauen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "skatīties"
-              ]
-            }
+            "lv": {}
           }
         ],
         "tip": [
@@ -72437,9 +69692,6 @@ const A2_WORDS = [
           "yellow": [
             "ansehen"
           ],
-          "purple": [
-            "apskatīt / noskatīties"
-          ],
           "green": [
             "noskatīties",
             "apskatīt"
@@ -72450,44 +69702,10 @@ const A2_WORDS = [
         },
         "examples": [
           {
-            "de": {
-              "yellow": [
-                "ansehen",
-                "ansehen"
-              ]
-            },
+            "de": {},
             "lv": {
               "purple": [
-                "apskatīt",
-                "noskatīties"
-              ]
-            }
-          },
-          {
-            "de": {
-              "yellow": [
-                "ansehen",
-                "ansehen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "apskatīt",
-                "noskatīties"
-              ]
-            }
-          },
-          {
-            "de": {
-              "yellow": [
-                "ansehen",
-                "ansehen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "apskatīt",
-                "noskatīties"
+                "apskati"
               ]
             }
           }
@@ -72498,11 +69716,7 @@ const A2_WORDS = [
               "apskatīt"
             ]
           },
-          {
-            "purple": [
-              "noskatīties"
-            ]
-          }
+          {}
         ],
         "important": [
           {
@@ -72556,7 +69770,6 @@ const A2_WORDS = [
             "hören"
           ],
           "purple": [
-            "dzirdēt / klausīties",
             "klausīties",
             "dzirdēt"
           ],
@@ -72569,16 +69782,10 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
-                "hören",
-                "hören"
+                "höre"
               ]
             },
-            "lv": {
-              "purple": [
-                "dzirdēt",
-                "klausīties"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -72587,38 +69794,17 @@ const A2_WORDS = [
                 "hören"
               ]
             },
-            "lv": {
-              "purple": [
-                "dzirdēt",
-                "klausīties"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "blue": [
-                "hören",
-                "hören"
+                "höre"
               ]
             },
             "lv": {
               "purple": [
-                "dzirdēt",
-                "klausīties"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "hören",
-                "hören"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "dzirdēt",
-                "klausīties"
+                "dzirdu"
               ]
             }
           }
@@ -72699,43 +69885,8 @@ const A2_WORDS = [
         },
         "examples": [
           {
-            "de": {
-              "blue": [
-                "sagen",
-                "sagen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "teikt"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "sagen",
-                "sagen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "teikt"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "sagen",
-                "sagen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "teikt"
-              ]
-            }
+            "de": {},
+            "lv": {}
           }
         ],
         "tip": [
@@ -72819,13 +69970,12 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
-                "sprechen",
-                "sprechen"
+                "spreche"
               ]
             },
             "lv": {
               "purple": [
-                "runāt"
+                "runāju"
               ]
             }
           },
@@ -72836,35 +69986,17 @@ const A2_WORDS = [
                 "sprechen"
               ]
             },
-            "lv": {
-              "purple": [
-                "runāt"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "green": [
-                "sprechen",
-                "sprechen"
+                "spreche"
               ]
             },
             "lv": {
               "purple": [
-                "runāt"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "sprechen",
-                "sprechen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "runāt"
+                "runāju"
               ]
             }
           }
@@ -72951,7 +70083,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "liels"
+                "liela"
               ]
             }
           },
@@ -72964,7 +70096,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "liels"
+                "liela"
               ]
             }
           },
@@ -72975,11 +70107,7 @@ const A2_WORDS = [
                 "groß"
               ]
             },
-            "lv": {
-              "purple": [
-                "liels"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -72990,20 +70118,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "liels"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "groß",
-                "groß"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "liels"
+                "liela"
               ]
             }
           }
@@ -73120,7 +70235,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "augsts"
+                "augsta"
               ]
             }
           },
@@ -73133,7 +70248,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "augsts"
+                "augsta"
               ]
             }
           },
@@ -73146,7 +70261,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "augsts"
+                "augsta"
               ]
             }
           }
@@ -73237,7 +70352,20 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "mazs"
+                "maza"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "klein",
+                "klein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "maza"
               ]
             }
           },
@@ -73263,33 +70391,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "mazs"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "klein",
-                "klein"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "mazs"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "klein",
-                "klein"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "mazs"
+                "maza"
               ]
             }
           },
@@ -73413,7 +70515,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "kluss"
+                "klusa"
               ]
             }
           },
@@ -73426,20 +70528,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "kluss"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "leise",
-                "leise"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "kluss"
+                "klusi"
               ]
             }
           }
@@ -73500,32 +70589,6 @@ const A2_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {
-              "blue": [
-                "schon",
-                "schon"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "jau"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "schon",
-                "schon"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "jau"
-              ]
-            }
-          },
           {
             "de": {
               "blue": [
@@ -73641,19 +70704,6 @@ const A2_WORDS = [
                 "vēl"
               ]
             }
-          },
-          {
-            "de": {
-              "green": [
-                "noch",
-                "noch"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "vēl"
-              ]
-            }
           }
         ],
         "tip": [
@@ -73718,9 +70768,6 @@ const A2_WORDS = [
           "yellow": [
             "Vēl tikai"
           ],
-          "purple": [
-            "vēl tikai / ne agrāk kā"
-          ],
           "green": [
             "ne agrāk kā",
             "agrāk",
@@ -73741,8 +70788,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "vēl tikai",
-                "ne agrāk kā"
+                "vēl tikai"
               ]
             }
           },
@@ -73755,8 +70801,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "vēl tikai",
-                "ne agrāk kā"
+                "vēl tikai"
               ]
             }
           },
@@ -73769,8 +70814,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "vēl tikai",
-                "ne agrāk kā"
+                "vēl tikai"
               ]
             }
           },
@@ -73781,39 +70825,12 @@ const A2_WORDS = [
                 "erst"
               ]
             },
-            "lv": {
-              "purple": [
-                "vēl tikai",
-                "ne agrāk kā"
-              ]
-            }
-          },
-          {
-            "de": {
-              "yellow": [
-                "erst",
-                "erst"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "vēl tikai",
-                "ne agrāk kā"
-              ]
-            }
+            "lv": {}
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "vēl tikai"
-            ]
-          },
-          {
-            "purple": [
-              "ne agrāk kā"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
           {
@@ -73879,9 +70896,6 @@ const A2_WORDS = [
             "nur",
             "nur"
           ],
-          "purple": [
-            "tikai / vienīgi"
-          ],
           "green": [
             "vienīgi"
           ],
@@ -73903,8 +70917,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "tikai",
-                "vienīgi"
+                "tikai"
               ]
             }
           },
@@ -73917,8 +70930,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "tikai",
-                "vienīgi"
+                "tikai"
               ]
             }
           },
@@ -73931,8 +70943,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "tikai",
-                "vienīgi"
+                "tikai"
               ]
             }
           },
@@ -73945,8 +70956,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "tikai",
-                "vienīgi"
+                "tikai"
               ]
             }
           },
@@ -73959,8 +70969,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "tikai",
-                "vienīgi"
+                "tikai"
               ]
             }
           },
@@ -73973,23 +70982,14 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "tikai",
-                "vienīgi"
+                "tikai"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "tikai"
-            ]
-          },
-          {
-            "purple": [
-              "vienīgi"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
           {
@@ -74055,9 +71055,6 @@ const A2_WORDS = [
           "green": [
             "Pāri"
           ],
-          "purple": [
-            "virs / pāri / par"
-          ],
           "yellow": [
             "virs"
           ],
@@ -74076,7 +71073,6 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "virs",
                 "pāri",
                 "par"
               ]
@@ -74091,7 +71087,19 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "virs",
+                "virs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "über",
+                "über"
+              ]
+            },
+            "lv": {
+              "purple": [
                 "pāri",
                 "par"
               ]
@@ -74106,8 +71114,6 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "virs",
-                "pāri",
                 "par"
               ]
             }
@@ -74121,38 +71127,6 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "virs",
-                "pāri",
-                "par"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "über",
-                "über"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "virs",
-                "pāri",
-                "par"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "über",
-                "über"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "virs",
-                "pāri",
                 "par"
               ]
             }
@@ -74214,31 +71188,8 @@ const A2_WORDS = [
         "drin / drinnen: pirms lietošanas pārbaudi kontekstu un salīdzini ar citiem vārdiem kartītē."
       ],
       "sectionAccents": {
-        "explanation": {
-          "green": [
-            "Iekšā"
-          ],
-          "purple": [
-            "iekšā"
-          ],
-          "orange": [
-            "iekšā"
-          ]
-        },
+        "explanation": {},
         "examples": [
-          {
-            "de": {
-              "green": [
-                "drin / drinnen",
-                "drin / drinnen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "iekšā"
-              ]
-            }
-          },
           {
             "de": {
               "green": [
@@ -74254,18 +71205,10 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "iekšā"
-            ]
-          }
+          {}
         ],
         "important": [
-          {
-            "green": [
-              "drin / drinnen"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -74327,9 +71270,6 @@ const A2_WORDS = [
           "green": [
             "gleich"
           ],
-          "purple": [
-            "vienāds / tūlīt"
-          ],
           "red": [
             "Tūlīt"
           ],
@@ -74348,7 +71288,32 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "vienāds",
+                "vienāda"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "gleich",
+                "gleich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vienāda"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "gleich",
+                "gleich"
+              ]
+            },
+            "lv": {
+              "purple": [
                 "tūlīt"
               ]
             }
@@ -74362,7 +71327,19 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "vienāds",
+                "vienāda"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "gleich",
+                "gleich"
+              ]
+            },
+            "lv": {
+              "purple": [
                 "tūlīt"
               ]
             }
@@ -74376,50 +71353,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "vienāds",
-                "tūlīt"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "gleich",
-                "gleich"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "vienāds",
-                "tūlīt"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "gleich",
-                "gleich"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "vienāds",
-                "tūlīt"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "gleich",
-                "gleich"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "vienāds",
-                "tūlīt"
+                "vienāda"
               ]
             }
           }
@@ -74496,19 +71430,6 @@ const A2_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {
-              "blue": [
-                "auch",
-                "auch"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "arī"
-              ]
-            }
-          },
           {
             "de": {
               "blue": [
