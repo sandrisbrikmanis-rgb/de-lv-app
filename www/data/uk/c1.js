@@ -1321,7 +1321,6 @@ const C1_WORDS = [
           "blue": [
             "zusammenfassen"
           ],
-          "purple": [],
           "green": [
             "die Zusammenfassung"
           ]
@@ -1333,9 +1332,7 @@ const C1_WORDS = [
                 "zusammenfassen"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -1344,9 +1341,7 @@ const C1_WORDS = [
                 "zusammen"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -1354,9 +1349,7 @@ const C1_WORDS = [
                 "zusammengefasst"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -1364,9 +1357,7 @@ const C1_WORDS = [
                 "Zusammenfassend"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -1374,9 +1365,7 @@ const C1_WORDS = [
                 "Zusammenfassung"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -1384,9 +1373,7 @@ const C1_WORDS = [
                 "Zusammenfassung"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           }
         ],
         "tip": [
@@ -2501,9 +2488,7 @@ const C1_WORDS = [
                 "gelegentlich"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -2511,9 +2496,7 @@ const C1_WORDS = [
                 "Gelegentlich"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           }
         ]
       }
@@ -3841,8 +3824,7 @@ const C1_WORDS = [
             "wahlberechtigt",
             "Wahl",
             "berechtigt"
-          ],
-          "purple": []
+          ]
         },
         "examples": [
           {
@@ -3851,9 +3833,7 @@ const C1_WORDS = [
                 "wahlberechtigten"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -3861,9 +3841,7 @@ const C1_WORDS = [
                 "wahlberechtigt"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -3871,9 +3849,7 @@ const C1_WORDS = [
                 "wahlberechtigt"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           }
         ]
       }
@@ -4015,7 +3991,6 @@ const C1_WORDS = [
           "blue": [
             "der Zuschlag"
           ],
-          "purple": [],
           "red": [
             "der Anhang",
             "die Beilage"
@@ -4028,9 +4003,7 @@ const C1_WORDS = [
                 "Zuschlag"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -4038,9 +4011,7 @@ const C1_WORDS = [
                 "Zuschlag"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -4048,9 +4019,7 @@ const C1_WORDS = [
                 "Zuschlag"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -4058,9 +4027,7 @@ const C1_WORDS = [
                 "Zuschlag"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -4068,15 +4035,11 @@ const C1_WORDS = [
                 "Zuschläge"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           }
         ],
         "tip": [
-          {
-            "blue": []
-          },
+          {},
           {
             "green": [
               "den Zuschlag erhalten"
@@ -4084,10 +4047,7 @@ const C1_WORDS = [
           }
         ],
         "important": [
-          {
-            "purple": [],
-            "red": []
-          },
+          {},
           {
             "red": [
               "die Anlage",
@@ -4128,10 +4088,6 @@ const C1_WORDS = [
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "beziehen",
-            "bezieht"
-          ],
           "purple": [
             "атрибут"
           ]
@@ -4149,33 +4105,14 @@ const C1_WORDS = [
                 "звертатися до"
               ]
             }
-          },
-          {
-            "de": {
-              "blue": [
-                "beziehen / sich beziehen auf",
-                "beziehen / sich beziehen auf"
-              ]
-            },
-            "lv": {
-              "purple": []
-            }
           }
         ],
         "tip": [
-          {
-            "purple": []
-          },
-          {
-            "purple": []
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "beziehen / sich beziehen auf"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -4231,8 +4168,7 @@ const C1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "green": [
-            "beabsichtigen",
-            "beabsichtigt"
+            "beabsichtigen"
           ],
           "purple": [
             "планувати"
@@ -4242,13 +4178,10 @@ const C1_WORDS = [
           {
             "de": {
               "green": [
-                "beabsichtigen",
-                "beabsichtigen"
+                "beabsichtigt"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -4257,9 +4190,7 @@ const C1_WORDS = [
                 "beabsichtigen"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -4268,9 +4199,15 @@ const C1_WORDS = [
                 "beabsichtigen"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
+          },
+          {
+            "de": {
+              "green": [
+                "beabsichtigt"
+              ]
+            },
+            "lv": {}
           },
           {
             "de": {
@@ -4279,31 +4216,7 @@ const C1_WORDS = [
                 "beabsichtigen"
               ]
             },
-            "lv": {
-              "purple": []
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "beabsichtigen",
-                "beabsichtigen"
-              ]
-            },
-            "lv": {
-              "purple": []
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "beabsichtigen",
-                "beabsichtigen"
-              ]
-            },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           }
         ],
         "tip": [
@@ -4376,8 +4289,7 @@ const C1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "unterstellen",
-            "unterstellt"
+            "unterstellen"
           ],
           "purple": [
             "звинувачувати",
@@ -4391,13 +4303,10 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
-                "unterstellen",
-                "unterstellen"
+                "unterstellt"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -4406,9 +4315,7 @@ const C1_WORDS = [
                 "unterstellen"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -4417,9 +4324,15 @@ const C1_WORDS = [
                 "unterstellen"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
+          },
+          {
+            "de": {
+              "blue": [
+                "unterstellt"
+              ]
+            },
+            "lv": {}
           },
           {
             "de": {
@@ -4428,40 +4341,12 @@ const C1_WORDS = [
                 "unterstellen"
               ]
             },
-            "lv": {
-              "purple": []
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "unterstellen",
-                "unterstellen"
-              ]
-            },
-            "lv": {
-              "purple": []
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "unterstellen",
-                "unterstellen"
-              ]
-            },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           }
         ],
         "tip": [
-          {
-            "purple": []
-          },
-          {
-            "purple": []
-          }
+          {},
+          {}
         ],
         "important": [
           {
@@ -4518,54 +4403,16 @@ const C1_WORDS = [
         },
         "examples": [
           {
-            "de": {
-              "green": [
-                "voraussetzen",
-                "voraussetzen"
-              ]
-            },
-            "lv": {
-              "purple": []
-            }
+            "de": {},
+            "lv": {}
           },
           {
-            "de": {
-              "green": [
-                "voraussetzen",
-                "voraussetzen"
-              ]
-            },
-            "lv": {
-              "purple": []
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "voraussetzen",
-                "voraussetzen"
-              ]
-            },
-            "lv": {
-              "purple": []
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "voraussetzen",
-                "voraussetzen"
-              ]
-            },
-            "lv": {
-              "purple": []
-            }
+            "de": {},
+            "lv": {}
           }
         ],
         "tip": [
-          {
-            "purple": []
-          }
+          {}
         ],
         "important": [
           {
@@ -4621,8 +4468,7 @@ const C1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "bewahren",
-            "bewahrt"
+            "bewahren"
           ],
           "purple": [
             "захистити"
@@ -4636,9 +4482,7 @@ const C1_WORDS = [
                 "bewahren"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -4647,9 +4491,7 @@ const C1_WORDS = [
                 "bewahren"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -4658,9 +4500,7 @@ const C1_WORDS = [
                 "bewahren"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -4669,20 +4509,7 @@ const C1_WORDS = [
                 "bewahren"
               ]
             },
-            "lv": {
-              "purple": []
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "bewahren",
-                "bewahren"
-              ]
-            },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           }
         ],
         "tip": [
@@ -4691,9 +4518,7 @@ const C1_WORDS = [
               "захистити"
             ]
           },
-          {
-            "purple": []
-          }
+          {}
         ],
         "important": [
           {
@@ -4748,21 +4573,12 @@ const C1_WORDS = [
             "aufrechterhalten",
             "erhält",
             "auf"
-          ],
-          "purple": [],
-          "yellow": []
+          ]
         },
         "examples": [
           {
-            "de": {
-              "green": [
-                "aufrechterhalten",
-                "aufrechterhalten"
-              ]
-            },
-            "lv": {
-              "purple": []
-            }
+            "de": {},
+            "lv": {}
           },
           {
             "de": {
@@ -4771,37 +4587,15 @@ const C1_WORDS = [
                 "aufrechterhalten"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
-            "de": {
-              "green": [
-                "aufrechterhalten",
-                "aufrechterhalten"
-              ]
-            },
-            "lv": {
-              "purple": []
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "aufrechterhalten",
-                "aufrechterhalten"
-              ]
-            },
-            "lv": {
-              "purple": []
-            }
+            "de": {},
+            "lv": {}
           }
         ],
         "tip": [
-          {
-            "purple": []
-          }
+          {}
         ],
         "important": [
           {

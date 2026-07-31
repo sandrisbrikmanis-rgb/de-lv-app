@@ -1,0 +1,402 @@
+[
+  {
+    "file": "data/uk/a1.js",
+    "de": "bleiben",
+    "section": "important",
+    "index": 0,
+    "field": null,
+    "term": "warten"
+  },
+  {
+    "file": "data/uk/a1.js",
+    "de": "bringen",
+    "section": "important",
+    "index": 1,
+    "field": null,
+    "term": "bringen"
+  },
+  {
+    "file": "data/uk/a1.js",
+    "de": "der",
+    "section": "comparison",
+    "index": 0,
+    "field": "word",
+    "term": "der"
+  },
+  {
+    "file": "data/uk/a1.js",
+    "de": "der",
+    "section": "comparison",
+    "index": 0,
+    "field": "example",
+    "term": "der"
+  },
+  {
+    "file": "data/uk/a1.js",
+    "de": "der",
+    "section": "comparison",
+    "index": 1,
+    "field": "word",
+    "term": "die"
+  },
+  {
+    "file": "data/uk/a1.js",
+    "de": "der",
+    "section": "comparison",
+    "index": 1,
+    "field": "example",
+    "term": "die"
+  },
+  {
+    "file": "data/uk/a1.js",
+    "de": "der",
+    "section": "comparison",
+    "index": 2,
+    "field": "word",
+    "term": "das"
+  },
+  {
+    "file": "data/uk/a1.js",
+    "de": "der",
+    "section": "comparison",
+    "index": 2,
+    "field": "example",
+    "term": "das"
+  },
+  {
+    "file": "data/uk/a1.js",
+    "de": "der",
+    "section": "comparison",
+    "index": 3,
+    "field": "word",
+    "term": "welcher"
+  },
+  {
+    "file": "data/uk/a1.js",
+    "de": "der",
+    "section": "comparison",
+    "index": 3,
+    "field": "example",
+    "term": "Welcher"
+  },
+  {
+    "file": "data/uk/a1.js",
+    "de": "die",
+    "section": "comparison",
+    "index": 0,
+    "field": "word",
+    "term": "der"
+  },
+  {
+    "file": "data/uk/a1.js",
+    "de": "die",
+    "section": "comparison",
+    "index": 0,
+    "field": "example",
+    "term": "der"
+  },
+  {
+    "file": "data/uk/a1.js",
+    "de": "die",
+    "section": "comparison",
+    "index": 1,
+    "field": "word",
+    "term": "die"
+  },
+  {
+    "file": "data/uk/a1.js",
+    "de": "die",
+    "section": "comparison",
+    "index": 1,
+    "field": "example",
+    "term": "die"
+  },
+  {
+    "file": "data/uk/a1.js",
+    "de": "die",
+    "section": "comparison",
+    "index": 2,
+    "field": "word",
+    "term": "das"
+  },
+  {
+    "file": "data/uk/a1.js",
+    "de": "die",
+    "section": "comparison",
+    "index": 2,
+    "field": "example",
+    "term": "das"
+  },
+  {
+    "file": "data/uk/a1.js",
+    "de": "die",
+    "section": "comparison",
+    "index": 3,
+    "field": "word",
+    "term": "die"
+  },
+  {
+    "file": "data/uk/a1.js",
+    "de": "die",
+    "section": "comparison",
+    "index": 3,
+    "field": "word",
+    "term": "Plural"
+  },
+  {
+    "file": "data/uk/a1.js",
+    "de": "die",
+    "section": "comparison",
+    "index": 3,
+    "field": "example",
+    "term": "die"
+  },
+  {
+    "file": "data/uk/a1.js",
+    "de": "die",
+    "section": "comparison",
+    "index": 4,
+    "field": "word",
+    "term": "die"
+  },
+  {
+    "file": "data/uk/a1.js",
+    "de": "die",
+    "section": "comparison",
+    "index": 4,
+    "field": "example",
+    "term": "die"
+  },
+  {
+    "file": "data/uk/a1.js",
+    "de": "die",
+    "section": "comparison",
+    "index": 5,
+    "field": "word",
+    "term": "die"
+  },
+  {
+    "file": "data/uk/a1.js",
+    "de": "die",
+    "section": "comparison",
+    "index": 5,
+    "field": "example",
+    "term": "Die"
+  },
+  {
+    "file": "data/uk/a1.js",
+    "de": "die",
+    "section": "comparison",
+    "index": 5,
+    "field": "example",
+    "term": "die"
+  },
+  {
+    "file": "data/uk/a1.js",
+    "de": "die",
+    "section": "comparison",
+    "index": 6,
+    "field": "word",
+    "term": "die"
+  },
+  {
+    "file": "data/uk/a1.js",
+    "de": "die",
+    "section": "comparison",
+    "index": 6,
+    "field": "example",
+    "term": "die"
+  },
+  {
+    "file": "data/uk/a1.js",
+    "de": "dieser",
+    "section": "comparison",
+    "index": 0,
+    "field": "word",
+    "term": "dieser"
+  },
+  {
+    "file": "data/uk/a1.js",
+    "de": "dieser",
+    "section": "comparison",
+    "index": 0,
+    "field": "example",
+    "term": "Dieser"
+  },
+  {
+    "file": "data/uk/a1.js",
+    "de": "dieser",
+    "section": "comparison",
+    "index": 1,
+    "field": "word",
+    "term": "diese"
+  },
+  {
+    "file": "data/uk/a1.js",
+    "de": "dieser",
+    "section": "comparison",
+    "index": 1,
+    "field": "example",
+    "term": "Diese"
+  },
+  {
+    "file": "data/uk/a1.js",
+    "de": "dieser",
+    "section": "comparison",
+    "index": 2,
+    "field": "word",
+    "term": "dieses"
+  },
+  {
+    "file": "data/uk/a1.js",
+    "de": "dieser",
+    "section": "comparison",
+    "index": 2,
+    "field": "example",
+    "term": "Dieses"
+  },
+  {
+    "file": "data/uk/a1.js",
+    "de": "dieser",
+    "section": "comparison",
+    "index": 3,
+    "field": "word",
+    "term": "diese"
+  },
+  {
+    "file": "data/uk/a1.js",
+    "de": "dieser",
+    "section": "comparison",
+    "index": 3,
+    "field": "word",
+    "term": "Plural"
+  },
+  {
+    "file": "data/uk/a1.js",
+    "de": "dieser",
+    "section": "comparison",
+    "index": 3,
+    "field": "example",
+    "term": "Diese"
+  },
+  {
+    "file": "data/uk/a1.js",
+    "de": "ein",
+    "section": "comparison",
+    "index": 0,
+    "field": "word",
+    "term": "ein"
+  },
+  {
+    "file": "data/uk/a1.js",
+    "de": "ein",
+    "section": "comparison",
+    "index": 0,
+    "field": "example",
+    "term": "ein"
+  },
+  {
+    "file": "data/uk/a1.js",
+    "de": "ein",
+    "section": "comparison",
+    "index": 1,
+    "field": "word",
+    "term": "eine"
+  },
+  {
+    "file": "data/uk/a1.js",
+    "de": "ein",
+    "section": "comparison",
+    "index": 1,
+    "field": "example",
+    "term": "eine"
+  },
+  {
+    "file": "data/uk/a1.js",
+    "de": "ein",
+    "section": "comparison",
+    "index": 2,
+    "field": "word",
+    "term": "ein"
+  },
+  {
+    "file": "data/uk/a1.js",
+    "de": "ein",
+    "section": "comparison",
+    "index": 2,
+    "field": "example",
+    "term": "ein"
+  },
+  {
+    "file": "data/uk/a1.js",
+    "de": "ein",
+    "section": "comparison",
+    "index": 3,
+    "field": "word",
+    "term": "– (немає)"
+  },
+  {
+    "file": "data/uk/a1.js",
+    "de": "ein",
+    "section": "comparison",
+    "index": 3,
+    "field": "example",
+    "term": "Kinder"
+  },
+  {
+    "file": "data/uk/a1.js",
+    "de": "ein",
+    "section": "comparison",
+    "index": 3,
+    "field": "example",
+    "term": "Bücher"
+  },
+  {
+    "file": "data/uk/a1.js",
+    "de": "ein",
+    "section": "comparison",
+    "index": 4,
+    "field": "word",
+    "term": "der"
+  },
+  {
+    "file": "data/uk/a1.js",
+    "de": "ein",
+    "section": "comparison",
+    "index": 4,
+    "field": "example",
+    "term": "der"
+  },
+  {
+    "file": "data/uk/a1.js",
+    "de": "ein",
+    "section": "comparison",
+    "index": 5,
+    "field": "word",
+    "term": "ein"
+  },
+  {
+    "file": "data/uk/a1.js",
+    "de": "ein",
+    "section": "comparison",
+    "index": 5,
+    "field": "example",
+    "term": "ein"
+  },
+  {
+    "file": "data/uk/a1.js",
+    "de": "Eis",
+    "section": "tip",
+    "index": null,
+    "field": "left",
+    "term": "das Eis"
+  },
+  {
+    "file": "data/uk/a1.js",
+    "de": "es",
+    "section": "comparison",
+    "index": 0,
+    "field": "word",
+    "term": "ich"
+  }
+]

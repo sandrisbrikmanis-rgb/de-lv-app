@@ -254,8 +254,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "anbauen"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "anbauen"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -423,8 +429,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "angeben"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "angeben"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -633,8 +645,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "anbringen"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "anbringen"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -832,8 +850,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "abbauen"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "abbauen"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -928,9 +952,7 @@ const B1_WORDS = [
                 "abgebrochen"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -985,8 +1007,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "abbrechen"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "abbrechen"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -1095,9 +1123,7 @@ const B1_WORDS = [
                 "ab"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           }
         ],
         "comparison": [
@@ -1139,8 +1165,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "abdecken"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "abdecken"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -1268,9 +1300,7 @@ const B1_WORDS = [
                 "ab"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -1326,8 +1356,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "abgehen"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "abgehen"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -1432,46 +1468,32 @@ const B1_WORDS = [
                 "ab"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           }
         ],
         "comparison": [
           {
-            "word": {
-              "green": [
-                "abhängen von"
-              ]
-            },
-            "meaning": {
-              "purple": []
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "hängen"
-              ]
-            },
-            "meaning": {
-              "purple": []
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "abnehmen"
-              ]
-            },
-            "meaning": {
-              "purple": []
-            }
+            "word": {},
+            "meaning": {}
           }
         ],
         "tip": {
-          "purple": [
-            "abhängen"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "abhängen"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -1601,9 +1623,7 @@ const B1_WORDS = [
                 "ab"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -1613,9 +1633,7 @@ const B1_WORDS = [
                 "ab"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           }
         ],
         "comparison": [
@@ -1657,8 +1675,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "ablegen"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "ablegen"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -1840,8 +1864,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "abnehmen"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "abnehmen"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -1933,9 +1963,7 @@ const B1_WORDS = [
                 "Absatz"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -1943,9 +1971,7 @@ const B1_WORDS = [
                 "Absatz"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -1968,9 +1994,7 @@ const B1_WORDS = [
                 "gestiegen"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           }
         ],
         "comparison": [
@@ -2012,8 +2036,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "absatz"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "absatz"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -2102,9 +2132,7 @@ const B1_WORDS = [
                 "Projekts"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -2126,9 +2154,7 @@ const B1_WORDS = [
                 "Abschluss"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           }
         ],
         "comparison": [
@@ -2170,8 +2196,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "abschluss"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "abschluss"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -2318,8 +2350,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "abschnitt"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "abschnitt"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -2438,39 +2476,27 @@ const B1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {
-              "green": [
-                "absetzen"
-              ]
-            },
-            "meaning": {
-              "purple": []
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "abstellen"
-              ]
-            },
-            "meaning": {
-              "purple": []
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "entlassen"
-              ]
-            },
-            "meaning": {
-              "purple": []
-            }
+            "word": {},
+            "meaning": {}
           }
         ],
         "tip": {
-          "purple": [
-            "absetzen"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "absetzen"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -2839,8 +2865,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "anlage"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "anlage"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -2929,9 +2961,7 @@ const B1_WORDS = [
                 "anmachen"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -2950,39 +2980,27 @@ const B1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {
-              "green": [
-                "anmachen"
-              ]
-            },
-            "meaning": {
-              "purple": []
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "ausschalten"
-              ]
-            },
-            "meaning": {
-              "purple": []
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "anschalten"
-              ]
-            },
-            "meaning": {
-              "purple": []
-            }
+            "word": {},
+            "meaning": {}
           }
         ],
         "tip": {
-          "purple": [
-            "anmachen"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "anmachen"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -3223,8 +3241,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "anschlag"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "anschlag"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -3326,9 +3350,7 @@ const B1_WORDS = [
                 "Internetanschluss"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           }
         ],
         "comparison": [
@@ -3370,8 +3392,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "anschluss"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "anschluss"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -3532,8 +3560,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "ansehen"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "ansehen"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -3691,9 +3725,7 @@ const B1_WORDS = [
                 "Hilfe"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -3761,8 +3793,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "antrag"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "antrag"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -4068,9 +4106,7 @@ const B1_WORDS = [
                 "Auftrag"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -4125,8 +4161,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "auftrag"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "auftrag"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -4209,9 +4251,7 @@ const B1_WORDS = [
                 "Aufwand"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -4220,9 +4260,7 @@ const B1_WORDS = [
                 "reduzieren"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -4269,8 +4307,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "aufwand"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "aufwand"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -4373,9 +4417,7 @@ const B1_WORDS = [
                 "aufgeführt"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -4436,8 +4478,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "aufführen"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "aufführen"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -4516,7 +4564,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "green": [
                 "в саду"
               ]
@@ -4532,10 +4579,7 @@ const B1_WORDS = [
                 "dich"
               ]
             },
-            "lv": {
-              "purple": [],
-              "green": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -4547,7 +4591,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "red": [
                 "Пробка"
               ]
@@ -4561,8 +4604,7 @@ const B1_WORDS = [
           ],
           "purple": [
             "затримку"
-          ],
-          "green": []
+          ]
         },
         "comparison": [
           {
@@ -4603,7 +4645,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -4755,8 +4801,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "вид"
-              ],
-              "green": []
+              ]
             }
           },
           {
@@ -4771,8 +4816,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "шанси"
-              ],
-              "yellow": []
+              ]
             }
           }
         ],
@@ -4827,7 +4871,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -4910,8 +4958,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "вимова"
-              ],
-              "red": []
+              ]
             }
           },
           {
@@ -4999,7 +5046,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -5068,8 +5119,7 @@ const B1_WORDS = [
               ],
               "green": [
                 "Заклад"
-              ],
-              "yellow": []
+              ]
             }
           },
           {
@@ -5086,11 +5136,9 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "green": [
                 "музеї"
-              ],
-              "yellow": []
+              ]
             }
           },
           {
@@ -5107,11 +5155,9 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "green": [
                 "лікар"
-              ],
-              "yellow": []
+              ]
             }
           }
         ],
@@ -5130,42 +5176,26 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {
-              "green": [
-                "ausstellen"
-              ]
-            },
-            "meaning": {
-              "purple": []
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "zeigen"
-              ]
-            },
-            "meaning": {
-              "purple": []
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "ausgeben"
-              ]
-            },
-            "meaning": {
-              "purple": []
-            }
+            "word": {},
+            "meaning": {}
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
-        "important": {
-          "purple": []
-        }
+        "important": {}
       }
     }
   },
@@ -5256,8 +5286,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "працює"
-              ],
-              "yellow": []
+              ]
             }
           },
           {
@@ -5274,8 +5303,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
-              "yellow": [],
               "green": [
                 "компанію"
               ]
@@ -5292,7 +5319,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "вплив"
               ]
@@ -5303,7 +5329,6 @@ const B1_WORDS = [
           "blue": [
             "ausüben"
           ],
-          "purple": [],
           "yellow": [
             "професію",
             "вплив",
@@ -5349,11 +5374,17 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "beruf",
-            "druck",
-            "einfluss",
-            "einfluss"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "beruf",
+                  "druck",
+                  "einfluss",
+                  "einfluss"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -5462,10 +5493,7 @@ const B1_WORDS = [
                 "Register"
               ]
             },
-            "lv": {
-              "purple": [],
-              "yellow": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -5477,7 +5505,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "квартири"
               ]
@@ -5495,8 +5522,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "виписка з рахунку"
-              ],
-              "yellow": []
+              ]
             }
           }
         ],
@@ -5551,7 +5577,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -5763,8 +5793,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "будівництво"
-              ],
-              "yellow": []
+              ]
             }
           },
           {
@@ -5777,7 +5806,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "ринкової площі"
               ]
@@ -5793,7 +5821,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "green": [
                 "людей"
               ]
@@ -5848,7 +5875,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -6028,17 +6059,13 @@ const B1_WORDS = [
                 "Schmerzen"
               ]
             },
-            "lv": {
-              "purple": [],
-              "red": []
-            }
+            "lv": {}
           }
         ],
         "explanation": {
           "blue": [
             "Becken"
-          ],
-          "purple": []
+          ]
         },
         "comparison": [
           {
@@ -6079,7 +6106,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -6174,7 +6205,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "крок"
               ]
@@ -6190,7 +6220,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "green": [
                 "лікар"
               ]
@@ -6206,7 +6235,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "red": [
                 "краще"
               ]
@@ -6261,7 +6289,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -6330,9 +6362,7 @@ const B1_WORDS = [
                 "sich"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -6346,8 +6376,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "використовує"
-              ],
-              "yellow": []
+              ]
             }
           },
           {
@@ -6363,11 +6392,9 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "green": [
                 "Гості"
-              ],
-              "yellow": []
+              ]
             }
           }
         ],
@@ -6421,7 +6448,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -6731,11 +6762,7 @@ const B1_WORDS = [
                 "freundlich"
               ]
             },
-            "lv": {
-              "purple": [],
-              "green": [],
-              "red": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -6752,9 +6779,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "ми обговорюємо"
-              ],
-              "yellow": [],
-              "green": []
+              ]
             }
           }
         ],
@@ -6813,7 +6838,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -7051,10 +7080,7 @@ const B1_WORDS = [
                 "Deutschkurs"
               ]
             },
-            "lv": {
-              "purple": [],
-              "yellow": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -7066,17 +7092,13 @@ const B1_WORDS = [
                 "Aussage"
               ]
             },
-            "lv": {
-              "purple": [],
-              "yellow": []
-            }
+            "lv": {}
           }
         ],
         "explanation": {
           "blue": [
             "belegen"
           ],
-          "purple": [],
           "yellow": [
             "місце",
             "курс",
@@ -7122,10 +7144,16 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "platz",
-            "kurs",
-            "aussage"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "platz",
+                  "kurs",
+                  "aussage"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -7274,7 +7302,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "red": [
                 "коротко"
               ]
@@ -7331,7 +7358,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -7409,10 +7440,7 @@ const B1_WORDS = [
                 "zu sein"
               ]
             },
-            "lv": {
-              "purple": [],
-              "red": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -7424,7 +7452,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "рішення"
               ]
@@ -7440,10 +7467,7 @@ const B1_WORDS = [
                 "Kunden"
               ]
             },
-            "lv": {
-              "purple": [],
-              "green": []
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -7453,8 +7477,7 @@ const B1_WORDS = [
           "red": [
             "um + кого?",
             "zu + інфінітив"
-          ],
-          "purple": []
+          ]
         },
         "comparison": [
           {
@@ -7495,8 +7518,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "lösung"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "lösung"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -7621,7 +7650,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "план"
               ]
@@ -7696,7 +7724,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -7806,7 +7838,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "green": [
                 "соціальні"
               ]
@@ -7824,8 +7855,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "зона"
-              ],
-              "red": []
+              ]
             }
           },
           {
@@ -7838,7 +7868,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "green": [
                 "Здоров'я"
               ]
@@ -7848,8 +7877,7 @@ const B1_WORDS = [
         "explanation": {
           "blue": [
             "Bereich"
-          ],
-          "purple": []
+          ]
         },
         "comparison": [
           {
@@ -7890,11 +7918,13 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
-        "important": {
-          "purple": []
-        }
+        "important": {}
       }
     }
   },
@@ -8012,10 +8042,7 @@ const B1_WORDS = [
                 "Unfall"
               ]
             },
-            "lv": {
-              "purple": [],
-              "yellow": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -8050,7 +8077,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "green": [
                 "Колега"
               ],
@@ -8107,7 +8133,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -8221,9 +8251,7 @@ const B1_WORDS = [
                 "sich"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -8235,7 +8263,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "Ситуація"
               ]
@@ -8246,8 +8273,7 @@ const B1_WORDS = [
           "blue": [
             "sich beruhigen",
             "beruhigen"
-          ],
-          "purple": []
+          ]
         },
         "comparison": [
           {
@@ -8288,11 +8314,13 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
-        "important": {
-          "purple": []
-        }
+        "important": {}
       }
     }
   },
@@ -8442,11 +8470,13 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
-        "important": {
-          "purple": []
-        }
+        "important": {}
       }
     }
   },
@@ -8593,7 +8623,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "Виступ",
                 "вечір"
@@ -8648,7 +8677,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -8766,10 +8799,7 @@ const B1_WORDS = [
                 "Rücken"
               ]
             },
-            "lv": {
-              "purple": [],
-              "yellow": []
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -8821,7 +8851,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -8923,7 +8957,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "квитки"
               ]
@@ -8956,10 +8989,7 @@ const B1_WORDS = [
                 "Handwerker"
               ]
             },
-            "lv": {
-              "purple": [],
-              "green": []
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -9010,7 +9040,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -9132,9 +9166,7 @@ const B1_WORDS = [
                 "bestanden"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -9166,9 +9198,7 @@ const B1_WORDS = [
         ],
         "explanation": {
           "blue": [
-            "bestehen",
-            "bestehen aus",
-            "bestehen auf"
+            "bestehen"
           ],
           "purple": [
             "існувати",
@@ -9215,7 +9245,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -9289,8 +9323,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "визначає"
-              ],
-              "yellow": []
+              ]
             }
           },
           {
@@ -9303,7 +9336,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "крайній термін"
               ]
@@ -9322,20 +9354,16 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "green": [
                 "для дітей"
-              ],
-              "yellow": []
+              ]
             }
           }
         ],
         "explanation": {
           "blue": [
             "bestimmen"
-          ],
-          "purple": [],
-          "yellow": []
+          ]
         },
         "comparison": [
           {
@@ -9376,7 +9404,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -9518,10 +9550,7 @@ const B1_WORDS = [
                 "Mitarbeiter"
               ]
             },
-            "lv": {
-              "purple": [],
-              "green": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -9535,8 +9564,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "працює"
-              ],
-              "yellow": []
+              ]
             }
           },
           {
@@ -9549,7 +9577,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "дверцята"
               ]
@@ -9605,7 +9632,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -9736,7 +9767,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "стіл"
               ]
@@ -9749,9 +9779,7 @@ const B1_WORDS = [
                 "bewegen"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -9763,7 +9791,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "Історія"
               ]
@@ -9819,7 +9846,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -9967,9 +9998,7 @@ const B1_WORDS = [
                 "Wohnung"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -10034,7 +10063,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -10303,7 +10336,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "курс"
               ],
@@ -10326,8 +10358,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
-              "yellow": [],
               "green": [
                 "готелю",
                 "озеро"
@@ -10343,10 +10373,7 @@ const B1_WORDS = [
                 "mir"
               ]
             },
-            "lv": {
-              "purple": [],
-              "green": []
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -10401,7 +10428,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -10501,10 +10532,7 @@ const B1_WORDS = [
                 "Fuß"
               ]
             },
-            "lv": {
-              "purple": [],
-              "yellow": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -10515,10 +10543,7 @@ const B1_WORDS = [
                 "tut weh"
               ]
             },
-            "lv": {
-              "purple": [],
-              "red": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -10541,8 +10566,7 @@ const B1_WORDS = [
         ],
         "explanation": {
           "blue": [
-            "Blase",
-            "Blasen"
+            "Blase"
           ],
           "purple": [
             "пухир",
@@ -10592,7 +10616,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -10718,10 +10746,7 @@ const B1_WORDS = [
                 "schreibe"
               ]
             },
-            "lv": {
-              "purple": [],
-              "yellow": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -10733,7 +10758,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "Урок"
               ]
@@ -10748,10 +10772,7 @@ const B1_WORDS = [
                 "Eis"
               ]
             },
-            "lv": {
-              "purple": [],
-              "yellow": []
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -10805,11 +10826,13 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
-        "important": {
-          "purple": []
-        }
+        "important": {}
       }
     }
   },
@@ -10880,7 +10903,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "жарт"
               ]
@@ -10896,7 +10918,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "п'ять євро"
               ]
@@ -10912,7 +10933,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "руками"
               ]
@@ -10967,7 +10987,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -11092,9 +11116,7 @@ const B1_WORDS = [
                 "Bogen"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -11154,8 +11176,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "bogen"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "bogen"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -11300,9 +11328,7 @@ const B1_WORDS = [
                 "Botschaft"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -11461,10 +11487,7 @@ const B1_WORDS = [
                 "gelöscht"
               ]
             },
-            "lv": {
-              "purple": [],
-              "red": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -11476,7 +11499,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "green": [
                 "ніхто"
               ]
@@ -11494,8 +11516,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "опік"
-              ],
-              "yellow": []
+              ]
             }
           }
         ],
@@ -11550,7 +11571,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -11864,8 +11889,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "федерація"
-              ],
-              "green": []
+              ]
             }
           },
           {
@@ -11877,10 +11901,7 @@ const B1_WORDS = [
                 "Ländern"
               ]
             },
-            "lv": {
-              "purple": [],
-              "green": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -11894,8 +11915,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "пучок"
-              ],
-              "yellow": []
+              ]
             }
           }
         ],
@@ -11950,7 +11970,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -12269,8 +12293,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "dadurch"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "dadurch"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -12352,9 +12382,7 @@ const B1_WORDS = [
                 "Kaffee"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -12414,8 +12442,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "dagegen"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "dagegen"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -12567,8 +12601,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "daher"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "daher"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -12637,9 +12677,7 @@ const B1_WORDS = [
                 "dahin"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -12650,10 +12688,7 @@ const B1_WORDS = [
                 "Tasche"
               ]
             },
-            "lv": {
-              "purple": [],
-              "yellow": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -12665,7 +12700,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "надія"
               ]
@@ -12719,7 +12753,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -12972,8 +13010,7 @@ const B1_WORDS = [
               "blue": [
                 "Herzlichen",
                 "Dank"
-              ],
-              "purple": []
+              ]
             }
           },
           {
@@ -13212,10 +13249,7 @@ const B1_WORDS = [
                 "arbeiten"
               ]
             },
-            "lv": {
-              "purple": [],
-              "red": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -13229,8 +13263,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "це"
-              ],
-              "red": []
+              ]
             }
           }
         ],
@@ -13242,8 +13275,7 @@ const B1_WORDS = [
             "denken an",
             "arbeiten an",
             "sich erinnern an"
-          ],
-          "purple": []
+          ]
         },
         "comparison": [
           {
@@ -13284,10 +13316,16 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "denken an",
-            "arbeiten an",
-            "warten auf"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "denken an",
+                  "arbeiten an",
+                  "warten auf"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -13369,8 +13407,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "представляє"
-              ],
-              "yellow": []
+              ]
             }
           },
           {
@@ -13387,7 +13424,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "життя"
               ],
@@ -13407,7 +13443,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "green": [
                 "лікарі"
               ]
@@ -13462,7 +13497,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -13532,9 +13571,7 @@ const B1_WORDS = [
                 "Kinder"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -13557,9 +13594,7 @@ const B1_WORDS = [
                 "Kosten"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -13606,8 +13641,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "darunter"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "darunter"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -13710,7 +13751,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "стіл"
               ]
@@ -13729,7 +13769,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "витрати"
               ],
@@ -13749,7 +13788,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "дорогу",
                 "сніг"
@@ -13810,11 +13848,17 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "tisch",
-            "kosten",
-            "straße",
-            "schnee"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "tisch",
+                  "kosten",
+                  "straße",
+                  "schnee"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -14070,8 +14114,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "dienen"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "dienen"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -14316,8 +14366,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "тиск"
-              ],
-              "yellow": []
+              ]
             }
           },
           {
@@ -14331,7 +14380,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "green": [
                 "вона"
               ]
@@ -14407,7 +14455,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -14566,9 +14618,7 @@ const B1_WORDS = [
                 "gefallen"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -14615,8 +14665,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "durchfall"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "durchfall"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -14692,9 +14748,7 @@ const B1_WORDS = [
                 "durch"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -14769,8 +14823,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "durchführen"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "durchführen"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -14941,9 +15001,7 @@ const B1_WORDS = [
                 "eher"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -14955,7 +15013,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "red": [
                 "важко"
               ]
@@ -15030,11 +15087,13 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
-        "important": {
-          "purple": []
-        }
+        "important": {}
       }
     }
   },
@@ -15134,7 +15193,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "стиль"
               ]
@@ -15150,7 +15208,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "кімната"
               ]
@@ -15226,10 +15283,16 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "zimmer",
-            "stil",
-            "meinung"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "zimmer",
+                  "stil",
+                  "meinung"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -15346,11 +15409,9 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "green": [
                 "Злодії"
-              ],
-              "yellow": []
+              ]
             }
           },
           {
@@ -15363,7 +15424,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "дах"
               ]
@@ -15380,7 +15440,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "ніч"
               ]
@@ -15391,45 +15450,30 @@ const B1_WORDS = [
           "blue": [
             "einbrechen"
           ],
-          "purple": [],
           "yellow": [
             "Nacht"
           ]
         },
         "comparison": [
           {
-            "word": {
-              "green": [
-                "einbrechen"
-              ]
-            },
-            "meaning": {
-              "purple": []
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "eintreten"
-              ]
-            },
-            "meaning": {
-              "purple": []
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "einstürzen"
-              ]
-            },
-            "meaning": {
-              "purple": []
-            }
+            "word": {},
+            "meaning": {}
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -15484,7 +15528,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "Відповідь"
               ]
@@ -15500,7 +15543,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "Результат"
               ]
@@ -15519,7 +15561,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "red": [
                 "просте"
               ],
@@ -15542,38 +15583,24 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {
-              "green": [
-                "eindeutig"
-              ]
-            },
-            "meaning": {
-              "purple": []
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "einfach"
-              ]
-            },
-            "meaning": {
-              "purple": []
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "deutlich"
-              ]
-            },
-            "meaning": {
-              "purple": []
-            }
+            "word": {},
+            "meaning": {}
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -15665,7 +15692,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "green": [
                 "він"
               ]
@@ -15739,7 +15765,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -15811,10 +15841,7 @@ const B1_WORDS = [
                 "Mir"
               ]
             },
-            "lv": {
-              "purple": [],
-              "green": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -15825,10 +15852,7 @@ const B1_WORDS = [
                 "wer"
               ]
             },
-            "lv": {
-              "purple": [],
-              "green": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -15839,10 +15863,7 @@ const B1_WORDS = [
                 "Alltag"
               ]
             },
-            "lv": {
-              "purple": [],
-              "yellow": []
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -15896,11 +15917,13 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
-        "important": {
-          "purple": []
-        }
+        "important": {}
       }
     }
   },
@@ -15989,8 +16012,7 @@ const B1_WORDS = [
               "purple": [
                 "з одного боку",
                 "з іншого боку"
-              ],
-              "yellow": []
+              ]
             }
           },
           {
@@ -16057,9 +16079,15 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "einerseits",
-            "andererseits"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "einerseits",
+                  "andererseits"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -16133,10 +16161,7 @@ const B1_WORDS = [
                 "parken"
               ]
             },
-            "lv": {
-              "purple": [],
-              "red": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -16150,11 +16175,7 @@ const B1_WORDS = [
                 "gesperrt"
               ]
             },
-            "lv": {
-              "purple": [],
-              "green": [],
-              "red": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -16225,11 +16246,13 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
-        "important": {
-          "purple": []
-        }
+        "important": {}
       }
     }
   },
@@ -16287,8 +16310,7 @@ const B1_WORDS = [
               ],
               "yellow": [
                 "ідея"
-              ],
-              "green": []
+              ]
             }
           },
           {
@@ -16304,11 +16326,7 @@ const B1_WORDS = [
                 "mir"
               ]
             },
-            "lv": {
-              "purple": [],
-              "yellow": [],
-              "green": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -16320,7 +16338,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "Стеля"
               ]
@@ -16336,43 +16353,28 @@ const B1_WORDS = [
           ],
           "green": [
             "mir"
-          ],
-          "purple": []
+          ]
         },
         "comparison": [
           {
-            "word": {
-              "green": [
-                "einfallen"
-              ]
-            },
-            "meaning": {
-              "purple": []
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "sich erinnern"
-              ]
-            },
-            "meaning": {
-              "purple": []
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "einstürzen"
-              ]
-            },
-            "meaning": {
-              "purple": []
-            }
+            "word": {},
+            "meaning": {}
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -16444,7 +16446,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "сорочку"
               ]
@@ -16460,7 +16461,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "стіна"
               ]
@@ -16479,8 +16479,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
-              "red": [],
               "yellow": [
                 "плаття"
               ]
@@ -16537,11 +16535,13 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
-        "important": {
-          "purple": []
-        }
+        "important": {}
       }
     }
   },
@@ -16654,8 +16654,7 @@ const B1_WORDS = [
               ],
               "green": [
                 "молодь"
-              ],
-              "yellow": []
+              ]
             }
           }
         ],
@@ -16664,7 +16663,6 @@ const B1_WORDS = [
             "Einfluss",
             "Einfluss auf"
           ],
-          "red": [],
           "purple": [
             "вплив"
           ]
@@ -16708,11 +16706,13 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
-        "important": {
-          "purple": []
-        }
+        "important": {}
       }
     }
   },
@@ -16763,7 +16763,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "зображення",
                 "в документі"
@@ -16782,7 +16781,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "речення"
               ]
@@ -16800,7 +16798,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "частина"
               ]
@@ -16814,43 +16811,28 @@ const B1_WORDS = [
           "purple": [
             "вставити",
             "включити"
-          ],
-          "yellow": []
+          ]
         },
         "comparison": [
           {
-            "word": {
-              "green": [
-                "einfügen"
-              ]
-            },
-            "meaning": {
-              "purple": []
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "hinzufügen"
-              ]
-            },
-            "meaning": {
-              "purple": []
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "einsetzen"
-              ]
-            },
-            "meaning": {
-              "purple": []
-            }
+            "word": {},
+            "meaning": {}
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -16926,7 +16908,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "правила"
               ],
@@ -16949,7 +16930,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "систему"
               ],
@@ -17037,11 +17017,13 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
-        "important": {
-          "purple": []
-        }
+        "important": {}
       }
     }
   },
@@ -17111,8 +17093,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "вступ"
-              ],
-              "yellow": []
+              ]
             }
           },
           {
@@ -17145,8 +17126,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "вступ"
-              ],
-              "yellow": []
+              ]
             }
           }
         ],
@@ -17157,8 +17137,7 @@ const B1_WORDS = [
           "purple": [
             "вступ",
             "впровадження"
-          ],
-          "yellow": []
+          ]
         },
         "comparison": [
           {
@@ -17199,11 +17178,13 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
-        "important": {
-          "purple": []
-        }
+        "important": {}
       }
     }
   },
@@ -17269,7 +17250,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "роботи"
               ]
@@ -17289,11 +17269,9 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "green": [
                 "Дитина"
-              ],
-              "yellow": []
+              ]
             }
           },
           {
@@ -17305,10 +17283,7 @@ const B1_WORDS = [
                 "Umzug"
               ]
             },
-            "lv": {
-              "purple": [],
-              "yellow": []
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -17363,7 +17338,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -17436,7 +17415,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "правил"
               ]
@@ -17451,10 +17429,7 @@ const B1_WORDS = [
                 "Termin"
               ]
             },
-            "lv": {
-              "purple": [],
-              "yellow": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -17467,7 +17442,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "відстані"
               ]
@@ -17478,7 +17452,6 @@ const B1_WORDS = [
           "blue": [
             "einhalten"
           ],
-          "purple": [],
           "yellow": [
             "правил",
             "обіцянки"
@@ -17523,11 +17496,17 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "regeln",
-            "termin",
-            "frist",
-            "abstand"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "regeln",
+                  "termin",
+                  "frist",
+                  "abstand"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -17624,10 +17603,7 @@ const B1_WORDS = [
                 "Pflanze"
               ]
             },
-            "lv": {
-              "purple": [],
-              "yellow": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -17655,7 +17631,6 @@ const B1_WORDS = [
           "purple": [
             "місцевий"
           ],
-          "green": [],
           "yellow": [
             "рослин",
             "тварин",
@@ -17701,11 +17676,13 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
-        "important": {
-          "purple": []
-        }
+        "important": {}
       }
     }
   },
@@ -17772,10 +17749,7 @@ const B1_WORDS = [
                 "nächste"
               ]
             },
-            "lv": {
-              "purple": [],
-              "yellow": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -17788,7 +17762,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "Метр",
                 "довжини"
@@ -17805,7 +17778,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "пристрій"
               ]
@@ -17819,8 +17791,7 @@ const B1_WORDS = [
           "purple": [
             "одиниця",
             "одиниця вимірювання"
-          ],
-          "yellow": []
+          ]
         },
         "comparison": [
           {
@@ -17861,11 +17832,13 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
-        "important": {
-          "purple": []
-        }
+        "important": {}
       }
     }
   },
@@ -18026,7 +17999,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -18081,7 +18058,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "правила"
               ]
@@ -18100,8 +18076,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
-              "green": [],
               "yellow": [
                 "одяг"
               ]
@@ -18117,7 +18091,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "Дизайн"
               ]
@@ -18138,42 +18111,26 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {
-              "green": [
-                "einheitlich"
-              ]
-            },
-            "meaning": {
-              "purple": []
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "einzig"
-              ]
-            },
-            "meaning": {
-              "purple": []
-            }
+            "word": {},
+            "meaning": {}
           },
           {
-            "word": {
-              "green": [
-                "gleich"
-              ]
-            },
-            "meaning": {
-              "purple": []
-            }
+            "word": {},
+            "meaning": {}
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
-        "important": {
-          "purple": []
-        }
+        "important": {}
       }
     }
   },
@@ -18258,7 +18215,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "дозвіл"
               ]
@@ -18283,8 +18239,7 @@ const B1_WORDS = [
               ],
               "green": [
                 "бігун"
-              ],
-              "yellow": []
+              ]
             }
           }
         ],
@@ -18341,7 +18296,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -18518,10 +18477,7 @@ const B1_WORDS = [
                 "Technik"
               ]
             },
-            "lv": {
-              "purple": [],
-              "yellow": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -18533,7 +18489,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "green": [
                 "Пожежні"
               ]
@@ -18548,10 +18503,7 @@ const B1_WORDS = [
                 "Spiel"
               ]
             },
-            "lv": {
-              "purple": [],
-              "yellow": []
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -18559,8 +18511,7 @@ const B1_WORDS = [
             "der Einsatz",
             "im Einsatz",
             "zum Einsatz kommen"
-          ],
-          "purple": []
+          ]
         },
         "comparison": [
           {
@@ -18601,7 +18552,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -18711,9 +18666,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "ми використовуємо"
-              ],
-              "yellow": [],
-              "green": []
+              ]
             }
           },
           {
@@ -18728,7 +18681,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "green": [
                 "тренер"
               ]
@@ -18767,8 +18719,7 @@ const B1_WORDS = [
             "техніка",
             "дощ",
             "біль"
-          ],
-          "green": []
+          ]
         },
         "comparison": [
           {
@@ -18809,15 +18760,19 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "technik einsetzen",
-            "spieler einsetzen",
-            "regen setzt ein"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "technik einsetzen",
+                  "spieler einsetzen",
+                  "regen setzt ein"
+                ]
+              }
+            }
           ]
         },
-        "important": {
-          "purple": []
-        }
+        "important": {}
       }
     }
   },
@@ -18898,10 +18853,7 @@ const B1_WORDS = [
                 "Heizung"
               ]
             },
-            "lv": {
-              "purple": [],
-              "yellow": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -18920,7 +18872,6 @@ const B1_WORDS = [
               "purple": [
                 "приймає на роботу"
               ],
-              "green": [],
               "yellow": [
                 "Компанія"
               ]
@@ -19000,8 +18951,14 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "mitarbeiter"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "mitarbeiter"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -19096,9 +19053,7 @@ const B1_WORDS = [
                 "ein"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -19110,10 +19065,7 @@ const B1_WORDS = [
                 "Verein"
               ]
             },
-            "lv": {
-              "purple": [],
-              "green": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -19125,10 +19077,7 @@ const B1_WORDS = [
                 "Wirkung"
               ]
             },
-            "lv": {
-              "purple": [],
-              "yellow": []
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -19140,8 +19089,7 @@ const B1_WORDS = [
           ],
           "yellow": [
             "подія"
-          ],
-          "green": []
+          ]
         },
         "comparison": [
           {
@@ -19182,11 +19130,13 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
-        "important": {
-          "purple": []
-        }
+        "important": {}
       }
     }
   },
@@ -19281,10 +19231,7 @@ const B1_WORDS = [
                 "Wohnung"
               ]
             },
-            "lv": {
-              "purple": [],
-              "yellow": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -19300,8 +19247,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
-              "yellow": [],
               "green": [
                 "банк"
               ]
@@ -19330,9 +19275,7 @@ const B1_WORDS = [
         "explanation": {
           "blue": [
             "einziehen"
-          ],
-          "purple": [],
-          "yellow": []
+          ]
         },
         "comparison": [
           {
@@ -19373,11 +19316,13 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
-        "important": {
-          "purple": []
-        }
+        "important": {}
       }
     }
   },
@@ -19560,7 +19505,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "green": [
                 "Міністр",
                 "гостей"
@@ -19578,7 +19522,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "Radio",
                 "сигнал"
@@ -19640,7 +19583,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -19767,7 +19714,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "пляму"
               ]
@@ -19786,8 +19732,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
-              "yellow": [],
               "green": [
                 "Поліція"
               ]
@@ -19805,8 +19749,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "відійшов"
-              ],
-              "yellow": []
+              ]
             }
           }
         ],
@@ -19863,11 +19806,13 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
-        "important": {
-          "purple": []
-        }
+        "important": {}
       }
     }
   },
@@ -19970,7 +19915,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "сніданок"
               ]
@@ -19987,7 +19931,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "повідомлення",
                 "інформацію"
@@ -20048,7 +19991,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -20128,8 +20075,7 @@ const B1_WORDS = [
               ],
               "green": [
                 "В'язень"
-              ],
-              "yellow": []
+              ]
             }
           },
           {
@@ -20142,7 +20088,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "green": [
                 "поліції"
               ]
@@ -20160,11 +20105,7 @@ const B1_WORDS = [
                 "Familie"
               ]
             },
-            "lv": {
-              "purple": [],
-              "yellow": [],
-              "green": []
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -20224,7 +20165,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -20300,7 +20245,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "green": [
                 "працівник"
               ],
@@ -20324,9 +20268,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "виписаний"
-              ],
-              "green": [],
-              "yellow": []
+              ]
             }
           },
           {
@@ -20341,11 +20283,7 @@ const B1_WORDS = [
                 "Gefängnis"
               ]
             },
-            "lv": {
-              "purple": [],
-              "green": [],
-              "yellow": []
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -20401,11 +20339,13 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
-        "important": {
-          "purple": []
-        }
+        "important": {}
       }
     }
   },
@@ -20495,8 +20435,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "відповідає"
-              ],
-              "yellow": []
+              ]
             }
           },
           {
@@ -20511,8 +20450,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "відповідає"
-              ],
-              "yellow": []
+              ]
             }
           },
           {
@@ -20524,10 +20462,7 @@ const B1_WORDS = [
                 "Wahrheit"
               ]
             },
-            "lv": {
-              "purple": [],
-              "yellow": []
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -20583,7 +20518,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -20658,8 +20597,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "top"
-              ],
-              "yellow": []
+              ]
             }
           },
           {
@@ -20675,8 +20613,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
-              "red": [],
               "yellow": [
                 "витрат"
               ]
@@ -20698,7 +20634,6 @@ const B1_WORDS = [
               "purple": [
                 "виникла"
               ],
-              "red": [],
               "yellow": [
                 "проблема"
               ]
@@ -20757,11 +20692,13 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
-        "important": {
-          "purple": []
-        }
+        "important": {}
       }
     }
   },
@@ -21009,7 +20946,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "будівлю"
               ]
@@ -21070,7 +21006,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -21267,7 +21207,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "рахунок"
               ],
@@ -21289,7 +21228,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "виставку"
               ],
@@ -21307,10 +21245,7 @@ const B1_WORDS = [
                 "Sitzung"
               ]
             },
-            "lv": {
-              "purple": [],
-              "yellow": []
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -21366,7 +21301,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -21497,10 +21436,7 @@ const B1_WORDS = [
                 "Termin"
               ]
             },
-            "lv": {
-              "purple": [],
-              "yellow": []
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -21558,11 +21494,13 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
-        "important": {
-          "purple": []
-        }
+        "important": {}
       }
     }
   },
@@ -21638,7 +21576,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "пристрій"
               ]
@@ -21657,8 +21594,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
-              "yellow": [],
               "green": [
                 "робітників"
               ]
@@ -21677,8 +21612,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
-              "yellow": [],
               "green": [
                 "страхування"
               ]
@@ -21695,8 +21628,7 @@ const B1_WORDS = [
           "yellow": [
             "рішення",
             "Schaden"
-          ],
-          "green": []
+          ]
         },
         "comparison": [
           {
@@ -21737,11 +21669,13 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
-        "important": {
-          "purple": []
-        }
+        "important": {}
       }
     }
   },
@@ -22085,10 +22019,7 @@ const B1_WORDS = [
                 "Arm"
               ]
             },
-            "lv": {
-              "purple": [],
-              "yellow": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -22100,7 +22031,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "думку"
               ]
@@ -22116,10 +22046,7 @@ const B1_WORDS = [
                 "Personen"
               ]
             },
-            "lv": {
-              "purple": [],
-              "yellow": []
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -22128,8 +22055,7 @@ const B1_WORDS = [
           ],
           "purple": [
             "схопити"
-          ],
-          "yellow": []
+          ]
         },
         "comparison": [
           {
@@ -22170,11 +22096,13 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
-        "important": {
-          "purple": []
-        }
+        "important": {}
       }
     }
   },
@@ -22297,7 +22225,6 @@ const B1_WORDS = [
             "ледачий",
             "гнилі"
           ],
-          "green": [],
           "yellow": [
             "фруктів",
             "матеріал"
@@ -22342,11 +22269,13 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
-        "important": {
-          "purple": []
-        }
+        "important": {}
       }
     }
   },
@@ -22525,7 +22454,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "green": [
                 "дитину"
               ]
@@ -22542,7 +22470,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "результати"
               ]
@@ -22600,7 +22527,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -22672,10 +22603,7 @@ const B1_WORDS = [
                 "Termin"
               ]
             },
-            "lv": {
-              "purple": [],
-              "yellow": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -22687,7 +22615,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "Ціна"
               ]
@@ -22703,7 +22630,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "правила"
               ]
@@ -22714,7 +22640,6 @@ const B1_WORDS = [
           "blue": [
             "festlegen"
           ],
-          "purple": [],
           "yellow": [
             "план",
             "правил"
@@ -22759,11 +22684,13 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
-        "important": {
-          "purple": []
-        }
+        "important": {}
       }
     }
   },
@@ -22843,7 +22770,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "green": [
                 "лікар"
               ],
@@ -22863,7 +22789,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "помилку",
                 "в системі"
@@ -22877,9 +22802,7 @@ const B1_WORDS = [
                 "fest"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -22934,7 +22857,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -23231,8 +23158,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "наслідком"
-              ],
-              "yellow": []
+              ]
             }
           },
           {
@@ -23247,8 +23173,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "наслідки"
-              ],
-              "yellow": []
+              ]
             }
           },
           {
@@ -23261,7 +23186,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "У наступному"
               ]
@@ -23323,7 +23247,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -23408,7 +23336,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "спорт",
                 "здоров'я"
@@ -23450,7 +23377,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "В обл"
               ]
@@ -23465,7 +23391,6 @@ const B1_WORDS = [
             "сприяти",
             "підтримувати"
           ],
-          "green": [],
           "yellow": [
             "процес",
             "вугілля"
@@ -23510,7 +23435,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -23620,7 +23549,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "працювати"
               ]
@@ -23636,17 +23564,13 @@ const B1_WORDS = [
                 "Streit"
               ]
             },
-            "lv": {
-              "purple": [],
-              "yellow": []
-            }
+            "lv": {}
           }
         ],
         "explanation": {
           "blue": [
             "fortfahren"
           ],
-          "purple": [],
           "yellow": [
             "транспорт"
           ]
@@ -23690,7 +23614,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -23846,11 +23774,9 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "green": [
                 "собака"
-              ],
-              "yellow": []
+              ]
             }
           },
           {
@@ -23865,11 +23791,7 @@ const B1_WORDS = [
                 "Fisch"
               ]
             },
-            "lv": {
-              "purple": [],
-              "green": [],
-              "yellow": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -23883,8 +23805,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "ковтайте"
-              ],
-              "green": []
+              ]
             }
           }
         ],
@@ -23938,7 +23859,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -24137,7 +24062,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "green": [
                 "собаки"
               ]
@@ -24153,7 +24077,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "green": [
                 "Коні"
               ]
@@ -24168,10 +24091,7 @@ const B1_WORDS = [
                 "Jacke"
               ]
             },
-            "lv": {
-              "purple": [],
-              "yellow": []
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -24179,11 +24099,9 @@ const B1_WORDS = [
             "das Futter",
             "Futter"
           ],
-          "purple": [],
           "green": [
             "тваринну"
-          ],
-          "yellow": []
+          ]
         },
         "comparison": [
           {
@@ -24224,7 +24142,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -24333,9 +24255,7 @@ const B1_WORDS = [
                 "ganztägigen"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -24343,9 +24263,7 @@ const B1_WORDS = [
                 "ganztägig"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -24353,9 +24271,7 @@ const B1_WORDS = [
                 "ganztägig"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -24375,9 +24291,7 @@ const B1_WORDS = [
                 "ganztägiger"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -24393,9 +24307,7 @@ const B1_WORDS = [
           }
         ],
         "tip": [
-          {
-            "blue": []
-          },
+          {},
           {
             "red": [
               "rund um die Uhr"
@@ -24403,9 +24315,7 @@ const B1_WORDS = [
           }
         ],
         "important": [
-          {
-            "purple": []
-          },
+          {},
           {
             "red": [
               "rund um die Uhr"
@@ -24577,9 +24487,7 @@ const B1_WORDS = [
                 "Gebiet"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -24602,10 +24510,7 @@ const B1_WORDS = [
                 "Medizin"
               ]
             },
-            "lv": {
-              "purple": [],
-              "yellow": []
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -24659,11 +24564,13 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
-        "important": {
-          "purple": []
-        }
+        "important": {}
       }
     }
   },
@@ -24916,8 +24823,7 @@ const B1_WORDS = [
           "blue": [
             "das Gehalt",
             "der Gehalt"
-          ],
-          "purple": []
+          ]
         },
         "examples": [
           {
@@ -24950,9 +24856,7 @@ const B1_WORDS = [
                 "Gehalt"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           }
         ]
       }
@@ -25015,7 +24919,6 @@ const B1_WORDS = [
           "green": [
             "der Gehalt"
           ],
-          "purple": [],
           "blue": [
             "das Gehalt"
           ]
@@ -25027,9 +24930,7 @@ const B1_WORDS = [
                 "Gehalt"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -25037,9 +24938,7 @@ const B1_WORDS = [
                 "Gehalte"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -25244,7 +25143,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "правило"
               ]
@@ -25278,7 +25176,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "green": [
                 "експерт"
               ]
@@ -25293,8 +25190,7 @@ const B1_WORDS = [
           "purple": [
             "бути дійсним",
             "бути дійсним"
-          ],
-          "yellow": []
+          ]
         },
         "comparison": [
           {
@@ -25335,11 +25231,13 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
-        "important": {
-          "purple": []
-        }
+        "important": {}
       }
     }
   },
@@ -25424,7 +25322,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "green": [
                 "брат"
               ]
@@ -25439,10 +25336,7 @@ const B1_WORDS = [
                 "Bemerkung"
               ]
             },
-            "lv": {
-              "purple": [],
-              "yellow": []
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -25493,7 +25387,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -25687,10 +25585,7 @@ const B1_WORDS = [
                 "Blutdruck"
               ]
             },
-            "lv": {
-              "purple": [],
-              "yellow": []
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -25745,7 +25640,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -25950,10 +25849,7 @@ const B1_WORDS = [
                 "Statistik"
               ]
             },
-            "lv": {
-              "purple": [],
-              "yellow": []
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -25965,8 +25861,7 @@ const B1_WORDS = [
           ],
           "green": [
             "тварин"
-          ],
-          "yellow": []
+          ]
         },
         "comparison": [
           {
@@ -26007,11 +25902,13 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
-        "important": {
-          "purple": []
-        }
+        "important": {}
       }
     }
   },
@@ -26098,7 +25995,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "green": [
                 "він"
               ]
@@ -26110,9 +26006,7 @@ const B1_WORDS = [
                 "Gesellschaft"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -26122,8 +26016,7 @@ const B1_WORDS = [
           "purple": [
             "суспільство",
             "компанію"
-          ],
-          "yellow": []
+          ]
         },
         "comparison": [
           {
@@ -26164,7 +26057,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -26353,10 +26250,7 @@ const B1_WORDS = [
                 "Kosten"
               ]
             },
-            "lv": {
-              "purple": [],
-              "yellow": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -26370,8 +26264,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "виграш"
-              ],
-              "yellow": []
+              ]
             }
           }
         ],
@@ -26427,7 +26320,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -26499,7 +26396,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "правильно"
               ]
@@ -26515,7 +26411,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "ризик"
               ]
@@ -26539,7 +26434,6 @@ const B1_WORDS = [
             "gewiss",
             "ein gewisses Risiko"
           ],
-          "purple": [],
           "red": [
             "більш формально"
           ]
@@ -26583,7 +26477,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -26674,7 +26572,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "роботи"
               ]
@@ -26720,7 +26617,6 @@ const B1_WORDS = [
             "sich gewöhnen",
             "sich gewöhnen an"
           ],
-          "purple": [],
           "yellow": [
             "ситуації",
             "місця",
@@ -26770,10 +26666,16 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "an die Arbeit",
-            "an die Stadt",
-            "daran"
+          "leftBlocks": [
+            {
+              "text": {
+                "purple": [
+                  "an die Arbeit",
+                  "an die Stadt",
+                  "daran"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -26872,7 +26774,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "вікна"
               ]
@@ -26888,7 +26789,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "green": [
                 "собака"
               ]
@@ -26904,7 +26804,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "Балкон"
               ]
@@ -26965,7 +26864,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -27184,10 +27087,7 @@ const B1_WORDS = [
                 "Glas"
               ]
             },
-            "lv": {
-              "purple": [],
-              "yellow": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -27203,11 +27103,9 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "green": [
                 "злодія"
-              ],
-              "yellow": []
+              ]
             }
           },
           {
@@ -27219,10 +27117,7 @@ const B1_WORDS = [
                 "Maßnahmen"
               ]
             },
-            "lv": {
-              "purple": [],
-              "yellow": []
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -27232,8 +27127,7 @@ const B1_WORDS = [
           ],
           "purple": [
             "схопити"
-          ],
-          "yellow": []
+          ]
         },
         "comparison": [
           {
@@ -27274,7 +27168,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -27397,10 +27295,7 @@ const B1_WORDS = [
                 "Klettern"
               ]
             },
-            "lv": {
-              "purple": [],
-              "green": []
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -27409,8 +27304,7 @@ const B1_WORDS = [
           ],
           "purple": [
             "ручка"
-          ],
-          "yellow": []
+          ]
         },
         "comparison": [
           {
@@ -27451,11 +27345,13 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
-        "important": {
-          "purple": []
-        }
+        "important": {}
       }
     }
   },
@@ -27663,9 +27559,7 @@ const B1_WORDS = [
                 "Gut"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -27679,8 +27573,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "товари"
-              ],
-              "yellow": []
+              ]
             }
           }
         ],
@@ -27738,7 +27631,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -27981,9 +27878,7 @@ const B1_WORDS = [
                 "handeln"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -27998,11 +27893,9 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "Фільм"
-              ],
-              "green": []
+              ]
             }
           },
           {
@@ -28023,8 +27916,7 @@ const B1_WORDS = [
               ],
               "yellow": [
                 "деревиною"
-              ],
-              "green": []
+              ]
             }
           }
         ],
@@ -28082,11 +27974,13 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
-        "important": {
-          "purple": []
-        }
+        "important": {}
       }
     }
   },
@@ -28154,7 +28048,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "двері"
               ]
@@ -28172,8 +28065,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "ручка"
-              ],
-              "yellow": []
+              ]
             }
           },
           {
@@ -28185,10 +28077,7 @@ const B1_WORDS = [
                 "Arbeit"
               ]
             },
-            "lv": {
-              "purple": [],
-              "yellow": []
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -28243,7 +28132,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -28396,7 +28289,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "кулак"
               ]
@@ -28415,8 +28307,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
-              "yellow": [],
               "green": [
                 "робітник"
               ]
@@ -28428,9 +28318,7 @@ const B1_WORDS = [
                 "Hau ab"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -28484,7 +28372,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -28558,10 +28450,7 @@ const B1_WORDS = [
                 "Sand"
               ]
             },
-            "lv": {
-              "purple": [],
-              "yellow": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -28572,10 +28461,7 @@ const B1_WORDS = [
                 "Papier"
               ]
             },
-            "lv": {
-              "purple": [],
-              "yellow": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -28588,7 +28474,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "green": [
                 "У дворі"
               ]
@@ -28599,7 +28484,6 @@ const B1_WORDS = [
           "blue": [
             "der Haufen"
           ],
-          "purple": [],
           "red": [
             "неформальне"
           ]
@@ -28643,7 +28527,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -28965,7 +28853,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "green": [
                 "Видавництво"
               ],
@@ -28984,7 +28871,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "Газета"
               ]
@@ -29001,7 +28887,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "документи"
               ]
@@ -29060,11 +28945,13 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
-        "important": {
-          "purple": []
-        }
+        "important": {}
       }
     }
   },
@@ -29156,9 +29043,7 @@ const B1_WORDS = [
                 "her"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -29187,7 +29072,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "green": [
                 "кухні"
               ]
@@ -29201,8 +29085,7 @@ const B1_WORDS = [
           ],
           "purple": [
             "звідки ти"
-          ],
-          "red": []
+          ]
         },
         "comparison": [
           {
@@ -29243,7 +29126,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -29400,7 +29287,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "green": [
                 "діти"
               ]
@@ -29417,7 +29303,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "досвід"
               ]
@@ -29429,7 +29314,6 @@ const B1_WORDS = [
             "hinausgehen",
             "über etwas hinausgehen"
           ],
-          "purple": [],
           "yellow": [
             "кімнати",
             "місця"
@@ -29474,11 +29358,13 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
-        "important": {
-          "purple": []
-        }
+        "important": {}
       }
     }
   },
@@ -29604,8 +29490,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "інструкція"
-              ],
-              "yellow": []
+              ]
             }
           },
           {
@@ -29672,7 +29557,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -29876,7 +29765,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "green": [
                 "дітей",
                 "школи"
@@ -29893,7 +29781,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "хліб"
               ]
@@ -29909,7 +29796,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "green": [
                 "лікар"
               ]
@@ -29920,10 +29806,7 @@ const B1_WORDS = [
           "blue": [
             "holen",
             "abholen"
-          ],
-          "purple": [],
-          "yellow": [],
-          "green": []
+          ]
         },
         "comparison": [
           {
@@ -29964,11 +29847,13 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
-        "important": {
-          "purple": []
-        }
+        "important": {}
       }
     }
   },
@@ -30138,11 +30023,9 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "green": [
                 "діти"
-              ],
-              "yellow": []
+              ]
             }
           },
           {
@@ -30155,10 +30038,7 @@ const B1_WORDS = [
                 "heimlich"
               ]
             },
-            "lv": {
-              "purple": [],
-              "red": []
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -30168,8 +30048,7 @@ const B1_WORDS = [
           "purple": [
             "слухати",
             "слухати"
-          ],
-          "red": []
+          ]
         },
         "comparison": [
           {
@@ -30210,7 +30089,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -30314,9 +30197,7 @@ const B1_WORDS = [
                 "Hort"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -30348,9 +30229,7 @@ const B1_WORDS = [
                 "Kindergarten"
               ]
             },
-            "lv": {
-              "red": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -30548,8 +30427,7 @@ const B1_WORDS = [
           "blue": [
             "die Hupe",
             "hupen"
-          ],
-          "purple": []
+          ]
         },
         "examples": [
           {
@@ -30570,9 +30448,7 @@ const B1_WORDS = [
                 "Hupe"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -30580,9 +30456,7 @@ const B1_WORDS = [
                 "Hupe"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           }
         ]
       }
@@ -30673,8 +30547,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "доглядає"
-              ],
-              "green": []
+              ]
             }
           },
           {
@@ -30690,7 +30563,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "green": [
                 "хлопчик"
               ],
@@ -30708,10 +30580,7 @@ const B1_WORDS = [
                 "Versprechen"
               ]
             },
-            "lv": {
-              "purple": [],
-              "red": []
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -30722,7 +30591,6 @@ const B1_WORDS = [
           "purple": [
             "доглядати"
           ],
-          "green": [],
           "yellow": [
             "тваринами"
           ]
@@ -30766,11 +30634,13 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
-        "important": {
-          "purple": []
-        }
+        "important": {}
       }
     }
   },
@@ -31086,10 +30956,7 @@ const B1_WORDS = [
                 "Möglichkeiten"
               ]
             },
-            "lv": {
-              "purple": [],
-              "yellow": []
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -31143,7 +31010,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -31374,10 +31245,7 @@ const B1_WORDS = [
                 "Adresse"
               ]
             },
-            "lv": {
-              "purple": [],
-              "yellow": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -31450,7 +31318,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -31578,7 +31450,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "green": [
                 "людей"
               ],
@@ -31598,7 +31469,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "green": [
                 "собака"
               ]
@@ -31613,10 +31483,7 @@ const B1_WORDS = [
                 "Termin"
               ]
             },
-            "lv": {
-              "purple": [],
-              "yellow": []
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -31629,8 +31496,7 @@ const B1_WORDS = [
           ],
           "yellow": [
             "тварин"
-          ],
-          "green": []
+          ]
         },
         "comparison": [
           {
@@ -31671,7 +31537,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -31790,7 +31660,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "вино"
               ]
@@ -31806,7 +31675,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "Журнал"
               ]
@@ -31842,8 +31710,7 @@ const B1_WORDS = [
           "yellow": [
             "вино",
             "журнал"
-          ],
-          "green": []
+          ]
         },
         "comparison": [
           {
@@ -31884,7 +31751,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -32089,9 +31960,7 @@ const B1_WORDS = [
                 "Jüngerin"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -32111,9 +31980,7 @@ const B1_WORDS = [
                 "Jünger"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           }
         ],
         "tip": [
@@ -32269,8 +32136,7 @@ const B1_WORDS = [
           "purple": [
             "склад",
             "ядро"
-          ],
-          "red": []
+          ]
         },
         "examples": [
           {
@@ -32279,9 +32145,7 @@ const B1_WORDS = [
                 "Kader"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -32289,9 +32153,7 @@ const B1_WORDS = [
                 "Kader"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -32323,9 +32185,7 @@ const B1_WORDS = [
                 "Kader"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           }
         ],
         "tip": [
@@ -32335,16 +32195,13 @@ const B1_WORDS = [
               "ядро"
             ]
           },
-          {
-            "red": []
-          }
+          {}
         ],
         "important": [
           {
             "purple": [
               "ядро"
-            ],
-            "red": []
+            ]
           },
           {
             "blue": [
@@ -32705,10 +32562,7 @@ const B1_WORDS = [
                 "Hof"
               ]
             },
-            "lv": {
-              "purple": [],
-              "green": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -32723,7 +32577,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "green": [
                 "Двірник"
               ],
@@ -32741,10 +32594,7 @@ const B1_WORDS = [
                 "Blick"
               ]
             },
-            "lv": {
-              "purple": [],
-              "yellow": []
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -32798,11 +32648,13 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
-        "important": {
-          "purple": []
-        }
+        "important": {}
       }
     }
   },
@@ -32922,10 +32774,7 @@ const B1_WORDS = [
                 "Apfel"
               ]
             },
-            "lv": {
-              "purple": [],
-              "yellow": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -32936,10 +32785,7 @@ const B1_WORDS = [
                 "Sache"
               ]
             },
-            "lv": {
-              "purple": [],
-              "yellow": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -32947,9 +32793,7 @@ const B1_WORDS = [
                 "Kern"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -33004,7 +32848,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -33200,7 +33048,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -33300,8 +33152,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "перекидається"
-              ],
-              "yellow": []
+              ]
             }
           },
           {
@@ -33314,7 +33165,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "стілець"
               ]
@@ -33389,7 +33239,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -33498,9 +33352,7 @@ const B1_WORDS = [
                 "geklappt"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -33512,7 +33364,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "План"
               ]
@@ -33528,7 +33379,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "Двері"
               ]
@@ -33588,7 +33438,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -33830,7 +33684,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "час"
               ]
@@ -33846,7 +33699,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "гроші"
               ]
@@ -33858,9 +33710,7 @@ const B1_WORDS = [
                 "knapp"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -33914,11 +33764,13 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
-        "important": {
-          "purple": []
-        }
+        "important": {}
       }
     }
   },
@@ -34373,9 +34225,7 @@ const B1_WORDS = [
                 "kann"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -35257,8 +35107,7 @@ const B1_WORDS = [
         ],
         "tip": {
           "blue": "der Kunde",
-          "purple": "клієнт",
-          "green": []
+          "purple": "клієнт"
         },
         "important": {
           "red": "Артикль",
@@ -36686,8 +36535,7 @@ const B1_WORDS = [
           "purple": [
             "вміст",
             "обсяг"
-          ],
-          "yellow": []
+          ]
         },
         "examples": [
           {
@@ -36761,8 +36609,7 @@ const B1_WORDS = [
         ],
         "tip": {
           "blue": "der Inhalt",
-          "purple": "всередині",
-          "yellow": []
+          "purple": "всередині"
         },
         "important": {
           "blue": "der Inhalt",
@@ -36956,7 +36803,6 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": "die Kastanie",
-          "purple": [],
           "yellow": "Контекст"
         },
         "examples": [
@@ -37109,9 +36955,7 @@ const B1_WORDS = [
                 "Kosten"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -37131,9 +36975,7 @@ const B1_WORDS = [
                 "kostet"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -37222,7 +37064,6 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": "landen",
-          "purple": [],
           "yellow": [
             "Для корабля"
           ]
@@ -37531,35 +37372,29 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
-                "der Laut",
+                "laut",
                 "laut"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
               "green": [
-                "der Laut",
+                "laut",
                 "laut"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
               "green": [
-                "der Laut",
+                "laut",
                 "laut"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -37577,7 +37412,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
-                "der Laut",
+                "Laut",
                 "laut"
               ]
             },
@@ -37598,7 +37433,7 @@ const B1_WORDS = [
         "important": [
           {
             "green": [
-              "der Laut"
+              "laut"
             ]
           }
         ]
@@ -37817,8 +37652,7 @@ const B1_WORDS = [
           ],
           "purple": [
             "надавати"
-          ],
-          "yellow": []
+          ]
         },
         "examples": [
           {
@@ -37962,9 +37796,7 @@ const B1_WORDS = [
                 "Leistung"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -37976,7 +37808,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [],
               "yellow": [
                 "на іспиті"
               ]
@@ -37994,8 +37825,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "потужність"
-              ],
-              "yellow": []
+              ]
             }
           }
         ],
@@ -38008,8 +37838,7 @@ const B1_WORDS = [
             "продуктивність",
             "досягнення",
             "потужність"
-          ],
-          "yellow": []
+          ]
         },
         "comparison": [
           {
@@ -38050,7 +37879,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "purple": [
@@ -38292,7 +38125,6 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": "locker",
-          "purple": [],
           "red": "невимушений"
         },
         "examples": [
@@ -41692,9 +41524,7 @@ const B1_WORDS = [
                 "Nutzen"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -41702,9 +41532,7 @@ const B1_WORDS = [
                 "Nutzen"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -41724,9 +41552,7 @@ const B1_WORDS = [
                 "Nutzen"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           }
         ],
         "tip": [
@@ -48399,9 +48225,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": []
-        },
+        "tip": {},
         "important": {
           "blue": "schmelzen",
           "red": "auftauen"
@@ -52871,12 +52695,16 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "blue": [
-            "Baby stillen",
-            "Durst stillen"
-          ],
-          "purple": "годувати грудьми",
-          "red": "заспокоювати"
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "Baby stillen",
+                  "Durst stillen"
+                ]
+              }
+            }
+          ]
         },
         "important": {
           "blue": "stillen",
@@ -54291,7 +54119,6 @@ const B1_WORDS = [
           "blue": [
             "der Tau"
           ],
-          "purple": [],
           "green": [
             "das Tau"
           ]
@@ -54315,9 +54142,7 @@ const B1_WORDS = [
                 "Tau"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -54418,9 +54243,7 @@ const B1_WORDS = [
                 "Taue"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -55172,8 +54995,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "blue": "der Titel",
-          "yellow": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "red": "die Überschrift"
@@ -55594,7 +55420,6 @@ const B1_WORDS = [
           "blue": [
             "das Treffen"
           ],
-          "purple": [],
           "green": [
             "treffen"
           ]
@@ -55606,9 +55431,7 @@ const B1_WORDS = [
                 "Treffen"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -55628,9 +55451,7 @@ const B1_WORDS = [
                 "treffe"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -55638,9 +55459,7 @@ const B1_WORDS = [
                 "Treffen"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           }
         ],
         "tip": [
@@ -57607,9 +57426,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "blue": "die Untersuchung",
-          "green": [],
-          "red": "досліджує"
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "blue": "die Untersuchung",
@@ -58409,8 +58230,11 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "blue": "verderben",
-          "yellow": []
+          "leftBlocks": [
+            {
+              "text": {}
+            }
+          ]
         },
         "important": {
           "blue": "verdorben",
@@ -58967,12 +58791,16 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "blue": [
-            "Termin verlegen",
-            "Schlüssel verlegen"
-          ],
-          "purple": "рухатися",
-          "red": "не знайдено"
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "Termin verlegen",
+                  "Schlüssel verlegen"
+                ]
+              }
+            }
+          ]
         },
         "important": {
           "yellow": "Schlüssel",
@@ -59680,9 +59508,7 @@ const B1_WORDS = [
                 "Verwandte"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           }
         ]
       }
@@ -59745,7 +59571,6 @@ const B1_WORDS = [
           "green": [
             "die Verwandte"
           ],
-          "purple": [],
           "blue": [
             "der Verwandte"
           ]
@@ -59757,9 +59582,7 @@ const B1_WORDS = [
                 "Verwandte"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -60066,12 +59889,16 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "blue": [
-            "kommt vor",
-            "kommt mir vor"
-          ],
-          "purple": "відбувається",
-          "red": "здається"
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "kommt vor",
+                  "kommt mir vor"
+                ]
+              }
+            }
+          ]
         },
         "important": {
           "blue": [
@@ -60447,11 +60274,16 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "blue": [
-            "vorziehen",
-            "Termin vorziehen"
-          ],
-          "purple": "перевага"
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "vorziehen",
+                  "Termin vorziehen"
+                ]
+              }
+            }
+          ]
         },
         "important": {
           "blue": [
@@ -61325,9 +61157,7 @@ const B1_WORDS = [
                 "krank"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -61340,9 +61170,7 @@ const B1_WORDS = [
                 "Max"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           }
         ],
         "comparison": [
@@ -61390,9 +61218,15 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "blue": [
-            "weder",
-            "noch"
+          "leftBlocks": [
+            {
+              "text": {
+                "blue": [
+                  "weder",
+                  "noch"
+                ]
+              }
+            }
           ]
         },
         "important": {
@@ -63194,9 +63028,7 @@ const B1_WORDS = [
                 "Job"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           }
         ],
         "comparison": [
@@ -63254,8 +63086,7 @@ const B1_WORDS = [
             "example": {
               "yellow": [
                 "Job"
-              ],
-              "purple": []
+              ]
             }
           },
           {
@@ -63273,8 +63104,7 @@ const B1_WORDS = [
             "example": {
               "orange": [
                 "Ausbildung"
-              ],
-              "purple": []
+              ]
             }
           },
           {
@@ -63291,8 +63121,7 @@ const B1_WORDS = [
             "example": {
               "red": [
                 "Beschäftigung"
-              ],
-              "purple": []
+              ]
             }
           }
         ],
@@ -63548,9 +63377,7 @@ const B1_WORDS = [
                 "Steuer"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           }
         ]
       }
@@ -63613,7 +63440,6 @@ const B1_WORDS = [
           "green": [
             "das Steuer"
           ],
-          "purple": [],
           "blue": [
             "die Steuer"
           ]
@@ -63625,9 +63451,7 @@ const B1_WORDS = [
                 "Steuer"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -63635,9 +63459,7 @@ const B1_WORDS = [
                 "Steuer"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -63714,8 +63536,7 @@ const B1_WORDS = [
         "explanation": {
           "blue": [
             "weil"
-          ],
-          "purple": []
+          ]
         },
         "examples": [
           {
@@ -63725,9 +63546,7 @@ const B1_WORDS = [
                 "weil"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -63736,9 +63555,7 @@ const B1_WORDS = [
                 "weil"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -63761,9 +63578,7 @@ const B1_WORDS = [
                 "weil"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -63772,29 +63587,12 @@ const B1_WORDS = [
                 "weil"
               ]
             },
-            "lv": {
-              "purple": []
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "weil",
-                "weil"
-              ]
-            },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           }
         ],
         "tip": [
-          {
-            "purple": []
-          },
-          {
-            "purple": []
-          }
+          {},
+          {}
         ],
         "important": [
           {
@@ -63873,9 +63671,7 @@ const B1_WORDS = [
                 "da"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -63897,9 +63693,7 @@ const B1_WORDS = [
                 "da"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -63925,27 +63719,12 @@ const B1_WORDS = [
               "purple": [
                 "тому що"
               ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "da",
-                "da"
-              ]
-            },
-            "lv": {
-              "purple": []
             }
           }
         ],
         "tip": [
-          {
-            "purple": []
-          },
-          {
-            "purple": []
-          }
+          {},
+          {}
         ],
         "important": [
           {
@@ -64038,9 +63817,7 @@ const B1_WORDS = [
                 "obwohl"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -64049,9 +63826,7 @@ const B1_WORDS = [
                 "obwohl"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -64060,9 +63835,7 @@ const B1_WORDS = [
                 "obwohl"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -64071,9 +63844,7 @@ const B1_WORDS = [
                 "obwohl"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -64082,18 +63853,12 @@ const B1_WORDS = [
                 "obwohl"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           }
         ],
         "tip": [
-          {
-            "purple": []
-          },
-          {
-            "purple": []
-          }
+          {},
+          {}
         ],
         "important": [
           {
@@ -64159,8 +63924,7 @@ const B1_WORDS = [
         "explanation": {
           "green": [
             "trotzdem"
-          ],
-          "purple": []
+          ]
         },
         "examples": [
           {
@@ -64170,9 +63934,7 @@ const B1_WORDS = [
                 "trotzdem"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -64181,9 +63943,7 @@ const B1_WORDS = [
                 "trotzdem"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -64205,9 +63965,7 @@ const B1_WORDS = [
                 "trotzdem"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -64216,9 +63974,7 @@ const B1_WORDS = [
                 "trotzdem"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -64227,18 +63983,12 @@ const B1_WORDS = [
                 "trotzdem"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           }
         ],
         "tip": [
-          {
-            "purple": []
-          },
-          {
-            "purple": []
-          }
+          {},
+          {}
         ],
         "important": [
           {
@@ -64290,38 +64040,11 @@ const B1_WORDS = [
         },
         "examples": [
           {
-            "de": {
-              "blue": [
-                "anstatt ... zu",
-                "anstatt ... zu"
-              ]
-            },
+            "de": {},
             "lv": {
               "purple": [
                 "замість"
               ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "anstatt ... zu",
-                "anstatt ... zu"
-              ]
-            },
-            "lv": {
-              "purple": []
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "anstatt ... zu",
-                "anstatt ... zu"
-              ]
-            },
-            "lv": {
-              "purple": []
             }
           }
         ],
@@ -64387,43 +64110,12 @@ const B1_WORDS = [
         },
         "examples": [
           {
-            "de": {
-              "green": [
-                "ohne ... zu",
-                "ohne ... zu"
-              ]
-            },
-            "lv": {
-              "purple": []
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "ohne ... zu",
-                "ohne ... zu"
-              ]
-            },
-            "lv": {
-              "purple": []
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "ohne ... zu",
-                "ohne ... zu"
-              ]
-            },
-            "lv": {
-              "purple": []
-            }
+            "de": {},
+            "lv": {}
           }
         ],
         "tip": [
-          {
-            "purple": []
-          }
+          {}
         ],
         "important": [
           {
@@ -64529,9 +64221,7 @@ const B1_WORDS = [
                 "befindet sich"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -64539,9 +64229,7 @@ const B1_WORDS = [
                 "befindet sich"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -64549,9 +64237,7 @@ const B1_WORDS = [
                 "befindet sich"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -64559,9 +64245,7 @@ const B1_WORDS = [
                 "befindet sich"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -64569,9 +64253,7 @@ const B1_WORDS = [
                 "fühle mich"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -64579,9 +64261,7 @@ const B1_WORDS = [
                 "liegt"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           }
         ],
         "comparison": [
@@ -64619,8 +64299,7 @@ const B1_WORDS = [
             "example": {
               "green": [
                 "ist"
-              ],
-              "purple": []
+              ]
             }
           },
           {
@@ -64637,8 +64316,7 @@ const B1_WORDS = [
             "example": {
               "yellow": [
                 "liegt"
-              ],
-              "purple": []
+              ]
             }
           },
           {
@@ -64655,8 +64333,7 @@ const B1_WORDS = [
             "example": {
               "orange": [
                 "steht"
-              ],
-              "purple": []
+              ]
             }
           },
           {
@@ -64673,8 +64350,7 @@ const B1_WORDS = [
             "example": {
               "red": [
                 "fühle mich"
-              ],
-              "purple": []
+              ]
             }
           }
         ],
@@ -64721,8 +64397,7 @@ const B1_WORDS = [
               ],
               "red": [
                 "fühle mich"
-              ],
-              "purple": []
+              ]
             }
           }
         ]
@@ -64888,8 +64563,7 @@ const B1_WORDS = [
           "blue": [
             "der Erbe",
             "Erbe"
-          ],
-          "purple": []
+          ]
         },
         "examples": [
           {
@@ -64899,9 +64573,7 @@ const B1_WORDS = [
                 "erbe"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -64922,9 +64594,7 @@ const B1_WORDS = [
                 "erbe"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -64932,9 +64602,7 @@ const B1_WORDS = [
                 "Erbe"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -64942,9 +64610,7 @@ const B1_WORDS = [
                 "der Erbe"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -64952,9 +64618,7 @@ const B1_WORDS = [
                 "das Erbe"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           }
         ],
         "tip": [
@@ -65033,8 +64697,7 @@ const B1_WORDS = [
           "green": [
             "das Erbe",
             "Erbe"
-          ],
-          "purple": []
+          ]
         },
         "examples": [
           {
@@ -65044,9 +64707,7 @@ const B1_WORDS = [
                 "erbe"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -65054,9 +64715,7 @@ const B1_WORDS = [
                 "der Erbe"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -65065,9 +64724,7 @@ const B1_WORDS = [
                 "erbe"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -65075,9 +64732,7 @@ const B1_WORDS = [
                 "Erbe"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -65085,9 +64740,7 @@ const B1_WORDS = [
                 "der Erbe"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -65095,20 +64748,16 @@ const B1_WORDS = [
                 "das Erbe"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           }
         ],
         "tip": [
-          {
-            "purple": []
-          }
+          {}
         ],
         "important": [
           {
             "green": [
-              "das Erbe"
+              "Erbe"
             ]
           }
         ]
@@ -65184,46 +64833,38 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "der Schaden",
+                "Schaden",
                 "schaden"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
               "blue": [
-                "der Schaden",
+                "Schaden",
                 "schaden"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
               "blue": [
-                "der Schaden",
+                "Schaden",
                 "schaden"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
               "blue": [
-                "der Schaden",
+                "Schaden",
                 "schaden"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -65241,13 +64882,10 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "der Schaden",
-                "schaden"
+                "schade"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           }
         ],
         "tip": [
@@ -65332,23 +64970,18 @@ const B1_WORDS = [
             "schaden",
             "schaden"
           ],
-          "purple": [],
           "red": [
-            "schaden",
-            "schadet"
+            "schaden"
           ]
         },
         "examples": [
           {
             "de": {
               "green": [
-                "schaden",
-                "schaden"
+                "schade"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -65357,9 +64990,7 @@ const B1_WORDS = [
                 "schaden"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -65368,9 +64999,7 @@ const B1_WORDS = [
                 "schaden"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -65379,9 +65008,7 @@ const B1_WORDS = [
                 "schaden"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -65390,26 +65017,19 @@ const B1_WORDS = [
                 "schaden"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
               "green": [
-                "schaden",
-                "schaden"
+                "schade"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           }
         ],
         "tip": [
-          {
-            "purple": []
-          }
+          {}
         ],
         "important": [
           {
@@ -65494,18 +65114,16 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "das Vertrauen",
+                "Vertrauen",
                 "vertrauen"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
               "blue": [
-                "das Vertrauen",
+                "Vertrauen",
                 "vertrauen"
               ]
             },
@@ -65531,7 +65149,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "das Vertrauen",
+                "vertrauen",
                 "vertrauen"
               ]
             },
@@ -65544,7 +65162,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "das Vertrauen",
+                "Vertrauen",
                 "vertrauen"
               ]
             },
@@ -65557,7 +65175,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "das Vertrauen",
+                "vertrauen",
                 "vertrauen"
               ]
             },
@@ -65657,8 +65275,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
-                "vertrauen",
-                "vertrauen"
+                "vertraue"
               ]
             },
             "lv": {
@@ -65819,42 +65436,16 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "der Trotz",
+                "Trotz",
                 "trotz"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
               "blue": [
-                "der Trotz",
-                "trotz"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "незважаючи на"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "der Trotz",
-                "trotz"
-              ]
-            },
-            "lv": {
-              "purple": []
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "der Trotz",
+                "Trotz",
                 "trotz"
               ]
             },
@@ -65867,18 +65458,38 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "der Trotz",
+                "Trotz",
+                "trotz"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "blue": [
+                "Trotz",
                 "trotz"
               ]
             },
             "lv": {
-              "purple": []
+              "purple": [
+                "незважаючи на"
+              ]
             }
           },
           {
             "de": {
               "blue": [
-                "der Trotz",
+                "Trotz",
+                "trotz"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "blue": [
+                "Trotz",
                 "trotz"
               ]
             },
@@ -65890,9 +65501,7 @@ const B1_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": []
-          },
+          {},
           {
             "purple": [
               "вперте"
@@ -66011,9 +65620,7 @@ const B1_WORDS = [
                 "trotz"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -66035,9 +65642,7 @@ const B1_WORDS = [
                 "trotz"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {

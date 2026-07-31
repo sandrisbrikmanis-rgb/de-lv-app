@@ -260,8 +260,7 @@ const B2_WORDS = [
           ],
           "red": [
             "mit + кому?"
-          ],
-          "purple": []
+          ]
         }
       }
     }
@@ -474,8 +473,7 @@ const B2_WORDS = [
           ],
           "red": [
             "von + кому?"
-          ],
-          "purple": []
+          ]
         }
       }
     }
@@ -929,8 +927,7 @@ const B2_WORDS = [
           ],
           "red": [
             "mit + кому?"
-          ],
-          "purple": []
+          ]
         }
       }
     }
@@ -983,8 +980,7 @@ const B2_WORDS = [
           ],
           "red": [
             "mit + кому?"
-          ],
-          "purple": []
+          ]
         }
       }
     }
@@ -1159,9 +1155,7 @@ const B2_WORDS = [
         "explanation": {
           "blue": [
             "sich bemächtigen"
-          ],
-          "red": [],
-          "purple": []
+          ]
         }
       }
     }
@@ -1249,8 +1243,7 @@ const B2_WORDS = [
           ],
           "red": [
             "auf + кого?"
-          ],
-          "purple": []
+          ]
         }
       }
     }
@@ -1306,8 +1299,7 @@ const B2_WORDS = [
           ],
           "red": [
             "auf + кого?"
-          ],
-          "purple": []
+          ]
         }
       }
     }
@@ -1407,8 +1399,7 @@ const B2_WORDS = [
           ],
           "red": [
             "in + де?"
-          ],
-          "purple": []
+          ]
         }
       }
     }
@@ -3563,8 +3554,7 @@ const B2_WORDS = [
           ],
           "red": [
             "auf + кого?"
-          ],
-          "purple": []
+          ]
         }
       }
     }
@@ -3613,8 +3603,7 @@ const B2_WORDS = [
           ],
           "red": [
             "in + кого?"
-          ],
-          "purple": []
+          ]
         }
       }
     }
@@ -3648,8 +3637,7 @@ const B2_WORDS = [
           ],
           "red": [
             "in + кого?"
-          ],
-          "purple": []
+          ]
         }
       }
     }
@@ -3680,8 +3668,7 @@ const B2_WORDS = [
           ],
           "red": [
             "auf + кого?"
-          ],
-          "purple": []
+          ]
         }
       }
     }
@@ -3900,8 +3887,7 @@ const B2_WORDS = [
           ],
           "red": [
             "zu + кому?"
-          ],
-          "purple": []
+          ]
         }
       }
     }
@@ -3935,8 +3921,7 @@ const B2_WORDS = [
           ],
           "red": [
             "über + кого?"
-          ],
-          "purple": []
+          ]
         }
       }
     }
@@ -4039,8 +4024,7 @@ const B2_WORDS = [
           ],
           "red": [
             "von + кому?"
-          ],
-          "purple": []
+          ]
         }
       }
     }
@@ -4086,9 +4070,7 @@ const B2_WORDS = [
         "explanation": {
           "blue": [
             "sich entledigen"
-          ],
-          "red": [],
-          "purple": []
+          ]
         }
       }
     }
@@ -4127,8 +4109,7 @@ const B2_WORDS = [
           ],
           "red": [
             "über + кого?"
-          ],
-          "purple": []
+          ]
         }
       }
     }
@@ -4159,9 +4140,7 @@ const B2_WORDS = [
         "explanation": {
           "blue": [
             "sich entsinnen"
-          ],
-          "red": [],
-          "purple": []
+          ]
         }
       }
     }
@@ -4290,8 +4269,7 @@ const B2_WORDS = [
           ],
           "red": [
             "über + кого?"
-          ],
-          "purple": []
+          ]
         }
       }
     }
@@ -4384,8 +4362,7 @@ const B2_WORDS = [
           ],
           "red": [
             "aus + кому?"
-          ],
-          "purple": []
+          ]
         }
       }
     }
@@ -4510,8 +4487,7 @@ const B2_WORDS = [
           ],
           "red": [
             "vor + кому?"
-          ],
-          "purple": []
+          ]
         }
       }
     }
@@ -4564,8 +4540,7 @@ const B2_WORDS = [
           ],
           "red": [
             "über + кого?"
-          ],
-          "purple": []
+          ]
         }
       }
     }
@@ -4707,8 +4682,7 @@ const B2_WORDS = [
           ],
           "red": [
             "als + хто?"
-          ],
-          "purple": []
+          ]
         }
       }
     }
@@ -5014,8 +4988,7 @@ const B2_WORDS = [
           ],
           "red": [
             "an + кому?"
-          ],
-          "purple": []
+          ]
         }
       }
     }
@@ -5496,8 +5469,7 @@ const B2_WORDS = [
           ],
           "red": [
             "in + кого?"
-          ],
-          "purple": []
+          ]
         }
       }
     }
@@ -6060,8 +6032,7 @@ const B2_WORDS = [
           ],
           "red": [
             "vor + кому?"
-          ],
-          "purple": []
+          ]
         }
       }
     }
@@ -6259,8 +6230,7 @@ const B2_WORDS = [
           ],
           "red": [
             "zu + кому?"
-          ],
-          "purple": []
+          ]
         }
       }
     }
@@ -6310,8 +6280,7 @@ const B2_WORDS = [
           ],
           "red": [
             "zu + кому?"
-          ],
-          "purple": []
+          ]
         }
       }
     }
@@ -6712,8 +6681,7 @@ const B2_WORDS = [
           ],
           "red": [
             "vor + кому?"
-          ],
-          "purple": []
+          ]
         }
       }
     }
@@ -7080,9 +7048,7 @@ const B2_WORDS = [
                 "Haube"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -7090,9 +7056,7 @@ const B2_WORDS = [
                 "Haube"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -7124,9 +7088,7 @@ const B2_WORDS = [
                 "Dunsthaube"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -7134,9 +7096,7 @@ const B2_WORDS = [
                 "Haube"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           }
         ]
       }
@@ -7330,8 +7290,7 @@ const B2_WORDS = [
           ],
           "red": [
             "zu + кому?"
-          ],
-          "purple": []
+          ]
         }
       }
     }
@@ -7360,8 +7319,7 @@ const B2_WORDS = [
           ],
           "red": [
             "aus + кому?"
-          ],
-          "purple": []
+          ]
         }
       }
     }
@@ -7390,8 +7348,7 @@ const B2_WORDS = [
           ],
           "red": [
             "als + хто?"
-          ],
-          "purple": []
+          ]
         }
       }
     }
@@ -7435,8 +7392,7 @@ const B2_WORDS = [
           ],
           "red": [
             "in + де?"
-          ],
-          "purple": []
+          ]
         }
       }
     }
@@ -7526,8 +7482,7 @@ const B2_WORDS = [
           ],
           "red": [
             "+ кому?"
-          ],
-          "purple": []
+          ]
         }
       }
     }
@@ -7697,9 +7652,7 @@ const B2_WORDS = [
                 "Hoch"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -7707,9 +7660,7 @@ const B2_WORDS = [
                 "Hoch"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -8534,9 +8485,7 @@ const B2_WORDS = [
                 "Leiden"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -8568,9 +8517,7 @@ const B2_WORDS = [
                 "Leiden"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           }
         ],
         "tip": [
@@ -9380,9 +9327,7 @@ const B2_WORDS = [
                 "Nachdruck"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -9390,9 +9335,7 @@ const B2_WORDS = [
                 "Nachdruck"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -9412,9 +9355,7 @@ const B2_WORDS = [
                 "Nachdruck"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -9903,8 +9844,7 @@ const B2_WORDS = [
           ],
           "red": [
             "mit + кому?"
-          ],
-          "purple": []
+          ]
         }
       }
     }
@@ -10557,8 +10497,7 @@ const B2_WORDS = [
           ],
           "red": [
             "bei + кому?"
-          ],
-          "purple": []
+          ]
         }
       }
     }
@@ -10896,8 +10835,7 @@ const B2_WORDS = [
           ],
           "red": [
             "um + кого?"
-          ],
-          "purple": []
+          ]
         }
       }
     }
@@ -11575,9 +11513,7 @@ const B2_WORDS = [
                 "sofern"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -11597,9 +11533,7 @@ const B2_WORDS = [
                 "Sofern"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -11631,9 +11565,7 @@ const B2_WORDS = [
                 "Da"
               ]
             },
-            "lv": {
-              "red": []
-            }
+            "lv": {}
           }
         ],
         "tip": [
@@ -11660,8 +11592,7 @@ const B2_WORDS = [
             "red": [
               "da",
               "weil"
-            ],
-            "purple": []
+            ]
           }
         ]
       }
@@ -13025,8 +12956,7 @@ const B2_WORDS = [
           ],
           "red": [
             "mit + кому?"
-          ],
-          "purple": []
+          ]
         }
       }
     }
@@ -13354,8 +13284,7 @@ const B2_WORDS = [
           ],
           "red": [
             "mit + кому?"
-          ],
-          "purple": []
+          ]
         }
       }
     }
@@ -13404,8 +13333,7 @@ const B2_WORDS = [
           ],
           "red": [
             "mit + кому?"
-          ],
-          "purple": []
+          ]
         }
       }
     }
@@ -13454,8 +13382,7 @@ const B2_WORDS = [
           ],
           "red": [
             "als + кого?"
-          ],
-          "purple": []
+          ]
         }
       }
     }
@@ -13571,8 +13498,7 @@ const B2_WORDS = [
           ],
           "red": [
             "über + кого?"
-          ],
-          "purple": []
+          ]
         }
       }
     }
@@ -14251,8 +14177,7 @@ const B2_WORDS = [
           ],
           "red": [
             "+ кому?"
-          ],
-          "purple": []
+          ]
         }
       }
     }
@@ -14477,10 +14402,9 @@ const B2_WORDS = [
         "explanation": {
           "blue": [
             "zuweisen",
-            "weist",
+            "weise",
             "zu"
-          ],
-          "purple": []
+          ]
         },
         "examples": [
           {
@@ -14490,9 +14414,7 @@ const B2_WORDS = [
                 "zu"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -14500,9 +14422,7 @@ const B2_WORDS = [
                 "zugewiesen"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -14510,9 +14430,7 @@ const B2_WORDS = [
                 "zugewiesen"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           }
         ]
       }
@@ -14733,8 +14651,7 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "ändern",
-                "ändern"
+                "ände"
               ]
             },
             "lv": {
@@ -14763,15 +14680,12 @@ const B2_WORDS = [
                 "ändern"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
               "blue": [
-                "ändern",
-                "ändern"
+                "ände"
               ]
             },
             "lv": {
@@ -14800,9 +14714,7 @@ const B2_WORDS = [
               "Змінити"
             ]
           },
-          {
-            "purple": []
-          }
+          {}
         ],
         "important": [
           {
@@ -14869,13 +14781,10 @@ const B2_WORDS = [
           {
             "de": {
               "green": [
-                "wechseln",
-                "wechseln"
+                "wechsle"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -14884,9 +14793,7 @@ const B2_WORDS = [
                 "wechseln"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -14895,29 +14802,20 @@ const B2_WORDS = [
                 "wechseln"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
               "green": [
-                "wechseln",
-                "wechseln"
+                "wechsle"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           }
         ],
         "tip": [
-          {
-            "purple": []
-          },
-          {
-            "purple": []
-          }
+          {},
+          {}
         ],
         "important": [
           {
@@ -14989,8 +14887,7 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "bieten",
-                "bieten"
+                "biete"
               ]
             },
             "lv": {
@@ -15015,8 +14912,7 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "bieten",
-                "bieten"
+                "biete"
               ]
             },
             "lv": {
@@ -15028,13 +14924,10 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "bieten",
-                "bieten"
+                "biete"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -15043,15 +14936,11 @@ const B2_WORDS = [
                 "bieten"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           }
         ],
         "tip": [
-          {
-            "purple": []
-          },
+          {},
           {
             "purple": [
               "надає"
@@ -15137,9 +15026,7 @@ const B2_WORDS = [
                 "an"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -15160,9 +15047,7 @@ const B2_WORDS = [
                 "an"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           }
         ]
       }
@@ -15228,8 +15113,7 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "fordern",
-                "fordern"
+                "forde"
               ]
             },
             "lv": {
@@ -15245,15 +15129,12 @@ const B2_WORDS = [
                 "fordern"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
               "blue": [
-                "fordern",
-                "fordern"
+                "forde"
               ]
             },
             "lv": {
@@ -15269,9 +15150,7 @@ const B2_WORDS = [
                 "fordern"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -15280,18 +15159,12 @@ const B2_WORDS = [
                 "fordern"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           }
         ],
         "tip": [
-          {
-            "purple": []
-          },
-          {
-            "purple": []
-          }
+          {},
+          {}
         ],
         "important": [
           {
@@ -15362,41 +15235,31 @@ const B2_WORDS = [
           {
             "de": {
               "green": [
-                "fördern",
-                "fördern"
+                "förde"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
               "green": [
-                "fördern",
-                "fördern"
+                "förde"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
               "green": [
-                "fördern",
-                "fördern"
+                "förde"
               ]
             },
-            "lv": {
-              "purple": []
-            }
+            "lv": {}
           },
           {
             "de": {
               "green": [
-                "fördern",
-                "fördern"
+                "förde"
               ]
             },
             "lv": {
@@ -15442,7 +15305,6 @@ const B2_WORDS = [
           "blue": [
             "sich verlaufen"
           ],
-          "purple": [],
           "red": [
             "verlaufen"
           ]
