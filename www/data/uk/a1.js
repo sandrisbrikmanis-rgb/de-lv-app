@@ -17425,7 +17425,7 @@ const A1_WORDS = [
         {
           "word": "versuchen",
           "meaning": "спробувати",
-          "example": "Ich versuche мене."
+          "example": "Ich versuche es."
         },
         {
           "word": "prüfen",
@@ -17435,7 +17435,7 @@ const A1_WORDS = [
         {
           "word": "anprobieren",
           "meaning": "приміряти",
-          "example": "Ich зонд die Jacke an."
+          "example": "Ich probiere die Jacke an."
         }
       ],
       "tip": {

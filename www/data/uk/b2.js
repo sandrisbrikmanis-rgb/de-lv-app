@@ -3934,7 +3934,7 @@ const B2_WORDS = [
             "sich empören"
           ],
           "red": [
-            "über + ko?"
+            "über + кого?"
           ],
           "purple": []
         }
@@ -4126,7 +4126,7 @@ const B2_WORDS = [
             "sich entrüsten"
           ],
           "red": [
-            "über + ko?"
+            "über + кого?"
           ],
           "purple": []
         }
@@ -4289,7 +4289,7 @@ const B2_WORDS = [
             "sich erbarmen"
           ],
           "red": [
-            "über + ko?"
+            "über + кого?"
           ],
           "purple": []
         }
@@ -4563,7 +4563,7 @@ const B2_WORDS = [
             "sich erregen"
           ],
           "red": [
-            "über + ko?"
+            "über + кого?"
           ],
           "purple": []
         }
@@ -13570,7 +13570,7 @@ const B2_WORDS = [
             "sich verwundern"
           ],
           "red": [
-            "über + ko?"
+            "über + кого?"
           ],
           "purple": []
         }

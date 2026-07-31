@@ -8111,7 +8111,7 @@ const B1_WORDS = [
         },
         "important": {
           "purple": [
-            "über + ko?",
+            "über + кого?",
             "von + кому?"
           ]
         }

@@ -37683,7 +37683,7 @@ const A2_WORDS = [
         },
         {
           "de": "Der Kamm des Hahns ist rot.",
-          "lv": "стать півня червона."
+          "lv": "гребінь півня червоний."
         },
         {
           "de": "Wir gehen auf dem Kamm des Berges.",
@@ -37741,7 +37741,8 @@ const A2_WORDS = [
             },
             "lv": {
               "green": [
-                "sext"
+                "гребінь",
+                "півня"
               ]
             }
           },
