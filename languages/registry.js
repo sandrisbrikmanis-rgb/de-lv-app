@@ -82,6 +82,17 @@
       hasStudyData: true,
       uiPath: "./languages/ro/ui.js",
       dataManifestPath: "./languages/ro/data/manifest.js"
+    },
+    {
+      code: "bg",
+      nativeName: "Български",
+      nativeCode: "BG",
+      active: true,
+      uiAvailable: true,
+      dataStatus: "complete",
+      hasStudyData: true,
+      uiPath: "./languages/bg/ui.js",
+      dataManifestPath: "./languages/bg/data/manifest.js"
     }
   ];
 
