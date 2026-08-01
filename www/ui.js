@@ -4361,6 +4361,8 @@ function resolveAudioUrl(src) {
   }
 }
 
+const SILENT_AUDIO_UNLOCK_SRC = "data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQAAAAA=";
+
 function unlockCardAudioPlayback() {
   if (!cardAudioUnlockPromise) {
     cardAudioUnlockPromise = Promise.resolve().then(() => {
@@ -4368,9 +4370,15 @@ function unlockCardAudioPlayback() {
       probe.preload = "auto";
       probe.setAttribute("playsinline", "");
       probe.setAttribute("webkit-playsinline", "");
-      probe.volume = 0.01;
-      probe.src = resolveAudioUrl(`${getAudioBasePath()}public/audio/ab.mp3`) || "data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQAAAAA=";
-      return probe.play().catch(() => {});
+      probe.volume = 0;
+      probe.muted = true;
+      probe.src = SILENT_AUDIO_UNLOCK_SRC;
+      return probe.play()
+        .then(() => {
+          probe.pause();
+          probe.currentTime = 0;
+        })
+        .catch(() => {});
     });
   }
   return cardAudioUnlockPromise;
@@ -4411,7 +4419,6 @@ function handleFlashcardAudioPointer(event) {
 }
 
 function initCardAudioInteraction() {
-  unlockCardAudioPlayback();
   document.addEventListener("pointerup", handleFlashcardAudioPointer, true);
   document.addEventListener("touchend", handleFlashcardAudioPointer, true);
   const primeUnlock = () => unlockCardAudioPlayback();
