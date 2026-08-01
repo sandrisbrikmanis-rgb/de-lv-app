@@ -6,7 +6,7 @@
 |-------|---------|
 | **Valodas pāris** | SL–DE (Slovenski → Deutsch) |
 | **Statuss** | Tehniski pilnībā izveidots un integrēts |
-| **Pull Request** | (tiks atjaunināts pēc PR izveides) |
+| **Pull Request** | #233 |
 | **Darba rezultāts** | Pilns slovēņu valodas datu komplekts A1–C2, Study kartītes, teikumi, darbības vārdi, Kurss un UI lokalizācija |
 
 ---
