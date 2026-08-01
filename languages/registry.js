@@ -115,6 +115,17 @@
       hasStudyData: true,
       uiPath: "./languages/tr/ui.js",
       dataManifestPath: "./languages/tr/data/manifest.js"
+    },
+    {
+      code: "sq",
+      nativeName: "Shqip",
+      nativeCode: "SQ",
+      active: true,
+      uiAvailable: true,
+      dataStatus: "complete",
+      hasStudyData: true,
+      uiPath: "./languages/sq/ui.js",
+      dataManifestPath: "./languages/sq/data/manifest.js"
     }
   ];
 
