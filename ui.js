@@ -1114,6 +1114,9 @@ function getExerciseSourceCards(lessonId) {
     if (lang === "pl" && typeof lesson7ExerciseCardsPl !== "undefined") {
       return lesson7ExerciseCardsPl;
     }
+    if (lang === "ru" && typeof lesson7ExerciseCardsRu !== "undefined") {
+      return lesson7ExerciseCardsRu;
+    }
     return typeof lesson7ExerciseCards !== "undefined" ? lesson7ExerciseCards : [];
   }
   if (lessonNumber === "8") {
@@ -1375,6 +1378,19 @@ function handleCourseExerciseCardClick(card) {
     const plDeck = plDecks[`lesson${lessonNumber}`];
     if (plDeck?.length) {
       return plDeck.map((card) => ({ lv: card.front || card.lv || "", de: card.back || card.de || "" }));
+    }
+  } else if (lang === "ru") {
+    const ruDecks = {
+      lesson1: typeof lesson1TrainingCardsRu !== "undefined" ? lesson1TrainingCardsRu : [],
+      lesson2: typeof lesson2TrainingCardsRu !== "undefined" ? lesson2TrainingCardsRu : [],
+      lesson3: typeof lesson3TrainingCardsRu !== "undefined" ? lesson3TrainingCardsRu : [],
+      lesson4: typeof lesson4TrainingCardsRu !== "undefined" ? lesson4TrainingCardsRu : [],
+      lesson5: typeof lesson5TrainingCardsRu !== "undefined" ? lesson5TrainingCardsRu : [],
+      lesson6: typeof lesson6TrainingCardsRu !== "undefined" ? lesson6TrainingCardsRu : []
+    };
+    const ruDeck = ruDecks[`lesson${lessonNumber}`];
+    if (ruDeck?.length) {
+      return ruDeck.map((card) => ({ lv: card.front || card.lv || "", de: card.back || card.de || "" }));
     }
   } else if (lang !== "lt") {
     const isEt = lang === "et";

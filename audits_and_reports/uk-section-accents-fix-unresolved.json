@@ -1,402 +1,402 @@
 [
   {
-    "file": "data/uk/a1.js",
-    "de": "bleiben",
+    "file": "data/ru/a1.js",
+    "de": "sprechen",
+    "section": "explanation",
+    "index": null,
+    "field": null,
+    "term": "runāt"
+  },
+  {
+    "file": "data/ru/a1.js",
+    "de": "sprechen",
+    "section": "explanation",
+    "index": null,
+    "field": null,
+    "term": "runāt"
+  },
+  {
+    "file": "data/ru/a1.js",
+    "de": "sprechen",
+    "section": "examples",
+    "index": 0,
+    "field": "lv",
+    "term": "runāju"
+  },
+  {
+    "file": "data/ru/a1.js",
+    "de": "sprechen",
+    "section": "examples",
+    "index": 2,
+    "field": "lv",
+    "term": "runāju"
+  },
+  {
+    "file": "data/ru/a1.js",
+    "de": "sprechen",
+    "section": "tip",
+    "index": 0,
+    "field": null,
+    "term": "runāt"
+  },
+  {
+    "file": "data/ru/a1.js",
+    "de": "klein",
+    "section": "explanation",
+    "index": null,
+    "field": null,
+    "term": "klein"
+  },
+  {
+    "file": "data/ru/a1.js",
+    "de": "klein",
+    "section": "explanation",
+    "index": null,
+    "field": null,
+    "term": "Mazs"
+  },
+  {
+    "file": "data/ru/a1.js",
+    "de": "klein",
+    "section": "explanation",
+    "index": null,
+    "field": null,
+    "term": "mazs"
+  },
+  {
+    "file": "data/ru/a1.js",
+    "de": "klein",
+    "section": "examples",
+    "index": 0,
+    "field": "lv",
+    "term": "maza"
+  },
+  {
+    "file": "data/ru/a1.js",
+    "de": "klein",
+    "section": "examples",
+    "index": 1,
+    "field": "lv",
+    "term": "maza"
+  },
+  {
+    "file": "data/ru/a1.js",
+    "de": "klein",
+    "section": "examples",
+    "index": 2,
+    "field": "lv",
+    "term": "mazs"
+  },
+  {
+    "file": "data/ru/a1.js",
+    "de": "klein",
+    "section": "examples",
+    "index": 3,
+    "field": "lv",
+    "term": "maza"
+  },
+  {
+    "file": "data/ru/a1.js",
+    "de": "klein",
+    "section": "examples",
+    "index": 4,
+    "field": "lv",
+    "term": "mazs"
+  },
+  {
+    "file": "data/ru/a1.js",
+    "de": "klein",
+    "section": "tip",
+    "index": 0,
+    "field": null,
+    "term": "mazs"
+  },
+  {
+    "file": "data/ru/a1.js",
+    "de": "klein",
     "section": "important",
     "index": 0,
     "field": null,
-    "term": "warten"
+    "term": "klein"
   },
   {
-    "file": "data/uk/a1.js",
-    "de": "bringen",
-    "section": "important",
+    "file": "data/ru/a1.js",
+    "de": "an",
+    "section": "examples",
+    "index": 0,
+    "field": "lv",
+    "term": "pie"
+  },
+  {
+    "file": "data/ru/a1.js",
+    "de": "an",
+    "section": "examples",
+    "index": 0,
+    "field": "lv",
+    "term": "uz"
+  },
+  {
+    "file": "data/ru/a1.js",
+    "de": "an",
+    "section": "examples",
     "index": 1,
-    "field": null,
-    "term": "bringen"
+    "field": "lv",
+    "term": "pie"
   },
   {
-    "file": "data/uk/a1.js",
-    "de": "der",
+    "file": "data/ru/a1.js",
+    "de": "an",
+    "section": "examples",
+    "index": 2,
+    "field": "lv",
+    "term": "pie"
+  },
+  {
+    "file": "data/ru/a1.js",
+    "de": "an",
     "section": "comparison",
     "index": 0,
     "field": "word",
-    "term": "der"
+    "term": "an"
   },
   {
-    "file": "data/uk/a1.js",
-    "de": "der",
-    "section": "comparison",
-    "index": 0,
-    "field": "example",
-    "term": "der"
-  },
-  {
-    "file": "data/uk/a1.js",
-    "de": "der",
+    "file": "data/ru/a1.js",
+    "de": "an",
     "section": "comparison",
     "index": 1,
     "field": "word",
-    "term": "die"
+    "term": "auf"
   },
   {
-    "file": "data/uk/a1.js",
-    "de": "der",
-    "section": "comparison",
-    "index": 1,
-    "field": "example",
-    "term": "die"
-  },
-  {
-    "file": "data/uk/a1.js",
-    "de": "der",
+    "file": "data/ru/a1.js",
+    "de": "an",
     "section": "comparison",
     "index": 2,
     "field": "word",
-    "term": "das"
+    "term": "bei"
   },
   {
-    "file": "data/uk/a1.js",
-    "de": "der",
+    "file": "data/ru/a1.js",
+    "de": "an",
     "section": "comparison",
     "index": 2,
     "field": "example",
-    "term": "das"
+    "term": "pie"
   },
   {
-    "file": "data/uk/a1.js",
-    "de": "der",
-    "section": "comparison",
-    "index": 3,
-    "field": "word",
-    "term": "welcher"
-  },
-  {
-    "file": "data/uk/a1.js",
-    "de": "der",
-    "section": "comparison",
-    "index": 3,
-    "field": "example",
-    "term": "Welcher"
-  },
-  {
-    "file": "data/uk/a1.js",
-    "de": "die",
-    "section": "comparison",
-    "index": 0,
-    "field": "word",
-    "term": "der"
-  },
-  {
-    "file": "data/uk/a1.js",
-    "de": "die",
-    "section": "comparison",
-    "index": 0,
-    "field": "example",
-    "term": "der"
-  },
-  {
-    "file": "data/uk/a1.js",
-    "de": "die",
-    "section": "comparison",
-    "index": 1,
-    "field": "word",
-    "term": "die"
-  },
-  {
-    "file": "data/uk/a1.js",
-    "de": "die",
-    "section": "comparison",
-    "index": 1,
-    "field": "example",
-    "term": "die"
-  },
-  {
-    "file": "data/uk/a1.js",
-    "de": "die",
-    "section": "comparison",
-    "index": 2,
-    "field": "word",
-    "term": "das"
-  },
-  {
-    "file": "data/uk/a1.js",
-    "de": "die",
-    "section": "comparison",
-    "index": 2,
-    "field": "example",
-    "term": "das"
-  },
-  {
-    "file": "data/uk/a1.js",
-    "de": "die",
-    "section": "comparison",
-    "index": 3,
-    "field": "word",
-    "term": "die"
-  },
-  {
-    "file": "data/uk/a1.js",
-    "de": "die",
-    "section": "comparison",
-    "index": 3,
-    "field": "word",
-    "term": "Plural"
-  },
-  {
-    "file": "data/uk/a1.js",
-    "de": "die",
-    "section": "comparison",
-    "index": 3,
-    "field": "example",
-    "term": "die"
-  },
-  {
-    "file": "data/uk/a1.js",
-    "de": "die",
-    "section": "comparison",
-    "index": 4,
-    "field": "word",
-    "term": "die"
-  },
-  {
-    "file": "data/uk/a1.js",
-    "de": "die",
-    "section": "comparison",
-    "index": 4,
-    "field": "example",
-    "term": "die"
-  },
-  {
-    "file": "data/uk/a1.js",
-    "de": "die",
-    "section": "comparison",
-    "index": 5,
-    "field": "word",
-    "term": "die"
-  },
-  {
-    "file": "data/uk/a1.js",
-    "de": "die",
-    "section": "comparison",
-    "index": 5,
-    "field": "example",
-    "term": "Die"
-  },
-  {
-    "file": "data/uk/a1.js",
-    "de": "die",
-    "section": "comparison",
-    "index": 5,
-    "field": "example",
-    "term": "die"
-  },
-  {
-    "file": "data/uk/a1.js",
-    "de": "die",
-    "section": "comparison",
-    "index": 6,
-    "field": "word",
-    "term": "die"
-  },
-  {
-    "file": "data/uk/a1.js",
-    "de": "die",
-    "section": "comparison",
-    "index": 6,
-    "field": "example",
-    "term": "die"
-  },
-  {
-    "file": "data/uk/a1.js",
-    "de": "dieser",
-    "section": "comparison",
-    "index": 0,
-    "field": "word",
-    "term": "dieser"
-  },
-  {
-    "file": "data/uk/a1.js",
-    "de": "dieser",
-    "section": "comparison",
-    "index": 0,
-    "field": "example",
-    "term": "Dieser"
-  },
-  {
-    "file": "data/uk/a1.js",
-    "de": "dieser",
-    "section": "comparison",
-    "index": 1,
-    "field": "word",
-    "term": "diese"
-  },
-  {
-    "file": "data/uk/a1.js",
-    "de": "dieser",
-    "section": "comparison",
-    "index": 1,
-    "field": "example",
-    "term": "Diese"
-  },
-  {
-    "file": "data/uk/a1.js",
-    "de": "dieser",
-    "section": "comparison",
-    "index": 2,
-    "field": "word",
-    "term": "dieses"
-  },
-  {
-    "file": "data/uk/a1.js",
-    "de": "dieser",
-    "section": "comparison",
-    "index": 2,
-    "field": "example",
-    "term": "Dieses"
-  },
-  {
-    "file": "data/uk/a1.js",
-    "de": "dieser",
-    "section": "comparison",
-    "index": 3,
-    "field": "word",
-    "term": "diese"
-  },
-  {
-    "file": "data/uk/a1.js",
-    "de": "dieser",
-    "section": "comparison",
-    "index": 3,
-    "field": "word",
-    "term": "Plural"
-  },
-  {
-    "file": "data/uk/a1.js",
-    "de": "dieser",
-    "section": "comparison",
-    "index": 3,
-    "field": "example",
-    "term": "Diese"
-  },
-  {
-    "file": "data/uk/a1.js",
-    "de": "ein",
-    "section": "comparison",
-    "index": 0,
-    "field": "word",
-    "term": "ein"
-  },
-  {
-    "file": "data/uk/a1.js",
-    "de": "ein",
-    "section": "comparison",
-    "index": 0,
-    "field": "example",
-    "term": "ein"
-  },
-  {
-    "file": "data/uk/a1.js",
-    "de": "ein",
-    "section": "comparison",
-    "index": 1,
-    "field": "word",
-    "term": "eine"
-  },
-  {
-    "file": "data/uk/a1.js",
-    "de": "ein",
-    "section": "comparison",
-    "index": 1,
-    "field": "example",
-    "term": "eine"
-  },
-  {
-    "file": "data/uk/a1.js",
-    "de": "ein",
-    "section": "comparison",
-    "index": 2,
-    "field": "word",
-    "term": "ein"
-  },
-  {
-    "file": "data/uk/a1.js",
-    "de": "ein",
-    "section": "comparison",
-    "index": 2,
-    "field": "example",
-    "term": "ein"
-  },
-  {
-    "file": "data/uk/a1.js",
-    "de": "ein",
-    "section": "comparison",
-    "index": 3,
-    "field": "word",
-    "term": "– (немає)"
-  },
-  {
-    "file": "data/uk/a1.js",
-    "de": "ein",
-    "section": "comparison",
-    "index": 3,
-    "field": "example",
-    "term": "Kinder"
-  },
-  {
-    "file": "data/uk/a1.js",
-    "de": "ein",
-    "section": "comparison",
-    "index": 3,
-    "field": "example",
-    "term": "Bücher"
-  },
-  {
-    "file": "data/uk/a1.js",
-    "de": "ein",
-    "section": "comparison",
-    "index": 4,
-    "field": "word",
-    "term": "der"
-  },
-  {
-    "file": "data/uk/a1.js",
-    "de": "ein",
-    "section": "comparison",
-    "index": 4,
-    "field": "example",
-    "term": "der"
-  },
-  {
-    "file": "data/uk/a1.js",
-    "de": "ein",
-    "section": "comparison",
-    "index": 5,
-    "field": "word",
-    "term": "ein"
-  },
-  {
-    "file": "data/uk/a1.js",
-    "de": "ein",
-    "section": "comparison",
-    "index": 5,
-    "field": "example",
-    "term": "ein"
-  },
-  {
-    "file": "data/uk/a1.js",
-    "de": "Eis",
+    "file": "data/ru/a1.js",
+    "de": "an",
     "section": "tip",
     "index": null,
     "field": "left",
-    "term": "das Eis"
+    "term": "an"
   },
   {
-    "file": "data/uk/a1.js",
-    "de": "es",
+    "file": "data/ru/a1.js",
+    "de": "an",
+    "section": "tip",
+    "index": null,
+    "field": "left",
+    "term": "sienas"
+  },
+  {
+    "file": "data/ru/a1.js",
+    "de": "an",
+    "section": "tip",
+    "index": null,
+    "field": "left",
+    "term": "loga"
+  },
+  {
+    "file": "data/ru/a1.js",
+    "de": "an",
+    "section": "tip",
+    "index": null,
+    "field": "left",
+    "term": "malas"
+  },
+  {
+    "file": "data/ru/a1.js",
+    "de": "an",
+    "section": "tip",
+    "index": null,
+    "field": "left",
+    "term": "pie"
+  },
+  {
+    "file": "data/ru/a1.js",
+    "de": "an",
+    "section": "important",
+    "index": 0,
+    "field": null,
+    "term": "virsmas"
+  },
+  {
+    "file": "data/ru/a1.js",
+    "de": "an",
+    "section": "important",
+    "index": 0,
+    "field": null,
+    "term": "sienas"
+  },
+  {
+    "file": "data/ru/a1.js",
+    "de": "an",
+    "section": "important",
+    "index": 0,
+    "field": null,
+    "term": "loga"
+  },
+  {
+    "file": "data/ru/a1.js",
+    "de": "an",
+    "section": "important",
+    "index": 0,
+    "field": null,
+    "term": "malas"
+  },
+  {
+    "file": "data/ru/a1.js",
+    "de": "an",
+    "section": "important",
+    "index": 0,
+    "field": null,
+    "term": "pie"
+  },
+  {
+    "file": "data/ru/a1.js",
+    "de": "an",
+    "section": "important",
+    "index": 1,
+    "field": null,
+    "term": "uz horizontālas virsmas"
+  },
+  {
+    "file": "data/ru/a1.js",
+    "de": "ab",
+    "section": "examples",
+    "index": 0,
+    "field": "lv",
+    "term": "no"
+  },
+  {
+    "file": "data/ru/a1.js",
+    "de": "ab",
+    "section": "examples",
+    "index": 1,
+    "field": "lv",
+    "term": "no"
+  },
+  {
+    "file": "data/ru/a1.js",
+    "de": "ab",
+    "section": "examples",
+    "index": 2,
+    "field": "lv",
+    "term": "no"
+  },
+  {
+    "file": "data/ru/a1.js",
+    "de": "ab",
+    "section": "examples",
+    "index": 3,
+    "field": "lv",
+    "term": "no"
+  },
+  {
+    "file": "data/ru/a1.js",
+    "de": "ab",
     "section": "comparison",
     "index": 0,
     "field": "word",
-    "term": "ich"
+    "term": "ab"
+  },
+  {
+    "file": "data/ru/a1.js",
+    "de": "ab",
+    "section": "comparison",
+    "index": 0,
+    "field": "example",
+    "term": "no"
+  },
+  {
+    "file": "data/ru/a1.js",
+    "de": "ab",
+    "section": "comparison",
+    "index": 1,
+    "field": "word",
+    "term": "von"
+  },
+  {
+    "file": "data/ru/a1.js",
+    "de": "ab",
+    "section": "comparison",
+    "index": 2,
+    "field": "word",
+    "term": "aus"
+  },
+  {
+    "file": "data/ru/a1.js",
+    "de": "ab",
+    "section": "comparison",
+    "index": 2,
+    "field": "example",
+    "term": "no"
+  },
+  {
+    "file": "data/ru/a1.js",
+    "de": "ab",
+    "section": "tip",
+    "index": null,
+    "field": "left",
+    "term": "laikā"
+  },
+  {
+    "file": "data/ru/a1.js",
+    "de": "ab",
+    "section": "tip",
+    "index": null,
+    "field": "left",
+    "term": "vietā"
+  },
+  {
+    "file": "data/ru/a1.js",
+    "de": "ab",
+    "section": "tip",
+    "index": null,
+    "field": "left",
+    "term": "sākuma punkts"
+  },
+  {
+    "file": "data/ru/a1.js",
+    "de": "ab",
+    "section": "important",
+    "index": 0,
+    "field": null,
+    "term": "laikā"
+  },
+  {
+    "file": "data/ru/a1.js",
+    "de": "ab",
+    "section": "important",
+    "index": 0,
+    "field": null,
+    "term": "vietā"
+  },
+  {
+    "file": "data/ru/a1.js",
+    "de": "ab",
+    "section": "important",
+    "index": 0,
+    "field": null,
+    "term": "sākuma punktu"
+  },
+  {
+    "file": "data/ru/a1.js",
+    "de": "ab",
+    "section": "important",
+    "index": 1,
+    "field": null,
+    "term": "izcelsme"
   }
 ]
