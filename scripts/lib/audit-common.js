@@ -14,7 +14,7 @@ const vm = require("vm");
 
 const ROOT = path.resolve(__dirname, "..", "..");
 
-const KNOWN_LANGUAGES = ["lv", "lt", "ru", "pl", "uk", "et"];
+const KNOWN_LANGUAGES = ["lv", "lt", "ru", "pl", "uk", "et", "ro"];
 
 const DATA_FILE_NAMES = [
   "a1.js", "a2.js", "b1.js", "b2.js", "c1.js", "c2.js",

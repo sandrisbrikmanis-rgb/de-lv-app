@@ -43,3 +43,10 @@ ios/DerivedData/
 
 # Lokālie rīki (portatīvais Git u.c.)
 .tools/
+
+# Tulkošanas kešatmiņa (ģenerēšanas skripti)
+scripts/.ro-translation-cache.json
+scripts/.ro-ui-translation-cache.json
+scripts/.ro-course-fix-cache.json
+scripts/.pl-translation-cache.json
+scripts/.ru-translation-cache.json
