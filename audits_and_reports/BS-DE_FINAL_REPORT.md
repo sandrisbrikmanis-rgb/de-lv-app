@@ -6,6 +6,7 @@
 |-------|---------|
 | **Valodas pāris** | BS–DE (Bosanski → Deutsch) |
 | **Statuss** | Tehniski pilnībā izveidots un integrēts |
+| **Pull Request** | #230 |
 | **Darba rezultāts** | Pilns bosniešu valodas datu komplekts A1–C2, Study kartītes, teikumi, darbības vārdi, Kurss un UI lokalizācija |
 
 ---
