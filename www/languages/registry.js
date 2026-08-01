@@ -137,6 +137,17 @@
       hasStudyData: true,
       uiPath: "./languages/mk/ui.js",
       dataManifestPath: "./languages/mk/data/manifest.js"
+    },
+    {
+      code: "sl",
+      nativeName: "Slovenski",
+      nativeCode: "SL",
+      active: true,
+      uiAvailable: true,
+      dataStatus: "complete",
+      hasStudyData: true,
+      uiPath: "./languages/sl/ui.js",
+      dataManifestPath: "./languages/sl/data/manifest.js"
     }
   ];
 
