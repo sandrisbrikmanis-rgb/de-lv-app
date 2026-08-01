@@ -148,6 +148,17 @@
       hasStudyData: true,
       uiPath: "./languages/sl/ui.js",
       dataManifestPath: "./languages/sl/data/manifest.js"
+    },
+    {
+      code: "bs",
+      nativeName: "Bosanski",
+      nativeCode: "BS",
+      active: true,
+      uiAvailable: true,
+      dataStatus: "complete",
+      hasStudyData: true,
+      uiPath: "./languages/bs/ui.js",
+      dataManifestPath: "./languages/bs/data/manifest.js"
     }
   ];
 

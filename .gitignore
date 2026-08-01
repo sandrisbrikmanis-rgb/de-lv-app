@@ -54,3 +54,5 @@ scripts/.tr-translation-cache.json
 scripts/.tr-ui-translation-cache.json
 scripts/.sl-translation-cache.json
 scripts/.sl-ui-translation-cache.json
+scripts/.bs-translation-cache.json
+scripts/.bs-ui-translation-cache.json
