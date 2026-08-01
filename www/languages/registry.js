@@ -34,8 +34,8 @@
       nativeCode: "PL",
       active: true,
       uiAvailable: true,
-      dataStatus: "fallback",
-      hasStudyData: false,
+      dataStatus: "complete",
+      hasStudyData: true,
       uiPath: "./languages/pl/ui.js",
       dataManifestPath: "./languages/pl/data/manifest.js"
     },
