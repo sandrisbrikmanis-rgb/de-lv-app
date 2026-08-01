@@ -71,6 +71,17 @@
       hasStudyData: true,
       uiPath: "./languages/et/ui.js",
       dataManifestPath: "./languages/et/data/manifest.js"
+    },
+    {
+      code: "ro",
+      nativeName: "Română",
+      nativeCode: "RO",
+      active: true,
+      uiAvailable: true,
+      dataStatus: "complete",
+      hasStudyData: true,
+      uiPath: "./languages/ro/ui.js",
+      dataManifestPath: "./languages/ro/data/manifest.js"
     }
   ];
 
