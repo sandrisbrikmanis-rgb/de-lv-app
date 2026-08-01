@@ -23,8 +23,8 @@
       nativeCode: "RU",
       active: true,
       uiAvailable: true,
-      dataStatus: "fallback",
-      hasStudyData: false,
+      dataStatus: "complete",
+      hasStudyData: true,
       uiPath: "./languages/ru/ui.js",
       dataManifestPath: "./languages/ru/data/manifest.js"
     },
