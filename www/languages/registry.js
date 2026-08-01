@@ -126,6 +126,17 @@
       hasStudyData: true,
       uiPath: "./languages/sq/ui.js",
       dataManifestPath: "./languages/sq/data/manifest.js"
+    },
+    {
+      code: "mk",
+      nativeName: "Македонски",
+      nativeCode: "MK",
+      active: true,
+      uiAvailable: true,
+      dataStatus: "complete",
+      hasStudyData: true,
+      uiPath: "./languages/mk/ui.js",
+      dataManifestPath: "./languages/mk/data/manifest.js"
     }
   ];
 
