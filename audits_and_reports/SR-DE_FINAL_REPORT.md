@@ -6,7 +6,7 @@
 |-------|---------|
 | **Valodas pāris** | SR–DE (Srpski → Deutsch) |
 | **Statuss** | Tehniski pilnībā izveidots un integrēts |
-| **Pull Request** | (tiks atjaunināts pēc PR izveides) |
+| **Pull Request** | #231 |
 | **Darba rezultāts** | Pilns srpsku valodas datu komplekts A1–C2, Study kartītes, teikumi, darbības vārdi, Kurss un UI lokalizācija |
 
 ---
