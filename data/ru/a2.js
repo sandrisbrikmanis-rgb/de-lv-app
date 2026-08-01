@@ -26,7 +26,7 @@ const A2_WORDS = [
         {
           "word": "Аб",
           "meaning": "Начиная с точки/времени",
-          "example": "ab Montag – no pirmdienas"
+          "example": "ab Montag – С понедельника"
         },
         {
           "word": "Фон",
@@ -36,7 +36,7 @@ const A2_WORDS = [
         {
           "word": "Ухо",
           "meaning": "Снаружи изнутри",
-          "example": "aus dem Haus – no mājas / ārā no mājas"
+          "example": "aus dem Haus – Из дома/из дома"
         }
       ],
       "sectionAccents": {
@@ -103,30 +103,17 @@ const A2_WORDS = [
           {
             "blue": [
               "ab und zu"
-            ],
-            "purple": [
-              "neregulāri"
-            ],
-            "red": [
-              "bieži",
-              "katru dienu"
             ]
           },
-          {
-            "purple": [
-              "šad un tad",
-              "reizēm",
-              "ik pa laikam"
-            ]
-          }
+          {}
         ]
       },
       "tip": {
         "text": "Помните: нерегулярный → ab und zu."
       },
       "important": [
-        "ab und zu nozīmē neregulāri, nevis bieži vai katru dienu.",
-        "Latviski dabiskākie tulkojumi ir šad un tad, reizēm vai ik pa laikam."
+        "Ab und zu означает время от времени, не часто или каждый день.",
+        "На латышский язык наиболее естественны переводы время от времени, иногда или время от времени."
       ]
     }
   },
@@ -211,7 +198,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Абфарен – это не «забрать».",
-        "example": "Der Zug fährt ab = vilciens atiet. Wir fahren ab = mēs aizbraucam. Eine Strecke abfahren = nobraukt maršrutu."
+        "example": "Der Zug fährt ab = поезд отправляется. Wir fahren ab = мы уходим. Eine Strecke abfahren = проехать маршрут."
       },
       "sectionAccents": {
         "examples": [
@@ -384,21 +371,12 @@ const A2_WORDS = [
               "blue": [
                 "abfahren"
               ],
-              "green": [
-                "atiet"
-              ],
-              "yellow": [
-                "nobraukt"
-              ],
               "purple": [
                 "fahren"
               ],
               "red": [
-                "aizbraucam",
-                "vilciens",
                 "Strecke",
                 "fahren",
-                "atiet",
                 "fährt"
               ]
             }
@@ -408,47 +386,47 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "aizbraukt",
-          "abfahren",
+          "Уйти",
+          "Абфарен",
           "autobusu",
-          "maršrutu",
+          "Маршрут",
           "nobraukt",
           "noteiktu",
           "tramvaju",
           "vilcienu",
-          "nozīmēt",
-          "doties",
+          "Иметь в виду",
+          "Идти",
           "atiet",
-          "bieži",
+          "Часто",
           "posmu",
-          "Vārds",
-          "ceļā",
-          "ceļu"
+          "Имя",
+          "В пути",
+          "Дорога"
         ],
         "green": [
-          "wegfahren",
+          "Вегфарен",
           "atiet",
           "noiet"
         ],
         "yellow": [
-          "losfahren",
+          "Лосфарен",
           "nobraukt"
         ],
         "orange": [
-          "aizbraukt"
+          "Уйти"
         ],
         "purple": [
-          "aizbraukt • atiet • nobraukt • doties ceļā",
-          "aizbraukt / atiet / doties ceļā",
-          "aizbraukt prom",
-          "atiet / noiet",
-          "sākt braukt",
-          "braukt",
-          "fahren"
+          "Уйти · уйти · уехать · отправиться в путь",
+          "Уйти / уйти / отправиться в путь",
+          "Уезжать",
+          "Уйти / уйти",
+          "Начать водить машину",
+          "Водить машину",
+          "По Фарену"
         ],
         "red": [
-          "doties ceļā",
-          "abgehen"
+          "Отправиться в путешествие",
+          "Абгехен"
         ]
       }
     }
@@ -546,7 +524,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Abgeben — это не то же самое, что verkaufen или ausstrahlen.",
-        "example": "abgeben = nodot / atdot / iesniegt. verkaufen = pārdot. ausstrahlen = izstarot."
+        "example": "Abgeben = передать/дать/подарить. verkaufen = продавать. ausstrahlen = испускать."
       },
       "sectionAccents": {
         "examples": [
@@ -709,13 +687,6 @@ const A2_WORDS = [
               "blue": [
                 "abgeben"
               ],
-              "purple": [
-                "nodot",
-                "atdot",
-                "iesniegt",
-                "pārdot",
-                "izstarot"
-              ],
               "orange": [
                 "verkaufen"
               ],
@@ -728,24 +699,24 @@ const A2_WORDS = [
       },
       "accents": {
         "blue": [
-          "abgeben",
-          "nodot",
-          "atdot",
-          "iesniegt"
+          "Абгебен",
+          "Передать",
+          "Отдать назад",
+          "Представлять на рассмотрение"
         ],
         "green": [
-          "ausstrahlen"
+          "Австралия"
         ],
         "orange": [
-          "verkaufen"
+          "Веркауфен"
         ],
         "purple": [
           "Nodot • Atdot • Iesniegt",
-          "nodot vai atdot citam vai noteiktā vietā",
-          "oficiāli iesniegt",
-          "atdot atpakaļ",
-          "pārdot",
-          "izstarot"
+          "Дать или отдать другому или в определенное место",
+          "Официально представить",
+          "Отдать назад",
+          "Продать",
+          "Излучающий"
         ]
       }
     }
@@ -764,10 +735,10 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Взять • Вынуть",
       "explanation": [
-        "Galvenā doma: Doties pakaļ un paņemt cilvēku vai izņemt paciņu/pasūtījumu.",
-        "abholen galvenokārt nozīmē: doties pakaļ un paņemt / izņemt no vietas.",
-        "Bieži raksturo: cilvēku, paciņu, pasūtījumu.",
-        "abholen vienmēr ietver kustību: doties pakaļ un paņemt cilvēku, paciņu vai pasūtījumu."
+        "Основная идея: пойти за человеком или забрать посылку/заказ.",
+        "Abholen по сути означает: преследовать и брать/удалять с места.",
+        "Часто описывает: человека, посылку, заказ.",
+        "Абхолен всегда предполагает движение: пойти за человеком, посылкой или заказом и забрать его."
       ],
       "examples": [
         {
@@ -784,22 +755,19 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "abholen = paņemt pakaļ",
-        "Izmanto abholen, kad konteksts atbilst šai nozīmei."
+        "Abholen = следовать за",
+        "Употребляет abholen, когда контекст соответствует этому значению."
       ],
       "important": [
-        "abholen vienmēr ietver kustību: doties pakaļ un paņemt.",
-        "bekommen nav tas pats, kas abholen.",
-        "abholen = doties pakaļ un paņemt.",
-        "Doties pakaļ un paņemt cilvēku vai izņemt paciņu/pasūtījumu."
+        "Абхолен всегда предполагает движение: идти за и брать.",
+        "Бекоммен — это не то же самое, что абхолен.",
+        "Abholen = преследовать и брать.",
+        "Идите и заберите человека или заберите посылку/заказ."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "abholen"
-          ],
-          "purple": [
-            "paņemt"
           ]
         },
         "examples": [
@@ -822,23 +790,11 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "paņemt"
-            ]
-          },
-          {
-            "purple": [
-              "paņemt"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "abholen"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -852,10 +808,10 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Пойти за • Принести",
       "explanation": [
-        "Galvenā doma: Aiziet pakaļ un atnest kaut ko.",
-        "holen galvenokārt nozīmē: aiziet un atnest.",
-        "Bieži raksturo: lietas, ko paņem no citurienes.",
-        "holen nozīmē aiziet pakaļ un atnest kaut ko (piemēram, ūdeni)."
+        "Основная идея: пойти и принести что-нибудь.",
+        "«Холен» в основном означает: «иди и принеси».",
+        "Часто характеризуются: вещами, взятыми откуда-то еще.",
+        "Холен означает идти за чем-то (например, водой)."
       ],
       "examples": [
         {
@@ -872,22 +828,15 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "holen = atnest no turienes",
-        "Izmanto holen, kad konteksts atbilst šai nozīmei."
+        "Холен = принести оттуда",
+        "Употребляет холен, когда контекст соответствует этому значению."
       ],
       "important": [
-        "holen = aiziet pakaļ un atnest.",
-        "holen: pārbaudi kontekstu pirms lietošanas."
+        "Holen = пойти и принести.",
+        "Holen: проверьте контекст перед использованием."
       ],
       "sectionAccents": {
-        "explanation": {
-          "green": [
-            "holen"
-          ],
-          "purple": [
-            "atnest"
-          ]
-        },
+        "explanation": {},
         "examples": [
           {
             "de": {
@@ -917,11 +866,7 @@ const A2_WORDS = [
         ],
         "tip": [
           {},
-          {
-            "purple": [
-              "atnest"
-            ]
-          }
+          {}
         ],
         "important": [
           {
@@ -942,10 +887,10 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Принести • Доставить",
       "explanation": [
-        "Galvenā doma: Atnest vai nogādāt kaut ko uz šejieni.",
-        "bringen galvenokārt nozīmē: atnest uz šejieni.",
-        "Bieži raksturo: nogādāšanu uz vietu.",
-        "bringen nozīmē atnest vai nogādāt kaut ko uz konkrētu vietu."
+        "Основная идея: Принести или принести сюда что-то.",
+        "Bringen в основном означает: принести сюда.",
+        "Часто характеризуется: доставка на место.",
+        "Bringen означает принести или доставить что-то в определенное место."
       ],
       "examples": [
         {
@@ -966,22 +911,19 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "bringen = atnest šeit",
-        "Izmanto bringen, kad konteksts atbilst šai nozīmei."
+        "Bringen = принеси сюда",
+        "Используйте Bringen, когда контекст соответствует этому значению."
       ],
       "important": [
-        "bringen = atnest uz konkrētu vietu.",
-        "bringen = atnest uz šejieni.",
-        "Atnest vai nogādāt kaut ko uz šejieni."
+        "Bringen = принести в определенное место.",
+        "Bringen = принесите сюда.",
+        "Принесите или доставьте сюда что-нибудь."
       ],
       "sectionAccents": {
         "explanation": {
           "yellow": [
             "bringen",
             "bringen"
-          ],
-          "purple": [
-            "nogādāt"
           ],
           "orange": [
             "bringen"
@@ -1024,11 +966,7 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "atnest"
-            ]
-          },
+          {},
           {}
         ],
         "important": [
@@ -1120,7 +1058,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Absagen означает отменить или отказаться от уже запланированного дела.",
-        "example": "Termin absagen = atcelt tikšanos. Teilnahme absagen = atteikt dalību. Angebot ablehnen = noraidīt piedāvājumu."
+        "example": "Termin absagen = отменить встречу. Teilhänge absagen = отказаться от участия. Angebotablehnen = отклонить предложение."
       },
       "sectionAccents": {
         "examples": [
@@ -1280,16 +1218,8 @@ const A2_WORDS = [
               "blue": [
                 "absagen"
               ],
-              "green": [
-                "atcelt"
-              ],
-              "orange": [
-                "atteikt"
-              ],
               "red": [
-                "absagen",
-                "atteikt",
-                "atcelt"
+                "absagen"
               ]
             },
             "example": {
@@ -1297,20 +1227,11 @@ const A2_WORDS = [
                 "absagen"
               ],
               "green": [
-                "ablehnen",
-                "atcelt"
-              ],
-              "orange": [
-                "noraidīt",
-                "atteikt"
+                "ablehnen"
               ],
               "red": [
-                "atteikt dalību",
-                "Teilnahme",
-                "tikšanos",
+                "Teilhänge",
                 "absagen",
-                "atteikt",
-                "atcelt",
                 "Termin"
               ]
             }
@@ -1320,49 +1241,49 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "ierasties",
-          "pasākumu",
-          "sarunātu",
-          "tikšanos",
-          "absagen",
-          "atteikt",
+          "Прибыть",
+          "Событие",
+          "Бы поговорить",
+          "Встреча",
+          "Абсаген",
+          "Мусор",
           "Konzert",
-          "nozīmēt",
+          "Иметь в виду",
           "pateikt",
           "Treffen",
-          "atcelt",
-          "dalību",
+          "Отмена",
+          "Членство",
           "Termin",
           "nevar",
-          "plānu"
+          "План"
         ],
         "green": [
-          "atcelt rezervāciju",
-          "lauzt līgumu",
-          "ablehnen",
-          "atcelt"
+          "Отменить бронирование",
+          "Расторгнуть договор",
+          "Абленен",
+          "Отмена"
         ],
         "yellow": [
-          "kündigen"
+          "Уведомление"
         ],
         "orange": [
-          "noraidīt",
-          "atteikt",
+          "Отклонять",
+          "Мусор",
           "uzteikt",
-          "anulēt"
+          "Отмена"
         ],
         "purple": [
-          "atcelt • atteikt • atteikt dalību",
-          "anulēt / atcelt rezervāciju",
-          "atcelt / atteikt dalību",
-          "uzteikt / lauzt līgumu",
-          "noraidīt / atteikt",
-          "nein sagen",
-          "pateikt nē"
+          "Отменить • Отказаться • Отказаться от членства",
+          "Отменить / отменить бронирование",
+          "Отменить/отказаться от членства",
+          "Расторгнуть/расторгнуть договор",
+          "Отвергать / отказываться",
+          "Nein sagen",
+          "Скажи нет"
         ],
         "red": [
-          "atteikt dalību",
-          "stornieren"
+          "Уклоняться",
+          "Отмена"
         ]
       }
     }
@@ -1441,7 +1362,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Tür schließen = закрой дверь.",
-        "example": "Tür abschließen = aizslēgt durvis. Vertrag abschließen = noslēgt līgumu. Ausbildung abschließen = pabeigt apmācību."
+        "example": "Tür abschließen = запереть дверь. Vertrag abschließen = заключить договор. Ausbildung abschließen = полное обучение."
       },
       "sectionAccents": {
         "examples": [
@@ -1590,35 +1511,17 @@ const A2_WORDS = [
               "green": [
                 "schließen"
               ],
-              "purple": [
-                "aizslēgt"
-              ],
               "red": [
-                "schließen",
-                "aizslēgt",
-                "durvis"
+                "schließen"
               ]
             },
             "example": {
               "blue": [
                 "abschließen"
               ],
-              "green": [
-                "noslēgt"
-              ],
-              "yellow": [
-                "pabeigt"
-              ],
-              "orange": [
-                "aizslēgt"
-              ],
               "red": [
                 "abschließen",
-                "aizslēgt",
-                "noslēgt",
-                "Vertrag",
-                "durvis",
-                "līgumu"
+                "Vertrag"
               ]
             }
           }
@@ -1627,42 +1530,42 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "abschließen",
-          "aizslēgt",
+          "Закрывать",
+          "Запереть",
           "projektu",
-          "noslēgt",
+          "Заключать",
           "objekta",
-          "pabeigt",
-          "durvis",
-          "durvīm",
-          "līgums",
-          "līgumu",
-          "mainās",
-          "nozīme",
+          "Заканчивать",
+          "Дверь",
+          "Дверь",
+          "Договор",
+          "Договор",
+          "Меняется",
+          "Значение",
           "darbu",
           "kursu",
-          "Tāpēc",
+          "Поэтому",
           "auto"
         ],
         "green": [
-          "schließen",
-          "noslēgt"
+          "Закрывать",
+          "Заключать"
         ],
         "yellow": [
-          "beenden",
-          "pabeigt"
+          "Беден",
+          "Заканчивать"
         ],
         "orange": [
-          "aizslēgt"
+          "Запереть"
         ],
         "purple": [
-          "aizslēgt / noslēgt / pabeigt",
-          "aizslēgt • noslēgt • pabeigt",
-          "parakstīt",
-          "aizvērt"
+          "Закрыть / закрыть / завершить",
+          "Запереть • Заключить • Завершить",
+          "Подписать",
+          "Закрыть"
         ],
         "red": [
-          "unterschreiben"
+          "Унтершрайбен"
         ]
       }
     }
@@ -1688,13 +1591,13 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Положить • Место • Выключить",
       "explanation": [
-        "Galvenā doma: abstellen nozīmi nosaka objekts: auto vai somu novieto, ūdeni vai elektrību atslēdz, motoru izslēdz, problēmu novērš.",
-        "Ar auto, velosipēdu, somu vai kasti abstellen nozīmē novietot vai nolikt konkrētā vietā.",
-        "Ar ūdeni, gāzi vai elektrību abstellen nozīmē atslēgt padevi.",
-        "Motoru vai modinātāju arī var izslēgt ar abstellen.",
-        "Ierīcēm kā TV, dators vai gaisma biežāk lieto ausschalten.",
-        "Apturēt kustību parasti ir anhalten vai stoppen, nevis abstellen.",
-        "Ar kļūdu vai problēmu abstellen nozīmē novērst."
+        "Основная идея: значение abstellen определяется предметом: припарковать машину или сумку, отключить воду или электричество, заглушить двигатель, устранить проблему.",
+        "В случае с автомобилем, велосипедом, сумкой или коробкой abstellen означает разместить или положить в определенное место.",
+        "В случае с водой, газом или электричеством абстеллен означает отключение подачи.",
+        "Двигатель или сигнализацию также можно отключить с помощью abstellen.",
+        "Для таких устройств, как телевизор, компьютер или свет, чаще используется ausschalten.",
+        "Остановить движение обычно означает anhalten или stoppen, а не abstellen.",
+        "В случае ошибки или проблемы abstellen означает предотвращение."
       ],
       "examples": [
         {
@@ -1769,37 +1672,17 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Абстеллен не является общим словом, означающим «стоп».",
-        "example": "Apturēt kustību = anhalten vai stoppen. Izslēgt ierīci = ausschalten. Wasser abstellen = atslēgt ūdeni."
+        "example": "Остановить движение = anhalten или stoppen. Выключить устройство = ausschalten. Wasser abstellen = выключить воду."
       },
       "sectionAccents": {
         "explanation": {
           "blue": [
             "abstellen"
           ],
-          "purple": [
-            "novietot",
-            "nolikt",
-            "atslēgt",
-            "izslēgt",
-            "novērst"
-          ],
-          "yellow": [
-            "auto",
-            "somu",
-            "ūdeni",
-            "elektrību",
-            "motoru",
-            "modinātāju",
-            "TV",
-            "dators",
-            "gaisma",
-            "problēmu"
-          ],
           "red": [
             "ausschalten",
             "anhalten",
-            "stoppen",
-            "apturēt"
+            "stoppen"
           ]
         },
         "examples": [
@@ -2007,9 +1890,6 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "abstellen"
-              ],
-              "red": [
-                "apturēt"
               ]
             },
             "example": {
@@ -2018,16 +1898,8 @@ const A2_WORDS = [
                 "stoppen",
                 "ausschalten"
               ],
-              "purple": [
-                "apturēt",
-                "izslēgt",
-                "atslēgt"
-              ],
               "yellow": [
-                "kustību",
-                "ierīci",
-                "Wasser",
-                "ūdeni"
+                "Wasser"
               ]
             }
           }
@@ -2035,33 +1907,33 @@ const A2_WORDS = [
       },
       "accents": {
         "blue": [
-          "abstellen"
+          "Абстеллен"
         ],
         "purple": [
-          "nolikt",
-          "novietot",
-          "atslēgt",
-          "izslēgt",
-          "novērst"
+          "Положить",
+          "Разместить",
+          "Запрещать",
+          "Выключать",
+          "Предотвратить"
         ],
         "yellow": [
           "auto",
-          "velosipēds",
-          "soma",
-          "ūdens",
-          "gāze",
-          "elektrība",
-          "motors",
-          "modinātājs"
+          "Велосипед",
+          "Сумка",
+          "Вода",
+          "Газ",
+          "Электричество",
+          "Мотор",
+          "Будильник"
         ],
         "red": [
-          "ausschalten",
-          "anhalten",
-          "stoppen",
-          "apturēt"
+          "Аусшальтен",
+          "Задыхаться",
+          "Остановить",
+          "Остановить"
         ],
         "green": [
-          "stellen"
+          "Стеллен"
         ]
       }
     }
@@ -2278,7 +2150,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Angewandt не просто «практичен». Это значит, что что-то применяется на практике.",
-        "example": "angewandte Mathematik = lietišķā matemātika. Diese Methode wird angewandt = šī metode tiek pielietota."
+        "example": "Angewandte Mathematik = прикладная математика. Diese Methode wird angewandt = этот метод применяется."
       },
       "sectionAccents": {
         "examples": [
@@ -2422,10 +2294,6 @@ const A2_WORDS = [
               "blue": [
                 "angewandte",
                 "angewandt"
-              ],
-              "purple": [
-                "lietišķā matemātika",
-                "pielietota"
               ]
             }
           }
@@ -2433,28 +2301,28 @@ const A2_WORDS = [
       },
       "accents": {
         "blue": [
-          "angewandt",
+          "Ангевандт",
           "angewandte",
           "angewandten"
         ],
         "green": [
           "pielietots",
           "pielietota",
-          "pielietot",
+          "Применять",
           "pielietoju"
         ],
         "yellow": [
-          "lietišķs",
-          "Lietišķā",
-          "lietišķajā"
+          "Практичный",
+          "В бизнесе",
+          "В бизнесе"
         ],
         "purple": [
-          "praktisks",
-          "praktisch"
+          "Практичный",
+          "Практически"
         ],
         "red": [
-          "verwenden",
-          "anwenden"
+          "Вервенден",
+          "Анвенден"
         ]
       }
     }
@@ -2528,29 +2396,29 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Ангерифен – это не просто «оскорбление». Обычно это предполагает нападки или очень резкую критику.",
-        "example": "Jemanden angreifen = uzbrukt kādam. Jemanden beleidigen = apvainot kādu."
+        "example": "Jemanden angerifen = нападать на кого-то. Jemanden beleidigen = оскорбить кого-то."
       },
       "accents": {
         "blue": [
-          "angreifen",
+          "Атаковать",
           "greift",
           "angegriffen"
         ],
         "green": [
-          "uzbrukt",
-          "uzbrūk"
+          "Атаковать",
+          "Атаковать"
         ],
         "yellow": [
-          "kritizēt",
+          "Критиковать",
           "Kritik"
         ],
         "red": [
-          "beleidigen",
+          "Белейдиген",
           "apvaino"
         ],
         "purple": [
           "aizskarta",
-          "asi kritizē"
+          "Резко критиковали"
         ]
       },
       "sectionAccents": {
@@ -2589,25 +2457,15 @@ const A2_WORDS = [
           {
             "text": {
               "blue": [
-                "angreifen"
-              ],
-              "purple": [
-                "uzbrukt"
+                "angerifen"
               ]
             },
             "example": {
               "blue": [
-                "angreifen"
+                "angerifen"
               ],
               "red": [
                 "beleidigen"
-              ],
-              "purple": [
-                "uzbrukt",
-                "apvainot"
-              ],
-              "green": [
-                "kādam"
               ]
             }
           }
@@ -2693,7 +2551,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Недостаточно выучить только «трейлер». Это же слово может также относиться к человеку или ювелирному изделию.",
-        "example": "Autoanhänger = piekabe. Anhänger einer Partei = partijas piekritējs. Anhänger an der Kette = kulons."
+        "example": "Autoanhänger = трейлер. Anhänger einer Partei = приверженец партии. Anhänger an der Kette = кулон."
       },
       "accents": {
         "blue": [
@@ -2704,9 +2562,9 @@ const A2_WORDS = [
           "Piekabe"
         ],
         "yellow": [
-          "piekritējs",
-          "piekritēju",
-          "atbalstītāju"
+          "Приверженец",
+          "Я согласился",
+          "Сторонник"
         ],
         "red": [
           "Fan",
@@ -2759,20 +2617,12 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "Anhänger"
-              ],
-              "purple": [
-                "piekabe"
               ]
             },
             "example": {
               "blue": [
                 "Autoanhänger",
                 "Anhänger"
-              ],
-              "purple": [
-                "piekabe",
-                "piekritējs",
-                "kulons"
               ],
               "green": [
                 "Partei",
@@ -2853,28 +2703,28 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Anheizen может быть в прямом или переносном смысле.",
-        "example": "Ofen anheizen = iekurt krāsni. Streit anheizen = saasināt strīdu."
+        "example": "Ofen anheizen = зажечь духовку. Streit anheizen = обострить спор."
       },
       "accents": {
         "blue": [
-          "anheizen",
-          "heizen",
+          "Анхейзен",
+          "Дымка",
           "angeheizt"
         ],
         "green": [
-          "iekurt",
+          "Зажечь",
           "iekuram",
           "iekuru"
         ],
         "yellow": [
-          "uzkurināt",
+          "Подпитывать",
           "uzkurina",
-          "uzkurināja"
+          "Подпитывается"
         ],
         "red": [
-          "saasināt",
-          "saasināja",
-          "verschärfen"
+          "Обострять",
+          "Обостренный",
+          "Вершарфен"
         ],
         "purple": [
           "Ofen",
@@ -2930,15 +2780,9 @@ const A2_WORDS = [
               "blue": [
                 "anheizen"
               ],
-              "purple": [
-                "iekurt",
-                "saasināt"
-              ],
               "yellow": [
                 "Ofen",
-                "krāsni",
-                "Streit",
-                "strīdu"
+                "Streit"
               ]
             }
           }
@@ -3068,7 +2912,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Gurt anlegen = пристегнуть ремень безопасности.",
-        "example": "Geld anlegen = ieguldīt naudu. Konto anlegen = izveidot kontu. Verband anlegen = uzlikt pārsēju."
+        "example": "Geld anlegen = инвестировать деньги. Konto anlegen = создать учетную запись. Verband anlegen = накладывать повязку."
       },
       "sectionAccents": {
         "examples": [
@@ -3223,7 +3067,6 @@ const A2_WORDS = [
               ],
               "red": [
                 "anlegen",
-                "kontu",
                 "Gurt"
               ]
             },
@@ -3231,18 +3074,9 @@ const A2_WORDS = [
               "blue": [
                 "anlegen"
               ],
-              "green": [
-                "uzlikt"
-              ],
-              "yellow": [
-                "ieguldīt"
-              ],
               "red": [
-                "ieguldīt",
-                "izveidot",
                 "anlegen",
                 "Konto",
-                "naudu",
                 "Geld"
               ]
             }
@@ -3251,43 +3085,43 @@ const A2_WORDS = [
       },
       "accents": {
         "blue": [
-          "daudznozīmīgs",
+          "Многогранный",
           "standardStudy",
-          "Apģērbam",
-          "darbības",
-          "drošības",
-          "ieguldīt",
-          "izveidot",
+          "Для одежды",
+          "Действия",
+          "Безопасность",
+          "Инвестировать",
+          "Создать",
           "profilam",
-          "anlegen",
+          "Ангел",
           "Failiem",
-          "nozīmēt",
-          "pielikt",
+          "Иметь в виду",
+          "Прикрепить",
           "jostai",
           "Naudai",
           "uzlikt",
-          "mapēm",
-          "vārds"
+          "Папки",
+          "Слово"
         ],
         "green": [
           "uzlikt",
-          "legen"
+          "Легенда"
         ],
         "yellow": [
-          "investieren",
-          "ieguldīt"
+          "Инвестиции",
+          "Инвестировать"
         ],
         "orange": [
-          "pielikt"
+          "Прикрепить"
         ],
         "purple": [
-          "pielikt • uzlikt • ieguldīt • izveidot",
-          "uzlikt / ieguldīt / izveidot",
-          "nolikt guļus"
+          "Надеть • Навязать • Инвестировать • Создать",
+          "Навязывать/инвестировать/создавать",
+          "Сложить"
         ],
         "red": [
-          "erstellen",
-          "izveidot"
+          "Эрстеллен",
+          "Создать"
         ]
       }
     }
@@ -3373,7 +3207,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Анмельден может быть с сич или без него.",
-        "example": "Ich melde mich an = es piesakos. Ich melde mein Kind an = es reģistrēju bērnu. Ich melde das Problem = es paziņoju par problēmu."
+        "example": "Ich melde mich an = Я подаю заявку. Ich melde mein Kind an = Я зарегистрировал ребенка. Ich melde das Issue = Я сообщаю о проблеме."
       },
       "sectionAccents": {
         "examples": [
@@ -3543,9 +3377,6 @@ const A2_WORDS = [
             "text": {},
             "example": {
               "red": [
-                "reģistrēju",
-                "piesakos",
-                "bērnu",
                 "melde",
                 "Kind",
                 "mich"
@@ -3557,48 +3388,48 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "pasākumiem",
-          "pierakstīt",
-          "reģistrēt",
-          "anmelden",
-          "pieteikt",
-          "sistēmām",
-          "cilvēku",
+          "События",
+          "Записать",
+          "Зарегистрироваться",
+          "Анмельден",
+          "Применять",
+          "Системы",
+          "Люди",
           "kursiem",
-          "nozīmēt",
-          "paziņot",
-          "dalību",
+          "Иметь в виду",
+          "Объявить",
+          "Членство",
           "skolai",
-          "vizīti",
-          "ārsta",
+          "Посещать",
+          "Врач",
           "lieto",
           "lietu"
         ],
         "green": [
-          "sich anmelden",
-          "pieslēgties",
-          "reģistrēt"
+          "Sich anmelden",
+          "Соединить",
+          "Зарегистрироваться"
         ],
         "yellow": [
-          "registrieren",
-          "pierakstīt"
+          "Зарегистрироваться",
+          "Записать"
         ],
         "orange": [
-          "pieteikties",
-          "pieteikt",
-          "ziņot"
+          "Применять",
+          "Применять",
+          "Сообщить"
         ],
         "purple": [
-          "pieteikt • reģistrēt • pierakstīt • paziņot",
-          "pieteikt / reģistrēt / pierakstīt",
-          "pieteikties / pieslēgties",
-          "ziņot / paziņot",
-          "rezervēt",
-          "melden"
+          "Подать заявку • Зарегистрироваться • Записать • Уведомить",
+          "Подать заявку/зарегистрироваться/записать",
+          "Применить / подключить",
+          "Сообщить / уведомить",
+          "Забронировать",
+          "Отчет"
         ],
         "red": [
-          "paziņot",
-          "buchen"
+          "Объявить",
+          "Бухен"
         ]
       }
     }
@@ -3701,7 +3532,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Jemanden anstecken = заразить кого-то.",
-        "example": "sich anstecken = inficēties. eine Brosche anstecken = piespraust brošu. eine Kerze anstecken = aizdedzināt sveci."
+        "example": "Sich anstecken = заразиться. eine Brosche anstecken = приколоть брошь. eine Kerze anstecken = зажечь свечу."
       },
       "sectionAccents": {
         "examples": [
@@ -3853,35 +3684,19 @@ const A2_WORDS = [
               "blue": [
                 "anstecken"
               ],
-              "yellow": [
-                "inficēt"
-              ],
               "red": [
                 "anstecken",
-                "jemanden",
-                "inficēt"
+                "jemanden"
               ]
             },
             "example": {
               "blue": [
                 "anstecken"
               ],
-              "green": [
-                "aizdedzināt"
-              ],
-              "orange": [
-                "piespraust"
-              ],
-              "purple": [
-                "inficēties"
-              ],
               "red": [
                 "sich anstecken",
-                "inficēties",
-                "piespraust",
                 "anstecken",
-                "Brosche",
-                "brošu"
+                "Brosche"
               ]
             }
           }
@@ -3890,43 +3705,43 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "aizdedzināt",
-          "atšķirīgas",
-          "inficēties",
-          "piespraust",
-          "anstecken",
+          "Поджечь",
+          "Другой",
+          "Заразиться",
+          "Прикрепить",
+          "Instecken",
           "cigareti",
-          "Medicīnā",
-          "vairākas",
-          "apģērba",
-          "diezgan",
-          "inficēt",
-          "nozīmēt",
-          "vārdam",
+          "В медицине",
+          "Несколько",
+          "Одежда",
+          "Довольно",
+          "Заразить",
+          "Иметь в виду",
+          "За слово",
           "sveci",
-          "kādu"
+          "Кто-то"
         ],
         "green": [
-          "aizdedzināt",
-          "atrasties",
-          "stecken"
+          "Поджечь",
+          "Быть расположенным",
+          "Палка"
         ],
         "yellow": [
-          "anzünden",
-          "inficēt"
+          "Зажечь",
+          "Заразить"
         ],
         "orange": [
-          "piespraust",
-          "bāzt"
+          "Прикрепить",
+          "Тыкать"
         ],
         "purple": [
-          "piespraust / aizdedzināt / inficēt",
-          "piespraust • aizdedzināt • inficēt",
-          "bāzt / atrasties",
-          "inficēties"
+          "Приколоть / зажечь / заразить",
+          "Булавка • Зажечь • Заразить",
+          "Тыкать / быть",
+          "Заразиться"
         ],
         "red": [
-          "sich anstecken"
+          "Заразиться"
         ]
       }
     }
@@ -4005,7 +3820,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Jemanden anstellen = нанять кого-нибудь.",
-        "example": "sich anstellen = nostāties rindā. etwas anstellen = kaut ko sadarīt. Stell dich nicht so an! = Netaisi tādu problēmu!"
+        "example": "Sich anstellen = стоять в очереди. etwas anstellen = делать что-то. Stell dich nicht so an! = Не создавайте таких проблем!"
       },
       "sectionAccents": {
         "examples": [
@@ -4163,25 +3978,17 @@ const A2_WORDS = [
               ],
               "red": [
                 "anstellen",
-                "jemanden",
-                "tādu"
+                "jemanden"
               ]
             },
             "example": {
               "blue": [
                 "anstellen"
               ],
-              "yellow": [
-                "nostāties rindā",
-                "sadarīt"
-              ],
               "red": [
                 "sich anstellen",
                 "anstellen",
-                "nostāties",
-                "sadarīt",
-                "etwas",
-                "rindā"
+                "etwas"
               ]
             }
           }
@@ -4189,44 +3996,44 @@ const A2_WORDS = [
       },
       "accents": {
         "blue": [
-          "daudznozīmīgs",
+          "Многогранный",
           "standardStudy",
-          "Sarunvalodā",
-          "anstellen",
-          "nostāties",
-          "darbības",
-          "cilvēku",
-          "ieslēgt",
-          "sadarīt",
-          "nozīmēt",
-          "pieņemt",
+          "Разговорный",
+          "Нанимать",
+          "Вставать",
+          "Действия",
+          "Люди",
+          "Включать",
+          "Сделать",
+          "Иметь в виду",
+          "Принимать",
           "apkuri",
-          "ierīci",
-          "darbā",
-          "rindā",
-          "vārds"
+          "Устройство",
+          "На работе",
+          "В соответствии",
+          "Слово"
         ],
         "green": [
-          "pieņemt darbā",
-          "einstellen",
-          "iestatīt"
+          "Нанимать",
+          "Эйнстеллен",
+          "Установить"
         ],
         "yellow": [
-          "nostāties rindā",
-          "anschalten",
-          "sadarīt"
+          "Стоять в очереди",
+          "Аншлантен",
+          "Сделать"
         ],
         "orange": [
-          "ieslēgt"
+          "Включать"
         ],
         "purple": [
-          "ieslēgt • pieņemt darbā • nostāties rindā • sadarīt",
-          "pieņemt darbā / ieslēgt / sadarīt",
-          "pieņemt darbā / iestatīt"
+          "Включить • Нанять • Выстроить в очередь • Сделать",
+          "Нанять/включить/сделать",
+          "Нанять/назначить"
         ],
         "red": [
-          "sich anstellen",
-          "sadarīt"
+          "Sich anstellen",
+          "Сделать"
         ]
       }
     }
@@ -4438,7 +4245,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Основное значение – «путь».",
-        "example": "suga un paveids ir atkarīgi no konteksta. Šai A2 kartītei nav vajadzīga papildu retā nozīme."
+        "example": "Виды и виды зависят от контекста. Эта карта А2 не требует особой редкости."
       },
       "sectionAccents": {
         "examples": [
@@ -4571,68 +4378,48 @@ const A2_WORDS = [
         },
         "important": [
           {
-            "text": {
-              "purple": [
-                "veids"
-              ],
-              "red": [
-                "nozīme",
-                "veids"
-              ]
-            },
-            "example": {
-              "purple": [
-                "suga"
-              ],
-              "red": [
-                "konteksta",
-                "vajadzīga",
-                "atkarīgi",
-                "kartītei",
-                "paveids",
-                "suga"
-              ]
-            }
+            "text": {},
+            "example": {}
           }
         ]
       },
       "accents": {
         "blue": [
           "standardStudy",
-          "risinājums",
-          "dzēriens",
+          "Решение",
+          "Напиток",
           "die Art",
           "andere",
-          "domāts",
-          "frāzēs",
-          "jautāt",
+          "Намеревался",
+          "В фразах",
+          "Спросить",
           "welche",
-          "bieži",
-          "darbs",
+          "Часто",
+          "Работа",
           "diese",
-          "lieta",
+          "Вещь",
           "lieto",
           "veida",
           "Veids",
-          "kāda",
+          "Что",
           "Art"
         ],
         "green": [
-          "cilvēka tips",
-          "paņēmiens"
+          "Тип человека",
+          "Техника"
         ],
         "yellow": [
           "der Typ",
           "Typ"
         ],
         "orange": [
-          "tips"
+          "Тип"
         ],
         "purple": [
-          "tips / cilvēka tips",
-          "veids / paņēmiens",
+          "Тип / тип человека",
+          "Тип/техника",
           "die Weise",
-          "šķirne",
+          "Порода",
           "Veids",
           "Weise",
           "suga"
@@ -4945,50 +4732,50 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "der Artikel",
-          "Gramatikā",
-          "internetā",
-          "Juridiskā",
+          "Дер Артикель",
+          "В грамматике",
+          "В Интернете",
+          "Юридический",
           "artikuls",
           "artikulu",
-          "piemēram",
+          "Например",
           "Artikel",
-          "nozīmēt",
-          "Veikalā",
-          "žurnālā",
-          "raksts",
+          "Иметь в виду",
+          "В магазине",
+          "В журнале",
+          "Статья",
           "rakstu",
-          "avīzē",
-          "pants",
-          "prece",
+          "В газете",
+          "Статья",
+          "Элемент",
           "preci"
         ],
         "green": [
-          "der Zeitungsartikel",
+          "Дер Zeitungsartikel",
           "Zeitungsartikel",
-          "prece"
+          "Элемент"
         ],
         "yellow": [
           "artikuls",
-          "die Ware",
+          "Умереть изделия",
           "Ware"
         ],
         "orange": [
-          "paragrāfs",
-          "raksts"
+          "Абзац",
+          "Статья"
         ],
         "purple": [
           "raksts • prece • artikuls • pants",
-          "noteiktais artikuls",
-          "paragrāfs / pants",
-          "avīzes raksts",
-          "der Paragraph",
+          "Определенный артикль",
+          "Абзац/статья",
+          "Газетная статья",
+          "Дер Абзац",
           "Paragraph"
         ],
         "red": [
-          "der bestimmte Artikel",
+          "Лучшая статья",
           "bestimmte Artikel",
-          "pants"
+          "Статья"
         ]
       }
     }
@@ -5019,7 +4806,7 @@ const A2_WORDS = [
       "accent": "blue",
       "variants": [
         {
-          "article": "das",
+          "article": "Дас",
           "de": "Aschenputtel"
         }
       ]
@@ -5226,7 +5013,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Aufheben — одно из тех слов, которые имеют совершенно разные значения.",
-        "example": "Schlüssel aufheben = pacelt atslēgu. Verbot aufheben = atcelt aizliegumu. Rechnung aufheben = saglabāt rēķinu."
+        "example": "Schlüssel aufheben = поднимите ключ. Verbot aufheben = снять запрет. Rechnung aufheben = сохранить счет."
       },
       "sectionAccents": {
         "examples": [
@@ -5383,21 +5170,9 @@ const A2_WORDS = [
               "blue": [
                 "aufheben"
               ],
-              "green": [
-                "atcelt"
-              ],
-              "yellow": [
-                "saglabāt"
-              ],
-              "orange": [
-                "pacelt"
-              ],
               "red": [
                 "Schlüssel",
                 "aufheben",
-                "atslēgu",
-                "atcelt",
-                "pacelt",
                 "Verbot"
               ]
             }
@@ -5408,42 +5183,42 @@ const A2_WORDS = [
         "blue": [
           "standardStudy",
           "aizliegumu",
-          "atšķirīgas",
+          "Другой",
           "noteikumu",
-          "aufheben",
-          "jāskatās",
-          "saglabāt",
-          "nozīmes",
-          "nozīmēt",
-          "vēlākam",
-          "atcelt",
-          "laikam",
-          "lēmumu",
-          "pacelt",
-          "tāpēc",
-          "vārds",
+          "Ауфгебен",
+          "Надо видеть",
+          "Сохранять",
+          "Значения",
+          "Иметь в виду",
+          "На потом",
+          "Отмена",
+          "Вероятно",
+          "Решение",
+          "Поднять",
+          "Поэтому",
+          "Слово",
           "zemes"
         ],
         "green": [
-          "atcelt",
-          "heben"
+          "Отмена",
+          "Хебен"
         ],
         "yellow": [
-          "saglabāt",
-          "absagen"
+          "Сохранять",
+          "Абсаген"
         ],
         "orange": [
-          "pacelt"
+          "Поднять"
         ],
         "purple": [
-          "pacelt / atcelt / saglabāt",
-          "pacelt • atcelt • saglabāt",
-          "atcelt pasākumu",
-          "paturēt",
-          "celt"
+          "Поднять/отменить/сохранить",
+          "Поднять • Отменить • Сохранить",
+          "Отменить мероприятие",
+          "Держать",
+          "Поднять"
         ],
         "red": [
-          "behalten"
+          "Отстраненный"
         ]
       }
     }
@@ -5559,24 +5334,24 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Die Auflage – это не просто «издание». На официальном языке это может быть требованием, которое необходимо выполнить.",
-        "example": "hohe Auflage = liela tirāža. zweite Auflage = otrais izdevums. mit Auflagen = ar nosacījumiem."
+        "example": "Хохе Auflage = большой тираж. zweite Auflage = второе издание. mit Auflagen = с условиями."
       },
       "accents": {
         "blue": [
           "Auflage"
         ],
         "green": [
-          "Tirāža",
-          "tirāža"
+          "Тираж",
+          "Обращение"
         ],
         "yellow": [
           "Izdevums",
           "izdevums",
-          "izdevumā"
+          "В издании"
         ],
         "red": [
-          "Nosacījums",
-          "nosacījumu"
+          "Состояние",
+          "Состояние"
         ],
         "purple": [
           "Ausgabe",
@@ -5625,20 +5400,12 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "Auflage"
-              ],
-              "red": [
-                "izdevums"
               ]
             },
             "example": {
               "blue": [
                 "Auflage",
                 "Auflagen"
-              ],
-              "purple": [
-                "tirāža",
-                "izdevums",
-                "nosacījumiem"
               ]
             }
           }
@@ -5744,24 +5511,24 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Die Aufnahme – это не просто «фотография». Это также может быть запись, фотография или процесс записи.",
-        "example": "Fotoaufnahme = fotoattēls. Tonaufnahme = skaņas ieraksts. Aufnahme ins Krankenhaus = uzņemšana slimnīcā."
+        "example": "Fotoaufnahme = фотография. Тонауфнаме = звукозапись. Aufnahme ins Krankenhaus = Госпитализация."
       },
       "accents": {
         "blue": [
           "Aufnahme"
         ],
         "green": [
-          "Uzņemšana",
-          "uzņemšanu"
+          "Допуск",
+          "Допуск"
         ],
         "yellow": [
           "Ieraksts",
           "ierakstu",
-          "ieraksts"
+          "Записывать"
         ],
         "purple": [
-          "Fotoattēls",
-          "fotoattēls",
+          "Фото",
+          "Фото",
           "Foto"
         ],
         "red": [
@@ -5809,26 +5576,16 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "Aufnahme"
-              ],
-              "purple": [
-                "ieraksts",
-                "fotoattēls"
               ]
             },
             "example": {
               "blue": [
                 "Fotoaufnahme",
-                "Tonaufnahme",
+                "Aufnahme",
                 "Aufnahme"
               ],
-              "purple": [
-                "fotoattēls",
-                "ieraksts",
-                "uzņemšana"
-              ],
               "green": [
-                "Krankenhaus",
-                "slimnīcā"
+                "Krankenhaus"
               ]
             }
           }
@@ -5905,7 +5662,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Ein Video aufnehmen = записать видео.",
-        "example": "jemanden aufnehmen = uzņemt kādu. die Arbeit aufnehmen = sākt / atsākt darbu. aufnehmen nav vienkārši nehmen."
+        "example": "Jemanden aufnehmen = принять кого-нибудь. die Arbeit aufnehmen = начать/возобновить работу. aufnehmen – это не просто nehmen."
       },
       "sectionAccents": {
         "examples": [
@@ -6074,16 +5831,10 @@ const A2_WORDS = [
               "green": [
                 "nehmen"
               ],
-              "orange": [
-                "uzņemt"
-              ],
               "red": [
                 "aufnehmen",
                 "jemanden",
-                "Arbeit",
-                "uzņemt",
-                "kādu",
-                "sākt"
+                "Arbeit"
               ]
             }
           }
@@ -6092,42 +5843,42 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "aufnehmen",
-          "ierakstīt",
+          "Ауфнемен",
+          "Записывать",
           "kontaktu",
-          "slimnīcā",
-          "cilvēku",
-          "nozīmēt",
-          "pieņemt",
-          "uzņemt",
+          "В больнице",
+          "Люди",
+          "Иметь в виду",
+          "Принимать",
+          "Признать",
           "darbu",
-          "grupā",
-          "skaņu",
-          "skolā",
-          "video",
+          "В группе",
+          "Звук",
+          "В школе",
+          "Видео",
           "foto",
-          "sākt",
-          "sevī"
+          "Начать",
+          "В себе"
         ],
         "green": [
-          "ierakstīt",
-          "nehmen"
+          "Записывать",
+          "Брать"
         ],
         "yellow": [
-          "annehmen",
-          "pieņemt"
+          "Принимать",
+          "Принимать"
         ],
         "orange": [
-          "uzņemt"
+          "Признать"
         ],
         "purple": [
-          "uzņemt • ierakstīt • pieņemt • sākt",
-          "uzņemt / ierakstīt / pieņemt",
-          "ņemt"
+          "Признать • Записать • Принять • Начать",
+          "Записать/записать/принять",
+          "Взять"
         ],
         "red": [
-          "beginnen",
-          "sākt"
+          "Начинать",
+          "Начать"
         ]
       }
     }
@@ -6225,7 +5976,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Ауфрихтиг и эрлих — это не одно и то же.",
-        "example": "aufrichtige Entschuldigung = patiesa atvainošanās. Er ist ehrlich = viņš ir godīgs."
+        "example": "Aufrichtige Entschuldigung = искреннее извинение. Er ist ehrlich = он честен."
       },
       "sectionAccents": {
         "examples": [
@@ -6365,10 +6116,6 @@ const A2_WORDS = [
               ],
               "red": [
                 "ehrlich"
-              ],
-              "purple": [
-                "patiesa atvainošanās",
-                "godīgs"
               ]
             }
           }
@@ -6376,31 +6123,31 @@ const A2_WORDS = [
       },
       "accents": {
         "blue": [
-          "aufrichtig",
+          "Ауфрихтиг",
           "aufrichtige",
           "aufrichtiges",
           "aufrichtigen"
         ],
         "green": [
-          "patiess",
+          "Истинный",
           "patiesa",
           "patiesi",
           "patiesajiem"
         ],
         "yellow": [
-          "sirsnīgs",
-          "sirsnīgu",
-          "Sirsnīgi"
+          "Искренний",
+          "Искренний",
+          "Искренне"
         ],
         "red": [
-          "ehrlich",
-          "godīgs"
+          "Эрлих",
+          "Честный"
         ],
         "purple": [
-          "offen",
-          "atklāts",
-          "atklāti",
-          "herzlich"
+          "Открыть",
+          "Обнаруженный",
+          "Открыто",
+          "Герцлих"
         ]
       }
     }
@@ -6474,25 +6221,25 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Auspending меняет значение после объекта.",
-        "example": "Namen aufrufen = izsaukt vārdu. Webseite aufrufen = atvērt lapu. zu Hilfe aufrufen = aicināt palīdzēt."
+        "example": "Namen auspehen = произнести имя. Webseite aufrehen = открыть страницу. zu Hilfe aufrehen = звать на помощь."
       },
       "accents": {
         "blue": [
-          "aufrufen",
+          "Позвонить",
           "ruft",
-          "rufen"
+          "Руфен"
         ],
         "green": [
           "Izsaukt",
           "izsauc"
         ],
         "yellow": [
-          "Atvērt",
-          "atvērt",
+          "Открыть",
+          "Открыть",
           "atveriet"
         ],
         "red": [
-          "Aicināt",
+          "Приглашать",
           "aicina"
         ],
         "purple": [
@@ -6541,17 +6288,12 @@ const A2_WORDS = [
           {
             "text": {
               "blue": [
-                "aufrufen"
+                "aufrehen"
               ]
             },
             "example": {
               "blue": [
-                "aufrufen"
-              ],
-              "purple": [
-                "izsaukt",
-                "atvērt",
-                "aicināt"
+                "aufrehen"
               ],
               "green": [
                 "Namen",
@@ -6667,7 +6409,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Auftragen меняет значение в зависимости от объекта.",
-        "example": "Aufgabe auftragen = uzdot uzdevumu. Farbe auftragen = uzklāt krāsu. Essen auftragen = pasniegt ēdienu."
+        "example": "Aufgabe auftragen = назначить задачу. Farbe auftragen = нанести краску. Essen auftragen = подавать еду."
       },
       "sectionAccents": {
         "examples": [
@@ -6832,25 +6574,10 @@ const A2_WORDS = [
               "blue": [
                 "auftragen"
               ],
-              "green": [
-                "uzklāt"
-              ],
-              "yellow": [
-                "pasniegt"
-              ],
-              "orange": [
-                "uzdot"
-              ],
-              "purple": [
-                "pasniegt ēdienu"
-              ],
               "red": [
                 "auftragen",
-                "uzdevumu",
                 "Aufgabe",
-                "uzklāt",
-                "Farbe",
-                "uzdot"
+                "Farbe"
               ]
             }
           }
@@ -6859,43 +6586,43 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "auftragen",
-          "darbības",
+          "Аутраген",
+          "Действия",
           "pasniegt",
-          "svarīgām",
+          "Важные",
           "uzdevumu",
-          "vairākām",
-          "nozīmēm",
-          "nozīmēt",
+          "Нескольким",
+          "Значения",
+          "Иметь в виду",
           "virsmas",
-          "uzklāt",
+          "Применять",
           "darbu",
-          "krāsu",
-          "krēmu",
-          "uzdot",
-          "vārds",
-          "līmi"
+          "Цвет",
+          "Крем",
+          "Спросить",
+          "Слово",
+          "Клей"
         ],
         "green": [
-          "uzklāt",
-          "geben"
+          "Применять",
+          "Давать"
         ],
         "yellow": [
-          "anstreichen",
+          "Краска",
           "pasniegt"
         ],
         "orange": [
-          "uzdot"
+          "Спросить"
         ],
         "purple": [
-          "uzdot / uzklāt / pasniegt",
-          "uzdot • uzklāt • pasniegt",
-          "pasniegt ēdienu",
-          "krāsot virsmu",
-          "dot"
+          "Спросить/подать заявку/представить",
+          "Спросить • Подать заявку • Подать",
+          "Подавать еду",
+          "Покрасить поверхность",
+          "Дать"
         ],
         "red": [
-          "servieren"
+          "Сервер"
         ]
       }
     }
@@ -6969,7 +6696,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Проблема тритт ауф и Кюнстлер тритт ауф не означают одно и то же.",
-        "example": "Das Problem tritt auf = problēma parādās. Die Künstlerin tritt auf = māksliniece uzstājas."
+        "example": "Das Проблема tritt auf = проблема появляется. Die Künstlerin tritt auf = артист выступает."
       },
       "sectionAccents": {
         "examples": [
@@ -7118,17 +6845,12 @@ const A2_WORDS = [
             "text": {
               "red": [
                 "Künstler",
-                "Problem",
                 "tritt"
               ]
             },
             "example": {
               "red": [
-                "māksliniece",
                 "Künstlerin",
-                "problēma",
-                "parādās",
-                "Problem",
                 "tritt"
               ]
             }
@@ -7138,45 +6860,45 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "izturēties",
-          "parādīties",
-          "auftreten",
-          "kontekstā",
-          "uzstāties",
-          "uzvedības",
-          "noteiktā",
-          "problēma",
-          "simptoms",
+          "Вести себя",
+          "Появляться",
+          "Появляться",
+          "В контексте",
+          "Выполнять",
+          "Поведение",
+          "Указанный",
+          "Проблема",
+          "Симптом",
           "skatuves",
-          "Cilvēka",
-          "nozīmēt",
-          "rasties",
-          "kļūda",
+          "Человек",
+          "Иметь в виду",
+          "Происходить",
+          "Ошибка",
           "lieto",
           "rodas"
         ],
         "green": [
-          "uzstāties lomā",
-          "erscheinen",
-          "ierasties",
-          "uzstāties"
+          "Выполнять роль",
+          "Появляться",
+          "Прибыть",
+          "Выполнять"
         ],
         "yellow": [
-          "izturēties",
-          "spielen"
+          "Вести себя",
+          "Шпилен"
         ],
         "orange": [
-          "parādīties",
-          "spēlēt"
+          "Появляться",
+          "Играть"
         ],
         "purple": [
-          "parādīties • uzstāties • izturēties",
-          "spēlēt / uzstāties lomā",
-          "parādīties / ierasties",
-          "parādīties / uzstāties"
+          "Появляться • Выполнять • Вести себя",
+          "Играть/исполнять роль",
+          "Появиться/приехать",
+          "Появиться/выступить"
         ],
         "red": [
-          "sich verhalten"
+          "Sich verhalten"
         ]
       }
     }
@@ -7255,7 +6977,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Aufwenden подчеркивает вложенные усилия или ресурсы, а не просто затраченные.",
-        "example": "viel Zeit aufwenden = veltīt daudz laika. Geld ausgeben = iztērēt naudu."
+        "example": "Viel Zeit aufwenden = проводить много времени. Geld ausgeben = тратить деньги."
       },
       "sectionAccents": {
         "examples": [
@@ -7398,15 +7120,9 @@ const A2_WORDS = [
               "red": [
                 "ausgeben"
               ],
-              "purple": [
-                "veltīt",
-                "iztērēt"
-              ],
               "yellow": [
                 "Zeit",
-                "Geld",
-                "laika",
-                "naudu"
+                "Geld"
               ]
             }
           }
@@ -7414,32 +7130,32 @@ const A2_WORDS = [
       },
       "accents": {
         "blue": [
-          "aufwenden",
+          "Аувенден",
           "aufgewendet",
           "wendet"
         ],
         "green": [
-          "veltīt",
+          "Посвящать",
           "velta",
-          "veltīji",
-          "jāvelta"
+          "Потраченный",
+          "Должен быть посвящен"
         ],
         "yellow": [
-          "ieguldīt",
-          "ieguldīja",
-          "jāiegulda",
-          "ieguldām"
+          "Инвестировать",
+          "Вложено",
+          "Должно быть инвестировано",
+          "Мы инвестируем"
         ],
         "red": [
-          "ausgeben",
-          "iztērēt",
-          "iztērēju"
+          "Аусгебен",
+          "Тратить",
+          "Потраченный"
         ],
         "purple": [
-          "verbringen",
-          "pavadīt",
-          "investieren",
-          "patērēt"
+          "Тратить",
+          "Сопровождать",
+          "Инвестиции",
+          "Потреблять"
         ]
       }
     }
@@ -7513,31 +7229,31 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Aufzeichnen – это не обычная карта «вытягивания».",
-        "example": "ein Video aufzeichnen = ierakstīt video. etwas notieren = pierakstīt. ein Bild zeichnen = zīmēt attēlu."
+        "example": "Ein Video aufzeichnen = записать видео. etwas notieren = запишите. ein Bild zeichnen = нарисовать картинку."
       },
       "accents": {
         "blue": [
-          "aufzeichnen",
+          "Aufzeichnen",
           "zeichnet",
-          "zeichnen"
+          "Цейхнен"
         ],
         "green": [
-          "ierakstīt",
-          "ierakstām",
+          "Записывать",
+          "Мы записываем",
           "ieraksta"
         ],
         "yellow": [
-          "pierakstīt",
+          "Записать",
           "pieraksta",
           "pierakstiet"
         ],
         "red": [
-          "zeichnen",
-          "zīmēt"
+          "Цейхнен",
+          "Рисовать"
         ],
         "purple": [
-          "notieren",
-          "aufnehmen"
+          "Нотьерен",
+          "Ауфнемен"
         ]
       },
       "sectionAccents": {
@@ -7576,9 +7292,6 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "aufzeichnen"
-              ],
-              "red": [
-                "zīmēt"
               ]
             },
             "example": {
@@ -7588,14 +7301,8 @@ const A2_WORDS = [
               "red": [
                 "zeichnen"
               ],
-              "purple": [
-                "ierakstīt",
-                "pierakstīt",
-                "zīmēt"
-              ],
               "yellow": [
-                "Video",
-                "attēlu"
+                "Video"
               ]
             }
           }
@@ -7715,7 +7422,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Противоположностью аусштайгена в транспорте является эйнштайген.",
-        "example": "in den Bus einsteigen = iekāpt autobusā. aus dem Bus aussteigen = izkāpt no autobusa."
+        "example": "In den Bus einsteigen = сесть в автобус. aus dem Bus aussteigen = выйти из автобуса."
       },
       "sectionAccents": {
         "examples": [
@@ -7872,17 +7579,9 @@ const A2_WORDS = [
               "green": [
                 "einsteigen"
               ],
-              "orange": [
-                "iekāpt",
-                "izkāpt"
-              ],
               "red": [
                 "aussteigen",
-                "einsteigen",
-                "autobusa",
-                "autobusā",
-                "iekāpt",
-                "izkāpt"
+                "einsteigen"
               ]
             }
           }
@@ -7890,45 +7589,45 @@ const A2_WORDS = [
       },
       "accents": {
         "blue": [
-          "transportlīdzekļa",
+          "Транспортного средства",
           "standardStudy",
-          "aussteigen",
-          "līdzdalību",
-          "izstāties",
-          "pārtraukt",
+          "Аусштайген",
+          "Участие",
+          "Покидать",
+          "Остановить",
           "autobusu",
-          "jāskatās",
-          "Pārnestā",
+          "Надо видеть",
+          "Перенесено",
           "projekta",
           "tramvaju",
           "vilcienu",
-          "nozīmēt",
-          "izkāpt",
-          "Bieži",
+          "Иметь в виду",
+          "Отправиться",
+          "Часто",
           "lieto",
           "auto"
         ],
         "green": [
-          "iesaistīties",
-          "einsteigen",
-          "izstāties"
+          "Принять участие",
+          "Эйнштайген",
+          "Покидать"
         ],
         "yellow": [
-          "umsteigen"
+          "Умштайген"
         ],
         "orange": [
-          "iekāpt",
-          "izkāpt"
+          "Залезай",
+          "Отправиться"
         ],
         "purple": [
-          "iekāpt / iesaistīties",
-          "izkāpt / izstāties",
-          "izkāpt • izstāties",
-          "pārsēsties",
-          "atstāt"
+          "Вмешаться / принять участие",
+          "Выйти / уйти",
+          "Выйти • Выйти",
+          "Пересесть",
+          "Уйти"
         ],
         "red": [
-          "verlassen"
+          "Верлассен"
         ]
       }
     }
@@ -8036,7 +7735,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Auschällen обычно означает выбор из предложенных вариантов.",
-        "example": "ein Foto auswählen = atlasīt foto. eine Partei wählen = balsot par partiju. sich entscheiden = izlemt."
+        "example": "Ein Foto auschällen = выберите фотографию. eine Partei wählen = голосовать за партию. sich entscheiden = решать."
       },
       "sectionAccents": {
         "examples": [
@@ -8200,29 +7899,22 @@ const A2_WORDS = [
           {
             "text": {
               "blue": [
-                "auswählen"
+                "Auschällen"
               ],
               "red": [
-                "auswählen"
+                "Auschällen"
               ]
             },
             "example": {
               "blue": [
-                "auswählen"
+                "Auschällen"
               ],
               "green": [
-                "atlasīt",
-                "balsot",
                 "wählen"
-              ],
-              "purple": [
-                "izlemt"
               ],
               "red": [
                 "entscheiden",
-                "auswählen",
-                "atlasīt",
-                "balsot",
+                "Auschällen",
                 "Partei",
                 "wählen",
                 "Foto"
@@ -8234,47 +7926,47 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "izraudzīties",
-          "piemērotāko",
-          "izvēlēties",
-          "auswählen",
-          "kandidātu",
+          "Выбирать",
+          "Самый подходящий",
+          "Выбирать",
+          "Выбирать",
+          "Кандидат",
           "sarakstos",
-          "apzināti",
-          "iespējām",
-          "izvēlnēs",
-          "vairākām",
+          "Умышленно",
+          "Возможности",
+          "В меню",
+          "Нескольким",
           "variantu",
-          "anketās",
-          "atlasīt",
-          "atlasē",
-          "bieži",
+          "В анкетах",
+          "Выбрать",
+          "В выборе",
+          "Часто",
           "lieto"
         ],
         "green": [
-          "atlasīt",
-          "balsot",
-          "wählen"
+          "Выбрать",
+          "Голосовать",
+          "Велен"
         ],
         "yellow": [
-          "izraudzīties",
-          "aussuchen"
+          "Выбирать",
+          "Ауссухен"
         ],
         "orange": [
-          "izvēlēties",
-          "izmeklēt"
+          "Выбирать",
+          "Расследовать"
         ],
         "purple": [
-          "izvēlēties • atlasīt • izraudzīties",
-          "izmeklēt / izvēlēties",
-          "izvēlēties / atlasīt",
-          "izvēlēties / balsot",
-          "markieren",
-          "atzīmēt",
-          "izlemt"
+          "Выбрать • Выбрать • Выбрать",
+          "Исследовать/выбрать",
+          "Выбрать / выбрать",
+          "Выбирать/голосовать",
+          "Маркиерен",
+          "Отмечать",
+          "Решать"
         ],
         "red": [
-          "entscheiden"
+          "Эншайден"
         ]
       }
     }
@@ -8365,7 +8057,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Ausziehen и umziehen — это не одно и то же.",
-        "example": "ausziehen = izvākties ārā. umziehen = pārcelties uz citu vietu vai pārģērbties."
+        "example": "Ausziehen = выйти. umziehen = переехать в другое место или переодеться."
       },
       "sectionAccents": {
         "examples": [
@@ -8522,28 +8214,19 @@ const A2_WORDS = [
               ],
               "red": [
                 "ausziehen",
-                "umziehen",
-                "vietu"
+                "umziehen"
               ]
             },
             "example": {
               "blue": [
                 "ausziehen"
               ],
-              "green": [
-                "pārģērbties",
-                "izvākties"
-              ],
               "yellow": [
                 "umziehen"
               ],
               "red": [
-                "pārcelties",
                 "ausziehen",
-                "izvākties",
-                "umziehen",
-                "vietu",
-                "citu"
+                "umziehen"
               ]
             }
           }
@@ -8552,41 +8235,41 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "ausziehen",
-          "izvākties",
-          "dzīvokli",
-          "vairākām",
-          "apģērbu",
-          "novilkt",
-          "nozīmēm",
+          "Аусцихен",
+          "Съезжать",
+          "Квартира",
+          "Нескольким",
+          "Одежда",
+          "Снять",
+          "Значения",
           "nosaka",
-          "Nozīmi",
-          "biežs",
-          "vārds",
-          "māju"
+          "Значение",
+          "Частый",
+          "Слово",
+          "Дом"
         ],
         "green": [
-          "pārģērbties",
-          "izvākties",
-          "anziehen"
+          "Переодеться",
+          "Съезжать",
+          "Анзиен"
         ],
         "yellow": [
-          "umziehen",
+          "Умзихен",
           "izvilkt"
         ],
         "orange": [
-          "pārvākties",
-          "novilkt"
+          "Двигаться",
+          "Снять"
         ],
         "purple": [
-          "novilkt • izvākties",
-          "pārvākties / pārģērbties",
-          "novilkt / izvākties",
-          "izģērbties",
-          "uzvilkt"
+          "Снять • Выйти",
+          "Переехать/переодеться",
+          "Снять/выехать",
+          "Раздеваться",
+          "Надевать"
         ],
         "red": [
-          "sich ausziehen"
+          "Sich ausziehen"
         ]
       }
     }
@@ -8781,7 +8464,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Die Bahn не просто такой же, как в Цуге. die Bahn часто обозначает систему или вид транспорта, а der Zug — конкретный поезд.",
-        "example": "mit der Bahn fahren = braukt ar vilcienu. der Zug = konkrētais vilciens. die Straßenbahn = tramvajs."
+        "example": "Mit der Bahn fahren = ехать на поезде. der Zug = конкретный поезд. die Straßenbahn = трамвай."
       },
       "sectionAccents": {
         "examples": [
@@ -8913,9 +8596,6 @@ const A2_WORDS = [
               ],
               "green": [
                 "der Zug"
-              ],
-              "purple": [
-                "konkrētais vilciens"
               ]
             },
             "example": {
@@ -8927,11 +8607,6 @@ const A2_WORDS = [
               ],
               "orange": [
                 "die Straßenbahn"
-              ],
-              "purple": [
-                "braukt ar vilcienu",
-                "konkrētais vilciens",
-                "tramvajs"
               ]
             }
           }
@@ -8939,17 +8614,17 @@ const A2_WORDS = [
       },
       "accents": {
         "blue": [
-          "die Bahn",
+          "Умереть на железной дороге",
           "Bahn",
           "mit der Bahn fahren"
         ],
         "green": [
-          "der Zug",
+          "Цуг подходит",
           "Zug"
         ],
         "orange": [
           "Straßenbahn",
-          "die Straßenbahn"
+          "Штрассенбан"
         ],
         "yellow": [
           "Bahnhof"
@@ -8958,15 +8633,15 @@ const A2_WORDS = [
           "Gleis"
         ],
         "purple": [
-          "dzelzceļš",
-          "vilciens",
+          "Железная дорога",
+          "Поезд",
           "Vilciens",
           "braukt ar vilcienu",
-          "konkrēts vilciens",
-          "tramvajs",
-          "dzelzceļa stacija",
-          "perons",
-          "sliežu ceļš"
+          "Конкретный поезд",
+          "Трамвай",
+          "Железнодорожная станция",
+          "Платформа",
+          "Отслеживать"
         ]
       }
     }
@@ -9055,7 +8730,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Das Band и die Band — это не одно и то же.",
-        "example": "das Band = lente / saite. die Band = mūzikas grupa."
+        "example": "Das Band = группа/ссылка. die Band = музыкальная группа."
       },
       "sectionAccents": {
         "examples": [
@@ -9214,21 +8889,8 @@ const A2_WORDS = [
                 "das Band",
                 "Band"
               ],
-              "green": [
-                "saite"
-              ],
-              "orange": [
-                "lente"
-              ],
-              "purple": [
-                "mūzikas grupa"
-              ],
               "red": [
                 "die Band",
-                "mūzikas",
-                "grupa",
-                "lente",
-                "saite",
                 "Band"
               ]
             }
@@ -9238,12 +8900,12 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "cilvēkiem",
-          "tehniskām",
+          "Людям",
+          "Технический",
           "das Band",
-          "nozīmēt",
-          "dāvanu",
-          "lentēm",
+          "Иметь в виду",
+          "Подарок",
+          "Ленты",
           "saikni",
           "joslu",
           "lente",
@@ -9251,7 +8913,7 @@ const A2_WORDS = [
           "lieto",
           "saite",
           "saiti",
-          "starp",
+          "Между",
           "Band",
           "matu"
         ],
@@ -9269,9 +8931,9 @@ const A2_WORDS = [
         "purple": [
           "lente / saite / josla",
           "konveijera lente",
-          "mūzikas grupa",
+          "Музыкальная группа",
           "die Schleife",
-          "lente • saite",
+          "Лента • Ссылка",
           "Schleife",
           "saikne",
           "bante"
@@ -9367,7 +9029,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Банк — контекстное слово с разными формами множественного числа.",
-        "example": "die Banken = bankas (finanses). die Bänke = soliņi. Sandbank = smilšu sēklis."
+        "example": "Die Banken = банки (финансы). die Bänke = скамейки. Sandbank = песчаная отмель."
       },
       "sectionAccents": {
         "examples": [
@@ -9534,16 +9196,9 @@ const A2_WORDS = [
               "blue": [
                 "Bank"
               ],
-              "yellow": [
-                "sēklis"
-              ],
-              "purple": [
-                "smilšu sēklis"
-              ],
               "red": [
                 "Sandbank",
-                "soliņi",
-                "banka",
+                "Banken",
                 "Bank"
               ]
             }
@@ -9553,50 +9208,50 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "kontekstā",
-          "Salikteņi",
+          "В контексте",
+          "Композиты",
           "die Bank",
-          "finanšu",
-          "iestādi",
-          "nozīmēt",
-          "palīdz",
-          "sēklis",
-          "smilšu",
-          "soliņu",
-          "banka",
+          "Финансовый",
+          "Учреждение",
+          "Иметь в виду",
+          "Помогает",
+          "Мелководье",
+          "Песок",
+          "Скамейка",
+          "Банк",
           "banku",
           "Dabas",
-          "sēkli",
-          "ūdens",
+          "Семя",
+          "Вода",
           "Bank",
           "kura",
           "sols"
         ],
         "green": [
-          "die Bankfiliale",
+          "Умереть Банкфилиале",
           "Bankfiliale",
           "sols"
         ],
         "yellow": [
-          "die Parkbank",
+          "Умереть Паркбанк",
           "Parkbank",
-          "sēklis"
+          "Мелководье"
         ],
         "orange": [
-          "banka"
+          "Банк"
         ],
         "purple": [
-          "banka / sols / sēklis",
-          "banka • sols • sēklis",
-          "bankas filiāle",
-          "smilšu sēklis",
-          "parka soliņš",
-          "der Stuhl",
-          "krēsls",
+          "Банк / скамейка / банк",
+          "Банк • Скамейка • Банк",
+          "Отделение банка",
+          "Песчаная отмеля",
+          "Скамейка в парке",
+          "Подходит для Штуля",
+          "Стул",
           "Stuhl"
         ],
         "red": [
-          "die Sandbank",
+          "Умереть Сэндбэнк",
           "Sandbank"
         ]
       }
@@ -9720,7 +9375,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Бауэн – это не просто строительство дома.",
-        "example": "Gemüse bauen nozīmē audzēt dārzeņus. auf Vertrauen bauen nozīmē balstīties uz uzticību."
+        "example": "Gemüse bauen означает «выращивать овощи». auf Vertrauen bauen означает строить на доверии."
       },
       "sectionAccents": {
         "examples": [
@@ -9867,16 +9522,8 @@ const A2_WORDS = [
               "blue": [
                 "bauen"
               ],
-              "orange": [
-                "balstīties"
-              ],
-              "purple": [
-                "audzēt"
-              ],
               "red": [
                 "Vertrauen",
-                "dārzeņus",
-                "audzēt",
                 "Gemüse",
                 "bauen"
               ]
@@ -9886,51 +9533,51 @@ const A2_WORDS = [
       },
       "accents": {
         "blue": [
-          "Lauksaimniecībā",
+          "В сельском хозяйстве",
           "standardStudy",
           "Izgatavot",
-          "piemēram",
-          "nozīmēt",
-          "audzēt",
-          "taisīt",
+          "Например",
+          "Иметь в виду",
+          "Расти",
+          "Делать",
           "tiltus",
-          "bauen",
-          "Būvēt",
+          "Строить",
+          "Строить",
           "lieto",
-          "rokām",
-          "tikai",
-          "būvē",
+          "Руки",
+          "Только",
+          "Строит",
           "Celt",
-          "ēkas",
-          "māju"
+          "Здания",
+          "Дом"
         ],
         "green": [
-          "taisīt vispārīgi",
-          "paļauties",
+          "Сделать общим",
+          "Полагаться на",
           "Celt"
         ],
         "yellow": [
           "auf etwas bauen",
           "Izgatavot",
-          "taisīt"
+          "Делать"
         ],
         "orange": [
-          "balstīties",
-          "Būvēt",
-          "darīt",
-          "ražot"
+          "Опираться на",
+          "Строить",
+          "Делать",
+          "Производить"
         ],
         "purple": [
-          "Būvēt • Celt • Izgatavot",
-          "darīt / taisīt vispārīgi",
-          "balstīties / paļauties",
-          "būvēt • celt • taisīt",
-          "ražot / izgatavot",
+          "Построить • Построить • Сделать",
+          "Делать/сделать вообще",
+          "Полагаться / полагаться на",
+          "Строить • Строить • Делать",
+          "Производить/сделать",
           "herstellen",
-          "audzēt"
+          "Расти"
         ],
         "red": [
-          "machen"
+          "Машина"
         ]
       }
     }
@@ -10011,7 +9658,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Der Bauer не является корнем слова «фермер». На уровне А2 выучите два практических значения: фермер и пешка.",
-        "example": "der Bauer auf dem Feld = zemnieks uz lauka. der Bauer im Schach = bandinieks šahā."
+        "example": "Der Bauer auf dem Feld = фермер в поле. der Bauer im Schach = пешка в шахматах."
       },
       "sectionAccents": {
         "examples": [
@@ -10149,19 +9796,11 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "der Bauer"
-              ],
-              "purple": [
-                "zemnieks",
-                "bandinieks"
               ]
             },
             "example": {
               "blue": [
                 "Bauer"
-              ],
-              "purple": [
-                "zemnieks",
-                "bandinieks"
               ]
             }
           }
@@ -10169,7 +9808,7 @@ const A2_WORDS = [
       },
       "accents": {
         "blue": [
-          "der Bauer",
+          "Подходит Бауэру",
           "Bauer"
         ],
         "green": [
@@ -10186,12 +9825,12 @@ const A2_WORDS = [
           "Spielstein"
         ],
         "purple": [
-          "zemnieks",
+          "Фермер",
           "bandinieks",
-          "lauku saimniecība",
-          "lauksaimnieks",
-          "figūra",
-          "spēles kauliņš"
+          "Ферма",
+          "Фермер",
+          "Фигура",
+          "Кости игры"
         ]
       }
     }
@@ -10264,7 +9903,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Der Becher – это не просто стакан. Часто это относится к чашке или одноразовому сосуду для питья.",
-        "example": "Pappbecher = kartona glāze. Plastikbecher = plastmasas glāze. Glas = stikla glāze."
+        "example": "Паппбехер = картонный стаканчик. Plastikbecher = пластиковый стаканчик. Глас = стекло."
       },
       "sectionAccents": {
         "examples": [
@@ -10382,19 +10021,8 @@ const A2_WORDS = [
               ]
             },
             "example": {
-              "orange": [
-                "Pappbecher"
-              ],
               "red": [
                 "Plastikbecher"
-              ],
-              "green": [
-                "Glas"
-              ],
-              "purple": [
-                "kartona glāze",
-                "plastmasas glāze",
-                "stikla glāze"
               ]
             }
           }
@@ -10420,14 +10048,14 @@ const A2_WORDS = [
           "Pappbecher"
         ],
         "purple": [
-          "krūze",
-          "krūzes",
-          "glāze",
-          "glāzi",
-          "tasīte",
-          "tasīti",
-          "kartona glāze",
-          "plastmasas glāze"
+          "Чашка",
+          "Чашки",
+          "Стакан",
+          "Стакан",
+          "Чашка",
+          "Чашки",
+          "Картонный стаканчик",
+          "Пластиковый стаканчик"
         ]
       }
     }
@@ -10513,7 +10141,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Bedienen меняет свое значение в зависимости от объекта: человека обслуживают, устройство используется или контролируется.",
-        "example": "Gäste bedienen = apkalpot viesus. eine Maschine bedienen = lietot/vadīt mašīnu."
+        "example": "Gäste bedienen = обслуживать гостей. eine Maschine Bedienen = использовать/управлять машиной."
       },
       "sectionAccents": {
         "examples": [
@@ -10658,19 +10286,11 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "bedienen"
-              ],
-              "purple": [
-                "apkalpo",
-                "lieto"
               ]
             },
             "example": {
               "blue": [
                 "bedienen"
-              ],
-              "purple": [
-                "apkalpot",
-                "lietot/vadīt"
               ]
             }
           }
@@ -10678,7 +10298,7 @@ const A2_WORDS = [
       },
       "accents": {
         "blue": [
-          "bedienen",
+          "Служить",
           "bedient"
         ],
         "green": [
@@ -10691,20 +10311,20 @@ const A2_WORDS = [
           "Computer"
         ],
         "red": [
-          "servieren"
+          "Сервер"
         ],
         "orange": [
-          "steuern"
+          "Управлять"
         ],
         "purple": [
-          "apkalpot",
+          "Служить",
           "apkalpo",
-          "lietot",
+          "Использовать",
           "lieto",
-          "vadīt",
+          "Вести",
           "vada",
-          "palīdzēt",
-          "pasniegt ēdienu"
+          "Помочь",
+          "Подавать еду"
         ]
       }
     }
@@ -10785,7 +10405,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Die Bedienung — это прежде всего не команда. На уровне А2 наиболее важными значениями являются сервис и сервер.",
-        "example": "freundliche Bedienung = laipns apkalpotājs. gute Bedienung = laba apkalpošana."
+        "example": "Freundliche Bedienung = дружелюбное обслуживание. gute Bedienung = хорошее обслуживание."
       },
       "sectionAccents": {
         "examples": [
@@ -10924,19 +10544,11 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "die Bedienung"
-              ],
-              "purple": [
-                "apkalpošana",
-                "apkalpotājs"
               ]
             },
             "example": {
               "blue": [
                 "Bedienung"
-              ],
-              "purple": [
-                "apkalpotājs",
-                "apkalpošana"
               ]
             }
           }
@@ -10944,7 +10556,7 @@ const A2_WORDS = [
       },
       "accents": {
         "blue": [
-          "die Bedienung",
+          "Умереть Bedienung",
           "Bedienung"
         ],
         "green": [
@@ -10961,14 +10573,14 @@ const A2_WORDS = [
           "Personal"
         ],
         "purple": [
-          "apkalpošana",
-          "Apkalpošana",
-          "apkalpotājs",
-          "Apkalpotājs",
-          "viesmīlis",
-          "viesmīle",
-          "personāls",
-          "lietošana"
+          "Услуга",
+          "Услуга",
+          "Сервер",
+          "Официант",
+          "Официант",
+          "Официантка",
+          "Персонал",
+          "Использовать"
         ]
       }
     }
@@ -11084,7 +10696,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Behalten — это не просто остановка.",
-        "example": "halten = turēt. behalten = paturēt. sich merken = iegaumēt. im Kopf behalten = paturēt prātā."
+        "example": "Остановить = держать. behalten = сохранить. sich merken = запоминать. im Kopf behalten = имейте в виду."
       },
       "sectionAccents": {
         "examples": [
@@ -11264,19 +10876,10 @@ const A2_WORDS = [
               "yellow": [
                 "sich merken"
               ],
-              "orange": [
-                "iegaumēt",
-                "paturēt"
-              ],
-              "purple": [
-                "turēt"
-              ],
               "red": [
                 "behalten",
-                "paturēt",
                 "halten",
-                "merken",
-                "turēt"
+                "merken"
               ]
             }
           }
@@ -11285,45 +10888,45 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "priekšmetiem",
-          "informāciju",
-          "atcerēties",
-          "behalten",
-          "īpašumā",
-          "nozīmēt",
-          "paturēt",
+          "Предметы",
+          "Информация",
+          "Помнить",
+          "Отстраненный",
+          "Во владении",
+          "Иметь в виду",
+          "Держать",
           "skaitli",
-          "bieži",
-          "prātā",
+          "Часто",
+          "В виду",
           "sevis",
-          "tātad",
+          "Поэтому",
           "tulko",
-          "vārdu",
-          "savā"
+          "Слово",
+          "В своем собственном"
         ],
         "green": [
-          "atcerēties",
-          "atgādināt",
-          "halten"
+          "Помнить",
+          "Напомнить",
+          "Останавливать"
         ],
         "yellow": [
-          "sich merken"
+          "Сич меркен"
         ],
         "orange": [
-          "iegaumēt",
-          "paturēt"
+          "Запоминать",
+          "Держать"
         ],
         "purple": [
-          "atcerēties / atgādināt",
-          "iegaumēt / atcerēties",
-          "paturēt / atcerēties",
-          "paturēt • atcerēties",
-          "aufbewahren",
-          "glabāt",
-          "turēt"
+          "Помнить / напомнить",
+          "Запомнить / запомнить",
+          "Держать / помнить",
+          "Держи • Помни",
+          "Сохранять",
+          "Держать",
+          "Держать"
         ],
         "red": [
-          "erinnern"
+          "Помнить"
         ]
       }
     }
@@ -11402,7 +11005,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Beinahe и fast часто похожи, но не всегда стилистически одинаковы.",
-        "example": "beinahe gefallen = gandrīz nokrita. fast fertig = gandrīz gatavs. kaum = tik tikko / diez vai."
+        "example": "Beinahe gefallen = почти упал. быстрый фертиг = почти готово. каум = едва/едва."
       },
       "sectionAccents": {
         "examples": [
@@ -11577,20 +11180,12 @@ const A2_WORDS = [
                 "beinahe"
               ],
               "green": [
-                "tik tikko",
-                "tikko",
                 "fast"
-              ],
-              "orange": [
-                "diez vai"
               ],
               "red": [
                 "gefallen",
                 "beinahe",
-                "nokrita",
-                "fertig",
-                "fast",
-                "kaum"
+                "fast"
               ]
             }
           }
@@ -11602,41 +11197,41 @@ const A2_WORDS = [
           "kontekstos",
           "latviski",
           "nenotika",
-          "beinahe",
+          "Бейнаш",
           "notika",
           "uzsver",
-          "vārdam",
-          "Dažos",
-          "tikko",
-          "tomēr",
-          "fast",
+          "За слово",
+          "В некоторых",
+          "Прямо сейчас",
+          "Однако",
+          "Быстрый",
           "skan",
-          "tuvs",
+          "Закрывать",
           "tuvu"
         ],
         "green": [
-          "ar nelielu starpību",
+          "С небольшим отрывом",
           "tik tikko",
-          "tikko",
-          "fast"
+          "Прямо сейчас",
+          "Быстрый"
         ],
         "yellow": [
-          "knapp"
+          "Кнопка"
         ],
         "orange": [
           "diez vai",
           "knapi"
         ],
         "purple": [
-          "knapi / ar nelielu starpību",
-          "gandrīz / tik tikko",
-          "gandrīz • tik tikko",
-          "diez vai / tikko",
-          "vēl tik tikko",
-          "gerade noch"
+          "Едва/с небольшим отрывом",
+          "Почти / едва",
+          "Почти • Едва",
+          "Вряд ли / едва",
+          "Едва-едва",
+          "Джерад Ноч"
         ],
         "red": [
-          "kaum"
+          "Некоторым"
         ]
       }
     }
@@ -11720,7 +11315,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Bekannt — это не то же самое, что друг.",
-        "example": "bekannt = pazīstams / zināms. berühmt = slavens. befreundet = draugos."
+        "example": "Bekannt = известный/известный. behrücht = знаменитый. befreundet = в друзьях."
       },
       "sectionAccents": {
         "examples": [
@@ -11876,8 +11471,7 @@ const A2_WORDS = [
                 "bekannt"
               ],
               "red": [
-                "bekannt",
-                "draugos"
+                "bekannt"
               ]
             },
             "example": {
@@ -11885,24 +11479,12 @@ const A2_WORDS = [
                 "bekannt"
               ],
               "green": [
-                "berühmt",
-                "zināms"
-              ],
-              "orange": [
-                "pazīstams",
-                "draugos"
-              ],
-              "purple": [
-                "pazīstams / zināms",
-                "slavens"
+                "behrücht"
               ],
               "red": [
                 "befreundet",
-                "pazīstams",
                 "bekannt",
-                "berühmt",
-                "slavens",
-                "zināms"
+                "behrücht"
               ]
             }
           }
@@ -11911,47 +11493,47 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "informāciju",
-          "befreundet",
-          "attiecību",
-          "draudzīgs",
-          "pazīstams",
-          "raksturot",
-          "bekannt",
-          "cilvēks",
-          "cilvēku",
-          "slavens",
+          "Информация",
+          "Подружиться",
+          "Отношение",
+          "Дружелюбно",
+          "Известный",
+          "Характеризовать",
+          "Бекант",
+          "Человек",
+          "Люди",
+          "Известный",
           "citiem",
-          "zināms",
-          "fakts",
+          "Известный",
+          "Факт",
           "faktu",
           "vietu",
-          "pats"
+          "Сам"
         ],
         "green": [
-          "draudzīgās attiecībās",
-          "berühmt",
+          "В дружеских отношениях",
+          "Известный",
           "ierasts",
-          "zināms"
+          "Известный"
         ],
         "yellow": [
-          "vertraut"
+          "Доверенный"
         ],
         "orange": [
-          "pazīstams",
+          "Известный",
           "draugos"
         ],
         "purple": [
-          "draugos / draudzīgās attiecībās",
-          "pazīstams / ierasts",
-          "pazīstams / zināms",
-          "pazīstams • zināms",
-          "unbekannt",
-          "nezināms",
-          "slavens"
+          "В друзьях/дружеских отношениях",
+          "Знакомый / привычный",
+          "Известный / известный",
+          "Знакомый • Известный",
+          "Необдуманный",
+          "Неизвестный",
+          "Известный"
         ],
         "red": [
-          "befreundet"
+          "Подружиться"
         ]
       }
     }
@@ -12126,7 +11708,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Bestellen не является корневым словом, означающим «обращаться». На уровне А2 изучите bestellen, как сделать заказ или забронировать.",
-        "example": "Pizza bestellen = pasūtīt picu. Tisch bestellen = rezervēt galdiņu. Text bearbeiten = apstrādāt tekstu."
+        "example": "Pizza bestellen = заказать пиццу. Tisch bestellen = зарезервировать столик. Text berbeiten = обрабатывать текст."
       },
       "sectionAccents": {
         "examples": [
@@ -12262,13 +11844,6 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "bestellen"
-              ],
-              "purple": [
-                "pasūtīt",
-                "rezervēt"
-              ],
-              "red": [
-                "apstrādāt"
               ]
             },
             "example": {
@@ -12279,12 +11854,7 @@ const A2_WORDS = [
                 "Tisch"
               ],
               "red": [
-                "bearbeiten"
-              ],
-              "purple": [
-                "pasūtīt",
-                "rezervēt",
-                "apstrādāt"
+                "berbeiten"
               ]
             }
           }
@@ -12292,34 +11862,34 @@ const A2_WORDS = [
       },
       "accents": {
         "blue": [
-          "bestellen",
+          "Бестеллен",
           "bestelle",
           "bestellt"
         ],
         "green": [
-          "reservieren",
+          "Резервист",
           "Tisch"
         ],
         "yellow": [
-          "kaufen"
+          "Кауфен"
         ],
         "orange": [
-          "grüßen",
+          "Целовать",
           "Grüße"
         ],
         "red": [
-          "bearbeiten",
-          "apstrādāt"
+          "Редактировать",
+          "Процесс"
         ],
         "purple": [
-          "pasūtīt",
-          "pasūtu",
-          "pasūtām",
-          "pasūta",
-          "pasūtīji",
-          "rezervēt",
-          "rezervēju",
-          "rezervēt galdiņu",
+          "Заказать",
+          "Заказ",
+          "Заказы",
+          "Заказ",
+          "Заказал",
+          "Забронировать",
+          "Я забронировал",
+          "Зарезервировать столик",
           "sveicienus"
         ]
       }
@@ -12406,7 +11976,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Bestimmt как «определенно» — это не то же самое, что bestimmt как «конкретный». Контекст определяет смысл.",
-        "example": "Das ist bestimmt richtig. = Tas noteikti ir pareizi. eine bestimmte Person = konkrēts cilvēks."
+        "example": "Это самое лучшее. = Это, конечно, правильно. eine bestimmte Person = конкретный человек."
       },
       "sectionAccents": {
         "examples": [
@@ -12542,22 +12112,18 @@ const A2_WORDS = [
           {
             "text": {
               "blue": [
-                "bestimmt",
-                "noteikti"
+                "bestimmt"
               ],
               "green": [
-                "bestimmt",
-                "konkrēts"
+                "bestimmt"
               ]
             },
             "example": {
               "blue": [
-                "bestimmt",
-                "noteikti"
+                "bestimmt"
               ],
               "green": [
-                "bestimmte",
-                "konkrēts"
+                "bestimmte"
               ]
             }
           }
@@ -12565,30 +12131,30 @@ const A2_WORDS = [
       },
       "accents": {
         "blue": [
-          "bestimmt",
-          "noteikti"
+          "Определенно",
+          "Определенно"
         ],
         "green": [
           "bestimmte",
           "bestimmten",
           "noteikts",
-          "konkrēts"
+          "Специфический"
         ],
         "yellow": [
-          "konkret"
+          "Конкретно"
         ],
         "orange": [
-          "fest"
+          "Фестиваль"
         ],
         "red": [
-          "wahrscheinlich"
+          "Вероятно"
         ],
         "purple": [
-          "noteikti",
+          "Определенно",
           "noteikts",
-          "konkrēts",
-          "droši vien",
-          "iespējams"
+          "Специфический",
+          "Вероятно",
+          "Возможный"
         ]
       }
     }
@@ -12724,7 +12290,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Die Birne может означать как плод, так и луковицу. Требуется контекст.",
-        "example": "eine Birne essen = ēst bumbieri. eine Birne wechseln = nomainīt spuldzi."
+        "example": "Eine Birne essen = съесть грушу. eine Birne wechseln = смени лампочку."
       },
       "sectionAccents": {
         "examples": [
@@ -12854,18 +12420,11 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "die Birne"
-              ],
-              "purple": [
-                "spuldzi"
               ]
             },
             "example": {
               "blue": [
                 "Birne"
-              ],
-              "purple": [
-                "bumbieri",
-                "spuldzi"
               ]
             }
           }
@@ -12875,7 +12434,7 @@ const A2_WORDS = [
         "blue": [
           "Birne",
           "Birnen",
-          "die Birne"
+          "Умереть Бирне"
         ],
         "green": [
           "Glühbirne"
@@ -12890,12 +12449,12 @@ const A2_WORDS = [
           "bumbieris",
           "bumbieri",
           "bumbierus",
-          "spuldze",
+          "Лампочка",
           "Spuldze",
           "spuldzi",
-          "lampa",
+          "Лампа",
           "Lampa",
-          "augļi"
+          "Фрукты"
         ]
       }
     }
@@ -12916,14 +12475,14 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Запрос",
       "explanation": [
-        "Galvenā doma: Lietvārds ar artikulu die un lielo burtu. Konkrēts lūgums vai pieprasījums.",
-        "die Bitte galvenokārt nozīmē: pieklājība.",
-        "Bieži raksturo: pieklājības vārds.",
-        "die Bitte galvenokārt nozīmē: lūgums/pieprasījums.",
-        "Bieži raksturo: lietvārds (die).",
-        "bitte ar mazo sākumburtu ir pieklājības vārds — tas nozīmē lūdzu (Bitte schön!, Eine Tasse Kaffee, bitte).",
-        "die Bitte ar lielo burtu un artikulu die ir lietvārds — tas nozīmē lūgumu vai pieprasījumu (Ich habe eine Bitte = man ir lūgums).",
-        "Daudzskaitlī: die Bitten."
+        "Основная идея: существительное с артиклем die и заглавной буквой. Конкретный запрос или запрос.",
+        "Die Bitte в основном означает: вежливость.",
+        "Часто описывает: вежливое слово.",
+        "Die Bitte в основном означает: запрос/просьба.",
+        "Часто характеризуется: существительным (умереть).",
+        "Bitte со строчной буквы — вежливое слово — оно означает «пожалуйста» (Bitte schön!, Eine Tasse Kaffee, bitte).",
+        "Die Bitte с большой буквы и артикль die — существительное — оно означает просьбу или просьбу (Ich habe eine Bitte = У меня есть просьба).",
+        "Множественное число: умереть Укушенный."
       ],
       "examples": [
         {
@@ -12952,14 +12511,14 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Mazais bitte = lūdzu (Bitte schön!, Kaffee, bitte). die Bitte ar lielo burtu = lūgums (eine Bitte, meine Bitte).",
-        "Lietvārds ar artikulu die un lielo burtu. Konkrēts lūgums vai pieprasījums."
+        "Little bitte = пожалуйста (Bitte schön!, Kaffee, bitte). die Bitte с большой буквы = запрос (eine Bitte, meine Bitte).",
+        "Существительное с артиклем die и заглавной буквой. Конкретный запрос или запрос."
       ],
       "important": [
-        "bitte stāv ar mazo burtu — tas ir pieklājības vārds, ne lietvārds.",
-        "die Bitte ar lielo burtu un artikulu die ir lietvārds.",
-        "Daudzskaitlis: die Bitten (lūgumi).",
-        "Nepareizi: Die Bitte schön! → Pareizi: Bitte schön!"
+        "Bitte — строчная буква — это вежливое слово, а не существительное.",
+        "Die Bitte с заглавной буквы, а артикль die — существительное.",
+        "Множественное число: die Bitten (просит).",
+        "Неправильно: Die Bitte schön! → Правильно: Bitte schön!"
       ],
       "sectionAccents": {
         "explanation": {
@@ -12967,12 +12526,8 @@ const A2_WORDS = [
             "die Bitte",
             "bitte"
           ],
-          "purple": [
-            "lūgums"
-          ],
           "yellow": [
-            "Bitte",
-            "Bitten"
+            "Bitte"
           ]
         },
         "examples": [
@@ -13027,11 +12582,7 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "lūgums"
-            ]
-          }
+          {}
         ],
         "important": [
           {}
@@ -13113,7 +12664,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Горький – это не просто слово, обозначающее вкус.",
-        "example": "bitterer Kaffee = rūgta kafija. bittere Wahrheit = skarba patiesība. bitter kalt = ļoti ass aukstums."
+        "example": "Горький кофе = горький кофе. Bittere Wahrheit = суровая правда. горький калт = очень резкий холод."
       },
       "sectionAccents": {
         "examples": [
@@ -13277,16 +12828,10 @@ const A2_WORDS = [
               "blue": [
                 "bitter"
               ],
-              "yellow": [
-                "ass"
-              ],
               "red": [
-                "bitterer",
+                "Bittere",
                 "Wahrheit",
-                "bittere",
-                "Kaffee",
-                "kafija",
-                "rūgta"
+                "bittere"
               ]
             }
           }
@@ -13295,45 +12840,45 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "zaudējumu",
+          "Потеря",
           "pieredzi",
-          "šokolādi",
-          "nozīmēt",
-          "vārdiem",
-          "bitter",
+          "Шоколад",
+          "Иметь в виду",
+          "Слова",
+          "Горький",
           "kafiju",
-          "sajūtu",
+          "Чувство",
           "skarbs",
-          "garša",
-          "garšu",
-          "rūgts",
-          "zālēm",
-          "sīvs"
+          "Вкус",
+          "Вкус",
+          "Горький",
+          "Для лекарств",
+          "Яростный"
         ],
         "green": [
-          "pikants",
-          "sauer",
-          "sīvs"
+          "Пряный",
+          "Квашеное вино",
+          "Яростный"
         ],
         "yellow": [
-          "scharf",
-          "ass"
+          "Острый",
+          "Жопа"
         ],
         "orange": [
-          "stingrs",
-          "rūgts"
+          "Строгий",
+          "Горький"
         ],
         "purple": [
-          "rūgts / sīvs / ass",
-          "rūgts • sīvs • ass",
-          "ass / pikants",
-          "stingrs / ass",
-          "nepatīkams",
-          "unangenehm",
-          "skābs"
+          "Горький/жестокий/острый",
+          "Горький • Жестокий • Острый",
+          "Острый/пряный",
+          "Твердый / острый",
+          "Неприятный",
+          "Унангенем",
+          "Кислый"
         ],
         "red": [
-          "streng"
+          "Сильный"
         ]
       }
     }
@@ -13493,7 +13038,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Значение Бодена зависит от местоположения.",
-        "example": "auf dem Boden = uz grīdas. fruchtbarer Boden = auglīga augsne. Boden der Flasche = pudeles dibens."
+        "example": "Auf dem Boden = на полу. fruchtbarer Boden = плодородная почва. Boden der Flasche = дно бутылки."
       },
       "sectionAccents": {
         "examples": [
@@ -13663,21 +13208,11 @@ const A2_WORDS = [
             },
             "example": {
               "blue": [
-                "dibens",
                 "Boden"
-              ],
-              "yellow": [
-                "augsne"
-              ],
-              "purple": [
-                "pudeles dibens"
               ],
               "red": [
                 "fruchtbarer",
-                "auglīga",
                 "Flasche",
-                "augsne",
-                "grīdas",
                 "Boden"
               ]
             }
@@ -13687,50 +13222,50 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "der Boden",
-          "Pārnestā",
-          "nozīmēt",
+          "Подходит Бодену",
+          "Перенесено",
+          "Иметь в виду",
           "stabilu",
           "augsne",
           "augsni",
           "dibens",
-          "pamats",
+          "Основа",
           "pamatu",
-          "bieži",
+          "Часто",
           "Boden",
-          "grīda",
-          "grīdu",
-          "telpā",
-          "zeme",
+          "Пол",
+          "Пол",
+          "В комнате",
+          "Земля",
           "zemi"
         ],
         "green": [
-          "der Fußboden",
+          "Дер Фусбоден",
           "Fußboden",
           "grunts",
-          "zeme"
+          "Земля"
         ],
         "yellow": [
-          "die Erde",
-          "iemesls",
+          "Умереть Эрде",
+          "Причина",
           "augsne",
           "Erde"
         ],
         "orange": [
-          "grīda"
+          "Пол"
         ],
         "purple": [
-          "grīda • zeme • augsne • pamats • dibens",
-          "pamats / grunts / iemesls",
-          "der Flaschenboden",
-          "pudeles dibens",
+          "Пол • Земля • Грунт • Фундамент • Дно",
+          "Основа/основание/причина",
+          "Подходит для Флашенбодена",
+          "Нижняя часть бутылки",
           "Flaschenboden",
-          "zeme / augsne",
-          "grīda telpā"
+          "Земля/почва",
+          "Пол в комнате"
         ],
         "red": [
-          "der Grund",
-          "pamats",
+          "Дер Грунд",
+          "Основа",
           "Grund"
         ]
       }
@@ -13825,7 +13360,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Значение боргена зависит от направления.",
-        "example": "Ich borge mir etwas = es aizņemos. Ich borge dir etwas = es tev aizdodu."
+        "example": "Ich borge mir etwas = Я беру взаймы. Ich borge dir etwas = Я одалживаю тебе."
       },
       "sectionAccents": {
         "examples": [
@@ -13982,8 +13517,6 @@ const A2_WORDS = [
             },
             "example": {
               "red": [
-                "aizņemos",
-                "aizdodu",
                 "borge",
                 "etwas"
               ]
@@ -13994,42 +13527,42 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "aizņemties",
+          "Занимать",
           "latviski",
           "personas",
           "Virziens",
-          "nozīmēt",
-          "skaidrs",
+          "Иметь в виду",
+          "Прозрачный",
           "aizdot",
-          "borgen",
-          "datīva",
-          "bieži",
+          "Борген",
+          "Дательный падеж",
+          "Часто",
           "citam",
-          "kļūst",
+          "Становится",
           "laiku",
           "cita",
           "dodu",
-          "ņemu"
+          "Я беру"
         ],
         "green": [
           "aizdot",
-          "leihen"
+          "Недавно"
         ],
         "yellow": [
-          "geben"
+          "Давать"
         ],
         "orange": [
-          "aizņemties"
+          "Занимать"
         ],
         "purple": [
-          "aizdot / aizņemties",
-          "aizņemties / aizdot",
-          "aizņemties • aizdot",
-          "atdot atpakaļ",
-          "dot"
+          "Одалживать / брать взаймы",
+          "Брать / одалживать",
+          "Брать взаймы • Одалживать",
+          "Отдать назад",
+          "Дать"
         ],
         "red": [
-          "zurückgeben"
+          "Цурюкгебен"
         ]
       }
     }
@@ -14108,7 +13641,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Böse не является универсальным словом, означающим «плохо». На уровне А2 наиболее важными значениями являются злой и злой.",
-        "example": "ein böser Mensch = ļauns cilvēks. Ich bin böse auf dich = es esmu dusmīgs uz tevi."
+        "example": "Ein böser Mensch = злой человек. Ich bin böse auf dich = Я злюсь на тебя."
       },
       "sectionAccents": {
         "examples": [
@@ -14240,20 +13773,12 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "böse"
-              ],
-              "purple": [
-                "ļauns",
-                "dusmīgs"
               ]
             },
             "example": {
               "blue": [
                 "böser",
                 "böse"
-              ],
-              "purple": [
-                "ļauns",
-                "dusmīgs"
               ]
             }
           }
@@ -14261,33 +13786,33 @@ const A2_WORDS = [
       },
       "accents": {
         "blue": [
-          "böse",
+          "Бозе",
           "böser"
         ],
         "green": [
-          "schlecht",
+          "Шлехт",
           "schlechter"
         ],
         "yellow": [
-          "ärgerlich"
+          "Эргерлих"
         ],
         "red": [
-          "zornig"
+          "Зорниг"
         ],
         "orange": [
-          "sauer"
+          "Квашеное вино"
         ],
         "purple": [
-          "ļauns",
-          "ļauna",
-          "dusmīgs",
-          "dusmīga",
-          "dusmīgam",
-          "slikts",
+          "Зло",
+          "Зло",
+          "Злой",
+          "Злой",
+          "Злой",
+          "Плохой",
           "slikta",
-          "nikns",
-          "kaitinošs",
-          "skābs"
+          "Яростный",
+          "Раздражающий",
+          "Кислый"
         ]
       }
     }
@@ -14348,13 +13873,13 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Покорный",
       "explanation": [
-        "Galvenā doma: brav nozīmē paklausīgu, kārtīgu vai labi audzinātu uzvedību.",
-        "brav lieto galvenokārt par bērniem, dzīvniekiem vai cilvēka uzvedību.",
-        "Tas nozīmē, ka cilvēks vai dzīvnieks uzvedas mierīgi, kārtīgi un paklausīgi.",
-        "brav nav tas pats, kas gut.",
-        "gut nozīmē labs vispārīgā nozīmē.",
-        "Ja gribi pateikt, ka cilvēks ir labs, jauks vai draudzīgs, parasti lieto gut, nett vai freundlich.",
-        "brav vairāk runā par uzvedību."
+        "Основная идея: храбрость означает послушное, упорядоченное или хорошо воспитанное поведение.",
+        "Brav используется в основном для детей, животных или человеческого поведения.",
+        "Это означает, что человек или животное ведет себя спокойно, организованно и послушно.",
+        "Храбрость - это не то же самое, что смелость.",
+        "«Гут» означает «хорошо» в общем смысле.",
+        "Если вы хотите сказать, что человек хороший, приятный или дружелюбный, вы обычно используете Gut, Nett или Freundlich.",
+        "Брав - это больше о поведении."
       ],
       "examples": [
         {
@@ -14415,14 +13940,14 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Ja runa ir par bērna vai dzīvnieka uzvedību, brav bieži nozīmē paklausīgs vai kārtīgs.",
-        "Ja runa ir par cilvēka raksturu kopumā, “labs” parasti ir gut, nett vai freundlich, nevis brav."
+        "Когда речь идет о поведении ребенка или животного, слово «брав» часто означает «послушный» или «порядочный».",
+        "Когда дело касается характера человека в целом, «хороший» обычно означает интуицию, нетт или фрейндлих, а не храбрость."
       ],
       "important": [
-        "brav nav galvenais vārds nozīmei “labs”.",
-        "Das Kind ist brav = bērns ir paklausīgs / kārtīgs.",
-        "Er ist ein guter Mensch = viņš ir labs cilvēks.",
-        "Sie ist nett = viņa ir jauka."
+        "«брав» не является корнем слова «хороший».",
+        "Das Kind ist brav = ребенок послушный/порядочный.",
+        "Er ist ein Guter Mensch = он хороший человек.",
+        "Sie ist nett = она милая."
       ],
       "sectionAccents": {
         "explanation": {
@@ -14430,27 +13955,12 @@ const A2_WORDS = [
             "blue": [
               "brav"
             ],
-            "purple": [
-              "paklausīgu",
-              "kārtīgu",
-              "labi audzinātu",
-              "paklausīgi"
-            ],
-            "green": [
-              "uzvedību",
-              "uzvedas"
-            ],
             "yellow": [
               "gut"
             ],
             "red": [
               "nett",
               "freundlich"
-            ],
-            "orange": [
-              "labs",
-              "jauks",
-              "draudzīgs"
             ]
           }
         },
@@ -14562,58 +14072,20 @@ const A2_WORDS = [
         ],
         "tip": [
           {
-            "text": {
-              "blue": [
-                "brav"
-              ],
-              "purple": [
-                "paklausīgs",
-                "kārtīgs"
-              ],
-              "green": [
-                "bērna",
-                "dzīvnieka",
-                "uzvedību"
-              ]
-            }
+            "text": {}
           },
           {
-            "text": {
-              "blue": [
-                "brav"
-              ],
-              "yellow": [
-                "gut"
-              ],
-              "red": [
-                "nett",
-                "freundlich"
-              ],
-              "orange": [
-                "labs"
-              ]
-            }
+            "text": {}
           }
         ],
         "important": [
           {
-            "text": {
-              "blue": [
-                "brav"
-              ],
-              "orange": [
-                "labs"
-              ]
-            }
+            "text": {}
           },
           {
             "text": {
               "blue": [
                 "brav"
-              ],
-              "purple": [
-                "paklausīgs",
-                "kārtīgs"
               ]
             }
           },
@@ -14621,9 +14093,6 @@ const A2_WORDS = [
             "text": {
               "yellow": [
                 "guter Mensch"
-              ],
-              "orange": [
-                "labs cilvēks"
               ]
             }
           },
@@ -14631,9 +14100,6 @@ const A2_WORDS = [
             "text": {
               "red": [
                 "nett"
-              ],
-              "orange": [
-                "jauka"
               ]
             }
           }
@@ -14681,12 +14147,12 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Сжечь",
       "explanation": [
-        "Galvenā doma: brennen nozīmē degt, dedzināt vai dedzinoši sāpēt atkarībā no konteksta.",
-        "Ja runa ir par uguni, gaismu vai sveci, brennen nozīmē degt.",
-        "Ja runa ir par sajūtu ķermenī, brennen bieži nozīmē dedzināt vai dedzinoši sāpēt.",
-        "Ar datoriem brennen var nozīmēt ierakstīt diskā.",
-        "brennen nav galvenais vārds nozīmei “aizdedzināt”; tam parasti lieto anzünden.",
-        "brennen nav tas pats, kas verbrennen, kas nozīmē sadedzināt vai apdedzināt."
+        "Основная идея: brennen означает жечь, сжигать или жечь, в зависимости от контекста.",
+        "Когда речь идет об огне, свете или свече, «бренен» означает «гореть».",
+        "Говоря об ощущениях в теле, слово «бренен» часто означает «жжение» или «боль».",
+        "В случае компьютеров «бренен» может означать запись на диск.",
+        "Бреннен не является корневым словом, означающим «поджечь» • Для этого обычно используется anzünden.",
+        "Brennen – это не то же самое, что verbrennen, что означает жечь или сжигать."
       ],
       "examples": [
         {
@@ -14742,14 +14208,14 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Ja kaut kas pats deg, lieto brennen.",
-        "Ja tu kaut ko aizdedzini, parasti lieto anzünden; ja kaut kas tiek sadedzināts, lieto verbrennen."
+        "Если что-то горит само, используйте бреннен.",
+        "Если вы что-то поджигаете, вы обычно используете anzünden • Когда что-то сжигается, используется verbrennen."
       ],
       "important": [
-        "brennen ≠ aizdedzināt.",
-        "Aizdedzināt = anzünden.",
-        "Sadedzināt = verbrennen.",
-        "Meine Augen brennen nozīmē, ka acis dedzinoši sāp, nevis ka tās deg ar uguni."
+        "Бреннен ≠ зажечь.",
+        "Зажечь = anzünden.",
+        "Сжечь = verbrennen.",
+        "Meine Augen brennen означает, что глаза горят, а не горят огнем."
       ],
       "sectionAccents": {
         "examples": [
@@ -14847,9 +14313,6 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "brennen"
-              ],
-              "purple": [
-                "deg"
               ]
             }
           },
@@ -14858,32 +14321,18 @@ const A2_WORDS = [
               "red": [
                 "anzünden",
                 "verbrennen"
-              ],
-              "purple": [
-                "aizdedzini",
-                "sadedzināts"
               ]
             }
           }
         ],
         "important": [
           {
-            "text": {
-              "blue": [
-                "brennen"
-              ],
-              "red": [
-                "aizdedzināt"
-              ]
-            }
+            "text": {}
           },
           {
             "text": {
               "red": [
                 "anzünden"
-              ],
-              "purple": [
-                "aizdedzināt"
               ]
             }
           },
@@ -14891,9 +14340,6 @@ const A2_WORDS = [
             "text": {
               "red": [
                 "verbrennen"
-              ],
-              "purple": [
-                "sadedzināt"
               ]
             }
           },
@@ -14902,12 +14348,8 @@ const A2_WORDS = [
               "blue": [
                 "brennen"
               ],
-              "purple": [
-                "dedzinoši sāp"
-              ],
               "yellow": [
-                "Augen",
-                "acis"
+                "Augen"
               ]
             }
           }
@@ -15101,11 +14543,11 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Подарок",
       "explanation": [
-        "Galvenā doma: dabei nozīmē klāt, līdzi vai turklāt atkarībā no teikuma.",
-        "Tas var nozīmēt, ka kāds vai kaut kas ir klāt pie darbības.",
-        "Tas var nozīmēt arī līdzi vai pie sevis.",
-        "Sarunvalodā dabei bieži nozīmē arī turklāt; “pie tam” ir sekundārs variants, nevis galvenā virsraksta nozīme.",
-        "Tāpēc vienkāršs tulkojums “klāt” ne vienmēr ir pietiekams."
+        "Основная идея: dabei означает «присутствующий», наряду или в дополнение, в зависимости от предложения.",
+        "Это может означать, что кто-то или что-то присутствует при действии.",
+        "Это также может означать с вами или с вами.",
+        "В разговорной речи dabe часто означает «кроме того» • «кроме того» — это второстепенный вариант, а не смысл основного названия.",
+        "Поэтому простого перевода «настоящее» не всегда достаточно."
       ],
       "examples": [
         {
@@ -15172,7 +14614,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Dabe — это не то же самое, что просто «да».",
-        "example": "Ich bin da = Es esmu klāt. Ich bin dabei = Es piedalos / esmu iesaistīts / esmu klāt procesā. Ich habe es dabei = Man tas ir līdzi."
+        "example": "Ich bin da = Я здесь. Ich bin dabei = Я участвую/участвую/присутствую в процессе. Ich habe es dabei = Оно у меня с собой."
       },
       "sectionAccents": {
         "examples": [
@@ -15333,19 +14775,10 @@ const A2_WORDS = [
                 "dabei"
               ],
               "green": [
-                "līdzi",
                 "da"
               ],
-              "orange": [
-                "klāt"
-              ],
               "red": [
-                "iesaistīts",
-                "piedalos",
-                "procesā",
-                "dabei",
-                "esmu",
-                "klāt"
+                "dabei"
               ]
             }
           }
@@ -15354,44 +14787,44 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "Sarunvalodā",
-          "vienkāršs",
-          "darbības",
-          "nozīmēt",
-          "turklāt",
+          "Разговорный",
+          "Простой",
+          "Действия",
+          "Иметь в виду",
+          "Кроме того",
           "valodas",
-          "bieži",
-          "biežs",
-          "dabei",
-          "līdzi",
+          "Часто",
+          "Частый",
+          "Кроме того",
+          "Вместе с",
           "sevis",
-          "Tāpēc",
-          "vārds",
-          "kāds",
-          "klāt",
-          "vācu"
+          "Поэтому",
+          "Слово",
+          "Кто-то",
+          "Подарок",
+          "Немецкий"
         ],
         "green": [
-          "līdzi",
-          "šeit",
-          "da"
+          "Вместе с",
+          "Здесь",
+          "Да"
         ],
         "yellow": [
-          "turklāt"
+          "Кроме того"
         ],
         "orange": [
-          "kopā ar",
-          "klāt",
-          "tur"
+          "Вместе с",
+          "Подарок",
+          "Там"
         ],
         "purple": [
-          "klāt • līdzi • turklāt • pie tam",
-          "klāt / līdzi / pie tam",
-          "tur / šeit / klāt",
-          "ar / kopā ar"
+          "Настоящее время • С • Кроме того • Кроме того",
+          "Присутствует/с/помимо",
+          "Там / здесь / присутствует",
+          "С/вместе с"
         ],
         "red": [
-          "außerdem",
+          "Также",
           "pie tam"
         ]
       }
@@ -15418,11 +14851,11 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Для того • Того • Однако",
       "explanation": [
-        "Galvenā doma: dafür nozīmē par to, tam vai toties atkarībā no teikuma.",
-        "dafür bieži atsaucas uz iepriekš minētu lietu vai darbību: par to.",
-        "Tas var nozīmēt arī tam, ja runa ir par mērķi, vajadzību vai paredzētu lietojumu.",
-        "Kontrastā dafür var nozīmēt toties.",
-        "Tāpēc nav labi dafür automātiski tulkot kā “tāpēc”; tam biežāk lieto darum vai deshalb."
+        "Основная идея: dafür означает «то», «то» или «однако», в зависимости от предложения.",
+        "Dafür часто относится к упомянутой выше вещи или действию: об этом.",
+        "Это также может означать, когда речь идет о цели, необходимости или предполагаемом использовании.",
+        "Напротив, dafür может означать «однако».",
+        "Поэтому нехорошо автоматически переводить дафар как «поэтому» • Для этого чаще используют дарум или дешалб."
       ],
       "examples": [
         {
@@ -15687,44 +15120,44 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "Sarunvalodā",
-          "jautājumu",
-          "pieminēta",
-          "darbību",
-          "nolūkam",
+          "Разговорный",
+          "Вопрос",
+          "Упомянул",
+          "Активность",
+          "Цель",
           "atbild",
           "toties",
-          "Bieži",
-          "dafür",
+          "Часто",
+          "Для этого",
           "ideju",
-          "kādam",
+          "Кому-то",
           "lieto",
           "lietu",
-          "tāpēc",
-          "runa"
+          "Поэтому",
+          "Речь"
         ],
         "green": [
-          "dagegen",
-          "lai",
-          "tam"
+          "Дагеген",
+          "К",
+          "Для этого"
         ],
         "yellow": [
           "toties",
-          "damit"
+          "Черт возьми"
         ],
         "orange": [
-          "par to",
-          "ar to"
+          "Об этом",
+          "С этим"
         ],
         "purple": [
-          "par to • tam • toties • tāpēc",
-          "par to / tam / toties",
-          "ar to / lai",
-          "pret to"
+          "Для того • Что • Однако • Поэтому",
+          "Для того/того/однако",
+          "С этим / с",
+          "Против этого"
         ],
         "red": [
-          "deshalb",
-          "tāpēc"
+          "Поэтому",
+          "Поэтому"
         ]
       }
     }
@@ -15750,11 +15183,11 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "С этим",
       "explanation": [
-        "Galvenā doma: damit nozīmē ar to, ja atsaucas uz lietu, vai lai, ja runa ir par mērķi.",
-        "Ja damit aizstāj iepriekš minētu lietu, to tulko kā ar to.",
-        "Ja damit ievada mērķa palīgteikumu, to bieži tulko kā lai.",
-        "damit nav tas pats, kas mit dem, lai gan latviski abi var izskatīties līdzīgi.",
-        "Ja doma ir iemesls “tāpēc”, parasti lieto deshalb, nevis damit."
+        "Основная идея: damit означает «с», когда речь идет о вещи, или «let», когда речь идет о цели.",
+        "Если дамит заменяет вышеупомянутое, оно переводится как то.",
+        "Когда damit вводит вспомогательную цель, это часто переводится как «чтобы».",
+        "Damit — это не то же самое, что mit dem, хотя на латышском языке они могут выглядеть одинаково.",
+        "Если мысль является причиной «следовательно», вместо дамита обычно используется дешалб."
       ],
       "examples": [
         {
@@ -16009,42 +15442,42 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "svarīgākajiem",
-          "palīgteikums",
+          "Самые важные из них",
+          "Вспомогательное предложение",
           "instrumentu",
           "galvenie",
-          "jāatdala",
-          "nozīmēt",
-          "teikumā",
-          "vārdiem",
-          "mērķis",
-          "damit",
+          "Должны быть разделены",
+          "Иметь в виду",
+          "В предложении",
+          "Слова",
+          "Цель",
+          "Черт возьми",
           "lietu",
-          "Tāpēc",
-          "viens",
-          "divi",
-          "runa"
+          "Поэтому",
+          "Один",
+          "Два",
+          "Речь"
         ],
         "green": [
-          "dafür",
-          "lai",
-          "tam"
+          "Для этого",
+          "К",
+          "Для этого"
         ],
         "yellow": [
-          "weil"
+          "Хорошо"
         ],
         "orange": [
-          "par to",
-          "ar to"
+          "Об этом",
+          "С этим"
         ],
         "purple": [
           "par to / tam",
-          "ar to / lai",
+          "С этим / с",
           "ar to • lai",
-          "tāpēc ka"
+          "Потому что"
         ],
         "red": [
-          "um ... zu"
+          "Хм... тьфу"
         ]
       }
     }
@@ -16064,11 +15497,11 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Благодарность",
       "explanation": [
-        "Galvenā doma: der Dank ir lietvārds un nozīmē pateicību kā jēdzienu. Galvenā nozīme ir pateicība — ne jaukt ar sarunvalodas atbildi danke.",
-        "Biežāk sastopamās frāzes ir Vielen Dank! un Herzlichen Dank! — tās nozīmē „liels paldies!” un „sirsnīgs paldies!”.",
-        "danke ir atbilde vai īss pateicības vārds sarunā: „paldies”.",
-        "danken ir darbības vārds: „pateikties”. ar kam? formu: Ich danke dir.",
-        "der Dank nav tas pats, kas danke: Dank ir lietvārds, danke ir sarunvalodas atbilde."
+        "Основная идея: der Dank — существительное и означает «спасибо» как понятие. Основное значение – благодарность – не путать с разговорным ответом данке.",
+        "Самые распространённые фразы – Vielen Dank! и Герцлихен Данк! — они означают «большое спасибо!» и «Большое спасибо!».",
+        "Danke – ответ или короткое слово благодарности в разговоре: «спасибо».",
+        "Danken — глагол: «благодарить». с кем? форма: Ich Danke реж.",
+        "Der Dank — это не то же самое, что danke: Dank — существительное, danke — разговорный ответ."
       ],
       "examples": [
         {
@@ -16147,20 +15580,11 @@ const A2_WORDS = [
             "blue": [
               "Dank",
               "Vielen Dank",
-              "Herzlichen Dank",
               "danke",
               "danken"
             ]
           },
-          "lv": {
-            "purple": [
-              "pateicība",
-              "paldies",
-              "pateikties",
-              "liels paldies",
-              "sirsnīgs paldies"
-            ]
-          }
+          "lv": {}
         },
         "examples": [
           {
@@ -16350,11 +15774,11 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "На этом • На этом • После этого",
       "explanation": [
-        "Galvenā doma: darauf nozīmē uz to, uz tā vai pēc tam atkarībā no konteksta.",
-        "Ja runa ir par virsmu, darauf nozīmē uz tā.",
-        "Ja runa ir par atsauci uz iepriekš minētu lietu, darauf nozīmē uz to.",
-        "Laika secībā darauf var nozīmēt pēc tam.",
-        "darauf nav tas pats, kas darüber, jo darüber parasti nozīmē par to vai virs tā."
+        "Основная идея: дараф означает «то», «то» или «после», в зависимости от контекста.",
+        "Когда дело доходит до поверхности, дараф означает «на ней».",
+        "Если это ссылка на вещь, упомянутую выше, то дараф означает это.",
+        "В хронологическом порядке дарауф может означать «после».",
+        "Дарауф — это не то же самое, что даруфер, потому что даруфер обычно означает «приблизительно» или «выше»."
       ],
       "examples": [
         {
@@ -16420,7 +15844,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Darauf freue ich mich буквально означает «тем самым я радуюсь».",
-        "example": "Tas nozīmē: es to gaidu ar prieku. Ich warte darauf = Es to gaidu. Ich verlasse mich darauf = Es uz to paļaujos."
+        "example": "Это значит: я с нетерпением жду этого. Ich warte darauf = Я жду этого. Ich verlasse mich darauf = Я полагаюсь на это."
       },
       "sectionAccents": {
         "examples": [
@@ -16563,7 +15987,6 @@ const A2_WORDS = [
                 "darauf"
               ],
               "red": [
-                "nozīmē",
                 "Darauf",
                 "freue",
                 "mich"
@@ -16573,14 +15996,9 @@ const A2_WORDS = [
               "blue": [
                 "darauf"
               ],
-              "orange": [
-                "uz to"
-              ],
               "red": [
                 "verlasse",
                 "darauf",
-                "prieku",
-                "gaidu",
                 "warte"
               ]
             }
@@ -16590,44 +16008,44 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "paļauties",
-          "pieminētu",
-          "situāciju",
-          "darbības",
-          "iepriekš",
-          "Dažreiz",
-          "vārdiem",
-          "darauf",
-          "dažiem",
-          "gaidīt",
-          "reaģēt",
+          "Полагаться на",
+          "Упомянул бы",
+          "Ситуация",
+          "Действия",
+          "Заранее",
+          "Иногда",
+          "Слова",
+          "На этом",
+          "Для некоторых",
+          "Ждать",
+          "Реагировать",
           "lieto",
           "lietu",
           "domu",
-          "runa"
+          "Речь"
         ],
         "green": [
-          "par to",
-          "daran",
-          "no tā",
-          "uz tā"
+          "Об этом",
+          "Делает",
+          "Из этого",
+          "На этом"
         ],
         "yellow": [
-          "pēc tam",
-          "davor"
+          "После этого",
+          "Благоволить"
         ],
         "orange": [
-          "priekšā",
-          "pie tā",
+          "Спереди",
+          "При этом",
           "uz to"
         ],
         "purple": [
-          "uz to • uz tā • pēc tam",
-          "pie tā / par to",
+          "На этом • На этом • После этого",
+          "В этом / об этом",
           "pirms tam"
         ],
         "red": [
-          "danach"
+          "Сегодня"
         ]
       }
     }
@@ -16641,11 +16059,11 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Об этом",
       "explanation": [
-        "Galvenā doma: darüber visbiežāk nozīmē par to.",
-        "Ja runa ir par tēmu, sarunu, domu vai sajūtām, darüber parasti tulko kā par to.",
-        "Telpiskā nozīmē darüber var nozīmēt virs tā vai pāri tam.",
-        "Konteksts nosaka, vai runa ir par tēmu vai vietu.",
-        "darüber nav tas pats, kas darauf, jo darauf biežāk nozīmē uz to, uz tā vai pēc tam."
+        "Основная мысль: darüber чаще всего имеет в виду именно это.",
+        "Когда речь идет о теме, разговоре, мысли или чувстве, дарбер обычно переводится как «о».",
+        "В пространственном смысле дарубер может означать «выше» или «за пределами».",
+        "Контекст определяет, является ли это предметом или местом.",
+        "Дарубер — это не то же самое, что дарауф, поскольку дарауф чаще всего означает «на», «после» или «после»."
       ],
       "examples": [
         {
@@ -16711,7 +16129,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Дарюбер может быть как тематическим, так и пространственным.",
-        "example": "Wir sprechen darüber = Mēs runājam par to. Die Lampe hängt darüber = Lampa karājas virs tā. Ich denke darüber nach = Es par to domāju."
+        "example": "Wir sprechen dauber = Мы говорим об этом. Die Lampe hängt dauber = Над ним висит лампа. Ich denke dauber nach = Я думаю об этом."
       },
       "sectionAccents": {
         "examples": [
@@ -16858,29 +16276,21 @@ const A2_WORDS = [
           {
             "text": {
               "blue": [
-                "darüber"
+                "dauber"
               ],
               "red": [
-                "darüber"
+                "dauber"
               ]
             },
             "example": {
               "blue": [
-                "darüber"
-              ],
-              "yellow": [
-                "virs tā"
-              ],
-              "orange": [
-                "par to",
-                "virs"
+                "dauber"
               ],
               "red": [
                 "sprechen",
-                "darüber",
-                "runājam",
+                "dauber",
                 "hängt",
-                "Lampa",
+                "Lampe",
                 "Lampe"
               ]
             }
@@ -16890,47 +16300,47 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "informāciju",
+          "Информация",
           "nachdenken",
-          "darbības",
-          "sprechen",
-          "darüber",
-          "nozīmēt",
-          "vārdiem",
+          "Действия",
+          "Спречен",
+          "Об этом",
+          "Иметь в виду",
+          "Слова",
           "sarunu",
-          "bieži",
-          "domām",
+          "Часто",
+          "Мысли",
           "lieto",
-          "reden",
+          "Разговаривать",
           "vietu",
-          "pāri",
-          "runa",
-          "virs"
+          "Над",
+          "Речь",
+          "Выше"
         ],
         "green": [
-          "pāri tam",
-          "darauf",
-          "pie tā",
-          "uz tā",
-          "pāri"
+          "Над ним",
+          "На этом",
+          "При этом",
+          "На этом",
+          "Над"
         ],
         "yellow": [
-          "virs tā",
-          "daran"
+          "Над этим",
+          "Делает"
         ],
         "orange": [
-          "par to",
+          "Об этом",
           "uz to",
-          "virs"
+          "Выше"
         ],
         "purple": [
-          "par to • pāri tam • virs tā",
-          "par / virs / pāri",
-          "par to / pie tā",
-          "uz to / uz tā"
+          "Об этом • Над этим • Над этим",
+          "За / за / за",
+          "Об этом / об этом",
+          "К этому/на этом"
         ],
         "red": [
-          "über"
+          "Супер"
         ]
       }
     }
@@ -16944,11 +16354,11 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Поэтому",
       "explanation": [
-        "Galvenā doma: darum visbiežāk nozīmē tāpēc vai tādēļ.",
-        "To lieto, ja nākamais teikums izsaka secinājumu vai iemesla rezultātu.",
-        "Retāk darum var nozīmēt ap to, ja runa ir par vietu vai objektu.",
-        "Tāpēc A2 līmenī galvenā nozīme ir tāpēc / tādēļ.",
-        "Ja vajag atsaukties uz “par to” vai “tam”, bieži piemērotāks ir dafür."
+        "Основная мысль: дарум чаще всего означает из-за или из-за.",
+        "Он используется, когда следующее предложение выражает вывод или результат причины.",
+        "Реже дарум может означать «вокруг», когда речь идет о месте или объекте.",
+        "Поэтому на уровне А2 основное значение – следовательно/следовательно.",
+        "Если вам нужно обратиться к «тому» или «этому», часто более уместным будет dafür."
       ],
       "examples": [
         {
@@ -17019,7 +16429,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Дарум – это не просто «вокруг этого».",
-        "example": "Darum bleibe ich zu Hause = Tāpēc es palieku mājās. Darum geht es = Par to ir runa. Mach dir darum keine Sorgen = Par to neuztraucies."
+        "example": "Darum bleibe ich zu Hause = Вот почему я остаюсь дома. Darum geht es = Вот в чем дело. Mach dir darum keine Sorgen = Не беспокойтесь об этом."
       },
       "sectionAccents": {
         "examples": [
@@ -17183,17 +16593,10 @@ const A2_WORDS = [
               "blue": [
                 "darum"
               ],
-              "orange": [
-                "par to",
-                "tāpēc"
-              ],
               "red": [
-                "palieku",
                 "bleibe",
                 "Darum",
-                "Hause",
-                "mājās",
-                "Tāpēc"
+                "Hause"
               ]
             }
           }
@@ -17203,40 +16606,40 @@ const A2_WORDS = [
         "blue": [
           "standardStudy",
           "paskaidrotu",
-          "Sarunvalodā",
-          "formālais",
-          "dabiskāk",
+          "Разговорный",
+          "Формальный",
+          "Более естественно",
           "iemeslu",
-          "nozīmēt",
-          "bieži",
-          "darum",
+          "Иметь в виду",
+          "Часто",
+          "Давай сделаем",
           "lieto",
-          "sekas",
-          "tādēļ",
-          "tāpēc",
+          "Последствия",
+          "Поэтому",
+          "Поэтому",
           "vietu",
-          "nekā",
-          "runa",
+          "Ничего",
+          "Речь",
           "skan"
         ],
         "green": [
-          "deshalb",
-          "tādēļ"
+          "Поэтому",
+          "Поэтому"
         ],
         "yellow": [
-          "darüber",
+          "Об этом",
           "ap to"
         ],
         "orange": [
-          "par to",
-          "tāpēc"
+          "Об этом",
+          "Поэтому"
         ],
         "purple": [
-          "tāpēc • tādēļ • ap to",
+          "Поэтому • Поэтому • Вокруг него",
           "uz to"
         ],
         "red": [
-          "darauf"
+          "На этом"
         ]
       }
     }
@@ -17255,11 +16658,11 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Об этом • Об этом",
       "explanation": [
-        "Galvenā doma: davon nozīmē “no tā” vai “par to” atkarībā no konteksta.",
-        "Ja runa ir par izcelsmi vai daļu, davon parasti nozīmē no tā.",
-        "Ja runa ir par tēmu, dzirdēšanu vai zināšanu, davon bieži nozīmē par to.",
-        "davon nav tas pats, kas darüber, jo darüber biežāk ir par tēmu vai sarunu.",
-        "Ar konkrētu lietvārdu var lietot von dem."
+        "Основная идея: давон означает «от этого» или «около этого» в зависимости от контекста.",
+        "Когда речь идет о происхождении или части, Давон обычно означает «от».",
+        "Если речь идет о какой-то теме, слухе или знании, Дэвон часто имеет в виду именно это.",
+        "Давон – это не то же самое, что дарбер, потому что дарбер чаще касается темы или разговора.",
+        "Вы можете использовать von dem с конкретным существительным."
       ],
       "examples": [
         {
@@ -17288,27 +16691,17 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Ja latviski vari pateikt “par to dzirdēju / par to zinu”, vāciski bieži der davon.",
-        "Ja runa ir par sarunu tēmu, bieži lieto darüber."
+        "Если вы можете сказать «Я слышал об этом/Я знаю об этом» по-латышски, Давон часто работает по-немецки.",
+        "Говоря о теме разговора, часто используется деберер."
       ],
       "important": [
-        "davon var nozīmēt gan no tā, gan par to.",
-        "darüber parasti ir tuvāks “par to” sarunās.",
-        "daraus nozīmē no tā, ja kaut kas rodas vai iznāk."
+        "Давон может означать как «от», так и «около».",
+        "Darüber обычно в разговоре ближе к слову «об этом».",
+        "Дараус означает «из него, если что-то возникает или выходит»."
       ],
       "sectionAccents": {
         "explanation": {
           "text": {
-            "blue": [
-              "davon"
-            ],
-            "purple": [
-              "no tā",
-              "par to"
-            ],
-            "green": [
-              "darüber"
-            ],
             "red": [
               "von dem"
             ]
@@ -17393,63 +16786,25 @@ const A2_WORDS = [
         ],
         "tip": [
           {
-            "text": {
-              "blue": [
-                "davon"
-              ],
-              "purple": [
-                "par to"
-              ],
-              "green": [
-                "dzirdēju",
-                "zinu"
-              ]
-            }
+            "text": {}
           },
           {
-            "text": {
-              "red": [
-                "darüber"
-              ],
-              "purple": [
-                "sarunu tēmu"
-              ]
-            }
+            "text": {}
           }
         ],
         "important": [
           {
-            "text": {
-              "blue": [
-                "davon"
-              ],
-              "purple": [
-                "no tā",
-                "par to"
-              ]
-            }
+            "text": {}
           },
           {
             "text": {
               "red": [
                 "darüber"
-              ],
-              "purple": [
-                "par to"
               ]
             }
           },
           {
-            "text": {
-              "red": [
-                "daraus"
-              ],
-              "purple": [
-                "no tā",
-                "rodas",
-                "iznāk"
-              ]
-            }
+            "text": {}
           }
         ]
       },
@@ -17473,11 +16828,11 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Спереди",
       "explanation": [
-        "Galvenā doma: davor var nozīmēt vietu priekšā, laiku pirms tam vai “no tā” pēc bailēm/brīdinājuma.",
-        "Telpiski davor nozīmē priekšā kaut kam.",
-        "Laika nozīmē davor nozīmē pirms tam.",
-        "Ar bailēm vai brīdinājumu davor nozīmē no tā.",
-        "Konteksts rāda, vai runa ir par vietu, laiku vai reakciju."
+        "Основная идея: давор может означать место перед, время до или «от этого» после страха/предупреждения.",
+        "В пространственном отношении давор означает «перед чем-то».",
+        "В смысле времени давор означает «раньше».",
+        "Со страхом или предупреждением следует избегать этого.",
+        "Контекст показывает, идет ли речь о месте, времени или реакции."
       ],
       "examples": [
         {
@@ -17528,36 +16883,17 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Ja teikumā ir bailes vai brīdinājums, davor bieži nozīmē no tā.",
-        "Ja runa ir par laiku, davor nozīmē pirms tam."
+        "Если в предложении есть страх или предупреждение, то давор часто означает «от него».",
+        "Когда дело доходит до времени, давор означает «раньше»."
       ],
       "important": [
-        "davor nozīme mainās pēc konteksta.",
-        "vor dem lieto ar konkrētu lietvārdu.",
-        "davor nav tas pats, kas danach."
+        "Значение давора меняется в зависимости от контекста.",
+        "Vor dem используется с конкретным существительным.",
+        "Давор – это не то же самое, что данах."
       ],
       "sectionAccents": {
         "explanation": {
-          "text": {
-            "blue": [
-              "davor"
-            ],
-            "purple": [
-              "priekšā",
-              "pirms tam",
-              "no tā"
-            ],
-            "green": [
-              "vietu"
-            ],
-            "yellow": [
-              "laiku"
-            ],
-            "red": [
-              "bailēm",
-              "brīdinājumu"
-            ]
-          }
+          "text": {}
         },
         "examples": [
           {
@@ -17646,63 +16982,25 @@ const A2_WORDS = [
         ],
         "tip": [
           {
-            "text": {
-              "blue": [
-                "davor"
-              ],
-              "purple": [
-                "no tā"
-              ],
-              "green": [
-                "bailes",
-                "brīdinājums"
-              ]
-            }
+            "text": {}
           },
           {
-            "text": {
-              "blue": [
-                "davor"
-              ],
-              "purple": [
-                "pirms tam"
-              ],
-              "green": [
-                "laiku"
-              ]
-            }
+            "text": {}
           }
         ],
         "important": [
           {
-            "text": {
-              "blue": [
-                "davor"
-              ],
-              "purple": [
-                "mainās pēc konteksta"
-              ]
-            }
+            "text": {}
           },
           {
             "text": {
               "red": [
                 "vor dem"
-              ],
-              "green": [
-                "konkrētu lietvārdu"
               ]
             }
           },
           {
-            "text": {
-              "blue": [
-                "davor"
-              ],
-              "red": [
-                "danach"
-              ]
-            }
+            "text": {}
           }
         ]
       },
@@ -17726,11 +17024,11 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Для этого",
       "explanation": [
-        "Galvenā doma: dazu nozīmē “tam”, “pie tā”, “klāt” vai “turklāt” atkarībā no konteksta.",
-        "dazu bieži atsaucas uz iepriekš minētu lietu vai darbību.",
-        "Tas var nozīmēt pie tā vai klāt, ja kaut kas tiek pievienots.",
-        "Tas var nozīmēt tam, ja runa ir par attieksmi vai viedokli.",
-        "Dažos teikumos dazu nozīmē turklāt."
+        "Основная идея: дазу означает «к», «в», «настоящее время» или «кроме того», в зависимости от контекста.",
+        "Дазу часто относится к предмету или действию, упомянутому выше.",
+        "Это может означать «рядом с ним» или «присутствовать», если что-то добавлено.",
+        "Это может означать то же самое, когда дело касается отношения или мнения.",
+        "В некоторых предложениях дазу означает «кроме того»."
       ],
       "examples": [
         {
@@ -17781,32 +17079,16 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Ja kaut ko pievieno, dazu bieži tulko kā klāt vai pie tā.",
-        "Ja prasa viedokli, Was sagst du dazu? nozīmē “Ko tu par to saki?”"
+        "Если что-то добавляется, дазу часто переводится как присутствующее или рядом с ним.",
+        "Если вы спросите мнение, было ли sagst du dazu? означает «Что вы об этом скажете?»"
       ],
       "important": [
-        "dazu nav viena latviešu vārda.",
-        "Tulkojums jāizvēlas pēc situācijas: tam, pie tā, klāt vai turklāt."
+        "Для этого нет ни одного латышского слова.",
+        "Перевод следует выбирать по ситуации: к тому, к тому, присутствующему или дополнительно."
       ],
       "sectionAccents": {
         "explanation": {
-          "text": {
-            "blue": [
-              "dazu"
-            ],
-            "purple": [
-              "tam",
-              "pie tā",
-              "klāt",
-              "turklāt"
-            ],
-            "green": [
-              "pievienots"
-            ],
-            "yellow": [
-              "viedokli"
-            ]
-          }
+          "text": {}
         },
         "examples": [
           {
@@ -17898,10 +17180,6 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "dazu"
-              ],
-              "purple": [
-                "klāt",
-                "pie tā"
               ]
             }
           },
@@ -17909,37 +17187,16 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "dazu"
-              ],
-              "yellow": [
-                "Was sagst du dazu?"
-              ],
-              "purple": [
-                "viedokli",
-                "par to"
               ]
             }
           }
         ],
         "important": [
           {
-            "text": {
-              "blue": [
-                "dazu"
-              ],
-              "purple": [
-                "latviešu vārda"
-              ]
-            }
+            "text": {}
           },
           {
-            "text": {
-              "purple": [
-                "tam",
-                "pie tā",
-                "klāt",
-                "turklāt"
-              ]
-            }
+            "text": {}
           }
         ]
       },
@@ -17967,11 +17224,11 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Одеяло",
       "explanation": [
-        "Galvenā doma: die Decke var nozīmēt segu vai griestus atkarībā no konteksta.",
-        "Guļamistabā die Decke parasti nozīmē sega.",
-        "Istabā vai ēkā die Decke bieži nozīmē griesti.",
-        "Apsegs nav galvenā A2 nozīme šai kartītei.",
-        "Konteksts palīdz saprast, vai runa ir par gultu vai telpu."
+        "Основная идея: die Decke может означать одеяло или потолок в зависимости от контекста.",
+        "В спальне die Decke обычно означает одеяло.",
+        "В комнате или здании die Decke часто означает потолок.",
+        "Обложка не является основной целью A2 для этой карты.",
+        "Контекст помогает понять, кровать это или комната."
       ],
       "examples": [
         {
@@ -18027,25 +17284,19 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Ja runa ir par gulēšanu vai siltumu, die Decke parasti ir sega.",
-        "Ja runa ir par lampu vai istabu, die Decke parasti ir griesti."
+        "Когда дело доходит до сна или тепла, Die Decke обычно представляет собой одеяло.",
+        "Когда дело касается лампы или комнаты, die Decke обычно является потолком."
       ],
       "important": [
-        "die Decke nav tas pats, kas das Dach.",
-        "das Dach ir jumts ārpusē vai ēkas augšā.",
-        "die Zimmerdecke skaidri nozīmē griesti."
+        "Die Decke — это не то же самое, что das Dach.",
+        "Das Dach — это крыша снаружи или сверху здания.",
+        "Die Zimmerdecke явно означает потолок."
       ],
       "sectionAccents": {
         "explanation": {
           "text": {
             "blue": [
               "die Decke"
-            ],
-            "purple": [
-              "segu",
-              "griestus",
-              "sega",
-              "griesti"
             ]
           }
         },
@@ -18143,13 +17394,6 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "Decke"
-              ],
-              "purple": [
-                "sega"
-              ],
-              "green": [
-                "gulēšanu",
-                "siltumu"
               ]
             }
           },
@@ -18157,13 +17401,6 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "Decke"
-              ],
-              "purple": [
-                "griesti"
-              ],
-              "yellow": [
-                "lampu",
-                "istabu"
               ]
             }
           }
@@ -18183,12 +17420,6 @@ const A2_WORDS = [
             "text": {
               "red": [
                 "Dach"
-              ],
-              "purple": [
-                "jumts"
-              ],
-              "green": [
-                "ēkas augšā"
               ]
             }
           },
@@ -18196,9 +17427,6 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "Zimmerdecke"
-              ],
-              "purple": [
-                "griesti"
               ]
             }
           }
@@ -18241,11 +17469,11 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Потому что",
       "explanation": [
-        "Galvenā doma: denn var nozīmēt “jo” vai jautājumos pastiprināt nozīmi kā latviešu “tad”.",
-        "Ja denn savieno divas domas, tas bieži nozīmē jo.",
-        "Jautājumos denn bieži padara jautājumu dabiskāku vai izsaka interesi.",
-        "Tāpēc ka nav jāizceļ kā atsevišķa galvenā nozīme, jo praktiski pārklājas ar jo.",
-        "denn nav tas pats, kas dann, kas nozīmē tad laika secībā."
+        "Основная идея: denn может означать «потому что» или усиливать значение таких вопросов, как латышское «тогда».",
+        "Когда Денн соединяет две мысли, это часто означает «потому что».",
+        "В вопросах Денн часто делает вопрос более естественным или выражает интерес.",
+        "Потому что не нужно выделять в отдельное основное значение, потому что практически пересекается с потому что.",
+        "Денн — это не то же самое, что данн, что означает «тогда в хронологическом порядке»."
       ],
       "examples": [
         {
@@ -18296,13 +17524,13 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Apgalvojuma teikumā denn bieži tulko kā jo.",
-        "Jautājumos denn bieži ir latviešu tad: Was denn? = Kas tad?"
+        "В утвердительном предложении денн часто переводится как дзё.",
+        "В вопросах denn часто бывает латышским: Was denn? = Что тогда?"
       ],
       "important": [
-        "denn un dann nav viens un tas pats.",
-        "denn paskaidro iemeslu vai pastiprina jautājumu.",
-        "dann norāda secību laikā."
+        "Денн и Данн не одно и то же.",
+        "Денн объясняет причину или усиливает вопрос.",
+        "Данн указывает последовательность во времени."
       ],
       "sectionAccents": {
         "explanation": {
@@ -18310,15 +17538,8 @@ const A2_WORDS = [
             "blue": [
               "denn"
             ],
-            "purple": [
-              "jo",
-              "tad"
-            ],
-            "green": [
-              "jautājumos"
-            ],
             "yellow": [
-              "dann"
+              "denn"
             ]
           }
         },
@@ -18407,12 +17628,6 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "denn"
-              ],
-              "purple": [
-                "jo"
-              ],
-              "green": [
-                "Apgalvojuma teikumā"
               ]
             }
           },
@@ -18420,9 +17635,6 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "denn"
-              ],
-              "purple": [
-                "tad"
               ],
               "yellow": [
                 "Was denn?"
@@ -18432,35 +17644,13 @@ const A2_WORDS = [
         ],
         "important": [
           {
-            "text": {
-              "blue": [
-                "denn"
-              ],
-              "red": [
-                "dann"
-              ]
-            }
+            "text": {}
           },
           {
-            "text": {
-              "blue": [
-                "denn"
-              ],
-              "purple": [
-                "iemeslu",
-                "jautājumu"
-              ]
-            }
+            "text": {}
           },
           {
-            "text": {
-              "red": [
-                "dann"
-              ],
-              "purple": [
-                "secību laikā"
-              ]
-            }
+            "text": {}
           }
         ]
       },
@@ -18520,11 +17710,11 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Толстый",
       "explanation": [
-        "Galvenā doma: dick nozīmē resns, ja runa ir par cilvēku vai dzīvnieku, un biezs, ja runa ir par priekšmetu, slāni vai grāmatu.",
-        "Par cilvēku dick var nozīmēt resns, bet tas var skanēt tieši vai nepieklājīgi.",
-        "Par grāmatu, sienu, slāni vai audumu dick nozīmē biezs.",
-        "dick nav tas pats, kas breit.",
-        "Pretstats bieži ir dünn."
+        "Основная идея: член означает толстый, когда речь идет о человеке или животном, и толстый, когда речь идет о предмете, слое или книге.",
+        "Для человека член может означать толстый, но может звучать прямо или невежливо.",
+        "Для книги, стены, слоя или ткани член означает толстый.",
+        "Дик - это не то же самое, что Брейт.",
+        "Часто бывает наоборот."
       ],
       "examples": [
         {
@@ -18580,39 +17770,17 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Par priekšmetiem dick bieži nozīmē biezs.",
-        "Par cilvēkiem labāk lietot uzmanīgi, jo dick var skanēt aizskaroši."
+        "В разговорной речи «член» часто означает «толстый».",
+        "Людям лучше использовать с осторожностью, потому что член может звучать оскорбительно."
       ],
       "important": [
-        "dick ≠ gut.",
-        "dick un dünn bieži veido pretstatu: biezs/plāns vai resns/tievs.",
-        "breit nozīmē plats, nevis biezs."
+        "Член ≠ кишка.",
+        "Дик и Данн часто противопоставляются: толстый/худой или толстый/худой.",
+        "Брейт означает широкий, а не толстый."
       ],
       "sectionAccents": {
         "explanation": {
-          "text": {
-            "blue": [
-              "dick"
-            ],
-            "purple": [
-              "resns",
-              "biezs"
-            ],
-            "green": [
-              "cilvēku",
-              "dzīvnieku"
-            ],
-            "yellow": [
-              "grāmatu",
-              "sienu",
-              "slāni",
-              "audumu"
-            ],
-            "red": [
-              "dünn",
-              "breit"
-            ]
-          }
+          "text": {}
         },
         "examples": [
           {
@@ -18697,69 +17865,21 @@ const A2_WORDS = [
         ],
         "tip": [
           {
-            "text": {
-              "blue": [
-                "dick"
-              ],
-              "purple": [
-                "biezs"
-              ],
-              "yellow": [
-                "priekšmetiem"
-              ]
-            }
+            "text": {}
           },
           {
-            "text": {
-              "blue": [
-                "dick"
-              ],
-              "red": [
-                "aizskaroši"
-              ],
-              "green": [
-                "cilvēkiem"
-              ]
-            }
+            "text": {}
           }
         ],
         "important": [
           {
-            "text": {
-              "blue": [
-                "dick"
-              ],
-              "red": [
-                "gut"
-              ]
-            }
+            "text": {}
           },
           {
-            "text": {
-              "blue": [
-                "dick"
-              ],
-              "red": [
-                "dünn"
-              ],
-              "purple": [
-                "biezs",
-                "plāns",
-                "resns",
-                "tievs"
-              ]
-            }
+            "text": {}
           },
           {
-            "text": {
-              "red": [
-                "breit"
-              ],
-              "purple": [
-                "plats",
-                "biezs"
-              ]
-            }
+            "text": {}
           }
         ]
       },
@@ -18886,7 +18006,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Но зачастую нет необходимости переводить слово в слово.",
-        "example": "Bist du nicht müde? Doch. = Vai tu neesi noguris? Esmu gan. Komm doch! nav tikai “nāc”, bet “nāc taču”. Das ist doch klar = Tas taču ir skaidrs."
+        "example": "Bist du nicht müde? Да. = Ты не устал? Я. Ну давай же! не просто «прийти», а «прийти». Das ist doch klar = Это ясно."
       },
       "sectionAccents": {
         "examples": [
@@ -19077,20 +18197,9 @@ const A2_WORDS = [
               "blue": [
                 "doch"
               ],
-              "green": [
-                "taču"
-              ],
-              "purple": [
-                "bet"
-              ],
               "red": [
-                "noguris",
-                "neesi",
                 "Doch",
-                "Esmu",
-                "Komm",
-                "müde",
-                "gan"
+                "müde"
               ]
             }
           }
@@ -19099,47 +18208,47 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "svarīgākajiem",
-          "iepriekšējai",
+          "Самые важные из них",
+          "Для предыдущего",
           "sarunvalodas",
-          "pretēji tam",
-          "Atbildēs",
-          "nozīmēt",
-          "pretēji",
-          "vārdiem",
-          "bieži",
+          "Вопреки этому",
+          "Отвечу",
+          "Иметь в виду",
+          "Напротив",
+          "Слова",
+          "Часто",
           "domai",
-          "pretī",
-          "tomēr",
-          "viens",
-          "doch",
-          "runā",
-          "taču",
-          "vācu"
+          "Противоположный",
+          "Однако",
+          "Один",
+          "Но",
+          "Говорит",
+          "Однако",
+          "Немецкий"
         ],
         "green": [
           "neskatoties uz to",
-          "aber",
-          "taču"
+          "Но",
+          "Однако"
         ],
         "yellow": [
-          "trotzdem",
+          "Тем не менее",
           "jel"
         ],
         "orange": [
-          "tomēr"
+          "Однако"
         ],
         "purple": [
-          "tomēr • taču • jel • gan • pretēji tam",
-          "tomēr / neskatoties uz to",
-          "nein",
-          "bet",
-          "jau",
-          "nē"
+          "Однако • Пока • Однако • Однако • Вопреки этому",
+          "Однако/несмотря на это",
+          "Ничего",
+          "Но",
+          "Уже",
+          "Нет"
         ],
         "red": [
-          "gan",
-          "ja"
+          "Оба",
+          "Если"
         ]
       }
     }
@@ -19155,11 +18264,11 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Врач",
       "explanation": [
-        "Galvenā doma: der Doktor var nozīmēt cilvēku ar doktora grādu vai sarunvalodā ārstu.",
-        "Precīzākais vārds ārstam ir der Arzt.",
-        "Doktors kā akadēmisks vai profesionāls tituls ir der Doktor.",
-        "Sarunvalodā pie ārsta var teikt zum Doktor gehen.",
-        "Sieviete ārste ir die Ärztin."
+        "Основная идея: der Doktor может означать человека с докторской степенью или, в просторечии, врача.",
+        "Самое точное слово для врача – der Arzt.",
+        "Доктор как академическое или профессиональное звание — der Doktor.",
+        "В разговорной речи у врача можно сказать zum Doktor gehen.",
+        "Женщина-врач — Ди Эрцтин."
       ],
       "examples": [
         {
@@ -19215,13 +18324,13 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Ja runā par profesiju, drošākais vārds ir der Arzt vai die Ärztin.",
-        "der Doktor bieži ir tituls vai sarunvalodas vārds ārstam."
+        "Говоря о профессии, самое безопасное слово — der Arzt или die Ärztin.",
+        "Der Doktor часто является титулом или разговорным словом, обозначающим врача."
       ],
       "important": [
-        "Ārsts precīzāk ir der Arzt.",
-        "Doktors kā tituls ir der Doktor.",
-        "Ne katrs Doktor ikdienā ir ārsts."
+        "Врач – это точнее der Arzt.",
+        "Доктор как титул — der Doktor.",
+        "Не каждый врач является врачом каждый день."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19231,18 +18340,10 @@ const A2_WORDS = [
               "Doktor"
             ],
             "purple": [
-              "doktors",
-              "ārstu"
+              "Doktor"
             ],
             "green": [
               "der Arzt"
-            ],
-            "yellow": [
-              "die Ärztin"
-            ],
-            "red": [
-              "tituls",
-              "tituls"
             ]
           }
         },
@@ -19337,12 +18438,6 @@ const A2_WORDS = [
               "red": [
                 "Arzt",
                 "Ärztin"
-              ],
-              "purple": [
-                "profesiju"
-              ],
-              "green": [
-                "drošākais vārds"
               ]
             }
           },
@@ -19350,10 +18445,6 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "Doktor"
-              ],
-              "purple": [
-                "tituls",
-                "ārstam"
               ]
             }
           }
@@ -19361,9 +18452,6 @@ const A2_WORDS = [
         "important": [
           {
             "text": {
-              "purple": [
-                "ārsts"
-              ],
               "red": [
                 "Arzt"
               ]
@@ -19372,8 +18460,7 @@ const A2_WORDS = [
           {
             "text": {
               "purple": [
-                "doktors",
-                "tituls"
+                "Doktor"
               ],
               "blue": [
                 "Doktor"
@@ -19381,14 +18468,7 @@ const A2_WORDS = [
             }
           },
           {
-            "text": {
-              "blue": [
-                "Doktor"
-              ],
-              "red": [
-                "ārsts"
-              ]
-            }
+            "text": {}
           }
         ]
       },
@@ -19447,11 +18527,11 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Резать",
       "explanation": [
-        "Galvenā doma: drehen nozīmē griezt vai pagriezt kaut ko ap asi, nevis griezt ar nazi.",
-        "To lieto, ja kaut kas rotē vai tiek pagriezts.",
-        "Ar ķermeni sich drehen nozīmē griezties.",
-        "Ja griež ar nazi vai šķērēm, lieto schneiden.",
-        "umdrehen nozīmē apgriezt otrādi vai pagriezties."
+        "Основная идея: дрехен означает поворачивать или вращать что-то вокруг оси, а не резать ножом.",
+        "Он используется, когда что-то вращается или поворачивается.",
+        "Что касается тела, sich drehen означает поворот.",
+        "Если режете ножом или ножницами, используйте schneiden.",
+        "Умдрехен означает перевернуться или повернуться."
       ],
       "examples": [
         {
@@ -19480,13 +18560,13 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Ja kustība ir ap asi, lieto drehen.",
-        "Ja griež ar nazi vai šķērēm, lieto schneiden."
+        "Если движение происходит вокруг оси, используется дрехен.",
+        "Если режете ножом или ножницами, используйте schneiden."
       ],
       "important": [
-        "Griezt ar nazi = schneiden.",
-        "Drehen = pagriezt / grozīt / rotēt.",
-        "sich drehen nozīmē griezties."
+        "Разрезать ножом = schneiden.",
+        "Дреен = поворачивать/крутить/вращать.",
+        "Sich drehen означает «повернуться»."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19494,19 +18574,11 @@ const A2_WORDS = [
             "blue": [
               "drehen"
             ],
-            "purple": [
-              "griezt",
-              "pagriezt",
-              "rotē"
-            ],
-            "green": [
-              "ap asi"
-            ],
             "yellow": [
               "schneiden"
             ],
             "red": [
-              "umdrehen",
+              "drehen",
               "sich drehen"
             ]
           }
@@ -19591,23 +18663,12 @@ const A2_WORDS = [
         ],
         "tip": [
           {
-            "text": {
-              "blue": [
-                "drehen"
-              ],
-              "purple": [
-                "ap asi"
-              ]
-            }
+            "text": {}
           },
           {
             "text": {
               "red": [
                 "schneiden"
-              ],
-              "purple": [
-                "nazi",
-                "šķērēm"
               ]
             }
           }
@@ -19617,31 +18678,16 @@ const A2_WORDS = [
             "text": {
               "red": [
                 "schneiden"
-              ],
-              "purple": [
-                "griezt ar nazi"
               ]
             }
           },
           {
-            "text": {
-              "blue": [
-                "Drehen"
-              ],
-              "purple": [
-                "pagriezt",
-                "grozīt",
-                "rotēt"
-              ]
-            }
+            "text": {}
           },
           {
             "text": {
               "blue": [
                 "sich drehen"
-              ],
-              "purple": [
-                "griezties"
               ]
             }
           }
@@ -19704,11 +18750,11 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Нажать",
       "explanation": [
-        "Galvenā doma: drücken nozīmē spiest, nospiest vai piespiest atkarībā no objekta.",
-        "Ar pogu drücken bieži nozīmē nospiest.",
-        "Ar cilvēku vai priekšmetu tas var nozīmēt piespiest.",
-        "drücken nav tas pats, kas drucken.",
-        "drucken nozīmē drukāt."
+        "Основная идея: drücken означает давить, давить или принуждать, в зависимости от объекта.",
+        "Что касается кнопки, drücken часто означает «нажать».",
+        "В отношении человека или предмета это может означать принуждение.",
+        "Drücken — это не то же самое, что Drucken.",
+        "Пьяный значит печатать."
       ],
       "examples": [
         {
@@ -19737,13 +18783,13 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Ar pogām un ekrāniem drücken bieži ir nospiest.",
-        "Atceries umlautu: drücken ar ü nav tas pats, kas drucken bez ü."
+        "С помощью кнопок и экранов часто нажимается дрюкен.",
+        "Помните умляут: drücken с ü — это не то же самое, что drucken без ü."
       ],
       "important": [
-        "drücken = spiest.",
-        "drucken = drukāt.",
-        "Šie vārdi izskatās līdzīgi, bet nozīme ir cita."
+        "Drücken = нажать.",
+        "Пьяный = печатать.",
+        "Эти слова похожи, но смысл разный."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19751,19 +18797,8 @@ const A2_WORDS = [
             "blue": [
               "drücken"
             ],
-            "purple": [
-              "spiest",
-              "nospiest",
-              "piespiest"
-            ],
-            "green": [
-              "pogu"
-            ],
             "yellow": [
               "drucken"
-            ],
-            "red": [
-              "drukāt"
             ]
           }
         },
@@ -19849,13 +18884,6 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "drücken"
-              ],
-              "purple": [
-                "nospiest"
-              ],
-              "yellow": [
-                "pogām",
-                "ekrāniem"
               ]
             }
           },
@@ -19868,7 +18896,6 @@ const A2_WORDS = [
                 "drucken"
               ],
               "green": [
-                "umlautu",
                 "ü"
               ]
             }
@@ -19879,28 +18906,14 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "drücken"
-              ],
-              "purple": [
-                "spiest"
               ]
             }
           },
           {
-            "text": {
-              "red": [
-                "drucken"
-              ],
-              "purple": [
-                "drukāt"
-              ]
-            }
+            "text": {}
           },
           {
-            "text": {
-              "purple": [
-                "nozīme ir cita"
-              ]
-            }
+            "text": {}
           }
         ]
       },
@@ -19948,11 +18961,11 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "План",
       "explanation": [
-        "Galvenā doma: dünn nozīme mainās pēc lietas: cilvēks ir tievs, papīrs ir plāns, mati var būt reti, zupa var būt šķidra.",
-        "Par cilvēku vai dzīvnieku dünn nozīmē tievs.",
-        "Par papīru, sienu vai audumu dünn nozīmē plāns.",
-        "Par matiem dünn var nozīmēt rets.",
-        "Par zupu vai šķidrumu dünn var nozīmēt šķidrs."
+        "Основная идея: Значение dünn меняется в зависимости от случая: человек худой, бумага тонкая, волосы могут быть редкими, суп может быть жидким.",
+        "Для человека или животного dünn означает худой.",
+        "Для бумаги, стены или ткани dünn означает тонкий.",
+        "Для волос dünn может означать редкий.",
+        "Для супа или жидкости dünn может означать жидкость."
       ],
       "examples": [
         {
@@ -20008,31 +19021,19 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Tulkojumu izvēlies pēc lietas: papīrs ir plāns, cilvēks ir tievs.",
-        "Pretstats bieži ir dick, bet ne vienmēr vienā un tajā pašā latviešu vārdā."
+        "Перевод выбирайте по случаю: бумага тонкая, человек тонкий.",
+        "Противоположностью часто является член, но не всегда в одном и том же латышском слове."
       ],
       "important": [
-        "dünn var tulkot dažādi, bet vācu valodā tas ir viens ļoti biežs vārds.",
-        "schmal nozīmē šaurs, nevis plāns.",
-        "flüssig ir precīzāks vārds šķidram stāvoklim."
+        "Dünn можно перевести по-разному, но в немецком языке это одно очень распространенное слово.",
+        "Шмаль означает узкий, а не тонкий.",
+        "Flussig — более точное слово для обозначения жидкого состояния."
       ],
       "sectionAccents": {
         "explanation": {
           "text": {
             "blue": [
               "dünn"
-            ],
-            "purple": [
-              "plāns",
-              "tievs",
-              "rets",
-              "šķidrs"
-            ],
-            "green": [
-              "cilvēks",
-              "papīrs",
-              "mati",
-              "zupa"
             ]
           }
         },
@@ -20119,28 +19120,10 @@ const A2_WORDS = [
         ],
         "tip": [
           {
-            "text": {
-              "purple": [
-                "plāns",
-                "tievs"
-              ],
-              "yellow": [
-                "papīrs"
-              ],
-              "green": [
-                "cilvēks"
-              ]
-            }
+            "text": {}
           },
           {
-            "text": {
-              "red": [
-                "dick"
-              ],
-              "purple": [
-                "pretstats"
-              ]
-            }
+            "text": {}
           }
         ],
         "important": [
@@ -20148,30 +19131,16 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "dünn"
-              ],
-              "purple": [
-                "tulkot dažādi"
               ]
             }
           },
           {
-            "text": {
-              "red": [
-                "schmal"
-              ],
-              "purple": [
-                "šaurs",
-                "plāns"
-              ]
-            }
+            "text": {}
           },
           {
             "text": {
               "red": [
                 "flüssig"
-              ],
-              "purple": [
-                "šķidram stāvoklim"
               ]
             }
           }
@@ -20200,11 +19169,11 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Через",
       "explanation": [
-        "Galvenā doma: durch var nozīmēt kustību caur kaut ko, virzienu pa kaut ko vai līdzekli/iemeslu “ar / dēļ”.",
-        "Ar vietu durch bieži nozīmē caur.",
-        "Ar pilsētu vai parku latviski bieži saka pa.",
-        "Ar līdzekli vai iemeslu durch var nozīmēt ar vai dēļ.",
-        "durch nav tas pats, kas mit."
+        "Основная идея: durch может означать движение через что-то, направление вдоль чего-то или средство/причину «посредством/из-за».",
+        "Место durch часто означает «пройти».",
+        "Говоря о городе или парке, по-латышски часто говорят pa.",
+        "Посредством или причиной, durch может означать «из-за» или «из-за».",
+        "Durch — это не то же самое, что mit."
       ],
       "examples": [
         {
@@ -20233,13 +19202,13 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Ja kaut kas iet cauri telpai vai vietai, bieži lieto durch.",
-        "Ja runa ir par transportu, biežāk lieto mit, nevis durch."
+        "Если что-то проходит через комнату или место, часто используется слово durch.",
+        "Когда дело доходит до транспорта, чаще используют mit, чем durch."
       ],
       "important": [
-        "durch den Park = caur parku.",
-        "durch die Stadt = pa pilsētu.",
-        "mit = ar transportu vai kopā ar kādu."
+        "Durch den Park = через парк.",
+        "Durch die Stadt = через город.",
+        "Mit = с транспортом или с кем-то."
       ],
       "sectionAccents": {
         "explanation": {
@@ -20248,13 +19217,7 @@ const A2_WORDS = [
               "durch"
             ],
             "purple": [
-              "caur",
-              "pa",
-              "ar",
-              "dēļ"
-            ],
-            "green": [
-              "vietu"
+              "pa"
             ],
             "yellow": [
               "mit"
@@ -20343,13 +19306,6 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "durch"
-              ],
-              "purple": [
-                "cauri"
-              ],
-              "green": [
-                "telpai",
-                "vietai"
               ]
             }
           },
@@ -20357,9 +19313,6 @@ const A2_WORDS = [
             "text": {
               "red": [
                 "mit"
-              ],
-              "purple": [
-                "transportu"
               ]
             }
           }
@@ -20369,9 +19322,6 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "durch"
-              ],
-              "purple": [
-                "caur parku"
               ],
               "green": [
                 "Park"
@@ -20383,9 +19333,6 @@ const A2_WORDS = [
               "blue": [
                 "durch"
               ],
-              "purple": [
-                "pa pilsētu"
-              ],
               "green": [
                 "Stadt"
               ]
@@ -20395,10 +19342,6 @@ const A2_WORDS = [
             "text": {
               "red": [
                 "mit"
-              ],
-              "purple": [
-                "transportu",
-                "kopā ar kādu"
               ]
             }
           }
@@ -20513,7 +19456,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Эбен не обязательно означает «плоский».",
-        "example": "Ich habe ihn eben gesehen = Es viņu tikko redzēju. Das ist eben so = Tā tas vienkārši ir. Der Boden ist eben = Grīda ir līdzena."
+        "example": "Ich habe ihn eben gesehen = Я только что видел его. Das ist eben so = Так оно и есть. Der Boden ist eben = Пол ровный."
       },
       "sectionAccents": {
         "examples": [
@@ -20685,11 +19628,7 @@ const A2_WORDS = [
               "blue": [
                 "eben"
               ],
-              "orange": [
-                "līdzena"
-              ],
               "red": [
-                "līdzena",
                 "eben"
               ]
             },
@@ -20698,12 +19637,8 @@ const A2_WORDS = [
                 "eben"
               ],
               "red": [
-                "vienkārši",
                 "gesehen",
-                "redzēju",
-                "tikko",
-                "eben",
-                "viņu"
+                "eben"
               ]
             }
           }
@@ -20711,47 +19646,47 @@ const A2_WORDS = [
       },
       "accents": {
         "blue": [
-          "daudznozīmīgs",
+          "Многогранный",
           "standardStudy",
-          "Sarunvalodā",
-          "īpašības",
+          "Разговорный",
+          "Характеристики",
           "teikumos",
           "Daudzos",
-          "līdzens",
-          "nozīmēt",
+          "Плоский",
+          "Иметь в виду",
           "izsaka",
-          "bieži",
+          "Часто",
           "gluds",
           "laiku",
           "nupat",
-          "tieši",
-          "tikko",
-          "vārds",
-          "eben"
+          "Напрямую",
+          "Прямо сейчас",
+          "Слово",
+          "Эбен"
         ],
         "green": [
-          "tā tas ir",
-          "gerade",
-          "taisns",
+          "Вот так оно и есть",
+          "Прямо сейчас",
+          "Прямой",
           "gluds"
         ],
         "yellow": [
-          "gerade eben",
-          "tieši"
+          "Джераде Эбен",
+          "Напрямую"
         ],
         "orange": [
-          "tieši tagad",
-          "līdzens"
+          "Прямо сейчас",
+          "Плоский"
         ],
         "purple": [
-          "līdzens • gluds • tieši • tikko • nupat",
-          "tieši tagad / taisns",
-          "tikko / nupat",
-          "plakans"
+          "Плоский • Гладкий • Ровно • Только что • Только что",
+          "Прямо сейчас / прямо",
+          "Прямо сейчас",
+          "Плоский"
         ],
         "red": [
-          "flach",
-          "tikko"
+          "Вспышка",
+          "Прямо сейчас"
         ]
       }
     }
@@ -20804,11 +19739,11 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Честный • Открытый",
       "explanation": [
-        "Galvenā doma: ehrlich nozīmē godīgu vai atklātu, īpaši ja cilvēks nemelo.",
-        "ehrlich lieto par cilvēku, atbildi vai rīcību.",
-        "Tas nozīmē, ka cilvēks saka patiesību vai rīkojas godīgi.",
-        "ehrlich nav tas pats, kas nett.",
-        "aufrichtig ir tuvāks patiesai, sirsnīgai attieksmei."
+        "Основная идея: Эрлих означает честный или откровенный, особенно когда не лгут.",
+        "Эрлих используется для обозначения человека, реакции или действия.",
+        "Это значит, что человек говорит правду или поступает честно.",
+        "Эрлих — это не то же самое, что Нетт.",
+        "Aufrichtig ближе к подлинному, искреннему отношению."
       ],
       "examples": [
         {
@@ -20859,34 +19794,19 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Ja galvenā doma ir, ka cilvēks nemelo, lieto ehrlich.",
-        "Ja runa ir par laipnu vai jauku attieksmi, piemērotāki var būt nett vai freundlich."
+        "Если основная идея состоит в том, что человек не лжет, используется эрлих.",
+        "Когда дело доходит до доброго или приятного отношения, лучше подойдет Нетт или Фрейндлих."
       ],
       "important": [
-        "ehrlich = godīgs / atklāts.",
-        "nett = jauks, nevis obligāti godīgs.",
-        "aufrichtig bieži ir emocionāli sirsnīgāks."
+        "Эрлих = честный/откровенный.",
+        "Nett = приятно, но не обязательно справедливо.",
+        "Aufrichtig зачастую более эмоционально искренен."
       ],
       "sectionAccents": {
         "explanation": {
           "text": {
-            "blue": [
-              "ehrlich"
-            ],
-            "purple": [
-              "godīgu",
-              "atklātu",
-              "godīgi"
-            ],
-            "green": [
-              "nemelo",
-              "patiesību"
-            ],
             "yellow": [
               "aufrichtig"
-            ],
-            "red": [
-              "nett"
             ]
           }
         },
@@ -20968,48 +19888,20 @@ const A2_WORDS = [
         ],
         "tip": [
           {
-            "text": {
-              "blue": [
-                "ehrlich"
-              ],
-              "purple": [
-                "nemelo"
-              ]
-            }
+            "text": {}
           },
           {
-            "text": {
-              "red": [
-                "nett",
-                "freundlich"
-              ],
-              "purple": [
-                "laipnu",
-                "jauku attieksmi"
-              ]
-            }
+            "text": {}
           }
         ],
         "important": [
           {
-            "text": {
-              "blue": [
-                "ehrlich"
-              ],
-              "purple": [
-                "godīgs",
-                "atklāts"
-              ]
-            }
+            "text": {}
           },
           {
             "text": {
               "red": [
                 "nett"
-              ],
-              "purple": [
-                "jauks",
-                "godīgs"
               ]
             }
           },
@@ -21017,9 +19909,6 @@ const A2_WORDS = [
             "text": {
               "red": [
                 "aufrichtig"
-              ],
-              "purple": [
-                "emocionāli sirsnīgāks"
               ]
             }
           }
@@ -21049,11 +19938,11 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Фактически",
       "explanation": [
-        "Galvenā doma: eigentlich ļoti bieži nozīmē patiesībā vai īstenībā, bet kā īpašības vārds var nozīmēt īstais.",
-        "Sarunā eigentlich bieži ievada patieso domu vai precizējumu.",
-        "Tas var mīkstināt jautājumu vai izteikt pārdomas.",
-        "Īsts un patiess kā galvenās nozīmes var sajaukties ar echt un wahr.",
-        "Konteksts rāda, vai eigentlich ir apstākļa vārds vai īpašības vārds."
+        "Основная идея: eigentlich очень часто означает «на самом деле» или «действительно», но как прилагательное может означать «реальный».",
+        "В разговоре eigentlich часто высказывает реальную мысль или поясняет.",
+        "Он может смягчить вопрос или выразить размышление.",
+        "Реальное и истинное можно спутать с echt и wahr как основными значениями.",
+        "Контекст показывает, является ли eigentlich наречием или прилагательным."
       ],
       "examples": [
         {
@@ -21104,30 +19993,19 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Sarunā eigentlich bieži tulko kā patiesībā vai īstenībā.",
-        "Ja runa ir par īstu lietu, parasti lieto echt; ja par patiesu apgalvojumu, lieto wahr."
+        "В разговорной речи eigentlich часто переводится как «действительно» или «на самом деле».",
+        "Когда речь идет о реальной вещи, обычно используется echt • Если для истинного утверждения используйте wahr."
       ],
       "important": [
-        "eigentlich ≠ vienkārši echt.",
-        "eigentlich bieži maina teikuma nokrāsu: patiesībā, īstenībā.",
-        "der eigentliche Grund = īstais iemesls."
+        "Eigentlich ≠ просто echt.",
+        "Eigentlich часто меняет тон предложения: на самом деле, на самом деле.",
+        "Der eigentliche Grund = настоящая причина."
       ],
       "sectionAccents": {
         "explanation": {
           "text": {
             "blue": [
               "eigentlich"
-            ],
-            "purple": [
-              "patiesībā",
-              "īstenībā",
-              "īstais"
-            ],
-            "green": [
-              "apstākļa vārds"
-            ],
-            "yellow": [
-              "īpašības vārds"
             ],
             "red": [
               "echt",
@@ -21220,10 +20098,6 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "eigentlich"
-              ],
-              "purple": [
-                "patiesībā",
-                "īstenībā"
               ]
             }
           },
@@ -21232,10 +20106,6 @@ const A2_WORDS = [
               "red": [
                 "echt",
                 "wahr"
-              ],
-              "purple": [
-                "īstu lietu",
-                "patiesu apgalvojumu"
               ]
             }
           }
@@ -21255,11 +20125,6 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "eigentlich"
-              ],
-              "purple": [
-                "patiesībā",
-                "īstenībā",
-                "teikuma nokrāsu"
               ]
             }
           },
@@ -21267,9 +20132,6 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "eigentliche"
-              ],
-              "purple": [
-                "īstais iemesls"
               ]
             }
           }
@@ -21407,7 +20269,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Einladen может быть социальным или физическим глаголом.",
-        "example": "Gäste einladen = ielūgt viesus. Waren einladen = iekraut preces."
+        "example": "Gäste einladen = приглашать гостей. Waren einladen = загружать товары."
       },
       "sectionAccents": {
         "examples": [
@@ -21570,18 +20432,8 @@ const A2_WORDS = [
               "blue": [
                 "einladen"
               ],
-              "green": [
-                "ielūgt"
-              ],
-              "yellow": [
-                "iekraut"
-              ],
               "red": [
                 "einladen",
-                "iekraut",
-                "ielūgt",
-                "preces",
-                "viesus",
                 "Gäste"
               ]
             }
@@ -21591,46 +20443,46 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "pasākumiem",
-          "kontekstā",
-          "uzaicināt",
+          "События",
+          "В контексте",
+          "Пригласить",
           "draugiem",
-          "einladen",
-          "cilvēku",
-          "iekraut",
-          "nozīmēt",
+          "Эйнладен",
+          "Люди",
+          "Загрузить",
+          "Иметь в виду",
           "viesiem",
-          "ielūgt",
+          "Пригласить",
           "preces",
           "kravu",
-          "laden",
+          "Загрузка",
           "lieto",
-          "Citā"
+          "В другом"
         ],
         "green": [
           "apciemot",
-          "ielūgt",
-          "laden",
-          "lādēt"
+          "Пригласить",
+          "Загрузка",
+          "Заряжать"
         ],
         "yellow": [
-          "besuchen",
-          "iekraut"
+          "Посещать",
+          "Загрузить"
         ],
         "orange": [
-          "uzaicināt",
-          "apmeklēt",
+          "Пригласить",
+          "Посетить",
           "kraut"
         ],
         "purple": [
-          "uzaicināt • ielūgt • iekraut",
-          "apmeklēt / apciemot",
-          "uzaicināt / iekraut",
-          "kraut / lādēt",
-          "paņemt līdzi"
+          "Пригласить • Пригласить • Загрузить",
+          "Посетить / посетить",
+          "Пригласить/загрузить",
+          "Нагрузка/заряд",
+          "Возьми с собой"
         ],
         "red": [
-          "mitbringen"
+          "Митбринген"
         ]
       }
     }
@@ -21721,7 +20573,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Einshalten и ausschalten — противоположности устройств.",
-        "example": "Licht einschalten = ieslēgt gaismu. Licht ausschalten = izslēgt gaismu."
+        "example": "Licht einshalten = включи свет. Licht ausschalten = выключить свет."
       },
       "sectionAccents": {
         "examples": [
@@ -21860,35 +20712,26 @@ const A2_WORDS = [
           {
             "text": {
               "blue": [
-                "einschalten"
+                "Einshalten"
               ],
               "green": [
                 "ausschalten"
               ],
               "red": [
                 "ausschalten",
-                "einschalten"
+                "Einshalten"
               ]
             },
             "example": {
               "blue": [
-                "einschalten"
+                "Einshalten"
               ],
               "green": [
                 "ausschalten"
               ],
-              "orange": [
-                "ieslēgt"
-              ],
-              "purple": [
-                "izslēgt"
-              ],
               "red": [
                 "ausschalten",
-                "einschalten",
-                "ieslēgt",
-                "izslēgt",
-                "gaismu",
+                "Einshalten",
                 "Licht"
               ]
             }
@@ -21898,41 +20741,41 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "einschalten",
-          "institūciju",
-          "risināšanā",
+          "Айншлантен",
+          "Учреждение",
+          "Решение",
           "televizoru",
-          "iesaistīt",
-          "problēmas",
-          "cilvēku",
-          "Dažreiz",
-          "ieslēgt",
-          "nozīmēt",
+          "Вовлекать",
+          "Проблемы",
+          "Люди",
+          "Иногда",
+          "Включать",
+          "Иметь в виду",
           "datoru",
           "gaismu",
-          "ierīci",
+          "Устройство",
           "lieto",
-          "radio"
+          "Радио"
         ],
         "green": [
-          "ausschalten",
-          "sarunvalodā",
-          "iesaistīt"
+          "Аусшальтен",
+          "В разговорной речи",
+          "Вовлекать"
         ],
         "yellow": [
-          "anmachen"
+          "Анмачен"
         ],
         "orange": [
-          "ieslēgt"
+          "Включать"
         ],
         "purple": [
-          "ieslēgt (sarunvalodā",
-          "ieslēgt / iesaistīt",
-          "ieslēgt • iesaistīt",
-          "izslēgt"
+          "Включить (разговорно",
+          "Включить/задействовать",
+          "Включить • Вовлечь",
+          "Выключать"
         ],
         "red": [
-          "einbeziehen"
+          "Эйнбезиехен"
         ]
       }
     }
@@ -22000,14 +20843,14 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Ja runa ir par cilvēku un miegu, einschlafen tulko kā aizmigt.",
-        "Ja runa ir par roku vai kāju, eingeschlafen latviski parasti ir notirpis."
+        "Когда речь идет о людях и сне, einschlafen переводится как засыпание.",
+        "Когда речь идет о руке или ноге, по-латышски eingeschlafen обычно онемеет."
       ],
       "important": [
-        "einschlafen nav tas pats, kas schlafen.",
-        "schlafen = gulēt.",
-        "einschlafen = aizmigt.",
-        "Mein Bein ist eingeschlafen = man notirpa kāja."
+        "Айншлафен — это не то же самое, что шлафен.",
+        "Шлафен = спать.",
+        "Einschlafen = заснуть.",
+        "Mein Bein ist eingeschlafen = моя нога онемела."
       ],
       "sectionAccents": {
         "explanation": {
@@ -22121,13 +20964,6 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "einschlafen"
-              ],
-              "purple": [
-                "aizmigt"
-              ],
-              "green": [
-                "cilvēku",
-                "miegu"
               ]
             }
           },
@@ -22135,45 +20971,21 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "eingeschlafen"
-              ],
-              "purple": [
-                "notirpis"
-              ],
-              "green": [
-                "roku",
-                "kāju"
               ]
             }
           }
         ],
         "important": [
           {
-            "text": {
-              "blue": [
-                "einschlafen"
-              ],
-              "red": [
-                "schlafen"
-              ]
-            }
+            "text": {}
           },
           {
-            "text": {
-              "red": [
-                "schlafen"
-              ],
-              "purple": [
-                "gulēt"
-              ]
-            }
+            "text": {}
           },
           {
             "text": {
               "blue": [
                 "einschlafen"
-              ],
-              "purple": [
-                "aizmigt"
               ]
             }
           },
@@ -22182,12 +20994,8 @@ const A2_WORDS = [
               "blue": [
                 "eingeschlafen"
               ],
-              "purple": [
-                "notirpa"
-              ],
               "green": [
-                "Bein",
-                "kāja"
+                "Bein"
               ]
             }
           }
@@ -22264,7 +21072,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Einsteigen и aussteigen образуют пару.",
-        "example": "in den Bus einsteigen = iekāpt autobusā. aus dem Bus aussteigen = izkāpt no autobusa."
+        "example": "In den Bus einsteigen = сесть в автобус. aus dem Bus aussteigen = выйти из автобуса."
       },
       "sectionAccents": {
         "examples": [
@@ -22421,17 +21229,9 @@ const A2_WORDS = [
               "green": [
                 "aussteigen"
               ],
-              "orange": [
-                "iekāpt",
-                "izkāpt"
-              ],
               "red": [
                 "aussteigen",
-                "einsteigen",
-                "autobusa",
-                "autobusā",
-                "iekāpt",
-                "izkāpt"
+                "einsteigen"
               ]
             }
           }
@@ -22439,45 +21239,45 @@ const A2_WORDS = [
       },
       "accents": {
         "blue": [
-          "transportlīdzeklī",
+          "В машине",
           "standardStudy",
-          "iesaistīties",
-          "einsteigen",
-          "lidmašīnu",
+          "Принять участие",
+          "Эйнштайген",
+          "Самолет",
           "autobusu",
-          "Pārnestā",
-          "projektā",
+          "Перенесено",
+          "В проекте",
           "vilcienu",
-          "biznesā",
-          "Dažreiz",
-          "nozīmēt",
-          "iekāpt",
-          "sarunā",
+          "В бизнесе",
+          "Иногда",
+          "Иметь в виду",
+          "Залезай",
+          "В разговоре",
           "lieto",
           "auto",
-          "sākt"
+          "Начать"
         ],
         "green": [
-          "iesaistīties",
-          "aussteigen",
-          "izstāties"
+          "Принять участие",
+          "Аусштайген",
+          "Покидать"
         ],
         "yellow": [
-          "umsteigen"
+          "Умштайген"
         ],
         "orange": [
-          "iekāpt",
-          "izkāpt"
+          "Залезай",
+          "Отправиться"
         ],
         "purple": [
-          "iekāpt / iesaistīties",
-          "iekāpt • iesaistīties",
-          "izkāpt / izstāties",
-          "piedalīties",
-          "pārsēsties"
+          "Вмешаться / принять участие",
+          "Приступить к работе • Заняться",
+          "Выйти / уйти",
+          "Участвовать",
+          "Пересесть"
         ],
         "red": [
-          "mitmachen"
+          "Митмахен"
         ]
       }
     }
@@ -22542,14 +21342,14 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Ja runa ir par cenu vai pasākumu, der Eintritt bieži nozīmē ieejas maksu.",
-        "Ja runa ir par durvīm vai vietu, precīzāks vārds bieži ir der Eingang."
+        "Говоря о цене или мероприятии, der Eintritt часто имеет в виду плату за вход.",
+        "Когда речь идет о двери или месте, более точным словом часто является der Eingang."
       ],
       "important": [
-        "der Eintritt = ieeja vai maksa par ieiešanu.",
-        "der Eingang = fiziska ieeja.",
-        "die Eintrittskarte = ieejas biļete.",
-        "Iestāšanās organizācijā bieži tiek izteikta arī ar beitreten."
+        "Der Eintritt = вход или плата за вход.",
+        "Der Eingang = физический вход.",
+        "Die Eintrittskarte = входной билет.",
+        "Присоединение к организации также часто выражается словом beitreten."
       ],
       "sectionAccents": {
         "explanation": {
@@ -22673,13 +21473,6 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "Eintritt"
-              ],
-              "purple": [
-                "ieejas maksu"
-              ],
-              "yellow": [
-                "cenu",
-                "pasākumu"
               ]
             }
           },
@@ -22687,10 +21480,6 @@ const A2_WORDS = [
             "text": {
               "red": [
                 "Eingang"
-              ],
-              "purple": [
-                "durvīm",
-                "vietu"
               ]
             }
           }
@@ -22700,10 +21489,6 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "Eintritt"
-              ],
-              "purple": [
-                "ieeja",
-                "maksa par ieiešanu"
               ]
             }
           },
@@ -22711,9 +21496,6 @@ const A2_WORDS = [
             "text": {
               "red": [
                 "Eingang"
-              ],
-              "purple": [
-                "fiziska ieeja"
               ]
             }
           },
@@ -22721,9 +21503,6 @@ const A2_WORDS = [
             "text": {
               "yellow": [
                 "Eintrittskarte"
-              ],
-              "purple": [
-                "ieejas biļete"
               ]
             }
           },
@@ -22731,9 +21510,6 @@ const A2_WORDS = [
             "text": {
               "green": [
                 "beitreten"
-              ],
-              "purple": [
-                "iestāšanās"
               ]
             }
           }
@@ -22834,10 +21610,10 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Узкий • Тесный",
       "explanation": [
-        "Galvenā doma: eng par telpu nozīmē šaurs, par apģērbu vai attiecībām nozīmē ciešs.",
-        "Runājot par telpu vai ceļu, eng = šaurs (eine enge Straße = šaura iela).",
-        "Runājot par apģērbu, eng = piegulošs/ciešs (Die Hose ist eng. = Bikses ir cieši/šauri.).",
-        "Runājot par attiecībām, eng = ciešs (enge Freunde = tuvi/ciešs draugi)."
+        "Основная идея: в английском языке слово «комната» означает «узкий», слово «одежда» или «отношения» означает «узкий».",
+        "Говоря о пространстве или дороге, eng = узкая (eine enge Straße = узкая улица).",
+        "Когда речь идет об одежде, англ = узкий/узкий (Die Hose ist англ. = Штаны узкие/узкие).",
+        "Когда дело доходит до отношений, eng = близкий (enge Freunde = близкий/близкие друзья)."
       ],
       "examples": [
         {
@@ -22866,21 +21642,17 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Par telpu vai ceļu → šaurs.",
-        "Par apģērbu vai attiecībām → ciešs."
+        "О пространстве или пути → узком.",
+        "Об одежде или отношениях → плотно."
       ],
       "important": [
-        "eng = šaurs (telpa) VAI ciešs (apģērbs, attiecības).",
-        "Pretstats: eng ↔ weit (šaurs ↔ plašs)."
+        "Англ = туго (комната) ИЛИ туго (одежда, отношения).",
+        "Контраст: англ ↔ weit (узкий ↔ широкий)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "eng"
-          ],
-          "purple": [
-            "šaurs",
-            "ciešs"
           ]
         },
         "examples": [
@@ -22934,24 +21706,11 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "šaurs"
-            ]
-          },
-          {
-            "green": [
-              "ciešs"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "purple": [
-              "šaurs",
-              "ciešs"
-            ]
-          },
+          {},
           {
             "green": [
               "weit"
@@ -23038,14 +21797,14 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Ja informācija pie tevis nonāk pirmo reizi, vāciski bieži lieto erfahren.",
-        "Ja tu šo informāciju jau zini, lieto wissen."
+        "Если информация поступает к вам впервые, в немецком языке часто используется erfahren.",
+        "Если вы уже знаете эту информацию, используйте wissen."
       ],
       "important": [
-        "erfahren = uzzināt jaunu informāciju.",
-        "wissen = zināt jau esošu informāciju.",
-        "erleben = piedzīvot situāciju.",
-        "erfahren kā īpašības vārds nozīmē pieredzējis."
+        "Erfahren = узнать новую информацию.",
+        "Wissen = знать уже существующую информацию.",
+        "Erleben = испытать ситуацию.",
+        "Erfahren как прилагательное означает опытный."
       ],
       "sectionAccents": {
         "explanation": {
@@ -23156,12 +21915,6 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "erfahren"
-              ],
-              "purple": [
-                "pirmo reizi"
-              ],
-              "yellow": [
-                "informācija"
               ]
             }
           },
@@ -23169,9 +21922,6 @@ const A2_WORDS = [
             "text": {
               "red": [
                 "wissen"
-              ],
-              "purple": [
-                "jau zini"
               ]
             }
           }
@@ -23181,9 +21931,6 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "erfahren"
-              ],
-              "purple": [
-                "uzzināt jaunu informāciju"
               ]
             }
           },
@@ -23191,9 +21938,6 @@ const A2_WORDS = [
             "text": {
               "red": [
                 "wissen"
-              ],
-              "purple": [
-                "zināt jau esošu informāciju"
               ]
             }
           },
@@ -23201,9 +21945,6 @@ const A2_WORDS = [
             "text": {
               "yellow": [
                 "erleben"
-              ],
-              "purple": [
-                "piedzīvot situāciju"
               ]
             }
           },
@@ -23211,9 +21952,6 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "erfahren"
-              ],
-              "purple": [
-                "pieredzējis"
               ]
             }
           }
@@ -23237,12 +21975,12 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Напомнить",
       "explanation": [
-        "Galvenā doma: erinnern bez sich nozīmē atgādināt, bet sich erinnern nozīmē atcerēties.",
-        "erinnern lieto, ja viens cilvēks vai viena lieta kādam kaut ko atgādina.",
-        "sich erinnern lieto, ja cilvēks pats kaut ko atceras.",
-        "Formai sich erinnern parasti vajag atgriezenisko vietniekvārdu: ich erinnere mich, du erinnerst dich.",
-        "Tāpēc A2 līmenī ir svarīgi nesajaukt erinnern ar sich erinnern.",
-        "Latviski abi vārdi ir līdzīgi, bet vāciski nozīmi maina sich."
+        "Основная идея: erinnern без sich означает «напоминать», но sich erinnern означает «помнить».",
+        "Erinnern используется, когда один человек или одна вещь кому-то что-то напоминает.",
+        "Sich erinnern употребляется, когда человек что-то вспоминает сам.",
+        "Форма sich erinnern обычно требует возвратного местоимения: ich erinnere mich, du erinnerst dich.",
+        "Поэтому на уровне А2 важно не путать erinnern и sich erinnern.",
+        "В латышском оба слова похожи, но в немецком значение меняется на sich."
       ],
       "examples": [
         {
@@ -23293,14 +22031,14 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Ja teikumā ir mich, dich, sich, uns vai euch, ļoti bieži nozīme ir atcerēties.",
-        "Ja kāds tev kaut ko pasaka, lai tu neaizmirstu, lieto erinnern nozīmē atgādināt."
+        "Если в предложении есть mich, dich, sich, uns или euch, то смысл очень часто приходится запоминать.",
+        "Если кто-то говорит вам что-то, чтобы вы не забыли, используйте средство erinnern, чтобы напомнить."
       ],
       "important": [
-        "erinnern = atgādināt.",
-        "sich erinnern = atcerēties.",
-        "Ich erinnere dich = es tev atgādinu.",
-        "Ich erinnere mich = es atceros."
+        "Эриннерн = напомнить.",
+        "Sich erinnern = помнить.",
+        "Ich erinnere dich = Я напоминаю вам.",
+        "Ich erinnere mich = Я помню."
       ],
       "sectionAccents": {
         "explanation": {
@@ -23308,17 +22046,10 @@ const A2_WORDS = [
             "erinnern",
             "sich erinnern"
           ],
-          "purple": [
-            "atgādināt",
-            "atcerēties"
-          ],
           "green": [
             "sich",
             "mich",
             "dich"
-          ],
-          "red": [
-            "nesajaukt"
           ]
         },
         "examples": [
@@ -23455,9 +22186,6 @@ const A2_WORDS = [
                 "sich",
                 "uns",
                 "euch"
-              ],
-              "purple": [
-                "atcerēties"
               ]
             }
           },
@@ -23465,34 +22193,18 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "erinnern"
-              ],
-              "purple": [
-                "atgādināt"
-              ],
-              "red": [
-                "neaizmirstu"
               ]
             }
           }
         ],
         "important": [
           {
-            "text": {
-              "blue": [
-                "erinnern"
-              ],
-              "purple": [
-                "atgādināt"
-              ]
-            }
+            "text": {}
           },
           {
             "text": {
               "blue": [
                 "sich erinnern"
-              ],
-              "purple": [
-                "atcerēties"
               ]
             }
           },
@@ -23503,9 +22215,6 @@ const A2_WORDS = [
               ],
               "green": [
                 "dich"
-              ],
-              "purple": [
-                "atgādinu"
               ]
             }
           },
@@ -23516,9 +22225,6 @@ const A2_WORDS = [
               ],
               "green": [
                 "mich"
-              ],
-              "purple": [
-                "atceros"
               ]
             }
           }
@@ -23640,13 +22346,13 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Примерно",
       "explanation": [
-        "Galvenā doma: etwa nozīmē apmēram, bet jautājumos bieži izsaka pārsteigumu, šaubas vai pārmetumu kā “vai tad” vai “tiešām”.",
-        "etwa + skaitlis parasti nozīmē apmēram.",
-        "Das kostet etwa 10 Euro. = Tas maksā apmēram 10 eiro.",
-        "etwa jautājumā bieži nav vienkāršs “varbūt”.",
-        "Hast du das etwa vergessen? = Vai tad tu to aizmirsi?",
-        "Ar skaitļiem etwa un ungefähr bieži ir ļoti līdzīgi, bet ungefähr ir neitrālāks un ļoti bieži lietots ar skaitļiem.",
-        "Jautājumos etwa var dot īpašu nokrāsu, kuras ungefähr nav."
+        "Основная идея: етва означает «около», но часто выражает удивление, сомнение или упрек в таких вопросах, как «или тогда» или «действительно».",
+        "Etwa + число обычно означает «около».",
+        "Это стоит около 10 евро. = Это стоит около 10 евро.",
+        "Etwa часто не является простым «может быть» в вопросе.",
+        "Hast du das etwa vergessen? = Ты забыл об этом тогда?",
+        "С числами etwa и gäffer часто очень похожи, но gäffer более нейтральен и очень часто используется с числами.",
+        "В вопросах этва может придавать особый оттенок, которого нет у афгерунга."
       ],
       "examples": [
         {
@@ -23697,40 +22403,19 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Ja etwa stāv kopā ar skaitli, vispirms domā “apmēram”.",
-        "Ja etwa ir jautājumā, pārbaudi, vai latviski dabiskāk skan “vai tad” vai “tiešām”."
+        "Если етва стоит с цифрой, сначала подумайте «о».",
+        "Если речь идет об этве, проверьте, звучит ли «или тогда» или «действительно» более естественно на латышском языке."
       ],
       "important": [
-        "etwa + skaitlis = apmēram.",
-        "ungefähr + skaitlis = apmēram / aptuveni, neitrālāk.",
-        "etwa jautājumā var izteikt pārsteigumu, šaubas vai pārmetumu.",
-        "Hast du das etwa vergessen? = Vai tad tu to aizmirsi?"
+        "Этва + число = о.",
+        "Gäffer + число = приблизительно/примерно, более нейтрально.",
+        "Например, в вопросе может быть выражено удивление, сомнение или упрек.",
+        "Hast du das etwa vergessen? = Ты забыл об этом тогда?"
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "etwa",
-            "etwa + skaitlis",
-            "etwa jautājumā"
-          ],
-          "purple": [
-            "apmēram",
-            "vai tad",
-            "tiešām"
-          ],
-          "green": [
-            "ungefähr"
-          ],
-          "red": [
-            "pārsteigumu",
-            "šaubas",
-            "pārmetumu"
-          ],
-          "yellow": [
-            "skaitlis",
-            "10 Euro",
-            "10 eiro",
-            "skaitļiem"
+            "etwa"
           ]
         },
         "examples": [
@@ -23850,57 +22535,21 @@ const A2_WORDS = [
         ],
         "tip": [
           {
-            "text": {
-              "blue": [
-                "etwa"
-              ],
-              "purple": [
-                "apmēram"
-              ],
-              "yellow": [
-                "skaitli"
-              ]
-            }
+            "text": {}
           },
           {
-            "text": {
-              "blue": [
-                "etwa"
-              ],
-              "purple": [
-                "vai tad",
-                "tiešām"
-              ],
-              "yellow": [
-                "jautājumā"
-              ]
-            }
+            "text": {}
           }
         ],
         "important": [
           {
-            "text": {
-              "blue": [
-                "etwa"
-              ],
-              "purple": [
-                "apmēram"
-              ],
-              "yellow": [
-                "skaitlis"
-              ]
-            }
+            "text": {}
           },
           {
-            "text": {
-              "green": [
-                "neitrālāk"
-              ],
-              "purple": [
-                "apmēram",
-                "aptuveni"
-              ]
-            }
+            "text": {}
+          },
+          {
+            "text": {}
           },
           {
             "text": {
@@ -23908,23 +22557,7 @@ const A2_WORDS = [
                 "etwa"
               ],
               "red": [
-                "pārsteigumu",
-                "šaubas",
-                "pārmetumu"
-              ]
-            }
-          },
-          {
-            "text": {
-              "blue": [
-                "etwa"
-              ],
-              "purple": [
-                "vai tad"
-              ],
-              "red": [
-                "vergessen",
-                "aizmirsi"
+                "vergessen"
               ]
             }
           }
@@ -23969,12 +22602,12 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Отсек",
       "explanation": [
-        "Galvenā doma: das Fach nozīmē nodalījumu, mācību priekšmetu vai profesionālu nozari atkarībā no konteksta.",
-        "Skapī, somā vai plauktā Fach nozīmē nodalījumu.",
-        "Skolā Fach nozīmē mācību priekšmetu.",
-        "Profesionālā vidē Fach var nozīmēt nozari, specialitāti vai profesionālu jomu.",
-        "Frāze vom Fach sein nozīmē būt speciālistam attiecīgajā jomā.",
-        "Tāpēc Fach nav tikai fiziska plaukta vieta."
+        "Основная идея: das Fach означает отсек, предмет или профессиональную отрасль в зависимости от контекста.",
+        "В шкафу, сумке или полке Fach означает отделение.",
+        "В школе «Фах» означает «предмет».",
+        "В профессиональной среде Fach может означать отрасль, специальность или профессиональную область.",
+        "Фраза vom Fach sein означает быть специалистом в этой области.",
+        "Таким образом, Fach — это не просто физическое место на полке."
       ],
       "examples": [
         {
@@ -24041,7 +22674,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Фах может обозначать как физическое местоположение, так и область учебы или профессии.",
-        "example": "Schrankfach = skapja nodalījums. Schulfach = mācību priekšmets. Fachgebiet = specialitāte."
+        "example": "Schrankfach = шкаф-купе. Шульфах = предмет исследования. Fachgebiet = специальность."
       },
       "sectionAccents": {
         "examples": [
@@ -24212,34 +22845,19 @@ const A2_WORDS = [
                 "Fach"
               ],
               "red": [
-                "mācību",
                 "Fach"
               ]
             },
             "example": {
               "green": [
-                "priekšmets",
-                "Schulfach"
+                "Schrankfach"
               ],
               "yellow": [
                 "Schrankfach"
               ],
-              "orange": [
-                "specialitāte",
-                "nodalījums"
-              ],
-              "purple": [
-                "mācību priekšmets",
-                "skapja nodalījums"
-              ],
               "red": [
                 "Schrankfach",
-                "Fachgebiet",
-                "nodalījums",
-                "priekšmets",
-                "Schulfach",
-                "mācību",
-                "skapja"
+                "Fachgebiet"
               ]
             }
           }
@@ -24249,72 +22867,56 @@ const A2_WORDS = [
             "das Fach",
             "Fach",
             "vom Fach sein"
-          ],
-          "purple": [
-            "nodalījumu",
-            "mācību priekšmetu",
-            "nozari",
-            "specialitāti"
-          ],
-          "green": [
-            "Skolā",
-            "Profesionālā vidē",
-            "speciālistam"
-          ],
-          "yellow": [
-            "Skapī",
-            "somā",
-            "plauktā"
           ]
         }
       },
       "accents": {
         "blue": [
           "standardStudy",
-          "Profesionālā",
-          "specialitāti",
-          "nodalījums",
-          "nodalījumu",
-          "priekšmets",
-          "priekšmetu",
-          "das Fach",
-          "nozīmēt",
-          "plauktā",
-          "mācību",
-          "nozare",
+          "Профессиональный",
+          "Специальность",
+          "Отсек",
+          "Отсек",
+          "Предмет",
+          "Предмет",
+          "Дас Фах",
+          "Иметь в виду",
+          "На полке",
+          "Обучение",
+          "Промышленность",
           "nozari",
-          "skapī",
-          "Skolā",
+          "В шкафу",
+          "В школе",
           "Fach",
-          "somā",
-          "vidē"
+          "В сумке",
+          "В окружающей среде"
         ],
         "green": [
-          "das Schulfach",
-          "priekšmets",
+          "Дас Шульфах",
+          "Предмет",
           "Schulfach"
         ],
         "yellow": [
-          "das Schrankfach",
+          "Дас Шранкфах",
           "Schrankfach",
-          "nozare"
+          "Промышленность"
         ],
         "orange": [
-          "specialitāte",
-          "nodalījums"
+          "Специальность",
+          "Отсек"
         ],
         "purple": [
-          "nodalījums / priekšmets / nozare",
-          "nodalījums • priekšmets • nozare",
-          "specialitāte / nozare",
-          "mācību priekšmets",
-          "skapja nodalījums",
-          "der Beruf",
-          "profesija",
+          "Отдел/предмет/сектор",
+          "Отсек • Предмет • Отрасль",
+          "Специальность/отрасль",
+          "Предмет исследования",
+          "Шкаф-купе",
+          "Дер Беруф",
+          "Профессия",
           "Beruf"
         ],
         "red": [
-          "das Fachgebiet",
+          "Das Fachgebiet",
           "Fachgebiet"
         ]
       }
@@ -24401,12 +23003,12 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Случай",
       "explanation": [
-        "Galvenā doma: der Fall nozīmē gadījumu, kritienu, locījumu vai juridisku lietu atkarībā no konteksta.",
-        "Ikdienā tas bieži nozīmē gadījumu vai situāciju.",
-        "Fiziskā nozīmē Fall var nozīmēt kritienu.",
-        "Gramatikā Fall nozīmē locījumu, piemēram kam? vai kurp?.",
-        "Juridiskā valodā Fall ir lieta vai gadījums tiesā.",
-        "Frāze in diesem Fall nozīmē “šajā gadījumā”."
+        "Основная идея: der Fall означает падеж, падение, перегиб или юридический вопрос в зависимости от контекста.",
+        "В повседневной жизни часто означает повод или ситуацию.",
+        "В физическом смысле Падение может означать падение.",
+        "В грамматике Fall означает перегиб, например что? или где?.",
+        "На юридическом языке Фолл — это дело или дело в суде.",
+        "Фраза на diesem Fall означает «в этом случае»."
       ],
       "examples": [
         {
@@ -24473,7 +23075,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Осень может быть как бытовой ситуацией, так и грамматическим термином.",
-        "example": "in diesem Fall = šajā gadījumā. der kam? locījums = datīva locījums. ein Fall vor Gericht = tiesas lieta."
+        "example": "In diesem Fall = в данном случае. хорошо для кого? флексия = дательный падеж. ein Fall vor Gericht = судебное дело."
       },
       "sectionAccents": {
         "examples": [
@@ -24651,20 +23253,9 @@ const A2_WORDS = [
               "blue": [
                 "Fall"
               ],
-              "yellow": [
-                "locījums"
-              ],
-              "purple": [
-                "tiesas lieta"
-              ],
               "red": [
-                "kam? locījums",
-                "gadījumā",
-                "datīva",
                 "diesem",
-                "lieta",
-                "Fall",
-                "šajā"
+                "Fall"
               ]
             }
           }
@@ -24672,73 +23263,56 @@ const A2_WORDS = [
         "explanation": {
           "blue": [
             "der Fall",
-            "Fall",
-            "in diesem Fall"
-          ],
-          "purple": [
-            "gadījumu",
-            "kritienu",
-            "locījumu",
-            "lietu",
-            "šajā gadījumā"
-          ],
-          "green": [
-            "Ikdienā",
-            "Gramatikā",
-            "Juridiskā valodā"
-          ],
-          "red": [
-            "kam?",
-            "kurp?"
+            "Fall"
           ]
         }
       },
       "accents": {
         "blue": [
           "standardStudy",
-          "svarīgākajiem",
-          "daudznozīmju",
-          "situāciju",
-          "der Fall",
-          "gadījums",
-          "gadījumu",
-          "kritiens",
+          "Самые важные из них",
+          "Многоцелевой",
+          "Ситуация",
+          "Подходит для осени",
+          "Случай",
+          "Случай",
+          "Падать",
           "kritienu",
-          "locījums",
-          "Fiziskā",
-          "nozīmēt",
-          "vārdiem",
-          "bieži",
-          "lieta",
-          "viens",
+          "Перегиб",
+          "Физический",
+          "Иметь в виду",
+          "Слова",
+          "Часто",
+          "Вещь",
+          "Один",
           "Fall"
         ],
         "green": [
-          "der Unfall",
-          "kritiens",
+          "Подходит для Unfall",
+          "Падать",
           "Unfall"
         ],
         "yellow": [
-          "die Situation",
+          "Умереть Ситуация",
           "Situation",
-          "locījums"
+          "Перегиб"
         ],
         "orange": [
-          "gadījums"
+          "Случай"
         ],
         "purple": [
-          "gadījums • kritiens • locījums • lieta",
-          "gramatiskais locījums",
-          "der Gerichtsfall",
+          "Падеж • Падение • Перегиб • Падеж",
+          "Грамматическое склонение",
+          "Дер Герихтсфаль",
           "Gerichtsfall",
-          "tiesas lieta",
-          "negadījums",
-          "situācija"
+          "Судебное дело",
+          "Несчастный случай",
+          "Ситуация"
         ],
         "red": [
-          "der Kasus",
+          "Дер Касус",
           "Kasus",
-          "lieta"
+          "Вещь"
         ]
       }
     }
@@ -24867,14 +23441,14 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Ja latviski saki “man trūkst”, vāciski bieži izmanto mir fehlt.",
-        "Ja doma ir “man vajag”, tad biežāk lieto brauchen, nevis fehlen."
+        "Если вы говорите «Я пропал» по-латышски, немецкий часто использует mir fehlt.",
+        "Если мысль «Мне нужно», то чаще употребляется brauchen, чем fehlen."
       ],
       "important": [
-        "Mir fehlt Geld = man trūkst naudas.",
-        "Ich brauche Geld = man vajag naudu.",
-        "Du fehlst mir = man tevis pietrūkst.",
-        "Schüler fehlen = skolēni nav klāt."
+        "Mir fehlt Geld = Мне не хватает денег.",
+        "Ich brauche Geld = Мне нужны деньги.",
+        "Du fehlst mir = Я скучаю по тебе.",
+        "Schüler fehlen = студенты отсутствуют."
       ],
       "sectionAccents": {
         "explanation": {
@@ -25001,9 +23575,6 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "fehlt"
-              ],
-              "purple": [
-                "man trūkst"
               ]
             }
           },
@@ -25014,9 +23585,6 @@ const A2_WORDS = [
               ],
               "blue": [
                 "fehlen"
-              ],
-              "purple": [
-                "man vajag"
               ]
             }
           }
@@ -25027,12 +23595,8 @@ const A2_WORDS = [
               "blue": [
                 "fehlt"
               ],
-              "purple": [
-                "trūkst"
-              ],
               "yellow": [
-                "Geld",
-                "naudas"
+                "Geld"
               ]
             }
           },
@@ -25041,12 +23605,8 @@ const A2_WORDS = [
               "red": [
                 "brauche"
               ],
-              "purple": [
-                "vajag"
-              ],
               "yellow": [
-                "Geld",
-                "naudu"
+                "Geld"
               ]
             }
           },
@@ -25054,12 +23614,6 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "fehlst"
-              ],
-              "purple": [
-                "pietrūkst"
-              ],
-              "green": [
-                "tevis"
               ]
             }
           },
@@ -25068,12 +23622,8 @@ const A2_WORDS = [
               "blue": [
                 "fehlen"
               ],
-              "purple": [
-                "nav klāt"
-              ],
               "green": [
-                "Schüler",
-                "skolēni"
+                "Schüler"
               ]
             }
           }
@@ -25211,7 +23761,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Фестиваль — это не просто «сложно».",
-        "example": "ein fester Termin = fiksēts termiņš. eine feste Arbeit = pastāvīgs darbs."
+        "example": "Ein fester Termin = фиксированный срок. eine feste Arbeit = постоянная работа."
       },
       "sectionAccents": {
         "examples": [
@@ -25350,13 +23900,8 @@ const A2_WORDS = [
               ]
             },
             "example": {
-              "orange": [
-                "fiksēts"
-              ],
               "red": [
-                "pastāvīgs",
-                "fiksēts",
-                "termiņš",
+                "Termin",
                 "Arbeit",
                 "fester",
                 "Termin",
@@ -25369,44 +23914,44 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "materiālu",
-          "pastāvīgs",
+          "Материал",
+          "Постоянный",
           "pievilkts",
-          "piemēram",
-          "fiksēts",
-          "nozīmēt",
-          "stingrs",
-          "mezgls",
-          "skrūve",
-          "stiprs",
+          "Например",
+          "Зафиксированный",
+          "Иметь в виду",
+          "Строгий",
+          "Узел",
+          "Винт",
+          "Сильный",
           "virsmu",
-          "bieži",
-          "cieši",
-          "ciets",
-          "fest",
-          "runa"
+          "Часто",
+          "Тугой",
+          "Жесткий",
+          "Фестиваль",
+          "Речь"
         ],
         "green": [
           "noteikts",
-          "stingrs"
+          "Строгий"
         ],
         "yellow": [
-          "stiprs"
+          "Сильный"
         ],
         "orange": [
-          "fiksēts",
-          "ciets"
+          "Зафиксированный",
+          "Жесткий"
         ],
         "purple": [
-          "ciets • stingrs • stiprs • pastāvīgs",
-          "fiksēts / noteikts",
+          "Твердый • Твердый • Сильный • Постоянный",
+          "Фиксированный/определенный",
           "ciets / stingrs",
-          "ciets materiāls",
-          "stabils",
+          "Твердый материал",
+          "Стабильный",
           "stabil"
         ],
         "red": [
-          "pastāvīgs",
+          "Постоянный",
           "hart"
         ]
       }
@@ -25436,7 +23981,7 @@ const A2_WORDS = [
       "id": "a2-feuer",
       "layout": "standardStudy",
       "translation": "Огонь • Огонь",
-      "explanation": "das Feuer var nozīmēt kontrolētu uguni, piemēram ugunskuru vai uguni krāsnī. Tas var nozīmēt arī ugunsgrēku, ja uguns ir bīstama vai nekontrolēta. Feuer bieži saistās ar degšanu un liesmām. Ar Feuerwehr tas bieži nozīmē ugunsgrēku, ko dzēš. Militārā vai policijas kontekstā Feuer var nozīmēt šaušanu vai atklāt uguni.",
+      "explanation": "Das Feuer может означать контролируемый огонь, например, костер или огонь в печи. Это также может означать пожар, если огонь опасен или вышел из-под контроля. Feuer часто ассоциируется с горением и пламенем. У Feuerwehr это часто означает потушенный пожар. В военном или полицейском контексте Feuer может означать выстрел или открытие огня.",
       "examples": [
         {
           "de": "Mach bitte Feuer.",
@@ -25502,7 +24047,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Фойер может быть как управляемым огнем, так и пожаром.",
-        "example": "der Brand ir skaidrāks vārds ugunsgrēkam. die Flamme nozīmē liesma."
+        "example": "Дер Бранд — более четкое слово для обозначения огня. die Flamme означает пламя."
       },
       "sectionAccents": {
         "examples": [
@@ -25683,36 +24228,14 @@ const A2_WORDS = [
         },
         "important": [
           {
-            "text": {
-              "green": [
-                "ugunsgrēkam"
-              ],
-              "orange": [
-                "uguns"
-              ],
-              "red": [
-                "ugunsgrēkam",
-                "uguns"
-              ]
-            },
+            "text": {},
             "example": {
-              "green": [
-                "der Brand",
-                "Brand"
-              ],
               "yellow": [
                 "die Flamme",
                 "Flamme"
               ],
-              "purple": [
-                "liesma"
-              ],
               "red": [
-                "ugunsgrēkam",
-                "skaidrāks",
-                "Flamme",
-                "Brand",
-                "vārds"
+                "Flamme"
               ]
             }
           }
@@ -25721,47 +24244,47 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "nekontrolēta",
-          "kontrolētu",
-          "ugunsgrēks",
-          "ugunsgrēku",
-          "das Feuer",
+          "Неконтролируемый",
+          "Будет контролировать",
+          "Огонь",
+          "Огонь",
+          "Дас Фойер",
           "Feuerwehr",
           "ugunskuru",
-          "piemēram",
-          "bīstama",
-          "degšanu",
-          "liesmām",
-          "nozīmēt",
-          "saistās",
-          "krāsnī",
-          "bieži",
+          "Например",
+          "Опасный",
+          "Горение",
+          "Пламя",
+          "Иметь в виду",
+          "Связывает",
+          "В духовке",
+          "Часто",
           "Feuer",
           "uguni",
-          "uguns"
+          "Огонь"
         ],
         "green": [
-          "ugunsgrēks",
-          "der Brand",
+          "Огонь",
+          "Подходит для бренда",
           "Brand"
         ],
         "yellow": [
-          "die Flamme",
+          "Умереть Фламме",
           "Flamme"
         ],
         "orange": [
-          "uguns"
+          "Огонь"
         ],
         "purple": [
-          "uguns / ugunsgrēks",
-          "uguns • ugunsgrēks",
-          "atklāt uguni",
-          "ugunsdzēsēji",
-          "Feuer geben",
-          "liesma"
+          "Огонь / огонь",
+          "Огонь • Огонь",
+          "Открытый огонь",
+          "Пожарные",
+          "Feuer Geben",
+          "Пламя"
         ],
         "red": [
-          "die Feuerwehr",
+          "Умереть Фейервер",
           "Feuerwehr"
         ]
       }
@@ -25924,12 +24447,12 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Следовать",
       "explanation": [
-        "Galvenā doma: folgen nozīmē sekot kādam vai kaut kam, bet no situācijas var arī izrietēt rezultāts.",
-        "Ja runa ir par cilvēku, ceļu vai instrukciju, folgen parasti nozīmē sekot.",
-        "Bieži lieto frāzi jemandem folgen, kur vāciski ir datīvs.",
-        "Ja kaut kas loģiski nāk no iepriekš teiktā, folgen var nozīmēt izrietēt.",
-        "folgen nav galvenais vārds nozīmei klausīt vai paklausīt; tam biežāk lieto gehorchen.",
-        "A2 līmenī svarīgākās nozīmes ir sekot un izrietēt."
+        "Основная идея: folgen означает следовать за кем-то или чем-то, но результат может вытекать и из ситуации.",
+        "Когда речь идет о человеке, пути или указании, фолген обычно означает следовать.",
+        "Часто используется фраза jemandem folgen, где в немецком языке дательный падеж.",
+        "Если что-то логически следует из того, что было сказано ранее, folgen может означать следовать.",
+        "«фольген» не является корневым словом, означающим «слушать» или «повиноваться» • Gehorchen чаще используется для этого.",
+        "На уровне А2 наиболее важными значениями являются следовать и следовать."
       ],
       "examples": [
         {
@@ -25980,31 +24503,22 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Ja vari pateikt “sekot kādam”, vāciski bieži lieto folgen ar datīvu.",
-        "Ja doma ir “klausīt vecākus” vai “paklausīt pavēlei”, precīzāks bieži ir gehorchen vai befolgen."
+        "Если вы можете сказать «следовать за кем-то», в немецком языке часто используется folgen с дательным падежом.",
+        "Если идея состоит в том, чтобы «подчиняться родителям» или «подчиняться приказам», то gehorchen или befolgen зачастую более точны."
       ],
       "important": [
-        "folgen = sekot.",
-        "Aus etwas folgt ... = no kaut kā izriet ...",
-        "gehorchen = klausīt / paklausīt.",
-        "folgen prasa datīvu: ich folge dir."
+        "Фолген = следовать.",
+        "Aus etwas folgt... = следует из чего-то...",
+        "Gehorchen = слушать/повиноваться.",
+        "Folgen требует дательного падежа: ich folge dir."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "folgen"
           ],
-          "purple": [
-            "sekot",
-            "izrietēt"
-          ],
           "red": [
-            "gehorchen",
-            "klausīt",
-            "paklausīt"
-          ],
-          "green": [
-            "datīvs"
+            "gehorchen"
           ]
         },
         "examples": [
@@ -26118,12 +24632,6 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "folgen"
-              ],
-              "purple": [
-                "sekot"
-              ],
-              "green": [
-                "datīvu"
               ]
             }
           },
@@ -26132,32 +24640,18 @@ const A2_WORDS = [
               "red": [
                 "gehorchen",
                 "befolgen"
-              ],
-              "purple": [
-                "klausīt",
-                "paklausīt"
               ]
             }
           }
         ],
         "important": [
           {
-            "text": {
-              "blue": [
-                "folgen"
-              ],
-              "purple": [
-                "sekot"
-              ]
-            }
+            "text": {}
           },
           {
             "text": {
               "blue": [
                 "folgt"
-              ],
-              "purple": [
-                "izriet"
               ]
             }
           },
@@ -26165,10 +24659,6 @@ const A2_WORDS = [
             "text": {
               "red": [
                 "gehorchen"
-              ],
-              "purple": [
-                "klausīt",
-                "paklausīt"
               ]
             }
           },
@@ -26178,7 +24668,6 @@ const A2_WORDS = [
                 "folge"
               ],
               "green": [
-                "datīvu",
                 "dir"
               ]
             }
@@ -26451,7 +24940,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Der Weg führt ... = Дорога ведет ...",
-        "example": "ein Gespräch führen = risināt sarunu. in Führung liegen / führen = būt vadībā. führen zu = novest pie."
+        "example": "Ein Gespräch führen = вести беседу. в Führungliegen / führen = быть впереди. führen zu = вести."
       },
       "sectionAccents": {
         "examples": [
@@ -26632,20 +25121,14 @@ const A2_WORDS = [
               "blue": [
                 "führen"
               ],
-              "yellow": [
-                "būt vadībā"
-              ],
               "purple": [
-                "novest pie",
                 "führen zu"
               ],
               "red": [
                 "Gespräch",
                 "Führung",
-                "risināt",
                 "führen",
-                "liegen",
-                "sarunu"
+                "liegen"
               ]
             }
           }
@@ -26654,52 +25137,52 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "ekskursijā",
-          "cilvēkiem",
-          "pārdošanā",
-          "uzņēmumu",
+          "На экскурсии",
+          "Людям",
+          "Для продажи",
+          "Компания",
           "komandu",
-          "nozīmēt",
-          "Veikalā",
-          "führen",
+          "Иметь в виду",
+          "В магазине",
+          "Фюрен",
           "sarunu",
-          "Sportā",
-          "vadībā",
-          "prece",
-          "vadīt",
-          "ceļu",
-          "kādu",
+          "В спорте",
+          "Под руководством",
+          "Элемент",
+          "Вести",
+          "Дорога",
+          "Кто-то",
           "vest"
         ],
         "green": [
-          "aizvest līdz mērķim",
+          "Привести к цели",
           "vest ar transportu",
           "procesu",
-          "leiten",
-          "vadīt"
+          "Лейтенант",
+          "Вести"
         ],
         "yellow": [
-          "būt vadībā",
-          "fahren"
+          "Быть ответственным",
+          "По Фарену"
         ],
         "orange": [
-          "vadīt organizāciju",
-          "atnest",
-          "braukt",
+          "Возглавить организацию",
+          "Принести",
+          "Водить машину",
           "vest"
         ],
         "purple": [
-          "vest • vadīt • būt vadībā • būt pārdošanā",
-          "atnest / aizvest līdz mērķim",
-          "braukt / vest ar transportu",
-          "vadīt organizāciju/procesu",
-          "vest / vadīt / būt vadībā",
-          "novest pie",
-          "führen zu"
+          "Руководить • Руководить • Быть в управлении • Быть в продажах",
+          "Довести/довести до цели",
+          "Ездить / ездить на транспорте",
+          "Управлять организацией/процессом",
+          "Вести / вести / быть ведомым",
+          "Привести к",
+          "Фюрен цу"
         ],
         "red": [
-          "būt pārdošanā",
-          "bringen"
+          "Быть в продаже",
+          "Приносить"
         ]
       }
     }
@@ -26784,12 +25267,12 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Коридор • Курс • Еда круглый",
       "explanation": [
-        "Galvenā doma: der Gang nozīmi nosaka konteksts: telpā tas ir gaitenis, kustībā gaita, ēdienkartē ēdiena kārta.",
-        "Mājā, skolā vai viesnīcā Gang ļoti bieži nozīmē gaitenis.",
-        "Runājot par cilvēka kustību, Gang nozīmē gaitu.",
-        "Restorānā vai ēdienkartē Gang var nozīmēt ēdiena kārtu.",
-        "Tehniskā kontekstā Gang var nozīmēt pārnesumu, bet tas nav galvenais A2 lietojums.",
-        "Latviešu “gājiens” parasti nav labākais pirmais tulkojums šai kartītei."
+        "Основная идея: Значение der Gang определяется контекстом: в комнате — коридор, в движении — ход, в меню — ход еды.",
+        "В доме, школе или отеле Банда очень часто означает коридор.",
+        "Когда речь идет о движении человека, Gang означает походку.",
+        "В ресторане или в меню Gang может означать блюдо.",
+        "В техническом контексте Gang может означать снаряжение, но это не основное использование A2.",
+        "Латышское «ход» обычно не лучший первый перевод этой карты."
       ],
       "examples": [
         {
@@ -26818,34 +25301,20 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Ja runa ir par ēku, Gang visbiežāk tulko kā gaitenis.",
-        "Ja runa ir par ēdienkarti, Gang nozīmē ēdiena kārta."
+        "Когда речь идет о здании, Gang чаще всего переводится как коридор.",
+        "Когда дело доходит до меню, Gang означает «круглый обед»."
       ],
       "important": [
-        "der Gang nav viena vienīga nozīme.",
-        "im Gang var nozīmēt gaitenī.",
-        "drei Gänge restorānā nozīmē trīs ēdiena kārtas.",
-        "Pārnesuma nozīme ir tehniska un jāatpazīst pēc auto konteksta."
+        "Der Gang не имеет одного единственного значения.",
+        "Im Gang может означать «в коридоре».",
+        "Drei Gänge в ресторане означает три блюда.",
+        "Значение передачи является техническим и должно пониматься в контексте автомобиля."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "der Gang",
             "Gang"
-          ],
-          "purple": [
-            "gaitenis",
-            "gaita",
-            "ēdiena kārta",
-            "pārnesumu"
-          ],
-          "yellow": [
-            "telpā",
-            "ēdienkartē",
-            "Restorānā"
-          ],
-          "green": [
-            "kustību"
           ]
         },
         "examples": [
@@ -26937,12 +25406,6 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "Gang"
-              ],
-              "purple": [
-                "gaitenis"
-              ],
-              "yellow": [
-                "ēku"
               ]
             }
           },
@@ -26950,12 +25413,6 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "Gang"
-              ],
-              "purple": [
-                "ēdiena kārta"
-              ],
-              "yellow": [
-                "ēdienkarti"
               ]
             }
           }
@@ -26965,9 +25422,6 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "der Gang"
-              ],
-              "red": [
-                "nav viena vienīga nozīme"
               ]
             }
           },
@@ -26975,9 +25429,6 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "im Gang"
-              ],
-              "purple": [
-                "gaitenī"
               ]
             }
           },
@@ -26985,24 +25436,11 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "Gänge"
-              ],
-              "purple": [
-                "ēdiena kārtas"
-              ],
-              "yellow": [
-                "restorānā"
               ]
             }
           },
           {
-            "text": {
-              "purple": [
-                "pārnesuma"
-              ],
-              "yellow": [
-                "auto"
-              ]
-            }
+            "text": {}
           }
         ]
       }
@@ -27159,12 +25597,12 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Против • Против • По сравнению с",
       "explanation": [
-        "Galvenā doma: gegenüber nozīmē pretī vietā, attieksmi pret kādu vai salīdzinājumu ar kaut ko.",
-        "Vietas nozīmē gegenüber nozīmē pretī vai otrā pusē.",
-        "Ar cilvēkiem gegenüber var nozīmēt attieksmi pret kādu.",
-        "Salīdzinājumā gegenüber nozīmē salīdzinot ar.",
-        "gegenüber bieži stāv aiz lietvārda: dem Bahnhof gegenüber.",
-        "Tas nav tas pats, kas gegen, kas bieži nozīmē pret virzienu vai pret kaut ko."
+        "Основная идея: gegenüber означает противоположность, а не отношение к кому-то или сравнение с чем-то.",
+        "Место означает gegenüber, что означает напротив или на другой стороне.",
+        "У людей gegenüber может означать отношение к кому-либо.",
+        "Для сравнения, gegenüber означает «по сравнению с».",
+        "Gegenüber часто стоит после существительного: dem Bahnhof gegenüber.",
+        "Это не то же самое, что гэген, что часто означает «против направления» или «против чего-то»."
       ],
       "examples": [
         {
@@ -27193,30 +25631,22 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Ja runa ir par vietu otrā pusē ielai vai telpai, gegenüber bieži nozīmē pretī.",
-        "Ja runa ir par attieksmi, gegenüber bieži tulko kā pret kādu."
+        "Когда речь идет о месте на другой стороне улицы или комнаты, gegenüber часто означает противоположное.",
+        "Когда речь идет об отношении, gegenüber часто переводится как «против кого-то»."
       ],
       "important": [
-        "gegenüber var stāvēt aiz lietvārda: dem Bahnhof gegenüber.",
-        "gegenüber vietai = pretī.",
-        "gegenüber cilvēkam = attieksme pret kādu.",
-        "gegen ir cits vārds un bieži nozīmē pret kaut ko."
+        "Gegenüber может стоять после существительного: dem Bahnhof gegenüber.",
+        "Gegenüber место = напротив.",
+        "Gegenüber husman = отношение к кому-либо.",
+        "Gegen — еще одно слово, часто означающее «против чего-то»."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "gegenüber"
           ],
-          "purple": [
-            "pretī",
-            "pret",
-            "salīdzinot ar"
-          ],
           "red": [
             "gegen"
-          ],
-          "green": [
-            "aiz lietvārda"
           ]
         },
         "examples": [
@@ -27309,12 +25739,6 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "gegenüber"
-              ],
-              "purple": [
-                "pretī"
-              ],
-              "yellow": [
-                "vietu"
               ]
             }
           },
@@ -27322,12 +25746,6 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "gegenüber"
-              ],
-              "purple": [
-                "pret"
-              ],
-              "green": [
-                "attieksmi"
               ]
             }
           }
@@ -27337,9 +25755,6 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "gegenüber"
-              ],
-              "green": [
-                "aiz lietvārda"
               ]
             }
           },
@@ -27347,9 +25762,6 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "gegenüber"
-              ],
-              "purple": [
-                "pretī"
               ]
             }
           },
@@ -27357,12 +25769,6 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "gegenüber"
-              ],
-              "purple": [
-                "pret kādu"
-              ],
-              "green": [
-                "cilvēkam"
               ]
             }
           },
@@ -27370,9 +25776,6 @@ const A2_WORDS = [
             "text": {
               "red": [
                 "gegen"
-              ],
-              "purple": [
-                "pret"
               ]
             }
           }
@@ -27456,7 +25859,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Гехорен – это не просто собственность.",
-        "example": "Das gehört mir = tas pieder man. Das gehört dazu = tas pieder pie tā / tas ir daļa no tā."
+        "example": "Das gehört mir = оно принадлежит мне. Das gehört dazu = оно принадлежит ему / оно является его частью."
       },
       "sectionAccents": {
         "examples": [
@@ -27595,8 +25998,6 @@ const A2_WORDS = [
             "example": {
               "red": [
                 "gehört",
-                "pieder",
-                "daļa",
                 "dazu"
               ]
             }
@@ -27607,44 +26008,44 @@ const A2_WORDS = [
         "blue": [
           "standardStudy",
           "Konstrukcija",
-          "iederēties",
-          "pieklāties",
-          "vajadzīgam",
-          "piederēt",
+          "Вписаться",
+          "Согласиться",
+          "Нам нужен",
+          "Принадлежать",
           "teikumos",
-          "gehören",
-          "nozīmēt",
+          "Гехорен",
+          "Иметь в виду",
           "nosaka",
-          "Nozīmi",
-          "daļai",
-          "Dažos",
-          "grupā",
-          "vietā",
-          "kādā"
+          "Значение",
+          "Для части",
+          "В некоторых",
+          "В группе",
+          "Вместо",
+          "В котором"
         ],
         "green": [
-          "īpašumā būt",
-          "iederēties",
-          "besitzen",
-          "atbilst"
+          "Владеть",
+          "Вписаться",
+          "Безитцен",
+          "Соответствует"
         ],
         "yellow": [
-          "pieklāties",
-          "passen"
+          "Согласиться",
+          "Пройти"
         ],
         "orange": [
-          "piederēt",
-          "derēt"
+          "Принадлежать",
+          "Ставить"
         ],
         "purple": [
-          "piederēt • iederēties • pieklāties",
-          "piederēt / īpašumā būt",
-          "piederēt / iederēties",
-          "derēt / atbilst",
-          "vajadzēt"
+          "Принадлежать · вписываться · подходить",
+          "Владеть/владеть чем-л.",
+          "Принадлежать / вписываться",
+          "Подходит / подходит",
+          "Нуждаться"
         ],
         "red": [
-          "brauchen"
+          "Браухен"
         ]
       }
     }
@@ -27735,33 +26136,33 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Genau не обязательно заменять на gerade или eben без контекста.",
-        "example": "genaue Adresse = precīza adrese. genau um acht = tieši astoņos. gerade jetzt = tieši tagad. eben = tikko."
+        "example": "Genaue Adresse = точный адрес. genau um acht = ровно в восемь. gerade jetzt = прямо сейчас. эбен = только что."
       },
       "accents": {
         "blue": [
-          "genau",
+          "Точно",
           "genaue",
           "genauer",
           "Genau"
         ],
         "green": [
-          "Precīzs",
-          "precīzs",
-          "precīzu",
-          "precīzāk"
+          "Точный",
+          "Точный",
+          "Точный",
+          "Точнее"
         ],
         "yellow": [
-          "Tieši",
-          "tieši"
+          "Точно",
+          "Напрямую"
         ],
         "red": [
-          "gerade"
+          "Прямо сейчас"
         ],
         "orange": [
-          "eben"
+          "Эбен"
         ],
         "purple": [
-          "exakt"
+          "Точно"
         ]
       },
       "sectionAccents": {
@@ -27811,14 +26212,8 @@ const A2_WORDS = [
                 "gerade",
                 "eben"
               ],
-              "purple": [
-                "precīza",
-                "tieši",
-                "tikko"
-              ],
               "yellow": [
-                "Adresse",
-                "adrese"
+                "Adresse"
               ]
             }
           }
@@ -27855,12 +26250,12 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Прямой",
       "explanation": [
-        "Galvenā doma: gerade var raksturot taisnu līniju vai nozīmēt tieši tagad / tikko atkarībā no teikuma.",
-        "Kā īpašības vārds gerade nozīmē taisns.",
-        "Ar laiku gerade bieži nozīmē tieši tagad vai pašlaik.",
-        "Perfekta teikumos gerade var nozīmēt tikko.",
-        "Skaitļiem gerade var nozīmēt pāra, bet tas nav galvenais A2 lietojums.",
-        "gerade nav tas pats, kas genau, lai gan abi dažreiz tulkojas kā tieši."
+        "Основная идея: gerade может описывать прямую линию или означать прямо сейчас/только сейчас в зависимости от предложения.",
+        "Прилагательное gerade означает «прямой».",
+        "Под временем gerade часто означает прямо сейчас или в настоящий момент.",
+        "В идеальных предложениях gerade может означать «только сейчас».",
+        "Для чисел gerade может означать четный, но это не основное применение A2.",
+        "Gerade — это не то же самое, что genau, хотя оба слова иногда переводятся как прямые."
       ],
       "examples": [
         {
@@ -27911,33 +26306,22 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Ja gerade ir kopā ar darbību tagadnē, bieži domā pašlaik vai tieši tagad.",
-        "Ja gerade apraksta ceļu, līniju vai formu, tas nozīmē taisns."
+        "Когда gerade с действием в настоящем, вы часто думаете сейчас или прямо сейчас.",
+        "Когда gerade описывает путь, линию или форму, это означает «прямой»."
       ],
       "important": [
-        "gerade = taisns, ja runa ir par formu vai virzienu.",
-        "gerade = pašlaik / tieši tagad, ja runa ir par darbību.",
-        "gerade + Perfekt bieži nozīmē tikko.",
-        "genau = precīzi, nevis vienmēr gerade."
+        "Gerade = прямой, когда дело касается формы или направления.",
+        "Gerade = в настоящее время/прямо сейчас, когда дело доходит до действия.",
+        "Gerade + Perfekt часто означает «только сейчас».",
+        "Genau = точно, не всегда gerade."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "gerade"
           ],
-          "purple": [
-            "taisns",
-            "tieši tagad",
-            "tikko",
-            "pašlaik"
-          ],
           "red": [
             "genau"
-          ],
-          "yellow": [
-            "līniju",
-            "laiku",
-            "Skaitļiem"
           ]
         },
         "examples": [
@@ -28036,13 +26420,6 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "gerade"
-              ],
-              "purple": [
-                "pašlaik",
-                "tieši tagad"
-              ],
-              "green": [
-                "darbību"
               ]
             }
           },
@@ -28050,14 +26427,6 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "gerade"
-              ],
-              "purple": [
-                "taisns"
-              ],
-              "yellow": [
-                "ceļu",
-                "līniju",
-                "formu"
               ]
             }
           }
@@ -28067,13 +26436,6 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "gerade"
-              ],
-              "purple": [
-                "taisns"
-              ],
-              "yellow": [
-                "formu",
-                "virzienu"
               ]
             }
           },
@@ -28081,13 +26443,6 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "gerade"
-              ],
-              "purple": [
-                "pašlaik",
-                "tieši tagad"
-              ],
-              "green": [
-                "darbību"
               ]
             }
           },
@@ -28095,9 +26450,6 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "gerade"
-              ],
-              "purple": [
-                "tikko"
               ],
               "green": [
                 "Perfekt"
@@ -28108,9 +26460,6 @@ const A2_WORDS = [
             "text": {
               "red": [
                 "genau"
-              ],
-              "purple": [
-                "precīzi"
               ]
             }
           }
@@ -28135,7 +26484,7 @@ const A2_WORDS = [
       "id": "a2-geschäft",
       "layout": "standardStudy",
       "translation": "Магазин",
-      "explanation": "das Geschäft ikdienā bieži nozīmē veikalu. Tas var nozīmēt arī uzņēmumu vai firmu. Biznesa kontekstā Geschäft nozīmē darījumu. Daudzskaitlī Geschäfte var nozīmēt arī darīšanas vai biznesa lietas. Frāze ein Geschäft machen nozīmē noslēgt vai izdarīt darījumu. Konteksts ir ļoti svarīgs.",
+      "explanation": "Das Geschäft часто означает магазин в повседневной жизни. Это также может означать компанию или фирму. В деловом контексте Geschäft означает транзакцию. Во множественном числе Geschäfte может также означать деловые или деловые вопросы. Фраза ein Geschäft machen означает заключение или заключение сделки. Контекст очень важен.",
       "examples": [
         {
           "de": "Ich gehe ins Geschäft.",
@@ -28201,7 +26550,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Geschäft может быть местом, организацией или сделкой.",
-        "example": "Geschäft = veikals. Geschäft führen = vadīt uzņēmumu. Geschäft machen = noslēgt darījumu."
+        "example": "Geschäft = магазин. Geschäft führen = вести бизнес. Geschäft machen = заключить сделку."
       },
       "sectionAccents": {
         "examples": [
@@ -28353,11 +26702,7 @@ const A2_WORDS = [
               "blue": [
                 "Geschäft"
               ],
-              "yellow": [
-                "darījumu"
-              ],
               "red": [
-                "darījumu",
                 "Geschäft"
               ]
             },
@@ -28365,16 +26710,10 @@ const A2_WORDS = [
               "blue": [
                 "Geschäft"
               ],
-              "orange": [
-                "veikals"
-              ],
               "red": [
                 "Geschäft",
-                "uzņēmumu",
-                "veikals",
                 "führen",
-                "machen",
-                "vadīt"
+                "machen"
               ]
             }
           }
@@ -28383,46 +26722,46 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "das Geschäft",
-          "Daudzskaitlī",
-          "darīšanas",
+          "Дас Гешафт",
+          "Во множественном числе",
+          "Делает",
           "Geschäfte",
-          "kontekstā",
-          "darījums",
-          "darījumu",
+          "В контексте",
+          "Сделка",
+          "Сделка",
           "Geschäft",
-          "uzņēmums",
-          "uzņēmumu",
+          "Компания",
+          "Компания",
           "Biznesa",
-          "nozīmēt",
-          "veikals",
+          "Иметь в виду",
+          "Магазин",
           "veikalu",
-          "bieži",
+          "Часто",
           "firmu"
         ],
         "green": [
-          "der Laden",
-          "uzņēmums",
+          "Дер Ладен",
+          "Компания",
           "Laden"
         ],
         "yellow": [
-          "die Firma",
-          "darījums",
+          "Фирма",
+          "Сделка",
           "Firma"
         ],
         "orange": [
-          "veikals"
+          "Магазин"
         ],
         "purple": [
-          "veikals / uzņēmums / darījums",
-          "veikals • uzņēmums • darījums",
-          "firma / uzņēmums",
-          "der Vertrag",
+          "Магазин/компания/транзакция",
+          "Магазин • Компания • Транзакция",
+          "Фирма/компания",
+          "Дер Вертраг",
           "Vertrag",
-          "līgums"
+          "Договор"
         ],
         "red": [
-          "das Unternehmen",
+          "Дас Унтернемен",
           "Unternehmen"
         ]
       }
@@ -28494,12 +26833,12 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Выиграть",
       "explanation": [
-        "Galvenā doma: gewinnen nozīmē uzvarēt sacensībās, laimēt balvu vai iegūt kaut ko vērtīgu.",
-        "Sportā, spēlē vai konkursā gewinnen parasti nozīmē uzvarēt vai laimēt.",
-        "Ar balvu, naudu vai loteriju gewinnen nozīmē laimēt.",
-        "Ar pieredzi, laiku vai uzticību gewinnen var nozīmēt iegūt.",
-        "gewinnen nav tas pats, kas bekommen, jo bekommen nozīmē saņemt.",
-        "Latviski jāskatās, kas tieši tiek gewonnen: spēle, nauda, pieredze vai cilvēka uzticība."
+        "Основная идея: gewinnen означает выиграть соревнование, выиграть приз или получить что-то ценное.",
+        "В спорте, игре или соревновании gewinnen обычно означает победу или победу.",
+        "С призом, деньгами или лотереей gewinnen означает победу.",
+        "Благодаря опыту, времени или доверию gewinnen может означать выгоду.",
+        "Gewinnen – это не то же самое, что bekommen, потому что bekommen означает получать.",
+        "По-латышски надо смотреть, что именно такое gewonnen: игра, деньги, опыт или человеческое доверие."
       ],
       "examples": [
         {
@@ -28550,34 +26889,22 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Ja runa ir par spēli, konkursu vai sacensībām, gewinnen bieži nozīmē uzvarēt.",
-        "Ja objekts ir balva vai nauda, latviski dabiski ir laimēt."
+        "Когда дело доходит до игры, конкурса или соревнования, gewinnen часто означает победу.",
+        "Если предметом является приз или деньги, то выиграть по-латышски естественно."
       ],
       "important": [
-        "Spiel gewinnen = uzvarēt spēlē.",
-        "Preis gewinnen = laimēt balvu.",
-        "Erfahrung gewinnen = iegūt pieredzi.",
-        "bekommen = saņemt, nevis uzvarēt."
+        "Spiel gewinnen = выиграть игру.",
+        "Preis gewinnen = выиграть приз.",
+        "Erfahrung gewinnen = приобретать опыт.",
+        "Бекоммен = получать, а не выигрывать."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "gewinnen"
           ],
-          "purple": [
-            "uzvarēt",
-            "laimēt",
-            "iegūt"
-          ],
           "red": [
             "bekommen"
-          ],
-          "yellow": [
-            "balvu",
-            "naudu",
-            "pieredzi",
-            "laiku",
-            "uzticību"
           ]
         },
         "examples": [
@@ -28696,27 +27023,11 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "gewinnen"
-              ],
-              "purple": [
-                "uzvarēt"
-              ],
-              "yellow": [
-                "spēli",
-                "konkursu",
-                "sacensībām"
               ]
             }
           },
           {
-            "text": {
-              "purple": [
-                "laimēt"
-              ],
-              "yellow": [
-                "balva",
-                "nauda"
-              ]
-            }
+            "text": {}
           }
         ],
         "important": [
@@ -28725,12 +27036,8 @@ const A2_WORDS = [
               "blue": [
                 "gewinnen"
               ],
-              "purple": [
-                "uzvarēt"
-              ],
               "yellow": [
-                "Spiel",
-                "spēlē"
+                "Spiel"
               ]
             }
           },
@@ -28739,12 +27046,8 @@ const A2_WORDS = [
               "blue": [
                 "gewinnen"
               ],
-              "purple": [
-                "laimēt"
-              ],
               "yellow": [
-                "Preis",
-                "balvu"
+                "Preis"
               ]
             }
           },
@@ -28753,24 +27056,13 @@ const A2_WORDS = [
               "blue": [
                 "gewinnen"
               ],
-              "purple": [
-                "iegūt"
-              ],
               "yellow": [
-                "Erfahrung",
-                "pieredzi"
+                "Erfahrung"
               ]
             }
           },
           {
-            "text": {
-              "red": [
-                "bekommen"
-              ],
-              "purple": [
-                "saņemt"
-              ]
-            }
+            "text": {}
           }
         ]
       }
@@ -28797,12 +27089,12 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Поливать • Горит",
       "explanation": [
-        "Galvenā doma: gießen nozīmē laistīt augus vai liet šķidrumu.",
-        "Ar puķēm, augiem un dārzu gießen visbiežāk nozīmē laistīt.",
-        "Ar ūdeni, tēju vai citu šķidrumu gießen var nozīmēt liet.",
-        "Ja lietus līst ļoti stipri, vāciski var teikt Es gießt, bet tas ir sarunvalodīgāk.",
-        "gießen nav tas pats, kas regnen, jo regnen ir parasts vārds lietum.",
-        "Latviski jāskatās uz objektu: puķes laista, ūdeni lej."
+        "Основная идея: gießen означает поливать растения или лить жидкость.",
+        "В отношении цветов, растений и сада gießen чаще всего означает «поливать».",
+        "В случае с водой, чаем или другой жидкостью gießen может означать «налить».",
+        "Если идет очень сильный дождь, по-немецки можно сказать Es gießt, но это более разговорно.",
+        "Gießen — это не то же самое, что regnen, потому что regnen — это обычное слово, обозначающее дождь.",
+        "По-латышски надо смотреть на предмет: цветы поливают, воду льют."
       ],
       "examples": [
         {
@@ -28853,33 +27145,22 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Ja objekts ir puķes vai dārzs, gießen tulko kā laistīt.",
-        "Ja objekts ir šķidrums, gießen bieži tulko kā liet."
+        "Если речь идет о цветах или саду, gießen переводится как полив.",
+        "Когда объект представляет собой жидкость, gießen часто переводится как «вылить»."
       ],
       "important": [
-        "Blumen gießen = laistīt puķes.",
-        "Wasser gießen = liet ūdeni.",
-        "Tee einschenken = ieliet tēju.",
-        "regnen = līt par laikapstākļiem."
+        "Blumen gießen = поливать цветы.",
+        "Wasser gießen = налить воду.",
+        "Tee einschenken = налить чай.",
+        "Regnen = дождь о погоде."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "gießen"
           ],
-          "purple": [
-            "laistīt",
-            "liet"
-          ],
           "red": [
             "regnen"
-          ],
-          "yellow": [
-            "puķēm",
-            "augiem",
-            "ūdeni",
-            "tēju",
-            "šķidrumu"
           ]
         },
         "examples": [
@@ -28992,13 +27273,6 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "gießen"
-              ],
-              "purple": [
-                "laistīt"
-              ],
-              "yellow": [
-                "puķes",
-                "dārzs"
               ]
             }
           },
@@ -29006,12 +27280,6 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "gießen"
-              ],
-              "purple": [
-                "liet"
-              ],
-              "yellow": [
-                "šķidrums"
               ]
             }
           }
@@ -29022,12 +27290,8 @@ const A2_WORDS = [
               "blue": [
                 "gießen"
               ],
-              "purple": [
-                "laistīt"
-              ],
               "yellow": [
-                "Blumen",
-                "puķes"
+                "Blumen"
               ]
             }
           },
@@ -29036,12 +27300,8 @@ const A2_WORDS = [
               "blue": [
                 "gießen"
               ],
-              "purple": [
-                "liet"
-              ],
               "yellow": [
-                "Wasser",
-                "ūdeni"
+                "Wasser"
               ]
             }
           },
@@ -29050,12 +27310,8 @@ const A2_WORDS = [
               "green": [
                 "einschenken"
               ],
-              "purple": [
-                "ieliet"
-              ],
               "yellow": [
-                "Tee",
-                "tēju"
+                "Tee"
               ]
             }
           },
@@ -29063,9 +27319,6 @@ const A2_WORDS = [
             "text": {
               "red": [
                 "regnen"
-              ],
-              "purple": [
-                "līt"
               ]
             }
           }
@@ -29164,7 +27417,7 @@ const A2_WORDS = [
       "id": "a2-grund",
       "layout": "standardStudy",
       "translation": "Причина",
-      "explanation": "der Grund visbiežāk nozīmē iemeslu. Frāze aus diesem Grund nozīmē “šī iemesla dēļ”. Grund var nozīmēt arī pamatu vai grunti, uz kā kaut kas stāv. Dabā tas var nozīmēt zemi vai grunti. Ūdens kontekstā Grund var nozīmēt dibenu, piemēram ezera dibenu. Tāpēc šis vārds ir ļoti atkarīgs no konteksta.",
+      "explanation": "Der Grund чаще всего означает разум. Фраза aus diesem Grund означает «по этой причине». Grund также может означать фундамент или почву, на которой что-то стоит. В природе это может означать землю или почву. В контексте воды Grund может означать дно, например, дно озера. Так что это слово очень зависит от контекста.",
       "examples": [
         {
           "de": "Was ist der Grund?",
@@ -29230,7 +27483,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Grund – это не просто причина.",
-        "example": "Grund des Problems = problēmas iemesls. fester Grund = stingrs pamats. Grund des Sees = ezera dibens."
+        "example": "Grund des Issues = причина проблемы. Fester Grund = прочный фундамент. Grund des Sees = дно озера."
       },
       "sectionAccents": {
         "examples": [
@@ -29397,11 +27650,7 @@ const A2_WORDS = [
               "blue": [
                 "Grund"
               ],
-              "orange": [
-                "iemesls"
-              ],
               "red": [
-                "iemesls",
                 "Grund"
               ]
             },
@@ -29409,21 +27658,7 @@ const A2_WORDS = [
               "blue": [
                 "Grund"
               ],
-              "green": [
-                "pamats"
-              ],
-              "orange": [
-                "iemesls"
-              ],
-              "purple": [
-                "ezera dibens"
-              ],
               "red": [
-                "problēmas",
-                "Problems",
-                "iemesls",
-                "stingrs",
-                "dibens",
                 "fester",
                 "Grund"
               ]
@@ -29434,50 +27669,50 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "der Grund",
+          "Дер Грунд",
           "iemesla",
-          "iemesls",
+          "Причина",
           "iemeslu",
-          "nozīmēt",
+          "Иметь в виду",
           "dibens",
           "diesem",
           "grunti",
           "grunts",
-          "pamats",
+          "Основа",
           "pamatu",
-          "Frāze",
+          "Фраза",
           "Grund",
-          "Dabā",
-          "stāv",
+          "На природе",
+          "Стоя",
           "zemi"
         ],
         "green": [
           "notikuma pamats",
-          "die Ursache",
+          "Умереть Урсаче",
           "Ursache",
-          "pamats",
-          "grīda"
+          "Основа",
+          "Пол"
         ],
         "yellow": [
-          "der Anlass",
+          "Подходит Анлас",
           "Anlass",
           "grunts"
         ],
         "orange": [
-          "iemesls",
-          "zeme"
+          "Причина",
+          "Земля"
         ],
         "purple": [
           "iemesls • pamats • grunts • dibens",
-          "iemesls / notikuma pamats",
-          "der Seegrund",
-          "ezera dibens",
-          "zeme / grīda",
+          "Причина/основа события",
+          "Дер Зеегрунд",
+          "Дно озера",
+          "Земля/пол",
           "Seegrund",
-          "cēlonis"
+          "Причина"
         ],
         "red": [
-          "der Boden",
+          "Подходит Бодену",
           "dibens",
           "Boden"
         ]
@@ -29655,11 +27890,11 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Повесить • Заказать",
       "explanation": [
-        "Galvenā doma: hängen nozīmē karāties vai kaut ko kārt pie sienas, durvīm vai citā vietā.",
-        "Ja lieta pati atrodas pie sienas vai uz āķa, latviski parasti saka karāties.",
-        "Ja cilvēks kaut ko liek pie sienas, uz āķa vai skapī, hängen nozīmē kārt vai piekārt.",
-        "Vācu valodā viena forma var aprakstīt gan stāvokli, gan darbību.",
-        "Konteksts parāda, vai attēls karājas pie sienas vai kāds to tur piekar."
+        "Основная идея: hängen означает повесить или повесить что-то на стену, дверь или другое место.",
+        "Если сама вещь находится на стене или на крючке, по-латышски обычно говорят, что она висит.",
+        "Если человек кладет что-то на стену, на крючок или в шкаф, hängen означает повесить или повесить.",
+        "В немецком языке одна форма может описывать как состояние, так и действие.",
+        "По контексту видно, висит ли картина на стене или ее там кто-то вешает."
       ],
       "examples": [
         {
@@ -29706,31 +27941,17 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Ja priekšmets ir pie sienas, uz āķa vai skapī, bieži lieto hängen.",
-        "Ja priekšmetu noliek uz galda, salīdzini ar stellen vai legen."
+        "Если предмет находится на стене, на крючке или в шкафу, часто используется хэнген.",
+        "Если предмет помещен на стол, сравните его со стелленом или легеном."
       ],
       "important": [
-        "hängen nav vispārīgs vārds nozīmei nolikt.",
-        "Stāvus noliek ar stellen, guļus noliek ar legen, bet piekar ar hängen."
+        "Hängen – это не общее слово, означающее «подавить».",
+        "Вставать со стелленом, лежать с легеном и висеть с хэнгеном."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "hängen"
-          ],
-          "purple": [
-            "karāties",
-            "kārt",
-            "piekārt"
-          ],
-          "green": [
-            "pie sienas",
-            "uz āķa",
-            "skapī"
-          ],
-          "red": [
-            "stāvokli",
-            "darbību"
           ]
         },
         "examples": [
@@ -29850,47 +28071,16 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "hängen"
-            ],
-            "purple": [
-              "pie sienas",
-              "uz āķa",
-              "skapī"
-            ]
-          },
-          {
-            "red": [
-              "stellen",
-              "legen"
-            ],
-            "purple": [
-              "noliek"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
           {
             "blue": [
               "hängen"
-            ],
-            "red": [
-              "nolikt"
             ]
           },
-          {
-            "red": [
-              "stellen",
-              "legen"
-            ],
-            "blue": [
-              "hängen"
-            ],
-            "purple": [
-              "piekar"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -29911,10 +28101,10 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Тяжело • Сложно",
       "explanation": [
-        "Galvenā doma: hart par materiālu nozīmē ciets, par situāciju vai raksturu nozīmē grūts/skarbs.",
-        "Runājot par materiālu vai virsmu, hart = ciets (Der Stein ist hart. = Akmens ir ciets.).",
-        "Runājot par dzīves situāciju vai izturēšanos, hart = grūts/skarbs (harte Zeiten = grūti laiki; ein harter Chef = skarbs šefs).",
-        "hart arbeiten nozīmē cītīgi/smagi strādāt."
+        "Основная идея: «Hart» для материала означает «жесткий», для ситуации или характера — «жесткий/жесткий».",
+        "Говоря о материале или поверхности, hart = твердый (Der Stein ist hart. = Камень твердый).",
+        "Говоря о жизненной ситуации или поведении, hart = жесткий/суровый (harte Zeiten = тяжелые времена • Ein harter Chef = суровый повар).",
+        "Hart arbeiten означает усердно работать."
       ],
       "examples": [
         {
@@ -29943,21 +28133,17 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Par materiālu vai virsmu (akmens, maize) → ciets.",
-        "Par situāciju, raksturu vai piepūli → grūts/skarbs."
+        "По материалу или поверхности (камень, хлеб) → твердый.",
+        "О ситуации, характере или усилии → трудный/жесткий."
       ],
       "important": [
-        "hart = ciets (materiāls) VAI grūts/skarbs (situācija, raksturs).",
-        "hart arbeiten = smagi/cītīgi strādāt."
+        "Hart = жесткий (материал) ИЛИ жесткий/жесткий (ситуация, характер).",
+        "Hart arbeiten = усердно работать."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "hart"
-          ],
-          "purple": [
-            "ciets",
-            "grūts"
           ]
         },
         "examples": [
@@ -30011,26 +28197,11 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "ciets"
-            ]
-          },
-          {
-            "green": [
-              "grūts",
-              "skarbs"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "purple": [
-              "ciets",
-              "grūts",
-              "skarbs"
-            ]
-          },
+          {},
           {
             "green": [
               "hart arbeiten"
@@ -30363,7 +28534,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Хольц – не живое дерево.",
-        "example": "Dzīvs koks = Подходит Бауму. Holz также может означать дрова."
+        "example": "Живое дерево = der Baum. Holz также может означать дрова."
       },
       "sectionAccents": {
         "examples": [
@@ -30529,14 +28700,14 @@ const A2_WORDS = [
       },
       "accents": {
         "blue": [
-          "kokmateriāliem",
+          "Для древесины",
           "standardStudy",
-          "Kokmateriāli",
-          "materiālu",
+          "Древесина",
+          "Материал",
           "galdiem",
-          "mēbelēm",
-          "nozīmēt",
-          "dēļiem",
+          "Для мебели",
+          "Иметь в виду",
+          "Доски",
           "Koksne",
           "koksni",
           "lieto",
@@ -30545,14 +28716,14 @@ const A2_WORDS = [
           "Holz",
           "Koks",
           "koku",
-          "runa"
+          "Речь"
         ],
         "green": [
-          "materiāls",
+          "Материал",
           "Malka"
         ],
         "yellow": [
-          "Kokmateriāli",
+          "Древесина",
           "der Baum",
           "Baum"
         ],
@@ -30560,12 +28731,12 @@ const A2_WORDS = [
           "Koks"
         ],
         "purple": [
-          "koksne / materiāls",
-          "dzīvs koks",
+          "Дерево/материал",
+          "Живое дерево",
           "der Wald",
           "Koksne",
-          "dēlis",
-          "mežs",
+          "Доска",
+          "Лес",
           "Wald"
         ],
         "red": [
@@ -30712,11 +28883,11 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Делает",
       "explanation": [
-        "Galvenā doma: indem paskaidro veidu, kā kaut kas tiek izdarīts.",
-        "Latviski to bieži tulko kā ar to, ka vai darot kaut ko.",
-        "indem nav parasts vārds nozīmei kamēr.",
-        "Ja doma ir vienlaicīga darbība, biežāk lieto während.",
-        "A2 līmenī svarīgākais ir saprast modeli: galvenā darbība + kādā veidā tā notiek."
+        "Основная идея: Indem объясняет, как что-то делается.",
+        "На латышский язык это часто переводится как «делать что-то».",
+        "Indem не является общепринятым словом, означающим «в то время как».",
+        "Если мысль представляет собой одновременное действие, чаще используется während.",
+        "На уровне А2 самое главное понять закономерность: основное действие + как оно происходит."
       ],
       "examples": [
         {
@@ -30759,26 +28930,20 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Ja latviski vari pateikt „...darot kaut ko”, vāciski ļoti bieži der indem.",
-        "Ja gribi pajautāt kādā veidā?, meklē konstrukciju ar indem.",
-        "Ja latviski doma ir kamēr, pārbaudi, vai vāciski nevajag während."
+        "Если вы можете сказать «...делаю что-то» по-латышски, в немецком языке часто используется indem.",
+        "Если вы хотите спросить, каким образом?, ищите конструкцию с возмещением.",
+        "Если по-латышски мысль while, проверьте, не нужен ли вам während по-немецки."
       ],
       "important": [
-        "indem parasti nesaka vienkārši kamēr.",
-        "indem rāda metodi vai veidu; während rāda laiku."
+        "Indem обычно не говорит просто «пока».",
+        "Indem показывает метод или тип • Веренд показывает время."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "indem"
           ],
-          "purple": [
-            "ar to, ka",
-            "darot kaut ko",
-            "veidu"
-          ],
           "red": [
-            "kamēr",
             "während"
           ]
         },
@@ -30873,15 +29038,10 @@ const A2_WORDS = [
           {
             "blue": [
               "indem"
-            ],
-            "purple": [
-              "darot kaut ko",
-              "kādā veidā"
             ]
           },
           {
             "red": [
-              "kamēr",
               "während"
             ]
           }
@@ -30890,22 +29050,11 @@ const A2_WORDS = [
           {
             "blue": [
               "indem"
-            ],
-            "red": [
-              "kamēr"
             ]
           },
           {
             "blue": [
               "indem"
-            ],
-            "purple": [
-              "metodi",
-              "veidu"
-            ],
-            "red": [
-              "während",
-              "laiku"
             ]
           }
         ]
@@ -31047,11 +29196,11 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Когда-нибудь • Год",
       "explanation": [
-        "Galvenā doma: je maina nozīmi pēc teikuma formas un bieži jāskatās kopā ar citiem vārdiem.",
-        "Jautājumos un noliegumos je bieži nozīmē jebkad.",
-        "Ar skaitļiem vai vienībām je var nozīmēt pa vai katrs.",
-        "Konstrukcijā je ... desto tas nozīmē jo ... jo.",
-        "Tāpēc je nav viens vienkāršs tulkojums; nozīmi nosaka frāze."
+        "Основная идея: je меняет значение в зависимости от формы предложения, и его часто следует рассматривать вместе с другими словами.",
+        "В вопросах и отрицаниях je часто означает «когда-нибудь».",
+        "В случае чисел или единиц je может означать pa или каждый.",
+        "В конструкции je... desto оно означает потому что... потому что.",
+        "Следовательно, je — это не один простой перевод • Смысл определяется фразой."
       ],
       "examples": [
         {
@@ -31072,12 +29221,12 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Ja je stāv pie cenas vai daudzuma, domā pa vai par vienību.",
-        "Ja redzi je ... desto, tulko kā jo ... jo."
+        "Если вы придерживаетесь цены или количества, думайте за единицу или за единицу.",
+        "Если вы видите je… desto, переведите как jo… jo."
       ],
       "important": [
-        "je viens pats nav parasts vārds nozīmei jo.",
-        "jo ... jo vāciski parasti veido ar je ... desto."
+        "Само по себе je не является общепринятым словом для обозначения значения «потому что».",
+        "Jo...jo в немецком языке обычно образуется с помощью je...desto."
       ],
       "sectionAccents": {
         "explanation": {
@@ -31085,17 +29234,7 @@ const A2_WORDS = [
             "je"
           ],
           "purple": [
-            "jebkad",
-            "pa",
-            "katrs",
-            "jo ... jo"
-          ],
-          "yellow": [
-            "skaitļiem",
-            "vienībām"
-          ],
-          "red": [
-            "je ... desto"
+            "pa"
           ]
         },
         "examples": [
@@ -31169,42 +29308,17 @@ const A2_WORDS = [
           {
             "blue": [
               "je"
-            ],
-            "yellow": [
-              "cenas",
-              "daudzuma"
-            ],
-            "purple": [
-              "pa",
-              "par vienību"
             ]
           },
-          {
-            "red": [
-              "je ... desto"
-            ],
-            "purple": [
-              "jo ... jo"
-            ]
-          }
+          {}
         ],
         "important": [
           {
             "blue": [
               "je"
-            ],
-            "red": [
-              "jo"
             ]
           },
-          {
-            "red": [
-              "je ... desto"
-            ],
-            "purple": [
-              "jo ... jo"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -31394,7 +29508,7 @@ const A2_WORDS = [
       "id": "a2-kamm",
       "layout": "standardStudy",
       "translation": "Гребень",
-      "explanation": "der Kamm visbiežāk nozīmē ķemmi. Retāk tas var nozīmēt gaiļa seksti. Kalna vai jumta kontekstā Kamm var nozīmēt kori. Šīs retākās nozīmes parasti ir skaidras tikai pēc konteksta. Ikdienā der Kamm gandrīz vienmēr nozīmē ķemmi.",
+      "explanation": "Дер Камм чаще всего означает гребешок. Реже оно может означать секст петуха. В контексте горы или крыши Камм может означать хор. Эти более редкие значения обычно ясны только из контекста. В быту дер Камм почти всегда означает гребешок.",
       "examples": [
         {
           "de": "Ich brauche einen Kamm.",
@@ -31433,7 +29547,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "В быту дер Камм почти всегда означает гребешок.",
-        "example": "der Kamm des Hahns = gaiļa sekste. der Bergkamm = kalna kore."
+        "example": "Der Kamm des Hahns = секстет петуха. дер Бергкамм = горный хребет."
       },
       "sectionAccents": {
         "examples": [
@@ -31557,13 +29671,7 @@ const A2_WORDS = [
                 "Kamm"
               ],
               "green": [
-                "Hahns",
-                "gaiļa",
-                "sekste"
-              ],
-              "yellow": [
-                "Bergkamm",
-                "kalna kore"
+                "Hahns"
               ]
             }
           }
@@ -31576,17 +29684,17 @@ const A2_WORDS = [
           "kämmt"
         ],
         "purple": [
-          "ķemme",
-          "ķemmi",
-          "ķemmējas"
+          "Гребень",
+          "Гребень",
+          "Расчесывание"
         ],
         "green": [
           "Hahn",
           "Hahns",
           "sekste",
-          "gaiļa",
-          "Gaiļa",
-          "gaiļa sekste"
+          "Петух",
+          "Петух",
+          "Секс члена"
         ],
         "yellow": [
           "Berg",
@@ -31602,7 +29710,7 @@ const A2_WORDS = [
         "red": [
           "die Bürste",
           "Bürste",
-          "suka"
+          "Щетка"
         ]
       }
     }
@@ -31794,12 +29902,12 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Почти совсем • Едва ли",
       "explanation": [
-        "Galvenā doma: kaum parasti nozīmē gandrīz nemaz vai tikko, atkarībā no teikuma.",
-        "Ja runa ir par daudzumu vai iespēju, kaum bieži nozīmē gandrīz nemaz.",
-        "Ja runa ir par laiku, kaum var nozīmēt tikko vai tikko kā.",
-        "kaum nav tas pats, kas fast, jo fast nozīmē gandrīz.",
-        "Frāzēs ar als vai sobald kaum var dot domu tiklīdz vai tikko kā.",
-        "Konstrukcijā \"kaum zu + nenoteiksme\" kaum bieži nozīmē grūti... vai gandrīz nevar..., piemēram kaum zu glauben."
+        "Основная идея: Каум обычно означает почти совсем или едва ли, в зависимости от предложения.",
+        "Когда дело доходит до количества или возможностей, мало часто означает почти ничего.",
+        "Когда дело доходит до времени, каму может означать «сейчас» или «так же».",
+        "Каум – это не то же самое, что быстро, потому что быстро означает почти.",
+        "Во фразах с als или södat kaum можно передать идею как только или как только.",
+        "В конструкции «каум цу + неопределенность» каум часто означает «трудно… или вряд ли возможно…», например каум цу глаубен."
       ],
       "examples": [
         {
@@ -31850,35 +29958,19 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Ja latviski vari pateikt gandrīz nemaz, vāciski bieži der kaum.",
-        "Ja doma ir vienkārši gandrīz, biežāk lieto fast, nevis kaum."
+        "Если вы с трудом говорите по-латышски, немецкий часто подойдет немногим.",
+        "Если мысль просто почти, то вместо каум чаще используют слово «фаст»."
       ],
       "important": [
-        "kaum un fast nav sinonīmi.",
-        "kaum = gandrīz nemaz; fast = gandrīz.",
-        "\"kaum zu + nenoteiksme\" bieži nozīmē grūti... vai gandrīz nevar..., nevis burtiski gandrīz nemaz.",
-        "kaum zu glauben = grūti noticēt / gandrīz nevar noticēt. kaum zu verstehen = grūti saprast / gandrīz nevar saprast."
+        "Каум и фаст не синонимы.",
+        "Каум = почти совсем • Быстро = почти.",
+        "«каум цу + неопределенность» часто означает «трудно»… или «вряд ли возможно», а не буквально «вряд ли».",
+        "Kaum zu glauben = трудно поверить/с трудом верится. kaum zu verstehen = трудно понять/трудно понять."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "kaum",
-            "kaum zu + nenoteiksme",
-            "kaum zu glauben"
-          ],
-          "purple": [
-            "gandrīz nemaz",
-            "tikko",
-            "tiklīdz",
-            "grūti",
-            "gandrīz nevar"
-          ],
-          "red": [
-            "fast"
-          ],
-          "yellow": [
-            "daudzumu",
-            "laiku"
+            "kaum"
           ]
         },
         "examples": [
@@ -31988,61 +30080,13 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "kaum"
-            ],
-            "purple": [
-              "gandrīz nemaz"
-            ]
-          },
-          {
-            "red": [
-              "fast"
-            ],
-            "blue": [
-              "kaum"
-            ],
-            "purple": [
-              "gandrīz"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "kaum"
-            ],
-            "red": [
-              "fast",
-              "sinonīmi"
-            ]
-          },
-          {
-            "blue": [
-              "kaum"
-            ],
-            "red": [
-              "fast"
-            ],
-            "purple": [
-              "gandrīz nemaz",
-              "gandrīz"
-            ]
-          },
-          {
-            "blue": [
-              "kaum zu + nenoteiksme"
-            ],
-            "purple": [
-              "grūti",
-              "gandrīz nevar"
-            ],
-            "red": [
-              "burtiski",
-              "gandrīz nemaz"
-            ]
-          }
+          {},
+          {},
+          {}
         ]
       }
     }
@@ -32112,10 +30156,10 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Знать",
       "explanation": [
-        "Galvenā doma: Pazīt cilvēku, vietu vai lietu no pieredzes.",
-        "kennen galvenokārt nozīmē: personīga pazīšana.",
-        "Bieži raksturo: cilvēkus, vietas.",
-        "kennen lieto, ja pazīsti cilvēku, vietu vai lietu no personīgās pieredzes."
+        "Основная идея: узнать человека, место или вещь на собственном опыте.",
+        "Kennen прежде всего означает: личное знакомство.",
+        "Часто описывает: людей, места.",
+        "Kennen используется, когда вы знаете человека, место или вещь из личного опыта."
       ],
       "examples": [
         {
@@ -32143,31 +30187,28 @@ const A2_WORDS = [
         {
           "word": "Кеннен",
           "meaning": "Знать (человека, место, вещь)",
-          "example": "Ich kenne ihn. – Es viņu pazīstu."
+          "example": "Ich kenne ihn. – Я знаю его."
         },
         {
           "word": "Мудрец",
           "meaning": "Знать (факт, информация)",
-          "example": "Ich weiß seinen Namen. – Es zinu viņa vārdu."
+          "example": "Ich weiß seinen Namen. – Я знаю его имя."
         }
       ],
       "tip": [
-        "kennen = pazīt",
-        "Izmanto kennen, kad konteksts atbilst šai nozīmei."
+        "Кеннен = знать",
+        "Используйте kennen, когда контекст соответствует этому значению."
       ],
       "important": [
-        "kennen = pazīt cilvēku/vietu.",
-        "kennen = pazīt.",
-        "Pazīt cilvēku, vietu vai lietu no pieredzes."
+        "Kennen = знать человека/место.",
+        "Кеннен = знать.",
+        "Знание человека, места или вещи на собственном опыте."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "kennen",
             "kennen"
-          ],
-          "purple": [
-            "pazīt"
           ]
         },
         "examples": [
@@ -32216,11 +30257,7 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "pazīt"
-            ]
-          }
+          {}
         ],
         "important": [
           {
@@ -32241,10 +30278,10 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Знать",
       "explanation": [
-        "Galvenā doma: Zināt faktu, atbildi vai informāciju.",
-        "wissen galvenokārt nozīmē: informācija/fakts.",
-        "Bieži raksturo: atbildes, datus.",
-        "wissen lieto, ja zini faktu, atbildi vai informāciju."
+        "Основная идея: узнать факт, ответ или информацию.",
+        "Wissen в основном означает: информация/факт.",
+        "Часто характеризуются: ответами, данными.",
+        "Wissen используется, когда вы знаете факт, ответ или информацию."
       ],
       "examples": [
         {
@@ -32264,31 +30301,28 @@ const A2_WORDS = [
         {
           "word": "Мудрец",
           "meaning": "Знать (факт, информация)",
-          "example": "Ich weiß, wo er wohnt. – Es zinu, kur viņš dzīvo."
+          "example": "Ich weiß, wo er wohnt. – Я знаю, где он живет."
         },
         {
           "word": "Кеннен",
           "meaning": "Знать (человека, место, вещь)",
-          "example": "Ich kenne die Stadt. – Es pazīstu pilsētu."
+          "example": "Ich kenne die Stadt. – Я знаю город."
         }
       ],
       "tip": [
-        "wissen = zināt",
-        "Izmanto wissen, kad konteksts atbilst šai nozīmei."
+        "Wissen = знать",
+        "Используйте wissen, когда контекст соответствует этому значению."
       ],
       "important": [
-        "wissen = zināt faktu.",
-        "wissen = zināt.",
-        "Zināt faktu, atbildi vai informāciju."
+        "Wissen = знать факт.",
+        "Wissen = знать.",
+        "Знать факт, ответ или информацию."
       ],
       "sectionAccents": {
         "explanation": {
           "green": [
             "wissen",
             "wissen"
-          ],
-          "purple": [
-            "zināt"
           ]
         },
         "examples": [
@@ -32311,11 +30345,7 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "zināt"
-            ]
-          }
+          {}
         ],
         "important": [
           {
@@ -32391,7 +30421,7 @@ const A2_WORDS = [
       "accent": "blue",
       "variants": [
         {
-          "article": "das",
+          "article": "Дас",
           "de": "Keyboard",
           "plural": "die Keyboards"
         }
@@ -32500,7 +30530,7 @@ const A2_WORDS = [
       "accent": "blue",
       "variants": [
         {
-          "article": "das",
+          "article": "Дас",
           "de": "Kino",
           "plural": "die Kinos"
         }
@@ -32560,7 +30590,7 @@ const A2_WORDS = [
       "accent": "blue",
       "variants": [
         {
-          "article": "das",
+          "article": "Дас",
           "de": "Kissen",
           "plural": "die Kissen"
         }
@@ -32654,7 +30684,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Клар очень часто используется в разговорной речи.",
-        "example": "Das Wasser ist klar nozīmē, ka ūdens ir dzidrs. Klar! var nozīmēt “protams!”"
+        "example": "Das Wasser ist klar означает, что вода прозрачная. Конечно! может означать «конечно!»"
       },
       "sectionAccents": {
         "examples": [
@@ -32796,14 +30826,8 @@ const A2_WORDS = [
               "blue": [
                 "klar"
               ],
-              "green": [
-                "dzidrs"
-              ],
               "red": [
-                "nozīmēt",
-                "dzidrs",
                 "Wasser",
-                "ūdens",
                 "klar"
               ]
             }
@@ -32813,46 +30837,46 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "Sarunvalodā",
+          "Разговорный",
           "noteikumu",
-          "saprotams",
-          "situāciju",
-          "kārtībā",
-          "nozīmēt",
-          "skaidrs",
+          "Понятный",
+          "Ситуация",
+          "Чтобы",
+          "Иметь в виду",
+          "Прозрачный",
           "dzidrs",
           "Alles",
-          "bieži",
+          "Часто",
           "gaisu",
-          "ūdeni",
+          "Вода",
           "domu",
           "klar",
-          "runa",
-          "viss"
+          "Речь",
+          "Все"
         ],
         "green": [
-          "labi saskatāmi",
+          "Ясно видимый",
           "dzidrs"
         ],
         "yellow": [
           "alles klar",
-          "saprotams"
+          "Понятный"
         ],
         "orange": [
-          "viss kārtībā",
+          "Всё хорошо",
           "skaidri",
-          "skaidrs"
+          "Прозрачный"
         ],
         "purple": [
           "skaidrs • dzidrs • saprotams",
-          "skaidri / labi saskatāmi",
-          "viss kārtībā / skaidrs",
+          "Ясно / ясно видно",
+          "Все в порядке/ясно",
           "skaidrs / saprotams",
           "bereit",
-          "gatavs"
+          "Готовый"
         ],
         "red": [
-          "deutlich"
+          "Немецкий"
         ]
       }
     }
@@ -32911,7 +30935,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Сплетня может быть как действием, так и состоянием.",
-        "example": "Das Pflaster klebt nicht nozīmē, ka plāksteris nelīp. Der Zettel klebt an der Tür nozīmē, ka zīmīte ir pielipusi."
+        "example": "Das Pflaster klebt nicht означает, что пластырь не прилипает. Der Zettel klebt an der Tür означает, что записка застряла."
       },
       "sectionAccents": {
         "examples": [
@@ -33052,11 +31076,9 @@ const A2_WORDS = [
             },
             "example": {
               "red": [
-                "plāksteris",
                 "Pflaster",
                 "Zettel",
-                "klebt",
-                "nelīp"
+                "klebt"
               ]
             }
           }
@@ -33065,45 +31087,45 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "fotogrāfiju",
-          "plāksteriem",
-          "pielipušam",
-          "stāvoklis",
+          "Фотография",
+          "Патчи",
+          "Застрявший",
+          "Состояние",
           "pielipis",
-          "darbība",
+          "Действие",
           "pielipt",
-          "uzlīmēm",
+          "Наклейки",
           "kleben",
-          "papīru",
-          "pielīp",
-          "bieži",
+          "Бумага",
+          "Палочки",
+          "Часто",
           "lieto",
-          "līmēt",
-          "Vārdu",
-          "kāds",
-          "līmē"
+          "Клеить",
+          "Имя",
+          "Кто-то",
+          "В клее"
         ],
         "green": [
-          "pieķerties",
+          "Цепляться за",
           "pielipt"
         ],
         "yellow": [
-          "būt pielipušam",
+          "Застрять",
           "ankleben"
         ],
         "orange": [
-          "turēties",
-          "līmēt"
+          "Подожди",
+          "Клеить"
         ],
         "purple": [
-          "pielipt / būt pielipušam",
-          "turēties / pieķerties",
-          "pielīmēt pie kaut kā",
-          "līmēt ar līmi",
+          "Застрять / застрять",
+          "Держись / цепляйся за",
+          "Придерживаться чего-либо",
+          "Приклеить клеем",
           "leimen"
         ],
         "red": [
-          "līmēt • pielipt • būt pielipušam",
+          "Прилипать • Прилипать • Прилипать",
           "haften"
         ]
       }
@@ -33375,43 +31397,43 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "piestāvēt",
-          "Ģērbties",
-          "noteiktā",
-          "apģērbs",
-          "Apģērbt",
-          "kleiden",
-          "nozīmēt",
-          "svarīga",
-          "nozīme",
-          "Ģērbt",
-          "krāsa",
-          "stilā",
+          "Одеться",
+          "Одеться",
+          "Указанный",
+          "Одежда",
+          "Одевайся",
+          "Ложь",
+          "Иметь в виду",
+          "Важный",
+          "Значение",
+          "Одевайся",
+          "Цвет",
+          "В стиле",
           "citu",
-          "kādu",
-          "labi"
+          "Кто-то",
+          "Хороший"
         ],
         "green": [
-          "sich kleiden",
-          "Apģērbt"
+          "Sich kleiden",
+          "Одевайся"
         ],
         "yellow": [
-          "kleidet jemanden",
-          "Ģērbties"
+          "Клейдет жеманден",
+          "Одеться"
         ],
         "orange": [
-          "uzvilkt",
-          "Ģērbt"
+          "Надевать",
+          "Одевайся"
         ],
         "purple": [
-          "Ģērbt • Apģērbt • Ģērbties",
-          "uzvilkt / apģērbt",
-          "piestāv kādam",
-          "tragen",
-          "valkāt"
+          "Одевайся • Одевайся • Одевайся",
+          "Надеть/одеть",
+          "Кому-то подходит",
+          "Тащить",
+          "Носить"
         ],
         "red": [
-          "anziehen"
+          "Анзиен"
         ]
       }
     }
@@ -33588,11 +31610,11 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Тело",
       "explanation": [
-        "Galvenā doma: Körper visbiežāk nozīmē cilvēka vai dzīvnieka ķermeni — miesu, veselību un fizisko stāvokli.",
-        "Veselības, sporta un medicīnas tekstos Körper parasti ir ķermenis: Der Körper braucht Ruhe.",
-        "Tehniskā kontekstā Körper nozīmē korpusu — automašīnas, ieroča vai priekšmeta fizisko daļu.",
-        "Matemātikā un ģeometrijā Körper var būt ģeometrisks ķermenis (kubs, sfēra).",
-        "Konteksts nosaka tulkojumu: cilvēks → ķermenis; mehānisms → korpuss."
+        "Основная идея: Кёрпер чаще всего означает тело человека или животного — тело, здоровье и физическое состояние.",
+        "В текстах о здоровье, спорте и медицине Körper обычно обозначает тело: Der Körper braucht Ruhe.",
+        "В техническом контексте Кёрпер означает тело — физическую часть автомобиля, оружия или объекта.",
+        "В математике и геометрии Кёрпер может быть геометрическим телом (кубом, сферой).",
+        "Контекст определяет перевод: человек → тело • Механизм → корпус."
       ],
       "examples": [
         {
@@ -33620,7 +31642,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Körper может означать больше, чем просто человеческое тело.",
-        "example": "der Körper des Autos = automašīnas korpuss. ein geometrischer Körper = ģeometrisks ķermenis."
+        "example": "Der Körper des Autos = кузов автомобиля. ein geometrischer Körper = геометрическое тело."
       },
       "sectionAccents": {
         "examples": [
@@ -33720,7 +31742,6 @@ const A2_WORDS = [
                 "Körper"
               ],
               "red": [
-                "ķermeni",
                 "Körper"
               ]
             },
@@ -33729,20 +31750,8 @@ const A2_WORDS = [
                 "der Körper",
                 "Körper"
               ],
-              "green": [
-                "korpuss"
-              ],
-              "orange": [
-                "ķermenis"
-              ],
-              "purple": [
-                "ģeometrisks ķermenis"
-              ],
               "red": [
                 "geometrischer",
-                "automašīnas",
-                "ģeometrisks",
-                "korpuss",
                 "Körper",
                 "Autos"
               ]
@@ -33754,26 +31763,26 @@ const A2_WORDS = [
         "blue": [
           "standardStudy",
           "der Körper",
-          "priekšmetu",
-          "dzīvnieka",
-          "kontekstā",
-          "ķermenis",
-          "stāvokli",
-          "Tehniskā",
-          "veselību",
-          "cilvēka",
+          "Предмет",
+          "Животного",
+          "В контексте",
+          "Тело",
+          "Состояние",
+          "Технический",
+          "Здоровье",
+          "Человек",
           "fizisku",
-          "korpuss",
-          "kustību",
-          "ķermeni",
-          "nozīmēt",
+          "Тело",
+          "Движение",
+          "Тело",
+          "Иметь в виду",
           "Körper",
           "lieto"
         ],
         "green": [
-          "fiziska daļa",
-          "apvalks",
-          "korpuss",
+          "Физическая часть",
+          "Оболочка",
+          "Тело",
           "miesa"
         ],
         "yellow": [
@@ -33781,14 +31790,14 @@ const A2_WORDS = [
           "geometrische Körper"
         ],
         "orange": [
-          "ķermenis"
+          "Тело"
         ],
         "purple": [
-          "korpuss / fiziska daļa",
-          "ģeometrisks ķermenis",
+          "Тело/физическая часть",
+          "Геометрическое тело",
           "korpuss / apvalks",
-          "ķermenis • korpuss",
-          "ķermenis / miesa",
+          "Тело • Тело",
+          "Тело / плоть",
           "das Gehäuse",
           "Gehäuse"
         ],
@@ -33867,7 +31876,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Крафт – это не просто физическая сила.",
-        "example": "in Kraft = spēkā. Fachkraft = kvalificēts darbinieks vai speciālists."
+        "example": "В крафте = в силе. Фачкрафт = квалифицированный рабочий или специалист."
       },
       "sectionAccents": {
         "examples": [
@@ -34006,92 +32015,56 @@ const A2_WORDS = [
         },
         "important": [
           {
-            "text": {
-              "blue": [
-                "Kraft"
-              ],
-              "orange": [
-                "spēkā"
-              ],
-              "red": [
-                "Kraft",
-                "spēkā"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Kraft"
-              ],
-              "green": [
-                "darbinieks",
-                "in Kraft"
-              ],
-              "yellow": [
-                "Fachkraft"
-              ],
-              "orange": [
-                "speciālists"
-              ],
-              "purple": [
-                "spēkā"
-              ],
-              "red": [
-                "kvalificēts",
-                "speciālists",
-                "darbinieks",
-                "Fachkraft",
-                "Kraft",
-                "spēkā"
-              ]
-            }
+            "text": {},
+            "example": {}
           }
         ]
       },
       "accents": {
         "blue": [
           "standardStudy",
-          "die Kraft",
-          "kontekstā",
-          "enerģija",
-          "enerģiju",
-          "izturību",
-          "stiprums",
-          "Tehniskā",
+          "Ди Крафт",
+          "В контексте",
+          "Энергия",
+          "Энергия",
+          "Выносливость",
+          "Сила",
+          "Технический",
           "fizisku",
-          "nozīmēt",
-          "piepūli",
-          "Frāzē",
+          "Иметь в виду",
+          "Усилие",
+          "Во фразе",
           "Kraft",
           "lieto",
-          "spēkā",
-          "spēks",
-          "spēku"
+          "Действующий",
+          "Сила",
+          "Сила"
         ],
         "green": [
-          "darbinieks",
+          "Сотрудник",
           "in Kraft",
-          "stiprums"
+          "Сила"
         ],
         "yellow": [
           "die Fachkraft",
           "Fachkraft",
-          "enerģija"
+          "Энергия"
         ],
         "orange": [
-          "speciālists",
-          "spēks"
+          "Специалист",
+          "Сила"
         ],
         "purple": [
-          "spēks • stiprums • enerģija",
-          "speciālists / darbinieks",
-          "spēks / enerģija",
-          "stiprums / spēks",
+          "Мощь • Сила • Энергия",
+          "Специалист/сотрудник",
+          "Мощность / энергия",
+          "Сила / сила",
           "die Stärke",
           "Stärke",
-          "spēkā"
+          "Действующий"
         ],
         "red": [
-          "die Energie",
+          "Энергия",
           "Energie"
         ]
       }
@@ -34198,11 +32171,11 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Короткий",
       "explanation": [
-        "Galvenā doma: kurz visbiežāk nozīmē īss.",
-        "To lieto par laiku, tekstu, ceļu, sarunu vai priekšmetu.",
-        "Frāzēs kurz vor un kurz nach tas nozīmē īsi pirms vai īsi pēc.",
-        "Sarunvalodā kurz var nozīmēt arī uz īsu brīdi.",
-        "Ja doma ir drīz nākotnē, biežāk lieto bald, nevis kurz viens pats."
+        "Основная идея: курц чаще всего означает короткий.",
+        "Он используется для обозначения времени, текста, дороги, разговора или темы.",
+        "Во фразах kurz vor и kurz nach это означает незадолго до или вскоре после.",
+        "В разговорной речи курц также может означать «на короткое время».",
+        "Если мысль скоро в будущем, чаще употребляется лысый, чем один только курс."
       ],
       "examples": [
         {
@@ -34254,32 +32227,17 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Ja vari pajautāt cik garš? vai cik ilgi?, kurz bieži nozīmē īss.",
-        "Ar vor un nach to mācies kā frāzes: kurz vor = īsi pirms, kurz nach = īsi pēc."
+        "Если можно спросить, как долго? или как долго?, что часто означает короткий.",
+        "С вор и нач выучите это словосочетаниями: курц вор = незадолго до этого, курц нач = вскоре после."
       ],
       "important": [
-        "kurz viens pats nav galvenais vārds nozīmei drīz.",
-        "Drīz parasti ir bald; kurz vairāk nozīmē īss vai īsu brīdi."
+        "Само по себе «курц» не является основным словом, означающим «скоро».",
+        "Вскоре обычно лысеет • Kurz more означает короткое или ненадолго."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "kurz"
-          ],
-          "purple": [
-            "īss",
-            "īsi pirms",
-            "īsi pēc",
-            "uz īsu brīdi"
-          ],
-          "red": [
-            "bald"
-          ],
-          "green": [
-            "laiku",
-            "tekstu",
-            "ceļu",
-            "sarunu"
           ]
         },
         "examples": [
@@ -34387,44 +32345,14 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "kurz"
-            ],
-            "purple": [
-              "īss"
-            ]
-          },
-          {
-            "blue": [
-              "kurz vor",
-              "kurz nach"
-            ],
-            "purple": [
-              "īsi pirms",
-              "īsi pēc"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
+          {},
           {
             "blue": [
               "kurz"
-            ],
-            "red": [
-              "drīz"
-            ]
-          },
-          {
-            "red": [
-              "bald"
-            ],
-            "blue": [
-              "kurz"
-            ],
-            "purple": [
-              "īss",
-              "īsu brīdi"
             ]
           }
         ]
@@ -34449,11 +32377,11 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Состояние",
       "explanation": [
-        "Galvenā doma: die Lage visbiežāk nozīmē situāciju vai stāvokli.",
-        "To lieto, kad runā par to, kāda ir situācija valstī, darbā, ģimenē vai kādā brīdī.",
-        "Lage var nozīmēt arī atrašanās vietu vai novietojumu.",
-        "Retāk, īpaši par materiāliem, Lage nozīmē kārtu vai slāni.",
-        "Konteksts nosaka, vai runa ir par situāciju, vietu vai slāni."
+        "Основная идея: die Lage чаще всего означает ситуацию или состояние.",
+        "Его используют, когда говорят о ситуации в стране, на работе, в семье или в какой-то момент времени.",
+        "Лаге также может означать местоположение или положение.",
+        "Реже, особенно для материалов, Lage означает слой или слой.",
+        "Контекст определяет, является ли это ситуацией, местом или слоем."
       ],
       "examples": [
         {
@@ -34500,34 +32428,18 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Ja runa ir par apstākļiem vai problēmu, die Lage parasti nozīmē situāciju vai stāvokli.",
-        "Ja runa ir par viesnīcu, ēku vai vietu pilsētā, Lage bieži nozīmē atrašanās vietu."
+        "Когда речь идет об обстоятельствах или проблеме, die Lage обычно означает ситуацию или состояние.",
+        "Говоря об отеле, здании или месте в городе, Lage часто имеет в виду местоположение."
       ],
       "important": [
-        "Lage nav tikai fiziska vieta.",
-        "Politische Lage, wirtschaftliche Lage un schwierige Lage nozīmē situāciju vai stāvokli."
+        "Лаге – это не просто физическое место.",
+        "Politische Lage, wirtschaftliche Lage и schwierige Lage означают ситуацию или состояние."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "Lage",
             "die Lage"
-          ],
-          "purple": [
-            "situāciju",
-            "stāvokli",
-            "atrašanās vietu",
-            "novietojumu",
-            "kārtu",
-            "slāni"
-          ],
-          "green": [
-            "valstī",
-            "darbā",
-            "ģimenē"
-          ],
-          "red": [
-            "Konteksts"
           ]
         },
         "examples": [
@@ -34629,48 +32541,21 @@ const A2_WORDS = [
           {
             "blue": [
               "die Lage"
-            ],
-            "purple": [
-              "situāciju",
-              "stāvokli"
-            ],
-            "red": [
-              "apstākļiem",
-              "problēmu"
             ]
           },
           {
             "blue": [
               "Lage"
-            ],
-            "purple": [
-              "atrašanās vietu"
-            ],
-            "green": [
-              "viesnīcu",
-              "ēku",
-              "vietu"
             ]
           }
         ],
         "important": [
-          {
-            "blue": [
-              "Lage"
-            ],
-            "red": [
-              "fiziska vieta"
-            ]
-          },
+          {},
           {
             "blue": [
               "Politische Lage",
               "wirtschaftliche Lage",
               "schwierige Lage"
-            ],
-            "purple": [
-              "situāciju",
-              "stāvokli"
             ]
           }
         ]
@@ -34802,11 +32687,11 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Страдать",
       "explanation": [
-        "Galvenā doma: leiden visbiežāk nozīmē ciest no sāpēm, slimības vai grūtas situācijas.",
-        "Ar an + kam? tas nozīmē slimot ar kaut ko vai ciest no kādas problēmas.",
-        "Ar unter + kam? tas nozīmē ciest zem kāda apstākļa vai problēmas.",
-        "leiden var nozīmēt arī paciest, bet šī nozīme bieži parādās noliegumā: ich kann ihn nicht leiden.",
-        "Ja runa ir tikai par fizisku slimību, biežāk redzēsi krank sein vai krank werden."
+        "Основная идея: Лейден чаще всего означает страдать от боли, болезни или трудной ситуации.",
+        "С + для кого? это значит болеть чем-то или страдать от проблемы.",
+        "С унтером + что? это означает страдать из-за каких-то обстоятельств или проблем.",
+        "Leiden также может означать «терпеть», но это значение часто проявляется в отрицательном смысле: ich kann ihn nicht leiden.",
+        "Если это только физическое заболевание, вы чаще увидите Krank Sein или Krank Werden."
       ],
       "examples": [
         {
@@ -34858,28 +32743,17 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Ja redzi leiden an, domā par slimību vai problēmu.",
-        "Ja redzi nicht leiden können, tulko kā nevarēt paciest."
+        "Если вы видите Лейдена, подумайте о болезни или проблеме.",
+        "Если вы видите nicht leiden können, это переводится как «терпеть не могу»."
       ],
       "important": [
-        "leiden nav vienkārši slimot visos gadījumos.",
-        "leiden an = slimot ar / ciest no; leiden unter = ciest no apstākļiem."
+        "Лейден не во всех случаях легко заболеть.",
+        "Leiden an = страдать от • Leiden unter = страдать от обстоятельств."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "leiden",
-            "an",
-            "unter"
-          ],
-          "purple": [
-            "ciest",
-            "slimot",
-            "paciest"
-          ],
-          "green": [
-            "slimības",
-            "problēmas"
+            "leiden"
           ]
         },
         "examples": [
@@ -34987,41 +32861,19 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "leiden an"
-            ],
-            "purple": [
-              "slimību",
-              "problēmu"
-            ]
-          },
+          {},
           {
             "red": [
               "nicht leiden können"
-            ],
-            "purple": [
-              "nevarēt paciest"
             ]
           }
         ],
         "important": [
-          {
-            "blue": [
-              "leiden"
-            ],
-            "red": [
-              "slimot"
-            ]
-          },
+          {},
           {
             "blue": [
               "leiden an",
               "leiden unter"
-            ],
-            "purple": [
-              "slimot ar",
-              "ciest no"
             ]
           }
         ]
@@ -35268,45 +33120,45 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "aizņemties",
-          "aizņemies",
-          "līdzīgs",
-          "nozīmēt",
+          "Занимать",
+          "Заняться делом",
+          "Похожий",
+          "Иметь в виду",
           "aizdod",
           "aizdot",
-          "borgen",
+          "Борген",
           "kam? forma",
-          "leihen",
-          "parāda",
-          "bieži",
+          "Недавно",
+          "Шоу",
+          "Часто",
           "laiku",
-          "lieta",
+          "Вещь",
           "lietu",
-          "saņem",
-          "kāds",
+          "Получает",
+          "Кто-то",
           "tiek"
         ],
         "green": [
-          "nomāt par maksu",
-          "aizņemties",
-          "borgen"
+          "Аренда за определенную плату",
+          "Занимать",
+          "Борген"
         ],
         "yellow": [
-          "mieten"
+          "Арендовать"
         ],
         "orange": [
           "aizdot",
-          "īrēt"
+          "Арендовать"
         ],
         "purple": [
-          "īrēt / nomāt par maksu",
-          "aizdot / aizņemties",
-          "aizņemties / aizdot",
-          "aizdot • aizņemties",
-          "pirkt"
+          "Аренда/сдача в аренду за определенную плату",
+          "Одалживать / брать взаймы",
+          "Брать / одалживать",
+          "Одолжить • Одолжить",
+          "Купить"
         ],
         "red": [
-          "kaufen"
+          "Кауфен"
         ]
       }
     }
@@ -35327,10 +33179,10 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Менеджер • Стремянка",
       "explanation": [
-        "Galvenā doma: Leiter ir homonīms — atkarībā no dzimtes nozīmē vadītāju vai kāpnes.",
-        "der Leiter (vīr. dz.) = vadītājs, priekšnieks; daudzskaitlis: die Leiter.",
-        "die Leiter (siev. dz.) = (pieslienamās) kāpnes; daudzskaitlis: die Leitern.",
-        "Artikuls un konteksts parasti uzreiz norāda pareizo nozīmi."
+        "Основная идея: Лейтер — омоним, означающий лидера или лестницу, в зависимости от семьи.",
+        "Der Leiter (мужской род) = лидер, начальник • Множественное число: die Leiter.",
+        "Die Leiter (жена д.) = (подъём) по лестнице • Множественное число: die Leitern.",
+        "Артикль и контекст обычно сразу указывают на правильный смысл."
       ],
       "examples": [
         {
@@ -35381,22 +33233,18 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "der Leiter = cilvēks, kas vada (vadītājs).",
-        "die Leiter = priekšmets, uz kura kāpj (kāpnes)."
+        "Der Leiter = человек, который руководит (лидер).",
+        "Die Leiter = объект, на который нужно подняться (лестница)."
       ],
       "important": [
-        "der Leiter (vīr.) = vadītājs, Plural die Leiter.",
-        "die Leiter (siev.) = kāpnes, Plural die Leitern."
+        "Der Leiter (мужской род) = лидер, множественное число die Leiter.",
+        "Die Leiter (жена) = лестница, множественное число die Leitern."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "der Leiter",
             "die Leiter"
-          ],
-          "purple": [
-            "vadītājs",
-            "kāpnes"
           ]
         },
         "examples": [
@@ -35462,7 +33310,7 @@ const A2_WORDS = [
       "id": "a2-leitung",
       "layout": "standardStudy",
       "translation": "Управление",
-      "explanation": "die Leitung var nozīmēt vadību vai cilvēkus, kas vada darbu. Tā var nozīmēt elektrisko vadu vai tehnisku līniju. Telefona kontekstā Leitung nozīmē telefona līniju vai savienojumu. Ūdens vai gāzes kontekstā tā var būt caurule vai padeves līnija. Salikteņi kā Telefonleitung un Wasserleitung palīdz saprast nozīmi.",
+      "explanation": "Die Leitung может означать руководство или людей, которые руководят работой. Это может означать электрический провод или линию электропередачи. В контексте телефона Leitung означает телефонную линию или соединение. В контексте воды или газа это может быть труба или линия подачи. Такие сложные слова, как Telefonleitung и Wasserleitung, помогают понять значение.",
       "examples": [
         {
           "de": "Das Projekt steht unter der Leitung von Frau Müller.",
@@ -35528,7 +33376,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Leitung может быть как менеджером по персоналу, так и техническим отделом.",
-        "example": "unter der Leitung = vadībā. elektrische Leitung = elektriskais vads. Telefonleitung = telefona līnija. Wasserleitung = ūdens caurule."
+        "example": "Unter der Leitung = под руководством. elektrische Leitung = электрический провод. Telefonleitung = телефонная линия. Wasserleitung = водопровод."
       },
       "sectionAccents": {
         "examples": [
@@ -35702,42 +33550,23 @@ const A2_WORDS = [
               "blue": [
                 "Leitung"
               ],
-              "green": [
-                "līnija"
-              ],
-              "orange": [
-                "vadība"
-              ],
               "red": [
-                "Leitung",
-                "līnija",
-                "vadība"
+                "Leitung"
               ]
             },
             "example": {
               "blue": [
                 "Leitung"
               ],
-              "green": [
-                "līnija"
-              ],
-              "yellow": [
-                "vads"
-              ],
               "purple": [
-                "telefona līnija",
-                "ūdens caurule",
                 "wasserleitung"
               ],
               "red": [
                 "Telefonleitung",
-                "elektriskais",
                 "elektrische",
-                "caurule",
+                "elektrische",
                 "Leitung",
-                "vadībā",
-                "unter",
-                "vads"
+                "unter"
               ]
             }
           }
@@ -35746,50 +33575,50 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "die Leitung",
+          "Умереть Лейтунг",
           "elektrisko",
-          "kontekstā",
-          "cilvēkus",
+          "В контексте",
+          "Люди",
           "tehnisku",
           "Telefona",
-          "caurule",
+          "Трубка",
           "Leitung",
-          "nozīmēt",
-          "līnija",
-          "līniju",
-          "vadība",
-          "vadību",
+          "Иметь в виду",
+          "Линия",
+          "Линия",
+          "Управление",
+          "Управление",
           "darbu",
           "vada",
           "vads",
           "vadu"
         ],
         "green": [
-          "die Führung",
+          "Умереть во главе",
           "Führung",
-          "līnija"
+          "Линия"
         ],
         "yellow": [
-          "das Kabel",
+          "Кабель",
           "Kabel",
           "vads"
         ],
         "orange": [
-          "kabelis",
-          "vadība"
+          "Кабель",
+          "Управление"
         ],
         "purple": [
-          "vadība • līnija • vads • caurule",
-          "die Wasserleitung",
-          "telefona līnija",
-          "kabelis / vads",
-          "ūdens caurule",
+          "Свинец • Линия • Провод • Труба",
+          "Умереть Вассерляйтунг",
+          "Телефонная линия",
+          "Кабель / провод",
+          "Водопровод",
           "Wasserleitung"
         ],
         "red": [
-          "die Telefonleitung",
+          "Телефонное сопровождение",
           "Telefonleitung",
-          "caurule"
+          "Трубка"
         ]
       }
     }
@@ -35846,10 +33675,10 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Спать • Быть",
       "explanation": [
-        "Galvenā doma: Stāvoklis: kaut kas jau atrodas guļus vai horizontāli.",
-        "liegen galvenokārt nozīmē: stāvoklis.",
-        "Bieži raksturo: kur kaut kas atrodas.",
-        "liegen lieto, ja kaut kas jau atrodas guļus vai horizontāli."
+        "Основная идея: Состояние: Что-то уже лежащее или горизонтальное.",
+        "«liegen» в основном означает: состояние.",
+        "Часто описывает: где что-то находится.",
+        "Liegen используется, когда что-то уже лежит или находится в горизонтальном положении."
       ],
       "examples": [
         {
@@ -35869,42 +33698,42 @@ const A2_WORDS = [
         {
           "word": "Легенда",
           "meaning": "Сложить (действие)",
-          "example": "Ich lege das Buch hin. – Es nolieku grāmatu."
+          "example": "Ich lege das Buch hin. – Я отложил книгу."
         },
         {
           "word": "Ложь",
           "meaning": "Лечь (положение)",
-          "example": "Das Buch liegt hier. – Grāmata atrodas šeit."
+          "example": "Das Buch liegt hier. – Книга здесь."
         },
         {
           "word": "Стеллен",
           "meaning": "Поставить вертикально (действие)",
-          "example": "Ich stelle die Flasche hin. – Es nolieku pudeli stāvus."
+          "example": "Ich stelle die Flasche hin. – Я поставил бутылку вертикально."
         },
         {
           "word": "Стоять",
           "meaning": "Стоять (состояние)",
-          "example": "Die Flasche steht hier. – Pudele atrodas šeit."
+          "example": "Die Flasche steht hier. – Бутылка здесь."
         },
         {
           "word": "Установить",
           "meaning": "Место (действие)",
-          "example": "Ich setze das Kind hin. – Es apsēdinu bērnu."
+          "example": "Ich setze das Kind hin. – Я сижу ребенка."
         },
         {
           "word": "Сидячий",
           "meaning": "Сидеть (поза)",
-          "example": "Das Kind sitzt hier. – Bērns sēž šeit."
+          "example": "Das Kind sitzt hier. – Здесь сидит ребенок."
         }
       ],
       "tip": [
-        "Stāvoklis: kaut kas jau atrodas guļus vai horizontāli.",
-        "Izmanto liegen, kad konteksts atbilst šai nozīmei."
+        "Положение: Что-то уже лежачее или горизонтальное.",
+        "Используйте «liegen», когда контекст соответствует этому значению."
       ],
       "important": [
-        "liegen = stāvoklis.",
-        "Stāvoklis: liegen.",
-        "Stāvoklis: kaut kas jau atrodas guļus vai horizontāli."
+        "Лиген = государство.",
+        "Статус: Льеген.",
+        "Положение: Что-то уже лежачее или горизонтальное."
       ],
       "sectionAccents": {
         "explanation": {
@@ -35945,11 +33774,7 @@ const A2_WORDS = [
           {}
         ],
         "important": [
-          {
-            "blue": [
-              "liegen"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -35963,10 +33788,10 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Сложить",
       "explanation": [
-        "Galvenā doma: Darbība: kāds kaut ko noliek guļus vai horizontāli.",
-        "legen galvenokārt nozīmē: darbība.",
-        "Bieži raksturo: ko kāds novieto.",
-        "legen lieto, ja kāds kaut ko noliek guļus vai horizontāli."
+        "Основная идея: Действие: Кто-то кладет что-то горизонтально или горизонтально.",
+        "Legen прежде всего означает: действие.",
+        "Часто описывает: что кто-то размещает.",
+        "Legen используется, когда кто-то кладет что-то вниз или горизонтально."
       ],
       "examples": [
         {
@@ -35978,51 +33803,48 @@ const A2_WORDS = [
         {
           "word": "Легенда",
           "meaning": "Сложить (действие)",
-          "example": "Ich lege das Buch hin. – Es nolieku grāmatu."
+          "example": "Ich lege das Buch hin. – Я отложил книгу."
         },
         {
           "word": "Ложь",
           "meaning": "Лечь (положение)",
-          "example": "Das Buch liegt hier. – Grāmata atrodas šeit."
+          "example": "Das Buch liegt hier. – Книга здесь."
         },
         {
           "word": "Стеллен",
           "meaning": "Поставить вертикально (действие)",
-          "example": "Ich stelle die Flasche hin. – Es nolieku pudeli stāvus."
+          "example": "Ich stelle die Flasche hin. – Я поставил бутылку вертикально."
         },
         {
           "word": "Стоять",
           "meaning": "Стоять (состояние)",
-          "example": "Die Flasche steht hier. – Pudele atrodas šeit."
+          "example": "Die Flasche steht hier. – Бутылка здесь."
         },
         {
           "word": "Установить",
           "meaning": "Место (действие)",
-          "example": "Ich setze das Kind hin. – Es apsēdinu bērnu."
+          "example": "Ich setze das Kind hin. – Я сижу ребенка."
         },
         {
           "word": "Сидячий",
           "meaning": "Сидеть (поза)",
-          "example": "Das Kind sitzt hier. – Bērns sēž šeit."
+          "example": "Das Kind sitzt hier. – Здесь сидит ребенок."
         }
       ],
       "tip": [
-        "Darbība: kāds kaut ko noliek guļus vai horizontāli.",
-        "Izmanto legen, kad konteksts atbilst šai nozīmei."
+        "Действие: Кто-то кладет что-то горизонтально или горизонтально.",
+        "Использует legen, когда контекст соответствует этому значению."
       ],
       "important": [
-        "legen = darbība.",
-        "Darbība: legen.",
-        "Darbība: kāds kaut ko noliek guļus vai horizontāli."
+        "Леген = действие.",
+        "Действие: леген.",
+        "Действие: Кто-то кладет что-то горизонтально или горизонтально."
       ],
       "sectionAccents": {
         "explanation": {
           "green": [
             "legen",
             "legen"
-          ],
-          "purple": [
-            "noliek guļus"
           ]
         },
         "examples": [
@@ -36036,18 +33858,10 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "noliek guļus"
-            ]
-          }
+          {}
         ],
         "important": [
-          {
-            "green": [
-              "legen"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -36359,7 +34173,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Meinen часто указывает на мнение или конкретную мысль.",
-        "example": "Ich meine dich = es domāju tevi. Ich meine, dass ... = es uzskatu, ka ..."
+        "example": "Ich meine dich = Я думаю о тебе. Ich meine, dass ... = Я верю, что ..."
       },
       "sectionAccents": {
         "examples": [
@@ -36468,17 +34282,13 @@ const A2_WORDS = [
                 "meinen"
               ],
               "red": [
-                "domāju",
                 "meinen"
               ]
             },
             "example": {
               "red": [
-                "uzskatu",
-                "domāju",
                 "dass",
-                "dich",
-                "tevi"
+                "dich"
               ]
             }
           }
@@ -36487,44 +34297,44 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "konkrētu",
+          "Специфический",
           "teiktais",
-          "uzskatīt",
+          "Рассмотреть",
           "viedokli",
-          "cilvēku",
-          "nozīmēt",
+          "Люди",
+          "Иметь в виду",
           "izsaka",
-          "meinen",
+          "Мейнен",
           "meinst",
-          "bieži",
-          "domāt",
-          "Frāzē",
+          "Часто",
+          "Думать",
+          "Во фразе",
           "lieto",
           "lietu",
-          "domā",
+          "Думать",
           "savu"
         ],
         "green": [
-          "uzskatīt",
-          "denken"
+          "Рассмотреть",
+          "Думать"
         ],
         "yellow": [
-          "domāt konkrēti",
-          "glauben",
-          "nozīmēt"
+          "Думать конкретно",
+          "Глаубен",
+          "Иметь в виду"
         ],
         "orange": [
-          "domāt",
-          "ticēt"
+          "Думать",
+          "Верить"
         ],
         "purple": [
-          "domāt / uzskatīt / domāt konkrēti",
-          "domāt • uzskatīt • nozīmēt",
-          "ticēt / domāt",
-          "domāt prātā"
+          "Думать / рассматривать / мыслить конкретно",
+          "Думать • Рассматривать • Иметь в виду",
+          "Верить/думать",
+          "Думать в уме"
         ],
         "red": [
-          "bedeuten"
+          "Бедейтен"
         ]
       }
     }
@@ -36581,11 +34391,11 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Уведомление • Запомнить",
       "explanation": [
-        "Galvenā doma: merken nozīmē pamanīt vai iegaumēt atkarībā no teikuma.",
-        "Ja runa ir par to, ka kaut ko sajūti vai ievēro, merken nozīmē pamanīt.",
-        "Ja lieto sich merken, tas nozīmē iegaumēt vai paturēt prātā.",
-        "merken nav tas pats, kas erinnern, jo erinnern biežāk nozīmē atcerēties vai atgādināt.",
-        "A2 līmenī īpaši svarīga ir frāze sich etwas merken."
+        "Основная идея: меркен означает замечать или запоминать в зависимости от предложения.",
+        "Когда речь идет о чувстве или замечании чего-либо, слово «меркен» означает «замечать».",
+        "Слово sich merken означает «запоминать» или «держать в уме».",
+        "Merken — это не то же самое, что erinnern, потому что erinnern чаще всего означает «помнить» или «напоминать».",
+        "На уровне А2 особенно важна фраза sich etwas merken."
       ],
       "examples": [
         {
@@ -36637,23 +34447,18 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Ja teikumā ir sich vai mir/dir, merken bieži nozīmē iegaumēt.",
-        "Ja runa ir par kļūdu vai situāciju, merken bieži nozīmē pamanīt."
+        "Если в предложении есть слова sich или mir/dir, merken часто означает запоминать.",
+        "Говоря об ошибке или ситуации, merken часто означает «замечать»."
       ],
       "important": [
-        "merken un sich merken nav gluži viens un tas pats.",
-        "merken = pamanīt; sich merken = iegaumēt."
+        "Меркен и sich merken — это не одно и то же.",
+        "Меркен = заметить • Sich merken = запоминать."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "merken",
             "sich merken"
-          ],
-          "purple": [
-            "pamanīt",
-            "iegaumēt",
-            "paturēt prātā"
           ],
           "red": [
             "erinnern"
@@ -36770,21 +34575,11 @@ const A2_WORDS = [
               "mir",
               "dir",
               "merken"
-            ],
-            "purple": [
-              "iegaumēt"
             ]
           },
           {
             "blue": [
               "merken"
-            ],
-            "purple": [
-              "pamanīt"
-            ],
-            "yellow": [
-              "kļūdu",
-              "situāciju"
             ]
           }
         ],
@@ -36793,19 +34588,12 @@ const A2_WORDS = [
             "blue": [
               "merken",
               "sich merken"
-            ],
-            "red": [
-              "nav gluži viens un tas pats"
             ]
           },
           {
             "blue": [
               "merken",
               "sich merken"
-            ],
-            "purple": [
-              "pamanīt",
-              "iegaumēt"
             ]
           }
         ]
@@ -36905,11 +34693,11 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Средство",
       "explanation": [
-        "Galvenā doma: das Mittel visbiežāk nozīmē līdzekli, ar ko kaut ko panāk vai atrisina.",
-        "Tas var būt praktisks līdzeklis, piemēram tīrīšanas līdzeklis vai zāles.",
-        "Daudzskaitlī Mittel var nozīmēt arī naudas vai materiālos līdzekļus.",
-        "Matemātikā vai statistikā Mittel var nozīmēt vidējo, bet A2 līmenī galvenā nozīme ir līdzeklis.",
-        "Konteksts parāda, vai runa ir par lietu, naudu vai metodi."
+        "Основная идея: das Mittel чаще всего означает средство, с помощью которого что-то достигается или решается.",
+        "Это может быть практичный инструмент, например, чистящее средство или лекарство.",
+        "Во множественном числе Миттель также может означать денежные или материальные ресурсы.",
+        "В математике или статистике Миттель может означать среднее значение, но на уровне А2 основное значение — средство.",
+        "Контекст показывает, идет ли речь о вещи, деньгах или методе."
       ],
       "examples": [
         {
@@ -36961,27 +34749,18 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Ja kaut kas palīdz atrisināt problēmu, vāciski bieži der Mittel.",
-        "Ja runa ir par konkrētām zālēm, biežāk lieto Medikament."
+        "Если что-то помогает решить проблему, немец часто делает это с помощью Миттеля.",
+        "Если говорить о конкретных препаратах, то чаще используют Медикамент."
       ],
       "important": [
-        "das Mittel nav tas pats, kas die Mitte.",
-        "Mittel = līdzeklis; Mitte = vidus."
+        "Das Mittel — это не то же самое, что die Mitte.",
+        "Миттель = означает • Митте = средний."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "das Mittel",
             "Mittel"
-          ],
-          "purple": [
-            "līdzeklis",
-            "līdzekļus",
-            "vidējo"
-          ],
-          "green": [
-            "naudas",
-            "materiālos"
           ]
         },
         "examples": [
@@ -37089,23 +34868,8 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "Mittel"
-            ],
-            "purple": [
-              "palīdz",
-              "atrisināt problēmu"
-            ]
-          },
-          {
-            "green": [
-              "Medikament"
-            ],
-            "purple": [
-              "zālēm"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
           {
@@ -37116,18 +34880,7 @@ const A2_WORDS = [
               "die Mitte"
             ]
           },
-          {
-            "blue": [
-              "Mittel"
-            ],
-            "red": [
-              "Mitte"
-            ],
-            "purple": [
-              "līdzeklis",
-              "vidus"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -37310,22 +35063,22 @@ const A2_WORDS = [
         {
           "word": "Хорошо",
           "meaning": "Ну • Ну, пусть будет так",
-          "example": "Na gut, dann machen wir das. – Nu labi, tad darīsim tā."
+          "example": "Na gut, dann machen wir das. – Что ж, тогда давайте сделаем это."
         },
         {
           "word": "Хороший",
           "meaning": "Хороший",
-          "example": "Das ist gut. – Tas ir labi."
+          "example": "Das ist gut. – Это хорошо."
         },
         {
           "word": "Хорошо",
           "meaning": "Хорошо • Ок (неформально)",
-          "example": "Okay, ich verstehe. – Labi, es saprotu."
+          "example": "Okay, ich verstehe. – Хорошо, я понимаю."
         }
       ],
       "tip": {
         "text": "«на гут» — разговорное выражение, которое очень часто используется в повседневной жизни. В зависимости от ситуации это может звучать нейтрально, снисходительно или немного неохотно.",
-        "example": "Piemērs: Na gut, ich probiere es. – Nu labi, es pamēģināšu."
+        "example": "Пример: Na gut, ich probiere es. – Хорошо, я попробую."
       },
       "sectionAccents": {
         "examples": [
@@ -37360,9 +35113,6 @@ const A2_WORDS = [
             "example": {
               "green": [
                 "Na gut"
-              ],
-              "purple": [
-                "nu labi"
               ]
             }
           },
@@ -37394,9 +35144,6 @@ const A2_WORDS = [
           "right": {
             "green": [
               "Na gut"
-            ],
-            "purple": [
-              "nu labi"
             ]
           }
         }
@@ -37487,11 +35234,11 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Ноготь на пальце ноги • Ноготь",
       "explanation": [
-        "Galvenā doma: der Nagel var nozīmēt pirksta nagu vai metāla nagliņu — konteksts nosaka nozīmi.",
-        "Runājot par ķermeņa daļu, der Nagel = pirksta/kājas pirksta nags.",
-        "Runājot par būvniecību, mēbelēm vai darbarīkiem, der Nagel = nagla (metāla priekšmets, ko iedzen ar āmuru).",
-        "Frāzē den Nagel auf den Kopf treffen (trāpīt naglai tieši galvā) nozīmē precīzi pateikt/uzminēt.",
-        "Daudzskaitlī: die Nägel — abām nozīmēm."
+        "Основная идея: der Nagel может означать ноготь или металлический гвоздь — смысл определяет контекст.",
+        "Когда речь идет о части тела, der Nagel = ноготь на пальце руки/ноге.",
+        "Когда речь идет о строительстве, мебели или инструментах, der Nagel = гвоздь (металлический предмет, забитый молотком).",
+        "Фраза den Nagel auf den Kopf treffen (попасть прямо в точку) означает точно сказать/угадать.",
+        "Множественное число: die Nägel – для обоих значений."
       ],
       "examples": [
         {
@@ -37520,12 +35267,12 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Runā par ķermeni (pirkstiem) → pirksta nags.",
-        "Runā par būvniecību/darbarīkiem (āmurs, siena) → nagla."
+        "Говоря о теле (пальцы) → ноготь на ноге.",
+        "Разговор о строительстве/инструментах (молоток, стена) → гвоздь."
       ],
       "important": [
-        "der Nagel = pirksta nags VAI nagla — atkarībā no konteksta.",
-        "den Nagel auf den Kopf treffen = precīzi uzminēt/pateikt (idiomātisks izteiciens)."
+        "Der Nagel = ноготь ИЛИ ноготь – в зависимости от контекста.",
+        "Den Nagel auf den Kopf treffen = точно угадать/сказать (идиоматическое выражение)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -37533,8 +35280,7 @@ const A2_WORDS = [
             "der Nagel"
           ],
           "purple": [
-            "pirksta nags",
-            "nagla"
+            "Nagel"
           ]
         },
         "examples": [
@@ -37588,22 +35334,13 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "pirksta nags"
-            ]
-          },
-          {
-            "green": [
-              "nagla"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
           {
             "purple": [
-              "pirksta nags",
-              "nagla"
+              "Nagel"
             ]
           },
           {
@@ -37792,7 +35529,7 @@ const A2_WORDS = [
       "id": "a2-note",
       "layout": "standardStudy",
       "translation": "Оценка",
-      "explanation": "die Note skolā nozīmē atzīmi. Mūzikā Note nozīmē noti. Naudas kontekstā Banknote nozīmē banknoti. Pārnestā nozīmē Note var nozīmēt noskaņu, pieskaņu vai niansi. Konteksts: Schule, Musik, Geld vai Stil parasti nosaka nozīmi.",
+      "explanation": "Die Note означает оценку в школе. В музыке Note означает ноту. В контексте денег Banknote означает банкноту. В переносном смысле Нота может означать настроение, обертон или нюанс. Контекст: Schule, Musik, Geld или Stil обычно определяют значение.",
       "examples": [
         {
           "de": "Ich habe eine gute Note bekommen.",
@@ -37858,7 +35595,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Значение примечания определяется полем.",
-        "example": "gute Note bekommen = saņemt labu atzīmi. eine Note spielen = spēlēt noti. Banknote = banknote. traurige Note = skumja pieskaņa."
+        "example": "Гутэ Примечание bekommen = получить хорошую оценку. eine Note spielen = сыграть ноту. Банкнота = Банкнота. traurige Note = грустная нота."
       },
       "sectionAccents": {
         "examples": [
@@ -38027,7 +35764,6 @@ const A2_WORDS = [
                 "Note"
               ],
               "red": [
-                "atzīmi",
                 "Note"
               ]
             },
@@ -38035,16 +35771,8 @@ const A2_WORDS = [
               "blue": [
                 "Note"
               ],
-              "yellow": [
-                "banknote"
-              ],
               "red": [
                 "bekommen",
-                "pieskaņa",
-                "atzīmi",
-                "saņemt",
-                "gute",
-                "labu",
                 "Note"
               ]
             }
@@ -38054,51 +35782,51 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "kontekstā",
-          "banknote",
+          "В контексте",
+          "Банкнота",
           "banknoti",
-          "die Note",
-          "Pārnestā",
-          "pieskaņa",
-          "pieskaņu",
-          "noskaņu",
-          "nozīmēt",
-          "atzīme",
-          "atzīmi",
-          "Mūzikā",
+          "Примечание",
+          "Перенесено",
+          "Обертон",
+          "Подтон",
+          "Настроение",
+          "Иметь в виду",
+          "Оценка",
+          "Отметка",
+          "В музыке",
           "Naudas",
-          "skolā",
+          "В школе",
           "Note",
           "noti",
           "nots"
         ],
         "green": [
-          "die Schulnote",
+          "Умереть Шульноте",
           "Schulnote",
-          "skaņa",
+          "Звук",
           "nots"
         ],
         "yellow": [
-          "die Musiknote",
+          "Умереть Музыкальная нота",
           "Musiknote",
-          "banknote"
+          "Банкнота"
         ],
         "orange": [
-          "atzīme",
+          "Оценка",
           "tonis"
         ],
         "purple": [
-          "atzīme • nots • banknote • pieskaņa",
-          "atzīme / nots / pieskaņa",
-          "skolas atzīme",
-          "tonis / skaņa",
-          "mūzikas nots",
-          "der Ton",
+          "Знак • Нота • Нота • Обертон",
+          "Знак/нота/обертон",
+          "Школьный класс",
+          "Тон / звук",
+          "Музыкальная нота",
+          "Подходит Тон",
           "Ton"
         ],
         "red": [
-          "die Banknote",
-          "pieskaņa"
+          "Умереть банкнота",
+          "Обертон"
         ]
       }
     }
@@ -38151,12 +35879,12 @@ const A2_WORDS = [
       "accent": "blue",
       "variants": [
         {
-          "article": "das",
+          "article": "Дас",
           "de": "Nummernschild",
           "plural": "die Nummernschilder"
         },
         {
-          "article": "das",
+          "article": "Дас",
           "de": "Kennzeichen",
           "plural": "die Kennzeichen"
         }
@@ -38195,11 +35923,11 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Использовать",
       "explanation": [
-        "Galvenā doma: nutzen visbiežāk nozīmē izmantot kaut ko praktiskam mērķim.",
-        "Tas var nozīmēt arī noderēt, ja jautā, vai kaut kas dod labumu.",
-        "lietot ikdienā bieži ir benutzen, bet nutzen vairāk uzsver ieguvumu vai mērķi.",
-        "Frāze die Chance nutzen nozīmē izmantot iespēju.",
-        "Konteksts parāda, vai runa ir par lietošanu vai par labumu."
+        "Основная идея: нутцен чаще всего означает использование чего-либо в практических целях.",
+        "Это также может означать полезность, когда вы спрашиваете, полезно ли что-то.",
+        "Использовать каждый день – это часто бесполезно, но нутцен больше подчеркивает пользу или цель.",
+        "Фраза die Chance nutzen означает «воспользоваться возможностью».",
+        "Контекст показывает, является ли это использованием или выгодой."
       ],
       "examples": [
         {
@@ -38246,28 +35974,23 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Ja uzsvars ir uz ieguvumu vai iespēju, bieži lieto nutzen.",
-        "Ja runa ir par ierīces vai priekšmeta parastu lietošanu, bieži der benutzen."
+        "Когда акцент делается на выгоде или возможностях, часто используется нитцен.",
+        "Когда речь идет об обычном использовании устройства или предмета, часто используется бенутцен."
       ],
       "important": [
-        "nutzen ne vienmēr ir vienkārši lietot.",
-        "Das nutzt mir nichts nozīmē: tas man neko nedod / nepalīdz."
+        "Nutzen не всегда прост в использовании.",
+        "Das nutzt mir nichts означает: мне это не помогает."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "nutzen"
           ],
-          "purple": [
-            "izmantot",
-            "noderēt",
-            "labumu"
-          ],
           "green": [
             "die Chance nutzen"
           ],
           "red": [
-            "benutzen"
+            "nutzen"
           ]
         },
         "examples": [
@@ -38369,40 +36092,18 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "nutzen"
-            ],
-            "purple": [
-              "ieguvumu",
-              "iespēju"
-            ]
-          },
-          {
-            "red": [
-              "benutzen"
-            ],
-            "purple": [
-              "lietošanu"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
           {
             "blue": [
               "nutzen"
-            ],
-            "red": [
-              "lietot"
             ]
           },
           {
             "blue": [
               "Das nutzt mir nichts"
-            ],
-            "purple": [
-              "neko nedod",
-              "nepalīdz"
             ]
           }
         ]
@@ -38461,11 +36162,11 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Открыть",
       "explanation": [
-        "Galvenā doma: offen visbiežāk nozīmē atvērts vai vaļā.",
-        "To lieto par durvīm, logiem, veikaliem un darba laiku.",
-        "Par cilvēku vai sarunu offen var nozīmēt atklāts vai vaļsirdīgs.",
-        "offen var nozīmēt arī brīvs vai vēl neizlemts, ja runa ir par jautājumu vai vietu.",
-        "Konteksts nosaka, vai runa ir par fiziski atvērtu lietu vai atklātu attieksmi."
+        "Основная мысль: offen чаще всего означает открытый или открытый.",
+        "Используется для дверей, окон, магазинов и рабочего времени.",
+        "В отношении человека или разговора offen может означать открытый или откровенный.",
+        "Offen также может означать открытый или нерешительный, когда речь идет о вопросе или месте.",
+        "Контекст определяет, является ли это физически открытым случаем или открытым отношением."
       ],
       "examples": [
         {
@@ -38512,28 +36213,17 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Par durvīm, logiem un veikaliem offen parasti nozīmē vaļā vai atvērts.",
-        "Par cilvēku vai sarunu offen nozīmē atklāts."
+        "Для дверей, окон и магазинов offen обычно означает «открытый» или «открытый».",
+        "В отношении человека или разговора offen означает открытый."
       ],
       "important": [
-        "offen nav vienmēr tas pats, kas ehrlich.",
-        "offen = atklāts; ehrlich = godīgs."
+        "Офен не всегда то же самое, что Эрлих.",
+        "Offen = открыто • Эрлих = честный."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "offen"
-          ],
-          "purple": [
-            "atvērts",
-            "vaļā",
-            "atklāts",
-            "brīvs"
-          ],
-          "green": [
-            "durvīm",
-            "logiem",
-            "veikaliem"
           ]
         },
         "examples": [
@@ -38635,45 +36325,19 @@ const A2_WORDS = [
           {
             "blue": [
               "offen"
-            ],
-            "purple": [
-              "vaļā",
-              "atvērts"
-            ],
-            "green": [
-              "durvīm",
-              "logiem",
-              "veikaliem"
             ]
           },
           {
             "blue": [
               "offen"
-            ],
-            "purple": [
-              "atklāts"
             ]
           }
         ],
         "important": [
+          {},
           {
             "blue": [
               "offen"
-            ],
-            "red": [
-              "ehrlich"
-            ]
-          },
-          {
-            "blue": [
-              "offen"
-            ],
-            "red": [
-              "ehrlich"
-            ],
-            "purple": [
-              "atklāts",
-              "godīgs"
             ]
           }
         ]
@@ -38848,11 +36512,11 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Случаться",
       "explanation": [
-        "Galvenā doma: passieren visbiežāk nozīmē notikt vai atgadīties.",
-        "To bieži lieto jautājumā Was ist passiert? = Kas notika?",
-        "Ja runa ir par nelaimi vai kļūdu, passieren nozīmē atgadīties.",
-        "Ļoti specifiskā virtuvē passieren var nozīmēt izberzt vai izspiest caur sietu, bet tā nav A2 galvenā nozīme.",
-        "Nejauc passieren ar passieren im Sinne von iet garām; tam parasti lieto vorbeigehen vai vorbeifahren."
+        "Основная мысль: passieren чаще всего означает случиться или случиться.",
+        "Он часто используется в Was ist passiert? = Что случилось?",
+        "Когда речь идет о несчастном случае или ошибке, passieren означает «произошло».",
+        "В очень специфической кухне passieren может означать протирать или протирать через сито, но это не основное значение А2.",
+        "Не путайте passieren с passieren im Sinne von pass мимо • Обычно используется vorbeigehen или vorbeifahren."
       ],
       "examples": [
         {
@@ -38877,12 +36541,12 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Ja jautā Kas notika?, vāciski ļoti bieži saka Was ist passiert?",
-        "Pasākumiem biežāk lieto stattfinden, nevis passieren."
+        "Если вы спросите «Что случилось?», по-немецки очень часто ответят: Was ist passiert?",
+        "Для мероприятий чаще используют veittern вместо passieren."
       ],
       "important": [
-        "passieren A2 līmenī galvenokārt ir notikt / atgadīties.",
-        "Koncerts notiek = Das Konzert findet statt, nevis Das Konzert passiert."
+        "Passieren на уровне А2 в основном происходит/происходит.",
+        "Концерт происходит = Das Konzert findet statt, а не Das Konzert passiert."
       ],
       "sectionAccents": {
         "explanation": {
@@ -38890,16 +36554,9 @@ const A2_WORDS = [
             "passieren",
             "passiert"
           ],
-          "purple": [
-            "notikt",
-            "atgadīties"
-          ],
           "red": [
             "vorbeigehen",
             "vorbeifahren"
-          ],
-          "yellow": [
-            "sietu"
           ]
         },
         "examples": [
@@ -38979,20 +36636,11 @@ const A2_WORDS = [
           {
             "blue": [
               "Was ist passiert"
-            ],
-            "purple": [
-              "kas notika"
             ]
           },
           {
-            "red": [
-              "stattfinden"
-            ],
             "blue": [
               "passieren"
-            ],
-            "purple": [
-              "pasākumiem"
             ]
           }
         ],
@@ -39000,19 +36648,12 @@ const A2_WORDS = [
           {
             "blue": [
               "passieren"
-            ],
-            "purple": [
-              "notikt",
-              "atgadīties"
             ]
           },
           {
             "red": [
               "findet statt",
               "passiert"
-            ],
-            "purple": [
-              "koncerts notiek"
             ]
           }
         ]
@@ -39294,11 +36935,11 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Патч • Тротуар",
       "explanation": [
-        "Galvenā doma: das Pflaster ir divnozīmju vārds — plāksteris vai bruģis atkarībā no konteksta.",
-        "Medicīnā un mājās Pflaster nozīmē plāksteri, ko uzlīmē uz brūces vai skrāpējuma.",
-        "Ielu, laukumu un pilsētu kontekstā Pflaster nozīmē bruģi — bruģētu ietves virsmu.",
-        "Das Pflaster klebt nicht parasti ir par plāksteri; Die Straße hat altes Pflaster — par bruģi.",
-        "Vienmēr skaties kontekstu: aptieka, brūce, āda → plāksteris; iela, ietve, iešana → bruģis."
+        "Основная идея: das Pflaster — двухбуквенное слово — патч или тротуар, в зависимости от контекста.",
+        "В медицине и в домашних условиях Пфластер означает пластырь, который накладывают на рану или царапину.",
+        "В контексте улиц, площадей и городов Пфластер означает мостовая – мощеная поверхность тротуара.",
+        "Das Pflaster klebt nicht обычно означает заплатку • Die Straße Hat Altes Pflaster — о тротуаре.",
+        "Всегда смотрите на контекст: аптека, рана, кожа → пластырь • Улица, тротуар, ходьба → тротуар."
       ],
       "examples": [
         {
@@ -39451,38 +37092,38 @@ const A2_WORDS = [
         "blue": [
           "standardStudy",
           "das Pflaster",
-          "plāksteris",
-          "kontekstā",
-          "plāksteri",
-          "aizlīmēt",
-          "medicīnā",
+          "Патч",
+          "В контексте",
+          "Патчи",
+          "Придерживаться",
+          "В медицине",
           "Pflaster",
-          "bruģētu",
+          "Мощеный",
           "skramba",
-          "bruģis",
+          "Тротуар",
           "virsmu",
-          "bruģi",
-          "brūce",
+          "Тротуары",
+          "Рана",
           "Ielas",
           "lieto",
-          "ādas"
+          "Кожа"
         ],
         "green": [
-          "bruģis"
+          "Тротуар"
         ],
         "yellow": [
-          "der Verband",
+          "Дер Вербанд",
           "Verband"
         ],
         "orange": [
-          "plāksteris"
+          "Патч"
         ],
         "purple": [
-          "plāksteris • bruģis",
+          "Патч • Тротуар",
           "pflastern",
-          "pārsējs",
-          "akmens",
-          "bruģēt"
+          "Повязка",
+          "Камень",
+          "Проложить"
         ],
         "red": [
           "der Stein",
@@ -39762,11 +37403,11 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Колесо",
       "explanation": [
-        "Galvenā doma: das Rad visbiežāk nozīmē riteni kā apaļu kustīgu daļu.",
-        "Ikdienā Rad var nozīmēt arī velosipēdu, īpaši sarunvalodā vai saīsinājumos.",
-        "Ja runa ir par transportlīdzekli, precīzākais vārds parasti ir das Fahrrad.",
-        "Rad lieto arī salikteņos, piemēram Lenkrad vai Ersatzrad.",
-        "Konteksts parāda, vai runa ir par riteni vai velosipēdu."
+        "Основная идея: das Rad чаще всего означает колесо как круглую движущуюся часть.",
+        "В повседневной жизни Рад также может означать велосипед, особенно в разговорной речи или в сокращениях.",
+        "Когда речь идет о транспортном средстве, наиболее точным словом обычно является das Fahrrad.",
+        "Рад также используется в таких соединениях, как Ленкрад или Эрзацрад.",
+        "Контекст показывает, колесо это или велосипед."
       ],
       "examples": [
         {
@@ -39791,12 +37432,12 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Ja runa ir par detaļu automašīnai vai ratiem, Rad parasti nozīmē riteni.",
-        "Ja runa ir par braukšanu, precīzāk ir Fahrrad, lai gan sarunvalodā saka arī Rad."
+        "Когда речь идет о детали автомобиля или тележки, Рад обычно имеет в виду колесо.",
+        "Когда дело доходит до верховой езды, Фахрад более точен, хотя в разговорной речи его еще называют Рад."
       ],
       "important": [
-        "das Rad nav vienmēr pilns vārds velosipēdam.",
-        "Velosipēds visprecīzāk ir das Fahrrad; Rad var būt īsā sarunvalodas forma."
+        "Das Rad не всегда является полным словом для обозначения велосипеда.",
+        "Велосипед – это, скорее всего, das Fahrrad • Рад может быть краткой разговорной формой."
       ],
       "sectionAccents": {
         "explanation": {
@@ -39804,16 +37445,8 @@ const A2_WORDS = [
             "das Rad",
             "Rad"
           ],
-          "purple": [
-            "riteni",
-            "velosipēdu"
-          ],
           "green": [
             "das Fahrrad"
-          ],
-          "yellow": [
-            "Lenkrad",
-            "Ersatzrad"
           ]
         },
         "examples": [
@@ -39890,36 +37523,13 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "Rad"
-            ],
-            "purple": [
-              "riteni"
-            ],
-            "yellow": [
-              "detaļu"
-            ]
-          },
-          {
-            "green": [
-              "Fahrrad"
-            ],
-            "blue": [
-              "Rad"
-            ],
-            "purple": [
-              "braukšanu"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
           {
             "blue": [
               "das Rad"
-            ],
-            "purple": [
-              "velosipēdam"
             ]
           },
           {
@@ -39928,9 +37538,6 @@ const A2_WORDS = [
             ],
             "blue": [
               "Rad"
-            ],
-            "purple": [
-              "velosipēds"
             ]
           }
         ]
@@ -39973,10 +37580,10 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Лужайка",
       "explanation": [
-        "Galvenā doma: der Rasen ar lielo burtu un artikulu der ir lietvārds — zālājs, pļaviņa (piem. dārzā).",
-        "rasen ar mazo burtu ir darbības vārds — joņot, traukties ļoti ātri.",
-        "der Rasen bieži attiecas uz kopto zālienu dārzā vai stadionā.",
-        "Daudzskaitlī: die Rasen."
+        "Основная мысль: Расен – существительное с заглавной буквы и артикль дер – лужайка, луг (например, в саду).",
+        "Расен с маленькой буквы - глагол - мчаться, мчаться очень быстро.",
+        "Дер Расен часто относится к ухоженному газону в саду или на стадионе.",
+        "Множественное число: die Rasen."
       ],
       "examples": [
         {
@@ -39997,21 +37604,17 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "der Rasen ar lielo burtu — lietvārds (zālājs).",
-        "rasen ar mazo burtu — darbības vārds (joņot)."
+        "Дер Расен с большой буквы – существительное (лужайка).",
+        "Расень со строчной буквы - глагол (шутить)."
       ],
       "important": [
-        "der Rasen = zālājs (lietvārds).",
-        "rasen = joņot/traukties (darbības vārds)."
+        "Der Rasen = газон (существительное).",
+        "Расен = волноваться (глагол)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "der Rasen"
-          ],
-          "purple": [
-            "zālājs",
-            "pļaviņa"
+            "Rasen"
           ],
           "green": [
             "rasen"
@@ -40052,16 +37655,8 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "der Rasen"
-            ]
-          },
-          {
-            "green": [
-              "rasen"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
           {
@@ -40069,11 +37664,7 @@ const A2_WORDS = [
               "der Rasen"
             ]
           },
-          {
-            "green": [
-              "rasen"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -40092,11 +37683,11 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Предложить • Угадать",
       "explanation": [
-        "Galvenā doma: raten nozīmē dot padomu vai mēģināt uzminēt.",
-        "Ja kādam dod padomu, vāciski bieži lieto raten ar kam? formu.",
-        "Ja nezini atbildi un mēģini to trāpīt, raten nozīmē uzminēt.",
-        "Frāze Ich rate dir... nozīmē es tev iesaku.",
-        "Konteksts parāda, vai runa ir par padomu vai minēšanu."
+        "Основная идея: ратен означает советовать или пытаться угадать.",
+        "Давая кому-то совет, вы часто используете в немецком языкеraten, что? форма.",
+        "Если вы не знаете ответа и пытаетесь его угадать, то «рейтен» означает «угадать».",
+        "Фраза Ichrate dir... означает, что я рекомендую вас.",
+        "Контекст показывает, подсказка это или догадка."
       ],
       "examples": [
         {
@@ -40121,29 +37712,17 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Ja pēc raten ir cilvēks kam? locījumā, bieži nozīme ir ieteikt.",
-        "Ja pēc raten ir Antwort, Lösung vai Zahl, bieži nozīme ir uzminēt."
+        "Если есть человек для кого? в спряжении часто имеет значение предполагать.",
+        "Если за рейтингом следует Antwort, Lösung или Zahl, то значение часто состоит в том, чтобы угадать."
       ],
       "important": [
-        "raten nav tikai uzminēt.",
-        "Ich rate dir nozīmē es tev iesaku, nevis es tevi uzminu."
+        "Рейтинг – это не просто предположение.",
+        "Ichrate dir означает, что я рекомендую вас, а не думаю, что вы."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "raten",
-            "Ich rate dir"
-          ],
-          "purple": [
-            "dot padomu",
-            "uzminēt",
-            "iesaku"
-          ],
-          "green": [
-            "kam?"
-          ],
-          "yellow": [
-            "Konteksts"
+            "raten"
           ]
         },
         "examples": [
@@ -40227,51 +37806,18 @@ const A2_WORDS = [
           }
         ],
         "tip": [
+          {},
           {
-            "blue": [
-              "raten"
-            ],
-            "green": [
-              "kam? locījumā"
-            ],
-            "purple": [
-              "ieteikt"
-            ]
-          },
-          {
-            "blue": [
-              "raten"
-            ],
             "yellow": [
               "Antwort",
               "Lösung",
               "Zahl"
-            ],
-            "purple": [
-              "uzminēt"
             ]
           }
         ],
         "important": [
-          {
-            "blue": [
-              "raten"
-            ],
-            "red": [
-              "tikai uzminēt"
-            ]
-          },
-          {
-            "blue": [
-              "Ich rate dir"
-            ],
-            "purple": [
-              "es tev iesaku"
-            ],
-            "red": [
-              "uzminu"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -40319,11 +37865,11 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Считать",
       "explanation": [
-        "Galvenā doma: rechnen nozīmē rēķināt vai skaitļot.",
-        "Ar mit + kam? rechnen nozīmē rēķināties ar kaut ko vai sagaidīt kaut ko.",
-        "Matemātikā rechnen ir vienkāršs vārds nozīmei rēķināt.",
-        "Frāze damit rechnen nozīmē ar to rēķināties.",
-        "Konteksts parāda, vai runa ir par matemātiku vai gaidāmu situāciju."
+        "Основная идея: rechnen означает считать или вычислять.",
+        "С мит+кам? rechnen означает рассчитывать на что-то или ожидать чего-то.",
+        "В математике «rechnen» — простое слово, означающее «вычислить».",
+        "Фраза damit rechnen означает рассчитывать на это.",
+        "Контекст показывает, идет ли речь о математике или об ожидаемой ситуации."
       ],
       "examples": [
         {
@@ -40348,12 +37894,12 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Matemātikā rechnen nozīmē rēķināt.",
-        "Ja redzi mit rechnen, domā rēķināties ar kaut ko."
+        "В математике «rechnen» означает «вычислить».",
+        "Если вы видите mit rechnen, значит, с чем-то приходится считаться."
       ],
       "important": [
-        "rechnen un zählen nav viens un tas pats.",
-        "rechnen = rēķināt; zählen = skaitīt."
+        "Rechnen и zählen — это не одно и то же.",
+        "Rechnen = вычислять • Zählen = считать."
       ],
       "sectionAccents": {
         "explanation": {
@@ -40361,16 +37907,6 @@ const A2_WORDS = [
             "rechnen",
             "mit rechnen",
             "damit rechnen"
-          ],
-          "purple": [
-            "rēķināt",
-            "rēķināties"
-          ],
-          "green": [
-            "mit + kam?"
-          ],
-          "yellow": [
-            "Matemātikā"
           ]
         },
         "examples": [
@@ -40457,20 +37993,11 @@ const A2_WORDS = [
           {
             "blue": [
               "rechnen"
-            ],
-            "purple": [
-              "rēķināt"
-            ],
-            "yellow": [
-              "Matemātikā"
             ]
           },
           {
             "blue": [
               "mit rechnen"
-            ],
-            "purple": [
-              "rēķināties"
             ]
           }
         ],
@@ -40489,10 +38016,6 @@ const A2_WORDS = [
             ],
             "red": [
               "zählen"
-            ],
-            "purple": [
-              "rēķināt",
-              "skaitīt"
             ]
           }
         ]
@@ -40582,11 +38105,11 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Достаточно • Присутствует",
       "explanation": [
-        "Galvenā doma: reichen nozīmē pietikt vai pasniegt atkarībā no teikuma.",
-        "Ja runa ir par daudzumu, laiku vai naudu, reichen bieži nozīmē pietikt.",
-        "Ja cilvēks kaut ko dod ar roku, reichen nozīmē pasniegt.",
-        "Frāze Das reicht nozīmē pietiek.",
-        "reichen var nozīmēt arī sniegties līdz kādai vietai."
+        "Основная идея: reichen означает «достаточно» или «служить», в зависимости от предложения.",
+        "Когда речь идет о количестве, времени или деньгах, «райхен» часто означает «достаточно».",
+        "Если человек дает что-то рукой, reichen означает дарить.",
+        "Фраза Das reicht означает достаточно.",
+        "Reichen также может означать «распространяться на какое-то место»."
       ],
       "examples": [
         {
@@ -40615,28 +38138,18 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Ja teikumā ir Geld, Zeit vai genug, reichen bieži nozīmē pietikt.",
-        "Ja kāds kaut ko dod ar roku, reichen nozīmē pasniegt."
+        "Когда в предложении присутствуют Geld, Zeit или genug, reichen часто означает «достаточно».",
+        "Если кто-то дает что-то рукой, reichen означает «подарить»."
       ],
       "important": [
-        "Das reicht ir ļoti bieža frāze ar nozīmi pietiek.",
-        "reichen nav tikai sniegt; ļoti bieži tas nozīmē pietikt."
+        "Das reicht – очень распространённая фраза со смыслом достаточно.",
+        "Райхен – это не просто даяние • Очень часто это означает достаточно."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "reichen",
             "Das reicht"
-          ],
-          "purple": [
-            "pietikt",
-            "pasniegt",
-            "sniegties"
-          ],
-          "yellow": [
-            "daudzumu",
-            "laiku",
-            "naudu"
           ]
         },
         "examples": [
@@ -40737,17 +38250,11 @@ const A2_WORDS = [
               "Geld",
               "Zeit",
               "genug"
-            ],
-            "purple": [
-              "pietikt"
             ]
           },
           {
             "blue": [
               "reichen"
-            ],
-            "purple": [
-              "pasniegt"
             ]
           }
         ],
@@ -40755,22 +38262,9 @@ const A2_WORDS = [
           {
             "blue": [
               "Das reicht"
-            ],
-            "purple": [
-              "pietiek"
             ]
           },
-          {
-            "blue": [
-              "reichen"
-            ],
-            "purple": [
-              "pietikt"
-            ],
-            "red": [
-              "tikai sniegt"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -40912,11 +38406,11 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Пахнуть • Ост",
       "explanation": [
-        "Galvenā doma: riechen nozīmē smaržot pēc kaut kā vai ostīt kaut ko.",
-        "Ja subjekts ir lieta, riechen nozīmē smaržot vai ost.",
-        "Ja subjekts ir cilvēks vai dzīvnieks, riechen bieži nozīmē ostīt vai saost.",
-        "Frāze nach etwas riechen nozīmē smaržot pēc kaut kā.",
-        "Konteksts parāda, vai runa ir par smaržu vai par ošanas darbību."
+        "Основная идея: riechen означает «нюхать что-то» или «нюхать что-то».",
+        "Когда предметом является вещь, riechen означает запах или ost.",
+        "Когда субъектом является человек или животное, riechen часто означает запах или запах.",
+        "Фраза nach etwas riechen означает «понюхать что-то».",
+        "Контекст показывает, является ли это запахом или актом обоняния."
       ],
       "examples": [
         {
@@ -40972,27 +38466,18 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Ja ir nach, tulko kā smaržot pēc kaut kā.",
-        "Ja ir an + kam? un cilvēks vai dzīvnieks, bieži tulko kā ostīt."
+        "Если есть нач, это переводится как запах чего-то.",
+        "Если есть + для кого? и человек или животное, часто переводится как остит."
       ],
       "important": [
-        "riechen var būt gan smaržot, gan ostīt.",
-        "duften ir patīkama smarža; stinken ir slikta smaka."
+        "Riechen может быть как нюхать, так и пахнуть.",
+        "Дуфтен – приятный запах • Вонь – неприятный запах."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "riechen",
             "nach etwas riechen"
-          ],
-          "purple": [
-            "smaržot",
-            "ostīt",
-            "saost"
-          ],
-          "green": [
-            "cilvēks",
-            "dzīvnieks"
           ]
         },
         "examples": [
@@ -41118,49 +38603,16 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "nach"
-            ],
-            "purple": [
-              "smaržot pēc"
-            ]
-          },
-          {
-            "blue": [
-              "an + kam?"
-            ],
-            "purple": [
-              "ostīt"
-            ],
-            "green": [
-              "cilvēks",
-              "dzīvnieks"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
           {
             "blue": [
               "riechen"
-            ],
-            "purple": [
-              "smaržot",
-              "ostīt"
             ]
           },
-          {
-            "green": [
-              "duften"
-            ],
-            "red": [
-              "stinken"
-            ],
-            "purple": [
-              "patīkama smarža",
-              "slikta smaka"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -41212,7 +38664,7 @@ const A2_WORDS = [
       "id": "a2-rolle",
       "layout": "standardStudy",
       "translation": "Роль • Ролл",
-      "explanation": "die Rolle ļoti bieži nozīmē lomu filmā, darbā vai situācijā. Frāze eine Rolle spielen nozīmē spēlēt lomu vai būt svarīgam. Rolle var nozīmēt arī rulli vai veltnīti, piemēram papīra rulli. Teātra un filmas kontekstā Rolle ir loma. Priekšmetu kontekstā tā bieži ir rullis vai veltnis.",
+      "explanation": "Die Rolle очень часто означает роль в фильме, работу или ситуацию. Фраза eine Rolle spielen означает играть роль или быть важным. Rolle также может означать рулон или валик, например, рулон бумаги. В контексте театра и кино роль есть роль. В контексте предметов это часто рулон или валик.",
       "examples": [
         {
           "de": "Sie spielt eine wichtige Rolle im Team.",
@@ -41278,7 +38730,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Роль часто представляет собой абстрактное значение, а не просто объект.",
-        "example": "eine wichtige Rolle spielen = spēlēt svarīgu lomu. eine Rolle Papier = papīra rullis."
+        "example": "Eine wichtige Rolle spielen = играть важную роль. eine Rolle Papier = рулон бумаги."
       },
       "sectionAccents": {
         "examples": [
@@ -41446,19 +38898,10 @@ const A2_WORDS = [
               "blue": [
                 "Rolle"
               ],
-              "green": [
-                "rullis"
-              ],
-              "purple": [
-                "papīra rullis"
-              ],
               "red": [
                 "wichtige",
                 "spielen",
-                "svarīgu",
-                "spēlēt",
-                "Rolle",
-                "lomu"
+                "Rolle"
               ]
             }
           }
@@ -41467,48 +38910,48 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "die Rolle",
-          "situācijā",
-          "piemēram",
-          "svarīgam",
-          "veltnīti",
-          "nozīmēt",
-          "spielen",
+          "Умереть Ролль",
+          "В ситуации",
+          "Например",
+          "Важный",
+          "Ролик",
+          "Иметь в виду",
+          "Шпилен",
           "rullis",
-          "spēlēt",
-          "bieži",
-          "darbā",
-          "filmā",
-          "Frāze",
+          "Играть",
+          "Часто",
+          "На работе",
+          "В фильме",
+          "Фраза",
           "Rolle",
           "rulli",
           "loma",
           "lomu"
         ],
         "green": [
-          "die Hauptrolle",
+          "Умереть Хауптролле",
           "Hauptrolle",
           "rullis"
         ],
         "yellow": [
-          "die Papierrolle",
+          "Умереть папьерролле",
           "Papierrolle"
         ],
         "orange": [
           "loma"
         ],
         "purple": [
-          "loma / rullis",
-          "papīra rullis",
-          "galvenā loma",
-          "loma • rullis",
-          "der Teil",
-          "nozīme",
-          "daļa",
+          "Роль / роль",
+          "Рулон бумаги",
+          "Главная роль",
+          "Роль • Ролл",
+          "Подходит тел.",
+          "Значение",
+          "Часть",
           "Teil"
         ],
         "red": [
-          "die Bedeutung",
+          "Умереть Бедейтунг",
           "Bedeutung"
         ]
       }
@@ -41631,11 +39074,11 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Собирать",
       "explanation": [
-        "Galvenā doma: sammeln nozīmē vākt vai krāt lietas vienkopus.",
-        "To lieto par pastmarkām, sēnēm, informāciju, naudu vai punktiem.",
-        "Ar sich sammeln tas nozīmē sapulcēties vai sakopoties.",
-        "Frāze Gedanken sammeln nozīmē sakopot domas.",
-        "Konteksts parāda, vai runa ir par lietu vākšanu vai cilvēku sapulcēšanos."
+        "Основная идея: саммельн означает собирать или собирать вещи вместе.",
+        "Он используется для марок, грибов, информации, денег или очков.",
+        "Слово sich sammeln означает собраться вместе или собраться вместе.",
+        "Фраза Gedanken sammeln означает собраться с мыслями.",
+        "Контекст показывает, является ли это собранием вещей или собранием людей."
       ],
       "examples": [
         {
@@ -41686,30 +39129,18 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Ja lietas tiek krātas vienuviet, lieto sammeln.",
-        "Ja redzi sich sammeln, tulkojums bieži ir sapulcēties vai sakopoties."
+        "Если вещи хранятся в одном месте, используется саммельн.",
+        "Если вы видите sich sammeln, то это часто означает «собраться или собраться вместе»."
       ],
       "important": [
-        "sammeln nav tas pats, kas holen.",
-        "sammeln = vākt/krāt; holen = aiziet pakaļ un atnest."
+        "Саммельн — это не то же самое, что холен.",
+        "Sammeln = собирать/накапливать • Holen = пойти и принести."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sammeln",
             "sich sammeln"
-          ],
-          "purple": [
-            "vākt",
-            "krāt",
-            "sapulcēties",
-            "sakopoties"
-          ],
-          "yellow": [
-            "pastmarkām",
-            "sēnēm",
-            "naudu",
-            "punktiem"
           ]
         },
         "examples": [
@@ -41825,42 +39256,22 @@ const A2_WORDS = [
           {
             "blue": [
               "sammeln"
-            ],
-            "purple": [
-              "krātas",
-              "vienuviet"
             ]
           },
           {
             "blue": [
               "sich sammeln"
-            ],
-            "purple": [
-              "sapulcēties",
-              "sakopoties"
             ]
           }
         ],
         "important": [
+          {},
           {
             "blue": [
               "sammeln"
             ],
             "red": [
               "holen"
-            ]
-          },
-          {
-            "blue": [
-              "sammeln"
-            ],
-            "red": [
-              "holen"
-            ],
-            "purple": [
-              "vākt",
-              "krāt",
-              "atnest"
             ]
           }
         ]
@@ -41895,7 +39306,7 @@ const A2_WORDS = [
       "id": "a2-satz",
       "layout": "standardStudy",
       "translation": "Предложение",
-      "explanation": "der Satz visbiežāk nozīmē teikumu valodā. Tas var nozīmēt arī komplektu, piemēram riepu komplektu. Sportā Satz var nozīmēt lēcienu vai setu atkarībā no konteksta. Ekonomikā vai finanšu valodā Satz var nozīmēt likmi, tarifu vai procentu. Dažos kontekstos Satz nozīmē nogulsnes. Tāpēc jāskatās apkārtējie vārdi: Satz Reifen, Zinssatz, deutscher Satz.",
+      "explanation": "Der Satz чаще всего означает предложение на языке. Это также может означать комплект, например, комплект шин. В спорте Satz может означать прыжок или сет в зависимости от контекста. На экономическом или финансовом языке Satz может означать ставку, тариф или процент. В некоторых контекстах Satz означает осадок. Вот почему нужно смотреть на окружающие слова: Satz Reifen, Zinssatz, deutscher Satz.",
       "examples": [
         {
           "de": "Schreibe bitte einen deutschen Satz.",
@@ -42190,50 +39601,50 @@ const A2_WORDS = [
           "standardStudy",
           "komplekts",
           "komplektu",
-          "atkarībā",
-          "der Satz",
-          "piemēram",
-          "lēciens",
-          "lēcienu",
-          "nozīmēt",
-          "teikums",
+          "В зависимости",
+          "Дер Затц",
+          "Например",
+          "Прыгать",
+          "Прыгать",
+          "Иметь в виду",
+          "Предложение",
           "teikumu",
-          "Sportā",
-          "tarifs",
-          "valodā",
+          "В спорте",
+          "Тариф",
+          "На языке",
           "riepu",
           "Satz",
           "setu"
         ],
         "green": [
-          "der deutsche Satz",
+          "Дер немецкий зац",
           "deutsche Satz",
           "komplekts",
           "nogulsnes",
           "likme"
         ],
         "yellow": [
-          "der Satz Reifen",
+          "Дер Сац Райфен",
           "Satz Reifen",
-          "lēciens"
+          "Прыгать"
         ],
         "orange": [
-          "kafijas biezumi",
-          "teikums"
+          "Кофейная гуща",
+          "Предложение"
         ],
         "purple": [
-          "teikums • komplekts • lēciens • tarifs",
-          "kafijas biezumi / nogulsnes",
-          "riepu komplekts",
-          "der Kaffeesatz",
-          "procentu likme",
-          "vācu teikums",
+          "Предложение • Набор • Скачок • Тариф",
+          "Кофейная гуща/гуща",
+          "Комплект шин",
+          "Дер Kaffeesatz",
+          "Процентная ставка",
+          "Немецкое предложение",
           "Kaffeesatz"
         ],
         "red": [
-          "der Zinssatz",
+          "Дер Цинзац",
           "Zinssatz",
-          "tarifs"
+          "Тариф"
         ]
       }
     }
@@ -42304,11 +39715,11 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Выключатель",
       "explanation": [
-        "Galvenā doma: schalten nozīmē pārslēgt — ieslēgt, izslēgt vai mainīt kādu iestatījumu/pārnesumu.",
-        "Ar elektrību schalten bieži nozīmē pārslēgt slēdzi (Licht schalten = pārslēgt gaismu).",
-        "Auto kontekstā schalten nozīmē pārslēgt pārnesumu (in den zweiten Gang schalten = pārslēgt otrajā pārnesumā).",
-        "Konkrētu 'ieslēgt' nozīmi precīzāk pauž einschalten, ne vienkārši schalten.",
-        "schalten var lietot arī pārnestā nozīmē — 'saprast, aptvert' (sarunvalodā: Er schaltet schnell. = viņš ātri saprot)."
+        "Основная идея: schalten означает «переключить» — включить, выключить или изменить некоторые настройки/передачу.",
+        "В случае с электричеством schalten часто означает щелкнуть выключателем (Licht schalten = выключить свет).",
+        "В контексте автомобиля schalten означает переключить передачу (в den zweiten Gang schalten = переключиться на вторую передачу).",
+        "Конкретное значение слова «включить» более точно выражено словом «einschalten», а не просто «schalten».",
+        "Schalten может использоваться и в переносном смысле - 'понимать, схватывать' (разговорное: Er schaltet schnell. = он понимает быстро)."
       ],
       "examples": [
         {
@@ -42333,20 +39744,17 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "schalten pats par sevi = pārslēgt (vispārīgi, arī pārnesumus).",
-        "Precīza 'ieslēgt' nozīme = einschalten; 'izslēgt' = ausschalten."
+        "Schalten сам по себе = переключать (в общем, тоже передачи).",
+        "Точное значение слова «включить» = einshalten • 'выключить' = ausschalten."
       ],
       "important": [
-        "schalten = pārslēgt, ne tikai 'ieslēgt' — precīzāk par elektrību/pārnesumiem.",
-        "schnell schalten (sarunvalodā) = ātri saprast/aptvert."
+        "Schalten = переключить, а не просто «включить» — точнее, об электричестве/передачах.",
+        "Schnell schalten (разговорный) = быстро понять."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "schalten"
-          ],
-          "purple": [
-            "pārslēgt"
           ],
           "green": [
             "einschalten"
@@ -42397,14 +39805,10 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "pārslēgt"
-            ]
-          },
+          {},
           {
             "green": [
-              "einschalten"
+              "Schalten"
             ],
             "red": [
               "ausschalten"
@@ -42412,11 +39816,7 @@ const A2_WORDS = [
           }
         ],
         "important": [
-          {
-            "blue": [
-              "pārslēgt"
-            ]
-          },
+          {},
           {
             "red": [
               "schnell schalten"
@@ -42442,11 +39842,11 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Острый • Пряный",
       "explanation": [
-        "Galvenā doma: scharf nozīmē ass vai pikants atkarībā no konteksta.",
-        "Par nazi, šķērēm vai malu scharf nozīmē ass.",
-        "Par ēdienu scharf nozīmē pikants vai ass pēc garšas.",
-        "Par attēlu vai redzi scharf nozīmē skaidrs, labi fokusēts.",
-        "Konteksts parāda, vai runa ir par priekšmetu, ēdienu vai attēlu."
+        "Основная идея: шарф означает острый или пряный в зависимости от контекста.",
+        "Для ножа, ножниц или лезвия шарф означает острый.",
+        "Для еды шарф означает пряный или острый на вкус.",
+        "Для образа или видения шарф означает ясный, хорошо сфокусированный.",
+        "Контекст показывает, является ли это объектом, едой или картинкой."
       ],
       "examples": [
         {
@@ -42471,33 +39871,15 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Par nazi vai malu scharf tulko kā ass.",
-        "Par ēdienu scharf parasti nozīmē pikants."
+        "Для ножа или лезвия шарф переводится как острый.",
+        "Что касается еды, шарф обычно означает острую."
       ],
       "important": [
-        "scharf nav tikai ass priekšmetiem.",
-        "scharfes Essen = pikants ēdiens, nevis fiziski ass ēdiens."
+        "Шарф предназначен не только для острых предметов.",
+        "Scharfes Essen = острая пища, а не острая пища."
       ],
       "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "scharf"
-          ],
-          "purple": [
-            "ass",
-            "pikants",
-            "skaidrs"
-          ],
-          "yellow": [
-            "nazi",
-            "šķērēm",
-            "ēdienu",
-            "attēlu"
-          ],
-          "red": [
-            "Konteksts"
-          ]
-        },
+        "explanation": {},
         "examples": [
           {
             "de": {
@@ -42583,51 +39965,14 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "scharf"
-            ],
-            "yellow": [
-              "nazi",
-              "malu"
-            ],
-            "purple": [
-              "ass"
-            ]
-          },
-          {
-            "blue": [
-              "scharf"
-            ],
-            "yellow": [
-              "ēdienu"
-            ],
-            "purple": [
-              "pikants"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "scharf"
-            ],
-            "purple": [
-              "ass"
-            ],
-            "red": [
-              "tikai"
-            ]
-          },
+          {},
           {
             "blue": [
               "scharfes Essen"
-            ],
-            "purple": [
-              "pikants ēdiens"
-            ],
-            "red": [
-              "fiziski ass"
             ]
           }
         ]
@@ -42762,7 +40107,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Scheinen может быть физическим светом или субъективным впечатлением.",
-        "example": "Die Sonne scheint = saule spīd. Er scheint müde = viņš šķiet noguris."
+        "example": "Die Sonne scheint = светит солнце. Er scheint müde = он выглядит уставшим."
       },
       "sectionAccents": {
         "examples": [
@@ -42914,11 +40259,8 @@ const A2_WORDS = [
             "example": {
               "red": [
                 "scheint",
-                "saule",
                 "Sonne",
-                "šķiet",
-                "müde",
-                "spīd"
+                "müde"
               ]
             }
           }
@@ -42928,42 +40270,42 @@ const A2_WORDS = [
         "blue": [
           "standardStudy",
           "Konstrukcija",
-          "infinitīvu",
+          "Инфинитив",
           "iespaidu",
-          "scheinen",
-          "cilvēku",
+          "Шейнен",
+          "Люди",
           "likties",
-          "nozīmēt",
+          "Иметь в виду",
           "scheint",
           "gaismu",
           "izsaka",
-          "spīdēt",
-          "bieži",
+          "Сиять",
+          "Часто",
           "sauli",
-          "šķiet",
-          "šķist",
-          "runa"
+          "Кажется",
+          "Кажется",
+          "Речь"
         ],
         "green": [
-          "aussehen",
-          "starot",
-          "šķist"
+          "Оссен",
+          "Сияющий",
+          "Кажется"
         ],
         "yellow": [
-          "wirken"
+          "Работа"
         ],
         "orange": [
-          "spīdēt"
+          "Сиять"
         ],
         "purple": [
-          "spīdēt / starot",
-          "radīt iespaidu",
-          "spīdēt / šķist",
-          "spīdēt • šķist",
-          "izskatīties"
+          "Сиять / сиять",
+          "Произвести впечатление",
+          "Сиять / казаться",
+          "Сиять • Казаться",
+          "Смотреть"
         ],
         "red": [
-          "leuchten"
+          "Светить"
         ]
       }
     }
@@ -43044,7 +40386,7 @@ const A2_WORDS = [
       "id": "a2-schlange",
       "layout": "standardStudy",
       "translation": "Змея • Строка",
-      "explanation": "die Schlange nozīmē čūsku kā dzīvnieku. Ikdienā tas ļoti bieži nozīmē arī rindu, kur cilvēki gaida. Frāze in der Schlange stehen nozīmē stāvēt rindā. Konteksts parasti uzreiz parāda nozīmi: mežs un dzīvnieks vai veikals un cilvēki. Abas nozīmes ir svarīgas A2 ikdienas valodai.",
+      "explanation": "Die Schlange означает змея как животное. В повседневной жизни это также очень часто означает очередь, в которой ждут люди. Фраза in der Schlange stehen означает стоять в очереди. Контекст обычно сразу показывает смысл: лес и животное или магазин и люди. Оба значения важны для повседневного языка А2.",
       "examples": [
         {
           "de": "Im Wald sehe ich eine Schlange.",
@@ -43105,7 +40447,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Schlange — классическое контекстное слово.",
-        "example": "eine Schlange im Wald = čūska mežā. in der Schlange stehen = stāvēt rindā."
+        "example": "Eine Schlange im Wald = змея в лесу. in der Schlange stehen = стоять в очереди."
       },
       "sectionAccents": {
         "examples": [
@@ -43268,15 +40610,9 @@ const A2_WORDS = [
               "blue": [
                 "Schlange"
               ],
-              "orange": [
-                "čūska"
-              ],
               "red": [
                 "Schlange",
-                "stāvēt",
                 "stehen",
-                "čūska",
-                "mežā",
                 "Wald"
               ]
             }
@@ -43286,44 +40622,44 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "die Schlange",
-          "dzīvnieku",
+          "Умереть Шланге",
+          "Животное",
           "Konteksts",
           "Schlange",
-          "cilvēki",
-          "stāvēt",
-          "stehen",
-          "bieži",
-          "čūska",
-          "čūsku",
-          "Frāze",
+          "Люди",
+          "Стоять",
+          "Стоять",
+          "Часто",
+          "Змея",
+          "Змея",
+          "Фраза",
           "gaida",
-          "rinda",
-          "rindā",
+          "Ряд",
+          "В соответствии",
           "rindu"
         ],
         "green": [
-          "die Warteschlange",
+          "Умереть Вартешланге",
           "Warteschlange",
-          "secība",
-          "rinda"
+          "Последовательность",
+          "Ряд"
         ],
         "yellow": [
-          "die Reihe",
+          "Умереть Райхе",
           "Reihe"
         ],
         "orange": [
-          "čūska"
+          "Змея"
         ],
         "purple": [
-          "gaidīšanas rinda",
-          "rinda / secība",
-          "čūska / rinda",
-          "čūska • rinda",
-          "rāpulis"
+          "Очередь ожидания",
+          "Строка/последовательность",
+          "Змея / линия",
+          "Змея • Строка",
+          "Рептилия"
         ],
         "red": [
-          "das Reptil",
+          "Дас Рептилия",
           "Reptil"
         ]
       }
@@ -43398,7 +40734,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Schließen и absschließen — это не одно и то же.",
-        "example": "Tür schließen = aizvērt durvis. Tür abschließen = aizslēgt durvis."
+        "example": "Tür schließen = закрой дверь. Tür abschließen = запереть дверь."
       },
       "sectionAccents": {
         "examples": [
@@ -43558,16 +40894,9 @@ const A2_WORDS = [
               "green": [
                 "abschließen"
               ],
-              "orange": [
-                "aizslēgt",
-                "aizvērt"
-              ],
               "red": [
                 "abschließen",
-                "schließen",
-                "aizslēgt",
-                "aizvērt",
-                "durvis"
+                "schließen"
               ]
             }
           }
@@ -43576,45 +40905,45 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "vienošanos",
-          "Domāšanas",
-          "kontekstā",
-          "schließen",
-          "aizvērt",
-          "noslēgt",
-          "nozīmēt",
-          "secināt",
+          "Соглашение",
+          "Мышление",
+          "В контексте",
+          "Закрывать",
+          "Закрыть",
+          "Заключать",
+          "Иметь в виду",
+          "Заключить",
           "Veikala",
           "veikalu",
-          "durvis",
-          "līgumu",
+          "Дверь",
+          "Договор",
           "darba",
-          "slēgt",
+          "Закрыть",
           "logu"
         ],
         "green": [
-          "abschließen",
-          "sarunvalodā",
-          "pabeigt",
-          "slēgt"
+          "Закрывать",
+          "В разговорной речи",
+          "Заканчивать",
+          "Закрыть"
         ],
         "yellow": [
-          "zumachen",
-          "secināt"
+          "Зумачен",
+          "Заключить"
         ],
         "orange": [
-          "aiztaisīt",
-          "aizslēgt",
-          "aizvērt"
+          "Крупный план",
+          "Запереть",
+          "Закрыть"
         ],
         "purple": [
-          "aizvērt / slēgt / secināt",
-          "aizvērt • slēgt • secināt",
-          "aiztaisīt (sarunvalodā",
-          "aizslēgt / pabeigt"
+          "Закрыть/закрыть/заключить",
+          "Закрыть • Закрыть • Завершить",
+          "Близко (разговорно",
+          "Заблокировать / завершить"
         ],
         "red": [
-          "folgern"
+          "Фольгерн"
         ]
       }
     }
@@ -43660,7 +40989,7 @@ const A2_WORDS = [
       "id": "a2-schloss",
       "layout": "standardStudy",
       "translation": "Замок • Замок",
-      "explanation": "das Schloss var nozīmēt pili vai slēdzeni. Tūrisma un vēstures kontekstā tas nozīmē pili. Durvju, velosipēda vai atslēgas kontekstā Schloss nozīmē slēdzeni. Salikteņi palīdz: Türschloss ir durvju slēdzene, Fahrradschloss ir velosipēda slēdzene. Tāpēc vārds jālasa pēc apkārtējiem vārdiem.",
+      "explanation": "Das Schloss может означать замок или замок. В контексте туризма и истории это означает замок. В контексте двери, велосипеда или ключа Schloss означает замок. Помогают соединения: Türschloss — дверной замок, Fahrradschloss — велосипедный замок. Поэтому слово следует читать согласно окружающим его словам.",
       "examples": [
         {
           "de": "Wir besuchen ein altes Schloss.",
@@ -43726,7 +41055,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Значение слова Schloss определяется контекстом.",
-        "example": "Schloss Neuschwanstein = pils. Türschloss = durvju slēdzene. Fahrradschloss = velosipēda slēdzene."
+        "example": "Замок Нойшванштайн = Замок. Türschloss = дверной замок. Fahrradschloss = велосипедный замок."
       },
       "sectionAccents": {
         "examples": [
@@ -43903,27 +41232,13 @@ const A2_WORDS = [
               "blue": [
                 "Schloss"
               ],
-              "green": [
-                "slēdzene"
-              ],
               "yellow": [
                 "Türschloss"
               ],
-              "orange": [
-                "pils"
-              ],
-              "purple": [
-                "velosipēda slēdzene",
-                "durvju slēdzene"
-              ],
               "red": [
                 "Fahrradschloss",
-                "Neuschwanstein",
                 "Türschloss",
-                "slēdzene",
-                "Schloss",
-                "durvju",
-                "pils"
+                "Schloss"
               ]
             }
           }
@@ -43933,48 +41248,48 @@ const A2_WORDS = [
         "blue": [
           "Fahrradschloss",
           "standardStudy",
-          "das Schloss",
+          "Дас Шлосс",
           "Türschloss",
-          "velosipēda",
-          "kontekstā",
-          "Salikteņi",
-          "atslēgas",
-          "slēdzene",
-          "slēdzeni",
-          "vēstures",
-          "nozīmēt",
+          "Велосипед",
+          "В контексте",
+          "Композиты",
+          "Ключи",
+          "Замок",
+          "Замок",
+          "История",
+          "Иметь в виду",
           "Schloss",
-          "Tūrisma",
+          "Туризм",
           "Durvju",
-          "palīdz",
+          "Помогает",
           "pili",
-          "pils"
+          "Замок"
         ],
         "green": [
-          "die Burg",
-          "slēdzene",
+          "Умереть Бург",
+          "Замок",
           "Burg"
         ],
         "yellow": [
-          "das Türschloss",
+          "Дас Тюршлосс",
           "Türschloss"
         ],
         "orange": [
-          "cietoksnis",
-          "pils"
+          "Крепость",
+          "Замок"
         ],
         "purple": [
-          "velosipēda slēdzene",
-          "cietoksnis / pils",
-          "durvju slēdzene",
-          "pils / slēdzene",
-          "pils • slēdzene",
-          "der Schlüssel",
+          "Велосипедный замок",
+          "Крепость / замок",
+          "Дверной замок",
+          "Замок / замок",
+          "Замок • Замок",
+          "Дер Шлюссель",
           "Schlüssel",
-          "atslēga"
+          "Ключ"
         ],
         "red": [
-          "das Fahrradschloss",
+          "Дас Фаррадшлосс",
           "Fahrradschloss"
         ]
       }
@@ -44110,7 +41425,7 @@ const A2_WORDS = [
       "id": "a2-schuld",
       "layout": "standardStudy",
       "translation": "Вина • Долг • Ответственность",
-      "explanation": "die Schuld visbiežāk nozīmē vainu vai atbildību par notikušo. Frāze Schuld haben nozīmē būt vainīgam. jemandem die Schuld geben nozīmē vainot kādu. Daudzskaitlī Schulden nozīmē parādus. Tāpēc Schuld un Schulden ir īpaši jānošķir. Latviski “vaina” un “parāds” ir ļoti atšķirīgas nozīmes.",
+      "explanation": "Die Schuld чаще всего означает вину или ответственность за случившееся. Фраза Schuld haben означает быть виновным. jemandem die Schuld geben означает обвинять кого-то. Во множественном числе Шульден означает долги. Поэтому следует особо различать Шульда и Шульдена. В латышском языке слова «вина» и «долг» имеют совершенно разные значения.",
       "examples": [
         {
           "de": "Das ist nicht meine Schuld.",
@@ -44176,7 +41491,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Шульд и Шульден — это не одно и то же.",
-        "example": "Ich habe Schuld = es esmu vainīgs. Ich habe Schulden = man ir parādi."
+        "example": "Ich habe Schuld = Я виновен. Ich habe Schulden = У меня есть долги."
       },
       "sectionAccents": {
         "examples": [
@@ -44348,15 +41663,9 @@ const A2_WORDS = [
               "green": [
                 "Schulden"
               ],
-              "purple": [
-                "parādi"
-              ],
               "red": [
                 "Schulden",
-                "vainīgs",
-                "parādi",
-                "Schuld",
-                "esmu"
+                "Schuld"
               ]
             }
           }
@@ -44365,46 +41674,46 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "Daudzskaitlī",
-          "die Schuld",
-          "atbildība",
-          "atbildību",
+          "Во множественном числе",
+          "Умереть Шульд",
+          "Ответственность",
+          "Ответственность",
           "jemandem",
-          "notikušo",
+          "Что случилось",
           "Schulden",
-          "vainīgam",
-          "parāds",
+          "Виновный",
+          "Долг",
           "Schuld",
-          "vainot",
-          "Frāze",
-          "geben",
+          "Винить",
+          "Фраза",
+          "Давать",
           "vaina",
           "vainu",
-          "kādu"
+          "Кто-то"
         ],
         "green": [
-          "die Schulden",
+          "Умереть Шульден",
           "Schulden",
-          "parāds"
+          "Долг"
         ],
         "yellow": [
-          "die Verantwortung",
+          "Умереть Verantwortung",
           "Verantwortung",
-          "atbildība"
+          "Ответственность"
         ],
         "orange": [
           "vaina"
         ],
         "purple": [
-          "vaina • parāds • atbildība",
-          "vaina / atbildība",
-          "būt vainīgam",
-          "schuld sein",
-          "parādi",
-          "kļūda"
+          "Вина • Долг • Ответственность",
+          "Вина/ответственность",
+          "Быть виноватым",
+          "Шульд Сейн",
+          "Долг",
+          "Ошибка"
         ],
         "red": [
-          "der Fehler",
+          "Дер Фелер",
           "Fehler"
         ]
       }
@@ -44474,10 +41783,10 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Тяжелый • Сложный",
       "explanation": [
-        "Galvenā doma: schwer fiziski nozīmē smags, pārnestā nozīmē grūts.",
-        "Runājot par svaru, schwer = smags (Der Koffer ist schwer. = Koferis ir smags.).",
-        "Runājot par uzdevuma vai situācijas sarežģītību, schwer = grūts (Die Prüfung war schwer. = Eksāmens bija grūts.).",
-        "Konteksts (svars vai sarežģītība) parāda pareizo nozīmi."
+        "Основная мысль: schwer физически означает тяжелый, в переносном смысле трудный.",
+        "Что касается веса, schwer = тяжелый (Der Koffer ist schwer. = Чемодан тяжелый).",
+        "Когда говорят о сложности задания или ситуации, schwer = трудный (Die Prüfung war schwer. = Экзамен был трудным.).",
+        "Контекст (вес или сложность) показывает правильное значение."
       ],
       "examples": [
         {
@@ -44506,21 +41815,17 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Par fizisku svaru (koferis, akmens) → smags.",
-        "Par sarežģītību (uzdevums, jautājums, dzīve) → grūts."
+        "По физическому весу (чемодан, камень) → тяжелый.",
+        "О сложности (задача, вопрос, жизнь) → сложно."
       ],
       "important": [
-        "schwer = smags (svars) VAI grūts (sarežģītība).",
-        "Pretstats: schwer ↔ leicht (smags/grūts ↔ viegls)."
+        "Schwer = тяжелый (вес) ИЛИ сложный (сложность).",
+        "Контраст: schwer ↔ leicht (тяжелый/трудный ↔ легкий)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "schwer"
-          ],
-          "purple": [
-            "smags",
-            "grūts"
           ]
         },
         "examples": [
@@ -44574,24 +41879,11 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "smags"
-            ]
-          },
-          {
-            "green": [
-              "grūts"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "purple": [
-              "smags",
-              "grūts"
-            ]
-          },
+          {},
           {
             "green": [
               "leicht"
@@ -44819,7 +42111,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Sich befinden не о человеческих чувствах на уровне А2. Местоположение является ключевым моментом.",
-        "example": "Das Hotel befindet sich hier = viesnīca atrodas šeit. Ich fühle mich gut = es jūtos labi."
+        "example": "Das Hotel befindet sich hier = отель здесь. Ich fühle mich Gut = Я чувствую себя хорошо."
       },
       "sectionAccents": {
         "examples": [
@@ -44960,10 +42252,6 @@ const A2_WORDS = [
               ],
               "red": [
                 "fühle mich"
-              ],
-              "purple": [
-                "atrodas",
-                "jūtos"
               ]
             }
           }
@@ -44971,31 +42259,31 @@ const A2_WORDS = [
       },
       "accents": {
         "blue": [
-          "sich befinden",
+          "Что еще впереди",
           "befindet sich"
         ],
         "green": [
-          "sein",
+          "Сейн",
           "ist",
           "liegt"
         ],
         "yellow": [
-          "liegen"
+          "Ложь"
         ],
         "orange": [
-          "stehen",
+          "Стоять",
           "steht"
         ],
         "red": [
-          "sich fühlen",
+          "Sich fühlen",
           "fühle mich"
         ],
         "purple": [
-          "atrasties",
+          "Быть расположенным",
           "atrodas",
-          "justies",
-          "jūtos",
-          "atrašanās vieta"
+          "Чувствовать",
+          "Я чувствую",
+          "Расположение"
         ]
       }
     }
@@ -45134,7 +42422,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Рефлексивная форма имеет важное значение.",
-        "example": "Wir unterhalten uns = mēs sarunājamies. Ich unterhalte mich = es sarunājos / izklaidējos."
+        "example": "Wir unterhalten uns = мы говорим. Ich unterhalte mich = Я разговариваю/развлекаюсь."
       },
       "sectionAccents": {
         "examples": [
@@ -45285,11 +42573,8 @@ const A2_WORDS = [
             "text": {},
             "example": {
               "red": [
-                "sarunājamies",
-                "izklaidējos",
                 "unterhalten",
                 "unterhalte",
-                "sarunājos",
                 "mich"
               ]
             }
@@ -45298,40 +42583,40 @@ const A2_WORDS = [
       },
       "accents": {
         "blue": [
-          "sich unterhalten",
+          "Sich unterhalten",
           "standardStudy",
-          "izklaidēties",
-          "unterhalten",
-          "refleksīvs",
-          "sarunāties",
-          "darbības",
-          "nozīmēt",
-          "pavadīt",
-          "Dažos",
+          "Веселиться",
+          "Унтерхалтен",
+          "Рефлексивный",
+          "Говорить",
+          "Действия",
+          "Иметь в виду",
+          "Сопровождать",
+          "В некоторых",
           "laiku",
           "lieto",
-          "vārds",
-          "euch",
-          "labi"
+          "Слово",
+          "Ой",
+          "Хороший"
         ],
         "green": [
-          "izklaidēties",
-          "sprechen"
+          "Веселиться",
+          "Спречен"
         ],
         "yellow": [
-          "reden"
+          "Разговаривать"
         ],
         "orange": [
-          "sarunāties"
+          "Говорить"
         ],
         "purple": [
-          "sarunāties / izklaidēties",
-          "sarunāties • izklaidēties",
-          "runāt / sarunāties",
-          "runāt"
+          "Поговорить/развлечься",
+          "Поговорить • Развлечься",
+          "Говорить / говорить",
+          "Говорить"
         ],
         "red": [
-          "sich amüsieren"
+          "Sich amüsieren"
         ]
       }
     }
@@ -45430,10 +42715,10 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Сидеть",
       "explanation": [
-        "Galvenā doma: Stāvoklis: kāds jau sēž.",
-        "sitzen galvenokārt nozīmē: stāvoklis.",
-        "Bieži raksturo: kur kāds sēž.",
-        "sitzen lieto, ja kāds jau sēž."
+        "Основная мысль: Ситуация: Кто-то уже сидит.",
+        "Sitzen в основном означает: состояние.",
+        "Часто описывает: где кто сидит.",
+        "Sitzen используется, когда кто-то уже сидит."
       ],
       "examples": [
         {
@@ -45461,42 +42746,42 @@ const A2_WORDS = [
         {
           "word": "Сидячий",
           "meaning": "Сидеть (поза)",
-          "example": "Das Kind sitzt hier. – Bērns sēž šeit."
+          "example": "Das Kind sitzt hier. – Здесь сидит ребенок."
         },
         {
           "word": "Установить",
           "meaning": "Место (действие)",
-          "example": "Ich setze das Kind hin. – Es apsēdinu bērnu."
+          "example": "Ich setze das Kind hin. – Я сижу ребенка."
         },
         {
           "word": "Ложь",
           "meaning": "Лечь (положение)",
-          "example": "Das Buch liegt hier. – Grāmata atrodas šeit."
+          "example": "Das Buch liegt hier. – Книга здесь."
         },
         {
           "word": "Легенда",
           "meaning": "Сложить (действие)",
-          "example": "Ich lege das Buch hin. – Es nolieku grāmatu."
+          "example": "Ich lege das Buch hin. – Я отложил книгу."
         },
         {
           "word": "Стоять",
           "meaning": "Стоять (состояние)",
-          "example": "Die Flasche steht hier. – Pudele atrodas šeit."
+          "example": "Die Flasche steht hier. – Бутылка здесь."
         },
         {
           "word": "Стеллен",
           "meaning": "Поставить вертикально (действие)",
-          "example": "Ich stelle die Flasche hin. – Es nolieku pudeli stāvus."
+          "example": "Ich stelle die Flasche hin. – Я поставил бутылку вертикально."
         }
       ],
       "tip": [
-        "Stāvoklis: kāds jau sēž.",
-        "Izmanto sitzen, kad konteksts atbilst šai nozīmei."
+        "Ситуация: кто-то уже сидит.",
+        "Используйте sitzen, когда контекст соответствует этому значению."
       ],
       "important": [
-        "sitzen = stāvoklis.",
-        "Stāvoklis: sitzen.",
-        "Stāvoklis: kāds jau sēž."
+        "Ситцен = позиция.",
+        "Должность: сидячая.",
+        "Ситуация: кто-то уже сидит."
       ],
       "sectionAccents": {
         "explanation": {
@@ -45553,11 +42838,7 @@ const A2_WORDS = [
           {}
         ],
         "important": [
-          {
-            "blue": [
-              "sitzen"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -45571,11 +42852,11 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Сесть • Заставить сесть",
       "explanation": [
-        "Galvenā doma: Darbība: kāds kaut ko apsēdina vai likt sēdus.",
-        "setzen galvenokārt nozīmē: darbība.",
-        "Bieži raksturo: ko kāds apsēdina.",
-        "setzen lieto, ja kāds kaut ko apsēdina vai likt sēdus.",
-        "sich setzen nozīmē apsēsties pašam."
+        "Основная идея: Действие: кто-то садится или заставляет кого-то сесть.",
+        "Setzen в основном означает: действие.",
+        "Часто описывает: на чем кто-то сидит.",
+        "Setzen используется, когда кто-то садит или заставляет кого-то сесть.",
+        "Sich setzen означает сидеть в одиночестве."
       ],
       "examples": [
         {
@@ -45587,51 +42868,48 @@ const A2_WORDS = [
         {
           "word": "Установить",
           "meaning": "Место (действие)",
-          "example": "Ich setze das Kind hin. – Es apsēdinu bērnu."
+          "example": "Ich setze das Kind hin. – Я сижу ребенка."
         },
         {
           "word": "Сидячий",
           "meaning": "Сидеть (поза)",
-          "example": "Das Kind sitzt hier. – Bērns sēž šeit."
+          "example": "Das Kind sitzt hier. – Здесь сидит ребенок."
         },
         {
           "word": "Легенда",
           "meaning": "Сложить (действие)",
-          "example": "Ich lege das Buch hin. – Es nolieku grāmatu."
+          "example": "Ich lege das Buch hin. – Я отложил книгу."
         },
         {
           "word": "Ложь",
           "meaning": "Лечь (положение)",
-          "example": "Das Buch liegt hier. – Grāmata atrodas šeit."
+          "example": "Das Buch liegt hier. – Книга здесь."
         },
         {
           "word": "Стеллен",
           "meaning": "Поставить вертикально (действие)",
-          "example": "Ich stelle die Flasche hin. – Es nolieku pudeli stāvus."
+          "example": "Ich stelle die Flasche hin. – Я поставил бутылку вертикально."
         },
         {
           "word": "Стоять",
           "meaning": "Стоять (состояние)",
-          "example": "Die Flasche steht hier. – Pudele atrodas šeit."
+          "example": "Die Flasche steht hier. – Бутылка здесь."
         }
       ],
       "tip": [
-        "Darbība: kāds kaut ko apsēdina vai likt sēdus.",
-        "Izmanto setzen, kad konteksts atbilst šai nozīmei."
+        "Действие: заставить кого-то сесть или заставить кого-то сесть.",
+        "Используйте setten, когда контекст соответствует этому значению."
       ],
       "important": [
-        "setzen = darbība.",
-        "Darbība: setzen.",
-        "Darbība: kāds kaut ko apsēdina vai likt sēdus."
+        "Setten = действие.",
+        "Действие: Сеттен.",
+        "Действие: заставить кого-то сесть или заставить кого-то сесть."
       ],
       "sectionAccents": {
         "explanation": {
           "green": [
             "setzen",
             "setzen"
-          ],
-          "purple": [
-            "likt sēdus"
           ]
         },
         "examples": [
@@ -45646,16 +42924,12 @@ const A2_WORDS = [
         ],
         "tip": [
           {},
-          {
-            "purple": [
-              "likt sēdus"
-            ]
-          }
+          {}
         ],
         "important": [
           {
             "green": [
-              "setzen"
+              "Setten"
             ]
           }
         ]
@@ -45689,7 +42963,7 @@ const A2_WORDS = [
       "id": "a2-sobald",
       "layout": "standardStudy",
       "translation": "Как только • Как только",
-      "explanation": "Как только или как только. Оно вводит вспомогательное предложение, и в немецком языке глагол в этом вспомогательном предложении обычно стоит в конце. as only показывает, что одно действие происходит сразу за другим. Это не то же самое, что wenn, потому что wenn может означать «когда» или «если». Латышский часто естественно звучит как «как только».",
+      "explanation": "sobald означает «как только» или «сразу как». Оно вводит придаточное предложение, и в немецком языке глагол в этом придаточном предложении обычно стоит в конце. sobald показывает, что одно действие происходит сразу после другого. Это не то же самое, что wenn, потому что wenn может означать «когда» или «если». По-русски часто естественно звучит «как только».",
       "examples": [
         {
           "de": "Sobald ich Zeit habe, rufe ich dich an.",
@@ -45755,7 +43029,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Soundt влияет на структуру немецкого предложения.",
-        "example": "Sobald ich Zeit habe, rufe ich dich an. Vārds habe ir palīgteikuma beigās. sobald = Как только"
+        "example": "Sobald ich Zeit habe, rufe ich dich an. Слово habe стоит в конце придаточного предложения. sobald = как только"
       },
       "sectionAccents": {
         "examples": [
@@ -45941,46 +43215,46 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "palīgteikumā",
-          "palīgteikumu",
-          "darbības",
-          "tiklīdz",
-          "beigās",
+          "Во вспомогательном предложении",
+          "Вспомогательное предложение",
+          "Действия",
+          "Как только",
+          "В конце",
           "ievada",
-          "līdzko",
-          "sobald",
-          "valodā",
-          "vārds",
+          "Со",
+          "Как только",
+          "На языке",
+          "Слово",
           "viena",
-          "rāda",
-          "stāv",
-          "šajā",
-          "vācu"
+          "Шоу",
+          "Стоя",
+          "В этом",
+          "Немецкий"
         ],
         "green": [
-          "pagātnē vienreiz",
-          "līdzko",
-          "wenn",
-          "ja"
+          "Однажды в прошлом",
+          "Со",
+          "Когда",
+          "Если"
         ],
         "yellow": [
-          "als"
+          "Пиво"
         ],
         "orange": [
-          "tiklīdz",
-          "kad"
+          "Как только",
+          "Когда"
         ],
         "purple": [
-          "kad (pagātnē vienreiz",
-          "tiklīdz / līdzko",
-          "tiklīdz • līdzko",
-          "pēc tam kad",
-          "kad / ja",
-          "nachdem",
-          "līdz"
+          "Когда (однажды в прошлом",
+          "Как только",
+          "Как только • Как только",
+          "После того, когда",
+          "Когда / если",
+          "Нахдем",
+          "До"
         ],
         "red": [
-          "bis"
+          "Выйти на бис"
         ]
       }
     }
@@ -46118,7 +43392,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Sonst – это не просто «другой».",
-        "example": "sonst kommen wir zu spät = citādi nokavēsim. Was machst du sonst? = ko tu parasti dari? sonst noch Fragen = vēl jautājumi?"
+        "example": "Sonst kommen wir zu spät = иначе мы опоздаем. Был ли machst du sonst? = что ты обычно делаешь? sonst noch Fragen = еще вопросы?"
       },
       "sectionAccents": {
         "examples": [
@@ -46281,11 +43555,7 @@ const A2_WORDS = [
               "blue": [
                 "sonst"
               ],
-              "orange": [
-                "citādi"
-              ],
               "red": [
-                "citādi",
                 "sonst"
               ]
             },
@@ -46293,12 +43563,7 @@ const A2_WORDS = [
               "blue": [
                 "sonst"
               ],
-              "orange": [
-                "citādi"
-              ],
               "red": [
-                "nokavēsim",
-                "citādi",
                 "kommen",
                 "machst",
                 "sonst",
@@ -46313,42 +43578,42 @@ const A2_WORDS = [
           "standardStudy",
           "ieradumiem",
           "kontekstos",
-          "brīdinātu",
-          "gadījumā",
-          "nozīmēt",
-          "pretējā",
-          "citādi",
+          "Предупредил бы",
+          "Случай",
+          "Иметь в виду",
+          "Наоборот",
+          "В противном случае",
           "notiks",
-          "bieži",
-          "Dažos",
+          "Часто",
+          "В некоторых",
           "lieto",
-          "sekām",
-          "sonst",
+          "Последствия",
+          "Сынок",
           "cits",
           "dari"
         ],
         "green": [
-          "pretējā gadījumā",
-          "pārējā ziņā",
-          "ansonsten"
+          "В противном случае",
+          "В противном случае",
+          "Ансонстен"
         ],
         "yellow": [
-          "andernfalls",
+          "Андернфолс",
           "bez tam"
         ],
         "orange": [
-          "turklāt",
-          "citādi"
+          "Кроме того",
+          "В противном случае"
         ],
         "purple": [
-          "citādi • pretējā gadījumā • bez tam • parasti",
-          "citādi / pretējā gadījumā / parasti",
-          "citādi / pārējā ziņā",
-          "turklāt / bez tam",
-          "außerdem"
+          "Иначе • Иначе • Кроме того • Обычно",
+          "Иначе / иначе / обычно",
+          "Иначе / иначе",
+          "Кроме того / кроме того",
+          "Также"
         ],
         "red": [
-          "normalerweise"
+          "Обычно"
         ]
       }
     }
@@ -46588,10 +43853,10 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Стоять",
       "explanation": [
-        "Galvenā doma: Stāvoklis: kaut kas jau atrodas stāvus.",
-        "stehen galvenokārt nozīmē: stāvoklis.",
-        "Bieži raksturo: kur kaut kas stāv.",
-        "stehen lieto, ja kaut kas jau atrodas stāvus."
+        "Основная идея: Состояние: что-то уже стоит.",
+        "Stehen прежде всего означает: государство.",
+        "Часто описывает: где что-то стоит.",
+        "Stehen используется, когда что-то уже стоит."
       ],
       "examples": [
         {
@@ -46611,51 +43876,48 @@ const A2_WORDS = [
         {
           "word": "Стоять",
           "meaning": "Стоять (состояние)",
-          "example": "Die Flasche steht hier. – Pudele atrodas šeit."
+          "example": "Die Flasche steht hier. – Бутылка здесь."
         },
         {
           "word": "Стеллен",
           "meaning": "Поставить вертикально (действие)",
-          "example": "Ich stelle die Flasche hin. – Es nolieku pudeli stāvus."
+          "example": "Ich stelle die Flasche hin. – Я поставил бутылку вертикально."
         },
         {
           "word": "Ложь",
           "meaning": "Лечь (положение)",
-          "example": "Das Buch liegt hier. – Grāmata atrodas šeit."
+          "example": "Das Buch liegt hier. – Книга здесь."
         },
         {
           "word": "Легенда",
           "meaning": "Сложить (действие)",
-          "example": "Ich lege das Buch hin. – Es nolieku grāmatu."
+          "example": "Ich lege das Buch hin. – Я отложил книгу."
         },
         {
           "word": "Сидячий",
           "meaning": "Сидеть (поза)",
-          "example": "Das Kind sitzt hier. – Bērns sēž šeit."
+          "example": "Das Kind sitzt hier. – Здесь сидит ребенок."
         },
         {
           "word": "Установить",
           "meaning": "Место (действие)",
-          "example": "Ich setze das Kind hin. – Es apsēdinu bērnu."
+          "example": "Ich setze das Kind hin. – Я сижу ребенка."
         }
       ],
       "tip": [
-        "Stāvoklis: kaut kas jau atrodas stāvus.",
-        "Izmanto stehen, kad konteksts atbilst šai nozīmei."
+        "Состояние: Что-то уже стоит.",
+        "Используйте stehen, когда контекст соответствует этому значению."
       ],
       "important": [
-        "stehen = stāvoklis.",
-        "Stāvoklis: stehen.",
-        "Stāvoklis: kaut kas jau atrodas stāvus."
+        "Стивен = государство.",
+        "Состояние: Стивен.",
+        "Состояние: Что-то уже стоит."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "stehen",
             "stehen"
-          ],
-          "purple": [
-            "stāvus"
           ]
         },
         "examples": [
@@ -46685,18 +43947,10 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "stāvus"
-            ]
-          }
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "stehen"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -46710,11 +43964,11 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Поставить вертикально",
       "explanation": [
-        "Galvenā doma: Darbība: kāds kaut ko noliek stāvus vai novieto.",
-        "stellen galvenokārt nozīmē: darbība.",
-        "Bieži raksturo: ko kāds novieto stāvus.",
-        "stellen lieto, ja kāds kaut ko noliek stāvus vai novieto.",
-        "Ar jautājumiem stellen nozīmē auch „uzdot“: eine Frage stellen."
+        "Основная идея: Действие: Кто-то что-то вывешивает или размещает.",
+        "Stellen в первую очередь означает: действие.",
+        "Часто описывает: то, что кто-то ставит вертикально.",
+        "Stellen используется, когда кто-то ставит что-то вертикально или ставит на место.",
+        "В вопросах stellen также означает «спрашивать»: eine Frage stellen."
       ],
       "examples": [
         {
@@ -46734,52 +43988,49 @@ const A2_WORDS = [
         {
           "word": "Стеллен",
           "meaning": "Поставить вертикально (действие)",
-          "example": "Ich stelle die Flasche hin. – Es nolieku pudeli stāvus."
+          "example": "Ich stelle die Flasche hin. – Я поставил бутылку вертикально."
         },
         {
           "word": "Стоять",
           "meaning": "Стоять (состояние)",
-          "example": "Die Flasche steht hier. – Pudele atrodas šeit."
+          "example": "Die Flasche steht hier. – Бутылка здесь."
         },
         {
           "word": "Легенда",
           "meaning": "Сложить (действие)",
-          "example": "Ich lege das Buch hin. – Es nolieku grāmatu."
+          "example": "Ich lege das Buch hin. – Я отложил книгу."
         },
         {
           "word": "Ложь",
           "meaning": "Лечь (положение)",
-          "example": "Das Buch liegt hier. – Grāmata atrodas šeit."
+          "example": "Das Buch liegt hier. – Книга здесь."
         },
         {
           "word": "Установить",
           "meaning": "Место (действие)",
-          "example": "Ich setze das Kind hin. – Es apsēdinu bērnu."
+          "example": "Ich setze das Kind hin. – Я сижу ребенка."
         },
         {
           "word": "Сидячий",
           "meaning": "Сидеть (поза)",
-          "example": "Das Kind sitzt hier. – Bērns sēž šeit."
+          "example": "Das Kind sitzt hier. – Здесь сидит ребенок."
         }
       ],
       "tip": [
-        "Darbība: kāds kaut ko noliek stāvus vai novieto.",
-        "Izmanto stellen, kad konteksts atbilst šai nozīmei."
+        "Действие: кто-то что-то выставляет или размещает.",
+        "Используйте stellen, когда контекст соответствует этому значению."
       ],
       "important": [
-        "stellen = darbība.",
-        "eine Frage stellen = uzdot jautājumu.",
-        "Darbība: stellen.",
-        "Darbība: kāds kaut ko noliek stāvus vai novieto."
+        "Стеллен = действие.",
+        "Eine Frage stellen = задать вопрос.",
+        "Действие: стеллен.",
+        "Действие: кто-то что-то выставляет или размещает."
       ],
       "sectionAccents": {
         "explanation": {
           "green": [
             "stellen",
             "stellen"
-          ],
-          "purple": [
-            "noliek stāvus"
           ]
         },
         "examples": [
@@ -46810,18 +44061,10 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "noliek stāvus"
-            ]
-          }
+          {}
         ],
         "important": [
-          {
-            "green": [
-              "stellen"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -46917,7 +44160,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Steigen — это не то же самое, что aufstehen.",
-        "example": "Die Preise steigen = cenas ceļas. Ich stehe auf = es pieceļos. Ich steige ein = es iekāpju."
+        "example": "Die Preise steigen = цены растут. Ich stehe auf = Я встаю. Ich steige ein = Я вхожу."
       },
       "sectionAccents": {
         "examples": [
@@ -47089,11 +44332,6 @@ const A2_WORDS = [
               ],
               "red": [
                 "stehe auf"
-              ],
-              "purple": [
-                "ceļas",
-                "pieceļos",
-                "iekāpju"
               ]
             }
           }
@@ -47101,19 +44339,19 @@ const A2_WORDS = [
       },
       "accents": {
         "blue": [
-          "steigen",
+          "Вставать",
           "steigt"
         ],
         "purple": [
-          "Kāpt",
+          "Взбираться",
           "Celties",
-          "kāpt",
-          "celties",
-          "paaugstināties"
+          "Подняться",
+          "Вставать",
+          "Подняться"
         ],
         "green": [
-          "einsteigen",
-          "aussteigen"
+          "Эйнштайген",
+          "Аусштайген"
         ],
         "yellow": [
           "Preise",
@@ -47122,7 +44360,7 @@ const A2_WORDS = [
           "Treppe"
         ],
         "red": [
-          "aufstehen"
+          "Ауфстеен"
         ]
       }
     }
@@ -47144,7 +44382,7 @@ const A2_WORDS = [
       "id": "a2-stelle",
       "layout": "standardStudy",
       "translation": "Место",
-      "explanation": "die Stelle var nozīmēt konkrētu vietu telpā. Darba kontekstā Stelle nozīmē darba vietu vai amatu. Tekstā tā var nozīmēt fragmentu vai konkrētu vietu tekstā. Ķermeņa vai traumas kontekstā Stelle nozīmē vietu uz ķermeņa. Frāze an dieser Stelle nozīmē “šajā vietā”.",
+      "explanation": "Die Stelle может означать определенное место в комнате. В контексте работы Stelle означает рабочее место или должность. В тексте оно может означать отрывок или определенное место в тексте. В контексте тела или травмы Стелле означает место на теле. Фраза an dieser Stelle означает «в этом месте».",
       "examples": [
         {
           "de": "An dieser Stelle darf man nicht parken.",
@@ -47210,7 +44448,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Стелле очень часто означает нечто большее, чем просто физическое место.",
-        "example": "an dieser Stelle = šajā vietā. eine Stelle suchen = meklēt darbu. Textstelle = teksta fragments."
+        "example": "Умирает Стелла = в этом месте. eine Stelle suchen = искать работу. Textstelle = фрагмент текста."
       },
       "sectionAccents": {
         "examples": [
@@ -47382,17 +44620,10 @@ const A2_WORDS = [
               "blue": [
                 "Stelle"
               ],
-              "yellow": [
-                "fragments"
-              ],
               "red": [
                 "Textstelle",
-                "dieser",
-                "meklēt",
                 "Stelle",
-                "suchen",
-                "vietā",
-                "šajā"
+                "suchen"
               ]
             }
           }
@@ -47401,50 +44632,50 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "die Stelle",
+          "Умереть Стелле",
           "fragments",
           "fragmentu",
-          "kontekstā",
-          "konkrētu",
-          "Ķermeņa",
-          "nozīmēt",
+          "В контексте",
+          "Специфический",
+          "Тело",
+          "Иметь в виду",
           "traumas",
           "dieser",
           "Stelle",
-          "Tekstā",
+          "В тексте",
           "amatu",
           "darba",
-          "Frāze",
-          "telpā",
-          "vieta",
+          "Фраза",
+          "В комнате",
+          "Место",
           "vietu"
         ],
         "green": [
-          "apdzīvota vieta",
-          "darba vieta",
-          "der Ort",
+          "Населенное место",
+          "Рабочее место",
+          "Подходит Орту",
           "Ort"
         ],
         "yellow": [
-          "der Arbeitsplatz",
+          "Дер Арбайтстатт",
           "Arbeitsplatz",
           "fragments"
         ],
         "orange": [
           "teksta vieta",
-          "vieta"
+          "Место"
         ],
         "purple": [
-          "vieta / darba vieta / fragments",
+          "Место/рабочее место/фрагмент",
           "vieta • darba vieta • fragments",
-          "teksta vieta / fragments",
-          "vieta / apdzīvota vieta",
-          "die Wunde",
-          "brūce",
+          "Текстовое пространство/фрагмент",
+          "Место/поселение",
+          "Умереть Вунде",
+          "Рана",
           "Wunde"
         ],
         "red": [
-          "die Textstelle",
+          "Умереть Textstelle",
           "Textstelle"
         ]
       }
@@ -47567,7 +44798,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Стиммен меняет значение по конструкции.",
-        "example": "Das stimmt = tā ir. über etwas abstimmen = balsot par kaut ko. jemandem zustimmen = piekrist kādam."
+        "example": "Das stimmt = это так. über etwas abstimmen = голосовать за что-то. jemandem zustimmen = соглашаться с кем-то."
       },
       "sectionAccents": {
         "examples": [
@@ -47726,11 +44957,6 @@ const A2_WORDS = [
               "green": [
                 "abstimmen",
                 "zustimmen"
-              ],
-              "purple": [
-                "tā ir",
-                "balsot",
-                "piekrist"
               ]
             }
           }
@@ -47738,21 +44964,21 @@ const A2_WORDS = [
       },
       "accents": {
         "blue": [
-          "stimmen",
+          "Голос",
           "stimmt",
           "Das stimmt"
         ],
         "purple": [
-          "Saskanēt",
-          "Būt pareizam",
+          "Соглашаться",
+          "Чтобы быть правильным",
           "Balsot",
           "pareizi",
           "balsojam",
-          "piekrītu"
+          "Я согласен"
         ],
         "green": [
-          "zustimmen",
-          "abstimmen"
+          "Зустиммен",
+          "Воздержание"
         ],
         "yellow": [
           "Antwort",
@@ -47761,8 +44987,8 @@ const A2_WORDS = [
           "Gitarre"
         ],
         "red": [
-          "wählen",
-          "passen"
+          "Велен",
+          "Пройти"
         ]
       }
     }
@@ -47862,7 +45088,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Der Stoff – это не просто ткань.",
-        "example": "Stoff für ein Kleid = audums kleitai. ein giftiger Stoff = indīga viela. Unterrichtsstoff = mācību viela."
+        "example": "Stoff für ein Kleid = ткань для платья. ein poissenger Stoff = ядовитое вещество. Unterrichtsstoff = учебный материал."
       },
       "sectionAccents": {
         "examples": [
@@ -48025,23 +45251,12 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "Stoff"
-              ],
-              "purple": [
-                "audums"
               ]
             },
             "example": {
               "blue": [
                 "Stoff",
                 "Unterrichtsstoff"
-              ],
-              "purple": [
-                "audums",
-                "viela",
-                "mācību viela"
-              ],
-              "red": [
-                "giftiger"
               ]
             }
           }
@@ -48049,16 +45264,16 @@ const A2_WORDS = [
       },
       "accents": {
         "blue": [
-          "der Stoff",
+          "Подходит для Стоффа",
           "Stoff"
         ],
         "purple": [
           "Audums",
           "Viela",
-          "Materiāls",
+          "Материал",
           "audums",
           "viela",
-          "materiāls"
+          "Материал"
         ],
         "green": [
           "Baumwolle",
@@ -48298,7 +45513,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Die Tafel — не обычное слово для обозначения таблицы данных.",
-        "example": "die Tafel = tāfele. die Tabelle = tabula. die Speisekarte = ēdienkarte. eine Tafel Schokolade = šokolādes tāfelīte."
+        "example": "Die Tafel = доска. die Tabelle = таблица. die Speisekarte = меню. eine Tafel Schokolade = плитка шоколада."
       },
       "sectionAccents": {
         "examples": [
@@ -48459,10 +45674,7 @@ const A2_WORDS = [
                 "die Speisekarte"
               ],
               "purple": [
-                "tāfele",
-                "tabula",
-                "ēdienkarte",
-                "šokolādes tāfelīte"
+                "Tafel"
               ]
             }
           }
@@ -48470,20 +45682,20 @@ const A2_WORDS = [
       },
       "accents": {
         "blue": [
-          "die Tafel",
+          "Умереть Тафель",
           "Tafel",
           "Informationstafel"
         ],
         "purple": [
-          "Tāfele",
-          "Plāksne",
-          "tāfele",
-          "plāksne",
-          "tāfelīte"
+          "Доска",
+          "Тарелка",
+          "Доска",
+          "Тарелка",
+          "Доска"
         ],
         "green": [
           "Lehrer",
-          "Skolā"
+          "В школе"
         ],
         "yellow": [
           "Schokolade",
@@ -48601,7 +45813,7 @@ const A2_WORDS = [
       "id": "a2-teil",
       "layout": "standardStudy",
       "translation": "Деталь • Деталь • Деталь",
-      "explanation": "das Teil visbiežāk nozīmē daļu no kaut kā lielāka. Tehniskā kontekstā tas var nozīmēt detaļu. Sarunvalodā Teil var būt priekšmets, gabals vai apģērba gabals. Salikteņi kā Ersatzteil palīdz: tā ir rezerves detaļa. Konteksts par auto, ierīcēm, apģērbu vai veselumu nosaka nozīmi.",
+      "explanation": "Das Teil чаще всего означает часть чего-то большего. В техническом контексте это может означать деталь. В разговорной речи Teil может обозначать предмет, деталь или часть одежды. Композиты Ersatzteil помогают: это запасная часть. Контекст автомобиля, бытовой техники, одежды или целого определяет значение.",
       "examples": [
         {
           "de": "Das ist nur ein Teil der Geschichte.",
@@ -48667,7 +45879,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Тейл может иметь как абстрактную часть, так и физическую деталь.",
-        "example": "ein Teil der Geschichte = daļa no stāsta. Ersatzteil = rezerves detaļa. ein schönes Teil = skaists priekšmets / gabals."
+        "example": "Ein Teil der Geschichte = часть истории. Ersatzteil = запасная часть. ein schönes Teil = красивый предмет/часть."
       },
       "sectionAccents": {
         "examples": [
@@ -48834,15 +46046,7 @@ const A2_WORDS = [
               "blue": [
                 "Teil"
               ],
-              "green": [
-                "detaļa"
-              ],
-              "orange": [
-                "daļa"
-              ],
               "red": [
-                "detaļa",
-                "daļa",
                 "Teil"
               ]
             },
@@ -48850,26 +46054,12 @@ const A2_WORDS = [
               "blue": [
                 "Teil"
               ],
-              "green": [
-                "priekšmets",
-                "detaļa"
-              ],
               "yellow": [
-                "Ersatzteil",
-                "gabals"
-              ],
-              "orange": [
-                "daļa"
-              ],
-              "purple": [
-                "rezerves detaļa"
+                "Ersatzteil"
               ],
               "red": [
                 "Ersatzteil",
                 "Geschichte",
-                "rezerves",
-                "stāsta",
-                "daļa",
                 "Teil"
               ]
             }
@@ -48879,49 +46069,49 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "Sarunvalodā",
+          "Разговорный",
           "Ersatzteil",
-          "priekšmets",
-          "kontekstā",
-          "Salikteņi",
-          "das Teil",
-          "Tehniskā",
-          "apģērba",
-          "lielāka",
-          "nozīmēt",
-          "detaļa",
-          "detaļu",
-          "gabals",
-          "daļa",
-          "daļu",
+          "Предмет",
+          "В контексте",
+          "Композиты",
+          "Дас Тейль",
+          "Технический",
+          "Одежда",
+          "Больше",
+          "Иметь в виду",
+          "Деталь",
+          "Деталь",
+          "Кусок",
+          "Часть",
+          "Часть",
           "Teil"
         ],
         "green": [
           "gramatiski der",
-          "priekšmets",
-          "der Teil",
-          "detaļa"
+          "Предмет",
+          "Подходит тел.",
+          "Деталь"
         ],
         "yellow": [
-          "das Ersatzteil",
+          "Дас Эрзацтайль",
           "Ersatzteil",
-          "gabals"
+          "Кусок"
         ],
         "orange": [
-          "lieta",
-          "daļa"
+          "Вещь",
+          "Часть"
         ],
         "purple": [
-          "daļa / detaļa / gabals",
-          "daļa (gramatiski der",
-          "daļa • detaļa • gabals",
-          "lieta / priekšmets",
-          "rezerves detaļa",
-          "die Sache",
+          "Деталь/деталь/кусок",
+          "Часть (грамматически подходит",
+          "Деталь • Деталь • Деталь",
+          "Вещь/предмет",
+          "Запчасть",
+          "Умереть Саше",
           "Sache"
         ],
         "red": [
-          "das Stück",
+          "Дас Штюк",
           "Stück"
         ]
       }
@@ -49043,7 +46233,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Этот термин – это не просто любое назначение.",
-        "example": "einen Termin beim Arzt haben = būt pierakstam pie ārsta. ein Treffen haben = satikties. eine Frist haben = būt termiņam."
+        "example": "Einen Termin beim Arzt haben = записаться на прием к врачу. ein Treffen haben = встретиться. eine Frist haben = иметь крайний срок."
       },
       "sectionAccents": {
         "examples": [
@@ -49208,11 +46398,6 @@ const A2_WORDS = [
               ],
               "red": [
                 "Frist"
-              ],
-              "purple": [
-                "pierakstam",
-                "satikties",
-                "termiņam"
               ]
             }
           }
@@ -49220,15 +46405,15 @@ const A2_WORDS = [
       },
       "accents": {
         "blue": [
-          "der Termin",
+          "Термин применяется",
           "Termin"
         ],
         "purple": [
-          "Norunāta tikšanās",
-          "Termiņš",
+          "Встреча назначена",
+          "Крайний срок",
           "pieraksts",
-          "norunāts laiks",
-          "termiņš"
+          "Согласованное время",
+          "Крайний срок"
         ],
         "green": [
           "Arzt",
@@ -49347,7 +46532,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Тиф и Нидриг — это не одно и то же.",
-        "example": "ein tiefer See = dziļš ezers. eine tiefe Stimme = zema balss. ein niedriger Tisch = zems galds."
+        "example": "Ein Tifer See = глубокое озеро. eine tiefe Stimme = низкий голос. ein neiger Tisch = низкий стол."
       },
       "sectionAccents": {
         "examples": [
@@ -49503,23 +46688,12 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "tief"
-              ],
-              "red": [
-                "niedrig"
               ]
             },
             "example": {
               "blue": [
-                "tiefer",
+                "Tifer",
                 "tiefe"
-              ],
-              "red": [
-                "niedriger"
-              ],
-              "purple": [
-                "dziļš",
-                "zema",
-                "zems"
               ],
               "yellow": [
                 "See",
@@ -49532,19 +46706,19 @@ const A2_WORDS = [
       },
       "accents": {
         "blue": [
-          "tief",
+          "Галстук",
           "tiefe",
           "tiefer"
         ],
         "purple": [
-          "Dziļš",
+          "Глубокий",
           "Zems",
-          "dziļš",
-          "zems",
+          "Глубокий",
+          "Низкий",
           "zema"
         ],
         "green": [
-          "flach"
+          "Вспышка"
         ],
         "yellow": [
           "See",
@@ -49552,8 +46726,8 @@ const A2_WORDS = [
           "Temperaturen"
         ],
         "red": [
-          "niedrig",
-          "hoch"
+          "Низкий",
+          "Хох"
         ]
       }
     }
@@ -49600,10 +46774,10 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Здорово • Круто • Чудесно",
       "explanation": [
-        "Galvenā doma: toll sarunvalodā nozīmē lielisks, foršs, brīnišķīgs — pozitīvs izsauciens.",
-        "toll bieži lieto, izsakot entuziasmu vai apbrīnu (Das ist toll! = Tas ir lieliski!).",
-        "Retākā, vecākā nozīme ir 'traks/nesaprātīgs' — šī nozīme mūsdienās gandrīz nav lietota (nejaukt ar verrückt).",
-        "toll ir sarunvalodas vārds — formālā valodā biežāk lieto großartig, wunderbar, fantastisch."
+        "Основная идея: в просторечии toll означает здорово, круто, чудесно — положительное восклицание.",
+        "Toll часто используется для выражения энтузиазма или восхищения (Das ist toll! = Это здорово!).",
+        "Более редкое и старое значение — «сумасшедший/безумный» — сегодня это значение практически не используется (не путать с verrückt).",
+        "Toll — разговорное слово • В официальном языке чаще используются großartig, wunderbar, fantastisch."
       ],
       "examples": [
         {
@@ -49632,22 +46806,17 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "toll ikdienas sarunvalodā = lielisks/foršs/brīnišķīgs (pozitīvi).",
-        "Nejauc ar verrückt (traks) — toll mūsdienās gandrīz netiek lietots šajā nozīmē."
+        "Разговорный = здорово/круто/замечательно (положительно).",
+        "Не путать с verrückt (сумасшедший) — сегодня пошлина почти не используется в этом смысле."
       ],
       "important": [
-        "toll = lielisks/foršs/brīnišķīgs — pozitīvs vārds sarunvalodā.",
-        "Nepareizi: toll = traks (mūsdienu nozīmē) → Pareizi: verrückt = traks."
+        "Toll = здорово/круто/чудесно – положительное разговорное слово.",
+        "Неправильно: toll = сумасшедший (в современном смысле) → Правильно: verrückt = сумасшедший."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "toll"
-          ],
-          "purple": [
-            "lielisks",
-            "foršs",
-            "brīnišķīgs"
           ],
           "red": [
             "verrückt"
@@ -49704,13 +46873,7 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "lielisks",
-              "foršs",
-              "brīnišķīgs"
-            ]
-          },
+          {},
           {
             "red": [
               "verrückt"
@@ -49718,13 +46881,7 @@ const A2_WORDS = [
           }
         ],
         "important": [
-          {
-            "purple": [
-              "lielisks",
-              "foršs",
-              "brīnišķīgs"
-            ]
-          },
+          {},
           {
             "red": [
               "verrückt"
@@ -49855,33 +47012,33 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Tragen – это не только ручное ношение.",
-        "example": "eine Tasche tragen = nest somu. eine Jacke tragen = valkāt jaku. eine Brille tragen = nēsāt brilles. eine Jacke anziehen = uzvilkt jaku."
+        "example": "Eine Tasche tragen = нести сумку. eine Jacke tragen = носить куртку. eine Brille tragen = носить очки. eine Jacke anziehen = надеть куртку."
       },
       "accents": {
         "blue": [
-          "tragen",
+          "Тащить",
           "trägt",
           "trage",
           "trägst"
         ],
         "green": [
           "Nest",
-          "nest",
+          "Нести",
           "nes"
         ],
         "yellow": [
-          "Nēsāt",
-          "nēsāju",
-          "brilles"
+          "Носить",
+          "Нести",
+          "Очки"
         ],
         "red": [
-          "Valkāt",
-          "valkā"
+          "Носить",
+          "Утомительный"
         ],
         "purple": [
-          "anziehen",
-          "bringen",
-          "halten"
+          "Анзиен",
+          "Приносить",
+          "Останавливать"
         ]
       },
       "sectionAccents": {
@@ -49929,19 +47086,10 @@ const A2_WORDS = [
               "red": [
                 "anziehen"
               ],
-              "purple": [
-                "nest",
-                "valkāt",
-                "nēsāt",
-                "uzvilkt"
-              ],
               "yellow": [
                 "Tasche",
                 "Jacke",
-                "Brille",
-                "somu",
-                "jaku",
-                "brilles"
+                "Brille"
               ]
             }
           }
@@ -50091,7 +47239,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Ich treffe dich = Я встречаюсь с тобой.",
-        "example": "Wir treffen uns = Mēs tiekamies. das Ziel treffen = trāpīt mērķī. eine Wahl treffen = izdarīt izvēli."
+        "example": "Wir treffen uns = Мы встречаемся. das Ziel treffen = поразить цель. eine Wahl treffen = сделать выбор."
       },
       "sectionAccents": {
         "examples": [
@@ -50267,14 +47415,8 @@ const A2_WORDS = [
               "blue": [
                 "treffen"
               ],
-              "green": [
-                "trāpīt"
-              ],
               "red": [
-                "tiekamies",
                 "treffen",
-                "trāpīt",
-                "mērķī",
                 "Wahl",
                 "Ziel"
               ]
@@ -50285,49 +47427,49 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "satikties",
-          "cilvēks",
-          "izdarīt",
+          "Встретиться",
+          "Человек",
+          "Делать",
           "objekta",
-          "pieņemt",
-          "treffen",
-          "izvēli",
-          "lēmumu",
-          "mainās",
-          "Nozīme",
-          "satikt",
-          "trāpīt",
-          "bieži",
-          "mērķi",
-          "kādu"
+          "Принимать",
+          "Встреча",
+          "Выбор",
+          "Решение",
+          "Меняется",
+          "Значение",
+          "Встретиться",
+          "Ударить",
+          "Часто",
+          "Цели",
+          "Кто-то"
         ],
         "green": [
-          "sich treffen",
-          "sazvanīt",
-          "atbilst",
-          "trāpīt"
+          "Sich treffen",
+          "Позвонить",
+          "Соответствует",
+          "Ударить"
         ],
         "yellow": [
-          "pieņemt lēmumu",
-          "kennenlernen",
-          "pieņemt"
+          "Принять решение",
+          "Кенненлернен",
+          "Принимать"
         ],
         "orange": [
-          "sasniegt",
-          "satikt",
-          "derēt"
+          "Достичь",
+          "Встретиться",
+          "Ставить"
         ],
         "purple": [
-          "satikt • trāpīt • pieņemt lēmumu",
-          "satikt / trāpīt / pieņemt",
-          "sasniegt / sazvanīt",
-          "derēt / atbilst",
-          "iepazīties",
-          "satikties",
-          "passen"
+          "Встретиться • Ударить • Решить",
+          "Встретиться/ударить/принять",
+          "Дозвониться/позвонить",
+          "Подходит / подходит",
+          "Знакомиться",
+          "Встретиться",
+          "Пройти"
         ],
         "red": [
-          "erreichen"
+          "Эррайхен"
         ]
       }
     }
@@ -50518,7 +47660,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Übrig не просто означает «лишний», как ненужный.",
-        "example": "Geld ist übrig = nauda ir atlikusi. Das ist unnötig = tas ir nevajadzīgi."
+        "example": "Geld ist übrig = деньги остались. Das ist unnötig = в этом нет необходимости."
       },
       "sectionAccents": {
         "examples": [
@@ -50666,9 +47808,6 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "übrig"
-              ],
-              "red": [
-                "nevajadzīgi"
               ]
             },
             "example": {
@@ -50677,10 +47816,6 @@ const A2_WORDS = [
               ],
               "red": [
                 "unnötig"
-              ],
-              "purple": [
-                "atlikusi",
-                "nevajadzīgi"
               ]
             }
           }
@@ -50688,28 +47823,28 @@ const A2_WORDS = [
       },
       "accents": {
         "blue": [
-          "übrig",
+          "Юбриг",
           "übrigen"
         ],
         "purple": [
           "Atlicis",
-          "Pārējais",
+          "Остальные",
           "atlicis",
           "atlikusi",
-          "pārējais",
-          "palikt pāri"
+          "Остальные",
+          "Оставайся ночевать"
         ],
         "green": [
-          "übrig bleiben",
+          "Юбриг Блейбен",
           "Rest"
         ],
         "yellow": [
           "Geld",
           "Essen",
-          "Zeit"
+          "Зейт"
         ],
         "red": [
-          "unnötig"
+          "Unnötig"
         ]
       }
     }
@@ -50790,7 +47925,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Die Übung и üben — это не одно и то же.",
-        "example": "die Übung = vingrinājums. üben = vingrināties. das Training = treniņš."
+        "example": "Die Übung = упражнение. üben = практиковаться. das Training = обучение."
       },
       "sectionAccents": {
         "examples": [
@@ -50939,11 +48074,6 @@ const A2_WORDS = [
               ],
               "yellow": [
                 "Training"
-              ],
-              "purple": [
-                "vingrinājums",
-                "vingrināties",
-                "treniņš"
               ]
             }
           }
@@ -50951,15 +48081,15 @@ const A2_WORDS = [
       },
       "accents": {
         "blue": [
-          "die Übung",
+          "Умереть Убунг",
           "Übung",
           "Übungen"
         ],
         "purple": [
-          "Vingrinājums",
+          "Упражнение",
           "Prakse",
-          "vingrinājums",
-          "prakse"
+          "Упражнение",
+          "Упражняться"
         ],
         "green": [
           "Aufgabe"
@@ -50968,7 +48098,7 @@ const A2_WORDS = [
           "Training"
         ],
         "red": [
-          "üben"
+          "Юбен"
         ]
       }
     }
@@ -51054,7 +48184,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Umsonst может спутать два совершенно разных значения.",
-        "example": "Der Kurs ist umsonst = kurss ir par velti. Ich warte umsonst = es gaidu veltīgi."
+        "example": "Der Kurs ist umsonst = курс бесплатный. Ich warte umsonst = Я жду напрасно."
       },
       "sectionAccents": {
         "examples": [
@@ -51207,17 +48337,9 @@ const A2_WORDS = [
               "blue": [
                 "umsonst"
               ],
-              "green": [
-                "veltīgi"
-              ],
-              "orange": [
-                "par velti"
-              ],
               "red": [
                 "umsonst",
-                "gaidu",
-                "kurss",
-                "velti",
+                "Kurs",
                 "warte",
                 "Kurs"
               ]
@@ -51228,42 +48350,42 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "atšķirīgām",
+          "Другой",
           "Konteksts",
-          "kostenlos",
-          "rezultāta",
-          "rezultātu",
-          "nozīmēm",
-          "nozīmēt",
-          "svarīgs",
-          "umsonst",
-          "veltīgi",
+          "Костенлос",
+          "Результат",
+          "Результат",
+          "Значения",
+          "Иметь в виду",
+          "Важный",
+          "Умсонст",
+          "Напрасно",
           "maksas",
-          "divām",
-          "vārds",
+          "На двоих",
+          "Слово",
           "velti",
           "cenu",
-          "rāda",
-          "runa"
+          "Шоу",
+          "Речь"
         ],
         "green": [
-          "kostenlos",
-          "veltīgi"
+          "Костенлос",
+          "Напрасно"
         ],
         "yellow": [
-          "gratis"
+          "Бесплатно"
         ],
         "orange": [
-          "par velti"
+          "Ни за что"
         ],
         "purple": [
-          "par velti / veltīgi",
-          "par velti • veltīgi",
-          "bez maksas",
-          "par brīvu"
+          "Зря/напрасно",
+          "Напрасно • Напрасно",
+          "Бесплатно",
+          "Бесплатно"
         ],
         "red": [
-          "vergeblich"
+          "Смущающий"
         ]
       }
     }
@@ -51370,10 +48492,10 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Отпуск",
       "explanation": [
-        "Galvenā doma: tikai vienskaitlis. Atvaļinājums no darba — vienmēr vienskaitlī.",
-        "der Urlaub galvenokārt nozīmē: brīvais laiks no darba.",
-        "Bieži raksturo: tikai vienskaitlis.",
-        "der Urlaub ir tikai vienskaitlis — atvaļinājums no darba (im Urlaub)."
+        "Основная идея: только единственное число. Уйти с работы – всегда единично.",
+        "Der Urlaub по сути означает: свободное от работы время.",
+        "Часто характеризуется: только в единственном числе.",
+        "Der Urlaub только в единственном числе — отпуск от работы (im Urlaub)."
       ],
       "examples": [
         {
@@ -51401,32 +48523,29 @@ const A2_WORDS = [
         {
           "word": "Дер Урлауб",
           "meaning": "Уйти с работы (только все)",
-          "example": "Mein Vater ist im Urlaub. – Mans tēvs ir atvaļinājumā."
+          "example": "Mein Vater ist im Urlaub. – Мой отец в отпуске."
         },
         {
           "word": "Умереть Фериен",
           "meaning": "Школьные/учебные каникулы (только дск.)",
-          "example": "Die Kinder haben Ferien. – Bērniem ir brīvdienas."
+          "example": "Die Kinder haben Ferien. – У детей каникулы."
         }
       ],
       "tip": [
-        "tikai vienskaitlis. Atvaļinājums no darba — vienmēr vienskaitlī.",
-        "Izmanto der Urlaub, kad konteksts atbilst šai nozīmei."
+        "Только единственное число. Уйти с работы – всегда единично.",
+        "Используйте der Urlaub, когда контекст соответствует этому значению."
       ],
       "important": [
-        "Nav pareizi: die Ferie, der Urlaube (A1 līmenī).",
-        "Urlaub: im Urlaub sein / Urlaub machen.",
-        "Nepareizi: die Urlaube → Pareizi: der Urlaub",
-        "Darbs: der Urlaub (tikai vienskaitlī)."
+        "Неправильно: die Ferie, der Urlabe (на уровне А1).",
+        "Урлауб: im Urlaub sein / Urlaub machen.",
+        "Неправильно: die Urlaube → Правильно: der Urlaub.",
+        "Работа: der Urlaub (только в единственном числе)."
       ],
       "sectionAccents": {
         "explanation": {
           "green": [
             "der Urlaub",
             "urlaub"
-          ],
-          "purple": [
-            "atvaļinājums"
           ],
           "yellow": [
             "Urlaub"
@@ -51475,16 +48594,12 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "atvaļinājums"
-            ]
-          }
+          {}
         ],
         "important": [
           {
             "green": [
-              "der Urlaub"
+              "der Urlabe"
             ]
           }
         ]
@@ -51570,7 +48685,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Вербинден — это не то же самое, что бинден.",
-        "example": "verbinden = savienot vai pārsiet. binden = siet. eine Wunde verbinden = pārsiet brūci."
+        "example": "Verbinden = соединять или связывать. бинден = галстук. eine Wunde verbinden = перевязать рану."
       },
       "sectionAccents": {
         "examples": [
@@ -51753,12 +48868,6 @@ const A2_WORDS = [
               "red": [
                 "binden",
                 "Wunde"
-              ],
-              "purple": [
-                "savienot",
-                "pārsiet",
-                "siet",
-                "pārsiet brūci"
               ]
             }
           }
@@ -51766,15 +48875,15 @@ const A2_WORDS = [
       },
       "accents": {
         "blue": [
-          "verbinden",
+          "Соединять",
           "verbindet",
           "verbinde"
         ],
         "purple": [
           "Savienot",
-          "Pārsiet",
-          "savienot",
-          "pārsiet",
+          "Бинт",
+          "Соединить",
+          "Повязка",
           "savieno"
         ],
         "green": [
@@ -51789,7 +48898,7 @@ const A2_WORDS = [
           "Büro"
         ],
         "red": [
-          "binden",
+          "Связывать",
           "Wunde"
         ]
       }
@@ -51831,7 +48940,7 @@ const A2_WORDS = [
       "id": "a2-verkehr",
       "layout": "standardStudy",
       "translation": "Трафик",
-      "explanation": "der Verkehr visbiežāk nozīmē satiksmi uz ceļa vai pilsētā. Tas var nozīmēt arī cilvēku, preču vai informācijas kustību. Biznesa valodā Verkehr var nozīmēt sakarus vai kontaktus ar klientiem. Frāze öffentlicher Verkehr nozīmē sabiedrisko satiksmi vai transportu. Dažās vārdnīcās Verkehr var parādīties arī intīmu attiecību nozīmē, bet A2 ikdienā prioritāte ir satiksme un kontakti.",
+      "explanation": "Der Verkehr чаще всего означает движение на дороге или в городе. Это также может означать перемещение людей, товаров или информации. На деловом языке Verkehr может означать общение или контакт с клиентами. Словосочетание öffentlicher Verkehr означает общественный транспорт или транспорт. В некоторых словарях Verkehr может фигурировать и в значении интимных отношений, но в повседневной жизни у А2 приоритетом является движение и контакты.",
       "examples": [
         {
           "de": "Heute gibt es viel Verkehr.",
@@ -51897,7 +49006,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Веркер – это не только автомобильное движение.",
-        "example": "starker Verkehr = intensīva satiksme. öffentlicher Verkehr = sabiedriskā satiksme. Verkehr mit Kunden = kontakti ar klientiem."
+        "example": "Старкер Verkehr = интенсивное движение. öffentlicher Verkehr = общественный транспорт. Verkehr mit Kunden = контакт с клиентами."
       },
       "sectionAccents": {
         "examples": [
@@ -52072,11 +49181,7 @@ const A2_WORDS = [
               "blue": [
                 "Verkehr"
               ],
-              "orange": [
-                "satiksme"
-              ],
               "red": [
-                "satiksme",
                 "Verkehr"
               ]
             },
@@ -52084,18 +49189,8 @@ const A2_WORDS = [
               "blue": [
                 "Verkehr"
               ],
-              "orange": [
-                "satiksme"
-              ],
-              "purple": [
-                "sabiedriskā satiksme"
-              ],
               "red": [
                 "öffentlicher",
-                "sabiedriskā",
-                "intensīva",
-                "satiksme",
-                "starker",
                 "Verkehr"
               ]
             }
@@ -52105,48 +49200,48 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "informācijas",
-          "der Verkehr",
-          "satiksme",
+          "Информация",
+          "Дер Веркер",
+          "Трафик",
           "satiksmi",
           "Biznesa",
-          "cilvēku",
-          "kustība",
-          "kustību",
-          "nozīmēt",
-          "pilsētā",
+          "Люди",
+          "Движение",
+          "Движение",
+          "Иметь в виду",
+          "В городе",
           "sakarus",
           "Verkehr",
           "sakari",
-          "valodā",
-          "preču",
-          "ceļa"
+          "На языке",
+          "Товары",
+          "Дорога"
         ],
         "green": [
-          "der Straßenverkehr",
+          "Дер Штрассенверкер",
           "Straßenverkehr",
-          "kustība"
+          "Движение"
         ],
         "yellow": [
-          "der öffentliche Verkehr",
+          "Der öffentliche Verkehr",
           "öffentliche Verkehr",
           "sakari"
         ],
         "orange": [
-          "kontakts",
-          "satiksme"
+          "Контакт",
+          "Трафик"
         ],
         "purple": [
-          "satiksme / kustība / sakari",
-          "satiksme • kustība • sakari",
-          "sabiedriskā satiksme",
-          "kontakts / sakari",
-          "ceļu satiksme",
-          "die Bewegung",
+          "Движение/движение/коммуникации",
+          "Трафик • Движение • Связь",
+          "Общественный транспорт",
+          "Контакт/общение",
+          "Дорожное движение",
+          "Умереть Бевегунг",
           "Bewegung"
         ],
         "red": [
-          "der Kontakt",
+          "Подходит для контакта",
           "Kontakt"
         ]
       }
@@ -52247,7 +49342,7 @@ const A2_WORDS = [
       "id": "a2-viertel",
       "layout": "standardStudy",
       "translation": "Четверть",
-      "explanation": "das Viertel nozīmē ceturtdaļu no veseluma. Laika izteicienos Viertel nozīmē stundas ceturksni, piemēram Viertel vor acht. Pilsētas kontekstā Viertel nozīmē kvartālu vai rajonu. Ikdienā tas bieži parādās ar pulksteni un dzīvesvietu pilsētā. Konteksts par daudzumu, laiku vai pilsētu palīdz saprast nozīmi.",
+      "explanation": "Das Viertel означает четверть целого. В выражении времени Viertel означает четверть часа, например Viertel vor acht. В городском контексте Viertel означает квартал или район. В повседневной жизни часто появляется с часами и местом жительства в городе. Контекст о количестве, времени или городе помогает понять смысл.",
       "examples": [
         {
           "de": "Ein Viertel der Pizza ist noch da.",
@@ -52313,7 +49408,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Viertel – это слово, обозначающее количество, время и город.",
-        "example": "ein Viertel = ceturtdaļa. Viertel vor acht = bez ceturkšņa astoņi. im Viertel wohnen = dzīvot rajonā."
+        "example": "Ein Viertel = четверть. Viertel vor acht = без четверти восемь. im Viertel wohnen = жить в районе."
       },
       "sectionAccents": {
         "examples": [
@@ -52483,14 +49578,8 @@ const A2_WORDS = [
               "blue": [
                 "Viertel"
               ],
-              "orange": [
-                "ceturtdaļa"
-              ],
               "red": [
-                "ceturtdaļa",
-                "ceturkšņa",
                 "Viertel",
-                "astoņi",
                 "wohnen",
                 "acht"
               ]
@@ -52501,17 +49590,17 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "das Viertel",
+          "Дас Виртель",
           "izteicienos",
-          "ceturksnis",
-          "ceturtdaļa",
-          "ceturtdaļu",
+          "Четверть",
+          "Четверть",
+          "Четверть",
           "ceturksni",
-          "kontekstā",
-          "kvartāls",
-          "kvartālu",
-          "piemēram",
-          "Pilsētas",
+          "В контексте",
+          "Четверть",
+          "Четверть",
+          "Например",
+          "Города",
           "veseluma",
           "stundas",
           "Viertel",
@@ -52521,33 +49610,33 @@ const A2_WORDS = [
         ],
         "green": [
           "stundas ceturksnis",
-          "ceturksnis",
-          "die Hälfte",
+          "Четверть",
+          "Умереть Хэлфте",
           "apkaime",
           "Hälfte",
-          "rajons"
+          "Округ"
         ],
         "yellow": [
-          "das Drittel",
-          "kvartāls",
+          "Дас Дриттель",
+          "Четверть",
           "Drittel"
         ],
         "orange": [
-          "pilsētas daļa",
-          "ceturtdaļa"
+          "Часть города",
+          "Четверть"
         ],
         "purple": [
-          "ceturtdaļa • stundas ceturksnis • kvartāls",
-          "ceturtdaļa / ceturksnis / kvartāls",
-          "pilsētas daļa / rajons",
-          "kvartāls / apkaime",
-          "das Quartier",
+          "Четверть • Четверть часа • Четверть",
+          "Квартал / квартал / квартал",
+          "Часть города/района",
+          "Квартал / район",
+          "Дас Картье",
           "Quartier",
-          "trešdaļa",
-          "puse"
+          "Третий",
+          "Сторона"
         ],
         "red": [
-          "der Stadtteil",
+          "Дер Штадттейль",
           "Stadtteil"
         ]
       }
@@ -52632,7 +49721,7 @@ const A2_WORDS = [
       "translation": "Спереди",
       "subtitle": "Ворн / ворн",
       "accent": "blue",
-      "note": "Atbild uz jautājumu \"Kur?\" (Wo?).",
+      "note": "Отвечает на вопрос «Где?» (Вау?).",
       "examples": [
         {
           "de": "Er sitzt vorn.",
@@ -52735,7 +49824,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Ich stelle mich vor = Я стою впереди.",
-        "example": "Ich stelle mir das vor = Es to iedomājos. Ich stelle dich vor = Es tevi iepazīstinu. Der Plan wird vorgestellt = Plāns tiek prezentēts."
+        "example": "Ich stelle mir das vor = Я вообразил это. Ich stelle dich vor = Я вас представляю. Der Plan wird vorgestellt = План представлен."
       },
       "sectionAccents": {
         "examples": [
@@ -52910,12 +49999,9 @@ const A2_WORDS = [
             },
             "example": {
               "red": [
-                "iepazīstinu",
-                "iedomājos",
                 "stelle",
                 "dich",
-                "Plan",
-                "tevi"
+                "Plan"
               ]
             }
           }
@@ -52924,45 +50010,45 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "iepazīstināt",
-          "iedomāties",
-          "vorstellen",
-          "prezentēt",
-          "stādīties",
-          "nozīmēt",
-          "parādīt",
-          "priekšā",
-          "vārdam",
-          "etwas",
+          "Представить",
+          "Представить",
+          "Представлять",
+          "Представить",
+          "Растение",
+          "Иметь в виду",
+          "Показывать",
+          "Спереди",
+          "За слово",
+          "Что-нибудь",
           "ideju",
-          "īpaši",
-          "plānu",
-          "kādu",
+          "Особенно",
+          "План",
+          "Кто-то",
           "sevi"
         ],
         "green": [
-          "sich vorstellen",
-          "iedomāties",
-          "prezentēt",
-          "uzskatīt"
+          "Представиться",
+          "Представить",
+          "Представить",
+          "Рассмотреть"
         ],
         "yellow": [
-          "stādīties priekšā",
-          "denken"
+          "Стоять перед",
+          "Думать"
         ],
         "orange": [
-          "iepazīstināt"
+          "Представить"
         ],
         "purple": [
-          "iepazīstināt • iedomāties • stādīties priekšā",
-          "stādīties priekšā / iedomāties",
-          "iepazīstināt / prezentēt",
-          "domāt / uzskatīt",
-          "präsentieren",
-          "domāt"
+          "Представить • Представить • Встать перед",
+          "Стоять впереди/представить",
+          "Представить / представить",
+          "Думать / рассматривать",
+          "Подарок",
+          "Думать"
         ],
         "red": [
-          "meinen"
+          "Мейнен"
         ]
       }
     }
@@ -53211,7 +50297,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Wählen – это не просто выбор.",
-        "example": "Partei wählen = balsot par partiju. Nummer wählen = sastādīt numuru. Menü wählen = izvēlēties izvēlni."
+        "example": "Partei wählen = голосовать за партию. Nummer wählen = набрать номер. Menu wählen = выбрать меню."
       },
       "sectionAccents": {
         "examples": [
@@ -53358,11 +50444,7 @@ const A2_WORDS = [
               "blue": [
                 "wählen"
               ],
-              "orange": [
-                "izvēlēties"
-              ],
               "red": [
-                "izvēlēties",
                 "wählen"
               ]
             },
@@ -53370,20 +50452,7 @@ const A2_WORDS = [
               "blue": [
                 "wählen"
               ],
-              "green": [
-                "balsot"
-              ],
-              "yellow": [
-                "sastādīt numuru",
-                "sastādīt"
-              ],
-              "orange": [
-                "izvēlēties"
-              ],
               "red": [
-                "sastādīt",
-                "partiju",
-                "balsot",
                 "Nummer",
                 "Partei",
                 "wählen"
@@ -53395,44 +50464,44 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "izvēlēties",
-          "kontekstā",
+          "Выбирать",
+          "В контексте",
           "Politikas",
-          "automātā",
-          "iespējām",
-          "sastādīt",
+          "В машине",
+          "Возможности",
+          "Сочинять",
           "Telefona",
-          "izvēlni",
-          "nozīmēt",
-          "balsot",
-          "Datorā",
+          "Меню",
+          "Иметь в виду",
+          "Голосовать",
+          "На компьютере",
           "numuru",
           "opciju",
-          "wählen",
-          "starp",
-          "vēlēt"
+          "Велен",
+          "Между",
+          "Желать"
         ],
         "green": [
-          "auswählen",
-          "balsot"
+          "Выбирать",
+          "Голосовать"
         ],
         "yellow": [
-          "sastādīt numuru",
-          "entscheiden",
-          "sastādīt"
+          "Набрать номер",
+          "Эншайден",
+          "Сочинять"
         ],
         "orange": [
-          "izvēlēties",
-          "atlasīt"
+          "Выбирать",
+          "Выбрать"
         ],
         "purple": [
-          "izvēlēties • balsot • sastādīt numuru",
-          "izvēlēties / balsot / sastādīt",
-          "atlasīt / izvēlēties",
-          "izlemt"
+          "Выбирать • Голосовать • Набирать номер",
+          "Выбирать/голосовать/сочинять",
+          "Выбрать / выбрать",
+          "Решать"
         ],
         "red": [
-          "abstimmen"
+          "Воздержание"
         ]
       }
     }
@@ -53511,7 +50580,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Während меняет структуру предложения.",
-        "example": "Während ich arbeite = kamēr es strādāju. Während des Tages = dienas laikā."
+        "example": "Wähder ich arbeite = пока я работаю. Währd des Tages = в течение дня."
       },
       "sectionAccents": {
         "examples": [
@@ -53676,18 +50745,9 @@ const A2_WORDS = [
               "blue": [
                 "während"
               ],
-              "green": [
-                "kamēr"
-              ],
-              "orange": [
-                "laikā"
-              ],
               "red": [
-                "strādāju",
                 "arbeite",
                 "Während",
-                "dienas",
-                "kamēr",
                 "Tages"
               ]
             }
@@ -53697,46 +50757,46 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "palīgteikumu",
-          "prievārds",
-          "darbības",
-          "ģenitīvs",
+          "Вспомогательное предложение",
+          "Предлог",
+          "Действия",
+          "Родительный падеж",
           "saiklis",
-          "während",
+          "Пока",
           "ievada",
-          "nozīmi",
-          "valodā",
-          "bieži",
-          "kamēr",
-          "laikā",
+          "Значение",
+          "На языке",
+          "Часто",
+          "Пока",
+          "В течение",
           "Tages",
-          "vārds",
+          "Слово",
           "seko",
-          "vācu"
+          "Немецкий"
         ],
         "green": [
-          "kamēr",
-          "bei",
-          "ja"
+          "Пока",
+          "Пока",
+          "Если"
         ],
         "yellow": [
-          "wenn"
+          "Когда"
         ],
         "orange": [
-          "laikā noteiktos apstākļos",
+          "В определенных условиях",
           "tik ilgi",
-          "laikā",
-          "kad"
+          "В течение",
+          "Когда"
         ],
         "purple": [
-          "pie / laikā noteiktos apstākļos",
-          "tik ilgi, kamēr",
-          "laikā / kamēr",
-          "laikā • kamēr",
-          "kad / ja"
+          "При/во время определенных условий",
+          "Пока",
+          "Во время / пока",
+          "Во время • Пока",
+          "Когда / если"
         ],
         "red": [
-          "solange"
+          "Соланж"
         ]
       }
     }
@@ -53822,7 +50882,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Wahrscheinlich – это не просто «может быть».",
-        "example": "wahrscheinlich = droši vien / visticamāk. vielleicht = varbūt. sicher vai bestimmt = noteikti."
+        "example": "Wahrscheinlich = вероятно/скорее всего. vielleicht = возможно. sicher или bestimmt = конечно."
       },
       "sectionAccents": {
         "examples": [
@@ -53966,9 +51026,6 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "wahrscheinlich"
-              ],
-              "red": [
-                "varbūt"
               ]
             },
             "example": {
@@ -53979,12 +51036,6 @@ const A2_WORDS = [
                 "vielleicht",
                 "sicher",
                 "bestimmt"
-              ],
-              "purple": [
-                "droši vien",
-                "visticamāk",
-                "varbūt",
-                "noteikti"
               ]
             }
           }
@@ -53992,23 +51043,23 @@ const A2_WORDS = [
       },
       "accents": {
         "blue": [
-          "wahrscheinlich",
+          "Вероятно",
           "Wahrscheinlich"
         ],
         "purple": [
-          "Droši vien",
-          "droši vien",
-          "visticamāk"
+          "Вероятно",
+          "Вероятно",
+          "Вероятно"
         ],
         "green": [
-          "möglich"
+          "Мёглич"
         ],
         "yellow": [
-          "sicher",
-          "bestimmt"
+          "Конечно",
+          "Определенно"
         ],
         "red": [
-          "vielleicht"
+          "Может быть"
         ]
       }
     }
@@ -54138,7 +51189,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Wechseln — не единственное слово, обозначающее «изменение».",
-        "example": "Geld wechseln = samainīt naudu. die Jacke umtauschen = apmainīt jaku. im Zug umsteigen = pārsēsties vilcienā."
+        "example": "Geld wechseln = обменивать деньги. die Jacke umtauschen = обменять куртку. im Zug umsteigen = пересесть на поезд."
       },
       "sectionAccents": {
         "examples": [
@@ -54294,9 +51345,6 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "wechseln"
-              ],
-              "red": [
-                "mainīt"
               ]
             },
             "example": {
@@ -54306,11 +51354,6 @@ const A2_WORDS = [
               "red": [
                 "umtauschen",
                 "umsteigen"
-              ],
-              "purple": [
-                "samainīt",
-                "apmainīt",
-                "pārsēsties"
               ],
               "yellow": [
                 "Geld",
@@ -54323,19 +51366,19 @@ const A2_WORDS = [
       },
       "accents": {
         "blue": [
-          "wechseln",
+          "Вексельн",
           "wechselt",
           "wechsle"
         ],
         "purple": [
-          "Mainīt",
-          "Samainīt",
-          "mainīt",
-          "samainīt",
-          "apmainīt"
+          "Изменять",
+          "Изменять",
+          "Изменить",
+          "Обменивать",
+          "Обменивать"
         ],
         "green": [
-          "umsteigen"
+          "Умштайген"
         ],
         "yellow": [
           "Geld",
@@ -54345,9 +51388,9 @@ const A2_WORDS = [
           "Jacke"
         ],
         "red": [
-          "umtauschen",
-          "ändern",
-          "tauschen"
+          "Обмен",
+          "Изменять",
+          "Таушен"
         ]
       }
     }
@@ -54431,10 +51474,10 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Далеко • Широко",
       "explanation": [
-        "Galvenā doma: weit par attālumu nozīmē tāls, par platumu vai apjomu nozīmē plašs.",
-        "Runājot par distanci, weit = tāls (Die Schule ist weit. = Skola ir tāla.).",
-        "Runājot par platumu, telpu vai apjomu, weit = plašs (ein weites Feld = plašs lauks).",
-        "wie weit? nozīmē cik tālu?; von weitem nozīmē no tālienes."
+        "Основная идея: «Weit» для расстояния означает «далеко», «ширина» или «протяженность» означает «широкий».",
+        "Когда речь идет о расстоянии, weit = далеко (Die Schule ist weit. = Школа далеко).",
+        "Говоря о ширине, пространстве или протяженности, weit = широкий (ein weites Feld = широкое поле).",
+        "Как дела? означает, как далеко? • Von weitem означает «издалека»."
       ],
       "examples": [
         {
@@ -54463,21 +51506,17 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Par attālumu (skola, ceļš) → tāls.",
-        "Par platumu vai apjomu (lauks, drēbes) → plašs."
+        "О расстоянии (школа, дорога) → далеко.",
+        "О ширине или протяженности (поле, одежда) → широкий."
       ],
       "important": [
-        "weit = tāls (attālums) VAI plašs (platums).",
-        "wie weit? = cik tālu? (ne 'cik plašs')."
+        "Weit = далеко (расстояние) ИЛИ широко (ширина).",
+        "Как дела? = как далеко? (не «насколько широко»)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "weit"
-          ],
-          "purple": [
-            "tāls",
-            "plašs"
           ]
         },
         "examples": [
@@ -54531,29 +51570,12 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "tāls"
-            ]
-          },
-          {
-            "green": [
-              "plašs"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "purple": [
-              "tāls",
-              "plašs"
-            ]
-          },
-          {
-            "blue": [
-              "wie weit?"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -54665,7 +51687,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Wert — это не то же самое, что teuer.",
-        "example": "Das ist viel wert = tas ir daudz vērts. Das ist teuer = tas ir dārgs."
+        "example": "Das ist viel wert = это многого стоит. Das ist teuer = это дорого."
       },
       "sectionAccents": {
         "examples": [
@@ -54824,10 +51846,6 @@ const A2_WORDS = [
               ],
               "red": [
                 "teuer"
-              ],
-              "purple": [
-                "vērts",
-                "dārgs"
               ]
             }
           }
@@ -54835,16 +51853,16 @@ const A2_WORDS = [
       },
       "accents": {
         "blue": [
-          "wert"
+          "Ценность"
         ],
         "purple": [
-          "Vērts",
-          "vērts",
-          "vērta"
+          "Стоило того",
+          "Ценность",
+          "Стоило того"
         ],
         "green": [
           "Wert",
-          "sehenswert"
+          "Sehenswert"
         ],
         "yellow": [
           "Geld",
@@ -54852,7 +51870,7 @@ const A2_WORDS = [
           "Euro"
         ],
         "red": [
-          "teuer"
+          "Ты"
         ]
       }
     }
@@ -55127,15 +52145,15 @@ const A2_WORDS = [
       },
       "accents": {
         "blue": [
-          "wiegen",
+          "Вигген",
           "wiegt",
           "wiege",
           "wiegst"
         ],
         "purple": [
-          "Svērt",
-          "svērt",
-          "nosvērt",
+          "Взвесить",
+          "Взвешивать",
+          "Взвешивать",
           "sver",
           "nosver"
         ],
@@ -55151,7 +52169,7 @@ const A2_WORDS = [
         ],
         "red": [
           "Wagen",
-          "messen"
+          "Мессен"
         ]
       }
     }
@@ -55285,7 +52303,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Ziehen – это не просто физическое «притяжение».",
-        "example": "Wir ziehen nach Berlin = Mēs pārvācamies uz Berlīni. Es zieht = Velk caurvējš. einen Schluss ziehen = izdarīt secinājumu."
+        "example": "Wir ziehen nach Berlin = Мы переезжаем в Берлин. I zieht = Вытягивание сквозняка. einen Schluss ziehen = сделать вывод."
       },
       "sectionAccents": {
         "examples": [
@@ -55463,8 +52481,7 @@ const A2_WORDS = [
                 "ziehen"
               ],
               "red": [
-                "pārvācamies",
-                "Berlīni",
+                "Berlin",
                 "Berlin",
                 "ziehen",
                 "zieht",
@@ -55477,55 +52494,55 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "dzīvniekiem",
-          "pamatnozīme",
-          "pārvākties",
-          "audzināt",
-          "virzienā",
-          "bērniem",
+          "Животные",
+          "Основной смысл",
+          "Двигаться",
+          "Воспитывать",
+          "Направление",
+          "Для детей",
           "izvilkt",
-          "nozīmēt",
+          "Иметь в виду",
           "augiem",
-          "doties",
-          "ziehen",
+          "Идти",
+          "Рисовать",
           "lieto",
-          "spēku",
-          "vilkt",
-          "kādā",
+          "Сила",
+          "Тянуть",
+          "В котором",
           "roku",
           "velk"
         ],
         "green": [
-          "pārģērbties",
+          "Переодеться",
           "ievilkties",
-          "izvākties",
+          "Съезжать",
           "pievilkt",
-          "umziehen",
+          "Умзихен",
           "izvilkt"
         ],
         "yellow": [
-          "pārvākties",
-          "virzīties",
-          "anziehen"
+          "Двигаться",
+          "Двигаться",
+          "Анзиен"
         ],
         "orange": [
-          "uzvilkt apģērbu",
-          "ļaut aiziet",
-          "novilkt",
-          "vilkt"
+          "Надеть одежду",
+          "Отпустить",
+          "Снять",
+          "Тянуть"
         ],
         "purple": [
-          "vilkt • izvilkt • pārvākties • doties • audzināt",
-          "vilkt / pārvākties / virzīties",
-          "uzvilkt apģērbu / pievilkt",
-          "ļaut aiziet / ievilkties",
-          "pārvākties / pārģērbties",
-          "novilkt / izvākties",
-          "ziehen lassen"
+          "Перетащить • Вытащить • Переместить • Пойти • Поднять",
+          "Перетащить / переместить / переместить",
+          "Надеть одежду/затянуть",
+          "Отпустить/втянуть",
+          "Переехать/переодеться",
+          "Снять/выехать",
+          "Циэн лассен"
         ],
         "red": [
-          "ausziehen",
-          "doties"
+          "Аусцихен",
+          "Идти"
         ]
       }
     }
@@ -55686,7 +52703,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Zunehmen меняет значение в зависимости от предмета.",
-        "example": "Ich nehme zu = es pieņemos svarā. Die Preise nehmen zu = cenas pieaug. abnehmen = samazināties vai notievēt."
+        "example": "Ich nehme zu = Я набираю вес. Die Preise nehmen zu = цены растут. abnehmen = уменьшаться или становиться худым."
       },
       "sectionAccents": {
         "examples": [
@@ -55848,19 +52865,12 @@ const A2_WORDS = [
             },
             "example": {
               "green": [
-                "samazināties",
                 "abnehmen"
               ],
-              "orange": [
-                "notievēt"
-              ],
               "red": [
-                "pieņemos",
                 "nehmen",
                 "Preise",
-                "cenas",
-                "nehme",
-                "svarā"
+                "nehme"
               ]
             }
           }
@@ -55868,48 +52878,48 @@ const A2_WORDS = [
       },
       "accents": {
         "blue": [
-          "palielināties",
+          "Увеличивать",
           "standardStudy",
-          "intensitātei",
-          "pieņemties",
+          "Интенсивность",
+          "Принять",
           "daudzumam",
-          "problēmu",
-          "zunehmen",
-          "cilvēku",
-          "nozīmēt",
+          "Проблема",
+          "Брать",
+          "Люди",
+          "Иметь в виду",
           "pieaugt",
           "skaitam",
           "troksni",
-          "svarā",
+          "По весу",
           "svaru",
           "tulko",
           "cenu",
-          "vēju"
+          "Ветер"
         ],
         "green": [
-          "palielināties",
-          "samazināties",
-          "abnehmen"
+          "Увеличивать",
+          "Снижаться",
+          "Абнемен"
         ],
         "yellow": [
           "pieaugt",
-          "wachsen"
+          "Ваксен"
         ],
         "orange": [
-          "pieņemties svarā",
-          "notievēt",
-          "kāpt"
+          "Набрать вес",
+          "Похудеть",
+          "Подняться"
         ],
         "purple": [
-          "pieņemties svarā • palielināties • pieaugt",
-          "pieņemties svarā / pieaugt",
-          "notievēt / samazināties",
-          "kāpt / pieaugt",
-          "sich erhöhen",
-          "augt"
+          "Набирать вес • Увеличиваться • Расти",
+          "Набирать вес/расти",
+          "Худеть/уменьшаться",
+          "Подняться / подняться",
+          "Поднять себя",
+          "Расти"
         ],
         "red": [
-          "steigen"
+          "Вставать"
         ]
       }
     }
@@ -56005,7 +53015,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Zurzeit — это не всегда то же самое, что jetzt.",
-        "example": "Ich gehe jetzt = es eju tagad. Ich arbeite zurzeit viel = pašlaik es daudz strādāju. derzeit un im Moment ir ļoti tuvi zurzeit."
+        "example": "Ich gehe jetzt = Я иду сейчас. Ich arbeite zurzeit viel = Сейчас я много работаю. derzeit и im moment очень близки к zurzeit."
       },
       "sectionAccents": {
         "examples": [
@@ -56186,18 +53196,11 @@ const A2_WORDS = [
               "yellow": [
                 "im Moment"
               ],
-              "orange": [
-                "pašlaik"
-              ],
-              "purple": [
-                "tagad"
-              ],
               "red": [
                 "arbeite",
                 "derzeit",
                 "zurzeit",
                 "jetzt",
-                "tagad",
                 "gehe",
                 "viel"
               ]
@@ -56208,45 +53211,45 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "pašreizējā",
-          "mainīties",
-          "situācija",
-          "situāciju",
-          "noteiktā",
+          "Текущий",
+          "Изменить",
+          "Ситуация",
+          "Ситуация",
+          "Указанный",
           "patlaban",
           "raksturo",
-          "derzeit",
-          "līdzīgs",
-          "pašlaik",
-          "periodā",
-          "zurzeit",
-          "šobrīd",
-          "bieži",
+          "В настоящее время",
+          "Похожий",
+          "В настоящее время",
+          "Период",
+          "Цурцайт",
+          "В данный момент",
+          "Часто",
           "lieto",
-          "vēlāk"
+          "Позже"
         ],
         "green": [
-          "šobrīd",
-          "jetzt"
+          "В данный момент",
+          "Реактивный самолет"
         ],
         "yellow": [
-          "im Moment",
+          "Я момент",
           "patlaban"
         ],
         "orange": [
-          "pašlaik"
+          "В настоящее время"
         ],
         "purple": [
-          "pašlaik / šobrīd / patlaban",
-          "pašlaik • šobrīd • patlaban",
-          "pašlaik / patlaban",
-          "šobrīd / patlaban",
-          "šobrīd / pašlaik",
-          "momentan",
-          "tagad"
+          "В настоящее время / в данный момент / в настоящее время",
+          "В данный момент • В настоящее время • В настоящее время",
+          "В настоящее время / в настоящее время",
+          "В данный момент / в настоящее время",
+          "В данный момент / в настоящее время",
+          "В данный момент",
+          "Сейчас"
         ],
         "red": [
-          "derzeit"
+          "В настоящее время"
         ]
       }
     }
@@ -56292,10 +53295,10 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Чтобы увидеть",
       "explanation": [
-        "Galvenā doma: Uztvert ar acīm, bieži bez īpaša nodoma.",
-        "sehen galvenokārt nozīmē: uztvert ar acīm.",
-        "Bieži raksturo: redzi.",
-        "sehen bieži notiek bez īpašas piepūles."
+        "Основная идея: Воспринимайте глазами, часто без особого намерения.",
+        "Sehen в первую очередь означает: воспринимать глазами.",
+        "Часто характеризуется: зрением.",
+        "Sehen часто происходит без особых усилий."
       ],
       "examples": [
         {
@@ -56316,23 +53319,17 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "sehen = redzēt",
-        "Izmanto sehen, kad konteksts atbilst šai nozīmei."
+        "Sehen = видеть",
+        "Используйте sehen, когда контекст соответствует этому значению."
       ],
       "important": [
-        "sehen nav vienmēr skatīties.",
-        "sehen = redzēt."
+        "Сехен не всегда смотрит.",
+        "Sehen = видеть."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sehen"
-          ],
-          "purple": [
-            "redzi"
-          ],
-          "green": [
-            "redzi"
           ]
         },
         "examples": [
@@ -56346,18 +53343,10 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "redzēt"
-            ]
-          }
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "sehen"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -56371,10 +53360,10 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Смотреть",
       "explanation": [
-        "Galvenā doma: Aktīvi skatīties vai palūkoties.",
-        "schauen galvenokārt nozīmē: aktīvi skatīties.",
-        "Bieži raksturo: darbību.",
-        "schauen nozīmē aktīvi skatīties."
+        "Основная идея: Смотреть или смотреть активно.",
+        "Schauen прежде всего означает: активно наблюдать.",
+        "Часто описывает: действие.",
+        "Schauen означает активно смотреть."
       ],
       "examples": [
         {
@@ -56403,23 +53392,17 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "schauen = skatīties",
-        "Izmanto schauen, kad konteksts atbilst šai nozīmei."
+        "Schauen = смотреть",
+        "Используйте schauen, когда контекст соответствует этому значению."
       ],
       "important": [
-        "schauen = skatīties.",
-        "Aktīvi skatīties vai palūkoties."
+        "Schauen = смотреть.",
+        "Активно наблюдайте или смотрите."
       ],
       "sectionAccents": {
         "explanation": {
           "green": [
             "schauen"
-          ],
-          "purple": [
-            "skatīties"
-          ],
-          "orange": [
-            "skatīties"
           ]
         },
         "examples": [
@@ -56450,11 +53433,7 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "skatīties"
-            ]
-          }
+          {}
         ],
         "important": [
           {
@@ -56475,10 +53454,10 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Просматривать • Смотреть",
       "explanation": [
-        "Galvenā doma: Apskatīt konkrētu lietu vai noskatīties filmu/video.",
-        "ansehen galvenokārt nozīmē: skatīties uz konkrētu objektu.",
-        "Bieži raksturo: mērķētu skatīšanos.",
-        "ansehen lieto, ja uzmanību vērš uz konkrētu objektu, filmu vai lietu."
+        "Основная идея: Посмотрите на конкретную вещь или посмотрите фильм/видео.",
+        "Ansehen в основном означает: смотреть на конкретный объект.",
+        "Часто характеризуется: целенаправленным просмотром.",
+        "Ansehen используется, когда внимание привлекается к определенному объекту, фильму или вещи."
       ],
       "examples": [
         {
@@ -56487,25 +53466,18 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "ansehen = apskatīt",
-        "Izmanto ansehen, kad konteksts atbilst šai nozīmei."
+        "Ansehen = посмотреть",
+        "Используйте ansehen, когда контекст соответствует этому значению."
       ],
       "important": [
-        "ansehen bieži ir atdalāms: Ich sehe mir ... an.",
-        "ansehen = apskatīt/noskatīties.",
-        "Apskatīt konkrētu lietu vai noskatīties filmu/video."
+        "Ansehen часто разделяется: Ich sehe mir...an.",
+        "Ansehen = смотреть/смотреть.",
+        "Просмотр определенного объекта или просмотр фильма/видео."
       ],
       "sectionAccents": {
         "explanation": {
           "yellow": [
             "ansehen"
-          ],
-          "green": [
-            "noskatīties",
-            "apskatīt"
-          ],
-          "red": [
-            "Apskatīt"
           ]
         },
         "examples": [
@@ -56515,11 +53487,7 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "apskatīt"
-            ]
-          },
+          {},
           {}
         ],
         "important": [
@@ -56541,10 +53509,10 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Слышать • Слушать",
       "explanation": [
-        "Galvenā doma: Dzirdēt skaņu vai klausīties mūziku.",
-        "hören galvenokārt nozīmē: uztvert skaņu.",
-        "Bieži raksturo: skaņas.",
-        "hören lieto skaņām, mūzikai un tam, ko dzird."
+        "Основная идея: услышать звук или послушать музыку.",
+        "Hören в первую очередь означает: воспринимать звук.",
+        "Часто характеризуются: звуками.",
+        "Hören используется для обозначения звуков, музыки и того, что слышно."
       ],
       "examples": [
         {
@@ -56561,25 +53529,17 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Dzirdēt skaņu vai klausīties mūziku.",
-        "Izmanto hören, kad konteksts atbilst šai nozīmei."
+        "Услышьте звук или послушайте музыку.",
+        "Используйте hören, когда контекст соответствует этому значению."
       ],
       "important": [
-        "hören = dzirdēt/klausīties skaņu.",
-        "Dzirdēt skaņu vai klausīties mūziku."
+        "Hören = слышать/слушать звук.",
+        "Услышьте звук или послушайте музыку."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "hören"
-          ],
-          "purple": [
-            "klausīties",
-            "dzirdēt"
-          ],
-          "green": [
-            "klausīties",
-            "Dzirdēt"
           ]
         },
         "examples": [
@@ -56610,16 +53570,8 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "dzirdēt"
-            ]
-          },
-          {
-            "purple": [
-              "klausīties"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
           {
@@ -56640,10 +53592,10 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Сказать",
       "explanation": [
-        "Galvenā doma: Pateikt konkrētu domu, vārdu vai teikumu.",
-        "sagen galvenokārt nozīmē: pateikt konkrētu domu.",
-        "Bieži raksturo: vārdus/teikumus.",
-        "sagen lieto konkrētam pateiktam tekstam."
+        "Основная идея: Расскажите конкретную идею, слово или предложение.",
+        "Sagen в основном означает: подчеркнуть конкретную точку зрения.",
+        "Часто описывает: слова/предложения.",
+        "Sagen используется для конкретного текста."
       ],
       "examples": [
         {
@@ -56660,27 +53612,21 @@ const A2_WORDS = [
         {
           "word": "Спречен",
           "meaning": "Говорить (язык, говорить)",
-          "example": "Ich spreche Deutsch. – Es runāju vāciski."
+          "example": "Ich spreche Deutsch. – Я говорю по-немецки."
         }
       ],
       "tip": [
-        "sagen = teikt",
-        "Izmanto sagen, kad konteksts atbilst šai nozīmei."
+        "Саген = сказать",
+        "Используйте sagen, когда контекст соответствует этому значению."
       ],
       "important": [
-        "sagen = pateikt.",
-        "Pateikt konkrētu domu, vārdu vai teikumu."
+        "Sagen = рассказать.",
+        "Чтобы передать конкретную мысль, слово или предложение."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sagen"
-          ],
-          "purple": [
-            "teikt"
-          ],
-          "green": [
-            "Teikt"
           ]
         },
         "examples": [
@@ -56690,11 +53636,7 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "teikt"
-            ]
-          }
+          {}
         ],
         "important": [
           {
@@ -56715,10 +53657,10 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Говорить",
       "explanation": [
-        "Galvenā doma: Runāt, sarunāties vai lietot valodu.",
-        "sprechen galvenokārt nozīmē: runāt vai sarunāties.",
-        "Bieži raksturo: valodu/sarunu.",
-        "sprechen raksturo runāšanu vai valodas lietošanu."
+        "Основная идея: говорить, беседовать или использовать язык.",
+        "Sprechen в основном означает: говорить или беседовать.",
+        "Часто характеризуется: языком/разговором.",
+        "Спрехен описывает речь или использование языка."
       ],
       "examples": [
         {
@@ -56738,32 +53680,26 @@ const A2_WORDS = [
         {
           "word": "Спречен",
           "meaning": "Говорить (процесс, язык)",
-          "example": "Wir sprechen über die Arbeit. – Mēs runājam par darbu."
+          "example": "Wir sprechen über die Arbeit. – Мы говорим о работе."
         },
         {
           "word": "Саген",
           "meaning": "Рассказать (конкретный текст)",
-          "example": "Sag mir die Wahrheit. – Pasaki man patiesību."
+          "example": "Sag mir die Wahrheit. – Скажи мне правду."
         }
       ],
       "tip": [
-        "sprechen = runāt",
-        "Izmanto sprechen, kad konteksts atbilst šai nozīmei."
+        "Спрехен = говорить",
+        "Использует спречен, когда контекст соответствует этому значению."
       ],
       "important": [
-        "sprechen = runāt.",
-        "Runāt, sarunāties vai lietot valodu."
+        "Sprechen = говорить.",
+        "Говорить, разговаривать или использовать язык."
       ],
       "sectionAccents": {
         "explanation": {
           "green": [
             "sprechen"
-          ],
-          "purple": [
-            "runāt"
-          ],
-          "orange": [
-            "runāt"
           ]
         },
         "examples": [
@@ -56794,11 +53730,7 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "runāt"
-            ]
-          }
+          {}
         ],
         "important": [
           {
@@ -56819,12 +53751,12 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Большой",
       "explanation": [
-        "Galvenā doma: Liels izmērā vai cilvēkam - garš augumā.",
-        "groß galvenokārt nozīmē: liels izmērs.",
-        "Bieži raksturo: kopējo izmēru.",
-        "groß galvenokārt nozīmē: cilvēka augums.",
-        "Bieži raksturo: personu.",
-        "groß raksturo izmēru kopumā vai cilvēka augumu."
+        "Основная идея: Большой размер или для человека - высокого роста.",
+        "Groß прежде всего означает: большой размер.",
+        "Часто характеризуются: габаритными размерами.",
+        "Groß прежде всего означает: человеческий рост.",
+        "Часто описывает: человек.",
+        "Groß описывает размер в целом или рост человека."
       ],
       "examples": [
         {
@@ -56845,24 +53777,18 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "groß = liels",
-        "Izmanto groß, kad konteksts atbilst šai nozīmei."
+        "Брутто = большой",
+        "Используйте Groß, когда контекст соответствует этому значению."
       ],
       "important": [
-        "Cilvēkam Er ist groß nozīmē garš augumā.",
-        "groß = liels.",
-        "Liels izmērā vai cilvēkam - garš augumā."
+        "Для человека Er ist groß означает высокий.",
+        "Гросс = большой.",
+        "Крупного размера или для человека – высокого роста."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "groß"
-          ],
-          "purple": [
-            "liels"
-          ],
-          "green": [
-            "Liels"
           ]
         },
         "examples": [
@@ -56904,11 +53830,7 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "liels"
-            ]
-          }
+          {}
         ],
         "important": [
           {
@@ -56929,12 +53851,12 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Высокий",
       "explanation": [
-        "Galvenā doma: Augsts vertikāli, līmenī vai augstumā.",
-        "hoch galvenokārt nozīmē: liels augstumā.",
-        "Bieži raksturo: vertikālu augstumu.",
-        "hoch galvenokārt nozīmē: augsts līmenis.",
-        "Bieži raksturo: cenas/skaitļus.",
-        "hoch raksturo augstumu, vertikālu virzienu vai līmeni."
+        "Основная идея: Высокая вертикаль, уровень или высота.",
+        "Hoch прежде всего означает: большой по высоте.",
+        "Часто характеризуется: вертикальной высотой.",
+        "Хох в основном означает: высокий уровень.",
+        "Часто характеризуется: ценами/цифрами.",
+        "Хох описывает высоту, вертикальное направление или уровень."
       ],
       "examples": [
         {
@@ -56959,24 +53881,18 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "hoch = augsts",
-        "Izmanto hoch, kad konteksts atbilst šai nozīmei."
+        "Хох = высокий",
+        "Используйте hoch, когда контекст соответствует этому значению."
       ],
       "important": [
-        "Cenām un līmenim bieži lieto hoch.",
-        "hoch = augsts.",
-        "Augsts vertikāli, līmenī vai augstumā."
+        "Хох часто используется для обозначения цен и уровня.",
+        "Хох = высокий.",
+        "Высоко по вертикали, на уровне или высоте."
       ],
       "sectionAccents": {
         "explanation": {
           "green": [
             "hoch"
-          ],
-          "purple": [
-            "augsts"
-          ],
-          "orange": [
-            "augsts"
           ]
         },
         "examples": [
@@ -57027,18 +53943,10 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "augsts"
-            ]
-          }
+          {}
         ],
         "important": [
-          {
-            "green": [
-              "hoch"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -57052,12 +53960,12 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Маленький",
       "explanation": [
-        "Galvenā doma: Mazs izmērā vai apjomā.",
-        "klein galvenokārt nozīmē: mazs izmērs.",
-        "Bieži raksturo: lietas/personas izmēru.",
-        "klein galvenokārt nozīmē: mazs/jauns.",
-        "Bieži raksturo: bērnu.",
-        "klein raksturo mazu izmēru."
+        "Основная идея: Небольшой размер или объем.",
+        "Кляйн в основном означает: маленький размер.",
+        "Часто описывает: размер вещи/человека.",
+        "Кляйн в основном означает: маленький/новый.",
+        "Часто описывает: ребенок.",
+        "Кляйн описывает небольшой размер."
       ],
       "examples": [
         {
@@ -57082,26 +53990,16 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "klein = mazs",
-        "Izmanto klein, kad konteksts atbilst šai nozīmei."
+        "Кляйн = маленький",
+        "Использует Кляйн, когда контекст соответствует этому значению."
       ],
       "important": [
-        "klein = mazs izmērā.",
-        "klein = mazs.",
-        "Mazs izmērā vai apjomā."
+        "Кляйн = маленький по размеру.",
+        "Кляйн = маленький.",
+        "Небольшие по размеру или объему."
       ],
       "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "klein"
-          ],
-          "purple": [
-            "mazs"
-          ],
-          "green": [
-            "Mazs"
-          ]
-        },
+        "explanation": {},
         "examples": [
           {
             "de": {
@@ -57150,18 +54048,10 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "mazs"
-            ]
-          }
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "klein"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -57175,10 +54065,10 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Тихий",
       "explanation": [
-        "Galvenā doma: Kluss vai ar mazu skaļumu.",
-        "leise galvenokārt nozīmē: mazs skaļums.",
-        "Bieži raksturo: skaņu/balsi/mūziku.",
-        "leise raksturo mazu skaļumu vai klusu balsi/skaņu."
+        "Основная идея: Тихий или низкий уровень громкости.",
+        "Leise в основном означает: низкий объем.",
+        "Часто описывает: звук/голос/музыка.",
+        "Leise описывает тихий или тихий голос/звук."
       ],
       "examples": [
         {
@@ -57199,24 +54089,18 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "leise = kluss",
-        "Izmanto leise, kad konteksts atbilst šai nozīmei."
+        "Leise = тихо",
+        "Используйте leise, когда контекст соответствует этому значению."
       ],
       "important": [
-        "leise = kluss skaņas ziņā.",
-        "leise = skaļums.",
-        "Kluss vai ar mazu skaļumu."
+        "Leise = тихий звук.",
+        "Leise = объем.",
+        "Тихий или низкий уровень громкости."
       ],
       "sectionAccents": {
         "explanation": {
           "green": [
             "leise"
-          ],
-          "purple": [
-            "kluss"
-          ],
-          "orange": [
-            "kluss"
           ]
         },
         "examples": [
@@ -57258,11 +54142,7 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "kluss"
-            ]
-          }
+          {}
         ],
         "important": [
           {
@@ -57283,10 +54163,10 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Уже",
       "explanation": [
-        "Galvenā doma: Kaut kas jau ir noticis vai jau ir spēkā.",
-        "schon galvenokārt nozīmē: kaut kas jau ir noticis vai spēkā.",
-        "Bieži raksturo: notikušu faktu vai esošu stāvokli.",
-        "schon nozīmē jau: kaut kas jau ir noticis vai jau ir spēkā."
+        "Основная идея: Что-то уже произошло или уже действует.",
+        "Schon главным образом означает: что-то уже произошло или происходит.",
+        "Часто описывает: произошедший факт или существующее состояние.",
+        "Schon означает уже: что-то уже произошло или уже действует."
       ],
       "examples": [
         {
@@ -57295,21 +54175,18 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Kaut kas jau ir noticis vai jau ir spēkā.",
-        "Izmanto schon, kad konteksts atbilst šai nozīmei."
+        "Что-то уже произошло или уже действует.",
+        "Используйте schon, когда контекст соответствует этому значению."
       ],
       "important": [
-        "schon = jau.",
-        "Kaut kas jau ir noticis vai jau ir spēkā."
+        "Шон = уже.",
+        "Что-то уже произошло или уже действует."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "schon",
             "schon"
-          ],
-          "purple": [
-            "jau"
           ]
         },
         "examples": [
@@ -57324,18 +54201,10 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "jau"
-            ]
-          }
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "schon"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -57349,10 +54218,10 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Еще",
       "explanation": [
-        "Galvenā doma: Kaut kas joprojām turpinās vai vēl nav beidzies.",
-        "noch galvenokārt nozīmē: kaut kas joprojām turpinās.",
-        "Bieži raksturo: turpinājumu vai nepabeigtu stāvokli.",
-        "noch nozīmē vēl: kaut kas joprojām turpinās vai vēl nav beidzies."
+        "Основная идея: Что-то еще продолжается или еще не закончено.",
+        "Noch в основном означает: что-то все еще происходит.",
+        "Часто описывает: продолжение или незавершенное состояние.",
+        "Noch означает «все еще»: что-то еще происходит или еще не закончено."
       ],
       "examples": [
         {
@@ -57369,22 +54238,15 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Kaut kas joprojām turpinās vai vēl nav beidzies.",
-        "Izmanto noch, kad konteksts atbilst šai nozīmei."
+        "Что-то еще происходит или еще не закончилось.",
+        "Используйте noch, когда контекст соответствует этому значению."
       ],
       "important": [
-        "noch = vēl.",
-        "Kaut kas joprojām turpinās vai vēl nav beidzies."
+        "Ноч = пока.",
+        "Что-то еще происходит или еще не закончилось."
       ],
       "sectionAccents": {
-        "explanation": {
-          "green": [
-            "Vēl"
-          ],
-          "purple": [
-            "vēl"
-          ]
-        },
+        "explanation": {},
         "examples": [
           {
             "de": {
@@ -57415,18 +54277,10 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "vēl"
-            ]
-          }
+          {}
         ],
         "important": [
-          {
-            "green": [
-              "noch"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -57440,10 +54294,10 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Не раньше, чем • Не раньше, чем",
       "explanation": [
-        "Galvenā doma: Norāda uz laiku, secību, agrīnu stadiju vai kaut ko vēlāk, nekā gaidīts.",
-        "erst galvenokārt nozīmē: laiks, secība vai agrīna stadija.",
-        "Bieži raksturo: kad kaut kas notiek vai cik tālu tas ir.",
-        "erst nozīmē vēl tikai, tikai līdz šim vai ne agrāk kā: tas norāda uz laiku, secību vai agrīnu stadiju."
+        "Основная идея: указывает время, последовательность, раннюю стадию или что-то более позднее, чем ожидалось.",
+        "Первое в первую очередь означает: время, последовательность или раннюю стадию.",
+        "Часто описывает: когда что-то произойдет или как далеко это будет.",
+        "«первый» означает «пока», только до сих пор или не раньше: он указывает на время, последовательность или раннюю стадию."
       ],
       "examples": [
         {
@@ -57464,28 +54318,15 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Norāda uz laiku, secību, agrīnu stadiju vai kaut ko vēlāk, nekā gaidīts.",
-        "Izmanto erst, kad konteksts atbilst šai nozīmei."
+        "Указывает время, последовательность, раннюю стадию или что-то более позднее, чем ожидалось.",
+        "Используется erst, когда контекст соответствует этому значению."
       ],
       "important": [
-        "Ļoti bieži pareizais vārds būs erst, ja runa ir par laiku vai secību.",
-        "erst = vēl tikai / ne agrāk kā."
+        "Очень часто правильное слово будет первым, когда дело касается времени или последовательности.",
+        "Erst = пока/не раньше."
       ],
       "sectionAccents": {
-        "explanation": {
-          "yellow": [
-            "Vēl tikai"
-          ],
-          "green": [
-            "ne agrāk kā",
-            "agrāk",
-            "tikai",
-            "Vēl"
-          ],
-          "red": [
-            "Tikai"
-          ]
-        },
+        "explanation": {},
         "examples": [
           {
             "de": {
@@ -57529,11 +54370,7 @@ const A2_WORDS = [
           {}
         ],
         "important": [
-          {
-            "yellow": [
-              "erst"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -57547,10 +54384,10 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Только • Только",
       "explanation": [
-        "Galvenā doma: Ierobežo daudzumu, cilvēku skaitu, izvēli vai iespējas.",
-        "nur galvenokārt nozīmē: ierobežots daudzums vai izvēle.",
-        "Bieži raksturo: cik daudz, kas tieši vai kurš vienīgais.",
-        "nur nozīmē tikai, vienīgi, nekas vairāk: tas ierobežo daudzumu vai izvēli."
+        "Основная идея: Ограничивает количество, количество людей, выбор или варианты.",
+        "Нур в основном означает: ограниченное количество или выбор.",
+        "Часто описывает: сколько именно или кто единственный.",
+        "Нур означает только, исключительно, ничего больше: он ограничивает количество или выбор."
       ],
       "examples": [
         {
@@ -57579,30 +54416,15 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Ierobežo daudzumu, cilvēku skaitu, izvēli vai iespējas.",
-        "Izmanto nur, kad konteksts atbilst šai nozīmei."
+        "Ограничивает количество, количество людей, выбор или варианты.",
+        "Используется только тогда, когда контекст соответствует этому значению."
       ],
       "important": [
-        "Latviešu “tikai” vācu valodā ne vienmēr ir nur.",
-        "nur = tikai / vienīgi."
+        "Латышское «только» в немецком языке не всегда нур.",
+        "Nur = только/исключительно."
       ],
       "sectionAccents": {
-        "explanation": {
-          "orange": [
-            "nur",
-            "nur"
-          ],
-          "green": [
-            "vienīgi"
-          ],
-          "red": [
-            "Tikai"
-          ],
-          "yellow": [
-            "vienīgi",
-            "tikai"
-          ]
-        },
+        "explanation": {},
         "examples": [
           {
             "de": {
@@ -57664,11 +54486,7 @@ const A2_WORDS = [
           {}
         ],
         "important": [
-          {
-            "orange": [
-              "nur"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -57682,14 +54500,14 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Более • Более • Для",
       "explanation": [
-        "Galvenā doma: Var būt virs kaut kā, pāri kaut kam vai par kādu tēmu.",
-        "über galvenokārt nozīmē: augstāk par kaut ko.",
-        "Bieži raksturo: atrašanās vietu.",
-        "über galvenokārt nozīmē: šķērsot kaut ko.",
-        "Bieži raksturo: kustību pāri.",
-        "über galvenokārt nozīmē: tēma.",
-        "Bieži raksturo: par ko runā.",
-        "über var nozīmēt virs, pāri vai par, atkarībā no konteksta."
+        "Основная идея: может быть над чем-то, через что-то или по теме.",
+        "Über прежде всего означает: выше чего-то.",
+        "Часто характеризуется: местоположением.",
+        "Über в основном означает: пересечь что-то.",
+        "Часто характеризуются: парами движений.",
+        "Über в первую очередь означает: тема.",
+        "Часто описывает: о чем идет речь.",
+        "Über может означать «сверх», «сверх» или «сверх», в зависимости от контекста."
       ],
       "examples": [
         {
@@ -57714,27 +54532,16 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Var būt virs kaut kā, pāri kaut kam vai par kādu tēmu.",
-        "Izmanto über, kad konteksts atbilst šai nozīmei."
+        "Может быть по поводу чего-то, по поводу чего-то или по какой-то теме.",
+        "Используйте über, когда контекст соответствует этому значению."
       ],
       "important": [
-        "Ich gehe über den Park nav pareizi, ja doma ir “caur parku”.",
-        "über var nozīmēt gan virs, gan pāri, gan par.",
-        "über = virs / pāri / par."
+        "Ich gehe über den Park неверен, когда мысль идет «через парк».",
+        "Über может означать «над», «над» и «около».",
+        "Über = сверх/над/около."
       ],
       "sectionAccents": {
-        "explanation": {
-          "green": [
-            "Pāri"
-          ],
-          "yellow": [
-            "virs"
-          ],
-          "orange": [
-            "pāri",
-            "virs"
-          ]
-        },
+        "explanation": {},
         "examples": [
           {
             "de": {
@@ -57783,21 +54590,9 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "virs"
-            ]
-          },
-          {
-            "purple": [
-              "pāri"
-            ]
-          },
-          {
-            "purple": [
-              "par"
-            ]
-          }
+          {},
+          {},
+          {}
         ],
         "important": [
           {
@@ -57818,10 +54613,10 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Внутри",
       "explanation": [
-        "Galvenā doma: Kāds vai kaut kas ir kaut kā iekšienē.",
-        "Piemēros meklē tipisku ikdienas lietojumu.",
-        "Ja šaubies, pārbaudi, vai runa ir par stāvokli vai darbību.",
-        "Konteksts un darbības virziens nosaka pareizo izvēli."
+        "Основная идея: Кто-то или что-то находится внутри чего-то.",
+        "Примеры относятся к типичному повседневному использованию.",
+        "Если сомневаетесь, проверьте, состояние это или действие.",
+        "Контекст и образ действий определяют правильный выбор."
       ],
       "examples": [
         {
@@ -57830,12 +54625,12 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Kāds vai kaut kas ir kaut kā iekšienē.",
-        "Izmanto drin / drinnen, kad konteksts atbilst šai nozīmei."
+        "Кто-то или что-то находится внутри чего-то.",
+        "Используйте drin/drinnen, когда контекст соответствует этому значению."
       ],
       "important": [
-        "Kāds vai kaut kas ir kaut kā iekšienē.",
-        "drin / drinnen: pirms lietošanas pārbaudi kontekstu un salīdzini ar citiem vārdiem kartītē."
+        "Кто-то или что-то находится внутри чего-то.",
+        "Drin/drinnen: перед употреблением проверьте контекст и сравните с другими словами на карточке."
       ],
       "sectionAccents": {
         "explanation": {},
@@ -57868,13 +54663,13 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Равно • Немедленно",
       "explanation": [
-        "Galvenā doma: Var nozīmēt vienāds vai tūlīt.",
-        "gleich galvenokārt nozīmē: tāds pats.",
-        "Bieži raksturo: salīdzinājumu.",
-        "gleich galvenokārt nozīmē: drīz / tūlīt.",
-        "Bieži raksturo: laiku.",
-        "gleich nozīmē vienāds, ja salīdzina lietas.",
-        "gleich var nozīmēt arī tūlīt vai drīz, īpaši sarunvalodā."
+        "Основная идея: Может означать «равно» или «немедленно».",
+        "Gleich главным образом означает: то же самое.",
+        "Часто характеризуется: сравнением.",
+        "Gleich главным образом означает: скоро/немедленно.",
+        "Часто характеризуется: временем.",
+        "Gleich означает то же самое при сравнении вещей.",
+        "Gleich также может означать немедленно или скоро, особенно в разговорной речи."
       ],
       "examples": [
         {
@@ -57903,25 +54698,18 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "gleich = vienāds / tūlīt",
-        "Izmanto gleich, kad konteksts atbilst šai nozīmei."
+        "Gleich = тот же / сразу",
+        "Используйте gleich, когда контекст соответствует этому значению."
       ],
       "important": [
-        "Das ist mir gleich nav pareizi, ja doma ir “man vienalga”.",
-        "gleich ir divas biežas nozīmes: vienāds un tūlīt.",
-        "gleich = vienāds / tūlīt."
+        "Das ist mir gleich неверен, когда мысль звучит так: «Мне все равно».",
+        "Gleich имеет два частых значения: равно и непосредственно.",
+        "Gleich = тот же/сразу."
       ],
       "sectionAccents": {
         "explanation": {
           "green": [
             "gleich"
-          ],
-          "red": [
-            "Tūlīt"
-          ],
-          "orange": [
-            "vienāds",
-            "tūlīt"
           ]
         },
         "examples": [
@@ -57981,16 +54769,8 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "vienāds"
-            ]
-          },
-          {
-            "purple": [
-              "tūlīt"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
           {
@@ -58011,10 +54791,10 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Также",
       "explanation": [
-        "Galvenā doma: Visbiežākais un neitrālākais “arī”.",
-        "auch galvenokārt nozīmē: vienkāršs “arī”.",
-        "Bieži raksturo: papildinājumu.",
-        "auch ir visparastākais vārds “arī”."
+        "Основная идея: Самое распространенное и нейтральное «тоже».",
+        "Auch в основном означает: простое «тоже».",
+        "Часто характеризуется: дополнением.",
+        "Auch — наиболее распространенное слово, означающее «также»."
       ],
       "examples": [
         {
@@ -58031,24 +54811,18 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "auch = arī",
-        "Izmanto auch, kad konteksts atbilst šai nozīmei."
+        "Ой = также",
+        "Использует auch, когда контекст соответствует этому значению."
       ],
       "important": [
-        "Ich auch wünsche Ihnen nav pareiza vārdu kārtība.",
-        "auch = arī."
+        "Ich auch wünsche Ihnen — неправильный порядок слов.",
+        "Ах = также."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "auch",
             "auch"
-          ],
-          "purple": [
-            "arī"
-          ],
-          "green": [
-            "Arī"
           ]
         },
         "examples": [
@@ -58081,11 +54855,7 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "arī"
-            ]
-          }
+          {}
         ],
         "important": [
           {

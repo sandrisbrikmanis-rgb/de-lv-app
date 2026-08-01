@@ -10628,11 +10628,11 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Благодарность",
       "explanation": [
-        "Galvenā doma: der Dank ir lietvārds un nozīmē pateicību kā jēdzienu. Galvenā nozīme ir pateicība — ne jaukt ar sarunvalodas atbildi danke.",
-        "Biežāk sastopamās frāzes ir Vielen Dank! un Herzlichen Dank! — tās nozīmē „liels paldies!” un „sirsnīgs paldies!”.",
-        "danke ir atbilde vai īss pateicības vārds sarunā: „paldies”.",
-        "danken ir darbības vārds: „pateikties”. ar kam? formu: Ich danke dir.",
-        "der Dank nav tas pats, kas danke: Dank ir lietvārds, danke ir sarunvalodas atbilde."
+        "Основная идея: der Dank — существительное и означает «спасибо» как понятие. Основное значение – благодарность – не путать с разговорным ответом данке.",
+        "Самые распространённые фразы – Vielen Dank! и Герцлихен Данк! — они означают «большое спасибо!» и «Большое спасибо!».",
+        "Danke – ответ или короткое слово благодарности в разговоре: «спасибо».",
+        "Danken — глагол: «благодарить». с кем? форма: Ich Danke реж.",
+        "Der Dank — это не то же самое, что danke: Dank — существительное, danke — разговорный ответ."
       ],
       "examples": [
         {
@@ -10711,20 +10711,11 @@ const B1_WORDS = [
             "blue": [
               "Dank",
               "Vielen Dank",
-              "Herzlichen Dank",
               "danke",
               "danken"
             ]
           },
-          "lv": {
-            "purple": [
-              "pateicība",
-              "paldies",
-              "pateikties",
-              "liels paldies",
-              "sirsnīgs paldies"
-            ]
-          }
+          "lv": {}
         },
         "examples": [
           {
@@ -19850,10 +19841,10 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Весь день • Весь день",
       "explanation": [
-        "Galvenā doma: ganztägig nozīmē kaut ko, kas notiek vai ilgst visu dienu.",
-        "ganztägig raksturo notikumu vai pasākumu ilgumu (ein ganztägiger Ausflug = ekskursija, kas ilgst visu dienu).",
-        "Nejauc ar 'diennakts/24 stundu' nozīmi — tas vācu valodā ir rund um die Uhr, ne ganztägig.",
-        "ganztägig ir īpašības vārds; apstākļa vārda forma ganztags nozīmē 'visu dienu' (bez īpašības vārda funkcijas)."
+        "Основная идея: ganztägig означает что-то, что происходит или длится целый день.",
+        "Ganztägig описывает продолжительность событий или мероприятий (ein ganztägiger Ausflug = экскурсия, которая длится весь день).",
+        "Не путать со значением «день/24 часа»: по-немецки это звучит как rund um die Uhr, а не ganztägig.",
+        "Ganztägig — прилагательное • Форма наречия ganztags означает «весь день» (без функции прилагательного)."
       ],
       "examples": [
         {
@@ -19882,12 +19873,12 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "ganztägig = visas dienas garumā/veselu dienu ilgs — ne 24 stundas.",
-        "24 stundu/diennakts nozīmei lieto rund um die Uhr, ne ganztägig."
+        "Ganztägig = весь день/весь день, а не 24 часа.",
+        "Круглосуточно используйте rund um die Uhr, а не ganztägig."
       ],
       "important": [
-        "ganztägig = visas dienas garumā (viena diena), ne 24 stundu darba grafiks.",
-        "Nepareizi: ganztägig = 24 stundas → Pareizi: rund um die Uhr = 24 stundas/diennakts."
+        "Ganztägig = целый день (один день), а не 24-часовой график работы.",
+        "Неправильно: ganztägig = 24 часа → Правильно: rund um die Uhr = 24 часа в сутки."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19949,11 +19940,7 @@ const B1_WORDS = [
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "visas dienas garumā"
-            ]
-          },
+          {},
           {
             "red": [
               "rund um die Uhr"
@@ -19961,11 +19948,7 @@ const B1_WORDS = [
           }
         ],
         "important": [
-          {
-            "purple": [
-              "visas dienas garumā"
-            ]
-          },
+          {},
           {
             "red": [
               "rund um die Uhr"
@@ -24930,10 +24913,10 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Группа продленного дня • Детский дневной центр",
       "explanation": [
-        "Galvenā doma: der Hort (arī Schulhort/Kinderhort) ir skolas vecuma bērnu pēcskolas pieskatīšanas iestāde.",
-        "Vācijā der Hort pieskata bērnus pēc skolas stundām, kamēr vecāki ir darbā.",
-        "Nejauc ar der Kindergarten — tas ir pirmsskolas vecuma bērnu (līdz 6 gadiem) iestāde.",
-        "Latviski tuvākais atbilstums ir pagarinātās dienas grupa vai bērnu dienas centrs."
+        "Основная идея: der Hort (также Schulhort/Kinderhort) — это учреждение продленного дня для детей школьного возраста.",
+        "В Германии дер Хорт присматривает за детьми после школы, пока родители на работе.",
+        "Не путать с der Kindergarten – это учреждение для детей дошкольного возраста (до 6 лет).",
+        "На латышском языке наиболее близким вариантом является группа продленного дня или детский дневной центр."
       ],
       "examples": [
         {
@@ -24958,21 +24941,17 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "der Hort = skolas vecuma bērniem (pēc skolas).",
-        "der Kindergarten = pirmsskolas vecuma bērniem (līdz skolai)."
+        "Der Hort = для детей школьного возраста (после школы).",
+        "Подходит для детского сада = детей дошкольного возраста (до школы)."
       ],
       "important": [
-        "der Hort ≠ bērnudārzs (Kindergarten) — atšķirīgas vecuma grupas.",
-        "der Hort = pagarinātās dienas grupa/bērnu dienas centrs (pēcskolas pieskatīšana)."
+        "Der Hort ≠ детский сад (Детский сад) – разные возрастные группы.",
+        "Der Hort = группа продленного дня/детский дневной центр (послешкольный уход)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "der Hort"
-          ],
-          "purple": [
-            "pagarinātās dienas grupa",
-            "bērnu dienas centrs"
           ],
           "red": [
             "der Kindergarten"
@@ -25026,27 +25005,15 @@ const B1_WORDS = [
               "der Hort"
             ]
           },
-          {
-            "red": [
-              "der Kindergarten"
-            ]
-          }
+          {}
         ],
         "important": [
           {
             "blue": [
               "der Hort"
-            ],
-            "red": [
-              "Kindergarten"
             ]
           },
-          {
-            "purple": [
-              "pagarinātās dienas grupa",
-              "bērnu dienas centrs"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -26455,11 +26422,11 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Ученик • Последователь",
       "explanation": [
-        "Galvenā doma: der Jünger nozīmē māceklis vai sekotājs — persona, kas seko skolotājam, idejai vai mācībai.",
-        "der Jünger var attiekties uz jebkura skolotāja vai domas virziena sekotāju, ne tikai reliģiskā kontekstā.",
-        "Bībeles/reliģiskā kontekstā die Jünger Jesu nozīmē Jēzus mācekļus — tā ir viena bieža, bet ne vienīgā lietojuma joma.",
-        "Pārnestā nozīmē der Jünger var nozīmēt arī kāda cilvēka vai idejas piekritēju (ein Jünger Nietzsches = Nīčes seku sekotājs).",
-        "Daudzskaitlī: die Jünger; sieviešu forma: die Jüngerin."
+        "Основная идея: дер Юнгер означает ученик или последователь — человек, который следует учителю, идее или учению.",
+        "Дер Юнгер может относиться к последователю любого учителя или школы мысли, не только в религиозном контексте.",
+        "В библейском/религиозном контексте die Jünger Jesu означает «ученики Иисуса», и это одна из частых, но не единственная сфера использования.",
+        "В переносном смысле der Junger может также означать последователь человека или идеи (ein Jünger Nietzsche = последователь следствий Ницше).",
+        "Множественное число: die Юнгер • Женская форма: die Jüngerin."
       ],
       "examples": [
         {
@@ -26484,21 +26451,17 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "der Jünger = māceklis/sekotājs — jebkura skolotāja vai idejas sekotājs.",
-        "die Jünger Jesu ir tikai VIENS bieži lietots piemērs, ne vienīgā nozīme."
+        "Der Junger = ученик/последователь – последователь какого-либо учителя или идеи.",
+        "Die Jünger Jesu — это всего лишь ОДИН распространенный пример, а не единственное значение."
       ],
       "important": [
-        "der Jünger ≠ tikai 'Jēzus māceklis' — tas ir vispārīgs vārds jebkuram māceklim/sekotājam.",
-        "Sieviešu forma: die Jüngerin."
+        "Дер Юнгер ≠ просто «ученик Иисуса» — это общее слово для любого ученика/последователя.",
+        "Женская форма: die Jüngerin."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "der Jünger"
-          ],
-          "purple": [
-            "māceklis",
-            "sekotājs"
           ],
           "green": [
             "die Jünger Jesu"
@@ -26547,12 +26510,7 @@ const B1_WORDS = [
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "māceklis",
-              "sekotājs"
-            ]
-          },
+          {},
           {
             "green": [
               "die Jünger Jesu"
@@ -26560,15 +26518,7 @@ const B1_WORDS = [
           }
         ],
         "important": [
-          {
-            "green": [
-              "Jēzus māceklis"
-            ],
-            "purple": [
-              "māceklim",
-              "sekotājam"
-            ]
-          },
+          {},
           {
             "blue": [
               "die Jüngerin"
@@ -26657,10 +26607,10 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Состав • Ядро",
       "explanation": [
-        "Galvenā doma: der Kader nozīmē (kvalificētu) sastāvu vai kodolu — cilvēku grupu ar noteiktu lomu vai kvalifikāciju.",
-        "Sportā der Kader nozīmē komandas sastāvu (der Kader der Nationalmannschaft = valstsvienības sastāvs).",
-        "Politikā vai organizācijās der Kader nozīmē vadošo/apmācīto personāla kodolu.",
-        "Nejauc ar latviešu 'kadrs' (filmas kadrs) — tas vācu valodā ir das Bild vai die Einstellung, ne der Kader."
+        "Основная идея: der Kader означает (квалифицированный) кадр или ядро ​​— группу людей с определенной ролью или квалификацией.",
+        "В спорте der Kader означает состав команды (der Kader der Nationalmannschaft = состав национальной сборной).",
+        "В политике или организациях дер Кадер означает ведущее/обученное ядро ​​персонала.",
+        "Не путать с латышским «kadr» (кинокадр) — по-немецки это das Bild или die Einstellung, ne der Kader."
       ],
       "examples": [
         {
@@ -26685,24 +26635,20 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "der Kader = sastāvs/kodols (cilvēku grupa) — sportā, politikā, organizācijās.",
-        "Latviešu 'kadrs' (filmas) ≠ der Kader — filmas kadrs vācu valodā ir das Bild/die Einstellung."
+        "Der Kader = отряд/ядро (группа людей) – в спорте, политике, организациях.",
+        "Латышский «кадр» (фильмы) ≠ der Kader — кадр фильма по-немецки das Bild/die Einstellung."
       ],
       "important": [
-        "der Kader = sastāvs/kodols, ne filmas kadrs.",
-        "Sportā bieži: der Kader der Nationalmannschaft = valstsvienības sastāvs."
+        "Der Kader = композиция/ядро, а не кадр фильма.",
+        "В спорте часто: der Kader der Nationalmannschaft = состав национальной сборной."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "der Kader"
           ],
-          "purple": [
-            "sastāvu",
-            "kodolu"
-          ],
           "red": [
-            "kadrs"
+            "Kader"
           ]
         },
         "examples": [
@@ -26748,26 +26694,17 @@ const B1_WORDS = [
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "sastāvs",
-              "kodols"
-            ]
-          },
+          {},
           {
             "red": [
-              "kadrs"
+              "Kader"
             ]
           }
         ],
         "important": [
           {
-            "purple": [
-              "sastāvs",
-              "kodols"
-            ],
             "red": [
-              "kadrs"
+              "Kader"
             ]
           },
           {
@@ -28468,10 +28405,10 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Навык",
       "explanation": [
-        "Galvenā doma: das Können ar lielo burtu un artikulu das ir lietvārds — prasme, spējas, meistarība.",
-        "können ar mazo burtu ir modālais darbības vārds — varēt/prast.",
-        "das Können bieži lieto, runājot par kāda cilvēka prasmēm kopumā (sein Können unter Beweis stellen = pierādīt savu meistarību).",
-        "Substantivizācija: darbības vārds + lielais burts = lietvārds (können → das Können)."
+        "Основная идея: das Können с большой буквы и артикль das — существительное — умение, умение, мастерство.",
+        "Können в нижнем регистре — модальный глагол — уметь/знать.",
+        "Das Können часто используется, когда речь идет о чьих-либо навыках в целом (sein Können unter Beweis stellen = доказать свои навыки).",
+        "Субстантивизация: глагол + заглавная буква = существительное (können → das Können)."
       ],
       "examples": [
         {
@@ -28492,22 +28429,18 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "das Können ar lielo burtu — lietvārds (prasme, meistarība).",
-        "können ar mazo burtu — darbības vārds (varēt/prast)."
+        "Das Können с большой буквы – существительное (навык, мастерство).",
+        "Строчная können - глагол (уметь/знать)."
       ],
       "important": [
-        "das Können = prasme/meistarība (lietvārds).",
-        "können = varēt/prast (modālais darbības vārds).",
-        "Daudzi vācu darbības vārdi var kļūt par lietvārdiem ar lielo burtu: können → das Können."
+        "Das Können = умение/мастерство (существительное).",
+        "Können = уметь/знать (модальный глагол).",
+        "Многие немецкие глаголы могут превращаться в существительные с заглавной буквы: können → das Können."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "das Können"
-          ],
-          "purple": [
-            "prasme",
-            "meistarība"
           ],
           "green": [
             "können"
@@ -30067,7 +30000,7 @@ const B1_WORDS = [
           "example": "Der Text ist kurz. = Текст короткий."
         }
       ],
-      "tip": "die Kürze = īsums; in Kürze = drīzumā.",
+      "tip": "Die Kürze = краткость • В Кюрзе = скоро.",
       "important": "Die Kürze не следует преподавать на фронте так «скоро» • Скоро эта фраза на языке Kürze.",
       "sectionAccents": {
         "explanation": {
@@ -30146,12 +30079,7 @@ const B1_WORDS = [
         ],
         "tip": {
           "blue": [
-            "die Kürze",
-            "in Kürze"
-          ],
-          "purple": [
-            "īsums",
-            "drīzumā"
+            "die Kürze"
           ]
         },
         "important": {
@@ -31091,10 +31019,10 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Затраты",
       "explanation": [
-        "Galvenā doma: die Kosten (tikai daudzskaitlī) ar artikulu die ir lietvārds — izmaksas, izdevumi.",
-        "kosten ar mazo burtu ir darbības vārds — maksāt (cik kaut kas maksā).",
-        "die Kosten lieto tikai daudzskaitlī — vienskaitļa formas nav (nevar sacīt 'eine Kosten').",
-        "Frāzē auf eigene Kosten nozīmē par saviem līdzekļiem/par savu naudu."
+        "Основная мысль: die Kosten (только множественное число) с артиклем die – существительное – затраты, расходы.",
+        "Kosten со строчной буквы - глагол - платить (сколько что-то стоит).",
+        "Die Kosten употребляется только во множественном числе, формы единственного числа нет (нельзя говорить «eine Kosten»).",
+        "Фраза auf eigene Kosten означает за свой счет/за свой счет."
       ],
       "examples": [
         {
@@ -31115,22 +31043,18 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "die Kosten ar lielo burtu un artikulu die — lietvārds, tikai daudzskaitlī.",
-        "kosten ar mazo burtu — darbības vārds (maksāt)."
+        "Die Kosten с большой буквы и артикля die — существительное, только во множественном числе.",
+        "Строчная kosten - глагол (платить)."
       ],
       "important": [
-        "die Kosten = izmaksas (lietvārds, tikai dsk.).",
-        "kosten = maksāt (darbības vārds).",
-        "Nepareizi: eine Kosten → Pareizi: die Kosten (vienmēr dsk.)."
+        "Die Kosten = стоимость (существительное, только дск.).",
+        "Костен = платить (глагол).",
+        "Неправильно: eine Kosten → Правильно: die Kosten (всегда dsk.)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "die Kosten"
-          ],
-          "purple": [
-            "izmaksas",
-            "izdevumi"
           ],
           "green": [
             "kosten"
@@ -31188,11 +31112,7 @@ const B1_WORDS = [
               "die Kosten"
             ]
           },
-          {
-            "green": [
-              "kosten"
-            ]
-          },
+          {},
           {
             "blue": [
               "die Kosten"
@@ -31468,14 +31388,14 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Звук",
       "explanation": [
-        "Galvenā doma: Lietvārds ar artikulu der un lielo burtu. Nozīmē skaņu kā lietu, signālu vai valodas skaņu.",
-        "der Laut galvenokārt nozīmē: skaļa skaņa.",
-        "Bieži raksturo: īpašības vārds.",
-        "der Laut galvenokārt nozīmē: skaņas signāls.",
-        "Bieži raksturo: lietvārds (der).",
-        "laut ar mazo sākumburtu ir īpašības vārds — tas apraksta, cik skaļa ir skaņa (Die Musik ist laut = mūzika ir skaļa).",
-        "der Laut ar lielo burtu un artikulu der ir lietvārds — tas nozīmē skaņu kā lietu vai signālu (Der Laut ist schön = skaņa ir skaista).",
-        "Daudzskaitlī: die Laute."
+        "Основная идея: Существительное с артиклем подходит и пишется с заглавной буквы. Означает звук как вещь, сигнал или звук языка.",
+        "Дер Лаут в первую очередь означает: громкий звук.",
+        "Часто описывает: прилагательное.",
+        "Дер Лаут в первую очередь означает: звуковой сигнал.",
+        "Часто описывает: существительное (der).",
+        "Строчная laut — прилагательное, описывающее громкость звука (Die Musik ist laut = музыка громкая).",
+        "Der Laut с большой буквы и артикль der — существительное — означает звук как вещь или сигнал (Der Laut ist schön = звук красивый).",
+        "Множественное число: die Laute."
       ],
       "examples": [
         {
@@ -31504,24 +31424,20 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Mazais laut = skaļš (īpašības vārds: ist laut). der Laut ar lielo burtu = skaņa (lietvārds: ein Laut, der Laut).",
-        "der Laut = skaņa"
+        "Малый лаут = громкий (прилагательное: первый лаут). der Laut с заглавной буквы = звук (существительные: ein Laut, der Laut).",
+        "Дер Лаут = звук"
       ],
       "important": [
-        "laut stāv ar mazo burtu un bez artikula — tas ir īpašības vārds.",
-        "der Laut ar lielo burtu un artikulu der ir lietvārds.",
-        "Daudzskaitlis: die Laute (valodas skaņas, skaņas signāli).",
-        "Nepareizi: Der Laut ist sehr. → Pareizi: Das ist sehr laut."
+        "Laut пишется строчными буквами и не имеет артикля — это прилагательное.",
+        "Der Laut с большой буквы и артикль der — существительное.",
+        "Множественное число: die Laute (звуки языка, гудки).",
+        "Неверно: Der Laut ist sehr. → Правильно: Das ist sehr laut."
       ],
       "sectionAccents": {
         "explanation": {
           "green": [
             "der Laut",
             "laut"
-          ],
-          "purple": [
-            "skaņa",
-            "skaņas"
           ],
           "yellow": [
             "Laut",
@@ -31581,11 +31497,7 @@ const B1_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "skaņa"
-            ]
-          }
+          {}
         ],
         "important": [
           {}
@@ -32797,7 +32709,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "Проблема нуждается в Lösung, вопрос нуждается в Ответе.",
-      "important": "die Lösung nav vienmēr atbilde; bieži tas ir veids, kā problēmu atrisināt.",
+      "important": "Die Lösung — не всегда ответ • Часто это способ решить проблему.",
       "sectionAccents": {
         "explanation": {
           "blue": "die Lösung",
@@ -32992,7 +32904,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "Die Macht, а не Die Kraft мыслит политикой и влиянием.",
-      "important": "die Macht var būt vara pār citiem; die Kraft ir ķermeņa vai enerģijas spēks.",
+      "important": "Die Macht может быть властью над другими • Die Kraft — это сила тела или энергии.",
       "sectionAccents": {
         "explanation": {
           "blue": "die Macht",
@@ -34284,7 +34196,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "На рынке Nachfacht является противоположностью Angebot.",
-      "important": "die Nachfrage nav parasts jautājums. Par vienkāršu jautājumu lieto die Frage.",
+      "important": "Die Nachfacht — не обычный вопрос. Die Frage используется для ответа на простой вопрос.",
       "sectionAccents": {
         "explanation": {
           "blue": "die Nachfrage",
@@ -34824,7 +34736,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "Внутреннее направление или тенденция: die Neigung.",
-      "important": "die Neigung nav vienkārši Interesse. Neigung biežāk rāda pastāvīgu noslieci vai slīpumu.",
+      "important": "Die Neigung — это не просто Interesse. Нэйгунг чаще показывает постоянный наклон или склонность.",
       "sectionAccents": {
         "explanation": {
           "blue": "die Neigung",
@@ -35308,7 +35220,7 @@ const B1_WORDS = [
           "example": "Das ist ein Notfall. = Это чрезвычайная ситуация."
         }
       ],
-      "tip": "die Not ir grūta situācija, nevis parasta vajadzība.",
+      "tip": "«Не умереть» — это затруднительное положение, а не обычная необходимость.",
       "important": "Не путайте die Not с die Notwendigkeit. Not — это страдание или нужда, Notwendigkeit — это необходимость.",
       "sectionAccents": {
         "explanation": {
@@ -35561,10 +35473,10 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Выгода",
       "explanation": [
-        "Galvenā doma: der Nutzen ar lielo burtu un artikulu der ir lietvārds — labums, ieguvums.",
-        "nutzen ar mazo burtu ir darbības vārds — izmantot.",
-        "Frāzē von Nutzen sein nozīmē būt noderīgam/dot labumu.",
-        "zu jemandes Nutzen nozīmē kāda labā/labumam."
+        "Основная мысль: der Nutzen с большой буквы и артикль der – существительное – польза, польза.",
+        "Nutzen в нижнем регистре — это глагол, который следует использовать.",
+        "Во фразе фон Нуцен sein означает быть полезным/приносить пользу.",
+        "Zu jemandes Nutzen означает «для чьей-то выгоды»."
       ],
       "examples": [
         {
@@ -35585,22 +35497,18 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "der Nutzen ar lielo burtu — lietvārds (labums, ieguvums).",
-        "nutzen ar mazo burtu — darbības vārds (izmantot)."
+        "Der Nutzen с большой буквы – существительное (польза, польза).",
+        "Строчная nutzen – глагол (употреблять)."
       ],
       "important": [
-        "der Nutzen = labums/ieguvums (lietvārds).",
-        "nutzen = izmantot (darbības vārds).",
-        "von Nutzen sein = būt noderīgam."
+        "Der Nutzen = польза/выгода (существительное).",
+        "Nutzen = использовать (глагол).",
+        "Von Nutzen sein = быть полезным."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "der Nutzen"
-          ],
-          "purple": [
-            "labums",
-            "ieguvums"
           ],
           "green": [
             "nutzen"
@@ -37509,7 +37417,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "Позиция или статья бюджета: der Posten • Почта: die Post.",
-      "important": "der Posten nav die Post. Artikelis maina arī nozīmi.",
+      "important": "Der Posten — это не Почта. Статья также меняет смысл.",
       "sectionAccents": {
         "explanation": {
           "blue": "der Posten",
@@ -49423,10 +49331,10 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Встреча",
       "explanation": [
-        "Galvenā doma: das Treffen ar lielo burtu un artikulu das ir lietvārds — tikšanās, sanākšana.",
-        "treffen ar mazo burtu ir darbības vārds — satikt/trāpīt/pieņemt (lēmumu).",
-        "das Treffen bieži lieto par plānotu sanākšanu (ein Treffen organisieren = organizēt tikšanos).",
-        "Daudzskaitlī: die Treffen."
+        "Основная мысль: das Treffen с большой буквы и артиклем das — существительное — встреча, встреча.",
+        "С маленькой буквы treffen - глагол - встретиться/ударить/принять (решение).",
+        "Das Treffen часто используется для обозначения запланированного собрания (ein Treffenorganisieren = организовать собрание).",
+        "Множественное число: die Treffen."
       ],
       "examples": [
         {
@@ -49447,22 +49355,18 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "das Treffen ar lielo burtu — lietvārds (tikšanās).",
-        "treffen ar mazo burtu — darbības vārds (satikt)."
+        "Das Treffen с большой буквы – существительное (встреча).",
+        "Treffen строчная буква - глагол (встретиться)."
       ],
       "important": [
-        "das Treffen = tikšanās (lietvārds).",
-        "treffen = satikt/trāpīt/pieņemt (darbības vārds, sk. arī 'eine Entscheidung treffen').",
-        "Daudzskaitlī: die Treffen."
+        "Das Treffen = встреча (существительное).",
+        "Treffen = встретиться/ударить/принять (глагол, см. также «eine Entscheidung treffen»).",
+        "Множественное число: die Treffen."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "das Treffen"
-          ],
-          "purple": [
-            "tikšanās",
-            "sanākšana"
           ],
           "green": [
             "treffen"
@@ -49672,11 +49576,11 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Отделить",
       "explanation": [
-        "Galvenā doma: trennen nozīmē atdalīt — fiziski vai simboliski atšķirt vienu lietu no otras.",
-        "Lietas šķirošanai un sadalīšanai bieži lieto trennen: atdalīt papīru no plastmasas.",
-        "Ar sienu, barjeru vai robežu trennen nozīmē sadalīt telpu vai teritoriju.",
-        "Refleksīvā forma sich trennen nozīmē šķirties — pārtraukt attiecības vai iet atsevišķi.",
-        "Atšķirt pēc pazīmēm parasti ir unterscheiden, nevis trennen."
+        "Основная идея: Отделить означает отделить — физически или символически отделить одну вещь от другой.",
+        "Треннен часто используется для сортировки и разделения вещей: для отделения бумаги от пластика.",
+        "Стеной, барьером или границей тренн означает разделение пространства или территории.",
+        "Возвратная форма sich trennen означает расстаться — порваться или разойтись.",
+        "Различать по признакам обычно verskeiden, а не trennen."
       ],
       "examples": [
         {
@@ -56983,7 +56887,7 @@ const B1_WORDS = [
       },
       "important": {
         "text": "Дер Беруф – это не просто какое-то занятие. Обычно это профессия или сфера деятельности человека.",
-        "example": "von Beruf Lehrer = pēc profesijas skolotājs. viel Arbeit = daudz darba."
+        "example": "Фон Беруф Лерер = учитель по профессии. viel Arbeit = много работы."
       },
       "sectionAccents": {
         "examples": [
@@ -57117,24 +57021,10 @@ const B1_WORDS = [
         },
         "important": [
           {
-            "text": {
-              "blue": [
-                "Beruf"
-              ],
-              "purple": [
-                "profesija"
-              ]
-            },
+            "text": {},
             "example": {
-              "blue": [
-                "Beruf"
-              ],
               "green": [
                 "Arbeit"
-              ],
-              "purple": [
-                "profesijas",
-                "darba"
               ]
             }
           }
@@ -57142,7 +57032,7 @@ const B1_WORDS = [
       },
       "accents": {
         "blue": [
-          "der Beruf",
+          "Дер Беруф",
           "Beruf"
         ],
         "green": [
@@ -57158,13 +57048,13 @@ const B1_WORDS = [
           "Beschäftigung"
         ],
         "purple": [
-          "profesija",
+          "Профессия",
           "profesiju",
-          "amats",
+          "Позиция",
           "arods",
-          "darbs",
+          "Работа",
           "darba",
-          "nodarbošanās",
+          "Занятие",
           "darba joma"
         ]
       }
@@ -57444,10 +57334,10 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Потому что • Потому что",
       "explanation": [
-        "Galvenā doma: Visbiežāk lietotais iemesla saiklis. Pēc weil darbības vārds ir teikuma beigās.",
-        "weil galvenokārt nozīmē: paskaidro iemeslu.",
-        "Bieži raksturo: visbiežākais variants.",
-        "weil paskaidro iemeslu un ir visbiežākais variants."
+        "Основная идея: Самая распространенная причина соединения. После weil глагол стоит в конце предложения.",
+        "Weil в основном означает: объясните причину.",
+        "Часто характеризуется: Самый распространенный вариант.",
+        "Weil объясняет причину и является наиболее распространенным вариантом."
       ],
       "examples": [
         {
@@ -57472,13 +57362,13 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Visbiežāk lietotais iemesla saiklis. Pēc weil darbības vārds ir teikuma beigās.",
-        "Izmanto weil, kad konteksts atbilst šai nozīmei."
+        "Самое распространенное соединение разума. После weil глагол стоит в конце предложения.",
+        "Употребляет weil, когда контекст соответствует этому значению."
       ],
       "important": [
-        "weil ich bin krank — nepareizi; pareizi: weil ich krank bin.",
-        "Nepareizi: weil ich bin krank → Pareizi: weil ich krank bin",
-        "weil = visbiežākais iemesla saiklis."
+        "Weil ich bin krank – неправильно • Правильно: weil ich krank bin.",
+        "Неправильно: weil ich bin krank → Правильно: weil ich krank bin",
+        "Weil = наиболее частое соединение причины."
       ],
       "sectionAccents": {
         "explanation": {
@@ -57556,11 +57446,11 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Потому что • За сколько",
       "explanation": [
-        "Galvenā doma: Iemesla saiklis, kad iemesls jau ir zināms vai minēts. Pēc da darbības vārds ir teikuma beigās.",
-        "da galvenokārt nozīmē: paskaidro zināmu iemeslu.",
-        "Bieži raksturo: iemesls jau minēts.",
-        "da kā saikne nozīmē jo/par cik, kad iemesls jau ir zināms vai minēts iepriekš.",
-        "Abi prasa darbības vārdu teikuma beigās."
+        "Основная идея: Соединение причины, когда причина уже известна или упомянута. После da глагол стоит в конце предложения.",
+        "Da в основном означает: объясните какую-то причину.",
+        "Часто характеризуется: уже упомянутой причиной.",
+        "Союз da означает «потому что/из-за того, что причина уже известна или упоминалась ранее».",
+        "Оба требуют глагола в конце предложения."
       ],
       "examples": [
         {
@@ -57585,23 +57475,19 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Iemesla saiklis, kad iemesls jau ir zināms vai minēts. Pēc da darbības vārds ir teikuma beigās.",
-        "Izmanto da, kad konteksts atbilst šai nozīmei."
+        "Соединение причины, когда причина уже известна или упомянута. После da глагол стоит в конце предложения.",
+        "Используйте da, когда контекст соответствует этому значению."
       ],
       "important": [
-        "da kā saikne ≠ da kā tur (vietas vārds).",
-        "Nepareizi: Da ich bin krank, ... → Pareizi: Da ich krank bin, ...",
-        "da (saikne) = iemesls jau zināms."
+        "Да как связь ≠ да как там (название места).",
+        "Неправильно: Da ich bin krank, ... → Правильно: Da ich krank bin, ...",
+        "Да (соединение) = причина уже известна."
       ],
       "sectionAccents": {
         "explanation": {
           "green": [
             "da",
             "da"
-          ],
-          "purple": [
-            "jo",
-            "par cik"
           ],
           "blue": [
             "da"
@@ -57659,11 +57545,7 @@ const B1_WORDS = [
           {}
         ],
         "important": [
-          {
-            "green": [
-              "da"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -57677,10 +57559,10 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Хотя • Хотя",
       "explanation": [
-        "Galvenā doma: Ievada pretēju iemeslu palīgteikumā. Darbības vārds ir teikuma beigās.",
-        "obwohl galvenokārt nozīmē: pretējs iemesls.",
-        "Bieži raksturo: palīgteikums.",
-        "obwohl nozīmē kaut gan un ievada palīgteikumu ar darbības vārdu beigās."
+        "Основная идея: Вводит противоположную причину во вспомогательном предложении. Глагол стоит в конце предложения.",
+        "Obwohl в основном означает: противоположная причина.",
+        "Часто характеризуется: вспомогательным предложением.",
+        "Obwohl означает «хотя» и вводит вспомогательное предложение с глаголом в конце."
       ],
       "examples": [
         {
@@ -57709,22 +57591,19 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Ievada pretēju iemeslu palīgteikumā. Darbības vārds ir teikuma beigās.",
-        "Izmanto obwohl, kad konteksts atbilst šai nozīmei."
+        "Вводит противоположную причину во вспомогательном предложении. Глагол стоит в конце предложения.",
+        "Используйте obwohl, когда контекст соответствует этому значению."
       ],
       "important": [
-        "obwohl ievada palīgteikumu — darbības vārds beigās.",
-        "Nepareizi: Obwohl ich bin müde, ... → Pareizi: Obwohl ich müde bin, ...",
-        "obwohl = kaut gan (palīgteikums).",
-        "Ievada pretēju iemeslu palīgteikumā. Darbības vārds ir teikuma beigās."
+        "Obwohl вводит вспомогательное предложение — глагол в конце.",
+        "Неправильно: Howell ich bin müde, ... → Правильно: Howell ich müde bin, ...",
+        "Obwohl = хотя (вспомогательное предложение).",
+        "Вводит противоположную причину во вспомогательном предложении. Глагол стоит в конце предложения."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "obwohl"
-          ],
-          "purple": [
-            "kaut gan"
           ]
         },
         "examples": [
@@ -57806,10 +57685,10 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Однако • В любом случае",
       "explanation": [
-        "Galvenā doma: Norāda uz rezultātu, neskatoties uz iemeslu. Darbības vārds ir 2. vietā.",
-        "trotzdem galvenokārt nozīmē: rezultāts neskatoties uz to.",
-        "Bieži raksturo: galvenais teikums.",
-        "trotzdem nozīmē tomēr un stāv galvenajā teikumā — pēc tā darbības vārds ir 2."
+        "Основная идея: Указывает на результат независимо от причины. Глагол стоит на 2-м месте.",
+        "Trotzdem главным образом означает: результат вопреки.",
+        "Часто характеризуется: главным предложением.",
+        "Trotzdem означает все же и стоит в главном предложении – после него глагол стоит 2."
       ],
       "examples": [
         {
@@ -57838,22 +57717,19 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Norāda uz rezultātu, neskatoties uz iemeslu. Darbības vārds ir 2. vietā.",
-        "Izmanto trotzdem, kad konteksts atbilst šai nozīmei."
+        "Указывает результат независимо от причины. Глагол стоит на 2-м месте.",
+        "Используйте trotzdem, когда контекст соответствует этому значению."
       ],
       "important": [
-        "trotzdem stāv galvenajā teikumā — darbības vārds 2. vietā.",
-        "trotz (prievārds) ≠ trotzdem (apstākļa vārds).",
-        "Nepareizi: Trotzdem ich gehe. → Pareizi: Trotzdem gehe ich.",
-        "trotzdem = tomēr (galvenais teikums)."
+        "Trotzdem стоит в главном предложении, глагол на 2-й позиции.",
+        "Троц (предлог) ≠ троцдем (наречие).",
+        "Неправильно: Trotzdem ich gehe. → Правильно: Trotzdem gehe ich.",
+        "Trotzdem = тем не менее (главное предложение)."
       ],
       "sectionAccents": {
         "explanation": {
           "green": [
             "trotzdem"
-          ],
-          "purple": [
-            "tomēr"
           ]
         },
         "examples": [
@@ -57935,10 +57811,10 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Вместо",
       "explanation": [
-        "Galvenā doma: Viena darbība notiek tā vietā, lai notiktu cita. anstatt + zu + nenoteiksme.",
-        "anstatt ... zu galvenokārt nozīmē: viena darbība aizstāj otru.",
-        "Bieži raksturo: alternatīva darbība.",
-        "Piemēros meklē tipisku ikdienas lietojumu."
+        "Основная идея: происходит одно действие вместо другого. а не +зу+неравномерность.",
+        "А не... зу главным образом означает: одно действие сменяет другое.",
+        "Часто характеризуется: альтернативным действием.",
+        "Примеры относятся к типичному повседневному использованию."
       ],
       "examples": [
         {
@@ -57947,20 +57823,15 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "anstatt ... zu = tā vietā lai",
-        "Izmanto anstatt ... zu, kad konteksts atbilst šai nozīmei."
+        "Затанс ... зу = вместо",
+        "Используется вместо ... зу, когда контекст соответствует этому значению."
       ],
       "important": [
-        "anstatt ... zu = tā vietā lai.",
-        "Viena darbība notiek tā vietā, lai notiktu cita. anstatt + zu + nenoteiksme."
+        "Затанс... зу = вместо.",
+        "Одно действие происходит вместо другого. а не +зу+неравномерность."
       ],
       "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "anstatt",
-            "zu"
-          ]
-        },
+        "explanation": {},
         "examples": [
           {
             "de": {},
@@ -57968,18 +57839,10 @@ const B1_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "tā vietā lai"
-            ]
-          }
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "anstatt ... zu"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -57993,10 +57856,10 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Без (делая чего-либо)",
       "explanation": [
-        "Galvenā doma: Darbība nenotiek. ohne + zu + nenoteiksme.",
-        "ohne ... zu galvenokārt nozīmē: darbība nenotiek.",
-        "Bieži raksturo: izlaista darbība.",
-        "Piemēros meklē tipisku ikdienas lietojumu."
+        "Основная идея: Никакого действия. охне + зу + неровность.",
+        "Охне...зу главным образом означает: действие не происходит.",
+        "Часто характеризуется: опущенным действием.",
+        "Примеры относятся к типичному повседневному использованию."
       ],
       "examples": [
         {
@@ -58005,25 +57868,16 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "ohne ... zu = bez",
-        "Izmanto ohne ... zu, kad konteksts atbilst šai nozīmei."
+        "Охне ... цу = без",
+        "Употребляет ohne...zu, когда контекст соответствует этому значению."
       ],
       "important": [
-        "ohne + ko? (bez siera) ≠ ohne ... zu (neko nedara).",
-        "ohne ... zu = bez (darbība nenotiek).",
-        "Darbība nenotiek. ohne + zu + nenoteiksme."
+        "Ох + что? (без сыра) ≠ ohne ... zu (ничего не делает).",
+        "Охне... цу = без (без действия).",
+        "Нет никаких действий. охне + зу + неровность."
       ],
       "sectionAccents": {
-        "explanation": {
-          "green": [
-            "ohne ... zu",
-            "ohne ... zu"
-          ],
-          "red": [
-            "ohne",
-            "zu"
-          ]
-        },
+        "explanation": {},
         "examples": [
           {
             "de": {},
@@ -58127,7 +57981,7 @@ const B1_WORDS = [
       },
       "important": {
         "text": "Sich befinden не о человеческих чувствах на уровне А2. Местоположение является ключевым моментом.",
-        "example": "Das Hotel befindet sich hier = viesnīca atrodas šeit. Ich fühle mich gut = es jūtos labi."
+        "example": "Das Hotel befindet sich hier = отель здесь. Ich fühle mich Gut = Я чувствую себя хорошо."
       },
       "sectionAccents": {
         "examples": [
@@ -58268,10 +58122,6 @@ const B1_WORDS = [
               ],
               "red": [
                 "fühle mich"
-              ],
-              "purple": [
-                "atrodas",
-                "jūtos"
               ]
             }
           }
@@ -58279,31 +58129,31 @@ const B1_WORDS = [
       },
       "accents": {
         "blue": [
-          "sich befinden",
+          "Что еще впереди",
           "befindet sich"
         ],
         "green": [
-          "sein",
+          "Сейн",
           "ist",
           "liegt"
         ],
         "yellow": [
-          "liegen"
+          "Ложь"
         ],
         "orange": [
-          "stehen",
+          "Стоять",
           "steht"
         ],
         "red": [
-          "sich fühlen",
+          "Sich fühlen",
           "fühle mich"
         ],
         "purple": [
-          "atrasties",
+          "Быть расположенным",
           "atrodas",
-          "justies",
-          "jūtos",
-          "atrašanās vieta"
+          "Чувствовать",
+          "Я чувствую",
+          "Расположение"
         ]
       }
     }
@@ -58389,13 +58239,13 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Наследник",
       "explanation": [
-        "Galvenā doma: Cilvēks, kas mantojumā saņem īpašumu vai naudu.",
-        "der Erbe galvenokārt nozīmē: cilvēks.",
-        "Bieži raksturo: vīriešu dzimte.",
-        "das Erbe galvenokārt nozīmē: lieta / vērtība.",
-        "Bieži raksturo: neitrālā dzimte.",
-        "der Erbe nozīmē mantinieku — personu, kas saņem mantojumu.",
-        "das Erbe nozīmē pašu mantojumu kā lietu vai vērtību."
+        "Основная идея: Человек, который наследует имущество или деньги.",
+        "Der Erbe в основном означает: человек.",
+        "Часто характеризуется: мужской пол.",
+        "Das Erbe в основном означает: вещь/ценность.",
+        "Часто характеризуется: среднего рода.",
+        "Дер Эрбе означает наследник – человек, получающий наследство.",
+        "Das Erbe означает само наследие как вещь или ценность."
       ],
       "examples": [
         {
@@ -58424,23 +58274,20 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Ja runa ir par cilvēku, lieto der Erbe vai die Erbin. Ja par mantojumu kā lietu, lieto das Erbe.",
-        "der Erbe = mantinieks"
+        "Для человека используйте der Erbe или die Erbin. Если для наследования как вещи, используйте das Erbe.",
+        "Дер Эрбе = наследник"
       ],
       "important": [
-        "der Erbe = cilvēks (mantinieks).",
-        "das Erbe = lieta (mantojums).",
-        "Nejauc: der Erbe ist groß (cilvēks) vs das Erbe ist groß (mantojums).",
-        "Nepareizi: das Erbe wohnt in Berlin → Pareizi: der Erbe wohnt in Berlin"
+        "Der Erbe = мужчина (наследник).",
+        "Das Erbe = вещь (наследство).",
+        "Не путайте: der Erbe ist groß (человек) и das Erbe ist groß (наследие).",
+        "Неправильно: das Erbe wohnt в Берлине → Правильно: der Erbe wohnt в Берлине."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "der Erbe",
             "Erbe"
-          ],
-          "purple": [
-            "mantinieku"
           ]
         },
         "examples": [
@@ -58496,11 +58343,7 @@ const B1_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "mantinieks"
-            ]
-          }
+          {}
         ],
         "important": [
           {
@@ -58522,13 +58365,13 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Наследование",
       "explanation": [
-        "Galvenā doma: Mantojums kā lieta, īpašums vai vērtība, ko atstāj.",
-        "der Erbe galvenokārt nozīmē: cilvēks.",
-        "Bieži raksturo: vīriešu dzimte.",
-        "das Erbe galvenokārt nozīmē: lieta / vērtība.",
-        "Bieži raksturo: neitrālā dzimte.",
-        "der Erbe nozīmē mantinieku — personu, kas saņem mantojumu.",
-        "das Erbe nozīmē pašu mantojumu kā lietu vai vērtību."
+        "Основная идея: Наследие как вещь, собственность или ценность, оставленная после себя.",
+        "Der Erbe в основном означает: человек.",
+        "Часто характеризуется: мужской пол.",
+        "Das Erbe в основном означает: вещь/ценность.",
+        "Часто характеризуется: среднего рода.",
+        "Дер Эрбе означает наследник – человек, получающий наследство.",
+        "Das Erbe означает само наследие как вещь или ценность."
       ],
       "examples": [
         {
@@ -58557,23 +58400,20 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Ja runa ir par cilvēku, lieto der Erbe vai die Erbin. Ja par mantojumu kā lietu, lieto das Erbe.",
-        "das Erbe = mantojums"
+        "Для человека используйте der Erbe или die Erbin. Если для наследования как вещи, используйте das Erbe.",
+        "Das Erbe = наследование"
       ],
       "important": [
-        "der Erbe = cilvēks (mantinieks).",
-        "das Erbe = lieta (mantojums).",
-        "Nejauc: der Erbe ist groß (cilvēks) vs das Erbe ist groß (mantojums).",
-        "Nepareizi: das Erbe wohnt in Berlin → Pareizi: der Erbe wohnt in Berlin"
+        "Der Erbe = мужчина (наследник).",
+        "Das Erbe = вещь (наследство).",
+        "Не путайте: der Erbe ist groß (человек) и das Erbe ist groß (наследие).",
+        "Неправильно: das Erbe wohnt в Берлине → Правильно: der Erbe wohnt в Берлине."
       ],
       "sectionAccents": {
         "explanation": {
           "green": [
             "das Erbe",
             "Erbe"
-          ],
-          "purple": [
-            "mantojums"
           ]
         },
         "examples": [
@@ -58629,11 +58469,7 @@ const B1_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "mantojums"
-            ]
-          }
+          {}
         ],
         "important": [
           {}
@@ -58651,14 +58487,14 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Потеря • Ущерб",
       "explanation": [
-        "Galvenā doma: Lietvārds — materiāls, veselības vai citāds kaitējums.",
-        "der Schaden galvenokārt nozīmē: kaitējums kā lieta.",
-        "Bieži raksturo: lietvārds (der).",
-        "schaden galvenokārt nozīmē: nodarīt kaitējumu.",
-        "Bieži raksturo: darbības vārds.",
-        "der Schaden nozīmē zaudējumu, bojājumu vai kaitējumu.",
-        "schaden nozīmē kaitēt, nodarīt kaitējumu.",
-        "Darbības vārdam schaden obligāti jālieto ar kam?"
+        "Основная мысль: Существительное – материальный, здоровью или иной вред.",
+        "Der Schaden прежде всего означает: ущерб как вещь.",
+        "Часто описывает: существительное (der).",
+        "Schaden прежде всего означает: причинить вред.",
+        "Часто описывает: глагол.",
+        "Der Schaden означает потерю, ущерб или вред.",
+        "Schaden означает вред, вред.",
+        "С чем следует употреблять глагол schaden?"
       ],
       "examples": [
         {
@@ -58687,23 +58523,20 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Ja runa par bojājumu vai zaudējumu kā lietu, lieto der Schaden. Ja par kaitēšanu, lieto schaden + kam?.",
-        "Lietvārds — materiāls, veselības vai citāds kaitējums."
+        "Когда речь идет о повреждении или потере как вещи, используется der Schaden. Если во вред, используйте шаден+кам?.",
+        "Существительное – материальный ущерб, вред здоровью или иной ущерб."
       ],
       "important": [
-        "der Schaden = lietvārds (zaudējums).",
-        "schaden = darbības vārds (kaitēt) + kam?.",
-        "Nepareizi: Der Schaden schadet → Pareizi: Etwas schadet der Gesundheit.",
-        "der Schaden = zaudējums."
+        "Der Schaden = существительное (потеря).",
+        "Schaden = глагол (вред) + что?.",
+        "Неправильно: Der Schaden scadet → Правильно: Etwas schadet der Gesundheit.",
+        "Дер Шаден = потеря."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "der Schaden",
             "Schaden"
-          ],
-          "purple": [
-            "zaudējumu"
           ]
         },
         "examples": [
@@ -58758,16 +58591,8 @@ const B1_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "zaudējumu"
-            ]
-          },
-          {
-            "purple": [
-              "bojājumu"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
           {
@@ -58788,14 +58613,14 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Причинить вред",
       "explanation": [
-        "Galvenā doma: Darbības vārds — nodarīt kaitējumu. prasa kam? formu: jemandem schaden.",
-        "schaden galvenokārt nozīmē: kaitējums kā lieta.",
-        "Bieži raksturo: lietvārds (der).",
-        "schaden galvenokārt nozīmē: nodarīt kaitējumu.",
-        "Bieži raksturo: darbības vārds.",
-        "der Schaden nozīmē zaudējumu, bojājumu vai kaitējumu.",
-        "schaden nozīmē kaitēt, nodarīt kaitējumu.",
-        "Darbības vārdam schaden obligāti jālieto ar kam?"
+        "Основная мысль: Глагол – вредить. спросить кого? форма: джемандем шаден.",
+        "Schaden прежде всего означает: вред как вещь.",
+        "Часто описывает: существительное (der).",
+        "Schaden прежде всего означает: причинить вред.",
+        "Часто описывает: глагол.",
+        "Der Schaden означает потерю, ущерб или вред.",
+        "Schaden означает вред, вред.",
+        "С чем следует употреблять глагол schaden?"
       ],
       "examples": [
         {
@@ -58824,23 +58649,20 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Ja runa par bojājumu vai zaudējumu kā lietu, lieto der Schaden. Ja par kaitēšanu, lieto schaden + kam?.",
-        "Darbības vārds — nodarīt kaitējumu. prasa kam? formu: jemandem schaden."
+        "Когда речь идет о повреждении или потере как вещи, используется der Schaden. Если во вред, используйте шаден+кам?.",
+        "Глагол – вредить. спросить кого? форма: джемандем шаден."
       ],
       "important": [
-        "der Schaden = lietvārds (zaudējums).",
-        "schaden = darbības vārds (kaitēt) + kam?.",
-        "Nepareizi: Der Schaden schadet → Pareizi: Etwas schadet der Gesundheit.",
-        "der Schaden = zaudējums."
+        "Der Schaden = существительное (потеря).",
+        "Schaden = глагол (вред) + что?.",
+        "Неправильно: Der Schaden scadet → Правильно: Etwas schadet der Gesundheit.",
+        "Дер Шаден = потеря."
       ],
       "sectionAccents": {
         "explanation": {
           "green": [
             "schaden",
             "schaden"
-          ],
-          "purple": [
-            "kaitēt"
           ],
           "red": [
             "schaden"
@@ -58923,14 +58745,14 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Доверять",
       "explanation": [
-        "Galvenā doma: Lietvārds — uzticība, ticība kā jūta.",
-        "das Vertrauen galvenokārt nozīmē: jūta / attiecība.",
-        "Bieži raksturo: lietvārds (das).",
-        "vertrauen galvenokārt nozīmē: ticēt kādam.",
-        "Bieži raksturo: darbības vārds.",
-        "das Vertrauen nozīmē uzticību kā jūtu vai attiecību stāvokli.",
-        "vertrauen nozīmē uzticēties kādam.",
-        "Darbības vārdam vertrauen obligāti jālieto ar kam?"
+        "Основная мысль: Существительное – доверие, вера как чувство.",
+        "Das Vertrauen в основном означает: чувство/отношения.",
+        "Часто характеризуется: существительным (das).",
+        "Vertrauen в основном означает: верить в кого-то.",
+        "Часто описывает: глагол.",
+        "Das Vertrauen означает доверие как состояние чувства или отношения.",
+        "Vertrauen означает доверять кому-то.",
+        "С чем следует употреблять глагол vertrauen?"
       ],
       "examples": [
         {
@@ -58959,23 +58781,20 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Ja runa par uzticību kā jūtu, lieto das Vertrauen. Ja par darbību — uzticēties, lieto vertrauen + kam?.",
-        "Lietvārds — uzticība, ticība kā jūta."
+        "Когда дело доходит до доверия как чувства, используйте das Vertrauen. Если действие — доверять, используйте vertrauen + kam?.",
+        "Существительное – доверие, вера как чувство."
       ],
       "important": [
-        "das Vertrauen = lietvārds (uzticība).",
-        "vertrauen = darbības vārds (uzticēties) + kam?.",
-        "Nepareizi: Ich habe Vertrauen in dich. → Pareizi: Ich habe Vertrauen zu dir.",
-        "das Vertrauen = uzticība."
+        "Das Vertrauen = существительное (доверие).",
+        "Vertrauen = глагол (доверять) + что?.",
+        "Неправильно: Ich habe Vertrauen in dich. → Правильно: Ich habe Vertrauen zu dir.",
+        "Das Vertrauen = доверие."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "das Vertrauen",
             "vertrauen"
-          ],
-          "purple": [
-            "uzticība"
           ],
           "green": [
             "das Vertrauen",
@@ -59039,11 +58858,7 @@ const B1_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "uzticība"
-            ]
-          }
+          {}
         ],
         "important": [
           {
@@ -59064,14 +58879,14 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Доверять",
       "explanation": [
-        "Galvenā doma: Darbības vārds — uzticēties kādam. prasa kam? formu: jemandem vertrauen.",
-        "vertrauen galvenokārt nozīmē: jūta / attiecība.",
-        "Bieži raksturo: lietvārds (das).",
-        "vertrauen galvenokārt nozīmē: ticēt kādam.",
-        "Bieži raksturo: darbības vārds.",
-        "das Vertrauen nozīmē uzticību kā jūtu vai attiecību stāvokli.",
-        "vertrauen nozīmē uzticēties kādam.",
-        "Darbības vārdam vertrauen obligāti jālieto ar kam?"
+        "Основная мысль: Глагол – доверять кому-то. спросить кого? форма: jemandem vertrauen.",
+        "Vertrauen в основном означает: чувство/отношения.",
+        "Часто характеризуется: существительным (das).",
+        "Vertrauen в основном означает: верить в кого-то.",
+        "Часто описывает: глагол.",
+        "Das Vertrauen означает доверие как состояние чувства или отношения.",
+        "Vertrauen означает доверять кому-то.",
+        "С чем следует употреблять глагол vertrauen?"
       ],
       "examples": [
         {
@@ -59100,23 +58915,20 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Ja runa par uzticību kā jūtu, lieto das Vertrauen. Ja par darbību — uzticēties, lieto vertrauen + kam?.",
-        "Darbības vārds — uzticēties kādam. prasa kam? formu: jemandem vertrauen."
+        "Когда дело доходит до доверия как чувства, используйте das Vertrauen. Если действие — доверять, используйте vertrauen + kam?.",
+        "Глагол доверять кому-то. спросить кого? форма: jemandem vertrauen."
       ],
       "important": [
-        "das Vertrauen = lietvārds (uzticība).",
-        "vertrauen = darbības vārds (uzticēties) + kam?.",
-        "Nepareizi: Ich habe Vertrauen in dich. → Pareizi: Ich habe Vertrauen zu dir.",
-        "das Vertrauen = uzticība."
+        "Das Vertrauen = существительное (доверие).",
+        "Vertrauen = глагол (доверять) + что?.",
+        "Неправильно: Ich habe Vertrauen in dich. → Правильно: Ich habe Vertrauen zu dir.",
+        "Das Vertrauen = доверие."
       ],
       "sectionAccents": {
         "explanation": {
           "green": [
             "vertrauen",
             "vertrauen"
-          ],
-          "purple": [
-            "uzticēties"
           ],
           "blue": [
             "vertrauen",
@@ -59179,11 +58991,7 @@ const B1_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "uzticēties"
-            ]
-          }
+          {}
         ],
         "important": [
           {
@@ -59205,14 +59013,14 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Неповиновение • Упрямство",
       "explanation": [
-        "Galvenā doma: Lietvārds — spīts, spītīga attieksme.",
-        "der Trotz galvenokārt nozīmē: spītīga attieksme.",
-        "Bieži raksturo: lietvārds (der).",
-        "trotz galvenokārt nozīmē: neskatoties uz.",
-        "Bieži raksturo: prievārds.",
-        "der Trotz nozīmē spītu vai spītību kā īpašību.",
-        "trotz ir prievārds un nozīmē neraugoties uz kaut ko.",
-        "Prievārdam trotz obligāti jābūt ģenitīvam: trotz des Regens, trotz des Wetters."
+        "Основная мысль: Существительное — упрямство, упрямство.",
+        "Der Trotz в основном означает: упрямое отношение.",
+        "Часто описывает: существительное (der).",
+        "Тротц в основном означает: несмотря на.",
+        "Часто характеризуется: предлогом.",
+        "Der Trotz означает упрямство или упрямство как качество.",
+        "Троц — предлог и означает, несмотря на что-то.",
+        "Предлог trotz должен стоять в родительном падеже: trotz des Regens, trotz des Wetters."
       ],
       "examples": [
         {
@@ -59241,23 +59049,20 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Ja runa par spītu kā īpašību, lieto der Trotz. Ja par neskatīšanos uz šķērsli, lieto trotz + piederības forma.",
-        "Lietvārds — spīts, spītīga attieksme."
+        "Говоря о злости как качестве, используйте der Trotz. Для того, чтобы не смотреть на препятствие, используется троц + притяжательная форма.",
+        "Существительное — упрямство, упрямое отношение."
       ],
       "important": [
-        "der Trotz = lietvārds (spīts).",
-        "trotz = prievārds (neraugoties uz) + piederības forma.",
-        "trotz dem Regen — nepareizi; pareizi: trotz des Regens.",
-        "Nepareizi: Trotz dem Regen gehen wir. → Pareizi: Trotz des Regens gehen wir."
+        "Der Trotz = существительное (несмотря на).",
+        "Trotz = предлог (несмотря на) + притяжательная форма.",
+        "Trotz dem Regen — неправильно • Правильно: Троц де Регенс.",
+        "Неправильно: Trotz dem Regen gehen wir. → Правильно: Trotz des Regens gehen wir."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "der Trotz",
             "Trotz"
-          ],
-          "purple": [
-            "spīts"
           ]
         },
         "examples": [
@@ -59311,16 +59116,8 @@ const B1_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "spīts"
-            ]
-          },
-          {
-            "purple": [
-              "spītīga"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
           {
@@ -59341,14 +59138,14 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Несмотря на",
       "explanation": [
-        "Galvenā doma: Prievārds — neraugoties uz. Prasa piederības forma: trotz + piederības forma.",
-        "trotz galvenokārt nozīmē: spītīga attieksme.",
-        "Bieži raksturo: lietvārds (der).",
-        "trotz galvenokārt nozīmē: neskatoties uz.",
-        "Bieži raksturo: prievārds.",
-        "der Trotz nozīmē spītu vai spītību kā īpašību.",
-        "trotz ir prievārds un nozīmē neraugoties uz kaut ko.",
-        "Prievārdam trotz obligāti jābūt ģenitīvam: trotz des Regens, trotz des Wetters."
+        "Основная мысль: Предлог – несмотря на. Требуется притяжательная форма: троц + притяжательная форма.",
+        "Троц в основном означает: упрямое отношение.",
+        "Часто описывает: существительное (der).",
+        "Тротц в основном означает: несмотря на.",
+        "Часто характеризуется: предлогом.",
+        "Der Trotz означает упрямство или упрямство как качество.",
+        "Троц — предлог и означает, несмотря на что-то.",
+        "Предлог trotz должен стоять в родительном падеже: trotz des Regens, trotz des Wetters."
       ],
       "examples": [
         {
@@ -59377,23 +59174,20 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Ja runa par spītu kā īpašību, lieto der Trotz. Ja par neskatīšanos uz šķērsli, lieto trotz + piederības forma.",
-        "Prievārds — neraugoties uz. Prasa piederības forma: trotz + piederības forma."
+        "Говоря о злости как качестве, используйте der Trotz. Для того, чтобы не смотреть на препятствие, используется троц + притяжательная форма.",
+        "Предлог – несмотря на. Требуется притяжательная форма: троц + притяжательная форма."
       ],
       "important": [
-        "der Trotz = lietvārds (spīts).",
-        "trotz = prievārds (neraugoties uz) + piederības forma.",
-        "trotz dem Regen — nepareizi; pareizi: trotz des Regens.",
-        "Nepareizi: Trotz dem Regen gehen wir. → Pareizi: Trotz des Regens gehen wir."
+        "Der Trotz = существительное (несмотря на).",
+        "Trotz = предлог (несмотря на) + притяжательная форма.",
+        "Trotz dem Regen — неправильно • Правильно: Троц де Регенс.",
+        "Неправильно: Trotz dem Regen gehen wir. → Правильно: Trotz des Regens gehen wir."
       ],
       "sectionAccents": {
         "explanation": {
           "green": [
             "trotz",
             "trotz"
-          ],
-          "purple": [
-            "neraugoties uz"
           ],
           "yellow": [
             "trotz",
@@ -59457,11 +59251,7 @@ const B1_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "neraugoties uz"
-            ]
-          }
+          {}
         ],
         "important": [
           {

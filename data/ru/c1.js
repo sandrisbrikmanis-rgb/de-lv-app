@@ -1275,11 +1275,11 @@ const C1_WORDS = [
       "layout": "standardStudy",
       "translation": "Подвести итог • Подвести итог",
       "explanation": [
-        "Galvenā doma: zusammenfassen ir darbības vārds — apkopot vai sakopot informāciju vienā īsā izklāstā.",
-        "zusammenfassen lieto, ja no vairākiem faktiem, tekstiem vai domām tiek izveidots īss pārskats.",
-        "Nejauc ar die Zusammenfassung — tas ar lielo burtu un artikulu die ir lietvārds, kas apzīmē pašu kopsavilkumu (rezultātu, gatavu tekstu).",
-        "zusammenfassen = process/darbība (apkopot, rezumēt); die Zusammenfassung = rezultāts (kopsavilkums kā lietvārds).",
-        "Kā daudzi vācu darbības vārdi, zusammenfassen var kļūt par lietvārdu ar lielo burtu un artikulu: zusammenfassen → die Zusammenfassung (substantivizācija)."
+        "Основная идея: zusammenfassen — глагол — собирать или систематизировать информацию в одно краткое высказывание.",
+        "Zusammenfassen используется, когда несколько фактов, текстов или мыслей объединены в краткий обзор.",
+        "Не путать с die Zusammenfassung — тот, что с заглавной буквы, а артикль die — существительное, обозначающее само резюме (результат, готовый текст).",
+        "Zusammenfassen = процесс/действие (обобщить, обобщить) • Die Zusammenfassung = результат (краткое содержание в виде существительного).",
+        "Как и многие немецкие глаголы, zusammenfassen может стать существительным с заглавной буквы и артиклем: zusammenfassen → die Zusammenfassen (субстантивизация)."
       ],
       "examples": [
         {
@@ -1308,22 +1308,18 @@ const C1_WORDS = [
         }
       ],
       "tip": [
-        "zusammenfassen (darbības vārds) = process — apkopot/rezumēt.",
-        "die Zusammenfassung (lietvārds, ar lielo burtu un artikulu die) = rezultāts — pats kopsavilkums."
+        "Zusammenfassen (глагол) = процесс – обобщать/подводить итоги.",
+        "Die Zusammenfassung (существительное с заглавной буквы и артикль die) = результат – само резюме."
       ],
       "important": [
-        "zusammenfassen = apkopot/rezumēt (darbības vārds).",
-        "die Zusammenfassung = kopsavilkums (lietvārds, substantivizēts no zusammenfassen).",
-        "Nepareizi: die zusammenfassen → Pareizi: die Zusammenfassung (lietvārds vienmēr ar lielo burtu)."
+        "Zusammenfassen = суммировать/подводить итог (глагол).",
+        "Die Zusammenfassung = резюме (существительное, образованное от zusammenfassen).",
+        "Неправильно: die zusammenfassen → Правильно: die Zusammenfassen (существительное всегда пишется с заглавной буквы)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "zusammenfassen"
-          ],
-          "purple": [
-            "apkopot",
-            "rezumēt"
           ],
           "green": [
             "die Zusammenfassung"
@@ -1405,7 +1401,7 @@ const C1_WORDS = [
           },
           {
             "green": [
-              "die Zusammenfassung"
+              "die zusammenfassen"
             ],
             "red": [
               "die zusammenfassen"
@@ -1465,7 +1461,7 @@ const C1_WORDS = [
       "id": "c1-wahl",
       "layout": "standardStudy",
       "translation": "Выбор • Выборы",
-      "explanation": "die Wahl var nozīmēt izvēli starp iespējām. Politikas kontekstā Wahl nozīmē vēlēšanas. Tā var nozīmēt arī pašu balsošanu. Frāze eine Wahl treffen nozīmē izdarīt izvēli. zur Wahl gehen nozīmē doties uz vēlēšanām. Konteksts par politiku vai personīgu lēmumu parāda pareizo nozīmi.",
+      "explanation": "Die Wahl может означать выбор между вариантами. В контексте политики Валь означает выборы. Это также может означать само голосование. Фраза eine Wahl treffen означает сделать выбор. zur Wahl gehen означает пойти на выборы. Контекст политики или личного решения показывает правильное значение.",
       "examples": [
         {
           "de": "Du hast die Wahl.",
@@ -3948,10 +3944,10 @@ const C1_WORDS = [
       "layout": "standardStudy",
       "translation": "Премия • Наценка",
       "explanation": [
-        "Galvenā doma: der Zuschlag nozīmē piemaksu vai uzcenojumu — papildu summu, kas tiek pieskaitīta pamatcenai.",
-        "Ceļojumu/transporta kontekstā der Zuschlag ir papildu maksa par ātrāku vilcienu, labāku vietu u.tml.",
-        "Nejauc ar der Anhang/die Beilage (pielikums dokumentam) — tas ir cits vārds.",
-        "Izsolēs den Zuschlag erhalten nozīmē uzvarēt izsolē/saņemt pasūtījumu."
+        "Основная идея: der Zuschlag означает премию или наценку — дополнительную сумму, добавляемую к базовой цене.",
+        "В контексте путешествия/транспорта der Zuschlag — это дополнительная плата за более быстрый поезд, лучшее место и т. д.",
+        "Не путать с der Anhang/die Beilage (приложение к документу) – это другое слово.",
+        "На аукционах den Zuschlag erhalten означает выиграть аукцион/получить заказ."
       ],
       "examples": [
         {
@@ -3976,21 +3972,17 @@ const C1_WORDS = [
         }
       ],
       "tip": [
-        "der Zuschlag = piemaksa/uzcenojums (papildu maksa), ne dokumenta pielikums.",
-        "den Zuschlag erhalten (izsolēs) = uzvarēt izsolē/saņemt pasūtījumu."
+        "Der Zuschlag = надбавка/доплата (доплата), а не вложение документа.",
+        "Den Zuschlag erhalten (на аукционах) = выиграть аукцион/получить заказ."
       ],
       "important": [
-        "der Zuschlag = piemaksa/uzcenojums, ne 'pielikums' dokumentam.",
-        "Dokumenta pielikums vācu valodā ir die Anlage/der Anhang."
+        "Der Zuschlag = надбавка/надбавка, а не «приложение» к документу.",
+        "Приложение к документу на немецком языке — die Anlage/der Anhang."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "der Zuschlag"
-          ],
-          "purple": [
-            "piemaksu",
-            "uzcenojumu"
           ],
           "red": [
             "der Anhang",
@@ -4040,12 +4032,7 @@ const C1_WORDS = [
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "piemaksa",
-              "uzcenojums"
-            ]
-          },
+          {},
           {
             "green": [
               "den Zuschlag erhalten"
@@ -4053,15 +4040,7 @@ const C1_WORDS = [
           }
         ],
         "important": [
-          {
-            "purple": [
-              "piemaksa",
-              "uzcenojums"
-            ],
-            "red": [
-              "pielikums"
-            ]
-          },
+          {},
           {
             "red": [
               "die Anlage",
@@ -4081,10 +4060,10 @@ const C1_WORDS = [
       "layout": "standardStudy",
       "translation": "Применить • Обратиться к",
       "explanation": [
-        "Galvenā doma: Formāls reģistrs: attiecināt uz avotu, regulāru pensiju/algas saņemšanu vai ievākšanos dzīvoklī.",
-        "Piemēros meklē tipisku ikdienas lietojumu.",
-        "Ja šaubies, pārbaudi, vai runa ir par stāvokli vai darbību.",
-        "Konteksts un darbības virziens nosaka pareizo izvēli."
+        "Основная идея: Формальная регистрация: указание на источник, регулярное получение пенсии/зарплаты или переезд в квартиру.",
+        "Примеры относятся к типичному повседневному использованию.",
+        "Если сомневаетесь, проверьте, состояние это или действие.",
+        "Контекст и образ действий определяют правильный выбор."
       ],
       "examples": [
         {
@@ -4093,19 +4072,15 @@ const C1_WORDS = [
         }
       ],
       "tip": [
-        "Formāls reģistrs: attiecināt uz avotu, regulāru pensiju/algas saņemšanu vai ievākšanos dzīvoklī.",
-        "Izmanto beziehen / sich beziehen auf, kad konteksts atbilst šai nozīmei."
+        "Формальный реестр: укажите источник, регулярное получение пенсии/зарплаты или переезд в квартиру.",
+        "Используйте beziehen / sich beziehen auf, когда контекст соответствует этому значению."
       ],
       "important": [
-        "Formāls reģistrs: attiecināt uz avotu, regulāru pensiju/algas saņemšanu vai ievākšanos dzīvoklī.",
-        "beziehen / sich beziehen auf: pirms lietošanas pārbaudi kontekstu un salīdzini ar citiem vārdiem kartītē."
+        "Формальный реестр: укажите источник, регулярное получение пенсии/зарплаты или переезд в квартиру.",
+        "Beziehen / sich beziehen auf: перед использованием проверьте контекст и сравните с другими словами на карточке."
       ],
       "sectionAccents": {
-        "explanation": {
-          "purple": [
-            "attiecināt"
-          ]
-        },
+        "explanation": {},
         "examples": [
           {
             "de": {
@@ -4118,11 +4093,7 @@ const C1_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "attiecināt"
-            ]
-          },
+          {},
           {}
         ],
         "important": [
@@ -4140,12 +4111,12 @@ const C1_WORDS = [
       "layout": "standardStudy",
       "translation": "Намереваться • Планировать",
       "explanation": [
-        "Galvenā doma: Apzināts nodoms veikt darbību nākotnē. Neattiecas uz attiecību, bet uz plānu.",
-        "beabsichtigen galvenokārt nozīmē: apzināts nodoms.",
-        "Bieži raksturo: plāns / nolūks.",
-        "beabsichtigen galvenokārt nozīmē: plānot darbību.",
-        "Bieži raksturo: oficiāls reģistrs.",
-        "beabsichtigen nozīmē apzināti nodomāt vai plānot darbību — nevis attiecību, bet nolūku."
+        "Основная идея: Сознательное намерение совершить действие в будущем. Не об отношениях, а о плане.",
+        "Beabsichtigen прежде всего означает: сознательное намерение.",
+        "Часто характеризуется: планом/намерением.",
+        "Beabsichtigen в основном означает: планировать действие.",
+        "Часто характеризуется: официальным реестром.",
+        "Beabsichtigen означает намеренное намерение или планирование действия — не отношения, а намерения."
       ],
       "examples": [
         {
@@ -4170,23 +4141,19 @@ const C1_WORDS = [
         }
       ],
       "tip": [
-        "Ja runa ir par attiecību, avotu vai regulāru saņemšanu — beziehen. Ja par apzinātu plānu — beabsichtigen.",
-        "beabsichtigen = nodomāt"
+        "Когда речь идет об отношениях, источниках или регулярном поступлении — безиехен. Если о продуманном плане — beabsichtigen.",
+        "Beabsichtigen = думать"
       ],
       "important": [
-        "beabsichtigen + zu + nenoteiksme: Er beabsichtigt zu gehen.",
-        "beabsichtigen nevar aizstāt ar beziehen — tas ir nolūks, ne attiecība.",
-        "beabsichtigen → nodoms, plāns.",
-        "Apzināts nodoms veikt darbību nākotnē. Neattiecas uz attiecību, bet uz plānu."
+        "Beabsichtigen + zu + неправильность: Er beabsichtigt zu gehen.",
+        "Beabsichtigen нельзя заменить на beziehen — это намерение, а не отношение.",
+        "Beabsichtigen → намерение, план.",
+        "Сознательное намерение совершить действие в будущем. Не об отношениях, а о плане."
       ],
       "sectionAccents": {
         "explanation": {
           "green": [
             "beabsichtigen"
-          ],
-          "purple": [
-            "nodomāt",
-            "plānot"
           ]
         },
         "examples": [
@@ -4235,16 +4202,8 @@ const C1_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "nodomāt"
-            ]
-          },
-          {
-            "purple": [
-              "plānu"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
           {
@@ -4265,10 +4224,10 @@ const C1_WORDS = [
       "layout": "standardStudy",
       "translation": "Обвинять • Вменять безосновательно",
       "explanation": [
-        "Galvenā doma: Nepamatoti piešķirt vainu, motīvu vai nodomu citam.",
-        "unterstellen galvenokārt nozīmē: piedēvēt bez pamata.",
-        "Bieži raksturo: apsūdzība / pievilkšana.",
-        "jemandem etwas unterstellen nozīmē nepamatoti piedēvēt vai pārmest."
+        "Основная идея: Необоснованно возлагать вину, мотив или намерение на другого человека.",
+        "Unterstellen главным образом означает: приписывать без основания.",
+        "Часто характеризуется: обвинением/влечением.",
+        "Jemandem etwas unterstellen означает несправедливо обвинять или обвинять."
       ],
       "examples": [
         {
@@ -4293,25 +4252,18 @@ const C1_WORDS = [
         }
       ],
       "tip": [
-        "unterstellen = pārmest",
-        "Izmanto unterstellen, kad konteksts atbilst šai nozīmei."
+        "Unterstellen = упрекать",
+        "Использует unterstellen, когда контекст соответствует этому значению."
       ],
       "important": [
-        "unterstellen ir emocionāli negatīvs — nepamatota apsūdzība.",
-        "Nepareizi: Wir unterstellen Grundkenntnisse. → Pareizi: Wir setzen Grundkenntnisse voraus.",
-        "unterstellen → pārmest, piedēvēt."
+        "Unterstellen эмоционально негативен — необоснованное обвинение.",
+        "Неверно: Wir unterstellen Grundkenntnisse. → Правильно: Wir setzen Grundkenntnisse voraus.",
+        "Unterstellen → винить, приписывать."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "unterstellen"
-          ],
-          "purple": [
-            "pārmest",
-            "piedēvēt bez pamata"
-          ],
-          "red": [
-            "pārmest"
           ]
         },
         "examples": [
@@ -4360,11 +4312,7 @@ const C1_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "pārmest"
-            ]
-          },
+          {},
           {}
         ],
         "important": [
@@ -4386,10 +4334,10 @@ const C1_WORDS = [
       "layout": "standardStudy",
       "translation": "Принять в качестве предварительного условия",
       "explanation": [
-        "Galvenā doma: Uzskatīt, ka kaut kas jau ir zināms vai pastāv kā pamats.",
-        "voraussetzen galvenokārt nozīmē: uzskatīt par pamatu.",
-        "Bieži raksturo: loģisks priekšnosacījums.",
-        "etwas voraussetzen nozīmē uzskatīt par pašsaprotamu priekšnoteikumu, kas jau pastāv."
+        "Основная идея: предположить, что что-то уже известно или существует в качестве основы.",
+        "Voraussetzen главным образом означает: рассматривать как основу.",
+        "Часто характеризуется: логической предпосылкой.",
+        "Etwas voraussetzen означает принимать как должное уже существующую предпосылку."
       ],
       "examples": [
         {
@@ -4402,22 +4350,19 @@ const C1_WORDS = [
         }
       ],
       "tip": [
-        "voraussetzen = pieņemt priekšnoteikumu",
-        "Izmanto voraussetzen, kad konteksts atbilst šai nozīmei."
+        "Voraussetzen = принять необходимое условие",
+        "Используйте voraussetzen, когда контекст соответствует этому значению."
       ],
       "important": [
-        "voraussetzen ir neitrāls — priekšnosacījums.",
-        "voraussetzen → pieņemt kā pamatu.",
-        "Uzskatīt, ka kaut kas jau ir zināms vai pastāv kā pamats."
+        "Voraussetzen — средний род, предлог.",
+        "Voraussetzen → взять за основу.",
+        "Предполагать, что что-то уже известно или существует в качестве основы."
       ],
       "sectionAccents": {
         "explanation": {
           "green": [
             "voraussetzen",
             "voraus"
-          ],
-          "purple": [
-            "priekšnoteikumu"
           ]
         },
         "examples": [
@@ -4452,10 +4397,10 @@ const C1_WORDS = [
       "layout": "standardStudy",
       "translation": "Защищать • Сохранять",
       "explanation": [
-        "Galvenā doma: Aizsargāt no zuduma, bojājuma vai iznīcināšanas — vērtību, tradīciju, mieru.",
-        "bewahren galvenokārt nozīmē: aizsargāt no zuduma.",
-        "Bieži raksturo: vērtību saglabāšana.",
-        "bewahren nozīmē pasargāt no bojājuma, zuduma vai izmaiņām."
+        "Основная идея: Защитить от утраты, порчи или разрушения – ценность, традиция, мир.",
+        "Bewahren прежде всего означает: защитить от потери.",
+        "Часто характеризуется: сохранением ценностей.",
+        "Bewahren означает предохранять от повреждения, утраты или изменения."
       ],
       "examples": [
         {
@@ -4476,21 +4421,18 @@ const C1_WORDS = [
         }
       ],
       "tip": [
-        "bewahren = pasargāt",
-        "Izmanto bewahren, kad konteksts atbilst šai nozīmei."
+        "Bewahren = защищать",
+        "Используйте bewahren, когда контекст соответствует этому значению."
       ],
       "important": [
-        "bewahren: Wertvolles bewahren — pasargāt vērtīgo.",
-        "Nepareizi: Wir bewahren den Frieden auf. → Pareizi: Wir erhalten den Frieden auf.",
-        "bewahren → aizsargāt, saglabāt."
+        "Bewahren: Wertvolles bewahren - защити ценное.",
+        "Неверно: Wir bewahren den Frieden auf. → Правильно: Wir erhalten den Frieden auf.",
+        "Bewahren → защищать, сохранять."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "bewahren"
-          ],
-          "purple": [
-            "pasargāt"
           ]
         },
         "examples": [
@@ -4532,11 +4474,7 @@ const C1_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "pasargāt"
-            ]
-          },
+          {},
           {}
         ],
         "important": [
@@ -4558,10 +4496,10 @@ const C1_WORDS = [
       "layout": "standardStudy",
       "translation": "Сохранять в силе",
       "explanation": [
-        "Galvenā doma: Nodrošināt, ka kāds stāvoklis, kārtība vai attiecības turpinās pastāvēt.",
-        "aufrechterhalten galvenokārt nozīmē: nodrošināt turpināšanos.",
-        "Bieži raksturo: stāvokļa uzturēšana.",
-        "aufrechterhalten nozīmē uzturēt kādu stāvokli, sistēmu vai attiecību spēkā — nodrošināt turpināšanos."
+        "Основная идея: обеспечить продолжение существования государства, порядка или отношений.",
+        "Aufrechterhalten прежде всего означает: обеспечить продолжение.",
+        "Часто характеризуется: поддержанием состояния.",
+        "Aufrechterhalten означает поддерживать государство, систему или отношения в силе — обеспечивать преемственность."
       ],
       "examples": [
         {
@@ -4578,13 +4516,13 @@ const C1_WORDS = [
         }
       ],
       "tip": [
-        "aufrechterhalten = uzturēt spēkā",
-        "Izmanto aufrechterhalten, kad konteksts atbilst šai nozīmei."
+        "Aufrechterhalten = сохранять силу",
+        "Используйте aufrechterhalten, когда контекст соответствует этому значению."
       ],
       "important": [
-        "aufrechterhalten: Ordnung/Frieden/Stabilität aufrechterhalten.",
-        "aufrechterhalten → uzturēt spēkā.",
-        "Nodrošināt, ka kāds stāvoklis, kārtība vai attiecības turpinās pastāvēt."
+        "Aufrechterhalten: Ordnung/Frieden/Stabilität aufrechterhalten.",
+        "Aufrechterhalten → оставить в силе.",
+        "Чтобы гарантировать, что государство, порядок или отношения будут продолжать существовать."
       ],
       "sectionAccents": {
         "explanation": {
@@ -4614,11 +4552,7 @@ const C1_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "uzturēt spēkā"
-            ]
-          }
+          {}
         ],
         "important": [
           {

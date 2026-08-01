@@ -252,7 +252,7 @@ const B2_WORDS = [
       "rektion": "mit + kam?",
       "explanation": "Sich abfinden требует определенного предлога mit + kam?.",
       "forms": "mit + kam?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Управление:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -465,7 +465,7 @@ const B2_WORDS = [
       "rektion": "von + kam?",
       "explanation": "Sich abwenden требует определенного предлога von + kam?.",
       "forms": "von + kam?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Управление:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -919,7 +919,7 @@ const B2_WORDS = [
       "rektion": "mit + kam?",
       "explanation": "Sich befassen требует определенного предлога mit + kam?.",
       "forms": "mit + kam?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Управление:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -972,7 +972,7 @@ const B2_WORDS = [
       "rektion": "mit + kam?",
       "explanation": "Sich begnügen требует определенного предлога mit + kam?.",
       "forms": "mit + kam?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Управление:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -1147,10 +1147,10 @@ const B2_WORDS = [
       "id": "b2-sich-bemaechtigen",
       "layout": "minimalStudy",
       "translation": "Захватить • Завладеть",
-      "rektion": "+ piederības forma",
+      "rektion": "+ притяжательная форма",
       "explanation": "Sich bemächtigen используется в современном немецком языке в притяжательной форме без предлога.",
-      "forms": "+ piederības forma",
-      "formsLabel": "Vadība:",
+      "forms": "+ притяжательная форма",
+      "formsLabel": "Управление:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -1235,7 +1235,7 @@ const B2_WORDS = [
       "rektion": "auf + ko?",
       "explanation": "Sich berufen требует определенного предлога auf + ko?.",
       "forms": "auf + ko?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Управление:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -1291,7 +1291,7 @@ const B2_WORDS = [
       "rektion": "auf + ko?",
       "explanation": "Sich beschränken требует определенного предлога auf + ko?.",
       "forms": "auf + ko?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Управление:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -1391,7 +1391,7 @@ const B2_WORDS = [
       "rektion": "in + kur?",
       "explanation": "Sich betätigen требует определенного предлога + где?.",
       "forms": "in + kur?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Управление:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -3543,7 +3543,7 @@ const B2_WORDS = [
       "rektion": "auf + ko?",
       "explanation": "Sich einlassen требует определенного предлога auf + ko?.",
       "forms": "auf + ko?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Управление:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -3592,7 +3592,7 @@ const B2_WORDS = [
       "rektion": "in + ko?",
       "explanation": "Sich einprägen требует определенного предлога + ko?.",
       "forms": "in + ko?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Управление:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -3623,7 +3623,7 @@ const B2_WORDS = [
       "rektion": "in + ko?",
       "explanation": "Sich einschleichen требует определенного предлога + ko?.",
       "forms": "in + ko?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Управление:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -3651,7 +3651,7 @@ const B2_WORDS = [
       "rektion": "auf + ko?",
       "explanation": "Sich einschränken требует определенного предлога auf + ko?.",
       "forms": "auf + ko?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Управление:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -3870,7 +3870,7 @@ const B2_WORDS = [
       "rektion": "zu + kam?",
       "explanation": "Sich empfehlen требует определенного предлога zu + kam?.",
       "forms": "zu + kam?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Управление:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -3904,7 +3904,7 @@ const B2_WORDS = [
       "rektion": "über + ko?",
       "explanation": "Sich empören требует определенного предлога über + ko?.",
       "forms": "über + ko?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Управление:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -4007,7 +4007,7 @@ const B2_WORDS = [
       "rektion": "von + kam?",
       "explanation": "Sich enthalten требует определенного предлога von + kam?.",
       "forms": "von + kam?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Управление:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -4053,10 +4053,10 @@ const B2_WORDS = [
       "id": "b2-sich-entledigen",
       "layout": "minimalStudy",
       "translation": "Избавиться от • Избавиться от",
-      "rektion": "+ piederības forma",
+      "rektion": "+ притяжательная форма",
       "explanation": "Sich entledigen употребляется в современном немецком языке в притяжательной форме без предлога.",
-      "forms": "+ piederības forma",
-      "formsLabel": "Vadība:",
+      "forms": "+ притяжательная форма",
+      "formsLabel": "Управление:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -4092,7 +4092,7 @@ const B2_WORDS = [
       "rektion": "über + ko?",
       "explanation": "Sich entrüsten требует определенного предлога über + ko?.",
       "forms": "über + ko?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Управление:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -4123,10 +4123,10 @@ const B2_WORDS = [
       "id": "b2-sich-entsinnen",
       "layout": "minimalStudy",
       "translation": "Помнить • Помнить",
-      "rektion": "+ piederības forma",
+      "rektion": "+ притяжательная форма",
       "explanation": "Sich entsinnen употребляется в современном немецком языке в притяжательной форме без предлога, например: Ich entsinne mich eines Fehlers.",
-      "forms": "+ piederības forma",
-      "formsLabel": "Vadība:",
+      "forms": "+ притяжательная форма",
+      "formsLabel": "Управление:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -4252,7 +4252,7 @@ const B2_WORDS = [
       "rektion": "über + ko?",
       "explanation": "Sich erbarmen требует определенного предлога über + ko?.",
       "forms": "über + ko?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Управление:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -4345,7 +4345,7 @@ const B2_WORDS = [
       "rektion": "aus + kam?",
       "explanation": "Sich ergeben требует определенного предлога aus + kam?.",
       "forms": "aus + kam?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Управление:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -4470,7 +4470,7 @@ const B2_WORDS = [
       "rektion": "vor + kam?",
       "explanation": "Sich erniedrigen требует определенного предлога vor + kam?.",
       "forms": "vor + kam?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Управление:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -4523,7 +4523,7 @@ const B2_WORDS = [
       "rektion": "über + ko?",
       "explanation": "Sich erregen требует определенного предлога über + что?.",
       "forms": "über + ko?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Управление:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -4662,7 +4662,7 @@ const B2_WORDS = [
       "rektion": "als + kas?",
       "explanation": "Sich erweisen требует определенного предлога als + что?.",
       "forms": "als + kas?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Управление:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -4965,7 +4965,7 @@ const B2_WORDS = [
       "rektion": "an + kam?",
       "explanation": "Sich fassen требует определенного предлога an + kam?.",
       "forms": "an + kam?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Управление:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -5446,7 +5446,7 @@ const B2_WORDS = [
       "rektion": "in + ko?",
       "explanation": "Sich fügen требует определенного предлога + ko?.",
       "forms": "in + ko?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Управление:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -6006,7 +6006,7 @@ const B2_WORDS = [
       "rektion": "vor + kam?",
       "explanation": "Sich genieren требует определенного предлога vor + kam?.",
       "forms": "vor + kam?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Управление:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -6204,7 +6204,7 @@ const B2_WORDS = [
       "rektion": "zu + kam?",
       "explanation": "Sich gesellen требует определенного предлога zu + kam?.",
       "forms": "zu + kam?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Управление:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -6254,7 +6254,7 @@ const B2_WORDS = [
       "rektion": "zu + kam?",
       "explanation": "Sich gestalten требует определенного предлога zu + kam?.",
       "forms": "zu + kam?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Управление:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -6655,7 +6655,7 @@ const B2_WORDS = [
       "rektion": "vor + kam?",
       "explanation": "Sich grauen требует определенного предлога vor + kam?.",
       "forms": "vor + kam?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Управление:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -6968,10 +6968,10 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "Кепка • Капюшон",
       "explanation": [
-        "Galvenā doma: die Haube var nozīmēt galvas cepurīti/kapuci vai pārsegu/vāku — konteksts nosaka nozīmi.",
-        "Uz galvas: die Haube = cepurīte, kapuce vai autortehnika konkrētā kontekstā (z. B. Nonne mit Haube).",
-        "Pie automašīnas: die Motorhaube vai einfach die Haube = motora pārsegs.",
-        "Virtuvē: die Dunsthaube = nosūcējs virs plīts. Tehnikā: pārsegs vai vāks virs iekārtas."
+        "Основная идея: die Haube может означать шапку/капюшон или капюшон/чехол — смысл определяет контекст.",
+        "На голове: die Haube = кепка, капюшон или авторская техника в конкретном контексте (т. е. Nonne mit Haube).",
+        "На автомобиле: die Motorhaube или einfach die Haube = капот.",
+        "На кухне: die Dunsthaube = вытяжка над плитой. В технологии: бленда или чехол над устройством."
       ],
       "examples": [
         {
@@ -7000,24 +7000,18 @@ const B2_WORDS = [
         }
       ],
       "tip": [
-        "Runā par galvu, mūķeni, cepuri → cepurīte / kapuce.",
-        "Runā par auto, motoru → motora pārsegs.",
-        "Runā par plīti, iekārtu → nosūcējs vai pārsegs."
+        "Речь идет о голове, монахине, шапке → шапке/капюшоне.",
+        "Речь идет о машине, двигатель → капот.",
+        "Речь идет о плите, приборе → вытяжке или вытяжке."
       ],
       "important": [
-        "die Haube = cepurīte/kapuce VAI motora pārsegs VAI nosūcējs/pārsegs — atkarībā no konteksta.",
-        "Salikteņi palīdz: Motorhaube (auto), Dunsthaube (virtuve)."
+        "Die Haube = кепка/капюшон ИЛИ капюшон ИЛИ капюшон/капюшон – в зависимости от контекста.",
+        "В помощь составы: Motorhaube (автомобиль), Dunstaube (кухня)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "die Haube"
-          ],
-          "purple": [
-            "cepurīte",
-            "pārsegs",
-            "kapuce",
-            "motora pārsegs"
           ],
           "green": [
             "Motorhaube",
@@ -7257,7 +7251,7 @@ const B2_WORDS = [
       "rektion": "zu + kam?",
       "explanation": "Sich herausbilden требует определенного предлога zu + kam?.",
       "forms": "zu + kam?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Управление:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -7286,7 +7280,7 @@ const B2_WORDS = [
       "rektion": "aus + kam?",
       "explanation": "Sich heraushalten требует определенного предлога aus + kam?.",
       "forms": "aus + kam?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Управление:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -7315,7 +7309,7 @@ const B2_WORDS = [
       "rektion": "als + kas?",
       "explanation": "Sich herausstellen требует определенного предлога als + что?.",
       "forms": "als + kas?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Управление:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -7356,7 +7350,7 @@ const B2_WORDS = [
       "rektion": "in + kur?",
       "explanation": "Sich hervortun требует определенного предлога + где?.",
       "forms": "in + kur?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Управление:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -7443,7 +7437,7 @@ const B2_WORDS = [
       "rektion": "+ kam?",
       "explanation": "Sichhinbenben требует + для кого?.",
       "forms": "+ kam?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Управление:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -7567,10 +7561,10 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "Тост «Да здравствует!»",
       "explanation": [
-        "Galvenā doma: das Hoch ar lielo burtu un artikulu das ir lietvārds — svētku sauciens/tosts (Ein Hoch auf...! = Lai dzīvo...!) vai laika ziņās — augsta spiediena apgabals.",
-        "hoch ar mazo burtu ir īpašības vārds — augsts (der Berg ist hoch).",
-        "Frāzē ein Hoch ausbringen nozīmē uzsaukt tostu.",
-        "Laika ziņās das Hoch nozīmē anticiklonu — augsta gaisa spiediena apgabalu (pretstats: das Tief)."
+        "Основная мысль: das Hoch с большой буквы и артикль das - существительное - праздничный крик/тост (Ein Hoch auf...! = Да здравствует...!) или в погоде - область повышенного давления.",
+        "Строчная hoch – прилагательное – высокий (der Berg ist hoch).",
+        "Фраза ein Hoch ausbringen означает поднять тост.",
+        "В погоде дас Хох означает антициклон, область повышенного давления воздуха (напротив: дас Тиф)."
       ],
       "examples": [
         {
@@ -7591,22 +7585,18 @@ const B2_WORDS = [
         }
       ],
       "tip": [
-        "das Hoch ar lielo burtu — svētku sauciens vai anticiklons laika ziņās.",
-        "hoch ar mazo burtu — augsts (īpašības vārds)."
+        "Das Hoch с большой буквы — праздничный клич или антициклон в новостях о погоде.",
+        "Строчная хох – высокий (прилагательное)."
       ],
       "important": [
-        "das Hoch = tosts (“lai dzīvo!”) VAI anticiklons (laika ziņas) — lietvārds.",
-        "hoch = augsts — īpašības vārds, bez artikula.",
-        "Pretstats laika ziņās: das Hoch ↔ das Tief."
+        "Das Hoch = тост («Да здравствует!») ИЛИ антициклон (погода) – существительное.",
+        "Hoch = высокий — прилагательное без артикля.",
+        "Контраст погоды: дас Хох ↔ дас Тиф."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "das Hoch"
-          ],
-          "purple": [
-            "tosts",
-            "lai dzīvo"
           ],
           "green": [
             "hoch"
@@ -7669,11 +7659,7 @@ const B2_WORDS = [
               "hoch"
             ]
           },
-          {
-            "blue": [
-              "das Tief"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -8376,10 +8362,10 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "Длительная и тяжелая болезнь",
       "explanation": [
-        "Galvenā doma: das Leiden ar lielo burtu un artikulu das ir lietvārds — ciešanas, ilga/smaga slimība.",
-        "leiden ar mazo burtu ir darbības vārds — ciest.",
-        "das Leiden bieži lieto medicīniskā vai literārā kontekstā (ein schweres Leiden = smaga slimība).",
-        "Daudzskaitlī: die Leiden."
+        "Основная мысль: das Leiden с большой буквы и артикль das – существительное – страдание, длительная/тяжелая болезнь.",
+        "Лейден с маленькой буквы - глагол - страдать.",
+        "Das Leiden часто используется в медицинском или литературном контексте (ein schweres Leiden = тяжелая болезнь).",
+        "Множественное число: die Leiden."
       ],
       "examples": [
         {
@@ -8400,22 +8386,18 @@ const B2_WORDS = [
         }
       ],
       "tip": [
-        "das Leiden ar lielo burtu — lietvārds (ciešanas, smaga slimība).",
-        "leiden ar mazo burtu — darbības vārds (ciest)."
+        "Das Leiden с большой буквы – существительное (страдание, тяжелая болезнь).",
+        "Leiden в нижнем регистре – глагол (страдать)."
       ],
       "important": [
-        "das Leiden = ciešanas/smaga slimība (lietvārds).",
-        "leiden = ciest (darbības vārds).",
-        "Daudzskaitlī: die Leiden."
+        "Das Leiden = страдание/тяжелая болезнь (существительное).",
+        "Лейден = страдать (глагол).",
+        "Множественное число: die Leiden."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "das Leiden"
-          ],
-          "purple": [
-            "ciešanas",
-            "smaga slimība"
           ],
           "green": [
             "leiden"
@@ -8473,11 +8455,7 @@ const B2_WORDS = [
               "das Leiden"
             ]
           },
-          {
-            "green": [
-              "leiden"
-            ]
-          },
+          {},
           {
             "blue": [
               "die Leiden"
@@ -9193,10 +9171,10 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "Акцент • Перепечатка",
       "explanation": [
-        "Galvenā doma: der Nachdruck var nozīmēt uzsvērumu vai grāmatas atkārtotu izdevumu.",
-        "Nachdruck auf etwas legen = likt uzsvērumu uz kaut ko, uzstāt uz kaut ko.",
-        "Der Nachdruck eines Buches = grāmatas atkārtots izdevums (reprint).",
-        "Konteksts (darījumi/pārrunas vai izdevniecība) nosaka pareizo nozīmi."
+        "Основная идея: der Nachdruck может означать акцент или переиздание книги.",
+        "Nachdruck auf etwas legen = подчеркивать что-то, настаивать на чем-то.",
+        "Der Nachdruck eines Buches = переиздание книги.",
+        "Контекст (транзакции/переговоры или публикация) определяет правильное значение."
       ],
       "examples": [
         {
@@ -9238,21 +9216,17 @@ const B2_WORDS = [
         }
       ],
       "tip": [
-        "Pārrunās un prasībās: Nachdruck = uzsvērums.",
-        "Izdevniecībā un grāmatās: Nachdruck = atkārtots izdevums."
+        "В обсуждениях и требованиях: Nachdruck = акцент.",
+        "В издательстве и книгах: Nachdruck = переиздание."
       ],
       "important": [
-        "Nachdruck auf etwas legen = likt uzsvērumu.",
-        "der Nachdruck eines Buches = atkārtots izdevums."
+        "Nachdruck auf etwas legen = подчеркнуть.",
+        "Der Nachdruck eines Buches = переиздание."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "der Nachdruck"
-          ],
-          "purple": [
-            "uzsvērumu",
-            "atkārtots izdevums"
           ]
         },
         "examples": [
@@ -9763,7 +9737,7 @@ const B2_WORDS = [
       "rektion": "mit + kam?",
       "explanation": "Sich paaren требует определенного предлога mit + kam?.",
       "forms": "mit + kam?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Управление:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -10416,7 +10390,7 @@ const B2_WORDS = [
       "rektion": "bei + kam?",
       "explanation": "Sich revanchieren требует определенного предлога bei + kam?.",
       "forms": "bei + kam?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Управление:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -10754,7 +10728,7 @@ const B2_WORDS = [
       "rektion": "um + ko?",
       "explanation": "Sich scheren требует определенного предлога um + ko?.",
       "forms": "um + ko?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Управление:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -11116,10 +11090,10 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "Существование",
       "explanation": [
-        "Galvenā doma: das Sein ar lielo burtu un artikulu das ir lietvārds — esamība, eksistence (filozofisks jēdziens).",
-        "sein ar mazo burtu ir darbības vārds — būt.",
-        "das Sein bieži lieto filozofiskā vai abstraktā kontekstā (das menschliche Sein).",
-        "Substantivizācija: sein → das Sein, tāpat kā können → das Können."
+        "Основная мысль: das Sein с большой буквы и артикль das – существительное – существование, существование (философское понятие).",
+        "Sein со строчной буквы — это глагол — быть.",
+        "Das Sein часто используется в философском или абстрактном контексте (das menschliche Sein).",
+        "Субстантивизация: sein → das Sein, например können → das Können."
       ],
       "examples": [
         {
@@ -11140,22 +11114,18 @@ const B2_WORDS = [
         }
       ],
       "tip": [
-        "das Sein ar lielo burtu — lietvārds (esamība, filozofiskā nozīmē).",
-        "sein ar mazo burtu — darbības vārds (būt)."
+        "Das Sein с большой буквы – существительное (существование в философском смысле).",
+        "Sein строчная — глагол (быть)."
       ],
       "important": [
-        "das Sein = esamība (lietvārds, abstrakts/filozofisks).",
-        "sein = būt (darbības vārds, ikdienā).",
-        "Šis vārds ir substantivizēts darbības vārds, tāpat kā das Können."
+        "Das Sein = существование (существительное, абстрактное/философское).",
+        "Sein = быть (глагол, каждый день).",
+        "Это слово представляет собой субстантивированный глагол, как das Können."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "das Sein"
-          ],
-          "purple": [
-            "esamība",
-            "eksistence"
           ],
           "green": [
             "sein"
@@ -11365,10 +11335,10 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "Если • При условии, что",
       "explanation": [
-        "Galvenā doma: sofern ir nosacījuma savienojums — nozīmē ja/ar noteikumu, ka.",
-        "sofern ievieš nosacījuma palīgteikumu, līdzīgi kā wenn, bet ir formālāks un tipiskāks rakstveida stilam.",
-        "sofern NEnozīmē 'tā kā' (cēloņa savienojums) — tas vācu valodā ir da vai weil.",
-        "Bieži lieto juridiskos/formālos tekstos (sofern nicht anders vereinbart = ja nav norunāts citādi)."
+        "Основная идея: sofät — условный союз, означает «если/при условии».",
+        "Sofè вводит условное вспомогательное предложение, похожее на wenn, но более формальное и типичное для письменного стиля.",
+        "Soufen НЕ означает «как» (причинный союз) – по-немецки это da или weil.",
+        "Обычно используется в юридических/официальных текстах (sofern nicht anders verfahrt = если не оговорено иное)."
       ],
       "examples": [
         {
@@ -11397,21 +11367,17 @@ const B2_WORDS = [
         }
       ],
       "tip": [
-        "sofern = ja/ar noteikumu, ka (nosacījums) — nejaukt ar cēloni.",
-        "'tā kā' (cēlonis) vācu valodā ir da/weil, ne sofern."
+        "Если/при условии, что (условие) – не путать с причиной.",
+        "«Поскольку» (причина) в немецком языке — da/weil, ne soufen."
       ],
       "important": [
-        "sofern ir nosacījuma, ne cēloņa savienojums.",
-        "Nepareizi: sofern = tā kā → Pareizi: da/weil = tā kā."
+        "Если имеется условная, а не причинно-следственная связь.",
+        "Неправильно: soufen = as → Правильно: da/weil = as."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sofern"
-          ],
-          "purple": [
-            "ja",
-            "ar noteikumu, ka"
           ],
           "red": [
             "da",
@@ -11469,12 +11435,7 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "ja",
-              "ar noteikumu, ka"
-            ]
-          },
+          {},
           {
             "red": [
               "da",
@@ -11483,18 +11444,11 @@ const B2_WORDS = [
           }
         ],
         "important": [
-          {
-            "blue": [
-              "sofern"
-            ]
-          },
+          {},
           {
             "red": [
               "da",
               "weil"
-            ],
-            "purple": [
-              "tā kā"
             ]
           }
         ]
@@ -12851,7 +12805,7 @@ const B2_WORDS = [
       "rektion": "mit + kam?",
       "explanation": "Sich vereinigen требует определенного предлога mit + kam?.",
       "forms": "mit + kam?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Управление:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -13179,7 +13133,7 @@ const B2_WORDS = [
       "rektion": "mit + kam?",
       "explanation": "Sich verschein требует определенного предлога mit + kam?.",
       "forms": "mit + kam?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Управление:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -13228,7 +13182,7 @@ const B2_WORDS = [
       "rektion": "mit + kam?",
       "explanation": "Sich versöhnen требует определенного предлога mit + kam?.",
       "forms": "mit + kam?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Управление:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -13277,7 +13231,7 @@ const B2_WORDS = [
       "rektion": "als + ko?",
       "explanation": "Sich verstellen требует определенного предлога als + ko?.",
       "forms": "als + ko?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Управление:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -13393,7 +13347,7 @@ const B2_WORDS = [
       "rektion": "über + ko?",
       "explanation": "Sich verwundern требует определенного предлога über + ko?.",
       "forms": "über + ko?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Управление:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -14072,7 +14026,7 @@ const B2_WORDS = [
       "rektion": "+ kam?",
       "explanation": "Sich Widesetzen требует + для кого?.",
       "forms": "+ kam?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Управление:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -14487,10 +14441,10 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "Изменить • Исправить",
       "explanation": [
-        "Galvenā doma: Mainīt konkrētu lietu vai informāciju — plānu, termiņu, adresi, lēmumu.",
-        "ändern galvenokārt nozīmē: labot vai mainīt detaļu.",
-        "Bieži raksturo: konkrētu lietu.",
-        "ändern lieto, kad maina plānu, termiņu, adresi vai kādu detaļu."
+        "Основная идея: Изменить конкретную вещь или информацию – план, срок, адрес, решение.",
+        "Ändern в основном означает: исправить или изменить деталь.",
+        "Часто описывает: конкретную вещь.",
+        "Ändern используется при изменении плана, срока, адреса или какой-либо детали."
       ],
       "examples": [
         {
@@ -14515,22 +14469,18 @@ const B2_WORDS = [
         }
       ],
       "tip": [
-        "Mainīt konkrētu lietu vai informāciju — plānu, termiņu, adresi, lēmumu.",
-        "Izmanto ändern, kad konteksts atbilst šai nozīmei."
+        "Изменить конкретный вопрос или информацию – план, срок, адрес, решение.",
+        "Используйте ändern, когда контекст соответствует этому значению."
       ],
       "important": [
-        "ändern = mainīt konkrētu lietu (Termin, Adresse, Plan).",
-        "Plāns, termiņš, adrese: ändern.",
-        "Mainīt konkrētu lietu vai informāciju — plānu, termiņu, adresi, lēmumu."
+        "Ändern = изменить что-то конкретное (срок, адрес, план).",
+        "План, срок, адрес: Эндерн.",
+        "Изменить конкретный вопрос или информацию – план, срок, адрес, решение."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "ändern"
-          ],
-          "purple": [
-            "mainīt",
-            "labot"
           ]
         },
         "examples": [
@@ -14579,11 +14529,7 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "mainīt"
-            ]
-          },
+          {},
           {}
         ],
         "important": [
@@ -14605,10 +14551,10 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "Обменять • Заменить",
       "explanation": [
-        "Galvenā doma: Samainīt vai nomainīt kaut ko pret citu — naudu, drēbes, darbu, skolu, tēmu.",
-        "wechseln galvenokārt nozīmē: nomainīt pret citu.",
-        "Bieži raksturo: apmaiņu / maiņu.",
-        "wechseln lieto, kad kaut ko samaina vai nomaina pret citu — naudu, drēbes, darbu, skolu vai tēmu."
+        "Основная идея: Обменять или обменять что-то на что-то другое - деньги, одежду, работу, школу, предмет.",
+        "Wechseln по сути означает: заменить другим.",
+        "Часто характеризуется: обмен/обмен.",
+        "Wechseln используется, когда что-то меняется или обменивается на что-то другое — деньги, одежду, работу, школу или предмет."
       ],
       "examples": [
         {
@@ -14629,22 +14575,18 @@ const B2_WORDS = [
         }
       ],
       "tip": [
-        "Samainīt vai nomainīt kaut ko pret citu — naudu, drēbes, darbu, skolu, tēmu.",
-        "Izmanto wechseln, kad konteksts atbilst šai nozīmei."
+        "Обменять или обменять что-то на что-то другое – деньги, одежду, работу, школу, предмет.",
+        "Используйте wechseln, когда контекст соответствует этому значению."
       ],
       "important": [
-        "wechseln = samainīt vai nomainīt pret citu (Geld, Schule, Thema).",
-        "Nauda, skola, darbs, tēma: wechseln.",
-        "Samainīt vai nomainīt kaut ko pret citu — naudu, drēbes, darbu, skolu, tēmu."
+        "Wechseln = обменять или обменять на другой (Geld, Schule, Thema).",
+        "Деньги, школа, работа, тема: wechseln.",
+        "Обменять или обменять что-то на что-то другое – деньги, одежду, работу, школу, предмет."
       ],
       "sectionAccents": {
         "explanation": {
           "green": [
             "wechseln"
-          ],
-          "purple": [
-            "samainīt",
-            "nomainīt"
           ]
         },
         "examples": [
@@ -14684,16 +14626,8 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "samainīt"
-            ]
-          },
-          {
-            "purple": [
-              "nomainīt"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
           {
@@ -14714,12 +14648,12 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "Предложить • Предоставить",
       "explanation": [
-        "Galvenā doma: Piedāvāt iespējas, kursus, pakalpojumus vai labumu — ko vieta vai programma sniedz.",
-        "bieten galvenokārt nozīmē: sniegt iespēju / labumu.",
-        "Bieži raksturo: ko vieta/programma dod.",
-        "bieten galvenokārt nozīmē: nodrošināt iespēju.",
-        "Bieži raksturo: formālāk.",
-        "bieten bieži apraksta, ko vieta, programma vai pakalpojums sniedz (Die Schule bietet viele Kurse)."
+        "Основная идея: предлагать возможности, курсы, услуги или льготы, которые предоставляет место или программа.",
+        "Bieten главным образом означает: дать возможность/выгоду.",
+        "Часто описывает: что предоставляет место/программа.",
+        "Bieten главным образом означает: предоставить возможность.",
+        "Часто характеризуется: более формальным.",
+        "Bieten часто описывает, что предоставляет место, программа или услуга (Die Schule bietet viele Kurse)."
       ],
       "examples": [
         {
@@ -14744,21 +14678,17 @@ const B2_WORDS = [
         }
       ],
       "tip": [
-        "Piedāvāt iespējas, kursus, pakalpojumus vai labumu — ko vieta vai programma sniedz.",
-        "Izmanto bieten, kad konteksts atbilst šai nozīmei."
+        "Предлагайте возможности, курсы, услуги или льготы, которые предоставляет место или программа.",
+        "Используйте beet, когда контекст соответствует этому значению."
       ],
       "important": [
-        "bieten: Die Schule bietet Kurse. (nesadalāms)",
-        "Ko vieta/programma sniedz: bieten."
+        "Bieten: Die Schule bietet Kurse. (неделимый)",
+        "Что предоставляет место/программа: Свекла."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "bieten"
-          ],
-          "purple": [
-            "piedāvāt",
-            "sniegt"
           ]
         },
         "examples": [
@@ -14806,16 +14736,8 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "piedāvāt"
-            ]
-          },
-          {
-            "purple": [
-              "sniedz"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
           {
@@ -14925,12 +14847,12 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "Требуют • Требуют",
       "explanation": [
-        "Galvenā doma: Pieprasīt naudu, tiesības, izmaiņas vai pienākumu — aktīva prasība.",
-        "fordern galvenokārt nozīmē: prasīt / pieprasīt.",
-        "Bieži raksturo: aktīva prasība.",
-        "fordern galvenokārt nozīmē: pieprasīt standartu.",
-        "Bieži raksturo: formāli.",
-        "fordern lieto, kad kāds prasa naudu, tiesības, izmaiņas vai pienākumu (Sie fordert mehr Geld)."
+        "Основная идея: Просить денег, прав, изменений или обязательств — активное требование.",
+        "Fordern главным образом означает: требовать/требовать.",
+        "Часто характеризуется: активным спросом.",
+        "Fordern главным образом означает: требовать стандарта.",
+        "Часто характеризуется: формальным.",
+        "Fordern используется, когда кто-то просит денег, прав, сдачи или обязательства (Sie fordern mehr Geld)."
       ],
       "examples": [
         {
@@ -14955,22 +14877,18 @@ const B2_WORDS = [
         }
       ],
       "tip": [
-        "Pieprasīt naudu, tiesības, izmaiņas vai pienākumu — aktīva prasība.",
-        "Izmanto fordern, kad konteksts atbilst šai nozīmei."
+        "Требовать денег, прав, изменений или обязательств – активная претензия.",
+        "Используется forder, когда контекст соответствует этому значению."
       ],
       "important": [
-        "fordern = pieprasīt / prasīt (bez ö).",
-        "Prasība, pieprasījums: fordern (bez ö).",
-        "Pieprasīt naudu, tiesības, izmaiņas vai pienākumu — aktīva prasība."
+        "Fordern = требовать/требовать (без ö).",
+        "Спрос, запрос: фордерн (без ö).",
+        "Требовать денег, прав, изменений или обязательств – активная претензия."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "fordern"
-          ],
-          "purple": [
-            "pieprasīt",
-            "prasīt"
           ]
         },
         "examples": [
@@ -15019,16 +14937,8 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "pieprasīt"
-            ]
-          },
-          {
-            "purple": [
-              "prasīt"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
           {
@@ -15049,14 +14959,14 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "Продвигать • Поддерживать",
       "explanation": [
-        "Galvenā doma: Veicināt attīstību, atbalstīt cilvēku, projektu vai procesu.",
-        "fördern galvenokārt nozīmē: veicināt attīstību.",
-        "Bieži raksturo: atbalsts / progress.",
-        "fördern galvenokārt nozīmē: iegūt derīgos izrakteņus.",
-        "Bieži raksturo: rūpniecībā.",
-        "fördern galvenokārt nozīmē: attīstīt talantu.",
-        "Bieži raksturo: izglītībā.",
-        "fördern nozīmē veicināt attīstību, atbalstīt cilvēku vai projektu (Sport fördert die Gesundheit)."
+        "Основная идея: Содействовать развитию, поддерживать человека, проект или процесс.",
+        "Fördern в основном означает: способствовать развитию.",
+        "Часто характеризуется: поддержка/прогресс.",
+        "Fördern в основном означает: добывать полезные ископаемые.",
+        "Часто характеризуется: в промышленности.",
+        "Fördern в основном означает: развивать талант.",
+        "Часто характеризуется: в образовании.",
+        "Fördern означает способствовать развитию, поддерживать человека или проект (Sport fördern die Gesundheit)."
       ],
       "examples": [
         {
@@ -15077,22 +14987,18 @@ const B2_WORDS = [
         }
       ],
       "tip": [
-        "Veicināt attīstību, atbalstīt cilvēku, projektu vai procesu.",
-        "Izmanto fördern, kad konteksts atbilst šai nozīmei."
+        "Способствовать развитию, поддерживать человека, проект или процесс.",
+        "Используйте förden, когда контекст соответствует этому значению."
       ],
       "important": [
-        "fördern = veicināt / atbalstīt (ar ö).",
-        "Veicināšana, atbalsts: fördern (ar ö).",
-        "Veicināt attīstību, atbalstīt cilvēku, projektu vai procesu."
+        "Förden = продвигать/поддерживать (с ö).",
+        "Продвижение, поддержка: förden (с ö).",
+        "Способствовать развитию, поддерживать человека, проект или процесс."
       ],
       "sectionAccents": {
         "explanation": {
           "green": [
             "fördern"
-          ],
-          "purple": [
-            "veicināt",
-            "atbalstīt"
           ]
         },
         "examples": [
@@ -15130,21 +15036,13 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "veicināt"
-            ]
-          },
-          {
-            "purple": [
-              "atbalstīt"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
           {
             "green": [
-              "fördern"
+              "Förde"
             ]
           }
         ]

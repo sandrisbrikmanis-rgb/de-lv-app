@@ -59,11 +59,51 @@ function isLatvianText(text) {
   return typeof text === "string" && /[āčēģīķļņšūžĀČĒĢĪĶĻŅŠŪŽ]/.test(text);
 }
 
-function collectStrings(value, out) {
+function applyLatvianRemnants(value, map) {
+  if (value === null || value === undefined) return value;
+  if (typeof value === "string") return map[value] ?? value;
+  if (Array.isArray(value)) return value.map((v) => applyLatvianRemnants(v, map));
+  if (typeof value === "object") {
+    const out = {};
+    for (const [k, v] of Object.entries(value)) {
+      if (k === "de" || k === "de_article" || k === "de_plural" || k === "sectionAccents") {
+        out[k] = v;
+        continue;
+      }
+      out[k] = applyLatvianRemnants(v, map);
+    }
+    return out;
+  }
+  return value;
+}
+
+function collectLatvianRemnants(value, out) {
   if (value === null || value === undefined) return;
-  if (typeof value === "string") return;
+  if (typeof value === "string") {
+    if (isLatvianText(value) && value.trim()) out.add(value);
+    return;
+  }
   if (Array.isArray(value)) {
-    value.forEach((v) => collectStrings(v, out));
+    value.forEach((v) => collectLatvianRemnants(v, out));
+    return;
+  }
+  if (typeof value === "object") {
+    for (const [k, v] of Object.entries(value)) {
+      if (k === "de" || k === "de_article" || k === "de_plural" || k === "sectionAccents") continue;
+      collectLatvianRemnants(v, out);
+    }
+  }
+}
+
+function collectStrings(value, out, parentKey = "") {
+  if (value === null || value === undefined) return;
+  if (typeof value === "string") {
+    if (NATIVE_KEYS.has(parentKey) && value.trim()) out.add(value);
+    return;
+  }
+  if (Array.isArray(value)) {
+    const key = NATIVE_KEYS.has(parentKey) ? parentKey : "";
+    value.forEach((v) => collectStrings(v, out, key || parentKey));
     return;
   }
   if (typeof value === "object") {
@@ -71,18 +111,17 @@ function collectStrings(value, out) {
       if (k === "de" || k === "de_article" || k === "de_plural" || k === "id" || k === "layout" || k === "level") continue;
       if (k === "sectionAccents") continue;
       if (typeof v === "string") {
-        if (k === "lv" || k === "translation" || k === "title" || k === "subtitle" || k === "lead"
-          || k === "meaning" || k === "describes" || k === "label" || k === "description"
-          || k === "front" || k === "intro" || k === "text" || k === "left" || k === "right" || k === "word") {
-          if (v.trim()) out.add(v);
-        } else if (k === "example" && v.includes("=")) {
-          const right = v.split("=").pop().trim();
-          if (right) out.add(right);
-        } else if (k === "content" || k === "explanation" || k === "tip" || k === "important" || k === "mistakes" || k === "remember") {
-          if (v.trim() && !/^(der|die|das)\s/i.test(v.trim())) out.add(v);
+        if (NATIVE_KEYS.has(k) && v.trim()) out.add(v);
+        else if (k === "example") {
+          if (v.includes("=")) {
+            const right = v.split("=").pop().trim();
+            if (right) out.add(right);
+          }
+          const dash = v.match(/\s*[–—-]\s*(.+)$/);
+          if (dash && /[āčēģīķļņšūžĀČĒĢĪĶĻŅŠŪŽ]/.test(dash[1])) out.add(dash[1].trim());
         }
       } else {
-        collectStrings(v, out);
+        collectStrings(v, out, k);
       }
     }
   }
@@ -98,11 +137,18 @@ function applyTranslation(value, map, parentKey = "") {
   if (value === null || value === undefined) return value;
   if (typeof value === "string") {
     if (NATIVE_KEYS.has(parentKey)) return map[value] ?? value;
-    if (parentKey === "example" && value.includes("=")) {
-      const idx = value.indexOf("=");
-      const left = value.slice(0, idx + 1);
-      const right = value.slice(idx + 1).trim();
-      return right && map[right] ? `${left} ${map[right]}` : value;
+    if (parentKey === "example") {
+      if (value.includes("=")) {
+        const idx = value.indexOf("=");
+        const left = value.slice(0, idx + 1);
+        const right = value.slice(idx + 1).trim();
+        return right && map[right] ? `${left} ${map[right]}` : value;
+      }
+      const dash = value.match(/^(.+?)(\s*[–—-]\s*)(.+)$/);
+      if (dash) {
+        const right = dash[3].trim();
+        return right && map[right] ? `${dash[1]}${dash[2]}${map[right]}` : value;
+      }
     }
     return value;
   }
@@ -210,6 +256,10 @@ async function main() {
     if (Array.isArray(deck)) deck.forEach((c) => { if (c.front) allStrings.add(c.front); });
   });
 
+  [a1, a2, b1, b2, c1, c2, sentences, verbs].forEach((arr) => arr.forEach((e) => collectLatvianRemnants(e, allStrings)));
+  Object.values(dialogue).forEach((e) => collectLatvianRemnants(e, allStrings));
+  Object.values(course.COURSE_LESSON_DATA || {}).forEach((e) => collectLatvianRemnants(e, allStrings));
+
   const unique = [...allStrings].filter((s) => s && s.trim());
   console.log(`Found ${unique.length} unique strings (${Object.keys(cache).length} cached)`);
 
@@ -222,13 +272,13 @@ async function main() {
   unique.forEach((s) => { map[s] = cache[s.trim()] || s; });
 
   console.log("\nWriting RU files...");
-  writeArrayFile(path.join(OUT_DIR, "a1.js"), "A1_WORDS", a1.map((e) => applyTranslation(e, map)));
-  writeArrayFile(path.join(OUT_DIR, "a2.js"), "A2_WORDS", a2.map((e) => applyTranslation(e, map)));
-  writeArrayFile(path.join(OUT_DIR, "b1.js"), "B1_WORDS", b1.map((e) => applyTranslation(e, map)));
-  writeArrayFile(path.join(OUT_DIR, "b2.js"), "B2_WORDS", b2.map((e) => applyTranslation(e, map)));
-  writeArrayFile(path.join(OUT_DIR, "c1.js"), "C1_WORDS", c1.map((e) => applyTranslation(e, map)));
-  writeArrayFile(path.join(OUT_DIR, "c2.js"), "C2_WORDS", c2.map((e) => applyTranslation(e, map)));
-  writeArrayFile(path.join(OUT_DIR, "sentences.js"), "SENTENCE_ENTRIES", sentences.map((e) => applyTranslation(e, map)));
+  writeArrayFile(path.join(OUT_DIR, "a1.js"), "A1_WORDS", a1.map((e) => applyLatvianRemnants(applyTranslation(e, map), map)));
+  writeArrayFile(path.join(OUT_DIR, "a2.js"), "A2_WORDS", a2.map((e) => applyLatvianRemnants(applyTranslation(e, map), map)));
+  writeArrayFile(path.join(OUT_DIR, "b1.js"), "B1_WORDS", b1.map((e) => applyLatvianRemnants(applyTranslation(e, map), map)));
+  writeArrayFile(path.join(OUT_DIR, "b2.js"), "B2_WORDS", b2.map((e) => applyLatvianRemnants(applyTranslation(e, map), map)));
+  writeArrayFile(path.join(OUT_DIR, "c1.js"), "C1_WORDS", c1.map((e) => applyLatvianRemnants(applyTranslation(e, map), map)));
+  writeArrayFile(path.join(OUT_DIR, "c2.js"), "C2_WORDS", c2.map((e) => applyLatvianRemnants(applyTranslation(e, map), map)));
+  writeArrayFile(path.join(OUT_DIR, "sentences.js"), "SENTENCE_ENTRIES", sentences.map((e) => applyLatvianRemnants(applyTranslation(e, map), map)));
 
   const ruVerbs = verbs.map((entry) => {
     const te = {};
