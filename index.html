@@ -6,7 +6,7 @@
   <title>Vācu–latviešu kartītes</title>
   <link rel="stylesheet" href="./style.css?v=108">
   <link rel="stylesheet" href="./mobile-home.css?v=95">
-  <link rel="stylesheet" href="./languages/launch.css?v=3">
+  <link rel="stylesheet" href="./languages/launch.css?v=4">
   <link rel="preload" as="image" href="./assets/icon-only.png">
   <link rel="manifest" href="manifest.json">
   <meta name="theme-color" content="#000000">
@@ -25,10 +25,14 @@
 
   <section id="appLanguageScreen" class="app-launch-screen app-language-screen" hidden aria-label="Valodas izvēle">
     <div class="language-screen-inner">
-      <img class="app-launch-logo" src="./assets/icon-only.png" alt="" width="160" height="160" decoding="sync">
-      <h1 class="language-screen-title">Sprache wählen</h1>
-      <div id="languageOptionsList" class="language-options-list" role="list"></div>
-      <p class="language-screen-footer">Deutsch lernen</p>
+      <header class="language-screen-header">
+        <img class="app-launch-logo" src="./assets/icon-only.png" alt="" width="160" height="160" decoding="sync">
+        <h1 class="language-screen-title">Sprache wählen</h1>
+      </header>
+      <div class="language-screen-scroll">
+        <div id="languageOptionsList" class="language-options-list" role="list"></div>
+        <p class="language-screen-footer">Deutsch lernen</p>
+      </div>
     </div>
   </section>
 
