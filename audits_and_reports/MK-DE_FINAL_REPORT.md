@@ -6,7 +6,7 @@
 |-------|---------|
 | **Valodas pāris** | MK–DE (Македонски → Deutsch) |
 | **Statuss** | Tehniski pilnībā izveidots un integrēts |
-| **Pull Request** | (tiks izveidots pēc push) |
+| **Pull Request** | #227 |
 | **Darba rezultāts** | Pilns maķedoniešu valodas datu komplekts A1–C2, Study kartītes, teikumi, darbības vārdi, Kurss un UI lokalizācija |
 
 ---
