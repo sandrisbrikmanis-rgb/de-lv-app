@@ -93,6 +93,17 @@
       hasStudyData: true,
       uiPath: "./languages/bg/ui.js",
       dataManifestPath: "./languages/bg/data/manifest.js"
+    },
+    {
+      code: "gr",
+      nativeName: "Ελληνικά",
+      nativeCode: "GR",
+      active: true,
+      uiAvailable: true,
+      dataStatus: "complete",
+      hasStudyData: true,
+      uiPath: "./languages/gr/ui.js",
+      dataManifestPath: "./languages/gr/data/manifest.js"
     }
   ];
 
