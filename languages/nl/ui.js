@@ -15,7 +15,7 @@ window.LANGUAGE_UI_STRINGS = {
   },
   "menu": {
     "mainNav": "Peamenüü",
-    "course": "opleiding",
+    "course": "Opleiding",
     "sentences": "Laused",
     "verbs": "Tegusõnad",
     "chooseGroup": "Vali grupp"
@@ -213,8 +213,8 @@ window.LANGUAGE_UI_STRINGS = {
     "appLanguage": "Rakenduse keel"
   },
   "kurss": {
-    "panelLabel": "opleiding",
-    "title": "opleiding",
+    "panelLabel": "Opleiding",
+    "title": "Opleiding",
     "subtitle": "Saksa keele alused samm-sammult",
     "back": "‹ Kursus",
     "closeCourse": "Sulge kursus",
@@ -379,7 +379,7 @@ window.LANGUAGE_UI_STRINGS = {
   },
   "progress": {
     "verbsHeading": "Tegusõnad",
-    "courseHeading": "opleiding"
+    "courseHeading": "Opleiding"
   },
   "study": {
     "hints": {

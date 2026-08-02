@@ -213,10 +213,10 @@ window.LANGUAGE_UI_STRINGS = {
     "appLanguage": "Jezik aplikacije"
   },
   "kurss": {
-    "panelLabel": "seveda",
-    "title": "seveda",
+    "panelLabel": "Tečaj",
+    "title": "Tečaj",
     "subtitle": "Osnove nemškega jezika korak za korakom",
-    "back": "< Seveda",
+    "back": "< Tečaj",
     "closeCourse": "Zapri tečaj",
     "backToMain": "Vrnitev na začetni zaslon",
     "tipTitle": "nasveti",
@@ -379,7 +379,7 @@ window.LANGUAGE_UI_STRINGS = {
   },
   "progress": {
     "verbsHeading": "Glagoli",
-    "courseHeading": "seveda"
+    "courseHeading": "Tečaj"
   },
   "study": {
     "hints": {

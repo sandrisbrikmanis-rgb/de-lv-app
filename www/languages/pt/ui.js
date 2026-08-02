@@ -15,7 +15,7 @@ window.LANGUAGE_UI_STRINGS = {
   },
   "menu": {
     "mainNav": "Peamenüü",
-    "course": "treinamento",
+    "course": "Treinamento",
     "sentences": "elogiado",
     "verbs": "Tegusõnad",
     "chooseGroup": "Grupo válido"
@@ -213,8 +213,8 @@ window.LANGUAGE_UI_STRINGS = {
     "appLanguage": "quilha rakenduse"
   },
   "kurss": {
-    "panelLabel": "treinamento",
-    "title": "treinamento",
+    "panelLabel": "Treinamento",
+    "title": "Treinamento",
     "subtitle": "Saksa keele aludiu a samm-sault",
     "back": "‹ Kursus",
     "closeCourse": "Sulge Kursus",
@@ -379,7 +379,7 @@ window.LANGUAGE_UI_STRINGS = {
   },
   "progress": {
     "verbsHeading": "Tegusõnad",
-    "courseHeading": "treinamento"
+    "courseHeading": "Treinamento"
   },
   "study": {
     "hints": {

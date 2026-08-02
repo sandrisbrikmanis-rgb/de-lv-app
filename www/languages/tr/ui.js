@@ -15,7 +15,7 @@ window.LANGUAGE_UI_STRINGS = {
   },
   "menu": {
     "mainNav": "Ana menü",
-    "course": "ders",
+    "course": "Ders",
     "sentences": "Cümleler",
     "verbs": "Fiiller",
     "chooseGroup": "Grup Seç..."
@@ -213,10 +213,10 @@ window.LANGUAGE_UI_STRINGS = {
     "appLanguage": "Başvuru dili"
   },
   "kurss": {
-    "panelLabel": "ders",
-    "title": "ders",
+    "panelLabel": "Ders",
+    "title": "Ders",
     "subtitle": "Temel Almanca adım adım",
-    "back": "ders",
+    "back": "Ders",
     "closeCourse": "Kursu kapat",
     "backToMain": "Ana ekrana dön",
     "tipTitle": "İpucu",
@@ -379,7 +379,7 @@ window.LANGUAGE_UI_STRINGS = {
   },
   "progress": {
     "verbsHeading": "Fiiller",
-    "courseHeading": "ders"
+    "courseHeading": "Ders"
   },
   "study": {
     "hints": {

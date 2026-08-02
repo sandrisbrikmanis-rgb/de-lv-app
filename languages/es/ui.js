@@ -15,7 +15,7 @@ window.LANGUAGE_UI_STRINGS = {
   },
   "menu": {
     "mainNav": "Peamenüü",
-    "course": "formación",
+    "course": "Formación",
     "sentences": "Lausado",
     "verbs": "Tegusõnad",
     "chooseGroup": "Grupo válido"
@@ -213,8 +213,8 @@ window.LANGUAGE_UI_STRINGS = {
     "appLanguage": "quilla rakenduse"
   },
   "kurss": {
-    "panelLabel": "formación",
-    "title": "formación",
+    "panelLabel": "Formación",
+    "title": "Formación",
     "subtitle": "Saksa keele alused samm-samult",
     "back": "‹ Kursus",
     "closeCourse": "kursus sulge",
@@ -379,7 +379,7 @@ window.LANGUAGE_UI_STRINGS = {
   },
   "progress": {
     "verbsHeading": "Tegusõnad",
-    "courseHeading": "formación"
+    "courseHeading": "Formación"
   },
   "study": {
     "hints": {

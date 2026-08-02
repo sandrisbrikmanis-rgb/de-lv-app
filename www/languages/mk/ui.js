@@ -15,7 +15,7 @@ window.LANGUAGE_UI_STRINGS = {
   },
   "menu": {
     "mainNav": "Главното мени",
-    "course": "курс",
+    "course": "Курс",
     "sentences": "Реченици",
     "verbs": "Глаголи",
     "chooseGroup": "Изберете група"
@@ -213,10 +213,10 @@ window.LANGUAGE_UI_STRINGS = {
     "appLanguage": "Јазик на апликацијата"
   },
   "kurss": {
-    "panelLabel": "курс",
-    "title": "курс",
+    "panelLabel": "Курс",
+    "title": "Курс",
     "subtitle": "Основи на германскиот јазик чекор по чекор",
-    "back": "< Се разбира",
+    "back": "< Курс",
     "closeCourse": "Затворете го курсот",
     "backToMain": "Вратете се на почетниот екран",
     "tipTitle": "совети",
@@ -379,7 +379,7 @@ window.LANGUAGE_UI_STRINGS = {
   },
   "progress": {
     "verbsHeading": "Глаголи",
-    "courseHeading": "курс"
+    "courseHeading": "Курс"
   },
   "study": {
     "hints": {
