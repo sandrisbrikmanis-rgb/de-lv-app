@@ -67,4 +67,7 @@ scripts/.nn-translation-cache.json
 scripts/.nn-ui-translation-cache.json
 scripts/.da-translation-cache.json
 scripts/.da-ui-translation-cache.json
+scripts/.nl-translation-cache.json
+scripts/.nl-lv-translation-cache.json
+scripts/.nl-ui-translation-cache.json
 *.sk-*-cache.json
