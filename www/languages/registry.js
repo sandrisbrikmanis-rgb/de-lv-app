@@ -225,6 +225,17 @@
       hasStudyData: true,
       uiPath: "./languages/sv/ui.js",
       dataManifestPath: "./languages/sv/data/manifest.js"
+    },
+    {
+      code: "nb",
+      nativeName: "Norsk Bokmål",
+      nativeCode: "NB",
+      active: true,
+      uiAvailable: true,
+      dataStatus: "complete",
+      hasStudyData: true,
+      uiPath: "./languages/nb/ui.js",
+      dataManifestPath: "./languages/nb/data/manifest.js"
     }
   ];
 
