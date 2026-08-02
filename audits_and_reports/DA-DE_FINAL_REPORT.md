@@ -6,7 +6,7 @@
 |-------|---------|
 | **Valodas pāris** | DA–DE (Dansk → Deutsch) |
 | **Statuss** | Tehniski pilnībā izveidots un integrēts |
-| **Pull Request** | (tiks izveidots pēc push) |
+| **Pull Request** | #240 |
 | **Darba rezultāts** | Pilns dāņu valodas datu komplekts A1–C2, Study kartītes, teikumi, darbības vārdi, Kurss un UI lokalizācija |
 
 ---
