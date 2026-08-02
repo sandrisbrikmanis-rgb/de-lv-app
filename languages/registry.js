@@ -269,6 +269,17 @@
       hasStudyData: true,
       uiPath: "./languages/nl/ui.js",
       dataManifestPath: "./languages/nl/data/manifest.js"
+    },
+    {
+      code: "lb",
+      nativeName: "Lëtzebuergesch",
+      nativeCode: "LB",
+      active: true,
+      uiAvailable: true,
+      dataStatus: "complete",
+      hasStudyData: true,
+      uiPath: "./languages/lb/ui.js",
+      dataManifestPath: "./languages/lb/data/manifest.js"
     }
   ];
 
