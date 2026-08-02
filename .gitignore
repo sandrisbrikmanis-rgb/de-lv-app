@@ -63,4 +63,6 @@ scripts/.hr-translation-cache.json
 scripts/.hr-ui-translation-cache.json
 scripts/.nb-translation-cache.json
 scripts/.nb-ui-translation-cache.json
+scripts/.nn-translation-cache.json
+scripts/.nn-ui-translation-cache.json
 *.sk-*-cache.json
