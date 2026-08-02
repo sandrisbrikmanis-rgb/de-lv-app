@@ -61,3 +61,4 @@ scripts/.sr-translation-cache.json
 scripts/.sr-ui-translation-cache.json
 scripts/.hr-translation-cache.json
 scripts/.hr-ui-translation-cache.json
+*.sk-*-cache.json
