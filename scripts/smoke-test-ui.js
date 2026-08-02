@@ -6,10 +6,14 @@
  *
  * Run: node scripts/smoke-test-ui.js --lang=lt
  * Optional: UI_SMOKE_BASE=http://127.0.0.1:8765 node scripts/smoke-test-ui.js --lang=lt
+ *
+ * HTTP smoke verifies registry.js + per-language manifest.js (not datasets.js
+ * substring matching) for language registration and dataset paths.
  */
 const fs = require('fs');
 const path = require('path');
 const http = require('http');
+const vm = require('vm');
 const { spawn } = require('child_process');
 const { ROOT, parseLangArg, dataDir, fileExists } = require('./lib/audit-common');
 
@@ -106,13 +110,104 @@ function fetchPage(url) {
   });
 }
 
+function toUrlPath(relPath) {
+  return `/${String(relPath || '').replace(/^\.\//, '')}`;
+}
+
+function runWindowScript(body) {
+  const ctx = { window: {} };
+  vm.createContext(ctx);
+  vm.runInContext(body, ctx);
+  return ctx.window;
+}
+
+function getRegistryEntry(registryBody, code) {
+  const registry = runWindowScript(registryBody).AppLanguageRegistry;
+  if (!registry || typeof registry.get !== 'function') {
+    return { error: 'AppLanguageRegistry missing or invalid in languages/registry.js' };
+  }
+  const entry = registry.get(code);
+  if (!entry) {
+    return { error: `"${code}" is not registered in languages/registry.js` };
+  }
+  if (!entry.active) {
+    return { error: `"${code}" is registered but not active in languages/registry.js` };
+  }
+  if (!entry.dataManifestPath) {
+    return { error: `"${code}" registry entry missing dataManifestPath` };
+  }
+  if (!entry.uiPath) {
+    return { error: `"${code}" registry entry missing uiPath` };
+  }
+  return { entry };
+}
+
+function validateManifest(manifest, code) {
+  if (!manifest || typeof manifest !== 'object') {
+    return { error: `manifest for "${code}" did not define LANGUAGE_DATA_MANIFEST` };
+  }
+  if (manifest.code !== code || manifest.nativeLanguage !== code) {
+    return {
+      error: `manifest code/nativeLanguage mismatch for "${code}" (code=${manifest.code}, nativeLanguage=${manifest.nativeLanguage})`,
+    };
+  }
+  const a1Path = manifest.datasets?.a1;
+  if (!a1Path || typeof a1Path !== 'string') {
+    return { error: `manifest for "${code}" missing datasets.a1` };
+  }
+  return { a1Path };
+}
+
+async function verifyLanguageRegistration(baseUrl, failures) {
+  const registryPage = await fetchPage(`${baseUrl}/languages/registry.js`);
+  if (registryPage.status !== 200) {
+    failures.push(`registry.js status ${registryPage.status}`);
+    return null;
+  }
+
+  const registryResult = getRegistryEntry(registryPage.body, lang);
+  if (registryResult.error) {
+    failures.push(registryResult.error);
+    return null;
+  }
+
+  const { entry } = registryResult;
+  const manifestPage = await fetchPage(`${baseUrl}${toUrlPath(entry.dataManifestPath)}`);
+  if (manifestPage.status !== 200) {
+    failures.push(`${entry.dataManifestPath} status ${manifestPage.status}`);
+    return null;
+  }
+
+  const manifest = runWindowScript(manifestPage.body).LANGUAGE_DATA_MANIFEST;
+  const manifestResult = validateManifest(manifest, lang);
+  if (manifestResult.error) {
+    failures.push(manifestResult.error);
+    return null;
+  }
+
+  const uiPage = await fetchPage(`${baseUrl}${toUrlPath(entry.uiPath)}`);
+  if (uiPage.status !== 200) {
+    failures.push(`${entry.uiPath} status ${uiPage.status}`);
+  }
+
+  const a1Page = await fetchPage(`${baseUrl}${toUrlPath(manifestResult.a1Path)}`);
+  if (a1Page.status !== 200) {
+    failures.push(`${manifestResult.a1Path} status ${a1Page.status}`);
+  }
+
+  return { entry, manifest };
+}
+
 async function runHttpSmoke(baseUrl) {
   const failures = [];
   const index = await fetchPage(`${baseUrl}/index.html?lang=${lang}`);
   if (index.status !== 200) failures.push(`index.html status ${index.status}`);
+
   const datasets = await fetchPage(`${baseUrl}/languages/datasets.js`);
   if (datasets.status !== 200) failures.push(`datasets.js status ${datasets.status}`);
-  if (!new RegExp(lang, 'i').test(datasets.body)) failures.push(`"${lang}" language not referenced in languages/datasets.js`);
+
+  await verifyLanguageRegistration(baseUrl, failures);
+
   for (const bench of BENCHMARKS.slice(0, 4)) {
     const page = await fetchPage(`${baseUrl}/index.html?lang=${lang}&card=${encodeURIComponent(bench.query)}`);
     if (page.status !== 200) {
