@@ -335,6 +335,17 @@
       hasStudyData: true,
       uiPath: "./languages/pt/ui.js",
       dataManifestPath: "./languages/pt/data/manifest.js"
+    },
+    {
+      code: "hu",
+      nativeName: "Magyar",
+      nativeCode: "HU",
+      active: true,
+      uiAvailable: true,
+      dataStatus: "complete",
+      hasStudyData: true,
+      uiPath: "./languages/hu/ui.js",
+      dataManifestPath: "./languages/hu/data/manifest.js"
     }
   ];
 
