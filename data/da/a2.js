@@ -1280,7 +1280,7 @@ const A2_WORDS = [
       "id": "a2-absagen",
       "layout": "standardStudy",
       "translation": "Atcelt",
-      "explanation": "Hovedidé: absagen betyder at aflyse en aftale eller begivenhed eller nægte deltagelse. absagen betyder at aflyse et aftalt møde, arrangement eller plan. Det kan også betyde, at man nægter at deltage eller siger, at man ikke kan komme. Med Termin, Treffen, Konzert eller Einladung er betydningen ofte 'annullere' eller 'afvise'. Det er ikke det samme som nein sagen, for absagen refererer normalt til en på forhånd aftalt sag. På lettisk skal du se, om arrangementet er aflyst, eller om du nægte at deltage.",
+      "explanation": "Hovedidé: absagen betyder at aflyse en aftale eller begivenhed eller nægte deltagelse. absagen betyder at aflyse et aftalt møde, arrangement eller plan. Det kan også betyde, at man nægter at deltage eller siger, at man ikke kan komme. Med Termin, Treffen, Konzert eller Einladung er betydningen ofte 'annullere' eller 'afvise'. Det er ikke det samme som nein sagen, for absagen refererer normalt til en på forhånd aftalt sag. på dansk skal du se, om arrangementet er aflyst, eller om du nægte at deltage.",
       "examples": [
         {
           "de": "Ich muss den Termin absagen.",
@@ -6732,7 +6732,7 @@ const A2_WORDS = [
       "id": "a2-aufnahme",
       "layout": "standardStudy",
       "translation": "Optagelse • Optagelse • Foto",
-      "explanation": "Hovedidé: die Aufnahme betyder at tage, optage eller tage et billede, afhængigt af konteksten. Med foto eller video kan det være et foto eller en optagelse. Med mennesker kan det betyde indlæggelse på skole, hospital eller gruppe. Med lyd er det en lydoptagelse. Konteksten afgør, om det er et billede, lyd eller menneskelig modtagelse.",
+      "explanation": "Hovedidé: die Aufnahme betyder at tage, optage eller tage ein Bild, afhængigt af konteksten. Med foto eller video kan det være et foto eller en optagelse. Med mennesker kan det betyde indlæggelse på skole, hospital eller gruppe. Med lyd er det en lydoptagelse. Konteksten afgør, om det er ein Bild, lyd eller menneskelig modtagelse.",
       "examples": [
         {
           "de": "Die Aufnahme ist sehr scharf.",
@@ -8955,7 +8955,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Aufzeichnen er ikke et almindeligt \"træk\"-kort.",
-        "example": "ein Video aufzeichnen = optag en video. etwas notieren = skrive ned. ein Bild zeichnen = at tegne et billede."
+        "example": "ein Video aufzeichnen = optag en video. etwas notieren = skrive ned. ein Bild zeichnen = at tegne ein Bild."
       },
       "accents": {
         "blue": [
@@ -9512,7 +9512,7 @@ const A2_WORDS = [
         {
           "word": "auswählen",
           "meaning": "Vælg / vælg",
-          "example": "Ich wähle ein Bild aus. = Jeg vælger et billede."
+          "example": "Ich wähle ein Bild aus. = Jeg vælger ein Bild."
         },
         {
           "word": "wählen",
@@ -15593,7 +15593,7 @@ const A2_WORDS = [
         "bitte er små bogstaver - det er et høfligt ord, ikke et substantiv.",
         "die Bitte med stort bogstav og artiklen die er et navneord.",
         "Flertal: die Bitten (anmodninger).",
-        "Nepareizi: Die Bitte Schön! → Pareizi: Bitte schön!"
+        "Forkert: Die Bitte Schön! → Korrekt: Bitte schön!"
       ],
       "sectionAccents": {
         "explanation": {
@@ -15685,7 +15685,7 @@ const A2_WORDS = [
       "id": "a2-bitter",
       "layout": "standardStudy",
       "translation": "Bitter",
-      "explanation": "Hovedidé: bitter betyder bitter i smagen eller barsk/smertefuld i overført betydning. bitter betyder oftest bitter i smagen. Det kan også betyde voldsomt, skarpt eller hårdt om følelse, oplevelse eller ord. Til kaffe, krydderurter og chokolade er bitter normalt smagen. For tab eller sandhed betyder bitter barsk eller smertefuld. På lettisk er kun \"bitter\" ikke altid passende.",
+      "explanation": "Hovedidé: bitter betyder bitter i smagen eller barsk/smertefuld i overført betydning. bitter betyder oftest bitter i smagen. Det kan også betyde voldsomt, skarpt eller hårdt om følelse, oplevelse eller ord. Til kaffe, krydderurter og chokolade er bitter normalt smagen. For tab eller sandhed betyder bitter barsk eller smertefuld. på dansk er kun \"bitter\" ikke altid passende.",
       "examples": [
         {
           "de": "Der Kaffee schmeckt bitter.",
@@ -16600,7 +16600,7 @@ const A2_WORDS = [
       "id": "a2-borgen",
       "layout": "standardStudy",
       "translation": "Lån • Lån",
-      "explanation": "Hovedtanke: borgen kan både betyde låne og låne ud, og retningen bestemmes af sætningen. borgen kan betyde både at låne og at låne ud. Retning bliver tydelig efter person og dativ. Hvis jeg tager noget fra en anden, er det på lettisk at låne. Hvis jeg giver en anden tid, er det på lettisk at låne ud. I hverdagen bruges leihen også ofte med en meget lignende betydning. Derfor skal borgen læses i sammenhæng.",
+      "explanation": "Hovedtanke: borgen kan både betyde låne og låne ud, og retningen bestemmes af sætningen. borgen kan betyde både at låne og at låne ud. Retning bliver tydelig efter person og dativ. Hvis jeg tager noget fra en anden, er det på dansk at låne. Hvis jeg giver en anden tid, er det på dansk at låne ud. I hverdagen bruges leihen også ofte med en meget lignende betydning. Derfor skal borgen læses i sammenhæng.",
       "examples": [
         {
           "de": "Kann ich mir dein Fahrrad borgen?",
@@ -18316,7 +18316,7 @@ const A2_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Hvis du kan sige \"Jeg er med dig\" på lettisk, er tysk ofte nyttigt."
+            "text": "Hvis du kan sige \"Jeg er med dig\" på dansk, er tysk ofte nyttigt."
           },
           {
             "text": "Hvis tanken er \"udover\", bruges dabei til at tilføje en anden tanke om samme situation."
@@ -18704,7 +18704,7 @@ const A2_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Hvis du kan sige \"for det\" på lettisk, er tysk ofte godt for det."
+            "text": "Hvis du kan sige \"for det\" på dansk, er tysk ofte godt for det."
           },
           {
             "text": "Når der er en modsætning i en sætning, betyder dafar ofte \"dog\"."
@@ -19039,7 +19039,7 @@ const A2_WORDS = [
         "Hovedidé: damit betyder med, når man henviser til en ting, eller lad, når man henviser til et mål.",
         "Hvis damit erstatter ovennævnte ting, oversættes det som med det.",
         "Når damit introducerer et målhjælpemiddel, oversættes det ofte til.",
-        "Damit er ikke det samme som mit dem, selvom begge kan ligne hinanden på lettisk.",
+        "Damit er ikke det samme som mit dem, selvom begge kan ligne hinanden på dansk.",
         "Hvis tanken er årsagen 'derfor', bruges deshalb normalt i stedet for damit."
       ],
       "examples": [
@@ -19479,7 +19479,7 @@ const A2_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Danke bruges til et kort svar i en samtale: Danke! / Nej, tak."
+            "text": "Danke bruges til et kort svar i en samtale: Danke! / Nein, tak."
           },
           {
             "text": "For en mere formel tak, brug Vielen Dank! eller Ich danke Ihnen."
@@ -26709,7 +26709,7 @@ const A2_WORDS = [
       "id": "a2-einschlafen",
       "layout": "standardStudy",
       "translation": "Falde i søvn • Følelsesløs",
-      "explanation": "Hovedidé: einschlafen betyder at falde i søvn • For en arm eller et ben betyder det at blive følelsesløs. Med et menneske betyder det normalt, at nogen falder i søvn. Med en kropsdel ​​betyder einschlafen, at den bliver følelsesløs. På lettisk er \"søvn\" et synonym, men hovedbetydningen af ​​A2 er \"at falde i søvn\". Konteksten fortæller dig, om det er søvn eller snurren.",
+      "explanation": "Hovedidé: einschlafen betyder at falde i søvn • For en arm eller et ben betyder det at blive følelsesløs. Med et menneske betyder det normalt, at nogen falder i søvn. Med en kropsdel ​​betyder einschlafen, at den bliver følelsesløs. på dansk er \"søvn\" et synonym, men hovedbetydningen af ​​A2 er \"at falde i søvn\". Konteksten fortæller dig, om det er søvn eller snurren.",
       "examples": [
         {
           "de": "Ich schlafe schnell ein.",
@@ -27439,7 +27439,7 @@ const A2_WORDS = [
         },
         {
           "word": "beitreten",
-          "meaning": "Join the organisation",
+          "meaning": "Tilslut dig organisationen",
           "example": "Ich trete dem Verein bei. = Jeg meldte mig ind i foreningen."
         }
       ],
@@ -27622,7 +27622,7 @@ const A2_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Join"
+                "Tilslut"
               ]
             },
             "example": {
@@ -27965,7 +27965,7 @@ const A2_WORDS = [
     "de": "Ente",
     "de_article": "die",
     "de_plural": "die Enten",
-    "lv": "En and",
+    "lv": "En anden",
     "level": "A2"
   },
   {
@@ -28254,7 +28254,7 @@ const A2_WORDS = [
         "Sich erinnern bruges, når en person husker noget selv.",
         "Formen sich erinnern behøver normalt et refleksivt pronomen: ich erinnere mich, du erinnerst dich.",
         "Det er derfor vigtigt på A2-niveau ikke at forveksle erinnern med sich erinnern.",
-        "På lettisk ligner begge ord hinanden, men på tysk ændres betydningen med sich."
+        "på dansk ligner begge ord hinanden, men på tysk ændres betydningen med sich."
       ],
       "examples": [
         {
@@ -29137,7 +29137,7 @@ const A2_WORDS = [
         {
           "word": "das Schrankfach",
           "meaning": "Skabsrum",
-          "example": "Das Schrankfach ist klein. = Skabsrummet er lille."
+          "example": "Das Schrankfach ist klein. = Skabsrummet ist klein."
         },
         {
           "word": "das Fachgebiet",
@@ -30890,7 +30890,7 @@ const A2_WORDS = [
         {
           "word": "die Flamme",
           "meaning": "Flamme",
-          "example": "Die Flamme ist klein. = Flammen er lille."
+          "example": "Die Flamme ist klein. = Flammen ist klein."
         },
         {
           "word": "die Feuerwehr",
@@ -34007,7 +34007,7 @@ const A2_WORDS = [
         {
           "word": "der Laden",
           "meaning": "Butik",
-          "example": "Der Laden ist klein. = Butikken er lille."
+          "example": "Der Laden ist klein. = Butikken ist klein."
         },
         {
           "word": "die Firma",
@@ -34429,7 +34429,7 @@ const A2_WORDS = [
         "Med en pris, penge eller lotteri betyder gewinnen at vinde.",
         "Med erfaring, tid eller tillid kan gewinnen betyde at vinde.",
         "Gewinnen er ikke det samme som bekommen, fordi bekommen betyder at modtage.",
-        "På lettisk skal du se på, hvad der præcist er vundet: spil, penge, erfaring eller menneskelig tillid."
+        "på dansk skal du se på, hvad der præcist er vundet: spil, penge, erfaring eller menneskelig tillid."
       ],
       "examples": [
         {
@@ -34794,7 +34794,7 @@ const A2_WORDS = [
         "Med vand, te eller anden væske kan gießen betyde hæld.",
         "Hvis det regner meget, kan man på tysk sige Es gießt, men det er mere mundret.",
         "Gießen er ikke det samme som regnen, fordi regnen er et almindeligt ord for regn.",
-        "På lettisk skal du se på objektet: blomster vandes, vand hældes."
+        "på dansk skal du se på objektet: blomster vandes, vand hældes."
       ],
       "examples": [
         {
@@ -35813,7 +35813,7 @@ const A2_WORDS = [
       "translation": "Hæng • Bestil",
       "explanation": [
         "Hovedidé: hænger betyder at hænge eller hænge noget på en væg, dør eller et andet sted.",
-        "Hvis selve tingen er på væggen eller på en krog, siges den på lettisk normalt at hænge.",
+        "Hvis selve tingen er på væggen eller på en krog, siges den på dansk normalt at hænge.",
         "Hvis en person sætter noget på en væg, på en krog eller i et skab, betyder det at hænge eller hænge.",
         "På tysk kan en enkelt form beskrive både en tilstand og en handling.",
         "Konteksten viser, om billedet hænger på væggen, eller nogen hænger det der."
@@ -36945,7 +36945,7 @@ const A2_WORDS = [
       "translation": "Gør",
       "explanation": [
         "Hovedidé: Indem forklarer, hvordan noget gøres.",
-        "På lettisk oversættes det ofte med at gøre noget.",
+        "på dansk oversættes det ofte med at gøre noget.",
         "Indem er ikke et almindeligt ord, der betyder mens.",
         "Hvis tanken er en samtidig handling, bruges der oftere.",
         "På A2-niveau er det vigtigste at forstå mønsteret: hovedhandlingen + hvordan det sker."
@@ -43091,7 +43091,7 @@ const A2_WORDS = [
         },
         {
           "de": "Wen meinst du?",
-          "lv": "Hvem mener du"
+          "lv": "Wen mener du"
         },
         {
           "de": "Ich meine dieses Buch.",
@@ -43155,8 +43155,8 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Hvem",
-                "Hvem"
+                "Wen",
+                "Wen"
               ]
             }
           },
@@ -49780,8 +49780,8 @@ const A2_WORDS = [
         "Hovedidé: Scharf betyder skarp eller krydret afhængigt af konteksten.",
         "For en kniv, saks eller kant betyder sarf skarp.",
         "Til mad betyder scharf krydret eller skarp i smagen.",
-        "For et billede eller en vision betyder sarf klart, godt fokuseret.",
-        "Konteksten viser, om det er en genstand, en fødevare eller et billede."
+        "For ein Bild eller en vision betyder sarf klart, godt fokuseret.",
+        "Konteksten viser, om det er en genstand, en fødevare eller ein Bild."
       ],
       "examples": [
         {
@@ -51777,7 +51777,7 @@ const A2_WORDS = [
       "id": "a2-schuld",
       "layout": "standardStudy",
       "translation": "Fejl • Gæld • Ansvar",
-      "explanation": "Die Schuld betyder oftest skyld eller ansvar for det skete. Udtrykket Schuld haben betyder at være skyldig. jemandem die Schuld geben betyder at give nogen skylden. I flertal betyder Schulden gæld. Schuld og Schulden skal derfor skelnes specifikt. På lettisk har \"skyld\" og \"gæld\" meget forskellige betydninger.",
+      "explanation": "Die Schuld betyder oftest skyld eller ansvar for det skete. Udtrykket Schuld haben betyder at være skyldig. jemandem die Schuld geben betyder at give nogen skylden. I flertal betyder Schulden gæld. Schuld og Schulden skal derfor skelnes specifikt. på dansk har \"skyld\" og \"gæld\" meget forskellige betydninger.",
       "examples": [
         {
           "de": "Das ist nicht meine Schuld.",
@@ -51785,7 +51785,7 @@ const A2_WORDS = [
         },
         {
           "de": "Wer hat Schuld?",
-          "lv": "Hvem har skylden"
+          "lv": "Wen har skylden"
         },
         {
           "de": "Er gibt mir die Schuld.",
@@ -51868,7 +51868,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Hvem"
+                "Wen"
               ]
             }
           },
@@ -60621,7 +60621,7 @@ const A2_WORDS = [
       "important": [
         "Forkert: die Ferie, der Urlabe (på A1-niveau).",
         "Urlaub: im Urlaub sein / Urlaub machen.",
-        "Nepareizi: die Urlaube → Pareizi: der Urlaub",
+        "Forkert: die Urlaube → Korrekt: der Urlaub",
         "Arbejde: der Urlaub (kun ental)."
       ],
       "sectionAccents": {
@@ -62803,7 +62803,7 @@ const A2_WORDS = [
         {
           "word": "auswählen",
           "meaning": "At vælge / vælge",
-          "example": "Ich wähle ein Bild aus. = Jeg vælger et billede."
+          "example": "Ich wähle ein Bild aus. = Jeg vælger ein Bild."
         },
         {
           "word": "entscheiden",
@@ -67489,11 +67489,11 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Das Zimmer ist klein.",
-          "lv": "Værelset er lille."
+          "lv": "Værelset ist klein."
         },
         {
           "de": "Das Zimmer ist klein.",
-          "lv": "Værelset er lille."
+          "lv": "Værelset ist klein."
         },
         {
           "de": "Das Kind ist noch klein.",
@@ -67505,7 +67505,7 @@ const A2_WORDS = [
         },
         {
           "de": "Das Kind ist klein.",
-          "lv": "Barnet er lille."
+          "lv": "Barnet ist klein."
         }
       ],
       "tip": [

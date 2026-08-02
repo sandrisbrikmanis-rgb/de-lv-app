@@ -181,12 +181,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wer war der Erste?",
-    "lv": "Hvem var først?",
+    "lv": "Wen var først?",
     "level": "Sätze"
   },
   {
     "de": "Wer fehlt heute?",
-    "lv": "Hvem er ikke kommet i dag?",
+    "lv": "Wen er ikke kommet i dag?",
     "level": "Sätze"
   },
   {
@@ -1561,7 +1561,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Nicht doch!",
-    "lv": "Nej, selvfølgelig! • Lad være!",
+    "lv": "Nein, selvfølgelig! • Lad være!",
     "level": "Sätze"
   },
   {
@@ -3051,7 +3051,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Nein, hier sitzt niemand.",
-    "lv": "Nej, her sidder ingen.",
+    "lv": "Nein, her sidder ingen.",
     "level": "Sätze"
   },
   {
@@ -3341,7 +3341,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ist in diesem Haus eine Wohnung frei?",
-    "lv": "Er der en ledig lejlighed i dette hus?",
+    "lv": "Ist der en ledig lejlighed i dette hus?",
     "level": "Sätze"
   },
   {
@@ -3376,7 +3376,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Gehen wir ins Theater?",
-    "lv": "Iesim teātrī?",
+    "lv": "Skal vi gå i teatret?",
     "level": "Sätze"
   },
   {
@@ -3716,7 +3716,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Schneiden Sie mir bitte drei Meter ab.",
-    "lv": "Nogrieziet, lūdzu, trīs metrus.",
+    "lv": "Skær venligst tre meter af for mig.",
     "level": "Sätze"
   },
   {
@@ -3856,7 +3856,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte, fotografieren Sie mich.",
-    "lv": "Tag venligst et billede af mig.",
+    "lv": "Tag venligst ein Bild af mig.",
     "level": "Sätze"
   },
   {

@@ -156,11 +156,11 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Das Zimmer ist klein.",
-          "lv": "Værelset er lille."
+          "lv": "Værelset ist klein."
         },
         {
           "de": "Das Zimmer ist klein.",
-          "lv": "Værelset er lille."
+          "lv": "Værelset ist klein."
         },
         {
           "de": "Das Kind ist noch klein.",
@@ -172,7 +172,7 @@ const A1_WORDS = [
         },
         {
           "de": "Das Kind ist klein.",
-          "lv": "Barnet er lille."
+          "lv": "Barnet ist klein."
         }
       ],
       "tip": [
@@ -2256,7 +2256,7 @@ const A1_WORDS = [
         },
         {
           "word": "zu",
-          "meaning": "Hvem skal til (retning)",
+          "meaning": "Wen skal til (retning)",
           "example": "Ich gehe zu meinem Freund. – Jeg skal til min ven."
         }
       ],
@@ -2627,7 +2627,7 @@ const A1_WORDS = [
         "bitte er små bogstaver - det er et høfligt ord, ikke et substantiv.",
         "die Bitte med stort bogstav og artiklen die er et navneord.",
         "Flertal: die Bitten (anmodninger).",
-        "Nepareizi: Die Bitte Schön! → Pareizi: Bitte schön!"
+        "Forkert: Die Bitte Schön! → Korrekt: Bitte schön!"
       ],
       "sectionAccents": {
         "explanation": {
@@ -2778,7 +2778,7 @@ const A1_WORDS = [
         "bitte er små bogstaver - det er et høfligt ord, ikke et substantiv.",
         "die Bitte med stort bogstav og artiklen die er et navneord.",
         "Flertal: die Bitten (anmodninger).",
-        "Nepareizi: Die Bitte Schön! → Pareizi: Bitte schön!"
+        "Forkert: Die Bitte Schön! → Korrekt: Bitte schön!"
       ],
       "sectionAccents": {
         "explanation": {
@@ -3770,7 +3770,7 @@ const A1_WORDS = [
         },
         {
           "word": "welches",
-          "meaning": "Hvem • Hvilken • Hvem",
+          "meaning": "Wen • Hvilken • Wen",
           "example": "Das ist das Buch, welches ich lese. – Det er en bog, jeg læser."
         }
       ],
@@ -9483,7 +9483,7 @@ const A1_WORDS = [
       "explanation": [
         "Hovedidé: jung betyder ung i alderen - brugt af mennesker og dyr, ikke ting.",
         "Jung beskriver alder – det modsatte er alt (gammelt).",
-        "På lettisk har ordet ung to betydninger: ung i alderen (jung) og ung/nyligt oprettet (neu).",
+        "på dansk har ordet ung to betydninger: ung i alderen (jung) og ung/nyligt oprettet (neu).",
         "For nyligt oprettede eller erhvervede ting, brug neu, ne jung.",
         "Jung bruges også i overført betydning: en ny generation, et ungt par, unge mennesker.",
         "Der er også substantivet die Jugend (ungdom)."
@@ -9525,7 +9525,7 @@ const A1_WORDS = [
       "important": [
         "jung raksturo vecumu, ne lietas jaunumu.",
         "Til nye ting (telefon, bil, hus) brug neu i stedet for jung.",
-        "Nepareizi: Mein Handy ist jung. → Pareizi: Mein Handy ist neu."
+        "Forkert: Mein Handy ist jung. → Korrekt: Mein Handy ist neu."
       ],
       "sectionAccents": {
         "explanation": {
@@ -9716,7 +9716,7 @@ const A1_WORDS = [
       ],
       "important": [
         "kein + substantiv = 'der er ingen/intet X', ikke 'nicht ein X'.",
-        "Nepareizi: Ich have nicht ein Geld. → Pareizi: Ich habe kein Geld."
+        "Forkert: Ich have nicht ein Geld. → Korrekt: Ich habe kein Geld."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11811,7 +11811,7 @@ const A1_WORDS = [
         "laut er små bogstaver og har ingen artikel - det er et adjektiv.",
         "der Laut med stort bogstav og artiklen der er et navneord.",
         "Flertal: die Laute (sproglyde, bip).",
-        "Nepareizi: Der Laut ist sehr. → Pareizi: Das ist sehr laut."
+        "Forkert: Der Laut ist sehr. → Korrekt: Das ist sehr laut."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11970,7 +11970,7 @@ const A1_WORDS = [
         "laut er små bogstaver og har ingen artikel - det er et adjektiv.",
         "der Laut med stort bogstav og artiklen der er et navneord.",
         "Flertal: die Laute (sproglyde, bip).",
-        "Nepareizi: Der Laut ist sehr. → Pareizi: Das ist sehr laut."
+        "Forkert: Der Laut ist sehr. → Korrekt: Das ist sehr laut."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13576,7 +13576,7 @@ const A1_WORDS = [
       "translation": "At kunne lide",
       "explanation": [
         "Hovedidé: mögen betyder ofte at kunne lide noget.",
-        "Ich mag... er normalt \"jeg kan lide...\" på lettisk.",
+        "Ich mag... er normalt \"jeg kan lide...\" på dansk.",
         "Möchte er en anden form, der bruges til høfligt belært: Jeg vil gerne.",
         "På A1-niveau er den vigtigste sætning Ich mag das."
       ],
@@ -13852,7 +13852,7 @@ const A1_WORDS = [
         "morgen er små bogstaver - det er et tidsadverbium (i morgen).",
         "der Morgen med stort bogstav og artiklen der er et navneord (morgen).",
         "Godmorgen! — altid med stort M (morgen, ikke i morgen).",
-        "Nepareizi: Guten morgen! → Pareizi: Guten Morgen!"
+        "Forkert: Guten morgen! → Korrekt: Guten Morgen!"
       ],
       "sectionAccents": {
         "explanation": {
@@ -14010,7 +14010,7 @@ const A1_WORDS = [
         "morgen er små bogstaver - det er et tidsadverbium (i morgen).",
         "der Morgen med stort bogstav og artiklen der er et navneord (morgen).",
         "Godmorgen! — altid med stort M (morgen, ikke i morgen).",
-        "Nepareizi: Guten morgen! → Pareizi: Guten Morgen!"
+        "Forkert: Guten morgen! → Korrekt: Guten Morgen!"
       ],
       "sectionAccents": {
         "explanation": {
@@ -15030,7 +15030,7 @@ const A1_WORDS = [
       "explanation": [
         "Hovedidé: neu betyder nyt i form af en ting - for nylig oprettet, købt eller brugt for første gang.",
         "Neu beskriver ting, enheder, tøj, huse, ideer osv. - ikke menneske- eller dyrealder.",
-        "På lettisk har ordet ung to betydninger: ung i alderen (jung) og ung/nyligt oprettet (neu).",
+        "på dansk har ordet ung to betydninger: ung i alderen (jung) og ung/nyligt oprettet (neu).",
         "For en persons eller et dyrs alder bruges jung, ikke neu.",
         "Neu bruges også billedligt: ​​nyt job, ny information, ny begyndelse.",
         "Det modsatte er alt (gammelt) • Navneordet das Neue betyder nyt."
@@ -15072,7 +15072,7 @@ const A1_WORDS = [
       "important": [
         "neu beskriver ting og nyheder, ej heller alderen på en person eller et dyr.",
         "For en persons eller et dyrs alder, brug jung i stedet for neu.",
-        "Nepareizi: Meine Schwester ist neu. → Pareizi: Meine Schwester ist jung."
+        "Forkert: Meine Schwester ist neu. → Korrekt: Meine Schwester ist jung."
       ],
       "sectionAccents": {
         "explanation": {
@@ -15523,14 +15523,14 @@ const A1_WORDS = [
   },
   {
     "de": "ob",
-    "lv": "Eller",
+    "lv": "Om",
     "level": "A1",
     "study": {
       "id": "a1-ob",
       "layout": "standardStudy",
-      "translation": "Eller",
+      "translation": "Om",
       "explanation": [
-        "Hovedidé: ob introducerer et indirekte spørgsmål og betyder på lettisk oftest eller.",
+        "Hovedidé: ob introducerer et indirekte spørgsmål og betyder på dansk oftest om.",
         "Ob bruges efter ord som fragen, wissen, sehen, sagen, når der ikke er noget direkte spørgsmål.",
         "Ob bruges normalt ikke i et direkte spørgsmål på tysk.",
         "På A1-niveau er det vigtigt at skelne ob fra oder."
@@ -15755,7 +15755,7 @@ const A1_WORDS = [
       "translation": "Eller • Eller",
       "explanation": [
         "Hovedidé: oder bruges, når vi vælger mellem to eller flere muligheder.",
-        "På lettisk betyder oder oftest eller.",
+        "på dansk betyder oder oftest eller.",
         "Det er ikke det samme som ob, som introducerer et indirekte spørgsmål.",
         "I samtaler kan oder også stå i slutningen af ​​sætningen: Du kommst, oder?"
       ],
@@ -17978,7 +17978,7 @@ const A1_WORDS = [
       "translation": "Dig selv • For dig selv",
       "explanation": [
         "Hovedidé: sich viser, at handlingen refererer til gøreren selv.",
-        "På lettisk oversættes det ofte som selv eller selv.",
+        "på dansk oversættes det ofte som selv eller selv.",
         "I nogle tyske verber er sich en obligatorisk del, såsom sich waschen.",
         "Vigtigt at bemærke på A1-niveau: ich wasche mich, er wäscht sich."
       ],
@@ -18401,7 +18401,7 @@ const A1_WORDS = [
       "important": [
         "Høflighed altid med stort S: Sie, not sie.",
         "Hun: Sie kocht. De: sie kochen. Du: Sie kochen.",
-        "Nepareizi: sie kocht → Pareizi: Sie kocht",
+        "Forkert: sie kocht → Korrekt: Sie kocht",
         "Forkert: Sie kocht (de) → Korrekt: Sie kochen"
       ],
       "sectionAccents": {
@@ -18553,7 +18553,7 @@ const A1_WORDS = [
       "important": [
         "Høflighed altid med stort S: Sie, not sie.",
         "Hun: Sie kocht. De: sie kochen. Du: Sie kochen.",
-        "Nepareizi: sie kocht → Pareizi: Sie kocht",
+        "Forkert: sie kocht → Korrekt: Sie kocht",
         "Forkert: Sie kocht (de) → Korrekt: Sie kochen"
       ],
       "sectionAccents": {
@@ -21207,18 +21207,18 @@ const A1_WORDS = [
   },
   {
     "de": "was",
-    "lv": "Hvem • Hvad",
+    "lv": "Wen • Hvad",
     "level": "A1",
     "study": {
       "id": "a1-was",
       "layout": "standardStudy",
-      "translation": "Hvem • Hvad",
+      "translation": "Wen • Hvad",
       "explanation": [
-        "Hovedidé: hvad er et spørgsmålsord om ting og begivenheder - på lettisk er det hvad eller hvad, afhængigt af sætningens del.",
+        "Hovedidé: hvad er et spørgsmålsord om ting og begivenheder - på dansk er det hvad eller hvad, afhængigt af sætningens del.",
         "Blev spurgt om ting, begivenheder og fakta, ikke om personer.",
         "På tysk ændres var ikke efter bøjning - det ser altid ud som om var.",
-        "Hvis was er emnet for sætningen, oversættes det til kas (Was ist das? = Hvad er det?) på lettisk.",
-        "Hvis var er komplementet (objektet) til verbet, oversættes det til ko (Was machst du? = Hvad laver du?) på lettisk.",
+        "Hvis was er emnet for sætningen, oversættes det til kas (Was ist das? = Hvad er det?) på dansk.",
+        "Hvis var er komplementet (objektet) til verbet, oversættes det til ko (Was machst du? = Was machst du?) på dansk.",
         "Folk bliver spurgt med wer (hvem/hvem), ikke var."
       ],
       "examples": [
@@ -21259,7 +21259,7 @@ const A1_WORDS = [
         "blev spurgt om ting, begivenheder og fakta - aldrig om personer.",
         "Folk bliver spurgt med wer (hvem/hvem), ikke kan.",
         "was für (ein/eine) betyder nogen/hvad med og spørger om en kvalitet eller type (Was für ein Film ist das? = Hvilken slags film er det?).",
-        "Nepareizi: Wer ist passiert? → Pareizi: Var det passeret?"
+        "Forkert: Wer ist passiert? → Korrekt: Var det passeret?"
       ],
       "sectionAccents": {
         "explanation": {
@@ -21379,7 +21379,7 @@ const A1_WORDS = [
           },
           {
             "blue": [
-              "Nepareizi"
+              "Forkert"
             ]
           }
         ]
@@ -21670,14 +21670,14 @@ const A1_WORDS = [
   },
   {
     "de": "wer",
-    "lv": "Hvem • Hvem",
+    "lv": "Wen • Wen",
     "level": "A1",
     "study": {
       "id": "a1-wer",
       "layout": "standardStudy",
-      "translation": "Hvem • Hvem",
+      "translation": "Wen • Wen",
       "explanation": [
-        "Hovedidé: wer er et spørgsmålsord om en persons identitet - på lettisk er det hvem eller hvem.",
+        "Hovedidé: wer er et spørgsmålsord om en persons identitet - på dansk er det hvem eller hvem.",
         "Vi spurgte om mennesker, ikke om ting eller begivenheder.",
         "Ting og begivenheder spørges med var, ikke wer.",
         "Wer på tysk er normalt genstand for en sætning (nominativ) — Wer ist das? = Hvad er det?",
@@ -21691,7 +21691,7 @@ const A1_WORDS = [
         },
         {
           "de": "Wer bist du?",
-          "lv": "Hvem er du"
+          "lv": "Wen er du"
         },
         {
           "de": "Wer kommt heute?",
@@ -21699,19 +21699,19 @@ const A1_WORDS = [
         },
         {
           "de": "Wer ist deine Lehrerin?",
-          "lv": "Hvem er din lærer"
+          "lv": "Wen er din lærer"
         },
         {
           "de": "Wer von euch spricht Deutsch?",
-          "lv": "Hvem af jer taler tysk?"
+          "lv": "Wen af jer taler tysk?"
         },
         {
           "de": "Wer hat das gesagt?",
-          "lv": "Hvem sagde det?"
+          "lv": "Wen sagde det?"
         },
         {
           "de": "Wer möchte Kaffee?",
-          "lv": "Hvem vil have kaffe?"
+          "lv": "Wen vil have kaffe?"
         }
       ],
       "tip": [
@@ -21722,7 +21722,7 @@ const A1_WORDS = [
         "Der blev kun spurgt om personer, aldrig om ting.",
         "Ting og begivenheder spørges med var, ikke wer.",
         "wer skifter form ved bøjning: wen, wem, wessen - men grundformen er wer.",
-        "Nepareizi: Wer ist passiert? → Pareizi: Var det passeret?"
+        "Forkert: Wer ist passiert? → Korrekt: Var det passeret?"
       ],
       "sectionAccents": {
         "explanation": {
@@ -21751,7 +21751,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Hvem"
+                "Wen"
               ]
             }
           },
@@ -21775,7 +21775,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Hvem"
+                "Wen"
               ]
             }
           },
@@ -21787,7 +21787,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Hvem"
+                "Wen"
               ]
             }
           },
@@ -21799,7 +21799,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Hvem"
+                "Wen"
               ]
             }
           },
@@ -21811,7 +21811,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Hvem"
+                "Wen"
               ]
             }
           }
@@ -21847,7 +21847,7 @@ const A1_WORDS = [
               "Wer"
             ],
             "green": [
-              "Nepareizi"
+              "Forkert"
             ]
           }
         ]
@@ -22325,8 +22325,8 @@ const A1_WORDS = [
       "translation": "Hvordan • Hvor meget",
       "explanation": [
         "Hovedidé: wie spørger om art eller kvalitet (hvordan) og om mængde eller antal (hvor meget), afhængigt af konteksten.",
-        "Wie alene (Wie geht's?) spørger om vejen - på lettisk hvordan.",
-        "Wie + adjektiv (wie viel, wie alt, wie lange) spørger om mængde, alder eller varighed - hvor meget på lettisk.",
+        "Wie alene (Wie geht's?) spørger om vejen - på dansk hvordan.",
+        "Wie + adjektiv (wie viel, wie alt, wie lange) spørger om mængde, alder eller varighed - hvor meget på dansk.",
         "Wie viel(e) betyder hvor meget • Wie alt betyder hvor gammel • Wie lange betyder hvor længe.",
         "Til sammenligning betyder wie ligesom (så groß wie = så stor som)."
       ],
@@ -23474,7 +23474,7 @@ const A1_WORDS = [
       "important": [
         "fernsehen er splittet: sehen + bregne.",
         "das Fernsehen er ikke flertal - ikke *die Fernsehen.",
-        "Nepareizi: die Fernsehen → Pareizi: das Fernsehen",
+        "Forkert: die Fernsehen → Korrekt: das Fernsehen",
         "Handling: fernsehen → ich sehe bregne."
       ],
       "sectionAccents": {
@@ -23610,8 +23610,8 @@ const A1_WORDS = [
       ],
       "important": [
         "der Appetit er kun ental.",
-        "Nepareizi: die Appetit → Pareizi: der Appetit",
-        "Nepareizi: Ich bin Appetit. → Pareizi: Jeg har appetit.",
+        "Forkert: die Appetit → Korrekt: der Appetit",
+        "Forkert: Ich bin Appetit. → Korrekt: Jeg har appetit.",
         "Føl: der Appetit."
       ],
       "sectionAccents": {
@@ -23998,7 +23998,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Nav pareizi: die Gemüse, die Obsts.",
-        "Nepareizi: die Gemüse → Pareizi: das Gemüse",
+        "Forkert: die Gemüse → Korrekt: das Gemüse",
         "das Gemüse = grøntsager (generelt)."
       ],
       "sectionAccents": {
@@ -24136,7 +24136,7 @@ const A1_WORDS = [
         "Brug das Obst når sammenhængen passer til denne betydning."
       ],
       "important": [
-        "Nepareizi: die Obsts → Pareizi: das Obst",
+        "Forkert: die Obsts → Korrekt: das Obst",
         "das Obst = frugter (i almindelighed)."
       ],
       "sectionAccents": {
@@ -24283,7 +24283,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Ferien altid med dativ: in den Ferien.",
-        "Nepareizi: in der Ferien → Pareizi: in den Ferien",
+        "Forkert: in der Ferien → Korrekt: in den Ferien",
         "Skole: die Ferien (kun flertal).",
         "kun flertal. Skole- eller studieferier - altid i flertal."
       ],
@@ -24412,7 +24412,7 @@ const A1_WORDS = [
       "important": [
         "Forkert: die Ferie, der Urlabe (på A1-niveau).",
         "Urlaub: im Urlaub sein / Urlaub machen.",
-        "Nepareizi: die Urlaube → Pareizi: der Urlaub",
+        "Forkert: die Urlaube → Korrekt: der Urlaub",
         "Arbejde: der Urlaub (kun ental)."
       ],
       "sectionAccents": {

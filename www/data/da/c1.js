@@ -4357,7 +4357,7 @@ const C1_WORDS = [
       ],
       "important": [
         "unterstellen er følelsesmæssigt negativ - en uberettiget anklage.",
-        "Nepareizi: Wir unterstellen Grundkenntnisse. → Pareizi: Wir setzen Grundkenntnisse voraus.",
+        "Forkert: Wir unterstellen Grundkenntnisse. → Korrekt: Wir setzen Grundkenntnisse voraus.",
         "unterstellen → skyld, attribut."
       ],
       "sectionAccents": {
@@ -4540,7 +4540,7 @@ const C1_WORDS = [
       ],
       "important": [
         "bewahren: Wertvolles bewahren - beskyt det værdifulde.",
-        "Nepareizi: Wir bewahren den Frieden auf. → Pareizi: Wir erhalten den Frieden auf.",
+        "Forkert: Wir bewahren den Frieden auf. → Korrekt: Wir erhalten den Frieden auf.",
         "bewahren → beskytte, bevare."
       ],
       "sectionAccents": {

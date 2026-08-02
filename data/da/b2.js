@@ -10993,7 +10993,7 @@ const B2_WORDS = [
     "de": "Schnappschuss",
     "de_article": "der",
     "de_plural": "die Schnappschüsse",
-    "lv": "Et øjebliksbillede på et billede",
+    "lv": "Et øjebliksbillede på ein Bild",
     "level": "B2"
   },
   {

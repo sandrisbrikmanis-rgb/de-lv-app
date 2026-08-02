@@ -561,7 +561,7 @@ const DIALOGUE_ID_MAP = {
   },
   "diag_141": {
     "de": "Nein, hier sitzt niemand.",
-    "lv": "Nej, her sidder ingen."
+    "lv": "Nein, her sidder ingen."
   },
   "diag_142": {
     "de": "Wo ist der Bahnsteigkartenautomat?",
@@ -797,7 +797,7 @@ const DIALOGUE_ID_MAP = {
   },
   "diag_200": {
     "de": "Ist in diesem Haus eine Wohnung frei?",
-    "lv": "Er der en ledig lejlighed i dette hus?"
+    "lv": "Ist der en ledig lejlighed i dette hus?"
   },
   "diag_201": {
     "de": "Wie viel kostet die Miete?",
@@ -1213,7 +1213,7 @@ const DIALOGUE_ID_MAP = {
   },
   "diag_304": {
     "de": "Bitte, fotografieren Sie mich.",
-    "lv": "Tag venligst et billede af mig."
+    "lv": "Tag venligst ein Bild af mig."
   },
   "diag_305": {
     "de": "Setzen Sie sich, schauen Sie gerade in die Kamera und bewegen Sie sich nicht!",

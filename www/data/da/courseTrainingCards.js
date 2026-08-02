@@ -10,7 +10,7 @@ window.lesson1TrainingCardsDa = [
     "back": "Ja, ich komme."
   },
   {
-    "front": "Hvem synger?",
+    "front": "Wen synger?",
     "back": "Wer singt?"
   },
   {
@@ -49,7 +49,7 @@ window.lesson1TrainingCardsDa = [
 
 window.lesson2TrainingCardsDa = [
   {
-    "front": "Hvem spørger?",
+    "front": "Wen spørger?",
     "back": "Wer fragt?"
   },
   {
@@ -65,7 +65,7 @@ window.lesson2TrainingCardsDa = [
     "back": "Antwortet Paul?"
   },
   {
-    "front": "Nej, han svarer ikke, spørger han.",
+    "front": "Nein, han svarer ikke, spørger han.",
     "back": "Nein, er antwortet nicht, er fragt."
   },
   {
@@ -73,7 +73,7 @@ window.lesson2TrainingCardsDa = [
     "back": "Singen Paul und Marie?"
   },
   {
-    "front": "Nej, de synger ikke, de tæller.",
+    "front": "Nein, de synger ikke, de zählt.",
     "back": "Nein, sie singen nicht, sie rechnen."
   },
   {
@@ -116,11 +116,11 @@ window.lesson3TrainingCardsDa = [
     "back": "Rechnest du?"
   },
   {
-    "front": "Nej, jeg tæller ikke, jeg tegner.",
+    "front": "Nein, jeg zählt ikke, jeg tegner.",
     "back": "Nein, ich rechne nicht, ich zeichne."
   },
   {
-    "front": "Hvem står der?",
+    "front": "Wen står der?",
     "back": "Was steht dort?"
   },
   {
@@ -128,7 +128,7 @@ window.lesson3TrainingCardsDa = [
     "back": "Dort steht ein Tisch."
   },
   {
-    "front": "Hvem er her?",
+    "front": "Wen er her?",
     "back": "Was liegt hier?"
   },
   {
@@ -140,7 +140,7 @@ window.lesson3TrainingCardsDa = [
     "back": "Ist das Buch dünn?"
   },
   {
-    "front": "Nej, bogen er tyk.",
+    "front": "Nein, bogen er tyk.",
     "back": "Nein, das Buch ist dick."
   },
   {
@@ -168,7 +168,7 @@ window.lesson3TrainingCardsDa = [
     "back": "Der Tisch ist hoch."
   },
   {
-    "front": "Er der/er der en notesbog?",
+    "front": "Ist der/er der en notesbog?",
     "back": "Liegt dort ein Heft?"
   },
   {
@@ -180,7 +180,7 @@ window.lesson3TrainingCardsDa = [
     "back": "Kommt Paul?"
   },
   {
-    "front": "Nej, Paulus kommer ikke, han står.",
+    "front": "Nein, Paulus kommer ikke, han står.",
     "back": "Nein, Paul kommt nicht, er steht."
   },
   {
@@ -188,7 +188,7 @@ window.lesson3TrainingCardsDa = [
     "back": "Was hängt hier?"
   },
   {
-    "front": "Der hænger et billede her.",
+    "front": "Der hænger ein Bild her.",
     "back": "Hier hängt ein Bild."
   },
   {
@@ -227,7 +227,7 @@ window.lesson4TrainingCardsDa = [
     "back": "Nimmt er ein Messer?"
   },
   {
-    "front": "Nej, han tager en fjer.",
+    "front": "Nein, han tager en fjer.",
     "back": "Nein, er nimmt eine Feder."
   },
   {
@@ -239,7 +239,7 @@ window.lesson4TrainingCardsDa = [
     "back": "Ist das Messer stumpf?"
   },
   {
-    "front": "Nej, den er skarp.",
+    "front": "Nein, den er skarp.",
     "back": "Nein, es ist scharf."
   },
   {
@@ -263,7 +263,7 @@ window.lesson4TrainingCardsDa = [
     "back": "Wie ist das Buch?"
   },
   {
-    "front": "Bogen er lille.",
+    "front": "Bogen ist klein.",
     "back": "Das Buch ist klein."
   }
 ];
@@ -282,7 +282,7 @@ window.lesson5TrainingCardsDa = [
     "back": "Was nimmst du?"
   },
   {
-    "front": "Hvem spørger du?",
+    "front": "Wen spørger du?",
     "back": "Wen fragst du?"
   },
   {
@@ -306,7 +306,7 @@ window.lesson5TrainingCardsDa = [
     "back": "Antwortet die Schülerin schlecht?"
   },
   {
-    "front": "Nej, eleven svarer ikke dårligt, hun svarer godt.",
+    "front": "Nein, eleven svarer ikke dårligt, hun svarer godt.",
     "back": "Nein, die Schülerin antwortet nicht schlecht, sie antwortet gut."
   },
   {
@@ -349,7 +349,7 @@ window.lesson6TrainingCardsDa = [
     "back": "Er zeichnet einen Eimer."
   },
   {
-    "front": "Hvem trækker vognen?",
+    "front": "Wen trækker vognen?",
     "back": "Wer zeichnet einen Wagen?"
   },
   {
@@ -377,7 +377,7 @@ window.lesson6TrainingCardsDa = [
     "back": "Ich lege zwei Nadeln hin."
   },
   {
-    "front": "Hvem tæller knive og plader?",
+    "front": "Wen zählt knive og plader?",
     "back": "Wer zählt die Messer und die Teller?"
   },
   {

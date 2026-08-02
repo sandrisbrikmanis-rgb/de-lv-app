@@ -67,6 +67,11 @@ scripts/.nn-translation-cache.json
 scripts/.nn-ui-translation-cache.json
 scripts/.da-translation-cache.json
 scripts/.da-ui-translation-cache.json
+scripts/.da-en-translation-cache.json
+scripts/.da-ui-en-translation-cache.json
+scripts/.da-remnant-translation-cache.json
+scripts/.da-lv-remnant-cache.json
+scripts/.da-training-cache.json
 scripts/.nl-translation-cache.json
 scripts/.nl-lv-translation-cache.json
 scripts/.nl-ui-translation-cache.json

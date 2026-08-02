@@ -536,7 +536,7 @@ const B1_WORDS = [
         {
           "word": "anbringen",
           "meaning": "At vedhæfte",
-          "example": "Ich bringe ein Bild an. = Jeg vedhæfter et billede."
+          "example": "Ich bringe ein Bild an. = Jeg vedhæfter ein Bild."
         },
         {
           "word": "aufstellen",
@@ -2331,7 +2331,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "På lettisk passer \"fragment\" ikke altid • Der Abschnitt er oftere et afsnit eller afsnit."
+        "text": "på dansk passer \"fragment\" ikke altid • Der Abschnitt er oftere et afsnit eller afsnit."
       },
       "sectionAccents": {
         "explanation": {
@@ -10333,7 +10333,7 @@ const B1_WORDS = [
         {
           "word": "das Display",
           "meaning": "Vise",
-          "example": "Das Display ist klein. = Displayet er lille."
+          "example": "Das Display ist klein. = Displayet ist klein."
         }
       ],
       "tip": {
@@ -10673,7 +10673,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "På foden er Blase normalt \"blære\" på lettisk, ikke \"blære\". I medicin kan Blase også være blære."
+        "text": "På foden er Blase normalt \"blære\" på dansk, ikke \"blære\". I medicin kan Blase også være blære."
       },
       "sectionAccents": {
         "examples": [
@@ -12049,7 +12049,7 @@ const B1_WORDS = [
         {
           "word": "der Verein",
           "meaning": "Samfund",
-          "example": "Der Verein ist klein. = Foreningen er lille."
+          "example": "Der Verein ist klein. = Foreningen ist klein."
         }
       ],
       "tip": {
@@ -13063,7 +13063,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Danke bruges til et kort svar i en samtale: Danke! / Nej, tak."
+            "text": "Danke bruges til et kort svar i en samtale: Danke! / Nein, tak."
           },
           {
             "text": "For en mere formel tak, brug Vielen Dank! eller Ich danke Ihnen."
@@ -13572,7 +13572,7 @@ const B1_WORDS = [
         {
           "word": "zeigen",
           "meaning": "Vise",
-          "example": "Ich zeige dir das Bild. = Jeg viser dig et billede."
+          "example": "Ich zeige dir das Bild. = Jeg viser dig ein Bild."
         },
         {
           "word": "sich vorstellen",
@@ -16486,7 +16486,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Nesaki \"ich falle eine Idee ein\". Pareizi: Mir fällt eine Idee ein."
+        "text": "Nesaki \"ich falle eine Idee ein\". Korrekt: Mir fällt eine Idee ein."
       },
       "sectionAccents": {
         "examples": [
@@ -16917,7 +16917,7 @@ const B1_WORDS = [
       "id": "b1-einfügen",
       "layout": "standardStudy",
       "translation": "At indsætte",
-      "explanation": "Hovedidé: einfügen betyder at indsætte eller dele noget i en tekst, et dokument, et billede eller et system.",
+      "explanation": "Hovedidé: einfügen betyder at indsætte eller dele noget i en tekst, et dokument, ein Bild eller et system.",
       "examples": [
         {
           "de": "Füge das Bild in das Dokument ein.",
@@ -18645,7 +18645,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Einsatz spørger altid: Hvem er involveret eller brugt, og i hvilken situation?"
+            "text": "Einsatz spørger altid: Wen er involveret eller brugt, og i hvilken situation?"
           }
         ]
       },
@@ -19208,7 +19208,7 @@ const B1_WORDS = [
         },
         {
           "word": "beitreten",
-          "meaning": "Join the organisation",
+          "meaning": "Tilslut dig organisationen",
           "example": "Ich trete dem Verein bei. = Jeg meldte mig ind i foreningen."
         }
       ],
@@ -19310,7 +19310,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Join"
+                "Tilslut"
               ]
             }
           }
@@ -20414,7 +20414,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Fra hospitalet er entlassen normalt \"udskrivning\" på lettisk, ikke \"afskedig\"."
+        "text": "Fra hospitalet er entlassen normalt \"udskrivning\" på dansk, ikke \"afskedig\"."
       },
       "sectionAccents": {
         "examples": [
@@ -24443,7 +24443,7 @@ const B1_WORDS = [
       ],
       "important": [
         "ganztägig = hele dagen lang (en dag), ikke en 24-timers arbejdsplan.",
-        "Nepareizi: ganztägig = 24 stundas → Pareizi: rund um die Uhr = 24 stundas/diennakts."
+        "Forkert: ganztägig = 24 stundas → Korrekt: rund um die Uhr = 24 stundas/diennakts."
       ],
       "sectionAccents": {
         "explanation": {
@@ -25153,7 +25153,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Der Gehalt = saturs (die Gehalte). das Gehalt = alge (die Gehälter). Nepareizi: die Gehälter par saturu — pareizi: die Gehalte."
+        "text": "Der Gehalt = saturs (die Gehalte). das Gehalt = alge (die Gehälter). Forkert: die Gehälter par saturu — pareizi: die Gehalte."
       },
       "sectionAccents": {
         "explanation": {
@@ -30444,7 +30444,7 @@ const B1_WORDS = [
         "Hovedidé: der Hort (også Schulhort/Kinderhort) er en efterskole for børn i skolealderen.",
         "I Tyskland passer der Hort børn efter skoletid, mens forældrene er på arbejde.",
         "Ikke at forveksle med børnehaven - det er en institution for førskolebørn (op til 6 år).",
-        "På lettisk er det tætteste match en udvidet daggruppe eller et børnedagcenter."
+        "på dansk er det tætteste match en udvidet daggruppe eller et børnedagcenter."
       ],
       "examples": [
         {
@@ -33061,7 +33061,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Kern er nogle gange oversat som et frø eller sten på lettisk for frugter • Konteksten bestemmer oversættelsen."
+        "text": "Kern er nogle gange oversat som et frø eller sten på dansk for frugter • Konteksten bestemmer oversættelsen."
       },
       "sectionAccents": {
         "examples": [
@@ -35952,7 +35952,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "Træning, skibsretning eller byttepris → der Kursus.",
-      "important": "På lettisk kan 'kursus' have flere betydninger, men på tysk afgør konteksten, om det handler om lektioner, retning eller pris.",
+      "important": "på dansk kan 'kursus' have flere betydninger, men på tysk afgør konteksten, om det handler om lektioner, retning eller pris.",
       "sectionAccents": {
         "explanation": {
           "purple": [
@@ -36038,7 +36038,7 @@ const B1_WORDS = [
         },
         "important": {
           "purple": [
-            "lettisk"
+            "dansk"
           ]
         }
       }
@@ -37066,7 +37066,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "Koks vai auglis? Skaties kontekstu ap die Kastanie.",
-      "important": "På lettisk er det ofte nødvendigt at skelne kastanje som et træ og kastanje som frugt.",
+      "important": "på dansk er det ofte nødvendigt at skelne kastanje som et træ og kastanje som frugt.",
       "sectionAccents": {
         "explanation": {
           "purple": [
@@ -37154,7 +37154,7 @@ const B1_WORDS = [
         },
         "important": {
           "purple": [
-            "lettisk"
+            "dansk"
           ]
         }
       }
@@ -37183,7 +37183,7 @@ const B1_WORDS = [
         },
         {
           "de": "Wer trägt die Kosten?",
-          "lv": "Hvem betaler omkostningerne?"
+          "lv": "Wen betaler omkostningerne?"
         },
         {
           "de": "Das kostet 5 Euro.",
@@ -37231,7 +37231,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Hvem"
+                "Wen"
               ]
             }
           },
@@ -37607,7 +37607,7 @@ const B1_WORDS = [
         "laut er små bogstaver og har ingen artikel - det er et adjektiv.",
         "der Laut med stort bogstav og artiklen der er et navneord.",
         "Flertal: die Laute (sproglyde, bip).",
-        "Nepareizi: Der Laut ist sehr. → Pareizi: Das ist sehr laut."
+        "Forkert: Der Laut ist sehr. → Korrekt: Das ist sehr laut."
       ],
       "sectionAccents": {
         "explanation": {
@@ -47235,7 +47235,7 @@ const B1_WORDS = [
         {
           "word": "der Samen",
           "meaning": "Individuelt frø",
-          "example": "Der Samen ist klein. = Frøet er lille."
+          "example": "Der Samen ist klein. = Frøet ist klein."
         },
         {
           "word": "säen",
@@ -48225,7 +48225,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "Et pludseligt slag: Schlag gælder.",
-      "important": "Schlag er meget kontekstuelt • Lyn betyder ofte spark på lettisk.",
+      "important": "Schlag er meget kontekstuelt • Lyn betyder ofte spark på dansk.",
       "sectionAccents": {
         "explanation": {
           "purple": [
@@ -51365,7 +51365,7 @@ const B1_WORDS = [
   },
   {
     "de": "sowohl",
-    "lv": "Begge... begge",
+    "lv": "Både... og",
     "level": "B1"
   },
   {
@@ -53720,8 +53720,8 @@ const B1_WORDS = [
         },
         {
           "word": "malen",
-          "meaning": "Tegn eller mal et billede",
-          "example": "Das Kind malt ein Bild. = Et barn tegner et billede."
+          "meaning": "Tegn eller mal ein Bild",
+          "example": "Das Kind malt ein Bild. = Et barn tegner ein Bild."
         }
       ],
       "tip": {
@@ -56307,7 +56307,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Hvad laver du? er et dagligdags spørgsmål om, hvad en person gør."
+        "text": "Was machst du? er et dagligdags spørgsmål om, hvad en person gør."
       },
       "sectionAccents": {
         "explanation": {
@@ -61007,7 +61007,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "I teater eller biograf: show • I hovedet: et billede."
+            "text": "I teater eller biograf: show • I hovedet: ein Bild."
           }
         ]
       },
@@ -61970,7 +61970,7 @@ const B1_WORDS = [
         {
           "word": "die Änderung",
           "meaning": "En forandring",
-          "example": "Die Änderung ist klein. = Ændringen er lille."
+          "example": "Die Änderung ist klein. = Ændringen ist klein."
         },
         {
           "word": "wechseln",
@@ -64646,7 +64646,7 @@ const B1_WORDS = [
       ],
       "important": [
         "weil ich bin krank — nepareizi; pareizi: weil ich krank bin.",
-        "Nepareizi: weil ich bin krank → Pareizi: weil ich krank bin",
+        "Forkert: weil ich bin krank → Korrekt: weil ich krank bin",
         "weil = den hyppigste årsagssammenhæng."
       ],
       "sectionAccents": {
@@ -64779,7 +64779,7 @@ const B1_WORDS = [
       ],
       "important": [
         "da som forbindelse ≠ da som der (stedsnavn).",
-        "Nepareizi: Da ich bin krank, ... → Pareizi: Da ich krank bin, ...",
+        "Forkert: Da ich bin krank, ... → Korrekt: Da ich krank bin, ...",
         "da (forbindelse) = årsag allerede kendt."
       ],
       "sectionAccents": {
@@ -64896,7 +64896,7 @@ const B1_WORDS = [
       ],
       "important": [
         "obwohl introducerer en hjælpesætning - verbet i slutningen.",
-        "Nepareizi: Obwohl ich bin müde, ... → Pareizi: Obwohl ich müde bin, ...",
+        "Forkert: Obwohl ich bin müde, ... → Korrekt: Obwohl ich müde bin, ...",
         "obwohl = skønt (hjælpesætning).",
         "Introducerer den modsatte grund i hjælpeklausulen. Verbet er i slutningen af ​​sætningen."
       ],
@@ -65047,7 +65047,7 @@ const B1_WORDS = [
       "important": [
         "trotzdem står i hovedsætningen - verbet i 2. position.",
         "trotz (præposition) ≠ trotzdem (adverbium).",
-        "Nepareizi: Trotzdem ich gehe. → Pareizi: Trotzdem gehe ich.",
+        "Forkert: Trotzdem ich gehe. → Korrekt: Trotzdem gehe ich.",
         "trotzdem = ikke desto mindre (hovedsætning)."
       ],
       "sectionAccents": {
@@ -65723,7 +65723,7 @@ const B1_WORDS = [
         },
         {
           "de": "Wer ist der Erbe?",
-          "lv": "Hvem er arving"
+          "lv": "Wen er arving"
         },
         {
           "de": "Das Erbe wird geteilt.",
@@ -65738,7 +65738,7 @@ const B1_WORDS = [
         "der Erbe = mand (arving).",
         "das Erbe = lieta (mantojums).",
         "Forveksle ikke: der Erbe ist groß (mand) vs das Erbe ist groß (arv).",
-        "Nepareizi: das Erbe wohnt i Berlin → Pareizi: der Erbe wohnt i Berlin"
+        "Forkert: das Erbe wohnt i Berlin → Korrekt: der Erbe wohnt i Berlin"
       ],
       "sectionAccents": {
         "explanation": {
@@ -65805,7 +65805,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Hvem"
+                "Wen"
               ]
             }
           },
@@ -65876,7 +65876,7 @@ const B1_WORDS = [
         },
         {
           "de": "Wer ist der Erbe?",
-          "lv": "Hvem er arving"
+          "lv": "Wen er arving"
         },
         {
           "de": "Das Erbe wird geteilt.",
@@ -65891,7 +65891,7 @@ const B1_WORDS = [
         "der Erbe = mand (arving).",
         "das Erbe = lieta (mantojums).",
         "Forveksle ikke: der Erbe ist groß (mand) vs das Erbe ist groß (arv).",
-        "Nepareizi: das Erbe wohnt i Berlin → Pareizi: der Erbe wohnt i Berlin"
+        "Forkert: das Erbe wohnt i Berlin → Korrekt: der Erbe wohnt i Berlin"
       ],
       "sectionAccents": {
         "explanation": {
@@ -65958,7 +65958,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Hvem"
+                "Wen"
               ]
             }
           },
@@ -66022,7 +66022,7 @@ const B1_WORDS = [
         },
         {
           "de": "Wer zahlt den Schaden?",
-          "lv": "Hvem betaler for tabet?"
+          "lv": "Wen betaler for tabet?"
         },
         {
           "de": "Der Schaden ist groß.",
@@ -66040,7 +66040,7 @@ const B1_WORDS = [
       "important": [
         "der Schaden = navneord (tab).",
         "schaden = verbum (skade) + hvad?.",
-        "Nepareizi: Der Schaden schadet → Pareizi: Etwas schadet der Gesundheit.",
+        "Forkert: Der Schaden schadet → Korrekt: Etwas schadet der Gesundheit.",
         "der Schaden = tab."
       ],
       "sectionAccents": {
@@ -66094,7 +66094,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Hvem"
+                "Wen"
               ]
             }
           },
@@ -66171,7 +66171,7 @@ const B1_WORDS = [
         },
         {
           "de": "Wer zahlt den Schaden?",
-          "lv": "Hvem betaler for tabet?"
+          "lv": "Wen betaler for tabet?"
         },
         {
           "de": "Der Schaden ist groß.",
@@ -66189,7 +66189,7 @@ const B1_WORDS = [
       "important": [
         "der Schaden = navneord (tab).",
         "schaden = verbum (skade) + hvad?.",
-        "Nepareizi: Der Schaden schadet → Pareizi: Etwas schadet der Gesundheit.",
+        "Forkert: Der Schaden schadet → Korrekt: Etwas schadet der Gesundheit.",
         "der Schaden = tab."
       ],
       "sectionAccents": {
@@ -66325,7 +66325,7 @@ const B1_WORDS = [
       "important": [
         "das Vertrauen = substantiv (tillid).",
         "vertrauen = verbum (at stole på) + hvad?.",
-        "Nepareizi: Ich habe Vertrauen in dich. → Pareizi: Ich habe Vertrauen zu dir.",
+        "Forkert: Ich habe Vertrauen in dich. → Korrekt: Ich habe Vertrauen zu dir.",
         "das Vertrauen = tillid."
       ],
       "sectionAccents": {
@@ -66474,7 +66474,7 @@ const B1_WORDS = [
       "important": [
         "das Vertrauen = substantiv (tillid).",
         "vertrauen = verbum (at stole på) + hvad?.",
-        "Nepareizi: Ich habe Vertrauen in dich. → Pareizi: Ich habe Vertrauen zu dir.",
+        "Forkert: Ich habe Vertrauen in dich. → Korrekt: Ich habe Vertrauen zu dir.",
         "das Vertrauen = tillid."
       ],
       "sectionAccents": {
@@ -66616,7 +66616,7 @@ const B1_WORDS = [
         "der Trotz = navneord (på trods).",
         "trotz = præposition (på trods af) + besiddende form.",
         "trotz dem Regen — nepareizi; pareizi: trotz des Regens.",
-        "Nepareizi: Trotz dem Regen gehen wir. → Pareizi: Trotz des Regens gehen wir."
+        "Forkert: Trotz dem Regen gehen wir. → Korrekt: Trotz des Regens gehen wir."
       ],
       "sectionAccents": {
         "explanation": {
@@ -66755,7 +66755,7 @@ const B1_WORDS = [
         "der Trotz = navneord (på trods).",
         "trotz = præposition (på trods af) + besiddende form.",
         "trotz dem Regen — nepareizi; pareizi: trotz des Regens.",
-        "Nepareizi: Trotz dem Regen gehen wir. → Pareizi: Trotz des Regens gehen wir."
+        "Forkert: Trotz dem Regen gehen wir. → Korrekt: Trotz des Regens gehen wir."
       ],
       "sectionAccents": {
         "explanation": {
