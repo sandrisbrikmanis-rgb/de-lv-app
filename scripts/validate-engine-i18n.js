@@ -39,7 +39,7 @@ function loadKeys(file) {
   return new Set(keys);
 }
 
-const LANGUAGES = ["lt", "ru", "pl", "uk", "et", "en", "ro", "bg", "tr", "gr", "sq", "mk", "sl", "bs", "sr", "hr", "sk", "cs", "fi", "sv", "nb", "nn", "da", "nl", "lb", "fr", "it", "es", "pt", "hu"];
+const LANGUAGES = ["lt", "ru", "pl", "uk", "et", "en", "ro", "bg", "tr", "gr", "sq", "mk", "sl", "bs", "sr", "hr", "sk", "cs", "fi", "sv", "nb", "nn", "da", "nl", "lb", "fr", "it", "es", "pt", "hu", "is"];
 const lvKeys = loadKeys("languages/lv/ui.js");
 
 for (const lang of LANGUAGES) {
