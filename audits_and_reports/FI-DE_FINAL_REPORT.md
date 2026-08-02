@@ -6,7 +6,7 @@
 |-------|---------|
 | **Valodas pāris** | FI–DE (Suomi → Deutsch) |
 | **Statuss** | Tehniski pilnībā izveidots un integrēts |
-| **Pull Request** | (tiks izveidots pēc commit) |
+| **Pull Request** | #236 |
 | **Darba rezultāts** | Pilns somu valodas datu komplekts A1–C2, Study kartītes, teikumi, darbības vārdi, Kurss un UI lokalizācija |
 
 ---
