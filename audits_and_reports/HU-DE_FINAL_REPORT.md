@@ -6,7 +6,7 @@
 |-------|---------|
 | **Valodas pairs** | HU–DE (Magyar → Deutsch) |
 | **Statuss** | Tehniski pilniba izveidots un integrēts |
-| **Darba rezultats** | Pilns ungaru valodas datu komplekts A1–C2, Study kartites, teikumi, darbibas vardi, Kurss un UI lokalizacija |
+| **Pull Request** | #249 |
 
 ---
 
