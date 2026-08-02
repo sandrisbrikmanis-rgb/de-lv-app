@@ -6,7 +6,7 @@
 |-------|---------|
 | **Valodas pāris** | NN–DE (Norsk nynorsk → Deutsch) |
 | **Statuss** | Tehniski pilnībā izveidots un integrēts |
-| **Pull Request** | (tiks izveidots pēc push) |
+| **Pull Request** | #239 |
 | **Darba rezultāts** | Pilns nynorsk valodas datu komplekts A1–C2, Study kartītes, teikumi, darbības vārdi, Kurss un UI lokalizācija |
 
 ---
