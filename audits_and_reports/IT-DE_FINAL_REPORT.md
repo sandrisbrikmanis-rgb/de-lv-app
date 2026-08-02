@@ -6,7 +6,7 @@
 |-------|---------|
 | **Valodas pāris** | IT–DE (Italiano → Deutsch) |
 | **Statuss** | Tehniski pilnībā izveidots un integrēts |
-| **Pull Request** | (tiks pievienots pēc PR izveides) |
+| **Pull Request** | #245 |
 | **Darba rezultāts** | Pilns itāļu valodas datu komplekts A1–C2, Study kartītes, teikumi, darbības vārdi, Kurss un UI lokalizācija |
 
 ---
