@@ -6,7 +6,7 @@
 |-------|---------|
 | **Valodas pāris** | NB–DE (Norsk Bokmål → Deutsch) |
 | **Statuss** | Tehniski pilnībā izveidots un integrēts |
-| **Pull Request** | (tiks pievienots pēc PR izveides) |
+| **Pull Request** | #238 |
 | **Darba rezultāts** | Pilns norvēģu bokmål valodas datu komplekts A1–C2, Study kartītes, teikumi, darbības vārdi, Kurss un UI lokalizācija |
 
 ---
