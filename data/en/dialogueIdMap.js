@@ -824,7 +824,7 @@ const DIALOGUE_ID_MAP = {
     "lv": "I am in correspondence with my friend."
   },
   "diag_207": {
-    "de": "Gehen wir ins Theater?",
+    "de": "Gehen wir ins theatre?",
     "lv": "Shall we go to the theatre?"
   },
   "diag_208": {
@@ -1092,15 +1092,15 @@ const DIALOGUE_ID_MAP = {
     "lv": "Please issue an invoice."
   },
   "diag_274": {
-    "de": "Was kostet das Meter?",
-    "lv": "How much does a meter cost?"
+    "de": "Was kostet das metre?",
+    "lv": "How much does a metre cost?"
   },
   "diag_275": {
     "de": "Dieser Stoff gefällt mir.",
     "lv": "I love this fabric."
   },
   "diag_276": {
-    "de": "Schneiden Sie mir bitte drei Meter ab.",
+    "de": "Schneiden Sie mir bitte drei metre ab.",
     "lv": "Please cut three meters."
   },
   "diag_277": {
@@ -1301,7 +1301,7 @@ const DIALOGUE_ID_MAP = {
   },
   "diag_326": {
     "de": "Alle Schmuckstücke sind gestempelt.",
-    "lv": "All jewelry is stamped."
+    "lv": "All jewellery is stamped."
   },
   "diag_327": {
     "de": "Falls es meiner Frau nicht gefällt, kann ich es umtauschen?",

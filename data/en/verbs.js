@@ -2,4159 +2,4159 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "backen",
-      "lv": "To bake"
+      "lv": "cept"
     },
     "praesens": {
       "de": "er bäckt",
-      "lv": "He bakes"
+      "lv": "he bakes"
     },
     "imperfektIndikativ": {
       "de": "er buk",
-      "lv": "He was baking"
+      "lv": "he was baking"
     },
     "imperfektKonjunktiv": {
       "de": "er büke",
-      "lv": "He would bake"
+      "lv": "he would bake"
     },
     "partizipVergangenheit": {
       "de": "gebacken",
-      "lv": "Fried / baked"
+      "lv": "cepts / izcepts"
     }
   },
   {
     "infinitiv": {
       "de": "befehlen",
-      "lv": "To command"
+      "lv": "to command"
     },
     "praesens": {
       "de": "er befiehlt",
-      "lv": "He commands"
+      "lv": "he commands"
     },
     "imperfektIndikativ": {
       "de": "er befahl",
-      "lv": "He commanded"
+      "lv": "he commanded"
     },
     "imperfektKonjunktiv": {
       "de": "er beföhle",
-      "lv": "He would command"
+      "lv": "he would command"
     },
     "partizipVergangenheit": {
       "de": "befohlen",
-      "lv": "Commanded"
+      "lv": "commanded"
     }
   },
   {
     "infinitiv": {
       "de": "beginnen",
-      "lv": "To start"
+      "lv": "to start"
     },
     "praesens": {
       "de": "er beginnt",
-      "lv": "He starts"
+      "lv": "he starts"
     },
     "imperfektIndikativ": {
       "de": "er begann",
-      "lv": "He started"
+      "lv": "he started"
     },
     "imperfektKonjunktiv": {
       "de": "er begönne / er begänne",
-      "lv": "He would start"
+      "lv": "he would start"
     },
     "partizipVergangenheit": {
       "de": "begonnen",
-      "lv": "Started"
+      "lv": "started"
     }
   },
   {
     "infinitiv": {
       "de": "beißen",
-      "lv": "Bite"
+      "lv": "kost"
     },
     "praesens": {
       "de": "er beißt",
-      "lv": "He bites"
+      "lv": "he bites"
     },
     "imperfektIndikativ": {
       "de": "er biss",
-      "lv": "He coded"
+      "lv": "he coded"
     },
     "imperfektKonjunktiv": {
       "de": "er bisse",
-      "lv": "He bites"
+      "lv": "he bites"
     },
     "partizipVergangenheit": {
       "de": "gebissen",
-      "lv": "Bitten / bitten"
+      "lv": "kosts / sakosts"
     }
   },
   {
     "infinitiv": {
       "de": "bergen",
-      "lv": "Hide"
+      "lv": "hide"
     },
     "praesens": {
       "de": "er birgt",
-      "lv": "He hides"
+      "lv": "he hides"
     },
     "imperfektIndikativ": {
       "de": "er barg",
-      "lv": "He hid"
+      "lv": "he hid"
     },
     "imperfektKonjunktiv": {
       "de": "er bürge / er bärge",
-      "lv": "He would hide"
+      "lv": "he would hide"
     },
     "partizipVergangenheit": {
       "de": "geborgen",
-      "lv": "Hidden / saved"
+      "lv": "hidden / saved"
     }
   },
   {
     "infinitiv": {
       "de": "bersten",
-      "lv": "Bursting"
+      "lv": "bursting"
     },
     "praesens": {
       "de": "er birst",
-      "lv": "He bursts"
+      "lv": "he bursts"
     },
     "imperfektIndikativ": {
       "de": "er barst / er borst",
-      "lv": "He burst out"
+      "lv": "he burst out"
     },
     "imperfektKonjunktiv": {
       "de": "er bärste / er börste",
-      "lv": "He bursts"
+      "lv": "he bursts"
     },
     "partizipVergangenheit": {
       "de": "geborsten (er ist)",
-      "lv": "Broken"
+      "lv": "broken"
     }
   },
   {
     "infinitiv": {
       "de": "bewegen",
-      "lv": "To encourage"
+      "lv": "to encourage"
     },
     "praesens": {
       "de": "er bewegt",
-      "lv": "He prompts"
+      "lv": "he prompts"
     },
     "imperfektIndikativ": {
       "de": "er bewog",
-      "lv": "He urged"
+      "lv": "he urged"
     },
     "imperfektKonjunktiv": {
       "de": "er bewöge",
-      "lv": "He would encourage"
+      "lv": "he would encourage"
     },
     "partizipVergangenheit": {
       "de": "bewogen",
-      "lv": "Encouraged"
+      "lv": "encouraged"
     }
   },
   {
     "infinitiv": {
       "de": "biegen",
-      "lv": "Bend"
+      "lv": "bend"
     },
     "praesens": {
       "de": "er biegt",
-      "lv": "He bows"
+      "lv": "he bows"
     },
     "imperfektIndikativ": {
       "de": "er bog",
-      "lv": "He flexed"
+      "lv": "he flexed"
     },
     "imperfektKonjunktiv": {
       "de": "er böge",
-      "lv": "He would bend"
+      "lv": "he would bend"
     },
     "partizipVergangenheit": {
       "de": "gebogen",
-      "lv": "Bent"
+      "lv": "bent"
     }
   },
   {
     "infinitiv": {
       "de": "bieten",
-      "lv": "To promise"
+      "lv": "to promise"
     },
     "praesens": {
       "de": "er bietet",
-      "lv": "He promises"
+      "lv": "he promises"
     },
     "imperfektIndikativ": {
       "de": "er bot",
-      "lv": "He promised"
+      "lv": "he promised"
     },
     "imperfektKonjunktiv": {
       "de": "er böte",
-      "lv": "He would promise"
+      "lv": "he would promise"
     },
     "partizipVergangenheit": {
       "de": "geboten",
-      "lv": "Promised / offered"
+      "lv": "promised / offered"
     }
   },
   {
     "infinitiv": {
       "de": "binden",
-      "lv": "Sieve"
+      "lv": "siet"
     },
     "praesens": {
       "de": "er bindet",
-      "lv": "He hay"
+      "lv": "he hay"
     },
     "imperfektIndikativ": {
       "de": "er band",
-      "lv": "He sowed"
+      "lv": "he sowed"
     },
     "imperfektKonjunktiv": {
       "de": "er bände",
-      "lv": "He sieved"
+      "lv": "he sieved"
     },
     "partizipVergangenheit": {
       "de": "gebunden",
-      "lv": "Sieve"
+      "lv": "siets"
     }
   },
   {
     "infinitiv": {
       "de": "bitten",
-      "lv": "To ask"
+      "lv": "to ask"
     },
     "praesens": {
       "de": "er bittet",
-      "lv": "He begs"
+      "lv": "he begs"
     },
     "imperfektIndikativ": {
       "de": "er bat",
-      "lv": "He asked"
+      "lv": "he asked"
     },
     "imperfektKonjunktiv": {
       "de": "er bäte",
-      "lv": "He would pray"
+      "lv": "he would pray"
     },
     "partizipVergangenheit": {
       "de": "gebeten",
-      "lv": "Requested"
+      "lv": "requested"
     }
   },
   {
     "infinitiv": {
       "de": "blasen",
-      "lv": "To blow"
+      "lv": "to blow"
     },
     "praesens": {
       "de": "er bläst",
-      "lv": "He blows"
+      "lv": "he blows"
     },
     "imperfektIndikativ": {
       "de": "er blies",
-      "lv": "He blew"
+      "lv": "he blew"
     },
     "imperfektKonjunktiv": {
       "de": "er bliese",
-      "lv": "He would blow"
+      "lv": "he would blow"
     },
     "partizipVergangenheit": {
       "de": "geblasen",
-      "lv": "Blown"
+      "lv": "blown"
     }
   },
   {
     "infinitiv": {
       "de": "gären",
-      "lv": "To ferment"
+      "lv": "to ferment"
     },
     "praesens": {
       "de": "es gärt",
-      "lv": "It ferments"
+      "lv": "it ferments"
     },
     "imperfektIndikativ": {
       "de": "es gor / es gärte",
-      "lv": "It ferments"
+      "lv": "it ferments"
     },
     "imperfektKonjunktiv": {
       "de": "es göre / es gärte",
-      "lv": "It would be bitter"
+      "lv": "it would be bitter"
     },
     "partizipVergangenheit": {
       "de": "gegoren / gegärt",
-      "lv": "Rye"
+      "lv": "rye"
     }
   },
   {
     "infinitiv": {
       "de": "gebären",
-      "lv": "To give birth"
+      "lv": "to give birth"
     },
     "praesens": {
       "de": "sie gebiert",
-      "lv": "In her womb"
+      "lv": "in her womb"
     },
     "imperfektIndikativ": {
       "de": "sie gebar",
-      "lv": "She gave birth"
+      "lv": "she gave birth"
     },
     "imperfektKonjunktiv": {
       "de": "sie gebäre",
-      "lv": "She would give birth"
+      "lv": "she would give birth"
     },
     "partizipVergangenheit": {
       "de": "geboren",
-      "lv": "Born / was born"
+      "lv": "born / was born"
     }
   },
   {
     "infinitiv": {
       "de": "gelingen",
-      "lv": "Succeed"
+      "lv": "izdoties"
     },
     "praesens": {
       "de": "es gelingt",
-      "lv": "It succeeds"
+      "lv": "tas izdodas"
     },
     "imperfektIndikativ": {
       "de": "es gelang",
-      "lv": "It worked"
+      "lv": "it worked"
     },
     "imperfektKonjunktiv": {
       "de": "es gelänge",
-      "lv": "It would work"
+      "lv": "tas izdotos"
     },
     "partizipVergangenheit": {
       "de": "gelungen (es ist)",
-      "lv": "Succeeded"
+      "lv": "izdevies"
     }
   },
   {
     "infinitiv": {
       "de": "gelten",
-      "lv": "Come in handy"
+      "lv": "come in handy"
     },
     "praesens": {
       "de": "er gilt",
-      "lv": "He fits / is valid"
+      "lv": "he fits / is valid"
     },
     "imperfektIndikativ": {
       "de": "er galt",
-      "lv": "He fit / was fit"
+      "lv": "he fit / was fit"
     },
     "imperfektKonjunktiv": {
       "de": "er gölte / es gälte",
-      "lv": "He would fit / it would fit"
+      "lv": "he would fit / it would fit"
     },
     "partizipVergangenheit": {
       "de": "gegolten",
-      "lv": "Applied / was valid"
+      "lv": "applied / was valid"
     }
   },
   {
     "infinitiv": {
       "de": "genesen",
-      "lv": "Getting well"
+      "lv": "getting well"
     },
     "praesens": {
       "de": "er genest",
-      "lv": "He is getting well"
+      "lv": "he is getting well"
     },
     "imperfektIndikativ": {
       "de": "er genas",
-      "lv": "He got well"
+      "lv": "he got well"
     },
     "imperfektKonjunktiv": {
       "de": "er genäse",
-      "lv": "He would get well"
+      "lv": "he would get well"
     },
     "partizipVergangenheit": {
       "de": "genesen (er ist)",
-      "lv": "Get well"
+      "lv": "get well"
     }
   },
   {
     "infinitiv": {
       "de": "genießen",
-      "lv": "To enjoy"
+      "lv": "to enjoy"
     },
     "praesens": {
       "de": "er genießt",
-      "lv": "He enjoys"
+      "lv": "he enjoys"
     },
     "imperfektIndikativ": {
       "de": "er genoss",
-      "lv": "He enjoyed"
+      "lv": "he enjoyed"
     },
     "imperfektKonjunktiv": {
       "de": "er genösse",
-      "lv": "He would enjoy"
+      "lv": "he would enjoy"
     },
     "partizipVergangenheit": {
       "de": "genossen",
-      "lv": "Enjoyed"
+      "lv": "enjoyed"
     }
   },
   {
     "infinitiv": {
       "de": "geschehen",
-      "lv": "Happen"
+      "lv": "notikt"
     },
     "praesens": {
       "de": "es geschieht",
-      "lv": "It happens"
+      "lv": "tas notiek"
     },
     "imperfektIndikativ": {
       "de": "es geschah",
-      "lv": "It happened"
+      "lv": "tas notika"
     },
     "imperfektKonjunktiv": {
       "de": "es geschähe",
-      "lv": "It would happen"
+      "lv": "tas notiktu"
     },
     "partizipVergangenheit": {
       "de": "geschehen (es ist)",
-      "lv": "Happened"
+      "lv": "noticis"
     }
   },
   {
     "infinitiv": {
       "de": "gießen",
-      "lv": "Lieut"
+      "lv": "liet"
     },
     "praesens": {
       "de": "er gießt",
-      "lv": "He pours"
+      "lv": "he pours"
     },
     "imperfektIndikativ": {
       "de": "er goss",
-      "lv": "He poured"
+      "lv": "he poured"
     },
     "imperfektKonjunktiv": {
       "de": "er gösse",
-      "lv": "He rains"
+      "lv": "he rains"
     },
     "partizipVergangenheit": {
       "de": "gegossen",
-      "lv": "Thing"
+      "lv": "liets"
     }
   },
   {
     "infinitiv": {
       "de": "gleichen",
-      "lv": "To resemble"
+      "lv": "to resemble"
     },
     "praesens": {
       "de": "er gleicht",
-      "lv": "He resembles"
+      "lv": "he resembles"
     },
     "imperfektIndikativ": {
       "de": "er glich",
-      "lv": "He emulated"
+      "lv": "he emulated"
     },
     "imperfektKonjunktiv": {
       "de": "er gliche",
-      "lv": "He would emulate"
+      "lv": "he would emulate"
     },
     "partizipVergangenheit": {
       "de": "geglichen",
-      "lv": "Resembled"
+      "lv": "resembled"
     }
   },
   {
     "infinitiv": {
       "de": "gleiten",
-      "lv": "To slide"
+      "lv": "to slide"
     },
     "praesens": {
       "de": "er gleitet",
-      "lv": "He slides"
+      "lv": "he slides"
     },
     "imperfektIndikativ": {
       "de": "er glitt",
-      "lv": "He was sliding"
+      "lv": "he was sliding"
     },
     "imperfektKonjunktiv": {
       "de": "er glitte",
-      "lv": "He would slide"
+      "lv": "he would slide"
     },
     "partizipVergangenheit": {
       "de": "geglitten (er ist)",
-      "lv": "Slipped"
+      "lv": "slipped"
     }
   },
   {
     "infinitiv": {
       "de": "glimmen",
-      "lv": "Glowing"
+      "lv": "glowing"
     },
     "praesens": {
       "de": "er glimmt",
-      "lv": "He glows"
+      "lv": "he glows"
     },
     "imperfektIndikativ": {
       "de": "er glimmte / glomm",
-      "lv": "He glowed"
+      "lv": "he glowed"
     },
     "imperfektKonjunktiv": {
       "de": "er glimmte",
-      "lv": "He would glow"
+      "lv": "he would glow"
     },
     "partizipVergangenheit": {
       "de": "geglimmt / geglommen",
-      "lv": "Glowing"
+      "lv": "glowing"
     }
   },
   {
     "infinitiv": {
       "de": "graben",
-      "lv": "To dig"
+      "lv": "rakt"
     },
     "praesens": {
       "de": "er gräbt",
-      "lv": "He digs"
+      "lv": "he digs"
     },
     "imperfektIndikativ": {
       "de": "er grub",
-      "lv": "He dug"
+      "lv": "he dug"
     },
     "imperfektKonjunktiv": {
       "de": "er grübe",
-      "lv": "He would dig"
+      "lv": "he would dig"
     },
     "partizipVergangenheit": {
       "de": "gegraben",
-      "lv": "Dig"
+      "lv": "rakts"
     }
   },
   {
     "infinitiv": {
       "de": "greifen",
-      "lv": "To catch"
+      "lv": "to catch"
     },
     "praesens": {
       "de": "er greift",
-      "lv": "He catches"
+      "lv": "he catches"
     },
     "imperfektIndikativ": {
       "de": "er griff",
-      "lv": "He caught"
+      "lv": "he caught"
     },
     "imperfektKonjunktiv": {
       "de": "er griffe",
-      "lv": "He would catch"
+      "lv": "he would catch"
     },
     "partizipVergangenheit": {
       "de": "gegriffen",
-      "lv": "Caught / grabbed"
+      "lv": "caught / grabbed"
     }
   },
   {
     "infinitiv": {
       "de": "hauen",
-      "lv": "To cut"
+      "lv": "cirst"
     },
     "praesens": {
       "de": "er haut",
-      "lv": "He picked"
+      "lv": "he picked"
     },
     "imperfektIndikativ": {
       "de": "er hieb",
-      "lv": "He snapped"
+      "lv": "he snapped"
     },
     "imperfektKonjunktiv": {
       "de": "er hiebe",
-      "lv": "He would carve"
+      "lv": "he would carve"
     },
     "partizipVergangenheit": {
       "de": "gehauen",
-      "lv": "Carved"
+      "lv": "cirsts"
     }
   },
   {
     "infinitiv": {
       "de": "heben",
-      "lv": "To raise"
+      "lv": "celt"
     },
     "praesens": {
       "de": "er hebt",
-      "lv": "He raises"
+      "lv": "he raises"
     },
     "imperfektIndikativ": {
       "de": "er hob",
-      "lv": "He brought"
+      "lv": "he brought"
     },
     "imperfektKonjunktiv": {
       "de": "er höbe",
-      "lv": "He would build"
+      "lv": "he would build"
     },
     "partizipVergangenheit": {
       "de": "gehoben",
-      "lv": "Built"
+      "lv": "celts"
     }
   },
   {
     "infinitiv": {
       "de": "kennen",
-      "lv": "To know / to know"
+      "lv": "to know / to know"
     },
     "praesens": {
       "de": "er kennt",
-      "lv": "He knows"
+      "lv": "he knows"
     },
     "imperfektIndikativ": {
       "de": "kannte",
-      "lv": "Knew"
+      "lv": "pazina"
     },
     "imperfektKonjunktiv": {
       "de": "kannte",
-      "lv": "Knew"
+      "lv": "pazina"
     },
     "partizipVergangenheit": {
       "de": "gekannt",
-      "lv": "Acquaintance"
+      "lv": "pazinis"
     }
   },
   {
     "infinitiv": {
       "de": "klingen",
-      "lv": "To sound"
+      "lv": "to sound"
     },
     "praesens": {
       "de": "er klingt",
-      "lv": "He sounds"
+      "lv": "he sounds"
     },
     "imperfektIndikativ": {
       "de": "er klang",
-      "lv": "He sounded"
+      "lv": "he sounded"
     },
     "imperfektKonjunktiv": {
       "de": "er klänge",
-      "lv": "He would sound"
+      "lv": "he would sound"
     },
     "partizipVergangenheit": {
       "de": "geklungen",
-      "lv": "Sounded"
+      "lv": "sounded"
     }
   },
   {
     "infinitiv": {
       "de": "kneifen",
-      "lv": "Pinch"
+      "lv": "kniebt"
     },
     "praesens": {
       "de": "er kneift",
-      "lv": "He quips"
+      "lv": "he quips"
     },
     "imperfektIndikativ": {
       "de": "er kniff",
-      "lv": "He pinched"
+      "lv": "he pinched"
     },
     "imperfektKonjunktiv": {
       "de": "er kniffe",
-      "lv": "He would pinch"
+      "lv": "he would pinch"
     },
     "partizipVergangenheit": {
       "de": "gekniffen",
-      "lv": "Pinched"
+      "lv": "kniebts"
     }
   },
   {
     "infinitiv": {
       "de": "bleiben",
-      "lv": "Stay"
+      "lv": "palikt"
     },
     "praesens": {
       "de": "er bleibt",
-      "lv": "He stays"
+      "lv": "he stays"
     },
     "imperfektIndikativ": {
       "de": "er blieb",
-      "lv": "He stayed"
+      "lv": "he stayed"
     },
     "imperfektKonjunktiv": {
       "de": "er bliebe",
-      "lv": "He would stay"
+      "lv": "he would stay"
     },
     "partizipVergangenheit": {
       "de": "geblieben (er ist)",
-      "lv": "Left"
+      "lv": "palicis"
     }
   },
   {
     "infinitiv": {
       "de": "bleichen",
-      "lv": "Whiten"
+      "lv": "whiten"
     },
     "praesens": {
       "de": "er bleicht",
-      "lv": "He bleaches"
+      "lv": "he bleaches"
     },
     "imperfektIndikativ": {
       "de": "blich",
-      "lv": "Bleached"
+      "lv": "bleached"
     },
     "imperfektKonjunktiv": {
       "de": "blich",
-      "lv": "Bleached"
+      "lv": "bleached"
     },
     "partizipVergangenheit": {
       "de": "geblichen",
-      "lv": "Bleached"
+      "lv": "bleached"
     }
   },
   {
     "infinitiv": {
       "de": "braten",
-      "lv": "To bake"
+      "lv": "cept"
     },
     "praesens": {
       "de": "er brät",
-      "lv": "He bakes"
+      "lv": "he bakes"
     },
     "imperfektIndikativ": {
       "de": "er briet",
-      "lv": "He was baking"
+      "lv": "he was baking"
     },
     "imperfektKonjunktiv": {
       "de": "er briete",
-      "lv": "He would bake"
+      "lv": "he would bake"
     },
     "partizipVergangenheit": {
       "de": "gebraten",
-      "lv": "Fried / baked"
+      "lv": "cepts / izcepts"
     }
   },
   {
     "infinitiv": {
       "de": "brechen",
-      "lv": "To break"
+      "lv": "lauzt"
     },
     "praesens": {
       "de": "er bricht",
-      "lv": "He breaks"
+      "lv": "he breaks"
     },
     "imperfektIndikativ": {
       "de": "er brach",
-      "lv": "He broke"
+      "lv": "he broke"
     },
     "imperfektKonjunktiv": {
       "de": "er bräche",
-      "lv": "He would break"
+      "lv": "he would break"
     },
     "partizipVergangenheit": {
       "de": "gebrochen",
-      "lv": "Broken / broken"
+      "lv": "lauzts / salauzts"
     }
   },
   {
     "infinitiv": {
       "de": "brennen",
-      "lv": "To burn"
+      "lv": "degt"
     },
     "praesens": {
       "de": "er brennt",
-      "lv": "He's on fire"
+      "lv": "he's on fire"
     },
     "imperfektIndikativ": {
       "de": "brannte",
-      "lv": "Was burning"
+      "lv": "dega"
     },
     "imperfektKonjunktiv": {
       "de": "brannte",
-      "lv": "Was burning"
+      "lv": "dega"
     },
     "partizipVergangenheit": {
       "de": "gebrannt",
-      "lv": "Burned"
+      "lv": "dedzis"
     }
   },
   {
     "infinitiv": {
       "de": "bringen",
-      "lv": "Carry"
+      "lv": "nest"
     },
     "praesens": {
       "de": "er bringt",
-      "lv": "He carries"
+      "lv": "he carries"
     },
     "imperfektIndikativ": {
       "de": "er brachte",
-      "lv": "He carried"
+      "lv": "he carried"
     },
     "imperfektKonjunktiv": {
       "de": "er brächte",
-      "lv": "He would carry"
+      "lv": "he would carry"
     },
     "partizipVergangenheit": {
       "de": "gebracht",
-      "lv": "Brought / brought"
+      "lv": "nests / atnests"
     }
   },
   {
     "infinitiv": {
       "de": "denken",
-      "lv": "To think"
+      "lv": "to think"
     },
     "praesens": {
       "de": "er denkt",
-      "lv": "He thinks"
+      "lv": "he thinks"
     },
     "imperfektIndikativ": {
       "de": "er dachte",
-      "lv": "He thought"
+      "lv": "he thought"
     },
     "imperfektKonjunktiv": {
       "de": "er dächte",
-      "lv": "He would think"
+      "lv": "he would think"
     },
     "partizipVergangenheit": {
       "de": "gedacht",
-      "lv": "Intended"
+      "lv": "intended"
     }
   },
   {
     "infinitiv": {
       "de": "dingen",
-      "lv": "To hire / to agree"
+      "lv": "to hire / to agree"
     },
     "praesens": {
       "de": "er dingt",
-      "lv": "He hires"
+      "lv": "he hires"
     },
     "imperfektIndikativ": {
       "de": "dingte",
-      "lv": "Hired"
+      "lv": "hired"
     },
     "imperfektKonjunktiv": {
       "de": "dingte",
-      "lv": "Hired"
+      "lv": "hired"
     },
     "partizipVergangenheit": {
       "de": "gedungen",
-      "lv": "Hired"
+      "lv": "hired"
     }
   },
   {
     "infinitiv": {
       "de": "dreschen",
-      "lv": "Cult"
+      "lv": "kult"
     },
     "praesens": {
       "de": "er drischt",
-      "lv": "He threshes"
+      "lv": "he threshes"
     },
     "imperfektIndikativ": {
       "de": "er drasch / er drosch",
-      "lv": "He threshed"
+      "lv": "he threshed"
     },
     "imperfektKonjunktiv": {
       "de": "er dräsche / er drösche",
-      "lv": "He would worship"
+      "lv": "he would worship"
     },
     "partizipVergangenheit": {
       "de": "gedroschen",
-      "lv": "Cult"
+      "lv": "kults"
     }
   },
   {
     "infinitiv": {
       "de": "dringen",
-      "lv": "Break into"
+      "lv": "ielauzties"
     },
     "praesens": {
       "de": "er dringt",
-      "lv": "He breaks in"
+      "lv": "he breaks in"
     },
     "imperfektIndikativ": {
       "de": "er drang",
-      "lv": "He broke in"
+      "lv": "he broke in"
     },
     "imperfektKonjunktiv": {
       "de": "er dränge",
-      "lv": "He would break in"
+      "lv": "he would break in"
     },
     "partizipVergangenheit": {
       "de": "gedrungen (er ist)",
-      "lv": "Broke into"
+      "lv": "ielauzies"
     }
   },
   {
     "infinitiv": {
       "de": "dünken",
-      "lv": "It seems"
+      "lv": "it seems"
     },
     "praesens": {
       "de": "es dünkt",
-      "lv": "It seems"
+      "lv": "it seems"
     },
     "imperfektIndikativ": {
       "de": "deuchte",
-      "lv": "It seemed"
+      "lv": "it seemed"
     },
     "imperfektKonjunktiv": {
       "de": "deuchte",
-      "lv": "It seemed"
+      "lv": "it seemed"
     },
     "partizipVergangenheit": {
       "de": "gedünkt",
-      "lv": "Seemed"
+      "lv": "seemed"
     }
   },
   {
     "infinitiv": {
       "de": "dürfen",
-      "lv": "To be allowed"
+      "lv": "to be allowed"
     },
     "praesens": {
       "de": "er darf",
-      "lv": "He can"
+      "lv": "he can"
     },
     "imperfektIndikativ": {
       "de": "durfte",
-      "lv": "Was allowed"
+      "lv": "was allowed"
     },
     "imperfektKonjunktiv": {
       "de": "durfte",
-      "lv": "Was allowed"
+      "lv": "was allowed"
     },
     "partizipVergangenheit": {
       "de": "gedurft",
-      "lv": "Allowed"
+      "lv": "allowed"
     }
   },
   {
     "infinitiv": {
       "de": "empfehlen",
-      "lv": "Recommend"
+      "lv": "ieteikt"
     },
     "praesens": {
       "de": "er empfiehlt",
-      "lv": "He suggests"
+      "lv": "he suggests"
     },
     "imperfektIndikativ": {
       "de": "er empfahl",
-      "lv": "He suggested"
+      "lv": "he suggested"
     },
     "imperfektKonjunktiv": {
       "de": "er empfähle / er empföhle",
-      "lv": "He would recommend"
+      "lv": "he would recommend"
     },
     "partizipVergangenheit": {
       "de": "empfohlen",
-      "lv": "Recommended"
+      "lv": "ieteikts"
     }
   },
   {
     "infinitiv": {
       "de": "empfinden",
-      "lv": "To feel"
+      "lv": "sajust"
     },
     "praesens": {
       "de": "er empfindet",
-      "lv": "He feels"
+      "lv": "he feels"
     },
     "imperfektIndikativ": {
       "de": "er empfand",
-      "lv": "He felt"
+      "lv": "he felt"
     },
     "imperfektKonjunktiv": {
       "de": "er empfände",
-      "lv": "He would feel"
+      "lv": "he would feel"
     },
     "partizipVergangenheit": {
       "de": "empfunden",
-      "lv": "Felt"
+      "lv": "sajusts"
     }
   },
   {
     "infinitiv": {
       "de": "erlöschen",
-      "lv": "Fades out"
+      "lv": "izdzist"
     },
     "praesens": {
       "de": "er erlischt",
-      "lv": "He goes out"
+      "lv": "he goes out"
     },
     "imperfektIndikativ": {
       "de": "er erlosch",
-      "lv": "He went out"
+      "lv": "he went out"
     },
     "imperfektKonjunktiv": {
       "de": "er erlösche",
-      "lv": "He would fade away"
+      "lv": "he would fade away"
     },
     "partizipVergangenheit": {
       "de": "erloschen (er ist)",
-      "lv": "Extinguished"
+      "lv": "izdzisis"
     }
   },
   {
     "infinitiv": {
       "de": "erschrecken",
-      "lv": "Get confused"
+      "lv": "get confused"
     },
     "praesens": {
       "de": "er erschrickt",
-      "lv": "He gets scared"
+      "lv": "he gets scared"
     },
     "imperfektIndikativ": {
       "de": "er erschrak",
-      "lv": "He got scared"
+      "lv": "he got scared"
     },
     "imperfektKonjunktiv": {
       "de": "er erschräke",
-      "lv": "He would freak out"
+      "lv": "he would freak out"
     },
     "partizipVergangenheit": {
       "de": "erschrocken (er ist)",
-      "lv": "Scared"
+      "lv": "sabijies"
     }
   },
   {
     "infinitiv": {
       "de": "essen",
-      "lv": "To eat"
+      "lv": "to eat"
     },
     "praesens": {
       "de": "er isst",
-      "lv": "He eats"
+      "lv": "he eats"
     },
     "imperfektIndikativ": {
       "de": "er ass",
-      "lv": "He was eating"
+      "lv": "he was eating"
     },
     "imperfektKonjunktiv": {
       "de": "er äße",
-      "lv": "He would eat"
+      "lv": "he would eat"
     },
     "partizipVergangenheit": {
       "de": "gegessen",
-      "lv": "Eaten / eaten"
+      "lv": "eaten / eaten"
     }
   },
   {
     "infinitiv": {
       "de": "fahren",
-      "lv": "Drive"
+      "lv": "braukt"
     },
     "praesens": {
       "de": "er fährt",
-      "lv": "He drives"
+      "lv": "he drives"
     },
     "imperfektIndikativ": {
       "de": "er fuhr",
-      "lv": "He was driving"
+      "lv": "he was driving"
     },
     "imperfektKonjunktiv": {
       "de": "er führe",
-      "lv": "He would drive"
+      "lv": "he would drive"
     },
     "partizipVergangenheit": {
       "de": "gefahren (er ist)",
-      "lv": "Drove / left"
+      "lv": "braucis / aizbraucis"
     }
   },
   {
     "infinitiv": {
       "de": "fallen",
-      "lv": "To fall"
+      "lv": "krist"
     },
     "praesens": {
       "de": "er fällt",
-      "lv": "He falls"
+      "lv": "he falls"
     },
     "imperfektIndikativ": {
       "de": "er fiel",
-      "lv": "He fell"
+      "lv": "he fell"
     },
     "imperfektKonjunktiv": {
       "de": "er fiele",
-      "lv": "He would fall"
+      "lv": "he would fall"
     },
     "partizipVergangenheit": {
       "de": "gefallen (er ist)",
-      "lv": "Fell"
+      "lv": "kritis"
     }
   },
   {
     "infinitiv": {
       "de": "fangen",
-      "lv": "To catch"
+      "lv": "to catch"
     },
     "praesens": {
       "de": "er fängt",
-      "lv": "He catches"
+      "lv": "he catches"
     },
     "imperfektIndikativ": {
       "de": "er fing",
-      "lv": "He caught"
+      "lv": "he caught"
     },
     "imperfektKonjunktiv": {
       "de": "er finge",
-      "lv": "He would catch"
+      "lv": "he would catch"
     },
     "partizipVergangenheit": {
       "de": "gefangen",
-      "lv": "Caught / caught"
+      "lv": "caught / caught"
     }
   },
   {
     "infinitiv": {
       "de": "finden",
-      "lv": "To find"
+      "lv": "atrast"
     },
     "praesens": {
       "de": "er findet",
-      "lv": "He finds"
+      "lv": "he finds"
     },
     "imperfektIndikativ": {
       "de": "er fand",
-      "lv": "He found"
+      "lv": "he found"
     },
     "imperfektKonjunktiv": {
       "de": "er fände",
-      "lv": "He would find"
+      "lv": "he would find"
     },
     "partizipVergangenheit": {
       "de": "gefunden",
-      "lv": "Found"
+      "lv": "atrasts"
     }
   },
   {
     "infinitiv": {
       "de": "fliegen",
-      "lv": "Let go"
+      "lv": "laisties"
     },
     "praesens": {
       "de": "er fliegt",
-      "lv": "He flies"
+      "lv": "he flies"
     },
     "imperfektIndikativ": {
       "de": "er flog",
-      "lv": "He flew"
+      "lv": "he flew"
     },
     "imperfektKonjunktiv": {
       "de": "er flöge",
-      "lv": "He would fly"
+      "lv": "he would fly"
     },
     "partizipVergangenheit": {
       "de": "geflogen (er ist)",
-      "lv": "Has flown"
+      "lv": "lidojis"
     }
   },
   {
     "infinitiv": {
       "de": "fliehen",
-      "lv": "Run away"
+      "lv": "run away"
     },
     "praesens": {
       "de": "er flieht",
-      "lv": "He runs away"
+      "lv": "he runs away"
     },
     "imperfektIndikativ": {
       "de": "er floh",
-      "lv": "He ran away"
+      "lv": "he ran away"
     },
     "imperfektKonjunktiv": {
       "de": "er flöhe",
-      "lv": "He would run away"
+      "lv": "he would run away"
     },
     "partizipVergangenheit": {
       "de": "geflohen (er ist)",
-      "lv": "Ran away"
+      "lv": "ran away"
     }
   },
   {
     "infinitiv": {
       "de": "fließen",
-      "lv": "To flow"
+      "lv": "to flow"
     },
     "praesens": {
       "de": "er fließt",
-      "lv": "He runs"
+      "lv": "he runs"
     },
     "imperfektIndikativ": {
       "de": "er floss",
-      "lv": "He ran"
+      "lv": "he ran"
     },
     "imperfektKonjunktiv": {
       "de": "er flösse",
-      "lv": "He would run"
+      "lv": "he would run"
     },
     "partizipVergangenheit": {
       "de": "geflossen (er ist)",
-      "lv": "Passed"
+      "lv": "passed"
     }
   },
   {
     "infinitiv": {
       "de": "fressen",
-      "lv": "Eat tomorrow"
+      "lv": "eat tomorrow"
     },
     "praesens": {
       "de": "er frisst",
-      "lv": "He eats / swallows"
+      "lv": "he eats / swallows"
     },
     "imperfektIndikativ": {
       "de": "er frass",
-      "lv": "He ate / swallowed"
+      "lv": "he ate / swallowed"
     },
     "imperfektKonjunktiv": {
       "de": "er fräße",
-      "lv": "He would eat / breakfast"
+      "lv": "he would eat / breakfast"
     },
     "partizipVergangenheit": {
       "de": "gefressen",
-      "lv": "Eaten / morning"
+      "lv": "eaten / morning"
     }
   },
   {
     "infinitiv": {
       "de": "frieren",
-      "lv": "Cold"
+      "lv": "salt"
     },
     "praesens": {
       "de": "er friert",
-      "lv": "He is freezing"
+      "lv": "he is freezing"
     },
     "imperfektIndikativ": {
       "de": "er fror",
-      "lv": "He island"
+      "lv": "he island"
     },
     "imperfektKonjunktiv": {
       "de": "er fröre",
-      "lv": "He was freezing"
+      "lv": "he was freezing"
     },
     "partizipVergangenheit": {
       "de": "gefroren",
-      "lv": "Island"
+      "lv": "salis"
     }
   },
   {
     "infinitiv": {
       "de": "geben",
-      "lv": "To give"
+      "lv": "dot"
     },
     "praesens": {
       "de": "er gibt",
-      "lv": "He gives"
+      "lv": "he gives"
     },
     "imperfektIndikativ": {
       "de": "er gab",
-      "lv": "He gave"
+      "lv": "he gave"
     },
     "imperfektKonjunktiv": {
       "de": "er gäbe",
-      "lv": "He would give"
+      "lv": "he would give"
     },
     "partizipVergangenheit": {
       "de": "gegeben",
-      "lv": "Given"
+      "lv": "dots"
     }
   },
   {
     "infinitiv": {
       "de": "gedeihen",
-      "lv": "Succeed"
+      "lv": "izdoties"
     },
     "praesens": {
       "de": "er gedeiht",
-      "lv": "He succeeds"
+      "lv": "he succeeds"
     },
     "imperfektIndikativ": {
       "de": "er gedieh",
-      "lv": "He succeeded"
+      "lv": "he succeeded"
     },
     "imperfektKonjunktiv": {
       "de": "er gediehe",
-      "lv": "He would succeed"
+      "lv": "he would succeed"
     },
     "partizipVergangenheit": {
       "de": "gediehen (er ist)",
-      "lv": "Succeeded"
+      "lv": "izdevies"
     }
   },
   {
     "infinitiv": {
       "de": "gehen",
-      "lv": "Go"
+      "lv": "iet"
     },
     "praesens": {
       "de": "er geht",
-      "lv": "He goes"
+      "lv": "he goes"
     },
     "imperfektIndikativ": {
       "de": "er ging",
-      "lv": "He walked"
+      "lv": "he walked"
     },
     "imperfektKonjunktiv": {
       "de": "er ginge",
-      "lv": "He would go"
+      "lv": "he would go"
     },
     "partizipVergangenheit": {
       "de": "gegangen (er ist)",
-      "lv": "Went"
+      "lv": "went"
     }
   },
   {
     "infinitiv": {
       "de": "gewinnen",
-      "lv": "To obtain"
+      "lv": "to obtain"
     },
     "praesens": {
       "de": "er gewinnt",
-      "lv": "He gets"
+      "lv": "he gets"
     },
     "imperfektIndikativ": {
       "de": "er gewann",
-      "lv": "He got"
+      "lv": "he got"
     },
     "imperfektKonjunktiv": {
       "de": "er gewönne / er gewänne",
-      "lv": "He would get"
+      "lv": "he would get"
     },
     "partizipVergangenheit": {
       "de": "gewonnen",
-      "lv": "Obtained"
+      "lv": "obtained"
     }
   },
   {
     "infinitiv": {
       "de": "haben",
-      "lv": "To be / to belong"
+      "lv": "to be / to belong"
     },
     "praesens": {
       "de": "er hat",
-      "lv": "He has"
+      "lv": "he has"
     },
     "imperfektIndikativ": {
       "de": "hatte",
-      "lv": "Was"
+      "lv": "bija"
     },
     "imperfektKonjunktiv": {
       "de": "hatte",
-      "lv": "Was"
+      "lv": "bija"
     },
     "partizipVergangenheit": {
       "de": "gehabt",
-      "lv": "Been"
+      "lv": "bijis"
     }
   },
   {
     "infinitiv": {
       "de": "halten",
-      "lv": "Hold"
+      "lv": "hold"
     },
     "praesens": {
       "de": "er hält",
-      "lv": "He there"
+      "lv": "he there"
     },
     "imperfektIndikativ": {
       "de": "er hielt",
-      "lv": "He held"
+      "lv": "he held"
     },
     "imperfektKonjunktiv": {
       "de": "er hielte",
-      "lv": "He would hold"
+      "lv": "he would hold"
     },
     "partizipVergangenheit": {
       "de": "gehalten",
-      "lv": "Held"
+      "lv": "held"
     }
   },
   {
     "infinitiv": {
       "de": "heißen",
-      "lv": "To call"
+      "lv": "saukt"
     },
     "praesens": {
       "de": "er heißt",
-      "lv": "He calls / he is called"
+      "lv": "he calls / he is called"
     },
     "imperfektIndikativ": {
       "de": "er hieß",
-      "lv": "He called / he was called"
+      "lv": "he called / he was called"
     },
     "imperfektKonjunktiv": {
       "de": "er hieße",
-      "lv": "He would call / he would be called"
+      "lv": "he would call / he would be called"
     },
     "partizipVergangenheit": {
       "de": "geheißen",
-      "lv": "Called"
+      "lv": "saukts"
     }
   },
   {
     "infinitiv": {
       "de": "helfen",
-      "lv": "To help"
+      "lv": "to help"
     },
     "praesens": {
       "de": "er hilft",
-      "lv": "He helps"
+      "lv": "he helps"
     },
     "imperfektIndikativ": {
       "de": "er half",
-      "lv": "He helped"
+      "lv": "he helped"
     },
     "imperfektKonjunktiv": {
       "de": "er hülfe / er hälfe",
-      "lv": "He would help"
+      "lv": "he would help"
     },
     "partizipVergangenheit": {
       "de": "geholfen",
-      "lv": "Helped"
+      "lv": "helped"
     }
   },
   {
     "infinitiv": {
       "de": "kommen",
-      "lv": "To come"
+      "lv": "to come"
     },
     "praesens": {
       "de": "er kommt",
-      "lv": "He is coming"
+      "lv": "he is coming"
     },
     "imperfektIndikativ": {
       "de": "er kam",
-      "lv": "He came"
+      "lv": "he came"
     },
     "imperfektKonjunktiv": {
       "de": "er käme",
-      "lv": "He would come"
+      "lv": "he would come"
     },
     "partizipVergangenheit": {
       "de": "gekommen (er ist)",
-      "lv": "Has come"
+      "lv": "has come"
     }
   },
   {
     "infinitiv": {
       "de": "können",
-      "lv": "Be able to"
+      "lv": "be able to"
     },
     "praesens": {
       "de": "er kann",
-      "lv": "He can"
+      "lv": "he can"
     },
     "imperfektIndikativ": {
       "de": "konnte",
-      "lv": "Could"
+      "lv": "could"
     },
     "imperfektKonjunktiv": {
       "de": "konnte",
-      "lv": "Could"
+      "lv": "could"
     },
     "partizipVergangenheit": {
       "de": "gekonnt",
-      "lv": "Could"
+      "lv": "could"
     }
   },
   {
     "infinitiv": {
       "de": "kriechen",
-      "lv": "It's raining"
+      "lv": "it's raining"
     },
     "praesens": {
       "de": "er kriecht",
-      "lv": "He leans"
+      "lv": "he leans"
     },
     "imperfektIndikativ": {
       "de": "er kroch",
-      "lv": "He rained"
+      "lv": "he rained"
     },
     "imperfektKonjunktiv": {
       "de": "er kröche",
-      "lv": "He is raining"
+      "lv": "he is raining"
     },
     "partizipVergangenheit": {
       "de": "gekrochen (er ist)",
-      "lv": "Passed away"
+      "lv": "passed away"
     }
   },
   {
     "infinitiv": {
       "de": "laden",
-      "lv": "To load, to invite"
+      "lv": "to load, to invite"
     },
     "praesens": {
       "de": "er lädt",
-      "lv": "He piles / invites"
+      "lv": "he piles / invites"
     },
     "imperfektIndikativ": {
       "de": "er lud",
-      "lv": "He loaded / invited"
+      "lv": "he loaded / invited"
     },
     "imperfektKonjunktiv": {
       "de": "er lüde",
-      "lv": "He would load / invite"
+      "lv": "he would load / invite"
     },
     "partizipVergangenheit": {
       "de": "geladen",
-      "lv": "Loaded / invited"
+      "lv": "loaded / invited"
     }
   },
   {
     "infinitiv": {
       "de": "lassen",
-      "lv": "To put, to let"
+      "lv": "to put, to let"
     },
     "praesens": {
       "de": "er lässt",
-      "lv": "He puts / lets"
+      "lv": "he puts / lets"
     },
     "imperfektIndikativ": {
       "de": "er ließ",
-      "lv": "He ordered / allowed"
+      "lv": "he ordered / allowed"
     },
     "imperfektKonjunktiv": {
       "de": "er ließe",
-      "lv": "He would put / let"
+      "lv": "he would put / let"
     },
     "partizipVergangenheit": {
       "de": "gelassen",
-      "lv": "Put / allowed"
+      "lv": "put / allowed"
     }
   },
   {
     "infinitiv": {
       "de": "laufen",
-      "lv": "To run"
+      "lv": "skriet"
     },
     "praesens": {
       "de": "er läuft",
-      "lv": "He is running"
+      "lv": "he is running"
     },
     "imperfektIndikativ": {
       "de": "er lief",
-      "lv": "He ran"
+      "lv": "he ran"
     },
     "imperfektKonjunktiv": {
       "de": "er liefe",
-      "lv": "He would run"
+      "lv": "he would run"
     },
     "partizipVergangenheit": {
       "de": "gelaufen (er ist)",
-      "lv": "Ran"
+      "lv": "ran"
     }
   },
   {
     "infinitiv": {
       "de": "leiden",
-      "lv": "To suffer"
+      "lv": "ciest"
     },
     "praesens": {
       "de": "er leidet",
-      "lv": "He suffers"
+      "lv": "he suffers"
     },
     "imperfektIndikativ": {
       "de": "er litt",
-      "lv": "He suffered"
+      "lv": "he suffered"
     },
     "imperfektKonjunktiv": {
       "de": "er litte",
-      "lv": "He would suffer"
+      "lv": "he would suffer"
     },
     "partizipVergangenheit": {
       "de": "gelitten",
-      "lv": "Suffered"
+      "lv": "ciests"
     }
   },
   {
     "infinitiv": {
       "de": "leihen",
-      "lv": "Lend / borrow"
+      "lv": "lend / borrow"
     },
     "praesens": {
       "de": "er leiht",
-      "lv": "He lends / borrows"
+      "lv": "he lends / borrows"
     },
     "imperfektIndikativ": {
       "de": "er lieh",
-      "lv": "He lent / borrowed"
+      "lv": "he lent / borrowed"
     },
     "imperfektKonjunktiv": {
       "de": "er liehe",
-      "lv": "He would lend / borrow"
+      "lv": "he would lend / borrow"
     },
     "partizipVergangenheit": {
       "de": "geliehen",
-      "lv": "Lent / borrowed"
+      "lv": "lent / borrowed"
     }
   },
   {
     "infinitiv": {
       "de": "lesen",
-      "lv": "To read"
+      "lv": "to read"
     },
     "praesens": {
       "de": "er liest",
-      "lv": "He is reading"
+      "lv": "he is reading"
     },
     "imperfektIndikativ": {
       "de": "er las",
-      "lv": "He was reading"
+      "lv": "he was reading"
     },
     "imperfektKonjunktiv": {
       "de": "er läse",
-      "lv": "He would read"
+      "lv": "he would read"
     },
     "partizipVergangenheit": {
       "de": "gelesen",
-      "lv": "Read"
+      "lv": "read"
     }
   },
   {
     "infinitiv": {
       "de": "liegen",
-      "lv": "To sleep"
+      "lv": "to sleep"
     },
     "praesens": {
       "de": "er liegt",
-      "lv": "He is sleeping"
+      "lv": "he is sleeping"
     },
     "imperfektIndikativ": {
       "de": "er lag",
-      "lv": "He was sleeping"
+      "lv": "he was sleeping"
     },
     "imperfektKonjunktiv": {
       "de": "er läge",
-      "lv": "He would sleep"
+      "lv": "he would sleep"
     },
     "partizipVergangenheit": {
       "de": "gelegen",
-      "lv": "Slept"
+      "lv": "slept"
     }
   },
   {
     "infinitiv": {
       "de": "lügen",
-      "lv": "To lie"
+      "lv": "melot"
     },
     "praesens": {
       "de": "er lügt",
-      "lv": "He is lying"
+      "lv": "he is lying"
     },
     "imperfektIndikativ": {
       "de": "er log",
-      "lv": "He lied"
+      "lv": "he lied"
     },
     "imperfektKonjunktiv": {
       "de": "er löge",
-      "lv": "He would lie"
+      "lv": "he would lie"
     },
     "partizipVergangenheit": {
       "de": "gelogen",
-      "lv": "Lied to"
+      "lv": "melots"
     }
   },
   {
     "infinitiv": {
       "de": "mahlen",
-      "lv": "Ground"
+      "lv": "malt"
     },
     "praesens": {
       "de": "er mahlt",
-      "lv": "He grinds"
+      "lv": "he grinds"
     },
     "imperfektIndikativ": {
       "de": "er mahlte",
-      "lv": "He edge"
+      "lv": "he edge"
     },
     "imperfektKonjunktiv": {
       "de": "er malte",
-      "lv": "He grinds"
+      "lv": "he grinds"
     },
     "partizipVergangenheit": {
       "de": "gemahlen",
-      "lv": "Ground"
+      "lv": "malts"
     }
   },
   {
     "infinitiv": {
       "de": "meiden",
-      "lv": "Avoid"
+      "lv": "avoid"
     },
     "praesens": {
       "de": "er meidet",
-      "lv": "He avoids"
+      "lv": "he avoids"
     },
     "imperfektIndikativ": {
       "de": "er mied",
-      "lv": "He avoided"
+      "lv": "he avoided"
     },
     "imperfektKonjunktiv": {
       "de": "er miede",
-      "lv": "He would avoid"
+      "lv": "he would avoid"
     },
     "partizipVergangenheit": {
       "de": "gemieden",
-      "lv": "Avoided"
+      "lv": "avoided"
     }
   },
   {
     "infinitiv": {
       "de": "melken",
-      "lv": "To milk"
+      "lv": "slaukt"
     },
     "praesens": {
       "de": "er milkt / er melkt",
-      "lv": "He sweeps"
+      "lv": "he sweeps"
     },
     "imperfektIndikativ": {
       "de": "er molk / er melkte",
-      "lv": "He swept"
+      "lv": "he swept"
     },
     "imperfektKonjunktiv": {
       "de": "er mölke / er melkte",
-      "lv": "He would milk"
+      "lv": "he would milk"
     },
     "partizipVergangenheit": {
       "de": "gemolken / gemelkt",
-      "lv": "Milked"
+      "lv": "slaukts"
     }
   },
   {
     "infinitiv": {
       "de": "messen",
-      "lv": "To measure"
+      "lv": "to measure"
     },
     "praesens": {
       "de": "er misst",
-      "lv": "He measures"
+      "lv": "he measures"
     },
     "imperfektIndikativ": {
       "de": "er mass",
-      "lv": "He measured"
+      "lv": "he measured"
     },
     "imperfektKonjunktiv": {
       "de": "er mäße",
-      "lv": "He would measure"
+      "lv": "he would measure"
     },
     "partizipVergangenheit": {
       "de": "gemessen",
-      "lv": "Measured"
+      "lv": "measured"
     }
   },
   {
     "infinitiv": {
       "de": "misslingen",
-      "lv": "To fail"
+      "lv": "neizdoties"
     },
     "praesens": {
       "de": "es misslingt",
-      "lv": "It fails"
+      "lv": "tas neizdodas"
     },
     "imperfektIndikativ": {
       "de": "misslang",
-      "lv": "Failed"
+      "lv": "failed"
     },
     "imperfektKonjunktiv": {
       "de": "misslang",
-      "lv": "Failed"
+      "lv": "failed"
     },
     "partizipVergangenheit": {
       "de": "misslungen",
-      "lv": "Failed"
+      "lv": "neizdevies"
     }
   },
   {
     "infinitiv": {
       "de": "mögen",
-      "lv": "To like"
+      "lv": "patikt"
     },
     "praesens": {
       "de": "er mag",
-      "lv": "He likes"
+      "lv": "he likes"
     },
     "imperfektIndikativ": {
       "de": "mochte",
-      "lv": "Liked it"
+      "lv": "patika"
     },
     "imperfektKonjunktiv": {
       "de": "mochte",
-      "lv": "Liked it"
+      "lv": "patika"
     },
     "partizipVergangenheit": {
       "de": "gemocht",
-      "lv": "Liked"
+      "lv": "paticis"
     }
   },
   {
     "infinitiv": {
       "de": "müssen",
-      "lv": "To need"
+      "lv": "to need"
     },
     "praesens": {
       "de": "er muss",
-      "lv": "He needs"
+      "lv": "he needs"
     },
     "imperfektIndikativ": {
       "de": "musste",
-      "lv": "Should have"
+      "lv": "should have"
     },
     "imperfektKonjunktiv": {
       "de": "musste",
-      "lv": "Should have"
+      "lv": "should have"
     },
     "partizipVergangenheit": {
       "de": "gemusst",
-      "lv": "Needed"
+      "lv": "needed"
     }
   },
   {
     "infinitiv": {
       "de": "nehmen",
-      "lv": "To take"
+      "lv": "to take"
     },
     "praesens": {
       "de": "er nimmt",
-      "lv": "He takes"
+      "lv": "he takes"
     },
     "imperfektIndikativ": {
       "de": "er nahm",
-      "lv": "He took"
+      "lv": "he took"
     },
     "imperfektKonjunktiv": {
       "de": "er nähme",
-      "lv": "He would take"
+      "lv": "he would take"
     },
     "partizipVergangenheit": {
       "de": "genommen",
-      "lv": "Taken"
+      "lv": "taken"
     }
   },
   {
     "infinitiv": {
       "de": "nennen",
-      "lv": "To name"
+      "lv": "nosaukt"
     },
     "praesens": {
       "de": "er nennt",
-      "lv": "He named"
+      "lv": "he named"
     },
     "imperfektIndikativ": {
       "de": "er nannte",
-      "lv": "He called"
+      "lv": "he called"
     },
     "imperfektKonjunktiv": {
       "de": "er nennte",
-      "lv": "He would name"
+      "lv": "he would name"
     },
     "partizipVergangenheit": {
       "de": "genannt",
-      "lv": "Named"
+      "lv": "nosaukts"
     }
   },
   {
     "infinitiv": {
       "de": "pfeifen",
-      "lv": "To whistle"
+      "lv": "svilpot"
     },
     "praesens": {
       "de": "er pfeift",
-      "lv": "He whistles"
+      "lv": "he whistles"
     },
     "imperfektIndikativ": {
       "de": "er pfiff",
-      "lv": "He whistled"
+      "lv": "he whistled"
     },
     "imperfektKonjunktiv": {
       "de": "er pfiffe",
-      "lv": "He would whistle"
+      "lv": "he would whistle"
     },
     "partizipVergangenheit": {
       "de": "gepfiffen",
-      "lv": "Whistled"
+      "lv": "svilpots"
     }
   },
   {
     "infinitiv": {
       "de": "pflegen",
-      "lv": "Maintain"
+      "lv": "kopt"
     },
     "praesens": {
       "de": "er pflegt",
-      "lv": "He cares"
+      "lv": "he cares"
     },
     "imperfektIndikativ": {
       "de": "pflegte vai pflog",
-      "lv": "Set"
+      "lv": "kopa"
     },
     "imperfektKonjunktiv": {
       "de": "pflegte vai pflog",
-      "lv": "Set"
+      "lv": "kopa"
     },
     "partizipVergangenheit": {
       "de": "gepflegt vai gepflogen",
-      "lv": "Groomed"
+      "lv": "kopts"
     }
   },
   {
     "infinitiv": {
       "de": "preisen",
-      "lv": "Praise"
+      "lv": "praise"
     },
     "praesens": {
       "de": "er preist",
-      "lv": "He praises"
+      "lv": "he praises"
     },
     "imperfektIndikativ": {
       "de": "er pries",
-      "lv": "He praised"
+      "lv": "he praised"
     },
     "imperfektKonjunktiv": {
       "de": "er priese",
-      "lv": "He would praise"
+      "lv": "he would praise"
     },
     "partizipVergangenheit": {
       "de": "gepriesen",
-      "lv": "Praised"
+      "lv": "praised"
     }
   },
   {
     "infinitiv": {
       "de": "quellen",
-      "lv": "Plump up"
+      "lv": "briest"
     },
     "praesens": {
       "de": "er quillt",
-      "lv": "He is getting fat"
+      "lv": "he is getting fat"
     },
     "imperfektIndikativ": {
       "de": "er quoll",
-      "lv": "He matured"
+      "lv": "he matured"
     },
     "imperfektKonjunktiv": {
       "de": "er quölle",
-      "lv": "He fat"
+      "lv": "he fat"
     },
     "partizipVergangenheit": {
       "de": "gequollen (er ist)",
-      "lv": "Swollen"
+      "lv": "uzbriedis"
     }
   },
   {
     "infinitiv": {
       "de": "raten",
-      "lv": "Suggest / mention"
+      "lv": "suggest / mention"
     },
     "praesens": {
       "de": "er rät",
-      "lv": "He recommends / min"
+      "lv": "he recommends / min"
     },
     "imperfektIndikativ": {
       "de": "er riet",
-      "lv": "He suggested / suggested"
+      "lv": "he suggested / suggested"
     },
     "imperfektKonjunktiv": {
       "de": "er riete",
-      "lv": "He would suggest / mention"
+      "lv": "he would suggest / mention"
     },
     "partizipVergangenheit": {
       "de": "geraten",
-      "lv": "Suggested / mentioned"
+      "lv": "suggested / mentioned"
     }
   },
   {
     "infinitiv": {
       "de": "reiben",
-      "lv": "To rub"
+      "lv": "berzt"
     },
     "praesens": {
       "de": "er reibt",
-      "lv": "He rubs"
+      "lv": "he rubs"
     },
     "imperfektIndikativ": {
       "de": "er rieb",
-      "lv": "He rubs"
+      "lv": "he rubs"
     },
     "imperfektKonjunktiv": {
       "de": "er riebe",
-      "lv": "He would rub"
+      "lv": "he would rub"
     },
     "partizipVergangenheit": {
       "de": "gerieben",
-      "lv": "Rubbed"
+      "lv": "berzts"
     }
   },
   {
     "infinitiv": {
       "de": "reißen",
-      "lv": "Pull"
+      "lv": "raut"
     },
     "praesens": {
       "de": "er reißt",
-      "lv": "He snaps"
+      "lv": "he snaps"
     },
     "imperfektIndikativ": {
       "de": "er riss",
-      "lv": "He snapped"
+      "lv": "he snapped"
     },
     "imperfektKonjunktiv": {
       "de": "er risse",
-      "lv": "He snapped"
+      "lv": "he snapped"
     },
     "partizipVergangenheit": {
       "de": "gerissen",
-      "lv": "Torn"
+      "lv": "rauts"
     }
   },
   {
     "infinitiv": {
       "de": "reiten",
-      "lv": "To ride"
+      "lv": "to ride"
     },
     "praesens": {
       "de": "er reitet",
-      "lv": "He rides"
+      "lv": "he rides"
     },
     "imperfektIndikativ": {
       "de": "er ritt",
-      "lv": "He rode"
+      "lv": "he rode"
     },
     "imperfektKonjunktiv": {
       "de": "er ritte",
-      "lv": "He would ride"
+      "lv": "he would ride"
     },
     "partizipVergangenheit": {
       "de": "geritten (er ist)",
-      "lv": "Rode"
+      "lv": "rode"
     }
   },
   {
     "infinitiv": {
       "de": "rennen",
-      "lv": "To run"
+      "lv": "skriet"
     },
     "praesens": {
       "de": "er rennt",
-      "lv": "He is running"
+      "lv": "he is running"
     },
     "imperfektIndikativ": {
       "de": "er rannte",
-      "lv": "He ran"
+      "lv": "he ran"
     },
     "imperfektKonjunktiv": {
       "de": "er rennte",
-      "lv": "He would run"
+      "lv": "he would run"
     },
     "partizipVergangenheit": {
       "de": "gerannt",
-      "lv": "Ran"
+      "lv": "ran"
     }
   },
   {
     "infinitiv": {
       "de": "riechen",
-      "lv": "Ost"
+      "lv": "ost"
     },
     "praesens": {
       "de": "er riecht",
-      "lv": "He smells"
+      "lv": "he smells"
     },
     "imperfektIndikativ": {
       "de": "er roch",
-      "lv": "He sings"
+      "lv": "he sings"
     },
     "imperfektKonjunktiv": {
       "de": "er röche",
-      "lv": "He port"
+      "lv": "he port"
     },
     "partizipVergangenheit": {
       "de": "gerochen",
-      "lv": "Port"
+      "lv": "osts"
     }
   },
   {
     "infinitiv": {
       "de": "ringen",
-      "lv": "To break"
+      "lv": "lauzties"
     },
     "praesens": {
       "de": "er ringt",
-      "lv": "He breaks"
+      "lv": "he breaks"
     },
     "imperfektIndikativ": {
       "de": "er rang",
-      "lv": "He broke down"
+      "lv": "he broke down"
     },
     "imperfektKonjunktiv": {
       "de": "er ränge",
-      "lv": "He would break"
+      "lv": "he would break"
     },
     "partizipVergangenheit": {
       "de": "gerungen",
-      "lv": "Wait"
+      "lv": "laucies"
     }
   },
   {
     "infinitiv": {
       "de": "rinnen",
-      "lv": "To flow"
+      "lv": "to flow"
     },
     "praesens": {
       "de": "er rinnt",
-      "lv": "He runs"
+      "lv": "he runs"
     },
     "imperfektIndikativ": {
       "de": "er rann",
-      "lv": "He ran"
+      "lv": "he ran"
     },
     "imperfektKonjunktiv": {
       "de": "er ränne / er rönne",
-      "lv": "He would run"
+      "lv": "he would run"
     },
     "partizipVergangenheit": {
       "de": "geronnen (er ist)",
-      "lv": "Flowed / coagulated"
+      "lv": "flowed / coagulated"
     }
   },
   {
     "infinitiv": {
       "de": "rufen",
-      "lv": "To call"
+      "lv": "saukt"
     },
     "praesens": {
       "de": "er ruft",
-      "lv": "He calls"
+      "lv": "he calls"
     },
     "imperfektIndikativ": {
       "de": "er rief",
-      "lv": "He called"
+      "lv": "he called"
     },
     "imperfektKonjunktiv": {
       "de": "er riefe",
-      "lv": "He would call"
+      "lv": "he would call"
     },
     "partizipVergangenheit": {
       "de": "gerufen",
-      "lv": "Called"
+      "lv": "saukts"
     }
   },
   {
     "infinitiv": {
       "de": "salzen",
-      "lv": "To salt"
+      "lv": "to salt"
     },
     "praesens": {
       "de": "er salzt",
-      "lv": "He salted"
+      "lv": "he salted"
     },
     "imperfektIndikativ": {
       "de": "er salzte",
-      "lv": "He salted"
+      "lv": "he salted"
     },
     "imperfektKonjunktiv": {
       "de": "er salzte",
-      "lv": "He would salt"
+      "lv": "he would salt"
     },
     "partizipVergangenheit": {
       "de": "gesalzen",
-      "lv": "Salted"
+      "lv": "salted"
     }
   },
   {
     "infinitiv": {
       "de": "saufen",
-      "lv": "Dry / drink"
+      "lv": "dry / drink"
     },
     "praesens": {
       "de": "er säuft",
-      "lv": "He is drinking / drinking"
+      "lv": "he is drinking / drinking"
     },
     "imperfektIndikativ": {
       "de": "er soff",
-      "lv": "He drank / drank"
+      "lv": "he drank / drank"
     },
     "imperfektKonjunktiv": {
       "de": "er söffe",
-      "lv": "He would drink / drink"
+      "lv": "he would drink / drink"
     },
     "partizipVergangenheit": {
       "de": "gesoffen",
-      "lv": "Drunk"
+      "lv": "dzerts"
     }
   },
   {
     "infinitiv": {
       "de": "saugen",
-      "lv": "Suck"
+      "lv": "suck"
     },
     "praesens": {
       "de": "er saugt",
-      "lv": "He sucks"
+      "lv": "he sucks"
     },
     "imperfektIndikativ": {
       "de": "er sog",
-      "lv": "He sucked"
+      "lv": "he sucked"
     },
     "imperfektKonjunktiv": {
       "de": "er söge",
-      "lv": "He would suck"
+      "lv": "he would suck"
     },
     "partizipVergangenheit": {
       "de": "gesogen",
-      "lv": "Sucked"
+      "lv": "sucked"
     }
   },
   {
     "infinitiv": {
       "de": "schaffen",
-      "lv": "To create"
+      "lv": "to create"
     },
     "praesens": {
       "de": "er schafft",
-      "lv": "He creates"
+      "lv": "he creates"
     },
     "imperfektIndikativ": {
       "de": "er schuf",
-      "lv": "He created"
+      "lv": "he created"
     },
     "imperfektKonjunktiv": {
       "de": "er schüfe",
-      "lv": "He would create"
+      "lv": "he would create"
     },
     "partizipVergangenheit": {
       "de": "geschaffen",
-      "lv": "Created"
+      "lv": "created"
     }
   },
   {
     "infinitiv": {
       "de": "schallen",
-      "lv": "To sound"
+      "lv": "to sound"
     },
     "praesens": {
       "de": "es schallt",
-      "lv": "It sounds"
+      "lv": "tas skan"
     },
     "imperfektIndikativ": {
       "de": "schallte vai scholl",
-      "lv": "Sounded"
+      "lv": "sounded"
     },
     "imperfektKonjunktiv": {
       "de": "schallte vai scholl",
-      "lv": "Sounded"
+      "lv": "sounded"
     },
     "partizipVergangenheit": {
       "de": "geschallt",
-      "lv": "Sounded"
+      "lv": "sounded"
     }
   },
   {
     "infinitiv": {
       "de": "scheiden",
-      "lv": "Divorce / break up"
+      "lv": "divorce / break up"
     },
     "praesens": {
       "de": "er scheidet",
-      "lv": "He is divorcing / divorcing"
+      "lv": "he is divorcing / divorcing"
     },
     "imperfektIndikativ": {
       "de": "er schied",
-      "lv": "He divorced / divorced"
+      "lv": "he divorced / divorced"
     },
     "imperfektKonjunktiv": {
       "de": "er schiede",
-      "lv": "He would divorce / divorce"
+      "lv": "he would divorce / divorce"
     },
     "partizipVergangenheit": {
       "de": "geschieden (er hat / er ist)",
-      "lv": "Separated / divorced"
+      "lv": "separated / divorced"
     }
   },
   {
     "infinitiv": {
       "de": "scheinen",
-      "lv": "Shine / appear"
+      "lv": "shine / appear"
     },
     "praesens": {
       "de": "er scheint",
-      "lv": "He shines / seems"
+      "lv": "he shines / seems"
     },
     "imperfektIndikativ": {
       "de": "er schien",
-      "lv": "He shone / seemed"
+      "lv": "he shone / seemed"
     },
     "imperfektKonjunktiv": {
       "de": "er schiene",
-      "lv": "He would shine / seem"
+      "lv": "he would shine / seem"
     },
     "partizipVergangenheit": {
       "de": "geschienen",
-      "lv": "Shone / seemed"
+      "lv": "shone / seemed"
     }
   },
   {
     "infinitiv": {
       "de": "schelten",
-      "lv": "Bart"
+      "lv": "bart"
     },
     "praesens": {
       "de": "er schilt",
-      "lv": "He scolds"
+      "lv": "he scolds"
     },
     "imperfektIndikativ": {
       "de": "er schalt",
-      "lv": "He barred"
+      "lv": "he barred"
     },
     "imperfektKonjunktiv": {
       "de": "er schölte / er schälte",
-      "lv": "He shaves"
+      "lv": "he shaves"
     },
     "partizipVergangenheit": {
       "de": "gescholten",
-      "lv": "Beard"
+      "lv": "beard"
     }
   },
   {
     "infinitiv": {
       "de": "scheren",
-      "lv": "To cut"
+      "lv": "cirpt"
     },
     "praesens": {
       "de": "er schert",
-      "lv": "He is cutting"
+      "lv": "he is cutting"
     },
     "imperfektIndikativ": {
       "de": "schor vai scherte",
-      "lv": "Scissors"
+      "lv": "cirpa"
     },
     "imperfektKonjunktiv": {
       "de": "schor vai scherte",
-      "lv": "Scissors"
+      "lv": "cirpa"
     },
     "partizipVergangenheit": {
       "de": "geschoren vai geschert",
-      "lv": "Cropped"
+      "lv": "apcirpts"
     }
   },
   {
     "infinitiv": {
       "de": "schieben",
-      "lv": "To push"
+      "lv": "stumt"
     },
     "praesens": {
       "de": "er schiebt",
-      "lv": "He pushes"
+      "lv": "he pushes"
     },
     "imperfektIndikativ": {
       "de": "er schob",
-      "lv": "He pushed"
+      "lv": "he pushed"
     },
     "imperfektKonjunktiv": {
       "de": "er schöbe",
-      "lv": "He would push"
+      "lv": "he would push"
     },
     "partizipVergangenheit": {
       "de": "geschoben",
-      "lv": "Pushed"
+      "lv": "stumts"
     }
   },
   {
     "infinitiv": {
       "de": "schießen",
-      "lv": "To shoot"
+      "lv": "to shoot"
     },
     "praesens": {
       "de": "er schießt",
-      "lv": "He shoots"
+      "lv": "he shoots"
     },
     "imperfektIndikativ": {
       "de": "er schoss",
-      "lv": "He shot"
+      "lv": "he shot"
     },
     "imperfektKonjunktiv": {
       "de": "er schösse",
-      "lv": "He would shoot"
+      "lv": "he would shoot"
     },
     "partizipVergangenheit": {
       "de": "geschossen",
-      "lv": "Shot"
+      "lv": "shot"
     }
   },
   {
     "infinitiv": {
       "de": "schinden",
-      "lv": "Torment"
+      "lv": "torment"
     },
     "praesens": {
       "de": "er schindet",
-      "lv": "He torments"
+      "lv": "he torments"
     },
     "imperfektIndikativ": {
       "de": "schindete",
-      "lv": "Tormented"
+      "lv": "tormented"
     },
     "imperfektKonjunktiv": {
       "de": "schindete",
-      "lv": "Tormented"
+      "lv": "tormented"
     },
     "partizipVergangenheit": {
       "de": "geschunden",
-      "lv": "Tormented"
+      "lv": "tormented"
     }
   },
   {
     "infinitiv": {
       "de": "schlafen",
-      "lv": "To sleep"
+      "lv": "to sleep"
     },
     "praesens": {
       "de": "er schläft",
-      "lv": "He is sleeping"
+      "lv": "he is sleeping"
     },
     "imperfektIndikativ": {
       "de": "er schlief",
-      "lv": "He was sleeping"
+      "lv": "he was sleeping"
     },
     "imperfektKonjunktiv": {
       "de": "er schliefe",
-      "lv": "He would sleep"
+      "lv": "he would sleep"
     },
     "partizipVergangenheit": {
       "de": "geschlafen",
-      "lv": "Slept"
+      "lv": "slept"
     }
   },
   {
     "infinitiv": {
       "de": "schlagen",
-      "lv": "Hit"
+      "lv": "sist"
     },
     "praesens": {
       "de": "er schlägt",
-      "lv": "He hits"
+      "lv": "he hits"
     },
     "imperfektIndikativ": {
       "de": "er schlug",
-      "lv": "He hit"
+      "lv": "he hit"
     },
     "imperfektKonjunktiv": {
       "de": "er schlüge",
-      "lv": "He would hit"
+      "lv": "he would hit"
     },
     "partizipVergangenheit": {
       "de": "geschlagen",
-      "lv": "Beaten"
+      "lv": "sists"
     }
   },
   {
     "infinitiv": {
       "de": "schleichen",
-      "lv": "It's raining"
+      "lv": "it's raining"
     },
     "praesens": {
       "de": "er schleicht",
-      "lv": "He leans"
+      "lv": "he leans"
     },
     "imperfektIndikativ": {
       "de": "er schlich",
-      "lv": "He rained"
+      "lv": "he rained"
     },
     "imperfektKonjunktiv": {
       "de": "er schliche",
-      "lv": "He is raining"
+      "lv": "he is raining"
     },
     "partizipVergangenheit": {
       "de": "geschlichen (er ist)",
-      "lv": "Passed away"
+      "lv": "passed away"
     }
   },
   {
     "infinitiv": {
       "de": "schleifen",
-      "lv": "To grind"
+      "lv": "to grind"
     },
     "praesens": {
       "de": "er schleift",
-      "lv": "He grinds"
+      "lv": "he grinds"
     },
     "imperfektIndikativ": {
       "de": "er schliff",
-      "lv": "He grinded"
+      "lv": "he grinded"
     },
     "imperfektKonjunktiv": {
       "de": "er schliffe",
-      "lv": "He would grind"
+      "lv": "he would grind"
     },
     "partizipVergangenheit": {
       "de": "geschliffen",
-      "lv": "Polished"
+      "lv": "polished"
     }
   },
   {
     "infinitiv": {
       "de": "schließen",
-      "lv": "To close"
+      "lv": "to close"
     },
     "praesens": {
       "de": "er schließt",
-      "lv": "He closes"
+      "lv": "he closes"
     },
     "imperfektIndikativ": {
       "de": "er schloss",
-      "lv": "He closed"
+      "lv": "he closed"
     },
     "imperfektKonjunktiv": {
       "de": "er schlösse",
-      "lv": "He would close"
+      "lv": "he would close"
     },
     "partizipVergangenheit": {
       "de": "geschlossen",
-      "lv": "Closed"
+      "lv": "closed"
     }
   },
   {
     "infinitiv": {
       "de": "schlingen",
-      "lv": "Tomorrow"
+      "lv": "tomorrow"
     },
     "praesens": {
       "de": "er schlingt",
-      "lv": "He swallows"
+      "lv": "he swallows"
     },
     "imperfektIndikativ": {
       "de": "er schlang",
-      "lv": "He swallowed"
+      "lv": "he swallowed"
     },
     "imperfektKonjunktiv": {
       "de": "er schlänge",
-      "lv": "He morning"
+      "lv": "he morning"
     },
     "partizipVergangenheit": {
       "de": "geschlungen",
-      "lv": "The morning"
+      "lv": "the morning"
     }
   },
   {
     "infinitiv": {
       "de": "schmeißen",
-      "lv": "Throw"
+      "lv": "mest"
     },
     "praesens": {
       "de": "er schmeißt",
-      "lv": "He throws"
+      "lv": "he throws"
     },
     "imperfektIndikativ": {
       "de": "er schmiss",
-      "lv": "He threw"
+      "lv": "he threw"
     },
     "imperfektKonjunktiv": {
       "de": "er schmisse",
-      "lv": "He threw"
+      "lv": "he threw"
     },
     "partizipVergangenheit": {
       "de": "geschmissen",
-      "lv": "Thrown"
+      "lv": "mests"
     }
   },
   {
     "infinitiv": {
       "de": "schmelzen",
-      "lv": "Moving"
+      "lv": "kust"
     },
     "praesens": {
       "de": "er schmilzt",
-      "lv": "He melts"
+      "lv": "he melts"
     },
     "imperfektIndikativ": {
       "de": "er schmolz",
-      "lv": "He moaned"
+      "lv": "he moaned"
     },
     "imperfektKonjunktiv": {
       "de": "er schmölze",
-      "lv": "He was moving"
+      "lv": "he was moving"
     },
     "partizipVergangenheit": {
       "de": "geschmolzen (er ist)",
-      "lv": "Melted"
+      "lv": "kusis"
     }
   },
   {
     "infinitiv": {
       "de": "schnauben",
-      "lv": "To hiss"
+      "lv": "to hiss"
     },
     "praesens": {
       "de": "er schnaubt",
-      "lv": "He snorts"
+      "lv": "he snorts"
     },
     "imperfektIndikativ": {
       "de": "schnaubte vai schnob",
-      "lv": "Snorted"
+      "lv": "snorted"
     },
     "imperfektKonjunktiv": {
       "de": "schnaubte vai schnob",
-      "lv": "Snorted"
+      "lv": "snorted"
     },
     "partizipVergangenheit": {
       "de": "geschnaubt vai geschnoben",
-      "lv": "Snort"
+      "lv": "snort"
     }
   },
   {
     "infinitiv": {
       "de": "schneiden",
-      "lv": "To cut"
+      "lv": "griezt"
     },
     "praesens": {
       "de": "er schneidet",
-      "lv": "He spins"
+      "lv": "he spins"
     },
     "imperfektIndikativ": {
       "de": "er schnitt",
-      "lv": "He was cutting"
+      "lv": "he was cutting"
     },
     "imperfektKonjunktiv": {
       "de": "er schnitte",
-      "lv": "He would cut"
+      "lv": "he would cut"
     },
     "partizipVergangenheit": {
       "de": "geschnitten",
-      "lv": "Cut"
+      "lv": "griezts"
     }
   },
   {
     "infinitiv": {
       "de": "schreiben",
-      "lv": "To write"
+      "lv": "to write"
     },
     "praesens": {
       "de": "er schreibt",
-      "lv": "He writes"
+      "lv": "he writes"
     },
     "imperfektIndikativ": {
       "de": "er schrieb",
-      "lv": "He wrote"
+      "lv": "he wrote"
     },
     "imperfektKonjunktiv": {
       "de": "er schriebe",
-      "lv": "He would write"
+      "lv": "he would write"
     },
     "partizipVergangenheit": {
       "de": "geschrieben",
-      "lv": "Written"
+      "lv": "written"
     }
   },
   {
     "infinitiv": {
       "de": "schreien",
-      "lv": "To shout"
+      "lv": "kliegt"
     },
     "praesens": {
       "de": "er schreit",
-      "lv": "He shouts"
+      "lv": "he shouts"
     },
     "imperfektIndikativ": {
       "de": "er schrie",
-      "lv": "He shouted"
+      "lv": "he shouted"
     },
     "imperfektKonjunktiv": {
       "de": "er schriee",
-      "lv": "He would shout"
+      "lv": "he would shout"
     },
     "partizipVergangenheit": {
       "de": "geschrien",
-      "lv": "Shouted"
+      "lv": "kliegts"
     }
   },
   {
     "infinitiv": {
       "de": "schreiten",
-      "lv": "Walking"
+      "lv": "walking"
     },
     "praesens": {
       "de": "er schreitet",
-      "lv": "He is walking"
+      "lv": "he is walking"
     },
     "imperfektIndikativ": {
       "de": "er schritt",
-      "lv": "He was walking"
+      "lv": "he was walking"
     },
     "imperfektKonjunktiv": {
       "de": "er schritte",
-      "lv": "He would walk"
+      "lv": "he would walk"
     },
     "partizipVergangenheit": {
       "de": "geschritten (er ist)",
-      "lv": "Walked"
+      "lv": "walked"
     }
   },
   {
     "infinitiv": {
       "de": "schweigen",
-      "lv": "Keep quiet"
+      "lv": "keep quiet"
     },
     "praesens": {
       "de": "er schweigt",
-      "lv": "He is silent"
+      "lv": "he is silent"
     },
     "imperfektIndikativ": {
       "de": "er schwieg",
-      "lv": "He was silent"
+      "lv": "he was silent"
     },
     "imperfektKonjunktiv": {
       "de": "er schwiege",
-      "lv": "He would be silent"
+      "lv": "he would be silent"
     },
     "partizipVergangenheit": {
       "de": "geschwiegen",
-      "lv": "Silenced"
+      "lv": "silenced"
     }
   },
   {
     "infinitiv": {
       "de": "schwellen",
-      "lv": "Pamp"
+      "lv": "pampt"
     },
     "praesens": {
       "de": "er schwillt",
-      "lv": "He pouts"
+      "lv": "he pouts"
     },
     "imperfektIndikativ": {
       "de": "er schwoll",
-      "lv": "He pampas"
+      "lv": "he pampas"
     },
     "imperfektKonjunktiv": {
       "de": "er schwölle",
-      "lv": "He would pump"
+      "lv": "he would pump"
     },
     "partizipVergangenheit": {
       "de": "geschwollen (er ist)",
-      "lv": "Pump"
+      "lv": "pampis"
     }
   },
   {
     "infinitiv": {
       "de": "schwimmen",
-      "lv": "To swim"
+      "lv": "to swim"
     },
     "praesens": {
       "de": "er schwimmt",
-      "lv": "He swims"
+      "lv": "he swims"
     },
     "imperfektIndikativ": {
       "de": "er schwamm",
-      "lv": "He was swimming"
+      "lv": "he was swimming"
     },
     "imperfektKonjunktiv": {
       "de": "er schwömme / er schwämme",
-      "lv": "He would swim"
+      "lv": "he would swim"
     },
     "partizipVergangenheit": {
       "de": "geschwommen (er ist)",
-      "lv": "Swam"
+      "lv": "swam"
     }
   },
   {
     "infinitiv": {
       "de": "schwinden",
-      "lv": "Disappear"
+      "lv": "zust"
     },
     "praesens": {
       "de": "er schwindet",
-      "lv": "He disappears"
+      "lv": "he disappears"
     },
     "imperfektIndikativ": {
       "de": "er schwand",
-      "lv": "He disappeared"
+      "lv": "he disappeared"
     },
     "imperfektKonjunktiv": {
       "de": "er schwände",
-      "lv": "He would disappear"
+      "lv": "he would disappear"
     },
     "partizipVergangenheit": {
       "de": "geschwunden (er ist)",
-      "lv": "Lost"
+      "lv": "zudis"
     }
   },
   {
     "infinitiv": {
       "de": "schwingen",
-      "lv": "Wave"
+      "lv": "wave"
     },
     "praesens": {
       "de": "er schwingt",
-      "lv": "He waves"
+      "lv": "he waves"
     },
     "imperfektIndikativ": {
       "de": "er schwang",
-      "lv": "He waved"
+      "lv": "he waved"
     },
     "imperfektKonjunktiv": {
       "de": "er schwänge",
-      "lv": "He would wave"
+      "lv": "he would wave"
     },
     "partizipVergangenheit": {
       "de": "geschwungen",
-      "lv": "Waved"
+      "lv": "waved"
     }
   },
   {
     "infinitiv": {
       "de": "schwören",
-      "lv": "To swear"
+      "lv": "to swear"
     },
     "praesens": {
       "de": "er schwört",
-      "lv": "He swears"
+      "lv": "he swears"
     },
     "imperfektIndikativ": {
       "de": "er schwur / er schwor",
-      "lv": "He swore"
+      "lv": "he swore"
     },
     "imperfektKonjunktiv": {
       "de": "er schwöre",
-      "lv": "He would swear"
+      "lv": "he would swear"
     },
     "partizipVergangenheit": {
       "de": "geschworen",
-      "lv": "Sworn"
+      "lv": "sworn"
     }
   },
   {
     "infinitiv": {
       "de": "sehen",
-      "lv": "To see"
+      "lv": "to see"
     },
     "praesens": {
       "de": "er sieht",
-      "lv": "He sees"
+      "lv": "he sees"
     },
     "imperfektIndikativ": {
       "de": "er sah",
-      "lv": "He saw"
+      "lv": "he saw"
     },
     "imperfektKonjunktiv": {
       "de": "er sähe",
-      "lv": "He would see"
+      "lv": "he would see"
     },
     "partizipVergangenheit": {
       "de": "gesehen",
-      "lv": "Seen"
+      "lv": "seen"
     }
   },
   {
     "infinitiv": {
       "de": "sein",
-      "lv": "To be"
+      "lv": "to be"
     },
     "praesens": {
       "de": "er ist",
-      "lv": "He is"
+      "lv": "he is"
     },
     "imperfektIndikativ": {
       "de": "war",
-      "lv": "Was"
+      "lv": "bija"
     },
     "imperfektKonjunktiv": {
       "de": "war",
-      "lv": "Was"
+      "lv": "bija"
     },
     "partizipVergangenheit": {
       "de": "gewesen",
-      "lv": "Been"
+      "lv": "bijis"
     }
   },
   {
     "infinitiv": {
       "de": "senden",
-      "lv": "To send"
+      "lv": "to send"
     },
     "praesens": {
       "de": "er sendet",
-      "lv": "He sends"
+      "lv": "he sends"
     },
     "imperfektIndikativ": {
       "de": "er sandte / er sendete",
-      "lv": "He sent"
+      "lv": "he sent"
     },
     "imperfektKonjunktiv": {
       "de": "er sendete",
-      "lv": "He would send"
+      "lv": "he would send"
     },
     "partizipVergangenheit": {
       "de": "gesandt / gesendet",
-      "lv": "Sent"
+      "lv": "sent"
     }
   },
   {
     "infinitiv": {
       "de": "sieden",
-      "lv": "To boil"
+      "lv": "to boil"
     },
     "praesens": {
       "de": "er siedet",
-      "lv": "He cooks"
+      "lv": "he cooks"
     },
     "imperfektIndikativ": {
       "de": "sott vai siedete",
-      "lv": "Cooked"
+      "lv": "cooked"
     },
     "imperfektKonjunktiv": {
       "de": "sott vai siedete",
-      "lv": "Cooked"
+      "lv": "cooked"
     },
     "partizipVergangenheit": {
       "de": "gesotten vai gesiedet",
-      "lv": "Boiled"
+      "lv": "boiled"
     }
   },
   {
     "infinitiv": {
       "de": "singen",
-      "lv": "To sing"
+      "lv": "to sing"
     },
     "praesens": {
       "de": "er singt",
-      "lv": "He sings"
+      "lv": "he sings"
     },
     "imperfektIndikativ": {
       "de": "er sang",
-      "lv": "He sang"
+      "lv": "he sang"
     },
     "imperfektKonjunktiv": {
       "de": "er sänge",
-      "lv": "He would sing"
+      "lv": "he would sing"
     },
     "partizipVergangenheit": {
       "de": "gesungen",
-      "lv": "Sung"
+      "lv": "sung"
     }
   },
   {
     "infinitiv": {
       "de": "sinken",
-      "lv": "To sink"
+      "lv": "grimt"
     },
     "praesens": {
       "de": "er sinkt",
-      "lv": "He is sinking"
+      "lv": "he is sinking"
     },
     "imperfektIndikativ": {
       "de": "er sank",
-      "lv": "He was making up"
+      "lv": "he was making up"
     },
     "imperfektKonjunktiv": {
       "de": "er sänke",
-      "lv": "He would sink"
+      "lv": "he would sink"
     },
     "partizipVergangenheit": {
       "de": "gesunken (er ist)",
-      "lv": "Make up"
+      "lv": "grimis"
     }
   },
   {
     "infinitiv": {
       "de": "sinnen",
-      "lv": "To wonder"
+      "lv": "to wonder"
     },
     "praesens": {
       "de": "er sinnt",
-      "lv": "He wonders"
+      "lv": "he wonders"
     },
     "imperfektIndikativ": {
       "de": "er sann",
-      "lv": "He wondered"
+      "lv": "he wondered"
     },
     "imperfektKonjunktiv": {
       "de": "er sönne / er sänne",
-      "lv": "He would wonder"
+      "lv": "he would wonder"
     },
     "partizipVergangenheit": {
       "de": "gesonnen",
-      "lv": "Minded"
+      "lv": "minded"
     }
   },
   {
     "infinitiv": {
       "de": "sitzen",
-      "lv": "To sit"
+      "lv": "to sit"
     },
     "praesens": {
       "de": "er sitzt",
-      "lv": "He is sitting"
+      "lv": "he is sitting"
     },
     "imperfektIndikativ": {
       "de": "er sass",
-      "lv": "He was sitting"
+      "lv": "he was sitting"
     },
     "imperfektKonjunktiv": {
       "de": "er säße",
-      "lv": "He would sit"
+      "lv": "he would sit"
     },
     "partizipVergangenheit": {
       "de": "gesessen",
-      "lv": "Sat down"
+      "lv": "sat down"
     }
   },
   {
     "infinitiv": {
       "de": "sollen",
-      "lv": "Need / be obliged"
+      "lv": "need / be obliged"
     },
     "praesens": {
       "de": "er soll",
-      "lv": "He needs"
+      "lv": "he needs"
     },
     "imperfektIndikativ": {
       "de": "sollte",
-      "lv": "Should have"
+      "lv": "should have"
     },
     "imperfektKonjunktiv": {
       "de": "sollte",
-      "lv": "Should have"
+      "lv": "should have"
     },
     "partizipVergangenheit": {
       "de": "gesollt",
-      "lv": "Needed"
+      "lv": "needed"
     }
   },
   {
     "infinitiv": {
       "de": "speien",
-      "lv": "To spit"
+      "lv": "to spit"
     },
     "praesens": {
       "de": "er speit",
-      "lv": "He spits"
+      "lv": "he spits"
     },
     "imperfektIndikativ": {
       "de": "er spie",
-      "lv": "He spat"
+      "lv": "he spat"
     },
     "imperfektKonjunktiv": {
       "de": "er spie",
-      "lv": "He would spit"
+      "lv": "he would spit"
     },
     "partizipVergangenheit": {
       "de": "gespien",
-      "lv": "Spat out"
+      "lv": "spat out"
     }
   },
   {
     "infinitiv": {
       "de": "spinnen",
-      "lv": "Spin"
+      "lv": "spin"
     },
     "praesens": {
       "de": "er spinnt",
-      "lv": "He twists"
+      "lv": "he twists"
     },
     "imperfektIndikativ": {
       "de": "er spann",
-      "lv": "He spun"
+      "lv": "he spun"
     },
     "imperfektKonjunktiv": {
       "de": "er spönne / er spänne",
-      "lv": "He would spin"
+      "lv": "he would spin"
     },
     "partizipVergangenheit": {
       "de": "gesponnen",
-      "lv": "Spun"
+      "lv": "spun"
     }
   },
   {
     "infinitiv": {
       "de": "spleißen",
-      "lv": "To connect"
+      "lv": "savienot"
     },
     "praesens": {
       "de": "er spleißt",
-      "lv": "He connects"
+      "lv": "he connects"
     },
     "imperfektIndikativ": {
       "de": "spliss",
-      "lv": "Connected"
+      "lv": "savienoja"
     },
     "imperfektKonjunktiv": {
       "de": "spliss",
-      "lv": "Connected"
+      "lv": "savienoja"
     },
     "partizipVergangenheit": {
       "de": "gesplissen",
-      "lv": "Connected"
+      "lv": "savienots"
     }
   },
   {
     "infinitiv": {
       "de": "sprechen",
-      "lv": "To speak"
+      "lv": "to speak"
     },
     "praesens": {
       "de": "er spricht",
-      "lv": "He speaks"
+      "lv": "he speaks"
     },
     "imperfektIndikativ": {
       "de": "er sprach",
-      "lv": "He spoke"
+      "lv": "he spoke"
     },
     "imperfektKonjunktiv": {
       "de": "er spräche",
-      "lv": "He would speak"
+      "lv": "he would speak"
     },
     "partizipVergangenheit": {
       "de": "gesprochen",
-      "lv": "Spoken"
+      "lv": "spoken"
     }
   },
   {
     "infinitiv": {
       "de": "sprießen",
-      "lv": "Thrive"
+      "lv": "plaukt"
     },
     "praesens": {
       "de": "er sprießt",
-      "lv": "He thrives"
+      "lv": "he thrives"
     },
     "imperfektIndikativ": {
       "de": "er spross",
-      "lv": "He thrived"
+      "lv": "he thrived"
     },
     "imperfektKonjunktiv": {
       "de": "er sprösse",
-      "lv": "He shelf"
+      "lv": "he shelf"
     },
     "partizipVergangenheit": {
       "de": "gesprossen (er ist)",
-      "lv": "The shoulder"
+      "lv": "plaucis"
     }
   },
   {
     "infinitiv": {
       "de": "springen",
-      "lv": "To jump"
+      "lv": "to jump"
     },
     "praesens": {
       "de": "er springt",
-      "lv": "He jumps"
+      "lv": "he jumps"
     },
     "imperfektIndikativ": {
       "de": "er sprang",
-      "lv": "He jumped"
+      "lv": "he jumped"
     },
     "imperfektKonjunktiv": {
       "de": "er spränge",
-      "lv": "He would jump"
+      "lv": "he would jump"
     },
     "partizipVergangenheit": {
       "de": "gesprungen (er ist)",
-      "lv": "Lens"
+      "lv": "lens"
     }
   },
   {
     "infinitiv": {
       "de": "stechen",
-      "lv": "Stab"
+      "lv": "durt"
     },
     "praesens": {
       "de": "er sticht",
-      "lv": "He stabs"
+      "lv": "he stabs"
     },
     "imperfektIndikativ": {
       "de": "er stach",
-      "lv": "He punched"
+      "lv": "he punched"
     },
     "imperfektKonjunktiv": {
       "de": "er stäche",
-      "lv": "He would stab"
+      "lv": "he would stab"
     },
     "partizipVergangenheit": {
       "de": "gestochen",
-      "lv": "Stabbed"
+      "lv": "durts"
     }
   },
   {
     "infinitiv": {
       "de": "stecken",
-      "lv": "To stick / stick in"
+      "lv": "to stick / stick in"
     },
     "praesens": {
       "de": "er steckt",
-      "lv": "He pushes"
+      "lv": "he pushes"
     },
     "imperfektIndikativ": {
       "de": "stak vai steckte",
-      "lv": "Stuffed"
+      "lv": "stuffed"
     },
     "imperfektKonjunktiv": {
       "de": "stak vai steckte",
-      "lv": "Stuffed"
+      "lv": "stuffed"
     },
     "partizipVergangenheit": {
       "de": "gesteckt",
-      "lv": "Stuffed"
+      "lv": "stuffed"
     }
   },
   {
     "infinitiv": {
       "de": "stehen",
-      "lv": "To stand"
+      "lv": "to stand"
     },
     "praesens": {
       "de": "er steht",
-      "lv": "He is standing"
+      "lv": "he is standing"
     },
     "imperfektIndikativ": {
       "de": "er stand",
-      "lv": "He stood"
+      "lv": "he stood"
     },
     "imperfektKonjunktiv": {
       "de": "er stände / er stünde",
-      "lv": "He would stand"
+      "lv": "he would stand"
     },
     "partizipVergangenheit": {
       "de": "gestanden",
-      "lv": "Standing"
+      "lv": "standing"
     }
   },
   {
     "infinitiv": {
       "de": "stehlen",
-      "lv": "To steal"
+      "lv": "zagt"
     },
     "praesens": {
       "de": "er stiehlt",
-      "lv": "He steals"
+      "lv": "he steals"
     },
     "imperfektIndikativ": {
       "de": "er stahl",
-      "lv": "He stole"
+      "lv": "he stole"
     },
     "imperfektKonjunktiv": {
       "de": "er stöhle / er stähle",
-      "lv": "He would steal"
+      "lv": "he would steal"
     },
     "partizipVergangenheit": {
       "de": "gestohlen",
-      "lv": "Stolen"
+      "lv": "zagts"
     }
   },
   {
     "infinitiv": {
       "de": "steigen",
-      "lv": "To climb"
+      "lv": "to climb"
     },
     "praesens": {
       "de": "er steigt",
-      "lv": "He climbs"
+      "lv": "he climbs"
     },
     "imperfektIndikativ": {
       "de": "er stieg",
-      "lv": "He climbed"
+      "lv": "he climbed"
     },
     "imperfektKonjunktiv": {
       "de": "er stiege",
-      "lv": "He would climb"
+      "lv": "he would climb"
     },
     "partizipVergangenheit": {
       "de": "gestiegen (er ist)",
-      "lv": "Climbed"
+      "lv": "climbed"
     }
   },
   {
     "infinitiv": {
       "de": "sterben",
-      "lv": "To die"
+      "lv": "mirt"
     },
     "praesens": {
       "de": "er stirbt",
-      "lv": "He is dying"
+      "lv": "he is dying"
     },
     "imperfektIndikativ": {
       "de": "er starb",
-      "lv": "He died"
+      "lv": "he died"
     },
     "imperfektKonjunktiv": {
       "de": "er stürbe",
-      "lv": "He would die"
+      "lv": "he would die"
     },
     "partizipVergangenheit": {
       "de": "gestorben (er ist)",
-      "lv": "Dead"
+      "lv": "miris"
     }
   },
   {
     "infinitiv": {
       "de": "stieben",
-      "lv": "Foam / swirl"
+      "lv": "foam / swirl"
     },
     "praesens": {
       "de": "es stiebt",
-      "lv": "It blows"
+      "lv": "tas put"
     },
     "imperfektIndikativ": {
       "de": "stob vai stiebte",
-      "lv": "Foamed"
+      "lv": "foamed"
     },
     "imperfektKonjunktiv": {
       "de": "stob vai stiebte",
-      "lv": "Foamed"
+      "lv": "foamed"
     },
     "partizipVergangenheit": {
       "de": "gestoben vai gestiebt",
-      "lv": "Spoiled"
+      "lv": "spoiled"
     }
   },
   {
     "infinitiv": {
       "de": "stinken",
-      "lv": "To smell"
+      "lv": "to smell"
     },
     "praesens": {
       "de": "es stinkt",
-      "lv": "It stinks"
+      "lv": "tas smird"
     },
     "imperfektIndikativ": {
       "de": "stank",
-      "lv": "Smelled"
+      "lv": "smelled"
     },
     "imperfektKonjunktiv": {
       "de": "stank",
-      "lv": "Smelled"
+      "lv": "smelled"
     },
     "partizipVergangenheit": {
       "de": "gestunken",
-      "lv": "Smelly"
+      "lv": "smelly"
     }
   },
   {
     "infinitiv": {
       "de": "stoßen",
-      "lv": "Push"
+      "lv": "push"
     },
     "praesens": {
       "de": "er stößt",
-      "lv": "He pushes"
+      "lv": "he pushes"
     },
     "imperfektIndikativ": {
       "de": "er stieß",
-      "lv": "He pushed"
+      "lv": "he pushed"
     },
     "imperfektKonjunktiv": {
       "de": "er stieße",
-      "lv": "He was pushing"
+      "lv": "he was pushing"
     },
     "partizipVergangenheit": {
       "de": "gestoßen",
-      "lv": "Pushed"
+      "lv": "pushed"
     }
   },
   {
     "infinitiv": {
       "de": "streichen",
-      "lv": "Paint / strip"
+      "lv": "paint / strip"
     },
     "praesens": {
       "de": "er streicht",
-      "lv": "He paints / stripes"
+      "lv": "he paints / stripes"
     },
     "imperfektIndikativ": {
       "de": "er strich",
-      "lv": "He painted / striped"
+      "lv": "he painted / striped"
     },
     "imperfektKonjunktiv": {
       "de": "er striche",
-      "lv": "He would paint / strip"
+      "lv": "he would paint / strip"
     },
     "partizipVergangenheit": {
       "de": "gestrichen",
-      "lv": "Painted / striped"
+      "lv": "painted / striped"
     }
   },
   {
     "infinitiv": {
       "de": "streiten",
-      "lv": "To fight"
+      "lv": "to fight"
     },
     "praesens": {
       "de": "er streitet",
-      "lv": "He is fighting"
+      "lv": "he is fighting"
     },
     "imperfektIndikativ": {
       "de": "er stritt",
-      "lv": "He struggled"
+      "lv": "he struggled"
     },
     "imperfektKonjunktiv": {
       "de": "er stritte",
-      "lv": "He would fight"
+      "lv": "he would fight"
     },
     "partizipVergangenheit": {
       "de": "gestritten",
-      "lv": "Fought"
+      "lv": "fought"
     }
   },
   {
     "infinitiv": {
       "de": "tragen",
-      "lv": "Carry"
+      "lv": "nest"
     },
     "praesens": {
       "de": "er trägt",
-      "lv": "He carries"
+      "lv": "he carries"
     },
     "imperfektIndikativ": {
       "de": "er trug",
-      "lv": "He carried"
+      "lv": "he carried"
     },
     "imperfektKonjunktiv": {
       "de": "er trüge",
-      "lv": "He would carry"
+      "lv": "he would carry"
     },
     "partizipVergangenheit": {
       "de": "getragen",
-      "lv": "Carried"
+      "lv": "nests"
     }
   },
   {
     "infinitiv": {
       "de": "treffen",
-      "lv": "To encounter"
+      "lv": "sastapt"
     },
     "praesens": {
       "de": "er trifft",
-      "lv": "He meets"
+      "lv": "he meets"
     },
     "imperfektIndikativ": {
       "de": "er traf",
-      "lv": "He encountered"
+      "lv": "he encountered"
     },
     "imperfektKonjunktiv": {
       "de": "er träfe",
-      "lv": "He would encounter"
+      "lv": "he would encounter"
     },
     "partizipVergangenheit": {
       "de": "getroffen",
-      "lv": "Encountered"
+      "lv": "sastapts"
     }
   },
   {
     "infinitiv": {
       "de": "treiben",
-      "lv": "Chase"
+      "lv": "chase"
     },
     "praesens": {
       "de": "er treibt",
-      "lv": "He drives"
+      "lv": "he drives"
     },
     "imperfektIndikativ": {
       "de": "er trieb",
-      "lv": "He drove"
+      "lv": "he drove"
     },
     "imperfektKonjunktiv": {
       "de": "er triebe",
-      "lv": "He would drive"
+      "lv": "he would drive"
     },
     "partizipVergangenheit": {
       "de": "getrieben",
-      "lv": "Chased"
+      "lv": "chased"
     }
   },
   {
     "infinitiv": {
       "de": "treten",
-      "lv": "Enter / go"
+      "lv": "enter / go"
     },
     "praesens": {
       "de": "er tritt",
-      "lv": "He enters / goes"
+      "lv": "he enters / goes"
     },
     "imperfektIndikativ": {
       "de": "er trat",
-      "lv": "He stood / walked"
+      "lv": "he stood / walked"
     },
     "imperfektKonjunktiv": {
       "de": "er träte",
-      "lv": "He would stand / go"
+      "lv": "he would stand / go"
     },
     "partizipVergangenheit": {
       "de": "getreten (er ist)",
-      "lv": "Stood / walked"
+      "lv": "stood / walked"
     }
   },
   {
     "infinitiv": {
       "de": "trinken",
-      "lv": "To drink"
+      "lv": "dzert"
     },
     "praesens": {
       "de": "er trinkt",
-      "lv": "He drinks"
+      "lv": "he drinks"
     },
     "imperfektIndikativ": {
       "de": "er trank",
-      "lv": "He was drinking"
+      "lv": "he was drinking"
     },
     "imperfektKonjunktiv": {
       "de": "er tränke",
-      "lv": "He would drink"
+      "lv": "he would drink"
     },
     "partizipVergangenheit": {
       "de": "getrunken",
-      "lv": "Drunk"
+      "lv": "dzerts"
     }
   },
   {
     "infinitiv": {
       "de": "trügen",
-      "lv": "To cheat"
+      "lv": "to cheat"
     },
     "praesens": {
       "de": "er trögt",
-      "lv": "He cheats"
+      "lv": "he cheats"
     },
     "imperfektIndikativ": {
       "de": "er trog",
-      "lv": "He cheated"
+      "lv": "he cheated"
     },
     "imperfektKonjunktiv": {
       "de": "er tröge",
-      "lv": "He would cheat"
+      "lv": "he would cheat"
     },
     "partizipVergangenheit": {
       "de": "getrogen",
-      "lv": "Cheated"
+      "lv": "cheated"
     }
   },
   {
     "infinitiv": {
       "de": "tun",
-      "lv": "To do"
+      "lv": "to do"
     },
     "praesens": {
       "de": "er tut",
-      "lv": "He does"
+      "lv": "he does"
     },
     "imperfektIndikativ": {
       "de": "er tat",
-      "lv": "He did"
+      "lv": "he did"
     },
     "imperfektKonjunktiv": {
       "de": "er täte",
-      "lv": "He would do"
+      "lv": "he would do"
     },
     "partizipVergangenheit": {
       "de": "getan",
-      "lv": "Done"
+      "lv": "done"
     }
   },
   {
     "infinitiv": {
       "de": "verderben",
-      "lv": "To damage"
+      "lv": "to damage"
     },
     "praesens": {
       "de": "er verdirbt",
-      "lv": "He destroys"
+      "lv": "he destroys"
     },
     "imperfektIndikativ": {
       "de": "er verdarb",
-      "lv": "He damaged"
+      "lv": "he damaged"
     },
     "imperfektKonjunktiv": {
       "de": "er verdürbe",
-      "lv": "He would damage"
+      "lv": "he would damage"
     },
     "partizipVergangenheit": {
       "de": "verdorben",
-      "lv": "Damaged"
+      "lv": "damaged"
     }
   },
   {
     "infinitiv": {
       "de": "verdrießen",
-      "lv": "To cause annoyance"
+      "lv": "to cause annoyance"
     },
     "praesens": {
       "de": "er verdrießt",
-      "lv": "He causes annoyance"
+      "lv": "he causes annoyance"
     },
     "imperfektIndikativ": {
       "de": "er verdross",
-      "lv": "He caused annoyance"
+      "lv": "he caused annoyance"
     },
     "imperfektKonjunktiv": {
       "de": "er verdrösse",
-      "lv": "He would cause annoyance"
+      "lv": "he would cause annoyance"
     },
     "partizipVergangenheit": {
       "de": "verdrossen",
-      "lv": "Upset"
+      "lv": "upset"
     }
   },
   {
     "infinitiv": {
       "de": "vergessen",
-      "lv": "Forget"
+      "lv": "aizmirst"
     },
     "praesens": {
       "de": "er vergisst",
-      "lv": "He forgets"
+      "lv": "he forgets"
     },
     "imperfektIndikativ": {
       "de": "er vergass",
-      "lv": "He forgot"
+      "lv": "he forgot"
     },
     "imperfektKonjunktiv": {
       "de": "er vergäße",
-      "lv": "He would forget"
+      "lv": "he would forget"
     },
     "partizipVergangenheit": {
       "de": "vergessen",
-      "lv": "Forgotten"
+      "lv": "aizmirsts"
     }
   },
   {
     "infinitiv": {
       "de": "verlieren",
-      "lv": "To lose"
+      "lv": "to lose"
     },
     "praesens": {
       "de": "er verliert",
-      "lv": "He loses"
+      "lv": "he loses"
     },
     "imperfektIndikativ": {
       "de": "er verlor",
-      "lv": "He lost"
+      "lv": "he lost"
     },
     "imperfektKonjunktiv": {
       "de": "er verlöre",
-      "lv": "He would lose"
+      "lv": "he would lose"
     },
     "partizipVergangenheit": {
       "de": "verloren",
-      "lv": "Lost"
+      "lv": "lost"
     }
   },
   {
     "infinitiv": {
       "de": "wachsen",
-      "lv": "To grow"
+      "lv": "augt"
     },
     "praesens": {
       "de": "er wächst",
-      "lv": "He is growing"
+      "lv": "he is growing"
     },
     "imperfektIndikativ": {
       "de": "er wuchs",
-      "lv": "He was growing up"
+      "lv": "he was growing up"
     },
     "imperfektKonjunktiv": {
       "de": "er wüchse",
-      "lv": "He would grow"
+      "lv": "he would grow"
     },
     "partizipVergangenheit": {
       "de": "gewachsen (er ist)",
-      "lv": "Grew up"
+      "lv": "audzis"
     }
   },
   {
     "infinitiv": {
       "de": "waschen",
-      "lv": "To wash"
+      "lv": "to wash"
     },
     "praesens": {
       "de": "er wäscht",
-      "lv": "He washes"
+      "lv": "he washes"
     },
     "imperfektIndikativ": {
       "de": "er wusch",
-      "lv": "He washed"
+      "lv": "he washed"
     },
     "imperfektKonjunktiv": {
       "de": "er wüsche",
-      "lv": "He would wash"
+      "lv": "he would wash"
     },
     "partizipVergangenheit": {
       "de": "gewaschen",
-      "lv": "Washed"
+      "lv": "washed"
     }
   },
   {
     "infinitiv": {
       "de": "weben",
-      "lv": "Weave"
+      "lv": "aust"
     },
     "praesens": {
       "de": "er webt",
-      "lv": "He weaves"
+      "lv": "he weaves"
     },
     "imperfektIndikativ": {
       "de": "wob",
-      "lv": "Tissue"
+      "lv": "auda"
     },
     "imperfektKonjunktiv": {
       "de": "wob",
-      "lv": "Tissue"
+      "lv": "auda"
     },
     "partizipVergangenheit": {
       "de": "gewoben",
-      "lv": "Woven"
+      "lv": "izausts"
     }
   },
   {
     "infinitiv": {
       "de": "weichen",
-      "lv": "To withdraw"
+      "lv": "to withdraw"
     },
     "praesens": {
       "de": "er weicht",
-      "lv": "He backs off"
+      "lv": "he backs off"
     },
     "imperfektIndikativ": {
       "de": "er wich",
-      "lv": "He stepped back"
+      "lv": "he stepped back"
     },
     "imperfektKonjunktiv": {
       "de": "er wiche",
-      "lv": "He would back off"
+      "lv": "he would back off"
     },
     "partizipVergangenheit": {
       "de": "gewichen (er ist)",
-      "lv": "Back off"
+      "lv": "back off"
     }
   },
   {
     "infinitiv": {
       "de": "weisen",
-      "lv": "Show"
+      "lv": "show"
     },
     "praesens": {
       "de": "er weist",
-      "lv": "He shows"
+      "lv": "he shows"
     },
     "imperfektIndikativ": {
       "de": "er wies",
-      "lv": "He showed"
+      "lv": "he showed"
     },
     "imperfektKonjunktiv": {
       "de": "er wiese",
-      "lv": "He would show"
+      "lv": "he would show"
     },
     "partizipVergangenheit": {
       "de": "gewiesen",
-      "lv": "Shown"
+      "lv": "shown"
     }
   },
   {
     "infinitiv": {
       "de": "wenden",
-      "lv": "Modify / crop"
+      "lv": "modify / crop"
     },
     "praesens": {
       "de": "er wendet",
-      "lv": "He twists / turns"
+      "lv": "he twists / turns"
     },
     "imperfektIndikativ": {
       "de": "er wandte / es wendete",
-      "lv": "He twisted / turned"
+      "lv": "he twisted / turned"
     },
     "imperfektKonjunktiv": {
       "de": "er wendete",
-      "lv": "He would amend / reverse"
+      "lv": "he would amend / reverse"
     },
     "partizipVergangenheit": {
       "de": "gewandt / gewendet",
-      "lv": "Amended / reversed"
+      "lv": "amended / reversed"
     }
   },
   {
     "infinitiv": {
       "de": "werben",
-      "lv": "To propose"
+      "lv": "to propose"
     },
     "praesens": {
       "de": "er wirbt",
-      "lv": "He proposes"
+      "lv": "he proposes"
     },
     "imperfektIndikativ": {
       "de": "er warb",
-      "lv": "He proposed"
+      "lv": "he proposed"
     },
     "imperfektKonjunktiv": {
       "de": "er würbe",
-      "lv": "He would propose"
+      "lv": "he would propose"
     },
     "partizipVergangenheit": {
       "de": "geworben",
-      "lv": "Proposed to"
+      "lv": "proposed to"
     }
   },
   {
     "infinitiv": {
       "de": "werden",
-      "lv": "To become"
+      "lv": "to become"
     },
     "praesens": {
       "de": "er wird",
-      "lv": "He becomes"
+      "lv": "he becomes"
     },
     "imperfektIndikativ": {
       "de": "wurde",
-      "lv": "Became"
+      "lv": "became"
     },
     "imperfektKonjunktiv": {
       "de": "wurde",
-      "lv": "Became"
+      "lv": "became"
     },
     "partizipVergangenheit": {
       "de": "geworden",
-      "lv": "Has become"
+      "lv": "has become"
     }
   },
   {
     "infinitiv": {
       "de": "werfen",
-      "lv": "Throw"
+      "lv": "mest"
     },
     "praesens": {
       "de": "er wirft",
-      "lv": "He throws"
+      "lv": "he throws"
     },
     "imperfektIndikativ": {
       "de": "er warf",
-      "lv": "He threw"
+      "lv": "he threw"
     },
     "imperfektKonjunktiv": {
       "de": "er würfe",
-      "lv": "He threw"
+      "lv": "he threw"
     },
     "partizipVergangenheit": {
       "de": "geworfen",
-      "lv": "Thrown"
+      "lv": "mests"
     }
   },
   {
     "infinitiv": {
       "de": "wiegen",
-      "lv": "To weigh"
+      "lv": "to weigh"
     },
     "praesens": {
       "de": "er wiegt",
-      "lv": "He weighs"
+      "lv": "he weighs"
     },
     "imperfektIndikativ": {
       "de": "er wog",
-      "lv": "He weighed"
+      "lv": "he weighed"
     },
     "imperfektKonjunktiv": {
       "de": "er wöge",
-      "lv": "He would weigh"
+      "lv": "he would weigh"
     },
     "partizipVergangenheit": {
       "de": "gewogen",
-      "lv": "Weighted"
+      "lv": "weighted"
     }
   },
   {
     "infinitiv": {
       "de": "winden",
-      "lv": "Braid"
+      "lv": "braid"
     },
     "praesens": {
       "de": "er windet",
-      "lv": "He pin"
+      "lv": "he pin"
     },
     "imperfektIndikativ": {
       "de": "er wand",
-      "lv": "He braids"
+      "lv": "he braids"
     },
     "imperfektKonjunktiv": {
       "de": "er wände",
-      "lv": "He would braid"
+      "lv": "he would braid"
     },
     "partizipVergangenheit": {
       "de": "gewunden",
-      "lv": "Braided"
+      "lv": "braided"
     }
   },
   {
     "infinitiv": {
       "de": "wissen",
-      "lv": "To know"
+      "lv": "to know"
     },
     "praesens": {
       "de": "er weiß",
-      "lv": "He knows"
+      "lv": "he knows"
     },
     "imperfektIndikativ": {
       "de": "er wusste",
-      "lv": "He knew"
+      "lv": "he knew"
     },
     "imperfektKonjunktiv": {
       "de": "er wüsste",
-      "lv": "He would know"
+      "lv": "he would know"
     },
     "partizipVergangenheit": {
       "de": "gewusst",
-      "lv": "Known"
+      "lv": "known"
     }
   },
   {
     "infinitiv": {
       "de": "wollen",
-      "lv": "Want to"
+      "lv": "want to"
     },
     "praesens": {
       "de": "er will",
-      "lv": "He wants"
+      "lv": "he wants"
     },
     "imperfektIndikativ": {
       "de": "wollte",
-      "lv": "Wanted to"
+      "lv": "wanted to"
     },
     "imperfektKonjunktiv": {
       "de": "wollte",
-      "lv": "Wanted to"
+      "lv": "wanted to"
     },
     "partizipVergangenheit": {
       "de": "gewollt",
-      "lv": "Wanted to"
+      "lv": "wanted to"
     }
   },
   {
     "infinitiv": {
       "de": "wringen",
-      "lv": "Cut out / squeeze out"
+      "lv": "izgriezt / izspiest"
     },
     "praesens": {
       "de": "er wringt",
-      "lv": "He cuts out"
+      "lv": "he cuts out"
     },
     "imperfektIndikativ": {
       "de": "wrang",
-      "lv": "Cut out"
+      "lv": "izgrieza"
     },
     "imperfektKonjunktiv": {
       "de": "wrang",
-      "lv": "Cut out"
+      "lv": "izgrieza"
     },
     "partizipVergangenheit": {
       "de": "gewrungen",
-      "lv": "Cut out"
+      "lv": "izgriezts"
     }
   },
   {
     "infinitiv": {
       "de": "zeihen",
-      "lv": "To blame"
+      "lv": "vainot"
     },
     "praesens": {
       "de": "er zeiht",
-      "lv": "He blames"
+      "lv": "he blames"
     },
     "imperfektIndikativ": {
       "de": "zieh",
-      "lv": "Blamed"
+      "lv": "vainoja"
     },
     "imperfektKonjunktiv": {
       "de": "zieh",
-      "lv": "Blamed"
+      "lv": "vainoja"
     },
     "partizipVergangenheit": {
       "de": "geziehen",
-      "lv": "Blamed"
+      "lv": "vainojis"
     }
   },
   {
     "infinitiv": {
       "de": "ziehen",
-      "lv": "To pull"
+      "lv": "vilkt"
     },
     "praesens": {
       "de": "er zieht",
-      "lv": "He pulls"
+      "lv": "he pulls"
     },
     "imperfektIndikativ": {
       "de": "er zog",
-      "lv": "He pulled"
+      "lv": "he pulled"
     },
     "imperfektKonjunktiv": {
       "de": "er zöge",
-      "lv": "He would drag"
+      "lv": "he would drag"
     },
     "partizipVergangenheit": {
       "de": "gezogen",
-      "lv": "Dragged"
+      "lv": "vilkts"
     }
   },
   {
     "infinitiv": {
       "de": "zwingen",
-      "lv": "To force"
+      "lv": "piespiest"
     },
     "praesens": {
       "de": "er zwingt",
-      "lv": "He forces"
+      "lv": "he forces"
     },
     "imperfektIndikativ": {
       "de": "er zwang",
-      "lv": "He forced"
+      "lv": "he forced"
     },
     "imperfektKonjunktiv": {
       "de": "er zwänge",
-      "lv": "He would force"
+      "lv": "he would force"
     },
     "partizipVergangenheit": {
       "de": "gezwungen",
-      "lv": "Forced"
+      "lv": "piespiests"
     }
   },
   {
     "infinitiv": {
       "de": "empfangen",
-      "lv": "To receive"
+      "lv": "to receive"
     },
     "praesens": {
       "de": "er empfängt",
-      "lv": "He receives"
+      "lv": "he receives"
     },
     "imperfektIndikativ": {
       "de": "er empfing",
-      "lv": "He received"
+      "lv": "he received"
     },
     "imperfektKonjunktiv": {
       "de": "er empfinge",
-      "lv": "He would receive"
+      "lv": "he would receive"
     },
     "partizipVergangenheit": {
       "de": "empfangen",
-      "lv": "Received"
+      "lv": "received"
     }
   },
   {
     "infinitiv": {
       "de": "erwägen",
-      "lv": "To consider"
+      "lv": "to consider"
     },
     "praesens": {
       "de": "er erwägt",
-      "lv": "He considers"
+      "lv": "he considers"
     },
     "imperfektIndikativ": {
       "de": "er erwog",
-      "lv": "He considered"
+      "lv": "he considered"
     },
     "imperfektKonjunktiv": {
       "de": "er erwöge",
-      "lv": "He would consider"
+      "lv": "he would consider"
     },
     "partizipVergangenheit": {
       "de": "erwogen",
-      "lv": "Considered"
+      "lv": "considered"
     }
   },
   {
     "infinitiv": {
       "de": "fechten",
-      "lv": "To fight"
+      "lv": "to fight"
     },
     "praesens": {
       "de": "er ficht",
-      "lv": "He is fighting"
+      "lv": "he is fighting"
     },
     "imperfektIndikativ": {
       "de": "er focht",
-      "lv": "He struggled"
+      "lv": "he struggled"
     },
     "imperfektKonjunktiv": {
       "de": "er föchte",
-      "lv": "He would fight"
+      "lv": "he would fight"
     },
     "partizipVergangenheit": {
       "de": "gefochten",
-      "lv": "Fought"
+      "lv": "fought"
     }
   },
   {
     "infinitiv": {
       "de": "flechten",
-      "lv": "Braid"
+      "lv": "braid"
     },
     "praesens": {
       "de": "er flicht",
-      "lv": "He pin"
+      "lv": "he pin"
     },
     "imperfektIndikativ": {
       "de": "er flocht",
-      "lv": "He braids"
+      "lv": "he braids"
     },
     "imperfektKonjunktiv": {
       "de": "er flöchte",
-      "lv": "He would braid"
+      "lv": "he would braid"
     },
     "partizipVergangenheit": {
       "de": "geflochten",
-      "lv": "Braided"
+      "lv": "braided"
     }
   },
   {
     "infinitiv": {
       "de": "hangen",
-      "lv": "To hang"
+      "lv": "to hang"
     },
     "praesens": {
       "de": "er hängt",
-      "lv": "He hangs"
+      "lv": "he hangs"
     },
     "imperfektIndikativ": {
       "de": "er hing",
-      "lv": "He hung"
+      "lv": "he hung"
     },
     "imperfektKonjunktiv": {
       "de": "er hinge",
-      "lv": "He would hang himself"
+      "lv": "he would hang himself"
     },
     "partizipVergangenheit": {
       "de": "gehangen",
-      "lv": "Hang on"
+      "lv": "hang on"
     }
   },
   {
     "infinitiv": {
       "de": "spalten",
-      "lv": "To split"
+      "lv": "to split"
     },
     "praesens": {
       "de": "er spaltet",
-      "lv": "He splits"
+      "lv": "he splits"
     },
     "imperfektIndikativ": {
       "de": "er spaltete",
-      "lv": "He split"
+      "lv": "he split"
     },
     "imperfektKonjunktiv": {
       "de": "er spaltete",
-      "lv": "He would split"
+      "lv": "he would split"
     },
     "partizipVergangenheit": {
       "de": "gespalten",
-      "lv": "Split"
+      "lv": "split"
     }
   },
   {
     "infinitiv": {
       "de": "verzeihen",
-      "lv": "To forgive"
+      "lv": "piedot"
     },
     "praesens": {
       "de": "er verzeiht",
-      "lv": "He forgives"
+      "lv": "he forgives"
     },
     "imperfektIndikativ": {
       "de": "er verzieh",
-      "lv": "He forgave"
+      "lv": "he forgave"
     },
     "imperfektKonjunktiv": {
       "de": "er verziehe",
-      "lv": "He would forgive"
+      "lv": "he would forgive"
     },
     "partizipVergangenheit": {
       "de": "verziehen",
-      "lv": "Forgiven"
+      "lv": "piedots"
     }
   }
 ];
