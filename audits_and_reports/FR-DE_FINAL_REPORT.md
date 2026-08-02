@@ -6,7 +6,7 @@
 |-------|---------|
 | **Valodas pāris** | FR–DE (Français → Deutsch) |
 | **Statuss** | Tehniski pilnībā izveidots un integrēts |
-| **Pull Request** | (tiks izveidots pēc push) |
+| **Pull Request** | #244 |
 | **Darba rezultāts** | Pilns franču valodas datu komplekts A1–C2, Study kartītes, teikumi, darbības vārdi, Kurss un UI lokalizācija |
 
 ---
