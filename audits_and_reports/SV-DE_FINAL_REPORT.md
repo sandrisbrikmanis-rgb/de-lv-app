@@ -6,7 +6,7 @@
 |-------|---------|
 | **Valodas pāris** | SV–DE (Svenska → Deutsch) |
 | **Statuss** | Tehniski pilnībā izveidots un integrēts |
-| **Pull Request** | (tiks pievienots pēc PR izveides) |
+| **Pull Request** | #237 |
 | **Darba rezultāts** | Pilns zviedru valodas datu komplekts A1–C2, Study kartītes, teikumi, darbības vārdi, Kurss un UI lokalizācija |
 
 ---
