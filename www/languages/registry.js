@@ -203,6 +203,17 @@
       hasStudyData: true,
       uiPath: "./languages/cs/ui.js",
       dataManifestPath: "./languages/cs/data/manifest.js"
+    },
+    {
+      code: "fi",
+      nativeName: "Suomi",
+      nativeCode: "FI",
+      active: true,
+      uiAvailable: true,
+      dataStatus: "complete",
+      hasStudyData: true,
+      uiPath: "./languages/fi/ui.js",
+      dataManifestPath: "./languages/fi/data/manifest.js"
     }
   ];
 
