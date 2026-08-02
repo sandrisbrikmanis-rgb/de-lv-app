@@ -187,7 +187,7 @@
       try {
         await loadScript(resolved.path);
         loadedDatasetScripts.add(resolved.path);
-        if ((nativeLanguage === "lt" || nativeLanguage === "uk" || nativeLanguage === "ru" || nativeLanguage === "sl" || nativeLanguage === "bs" || nativeLanguage === "sr" || nativeLanguage === "hr") && dataset === "courseLessons") {
+        if ((nativeLanguage === "lt" || nativeLanguage === "uk" || nativeLanguage === "ru" || nativeLanguage === "sl" || nativeLanguage === "bs" || nativeLanguage === "sr" || nativeLanguage === "hr" || nativeLanguage === "sk") && dataset === "courseLessons") {
           const trainingCardsPath = `./data/${nativeLanguage}/courseTrainingCards.js`;
           if (await pathExists(trainingCardsPath)) {
             await loadScript(trainingCardsPath);
