@@ -214,6 +214,17 @@
       hasStudyData: true,
       uiPath: "./languages/fi/ui.js",
       dataManifestPath: "./languages/fi/data/manifest.js"
+    },
+    {
+      code: "sv",
+      nativeName: "Svenska",
+      nativeCode: "SV",
+      active: true,
+      uiAvailable: true,
+      dataStatus: "complete",
+      hasStudyData: true,
+      uiPath: "./languages/sv/ui.js",
+      dataManifestPath: "./languages/sv/data/manifest.js"
     }
   ];
 
