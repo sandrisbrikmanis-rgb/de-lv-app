@@ -15,7 +15,7 @@ window.LANGUAGE_UI_STRINGS = {
   },
   "menu": {
     "mainNav": "Glavni meni",
-    "course": "seveda",
+    "course": "Tečaj",
     "sentences": "Stavki",
     "verbs": "Glagoli",
     "chooseGroup": "Izberite skupino"
@@ -24,18 +24,18 @@ window.LANGUAGE_UI_STRINGS = {
     "sentences": "Stavki"
   },
   "nav": {
-    "backHome": "Vrnite se v glavni meni",
-    "changeLanguage": "Spremenite svoj materni jezik",
-    "howItWorks": "kako deluje",
+    "backHome": "Nazaj na glavni meni",
+    "changeLanguage": "Spremeni jezik",
+    "howItWorks": "Kako deluje?",
     "quickTools": "Hitra orodja"
   },
   "buttons": {
-    "known": "Točno vem",
-    "unknown": "ne vem",
-    "next": "naslednjo besedo",
-    "check": "Preverite",
+    "known": "Znam",
+    "unknown": "Ne vem",
+    "next": "Naslednja beseda",
+    "check": "Preveri",
     "continue": "Nadaljuj",
-    "close": "skoraj",
+    "close": "Zapri",
     "delete": "Izbriši",
     "cancel": "Zavrnitev",
     "restore": "Okrevanje",
@@ -70,7 +70,7 @@ window.LANGUAGE_UI_STRINGS = {
     "problemShort": "problem",
     "problemFull": "Težavne besede",
     "problemWithCount": "Težavne besede ({count})",
-    "spellingShort": "PIS.",
+    "spellingShort": "PISANJE.",
     "spellingFull": "Črkovanje"
   },
   "modes": {
@@ -94,11 +94,11 @@ window.LANGUAGE_UI_STRINGS = {
     "spellingVerbs": "Črkovanje · Glagoli",
     "verbsShuffleTraining": "Glagoli · Kombinirano učenje",
     "answerPrefix": "odgovor:",
-    "sessionComplete": "Seje je konec!",
+    "sessionComplete": "Setve je konec!",
     "sessionLabel": "Seja",
     "lastSessionLabel": "Zadnja seja",
     "problemLabel": "Problematično",
-    "levelCompleteTitle": "čudovito! Raven {label} je končana! 🎉",
+    "levelCompleteTitle": "čudovito! Raven {label} je končan! 🎉",
     "levelCompleteDesc": "Obvladali ste vse besede v tej skupini. Čas je, da naredite naslednji korak!",
     "noActiveWords": "V tej skupini ni aktivnih besed.",
     "noCardsInSession": "V tej seji ni kartic.",
@@ -154,7 +154,7 @@ window.LANGUAGE_UI_STRINGS = {
     "showingTimeReview": "Prikaz: {label}.",
     "continueTimeReview": "Nadaljujemo: {label}.",
     "enterAnswerFirst": "Najprej vnesite pravilen odgovor in pritisnite Preveri.",
-    "noCardForMastered": "Ni znanih kart za dodajanje 100 %.",
+    "noCardForMastered": "Ni znanih kart za 100 % dodajanje.",
     "addedMastered": "Beseda je bila dodana k 100 % znano.",
     "alreadyMastered": "Beseda je zdaj na seznamu 100 % znanih.",
     "noCardForUnwanted": "Ni kartice, ki bi jo označili kot neuporabno.",
@@ -177,13 +177,13 @@ window.LANGUAGE_UI_STRINGS = {
     "knownReviewDone": "Pregled znanih besed je končan."
   },
   "lists": {
-    "noUnwanted": "Brez nepotrebnih besed.",
+    "noUnwanted": "Brez nepotrebnega govorjenja.",
     "noLearned": "Nobena beseda se ni naučila.",
     "noMastered": "100% znanih besed ni."
   },
   "restore": {
     "ariaLabel": "Potrdite, da izbrišete ves napredek",
-    "warning": "Bodite previdni! Ves znanstveni napredek in zgodovina besed bosta popolnoma izbrisana."
+    "warning": "Bodite previdni! Ves znanstveni napredek in zgodovina bosta popolnoma izbrisana."
   },
   "info": {
     "title": "kako deluje",
@@ -198,9 +198,9 @@ window.LANGUAGE_UI_STRINGS = {
     "listeningTitle": "Poslušnost",
     "listeningBody": "Dotaknite se ikone zvočnika na kartici, da slišite izgovorjavo.",
     "unwantedTitle": "Neuporabne besede",
-    "unwantedBody": "Pritisnite izrezano oko v kot kartice - beseda bo izginila iz toka. Obnovite jih lahko v naprednih možnostih.",
+    "unwantedBody": "Pritisnite izrezano oko v kotu kartice - govor bo izginil iz toka. Z lahkoto jih lahko obnovite v naprednih možnostih.",
     "answersTitle": "Odgovori",
-    "answersBody": "<strong>Prav vem</strong> – poznate odgovor. <strong>Ne vem</strong> – pomaga vam zapomniti in jih dodati med problematične. <strong>Naslednja beseda</strong> - preskoči brez ocene.",
+    "answersBody": "<strong>Prav vem</strong> – poznate odgovor. <strong>Ne vem</strong> – pomaga vam zapomniti in jih dodati na seznam problematičnih. <strong>Naslednja pridiga</strong> - preskoči brez ocene.",
     "extraTitle": "Dodatne možnosti",
     "extraBody": "Odprite <strong>Več možnosti</strong>, če si želite ogledati tedenski in mesečni pregled, znane besede in obnoviti skrite."
   },
@@ -232,7 +232,7 @@ window.LANGUAGE_UI_STRINGS = {
     "verbBasics": "Osnove glagola",
     "verbBasicsDesc": "Ljudje, oblike in najpogostejši glagoli.",
     "sentenceStructure": "Struktura stavka",
-    "sentenceStructureDesc": "Preprost besedni red v nemških stavkih.",
+    "sentenceStructureDesc": "Preprost vrstni red govora v nemških stavkih.",
     "articlesSubtitle": "Der, die, das in osnove uporabe.",
     "pronounsSubtitle": "Nominativ, tožilnik in dajalnik - oblike zaimkov.",
     "pronunciationSubtitle": "Osnove nemških glasov in izgovorjave",
@@ -273,7 +273,7 @@ window.LANGUAGE_UI_STRINGS = {
       "translate": "Übung II - prevajalec",
       "formDu": "Oblika 1/3: ti (ednina)",
       "formIhr": "Oblika 2/3: ti (množina)",
-      "formSie": "3/3: avgust (ugodna oblika)"
+      "formSie": "3/3: avgust (prijetna oblika)"
     },
     "lessonItems": {
       "1": {
@@ -373,7 +373,7 @@ window.LANGUAGE_UI_STRINGS = {
     "correct": "točno tako!",
     "incorrect": "Narobe",
     "expectedLabel": "Pravilno:",
-    "noVerbTask": "Za ta glagol ni pravopisne naloge.",
+    "noVerbTask": "Za ta glagol ni navodil za črkovanje.",
     "writeAnswer": "Vnesite svoj odgovor",
     "missingChar": "manjka: {char}"
   },
@@ -394,7 +394,7 @@ window.LANGUAGE_UI_STRINGS = {
       "tip": "nasveti",
       "important": "pomembno",
       "mistakes": "Pogoste napake",
-      "remember": "Ne pozabite",
+      "remember": "Ne pozabi",
       "comparisonFocus": "Pomembna primerjava",
       "comparisonBadge": "PRIMERJALNA TABELA"
     },
@@ -403,7 +403,7 @@ window.LANGUAGE_UI_STRINGS = {
       "meaning": "pomen",
       "example": "Primer",
       "native": "SL",
-      "german": "OD",
+      "german": "OF",
       "mainMeaning": "Glavni pomen",
       "describes": "opisujem",
       "translation": "Prevajanje"

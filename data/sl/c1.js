@@ -3,382 +3,382 @@ const C1_WORDS = [
     "de": "Wahrnehmung",
     "de_article": "die",
     "de_plural": "die Wahrnehmungen",
-    "lv": "Восприятие",
+    "lv": "uztvere",
     "level": "C1"
   },
   {
     "de": "gewährleisten",
-    "lv": "Осигурете",
+    "lv": "nodrošināt",
     "level": "C1"
   },
   {
     "de": "Auswirkung",
     "de_article": "die",
     "de_plural": "die Auswirkungen",
-    "lv": "Влияние",
+    "lv": "ietekme",
     "level": "C1"
   },
   {
     "de": "umstritten",
-    "lv": "Противоречивый",
+    "lv": "pretrunīgs",
     "level": "C1"
   },
   {
     "de": "Stellungnahme",
     "de_article": "die",
     "de_plural": "die Stellungnahmen",
-    "lv": "Официальное заявление • Выражение мнения",
+    "lv": "oficiāls paziņojums • viedokļa paušana",
     "level": "C1"
   },
   {
     "de": "nachvollziehen",
-    "lv": "Понимать • Следовать логике",
+    "lv": "saprast • sekot loģikai",
     "level": "C1"
   },
   {
     "de": "ausschlaggebend",
-    "lv": "Решаващ",
+    "lv": "izšķirošs",
     "level": "C1"
   },
   {
     "de": "Belastbarkeit",
     "de_article": "die",
     "de_plural": "die Belastbarkeiten",
-    "lv": "Стрессоустойчивость • Устойчивость к нагрузкам",
+    "lv": "stresa noturība • izturība pret slodzi",
     "level": "C1"
   },
   {
     "de": "akkreditieren",
-    "lv": "Аккредитовать",
+    "lv": "akreditēt",
     "level": "C1"
   },
   {
     "de": "Aktiengesellschaft",
     "de_article": "die",
     "de_plural": "die Aktiengesellschaften",
-    "lv": "Акционерное общество",
+    "lv": "akciju sabiedrība",
     "level": "C1"
   },
   {
     "de": "Aktionsprogramm",
     "de_article": "das",
     "de_plural": "die Aktionsprogramme",
-    "lv": "Программа мероприятий",
+    "lv": "pasākumu programma",
     "level": "C1"
   },
   {
     "de": "Alarmbereitschaft",
     "de_article": "die",
     "de_plural": "die Alarmbereitschaften",
-    "lv": "Готовность к бою",
+    "lv": "trauksmes gatavība",
     "level": "C1"
   },
   {
     "de": "Altweibersommer",
     "de_article": "der",
     "de_plural": "die Altweibersommer",
-    "lv": "Pomlad",
+    "lv": "atvasara",
     "level": "C1"
   },
   {
     "de": "anfechten",
-    "lv": "Спор • Прашање",
+    "lv": "apstrīdēt • apšaubīt",
     "level": "C1"
   },
   {
     "de": "allerseits",
-    "lv": "Со всех сторон",
+    "lv": "no visām pusēm",
     "level": "C1"
   },
   {
     "de": "anderweitig",
-    "lv": "В другом месте • Иначе",
+    "lv": "citur • citādi",
     "level": "C1"
   },
   {
     "de": "Abrüstungsabkommen",
     "de_article": "das",
     "de_plural": "die Abrüstungsabkommen",
-    "lv": "Договор о разоружении",
+    "lv": "atbruņošanās līgums",
     "level": "C1"
   },
   {
     "de": "Abrüstungsverhandlungen",
     "de_article": "die",
     "de_plural": "die Abrüstungsverhandlungen",
-    "lv": "Переговоры по разоружению",
+    "lv": "atbruņošanās sarunas",
     "level": "C1"
   },
   {
     "de": "Aal",
     "de_article": "der",
     "de_plural": "die Aale",
-    "lv": "Акни",
+    "lv": "zutis",
     "level": "C1"
   },
   {
     "de": "Abart",
     "de_article": "die",
     "de_plural": "die Abarten",
-    "lv": "Отклонение • Аберрация",
+    "lv": "novirze • aberrācija",
     "level": "C1"
   },
   {
     "de": "abstumpfen",
-    "lv": "Pritupit • Neobčutljiv na cepljenje",
+    "lv": "notrulināt • padarīt nejūtīgu",
     "level": "C1"
   },
   {
     "de": "Abtreibung",
     "de_article": "die",
     "de_plural": "die Abtreibungen",
-    "lv": "Аборт",
+    "lv": "aborts",
     "level": "C1"
   },
   {
     "de": "Affekt",
     "de_article": "der",
     "de_plural": "die Affekte",
-    "lv": "Взрыв эмоций",
+    "lv": "emociju uzliesmojums",
     "level": "C1"
   },
   {
     "de": "ächten",
-    "lv": "Подвергать остракизму • Подвергать социальному остракизму",
+    "lv": "izstumt • sociāli atstumt",
     "level": "C1"
   },
   {
     "de": "Flottenstützpunkt",
     "de_article": "der",
     "de_plural": "die Flottenstützpunkte",
-    "lv": "Военно-морская база",
+    "lv": "jūras bāze",
     "level": "C1"
   },
   {
     "de": "Flugwetter",
     "de_article": "das",
-    "lv": "Погодные условия для полета",
+    "lv": "laika apstākļi lidošanai",
     "level": "C1"
   },
   {
     "de": "Frachtbrief",
     "de_article": "der",
     "de_plural": "die Frachtbriefe",
-    "lv": "Карго товарен лист",
+    "lv": "kravas pavadzīme",
     "level": "C1"
   },
   {
     "de": "Frachtgeld",
     "de_article": "das",
     "de_plural": "die Frachtgelder",
-    "lv": "Стоимость фрахта",
+    "lv": "maksa par kravas pārvadāšanu",
     "level": "C1"
   },
   {
     "de": "Frauenrechtlerin",
     "de_article": "die",
     "de_plural": "die Frauenrechtlerinnen",
-    "lv": "Борец за равноправие женщин",
+    "lv": "cīnītāja par sieviešu līdztiesību",
     "level": "C1"
   },
   {
     "de": "Freikörperkultur",
     "de_article": "die",
     "de_plural": "die Freikörperkulturen",
-    "lv": "Нудизм",
+    "lv": "nūdisms",
     "level": "C1"
   },
   {
     "de": "Kinderschänder",
     "de_article": "der",
     "de_plural": "die Kinderschänder",
-    "lv": "Педофил",
+    "lv": "pedofils",
     "level": "C1"
   },
   {
     "de": "Kindesmisshandlung",
     "de_article": "die",
     "de_plural": "die Kindesmisshandlungen",
-    "lv": "Насилие над детьми",
+    "lv": "vardarbība pret bērniem",
     "level": "C1"
   },
   {
     "de": "Zivilgesetzbuch",
     "de_article": "das",
     "de_plural": "die Zivilgesetzbücher",
-    "lv": "Гражданское право",
+    "lv": "civillikums",
     "level": "C1"
   },
   {
     "de": "Aktie",
     "de_article": "die",
     "de_plural": "die Aktien",
-    "lv": "Акција",
+    "lv": "akcija",
     "level": "C1"
   },
   {
     "de": "Abenddämmerung",
     "de_article": "die",
     "de_plural": "die Abenddämmerungen",
-    "lv": "Вечерние сумерки",
+    "lv": "vakara krēsla",
     "level": "C1"
   },
   {
     "de": "Anwalt",
     "de_article": "der",
     "de_plural": "die Anwälte",
-    "lv": "Адвокат",
+    "lv": "advokāts",
     "level": "C1"
   },
   {
     "de": "außergewöhnlich",
-    "lv": "Необычный",
+    "lv": "neparasts",
     "level": "C1"
   },
   {
     "de": "außerordentlich",
-    "lv": "Необыкновенный",
+    "lv": "ārkārtējs",
     "level": "C1"
   },
   {
     "de": "Autokennzeichen",
     "de_article": "das",
     "de_plural": "die Autokennzeichen",
-    "lv": "Буквы и цифры на номерном знаке автомобиля",
+    "lv": "burti un cipari uz automašīnas numura zīmes",
     "level": "C1"
   },
   {
     "de": "Bäckerhandwerk",
     "de_article": "das",
     "de_plural": "die Bäckerhandwerke",
-    "lv": "Работа пекаря",
+    "lv": "maiznieka amats",
     "level": "C1"
   },
   {
     "de": "bekannt geben",
-    "lv": "Обявете",
+    "lv": "paziņot",
     "level": "C1"
   },
   {
     "de": "Bergwanderung",
     "de_article": "die",
     "de_plural": "die Bergwanderungen",
-    "lv": "Горный туризм",
+    "lv": "kalnu tūrisms",
     "level": "C1"
   },
   {
     "de": "beschäftigen",
-    "lv": "Вработување",
+    "lv": "nodarbināt",
     "level": "C1"
   },
   {
     "de": "sich beschäftigen",
-    "lv": "Окупирай",
+    "lv": "nodarboties",
     "level": "C1"
   },
   {
     "de": "Beschäftigung",
     "de_article": "die",
     "de_plural": "die Beschäftigungen",
-    "lv": "Занятие",
+    "lv": "nodarbošanās",
     "level": "C1"
   },
   {
     "de": "beschleunigen",
-    "lv": "Ускориться",
+    "lv": "paātrināt",
     "level": "C1"
   },
   {
     "de": "Besichtigung",
     "de_article": "die",
     "de_plural": "die Besichtigungen",
-    "lv": "Инспекция",
+    "lv": "apskate",
     "level": "C1"
   },
   {
     "de": "beurteilen",
-    "lv": "Оценете",
+    "lv": "vērtēt",
     "level": "C1"
   },
   {
     "de": "Autobahnbrücke",
     "de_article": "die",
     "de_plural": "die Autobahnbrücken",
-    "lv": "Дорожный путепровод",
+    "lv": "ceļa pārvads",
     "level": "C1"
   },
   {
     "de": "Eisenbahnbrücke",
     "de_article": "die",
     "de_plural": "die Eisenbahnbrücken",
-    "lv": "Железнодорожный мост",
+    "lv": "dzelzceļa tilts",
     "level": "C1"
   },
   {
     "de": "Dampfbügeleisen",
     "de_article": "das",
     "de_plural": "die Dampfbügeleisen",
-    "lv": "Паровой утюг",
+    "lv": "tvaika gludeklis",
     "level": "C1"
   },
   {
     "de": "Büroangestellte",
     "de_article": "der",
-    "lv": "Офисный работник",
+    "lv": "biroja darbinieks",
     "level": "C1"
   },
   {
     "de": "charakteristisch",
-    "lv": "Характеристика",
+    "lv": "raksturīgs",
     "level": "C1"
   },
   {
     "de": "Diplomat",
     "de_article": "der",
     "de_plural": "die Diplomaten",
-    "lv": "Дипломат",
+    "lv": "diplomāts",
     "level": "C1"
   },
   {
     "de": "Dokumentarfilm",
     "de_article": "der",
     "de_plural": "die Dokumentarfilme",
-    "lv": "Документальный фильм",
+    "lv": "dokumentālā filma",
     "level": "C1"
   },
   {
     "de": "durchschnittlich",
-    "lv": "В среднем",
+    "lv": "vidēji",
     "level": "C1"
   },
   {
     "de": "durchstreichen",
-    "lv": "Пречкртајте",
+    "lv": "pārsvītrot",
     "level": "C1"
   },
   {
     "de": "Einfamilienhaus",
     "de_article": "das",
     "de_plural": "die Einfamilienhäuser",
-    "lv": "Дом на одну семью",
+    "lv": "vienģimenes māja",
     "level": "C1",
     "study": {
       "id": "c1-einfamilienhaus",
       "layout": "standardStudy",
-      "translation": "Дом на одну семью",
-      "explanation": "Glavna ideja: das Einfamilienhaus — dom za družine. Izraz это pomeni zasebno prenočišče in ne prenočišče z več enotami.",
+      "translation": "vienģimenes māja",
+      "explanation": "Galvenā doma: das Einfamilienhaus ir māja vienai ģimenei. Tas parasti nozīmē atsevišķu privātmāju, nevis daudzdzīvokļu māju.",
       "examples": [
         {
           "de": "Sie wohnen in einem Einfamilienhaus.",
-          "lv": "Они живут в частном доме."
+          "lv": "viņi dzīvo vienģimenes mājā."
         },
         {
           "de": "Das Einfamilienhaus hat einen Garten.",
-          "lv": "В частном доме есть сад."
+          "lv": "vienģimenes mājai ir dārzs."
         },
         {
           "de": "Nebenan steht ein Mehrfamilienhaus.",
-          "lv": "Рядом с ним жилой дом."
+          "lv": "blakus atrodas daudzdzīvokļu māja."
         }
       ]
     }
@@ -387,396 +387,396 @@ const C1_WORDS = [
     "de": "Eisenbahnfahrt",
     "de_article": "die",
     "de_plural": "die Eisenbahnfahrten",
-    "lv": "Поездка на поезде",
+    "lv": "brauciens pa dzelzceļu",
     "level": "C1"
   },
   {
     "de": "Eisenbahnstation",
     "de_article": "die",
     "de_plural": "die Eisenbahnstationen",
-    "lv": "Железничка станица",
+    "lv": "dzelzceļa stacija",
     "level": "C1"
   },
   {
     "de": "ekelhaft",
-    "lv": "Одвратно",
+    "lv": "pretīgs",
     "level": "C1"
   },
   {
     "de": "Energieverbrauch",
     "de_article": "der",
     "de_plural": "die Energieverbräuche",
-    "lv": "Потребление энергии",
+    "lv": "enerģijas patēriņš",
     "level": "C1"
   },
   {
     "de": "Gartenerdbeere",
     "de_article": "die",
     "de_plural": "die Gartenerdbeeren",
-    "lv": "Садовая клубника",
+    "lv": "dārza zemene",
     "level": "C1"
   },
   {
     "de": "erforderlich",
-    "lv": "Необходимо",
+    "lv": "nepieciešams",
     "level": "C1"
   },
   {
     "de": "fabelhaft",
-    "lv": "Страхотно",
+    "lv": "lielisks",
     "level": "C1"
   },
   {
     "de": "fehlerhaft",
-    "lv": "Ошибочный",
+    "lv": "kļūdains",
     "level": "C1"
   },
   {
     "de": "folgendermaßen",
-    "lv": "Следующее",
+    "lv": "šādi",
     "level": "C1"
   },
   {
     "de": "Geburtsschein",
     "de_article": "der",
     "de_plural": "die Geburtsscheine",
-    "lv": "Свидетельство о рождении",
+    "lv": "dzimšanas apliecība",
     "level": "C1"
   },
   {
     "de": "gegeneinander",
-    "lv": "Друг против друга",
+    "lv": "viens pret otru",
     "level": "C1"
   },
   {
     "de": "Gemüsegarten",
     "de_article": "der",
     "de_plural": "die Gemüsegärten",
-    "lv": "Градина",
+    "lv": "sakņu dārzs",
     "level": "C1"
   },
   {
     "de": "Gepäckträger",
     "de_article": "der",
     "de_plural": "die Gepäckträger",
-    "lv": "Багажник",
+    "lv": "bagāžnieks",
     "level": "C1"
   },
   {
     "de": "geschäftlich",
-    "lv": "Сделка",
+    "lv": "darījumu",
     "level": "C1"
   },
   {
     "de": "Geschäftsmann",
     "de_article": "der",
     "de_plural": "die Geschäftsleute",
-    "lv": "Предприниматель",
+    "lv": "uzņēmējs",
     "level": "C1"
   },
   {
     "de": "geschichtlich",
-    "lv": "Историски",
+    "lv": "vēsturisks",
     "level": "C1"
   },
   {
     "de": "geschmacklos",
-    "lv": "Безвкусный",
+    "lv": "bezgaumīgs",
     "level": "C1"
   },
   {
     "de": "geschmackvoll",
-    "lv": "Со вкусом",
+    "lv": "gaumīgs",
     "level": "C1"
   },
   {
     "de": "gesetzlich",
-    "lv": "Правни",
+    "lv": "likumīgs",
     "level": "C1"
   },
   {
     "de": "Gesichtspunkt",
     "de_article": "der",
     "de_plural": "die Gesichtspunkte",
-    "lv": "Jernigan?",
+    "lv": "viedoklis",
     "level": "C1"
   },
   {
     "de": "Gewichtheben",
     "de_article": "das",
-    "lv": "Тяжелая атлетика",
+    "lv": "svarcelšana",
     "level": "C1"
   },
   {
     "de": "gewissenhaft",
-    "lv": "Добросовестный",
+    "lv": "apzinīgs",
     "level": "C1"
   },
   {
     "de": "Gipfel",
     "de_article": "der",
     "de_plural": "die Gipfel",
-    "lv": "Пик",
+    "lv": "virsotne",
     "level": "C1"
   },
   {
     "de": "Hausangestellte",
     "de_article": "die",
-    "lv": "Экономка",
+    "lv": "mājkalpotāja",
     "level": "C1"
   },
   {
     "de": "hinaufklettern",
-    "lv": "Подняться наверх",
+    "lv": "kāpt augšā",
     "level": "C1"
   },
   {
     "de": "hintereinander",
-    "lv": "Еден по еден",
+    "lv": "viens aiz otra",
     "level": "C1"
   },
   {
     "de": "Hochzeitsbrauch",
     "de_article": "der",
     "de_plural": "die Hochzeitsbräuche",
-    "lv": "Свадебный обычай",
+    "lv": "kāzu paraža",
     "level": "C1"
   },
   {
     "de": "Hochzeitsfeier",
     "de_article": "die",
     "de_plural": "die Hochzeitsfeiern",
-    "lv": "Свадбена прослава",
+    "lv": "kāzu svinības",
     "level": "C1"
   },
   {
     "de": "Hochzeitsreise",
     "de_article": "die",
     "de_plural": "die Hochzeitsreisen",
-    "lv": "Меден месец",
+    "lv": "kāzu ceļojums",
     "level": "C1"
   },
   {
     "de": "identifizieren",
-    "lv": "Идентифицировать",
+    "lv": "identificēt",
     "level": "C1"
   },
   {
     "de": "Inflationsrate",
     "de_article": "die",
     "de_plural": "die Inflationsraten",
-    "lv": "Уровень инфляции",
+    "lv": "inflācijas līmenis",
     "level": "C1"
   },
   {
     "de": "Schlaginstrument",
     "de_article": "das",
     "de_plural": "die Schlaginstrumente",
-    "lv": "Ударный инструмент",
+    "lv": "sitamais instruments",
     "level": "C1"
   },
   {
     "de": "Tasteninstrument",
     "de_article": "das",
     "de_plural": "die Tasteninstrumente",
-    "lv": "Клавиатура",
+    "lv": "taustiņinstruments",
     "level": "C1"
   },
   {
     "de": "Jahreseinkommen",
     "de_article": "das",
     "de_plural": "die Jahreseinkommen",
-    "lv": "Годовой доход",
+    "lv": "gada ienākums",
     "level": "C1"
   },
   {
     "de": "Kabelanschluss",
     "de_article": "der",
     "de_plural": "die Kabelanschlüsse",
-    "lv": "Подключение кабельного телевидения",
+    "lv": "televīzijas kabeļpieslēgums",
     "level": "C1"
   },
   {
     "de": "Kabelfernsehen",
     "de_article": "das",
-    "lv": "Кабельное телевидение",
+    "lv": "kabeļtelevīzija",
     "level": "C1"
   },
   {
     "de": "Kaltwasserhahn",
     "de_article": "der",
     "de_plural": "die Kaltwasserhähne",
-    "lv": "Кран с холодной водой",
+    "lv": "aukstā ūdens krāns",
     "level": "C1"
   },
   {
     "de": "Pressekampagne",
     "de_article": "die",
     "de_plural": "die Pressekampagnen",
-    "lv": "Пресс-кампания",
+    "lv": "preses kampaņa",
     "level": "C1"
   },
   {
     "de": "Kandidatenliste",
     "de_article": "die",
     "de_plural": "die Kandidatenlisten",
-    "lv": "Список кандидатов",
+    "lv": "kandidātu saraksts",
     "level": "C1"
   },
   {
     "de": "Klage",
     "de_article": "die",
     "de_plural": "die Klagen",
-    "lv": "Жалба",
+    "lv": "sūdzība",
     "level": "C1"
   },
   {
     "de": "klagen",
-    "lv": "Оплакване",
+    "lv": "sūdzēties",
     "level": "C1"
   },
   {
     "de": "Kostenanschlag",
     "de_article": "der",
     "de_plural": "die Kostenanschläge",
-    "lv": "Смета расходов",
+    "lv": "izdevumu tāme",
     "level": "C1"
   },
   {
     "de": "krampfhaft",
-    "lv": "Напад",
+    "lv": "krampjains",
     "level": "C1"
   },
   {
     "de": "Krankheitsbild",
     "de_article": "das",
     "de_plural": "die Krankheitsbilder",
-    "lv": "Место заболевания",
+    "lv": "slimības aina",
     "level": "C1"
   },
   {
     "de": "Lastkraftwagen",
     "de_article": "der",
     "de_plural": "die Lastkraftwagen",
-    "lv": "Тяжелая машина",
+    "lv": "smagā automašīna",
     "level": "C1"
   },
   {
     "de": "lebhaft",
-    "lv": "Жив",
+    "lv": "rosīgs",
     "level": "C1"
   },
   {
     "de": "Leichtathletik",
     "de_article": "die",
     "de_plural": "die Leichtathletiken",
-    "lv": "Лека атлетика",
+    "lv": "vieglatlētika",
     "level": "C1"
   },
   {
     "de": "Mehrwertsteuer",
     "de_article": "die",
     "de_plural": "die Mehrwertsteuern",
-    "lv": "Налог на добавленную стоимость",
+    "lv": "pievienotās vērtības nodoklis",
     "level": "C1"
   },
   {
     "de": "Meinungsumfrage",
     "de_article": "die",
     "de_plural": "die Meinungsumfragen",
-    "lv": "Опрос общественного мнения",
+    "lv": "viedokļu aptauja",
     "level": "C1"
   },
   {
     "de": "Menschenrechte",
     "de_article": "die",
-    "lv": "Права человека",
+    "lv": "cilvēktiesības",
     "level": "C1"
   },
   {
     "de": "Ministerium",
     "de_article": "das",
     "de_plural": "die Ministerien",
-    "lv": "Министерство",
+    "lv": "ministrija",
     "level": "C1"
   },
   {
     "de": "Missverständnis",
     "de_article": "das",
     "de_plural": "die Missverständnisse",
-    "lv": "Недоразбирање",
+    "lv": "pārpratums",
     "level": "C1"
   },
   {
     "de": "Modezeitschrift",
     "de_article": "die",
     "de_plural": "die Modezeitschriften",
-    "lv": "Журнал мод",
+    "lv": "modes žurnāls",
     "level": "C1"
   },
   {
     "de": "Morgendämmerung",
     "de_article": "die",
     "de_plural": "die Morgendämmerungen",
-    "lv": "Зори",
+    "lv": "rītausma",
     "level": "C1"
   },
   {
     "de": "Morgengymnastik",
     "de_article": "die",
     "de_plural": "die Morgengymnastiken",
-    "lv": "Зори",
+    "lv": "rītarosme",
     "level": "C1"
   },
   {
     "de": "nahrhaft",
-    "lv": "Сомнително",
+    "lv": "barojošs",
     "level": "C1"
   },
   {
     "de": "Nationaltracht",
     "de_article": "die",
     "de_plural": "die Nationaltrachten",
-    "lv": "Народна носия",
+    "lv": "tautastērps",
     "level": "C1"
   },
   {
     "de": "Notar",
     "de_article": "der",
     "de_plural": "die Notare",
-    "lv": "Нотариус",
+    "lv": "notārs",
     "level": "C1"
   },
   {
     "de": "Notarzt",
     "de_article": "der",
     "de_plural": "die Notärzte",
-    "lv": "Врач скорой помощи",
+    "lv": "ātrās palīdzības ārsts",
     "level": "C1"
   },
   {
     "de": "Öffentlichkeit",
     "de_article": "die",
     "de_plural": "die Öffentlichkeiten",
-    "lv": "Общество • Открытость",
+    "lv": "sabiedrība • atklātība",
     "level": "C1",
     "study": {
       "id": "c1-offentlichkeit",
       "layout": "standardStudy",
-      "translation": "Общество • Открытость",
-      "explanation": "Основная идея: die Öffentlichkeit означает общество как публичное пространство или людей в целом. Во фразе an die Öffentlichkeit kommen это означает выйти на открытое пространство.",
+      "translation": "sabiedrība • atklātība",
+      "explanation": "Galvenā doma: die Öffentlichkeit nozīmē sabiedrību kā publisko telpu vai cilvēkus kopumā. Frāzē an die Öffentlichkeit kommen tas nozīmē nonākt atklātībā.",
       "examples": [
         {
           "de": "Die Öffentlichkeit reagierte kritisch.",
-          "lv": "Общественность отреагировала критически."
+          "lv": "sabiedrība reaģēja kritiski."
         },
         {
           "de": "Der Fall kam an die Öffentlichkeit.",
-          "lv": "Дело стало известно."
+          "lv": "lieta nonāca atklātībā."
         },
         {
           "de": "Die Öffentlichkeit hat ein Recht auf Information.",
-          "lv": "Общественность имеет право на информацию."
+          "lv": "sabiedrībai ir tiesības uz informāciju."
         }
       ]
     }
@@ -785,32 +785,32 @@ const C1_WORDS = [
     "de": "Parlament",
     "de_article": "das",
     "de_plural": "die Parlamente",
-    "lv": "Парламент",
+    "lv": "parlaments",
     "level": "C1"
   },
   {
     "de": "Partei",
     "de_article": "die",
     "de_plural": "die Parteien",
-    "lv": "Svečana slovesnost • Svečana slovesnost",
+    "lv": "partija • puse",
     "level": "C1",
     "study": {
       "id": "c1-partei",
       "layout": "standardStudy",
-      "translation": "Svečana slovesnost • Svečana slovesnost",
-      "explanation": "Основная идея: die Partei обычно является политической партией. На юридическом или конфликтном языке это также может означать сторону.",
+      "translation": "partija • puse",
+      "explanation": "Galvenā doma: die Partei parasti ir politiska partija. Juridiskā vai konflikta valodā tā var nozīmēt arī pusi.",
       "examples": [
         {
           "de": "Diese Partei gewann die Wahl.",
-          "lv": "Эта партия победила на выборах."
+          "lv": "šī partija uzvarēja vēlēšanās."
         },
         {
           "de": "Er ist seit Jahren Mitglied einer Partei.",
-          "lv": "Он был членом партии в течение многих лет."
+          "lv": "viņš jau gadiem ir partijas biedrs."
         },
         {
           "de": "Beide Parteien müssen den Vertrag unterschreiben.",
-          "lv": "Обе стороны должны подписать договор."
+          "lv": "abām pusēm jāparaksta līgums."
         }
       ]
     }
@@ -819,67 +819,67 @@ const C1_WORDS = [
     "de": "Persönlichkeit",
     "de_article": "die",
     "de_plural": "die Persönlichkeiten",
-    "lv": "Личност",
+    "lv": "personība",
     "level": "C1"
   },
   {
     "de": "Polizeieinheit",
     "de_article": "die",
     "de_plural": "die Polizeieinheiten",
-    "lv": "Полициска единица",
+    "lv": "policijas vienība",
     "level": "C1"
   },
   {
     "de": "Polizeistreife",
     "de_article": "die",
     "de_plural": "die Polizeistreifen",
-    "lv": "Полицейский патруль",
+    "lv": "policijas patruļa",
     "level": "C1"
   },
   {
     "de": "Pollenallergie",
     "de_article": "die",
     "de_plural": "die Pollenallergien",
-    "lv": "Аллергия на пыльцу",
+    "lv": "putekšņu alerģija",
     "level": "C1"
   },
   {
     "de": "Polstergarnitur",
     "de_article": "die",
     "de_plural": "die Polstergarnituren",
-    "lv": "Комплект мягкой мебели",
+    "lv": "mīksto mēbeļu garnitūra",
     "level": "C1"
   },
   {
     "de": "Premier",
     "de_article": "der",
     "de_plural": "die Premiers",
-    "lv": "Премьер-министр",
+    "lv": "premjerministrs",
     "level": "C1"
   },
   {
     "de": "Prozess",
     "de_article": "der",
     "de_plural": "die Prozesse",
-    "lv": "Процесс • Иск",
+    "lv": "process • prāva",
     "level": "C1",
     "study": {
       "id": "c1-prozess",
       "layout": "standardStudy",
-      "translation": "Процесс • Иск",
-      "explanation": "Основная идея: der Prozess – это процесс или процесс. В суде der Prozess означает судебное разбирательство.",
+      "translation": "process • prāva",
+      "explanation": "Galvenā doma: der Prozess ir process vai norise. Tiesā der Prozess nozīmē prāvu.",
       "examples": [
         {
           "de": "Der Prozess dauert mehrere Monate.",
-          "lv": "Процесс занимает несколько месяцев."
+          "lv": "process ilgst vairākus mēnešus."
         },
         {
           "de": "Der Prozess vor Gericht beginnt morgen.",
-          "lv": "Суд начнется завтра."
+          "lv": "tiesas prāva sākas rīt."
         },
         {
           "de": "Wir verbessern den ganzen Prozess.",
-          "lv": "Мы улучшаем весь процесс."
+          "lv": "mēs uzlabojam visu procesu."
         }
       ]
     }
@@ -888,438 +888,442 @@ const C1_WORDS = [
     "de": "Prozessor",
     "de_article": "der",
     "de_plural": "die Prozessoren",
-    "lv": "Процессор",
+    "lv": "procesors",
     "level": "C1"
   },
   {
     "de": "Radioübertragung",
     "de_article": "die",
     "de_plural": "die Radioübertragungen",
-    "lv": "Излъчване",
+    "lv": "radiopārraide",
     "level": "C1"
   },
   {
     "de": "Rechtsanwalt",
     "de_article": "der",
     "de_plural": "die Rechtsanwälte",
-    "lv": "Адвокат",
+    "lv": "advokāts",
     "level": "C1"
   },
   {
     "de": "Rekonstruktion",
     "de_article": "die",
     "de_plural": "die Rekonstruktionen",
-    "lv": "Реконструкция",
+    "lv": "rekonstrukcija",
     "level": "C1"
   },
   {
     "de": "Rennen mit Hindernissen",
     "de_article": "das",
     "de_plural": "die Rennen mit Hindernissen",
-    "lv": "Полоса препятствий",
+    "lv": "šķēršļu skrējiens",
     "level": "C1"
   },
   {
     "de": "Reparaturkosten",
     "de_article": "die",
-    "lv": "Затраты на ремонт",
+    "lv": "remonta izmaksas",
     "level": "C1"
   },
   {
     "de": "Rettungsstelle",
     "de_article": "die",
     "de_plural": "die Rettungsstellen",
-    "lv": "Пункт первой помощи",
+    "lv": "ātrās palīdzības punkts",
     "level": "C1"
   },
   {
     "de": "rezeptpflichtig",
-    "lv": "По рецепту",
+    "lv": "pēc receptes",
     "level": "C1"
   },
   {
     "de": "Schauspielhaus",
     "de_article": "das",
     "de_plural": "die Schauspielhäuser",
-    "lv": "Театар",
+    "lv": "teātris",
     "level": "C1"
   },
   {
     "de": "Scheibenwischer",
     "de_article": "der",
     "de_plural": "die Scheibenwischer",
-    "lv": "Средство для мытья окон автомобиля",
+    "lv": "automašīnas logu tīrītājs",
     "level": "C1"
   },
   {
     "de": "Schiedsrichter",
     "de_article": "der",
     "de_plural": "die Schiedsrichter",
-    "lv": "Съдия",
+    "lv": "tiesnesis",
     "level": "C1"
   },
   {
     "de": "Schlussverkauf",
     "de_article": "der",
     "de_plural": "die Schlussverkäufe",
-    "lv": "Распродажа товаров в конце сезона по сниженным ценам",
+    "lv": "preču izpārdošana sezonas beigās par pazeminātām cenām",
     "level": "C1"
   },
   {
     "de": "schmerzhaft",
-    "lv": "Болно",
+    "lv": "sāpīgs",
     "level": "C1"
   },
   {
     "de": "Schneewittchen",
     "de_article": "das",
     "de_plural": "die Schneewittchen",
-    "lv": "Сказочный персонаж Белоснежка",
+    "lv": "pasaku tēls Sniegbaltīte",
     "level": "C1"
   },
   {
     "de": "Schraubenzieher",
     "de_article": "der",
     "de_plural": "die Schraubenzieher",
-    "lv": "Шрафцигер",
+    "lv": "skrūvgriezis",
     "level": "C1"
   },
   {
     "de": "Schutzumschlag",
     "de_article": "der",
     "de_plural": "die Schutzumschläge",
-    "lv": "Капак",
+    "lv": "apvāks",
     "level": "C1"
   },
   {
     "de": "Schwiegereltern",
     "de_article": "die",
-    "lv": "Родители мужа",
+    "lv": "vīra vecāki",
     "level": "C1"
   },
   {
     "de": "Schwiegermutter",
     "de_article": "die",
     "de_plural": "die Schwiegermütter",
-    "lv": "Свекровь",
+    "lv": "vīramāte",
     "level": "C1"
   },
   {
     "de": "Schwiegertochter",
     "de_article": "die",
     "de_plural": "die Schwiegertöchter",
-    "lv": "Невестка",
+    "lv": "vedekla",
     "level": "C1"
   },
   {
     "de": "Schwiegervater",
     "de_article": "der",
     "de_plural": "die Schwiegerväter",
-    "lv": "Свекор",
+    "lv": "vīratēvs",
     "level": "C1"
   },
   {
     "de": "Selbstbedienung",
     "de_article": "die",
     "de_plural": "die Selbstbedienungen",
-    "lv": "Самообслуживание",
+    "lv": "pašapkalpošanās",
     "level": "C1"
   },
   {
     "de": "Stabhochspringen",
     "de_article": "das",
-    "lv": "Прыжки с шестом",
+    "lv": "kārtslēkšana",
     "level": "C1"
   },
   {
     "de": "Stadtrundfahrt",
     "de_article": "die",
     "de_plural": "die Stadtrundfahrten",
-    "lv": "Gorodu kolesarjenje",
+    "lv": "brauciens pa pilsētu",
     "level": "C1"
   },
   {
     "de": "stecken bleiben",
-    "lv": "Застрять",
+    "lv": "iestrēgt",
     "level": "C1"
   },
   {
     "de": "Stellvertreter",
     "de_article": "der",
     "de_plural": "die Stellvertreter",
-    "lv": "Промена",
+    "lv": "aizstājējs",
     "level": "C1"
   },
   {
     "de": "Steuererklärung",
     "de_article": "die",
     "de_plural": "die Steuererklärungen",
-    "lv": "Налоговая декларация",
+    "lv": "nodokļu deklarācija",
     "level": "C1"
   },
   {
     "de": "Strampelhöschen",
     "de_article": "das",
     "de_plural": "die Strampelhöschen",
-    "lv": "Детский гусеничный робот",
+    "lv": "zīdaiņa rāpulītis",
     "level": "C1"
   },
   {
     "de": "Stromverbrauch",
     "de_article": "der",
     "de_plural": "die Stromverbräuche",
-    "lv": "Текущее потребление",
+    "lv": "strāvas patēriņš",
     "level": "C1"
   },
   {
     "de": "Tagesnachrichten",
     "de_article": "die",
-    "lv": "Новости дня",
+    "lv": "dienas ziņas",
     "level": "C1"
   },
   {
     "de": "Teilzeitarbeit",
     "de_article": "die",
     "de_plural": "die Teilzeitarbeiten",
-    "lv": "Непълен работен ден",
+    "lv": "darbs nepilnu darba dienu",
     "level": "C1"
   },
   {
     "de": "Terminkalender",
     "de_article": "der",
     "de_plural": "die Terminkalender",
-    "lv": "Календарь заметок",
+    "lv": "piezīmju kalendārs",
     "level": "C1"
   },
   {
     "de": "Thermosflasche",
     "de_article": "die",
     "de_plural": "die Thermosflaschen",
-    "lv": "Термос",
+    "lv": "termoss",
     "level": "C1"
   },
   {
     "de": "Tierkreiszeichen",
     "de_article": "das",
     "de_plural": "die Tierkreiszeichen",
-    "lv": "Знак зодиака",
+    "lv": "zodiaka zīme",
     "level": "C1"
   },
   {
     "de": "transportieren",
-    "lv": "Транспорт",
+    "lv": "transportēt",
     "level": "C1"
   },
   {
     "de": "Überschwemmung",
     "de_article": "die",
     "de_plural": "die Überschwemmungen",
-    "lv": "Наводнение",
+    "lv": "plūdi",
     "level": "C1"
   },
   {
     "de": "Unternehmen",
     "de_article": "das",
     "de_plural": "die Unternehmen",
-    "lv": "Компания • Мероприятие",
+    "lv": "uzņēmums • pasākums",
     "level": "C1"
   },
   {
     "de": "unterstreichen",
-    "lv": "Подчеркнуть",
+    "lv": "pasvītrot",
     "level": "C1"
   },
   {
     "de": "unverständlich",
-    "lv": "Непонятный",
+    "lv": "nesaprotams",
     "level": "C1"
   },
   {
     "de": "Heiratsurkunde",
     "de_article": "die",
     "de_plural": "die Heiratsurkunden",
-    "lv": "Pričevanje o zavorah",
+    "lv": "laulības apliecība",
     "level": "C1"
   },
   {
     "de": "Urteil",
     "de_article": "das",
     "de_plural": "die Urteile",
-    "lv": "Суждение",
+    "lv": "spriedums",
     "level": "C1"
   },
   {
     "de": "veranstalten",
-    "lv": "Организирайте",
+    "lv": "organizēt",
     "level": "C1"
   },
   {
     "de": "verantworten",
-    "lv": "Взять на себя ответственность за",
+    "lv": "uzņemties atbildību par",
     "level": "C1"
   },
   {
     "de": "Verantwortung",
     "de_article": "die",
     "de_plural": "die Verantwortungen",
-    "lv": "Отговорност",
+    "lv": "atbildība",
     "level": "C1"
   },
   {
     "de": "Vereinbarung",
     "de_article": "die",
     "de_plural": "die Vereinbarungen",
-    "lv": "Споразумение",
+    "lv": "vienošanās",
     "level": "C1"
   },
   {
     "de": "Vergangenheit",
     "de_article": "die",
     "de_plural": "die Vergangenheiten",
-    "lv": "Прошлое",
+    "lv": "pagātne",
     "level": "C1"
   },
   {
     "de": "Verkehrsstau",
     "de_article": "der",
     "de_plural": "die Verkehrsstaue",
-    "lv": "Корк",
+    "lv": "satiksmes sastrēgums",
     "level": "C1"
   },
   {
     "de": "Verlegenheit",
     "de_article": "die",
     "de_plural": "die Verlegenheiten",
-    "lv": "Путаница",
+    "lv": "apjukums",
     "level": "C1"
   },
   {
     "de": "verschließen",
-    "lv": "Заклучете го",
+    "lv": "aizslēgt",
     "level": "C1"
   },
   {
     "de": "verschlucken",
-    "lv": "Преглътнете",
+    "lv": "norīt",
     "level": "C1"
   },
   {
     "de": "verschwenden",
-    "lv": "Тратить впустую",
+    "lv": "izšķērdēt",
     "level": "C1"
   },
   {
     "de": "Versicherung",
     "de_article": "die",
     "de_plural": "die Versicherungen",
-    "lv": "Осигурување",
+    "lv": "apdrošināšana",
     "level": "C1"
   },
   {
     "de": "sich verständigen",
-    "lv": "Ладить",
+    "lv": "saprasties",
     "level": "C1"
   },
   {
     "de": "verständlich",
-    "lv": "Понятный",
+    "lv": "saprotams",
     "level": "C1"
   },
   {
     "de": "Vertrag",
     "de_article": "der",
     "de_plural": "die Verträge",
-    "lv": "Споразумение",
+    "lv": "līgums",
     "level": "C1"
   },
   {
     "de": "voll beschäftigt",
-    "lv": "Занят полный рабочий день",
+    "lv": "nodarbināts pilnu darba dienu",
     "level": "C1"
   },
   {
     "de": "Vorgesetzte",
     "de_article": "der",
     "de_plural": "die Vorgesetzten",
-    "lv": "Босс",
+    "lv": "priekšnieks",
     "level": "C1"
   },
   {
     "de": "vorteilhaft",
-    "lv": "Выгодный",
+    "lv": "izdevīgs",
     "level": "C1"
   },
   {
     "de": "Wettbewerb",
     "de_article": "der",
     "de_plural": "die Wettbewerbe",
-    "lv": "Соревнование",
+    "lv": "konkurss",
     "level": "C1"
   },
   {
     "de": "sich zufrieden geben",
-    "lv": "Задоволува",
+    "lv": "apmierināties",
     "level": "C1"
   },
   {
     "de": "zusammenbringen",
-    "lv": "Собрать вместе",
+    "lv": "savest kopā",
     "level": "C1"
   },
   {
     "de": "zusammenfassen",
-    "lv": "Подвести итог • Подвести итог",
+    "lv": "apkopot • rezumēt",
     "level": "C1",
     "study": {
       "id": "c1-zusammenfassen",
       "layout": "standardStudy",
-      "translation": "Подвести итог • Подвести итог",
+      "translation": "apkopot • rezumēt",
       "explanation": [
-        "Основная идея: zusammenfassen — глагол — собирать или систематизировать информацию в одно краткое высказывание.",
-        "Zusammenfassen используется, когда несколько фактов, текстов или мыслей объединены в краткий обзор.",
-        "Ne zamenjujte z die Zusammenfassung - tisto z veliko črko in členom die - samostalnikom, ki označuje le povzetek (rezultat, končano besedilo).",
-        "Zusammenfassen = процесс/действие (обобщить, обобщить) • Die Zusammenfassung = результат (краткое содержание в виде существительного).",
-        "Как и многие немецкие глаголы, zusammenfassen может стать существительным с заглавной буквы и артиклем: zusammenfassen → die Zusammenfassen (субстантивизация)."
+        "Glavna ideja: zusammenfassen je glagol - zbrati ali organizirati informacije v eno jedrnato izjavo.",
+        "zusammenfassen lieto, ja no vairākiem faktiem, tekstiem vai domām tiek izveidots īss pārskats.",
+        "Ne zamenjujte z die Zusammenfassung - tisti z veliko začetnico in členkom die je samostalnik, ki označuje sam povzetek (rezultat, končano besedilo).",
+        "zusammenfassen = process/darbība (apkopot, rezumēt); die Zusammenfassung = rezultāts (kopsavilkums kā lietvārds).",
+        "Kot mnogi nemški glagoli lahko zusammenfassen postane samostalnik z veliko začetnico in členek: zusammenfassen → die Zusammenfassen (substantivacija)."
       ],
       "examples": [
         {
           "de": "Können Sie den Text zusammenfassen?",
-          "lv": "Можешь кратко изложить этот текст?"
+          "lv": "vai jūs varat apkopot šo tekstu?"
         },
         {
           "de": "Ich fasse die wichtigsten Punkte zusammen.",
-          "lv": "Я суммирую самые важные моменты."
+          "lv": "es apkopoju svarīgākos punktus."
         },
         {
           "de": "Er hat den Bericht kurz zusammengefasst.",
-          "lv": "Он кратко резюмировал обзор."
+          "lv": "viņš īsi rezumēja pārskatu."
         },
         {
           "de": "Zusammenfassend kann man sagen, dass...",
-          "lv": "Подводя итог, можно сказать, что..."
+          "lv": "apkopojot var sacīt, ka..."
         },
         {
           "de": "Ich schreibe eine Zusammenfassung des Buches.",
-          "lv": "Пишу аннотацию к книге."
+          "lv": "es rakstu grāmatas kopsavilkumu."
         },
         {
           "de": "Die Zusammenfassung ist zu lang.",
-          "lv": "Резюме слишком длинное."
+          "lv": "kopsavilkums ir pārāk garš."
         }
       ],
       "tip": [
-        "Zusammenfassen (глагол) = процесс – обобщать/подводить итоги.",
-        "Die Zusammenfassung (существительное с заглавной буквы и артикль die) = результат – само резюме."
+        "zusammenfassen (darbības vārds) = process — apkopot/rezumēt.",
+        "die Zusammenfassung (lietvārds, ar lielo burtu un artikulu die) = rezultāts — pats kopsavilkums."
       ],
       "important": [
-        "Zusammenfassen = суммировать/подводить итог (глагол).",
-        "Die Zusammenfassung = резюме (существительное, образованное от zusammenfassen).",
-        "Неправильно: die zusammenfassen → Правильно: die Zusammenfassen (существительное всегда пишется с заглавной буквы)."
+        "zusammenfassen = apkopot/rezumēt (darbības vārds).",
+        "die Zusammenfassung = kopsavilkums (lietvārds, substantivizēts no zusammenfassen).",
+        "Napačno: die zusammenfassen → Pravilno: die Zusammenfassen (samostalnik vedno z veliko začetnico)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "zusammenfassen"
+          ],
+          "purple": [
+            "apkopot",
+            "rezumēt"
           ],
           "green": [
             "die Zusammenfassung"
@@ -1332,7 +1336,11 @@ const C1_WORDS = [
                 "zusammenfassen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "apkopot"
+              ]
+            }
           },
           {
             "de": {
@@ -1341,7 +1349,11 @@ const C1_WORDS = [
                 "zusammen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "apkopoju"
+              ]
+            }
           },
           {
             "de": {
@@ -1349,7 +1361,11 @@ const C1_WORDS = [
                 "zusammengefasst"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "rezumēja"
+              ]
+            }
           },
           {
             "de": {
@@ -1357,7 +1373,11 @@ const C1_WORDS = [
                 "Zusammenfassend"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "apkopojot"
+              ]
+            }
           },
           {
             "de": {
@@ -1365,7 +1385,11 @@ const C1_WORDS = [
                 "Zusammenfassung"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "kopsavilkumu"
+              ]
+            }
           },
           {
             "de": {
@@ -1373,7 +1397,11 @@ const C1_WORDS = [
                 "Zusammenfassung"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "kopsavilkums"
+              ]
+            }
           }
         ],
         "tip": [
@@ -1413,79 +1441,79 @@ const C1_WORDS = [
   },
   {
     "de": "zusammenhängen",
-    "lv": "Быть связанным (с)",
+    "lv": "būt saistītam (ar)",
     "level": "C1"
   },
   {
     "de": "Aufmerksamkeit",
     "de_article": "die",
     "de_plural": "die Aufmerksamkeiten",
-    "lv": "Внимание",
+    "lv": "uzmanība",
     "level": "C1"
   },
   {
     "de": "Fernsehsendung",
     "de_article": "die",
     "de_plural": "die Fernsehsendungen",
-    "lv": "Телешоу",
+    "lv": "televīzijas raidījums",
     "level": "C1"
   },
   {
     "de": "Landschaft",
     "de_article": "die",
     "de_plural": "die Landschaften",
-    "lv": "Пейзаж",
+    "lv": "ainava",
     "level": "C1"
   },
   {
     "de": "Rechtschreibung",
     "de_article": "die",
     "de_plural": "die Rechtschreibungen",
-    "lv": "Написание",
+    "lv": "pareizrakstība",
     "level": "C1"
   },
   {
     "de": "Straßenkreuzung",
     "de_article": "die",
     "de_plural": "die Straßenkreuzungen",
-    "lv": "Перекресток улиц",
+    "lv": "ielu krustojums",
     "level": "C1"
   },
   {
     "de": "Wahl",
     "de_article": "die",
     "de_plural": "die Wahlen",
-    "lv": "Выбор • Выборы",
+    "lv": "izvēle • vēlēšanas",
     "level": "C1",
     "study": {
       "id": "c1-wahl",
       "layout": "standardStudy",
-      "translation": "Выбор • Выборы",
-      "explanation": "Die Wahl может означать выбор между вариантами. В контексте политики Валь означает выборы. Это также может означать само голосование. Фраза eine Wahl treffen означает сделать выбор. zur Wahl gehen означает пойти на выборы. Контекст политики или личного решения показывает правильное значение.",
+      "translation": "izvēle • vēlēšanas",
+      "explanation": "die Wahl var nozīmēt izvēli starp iespējām. Politikas kontekstā Wahl nozīmē vēlēšanas. Tā var nozīmēt arī pašu balsošanu. Frāze eine Wahl treffen nozīmē izdarīt izvēli. zur Wahl gehen nozīmē doties uz vēlēšanām. Konteksts par politiku vai personīgu lēmumu parāda pareizo nozīmi.",
       "examples": [
         {
           "de": "Du hast die Wahl.",
-          "lv": "Имаш избор."
+          "lv": "tev ir izvēle."
         },
         {
           "de": "Ich treffe meine Wahl morgen.",
-          "lv": "Я сделаю свой выбор завтра."
+          "lv": "es izdaru savu izvēli rīt."
         },
         {
           "de": "Die Wahl findet am Sonntag statt.",
-          "lv": "Выборы состоятся в воскресенье."
+          "lv": "vēlēšanas notiek svētdien."
         },
         {
           "de": "Viele Menschen gehen zur Wahl.",
-          "lv": "Многие люди идут на выборы."
+          "lv": "daudzi cilvēki dodas uz vēlēšanām."
         },
         {
           "de": "Die freie Wahl ist wichtig.",
-          "lv": "Слободниот избор е важен."
+          "lv": "brīva izvēle ir svarīga."
         },
         {
           "de": "Bei der Wahl stimmen wir ab.",
-          "lv": "Мы голосуем на выборах."
+          "lv": "vēlēšanās mēs balsojam."
         }
       ]
     }
@@ -1494,976 +1522,981 @@ const C1_WORDS = [
     "de": "Herausforderung",
     "de_article": "die",
     "de_plural": "die Herausforderungen",
-    "lv": "Јавете ми се",
+    "lv": "izaicinājums",
     "level": "C1"
   },
   {
     "de": "Abfallbeseitigung",
     "de_article": "die",
     "de_plural": "die Abfallbeseitigungen",
-    "lv": "Утилизация отходов",
+    "lv": "atkritumu iznīcināšana",
     "level": "C1"
   },
   {
     "de": "Abgeordnete",
     "de_article": "der",
     "de_plural": "die Abgeordneten",
-    "lv": "Заменик • Претставник • Делегат",
+    "lv": "deputāts • pārstāvis • delegāts",
     "level": "C1"
   },
   {
     "de": "Abkommen",
     "de_article": "das",
     "de_plural": "die Abkommen",
-    "lv": "Соглашение • Соглашение",
+    "lv": "nolīgums • vienošanās",
     "level": "C1"
   },
   {
     "de": "Abschleppdienst",
     "de_article": "der",
     "de_plural": "die Abschleppdienste",
-    "lv": "Услуги за евакуација • Услуги за преместување",
+    "lv": "evakuācijas dienests • aizvākšanas dienests",
     "level": "C1"
   },
   {
     "de": "Abteilungsleiter",
     "de_article": "der",
     "de_plural": "die Abteilungsleiter",
-    "lv": "Раководител на одделение",
+    "lv": "nodaļas vadītājs",
     "level": "C1"
   },
   {
     "de": "antifaschistisch",
-    "lv": "Антифашист",
+    "lv": "antifašistisks",
     "level": "C1"
   },
   {
     "de": "Aufenthaltsdauer",
     "de_article": "die",
     "de_plural": "die Aufenthaltsdauern",
-    "lv": "Продолжительность пребывания",
+    "lv": "uzturēšanās ilgums",
     "level": "C1"
   },
   {
     "de": "augenscheinlich",
-    "lv": "Очевидно",
+    "lv": "acīmredzot",
     "level": "C1"
   },
   {
     "de": "Güteraustausch",
     "de_article": "der",
     "de_plural": "die Güteraustausche",
-    "lv": "Обмен товара",
+    "lv": "preču apmaiņa",
     "level": "C1"
   },
   {
     "de": "Flottenbasis",
     "de_article": "die",
     "de_plural": "die Flottenbasen",
-    "lv": "Военно-морская база",
+    "lv": "flotes bāze",
     "level": "C1"
   },
   {
     "de": "Basisforschung",
     "de_article": "die",
     "de_plural": "die Basisforschungen",
-    "lv": "Фундаментальные исследования",
+    "lv": "pamatpētījums",
     "level": "C1"
   },
   {
     "de": "beachtenswert",
-    "lv": "Примечательно • Значительное",
+    "lv": "ievērības cienīgs • vērā ņemams",
     "level": "C1"
   },
   {
     "de": "beanspruchen",
-    "lv": "Требовать • Требовать • Быть обременённым",
+    "lv": "prasīt • pretendēt • būt noslogotam",
     "level": "C1"
   },
   {
     "de": "Bedarfsartikel",
     "de_article": "der",
     "de_plural": "die Bedarfsartikel",
-    "lv": "Потребительские товары",
+    "lv": "plaša patēriņa prece",
     "level": "C1"
   },
   {
     "de": "bedingungslos",
-    "lv": "Безоговорочно • Безоговорочно • Без оговорок • Без условий",
+    "lv": "bezierunu • beznosacījumu • bez ierunām • bez nosacījumiem",
     "level": "C1"
   },
   {
     "de": "Befangenheit",
     "de_article": "die",
     "de_plural": "die Befangenheiten",
-    "lv": "Смущение • Смущение",
+    "lv": "samulsums • apmulsums",
     "level": "C1"
   },
   {
     "de": "beglaubigen",
-    "lv": "Официально заверить • Нотариально заверить",
+    "lv": "oficiāli apliecināt • notariāli apstiprināt",
     "level": "C1"
   },
   {
     "de": "beglückwünschen",
-    "lv": "Пожелать счастья • Поздравить",
+    "lv": "novēlēt laimes • apsveikt",
     "level": "C1"
   },
   {
     "de": "beiderseitig",
-    "lv": "Двусторонний • Двусторонний",
+    "lv": "abpusīgs • abpusējs",
     "level": "C1"
   },
   {
     "de": "Familienbeihilfe",
     "de_article": "die",
     "de_plural": "die Familienbeihilfen",
-    "lv": "Семеен додаток",
+    "lv": "ģimenes pabalsts",
     "level": "C1"
   },
   {
     "de": "beispielhaft",
-    "lv": "Образцовый • Образцовый",
+    "lv": "parauga • priekšzīmīgs",
     "level": "C1"
   },
   {
     "de": "beklagen",
-    "lv": "Сожалеть · скорбеть · скорбеть · скорбеть · жаловаться",
+    "lv": "nožēlot • skumt • apraudāt • žēloties • sūdzēties",
     "level": "C1"
   },
   {
     "de": "Zahnbelag",
     "de_article": "der",
     "de_plural": "die Zahnbeläge",
-    "lv": "Зубной налет",
+    "lv": "zobu aplikums",
     "level": "C1"
   },
   {
     "de": "Belegschaft",
     "de_article": "die",
     "de_plural": "die Belegschaften",
-    "lv": "Коллектив • Персонал",
+    "lv": "kolektīvs • personāls",
     "level": "C1"
   },
   {
     "de": "benachteiligen",
-    "lv": "Причинить вред · причинить ущерб · причинить вред",
+    "lv": "kaitēt • nodarīt zaudējumus • nodarīt pāri",
     "level": "C1"
   },
   {
     "de": "Berufsberater",
     "de_article": "der",
     "de_plural": "die Berufsberater",
-    "lv": "Консультант по трудоустройству",
+    "lv": "darba konsultants",
     "level": "C1"
   },
   {
     "de": "beratschlagen",
-    "lv": "Обсъдете",
+    "lv": "apspriesties",
     "level": "C1"
   },
   {
     "de": "Einflussbereich",
     "de_article": "der",
     "de_plural": "die Einflussbereiche",
-    "lv": "Сфера влияния",
+    "lv": "ietekmes sfēra",
     "level": "C1"
   },
   {
     "de": "bereitwillig",
-    "lv": "Готов служить • Услужливый",
+    "lv": "gatavs pakalpot • pakalpīgs",
     "level": "C1"
   },
   {
     "de": "Berufsberatung",
     "de_article": "die",
     "de_plural": "die Berufsberatungen",
-    "lv": "Консультация по профориентации",
+    "lv": "profesionālās orientācijas konsultācija",
     "level": "C1"
   },
   {
     "de": "Berufsgeheimnis",
     "de_article": "das",
     "de_plural": "die Berufsgeheimnisse",
-    "lv": "Секрет офиса",
+    "lv": "amata noslēpums",
     "level": "C1"
   },
   {
     "de": "Berufung",
     "de_article": "die",
     "de_plural": "die Berufungen",
-    "lv": "Призвание • Склонность • Привлекательность",
+    "lv": "aicinājums • tieksme • atsaukšanās",
     "level": "C1"
   },
   {
     "de": "Besatzungsmacht",
     "de_article": "die",
     "de_plural": "die Besatzungsmächte",
-    "lv": "Оккупационная власть",
+    "lv": "okupācijas vara",
     "level": "C1"
   },
   {
     "de": "Beschaffenheit",
     "de_article": "die",
     "de_plural": "die Beschaffenheiten",
-    "lv": "Качество • Природа • Сущность",
+    "lv": "īpašība • daba • būtība",
     "level": "C1"
   },
   {
     "de": "bescheinigen",
-    "lv": "Сертифицировать • Выдать сертификат",
+    "lv": "apliecināt • izdot apliecību",
     "level": "C1"
   },
   {
     "de": "Bescheinigung",
     "de_article": "die",
     "de_plural": "die Bescheinigungen",
-    "lv": "Справка • Сертификат • Аттестация • Аттестация",
+    "lv": "uzziņa • apliecība • apliecinājums • apliecināšana",
     "level": "C1"
   },
   {
     "de": "beschlagnahmen",
-    "lv": "Aretacija • Zaplenitev • Razlastitev",
+    "lv": "apķīlāt • konfiscēt • atsavināt",
     "level": "C1"
   },
   {
     "de": "beschuldigen",
-    "lv": "Обвинять • Оскорблять",
+    "lv": "apsūdzēt • apvainot",
     "level": "C1"
   },
   {
     "de": "Besonderheit",
     "de_article": "die",
     "de_plural": "die Besonderheiten",
-    "lv": "Особенность • Странность",
+    "lv": "īpatnība • savādība",
     "level": "C1"
   },
   {
     "de": "beträchtlich",
-    "lv": "Значительный • Довольно большой • Значительный",
+    "lv": "ievērojams • krietni liels • krietns",
     "level": "C1"
   },
   {
     "de": "Betriebskosten",
     "de_article": "die",
-    "lv": "Операционные расходы компании • Производственные расходы",
+    "lv": "uzņēmuma ekspluatācijas izdevumi • ražošanas izdevumi",
     "level": "C1"
   },
   {
     "de": "Betriebssystem",
     "de_article": "das",
     "de_plural": "die Betriebssysteme",
-    "lv": "Система установки компьютера",
+    "lv": "datora instalācijas sistēma",
     "level": "C1"
   },
   {
     "de": "bevollmächtigen",
-    "lv": "Авторизовать • Предоставить полномочия",
+    "lv": "pilnvarot • piešķirt pilnvaru",
     "level": "C1"
   },
   {
     "de": "bevorstehend",
-    "lv": "Предстоящий • Следующий",
+    "lv": "gaidāmais • nākamais",
     "level": "C1"
   },
   {
     "de": "bewähren, sich",
-    "lv": "Оказаться правдой • Оправдать",
+    "lv": "izrādīties par patiesu • attaisnoties",
     "level": "C1"
   },
   {
     "de": "Beweismaterial",
     "de_article": "das",
     "de_plural": "die Beweismaterialien",
-    "lv": "Вещественные доказательства",
+    "lv": "lietiskie pierādījumi",
     "level": "C1"
   },
   {
     "de": "bewerben, sich",
-    "lv": "Применять • Бежать • Стремиться • Стремиться",
+    "lv": "pretendēt • kandidēt • censties • tiekties",
     "level": "C1"
   },
   {
     "de": "Bezugsperson",
     "de_article": "die",
     "de_plural": "die Bezugspersonen",
-    "lv": "Контакт • Самый близкий человек",
+    "lv": "kontaktpersona • tuvākais cilvēks",
     "level": "C1"
   },
   {
     "de": "Bildhauerkunst",
     "de_article": "die",
-    "lv": "Kiparstvo",
+    "lv": "tēlniecība",
     "level": "C1"
   },
   {
     "de": "Bilanz",
     "de_article": "die",
     "de_plural": "die Bilanzen",
-    "lv": "Баланс",
+    "lv": "bilance",
     "level": "C1"
   },
   {
     "de": "Finanzblockade",
     "de_article": "die",
     "de_plural": "die Finanzblockaden",
-    "lv": "Финансовая блокада",
+    "lv": "finanšu blokāde",
     "level": "C1"
   },
   {
     "de": "Blutuntersuchung",
     "de_article": "die",
     "de_plural": "die Blutuntersuchungen",
-    "lv": "Анализ крови",
+    "lv": "asinsanalīze",
     "level": "C1"
   },
   {
     "de": "Blutsverwandte",
     "de_article": "der",
     "de_plural": "die Blutsverwandten",
-    "lv": "Кровный родственник",
+    "lv": "asinsradinieks",
     "level": "C1"
   },
   {
     "de": "Botschafter",
     "de_article": "der",
     "de_plural": "die Botschafter",
-    "lv": "Посол",
+    "lv": "vēstnieks",
     "level": "C1"
   },
   {
     "de": "Bundesdeutsche",
     "de_article": "der",
     "de_plural": "die Bundesdeutschen",
-    "lv": "Гражданин ФФР",
+    "lv": "Državljan FFR",
     "level": "C1"
   },
   {
     "de": "Computersprache",
     "de_article": "die",
     "de_plural": "die Computersprachen",
-    "lv": "Компьютерный язык",
+    "lv": "datorvaloda",
     "level": "C1"
   },
   {
     "de": "Dachgepäckträger",
     "de_article": "der",
     "de_plural": "die Dachgepäckträger",
-    "lv": "Багажник на крыше автомобиля",
+    "lv": "automašīnas jumta bagāžnieks",
     "level": "C1"
   },
   {
     "de": "Datenübermittlung",
     "de_article": "die",
     "de_plural": "die Datenübermittlungen",
-    "lv": "Передача данных",
+    "lv": "datu pārraide",
     "level": "C1"
   },
   {
     "de": "Datenübertragung",
     "de_article": "die",
     "de_plural": "die Datenübertragungen",
-    "lv": "Передача данных",
+    "lv": "datu pārraide",
     "level": "C1"
   },
   {
     "de": "dauerhaft",
-    "lv": "Длительный • Длительный • Прочный",
+    "lv": "ilgstošs • ilgs • izturīgs",
     "level": "C1"
   },
   {
     "de": "dazwischenkommen",
-    "lv": "Произойти · произойти между · вмешаться",
+    "lv": "atgadīties • gadīties starpā • iejaukties",
     "level": "C1"
   },
   {
     "de": "Haushaltsdefizit",
     "de_article": "das",
     "de_plural": "die Haushaltsdefizite",
-    "lv": "Бюджетный дефицит",
+    "lv": "budžeta deficīts",
     "level": "C1"
   },
   {
     "de": "Zolldeklaration",
     "de_article": "die",
     "de_plural": "die Zolldeklarationen",
-    "lv": "Таможенная декларация",
+    "lv": "muitas deklarācija",
     "level": "C1"
   },
   {
     "de": "Delegation",
     "de_article": "die",
     "de_plural": "die Delegationen",
-    "lv": "Делегација",
+    "lv": "delegācija",
     "level": "C1"
   },
   {
     "de": "Eigentumsdelikt",
     "de_article": "das",
     "de_plural": "die Eigentumsdelikte",
-    "lv": "Нарушение прав собственности",
+    "lv": "īpašuma tiesību pārkāpums",
     "level": "C1"
   },
   {
     "de": "Verkehrsdelikt",
     "de_article": "das",
     "de_plural": "die Verkehrsdelikte",
-    "lv": "Сообраќаен прекршок",
+    "lv": "satiksmes noteikumu pārkāpums",
     "level": "C1"
   },
   {
     "de": "dementsprechend",
-    "lv": "Соодветно на тоа",
+    "lv": "atbilstoši tam",
     "level": "C1"
   },
   {
     "de": "dessen ungeachtet",
-    "lv": "Несмотря на это • Несмотря на это",
+    "lv": "neskatoties uz to • neievērojot to",
     "level": "C1"
   },
   {
     "de": "Nachrichtendienst",
     "de_article": "der",
     "de_plural": "die Nachrichtendienste",
-    "lv": "Государственная секретная служба",
+    "lv": "valsts slepenais dienests",
     "level": "C1"
   },
   {
     "de": "Rettungsdienst",
     "de_article": "der",
     "de_plural": "die Rettungsdienste",
-    "lv": "Спасательная служба",
+    "lv": "glābšanas dienests",
     "level": "C1"
   },
   {
     "de": "Dienstleistung",
     "de_article": "die",
     "de_plural": "die Dienstleistungen",
-    "lv": "Домашнее обслуживание",
+    "lv": "sadzīves pakalpojums",
     "level": "C1"
   },
   {
     "de": "dienstpflichtig",
-    "lv": "Отправлен на военную службу",
+    "lv": "padots karadienestam",
     "level": "C1"
   },
   {
     "de": "diensttauglich",
-    "lv": "Годен к военной службе",
+    "lv": "derīgs karadienestam",
     "level": "C1"
   },
   {
     "de": "Dieseltreibstoff",
     "de_article": "der",
     "de_plural": "die Dieseltreibstoffe",
-    "lv": "Dizelsko gorivo",
+    "lv": "dīzeļdegviela",
     "level": "C1"
   },
   {
     "de": "Diplomatie",
     "de_article": "die",
-    "lv": "Дипломатия",
+    "lv": "diplomātija",
     "level": "C1"
   },
   {
     "de": "diplomatisch",
-    "lv": "Дипломатический",
+    "lv": "diplomātisks",
     "level": "C1"
   },
   {
     "de": "Dirigentenstab",
     "de_article": "der",
     "de_plural": "die Dirigentenstäbe",
-    "lv": "Дирижерская палочка",
+    "lv": "diriģenta zizlis",
     "level": "C1"
   },
   {
     "de": "Diskettenlaufwerk",
     "de_article": "das",
     "de_plural": "die Diskettenlaufwerke",
-    "lv": "Дисковод для гибких дисков",
+    "lv": "disketes dzinis",
     "level": "C1"
   },
   {
     "de": "disqualifizieren",
-    "lv": "Дисквалифицировать",
+    "lv": "diskvalificēt",
     "level": "C1"
   },
   {
     "de": "Durchfuhrverbot",
     "de_article": "das",
     "de_plural": "die Durchfuhrverbote",
-    "lv": "Запрет прохода",
+    "lv": "caurbraukšanas aizliegums",
     "level": "C1"
   },
   {
     "de": "Durchgangsverkehr",
     "de_article": "der",
-    "lv": "Транзитный трафик",
+    "lv": "tranzītsatiksme",
     "level": "C1"
   },
   {
     "de": "ehrenhaft",
-    "lv": "Честный • Благородный • Респектабельный",
+    "lv": "godīgs • godājams • cienījams",
     "level": "C1"
   },
   {
     "de": "Einflusssphäre",
     "de_article": "die",
     "de_plural": "die Einflusssphären",
-    "lv": "Сфера влияния",
+    "lv": "ietekmes sfēra",
     "level": "C1"
   },
   {
     "de": "eingeschrieben",
-    "lv": "Записано • Зарегистрировано",
+    "lv": "ierakstīts • reģistrēts",
     "level": "C1"
   },
   {
     "de": "Währungseinheit",
     "de_article": "die",
     "de_plural": "die Währungseinheiten",
-    "lv": "Денежная единица",
+    "lv": "naudas mērvienība",
     "level": "C1"
   },
   {
     "de": "Einkommensteuer",
     "de_article": "die",
     "de_plural": "die Einkommensteuern",
-    "lv": "Данок на доход",
+    "lv": "ienākuma nodoklis",
     "level": "C1"
   },
   {
     "de": "Einlage",
     "de_article": "die",
     "de_plural": "die Einlagen",
-    "lv": "Вклад • Депозит • Приложение к письму",
+    "lv": "iemaksa • noguldījums • pielikums vēstulei",
     "level": "C1"
   },
   {
     "de": "einreden",
-    "lv": "Рассказать • Настаивать • Попытаться убедить",
+    "lv": "iestāstīt • iegalvot • mēģināt pārliecināt",
     "level": "C1"
   },
   {
     "de": "sich einschmeicheln",
-    "lv": "Льстить • Льстить",
+    "lv": "pieglai­moties • pielabināties",
     "level": "C1"
   },
   {
     "de": "Einschreibebrief",
     "de_article": "der",
     "de_plural": "die Einschreibebriefe",
-    "lv": "Препоръчано писмо",
+    "lv": "ierakstīta vēstule",
     "level": "C1"
   },
   {
     "de": "Einspruchsrecht",
     "de_article": "das",
     "de_plural": "die Einspruchsrechte",
-    "lv": "Право на протест • Право вето",
+    "lv": "protesta tiesības • veto tiesības",
     "level": "C1"
   },
   {
     "de": "Einstandsgebühr",
     "de_article": "die",
     "de_plural": "die Einstandsgebühren",
-    "lv": "Вступительный взнос",
+    "lv": "iestāšanās maksa",
     "level": "C1"
   },
   {
     "de": "Einverständnis",
     "de_article": "das",
     "de_plural": "die Einverständnisse",
-    "lv": "Понимание • Консенсус • Согласие",
+    "lv": "saprašanās • vienprātība • piekrišana",
     "level": "C1"
   },
   {
     "de": "Eisenbahnunglück",
     "de_article": "das",
     "de_plural": "die Eisenbahnunglücke",
-    "lv": "Железнодорожная катастрофа",
+    "lv": "dzelzceļa katastrofa",
     "level": "C1"
   },
   {
     "de": "Eisenbahnverkehr",
     "de_article": "der",
     "de_plural": "die Eisenbahnverkehre",
-    "lv": "Железнодорожное движение",
+    "lv": "dzelzceļa satiksme",
     "level": "C1"
   },
   {
     "de": "Elektrizitätswerk",
     "de_article": "das",
     "de_plural": "die Elektrizitätswerke",
-    "lv": "Електрическа централа",
+    "lv": "elektrostacija",
     "level": "C1"
   },
   {
     "de": "Elementarbegriff",
     "de_article": "der",
     "de_plural": "die Elementarbegriffe",
-    "lv": "Основниот концепт",
+    "lv": "pamatjēdziens",
     "level": "C1"
   },
   {
     "de": "Elementarregel",
     "de_article": "die",
     "de_plural": "die Elementarregeln",
-    "lv": "Основной закон",
+    "lv": "pamatlikums",
     "level": "C1"
   },
   {
     "de": "Energieerzeugung",
     "de_article": "die",
     "de_plural": "die Energieerzeugungen",
-    "lv": "Производство энергии",
+    "lv": "enerģijas ražošana",
     "level": "C1"
   },
   {
     "de": "Energieversorgung",
     "de_article": "die",
     "de_plural": "die Energieversorgungen",
-    "lv": "Энергоснабжение",
+    "lv": "apgāde ar enerģiju",
     "level": "C1"
   },
   {
     "de": "entgegensetzen",
-    "lv": "Против • Против",
+    "lv": "nostādīt pretī • likt pretī",
     "level": "C1"
   },
   {
     "de": "sich entgegensetzen",
-    "lv": "Сопротивляться",
+    "lv": "pretoties",
     "level": "C1"
   },
   {
     "de": "entschädigen",
-    "lv": "Компенсировать • Компенсировать",
+    "lv": "atlīdzināt • kompensēt",
     "level": "C1"
   },
   {
     "de": "sich entschließen",
-    "lv": "Решить · решить",
+    "lv": "izlemt • izšķirties",
     "level": "C1"
   },
   {
     "de": "entschlossen",
-    "lv": "Решительный • Решительный • Непоколебимый",
+    "lv": "noteikts • apņēmīgs • nešaubīgs",
     "level": "C1"
   },
   {
     "de": "entschlüsseln",
-    "lv": "Расшифровать",
+    "lv": "atšifrēt",
     "level": "C1"
   },
   {
     "de": "Gesetzentwurf",
     "de_article": "der",
     "de_plural": "die Gesetzentwürfe",
-    "lv": "Oglejte si",
+    "lv": "likumprojekts",
     "level": "C1"
   },
   {
     "de": "Entziehungskur",
     "de_article": "die",
     "de_plural": "die Entziehungskuren",
-    "lv": "Курс лечения алкоголиков и наркоманов",
+    "lv": "ārstniecības kurss alkoholiķiem vai narkomāniem",
     "level": "C1"
   },
   {
     "de": "Erbkrankheit",
     "de_article": "die",
     "de_plural": "die Erbkrankheiten",
-    "lv": "Врожденное заболевание",
+    "lv": "iedzimta slimība",
     "level": "C1"
   },
   {
     "de": "Kriegserklärung",
     "de_article": "die",
     "de_plural": "die Kriegserklärungen",
-    "lv": "Объявление войны",
+    "lv": "kara pieteikums",
     "level": "C1"
   },
   {
     "de": "Erntearbeiten",
     "de_article": "die",
-    "lv": "Уборочные работы",
+    "lv": "ražas novākšanas darbi",
     "level": "C1"
   },
   {
     "de": "Ersatzspieler",
     "de_article": "der",
     "de_plural": "die Ersatzspieler",
-    "lv": "Запасной игрок • Запасной игрок",
+    "lv": "rezervists • rezerves spēlētājs",
     "level": "C1"
   },
   {
     "de": "Erstaufführung",
     "de_article": "die",
     "de_plural": "die Erstaufführungen",
-    "lv": "Премьера • Премьера",
+    "lv": "pirmuzvedums • pirmizrāde",
     "level": "C1"
   },
   {
     "de": "festgesetzt",
-    "lv": "Определенный • Условный • Установленный",
+    "lv": "noteikts • nosacīts • nolikts",
     "level": "C1"
   },
   {
     "de": "feuergefährlich",
-    "lv": "Отпорен на оган",
+    "lv": "ugunsnedrošs",
     "level": "C1"
   },
   {
     "de": "Feuerversicherung",
     "de_article": "die",
     "de_plural": "die Feuerversicherungen",
-    "lv": "Страхование от пожара",
+    "lv": "apdrošināšana pret ugunsgrēku",
     "level": "C1"
   },
   {
     "de": "Feuerwerkskörper",
     "de_article": "der",
     "de_plural": "die Feuerwerkskörper",
-    "lv": "Ракета для фейерверков",
+    "lv": "raķete uguņošanai",
     "level": "C1"
   },
   {
     "de": "Fleckenentferner",
     "de_article": "der",
     "de_plural": "die Fleckenentferner",
-    "lv": "Пятновыводитель",
+    "lv": "traipu tīrāmais līdzeklis",
     "level": "C1"
   },
   {
     "de": "Flüchtlingslager",
     "de_article": "das",
     "de_plural": "die Flüchtlingslager",
-    "lv": "Лагерь беженцев",
+    "lv": "bēgļu nometne",
     "level": "C1"
   },
   {
     "de": "Fortbildungskurse",
     "de_article": "die",
-    "lv": "Курсы повышения квалификации",
+    "lv": "kvalifikācijas paaugstināšanas kursi",
     "level": "C1"
   },
   {
     "de": "fortgeschritten",
-    "lv": "Относительно поздно в разработке",
+    "lv": "samērā vēlā attīstības stadijā",
     "level": "C1"
   },
   {
     "de": "fortschrittlich",
-    "lv": "Прогрессивный",
+    "lv": "progresīvs",
     "level": "C1"
   },
   {
     "de": "Freilichtmuseum",
     "de_article": "das",
     "de_plural": "die Freilichtmuseen",
-    "lv": "Музеј на отворено",
+    "lv": "brīvdabas muzejs",
     "level": "C1"
   },
   {
     "de": "Friedensangebot",
     "de_article": "das",
     "de_plural": "die Friedensangebote",
-    "lv": "Мирное предложение",
+    "lv": "miera piedāvājums",
     "level": "C1"
   },
   {
     "de": "Friedensvertrag",
     "de_article": "der",
     "de_plural": "die Friedensverträge",
-    "lv": "Мирный договор",
+    "lv": "miera līgums",
     "level": "C1"
   },
   {
     "de": "Friedenspolitik",
     "de_article": "die",
     "de_plural": "die Friedenspolitiken",
-    "lv": "Политика мира",
+    "lv": "miera politika",
     "level": "C1"
   },
   {
     "de": "Führunternehmen",
     "de_article": "das",
     "de_plural": "die Führunternehmen",
-    "lv": "Грузовая транспортная компания",
+    "lv": "kravas transporta uzņēmums",
     "level": "C1"
   },
   {
     "de": "soziale Fürsorge",
     "de_article": "die",
-    "lv": "Социальное обеспечение",
+    "lv": "sociālā apgāde",
     "level": "C1"
   },
   {
     "de": "Auffassungsgabe",
     "de_article": "die",
     "de_plural": "die Auffassungsgaben",
-    "lv": "Способность восприятия",
+    "lv": "uztveres spēja",
     "level": "C1"
   },
   {
     "de": "Gebrauchtwaren",
     "de_article": "die",
-    "lv": "Бывшие в употреблении товары",
+    "lv": "lietotas mantas",
     "level": "C1"
   },
   {
     "de": "Geburtenrate",
     "de_article": "die",
     "de_plural": "die Geburtenraten",
-    "lv": "Рождаемость",
+    "lv": "dzimstības līmenis",
     "level": "C1"
   },
   {
     "de": "Gefängniszelle",
     "de_article": "die",
     "de_plural": "die Gefängniszellen",
-    "lv": "Тюремная камера",
+    "lv": "cietuma kamera",
     "level": "C1"
   },
   {
     "de": "Gefäßverengung",
     "de_article": "die",
     "de_plural": "die Gefäßverengungen",
-    "lv": "Сужение кровеносных сосудов",
+    "lv": "asinsvadu sašaurināšanās",
     "level": "C1"
   },
   {
     "de": "Geflügelzucht",
     "de_article": "die",
     "de_plural": "die Geflügelzuchten",
-    "lv": "Птицевъдство",
+    "lv": "putnkopība",
     "level": "C1"
   },
   {
     "de": "Gefrierpunkt",
     "de_article": "der",
     "de_plural": "die Gefrierpunkte",
-    "lv": "Zamrznjena točka • Ničelna točka",
+    "lv": "sasalšanas punkts • nullpunkts",
     "level": "C1"
   },
   {
     "de": "Gehaltskürzung",
     "de_article": "die",
     "de_plural": "die Gehaltskürzungen",
-    "lv": "Снижение зарплаты",
+    "lv": "algas pazeminājums",
     "level": "C1"
   },
   {
     "de": "Beichtgeheimnis",
     "de_article": "das",
     "de_plural": "die Beichtgeheimnisse",
-    "lv": "Признанная тайна",
+    "lv": "bikts noslēpums",
     "level": "C1"
   },
   {
     "de": "Gehirnschlag",
     "de_article": "der",
     "de_plural": "die Gehirnschläge",
-    "lv": "Инсульт",
+    "lv": "insults",
     "level": "C1"
   },
   {
     "de": "Geisterstunde",
     "de_article": "die",
     "de_plural": "die Geisterstunden",
-    "lv": "Час призраков",
+    "lv": "spoku stunda",
     "level": "C1"
   },
   {
     "de": "geistesabwesend",
-    "lv": "Нефокусиран",
+    "lv": "izklaidīgs",
     "level": "C1"
   },
   {
     "de": "geisteskrank",
-    "lv": "Психически больной",
+    "lv": "garīgi slims",
     "level": "C1"
   },
   {
     "de": "geistesschwach",
-    "lv": "Слабый духом • Своенравный",
+    "lv": "garā vājš • plānprātīgs",
     "level": "C1"
   },
   {
     "de": "Geländefahrt",
     "de_article": "die",
     "de_plural": "die Geländefahrten",
-    "lv": "Поездка по пересеченной местности",
+    "lv": "apvidus brauciens",
     "level": "C1"
   },
   {
     "de": "Geldentwertung",
     "de_article": "die",
     "de_plural": "die Geldentwertungen",
-    "lv": "Инфлация",
+    "lv": "inflācija",
     "level": "C1"
   },
   {
     "de": "gelegentlich",
-    "lv": "Иногда • Случай • Из-за",
+    "lv": "reizēm • gadījuma • sakarā ar",
     "level": "C1",
     "study": {
       "id": "c1-gelegentlich",
       "layout": "standardStudy",
-      "translation": "Иногда • Случай • Из-за",
-      "explanation": "Главната идеја: gelegentlich — збор со три функции. Придавки: случајни, повремени (ein gelegentlicher Beuch). Прилог: понекогаш, време от време (Er kommt gelegentlich). Предлог + датив падеж: поради (gelegentlich des Festes).",
+      "translation": "reizēm • gadījuma • sakarā ar",
+      "explanation": "Galvenā doma: gelegentlich ir vārds ar trim funkcijām. Īpašības vārds: gadījuma, nejaušs (ein gelegentlicher Besuch). Apstākļa vārds: reizēm, ik pa laikam (Er kommt gelegentlich). Prievārds + datīvs: sakarā ar (gelegentlich des Festes).",
       "examples": [
         {
           "de": "Er kommt gelegentlich vorbei.",
-          "lv": "Он иногда заходит."
+          "lv": "viņš reizēm iegriežas."
         },
         {
           "de": "Ein gelegentlicher Besuch reicht.",
-          "lv": "Достаточно периодического посещения."
+          "lv": "gadījuma apmeklējums pietiek."
         },
         {
           "de": "Gelegentlich des Festes gab es eine Rede.",
-          "lv": "Была произнесена речь по случаю праздника."
+          "lv": "svētku sakarā tika teikta runa."
         }
       ],
       "comparison": [
         {
           "word": "gelegentlich (Adv.)",
-          "meaning": "Иногда • Время от времени",
-          "example": "Er kommt gelegentlich. = Тој доаѓа понекогаш."
+          "meaning": "reizēm • ik pa laikam",
+          "example": "Er kommt gelegentlich. = Viņš reizēm atnāk."
         },
         {
           "word": "gelegentlich (Adj.)",
-          "meaning": "Случайный • Случайный",
-          "example": "ein gelegentlicher Besuch = Случайный визит"
+          "meaning": "gadījuma • nejaušs",
+          "example": "ein gelegentlicher Besuch = gadījuma apmeklējums"
         },
         {
           "word": "gelegentlich (+ Gen.)",
-          "meaning": "Поради",
-          "example": "gelegentlich des Festes = Из-за праздников"
+          "meaning": "sakarā ar",
+          "example": "gelegentlich des Festes = svētku sakarā"
         },
         {
           "word": "manchmal",
-          "meaning": "Понякога",
-          "example": "Manchmal regnet es. = Иногда идет дождь."
+          "meaning": "reizēm",
+          "example": "Manchmal regnet es. = Reizēm līst."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Помогает положение в предложении: перед существительным = прилагательным • После глагола = наречие • + родительный падеж = предлог."
+            "text": "Pozīcija teikumā palīdz: pirms lietvārda = īpašības vārds; pēc darbības vārda = apstākļa vārds; + ģenitīvs = prievārds."
           }
         ]
       },
       "important": {
-        "text": "Прил.: случайный. Adv.: иногда. Подготов. + Быт.: из-за. Контекст определяет смысл."
+        "text": "Adj.: gadījuma. Adv.: reizēm. Prep. + Gen.: sakarā ar. Konteksts nosaka nozīmi."
       },
       "sectionAccents": {
         "explanation": {
           "blue": [
             "gelegentlich"
+          ],
+          "purple": [
+            "reizēm",
+            "gadījuma",
+            "sakarā ar"
           ]
         },
         "examples": [
@@ -2473,15 +2506,23 @@ const C1_WORDS = [
                 "gelegentlich"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "reizēm"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
-                "gelegentlicher"
+                "gelegentlich"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "gadījuma"
+              ]
+            }
           },
           {
             "de": {
@@ -2489,7 +2530,11 @@ const C1_WORDS = [
                 "Gelegentlich"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "sakarā"
+              ]
+            }
           }
         ]
       }
@@ -2499,1324 +2544,1324 @@ const C1_WORDS = [
     "de": "Gemäldegalerie",
     "de_article": "die",
     "de_plural": "die Gemäldegalerien",
-    "lv": "Картинная галерея",
+    "lv": "gleznu galerija",
     "level": "C1"
   },
   {
     "de": "Gemäldesammlung",
     "de_article": "die",
     "de_plural": "die Gemäldesammlungen",
-    "lv": "Коллекция картин",
+    "lv": "gleznu kolekcija",
     "level": "C1"
   },
   {
     "de": "Gemeineigentum",
     "de_article": "das",
-    "lv": "Јавна сопственост",
+    "lv": "sabiedriskais īpašums",
     "level": "C1"
   },
   {
     "de": "Gemütsmensch",
     "de_article": "der",
     "de_plural": "die Gemütsmenschen",
-    "lv": "Добрый и добрый человек",
+    "lv": "laipns un labsirdīgs cilvēks",
     "level": "C1"
   },
   {
     "de": "Genmanipulation",
     "de_article": "die",
     "de_plural": "die Genmanipulationen",
-    "lv": "Модификация гена",
+    "lv": "gēnu pārveidošana",
     "level": "C1"
   },
   {
     "de": "Generalprobe",
     "de_article": "die",
     "de_plural": "die Generalproben",
-    "lv": "Генеральная репетиция",
+    "lv": "ģenerālmēģinājums",
     "level": "C1"
   },
   {
     "de": "Generalstreik",
     "de_article": "der",
     "de_plural": "die Generalstreiks",
-    "lv": "Всеобщая забастовка",
+    "lv": "vispārējs streiks",
     "level": "C1"
   },
   {
     "de": "genmanipuliert",
-    "lv": "С модифицированными генами",
+    "lv": "ar pārveidotiem gēniem",
     "level": "C1"
   },
   {
     "de": "Gepäckschein",
     "de_article": "der",
     "de_plural": "die Gepäckscheine",
-    "lv": "Багажная квитанция",
+    "lv": "bagāžas kvīts",
     "level": "C1"
   },
   {
     "de": "Gepflogenheit",
     "de_article": "die",
     "de_plural": "die Gepflogenheiten",
-    "lv": "На заказ • На заказ",
+    "lv": "paradums • paraža",
     "level": "C1"
   },
   {
     "de": "geradebiegen",
-    "lv": "Выпрямиться • Исправить",
+    "lv": "iztaisnot • izlabot",
     "level": "C1"
   },
   {
     "de": "Schwurgericht",
     "de_article": "das",
     "de_plural": "die Schwurgerichte",
-    "lv": "Суд присяжных",
+    "lv": "zvērināto tiesa",
     "level": "C1"
   },
   {
     "de": "Gerichtshof",
     "de_article": "der",
     "de_plural": "die Gerichtshöfe",
-    "lv": "Zal Suda • Tribunal",
+    "lv": "tiesu palāta • tribunāls",
     "level": "C1"
   },
   {
     "de": "geringschätzig",
-    "lv": "Презрительный • Презрительный • Презрительный",
+    "lv": "nicīgs • nievājošs • nicinošs",
     "level": "C1"
   },
   {
     "de": "Gesamteindruck",
     "de_article": "der",
     "de_plural": "die Gesamteindrücke",
-    "lv": "Общее впечатление",
+    "lv": "kopiespaids",
     "level": "C1"
   },
   {
     "de": "Gesamtergebnis",
     "de_article": "das",
     "de_plural": "die Gesamtergebnisse",
-    "lv": "Конечный результат • Конечный результат",
+    "lv": "gala iznākums • gala rezultāts",
     "level": "C1"
   },
   {
     "de": "Gesandtschaft",
     "de_article": "die",
     "de_plural": "die Gesandtschaften",
-    "lv": "Посолство",
+    "lv": "sūtniecība",
     "level": "C1"
   },
   {
     "de": "Geschäftshaus",
     "de_article": "das",
     "de_plural": "die Geschäftshäuser",
-    "lv": "Торговый дом",
+    "lv": "tirdzniecības nams",
     "level": "C1"
   },
   {
     "de": "Geschäftsjahr",
     "de_article": "das",
     "de_plural": "die Geschäftsjahre",
-    "lv": "Год фермы",
+    "lv": "saimniecības gads",
     "level": "C1"
   },
   {
     "de": "geschlechtsreif",
-    "lv": "Достиг половой зрелости",
+    "lv": "sasniedzis dzimumbriedumu",
     "level": "C1"
   },
   {
     "de": "Gesetzbuch",
     "de_article": "das",
     "de_plural": "die Gesetzbücher",
-    "lv": "Кодекс • Сборник законов",
+    "lv": "kodekss • likumu krājums",
     "level": "C1"
   },
   {
     "de": "gesetzgebend",
-    "lv": "Законодавец",
+    "lv": "likumdevējs",
     "level": "C1"
   },
   {
     "de": "gesetzlos",
-    "lv": "Нелегално",
+    "lv": "nelikumīgs",
     "level": "C1"
   },
   {
     "de": "gesetzmäßig",
-    "lv": "Законный • Законный",
+    "lv": "likumīgs • likumsakarīgs",
     "level": "C1"
   },
   {
     "de": "gesetzwidrig",
-    "lv": "Против закона",
+    "lv": "pretrunā ar likumu",
     "level": "C1"
   },
   {
     "de": "Gesichtskreis",
     "de_article": "der",
     "de_plural": "die Gesichtskreise",
-    "lv": "Горизонт • Горизонт",
+    "lv": "redzesloks • apvārsnis",
     "level": "C1"
   },
   {
     "de": "Gewinnanteil",
     "de_article": "der",
     "de_plural": "die Gewinnanteile",
-    "lv": "Доля прибыли",
+    "lv": "peļņas daļa",
     "level": "C1"
   },
   {
     "de": "Gewissensbisse",
     "de_article": "die",
-    "lv": "Раскаяние",
+    "lv": "sirdsapziņas pārmetumi",
     "level": "C1"
   },
   {
     "de": "gewissermaßen",
-    "lv": "В некоторой степени • В каком-то смысле • Так сказать",
+    "lv": "zināmā mērā • savā ziņā • tā sakot",
     "level": "C1"
   },
   {
     "de": "glaubhaft",
-    "lv": "Правдоподобный • Убедительный",
+    "lv": "ticams • pārliecinošs",
     "level": "C1"
   },
   {
     "de": "gleichberechtigt",
-    "lv": "Равные • С равными правами",
+    "lv": "līdztiesīgs • ar vienādām tiesībām",
     "level": "C1"
   },
   {
     "de": "Götzenverehrung",
     "de_article": "die",
     "de_plural": "die Götzenverehrungen",
-    "lv": "Идолопоклонство",
+    "lv": "elku pielūgšana",
     "level": "C1"
   },
   {
     "de": "Grenzverletzung",
     "de_article": "die",
     "de_plural": "die Grenzverletzungen",
-    "lv": "Нарушение границы",
+    "lv": "robežpārkāpums",
     "level": "C1"
   },
   {
     "de": "Grundgesetz",
     "de_article": "das",
     "de_plural": "die Grundgesetze",
-    "lv": "Основной закон • Конституция",
+    "lv": "pamatlikums • konstitūcija",
     "level": "C1"
   },
   {
     "de": "Gütertransport",
     "de_article": "der",
     "de_plural": "die Gütertransporte",
-    "lv": "Перевозка грузов",
+    "lv": "preču pārvadājumi",
     "level": "C1"
   },
   {
     "de": "Haft",
     "de_article": "die",
-    "lv": "Задержание • Арест",
+    "lv": "apcietinājums • arests",
     "level": "C1"
   },
   {
     "de": "Haftbefehl",
     "de_article": "der",
     "de_plural": "die Haftbefehle",
-    "lv": "Ордер на арест",
+    "lv": "apcietināšanas orderis",
     "level": "C1"
   },
   {
     "de": "haften",
-    "lv": "Да се ​​залепи • Да се ​​заглави",
+    "lv": "pielipt • būt pielipušam",
     "level": "C1"
   },
   {
     "de": "Haftung",
     "de_article": "die",
     "de_plural": "die Haftungen",
-    "lv": "Отговорност",
+    "lv": "atbildība",
     "level": "C1"
   },
   {
     "de": "Haltbarkeitsdauer",
     "de_article": "die",
     "de_plural": "die Haltbarkeitsdauern",
-    "lv": "Время хранения",
+    "lv": "uzglabāšanas laiks",
     "level": "C1"
   },
   {
     "de": "Handelspartner",
     "de_article": "der",
     "de_plural": "die Handelspartner",
-    "lv": "Торговый партнер",
+    "lv": "tirdzniecības partneris",
     "level": "C1"
   },
   {
     "de": "Handelsvertretung",
     "de_article": "die",
     "de_plural": "die Handelsvertretungen",
-    "lv": "Торговое представительство",
+    "lv": "tirdzniecības pārstāvniecība",
     "level": "C1"
   },
   {
     "de": "Hauptversammlung",
     "de_article": "die",
     "de_plural": "die Hauptversammlungen",
-    "lv": "Общее собрание",
+    "lv": "kopsapulce",
     "level": "C1"
   },
   {
     "de": "Hausdurchsuchung",
     "de_article": "die",
     "de_plural": "die Hausdurchsuchungen",
-    "lv": "Полицейский обыск",
+    "lv": "policijas kratīšana",
     "level": "C1"
   },
   {
     "de": "Haushaltsartikel",
     "de_article": "der",
     "de_plural": "die Haushaltsartikel",
-    "lv": "Предмет домашнего обихода",
+    "lv": "saimniecības prece",
     "level": "C1"
   },
   {
     "de": "Haushaltshilfe",
     "de_article": "die",
     "de_plural": "die Haushaltshilfen",
-    "lv": "Платная помощь по дому",
+    "lv": "algota palīdze mājsaimniecībā",
     "level": "C1"
   },
   {
     "de": "Hautentzündung",
     "de_article": "die",
     "de_plural": "die Hautentzündungen",
-    "lv": "Воспаление кожи",
+    "lv": "ādas iekaisums",
     "level": "C1"
   },
   {
     "de": "heldenhaft",
-    "lv": "Героический",
+    "lv": "varonīgs",
     "level": "C1"
   },
   {
     "de": "Herrschaft",
     "de_article": "die",
     "de_plural": "die Herrschaften",
-    "lv": "Доминација • Моќ",
+    "lv": "kundzība • vara",
     "level": "C1"
   },
   {
     "de": "herunterkommen",
-    "lv": "Спуститься • Распад • Распад • Тонуть",
+    "lv": "nonākt lejā • nonīkt • panīkt • pagrimt",
     "level": "C1"
   },
   {
     "de": "herunterstürzen",
-    "lv": "Povzpnite se na tla • Povzpnite se na tla",
+    "lv": "krist zemē • gāzties zemē",
     "level": "C1"
   },
   {
     "de": "sich hinreißen lassen",
-    "lv": "Тревожи се",
+    "lv": "aizrauties",
     "level": "C1"
   },
   {
     "de": "Industrieabgase",
     "de_article": "die",
-    "lv": "Промышленные выхлопные газы",
+    "lv": "rūpnieciskās izplūdes gāzes",
     "level": "C1"
   },
   {
     "de": "Industrieabwässer",
     "de_article": "die",
-    "lv": "Индустриски отпадни води",
+    "lv": "rūpnieciskie notekūdeņi",
     "level": "C1"
   },
   {
     "de": "Industrieanlage",
     "de_article": "die",
     "de_plural": "die Industrieanlagen",
-    "lv": "Промышленный комплекс",
+    "lv": "rūpniecības komplekss",
     "level": "C1"
   },
   {
     "de": "inhaftieren",
-    "lv": "Арестовать",
+    "lv": "apcietināt",
     "level": "C1"
   },
   {
     "de": "Innenarchitekt",
     "de_article": "der",
     "de_plural": "die Innenarchitekten",
-    "lv": "Архитектор интерьеров",
+    "lv": "iekštelpu arhitekts",
     "level": "C1"
   },
   {
     "de": "Innenminister",
     "de_article": "der",
     "de_plural": "die Innenminister",
-    "lv": "Министр внутренних дел",
+    "lv": "iekšlietu ministrs",
     "level": "C1"
   },
   {
     "de": "Intensivstation",
     "de_article": "die",
     "de_plural": "die Intensivstationen",
-    "lv": "Отделение интенсивной терапии в больнице",
+    "lv": "reanimācijas nodaļa slimnīcā",
     "level": "C1"
   },
   {
     "de": "interpretieren",
-    "lv": "Интерпретировать • Объяснять",
+    "lv": "interpretēt • izskaidrot",
     "level": "C1"
   },
   {
     "de": "Justiz",
     "de_article": "die",
-    "lv": "Правосудие • Судебные дела",
+    "lv": "justīcija • tieslietas",
     "level": "C1"
   },
   {
     "de": "Kabinettsitzung",
     "de_article": "die",
     "de_plural": "die Kabinettsitzungen",
-    "lv": "Заседание кабинета министров",
+    "lv": "kabineta sēde",
     "level": "C1"
   },
   {
     "de": "Kapitalverbrechen",
     "de_article": "das",
     "de_plural": "die Kapitalverbrechen",
-    "lv": "Особо тяжкое преступление",
+    "lv": "sevišķi smags noziegums",
     "level": "C1"
   },
   {
     "de": "Kaution",
     "de_article": "die",
     "de_plural": "die Kautionen",
-    "lv": "Залог • Поручительство • Залог • Гарантия",
+    "lv": "ķīla • galvojums • drošības nauda • garantija",
     "level": "C1"
   },
   {
     "de": "Koalition",
     "de_article": "die",
     "de_plural": "die Koalitionen",
-    "lv": "Коалиция",
+    "lv": "koalīcija",
     "level": "C1"
   },
   {
     "de": "körperbehindert",
-    "lv": "Физически инвалид",
+    "lv": "fizisks invalīds",
     "level": "C1"
   },
   {
     "de": "Krankheitserreger",
     "de_article": "der",
     "de_plural": "die Krankheitserreger",
-    "lv": "Возбудитель болезни",
+    "lv": "slimības ierosinātājs",
     "level": "C1"
   },
   {
     "de": "Kriegsbeschädigte",
     "de_article": "der",
     "de_plural": "die Kriegsbeschädigten",
-    "lv": "Инвалид войны",
+    "lv": "kara invalīds",
     "level": "C1"
   },
   {
     "de": "Kriegsgefangene",
     "de_article": "der",
     "de_plural": "die Kriegsgefangenen",
-    "lv": "Военнопленный",
+    "lv": "karagūsteknis",
     "level": "C1"
   },
   {
     "de": "Kabinettskrise",
     "de_article": "die",
     "de_plural": "die Kabinettskrisen",
-    "lv": "Правительственный кризис",
+    "lv": "kabineta krīze",
     "level": "C1"
   },
   {
     "de": "Lawinenwarnung",
     "de_article": "die",
     "de_plural": "die Lawinenwarnungen",
-    "lv": "Предупредување за лавина",
+    "lv": "brīdinājums par lavīnu",
     "level": "C1"
   },
   {
     "de": "Lebenserwartung",
     "de_article": "die",
     "de_plural": "die Lebenserwartungen",
-    "lv": "Просечен животен век",
+    "lv": "vidējais dzīves ilgums",
     "level": "C1"
   },
   {
     "de": "lebensgefährlich",
-    "lv": "Опасный для жизни • Опасный",
+    "lv": "dzīvību apdraudošs • bīstams",
     "level": "C1"
   },
   {
     "de": "Lebensgefährte",
     "de_article": "der",
     "de_plural": "die Lebensgefährten",
-    "lv": "Супруг в незарегистрированном браке",
+    "lv": "dzīvesbiedrs nereģistrētā laulībā",
     "level": "C1"
   },
   {
     "de": "Lebensstandard",
     "de_article": "der",
     "de_plural": "die Lebensstandards",
-    "lv": "Уровень жизни",
+    "lv": "dzīves līmenis",
     "level": "C1"
   },
   {
     "de": "Leistungssport",
     "de_article": "der",
-    "lv": "Профессиональный спорт",
+    "lv": "profesionālais sports",
     "level": "C1"
   },
   {
     "de": "lichtempfindlich",
-    "lv": "Светочувствительный",
+    "lv": "gaismjutīgs",
     "level": "C1"
   },
   {
     "de": "Liebesbeziehung",
     "de_article": "die",
     "de_plural": "die Liebesbeziehungen",
-    "lv": "Интимные отношения",
+    "lv": "intīmas attiecības",
     "level": "C1"
   },
   {
     "de": "Liebeserklärung",
     "de_article": "die",
     "de_plural": "die Liebeserklärungen",
-    "lv": "Открытие любви",
+    "lv": "mīlestības atklāšana",
     "level": "C1"
   },
   {
     "de": "Linksextremismus",
     "de_article": "der",
-    "lv": "Левый экстремизм",
+    "lv": "kreisais ekstrēmisms",
     "level": "C1"
   },
   {
     "de": "Machtergreifung",
     "de_article": "die",
     "de_plural": "die Machtergreifungen",
-    "lv": "Захват власти",
+    "lv": "varas sagrābšana",
     "level": "C1"
   },
   {
     "de": "Machtübernahme",
     "de_article": "die",
     "de_plural": "die Machtübernahmen",
-    "lv": "Захват власти",
+    "lv": "varas pārņemšana",
     "level": "C1"
   },
   {
     "de": "Magnetstreifen",
     "de_article": "der",
     "de_plural": "die Magnetstreifen",
-    "lv": "Магнитная полоса (на кредитной карте)",
+    "lv": "magnētiskā josla (uz kredītkartes)",
     "level": "C1"
   },
   {
     "de": "Marschflugkörper",
     "de_article": "der",
     "de_plural": "die Marschflugkörper",
-    "lv": "Крылатая ракета • Крылатая ракета",
+    "lv": "kruīza raķete • kruīzraķete",
     "level": "C1"
   },
   {
     "de": "Massenherstellung",
     "de_article": "die",
     "de_plural": "die Massenherstellungen",
-    "lv": "Массовое производство",
+    "lv": "masveida ražošana",
     "level": "C1"
   },
   {
     "de": "materialistisch",
-    "lv": "Материјалистички",
+    "lv": "materiālistisks",
     "level": "C1"
   },
   {
     "de": "Meineid",
     "de_article": "der",
     "de_plural": "die Meineide",
-    "lv": "Свесно лажно сведочење на суд",
+    "lv": "apzināti nepatiesa liecība tiesā",
     "level": "C1"
   },
   {
     "de": "menschenfeindlich",
-    "lv": "Враждебный к людям",
+    "lv": "naidīgs cilvēkiem",
     "level": "C1"
   },
   {
     "de": "militärpflichtig",
-    "lv": "Предмет на воена служба",
+    "lv": "karaklausībai padots",
     "level": "C1"
   },
   {
     "de": "Nachschlagewerk",
     "de_article": "das",
     "de_plural": "die Nachschlagewerke",
-    "lv": "Справочная литература • Словарь • Энциклопедия",
+    "lv": "uzziņu literatūra • vārdnīca • enciklopēdija",
     "level": "C1"
   },
   {
     "de": "namhaft",
-    "lv": "Знаменитый • Известный",
+    "lv": "slavens • ievērojams",
     "level": "C1"
   },
   {
     "de": "Nichtangriffspakt",
     "de_article": "der",
     "de_plural": "die Nichtangriffspakte",
-    "lv": "Пакт о ненападении",
+    "lv": "neuzbrukšanas pakts",
     "level": "C1"
   },
   {
     "de": "niedergeschlagen",
-    "lv": "Депрессивный • Депрессивный",
+    "lv": "nomākts • depresīvs",
     "level": "C1"
   },
   {
     "de": "Ölembargo",
     "de_article": "das",
     "de_plural": "die Ölembargos",
-    "lv": "Нефтяное эмбарго",
+    "lv": "naftas embargo",
     "level": "C1"
   },
   {
     "de": "Oppositionsführer",
     "de_article": "der",
     "de_plural": "die Oppositionsführer",
-    "lv": "Лидер оппозиции",
+    "lv": "opozīcijas līderis",
     "level": "C1"
   },
   {
     "de": "Oppositionspartei",
     "de_article": "die",
     "de_plural": "die Oppositionsparteien",
-    "lv": "Оппозиционная партия",
+    "lv": "opozīcijas partija",
     "level": "C1"
   },
   {
     "de": "Originalausgabe",
     "de_article": "die",
     "de_plural": "die Originalausgaben",
-    "lv": "Izvirna izdaja",
+    "lv": "oriģinālizdevums",
     "level": "C1"
   },
   {
     "de": "Originalfassung",
     "de_article": "die",
     "de_plural": "die Originalfassungen",
-    "lv": "Оригинальный вариант",
+    "lv": "oriģinālvariants",
     "level": "C1"
   },
   {
     "de": "Originalgemälde",
     "de_article": "das",
     "de_plural": "die Originalgemälde",
-    "lv": "Оригинальная картина",
+    "lv": "oriģinālglezna",
     "level": "C1"
   },
   {
     "de": "Parteifunktionär",
     "de_article": "der",
     "de_plural": "die Parteifunktionäre",
-    "lv": "Партийный работник",
+    "lv": "partijas darbinieks",
     "level": "C1"
   },
   {
     "de": "Pflichtlektüre",
     "de_article": "die",
     "de_plural": "die Pflichtlektüren",
-    "lv": "Обязательная учебная литература",
+    "lv": "obligātā mācību literatūra",
     "level": "C1"
   },
   {
     "de": "Preisfrage",
     "de_article": "die",
     "de_plural": "die Preisfragen",
-    "lv": "Вопрос о конкурсе",
+    "lv": "konkursa jautājums",
     "level": "C1"
   },
   {
     "de": "Pressefreiheit",
     "de_article": "die",
     "de_plural": "die Pressefreiheiten",
-    "lv": "Свобода печати",
+    "lv": "preses brīvība",
     "level": "C1"
   },
   {
     "de": "Pressevertreter",
     "de_article": "der",
     "de_plural": "die Pressevertreter",
-    "lv": "Представитель прессы",
+    "lv": "preses pārstāvis",
     "level": "C1"
   },
   {
     "de": "Presseerklärung",
     "de_article": "die",
     "de_plural": "die Presseerklärungen",
-    "lv": "Соопштение за печатот",
+    "lv": "paziņojums presei",
     "level": "C1"
   },
   {
     "de": "Produktionskosten",
     "de_article": "die",
-    "lv": "Себестоимость продукции",
+    "lv": "ražošanas pašizmaksa",
     "level": "C1"
   },
   {
     "de": "Produktionsweise",
     "de_article": "die",
     "de_plural": "die Produktionsweisen",
-    "lv": "Тип производства",
+    "lv": "ražošanas veids",
     "level": "C1"
   },
   {
     "de": "Rangierbahnhof",
     "de_article": "der",
     "de_plural": "die Rangierbahnhöfe",
-    "lv": "Железничка станица",
+    "lv": "šķirotava dzelzceļa",
     "level": "C1"
   },
   {
     "de": "rätselhaft",
-    "lv": "Загадочный • Непонятный",
+    "lv": "mīklains • neizprotams",
     "level": "C1"
   },
   {
     "de": "Raumausstatter",
     "de_article": "der",
     "de_plural": "die Raumausstatter",
-    "lv": "Дизайнер интерьера",
+    "lv": "interjerists",
     "level": "C1"
   },
   {
     "de": "Rechenschaft",
     "de_article": "die",
-    "lv": "Ответственность (за свои действия) • Ответственность",
+    "lv": "atskaite (par savu rīcību) • atbildība",
     "level": "C1"
   },
   {
     "de": "rechtswidrig",
-    "lv": "Нелегално",
+    "lv": "nelikumīgi",
     "level": "C1"
   },
   {
     "de": "Regenbogenpresse",
     "de_article": "die",
     "de_plural": "die Regenbogenpressen",
-    "lv": "Таблоидная пресса",
+    "lv": "bulvārprese",
     "level": "C1"
   },
   {
     "de": "Regierungschef",
     "de_article": "der",
     "de_plural": "die Regierungschefs",
-    "lv": "Премьер-министр • Глава правительства",
+    "lv": "premjerministrs • valdības galva",
     "level": "C1"
   },
   {
     "de": "Regierungspartei",
     "de_article": "die",
     "de_plural": "die Regierungsparteien",
-    "lv": "Правительственная партия",
+    "lv": "valdības partija",
     "level": "C1"
   },
   {
     "de": "Regierungswechsel",
     "de_article": "der",
     "de_plural": "die Regierungswechsel",
-    "lv": "Смена правительства",
+    "lv": "valdības maiņa",
     "level": "C1"
   },
   {
     "de": "Rentenanspruch",
     "de_article": "der",
     "de_plural": "die Rentenansprüche",
-    "lv": "Право на пенсию",
+    "lv": "tiesības uz pensiju",
     "level": "C1"
   },
   {
     "de": "Rentenempfänger",
     "de_article": "der",
     "de_plural": "die Rentenempfänger",
-    "lv": "Во пензија",
+    "lv": "pensijas saņēmējs",
     "level": "C1"
   },
   {
     "de": "republikanisch",
-    "lv": "Республиканская • Республики",
+    "lv": "republikānisks • republikas",
     "level": "C1"
   },
   {
     "de": "Sanktion",
     "de_article": "die",
     "de_plural": "die Sanktionen",
-    "lv": "Санкция",
+    "lv": "sankcija",
     "level": "C1"
   },
   {
     "de": "sanktionieren",
-    "lv": "Поддержка • Санкции",
+    "lv": "atbalstīt • sankcionēt",
     "level": "C1"
   },
   {
     "de": "Lüftungsschacht",
     "de_article": "der",
     "de_plural": "die Lüftungsschächte",
-    "lv": "Вентиляционная шахта",
+    "lv": "ventilācijas šahta",
     "level": "C1"
   },
   {
     "de": "Scheidungsgrund",
     "de_article": "der",
     "de_plural": "die Scheidungsgründe",
-    "lv": "Причина развода",
+    "lv": "šķiršanās iemesls",
     "level": "C1"
   },
   {
     "de": "Schicksalsschlag",
     "de_article": "der",
     "de_plural": "die Schicksalsschläge",
-    "lv": "Удар судьбы",
+    "lv": "likteņa trieciens",
     "level": "C1"
   },
   {
     "de": "schmerzstillend",
-    "lv": "Болкоуспокояващо",
+    "lv": "sāpes remdējošs",
     "level": "C1"
   },
   {
     "de": "Anklageschrift",
     "de_article": "die",
     "de_plural": "die Anklageschriften",
-    "lv": "Обвинительное заключение",
+    "lv": "apsūdzības raksts",
     "level": "C1"
   },
   {
     "de": "Schwerindustrie",
     "de_article": "die",
     "de_plural": "die Schwerindustrien",
-    "lv": "Тяжелая промышленность",
+    "lv": "smagā rūpniecība",
     "level": "C1"
   },
   {
     "de": "Segelflugsport",
     "de_article": "der",
-    "lv": "Планеризм",
+    "lv": "planierisms",
     "level": "C1"
   },
   {
     "de": "Selbstverwaltung",
     "de_article": "die",
     "de_plural": "die Selbstverwaltungen",
-    "lv": "Община",
+    "lv": "pašvaldība",
     "level": "C1"
   },
   {
     "de": "selbstzufrieden",
-    "lv": "Самодовольный",
+    "lv": "pašapmierināts",
     "level": "C1"
   },
   {
     "de": "Sensationsmeldung",
     "de_article": "die",
     "de_plural": "die Sensationsmeldungen",
-    "lv": "Сенсационное заявление",
+    "lv": "sensacionāls paziņojums",
     "level": "C1"
   },
   {
     "de": "sesshaft",
-    "lv": "Жизнь в одном месте • Кемпер",
+    "lv": "vienā vietā dzīvojošs • nometnieku",
     "level": "C1"
   },
   {
     "de": "Sinfonieorchester",
     "de_article": "das",
     "de_plural": "die Sinfonieorchester",
-    "lv": "Симфониски оркестар",
+    "lv": "simfoniskais orķestris",
     "level": "C1"
   },
   {
     "de": "Sinnestäuschung",
     "de_article": "die",
     "de_plural": "die Sinnestäuschungen",
-    "lv": "Галлюцинация",
+    "lv": "halucinācija",
     "level": "C1"
   },
   {
     "de": "Konfliktsituation",
     "de_article": "die",
     "de_plural": "die Konfliktsituationen",
-    "lv": "Конфликтна ситуација",
+    "lv": "konflikta situācija",
     "level": "C1"
   },
   {
     "de": "Krisensituation",
     "de_article": "die",
     "de_plural": "die Krisensituationen",
-    "lv": "Кризисная ситуация • Кризис",
+    "lv": "krīzes situācija • krīze",
     "level": "C1"
   },
   {
     "de": "Sommersonnenwende",
     "de_article": "die",
     "de_plural": "die Sommersonnenwenden",
-    "lv": "Летнее солнцестояние",
+    "lv": "vasaras saulgrieži",
     "level": "C1"
   },
   {
     "de": "Sonnenfinsternis",
     "de_article": "die",
     "de_plural": "die Sonnenfinsternisse",
-    "lv": "Солнечное затмение",
+    "lv": "saules aptumsums",
     "level": "C1"
   },
   {
     "de": "Spitzenleistung",
     "de_article": "die",
     "de_plural": "die Spitzenleistungen",
-    "lv": "Рекорд • Высшее достижение • Техн. максимальная мощность",
+    "lv": "rekords • augstākais sasniegums • tehn. maksimālā jauda",
     "level": "C1"
   },
   {
     "de": "Staatsangehörige",
     "de_article": "der",
     "de_plural": "die Staatsangehörigen",
-    "lv": "Гражданин",
+    "lv": "pavalstnieks",
     "level": "C1"
   },
   {
     "de": "Staatsanwalt",
     "de_article": "der",
     "de_plural": "die Staatsanwälte",
-    "lv": "Прокурор",
+    "lv": "prokurors",
     "level": "C1"
   },
   {
     "de": "Staatsgeheimnis",
     "de_article": "das",
     "de_plural": "die Staatsgeheimnisse",
-    "lv": "Государственная тайна",
+    "lv": "valsts noslēpums",
     "level": "C1"
   },
   {
     "de": "Steuereinnahmen",
     "de_article": "die",
-    "lv": "Налоговые поступления",
+    "lv": "nodokļu ieņēmumi",
     "level": "C1"
   },
   {
     "de": "stimmberechtigt",
-    "lv": "Право на глас",
+    "lv": "balsstiesīgs",
     "level": "C1"
   },
   {
     "de": "Studienbewerber",
     "de_article": "der",
     "de_plural": "die Studienbewerber",
-    "lv": "Абитуриент университета",
+    "lv": "augstskolas reflektants",
     "level": "C1"
   },
   {
     "de": "synchronisieren",
-    "lv": "Zvočni film",
+    "lv": "dublēt filmu",
     "level": "C1"
   },
   {
     "de": "Tageseinnahmen",
     "de_article": "die",
-    "lv": "Ежедневный заработок",
+    "lv": "dienas ieņēmumi",
     "level": "C1"
   },
   {
     "de": "Transfusion",
     "de_article": "die",
     "de_plural": "die Transfusionen",
-    "lv": "Прямое переливание крови от одного человека другому",
+    "lv": "tieša asins pārliešana no viena cilvēka citam",
     "level": "C1"
   },
   {
     "de": "überanstrengen",
-    "lv": "Переутомляться • Sich ü. переутомляться",
+    "lv": "pārpūlēt • sich ü. pārpūlēties",
     "level": "C1"
   },
   {
     "de": "Überbevölkerung",
     "de_article": "die",
     "de_plural": "die Überbevölkerungen",
-    "lv": "Перенаселение",
+    "lv": "pārapdzīvotība",
     "level": "C1"
   },
   {
     "de": "Überbleibsel",
     "de_article": "das",
     "de_plural": "die Überbleibsel",
-    "lv": "Излишек • Остается",
+    "lv": "pārpalikums • paliekas",
     "level": "C1"
   },
   {
     "de": "übereinstimmen",
-    "lv": "Согласен • Согласен с кем-то",
+    "lv": "saskanēt • būt ar kādu vienisprātis",
     "level": "C1"
   },
   {
     "de": "Überschuss",
     "de_article": "der",
     "de_plural": "die Überschüsse",
-    "lv": "Остаток • Излишек • Ликвидация",
+    "lv": "atlikums • pārpalikums • uzvija",
     "level": "C1"
   },
   {
     "de": "Umgangssprache",
     "de_article": "die",
     "de_plural": "die Umgangssprachen",
-    "lv": "Разговорный язык",
+    "lv": "sarunvaloda",
     "level": "C1"
   },
   {
     "de": "Unannehmlichkeit",
     "de_article": "die",
     "de_plural": "die Unannehmlichkeiten",
-    "lv": "Неприятность • Неприятный случай",
+    "lv": "nepatikšanas • nepatīkams gadījums",
     "level": "C1"
   },
   {
     "de": "unausgeglichen",
-    "lv": "Несбалансированный",
+    "lv": "nelīdzsvarots",
     "level": "C1"
   },
   {
     "de": "unerschütterlich",
-    "lv": "Непоколебимый",
+    "lv": "nesatricināms",
     "level": "C1"
   },
   {
     "de": "Unterschätzung",
     "de_article": "die",
     "de_plural": "die Unterschätzungen",
-    "lv": "Недооценка • Недооценка",
+    "lv": "nepietiekams novērtējums • novērtēšana par zemu",
     "level": "C1"
   },
   {
     "de": "urteilen",
-    "lv": "Судить",
+    "lv": "spriest",
     "level": "C1"
   },
   {
     "de": "verabschieden",
-    "lv": "Освободить от работы • Выйти на пенсию",
+    "lv": "atbrīvot no darba • aizlaist pensijā",
     "level": "C1"
   },
   {
     "de": "veränderlich",
-    "lv": "Изменчивый • Изменчивый",
+    "lv": "mainīgs • grozīgs",
     "level": "C1"
   },
   {
     "de": "veranschlagen",
-    "lv": "Вычислить • Вычислить • Сделать оценку",
+    "lv": "aprēķināt • kalkulēt • sastādīt tāmi",
     "level": "C1"
   },
   {
     "de": "verdrießlich",
-    "lv": "Неприятный • Раздраженный • Раздраженный",
+    "lv": "nepatīkams • īgns • sapīcis",
     "level": "C1"
   },
   {
     "de": "Verfallsdatum",
     "de_article": "das",
     "de_plural": "die Verfallsdaten",
-    "lv": "Дата окончания срока",
+    "lv": "lietošanas termiņa beigas",
     "level": "C1"
   },
   {
     "de": "Verfassung",
     "de_article": "die",
     "de_plural": "die Verfassungen",
-    "lv": "Конституция • Конституция",
+    "lv": "konstitūcija • satversme",
     "level": "C1"
   },
   {
     "de": "vergewaltigen",
-    "lv": "Изнасилование",
+    "lv": "izvarot",
     "level": "C1"
   },
   {
     "de": "sich vergewissern",
-    "lv": "Погрижете се",
+    "lv": "pārliecināties",
     "level": "C1"
   },
   {
     "de": "Vergünstigung",
     "de_article": "die",
     "de_plural": "die Vergünstigungen",
-    "lv": "Преимущество • Привилегия • Облегчение",
+    "lv": "priekšrocība • privilēģija • atvieglojums",
     "level": "C1"
   },
   {
     "de": "verhaften",
-    "lv": "Арестовать",
+    "lv": "apcietināt",
     "level": "C1"
   },
   {
     "de": "verhältnismäßig",
-    "lv": "Относительно",
+    "lv": "samērā",
     "level": "C1"
   },
   {
     "de": "Verhandlungen",
     "de_article": "die",
     "de_plural": "die Verhandlungen",
-    "lv": "Разговоры",
+    "lv": "sarunas",
     "level": "C1"
   },
   {
     "de": "verheimlichen",
-    "lv": "Спрятать • Держать в секрете",
+    "lv": "slēpt • turēt slepenībā",
     "level": "C1"
   },
   {
     "de": "Verkehrsdichte",
     "de_article": "die",
     "de_plural": "die Verkehrsdichten",
-    "lv": "Плотность трафика",
+    "lv": "satiksmes blīvums",
     "level": "C1"
   },
   {
     "de": "Verkehrswesen",
     "de_article": "das",
-    "lv": "Транспорт",
+    "lv": "transports",
     "level": "C1"
   },
   {
     "de": "Verpflichtung",
     "de_article": "die",
     "de_plural": "die Verpflichtungen",
-    "lv": "Обязанность • Обязательство",
+    "lv": "pienākums • saistība",
     "level": "C1"
   },
   {
     "de": "Verschwörung",
     "de_article": "die",
     "de_plural": "die Verschwörungen",
-    "lv": "Заговор",
+    "lv": "sazvērestība",
     "level": "C1"
   },
   {
     "de": "verklagen",
-    "lv": "Подать в суд",
+    "lv": "iesūdzēt tiesā",
     "level": "C1"
   },
   {
     "de": "vernachlässigen",
-    "lv": "Пренебрегать • Быть небрежным",
+    "lv": "atstāt novārtā • nevērīgi izturēties",
     "level": "C1"
   },
   {
     "de": "verpflichten",
-    "lv": "Обязать",
+    "lv": "uzlikt par pienākumu",
     "level": "C1"
   },
   {
     "de": "sich verpflichten",
-    "lv": "Предпринимать",
+    "lv": "uzņemties",
     "level": "C1"
   },
   {
     "de": "sich verschließen",
-    "lv": "Выключить • Выключить",
+    "lv": "noslēgties • norobežoties",
     "level": "C1"
   },
   {
     "de": "verschlossen",
-    "lv": "Заблокировано • Закрыто • Пер. закрытый • Автономный",
+    "lv": "aizslēgts • noslēgts • pārn. noslēgts • sevī noslēdzies",
     "level": "C1"
   },
   {
     "de": "verschlüsseln",
-    "lv": "Шифровать • Кодировать",
+    "lv": "šifrēt • kodēt",
     "level": "C1"
   },
   {
     "de": "verschreiben",
-    "lv": "Мед. подписать",
+    "lv": "med. parakstīt",
     "level": "C1"
   },
   {
     "de": "verschweigen",
-    "lv": "Скрывать • Не раскрывать",
+    "lv": "noklusēt • neizpaust",
     "level": "C1"
   },
   {
     "de": "verständigen",
-    "lv": "Информировать • Уведомить",
+    "lv": "informēt • paziņot",
     "level": "C1"
   },
   {
     "de": "Versuchsanlage",
     "de_article": "die",
     "de_plural": "die Versuchsanlagen",
-    "lv": "Испытательный стенд",
+    "lv": "izmēģinājumu iekārta",
     "level": "C1"
   },
   {
     "de": "Versuchsgelände",
     "de_article": "das",
     "de_plural": "die Versuchsgelände",
-    "lv": "Испытательный полигон",
+    "lv": "izmēģinājumu poligons",
     "level": "C1"
   },
   {
     "de": "Versuchsreihe",
     "de_article": "die",
     "de_plural": "die Versuchsreihen",
-    "lv": "Серия тестов",
+    "lv": "testu sērija",
     "level": "C1"
   },
   {
     "de": "verunglücken",
-    "lv": "Пострадать в результате несчастного случая • Пострадать в результате несчастного случая",
+    "lv": "ciest nelaimes gadījumā • ciest avārijā",
     "level": "C1"
   },
   {
     "de": "verurteilen",
-    "lv": "Осудить",
+    "lv": "notiesāt",
     "level": "C1"
   },
   {
     "de": "vervielfältigen",
-    "lv": "Умножать",
+    "lv": "pavairot",
     "level": "C1"
   },
   {
     "de": "vervollkommnen",
-    "lv": "Дополнить • Улучшить",
+    "lv": "papildināt • uzlabot",
     "level": "C1"
   },
   {
     "de": "sich vervollkommnen",
-    "lv": "Dopolnite svoje znanje",
+    "lv": "papildināt savas zināšanas",
     "level": "C1"
   },
   {
     "de": "verwirklichen",
-    "lv": "Сфати • Сфати",
+    "lv": "realizēt • īstenot",
     "level": "C1"
   },
   {
     "de": "Volksabstimmung",
     "de_article": "die",
     "de_plural": "die Volksabstimmungen",
-    "lv": "Всенародное голосование • Плебисцит",
+    "lv": "tautas nobalsošana • plebiscīts",
     "level": "C1"
   },
   {
     "de": "Volksbefragung",
     "de_article": "die",
     "de_plural": "die Volksbefragungen",
-    "lv": "Опрос всего народа • Референдум",
+    "lv": "visas tautas aptauja • referendums",
     "level": "C1"
   },
   {
     "de": "Vollversammlung",
     "de_article": "die",
     "de_plural": "die Vollversammlungen",
-    "lv": "Пленум • Общее собрание • Генеральная ассамблея",
+    "lv": "plēnums • pilnsapulce • ģenerālā asambleja",
     "level": "C1"
   },
   {
     "de": "voreingenommen",
-    "lv": "Предвзятый • Предвзятый",
+    "lv": "aizspriedumains • neobjektīvs",
     "level": "C1"
   },
   {
     "de": "waag[e]recht",
-    "lv": "Уровень • Горизонтальный",
+    "lv": "līmenisks • horizontāls",
     "level": "C1"
   },
   {
     "de": "Waffenruhe",
     "de_article": "die",
     "de_plural": "die Waffenruhen",
-    "lv": "Перерыв в боевых действиях",
+    "lv": "cīņu pārtraukums",
     "level": "C1"
   },
   {
     "de": "Waffenschein",
     "de_article": "der",
     "de_plural": "die Waffenscheine",
-    "lv": "Разрешение на оружие",
+    "lv": "ieroča atļauja",
     "level": "C1"
   },
   {
     "de": "wahlberechtigt",
-    "lv": "Оној што има право на глас",
+    "lv": "tāds, kam ir vēlēšanu tiesības",
     "level": "C1",
     "study": {
       "id": "c1-wahlberechtigt",
       "layout": "standardStudy",
-      "translation": "Оној што има право на глас",
-      "explanation": "Главната идеја: wahlberechtig - придавка што значи дека едно лице има право да учествува на избори - да гласа или да гласа на избори. Соединение: Wahl (избор) + behrechtig (десно).",
+      "translation": "tāds, kam ir vēlēšanu tiesības",
+      "explanation": "Galvenā doma: wahlberechtigt ir īpašības vārds, kas nozīmē, ka personai ir tiesības piedalīties vēlēšanās — balsot vai kandidēt. Saliktenis: Wahl (vēlēšanas) + berechtigt (tiesīgs).",
       "examples": [
         {
           "de": "Alle wahlberechtigten Bürger können wählen.",
-          "lv": "Все имеющие право голоса избиратели могут голосовать."
+          "lv": "visi vēlētāji ar vēlēšanu tiesībām var balsot."
         },
         {
           "de": "Ab 18 Jahren ist man wahlberechtigt.",
-          "lv": "С 18 лет имеют право голоса."
+          "lv": "no 18 gadu vecuma ir vēlēšanu tiesības."
         },
         {
           "de": "Nicht alle Einwohner sind wahlberechtigt.",
-          "lv": "Не все граждане имеют право голоса."
+          "lv": "ne visiem iedzīvotājiem ir vēlēšanu tiesības."
         }
       ],
       "comparison": [
         {
           "word": "wahlberechtigt",
-          "meaning": "Со вистинскиот глас",
-          "example": "Er ist wahlberechtigt. = Он имеет право голоса."
+          "meaning": "ar vēlēšanu tiesībām",
+          "example": "Er ist wahlberechtigt. = Viņam ir vēlēšanu tiesības."
         },
         {
           "word": "wählen",
-          "meaning": "Желать • Голосовать",
-          "example": "Ich wähle heute. = Я проголосовал сегодня."
+          "meaning": "vēlēt • balsot",
+          "example": "Ich wähle heute. = Es šodien balsoju."
         },
         {
           "word": "der Wähler",
-          "meaning": "Избирател",
-          "example": "Der Wähler geht zur Wahl. = Избиратель идет на выборы."
+          "meaning": "vēlētājs",
+          "example": "Der Wähler geht zur Wahl. = Vēlētājs iet uz vēlēšanām."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Wahl = избрание, behrechtig = имеющий право. Распространено в прессе и юридических текстах."
+            "text": "Wahl = vēlēšanas, berechtigt = tiesīgs. Bieži presē un juridiskos tekstos."
           }
         ]
       },
       "important": {
-        "text": "Wahlberechtig = с правом голоса. Напротив: nicht wahlberechtigkeit."
+        "text": "wahlberechtigt = ar vēlēšanu tiesībām. Pretējais: nicht wahlberechtigt."
       },
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "wahlberechtig",
+            "wahlberechtigt",
             "Wahl",
-            "behrechtig"
+            "berechtigt"
           ]
         },
         "examples": [
@@ -3826,7 +3871,11 @@ const C1_WORDS = [
                 "wahlberechtigten"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "vēlēšanu tiesībām"
+              ]
+            }
           },
           {
             "de": {
@@ -3834,7 +3883,11 @@ const C1_WORDS = [
                 "wahlberechtigt"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "vēlēšanu tiesības"
+              ]
+            }
           },
           {
             "de": {
@@ -3842,7 +3895,11 @@ const C1_WORDS = [
                 "wahlberechtigt"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "vēlēšanu tiesības"
+              ]
+            }
           }
         ]
       }
@@ -3850,139 +3907,143 @@ const C1_WORDS = [
   },
   {
     "de": "wahrhaft",
-    "lv": "Правда • Правда",
+    "lv": "patiesi • tiešām",
     "level": "C1"
   },
   {
     "de": "Wäscheschleuder",
     "de_article": "die",
     "de_plural": "die Wäscheschleudern",
-    "lv": "Пералня",
+    "lv": "veļas centrifūga",
     "level": "C1"
   },
   {
     "de": "Wasserheilanstalt",
     "de_article": "die",
-    "lv": "Пречиствателна станция",
+    "lv": "ūdensdziedniecības iestāde",
     "level": "C1"
   },
   {
     "de": "Wasserkraftwerk",
     "de_article": "das",
     "de_plural": "die Wasserkraftwerke",
-    "lv": "Гидроэлектростанция",
+    "lv": "hidroelektrostacija",
     "level": "C1"
   },
   {
     "de": "Wasserversorgung",
     "de_article": "die",
     "de_plural": "die Wasserversorgungen",
-    "lv": "Водоснабжение",
+    "lv": "ūdensapgāde",
     "level": "C1"
   },
   {
     "de": "Wechselbeziehung",
     "de_article": "die",
     "de_plural": "die Wechselbeziehungen",
-    "lv": "Меѓусебна комуникација",
+    "lv": "savstarpējs sakars",
     "level": "C1"
   },
   {
     "de": "Wehrersatzdienst",
     "de_article": "der",
-    "lv": "Гражданская служба вместо военной службы",
+    "lv": "civildienests karadienesta vietā",
     "level": "C1"
   },
   {
     "de": "Weidenkätzchen",
     "de_article": "das",
     "de_plural": "die Weidenkätzchen",
-    "lv": "Мак",
+    "lv": "pūpols",
     "level": "C1"
   },
   {
     "de": "Weltanschauung",
     "de_article": "die",
     "de_plural": "die Weltanschauungen",
-    "lv": "Мировоззрение",
+    "lv": "pasaules uzskats",
     "level": "C1"
   },
   {
     "de": "Wetterleuchten",
     "de_article": "das",
-    "lv": "Ръжда",
+    "lv": "rūsa",
     "level": "C1"
   },
   {
     "de": "widerrechtlich",
-    "lv": "Нелегално",
+    "lv": "prettiesisks",
     "level": "C1"
   },
   {
     "de": "wiederherstellen",
-    "lv": "Враќање • Врати",
+    "lv": "atjaunot • restaurēt",
     "level": "C1"
   },
   {
     "de": "zusammenfallen",
-    "lv": "Коллапс • Случиться",
+    "lv": "sabrukt • sagadīties",
     "level": "C1"
   },
   {
     "de": "zusammenstellen",
-    "lv": "Сочинять",
+    "lv": "sastādīt",
     "level": "C1"
   },
   {
     "de": "Zuschlag",
     "de_article": "der",
     "de_plural": "die Zuschläge",
-    "lv": "Premium • Polnjenje",
+    "lv": "piemaksa • uzcenojums",
     "level": "C1",
     "study": {
       "id": "c1-zuschlag",
       "layout": "standardStudy",
-      "translation": "Premium • Polnjenje",
+      "translation": "piemaksa • uzcenojums",
       "explanation": [
-        "Основная идея: der Zuschlag означает премию или наценку — дополнительную сумму, добавляемую к базовой цене.",
-        "В контексте путешествия/транспорта der Zuschlag — это дополнительная плата за более быстрый поезд, лучшее место и т. д.",
-        "Не путать с der Anhang/die Beilage (приложение к документу) – это другое слово.",
-        "На аукционах den Zuschlag erhalten означает выиграть аукцион/получить заказ."
+        "Glavna ideja: der Zuschlag pomeni premijo ali pribitek – dodaten znesek, dodan k osnovni ceni.",
+        "V okviru potovanja/prevoza je der Zuschlag doplačilo za hitrejši vlak, boljši sedež itd.",
+        "Ne sme se zamenjevati z der Anhang/die Beilage (priloga k dokumentu) – to je druga beseda.",
+        "Na dražbah den Zuschlag erhalten pomeni zmagati na dražbi/prejeti naročilo."
       ],
       "examples": [
         {
           "de": "Für den ICE muss man einen Zuschlag zahlen.",
-          "lv": "За возот ICE се наплаќа дополнителен надомест."
+          "lv": "par ICE vilcienu jāmaksā piemaksa."
         },
         {
           "de": "Der Zuschlag für die Nachtschicht beträgt 20%.",
-          "lv": "Доплата за ночную смену составляет 20%."
+          "lv": "piemaksa par nakts maiņu ir 20%."
         },
         {
           "de": "Sie erhielt den Zuschlag für den Auftrag.",
-          "lv": "Она получила заказ (на аукционе)."
+          "lv": "viņa saņēma pasūtījumu (izsolē)."
         },
         {
           "de": "Es gibt einen Zuschlag für Übergepäck.",
-          "lv": "За сверхнормативный багаж взимается дополнительная плата."
+          "lv": "par pārsvara bagāžu ir uzcenojums."
         },
         {
           "de": "Der Preis versteht sich ohne Zuschläge.",
-          "lv": "Цена указана без наценок."
+          "lv": "cena ir bez piemaksām."
         }
       ],
       "tip": [
-        "Der Zuschlag = надбавка/доплата (доплата), а не вложение документа.",
-        "Den Zuschlag erhalten (на аукционах) = выиграть аукцион/получить заказ."
+        "der Zuschlag = piemaksa/uzcenojums (papildu maksa), ne dokumenta pielikums.",
+        "den Zuschlag erhalten (izsolēs) = uzvarēt izsolē/saņemt pasūtījumu."
       ],
       "important": [
-        "Der Zuschlag = надбавка/надбавка, а не «приложение» к документу.",
-        "Приложение к документу на немецком языке — die Anlage/der Anhang."
+        "der Zuschlag = piemaksa/uzcenojums, ne 'pielikums' dokumentam.",
+        "Priloga k dokumentu v nemščini je die Anlage/der Anhang."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "der Zuschlag"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna"
           ],
           "red": [
             "der Anhang",
@@ -3996,7 +4057,11 @@ const C1_WORDS = [
                 "Zuschlag"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "piemaksa"
+              ]
+            }
           },
           {
             "de": {
@@ -4004,7 +4069,11 @@ const C1_WORDS = [
                 "Zuschlag"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "piemaksa"
+              ]
+            }
           },
           {
             "de": {
@@ -4012,7 +4081,11 @@ const C1_WORDS = [
                 "Zuschlag"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "pasūtījumu"
+              ]
+            }
           },
           {
             "de": {
@@ -4020,7 +4093,11 @@ const C1_WORDS = [
                 "Zuschlag"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "uzcenojums"
+              ]
+            }
           },
           {
             "de": {
@@ -4028,11 +4105,20 @@ const C1_WORDS = [
                 "Zuschläge"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "piemaksām"
+              ]
+            }
           }
         ],
         "tip": [
-          {},
+          {
+            "blue": [
+              "piemaksa",
+              "uzcenojums"
+            ]
+          },
           {
             "green": [
               "den Zuschlag erhalten"
@@ -4040,7 +4126,15 @@ const C1_WORDS = [
           }
         ],
         "important": [
-          {},
+          {
+            "purple": [
+              "piemaksa",
+              "uzcenojums"
+            ],
+            "red": [
+              "pielikums"
+            ]
+          },
           {
             "red": [
               "die Anlage",
@@ -4053,46 +4147,60 @@ const C1_WORDS = [
   },
   {
     "de": "beziehen / sich beziehen auf",
-    "lv": "Применить • Обратиться к",
+    "lv": "attiecināt • attiekties uz",
     "level": "C1",
     "study": {
       "id": "c1-beziehen-sich-beziehen-auf",
       "layout": "standardStudy",
-      "translation": "Применить • Обратиться к",
+      "translation": "attiecināt • attiekties uz",
       "explanation": [
-        "Основная идея: Формальная регистрация: указание на источник, регулярное получение пенсии/зарплаты или переезд в квартиру.",
-        "Примерите се отнасят за типична ежедневна употреба.",
-        "Когато се съмнявате, проверете дали е състояние или действие.",
-        "Контекстът и начина на действие определят правилния избор."
+        "Glavna ideja: Uradni register: pripis vira, redno prejemanje pokojnine/plače ali vselitev v stanovanje.",
+        "Primeri iščejo tipično vsakodnevno uporabo.",
+        "Ja šaubies, pārbaudi, vai runa ir par stāvokli vai darbību.",
+        "Kontekst in način delovanja določata pravo izbiro."
       ],
       "examples": [
         {
           "de": "beziehen / sich beziehen auf.",
-          "lv": "Применить • Обратиться к"
+          "lv": "attiecināt • attiekties uz"
         }
       ],
       "tip": [
-        "Формален регистар: наведете го изворот, редовно примање пензии/плати или преселба во стан.",
-        "Используйте beziehen / sich beziehen auf, когда контекст соответствует этому значению."
+        "Formalni register: pripis vira, redna pokojnina/plača ali vselitev v stanovanje.",
+        "Uporabite beziehen / sich beziehen auf, kadar kontekst ustreza temu pomenu."
       ],
       "important": [
-        "Формален регистар: наведете го изворот, редовно примање пензии/плати или преселба во стан.",
-        "Beziehen / sich beziehen auf: пред употреба, проверете го контекстот и споредете со другите зборови на картичката."
+        "Formalni register: pripis vira, redna pokojnina/plača ali vselitev v stanovanje.",
+        "beziehen / sich beziehen auf: pirms lietošanas pārbaudi kontekstu un salīdzini ar citiem vārdiem kartītē."
       ],
       "sectionAccents": {
-        "explanation": {},
+        "explanation": {
+          "purple": [
+            "Glavna"
+          ]
+        },
         "examples": [
           {
             "de": {
               "blue": [
+                "beziehen / sich beziehen auf",
                 "beziehen / sich beziehen auf"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "attiecināt",
+                "attiekties uz"
+              ]
+            }
           }
         ],
         "tip": [
-          {},
+          {
+            "purple": [
+              "Formalni"
+            ]
+          },
           {}
         ],
         "important": [
@@ -4103,56 +4211,60 @@ const C1_WORDS = [
   },
   {
     "de": "beabsichtigen",
-    "lv": "Намереваться • Планировать",
+    "lv": "nodomāt • plānot",
     "level": "C1",
     "study": {
       "id": "c1-beabsichtigen",
       "layout": "standardStudy",
-      "translation": "Намереваться • Планировать",
+      "translation": "nodomāt • plānot",
       "explanation": [
-        "Основная идея: Сознательное намерение совершить действие в будущем. Не об отношениях, а о плане.",
-        "Beabsichtigen прежде всего означает: сознательное намерение.",
-        "Часто характеризуется: планом/намерением.",
-        "Beabsichtigen в основном означает: планировать действие.",
-        "Часто характеризуется: официальным реестром.",
-        "Beabsichtigen означает намеренное намерение или планирование действия — не отношения, а намерения."
+        "Glavna ideja: zavestna namera za izvedbo dejanja v prihodnosti. Ne o razmerju, ampak o načrtu.",
+        "beabsichtigen galvenokārt nozīmē: apzināts nodoms.",
+        "Pogosto ga označuje: načrt / namera.",
+        "beabsichtigen galvenokārt nozīmē: plānot darbību.",
+        "Pogosto je značilno: uradni register.",
+        "beabsichtigen nozīmē apzināti nodomāt vai plānot darbību — nevis attiecību, bet nolūku."
       ],
       "examples": [
         {
           "de": "Er beabsichtigt, das Projekt zu beenden.",
-          "lv": "Имаше намера да заврши проект."
+          "lv": "Nameraval je dokončati projekt."
         },
         {
           "de": "Was beabsichtigen Sie mit dieser Maßnahme?",
-          "lv": "Что вы подразумеваете под этим событием?"
+          "lv": "ko jūs nodomājat ar šo pasākumu?"
         },
         {
           "de": "Wir beabsichtigen keine Änderung.",
-          "lv": "Мы не планируем перемен."
+          "lv": "mēs neplānojam izmaiņu."
         },
         {
           "de": "Er beabsichtigt, das Projekt zu beenden.",
-          "lv": "Имаше намера да заврши проект."
+          "lv": "viņš nodomājis pabeigt projektu."
         },
         {
           "de": "beabsichtigen + zu + nenoteiksme",
-          "lv": "Намерен что-то сделать."
+          "lv": "nodomāt kaut ko darīt."
         }
       ],
       "tip": [
-        "Когда речь идет об отношениях, источниках или регулярном поступлении — безиехен. Если о продуманном плане — beabsichtigen.",
-        "Beabsichtigen = думать"
+        "Ko gre za razmerja, vire ali redno prejemanje — beziehen. Če gre za premišljen načrt — beabsichtigen.",
+        "beabsichtigen = nodomāt"
       ],
       "important": [
-        "Beabsichtigen + zu + неправильность: Er beabsichtigt zu gehen.",
-        "Beabsichtigen нельзя заменить на beziehen — это намерение, а не отношение.",
-        "Beabsichtigen → намерение, план.",
-        "Zavestni namen izvedbe dejanja v prihodnosti. Ne o odnosih, temveč o načrtih."
+        "beabsichtigen + zu + nenoteiksme: Er beabsichtigt zu gehen.",
+        "beabsichtigen nevar aizstāt ar beziehen — tas ir nolūks, ne attiecība.",
+        "beabsichtigen → nodoms, plāns.",
+        "Zavestna namera za izvedbo dejanja v prihodnosti. Ne o razmerju, ampak o načrtu."
       ],
       "sectionAccents": {
         "explanation": {
           "green": [
             "beabsichtigen"
+          ],
+          "purple": [
+            "nodomāt",
+            "plānot"
           ]
         },
         "examples": [
@@ -4162,19 +4274,29 @@ const C1_WORDS = [
                 "beabsichtigt"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Nameraval"
+              ]
+            }
           },
           {
             "de": {
               "green": [
+                "beabsichtigen",
                 "beabsichtigen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "nodomājat"
+              ]
+            }
           },
           {
             "de": {
               "green": [
+                "beabsichtigen",
                 "beabsichtigen"
               ]
             },
@@ -4186,20 +4308,37 @@ const C1_WORDS = [
                 "beabsichtigt"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "nodomājis"
+              ]
+            }
           },
           {
             "de": {
               "green": [
+                "beabsichtigen",
                 "beabsichtigen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "nodomāt"
+              ]
+            }
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "purple": [
+              "nodomāt"
+            ]
+          },
+          {
+            "purple": [
+              "gre"
+            ]
+          }
         ],
         "important": [
           {
@@ -4213,53 +4352,60 @@ const C1_WORDS = [
   },
   {
     "de": "unterstellen",
-    "lv": "Обвинять • Вменять безосновательно",
+    "lv": "pārmest • piedēvēt bez pamata",
     "level": "C1",
     "study": {
       "id": "c1-unterstellen",
       "layout": "standardStudy",
-      "translation": "Обвинять • Вменять безосновательно",
+      "translation": "pārmest • piedēvēt bez pamata",
       "explanation": [
-        "Основная идея: Необоснованно возлагать вину, мотив или намерение на другого человека.",
-        "Unterstellen главным образом означает: приписывать без основания.",
-        "Часто характеризуется: обвинением/влечением.",
-        "Jemandem etwas unterstellen означает несправедливо обвинять или обвинять."
+        "Glavna ideja: Nerazumno pripisovanje krivde, motiva ali namena drugemu.",
+        "unterstellen galvenokārt nozīmē: piedēvēt bez pamata.",
+        "Pogosto je značilno: obtoževanje / privlačnost.",
+        "jemandem etwas unterstellen nozīmē nepamatoti piedēvēt vai pārmest."
       ],
       "examples": [
         {
           "de": "Man unterstellt mir schlechte Absichten.",
-          "lv": "Меня обвиняют в плохих намерениях."
+          "lv": "Obtožen sem slabih namenov."
         },
         {
           "de": "Unterstellen Sie mir nichts!",
-          "lv": "Не ме обвинявай за нищо!"
+          "lv": "nepārmetiet man neko!"
         },
         {
           "de": "Man darf niemandem Verrat unterstellen.",
-          "lv": "Никој не треба да биде неправедно обвинет за предавство."
+          "lv": "nevienam nedrīkst nepamatoti pārmest nodevību."
         },
         {
           "de": "Ihm wird Untreue unterstellt.",
-          "lv": "Его обвиняют в недоверии."
+          "lv": "viņam tiek pārmesta neuzticība."
         },
         {
           "de": "unterstellen",
-          "lv": "Неоправданная вина • Прогноз"
+          "lv": "nepamatota vaina; voraussetzen"
         }
       ],
       "tip": [
-        "Unterstellen = упрекать",
-        "Использует unterstellen, когда контекст соответствует этому значению."
+        "unterstellen = pārmest",
+        "Uporablja unterstellen, kadar kontekst ustreza temu pomenu."
       ],
       "important": [
-        "Unterstellen эмоционально негативен — необоснованное обвинение.",
-        "Неверно: Wir unterstellen Grundkenntnisse. → Правильно: Wir setzen Grundkenntnisse voraus.",
-        "Unterstellen → винить, приписывать."
+        "unterstellen ir emocionāli negatīvs — nepamatota apsūdzība.",
+        "Nepravilno: Wir unterstellen Grundkenntnisse. → Pravilno: Wir setzen Grundkenntnisse voraus.",
+        "unterstellen → pārmest, piedēvēt."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "unterstellen"
+          ],
+          "purple": [
+            "pārmest",
+            "piedēvēt bez pamata"
+          ],
+          "red": [
+            "pārmest"
           ]
         },
         "examples": [
@@ -4269,11 +4415,16 @@ const C1_WORDS = [
                 "unterstellt"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Obtožen"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
+                "unterstellen",
                 "unterstellen"
               ]
             },
@@ -4282,10 +4433,15 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
+                "unterstellen",
                 "unterstellen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "pārmest"
+              ]
+            }
           },
           {
             "de": {
@@ -4293,11 +4449,16 @@ const C1_WORDS = [
                 "unterstellt"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "pārmest"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
+                "unterstellen",
                 "unterstellen"
               ]
             },
@@ -4305,7 +4466,11 @@ const C1_WORDS = [
           }
         ],
         "tip": [
-          {},
+          {
+            "purple": [
+              "pārmest"
+            ]
+          },
           {}
         ],
         "important": [
@@ -4320,41 +4485,45 @@ const C1_WORDS = [
   },
   {
     "de": "voraussetzen",
-    "lv": "Принять в качестве предварительного условия",
+    "lv": "pieņemt kā priekšnoteikumu",
     "level": "C1",
     "study": {
       "id": "c1-voraussetzen",
       "layout": "standardStudy",
-      "translation": "Принять в качестве предварительного условия",
+      "translation": "pieņemt kā priekšnoteikumu",
       "explanation": [
-        "Основная идея: предположить, что что-то уже известно или существует в качестве основы.",
-        "Voraussetzen главным образом означает: рассматривать как основу.",
-        "Часто характеризуется: логической предпосылкой.",
-        "Etwas voraussetzen означает принимать как должное уже существующую предпосылку."
+        "Glavna ideja: domnevati, da je nekaj že znano ali obstaja kot osnova.",
+        "voraussetzen galvenokārt nozīmē: uzskatīt par pamatu.",
+        "Zanj je pogosto značilno: logična premisa.",
+        "etwas voraussetzen nozīmē uzskatīt par pašsaprotamu priekšnoteikumu, kas jau pastāv."
       ],
       "examples": [
         {
           "de": "Wir setzen Grundkenntnisse voraus.",
-          "lv": "Мы принимаем базовые знания как необходимое условие."
+          "lv": "Mēs pieņemam pamatzināšanas kā priekšnoteikumu."
         },
         {
           "de": "Wir setzen Grundkenntnisse voraus.",
-          "lv": "Мы принимаем базовые знания как необходимое условие."
+          "lv": "mēs pieņemam pamatzināšanas kā priekšnoteikumu."
         }
       ],
       "tip": [
-        "Voraussetzen = принять необходимое условие",
-        "Используйте voraussetzen, когда контекст соответствует этому значению."
+        "voraussetzen = pieņemt priekšnoteikumu",
+        "Uporabite voraussetzen, kadar kontekst ustreza temu pomenu."
       ],
       "important": [
-        "Voraussetzen — средний род, предлог.",
-        "Voraussetzen → взять за основу.",
-        "Да претпоставиме дека нешто е веќе познато или постои како основа."
+        "voraussetzen ir neitrāls — priekšnosacījums.",
+        "voraussetzen → pieņemt kā pamatu.",
+        "Domnevati, da je nekaj že znano ali obstaja kot osnova."
       ],
       "sectionAccents": {
         "explanation": {
           "green": [
-            "voraussetzen"
+            "voraussetzen",
+            "voraus"
+          ],
+          "purple": [
+            "priekšnoteikumu"
           ]
         },
         "examples": [
@@ -4382,87 +4551,115 @@ const C1_WORDS = [
   },
   {
     "de": "bewahren",
-    "lv": "Защищать • Сохранять",
+    "lv": "pasargāt • saglabāt",
     "level": "C1",
     "study": {
       "id": "c1-bewahren",
       "layout": "standardStudy",
-      "translation": "Защищать • Сохранять",
+      "translation": "pasargāt • saglabāt",
       "explanation": [
-        "Основная идея: Защитить от утраты, порчи или разрушения – ценность, традиция, мир.",
-        "Bewahren прежде всего означает: защитить от потери.",
-        "Часто характеризуется: сохранением ценностей.",
-        "Bewahren pomeni preprečiti poškodbe, jutra ali spremembe."
+        "Glavna ideja: Zaščititi pred izgubo, poškodbo ali uničenjem - vrednost, tradicija, mir.",
+        "bewahren galvenokārt nozīmē: aizsargāt no zuduma.",
+        "Pogosto je značilno: ohranjanje vrednot.",
+        "bewahren nozīmē pasargāt no bojājuma, zuduma vai izmaiņām."
       ],
       "examples": [
         {
           "de": "Wir bewahren die Traditionen.",
-          "lv": "Мы храним традиции."
+          "lv": "Ohranjamo tradicijo."
         },
         {
           "de": "Sie bewahren die Ruhe in der Krise.",
-          "lv": "Они сохраняют спокойствие в кризисе."
+          "lv": "viņi saglabā mieru krīzē."
         },
         {
           "de": "Wir bewahren die Traditionen.",
-          "lv": "Мы храним традиции."
+          "lv": "mēs saglabājam tradīcijas."
         },
         {
           "de": "bewahren",
-          "lv": "Защищать/сохранять • Ауфрехтерхальтен"
+          "lv": "pasargāt/saglabāt; aufrechterhalten"
         }
       ],
       "tip": [
-        "Bewahren = да се заштити",
-        "Користете bewahren кога контекстот се совпаѓа со ова значење."
+        "bewahren = pasargāt",
+        "Uporabite bewahren, kadar kontekst ustreza temu pomenu."
       ],
       "important": [
-        "Bewahren: Wertvolles bewahren - защити ценное.",
-        "Неверно: Wir bewahren den Frieden auf. → Правильно: Wir erhalten den Frieden auf.",
-        "Bewahren → защищать, сохранять."
+        "bewahren: Wertvolles bewahren — pasargāt vērtīgo.",
+        "Nepravilno: Wir bewahren den Frieden auf. → Pravilno: Wir erhalten den Frieden auf.",
+        "bewahren → aizsargāt, saglabāt."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "bewahren"
+          ],
+          "purple": [
+            "pasargāt"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
+                "bewahren",
                 "bewahren"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Ohranjamo"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
+                "bewahren",
                 "bewahren"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "saglabā"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
+                "bewahren",
                 "bewahren"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "saglabājam"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
+                "bewahren",
                 "bewahren"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "pasargāt",
+                "saglabāt"
+              ]
+            }
           }
         ],
         "tip": [
-          {},
+          {
+            "purple": [
+              "pasargāt"
+            ]
+          },
           {}
         ],
         "important": [
@@ -4477,46 +4674,47 @@ const C1_WORDS = [
   },
   {
     "de": "aufrechterhalten",
-    "lv": "Сохранять в силе",
+    "lv": "uzturēt spēkā",
     "level": "C1",
     "study": {
       "id": "c1-aufrechterhalten",
       "layout": "standardStudy",
-      "translation": "Сохранять в силе",
+      "translation": "uzturēt spēkā",
       "explanation": [
-        "Основная идея: обеспечить продолжение существования государства, порядка или отношений.",
-        "Aufrechterhalten прежде всего означает: обеспечить продолжение.",
-        "Часто характеризуется: поддержанием состояния.",
-        "Aufrechterhalten означает поддерживать государство, систему или отношения в силе — обеспечивать преемственность."
+        "Glavna ideja: zagotoviti, da bo stanje, red ali odnos še naprej obstajal.",
+        "aufrechterhalten galvenokārt nozīmē: nodrošināt turpināšanos.",
+        "Pogosto je značilno: vzdrževanje stanja.",
+        "aufrechterhalten nozīmē uzturēt kādu stāvokli, sistēmu vai attiecību spēkā — nodrošināt turpināšanos."
       ],
       "examples": [
         {
           "de": "Der Staat erhält die Ordnung auf.",
-          "lv": "Государство поддерживает порядок."
+          "lv": "Država skrbi za red."
         },
         {
           "de": "Man muss den Betrieb aufrechterhalten.",
-          "lv": "Должен сохранить иск в силе."
+          "lv": "jāuztur darbība spēkā."
         },
         {
           "de": "Der Staat erhält die Ordnung auf.",
-          "lv": "Государство поддерживает порядок."
+          "lv": "valsts uztur kārtību spēkā."
         }
       ],
       "tip": [
-        "Aufrechterhalten = сохранять силу",
-        "Используйте aufrechterhalten, когда контекст соответствует этому значению."
+        "aufrechterhalten = uzturēt spēkā",
+        "Uporabite aufrechterhalten, kadar kontekst ustreza temu pomenu."
       ],
       "important": [
-        "Aufrechterhalten: Ordnung/Frieden/Stabilität aufrechterhalten.",
-        "Aufrechterhalten → оставить в силе.",
-        "Чтобы гарантировать, что государство, порядок или отношения будут продолжать существовать."
+        "aufrechterhalten: Ordnung/Frieden/Stabilität aufrechterhalten.",
+        "aufrechterhalten → uzturēt spēkā.",
+        "Zagotoviti, da bo stanje, red ali odnos še naprej obstajal."
       ],
       "sectionAccents": {
         "explanation": {
           "green": [
             "aufrechterhalten",
-            "erhalt"
+            "erhält",
+            "auf"
           ]
         },
         "examples": [
@@ -4527,6 +4725,7 @@ const C1_WORDS = [
           {
             "de": {
               "green": [
+                "aufrechterhalten",
                 "aufrechterhalten"
               ]
             },
@@ -4538,7 +4737,11 @@ const C1_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "purple": [
+              "uzturēt spēkā"
+            ]
+          }
         ],
         "important": [
           {
@@ -4554,49 +4757,49 @@ const C1_WORDS = [
     "de": "Hektar",
     "de_article": "der",
     "de_plural": "die Hektar",
-    "lv": "Га",
+    "lv": "hektārs",
     "level": "C1"
   },
   {
     "de": "Karre",
     "de_article": "die",
     "de_plural": "die Karren",
-    "lv": "Ръчна количка",
+    "lv": "ķerra",
     "level": "C1"
   },
   {
     "de": "Karren",
     "de_article": "der",
     "de_plural": "die Karren",
-    "lv": "Ръчна количка",
+    "lv": "ķerra",
     "level": "C1"
   },
   {
     "de": "Krüppel",
     "de_article": "der",
     "de_plural": "die Krüppel",
-    "lv": "Pohabljenci",
+    "lv": "kroplis",
     "level": "C1"
   },
   {
     "de": "Matsch",
     "de_article": "der",
     "de_plural": "die Matsche",
-    "lv": "Грязь • Слякоть",
+    "lv": "dubļi • šļaka",
     "level": "C1"
   },
   {
     "de": "Panter",
     "de_article": "der",
     "de_plural": "die Panter",
-    "lv": "Пантера",
+    "lv": "pantera",
     "level": "C1"
   },
   {
     "de": "Panther",
     "de_article": "der",
     "de_plural": "die Panther",
-    "lv": "Пантера",
+    "lv": "pantera",
     "level": "C1"
   }
 ];

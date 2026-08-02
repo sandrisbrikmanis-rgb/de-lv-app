@@ -6,7 +6,7 @@
 |-------|---------|
 | **Valodas pāris** | SL–DE (Slovenski → Deutsch) |
 | **Statuss** | Tehniski pilnībā izveidots un integrēts |
-| **Pull Request** | #228 |
+| **Pull Request** | #233 |
 | **Darba rezultāts** | Pilns slovēņu valodas datu komplekts A1–C2, Study kartītes, teikumi, darbības vārdi, Kurss un UI lokalizācija |
 
 ---
@@ -29,8 +29,11 @@ data/sl/*
 languages/sl/*
 www/data/sl/*
 www/languages/sl/*
+scripts/generate-sl-from-lv.js
 scripts/generate-sl-from-mk.js
 scripts/generate-sl-ui.js
+scripts/generate-sl-ui-from-hr.js
+scripts/retry-sl-failed-translations.js
 scripts/fix-sl-de-fields.js
 scripts/fix-sl-highlight-mismatches.js
 scripts/verify-sl-de-compliance.js
@@ -51,7 +54,7 @@ scripts/verify-sl-de-compliance.js
 
 ### Modificēti faili
 
-- `languages/registry.js` — pievienots SL ieraksts
+- `languages/registry.js` — SL ieraksts (jau integrēts)
 - `www/languages/registry.js` — sinhronizēts
 - `scripts/validate-engine-i18n.js` — SL pievienots valodu sarakstam
 - `languages/data-loader.js` — SL `courseTrainingCards.js` dinamiskā ielāde
@@ -67,7 +70,7 @@ scripts/verify-sl-de-compliance.js
 | `audit-language-parity --lang=sl` | ✅ PASS — 8 618 ieraksti, 755 Study kartītes, 0 neatbilstību |
 | `validate-study-design --lang=sl` | ✅ PASS — 0 sectionAccentIssues, www sinhronizācija OK |
 | `validate-kurss --lang=sl` | ✅ PASS — 302 translate kartītes, 100 exercise kartītes |
-| `validate-engine-i18n` | ✅ PASS — 12 valodas, 306 atslēgas katrai |
+| `validate-engine-i18n` | ✅ PASS — 15 valodas, 306 atslēgas katrai |
 | `audit-mojibake --lang=sl` | ✅ PASS — 0 kodējuma kļūdu |
 | `smoke-test-ui --lang=sl` | ⚠️ Daļējs — routing PASS; HTTP pārbaude nepatiess pozitīvs (skat. piezīmi) |
 | `verify-sl-de-compliance` | ✅ PASS — 0 DE neatbilstību, 0 citu valodu izmaiņu |
@@ -80,7 +83,7 @@ scripts/verify-sl-de-compliance.js
 
 ✅ **Tulkojumos izmantota tikai jaunā valoda (slovēņu).**
 
-✅ **Visi vācu dati saglabāti nemainīti.**
+✅ **Visi vācu dati saglabāti nemainīgi.**
 
 Pārbaudītie lauki:
 
@@ -122,15 +125,17 @@ Pārbaudītie lauki:
 | TR | ✅ Nemainīts |
 | SQ | ✅ Nemainīts |
 | MK | ✅ Nemainīts |
+| HR | ✅ Nemainīts |
+| SR | ✅ Nemainīts |
+| BS | ✅ Nemainīts |
 
 ### Atsauces izmantošana
 
 | Valoda | Nolūks |
 |--------|--------|
-| **LV** | DE datu avots un struktūras etalons; parity validācijas bāze; DE lauku atjaunošana |
-| **MK** | Tulkošanas starpposms (MK→SL); sectionAccents struktūra; datu ģenerēšanas avots |
-| **MK** | UI lokalizācijas veidne (`generate-sl-ui.js`) |
-| **MK** | sectionAccents labošanas skripta (`fix-mk-highlight-mismatches.js`) loģikas pamats |
+| **LV** | DE datu avots un struktūras etalons; tulkošanas avots (LV→SL); parity validācijas bāze; DE lauku atjaunošana |
+| **LT** | `courseTrainingCards.js` struktūra un treniņa kartīšu avots |
+| **HR** | UI lokalizācijas veidne (`generate-sl-ui-from-hr.js`) |
 
 ---
 
@@ -139,17 +144,17 @@ Pārbaudītie lauki:
 | Parametrs | Vērtība |
 |-----------|---------|
 | **DE dati** | Kopēti no LV bāzes (READ-ONLY) |
-| **Tulkojuma ķēde** | LV → BG → MK (esošs) → SL (jauns) |
-| **UI tulkojums** | MK → SL |
-| **API** | Google Translate + MyMemory (ar kešatmiņu) |
+| **Tulkojuma ķēde** | LV → SL (galvenais); LT → SL (treniņa kartītes); HR → SL (UI) |
+| **API** | Google Translate (google-translate-api-x) ar kešatmiņu |
 
 ### Izmantotie skripti
 
-1. `scripts/generate-sl-from-mk.js` — galvenā datu ģenerēšana
-2. `scripts/generate-sl-ui.js` — UI lokalizācija
-3. `scripts/fix-sl-de-fields.js` — DE lauku atjaunošana no LV avota
-4. `scripts/fix-sl-highlight-mismatches.js` — sectionAccents labošana (9 termini)
-5. `scripts/verify-sl-de-compliance.js` — DE integritātes pārbaude
+1. `scripts/generate-sl-from-lv.js` — galvenā datu ģenerēšana (LV→SL)
+2. `scripts/retry-sl-failed-translations.js` — neveiksmīgu tulkojumu atkārtošana
+3. `scripts/generate-sl-ui-from-hr.js` — UI lokalizācija (HR→SL)
+4. `scripts/fix-sl-de-fields.js` — DE lauku atjaunošana no LV avota
+5. `scripts/fix-sl-highlight-mismatches.js` — sectionAccents labošana
+6. `scripts/verify-sl-de-compliance.js` — DE integritātes pārbaude
 
 ---
 
@@ -168,7 +173,8 @@ Tulkojumi ģenerēti ar mašīntulkošanas API. Pirms publiskas izmantošanas ie
 
 - Daļa tulkojumu ir mašīntulkojuma kvalitātē — nepieciešama manuāla pārbaude C1/C2 līmeņos.
 - `sectionAccents` laukos `lv` atslēga saglabāta projekta konvencijas dēļ (nesatur latviešu tekstu, bet slovēņu tulkojumus).
-- Kurss HTML saturā var būt atsevišķi nepārtulkoti fragmenti, kas prasa manuālu rediģēšanu.
+- Kurss HTML saturā (`courseLessons.js`) var būt atsevišķi nepārtulkoti fragmenti, kas prasa manuālu rediģēšanu.
+- 79 teikumi `sentences.js` satur identisku tekstu ar LV avotu (daži vārdi ir vienādi abās valodās vai API neveiksmīgi tulkojumi).
 - `smoke-test-ui` HTTP pārbaude rāda nepatiess pozitīvu SL kodam (skat. 4. sadaļu).
 
 ---
@@ -179,7 +185,7 @@ Tulkojumi ģenerēti ar mašīntulkošanas API. Pirms publiskas izmantošanas ie
 
 Visi projekta kvalitātes standarti ir ievēroti.
 
-✅ Tulkojumos izmantota tikai jaunā valoda; vācu (de) dati saglabāti nemainīti (READ-ONLY).
+✅ Tulkojumos izmantota tikai jaunā valoda; vācu (de) dati saglabāti nemainīgi (READ-ONLY).
 
 ✅ Esošie citu valodu faili izmantoti tikai kā atsauces materiāls; tajos netika veiktas nekādas izmaiņas.
 

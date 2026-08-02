@@ -1,15 +1,15 @@
 #!/usr/bin/env node
 /**
- * Generate Slovenian UI strings from Latvian UI template.
- * Translates only UI text; preserves structure and placeholders.
+ * Generate Slovenian UI from Croatian HR template (South Slavic baseline).
+ * HR UI is already in a closely related language; copy structure and adjust SL labels.
  */
 const fs = require("fs");
 const path = require("path");
 const vm = require("vm");
 const { ROOT } = require("./lib/audit-common");
-const { translateAll, loadCache, cacheKey } = require("./lib/translate-helper");
+const { translateAll } = require("./lib/translate-helper");
 
-const CACHE_PATH = path.join(ROOT, "scripts", ".sl-ui-translation-cache.json");
+const CACHE_PATH = path.join(ROOT, "scripts", ".sl-ui-hr-cache.json");
 
 function collectStrings(obj, out) {
   if (obj === null || obj === undefined) return;
@@ -17,11 +17,8 @@ function collectStrings(obj, out) {
     if (obj.trim() && !obj.startsWith("__")) out.add(obj);
     return;
   }
-  if (Array.isArray(obj)) {
-    obj.forEach((v) => collectStrings(v, out));
-    return;
-  }
-  if (typeof obj === "object") {
+  if (Array.isArray(obj)) obj.forEach((v) => collectStrings(v, out));
+  else if (typeof obj === "object") {
     for (const [k, v] of Object.entries(obj)) {
       if (k === "__langCode") continue;
       collectStrings(v, out);
@@ -45,34 +42,37 @@ function applyTranslations(obj, map) {
 }
 
 async function main() {
-  const lvPath = path.join(ROOT, "languages/lv/ui.js");
+  const hrPath = path.join(ROOT, "languages/hr/ui.js");
   const slDir = path.join(ROOT, "languages/sl");
   const slPath = path.join(slDir, "ui.js");
 
-  const code = fs.readFileSync(lvPath, "utf8");
+  const code = fs.readFileSync(hrPath, "utf8");
   const ctx = { window: {} };
   vm.createContext(ctx);
   vm.runInContext(code, ctx);
-  const lvUi = ctx.window.LANGUAGE_UI_STRINGS;
+  const hrUi = ctx.window.LANGUAGE_UI_STRINGS;
 
   const strings = new Set();
-  collectStrings(lvUi, strings);
+  collectStrings(hrUi, strings);
   const unique = [...strings].filter((s) => s && s.trim());
-  console.log(`Translating ${unique.length} UI strings LV → SL`);
+  console.log(`Translating ${unique.length} UI strings HR → SL`);
 
-  const translationMap = await translateAll(unique, "lv", "sl", {
+  const translationMap = await translateAll(unique, "hr", "sl", {
     cachePath: CACHE_PATH,
-    delayMs: 50,
-    concurrency: 10,
+    delayMs: 200,
+    concurrency: 8,
     onProgress: (n, remaining) => {
-      if (n % 50 === 0) process.stdout.write(`  UI translated ${n} (~${remaining} remaining)\n`);
+      if (n % 30 === 0) process.stdout.write(`  UI ${n} (~${remaining} remaining)\n`);
     },
   });
+
   const map = {};
   unique.forEach((s) => { map[s] = translationMap[s] || s; });
 
-  const slUi = applyTranslations(lvUi, map);
+  const slUi = applyTranslations(hrUi, map);
   slUi.__langCode = "sl";
+
+  // SL-specific overrides
   if (slUi.app) {
     slUi.app.title = "Nemščina • SL-DE";
     slUi.app.subtitle = "Vaš inteligentni vodnik za nemščino po ravneh";
@@ -86,8 +86,27 @@ async function main() {
     slUi.languageSelect.title = "Izberite jezik";
     slUi.languageSelect.footer = "Uči nemščino";
   }
-  if (slUi.study?.table) {
-    slUi.study.table.native = "SL";
+  if (slUi.study?.table) slUi.study.table.native = "SL";
+  if (slUi.menu) {
+    slUi.menu.course = "Tečaj";
+    slUi.menu.sentences = "Stavki";
+    slUi.menu.verbs = "Glagoli";
+    slUi.menu.chooseGroup = "Izberite skupino";
+    slUi.menu.mainNav = "Glavni meni";
+  }
+  if (slUi.nav) {
+    slUi.nav.backHome = "Nazaj na glavni meni";
+    slUi.nav.changeLanguage = "Spremeni jezik";
+    slUi.nav.howItWorks = "Kako deluje?";
+    slUi.nav.quickTools = "Hitra orodja";
+  }
+  if (slUi.buttons) {
+    slUi.buttons.close = "Zapri";
+    slUi.buttons.known = "Znam";
+    slUi.buttons.unknown = "Ne vem";
+    slUi.buttons.next = "Naslednja beseda";
+    slUi.buttons.check = "Preveri";
+    slUi.buttons.continue = "Nadaljuj";
   }
   if (slUi.spelling) {
     slUi.spelling.writeNative = "Piši slovensko";
@@ -95,8 +114,7 @@ async function main() {
   }
 
   fs.mkdirSync(slDir, { recursive: true });
-  const output = `window.LANGUAGE_UI_STRINGS = ${JSON.stringify(slUi, null, 2)};\n`;
-  fs.writeFileSync(slPath, output, "utf8");
+  fs.writeFileSync(slPath, `window.LANGUAGE_UI_STRINGS = ${JSON.stringify(slUi, null, 2)};\n`, "utf8");
   console.log(`Written ${slPath}`);
 }
 

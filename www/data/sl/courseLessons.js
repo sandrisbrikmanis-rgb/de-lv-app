@@ -1,69 +1,69 @@
 const COURSE_LESSON_HTML = {
-  "kurssArticlesLesson": "\n  <h3>Artikuli</h3>\n\n  <div class=\"artikuli-info artikuli-intro-info\">\n    <span class=\"artikuli-info-icon\">i</span>\n    <div>Немската статия не винаги съвпада с латвийското семейство. Затова е най-добре да научите съществителните заедно с члена.</div>\n  </div>\n\n  <section class=\"artikuli-block\">\n    <h4 class=\"artikuli-header\"><span>•</span>Примери за статии</h4>\n    <div class=\"artikuli-grid\">\n      <div class=\"kurss-example\">Der Tisch — galds</div>\n      <div class=\"kurss-example\">Die Tür-vrata</div>\n      <div class=\"kurss-example\">Das Messer — nazis</div>\n      <div class=\"kurss-example\">Das Mädchen - девојката</div>\n    </div>\n  </section>\n\n  <section class=\"artikuli-block\">\n    <h4 class=\"artikuli-header\"><span>♂</span>Често DER</h4>\n    <p class=\"artikuli-explain\">DER често представлява лица от мъжки пол, дни, месеци, сезони и някои думи с определени окончания.</p>\n\n    <h5 class=\"artikuli-subtitle\">Noteikumi</h5>\n    <div class=\"artikuli-grid\">\n      <div class=\"kurss-example\">-er → bieži DER, piemēram: der Computer, der Lehrer <span class=\"artikuli-note\">Но не винаги</span></div>\n      <div class=\"kurss-example\">-ling → често DER, например: der Schmetterling</div>\n      <div class=\"kurss-example\">-ismus → често DER, например: der Tourismus, der Kapitalismus</div>\n      <div class=\"kurss-example\">Мъже → der Mann, der Vater</div>\n      <div class=\"kurss-example\">Profesijas → der Lehrer, der Arzt</div>\n      <div class=\"kurss-example\">Марки автомобили → подходящи за BMW, подходящи за Mercedes</div>\n      <div class=\"kurss-example\">Dienas → der Montag, der Dienstag</div>\n      <div class=\"kurss-example\">Месеци → август, декември</div>\n      <div class=\"kurss-example\">Gadalaiki → der Sommer, der Winter</div>\n    </div>\n\n    <h5 class=\"artikuli-subtitle\">Примери</h5>\n    <div class=\"artikuli-grid\">\n      <div class=\"kurss-example\">Der Mann - човек</div>\n      <div class=\"kurss-example\">Дер Ватер - татко</div>\n      <div class=\"kurss-example\">Der Montag — pirmdiena</div>\n      <div class=\"kurss-example\">Der August — augusts</div>\n      <div class=\"kurss-example\">Der Sommer - васара</div>\n      <div class=\"kurss-example\">Der Lehrer - учител</div>\n      <div class=\"kurss-example\">Der Computer — dators</div>\n      <div class=\"kurss-example\">Der Schmetterling — taurenis</div>\n    </div>\n  </section>\n\n  <section class=\"artikuli-block\">\n    <h4 class=\"artikuli-header\"><span>♀</span>УМИРАЙТЕ ЧЕСТО</h4>\n    <p class=\"artikuli-explain\">DIE често е от женски род, в множествено число и думите завършват на -ung, -heit, -keit, -schaft, -ion, -tät, -ei.</p>\n\n    <h5 class=\"artikuli-subtitle\">Noteikumi</h5>\n    <div class=\"artikuli-grid\">\n      <div class=\"kurss-example\">-ung → die Wohnung, die Rechnung</div>\n      <div class=\"kurss-example\">-heit → die Freiheit, die Gesundheit</div>\n      <div class=\"kurss-example\">-keit → die Möglichkeit</div>\n      <div class=\"kurss-example\">-schaft → die Mannschaft</div>\n      <div class=\"kurss-example\">-ion → die Nation</div>\n      <div class=\"kurss-example\">-tät → die Universität</div>\n      <div class=\"kurss-example\">-ei → die Polizei, die Bäckerei</div>\n      <div class=\"kurss-example\">Жени → die Frau, die Mutter</div>\n      <div class=\"kurss-example\">Motociklu markas → die Harley-Davidson, die Yamaha</div>\n      <div class=\"kurss-example\">Daudzskaitlis → die Autos, die Häuser</div>\n      <div class=\"kurss-example\">Почти винаги множествено число → die Autos, die Häuser, die Kinder</div>\n    </div>\n\n    <h5 class=\"artikuli-subtitle\">Примери</h5>\n    <div class=\"artikuli-grid\">\n      <div class=\"kurss-example\">Die Frau — sieviete</div>\n      <div class=\"kurss-example\">Die Mutter - майка</div>\n      <div class=\"kurss-example\">Die Wohnung - Apartma</div>\n      <div class=\"kurss-example\">Die Rechnung - резултат</div>\n      <div class=\"kurss-example\">Die Freiheit - слобода</div>\n      <div class=\"kurss-example\">Die Möglichkeit - възможност</div>\n      <div class=\"kurss-example\">Die Mannschaft — komanda</div>\n      <div class=\"kurss-example\">Умри нация - нация</div>\n      <div class=\"kurss-example\">Die Universität - университет</div>\n      <div class=\"kurss-example\">Die Polizei — policija</div>\n    </div>\n  </section>\n\n  <section class=\"artikuli-block\">\n    <h4 class=\"artikuli-header\"><span>◇</span>Често DAS</h4>\n    <p class=\"artikuli-explain\">В DAS често има умалителни с -chen/-lein, много думи с -ment/-um и глаголи като съществителни.</p>\n\n    <h5 class=\"artikuli-subtitle\">Noteikumi</h5>\n    <div class=\"artikuli-grid\">\n      <div class=\"kurss-example\">-chen → das Mädchen, das Häuschen</div>\n      <div class=\"kurss-example\">-lein → das Fräulein</div>\n      <div class=\"kurss-example\">-ment → das Instrument</div>\n      <div class=\"kurss-example\">-um → das Zentrum, das Museum</div>\n      <div class=\"kurss-example\">Метали → das Gold, das Silber, das Eisen</div>\n      <div class=\"kurss-example\">Химични елементи → das Eisen, das Sauerstoff</div>\n      <div class=\"kurss-example\">Хотели → Das Hotel</div>\n      <div class=\"kurss-example\">Barve kot samostalniki → das Rot, das Blau</div>\n      <div class=\"kurss-example\">Глагол като съществително → das Essen, das Lernen</div>\n      <div class=\"kurss-example\">Глаголи като съществителни → das Essen, das Lernen, das Lesen</div>\n    </div>\n\n    <h5 class=\"artikuli-subtitle\">Примери</h5>\n    <div class=\"artikuli-grid\">\n      <div class=\"kurss-example\">Das Kind - дете</div>\n      <div class=\"kurss-example\">Das Mädchen - девојката</div>\n      <div class=\"kurss-example\">Das Hoixen - вила</div>\n      <div class=\"kurss-example\">Дас Инструмент — инструменти</div>\n      <div class=\"kurss-example\">Das Zentrum — centrs</div>\n      <div class=\"kurss-example\">Das Museum — muzejs</div>\n      <div class=\"kurss-example\">Das Essen - храна / храна</div>\n      <div class=\"kurss-example\">Das Lernen - обучение</div>\n    </div>\n  </section>\n\n  <section class=\"artikuli-block\">\n    <h4 class=\"artikuli-header\"><span>!</span>Важни изключения / трябва да се научат от статията</h4>\n    <p class=\"artikuli-explain\">Според някои думи членът не може да бъде надеждно определен нито от края, нито от латвийското семейство. Те се изучават най-добре заедно със статията.</p>\n    <div class=\"artikuli-grid\">\n      <div class=\"kurss-example\">Die Tür-vrata</div>\n      <div class=\"kurss-example\">Das Messer — nazis</div>\n      <div class=\"kurss-example\">Die Sonne-saule</div>\n      <div class=\"kurss-example\">Der Mond - луна</div>\n      <div class=\"kurss-example\">Das Mädchen - девојката</div>\n      <div class=\"kurss-example\">Das auto - кола</div>\n      <div class=\"kurss-example\">Der Käse — siers</div>\n      <div class=\"kurss-example\">Ди Габел - вилица</div>\n    </div>\n  </section>\n\n  <div class=\"artikuli-info artikuli-bottom-info\">\n    <span class=\"artikuli-info-icon\">i</span>\n    <div>Окончанията и групите думи помагат да се познае статията, но не са 100% правило. Ако не сте сигурни, научете думата с члена.</div>\n  </div>\n",
-  "kurssPronounsLesson": "\n            <h3>Заменки</h3>\n            <p class=\"kurss-lesson-intro\">Именителен падеж, винителен падеж и дателен падеж са форми на местоименията.</p>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Nominativ — kas?</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Ich — es</div><div class=\"kurss-example\">Du — tu</div><div class=\"kurss-example\">Ами - той</div><div class=\"kurss-example\">C-she</div><div class=\"kurss-example\">Es — tas</div><div class=\"kurss-example\">Vir - ние</div><div class=\"kurss-example\">Ihr - ти</div><div class=\"kurss-example\">Sie - те/тя</div><div class=\"kurss-example\">Sie – Вие (учтивост)</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Akkusativ — ko?</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Мич — мани</div><div class=\"kurss-example\">Dich — tevi</div><div class=\"kurss-example\">Ihn – техен (глагол)</div><div class=\"kurss-example\">Sie – неговия (с.)</div><div class=\"kurss-example\">Es — to</div><div class=\"kurss-example\">Ние сме ние</div><div class=\"kurss-example\">О - ти</div><div class=\"kurss-example\">Sie – нивната/неа</div><div class=\"kurss-example\">Sie – Вие (учтивост)</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Dativ — kam?</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Mir — man</div><div class=\"kurss-example\">Dir-tev</div><div class=\"kurss-example\">Аз съм за него / за това</div><div class=\"kurss-example\">Ihr - за нея</div><div class=\"kurss-example\">Uns - мајки</div><div class=\"kurss-example\">Euch — jums</div><div class=\"kurss-example\">Ihnen – за тях/тях</div><div class=\"kurss-example\">Inen - На теб (любезно)</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Как да изберем формуляр?</h4>\n              <ul class=\"kurss-summary-list\"><li><span class=\"case-blue\">Nominativ</span> — teikuma priekšmets (kas dara?)</li><li><span class=\"case-red\">Akkusativ</span> — tiešais objekts (ko?)</li><li><span class=\"case-green\">Dativ</span> — netiešais objekts (kam?)</li></ul>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Примери</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Ich sehe <span class=\"case-red\">Дич</span>. — Es tevi redzu.</div><div class=\"kurss-example\">Ich sehe <span class=\"case-red\">Ihn</span>. - Виждам го.</div><div class=\"kurss-example\">Wir mögen <span class=\"case-red\">Еуч</span>. - Харесваме те.</div><div class=\"kurss-example\">Ich helfe <span class=\"case-green\">Dir</span>. - Помагам ти.</div><div class=\"kurss-example\">Ich gebe <span class=\"case-green\">Ihm</span> ein Buch. — Es dodu viņam grāmatu.</div><div class=\"kurss-example\">Wir danken <span class=\"case-green\">Еуч</span>. - Ние ви благодарим.</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Atceries!</h4>\n              <p>Nominativ vienmēr ir teikuma priekšmets, bet Akkusativ un Dativ — objekti. Skaties uz darbības vārdu un jautā: <span class=\"case-red\">Kdo?</span> vai <span class=\"case-green\">Kam?</span></p>\n            </section>\n",
-  "kurssPronunciationLesson": "\n            <h3>Гласни - дълги и къси</h3>\n            <p class=\"kurss-lesson-intro\">На немски гласните могат да бъдат дълги или кратки. Това се отразява на произношението на думата.</p>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Дълга гласна</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Warm (varm) — silts</div><div class=\"kurss-example\">Черво (да получи) - добре</div><div class=\"kurss-example\">Тат (тат) – работа/действие</div><div class=\"kurss-example\">Flur (flūr) – коридор</div><div class=\"kurss-example\">Weg (veg) – път</div><div class=\"kurss-example\">Khata (hūt) – шапка</div><div class=\"kurss-example\">Hof (hōf) — pagalms</div><div class=\"kurss-example\">Шлаф - сън</div></div>\n              <p>Ако гласна е последвана от една съгласна, гласната често се произнася дълго.</p>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Кратка самогласка</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Pilc - печурка</div><div class=\"kurss-example\">Мъст – дума</div><div class=\"kurss-example\">Mund (munt) — mute</div><div class=\"kurss-example\">Плешив (бял) – очаквайте скоро</div><div class=\"kurss-example\">Шал (шал) - остър</div><div class=\"kurss-example\">Feld (felt) — lauks</div><div class=\"kurss-example\">Voll (fol) — pilns</div></div>\n              <p>Когато една гласна е последвана от две или повече съгласни, гласната често се произнася кратко.</p>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Galotnes en / el / er</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Singen (zingen) - пея</div><div class=\"kurss-example\">Tragen (trägen) - да се носат</div><div class=\"kurss-example\">Градина (градина) - градина</div><div class=\"kurss-example\">Vogel (fogel) — putns</div><div class=\"kurss-example\">Сегел - платно</div><div class=\"kurss-example\">Братен (брат) – печено</div><div class=\"kurss-example\">Bogen (bōgen) — loks</div><div class=\"kurss-example\">Spiegel – огледало</div><div class=\"kurss-example\">Finger (finger) — pirksts</div><div class=\"kurss-example\">Holter - Nosilec</div><div class=\"kurss-example\">Арбайтер (arbeiter) - работник</div><div class=\"kurss-example\">Heuser (heuser) - къщи</div><div class=\"kurss-example\">Vider - отново</div><div class=\"kurss-example\">Брайтер (брайтер) – по-широк</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Буква h като дължина</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Рахмен (rämen) – рамка</div><div class=\"kurss-example\">Ohr (ōr) — auss</div><div class=\"kurss-example\">Kohle (kōle) — ogles</div><div class=\"kurss-example\">Зал (пилешко) – број</div><div class=\"kurss-example\">Ihn (īn) – негов</div><div class=\"kurss-example\">Ihm (īm) - към него</div><div class=\"kurss-example\">Hun - piščanec</div><div class=\"kurss-example\">Нахм (нас) - зеде</div><div class=\"kurss-example\">Немен (nēmen) – вземам</div><div class=\"kurss-example\">Shuh - обувка</div></div>\n              <p>В някои думи h удължава предишната гласна. В такива случаи буквата h обикновено не се произнася.</p>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Galotnes ar e</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Lampe (lampe) — lampa</div><div class=\"kurss-example\">Хасе (мъгла) – заек</div><div class=\"kurss-example\">Knabe (клюн) – момче</div><div class=\"kurss-example\">Рабе - гарван</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Garais i = ie</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Die (dī) - член „да умреш“</div><div class=\"kurss-example\">Diese - това/тези</div><div class=\"kurss-example\">Vider - отново</div><div class=\"kurss-example\">Fliege (flizh) - летя</div><div class=\"kurss-example\">Ziege (tsige) – козел</div><div class=\"kurss-example\">Stiel - steblo</div><div class=\"kurss-example\">Диб (दीप) - крадец</div><div class=\"kurss-example\">Hier (хиър) – тук</div></div>\n              <p>Дългото i на немски често се изписва като ie.</p>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Двойни гласни</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Саал (трева) – сала</div><div class=\"kurss-example\">Саат (зет) – сеитба</div><div class=\"kurss-example\">Staat (щат) – държава</div><div class=\"kurss-example\">Bireh (погребение) – зрънце</div><div class=\"kurss-example\">See (zee) – езеро/море</div><div class=\"kurss-example\">Цвекло (залог) – легло</div><div class=\"kurss-example\">Boot (bōt) — laiva</div><div class=\"kurss-example\">Barje (mōr) — purvs</div><div class=\"kurss-example\">Moos (mōs) – мов</div></div>\n              <p>Двойните гласни обикновено се произнасят дълго.</p>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>ä</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Wand (vant) — siena</div><div class=\"kurss-example\">Wände (vende) — sienas</div><div class=\"kurss-example\">Vater (баща) - баща</div><div class=\"kurss-example\">Väter (fēter) – бащи</div><div class=\"kurss-example\">Шранк (свил) – офис</div><div class=\"kurss-example\">Шренке – шкафове</div><div class=\"kurss-example\">Bank (bank) — sols / banka</div><div class=\"kurss-example\">Bänke (benke) — soli</div><div class=\"kurss-example\">Тал (далечен) – долина</div><div class=\"kurss-example\">Thaler (tēler) - долини</div></div>\n              <p>Ä je prenos a.</p>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>ö</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Роза (rōze) - роза</div><div class=\"kurss-example\">Röshen (rēschen) – гнездо</div><div class=\"kurss-example\">Ofen (ōfen) – pečica</div><div class=\"kurss-example\">Ofen (öfen) – фурни</div><div class=\"kurss-example\">Рок (скала) – пола</div><div class=\"kurss-example\">Röke – пола</div></div>\n              <p>Ö е настройката на o.</p>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>ü</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Kurc ​​​​(kurc) - кратко</div><div class=\"kurss-example\">Kürzer (kurzer) - накратко</div><div class=\"kurss-example\">Kunst - изкуство</div><div class=\"kurss-example\">Künste - изкуство</div><div class=\"kurss-example\">Mutter (mutter) – майка</div><div class=\"kurss-example\">Mutter (mutter) – майки</div></div>\n              <p>Ü е транспозиция на думата u.</p>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Дифтонги: äu</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Baum (baum) — koks</div><div class=\"kurss-example\">Bäume (boime) — koki</div><div class=\"kurss-example\">Куќа (куќа) - куќа</div><div class=\"kurss-example\">Heuser (heuser) - къщи</div><div class=\"kurss-example\">Strauh (štrauh) – храст</div><div class=\"kurss-example\">Stroiher (štroiher) - храсти</div><div class=\"kurss-example\">Maus (maus) — pele</div><div class=\"kurss-example\">Mäuse (moize) — peles</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Дифтонзи: еу</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Хойте (хойте) - днес</div><div class=\"kurss-example\">Leute (loite) – хора</div><div class=\"kurss-example\">Neu (noi) — jauns</div><div class=\"kurss-example\">Nein (noin) – девет</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Дифтонги: хей</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Mein (main) — mans</div><div class=\"kurss-example\">Dein (dain) — tavs</div><div class=\"kurss-example\">Sein (zain) – she/she/to be</div><div class=\"kurss-example\">Frei (пържени) – безплатно</div><div class=\"kurss-example\">Arbeiten (arbeiten) - да работиш</div></div>\n            </section>\n            <section class=\"kurss-lesson-section\">\n              <h4>Лекция 2 Бележки за произношението</h4>\n              <ul class=\"kurss-summary-list\"><li>В думите ich, nicht, rechnen, zeichnen “ch” се произнася меко</li><li>В arbeiten и zeichnen \"ei\" се произнася \"ai\".</li><li>\"sp\" в началото на думата се произнася \"šp\"</li><li>В глагола tun буквата „u“ се произнася дълго</li></ul>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Kopsavilkums</h4>\n              <ul class=\"kurss-summary-list\"><li>Една съгласна след гласна → често дълга гласна</li><li>Dva ali več soglasnikov → pogosto kratek samoglasnik</li><li>H може да удължи гласна</li><li>Тези. често струва дълго време i</li><li>Двойните гласни обикновено са дълги</li></ul>\n            </section>",
-  "kurssConsonantsLesson": "\n            <h3>Съгласни и буквосъчетания</h3>\n            <p class=\"kurss-lesson-intro\">На немски някои съгласни и буквосъчетания се произнасят по различен начин, отколкото се пишат. Тази лекция съдържа най-важните примери за начинаещи.</p>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Съгласни</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Дас Рад (стаорец) - тркало</div><div class=\"kurss-example\">Die Räder (радер) - колела</div><div class=\"kurss-example\">Bad (बाट) – баня</div><div class=\"kurss-example\">Бадер (бадер) – бани</div></div>\n              <p>Съгласните в края на думите често се произнасят различно от начина, по който се пишат.</p>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>ch</h4>\n              <p>„Ch“ може да се произнася меко или твърдо. В някои думи звучи като \"ch\", в други звучи по-близо до \"k\".</p>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Ренен (ренен) - пресметувам</div><div class=\"kurss-example\">Zeichnen (caihnen) - да рисувам</div><div class=\"kurss-example\">Nicht (niht) — ne</div><div class=\"kurss-example\">Schlecht (schlekht) - лошо</div><div class=\"kurss-example\">Мич (мих) — мани</div><div class=\"kurss-example\">Dich (dih) — tevi</div><div class=\"kurss-example\">Strauh (štrauh) – храст</div><div class=\"kurss-example\">Noch (nokh) – все още</div><div class=\"kurss-example\">Nacht (naht) — nakts</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Sch</h4>\n              <p>\"sch\" на немски се произнася като латвийското \"š\".</p>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Шуле - училище</div><div class=\"kurss-example\">Шулер (schüler) – ученик</div><div class=\"kurss-example\">Шиф (шиф) – кораб</div><div class=\"kurss-example\">Schraube (винт) – винт</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Sp и st в началото на думата</h4>\n              <p>Na začetku besede ali zloga se »sp« pogosto izgovori kot »šp«, »st« pa se pogosto izgovori kot »št«.</p>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Spielen (spiel) – игра</div><div class=\"kurss-example\">Скочи - скочи</div><div class=\"kurss-example\">Stehen (steen) – стойка</div><div class=\"kurss-example\">Сергия (сергия) - хамбар</div><div class=\"kurss-example\">Стойка (stant) – позиция/място</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>qu</h4>\n              <p>„Qu“ на немски обикновено се произнася „kv“.</p>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Kual (qual) – мъчение</div><div class=\"kurss-example\">Quartier (quartier) - квартал/жилище</div><div class=\"kurss-example\">Quer (quer) - напречно</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>S un z</h4>\n              <p>„S“ в началото на думата често звучи като „z“. Буквата \"z\" на немски звучи като латвийското \"c\".</p>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Sagen (zagen) - govoriti</div><div class=\"kurss-example\">Singen (zingen) - пея</div><div class=\"kurss-example\">Роза (rōze) - роза</div><div class=\"kurss-example\">Зал (пилешко) – број</div><div class=\"kurss-example\">Zeit (cait) -laiks</div><div class=\"kurss-example\">Zink (cink) — cinks</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>v</h4>\n              <p>На немски буквата \"v\" често се произнася като \"f\". В чужди думи често звучи като латвийското „v“.</p>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Vater (баща) - баща</div><div class=\"kurss-example\">Von (fon) — no</div><div class=\"kurss-example\">Viel (phil) - много</div><div class=\"kurss-example\">Vier (ела) - четири</div><div class=\"kurss-example\">Villa (villa) — villa</div><div class=\"kurss-example\">Клавир (пиано) – пиано</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>X un y</h4>\n              <p>\"x\" се произнася като \"ks\". „y“ в някои думи се произнася „ü“.</p>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Феликс – Феликс</div><div class=\"kurss-example\">Axt (akst) — cirvis</div><div class=\"kurss-example\">Мистика (мустик) – мистика</div><div class=\"kurss-example\">Никс - Никс</div><div class=\"kurss-example\">Мит (уста) – мит</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>ß</h4>\n              <p>„ß“ на немски се произнася като „s“.</p>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Суетене - крак</div><div class=\"kurss-example\">Füße (бушон) – крака</div><div class=\"kurss-example\">Gruesse - здравей</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Kopsavilkums</h4>\n              <ul class=\"kurss-summary-list\"><li>Ш → Ш</li><li>Sp/st в началото → sp/бр</li><li>Qu → kv</li><li>Z → в</li><li>V често → f</li><li>X → ks</li><li>SS → s</li></ul>\n            </section>",
-  "kurssVerbBasicsLesson": "\n            <h3>Основи на глагола</h3>\n            <p class=\"kurss-lesson-intro\">Глаголи и конјугации од предавање 1.</p>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Глаголи</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Kommen - ела</div><div class=\"kurss-example\">Gehen — iet</div><div class=\"kurss-example\">Стефан - стой</div><div class=\"kurss-example\">Шинген - пей</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Kommen</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Ich komme - идвам</div><div class=\"kurss-example\">Du kommst - ще дойдеш</div><div class=\"kurss-example\">Er kommt - той идва</div><div class=\"kurss-example\">Sie kommt - тя идва</div><div class=\"kurss-example\">Wir kommen - gremo</div><div class=\"kurss-example\">Ihr kommt - že prihajate</div><div class=\"kurss-example\">Sie kommen - те/те идват</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Оди</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Ich gehe — es eju</div><div class=\"kurss-example\">Du gehst — tu ej</div><div class=\"kurss-example\">А, той идва</div><div class=\"kurss-example\">Sie geht - тя идва</div><div class=\"kurss-example\">Vir Gehen - идваме</div><div class=\"kurss-example\">Ихр гет - доаѓаш?</div><div class=\"kurss-example\">Sie gehen – те/те идват</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Stehen</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Ич стехе - стојам</div><div class=\"kurss-example\">Du stehst - стоиш</div><div class=\"kurss-example\">Er stecht - stoječe</div><div class=\"kurss-example\">Sie steht - тя стои</div><div class=\"kurss-example\">Vir stein - стоим</div><div class=\"kurss-example\">Ihr steht - стоиш</div><div class=\"kurss-example\">Sie stehen - те/те стоят</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Singen</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Ich singe — es dziedu</div><div class=\"kurss-example\">Du singst — tu dziedi</div><div class=\"kurss-example\">Er sint - той пее</div><div class=\"kurss-example\">Sie Singt - тя пее</div><div class=\"kurss-example\">Vir singen - ние пеем</div><div class=\"kurss-example\">Ihrsingt - ти пееш</div><div class=\"kurss-example\">Sie Singen - те/те пеят</div></div>\n            </section>\n            <section class=\"kurss-lesson-section\">\n              <h4>Лекция 2 глаголи</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Spilen - играе</div><div class=\"kurss-example\">Arbeiten - pri delu</div><div class=\"kurss-example\">Fragen - питайте</div><div class=\"kurss-example\">Anworten - отговор</div><div class=\"kurss-example\">Rechnen - да се изчисли</div><div class=\"kurss-example\">Зејхнен - ​​да црта</div><div class=\"kurss-example\">Тун - да правя</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Spielen</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Ich spiele - играя</div><div class=\"kurss-example\">Du spielst - играете</div><div class=\"kurss-example\">Er spielt - той играе</div><div class=\"kurss-example\">Sie spielt - тя играе</div><div class=\"kurss-example\">Wir spielen - играем</div><div class=\"kurss-example\">Ihr spielt - ти играеш</div><div class=\"kurss-example\">Sie spielen - тие/таа играат</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Arbeiten</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Ich arbeite - работя</div><div class=\"kurss-example\">Du arbetest - вие работите</div><div class=\"kurss-example\">Er arbeitt - работи</div><div class=\"kurss-example\">Sie arbeitt - тя работи</div><div class=\"kurss-example\">Wir arbeiten - работиме</div><div class=\"kurss-example\">Ihr arbeitt - работите</div><div class=\"kurss-example\">Sie arbeiten – те/те работят</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Fragen</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Ich frage - попитах</div><div class=\"kurss-example\">Du fragst - vprašaš</div><div class=\"kurss-example\">А фрагмент - пита той</div><div class=\"kurss-example\">Sie fragt - пита тя</div><div class=\"kurss-example\">Wir fragen - питаме</div><div class=\"kurss-example\">Njihov fragment - vprašate</div><div class=\"kurss-example\">Sie fragen - те/питат</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Antworten</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Ich antworte — es atbildu</div><div class=\"kurss-example\">Du antwortest — tu atbildi</div><div class=\"kurss-example\">Uh antortet – отговаря той</div><div class=\"kurss-example\">Sie antortet – отговаря тя</div><div class=\"kurss-example\">Wir antworten - ние отговаряме</div><div class=\"kurss-example\">Техният антортет - вие отговаряте</div><div class=\"kurss-example\">Sie antworten – те/те отговарят</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Rechnen</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Ich rechne - изчислявам</div><div class=\"kurss-example\">Du rechnest - броиш</div><div class=\"kurss-example\">Ер ще полудее - пресмята той</div><div class=\"kurss-example\">Sie rechnet - неговата сметка</div><div class=\"kurss-example\">Wir rechnen – изчислявам</div><div class=\"kurss-example\">Ihr ще каже - изчисляваш</div><div class=\"kurss-example\">Sie rechnen - те/нейният акаунт</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Zeichnen</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Ich zeichne - рисувам</div><div class=\"kurss-example\">Du zeichnest - рисуваш</div><div class=\"kurss-example\">Er zeichnet - той рисува</div><div class=\"kurss-example\">Sie zeichnet - тя рисува</div><div class=\"kurss-example\">Wir zeichnen - цртеж</div><div class=\"kurss-example\">Ihr zeichnet - рисуваш</div><div class=\"kurss-example\">Sie zeichnen – riše</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Tun</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Ich tue — es daru</div><div class=\"kurss-example\">Du tust — tu dari</div><div class=\"kurss-example\">Uh-huh, res je.</div><div class=\"kurss-example\">Sie tut - тя го прави</div><div class=\"kurss-example\">Vir tun - ние правим</div><div class=\"kurss-example\">Ihr тука - правиш</div><div class=\"kurss-example\">Sie tun - те/те правят</div></div>\n            </section>",
-  "kurssSentenceStructureLesson": "\n            <h3>Структура на изречението</h3>\n            <p class=\"kurss-lesson-intro\">Във въпросително изречение глаголът обикновено е на първо място на немски.</p>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Примери</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Вие общувате. - Ела ти.</div><div class=\"kurss-example\">Ти откъде си \"Идваш ли?\"</div><div class=\"kurss-example\">Er Singt. - Той пее.</div><div class=\"kurss-example\">Пей, а? - Пее ли?</div><div class=\"kurss-example\">Бързаш ли — Стоиш ли?</div><div class=\"kurss-example\">Да, знам. - Да, стоя.</div><div class=\"kurss-example\">Това вярно ли е — Отиваш ли?</div><div class=\"kurss-example\">Да, това е добре. - Да, отиваме.</div></div>\n            </section>\n            <section class=\"kurss-lesson-section\">\n              <h4>Въпроси с думата \"беше\"</h4>\n              <p>Ако даден въпрос започва с въпросителна дума, глаголът на немски обикновено идва непосредствено след въпросителната дума.</p>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Was tust du? — Ko tu dari?</div><div class=\"kurss-example\">Дали беше така - Што прави?</div><div class=\"kurss-example\">Така ли беше — Какво прави тя?</div><div class=\"kurss-example\">Беше ли добре? - Какво правят?</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Noliegums ar “nicht”</h4>\n              <p>Когато отрицанието nicht се отнася до глагол, то обикновено идва след глагола на немски.</p>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Нищо не казвам. - Не играя.</div><div class=\"kurss-example\">Пол Фрагт Нихт. - Пол не пита.</div><div class=\"kurss-example\">Това е грешно - Той няма да дойде.</div><div class=\"kurss-example\">Те не пеят. - Те/те не пеят.</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Teikumi no 2. lekcijas</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Играеш ли „Играете ли?“</div><div class=\"kurss-example\">Nein, ich spiele nicht, ich arbeite. - Не, не играя, работя.</div><div class=\"kurss-example\">Paul fragt nicht, er arbeitt. „Пол не пита, той работи.“</div><div class=\"kurss-example\">Работиш ли -работиш ли</div><div class=\"kurss-example\">Nein, ich arbeite nicht, ich singe. - Не, не работя, пея.</div><div class=\"kurss-example\">Je bil tut Paul? — Kdo dara Pauls?</div><div class=\"kurss-example\">Ъъъ каза. - Той играе.</div><div class=\"kurss-example\">Was tut Marie? — Ko dara Marija?</div><div class=\"kurss-example\">Те пеят. - Тя пее.</div><div class=\"kurss-example\">Пол свири, а Мари пее. — Пол свири, а Мария пее.</div><div class=\"kurss-example\">Пее? -Дали јадеш?</div><div class=\"kurss-example\">Не, не знаем нищо, ние работим. - Не, ние не пеем, ние работим.</div><div class=\"kurss-example\">Was tun Paul und Marie? — Ko dara Pauls un Marija?</div><div class=\"kurss-example\">Те питат. – питат.</div><div class=\"kurss-example\">Тие не одговорија. - Не одговараат.</div><div class=\"kurss-example\">Кой работи? - Кой работи?</div><div class=\"kurss-example\">Ние работим. – Работим.</div><div class=\"kurss-example\">Wir rechnen und zeichnen. - Броим и рисуваме.</div><div class=\"kurss-example\">Sie kommen, sie fragen, sie antworten, sie arbeiten, sie spielen, sie singen, sie gehen. „Идват, питат, отговарят, работят, играят, пеят и си тръгват.</div></div>\n            </section>",
-  "kurssLesson2": "            <h3>Лекција 2</h3>\n            <p class=\"kurss-lesson-intro\">Втора лекция: диалози, думи, произношение, граматика и превод.</p>\n            <details class=\"lesson1-accordion\" open>\n              <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dialogi / teikumi</span><span class=\"lesson1-chevron\">⌃</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-card-grid\">\n                  <div class=\"kurss-example\">Spielst du?<br>Nein, ich spiele nicht, ich arbeite.</div>\n                  <div class=\"kurss-example\">Paul fragt nicht, er arbeitet.</div>\n                  <div class=\"kurss-example\">Arbeitest du?<br>Nein, ich arbeite nicht, ich singe.</div>\n                  <div class=\"kurss-example\">Was tut Paul?<br>Сличено</div>\n                  <div class=\"kurss-example\">Was tut Marie?<br>Sie singt.</div>\n                  <div class=\"kurss-example\">Paul spielt, aber Marie singt.</div>\n                  <div class=\"kurss-example\">Singt ihr?<br>Nein, wir singen nicht, wir arbeiten.</div>\n                  <div class=\"kurss-example\">Was tun Paul und Marie?<br>Sie fragen.<br>Sie antworten nicht.</div>\n                  <div class=\"kurss-example\">Wer arbeitet?<br>Wir arbeiten.<br>Wir rechnen und zeichnen.</div>\n                  <div class=\"kurss-example\">Sie kommen, sie fragen, sie antworten, sie arbeiten, sie spielen, sie singen, sie gehen.</div>\n                </div>\n              </div>\n            </details>\n            <details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Слова</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-card-grid\">\n                  <div class=\"kurss-example\">Spielen - игра • Игра</div>\n                  <div class=\"kurss-example\">Не не</div>\n                  <div class=\"kurss-example\">Nicht — ne</div>\n                  <div class=\"kurss-example\">Arbeiten - pri delu</div>\n                  <div class=\"kurss-example\">Fragen - питайте</div>\n                  <div class=\"kurss-example\">Какво правиш - какво прави той?</div>\n                  <div class=\"kurss-example\">Какво мислиш — какво правят те/те?</div>\n                  <div class=\"kurss-example\">Абер - залог</div>\n                  <div class=\"kurss-example\">Anworten - отговор</div>\n                  <div class=\"kurss-example\">Rechnen - да се изчисли</div>\n                  <div class=\"kurss-example\">Зејхнен - ​​да црта</div>\n                  <div class=\"kurss-example\">Marie — Marija</div>\n                </div>\n              </div>\n            </details>\n                        <details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Izruna</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">В думите ich, nicht, rechnen, zeichnen звукът h се произнася меко, както в латвийските думи: technika, Fridrich.</div><div class=\"kurss-example\">В думите arbeiten, zeichnen дифтонгът ei се произнася приблизително по същия начин като латвийския равен звук e, последван от i.</div><div class=\"kurss-example\">Съгласната група sp се произнася šp: spielen (špīlen).</div><div class=\"kurss-example\">Во глаголот tun u се изговара долго кај сите лица.</div></div>\n              </div>\n            </details>\n<details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Gramatika</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content lesson1-grammar-content\">\n                <section class=\"lesson1-block\">\n                  <h4 class=\"lesson1-grammar-header\"><span>1</span>Galotnes ar e</h4>\n                  <div class=\"lesson1-grammar-note\">Ако основата на глагола завършва на t, d, hn, тогава e, когато се наклони, идва преди окончанията -st и -t.</div>\n                  <h5 class=\"lesson2-subtitle\">Arbeiten</h5>\n                  <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Ich arbeite</div><div class=\"kurss-example\">Du arbeitest</div><div class=\"kurss-example\">Er arbeitet</div><div class=\"kurss-example\">Sie arbeitet</div><div class=\"kurss-example\">Wir arbeiten</div><div class=\"kurss-example\">Ihr arbeitet</div><div class=\"kurss-example\">Sie arbeiten</div></div>\n                  <h5 class=\"lesson2-subtitle\">Rechnen</h5>\n                  <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Ich rechne</div><div class=\"kurss-example\">Du rechnest</div><div class=\"kurss-example\">Er rechnet</div><div class=\"kurss-example\">Sie rechnet</div><div class=\"kurss-example\">Wir rechnen</div><div class=\"kurss-example\">Ihr rechnet</div><div class=\"kurss-example\">Sie rechnen</div></div>\n                  <h5 class=\"lesson2-subtitle\">Tun</h5>\n                  <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Ich tue</div><div class=\"kurss-example\">Du tust</div><div class=\"kurss-example\">Er tut</div><div class=\"kurss-example\">Sie tut</div><div class=\"kurss-example\">Wir tun</div><div class=\"kurss-example\">Ihr tut</div><div class=\"kurss-example\">Sie tun</div></div>\n                </section>\n                <section class=\"lesson1-block\">\n                  <h4 class=\"lesson1-grammar-header\"><span>2</span>Въпросителна дума</h4>\n                  <div class=\"lesson1-grammar-note\">Във въпросителни изречения, започващи с въпросителна дума, например: какво? какво? СЗО? защо защо и т.н., глаголът идва непосредствено след въпросителната дума.</div>\n                  <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Was tust du? — Ko tu dari?</div><div class=\"kurss-example\">Дали беше така - Што прави?</div><div class=\"kurss-example\">Така ли беше — Какво прави тя?</div><div class=\"kurss-example\">Беше ли добре? - Какво правят?</div></div>\n                </section>\n                <section class=\"lesson1-block\">\n                  <h4 class=\"lesson1-grammar-header\"><span>3</span>Noliegums ar nicht</h4>\n                  <div class=\"lesson1-grammar-note\">Ако отрицанието nicht се отнася до глагол, тогава отречената дума идва след глагола.</div>\n                  <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Това е грешно - Той няма да дойде.</div><div class=\"kurss-example\">Те не пеят. - Те не пеят.</div></div>\n                </section>\n              </div>\n            </details>\n                                    <details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Трансфер</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-training-wrap\">\n                  <button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson2-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"Lekcija 2 pārtulkošanas kartīte\">\n                    <span class=\"lesson1-training-progress\">Предавање 2 · Превод: 1 / 15</span>\n                    <span class=\"lesson1-training-text\">Кой пита?</span>\n                  </button>\n                  <p class=\"lesson1-training-hint\">Кликнете върху картата, за да видите немския превод. След отговор следващото щракване показва следващата карта.</p>\n                </div>\n              </div>\n            </details>",
-  "kurssLesson6": "\n    <h3>Lekcija 6</h3>\n    <p class=\"kurss-lesson-intro\">Броеви, множина, умлаути и множина на именките.</p>\n\n    <details class=\"lesson1-accordion\" open>\n      <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dialogi / teikumi</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Hier liegt ein Bleistift.</div><div class=\"kurss-example\">Dort liegen einige Messer.</div><div class=\"kurss-example\">Edgar nimmt ein Messer, zwei Messer, drei Messer.</div><div class=\"kurss-example\">Er legt die Messer wieder hin.</div><div class=\"kurss-example\">Alle Messer sind scharf.</div><div class=\"kurss-example\">Dann nimmt er wieder ein Messer.</div><div class=\"kurss-example\">Er macht das Messer auf.</div><div class=\"kurss-example\">Er nimt den Bleistift.</div><div class=\"kurss-example\">Er spitzt den Bleistift an.</div><div class=\"kurss-example\">Er legt das Messer hin.</div><div class=\"kurss-example\">Er setzt sich und zeichnet.</div><div class=\"kurss-example\">Was zeichnet er? Er zeichnet einen Schlüssel.</div><div class=\"kurss-example\">Gertrud zeichnet ein Fenster und eine Tafel.</div><div class=\"kurss-example\">Anna zeichnet einen Garten.</div><div class=\"kurss-example\">Hier liegen vier Löffel.</div><div class=\"kurss-example\">Dort liegen fünf Nadeln.</div><div class=\"kurss-example\">Gertrud kommt und zählt die Löffel: das ist ein Löffel • Das sind zwei, drei, vier Löffel.</div><div class=\"kurss-example\">Anna zählt die Nadeln: das ist eine Nadel • Das sind zwei, drei, vier, fünf Nadeln.</div><div class=\"kurss-example\">Wieviel Nadeln sind hier?</div><div class=\"kurss-example\">Hier ist eine Nadel.</div><div class=\"kurss-example\">Dort sind zwei, drei, vier Nadeln.</div><div class=\"kurss-example\">Fünf Schlüssel sind hier.</div><div class=\"kurss-example\">Sechs Löffel sind dort.</div><div class=\"kurss-example\">Was ist das?</div><div class=\"kurss-example\">Das ist ein Hammer. Das sind fünf Hämmer.</div><div class=\"kurss-example\">Das ist ein Deckel. Das sind sechs Deckel.</div><div class=\"kurss-example\">Das ist ein Eimer. Das sind sieben Eimer.</div><div class=\"kurss-example\">Das ist ein Teller. Das sind acht Teller.</div><div class=\"kurss-example\">Das ist ein Wagen. Das sind neun Wagen.</div><div class=\"kurss-example\">Das ist ein Schlitten. Das sind zehn Schlitten.</div><div class=\"kurss-example\">Wie sind die Dinge?</div><div class=\"kurss-example\">Der Hammer ist klein. Die Hämmer sind klein.</div><div class=\"kurss-example\">Der Deckel ist groß. Die Deckel sind groß.</div><div class=\"kurss-example\">Der Eimer ist voll. Die Eimer sind voll.</div><div class=\"kurss-example\">Der Teller ist leer. Die Teller sind leer.</div><div class=\"kurss-example\">Der Wagen ist schwer. Die Wagen sind schwer.</div><div class=\"kurss-example\">Der Schlitten ist leicht. Die Schlitten sind leicht.</div></div></div>\n    </details>\n\n    <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Слова</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Отрича - е, е, лъже</div><div class=\"kurss-example\">Der Bleistift (bleistift) - молив</div><div class=\"kurss-example\">Einige (einige) - някакъв вид</div><div class=\"kurss-example\">Hinlegen — nolikt</div><div class=\"kurss-example\">Legt hin — noliek</div><div class=\"kurss-example\">Vider - отново</div><div class=\"kurss-example\">Aufmachen - отмяна</div><div class=\"kurss-example\">Er macht auf - той се развързва</div><div class=\"kurss-example\">Anspitzen (anšpicen) – изразяване на мнение</div><div class=\"kurss-example\">Er spitzt an - той плюе</div><div class=\"kurss-example\">Sich setzen - седни</div><div class=\"kurss-example\">Setts sich – сяда</div><div class=\"kurss-example\">Der Schlüsel (шлюсел) – ключ</div><div class=\"kurss-example\">Das Fenster (fenster) — logs</div><div class=\"kurss-example\">Die Tafel (маса за печати) - черна дъска</div><div class=\"kurss-example\">Der Garten - градина</div><div class=\"kurss-example\">Der Löffel — karote</div><div class=\"kurss-example\">Zählen (cēlen) – броене</div><div class=\"kurss-example\">Die Nadel — adata</div><div class=\"kurss-example\">Was ist das — kas tas ir?</div><div class=\"kurss-example\">Der Hammer — veseris</div><div class=\"kurss-example\">Die Hämmer — veseri</div><div class=\"kurss-example\">Der Dekel (dēr dekel) - корица</div><div class=\"kurss-example\">Der Teller - Plošča</div><div class=\"kurss-example\">Der Wagen — rati</div><div class=\"kurss-example\">Der Schlitten — ragavas, kamanas</div><div class=\"kurss-example\">Das Ding — lieta</div><div class=\"kurss-example\">Die Dinge — lietas</div><div class=\"kurss-example\">Wie sind die Dinge? - как си</div><div class=\"kurss-example\">Voll (fōl) - пилнс</div><div class=\"kurss-example\">Парапет - празен</div><div class=\"kurss-example\">Швер (швер) – тежък, труден</div><div class=\"kurss-example\">Leicht - светлина</div><div class=\"kurss-example\">Der Eimer — spainis</div><div class=\"kurss-example\">Vivil - колко</div><div class=\"kurss-example\">Wieviel Nadeln — cik adatu</div><div class=\"kurss-example\">Hier (хиър) – тук</div><div class=\"kurss-example\">Dort — tur</div></div></div>\n    </details>\n\n    <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Izruna</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Ä е обертон на гласната „а“ и се произнася като кратко или дълго тясно „е“.</div><div class=\"kurss-example\">Примери: das Mädchen (mētchen), die Bänke (dī benke), der Vater (dēr fater), die Väter (dī fēter).</div><div class=\"kurss-example\">Ü е обертон на гласната u. Когато го произнасяте, устните ви трябва да са много закръглени и се опитайте да произнесете i с кръгли устни.</div><div class=\"kurss-example\">Примери: fünf, der Schlüssel.</div><div class=\"kurss-example\">Ö се произнася със заоблени устни, опитвайки се да произнесе e: der Löffel.</div><div class=\"kurss-example\">Двойната гласна представлява дълга гласна: leer.</div><div class=\"kurss-example\">Дифтонгът eu се произнася oi: neun.</div></div></div>\n    </details>\n\n    <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Gramatika</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content lesson1-grammar-content\">\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">Gramatika un paskaidrojumi</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Ударената представка на сложен глагол се отделя от глагола в сегашно време и стои в края на изречението.</div><div class=\"kurss-example\">Примери: hinlegen - er legt hin • Aufmachen - er macht auf • Anspitzen - er spitz an.</div><div class=\"kurss-example\">Числото едно се появява и в трите реда, когато се използва със съществително: ein в мъжки род, eine в женски род, ein в среден род.</div><div class=\"kurss-example\">Примери: ein Schüler - еден ученик • Eine Schülerin - еден ученик • Ein Kind - едно дете.</div><div class=\"kurss-example\">Числа: eins, zwei, drei, vier, fünf, sechs, sieben, acht, neun, zehn.</div><div class=\"kurss-example\">Saitain на немски има форма за единствено и множествено число: der Schüler ist klein • Die Schüler sind klein.</div><div class=\"kurss-example\">Indikativni zaimek v latvijščini se razlikuje po številu in vrstnem redu, v nemščini pa se uporablja v eni obliki: das.</div><div class=\"kurss-example\">Примери: това е чук - das ist ein Hammer • Това е игла - das ist eine Nadel • Това са чукове - das sind Hämmer • Това са игли - das sind Nadeln.</div><div class=\"kurss-example\">Der Wagen - каруци и der Schlitten - шейни са множествено число на латвийски, но на немски тези думи се използват в единствено и множествено число.</div><div class=\"kurss-example\">Съществителните от мъжки и среден род, завършващи на -er, -el, -en, често нямат окончание за множествено число.</div><div class=\"kurss-example\">Примери: der Hammer - die Hämmer • Der Garten - di Garten • Das Fenster - die Fenster • Das Messer - die Messer.</div><div class=\"kurss-example\">Съществителните от женски род, завършващи на -el, -er, приемат -n в множествено число.</div><div class=\"kurss-example\">Примери: die Nadel – die Nadeln • Die Feder – die Federn.</div><div class=\"kurss-example\">Изключения: die Mutter (майка) - die Mütter (майки) • Die Tochter (дъщеря) - die Töchter (дъщери).</div><div class=\"kurss-example\">Неопределениот член нема множина: das ist ein Wagen - das sind Wagen • Das ist eine Nadel - das sind Nadeln.</div><div class=\"kurss-example\">В декларативното изречение субектът-глагол заема второ място: er legt den Schlüssel hin • Dann Legt er den Schlüssel Hin.</div></div></section>\n      </div>\n    </details>\n\n    <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Трансфер</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-training-wrap\"><button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson6-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"Lekcija 6 pārtulkošanas kartīte\"><span class=\"lesson1-training-progress\">Лекция 6 · Превод: 1 / 21</span><span class=\"lesson1-training-text\">Пол взема молив и рисува.</span></button><p class=\"lesson1-training-hint\">Кликнете върху картата, за да видите немския превод. След отговор следващото щракване показва следващата карта.</p></div></div>\n    </details>\n  ",
-  "kurssLesson5": "\n    <h3>Lekcija 5</h3>\n    <p class=\"kurss-lesson-intro\">Wen?, винительный падеж, sitzen, fragen и окончание -in.</p>\n\n    <details class=\"lesson1-accordion\" open>\n      <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dialogi / teikumi</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\">\n        <div class=\"kurss-example\">Wer sitzt und fragt? Der Lehrer sitzt und fragt.</div>\n        <div class=\"kurss-example\">Wer steht und antwortet? Der Schüler steht und antwortet.</div>\n        <div class=\"kurss-example\">Wie antwortet der Schüler? Der Schüler antwortet gut.</div>\n        <div class=\"kurss-example\">Вен лобт дер Лерер? Der Lehrer lobt den Schüler.</div>\n        <div class=\"kurss-example\">Wie ist der Schüler? Der Schüler ist klein.</div>\n        <div class=\"kurss-example\">Ist der Schüler klein oder groß? Er ist klein.</div>\n        <div class=\"kurss-example\">Wen fragt die Lehrerin? Die Lehrerin fragt die Schülerin.</div>\n        <div class=\"kurss-example\">Wie antwortet die Schülerin? Die Schülerin antwortet schlecht.</div>\n        <div class=\"kurss-example\">Was tut die Lehrerin? Sie tadelt die Schülerin.</div>\n        <div class=\"kurss-example\">Die Schülerin ist nicht klein, sie ist groß.</div>\n        <div class=\"kurss-example\">Ајн Кинд игра. Das Kind ist artig.</div>\n        <div class=\"kurss-example\">Die Mutter liebt das Kind. Der Vater lobt das Kind.</div>\n      </div></div>\n    </details>\n\n    <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Слова</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\">\n        <div class=\"kurss-example\">Sitzen (zitsen) - седнете</div>\n        <div class=\"kurss-example\">Fragen (fragen) - питам</div>\n        <div class=\"kurss-example\">Der Lerer (dēr lērer) - учител</div>\n        <div class=\"kurss-example\">Гът (разберете) - добре</div>\n        <div class=\"kurss-example\">Уен - какво</div>\n        <div class=\"kurss-example\">Лобен - за похвала</div>\n        <div class=\"kurss-example\">Der Shuler (schüler) - студент</div>\n        <div class=\"kurss-example\">Klein — mazs</div>\n        <div class=\"kurss-example\">Groß (grōs) — liels</div>\n        <div class=\"kurss-example\">Ди Леререн – учител</div>\n        <div class=\"kurss-example\">Die Schülerin — skolniece</div>\n        <div class=\"kurss-example\">Schlecht (schlekht) - лошо</div>\n        <div class=\"kurss-example\">Tadeln — pelt</div>\n        <div class=\"kurss-example\">Odra (ōder) -vai</div>\n        <div class=\"kurss-example\">Das Kind (кинт) – дете</div>\n        <div class=\"kurss-example\">Артиг (ārtich) - приказлив</div>\n        <div class=\"kurss-example\">Die Mutter - майка</div>\n        <div class=\"kurss-example\">Либен - да обичаш</div>\n        <div class=\"kurss-example\">Der Vater (fäter) - баща</div>\n      </div></div>\n    </details>\n\n        <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Izruna</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\">\n        <div class=\"kurss-example\">Tz е двоен звук z, произнася се z: sitzen (zicen).</div>\n        <div class=\"kurss-example\">V в немските думи се произнася f: der Vater (fäter).</div>\n        <div class=\"kurss-example\">SS се нарича escet и се произнася като латвийското s: groß (gros), weiß (veis).</div>\n      </div></div>\n    </details>\n\n<details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Gramatika</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content lesson1-grammar-content\">\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">Именителен и винителен падеж</h4><div class=\"lesson1-grammar-note\">В латвийския именителен падеж отговаря на въпроса кой?, а винителен падеж отговаря на въпроса какво?.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">На немски номинативният въпрос е wer? лица и какво? елементи.</div><div class=\"kurss-example\">Обвинителен въпрос: wen? лица и какво? елементи.</div></div></section>\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">Промяна на члена във винителен падеж</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Nominativ: der Vater, die Mutter, das Kind.</div><div class=\"kurss-example\">Akkusativ: den Vater, die Mutter, das Kind.</div><div class=\"kurss-example\">Nominativ: der Federhalter, die Feder, das Messer.</div><div class=\"kurss-example\">Akkusativ: ден Федерхалтер, умре Федер, дас Месер.</div></div></section>\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">Sitzen</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Ich sitze</div><div class=\"kurss-example\">Du sitzt</div><div class=\"kurss-example\">Er/sie/es sitzt</div><div class=\"kurss-example\">Седи</div><div class=\"kurss-example\">Ihr sitzt</div><div class=\"kurss-example\">Sie sitzen</div></div></section>\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">Fragen + винителен падеж</h4><div class=\"lesson1-grammar-note\">Немският глагол fragen изисква винителен падеж.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Wen fragt der Lehrer?</div><div class=\"kurss-example\">Der Lehrer fragt den Schüler.</div></div></section>\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">-in galotne</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Много съществителни от женски род завършват на -ин.</div><div class=\"kurss-example\">Die Lehrerin</div><div class=\"kurss-example\">Die Schülerin</div></div></section>\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">Глагол място</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">В декларативно изречение глаголът е на втора позиция.</div><div class=\"kurss-example\">Dann geht das Mädchen hinaus und arbeitet.</div><div class=\"kurss-example\">Das Mädchen geht dann hinaus und arbeitet.</div></div></section>\n      </div>\n    </details>\n\n    <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Трансфер</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-training-wrap\"><button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson5-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"Lekcija 5 pārtulkošanas kartīte\"><span class=\"lesson1-training-progress\">Лекция 5 · Превод: 1 / 16</span><span class=\"lesson1-training-text\">Какво харесва бащата?</span></button><p class=\"lesson1-training-hint\">Кликнете върху картата, за да видите немския превод. След отговор следващото щракване показва следващата карта.</p></div></div>\n    </details>\n  ",
-  "kurssLesson4": "            <h3>Lekcija 4</h3>\n            <p class=\"kurss-lesson-intro\">Акузатив, немен, хинлеген, хинаусгехен и придавки.</p>\n            <details class=\"lesson1-accordion\" open>\n              <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dialogi / teikumi</span><span class=\"lesson1-chevron\">⌃</span></summary>\n              <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Paul kommt und nimmt einen Federhalter.</div><div class=\"kurss-example\">Er zeigt den Federhalter.</div><div class=\"kurss-example\">Er fragt: „Wie ist der Federhalter?“</div><div class=\"kurss-example\">Olga antwortet: „Der Federhalter ist schwarz.“</div><div class=\"kurss-example\">Ist der Federhalter weiß? Nein, der Federhalter ist nicht weiß, er ist schwarz.</div><div class=\"kurss-example\">Marie kommt und nimmt eine Feder.</div><div class=\"kurss-example\">Sie fragt: „Wie ist die Feder?“</div><div class=\"kurss-example\">Olga antwortet: „Die Feder ist spitz.“</div><div class=\"kurss-example\">Ist die Feder stumpf? Nein, die Feder ist nicht stumpf, sie ist spitz.</div><div class=\"kurss-example\">Беше ли legt das Mädchen hin? Es legt die Feder hin.</div><div class=\"kurss-example\">Was nimmst du? Ich nehme ein Messer.</div><div class=\"kurss-example\">Wie ist das Messer? Das Messer ist scharf.</div><div class=\"kurss-example\">Ist das Messer stumpf? Nein, es ist nicht stumpf, es ist scharf.</div><div class=\"kurss-example\">Was legst du hin? Ich lege das Messer, die Feder und den Federhalter hin.</div><div class=\"kurss-example\">Dann gehe ich hinaus und arbeite.</div></div></div>\n            </details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Слова</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Немен (nēmen) – вземам</div><div class=\"kurss-example\">Er nimmt (nimmt) - той взема</div><div class=\"kurss-example\">Der Federhalter (dēr fēderhalter) – пернат</div><div class=\"kurss-example\">Einen Federhalter - držalo za pero</div><div class=\"kurss-example\">Zeigen - шоу</div><div class=\"kurss-example\">Шварц – черен</div><div class=\"kurss-example\">Weiß (veis) — balts</div><div class=\"kurss-example\">Die Feder - перо</div><div class=\"kurss-example\">Eine Feder — spalvu</div><div class=\"kurss-example\">Шпиц (špic) – заострен</div><div class=\"kurss-example\">Hinlegen — nolikt</div><div class=\"kurss-example\">Legt hin — noliek</div><div class=\"kurss-example\">Das Mädchen (mētchen) - момиче</div><div class=\"kurss-example\">Das Messer — nazis</div><div class=\"kurss-example\">Ein Messer — nazi</div><div class=\"kurss-example\">Scharf — ass</div><div class=\"kurss-example\">Stumpf - глупав, глупав</div><div class=\"kurss-example\">Дан - тад</div><div class=\"kurss-example\">Хинаус - излез</div><div class=\"kurss-example\">Hinausgehen – излезте, излезте</div></div></div></details>\n                        <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Izruna</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Окончанията -en, -er, -el са без ударение, така че e в тези окончания се чува слабо: kommen, nehmen, der Federhalter.</div><div class=\"kurss-example\">H на немски може да бъде както звук, така и индикатор за дължината на предходната гласна.</div><div class=\"kurss-example\">Ако h е дълго, то не се произнася като звук: немен (nēmen).</div><div class=\"kurss-example\">Ако гласна е последвана от само една съгласна, гласната се произнася дълго: die (dī) Feder (feder), den (den).</div></div></div></details>\n<details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Gramatika</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content lesson1-grammar-content\"><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>1</span>Винителен падеж</h4><div class=\"lesson1-grammar-note\">В женски и среден род винителният падеж е равен на именителния. Само линията на мъжете се променя.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Nominativ: der Federhalter, die Feder, das Messer.</div><div class=\"kurss-example\">Akkusativ: ден Федерхалтер, умре Федер, дас Месер.</div><div class=\"kurss-example\">Nominativ: ein Federhalter, eine Feder, ein Messer.</div><div class=\"kurss-example\">Akkusativ: ein Federhalter, ein Feder, ein Messer.</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>2</span>Немен</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Ich nehme</div><div class=\"kurss-example\">Du nimmst</div><div class=\"kurss-example\">Er/sie nimmt</div><div class=\"kurss-example\">Wir nehmen</div><div class=\"kurss-example\">Ihr nehmt</div><div class=\"kurss-example\">Sie nehmen</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>3</span>Заменки</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Na vrsti so moški</div><div class=\"kurss-example\">Това е редът на жените</div><div class=\"kurss-example\">Аз съм среден кръг</div><div class=\"kurss-example\">Во множина - ова</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>4</span>Разделими глаголи</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Hinlegen → ich lege das Messer hin</div><div class=\"kurss-example\">Hinausgehen → Marie geht hinaus</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>5</span>Прилагателни</h4><div class=\"lesson1-grammar-note\">Ако придавката во реченицата е придавка, таа не се менува во големина и број.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Der Federhalter ist klein</div><div class=\"kurss-example\">Die Feder ist klein</div><div class=\"kurss-example\">Das Messer ist klein</div><div class=\"kurss-example\">Die Messer sind klein</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>6</span>Noliegums ar nicht</h4><div class=\"lesson1-grammar-note\">Ако nicht отрича прилагателно, то идва преди думата, която се отрича.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Der Federhalter ist nicht weiß</div><div class=\"kurss-example\">Das Messer ist nicht scharf</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>7</span>-chen / -lein</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Именките што завршуваат на -chen и -lein се средени: das Mädchen.</div></div></section></div></details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Трансфер</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-training-wrap\"><button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson4-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"Lekcija 4 pārtulkošanas kartīte\"><span class=\"lesson1-training-progress\">Лекция 4 · Превод: 1 / 16</span><span class=\"lesson1-training-text\">Момичето взема пръчката на писалката.</span></button><p class=\"lesson1-training-hint\">Кликнете върху картата, за да видите немския превод. След отговор следващото щракване показва следващата карта.</p></div></div></details>",
-  "kurssLesson3": "            <h3>Lekcija 3</h3>\n            <p class=\"kurss-lesson-intro\">Трета лекция: диалози, думи, произношение, граматика и превод.</p>\n            <details class=\"lesson1-accordion\" open>\n              <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dialogi / teikumi</span><span class=\"lesson1-chevron\">⌃</span></summary>\n              <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Wer rechnet und zeichnet?<br>Wir rechnen und zeichnen.</div><div class=\"kurss-example\">Wer kommt?<br>Paul und Anna kommen.</div><div class=\"kurss-example\">Was steht hier?<br>Hier steht ein Tisch.</div><div class=\"kurss-example\">Was steht dort?<br>Dort steht eine Bank.</div><div class=\"kurss-example\">Was liegt hier?<br>Hier liegt ein Buch.</div><div class=\"kurss-example\">Was liegt dort?<br>Dort liegt ein Heft.</div><div class=\"kurss-example\">Was hängt hier?<br>Hier hängt ein Bild.</div><div class=\"kurss-example\">Was hängt dort?<br>Dort hängt eine Tafel.</div><div class=\"kurss-example\">Wie ist das Buch?<br>Das Buch ist dick.</div><div class=\"kurss-example\">Wie ist das Heft?<br>Das Heft ist dünn.</div><div class=\"kurss-example\">Wie ist die Bank?<br>Die Bank ist niedrig.</div><div class=\"kurss-example\">Wie ist der Tisch?<br>Der Tisch ist hoch.</div></div></div>\n            </details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Слова</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Wer — kas</div><div class=\"kurss-example\">Was — kas</div><div class=\"kurss-example\">Джер - тук</div><div class=\"kurss-example\">Dort — tur</div><div class=\"kurss-example\">Der Tisch — galds</div><div class=\"kurss-example\">Ein Tisch — galds</div><div class=\"kurss-example\">Die Bank — sols</div><div class=\"kurss-example\">Eine Bank — sols</div><div class=\"kurss-example\">Liegen – да легна</div><div class=\"kurss-example\">Ali v Ein Buchu obstaja lažnivec? \"Ali je tukaj knjiga?\"</div><div class=\"kurss-example\">Дас Бух - книга</div><div class=\"kurss-example\">Ейн Бух - книга</div><div class=\"kurss-example\">Hängen - да се обесува</div><div class=\"kurss-example\">Das Bild — bilde</div><div class=\"kurss-example\">Ein Bild — bilde</div><div class=\"kurss-example\">Die Tafel - дъска</div><div class=\"kurss-example\">Eine Tafel - дъска</div><div class=\"kurss-example\">Wie – някой, който</div><div class=\"kurss-example\">Ist — ir</div><div class=\"kurss-example\">Dick — biezs, resns</div><div class=\"kurss-example\">Das Heft - тетрадка</div><div class=\"kurss-example\">Ein Heft - тетрадка</div><div class=\"kurss-example\">Дън – тънък, тънък</div><div class=\"kurss-example\">Niedrig — zems</div><div class=\"kurss-example\">Hoch-augsts</div></div></div></details>\n                        <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Izruna</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Дългият звук ī на немски се обозначава т.е.: liegen (ligen), hier (hir), wie (wi).</div><div class=\"kurss-example\">Sk - двойно k: дик (dikk).</div><div class=\"kurss-example\">При прилагателни и наречия окончанието -ig звучи като леко -ich: niedrig (niedrich).</div><div class=\"kurss-example\">Ако окончанието -ig завършва на e: -ige, тогава g се произнася като специфичен звук g: niedrige (nidrige) Bänke.</div></div></div></details>\n<details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Gramatika</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content lesson1-grammar-content\"><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>1</span>Предмет на офертата</h4><div class=\"lesson1-grammar-note\">Подлогът на изречението на немски език отговаря на въпроса wer? / Какво? и е в именителен падеж.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">С нас? пита хора.</div><div class=\"kurss-example\">С какво? пита за предмети.</div><div class=\"kurss-example\">Wer singt? — Sie singt.</div><div class=\"kurss-example\">Was liegt hier? — Hier liegt ein Buch.</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>2</span>Artikuli</h4><div class=\"lesson1-grammar-note\">На германски, именката има 3 падежи: машки, женски род и среден род. На именките обично им претходи збор наречен член. Овој збор не е преведен.</div><h5 class=\"lesson2-subtitle\">Noteiktais artikuls</h5><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Moški krog - der</div><div class=\"kurss-example\">Ред е на жената да умре</div><div class=\"kurss-example\">Среден кръг - да</div><div class=\"kurss-example\">Множественият определителен член и за трите ордена е die.</div><div class=\"kurss-example\">Der Tisch — die Tische</div><div class=\"kurss-example\">Die Bank — die Bänke</div><div class=\"kurss-example\">Das Heft — die Hefte</div></div><h5 class=\"lesson2-subtitle\">Nenoteiktais artikuls</h5><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Ред на мъжете - ein</div><div class=\"kurss-example\">Женски ред - eine</div><div class=\"kurss-example\">Среден кръг - ein</div><div class=\"kurss-example\">Неопределеният член няма множествено число.</div><div class=\"kurss-example\">Ein Tisch — Tische</div><div class=\"kurss-example\">Ein Heft — Hefte</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>3</span>Собствени имена</h4><div class=\"lesson1-grammar-note\">Членът не се използва пред собствените имена.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Ханс спилт, абер Мари singt.</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>4</span>Глагол място</h4><div class=\"lesson1-grammar-note\">В декларативно изречение глаголът е на втора позиция.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Hier hängt eine Karte.</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>5</span>Stehen / liegen / hängen</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">На немски се казва, че обектите, стоящи изправени, стоят:<br>Der Tisch steht<br>Умре Банка стехт</div><div class=\"kurss-example\">Казват, че обектите в хоризонтално положение лежат:<br>Das Buch liegt<br>Das Heft liegt</div><div class=\"kurss-example\">Predmeti lahko visijo tudi:<br>Die Karte hängt<br>Die Tafel hängt</div></div></section></div></details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Трансфер</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-training-wrap\"><button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson3-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"Lekcija 3 pārtulkošanas kartīte\"><span class=\"lesson1-training-progress\">Лекция 3 · Превод: 1 / 22</span><span class=\"lesson1-training-text\">Дали мислите</span></button><p class=\"lesson1-training-hint\">Кликнете върху картата, за да видите немския превод. След отговор следващото щракване показва следващата карта.</p></div></div></details>",
-  "kurssLesson7": "            <h3>Lekcija 7</h3>\n            <p class=\"kurss-lesson-intro\">Лекция седма: Повелително наклонение, форма на обръщение и множествено число.</p>\n            <details class=\"lesson1-accordion\" open>\n              <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dialogi / teikumi</span><span class=\"lesson1-chevron\">⌃</span></summary>\n              <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Hans, singe ein Lied! Was tust du? Ich singe ein Lied.</div><div class=\"kurss-example\">Hans und Olga, singt ein Lied! Was tut ihr? Wir singen ein Lied.</div><div class=\"kurss-example\">Fräulein Müller, singen Sie, bitte, ein Lied! Was tun Sie? Ich singe ein Lied.</div><div class=\"kurss-example\">Hans, zähle die Teller! Was tut Hans? Er zählt die Teller.</div><div class=\"kurss-example\">Hans und Olga, zählt die Teller! Was tun Hans und Olga? Sie zählen die Teller.</div><div class=\"kurss-example\">Fräulein Müller, zählen Sie, bitte, die Teller!</div><div class=\"kurss-example\">Hans, öffne das Fenster! Was tut Hans? Er öffnet das Fenster.</div><div class=\"kurss-example\">Hans und Olga, öffnet die Fenster! Was tun Hans und Olga? Sie öffnen die Fenster.</div><div class=\"kurss-example\">Fräulein Müller, öffnen Sie, bitte, alle Fenster!</div><div class=\"kurss-example\">Fräulein Müller öffnet alle Fenster.</div><div class=\"kurss-example\">Das ist der Spiegel. Das sind die Spiegel.</div><div class=\"kurss-example\">Das ist der Lappen. Das sind die Lappen.</div><div class=\"kurss-example\">Das ist der Spaten. Das sind die Spaten.</div><div class=\"kurss-example\">Das ist der Besen. Das sind die Besen.</div><div class=\"kurss-example\">Das ist die Schaufel. Das sind die Schaufeln.</div><div class=\"kurss-example\">Das ist die Schüssel. Das sind die Schüsseln.</div><div class=\"kurss-example\">Das je das Zimmer. Das sind die Zimmer.</div><div class=\"kurss-example\">Das ist das Ufer. Das sind die Ufer.</div></div></div>\n            </details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Слова</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Шинген - пей</div><div class=\"kurss-example\">Singe — dziedi</div><div class=\"kurss-example\">Singt — dziediet</div><div class=\"kurss-example\">Singen Sie-dziediet</div><div class=\"kurss-example\">Das Lied (das lit) - песен</div><div class=\"kurss-example\">Си - Ти</div><div class=\"kurss-example\">Zählen - да брои</div><div class=\"kurss-example\">Das Fräulein (froilein) — jaunkundze</div><div class=\"kurss-example\">Der Müller — dzirnavnieks</div><div class=\"kurss-example\">Öffnen - отворено</div><div class=\"kurss-example\">Das Fenster (fenster) — logs</div><div class=\"kurss-example\">Alle — visi</div><div class=\"kurss-example\">Der Spiegel (шпигел) – огледало</div><div class=\"kurss-example\">Der Lappen — lupata, slaukis</div><div class=\"kurss-example\">Der Spaten - лопата</div><div class=\"kurss-example\">Der Besen — slota</div><div class=\"kurss-example\">Die Schaufel - лопата</div><div class=\"kurss-example\">Die Schüssel - купа</div><div class=\"kurss-example\">Das Zimmer — istaba</div><div class=\"kurss-example\">Das Ufer (üfer) - бряг</div></div></div></details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Izruna</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Sp в началото на дума или сричка се произнася šp: der Spiegel.</div><div class=\"kurss-example\">Sch се произнася като латвийското š: die Schaufel, die Schüssel.</div><div class=\"kurss-example\">Дифтонгът äu се произнася като латвийския oi: das Fräulein (das froilein).</div></div></div></details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Gramatika</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content lesson1-grammar-content\"><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>1</span>Команден израз</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Ukazan izraz v 2. osebi ednine ustreza glagolu v 2. osebi ednine brez končnice obraza -st, pri čemer je dodana končnica -e.</div><div class=\"kurss-example\">Примери: antworte!, arbeite!, öffne!, zeichne!</div><div class=\"kurss-example\">Много често окончанието -e не се използва, ако с него формата на командата става едносрична: heh!, stekh!, comm!, tu!, sing!, frag!</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>2</span>Множествен отбор</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Формата за 2-ро лице за множествено число на командата е подобна на формата за 2-ро лице за множествено число, но се използва без местоимение.</div><div class=\"kurss-example\">Примери: antwortet!, arbeitt!, öffnett!, zeichnet!, geht!, steht!, tut!</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>3</span>Uzrunas forma ar Sie</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Формата на обръщение \"Вие\" наподобява трето лице множествено число. Местоимението Sie се изписва с главна буква и идва след глагола.</div><div class=\"kurss-example\">Примери: antworten Sie!, arbeiten Sie!, öffnen Sie!, zeichnen Sie!, gehen Sie!, stehen Sie!, tun Sie!</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>4</span>Öffnen</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">За глагола öffent, за да се улесни произношението, се поставя e между основата и окончанието във 2-ро и 3-то лице единствено число и във 2-ро лице множествено число: du öffnest, er öffnet, ihr öffnet.</div></div></section></div></details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Übung / Упражнение</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-training-wrap\"><button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson7-exercise-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"Lekcija 7 vingrinājuma kartīte\"><span class=\"lesson1-training-progress\">Lekcija 7 · Übung: 1 / 16</span><span class=\"lesson1-training-text\">Fragen - питайте</span></button><p class=\"lesson1-training-hint\">Докоснете картата, за да видите формите на отбора.</p></div></div></details>",
-  "kurssLesson1": "            <h3>Lekcija 1</h3>\n            <p class=\"kurss-lesson-intro\">Първа лекция: глаголи в сегашно време, думи, произношение, граматика и превод.</p>\n            <details class=\"lesson1-accordion\" open>\n              <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Глаголи в сегашно време</span><span class=\"lesson1-chevron\">⌃</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-info\">Глаголите и нивните конјугации во сегашно време.</div>\n                <div class=\"lesson1-verb-cards\">\n                  <article class=\"lesson1-verb-card\">\n                    <h4><span class=\"lesson1-verb-icon\">♟</span>Kommen - ела</h4>\n                    <div class=\"lesson1-conjugation\"><span>Ich</span><strong>Komme</strong><span>Идвам</span><span>du</span><strong>Kommst</strong><span>Идваш</span><span>Er / sie</span><strong>Kommt</strong><span>Той/тя ще дойде</span><span>Wir</span><strong>Kommen</strong><span>Идваме</span><span>Ихр</span><strong>Kommt</strong><span>Идваш ли</span><span>Sie / Sie</span><strong>Kommen</strong><span>Тие/ти доаѓаат</span></div>\n                  </article>\n                  <article class=\"lesson1-verb-card\">\n                    <h4><span class=\"lesson1-verb-icon\">♟</span>Gehen — iet</h4>\n                    <div class=\"lesson1-conjugation\"><span>Ich</span><strong>Gehe</strong><span>Ес еју</span><span>du</span><strong>Gehst</strong><span>Tu ej</span><span>Er / sie</span><strong>Geht</strong><span>Тој/таа доаѓа</span><span>Wir</span><strong>Оди</strong><span>Ние тръгваме</span><span>Ихр</span><strong>Geht</strong><span>Ти върви</span><span>Sie / Sie</span><strong>Оди</strong><span>Тие/ти доаѓаат</span></div>\n                  </article>\n                  <article class=\"lesson1-verb-card\">\n                    <h4><span class=\"lesson1-verb-icon\">♟</span>Стефан - стой</h4>\n                    <div class=\"lesson1-conjugation\"><span>Ich</span><strong>Stehe</strong><span>Стоя си</span><span>du</span><strong>Stehst</strong><span>Стоиш ли</span><span>Er / sie</span><strong>Steht</strong><span>Той/тя стои</span><span>Wir</span><strong>Stehen</strong><span>Стоим</span><span>Ихр</span><strong>Steht</strong><span>Стоиш ли</span><span>Sie / Sie</span><strong>Stehen</strong><span>Те/вие стоите</span></div>\n                  </article>\n                  <article class=\"lesson1-verb-card\">\n                    <h4><span class=\"lesson1-verb-icon\">♟</span>Шинген - пей</h4>\n                    <div class=\"lesson1-conjugation\"><span>Ich</span><strong>Singe</strong><span>Es dziedu</span><span>du</span><strong>Singst</strong><span>Tu dziedi</span><span>Er / sie</span><strong>Singt</strong><span>Той/тя пее</span><span>Wir</span><strong>Singen</strong><span>Ние пеем</span><span>Ихр</span><strong>Singt</strong><span>Poješ</span><span>Sie / Sie</span><strong>Singen</strong><span>Те/вие пеете</span></div>\n                  </article>\n                </div>\n                <section class=\"lesson1-block\">\n                  <h4>Примери</h4>\n                  <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Stehst du?<br>Да, ич стехе.</div><div class=\"kurss-example\">Steht Albert?<br>Ja, er steht.</div><div class=\"kurss-example\">Steht Marta?<br>Ja, sie steht.</div><div class=\"kurss-example\">Wer kommt und singt?<br>Albert und Marta kommen und singen.</div><div class=\"kurss-example\">Geht ihr?<br>Ja, wir gehen.</div><div class=\"kurss-example\">Wer steht und singt?<br>Albert und Marta stehen und singen.</div></div>\n                </section>\n              </div>\n            </details>\n            <details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Имена</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-info lesson1-vardini-info\"><span class=\"lesson1-info-icon\" aria-hidden=\"true\">i</span><span>Приблизителното произношение на думите е дадено в скоби с латвийски букви.<br>Това също трябва да се вземе предвид в бъдещите лекции.</span></div>\n                <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Vir (мъжки) – ние</div><div class=\"kurss-example\">Во зборот „вир“ буквата „и“ се изговара долго време.</div><div class=\"kurss-example\">Комен – ела</div><div class=\"kurss-example\">Gehen (gē-en) - да отида</div><div class=\"kurss-example\">Stehen (šte-en) - стойка</div><div class=\"kurss-example\">Singen (zingen) - пея</div><div class=\"kurss-example\">Du(dû)kommst - ще дойдеш</div><div class=\"kurss-example\">Er(er)commt - той идва</div><div class=\"kurss-example\">Sie (zī) kommt – тя идва</div><div class=\"kurss-example\">Wer (ver) – какво?</div><div class=\"kurss-example\">Ако (да) - да</div></div>\n              </div>\n            </details>\n                        <details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Izruna</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Предавањата го учат правилниот изговор на зборовите означени со латвиски букви.</div><div class=\"kurss-example\">Veer (мъжки) – ние. Думата viri винаги има дълго произношение.</div></div>\n              </div>\n            </details>\n<details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Gramatika</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content lesson1-grammar-content\">\n                <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>∞</span>Инфинитив</h4><div class=\"lesson1-grammar-note\">Основна форма на глагола. Обикновено инфинитивът завършва на -en.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Kommen</div><div class=\"kurss-example\">Оди</div><div class=\"kurss-example\">Stehen</div><div class=\"kurss-example\">Singen</div></div></section>\n                <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>♟</span>Tagadnes galotnes</h4><div class=\"lesson1-ending-info\"><span class=\"lesson1-info-icon\" aria-hidden=\"true\">i</span><div class=\"lesson1-ending-info-body\"><p><strong>Noņem <span class=\"lesson1-ending-accent\">-en</span> no darbības vārda pamatformas un pieliec galotni.</strong></p><p>Пример: comm → comm + край</p><div class=\"lesson1-ending-process\" aria-label=\"Tagadnes galotnes veidošanas process\"><div class=\"lesson1-ending-step\"><strong>Kommen</strong><span>Pamatforma</span></div><span class=\"lesson1-ending-arrow\">→</span><div class=\"lesson1-ending-step\"><strong>noņem <span class=\"lesson1-ending-accent\">-en</span></strong><span>Paliek sakne</span></div><span class=\"lesson1-ending-arrow\">→</span><div class=\"lesson1-ending-step\"><strong>Komm</strong><span>Sakne</span></div><span class=\"lesson1-ending-arrow\">→</span><div class=\"lesson1-ending-step\"><strong>Pieliec galotni</strong><span>E / st / t</span></div><span class=\"lesson1-ending-arrow\">→</span><div class=\"lesson1-ending-results\"><div>komm + <span class=\"lesson1-ending-accent\">e</span> = <strong>Komme</strong></div><div>komm + <span class=\"lesson1-ending-accent\">st</span> = <strong>Kommst</strong></div><div>komm + <span class=\"lesson1-ending-accent\">t</span> = <strong>Kommt</strong></div></div></div></div></div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Ich → -e</div><div class=\"kurss-example\">Du → -st</div><div class=\"kurss-example\">Er / sie → -t</div><div class=\"kurss-example\">Wir → -en</div><div class=\"kurss-example\">Ihr → -t</div><div class=\"kurss-example\">Sie → -en</div></div></section>\n                <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>●</span>Примери</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Ich komme</div><div class=\"kurss-example\">Du kommst</div><div class=\"kurss-example\">Er kommt</div><div class=\"kurss-example\">Wir kommen</div></div></section>\n                <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>?</span>Stavki z vprašanji</h4><div class=\"lesson1-grammar-info\"><span class=\"lesson1-info-icon\" aria-hidden=\"true\">i</span><span>Във въпросително изречение на немски глаголът обикновено се премества на първа позиция.</span></div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">На латвийски:<br>Идваш<br>Идваш ли</div><div class=\"kurss-example\">На немски:<br>Du kommst.<br>Kommst du?</div><div class=\"kurss-example\">Du kommst - ще дойдеш<br>Ти откъде си - ще дойдеш ли</div><div class=\"kurss-example\">Er sint - той пее<br>Пее, а? - дали пее</div></div></section>\n                <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>♣</span>Лична разлика</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Er kommt - той идва</div><div class=\"kurss-example\">Sie kommt - тя идва</div><div class=\"kurss-example\">Sie kommen - те/те идват</div></div></section>\n              </div>\n            </details>\n                        <details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Трансфер</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-training-wrap\">\n                  <button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson1-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"Lekcija 1 treniņa kartīte\">\n                    <span class=\"lesson1-training-progress\">Лекция 1 · Превод: 1 / 11</span>\n                    <span class=\"lesson1-training-text\">Идваш ли</span>\n                  </button>\n                  <p class=\"lesson1-training-hint\">Кликнете върху картата, за да видите немския превод. След отговор следващото щракване показва следващата карта.</p>\n                </div>\n              </div>\n            </details>"
+  "kurssArticlesLesson": "\n  <h3>Artikuli</h3>\n\n  <div class=\"artikuli-info artikuli-intro-info\">\n    <span class=\"artikuli-info-icon\">i</span>\n    <div>Vācu artikuls ne vienmēr sakrīt ar latviešu dzimti. Tāpēc lietvārdus vislabāk mācīties kopā ar artikulu.</div>\n  </div>\n\n  <section class=\"artikuli-block\">\n    <h4 class=\"artikuli-header\"><span>•</span>Artikulu piemēri</h4>\n    <div class=\"artikuli-grid\">\n      <div class=\"kurss-example\">Der Tisch — galds</div>\n      <div class=\"kurss-example\">Die Tür — durvis</div>\n      <div class=\"kurss-example\">Das Messer — nazis</div>\n      <div class=\"kurss-example\">Das Mädchen — meitene</div>\n    </div>\n  </section>\n\n  <section class=\"artikuli-block\">\n    <h4 class=\"artikuli-header\"><span>♂</span>Bieži DER</h4>\n    <p class=\"artikuli-explain\">DER bieži ir vīriešu personas, dienas, mēneši, gadalaiki un daži vārdi ar noteiktām galotnēm.</p>\n\n    <h5 class=\"artikuli-subtitle\">Noteikumi</h5>\n    <div class=\"artikuli-grid\">\n      <div class=\"kurss-example\">-er → bieži DER, piemēram: der Computer, der Lehrer <span class=\"artikuli-note\">Bet ne vienmēr</span></div>\n      <div class=\"kurss-example\">-ling → bieži DER, piemēram: der Schmetterling</div>\n      <div class=\"kurss-example\">-ismus → bieži DER, piemēram: der Tourismus, der Kapitalismus</div>\n      <div class=\"kurss-example\">Vīriešu personas → der Mann, der Vater</div>\n      <div class=\"kurss-example\">Profesijas → der Lehrer, der Arzt</div>\n      <div class=\"kurss-example\">Automobiļu markas → der BMW, der Mercedes</div>\n      <div class=\"kurss-example\">Dienas → der Montag, der Dienstag</div>\n      <div class=\"kurss-example\">Mēneši → der August, der Dezember</div>\n      <div class=\"kurss-example\">Gadalaiki → der Sommer, der Winter</div>\n    </div>\n\n    <h5 class=\"artikuli-subtitle\">Piemēri</h5>\n    <div class=\"artikuli-grid\">\n      <div class=\"kurss-example\">Der Mann - moški</div>\n      <div class=\"kurss-example\">Der Vater — tēvs</div>\n      <div class=\"kurss-example\">Der Montag — pirmdiena</div>\n      <div class=\"kurss-example\">Der August — avgust</div>\n      <div class=\"kurss-example\">Der Sommer — vasara</div>\n      <div class=\"kurss-example\">Der Lehrer — skolotājs</div>\n      <div class=\"kurss-example\">Der Computer — dators</div>\n      <div class=\"kurss-example\">Der Schmetterling — taurenis</div>\n    </div>\n  </section>\n\n  <section class=\"artikuli-block\">\n    <h4 class=\"artikuli-header\"><span>♀</span>Bieži DIE</h4>\n    <p class=\"artikuli-explain\">DIE bieži ir sieviešu personas, daudzskaitlis un vārdi ar galotnēm -ung, -heit, -keit, -schaft, -ion, -tät, -ei.</p>\n\n    <h5 class=\"artikuli-subtitle\">Noteikumi</h5>\n    <div class=\"artikuli-grid\">\n      <div class=\"kurss-example\">-ung → die Wohnung, die Rechnung</div>\n      <div class=\"kurss-example\">-heit → die Freiheit, die Gesundheit</div>\n      <div class=\"kurss-example\">-keit → die Möglichkeit</div>\n      <div class=\"kurss-example\">-schaft → die Mannschaft</div>\n      <div class=\"kurss-example\">-ion → die Nation</div>\n      <div class=\"kurss-example\">-tät → die Universität</div>\n      <div class=\"kurss-example\">-ei → die Polizei, die Bäckerei</div>\n      <div class=\"kurss-example\">Sieviešu personas → die Frau, die Mutter</div>\n      <div class=\"kurss-example\">Motociklu markas → die Harley-Davidson, die Yamaha</div>\n      <div class=\"kurss-example\">Daudzskaitlis → die Autos, die Häuser</div>\n      <div class=\"kurss-example\">Daudzskaitlis gandrīz vienmēr → die Autos, die Häuser, die Kinder</div>\n    </div>\n\n    <h5 class=\"artikuli-subtitle\">Piemēri</h5>\n    <div class=\"artikuli-grid\">\n      <div class=\"kurss-example\">Die Frau - ženska</div>\n      <div class=\"kurss-example\">Die Mutter — māte</div>\n      <div class=\"kurss-example\">Die Wohnung — dzīvoklis</div>\n      <div class=\"kurss-example\">Die Rechnung — rēķins</div>\n      <div class=\"kurss-example\">Die Freiheit — brīvība</div>\n      <div class=\"kurss-example\">Die Möglichkeit — iespēja</div>\n      <div class=\"kurss-example\">Die Mannschaft — komanda</div>\n      <div class=\"kurss-example\">Die Nation — nācija</div>\n      <div class=\"kurss-example\">Die Universität — universitāte</div>\n      <div class=\"kurss-example\">Die Polizei — policija</div>\n    </div>\n  </section>\n\n  <section class=\"artikuli-block\">\n    <h4 class=\"artikuli-header\"><span>◇</span>Bieži DAS</h4>\n    <p class=\"artikuli-explain\">DAS bieži ir pamazināmie ar -chen / -lein, daudzi vārdi ar -ment / -um un darbības vārdi kā lietvārdi.</p>\n\n    <h5 class=\"artikuli-subtitle\">Noteikumi</h5>\n    <div class=\"artikuli-grid\">\n      <div class=\"kurss-example\">-chen → das Mädchen, das Häuschen</div>\n      <div class=\"kurss-example\">-lein → das Fräulein</div>\n      <div class=\"kurss-example\">-ment → das Instrument</div>\n      <div class=\"kurss-example\">-um → das Zentrum, das Museum</div>\n      <div class=\"kurss-example\">Metāli → das Gold, das Silber, das Eisen</div>\n      <div class=\"kurss-example\">Ķīmiskie elementi → das Eisen, das Sauerstoff</div>\n      <div class=\"kurss-example\">Viesnīcas → das Hotel</div>\n      <div class=\"kurss-example\">Krāsas kā lietvārdi → das Rot, das Blau</div>\n      <div class=\"kurss-example\">Darbības vārds kā lietvārds → das Essen, das Lernen</div>\n      <div class=\"kurss-example\">Darbības vārdi kā lietvārdi → das Essen, das Lernen, das Lesen</div>\n    </div>\n\n    <h5 class=\"artikuli-subtitle\">Piemēri</h5>\n    <div class=\"artikuli-grid\">\n      <div class=\"kurss-example\">Das Kind — bērns</div>\n      <div class=\"kurss-example\">Das Mädchen — meitene</div>\n      <div class=\"kurss-example\">Das Häuschen — mājiņa</div>\n      <div class=\"kurss-example\">Das Instrument — instruments</div>\n      <div class=\"kurss-example\">Das Zentrum — centrs</div>\n      <div class=\"kurss-example\">Das Museum — muzejs</div>\n      <div class=\"kurss-example\">Das Essen — ēšana / ēdiens</div>\n      <div class=\"kurss-example\">Das Lernen — mācīšanās</div>\n    </div>\n  </section>\n\n  <section class=\"artikuli-block\">\n    <h4 class=\"artikuli-header\"><span>!</span>Svarīgi izņēmumi / jāiemācās ar artikulu</h4>\n    <p class=\"artikuli-explain\">Dažiem vārdiem artikulu nevar droši noteikt pēc galotnes vai latviešu dzimtes. Tos vislabāk mācīties kopā ar artikulu.</p>\n    <div class=\"artikuli-grid\">\n      <div class=\"kurss-example\">Die Tür — durvis</div>\n      <div class=\"kurss-example\">Das Messer — nazis</div>\n      <div class=\"kurss-example\">Die Sonne — sonce</div>\n      <div class=\"kurss-example\">Der Mond — mēness</div>\n      <div class=\"kurss-example\">Das Mädchen — meitene</div>\n      <div class=\"kurss-example\">Das Auto — automašīna</div>\n      <div class=\"kurss-example\">Der Käse — siers</div>\n      <div class=\"kurss-example\">Die Gabel — dakša</div>\n    </div>\n  </section>\n\n  <div class=\"artikuli-info artikuli-bottom-info\">\n    <span class=\"artikuli-info-icon\">i</span>\n    <div>Galotnes un vārdu grupas palīdz uzminēt artikulu, bet tās nav 100% drošs likums. Ja neesi pārliecināts, mācies vārdu kopā ar artikulu.</div>\n  </div>\n",
+  "kurssPronounsLesson": "\n            <h3>Vietniekvārdi</h3>\n            <p class=\"kurss-lesson-intro\">Nominativ, Akkusativ un Dativ — vietniekvārdu formas.</p>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Nominativ — kas?</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Ich — es</div><div class=\"kurss-example\">Du — tu</div><div class=\"kurss-example\">Hm - on</div><div class=\"kurss-example\">Sie — viņa</div><div class=\"kurss-example\">Es — tas</div><div class=\"kurss-example\">Wir — mēs</div><div class=\"kurss-example\">Ihr — jūs</div><div class=\"kurss-example\">Sie — viņi / viņas</div><div class=\"kurss-example\">Sie — Jūs (pieklājības)</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Akkusativ — ko?</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Mich — mani</div><div class=\"kurss-example\">Dich — tevi</div><div class=\"kurss-example\">Ihn — viņu (v.)</div><div class=\"kurss-example\">Sie — viņu (s.)</div><div class=\"kurss-example\">Es — to</div><div class=\"kurss-example\">Uns — mūs</div><div class=\"kurss-example\">Euch — jūs</div><div class=\"kurss-example\">Sie — viņus / viņas</div><div class=\"kurss-example\">Sie — Jūs (pieklājības)</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Dativ — kam?</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Umre - meni</div><div class=\"kurss-example\">Dir — tev</div><div class=\"kurss-example\">Ihm — viņam / tam</div><div class=\"kurss-example\">Ihr — viņai</div><div class=\"kurss-example\">Uns — mums</div><div class=\"kurss-example\">Euch — jums</div><div class=\"kurss-example\">Ihnen — viņiem / viņām</div><div class=\"kurss-example\">Ihnen — Jums (pieklājības)</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Kā izvēlēties formu?</h4>\n              <ul class=\"kurss-summary-list\"><li><span class=\"case-blue\">Nominativ</span> — teikuma priekšmets (kas dara?)</li><li><span class=\"case-red\">Akkusativ</span> — tiešais objekts (ko?)</li><li><span class=\"case-green\">Dajalnik</span> — netiešais objekts (kam?)</li></ul>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Piemēri</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Ich sehe <span class=\"case-red\">Ti</span>. — Es tevi redzu.</div><div class=\"kurss-example\">Ich sehe <span class=\"case-red\">Ihn</span>. — Es viņu redzu.</div><div class=\"kurss-example\">Wir mögen <span class=\"case-red\">Euch</span>. — Mums jūs patīkat.</div><div class=\"kurss-example\">Ich helfe <span class=\"case-green\">Dir</span>. — Es tev palīdzu.</div><div class=\"kurss-example\">Ich gebe <span class=\"case-green\">Ihm</span> ein Buch. — Es dodu viņam grāmatu.</div><div class=\"kurss-example\">Wir danken <span class=\"case-green\">Euch</span>. — Mēs jums pateicamies.</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Atceries!</h4>\n              <p>Nominativ vienmēr ir teikuma priekšmets, bet Akkusativ un Dativ — objekti. Skaties uz darbības vārdu un jautā: <span class=\"case-red\">Kaj</span> vai <span class=\"case-green\">Kam?</span></p>\n            </section>\n",
+  "kurssPronunciationLesson": "\n            <h3>Patskaņi — garš un īss</h3>\n            <p class=\"kurss-lesson-intro\">Vācu valodā patskaņi var būt gari vai īsi. Tas ietekmē vārda izrunu.</p>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Garš patskanis</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Warm (varm) — silts</div><div class=\"kurss-example\">Gut (gūt) — labs</div><div class=\"kurss-example\">Tat (tāt) — darbs / rīcība</div><div class=\"kurss-example\">Flur (flūr) — gaitenis</div><div class=\"kurss-example\">Weg (vēk) — ceļš</div><div class=\"kurss-example\">Hut (hūt) — cepure</div><div class=\"kurss-example\">Hof (hōf) — pagalms</div><div class=\"kurss-example\">Schlaf (šlāf) — miegs</div></div>\n              <p>Ja pēc patskaņa seko viens līdzskanis, patskani bieži izrunā gari.</p>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Kratek samoglasnik</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Pilz (pilc) — sēne</div><div class=\"kurss-example\">Wort (vort) — vārds</div><div class=\"kurss-example\">Mund (munt) — mute</div><div class=\"kurss-example\">Bald (balt) — drīz</div><div class=\"kurss-example\">Scharf (šarf) — ass</div><div class=\"kurss-example\">Feld (felt) — lauks</div><div class=\"kurss-example\">Voll (fol) — pilns</div></div>\n              <p>Ja pēc patskaņa seko divi vai vairāk līdzskaņi, patskani bieži izrunā īsi.</p>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Končnice en / el / er</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Singen (zingen) — dziedāt</div><div class=\"kurss-example\">Tragen (trāgen) — nest</div><div class=\"kurss-example\">Garten (garten) - vrt</div><div class=\"kurss-example\">Vogel (fogel) — putns</div><div class=\"kurss-example\">Segel (zēgel) — bura</div><div class=\"kurss-example\">Braten (brāten) — cepetis</div><div class=\"kurss-example\">Bogen (bōgen) — loks</div><div class=\"kurss-example\">Spiegel (špīgel) — spogulis</div><div class=\"kurss-example\">Finger (finger) — pirksts</div><div class=\"kurss-example\">Halter (halter) — turētājs</div><div class=\"kurss-example\">Arbeiter (arbaiter) — strādnieks</div><div class=\"kurss-example\">Häuser (hoizer) — mājas</div><div class=\"kurss-example\">Wieder (vīder) — atkal</div><div class=\"kurss-example\">Breiter (braiter) — platāks</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Burts h kā garumzīme</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Rahmen (rāmen) — rāmis</div><div class=\"kurss-example\">Ohr (ōr) — auss</div><div class=\"kurss-example\">Kohle (kōle) — ogles</div><div class=\"kurss-example\">Zahl (cāl) — skaitlis</div><div class=\"kurss-example\">Ihn (īn) — viņu</div><div class=\"kurss-example\">Ihm (īm) — viņam</div><div class=\"kurss-example\">Huhn (hūn) - piščanec</div><div class=\"kurss-example\">Nahm (nām) — ņēma</div><div class=\"kurss-example\">Nehmen (nēmen) — ņemt</div><div class=\"kurss-example\">Schuh (šū) — kurpe</div></div>\n              <p>Dažos vārdos h pagarina iepriekšējo patskani. Šādos gadījumos h parasti neizrunā.</p>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Galotnes ar e</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Lampe (lampe) — lampa</div><div class=\"kurss-example\">Hase (hāze) — zaķis</div><div class=\"kurss-example\">Knabe (knābe) — zēns</div><div class=\"kurss-example\">Rabe (rābe) — krauklis</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Garais i = ie</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Die (dī) — artikuls “die”</div><div class=\"kurss-example\">Diese (dīze) — šī / šie</div><div class=\"kurss-example\">Wieder (vīder) — atkal</div><div class=\"kurss-example\">Fliege (flīge) — muša</div><div class=\"kurss-example\">Ziege (cīge) — kaza</div><div class=\"kurss-example\">Stiel (štīl) — kāts</div><div class=\"kurss-example\">Dieb (dīp) — zaglis</div><div class=\"kurss-example\">Hier (hīr) - tukaj</div></div>\n              <p>Garais i vācu valodā bieži tiek rakstīts kā ie.</p>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Dubultie patskaņi</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Saal (zāl) — zāle</div><div class=\"kurss-example\">Saat (zāt) — sēja</div><div class=\"kurss-example\">Staat (štāt) — valsts</div><div class=\"kurss-example\">Beere (bēre) — oga</div><div class=\"kurss-example\">See (zē) — ezers / jūra</div><div class=\"kurss-example\">Beet (bēt) — dobe</div><div class=\"kurss-example\">Boot (bōt) — laiva</div><div class=\"kurss-example\">Moor (mōr) — purvs</div><div class=\"kurss-example\">Moos (mōs) — sūnas</div></div>\n              <p>Dubultie patskaņi parasti tiek izrunāti gari.</p>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>ä</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Wand (vant) — siena</div><div class=\"kurss-example\">Wände (vende) — sienas</div><div class=\"kurss-example\">Vater (fāter) — tēvs</div><div class=\"kurss-example\">Väter (fēter) — tēvi</div><div class=\"kurss-example\">Schrank (šrank) — skapis</div><div class=\"kurss-example\">Schränke (šrenke) — skapji</div><div class=\"kurss-example\">Banka (banka) - klop / banka</div><div class=\"kurss-example\">Bänke (benke) — soli</div><div class=\"kurss-example\">Tal (tāl) — ieleja</div><div class=\"kurss-example\">Täler (tēler) — ielejas</div></div>\n              <p>Ä ir a pārskaņojums.</p>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>ö</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Rose (rōze) — roze</div><div class=\"kurss-example\">Röschen (rēschen) — rozīte</div><div class=\"kurss-example\">Ofen (ōfen) — krāsns</div><div class=\"kurss-example\">Öfen (ēfen) — krāsnis</div><div class=\"kurss-example\">Rock (rok) — svārki</div><div class=\"kurss-example\">Röcke (röke) — svārki</div></div>\n              <p>Ö ir o pārskaņojums.</p>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>ü</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Kurz (kurc) — īss</div><div class=\"kurss-example\">Kürzer (kurcer) — īsāks</div><div class=\"kurss-example\">Kunst (kunst) — māksla</div><div class=\"kurss-example\">Künste (künste) — mākslas</div><div class=\"kurss-example\">Mutter (muter) — māte</div><div class=\"kurss-example\">Mütter (mutter) — mātes</div></div>\n              <p>Ü ir u pārskaņojums.</p>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Divskaņi: äu</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Baum (baum) — koks</div><div class=\"kurss-example\">Bäume (boime) — koki</div><div class=\"kurss-example\">Haus (haus) — māja</div><div class=\"kurss-example\">Häuser (hoizer) — mājas</div><div class=\"kurss-example\">Strauch (štrauh) — krūms</div><div class=\"kurss-example\">Sträucher (štroiher) - grmičevje</div><div class=\"kurss-example\">Maus (maus) — pele</div><div class=\"kurss-example\">Mäuse (moize) — peles</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Divskaņi: eu</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Heute (hoite) — šodien</div><div class=\"kurss-example\">Leute (loite) — cilvēki</div><div class=\"kurss-example\">Neu (noi) — jauns</div><div class=\"kurss-example\">Neun (noin) — deviņi</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Divskaņi: ei</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Mein (main) — mans</div><div class=\"kurss-example\">Dein (dain) — tavs</div><div class=\"kurss-example\">Sein (zain) — viņa / viņas / būt</div><div class=\"kurss-example\">Frei (frai) — brīvs</div><div class=\"kurss-example\">Arbeiten (arbaiten) — strādāt</div></div>\n            </section>\n            <section class=\"kurss-lesson-section\">\n              <h4>2. lekcijas izrunas piezīmes</h4>\n              <ul class=\"kurss-summary-list\"><li>Vārdos ich, nicht, rechnen, zeichnen “ch” izrunā mīksti</li><li>V arbeiten in zeichnen se \"ei\" izgovori kot \"ai\"</li><li>“sp” vārda sākumā izrunā kā “šp”</li><li>Darbības vārdā tun burts “u” izrunājams garš</li></ul>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Kopsavilkums</h4>\n              <ul class=\"kurss-summary-list\"><li>Viens līdzskanis pēc patskaņa → bieži garš patskanis</li><li>Divi vai vairāk līdzskaņi → bieži īss patskanis</li><li>H lahko podaljšuje samoglasnik</li><li>Ie bieži nozīmē garo i</li><li>Dubultie patskaņi parasti ir gari</li></ul>\n            </section>",
+  "kurssConsonantsLesson": "\n            <h3>Līdzskaņi un burtu savienojumi</h3>\n            <p class=\"kurss-lesson-intro\">Vācu valodā daži līdzskaņi un burtu savienojumi tiek izrunāti citādi nekā tos raksta. Šajā lekcijā ir svarīgākie piemēri iesācējam.</p>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Līdzskaņi</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Das Rad (rāt) — ritenis</div><div class=\"kurss-example\">Die Räder (rēder) — riteņi</div><div class=\"kurss-example\">Bad (bāt) — vanna</div><div class=\"kurss-example\">Bäder (bēder) — vannas</div></div>\n              <p>Vārda beigās līdzskaņi bieži netiek izrunāti tāpat kā rakstīti.</p>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>ch</h4>\n              <p>“ch” var izrunāt mīksti vai cieti. Dažos vārdos tas skan kā “h”, citos tuvāk “k”.</p>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Rechnen (rehnen) — rēķināt</div><div class=\"kurss-example\">Zeichnen (caihnen) — zīmēt</div><div class=\"kurss-example\">Nicht (niht) — ne</div><div class=\"kurss-example\">Schlecht (šleht) — slikts</div><div class=\"kurss-example\">Mich (mih) - jaz</div><div class=\"kurss-example\">Dich (dih) — tevi</div><div class=\"kurss-example\">Strauch (štrauh) — krūms</div><div class=\"kurss-example\">Noch (noh) — vēl</div><div class=\"kurss-example\">Nacht (naht) — nakts</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Sch</h4>\n              <p>“sch” vācu valodā izrunā kā latviešu “š”.</p>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Schule (šūle) — skola</div><div class=\"kurss-example\">Schüler (šūler) — skolēns</div><div class=\"kurss-example\">Schiff (šif) — kuģis</div><div class=\"kurss-example\">Schraube (šraube) — skrūve</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Sp un st vārda sākumā</h4>\n              <p>Vārda vai zilbes sākumā “sp” bieži izrunā kā “šp”, bet “st” kā “št”.</p>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Spielen (špīlen) — spēlēt</div><div class=\"kurss-example\">Sprung (šprung) — lēciens</div><div class=\"kurss-example\">Stehen (štēen) — stāvēt</div><div class=\"kurss-example\">Stall (štal) — kūts</div><div class=\"kurss-example\">Stand (štant) — stāvoklis / vieta</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>qu</h4>\n              <p>“qu” vācu valodā parasti izrunā kā “kv”.</p>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Qual (kvāl) — mokas</div><div class=\"kurss-example\">Quartier (quartier) - četrt / nastanitev</div><div class=\"kurss-example\">Quer (kvēr) — šķērsām</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>S un z</h4>\n              <p>Vārda sākumā “s” bieži skan kā “z”. Burts “z” vācu valodā skan kā latviešu “c”.</p>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Sagen (zāgen) — teikt</div><div class=\"kurss-example\">Singen (zingen) — dziedāt</div><div class=\"kurss-example\">Rose (rōze) — roze</div><div class=\"kurss-example\">Zahl (cāl) — skaitlis</div><div class=\"kurss-example\">Zeit (cait) — laiks</div><div class=\"kurss-example\">Zink (cink) — cinks</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>v</h4>\n              <p>V nemščini se 'v' pogosto izgovori kot 'f'. V tujih besedah ​​pogosto zveni kot latvijski \"v\".</p>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Vater (fāter) — tēvs</div><div class=\"kurss-example\">Von (fon) — no</div><div class=\"kurss-example\">Viel (fīl) — daudz</div><div class=\"kurss-example\">Vier (fīr) — četri</div><div class=\"kurss-example\">Villa (villa) — villa</div><div class=\"kurss-example\">Klavier (klavīr) — klavieres</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>X un y</h4>\n              <p>\"x\" se izgovori kot \"ks\". \"y\" se v nekaterih besedah ​​izgovori kot \"ü\".</p>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Felix (fēliks) — Fēlikss</div><div class=\"kurss-example\">Axt (akst) — cirvis</div><div class=\"kurss-example\">Mystik (mūstik) — mistika</div><div class=\"kurss-example\">Nyx (nūks) — Nikse</div><div class=\"kurss-example\">Mythe (mūte) — mīts</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>ß</h4>\n              <p>“ß” vācu valodā izrunā kā “s”.</p>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Fuß (fūs) — pēda</div><div class=\"kurss-example\">Füße (fūse) — pēdas</div><div class=\"kurss-example\">Grüße (grūse) — sveicieni</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Kopsavilkums</h4>\n              <ul class=\"kurss-summary-list\"><li>Sch → š</li><li>Sp / st sākumā → šp / št</li><li>Qu → kv</li><li>Z → c</li><li>V bieži → f</li><li>X → ks</li><li>SS → s</li></ul>\n            </section>",
+  "kurssVerbBasicsLesson": "\n            <h3>Darbības vārdu pamati</h3>\n            <p class=\"kurss-lesson-intro\">1. lekcijas darbības vārdi un locījumi.</p>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Darbības vārdi</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Kommen — nākt</div><div class=\"kurss-example\">Gehen — iet</div><div class=\"kurss-example\">Stehen — stāvēt</div><div class=\"kurss-example\">Singen — dziedāt</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Kommen</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Ich komme - prihajam</div><div class=\"kurss-example\">Du kommst — tu nāc</div><div class=\"kurss-example\">Er kommt — viņš nāk</div><div class=\"kurss-example\">Sie kommt – prihaja</div><div class=\"kurss-example\">Wir kommen — mēs nākam</div><div class=\"kurss-example\">Ihr kommt — jūs nākat</div><div class=\"kurss-example\">Sie kommen — viņi / viņas nāk</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Gehen</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Ich gehe — es eju</div><div class=\"kurss-example\">Du gehst — tu ej</div><div class=\"kurss-example\">Er geht - gre</div><div class=\"kurss-example\">Sie geht — viņa iet</div><div class=\"kurss-example\">Wir gehen — mēs ejam</div><div class=\"kurss-example\">Ihr geht — jūs ejat</div><div class=\"kurss-example\">Sie gehen — viņi / viņas iet</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Stehen</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Ich stehe — es stāvu</div><div class=\"kurss-example\">Du stehst — tu stāvi</div><div class=\"kurss-example\">Er steht — viņš stāv</div><div class=\"kurss-example\">Sie steht — viņa stāv</div><div class=\"kurss-example\">Wir stehen — mēs stāvam</div><div class=\"kurss-example\">Ihr steht — jūs stāvat</div><div class=\"kurss-example\">Sie stehen — viņi / viņas stāv</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Singen</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Ich singe — es dziedu</div><div class=\"kurss-example\">Du singst — tu dziedi</div><div class=\"kurss-example\">Er singt — viņš dzied</div><div class=\"kurss-example\">Sie singt — viņa dzied</div><div class=\"kurss-example\">Wir singen — mēs dziedam</div><div class=\"kurss-example\">Ihr singt — jūs dziedat</div><div class=\"kurss-example\">Sie singen — viņi / viņas dzied</div></div>\n            </section>\n            <section class=\"kurss-lesson-section\">\n              <h4>2. lekcijas darbības vārdi</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Spielen — spēlēt</div><div class=\"kurss-example\">Arbeiten — strādāt</div><div class=\"kurss-example\">Fragen — jautāt</div><div class=\"kurss-example\">Antworten — atbildēt</div><div class=\"kurss-example\">Rechnen — rēķināt</div><div class=\"kurss-example\">Zeichnen — zīmēt</div><div class=\"kurss-example\">Tun — darīt</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Spielen</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Ich spiele — es spēlēju</div><div class=\"kurss-example\">Du spielst — tu spēlē</div><div class=\"kurss-example\">Er spielt - on igra</div><div class=\"kurss-example\">Sie spielt — viņa spēlē</div><div class=\"kurss-example\">Wir spielen — mēs spēlējam</div><div class=\"kurss-example\">Ihr spielt - igraš</div><div class=\"kurss-example\">Sie spielen — viņi / viņas spēlē</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Arbeiten</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Ich arbeite — es strādāju</div><div class=\"kurss-example\">Du arbeitest — tu strādā</div><div class=\"kurss-example\">Er arbeitet — viņš strādā</div><div class=\"kurss-example\">Sie arbeitet — viņa strādā</div><div class=\"kurss-example\">Wir arbeiten — mēs strādājam</div><div class=\"kurss-example\">Ihr arbeitet — jūs strādājat</div><div class=\"kurss-example\">Sie arbeiten — viņi / viņas strādā</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Fragen</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Ich frage — es jautāju</div><div class=\"kurss-example\">Du fragst — tu jautā</div><div class=\"kurss-example\">Er fragt — viņš jautā</div><div class=\"kurss-example\">Sie fragt - vpraša</div><div class=\"kurss-example\">Wir fragen — mēs jautājam</div><div class=\"kurss-example\">Ihr fragt — jūs jautājat</div><div class=\"kurss-example\">Sie fragen — viņi / viņas jautā</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Antworten</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Ich antworte — es atbildu</div><div class=\"kurss-example\">Du antwortest — tu atbildi</div><div class=\"kurss-example\">Er antwortet — viņš atbild</div><div class=\"kurss-example\">Sie antwortet — viņa atbild</div><div class=\"kurss-example\">Wir antworten — mēs atbildam</div><div class=\"kurss-example\">Ihr antwortet — jūs atbildat</div><div class=\"kurss-example\">Sie antworten — viņi / viņas atbild</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Rechnen</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Ich rechne — es rēķinu</div><div class=\"kurss-example\">Du rechnest — tu rēķini</div><div class=\"kurss-example\">Er rechnet — viņš rēķina</div><div class=\"kurss-example\">Sie rechnet — viņa rēķina</div><div class=\"kurss-example\">Wir rechnen — mēs rēķinām</div><div class=\"kurss-example\">Ihr rechnet — jūs rēķināt</div><div class=\"kurss-example\">Sie rechnen — viņi / viņas rēķina</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Zeichnen</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Ich zeichne — es zīmēju</div><div class=\"kurss-example\">Du zeichnest — tu zīmē</div><div class=\"kurss-example\">Er zeichnet — viņš zīmē</div><div class=\"kurss-example\">Sie zeichnet — viņa zīmē</div><div class=\"kurss-example\">Wir zeichnen — mēs zīmējam</div><div class=\"kurss-example\">Ihr zeichnet — jūs zīmējat</div><div class=\"kurss-example\">Sie zeichnen — viņi / viņas zīmē</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Tun</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Ich tue — es daru</div><div class=\"kurss-example\">Du tust — tu dari</div><div class=\"kurss-example\">Er tut — viņš dara</div><div class=\"kurss-example\">Sie tut — viņa dara</div><div class=\"kurss-example\">Wir tun — mēs darām</div><div class=\"kurss-example\">Ihr tut — jūs darāt</div><div class=\"kurss-example\">Sie tun — viņi / viņas dara</div></div>\n            </section>",
+  "kurssSentenceStructureLesson": "\n            <h3>Teikumu uzbūve</h3>\n            <p class=\"kurss-lesson-intro\">Jautājuma teikumā darbības vārds vācu valodā parasti stāv pirmajā vietā.</p>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Piemēri</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Du kommst. — Tu nāc.</div><div class=\"kurss-example\">Kommst du? — Vai tu nāc?</div><div class=\"kurss-example\">Er singt. — Viņš dzied.</div><div class=\"kurss-example\">Singt er? — Vai viņš dzied?</div><div class=\"kurss-example\">Stehst du? — Vai tu stāvi?</div><div class=\"kurss-example\">Ja, ich stehe. — Jā, es stāvu.</div><div class=\"kurss-example\">Geht ihr? — Vai jūs ejat?</div><div class=\"kurss-example\">Ja, wir gehen. — Jā, mēs ejam.</div></div>\n            </section>\n            <section class=\"kurss-lesson-section\">\n              <h4>Jautājumi ar “was”</h4>\n              <p>Ja jautājums sākas ar jautājamo vārdu, darbības vārds vācu valodā parasti stāv tūlīt aiz jautājamā vārda.</p>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Was tust du? — Ko tu dari?</div><div class=\"kurss-example\">Was tut er? — Ko viņš dara?</div><div class=\"kurss-example\">Was tut sie? \"Kaj počne?\"</div><div class=\"kurss-example\">Was tun sie? — Kaj delajo?</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Noliegums ar “nicht”</h4>\n              <p>Ja noliegums “nicht” attiecas uz darbības vārdu, tas vācu valodā parasti stāv pēc darbības vārda.</p>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Ich spiele nicht. — Es nespēlēju.</div><div class=\"kurss-example\">Paul fragt nicht. — Pauls nejautā.</div><div class=\"kurss-example\">Er kommt nicht. — Viņš nenāk.</div><div class=\"kurss-example\">Sie singen nicht. — Viņi / viņas nedzied.</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Teikumi no 2. lekcijas</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Spielst du? — Vai tu spēlē?</div><div class=\"kurss-example\">Nein, ich spiele nicht, ich arbeite. — Nē, es nespēlēju, es strādāju.</div><div class=\"kurss-example\">Paul fragt nicht, er arbeitet. — Pauls nejautā, viņš strādā.</div><div class=\"kurss-example\">Arbeitest du? — Vai tu strādā?</div><div class=\"kurss-example\">Nein, ich arbeite nicht, ich singe. — Nē, es nestrādāju, es dziedu.</div><div class=\"kurss-example\">Was tut Paul? — Ko dara Pauls?</div><div class=\"kurss-example\">Er spielt. — Viņš spēlē.</div><div class=\"kurss-example\">Was tut Marie? — Ko dara Marija?</div><div class=\"kurss-example\">Sie singt. — Viņa dzied.</div><div class=\"kurss-example\">Paul spielt, aber Marie singt. — Pauls spēlē, bet Marija dzied.</div><div class=\"kurss-example\">Singt ihr? — Vai jūs dziedat?</div><div class=\"kurss-example\">Nein, wir singen nicht, wir arbeiten. — Nē, mēs nedziedam, mēs strādājam.</div><div class=\"kurss-example\">Was tun Paul und Marie? — Ko dara Pauls un Marija?</div><div class=\"kurss-example\">Sie fragen. — Viņi jautā.</div><div class=\"kurss-example\">Sie antworten nicht. — Viņi neatbild.</div><div class=\"kurss-example\">Wer arbeitet? — Kas strādā?</div><div class=\"kurss-example\">Wir arbeiten. — Mēs strādājam.</div><div class=\"kurss-example\">Wir rechnen und zeichnen. — Štejemo in rišemo.</div><div class=\"kurss-example\">Sie kommen, sie fragen, sie antworten, sie arbeiten, sie spielen, sie singen, sie gehen. — Viņi / viņas nāk, jautā, atbild, strādā, spēlē, dzied un iet.</div></div>\n            </section>",
+  "kurssLesson2": "            <h3>Lekcija 2</h3>\n            <p class=\"kurss-lesson-intro\">Otrā lekcija: dialogi, vārdi, izruna, gramatika un pārtulkošana.</p>\n            <details class=\"lesson1-accordion\" open>\n              <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dialogi / teikumi</span><span class=\"lesson1-chevron\">⌃</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-card-grid\">\n                  <div class=\"kurss-example\">Spielst du?<br>Nein, ich spiele nicht, ich arbeite.</div>\n                  <div class=\"kurss-example\">Paul fragt nicht, er arbeitet.</div>\n                  <div class=\"kurss-example\">Ali delaš?<br>Nein, ich arbeite nicht, ich singe.</div>\n                  <div class=\"kurss-example\">Was tut Paul?<br>Er spielt.</div>\n                  <div class=\"kurss-example\">Was tut Marie?<br>Sie singt.</div>\n                  <div class=\"kurss-example\">Paul spielt, aber Marie singt.</div>\n                  <div class=\"kurss-example\">Singt ihr?<br>Nein, wir singen nicht, wir arbeiten.</div>\n                  <div class=\"kurss-example\">Was tun Paul und Marie?<br>Sie fragen.<br>Sie antworten nicht.</div>\n                  <div class=\"kurss-example\">Wer arbeitet?<br>Wir arbeiten.<br>Wir rechnen und zeichnen.</div>\n                  <div class=\"kurss-example\">Sie kommen, sie fragen, sie antworten, sie arbeiten, sie spielen, sie singen, sie gehen.</div>\n                </div>\n              </div>\n            </details>\n            <details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Vārdi</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-card-grid\">\n                  <div class=\"kurss-example\">Spielen — rotaļāties • Spēlēt</div>\n                  <div class=\"kurss-example\">Nein — nē</div>\n                  <div class=\"kurss-example\">Nicht — ne</div>\n                  <div class=\"kurss-example\">Arbeiten — strādāt</div>\n                  <div class=\"kurss-example\">Fragen — jautāt</div>\n                  <div class=\"kurss-example\">Was tut er? — ko viņš dara?</div>\n                  <div class=\"kurss-example\">Was tun sie? — ko viņi / viņas dara?</div>\n                  <div class=\"kurss-example\">Aber — bet</div>\n                  <div class=\"kurss-example\">Antworten — atbildēt</div>\n                  <div class=\"kurss-example\">Rechnen — rēķināt</div>\n                  <div class=\"kurss-example\">Zeichnen — zīmēt</div>\n                  <div class=\"kurss-example\">Marie — Marija</div>\n                </div>\n              </div>\n            </details>\n                        <details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Izruna</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">V besedah ​​ich, nicht, rechnen, zeichnen se glas ch izgovarja mehko, kot v latvijskih besedah: technika, Fridrich.</div><div class=\"kurss-example\">Vārdos arbeiten, zeichnen divskani ei izrunā apmēram kā latviešu plato e skaņu, kam seko i.</div><div class=\"kurss-example\">Līdzskaņu kopojumu sp izrunā kā šp: spielen (špīlen).</div><div class=\"kurss-example\">Darbības vārdā tun u izrunājams gari visās personās.</div></div>\n              </div>\n            </details>\n<details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Slovnica</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content lesson1-grammar-content\">\n                <section class=\"lesson1-block\">\n                  <h4 class=\"lesson1-grammar-header\"><span>1</span>Galotnes ar e</h4>\n                  <div class=\"lesson1-grammar-note\">Ja darbības vārda celms beidzas ar t, d, chn, tad lokot galotņu -st un -t priekšā stāv e.</div>\n                  <h5 class=\"lesson2-subtitle\">Arbeiten</h5>\n                  <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Ich arbeite</div><div class=\"kurss-example\">Du arbeitest</div><div class=\"kurss-example\">Er arbeitet</div><div class=\"kurss-example\">Ona dela</div><div class=\"kurss-example\">Delamo</div><div class=\"kurss-example\">Ihr arbeitet</div><div class=\"kurss-example\">Sie arbeiten</div></div>\n                  <h5 class=\"lesson2-subtitle\">Rechnen</h5>\n                  <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Ich rechne</div><div class=\"kurss-example\">Du rechnest</div><div class=\"kurss-example\">Er rechnet</div><div class=\"kurss-example\">Sie rechnet</div><div class=\"kurss-example\">Wir rechnen</div><div class=\"kurss-example\">Ihr rechnet</div><div class=\"kurss-example\">Sie rechnen</div></div>\n                  <h5 class=\"lesson2-subtitle\">Tun</h5>\n                  <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Ich tue</div><div class=\"kurss-example\">Du tust</div><div class=\"kurss-example\">Er tut</div><div class=\"kurss-example\">Sie tut</div><div class=\"kurss-example\">Wir tun</div><div class=\"kurss-example\">Ihr tut</div><div class=\"kurss-example\">Sie tun</div></div>\n                </section>\n                <section class=\"lesson1-block\">\n                  <h4 class=\"lesson1-grammar-header\"><span>2</span>Jautājamais vārds</h4>\n                  <div class=\"lesson1-grammar-note\">Jautājamos teikumos, kas sākas ar jautājamo vārdu, piemēram: ko? kas? kurš? kāpēc? kādēļ? etc., darbības vārds stāv tūlīt aiz jautājamā vārda.</div>\n                  <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Was tust du? — Ko tu dari?</div><div class=\"kurss-example\">Was tut er? — Ko viņš dara?</div><div class=\"kurss-example\">Was tut sie? \"Kaj počne?\"</div><div class=\"kurss-example\">Was tun sie? — Kaj delajo?</div></div>\n                </section>\n                <section class=\"lesson1-block\">\n                  <h4 class=\"lesson1-grammar-header\"><span>3</span>Noliegums ar nicht</h4>\n                  <div class=\"lesson1-grammar-note\">Ja noliegums nicht attiecas uz darbības vārdu, tad noliedzamais vārds stāv pēc darbības vārda.</div>\n                  <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Er kommt nicht. — Viņš nenāk.</div><div class=\"kurss-example\">Sie singen nicht. — Viņi nedzied.</div></div>\n                </section>\n              </div>\n            </details>\n                                    <details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Pārtulko</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-training-wrap\">\n                  <button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson2-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"Lekcija 2 pārtulkošanas kartīte\">\n                    <span class=\"lesson1-training-progress\">Lekcija 2 · Pārtulko: 1 / 15</span>\n                    <span class=\"lesson1-training-text\">Kas jautā?</span>\n                  </button>\n                  <p class=\"lesson1-training-hint\">Klikšķini uz kartītes, lai redzētu vācu tulkojumu. Pēc atbildes nākamais klikšķis rāda nākamo kartīti.</p>\n                </div>\n              </div>\n            </details>",
+  "kurssLesson6": "\n    <h3>Predavanje 6</h3>\n    <p class=\"kurss-lesson-intro\">Skaitļi, daudzskaitlis, umlauti un lietvārdu daudzskaitļa formas.</p>\n\n    <details class=\"lesson1-accordion\" open>\n      <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dialogi / teikumi</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Hier liegt ein Bleistift.</div><div class=\"kurss-example\">Dort liegen einige Messer.</div><div class=\"kurss-example\">Edgar nimmt ein Messer, zwei Messer, drei Messer.</div><div class=\"kurss-example\">Er legt die Messer wieder hin.</div><div class=\"kurss-example\">Alle Messer sind scharf.</div><div class=\"kurss-example\">Dann nimmt er wieder ein Messer.</div><div class=\"kurss-example\">Er macht das Messer auf.</div><div class=\"kurss-example\">Er nimmt den Bleistift.</div><div class=\"kurss-example\">Er spitzt den Bleistift an.</div><div class=\"kurss-example\">Er legt das Messer hin.</div><div class=\"kurss-example\">Er setzt sich und zeichnet.</div><div class=\"kurss-example\">Je bil zeichnet er? Er zeichnet einen Schlüssel.</div><div class=\"kurss-example\">Gertrud zeichnet ein Fenster und eine Tafel.</div><div class=\"kurss-example\">Anna zeichnet einen Garten.</div><div class=\"kurss-example\">Hier liegen vier Löffel.</div><div class=\"kurss-example\">Dort liegen fünf Nadeln.</div><div class=\"kurss-example\">Gertrud kommt und zählt die Löffel: das ist ein Löffel • Das sind zwei, drei, vier Löffel.</div><div class=\"kurss-example\">Anna zählt die Nadeln: das ist eine Nadel • Das sind zwei, drei, vier, fünf Nadeln.</div><div class=\"kurss-example\">Wieviel Nadeln sind hier?</div><div class=\"kurss-example\">Hier ist eine Nadel.</div><div class=\"kurss-example\">Dort sind zwei, drei, vier Nadeln.</div><div class=\"kurss-example\">Fünf Schlüssel sind hier.</div><div class=\"kurss-example\">Sechs Löffel sind dort.</div><div class=\"kurss-example\">Was ist das?</div><div class=\"kurss-example\">Das ist ein Hammer. Das sind fünf Hämmer.</div><div class=\"kurss-example\">Das ist ein Deckel. Das sind sechs Deckel.</div><div class=\"kurss-example\">Das ist ein Eimer. Das sind sieben Eimer.</div><div class=\"kurss-example\">Das ist ein Teller. Das sind acht Teller.</div><div class=\"kurss-example\">Das ist ein Wagen. Das sind neun Wagen.</div><div class=\"kurss-example\">Das ist ein Schlitten. Das sind zehn Schlitten.</div><div class=\"kurss-example\">Wie sind die Dinge?</div><div class=\"kurss-example\">Der Hammer ist klein. Die Hämmer sind klein.</div><div class=\"kurss-example\">Der Deckel ist groß. Die Deckel sind groß.</div><div class=\"kurss-example\">Der Eimer ist voll. Die Eimer sind voll.</div><div class=\"kurss-example\">Der Teller ist leer. Die Teller sind leer.</div><div class=\"kurss-example\">Der Wagen ist schwer. Die Wagen sind schwer.</div><div class=\"kurss-example\">Der Schlitten ist leicht. Die Schlitten sind leicht.</div></div></div>\n    </details>\n\n    <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Vārdi</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Liegt — atrodas, ir, guļ</div><div class=\"kurss-example\">Der Bleistift (bleištift) — zīmulis</div><div class=\"kurss-example\">Einige (einige) — daži</div><div class=\"kurss-example\">Hinlegen – odložiti</div><div class=\"kurss-example\">Legt hin — noliek</div><div class=\"kurss-example\">Wieder (vīder) — atkal</div><div class=\"kurss-example\">Aufmachen — attaīsīt</div><div class=\"kurss-example\">Er macht auf — viņš attaisa</div><div class=\"kurss-example\">Anspitzen (anšpicen) — uzsmailināt</div><div class=\"kurss-example\">Er spitzt an — viņš uzsmailina</div><div class=\"kurss-example\">Sich setzen — apsēsties</div><div class=\"kurss-example\">Setzt sich — apsēžas</div><div class=\"kurss-example\">Der Schlüssel (šlūsel) — atslēga</div><div class=\"kurss-example\">Das Fenster (fenster) — logs</div><div class=\"kurss-example\">Die Tafel (dī tāfel) — tāfele</div><div class=\"kurss-example\">Der Garten — dārzs</div><div class=\"kurss-example\">Der Löffel — karote</div><div class=\"kurss-example\">Zählen (cēlen) — skaitīt</div><div class=\"kurss-example\">Die Nadel - igla</div><div class=\"kurss-example\">Was ist das — kas tas ir?</div><div class=\"kurss-example\">Der Hammer — veseris</div><div class=\"kurss-example\">Die Hämmer — veseri</div><div class=\"kurss-example\">Der Deckel (dēr dekel) — vāks</div><div class=\"kurss-example\">Der Teller — šķīvis</div><div class=\"kurss-example\">Der Wagen — rati</div><div class=\"kurss-example\">Der Schlitten — ragavas, kamanas</div><div class=\"kurss-example\">Das Ding — lieta</div><div class=\"kurss-example\">Die Dinge — lietas</div><div class=\"kurss-example\">Wie sind die Dinge? — kādas ir lietas?</div><div class=\"kurss-example\">Voll (fōl) — pilns</div><div class=\"kurss-example\">Leer (lēr) — tukšs</div><div class=\"kurss-example\">Schwer (švēr) — smags, grūts</div><div class=\"kurss-example\">Leicht — viegls</div><div class=\"kurss-example\">Der Eimer — spainis</div><div class=\"kurss-example\">Wieviel (vīfīl) — cik</div><div class=\"kurss-example\">Wieviel Nadeln — cik adatu</div><div class=\"kurss-example\">Hier (hīr) - tukaj</div><div class=\"kurss-example\">Dort — tur</div></div></div>\n    </details>\n\n    <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Izruna</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Ä ir patskaņa a pārskanojums, un to izrunā kā īso vai garo šauro e.</div><div class=\"kurss-example\">Piemēri: das Mädchen (mētchen), die Bänke (dī benke), der Vater (dēr fāter), die Väter (dī fēter).</div><div class=\"kurss-example\">Ü ir patskaņa u pārskanojums. To izrunājot, lūpas ļoti jāapaļo un jāmēģina ar apaļi veidotām lūpām izrunāt i.</div><div class=\"kurss-example\">Piemēri: fünf, der Schlüssel (šlūsel).</div><div class=\"kurss-example\">Ö izrunā ar apaļi veidotām lūpām, mēģinot izrunāt e: der Löffel.</div><div class=\"kurss-example\">Divkāršots patskanis apzīmē garu patskani: leer (lēr).</div><div class=\"kurss-example\">Divskani eu izrunā kā oi: neun (noin).</div></div></div>\n    </details>\n\n    <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Slovnica</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content lesson1-grammar-content\">\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">Gramatika un paskaidrojumi</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Salikta darbības vārda uzsvērtais priedēklis tagadnē atdalās no darbības vārda un stāv teikuma beigās.</div><div class=\"kurss-example\">Primeri: hinlegen — er legt hin • Aufmachen - er macht auf • Anspitzen — er spitzt an.</div><div class=\"kurss-example\">Skaitļa vārds viens ir visās trīs kārtās, ja to lieto ar lietvārdu: vīriešu kārtā ein, sieviešu kārtā eine, vidējā kārtā ein.</div><div class=\"kurss-example\">Piemēri: ein Schüler — viens skolnieks • Eine Schülerin — viena skolniece • Ein Kind — viens bērns.</div><div class=\"kurss-example\">Skaitļi: eins, zwei, drei, vier (fīr), fünf, sechs (zeks), sieben (zīben), acht, neun (noin), zehn (cēn).</div><div class=\"kurss-example\">Saitaiņa vācu valodā ir vienskaitļa un daudzskaitļa forma: der Schüler ist klein • Die Schüler sind klein.</div><div class=\"kurss-example\">Norādāmais vietniekvārds tas latviešu valodā mainās skaitlī un kārtā, bet vācu valodā lieto vienu formu: das.</div><div class=\"kurss-example\">Piemēri: tas ir veseris — das ist ein Hammer • Tā ir adata — das ist eine Nadel • Tie ir veseri — das sind Hämmer • Tās ir adatas — das sind Nadeln.</div><div class=\"kurss-example\">Der Wagen — rati un der Schlitten — ragavas latviešu valodā ir daudzskaitlinieki, bet vācu valodā šos vārdus lieto vienskaitlī un daudzskaitlī.</div><div class=\"kurss-example\">Vīriešu un vidējās kārtas lietvārdi ar galotni -er, -el, -en daudzskaitlī bieži nepieņem galotni.</div><div class=\"kurss-example\">Piemēri: der Hammer — die Hämmer • Der Garten — die Gärten • Das Fenster — die Fenster • Das Messer — die Messer.</div><div class=\"kurss-example\">Sieviešu kārtas lietvārdi ar galotni -el, -er daudzskaitlī pieņem -n.</div><div class=\"kurss-example\">Piemēri: die Nadel — die Nadeln • Die Feder — die Federn.</div><div class=\"kurss-example\">Izņēmumi: die Mutter (māte) — die Mütter (mātes) • Die Tochter (meita) — die Töchter (meitas).</div><div class=\"kurss-example\">Nenoteiktajam artikulam daudzskaitļa nav: das ist ein Wagen — das sind Wagen • Das ist eine Nadel — das sind Nadeln.</div><div class=\"kurss-example\">Stāstāmā teikumā izteicējs-darbības vārds stāv otrā vietā: er legt den Schlüssel hin • Dann legt er den Schlüssel hin.</div></div></section>\n      </div>\n    </details>\n\n    <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Pārtulko</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-training-wrap\"><button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson6-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"Lekcija 6 pārtulkošanas kartīte\"><span class=\"lesson1-training-progress\">Lekcija 6 · Pārtulko: 1 / 21</span><span class=\"lesson1-training-text\">Pauls ņem zīmuli un zīmē.</span></button><p class=\"lesson1-training-hint\">Klikšķini uz kartītes, lai redzētu vācu tulkojumu. Pēc atbildes nākamais klikšķis rāda nākamo kartīti.</p></div></div>\n    </details>\n  ",
+  "kurssLesson5": "\n    <h3>Lekcija 5</h3>\n    <p class=\"kurss-lesson-intro\">Wen?, akuzatīvs, sitzen, fragen un -in galotne.</p>\n\n    <details class=\"lesson1-accordion\" open>\n      <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dialogi / teikumi</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\">\n        <div class=\"kurss-example\">Wer sitzt und fragt? Der Lehrer sitzt und fragt.</div>\n        <div class=\"kurss-example\">Wer steht und antwortet? Der Schüler steht und antwortet.</div>\n        <div class=\"kurss-example\">Wie antwortet der Schüler? Der Schüler antwortet gut.</div>\n        <div class=\"kurss-example\">Wen lobt der Lehrer? Der Lehrer lobt den Schüler.</div>\n        <div class=\"kurss-example\">Wie ist der Schüler? Der Schüler ist klein.</div>\n        <div class=\"kurss-example\">Ist der Schüler klein oder groß? Er ist klein.</div>\n        <div class=\"kurss-example\">Wen fragt die Lehrerin? Die Lehrerin fragt die Schülerin.</div>\n        <div class=\"kurss-example\">Wie antwortet die Schülerin? Die Schülerin antwortet schlecht.</div>\n        <div class=\"kurss-example\">Was tut die Lehrerin? Sie tadelt die Schülerin.</div>\n        <div class=\"kurss-example\">Die Schülerin ist nicht klein, sie ist groß.</div>\n        <div class=\"kurss-example\">Ein Kind spielt. Das Kind ist artig.</div>\n        <div class=\"kurss-example\">Die Mutter liebt das Kind. Der Vater lobt das Kind.</div>\n      </div></div>\n    </details>\n\n    <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Vārdi</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\">\n        <div class=\"kurss-example\">Sitzen (zicen) — sēdēt</div>\n        <div class=\"kurss-example\">Fragen (frāgen) — jautāt</div>\n        <div class=\"kurss-example\">Der Lehrer (dēr lērer) — skolotājs</div>\n        <div class=\"kurss-example\">Gut (gūt) — labi</div>\n        <div class=\"kurss-example\">Wen (vēn) — ko</div>\n        <div class=\"kurss-example\">Loben - hvaliti</div>\n        <div class=\"kurss-example\">Der Schüler (šūler) — skolnieks</div>\n        <div class=\"kurss-example\">Klein — mazs</div>\n        <div class=\"kurss-example\">Groß (grōs) — liels</div>\n        <div class=\"kurss-example\">Die Lehrerin — skolotāja</div>\n        <div class=\"kurss-example\">Die Schülerin — skolniece</div>\n        <div class=\"kurss-example\">Schlecht (šleht) — slikti</div>\n        <div class=\"kurss-example\">Tadeln — pelt</div>\n        <div class=\"kurss-example\">Oder (ōder) — vai</div>\n        <div class=\"kurss-example\">Das Kind (kint) — bērns</div>\n        <div class=\"kurss-example\">Artig (ārtich) — rātns</div>\n        <div class=\"kurss-example\">Die Mutter — māte</div>\n        <div class=\"kurss-example\">Lieben (līben) — mīlēt</div>\n        <div class=\"kurss-example\">Der Vater (fāter) — tēvs</div>\n      </div></div>\n    </details>\n\n        <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Izruna</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\">\n        <div class=\"kurss-example\">Tz ir dubultots z skanis un izrunājams kā z: sitzen (zicen).</div>\n        <div class=\"kurss-example\">V vācu vārdos izrunā kā f: der Vater (fāter).</div>\n        <div class=\"kurss-example\">SS sauc par escet un izrunā kā latviešu s: groß (grōs), weiß (veis).</div>\n      </div></div>\n    </details>\n\n<details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Slovnica</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content lesson1-grammar-content\">\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">Nominativ in tožilnik</h4><div class=\"lesson1-grammar-note\">Latviešu valodā nominatīvs atbild uz jautājumu kas?, bet akuzatīvs uz jautājumu ko?.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Vācu valodā nominatīvā jautājums ir wer? personām un was? priekšmetiem.</div><div class=\"kurss-example\">Akuzatīvā jautājums ir wen? personām un was? priekšmetiem.</div></div></section>\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">Artikulu maiņa akuzatīvā</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Nominativ: der Vater, die Mutter, das Kind.</div><div class=\"kurss-example\">Akkusativ: den Vater, die Mutter, das Kind.</div><div class=\"kurss-example\">Nominativ: der Federhalter, die Feder, das Messer.</div><div class=\"kurss-example\">Akkusativ: den Federhalter, die Feder, das Messer.</div></div></section>\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">Sitzen</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Ich sitze</div><div class=\"kurss-example\">Du sitzt</div><div class=\"kurss-example\">Er/sie/es sitzt</div><div class=\"kurss-example\">Wir sitzen</div><div class=\"kurss-example\">Ihr sitzt</div><div class=\"kurss-example\">Sie sitzen</div></div></section>\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">Fragen + akuzatīvs</h4><div class=\"lesson1-grammar-note\">Darbības vārds fragen vācu valodā prasa akuzatīvu.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Wen fragt der Lehrer?</div><div class=\"kurss-example\">Der Lehrer fragt den Schüler.</div></div></section>\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">-in galotne</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Daudz sieviešu kārtas vārdu atvasina ar galotni -in.</div><div class=\"kurss-example\">Die Lehrerin</div><div class=\"kurss-example\">Die Schülerin</div></div></section>\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">Darbības vārda vieta</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Stāstāmā teikumā darbības vārds stāv otrā vietā.</div><div class=\"kurss-example\">Dann geht das Mädchen hinaus und arbeitet.</div><div class=\"kurss-example\">Das Mädchen geht dann hinaus und arbeitet.</div></div></section>\n      </div>\n    </details>\n\n    <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Pārtulko</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-training-wrap\"><button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson5-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"Lekcija 5 pārtulkošanas kartīte\"><span class=\"lesson1-training-progress\">Lekcija 5 · Pārtulko: 1 / 16</span><span class=\"lesson1-training-text\">Ko mīl tēvs?</span></button><p class=\"lesson1-training-hint\">Klikšķini uz kartītes, lai redzētu vācu tulkojumu. Pēc atbildes nākamais klikšķis rāda nākamo kartīti.</p></div></div>\n    </details>\n  ",
+  "kurssLesson4": "            <h3>Lekcija 4</h3>\n            <p class=\"kurss-lesson-intro\">Akuzatīvs, nehmen, hinlegen, hinausgehen un īpašības vārdi.</p>\n            <details class=\"lesson1-accordion\" open>\n              <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dialogi / teikumi</span><span class=\"lesson1-chevron\">⌃</span></summary>\n              <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Paul kommt und nimmt einen Federhalter.</div><div class=\"kurss-example\">Er zeigt den Federhalter.</div><div class=\"kurss-example\">Er fragt: „Wie ist der Federhalter?“</div><div class=\"kurss-example\">Olga antwortet: „Der Federhalter ist schwarz.“</div><div class=\"kurss-example\">Ist der Federhalter weiß? Nein, der Federhalter ist nicht weiß, er ist schwarz.</div><div class=\"kurss-example\">Marie kommt und nimmt eine Feder.</div><div class=\"kurss-example\">Sie fragt: „Wie ist die Feder?“</div><div class=\"kurss-example\">Olga antwortet: „Die Feder ist spitz.“</div><div class=\"kurss-example\">Ist die Feder stumpf? Nein, die Feder ist nicht stumpf, sie ist spitz.</div><div class=\"kurss-example\">Was legt das Mädchen hin? Es legt die Feder hin.</div><div class=\"kurss-example\">Kaj vzameš? Ich nehme ein Messer.</div><div class=\"kurss-example\">Wie ist das Messer? Das Messer ist scharf.</div><div class=\"kurss-example\">Ist das Messer stumpf? Nein, es ist nicht stumpf, es ist scharf.</div><div class=\"kurss-example\">Was legst du hin? Ich lege das Messer, die Feder und den Federhalter hin.</div><div class=\"kurss-example\">Dann gehe ich hinaus und arbeite.</div></div></div>\n            </details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Vārdi</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Nehmen (nēmen) — ņemt</div><div class=\"kurss-example\">Er nimmt (nimt) — viņš ņem</div><div class=\"kurss-example\">Der Federhalter (dēr fēderhalter) — spalvaskāts</div><div class=\"kurss-example\">Einen Federhalter — spalvaskātu</div><div class=\"kurss-example\">Zeigen — rādīt</div><div class=\"kurss-example\">Schwarz (švarc) — melns</div><div class=\"kurss-example\">Weiß (veis) — balts</div><div class=\"kurss-example\">Die Feder (dī fēder) — spalva</div><div class=\"kurss-example\">Eine Feder — spalvu</div><div class=\"kurss-example\">Spitz (špic) — smails</div><div class=\"kurss-example\">Hinlegen – odložiti</div><div class=\"kurss-example\">Legt hin — noliek</div><div class=\"kurss-example\">Das Mädchen (mētchen) — meitene</div><div class=\"kurss-example\">Das Messer — nazis</div><div class=\"kurss-example\">Ein Messer — nazi</div><div class=\"kurss-example\">Scharf — ass</div><div class=\"kurss-example\">Stumpf (štumpf) — neass, truls</div><div class=\"kurss-example\">Dann — tad</div><div class=\"kurss-example\">Hinaus — ārā</div><div class=\"kurss-example\">Hinausgehen — iziet, iet ārā</div></div></div></details>\n                        <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Izruna</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Galotnes -en, -er, -el ir neuzsvērtas, tāpēc e šajās galotnēs ir vāji sadzirdams: kommen, nehmen, der Federhalter.</div><div class=\"kurss-example\">H vācu valodā var būt gan skaņa, gan garumzīme iepriekšējam patskanim.</div><div class=\"kurss-example\">Ja h ir garumzīme, to neizrunā kā skaņu: nehmen (nēmen).</div><div class=\"kurss-example\">Ja patskanim seko tikai viens līdzskanis, patskani izrunā gari: die (dī) Feder (fēder), den (dēn).</div></div></div></details>\n<details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Slovnica</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content lesson1-grammar-content\"><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>1</span>Akuzatīvs</h4><div class=\"lesson1-grammar-note\">Sieviešu un vidējā kārtā akuzatīvs ir vienāds ar nominatīvu. Mainās tikai vīriešu kārta.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Nominativ: der Federhalter, die Feder, das Messer.</div><div class=\"kurss-example\">Akkusativ: den Federhalter, die Feder, das Messer.</div><div class=\"kurss-example\">Nominativ: ein Federhalter, eine Feder, ein Messer.</div><div class=\"kurss-example\">Akkusativ: einen Federhalter, eine Feder, ein Messer.</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>2</span>Vzemi</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Ich nehme</div><div class=\"kurss-example\">Du nimmst</div><div class=\"kurss-example\">Er/sie nimmt</div><div class=\"kurss-example\">Wir nehmen</div><div class=\"kurss-example\">Ihr nehmt</div><div class=\"kurss-example\">Sie nehmen</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>3</span>Vietniekvārdi</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Er — vīriešu kārta</div><div class=\"kurss-example\">Sie — sieviešu kārta</div><div class=\"kurss-example\">Es — vidējā kārta</div><div class=\"kurss-example\">Daudzskaitlī — sie</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>4</span>Atdalāmie darbības vārdi</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Hinlegen → ich lege das Messer hin</div><div class=\"kurss-example\">Hinausgehen → Marie geht hinaus</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>5</span>Īpašības vārdi</h4><div class=\"lesson1-grammar-note\">Ja īpašības vārds teikumā ir izteicējs, tas nemainās ne kārtā, ne skaitlī.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Der Federhalter ist klein</div><div class=\"kurss-example\">Die Feder ist klein</div><div class=\"kurss-example\">Das Messer ist klein</div><div class=\"kurss-example\">Die Messer sind klein</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>6</span>Noliegums ar nicht</h4><div class=\"lesson1-grammar-note\">Ja nicht noliedz īpašības vārdu, tas stāv noliedzamā vārda priekšā.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Der Federhalter ist nicht weiß</div><div class=\"kurss-example\">Das Messer ist nicht scharf</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>7</span>-chen / -lein</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Lietvārdi ar galotni -chen un -lein ir vidējā kārtā: das Mädchen.</div></div></section></div></details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Pārtulko</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-training-wrap\"><button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson4-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"Lekcija 4 pārtulkošanas kartīte\"><span class=\"lesson1-training-progress\">Lekcija 4 · Pārtulko: 1 / 16</span><span class=\"lesson1-training-text\">Meitene ņem spalvas kātu.</span></button><p class=\"lesson1-training-hint\">Klikšķini uz kartītes, lai redzētu vācu tulkojumu. Pēc atbildes nākamais klikšķis rāda nākamo kartīti.</p></div></div></details>",
+  "kurssLesson3": "            <h3>Lekcija 3</h3>\n            <p class=\"kurss-lesson-intro\">Trešā lekcija: dialogi, vārdi, izruna, gramatika un pārtulkošana.</p>\n            <details class=\"lesson1-accordion\" open>\n              <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dialogi / teikumi</span><span class=\"lesson1-chevron\">⌃</span></summary>\n              <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Wer rechnet und zeichnet?<br>Wir rechnen und zeichnen.</div><div class=\"kurss-example\">Wer kommt?<br>Paul und Anna kommen.</div><div class=\"kurss-example\">Was steht hier?<br>Hier steht ein Tisch.</div><div class=\"kurss-example\">Was steht dort?<br>Tam je banka.</div><div class=\"kurss-example\">Was liegt hier?<br>Hier liegt ein Buch.</div><div class=\"kurss-example\">Was liegt dort?<br>Dort liegt ein Heft.</div><div class=\"kurss-example\">Was hängt hier?<br>Hier hängt ein Bild.</div><div class=\"kurss-example\">Was hängt dort?<br>Dort hängt eine Tafel.</div><div class=\"kurss-example\">Wie ist das Buch?<br>Das Buch ist dick.</div><div class=\"kurss-example\">Wie ist das Heft?<br>Das Heft ist dünn.</div><div class=\"kurss-example\">Wie ist die Bank?<br>Die Bank ist niedrig.</div><div class=\"kurss-example\">Wie ist der Tisch?<br>Der Tisch ist hoch.</div></div></div>\n            </details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Vārdi</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Wer — kas</div><div class=\"kurss-example\">Was — kas</div><div class=\"kurss-example\">Hier — šeit</div><div class=\"kurss-example\">Dort — tur</div><div class=\"kurss-example\">Der Tisch — galds</div><div class=\"kurss-example\">Ein Tisch — galds</div><div class=\"kurss-example\">Die Bank — sols</div><div class=\"kurss-example\">Eine Bank — sols</div><div class=\"kurss-example\">Liegen — atrasties guļus</div><div class=\"kurss-example\">Liegt hier ein Buch? — vai šeit ir / atrodas grāmata?</div><div class=\"kurss-example\">Das Buch — grāmata</div><div class=\"kurss-example\">Ein Buch - knjiga</div><div class=\"kurss-example\">Hängen — karāties</div><div class=\"kurss-example\">Das Bild — bilde</div><div class=\"kurss-example\">Ein Bild — bilde</div><div class=\"kurss-example\">Die Tafel — tāfele</div><div class=\"kurss-example\">Eine Tafel — tāfele</div><div class=\"kurss-example\">Wie — kāds, kāda</div><div class=\"kurss-example\">Ist — ir</div><div class=\"kurss-example\">Dick — biezs, resns</div><div class=\"kurss-example\">Das Heft — burtnīca</div><div class=\"kurss-example\">Ein Heft — burtnīca</div><div class=\"kurss-example\">Dünn - tanek, tanek</div><div class=\"kurss-example\">Niedrig — zems</div><div class=\"kurss-example\">Hoch — augsts</div></div></div></details>\n                        <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Izruna</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Garo ī skaņu vācu valodā apzīmē ar ie: liegen (līgen), hier (hīr), wie (vī).</div><div class=\"kurss-example\">Ck ir divkāršs k: dick (dikk).</div><div class=\"kurss-example\">Īpašības un apstākļu vārdos galotne -ig izskan kā viegls -ich: niedrig (nīdrich).</div><div class=\"kurss-example\">Ja galotne -ig beidzas ar e: -ige, tad g izrunā kā noteiktu g skaņu: niedrige (nīdrige) Bänke.</div></div></div></details>\n<details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Slovnica</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content lesson1-grammar-content\"><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>1</span>Teikuma priekšmets</h4><div class=\"lesson1-grammar-note\">Teikuma priekšmets vācu valodā atbild uz jautājumu wer? / was? un stāv nominatīvā.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Ar wer? jautā pēc personām.</div><div class=\"kurss-example\">Ar was? jautā pēc priekšmetiem.</div><div class=\"kurss-example\">Wer singt? — Sie singt.</div><div class=\"kurss-example\">Was liegt hier? — Hier liegt ein Buch.</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>2</span>Artikuli</h4><div class=\"lesson1-grammar-note\">Vācu valodā lietas vārdam ir 3 kārtas: vīriešu, sieviešu un vidējā. Lietu vārdu priekšā parasti stāv vārdiņš, ko sauc par artikulu. Šo vārdiņu netulko.</div><h5 class=\"lesson2-subtitle\">Noteiktais artikuls</h5><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Vīriešu kārta — der</div><div class=\"kurss-example\">Sieviešu kārta — die</div><div class=\"kurss-example\">Vidējā kārta — das</div><div class=\"kurss-example\">Daudzskaitlī noteiktais artikuls visām trim kārtām ir die.</div><div class=\"kurss-example\">Der Tisch — die Tische</div><div class=\"kurss-example\">Die Bank — die Bänke</div><div class=\"kurss-example\">Das Heft — die Hefte</div></div><h5 class=\"lesson2-subtitle\">Nenoteiktais artikuls</h5><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Vīriešu kārta — ein</div><div class=\"kurss-example\">Sieviešu kārta — eine</div><div class=\"kurss-example\">Vidējā kārta — ein</div><div class=\"kurss-example\">Nenoteiktajam artikulam daudzskaitļa nav.</div><div class=\"kurss-example\">Ein Tisch — Tische</div><div class=\"kurss-example\">Ein Heft — Hefte</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>3</span>Īpašvārdi</h4><div class=\"lesson1-grammar-note\">Članek se ne uporablja pred lastnimi imeni.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Hans spielt, aber Marie singt.</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>4</span>Darbības vārda vieta</h4><div class=\"lesson1-grammar-note\">Stāstāmā teikumā darbības vārds stāv otrā vietā.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Hier hängt eine Karte.</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>5</span>Stehen / liegen / hängen</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Vāciski par priekšmetiem, kas stāv vertikāli, saka, ka priekšmets stāv:<br>Der Tisch steht<br>Die Bank steht</div><div class=\"kurss-example\">Par priekšmetiem, kas atrodas horizontālā stāvoklī, saka, ka tie guļ:<br>Das Buch liegt<br>Das Heft liegt</div><div class=\"kurss-example\">Predmeti lahko tudi visijo:<br>Die Karte hängt<br>Die Tafel hängt</div></div></section></div></details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Pārtulko</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-training-wrap\"><button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson3-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"Lekcija 3 pārtulkošanas kartīte\"><span class=\"lesson1-training-progress\">Lekcija 3 · Pārtulko: 1 / 22</span><span class=\"lesson1-training-text\">Vai tu rēķini?</span></button><p class=\"lesson1-training-hint\">Klikšķini uz kartītes, lai redzētu vācu tulkojumu. Pēc atbildes nākamais klikšķis rāda nākamo kartīti.</p></div></div></details>",
+  "kurssLesson7": "            <h3>Lekcija 7</h3>\n            <p class=\"kurss-lesson-intro\">Septītā lekcija: pavēles izteiksme, uzrunas forma un daudzskaitlis.</p>\n            <details class=\"lesson1-accordion\" open>\n              <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dialogi / teikumi</span><span class=\"lesson1-chevron\">⌃</span></summary>\n              <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Hans, singe ein Lied! Was tust du? Ich singe ein Lied.</div><div class=\"kurss-example\">Hans und Olga, singt ein Lied! Was tut ihr? Wir singen ein Lied.</div><div class=\"kurss-example\">Fräulein Müller, singen Sie, bitte, ein Lied! Je bil tun Sie? Ich singe ein Lied.</div><div class=\"kurss-example\">Hans, zähle die Teller! Was tut Hans? Er zählt die Teller.</div><div class=\"kurss-example\">Hans und Olga, zählt die Teller! Was tun Hans und Olga? Sie zählen die Teller.</div><div class=\"kurss-example\">Fräulein Müller, zählen Sie, bitte, die Teller!</div><div class=\"kurss-example\">Hans, öffne das Fenster! Was tut Hans? Er öffnet das Fenster.</div><div class=\"kurss-example\">Hans und Olga, öffnet die Fenster! Was tun Hans und Olga? Sie öffnen die Fenster.</div><div class=\"kurss-example\">Fräulein Müller, öffnen Sie, bitte, alle Fenster!</div><div class=\"kurss-example\">Fräulein Müller öffnet alle Fenster.</div><div class=\"kurss-example\">Das ist der Spiegel. Das sind die Spiegel.</div><div class=\"kurss-example\">Das ist der Lappen. Das sind die Lappen.</div><div class=\"kurss-example\">Das ist der Spaten. Das sind die Spaten.</div><div class=\"kurss-example\">Das ist der Besen. Das sind die Besen.</div><div class=\"kurss-example\">Das ist die Schaufel. Das sind die Schaufeln.</div><div class=\"kurss-example\">Das ist die Schüssel. Das sind die Schüsseln.</div><div class=\"kurss-example\">Das ist das Zimmer. Das sind die Zimmer.</div><div class=\"kurss-example\">Das ist das Ufer. Das sind die Ufer.</div></div></div>\n            </details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Vārdi</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Singen — dziedāt</div><div class=\"kurss-example\">Singe — dziedi</div><div class=\"kurss-example\">Singt — dziediet</div><div class=\"kurss-example\">Singen Sie — dziediet</div><div class=\"kurss-example\">Das Lied (das līt) — dziesma</div><div class=\"kurss-example\">Sie — Jūs</div><div class=\"kurss-example\">Zählen — skaitīt</div><div class=\"kurss-example\">Das Fräulein (froilein) — jaunkundze</div><div class=\"kurss-example\">Der Müller — dzirnavnieks</div><div class=\"kurss-example\">Öffnen — atvērt</div><div class=\"kurss-example\">Das Fenster (fenster) — logs</div><div class=\"kurss-example\">Alle — visi</div><div class=\"kurss-example\">Der Spiegel (špīgel) — spogulis</div><div class=\"kurss-example\">Der Lappen — lupata, slaukis</div><div class=\"kurss-example\">Der Spaten — lāpsta</div><div class=\"kurss-example\">Der Besen — slota</div><div class=\"kurss-example\">Die Schaufel — lāpstiņa</div><div class=\"kurss-example\">Die Schüssel — bļoda</div><div class=\"kurss-example\">Das Zimmer - soba</div><div class=\"kurss-example\">Das Ufer (ūfer) — krasts</div></div></div></details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Izruna</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Sp vārda vai zilbes sākumā izrunā kā šp: der Spiegel (dēr špīgel).</div><div class=\"kurss-example\">Sch izrunā kā latviešu š: die Schaufel (dī šaufel), die Schüssel (dī šūsel).</div><div class=\"kurss-example\">Divskani äu izrunā kā latviešu oi: das Fräulein (das froilein).</div></div></div></details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Slovnica</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content lesson1-grammar-content\"><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>1</span>Pavēles izteiksme</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Pavēles izteiksme vienskaitļa 2. personā atbilst darbības vārda 2. personai vienskaitlī bez personu galotnes -st, pieliekot galotni -e.</div><div class=\"kurss-example\">Piemēri: antworte!, arbeite!, öffne!, zeichne!</div><div class=\"kurss-example\">Ļoti bieži galotne -e netiek lietota, ja pavēles forma ar to kļūst vienzilbīga: geh!, steh!, komm!, tu!, sing!, frag!</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>2</span>Daudzskaitļa pavēle</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Pavēles forma 2. personā daudzskaitlī līdzinās tagadnes daudzskaitļa 2. personai, bet tiek lietota bez vietniekvārda.</div><div class=\"kurss-example\">Piemēri: antwortet!, arbeitet!, öffnet!, zeichnet!, geht!, steht!, tut!</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>3</span>Uzrunas forma ar Sie</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Uzrunas forma ar “Jūs” līdzinās daudzskaitļa 3. personai. Vietniekvārds Sie rakstāms ar lielo burtu un stāv pēc darbības vārda.</div><div class=\"kurss-example\">Piemēri: antworten Sie!, arbeiten Sie!, öffnen Sie!, zeichnen Sie!, gehen Sie!, stehen Sie!, tun Sie!</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>4</span>Öffnen</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Darbības vārdam öffnen vieglākas izrunas dēļ 2. un 3. personā vienskaitlī un 2. personā daudzskaitlī starp celmu un galotni iesprauž e: du öffnest, er öffnet, ihr öffnet.</div></div></section></div></details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Übung / Vingrinājums</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-training-wrap\"><button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson7-exercise-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"Lekcija 7 vingrinājuma kartīte\"><span class=\"lesson1-training-progress\">Lekcija 7 · Übung: 1 / 16</span><span class=\"lesson1-training-text\">Fragen — jautāt</span></button><p class=\"lesson1-training-hint\">Tapnite kartico, da vidite obrazce za ukaze.</p></div></div></details>",
+  "kurssLesson1": "            <h3>Lekcija 1</h3>\n            <p class=\"kurss-lesson-intro\">Pirmā lekcija: darbības vārdi tagadnē, vārdiņi, izruna, gramatika un pārtulko.</p>\n            <details class=\"lesson1-accordion\" open>\n              <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Darbības vārdi tagadnē</span><span class=\"lesson1-chevron\">⌃</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-info\">Darbības vārdi un to locījumi tagadnē.</div>\n                <div class=\"lesson1-verb-cards\">\n                  <article class=\"lesson1-verb-card\">\n                    <h4><span class=\"lesson1-verb-icon\">♟</span>Kommen — nākt</h4>\n                    <div class=\"lesson1-conjugation\"><span>Ich</span><strong>Komme</strong><span>Es nāku</span><span>du</span><strong>Kommst</strong><span>Prideš</span><span>Er / sie</span><strong>Kommt</strong><span>Viņš / viņa nāk</span><span>Wir</span><strong>Kommen</strong><span>Mēs nākam</span><span>Ihr</span><strong>Kommt</strong><span>Prihajaš</span><span>Sie / Sie</span><strong>Kommen</strong><span>Viņi / Jūs nāk</span></div>\n                  </article>\n                  <article class=\"lesson1-verb-card\">\n                    <h4><span class=\"lesson1-verb-icon\">♟</span>Gehen — iet</h4>\n                    <div class=\"lesson1-conjugation\"><span>Ich</span><strong>Hehe</strong><span>Es eju</span><span>du</span><strong>Gehst</strong><span>Tu ej</span><span>Er / sie</span><strong>Geht</strong><span>Viņš / viņa iet</span><span>Wir</span><strong>Gehen</strong><span>Mēs ejam</span><span>Ihr</span><strong>Geht</strong><span>Jūs ejat</span><span>Sie / Sie</span><strong>Gehen</strong><span>Viņi / Jūs iet</span></div>\n                  </article>\n                  <article class=\"lesson1-verb-card\">\n                    <h4><span class=\"lesson1-verb-icon\">♟</span>Stehen — stāvēt</h4>\n                    <div class=\"lesson1-conjugation\"><span>Ich</span><strong>Stehe</strong><span>Es stāvu</span><span>du</span><strong>Stehst</strong><span>Tu stāvi</span><span>Er / sie</span><strong>Steht</strong><span>Viņš / viņa stāv</span><span>Wir</span><strong>Stehen</strong><span>Mēs stāvam</span><span>Ihr</span><strong>Steht</strong><span>Jūs stāvat</span><span>Sie / Sie</span><strong>Stehen</strong><span>Viņi / Jūs stāv</span></div>\n                  </article>\n                  <article class=\"lesson1-verb-card\">\n                    <h4><span class=\"lesson1-verb-icon\">♟</span>Singen — dziedāt</h4>\n                    <div class=\"lesson1-conjugation\"><span>Ich</span><strong>Singe</strong><span>Es dziedu</span><span>du</span><strong>Singst</strong><span>Tu dziedi</span><span>Er / sie</span><strong>Singt</strong><span>Viņš / viņa dzied</span><span>Wir</span><strong>Singen</strong><span>Mēs dziedam</span><span>Ihr</span><strong>Singt</strong><span>Jūs dziedat</span><span>Sie / Sie</span><strong>Singen</strong><span>Viņi / Jūs dzied</span></div>\n                  </article>\n                </div>\n                <section class=\"lesson1-block\">\n                  <h4>Piemēri</h4>\n                  <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Stehst du?<br>Ja, ich stehe.</div><div class=\"kurss-example\">Steht Albert?<br>Ja, er steht.</div><div class=\"kurss-example\">Steht Marta?<br>Ja, sie steht.</div><div class=\"kurss-example\">Wer kommt und singt?<br>Albert und Marta kommen und singen.</div><div class=\"kurss-example\">Geht ihr?<br>Ja, wir gehen.</div><div class=\"kurss-example\">Wer steht und singt?<br>Albert und Marta stehen und singen.</div></div>\n                </section>\n              </div>\n            </details>\n            <details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Vārdiņi</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-info lesson1-vardini-info\"><span class=\"lesson1-info-icon\" aria-hidden=\"true\">i</span><span>Vārdu aptuvenā izruna ir dota iekavās ar latviešu burtiem.<br>To jāievēro arī turpmākajās lekcijās.</span></div>\n                <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Wir (vīr) — mēs</div><div class=\"kurss-example\">Vārdā “wir” burts i tiek izrunāts gari.</div><div class=\"kurss-example\">Kommen (komen) — nākt</div><div class=\"kurss-example\">Gehen (gē-en) — pojdi</div><div class=\"kurss-example\">Stehen (štē-en) — stāvēt</div><div class=\"kurss-example\">Singen (zingen) — dziedāt</div><div class=\"kurss-example\">Du (dū) kommst — tu nāc</div><div class=\"kurss-example\">Er (ēr) kommt — viņš nāk</div><div class=\"kurss-example\">Sie (zī) kommt — viņa nāk</div><div class=\"kurss-example\">Wer (vēr) — kas?</div><div class=\"kurss-example\">Ja (jā) — jā</div></div>\n              </div>\n            </details>\n                        <details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Izruna</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Vārdu pareiza izruna, apzīmēta latviešu burtiem, ir dota lekcijās.</div><div class=\"kurss-example\">Wir (vīr) — mēs. Vārdā wir ī izrunājams vienmēr gari.</div></div>\n              </div>\n            </details>\n<details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Slovnica</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content lesson1-grammar-content\">\n                <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>∞</span>Infinitīvs</h4><div class=\"lesson1-grammar-note\">Darbības vārda pamatforma. Parasti infinitīvs beidzas ar -en.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Kommen</div><div class=\"kurss-example\">Gehen</div><div class=\"kurss-example\">Stehen</div><div class=\"kurss-example\">Singen</div></div></section>\n                <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>♟</span>Tagadnes galotnes</h4><div class=\"lesson1-ending-info\"><span class=\"lesson1-info-icon\" aria-hidden=\"true\">i</span><div class=\"lesson1-ending-info-body\"><p><strong>Noņem <span class=\"lesson1-ending-accent\">-en</span> no darbības vārda pamatformas un pieliec galotni.</strong></p><p>Piemērs: kommen → komm + galotne</p><div class=\"lesson1-ending-process\" aria-label=\"Tagadnes galotnes veidošanas process\"><div class=\"lesson1-ending-step\"><strong>Kommen</strong><span>Pamatforma</span></div><span class=\"lesson1-ending-arrow\">→</span><div class=\"lesson1-ending-step\"><strong>noņem <span class=\"lesson1-ending-accent\">-en</span></strong><span>Paliek sakne</span></div><span class=\"lesson1-ending-arrow\">→</span><div class=\"lesson1-ending-step\"><strong>Komm</strong><span>Sakne</span></div><span class=\"lesson1-ending-arrow\">→</span><div class=\"lesson1-ending-step\"><strong>Pieliec galotni</strong><span>E / st / t</span></div><span class=\"lesson1-ending-arrow\">→</span><div class=\"lesson1-ending-results\"><div>komm + <span class=\"lesson1-ending-accent\">e</span> = <strong>Komme</strong></div><div>komm + <span class=\"lesson1-ending-accent\">st</span> = <strong>Kommst</strong></div><div>komm + <span class=\"lesson1-ending-accent\">t</span> = <strong>Kommt</strong></div></div></div></div></div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Ich → -e</div><div class=\"kurss-example\">Du → -st</div><div class=\"kurss-example\">Er / sie → -t</div><div class=\"kurss-example\">Wir → -en</div><div class=\"kurss-example\">Ihr → -t</div><div class=\"kurss-example\">Sie → -en</div></div></section>\n                <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>●</span>Piemēri</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Ich komme</div><div class=\"kurss-example\">Du kommst</div><div class=\"kurss-example\">Er kommt</div><div class=\"kurss-example\">Wir kommen</div></div></section>\n                <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>?</span>Jautājuma teikumi</h4><div class=\"lesson1-grammar-info\"><span class=\"lesson1-info-icon\" aria-hidden=\"true\">i</span><span>Vācu jautājuma teikumā darbības vārds parasti pārvietojas uz pirmo vietu.</span></div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Latviešu valodā:<br>Tu nāc.<br>Ali prideš</div><div class=\"kurss-example\">Vācu valodā:<br>Du kommst.<br>Kommst du?</div><div class=\"kurss-example\">Du kommst — tu nāc<br>Kommst du? — vai tu nāc?</div><div class=\"kurss-example\">Er singt — viņš dzied<br>Singt er? — vai viņš dzied?</div></div></section>\n                <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>♣</span>Personas atšķirība</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Er kommt — viņš nāk</div><div class=\"kurss-example\">Sie kommt – prihaja</div><div class=\"kurss-example\">Sie kommen — viņi / viņas nāk</div></div></section>\n              </div>\n            </details>\n                        <details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Pārtulko</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-training-wrap\">\n                  <button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson1-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"Lekcija 1 treniņa kartīte\">\n                    <span class=\"lesson1-training-progress\">Lekcija 1 · Pārtulko: 1 / 11</span>\n                    <span class=\"lesson1-training-text\">Ali prideš</span>\n                  </button>\n                  <p class=\"lesson1-training-hint\">Klikšķini uz kartītes, lai redzētu vācu tulkojumu. Pēc atbildes nākamais klikšķis rāda nākamo kartīti.</p>\n                </div>\n              </div>\n            </details>"
 };
 
 const COURSE_LESSON_DATA = {
   "kurssLesson1": {
     "id": "lesson1",
-    "title": "Предавање 1",
-    "subtitle": "Глаголы настоящего времени, существительные, грамматика и перевод",
+    "title": "Lekcija 1",
+    "subtitle": "Darbības vārdi tagadnē, vārdiņi, gramatika un pārtulko",
     "legacyHtml": "            <h3>Lekcija 1</h3>\n            <p class=\"kurss-lesson-intro\">Pirmā lekcija: darbības vārdi tagadnē, vārdiņi, izruna, gramatika un pārtulko.</p>\n            <details class=\"lesson1-accordion\" open>\n              <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Darbības vārdi tagadnē</span><span class=\"lesson1-chevron\">⌃</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-info\">Darbības vārdi un to locījumi tagadnē.</div>\n                <div class=\"lesson1-verb-cards\">\n                  <article class=\"lesson1-verb-card\">\n                    <h4><span class=\"lesson1-verb-icon\">♟</span>kommen — nākt</h4>\n                    <div class=\"lesson1-conjugation\"><span>ich</span><strong>komme</strong><span>es nāku</span><span>du</span><strong>kommst</strong><span>tu nāc</span><span>er / sie</span><strong>kommt</strong><span>viņš / viņa nāk</span><span>wir</span><strong>kommen</strong><span>mēs nākam</span><span>ihr</span><strong>kommt</strong><span>jūs nākat</span><span>sie / Sie</span><strong>kommen</strong><span>viņi / Jūs nāk</span></div>\n                  </article>\n                  <article class=\"lesson1-verb-card\">\n                    <h4><span class=\"lesson1-verb-icon\">♟</span>gehen — iet</h4>\n                    <div class=\"lesson1-conjugation\"><span>ich</span><strong>gehe</strong><span>es eju</span><span>du</span><strong>gehst</strong><span>tu ej</span><span>er / sie</span><strong>geht</strong><span>viņš / viņa iet</span><span>wir</span><strong>gehen</strong><span>mēs ejam</span><span>ihr</span><strong>geht</strong><span>jūs ejat</span><span>sie / Sie</span><strong>gehen</strong><span>viņi / Jūs iet</span></div>\n                  </article>\n                  <article class=\"lesson1-verb-card\">\n                    <h4><span class=\"lesson1-verb-icon\">♟</span>stehen — stāvēt</h4>\n                    <div class=\"lesson1-conjugation\"><span>ich</span><strong>stehe</strong><span>es stāvu</span><span>du</span><strong>stehst</strong><span>tu stāvi</span><span>er / sie</span><strong>steht</strong><span>viņš / viņa stāv</span><span>wir</span><strong>stehen</strong><span>mēs stāvam</span><span>ihr</span><strong>steht</strong><span>jūs stāvat</span><span>sie / Sie</span><strong>stehen</strong><span>viņi / Jūs stāv</span></div>\n                  </article>\n                  <article class=\"lesson1-verb-card\">\n                    <h4><span class=\"lesson1-verb-icon\">♟</span>singen — dziedāt</h4>\n                    <div class=\"lesson1-conjugation\"><span>ich</span><strong>singe</strong><span>es dziedu</span><span>du</span><strong>singst</strong><span>tu dziedi</span><span>er / sie</span><strong>singt</strong><span>viņš / viņa dzied</span><span>wir</span><strong>singen</strong><span>mēs dziedam</span><span>ihr</span><strong>singt</strong><span>jūs dziedat</span><span>sie / Sie</span><strong>singen</strong><span>viņi / Jūs dzied</span></div>\n                  </article>\n                </div>\n                <section class=\"lesson1-block\">\n                  <h4>Piemēri</h4>\n                  <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Stehst du?<br>Ja, ich stehe.</div><div class=\"kurss-example\">Steht Albert?<br>Ja, er steht.</div><div class=\"kurss-example\">Steht Marta?<br>Ja, sie steht.</div><div class=\"kurss-example\">Wer kommt und singt?<br>Albert und Marta kommen und singen.</div><div class=\"kurss-example\">Geht ihr?<br>Ja, wir gehen.</div><div class=\"kurss-example\">Wer steht und singt?<br>Albert und Marta stehen und singen.</div></div>\n                </section>\n              </div>\n            </details>\n            <details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Vārdiņi</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-info lesson1-vardini-info\"><span class=\"lesson1-info-icon\" aria-hidden=\"true\">i</span><span>Vārdu aptuvenā izruna ir dota iekavās ar latviešu burtiem.<br>To jāievēro arī turpmākajās lekcijās.</span></div>\n                <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">wir (vīr) — mēs</div><div class=\"kurss-example\">Vārdā “wir” burts i tiek izrunāts gari.</div><div class=\"kurss-example\">kommen (komen) — nākt</div><div class=\"kurss-example\">gehen (gē-en) — iet</div><div class=\"kurss-example\">stehen (štē-en) — stāvēt</div><div class=\"kurss-example\">singen (zingen) — dziedāt</div><div class=\"kurss-example\">du (dū) kommst — tu nāc</div><div class=\"kurss-example\">er (ēr) kommt — viņš nāk</div><div class=\"kurss-example\">sie (zī) kommt — viņa nāk</div><div class=\"kurss-example\">wer (vēr) — kas?</div><div class=\"kurss-example\">ja (jā) — jā</div></div>\n              </div>\n            </details>\n                        <details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Izruna</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Vārdu pareiza izruna, apzīmēta latviešu burtiem, ir dota lekcijās.</div><div class=\"kurss-example\">Wir (vīr) — mēs. Vārdā wir ī izrunājams vienmēr gari.</div></div>\n              </div>\n            </details>\n<details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Gramatika</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content lesson1-grammar-content\">\n                <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>∞</span>Infinitīvs</h4><div class=\"lesson1-grammar-note\">Darbības vārda pamatforma. Parasti infinitīvs beidzas ar -en.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">kommen</div><div class=\"kurss-example\">gehen</div><div class=\"kurss-example\">stehen</div><div class=\"kurss-example\">singen</div></div></section>\n                <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>♟</span>Tagadnes galotnes</h4><div class=\"lesson1-ending-info\"><span class=\"lesson1-info-icon\" aria-hidden=\"true\">i</span><div class=\"lesson1-ending-info-body\"><p><strong>Noņem <span class=\"lesson1-ending-accent\">-en</span> no darbības vārda pamatformas un pieliec galotni.</strong></p><p>Piemērs: kommen → komm + galotne</p><div class=\"lesson1-ending-process\" aria-label=\"Tagadnes galotnes veidošanas process\"><div class=\"lesson1-ending-step\"><strong>kommen</strong><span>pamatforma</span></div><span class=\"lesson1-ending-arrow\">→</span><div class=\"lesson1-ending-step\"><strong>noņem <span class=\"lesson1-ending-accent\">-en</span></strong><span>paliek sakne</span></div><span class=\"lesson1-ending-arrow\">→</span><div class=\"lesson1-ending-step\"><strong>komm</strong><span>sakne</span></div><span class=\"lesson1-ending-arrow\">→</span><div class=\"lesson1-ending-step\"><strong>pieliec galotni</strong><span>e / st / t</span></div><span class=\"lesson1-ending-arrow\">→</span><div class=\"lesson1-ending-results\"><div>komm + <span class=\"lesson1-ending-accent\">e</span> = <strong>komme</strong></div><div>komm + <span class=\"lesson1-ending-accent\">st</span> = <strong>kommst</strong></div><div>komm + <span class=\"lesson1-ending-accent\">t</span> = <strong>kommt</strong></div></div></div></div></div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ich → -e</div><div class=\"kurss-example\">du → -st</div><div class=\"kurss-example\">er / sie → -t</div><div class=\"kurss-example\">wir → -en</div><div class=\"kurss-example\">ihr → -t</div><div class=\"kurss-example\">sie → -en</div></div></section>\n                <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>●</span>Piemēri</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ich komme</div><div class=\"kurss-example\">du kommst</div><div class=\"kurss-example\">er kommt</div><div class=\"kurss-example\">wir kommen</div></div></section>\n                <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>?</span>Jautājuma teikumi</h4><div class=\"lesson1-grammar-info\"><span class=\"lesson1-info-icon\" aria-hidden=\"true\">i</span><span>Vācu jautājuma teikumā darbības vārds parasti pārvietojas uz pirmo vietu.</span></div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Latviešu valodā:<br>Tu nāc.<br>Vai tu nāc?</div><div class=\"kurss-example\">Vācu valodā:<br>Du kommst.<br>Kommst du?</div><div class=\"kurss-example\">du kommst — tu nāc<br>kommst du? — vai tu nāc?</div><div class=\"kurss-example\">er singt — viņš dzied<br>singt er? — vai viņš dzied?</div></div></section>\n                <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>♣</span>Personas atšķirība</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">er kommt — viņš nāk</div><div class=\"kurss-example\">sie kommt — viņa nāk</div><div class=\"kurss-example\">sie kommen — viņi / viņas nāk</div></div></section>\n              </div>\n            </details>\n                        <details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Pārtulko</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-training-wrap\">\n                  <button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson1-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"Lekcija 1 treniņa kartīte\">\n                    <span class=\"lesson1-training-progress\">Lekcija 1 · Pārtulko: 1 / 11</span>\n                    <span class=\"lesson1-training-text\">Vai tu nāc?</span>\n                  </button>\n                  <p class=\"lesson1-training-hint\">Klikšķini uz kartītes, lai redzētu vācu tulkojumu. Pēc atbildes nākamais klikšķis rāda nākamo kartīti.</p>\n                </div>\n              </div>\n            </details>"
   },
   "kurssLesson2": {
     "id": "lesson2",
-    "title": "Лекция 2",
-    "subtitle": "Диалоги, слова, произношение, грамматика и перевод",
+    "title": "Lekcija 2",
+    "subtitle": "Dialogi, vārdi, izruna, gramatika un pārtulko",
     "legacyHtml": "            <h3>Lekcija 2</h3>\n            <p class=\"kurss-lesson-intro\">Otrā lekcija: dialogi, vārdi, izruna, gramatika un pārtulkošana.</p>\n            <details class=\"lesson1-accordion\" open>\n              <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dialogi / teikumi</span><span class=\"lesson1-chevron\">⌃</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-card-grid\">\n                  <div class=\"kurss-example\">Spielst du?<br>Nein, ich spiele nicht, ich arbeite.</div>\n                  <div class=\"kurss-example\">Paul fragt nicht, er arbeitet.</div>\n                  <div class=\"kurss-example\">Arbeitest du?<br>Nein, ich arbeite nicht, ich singe.</div>\n                  <div class=\"kurss-example\">Was tut Paul?<br>Er spielt.</div>\n                  <div class=\"kurss-example\">Was tut Marie?<br>Sie singt.</div>\n                  <div class=\"kurss-example\">Paul spielt, aber Marie singt.</div>\n                  <div class=\"kurss-example\">Singt ihr?<br>Nein, wir singen nicht, wir arbeiten.</div>\n                  <div class=\"kurss-example\">Was tun Paul und Marie?<br>Sie fragen.<br>Sie antworten nicht.</div>\n                  <div class=\"kurss-example\">Wer arbeitet?<br>Wir arbeiten.<br>Wir rechnen und zeichnen.</div>\n                  <div class=\"kurss-example\">Sie kommen, sie fragen, sie antworten, sie arbeiten, sie spielen, sie singen, sie gehen.</div>\n                </div>\n              </div>\n            </details>\n            <details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Vārdi</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-card-grid\">\n                  <div class=\"kurss-example\">spielen — rotaļāties; spēlēt</div>\n                  <div class=\"kurss-example\">nein — nē</div>\n                  <div class=\"kurss-example\">nicht — ne</div>\n                  <div class=\"kurss-example\">arbeiten — strādāt</div>\n                  <div class=\"kurss-example\">fragen — jautāt</div>\n                  <div class=\"kurss-example\">was tut er? — ko viņš dara?</div>\n                  <div class=\"kurss-example\">was tun sie? — ko viņi / viņas dara?</div>\n                  <div class=\"kurss-example\">aber — bet</div>\n                  <div class=\"kurss-example\">antworten — atbildēt</div>\n                  <div class=\"kurss-example\">rechnen — rēķināt</div>\n                  <div class=\"kurss-example\">zeichnen — zīmēt</div>\n                  <div class=\"kurss-example\">Marie — Marija</div>\n                </div>\n              </div>\n            </details>\n                        <details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Izruna</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Vārdos ich, nicht, rechnen, zeichnen skaņu ch izrunā mīksti, apmēram tā, kā latviski vārdos: technika, Frīdrihs.</div><div class=\"kurss-example\">Vārdos arbeiten, zeichnen divskani ei izrunā apmēram kā latviešu plato e skaņu, kam seko i.</div><div class=\"kurss-example\">Līdzskaņu kopojumu sp izrunā kā šp: spielen (špīlen).</div><div class=\"kurss-example\">Darbības vārdā tun u izrunājams gari visās personās.</div></div>\n              </div>\n            </details>\n<details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Gramatika</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content lesson1-grammar-content\">\n                <section class=\"lesson1-block\">\n                  <h4 class=\"lesson1-grammar-header\"><span>1</span>Galotnes ar e</h4>\n                  <div class=\"lesson1-grammar-note\">Ja darbības vārda celms beidzas ar t, d, chn, tad lokot galotņu -st un -t priekšā stāv e.</div>\n                  <h5 class=\"lesson2-subtitle\">arbeiten</h5>\n                  <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ich arbeite</div><div class=\"kurss-example\">du arbeitest</div><div class=\"kurss-example\">er arbeitet</div><div class=\"kurss-example\">sie arbeitet</div><div class=\"kurss-example\">wir arbeiten</div><div class=\"kurss-example\">ihr arbeitet</div><div class=\"kurss-example\">sie arbeiten</div></div>\n                  <h5 class=\"lesson2-subtitle\">rechnen</h5>\n                  <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ich rechne</div><div class=\"kurss-example\">du rechnest</div><div class=\"kurss-example\">er rechnet</div><div class=\"kurss-example\">sie rechnet</div><div class=\"kurss-example\">wir rechnen</div><div class=\"kurss-example\">ihr rechnet</div><div class=\"kurss-example\">sie rechnen</div></div>\n                  <h5 class=\"lesson2-subtitle\">tun</h5>\n                  <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ich tue</div><div class=\"kurss-example\">du tust</div><div class=\"kurss-example\">er tut</div><div class=\"kurss-example\">sie tut</div><div class=\"kurss-example\">wir tun</div><div class=\"kurss-example\">ihr tut</div><div class=\"kurss-example\">sie tun</div></div>\n                </section>\n                <section class=\"lesson1-block\">\n                  <h4 class=\"lesson1-grammar-header\"><span>2</span>Jautājamais vārds</h4>\n                  <div class=\"lesson1-grammar-note\">Jautājamos teikumos, kas sākas ar jautājamo vārdu, piemēram: ko? kas? kurš? kāpēc? kādēļ? etc., darbības vārds stāv tūlīt aiz jautājamā vārda.</div>\n                  <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Was tust du? — Ko tu dari?</div><div class=\"kurss-example\">Was tut er? — Ko viņš dara?</div><div class=\"kurss-example\">Was tut sie? — Ko viņa dara?</div><div class=\"kurss-example\">Was tun sie? — Ko viņi / viņas dara?</div></div>\n                </section>\n                <section class=\"lesson1-block\">\n                  <h4 class=\"lesson1-grammar-header\"><span>3</span>Noliegums ar nicht</h4>\n                  <div class=\"lesson1-grammar-note\">Ja noliegums nicht attiecas uz darbības vārdu, tad noliedzamais vārds stāv pēc darbības vārda.</div>\n                  <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Er kommt nicht. — Viņš nenāk.</div><div class=\"kurss-example\">Sie singen nicht. — Viņi nedzied.</div></div>\n                </section>\n              </div>\n            </details>\n                                    <details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Pārtulko</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-training-wrap\">\n                  <button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson2-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"Lekcija 2 pārtulkošanas kartīte\">\n                    <span class=\"lesson1-training-progress\">Lekcija 2 · Pārtulko: 1 / 15</span>\n                    <span class=\"lesson1-training-text\">Kas jautā?</span>\n                  </button>\n                  <p class=\"lesson1-training-hint\">Klikšķini uz kartītes, lai redzētu vācu tulkojumu. Pēc atbildes nākamais klikšķis rāda nākamo kartīti.</p>\n                </div>\n              </div>\n            </details>"
   },
   "kurssLesson3": {
     "id": "lesson3",
-    "title": "Лекция 3",
-    "subtitle": "Статьи, топонимы и перевод",
+    "title": "Lekcija 3",
+    "subtitle": "Artikuli, vietas vārdi un pārtulko",
     "legacyHtml": "            <h3>Lekcija 3</h3>\n            <p class=\"kurss-lesson-intro\">Trešā lekcija: dialogi, vārdi, izruna, gramatika un pārtulkošana.</p>\n            <details class=\"lesson1-accordion\" open>\n              <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dialogi / teikumi</span><span class=\"lesson1-chevron\">⌃</span></summary>\n              <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Wer rechnet und zeichnet?<br>Wir rechnen und zeichnen.</div><div class=\"kurss-example\">Wer kommt?<br>Paul und Anna kommen.</div><div class=\"kurss-example\">Was steht hier?<br>Hier steht ein Tisch.</div><div class=\"kurss-example\">Was steht dort?<br>Dort steht eine Bank.</div><div class=\"kurss-example\">Was liegt hier?<br>Hier liegt ein Buch.</div><div class=\"kurss-example\">Was liegt dort?<br>Dort liegt ein Heft.</div><div class=\"kurss-example\">Was hängt hier?<br>Hier hängt ein Bild.</div><div class=\"kurss-example\">Was hängt dort?<br>Dort hängt eine Tafel.</div><div class=\"kurss-example\">Wie ist das Buch?<br>Das Buch ist dick.</div><div class=\"kurss-example\">Wie ist das Heft?<br>Das Heft ist dünn.</div><div class=\"kurss-example\">Wie ist die Bank?<br>Die Bank ist niedrig.</div><div class=\"kurss-example\">Wie ist der Tisch?<br>Der Tisch ist hoch.</div></div></div>\n            </details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Vārdi</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">wer — kas</div><div class=\"kurss-example\">was — kas</div><div class=\"kurss-example\">hier — šeit</div><div class=\"kurss-example\">dort — tur</div><div class=\"kurss-example\">der Tisch — galds</div><div class=\"kurss-example\">ein Tisch — galds</div><div class=\"kurss-example\">die Bank — sols</div><div class=\"kurss-example\">eine Bank — sols</div><div class=\"kurss-example\">liegen — atrasties guļus</div><div class=\"kurss-example\">liegt hier ein Buch? — vai šeit ir / atrodas grāmata?</div><div class=\"kurss-example\">das Buch — grāmata</div><div class=\"kurss-example\">ein Buch — grāmata</div><div class=\"kurss-example\">hängen — karāties</div><div class=\"kurss-example\">das Bild — bilde</div><div class=\"kurss-example\">ein Bild — bilde</div><div class=\"kurss-example\">die Tafel — tāfele</div><div class=\"kurss-example\">eine Tafel — tāfele</div><div class=\"kurss-example\">wie — kāds, kāda</div><div class=\"kurss-example\">ist — ir</div><div class=\"kurss-example\">dick — biezs, resns</div><div class=\"kurss-example\">das Heft — burtnīca</div><div class=\"kurss-example\">ein Heft — burtnīca</div><div class=\"kurss-example\">dünn — plāns, tievs</div><div class=\"kurss-example\">niedrig — zems</div><div class=\"kurss-example\">hoch — augsts</div></div></div></details>\n                        <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Izruna</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Garo ī skaņu vācu valodā apzīmē ar ie: liegen (līgen), hier (hīr), wie (vī).</div><div class=\"kurss-example\">ck ir divkāršs k: dick (dikk).</div><div class=\"kurss-example\">Īpašības un apstākļu vārdos galotne -ig izskan kā viegls -ich: niedrig (nīdrich).</div><div class=\"kurss-example\">Ja galotne -ig beidzas ar e: -ige, tad g izrunā kā noteiktu g skaņu: niedrige (nīdrige) Bänke.</div></div></div></details>\n<details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Gramatika</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content lesson1-grammar-content\"><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>1</span>Teikuma priekšmets</h4><div class=\"lesson1-grammar-note\">Teikuma priekšmets vācu valodā atbild uz jautājumu wer? / was? un stāv nominatīvā.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Ar wer? jautā pēc personām.</div><div class=\"kurss-example\">Ar was? jautā pēc priekšmetiem.</div><div class=\"kurss-example\">Wer singt? — Sie singt.</div><div class=\"kurss-example\">Was liegt hier? — Hier liegt ein Buch.</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>2</span>Artikuli</h4><div class=\"lesson1-grammar-note\">Vācu valodā lietas vārdam ir 3 kārtas: vīriešu, sieviešu un vidējā. Lietu vārdu priekšā parasti stāv vārdiņš, ko sauc par artikulu. Šo vārdiņu netulko.</div><h5 class=\"lesson2-subtitle\">Noteiktais artikuls</h5><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">vīriešu kārta — der</div><div class=\"kurss-example\">sieviešu kārta — die</div><div class=\"kurss-example\">vidējā kārta — das</div><div class=\"kurss-example\">Daudzskaitlī noteiktais artikuls visām trim kārtām ir die.</div><div class=\"kurss-example\">der Tisch — die Tische</div><div class=\"kurss-example\">die Bank — die Bänke</div><div class=\"kurss-example\">das Heft — die Hefte</div></div><h5 class=\"lesson2-subtitle\">Nenoteiktais artikuls</h5><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">vīriešu kārta — ein</div><div class=\"kurss-example\">sieviešu kārta — eine</div><div class=\"kurss-example\">vidējā kārta — ein</div><div class=\"kurss-example\">Nenoteiktajam artikulam daudzskaitļa nav.</div><div class=\"kurss-example\">ein Tisch — Tische</div><div class=\"kurss-example\">ein Heft — Hefte</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>3</span>Īpašvārdi</h4><div class=\"lesson1-grammar-note\">Īpašvārdu priekšā artikulu nelieto.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Hans spielt, aber Marie singt.</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>4</span>Darbības vārda vieta</h4><div class=\"lesson1-grammar-note\">Stāstāmā teikumā darbības vārds stāv otrā vietā.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Hier hängt eine Karte.</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>5</span>stehen / liegen / hängen</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Vāciski par priekšmetiem, kas stāv vertikāli, saka, ka priekšmets stāv:<br>der Tisch steht<br>die Bank steht</div><div class=\"kurss-example\">Par priekšmetiem, kas atrodas horizontālā stāvoklī, saka, ka tie guļ:<br>das Buch liegt<br>das Heft liegt</div><div class=\"kurss-example\">Priekšmeti var arī karāties:<br>die Karte hängt<br>die Tafel hängt</div></div></section></div></details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Pārtulko</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-training-wrap\"><button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson3-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"Lekcija 3 pārtulkošanas kartīte\"><span class=\"lesson1-training-progress\">Lekcija 3 · Pārtulko: 1 / 22</span><span class=\"lesson1-training-text\">Vai tu rēķini?</span></button><p class=\"lesson1-training-hint\">Klikšķini uz kartītes, lai redzētu vācu tulkojumu. Pēc atbildes nākamais klikšķis rāda nākamo kartīti.</p></div></div></details>"
   },
   "kurssLesson4": {
     "id": "lesson4",
-    "title": "Лекция 4",
-    "subtitle": "Объекты в классе, свойствах и переводе",
+    "title": "Lekcija 4",
+    "subtitle": "Objekti klasē, īpašības un pārtulko",
     "legacyHtml": "            <h3>Lekcija 4</h3>\n            <p class=\"kurss-lesson-intro\">Akuzatīvs, nehmen, hinlegen, hinausgehen un īpašības vārdi.</p>\n            <details class=\"lesson1-accordion\" open>\n              <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dialogi / teikumi</span><span class=\"lesson1-chevron\">⌃</span></summary>\n              <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Paul kommt und nimmt einen Federhalter.</div><div class=\"kurss-example\">Er zeigt den Federhalter.</div><div class=\"kurss-example\">Er fragt: „Wie ist der Federhalter?“</div><div class=\"kurss-example\">Olga antwortet: „Der Federhalter ist schwarz.“</div><div class=\"kurss-example\">Ist der Federhalter weiß? Nein, der Federhalter ist nicht weiß, er ist schwarz.</div><div class=\"kurss-example\">Marie kommt und nimmt eine Feder.</div><div class=\"kurss-example\">Sie fragt: „Wie ist die Feder?“</div><div class=\"kurss-example\">Olga antwortet: „Die Feder ist spitz.“</div><div class=\"kurss-example\">Ist die Feder stumpf? Nein, die Feder ist nicht stumpf, sie ist spitz.</div><div class=\"kurss-example\">Was legt das Mädchen hin? Es legt die Feder hin.</div><div class=\"kurss-example\">Was nimmst du? Ich nehme ein Messer.</div><div class=\"kurss-example\">Wie ist das Messer? Das Messer ist scharf.</div><div class=\"kurss-example\">Ist das Messer stumpf? Nein, es ist nicht stumpf, es ist scharf.</div><div class=\"kurss-example\">Was legst du hin? Ich lege das Messer, die Feder und den Federhalter hin.</div><div class=\"kurss-example\">Dann gehe ich hinaus und arbeite.</div></div></div>\n            </details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Vārdi</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">nehmen (nēmen) — ņemt</div><div class=\"kurss-example\">er nimmt (nimt) — viņš ņem</div><div class=\"kurss-example\">der Federhalter (dēr fēderhalter) — spalvaskāts</div><div class=\"kurss-example\">einen Federhalter — spalvaskātu</div><div class=\"kurss-example\">zeigen — rādīt</div><div class=\"kurss-example\">schwarz (švarc) — melns</div><div class=\"kurss-example\">weiß (veis) — balts</div><div class=\"kurss-example\">die Feder (dī fēder) — spalva</div><div class=\"kurss-example\">eine Feder — spalvu</div><div class=\"kurss-example\">spitz (špic) — smails</div><div class=\"kurss-example\">hinlegen — nolikt</div><div class=\"kurss-example\">legt hin — noliek</div><div class=\"kurss-example\">das Mädchen (mētchen) — meitene</div><div class=\"kurss-example\">das Messer — nazis</div><div class=\"kurss-example\">ein Messer — nazi</div><div class=\"kurss-example\">scharf — ass</div><div class=\"kurss-example\">stumpf (štumpf) — neass, truls</div><div class=\"kurss-example\">dann — tad</div><div class=\"kurss-example\">hinaus — ārā</div><div class=\"kurss-example\">hinausgehen — iziet, iet ārā</div></div></div></details>\n                        <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Izruna</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Galotnes -en, -er, -el ir neuzsvērtas, tāpēc e šajās galotnēs ir vāji sadzirdams: kommen, nehmen, der Federhalter.</div><div class=\"kurss-example\">h vācu valodā var būt gan skaņa, gan garumzīme iepriekšējam patskanim.</div><div class=\"kurss-example\">Ja h ir garumzīme, to neizrunā kā skaņu: nehmen (nēmen).</div><div class=\"kurss-example\">Ja patskanim seko tikai viens līdzskanis, patskani izrunā gari: die (dī) Feder (fēder), den (dēn).</div></div></div></details>\n<details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Gramatika</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content lesson1-grammar-content\"><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>1</span>Akuzatīvs</h4><div class=\"lesson1-grammar-note\">Sieviešu un vidējā kārtā akuzatīvs ir vienāds ar nominatīvu. Mainās tikai vīriešu kārta.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Nominativ: der Federhalter, die Feder, das Messer.</div><div class=\"kurss-example\">Akkusativ: den Federhalter, die Feder, das Messer.</div><div class=\"kurss-example\">Nominativ: ein Federhalter, eine Feder, ein Messer.</div><div class=\"kurss-example\">Akkusativ: einen Federhalter, eine Feder, ein Messer.</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>2</span>nehmen</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ich nehme</div><div class=\"kurss-example\">du nimmst</div><div class=\"kurss-example\">er/sie nimmt</div><div class=\"kurss-example\">wir nehmen</div><div class=\"kurss-example\">ihr nehmt</div><div class=\"kurss-example\">sie nehmen</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>3</span>Vietniekvārdi</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">er — vīriešu kārta</div><div class=\"kurss-example\">sie — sieviešu kārta</div><div class=\"kurss-example\">es — vidējā kārta</div><div class=\"kurss-example\">daudzskaitlī — sie</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>4</span>Atdalāmie darbības vārdi</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">hinlegen → ich lege das Messer hin</div><div class=\"kurss-example\">hinausgehen → Marie geht hinaus</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>5</span>Īpašības vārdi</h4><div class=\"lesson1-grammar-note\">Ja īpašības vārds teikumā ir izteicējs, tas nemainās ne kārtā, ne skaitlī.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">der Federhalter ist klein</div><div class=\"kurss-example\">die Feder ist klein</div><div class=\"kurss-example\">das Messer ist klein</div><div class=\"kurss-example\">die Messer sind klein</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>6</span>Noliegums ar nicht</h4><div class=\"lesson1-grammar-note\">Ja nicht noliedz īpašības vārdu, tas stāv noliedzamā vārda priekšā.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">der Federhalter ist nicht weiß</div><div class=\"kurss-example\">das Messer ist nicht scharf</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>7</span>-chen / -lein</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Lietvārdi ar galotni -chen un -lein ir vidējā kārtā: das Mädchen.</div></div></section></div></details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Pārtulko</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-training-wrap\"><button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson4-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"Lekcija 4 pārtulkošanas kartīte\"><span class=\"lesson1-training-progress\">Lekcija 4 · Pārtulko: 1 / 16</span><span class=\"lesson1-training-text\">Meitene ņem spalvas kātu.</span></button><p class=\"lesson1-training-hint\">Klikšķini uz kartītes, lai redzētu vācu tulkojumu. Pēc atbildes nākamais klikšķis rāda nākamo kartīti.</p></div></div></details>"
   },
   "kurssLesson5": {
     "id": "lesson5",
-    "title": "Лекция 5",
-    "subtitle": "Wen?, винительный падеж, sitzen, fragen и окончание -in.",
+    "title": "Lekcija 5",
+    "subtitle": "Wen?, akuzatīvs, sitzen, fragen un -in galotne.",
     "legacyHtml": "\n    <h3>Lekcija 5</h3>\n    <p class=\"kurss-lesson-intro\">Wen?, akuzatīvs, sitzen, fragen un -in galotne.</p>\n\n    <details class=\"lesson1-accordion\" open>\n      <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dialogi / teikumi</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\">\n        <div class=\"kurss-example\">Wer sitzt und fragt? Der Lehrer sitzt und fragt.</div>\n        <div class=\"kurss-example\">Wer steht und antwortet? Der Schüler steht und antwortet.</div>\n        <div class=\"kurss-example\">Wie antwortet der Schüler? Der Schüler antwortet gut.</div>\n        <div class=\"kurss-example\">Wen lobt der Lehrer? Der Lehrer lobt den Schüler.</div>\n        <div class=\"kurss-example\">Wie ist der Schüler? Der Schüler ist klein.</div>\n        <div class=\"kurss-example\">Ist der Schüler klein oder groß? Er ist klein.</div>\n        <div class=\"kurss-example\">Wen fragt die Lehrerin? Die Lehrerin fragt die Schülerin.</div>\n        <div class=\"kurss-example\">Wie antwortet die Schülerin? Die Schülerin antwortet schlecht.</div>\n        <div class=\"kurss-example\">Was tut die Lehrerin? Sie tadelt die Schülerin.</div>\n        <div class=\"kurss-example\">Die Schülerin ist nicht klein, sie ist groß.</div>\n        <div class=\"kurss-example\">Ein Kind spielt. Das Kind ist artig.</div>\n        <div class=\"kurss-example\">Die Mutter liebt das Kind. Der Vater lobt das Kind.</div>\n      </div></div>\n    </details>\n\n    <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Vārdi</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\">\n        <div class=\"kurss-example\">sitzen (zicen) — sēdēt</div>\n        <div class=\"kurss-example\">fragen (frāgen) — jautāt</div>\n        <div class=\"kurss-example\">der Lehrer (dēr lērer) — skolotājs</div>\n        <div class=\"kurss-example\">gut (gūt) — labi</div>\n        <div class=\"kurss-example\">wen (vēn) — ko</div>\n        <div class=\"kurss-example\">loben — slavēt</div>\n        <div class=\"kurss-example\">der Schüler (šūler) — skolnieks</div>\n        <div class=\"kurss-example\">klein — mazs</div>\n        <div class=\"kurss-example\">groß (grōs) — liels</div>\n        <div class=\"kurss-example\">die Lehrerin — skolotāja</div>\n        <div class=\"kurss-example\">die Schülerin — skolniece</div>\n        <div class=\"kurss-example\">schlecht (šleht) — slikti</div>\n        <div class=\"kurss-example\">tadeln — pelt</div>\n        <div class=\"kurss-example\">oder (ōder) — vai</div>\n        <div class=\"kurss-example\">das Kind (kint) — bērns</div>\n        <div class=\"kurss-example\">artig (ārtich) — rātns</div>\n        <div class=\"kurss-example\">die Mutter — māte</div>\n        <div class=\"kurss-example\">lieben (līben) — mīlēt</div>\n        <div class=\"kurss-example\">der Vater (fāter) — tēvs</div>\n      </div></div>\n    </details>\n\n        <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Izruna</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\">\n        <div class=\"kurss-example\">tz ir dubultots z skanis un izrunājams kā z: sitzen (zicen).</div>\n        <div class=\"kurss-example\">v vācu vārdos izrunā kā f: der Vater (fāter).</div>\n        <div class=\"kurss-example\">ß sauc par escet un izrunā kā latviešu s: groß (grōs), weiß (veis).</div>\n      </div></div>\n    </details>\n\n<details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Gramatika</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content lesson1-grammar-content\">\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">Nominatīvs un akuzatīvs</h4><div class=\"lesson1-grammar-note\">Latviešu valodā nominatīvs atbild uz jautājumu kas?, bet akuzatīvs uz jautājumu ko?.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Vācu valodā nominatīvā jautājums ir wer? personām un was? priekšmetiem.</div><div class=\"kurss-example\">Akuzatīvā jautājums ir wen? personām un was? priekšmetiem.</div></div></section>\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">Artikulu maiņa akuzatīvā</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Nominativ: der Vater, die Mutter, das Kind.</div><div class=\"kurss-example\">Akkusativ: den Vater, die Mutter, das Kind.</div><div class=\"kurss-example\">Nominativ: der Federhalter, die Feder, das Messer.</div><div class=\"kurss-example\">Akkusativ: den Federhalter, die Feder, das Messer.</div></div></section>\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">sitzen</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ich sitze</div><div class=\"kurss-example\">du sitzt</div><div class=\"kurss-example\">er/sie/es sitzt</div><div class=\"kurss-example\">wir sitzen</div><div class=\"kurss-example\">ihr sitzt</div><div class=\"kurss-example\">sie sitzen</div></div></section>\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">fragen + akuzatīvs</h4><div class=\"lesson1-grammar-note\">Darbības vārds fragen vācu valodā prasa akuzatīvu.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Wen fragt der Lehrer?</div><div class=\"kurss-example\">Der Lehrer fragt den Schüler.</div></div></section>\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">-in galotne</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Daudz sieviešu kārtas vārdu atvasina ar galotni -in.</div><div class=\"kurss-example\">die Lehrerin</div><div class=\"kurss-example\">die Schülerin</div></div></section>\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">Darbības vārda vieta</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Stāstāmā teikumā darbības vārds stāv otrā vietā.</div><div class=\"kurss-example\">Dann geht das Mädchen hinaus und arbeitet.</div><div class=\"kurss-example\">Das Mädchen geht dann hinaus und arbeitet.</div></div></section>\n      </div>\n    </details>\n\n    <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Pārtulko</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-training-wrap\"><button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson5-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"Lekcija 5 pārtulkošanas kartīte\"><span class=\"lesson1-training-progress\">Lekcija 5 · Pārtulko: 1 / 16</span><span class=\"lesson1-training-text\">Ko mīl tēvs?</span></button><p class=\"lesson1-training-hint\">Klikšķini uz kartītes, lai redzētu vācu tulkojumu. Pēc atbildes nākamais klikšķis rāda nākamo kartīti.</p></div></div>\n    </details>\n  "
   },
   "kurssLesson6": {
     "id": "lesson6",
-    "title": "Лекция 6",
-    "subtitle": "Глаголи, условни, места и превод",
+    "title": "Predavanje 6",
+    "subtitle": "Darbības vārdi, vietas apstākļi un pārtulko",
     "legacyHtml": "\n    <h3>Lekcija 6</h3>\n    <p class=\"kurss-lesson-intro\">Skaitļi, daudzskaitlis, umlauti un lietvārdu daudzskaitļa formas.</p>\n\n    <details class=\"lesson1-accordion\" open>\n      <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dialogi / teikumi</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Hier liegt ein Bleistift.</div><div class=\"kurss-example\">Dort liegen einige Messer.</div><div class=\"kurss-example\">Edgar nimmt ein Messer, zwei Messer, drei Messer.</div><div class=\"kurss-example\">Er legt die Messer wieder hin.</div><div class=\"kurss-example\">Alle Messer sind scharf.</div><div class=\"kurss-example\">Dann nimmt er wieder ein Messer.</div><div class=\"kurss-example\">Er macht das Messer auf.</div><div class=\"kurss-example\">Er nimmt den Bleistift.</div><div class=\"kurss-example\">Er spitzt den Bleistift an.</div><div class=\"kurss-example\">Er legt das Messer hin.</div><div class=\"kurss-example\">Er setzt sich und zeichnet.</div><div class=\"kurss-example\">Was zeichnet er? Er zeichnet einen Schlüssel.</div><div class=\"kurss-example\">Gertrud zeichnet ein Fenster und eine Tafel.</div><div class=\"kurss-example\">Anna zeichnet einen Garten.</div><div class=\"kurss-example\">Hier liegen vier Löffel.</div><div class=\"kurss-example\">Dort liegen fünf Nadeln.</div><div class=\"kurss-example\">Gertrud kommt und zählt die Löffel: das ist ein Löffel; das sind zwei, drei, vier Löffel.</div><div class=\"kurss-example\">Anna zählt die Nadeln: das ist eine Nadel; das sind zwei, drei, vier, fünf Nadeln.</div><div class=\"kurss-example\">Wieviel Nadeln sind hier?</div><div class=\"kurss-example\">Hier ist eine Nadel.</div><div class=\"kurss-example\">Dort sind zwei, drei, vier Nadeln.</div><div class=\"kurss-example\">Fünf Schlüssel sind hier.</div><div class=\"kurss-example\">Sechs Löffel sind dort.</div><div class=\"kurss-example\">Was ist das?</div><div class=\"kurss-example\">Das ist ein Hammer. Das sind fünf Hämmer.</div><div class=\"kurss-example\">Das ist ein Deckel. Das sind sechs Deckel.</div><div class=\"kurss-example\">Das ist ein Eimer. Das sind sieben Eimer.</div><div class=\"kurss-example\">Das ist ein Teller. Das sind acht Teller.</div><div class=\"kurss-example\">Das ist ein Wagen. Das sind neun Wagen.</div><div class=\"kurss-example\">Das ist ein Schlitten. Das sind zehn Schlitten.</div><div class=\"kurss-example\">Wie sind die Dinge?</div><div class=\"kurss-example\">Der Hammer ist klein. Die Hämmer sind klein.</div><div class=\"kurss-example\">Der Deckel ist groß. Die Deckel sind groß.</div><div class=\"kurss-example\">Der Eimer ist voll. Die Eimer sind voll.</div><div class=\"kurss-example\">Der Teller ist leer. Die Teller sind leer.</div><div class=\"kurss-example\">Der Wagen ist schwer. Die Wagen sind schwer.</div><div class=\"kurss-example\">Der Schlitten ist leicht. Die Schlitten sind leicht.</div></div></div>\n    </details>\n\n    <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Vārdi</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">liegt — atrodas, ir, guļ</div><div class=\"kurss-example\">der Bleistift (bleištift) — zīmulis</div><div class=\"kurss-example\">einige (einige) — daži</div><div class=\"kurss-example\">hinlegen — nolikt</div><div class=\"kurss-example\">legt hin — noliek</div><div class=\"kurss-example\">wieder (vīder) — atkal</div><div class=\"kurss-example\">aufmachen — attaīsīt</div><div class=\"kurss-example\">er macht auf — viņš attaisa</div><div class=\"kurss-example\">anspitzen (anšpicen) — uzsmailināt</div><div class=\"kurss-example\">er spitzt an — viņš uzsmailina</div><div class=\"kurss-example\">sich setzen — apsēsties</div><div class=\"kurss-example\">setzt sich — apsēžas</div><div class=\"kurss-example\">der Schlüssel (šlūsel) — atslēga</div><div class=\"kurss-example\">das Fenster (fenster) — logs</div><div class=\"kurss-example\">die Tafel (dī tāfel) — tāfele</div><div class=\"kurss-example\">der Garten — dārzs</div><div class=\"kurss-example\">der Löffel — karote</div><div class=\"kurss-example\">zählen (cēlen) — skaitīt</div><div class=\"kurss-example\">die Nadel — adata</div><div class=\"kurss-example\">was ist das — kas tas ir?</div><div class=\"kurss-example\">der Hammer — veseris</div><div class=\"kurss-example\">die Hämmer — veseri</div><div class=\"kurss-example\">der Deckel (dēr dekel) — vāks</div><div class=\"kurss-example\">der Teller — šķīvis</div><div class=\"kurss-example\">der Wagen — rati</div><div class=\"kurss-example\">der Schlitten — ragavas, kamanas</div><div class=\"kurss-example\">das Ding — lieta</div><div class=\"kurss-example\">die Dinge — lietas</div><div class=\"kurss-example\">wie sind die Dinge? — kādas ir lietas?</div><div class=\"kurss-example\">voll (fōl) — pilns</div><div class=\"kurss-example\">leer (lēr) — tukšs</div><div class=\"kurss-example\">schwer (švēr) — smags, grūts</div><div class=\"kurss-example\">leicht — viegls</div><div class=\"kurss-example\">der Eimer — spainis</div><div class=\"kurss-example\">wieviel (vīfīl) — cik</div><div class=\"kurss-example\">wieviel Nadeln — cik adatu</div><div class=\"kurss-example\">hier (hīr) — šeit</div><div class=\"kurss-example\">dort — tur</div></div></div>\n    </details>\n\n    <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Izruna</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ä ir patskaņa a pārskanojums, un to izrunā kā īso vai garo šauro e.</div><div class=\"kurss-example\">Piemēri: das Mädchen (mētchen), die Bänke (dī benke), der Vater (dēr fāter), die Väter (dī fēter).</div><div class=\"kurss-example\">ü ir patskaņa u pārskanojums. To izrunājot, lūpas ļoti jāapaļo un jāmēģina ar apaļi veidotām lūpām izrunāt i.</div><div class=\"kurss-example\">Piemēri: fünf, der Schlüssel (šlūsel).</div><div class=\"kurss-example\">ö izrunā ar apaļi veidotām lūpām, mēģinot izrunāt e: der Löffel.</div><div class=\"kurss-example\">Divkāršots patskanis apzīmē garu patskani: leer (lēr).</div><div class=\"kurss-example\">Divskani eu izrunā kā oi: neun (noin).</div></div></div>\n    </details>\n\n    <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Gramatika</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content lesson1-grammar-content\">\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">Gramatika un paskaidrojumi</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Salikta darbības vārda uzsvērtais priedēklis tagadnē atdalās no darbības vārda un stāv teikuma beigās.</div><div class=\"kurss-example\">Piemēri: hinlegen — er legt hin; aufmachen — er macht auf; anspitzen — er spitzt an.</div><div class=\"kurss-example\">Skaitļa vārds viens ir visās trīs kārtās, ja to lieto ar lietvārdu: vīriešu kārtā ein, sieviešu kārtā eine, vidējā kārtā ein.</div><div class=\"kurss-example\">Piemēri: ein Schüler — viens skolnieks; eine Schülerin — viena skolniece; ein Kind — viens bērns.</div><div class=\"kurss-example\">Skaitļi: eins, zwei, drei, vier (fīr), fünf, sechs (zeks), sieben (zīben), acht, neun (noin), zehn (cēn).</div><div class=\"kurss-example\">Saitaiņa vācu valodā ir vienskaitļa un daudzskaitļa forma: der Schüler ist klein; die Schüler sind klein.</div><div class=\"kurss-example\">Norādāmais vietniekvārds tas latviešu valodā mainās skaitlī un kārtā, bet vācu valodā lieto vienu formu: das.</div><div class=\"kurss-example\">Piemēri: tas ir veseris — das ist ein Hammer; tā ir adata — das ist eine Nadel; tie ir veseri — das sind Hämmer; tās ir adatas — das sind Nadeln.</div><div class=\"kurss-example\">Der Wagen — rati un der Schlitten — ragavas latviešu valodā ir daudzskaitlinieki, bet vācu valodā šos vārdus lieto vienskaitlī un daudzskaitlī.</div><div class=\"kurss-example\">Vīriešu un vidējās kārtas lietvārdi ar galotni -er, -el, -en daudzskaitlī bieži nepieņem galotni.</div><div class=\"kurss-example\">Piemēri: der Hammer — die Hämmer; der Garten — die Gärten; das Fenster — die Fenster; das Messer — die Messer.</div><div class=\"kurss-example\">Sieviešu kārtas lietvārdi ar galotni -el, -er daudzskaitlī pieņem -n.</div><div class=\"kurss-example\">Piemēri: die Nadel — die Nadeln; die Feder — die Federn.</div><div class=\"kurss-example\">Izņēmumi: die Mutter (māte) — die Mütter (mātes); die Tochter (meita) — die Töchter (meitas).</div><div class=\"kurss-example\">Nenoteiktajam artikulam daudzskaitļa nav: das ist ein Wagen — das sind Wagen; das ist eine Nadel — das sind Nadeln.</div><div class=\"kurss-example\">Stāstāmā teikumā izteicējs-darbības vārds stāv otrā vietā: er legt den Schlüssel hin; dann legt er den Schlüssel hin.</div></div></section>\n      </div>\n    </details>\n\n    <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Pārtulko</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-training-wrap\"><button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson6-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"Lekcija 6 pārtulkošanas kartīte\"><span class=\"lesson1-training-progress\">Lekcija 6 · Pārtulko: 1 / 21</span><span class=\"lesson1-training-text\">Pauls ņem zīmuli un zīmē.</span></button><p class=\"lesson1-training-hint\">Klikšķini uz kartītes, lai redzētu vācu tulkojumu. Pēc atbildes nākamais klikšķis rāda nākamo kartīti.</p></div></div>\n    </details>\n  "
   },
   "kurssLesson7": {
     "id": "lesson7",
-    "title": "Лекция 7",
-    "subtitle": "Императив, форма обращения и множественного числа.",
+    "title": "Lekcija 7",
+    "subtitle": "Velelnik, oblika nagovora in množina.",
     "legacyHtml": "            <h3>Lekcija 7</h3>\n            <p class=\"kurss-lesson-intro\">Septītā lekcija: pavēles izteiksme, uzrunas forma un daudzskaitlis.</p>\n            <details class=\"lesson1-accordion\" open>\n              <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dialogi / teikumi</span><span class=\"lesson1-chevron\">⌃</span></summary>\n              <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Hans, singe ein Lied! Was tust du? Ich singe ein Lied.</div><div class=\"kurss-example\">Hans und Olga, singt ein Lied! Was tut ihr? Wir singen ein Lied.</div><div class=\"kurss-example\">Fräulein Müller, singen Sie, bitte, ein Lied! Was tun Sie? Ich singe ein Lied.</div><div class=\"kurss-example\">Hans, zähle die Teller! Was tut Hans? Er zählt die Teller.</div><div class=\"kurss-example\">Hans und Olga, zählt die Teller! Was tun Hans und Olga? Sie zählen die Teller.</div><div class=\"kurss-example\">Fräulein Müller, zählen Sie, bitte, die Teller!</div><div class=\"kurss-example\">Hans, öffne das Fenster! Was tut Hans? Er öffnet das Fenster.</div><div class=\"kurss-example\">Hans und Olga, öffnet die Fenster! Was tun Hans und Olga? Sie öffnen die Fenster.</div><div class=\"kurss-example\">Fräulein Müller, öffnen Sie, bitte, alle Fenster!</div><div class=\"kurss-example\">Fräulein Müller öffnet alle Fenster.</div><div class=\"kurss-example\">Das ist der Spiegel. Das sind die Spiegel.</div><div class=\"kurss-example\">Das ist der Lappen. Das sind die Lappen.</div><div class=\"kurss-example\">Das ist der Spaten. Das sind die Spaten.</div><div class=\"kurss-example\">Das ist der Besen. Das sind die Besen.</div><div class=\"kurss-example\">Das ist die Schaufel. Das sind die Schaufeln.</div><div class=\"kurss-example\">Das ist die Schüssel. Das sind die Schüsseln.</div><div class=\"kurss-example\">Das ist das Zimmer. Das sind die Zimmer.</div><div class=\"kurss-example\">Das ist das Ufer. Das sind die Ufer.</div></div></div>\n            </details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Vārdi</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">singen — dziedāt</div><div class=\"kurss-example\">singe — dziedi</div><div class=\"kurss-example\">singt — dziediet</div><div class=\"kurss-example\">singen Sie — dziediet</div><div class=\"kurss-example\">das Lied (das līt) — dziesma</div><div class=\"kurss-example\">Sie — Jūs</div><div class=\"kurss-example\">zählen — skaitīt</div><div class=\"kurss-example\">das Fräulein (froilein) — jaunkundze</div><div class=\"kurss-example\">der Müller — dzirnavnieks</div><div class=\"kurss-example\">öffnen — atvērt</div><div class=\"kurss-example\">das Fenster (fenster) — logs</div><div class=\"kurss-example\">alle — visi</div><div class=\"kurss-example\">der Spiegel (špīgel) — spogulis</div><div class=\"kurss-example\">der Lappen — lupata, slaukis</div><div class=\"kurss-example\">der Spaten — lāpsta</div><div class=\"kurss-example\">der Besen — slota</div><div class=\"kurss-example\">die Schaufel — lāpstiņa</div><div class=\"kurss-example\">die Schüssel — bļoda</div><div class=\"kurss-example\">das Zimmer — istaba</div><div class=\"kurss-example\">das Ufer (ūfer) — krasts</div></div></div></details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Izruna</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">sp vārda vai zilbes sākumā izrunā kā šp: der Spiegel (dēr špīgel).</div><div class=\"kurss-example\">sch izrunā kā latviešu š: die Schaufel (dī šaufel), die Schüssel (dī šūsel).</div><div class=\"kurss-example\">Divskani äu izrunā kā latviešu oi: das Fräulein (das froilein).</div></div></div></details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Gramatika</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content lesson1-grammar-content\"><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>1</span>Pavēles izteiksme</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Pavēles izteiksme vienskaitļa 2. personā atbilst darbības vārda 2. personai vienskaitlī bez personu galotnes -st, pieliekot galotni -e.</div><div class=\"kurss-example\">Piemēri: antworte!, arbeite!, öffne!, zeichne!</div><div class=\"kurss-example\">Ļoti bieži galotne -e netiek lietota, ja pavēles forma ar to kļūst vienzilbīga: geh!, steh!, komm!, tu!, sing!, frag!</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>2</span>Daudzskaitļa pavēle</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Pavēles forma 2. personā daudzskaitlī līdzinās tagadnes daudzskaitļa 2. personai, bet tiek lietota bez vietniekvārda.</div><div class=\"kurss-example\">Piemēri: antwortet!, arbeitet!, öffnet!, zeichnet!, geht!, steht!, tut!</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>3</span>Uzrunas forma ar Sie</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Uzrunas forma ar “Jūs” līdzinās daudzskaitļa 3. personai. Vietniekvārds Sie rakstāms ar lielo burtu un stāv pēc darbības vārda.</div><div class=\"kurss-example\">Piemēri: antworten Sie!, arbeiten Sie!, öffnen Sie!, zeichnen Sie!, gehen Sie!, stehen Sie!, tun Sie!</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>4</span>öffnen</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Darbības vārdam öffnen vieglākas izrunas dēļ 2. un 3. personā vienskaitlī un 2. personā daudzskaitlī starp celmu un galotni iesprauž e: du öffnest, er öffnet, ihr öffnet.</div></div></section></div></details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Übung / Vingrinājums</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-training-wrap\"><button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson7-exercise-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"Lekcija 7 vingrinājuma kartīte\"><span class=\"lesson1-training-progress\">Lekcija 7 · Übung: 1 / 16</span><span class=\"lesson1-training-text\">fragen — jautāt</span></button><p class=\"lesson1-training-hint\">Pieskaries kartītei, lai redzētu pavēles formas.</p></div></div></details>"
   },
   "kurssLesson8": {
     "id": "lesson8",
-    "title": "Предавање 8",
-    "subtitle": "Возвратные глаголы, e → i/ie, изменение и винительный падеж.",
+    "title": "Lekcija 8",
+    "subtitle": "Refleksīvie darbības vārdi, e → i/ie maiņa un akuzatīvs.",
     "sections": [
       {
-        "title": "Диалоги/предложения",
+        "title": "Dialogi / teikumi",
         "items": [
           "Der Lehrer kommt. Alle Schüler stehen auf und grüßen den Lehrer. Sie sagen: „Guten Morgen, Herr Lehrer!“",
           "Der Lehrer grüßt die Schüler und sagt: „Kinder, setzt euch!“",
@@ -88,7 +88,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Слова",
+        "title": "Vārdi",
         "items": [
           "alle — visi",
           "aufstehen — piecelties",
@@ -131,7 +131,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Изговор",
+        "title": "Izruna",
         "items": [
           "ä, kā jau minēts, izrunā gan kā šauro īso vai garo e skaņu. Piemēri: der Bäcker (bēker), das Mädchen (mētchen).",
           "ä vēl izrunā arī kā plato e, piemēram, vārdā der Gärtner (dēr gertner).",
@@ -142,7 +142,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Граматика",
+        "title": "Slovnica",
         "items": [
           "Daudziem darbības vārdiem ar patskani e celmā vienskaitļa 2. un 3. personā tagadnē e vietā ir i vai ie.",
           "sprechen — ich spreche, du sprichst, er spricht.",
@@ -158,9 +158,9 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Übung / Упражнение",
+        "title": "Übung / Vingrinājums",
         "exerciseType": "mixed",
-        "description": "Übung I – Используйте правильное спряжение. Übung II - Карты перевода.",
+        "description": "Übung I — lieto pareizo locījumu. Übung II — tulkošanas kartītes.",
         "cards": [
           {
             "type": "fill",
@@ -249,190 +249,190 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Приветствуйте учителя и учительницу!",
+            "lv": "Sveicini skolotāju un skolotāju!",
             "de": "Grüße den Lehrer und die Lehrerin!"
           },
           {
             "type": "translate",
-            "lv": "Что ты приветствуешь?",
+            "lv": "Ko tu sveicini?",
             "de": "Wen grüßt du?"
           },
           {
             "type": "translate",
-            "lv": "Приветствую мисс.",
+            "lv": "Es sveicinu jaunkundzi.",
             "de": "Ich grüße das Fräulein."
           },
           {
             "type": "translate",
-            "lv": "Откройте все окна!",
+            "lv": "Atveriet visus logus!",
             "de": "Öffnet alle Fenster!"
           },
           {
             "type": "translate",
-            "lv": "Открываем все окна.",
+            "lv": "Mēs atveram visus logus.",
             "de": "Wir öffnen alle Fenster."
           },
           {
             "type": "translate",
-            "lv": "Ты открываешь окно?",
+            "lv": "Vai tu atver logu?",
             "de": "Öffnest du das Fenster?"
           },
           {
             "type": "translate",
-            "lv": "Нет, я не открывал окно.",
+            "lv": "Nē, es neatvēru logu.",
             "de": "Nein, ich habe das Fenster nicht geöffnet."
           },
           {
             "type": "translate",
-            "lv": "Все ученики садятся.",
+            "lv": "Visi skolēni apsēžas.",
             "de": "Alle Schüler setzen sich."
           },
           {
             "type": "translate",
-            "lv": "Пол, садись!",
+            "lv": "Paul, sēdini sevi!",
             "de": "Paul, setz dich!"
           },
           {
             "type": "translate",
-            "lv": "Дети, садитесь!",
+            "lv": "Bērni, sēdieties!",
             "de": "Kinder, setzt euch!"
           },
           {
             "type": "translate",
-            "lv": "Не говорите тихо!",
+            "lv": "Nerunā klusi!",
             "de": "Sprich nicht leise!"
           },
           {
             "type": "translate",
-            "lv": "Как он говорит?",
+            "lv": "Kā viņš runā?",
             "de": "Wie spricht er?"
           },
           {
             "type": "translate",
-            "lv": "Все ученики говорят громко.",
+            "lv": "Visi skolēni runā skaļi.",
             "de": "Alle Schüler sprechen laut."
           },
           {
             "type": "translate",
-            "lv": "Kaj je branje sluha?",
+            "lv": "Kas lasa skaļi?",
             "de": "Wer liest laut?"
           },
           {
             "type": "translate",
-            "lv": "Ученикот чита гласно и јасно.",
+            "lv": "Skolniece lasa skaļi un skaidri.",
             "de": "Die Schülerin liest laut und deutlich."
           },
           {
             "type": "translate",
-            "lv": "Читайте хорошо!",
+            "lv": "Lasi labi!",
             "de": "Lies gut!"
           },
           {
             "type": "translate",
-            "lv": "Не говорите тихо!",
+            "lv": "Nerunā klusi!",
             "de": "Sprich nicht leise!"
           },
           {
             "type": "translate",
-            "lv": "Читайте хорошо!",
+            "lv": "Lasiet labi!",
             "de": "Lest gut!"
           },
           {
             "type": "translate",
-            "lv": "Ансис пишет хорошо, а Анна пишет плохо.",
+            "lv": "Ansis raksta labi, bet Anna raksta slikti.",
             "de": "Hans schreibt gut, aber Anna schreibt schlecht."
           },
           {
             "type": "translate",
-            "lv": "Мисс Мюллер, спойте, пожалуйста, песню!",
+            "lv": "Gospodična Müller, prosim zapojte pesem!",
             "de": "Fräulein Müller, singen Sie, bitte, ein Lied!"
           },
           {
             "type": "translate",
-            "lv": "Господин Учитель, пожалуйста, сядьте!",
+            "lv": "Skolotāja kungs, lūdzu sēdieties!",
             "de": "Herr Lehrer, bitte, setzen Sie sich!"
           }
         ]
       },
       {
-        "title": "Трансфер",
+        "title": "Pārtulko",
         "exerciseType": "translate",
-        "description": "Переведите латышские предложения на немецкий.",
+        "description": "Tulko latviskos teikumus vāciski.",
         "cards": [
           {
-            "lv": "Приветствуйте учителя и учителя.",
+            "lv": "Pozdravite učiteljico in učiteljico.",
             "de": "Grüße den Lehrer und die Lehrerin!"
           },
           {
-            "lv": "Откройте все окна!",
+            "lv": "Atveriet visus logus!",
             "de": "Öffnet alle Fenster!"
           },
           {
-            "lv": "Открываем все окна.",
+            "lv": "Mēs atveram visus logus.",
             "de": "Wir öffnen alle Fenster."
           },
           {
-            "lv": "Ты открыл окно?",
+            "lv": "Vai tu atvēri logu?",
             "de": "Hast du das Fenster geöffnet?"
           },
           {
-            "lv": "Нет, я не открывал окно.",
+            "lv": "Nē, es neatvēru logu.",
             "de": "Nein, ich habe das Fenster nicht geöffnet."
           },
           {
-            "lv": "Все ученики садятся.",
+            "lv": "Visi skolnieki apsēžas.",
             "de": "Alle Schüler setzen sich."
           },
           {
-            "lv": "Пол, садись!",
+            "lv": "Paul, sēdies!",
             "de": "Paul, setz dich!"
           },
           {
-            "lv": "Дети, садитесь!",
+            "lv": "Bērni, sēdieties!",
             "de": "Kinder, setzt euch!"
           },
           {
-            "lv": "Не говорите тихо!",
+            "lv": "Nerunā klusi!",
             "de": "Sprich nicht leise!"
           },
           {
-            "lv": "Как он говорит?",
+            "lv": "Kā viņš runā?",
             "de": "Wie spricht er?"
           },
           {
-            "lv": "Все ученики говорят громко.",
+            "lv": "Visi skolnieki runā skaļi.",
             "de": "Alle Schüler sprechen laut."
           },
           {
-            "lv": "Kaj je branje sluha?",
+            "lv": "Kas lasa skaļi?",
             "de": "Wer liest laut?"
           },
           {
-            "lv": "Ученикот чита гласно и јасно.",
+            "lv": "Skolniece lasa skaļi un skaidri.",
             "de": "Die Schülerin liest laut und deutlich."
           },
           {
-            "lv": "Читайте хорошо!",
+            "lv": "Lasi labi!",
             "de": "Lies gut!"
           },
           {
-            "lv": "Не говорите тихо!",
+            "lv": "Nerunā klusi!",
             "de": "Sprich nicht leise!"
           },
           {
-            "lv": "Читайте хорошо!",
+            "lv": "Lasiet labi!",
             "de": "Lest gut!"
           },
           {
-            "lv": "Ансис пишет хорошо, а Анна пишет плохо.",
+            "lv": "Ansis raksta labi, bet Anna raksta slikti.",
             "de": "Hans schreibt gut, aber Anna schreibt schlecht."
           },
           {
-            "lv": "Мисс Мюллер, спойте, пожалуйста, песню!",
+            "lv": "Müllera jaunkundze, lūdzu, dziediet dziesmu!",
             "de": "Fräulein Müller, singen Sie, bitte, ein Lied!"
           },
           {
-            "lv": "Господин Учитель, пожалуйста, сядьте!",
+            "lv": "Skolotāja kungs, lūdzu, sēdieties!",
             "de": "Herr Lehrer, bitte, setzen Sie sich!"
           }
         ]
@@ -441,12 +441,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson9": {
     "id": "lesson9",
-    "title": "Лекция 9",
-    "subtitle": "Несколько предметов, dieser/jener, единственное и множественное число",
-    "intro": "Девятая лекция: множественное число существительных, указательные местоимения dieser/jener, упражнения и перевод.",
+    "title": "Lekcija 9",
+    "subtitle": "Vairāki priekšmeti, dieser/jener, vienskaitlis un daudzskaitlis",
+    "intro": "Devītā lekcija: lietvārdu daudzskaitlis, norādāmie vietniekvārdi dieser/jener, vingrinājumi un pārtulkošana.",
     "sections": [
       {
-        "title": "Диалоги/предложения",
+        "title": "Dialogi / teikumi",
         "items": [
           "Hier liegen mehrere Hefte.",
           "Dort liegen mehrere Bleistifte.",
@@ -471,7 +471,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Слова",
+        "title": "Vārdi",
         "items": [
           "mehrere (mērere) — vairāki, vairākas",
           "hier (hīr) — šeit, te",
@@ -494,11 +494,11 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Граматика",
+        "title": "Slovnica",
         "items": [
           {
             "heading": "Norādāmie vietniekvārdi",
-            "text": "Укажите местоимения dieser и jener как определенный артикль."
+            "text": "Norādāmos vietniekvārdus dieser un jener loka kā noteikto artikulu."
           },
           {
             "heading": "Vienskaitlis",
@@ -536,7 +536,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Artikulu nelieto",
-            "text": "Če je pred samostalnikom zaimek ali številčna beseda, se člen ne uporablja."
+            "text": "Ja lietvārda priekšā stāv vietniekvārds vai skaitļa vārds, artikulu nelieto."
           },
           {
             "examples": [
@@ -553,31 +553,31 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Übung / Упражнение",
+        "title": "Übung / Vingrinājums",
         "type": "grammarTransformCards",
         "cards": [
           {
             "base": "Ich nehme ein Heft.",
             "forms": [
               {
-                "label": "1/4 Вступительное предложение",
+                "label": "1/4 Sākuma teikums",
                 "task": "Pārveido šo teikumu 3. personā vienskaitlī.",
                 "text": "Ich nehme ein Heft."
               },
               {
-                "label": "Форма 2/4 Er",
+                "label": "2/4 Er forma",
                 "task": "Pārveido sākuma teikumu 1. personā daudzskaitlī.",
                 "text": "Er nimmt ein Heft."
               },
               {
-                "label": "Форма проволоки 3/4",
+                "label": "3/4 Wir forma",
                 "task": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
                 "text": "Wir nehmen ein Heft."
               },
               {
-                "label": "4/4 множественное число",
+                "label": "4/4 Daudzskaitlis",
                 "task": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
-                "text": "Не е Хефте."
+                "text": "Ich nehme Hefte."
               }
             ]
           },
@@ -585,22 +585,22 @@ const COURSE_LESSON_DATA = {
             "base": "Ich öffne das Heft.",
             "forms": [
               {
-                "label": "1/4 Вступительное предложение",
+                "label": "1/4 Sākuma teikums",
                 "task": "Pārveido šo teikumu 3. personā vienskaitlī.",
                 "text": "Ich öffne das Heft."
               },
               {
-                "label": "Форма 2/4 Er",
+                "label": "2/4 Er forma",
                 "task": "Pārveido sākuma teikumu 1. personā daudzskaitlī.",
                 "text": "Er öffnet das Heft."
               },
               {
-                "label": "Форма проволоки 3/4",
+                "label": "3/4 Wir forma",
                 "task": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
-                "text": "Wir öffentlich das Heft."
+                "text": "Wir öffnen das Heft."
               },
               {
-                "label": "4/4 множественное число",
+                "label": "4/4 Daudzskaitlis",
                 "task": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
                 "text": "Ich öffne die Hefte."
               }
@@ -610,22 +610,22 @@ const COURSE_LESSON_DATA = {
             "base": "Ich nehme auch einen Bleistift.",
             "forms": [
               {
-                "label": "1/4 Вступительное предложение",
+                "label": "1/4 Sākuma teikums",
                 "task": "Pārveido šo teikumu 3. personā vienskaitlī.",
                 "text": "Ich nehme auch einen Bleistift."
               },
               {
-                "label": "Форма 2/4 Er",
+                "label": "2/4 Er forma",
                 "task": "Pārveido sākuma teikumu 1. personā daudzskaitlī.",
                 "text": "Er nimmt auch einen Bleistift."
               },
               {
-                "label": "Форма проволоки 3/4",
+                "label": "3/4 Wir forma",
                 "task": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
-                "text": "Wir nehmen auch einen Bleistif."
+                "text": "Wir nehmen auch einen Bleistift."
               },
               {
-                "label": "4/4 множественное число",
+                "label": "4/4 Daudzskaitlis",
                 "task": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
                 "text": "Ich nehme auch Bleistifte."
               }
@@ -635,22 +635,22 @@ const COURSE_LESSON_DATA = {
             "base": "Ich spitze den Bleistift an.",
             "forms": [
               {
-                "label": "1/4 Вступительное предложение",
+                "label": "1/4 Sākuma teikums",
                 "task": "Pārveido šo teikumu 3. personā vienskaitlī.",
                 "text": "Ich spitze den Bleistift an."
               },
               {
-                "label": "Форма 2/4 Er",
+                "label": "2/4 Er forma",
                 "task": "Pārveido sākuma teikumu 1. personā daudzskaitlī.",
                 "text": "Er spitzt den Bleistift an."
               },
               {
-                "label": "Форма проволоки 3/4",
+                "label": "3/4 Wir forma",
                 "task": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
                 "text": "Wir spitzen den Bleistift an."
               },
               {
-                "label": "4/4 множественное число",
+                "label": "4/4 Daudzskaitlis",
                 "task": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
                 "text": "Ich spitze die Bleistifte an."
               }
@@ -660,22 +660,22 @@ const COURSE_LESSON_DATA = {
             "base": "Ich setze mich und schreibe langsam.",
             "forms": [
               {
-                "label": "1/4 Вступительное предложение",
+                "label": "1/4 Sākuma teikums",
                 "task": "Pārveido šo teikumu 3. personā vienskaitlī.",
                 "text": "Ich setze mich und schreibe langsam."
               },
               {
-                "label": "Форма 2/4 Er",
+                "label": "2/4 Er forma",
                 "task": "Pārveido sākuma teikumu 1. personā daudzskaitlī.",
-                "text": "Er sett sich und schreibt langsam."
+                "text": "Er setzt sich und schreibt langsam."
               },
               {
-                "label": "Форма проволоки 3/4",
+                "label": "3/4 Wir forma",
                 "task": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
                 "text": "Wir setzen uns und schreiben langsam."
               },
               {
-                "label": "4/4 множественное число",
+                "label": "4/4 Daudzskaitlis",
                 "task": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
                 "text": "Ich setze mich und schreibe langsam."
               }
@@ -685,22 +685,22 @@ const COURSE_LESSON_DATA = {
             "base": "Ich schreibe schnell.",
             "forms": [
               {
-                "label": "1/4 Вступительное предложение",
+                "label": "1/4 Sākuma teikums",
                 "task": "Pārveido šo teikumu 3. personā vienskaitlī.",
                 "text": "Ich schreibe schnell."
               },
               {
-                "label": "Форма 2/4 Er",
+                "label": "2/4 Er forma",
                 "task": "Pārveido sākuma teikumu 1. personā daudzskaitlī.",
                 "text": "Er schreibt schnell."
               },
               {
-                "label": "Форма проволоки 3/4",
+                "label": "3/4 Wir forma",
                 "task": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
                 "text": "Wir schreiben schnell."
               },
               {
-                "label": "4/4 множественное число",
+                "label": "4/4 Daudzskaitlis",
                 "task": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
                 "text": "Ich schreibe schnell."
               }
@@ -710,22 +710,22 @@ const COURSE_LESSON_DATA = {
             "base": "Ich mache das Heft zu.",
             "forms": [
               {
-                "label": "1/4 Вступительное предложение",
+                "label": "1/4 Sākuma teikums",
                 "task": "Pārveido šo teikumu 3. personā vienskaitlī.",
                 "text": "Ich mache das Heft zu."
               },
               {
-                "label": "Форма 2/4 Er",
+                "label": "2/4 Er forma",
                 "task": "Pārveido sākuma teikumu 1. personā daudzskaitlī.",
                 "text": "Er macht das Heft zu."
               },
               {
-                "label": "Форма проволоки 3/4",
+                "label": "3/4 Wir forma",
                 "task": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
                 "text": "Wir machen das Heft zu."
               },
               {
-                "label": "4/4 множественное число",
+                "label": "4/4 Daudzskaitlis",
                 "task": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
                 "text": "Ich mache die Hefte zu."
               }
@@ -735,22 +735,22 @@ const COURSE_LESSON_DATA = {
             "base": "Ich lege den Bleistift hin.",
             "forms": [
               {
-                "label": "1/4 Вступительное предложение",
+                "label": "1/4 Sākuma teikums",
                 "task": "Pārveido šo teikumu 3. personā vienskaitlī.",
                 "text": "Ich lege den Bleistift hin."
               },
               {
-                "label": "Форма 2/4 Er",
+                "label": "2/4 Er forma",
                 "task": "Pārveido sākuma teikumu 1. personā daudzskaitlī.",
                 "text": "Er legt den Bleistift hin."
               },
               {
-                "label": "Форма проволоки 3/4",
+                "label": "3/4 Wir forma",
                 "task": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
                 "text": "Wir legen den Bleistift hin."
               },
               {
-                "label": "4/4 множественное число",
+                "label": "4/4 Daudzskaitlis",
                 "task": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
                 "text": "Ich lege die Bleistifte hin."
               }
@@ -760,107 +760,107 @@ const COURSE_LESSON_DATA = {
             "base": "Ich sitze ruhig.",
             "forms": [
               {
-                "label": "1/4 Вступительное предложение",
+                "label": "1/4 Sākuma teikums",
                 "task": "Pārveido šo teikumu 3. personā vienskaitlī.",
-                "text": "Я ситце рухиг."
+                "text": "Ich sitze ruhig."
               },
               {
-                "label": "Форма 2/4 Er",
+                "label": "2/4 Er forma",
                 "task": "Pārveido sākuma teikumu 1. personā daudzskaitlī.",
                 "text": "Er sitzt ruhig."
               },
               {
-                "label": "Форма проволоки 3/4",
+                "label": "3/4 Wir forma",
                 "task": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
                 "text": "Wir sitzen ruhig."
               },
               {
-                "label": "4/4 множественное число",
+                "label": "4/4 Daudzskaitlis",
                 "task": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
-                "text": "Я ситце рухиг."
+                "text": "Ich sitze ruhig."
               }
             ]
           }
         ]
       },
       {
-        "title": "Трансфер",
+        "title": "Pārtulko",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Девушка садится и пишет письмо.",
+            "lv": "Meitene apsēžas un raksta vēstuli.",
             "de": "Das Mädchen setzt sich und schreibt einen Brief."
           },
           {
-            "lv": "Korotkovo pismo?",
+            "lv": "Vai vēstule ir īsa?",
             "de": "Ist der Brief kurz?"
           },
           {
-            "lv": "Нет, письмо не короткое, оно длинное.",
+            "lv": "Nē, vēstule nav īsa, tā ir gara.",
             "de": "Nein, der Brief ist nicht kurz, er ist lang."
           },
           {
-            "lv": "Kaj počnete",
+            "lv": "Ko jūs darāt?",
             "de": "Was machen Sie?"
           },
           {
-            "lv": "Сидим и читаем.",
+            "lv": "Mēs sēžam un lasām.",
             "de": "Wir sitzen und lesen."
           },
           {
-            "lv": "Павел, садись и читай!",
+            "lv": "Paul, apsēdies un lasi!",
             "de": "Paul, setz dich und lies!"
           },
           {
-            "lv": "Господин Учитель, садитесь и читайте!",
+            "lv": "Skolotāja kungs, apsēdieties un lasiet!",
             "de": "Herr Lehrer, setzen Sie sich und lesen Sie!"
           },
           {
-            "lv": "Како пишуваат децата?",
+            "lv": "Kā bērni raksta?",
             "de": "Wie schreiben die Kinder?"
           },
           {
-            "lv": "Они печатают быстро или медленно?",
+            "lv": "Vai viņi raksta ātri vai lēni?",
             "de": "Schreiben sie schnell oder langsam?"
           },
           {
-            "lv": "Они пишут очень медленно.",
+            "lv": "Viņi raksta ļoti lēni.",
             "de": "Sie schreiben sehr langsam."
           },
           {
-            "lv": "Что это за тарелка?",
+            "lv": "Kāds ir šis šķīvis?",
             "de": "Wie ist dieser Teller?"
           },
           {
-            "lv": "Эта тарелка не чистая, она грязная.",
+            "lv": "Šis šķīvis nav tīrs, tas ir netīrs.",
             "de": "Dieser Teller ist nicht rein, er ist schmutzig."
           },
           {
-            "lv": "Буквы длинные или короткие?",
+            "lv": "Vai vēstules ir garas vai īsas?",
             "de": "Sind die Briefe lang oder kurz?"
           },
           {
-            "lv": "Анна, заточи этот карандаш!",
+            "lv": "Anna, uzasini šo zīmuli!",
             "de": "Anna, spitz diesen Bleistift an!"
           },
           {
-            "lv": "Учитель, пожалуйста, заточите этот карандаш!",
+            "lv": "Skolotāja kungs, lūdzu, uzasiniet šo zīmuli!",
             "de": "Herr Lehrer, bitte spitzen Sie diesen Bleistift an!"
           },
           {
-            "lv": "Отложи этот карандаш!",
+            "lv": "Noliec to zīmuli!",
             "de": "Leg jenen Bleistift hin!"
           },
           {
-            "lv": "Закройте окно!",
+            "lv": "Aiztaisi logu!",
             "de": "Mach das Fenster zu!"
           },
           {
-            "lv": "Что в итоге делает девушка?",
+            "lv": "Kaj dekle končno naredi?",
             "de": "Was macht das Mädchen endlich?"
           },
           {
-            "lv": "Она закрывает окно и выходит.",
+            "lv": "Viņa aiztaisa logu un iziet ārā.",
             "de": "Sie macht das Fenster zu und geht hinaus."
           }
         ]
@@ -869,12 +869,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson10": {
     "id": "lesson10",
-    "title": "Лекция 10",
-    "subtitle": "Сейн, кённен, здоровье, возраст и профессии",
-    "intro": "Десетто предавање: sein, können, тимски форми, здравје, возраст и професии.",
+    "title": "Lekcija 10",
+    "subtitle": "Sein, können, veselība, vecums un profesijas",
+    "intro": "Desmitā lekcija: sein, können, pavēles formas, veselība, vecums un profesijas.",
     "sections": [
       {
-        "title": "Диалоги/предложения",
+        "title": "Dialogi / teikumi",
         "items": [
           "Ich bin gesund.",
           "Du bist gesund.",
@@ -927,7 +927,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Слова",
+        "title": "Vārdi",
         "items": [
           "gesund (gezunt) — vesels",
           "ich bin gesund — es esmu vesels",
@@ -957,7 +957,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Изговор",
+        "title": "Izruna",
         "items": [
           "Pareizi jāizrunā patskaņu pārkaņojumi.",
           "ö izrunā ar apaļotām lūpām kā e: wir können, ihr könnt, sie können, der Löffel.",
@@ -972,11 +972,11 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Граматика",
+        "title": "Slovnica",
         "items": [
           {
             "heading": "Sein",
-            "text": "Вспомогательный глагол sein – быть в кругу беспорядка. Поэтому этому следует хорошо научиться."
+            "text": "Palīga darbības vārdu sein — būt loka nekārtni. Tāpēc tas labi jāiemācās."
           },
           {
             "heading": "Sein — Präsens",
@@ -1017,7 +1017,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Können",
-            "text": "Аналогично, вспомогательный глагол können – иметь возможность – склоняется неправильно."
+            "text": "Tāpat nekārtni loka arī palīga darbības vārdu können — varēt."
           },
           {
             "heading": "Können — Präsens",
@@ -1051,91 +1051,91 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Трансфер",
+        "title": "Pārtulko",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Ты здоров?",
+            "lv": "Vai tu esi vesels?",
             "de": "Bist du gesund?"
           },
           {
-            "lv": "Да, я здоров.",
+            "lv": "Jā, es esmu vesels.",
             "de": "Ja, ich bin gesund."
           },
           {
-            "lv": "Секс здрав?",
+            "lv": "Vai Pauls ir vesels?",
             "de": "Ist Paul gesund?"
           },
           {
-            "lv": "Нет, Павел не здоров, он болен.",
+            "lv": "Nē, Pauls nav vesels, viņš ir slims.",
             "de": "Nein, Paul ist nicht gesund, er ist krank."
           },
           {
-            "lv": "Ali lahko dela?",
+            "lv": "Vai viņš var strādāt?",
             "de": "Kann er arbeiten?"
           },
           {
-            "lv": "Не, тој не може да работи.",
+            "lv": "Nē, viņš nevar strādāt.",
             "de": "Nein, er kann nicht arbeiten."
           },
           {
-            "lv": "Дедушка старый?",
+            "lv": "Vai vectēvs ir vecs?",
             "de": "Ist der Großvater alt?"
           },
           {
-            "lv": "Да, он очень старый.",
+            "lv": "Jā, viņš ir ļoti vecs.",
             "de": "Ja, er ist sehr alt."
           },
           {
-            "lv": "Дедушка и бабушка очень старые.",
+            "lv": "Vectēvs un vecmāmiņa ir ļoti veci.",
             "de": "Der Großvater und die Großmutter sind sehr alt."
           },
           {
-            "lv": "Сколько лет Адольфу?",
+            "lv": "Cik vecs ir Adolfs?",
             "de": "Wie alt ist Adolf?"
           },
           {
-            "lv": "Адольфу девять лет.",
+            "lv": "Adolfs ir deviņus gadus vecs.",
             "de": "Adolf ist neun Jahre alt."
           },
           {
-            "lv": "Кой си ти",
+            "lv": "Kas tu esi?",
             "de": "Was bist du?"
           },
           {
-            "lv": "Я мужчина.",
+            "lv": "Es esmu vīrietis.",
             "de": "Ich bin ein Mann."
           },
           {
-            "lv": "Он учитель?",
+            "lv": "Vai viņš ir skolotājs?",
             "de": "Ist er ein Lehrer?"
           },
           {
-            "lv": "Нет, он рабочий.",
+            "lv": "Nē, viņš ir strādnieks.",
             "de": "Nein, er ist ein Arbeiter."
           },
           {
-            "lv": "Кто такой учитель?",
+            "lv": "Kas ir skolotājs?",
             "de": "Was ist der Lehrer?"
           },
           {
-            "lv": "Учитель – мужчина.",
+            "lv": "Učitelj je moški.",
             "de": "Der Lehrer ist ein Mann."
           },
           {
-            "lv": "Кто такой учитель?",
+            "lv": "Kas ir skolotāja?",
             "de": "Was ist die Lehrerin?"
           },
           {
-            "lv": "Учитель – женщина.",
+            "lv": "Skolotāja ir sieviete.",
             "de": "Die Lehrerin ist eine Frau."
           },
           {
-            "lv": "Кто может работать?",
+            "lv": "Kas var strādāt?",
             "de": "Wer kann arbeiten?"
           },
           {
-            "lv": "Мы все можем работать.",
+            "lv": "Mēs visi varam strādāt.",
             "de": "Wir können alle arbeiten."
           }
         ]
@@ -1144,12 +1144,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson11": {
     "id": "lesson11",
-    "title": "Лекция 11",
-    "subtitle": "Хабен, кеин/кейне/кейнен, притяжательные и составные существительные",
-    "intro": "Одиннадцатая лекция: хабен, отрицание с кейн, владение, сложные существительные и порядок слов с денн.",
+    "title": "Predavanje 11",
+    "subtitle": "Haben, kein/keine/keinen, piederība un saliktie lietvārdi",
+    "intro": "Vienpadsmitā lekcija: haben, noliegums ar kein, piederības izteikšana, saliktie lietvārdi un vārdu kārtība ar denn.",
     "sections": [
       {
-        "title": "Диалоги/предложения",
+        "title": "Dialogi / teikumi",
         "items": [
           "Ich habe einen Bruder.",
           "Du hast einen Bruder.",
@@ -1189,7 +1189,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Слова",
+        "title": "Vārdi",
         "items": [
           "ich habe — man ir",
           "du hast — tev ir",
@@ -1224,7 +1224,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Изговор",
+        "title": "Izruna",
         "items": [
           "eu izrunā kā oi: der Freund (dēr froint), neun (noin).",
           "h pa lielākai daļai ir garumzīme iepriekšējam patskanim: der Stuhl (dēr štūl), zehn (cēn).",
@@ -1232,11 +1232,11 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Граматика",
+        "title": "Slovnica",
         "items": [
           {
             "heading": "Haben",
-            "text": "Вспомогательный глагол haben в немецком языке выражает понятие принадлежности. В латышском языке это часто выражается словами: у меня есть, у тебя есть, у него есть и т. д. т.е. т. е."
+            "text": "Ar palīga darbības vārdu haben vācu valodā izsaka piederības jēdzienu. Latviski to bieži izsaka ar: man ir, tev ir, viņam ir u. t. t."
           },
           {
             "heading": "Haben — Präsens",
@@ -1269,7 +1269,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Latviešu datīvs un vācu nominatīvs/akuzatīvs",
-            "text": "В латышском языке лицо, которому что-то принадлежит, стоит в дательном падеже, а подлежащее – в именительном падеже. В немецком языке лицо стоит в именительном падеже, а объект владения — в винительном падеже."
+            "text": "Latviešu valodā persona, kam kas pieder, ir datīvā, bet priekšmets — nominatīvā. Vācu valodā persona ir nominatīvā, bet piederošais priekšmets — akuzatīvā."
           },
           {
             "heading": "Piemēri",
@@ -1288,7 +1288,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Imperativ",
-            "text": "Глагол haben необходимо хорошо выучить и правильно использовать. Вы также должны знать формы команд."
+            "text": "Darbības vārdu haben vajag labi iemācīties un pareizi lietot. Arī pavēles formas jāzina."
           },
           {
             "heading": "Imperativ — piemēri",
@@ -1300,7 +1300,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Kein / keine / keinen",
-            "text": "Двойное отрицание латышского языка не выражается в немецком языке отрицательным словом kein. Отрицательное слово kein стоит только перед существительным."
+            "text": "Latviešu valodas divkāršo noliegumu vāciski neizsaka ar noliedzamo vārdu kein. Noliedzamais vārds kein stāv tikai lietas vārda priekšā."
           },
           {
             "heading": "Kein — vienskaitlis",
@@ -1334,7 +1334,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Vārdu kārtība ar denn",
-            "text": "Если в повествовательном предложении присутствует союз denn, глагол остается на 2-й позиции. Союз denn не считается членом предложения."
+            "text": "Ja stāstāmā teikumā ir saiklis denn, darbības vārds paliek 2. vietā. Saikli denn kā teikuma locekli neskaita."
           },
           {
             "heading": "Denn — piemēri",
@@ -1345,7 +1345,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Saliktie lietvārdi",
-            "text": "Перед сложными существительными стоит артикль последнего существительного. Ударение делается на первое слово по делу."
+            "text": "Salikto lietvārdu priekšā stāv pēdējā lietvārda artikuls. Uzsvars ir uz pirmā lietas vārda."
           },
           {
             "heading": "Saliktie lietvārdi — piemēri",
@@ -1358,91 +1358,91 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Трансфер",
+        "title": "Pārtulko",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Что у тебя есть",
+            "lv": "Kas tev ir?",
             "de": "Was hast du?"
           },
           {
-            "lv": "У меня есть книги.",
+            "lv": "Man ir grāmatas.",
             "de": "Ich habe Bücher."
           },
           {
-            "lv": "Какие книги?",
+            "lv": "Kādas ir grāmatas?",
             "de": "Wie sind die Bücher?"
           },
           {
-            "lv": "Книги толстые.",
+            "lv": "Grāmatas ir biezas.",
             "de": "Die Bücher sind dick."
           },
           {
-            "lv": "Мисс Мюллер, у вас есть блокноты?",
+            "lv": "Müller jaunkundze, vai Jums ir burtnīcas?",
             "de": "Fräulein Müller, haben Sie Hefte?"
           },
           {
-            "lv": "У меня нет тетрадей.",
+            "lv": "Man nav nevienas burtnīcas.",
             "de": "Ich habe keine Hefte."
           },
           {
-            "lv": "У Франка нет ни ручки, ни карандаша.",
+            "lv": "Francim nav nevienas spalvas un neviena zīmuļa.",
             "de": "Franz hat keine Feder und keinen Bleistift."
           },
           {
-            "lv": "Какова комната",
+            "lv": "Kāda ir istaba?",
             "de": "Wie ist das Zimmer?"
           },
           {
-            "lv": "Комната большая, светлая и теплая.",
+            "lv": "Istaba ir liela, gaiša un silta.",
             "de": "Das Zimmer ist groß, hell und warm."
           },
           {
-            "lv": "Дали имате стол?",
+            "lv": "Vai tev ir rakstāmgalds?",
             "de": "Hast du einen Schreibtisch?"
           },
           {
-            "lv": "Да, у меня есть письменный стол и настольная лампа.",
+            "lv": "Jā, man ir rakstāmgalds un galda lampa.",
             "de": "Ja, ich habe einen Schreibtisch und eine Tischlampe."
           },
           {
-            "lv": "Kdo je učitelj?",
+            "lv": "Kas ir skolotājam?",
             "de": "Was hat der Lehrer?"
           },
           {
-            "lv": "У учителя много книг и книжная полка.",
+            "lv": "Skolotājam ir daudz grāmatu un grāmatu plaukts.",
             "de": "Der Lehrer hat viele Bücher und ein Bücherbrett."
           },
           {
-            "lv": "Кто счастлив?",
+            "lv": "Kas ir laimīgs?",
             "de": "Wer ist glücklich?"
           },
           {
-            "lv": "Ребенок счастлив, потому что у него есть отец и мать.",
+            "lv": "Otrok je srečen, ker ima očeta in mamo.",
             "de": "Das Kind ist glücklich, denn es hat einen Vater und eine Mutter."
           },
           {
-            "lv": "Что делает Анна?",
+            "lv": "Ko dara Anna?",
             "de": "Was tut Anna?"
           },
           {
-            "lv": "Она пишет.",
+            "lv": "Viņa raksta.",
             "de": "Sie schreibt."
           },
           {
-            "lv": "Фрэнсис тоже пишет?",
+            "lv": "Vai Francis arī raksta?",
             "de": "Schreibt Franz auch?"
           },
           {
-            "lv": "Нет, Фрэнсис не пишет, он рисует.",
+            "lv": "Nē, Francis neraksta, viņš zīmē.",
             "de": "Nein, Franz schreibt nicht, er zeichnet."
           },
           {
-            "lv": "Они стоят?",
+            "lv": "Vai viņi stāv?",
             "de": "Stehen sie?"
           },
           {
-            "lv": "Нет, они садятся и учатся.",
+            "lv": "Nē, viņi apsēžas un mācās.",
             "de": "Nein, sie setzen sich und lernen."
           }
         ]
@@ -1451,12 +1451,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson12": {
     "id": "lesson12",
-    "title": "Лекция 12",
-    "subtitle": "Сравнительные степени, als/wie, возраст, прилагательные и цвета.",
-    "intro": "Двенадцатая лекция: сравнительные степени, als/wie, возраст, прилагательные и цвета.",
+    "title": "Lekcija 12",
+    "subtitle": "Salīdzināmās pakāpes, als / wie, vecums, īpašības vārdi un krāsas.",
+    "intro": "Divpadsmitā lekcija: salīdzināmās pakāpes, als / wie, vecums, īpašības vārdi un krāsas.",
     "sections": [
       {
-        "title": "Диалоги/предложения",
+        "title": "Dialogi / teikumi",
         "items": [
           "Wie heißt du? Ich heiße Hans Grube.",
           "Wieviel Brüder hast du, Hans?",
@@ -1484,7 +1484,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Слова",
+        "title": "Vārdi",
         "items": [
           "heißen — saukt",
           "wie heißt du — kā tevi sauc",
@@ -1524,7 +1524,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Изговор",
+        "title": "Izruna",
         "items": [
           "x izrunā kā ks: Max (maks), Felix (feliks).",
           "Vārdos Schwester, am jüngsten st izrunā kā latviski parasts st: Schwester (švester), jüngsten (jünksten).",
@@ -1532,11 +1532,11 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Граматика",
+        "title": "Slovnica",
         "items": [
           {
             "heading": "Komparativ",
-            "text": "Превосходная степень (Comparativ) прилагательных образуется от основной степени (Positiv) с окончанием -er.",
+            "text": "Īpašības vārdu pārāko pakāpi (Komparativ) darina no pamata pakāpes (Positiv) ar galotni -er.",
             "examples": [
               "klein — kleiner",
               "alt — älter",
@@ -1545,7 +1545,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Umlaut pārākajā pakāpē",
-            "text": "Большинство односложных прилагательных с основной гласной a, o, u имеют умлаут в превосходной степени.",
+            "text": "Lielākai daļai vienzilbīgu īpašības vārdu ar celma patskani a, o, u pārākā pakāpē ir Umlaut.",
             "examples": [
               "lang — länger",
               "groß — größer",
@@ -1554,7 +1554,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Salīdzināšana ar wie un als",
-            "text": "Wie используется для выражения равенства. als используется при выражении неравенства.",
+            "text": "Wie lieto, kad izsaka vienādību. als lieto, kad izsaka nevienādību.",
             "examples": [
               "Elsa ist so alt wie mein Vetter.",
               "Ida ist älter als ich."
@@ -1562,7 +1562,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Superlativ",
-            "text": "Общая степень (Superlativ) образуется путем добавления окончания -sten или -esten к основной степени и дорожного слова am перед ней.",
+            "text": "Splošno stopnjo (Superlativ) naredimo tako, da osnovni stopnji dodamo končnico -sten ali -esten in spredaj prometno besedo am.",
             "examples": [
               "Ida ist am jüngsten.",
               "Die Großmutter ist am ältesten."
@@ -1611,139 +1611,139 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Трансфер",
+        "title": "Pārtulko",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Кто старше, ты или я?",
+            "lv": "Kas ir vecāks, tu vai es?",
             "de": "Wer ist älter, du oder ich?"
           },
           {
-            "lv": "Ты старше меня.",
+            "lv": "Tu esi vecāks par mani.",
             "de": "Du bist älter als ich."
           },
           {
-            "lv": "Кто самый старший?",
+            "lv": "Kas ir visvecākais?",
             "de": "Wer ist am ältesten?"
           },
           {
-            "lv": "Пол — самый старший.",
+            "lv": "Pauls ir visvecākais.",
             "de": "Paul ist am ältesten."
           },
           {
-            "lv": "Как вас зовут",
+            "lv": "Kako ti je ime",
             "de": "Wie heißt du?"
           },
           {
-            "lv": "Меня зовут Питер.",
+            "lv": "Mani sauc Peter.",
             "de": "Ich heiße Peter."
           },
           {
-            "lv": "Како се викам?",
+            "lv": "Kā viņu sauc?",
             "de": "Wie heißt er?"
           },
           {
-            "lv": "Его зовут Джон.",
+            "lv": "Višu ime je Janez.",
             "de": "Er heißt Johann."
           },
           {
-            "lv": "Како се викаш?",
+            "lv": "Kā Jūs sauc?",
             "de": "Wie heißen Sie?"
           },
           {
-            "lv": "Сколько тебе лет?",
+            "lv": "Cik vecs Jūs esat?",
             "de": "Wie alt sind Sie?"
           },
           {
-            "lv": "Мне 20 лет.",
+            "lv": "Es esmu 20 gadus vecs.",
             "de": "Ich bin zwanzig Jahre alt."
           },
           {
-            "lv": "Макси большой?",
+            "lv": "Vai Maksis ir liels?",
             "de": "Ist Max groß?"
           },
           {
-            "lv": "Нето, Макс не е голем, Рудолф поголем.",
+            "lv": "Ne, Maks ni velik, Rudolf je večji.",
             "de": "Nein, Max ist nicht groß, Rudolf ist größer."
           },
           {
-            "lv": "Что самое великое?",
+            "lv": "Kas ir vislielākais?",
             "de": "Wer ist am größten?"
           },
           {
-            "lv": "Фрэнсис величайший.",
+            "lv": "Francis ir vislielākais.",
             "de": "Franz ist am größten."
           },
           {
-            "lv": "Колку години мајка?",
+            "lv": "Cik veca ir māte?",
             "de": "Wie alt ist die Mutter?"
           },
           {
-            "lv": "Мать того же возраста, что и отец.",
+            "lv": "Māte ir tikpat veca kā tēvs.",
             "de": "Die Mutter ist ebenso alt wie der Vater."
           },
           {
-            "lv": "Сколько у тебя сестер?",
+            "lv": "Cik tev māsu?",
             "de": "Wieviel Schwestern hast du?"
           },
           {
-            "lv": "Imam tri sestre.",
+            "lv": "Man ir trīs māsas.",
             "de": "Ich habe drei Schwestern."
           },
           {
-            "lv": "Как их зовут?",
+            "lv": "Kā viņas sauc?",
             "de": "Wie heißen sie?"
           },
           {
-            "lv": "Их зовут Эльза, Марта и Альма.",
+            "lv": "Viņas sauc Elza, Marta un Alma.",
             "de": "Sie heißen Elsa, Martha und Alma."
           },
           {
-            "lv": "Сколько у тебя братьев?",
+            "lv": "Cik jums brāļu?",
             "de": "Wieviel Brüder haben Sie?"
           },
           {
-            "lv": "У меня есть один брат.",
+            "lv": "Man ir viens brālis.",
             "de": "Ich habe einen Bruder."
           },
           {
-            "lv": "Что такое чернила?",
+            "lv": "Kāda ir tinte?",
             "de": "Wie ist die Tinte?"
           },
           {
-            "lv": "Он черный.",
+            "lv": "Tā ir melna.",
             "de": "Sie ist schwarz."
           },
           {
-            "lv": "Что такое мел?",
+            "lv": "Kāds ir krīts?",
             "de": "Wie ist die Kreide?"
           },
           {
-            "lv": "Он белый.",
+            "lv": "Bela je.",
             "de": "Sie ist weiß."
           },
           {
-            "lv": "Что такое цветы?",
+            "lv": "Kādas ir puķes?",
             "de": "Wie sind die Blumen?"
           },
           {
-            "lv": "Тие се сини, црвени, жолти и бели.",
+            "lv": "Tās ir zilas, sarkanas, dzeltenas un baltas.",
             "de": "Sie sind blau, rot, gelb und weiß."
           },
           {
-            "lv": "Брат здоров?",
+            "lv": "Vai brālis ir vesels?",
             "de": "Ist der Bruder gesund?"
           },
           {
-            "lv": "Ja, brat Zdorov, ampak sestra je bila bolna.",
+            "lv": "Jā, brālis ir vesels, bet māsa ir slima.",
             "de": "Ja, der Bruder ist gesund, aber die Schwester ist krank."
           },
           {
-            "lv": "Дали сте среќни?",
+            "lv": "Vai jūs esat laimīgi?",
             "de": "Sind Sie glücklich?"
           },
           {
-            "lv": "Да, мы счастливы, потому что мы здоровы.",
+            "lv": "Jā, mēs esam laimīgi, jo mēs esam veseli.",
             "de": "Ja, wir sind glücklich, denn wir sind gesund."
           }
         ]
@@ -1752,12 +1752,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson13": {
     "id": "lesson13",
-    "title": "Лекция 13",
-    "subtitle": "Der Körper, части тела, Turnen, Jeder и множественное число.",
-    "intro": "Лекция тринадцатая: Der Körper, части тела, упражнения, возвратные глаголы и множественное число.",
+    "title": "Predavanje 13",
+    "subtitle": "Der Körper, ķermeņa daļas, turnen, jeder un daudzskaitlis.",
+    "intro": "Trīspadsmitā lekcija: Der Körper, ķermeņa daļas, vingrošana, atgriezeniskie darbības vārdi un daudzskaitlis.",
     "sections": [
       {
-        "title": "Текст/Чтение",
+        "title": "Teksts / Lasīšana",
         "items": [
           "Der Mensch hat einen Kopf, einen Hals, einen Rumpf, zwei Arme, zwei Hände, zwei Beine und zwei Füße.",
           "Wie ist der Kopf? Der Kopf ist rund.",
@@ -1777,7 +1777,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Имена",
+        "title": "Vārdiņi",
         "items": [
           "der Körper — ķermenis",
           "der Mensch — cilvēks",
@@ -1831,11 +1831,11 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Граматика",
+        "title": "Slovnica",
         "items": [
           {
             "heading": "Umlaut tagadnē",
-            "text": "Некоторые глаголы с основной гласной a или au во 2-м и 3-м лице настоящего единственного числа имеют умлаут.",
+            "text": "Dažiem darbības vārdiem ar celma patskani a vai au tagadnes 2. un 3. personā vienskaitlī ir Umlaut.",
             "examples": [
               "halten — ich halte, du hältst, er hält",
               "fallen — ich falle, du fällst, er fällt",
@@ -1847,7 +1847,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Atgriezeniskais darbības vārds",
-            "text": "Sich umkehren — обернуться",
+            "text": "Sich umkehren — apgriezties",
             "examples": [
               "ich kehre mich um",
               "du kehrst dich um",
@@ -1867,7 +1867,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Darbības vārds atmen",
-            "text": "Не забывай дышать",
+            "text": "Atmen — elpot",
             "examples": [
               "ich atme",
               "du atmest",
@@ -1887,7 +1887,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Saliktie darbības vārdi",
-            "text": "Если предложная часть подчеркнута, она отделяется в настоящем времени и идет в конце предложения.",
+            "text": "Ja uzsvērta priedēkļa daļa, tā tagadnē atdalās un iet teikuma beigās.",
             "examples": [
               "ausstrecken: ich strecke einen Arm aus.",
               "sich umkehren: ich kehre mich um."
@@ -1895,7 +1895,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Neatdalāmie priedēkļi",
-            "text": "Если приставка безударная, то она безударная.",
+            "text": "Ja priedēklis nav uzsvērts, tas neatdalās.",
             "examples": [
               "beschneiden: ich beschneide die Nägel.",
               "du beschneidest die Nägel."
@@ -1903,7 +1903,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Vietniekvārds jeder",
-            "text": "Местоимение jeder идет по кругу, как и артикли der/die/das.",
+            "text": "Vietniekvārds jeder lokās kā artikuli der / die / das.",
             "table": [
               [
                 "",
@@ -1968,7 +1968,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Sieviešu kārtas lietvārdi ar -in",
-            "text": "Существительные женского рода, образованные с помощью -in take -nen во множественном числе.",
+            "text": "Sieviešu kārtas lietvārdi, kas veidoti ar -in, daudzskaitlī pieņem -nen.",
             "examples": [
               "der Lehrer — die Lehrerin — die Lehrerinnen",
               "der Schüler — die Schülerin — die Schülerinnen",
@@ -1979,7 +1979,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Изговор",
+        "title": "Izruna",
         "items": [
           "h vārdā halten ir dzirdama skaņa.",
           "h vārdā fahren rāda patskaņa garumu.",
@@ -1990,7 +1990,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Упражнение",
+        "title": "Vingrinājums",
         "cards": [
           {
             "ich": "Ich hebe die Beine.",
@@ -2055,139 +2055,139 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Трансфер",
+        "title": "Pārtulko",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Сколько рук у человека?",
+            "lv": "Cik cilvēkam ir roku?",
             "de": "Wie viele Arme hat der Mensch?"
           },
           {
-            "lv": "Сколько у тебя ног",
+            "lv": "Cik tev ir kāju?",
             "de": "Wie viele Beine hast du?"
           },
           {
-            "lv": "Какова голова?",
+            "lv": "Kāda ir galva?",
             "de": "Wie ist der Kopf?"
           },
           {
-            "lv": "Как выглядит туловище?",
+            "lv": "Kāds ir rumpis?",
             "de": "Wie ist der Rumpf?"
           },
           {
-            "lv": "Что такое рука?",
+            "lv": "Kāda ir roka?",
             "de": "Wie ist der Arm?"
           },
           {
-            "lv": "Что такое нога?",
+            "lv": "Kāda ir kāja?",
             "de": "Wie ist das Bein?"
           },
           {
-            "lv": "Рука маленькая, а нога большая.",
+            "lv": "Roka ir maza, bet kāja ir liela.",
             "de": "Der Arm ist klein, aber das Bein ist groß."
           },
           {
-            "lv": "Где сундук",
+            "lv": "Kur ir krūtis?",
             "de": "Wo ist die Brust?"
           },
           {
-            "lv": "Каде е грбот?",
+            "lv": "Kur ir mugura?",
             "de": "Wo ist der Rücken?"
           },
           {
-            "lv": "Грудь впереди, спинка сзади.",
+            "lv": "Prsni koš je spredaj, hrbet zadaj.",
             "de": "Die Brust ist vorn, der Rücken ist hinten."
           },
           {
-            "lv": "Сколько пальцев на руке?",
+            "lv": "Cik pirkstu ir plaukstai?",
             "de": "Wie viele Finger hat die Hand?"
           },
           {
-            "lv": "Prste je prepeval na ladonih.",
+            "lv": "Plaukstai ir pieci pirksti.",
             "de": "Die Hand hat fünf Finger."
           },
           {
-            "lv": "Сколько пальцев на двух руках?",
+            "lv": "Koliko prstov imata dve roki?",
             "de": "Wie viele Finger haben zwei Hände?"
           },
           {
-            "lv": "На двух руках десять пальцев.",
+            "lv": "Divām rokām ir desmit pirkstu.",
             "de": "Zwei Hände haben zehn Finger."
           },
           {
-            "lv": "Что такое палец?",
+            "lv": "Kas ir pirkstam?",
             "de": "Was hat der Finger?"
           },
           {
-            "lv": "На прстот има канџа.",
+            "lv": "Pirkstam ir nags.",
             "de": "Der Finger hat einen Nagel."
           },
           {
-            "lv": "Kaj počnete",
+            "lv": "Ko tu dari?",
             "de": "Was tust du?"
           },
           {
-            "lv": "Я подстригаю и чищу ногти.",
+            "lv": "Es apgriežu un tīru nagus.",
             "de": "Ich beschneide und reinige die Nägel."
           },
           {
-            "lv": "Что делает Пол?",
+            "lv": "Ko Pauls dara?",
             "de": "Was tut Paul?"
           },
           {
-            "lv": "Он тренируется.",
+            "lv": "Viņš vingro.",
             "de": "Er turnt."
           },
           {
-            "lv": "Как они тренируются?",
+            "lv": "Kā viņi vingro?",
             "de": "Wie turnen sie?"
           },
           {
-            "lv": "Они поднимают ноги и руки.",
+            "lv": "Viņi ceļ kājas un rokas.",
             "de": "Sie heben die Beine und die Arme."
           },
           {
-            "lv": "Они протягивают обе руки.",
+            "lv": "Viņi izstiepj abas rokas.",
             "de": "Sie strecken beide Arme aus."
           },
           {
-            "lv": "Они опускают обе руки.",
+            "lv": "Viņi nolaiž abas rokas.",
             "de": "Sie senken beide Arme."
           },
           {
-            "lv": "Они поворачивают головы вправо.",
+            "lv": "Viņi pagriež galvu pa labi.",
             "de": "Sie drehen den Kopf nach rechts."
           },
           {
-            "lv": "Кто дышит глубоко?",
+            "lv": "Kas elpo dziļi?",
             "de": "Wer atmet tief?"
           },
           {
-            "lv": "Peter in Ana globoko dihata.",
+            "lv": "Peter in Ana dihajo globoko.",
             "de": "Peter und Anna atmen tief."
           },
           {
-            "lv": "Роберт тоже занимается спортом?",
+            "lv": "Ali Robert tudi telovadi?",
             "de": "Turnt Robert auch?"
           },
           {
-            "lv": "Нет, Робертс и Янис не занимаются спортом.",
+            "lv": "Ne, Robert in Janez ne telovadijo.",
             "de": "Nein, Robert und Johann turnen nicht."
           },
           {
-            "lv": "Роберт, тренируйся!",
+            "lv": "Robert, telovadi!",
             "de": "Robert, turne!"
           },
           {
-            "lv": "Роберт и Јани, вежбајте!",
+            "lv": "Robert un Jāni, vingrojiet!",
             "de": "Robert und Johann, turnt!"
           },
           {
-            "lv": "Мисс Мюллер, занимайтесь спортом!",
+            "lv": "Müller jaunkundze, vingrojiet!",
             "de": "Fräulein Müller, turnen Sie!"
           },
           {
-            "lv": "Сделайте два шага и оставайтесь стоять!",
+            "lv": "Pasperiet divus soļus un tad palieciet stāvam!",
             "de": "Machen Sie zwei Schritte, und dann bleiben Sie stehen!"
           }
         ]
@@ -2196,12 +2196,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson14": {
     "id": "lesson14",
-    "title": "Лекция 14",
-    "subtitle": "Мюссен, шерстяной, мёген",
-    "intro": "Лекция четырнадцатая: Модальные глаголы müssen, wollen и mögen.",
+    "title": "Lekcija 14",
+    "subtitle": "Müssen, wollen, mögen",
+    "intro": "Četrpadsmitā lekcija: modālie darbības vārdi müssen, wollen un mögen.",
     "sections": [
       {
-        "title": "Текст/Чтение",
+        "title": "Teksts / Lasīšana",
         "items": [
           "Ich muss lernen, denn ich will vorwärts kommen.",
           "Du musst lernen, denn du willst vorwärts kommen.",
@@ -2222,7 +2222,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Имена",
+        "title": "Vārdiņi",
         "items": [
           "müssen — vajadzēt / būt jādara",
           "ich muss — man vajag / man jādara",
@@ -2267,15 +2267,15 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Граматика",
+        "title": "Slovnica",
         "items": [
           {
             "heading": "Modālie darbības vārdi",
-            "text": "Глаголы müssen, wollen и mögen являются модальными глаголами."
+            "text": "Glagoli müssen, wollen in mögen so modalni glagoli."
           },
           {
             "heading": "1. un 3. persona vienskaitlī",
-            "text": "В настоящем единственном числе 1-е и 3-е лица совпадают.",
+            "text": "Tagadnes vienskaitlī 1. un 3. persona ir vienāda.",
             "examples": [
               "ich muss",
               "er muss",
@@ -2328,21 +2328,21 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Müssen",
-            "text": "Müssen означает нуждаться/быть нужным.",
+            "text": "Müssen nozīmē vajadzēt / būt nepieciešamam.",
             "examples": [
               "Ich muss lernen. — Man jāmācās."
             ]
           },
           {
             "heading": "Wollen",
-            "text": "Wollen означает намеренное желание что-то сделать.",
+            "text": "Wollen nozīmē apzināti gribēt kaut ko darīt.",
             "examples": [
               "Ich will vorwärts kommen. — Es gribu tikt uz priekšu."
             ]
           },
           {
             "heading": "Mögen",
-            "text": "Мёген выражает желание или симпатию.",
+            "text": "Mögen izsaka vēlēšanos vai patiku.",
             "examples": [
               "Ich mag die Suppe nicht essen. — Es negribu zupu ēst.",
               "Die Suppe mundet mir nicht. — Zupa man negaršo."
@@ -2350,7 +2350,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Svarīgi",
-            "text": "По-латышски мы часто говорим: «Мне нужно учиться», «Ты должен писать», «Он должен прийти». В таких предложениях немецкий язык часто использует müssen.",
+            "text": "Latviski bieži sakām “man jāmācās”, “tev jāraksta”, “viņam jānāk”. Vāciski šādos teikumos bieži lieto müssen.",
             "examples": [
               "Ich muss lernen.",
               "Du musst den Brief schreiben.",
@@ -2360,7 +2360,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Изговор",
+        "title": "Izruna",
         "items": [
           "ß izrunā kā latviešu s.",
           "ß raksta vārda vidū vai beigās pēc gara patskaņa vai divskaņa: die Füße, die Straße, ich muss, er muss.",
@@ -2371,63 +2371,63 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Трансфер",
+        "title": "Pārtulko",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Кто хочет хорошо учиться?",
+            "lv": "Kas grib čakli mācīties?",
             "de": "Wer will fleißig lernen?"
           },
           {
-            "lv": "Все студенты хотят хорошо учиться.",
+            "lv": "Visi skolnieki grib čakli mācīties.",
             "de": "Alle Schüler wollen fleißig lernen."
           },
           {
-            "lv": "Кто должен прийти сегодня?",
+            "lv": "Kam šodien jānāk?",
             "de": "Wer muss heute kommen?"
           },
           {
-            "lv": "Я должен прийти сегодня.",
+            "lv": "Man šodien jānāk.",
             "de": "Ich muss heute kommen."
           },
           {
-            "lv": "Вам нужно написать письмо.",
+            "lv": "Tev jāraksta vēstule.",
             "de": "Du musst den Brief schreiben."
           },
           {
-            "lv": "Кому нужно усердно учиться?",
+            "lv": "Kam čakli jāmācās?",
             "de": "Wer muss fleißig lernen?"
           },
           {
-            "lv": "Студенты должны усердно учиться.",
+            "lv": "Skolniekiem čakli jāmācās.",
             "de": "Die Schüler müssen fleißig lernen."
           },
           {
-            "lv": "Не искам да ям супа, защото не я обичам.",
+            "lv": "Es negribu zupu ēst, jo tā man negaršo.",
             "de": "Ich mag die Suppe nicht essen, denn sie mundet mir nicht."
           },
           {
-            "lv": "Кто хочет съесть суп?",
+            "lv": "Kas grib zupu ēst?",
             "de": "Wer will die Suppe essen?"
           },
           {
-            "lv": "Эльза хочет съесть суп.",
+            "lv": "Elza grib zupu ēst.",
             "de": "Elsa will die Suppe essen."
           },
           {
-            "lv": "Kdo bi moral prebrati knjigo?",
+            "lv": "Kam jālasa grāmata?",
             "de": "Wer muss das Buch lesen?"
           },
           {
-            "lv": "Брат должен прочитать книгу.",
+            "lv": "Brālim jālasa grāmata.",
             "de": "Der Bruder muss das Buch lesen."
           },
           {
-            "lv": "Я не хочу петь.",
+            "lv": "Es negribu dziedāt.",
             "de": "Ich mag nicht singen."
           },
           {
-            "lv": "Отцу нужно купить стол.",
+            "lv": "Tēvam jāpērk galds.",
             "de": "Der Vater muss einen Tisch kaufen."
           }
         ]
@@ -2436,12 +2436,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson15": {
     "id": "lesson15",
-    "title": "Лекция 15",
-    "subtitle": "Соллен, Дюрфен, Эссен, фрукты",
-    "intro": "Пятнадцатая лекция: соллен, дюрфен, эссен и фруктовые слова.",
+    "title": "Lekcija 15",
+    "subtitle": "Sollen, dürfen, essen, augļi",
+    "intro": "Petnajsto predavanje: sollen, dürfen, essen in sadne besede.",
     "sections": [
       {
-        "title": "Текст/Чтение",
+        "title": "Teksts / Lasīšana",
         "items": [
           "Ich soll das Messer nicht nehmen, denn ich darf den Apfel nicht schälen.",
           "Du sollst das Messer nicht nehmen, denn du darfst den Apfel nicht schälen.",
@@ -2471,7 +2471,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Имена",
+        "title": "Vārdiņi",
         "items": [
           "sollen — vajadzēt / būt pienākumam",
           "ich soll — man vajag / man jādara",
@@ -2516,11 +2516,11 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Граматика",
+        "title": "Slovnica",
         "items": [
           {
             "heading": "Sollen",
-            "text": "Соллен означает нуждаться в чувстве долга."
+            "text": "Sollen nozīmē vajadzēt pienākuma nozīmē."
           },
           {
             "heading": "Salīdzinājums",
@@ -2533,7 +2533,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Sollen formas",
-            "text": "Глагол sollen имеет одинаковое 1-е и 3-е лицо настоящего единственного числа.",
+            "text": "Darbības vārdam sollen tagadnes vienskaitļa 1. un 3. persona ir vienāda.",
             "examples": [
               "ich soll",
               "du sollst",
@@ -2545,7 +2545,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Dürfen",
-            "text": "Дюрфен означает «разрешено». В Дюрфене основная гласная — a в единственном числе и ü во множественном числе.",
+            "text": "Dürfen nozīmē drīkstēt. Dürfen vienskaitlī celma patskanis ir a, bet daudzskaitlī ü.",
             "examples": [
               "ich darf",
               "du darfst",
@@ -2557,7 +2557,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Essen",
-            "text": "Эссенская дуга выглядит следующим образом.",
+            "text": "Essen loka šādi.",
             "examples": [
               "ich esse",
               "du isst",
@@ -2569,11 +2569,11 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Mūsdienu rakstība",
-            "text": "Если в проекте используется современное письмо, можно написать: du isst, er/sie/es isst, ihr esst."
+            "text": "Ja projektā izmanto mūsdienu rakstību, drīkst rakstīt: du isst, er/sie/es isst, ihr esst."
           },
           {
             "heading": "entzweischneiden",
-            "text": "Во сложениот глагол entzweischneiden, акцентот се става на префиксот entzweí-, така што во сегашно време префиксот се одвојува и се става на крајот од реченицата.",
+            "text": "V sestavljenem glagolu entzweischneiden je poudarek na predponi entzweí-, zato je v sedanjiku predpona ločena in postavljena na konec stavka.",
             "examples": [
               "Ich schneide den Apfel entzwei. — Es pārgriežu ābolu uz pusēm."
             ]
@@ -2581,7 +2581,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Изговор",
+        "title": "Izruna",
         "items": [
           "ä vārdos Äpfel un schälen izrunā kā šauro e.",
           "Vārdā Äpfel ä izrunā īsi, jo pēc patskaņa seko divi līdzskaņi.",
@@ -2591,71 +2591,71 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Трансфер",
+        "title": "Pārtulko",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Кто здоров, кому разрешено работать?",
+            "lv": "Kas ir vesels, kas drīkst strādāt?",
             "de": "Wer ist gesund, wer darf arbeiten?"
           },
           {
-            "lv": "Фрэнсис здоров, он может работать.",
+            "lv": "Francis ir vesels, viņš drīkst strādāt.",
             "de": "Franz ist gesund, er darf arbeiten."
           },
           {
-            "lv": "Может ли дедушка работать?",
+            "lv": "Vai vectēvs drīkst strādāt?",
             "de": "Darf der Großvater arbeiten?"
           },
           {
-            "lv": "Нет, дедушка не может работать, потому что он болен.",
+            "lv": "Nē, vectēvs nedrīkst strādāt, jo viņš ir slims.",
             "de": "Nein, der Großvater darf nicht arbeiten, denn er ist krank."
           },
           {
-            "lv": "Мама, можно ли мне есть сливы?",
+            "lv": "Māt, vai es drīkstu plūmes ēst?",
             "de": "Mutter, darf ich die Pflaumen essen?"
           },
           {
-            "lv": "Нет, сливы есть не надо, они не прилетели.",
+            "lv": "Nē, plūmes tev nevajag ēst, tās ir neienākušās.",
             "de": "Nein, die Pflaumen sollst du nicht essen, sie sind unreif."
           },
           {
-            "lv": "Ты ел яблоко или грушу?",
+            "lv": "Vai tu ēdi ābolu vai bumbieri?",
             "de": "Isst du einen Apfel oder eine Birne?"
           },
           {
-            "lv": "Ям круша.",
+            "lv": "Jem hruško.",
             "de": "Ich esse eine Birne."
           },
           {
-            "lv": "Какой вкус у груши?",
+            "lv": "Kā garšo bumbieris?",
             "de": "Wie mundet die Birne?"
           },
           {
-            "lv": "Груша очень вкусная.",
+            "lv": "Bumbieris garšo ļoti labi.",
             "de": "Die Birne mundet sehr gut."
           },
           {
-            "lv": "Кому нужно учиться?",
+            "lv": "Kam jāmācās?",
             "de": "Wer muss lernen?"
           },
           {
-            "lv": "Студент должен учиться.",
+            "lv": "Skolniekam jāmācās.",
             "de": "Der Schüler muss lernen."
           },
           {
-            "lv": "Хочет ли он вырваться вперед?",
+            "lv": "Vai viņš grib uz priekšu tikt?",
             "de": "Will er vorwärts kommen?"
           },
           {
-            "lv": "Да, он хочет вырваться вперед.",
+            "lv": "Jā, viņš grib uz priekšu tikt.",
             "de": "Ja, er will vorwärts kommen."
           },
           {
-            "lv": "Ali je mogoče rebenku brat nož?",
+            "lv": "Vai bērns drīkst nazi ņemt?",
             "de": "Darf das Kind das Messer nehmen?"
           },
           {
-            "lv": "Ребенку нельзя брать нож, потому что нож острый.",
+            "lv": "Bērnam nevajag nazi ņemt, jo nazis ir ass.",
             "de": "Das Kind soll das Messer nicht nehmen, denn das Messer ist scharf."
           }
         ]
@@ -2664,12 +2664,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson16": {
     "id": "lesson16",
-    "title": "Лекция 16",
-    "subtitle": "Дательный падеж, geben, sich nähern",
-    "intro": "Шестнадцатая лекция: дательный падеж, гебен, sich nähern и упражнения на дательный падеж.",
+    "title": "Lekcija 16",
+    "subtitle": "Dativs, geben, sich nähern",
+    "intro": "Sešpadsmitā lekcija: datīvs, geben, sich nähern un datīva vingrinājumi.",
     "sections": [
       {
-        "title": "Текст/Чтение",
+        "title": "Teksts / Lasīšana",
         "items": [
           "Wem schenkt der Vater ein Buch?",
           "Der Vater schenkt dem Sohne ein Buch.",
@@ -2692,7 +2692,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Имена",
+        "title": "Vārdiņi",
         "items": [
           "wem — kam?",
           "schenken — dāvināt",
@@ -2725,11 +2725,11 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Граматика",
+        "title": "Slovnica",
         "items": [
           {
             "heading": "Dativs",
-            "text": "Дательный падеж отвечает на вопрос: wem? - кому?"
+            "text": "Dativ odgovarja na vprašanje: wem? — komu?"
           },
           {
             "heading": "Vienskaitlis",
@@ -2791,7 +2791,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Datīva -e",
-            "text": "Существительные мужского и среднего рода в дательном падеже единственного числа могут иметь окончание -е. В настоящее время этот финал часто опускается.",
+            "text": "Vīriešu un vidējās kārtas lietvārdi vienskaitļa datīvā var pieņemt galotni -e. Mūsdienās šī galotne bieži atkrīt.",
             "examples": [
               "dem Sohne / dem Sohn",
               "dem Kinde / dem Kind",
@@ -2801,7 +2801,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Sieviešu kārta datīvā",
-            "text": "Существительные женского рода не имеют окончания в дательном падеже единственного числа.",
+            "text": "Sieviešu kārtas lietvārdi vienskaitļa datīvā nepieņem galotni.",
             "examples": [
               "die Tochter — der Tochter",
               "die Wiese — der Wiese",
@@ -2821,7 +2821,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Daudzskaitļa datīvs",
-            "text": "Множинскиот дативен член и именката често завршуваат на -н.",
+            "text": "Daudzskaitļa datīvā artikuls un lietvārds bieži pieņem galotni -n.",
             "examples": [
               "die Bücher — den Büchern",
               "die Schlüssel — den Schlüsseln",
@@ -2831,7 +2831,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Ja daudzskaitlis jau beidzas ar -n",
-            "text": "Если множественное число уже заканчивается на -n, еще один -n не добавляется.",
+            "text": "Ja daudzskaitlis jau beidzas ar -n, vēl vienu -n nepievieno.",
             "examples": [
               "die Wiesen — den Wiesen",
               "die Blumen — den Blumen",
@@ -2840,7 +2840,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "geben",
-            "text": "В глаголе geben e меняется на i во 2-м и 3-м лице единственного числа.",
+            "text": "Darbības vārdā geben 2. un 3. personā vienskaitlī e pārvēršas par i.",
             "examples": [
               "ich gebe",
               "du gibst",
@@ -2849,7 +2849,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "sich nähern",
-            "text": "Возвратный глагол: sich nähern – приближаться.",
+            "text": "Atgriezeniskais darbības vārds: sich nähern — tuvoties.",
             "examples": [
               "ich nähere mich",
               "du näherst dich",
@@ -2865,12 +2865,12 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Bez artikula",
-            "text": "Думи, които често се използват без член: die Milch, das Brot."
+            "text": "Vārdi, kas bieži lietojami bez artikula: die Milch, das Brot."
           }
         ]
       },
       {
-        "title": "Изговор",
+        "title": "Izruna",
         "items": [
           "Vārdos wem, dem, den, der — e ir garš un šaurs.",
           "Vārdā gehorchen h ir dzirdams: ge-hor-chen.",
@@ -2880,7 +2880,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Упражнение",
+        "title": "Vingrinājums",
         "cards": [
           {
             "prompt": "Der Vater ruft d... Mann.",
@@ -2965,63 +2965,63 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Трансфер",
+        "title": "Pārtulko",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Как се казва бащата",
+            "lv": "Ko sauc tēvs?",
             "de": "Wen ruft der Vater?"
           },
           {
-            "lv": "Вика сина си и дъщеря си.",
+            "lv": "Viņš sauc dēlu un meitu.",
             "de": "Er ruft den Sohn und die Tochter."
           },
           {
-            "lv": "Кой е собственик на тази гора?",
+            "lv": "Kam pieder šis mežs?",
             "de": "Wem gehört dieser Wald?"
           },
           {
-            "lv": "Ta gozd pripada kmetu.",
+            "lv": "Šis mežs pieder zemniekam.",
             "de": "Dieser Wald gehört dem Bauer."
           },
           {
-            "lv": "На кого се подчинява кучето?",
+            "lv": "Kam paklausa suns?",
             "de": "Wem gehorcht der Hund?"
           },
           {
-            "lv": "Кучето ги слуша слугите и слугинките.",
+            "lv": "Suns paklausa kalpiem un kalponēm.",
             "de": "Der Hund gehorcht den Knechten und den Mägden."
           },
           {
-            "lv": "Колко кучета има ловецът?",
+            "lv": "Cik suņu ir medniekam?",
             "de": "Wieviel Hunde hat der Jäger?"
           },
           {
-            "lv": "Ловецът има пет кучета.",
+            "lv": "Medniekam ir pieci suņi.",
             "de": "Der Jäger hat fünf Hunde."
           },
           {
-            "lv": "Какво куче?",
+            "lv": "Kāds ir suns?",
             "de": "Wie ist der Hund?"
           },
           {
-            "lv": "Кучето е вистина.",
+            "lv": "Suns ir uzticīgs.",
             "de": "Der Hund ist treu."
           },
           {
-            "lv": "Какви кучета?",
+            "lv": "Kādi ir suņi?",
             "de": "Wie sind die Hunde?"
           },
           {
-            "lv": "Кучетата са лоялни.",
+            "lv": "Suņi ir uzticīgi.",
             "de": "Die Hunde sind treu."
           },
           {
-            "lv": "Какво се доближава до ученици и момичета?",
+            "lv": "Kas tuvojas skolniekiem un skolniecēm?",
             "de": "Wer nähert sich den Schülern und Schülerinnen?"
           },
           {
-            "lv": "Учителят се приближава към учениците.",
+            "lv": "Skolotājs tuvojas skolniekiem un skolniecēm.",
             "de": "Der Lehrer nähert sich den Schülern und Schülerinnen."
           }
         ]
@@ -3030,12 +3030,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson17": {
     "id": "lesson17",
-    "title": "Лекция 17",
-    "subtitle": "Mit + Dativ, womit / mit wem, глаголи с умлаут",
-    "intro": "Лекция седемнадесета: mit + dativ, womit/mit wem и глаголи с умлаут.",
+    "title": "Lekcija 17",
+    "subtitle": "Mit + Dativ, womit / mit wem, darbības vārdi ar Umlaut",
+    "intro": "Septiņpadsmitā lekcija: mit + Dativ, womit / mit wem un darbības vārdi ar Umlaut.",
     "sections": [
       {
-        "title": "Текст/Чтение",
+        "title": "Teksts / Lasīšana",
         "items": [
           "Der Knabe hat einen Spaten.",
           "Er will eine Grube graben.",
@@ -3060,7 +3060,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Имена",
+        "title": "Vārdiņi",
         "items": [
           "der Spaten — lāpsta",
           "die Grube — bedre",
@@ -3092,15 +3092,15 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Граматика",
+        "title": "Slovnica",
         "items": [
           {
             "heading": "mit + Dativ",
-            "text": "Предлогът mit винаги се появява в дателен падеж. латвийски: mit = s."
+            "text": "Prievārds mit vienmēr stāv ar datīvu. Latviski: mit = ar."
           },
           {
             "heading": "mit wem? / womit?",
-            "text": "Германският въпрос \"с какво?\" изразено по два начина: mit we? - За хората, пич? - за неща/предмети.",
+            "text": "Vāciski jautājumu “ar ko?” izsaka divējādi: mit wem? — par personām, womit? — par lietām/priekšmetiem.",
             "examples": [
               "Mit wem spricht der Bruder? — Ar ko runā brālis?",
               "Womit gräbt der Knabe die Grube? — Ar ko zēns rok bedri?"
@@ -3124,7 +3124,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "graben / fangen / auffangen",
-            "text": "Глаголите graben, fangen, auffangen имат умлаут във 2-ро и 3-то лице единствено число.",
+            "text": "Darbības vārdiem graben, fangen, auffangen 2. un 3. personā vienskaitlī ir Umlaut.",
             "examples": [
               "ich grabe",
               "du gräbst",
@@ -3136,7 +3136,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "helfen / werfen",
-            "text": "При глаголите helfen и werfen във 2-ро и 3-то лице единствено число основата e се променя на i.",
+            "text": "Pri glagolih helfen in werfen v 2. in 3. osebi ednine prehaja deblo e v i.",
             "examples": [
               "ich helfe",
               "du hilfst",
@@ -3148,7 +3148,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Atdalāmie priedēkļi",
-            "text": "Сложните глаголи auffangen и abwischen имат ударението върху представката. Следователно префиксът за сегашно време е отделен и поставен в края на изречението.",
+            "text": "Saliktajiem darbības vārdiem auffangen un abwischen uzsvars ir uz priedēkļa. Tāpēc priedēklis tagadnē atdalās un nostājas teikuma beigās.",
             "examples": [
               "Das Mädchen fängt den Ball auf.",
               "Die Schuldienerin wischt den Staub ab."
@@ -3156,7 +3156,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "fegen / wischen",
-            "text": "Fegen и wischen означават да помете, но употребата им е различна.",
+            "text": "Fegen un wischen abi nozīmē slaucīt, bet lietojums atšķiras.",
             "examples": [
               "fegen — slaucīt ar slotu",
               "Wir fegen mit dem Besen.",
@@ -3168,7 +3168,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Изговор",
+        "title": "Izruna",
         "items": [
           "Vārdā werfen pirmais e ir plats: werfen.",
           "Vārdā wieder e ir plats: wieder.",
@@ -3177,7 +3177,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Упражнение",
+        "title": "Vingrinājums",
         "cards": [
           {
             "prompt": "Wen sieht der Knecht? (der Jäger, der Müller, der Tischler)",
@@ -3217,107 +3217,107 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Трансфер",
+        "title": "Pārtulko",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Какво е по-широко: врата или прозорец?",
+            "lv": "Kas ir platāks, durvis vai logs?",
             "de": "Was ist breiter, die Tür oder das Fenster?"
           },
           {
-            "lv": "Вратата е по-широка от прозореца.",
+            "lv": "Vrata so širša od okna.",
             "de": "Die Tür ist breiter als das Fenster."
           },
           {
-            "lv": "Какво бърше момичето?",
+            "lv": "Ko meitene noslauka?",
             "de": "Was wischt das Mädchen ab?"
           },
           {
-            "lv": "Момичето бърше дъската.",
+            "lv": "Meitene noslauka tāfeli.",
             "de": "Das Mädchen wischt die Tafel ab."
           },
           {
-            "lv": "С какво момичето бърше праха?",
+            "lv": "Ar ko meitene noslauka putekļus?",
             "de": "Womit wischt das Mädchen den Staub ab?"
           },
           {
-            "lv": "S kom se dekle pogovarja?",
+            "lv": "Ar ko runā meitene?",
             "de": "Mit wem spricht das Mädchen?"
           },
           {
-            "lv": "Тя говори с градинаря.",
+            "lv": "Viņa runā ar dārznieku.",
             "de": "Sie spricht mit dem Gärtner."
           },
           {
-            "lv": "Говори ли с приятел?",
+            "lv": "Vai viņa runā ar draugu?",
             "de": "Spricht sie mit dem Freunde?"
           },
           {
-            "lv": "Не, тя говори с приятелите си.",
+            "lv": "Nē, viņa runā ar draugiem.",
             "de": "Nein, sie spricht mit den Freunden."
           },
           {
-            "lv": "Кому му помага момчето?",
+            "lv": "Kam palīdz zēns?",
             "de": "Wem hilft der Knabe?"
           },
           {
-            "lv": "Той помага на градинаря.",
+            "lv": "Viņš palīdz dārzniekam.",
             "de": "Er hilft dem Gärtner."
           },
           {
-            "lv": "Как реже хартия?",
+            "lv": "Ar ko viņš pārgriež papīru?",
             "de": "Womit schneidet er das Papier entzwei?"
           },
           {
-            "lv": "Той реже хартия с ножица.",
+            "lv": "Viņš pārgriež papīru ar šķērēm.",
             "de": "Er schneidet das Papier mit der Schere entzwei."
           },
           {
-            "lv": "С какво рисува брат ти?",
+            "lv": "Ar ko zīmē brālis?",
             "de": "Womit zeichnet der Bruder?"
           },
           {
-            "lv": "Рисува с молив и тебешир.",
+            "lv": "Viņš zīmē ar zīmuli un krītu.",
             "de": "Er zeichnet mit dem Bleistift und mit der Kreide."
           },
           {
-            "lv": "Како ја држиш лопатата?",
+            "lv": "Ar ko tu turi lāpstu?",
             "de": "Womit hältst du den Spaten?"
           },
           {
-            "lv": "В ръката си държа лопата.",
+            "lv": "Es turu lāpstu ar roku.",
             "de": "Ich halte den Spaten mit der Hand."
           },
           {
-            "lv": "S kom sodelujemo?",
+            "lv": "Ar ko mēs strādājam?",
             "de": "Womit arbeiten wir?"
           },
           {
-            "lv": "Ние работим с ръцете си.",
+            "lv": "Mēs strādājam ar rokām.",
             "de": "Wir arbeiten mit den Händen."
           },
           {
-            "lv": "Какво виждаме",
+            "lv": "Ar ko mēs redzam?",
             "de": "Womit sehen wir?"
           },
           {
-            "lv": "Виждаме със собствените си очи.",
+            "lv": "Mēs redzam ar acīm.",
             "de": "Wir sehen mit den Augen."
           },
           {
-            "lv": "Какво чуваме?",
+            "lv": "Ar ko mēs dzirdam?",
             "de": "Womit hören wir?"
           },
           {
-            "lv": "Ние чуваме с ушите си.",
+            "lv": "Mēs dzirdam ar ausīm.",
             "de": "Wir hören mit den Ohren."
           },
           {
-            "lv": "С какво идва брат ти?",
+            "lv": "Ar ko iet brālis?",
             "de": "Mit wem geht der Bruder?"
           },
           {
-            "lv": "Брат отива с баща си, с майка си, с учителя си, с чичо си, с леля си, с братовчед си, с братовчед си.",
+            "lv": "Brālis iet ar tēvu, ar māti, ar skolotāju, ar onkuli, ar tanti, ar brālēnu, ar māsīcu.",
             "de": "Der Bruder geht mit dem Vater, mit der Mutter, mit dem Lehrer, mit dem Onkel, mit der Tante, mit dem Vetter, mit der Base."
           }
         ]
@@ -3326,12 +3326,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson18": {
     "id": "lesson18",
-    "title": "Лекция 18",
-    "subtitle": "Wohin/wo, Винителен или Дателен с an/v/auf",
-    "intro": "Осемнадесета лекция: vohin/vo, винителен или дателен с an/v/auf.",
+    "title": "Lekcija 18",
+    "subtitle": "Wohin / wo, Akkusativ vai Dativ ar an / in / auf",
+    "intro": "Astoņpadsmitā lekcija: wohin / wo, Akkusativ vai Dativ ar an / in / auf.",
     "sections": [
       {
-        "title": "Текст/Чтение",
+        "title": "Teksts / Lasīšana",
         "items": [
           "Wohin gehst du?",
           "Ich gehe an den Tisch.",
@@ -3357,7 +3357,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Имена",
+        "title": "Vārdiņi",
         "items": [
           "wohin — kurp?",
           "wo — kur?",
@@ -3385,15 +3385,15 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Граматика",
+        "title": "Slovnica",
         "items": [
           {
             "heading": "an / in / auf",
-            "text": "Предлозите an, in, auf могат да се появят както във винителен, така и в дателен падеж."
+            "text": "Predlogi an, in, auf lahko stojijo tako z akkusativom kot z dativom."
           },
           {
             "heading": "Akkusativ: wohin?",
-            "text": "Ако действието показва промяна в посоката или местоположението, се използва акузатив. Въпрос: какво? - Къде?",
+            "text": "Ja darbība norāda virzienu vai vietas maiņu, lieto Akkusativ. Jautājums: wohin? — kurp?",
             "examples": [
               "Ich gehe an den Tisch. — Es eju pie galda.",
               "Ich stelle den Korb auf die Bank. — Es nolieku grozu uz sola.",
@@ -3403,7 +3403,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Dativ: wo?",
-            "text": "Ако действието показва местоположение или състояние, се използва дателен падеж. Въпрос: какво? - Къде?",
+            "text": "Ja darbība norāda atrašanās vietu vai stāvokli, lieto Dativ. Jautājums: wo? — kur?",
             "examples": [
               "Ich stehe an dem Tische. — Es stāvu pie galda.",
               "Der Korb steht auf der Bank. — Grozs stāv uz sola.",
@@ -3413,7 +3413,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Darbības vārdi ar wohin?",
-            "text": "Тези глаголи често показват посока и следователно отговарят на въпроса „какво?“",
+            "text": "Šie darbības vārdi bieži norāda virzienu un tāpēc atbild uz jautājumu wohin?.",
             "examples": [
               "gehen — iet",
               "kommen — nākt",
@@ -3432,7 +3432,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Darbības vārdi ar wo?",
-            "text": "Тези глаголи често показват местоположение или състояние и следователно отговарят на въпроса wo?.",
+            "text": "Šie darbības vārdi bieži norāda atrašanās vietu vai stāvokli un tāpēc atbild uz jautājumu wo?.",
             "examples": [
               "sein — būt",
               "sich befinden — atrasties",
@@ -3447,7 +3447,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Vielu vārdi",
-            "text": "Съществителните обикновено нямат член.",
+            "text": "Samostalniki običajno stojijo brez člena.",
             "examples": [
               "Ich trinke Milch. — Es dzeru pienu.",
               "In dem Eimer ist Wasser. — Spainī ir ūdens."
@@ -3455,14 +3455,14 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Konkrēta viela",
-            "text": "Ако дадено вещество се споменава в определено количество или на определено място, тогава се използва артикулът.",
+            "text": "Ja viela tiek minēta noteiktā daudzumā vai konkrētā vietā, tad lieto artikulu.",
             "examples": [
               "Ich gieße das Wasser in den Krug. — Es leju ūdeni krūzē."
             ]
           },
           {
             "heading": "in + vieta",
-            "text": "Ако предлогът в не се превежда като „във“, а изразява местоположение, той може да бъде преведен с местен падеж.",
+            "text": "Ja prievārds in netulkojas kā “iekšā”, bet izsaka atrašanās vietu, to var tulkot ar lokatīvu.",
             "examples": [
               "in dem Eimer — spainī",
               "in dem Zimmer — istabā"
@@ -3470,19 +3470,19 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Mūsdienu formas",
-            "text": "Стари форми като dem Tische, dem Kruge, im Walde често се използват днес в по-кратка форма: dem Tisch, dem Krug, im Wald."
+            "text": "Vecās formas, piemēram, dem Tische, dem Kruge, im Walde, mūsdienās bieži lieto īsāk: dem Tisch, dem Krug, im Wald."
           }
         ]
       },
       {
-        "title": "Изговор",
+        "title": "Izruna",
         "items": [
           "Vārdā wohin h ir dzirdams: wo-hin.",
           "Vārdā wo o ir garš: wo."
         ]
       },
       {
-        "title": "Упражнение",
+        "title": "Vingrinājums",
         "cards": [
           {
             "prompt": "Wohin geht das Mädchen?\n(in d... Wald, in d... Garten, auf d... Wiese, auf d... Hof)",
@@ -3527,79 +3527,79 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Трансфер",
+        "title": "Pārtulko",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "От къде е сървъра?",
+            "lv": "Kurp nāk apkalpotājs?",
             "de": "Wohin kommt der Diener?"
           },
           {
-            "lv": "Влегува во собата.",
+            "lv": "Viņš nāk istabā.",
             "de": "Er kommt in das Zimmer."
           },
           {
-            "lv": "Къде работи",
+            "lv": "Kur viņš strādā?",
             "de": "Wo arbeitet er?"
           },
           {
-            "lv": "Той работи в стаята.",
+            "lv": "Viņš strādā istabā.",
             "de": "Er arbeitet in dem Zimmer."
           },
           {
-            "lv": "Мъж поставя пейка до прозореца.",
+            "lv": "Vīrs noliek solu pie loga.",
             "de": "Der Mann stellt die Bank an das Fenster."
           },
           {
-            "lv": "Пейката е близо до прозореца.",
+            "lv": "Sols stāv pie loga.",
             "de": "Die Bank steht an dem Fenster."
           },
           {
-            "lv": "Децата отиват в гората.",
+            "lv": "Bērni iet uz mežu.",
             "de": "Die Kinder gehen in den Wald."
           },
           {
-            "lv": "Те берат горски плодове в гората.",
+            "lv": "Viņi mežā lasa ogas.",
             "de": "Sie suchen Beeren in dem Walde."
           },
           {
-            "lv": "Тие наоѓаат многу бобинки во шумата.",
+            "lv": "Viņi mežā atrod daudz ogu.",
             "de": "Sie finden in dem Walde viele Beeren."
           },
           {
-            "lv": "Майка слага кошницата на шкафа.",
+            "lv": "Māte noliek grozu uz skapja.",
             "de": "Die Mutter stellt den Korb auf den Schrank."
           },
           {
-            "lv": "Кошницата е на шкафа.",
+            "lv": "Grozs stāv uz skapja.",
             "de": "Der Korb steht auf dem Schrank."
           },
           {
-            "lv": "Ученикът прибира тетрадките си в чантата.",
+            "lv": "Skolnieks ieliek burtnīcas somā.",
             "de": "Der Schüler legt die Hefte in die Mappe."
           },
           {
-            "lv": "Къде са тетрадките?",
+            "lv": "Kur ir burtnīcas?",
             "de": "Wo sind die Hefte?"
           },
           {
-            "lv": "Писмата вече са в чантата.",
+            "lv": "Burtnīcas tagad ir somā.",
             "de": "Die Hefte sind jetzt in der Mappe."
           },
           {
-            "lv": "Къде отива учителят?",
+            "lv": "Kurp iet skolotājs?",
             "de": "Wohin geht der Lehrer?"
           },
           {
-            "lv": "Тој оди на час.",
+            "lv": "Viņš iet klasē.",
             "de": "Er geht in die Klasse."
           },
           {
-            "lv": "Kje sedi učitelj?",
+            "lv": "Kur sēž skolotājs?",
             "de": "Wo sitzt der Lehrer?"
           },
           {
-            "lv": "Учителят седи в класната стая.",
+            "lv": "Učitelj sedi v učilnici.",
             "de": "Der Lehrer sitzt in der Klasse."
           }
         ]
@@ -3608,12 +3608,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson19": {
     "id": "lesson19",
-    "title": "Лекция 19",
+    "title": "Lekcija 19",
     "subtitle": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen",
-    "intro": "Деветнадесета лекция: vor, hinter, unter, über, neben, zwischen с Akkusativ или Dativ.",
+    "intro": "Deviņpadsmitā lekcija: vor, hinter, unter, über, neben, zwischen ar Akkusativ vai Dativ.",
     "sections": [
       {
-        "title": "Текст/Чтение",
+        "title": "Teksts / Lasīšana",
         "items": [
           "Wohin geht die Frau?",
           "Sie geht vor den Spiegel.",
@@ -3642,7 +3642,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Имена",
+        "title": "Vārdiņi",
         "items": [
           "vor — priekšā / pirms",
           "hinter — aiz",
@@ -3685,15 +3685,15 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Граматика",
+        "title": "Slovnica",
         "items": [
           {
             "heading": "Wechselpräpositionen",
-            "text": "В тази лекция продължаваме да разглеждаме предлози, които могат да се появят както във винителен, така и в дателен падеж."
+            "text": "Šajā lekcijā turpinām prievārdus, kas var stāvēt gan ar Akkusativ, gan ar Dativ."
           },
           {
             "heading": "Wohin? → Akkusativ",
-            "text": "Ако някъде има посока/движение, то въпросът е към кого? и използва акузатив.",
+            "text": "Ja ir virziens / kustība uz kaut kurieni, jautājums ir wohin? un lieto Akkusativ.",
             "examples": [
               "Ich gehe vor den Spiegel.",
               "Das Kind wirft den Ball hinter den Schrank.",
@@ -3705,7 +3705,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Wo? → Dativ",
-            "text": "Ако има място, какъв е въпросът? и използва дателен падеж.",
+            "text": "Ja ir atrašanās vieta, jautājums ir wo? un lieto Dativ.",
             "examples": [
               "Sie steht vor dem Spiegel.",
               "Der Ball liegt hinter dem Schrank.",
@@ -3728,7 +3728,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Kopsavilkums: wohin?",
-            "text": "Вохин? → Винителен падеж",
+            "text": "Wohin? → Akkusativ",
             "examples": [
               "in das Zimmer",
               "an das Klavier",
@@ -3743,7 +3743,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Kopsavilkums: wo?",
-            "text": "Какво? → Дателен падеж",
+            "text": "Wo? → Dativ",
             "examples": [
               "in dem Zimmer",
               "an dem Klavier",
@@ -3758,7 +3758,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "gehen / treten",
-            "text": "Gehen – да вървиш, когато действието означава постоянно да вървиш. treten - влизам, приближавам се, стъпвам, ако ходенето завършва с прекъсване на действието.",
+            "text": "Gehen — iet, ja darbība nozīmē nepārtrauktu iešanu. treten — ieiet, pieiet, uzkāpt, ja iešana beidzas ar darbības pārtraukumu.",
             "examples": [
               "Der Schüler geht in die Schule.",
               "Der Lehrer tritt in die Klasse.",
@@ -3769,7 +3769,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Изговор",
+        "title": "Izruna",
         "items": [
           "Vārdā vor o izrunā gari.",
           "Vārdā hinter h ir dzirdams, un e ir plats.",
@@ -3779,7 +3779,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Упражнение",
+        "title": "Vingrinājums",
         "cards": [
           {
             "prompt": "Anna geht in d... Garten, an d... Teich, vor d... Mühle, hinter d... Scheune, auf d... Feld, über d... Brücke, unter d... Baum, zwischen d... Strauch und d... Laube.",
@@ -3794,43 +3794,43 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Трансфер",
+        "title": "Pārtulko",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Учителят идва в час.",
+            "lv": "Skolotājs nāk klasē.",
             "de": "Der Lehrer kommt in die Klasse."
           },
           {
-            "lv": "Той държи карта в ръката си.",
+            "lv": "Viņam ir karte rokā.",
             "de": "Er hat eine Karte in der Hand."
           },
           {
-            "lv": "Окачва картата на стената.",
+            "lv": "Viņš piekar karti pie sienas.",
             "de": "Er hängt die Karte an die Wand."
           },
           {
-            "lv": "Той показва на момчетата и момичетата много градове, земи, планини, езера и реки.",
+            "lv": "Viņš rāda skolniekiem un skolniecēm daudz pilsētu, zemi, kalnu, ezeru un upi.",
             "de": "Er zeigt den Schülern und Schülerinnen viele Länder, Städte, Berge, Seen und Flüsse."
           },
           {
-            "lv": "След това учителят извиква ученика.",
+            "lv": "Tad skolotājs uzsauc skolnieku.",
             "de": "Dann ruft der Lehrer einen Schüler auf."
           },
           {
-            "lv": "Ученикът се приближава до картата.",
+            "lv": "Skolnieks pieiet pie kartes.",
             "de": "Der Schüler tritt an die Karte."
           },
           {
-            "lv": "Той остава да стои пред картата.",
+            "lv": "Viņš paliek kartes priekšā stāvam.",
             "de": "Er bleibt vor der Karte stehen."
           },
           {
-            "lv": "Именува и покажува на наставникот градови, планини и реки.",
+            "lv": "Viņš nosauc un parāda skolotājam pilsētas, kalnus un upes.",
             "de": "Er nennt und zeigt dem Lehrer die Städte, die Berge und die Flüsse."
           },
           {
-            "lv": "Ето как учителят работи в час.",
+            "lv": "Tā strādā skolotājs klasē.",
             "de": "So arbeitet der Lehrer in der Klasse."
           }
         ]
@@ -3839,12 +3839,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson20": {
     "id": "lesson20",
-    "title": "Лекция 20",
-    "subtitle": "Haus, Stockwerk, Dativ/Akkusativ, сложени именки",
-    "intro": "Лекция 20: къща, етажи, дателен/винителен падеж и сложни съществителни.",
+    "title": "Lekcija 20",
+    "subtitle": "Haus, Stockwerk, Dativ/Akkusativ, saliktie lietvārdi",
+    "intro": "Divdesmitā lekcija: māja, stāvi, Dativ/Akkusativ un saliktie lietvārdi.",
     "sections": [
       {
-        "title": "Текст/Чтение",
+        "title": "Teksts / Lasīšana",
         "items": [
           "Dieses Haus ist hoch.",
           "Es hat drei Stockwerke.",
@@ -3872,7 +3872,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Имена",
+        "title": "Vārdiņi",
         "items": [
           "das Haus — māja",
           "das Stockwerk — stāvs",
@@ -3906,11 +3906,11 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Граматика",
+        "title": "Slovnica",
         "items": [
           {
             "heading": "Dativs ar wann?",
-            "text": "Пътни думи, които отговарят на въпроса „Искаш ли?“ в лекции 19 и 20 - кога? стои до дателен падеж. Дателният падеж отговаря не само на wo? - къде?, но също и на wann? - Кога?",
+            "text": "Satiksmes vārdi, kas 19. un 20. lekcijā atbild uz jautājumu wann? — kad?, stāv ar Dativ. Dativs atbild ne tikai uz wo? — kur?, bet arī uz wann? — kad?.",
             "examples": [
               "an dem Tage / am Tage — dienā",
               "in der Nacht — naktī",
@@ -3921,7 +3921,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Prievārds + artikuls",
-            "text": "Към члена се добавят много предлози.",
+            "text": "Daudzas prepozīcijas savienojas ar artikulu.",
             "examples": [
               "an das Fenster → ans Fenster",
               "an dem Fenster → am Fenster",
@@ -3933,7 +3933,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "-e- starp celmu un galotni",
-            "text": "Ако глаголското стебло завршува на t, d, m, n, тогаш во второ и трето лице еднина и во второ лице множина, -е- често се вметнува помеѓу стеблото и завршетокот за подобар изговор.",
+            "text": "Ja darbības vārda celms beidzas ar t, d, m, n, tad 2. un 3. personā vienskaitlī un 2. personā daudzskaitlī starp celmu un galotni bieži iestarpina -e- labākai izrunai.",
             "examples": [
               "anzünden: du zündest an, er zündet an, ihr zündet an",
               "arbeiten: du arbeitest, er arbeitet, ihr arbeitet",
@@ -3943,7 +3943,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Saliktie lietvārdi",
-            "text": "Kompleksni samostalniki imajo običajno končni izraz.",
+            "text": "Sestavljeni samostalniki imajo običajno členek zadnje besede.",
             "examples": [
               "der Stock + das Werk = das Stockwerk",
               "der Schornstein + der Feger = der Schornsteinfeger",
@@ -3961,7 +3961,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "tragen",
-            "text": "В глагола tragen във 2-ро и 3-то лице единствено число основната гласна a приема умлаут.",
+            "text": "Darbības vārdā tragen 2. un 3. personā vienskaitlī celma patskanis a iegūst Umlaut.",
             "examples": [
               "ich trage",
               "du trägst",
@@ -3971,7 +3971,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Изговор",
+        "title": "Izruna",
         "items": [
           "Vārdos Stockwerk, Stein, Stadt, stecken: st izrunā kā št.",
           "Vārdos der Ofen, der Boden: o ir garš.",
@@ -3983,7 +3983,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Упражнение",
+        "title": "Vingrinājums",
         "cards": [
           {
             "prompt": "Der Wolf lebt in (der Wald).",
@@ -4073,103 +4073,103 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Трансфер",
+        "title": "Pārtulko",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Какво е високо?",
+            "lv": "Kas ir augsts?",
             "de": "Was ist hoch?"
           },
           {
-            "lv": "Колко етажа има в къщата?",
+            "lv": "Cik stāvu ir mājai?",
             "de": "Wieviel Stockwerke hat das Haus?"
           },
           {
-            "lv": "Къде са прозорците и вратите?",
+            "lv": "Kur ir logi un durvis?",
             "de": "Wo sind Fenster und Türen?"
           },
           {
-            "lv": "От какво са направени стените?",
+            "lv": "No kā ir mūri?",
             "de": "Woraus sind die Mauern?"
           },
           {
-            "lv": "От какво е направена вратата?",
+            "lv": "No kā ir durvis?",
             "de": "Woraus sind die Türen?"
           },
           {
-            "lv": "От какво са направени прозорците?",
+            "lv": "No kā ir logi?",
             "de": "Woraus sind die Fenster?"
           },
           {
-            "lv": "Къде са десетте апартамента?",
+            "lv": "Kur ir desmit dzīvokļi?",
             "de": "Wo sind zehn Wohnungen?"
           },
           {
-            "lv": "Какво има всеки апартамент?",
+            "lv": "Kas ir katrā dzīvoklī?",
             "de": "Was hat jede Wohnung?"
           },
           {
-            "lv": "Къде е мазето?",
+            "lv": "Kur ir pagrabs?",
             "de": "Wo ist der Keller?"
           },
           {
-            "lv": "Каде е таванот?",
+            "lv": "Kur ir bēniņi?",
             "de": "Wo ist der Boden?"
           },
           {
-            "lv": "Къде са трите комина?",
+            "lv": "Kur ir trīs skursteņi?",
             "de": "Wo sind drei Schornsteine?"
           },
           {
-            "lv": "Kam gleda dimnikar?",
+            "lv": "Kurp kāpj skursteņslaucītājs?",
             "de": "Wohin steigt der Schornsteinfeger?"
           },
           {
-            "lv": "Къде стои?",
+            "lv": "Kur viņš stāv?",
             "de": "Wo steht er?"
           },
           {
-            "lv": "Какво прави той",
+            "lv": "Ko viņš dara?",
             "de": "Was tut er?"
           },
           {
-            "lv": "Какво е град?",
+            "lv": "Kas ir pilsētai?",
             "de": "Was hat die Stadt?"
           },
           {
-            "lv": "Къде има много апартаменти?",
+            "lv": "Kur ir daudz dzīvokļu?",
             "de": "Wo sind viele Wohnungen?"
           },
           {
-            "lv": "Къде живеят много хора?",
+            "lv": "Kje živi veliko ljudi?",
             "de": "Wo leben viele Menschen?"
           },
           {
-            "lv": "Кой работи?",
+            "lv": "Kas strādā?",
             "de": "Wer arbeitet?"
           },
           {
-            "lv": "Кой трябва да работи?",
+            "lv": "Kam jāstrādā?",
             "de": "Wer muss arbeiten?"
           },
           {
-            "lv": "На кой етаж живееш",
+            "lv": "Kurā stāvā tu dzīvo?",
             "de": "In welchem Stockwerk wohnst du?"
           },
           {
-            "lv": "Къде трябва да се транспортират дърва за огрев?",
+            "lv": "Kurp tev jānes malka?",
             "de": "Wohin musst du das Holz tragen?"
           },
           {
-            "lv": "Къде слагате дървата?",
+            "lv": "Kurp tu liec malku?",
             "de": "Wohin steckst du das Holz?"
           },
           {
-            "lv": "Какво запалихте?",
+            "lv": "Ko tu aizdedzini?",
             "de": "Was zündest du an?"
           },
           {
-            "lv": "Какво гори ярко?",
+            "lv": "Kas deg gaiši?",
             "de": "Was brennt hell?"
           }
         ]
@@ -4178,12 +4178,12 @@ const COURSE_LESSON_DATA = {
   },
   "kurssLesson21": {
     "id": "lesson21",
-    "title": "Лекция 21",
-    "subtitle": "Woher / whin / wo, von / aus / mit + Dative",
-    "intro": "Дваесет и првото предавање: woher/wohin/wo, von/aus/mit + Dativ.",
+    "title": "Lekcija 21",
+    "subtitle": "Woher / wohin / wo, von / aus / mit + Dativ",
+    "intro": "Enaindvajseto predavanje: woher / wohin / wo, von / aus / mit + Dativ.",
     "sections": [
       {
-        "title": "Текст/Чтение",
+        "title": "Teksts / Lasīšana",
         "items": [
           "Die Holzhauer arbeiten in der Scheune.",
           "Sie sägen und spalten Holz.",
@@ -4211,7 +4211,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Имена",
+        "title": "Vārdiņi",
         "items": [
           "der Holzhauer — malkas cirtējs",
           "sägen — zāģēt",
@@ -4247,11 +4247,11 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Граматика",
+        "title": "Slovnica",
         "items": [
           {
             "heading": "mit / von / aus + Dativ",
-            "text": "Предлозите mit, von и aus винаги стоят до дателния падеж.",
+            "text": "Prepozīcijas mit, von un aus vienmēr stāv ar Dativ.",
             "examples": [
               "mit — ar",
               "von — no",
@@ -4263,7 +4263,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "von dem = vom",
-            "text": "Предлогът фон може да се слее с члена.",
+            "text": "Predlog von se lahko zlije s členkom.",
             "examples": [
               "von dem Felde = vom Felde",
               "von dem Berge = vom Berge",
@@ -4272,7 +4272,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Woher? — no kurienes?",
-            "text": "Ако човек или предмет е в и извън стая, място или контейнер, използвайте aus.",
+            "text": "Ja persona vai priekšmets atrodas kādā telpā, vietā vai traukā un nāk ārā no tās, lieto aus.",
             "examples": [
               "Die Magd ist in der Küche.",
               "Woher kommt sie?",
@@ -4284,7 +4284,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "von",
-            "text": "Когато човек или обект е над място или върху нещо и се отдалечава от него, се използва фон.",
+            "text": "Ja persona vai priekšmets atrodas virs kādas vietas vai uz kaut kā un pārvietojas prom no tās, lieto von.",
             "examples": [
               "Der Knabe ist auf dem Dache.",
               "Woher steigt er?",
@@ -4296,7 +4296,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Materiāls",
-            "text": "Когато говорите за материала, от който е направен даден предмет, използвайте aus.",
+            "text": "Ja runā par materiālu, no kā priekšmets pagatavots, lieto aus.",
             "examples": [
               "Die Türen sind aus Holz.",
               "Die Fenster sind aus Glas.",
@@ -4307,7 +4307,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Изговор",
+        "title": "Izruna",
         "items": [
           "Vārdā die Axt: x izrunā kā ks.",
           "Vārdos arbeiten, das Beil, steigen: ei izrunā kā ai.",
@@ -4316,7 +4316,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Упражнение",
+        "title": "Vingrinājums",
         "cards": [
           {
             "prompt": "Woher kommt der Vater?",
@@ -4396,63 +4396,63 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Трансфер",
+        "title": "Pārtulko",
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Всички тетрадки са в чантата.",
+            "lv": "Visas burtnīcas ir somā.",
             "de": "Alle Hefte sind in der Mappe."
           },
           {
-            "lv": "Изваждам тетрадките от чантата си.",
+            "lv": "Es izņemu burtnīcas no somas.",
             "de": "Ich nehme die Hefte aus der Mappe."
           },
           {
-            "lv": "Изваждам часовника от джоба си.",
+            "lv": "Es nesēju pulksteni no kabatas.",
             "de": "Ich ziehe die Uhr aus der Tasche."
           },
           {
-            "lv": "В мазето има кофа с мляко.",
+            "lv": "Spainis ar pienu stāv pagrabā.",
             "de": "Ein Eimer mit Milch steht im Keller."
           },
           {
-            "lv": "Iz kleti sem prinesla vedro.",
+            "lv": "Es nesu spaini no pagraba.",
             "de": "Ich trage den Eimer aus dem Keller."
           },
           {
-            "lv": "Свалям шапка от главата си.",
+            "lv": "Es noņemu cepuri no galvas.",
             "de": "Ich nehme die Mütze vom Kopfe."
           },
           {
-            "lv": "Сликата виси на ѕидот.",
+            "lv": "Bilde karājas pie sienas.",
             "de": "Das Bild hängt an der Wand."
           },
           {
-            "lv": "Баща сваля картина от стената.",
+            "lv": "Oče odstrani sliko s stene.",
             "de": "Der Vater nimmt das Bild von der Wand."
           },
           {
-            "lv": "Нотите се на клавирот.",
+            "lv": "Notis atrodas uz klavierēm.",
             "de": "Die Noten liegen auf dem Klavier."
           },
           {
-            "lv": "Махам нотите от пианото.",
+            "lv": "Es noņemu notis no klavierēm.",
             "de": "Ich nehme die Noten vom Klavier."
           },
           {
-            "lv": "Дойдохме от приятел.",
+            "lv": "Mēs nākam no drauga.",
             "de": "Wir kommen vom Freunde."
           },
           {
-            "lv": "Идваме от приятел.",
+            "lv": "Mēs nākam no draudzenes.",
             "de": "Wir kommen von der Freundin."
           },
           {
-            "lv": "Ние идваме от учителя.",
+            "lv": "Mēs nākam no skolotāja.",
             "de": "Wir kommen vom Lehrer."
           },
           {
-            "lv": "Всичко идва от приятел, от приятелка, от учител.",
+            "lv": "Visi nāk no drauga, no draudzenes, no skolotāja.",
             "de": "Alle kommen vom Freunde, von der Freundin, vom Lehrer."
           }
         ]
