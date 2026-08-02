@@ -6,7 +6,7 @@
 |-------|---------|
 | **Valodas pāris** | SK–DE (Slovenčina → Deutsch) |
 | **Statuss** | Tehniski pilnībā izveidots un integrēts |
-| **Pull Request** | (tiks pievienots pēc PR izveides) |
+| **Pull Request** | #234 |
 | **Darba rezultāts** | Pilns slovāku valodas datu komplekts A1–C2, Study kartītes, teikumi, darbības vārdi, Kurss un UI lokalizācija |
 
 ---
