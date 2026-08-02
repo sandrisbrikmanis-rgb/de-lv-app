@@ -280,6 +280,17 @@
       hasStudyData: true,
       uiPath: "./languages/lb/ui.js",
       dataManifestPath: "./languages/lb/data/manifest.js"
+    },
+    {
+      code: "fr",
+      nativeName: "Français",
+      nativeCode: "FR",
+      active: true,
+      uiAvailable: true,
+      dataStatus: "complete",
+      hasStudyData: true,
+      uiPath: "./languages/fr/ui.js",
+      dataManifestPath: "./languages/fr/data/manifest.js"
     }
   ];
 
