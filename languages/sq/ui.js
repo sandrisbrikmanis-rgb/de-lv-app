@@ -15,7 +15,7 @@ window.LANGUAGE_UI_STRINGS = {
   },
   "menu": {
     "mainNav": "Menuja qendrore",
-    "course": "Cfare?",
+    "course": "Kursi",
     "sentences": "Fjalitë",
     "verbs": "Folje",
     "chooseGroup": "Zgjidh një grup"
@@ -213,10 +213,10 @@ window.LANGUAGE_UI_STRINGS = {
     "appLanguage": "Gjuha e aplikimit"
   },
   "kurss": {
-    "panelLabel": "Cfare?",
-    "title": "Cfare?",
+    "panelLabel": "Kursi",
+    "title": "Kursi",
     "subtitle": "Bazat e gjermanishtes hap pas hapi",
-    "back": "Cfare?",
+    "back": "Kursi",
     "closeCourse": "Mbyll kursin",
     "backToMain": "Kthehu në ekranin kryesor",
     "tipTitle": "Këshillë",
@@ -379,7 +379,7 @@ window.LANGUAGE_UI_STRINGS = {
   },
   "progress": {
     "verbsHeading": "Folje",
-    "courseHeading": "Cfare?"
+    "courseHeading": "Kursi"
   },
   "study": {
     "hints": {

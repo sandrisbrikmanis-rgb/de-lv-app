@@ -15,7 +15,7 @@ window.LANGUAGE_UI_STRINGS = {
   },
   "menu": {
     "mainNav": "Glavni meni",
-    "course": "seveda",
+    "course": "Kurs",
     "sentences": "Stavki",
     "verbs": "Glagoli",
     "chooseGroup": "Izberite skupino"
@@ -213,10 +213,10 @@ window.LANGUAGE_UI_STRINGS = {
     "appLanguage": "Jezik aplikacije"
   },
   "kurss": {
-    "panelLabel": "seveda",
-    "title": "seveda",
+    "panelLabel": "Kurs",
+    "title": "Kurs",
     "subtitle": "Osnove nemškega jezika korak za korakom",
-    "back": "< Seveda",
+    "back": "< Kurs",
     "closeCourse": "Zapri tečaj",
     "backToMain": "Vrnitev na začetni zaslon",
     "tipTitle": "nasveti",
@@ -379,7 +379,7 @@ window.LANGUAGE_UI_STRINGS = {
   },
   "progress": {
     "verbsHeading": "Glagoli",
-    "courseHeading": "seveda"
+    "courseHeading": "Kurs"
   },
   "study": {
     "hints": {
