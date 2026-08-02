@@ -3,67 +3,67 @@ const B2_WORDS = [
     "de": "Verantwortung",
     "de_article": "die",
     "de_plural": "die Verantwortungen",
-    "lv": "Odpowiedzialność",
+    "lv": "Odpovědnost",
     "level": "B2"
   },
   {
     "de": "beeinflussen",
-    "lv": "Wpływać",
+    "lv": "Ovlivnit",
     "level": "B2"
   },
   {
     "de": "Voraussetzung",
     "de_article": "die",
     "de_plural": "die Voraussetzungen",
-    "lv": "Predpoklad",
+    "lv": "Předpoklad",
     "level": "B2"
   },
   {
     "de": "nachhaltig",
-    "lv": "Zrównoważony",
+    "lv": "Udržitelný",
     "level": "B2"
   },
   {
     "de": "zustimmen",
-    "lv": "Zgodzić się",
+    "lv": "Souhlasit",
     "level": "B2"
   },
   {
     "de": "widersprechen",
-    "lv": "Obiekt",
+    "lv": "Objekt",
     "level": "B2"
   },
   {
     "de": "Entwicklung",
     "de_article": "die",
     "de_plural": "die Entwicklungen",
-    "lv": "Rozwój",
+    "lv": "Rozvoj",
     "level": "B2"
   },
   {
     "de": "Akrobat",
     "de_article": "der",
     "de_plural": "die Akrobaten",
-    "lv": "Akrobata",
+    "lv": "Akrobat",
     "level": "B2"
   },
   {
     "de": "Akrobatik",
     "de_article": "die",
     "de_plural": "die Akrobatiken",
-    "lv": "Akrobatyka",
+    "lv": "Akrobacie",
     "level": "B2"
   },
   {
     "de": "Akt",
     "de_article": "der",
     "de_plural": "die Akte",
-    "lv": "Akt • Dokument",
+    "lv": "Jednat • Dokument",
     "level": "B2"
   },
   {
     "de": "akzeptabel",
-    "lv": "Do przyjęcia",
+    "lv": "Přijatelný",
     "level": "B2"
   },
   {
@@ -76,183 +76,183 @@ const B2_WORDS = [
   {
     "de": "Alkoholismus",
     "de_article": "der",
-    "lv": "Alkoholizm",
+    "lv": "Alkoholismus",
     "level": "B2"
   },
   {
     "de": "anbelangen",
-    "lv": "Odnieść się do",
+    "lv": "Odkazovat",
     "level": "B2"
   },
   {
     "de": "Analyse",
     "de_article": "die",
     "de_plural": "die Analysen",
-    "lv": "Analiza",
+    "lv": "Analýza",
     "level": "B2"
   },
   {
     "de": "Anbau",
     "de_article": "der",
-    "lv": "Rozszerzenie • Uprawa",
+    "lv": "Rozšíření • Kultivace",
     "level": "B2"
   },
   {
     "de": "anfertigen",
-    "lv": "Ak chcete urobiť",
+    "lv": "Dělat",
     "level": "B2"
   },
   {
     "de": "anführen",
-    "lv": "Wspomnieć • Prowadzić",
+    "lv": "Zmiňovat • Vést",
     "level": "B2"
   },
   {
     "de": "angebracht",
-    "lv": "Odpowiedni • Odpowiedni",
+    "lv": "Vhodný • Vhodný",
     "level": "B2"
   },
   {
     "de": "angehen",
-    "lv": "Odnoszą się do • Zwrócić się przeciwko",
+    "lv": "Týkat se • Obrátit se proti",
     "level": "B2"
   },
   {
     "de": "angehören",
-    "lv": "Należeć do",
+    "lv": "Patřit k",
     "level": "B2"
   },
   {
     "de": "Aktienkurs",
     "de_article": "der",
     "de_plural": "die Aktienkurse",
-    "lv": "Cena akcji",
+    "lv": "Cena akcií",
     "level": "B2"
   },
   {
     "de": "allerhand",
-    "lv": "Wszelkiego rodzaju • Różne",
+    "lv": "Všechny druhy • Různé",
     "level": "B2"
   },
   {
     "de": "andererseits",
-    "lv": "A na strane druhej,",
+    "lv": "Na druhé straně",
     "level": "B2"
   },
   {
     "de": "andernfalls",
-    "lv": "Inak",
+    "lv": "Jinak",
     "level": "B2"
   },
   {
     "de": "anbrechen",
-    "lv": "Na początek • Hack",
+    "lv": "Začít • Hackovat",
     "level": "B2"
   },
   {
     "de": "anbremsen",
-    "lv": "Rozpocząć hamowanie",
+    "lv": "Začít brzdit",
     "level": "B2"
   },
   {
     "de": "anfreunden",
-    "lv": "Zaprzyjaźnić się",
+    "lv": "Spřátelit se",
     "level": "B2"
   },
   {
     "de": "angeblich",
-    "lv": "Ako keby • Zjavne",
+    "lv": "Jako by • Zřejmě",
     "level": "B2"
   },
   {
     "de": "angeboren",
-    "lv": "Wrodzony",
+    "lv": "Kongenitální",
     "level": "B2"
   },
   {
     "de": "angelegt",
-    "lv": "Stworzony • Zainwestowany",
+    "lv": "Vytvořené • Investované",
     "level": "B2"
   },
   {
     "de": "angeordnet",
-    "lv": "Ustalony • Zamówiony",
+    "lv": "Určil • Nařídil",
     "level": "B2"
   },
   {
     "de": "angehoben",
-    "lv": "Podniesiony",
+    "lv": "Zvýšené",
     "level": "B2"
   },
   {
     "de": "angegriffen",
-    "lv": "Zmęczony • Zaatakowany",
+    "lv": "Unavený • Napadl",
     "level": "B2"
   },
   {
     "de": "abberufen",
-    "lv": "Odwołać • Odwołać",
+    "lv": "Odvolat • Propustit",
     "level": "B2"
   },
   {
     "de": "abblitzen",
-    "lv": "Odrzucić",
+    "lv": "Odmítnout",
     "level": "B2"
   },
   {
     "de": "abbringen",
-    "lv": "Odradzać • Odradzać • Odwracać uwagę",
+    "lv": "Odradit • Odradit • Odvést",
     "level": "B2"
   },
   {
     "de": "Abendblatt",
     "de_article": "das",
     "de_plural": "die Abendblätter",
-    "lv": "Gazeta wieczorna",
+    "lv": "Večerní noviny",
     "level": "B2"
   },
   {
     "de": "Abendgebet",
     "de_article": "das",
     "de_plural": "die Abendgebete",
-    "lv": "Wieczorna modlitwa",
+    "lv": "Večerní modlitba",
     "level": "B2"
   },
   {
     "de": "Abenteuerlust",
     "de_article": "die",
-    "lv": "Żądza romansu",
+    "lv": "Touha po aféře",
     "level": "B2"
   },
   {
     "de": "Abfallprodukt",
     "de_article": "das",
     "de_plural": "die Abfallprodukte",
-    "lv": "Odpadový produkt",
+    "lv": "Odpadní produkt",
     "level": "B2"
   },
   {
     "de": "abfällig",
-    "lv": "Niekorzystny • Negatywny • Zły • Dezaprobujący",
+    "lv": "Nepříznivý • Negativní • Špatný • Nesouhlasný",
     "level": "B2"
   },
   {
     "de": "abfertigen",
-    "lv": "Wysłać • Odesłać • Służyć • Traktować nieuprzejmie",
+    "lv": "Poslat • Poslat pryč • Sloužit • Chovat se nevlídně",
     "level": "B2"
   },
   {
     "de": "sich abfinden",
-    "lv": "Znosić",
+    "lv": "Smířit se s",
     "level": "B2",
     "study": {
       "id": "b2-sich-abfinden",
       "layout": "minimalStudy",
-      "translation": "Znosić",
-      "rektion": "mit + kam?",
-      "explanation": "Sich abfinden wymaga przyimka określonego mit + kam?.",
-      "forms": "mit + kam?",
-      "formsLabel": "Kierownictwo:",
+      "translation": "Smířit se s",
+      "rektion": "Mit + kam?",
+      "explanation": "Sich abfinden vyžaduje určitou předložku mit + kam?.",
+      "forms": "Mit + kam?",
+      "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -267,205 +267,205 @@ const B2_WORDS = [
   },
   {
     "de": "abgesehen",
-    "lv": "Chociaż • Dodatkowo",
+    "lv": "Ačkoli • Navíc",
     "level": "B2"
   },
   {
     "de": "abgespannt",
-    "lv": "Zmęczony • Wyczerpany",
+    "lv": "Unavený • Vyčerpaný",
     "level": "B2"
   },
   {
     "de": "abgetan",
-    "lv": "Zakończone • Rozliczone",
+    "lv": "Ukončený • Vyřízený",
     "level": "B2"
   },
   {
     "de": "abgrenzen",
-    "lv": "Rozgraniczaj • Dystansuj się",
+    "lv": "Vymezit se • Distancovat se",
     "level": "B2"
   },
   {
     "de": "Abgrund",
     "de_article": "der",
     "de_plural": "die Abgründe",
-    "lv": "Otchłań",
+    "lv": "Propast",
     "level": "B2"
   },
   {
     "de": "abhören",
-    "lv": "Podsłuchiwać • Podsłuchiwać",
+    "lv": "Odposlouchávat • Odposlouchávat",
     "level": "B2"
   },
   {
     "de": "ableiten",
-    "lv": "Prowadzić • Odwracać • Wyprowadzać",
+    "lv": "Vést • Odklonit • Odvodit",
     "level": "B2"
   },
   {
     "de": "Abneigung",
     "de_article": "die",
     "de_plural": "die Abneigungen",
-    "lv": "Niechęć • Antypatia",
+    "lv": "Nechuť • Antipatie",
     "level": "B2"
   },
   {
     "de": "Abnutzung",
     "de_article": "die",
     "de_plural": "die Abnutzungen",
-    "lv": "Ścieranie • Ścieranie • Ścieranie",
+    "lv": "Opotřebování • Opotřebování • Opotřebování",
     "level": "B2"
   },
   {
     "de": "Abonnent",
     "de_article": "der",
     "de_plural": "die Abonnenten",
-    "lv": "Abonent",
+    "lv": "Odběratel",
     "level": "B2"
   },
   {
     "de": "abrichten",
-    "lv": "Szkolić zwierzę",
+    "lv": "Vycvičit zvíře",
     "level": "B2"
   },
   {
     "de": "Abrüstung",
     "de_article": "die",
     "de_plural": "die Abrüstungen",
-    "lv": "Rozbrojenie",
+    "lv": "Odzbrojení",
     "level": "B2"
   },
   {
     "de": "Absatzmarkt",
     "de_article": "der",
     "de_plural": "die Absatzmärkte",
-    "lv": "Rynek outletowy",
+    "lv": "Outletový trh",
     "level": "B2"
   },
   {
     "de": "abscheulich",
-    "lv": "Obrzydliwe • Obrzydliwe",
+    "lv": "Hnusný • Hnusný",
     "level": "B2"
   },
   {
     "de": "abschieben",
-    "lv": "Odepchnąć • Wygnać",
+    "lv": "Odstrčit • Zapudit",
     "level": "B2"
   },
   {
     "de": "abschlagen",
-    "lv": "Ciąć • Odpychać • Odpychać • Odrzucać",
+    "lv": "Pokácet • Odrazit • Odrazit • Odmítnout",
     "level": "B2"
   },
   {
     "de": "abschleppen",
-    "lv": "Usuń samochód",
+    "lv": "Odstranit auto",
     "level": "B2"
   },
   {
     "de": "abschrecken",
-    "lv": "Zastraszyć • Szybko się ochłodzić",
+    "lv": "Zastrašit • Rychle ochladit",
     "level": "B2"
   },
   {
     "de": "Abschrift",
     "de_article": "die",
     "de_plural": "die Abschriften",
-    "lv": "Transkripcia • Kópia",
+    "lv": "Přepis • Opis",
     "level": "B2"
   },
   {
     "de": "absondern",
-    "lv": "Oddzielny • Oddzielny • Odizolowany",
+    "lv": "Oddělit • Oddělit • Izolovat",
     "level": "B2"
   },
   {
     "de": "Abstammung",
     "de_article": "die",
     "de_plural": "die Abstammungen",
-    "lv": "Pochodzenie",
+    "lv": "Původ",
     "level": "B2"
   },
   {
     "de": "Abstecher",
     "de_article": "der",
     "de_plural": "die Abstecher",
-    "lv": "Dywersja • Krótka podróż",
+    "lv": "Odklon • Krátký výlet",
     "level": "B2"
   },
   {
     "de": "abstimmen",
-    "lv": "Głosować • Zgodzić się",
+    "lv": "Volit • Souhlasit",
     "level": "B2"
   },
   {
     "de": "Abstimmung",
     "de_article": "die",
     "de_plural": "die Abstimmungen",
-    "lv": "Głosowanie",
+    "lv": "Hlasování",
     "level": "B2"
   },
   {
     "de": "abstoßend",
-    "lv": "Odrażający • Obrzydliwy",
+    "lv": "Odpudivý • Hnusný",
     "level": "B2"
   },
   {
     "de": "Absturz",
     "de_article": "der",
     "de_plural": "die Abstürze",
-    "lv": "Upadek • Upadek",
+    "lv": "Padat • Padat",
     "level": "B2"
   },
   {
     "de": "absurd",
-    "lv": "Absurdalne • Bezsensowne",
+    "lv": "Absurdní • Nesmyslný",
     "level": "B2"
   },
   {
     "de": "abtragen",
-    "lv": "Wynieść • Wynieść • Zburzyć",
+    "lv": "Odnést • Odnést • Zbořit",
     "level": "B2"
   },
   {
     "de": "abtreten",
-    "lv": "Wycofać się • Dać • Urlop",
+    "lv": "Stáhnout • Dát • Odejít",
     "level": "B2"
   },
   {
     "de": "abweichen",
-    "lv": "Różnią się • Różnią się",
+    "lv": "Lišit se • Odchylovat se",
     "level": "B2"
   },
   {
     "de": "abweisen",
-    "lv": "Odrzucić • Odrzucić",
+    "lv": "Odmítnout • Odmítnout",
     "level": "B2"
   },
   {
     "de": "abwenden",
-    "lv": "Zapobiegać",
+    "lv": "Zabránit",
     "level": "B2"
   },
   {
     "de": "Affäre",
     "de_article": "die",
     "de_plural": "die Affären",
-    "lv": "Sprawa • Powieść",
+    "lv": "Aféra • Román",
     "level": "B2"
   },
   {
     "de": "sich abwenden",
-    "lv": "Odwróć się od",
+    "lv": "Odvrátit se od",
     "level": "B2",
     "study": {
       "id": "b2-sich-abwenden",
       "layout": "minimalStudy",
-      "translation": "Odwróć się od",
-      "rektion": "von + kam?",
-      "explanation": "Sich abwenden wymaga przyimka określonego von + kam?.",
-      "forms": "von + kam?",
-      "formsLabel": "Kierownictwo:",
+      "translation": "Odvrátit se od",
+      "rektion": "Von + kam?",
+      "explanation": "Sich abwenden vyžaduje určitou předložku von + kam?.",
+      "forms": "Von + kam?",
+      "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -481,150 +481,150 @@ const B2_WORDS = [
   {
     "de": "Abzweigung",
     "de_article": "die",
-    "lv": "Oddział • Oddział",
+    "lv": "Větev • Větev",
     "level": "B2"
   },
   {
     "de": "ächzen",
-    "lv": "Jęczeć • Jęczeć",
+    "lv": "Sténat • Sténat",
     "level": "B2"
   },
   {
     "de": "affig",
-    "lv": "Krzykliwy • Zarozumiały",
+    "lv": "Okázalý • Namyšlený",
     "level": "B2"
   },
   {
     "de": "alsogleich",
-    "lv": "Okamžite",
+    "lv": "Ihned",
     "level": "B2"
   },
   {
     "de": "analysieren",
-    "lv": "Analizować",
+    "lv": "Analyzovat",
     "level": "B2"
   },
   {
     "de": "Andeutung",
     "de_article": "die",
     "de_plural": "die Andeutungen",
-    "lv": "Wskazówka • Wskazanie",
+    "lv": "Nápověda • Indikace",
     "level": "B2"
   },
   {
     "de": "andeuten",
-    "lv": "Wskazać • Wskazówkę",
+    "lv": "Naznačit • Napovědět",
     "level": "B2"
   },
   {
     "de": "Anmut",
     "de_article": "die",
-    "lv": "Atrakcyjność • Piękno • Wdzięk",
+    "lv": "Přitažlivost • Krása • Půvab",
     "level": "B2"
   },
   {
     "de": "annähernd",
-    "lv": "Przybliżony • Przybliżony",
+    "lv": "Přibližný • Přibližně",
     "level": "B2"
   },
   {
     "de": "Anorak",
     "de_article": "der",
     "de_plural": "die Anoraks",
-    "lv": "Sportowa kurtka z kapturem",
+    "lv": "Sportovní bunda s kapucí",
     "level": "B2"
   },
   {
     "de": "Anwärter",
     "de_article": "der",
     "de_plural": "die Anwärter",
-    "lv": "Wnioskodawca • Kandydat",
+    "lv": "Uchazeč • Uchazeč",
     "level": "B2"
   },
   {
     "de": "Areal",
     "de_article": "das",
     "de_plural": "die Areale",
-    "lv": "Zakres",
+    "lv": "Rozsah",
     "level": "B2"
   },
   {
     "de": "Arie",
     "de_article": "die",
     "de_plural": "die Arien",
-    "lv": "Aria",
+    "lv": "Árie",
     "level": "B2"
   },
   {
     "de": "Armsessel",
     "de_article": "der",
     "de_plural": "die Armsessel",
-    "lv": "Fotel",
+    "lv": "Křeslo",
     "level": "B2"
   },
   {
     "de": "Aster",
     "de_article": "die",
     "de_plural": "die Astern",
-    "lv": "Aster",
+    "lv": "Astra",
     "level": "B2"
   },
   {
     "de": "Atombombe",
     "de_article": "die",
     "de_plural": "die Atombomben",
-    "lv": "Bomba atomowa",
+    "lv": "Atomová bomba",
     "level": "B2"
   },
   {
     "de": "Atomenergie",
     "de_article": "die",
-    "lv": "Energia atomowa",
+    "lv": "Atomová energie",
     "level": "B2"
   },
   {
     "de": "ausbeuten",
-    "lv": "Eksploatować",
+    "lv": "Zneužít",
     "level": "B2"
   },
   {
     "de": "Ausbeutung",
     "de_article": "die",
     "de_plural": "die Ausbeutungen",
-    "lv": "Działanie",
+    "lv": "Operace",
     "level": "B2"
   },
   {
     "de": "Auktion",
     "de_article": "die",
     "de_plural": "die Auktionen",
-    "lv": "Aukcja",
+    "lv": "Aukce",
     "level": "B2"
   },
   {
     "de": "sich aufdrängen",
-    "lv": "Nękać",
+    "lv": "Obtěžovat",
     "level": "B2"
   },
   {
     "de": "Aufruf",
     "de_article": "der",
     "de_plural": "die Aufrufe",
-    "lv": "Wykrzyknik • Zaproszenie",
+    "lv": "Zvolání • Pozvání",
     "level": "B2"
   },
   {
     "de": "Aufschluss",
     "de_article": "der",
     "de_plural": "die Aufschlüsse",
-    "lv": "Wyjaśnienie • Informacja",
+    "lv": "Vysvětlení • Informace",
     "level": "B2"
   },
   {
     "de": "Augenleiden",
     "de_article": "das",
     "de_plural": "die Augenleiden",
-    "lv": "Choroba oczu",
+    "lv": "Oční onemocnění",
     "level": "B2"
   },
   {
@@ -638,288 +638,288 @@ const B2_WORDS = [
     "de": "Äußerlichkeit",
     "de_article": "die",
     "de_plural": "die Äußerlichkeiten",
-    "lv": "Ostentacyjność",
+    "lv": "Okázalost",
     "level": "B2"
   },
   {
     "de": "Äußerung",
     "de_article": "die",
     "de_plural": "die Äußerungen",
-    "lv": "Wypowiedź • Ekspresja • Ekspresja",
+    "lv": "Výpověď • Výraz • Výraz",
     "level": "B2"
   },
   {
     "de": "aussetzen",
-    "lv": "Opublikuj • Temat • Sprzeciwiaj się • Postaw",
+    "lv": "Příspěvek • Předmět • Odporovat • Stát",
     "level": "B2"
   },
   {
     "de": "aussichtslos",
-    "lv": "Beznádejné • Žiadne vyhliadky",
+    "lv": "Beznadějný • Bez vyhlídky",
     "level": "B2"
   },
   {
     "de": "ausspannen",
-    "lv": "Odpiąć • Zabrać partnera • Odpocząć",
+    "lv": "Odvázat • Odvézt partnera • Odpočívat",
     "level": "B2"
   },
   {
     "de": "ausstatten",
-    "lv": "Dostarczyć • Zaprojektować",
+    "lv": "Dodávat • Navrhovat",
     "level": "B2"
   },
   {
     "de": "aussterben",
-    "lv": "Wymierać",
+    "lv": "Vymřít",
     "level": "B2"
   },
   {
     "de": "ausstopfen",
-    "lv": "Wypełnić • Wypełnić • Wypchać",
+    "lv": "Naplnit • Naplnit • Vycpat",
     "level": "B2"
   },
   {
     "de": "ausströmen",
-    "lv": "Sączyć się • Emanować • Promieniować",
+    "lv": "Mokvat • Vycházet • Vyzařovat",
     "level": "B2"
   },
   {
     "de": "austragen",
-    "lv": "Nieść • Dostarczać • Wygrywać",
+    "lv": "Nést • Doručit • Vyhrát",
     "level": "B2"
   },
   {
     "de": "austreiben",
-    "lv": "Wypędzić • Odsadzić",
+    "lv": "Vyhnat • Odstavit",
     "level": "B2"
   },
   {
     "de": "austreten",
-    "lv": "Eksmitować • Czynsz • Zrezygnować",
+    "lv": "Vystěhovat • Pronajmout • Přestat",
     "level": "B2"
   },
   {
     "de": "auswärtig",
-    "lv": "Zagraniczne • Sprawy zagraniczne",
+    "lv": "Zahraniční • Zahraniční záležitosti",
     "level": "B2"
   },
   {
     "de": "ausweichend",
-    "lv": "Wymijający • Niepewny",
+    "lv": "Vyhýbavý • Nejistý",
     "level": "B2"
   },
   {
     "de": "ausweisen",
-    "lv": "Wydalić • Wysłać • Potwierdzić • Udowodnić",
+    "lv": "Vyhnat • Poslat • Potvrdit • Dokázat",
     "level": "B2"
   },
   {
     "de": "auswerfen",
-    "lv": "Wyrzucić • Wyrzucić",
+    "lv": "Vyhodit • Vyhodit",
     "level": "B2"
   },
   {
     "de": "auswerten",
-    "lv": "Oceniać • Oceniać",
+    "lv": "Hodnotit • Hodnotit",
     "level": "B2"
   },
   {
     "de": "auszeichnen",
-    "lv": "Nagroda • Nagroda • Wyróżnij się",
+    "lv": "Ocenění • Ocenění • Vyniknout",
     "level": "B2"
   },
   {
     "de": "Auszeichnung",
     "de_article": "die",
     "de_plural": "die Auszeichnungen",
-    "lv": "Przyznanie • Nagrody • Odznaki honorowej",
+    "lv": "Udělování • Ocenění • Čestný odznak",
     "level": "B2"
   },
   {
     "de": "autonom",
-    "lv": "Samostatný",
+    "lv": "Autonomní",
     "level": "B2"
   },
   {
     "de": "Schwebebalken",
     "de_article": "der",
     "de_plural": "die Schwebebalken",
-    "lv": "Równoważnia",
+    "lv": "Kladina",
     "level": "B2"
   },
   {
     "de": "bändigen",
-    "lv": "Powstrzymywać • Ujarzmiać",
+    "lv": "Omezit • Podmanit si",
     "level": "B2"
   },
   {
     "de": "Blutbank",
     "de_article": "die",
     "de_plural": "die Blutbanken",
-    "lv": "Krvné rezervy",
+    "lv": "Krevní rezervy",
     "level": "B2"
   },
   {
     "de": "Organbank",
     "de_article": "die",
     "de_plural": "die Organbanken",
-    "lv": "Bank organów",
+    "lv": "Orgánová banka",
     "level": "B2"
   },
   {
     "de": "Bankgeheimnis",
     "de_article": "das",
     "de_plural": "die Bankgeheimnisse",
-    "lv": "Tajemnica bankowa",
+    "lv": "Bankovní tajemství",
     "level": "B2"
   },
   {
     "de": "Bankleitzahl",
     "de_article": "die",
     "de_plural": "die Bankleitzahlen",
-    "lv": "Indeks banku",
+    "lv": "Bankovní index",
     "level": "B2"
   },
   {
     "de": "Bankraub",
     "de_article": "der",
     "de_plural": "die Bankraube",
-    "lv": "Napad na bank",
+    "lv": "Bankovní loupež",
     "level": "B2"
   },
   {
     "de": "Bankscheck",
     "de_article": "der",
     "de_plural": "die Bankschecks",
-    "lv": "Czek bankowy",
+    "lv": "Bankovní šek",
     "level": "B2"
   },
   {
     "de": "Banküberfall",
     "de_article": "der",
     "de_plural": "die Banküberfälle",
-    "lv": "Napad na bank",
+    "lv": "Bankovní loupež",
     "level": "B2"
   },
   {
     "de": "Bankrott",
     "de_article": "der",
     "de_plural": "die Bankrotte",
-    "lv": "Bankructwo",
+    "lv": "Bankrot",
     "level": "B2"
   },
   {
     "de": "Barbarei",
     "de_article": "die",
     "de_plural": "die Barbareien",
-    "lv": "Barbaryzm",
+    "lv": "Barbarství",
     "level": "B2"
   },
   {
     "de": "barhäuptig",
-    "lv": "Z gołą głową",
+    "lv": "S holou hlavou",
     "level": "B2"
   },
   {
     "de": "barmherzig",
-    "lv": "Miłosierny • Współczujący",
+    "lv": "Milosrdný • Soucitný",
     "level": "B2"
   },
   {
     "de": "Barren",
     "de_article": "der",
     "de_plural": "die Barren",
-    "lv": "Dopływy",
+    "lv": "Přítoky",
     "level": "B2"
   },
   {
     "de": "Barrenturnen",
     "de_article": "das",
-    "lv": "Ćwiczenia na dopływach",
+    "lv": "Cvičení na přítocích",
     "level": "B2"
   },
   {
     "de": "Militärbasis",
     "de_article": "die",
     "de_plural": "die Militärbasen",
-    "lv": "Baza wojskowa",
+    "lv": "Vojenská základna",
     "level": "B2"
   },
   {
     "de": "Baukredit",
     "de_article": "der",
     "de_plural": "die Baukredite",
-    "lv": "Kredyt na rozpoczęcie budowy",
+    "lv": "Úvěr na zahájení stavby",
     "level": "B2"
   },
   {
     "de": "Bauchhöhle",
     "de_article": "die",
     "de_plural": "die Bauchhöhlen",
-    "lv": "Jama brzuszna",
+    "lv": "Břišní dutina",
     "level": "B2"
   },
   {
     "de": "Baugelände",
     "de_article": "das",
     "de_plural": "die Baugelände",
-    "lv": "Działka budowlana",
+    "lv": "Stavební pozemek",
     "level": "B2"
   },
   {
     "de": "Baugrube",
     "de_article": "die",
     "de_plural": "die Baugruben",
-    "lv": "Dół budowlany",
+    "lv": "Stavební jáma",
     "level": "B2"
   },
   {
     "de": "Bauleiter",
     "de_article": "der",
     "de_plural": "die Bauleiter",
-    "lv": "Kierownik budowy",
+    "lv": "Stavbyvedoucí",
     "level": "B2"
   },
   {
     "de": "Baumschule",
     "de_article": "die",
     "de_plural": "die Baumschulen",
-    "lv": "Szkółka drzew",
+    "lv": "Stromová školka",
     "level": "B2"
   },
   {
     "de": "Bauwesen",
     "de_article": "das",
-    "lv": "Konstrukcja • Konstrukcja",
+    "lv": "Stavba • Stavba",
     "level": "B2"
   },
   {
     "de": "bebauen",
-    "lv": "Proces • Budowanie",
+    "lv": "Proces • Stavět",
     "level": "B2"
   },
   {
     "de": "bedürfen",
-    "lv": "Potreba • Buďte potrební",
+    "lv": "Potřebovat • Být nezbytný",
     "level": "B2"
   },
   {
     "de": "befallen",
-    "lv": "Nadejść • Atak",
+    "lv": "Přijít • Napadnout",
     "level": "B2"
   },
   {
     "de": "sich befassen",
-    "lv": "Radzić sobie z",
+    "lv": "Řešit",
     "level": "B2",
     "study": {
       "id": "b2-sich-befassen",
       "layout": "minimalStudy",
-      "translation": "Radzić sobie z",
-      "rektion": "mit + kam?",
-      "explanation": "Sich befassen wymaga przyimka określonego mit + kam?.",
-      "forms": "mit + kam?",
-      "formsLabel": "Kierownictwo:",
+      "translation": "Řešit",
+      "rektion": "Mit + kam?",
+      "explanation": "Sich befassen vyžaduje určitou předložku mit + kam?.",
+      "forms": "Mit + kam?",
+      "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -936,43 +936,43 @@ const B2_WORDS = [
     "de": "Beförderung",
     "de_article": "die",
     "de_plural": "die Beförderungen",
-    "lv": "Dostawa • Transport • Promocja • Promocja",
+    "lv": "Dodávka • Doprava • Propagace • Propagace",
     "level": "B2"
   },
   {
     "de": "Befugnis",
     "de_article": "die",
     "de_plural": "die Befugnisse",
-    "lv": "Prawa • Władza",
+    "lv": "Práva • Autorita",
     "level": "B2"
   },
   {
     "de": "begehren",
-    "lv": "Żądać • Żądać • Lubić • Pożądać • Pożądać",
+    "lv": "Požadovat • Požadovat • Mít rád • Bažit • Bažit",
     "level": "B2"
   },
   {
     "de": "begierig",
-    "lv": "Túžba",
+    "lv": "Touha",
     "level": "B2"
   },
   {
     "de": "begnadigen",
-    "lv": "Mieć miłosierdzie",
+    "lv": "Mít slitování",
     "level": "B2"
   },
   {
     "de": "sich begnügen",
-    "lv": "Być zadowolonym z",
+    "lv": "Být spokojený s",
     "level": "B2",
     "study": {
       "id": "b2-sich-begnuegen",
       "layout": "minimalStudy",
-      "translation": "Być zadowolonym z",
-      "rektion": "mit + kam?",
-      "explanation": "Sich begnügen wymaga przyimka określonego mit + kam?.",
-      "forms": "mit + kam?",
-      "formsLabel": "Kierownictwo:",
+      "translation": "Být spokojený s",
+      "rektion": "Mit + kam?",
+      "explanation": "Sich begnügen vyžaduje určitou předložku mit + kam?.",
+      "forms": "Mit + kam?",
+      "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -987,44 +987,44 @@ const B2_WORDS = [
   },
   {
     "de": "begünstigen",
-    "lv": "Promować • Ułatwiać • Chronić • Wspierać",
+    "lv": "Podporovat • Usnadňovat • Chránit • Podporovat",
     "level": "B2"
   },
   {
     "de": "begutachten",
-    "lv": "Przekazać informację zwrotną • Ocenić",
+    "lv": "Dávat zpětnou vazbu • Hodnotit",
     "level": "B2"
   },
   {
     "de": "beharren",
-    "lv": "Istnieć • Pozostać",
+    "lv": "Existovat • Zůstat",
     "level": "B2"
   },
   {
     "de": "beharrlich",
-    "lv": "Trwały • Trwały",
+    "lv": "Vytrvalý • Vytrvalý",
     "level": "B2"
   },
   {
     "de": "behüten",
-    "lv": "Chronić • Chronić",
+    "lv": "Chránit • Chránit",
     "level": "B2"
   },
   {
     "de": "Beihilfe",
     "de_article": "die",
     "de_plural": "die Beihilfen",
-    "lv": "Świadczenie państwowe • Premia",
+    "lv": "Státní příspěvek • Bonus",
     "level": "B2"
   },
   {
     "de": "beiläufig",
-    "lv": "Przypadkowy • Przypadkowy • Przy okazji • Przejeżdżając",
+    "lv": "Náhodný • Náhodný • Mimochodem • Kolemjdoucí",
     "level": "B2"
   },
   {
     "de": "beispiellos",
-    "lv": "Nigdy nie był • Niewidziany • Jak nic w porównaniu",
+    "lv": "Nebyl • Neviditelný • To, co není srovnatelné s ničím",
     "level": "B2"
   },
   {
@@ -1036,121 +1036,121 @@ const B2_WORDS = [
   },
   {
     "de": "beistehen",
-    "lv": "Pomoc",
+    "lv": "Pomoci",
     "level": "B2"
   },
   {
     "de": "beistimmen",
-    "lv": "Schváliť • Podpora",
+    "lv": "Schvalovat • Podporovat",
     "level": "B2"
   },
   {
     "de": "beiwohnen",
-    "lv": "Być obecnym • Uczestniczyć",
+    "lv": "Být přítomen • Účastnit se",
     "level": "B2"
   },
   {
     "de": "beizen",
-    "lv": "Wytrawiać • Plamić",
+    "lv": "Leptat • Špinit",
     "level": "B2"
   },
   {
     "de": "bejahen",
-    "lv": "Potwierdzić • Potwierdzić",
+    "lv": "Potvrdit • Tvrdit",
     "level": "B2"
   },
   {
     "de": "bejahrt",
-    "lv": "Za wiele lat",
+    "lv": "V mnoha letech",
     "level": "B2"
   },
   {
     "de": "bekennen",
-    "lv": "Ocenenie",
+    "lv": "Přiznat",
     "level": "B2"
   },
   {
     "de": "bekräftigen",
-    "lv": "Potwierdzić • Poświadczyć",
+    "lv": "Potvrdit • Potvrdit",
     "level": "B2"
   },
   {
     "de": "Fußbodenbelag",
     "de_article": "der",
     "de_plural": "die Fußbodenbeläge",
-    "lv": "Wykładzina podłogowa",
+    "lv": "Podlahová krytina",
     "level": "B2"
   },
   {
     "de": "Straßenbelag",
     "de_article": "der",
     "de_plural": "die Straßenbeläge",
-    "lv": "Obecność na ulicy",
+    "lv": "Přítomnost na ulici",
     "level": "B2"
   },
   {
     "de": "belagern",
-    "lv": "Oblegać • Otaczać",
+    "lv": "Obléhat • Obklíčit",
     "level": "B2"
   },
   {
     "de": "belanglos",
-    "lv": "Nieistotny • Nieistotny",
+    "lv": "Bezvýznamný • Nedůležitý",
     "level": "B2"
   },
   {
     "de": "belästigen",
-    "lv": "Zawracać sobie głowę • Zawracać sobie głowę • Wtrącać się",
+    "lv": "Obtěžovat • Obtěžovat • Zapíchnout",
     "level": "B2"
   },
   {
     "de": "belauschen",
-    "lv": "Podsłuchiwać",
+    "lv": "Odposlouchávat",
     "level": "B2"
   },
   {
     "de": "beleben",
-    "lv": "Wskrzesić",
+    "lv": "Oživit",
     "level": "B2"
   },
   {
     "de": "sich beleben",
-    "lv": "Ożywiać się",
+    "lv": "Ožít",
     "level": "B2"
   },
   {
     "de": "beleibt",
-    "lv": "Gruby • Drogi • Pełny",
+    "lv": "Tlustý • Drahý • Plný",
     "level": "B2"
   },
   {
     "de": "belichten",
-    "lv": "Oświetlać • Eksponować",
+    "lv": "Osvětlit • Vystavit",
     "level": "B2"
   },
   {
     "de": "Belieben",
     "de_article": "das",
-    "lv": "Lubiłem • Lubiłem • Chciałem",
+    "lv": "Měl rád • Mít rád • Chtít",
     "level": "B2"
   },
   {
     "de": "belustigen",
-    "lv": "Bavte sa",
+    "lv": "Bavit",
     "level": "B2"
   },
   {
     "de": "sich bemächtigen",
-    "lv": "Przejąć • Wziąć w posiadanie",
+    "lv": "Zmocnit se • Zmocnit se",
     "level": "B2",
     "study": {
       "id": "b2-sich-bemaechtigen",
       "layout": "minimalStudy",
-      "translation": "Przejąć • Wziąć w posiadanie",
-      "rektion": "+ forma dzierżawcza",
-      "explanation": "Sich bemächtigen jest używane we współczesnym języku niemieckim w formie dzierżawczej bez przyimka.",
-      "forms": "+ forma dzierżawcza",
-      "formsLabel": "Kierownictwo:",
+      "translation": "Zmocnit se • Zmocnit se",
+      "rektion": "+ piederības forma",
+      "explanation": "Sich bemächtigen se v moderní němčině používá s přivlastňovací formou bez předložky.",
+      "forms": "+ piederības forma",
+      "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -1164,78 +1164,78 @@ const B2_WORDS = [
     "de": "Benennung",
     "de_article": "die",
     "de_plural": "die Benennungen",
-    "lv": "Nazewnictwo • Nazewnictwo • Imię",
+    "lv": "Pojmenování • Pojmenování • Jméno",
     "level": "B2"
   },
   {
     "de": "Steuerberater",
     "de_article": "der",
     "de_plural": "die Steuerberater",
-    "lv": "Doradca podatkowy",
+    "lv": "Daňový poradce",
     "level": "B2"
   },
   {
     "de": "berechtigen",
-    "lv": "Udeliť práva",
+    "lv": "Dát práva",
     "level": "B2"
   },
   {
     "de": "beredt",
-    "lv": "Rozmowny",
+    "lv": "Hovorný",
     "level": "B2"
   },
   {
     "de": "bereichern",
-    "lv": "Wzbogacać",
+    "lv": "Obohatit",
     "level": "B2"
   },
   {
     "de": "Bergbau",
     "de_article": "der",
-    "lv": "Przemysł wydobywczy",
+    "lv": "Těžební průmysl",
     "level": "B2"
   },
   {
     "de": "bergen",
-    "lv": "Uložiť • Uložiť • Zber",
+    "lv": "Zachránit • Zachránit • Sklidit",
     "level": "B2"
   },
   {
     "de": "Bergmann",
     "de_article": "der",
     "de_plural": "die Bergmänner",
-    "lv": "Górnik • Górnik",
+    "lv": "Horník • Uhlíř",
     "level": "B2"
   },
   {
     "de": "Bergwerk",
     "de_article": "das",
     "de_plural": "die Bergwerke",
-    "lv": "Kopalnia • Szyb",
+    "lv": "Důl • Šachta",
     "level": "B2"
   },
   {
     "de": "bersten",
-    "lv": "Pękać • Pękać • Pękać • Pękać",
+    "lv": "Praskat • Praskat • Praskat • Praskat",
     "level": "B2"
   },
   {
     "de": "berufen",
-    "lv": "Wyznaczyć • Zaprosić",
+    "lv": "Jmenovat • Pozvat",
     "level": "B2"
   },
   {
     "de": "sich berufen",
-    "lv": "Odnieść się do",
+    "lv": "Odkazovat",
     "level": "B2",
     "study": {
       "id": "b2-sich-berufen",
       "layout": "minimalStudy",
-      "translation": "Odnieść się do",
-      "rektion": "auf + ko?",
-      "explanation": "Sich berufen wymaga przyimka określonego auf + ko?.",
-      "forms": "auf + ko?",
-      "formsLabel": "Kierownictwo:",
+      "translation": "Odkazovat",
+      "rektion": "Auf + ko?",
+      "explanation": "Sich berufen vyžaduje určitou předložku auf + ko?.",
+      "forms": "Auf + ko?",
+      "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -1250,48 +1250,48 @@ const B2_WORDS = [
   },
   {
     "de": "beruhen",
-    "lv": "Zostać założonym • Zostać założonym",
+    "lv": "Být založen • Být založen",
     "level": "B2"
   },
   {
     "de": "besänftigen",
-    "lv": "Uspokoić • Uspokoić • Uspokoić • Ciszę",
+    "lv": "Uklidnit • Uklidnit • Uklidnit • Utišit",
     "level": "B2"
   },
   {
     "de": "Besatzung",
     "de_article": "die",
     "de_plural": "die Besatzungen",
-    "lv": "Dowództwo • Załoga • Załoga • Okupacyjne jednostki wojskowe",
+    "lv": "Velení • Posádka • Posádka • Okupační vojenské jednotky",
     "level": "B2"
   },
   {
     "de": "beschämen",
-    "lv": "Zawstydzać",
+    "lv": "K hanbě",
     "level": "B2"
   },
   {
     "de": "beschatten",
-    "lv": "Przyćmić • Ślad",
+    "lv": "Zastínit • Stopa",
     "level": "B2"
   },
   {
     "de": "beschimpfen",
-    "lv": "Przeklinać • Kraść • Łapać",
+    "lv": "Nadávat • Krást • Chytat",
     "level": "B2"
   },
   {
     "de": "sich beschränken",
-    "lv": "Ograniczyć się do",
+    "lv": "Omezit se na",
     "level": "B2",
     "study": {
       "id": "b2-sich-beschraenken",
       "layout": "minimalStudy",
-      "translation": "Ograniczyć się do",
-      "rektion": "auf + ko?",
-      "explanation": "Sich beschränken wymaga przyimka określonego auf + ko?.",
-      "forms": "auf + ko?",
-      "formsLabel": "Kierownictwo:",
+      "translation": "Omezit se na",
+      "rektion": "Auf + ko?",
+      "explanation": "Sich beschränken vyžaduje určitou předložku auf + ko?.",
+      "forms": "Auf + ko?",
+      "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -1308,94 +1308,97 @@ const B2_WORDS = [
     "de": "Beschützer",
     "de_article": "der",
     "de_plural": "die Beschützer",
-    "lv": "Obrońca • Strażnik • Obrońca",
+    "lv": "Ochránce • Stráž • Obránce",
     "level": "B2"
   },
   {
     "de": "beschwören",
-    "lv": "Przysięgać • Przysięgać • Bardzo się modlić",
+    "lv": "Přísahat • Přísahat • Velmi se modlit",
     "level": "B2"
   },
   {
     "de": "besessen",
-    "lv": "Obsesja • Przytłoczony • Przytłoczony",
+    "lv": "Posedlý • Zdrcený • Zdrcený",
     "level": "B2"
   },
   {
     "de": "besiedeln",
-    "lv": "Obozują mieszkańcy",
+    "lv": "Utábořit obyvatele",
     "level": "B2"
   },
   {
     "de": "Besinnung",
     "de_article": "die",
     "de_plural": "die Besinnungen",
-    "lv": "Świadomość • Świadomość",
+    "lv": "Vědomí • Vědomí",
     "level": "B2"
   },
   {
     "de": "bespielen",
-    "lv": "Nahrávajte hudbu na kazetu alebo disketu",
+    "lv": "Nahrávat hudbu na kazetu nebo disketu",
     "level": "B2"
   },
   {
     "de": "Bestand",
     "de_article": "der",
     "de_plural": "die Bestände",
-    "lv": "Skład • Zapasy • Zapasy",
+    "lv": "Složení • Inventář • Zásoba",
     "level": "B2"
   },
   {
     "de": "beständig",
-    "lv": "Stała • Stała",
+    "lv": "Stálý • Stálý",
     "level": "B2"
   },
   {
     "de": "bestärken",
-    "lv": "Posilniť • Posilniť • Oživiť",
+    "lv": "Posílit • Posílit • Oživit",
     "level": "B2"
   },
   {
     "de": "bestechen",
-    "lv": "Przekupić",
+    "lv": "Uplácet",
     "level": "B2"
   },
   {
     "de": "bestechlich",
-    "lv": "Do kupienia • Przekupstwa",
+    "lv": "Koupitelný • Úplatný",
     "level": "B2"
   },
   {
     "de": "bestrahlen",
-    "lv": "Napromieniować • Błyszczeć",
+    "lv": "Ozařovat • Zářit",
     "level": "B2"
   },
   {
     "de": "bestreiten",
-    "lv": "Spór • Zapłacić • Pokryć",
+    "lv": "Spor • Platit • Krýt",
     "level": "B2"
   },
   {
     "de": "bestürzt",
-    "lv": "Zaskoczony • Zdezorientowany • Zakłopotany • Zdezorientowany",
+    "lv": "Překvapený • Zmatený • Zmatený • Zmatený",
     "level": "B2"
   },
   {
     "de": "sich betätigen",
-    "lv": "Działać • Uczestniczyć",
+    "lv": "Provozovat • Účastnit se",
     "level": "B2",
     "study": {
       "id": "b2-sich-betaetigen",
       "layout": "minimalStudy",
-      "translation": "Działać • Uczestniczyć",
-      "rektion": "in + kur?",
-      "explanation": "Sich betigen wymaga przyimka określonego w + gdzie?.",
-      "forms": "in + kur?",
-      "formsLabel": "Kierownictwo:",
+      "translation": "Provozovat • Účastnit se",
+      "rektion": "In + kur?",
+      "explanation": "Sich betätigen vyžaduje určitou předložku v + kde?.",
+      "forms": "In + kur?",
+      "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich"
+            "sich betätigen"
+          ],
+          "red": [
+            "Sich"
           ]
         }
       }
@@ -1405,685 +1408,685 @@ const B2_WORDS = [
     "de": "Betäubung",
     "de_article": "die",
     "de_plural": "die Betäubungen",
-    "lv": "Ogłuszenie • Otępienie • Narkoza • Znieczulenie",
+    "lv": "Omračující • Strnulost • Narkóza • Anestezie",
     "level": "B2"
   },
   {
     "de": "beteuern",
-    "lv": "Poświadczyć",
+    "lv": "Certifikovat",
     "level": "B2"
   },
   {
     "de": "Betracht",
     "de_article": "der",
-    "lv": "Rozważenie • Rozważenie",
+    "lv": "Úvaha • Úvaha",
     "level": "B2"
   },
   {
     "de": "sich betragen",
-    "lv": "Zachowywać się • Zachowywać się",
+    "lv": "Chovat se • Chovat se",
     "level": "B2"
   },
   {
     "de": "Betriebsrat",
     "de_article": "der",
     "de_plural": "die Betriebsräte",
-    "lv": "Rada spółki",
+    "lv": "Rada společnosti",
     "level": "B2"
   },
   {
     "de": "Betrug",
     "de_article": "der",
     "de_plural": "die Betrüge",
-    "lv": "Podvod • Podvod • Falšovanie • Podvod",
+    "lv": "Podvod • Podvod • Falešný • Podvod",
     "level": "B2"
   },
   {
     "de": "beurlauben",
-    "lv": "Urlop wypoczynkowy • Zwolnienie z pracy",
+    "lv": "Poskytnout dovolenou • Uvolnění z prac",
     "level": "B2"
   },
   {
     "de": "Beute",
     "de_article": "die",
-    "lv": "Łup • Zysk • Trofeum",
+    "lv": "Kořist • Zisk • Trofej",
     "level": "B2"
   },
   {
     "de": "Bewaffnung",
     "de_article": "die",
     "de_plural": "die Bewaffnungen",
-    "lv": "Uzbrojenie • Uzbrojenie",
+    "lv": "Výzbroj • Výzbroj",
     "level": "B2"
   },
   {
     "de": "bewähren",
-    "lv": "Chronić • Chronić • Chronić • Chronić",
+    "lv": "Chránit • Chránit • Chránit • Zachránit",
     "level": "B2"
   },
   {
     "de": "bewährt",
-    "lv": "Przetestowane • Bezpieczne • Niezawodne",
+    "lv": "Testováno • Bezpečné • Spolehlivé",
     "level": "B2"
   },
   {
     "de": "bewältigen",
-    "lv": "Przezwyciężyć • Poradzić sobie",
+    "lv": "Překonat • Zabývat se",
     "level": "B2"
   },
   {
     "de": "bewandert",
-    "lv": "Biegły • Kompetentny",
+    "lv": "Zdatný • Kompetentní",
     "level": "B2"
   },
   {
     "de": "Bewässerung",
     "de_article": "die",
     "de_plural": "die Bewässerungen",
-    "lv": "Nawadnianie • System nawadniający",
+    "lv": "Zavlažování • Zavlažovací systém",
     "level": "B2"
   },
   {
     "de": "Bewerbung",
     "de_article": "die",
     "de_plural": "die Bewerbungen",
-    "lv": "Wniosek • Formularz wniosku • Komplet złożonych dokumentów",
+    "lv": "Žádost • Formulář žádosti • Soubor předložených dokumentů",
     "level": "B2"
   },
   {
     "de": "bewilligen",
-    "lv": "Zezwolić • Przydzielić • Przyznać",
+    "lv": "Povolit • Přidělit • Udělit",
     "level": "B2"
   },
   {
     "de": "Bewusstsein",
     "de_article": "das",
     "de_plural": "die Bewusstseine",
-    "lv": "Świadomość • Świadomość",
+    "lv": "Vědomí • Vědomí",
     "level": "B2"
   },
   {
     "de": "bezähmen",
-    "lv": "Oczarować • Zniewolić",
+    "lv": "Okouzlit • Uchvátit",
     "level": "B2"
   },
   {
     "de": "bezeugen",
-    "lv": "Poświadczyć",
+    "lv": "Certifikovat",
     "level": "B2"
   },
   {
     "de": "Bezug",
     "de_article": "der",
     "de_plural": "die Bezüge",
-    "lv": "Przełożenie • Połączenie • Pokrywa",
+    "lv": "Poměr • Spojení • Kryt",
     "level": "B2"
   },
   {
     "de": "bezüglich",
-    "lv": "W sprawie",
+    "lv": "Ohledně",
     "level": "B2"
   },
   {
     "de": "bezwingen",
-    "lv": "Pokonać • Pokonać • Powstrzymać",
+    "lv": "Překonat • Porazit • Omezit",
     "level": "B2"
   },
   {
     "de": "biegsam",
-    "lv": "Elastyczny",
+    "lv": "Flexibilní",
     "level": "B2"
   },
   {
     "de": "Biegung",
     "de_article": "die",
     "de_plural": "die Biegungen",
-    "lv": "Zgięcie • Krzywizna",
+    "lv": "Ohnout • Zakřivení",
     "level": "B2"
   },
   {
     "de": "bisweilen",
-    "lv": "Czasami • Czasami • Czasami",
+    "lv": "Někdy • Někdy • Někdy",
     "level": "B2"
   },
   {
     "de": "Bildhauer",
     "de_article": "der",
     "de_plural": "die Bildhauer",
-    "lv": "Rzeźbiarz • Rzeźbiarz",
+    "lv": "Sochař • Sochař",
     "level": "B2"
   },
   {
     "de": "bildlich",
-    "lv": "Zobrazovanie • Dômyselné • Obrazové",
+    "lv": "Obrázkový • Imaginativní • Obrazný",
     "level": "B2"
   },
   {
     "de": "Bildnis",
     "de_article": "das",
     "de_plural": "die Bildnisse",
-    "lv": "Priezvisko • Portrét • Foto",
+    "lv": "Příjmení • Portrét • Obrázek",
     "level": "B2"
   },
   {
     "de": "billigen",
-    "lv": "Uznać za dobre • Zgodzić się",
+    "lv": "Uznat jako dobrý • Souhlasit",
     "level": "B2"
   },
   {
     "de": "Bindung",
     "de_article": "die",
     "de_plural": "die Bindungen",
-    "lv": "Więź • Połączenie • Wiązanie chemiczne • Więź • Paski • Więź emocjonalna",
+    "lv": "Pouto • Spojení • Chemická vazba • Pouto • Řemeny • Citové pouto",
     "level": "B2"
   },
   {
     "de": "binnen",
-    "lv": "Podczas • Wewnątrz",
+    "lv": "Během • Uvnitř",
     "level": "B2"
   },
   {
     "de": "Binnenhandel",
     "de_article": "der",
-    "lv": "Handel wewnętrzny",
+    "lv": "Vnitřní obchod",
     "level": "B2"
   },
   {
     "de": "Bienenwachs",
     "de_article": "das",
-    "lv": "Wosk",
+    "lv": "Včelí vosk",
     "level": "B2"
   },
   {
     "de": "Bienenstock",
     "de_article": "der",
     "de_plural": "die Bienenstöcke",
-    "lv": "Ul",
+    "lv": "Úl",
     "level": "B2"
   },
   {
     "de": "Bienenzucht",
     "de_article": "die",
     "de_plural": "die Bienenzuchten",
-    "lv": "Pszczelarstwo",
+    "lv": "Včelařství",
     "level": "B2"
   },
   {
     "de": "Prüfer",
     "de_article": "der",
     "de_plural": "die Prüfer",
-    "lv": "Rewident księgowy",
+    "lv": "Auditor",
     "level": "B2"
   },
   {
     "de": "Bildbericht",
     "de_article": "der",
     "de_plural": "die Bildberichte",
-    "lv": "Reportaż fotograficzny",
+    "lv": "Fotoreportáž",
     "level": "B2"
   },
   {
     "de": "bildend",
-    "lv": "Pomysłowe • Edukacyjne",
+    "lv": "Nápaditý • Výchovný",
     "level": "B2"
   },
   {
     "de": "blähen",
-    "lv": "Dmuchać • Nadmuchać • Napompować",
+    "lv": "Fouknout • Nafouknout • Nafouknout",
     "level": "B2"
   },
   {
     "de": "sich blähen",
-    "lv": "Nadmuchać • Nadmuchać",
+    "lv": "Nafouknout • Nafouknout",
     "level": "B2"
   },
   {
     "de": "Blasorchester",
     "de_article": "das",
     "de_plural": "die Blasorchester",
-    "lv": "Orkiestra dęta",
+    "lv": "Dechovka",
     "level": "B2"
   },
   {
     "de": "Bleigehalt",
     "de_article": "der",
     "de_plural": "die Bleigehalte",
-    "lv": "Zawartość wiodąca",
+    "lv": "Obsah olova",
     "level": "B2"
   },
   {
     "de": "bleihaltig",
-    "lv": "Zawierający ołów",
+    "lv": "Obsahující olovo",
     "level": "B2"
   },
   {
     "de": "bleichen",
-    "lv": "Balate • Balot • Wybielacz",
+    "lv": "Balát • Balot • Bělit",
     "level": "B2"
   },
   {
     "de": "blenden",
-    "lv": "Oslnenie • Oslnenie • Zmätok • Zavádzanie",
+    "lv": "Oslňovat • Oslňovat • Mást • Svádět",
     "level": "B2"
   },
   {
     "de": "Blindgänger",
     "de_article": "der",
     "de_plural": "die Blindgänger",
-    "lv": "Niewybuch bomby • Pocisk",
+    "lv": "Nevybuchlá bomba • Projektil",
     "level": "B2"
   },
   {
     "de": "Blitzableiter",
     "de_article": "der",
     "de_plural": "die Blitzableiter",
-    "lv": "Piorunochron",
+    "lv": "Bleskosvod",
     "level": "B2"
   },
   {
     "de": "Blitzlicht",
     "de_article": "das",
     "de_plural": "die Blitzlichter",
-    "lv": "Światło lampy błyskowej",
+    "lv": "Zábleskové světlo",
     "level": "B2"
   },
   {
     "de": "Militärblock",
     "de_article": "der",
     "de_plural": "die Militärblöcke",
-    "lv": "Blok wojskowy",
+    "lv": "Vojenský blok",
     "level": "B2"
   },
   {
     "de": "Blockade",
     "de_article": "die",
     "de_plural": "die Blockaden",
-    "lv": "Blokada",
+    "lv": "Blokáda",
     "level": "B2"
   },
   {
     "de": "Blockhaus",
     "de_article": "das",
     "de_plural": "die Blockhäuser",
-    "lv": "Dom z bali",
+    "lv": "Srubový dům",
     "level": "B2"
   },
   {
     "de": "blödsinnig",
-    "lv": "Szalony • Głupi • Głupi • Głupi",
+    "lv": "Šílený • Hloupý • Hloupý • Hloupý",
     "level": "B2"
   },
   {
     "de": "Blumenkranz",
     "de_article": "der",
     "de_plural": "die Blumenkränze",
-    "lv": "Wieniec kwiatów",
+    "lv": "Věnec z květin",
     "level": "B2"
   },
   {
     "de": "Blumenzucht",
     "de_article": "die",
-    "lv": "Kwiaciarstwo",
+    "lv": "Pěstování květin",
     "level": "B2"
   },
   {
     "de": "Blutkonserve",
     "de_article": "die",
     "de_plural": "die Blutkonserven",
-    "lv": "Krew w puszkach",
+    "lv": "Konzervovaná krev",
     "level": "B2"
   },
   {
     "de": "Blutalkohol",
     "de_article": "der",
-    "lv": "Ilość alkoholu we krwi",
+    "lv": "Množství alkoholu v krvi",
     "level": "B2"
   },
   {
     "de": "blutarm",
-    "lv": "Anemiczny",
+    "lv": "Anemický",
     "level": "B2"
   },
   {
     "de": "Blutarmut",
     "de_article": "die",
-    "lv": "Niedokrwistość",
+    "lv": "Anémie",
     "level": "B2"
   },
   {
     "de": "Blutspender",
     "de_article": "der",
     "de_plural": "die Blutspender",
-    "lv": "Dawca",
+    "lv": "Dárce",
     "level": "B2"
   },
   {
     "de": "Blutsturz",
     "de_article": "der",
     "de_plural": "die Blutstürze",
-    "lv": "Nagłe krwawienie z ust lub nosa",
+    "lv": "Náhlé krvácení z úst nebo nosu",
     "level": "B2"
   },
   {
     "de": "Bodensatz",
     "de_article": "der",
     "de_plural": "die Bodensätze",
-    "lv": "Osad • Szumowina • Drożdże",
+    "lv": "Sediment • Spodina • Kvasnice",
     "level": "B2"
   },
   {
     "de": "Bodenschätze",
     "de_article": "die",
-    "lv": "Minerały",
+    "lv": "Minerály",
     "level": "B2"
   },
   {
     "de": "bohnern",
-    "lv": "Woskować podłogę",
+    "lv": "Voskovat podlahu",
     "level": "B2"
   },
   {
     "de": "Bootsmann",
     "de_article": "der",
     "de_plural": "die Bootsleute",
-    "lv": "Prepravca",
+    "lv": "Lodník",
     "level": "B2"
   },
   {
     "de": "Bootssteg",
     "de_article": "der",
     "de_plural": "die Bootsstege",
-    "lv": "Przystań dla łodzi",
+    "lv": "Přístaviště lodí",
     "level": "B2"
   },
   {
     "de": "Bord",
     "de_article": "das",
     "de_plural": "die Borde",
-    "lv": "Tablica",
+    "lv": "Rada",
     "level": "B2"
   },
   {
     "de": "Bordbuch",
     "de_article": "das",
     "de_plural": "die Bordbücher",
-    "lv": "Dziennik okrętowy",
+    "lv": "Lodní deník",
     "level": "B2"
   },
   {
     "de": "Börse",
     "de_article": "die",
     "de_plural": "die Börsen",
-    "lv": "Giełda",
+    "lv": "Burze cenných papírů",
     "level": "B2"
   },
   {
     "de": "Borte",
     "de_article": "die",
     "de_plural": "die Borten",
-    "lv": "Granica",
+    "lv": "Pohraniční",
     "level": "B2"
   },
   {
     "de": "Böschung",
     "de_article": "die",
     "de_plural": "die Böschungen",
-    "lv": "Zbocze • Zbocze • Nasyp",
+    "lv": "Svah • Svah • Násep",
     "level": "B2"
   },
   {
     "de": "Bote",
     "de_article": "der",
     "de_plural": "die Boten",
-    "lv": "Posłaniec • Posłaniec • Posłaniec",
+    "lv": "Posel • Posel • Posel",
     "level": "B2"
   },
   {
     "de": "brach",
-    "lv": "Surowe • Odłożyć na bok",
+    "lv": "Syrový • Odložit",
     "level": "B2"
   },
   {
     "de": "Brandschaden",
     "de_article": "der",
     "de_plural": "die Brandschäden",
-    "lv": "Strata spowodowana pożarem",
+    "lv": "Ztráta způsobená požárem",
     "level": "B2"
   },
   {
     "de": "Brandstätte",
     "de_article": "die",
     "de_plural": "die Brandstätten",
-    "lv": "Požiarny krúžok",
+    "lv": "Ohniště",
     "level": "B2"
   },
   {
     "de": "Brandanschlag",
     "de_article": "der",
     "de_plural": "die Brandanschläge",
-    "lv": "Podpalenie",
+    "lv": "Žhářství",
     "level": "B2"
   },
   {
     "de": "Brandmal",
     "de_article": "das",
     "de_plural": "die Brandmale",
-    "lv": "Spalić • Spalić bliznę",
+    "lv": "Spálit • Spálit jizvu",
     "level": "B2"
   },
   {
     "de": "Brandstifter",
     "de_article": "der",
     "de_plural": "die Brandstifter",
-    "lv": "Podpaľač",
+    "lv": "Žhář",
     "level": "B2"
   },
   {
     "de": "Brandwunde",
     "de_article": "die",
     "de_plural": "die Brandwunden",
-    "lv": "Oparzenie rany",
+    "lv": "Popálenina",
     "level": "B2"
   },
   {
     "de": "brauen",
-    "lv": "Zrobić piwo • Warzyć",
+    "lv": "Dělat pivo • Vařit",
     "level": "B2"
   },
   {
     "de": "Brauerei",
     "de_article": "die",
     "de_plural": "die Brauereien",
-    "lv": "Browar",
+    "lv": "Pivovar",
     "level": "B2"
   },
   {
     "de": "Braunkohle",
     "de_article": "die",
     "de_plural": "die Braunkohlen",
-    "lv": "Węgiel brunatny",
+    "lv": "Hnědé uhlí",
     "level": "B2"
   },
   {
     "de": "Brettsegeln",
     "de_article": "das",
-    "lv": "Windsurfing",
+    "lv": "Surfování",
     "level": "B2"
   },
   {
     "de": "Briefbombe",
     "de_article": "die",
     "de_plural": "die Briefbomben",
-    "lv": "Bomba listowa",
+    "lv": "Dopisní bomba",
     "level": "B2"
   },
   {
     "de": "brillant",
-    "lv": "Doskonałe • Doskonałe",
+    "lv": "Výborný • Výborný",
     "level": "B2"
   },
   {
     "de": "brüten",
-    "lv": "Rozpamiętywać • Ciągłe myślenie o czymś",
+    "lv": "Dumat • Neustále o něčem přemýšlet",
     "level": "B2"
   },
   {
     "de": "Buche",
     "de_article": "die",
     "de_plural": "die Buchen",
-    "lv": "Buk • Grab",
+    "lv": "Buk • Habr",
     "level": "B2"
   },
   {
     "de": "Buchführer",
     "de_article": "der",
     "de_plural": "die Buchführer",
-    "lv": "Księgowy",
+    "lv": "Účetní",
     "level": "B2"
   },
   {
     "de": "Buchführung",
     "de_article": "die",
     "de_plural": "die Buchführungen",
-    "lv": "Księgowość",
+    "lv": "Účetnictví",
     "level": "B2"
   },
   {
     "de": "Buchhaltung",
     "de_article": "die",
     "de_plural": "die Buchhaltungen",
-    "lv": "Księgowość",
+    "lv": "Účetnictví",
     "level": "B2"
   },
   {
     "de": "buchstäblich",
-    "lv": "Dosłowny",
+    "lv": "Doslovný",
     "level": "B2"
   },
   {
     "de": "Buckel",
     "de_article": "der",
     "de_plural": "die Buckel",
-    "lv": "Garb • Ciasto • Plecy",
+    "lv": "Hrb • Dort • Hřbet",
     "level": "B2"
   },
   {
     "de": "Bügel",
     "de_article": "der",
     "de_plural": "die Bügel",
-    "lv": "Uchwyt • Obręcz • Wieszak na ubrania • Stopień",
+    "lv": "Rukojeť • Obruč • Ramínko na šaty • Stupínek",
     "level": "B2"
   },
   {
     "de": "Bühnenbild",
     "de_article": "das",
     "de_plural": "die Bühnenbilder",
-    "lv": "Dekoracja",
+    "lv": "Dekorace",
     "level": "B2"
   },
   {
     "de": "Bühnenbildner",
     "de_article": "der",
     "de_plural": "die Bühnenbildner",
-    "lv": "Dekorator",
+    "lv": "Dekoratér",
     "level": "B2"
   },
   {
     "de": "Bundesland",
     "de_article": "das",
     "de_plural": "die Bundesländer",
-    "lv": "Ziemia federalna",
+    "lv": "Federální země",
     "level": "B2"
   },
   {
     "de": "Bundesstaat",
     "de_article": "der",
     "de_plural": "die Bundesstaaten",
-    "lv": "Federacja • Stan federalny",
+    "lv": "Federace • Spolkový stát",
     "level": "B2"
   },
   {
     "de": "Bundeswehr",
     "de_article": "die",
-    "lv": "Niemieckie Siły Zbrojne",
+    "lv": "Německé ozbrojené síly",
     "level": "B2"
   },
   {
     "de": "Bündnis",
     "de_article": "das",
     "de_plural": "die Bündnisse",
-    "lv": "Unia",
+    "lv": "Unie",
     "level": "B2"
   },
   {
     "de": "Bürde",
     "de_article": "die",
     "de_plural": "die Bürden",
-    "lv": "Load • Load",
+    "lv": "Zátěž • Zátěž",
     "level": "B2"
   },
   {
     "de": "Bürge",
     "de_article": "der",
     "de_plural": "die Bürgen",
-    "lv": "Gwarant • Przywódca",
+    "lv": "Ručitel • Vůdce",
     "level": "B2"
   },
   {
     "de": "bürgen",
-    "lv": "Zagwarantować",
+    "lv": "Zaručit",
     "level": "B2"
   },
   {
     "de": "bürgerlich",
-    "lv": "Obywatelski • Obywatelski • Burżuazyjny • Burżuazyjny",
+    "lv": "Občanský • Občané • Buržoazní • Buržoazní",
     "level": "B2"
   },
   {
     "de": "Chaot",
     "de_article": "der",
     "de_plural": "die Chaoten",
-    "lv": "Niechlujna osoba",
+    "lv": "Nepořádný člověk",
     "level": "B2"
   },
   {
     "de": "chartern",
-    "lv": "Wyczarterować samolot lub statek na konkretną podróż",
+    "lv": "Pronajmout si letadlo nebo loď na konkrétní cestu",
     "level": "B2"
   },
   {
     "de": "Chefarzt",
     "de_article": "der",
     "de_plural": "die Chefärzte",
-    "lv": "Główny lekarz",
+    "lv": "Vedoucí lékař",
     "level": "B2"
   },
   {
     "de": "Chefingenieur",
     "de_article": "der",
     "de_plural": "die Chefingenieure",
-    "lv": "Główny inżynier",
+    "lv": "Hlavní inženýr",
     "level": "B2"
   },
   {
     "de": "Chefredakteur",
     "de_article": "der",
     "de_plural": "die Chefredakteure",
-    "lv": "Redaktor naczelny",
+    "lv": "Řídící redaktor",
     "level": "B2"
   },
   {
     "de": "Chemotherapie",
     "de_article": "die",
     "de_plural": "die Chemotherapien",
-    "lv": "Chemoterapia",
+    "lv": "Chemoterapie",
     "level": "B2"
   },
   {
     "de": "Chirurgie",
     "de_article": "die",
     "de_plural": "die Chirurgien",
-    "lv": "Chirurgia",
+    "lv": "Chirurgie",
     "level": "B2"
   },
   {
@@ -2096,21 +2099,21 @@ const B2_WORDS = [
   {
     "de": "Cholesterin",
     "de_article": "das",
-    "lv": "Cholesterol",
+    "lv": "Cholesterolu",
     "level": "B2"
   },
   {
     "de": "Chorleiter",
     "de_article": "der",
     "de_plural": "die Chorleiter",
-    "lv": "Mistrz chóru",
+    "lv": "Sbormistr",
     "level": "B2"
   },
   {
     "de": "Chromosom",
     "de_article": "das",
     "de_plural": "die Chromosomen",
-    "lv": "Chromosom",
+    "lv": "Chromozóm",
     "level": "B2"
   },
   {
@@ -2122,153 +2125,153 @@ const B2_WORDS = [
   },
   {
     "de": "chronisch",
-    "lv": "Chroniczny",
+    "lv": "Chronický",
     "level": "B2"
   },
   {
     "de": "Computervirus",
     "de_article": "der",
     "de_plural": "die Computerviren",
-    "lv": "Wirus komputerowy",
+    "lv": "Počítačový virus",
     "level": "B2"
   },
   {
     "de": "Dachs",
     "de_article": "der",
     "de_plural": "die Dachse",
-    "lv": "Borsuk",
+    "lv": "Jezevec",
     "level": "B2"
   },
   {
     "de": "Dachziegel",
     "de_article": "der",
     "de_plural": "die Dachziegel",
-    "lv": "Płytka",
+    "lv": "Dlaždice",
     "level": "B2"
   },
   {
     "de": "Dahlie",
     "de_article": "die",
     "de_plural": "die Dahlien",
-    "lv": "Dalia",
+    "lv": "Jiřina",
     "level": "B2"
   },
   {
     "de": "damalig",
-    "lv": "Następnie • Tamtego czasu",
+    "lv": "Tehdy • Té doby",
     "level": "B2"
   },
   {
     "de": "Damm",
     "de_article": "der",
     "de_plural": "die Dämme",
-    "lv": "Tama • Tama • Nasyp kolejowy",
+    "lv": "Hráz • Hráz • Železniční násep",
     "level": "B2"
   },
   {
     "de": "dämmern",
-    "lv": "O zmroku • Robi się ciemno • Świta • Światło się poci",
+    "lv": "Za soumraku • Stmívá se • Svítá • Světlo se potí",
     "level": "B2"
   },
   {
     "de": "Dämmerung",
     "de_article": "die",
     "de_plural": "die Dämmerungen",
-    "lv": "Zmierzch • Zmierzch • Świt • Świt",
+    "lv": "Soumrak • Soumrak • Svítání • Svítání",
     "level": "B2"
   },
   {
     "de": "dampfen",
-    "lv": "Dym • Wyparowuje",
+    "lv": "Kouř • Vypařovat se",
     "level": "B2"
   },
   {
     "de": "dämpfen",
-    "lv": "Wyciszyć • Udusić • Wytwarzać parę • Dusić • Wymieszać",
+    "lv": "Umlčet • Dusit • Dusit • Dusit • Míchat",
     "level": "B2"
   },
   {
     "de": "Dämpfer",
     "de_article": "der",
     "de_plural": "die Dämpfer",
-    "lv": "Tłumik",
+    "lv": "Atenuátor",
     "level": "B2"
   },
   {
     "de": "Dampfheizung",
     "de_article": "die",
     "de_plural": "die Dampfheizungen",
-    "lv": "Ogrzewanie parowe",
+    "lv": "Parní ohřev",
     "level": "B2"
   },
   {
     "de": "darbieten",
-    "lv": "Zapewnić • Obecny",
+    "lv": "Poskytnout • Dar",
     "level": "B2"
   },
   {
     "de": "Darbietung",
     "de_article": "die",
     "de_plural": "die Darbietungen",
-    "lv": "Wydajność • Wydajność",
+    "lv": "Výkon • Výkon",
     "level": "B2"
   },
   {
     "de": "darlegen",
-    "lv": "Zarys • Wyjaśnić",
+    "lv": "Nastínit • Vysvětlit",
     "level": "B2"
   },
   {
     "de": "Darlehen",
     "de_article": "das",
     "de_plural": "die Darlehen",
-    "lv": "Pożyczka • Pożyczka",
+    "lv": "Půjčka • Půjčka",
     "level": "B2"
   },
   {
     "de": "Darm",
     "de_article": "der",
     "de_plural": "die Därme",
-    "lv": "Črevo",
+    "lv": "Střevo",
     "level": "B2"
   },
   {
     "de": "Darminfektion",
     "de_article": "die",
     "de_plural": "die Darminfektionen",
-    "lv": "Infekcja jelitowa",
+    "lv": "Střevní infekce",
     "level": "B2"
   },
   {
     "de": "Darstellung",
     "de_article": "die",
     "de_plural": "die Darstellungen",
-    "lv": "Przedstawienie • Przedstawienie • Zarys",
+    "lv": "Zobrazení • Zobrazení • Obrys",
     "level": "B2"
   },
   {
     "de": "Dasein",
     "de_article": "das",
-    "lv": "Istnienie • Istnienie",
+    "lv": "Existence • Existence",
     "level": "B2"
   },
   {
     "de": "dasjenige",
-    "lv": "Toto",
+    "lv": "Že",
     "level": "B2"
   },
   {
     "de": "Datei",
     "de_article": "die",
     "de_plural": "die Dateien",
-    "lv": "Szafka na dokumenty",
+    "lv": "Kartotéka",
     "level": "B2"
   },
   {
     "de": "Datenspeicher",
     "de_article": "der",
     "de_plural": "die Datenspeicher",
-    "lv": "Pamięć komputera",
+    "lv": "Paměti počítače",
     "level": "B2"
   },
   {
@@ -2282,197 +2285,197 @@ const B2_WORDS = [
     "de": "Dattel",
     "de_article": "die",
     "de_plural": "die Datteln",
-    "lv": "Dátum",
+    "lv": "Datum",
     "level": "B2"
   },
   {
     "de": "Daune",
     "de_article": "die",
     "de_plural": "die Daunen",
-    "lv": "W dół",
+    "lv": "Dolů",
     "level": "B2"
   },
   {
     "de": "Dealer",
     "de_article": "der",
     "de_plural": "die Dealer",
-    "lv": "Nielegalny handlarz narkotyków",
+    "lv": "Nelegální drogový dealer",
     "level": "B2"
   },
   {
     "de": "Debatte",
     "de_article": "die",
     "de_plural": "die Debatten",
-    "lv": "Debata",
+    "lv": "Rozprava",
     "level": "B2"
   },
   {
     "de": "Deck",
     "de_article": "das",
     "de_plural": "die Decks",
-    "lv": "Pokład statku",
+    "lv": "Paluba lodi",
     "level": "B2"
   },
   {
     "de": "Defekt",
     "de_article": "der",
     "de_plural": "die Defekte",
-    "lv": "Brak techniczny • Awaria",
+    "lv": "Technický nedostatek • Porucha",
     "level": "B2"
   },
   {
     "de": "Defizit",
     "de_article": "das",
     "de_plural": "die Defizite",
-    "lv": "Niedobór • Niedobór • Deficyt",
+    "lv": "Nedostatek • Nedostatek • Deficit",
     "level": "B2"
   },
   {
     "de": "dehnbar",
-    "lv": "Rozciągliwy • Rozciągliwy • Rozciągliwy",
+    "lv": "Roztažitelný • Roztažitelný • Roztahovací",
     "level": "B2"
   },
   {
     "de": "dehnen",
-    "lv": "Rozciągać • Rozciągać • Rozciągać • Rozciągać • Przeciągać",
+    "lv": "Natahovat • Natahovat • Natahovat • Natahovat • Táhnout",
     "level": "B2"
   },
   {
     "de": "deinerseits",
-    "lv": "Z twojej strony",
+    "lv": "Z vaší strany",
     "level": "B2"
   },
   {
     "de": "deinetwegen",
-    "lv": "Kvôli tebe",
+    "lv": "Kvůli tobě",
     "level": "B2"
   },
   {
     "de": "Deklaration",
     "de_article": "die",
     "de_plural": "die Deklarationen",
-    "lv": "Deklaracja",
+    "lv": "Prohlášení",
     "level": "B2"
   },
   {
     "de": "Delegierte",
     "de_article": "der",
     "de_plural": "die Delegierten",
-    "lv": "Delegat",
+    "lv": "Delegát",
     "level": "B2"
   },
   {
     "de": "delikat",
-    "lv": "Delikatny • Pyszny",
+    "lv": "Jemný • Lahodný",
     "level": "B2"
   },
   {
     "de": "Delikt",
     "de_article": "das",
     "de_plural": "die Delikte",
-    "lv": "Przestępstwo • Łamanie prawa",
+    "lv": "Zločin • Porušování zákona",
     "level": "B2"
   },
   {
     "de": "dementieren",
-    "lv": "Wycofać informację",
+    "lv": "Stáhnout informace",
     "level": "B2"
   },
   {
     "de": "Demission",
     "de_article": "die",
     "de_plural": "die Demissionen",
-    "lv": "Rezygnacja • Rezygnacja",
+    "lv": "Rezignace • Rezignace",
     "level": "B2"
   },
   {
     "de": "demütigen",
-    "lv": "Poniżyć",
+    "lv": "Ponížit",
     "level": "B2"
   },
   {
     "de": "denkbar",
-    "lv": "Przypuszczalne • Wyobrażalne • Możliwe",
+    "lv": "Domnělý • Představitelný • Možný",
     "level": "B2"
   },
   {
     "de": "deplaziert",
-    "lv": "Nieodpowiednie • Nie na miejscu • Nie na czasie",
+    "lv": "Nevhodný • Nemístný • Nečasový",
     "level": "B2"
   },
   {
     "de": "deponieren",
-    "lv": "Depozyt • Depozyt",
+    "lv": "Záloha • Záloha",
     "level": "B2"
   },
   {
     "de": "derartig",
-    "lv": "Takie • Takie • Podobne",
+    "lv": "Takový • Takový • Podobný",
     "level": "B2"
   },
   {
     "de": "derjenige",
-    "lv": "Toto",
+    "lv": "Že",
     "level": "B2"
   },
   {
     "de": "deuten",
-    "lv": "Wyjaśnić • Przetłumaczyć • Wskazać",
+    "lv": "Vysvětlit • Přeložit • Naznačit",
     "level": "B2"
   },
   {
     "de": "Deutung",
     "de_article": "die",
     "de_plural": "die Deutungen",
-    "lv": "Wyjaśnienie • Tłumaczenie • Wyjaśnienie • Tłumaczenie",
+    "lv": "Vysvětlení • Překlad • Vysvětlení • Překlad",
     "level": "B2"
   },
   {
     "de": "Devisen",
     "de_article": "die",
-    "lv": "Środek płatniczy w walucie obcej",
+    "lv": "Platební prostředky v cizí měně",
     "level": "B2"
   },
   {
     "de": "Devisenbörse",
     "de_article": "die",
     "de_plural": "die Devisenbörsen",
-    "lv": "Wymiana walut",
+    "lv": "Směnárna",
     "level": "B2"
   },
   {
     "de": "Devisenkurs",
     "de_article": "der",
     "de_plural": "die Devisenkurse",
-    "lv": "Kurs wymiany",
+    "lv": "Kurz",
     "level": "B2"
   },
   {
     "de": "Dezernat",
     "de_article": "das",
     "de_plural": "die Dezernate",
-    "lv": "Wydział w policji",
+    "lv": "Oddělení v policii",
     "level": "B2"
   },
   {
     "de": "Morddezernat",
     "de_article": "das",
     "de_plural": "die Morddezernate",
-    "lv": "Wydział kryminalny",
+    "lv": "Kriminální oddělení",
     "level": "B2"
   },
   {
     "de": "Dia",
     "de_article": "das",
     "de_plural": "die Dias",
-    "lv": "Slajd",
+    "lv": "Skluzavka",
     "level": "B2"
   },
   {
     "de": "Diagnose",
     "de_article": "die",
     "de_plural": "die Diagnosen",
-    "lv": "Diagnoza",
+    "lv": "Diagnóza",
     "level": "B2"
   },
   {
@@ -2485,77 +2488,77 @@ const B2_WORDS = [
   {
     "de": "Diätkost",
     "de_article": "die",
-    "lv": "Żywienie dietetyczne",
+    "lv": "Dietní výživa",
     "level": "B2"
   },
   {
     "de": "dichten",
-    "lv": "Śpiewać • Śpiewać",
+    "lv": "Zpívat • Zpívat",
     "level": "B2"
   },
   {
     "de": "Dichtung",
     "de_article": "die",
     "de_plural": "die Dichtungen",
-    "lv": "Poézia",
+    "lv": "Poezie",
     "level": "B2"
   },
   {
     "de": "Dickicht",
     "de_article": "das",
     "de_plural": "die Dickichte",
-    "lv": "Les",
+    "lv": "Houští",
     "level": "B2"
   },
   {
     "de": "dickköpfig",
-    "lv": "Uparty",
+    "lv": "Tvrdohlavý",
     "level": "B2"
   },
   {
     "de": "diejenige",
-    "lv": "Takže",
+    "lv": "Tak",
     "level": "B2"
   },
   {
     "de": "Diele",
     "de_article": "die",
     "de_plural": "die Dielen",
-    "lv": "Podłoga • Deska • Przedsionek",
+    "lv": "Podlaha • Deska • Zádveří",
     "level": "B2"
   },
   {
     "de": "diensthabend",
-    "lv": "Na służbie",
+    "lv": "Ve službě",
     "level": "B2"
   },
   {
     "de": "dienstlich",
-    "lv": "Stanowisko serwisowe",
+    "lv": "Servisní pozice",
     "level": "B2"
   },
   {
     "de": "diesseits",
-    "lv": "Po tej stronie",
+    "lv": "Na této straně",
     "level": "B2"
   },
   {
     "de": "dingen",
-    "lv": "Zgodzić się • Zgodzić się",
+    "lv": "Souhlasit • Souhlasit",
     "level": "B2"
   },
   {
     "de": "Direktion",
     "de_article": "die",
     "de_plural": "die Direktionen",
-    "lv": "Kontrola przyimków",
+    "lv": "Ovládání předložek",
     "level": "B2"
   },
   {
     "de": "Dirigent",
     "de_article": "der",
     "de_plural": "die Dirigenten",
-    "lv": "Dyrygent",
+    "lv": "Dirigent",
     "level": "B2"
   },
   {
@@ -2567,27 +2570,27 @@ const B2_WORDS = [
   },
   {
     "de": "diskret",
-    "lv": "Dyskretny",
+    "lv": "Diskrétní",
     "level": "B2"
   },
   {
     "de": "Diskuswerfen",
     "de_article": "das",
-    "lv": "Rzut dyskiem",
+    "lv": "Hod diskem",
     "level": "B2"
   },
   {
     "de": "Distel",
     "de_article": "die",
     "de_plural": "die Disteln",
-    "lv": "Oset",
+    "lv": "Bodlák",
     "level": "B2"
   },
   {
     "de": "Dividende",
     "de_article": "die",
     "de_plural": "die Dividenden",
-    "lv": "Dywidenda",
+    "lv": "Dividenda",
     "level": "B2"
   },
   {
@@ -2601,303 +2604,303 @@ const B2_WORDS = [
     "de": "Dohle",
     "de_article": "die",
     "de_plural": "die Dohlen",
-    "lv": "Współwłaściciel",
+    "lv": "Covarner",
     "level": "B2"
   },
   {
     "de": "Dom",
     "de_article": "der",
     "de_plural": "die Dome",
-    "lv": "Katedra • Rada",
+    "lv": "Katedrála • Rada",
     "level": "B2"
   },
   {
     "de": "donnern",
-    "lv": "Ryk grzmotu • Dudnienie • Dudnienie",
+    "lv": "Hrom řvát • Rachot • Rachot",
     "level": "B2"
   },
   {
     "de": "dopen",
-    "lv": "Używać środków dopingujących",
+    "lv": "Používat dopingové prostředky",
     "level": "B2"
   },
   {
     "de": "Doping",
     "de_article": "das",
     "de_plural": "die Dopinge",
-    "lv": "Środek dopingujący",
+    "lv": "Dopingový prostředek",
     "level": "B2"
   },
   {
     "de": "doppelsinnig",
-    "lv": "Dwuznaczny",
+    "lv": "Dvojznačný",
     "level": "B2"
   },
   {
     "de": "Doppelzentner",
     "de_article": "der",
     "de_plural": "die Doppelzentner",
-    "lv": "Centnar",
+    "lv": "Centrum",
     "level": "B2"
   },
   {
     "de": "Dorn",
     "de_article": "der",
     "de_plural": "die Dornen",
-    "lv": "Cierń • Żądło",
+    "lv": "Trn • Bodnout",
     "level": "B2"
   },
   {
     "de": "dornig",
-    "lv": "Kłujący • Kłujący",
+    "lv": "Pichlavý • Pichlavý",
     "level": "B2"
   },
   {
     "de": "dörren",
-    "lv": "Wysuszyć • Wysuszyć",
+    "lv": "Sušit • Sušit",
     "level": "B2"
   },
   {
     "de": "Dörrgemüse",
     "de_article": "das",
     "de_plural": "die Dörrgemüse",
-    "lv": "Suszone warzywa",
+    "lv": "Sušená zelenina",
     "level": "B2"
   },
   {
     "de": "Dörrobst",
     "de_article": "das",
-    "lv": "Suszone owoce",
+    "lv": "Sušené ovoce",
     "level": "B2"
   },
   {
     "de": "Dorsch",
     "de_article": "der",
     "de_plural": "die Dorsche",
-    "lv": "Dorsz",
+    "lv": "Treska",
     "level": "B2"
   },
   {
     "de": "Dosenfleisch",
     "de_article": "das",
     "de_plural": "die Dosenfleische",
-    "lv": "Konzervované mäso",
+    "lv": "Masové konzervy",
     "level": "B2"
   },
   {
     "de": "Dosenmilch",
     "de_article": "die",
     "de_plural": "die Dosenmilche",
-    "lv": "Mleko skondensowane w puszkach",
+    "lv": "Kondenzované mléko v plechovkách",
     "level": "B2"
   },
   {
     "de": "Dosenöffner",
     "de_article": "der",
     "de_plural": "die Dosenöffner",
-    "lv": "Otwieracz do puszek",
+    "lv": "Otvírák na konzervy",
     "level": "B2"
   },
   {
     "de": "Dosis",
     "de_article": "die",
     "de_plural": "die Dosen",
-    "lv": "Dawka • Dawka",
+    "lv": "Dávka • Dávka",
     "level": "B2"
   },
   {
     "de": "Dotterblume",
     "de_article": "die",
     "de_plural": "die Dotterblumen",
-    "lv": "Kijanka",
+    "lv": "Pulec",
     "level": "B2"
   },
   {
     "de": "Dragee",
     "de_article": "das",
     "de_plural": "die Dragees",
-    "lv": "Drażetka",
+    "lv": "Dražé",
     "level": "B2"
   },
   {
     "de": "drahtlos",
-    "lv": "Bezprzewodowy",
+    "lv": "Bezdrátový",
     "level": "B2"
   },
   {
     "de": "Drahtseilbahn",
     "de_article": "die",
     "de_plural": "die Drahtseilbahnen",
-    "lv": "Kolejka linowa",
+    "lv": "Lanová dráha",
     "level": "B2"
   },
   {
     "de": "Dramatiker",
     "de_article": "der",
     "de_plural": "die Dramatiker",
-    "lv": "Dramaturg • Pisarz sztuk teatralnych",
+    "lv": "Dramatik • Hrát spisovatel",
     "level": "B2"
   },
   {
     "de": "Drang",
     "de_article": "der",
     "de_plural": "die Dränge",
-    "lv": "Napęd • Nachylenie",
+    "lv": "Pohon • Sklon",
     "level": "B2"
   },
   {
     "de": "drängen",
-    "lv": "Pchnij • Pchnij • Pospiesz się • Pospiesz się • Zachęcaj",
+    "lv": "Tlačit • Tlačit • Spěchat • Spěchat • Povzbuzovat",
     "level": "B2"
   },
   {
     "de": "Dreck",
     "de_article": "der",
     "de_plural": "die Drecke",
-    "lv": "Łajno • Brud • Błoto • Brud",
+    "lv": "Hnůj • Špína • Bláto • Špína",
     "level": "B2"
   },
   {
     "de": "Dreharbeiten",
     "de_article": "die",
-    "lv": "Filmowanie",
+    "lv": "Natáčení",
     "level": "B2"
   },
   {
     "de": "Drehbank",
     "de_article": "die",
     "de_plural": "die Drehbänke",
-    "lv": "Tokarka",
+    "lv": "Soustruh",
     "level": "B2"
   },
   {
     "de": "Drehbleistift",
     "de_article": "der",
     "de_plural": "die Drehbleistifte",
-    "lv": "Automatyczny ołówek",
+    "lv": "Automatická tužka",
     "level": "B2"
   },
   {
     "de": "Drehung",
     "de_article": "die",
     "de_plural": "die Drehungen",
-    "lv": "Wirowanie • Rewolucja",
+    "lv": "Točit • Revoluce",
     "level": "B2"
   },
   {
     "de": "Dreisprung",
     "de_article": "der",
     "de_plural": "die Dreisprünge",
-    "lv": "Trojitý zdvih",
+    "lv": "Trojitý skok",
     "level": "B2"
   },
   {
     "de": "dreschen",
-    "lv": "Ubić ziarno • Ubić białko jaja",
+    "lv": "Vyšlehat obilí • Vyšlehat bílek",
     "level": "B2"
   },
   {
     "de": "Dressman",
     "de_article": "der",
     "de_plural": "die Dressmen",
-    "lv": "Demonstratorka modelek na pokazach mody",
+    "lv": "Model předvádějící na módních přehlídkách",
     "level": "B2"
   },
   {
     "de": "dringen",
-    "lv": "Naciskać • Włamać się • Wcisnąć • Włamać się • Wymagać • Żądać",
+    "lv": "Přitlačit • Rozbít • Zatlačit • Vloupat • Vyžadovat • Vyžadovat",
     "level": "B2"
   },
   {
     "de": "Drogensucht",
     "de_article": "die",
     "de_plural": "die Drogensüchte",
-    "lv": "Uzależnienie od narkotyków",
+    "lv": "Drogová závislost",
     "level": "B2"
   },
   {
     "de": "Drohung",
     "de_article": "die",
     "de_plural": "die Drohungen",
-    "lv": "Zagrożenia",
+    "lv": "Hrozby",
     "level": "B2"
   },
   {
     "de": "Drops",
     "de_article": "der",
     "de_plural": "die Drops",
-    "lv": "Karmelki z kwaśnych owoców • Lizaki",
+    "lv": "Kyselé ovocné karamely • Lízátka",
     "level": "B2"
   },
   {
     "de": "Drossel",
     "de_article": "die",
     "de_plural": "die Drosseln",
-    "lv": "Škorec (obyčajný) lesklý",
+    "lv": "Špaček",
     "level": "B2"
   },
   {
     "de": "drosseln",
-    "lv": "Udusić • Zdusić",
+    "lv": "Škrtit • Dusit",
     "level": "B2"
   },
   {
     "de": "Nadeldrucker",
     "de_article": "der",
     "de_plural": "die Nadeldrucker",
-    "lv": "Drukarka cyfrowa",
+    "lv": "Digitální tiskárna",
     "level": "B2"
   },
   {
     "de": "Druckerei",
     "de_article": "die",
     "de_plural": "die Druckereien",
-    "lv": "Typografia",
+    "lv": "Typografie",
     "level": "B2"
   },
   {
     "de": "Druckfehler",
     "de_article": "der",
     "de_plural": "die Druckfehler",
-    "lv": "Błąd drukarski",
+    "lv": "Tisková chyba",
     "level": "B2"
   },
   {
     "de": "Druckmaschine",
     "de_article": "die",
     "de_plural": "die Druckmaschinen",
-    "lv": "Prasa drukarska",
+    "lv": "Tiskařský lis",
     "level": "B2"
   },
   {
     "de": "Druckpapier",
     "de_article": "das",
     "de_plural": "die Druckpapiere",
-    "lv": "Papier do drukowania",
+    "lv": "Tiskový papír",
     "level": "B2"
   },
   {
     "de": "Drucksache",
     "de_article": "die",
     "de_plural": "die Drucksachen",
-    "lv": "Bandrola • Druk na przesyłkach pocztowych",
+    "lv": "Bandrole • Tisk v poštovních zásilkách",
     "level": "B2"
   },
   {
     "de": "Drüse",
     "de_article": "die",
     "de_plural": "die Drüsen",
-    "lv": "Gruczoł",
+    "lv": "Žláza",
     "level": "B2"
   },
   {
     "de": "dulden",
-    "lv": "Cierpieć • Znosić",
+    "lv": "Trpět • Vydržet",
     "level": "B2"
   },
   {
     "de": "dumpf",
-    "lv": "Pusty • Stłumiony • Duszny • Duszący • Ciężki • Uciskany • Uciążliwy",
+    "lv": "Dutý • Tlumený • Dusný • Dusivý • Těžký • Utlačovaný • Tísnivý",
     "level": "B2"
   },
   {
@@ -2918,632 +2921,632 @@ const B2_WORDS = [
     "de": "Düne",
     "de_article": "die",
     "de_plural": "die Dünen",
-    "lv": "Wydma",
+    "lv": "Duna",
     "level": "B2"
   },
   {
     "de": "Düngemittel",
     "de_article": "das",
     "de_plural": "die Düngemittel",
-    "lv": "Nawóz • Nawóz mineralny",
+    "lv": "Hnojivo • Minerální hnojivo",
     "level": "B2"
   },
   {
     "de": "düngen",
-    "lv": "Nawozić",
+    "lv": "Oplodnit",
     "level": "B2"
   },
   {
     "de": "Dünkel",
     "de_article": "der",
-    "lv": "Próżność • Zarozumiałość • Arogancja",
+    "lv": "Ješitnost • Namyšlenost • Arogance",
     "level": "B2"
   },
   {
     "de": "dunkeln",
-    "lv": "Robi się ciemno • Robi się ciemno",
+    "lv": "Stmívá se • Stmívá se",
     "level": "B2"
   },
   {
     "de": "dünken",
-    "lv": "Wydawać się • Wydawać się",
+    "lv": "Zdát se • Zdát se",
     "level": "B2"
   },
   {
     "de": "Dunst",
     "de_article": "der",
     "de_plural": "die Dünste",
-    "lv": "Para • Opary • Opary • Para • Mgła • Mgła",
+    "lv": "Pára • Výpary • Výpary • Pára • Mlha • Opar",
     "level": "B2"
   },
   {
     "de": "durcharbeiten",
-    "lv": "Rozwiń • Przeczytaj uważnie • Dokładnie ugniataj",
+    "lv": "Rozvíjet • Pozorně číst • Pečlivě hníst",
     "level": "B2"
   },
   {
     "de": "durchaus",
-    "lv": "Całkiem • Całkowicie • Całkowicie",
+    "lv": "Docela • Úplně • Úplně",
     "level": "B2"
   },
   {
     "de": "durchbrechen",
-    "lv": "Preraziť • Preraziť • Objaviť sa • Preraziť",
+    "lv": "Prorazit • Prorazit • Objevit se • Prorazit",
     "level": "B2"
   },
   {
     "de": "durchbrennen",
-    "lv": "Przepalić • Przepalić • Wypalić się • Przepalić",
+    "lv": "Propálit • Propálit • Propálit • Vyhořet",
     "level": "B2"
   },
   {
     "de": "durchbringen",
-    "lv": "Przedostać się • Doprowadzić • Osiągnąć • Wyleczyć • Zmarnować",
+    "lv": "Projít • Pronést • Dosáhnout • Vyléčit • Plýtvat",
     "level": "B2"
   },
   {
     "de": "Durchbruch",
     "de_article": "der",
     "de_plural": "die Durchbrüche",
-    "lv": "Naruszenie • Naruszenie tamy",
+    "lv": "Protržení • Protržení přehrady",
     "level": "B2"
   },
   {
     "de": "durchdringen",
-    "lv": "Przebić się • Przebić się • Zostać przytłoczonym",
+    "lv": "Prosadit se • Prorazit • Být zavalen",
     "level": "B2"
   },
   {
     "de": "Durchfahrt",
     "de_article": "die",
     "de_plural": "die Durchfahrten",
-    "lv": "Przejście • Arteria komunikacyjna",
+    "lv": "Průchod • Průchod",
     "level": "B2"
   },
   {
     "de": "Durchfuhr",
     "de_article": "die",
-    "lv": "Przejazd • Tranzyt",
+    "lv": "Procházející • Tranzit",
     "level": "B2"
   },
   {
     "de": "Durchführung",
     "de_article": "die",
     "de_plural": "die Durchführungen",
-    "lv": "Przeprowadzanie czegoś • Robienie • Robienie • Przeprowadzanie • Realizowanie",
+    "lv": "Prosadit něco • Dělat • Dělat • Provádět • Realizovat",
     "level": "B2"
   },
   {
     "de": "durchgreifend",
-    "lv": "Rodnik",
+    "lv": "Radikál",
     "level": "B2"
   },
   {
     "de": "durchlaufen",
-    "lv": "Przepłynąć • Przepłynąć",
+    "lv": "Proběhnout • Protéct",
     "level": "B2"
   },
   {
     "de": "durchmachen",
-    "lv": "Przetrwać • Usunąć • Zakończyć",
+    "lv": "Přežít • Odstranit • Dokončit",
     "level": "B2"
   },
   {
     "de": "Durchmesser",
     "de_article": "der",
     "de_plural": "die Durchmesser",
-    "lv": "Średnica • Średnica",
+    "lv": "Průměr • Průměr",
     "level": "B2"
   },
   {
     "de": "durchqueren",
-    "lv": "Przekroczyć",
+    "lv": "Přejít",
     "level": "B2"
   },
   {
     "de": "Durchreise",
     "de_article": "die",
     "de_plural": "die Durchreisen",
-    "lv": "Przejazd",
+    "lv": "Procházející skrz",
     "level": "B2"
   },
   {
     "de": "durchschauen",
-    "lv": "Przejrzeć • Odkryć",
+    "lv": "Prozřít • Odhalit",
     "level": "B2"
   },
   {
     "de": "durchschlagen",
-    "lv": "Odcedzić • Przetrzeć przez sito • Przebić • Zrobić dziurę",
+    "lv": "Přecedit • Prolít sítem • Prorazit • Prorazit díru",
     "level": "B2"
   },
   {
     "de": "durchsehen",
-    "lv": "Zbadać • Zbadać • Przejrzeć",
+    "lv": "Zkoumat • Zkoumat • Prohlížet",
     "level": "B2"
   },
   {
     "de": "durchsetzen",
-    "lv": "Przedostać się • Osiągnąć",
+    "lv": "Projít • Dosáhnout",
     "level": "B2"
   },
   {
     "de": "durchstellen",
-    "lv": "Połączyć rozmowę telefoniczną",
+    "lv": "Připojit telefonní rozhovor",
     "level": "B2"
   },
   {
     "de": "dürr",
-    "lv": "Suchy • Wysuszony • Zwiędły • Chudy",
+    "lv": "Suchý • Vyschlý • Seschlý • Chudý",
     "level": "B2"
   },
   {
     "de": "Dürre",
     "de_article": "die",
     "de_plural": "die Dürren",
-    "lv": "Suchość",
+    "lv": "Suchost",
     "level": "B2"
   },
   {
     "de": "dürsten",
-    "lv": "Pragnąć • Być spragnionym • Być spragnionym",
+    "lv": "Žíznit • Mít žízeň • Mít žízeň",
     "level": "B2"
   },
   {
     "de": "Düsenantrieb",
     "de_article": "der",
     "de_plural": "die Düsenantriebe",
-    "lv": "Silnik odrzutowy",
+    "lv": "Tryskový motor",
     "level": "B2"
   },
   {
     "de": "Ebbe",
     "de_article": "die",
     "de_plural": "die Ebben",
-    "lv": "Odtok",
+    "lv": "Odliv",
     "level": "B2"
   },
   {
     "de": "ebenbürtig",
-    "lv": "Równowartość",
+    "lv": "Ekvivalent",
     "level": "B2"
   },
   {
     "de": "Eberesche",
     "de_article": "die",
     "de_plural": "die Ebereschen",
-    "lv": "Mech siarkowy • Jarzębina",
+    "lv": "Sirný mech • Jeřáb",
     "level": "B2"
   },
   {
     "de": "ebnen",
-    "lv": "Poziom • Gładki",
+    "lv": "Úroveň • Hladká",
     "level": "B2"
   },
   {
     "de": "Echse",
     "de_article": "die",
     "de_plural": "die Echsen",
-    "lv": "Jaszczurka",
+    "lv": "Ještěrka",
     "level": "B2"
   },
   {
     "de": "edel",
-    "lv": "Noble • Noble • Noble",
+    "lv": "Vznešený • Vznešený • Vznešený",
     "level": "B2"
   },
   {
     "de": "Edelstein",
     "de_article": "der",
     "de_plural": "die Edelsteine",
-    "lv": "Cenny kamień",
+    "lv": "Drahý kámen",
     "level": "B2"
   },
   {
     "de": "effektvoll",
-    "lv": "Wydajny",
+    "lv": "Účinný",
     "level": "B2"
   },
   {
     "de": "Egge",
     "de_article": "die",
     "de_plural": "die Eggen",
-    "lv": "Brona",
+    "lv": "Brány",
     "level": "B2"
   },
   {
     "de": "Eheberatung",
     "de_article": "die",
     "de_plural": "die Eheberatungen",
-    "lv": "Poradnictwo rodzinne",
+    "lv": "Rodinné poradenství",
     "level": "B2"
   },
   {
     "de": "ehelich",
-    "lv": "Małżeństwo-",
+    "lv": "Manželství-",
     "level": "B2"
   },
   {
     "de": "Ehescheidung",
     "de_article": "die",
     "de_plural": "die Ehescheidungen",
-    "lv": "Rozwód",
+    "lv": "Rozvod",
     "level": "B2"
   },
   {
     "de": "Eheschließung",
     "de_article": "die",
     "de_plural": "die Eheschließungen",
-    "lv": "Małżeństwo • Małżeństwo",
+    "lv": "Manželství • Manželství",
     "level": "B2"
   },
   {
     "de": "ehren",
-    "lv": "Honor • Szacunek • Honor",
+    "lv": "Ctít • Ctít • Ctít",
     "level": "B2"
   },
   {
     "de": "Ehrenamt",
     "de_article": "das",
     "de_plural": "die Ehrenämter",
-    "lv": "Stanowisko honorowe",
+    "lv": "Čestnou funkci",
     "level": "B2"
   },
   {
     "de": "ehrenamtlich",
-    "lv": "Bezpłatnie • W wykonywaniu obowiązku honorowego",
+    "lv": "Zdarma • Při výkonu čestné povinnosti",
     "level": "B2"
   },
   {
     "de": "Ehrenmitglied",
     "de_article": "das",
     "de_plural": "die Ehrenmitglieder",
-    "lv": "Członek honorowy",
+    "lv": "Čestný člen",
     "level": "B2"
   },
   {
     "de": "Ehrenpflicht",
     "de_article": "die",
-    "lv": "Obowiązek honorowy",
+    "lv": "Čestná povinnost",
     "level": "B2"
   },
   {
     "de": "Ehrenplatz",
     "de_article": "der",
     "de_plural": "die Ehrenplätze",
-    "lv": "Miejsce honorowe",
+    "lv": "Čestné místo",
     "level": "B2"
   },
   {
     "de": "Ehrensache",
     "de_article": "die",
     "de_plural": "die Ehrensachen",
-    "lv": "Honor Case",
+    "lv": "Věc cti",
     "level": "B2"
   },
   {
     "de": "ehrenvoll",
-    "lv": "Honorowy • Honorowy",
+    "lv": "Čestný • Čestný",
     "level": "B2"
   },
   {
     "de": "Ehrenwache",
     "de_article": "die",
     "de_plural": "die Ehrenwachen",
-    "lv": "Straż honorowa",
+    "lv": "Čestná stráž",
     "level": "B2"
   },
   {
     "de": "Ehrenwort",
     "de_article": "das",
     "de_plural": "die Ehrenworte",
-    "lv": "Grzecznościowy",
+    "lv": "Čestný",
     "level": "B2"
   },
   {
     "de": "ehrgeizig",
-    "lv": "Chciwy",
+    "lv": "Chamtivý",
     "level": "B2"
   },
   {
     "de": "Ehrung",
     "de_article": "die",
     "de_plural": "die Ehrungen",
-    "lv": "Uhonorowanie • Ceremonia uhonorowania",
+    "lv": "Vyznamenání • Ceremonie vyznamenání",
     "level": "B2"
   },
   {
     "de": "Eichel",
     "de_article": "die",
     "de_plural": "die Eicheln",
-    "lv": "Żołądź",
+    "lv": "Žalud",
     "level": "B2"
   },
   {
     "de": "Eid",
     "de_article": "der",
     "de_plural": "die Eide",
-    "lv": "Przysięga",
+    "lv": "Přísaha",
     "level": "B2"
   },
   {
     "de": "Eidechse",
     "de_article": "die",
     "de_plural": "die Eidechsen",
-    "lv": "Jaszczurka",
+    "lv": "Ještěrka",
     "level": "B2"
   },
   {
     "de": "Eidotter",
     "de_article": "der",
     "de_plural": "die Eidotter",
-    "lv": "Żółtko jaja",
+    "lv": "Žloutek",
     "level": "B2"
   },
   {
     "de": "Eifer",
     "de_article": "der",
     "de_plural": "die Eifer",
-    "lv": "Pracowitość • Pracowitość • Pasja • Zapał • Zapał",
+    "lv": "Píle • Píle • Vášeň • Zápal • Dychtivost",
     "level": "B2"
   },
   {
     "de": "eifrig",
-    "lv": "Pracowity • Pracowity • Pracowity • Chętny",
+    "lv": "Pilný • Pilný • Pilný • Horlivý",
     "level": "B2"
   },
   {
     "de": "Eigenart",
     "de_article": "die",
     "de_plural": "die Eigenarten",
-    "lv": "Osobliwość • Oryginalność",
+    "lv": "Zvláštnost • Originalita",
     "level": "B2"
   },
   {
     "de": "eigenhändig",
-    "lv": "Vlastná práca",
+    "lv": "Vlastní výroby",
     "level": "B2"
   },
   {
     "de": "Eigenliebe",
     "de_article": "die",
-    "lv": "Miłość własna • Egoizm",
+    "lv": "Sebeláska • Sobectví",
     "level": "B2"
   },
   {
     "de": "eigensinnig",
-    "lv": "Uparty • Uparty",
+    "lv": "Tvrdohlavý • Tvrdohlavý",
     "level": "B2"
   },
   {
     "de": "eigentümlich",
-    "lv": "Osobliwy • Charakterystyczny",
+    "lv": "Svérázný • Charakteristický",
     "level": "B2"
   },
   {
     "de": "eigenwillig",
-    "lv": "Arbitralny • Uparty • Uparty • Apodyktyczny",
+    "lv": "Svévolný • Zarputilý • Zatvrzelý • Suverénní",
     "level": "B2"
   },
   {
     "de": "Eilbote",
     "de_article": "der",
     "de_plural": "die Eilboten",
-    "lv": "Posłaniec • Kurier",
+    "lv": "Posel • Kurýr",
     "level": "B2"
   },
   {
     "de": "Eilbrief",
     "de_article": "der",
     "de_plural": "die Eilbriefe",
-    "lv": "Pilny list",
+    "lv": "Naléhavý dopis",
     "level": "B2"
   },
   {
     "de": "einäschern",
-    "lv": "Kremacja • Palić w ogniu",
+    "lv": "Zpopelnit • Spálit v ohni",
     "level": "B2"
   },
   {
     "de": "Einband",
     "de_article": "der",
     "de_plural": "die Einbände",
-    "lv": "Wiążący",
+    "lv": "Vazba",
     "level": "B2"
   },
   {
     "de": "einberufen",
-    "lv": "Wezwać • Do poboru do służby wojskowej",
+    "lv": "Povolat • Odvést do vojenské služby",
     "level": "B2"
   },
   {
     "de": "Einbildung",
     "de_article": "die",
     "de_plural": "die Einbildungen",
-    "lv": "Fantazja • Wyobraźnia • Fantazja • Zarozumiałość • Zarozumiałość",
+    "lv": "Fantazie • Fantazie • Fantazie • Domýšlivost • Domýšlivost",
     "level": "B2"
   },
   {
     "de": "einbürgern",
-    "lv": "Przyznać obywatelowi prawo • Do wprowadzenia • Do zakorzenienia",
+    "lv": "Přiznat právo občana • Zavést • Zakořenit",
     "level": "B2"
   },
   {
     "de": "einbüßen",
-    "lv": "Ponieść straty materialne",
+    "lv": "Utrpí materiální ztráty",
     "level": "B2"
   },
   {
     "de": "eindringen",
-    "lv": "Wcisnąć • Włamać się • Wchłonąć • Zagłębić się",
+    "lv": "Vtlačit • Vtrhnout • Vsáknout • Ponořit se do",
     "level": "B2"
   },
   {
     "de": "eindringlich",
-    "lv": "Wytrwały • Przekonujący",
+    "lv": "Vytrvalý • Přesvědčivý",
     "level": "B2"
   },
   {
     "de": "einfältig",
-    "lv": "Zarozumiały • Naiwny",
+    "lv": "Svéprávný • Naivní",
     "level": "B2"
   },
   {
     "de": "einfassen",
-    "lv": "Zawiera • Ramkę • Ramkę",
+    "lv": "Zahrnovat • Rám • Rám",
     "level": "B2"
   },
   {
     "de": "einflussreich",
-    "lv": "Wpływowy • Imponujący",
+    "lv": "Vlivný • Působivý",
     "level": "B2"
   },
   {
     "de": "einförmig",
-    "lv": "Jednolity • Monotonny",
+    "lv": "Jednotný • Jednotvárný",
     "level": "B2"
   },
   {
     "de": "einfrieren",
-    "lv": "Zamrozić • Zamrozić • Zatrzymać",
+    "lv": "Zmrazit • Zmrazit • Zastavit",
     "level": "B2"
   },
   {
     "de": "Einfuhr",
     "de_article": "die",
     "de_plural": "die Einfuhren",
-    "lv": "Wprowadzenie • Import • Sprowadzanie • Importowanie",
+    "lv": "Úvod • Dovoz • Vnášení • Dovoz",
     "level": "B2"
   },
   {
     "de": "Einfuhrsperre",
     "de_article": "die",
     "de_plural": "die Einfuhrsperren",
-    "lv": "Blokada importu",
+    "lv": "Blokáda dovozu",
     "level": "B2"
   },
   {
     "de": "Eingabe",
     "de_article": "die",
     "de_plural": "die Eingaben",
-    "lv": "Aplikacja • Wprowadzanie danych do komputera",
+    "lv": "Aplikace • Zadávání dat do počítače",
     "level": "B2"
   },
   {
     "de": "eingebildet",
-    "lv": "Zarozumiały • Zarozumiały",
+    "lv": "Namyšlený • Namyšlený",
     "level": "B2"
   },
   {
     "de": "Eingebung",
     "de_article": "die",
     "de_plural": "die Eingebungen",
-    "lv": "Inspiracja • Nagły pomysł",
+    "lv": "Inspirace • Náhlý nápad",
     "level": "B2"
   },
   {
     "de": "eingehen",
-    "lv": "Wejdź • Przyjdź • Wejdź • Wejdź • Zmniejsz • Zgódź się • Postaw",
+    "lv": "Vstoupit • Přijet • Vstoupit • Vstoupit • Zmenšit • Souhlasit • Vsadit",
     "level": "B2"
   },
   {
     "de": "eingehend",
-    "lv": "Dokładny • Drobny • Przychodzący",
+    "lv": "Důkladný • Drobný • Příchozí",
     "level": "B2"
   },
   {
     "de": "Eingemachte",
     "de_article": "das",
     "de_plural": "die Eingemachte",
-    "lv": "Dżem • Konserwy owocowe",
+    "lv": "Džem • Konzervované ovoce",
     "level": "B2"
   },
   {
     "de": "eingerechnet",
-    "lv": "Policzone • Zaliczone • Dodane",
+    "lv": "Počítaný • Připsaný • Přidaný",
     "level": "B2"
   },
   {
     "de": "Eingeständnis",
     "de_article": "das",
     "de_plural": "die Eingeständnisse",
-    "lv": "Wyznanie",
+    "lv": "Zpověď",
     "level": "B2"
   },
   {
     "de": "eingestehen",
-    "lv": "Ocenenie",
+    "lv": "Přiznat",
     "level": "B2"
   },
   {
     "de": "Eingeweide",
     "de_article": "die",
-    "lv": "Wnętrzności • Narządy wewnętrzne",
+    "lv": "Vnitřnosti • Vnitřní orgány",
     "level": "B2"
   },
   {
     "de": "eingewurzelt",
-    "lv": "Ukorzeniony",
+    "lv": "Zakořeněné",
     "level": "B2"
   },
   {
     "de": "eingleisig",
-    "lv": "Jednoszynowy",
+    "lv": "Jednokolejka",
     "level": "B2"
   },
   {
     "de": "eingrenzen",
-    "lv": "Ograniczać • Wyznaczać",
+    "lv": "Omezovat • Vymezovat",
     "level": "B2"
   },
   {
     "de": "Eingriff",
     "de_article": "der",
     "de_plural": "die Eingriffe",
-    "lv": "Interwencja • Operacja",
+    "lv": "Intervence • Operace",
     "level": "B2"
   },
   {
     "de": "einhüllen",
-    "lv": "Owinąć • Zwój • Owinąć",
+    "lv": "Omotat • Svinout • Omotat",
     "level": "B2"
   },
   {
     "de": "Einigkeit",
     "de_article": "die",
     "de_plural": "die Einigkeiten",
-    "lv": "Jednostka • Jedność • Konsensus",
+    "lv": "Jednotka • Jednota • Shoda",
     "level": "B2"
   },
   {
     "de": "einkassieren",
-    "lv": "Zbierać",
+    "lv": "Sbírat",
     "level": "B2"
   },
   {
     "de": "Einklang",
     "de_article": "der",
     "de_plural": "die Einklänge",
-    "lv": "Porozumienie",
+    "lv": "Dohoda",
     "level": "B2"
   },
   {
     "de": "einkleiden",
-    "lv": "Ubierz się • Ubierz się",
+    "lv": "Oblékat se • Oblékat",
     "level": "B2"
   },
   {
     "de": "sich einlassen",
-    "lv": "Wpuszczać",
+    "lv": "Vpustit dovnitř",
     "level": "B2",
     "study": {
       "id": "b2-sich-einlassen",
       "layout": "minimalStudy",
-      "translation": "Wpuszczać",
-      "rektion": "auf + ko?",
-      "explanation": "Sich einlassen wymaga przyimka określonego auf + ko?.",
-      "forms": "auf + ko?",
-      "formsLabel": "Kierownictwo:",
+      "translation": "Vpustit dovnitř",
+      "rektion": "Auf + ko?",
+      "explanation": "Sich einlassen vyžaduje určitou předložku auf + ko?.",
+      "forms": "Auf + ko?",
+      "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -3558,45 +3561,48 @@ const B2_WORDS = [
   },
   {
     "de": "einleiten",
-    "lv": "Wchodzić",
+    "lv": "Vstoupit",
     "level": "B2"
   },
   {
     "de": "einleuchten",
-    "lv": "Być zrozumianym • Być jasnym",
+    "lv": "Být srozumitelný • Být jasný",
     "level": "B2"
   },
   {
     "de": "einliefern",
-    "lv": "Przynieść • Przynieść",
+    "lv": "Přivést • Přivést",
     "level": "B2"
   },
   {
     "de": "einmachen",
-    "lv": "Konserwować • Marynować • Gotować",
+    "lv": "Konzervovat • Marinovat • Vařit",
     "level": "B2"
   },
   {
     "de": "einmütig",
-    "lv": "Jednomyślny",
+    "lv": "Jednomyslný",
     "level": "B2"
   },
   {
     "de": "sich einprägen",
-    "lv": "Zapamiętać",
+    "lv": "Zapamatovat si",
     "level": "B2",
     "study": {
       "id": "b2-sich-einpraegen",
       "layout": "minimalStudy",
-      "translation": "Zapamiętać",
-      "rektion": "in + ko?",
-      "explanation": "Sich einprägen wymaga przyimka określonego w + ko?.",
-      "forms": "in + ko?",
-      "formsLabel": "Kierownictwo:",
+      "translation": "Zapamatovat si",
+      "rektion": "In + ko?",
+      "explanation": "Sich einprägen vyžaduje určitou předložku v + ko?.",
+      "forms": "In + ko?",
+      "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich einprägen"
+          ],
+          "red": [
+            "Sich"
           ]
         }
       }
@@ -3604,30 +3610,33 @@ const B2_WORDS = [
   },
   {
     "de": "einrechnen",
-    "lv": "Liczyć • Liczyć",
+    "lv": "Počítat • Počítat",
     "level": "B2"
   },
   {
     "de": "einschläfern",
-    "lv": "Uśpić",
+    "lv": "Uspat",
     "level": "B2"
   },
   {
     "de": "sich einschleichen",
-    "lv": "Wkraść się • Wkraść się",
+    "lv": "Vplížit se • Vplížit se",
     "level": "B2",
     "study": {
       "id": "b2-sich-einschleichen",
       "layout": "minimalStudy",
-      "translation": "Wkraść się • Wkraść się",
-      "rektion": "in + ko?",
-      "explanation": "Sich einschleichen wymaga przyimka określonego w + ko?.",
-      "forms": "in + ko?",
-      "formsLabel": "Kierownictwo:",
+      "translation": "Vplížit se • Vplížit se",
+      "rektion": "In + ko?",
+      "explanation": "Sich einschleichen vyžaduje určitou předložku v + ko?.",
+      "forms": "In + ko?",
+      "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich einschleichen"
+          ],
+          "red": [
+            "Sich"
           ]
         }
       }
@@ -3637,21 +3646,21 @@ const B2_WORDS = [
     "de": "Einschnitt",
     "de_article": "der",
     "de_plural": "die Einschnitte",
-    "lv": "Nacięcie • Cięcie • Obrót • Nacięcie",
+    "lv": "Zářez • Řez • Obracet • Zářez",
     "level": "B2"
   },
   {
     "de": "sich einschränken",
-    "lv": "Ogranicz się",
+    "lv": "Omezit se",
     "level": "B2",
     "study": {
       "id": "b2-sich-einschraenken",
       "layout": "minimalStudy",
-      "translation": "Ogranicz się",
-      "rektion": "auf + ko?",
-      "explanation": "Sich einschränken wymaga przyimka określonego auf + ko?.",
-      "forms": "auf + ko?",
-      "formsLabel": "Kierownictwo:",
+      "translation": "Omezit se",
+      "rektion": "Auf + ko?",
+      "explanation": "Sich einschränken vyžaduje určitou předložku auf + ko?.",
+      "forms": "Auf + ko?",
+      "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -3668,209 +3677,209 @@ const B2_WORDS = [
     "de": "Einschreiben",
     "de_article": "das",
     "de_plural": "die Einschreiben",
-    "lv": "List polecony lub paczka",
+    "lv": "Doporučený dopis nebo balík",
     "level": "B2"
   },
   {
     "de": "einschulen",
-    "lv": "Zapisać dziecko do szkoły",
+    "lv": "Přihlásit dítě do školy",
     "level": "B2"
   },
   {
     "de": "einsichtig",
-    "lv": "Rozsądny • Rozsądny",
+    "lv": "Rozumný • Rozumný",
     "level": "B2"
   },
   {
     "de": "einspeichern",
-    "lv": "Zadajte údaje • Uložiť",
+    "lv": "Zadat data • Uložit",
     "level": "B2"
   },
   {
     "de": "Einspruch",
     "de_article": "der",
     "de_plural": "die Einsprüche",
-    "lv": "Sprzeciw • Sprzeciw • Protest",
+    "lv": "Námitka • Námitka • Protest",
     "level": "B2"
   },
   {
     "de": "Einstandsgeld",
     "de_article": "das",
     "de_plural": "die Einstandsgelder",
-    "lv": "Opłata za wstęp",
+    "lv": "Vstupní poplatek",
     "level": "B2"
   },
   {
     "de": "einstimmig",
-    "lv": "Jednomyślność • Jednomyślność",
+    "lv": "Jednomyslný • Jednomyslný",
     "level": "B2"
   },
   {
     "de": "einströmen",
-    "lv": "Napłynąć",
+    "lv": "Proudit dovnitř",
     "level": "B2"
   },
   {
     "de": "eintauchen",
-    "lv": "Ponorte sa • Ponorte sa • Ponorte sa • Ponorte sa",
+    "lv": "Ponořit • Ponořit • Ponořit • Ponořit",
     "level": "B2"
   },
   {
     "de": "eintönig",
-    "lv": "Monotonny • Monotonny • Monotonny",
+    "lv": "Monotónní • Monotónní • Monotónní",
     "level": "B2"
   },
   {
     "de": "Eintracht",
     "de_article": "die",
-    "lv": "Konsensus • Zgoda • Harmonia • Zgodność",
+    "lv": "Konsensus • Shoda • Harmonie • Kompatibilita",
     "level": "B2"
   },
   {
     "de": "einträglich",
-    "lv": "Opłacalny • Opłacalny",
+    "lv": "Ziskový • Ziskový",
     "level": "B2"
   },
   {
     "de": "einüben",
-    "lv": "Nauczyć się • Występować na scenie",
+    "lv": "Naučit se • Inscenovat",
     "level": "B2"
   },
   {
     "de": "Einwand",
     "de_article": "der",
     "de_plural": "die Einwände",
-    "lv": "Sprzeciw",
+    "lv": "Námitka",
     "level": "B2"
   },
   {
     "de": "einwandfrei",
-    "lv": "Bez zarzutu",
+    "lv": "Dokonalý",
     "level": "B2"
   },
   {
     "de": "einweichen",
-    "lv": "Ponorte sa",
+    "lv": "Dip",
     "level": "B2"
   },
   {
     "de": "einweihen",
-    "lv": "Uroczyście ujawnić • Zwierzyć się z tajemnicy",
+    "lv": "Slavnostně prozradit • Svěřit tajemství",
     "level": "B2"
   },
   {
     "de": "einwenden",
-    "lv": "Sprzeciwić się • Zgłosić sprzeciw",
+    "lv": "Oponovat • Vznášet námitky",
     "level": "B2"
   },
   {
     "de": "einwilligen",
-    "lv": "Zgodzić się • Czuć się swobodnie",
+    "lv": "Souhlasit • Být v klidu",
     "level": "B2"
   },
   {
     "de": "Eisblume",
     "de_article": "die",
     "de_plural": "die Eisblumen",
-    "lv": "Lodowy kwiat",
+    "lv": "Ledový květ",
     "level": "B2"
   },
   {
     "de": "Eisbrecher",
     "de_article": "der",
     "de_plural": "die Eisbrecher",
-    "lv": "Łamacz lodów",
+    "lv": "Ledoborec",
     "level": "B2"
   },
   {
     "de": "Eisenbeton",
     "de_article": "der",
-    "lv": "Żelbet",
+    "lv": "Železobeton",
     "level": "B2"
   },
   {
     "de": "Eisenerz",
     "de_article": "das",
     "de_plural": "die Eisenerze",
-    "lv": "Ruda żelaza",
+    "lv": "Železná ruda",
     "level": "B2"
   },
   {
     "de": "Eisengießerei",
     "de_article": "die",
     "de_plural": "die Eisengießereien",
-    "lv": "Odlewnia żeliwa",
+    "lv": "Slévárna litiny",
     "level": "B2"
   },
   {
     "de": "eisfrei",
-    "lv": "Bez lodu • Bez lodu",
+    "lv": "Bez ledu • Bez ledu",
     "level": "B2"
   },
   {
     "de": "Eisgang",
     "de_article": "der",
     "de_plural": "die Eisgänge",
-    "lv": "Chodzenie po lodzie",
+    "lv": "Chůze po ledu",
     "level": "B2"
   },
   {
     "de": "Eisschnelllauf",
     "de_article": "der",
     "de_plural": "die Eisschnellläufe",
-    "lv": "Łyżwiarstwo szybkie",
+    "lv": "Rychlobruslení",
     "level": "B2"
   },
   {
     "de": "Eissegeln",
     "de_article": "das",
-    "lv": "Żeglowanie jachtami lodowymi",
+    "lv": "Plavba s ledovými jachtami",
     "level": "B2"
   },
   {
     "de": "eitel",
-    "lv": "Zarozumiały • Zarozumiały • Zarozumiały • Płytki • Pusty • Ostentacyjny",
+    "lv": "Namyšlený • Namyšlený • Namyšlený • Mělký • Prázdný • Okázalý",
     "level": "B2"
   },
   {
     "de": "Ekel",
     "de_article": "der",
-    "lv": "Wstręt • Wstręt",
+    "lv": "Hnus • Hnus",
     "level": "B2"
   },
   {
     "de": "Elfenbein",
     "de_article": "das",
     "de_plural": "die Elfenbeine",
-    "lv": "Kość słoniowa",
+    "lv": "Slonová kost",
     "level": "B2"
   },
   {
     "de": "Elster",
     "de_article": "die",
     "de_plural": "die Elstern",
-    "lv": "Czkawka",
+    "lv": "Škytavka",
     "level": "B2"
   },
   {
     "de": "Empfangschef",
     "de_article": "der",
     "de_plural": "die Empfangschefs",
-    "lv": "Administrator hotelu",
+    "lv": "Správce hotelu",
     "level": "B2"
   },
   {
     "de": "sich empfehlen",
-    "lv": "Być zalecane",
+    "lv": "Být doporučeno",
     "level": "B2",
     "study": {
       "id": "b2-sich-empfehlen",
       "layout": "minimalStudy",
-      "translation": "Być zalecane",
-      "rektion": "zu + kam?",
-      "explanation": "Sich empfehlen wymaga przyimka określonego zu + kam?.",
-      "forms": "zu + kam?",
-      "formsLabel": "Kierownictwo:",
+      "translation": "Být doporučeno",
+      "rektion": "Zu + kam?",
+      "explanation": "Sich empfehlen vyžaduje určitou předložku zu + kam?.",
+      "forms": "Zu + kam?",
+      "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -3885,26 +3894,26 @@ const B2_WORDS = [
   },
   {
     "de": "empor",
-    "lv": "W górę • W górę",
+    "lv": "Nahoru • Nahoru",
     "level": "B2"
   },
   {
     "de": "empören",
-    "lv": "Wywołać oburzenie",
+    "lv": "Způsobit pobouření",
     "level": "B2"
   },
   {
     "de": "sich empören",
-    "lv": "Złościć się • Buntować się",
+    "lv": "Zlobit se • Vzbouřit se",
     "level": "B2",
     "study": {
       "id": "b2-sich-empoeren",
       "layout": "minimalStudy",
-      "translation": "Złościć się • Buntować się",
-      "rektion": "über + ko?",
-      "explanation": "Sich empören vyžaduje špecifickú über + ko? predložku.",
-      "forms": "über + ko?",
-      "formsLabel": "Kierownictwo:",
+      "translation": "Zlobit se • Vzbouřit se",
+      "rektion": "Über + ko?",
+      "explanation": "Sich empören vyžaduje určitou předložku über + ko?.",
+      "forms": "Über + ko?",
+      "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -3921,93 +3930,93 @@ const B2_WORDS = [
     "de": "Empörung",
     "de_article": "die",
     "de_plural": "die Empörungen",
-    "lv": "Oburzenie • Bunt • Bunt",
+    "lv": "Pobouření • Vzpoura • Vzpoura",
     "level": "B2"
   },
   {
     "de": "emsig",
-    "lv": "Pracowity • Żywy • Aktywny",
+    "lv": "Pracovitý • Čilý • Činorodý",
     "level": "B2"
   },
   {
     "de": "entbehren",
-    "lv": "Obejść się bez • Znieść • Brak",
+    "lv": "Obejít se bez • Vydržet • Nedostatek",
     "level": "B2"
   },
   {
     "de": "entbinden",
-    "lv": "Uwolnić • Uwolnić • Urodzić",
+    "lv": "Propustit • Uvolnit • Porodit",
     "level": "B2"
   },
   {
     "de": "Entbindung",
     "de_article": "die",
     "de_plural": "die Entbindungen",
-    "lv": "Uwolnienie • Wybawienie • Narodziny",
+    "lv": "Propustit • Vysvobození • Porod",
     "level": "B2"
   },
   {
     "de": "entehren",
-    "lv": "Okraść honor • Hańbę",
+    "lv": "Okrást čest • Potupa",
     "level": "B2"
   },
   {
     "de": "enteignen",
-    "lv": "Wywłaszczyć • Wywłaszczyć",
+    "lv": "Vyvlastnit • Vyvlastnit",
     "level": "B2"
   },
   {
     "de": "enterben",
-    "lv": "Wydziedziczyć",
+    "lv": "Vydědit",
     "level": "B2"
   },
   {
     "de": "entfallen",
-    "lv": "Wypadnąć • Zapomnieć",
+    "lv": "Vypadnout • Zapomenout",
     "level": "B2"
   },
   {
     "de": "entfalten",
-    "lv": "Odprężyć się • Rozwinąć • Rozwinąć • Rozwinąć",
+    "lv": "Odvinout • Rozvinout • Rozvinout • Rozvinout",
     "level": "B2"
   },
   {
     "de": "sich entfalten",
-    "lv": "Otworzyć • Rozwikłać • Rozwinąć • Rozwinąć",
+    "lv": "Otevřít • Uvolnit • Rozvinout • Rozvinout",
     "level": "B2"
   },
   {
     "de": "entflammen",
-    "lv": "Rozpalać • Rozpalać • Ekscytować • Zapalać",
+    "lv": "Zapálit • Zapálit • Vzrušit • Vzplanout",
     "level": "B2"
   },
   {
     "de": "entführen",
-    "lv": "Zabrać • Porwać",
+    "lv": "Odnést • Unést",
     "level": "B2"
   },
   {
     "de": "entgegnen",
-    "lv": "Odpovedzte",
+    "lv": "Odpovědět",
     "level": "B2"
   },
   {
     "de": "entgleisen",
-    "lv": "Wykoleić",
+    "lv": "Vykolejit",
     "level": "B2"
   },
   {
     "de": "sich enthalten",
-    "lv": "Powstrzymać się od",
+    "lv": "Zdržet se",
     "level": "B2",
     "study": {
       "id": "b2-sich-enthalten",
       "layout": "minimalStudy",
-      "translation": "Powstrzymać się od",
-      "rektion": "von + kam?",
-      "explanation": "Sich enthalten wymaga przyimka określonego von + kam?.",
-      "forms": "von + kam?",
-      "formsLabel": "Kierownictwo:",
+      "translation": "Zdržet se",
+      "rektion": "Von + kam?",
+      "explanation": "Sich enthalten vyžaduje určitou předložku von + kam?.",
+      "forms": "Von + kam?",
+      "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -4022,41 +4031,41 @@ const B2_WORDS = [
   },
   {
     "de": "enthüllen",
-    "lv": "Ujawnić • Odkryć",
+    "lv": "Odhalit • Odkrýt",
     "level": "B2"
   },
   {
     "de": "entkorken",
-    "lv": "Odkorkować",
+    "lv": "Odzátkovat",
     "level": "B2"
   },
   {
     "de": "entkräften",
-    "lv": "Osłabić • Osłabić • Obalić • Obalić",
+    "lv": "Zbavit síly • Oslabit • Vyvrátit • Převrátit",
     "level": "B2"
   },
   {
     "de": "entladen",
-    "lv": "Rozładować • Rozładować",
+    "lv": "Vyložit • Vyložit",
     "level": "B2"
   },
   {
     "de": "entlarven",
-    "lv": "Odsłonić",
+    "lv": "Vystavit",
     "level": "B2"
   },
   {
     "de": "sich entledigen",
-    "lv": "Pozbyć się • Pozbyć się",
+    "lv": "Zbavit se • Zbavit se",
     "level": "B2",
     "study": {
       "id": "b2-sich-entledigen",
       "layout": "minimalStudy",
-      "translation": "Pozbyć się • Pozbyć się",
-      "rektion": "+ forma dzierżawcza",
-      "explanation": "Sich entledigen jest używane we współczesnym języku niemieckim w formie dzierżawczej bez przyimka.",
-      "forms": "+ forma dzierżawcza",
-      "formsLabel": "Kierownictwo:",
+      "translation": "Zbavit se • Zbavit se",
+      "rektion": "+ piederības forma",
+      "explanation": "Sich entledigen se v moderní němčině používá s přivlastňovacím tvarem bez předložky.",
+      "forms": "+ piederības forma",
+      "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -4068,31 +4077,31 @@ const B2_WORDS = [
   },
   {
     "de": "entlegen",
-    "lv": "Zdalny • Zdalny • Odległy",
+    "lv": "Vzdálený • Vzdálený • Vzdálený",
     "level": "B2"
   },
   {
     "de": "entmutigen",
-    "lv": "Odebrać odwagę",
+    "lv": "Sebrat odvahu",
     "level": "B2"
   },
   {
     "de": "entnehmen",
-    "lv": "Weź • Weź • Wyjmij • Zakończ",
+    "lv": "Vzít • Vzít • Vyjmout • Uzavřít",
     "level": "B2"
   },
   {
     "de": "sich entrüsten",
-    "lv": "Złościć się • Buntować się",
+    "lv": "Zlobit se • Vzbouřit se",
     "level": "B2",
     "study": {
       "id": "b2-sich-entruesten",
       "layout": "minimalStudy",
-      "translation": "Złościć się • Buntować się",
-      "rektion": "über + ko?",
-      "explanation": "Sich entrüsten wymaga przyimka określonego über + ko?.",
-      "forms": "über + ko?",
-      "formsLabel": "Kierownictwo:",
+      "translation": "Zlobit se • Vzbouřit se",
+      "rektion": "Über + ko?",
+      "explanation": "Sich entrüsten vyžaduje určitou předložku über + ko?.",
+      "forms": "Über + ko?",
+      "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -4107,26 +4116,26 @@ const B2_WORDS = [
   },
   {
     "de": "entsagen",
-    "lv": "Poddaj się • Poddaj się",
+    "lv": "Vzdát se • Vzdát se",
     "level": "B2"
   },
   {
     "de": "entseuchen",
-    "lv": "Dezynfekować",
+    "lv": "Dezinfikovat",
     "level": "B2"
   },
   {
     "de": "sich entsinnen",
-    "lv": "Pamiętać • Pamiętać",
+    "lv": "Pamatovat • Pamatovat si",
     "level": "B2",
     "study": {
       "id": "b2-sich-entsinnen",
       "layout": "minimalStudy",
-      "translation": "Pamiętać • Pamiętać",
-      "rektion": "+ forma dzierżawcza",
-      "explanation": "Sich entsinnen jest używane we współczesnym języku niemieckim w formie dzierżawczej bez przyimka, na przykład: Ich entsinne mich eines Fehlers.",
-      "forms": "+ forma dzierżawcza",
-      "formsLabel": "Kierownictwo:",
+      "translation": "Pamatovat • Pamatovat si",
+      "rektion": "+ piederības forma",
+      "explanation": "Sich entsinnen se v moderní němčině používá s přivlastňovací formou bez předložky, například: Ich entsinne mich eines Fehlers.",
+      "forms": "+ piederības forma",
+      "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -4140,119 +4149,119 @@ const B2_WORDS = [
     "de": "Entspannung",
     "de_article": "die",
     "de_plural": "die Entspannungen",
-    "lv": "Relaks • Relaks • Redukcja napięcia",
+    "lv": "Relaxace • Relaxace • Snížení napětí",
     "level": "B2"
   },
   {
     "de": "entstellen",
-    "lv": "Zniekształcać • Zwariować • Zniekształcać",
+    "lv": "Pokřivit • Vyšinout • Pokřivit",
     "level": "B2"
   },
   {
     "de": "entweichen",
-    "lv": "Odsunąć się • Uciec • Wycofać się • Emanować",
+    "lv": "Vzdálit se • Uniknout • Ustoupit • Vyzařovat",
     "level": "B2"
   },
   {
     "de": "entwerfen",
-    "lv": "Odlew • Zarys",
+    "lv": "Odlévat • Obrys",
     "level": "B2"
   },
   {
     "de": "Entwerter",
     "de_article": "der",
     "de_plural": "die Entwerter",
-    "lv": "Kompostownik",
+    "lv": "Kompostér",
     "level": "B2"
   },
   {
     "de": "Entwertung",
     "de_article": "die",
     "de_plural": "die Entwertungen",
-    "lv": "Obniżenie wartości • Dewaluacja",
+    "lv": "Snížení hodnoty • Devalvace",
     "level": "B2"
   },
   {
     "de": "Entwurf",
     "de_article": "der",
     "de_plural": "die Entwürfe",
-    "lv": "Szkic • Szkic • Projekt",
+    "lv": "Návrh • Náčrt • Projekt",
     "level": "B2"
   },
   {
     "de": "entwurzeln",
-    "lv": "Vymažte • Vymažte • Úplne vymažte",
+    "lv": "Vykořenit • Vyhubit • Zcela vymýtit",
     "level": "B2"
   },
   {
     "de": "entziehen",
-    "lv": "Zabrać • Wynieść • Unikać • Wyrwać się • Uciec",
+    "lv": "Odnést • Odvézt • Vyhnout se • Odtrhnout • Uniknout",
     "level": "B2"
   },
   {
     "de": "entziffern",
-    "lv": "Odszyfrować",
+    "lv": "Rozluštit",
     "level": "B2"
   },
   {
     "de": "entzückend",
-    "lv": "Cudownie • Zachwycająco • Czarująco",
+    "lv": "Nádherný • Rozkošný • Okouzlující",
     "level": "B2"
   },
   {
     "de": "entzückt",
-    "lv": "Podekscytowany",
+    "lv": "Vzrušený",
     "level": "B2"
   },
   {
     "de": "entzünden",
-    "lv": "Zapalić • Zapalić • Zapalić",
+    "lv": "Zapálit • Zapálit • Rozsvítit",
     "level": "B2"
   },
   {
     "de": "sich entzünden",
-    "lv": "Zapalić się • Zapalić się • Rozpalić się",
+    "lv": "Vzplanout • Zapálit • Rozpálit",
     "level": "B2"
   },
   {
     "de": "Entzündung",
     "de_article": "die",
     "de_plural": "die Entzündungen",
-    "lv": "Zapłon • Zapłon • Zapalenie",
+    "lv": "Zapálení • Zapálení • Zapálení",
     "level": "B2"
   },
   {
     "de": "Epidemie",
     "de_article": "die",
     "de_plural": "die Epidemien",
-    "lv": "Epidemia",
+    "lv": "Epidemie",
     "level": "B2"
   },
   {
     "de": "Epoche",
     "de_article": "die",
     "de_plural": "die Epochen",
-    "lv": "Era",
+    "lv": "Éra",
     "level": "B2"
   },
   {
     "de": "Erachten",
     "de_article": "das",
-    "lv": "Myśli • Wgląd",
+    "lv": "Myšlenky • Vhled",
     "level": "B2"
   },
   {
     "de": "sich erbarmen",
-    "lv": "Mieć miłosierdzie • Mieć miłosierdzie",
+    "lv": "Smilovat se • Smilovat se",
     "level": "B2",
     "study": {
       "id": "b2-sich-erbarmen",
       "layout": "minimalStudy",
-      "translation": "Mieć miłosierdzie • Mieć miłosierdzie",
-      "rektion": "über + ko?",
-      "explanation": "Sich erbarmen wymaga przyimka określonego über + ko?.",
-      "forms": "über + ko?",
-      "formsLabel": "Kierownictwo:",
+      "translation": "Smilovat se • Smilovat se",
+      "rektion": "Über + ko?",
+      "explanation": "Sich erbarmen vyžaduje určitou předložku über + ko?.",
+      "forms": "Über + ko?",
+      "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -4269,83 +4278,83 @@ const B2_WORDS = [
     "de": "Erbauer",
     "de_article": "der",
     "de_plural": "die Erbauer",
-    "lv": "Złodziej",
+    "lv": "Zvedák",
     "level": "B2"
   },
   {
     "de": "Erbanspruch",
     "de_article": "der",
     "de_plural": "die Erbansprüche",
-    "lv": "Dedičské práva",
+    "lv": "Dědická práva",
     "level": "B2"
   },
   {
     "de": "erbrechen",
-    "lv": "Włamać się • Włamać się",
+    "lv": "Rozbít • Rozsekat",
     "level": "B2"
   },
   {
     "de": "Erdgas",
     "de_article": "das",
     "de_plural": "die Erdgase",
-    "lv": "Gaz ziemny",
+    "lv": "Zemní plyn",
     "level": "B2"
   },
   {
     "de": "erdrücken",
-    "lv": "Potlačiť • Potlačiť",
+    "lv": "Potlačit • Potlačit",
     "level": "B2"
   },
   {
     "de": "Erdrutsch",
     "de_article": "der",
     "de_plural": "die Erdrutsche",
-    "lv": "Osuwisko",
+    "lv": "Sesuv půdy",
     "level": "B2"
   },
   {
     "de": "Erdsatellit",
     "de_article": "der",
     "de_plural": "die Erdsatelliten",
-    "lv": "Sztuczny satelita Ziemi",
+    "lv": "Umělá družice Země",
     "level": "B2"
   },
   {
     "de": "Erdtrabant",
     "de_article": "der",
     "de_plural": "die Erdtrabanten",
-    "lv": "Ziemski towarzysz",
+    "lv": "Zemský společník",
     "level": "B2"
   },
   {
     "de": "erfassen",
-    "lv": "Zrozumieć • Zrozumieć",
+    "lv": "Uchopit • Pochopit",
     "level": "B2"
   },
   {
     "de": "erforschen",
-    "lv": "Odkrywać • Dowiedzieć się",
+    "lv": "Prozkoumat • Zjistit",
     "level": "B2"
   },
   {
     "de": "Erfrierung",
     "de_article": "die",
     "de_plural": "die Erfrierungen",
-    "lv": "Odmrożenie",
+    "lv": "Omrzlina",
     "level": "B2"
   },
   {
     "de": "sich ergeben",
-    "lv": "Skutkować • Poddaniem się",
+    "lv": "Vyústit • Vzdát se",
     "level": "B2",
     "study": {
       "id": "b2-sich-ergeben",
       "layout": "minimalStudy",
-      "translation": "Skutkować • Poddaniem się",
-      "rektion": "aus + kam?",
-      "explanation": "Sich ergeben wymaga przyimka określonego aus + kam?.",
-      "forms": "aus + kam?",
-      "formsLabel": "Kierownictwo:",
+      "translation": "Vyústit • Vzdát se",
+      "rektion": "Aus + kam?",
+      "explanation": "Sich ergeben vyžaduje určitou předložku aus + kam?.",
+      "forms": "Aus + kam?",
+      "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -4360,117 +4369,117 @@ const B2_WORDS = [
   },
   {
     "de": "ergiebig",
-    "lv": "Owocny • Dochodowy • Bogaty • Obfity • Płodny",
+    "lv": "Plodný • Výnosný • Bohatý • Hojný • Plodný",
     "level": "B2"
   },
   {
     "de": "ergrauen",
-    "lv": "Zmienić kolor na szary",
+    "lv": "Zešedivět",
     "level": "B2"
   },
   {
     "de": "erhaben",
-    "lv": "Płaskorzeźba • Wypukła • Wielka • Wielka • Wzniosła • Wzniosła • Doskonała",
+    "lv": "Reliéf • Vypouklý • Velký • Velký • Vznešený • Vznešený • Vynikající",
     "level": "B2"
   },
   {
     "de": "erheben",
-    "lv": "Podnosić • Podnosić • Podnosić • Protestować",
+    "lv": "Zvednout • Zvedat • Zvednout • Protestovat",
     "level": "B2"
   },
   {
     "de": "sich erheben",
-    "lv": "Powstań • Powstań • Powstań",
+    "lv": "Vstávat • Vstávat • Vstávat",
     "level": "B2"
   },
   {
     "de": "erheblich",
-    "lv": "Godne uwagi • Ważne",
+    "lv": "Pozoruhodný • Důležitý",
     "level": "B2"
   },
   {
     "de": "erkämpfen",
-    "lv": "Wygrać",
+    "lv": "Vyhrát",
     "level": "B2"
   },
   {
     "de": "Erkenntnis",
     "de_article": "die",
     "de_plural": "die Erkenntnisse",
-    "lv": "Poznanie • Zrozumienie",
+    "lv": "Poznání • Porozumění",
     "level": "B2"
   },
   {
     "de": "erlangen",
-    "lv": "Dotrzeć • Osiągnąć • Uzyskać • Uzyskać",
+    "lv": "Dosáhnout • Dosáhnout • Získat • Získat",
     "level": "B2"
   },
   {
     "de": "Erlass",
     "de_article": "der",
     "de_plural": "die Erlasse",
-    "lv": "Nakaz • Nakaz • Dekret • Zwolnienie",
+    "lv": "Nařídit • Nařídit • Nařídit • Propustit",
     "level": "B2"
   },
   {
     "de": "erlassen",
-    "lv": "Wydanie • Wydanie • Wydanie",
+    "lv": "Vydat • Uvolnit • Uvolnit",
     "level": "B2"
   },
   {
     "de": "erläutern",
-    "lv": "Vysvetliť • Vysvetliť",
+    "lv": "Vysvětlit • Vysvětlit",
     "level": "B2"
   },
   {
     "de": "Erle",
     "de_article": "die",
     "de_plural": "die Erlen",
-    "lv": "Olcha",
+    "lv": "Olše",
     "level": "B2"
   },
   {
     "de": "erleiden",
-    "lv": "Trpieť • Vytrvať • Vytrvať • Byť porazený",
+    "lv": "Trpět • Snášet • Snášet • Být poražen",
     "level": "B2"
   },
   {
     "de": "erlöschen",
-    "lv": "Wygasnąć • Wygasnąć • Przestać obowiązywać • Wygasnąć",
+    "lv": "Zhasnout • Zhasnout • Pozbýt platnosti • Zaniknout",
     "level": "B2"
   },
   {
     "de": "ermächtigen",
-    "lv": "Autoryzować",
+    "lv": "Povolit",
     "level": "B2"
   },
   {
     "de": "ermäßigen",
-    "lv": "Obniżyć",
+    "lv": "Snížit",
     "level": "B2"
   },
   {
     "de": "ermitteln",
-    "lv": "Dowiedzieć się • Dowiedzieć się",
+    "lv": "Zjistit • Zjistit",
     "level": "B2"
   },
   {
     "de": "erniedrigen",
-    "lv": "Obniżyć • Upokorzyć",
+    "lv": "Nižší • Ponížit",
     "level": "B2"
   },
   {
     "de": "sich erniedrigen",
-    "lv": "Poniż się",
+    "lv": "Pokořit se",
     "level": "B2",
     "study": {
       "id": "b2-sich-erniedrigen",
       "layout": "minimalStudy",
-      "translation": "Poniż się",
-      "rektion": "vor + kam?",
-      "explanation": "Sich erniedrigen wymaga przyimka określonego vor + kam?.",
-      "forms": "vor + kam?",
-      "formsLabel": "Kierownictwo:",
+      "translation": "Pokořit se",
+      "rektion": "Vor + kam?",
+      "explanation": "Sich erniedrigen vyžaduje určitou předložku vor + kam?.",
+      "forms": "Vor + kam?",
+      "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -4487,50 +4496,50 @@ const B2_WORDS = [
     "de": "Ernteertrag",
     "de_article": "der",
     "de_plural": "die Ernteerträge",
-    "lv": "Przyciąć",
+    "lv": "Plodina",
     "level": "B2"
   },
   {
     "de": "Eröffnung",
     "de_article": "die",
     "de_plural": "die Eröffnungen",
-    "lv": "Otvorenie • Objav • Pohľadnica • Oznámenie • Objav",
+    "lv": "Otevření • Objev • Pohlednice • Oznámení • Objev",
     "level": "B2"
   },
   {
     "de": "erörtern",
-    "lv": "Dyskutować • Dyskutować",
+    "lv": "Diskutovat • Diskutovat",
     "level": "B2"
   },
   {
     "de": "erpressen",
-    "lv": "Szantażować",
+    "lv": "Vydírání",
     "level": "B2"
   },
   {
     "de": "erregen",
-    "lv": "Ekscytować • Ekscytować • Powodować • Powodować • Obudzić",
+    "lv": "Vzrušovat • Vzrušovat • Vyvolávat • Vyvolávat • Vzbudit",
     "level": "B2"
   },
   {
     "de": "sich erregen",
-    "lv": "Starosť",
+    "lv": "Starat se o",
     "level": "B2",
     "study": {
       "id": "b2-sich-erregen",
       "layout": "minimalStudy",
-      "translation": "Starosť",
-      "rektion": "über + ko?",
-      "explanation": "Sich erregen wymaga przyimka określonego über + co?.",
-      "forms": "über + ko?",
-      "formsLabel": "Kierownictwo:",
+      "translation": "Starat se o",
+      "rektion": "Über + ko?",
+      "explanation": "Sich erregen vyžaduje určitou předložku über + ko?.",
+      "forms": "Über + ko?",
+      "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich erregen"
           ],
           "red": [
-            "über"
+            "über + ko?"
           ]
         }
       }
@@ -4540,139 +4549,139 @@ const B2_WORDS = [
     "de": "Erreger",
     "de_article": "der",
     "de_plural": "die Erreger",
-    "lv": "Czynnik chorobotwórczy • Wirus",
+    "lv": "Původce choroby • Virus",
     "level": "B2"
   },
   {
     "de": "erringen",
-    "lv": "Wygrać",
+    "lv": "Vyhrát",
     "level": "B2"
   },
   {
     "de": "erröten",
-    "lv": "Rumienić się",
+    "lv": "Červenat se",
     "level": "B2"
   },
   {
     "de": "Erscheinung",
     "de_article": "die",
     "de_plural": "die Erscheinungen",
-    "lv": "Zjawisko • Wygląd • Wygląd • Wygląd",
+    "lv": "Fenomén • Vzhled • Vzhled • Vzhled",
     "level": "B2"
   },
   {
     "de": "erschießen",
-    "lv": "Strzelać",
+    "lv": "Střílet",
     "level": "B2"
   },
   {
     "de": "erschlagen",
-    "lv": "Strącać",
+    "lv": "Odklepnout",
     "level": "B2"
   },
   {
     "de": "erschöpfen",
-    "lv": "Wyczerpać • Męczyć",
+    "lv": "Vyčerpat • Unavit",
     "level": "B2"
   },
   {
     "de": "erschüttern",
-    "lv": "Shake • Shock • Pry",
+    "lv": "Otřást • Šokovat • Podkopat",
     "level": "B2"
   },
   {
     "de": "erschweren",
-    "lv": "Utrudniać • Utrudniać",
+    "lv": "Ztížit • Ztížit",
     "level": "B2"
   },
   {
     "de": "ersehen",
-    "lv": "Widzieć • Rozeznać",
+    "lv": "Vidět • Rozeznat",
     "level": "B2"
   },
   {
     "de": "ersparen",
-    "lv": "Oszczędzać • Oszczędzać • Oszczędzać • Oszczędzać",
+    "lv": "Uložit • Uložit • Ušetřit • Ušetřit",
     "level": "B2"
   },
   {
     "de": "Ersparnis",
     "de_article": "die",
     "de_plural": "die Ersparnisse",
-    "lv": "Oszczędności • Oszczędności",
+    "lv": "Úspory • Úspory",
     "level": "B2"
   },
   {
     "de": "erstarren",
-    "lv": "Zamarznąć",
+    "lv": "Zamrznout",
     "level": "B2"
   },
   {
     "de": "ersticken",
-    "lv": "Dusić • Dusić • Dusić • Gnębić • Gnębić • Dusić • Dusić",
+    "lv": "Dusit • Dusit • Dusit • Utlačovat • Utlačovat • Dusit • Dusit",
     "level": "B2"
   },
   {
     "de": "sich erstrecken",
-    "lv": "Rozłożyć • Rozciągnąć • Rozciągnąć",
+    "lv": "Roztáhnout • Roztáhnout • Natáhnout",
     "level": "B2"
   },
   {
     "de": "ertappen",
-    "lv": "Złapać",
+    "lv": "Chytit",
     "level": "B2"
   },
   {
     "de": "ertönen",
-    "lv": "Rozbrzmiewać • Rozbrzmiewać",
+    "lv": "Ozývat se • Ozývat se",
     "level": "B2"
   },
   {
     "de": "ertragen",
-    "lv": "Tolerować • Znosić",
+    "lv": "Tolerovat • Snášet",
     "level": "B2"
   },
   {
     "de": "erträglich",
-    "lv": "Tolerowany • Tolerowany",
+    "lv": "Snesitelný • Snesitelný",
     "level": "B2"
   },
   {
     "de": "erwägen",
-    "lv": "Rozważyć",
+    "lv": "Zvážit",
     "level": "B2"
   },
   {
     "de": "Erwägung",
     "de_article": "die",
     "de_plural": "die Erwägungen",
-    "lv": "Rozważenie • Rozważenie",
+    "lv": "Úvaha • Úvaha",
     "level": "B2"
   },
   {
     "de": "erweisen",
-    "lv": "Pokaż • Pokaż • Zrób",
+    "lv": "Ukazovat • Ukazovat • Dělat",
     "level": "B2"
   },
   {
     "de": "sich erweisen",
-    "lv": "Ukázalo sa, že",
+    "lv": "Ukázat být",
     "level": "B2",
     "study": {
       "id": "b2-sich-erweisen",
       "layout": "minimalStudy",
-      "translation": "Ukázalo sa, že",
-      "rektion": "als + kas?",
-      "explanation": "Sich erweisen wymaga przyimka określonego als + what?.",
-      "forms": "als + kas?",
-      "formsLabel": "Kierownictwo:",
+      "translation": "Ukázat být",
+      "rektion": "Als + kas?",
+      "explanation": "Sich erweisen vyžaduje určitou předložku als + what?.",
+      "forms": "Als + kas?",
+      "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich erweisen"
           ],
           "red": [
-            "als"
+            "Sich"
           ]
         }
       }
@@ -4682,12 +4691,12 @@ const B2_WORDS = [
     "de": "Erwerb",
     "de_article": "der",
     "de_plural": "die Erwerbe",
-    "lv": "Zarobki • Zysk • Zysk",
+    "lv": "Výdělek • Zisk • Zisk",
     "level": "B2"
   },
   {
     "de": "erwerben",
-    "lv": "Zarabiaj • Zdobywaj • Zdobywaj",
+    "lv": "Vydělat • Získat • Získat",
     "level": "B2"
   },
   {
@@ -4699,19 +4708,19 @@ const B2_WORDS = [
   },
   {
     "de": "erzielen",
-    "lv": "Zisk • Dosiahnuť • Dosiahnuť",
+    "lv": "Získat • Dosáhnout • Dosáhnout",
     "level": "B2"
   },
   {
     "de": "erzürnen",
-    "lv": "Złościć się",
+    "lv": "Zlobit se",
     "level": "B2"
   },
   {
     "de": "Esche",
     "de_article": "die",
     "de_plural": "die Eschen",
-    "lv": "Ash",
+    "lv": "Popel",
     "level": "B2"
   },
   {
@@ -4725,85 +4734,85 @@ const B2_WORDS = [
     "de": "Etat",
     "de_article": "der",
     "de_plural": "die Etats",
-    "lv": "Budżet",
+    "lv": "Rozpočet",
     "level": "B2"
   },
   {
     "de": "europaweit",
-    "lv": "Na skalę ogólnoeuropejską",
+    "lv": "V celoevropském měřítku",
     "level": "B2"
   },
   {
     "de": "Euter",
     "de_article": "das",
     "de_plural": "die Euter",
-    "lv": "Wymię",
+    "lv": "Vemeno",
     "level": "B2"
   },
   {
     "de": "exekutieren",
-    "lv": "Wykonać karę śmierci",
+    "lv": "Vykonávat trest smrti",
     "level": "B2"
   },
   {
     "de": "Exekutive",
     "de_article": "die",
     "de_plural": "die Exekutiven",
-    "lv": "Organ wykonawczy",
+    "lv": "Výkonný orgán",
     "level": "B2"
   },
   {
     "de": "Exil",
     "de_article": "das",
     "de_plural": "die Exile",
-    "lv": "Wygnanie • Wygnanie",
+    "lv": "Vyhnanství • Vyhoštění",
     "level": "B2"
   },
   {
     "de": "Existenz",
     "de_article": "die",
     "de_plural": "die Existenzen",
-    "lv": "Istnienie",
+    "lv": "Existence",
     "level": "B2"
   },
   {
     "de": "exklusiv",
-    "lv": "Zbadany • Piękny • Arystokratyczny",
+    "lv": "Vyšetřován • Jemný • Šlechtický",
     "level": "B2"
   },
   {
     "de": "Exot",
     "de_article": "der",
     "de_plural": "die Exoten",
-    "lv": "Osoba egzotyczna • Roślina • Zwierzę",
+    "lv": "Exotická osoba • Rostlina • Zvíře",
     "level": "B2"
   },
   {
     "de": "expandieren",
-    "lv": "Szybko rosnąć • Rozwijać się",
+    "lv": "Rychle růst • Expandovat",
     "level": "B2"
   },
   {
     "de": "Export",
     "de_article": "der",
     "de_plural": "die Exporte",
-    "lv": "Eksport • Eksport",
+    "lv": "Exportovat • Exportovat",
     "level": "B2"
   },
   {
     "de": "exportieren",
-    "lv": "Eksport • Wyjmij",
+    "lv": "Vyvážet • Vynášet",
     "level": "B2"
   },
   {
     "de": "exquisit",
-    "lv": "Zbadane • Subtelne",
+    "lv": "Vyšetřovaný • Jemný",
     "level": "B2"
   },
   {
     "de": "Extremismus",
     "de_article": "der",
-    "lv": "Ekstremizm",
+    "lv": "Extremismus",
     "level": "B2"
   },
   {
@@ -4817,161 +4826,161 @@ const B2_WORDS = [
     "de": "Fabrikat",
     "de_article": "das",
     "de_plural": "die Fabrikate",
-    "lv": "Produkcja przemysłowa • Produkt",
+    "lv": "Průmyslová výroba • Výrobek",
     "level": "B2"
   },
   {
     "de": "Fachabitur",
     "de_article": "das",
     "de_plural": "die Fachabiture",
-    "lv": "Ukończone szkolenie zawodowe",
+    "lv": "Absolvoval odbornou školu",
     "level": "B2"
   },
   {
     "de": "fachmännisch",
-    "lv": "Biegły",
+    "lv": "Dovedný",
     "level": "B2"
   },
   {
     "de": "Fackel",
     "de_article": "die",
     "de_plural": "die Fackeln",
-    "lv": "Latarka",
+    "lv": "Pochodeň",
     "level": "B2"
   },
   {
     "de": "fahl",
-    "lv": "Matowy • Blady",
+    "lv": "Tupý • Bledý",
     "level": "B2"
   },
   {
     "de": "fahnden",
-    "lv": "Intensywnie szukać",
+    "lv": "Intenzivně hledat",
     "level": "B2"
   },
   {
     "de": "Fahndungsliste",
     "de_article": "die",
     "de_plural": "die Fahndungslisten",
-    "lv": "Lista poszukiwanych",
+    "lv": "Hledaný seznam",
     "level": "B2"
   },
   {
     "de": "Fahrdamm",
     "de_article": "der",
     "de_plural": "die Fahrdämme",
-    "lv": "Przejezdna część ulicy • Chodnik",
+    "lv": "Sjízdná část ulice • Chodník",
     "level": "B2"
   },
   {
     "de": "Fahrerflucht",
     "de_article": "die",
-    "lv": "Opuszczenie miejsca wypadku",
+    "lv": "Opuštění místa nehody",
     "level": "B2"
   },
   {
     "de": "fahrlässig",
-    "lv": "Nieostrożny • Niechlujny",
+    "lv": "Nedbalý • Nedbalý",
     "level": "B2"
   },
   {
     "de": "Falke",
     "de_article": "der",
     "de_plural": "die Falken",
-    "lv": "Jastrab",
+    "lv": "Jestřáb",
     "level": "B2"
   },
   {
     "de": "Fallschirmturm",
     "de_article": "der",
     "de_plural": "die Fallschirmtürme",
-    "lv": "Wieża spadochroniarska",
+    "lv": "Parašutistická věž",
     "level": "B2"
   },
   {
     "de": "Falltür",
     "de_article": "die",
     "de_plural": "die Falltüren",
-    "lv": "Właz • Drzwi wbudowane w podłogę",
+    "lv": "Poklop • Dveře zabudované v podlaze",
     "level": "B2"
   },
   {
     "de": "fälschen",
-    "lv": "Sfałszować",
+    "lv": "Předstírat",
     "level": "B2"
   },
   {
     "de": "fälschlich",
-    "lv": "Wprowadzony w błąd • Pomylony",
+    "lv": "Scestný • Pomýlený",
     "level": "B2"
   },
   {
     "de": "Farbstoff",
     "de_article": "der",
     "de_plural": "die Farbstoffe",
-    "lv": "Barwnik",
+    "lv": "Barvivo",
     "level": "B2"
   },
   {
     "de": "Farbige",
     "de_article": "der",
     "de_plural": "die Farbigen",
-    "lv": "Kolorowy człowiek",
+    "lv": "Barevný muž",
     "level": "B2"
   },
   {
     "de": "Färbung",
     "de_article": "die",
     "de_plural": "die Färbungen",
-    "lv": "Kolorystyka • Odcień",
+    "lv": "Zbarvení • Odstín",
     "level": "B2"
   },
   {
     "de": "Farn",
     "de_article": "der",
     "de_plural": "die Farne",
-    "lv": "Paproć",
+    "lv": "Kapradina",
     "level": "B2"
   },
   {
     "de": "Fasan",
     "de_article": "der",
     "de_plural": "die Fasane",
-    "lv": "Bażant",
+    "lv": "Bažant",
     "level": "B2"
   },
   {
     "de": "Fasanenjagd",
     "de_article": "die",
     "de_plural": "die Fasanenjagden",
-    "lv": "Polowanie na bażanty",
+    "lv": "Lov bažantů",
     "level": "B2"
   },
   {
     "de": "Faschismus",
     "de_article": "der",
-    "lv": "Faszyzm",
+    "lv": "Fašismus",
     "level": "B2"
   },
   {
     "de": "Faser",
     "de_article": "die",
     "de_plural": "die Fasern",
-    "lv": "Błonnik",
+    "lv": "Vlákno",
     "level": "B2"
   },
   {
     "de": "sich fassen",
-    "lv": "Chwytać • Przyjmować • Powstrzymywać",
+    "lv": "Zmocnit se • Přijmout • Zadržet",
     "level": "B2",
     "study": {
       "id": "b2-sich-fassen",
       "layout": "minimalStudy",
-      "translation": "Chwytać • Przyjmować • Powstrzymywać",
-      "rektion": "an + kam?",
-      "explanation": "Sich fassen wymaga przyimka określonego an + kam?.",
-      "forms": "an + kam?",
-      "formsLabel": "Kierownictwo:",
+      "translation": "Zmocnit se • Přijmout • Zadržet",
+      "rektion": "An + kam?",
+      "explanation": "Sich fassen vyžaduje určitou předložku an + kam?.",
+      "forms": "An + kam?",
+      "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -4988,164 +4997,164 @@ const B2_WORDS = [
     "de": "Fassung",
     "de_article": "die",
     "de_plural": "die Fassungen",
-    "lv": "Ramy • Koperta • Sformułowanie",
+    "lv": "Rámec • Obálka • Formulace",
     "level": "B2"
   },
   {
     "de": "fassungslos",
-    "lv": "Prekvapený • Šokovaný",
+    "lv": "Překvapený • Šokovaný",
     "level": "B2"
   },
   {
     "de": "Faulbaum",
     "de_article": "der",
     "de_plural": "die Faulbäume",
-    "lv": "Przeddzień",
+    "lv": "Předvečer",
     "level": "B2"
   },
   {
     "de": "fechten",
-    "lv": "Ogrodzenie",
+    "lv": "Oplocení",
     "level": "B2"
   },
   {
     "de": "Fehlalarm",
     "de_article": "der",
     "de_plural": "die Fehlalarme",
-    "lv": "Fałszywy alarm",
+    "lv": "Planý poplach",
     "level": "B2"
   },
   {
     "de": "feilen",
-    "lv": "Rozczarować",
+    "lv": "Zklamat",
     "level": "B2"
   },
   {
     "de": "feindselig",
-    "lv": "Wrogi",
+    "lv": "Nepřátelský",
     "level": "B2"
   },
   {
     "de": "Feingefühl",
     "de_article": "das",
-    "lv": "Delikatność • Takt",
+    "lv": "Lahůdka • Takt",
     "level": "B2"
   },
   {
     "de": "Feldmesser",
     "de_article": "der",
     "de_plural": "die Feldmesser",
-    "lv": "Inspektor",
+    "lv": "Zeměměřič",
     "level": "B2"
   },
   {
     "de": "Ferkel",
     "de_article": "der",
     "de_plural": "die Ferkel",
-    "lv": "Prosiaczek",
+    "lv": "Prasátko",
     "level": "B2"
   },
   {
     "de": "fernstudieren",
-    "lv": "Nauka korespondencyjna",
+    "lv": "Studovat dálkově",
     "level": "B2"
   },
   {
     "de": "Fernstudium",
     "de_article": "das",
     "de_plural": "die Fernstudien",
-    "lv": "Nauka na odległość",
+    "lv": "Dálkové studium",
     "level": "B2"
   },
   {
     "de": "Fessel",
     "de_article": "die",
     "de_plural": "die Fesseln",
-    "lv": "Łańcuch • Kajdany",
+    "lv": "Řetěz • Okovy",
     "level": "B2"
   },
   {
     "de": "festigen",
-    "lv": "Wzmacniać • Wzmacniać",
+    "lv": "Posílit • Posílit",
     "level": "B2"
   },
   {
     "de": "Festigkeit",
     "de_article": "die",
     "de_plural": "die Festigkeiten",
-    "lv": "Twardość",
+    "lv": "Tvrdost",
     "level": "B2"
   },
   {
     "de": "Festspiele",
     "de_article": "die",
-    "lv": "Festiwal",
+    "lv": "Festival",
     "level": "B2"
   },
   {
     "de": "Festung",
     "de_article": "die",
     "de_plural": "die Festungen",
-    "lv": "Twierdza",
+    "lv": "Pevnost",
     "level": "B2"
   },
   {
     "de": "Fetzen",
     "de_article": "der",
     "de_plural": "die Fetzen",
-    "lv": "Żołądek • Ryzyko",
+    "lv": "Žaludek • Riziko",
     "level": "B2"
   },
   {
     "de": "feuerfest",
-    "lv": "Ogniotrwały",
+    "lv": "Ohnivzdorný",
     "level": "B2"
   },
   {
     "de": "Filmfestspiele",
     "de_article": "die",
-    "lv": "Festiwal filmowy",
+    "lv": "Filmový festival",
     "level": "B2"
   },
   {
     "de": "Fink",
     "de_article": "der",
     "de_plural": "die Finken",
-    "lv": "Zięba",
+    "lv": "Pěnkava",
     "level": "B2"
   },
   {
     "de": "Finsternis",
     "de_article": "die",
     "de_plural": "die Finsternisse",
-    "lv": "Ciemność • Ciemność • Zaćmienie",
+    "lv": "Tma • Tma • Zatmění",
     "level": "B2"
   },
   {
     "de": "Firmeninhaber",
     "de_article": "der",
     "de_plural": "die Firmeninhaber",
-    "lv": "Majiteľ spoločnosti",
+    "lv": "Majitel společnosti",
     "level": "B2"
   },
   {
     "de": "Firmenkapital",
     "de_article": "das",
-    "lv": "Kapitał firmy",
+    "lv": "Kapitál firmy",
     "level": "B2"
   },
   {
     "de": "Handelsfirma",
     "de_article": "die",
     "de_plural": "die Handelsfirmen",
-    "lv": "Firma handlowa",
+    "lv": "Obchodní společnost",
     "level": "B2"
   },
   {
     "de": "Lieferfirma",
     "de_article": "die",
     "de_plural": "die Lieferfirmen",
-    "lv": "Firma dostawca",
+    "lv": "Dodavatelská společnost",
     "level": "B2"
   },
   {
@@ -5159,77 +5168,77 @@ const B2_WORDS = [
     "de": "Flaum",
     "de_article": "der",
     "de_plural": null,
-    "lv": "Dół • Puch",
+    "lv": "Dolů • Chmýří",
     "level": "B2"
   },
   {
     "de": "flauschig",
-    "lv": "Puszyste",
+    "lv": "Načechraný",
     "level": "B2"
   },
   {
     "de": "flechten",
-    "lv": "Skręt • Warkocz",
+    "lv": "Kroutit • Cop",
     "level": "B2"
   },
   {
     "de": "fleckig",
-    "lv": "Plamisty • Poplamiony • Cętkowany • Nakrapiany • Nakrapiany",
+    "lv": "Skvrnitý • Flekatý • Strakatý • Kropenatý • Strakatý",
     "level": "B2"
   },
   {
     "de": "fliederfarben",
-    "lv": "Kolor liliowy",
+    "lv": "Lila barva",
     "level": "B2"
   },
   {
     "de": "flimmern",
-    "lv": "Migotać • Migotać • Migotać • Migotać • Migotać",
+    "lv": "Třpytit se • Třpytit se • Třpytit se • Třpytit se • Třpytit se",
     "level": "B2"
   },
   {
     "de": "Flinte",
     "de_article": "die",
     "de_plural": "die Flinten",
-    "lv": "[łowiecka] strzelba",
+    "lv": "[lov] brokovnice",
     "level": "B2"
   },
   {
     "de": "Flosse",
     "de_article": "die",
     "de_plural": "die Flossen",
-    "lv": "Płetwa",
+    "lv": "Ploutev",
     "level": "B2"
   },
   {
     "de": "Flotte",
     "de_article": "die",
     "de_plural": "die Flotten",
-    "lv": "Flota",
+    "lv": "Loďstvo",
     "level": "B2"
   },
   {
     "de": "flüchtig",
-    "lv": "Przelotne • Powierzchowne • Ulotne • Ulotne • Krótkotrwałe",
+    "lv": "Pomíjivý • Povrchní • Pomíjivý • Pomíjivý • Krátkodobý",
     "level": "B2"
   },
   {
     "de": "Flugfeld",
     "de_article": "das",
     "de_plural": "die Flugfelder",
-    "lv": "Letisko",
+    "lv": "LETIŠTĚ",
     "level": "B2"
   },
   {
     "de": "Flugverkehr",
     "de_article": "der",
-    "lv": "Ruch lotniczy",
+    "lv": "Letecký provoz",
     "level": "B2"
   },
   {
     "de": "Flugwesen",
     "de_article": "das",
-    "lv": "Lotnictwo",
+    "lv": "Letectví",
     "level": "B2"
   },
   {
@@ -5243,220 +5252,223 @@ const B2_WORDS = [
     "de": "Flur",
     "de_article": "die",
     "de_plural": "die Fluren",
-    "lv": "Pole • Polana",
+    "lv": "Pole • Paseka",
     "level": "B2"
   },
   {
     "de": "Flussarm",
     "de_article": "der",
     "de_plural": "die Flussarme",
-    "lv": "Odtok",
+    "lv": "Reflux",
     "level": "B2"
   },
   {
     "de": "Flussbett",
     "de_article": "das",
     "de_plural": "die Flussbetten",
-    "lv": "Posteľ",
+    "lv": "Postel",
     "level": "B2"
   },
   {
     "de": "folgern",
-    "lv": "Podsumować",
+    "lv": "Uzavřít",
     "level": "B2"
   },
   {
     "de": "Fonds",
     "de_article": "der",
     "de_plural": "die Fonds",
-    "lv": "Fundusz",
+    "lv": "Fond",
     "level": "B2"
   },
   {
     "de": "Hilfsfonds",
     "de_article": "der",
     "de_plural": "die Hilfsfonds",
-    "lv": "Fundusz pomocowy",
+    "lv": "Pomocný fond",
     "level": "B2"
   },
   {
     "de": "Studienfonds",
     "de_article": "der",
     "de_plural": "die Studienfonds",
-    "lv": "Fundusz naukowy",
+    "lv": "Studijní fond",
     "level": "B2"
   },
   {
     "de": "formell",
-    "lv": "Poprawny • Uprzejmy • Formalny • Sztywny",
+    "lv": "Správný • Zdvořilý • Formální • Tuhý",
     "level": "B2"
   },
   {
     "de": "Formsache",
     "de_article": "die",
     "de_plural": "die Formsachen",
-    "lv": "Formalność",
+    "lv": "Formalita",
     "level": "B2"
   },
   {
     "de": "Förster",
     "de_article": "der",
     "de_plural": "die Förster",
-    "lv": "Leśniczy",
+    "lv": "Ranger",
     "level": "B2"
   },
   {
     "de": "sich fortpflanzen",
-    "lv": "Pomnażać • Rozprzestrzeniać",
+    "lv": "Množit se • Šířit",
     "level": "B2"
   },
   {
     "de": "fortschaffen",
-    "lv": "Zdobyć • Zabrać • Zabrać",
+    "lv": "Obstarat • Odvézt • Odvézt",
     "level": "B2"
   },
   {
     "de": "fortschreiten",
-    "lv": "Rozwijać się dalej",
+    "lv": "Dále rozvíjet",
     "level": "B2"
   },
   {
     "de": "fortwährend",
-    "lv": "Pevné • Nepretržité",
+    "lv": "Stálý • Nepřetržitý",
     "level": "B2"
   },
   {
     "de": "Fracht",
     "de_article": "die",
     "de_plural": "die Frachten",
-    "lv": "Ładunek • Fracht",
+    "lv": "Náklad • Nákladní",
     "level": "B2"
   },
   {
     "de": "fraglich",
-    "lv": "Wątpliwe • Dyskusyjne",
+    "lv": "Pochybný • Diskutabilní",
     "level": "B2"
   },
   {
     "de": "fraglos",
-    "lv": "Niekwestionowany • Bezsporny",
+    "lv": "Nezpochybnitelný • Nezpochybnitelný",
     "level": "B2"
   },
   {
     "de": "Fraktion",
     "de_article": "die",
     "de_plural": "die Fraktionen",
-    "lv": "Frakcja",
+    "lv": "Zlomek",
     "level": "B2"
   },
   {
     "de": "fräsen",
-    "lv": "Młynować",
+    "lv": "Frézovat",
     "level": "B2"
   },
   {
     "de": "Fräser",
     "de_article": "der",
     "de_plural": "die Fräser",
-    "lv": "Frezarka • Frezarka",
+    "lv": "Frézka • Frézka",
     "level": "B2"
   },
   {
     "de": "Freiheitskampf",
     "de_article": "der",
     "de_plural": "die Freiheitskämpfe",
-    "lv": "Walka o wolność",
+    "lv": "Boj za svobodu",
     "level": "B2"
   },
   {
     "de": "freilich",
-    "lv": "Oczywiście • Bez wątpienia • Ale • Tylko",
+    "lv": "Ovšem • Bezpochyby • Ale • Pouze",
     "level": "B2"
   },
   {
     "de": "Freilichtbühne",
     "de_article": "die",
     "de_plural": "die Freilichtbühnen",
-    "lv": "Teatr na świeżym powietrzu",
+    "lv": "Divadlo pod širým nebem",
     "level": "B2"
   },
   {
     "de": "freimütig",
-    "lv": "Szczery • Szczery",
+    "lv": "Upřímný • Upřímný",
     "level": "B2"
   },
   {
     "de": "freisprechen",
-    "lv": "Uzasadnić",
+    "lv": "Ospravedlnit",
     "level": "B2"
   },
   {
     "de": "Fremde",
     "de_article": "die",
-    "lv": "Obcość • Cudzoziemiec",
+    "lv": "Cizí • Cizinec",
     "level": "B2"
   },
   {
     "de": "fremdgehen",
-    "lv": "Stać się niewiernym",
+    "lv": "Stát se nevěrným",
     "level": "B2"
   },
   {
     "de": "friedfertig",
-    "lv": "Kľud • Vyhovuje",
+    "lv": "Mírumilovný • Vyhovující",
     "level": "B2"
   },
   {
     "de": "fristlos",
-    "lv": "Nieokreślony",
+    "lv": "Neurčitý",
     "level": "B2"
   },
   {
     "de": "fromm",
-    "lv": "Pobożny",
+    "lv": "Zbožný",
     "level": "B2"
   },
   {
     "de": "Frosteinbruch",
     "de_article": "der",
     "de_plural": "die Frosteinbrüche",
-    "lv": "Początek mrozu",
+    "lv": "Nástup mrazů",
     "level": "B2"
   },
   {
     "de": "Frostschaden",
     "de_article": "der",
     "de_plural": "die Frostschäden",
-    "lv": "Szkody spowodowane mrozem",
+    "lv": "Škody způsobené mrazem",
     "level": "B2"
   },
   {
     "de": "fruchtlos",
-    "lv": "Jałowy",
+    "lv": "Neplodný",
     "level": "B2"
   },
   {
     "de": "Frust",
     "de_article": "der",
-    "lv": "Udaremnienie",
+    "lv": "Frustrace",
     "level": "B2"
   },
   {
     "de": "sich fügen",
-    "lv": "Dostosować się • Być posłusznym",
+    "lv": "Přizpůsobovat • Poslouchat",
     "level": "B2",
     "study": {
       "id": "b2-sich-fuegen",
       "layout": "minimalStudy",
-      "translation": "Dostosować się • Być posłusznym",
-      "rektion": "in + ko?",
-      "explanation": "Sich fügen wymaga przyimka określonego w + ko?.",
-      "forms": "in + ko?",
-      "formsLabel": "Kierownictwo:",
+      "translation": "Přizpůsobovat • Poslouchat",
+      "rektion": "In + ko?",
+      "explanation": "Sich fügen vyžaduje určitou předložku v + ko?.",
+      "forms": "In + ko?",
+      "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich fügen"
+          ],
+          "red": [
+            "Sich"
           ]
         }
       }
@@ -5466,126 +5478,126 @@ const B2_WORDS = [
     "de": "Fuhre",
     "de_article": "die",
     "de_plural": "die Fuhren",
-    "lv": "Przewóz • Ładunek",
+    "lv": "Kočár • Náklad",
     "level": "B2"
   },
   {
     "de": "Führerrolle",
     "de_article": "die",
     "de_plural": "die Führerrollen",
-    "lv": "Wiodącą rolę",
+    "lv": "Vedoucí role",
     "level": "B2"
   },
   {
     "de": "Führernatur",
     "de_article": "die",
-    "lv": "Typ lidera • Lider",
+    "lv": "Typ vůdce • Vůdce",
     "level": "B2"
   },
   {
     "de": "funken",
-    "lv": "Transmitowany w radiu",
+    "lv": "Vysílat v rádiu",
     "level": "B2"
   },
   {
     "de": "Funker",
     "de_article": "der",
     "de_plural": "die Funker",
-    "lv": "Radiooperator • Radiooperator",
+    "lv": "Radista • Radista",
     "level": "B2"
   },
   {
     "de": "Funkspruch",
     "de_article": "der",
     "de_plural": "die Funksprüche",
-    "lv": "Radiogram",
+    "lv": "Gramorádio",
     "level": "B2"
   },
   {
     "de": "Funkstation",
     "de_article": "die",
     "de_plural": "die Funkstationen",
-    "lv": "Stacja nadawcza",
+    "lv": "Vysílací stanice",
     "level": "B2"
   },
   {
     "de": "Funkstörung",
     "de_article": "die",
     "de_plural": "die Funkstörungen",
-    "lv": "Zakłócenia transmisji",
+    "lv": "Rušení přenosu",
     "level": "B2"
   },
   {
     "de": "Funkverbindung",
     "de_article": "die",
     "de_plural": "die Funkverbindungen",
-    "lv": "Łączność radiowa",
+    "lv": "Rádiové komunikace",
     "level": "B2"
   },
   {
     "de": "Funktionär",
     "de_article": "der",
     "de_plural": "die Funktionäre",
-    "lv": "Działacz • Pracownik",
+    "lv": "Aktivista • Zaměstnanec",
     "level": "B2"
   },
   {
     "de": "Furche",
     "de_article": "die",
     "de_plural": "die Furchen",
-    "lv": "Bruzda • Zmarszczka • Zmarszczka",
+    "lv": "Brázda • Vráska • Vráska",
     "level": "B2"
   },
   {
     "de": "Fürsorge",
     "de_article": "die",
     "de_plural": "die Fürsorgen",
-    "lv": "Opieka • Opieka",
+    "lv": "Péče • Opatrovnictví",
     "level": "B2"
   },
   {
     "de": "Fürsprache",
     "de_article": "die",
     "de_plural": "die Fürsprachen",
-    "lv": "Perswazja • Dobre imię, którego można bronić",
+    "lv": "Přesvědčování • Obhajitelné dobré jméno",
     "level": "B2"
   },
   {
     "de": "Futtertrog",
     "de_article": "der",
     "de_plural": "die Futtertröge",
-    "lv": "Koryto paszowe",
+    "lv": "Krmný žlab",
     "level": "B2"
   },
   {
     "de": "Futterpflanze",
     "de_article": "die",
     "de_plural": "die Futterpflanzen",
-    "lv": "Roślina pastewna",
+    "lv": "Krmná rostlina",
     "level": "B2"
   },
   {
     "de": "Gage",
     "de_article": "die",
     "de_plural": "die Gagen",
-    "lv": "Wynagrodzenie artysty",
+    "lv": "Honorář umělce",
     "level": "B2"
   },
   {
     "de": "Galle",
     "de_article": "die",
     "de_plural": "die Gallen",
-    "lv": "Żółć",
+    "lv": "Žluč",
     "level": "B2"
   },
   {
     "de": "gangbar",
-    "lv": "Można chodzić",
+    "lv": "Pochozí",
     "level": "B2"
   },
   {
     "de": "gängig",
-    "lv": "Pieszy",
+    "lv": "Chůze",
     "level": "B2"
   },
   {
@@ -5599,311 +5611,311 @@ const B2_WORDS = [
     "de": "Garbe",
     "de_article": "die",
     "de_plural": "die Garben",
-    "lv": "Wiązka • Wiązka",
+    "lv": "Svazek • Svazek",
     "level": "B2"
   },
   {
     "de": "Garde",
     "de_article": "die",
     "de_plural": "die Garden",
-    "lv": "Strażnik",
+    "lv": "Hlídat",
     "level": "B2"
   },
   {
     "de": "gären",
-    "lv": "Fermentować",
+    "lv": "Kvasit",
     "level": "B2"
   },
   {
     "de": "Garnknäuel",
     "de_article": "das",
     "de_plural": "die Garnknäuel",
-    "lv": "Bryła",
+    "lv": "Kus",
     "level": "B2"
   },
   {
     "de": "Garnspule",
     "de_article": "die",
     "de_plural": "die Garnspulen",
-    "lv": "Cewka • Cewka",
+    "lv": "Cívka • Cívka",
     "level": "B2"
   },
   {
     "de": "Gasableser",
     "de_article": "der",
     "de_plural": "die Gasableser",
-    "lv": "Plynomer",
+    "lv": "Plynoměr",
     "level": "B2"
   },
   {
     "de": "Gastarbeiter",
     "de_article": "der",
     "de_plural": "die Gastarbeiter",
-    "lv": "Pracownik gościnny",
+    "lv": "Hostující pracovník",
     "level": "B2"
   },
   {
     "de": "Gatte",
     "de_article": "der",
     "de_plural": "die Gatten",
-    "lv": "Mąż",
+    "lv": "Manžel",
     "level": "B2"
   },
   {
     "de": "Gattin",
     "de_article": "die",
     "de_plural": "die Gattinnen",
-    "lv": "Żona",
+    "lv": "Manželka",
     "level": "B2"
   },
   {
     "de": "Gattung",
     "de_article": "die",
     "de_plural": "die Gattungen",
-    "lv": "Gatunek • Rasa",
+    "lv": "Druh • Plemeno",
     "level": "B2"
   },
   {
     "de": "Gebärde",
     "de_article": "die",
     "de_plural": "die Gebärden",
-    "lv": "Gest • Cecha",
+    "lv": "Gesto • Rys",
     "level": "B2"
   },
   {
     "de": "Gebot",
     "de_article": "das",
     "de_plural": "die Gebote",
-    "lv": "Polecenie • Wymóg • Przykazanie",
+    "lv": "Příkaz • Požadavek • Příkaz",
     "level": "B2"
   },
   {
     "de": "gebrechlich",
-    "lv": "Chudobný • Uschnutý • Krásny • Zmrzačený • Chybný",
+    "lv": "Slabý • Seschlý • Gauden • Zmrzačený • Plný chyb",
     "level": "B2"
   },
   {
     "de": "gedämpft",
-    "lv": "Stłumiony • Wyciszony • Stłumiony",
+    "lv": "Tlumený • Tlumený • Tlumený",
     "level": "B2"
   },
   {
     "de": "Gedeck",
     "de_article": "das",
     "de_plural": "die Gedecke",
-    "lv": "Sztućce dla jednej osoby",
+    "lv": "Příbory pro jednu osobu",
     "level": "B2"
   },
   {
     "de": "gedeihen",
-    "lv": "Radzić sobie dobrze • Odnieść sukces • Prosperować • Prosperować",
+    "lv": "Dělat dobře • Uspět • Prosperovat • Prosperovat",
     "level": "B2"
   },
   {
     "de": "gedenken",
-    "lv": "Mieć na uwadze • Pamiętać • Pamiętać • Wspominać",
+    "lv": "Mít na mysli • Pamatovat • Pamatovat • Zmínit se",
     "level": "B2"
   },
   {
     "de": "Gedenktafel",
     "de_article": "die",
     "de_plural": "die Gedenktafeln",
-    "lv": "Tablica pamiątkowa",
+    "lv": "Pamětní deska",
     "level": "B2"
   },
   {
     "de": "Gedenktag",
     "de_article": "der",
     "de_plural": "die Gedenktage",
-    "lv": "Dzień pamięci",
+    "lv": "Pamětní den",
     "level": "B2"
   },
   {
     "de": "Gefährte",
     "de_article": "der",
     "de_plural": "die Gefährten",
-    "lv": "Członek",
+    "lv": "Členem",
     "level": "B2"
   },
   {
     "de": "Gefallen",
     "de_article": "das",
-    "lv": "Lubić • Lubić",
+    "lv": "Zálibu • Rád",
     "level": "B2"
   },
   {
     "de": "gefällig",
-    "lv": "Miły • Uczynny • Gościnny • Miły",
+    "lv": "Příjemný • Vstřícný • Vstřícný • Milý",
     "level": "B2"
   },
   {
     "de": "Gefäß",
     "de_article": "das",
     "de_plural": "die Gefäße",
-    "lv": "Naczynie • Naczynie krwionośne",
+    "lv": "Céva • Céva",
     "level": "B2"
   },
   {
     "de": "Gefecht",
     "de_article": "das",
     "de_plural": "die Gefechte",
-    "lv": "Bitwa • Bitwa",
+    "lv": "Bitva • Bitva",
     "level": "B2"
   },
   {
     "de": "Gefolge",
     "de_article": "das",
     "de_plural": "die Gefolge",
-    "lv": "Otoczenie • Opiekunowie",
+    "lv": "Doprovod • Doprovod",
     "level": "B2"
   },
   {
     "de": "Gefüge",
     "de_article": "das",
     "de_plural": "die Gefüge",
-    "lv": "Konstrukcja • Konstrukcja • Połączenie • Złącze",
+    "lv": "Struktūra • Uzbūve • Savienojums • Salaidums",
     "level": "B2"
   },
   {
     "de": "Gegengift",
     "de_article": "das",
     "de_plural": "die Gegengifte",
-    "lv": "Antidotum",
+    "lv": "Protijed",
     "level": "B2"
   },
   {
     "de": "Gegenmittel",
     "de_article": "das",
     "de_plural": "die Gegenmittel",
-    "lv": "Antidotum",
+    "lv": "Protijed",
     "level": "B2"
   },
   {
     "de": "Gegenrede",
     "de_article": "die",
     "de_plural": "die Gegenreden",
-    "lv": "Oświadczenie • Sprzeciw",
+    "lv": "Prohlášení • Námitka",
     "level": "B2"
   },
   {
     "de": "Gegensatz",
     "de_article": "der",
     "de_plural": "die Gegensätze",
-    "lv": "Przeciwieństwo • Kontrast • Sprzeczność",
+    "lv": "Protiklad • Protiklad • Rozpor",
     "level": "B2"
   },
   {
     "de": "Amtsgeheimnis",
     "de_article": "das",
     "de_plural": "die Amtsgeheimnisse",
-    "lv": "Tajemnica urzędowa",
+    "lv": "Tajemství úřadu",
     "level": "B2"
   },
   {
     "de": "gehörig",
-    "lv": "Przynależność • Przynależność • Właściwa • Przynależność",
+    "lv": "Náležet • Náležet • Patřičný • Slušivý",
     "level": "B2"
   },
   {
     "de": "Geiselnahme",
     "de_article": "die",
     "de_plural": "die Geiselnahmen",
-    "lv": "Branie zakładników",
+    "lv": "Braní rukojmích",
     "level": "B2"
   },
   {
     "de": "Geistliche",
     "de_article": "der",
     "de_plural": "die Geistlichen",
-    "lv": "Duchowny",
+    "lv": "Duchovní",
     "level": "B2"
   },
   {
     "de": "gekünstelt",
-    "lv": "Sztuczne • Nienaturalne",
+    "lv": "Umělý • Nepřirozený",
     "level": "B2"
   },
   {
     "de": "Geländelauf",
     "de_article": "der",
     "de_plural": "die Geländeläufe",
-    "lv": "Przełaj",
+    "lv": "Cross country",
     "level": "B2"
   },
   {
     "de": "gelassen",
-    "lv": "Spokojny • Powściągliwy",
+    "lv": "Klidný • Zdrženlivý",
     "level": "B2"
   },
   {
     "de": "geläufig",
-    "lv": "Znany • Znajomy • Nawykowy • Biegły • Biegły",
+    "lv": "Zināms • Pazīstams • Ierasts • Tekošs • Brīvs",
     "level": "B2"
   },
   {
     "de": "gelaunt",
-    "lv": "Oh",
+    "lv": "Ó",
     "level": "B2"
   },
   {
     "de": "Geldbuße",
     "de_article": "die",
     "de_plural": "die Geldbußen",
-    "lv": "Cienki",
+    "lv": "Dobře",
     "level": "B2"
   },
   {
     "de": "Geldspende",
     "de_article": "die",
     "de_plural": "die Geldspenden",
-    "lv": "Darowizna",
+    "lv": "Dar",
     "level": "B2"
   },
   {
     "de": "Geldeinlage",
     "de_article": "die",
     "de_plural": "die Geldeinlagen",
-    "lv": "Depozyt pieniężny • Depozyt",
+    "lv": "Vklad peněz • Vklad",
     "level": "B2"
   },
   {
     "de": "Geldumlauf",
     "de_article": "der",
     "de_plural": "die Geldumläufe",
-    "lv": "Obieg pieniędzy",
+    "lv": "Peněžní oběh",
     "level": "B2"
   },
   {
     "de": "gelegen",
-    "lv": "Wygodny • Wygodny • Poręczny • Odosobniony",
+    "lv": "Pohodlný • Pohodlný • Šikovný • Na samotě",
     "level": "B2"
   },
   {
     "de": "Gelehrte",
     "de_article": "der",
     "de_plural": "die Gelehrten",
-    "lv": "Naukowiec",
+    "lv": "Vědec",
     "level": "B2"
   },
   {
     "de": "Geliebte",
     "de_article": "der",
     "de_plural": "die Geliebten",
-    "lv": "Milovaný • Milenec • Milenec",
+    "lv": "Milovaný • Milovaný • Milenec",
     "level": "B2"
   },
   {
     "de": "Gelöbnis",
     "de_article": "das",
     "de_plural": "die Gelöbnisse",
-    "lv": "Uroczysta obietnica",
+    "lv": "Slavnostní slib",
     "level": "B2"
   },
   {
     "de": "Geltung",
     "de_article": "die",
     "de_plural": "die Geltungen",
-    "lv": "Znaczenie • Znaczenie",
+    "lv": "Význam • Význam",
     "level": "B2"
   },
   {
@@ -5917,102 +5929,102 @@ const B2_WORDS = [
     "de": "Gemahlin",
     "de_article": "die",
     "de_plural": "die Gemahlinnen",
-    "lv": "Żona • Małżonek",
+    "lv": "Manželka • Manžel",
     "level": "B2"
   },
   {
     "de": "gemäß",
-    "lv": "Po • Zgodnie z • Odpowiednio",
+    "lv": "Po • Podle • Podle toho",
     "level": "B2"
   },
   {
     "de": "gemessen",
-    "lv": "Zrównoważony • Przemyślany",
+    "lv": "Vyvážený • Uvážený",
     "level": "B2"
   },
   {
     "de": "Gemetzel",
     "de_article": "das",
     "de_plural": "die Gemetzel",
-    "lv": "Rzeź • Masowe zabijanie",
+    "lv": "Masakr • Hromadné zabíjení",
     "level": "B2"
   },
   {
     "de": "Gemisch",
     "de_article": "das",
     "de_plural": "die Gemische",
-    "lv": "Mieszanina • Mieszanina • Mieszanina",
+    "lv": "Směs • Směs • Směs",
     "level": "B2"
   },
   {
     "de": "Gemüsebau",
     "de_article": "der",
-    "lv": "Rośliny okopowe • Rośliny warzywne",
+    "lv": "Okopaniny • Zeleninové plodiny",
     "level": "B2"
   },
   {
     "de": "Gemüt",
     "de_article": "das",
     "de_plural": "die Gemüter",
-    "lv": "Charakter • Natura • Myśli • Umysły",
+    "lv": "Charakter • Příroda • Myšlenky • Mysl",
     "level": "B2"
   },
   {
     "de": "gemütvoll",
-    "lv": "Ciepły • Przytulny",
+    "lv": "Teplý • Útulný",
     "level": "B2"
   },
   {
     "de": "Genforscher",
     "de_article": "der",
     "de_plural": "die Genforscher",
-    "lv": "Badacz genów",
+    "lv": "Výzkumník genů",
     "level": "B2"
   },
   {
     "de": "Genmaterial",
     "de_article": "das",
-    "lv": "Materiał genetyczny",
+    "lv": "Genetický materiál",
     "level": "B2"
   },
   {
     "de": "Genmutation",
     "de_article": "die",
     "de_plural": "die Genmutationen",
-    "lv": "Mutacja genu",
+    "lv": "Genová mutace",
     "level": "B2"
   },
   {
     "de": "genesen",
-    "lv": "Wyzdrowiej • Wyzdrowiej",
+    "lv": "Uzdravit se • Uzdravit se",
     "level": "B2"
   },
   {
     "de": "Genesung",
     "de_article": "die",
     "de_plural": "die Genesungen",
-    "lv": "Zotavenie • Zotav",
+    "lv": "Zotavení • Zotavení",
     "level": "B2"
   },
   {
     "de": "Genick",
     "de_article": "das",
     "de_plural": "die Genicke",
-    "lv": "Potylica",
+    "lv": "Týl",
     "level": "B2"
   },
   {
     "de": "sich genieren",
-    "lv": "Hanbite sa",
+    "lv": "Stydět se",
     "level": "B2",
     "study": {
       "id": "b2-sich-genieren",
       "layout": "minimalStudy",
-      "translation": "Hanbite sa",
-      "rektion": "vor + kam?",
-      "explanation": "Sich genieren wymaga przyimka określonego vor + kam?.",
-      "forms": "vor + kam?",
-      "formsLabel": "Kierownictwo:",
+      "translation": "Stydět se",
+      "rektion": "Vor + kam?",
+      "explanation": "Sich genieren vyžaduje určitou předložku vor + kam?.",
+      "forms": "Vor + kam?",
+      "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -6029,188 +6041,188 @@ const B2_WORDS = [
     "de": "Genosse",
     "de_article": "der",
     "de_plural": "die Genossen",
-    "lv": "Członek",
+    "lv": "Členem",
     "level": "B2"
   },
   {
     "de": "Genossin",
     "de_article": "die",
     "de_plural": "die Genossinnen",
-    "lv": "Członek • Członek",
+    "lv": "Člen • Člen",
     "level": "B2"
   },
   {
     "de": "genügsam",
-    "lv": "Skromny",
+    "lv": "Skromný",
     "level": "B2"
   },
   {
     "de": "Genugtuung",
     "de_article": "die",
     "de_plural": "die Genugtuungen",
-    "lv": "Zadowolenie",
+    "lv": "Spokojenost",
     "level": "B2"
   },
   {
     "de": "Gepäcknetz",
     "de_article": "das",
     "de_plural": "die Gepäcknetze",
-    "lv": "Siatka bagażowa",
+    "lv": "Síť na zavazadla",
     "level": "B2"
   },
   {
     "de": "Gepäckwagen",
     "de_article": "der",
     "de_plural": "die Gepäckwagen",
-    "lv": "Samochód bagażowy",
+    "lv": "Zavazadlový vůz",
     "level": "B2"
   },
   {
     "de": "geraten",
-    "lv": "Przybyć • Dostać się • Poddać się • Odnieść sukces • Trafić",
+    "lv": "Dorazit • Dostat se • Vzdát se • Uspět • Zasáhnout",
     "level": "B2"
   },
   {
     "de": "Geratewohl",
     "de_article": "das",
-    "lv": "Powodzenia",
+    "lv": "Hodně štěstí",
     "level": "B2"
   },
   {
     "de": "geräuschlos",
-    "lv": "Cicho • Cicho • Bez hałasu",
+    "lv": "Tiše • Tiše • Bez hluku",
     "level": "B2"
   },
   {
     "de": "Gerede",
     "de_article": "das",
     "de_plural": "die Gerede",
-    "lv": "Mówienie • Mowa • Język narodowy • Plotki",
+    "lv": "Mluvení • Řeč • Lidový jazyk • Drby",
     "level": "B2"
   },
   {
     "de": "gerinnen",
-    "lv": "Koagulować • Krzepnąć • Krzepnąć • Krzepnąć • Zamarzać",
+    "lv": "Srážet se • Ztuhnout • Ztuhnout • Ztuhnout • Zmrznout",
     "level": "B2"
   },
   {
     "de": "Gerippe",
     "de_article": "das",
     "de_plural": "die Gerippe",
-    "lv": "Szkielet • Ciało • Szkielet",
+    "lv": "Kostra • Tělo • Kostra",
     "level": "B2"
   },
   {
     "de": "Gerüst",
     "de_article": "das",
     "de_plural": "die Gerüste",
-    "lv": "Rusztowanie",
+    "lv": "Lešení",
     "level": "B2"
   },
   {
     "de": "Gesamtzahl",
     "de_article": "die",
     "de_plural": "die Gesamtzahlen",
-    "lv": "Całkowity",
+    "lv": "Celkový",
     "level": "B2"
   },
   {
     "de": "Gesandte",
     "de_article": "der",
     "de_plural": "die Gesandten",
-    "lv": "Posłaniec",
+    "lv": "Posel",
     "level": "B2"
   },
   {
     "de": "geschäftig",
-    "lv": "Aktywny • Żywy",
+    "lv": "Aktivní • Čilý",
     "level": "B2"
   },
   {
     "de": "Geschehnis",
     "de_article": "das",
     "de_plural": "die Geschehnisse",
-    "lv": "Wydarzenie • Przypadek • Incydent",
+    "lv": "Událost • Případ • Incident",
     "level": "B2"
   },
   {
     "de": "Geschiedene",
     "de_article": "der",
     "de_plural": "die Geschiedenen",
-    "lv": "Rozwód",
+    "lv": "Rozvod",
     "level": "B2"
   },
   {
     "de": "Geschöpf",
     "de_article": "das",
     "de_plural": "die Geschöpfe",
-    "lv": "Stworzenie • Stworzenie • Istota",
+    "lv": "Stvoření • Stvoření • Bytost",
     "level": "B2"
   },
   {
     "de": "Geschoss",
     "de_article": "das",
     "de_plural": "die Geschosse",
-    "lv": "Pocisk",
+    "lv": "Projektil",
     "level": "B2"
   },
   {
     "de": "Geschütz",
     "de_article": "das",
     "de_plural": "die Geschütze",
-    "lv": "Armata",
+    "lv": "Dělo",
     "level": "B2"
   },
   {
     "de": "Geschwätz",
     "de_article": "das",
     "de_plural": "die Geschwätze",
-    "lv": "Gadać • Kłamać • Gadać",
+    "lv": "Klábosit • Lhát • Klábosit",
     "level": "B2"
   },
   {
     "de": "geschweige",
-    "lv": "Nie wspominając",
+    "lv": "Ani nemluvě",
     "level": "B2"
   },
   {
     "de": "geschwind",
-    "lv": "Szybki • Zwinny • Zwinny",
+    "lv": "Rychlý • Hbitý • Hbitý",
     "level": "B2"
   },
   {
     "de": "Geschwulst",
     "de_article": "die",
     "de_plural": "die Geschwülste",
-    "lv": "Guz",
+    "lv": "Nádor",
     "level": "B2"
   },
   {
     "de": "Geschwür",
     "de_article": "das",
     "de_plural": "die Geschwüre",
-    "lv": "Roślina • Wrzód",
+    "lv": "Rostlina • Vřed",
     "level": "B2"
   },
   {
     "de": "Geselle",
     "de_article": "der",
     "de_plural": "die Gesellen",
-    "lv": "Zellis • Pomocnik • Facet • Rzemieślnik, który zdał egzamin po lekcjach",
+    "lv": "Zellis • Pomocník • Chlapík • Řemeslník, který složil zkoušku po škole",
     "level": "B2"
   },
   {
     "de": "sich gesellen",
-    "lv": "Pripojte sa",
+    "lv": "Připojit se",
     "level": "B2",
     "study": {
       "id": "b2-sich-gesellen",
       "layout": "minimalStudy",
-      "translation": "Pripojte sa",
-      "rektion": "zu + kam?",
-      "explanation": "Sich gesellen wymaga przyimka określonego zu + kam?.",
-      "forms": "zu + kam?",
-      "formsLabel": "Kierownictwo:",
+      "translation": "Připojit se",
+      "rektion": "Zu + kam?",
+      "explanation": "Sich gesellen vyžaduje určitou předložku zu + kam?.",
+      "forms": "Zu + kam?",
+      "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -6227,40 +6239,40 @@ const B2_WORDS = [
     "de": "Gesichtszug",
     "de_article": "der",
     "de_plural": "die Gesichtszüge",
-    "lv": "Funkcja",
+    "lv": "Funkce",
     "level": "B2"
   },
   {
     "de": "Gesinnung",
     "de_article": "die",
     "de_plural": "die Gesinnungen",
-    "lv": "Przekonania • Nastrój",
+    "lv": "Přesvědčení • Nálada",
     "level": "B2"
   },
   {
     "de": "Gespött",
     "de_article": "das",
-    "lv": "Ząbkowanie",
+    "lv": "Prořezávání zoubků",
     "level": "B2"
   },
   {
     "de": "Gespür",
     "de_article": "das",
-    "lv": "Intuicja",
+    "lv": "Intuice",
     "level": "B2"
   },
   {
     "de": "sich gestalten",
-    "lv": "Uformować się",
+    "lv": "Formovat do",
     "level": "B2",
     "study": {
       "id": "b2-sich-gestalten",
       "layout": "minimalStudy",
-      "translation": "Uformować się",
-      "rektion": "zu + kam?",
-      "explanation": "Sich gestalten wymaga przyimka określonego zu + kam?.",
-      "forms": "zu + kam?",
-      "formsLabel": "Kierownictwo:",
+      "translation": "Formovat do",
+      "rektion": "Zu + kam?",
+      "explanation": "Sich gestalten vyžaduje určitou předložku zu + kam?.",
+      "forms": "Zu + kam?",
+      "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -6277,194 +6289,194 @@ const B2_WORDS = [
     "de": "Geständnis",
     "de_article": "das",
     "de_plural": "die Geständnisse",
-    "lv": "Wyznanie",
+    "lv": "Zpověď",
     "level": "B2"
   },
   {
     "de": "gestehen",
-    "lv": "Przyznać • Przyznać",
+    "lv": "Přiznat • Přiznat",
     "level": "B2"
   },
   {
     "de": "Gestein",
     "de_article": "das",
     "de_plural": "die Gesteine",
-    "lv": "Skała",
+    "lv": "Skála",
     "level": "B2"
   },
   {
     "de": "Gestell",
     "de_article": "das",
     "de_plural": "die Gestelle",
-    "lv": "Stojak • Rozpórka • Podwozie",
+    "lv": "Nosič • Vzpěra • Podvozek",
     "level": "B2"
   },
   {
     "de": "Gestrüpp",
     "de_article": "das",
     "de_plural": "die Gestrüppe",
-    "lv": "Bush",
+    "lv": "Keř",
     "level": "B2"
   },
   {
     "de": "Gesuch",
     "de_article": "das",
     "de_plural": "die Gesuche",
-    "lv": "Żądanie • Złożenie",
+    "lv": "Žádost • Podání",
     "level": "B2"
   },
   {
     "de": "Getriebe",
     "de_article": "das",
     "de_plural": "die Getriebe",
-    "lv": "Silnik",
+    "lv": "Motoru",
     "level": "B2"
   },
   {
     "de": "getüpfelt",
-    "lv": "Kropkowany",
+    "lv": "Tečkovaný",
     "level": "B2"
   },
   {
     "de": "Gewähr",
     "de_article": "die",
-    "lv": "Bezpieczeństwo • Poręczenie • Gwarancja",
+    "lv": "Jistota • Jistota • Záruka",
     "level": "B2"
   },
   {
     "de": "gewähren",
-    "lv": "Dať • Priradiť",
+    "lv": "Dát • Přidělit",
     "level": "B2"
   },
   {
     "de": "gewaltsam",
-    "lv": "Siłą • Siłą",
+    "lv": "Silou • Silou",
     "level": "B2"
   },
   {
     "de": "Gewalttat",
     "de_article": "die",
     "de_plural": "die Gewalttaten",
-    "lv": "Násilie • Násilný čin",
+    "lv": "Násilí • Akt násilí",
     "level": "B2"
   },
   {
     "de": "gewandt",
-    "lv": "Zwinny • Zręczny",
+    "lv": "Hbitý • Šikovný",
     "level": "B2"
   },
   {
     "de": "Gewässer",
     "de_article": "das",
     "de_plural": "die Gewässer",
-    "lv": "Fale",
+    "lv": "Vody",
     "level": "B2"
   },
   {
     "de": "Gewebe",
     "de_article": "das",
     "de_plural": "die Gewebe",
-    "lv": "Tkanina • Chusteczka",
+    "lv": "Tkanina • Tkanina",
     "level": "B2"
   },
   {
     "de": "Gewerbe",
     "de_article": "das",
     "de_plural": "die Gewerbe",
-    "lv": "Stanowisko • Handel • Stała praca w handlu lub rzemiośle albo świadczenie usług",
+    "lv": "Pozice • Živnost • Stálá práce v oblasti obchodu nebo řemesel nebo poskytování služeb",
     "level": "B2"
   },
   {
     "de": "gewieft",
-    "lv": "Temperamentny • Bystry",
+    "lv": "Temperovaný • Bystrý",
     "level": "B2"
   },
   {
     "de": "gewissenlos",
-    "lv": "Bez sumienia • Nieuczciwy",
+    "lv": "Bez svědomí • Nečestný",
     "level": "B2"
   },
   {
     "de": "Gewissheit",
     "de_article": "die",
     "de_plural": "die Gewissheiten",
-    "lv": "Przejrzystość • Bezpieczeństwo • Pewność",
+    "lv": "Jasnost • Bezpečí • Jistota",
     "level": "B2"
   },
   {
     "de": "Gezeiten",
     "de_article": "die",
-    "lv": "Przypływy",
+    "lv": "Příliv a odliv",
     "level": "B2"
   },
   {
     "de": "gierig",
-    "lv": "Chętny • Chciwy • Chciwy",
+    "lv": "Dychtivý • Žádostivý • Lakomý",
     "level": "B2"
   },
   {
     "de": "geldgierig",
-    "lv": "Chciwy na pieniądze",
+    "lv": "Chtivý peněz",
     "level": "B2"
   },
   {
     "de": "machtgierig",
-    "lv": "Żądny władzy",
+    "lv": "Lačný po moci",
     "level": "B2"
   },
   {
     "de": "rachgierig",
-    "lv": "Żądza zemsty",
+    "lv": "Touha po pomstě",
     "level": "B2"
   },
   {
     "de": "raffgierig",
-    "lv": "Czarujące",
+    "lv": "Kouzelná vazba",
     "level": "B2"
   },
   {
     "de": "Giftmüll",
     "de_article": "der",
-    "lv": "Toksyczne odpady",
+    "lv": "Toxické odpady",
     "level": "B2"
   },
   {
     "de": "Gipsabdruck",
     "de_article": "der",
     "de_plural": "die Gipsabdrücke",
-    "lv": "Odcisk gipsu",
+    "lv": "Sádrový otisk",
     "level": "B2"
   },
   {
     "de": "Gipsverband",
     "de_article": "der",
     "de_plural": "die Gipsverbände",
-    "lv": "Bandaż gipsowy",
+    "lv": "Sádrový obvaz",
     "level": "B2"
   },
   {
     "de": "Glaser",
     "de_article": "der",
     "de_plural": "die Glaser",
-    "lv": "Szklarz",
+    "lv": "Sklenář",
     "level": "B2"
   },
   {
     "de": "gläsern",
-    "lv": "Sklo • Sklovité",
+    "lv": "Skleněný • Skelný",
     "level": "B2"
   },
   {
     "de": "Glasfiber",
     "de_article": "die",
-    "lv": "Włókno szklane",
+    "lv": "Skleněné vlákno",
     "level": "B2"
   },
   {
     "de": "Glashütte",
     "de_article": "die",
     "de_plural": "die Glashütten",
-    "lv": "Fabryka szkła",
+    "lv": "Sklárna",
     "level": "B2"
   },
   {
@@ -6478,146 +6490,146 @@ const B2_WORDS = [
     "de": "Glatze",
     "de_article": "die",
     "de_plural": "die Glatzen",
-    "lv": "Holá hlava",
+    "lv": "Holou hlavu",
     "level": "B2"
   },
   {
     "de": "Stirnglatze",
     "de_article": "die",
     "de_plural": "die Stirnglatzen",
-    "lv": "Odsłonięte czoło",
+    "lv": "Odkryté čelo",
     "level": "B2"
   },
   {
     "de": "gleichmütig",
-    "lv": "Złożony • Zimnokrwisty",
+    "lv": "Složený • Chladnokrevný",
     "level": "B2"
   },
   {
     "de": "Gleichnis",
     "de_article": "das",
     "de_plural": "die Gleichnisse",
-    "lv": "Podobnosť.",
+    "lv": "Podobnost",
     "level": "B2"
   },
   {
     "de": "gleiten",
-    "lv": "Szybować • Szybować",
+    "lv": "Plachtit • Vznášet se",
     "level": "B2"
   },
   {
     "de": "Glied",
     "de_article": "das",
     "de_plural": "die Glieder",
-    "lv": "Członek • Kończyna • Członek łańcucha • Ogniwo",
+    "lv": "Člen • Končetina • Člen řetězu • Článek",
     "level": "B2"
   },
   {
     "de": "gliedern",
-    "lv": "Podzielić",
+    "lv": "Rozdělit",
     "level": "B2"
   },
   {
     "de": "glimmen",
-    "lv": "Świecić • Świecić • Tlić się",
+    "lv": "Zářit • Zářit • Doutnat",
     "level": "B2"
   },
   {
     "de": "glotzen",
-    "lv": "Zez",
+    "lv": "Šilhat",
     "level": "B2"
   },
   {
     "de": "glühen",
-    "lv": "Świecić • Płonąć • Płonąć • Płonąć",
+    "lv": "Zářit • Hořet • Hořet • Hořet",
     "level": "B2"
   },
   {
     "de": "Glut",
     "de_article": "die",
     "de_plural": "die Gluten",
-    "lv": "Blask • Blask • Wielkie ciepło",
+    "lv": "Zářit • Zářit • Velký žár",
     "level": "B2"
   },
   {
     "de": "Gnade",
     "de_article": "die",
     "de_plural": "die Gnaden",
-    "lv": "Miłosierdzie • Przebaczenie",
+    "lv": "Milost • Prominout",
     "level": "B2"
   },
   {
     "de": "Gnadenbrot",
     "de_article": "das",
-    "lv": "Chleb łaski",
+    "lv": "Chléb milosti",
     "level": "B2"
   },
   {
     "de": "gnädig",
-    "lv": "Łaskawy • Szanowany",
+    "lv": "Milostivý • Vážený",
     "level": "B2"
   },
   {
     "de": "Goldader",
     "de_article": "die",
     "de_plural": "die Goldadern",
-    "lv": "Złota żyła",
+    "lv": "Zlatá žíla",
     "level": "B2"
   },
   {
     "de": "Goldbarren",
     "de_article": "der",
     "de_plural": "die Goldbarren",
-    "lv": "Sztabka złota",
+    "lv": "Zlatá cihla",
     "level": "B2"
   },
   {
     "de": "Goldlegierung",
     "de_article": "die",
     "de_plural": "die Goldlegierungen",
-    "lv": "Stop złota",
+    "lv": "Slitina zlata",
     "level": "B2"
   },
   {
     "de": "Goldmine",
     "de_article": "die",
     "de_plural": "die Goldminen",
-    "lv": "Kopalnia złota",
+    "lv": "Zlatý důl",
     "level": "B2"
   },
   {
     "de": "Goldwäscher",
     "de_article": "der",
     "de_plural": "die Goldwäscher",
-    "lv": "Złota podkładka",
+    "lv": "Zlatá podložka",
     "level": "B2"
   },
   {
     "de": "Goldschmied",
     "de_article": "der",
     "de_plural": "die Goldschmiede",
-    "lv": "Złotnik",
+    "lv": "Zlatník",
     "level": "B2"
   },
   {
     "de": "Gondel",
     "de_article": "die",
     "de_plural": "die Gondeln",
-    "lv": "Gondola • Kolejka linowa",
+    "lv": "Gondola • Lanovka",
     "level": "B2"
   },
   {
     "de": "Gönner",
     "de_article": "der",
     "de_plural": "die Gönner",
-    "lv": "Dobroczyńca • Patron",
+    "lv": "Dobrodinec • Patron",
     "level": "B2"
   },
   {
     "de": "Gottheit",
     "de_article": "die",
     "de_plural": "die Gottheiten",
-    "lv": "Bóstwo",
+    "lv": "Božstvo",
     "level": "B2"
   },
   {
@@ -6630,38 +6642,38 @@ const B2_WORDS = [
   {
     "de": "Götzendienst",
     "de_article": "der",
-    "lv": "Służąc idolowi",
+    "lv": "Sloužit idolu",
     "level": "B2"
   },
   {
     "de": "Grabung",
     "de_article": "die",
     "de_plural": "die Grabungen",
-    "lv": "Wykopaliska",
+    "lv": "Vykopávky",
     "level": "B2"
   },
   {
     "de": "grässlich",
-    "lv": "Okropne • Okropne • Obrzydliwe • Okropne",
+    "lv": "Hrozný • Hrozný • Ohavný • Ošklivý",
     "level": "B2"
   },
   {
     "de": "grauen",
-    "lv": "Splot",
+    "lv": "Vazba",
     "level": "B2"
   },
   {
     "de": "sich grauen",
-    "lv": "Się bać",
+    "lv": "Bát se",
     "level": "B2",
     "study": {
       "id": "b2-sich-grauen",
       "layout": "minimalStudy",
-      "translation": "Się bać",
-      "rektion": "vor + kam?",
-      "explanation": "Sich grauen wymaga przyimka określonego vor + kam?.",
-      "forms": "vor + kam?",
-      "formsLabel": "Kierownictwo:",
+      "translation": "Bát se",
+      "rektion": "Vor + kam?",
+      "explanation": "Sich grauen vyžaduje určitou předložku vor + kam?.",
+      "forms": "Vor + kam?",
+      "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -6676,101 +6688,101 @@ const B2_WORDS = [
   },
   {
     "de": "grausam",
-    "lv": "Okrutny • Surowy",
+    "lv": "Krutý • Drsný",
     "level": "B2"
   },
   {
     "de": "gravierend",
-    "lv": "Podstatné",
+    "lv": "Významný",
     "level": "B2"
   },
   {
     "de": "Greis",
     "de_article": "der",
     "de_plural": "die Greise",
-    "lv": "Starý",
+    "lv": "Stařec",
     "level": "B2"
   },
   {
     "de": "grell",
-    "lv": "Genialny • Olśniewający",
+    "lv": "Brilantní • Oslnivý",
     "level": "B2"
   },
   {
     "de": "Grenzbeamte",
     "de_article": "der",
     "de_plural": "die Grenzbeamten",
-    "lv": "Funkcjonariusz straży granicznej",
+    "lv": "Důstojník pohraniční stráže",
     "level": "B2"
   },
   {
     "de": "Grenzbezirk",
     "de_article": "der",
     "de_plural": "die Grenzbezirke",
-    "lv": "Obszar przygraniczny",
+    "lv": "Pohraniční oblast",
     "level": "B2"
   },
   {
     "de": "Grenzkonflikt",
     "de_article": "der",
     "de_plural": "die Grenzkonflikte",
-    "lv": "Konflikt graniczny",
+    "lv": "Hraniční konflikt",
     "level": "B2"
   },
   {
     "de": "Grenzverkehr",
     "de_article": "der",
-    "lv": "Ruch graniczny",
+    "lv": "Pohraniční styk",
     "level": "B2"
   },
   {
     "de": "Grenzbereich",
     "de_article": "der",
     "de_plural": "die Grenzbereiche",
-    "lv": "Pas przygraniczny • Strefa przygraniczna • Terytorium po obu stronach granicy",
+    "lv": "Hraniční pás • Hraniční pásmo • Území na obou stranách hranice",
     "level": "B2"
   },
   {
     "de": "Grimm",
     "de_article": "der",
-    "lv": "Wielki gniew • Wściekłość • Gniew",
+    "lv": "Velký hněv • Zuřivost • Hněv",
     "level": "B2"
   },
   {
     "de": "grinsen",
-    "lv": "Usmievajte sa",
+    "lv": "Usmívat se",
     "level": "B2"
   },
   {
     "de": "Großmacht",
     "de_article": "die",
     "de_plural": "die Großmächte",
-    "lv": "Wielka moc",
+    "lv": "Velkou moc",
     "level": "B2"
   },
   {
     "de": "Großmut",
     "de_article": "die",
-    "lv": "Hojność",
+    "lv": "Štědrost",
     "level": "B2"
   },
   {
     "de": "großmütig",
-    "lv": "Veľkorysý",
+    "lv": "Štědrý",
     "level": "B2"
   },
   {
     "de": "Gründonnerstag",
     "de_article": "der",
     "de_plural": "die Gründonnerstage",
-    "lv": "Zielony Czwartek przed Wielkanocą",
+    "lv": "Zelený čtvrtek před Velikonocemi",
     "level": "B2"
   },
   {
     "de": "Grundrecht",
     "de_article": "das",
     "de_plural": "die Grundrechte",
-    "lv": "Prawa podstawowe",
+    "lv": "Základní práva",
     "level": "B2"
   },
   {
@@ -6784,235 +6796,235 @@ const B2_WORDS = [
     "de": "Grußwort",
     "de_article": "das",
     "de_plural": "die Grußworte",
-    "lv": "Krótki oficjalny adres",
+    "lv": "Krátký formální projev",
     "level": "B2"
   },
   {
     "de": "Gummizug",
     "de_article": "der",
     "de_plural": "die Gummizüge",
-    "lv": "Elastyczna opaska",
+    "lv": "Elastický pásek",
     "level": "B2"
   },
   {
     "de": "Gunst",
     "de_article": "die",
-    "lv": "Przychylność",
+    "lv": "Laskavost",
     "level": "B2"
   },
   {
     "de": "Günstling",
     "de_article": "der",
     "de_plural": "die Günstlinge",
-    "lv": "Ulubiony • Protegowany",
+    "lv": "Oblíbený • Chráněnec",
     "level": "B2"
   },
   {
     "de": "gurgeln",
-    "lv": "Płukać gardło • Usta",
+    "lv": "Kloktat • Ústa",
     "level": "B2"
   },
   {
     "de": "Guss",
     "de_article": "der",
     "de_plural": "die Güsse",
-    "lv": "Odlewanie • Wylewanie • Ulewa",
+    "lv": "Lití • Lití • Liják",
     "level": "B2"
   },
   {
     "de": "Gutachten",
     "de_article": "das",
     "de_plural": "die Gutachten",
-    "lv": "Informacja zwrotna • Opinia eksperta",
+    "lv": "Zpětná vazba • Názor odborníka",
     "level": "B2"
   },
   {
     "de": "Güte",
     "de_article": "die",
-    "lv": "Życzliwość • Jakość • Korzyść",
+    "lv": "Laskavost • Kvalita • Prospěch",
     "level": "B2"
   },
   {
     "de": "Güterversand",
     "de_article": "der",
     "de_plural": null,
-    "lv": "Wysyłka towaru",
+    "lv": "Odeslání zboží",
     "level": "B2"
   },
   {
     "de": "Gütezeichen",
     "de_article": "das",
     "de_plural": "die Gütezeichen",
-    "lv": "Znak jakości",
+    "lv": "Značka kvality",
     "level": "B2"
   },
   {
     "de": "gutheißen",
-    "lv": "Uznać za dobre",
+    "lv": "Uznat jako dobré",
     "level": "B2"
   },
   {
     "de": "gutmütig",
-    "lv": "Życzliwy",
+    "lv": "Laskavého srdce",
     "level": "B2"
   },
   {
     "de": "haaren",
-    "lv": "Rzucić pióro",
+    "lv": "Hodit pírko",
     "level": "B2"
   },
   {
     "de": "habsüchtig",
-    "lv": "Chciwy • Chciwy",
+    "lv": "Lakomý • Lakomý",
     "level": "B2"
   },
   {
     "de": "Hafenbecken",
     "de_article": "das",
     "de_plural": "die Hafenbecken",
-    "lv": "Obszar wodny portu",
+    "lv": "Přístavní vodní plocha",
     "level": "B2"
   },
   {
     "de": "Hafengebühr",
     "de_article": "die",
     "de_plural": "die Hafengebühren",
-    "lv": "Obowiązek portowy",
+    "lv": "Přístavní povinnost",
     "level": "B2"
   },
   {
     "de": "Hafengelände",
     "de_article": "das",
     "de_plural": "die Hafengelände",
-    "lv": "Oblasť prístavu",
+    "lv": "Přístavní oblast",
     "level": "B2"
   },
   {
     "de": "Hahnenkamm",
     "de_article": "der",
     "de_plural": "die Hahnenkämme",
-    "lv": "Seks z kutasem",
+    "lv": "Kohoutí sext",
     "level": "B2"
   },
   {
     "de": "Haltung",
     "de_article": "die",
     "de_plural": "die Haltungen",
-    "lv": "Postawa • Zachowanie",
+    "lv": "Držení těla • Chování",
     "level": "B2"
   },
   {
     "de": "Handelsflotte",
     "de_article": "die",
     "de_plural": "die Handelsflotten",
-    "lv": "Marynarka handlowa",
+    "lv": "Obchodní loďstvo",
     "level": "B2"
   },
   {
     "de": "Handelsklasse",
     "de_article": "die",
     "de_plural": "die Handelsklassen",
-    "lv": "Klasa towaru",
+    "lv": "Třída zboží",
     "level": "B2"
   },
   {
     "de": "Hängebrücke",
     "de_article": "die",
     "de_plural": "die Hängebrücken",
-    "lv": "Most wantowy",
+    "lv": "Lanový most",
     "level": "B2"
   },
   {
     "de": "Hängsel",
     "de_article": "das",
     "de_plural": "die Hängsel",
-    "lv": "Szyty wieszak na ubrania",
+    "lv": "Šité ramínko na šaty",
     "level": "B2"
   },
   {
     "de": "hänseln",
-    "lv": "Nerwus • Pisk",
+    "lv": "Nerrot • Kvičet",
     "level": "B2"
   },
   {
     "de": "hantieren",
-    "lv": "Działać • Działać z czym",
+    "lv": "Jednat • Jednat s čím",
     "level": "B2"
   },
   {
     "de": "Harn",
     "de_article": "der",
     "de_plural": "die Harne",
-    "lv": "Mocz",
+    "lv": "Moč",
     "level": "B2"
   },
   {
     "de": "Harsch",
     "de_article": "der",
     "de_plural": "die Harsche",
-    "lv": "Siarka • Zamarznięty śnieg",
+    "lv": "Síra • Zmrzlý sníh",
     "level": "B2"
   },
   {
     "de": "härten",
-    "lv": "Stwardnieć",
+    "lv": "Ztvrdnout",
     "level": "B2"
   },
   {
     "de": "hartnäckig",
-    "lv": "Tvrdohlavý • Tvrdý",
+    "lv": "Tvrdohlavý • Vytrvalý",
     "level": "B2"
   },
   {
     "de": "Haube",
     "de_article": "die",
     "de_plural": "die Hauben",
-    "lv": "Czapka • Kaptur",
+    "lv": "Čepice • Kapuce",
     "level": "B2",
     "study": {
       "id": "b2-haube",
       "layout": "standardStudy",
-      "translation": "Czapka • Kaptur",
+      "translation": "Čepice • Kapuce",
       "explanation": [
-        "Główna idea: die Haube może oznaczać czapkę/kaptur lub kaptur/osłonę – znaczenie określa kontekst.",
-        "Na głowie: die Haube = czapka, kaptur lub technika autorska w konkretnym kontekście (np. B. Nonne mit Haube).",
-        "W samochodzie: die Motorhaube lub einfach die Haube = maska.",
-        "W kuchni: die Dunsthaube = okap nad kuchenką. W technologii: kaptur lub osłona na urządzenie."
+        "Hlavní myšlenka: die Haube může znamenat čepici/kapuci nebo kapuci/kryt – význam určuje kontext.",
+        "Na hlavě: die Haube = čepice, kapuce nebo autorská technika v konkrétním kontextu (z. B. Nonne mit Haube).",
+        "Na autě: die Motorhaube nebo einfach die Haube = kapota motoru.",
+        "V kuchyni: die Dunsthaube = digestoř nad sporákem. V technologii: kryt nebo kryt nad zařízením."
       ],
       "examples": [
         {
           "de": "Sie trägt eine warme Haube.",
-          "lv": "Nosi ciepłą czapkę."
+          "lv": "Nosí teplou čepici."
         },
         {
           "de": "Die Nonne trägt eine schwarze Haube.",
-          "lv": "Zakonnica nosi czarny kaptur."
+          "lv": "Jeptiška nosí černou kápi."
         },
         {
           "de": "Er öffnet die Haube des Autos.",
-          "lv": "Otwiera maskę samochodu."
+          "lv": "Otevře kapotu auta."
         },
         {
           "de": "Die Motorhaube ist kaputt.",
-          "lv": "Maska ​​jest uszkodzona."
+          "lv": "Kapota je rozbitá."
         },
         {
           "de": "Über dem Herd hängt eine Dunsthaube.",
-          "lv": "Nad piecem zamontowany jest okap."
+          "lv": "Nad kamny je připevněn odsavač par."
         },
         {
           "de": "Setz den Deckel als Haube auf den Topf.",
-          "lv": "Nałóż pokrywkę na garnek jako przykrywkę."
+          "lv": "Dejte na hrnec poklici jako pokličku."
         }
       ],
       "tip": [
-        "Mowa o głowie, zakonnicy, kapeluszu → czapce/kapcie.",
-        "Chodzi o samochód, silnik → maskę.",
-        "Mówimy o kuchence, urządzeniu → okapie lub okapie."
+        "Povídání o hlavě, jeptišce, klobouku → čepice / kapuce.",
+        "Jde o auto, motor → kapota.",
+        "Mluvíme o sporáku, spotřebiči → digestoři nebo digestoři."
       ],
       "important": [
-        "Die Haube = czapka/kaptur LUB kaptur LUB kaptur/czapka – w zależności od kontekstu.",
-        "Pomocne są związki: Motorhaube (samochód), Dunstaube (kuchnia)."
+        "Die Haube = čepice/kapuce NEBO kapuce NEBO kapuce/kapota – v závislosti na kontextu.",
+        "Pomáhají směsi: Motorhaube (auto), Dunstaube (kuchyň)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -7020,8 +7032,10 @@ const B2_WORDS = [
             "die Haube"
           ],
           "purple": [
-            "kaptur",
-            "Motorhaube"
+            "Hlavní",
+            "Hlavní",
+            "kapuce",
+            "Hlavní"
           ],
           "green": [
             "Motorhaube",
@@ -7035,7 +7049,11 @@ const B2_WORDS = [
                 "Haube"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Nosí"
+              ]
+            }
           },
           {
             "de": {
@@ -7045,7 +7063,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "kaptur"
+                "Jeptiška"
               ]
             }
           },
@@ -7055,7 +7073,11 @@ const B2_WORDS = [
                 "Haube"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Otevře"
+              ]
+            }
           },
           {
             "de": {
@@ -7063,7 +7085,11 @@ const B2_WORDS = [
                 "Motorhaube"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Kapota"
+              ]
+            }
           },
           {
             "de": {
@@ -7071,7 +7097,11 @@ const B2_WORDS = [
                 "Dunsthaube"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Nad"
+              ]
+            }
           },
           {
             "de": {
@@ -7079,7 +7109,11 @@ const B2_WORDS = [
                 "Haube"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Dejte"
+              ]
+            }
           }
         ]
       }
@@ -7089,79 +7123,79 @@ const B2_WORDS = [
     "de": "Haushaltung",
     "de_article": "die",
     "de_plural": "die Haushaltungen",
-    "lv": "Gospodarowanie",
+    "lv": "Úklid domácnosti",
     "level": "B2"
   },
   {
     "de": "Hausherr",
     "de_article": "der",
     "de_plural": "die Hausherren",
-    "lv": "Gospodyni domowa • Animatorka",
+    "lv": "Domácí kutil • Bavič",
     "level": "B2"
   },
   {
     "de": "Hausrat",
     "de_article": "der",
-    "lv": "Życie",
+    "lv": "Život",
     "level": "B2"
   },
   {
     "de": "Hautjucken",
     "de_article": "das",
-    "lv": "Swędzenie skóry",
+    "lv": "Svědění kůže",
     "level": "B2"
   },
   {
     "de": "Hautrötung",
     "de_article": "die",
     "de_plural": "die Hautrötungen",
-    "lv": "Zaczerwienienie skóry",
+    "lv": "Zarudnutí kůže",
     "level": "B2"
   },
   {
     "de": "hauteng",
-    "lv": "Obcisłe ubranie",
+    "lv": "Těsné oblečení",
     "level": "B2"
   },
   {
     "de": "Heck",
     "de_article": "das",
     "de_plural": "die Hecke",
-    "lv": "Rufa statku",
+    "lv": "Záď lodi",
     "level": "B2"
   },
   {
     "de": "Heckklappe",
     "de_article": "die",
     "de_plural": "die Heckklappen",
-    "lv": "Tylne drzwi bagażnika samochodu",
+    "lv": "Zadní dveře kufru auta",
     "level": "B2"
   },
   {
     "de": "Heilige",
     "de_article": "der",
     "de_plural": "die Heiligen",
-    "lv": "Święty",
+    "lv": "Svatý",
     "level": "B2"
   },
   {
     "de": "Heiligtum",
     "de_article": "das",
     "de_plural": "die Heiligtümer",
-    "lv": "Miejsce święte • Świętość",
+    "lv": "Svaté místo • Svatost",
     "level": "B2"
   },
   {
     "de": "Heilkunde",
     "de_article": "die",
-    "lv": "Leczenie • Medycyna",
+    "lv": "Léčba • Lék",
     "level": "B2"
   },
   {
     "de": "Heilquelle",
     "de_article": "die",
     "de_plural": "die Heilquellen",
-    "lv": "Źródło uzdrowienia",
+    "lv": "Zdroj uzdravení",
     "level": "B2"
   },
   {
@@ -7175,97 +7209,97 @@ const B2_WORDS = [
     "de": "Heilpraktiker",
     "de_article": "der",
     "de_plural": "die Heilpraktiker",
-    "lv": "Uzdrowiciel",
+    "lv": "Léčitel",
     "level": "B2"
   },
   {
     "de": "heimatlos",
-    "lv": "Bez ojczyzny",
+    "lv": "Bez vlasti",
     "level": "B2"
   },
   {
     "de": "Heimkehr",
     "de_article": "die",
-    "lv": "Powrót do domu • Do ojczyzny",
+    "lv": "Návrat domů • Do vlasti",
     "level": "B2"
   },
   {
     "de": "Heimwerker",
     "de_article": "der",
     "de_plural": "die Heimwerker",
-    "lv": "Rzemieślnik • Mistrz domu",
+    "lv": "Domácí řemeslník • Domácí mistr",
     "level": "B2"
   },
   {
     "de": "Heizkraftwerk",
     "de_article": "das",
     "de_plural": "die Heizkraftwerke",
-    "lv": "Elektrownia cieplna",
+    "lv": "Tepelná elektrárna",
     "level": "B2"
   },
   {
     "de": "Heizöl",
     "de_article": "das",
     "de_plural": "die Heizöle",
-    "lv": "Paliwo płynne • Olej opałowy",
+    "lv": "Kapalné palivo • Topný olej",
     "level": "B2"
   },
   {
     "de": "Heldentat",
     "de_article": "die",
     "de_plural": "die Heldentaten",
-    "lv": "Wyczyn",
+    "lv": "Výkon",
     "level": "B2"
   },
   {
     "de": "hemmen",
-    "lv": "Utrudniać • Opóźniać • Hamować",
+    "lv": "Překážet • Zdržovat • Brzdit",
     "level": "B2"
   },
   {
     "de": "Hemmung",
     "de_article": "die",
     "de_plural": "die Hemmungen",
-    "lv": "Przeszkoda • Przeszkoda • Opóźnienie",
+    "lv": "Překážka • Překážka • Zdržení",
     "level": "B2"
   },
   {
     "de": "henken",
-    "lv": "Raz • Powiesić osobę",
+    "lv": "Jednou • Oběsit člověka",
     "level": "B2"
   },
   {
     "de": "herabsetzen",
-    "lv": "Nižšie • Ponižovať",
+    "lv": "Snížit • Snížit",
     "level": "B2"
   },
   {
     "de": "herangehen",
-    "lv": "Zabrać się do pracy",
+    "lv": "Pustit se do práce",
     "level": "B2"
   },
   {
     "de": "herantreten",
-    "lv": "Zbliżać się",
+    "lv": "Přístup",
     "level": "B2"
   },
   {
     "de": "heraufkommen",
-    "lv": "Wstać • Wstać",
+    "lv": "Vstát • Vstát",
     "level": "B2"
   },
   {
     "de": "sich herausbilden",
-    "lv": "Uformować się",
+    "lv": "Formovat do",
     "level": "B2",
     "study": {
       "id": "b2-sich-herausbilden",
       "layout": "minimalStudy",
-      "translation": "Uformować się",
-      "rektion": "zu + kam?",
-      "explanation": "Sich herausbilden wymaga przyimka określonego zu + kam?.",
-      "forms": "zu + kam?",
-      "formsLabel": "Kierownictwo:",
+      "translation": "Formovat do",
+      "rektion": "Zu + kam?",
+      "explanation": "Sich herausbilden vyžaduje určitou předložku zu + kam?.",
+      "forms": "Zu + kam?",
+      "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -7280,21 +7314,21 @@ const B2_WORDS = [
   },
   {
     "de": "herausfordern",
-    "lv": "Rzucić wyzwanie",
+    "lv": "Vyzvat",
     "level": "B2"
   },
   {
     "de": "sich heraushalten",
-    "lv": "Drž sa ďalej od",
+    "lv": "Drž se dál od",
     "level": "B2",
     "study": {
       "id": "b2-sich-heraushalten",
       "layout": "minimalStudy",
-      "translation": "Drž sa ďalej od",
-      "rektion": "aus + kam?",
-      "explanation": "Sich heraushalten wymaga pewnego przyimka aus + kam?.",
-      "forms": "aus + kam?",
-      "formsLabel": "Kierownictwo:",
+      "translation": "Drž se dál od",
+      "rektion": "Aus + kam?",
+      "explanation": "Sich heraushalten vyžaduje určitou předložku aus + kam?.",
+      "forms": "Aus + kam?",
+      "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -7309,28 +7343,28 @@ const B2_WORDS = [
   },
   {
     "de": "herausstellen",
-    "lv": "Pominięty",
+    "lv": "Uhasit",
     "level": "B2"
   },
   {
     "de": "sich herausstellen",
-    "lv": "Ukázalo sa, že",
+    "lv": "Ukázat být",
     "level": "B2",
     "study": {
       "id": "b2-sich-herausstellen",
       "layout": "minimalStudy",
-      "translation": "Ukázalo sa, že",
-      "rektion": "als + kas?",
-      "explanation": "Sich herausstellen wymaga przyimka określonego als + what?.",
-      "forms": "als + kas?",
-      "formsLabel": "Kierownictwo:",
+      "translation": "Ukázat být",
+      "rektion": "Als + kas?",
+      "explanation": "Sich herausstellen vyžaduje určitou předložku als + what?.",
+      "forms": "Als + kas?",
+      "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich herausstellen"
           ],
           "red": [
-            "als"
+            "Sich"
           ]
         }
       }
@@ -7338,40 +7372,43 @@ const B2_WORDS = [
   },
   {
     "de": "herb",
-    "lv": "Horká • Kyslá • Kyslá",
+    "lv": "Hořký • Kyselý • Kyselý",
     "level": "B2"
   },
   {
     "de": "herrschen",
-    "lv": "Rządzić",
+    "lv": "Vládnout",
     "level": "B2"
   },
   {
     "de": "hervorheben",
-    "lv": "Podkreślić • Podkreślić",
+    "lv": "Zvýraznit • Zdůraznit",
     "level": "B2"
   },
   {
     "de": "hervorrufen",
-    "lv": "Wywołać • Spowodować • Stworzyć • Obudzić",
+    "lv": "Vyvolat • Způsobit • Vytvořit • Probudit",
     "level": "B2"
   },
   {
     "de": "sich hervortun",
-    "lv": "Wyróżniać się",
+    "lv": "Vyčnívat",
     "level": "B2",
     "study": {
       "id": "b2-sich-hervortun",
       "layout": "minimalStudy",
-      "translation": "Wyróżniać się",
-      "rektion": "in + kur?",
-      "explanation": "Sich hervortun wymaga przyimka określonego w + gdzie?.",
-      "forms": "in + kur?",
-      "formsLabel": "Kierownictwo:",
+      "translation": "Vyčnívat",
+      "rektion": "In + kur?",
+      "explanation": "Sich hervortun vyžaduje určitou předložku v + kde?.",
+      "forms": "In + kur?",
+      "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich hervortun"
+          ],
+          "red": [
+            "Sich"
           ]
         }
       }
@@ -7380,88 +7417,88 @@ const B2_WORDS = [
   {
     "de": "Herzflattern",
     "de_article": "das",
-    "lv": "Kołatanie serca",
+    "lv": "Bušení srdce",
     "level": "B2"
   },
   {
     "de": "Herzschwäche",
     "de_article": "die",
     "de_plural": "die Herzschwächen",
-    "lv": "Niewydolność serca",
+    "lv": "Selhání srdce",
     "level": "B2"
   },
   {
     "de": "Herzversagen",
     "de_article": "das",
-    "lv": "Zatrzymanie krążenia • Niewydolność",
+    "lv": "Zástava srdce • Nedostatečnost",
     "level": "B2"
   },
   {
     "de": "Hetze",
     "de_article": "die",
     "de_plural": "die Hetzen",
-    "lv": "Podżeganie • Podżeganie",
+    "lv": "Podněcování • Podněcování",
     "level": "B2"
   },
   {
     "de": "hetzen",
-    "lv": "Kopnij • Podżegaj • Pościg • Uderz",
+    "lv": "Kopat • Podněcovat • Honit • Bít",
     "level": "B2"
   },
   {
     "de": "heucheln",
-    "lv": "Udawać • Udawać",
+    "lv": "Předstírat • Předstírat",
     "level": "B2"
   },
   {
     "de": "Heuschnupfen",
     "de_article": "der",
-    "lv": "Alergiczny nieżyt nosa wywołany pyłkami",
+    "lv": "Alergická rýma z pylu",
     "level": "B2"
   },
   {
     "de": "hierdurch",
-    "lv": "Z tym • Z tym",
+    "lv": "S tím • S tímto",
     "level": "B2"
   },
   {
     "de": "Hilfsaktion",
     "de_article": "die",
     "de_plural": "die Hilfsaktionen",
-    "lv": "Akcja pomocowa",
+    "lv": "Pomocná akce",
     "level": "B2"
   },
   {
     "de": "Hilfsdienst",
     "de_article": "der",
     "de_plural": "die Hilfsdienste",
-    "lv": "Technická pomoc",
+    "lv": "Help desk",
     "level": "B2"
   },
   {
     "de": "hingeben",
-    "lv": "Rozdawać • Pożyczać",
+    "lv": "Rozdávat • Půjčovat",
     "level": "B2"
   },
   {
     "de": "sich hingeben",
-    "lv": "Poddać się • Poddać się",
+    "lv": "Odevzdat se • Odevzdat se",
     "level": "B2",
     "study": {
       "id": "b2-sich-hingeben",
       "layout": "minimalStudy",
-      "translation": "Poddać się • Poddać się",
+      "translation": "Odevzdat se • Odevzdat se",
       "rektion": "+ kam?",
-      "explanation": "Sich hingeben prasa + kam?.",
+      "explanation": "Sich hingeben vyžaduje + pro koho?.",
       "forms": "+ kam?",
-      "formsLabel": "Kierownictwo:",
+      "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich hingeben"
           ],
           "red": [
-            "+ kam?"
+            "Sich"
           ]
         }
       }
@@ -7469,154 +7506,158 @@ const B2_WORDS = [
   },
   {
     "de": "hinreißen",
-    "lv": "Chwytać • Zabierać",
+    "lv": "Zmocnit se • Odnést",
     "level": "B2"
   },
   {
     "de": "Hinsicht",
     "de_article": "die",
     "de_plural": "die Hinsichten",
-    "lv": "Wiadomość",
+    "lv": "Zpráva",
     "level": "B2"
   },
   {
     "de": "hinsichtlich",
-    "lv": "Odnośnie • Z powodu",
+    "lv": "Ohledně • Kvůli",
     "level": "B2"
   },
   {
     "de": "hintergehen",
-    "lv": "Oszukiwać • Rozczarować",
+    "lv": "Podvádět • Zklamat",
     "level": "B2"
   },
   {
     "de": "Hinterhalt",
     "de_article": "der",
     "de_plural": "die Hinterhalte",
-    "lv": "Kryjówka",
+    "lv": "Úkryt",
     "level": "B2"
   },
   {
     "de": "hinterziehen",
-    "lv": "Defraudować pieniądze • Nie płacić podatków",
+    "lv": "Zpronevěřit peníze • Neplatit daně",
     "level": "B2"
   },
   {
     "de": "hinüberfahren",
-    "lv": "Przekraczać • Przekraczać",
+    "lv": "Překročit • Překročit",
     "level": "B2"
   },
   {
     "de": "Hirntumor",
     "de_article": "der",
     "de_plural": "die Hirntumoren",
-    "lv": "Guz mózgu",
+    "lv": "Mozkový nádor",
     "level": "B2"
   },
   {
     "de": "Hirnzelle",
     "de_article": "die",
     "de_plural": "die Hirnzellen",
-    "lv": "Komórka mózgowa",
+    "lv": "Mozková buňka",
     "level": "B2"
   },
   {
     "de": "Hirschgeweih",
     "de_article": "das",
     "de_plural": "die Hirschgeweihe",
-    "lv": "Poroże jelenia",
+    "lv": "Jelení parohy",
     "level": "B2"
   },
   {
     "de": "Hirschkuh",
     "de_article": "die",
     "de_plural": "die Hirschkühe",
-    "lv": "Matka jelenia",
+    "lv": "Matka jelena",
     "level": "B2"
   },
   {
     "de": "hitzig",
-    "lv": "Gorący • Żarliwy • Porywczy • Skory do gniewu",
+    "lv": "Žhavý • Náruživý • Zbrklý • Rychlý k hněvu",
     "level": "B2"
   },
   {
     "de": "Hitzkopf",
     "de_article": "der",
     "de_plural": "die Hitzköpfe",
-    "lv": "Pasjonat",
+    "lv": "Horká hlava",
     "level": "B2"
   },
   {
     "de": "HIV",
     "de_article": "das",
     "de_plural": "die HIV",
-    "lv": "HIV (ludzki wirus niedoboru odporności)",
+    "lv": "HIV (virus lidské imunodeficience)",
     "level": "B2"
   },
   {
     "de": "HIV-negativ",
-    "lv": "HIV-ujemny",
+    "lv": "HIV negativní",
     "level": "B2"
   },
   {
     "de": "HIV-positiv",
-    "lv": "HIV-pozytywny",
+    "lv": "HIV pozitivní",
     "level": "B2"
   },
   {
     "de": "Hobelbank",
     "de_article": "die",
     "de_plural": "die Hobelbänke",
-    "lv": "Strugarka",
+    "lv": "Hoblík",
     "level": "B2"
   },
   {
     "de": "Hoch",
     "de_article": "das",
     "de_plural": "die Hochs",
-    "lv": "Prípitok \"Nech žije!\"",
+    "lv": "Přípitek \"ať žije!\"",
     "level": "B2",
     "study": {
       "id": "b2-hoch-study",
       "layout": "standardStudy",
-      "translation": "Prípitok \"Nech žije!\"",
+      "translation": "Přípitek \"ať žije!\"",
       "explanation": [
-        "Główna idea: das Hoch z dużej litery i przedimka das to rzeczownik - uroczysty krzyk/toast (Ein Hoch auf...! = Niech żyje...!) lub w pogodzie - obszar wysokiego ciśnienia.",
-        "Mała litera hoch to przymiotnik - wysoki (der Berg ist hoch).",
-        "Wyrażenie ein Hoch ausbringen oznacza wznieść toast.",
-        "W pogodzie das Hoch oznacza antycyklon, obszar o wysokim ciśnieniu powietrza (naprzeciwko: das Tief)."
+        "Hlavní myšlenka: das Hoch s velkým písmenem a článkem das je podstatné jméno - oslavný výkřik/přípitek (Ein Hoch auf...! = Ať žije...!) nebo za počasí - oblast vysokého tlaku.",
+        "Malé písmeno hoch je přídavné jméno - vysoký (der Berg ist hoch).",
+        "Fráze ein Hoch ausbringen znamená pozvednout přípitek.",
+        "V počasí znamená das Hoch anticyklonu, oblast vysokého tlaku vzduchu (opak: das Tief)."
       ],
       "examples": [
         {
           "de": "Wir bringen ein Hoch auf das Brautpaar aus.",
-          "lv": "Pripijeme si na novomanželov."
+          "lv": "Připíjíme na novomanžele."
         },
         {
           "de": "Ein Hoch auf dich!",
-          "lv": "Niech żyjesz!"
+          "lv": "Ať žiješ!"
         },
         {
           "de": "Morgen kommt ein Hoch.",
-          "lv": "Jutro spodziewany jest antycyklon (wysokie ciśnienie)."
+          "lv": "Zítra se očekává tlaková výše."
         },
         {
           "de": "Der Berg ist sehr hoch.",
-          "lv": "Góra jest bardzo wysoka."
+          "lv": "Hora je velmi vysoká."
         }
       ],
       "tip": [
-        "Das Hoch z dużej litery - uroczysty okrzyk lub antycyklon w wiadomościach pogodowych.",
-        "Mała litera hoch - wysoki (przymiotnik)."
+        "Das Hoch s velkým písmenem - oslavný pokřik nebo anticyklóna ve zprávách o počasí.",
+        "Malé písmeno hoch - vysoký (přídavné jméno)."
       ],
       "important": [
-        "Das Hoch = toast („niech żyje!”) LUB antycyklon (pogoda) - rzeczownik.",
-        "Hoch = wysoki — przymiotnik, bez rodzajnika.",
-        "Kontrast pogody: das Hoch ↔ das Tief."
+        "Das Hoch = přípitek (\"ať žije!\") NEBO anticyklóna (počasí) - podstatné jméno.",
+        "Hoch = vysoký — přídavné jméno, bez článku.",
+        "Kontrast počasí: das Hoch ↔ das Tief."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "das Hoch"
+          ],
+          "purple": [
+            "Hlavní",
+            "Hlavní"
           ],
           "green": [
             "hoch"
@@ -7629,15 +7670,11 @@ const B2_WORDS = [
                 "Hoch"
               ]
             },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "Hoch"
+            "lv": {
+              "purple": [
+                "Připíjíme"
               ]
-            },
-            "lv": {}
+            }
           },
           {
             "de": {
@@ -7647,7 +7684,19 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "antycyklon"
+                "žiješ"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hoch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Zítra"
               ]
             }
           },
@@ -7657,7 +7706,11 @@ const B2_WORDS = [
                 "hoch"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Hora"
+              ]
+            }
           }
         ],
         "tip": [
@@ -7696,99 +7749,99 @@ const B2_WORDS = [
     "de": "Hochachtung",
     "de_article": "die",
     "de_plural": "die Hochachtungen",
-    "lv": "Wielki szacunek",
+    "lv": "Velký respekt",
     "level": "B2"
   },
   {
     "de": "Hochmut",
     "de_article": "der",
-    "lv": "Arogancja • Arogancja",
+    "lv": "Arogance • Arogance",
     "level": "B2"
   },
   {
     "de": "hochmütig",
-    "lv": "Wyniosły • Wyniosły",
+    "lv": "Povýšený • Povýšený",
     "level": "B2"
   },
   {
     "de": "Hochspannung",
     "de_article": "die",
     "de_plural": "die Hochspannungen",
-    "lv": "Wysokie napięcie",
+    "lv": "Vysokého napětí",
     "level": "B2"
   },
   {
     "de": "Hochsprung",
     "de_article": "der",
     "de_plural": "die Hochsprünge",
-    "lv": "Skok wzwyż",
+    "lv": "Skok vysoký",
     "level": "B2"
   },
   {
     "de": "Höchstleistung",
     "de_article": "die",
     "de_plural": "die Höchstleistungen",
-    "lv": "Najwyższe osiągnięcie • Największa moc • Rekord",
+    "lv": "Nejvyšší výkon • Největší síla • Rekord",
     "level": "B2"
   },
   {
     "de": "Hochverrat",
     "de_article": "der",
     "de_plural": null,
-    "lv": "Zdrada",
+    "lv": "Zrada",
     "level": "B2"
   },
   {
     "de": "Hochwasser",
     "de_article": "das",
     "de_plural": "die Hochwasser",
-    "lv": "Powódź • Wysoki poziom wody",
+    "lv": "Povodeň • Vysoká hladina vody",
     "level": "B2",
     "study": {
       "id": "b2-hochwasser",
       "layout": "standardStudy",
-      "translation": "Powódź • Wysoki poziom wody",
-      "explanation": "Główna idea: das Hochwasser oznacza powódź lub bardzo wysoki poziom wody w rzece, jeziorze lub morzu. Liczba mnoga: die Hochwasser. Często używany w prasie i ostrzeżeniach.",
+      "translation": "Povodeň • Vysoká hladina vody",
+      "explanation": "Hlavní myšlenka: das Hochwasser znamená povodeň nebo velmi vysokou hladinu vody v řece, jezeře nebo moři. Množné číslo: die Hochwasser. Často se používá v tisku a varování.",
       "examples": [
         {
           "de": "Nach dem Regen gibt es Hochwasser.",
-          "lv": "Po deszczu następuje powódź."
+          "lv": "Po dešti je povodeň."
         },
         {
           "de": "Das Hochwasser bedroht die Stadt.",
-          "lv": "Wysoki poziom wody zagraża miastu."
+          "lv": "Vysoká hladina vody ohrožuje město."
         },
         {
           "de": "Die Behörden warnen vor Hochwasser.",
-          "lv": "Władze ostrzegają przed powodziami."
+          "lv": "Úřady varují před povodněmi."
         }
       ],
       "comparison": [
         {
           "word": "das Hochwasser",
-          "meaning": "Powódź • Wysoki poziom wody",
-          "example": "Daję Hochwassera. = Jest powódź."
+          "meaning": "Povodeň • Vysoká hladina vody",
+          "example": "Es gibt Hochwasser. = Je povodeň."
         },
         {
           "word": "die Überschwemmung",
-          "meaning": "Powódź (konkretna)",
-          "example": "Die Überschwemmung zerstörte Häuser. = Powodzie zniszczyły domy."
+          "meaning": "Povodeň (konkrétní)",
+          "example": "Die Überschwemmung zerstörte Häuser. = Povodně zničily domy."
         },
         {
           "word": "der Pegel",
-          "meaning": "Poziom wody",
-          "example": "Der Pegel się spieszy. = Hladina vody stúpa."
+          "meaning": "Vodní hladina",
+          "example": "Der Pegel steigt. = Hladina vody stoupá."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Hoch = wysoki, Wasser = woda. Hochwasser = wysoki poziom wody, często oznaczający powódź."
+            "text": "Hoch = vysoký, Wasser = voda. Hochwasser = vysoká hladina vody, často znamená povodeň."
           }
         ]
       },
       "important": {
-        "text": "Das Hochwasser = powódź lub wysoki poziom wody. Liczba mnoga: die Hochwasser."
+        "text": "Das Hochwasser = povodeň nebo vysoká hladina vody. Množné číslo: die Hochwasser."
       },
       "sectionAccents": {
         "explanation": {
@@ -7796,8 +7849,8 @@ const B2_WORDS = [
             "das Hochwasser"
           ],
           "purple": [
-            "powódź",
-            "wysoki poziom wody"
+            "Hlavní",
+            "Hlavní"
           ]
         },
         "examples": [
@@ -7807,7 +7860,11 @@ const B2_WORDS = [
                 "Hochwasser"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "dešti"
+              ]
+            }
           },
           {
             "de": {
@@ -7815,7 +7872,11 @@ const B2_WORDS = [
                 "Hochwasser"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Vysoká"
+              ]
+            }
           },
           {
             "de": {
@@ -7823,7 +7884,11 @@ const B2_WORDS = [
                 "Hochwasser"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Úřady"
+              ]
+            }
           }
         ]
       }
@@ -7831,44 +7896,44 @@ const B2_WORDS = [
   },
   {
     "de": "hochwertig",
-    "lv": "Wysoka wartość",
+    "lv": "Vysoká hodnota",
     "level": "B2"
   },
   {
     "de": "Hohlmaß",
     "de_article": "das",
     "de_plural": "die Hohlmaße",
-    "lv": "Miara objętości",
+    "lv": "Míra objemu",
     "level": "B2"
   },
   {
     "de": "Hohn",
     "de_article": "der",
-    "lv": "Wyśmiewanie • Wyśmiewanie",
+    "lv": "Výsměch • Výsměch",
     "level": "B2"
   },
   {
     "de": "Hölle",
     "de_article": "die",
     "de_plural": "die Höllen",
-    "lv": "Piekło",
+    "lv": "Peklo",
     "level": "B2"
   },
   {
     "de": "holpern",
-    "lv": "Trząść się • Drżeć",
+    "lv": "Třást se • Cukat",
     "level": "B2"
   },
   {
     "de": "Honorar",
     "de_article": "das",
     "de_plural": "die Honorare",
-    "lv": "Królewskość",
+    "lv": "Královské hodnosti",
     "level": "B2"
   },
   {
     "de": "humanitär",
-    "lv": "Humanitarny",
+    "lv": "Humanitární",
     "level": "B2"
   },
   {
@@ -7882,42 +7947,42 @@ const B2_WORDS = [
     "de": "Hypothek",
     "de_article": "die",
     "de_plural": "die Hypotheken",
-    "lv": "Hipoteka",
+    "lv": "Hypotéka",
     "level": "B2"
   },
   {
     "de": "Immobilien",
     "de_article": "die",
-    "lv": "Nieruchomość",
+    "lv": "Nemovitost",
     "level": "B2"
   },
   {
     "de": "Immunität",
     "de_article": "die",
     "de_plural": "die Immunitäten",
-    "lv": "Odporność",
+    "lv": "Imunita",
     "level": "B2"
   },
   {
     "de": "implantieren",
-    "lv": "Wszczepić",
+    "lv": "Implantovat",
     "level": "B2"
   },
   {
     "de": "in flagranti",
-    "lv": "Złapać • Zrobienie czegoś nielegalnego",
+    "lv": "Chytit • Dělat něco nezákonného",
     "level": "B2"
   },
   {
     "de": "inkompatibel",
-    "lv": "Niezgodny",
+    "lv": "Nekompatibilní",
     "level": "B2"
   },
   {
     "de": "Innenpolitik",
     "de_article": "die",
     "de_plural": "die Innenpolitiken",
-    "lv": "Polityka wewnętrzna",
+    "lv": "Domácí politiku",
     "level": "B2"
   },
   {
@@ -7927,26 +7992,26 @@ const B2_WORDS = [
   },
   {
     "de": "inszenieren",
-    "lv": "Na scenę",
+    "lv": "Na jeviště",
     "level": "B2"
   },
   {
     "de": "Intervention",
     "de_article": "die",
     "de_plural": "die Interventionen",
-    "lv": "Interwencja",
+    "lv": "Zásah",
     "level": "B2"
   },
   {
     "de": "Investition",
     "de_article": "die",
     "de_plural": "die Investitionen",
-    "lv": "Inwestycja • Inwestowanie • Inwestycja kapitałowa • Inwestowanie",
+    "lv": "Investice • Investování • Kapitálové investice • Investování",
     "level": "B2"
   },
   {
     "de": "irrsinnig",
-    "lv": "Blázon • Blázon",
+    "lv": "Šílený • Šílený",
     "level": "B2"
   },
   {
@@ -7960,27 +8025,27 @@ const B2_WORDS = [
     "de": "Kabinettskrise",
     "de_article": "die",
     "de_plural": "die Kabinettskrisen",
-    "lv": "Kryzys gabinetu",
+    "lv": "Kabinetní krize",
     "level": "B2"
   },
   {
     "de": "Kapazität",
     "de_article": "die",
     "de_plural": "die Kapazitäten",
-    "lv": "Zdolność produkcyjna • Wydajność • Wielkość • Wydajność",
+    "lv": "Výrobní kapacita • Kapacita • Objem • Kapacita",
     "level": "B2"
   },
   {
     "de": "Kapitalanlage",
     "de_article": "die",
     "de_plural": "die Kapitalanlagen",
-    "lv": "Inwestycja kapitałowa",
+    "lv": "Kapitálové investice",
     "level": "B2"
   },
   {
     "de": "Kapitalismus",
     "de_article": "der",
-    "lv": "Kapitalizm",
+    "lv": "Kapitalismus",
     "level": "B2"
   },
   {
@@ -7999,60 +8064,60 @@ const B2_WORDS = [
     "de": "Kapitulation",
     "de_article": "die",
     "de_plural": "die Kapitulationen",
-    "lv": "Kapitulacja",
+    "lv": "Kapitulace",
     "level": "B2"
   },
   {
     "de": "Karrierefrau",
     "de_article": "die",
     "de_plural": "die Karrierefrauen",
-    "lv": "Karierowiczka",
+    "lv": "Kariérní žena",
     "level": "B2"
   },
   {
     "de": "Kaufkraft",
     "de_article": "die",
-    "lv": "Pieniądze • Także osobista siła nabywcza",
+    "lv": "Peníze • Také osobní kupní síla",
     "level": "B2"
   },
   {
     "de": "Keuchhusten",
     "de_article": "der",
-    "lv": "Krztusiec",
+    "lv": "Černý kašel",
     "level": "B2"
   },
   {
     "de": "kidnappen",
-    "lv": "Porwać • Wziąć zakładnika",
+    "lv": "Unést • Vzít jako rukojmí",
     "level": "B2"
   },
   {
     "de": "killen",
-    "lv": "Zabić",
+    "lv": "Zabít",
     "level": "B2"
   },
   {
     "de": "Klappe",
     "de_article": "die",
     "de_plural": "die Klappen",
-    "lv": "Zawór • Zawór",
+    "lv": "Ventil • Ventil",
     "level": "B2"
   },
   {
     "de": "Klasse",
     "de_article": "die",
     "de_plural": "die Klassen",
-    "lv": "Klasa społeczna • Klasa • Kategoria",
+    "lv": "Společenská třída • Třída • Kategorie",
     "level": "B2"
   },
   {
     "de": "klassenlos",
-    "lv": "Bezklasowy",
+    "lv": "Beztřídní",
     "level": "B2"
   },
   {
     "de": "klassifizieren",
-    "lv": "Klasyfikować",
+    "lv": "Klasifikovat",
     "level": "B2"
   },
   {
@@ -8064,58 +8129,58 @@ const B2_WORDS = [
   },
   {
     "de": "knifflig",
-    "lv": "Skomplikowany",
+    "lv": "Složitý",
     "level": "B2"
   },
   {
     "de": "Knochengewebe",
     "de_article": "das",
     "de_plural": "die Knochengewebe",
-    "lv": "Tkanka kostna",
+    "lv": "Kostní tkáně",
     "level": "B2"
   },
   {
     "de": "Knochenmark",
     "de_article": "das",
     "de_plural": "die Knochenmarke",
-    "lv": "Szpik kostny",
+    "lv": "Kostní dřeně",
     "level": "B2"
   },
   {
     "de": "Kolben",
     "de_article": "der",
     "de_plural": "die Kolben",
-    "lv": "Kolba • Tłok",
+    "lv": "Baňka • Píst",
     "level": "B2"
   },
   {
     "de": "Kommunismus",
     "de_article": "der",
-    "lv": "Komunizm",
+    "lv": "Komunismu",
     "level": "B2"
   },
   {
     "de": "kompatibel",
-    "lv": "Możliwość podłączenia",
+    "lv": "Připojitelné",
     "level": "B2"
   },
   {
     "de": "kompetent",
-    "lv": "Kompetentny • Biegły",
+    "lv": "Kompetentní • Zdatný",
     "level": "B2"
   },
   {
     "de": "Komplott",
     "de_article": "das",
     "de_plural": "die Komplotte",
-    "lv": "Spisek",
+    "lv": "Spiknutí",
     "level": "B2"
   },
   {
     "de": "Konsequenz",
     "de_article": "die",
     "de_plural": "die Konsequenzen",
-    "lv": "Spójność • Sekwencja • Zakończenie • Konsekwencja",
+    "lv": "Důslednost • Posloupnost • Závěr • Následek",
     "level": "B2"
   },
   {
@@ -8129,301 +8194,301 @@ const B2_WORDS = [
     "de": "Konsum",
     "de_article": "der",
     "de_plural": null,
-    "lv": "Konsumpcja",
+    "lv": "Spotřeba",
     "level": "B2"
   },
   {
     "de": "Konsumgüter",
     "de_article": "die",
-    "lv": "Dobra konsumpcyjne",
+    "lv": "Konzumní zboží",
     "level": "B2"
   },
   {
     "de": "konvertieren",
-    "lv": "Konwertować",
+    "lv": "Převést",
     "level": "B2"
   },
   {
     "de": "Konzept",
     "de_article": "das",
     "de_plural": "die Konzepte",
-    "lv": "Koncepcja • Zarys • Plan",
+    "lv": "Koncept • Návrh • Plán",
     "level": "B2"
   },
   {
     "de": "Korps",
     "de_article": "das",
     "de_plural": "die Korps",
-    "lv": "Ciało",
+    "lv": "Tělo",
     "level": "B2"
   },
   {
     "de": "korrumpieren",
-    "lv": "Przekupić",
+    "lv": "Uplácet",
     "level": "B2"
   },
   {
     "de": "korrupt",
-    "lv": "Do kupienia • Przekupstwa",
+    "lv": "Koupitelný • Úplatný",
     "level": "B2"
   },
   {
     "de": "Kosmonaut",
     "de_article": "der",
     "de_plural": "die Kosmonauten",
-    "lv": "Kosmonauta",
+    "lv": "Kosmonaut",
     "level": "B2"
   },
   {
     "de": "Krebs",
     "de_article": "der",
     "de_plural": "die Krebse",
-    "lv": "Rak",
+    "lv": "Rakovina",
     "level": "B2"
   },
   {
     "de": "Kriegszustand",
     "de_article": "der",
     "de_plural": "die Kriegszustände",
-    "lv": "Stan wojenny",
+    "lv": "Stanné právo",
     "level": "B2"
   },
   {
     "de": "Lähmung",
     "de_article": "die",
     "de_plural": "die Lähmungen",
-    "lv": "Paraliż",
+    "lv": "Ochrnutí",
     "level": "B2"
   },
   {
     "de": "Laie",
     "de_article": "der",
     "de_plural": "die Laien",
-    "lv": "Dyletant",
+    "lv": "Diletant",
     "level": "B2"
   },
   {
     "de": "Laienkunst",
     "de_article": "die",
-    "lv": "Samodzielność artystyczna",
+    "lv": "Umělecká sebeaktivita",
     "level": "B2"
   },
   {
     "de": "Landarbeiter",
     "de_article": "der",
     "de_plural": "die Landarbeiter",
-    "lv": "Pracownik rolny",
+    "lv": "Zemědělský dělník",
     "level": "B2"
   },
   {
     "de": "Landebahn",
     "de_article": "die",
     "de_plural": "die Landebahnen",
-    "lv": "Lądowisko",
+    "lv": "Přistávací dráha",
     "level": "B2"
   },
   {
     "de": "Landenge",
     "de_article": "die",
     "de_plural": "die Landengen",
-    "lv": "Przesmyk lądowy",
+    "lv": "Šíje země",
     "level": "B2"
   },
   {
     "de": "Länderkunde",
     "de_article": "die",
-    "lv": "Geografia regionalna",
+    "lv": "Regionální geografie",
     "level": "B2"
   },
   {
     "de": "Landsmann",
     "de_article": "der",
     "de_plural": "die Landsleute",
-    "lv": "Rodak • Mieszkaniec powiatu",
+    "lv": "Krajan • Obyvatel kraje",
     "level": "B2"
   },
   {
     "de": "Landung",
     "de_article": "die",
     "de_plural": "die Landungen",
-    "lv": "Odskok • Lądowanie • Lądowanie",
+    "lv": "Odstát • Přistání • Přistání",
     "level": "B2"
   },
   {
     "de": "Landzunge",
     "de_article": "die",
     "de_plural": "die Landzungen",
-    "lv": "Język ziemi",
+    "lv": "Jazyk země",
     "level": "B2"
   },
   {
     "de": "langfristig",
-    "lv": "Długoterminowe • Długoterminowe",
+    "lv": "Dlouhodobý • Dlouhodobý",
     "level": "B2"
   },
   {
     "de": "länglich",
-    "lv": "Wydłużony",
+    "lv": "Protáhlý",
     "level": "B2"
   },
   {
     "de": "lästig",
-    "lv": "Uciążliwy",
+    "lv": "Zatěžující",
     "level": "B2"
   },
   {
     "de": "latent",
-    "lv": "Ukryty • Niezauważalny",
+    "lv": "Skrytý • Neznatelný",
     "level": "B2"
   },
   {
     "de": "lauern",
-    "lv": "Się przytulić",
+    "lv": "Přitulit se",
     "level": "B2"
   },
   {
     "de": "Staffellauf",
     "de_article": "der",
     "de_plural": "die Staffelläufe",
-    "lv": "Sztafeta",
+    "lv": "Štafetový závod",
     "level": "B2"
   },
   {
     "de": "Laufmasche",
     "de_article": "die",
     "de_plural": "die Laufmaschen",
-    "lv": "Szew spadł ze skarpetki",
+    "lv": "Z ponožky vypadl steh",
     "level": "B2"
   },
   {
     "de": "Laufsteg",
     "de_article": "der",
     "de_plural": "die Laufstege",
-    "lv": "Język na pokazie mody",
+    "lv": "Jazyk na módní přehlídce",
     "level": "B2"
   },
   {
     "de": "Laufwerk",
     "de_article": "das",
     "de_plural": "die Laufwerke",
-    "lv": "Silnik • Silnik",
+    "lv": "Motor • Motor",
     "level": "B2"
   },
   {
     "de": "lauschen",
-    "lv": "Uważnie słuchać • Podsłuchiwać",
+    "lv": "Pozorně naslouchat • Odposlouchávat",
     "level": "B2"
   },
   {
     "de": "Lawinengefahr",
     "de_article": "die",
     "de_plural": "die Lawinengefahren",
-    "lv": "Zagrożenie lawinowe",
+    "lv": "Lavinové nebezpečí",
     "level": "B2"
   },
   {
     "de": "Lawinenopfer",
     "de_article": "das",
     "de_plural": "die Lawinenopfer",
-    "lv": "Ofiara lawiny",
+    "lv": "Oběť laviny",
     "level": "B2"
   },
   {
     "de": "Leader",
     "de_article": "der",
     "de_plural": "die Leader",
-    "lv": "Lider",
+    "lv": "Vůdce",
     "level": "B2"
   },
   {
     "de": "legalisieren",
-    "lv": "Zalegalizować",
+    "lv": "Legalizovat",
     "level": "B2"
   },
   {
     "de": "Lehrstuhl",
     "de_article": "der",
     "de_plural": "die Lehrstühle",
-    "lv": "Dział",
+    "lv": "Oddělení",
     "level": "B2"
   },
   {
     "de": "leiblich",
-    "lv": "Cielesny",
+    "lv": "Tělesný",
     "level": "B2"
   },
   {
     "de": "Leibwächter",
     "de_article": "der",
     "de_plural": "die Leibwächter",
-    "lv": "Goryl",
+    "lv": "Osobní strážce",
     "level": "B2"
   },
   {
     "de": "Leichenhalle",
     "de_article": "die",
     "de_plural": "die Leichenhallen",
-    "lv": "Na cmentarzu kaplicowym",
+    "lv": "Na hřbitově v kapli",
     "level": "B2"
   },
   {
     "de": "Leichtgewicht",
     "de_article": "das",
     "de_plural": "die Leichtgewichte",
-    "lv": "Lekka waga",
+    "lv": "Nízká hmotnost",
     "level": "B2"
   },
   {
     "de": "leichtgläubig",
-    "lv": "Łatwowierny",
+    "lv": "Naivní",
     "level": "B2"
   },
   {
     "de": "leichtsinnig",
-    "lv": "Frywolny",
+    "lv": "Povrchní",
     "level": "B2"
   },
   {
     "de": "Leiden",
     "de_article": "das",
     "de_plural": "die Leiden",
-    "lv": "Długa i ciężka choroba",
+    "lv": "Dlouhá a těžká nemoc",
     "level": "B2",
     "study": {
       "id": "b2-leiden-study",
       "layout": "standardStudy",
-      "translation": "Długa i ciężka choroba",
+      "translation": "Dlouhá a těžká nemoc",
       "explanation": [
-        "Główna idea: das Leiden z dużej litery i przedimka das to rzeczownik - cierpienie, długa/ciężka choroba.",
-        "Leiden pisany małymi literami to czasownik - cierpieć.",
-        "Das Leiden jest często używane w kontekście medycznym lub literackim (ein schweres Leiden = ciężka choroba).",
+        "Hlavní myšlenka: das Leiden s velkým písmenem a členem das je podstatné jméno - utrpení, dlouhá/těžká nemoc.",
+        "Leiden s malým písmenem je sloveso - trpět.",
+        "Das Leiden se často používá v lékařském nebo literárním kontextu (ein schweres Leiden = těžká nemoc).",
         "Množné číslo: die Leiden."
       ],
       "examples": [
         {
           "de": "Er hat ein schweres Leiden.",
-          "lv": "Ma poważną chorobę."
+          "lv": "Má vážnou nemoc."
         },
         {
           "de": "Das Leiden der Patienten war groß.",
-          "lv": "Utrpenie pacientov bolo obrovské."
+          "lv": "Utrpení pacientů bylo velké."
         },
         {
           "de": "Er leidet an einer seltenen Krankheit.",
-          "lv": "Cierpi na rzadką chorobę."
+          "lv": "Trpí vzácnou nemocí."
         },
         {
           "de": "Ihr Leiden dauerte Jahre.",
-          "lv": "Jej choroba trwała latami."
+          "lv": "Její nemoc trvala léta."
         }
       ],
       "tip": [
-        "Das Leiden dużą literą - rzeczownik (cierpienie, ciężka choroba).",
-        "Leiden małymi literami - czasownik (cierpieć)."
+        "Das Leiden s velkým písmenem - podstatné jméno (utrpení, těžká nemoc).",
+        "Leiden s malým písmenem - sloveso (trpět)."
       ],
       "important": [
-        "Das Leiden = cierpienie/ciężka choroba (rzeczownik).",
-        "Leiden = cierpieć (czasownik).",
+        "Das Leiden = utrpení/těžká nemoc (podstatné jméno).",
+        "Leiden = trpět (sloveso).",
         "Množné číslo: die Leiden."
       ],
       "sectionAccents": {
@@ -8432,7 +8497,8 @@ const B2_WORDS = [
             "das Leiden"
           ],
           "purple": [
-            "cierpienie"
+            "Hlavní",
+            "Hlavní"
           ],
           "green": [
             "leiden"
@@ -8445,7 +8511,11 @@ const B2_WORDS = [
                 "Leiden"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "vážnou"
+              ]
+            }
           },
           {
             "de": {
@@ -8455,7 +8525,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Utrpenie"
+                "Utrpení"
               ]
             }
           },
@@ -8467,7 +8537,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Cierpi"
+                "Trpí"
               ]
             }
           },
@@ -8477,7 +8547,11 @@ const B2_WORDS = [
                 "Leiden"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Její"
+              ]
+            }
           }
         ],
         "tip": [
@@ -8514,269 +8588,269 @@ const B2_WORDS = [
   },
   {
     "de": "leidlich",
-    "lv": "Znośny • Znośny • W połowie dobry",
+    "lv": "Snesitelný • Snesitelný • Napůl dobrý",
     "level": "B2"
   },
   {
     "de": "Leistungslohn",
     "de_article": "der",
     "de_plural": "die Leistungslöhne",
-    "lv": "Płatność akordowa",
+    "lv": "Kusová platba",
     "level": "B2"
   },
   {
     "de": "Leitartikel",
     "de_article": "der",
     "de_plural": "die Leitartikel",
-    "lv": "Artykuł wprowadzający",
+    "lv": "Úvodní článek",
     "level": "B2"
   },
   {
     "de": "Leitfaden",
     "de_article": "der",
     "de_plural": "die Leitfäden",
-    "lv": "Príručka",
+    "lv": "Manuál",
     "level": "B2"
   },
   {
     "de": "Lektor",
     "de_article": "der",
     "de_plural": "die Lektoren",
-    "lv": "Wykładowca uniwersytecki",
+    "lv": "Vysokoškolský lektor",
     "level": "B2"
   },
   {
     "de": "Lesbe",
     "de_article": "die",
     "de_plural": "die Lesben",
-    "lv": "Lesbijka",
+    "lv": "Lesbička",
     "level": "B2"
   },
   {
     "de": "lesegeschützt",
-    "lv": "Tekst, który można odczytać dopiero po wpisaniu hasła",
+    "lv": "Text, který lze přečíst pouze po zadání hesla",
     "level": "B2"
   },
   {
     "de": "Leuchtreklame",
     "de_article": "die",
     "de_plural": "die Leuchtreklamen",
-    "lv": "Lekka reklama",
+    "lv": "Světelná reklama",
     "level": "B2"
   },
   {
     "de": "leugnen",
-    "lv": "Zaprzeczyć",
+    "lv": "Popřít",
     "level": "B2"
   },
   {
     "de": "liberal",
-    "lv": "Liberał",
+    "lv": "Liberální",
     "level": "B2"
   },
   {
     "de": "Liebesaffäre",
     "de_article": "die",
     "de_plural": "die Liebesaffären",
-    "lv": "Intymne połączenie",
+    "lv": "Intimní spojení",
     "level": "B2"
   },
   {
     "de": "liebkosten",
-    "lv": "Pieścić • Pieścić",
+    "lv": "Pohladit • Pohladit",
     "level": "B2"
   },
   {
     "de": "liederlich",
-    "lv": "Niechlujny • Niechlujny",
+    "lv": "Nedbalý • Nedbalý",
     "level": "B2"
   },
   {
     "de": "lindern",
-    "lv": "Łagodzić • Łagodzić ból",
+    "lv": "Uklidnit • Zmírnit bolest",
     "level": "B2"
   },
   {
     "de": "lispeln",
-    "lv": "Slip",
+    "lv": "Sklouznout",
     "level": "B2"
   },
   {
     "de": "List",
     "de_article": "die",
     "de_plural": "die Listen",
-    "lv": "Naciągnięcie",
+    "lv": "Podvod",
     "level": "B2"
   },
   {
     "de": "listig",
-    "lv": "Podstępny",
+    "lv": "Mazaný",
     "level": "B2"
   },
   {
     "de": "Litfaßsäule",
     "de_article": "die",
     "de_plural": "die Litfaßsäulen",
-    "lv": "Tyč plagátu",
+    "lv": "Plakátová tyč",
     "level": "B2"
   },
   {
     "de": "Lochband",
     "de_article": "das",
     "de_plural": "die Lochbänder",
-    "lv": "Doskonały",
+    "lv": "Dokonalá",
     "level": "B2"
   },
   {
     "de": "Lochkarte",
     "de_article": "die",
     "de_plural": "die Lochkarten",
-    "lv": "Karta dziurkowana",
+    "lv": "Děrný štítek",
     "level": "B2"
   },
   {
     "de": "Lohnabbau",
     "de_article": "der",
-    "lv": "Spadek płac",
+    "lv": "Snížení mezd",
     "level": "B2"
   },
   {
     "de": "Lohnerhöhung",
     "de_article": "die",
     "de_plural": "die Lohnerhöhungen",
-    "lv": "Podwyżka wynagrodzenia",
+    "lv": "Zvýšení platu",
     "level": "B2"
   },
   {
     "de": "Lösegeld",
     "de_article": "das",
     "de_plural": "die Lösegelder",
-    "lv": "Opłata za wykup",
+    "lv": "Výkupní poplatek",
     "level": "B2"
   },
   {
     "de": "Losung",
     "de_article": "die",
     "de_plural": "die Losungen",
-    "lv": "Hasło • Hasło",
+    "lv": "Slogan • Heslo",
     "level": "B2"
   },
   {
     "de": "Löwenmähne",
     "de_article": "die",
     "de_plural": "die Löwenmähnen",
-    "lv": "Lwia grzywa",
+    "lv": "Lví hříva",
     "level": "B2"
   },
   {
     "de": "Löwenpranke",
     "de_article": "die",
     "de_plural": "die Löwenpranken",
-    "lv": "Łapa lwa",
+    "lv": "Lví tlapa",
     "level": "B2"
   },
   {
     "de": "Luftabwehr",
     "de_article": "die",
-    "lv": "Obrona powietrzna",
+    "lv": "Protivzdušná obrana",
     "level": "B2"
   },
   {
     "de": "Luftbad",
     "de_article": "das",
     "de_plural": "die Luftbäder",
-    "lv": "Pływanie w powietrzu",
+    "lv": "Vzdušné plavání",
     "level": "B2"
   },
   {
     "de": "Luftaufnahme",
     "de_article": "die",
     "de_plural": "die Luftaufnahmen",
-    "lv": "Fotografia lotnicza • Fotografia lotnicza",
+    "lv": "Letecká fotografie • Letecká fotografie",
     "level": "B2"
   },
   {
     "de": "luftdicht",
-    "lv": "Przepuszczający powietrze • Hermetyczny",
+    "lv": "Prodyšný • Hermetický",
     "level": "B2"
   },
   {
     "de": "Luftfahrt",
     "de_article": "die",
-    "lv": "Lotnictwo",
+    "lv": "Letectví",
     "level": "B2"
   },
   {
     "de": "Lufthafen",
     "de_article": "der",
     "de_plural": "die Lufthäfen",
-    "lv": "Letisko",
+    "lv": "Letiště",
     "level": "B2"
   },
   {
     "de": "Luftpost",
     "de_article": "die",
-    "lv": "Poczta lotnicza",
+    "lv": "Leteckou poštou",
     "level": "B2"
   },
   {
     "de": "Luftgewehr",
     "de_article": "das",
     "de_plural": "die Luftgewehre",
-    "lv": "Pistolet pneumatyczny",
+    "lv": "Vzduchová pistole",
     "level": "B2"
   },
   {
     "de": "Luftpirat",
     "de_article": "der",
     "de_plural": "die Luftpiraten",
-    "lv": "Powietrzny pirat",
+    "lv": "Vzdušný pirát",
     "level": "B2"
   },
   {
     "de": "Lustspiel",
     "de_article": "das",
     "de_plural": "die Lustspiele",
-    "lv": "Komedia • Żart",
+    "lv": "Komedie • Vtip hrát",
     "level": "B2"
   },
   {
     "de": "Machtantritt",
     "de_article": "der",
     "de_plural": "die Machtantritte",
-    "lv": "Dojście do władzy",
+    "lv": "Dostat se k moci",
     "level": "B2"
   },
   {
     "de": "Machtgier",
     "de_article": "die",
-    "lv": "Żądza władzy",
+    "lv": "Touha po moci",
     "level": "B2"
   },
   {
     "de": "mächtig",
-    "lv": "Potężny • Silny • Ogromny",
+    "lv": "Mocný • Silný • Obrovský",
     "level": "B2"
   },
   {
     "de": "Magensäure",
     "de_article": "die",
     "de_plural": "die Magensäuren",
-    "lv": "Kwas żołądkowy",
+    "lv": "Žaludeční kyseliny",
     "level": "B2"
   },
   {
     "de": "Magister",
     "de_article": "der",
     "de_plural": "die Magister",
-    "lv": "Tytuł magistra",
+    "lv": "Magisterský stupeň",
     "level": "B2"
   },
   {
     "de": "Mahd",
     "de_article": "die",
     "de_plural": "die Mahden",
-    "lv": "Zebrał",
+    "lv": "Sklidil",
     "level": "B2"
   },
   {
@@ -8790,18 +8864,18 @@ const B2_WORDS = [
     "de": "Mahl",
     "de_article": "das",
     "de_plural": "die Mähler",
-    "lv": "Posiłek • Uczta",
+    "lv": "Jídlo • Hostina",
     "level": "B2"
   },
   {
     "de": "mahnen",
-    "lv": "Pripomenúť",
+    "lv": "Připomenout",
     "level": "B2"
   },
   {
     "de": "Mahnschreiben",
     "de_article": "das",
-    "lv": "Przypomnienie",
+    "lv": "Připomínka",
     "level": "B2"
   },
   {
@@ -8813,184 +8887,184 @@ const B2_WORDS = [
   },
   {
     "de": "manipulieren",
-    "lv": "Manipulować",
+    "lv": "Manipulovat",
     "level": "B2"
   },
   {
     "de": "Manuskript",
     "de_article": "das",
     "de_plural": "die Manuskripte",
-    "lv": "Rękopis",
+    "lv": "Rukopis",
     "level": "B2"
   },
   {
     "de": "Marine",
     "de_article": "die",
     "de_plural": "die Marinen",
-    "lv": "Granatowy • Pejzaż morski",
+    "lv": "Námořnictvo • Přímořská krajina",
     "level": "B2"
   },
   {
     "de": "Mark",
     "de_article": "das",
     "de_plural": null,
-    "lv": "Szpik kostny",
+    "lv": "Kostní dřeně",
     "level": "B2"
   },
   {
     "de": "Marketing",
     "de_article": "das",
     "de_plural": null,
-    "lv": "Marketing • Handel",
+    "lv": "Marketing • Obchod",
     "level": "B2"
   },
   {
     "de": "Marktlücke",
     "de_article": "die",
     "de_plural": "die Marktlücken",
-    "lv": "Rynek niszowy",
+    "lv": "Mezera na trhu",
     "level": "B2"
   },
   {
     "de": "Marssonde",
     "de_article": "die",
     "de_plural": "die Marssonden",
-    "lv": "Sonda marsjańska",
+    "lv": "Sonda Mars",
     "level": "B2"
   },
   {
     "de": "Marschall",
     "de_article": "der",
     "de_plural": "die Marschälle",
-    "lv": "Marszałek",
+    "lv": "Maršál",
     "level": "B2"
   },
   {
     "de": "Marxismus",
     "de_article": "der",
-    "lv": "Marksizm",
+    "lv": "Marxismus",
     "level": "B2"
   },
   {
     "de": "Maschinenbau",
     "de_article": "der",
-    "lv": "Inżynieria mechaniczna",
+    "lv": "Strojírenství",
     "level": "B2"
   },
   {
     "de": "Maskenbildner",
     "de_article": "der",
     "de_plural": "die Maskenbildner",
-    "lv": "Profesjonalna wizażystka i fryzjerka",
+    "lv": "Profesionální vizážistka a kadeřnice",
     "level": "B2"
   },
   {
     "de": "Massaker",
     "de_article": "das",
     "de_plural": "die Massaker",
-    "lv": "Rzeź",
+    "lv": "Krveprolití",
     "level": "B2"
   },
   {
     "de": "Massenware",
     "de_article": "die",
-    "lv": "Dobra konsumpcyjne",
+    "lv": "Konzumní zboží",
     "level": "B2"
   },
   {
     "de": "maßlos",
-    "lv": "Niezmierzone • Nieskończone",
+    "lv": "Nezměrný • Nekonečný",
     "level": "B2"
   },
   {
     "de": "Materialismus",
     "de_article": "der",
-    "lv": "Materializm",
+    "lv": "Materialismus",
     "level": "B2"
   },
   {
     "de": "Matinée",
     "de_article": "die",
     "de_plural": "die Matinéen",
-    "lv": "Poranny program",
+    "lv": "Ranní show",
     "level": "B2"
   },
   {
     "de": "mechanisieren",
-    "lv": "Zmechanizować",
+    "lv": "Mechanizovat",
     "level": "B2"
   },
   {
     "de": "Meerbusen",
     "de_article": "der",
     "de_plural": "die Meerbusen",
-    "lv": "Zatoka morska",
+    "lv": "Mořský záliv",
     "level": "B2"
   },
   {
     "de": "Meerenge",
     "de_article": "die",
     "de_plural": "die Meerengen",
-    "lv": "Bełt",
+    "lv": "Úžina",
     "level": "B2"
   },
   {
     "de": "Meeresspiegel",
     "de_article": "der",
     "de_plural": "die Meeresspiegel",
-    "lv": "Poziom morza",
+    "lv": "Mořská hladina",
     "level": "B2"
   },
   {
     "de": "mehren",
-    "lv": "Zwielokrotniać",
+    "lv": "Násobit",
     "level": "B2"
   },
   {
     "de": "meiden",
-    "lv": "Unikać",
+    "lv": "Vyhnout se",
     "level": "B2"
   },
   {
     "de": "Meisterwerk",
     "de_article": "das",
     "de_plural": "die Meisterwerke",
-    "lv": "Arcydzieło",
+    "lv": "Mistrovské dílo",
     "level": "B2"
   },
   {
     "de": "Meldefrist",
     "de_article": "die",
     "de_plural": "die Meldefristen",
-    "lv": "Termin składania wniosków",
+    "lv": "Uzávěrka přihlášek",
     "level": "B2"
   },
   {
     "de": "menschenscheu",
-    "lv": "Nietowarzyski • Nieśmiały",
+    "lv": "Nespolečenský • Nesmělý",
     "level": "B2"
   },
   {
     "de": "merklich",
-    "lv": "Zauważalny",
+    "lv": "Znatelný",
     "level": "B2"
   },
   {
     "de": "meutern",
-    "lv": "Buntownik • Buntownik",
+    "lv": "Rebel • Rebel",
     "level": "B2"
   },
   {
     "de": "Mieder",
     "de_article": "das",
     "de_plural": "die Mieder",
-    "lv": "Pasek do rajstop • Stanik",
+    "lv": "Punčochový pásek • Živůtek",
     "level": "B2"
   },
   {
     "de": "Miederwaren",
     "de_article": "die",
-    "lv": "Gorsety • Biustonosze",
+    "lv": "Korzety • Podprsenky",
     "level": "B2"
   },
   {
@@ -9004,146 +9078,146 @@ const B2_WORDS = [
     "de": "Milbe",
     "de_article": "die",
     "de_plural": "die Milben",
-    "lv": "Kliešť",
+    "lv": "Klíště",
     "level": "B2"
   },
   {
     "de": "Hausstaubmilbe",
     "de_article": "die",
     "de_plural": "die Hausstaubmilben",
-    "lv": "Roztocza",
+    "lv": "Prachový roztoč",
     "level": "B2"
   },
   {
     "de": "mildern",
-    "lv": "Upokojte bolesť • Upokojte úsudok",
+    "lv": "Tišit bolest • Změkčit úsudek",
     "level": "B2"
   },
   {
     "de": "militant",
-    "lv": "Wojujący",
+    "lv": "Agresivní",
     "level": "B2"
   },
   {
     "de": "Militär",
     "de_article": "das",
-    "lv": "Wojska • Armia",
+    "lv": "Vojska • Armáda",
     "level": "B2"
   },
   {
     "de": "Militärdienst",
     "de_article": "der",
     "de_plural": "die Militärdienste",
-    "lv": "Służba wojskowa",
+    "lv": "Vojenská služba",
     "level": "B2"
   },
   {
     "de": "militärfrei",
-    "lv": "Nie podlega poborowi",
+    "lv": "Nepodléhají branné povinnosti",
     "level": "B2"
   },
   {
     "de": "minder",
-    "lv": "Mniejszy • Mniej",
+    "lv": "Menší • Méně",
     "level": "B2"
   },
   {
     "de": "Minderung",
     "de_article": "die",
     "de_plural": "die Minderungen",
-    "lv": "Malejący",
+    "lv": "Zmenšující se",
     "level": "B2"
   },
   {
     "de": "minderwertig",
-    "lv": "Bezwartościowy",
+    "lv": "Bezcenný",
     "level": "B2"
   },
   {
     "de": "missachten",
-    "lv": "Lekceważenie",
+    "lv": "Ignorovat",
     "level": "B2"
   },
   {
     "de": "missbilligen",
-    "lv": "Nie uznawać za dobre • Zarabiać",
+    "lv": "Neuznat za dobré • Vydělat",
     "level": "B2"
   },
   {
     "de": "missbrauchen",
-    "lv": "Nadużywać",
+    "lv": "Zneužívání",
     "level": "B2"
   },
   {
     "de": "missfallen",
-    "lv": "Nie podoba mi się",
+    "lv": "Nelíbí",
     "level": "B2"
   },
   {
     "de": "missglücken",
-    "lv": "Ponieść porażkę • Ponieść porażkę",
+    "lv": "Selhat • Selhat",
     "level": "B2"
   },
   {
     "de": "missgönnen",
-    "lv": "Nie chcieć • Cierpieć",
+    "lv": "Nepřát si • Bolet",
     "level": "B2"
   },
   {
     "de": "misstrauen",
-    "lv": "Nie ufać",
+    "lv": "Nevěřit",
     "level": "B2"
   },
   {
     "de": "mitschuldig",
-    "lv": "Współwinny",
+    "lv": "Spoluvinník",
     "level": "B2"
   },
   {
     "de": "mittels",
-    "lv": "Przy pomocy czegoś",
+    "lv": "S pomocí něčeho",
     "level": "B2"
   },
   {
     "de": "Mittelsmann",
     "de_article": "der",
     "de_plural": "die Mittelsmänner",
-    "lv": "Mediator pomiędzy przeciwnikami lub partnerami",
+    "lv": "Prostředníka mezi protivníky nebo partnery",
     "level": "B2"
   },
   {
     "de": "mitwirken",
-    "lv": "Uczestniczyć • Działać razem",
+    "lv": "Účastnit se • Jednat společně",
     "level": "B2"
   },
   {
     "de": "Mitwisser",
     "de_article": "der",
     "de_plural": "die Mitwisser",
-    "lv": "Współspiskowiec",
+    "lv": "Spoluspiklence",
     "level": "B2"
   },
   {
     "de": "mobilisieren",
-    "lv": "Zmobilizować",
+    "lv": "Mobilizovat",
     "level": "B2"
   },
   {
     "de": "moderieren",
-    "lv": "Moderować",
+    "lv": "Moderovat",
     "level": "B2"
   },
   {
     "de": "Moment",
     "de_article": "das",
     "de_plural": "die Momente",
-    "lv": "Okoliczność decydująca • Czynnik",
+    "lv": "Rozhodující okolnost • Činitel",
     "level": "B2"
   },
   {
     "de": "Monatsschrift",
     "de_article": "die",
-    "lv": "Miesięczny",
+    "lv": "Měsíční",
     "level": "B2",
     "de_plural": "die Monatsschriften"
   },
@@ -9151,129 +9225,133 @@ const B2_WORDS = [
     "de": "Müllentsorgung",
     "de_article": "die",
     "de_plural": "die Müllentsorgungen",
-    "lv": "Utylizacja odpadów",
+    "lv": "Likvidace odpadu",
     "level": "B2"
   },
   {
     "de": "Atommüll",
     "de_article": "der",
-    "lv": "Odpady radioaktywne",
+    "lv": "Radioaktivní odpad",
     "level": "B2"
   },
   {
     "de": "mulmig",
-    "lv": "Niespokojny • Niepewny • Bojaźliwy",
+    "lv": "Neklidný • Nejistý • Ustrašený",
     "level": "B2"
   },
   {
     "de": "münden",
-    "lv": "Napływ • Napływ • Odpływ • Wypływ",
+    "lv": "Přitékat • Přitékat • Vycházet • Vytékat",
     "level": "B2"
   },
   {
     "de": "Muße",
     "de_article": "die",
-    "lv": "Czas wolny • Czas wolny",
+    "lv": "Volný čas • Volný čas",
     "level": "B2"
   },
   {
     "de": "müßig",
-    "lv": "Bezczynny • Bezczynny",
+    "lv": "Nečinný • Nečinný",
     "level": "B2"
   },
   {
     "de": "mutieren",
-    "lv": "Porozprávať sa",
+    "lv": "Mluvit",
     "level": "B2"
   },
   {
     "de": "Mystik",
     "de_article": "die",
     "de_plural": "die Mystiken",
-    "lv": "Mistycyzm",
+    "lv": "Mysticismus",
     "level": "B2"
   },
   {
     "de": "Nabelschnur",
     "de_article": "die",
     "de_plural": "die Nabelschnüre",
-    "lv": "Pępowina",
+    "lv": "Pupeční šňůra",
     "level": "B2"
   },
   {
     "de": "Nachbildung",
     "de_article": "die",
     "de_plural": "die Nachbildungen",
-    "lv": "Imitácia • Imitácia",
+    "lv": "Napodobenina • Napodobenina",
     "level": "B2"
   },
   {
     "de": "Nachdruck",
     "de_article": "der",
     "de_plural": "die Nachdrucke",
-    "lv": "& Podčiarknuté",
+    "lv": "Důraz • Dotisk",
     "level": "B2",
     "study": {
       "id": "b2-nachdruck",
       "layout": "standardStudy",
-      "translation": "Podkreślenie • Przedruk",
+      "translation": "Důraz • Dotisk",
       "explanation": [
-        "Główna idea: der Nachdruck może oznaczać podkreślenie lub przedruk książki.",
-        "Nachdruck auf etwas legen = podkreślać coś, nalegać na coś.",
-        "Der Nachdruck eines Buches = przedruk książki.",
-        "Kontekst (transakcje/negocjacje lub publikacja) determinuje właściwe znaczenie."
+        "Hlavní myšlenka: der Nachdruck může znamenat zdůraznění nebo dotisk knihy.",
+        "Nachdruck auf etwas legen = něco zdůraznit, na něčem trvat.",
+        "Der Nachdruck eines Buches = dotisk knihy.",
+        "Kontext (transakce/vyjednávání nebo zveřejnění) určuje správný význam."
       ],
       "examples": [
         {
           "de": "Er legt Nachdruck auf die Frist.",
-          "lv": "– podkreśla termin."
+          "lv": "Zdůrazňuje termín."
         },
         {
           "de": "Mit Nachdruck forderte sie eine Antwort.",
-          "lv": "Zażądała odpowiedzi."
+          "lv": "Dožadovala se odpovědi."
         },
         {
           "de": "Der Nachdruck des Romans erschien im Frühjahr.",
-          "lv": "Przedruk powieści ukazał się wiosną."
+          "lv": "Dotisk románu vyšel na jaře."
         },
         {
           "de": "Dieses Buch ist bereits im Nachdruck.",
-          "lv": "Ta książka jest już w przedruku."
+          "lv": "Tato kniha je již v dotisku."
         },
         {
           "de": "Der Verlag plant einen Nachdruck.",
-          "lv": "Wydawca planuje reedycję."
+          "lv": "Vydavatel plánuje opětovné vydání."
         }
       ],
       "comparison": [
         {
           "word": "Nachdruck legen auf",
-          "meaning": "Podkreślać, nalegać",
-          "example": "Er legt Nachdruck auf die Frist. = Podkreśla termin."
+          "meaning": "Zdůraznit, trvat na tom",
+          "example": "Er legt Nachdruck auf die Frist. = Zdůrazňuje termín."
         },
         {
           "word": "der Nachdruck (Buch)",
-          "meaning": "Wznawiać wydanie",
-          "example": "Der Nachdruck erschien im Frühjahr. = Dodruk ukazał się wiosną."
+          "meaning": "Znovu vydat",
+          "example": "Der Nachdruck erschien im Frühjahr. = Reedice vyšla na jaře."
         },
         {
           "word": "der Druck",
-          "meaning": "Ciśnienie / nadruk",
-          "example": "Unter Druck stehen = Być pod presją."
+          "meaning": "Tlak / tisk",
+          "example": "Unter Druck stehen = Být pod tlakem."
         }
       ],
       "tip": [
-        "V diskusiách a žiadostiach: Nachdruck = underline.",
-        "W wydawnictwach i książkach: Nachdruck = przedruk."
+        "V diskusích a požadavcích: Nachdruck = důraz.",
+        "V nakladatelství a knihách: Nachdruck = dotisk."
       ],
       "important": [
-        "Nachdruck auf etwas legen = podkreślać.",
-        "Der Nachdruck eines Buches = przedruk."
+        "Nachdruck auf etwas legen = zdůraznit.",
+        "Der Nachdruck eines Buches = dotisk."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "der Nachdruck"
+          ],
+          "purple": [
+            "Hlavní",
+            "Hlavní"
           ]
         },
         "examples": [
@@ -9283,7 +9361,11 @@ const B2_WORDS = [
                 "Nachdruck"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Zdůrazňuje"
+              ]
+            }
           },
           {
             "de": {
@@ -9291,7 +9373,11 @@ const B2_WORDS = [
                 "Nachdruck"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Dožadovala"
+              ]
+            }
           },
           {
             "de": {
@@ -9299,7 +9385,11 @@ const B2_WORDS = [
                 "Nachdruck"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Dotisk"
+              ]
+            }
           },
           {
             "de": {
@@ -9307,7 +9397,11 @@ const B2_WORDS = [
                 "Nachdruck"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Tato"
+              ]
+            }
           },
           {
             "de": {
@@ -9315,7 +9409,11 @@ const B2_WORDS = [
                 "Nachdruck"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Vydavatel"
+              ]
+            }
           }
         ]
       }
@@ -9323,468 +9421,468 @@ const B2_WORDS = [
   },
   {
     "de": "nachdrücklich",
-    "lv": "Stanowczy • Energiczny • Przekonujący • Energicznie • Przekonujący",
+    "lv": "Důrazný • Rázný • Přesvědčivý • Rázně • Přesvědčivě",
     "level": "B2"
   },
   {
     "de": "nachgehen",
-    "lv": "Podążaj • Dowiedz się",
+    "lv": "Sledovat • Zjistit",
     "level": "B2"
   },
   {
     "de": "nachgiebig",
-    "lv": "Protekcjonalny",
+    "lv": "Blahosklonný",
     "level": "B2"
   },
   {
     "de": "Nachlass",
     "de_article": "der",
     "de_plural": "die Nachlasse",
-    "lv": "Dziedzictwo",
+    "lv": "Dědictví",
     "level": "B2"
   },
   {
     "de": "Nachruf",
     "de_article": "der",
     "de_plural": "die Nachrufe",
-    "lv": "Posmrtne",
+    "lv": "Nekrolog",
     "level": "B2"
   },
   {
     "de": "Nachsicht",
     "de_article": "die",
-    "lv": "Tolerancja • Zrozumienie",
+    "lv": "Tolerance • Porozumění",
     "level": "B2"
   },
   {
     "de": "nachsitzen",
-    "lv": "Zostawać w szkole po godzinach w ramach kary",
+    "lv": "Zůstat ve škole po hodinách jako trest",
     "level": "B2"
   },
   {
     "de": "nachträglich",
-    "lv": "Później • Dodatkowe • Później • Za dodatki",
+    "lv": "Později • Dodatečný • Později • Pro doplňky",
     "level": "B2"
   },
   {
     "de": "Nachweis",
     "de_article": "der",
     "de_plural": "die Nachweise",
-    "lv": "Dowód",
+    "lv": "Důkaz",
     "level": "B2"
   },
   {
     "de": "Nachwort",
     "de_article": "das",
     "de_plural": "die Nachworte",
-    "lv": "Posłowie • Epilog",
+    "lv": "Doslov • Epilog",
     "level": "B2"
   },
   {
     "de": "Nährboden",
     "de_article": "der",
     "de_plural": "die Nährböden",
-    "lv": "Średni",
+    "lv": "Střední",
     "level": "B2"
   },
   {
     "de": "namens",
-    "lv": "W imieniu • W nazwisku",
+    "lv": "Ve jménu • V příjmení",
     "level": "B2"
   },
   {
     "de": "Namensvetter",
     "de_article": "der",
     "de_plural": "die Namensvettern",
-    "lv": "Imiennik",
+    "lv": "Jmenovec",
     "level": "B2"
   },
   {
     "de": "Narkosearzt",
     "de_article": "der",
     "de_plural": "die Narkoseärzte",
-    "lv": "Lekarz anestezjolog",
+    "lv": "Lékař anesteziolog",
     "level": "B2"
   },
   {
     "de": "Teilnarkose",
     "de_article": "die",
     "de_plural": "die Teilnarkosen",
-    "lv": "Częściowe znieczulenie",
+    "lv": "Částečná anestezie",
     "level": "B2"
   },
   {
     "de": "Vollnarkose",
     "de_article": "die",
     "de_plural": "die Vollnarkosen",
-    "lv": "Pełna narkoza",
+    "lv": "Plná narkóza",
     "level": "B2"
   },
   {
     "de": "Naturgewalten",
     "de_article": "die",
-    "lv": "Siły natury",
+    "lv": "Přírodní síly",
     "level": "B2"
   },
   {
     "de": "Nebelschwaden",
     "de_article": "der",
     "de_plural": "die Nebelschwaden",
-    "lv": "Pas mgły",
+    "lv": "Pás mlhy",
     "level": "B2"
   },
   {
     "de": "Nebenprodukt",
     "de_article": "das",
     "de_plural": "die Nebenprodukte",
-    "lv": "Produkt uboczny",
+    "lv": "Vedlejší produkt",
     "level": "B2"
   },
   {
     "de": "Neger",
     "de_article": "der",
     "de_plural": "die Neger",
-    "lv": "Murzyn",
+    "lv": "Černoch",
     "level": "B2"
   },
   {
     "de": "Nenner",
     "de_article": "der",
     "de_plural": "die Nenner",
-    "lv": "Mianownik",
+    "lv": "Jmenovatel",
     "level": "B2"
   },
   {
     "de": "Nervenarzt",
     "de_article": "der",
     "de_plural": "die Nervenärzte",
-    "lv": "Lekarz chorób nerwowych",
+    "lv": "Lékař nervových chorob",
     "level": "B2"
   },
   {
     "de": "Nesselfieber",
     "de_article": "das",
-    "lv": "Pokrzywka",
+    "lv": "Kopřivka",
     "level": "B2"
   },
   {
     "de": "Neuauflage",
     "de_article": "die",
     "de_plural": "die Neuauflagen",
-    "lv": "Ponownie • Wydanie poprawione",
+    "lv": "Re • Přepracované vydání",
     "level": "B2"
   },
   {
     "de": "neuerdings",
-    "lv": "Ostatnio • Obecnie • Ponownie • Ponownie",
+    "lv": "Nedávno • V těchto dnech • Znovu • Znovu",
     "level": "B2"
   },
   {
     "de": "Neuerer",
     "de_article": "der",
     "de_plural": "die Neuerer",
-    "lv": "Nowator",
+    "lv": "Zlepšovatel",
     "level": "B2"
   },
   {
     "de": "Neuerscheinung",
     "de_article": "die",
     "de_plural": "die Neuerscheinungen",
-    "lv": "Nowe • Nowe wydanie",
+    "lv": "Nové • Nové vydání",
     "level": "B2"
   },
   {
     "de": "Neuerung",
     "de_article": "die",
     "de_plural": "die Neuerungen",
-    "lv": "Uaktualnienie",
+    "lv": "Upgrade",
     "level": "B2"
   },
   {
     "de": "Neutralität",
     "de_article": "die",
     "de_plural": "die Neutralitäten",
-    "lv": "Neutralność",
+    "lv": "Neutralita",
     "level": "B2"
   },
   {
     "de": "Nichtbeachtung",
     "de_article": "die",
     "de_plural": "die Nichtbeachtungen",
-    "lv": "Lekceważenie • Ignorowanie",
+    "lv": "Ignorovat • Ignorovat",
     "level": "B2"
   },
   {
     "de": "nichtig",
-    "lv": "Nieważne • Nieważne • Błahe • Nieistotne",
+    "lv": "Prázdný • Prázdný • Maličkost • Bezvýznamný",
     "level": "B2"
   },
   {
     "de": "Niedergang",
     "de_article": "der",
     "de_plural": "die Niedergänge",
-    "lv": "Zachód słońca • Upadek • Upadek",
+    "lv": "Západ slunce • Pokles • Pokles",
     "level": "B2"
   },
   {
     "de": "niederlegen",
-    "lv": "Odložiť • Zastaviť prácu • Začať štrajk",
+    "lv": "Odložit • Zastavit práci • Stávkovat",
     "level": "B2"
   },
   {
     "de": "Niederschlag",
     "de_article": "der",
     "de_plural": "die Niederschläge",
-    "lv": "Osad • Opady",
+    "lv": "Sediment • Srážení",
     "level": "B2"
   },
   {
     "de": "Niedertracht",
     "de_article": "die",
-    "lv": "Podłość",
+    "lv": "Podlost",
     "level": "B2"
   },
   {
     "de": "nimmermehr",
-    "lv": "Nigdy więcej",
+    "lv": "Už nikdy",
     "level": "B2"
   },
   {
     "de": "nominieren",
-    "lv": "Nominować",
+    "lv": "Nominovat",
     "level": "B2"
   },
   {
     "de": "normieren",
-    "lv": "Do racjonowania",
+    "lv": "Na příděl",
     "level": "B2"
   },
   {
     "de": "nötigenfalls",
-    "lv": "W razie potrzeby",
+    "lv": "V případě potřeby",
     "level": "B2"
   },
   {
     "de": "Notstand",
     "de_article": "der",
     "de_plural": "die Notstände",
-    "lv": "Stan katastroficzny • Stan wyjątkowy",
+    "lv": "Katastrofální stav • Stav nouze",
     "level": "B2"
   },
   {
     "de": "Notwehr",
     "de_article": "die",
-    "lv": "Niezbędną ochronę",
+    "lv": "Potřebnou ochranu",
     "level": "B2"
   },
   {
     "de": "Nutzeffekt",
     "de_article": "der",
     "de_plural": "die Nutzeffekte",
-    "lv": "Współczynnik efektywności",
+    "lv": "Poměr účinnosti",
     "level": "B2"
   },
   {
     "de": "Nutzholz",
     "de_article": "das",
     "de_plural": "die Nutzhölzer",
-    "lv": "Akta sprawy",
+    "lv": "Soubory případů",
     "level": "B2"
   },
   {
     "de": "Oberhand",
     "de_article": "die",
     "de_plural": null,
-    "lv": "Zwierzchnictwo",
+    "lv": "Svrchovanost",
     "level": "B2"
   },
   {
     "de": "Oberst",
     "de_article": "der",
     "de_plural": "die Oberste",
-    "lv": "Pułkownik",
+    "lv": "Plukovník",
     "level": "B2"
   },
   {
     "de": "obgleich",
-    "lv": "Chociaż chociaż",
+    "lv": "Ačkoli ačkoli",
     "level": "B2"
   },
   {
     "de": "Obhut",
     "de_article": "die",
-    "lv": "Ochrona",
+    "lv": "Ochrana",
     "level": "B2"
   },
   {
     "de": "Oboe",
     "de_article": "die",
     "de_plural": "die Oboen",
-    "lv": "Obój",
+    "lv": "Hoboj",
     "level": "B2"
   },
   {
     "de": "observieren",
-    "lv": "Śledzić • Obserwować",
+    "lv": "Stopovat • Pozorovat",
     "level": "B2"
   },
   {
     "de": "Obstbau",
     "de_article": "der",
-    "lv": "Uprawa owoców",
+    "lv": "Ovocnářství",
     "level": "B2"
   },
   {
     "de": "Offenbarung",
     "de_article": "die",
     "de_plural": "die Offenbarungen",
-    "lv": "Objawienie",
+    "lv": "Zjevení",
     "level": "B2"
   },
   {
     "de": "offenherzig",
-    "lv": "Úprimný",
+    "lv": "Upřímný",
     "level": "B2"
   },
   {
     "de": "Ökobauer",
     "de_article": "der",
     "de_plural": "die Ökobauern",
-    "lv": "Rolnik wytwarzający ekologicznie czyste produkty rolne",
+    "lv": "Farmář, který vyrábí ekologicky čisté zemědělské produkty",
     "level": "B2"
   },
   {
     "de": "Ökosystem",
     "de_article": "das",
     "de_plural": "die Ökosysteme",
-    "lv": "Ekosystem",
+    "lv": "Ekosystému",
     "level": "B2"
   },
   {
     "de": "Ölbohrung",
     "de_article": "die",
     "de_plural": "die Ölbohrungen",
-    "lv": "Olejová studňa",
+    "lv": "Ropný vrt",
     "level": "B2"
   },
   {
     "de": "Ölgewinnung",
     "de_article": "die",
     "de_plural": "die Ölgewinnungen",
-    "lv": "Ekstrakcja oleju",
+    "lv": "Těžba ropy",
     "level": "B2"
   },
   {
     "de": "Ölraffinerie",
     "de_article": "die",
     "de_plural": "die Ölraffinerien",
-    "lv": "Rafineria ropy naftowej",
+    "lv": "Ropná rafinérie",
     "level": "B2"
   },
   {
     "de": "Ölpest",
     "de_article": "die",
-    "lv": "Zanieczyszczenie wody i olejów przybrzeżnych",
+    "lv": "Znečištění vody a pobřežní ropou",
     "level": "B2"
   },
   {
     "de": "Ölpflanze",
     "de_article": "die",
     "de_plural": "die Ölpflanzen",
-    "lv": "Roślina oleista",
+    "lv": "Olejnatá rostlina",
     "level": "B2"
   },
   {
     "de": "Olympiasieger",
     "de_article": "der",
     "de_plural": "die Olympiasieger",
-    "lv": "Zwycięzca igrzysk olimpijskich",
+    "lv": "Vítěz olympijských her",
     "level": "B2"
   },
   {
     "de": "Operator",
     "de_article": "der",
     "de_plural": "die Operatoren",
-    "lv": "Špecialista veľkého počítačového tímu",
+    "lv": "Specialista na velkou počítačovou posádku",
     "level": "B2"
   },
   {
     "de": "Opposition",
     "de_article": "die",
     "de_plural": "die Oppositionen",
-    "lv": "Opozycji",
+    "lv": "Opozice",
     "level": "B2"
   },
   {
     "de": "Order",
     "de_article": "die",
     "de_plural": "die Orders",
-    "lv": "Rozkaz • Polecenie • Zadanie",
+    "lv": "Příkaz • Příkaz • Úkol",
     "level": "B2"
   },
   {
     "de": "Organempfänger",
     "de_article": "der",
     "de_plural": "die Organempfänger",
-    "lv": "Biorca narządu do przeszczepu",
+    "lv": "Příjemce transplantovaného orgánu",
     "level": "B2"
   },
   {
     "de": "Organentnahme",
     "de_article": "die",
     "de_plural": "die Organentnahmen",
-    "lv": "Usunięcie narządów",
+    "lv": "Odebrání orgánu",
     "level": "B2"
   },
   {
     "de": "Organspende",
     "de_article": "die",
     "de_plural": "die Organspenden",
-    "lv": "Oddanie narządu do przeszczepu",
+    "lv": "Darování orgánu k transplantaci",
     "level": "B2"
   },
   {
     "de": "Organist",
     "de_article": "der",
     "de_plural": "die Organisten",
-    "lv": "Organista",
+    "lv": "Varhaník",
     "level": "B2"
   },
   {
     "de": "Orgasmus",
     "de_article": "der",
     "de_plural": "die Orgasmen",
-    "lv": "Orgazm",
+    "lv": "Orgasmus",
     "level": "B2"
   },
   {
     "de": "orientalisch",
-    "lv": "Orientalny • Orientalny • Orientalny",
+    "lv": "Orientální • Orientální • Orientální",
     "level": "B2"
   },
   {
     "de": "orten",
-    "lv": "Zlokalizować za pomocą narzędzi",
+    "lv": "Lokalizovat pomocí nástrojů",
     "level": "B2"
   },
   {
     "de": "Ortszeit",
     "de_article": "die",
-    "lv": "Czas lokalny",
+    "lv": "Místního času",
     "level": "B2"
   },
   {
     "de": "sich paaren",
-    "lv": "Z którym się koleguję",
+    "lv": "Pářit se s",
     "level": "B2",
     "study": {
       "id": "b2-sich-paaren",
       "layout": "minimalStudy",
-      "translation": "Z którym się koleguję",
-      "rektion": "mit + kam?",
-      "explanation": "Sich paaren wymaga przyimka określonego mit + kam?.",
-      "forms": "mit + kam?",
-      "formsLabel": "Kierownictwo:",
+      "translation": "Pářit se s",
+      "rektion": "Mit + kam?",
+      "explanation": "Sich paaren vyžaduje určitou předložku mit + kam?.",
+      "forms": "Mit + kam?",
+      "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -9801,123 +9899,123 @@ const B2_WORDS = [
     "de": "Pacht",
     "de_article": "die",
     "de_plural": "die Pachten",
-    "lv": "Dzierżawa",
+    "lv": "Pronájem",
     "level": "B2"
   },
   {
     "de": "Pachtvertrag",
     "de_article": "der",
     "de_plural": "die Pachtverträge",
-    "lv": "Umowa najmu",
+    "lv": "Nájemní smlouva",
     "level": "B2"
   },
   {
     "de": "pachten",
-    "lv": "Wynająć",
+    "lv": "Pronajmout",
     "level": "B2"
   },
   {
     "de": "Palmsonntag",
     "de_article": "der",
     "de_plural": "die Palmsonntage",
-    "lv": "Niedziela przed Wielkanocą • Niedziela Palmowa",
+    "lv": "Neděle před Velikonocemi • Květná neděle",
     "level": "B2"
   },
   {
     "de": "Panzerglas",
     "de_article": "das",
     "de_plural": "die Panzergläser",
-    "lv": "Szkło pancerne",
+    "lv": "Pancéřové sklo",
     "level": "B2"
   },
   {
     "de": "Panzerschrank",
     "de_article": "der",
     "de_plural": "die Panzerschränke",
-    "lv": "Sejf • Żelazna szafka",
+    "lv": "Trezor • Železná skříň",
     "level": "B2"
   },
   {
     "de": "Parole",
     "de_article": "die",
     "de_plural": "die Parolen",
-    "lv": "Hasło • Hasło",
+    "lv": "Heslo • Slogan",
     "level": "B2"
   },
   {
     "de": "Parteibuch",
     "de_article": "das",
     "de_plural": "die Parteibücher",
-    "lv": "Kartę członka partii",
+    "lv": "Karta člena strany",
     "level": "B2"
   },
   {
     "de": "parteiisch",
-    "lv": "Skreslené",
+    "lv": "Zaujatý",
     "level": "B2"
   },
   {
     "de": "parteilich",
-    "lv": "Partyzanckie • Partie",
+    "lv": "Partyzánské • Strany",
     "level": "B2"
   },
   {
     "de": "parteilos",
-    "lv": "Bezpartyjny",
+    "lv": "Bezpartijní",
     "level": "B2"
   },
   {
     "de": "Parteimitglied",
     "de_article": "das",
     "de_plural": "die Parteimitglieder",
-    "lv": "Członek partii",
+    "lv": "Člen strany",
     "level": "B2"
   },
   {
     "de": "Parteitag",
     "de_article": "der",
     "de_plural": "die Parteitage",
-    "lv": "Zjazd partii",
+    "lv": "Sjezd strany",
     "level": "B2"
   },
   {
     "de": "Partikel",
     "de_article": "das",
     "de_plural": "die Partikel",
-    "lv": "Cząstka • Ziarno",
+    "lv": "Částice • Zrno",
     "level": "B2"
   },
   {
     "de": "Pater",
     "de_article": "der",
     "de_plural": "die Patres",
-    "lv": "Ksiądz katolicki • Należący do zakonu",
+    "lv": "Katolický kněz • Příslušník řádu",
     "level": "B2"
   },
   {
     "de": "Peepshow",
     "de_article": "die",
     "de_plural": "die Peepshows",
-    "lv": "Program erotyczny, który ogląda się osobno przez pudełko",
+    "lv": "Erotický program, který je sledován samostatně prostřednictvím boxu",
     "level": "B2"
   },
   {
     "de": "Pegel",
     "de_article": "der",
     "de_plural": "die Pegel",
-    "lv": "Poziom wody",
+    "lv": "Vodní hladina",
     "level": "B2"
   },
   {
     "de": "Pendelverkehr",
     "de_article": "der",
     "de_plural": "die Pendelverkehre",
-    "lv": "Lokalny ruch dojazdowy",
+    "lv": "Místní dojíždějící dopravu",
     "level": "B2"
   },
   {
     "de": "penibel",
-    "lv": "Pedantyczny",
+    "lv": "Pedantský",
     "level": "B2"
   },
   {
@@ -9931,105 +10029,105 @@ const B2_WORDS = [
     "de": "Personalakte",
     "de_article": "die",
     "de_plural": "die Personalakten",
-    "lv": "Sprawa osobista",
+    "lv": "Osobní záležitost",
     "level": "B2"
   },
   {
     "de": "Pfahlbau",
     "de_article": "der",
-    "lv": "Konstrukcja pali",
+    "lv": "Pilotová konstrukce",
     "level": "B2"
   },
   {
     "de": "pfänden",
-    "lv": "Opisz nieruchomość • Zastaw",
+    "lv": "Popsat majetek • Zástava",
     "level": "B2"
   },
   {
     "de": "Pfandschein",
     "de_article": "der",
     "de_plural": "die Pfandscheine",
-    "lv": "Znak przysięgi",
+    "lv": "Znamení zástavy",
     "level": "B2"
   },
   {
     "de": "Pflichtbesuch",
     "de_article": "der",
     "de_plural": "die Pflichtbesuche",
-    "lv": "Telefon grzecznościowy",
+    "lv": "Zdvořilostní návštěva",
     "level": "B2"
   },
   {
     "de": "pfuschen",
-    "lv": "Zła • Niewykwalifikowana • Niechlujna praca",
+    "lv": "Špatný • Nekvalifikovaný • Lajdácká práce",
     "level": "B2"
   },
   {
     "de": "Philologie",
     "de_article": "die",
     "de_plural": "die Philologien",
-    "lv": "Filologia",
+    "lv": "Filologie",
     "level": "B2"
   },
   {
     "de": "Philosophie",
     "de_article": "die",
     "de_plural": "die Philosophien",
-    "lv": "Filozofia",
+    "lv": "Filozofie",
     "level": "B2"
   },
   {
     "de": "Pieper",
     "de_article": "der",
     "de_plural": "die Pieper",
-    "lv": "Pagera",
+    "lv": "Pager",
     "level": "B2"
   },
   {
     "de": "pikiert",
-    "lv": "Obrażony • Obrażony • Oburzony",
+    "lv": "Pohoršen • Pohoršen • Pobouřen",
     "level": "B2"
   },
   {
     "de": "Pilotfilm",
     "de_article": "der",
     "de_plural": "die Pilotfilme",
-    "lv": "Film otwierający serię",
+    "lv": "Úvodní film série",
     "level": "B2"
   },
   {
     "de": "Pilotprojekt",
     "de_article": "das",
     "de_plural": "die Pilotprojekte",
-    "lv": "Projekt pilotażowy",
+    "lv": "Pilotní projekt",
     "level": "B2"
   },
   {
     "de": "Pilotsendung",
     "de_article": "die",
     "de_plural": "die Pilotsendungen",
-    "lv": "Otwieracz serii",
+    "lv": "Otvírák série",
     "level": "B2"
   },
   {
     "de": "Pilotstudie",
     "de_article": "die",
     "de_plural": "die Pilotstudien",
-    "lv": "Wprowadzenie do serii badawczej",
+    "lv": "Úvod do výzkumné série",
     "level": "B2"
   },
   {
     "de": "Plädoyer",
     "de_article": "das",
     "de_plural": "die Plädoyers",
-    "lv": "Przemówienie prokuratora lub adwokata w sądzie",
+    "lv": "Projev státního zástupce nebo advokáta u soudu",
     "level": "B2"
   },
   {
     "de": "Plateau",
     "de_article": "das",
     "de_plural": "die Plateaus",
-    "lv": "Płaskie wzgórze",
+    "lv": "Plochý kopec",
     "level": "B2"
   },
   {
@@ -10042,84 +10140,84 @@ const B2_WORDS = [
   {
     "de": "Porno",
     "de_article": "der",
-    "lv": "Prace zawierające pornografię",
+    "lv": "Dílo obsahující pornografii",
     "level": "B2"
   },
   {
     "de": "porös",
-    "lv": "Porowaty",
+    "lv": "Porézní",
     "level": "B2"
   },
   {
     "de": "Posse",
     "de_article": "die",
     "de_plural": "die Possen",
-    "lv": "Farsa • Żart • Prymitywny żart",
+    "lv": "Fraška • Žertová hra • Hrubý žert",
     "level": "B2"
   },
   {
     "de": "Possen",
     "de_article": "der",
     "de_plural": "die Possen",
-    "lv": "Farsa • Żart • Prymitywny żart",
+    "lv": "Fraška • Žertová hra • Hrubý žert",
     "level": "B2"
   },
   {
     "de": "postlagernd",
-    "lv": "Na żądanie",
+    "lv": "Na požádání",
     "level": "B2"
   },
   {
     "de": "prägen",
-    "lv": "Bić pieniądze • Naciskać • Narzucać • Formować • Robić",
+    "lv": "Razit peníze • Tlačit • Vnucovat • Tvořit • Dělat",
     "level": "B2"
   },
   {
     "de": "prägnant",
-    "lv": "Żywo wyrażone",
+    "lv": "Živě vyjádřeno",
     "level": "B2"
   },
   {
     "de": "prahlen",
-    "lv": "Vychvaľovanie",
+    "lv": "Chlubit se",
     "level": "B2"
   },
   {
     "de": "prämieren",
-    "lv": "Nagroda",
+    "lv": "Odměna",
     "level": "B2"
   },
   {
     "de": "Präsidium",
     "de_article": "das",
     "de_plural": "die Präsidien",
-    "lv": "Prezydium",
+    "lv": "Prezidium",
     "level": "B2"
   },
   {
     "de": "predigen",
-    "lv": "Głosić",
+    "lv": "Kázat",
     "level": "B2"
   },
   {
     "de": "Preisträger",
     "de_article": "der",
     "de_plural": "die Preisträger",
-    "lv": "Zdobywca nagrody • Laureat",
+    "lv": "Držitel ceny • Laureát",
     "level": "B2"
   },
   {
     "de": "Presseagentur",
     "de_article": "die",
     "de_plural": "die Presseagenturen",
-    "lv": "Agencja prasowa",
+    "lv": "Tisková agentura",
     "level": "B2"
   },
   {
     "de": "Pressesprecher",
     "de_article": "der",
     "de_plural": "die Pressesprecher",
-    "lv": "Sekretarz prasowy",
+    "lv": "Tiskový tajemník",
     "level": "B2"
   },
   {
@@ -10131,313 +10229,313 @@ const B2_WORDS = [
   },
   {
     "de": "propagieren",
-    "lv": "Propagować",
+    "lv": "Propagovat",
     "level": "B2"
   },
   {
     "de": "Prostitution",
     "de_article": "die",
     "de_plural": "die Prostitutionen",
-    "lv": "Prostitúcia",
+    "lv": "Prostituce",
     "level": "B2"
   },
   {
     "de": "provisorisch",
-    "lv": "Tymczasowe • Tymczasowe • Na jakiś czas",
+    "lv": "Provizorní • Dočasný • Na čas",
     "level": "B2"
   },
   {
     "de": "PS",
     "de_article": "das",
     "de_plural": "die PS",
-    "lv": "Moc w koniach mechanicznych",
+    "lv": "Koňská síla",
     "level": "B2"
   },
   {
     "de": "Psychoterror",
     "de_article": "der",
-    "lv": "Psychoterror",
+    "lv": "Psychoteror",
     "level": "B2"
   },
   {
     "de": "Putsch",
     "de_article": "der",
     "de_plural": "die Putsche",
-    "lv": "Pucz",
+    "lv": "Puč",
     "level": "B2"
   },
   {
     "de": "qualifizieren",
-    "lv": "Zakwalifikować się",
+    "lv": "Kvalifikovat se",
     "level": "B2"
   },
   {
     "de": "Quantität",
     "de_article": "die",
     "de_plural": "die Quantitäten",
-    "lv": "Ilość • Ilość",
+    "lv": "Množství • Množství",
     "level": "B2"
   },
   {
     "de": "quellen",
-    "lv": "Sączyć się • Sączyć się • Zalewać • Zalewać • Pęcznieć",
+    "lv": "Mokvat • Mokvat • Mokvat • Mokvat • Nabobtnat",
     "level": "B2"
   },
   {
     "de": "querüber",
-    "lv": "Opačný",
+    "lv": "Naproti",
     "level": "B2"
   },
   {
     "de": "quittieren",
-    "lv": "Podpisać odbiór",
+    "lv": "Podepsat pro příjem",
     "level": "B2"
   },
   {
     "de": "Quote",
     "de_article": "die",
     "de_plural": "die Quoten",
-    "lv": "Kontyngent",
+    "lv": "Kvóta",
     "level": "B2"
   },
   {
     "de": "Rabbiner",
     "de_article": "der",
     "de_plural": "die Rabbiner",
-    "lv": "Rabin",
+    "lv": "Rabín",
     "level": "B2"
   },
   {
     "de": "Radierung",
     "de_article": "die",
     "de_plural": "die Radierungen",
-    "lv": "Ostrzenie • Trawienie",
+    "lv": "Broušení • Leptání",
     "level": "B2"
   },
   {
     "de": "Radioaktivität",
     "de_article": "die",
-    "lv": "Radioaktywność",
+    "lv": "Radioaktivita",
     "level": "B2"
   },
   {
     "de": "Radiobastler",
     "de_article": "der",
     "de_plural": "die Radiobastler",
-    "lv": "Amator radiowy",
+    "lv": "Radioamatér",
     "level": "B2"
   },
   {
     "de": "raffiniert",
-    "lv": "Wyrafinowany • Przebiegły",
+    "lv": "Rafinovaný • Mazaný",
     "level": "B2"
   },
   {
     "de": "Rain",
     "de_article": "der",
     "de_plural": "die Raine",
-    "lv": "Jeż",
+    "lv": "Ježek",
     "level": "B2"
   },
   {
     "de": "ranzig",
-    "lv": "Zjełczały • Gorzki do śmietanki • Tłusty • Masło",
+    "lv": "Žluklý • Hořký na smetanu • Tuk • Máslo",
     "level": "B2"
   },
   {
     "de": "rau",
-    "lv": "Szorstki • Szorstki • Szorstki • Ochrypły • Szorstki • Niemiły • Surowy",
+    "lv": "Hrubý • Hrubý • Hrubý • Chraplavý • Drsný • Nevlídný • Hrubý",
     "level": "B2"
   },
   {
     "de": "Rauchwaren",
     "de_article": "die",
-    "lv": "Futro • Produkty futrzane",
+    "lv": "Kožešiny • Kožešinové výrobky",
     "level": "B2"
   },
   {
     "de": "Raumflug",
     "de_article": "der",
     "de_plural": "die Raumflüge",
-    "lv": "Lot kosmiczny • Międzyplanetarny lot kosmiczny",
+    "lv": "Kosmický let • Meziplanetární kosmický let",
     "level": "B2"
   },
   {
     "de": "Rauminhalt",
     "de_article": "der",
     "de_plural": "die Rauminhalte",
-    "lv": "Tom",
+    "lv": "Objem",
     "level": "B2"
   },
   {
     "de": "Realismus",
     "de_article": "der",
-    "lv": "Realizm",
+    "lv": "Realismus",
     "level": "B2"
   },
   {
     "de": "rechtlos",
-    "lv": "Bezprawny",
+    "lv": "Nezákonný",
     "level": "B2"
   },
   {
     "de": "rechtmäßig",
-    "lv": "Prawny",
+    "lv": "Právní",
     "level": "B2"
   },
   {
     "de": "Rechtsberater",
     "de_article": "der",
     "de_plural": "die Rechtsberater",
-    "lv": "Doradca prawny",
+    "lv": "Právní poradce",
     "level": "B2"
   },
   {
     "de": "rechtsfähig",
-    "lv": "Zdolność prawna",
+    "lv": "Právní způsobilost",
     "level": "B2"
   },
   {
     "de": "Rechtsstaat",
     "de_article": "der",
     "de_plural": "die Rechtsstaaten",
-    "lv": "Kraj praworządności",
+    "lv": "Stát právního státu",
     "level": "B2"
   },
   {
     "de": "recken",
-    "lv": "Rozciągać • Rozciągać • Rozciągać • Rozciągać",
+    "lv": "Natáhnout • Natáhnout • Natáhnout • Natáhnout",
     "level": "B2"
   },
   {
     "de": "Redefreiheit",
     "de_article": "die",
     "de_plural": "die Redefreiheiten",
-    "lv": "Wolność słowa",
+    "lv": "Svoboda projevu",
     "level": "B2"
   },
   {
     "de": "redigieren",
-    "lv": "Upraviť",
+    "lv": "Upravit",
     "level": "B2"
   },
   {
     "de": "redselig",
-    "lv": "Rozmowny • Rozmowny",
+    "lv": "Upovídaný • Upovídaný",
     "level": "B2"
   },
   {
     "de": "Referenz",
     "de_article": "die",
     "de_plural": "die Referenzen",
-    "lv": "Zalecenia",
+    "lv": "Doporučení",
     "level": "B2"
   },
   {
     "de": "rege",
-    "lv": "Żywy • Żywy • Poruszający się • Aktywny",
+    "lv": "Živý • Čilý • Pohybující se • Činný",
     "level": "B2"
   },
   {
     "de": "regellos",
-    "lv": "Nieregularny",
+    "lv": "Nepravidelný",
     "level": "B2"
   },
   {
     "de": "Regelverstoß",
     "de_article": "der",
     "de_plural": "die Regelverstöße",
-    "lv": "Naruszenie zasad",
+    "lv": "Porušení pravidel",
     "level": "B2"
   },
   {
     "de": "Regen",
     "de_article": "der",
     "de_plural": "die Regen",
-    "lv": "Dážď",
+    "lv": "Déšť",
     "level": "B2"
   },
   {
     "de": "Regenfront",
     "de_article": "die",
     "de_plural": "die Regenfronten",
-    "lv": "Opaska przeciwdeszczowa",
+    "lv": "Dešťová kapela",
     "level": "B2"
   },
   {
     "de": "Regung",
     "de_article": "die",
     "de_plural": "die Regungen",
-    "lv": "Ruch • Przypływ uczuć • Skłonność",
+    "lv": "Pohyb • Nával citu • Sklon",
     "level": "B2"
   },
   {
     "de": "regungslos",
-    "lv": "Bez ruchu",
+    "lv": "Bez hnutí",
     "level": "B2"
   },
   {
     "de": "Reich",
     "de_article": "das",
     "de_plural": "die Reiche",
-    "lv": "Imperium • Kraj",
+    "lv": "Říše • Země",
     "level": "B2"
   },
   {
     "de": "Reifeprüfung",
     "de_article": "die",
     "de_plural": "die Reifeprüfungen",
-    "lv": "Próba gotowości",
+    "lv": "Test připravenosti",
     "level": "B2"
   },
   {
     "de": "Reifezeugnis",
     "de_article": "das",
     "de_plural": "die Reifezeugnisse",
-    "lv": "Świadectwo gotowości",
+    "lv": "Osvědčení o připravenosti",
     "level": "B2"
   },
   {
     "de": "reizbar",
-    "lv": "Łatwo drażliwy",
+    "lv": "Snadno podrážděný",
     "level": "B2"
   },
   {
     "de": "relevant",
-    "lv": "Znaczący • Ważny",
+    "lv": "Významný • Důležitý",
     "level": "B2"
   },
   {
     "de": "Relief",
     "de_article": "das",
     "de_plural": "die Reliefs",
-    "lv": "Teren",
+    "lv": "Terén",
     "level": "B2"
   },
   {
     "de": "rentabel",
-    "lv": "Opłacalny",
+    "lv": "Ziskový",
     "level": "B2"
   },
   {
     "de": "Resolution",
     "de_article": "die",
     "de_plural": "die Resolutionen",
-    "lv": "Rezolucja",
+    "lv": "Rezoluce",
     "level": "B2"
   },
   {
     "de": "sich revanchieren",
-    "lv": "Odwdzięczyć się • Zemścić się",
+    "lv": "Odplatit • Pomstít se",
     "level": "B2",
     "study": {
       "id": "b2-sich-revanchieren",
       "layout": "minimalStudy",
-      "translation": "Odwdzięczyć się • Zemścić się",
-      "rektion": "bei + kam?",
-      "explanation": "Sich revanchieren wymaga przyimka określonego bei + kam?.",
-      "forms": "bei + kam?",
-      "formsLabel": "Kierownictwo:",
+      "translation": "Odplatit • Pomstít se",
+      "rektion": "Bei + kam?",
+      "explanation": "Sich revanchieren vyžaduje určitou předložku bei + kam?.",
+      "forms": "Bei + kam?",
+      "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -10454,181 +10552,181 @@ const B2_WORDS = [
     "de": "Richtfest",
     "de_article": "das",
     "de_plural": "die Richtfeste",
-    "lv": "Festiwal ważek",
+    "lv": "Festival vážek",
     "level": "B2"
   },
   {
     "de": "Ringbahn",
     "de_article": "die",
     "de_plural": "die Ringbahnen",
-    "lv": "Kolej okrężna",
+    "lv": "Okružní železnice",
     "level": "B2"
   },
   {
     "de": "Ringelnatter",
     "de_article": "die",
     "de_plural": "die Ringelnattern",
-    "lv": "Głodny",
+    "lv": "Hladový",
     "level": "B2"
   },
   {
     "de": "Rivale",
     "de_article": "der",
     "de_plural": "die Rivalen",
-    "lv": "Rywal • Konkurent",
+    "lv": "Rival • Konkurent",
     "level": "B2"
   },
   {
     "de": "rivalisieren",
-    "lv": "Konkurować",
+    "lv": "Soutěžit",
     "level": "B2"
   },
   {
     "de": "Rückfall",
     "de_article": "der",
     "de_plural": "die Rückfälle",
-    "lv": "Recydywa",
+    "lv": "Relapsu",
     "level": "B2"
   },
   {
     "de": "Rückgang",
     "de_article": "der",
     "de_plural": "die Rückgänge",
-    "lv": "Spadek • Regresja • Spadek",
+    "lv": "Pokles • Regrese • Pokles",
     "level": "B2"
   },
   {
     "de": "Rückhalt",
     "de_article": "der",
     "de_plural": "die Rückhalte",
-    "lv": "Wsparcie • Wsparcie",
+    "lv": "Podpora • Podpora",
     "level": "B2"
   },
   {
     "de": "rücksichtslos",
-    "lv": "Nieostrożny • Niegrzeczny • Bezwzględny",
+    "lv": "Nedbalý • Hrubý • Bezohledný",
     "level": "B2"
   },
   {
     "de": "rückständig",
-    "lv": "Zaległe • Zaległe z płatnością",
+    "lv": "Po splatnosti • Po splatnosti",
     "level": "B2"
   },
   {
     "de": "Rücktritt",
     "de_article": "der",
     "de_plural": "die Rücktritte",
-    "lv": "Rezygnacja",
+    "lv": "Rezignace",
     "level": "B2"
   },
   {
     "de": "Rüge",
     "de_article": "die",
     "de_plural": "die Rügen",
-    "lv": "Karcenie • Karcenie",
+    "lv": "Nadávat • Nadávat",
     "level": "B2"
   },
   {
     "de": "rühmen",
-    "lv": "Chwalić • Wychwalać • Przechwalać się • Przechwalać się czymś",
+    "lv": "Chválit • Chválit • Chlubit se • Chlubit se něčím",
     "level": "B2"
   },
   {
     "de": "rührselig",
-    "lv": "Sentymentalny",
+    "lv": "Sentimentální",
     "level": "B2"
   },
   {
     "de": "runzeln",
-    "lv": "Marszczyć się • Marszczyć brwi",
+    "lv": "Vrásčit se • Mračit se",
     "level": "B2"
   },
   {
     "de": "Rüstung",
     "de_article": "die",
     "de_plural": "die Rüstungen",
-    "lv": "Uzbrojenie • Uzbrojenie",
+    "lv": "Výzbroj • Výzbroj",
     "level": "B2"
   },
   {
     "de": "Sabotage",
     "de_article": "die",
     "de_plural": "die Sabotagen",
-    "lv": "Sabotaż",
+    "lv": "Sabotovat",
     "level": "B2"
   },
   {
     "de": "Sachkenntnis",
     "de_article": "die",
     "de_plural": "die Sachkenntnisse",
-    "lv": "Biegłość • Kompetencja",
+    "lv": "Odbornost • Způsobilost",
     "level": "B2"
   },
   {
     "de": "sachkundig",
-    "lv": "Biegły • Kompetentny",
+    "lv": "Zdatný • Kompetentní",
     "level": "B2"
   },
   {
     "de": "Sachlage",
     "de_article": "die",
     "de_plural": "die Sachlagen",
-    "lv": "Warunek • Okoliczności • Sytuacja",
+    "lv": "Stav • Okolnosti • Situace",
     "level": "B2"
   },
   {
     "de": "sächlich",
-    "lv": "~es Geschlecht gram. • Dowolna płeć",
+    "lv": "~es Geschlecht gram. • Jakékoli pohlaví",
     "level": "B2"
   },
   {
     "de": "Sägewerk",
     "de_article": "das",
     "de_plural": "die Sägewerke",
-    "lv": "Tartak",
+    "lv": "Pila",
     "level": "B2"
   },
   {
     "de": "Sämaschine",
     "de_article": "die",
     "de_plural": "die Sämaschinen",
-    "lv": "Maszyna do siewu",
+    "lv": "Secí stroj",
     "level": "B2"
   },
   {
     "de": "sämtlich",
-    "lv": "Wszystko [bez wyjątku] • Z pełną mocą",
+    "lv": "Všichni [bez výjimky] • V plné síle",
     "level": "B2"
   },
   {
     "de": "Sandbank",
     "de_article": "die",
     "de_plural": "die Sandbänke",
-    "lv": "Płycizna",
+    "lv": "Hejno",
     "level": "B2"
   },
   {
     "de": "sanieren",
-    "lv": "Naprawić • Ek. uczynić opłacalnym",
+    "lv": "Opravit • Ek. udělat ziskový",
     "level": "B2"
   },
   {
     "de": "Sanitätsstelle",
     "de_article": "die",
     "de_plural": "die Sanitätsstellen",
-    "lv": "Punkt medyczny",
+    "lv": "Lékařský bod",
     "level": "B2"
   },
   {
     "de": "Satellit",
     "de_article": "der",
     "de_plural": "die Satelliten",
-    "lv": "Pol. satelita • Astr. towarzysz",
+    "lv": "Pol. satelit • Astr. společník",
     "level": "B2"
   },
   {
     "de": "sättigen",
-    "lv": "[dobre] pasza • Uczta • Chemia. nasycić",
+    "lv": "[dobrý] krmit • Hostina • Chem. saturovat",
     "level": "B2"
   },
   {
@@ -10640,123 +10738,123 @@ const B2_WORDS = [
   },
   {
     "de": "sausen",
-    "lv": "Šum • Pískanie • Pískanie • Pískanie",
+    "lv": "Šustit • Hvízdat • Svištět • Svištět",
     "level": "B2"
   },
   {
     "de": "Schädel",
     "de_article": "der",
     "de_plural": "die Schädel",
-    "lv": "Czaszka",
+    "lv": "Lebka",
     "level": "B2"
   },
   {
     "de": "Schadenersatz",
     "de_article": "der",
     "de_plural": null,
-    "lv": "Materiálna náhrada za straty",
+    "lv": "Hmotnou náhradu za ztráty",
     "level": "B2"
   },
   {
     "de": "schädigen",
-    "lv": "Szkodzić • Powodować szkody",
+    "lv": "Poškodit • Způsobit škodu",
     "level": "B2"
   },
   {
     "de": "Schaffen",
     "de_article": "das",
-    "lv": "Twórczość • Twórczość • Praca • Aktywność • Twórczość",
+    "lv": "Tvořivost • Tvorba • Práce • Činnost • Tvorba",
     "level": "B2"
   },
   {
     "de": "Schalldämmung",
     "de_article": "die",
     "de_plural": "die Schalldämmungen",
-    "lv": "Tłumienie hałasu",
+    "lv": "Potlačení hluku",
     "level": "B2"
   },
   {
     "de": "Schalldämpfer",
     "de_article": "der",
     "de_plural": "die Schalldämpfer",
-    "lv": "Tłumik dźwięku",
+    "lv": "Tlumič zvuku",
     "level": "B2"
   },
   {
     "de": "Schallmauer",
     "de_article": "die",
     "de_plural": "die Schallmauern",
-    "lv": "Bariera dźwiękowa",
+    "lv": "Zvuková bariéra",
     "level": "B2"
   },
   {
     "de": "schalldicht",
-    "lv": "Dźwiękoszczelny",
+    "lv": "Zvukotěsná",
     "level": "B2"
   },
   {
     "de": "schärfsichtig",
-    "lv": "O bystrym spojrzeniu • Spostrzegawczy",
+    "lv": "S ostrým pohledem • Pozorný",
     "level": "B2"
   },
   {
     "de": "schärfsinnig",
-    "lv": "Dowcipny • O bystrym umyśle • Zaradny",
+    "lv": "Vtipný • S bystrým rozumem • Vynalézavý",
     "level": "B2"
   },
   {
     "de": "Schattierung",
     "de_article": "die",
     "de_plural": "die Schattierungen",
-    "lv": "Odcień • Niuans",
+    "lv": "Odstín • Nuance",
     "level": "B2"
   },
   {
     "de": "schaudern",
-    "lv": "Być przerażonym • [być] wzdrygnięty",
+    "lv": "Být zděšen • [se] otřást",
     "level": "B2"
   },
   {
     "de": "Schauplatz",
     "de_article": "der",
     "de_plural": "die Schauplätze",
-    "lv": "Arena",
+    "lv": "Aréna",
     "level": "B2"
   },
   {
     "de": "Schaustück",
     "de_article": "das",
     "de_plural": "die Schaustücke",
-    "lv": "Wystawa",
+    "lv": "Exponát",
     "level": "B2"
   },
   {
     "de": "scheiden",
-    "lv": "[nie]oddzielne • Oddzielne • Oddzielne • Sich sch. lassen • Zerwać • Zerwać",
+    "lv": "[ne]oddělit • Oddělit • Oddělit • Sich sch. lassen • Rozbít • Rozbít",
     "level": "B2"
   },
   {
     "de": "Scheidewand",
     "de_article": "die",
     "de_plural": "die Scheidewände",
-    "lv": "Przegroda nosowa",
+    "lv": "Septum",
     "level": "B2"
   },
   {
     "de": "Scheitel",
     "de_article": "der",
     "de_plural": "die Scheitel",
-    "lv": "Głowa • Hol • Ścieżka",
+    "lv": "Hlava • Vlek • Cesta",
     "level": "B2"
   },
   {
     "de": "scheitern",
-    "lv": "Ponieść porażkę • Zerwać",
+    "lv": "Selhat • Rozbít se",
     "level": "B2"
   },
   {
     "de": "schelmisch",
-    "lv": "Dzielący",
+    "lv": "Rozdělující",
     "level": "B2"
   },
   {
@@ -10766,16 +10864,16 @@ const B2_WORDS = [
   },
   {
     "de": "sich scheren",
-    "lv": "Postarajte sa o",
+    "lv": "Pečovat o",
     "level": "B2",
     "study": {
       "id": "b2-sich-scheren",
       "layout": "minimalStudy",
-      "translation": "Postarajte sa o",
-      "rektion": "um + ko?",
-      "explanation": "Sich scheren wymaga określonego przyimka um + ko?.",
-      "forms": "um + ko?",
-      "formsLabel": "Kierownictwo:",
+      "translation": "Pečovat o",
+      "rektion": "Um + ko?",
+      "explanation": "Sich scheren vyžaduje určitou předložku um + ko?.",
+      "forms": "Um + ko?",
+      "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -10792,387 +10890,391 @@ const B2_WORDS = [
     "de": "Schiebedach",
     "de_article": "das",
     "de_plural": "die Schiebedächer",
-    "lv": "Szyberdach samochodu",
+    "lv": "Střešní okno auta",
     "level": "B2"
   },
   {
     "de": "Schieber",
     "de_article": "der",
     "de_plural": "die Schieber",
-    "lv": "Śruba • Strzałka • Spekulant",
+    "lv": "Blesk • Šíp • Spekulant",
     "level": "B2"
   },
   {
     "de": "Schiffbau",
     "de_article": "der",
-    "lv": "Budowa statku",
+    "lv": "Stavba lodí",
     "level": "B2"
   },
   {
     "de": "Schiffbruch",
     "de_article": "der",
     "de_plural": "die Schiffbrüche",
-    "lv": "Katastrofa morska",
+    "lv": "Katastrofa ztroskotání lodi",
     "level": "B2"
   },
   {
     "de": "Schiffsverkehr",
     "de_article": "der",
     "de_plural": "die Schiffsverkehre",
-    "lv": "Ruch statków",
+    "lv": "Lodní provoz",
     "level": "B2"
   },
   {
     "de": "schillern",
-    "lv": "Opalizujący • Kąpać się w różnych kolorach",
+    "lv": "Duhový • Koupat se v různých barvách",
     "level": "B2"
   },
   {
     "de": "Schlachtfeld",
     "de_article": "das",
     "de_plural": "die Schlachtfelder",
-    "lv": "Pole bitwy",
+    "lv": "Bojiště",
     "level": "B2"
   },
   {
     "de": "schlafwandeln",
-    "lv": "Być oczarowanym księżycem",
+    "lv": "Být zasažen měsícem",
     "level": "B2"
   },
   {
     "de": "Schlaganfall",
     "de_article": "der",
     "de_plural": "die Schlaganfälle",
-    "lv": "Paraliż",
+    "lv": "Ochrnutí",
     "level": "B2"
   },
   {
     "de": "schlagfertig",
-    "lv": "Zaradny • Dowcipny",
+    "lv": "Vynalézavý • Duchaplný",
     "level": "B2"
   },
   {
     "de": "Schlagwort",
     "de_article": "das",
     "de_plural": "die Schlagwörter",
-    "lv": "Slogan • Trafne słowo",
+    "lv": "Slogan • Výstižné slovo",
     "level": "B2"
   },
   {
     "de": "Schleudersitz",
     "de_article": "der",
     "de_plural": "die Schleudersitze",
-    "lv": "Fotel katapultowy w samolocie",
+    "lv": "Sedadlo katapultu letadla",
     "level": "B2"
   },
   {
     "de": "schleunigst",
-    "lv": "Ihneď • Čo najskôr",
+    "lv": "Ihned • Co nejrychleji",
     "level": "B2"
   },
   {
     "de": "Schlusswort",
     "de_article": "das",
     "de_plural": "die Schlussworte",
-    "lv": "Posledné slovo",
+    "lv": "Závěrečné slovo",
     "level": "B2"
   },
   {
     "de": "Schmach",
     "de_article": "die",
     "de_plural": null,
-    "lv": "Wstyd • Hańba",
+    "lv": "Hanba • Hanba",
     "level": "B2"
   },
   {
     "de": "Schmarotzer",
     "de_article": "der",
     "de_plural": "die Schmarotzer",
-    "lv": "Żarłoczny • Pasożyt",
+    "lv": "Žravý • Parazit",
     "level": "B2"
   },
   {
     "de": "schmeicheln",
-    "lv": "Schlebiać",
+    "lv": "Lichotit",
     "level": "B2"
   },
   {
     "de": "Schmerzensgeld",
     "de_article": "das",
     "de_plural": "die Schmerzensgelder",
-    "lv": "Bolesne pieniądze",
+    "lv": "Bolestné peníze",
     "level": "B2"
   },
   {
     "de": "schmerzlich",
-    "lv": "Bolesny • Smutny",
+    "lv": "Bolestivý • Smutný",
     "level": "B2"
   },
   {
     "de": "schmollen",
-    "lv": "Ubieranie się",
+    "lv": "Oblékání",
     "level": "B2"
   },
   {
     "de": "Schmuggel",
     "de_article": "der",
-    "lv": "Przemyt",
+    "lv": "Pašování",
     "level": "B2"
   },
   {
     "de": "Schnappschuss",
     "de_article": "der",
     "de_plural": "die Schnappschüsse",
-    "lv": "Migawka na zdjęciu",
+    "lv": "Snímek na fotografii",
     "level": "B2"
   },
   {
     "de": "schonungslos",
-    "lv": "Bezwzględny",
+    "lv": "Nemilosrdný",
     "level": "B2"
   },
   {
     "de": "schöpferisch",
-    "lv": "Twórczy",
+    "lv": "Tvůrčí",
     "level": "B2"
   },
   {
     "de": "Schöpfung",
     "de_article": "die",
     "de_plural": "die Schöpfungen",
-    "lv": "Tworzenie • Tworzenie • Praca",
+    "lv": "Tvorba • Tvorba • Prac",
     "level": "B2"
   },
   {
     "de": "schreiten",
-    "lv": "Spacer • Idź",
+    "lv": "Chůze • Jít",
     "level": "B2"
   },
   {
     "de": "Bittschrift",
     "de_article": "die",
     "de_plural": "die Bittschriften",
-    "lv": "Žiadosť",
+    "lv": "Žádost",
     "level": "B2"
   },
   {
     "de": "schrill",
-    "lv": "Ostry • Ostry",
+    "lv": "Ostrý • Ostrý",
     "level": "B2"
   },
   {
     "de": "schroff",
-    "lv": "Stromy • Stromy • Ostry • Ostry • Niemiły",
+    "lv": "Strmý • Strmý • Drsný • Ostrý • Nevlídný",
     "level": "B2"
   },
   {
     "de": "Schuhfabrik",
     "de_article": "die",
     "de_plural": "die Schuhfabriken",
-    "lv": "Fabryka obuwia",
+    "lv": "Továrna na boty",
     "level": "B2"
   },
   {
     "de": "Schuldschein",
     "de_article": "der",
     "de_plural": "die Schuldscheine",
-    "lv": "Weksel",
+    "lv": "Směnka",
     "level": "B2"
   },
   {
     "de": "Schusswaffe",
     "de_article": "die",
     "de_plural": "die Schusswaffen",
-    "lv": "Broń palna",
+    "lv": "Střelná zbraň",
     "level": "B2"
   },
   {
     "de": "Schutzfarbe",
     "de_article": "die",
     "de_plural": "die Schutzfarben",
-    "lv": "Farba ochronna",
+    "lv": "Ochranný nátěr",
     "level": "B2"
   },
   {
     "de": "Schutzimpfung",
     "de_article": "die",
     "de_plural": "die Schutzimpfungen",
-    "lv": "Szczepienie ochronne",
+    "lv": "Ochranné roubování",
     "level": "B2"
   },
   {
     "de": "schutzlos",
-    "lv": "Bezbronny",
+    "lv": "Nechráněný",
     "level": "B2"
   },
   {
     "de": "Schwankung",
     "de_article": "die",
     "de_plural": "die Schwankungen",
-    "lv": "Fluktuácia",
+    "lv": "Kolísání",
     "level": "B2"
   },
   {
     "de": "Schwarm",
     "de_article": "der",
     "de_plural": "die Schwärme",
-    "lv": "Pasja • Zachwyt",
+    "lv": "Vášeň • Vytržení",
     "level": "B2"
   },
   {
     "de": "schwärmen",
-    "lv": "Ekscytuj się • Zachwycaj się • Śnij",
+    "lv": "Vzrušovat • Řádit • Snít",
     "level": "B2"
   },
   {
     "de": "Schwarzarbeit",
     "de_article": "die",
     "de_plural": "die Schwarzarbeiten",
-    "lv": "Nielegalną pracę, za którą nie płaci się podatków",
+    "lv": "Nelegální práci, za kterou se neplatí žádné daně",
     "level": "B2"
   },
   {
     "de": "Schwarze",
     "de_article": "der",
     "de_plural": "die Schwarze",
-    "lv": "Osoba o czarnym kolorze skóry",
+    "lv": "Člověk s černou barvou pleti",
     "level": "B2"
   },
   {
     "de": "Schwarzmarkt",
     "de_article": "der",
     "de_plural": "die Schwarzmärkte",
-    "lv": "Čierny trh",
+    "lv": "Černý trh",
     "level": "B2"
   },
   {
     "de": "Schwebebahn",
     "de_article": "die",
     "de_plural": "die Schwebebahnen",
-    "lv": "Zawieszenie [kolejowe].",
+    "lv": "Zavěšení [železnice].",
     "level": "B2"
   },
   {
     "de": "Schweinezucht",
     "de_article": "die",
     "de_plural": "die Schweinezuchten",
-    "lv": "Hodowla świń",
+    "lv": "Chov prasat",
     "level": "B2"
   },
   {
     "de": "schwelen",
-    "lv": "Rozjarzony",
+    "lv": "Řeřavý",
     "level": "B2"
   },
   {
     "de": "Schwerathletik",
     "de_article": "die",
     "de_plural": "die Schwerathletiken",
-    "lv": "Sp. podnoszenie ciężarów",
+    "lv": "Sp. vzpírání",
     "level": "B2"
   },
   {
     "de": "schwerfällig",
-    "lv": "Ciężki • Nieporęczny",
+    "lv": "Těžký • Objemný",
     "level": "B2"
   },
   {
     "de": "Schwerpunkt",
     "de_article": "der",
     "de_plural": "die Schwerpunkte",
-    "lv": "Punkt ciężkości",
+    "lv": "Těžiště",
     "level": "B2"
   },
   {
     "de": "schwinden",
-    "lv": "[zmniejsza się] • [znika] pojawia się • Znika",
+    "lv": "[zmenšit] • [zmizet] • Slábnout",
     "level": "B2"
   },
   {
     "de": "Seenot",
     "de_article": "die",
-    "lv": "Awaria na morzu",
+    "lv": "Nouze na moři",
     "level": "B2"
   },
   {
     "de": "Seemacht",
     "de_article": "die",
     "de_plural": "die Seemächte",
-    "lv": "Morska [wielka] moc",
+    "lv": "Mořská [velká] síla",
     "level": "B2"
   },
   {
     "de": "Segelflieger",
     "de_article": "der",
     "de_plural": "die Segelflieger",
-    "lv": "Szybowiec",
+    "lv": "Kluzák",
     "level": "B2"
   },
   {
     "de": "Segelflugzeug",
     "de_article": "das",
     "de_plural": "die Segelflugzeuge",
-    "lv": "Szybowiec",
+    "lv": "Kluzák",
     "level": "B2"
   },
   {
     "de": "Sehkraft",
     "de_article": "die",
-    "lv": "Wizja • Zdolność widzenia",
+    "lv": "Zrak • Schopnost vidět",
     "level": "B2"
   },
   {
     "de": "Naturseide",
     "de_article": "die",
-    "lv": "Naturalny jedwab",
+    "lv": "Přírodní hedvábí",
     "level": "B2"
   },
   {
     "de": "Sein",
     "de_article": "das",
-    "lv": "Istnienie",
+    "lv": "Existence",
     "level": "B2",
     "study": {
       "id": "b2-sein-study",
       "layout": "standardStudy",
-      "translation": "Istnienie",
+      "translation": "Existence",
       "explanation": [
-        "Idea główna: das Sein z dużej litery i rodzajnik das to rzeczownik - istnienie, istnienie (pojęcie filozoficzne).",
-        "Sein pisany małą literą to czasownik - być.",
-        "Das Sein jest często używany w kontekście filozoficznym lub abstrakcyjnym (das menschliche Sein).",
-        "Substantywizacja: sein → das Sein, jak können → das Können."
+        "Hlavní myšlenka: das Sein s velkým písmenem a členem das je podstatné jméno - existence, existence (filosofický pojem).",
+        "Sein s malým písmenem je sloveso - být.",
+        "Das Sein se často používá ve filozofickém nebo abstraktním kontextu (das menschliche Sein).",
+        "Substantivizace: sein → das Sein, jako können → das Können."
       ],
       "examples": [
         {
           "de": "Das menschliche Sein ist komplex.",
-          "lv": "Egzystencja człowieka jest złożona."
+          "lv": "Lidská existence je složitá."
         },
         {
           "de": "Sein oder Nichtsein, das ist die Frage.",
-          "lv": "Być albo nie być, oto jest pytanie."
+          "lv": "Být či nebýt, toť otázka."
         },
         {
           "de": "Ich bin müde.",
-          "lv": "Som unavený"
+          "lv": "Jsem unavený"
         },
         {
           "de": "Das Sein bestimmt das Bewusstsein.",
-          "lv": "Istnienie determinuje świadomość."
+          "lv": "Existence určuje vědomí."
         }
       ],
       "tip": [
-        "Das Sein z dużej litery - rzeczownik (istnienie w sensie filozoficznym).",
-        "Sein mała litera - czasownik (być)."
+        "Das Sein s velkým písmenem - podstatné jméno (existence, ve filozofickém smyslu).",
+        "Sein malé písmeno - sloveso (být)."
       ],
       "important": [
-        "Das Sein = istnienie (rzeczownik, abstrakcyjny/filozoficzny).",
-        "Sein = być (czasownik, codziennie).",
-        "To słowo jest czasownikiem uzasadnionym, jak das Können."
+        "Das Sein = existence (podstatné jméno, abstraktní/filosofické).",
+        "Sein = být (sloveso, každodenní).",
+        "Toto slovo je substantivizované sloveso, jako das Können."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "das Sein"
+          ],
+          "purple": [
+            "Hlavní",
+            "existence"
           ],
           "green": [
             "sein"
@@ -11185,7 +11287,11 @@ const B2_WORDS = [
                 "Sein"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Lidská"
+              ]
+            }
           },
           {
             "de": {
@@ -11193,7 +11299,11 @@ const B2_WORDS = [
                 "Sein"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Být"
+              ]
+            }
           },
           {
             "de": {
@@ -11201,7 +11311,11 @@ const B2_WORDS = [
                 "bin"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Jsem"
+              ]
+            }
           },
           {
             "de": {
@@ -11209,7 +11323,11 @@ const B2_WORDS = [
                 "Sein"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Existence"
+              ]
+            }
           }
         ],
         "tip": [
@@ -11248,105 +11366,105 @@ const B2_WORDS = [
     "de": "Selbstgefühl",
     "de_article": "das",
     "de_plural": "die Selbstgefühle",
-    "lv": "Pewność siebie • Samoświadomość",
+    "lv": "Sebevědomí • Sebeuvědomění",
     "level": "B2"
   },
   {
     "de": "Selbstkosten",
     "de_article": "die",
-    "lv": "Cena kosztowa",
+    "lv": "Nákladová cena",
     "level": "B2"
   },
   {
     "de": "Selbstkritik",
     "de_article": "die",
     "de_plural": "die Selbstkritiken",
-    "lv": "Samokrytyka",
+    "lv": "Sebekritika",
     "level": "B2"
   },
   {
     "de": "selbstlos",
-    "lv": "Bezinteresowny • Bezinteresowny",
+    "lv": "Nezištný • Nezištný",
     "level": "B2"
   },
   {
     "de": "Selbstmord",
     "de_article": "der",
     "de_plural": "die Selbstmorde",
-    "lv": "Samobójstwo",
+    "lv": "Sebevražda",
     "level": "B2"
   },
   {
     "de": "selbsttätig",
-    "lv": "Automatické",
+    "lv": "Automatický",
     "level": "B2"
   },
   {
     "de": "Senat",
     "de_article": "der",
     "de_plural": "die Senate",
-    "lv": "Senat • Rada naukowa",
+    "lv": "Senát • Vědecká rada",
     "level": "B2"
   },
   {
     "de": "Sensenblatt",
     "de_article": "das",
     "de_plural": "die Sensenblätter",
-    "lv": "Ostrze kosy",
+    "lv": "Čepel kosy",
     "level": "B2"
   },
   {
     "de": "sensibel",
-    "lv": "Wrażliwy • Wrażliwy",
+    "lv": "Citlivý • Citlivý",
     "level": "B2"
   },
   {
     "de": "Separatismus",
     "de_article": "der",
-    "lv": "Separatyzm",
+    "lv": "Separatismus",
     "level": "B2"
   },
   {
     "de": "Seuche",
     "de_article": "die",
     "de_plural": "die Seuchen",
-    "lv": "Zaraza • Epidemia",
+    "lv": "Mor • Epidemie",
     "level": "B2"
   },
   {
     "de": "Seuchenherd",
     "de_article": "der",
     "de_plural": "die Seuchenherde",
-    "lv": "Źródło epidemii",
+    "lv": "Zdroj epidemie",
     "level": "B2"
   },
   {
     "de": "sickern",
-    "lv": "Kapać • Ssać",
+    "lv": "Kapat • Sát",
     "level": "B2"
   },
   {
     "de": "siegreich",
-    "lv": "Uwieńczone zwycięstwami",
+    "lv": "Korunován vítězstvími",
     "level": "B2"
   },
   {
     "de": "Silberschmied",
     "de_article": "der",
     "de_plural": "die Silberschmiede",
-    "lv": "Złotnik",
+    "lv": "Stříbrník",
     "level": "B2"
   },
   {
     "de": "Simulator",
     "de_article": "der",
     "de_plural": "die Simulatoren",
-    "lv": "Symulator",
+    "lv": "Simulátor",
     "level": "B2"
   },
   {
     "de": "simulieren",
-    "lv": "Symulować • Naśladować",
+    "lv": "Simulovat • Napodobovat",
     "level": "B2"
   },
   {
@@ -11358,7 +11476,7 @@ const B2_WORDS = [
   },
   {
     "de": "sittlich",
-    "lv": "Cnotliwy",
+    "lv": "Ctnostný",
     "level": "B2"
   },
   {
@@ -11370,61 +11488,65 @@ const B2_WORDS = [
   },
   {
     "de": "smart",
-    "lv": "Sprytny • Przebiegły",
+    "lv": "Chytrý • Mazaný",
     "level": "B2"
   },
   {
     "de": "sofern",
-    "lv": "Jeśli • Pod warunkiem, że",
+    "lv": "Pokud • Za předpokladu, že",
     "level": "B2",
     "study": {
       "id": "b2-sofern",
       "layout": "standardStudy",
-      "translation": "Jeśli • Pod warunkiem, że",
+      "translation": "Pokud • Za předpokladu, že",
       "explanation": [
-        "Główna idea: sofät jest koniunkcją warunkową - oznacza, jeśli/pod warunkiem, że.",
-        "Sofè wprowadza warunkową klauzulę pomocniczą, podobną do wenn, ale jest bardziej formalna i typowa dla stylu pisanego.",
-        "Soufen NEZNAMENÁ „ako“ (príčinná súvislosť) – je v nemčine da alebo weil.",
-        "Powszechnie używane w tekstach prawniczych/formalnych (sofern nicht anders verfahrt = chyba, że ​​uzgodniono inaczej)."
+        "Hlavní myšlenka: sofät je podmínková spojka - znamená kdyby/bylo to.",
+        "Sofè zavádí podmínkovou pomocnou klauzi, podobnou wenn, ale je formálnější a typická pro psaný styl.",
+        "Soufen NEZNAMENÁ 'protože' (příčinná spojka) - v němčině je to da nebo weil.",
+        "Běžně používané v právních/formálních textech (sofern nicht anders verfahrt = pokud není dohodnuto jinak)."
       ],
       "examples": [
         {
           "de": "Ich komme, sofern ich Zeit habe.",
-          "lv": "Przychodzę, kiedy mam czas."
+          "lv": "Přijdu, když mám čas."
         },
         {
           "de": "Sofern nichts anderes vereinbart ist, gilt der Standardpreis.",
-          "lv": "O ile nie uzgodniono inaczej, obowiązuje cena standardowa."
+          "lv": "Není-li dohodnuto jinak, platí standardní cena."
         },
         {
           "de": "Sofern das Wetter gut ist, machen wir einen Ausflug.",
-          "lv": "Jeśli pogoda dopisze, pojedziemy na wycieczkę."
+          "lv": "Za příznivého počasí pojedeme na výlet."
         },
         {
           "de": "Sofern möglich, bitte pünktlich sein.",
-          "lv": "Proszę o konkrety jeśli to możliwe."
+          "lv": "Prosím buďte konkrétní, pokud je to možné."
         },
         {
           "de": "Er hilft, sofern er kann.",
-          "lv": "Pomaga, jeśli może."
+          "lv": "Pomáhá, pokud může."
         },
         {
           "de": "Da es regnet, bleiben wir zu Hause.",
-          "lv": "Skoro pada deszcz, zostajemy w domu."
+          "lv": "Protože prší, zůstáváme doma."
         }
       ],
       "tip": [
-        "Jeśli/pod warunkiem, że (warunek) - nie mylić z przyczyną.",
-        "„ponieważ” (przyczyna) po niemiecku to da/weil, ne soufen."
+        "Pokud/za předpokladu, že (podmínka) – nezaměňovat s příčinou.",
+        "'od' (příčina) v němčině je da/weil, ne soufen."
       ],
       "important": [
-        "Jeśli istnieje związek warunkowy, a nie przyczynowy.",
-        "Błędnie: soufen = as → Poprawnie: da/weil = as."
+        "Pokud existuje podmíněná, nikoli příčinná souvislost.",
+        "Nesprávně: soufen = jako → Správně: da/weil = jako."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sofern"
+          ],
+          "purple": [
+            "Hlavní",
+            "Hlavní"
           ],
           "red": [
             "da",
@@ -11438,7 +11560,11 @@ const B2_WORDS = [
                 "sofern"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Přijdu"
+              ]
+            }
           },
           {
             "de": {
@@ -11446,7 +11572,11 @@ const B2_WORDS = [
                 "Sofern"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Není"
+              ]
+            }
           },
           {
             "de": {
@@ -11454,7 +11584,11 @@ const B2_WORDS = [
                 "Sofern"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "příznivého"
+              ]
+            }
           },
           {
             "de": {
@@ -11462,7 +11596,11 @@ const B2_WORDS = [
                 "Sofern"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Prosím"
+              ]
+            }
           },
           {
             "de": {
@@ -11470,7 +11608,11 @@ const B2_WORDS = [
                 "sofern"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Pomáhá"
+              ]
+            }
           },
           {
             "de": {
@@ -11478,11 +11620,20 @@ const B2_WORDS = [
                 "Da"
               ]
             },
-            "lv": {}
+            "lv": {
+              "red": [
+                "Protože"
+              ]
+            }
           }
         ],
         "tip": [
-          {},
+          {
+            "blue": [
+              "Pokud/za",
+              "Pokud/za"
+            ]
+          },
           {
             "red": [
               "da",
@@ -11491,11 +11642,18 @@ const B2_WORDS = [
           }
         ],
         "important": [
-          {},
+          {
+            "blue": [
+              "Pokud"
+            ]
+          },
           {
             "red": [
               "da",
               "weil"
+            ],
+            "purple": [
+              "Nesprávně"
             ]
           }
         ]
@@ -11506,12 +11664,12 @@ const B2_WORDS = [
     "de": "Söldner",
     "de_article": "der",
     "de_plural": "die Söldner",
-    "lv": "Najemnik",
+    "lv": "Žoldák",
     "level": "B2"
   },
   {
     "de": "solidarisch",
-    "lv": "Solidarny",
+    "lv": "Solidární",
     "level": "B2"
   },
   {
@@ -11525,263 +11683,263 @@ const B2_WORDS = [
     "de": "Sonderausgabe",
     "de_article": "die",
     "de_plural": "die Sonderausgaben",
-    "lv": "Wydanie specjalne książki • Wydanie specjalne gazety • Wydanie specjalne znaczków",
+    "lv": "Zvláštní vydání knihy • Mimořádné vydání novin • Mimořádné vydání známek",
     "level": "B2"
   },
   {
     "de": "Sonderfall",
     "de_article": "der",
     "de_plural": "die Sonderfälle",
-    "lv": "Wyjątkowy przypadek",
+    "lv": "Výjimečný případ",
     "level": "B2"
   },
   {
     "de": "Sonnenuhr",
     "de_article": "die",
     "de_plural": "die Sonnenuhren",
-    "lv": "Zegar słoneczny",
+    "lv": "Sluneční hodiny",
     "level": "B2"
   },
   {
     "de": "Sonnenwende",
     "de_article": "die",
     "de_plural": "die Sonnenwenden",
-    "lv": "Slnovrat deň/noc",
+    "lv": "Slunovrat",
     "level": "B2"
   },
   {
     "de": "Sorgenkind",
     "de_article": "das",
     "de_plural": "die Sorgenkinder",
-    "lv": "Opiekuj się dzieckiem",
+    "lv": "Pečovat o dítě",
     "level": "B2"
   },
   {
     "de": "Sorgepflicht",
     "de_article": "die",
-    "lv": "Obowiązek staranności",
+    "lv": "Povinnost péče",
     "level": "B2"
   },
   {
     "de": "Sorgerecht",
     "de_article": "das",
     "de_plural": "die Sorgerechte",
-    "lv": "Právo na starostlivosť",
+    "lv": "Právo na péči",
     "level": "B2"
   },
   {
     "de": "Sozialismus",
     "de_article": "der",
-    "lv": "Socjalizm",
+    "lv": "Socialismus",
     "level": "B2"
   },
   {
     "de": "sozialistisch",
-    "lv": "Socjalista",
+    "lv": "Socialista",
     "level": "B2"
   },
   {
     "de": "Spaltung",
     "de_article": "die",
     "de_plural": "die Spaltungen",
-    "lv": "Dzielenie • [sa]dzielenie • [sa]dzielenie",
+    "lv": "Štípání • [sa]štípání • [sa]štípání",
     "level": "B2"
   },
   {
     "de": "spärlich",
-    "lv": "Skąpy • Skąpy • Rzadki",
+    "lv": "Skrovný • Skoupý • Vzácný",
     "level": "B2"
   },
   {
     "de": "Sperma",
     "de_article": "das",
     "de_plural": "die Spermen",
-    "lv": "Sperma",
+    "lv": "Spermie",
     "level": "B2"
   },
   {
     "de": "spezifisch",
-    "lv": "Špecifické",
+    "lv": "Konkrétní",
     "level": "B2"
   },
   {
     "de": "Sphäre",
     "de_article": "die",
     "de_plural": "die Sphären",
-    "lv": "Kula • Obszar",
+    "lv": "Koule • Plocha",
     "level": "B2"
   },
   {
     "de": "Spielgerät",
     "de_article": "das",
     "de_plural": "die Spielgeräte",
-    "lv": "Inwentarz gier sportowych",
+    "lv": "Inventář sportovních her",
     "level": "B2"
   },
   {
     "de": "Spießbürger",
     "de_article": "der",
     "de_plural": "die Spießbürger",
-    "lv": "Obywatel-rezydent",
+    "lv": "Rezidentním občanem",
     "level": "B2"
   },
   {
     "de": "spionieren",
-    "lv": "Szpiegować • Szpiegować",
+    "lv": "Špehovat • Špehovat",
     "level": "B2"
   },
   {
     "de": "Spott",
     "de_article": "der",
-    "lv": "Kpina • Ząbkowanie • Kiepski żart",
+    "lv": "Výsměch • Kousání • Zlý vtip",
     "level": "B2"
   },
   {
     "de": "spötteln",
-    "lv": "Ironizować",
+    "lv": "Ironizovat",
     "level": "B2"
   },
   {
     "de": "spotten",
-    "lv": "Kpić • Ząbkowanie",
+    "lv": "Zesměšňovat • Prořezávání zoubků",
     "level": "B2"
   },
   {
     "de": "spöttisch",
-    "lv": "Kpiący • Zębaty",
+    "lv": "Posměšný • Zubatý",
     "level": "B2"
   },
   {
     "de": "Sprechanlage",
     "de_article": "die",
     "de_plural": "die Sprechanlagen",
-    "lv": "Domofon w domu",
+    "lv": "Interkomový systém doma",
     "level": "B2"
   },
   {
     "de": "sprengen",
-    "lv": "[w]dmuchaniu • Posypać • Wodą",
+    "lv": "[na]tryskat • Kropit • Voda",
     "level": "B2"
   },
   {
     "de": "Sprengstoff",
     "de_article": "der",
     "de_plural": "die Sprengstoffe",
-    "lv": "Materiał wybuchowy",
+    "lv": "Explozivní",
     "level": "B2"
   },
   {
     "de": "Spross",
     "de_article": "der",
     "de_plural": "die Sprosse",
-    "lv": "Nerw. potomek • Strzelać • Przeł. potomstwo • Potomstwo",
+    "lv": "Bot. potomek • Střílet • Přel. potomstvo • Potomstvo",
     "level": "B2"
   },
   {
     "de": "Spruch",
     "de_article": "der",
     "de_plural": "die Sprüche",
-    "lv": "Wyrażenie • Aforyzm • Jur. osąd",
+    "lv": "Výraz • Aforismus • Jur. rozsudek",
     "level": "B2"
   },
   {
     "de": "Spruchband",
     "de_article": "das",
     "de_plural": "die Spruchbande",
-    "lv": "Przezroczysty • Plakat",
+    "lv": "Transparentní • Plakát",
     "level": "B2"
   },
   {
     "de": "Spuk",
     "de_article": "der",
     "de_plural": "die Spuke",
-    "lv": "Widmo • Duch • Zjawa",
+    "lv": "Přízrak • Přízrak • Přízrak",
     "level": "B2"
   },
   {
     "de": "spurlos",
-    "lv": "Bez śladu • Bez śladu",
+    "lv": "Beze stopy • Beze stopy",
     "level": "B2"
   },
   {
     "de": "Staatenlose",
     "de_article": "der",
     "de_plural": "die Staatenlosen",
-    "lv": "Bezpaństwowca",
+    "lv": "Osoba bez státní příslušnosti",
     "level": "B2"
   },
   {
     "de": "Staatsbesuch",
     "de_article": "der",
     "de_plural": "die Staatsbesuche",
-    "lv": "Wizyta państwowa",
+    "lv": "Státní návštěva",
     "level": "B2"
   },
   {
     "de": "Staatsexamen",
     "de_article": "das",
     "de_plural": "die Staatsexamen",
-    "lv": "Egzamin państwowy",
+    "lv": "Státní zkouška",
     "level": "B2"
   },
   {
     "de": "Staatshaushalt",
     "de_article": "der",
     "de_plural": "die Staatshaushalte",
-    "lv": "Budżet państwa",
+    "lv": "Státní rozpočet",
     "level": "B2"
   },
   {
     "de": "Staatsmann",
     "de_article": "der",
     "de_plural": "die Staatsmänner",
-    "lv": "Mąż stanu",
+    "lv": "Státník",
     "level": "B2"
   },
   {
     "de": "Staatsstreich",
     "de_article": "der",
     "de_plural": "die Staatsstreiche",
-    "lv": "Zamach stanu",
+    "lv": "Státní převrat",
     "level": "B2"
   },
   {
     "de": "stabilisieren",
-    "lv": "Ustabilizować",
+    "lv": "Stabilizovat",
     "level": "B2"
   },
   {
     "de": "Stahlwerk",
     "de_article": "das",
     "de_plural": "die Stahlwerke",
-    "lv": "Odlewnia stali",
+    "lv": "Slévárna oceli",
     "level": "B2"
   },
   {
     "de": "starr",
-    "lv": "Nieruchomy • Odrętwiały • Sztywny",
+    "lv": "Nehybný • Otupělý • Strnulý",
     "level": "B2"
   },
   {
     "de": "starren",
-    "lv": "Przyjrzyj się uważnie • Blask",
+    "lv": "Dívej se pozorně • Mrkni",
     "level": "B2"
   },
   {
     "de": "starrköpfig",
-    "lv": "Uparty • Uparty",
+    "lv": "Tvrdohlavý • Tvrdohlavý",
     "level": "B2"
   },
   {
     "de": "starrsinnig",
-    "lv": "Uparty • Uparty",
+    "lv": "Tvrdohlavý • Tvrdohlavý",
     "level": "B2"
   },
   {
     "de": "Stätte",
     "de_article": "die",
     "de_plural": "die Stätten",
-    "lv": "Miesto",
+    "lv": "Místo",
     "level": "B2"
   },
   {
@@ -11795,297 +11953,297 @@ const B2_WORDS = [
     "de": "Steckbrief",
     "de_article": "der",
     "de_plural": "die Steckbriefe",
-    "lv": "Opis osoby hľadanej políciou",
+    "lv": "Popis hledaného na policii",
     "level": "B2"
   },
   {
     "de": "steril",
-    "lv": "Jałowy",
+    "lv": "Sterilní",
     "level": "B2"
   },
   {
     "de": "Steuergelder",
     "de_article": "die",
-    "lv": "Wszystkie pieniądze, które państwo otrzymuje w formie podatków",
+    "lv": "Všechny peníze, které vláda dostává na daních",
     "level": "B2"
   },
   {
     "de": "Steuererhöhung",
     "de_article": "die",
     "de_plural": "die Steuererhöhungen",
-    "lv": "Podnoszenie podatków",
+    "lv": "Zvýšení daní",
     "level": "B2"
   },
   {
     "de": "Steuersenkung",
     "de_article": "die",
     "de_plural": "die Steuersenkungen",
-    "lv": "Obniżenie podatków",
+    "lv": "Snížení daní",
     "level": "B2"
   },
   {
     "de": "Stoßverkehr",
     "de_article": "der",
-    "lv": "Godziny szczytu • Wzmożony ruch w określonej porze dnia",
+    "lv": "Dopravní špička • Zvýšený provoz v určitou denní dobu",
     "level": "B2"
   },
   {
     "de": "Strafanzeige",
     "de_article": "die",
     "de_plural": "die Strafanzeigen",
-    "lv": "Wszczęcie przeciwko komuś sprawy karnej",
+    "lv": "Zahájení trestního řízení proti někomu",
     "level": "B2"
   },
   {
     "de": "stranden",
-    "lv": "Osiąść na mieliźnie • Mieć wypadek",
+    "lv": "Najet na mělčinu • Mít nehodu",
     "level": "B2"
   },
   {
     "de": "streben",
-    "lv": "Dążyć do czegoś",
+    "lv": "O něco usilovat",
     "level": "B2"
   },
   {
     "de": "streitbar",
-    "lv": "Rzeczowy",
+    "lv": "Argumentační",
     "level": "B2"
   },
   {
     "de": "Streitkräfte",
     "de_article": "die",
-    "lv": "Wszystkie organizacje wojskowe i siły zbrojne kraju",
+    "lv": "Všechny vojenské organizace a vojenské síly země",
     "level": "B2"
   },
   {
     "de": "strippen",
-    "lv": "Zrób striptiz",
+    "lv": "Udělat striptýz",
     "level": "B2"
   },
   {
     "de": "Stripper",
     "de_article": "der",
     "de_plural": "die Stripper",
-    "lv": "Spychacz",
+    "lv": "Striptérka",
     "level": "B2"
   },
   {
     "de": "Stripperin",
     "de_article": "die",
     "de_plural": "die Stripperinnen",
-    "lv": "Tancerka striptiz",
+    "lv": "Striptýzová tanečnice",
     "level": "B2"
   },
   {
     "de": "Striptease",
     "de_article": "der",
-    "lv": "Striptease",
+    "lv": "Striptýz",
     "level": "B2"
   },
   {
     "de": "Strolch",
     "de_article": "der",
     "de_plural": "die Strolche",
-    "lv": "Vagabond",
+    "lv": "Tulák",
     "level": "B2"
   },
   {
     "de": "Stücklohn",
     "de_article": "der",
     "de_plural": "die Stücklöhne",
-    "lv": "Wynagrodzenie za pracę na akord",
+    "lv": "Platba za kusovou práci",
     "level": "B2"
   },
   {
     "de": "Studiengebühr",
     "de_article": "die",
     "de_plural": "die Studiengebühren",
-    "lv": "Opłaty za studia na uniwersytecie",
+    "lv": "Školné na univerzitě",
     "level": "B2"
   },
   {
     "de": "stur",
-    "lv": "Uparty • Uparty",
+    "lv": "Tvrdohlavý • Tvrdohlavý",
     "level": "B2"
   },
   {
     "de": "Stützpunkt",
     "de_article": "der",
     "de_plural": "die Stützpunkte",
-    "lv": "Baza wojskowa",
+    "lv": "Vojenská základna",
     "level": "B2"
   },
   {
     "de": "Suchaktion",
     "de_article": "die",
     "de_plural": "die Suchaktionen",
-    "lv": "Przeszukanie zorganizowane przez policję",
+    "lv": "Pátrání organizované policií",
     "level": "B2"
   },
   {
     "de": "Täfelung",
     "de_article": "die",
     "de_plural": "die Täfelungen",
-    "lv": "Panel ścienny • Okładzina",
+    "lv": "Stěnový panel • Obklad",
     "level": "B2"
   },
   {
     "de": "Tagebau",
     "de_article": "der",
     "de_plural": "die Tagebaue",
-    "lv": "Ťažba nerastov v otvorenej jame",
+    "lv": "Otevřená těžba nerostů",
     "level": "B2"
   },
   {
     "de": "Tagegeld",
     "de_article": "das",
     "de_plural": "die Tagegelder",
-    "lv": "Dieta w podróży służbowej",
+    "lv": "Pracovní cesta na diety",
     "level": "B2"
   },
   {
     "de": "Tagelohn",
     "de_article": "der",
     "de_plural": "die Tagelöhne",
-    "lv": "Płaca dzienna",
+    "lv": "Denní mzda",
     "level": "B2"
   },
   {
     "de": "Tagelöhner",
     "de_article": "der",
     "de_plural": "die Tagelöhner",
-    "lv": "Dniówkarz",
+    "lv": "Nádeník",
     "level": "B2"
   },
   {
     "de": "tagen",
-    "lv": "Przeprowadzić sesję • Posiedzeń",
+    "lv": "Uspořádat sezení • Sezení",
     "level": "B2"
   },
   {
     "de": "Tapferkeit",
     "de_article": "die",
     "de_plural": "die Tapferkeiten",
-    "lv": "Odwaga • Odwaga",
+    "lv": "Odvaha • Statečnost",
     "level": "B2"
   },
   {
     "de": "Tatkraft",
     "de_article": "die",
-    "lv": "Energia • Vigor",
+    "lv": "Energie • Ráznost",
     "level": "B2"
   },
   {
     "de": "telegrafieren",
-    "lv": "Telegrafować",
+    "lv": "Telegrafovat",
     "level": "B2"
   },
   {
     "de": "Terrorismus",
     "de_article": "der",
-    "lv": "Terroryzm",
+    "lv": "Terorismus",
     "level": "B2"
   },
   {
     "de": "Testperson",
     "de_article": "die",
     "de_plural": "die Testpersonen",
-    "lv": "Osoba próbna",
+    "lv": "Soudná osoba",
     "level": "B2"
   },
   {
     "de": "texten",
-    "lv": "Napisz tekst piosenki lub reklamy",
+    "lv": "Napsat text k písni nebo reklamě",
     "level": "B2"
   },
   {
     "de": "These",
     "de_article": "die",
     "de_plural": "die Thesen",
-    "lv": "Práca",
+    "lv": "Práce",
     "level": "B2"
   },
   {
     "de": "Tiefsinn",
     "de_article": "der",
-    "lv": "Zamyślenie",
+    "lv": "Ohleduplnost",
     "level": "B2"
   },
   {
     "de": "Tollwut",
     "de_article": "die",
-    "lv": "Wścieklizna",
+    "lv": "Vzteklina",
     "level": "B2"
   },
   {
     "de": "tönen",
-    "lv": "Brzmieć • Tonować • Dawać cień",
+    "lv": "Znít • Tónovat • Dávat stín",
     "level": "B2"
   },
   {
     "de": "Töpferscheibe",
     "de_article": "die",
     "de_plural": "die Töpferscheiben",
-    "lv": "Koło garncarskie",
+    "lv": "Hrnčířský kruh",
     "level": "B2"
   },
   {
     "de": "Tor",
     "de_article": "der",
     "de_plural": "die Toren",
-    "lv": "Głupiec • Nelga",
+    "lv": "Blázen • Nelga",
     "level": "B2"
   },
   {
     "de": "Totalschaden",
     "de_article": "der",
     "de_plural": "die Totalschäden",
-    "lv": "Uszkodzenia pojazdu, których po wypadku nie da się naprawić",
+    "lv": "Poškození vozidla, které nelze po nehodě opravit",
     "level": "B2"
   },
   {
     "de": "Totenschein",
     "de_article": "der",
     "de_plural": "die Totenscheine",
-    "lv": "Akt zgonu",
+    "lv": "Úmrtní list",
     "level": "B2"
   },
   {
     "de": "totschießen",
-    "lv": "Strzelać",
+    "lv": "Střílet",
     "level": "B2"
   },
   {
     "de": "totschlagen",
-    "lv": "Strącać",
+    "lv": "Odklepnout",
     "level": "B2"
   },
   {
     "de": "Trabant",
     "de_article": "der",
     "de_plural": "die Trabanten",
-    "lv": "Astr. towarzysz",
+    "lv": "Astr. společník",
     "level": "B2"
   },
   {
     "de": "Tragbahre",
     "de_article": "die",
     "de_plural": "die Tragbahren",
-    "lv": "Nosze",
+    "lv": "Nosítka",
     "level": "B2"
   },
   {
     "de": "Trägerrakete",
     "de_article": "die",
     "de_plural": "die Trägerraketen",
-    "lv": "Wyrzutnia",
+    "lv": "Odpalovací zařízení",
     "level": "B2"
   },
   {
     "de": "Transit",
     "de_article": "der",
     "de_plural": "die Transite",
-    "lv": "Tranzyt",
+    "lv": "Tranzit",
     "level": "B2"
   },
   {
@@ -12099,211 +12257,211 @@ const B2_WORDS = [
     "de": "Trauma",
     "de_article": "das",
     "de_plural": "die Traumen",
-    "lv": "Uraz",
+    "lv": "Trauma",
     "level": "B2"
   },
   {
     "de": "treffend",
-    "lv": "Trafny • Znaczący",
+    "lv": "Výstižný • Významný",
     "level": "B2"
   },
   {
     "de": "Tretmine",
     "de_article": "die",
     "de_plural": "die Tretminen",
-    "lv": "Mina przeciwpiechotna",
+    "lv": "Protipěchotní mina",
     "level": "B2"
   },
   {
     "de": "treuherzig",
-    "lv": "Serdeczny • Serdeczny",
+    "lv": "Vydatný • Vydatný",
     "level": "B2"
   },
   {
     "de": "treulos",
-    "lv": "Nierzetelny • Niegodny zaufania",
+    "lv": "Nespolehlivý • Nedůvěryhodný",
     "level": "B2"
   },
   {
     "de": "Triebkraft",
     "de_article": "die",
-    "lv": "Siła napędowa",
+    "lv": "Hnací silou",
     "level": "B2"
   },
   {
     "de": "Triumphbogen",
     "de_article": "der",
     "de_plural": "die Triumphbögen",
-    "lv": "Brama triumfalna",
+    "lv": "Vítězný oblouk",
     "level": "B2"
   },
   {
     "de": "Triumphzug",
     "de_article": "der",
     "de_plural": "die Triumphzüge",
-    "lv": "Procesja triumfalna",
+    "lv": "Triumfální průvod",
     "level": "B2"
   },
   {
     "de": "Trockenlegung",
     "de_article": "die",
     "de_plural": "die Trockenlegungen",
-    "lv": "Odvodnenie",
+    "lv": "Odvodnění",
     "level": "B2"
   },
   {
     "de": "Trommelfell",
     "de_article": "das",
     "de_plural": "die Trommelfelle",
-    "lv": "Bębenek ucha",
+    "lv": "Ušní bubínek",
     "level": "B2"
   },
   {
     "de": "trügen",
-    "lv": "Oszukać • Oszukać",
+    "lv": "Trik • Oklamat",
     "level": "B2"
   },
   {
     "de": "trügerisch",
-    "lv": "Oszukańczy • Oszukańczy",
+    "lv": "Záludný • Záludný",
     "level": "B2"
   },
   {
     "de": "Tugend",
     "de_article": "die",
     "de_plural": "die Tugenden",
-    "lv": "Cnota",
+    "lv": "Ctnost",
     "level": "B2"
   },
   {
     "de": "Tusch",
     "de_article": "der",
     "de_plural": "die Tusche",
-    "lv": "Fanfara",
+    "lv": "Fanfára",
     "level": "B2"
   },
   {
     "de": "überbringen",
-    "lv": "Dostarczyć wiadomość • Pozdrowienia • List • Prezent",
+    "lv": "Doručit zprávu • Pozdrav • Dopis • Dárek",
     "level": "B2"
   },
   {
     "de": "Übereinkommen",
     "de_article": "das",
-    "lv": "Umowa • Układ",
+    "lv": "Dohoda • Ujednání",
     "level": "B2"
   },
   {
     "de": "überfahren",
-    "lv": "Przejechać • Lekko przejechać",
+    "lv": "Přejet • Lehce přejet",
     "level": "B2"
   },
   {
     "de": "überfallen",
-    "lv": "Nagle zaatakować",
+    "lv": "Náhle zaútočit",
     "level": "B2"
   },
   {
     "de": "Überfluss",
     "de_article": "der",
     "de_plural": null,
-    "lv": "Obfitość",
+    "lv": "Hojnost",
     "level": "B2"
   },
   {
     "de": "überfordern",
-    "lv": "Stawiać nadmierne wymagania",
+    "lv": "Klást přehnané požadavky",
     "level": "B2"
   },
   {
     "de": "überführen",
-    "lv": "Przewieźć • Przeprawić się przez rzekę",
+    "lv": "Přenést • Přenést se přes řeku",
     "level": "B2"
   },
   {
     "de": "übergehen",
-    "lv": "Slečna • Ignorovať • Preskočiť",
+    "lv": "Přehlédnout • Ignorovat • Vynechat",
     "level": "B2"
   },
   {
     "de": "überhören",
-    "lv": "Nie słyszeć z powodu nieostrożności • Udawać, że nie słyszy",
+    "lv": "Neslyšet z nedbalosti • Předstírat, že neslyší",
     "level": "B2"
   },
   {
     "de": "überlassen",
-    "lv": "Pozostawić do czyjejś dyspozycji • Pozwolić na wybór",
+    "lv": "Ponechat někomu k dispozici • Dovolit si vybrat",
     "level": "B2"
   },
   {
     "de": "Überlastung",
     "de_article": "die",
     "de_plural": "die Überlastungen",
-    "lv": "Przeciążać",
+    "lv": "Přetížení",
     "level": "B2"
   },
   {
     "de": "Überlegung",
     "de_article": "die",
     "de_plural": "die Überlegungen",
-    "lv": "Refleksja • Rozważenie • Rozważenie",
+    "lv": "Úvaha • Úvaha • Úvaha",
     "level": "B2"
   },
   {
     "de": "übermitteln",
-    "lv": "Dostarczyć • Wysłać list",
+    "lv": "Doručit • Poslat dopis",
     "level": "B2"
   },
   {
     "de": "Übermüdung",
     "de_article": "die",
     "de_plural": "die Übermüdungen",
-    "lv": "Wyczerpanie",
+    "lv": "Vyčerpání",
     "level": "B2"
   },
   {
     "de": "überschätzen",
-    "lv": "Przeszacować",
+    "lv": "Přeceňovat",
     "level": "B2"
   },
   {
     "de": "überschreiten",
-    "lv": "Przejść • Przekroczyć",
+    "lv": "Projít • Přestoupit",
     "level": "B2"
   },
   {
     "de": "übersichtlich",
-    "lv": "Przezroczysty",
+    "lv": "Průhledný",
     "level": "B2"
   },
   {
     "de": "übersiedeln",
-    "lv": "Przenieść się w inne miejsce • Zmienić miejsce zamieszkania",
+    "lv": "Přestěhovat se na jiné místo • Změnit bydliště",
     "level": "B2"
   },
   {
     "de": "überstehen",
-    "lv": "Znosić • Znosić kłopoty",
+    "lv": "Vydržet • Snášet potíže",
     "level": "B2"
   },
   {
     "de": "übertragen",
-    "lv": "Transmitować • Transmitować choroby zakaźne • Transmitować przez radio • [re]tłumaczyć",
+    "lv": "Přenášet • Přenášet nakažlivé nemoci • Vysílat rádiem • [znovu] překládat",
     "level": "B2"
   },
   {
     "de": "übertreten",
-    "lv": "Łamać prawo • Naruszać coś",
+    "lv": "Porušit zákon • Přestoupit proti něčemu",
     "level": "B2"
   },
   {
     "de": "überwältigen",
-    "lv": "Pokonać • Pokonać",
+    "lv": "Překonat • Porazit",
     "level": "B2"
   },
   {
     "de": "ultimativ",
-    "lv": "Ostateczny",
+    "lv": "Konečný",
     "level": "B2"
   },
   {
@@ -12314,545 +12472,545 @@ const B2_WORDS = [
   },
   {
     "de": "umarbeiten",
-    "lv": "Poddać recyklingowi • Przerobić",
+    "lv": "Recyklovat • Předělat",
     "level": "B2"
   },
   {
     "de": "Umbruch",
     "de_article": "der",
     "de_plural": "die Umbrüche",
-    "lv": "Wielka zmiana w polityce",
+    "lv": "Velká změna v politice",
     "level": "B2"
   },
   {
     "de": "umdenken",
-    "lv": "Zmieniać zdanie w zależności od sytuacji",
+    "lv": "Měnit názor podle situace",
     "level": "B2"
   },
   {
     "de": "umfassen",
-    "lv": "Obejmować • Obejmować • Obejmować",
+    "lv": "Obsáhnout • Obejmout • Obejmout",
     "level": "B2"
   },
   {
     "de": "Umfeld",
     "de_article": "das",
     "de_plural": "die Umfelder",
-    "lv": "Środowisko społeczne • Polityczne",
+    "lv": "Prostředí sociální • Politický",
     "level": "B2"
   },
   {
     "de": "umgestalten",
-    "lv": "Przekształcać",
+    "lv": "Transformovat",
     "level": "B2"
   },
   {
     "de": "umhören, sich",
-    "lv": "Słuchać",
+    "lv": "Poslouchat",
     "level": "B2"
   },
   {
     "de": "Umkreis",
     "de_article": "der",
     "de_plural": "die Umkreise",
-    "lv": "Sąsiedztwo",
+    "lv": "Okolí",
     "level": "B2"
   },
   {
     "de": "umkreisen",
-    "lv": "Otoczyć • Oblegać • Unosić się w powietrzu • Wystrzelić • Krąg",
+    "lv": "Obklíčit • Obležet • Vznášet se • Spustit • Kroužit",
     "level": "B2"
   },
   {
     "de": "Umlauf",
     "de_article": "der",
     "de_plural": "die Umläufe",
-    "lv": "Krążynie • Krążenie",
+    "lv": "Kroužení • Oběh",
     "level": "B2"
   },
   {
     "de": "Umlaufbahn",
     "de_article": "die",
     "de_plural": "die Umlaufbahnen",
-    "lv": "Orbita",
+    "lv": "Obíhat",
     "level": "B2"
   },
   {
     "de": "Umriss",
     "de_article": "der",
     "de_plural": "die Umrisse",
-    "lv": "Kontur",
+    "lv": "Obrys",
     "level": "B2"
   },
   {
     "de": "umschließen",
-    "lv": "Włącz • Obejmuj • Obejmuj",
+    "lv": "Zapnout • Obsáhnout • Obsáhnout",
     "level": "B2"
   },
   {
     "de": "umschreiben",
-    "lv": "Opíšte:",
+    "lv": "Popsat",
     "level": "B2"
   },
   {
     "de": "umschulen",
-    "lv": "Uczyć ludzi wykonujących jedną pracę inną pracę • Przekwalifikować się",
+    "lv": "Naučit lidi s jedním zaměstnáním jinému zaměstnání • Rekvalifikovat se",
     "level": "B2"
   },
   {
     "de": "Umschwung",
     "de_article": "der",
     "de_plural": "die Umschwünge",
-    "lv": "Odwrócenie • Przerwa • Nagła zmiana • Odwrócenie • Zwrot",
+    "lv": "Obrat • Zlom • Náhlá změna • Obrat • Obrat",
     "level": "B2"
   },
   {
     "de": "Umsicht",
     "de_article": "die",
-    "lv": "Ostrożność • Ostrożność",
+    "lv": "Opatrnost • Opatrnost",
     "level": "B2"
   },
   {
     "de": "umsiedeln",
-    "lv": "Zostać przymusowo przeniesiony do innego miejsca zamieszkania",
+    "lv": "Být násilně přemístěn do jiného místa bydliště",
     "level": "B2"
   },
   {
     "de": "umständlich",
-    "lv": "Bardzo szczegółowe • Zbyt szerokie • Uciążliwe • Skomplikowane",
+    "lv": "Velmi podrobný • Příliš široký • Zatěžující • Složitý",
     "level": "B2"
   },
   {
     "de": "Umsturz",
     "de_article": "der",
     "de_plural": "die Umstürze",
-    "lv": "Pucz",
+    "lv": "Puč",
     "level": "B2"
   },
   {
     "de": "umwandeln",
-    "lv": "Konwertować • Konwertować",
+    "lv": "Převést • Převést",
     "level": "B2"
   },
   {
     "de": "umwickeln",
-    "lv": "Owinąć • Owinąć",
+    "lv": "Obalit • Obalit",
     "level": "B2"
   },
   {
     "de": "unangebracht",
-    "lv": "Na mieste",
+    "lv": "Mimo místo",
     "level": "B2"
   },
   {
     "de": "unanständig",
-    "lv": "Niegrzeczny • Zachował się niewłaściwie",
+    "lv": "Nezdvořilý • Špatně se choval",
     "level": "B2"
   },
   {
     "de": "unaufhörlich",
-    "lv": "Ciągły • Nieustanny",
+    "lv": "Nepřetržitý • Nepřetržitý",
     "level": "B2"
   },
   {
     "de": "unbarmherzig",
-    "lv": "Okrutny • Bez serca",
+    "lv": "Krutý • Bezcitný",
     "level": "B2"
   },
   {
     "de": "unbebaut",
-    "lv": "Nieuprawiane dla gruntów • Niezabudowane",
+    "lv": "Neobdělaný pro půdu • Nezast",
     "level": "B2"
   },
   {
     "de": "unbedacht",
-    "lv": "Bezmyślny • Pochopny • Nieostrożny",
+    "lv": "Bezmyšlenkovitě • Zbrklý • Nerozvážný",
     "level": "B2"
   },
   {
     "de": "unbegreiflich",
-    "lv": "Niezgłębiony • Niezrozumiały",
+    "lv": "Nevyzpytatelný • Nepochopitelný",
     "level": "B2"
   },
   {
     "de": "unbegründet",
-    "lv": "Bezpodstawne • Bezpodstawne",
+    "lv": "Neopodstatněný • Neopodstatněný",
     "level": "B2"
   },
   {
     "de": "unbehaglich",
-    "lv": "Niespokojny",
+    "lv": "Nepříjemný",
     "level": "B2"
   },
   {
     "de": "unbekümmert",
-    "lv": "Beztroski",
+    "lv": "Bezstarostný",
     "level": "B2"
   },
   {
     "de": "unbemerkbar",
-    "lv": "Niedostrzegalny",
+    "lv": "Neznatelný",
     "level": "B2"
   },
   {
     "de": "unberechenbar",
-    "lv": "Nieobliczalny",
+    "lv": "Nevyčíslitelné",
     "level": "B2"
   },
   {
     "de": "unbeschränkt",
-    "lv": "Nieograniczony",
+    "lv": "Neomezený",
     "level": "B2"
   },
   {
     "de": "unbestechlich",
-    "lv": "Nieprzekupny",
+    "lv": "Neúplatný",
     "level": "B2"
   },
   {
     "de": "unbewusst",
-    "lv": "Nieświadomy • Instynktowny • Niezamierzony • Niezamierzony",
+    "lv": "Nevědomý • Instinktivní • Bezděčný • Neúmyslný",
     "level": "B2"
   },
   {
     "de": "undenkbar",
-    "lv": "Niewyobrażalny",
+    "lv": "Nepředstavitelné",
     "level": "B2"
   },
   {
     "de": "unentbehrlich",
-    "lv": "Niezbędny",
+    "lv": "Nutné",
     "level": "B2"
   },
   {
     "de": "unentgeltlich",
-    "lv": "Bez wynagrodzenia • Bezpłatnie • Za darmo",
+    "lv": "Bez náhrady • Zdarma • Za nic",
     "level": "B2"
   },
   {
     "de": "unerhört",
-    "lv": "Niespotykane",
+    "lv": "Neslýchaný",
     "level": "B2"
   },
   {
     "de": "unerträglich",
-    "lv": "Nie do zniesienia • Nie do zniesienia",
+    "lv": "Nesnesitelný • Nesnesitelný",
     "level": "B2"
   },
   {
     "de": "Unfug",
     "de_article": "der",
     "de_plural": "die Unfuge",
-    "lv": "Występek • Nieobecność • Sprośny czyn",
+    "lv": "Prohřešek • Nepřítomnost • Oplzlý čin",
     "level": "B2"
   },
   {
     "de": "ungeachtet",
-    "lv": "Pomimo • Choć",
+    "lv": "Navzdory • Ačkoli",
     "level": "B2"
   },
   {
     "de": "ungerade",
-    "lv": "Nie całkiem proste • Krzywe • Dziwne",
+    "lv": "Ne zcela rovný • Křivý • Lichý",
     "level": "B2"
   },
   {
     "de": "Union",
     "de_article": "die",
     "de_plural": "die Unionen",
-    "lv": "Związek • Związek",
+    "lv": "Svaz • Svaz",
     "level": "B2"
   },
   {
     "de": "Unkosten",
     "de_article": "die",
-    "lv": "Wydatki",
+    "lv": "Výdaje",
     "level": "B2"
   },
   {
     "de": "unmenschlich",
-    "lv": "Nieludzki • Nieludzki",
+    "lv": "Nelidský • Nelidský",
     "level": "B2"
   },
   {
     "de": "unnütz",
-    "lv": "Bezużyteczny • Niepotrzebny • Daremny",
+    "lv": "Zbytečný • Nepotřebný • Marný",
     "level": "B2"
   },
   {
     "de": "Unstimmigkeit",
     "de_article": "die",
     "de_plural": "die Unstimmigkeiten",
-    "lv": "Nieporozumienia",
+    "lv": "Neshody",
     "level": "B2"
   },
   {
     "de": "unterbreiten",
-    "lv": "Wyjaśnić • Obecny",
+    "lv": "Vysvětlit • Přítomný",
     "level": "B2"
   },
   {
     "de": "unterdrücken",
-    "lv": "Potlačiť • Potlačiť",
+    "lv": "Potlačit • Potlačit",
     "level": "B2"
   },
   {
     "de": "untereinander",
-    "lv": "Medzi sebou • Vzájomne",
+    "lv": "Mezi sebou • Vzájemně",
     "level": "B2"
   },
   {
     "de": "Untergang",
     "de_article": "der",
     "de_plural": "die Untergänge",
-    "lv": "Upadek • Upadek • Upadek • Upadek",
+    "lv": "Úpadek • Úpadek • Zánik • Zhroucení",
     "level": "B2"
   },
   {
     "de": "Untergrund",
     "de_article": "der",
     "de_plural": "die Untergründe",
-    "lv": "Podziemny",
+    "lv": "Podzemí",
     "level": "B2"
   },
   {
     "de": "Unterhalt",
     "de_article": "der",
-    "lv": "Podaż • Podaż • Podaż",
+    "lv": "Zásobovat • Zásobovat • Zásobovat",
     "level": "B2"
   },
   {
     "de": "unterirdisch",
-    "lv": "Podziemny-",
+    "lv": "Podzemí-",
     "level": "B2"
   },
   {
     "de": "unterjochen",
-    "lv": "Podporządkować",
+    "lv": "Podmanit si",
     "level": "B2"
   },
   {
     "de": "Unterlage",
     "de_article": "die",
     "de_plural": "die Unterlagen",
-    "lv": "Trwałe • Mata • Podkładka • Podpórka • Dane • Dokumentacja",
+    "lv": "Trvalý • Podložka • Podložka • Podpora • Data • Dokumentace",
     "level": "B2"
   },
   {
     "de": "unterlassen",
-    "lv": "Przestać coś robić • Nie robić",
+    "lv": "Přestat něco dělat • Nedělat",
     "level": "B2"
   },
   {
     "de": "unterordnen",
-    "lv": "Podrzędny • Podmiot",
+    "lv": "Podřízený • Předmět",
     "level": "B2"
   },
   {
     "de": "unterschlagen",
-    "lv": "Do odpowiedniego",
+    "lv": "Přivlastňovat si",
     "level": "B2"
   },
   {
     "de": "Unterstellung",
     "de_article": "die",
     "de_plural": "die Unterstellungen",
-    "lv": "Oszczerstwo",
+    "lv": "Pomlouvat",
     "level": "B2"
   },
   {
     "de": "Untertan",
     "de_article": "der",
     "de_plural": "die Untertanen",
-    "lv": "Obywatel",
+    "lv": "Občan",
     "level": "B2"
   },
   {
     "de": "untertauchen",
-    "lv": "Nurkować • Zanurzać się pod wodą • Zanurzać się • Zanurzać się",
+    "lv": "Potápět se • Ponořit se pod vodu • Ponořit se • Ponořit se",
     "level": "B2"
   },
   {
     "de": "unterweisen",
-    "lv": "Pokaż • Poinstruuj",
+    "lv": "Ukázat • Poučit",
     "level": "B2"
   },
   {
     "de": "unterwerfen",
-    "lv": "Podlega",
+    "lv": "Podléhat",
     "level": "B2"
   },
   {
     "de": "sich unterwerfen",
-    "lv": "Buďte poslušní",
+    "lv": "Poslouchat",
     "level": "B2"
   },
   {
     "de": "untragbar",
-    "lv": "Nie do przyjęcia • Nie do zniesienia",
+    "lv": "Nepřijatelný • Nesnesitelný",
     "level": "B2"
   },
   {
     "de": "unüberlegt",
-    "lv": "Lekkomyślny • Lekkomyślny",
+    "lv": "Lehkomyslný • Lehkomyslný",
     "level": "B2"
   },
   {
     "de": "unvermeidlich",
-    "lv": "Nieuchronne • Nieuniknione",
+    "lv": "Hrozící • Nevyhnutelný",
     "level": "B2"
   },
   {
     "de": "unverzeihlich",
-    "lv": "Nieprzebaczalny",
+    "lv": "Neodpustitelný",
     "level": "B2"
   },
   {
     "de": "unwiderlegbar",
-    "lv": "Niezaprzeczalny • Bezsporny",
+    "lv": "Nevyvratitelný • Neoddiskutovatelný",
     "level": "B2"
   },
   {
     "de": "unwillkürlich",
-    "lv": "Nieświadomy • Niezamierzony • Nieświadomy",
+    "lv": "Bezděčný • Neúmyslný • Bezděčný",
     "level": "B2"
   },
   {
     "de": "unzählig",
-    "lv": "Bez liku",
+    "lv": "Nespočetný",
     "level": "B2"
   },
   {
     "de": "unzulässig",
-    "lv": "Neprijateľné",
+    "lv": "Nepřípustný",
     "level": "B2"
   },
   {
     "de": "üppig",
-    "lv": "Obfity • Pulchny",
+    "lv": "Hojný • Baculatý",
     "level": "B2"
   },
   {
     "de": "Urheber",
     "de_article": "der",
     "de_plural": "die Urheber",
-    "lv": "Inicjator • Inicjator • Autor",
+    "lv": "Iniciátor • Iniciátor • Autor",
     "level": "B2"
   },
   {
     "de": "Urheberrecht",
     "de_article": "das",
     "de_plural": "die Urheberrechte",
-    "lv": "Prawo autorskie",
+    "lv": "Copyright",
     "level": "B2"
   },
   {
     "de": "Urkunde",
     "de_article": "die",
     "de_plural": "die Urkunden",
-    "lv": "Dokument • Artykuł",
+    "lv": "Dokument • Článek",
     "level": "B2"
   },
   {
     "de": "Ursprung",
     "de_article": "der",
     "de_plural": "die Ursprünge",
-    "lv": "Pochodzenie • Pochodzenie • [pre]początek",
+    "lv": "Původ • Původ • [před]počátek",
     "level": "B2"
   },
   {
     "de": "ursprünglich",
-    "lv": "Wstępny",
+    "lv": "Počáteční",
     "level": "B2"
   },
   {
     "de": "vage",
-    "lv": "Niejasne • Nieprecyzyjne",
+    "lv": "Neurčitý • Nepřesný",
     "level": "B2"
   },
   {
     "de": "väterlich",
-    "lv": "Ojcowski- • Ojcowski",
+    "lv": "Otcovský- • Otcovský",
     "level": "B2"
   },
   {
     "de": "verachten",
-    "lv": "Gardzić • Pogardą",
+    "lv": "Pohrdat • Pohrdat",
     "level": "B2"
   },
   {
     "de": "veraltet",
-    "lv": "Przestarzały",
+    "lv": "Zastaralý",
     "level": "B2"
   },
   {
     "de": "Veranlagung",
     "de_article": "die",
     "de_plural": "die Veranlagungen",
-    "lv": "Talenty • Zdolności",
+    "lv": "Nadání • Schopnosti",
     "level": "B2"
   },
   {
     "de": "veranlassen",
-    "lv": "Powodować • Inicjować • Zachęcać",
+    "lv": "Způsobit • Iniciovat • Povzbudit",
     "level": "B2"
   },
   {
     "de": "verbittert",
-    "lv": "Zdenerwowany",
+    "lv": "Naštvaný",
     "level": "B2"
   },
   {
     "de": "verborgen",
-    "lv": "Ukryty • Sekret",
+    "lv": "Skrytý • Tajný",
     "level": "B2"
   },
   {
     "de": "verdauen",
-    "lv": "Strawić",
+    "lv": "Strávit",
     "level": "B2"
   },
   {
     "de": "Verdienst",
     "de_article": "der",
     "de_plural": "die Verdienste",
-    "lv": "Zasługa",
+    "lv": "Zásluhy",
     "level": "B2"
   },
   {
     "de": "Verdruss",
     "de_article": "der",
     "de_plural": "die Verdrusse",
-    "lv": "Neochota • Sklamanie • Podráždenie",
+    "lv": "Nechuť • Zklamání • Mrzutost",
     "level": "B2"
   },
   {
     "de": "verdünnen",
-    "lv": "Rozcieńczyć • Chemię. rozcieńczyć • Osłabić",
+    "lv": "Dělat ředidlo • Chem. zředit • Oslabit",
     "level": "B2"
   },
   {
     "de": "verehren",
-    "lv": "Honor • Szacunek • Komp. [do] oddania",
+    "lv": "Ctít • Ctít • Počt. [to] dát pryč",
     "level": "B2"
   },
   {
     "de": "vereinigen",
-    "lv": "Połączyć • Połączyć",
+    "lv": "Spojit • Spojit",
     "level": "B2"
   },
   {
     "de": "sich vereinigen",
-    "lv": "Połączyć się z",
+    "lv": "Splynout s",
     "level": "B2",
     "study": {
       "id": "b2-sich-vereinigen",
       "layout": "minimalStudy",
-      "translation": "Połączyć się z",
-      "rektion": "mit + kam?",
-      "explanation": "Sich vereinigen wymaga przyimka określonego mit + kam?.",
-      "forms": "mit + kam?",
-      "formsLabel": "Kierownictwo:",
+      "translation": "Splynout s",
+      "rektion": "Mit + kam?",
+      "explanation": "Sich vereinigen vyžaduje určitou předložku mit + kam?.",
+      "forms": "Mit + kam?",
+      "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -12869,140 +13027,140 @@ const B2_WORDS = [
     "de": "Vereinigung",
     "de_article": "die",
     "de_plural": "die Vereinigungen",
-    "lv": "Związek • Społeczeństwo • Sprzęgło",
+    "lv": "Svazek • Společnost • Spojka",
     "level": "B2"
   },
   {
     "de": "vererben",
-    "lv": "Pozostawić • Odziedziczyć",
+    "lv": "Zanechat • Zdědit",
     "level": "B2"
   },
   {
     "de": "Verfahren",
     "de_article": "das",
     "de_plural": "die Verfahren",
-    "lv": "Zachowanie • Zachowanie • Technika • Metoda • Jur. proces • Sprawa",
+    "lv": "Chování • Chování • Technika • Metoda • Jur. proces • Případ",
     "level": "B2"
   },
   {
     "de": "Verfall",
     "de_article": "der",
     "de_plural": "die Verfälle",
-    "lv": "Upadek • Upadek • Upadek",
+    "lv": "Kolaps • Pokles • Pokles",
     "level": "B2"
   },
   {
     "de": "verfallen",
-    "lv": "Upadek • Upadek • Upadek • Upadek",
+    "lv": "Zhroucení • Zhroucení • Pokles • Potopa",
     "level": "B2"
   },
   {
     "de": "Verfasser",
     "de_article": "der",
     "de_plural": "die Verfasser",
-    "lv": "Kompozytor • Autor",
+    "lv": "Skladatel • Autor",
     "level": "B2"
   },
   {
     "de": "verfügen",
-    "lv": "Określić • Polecenie • Przypisać",
+    "lv": "Určit • Přikázat • Přiřadit",
     "level": "B2"
   },
   {
     "de": "Verfügung",
     "de_article": "die",
     "de_plural": "die Verfügungen",
-    "lv": "Objednať",
+    "lv": "Objednávka",
     "level": "B2"
   },
   {
     "de": "verführen",
-    "lv": "Uwodzić • Uwodzić",
+    "lv": "Svést • Svést",
     "level": "B2"
   },
   {
     "de": "vergeblich",
-    "lv": "Próżny • Próżny",
+    "lv": "Marný • Marný",
     "level": "B2"
   },
   {
     "de": "Vergehen",
     "de_article": "das",
     "de_plural": "die Vergehen",
-    "lv": "Naruszenie",
+    "lv": "Porušení",
     "level": "B2"
   },
   {
     "de": "vergeuden",
-    "lv": "Marnować • Marnować",
+    "lv": "Plýtvat • Plýtvat",
     "level": "B2"
   },
   {
     "de": "vergiften",
-    "lv": "Zatruć • Otruć",
+    "lv": "Otrávit • Otrávit",
     "level": "B2"
   },
   {
     "de": "verhandeln",
-    "lv": "Omawiać • Negocjować",
+    "lv": "Diskutovat • Vyjednávat",
     "level": "B2"
   },
   {
     "de": "verhasst",
-    "lv": "Znienawidzony • Niewidziany",
+    "lv": "Nenáviděný • Neviděný",
     "level": "B2"
   },
   {
     "de": "verheeren",
-    "lv": "Zrujnować",
+    "lv": "Zničit",
     "level": "B2"
   },
   {
     "de": "verhöhnen",
-    "lv": "Próbny • Wgniecenie",
+    "lv": "Vysmívat se • Promáčknout",
     "level": "B2"
   },
   {
     "de": "Verhör",
     "de_article": "das",
     "de_plural": "die Verhöre",
-    "lv": "[z] przesłuchania",
+    "lv": "[z] výslechu",
     "level": "B2"
   },
   {
     "de": "verhören",
-    "lv": "[o] przesłuchaniu",
+    "lv": "[z] dotazování",
     "level": "B2"
   },
   {
     "de": "sich verhören",
-    "lv": "Posłuchaj jeszcze raz",
+    "lv": "Poslouchej znovu",
     "level": "B2"
   },
   {
     "de": "verhüten",
-    "lv": "Zapobiegać • Chronić przed",
+    "lv": "Zabránit • Chránit před",
     "level": "B2"
   },
   {
     "de": "Verlauf",
     "de_article": "der",
     "de_plural": "die Verläufe",
-    "lv": "Postęp • Postęp",
+    "lv": "Pokrok • Pokrok",
     "level": "B2"
   },
   {
     "de": "Verleger",
     "de_article": "der",
     "de_plural": "die Verleger",
-    "lv": "Wydawca",
+    "lv": "Vydavatel",
     "level": "B2"
   },
   {
     "de": "Verleih",
     "de_article": "der",
     "de_plural": "die Verleihe",
-    "lv": "Dzierżawa",
+    "lv": "Pronájem",
     "level": "B2"
   },
   {
@@ -13016,175 +13174,175 @@ const B2_WORDS = [
     "de": "Vermerk",
     "de_article": "der",
     "de_plural": "die Vermerke",
-    "lv": "Uwaga • Znak",
+    "lv": "Poznámka • Označit",
     "level": "B2"
   },
   {
     "de": "Vermögen",
     "de_article": "das",
     "de_plural": "die Vermögen",
-    "lv": "Nieruchomość",
+    "lv": "Vlastnictví",
     "level": "B2"
   },
   {
     "de": "Vermutung",
     "de_article": "die",
     "de_plural": "die Vermutungen",
-    "lv": "Założenie • Hipoteza",
+    "lv": "Předpoklad • Hypotéza",
     "level": "B2"
   },
   {
     "de": "Vernehmung",
     "de_article": "die",
     "de_plural": "die Vernehmungen",
-    "lv": "Výsluch polície",
+    "lv": "Policejní výslech",
     "level": "B2"
   },
   {
     "de": "Verrat",
     "de_article": "der",
-    "lv": "Zdrada",
+    "lv": "Zrada",
     "level": "B2"
   },
   {
     "de": "Vers",
     "de_article": "der",
     "de_plural": "die Verse",
-    "lv": "Článok",
+    "lv": "Článek",
     "level": "B2"
   },
   {
     "de": "Versager",
     "de_article": "der",
     "de_plural": "die Versager",
-    "lv": "Przegrany • Przegrany",
+    "lv": "Poražený • Poražený",
     "level": "B2"
   },
   {
     "de": "Verschluss",
     "de_article": "der",
     "de_plural": "die Verschlüsse",
-    "lv": "Zamykanie • Zamek",
+    "lv": "Zavírání • Zámek",
     "level": "B2"
   },
   {
     "de": "Versehen",
     "de_article": "das",
     "de_plural": "die Versehen",
-    "lv": "Błąd • Rewizja",
+    "lv": "Chyba • Revize",
     "level": "B2"
   },
   {
     "de": "verkommen",
-    "lv": "Odmówić • Zatonąć • Zejść na manowce",
+    "lv": "Odmítnout • Potopit se • Zabloudit",
     "level": "B2"
   },
   {
     "de": "verkörpern",
-    "lv": "Ucieleśnienie",
+    "lv": "Ztělesňující",
     "level": "B2"
   },
   {
     "de": "verkraften",
-    "lv": "Utrzymać siłę moralną, aby pokonać coś nieprzyjemnego",
+    "lv": "Zachovat morální sílu překonat něco nepříjemného",
     "level": "B2"
   },
   {
     "de": "verkümmern",
-    "lv": "Odmówić",
+    "lv": "Odmítnout",
     "level": "B2"
   },
   {
     "de": "verkünden",
-    "lv": "Ogłosić • Ogłosić",
+    "lv": "Oznamovat • Oznamovat",
     "level": "B2"
   },
   {
     "de": "verleumden",
-    "lv": "Oszczerstwo • Zniesławienie",
+    "lv": "Pomlouvat • Očerňovat",
     "level": "B2"
   },
   {
     "de": "vermehren",
-    "lv": "Násobiť • Násobiť",
+    "lv": "Množit se • Množit",
     "level": "B2"
   },
   {
     "de": "sich vermehren",
-    "lv": "Mnożenie",
+    "lv": "Násobení",
     "level": "B2"
   },
   {
     "de": "vermessen",
-    "lv": "Zmierzyć",
+    "lv": "Měřit",
     "level": "B2"
   },
   {
     "de": "vermindern",
-    "lv": "[aby] zmniejszyć",
+    "lv": "[snížit]",
     "level": "B2"
   },
   {
     "de": "vermitteln",
-    "lv": "Pośredniczyć • Pozyskiwać • Promować",
+    "lv": "Zprostředkovat • Obstarat • Propagovat",
     "level": "B2"
   },
   {
     "de": "vermögend",
-    "lv": "Bogaty • Nakarmiony",
+    "lv": "Bohatý • Živený",
     "level": "B2"
   },
   {
     "de": "verneinen",
-    "lv": "Zaprzeczyć",
+    "lv": "Popřít",
     "level": "B2"
   },
   {
     "de": "vernichten",
-    "lv": "Niszczyć • Niszczyć",
+    "lv": "Ničit • Devastovat",
     "level": "B2"
   },
   {
     "de": "verordnen",
-    "lv": "Ustalić • Zamówić • Med. podpisać",
+    "lv": "Určit • Nařídit • Med. podepsat",
     "level": "B2"
   },
   {
     "de": "verpfänden",
-    "lv": "Zastaw",
+    "lv": "Slib",
     "level": "B2"
   },
   {
     "de": "verrechnen",
-    "lv": "Obliczać",
+    "lv": "Vypočítat",
     "level": "B2"
   },
   {
     "de": "verrenken",
-    "lv": "Zwichnąć",
+    "lv": "Vykloubit se",
     "level": "B2"
   },
   {
     "de": "versagen",
-    "lv": "Zaprzeczać • Odmawiać • Odrzucać • Być nieposłusznym • Odmawiać służenia • Sprawiać wrażenie tchórzliwego i bezsilnego",
+    "lv": "Zapřít • Odmítnout • Odmítnout • Neuposlechnout • Odmítnout sloužit • Působit zbaběle a bezmocně",
     "level": "B2"
   },
   {
     "de": "sich versehen",
-    "lv": "Zapomnieć • Wyposażyć",
+    "lv": "Zapomenout • Vybavit se",
     "level": "B2",
     "study": {
       "id": "b2-sich-versehen",
       "layout": "minimalStudy",
-      "translation": "Zapomnieć • Wyposażyć",
-      "rektion": "mit + kam?",
-      "explanation": "Sich verschein wymaga przyimka określonego mit + kam?.",
-      "forms": "mit + kam?",
-      "formsLabel": "Kierownictwo:",
+      "translation": "Zapomenout • Vybavit se",
+      "rektion": "Mit + kam?",
+      "explanation": "Sich verschein vyžaduje určitou předložku mit + kam?.",
+      "forms": "Mit + kam?",
+      "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich"
+            "Sich verschein"
           ],
           "red": [
             "mit + kam?"
@@ -13195,41 +13353,41 @@ const B2_WORDS = [
   },
   {
     "de": "versetzen",
-    "lv": "Ruszaj się • Poruszaj się",
+    "lv": "Hýbat • Hýbat",
     "level": "B2"
   },
   {
     "de": "verseuchen",
-    "lv": "Zanieczyszczać",
+    "lv": "Znečišťovat",
     "level": "B2"
   },
   {
     "de": "versiegeln",
-    "lv": "Uszczelnić",
+    "lv": "Utěsnit",
     "level": "B2"
   },
   {
     "de": "versinken",
-    "lv": "Zatonąć",
+    "lv": "Potopit se",
     "level": "B2"
   },
   {
     "de": "versöhnen",
-    "lv": "Pogodzić",
+    "lv": "Smířit se",
     "level": "B2"
   },
   {
     "de": "sich versöhnen",
-    "lv": "Znosić",
+    "lv": "Smířit se s",
     "level": "B2",
     "study": {
       "id": "b2-sich-versoehnen",
       "layout": "minimalStudy",
-      "translation": "Znosić",
-      "rektion": "mit + kam?",
-      "explanation": "Sich versöhnen wymaga przyimka określonego mit + kam?.",
-      "forms": "mit + kam?",
-      "formsLabel": "Kierownictwo:",
+      "translation": "Smířit se s",
+      "rektion": "Mit + kam?",
+      "explanation": "Sich versöhnen vyžaduje určitou předložku mit + kam?.",
+      "forms": "Mit + kam?",
+      "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -13244,41 +13402,41 @@ const B2_WORDS = [
   },
   {
     "de": "verspielen",
-    "lv": "Grać • Przegrać",
+    "lv": "Hrát • Prohrát",
     "level": "B2"
   },
   {
     "de": "verspotten",
-    "lv": "Dent • Kpina",
+    "lv": "Promáčknout • Posměch",
     "level": "B2"
   },
   {
     "de": "verständig",
-    "lv": "Rozsądny • Rozsądny",
+    "lv": "Příčetný • Rozumný",
     "level": "B2"
   },
   {
     "de": "verstauchen",
-    "lv": "Zwichnąć",
+    "lv": "Vykloubit se",
     "level": "B2"
   },
   {
     "de": "versteigern",
-    "lv": "Sprzedać na aukcji",
+    "lv": "Prodat v aukci",
     "level": "B2"
   },
   {
     "de": "sich verstellen",
-    "lv": "Personifikować",
+    "lv": "Vydávat se za",
     "level": "B2",
     "study": {
       "id": "b2-sich-verstellen",
       "layout": "minimalStudy",
-      "translation": "Personifikować",
-      "rektion": "als + ko?",
-      "explanation": "Sich verstellen wymaga przyimka określonego als + ko?.",
-      "forms": "als + ko?",
-      "formsLabel": "Kierownictwo:",
+      "translation": "Vydávat se za",
+      "rektion": "Als + ko?",
+      "explanation": "Sich verstellen vyžaduje určitou předložku als + ko?.",
+      "forms": "Als + ko?",
+      "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -13295,106 +13453,106 @@ const B2_WORDS = [
     "de": "Verstorbene",
     "de_article": "der",
     "de_plural": "die Verstorbenen",
-    "lv": "Zmarły • Zmarły",
+    "lv": "Zesnulý • Zemřelý",
     "level": "B2"
   },
   {
     "de": "Versuchung",
     "de_article": "die",
     "de_plural": "die Versuchungen",
-    "lv": "Pokusa",
+    "lv": "Pokušení",
     "level": "B2"
   },
   {
     "de": "vertagen",
-    "lv": "Odložiť • Odložiť",
+    "lv": "Odložit • Odložit",
     "level": "B2"
   },
   {
     "de": "vertiefen",
-    "lv": "Pogłębiać",
+    "lv": "Prohloubit",
     "level": "B2"
   },
   {
     "de": "Vertretung",
     "de_article": "die",
     "de_plural": "die Vertretungen",
-    "lv": "Substytucja • Substytucja • Reprezentacja • Reprezentowanie",
+    "lv": "Substituce • Substituce • Zastoupení • Zastoupení",
     "level": "B2"
   },
   {
     "de": "verwalten",
-    "lv": "Zarządzać",
+    "lv": "Spravovat",
     "level": "B2"
   },
   {
     "de": "verwandeln",
-    "lv": "Przekształcać",
+    "lv": "Transformovat",
     "level": "B2"
   },
   {
     "de": "verweigern",
-    "lv": "Odmówić • Odmówić",
+    "lv": "Popírat • Odmítat",
     "level": "B2"
   },
   {
     "de": "verweilen",
-    "lv": "Obijać się",
+    "lv": "Poflakovat se",
     "level": "B2"
   },
   {
     "de": "Verweis",
     "de_article": "der",
     "de_plural": "die Verweise",
-    "lv": "Nagana • Nagana",
+    "lv": "Napomínat • Napomínat",
     "level": "B2"
   },
   {
     "de": "Verwendung",
     "de_article": "die",
     "de_plural": "die Verwendungen",
-    "lv": "Wykorzystanie",
+    "lv": "Využití",
     "level": "B2"
   },
   {
     "de": "verwickeln",
-    "lv": "Mylić • Przym. przeplatać się • Przeszkadzać",
+    "lv": "Zmást • Adj. proplétat • Překážet",
     "level": "B2"
   },
   {
     "de": "verwirren",
-    "lv": "Dezorientować • Dezorientować • Dezorientować",
+    "lv": "Zmást • Zmást • Zmást",
     "level": "B2"
   },
   {
     "de": "Verwirrung",
     "de_article": "die",
     "de_plural": "die Verwirrungen",
-    "lv": "Zamieszanie • Zakłopotanie",
+    "lv": "Zmatek • Rozpaky",
     "level": "B2"
   },
   {
     "de": "verwöhnen",
-    "lv": "Psuć • Psuć",
+    "lv": "Kazit • Kazit",
     "level": "B2"
   },
   {
     "de": "verwundern",
-    "lv": "Wywołać zdziwienie",
+    "lv": "Způsobit údiv",
     "level": "B2"
   },
   {
     "de": "sich verwundern",
-    "lv": "Zastanawiać się",
+    "lv": "Divit se",
     "level": "B2",
     "study": {
       "id": "b2-sich-verwundern",
       "layout": "minimalStudy",
-      "translation": "Zastanawiać się",
-      "rektion": "über + ko?",
-      "explanation": "Sich verwundern wymaga przyimka określonego über + ko?.",
-      "forms": "über + ko?",
-      "formsLabel": "Kierownictwo:",
+      "translation": "Divit se",
+      "rektion": "Über + ko?",
+      "explanation": "Sich verwundern vyžaduje určitou předložku über + ko?.",
+      "forms": "Über + ko?",
+      "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -13411,137 +13569,137 @@ const B2_WORDS = [
     "de": "Verwüstung",
     "de_article": "die",
     "de_plural": "die Verwüstungen",
-    "lv": "Dewastacja",
+    "lv": "Devastace",
     "level": "B2"
   },
   {
     "de": "Verzeichnis",
     "de_article": "das",
     "de_plural": "die Verzeichnisse",
-    "lv": "Zoznam",
+    "lv": "Seznam",
     "level": "B2"
   },
   {
     "de": "verzögern",
-    "lv": "Opóźnić",
+    "lv": "Zdržovat",
     "level": "B2"
   },
   {
     "de": "sich verzögern",
-    "lv": "Opóźniać • Zwlekać",
+    "lv": "Zdržovat • Odkládat",
     "level": "B2"
   },
   {
     "de": "verzollen",
-    "lv": "Na colné odbavenie",
+    "lv": "K proclení",
     "level": "B2"
   },
   {
     "de": "verzweifeln",
-    "lv": "Wyszedł",
+    "lv": "Vyšel ven",
     "level": "B2"
   },
   {
     "de": "verzweifelt",
-    "lv": "Zdesperowany • Zdesperowany • Pełen rozpaczy",
+    "lv": "Zoufalý • Zoufalý • Plný zoufalství",
     "level": "B2"
   },
   {
     "de": "Viehbestand",
     "de_article": "der",
     "de_plural": "die Viehbestände",
-    "lv": "[całkowita] liczba zwierząt gospodarskich",
+    "lv": "[celkový] počet hospodářských zvířat",
     "level": "B2"
   },
   {
     "de": "Viehzucht",
     "de_article": "die",
     "de_plural": "die Viehzuchten",
-    "lv": "Hodowla zwierząt",
+    "lv": "Chov zvířat",
     "level": "B2"
   },
   {
     "de": "Vielfalt",
     "de_article": "die",
-    "lv": "Różnorodność",
+    "lv": "Rozmanitost",
     "level": "B2"
   },
   {
     "de": "vielseitig",
-    "lv": "Wszechstronny",
+    "lv": "Univerzální",
     "level": "B2"
   },
   {
     "de": "visuell",
-    "lv": "Wizualny",
+    "lv": "Vizuální",
     "level": "B2"
   },
   {
     "de": "Volkszählung",
     "de_article": "die",
     "de_plural": "die Volkszählungen",
-    "lv": "Oficjalny spis ludności",
+    "lv": "Oficiální sčítání lidu",
     "level": "B2"
   },
   {
     "de": "vollbringen",
-    "lv": "Osiągnąć • Zrobić",
+    "lv": "Splnit • Udělat",
     "level": "B2"
   },
   {
     "de": "vollenden",
-    "lv": "Koniec",
+    "lv": "Dokončit",
     "level": "B2"
   },
   {
     "de": "vollkommen",
-    "lv": "Kompletny • Całkowicie • Całkowicie",
+    "lv": "Úplný • Úplně • Úplně",
     "level": "B2"
   },
   {
     "de": "Vollmacht",
     "de_article": "die",
     "de_plural": "die Vollmachten",
-    "lv": "Pełnomocnictwo",
+    "lv": "Plná moc",
     "level": "B2"
   },
   {
     "de": "vollzählig",
-    "lv": "Istniejąca w całości",
+    "lv": "Existující v plném rozsahu",
     "level": "B2"
   },
   {
     "de": "vollziehen",
-    "lv": "Wykonać",
+    "lv": "Provést",
     "level": "B2"
   },
   {
     "de": "Volumen",
     "de_article": "das",
     "de_plural": "die Volumen",
-    "lv": "Głośność • Głośność",
+    "lv": "Hlasitost • Hlasitost",
     "level": "B2"
   },
   {
     "de": "Vorahnung",
     "de_article": "die",
     "de_plural": "die Vorahnungen",
-    "lv": "Przeczucie czegoś złego",
+    "lv": "Předtucha",
     "level": "B2"
   },
   {
     "de": "voran",
-    "lv": "Naprzód • Przed • Na czele",
+    "lv": "Napřed • Před • U hlavy",
     "level": "B2"
   },
   {
     "de": "voraussehen",
-    "lv": "Przewidzieć",
+    "lv": "Předpovídat",
     "level": "B2"
   },
   {
     "de": "voraussetzen",
-    "lv": "Vyžadovať • Byť predpokladom",
+    "lv": "Vyžadovat • Být předpokladem",
     "level": "B2"
   },
   {
@@ -13553,491 +13711,491 @@ const B2_WORDS = [
   },
   {
     "de": "vorbestraft",
-    "lv": "Z wcześniejszym wyrokiem",
+    "lv": "S předchozím odsouzením",
     "level": "B2"
   },
   {
     "de": "vorbeugen",
-    "lv": "Zapobiegać",
+    "lv": "Zabránit",
     "level": "B2"
   },
   {
     "de": "Vorbildung",
     "de_article": "die",
     "de_plural": "die Vorbildungen",
-    "lv": "Wcześniejsza wiedza • Przygotowanie",
+    "lv": "Předchozí znalosti • Příprava",
     "level": "B2"
   },
   {
     "de": "vorder",
-    "lv": "Przód",
+    "lv": "Přední",
     "level": "B2"
   },
   {
     "de": "Vordergrund",
     "de_article": "der",
     "de_plural": "die Vordergründe",
-    "lv": "Pierwszoplanowy",
+    "lv": "Popředí",
     "level": "B2"
   },
   {
     "de": "vordringen",
-    "lv": "Wyłamać się do przodu",
+    "lv": "Prorazit vpřed",
     "level": "B2"
   },
   {
     "de": "Vorfall",
     "de_article": "der",
     "de_plural": "die Vorfälle",
-    "lv": "Incident • Udalosť",
+    "lv": "Incident • Event",
     "level": "B2"
   },
   {
     "de": "vorfristig",
-    "lv": "Przedwczesne • Przed terminem",
+    "lv": "Předčasné • Předčasné",
     "level": "B2"
   },
   {
     "de": "Vorkehrung",
     "de_article": "die",
     "de_plural": "die Vorkehrungen",
-    "lv": "Środki ochronne",
+    "lv": "Ochranná opatření",
     "level": "B2"
   },
   {
     "de": "Vorliebe",
     "de_article": "die",
     "de_plural": "die Vorlieben",
-    "lv": "Szczególnie lubiłem",
+    "lv": "Obzvláště oblíbený",
     "level": "B2"
   },
   {
     "de": "vornehmen",
-    "lv": "Zrobić • Wykonać • Podjąć się • Zobowiązać się do czegoś",
+    "lv": "Učinit • Vykonat • Podstoupit • Zavázat se k něčemu",
     "level": "B2"
   },
   {
     "de": "vornherein",
-    "lv": "Na samym początku",
+    "lv": "Na samém začátku",
     "level": "B2"
   },
   {
     "de": "Vorrecht",
     "de_article": "das",
     "de_plural": "die Vorrechte",
-    "lv": "Prerogatívne • Privilégium",
+    "lv": "Výsada • Výsada",
     "level": "B2"
   },
   {
     "de": "vorsätzlich",
-    "lv": "Celowe • Celowe",
+    "lv": "Úmyslně • Záměrně",
     "level": "B2"
   },
   {
     "de": "Vorspiel",
     "de_article": "das",
     "de_plural": "die Vorspiele",
-    "lv": "Prolog • Preludium • Uwertura",
+    "lv": "Prolog • Předehra • Předehra",
     "level": "B2"
   },
   {
     "de": "Vorsprung",
     "de_article": "der",
     "de_plural": "die Vorsprünge",
-    "lv": "Prymat • Supremacja • Wyższość",
+    "lv": "Prvenství • Nadřazenost • Nadřazenost",
     "level": "B2"
   },
   {
     "de": "Vorstand",
     "de_article": "der",
     "de_plural": "die Vorstände",
-    "lv": "Zarząd • Szef • Zarząd • Szef",
+    "lv": "Představenstvo • Šéf • Vedení • Šéf",
     "level": "B2"
   },
   {
     "de": "Vorstrafe",
     "de_article": "die",
     "de_plural": "die Vorstrafen",
-    "lv": "Poprzednia przeszłość kryminalna",
+    "lv": "Předchozí trestní rejstřík",
     "level": "B2"
   },
   {
     "de": "vortragen",
-    "lv": "Wykład • Występować • Recytować • Grać",
+    "lv": "Přednášet • Přednášet • Přednášet • Hrát",
     "level": "B2"
   },
   {
     "de": "vortrefflich",
-    "lv": "Doskonałe • Doskonałe",
+    "lv": "Výborný • Výborný",
     "level": "B2"
   },
   {
     "de": "Vorverkauf",
     "de_article": "der",
     "de_plural": "die Vorverkäufe",
-    "lv": "Przedsprzedaż",
+    "lv": "Předprodej",
     "level": "B2"
   },
   {
     "de": "Vorwahl",
     "de_article": "die",
     "de_plural": "die Vorwahlen",
-    "lv": "Kod innego miasta lub kraju w rozmowie telefonicznej",
+    "lv": "Kód jiného města nebo země v telefonickém rozhovoru",
     "level": "B2"
   },
   {
     "de": "Vorwand",
     "de_article": "der",
     "de_plural": "die Vorwände",
-    "lv": "Pretekst • Pretekst",
+    "lv": "Záminka • Záminka",
     "level": "B2"
   },
   {
     "de": "Vorwort",
     "de_article": "das",
     "de_plural": "die Vorworte",
-    "lv": "Przedmowa",
+    "lv": "Předmluva",
     "level": "B2"
   },
   {
     "de": "Vorwurf",
     "de_article": "der",
     "de_plural": "die Vorwürfe",
-    "lv": "Zarzut",
+    "lv": "Vyčítat",
     "level": "B2"
   },
   {
     "de": "vorzeitig",
-    "lv": "Przedwczesny • Przedwczesny",
+    "lv": "Předčasný • Předčasný",
     "level": "B2"
   },
   {
     "de": "vorzüglich",
-    "lv": "Doskonałe • Doskonałe",
+    "lv": "Výborný • Výborný",
     "level": "B2"
   },
   {
     "de": "Wacholder",
     "de_article": "der",
     "de_plural": "die Wacholder",
-    "lv": "Jodła • Jałowiec",
+    "lv": "Jedle • Jalovec",
     "level": "B2"
   },
   {
     "de": "Wachsamkeit",
     "de_article": "die",
     "de_plural": "die Wachsamkeiten",
-    "lv": "Czujność • Uważność",
+    "lv": "Ostražitost • Všímavost",
     "level": "B2"
   },
   {
     "de": "Wade",
     "de_article": "die",
     "de_plural": "die Waden",
-    "lv": "Ikra",
+    "lv": "Jikry",
     "level": "B2"
   },
   {
     "de": "Wahlbezirk",
     "de_article": "der",
     "de_plural": "die Wahlbezirke",
-    "lv": "Okręg wyborczy",
+    "lv": "Volební obvod",
     "level": "B2"
   },
   {
     "de": "Wahlfach",
     "de_article": "das",
     "de_plural": "die Wahlfächer",
-    "lv": "Przedmiot fakultatywny w szkole lub na uniwersytecie",
+    "lv": "Volitelný předmět na škole nebo univerzitě",
     "level": "B2"
   },
   {
     "de": "Wahlkampf",
     "de_article": "der",
     "de_plural": "die Wahlkämpfe",
-    "lv": "Bitwa wyborcza",
+    "lv": "Volební bitva",
     "level": "B2"
   },
   {
     "de": "Wahlrecht",
     "de_article": "das",
     "de_plural": "die Wahlrechte",
-    "lv": "Prawo wyborcze",
+    "lv": "Volební právo",
     "level": "B2"
   },
   {
     "de": "Wählscheibe",
     "de_article": "die",
     "de_plural": "die Wählscheiben",
-    "lv": "Klawiatura telefonu",
+    "lv": "Číselník telefonu",
     "level": "B2"
   },
   {
     "de": "wahren",
-    "lv": "Ratować",
+    "lv": "Uložit",
     "level": "B2"
   },
   {
     "de": "wahrnehmen",
-    "lv": "Postrzegać",
+    "lv": "Vnímat",
     "level": "B2"
   },
   {
     "de": "Waisenheim",
     "de_article": "das",
     "de_plural": "die Waisenheime",
-    "lv": "Sierociniec",
+    "lv": "Sirotčinec",
     "level": "B2"
   },
   {
     "de": "Wall",
     "de_article": "der",
     "de_plural": "die Wälle",
-    "lv": "Nasyp • Nasyp",
+    "lv": "Násep • Násep",
     "level": "B2"
   },
   {
     "de": "wankelmütig",
-    "lv": "Niezdecydowany",
+    "lv": "Kolísavý",
     "level": "B2"
   },
   {
     "de": "wanken",
-    "lv": "Grillowanie • Przym. wahać się",
+    "lv": "Grilování • Adj. kolísat",
     "level": "B2"
   },
   {
     "de": "Warenausgabe",
     "de_article": "die",
     "de_plural": "die Warenausgaben",
-    "lv": "Kontrola zakupów i wydawanie",
+    "lv": "Kontrola nákupu a výdej",
     "level": "B2"
   },
   {
     "de": "Warnanlage",
     "de_article": "die",
     "de_plural": "die Warnanlagen",
-    "lv": "Urządzenie sygnalizacyjne",
+    "lv": "Signalizační zařízení",
     "level": "B2"
   },
   {
     "de": "Wartung",
     "de_article": "die",
     "de_plural": "die Wartungen",
-    "lv": "Konserwacja",
+    "lv": "Údržba",
     "level": "B2"
   },
   {
     "de": "Wasserspiegel",
     "de_article": "der",
     "de_plural": "die Wasserspiegel",
-    "lv": "Poziom wody • Powierzchnia wody",
+    "lv": "Vodní hladina • Vodní plocha",
     "level": "B2"
   },
   {
     "de": "Wasserstoff",
     "de_article": "der",
     "de_plural": "die Wasserstoffe",
-    "lv": "Wodór",
+    "lv": "Vodík",
     "level": "B2"
   },
   {
     "de": "Wasserwerfer",
     "de_article": "der",
     "de_plural": "die Wasserwerfer",
-    "lv": "Radiowóz - armatka wodna",
+    "lv": "Policejní auto - vodní dělo",
     "level": "B2"
   },
   {
     "de": "weben",
-    "lv": "Splot",
+    "lv": "Vazba",
     "level": "B2"
   },
   {
     "de": "Weber",
     "de_article": "der",
     "de_plural": "die Weber",
-    "lv": "Tkacz",
+    "lv": "Tkadlec",
     "level": "B2"
   },
   {
     "de": "Wegstrecke",
     "de_article": "die",
     "de_plural": "die Wegstrecken",
-    "lv": "Odcinek drogi • Szt",
+    "lv": "Úsek silnice • Kus",
     "level": "B2"
   },
   {
     "de": "Wegwerfware",
     "de_article": "die",
     "de_plural": "die Wegwerfwaren",
-    "lv": "Przedmiot jednorazowego użytku",
+    "lv": "Jednorázový předmět",
     "level": "B2"
   },
   {
     "de": "Wehe",
     "de_article": "die",
     "de_plural": "die Wehen",
-    "lv": "Duna • Zakúpené",
+    "lv": "Duna • Kupena",
     "level": "B2"
   },
   {
     "de": "Wehrdienst",
     "de_article": "der",
     "de_plural": "die Wehrdienste",
-    "lv": "Służba wojskowa",
+    "lv": "Vojenská služba",
     "level": "B2"
   },
   {
     "de": "Wehrpflicht",
     "de_article": "die",
-    "lv": "Stan wojenny",
+    "lv": "Stanné právo",
     "level": "B2"
   },
   {
     "de": "Weib",
     "de_article": "das",
     "de_plural": "die Weiber",
-    "lv": "Por. nie kobieta",
+    "lv": "Srov. ne žena",
     "level": "B2"
   },
   {
     "de": "Weinbau",
     "de_article": "der",
-    "lv": "Uprawa winorośli",
+    "lv": "Vinařství",
     "level": "B2"
   },
   {
     "de": "Weise",
     "de_article": "der",
     "de_plural": "die Weisen",
-    "lv": "Mądry człowiek",
+    "lv": "Moudrý muž",
     "level": "B2"
   },
   {
     "de": "weitsichtig",
-    "lv": "Dalekowzroczny",
+    "lv": "Prozíravý",
     "level": "B2"
   },
   {
     "de": "Welpe",
     "de_article": "der",
     "de_plural": "die Welpen",
-    "lv": "Szczeniak",
+    "lv": "Štěně",
     "level": "B2"
   },
   {
     "de": "Weltlage",
     "de_article": "die",
     "de_plural": "die Weltlagen",
-    "lv": "Medzinárodná situácia",
+    "lv": "Mezinárodní situaci",
     "level": "B2"
   },
   {
     "de": "Weltmacht",
     "de_article": "die",
     "de_plural": "die Weltmächte",
-    "lv": "Wielka moc",
+    "lv": "Velkou moc",
     "level": "B2"
   },
   {
     "de": "Weltraumfahrt",
     "de_article": "die",
-    "lv": "Lot kosmiczny",
+    "lv": "Vesmírný let",
     "level": "B2"
   },
   {
     "de": "Wendepunkt",
     "de_article": "der",
     "de_plural": "die Wendepunkte",
-    "lv": "Punkt zwrotny",
+    "lv": "Zlomový bod",
     "level": "B2"
   },
   {
     "de": "Werft",
     "de_article": "die",
     "de_plural": "die Werften",
-    "lv": "Stocznia",
+    "lv": "Loděnice",
     "level": "B2"
   },
   {
     "de": "Werkbank",
     "de_article": "die",
     "de_plural": "die Werkbänke",
-    "lv": "Obrabiarka",
+    "lv": "Obráběcí stroj",
     "level": "B2"
   },
   {
     "de": "Werkhalle",
     "de_article": "die",
     "de_plural": "die Werkhallen",
-    "lv": "Warsztat",
+    "lv": "Dílna",
     "level": "B2"
   },
   {
     "de": "Werkstoff",
     "de_article": "der",
     "de_plural": "die Werkstoffe",
-    "lv": "Tworzywo",
+    "lv": "Materiál",
     "level": "B2"
   },
   {
     "de": "Werktätige",
     "de_article": "der",
     "de_plural": "die Werktätigen",
-    "lv": "Ten pracujący",
+    "lv": "Ten pracovní",
     "level": "B2"
   },
   {
     "de": "Werkteil",
     "de_article": "der",
     "de_plural": "die Werkteile",
-    "lv": "Szczegół",
+    "lv": "Detail",
     "level": "B2"
   },
   {
     "de": "Wertpapier",
     "de_article": "das",
     "de_plural": "die Wertpapiere",
-    "lv": "Bezpieczeństwo",
+    "lv": "Zabezpečení",
     "level": "B2"
   },
   {
     "de": "Wesen",
     "de_article": "das",
     "de_plural": "die Wesen",
-    "lv": "Istota • Istota • Istota • Charakter",
+    "lv": "Bytost • Tvor • Podstata • Příroda",
     "level": "B2"
   },
   {
     "de": "Wettlauf",
     "de_article": "der",
     "de_plural": "die Wettläufe",
-    "lv": "Sp. wyścig pośpiechu • Pośpiech",
+    "lv": "Sp. spěchat závod • Spěchat",
     "level": "B2"
   },
   {
     "de": "Wettrennen",
     "de_article": "das",
     "de_plural": "die Wettrennen",
-    "lv": "Wyścig • Wyścig",
+    "lv": "Závod • Závod",
     "level": "B2"
   },
   {
     "de": "Wettrudern",
     "de_article": "das",
-    "lv": "Wyścig wioślarski",
+    "lv": "Veslařský závod",
     "level": "B2"
   },
   {
     "de": "Wettschwimmen",
     "de_article": "das",
-    "lv": "Wyścig pływacki",
+    "lv": "Plavecký závod",
     "level": "B2"
   },
   {
     "de": "wichsen",
-    "lv": "Polerować",
+    "lv": "Vyleštit",
     "level": "B2"
   },
   {
@@ -14047,40 +14205,40 @@ const B2_WORDS = [
   },
   {
     "de": "widerlegen",
-    "lv": "Obalić",
+    "lv": "Vyvrátit",
     "level": "B2"
   },
   {
     "de": "widerlich",
-    "lv": "Nechutné • Nechutné",
+    "lv": "Ohavný • Ohavný",
     "level": "B2"
   },
   {
     "de": "Widerrede",
     "de_article": "die",
     "de_plural": "die Widerreden",
-    "lv": "Sprzeciw",
+    "lv": "Námitka",
     "level": "B2"
   },
   {
     "de": "sich widersetzen",
-    "lv": "Oprzeć się • Twarzy",
+    "lv": "Vzdorovat • Tvářit se",
     "level": "B2",
     "study": {
       "id": "b2-sich-widersetzen",
       "layout": "minimalStudy",
-      "translation": "Oprzeć się • Twarzy",
+      "translation": "Vzdorovat • Tvářit se",
       "rektion": "+ kam?",
-      "explanation": "Sich widersetzen prasa + kam?.",
+      "explanation": "Sich widesetzen vyžaduje + pro koho?.",
       "forms": "+ kam?",
-      "formsLabel": "Kierownictwo:",
+      "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich widersetzen"
+            "Sich widesetzen"
           ],
           "red": [
-            "+ kam?"
+            "Sich"
           ]
         }
       }
@@ -14090,217 +14248,217 @@ const B2_WORDS = [
     "de": "Widmung",
     "de_article": "die",
     "de_plural": "die Widmungen",
-    "lv": "Poświęcenie",
+    "lv": "Věnování",
     "level": "B2"
   },
   {
     "de": "Wiederaufbau",
     "de_article": "der",
-    "lv": "Renowacja • Rekonstrukcja",
+    "lv": "Restaurování • Rekonstrukce",
     "level": "B2"
   },
   {
     "de": "wiedergeben",
-    "lv": "Dawać • Reprodukować • Reprodukować",
+    "lv": "Dávat • Rozmnožovat • Rozmnožovat",
     "level": "B2"
   },
   {
     "de": "wildern",
-    "lv": "Zajmować się kłusownictwem",
+    "lv": "Zapojit se do pytláctví",
     "level": "B2"
   },
   {
     "de": "Willkür",
     "de_article": "die",
-    "lv": "Arbitralny",
+    "lv": "Libovolný",
     "level": "B2"
   },
   {
     "de": "Windbeutel",
     "de_article": "der",
     "de_plural": "die Windbeutel",
-    "lv": "Ciasto z wiatrem",
+    "lv": "Větrný dort",
     "level": "B2"
   },
   {
     "de": "winden",
-    "lv": "Skręt • Skręt • Warkocz",
+    "lv": "Zkroutit • Zkroutit • Oplet",
     "level": "B2"
   },
   {
     "de": "zielbewusst",
-    "lv": "Ukierunkowane",
+    "lv": "Cílené",
     "level": "B2"
   },
   {
     "de": "Zivildienst",
     "de_article": "der",
     "de_plural": "die Zivildienste",
-    "lv": "Służba cywilna zamiast służby wojskowej",
+    "lv": "Civilní službu místo vojenské služby",
     "level": "B2"
   },
   {
     "de": "zollfrei",
-    "lv": "Wolne od ceł",
+    "lv": "Osvobozena od cel",
     "level": "B2"
   },
   {
     "de": "zollpflichtig",
-    "lv": "Podlega celom",
+    "lv": "Podléhat celnicím",
     "level": "B2"
   },
   {
     "de": "Zucht",
     "de_article": "die",
     "de_plural": "die Zuchten",
-    "lv": "Wychowanie • Hodowla",
+    "lv": "Výchova • Kultivace",
     "level": "B2"
   },
   {
     "de": "Zuckerrübe",
     "de_article": "die",
     "de_plural": "die Zuckerrüben",
-    "lv": "Burak cukrowy",
+    "lv": "Cukrovka",
     "level": "B2"
   },
   {
     "de": "zuerkennen",
-    "lv": "Zamówić • Przypisać",
+    "lv": "Objednat • Přidělit",
     "level": "B2"
   },
   {
     "de": "Zuflucht",
     "de_article": "die",
-    "lv": "Schronienie",
+    "lv": "Útočiště",
     "level": "B2"
   },
   {
     "de": "Zufluss",
     "de_article": "der",
     "de_plural": "die Zuflüsse",
-    "lv": "Dopływ",
+    "lv": "Přítok",
     "level": "B2"
   },
   {
     "de": "zureden",
-    "lv": "Namówić",
+    "lv": "Přesvědčit",
     "level": "B2"
   },
   {
     "de": "zürnen",
-    "lv": "Złościć się",
+    "lv": "Vztekat se",
     "level": "B2"
   },
   {
     "de": "zurückprallen",
-    "lv": "Odbić się",
+    "lv": "Odrazit se",
     "level": "B2"
   },
   {
     "de": "zurückweisen",
-    "lv": "Odrzucić",
+    "lv": "Odmítnout",
     "level": "B2"
   },
   {
     "de": "Zusage",
     "de_article": "die",
     "de_plural": "die Zusagen",
-    "lv": "Przyjemna odpowiedź",
+    "lv": "Přijatelná odpověď",
     "level": "B2"
   },
   {
     "de": "zusammenfügen",
-    "lv": "Połączyć",
+    "lv": "Připojit se",
     "level": "B2"
   },
   {
     "de": "zusammenlegen",
-    "lv": "Złożyć · złożyć [razem]",
+    "lv": "Dát • Dát [dohromady]",
     "level": "B2"
   },
   {
     "de": "zuschneiden",
-    "lv": "Vystrihnúť",
+    "lv": "Řezat",
     "level": "B2"
   },
   {
     "de": "zuströmen",
-    "lv": "Wpływa",
+    "lv": "Proudí dovnitř",
     "level": "B2"
   },
   {
     "de": "zuteilen",
-    "lv": "Przypisać • Przypisać",
+    "lv": "Přiřadit • Přidělit",
     "level": "B2"
   },
   {
     "de": "zutrauen",
-    "lv": "Oczekiwać • Myśleć, że jestem w stanie",
+    "lv": "Očekávat • Myslet schopný",
     "level": "B2"
   },
   {
     "de": "Zuversicht",
     "de_article": "die",
     "de_plural": "die Zuversichten",
-    "lv": "Poleganie",
+    "lv": "Důvěra",
     "level": "B2"
   },
   {
     "de": "Zuwachs",
     "de_article": "der",
     "de_plural": "die Zuwächse",
-    "lv": "Zwiększyć",
+    "lv": "Zvýšení",
     "level": "B2"
   },
   {
     "de": "zuweisen",
-    "lv": "Przypisać • Przypisać",
+    "lv": "Přiřadit • Přidělit",
     "level": "B2",
     "study": {
       "id": "b2-zuweisen",
       "layout": "standardStudy",
-      "translation": "Przypisać • Przypisać",
-      "explanation": "Główna idea: zuweisen oznacza oficjalne przypisanie lub przypisanie zadania, roli, zasobu lub pieniędzy określonej osobie lub działowi. Podzielne: weise... zu.",
+      "translation": "Přiřadit • Přidělit",
+      "explanation": "Hlavní myšlenka: zuweisen znamená oficiálně přidělit nebo přidělit – úkol, roli, zdroj nebo peníze konkrétní osobě nebo oddělení. Dělitelné: weise ... zu.",
       "examples": [
         {
           "de": "Der Chef weist ihm eine neue Aufgabe zu.",
-          "lv": "Szef daje mu nowe zadanie."
+          "lv": "Šéf mu zadá nový úkol."
         },
         {
           "de": "Die Mittel wurden dem Projekt zugewiesen.",
-          "lv": "Na projekt przeznaczono środki."
+          "lv": "Byly na projekt přiděleny finanční prostředky."
         },
         {
           "de": "Sie wurde einer anderen Abteilung zugewiesen.",
-          "lv": "Został przydzielony do innego działu."
+          "lv": "Byl přidělen na jiné oddělení."
         }
       ],
       "comparison": [
         {
           "word": "zuweisen",
-          "meaning": "Przypisać • Przypisać",
-          "example": "Er weist die Aufgabe zu. = On przydziela zadanie."
+          "meaning": "Přiřadit • Přidělit",
+          "example": "Er weist die Aufgabe zu. = Zadá úkol."
         },
         {
           "word": "geben",
-          "meaning": "Dávať",
-          "example": "Er gibt mir die Arbeit. = Daje mi pracę."
+          "meaning": "Dát",
+          "example": "Er gibt mir die Arbeit. = Dává mi práci."
         },
         {
           "word": "verteilen",
-          "meaning": "Podzielić",
-          "example": "Er verteilt die Aufgaben. = On dzieli zadania."
+          "meaning": "Rozdělit",
+          "example": "Er verteilt die Aufgaben. = Rozdělí úkoly."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Zuweisen kładzie nacisk na przydział formalny – w pracy, administracji, projektach."
+            "text": "Zuweisen klade důraz na formální zadání – v práci, administrativě, projektech."
           }
         ]
       },
       "important": {
-        "text": "Zuweisen = przypisywać lub przypisywać oficjalnie. Idealny: przydzielony. Podzielne: weise... zu."
+        "text": "Zuweisen = přidělit nebo přidělit úředně. Perfektní: zadaný. Dělitelné: weise ... zu."
       },
       "sectionAccents": {
         "explanation": {
@@ -14310,7 +14468,8 @@ const B2_WORDS = [
             "zu"
           ],
           "purple": [
-            "przypisanie"
+            "Hlavní",
+            "Hlavní"
           ]
         },
         "examples": [
@@ -14321,7 +14480,11 @@ const B2_WORDS = [
                 "zu"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Šéf"
+              ]
+            }
           },
           {
             "de": {
@@ -14329,7 +14492,11 @@ const B2_WORDS = [
                 "zugewiesen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Byly"
+              ]
+            }
           },
           {
             "de": {
@@ -14337,7 +14504,11 @@ const B2_WORDS = [
                 "zugewiesen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Byl"
+              ]
+            }
           }
         ]
       }
@@ -14347,68 +14518,72 @@ const B2_WORDS = [
     "de": "Zuwendung",
     "de_article": "die",
     "de_plural": "die Zuwendungen",
-    "lv": "Dodatek",
+    "lv": "Příspěvek",
     "level": "B2"
   },
   {
     "de": "zuwider",
-    "lv": "Przeciw • Wbrew • Niechęci",
+    "lv": "Proti • V rozporu s • Nechuť",
     "level": "B2",
     "study": {
       "id": "b2-zuwider",
       "layout": "standardStudy",
-      "translation": "Przeciw • Wbrew • Niechęci",
-      "explanation": "Główna idea: zuwider to słowo o wielu funkcjach. Jako przyimek + celownik oznacza „przeciw, przeciw”: mir zuwider. Część wyrażenia jemandem zuwider sein/laufen oznacza „nie lubić kogoś, stać się nieprzyjemnym”. Nie mylić z szerszym (przeciwko) .",
+      "translation": "Proti • V rozporu s • Nechuť",
+      "explanation": "Hlavní myšlenka: zuwider je slovo s více funkcemi. Jako předložka + dativ znamená „proti, proti“: mir zuwider. V rámci výrazu jemandem zuwider sein/laufen znamená „nemít někoho rád, být nepříjemný“. Nezaměňovat s širším (proti).",
       "examples": [
         {
           "de": "Er handelte mir zuwider.",
-          "lv": "Działał wbrew mojej woli."
+          "lv": "Jednal proti mé vůli."
         },
         {
           "de": "Sein Benehmen ist mir zuwider.",
-          "lv": "Nie podoba mi się jego zachowanie."
+          "lv": "Jeho chování se mi nelíbí."
         },
         {
           "de": "Das läuft mir zuwider.",
-          "lv": "Nie podoba mi się to/smutno mi."
+          "lv": "Nelíbí se mi to / je mi z toho smutno."
         }
       ],
       "comparison": [
         {
           "word": "zuwider (+ Dat.)",
-          "meaning": "Przeciw • Przeciwnie",
-          "example": "Mir zuwider = Wbrew mojej woli"
+          "meaning": "Proti • Opak",
+          "example": "mir zuwider = Proti mé vůli"
         },
         {
           "word": "jemandem zuwider sein",
-          "meaning": "Komuś się to nie spodoba",
-          "example": "Jestem mir zuwider. = Nie podoba mi się to."
+          "meaning": "Někomu se to nebude líbit",
+          "example": "Es ist mir zuwider. = Nelíbí se mi to."
         },
         {
           "word": "wider",
-          "meaning": "Przeciw (przyimek)",
-          "example": "Szersze den Willen = Wbrew woli"
+          "meaning": "Proti (předložka)",
+          "example": "wider den Willen = Proti vůli"
         },
         {
           "word": "widersprechen",
-          "meaning": "Sprzeciwiać się • Nie zgadzać się",
-          "example": "Ich szersze informacje. = Sprzeciwiam się."
+          "meaning": "Odporovat • Nesouhlasit",
+          "example": "Ich widerspreche. = Namítám."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Znaczenie podstawowe: przeciw / przeciw (mir zuwider). Idiomatycznie: jemandem zuwider sein/laufen = nie lubić kogoś."
+            "text": "Základní význam: proti / proti (mir zuwider). Idiomaticky: jemandem zuwider sein/laufen = nemít někoho rád."
           }
         ]
       },
       "important": {
-        "text": "Zuwider + celownik = przeciw, przeciwny. zuwider sein = niechęć. To nie to samo, co szersze."
+        "text": "Zuwider + dativ = proti, protiklad. zuwider sein = nechuť. Není to stejné jako širší."
       },
       "sectionAccents": {
         "explanation": {
           "blue": [
             "zuwider"
+          ],
+          "purple": [
+            "Hlavní",
+            "Hlavní"
           ],
           "green": [
             "wider"
@@ -14421,7 +14596,11 @@ const B2_WORDS = [
                 "zuwider"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Jednal"
+              ]
+            }
           },
           {
             "de": {
@@ -14429,7 +14608,11 @@ const B2_WORDS = [
                 "zuwider"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Jeho"
+              ]
+            }
           },
           {
             "de": {
@@ -14437,7 +14620,11 @@ const B2_WORDS = [
                 "zuwider"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Nelíbí"
+              ]
+            }
           }
         ]
       }
@@ -14445,141 +14632,172 @@ const B2_WORDS = [
   },
   {
     "de": "zwanglos",
-    "lv": "Wolny • Niewymuszony",
+    "lv": "Volný • Nenucený",
     "level": "B2"
   },
   {
     "de": "zweckmäßig",
-    "lv": "Korzystny",
+    "lv": "Výhodný",
     "level": "B2"
   },
   {
     "de": "zweifellos",
-    "lv": "Niewątpliwy",
+    "lv": "Nezpochybnitelný",
     "level": "B2"
   },
   {
     "de": "Zwielicht",
     "de_article": "das",
-    "lv": "Šero",
+    "lv": "Soumrak",
     "level": "B2"
   },
   {
     "de": "Zwirn",
     "de_article": "der",
     "de_plural": "die Zwirne",
-    "lv": "Niť",
+    "lv": "Vlákno",
     "level": "B2"
   },
   {
     "de": "Zwischenfall",
     "de_article": "der",
     "de_plural": "die Zwischenfälle",
-    "lv": "Incydent",
+    "lv": "Incident",
     "level": "B2"
   },
   {
     "de": "Zwischenraum",
     "de_article": "der",
     "de_plural": "die Zwischenräume",
-    "lv": "Przestrzeń • Przestrzeń międzyprzestrzenna",
+    "lv": "Prostor • Meziprostor",
     "level": "B2"
   },
   {
     "de": "ändern",
-    "lv": "Zmienić • Poprawić",
+    "lv": "Změnit • Opravit",
     "level": "B2",
     "study": {
       "id": "b2-aendern",
       "layout": "standardStudy",
-      "translation": "Zmienić • Poprawić",
+      "translation": "Změnit • Opravit",
       "explanation": [
-        "Główna idea: zmienić konkretną rzecz lub informację – plan, termin, adres, decyzję.",
-        "Ändern w zasadzie oznacza: naprawić lub zmienić część.",
-        "Często opisuje: konkretną rzecz.",
-        "Ändern jest używane przy zmianie planu, terminu, adresu lub jakiegoś szczegółu."
+        "Hlavní myšlenka: Změnit konkrétní věc nebo informaci – plán, termín, adresu, rozhodnutí.",
+        "Ändern v podstatě znamená: opravit nebo změnit součást.",
+        "Často popisuje: konkrétní věc.",
+        "Ändern se používá při změně plánu, termínu, adresy nebo nějakého detailu."
       ],
       "examples": [
         {
           "de": "Ich ändere den Termin.",
-          "lv": "Zmieniam termin."
+          "lv": "Měním termín."
         },
         {
           "de": "Kannst du die Adresse ändern?",
-          "lv": "Czy możesz zmienić adres?"
+          "lv": "Můžete změnit adresu?"
         },
         {
           "de": "Wir ändern unseren Plan.",
-          "lv": "Zmieniamy nasz plan."
+          "lv": "Měníme náš plán."
         },
         {
           "de": "Ich ändere den Termin.",
-          "lv": "Zmieniam termin."
+          "lv": "Měním termín."
         },
         {
           "de": "ändern",
-          "lv": "Zmienić część • Wechseln"
+          "lv": "Vyměnit díl • Wechseln"
         }
       ],
       "tip": [
-        "Zmeniť konkrétny prípad alebo informáciu – plán, dátum, adresu, rozhodnutie.",
-        "Użyj ändern, gdy kontekst pasuje do tego znaczenia."
+        "Změňte konkrétní věc nebo informaci – plán, termín, adresu, rozhodnutí.",
+        "Použijte ändern, pokud kontext odpovídá tomuto významu."
       ],
       "important": [
-        "Ändern = zmeniť konkrétnu vec (dátum, adresu, plán).",
-        "Plan, termin, adres: ändern.",
-        "Zmeniť konkrétny prípad alebo informáciu – plán, dátum, adresu, rozhodnutie."
+        "Ändern = změnit konkrétní věc (Termín, Adresa, Plán).",
+        "Plán, termín, adresa: ändern.",
+        "Změňte konkrétní věc nebo informaci – plán, termín, adresu, rozhodnutí."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "ändern"
+          ],
+          "purple": [
+            "Hlavní",
+            "Hlavní"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "ändere"
+                "ände"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Měním"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
+                "ändern",
                 "ändern"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Můžete"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
+                "ändern",
                 "ändern"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Měníme"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
-                "ändere"
+                "ände"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Měním"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
+                "ändern",
                 "ändern"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Vyměnit"
+              ]
+            }
           }
         ],
         "tip": [
-          {},
+          {
+            "purple": [
+              "Změňte"
+            ]
+          },
           {}
         ],
         "important": [
@@ -14594,49 +14812,53 @@ const B2_WORDS = [
   },
   {
     "de": "wechseln",
-    "lv": "Wymienić • Wymienić",
+    "lv": "Vyměnit • Vyměnit",
     "level": "B2",
     "study": {
       "id": "b2-wechseln",
       "layout": "standardStudy",
-      "translation": "Wymienić • Wymienić",
+      "translation": "Vyměnit • Vyměnit",
       "explanation": [
-        "Główna idea: Wymienić lub wymienić coś na coś innego – pieniądze, ubrania, pracę, szkołę, przedmiot.",
-        "Wechseln w zasadzie oznacza: zastąpić innym.",
-        "Często charakteryzuje się: wymianą/wymianą.",
-        "Wechseln stosuje się, gdy coś ulega zmianie lub wymianie na coś innego — pieniądze, ubrania, pracę, szkołę lub przedmiot."
+        "Hlavní myšlenka: Vyměnit nebo vyměnit něco za něco jiného – peníze, oblečení, práci, školu, předmět.",
+        "Wechseln v podstatě znamená: nahradit jiným.",
+        "Často charakterizováno: výměna / výměna.",
+        "Wechseln se používá, když něco měníte nebo měníte za něco jiného – peníze, oblečení, práci, školu nebo předmět."
       ],
       "examples": [
         {
           "de": "Ich wechsle die Schule.",
-          "lv": "Zmieniam szkołę."
+          "lv": "Měním školu."
         },
         {
           "de": "Ich muss Geld wechseln.",
-          "lv": "Muszę wymienić pieniądze."
+          "lv": "Potřebuji vyměnit peníze."
         },
         {
           "de": "Wir wechseln das Thema.",
-          "lv": "Zmieniamy temat."
+          "lv": "Změníme téma."
         },
         {
           "de": "Ich wechsle die Schule.",
-          "lv": "Zmieniam szkołę."
+          "lv": "Měním školu."
         }
       ],
       "tip": [
-        "Wymienić lub wymienić coś na coś innego - pieniądze, ubrania, pracę, szkołę, przedmiot.",
-        "Użyj wechseln, gdy kontekst pasuje do tego znaczenia."
+        "Vyměnit nebo vyměnit něco za něco jiného – peníze, oblečení, práci, školu, předmět.",
+        "Použijte wechseln, pokud kontext odpovídá tomuto významu."
       ],
       "important": [
-        "Wechseln = wymieniać lub wymieniać na inny (Geld, Schule, Thema).",
-        "Pieniądze, szkoła, praca, temat: wechseln.",
-        "Wymienić lub wymienić coś na coś innego - pieniądze, ubrania, pracę, szkołę, przedmiot."
+        "Wechseln = vyměnit nebo vyměnit za jiné (Geld, Schule, Thema).",
+        "Peníze, škola, práce, téma: wechseln.",
+        "Vyměnit nebo vyměnit něco za něco jiného – peníze, oblečení, práci, školu, předmět."
       ],
       "sectionAccents": {
         "explanation": {
           "green": [
             "wechseln"
+          ],
+          "purple": [
+            "Hlavní",
+            "Hlavní"
           ]
         },
         "examples": [
@@ -14651,6 +14873,7 @@ const B2_WORDS = [
           {
             "de": {
               "green": [
+                "wechseln",
                 "wechseln"
               ]
             },
@@ -14659,6 +14882,7 @@ const B2_WORDS = [
           {
             "de": {
               "green": [
+                "wechseln",
                 "wechseln"
               ]
             },
@@ -14674,8 +14898,16 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "purple": [
+              "Vyměnit"
+            ]
+          },
+          {
+            "purple": [
+              "Vyměnit"
+            ]
+          }
         ],
         "important": [
           {
@@ -14689,77 +14921,102 @@ const B2_WORDS = [
   },
   {
     "de": "bieten",
-    "lv": "Oferować • Zapewniać",
+    "lv": "Nabídnout • Poskytnout",
     "level": "B2",
     "study": {
       "id": "b2-bieten",
       "layout": "standardStudy",
-      "translation": "Oferować • Zapewniać",
+      "translation": "Nabídnout • Poskytnout",
       "explanation": [
-        "Główna idea: oferuj możliwości, kursy, usługi lub korzyści — jakie zapewnia miejsce lub program.",
-        "Bieten oznacza głównie: dawać szansę / korzyść.",
-        "Często opisuje: co zapewnia dane miejsce/program.",
-        "Bieten oznacza głównie: zapewnienie możliwości.",
-        "Często charakteryzuje się: bardziej formalnym.",
-        "Bieten często opisuje, co zapewnia miejsce, program lub usługa (Die Schule bietet viele Kurse)."
+        "Hlavní myšlenka: Nabídněte příležitosti, kurzy, služby nebo výhody – které místo nebo program poskytuje.",
+        "Bieten znamená hlavně: dát příležitost / prospěch.",
+        "Často popisuje: co místo/program poskytuje.",
+        "Bieten znamená hlavně: poskytnout příležitost.",
+        "Často charakterizováno: formálnější.",
+        "Bieten často popisuje, co místo, program nebo služba poskytuje (Die Schule bietet viele Kurse)."
       ],
       "examples": [
         {
           "de": "Die Schule bietet viele Kurse.",
-          "lv": "Szkoła oferuje wiele kursów."
+          "lv": "Škola nabízí mnoho kurzů."
         },
         {
           "de": "Darf ich Ihnen etwas anbieten?",
-          "lv": "Czy mogę ci coś zaoferować?"
+          "lv": "Mohu vám něco nabídnout?"
         },
         {
           "de": "Die Schule bietet viele Kurse.",
-          "lv": "Szkoła oferuje wiele kursów."
+          "lv": "Škola nabízí mnoho kurzů."
         },
         {
           "de": "Die App bietet Sicherheit.",
-          "lv": "Aplikacja zapewnia bezpieczeństwo."
+          "lv": "Aplikace poskytuje zabezpečení."
         },
         {
           "de": "bieten",
-          "lv": "Co coś zapewnia • Anbieten"
+          "lv": "Co něco poskytuje • Anbieten"
         }
       ],
       "tip": [
-        "Oferuj możliwości, kursy, usługi lub korzyści — jakie zapewnia lokalizacja lub program.",
-        "Użyj buraków, gdy kontekst pasuje do tego znaczenia."
+        "Nabídněte příležitosti, kurzy, služby nebo výhody – které místo nebo program poskytuje.",
+        "Použijte řepu, když kontext odpovídá tomuto významu."
       ],
       "important": [
-        "Bieten: Die Schule bietet Kurse. (niepodzielny)",
-        "Co zapewnia miejsce/program: Buraki."
+        "Bieten: Die Schule bietet Kurse. (nedělitelný)",
+        "Co místo/program poskytuje: Červená řepa."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "bieten"
+          ],
+          "purple": [
+            "Hlavní",
+            "Hlavní"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "bietet"
+                "biete"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Škola"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
+                "bieten",
                 "bieten"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Mohu"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
-                "bietet"
+                "biete"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Škola"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "biete"
               ]
             },
             "lv": {}
@@ -14767,23 +15024,28 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "bietet"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
+                "bieten",
                 "bieten"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "něco"
+              ]
+            }
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "purple": [
+              "Nabídněte"
+            ]
+          },
+          {
+            "purple": [
+              "Nabídněte"
+            ]
+          }
         ],
         "important": [
           {
@@ -14797,53 +15059,53 @@ const B2_WORDS = [
   },
   {
     "de": "anbieten",
-    "lv": "Zaoferować",
+    "lv": "Nabídnout",
     "level": "B2",
     "study": {
       "id": "b2-anbieten",
       "layout": "standardStudy",
-      "translation": "Zaoferować",
-      "explanation": "Główna idea: anbieten oznacza aktywne oferowanie komuś przysługi, napoju, pracy lub usługi. Czasownik rozłączny: ich biete an, er bietet an. Podkreśla inicjatywę ze strony oferenta.",
+      "translation": "Nabídnout",
+      "explanation": "Hlavní myšlenka: anbieten znamená aktivně někomu nabídnout laskavost, drink, práci nebo službu. Rozdělitelné sloveso: ich biete an, er bietet an. Zdůrazňuje iniciativu ze strany nabízejícího.",
       "examples": [
         {
           "de": "Ich biete dir meine Hilfe an.",
-          "lv": "Ponúkam vám svoju pomoc."
+          "lv": "Nabízím vám svou pomoc."
         },
         {
           "de": "Darf ich Ihnen etwas anbieten?",
-          "lv": "Czy mogę ci coś zaoferować?"
+          "lv": "Mohu vám něco nabídnout?"
         },
         {
           "de": "Das Unternehmen bietet neue Stellen an.",
-          "lv": "Firma oferuje nowe miejsca pracy."
+          "lv": "Společnost nabízí nová pracovní místa."
         }
       ],
       "comparison": [
         {
           "word": "anbieten",
-          "meaning": "Oferta (aktywna)",
-          "example": "Ich burak Hilfe an. = Oferuję pomoc."
+          "meaning": "Nabídka (aktivní)",
+          "example": "Ich biete Hilfe an. = Nabízím pomoc."
         },
         {
           "word": "bieten",
-          "meaning": "Oferować • Dawać",
-          "example": "Er bietet viel Geld. = Oferuje dużo pieniędzy."
+          "meaning": "Nabídnout • Dát",
+          "example": "Er bietet viel Geld. = Nabízí spoustu peněz."
         },
         {
           "word": "vorschlagen",
-          "meaning": "Zaproponować",
-          "example": "Ich schlage vor. = Proponuję."
+          "meaning": "Navrhnout",
+          "example": "Ich schlage vor. = Navrhuji."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Anbieten podkreśla, że ​​ktoś aktywnie oferuje coś konkretnej osobie: Ich biete dir… an."
+            "text": "Anbieten zdůrazňuje, že někdo něco aktivně nabízí konkrétní osobě: Ich biete dir ... an."
           }
         ]
       },
       "important": {
-        "text": "Anbieten = aktywnie oferować. Podzielne: burak ... an. Idealny: angeboten."
+        "text": "Anbieten = nabízet aktivně. Dělitelné: řepa ... an. Perfektní: angeboten."
       },
       "sectionAccents": {
         "explanation": {
@@ -14851,6 +15113,9 @@ const B2_WORDS = [
             "anbieten",
             "biete",
             "an"
+          ],
+          "purple": [
+            "Hlavní"
           ]
         },
         "examples": [
@@ -14861,7 +15126,11 @@ const B2_WORDS = [
                 "an"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Nabízím"
+              ]
+            }
           },
           {
             "de": {
@@ -14869,7 +15138,11 @@ const B2_WORDS = [
                 "anbieten"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Mohu"
+              ]
+            }
           },
           {
             "de": {
@@ -14878,7 +15151,11 @@ const B2_WORDS = [
                 "an"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Společnost"
+              ]
+            }
           }
         ]
       }
@@ -14886,50 +15163,50 @@ const B2_WORDS = [
   },
   {
     "de": "fordern",
-    "lv": "Wymagać • Wymagać",
+    "lv": "Vyžadovat • Vyžadovat",
     "level": "B2",
     "study": {
       "id": "b2-fordern",
       "layout": "standardStudy",
-      "translation": "Wymagać • Wymagać",
+      "translation": "Vyžadovat • Vyžadovat",
       "explanation": [
-        "Główna idea: Prośba o pieniądze, prawa, zmiany lub obowiązki — aktywne żądanie.",
-        "Fordern oznacza głównie: wymagać / wymagać.",
-        "Często charakteryzuje się: aktywnym popytem.",
-        "Fordern oznacza głównie: żądać standardu.",
-        "Często charakteryzuje się: formalnością.",
-        "Fordern używamy, gdy ktoś prosi o pieniądze, prawa, drobne lub zobowiązania (Sie fordern mehr Geld)."
+        "Hlavní myšlenka: Žádost o peníze, práva, změny nebo povinnosti – aktivní poptávka.",
+        "Fordern znamená hlavně: vyžadovat / vyžadovat.",
+        "Často se vyznačuje: aktivní poptávkou.",
+        "Fordern znamená hlavně: požadovat standard.",
+        "Často charakterizováno: formální.",
+        "Fordern se používá, když někdo žádá o peníze, práva, změnu nebo závazek (Sie fordern mehr Geld)."
       ],
       "examples": [
         {
           "de": "Sie fordert mehr Geld.",
-          "lv": "Prosi o więcej pieniędzy."
+          "lv": "Žádá více peněz."
         },
         {
           "de": "Wir fordern mehr Transparenz.",
-          "lv": "Požadujeme väčšiu transparentnosť."
+          "lv": "Požadujeme větší transparentnost."
         },
         {
           "de": "Sie fordert mehr Geld.",
-          "lv": "Prosi o więcej pieniędzy."
+          "lv": "Žádá o další peníze."
         },
         {
           "de": "Wir fordern mehr Sicherheit.",
-          "lv": "Żądamy większego bezpieczeństwa."
+          "lv": "Požadujeme větší bezpečnost."
         },
         {
           "de": "fordern",
-          "lv": "Żądać • Förden"
+          "lv": "Požadovat • Forden"
         }
       ],
       "tip": [
-        "Żądaj pieniędzy, praw, zmian lub obowiązków – roszczenie aktywne.",
-        "Używane przez forder, gdy kontekst pasuje do tego znaczenia."
+        "Vyžadovat peníze, práva, změny nebo povinnosti - aktivní pohledávka.",
+        "Používá jej fordern, pokud kontext odpovídá tomuto významu."
       ],
       "important": [
-        "Fordern = żądaj / wymagaj (bez ö).",
-        "Zapotrzebowanie, żądanie: fordern (bez ö).",
-        "Żądaj pieniędzy, praw, zmian lub obowiązków – roszczenie aktywne."
+        "Fordern = poptávka / požadavek (bez ö).",
+        "Poptávka, poptávka: fordern (bez ö).",
+        "Vyžadovat peníze, práva, změny nebo povinnosti - aktivní pohledávka."
       ],
       "sectionAccents": {
         "explanation": {
@@ -14937,61 +15214,84 @@ const B2_WORDS = [
             "fordern"
           ],
           "purple": [
-            "pieniądze",
-            "prawa"
+            "Hlavní",
+            "Hlavní"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "fordert"
+                "forde"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Žádá"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
+                "fordern",
                 "fordern"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Požadujeme"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
-                "fordert"
+                "forde"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Žádá"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
+                "fordern",
                 "fordern"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Požadujeme"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
+                "fordern",
                 "fordern"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Požadovat"
+              ]
+            }
           }
         ],
         "tip": [
           {
             "purple": [
-              "pieniędzy"
+              "Vyžadovat"
             ]
           },
           {
             "purple": [
-              "praw"
+              "Vyžadovat"
             ]
           }
         ],
@@ -15007,48 +15307,48 @@ const B2_WORDS = [
   },
   {
     "de": "fördern",
-    "lv": "Promować • Wspierać",
+    "lv": "Podporovat • Podporovat",
     "level": "B2",
     "study": {
       "id": "b2-foerdern",
       "layout": "standardStudy",
-      "translation": "Promować • Wspierać",
+      "translation": "Podporovat • Podporovat",
       "explanation": [
-        "Hlavná myšlienka: Podporovať rozvoj, podporovať osobu, projekt alebo proces.",
-        "Fördern oznacza przede wszystkim: promowanie rozwoju.",
-        "Często charakteryzuje się: wsparciem/postępem.",
-        "Fördern oznacza głównie: wydobywanie minerałów.",
-        "Często charakteryzuje się: w przemyśle.",
-        "Fördern znamená predovšetkým: rozvíjanie talentov.",
-        "Często charakteryzuje się: w edukacji.",
-        "Fördern oznacza promowanie rozwoju, wspieranie osoby lub projektu (Sport fördern die Gesundheit)."
+        "Hlavní myšlenka: Propagujte rozvoj, podporujte osobu, projekt nebo proces.",
+        "Fördern znamená především: podporovat rozvoj.",
+        "Často charakterizováno: podporou / pokrokem.",
+        "Fördern znamená hlavně: těžit nerosty.",
+        "Často charakterizováno: v průmyslu.",
+        "Fördern znamená především: rozvíjet talent.",
+        "Často charakterizováno: ve vzdělávání.",
+        "Fördern znamená podporovat rozvoj, podporovat osobu nebo projekt (Sport fördern die Gesundheit)."
       ],
       "examples": [
         {
           "de": "Sport fördert die Gesundheit.",
-          "lv": "Sport promuje zdrowie."
+          "lv": "Sport podporuje zdraví."
         },
         {
           "de": "Sport fördert die Gesundheit.",
-          "lv": "Sport sprzyja zdrowiu."
+          "lv": "Sport podporuje zdraví."
         },
         {
           "de": "In der Region wird Öl gefördert.",
-          "lv": "W regionie wydobywa się ropę naftową."
+          "lv": "V regionu se těží ropa."
         },
         {
           "de": "Die Schule fördert begabte Kinder.",
-          "lv": "Szkoła wspiera dzieci uzdolnione."
+          "lv": "Škola podporuje nadané děti."
         }
       ],
       "tip": [
-        "Promuj rozwój, wspieraj osobę, projekt lub proces.",
-        "Użyj förden, gdy kontekst pasuje do tego znaczenia."
+        "Propagujte rozvoj, podporujte osobu, projekt nebo proces.",
+        "Použijte förden, pokud kontext odpovídá tomuto významu."
       ],
       "important": [
-        "Förden = promuj / wspieraj (z ö).",
-        "Promocja, wsparcie: förden (z ö).",
-        "Promuj rozwój, wspieraj osobę, projekt lub proces."
+        "Förden = podporovat / podporovat (s ö).",
+        "Propagace, podpora: förden (s ö).",
+        "Propagujte rozvoj, podporujte osobu, projekt nebo proces."
       ],
       "sectionAccents": {
         "explanation": {
@@ -15056,26 +15356,34 @@ const B2_WORDS = [
             "fördern"
           ],
           "purple": [
-            "Hlavná",
-            "wspieranie"
+            "Hlavní",
+            "Hlavní"
           ]
         },
         "examples": [
           {
             "de": {
               "green": [
-                "fördert"
+                "förde"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Sport"
+              ]
+            }
           },
           {
             "de": {
               "green": [
-                "fördert"
+                "förde"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Sport"
+              ]
+            }
           },
           {
             "de": {
@@ -15088,15 +15396,27 @@ const B2_WORDS = [
           {
             "de": {
               "green": [
-                "fördert"
+                "förde"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Škola"
+              ]
+            }
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "purple": [
+              "Propagujte"
+            ]
+          },
+          {
+            "purple": [
+              "Propagujte"
+            ]
+          }
         ],
         "important": [
           {
@@ -15110,17 +15430,20 @@ const B2_WORDS = [
   },
   {
     "de": "sich verlaufen",
-    "lv": "Spadaj",
+    "lv": "Zmizte",
     "level": "B2",
     "study": {
       "id": "b2-sich-verlaufen",
       "layout": "minimalStudy",
-      "translation": "Spadaj",
-      "explanation": "Sich verlaufen oznacza zgubić się. Nie ma stałego przyimka. Nie mylić z verlaufenem.",
+      "translation": "Zmizte",
+      "explanation": "Sich verlaufen znamená ztratit se. Nemá pevnou předložku. Nesmí být zaměňována s verlaufenem.",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich verlaufen"
+          ],
+          "purple": [
+            "Sich"
           ],
           "red": [
             "verlaufen"
@@ -15131,17 +15454,21 @@ const B2_WORDS = [
   },
   {
     "de": "verlaufen",
-    "lv": "Kontynuować • Rzucić",
+    "lv": "Postupovat • Valit",
     "level": "B2",
     "study": {
       "id": "b2-verlaufen",
       "layout": "minimalStudy",
-      "translation": "Kontynuować • Rzucić",
-      "explanation": "Verlaufen (bez sich) oznacza bieganie lub tarzanie się. Nie jest synonimem sich verlaufen (zgubić się).",
+      "translation": "Postupovat • Valit",
+      "explanation": "Verlaufen (bez sich) znamená běžet nebo válet. Není synonymem pro sich verlaufen (ztratit se).",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "verlaufen"
+          ],
+          "purple": [
+            "Verlaufen",
+            "Verlaufen"
           ],
           "red": [
             "sich verlaufen"

@@ -1,242 +1,242 @@
 const SENTENCE_ENTRIES = [
   {
     "de": "Hüte dich davor!",
-    "lv": "Uważaj na to!",
+    "lv": "Pozor na to!",
     "level": "Sätze"
   },
   {
     "de": "Wenn nichts dazwischenkommt.",
-    "lv": "Jeśli nic nie przeszkadza. • Jeśli wszystko pójdzie zgodnie z planem.",
+    "lv": "Pokud nic nepřekáží. • Pokud vše půjde podle plánu.",
     "level": "Sätze"
   },
   {
     "de": "Das kann ich mir denken!",
-    "lv": "Wiem to!",
+    "lv": "Já to vím!",
     "level": "Sätze"
   },
   {
     "de": "Ist er denn krank?",
-    "lv": "Czy jest wtedy chory?",
+    "lv": "Je pak nemocný?",
     "level": "Sätze"
   },
   {
     "de": "Was denn?",
-    "lv": "Co wtedy?",
+    "lv": "Co potom?",
     "level": "Sätze"
   },
   {
     "de": "Desto mehr.",
-    "lv": "Tym bardziej.",
+    "lv": "Čím více.",
     "level": "Sätze"
   },
   {
     "de": "Je mehr, desto besser.",
-    "lv": "Im więcej, tym lepiej.",
+    "lv": "Čím více, tím lépe.",
     "level": "Sätze"
   },
   {
     "de": "Alles deutet auf Regen.",
-    "lv": "Wszystko wskazuje na sprawę.",
+    "lv": "Vše ukazuje na případ.",
     "level": "Sätze"
   },
   {
     "de": "Damit ist mir wenig gedient.",
-    "lv": "Nedáva mi to veľký zmysel.",
+    "lv": "Nedává mi to smysl.",
     "level": "Sätze"
   },
   {
     "de": "Er ist dienstlich verhindert.",
-    "lv": "Nie może przyjechać ze względu na pracę.",
+    "lv": "Nemůže přijít kvůli práci.",
     "level": "Sätze"
   },
   {
     "de": "Sprechen Sie doch!",
-    "lv": "Mówić głośno!",
+    "lv": "Mluvte!",
     "level": "Sätze"
   },
   {
     "de": "Es donnert.",
-    "lv": "Ryczy grzmot.",
+    "lv": "Hrom burácí.",
     "level": "Sätze"
   },
   {
     "de": "Doppelt so groß.",
-    "lv": "Dwa razy większy.",
+    "lv": "Dvakrát větší.",
     "level": "Sätze"
   },
   {
     "de": "Von dort.",
-    "lv": "Stamtąd.",
+    "lv": "Odtamtud.",
     "level": "Sätze"
   },
   {
     "de": "Die Zeit drängt.",
-    "lv": "Czas ucieka.",
+    "lv": "Čas běží.",
     "level": "Sätze"
   },
   {
     "de": "Ihn drücken Sorgen.",
-    "lv": "Jest przytłoczony niepokojem.",
+    "lv": "Je přemožen starostí.",
     "level": "Sätze"
   },
   {
     "de": "Hast du das Buch durchgearbeitet?",
-    "lv": "Czy dokładnie przejrzałeś książkę?",
+    "lv": "Prošli jste knihu pečlivě?",
     "level": "Sätze"
   },
   {
     "de": "Kein Durchgang!",
-    "lv": "Nie przechodź! • Wyjście zamknięte!",
+    "lv": "Neprocházejte! • Výjezd uzavřen!",
     "level": "Sätze"
   },
   {
     "de": "Darf ich Sie bitten?",
-    "lv": "Czy mogę cię zapytać",
+    "lv": "Můžu se tě zeptat?",
     "level": "Sätze"
   },
   {
     "de": "Ich bin durstig.",
-    "lv": "Jestem spragniony.",
+    "lv": "Mám žízeň.",
     "level": "Sätze"
   },
   {
     "de": "Eben das meine ich.",
-    "lv": "Właśnie to mam na myśli.",
+    "lv": "Přesně to mám na mysli.",
     "level": "Sätze"
   },
   {
     "de": "Es ist ganz egal.",
-    "lv": "To nie ma żadnego znaczenia.",
+    "lv": "Na tom vůbec nezáleží.",
     "level": "Sätze"
   },
   {
     "de": "Was wollen Sie eigentlich?",
-    "lv": "Czego naprawdę chcesz?",
+    "lv": "Co vlastně chceš?",
     "level": "Sätze"
   },
   {
     "de": "Eilt es mit dieser Sache?",
-    "lv": "Czy ta sprawa jest pilna?",
+    "lv": "Je tato záležitost naléhavá?",
     "level": "Sätze"
   },
   {
     "de": "Eilt sehr!",
-    "lv": "Bardzo pilne!",
+    "lv": "Velmi naléhavé!",
     "level": "Sätze"
   },
   {
     "de": "Ich habe es eilig.",
-    "lv": "Spieszę się.",
+    "lv": "Spěchám.",
     "level": "Sätze"
   },
   {
     "de": "Du bildest dir nur ein, krank zu sein.",
-    "lv": "Po prostu wyobrażasz sobie, że jesteś chory.",
+    "lv": "Představte si, že jste nemocní.",
     "level": "Sätze"
   },
   {
     "de": "Was fällt dir ein?",
-    "lv": "Co przychodzi Ci do głowy?",
+    "lv": "Co tě napadne?",
     "level": "Sätze"
   },
   {
     "de": "Es war einmal.",
-    "lv": "Kiedyś było.",
+    "lv": "Jednou tam bylo.",
     "level": "Sätze"
   },
   {
     "de": "Steigen Sie bitte ein!",
-    "lv": "Proszę wejść!",
+    "lv": "Vstupte prosím!",
     "level": "Sätze"
   },
   {
     "de": "Treten Sie ein!",
-    "lv": "Proszę wejść!",
+    "lv": "Prosím, vstupte!",
     "level": "Sätze"
   },
   {
     "de": "Einzelnes hat mir dort gefallen.",
-    "lv": "Podobało mi się tam kilka rzeczy.",
+    "lv": "Některé věci se mi tam líbily.",
     "level": "Sätze"
   },
   {
     "de": "Es empfiehlt sich.",
-    "lv": "Jest to zalecane.",
+    "lv": "Doporučuje se.",
     "level": "Sätze"
   },
   {
     "de": "Diese Flasche enthält Essig.",
-    "lv": "Ta butelka zawiera ocet.",
+    "lv": "Tato láhev obsahuje ocet.",
     "level": "Sätze"
   },
   {
     "de": "Entschuldigen Sie bitte!",
-    "lv": "Przepraszam, proszę!",
+    "lv": "Promiňte, prosím!",
     "level": "Sätze"
   },
   {
     "de": "Entweder... oder...",
-    "lv": "Albo... albo...",
+    "lv": "Buď... nebo...",
     "level": "Sätze"
   },
   {
     "de": "Wer war der Erste?",
-    "lv": "Kto był pierwszy?",
+    "lv": "Kdo byl první?",
     "level": "Sätze"
   },
   {
     "de": "Wer fehlt heute?",
-    "lv": "Kto dzisiaj nie przyszedł?",
+    "lv": "Kdo dnes nepřišel?",
     "level": "Sätze"
   },
   {
     "de": "Was fehlt dir?",
-    "lv": "Čo ti je?",
+    "lv": "Co je s tebou?",
     "level": "Sätze"
   },
   {
     "de": "Wie heißen Sie?",
-    "lv": "Ako sa voláš?",
+    "lv": "Jak se jmenuješ",
     "level": "Sätze"
   },
   {
     "de": "Was soll das heißen?",
-    "lv": "Co to oznacza?",
+    "lv": "Co to znamená?",
     "level": "Sätze"
   },
   {
     "de": "Bitte treten Sie näher heran!",
-    "lv": "Proszę, podejdź bliżej!",
+    "lv": "Prosím, pojďte blíž!",
     "level": "Sätze"
   },
   {
     "de": "Heraus mit der Sprache!",
-    "lv": "Rozmawiać! • Historie!",
+    "lv": "Mluvit! • Příběhy!",
     "level": "Sätze"
   },
   {
     "de": "im Herbst",
-    "lv": "Jesienią",
+    "lv": "Na podzim",
     "level": "Sätze"
   },
   {
     "de": "Meine Herrschaften!",
-    "lv": "Panie i panowie!",
+    "lv": "Dámy a pánové!",
     "level": "Sätze"
   },
   {
     "de": "von heute an",
-    "lv": "Od dnešného dňa",
+    "lv": "Počínaje dneškem",
     "level": "Sätze"
   },
   {
     "de": "heute früh",
-    "lv": "Dziś rano",
+    "lv": "Dnes ráno",
     "level": "Sätze"
   },
   {
     "de": "heute Nacht",
-    "lv": "Ubiegłej nocy",
+    "lv": "Včera v noci",
     "level": "Sätze"
   },
   {
@@ -246,822 +246,822 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich lerne jeden Tag Deutsch.",
-    "lv": "Na co dzień uczę się języka niemieckiego.",
+    "lv": "Německy se učím každý den.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du das bitte wiederholen?",
-    "lv": "Czy możesz to powtórzyć?",
+    "lv": "Můžete to prosím zopakovat?",
     "level": "Sätze"
   },
   {
     "de": "Wir treffen uns am Bahnhof.",
-    "lv": "Spotykamy się na stacji kolejowej.",
+    "lv": "Scházíme se na nádraží.",
     "level": "Sätze"
   },
   {
     "de": "Ich stimme dir teilweise zu.",
-    "lv": "Częściowo się z Tobą zgadzam.",
+    "lv": "Částečně s tebou souhlasím.",
     "level": "Sätze"
   },
   {
     "de": "Diese Entscheidung hat weitreichende Folgen.",
-    "lv": "Decyzja ta ma daleko idące konsekwencje.",
+    "lv": "Toto rozhodnutí má dalekosáhlé důsledky.",
     "level": "Sätze"
   },
   {
     "de": "Man sollte mehrere Perspektiven berücksichtigen.",
-    "lv": "Należy rozważyć kilka perspektyw.",
+    "lv": "Je třeba zvážit několik úhlů pohledu.",
     "level": "Sätze"
   },
   {
     "de": "Könnten Sie das näher erläutern?",
-    "lv": "Czy mógłbyś wyjaśnić to bardziej szczegółowo?",
+    "lv": "Mohl byste to vysvětlit podrobněji?",
     "level": "Sätze"
   },
   {
     "de": "Was mich anbelangt,...",
-    "lv": "Pokiaľ ide o mňa...",
+    "lv": "Pokud jde o mě...",
     "level": "Sätze"
   },
   {
     "de": "Wie alt sind Sie?",
-    "lv": "Ile masz lat?",
+    "lv": "Kolik je Vám let?",
     "level": "Sätze"
   },
   {
     "de": "Ich bin zwanzig Jahre alt.",
-    "lv": "Mam dwadzieścia lat.",
+    "lv": "Je mi dvacet let.",
     "level": "Sätze"
   },
   {
     "de": "Von heute an.",
-    "lv": "Od dzisiaj.",
+    "lv": "Ode dneška.",
     "level": "Sätze"
   },
   {
     "de": "Von jetzt an.",
-    "lv": "Odtąd.",
+    "lv": "Od teď.",
     "level": "Sätze"
   },
   {
     "de": "Anders geht es nicht.",
-    "lv": "Nie ma innego sposobu.",
+    "lv": "Není jiné cesty.",
     "level": "Sätze"
   },
   {
     "de": "Rufen Sie mich an.",
-    "lv": "Zadzwoń do mnie.",
+    "lv": "Zavolej mi.",
     "level": "Sätze"
   },
   {
     "de": "Bitte stellen Sie das Radio ab.",
-    "lv": "Proszę wyłączyć radio.",
+    "lv": "Prosím vypněte rádio.",
     "level": "Sätze"
   },
   {
     "de": "Achte bitte auf den Verkehr.",
-    "lv": "Proszę zwrócić uwagę na ruch.",
+    "lv": "Věnujte prosím pozornost provozu.",
     "level": "Sätze"
   },
   {
     "de": "Darauf musst du achten.",
-    "lv": "Powinieneś zwrócić na to uwagę.",
+    "lv": "Na to byste měli dávat pozor.",
     "level": "Sätze"
   },
   {
     "de": "Heute mache ich es anders.",
-    "lv": "Dziś zrobię to inaczej.",
+    "lv": "Dnes to udělám jinak.",
     "level": "Sätze"
   },
   {
     "de": "Wir warten auf den Bus.",
-    "lv": "Czekamy na autobus.",
+    "lv": "Čekáme na autobus.",
     "level": "Sätze"
   },
   {
     "de": "Er wohnt allein.",
-    "lv": "Mieszka sam.",
+    "lv": "Žije sám.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe die Ausbildung absolviert.",
-    "lv": "Skończyłem szkolenie. • Skończyłem edukację.",
+    "lv": "Skončil jsem trénink. • Ukončila jsem vzdělání.",
     "level": "Sätze"
   },
   {
     "de": "Ich warte den Regen ab.",
-    "lv": "Poczekam, aż przestanie padać.",
+    "lv": "Počkám, až přestane pršet.",
     "level": "Sätze"
   },
   {
     "de": "Er arbeitet in der Verkaufsabteilung.",
-    "lv": "Pracuje w dziale sprzedaży.",
+    "lv": "Pracuje v obchodním oddělení.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin allergisch gegen Katzen.",
-    "lv": "Mam alergię na koty.",
+    "lv": "Jsem alergický na kočky.",
     "level": "Sätze"
   },
   {
     "de": "Andererseits verstehe ich ihn.",
-    "lv": "Z drugiej strony rozumiem go.",
+    "lv": "Na druhou stranu ho chápu.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe die Situation analysiert.",
-    "lv": "Przeanalizowałem sytuację.",
+    "lv": "Analyzoval jsem situaci.",
     "level": "Sätze"
   },
   {
     "de": "Sie hat meinen Vorschlag akzeptiert.",
-    "lv": "Przyjęła moją propozycję.",
+    "lv": "Přijala můj návrh.",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte das genauer analysieren.",
-    "lv": "Chcę to dokładniej przeanalizować.",
+    "lv": "Chci to analyzovat přesněji.",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte den Vertrag ändern.",
-    "lv": "Chcę zmienić umowę.",
+    "lv": "Chci změnit smlouvu.",
     "level": "Sätze"
   },
   {
     "de": "Er ändert ständig seine Meinung.",
-    "lv": "Ciągle zmienia swoje zdanie.",
+    "lv": "Neustále mění svůj názor.",
     "level": "Sätze"
   },
   {
     "de": "Ähnliche Probleme hatten wir schon früher.",
-    "lv": "Mieliśmy już podobne problemy.",
+    "lv": "Předtím jsme měli podobné problémy.",
     "level": "Sätze"
   },
   {
     "de": "Keine Ahnung!",
-    "lv": "Nie mam pojęcia!",
+    "lv": "Žádný nápad!",
     "level": "Sätze"
   },
   {
     "de": "Hör auf zu jammern.",
-    "lv": "Przestań narzekać.",
+    "lv": "Přestaň si stěžovat.",
     "level": "Sätze"
   },
   {
     "de": "Dieses Kleid ist akademisch gekleidet.",
-    "lv": "Ta sukienka jest stylowo konserwatywna.",
+    "lv": "Tyto šaty jsou stylově konzervativní.",
     "level": "Sätze"
   },
   {
     "de": "Ich höre gerne Akkordeonmusik.",
-    "lv": "Lubię słuchać muzyki akordeonowej.",
+    "lv": "Rád poslouchám hudbu na akordeon.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du das Gerät anklicken?",
-    "lv": "Czy możesz kliknąć urządzenie?",
+    "lv": "Můžete kliknout na zařízení?",
     "level": "Sätze"
   },
   {
     "de": "Bitte öffne die Datei und klicke darauf.",
-    "lv": "Proszę otworzyć plik i kliknąć na niego.",
+    "lv": "Otevřete soubor a klikněte na něj.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe einen Unfall gehabt.",
-    "lv": "Miałem wypadek.",
+    "lv": "Měl jsem nehodu.",
     "level": "Sätze"
   },
   {
     "de": "Wir laufen zum Bahnhof.",
-    "lv": "Idziemy na stację.",
+    "lv": "Jdeme na nádraží.",
     "level": "Sätze"
   },
   {
     "de": "Bitte schalte den Fernseher an.",
-    "lv": "Zapnite televízor.",
+    "lv": "Zapněte prosím televizi.",
     "level": "Sätze"
   },
   {
     "de": "Mein Computer ist abgestürzt.",
-    "lv": "Mój komputer uległ awarii.",
+    "lv": "Můj počítač se zhroutil.",
     "level": "Sätze"
   },
   {
     "de": "Am Wochenende gehe ich angeln.",
-    "lv": "W weekend pojadę na ryby.",
+    "lv": "O víkendu pojedu na ryby.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe den Anruf verpasst.",
-    "lv": "Przegapiłem połączenie.",
+    "lv": "Zmeškal jsem hovor.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du mich später anrufen?",
-    "lv": "Czy możesz zadzwonić do mnie później?",
+    "lv": "Můžeš mi zavolat později",
     "level": "Sätze"
   },
   {
     "de": "Bitte nimm meinen Vorschlag an.",
-    "lv": "Proszę przyjąć moją propozycję.",
+    "lv": "Přijměte prosím můj návrh.",
     "level": "Sätze"
   },
   {
     "de": "Ich nehme dein Angebot an.",
-    "lv": "Przyjmuję twoją ofertę.",
+    "lv": "Vaši nabídku přijímám.",
     "level": "Sätze"
   },
   {
     "de": "Er nahm die Einladung an.",
-    "lv": "Przyjął zaproszenie.",
+    "lv": "Pozvání přijal.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe Angst vor Spinnen.",
-    "lv": "Boję się pająków.",
+    "lv": "Bojím se pavouků.",
     "level": "Sätze"
   },
   {
     "de": "Keine Angst, alles wird gut.",
-    "lv": "Nie bój się, wszystko będzie dobrze.",
+    "lv": "Neboj se, všechno bude v pořádku.",
     "level": "Sätze"
   },
   {
     "de": "Anklang finden.",
-    "lv": "Znajdź echo. • Znajdź responsywność",
+    "lv": "Najděte ozvěnu. • Najděte schopnost reagovat",
     "level": "Sätze"
   },
   {
     "de": "Es kommt darauf an.",
-    "lv": "To zależy od tego.",
+    "lv": "Na tom záleží.",
     "level": "Sätze"
   },
   {
     "de": "Aus diesem Anlass.",
-    "lv": "Z powodu tego czasu. • W tym zakresie",
+    "lv": "Kvůli této době. • V tomto ohledu",
     "level": "Sätze"
   },
   {
     "de": "Nehmen wir an, dass...",
-    "lv": "Predpokladajme...",
+    "lv": "Předpokládejme, že...",
     "level": "Sätze"
   },
   {
     "de": "Was hast du da angerichtet?",
-    "lv": "Co tam zrobiłeś",
+    "lv": "Co jsi tam dělal",
     "level": "Sätze"
   },
   {
     "de": "Bis ans Ende.",
-    "lv": "Do końca.",
+    "lv": "Až do konce.",
     "level": "Sätze"
   },
   {
     "de": "Du glaubst mir anscheinend nicht.",
-    "lv": "Wygląda na to, że mi nie wierzysz.",
+    "lv": "Zdá se, že mi nevěříš.",
     "level": "Sätze"
   },
   {
     "de": "Meiner Ansicht nach...",
-    "lv": "Moim zdaniem...",
+    "lv": "Podle mého názoru...",
     "level": "Sätze"
   },
   {
     "de": "Stell dich nicht so an!",
-    "lv": "Nepredstierajte!",
+    "lv": "Nepředstírejte!",
     "level": "Sätze"
   },
   {
     "de": "An die Arbeit gehen.",
-    "lv": "Bierz się do pracy.",
+    "lv": "Pusťte se do práce.",
     "level": "Sätze"
   },
   {
     "de": "Außer Atem sein.",
-    "lv": "Brakować tchu.",
+    "lv": "Být zadýchaný.",
     "level": "Sätze"
   },
   {
     "de": "Guten Appetit!",
-    "lv": "Dobrú chuť!",
+    "lv": "Chuť k jídlu!",
     "level": "Sätze"
   },
   {
     "de": "In einem Atemzug.",
-    "lv": "Jednym tchem.",
+    "lv": "Jedním dechem.",
     "level": "Sätze"
   },
   {
     "de": "Auf jeden Fall.",
-    "lv": "W każdym przypadku.",
+    "lv": "V každém případě.",
     "level": "Sätze"
   },
   {
     "de": "Auf einmal war alles still.",
-    "lv": "Nagle wszystko ucichło.",
+    "lv": "Najednou vše ztichlo.",
     "level": "Sätze"
   },
   {
     "de": "Bitte mach die Tür auf!",
-    "lv": "Proszę otworzyć drzwi!",
+    "lv": "Prosím, otevřete dveře!",
     "level": "Sätze"
   },
   {
     "de": "Er hat den Kredit aufgenommen.",
-    "lv": "Wziął pożyczkę.",
+    "lv": "Vzal si půjčku.",
     "level": "Sätze"
   },
   {
     "de": "Wir müssen heute aufräumen.",
-    "lv": "Musimy dziś posprzątać pokój.",
+    "lv": "Dnes musíme uklidit pokoj.",
     "level": "Sätze"
   },
   {
     "de": "Ich höre jetzt auf.",
-    "lv": "Przestanę teraz.",
+    "lv": "Teď se zastavím.",
     "level": "Sätze"
   },
   {
     "de": "Er ist schon auf.",
-    "lv": "Już wstał.",
+    "lv": "Už je vzhůru.",
     "level": "Sätze"
   },
   {
     "de": "Wir müssen das Treffen verschieben.",
-    "lv": "Musíme to presunúť na iný termín.",
+    "lv": "Schůzku musíme přeložit.",
     "level": "Sätze"
   },
   {
     "de": "Sie hat mich aufgeregt.",
-    "lv": "Zdenerwowała mnie.",
+    "lv": "Rozčilovala mě.",
     "level": "Sätze"
   },
   {
     "de": "Auf einmal.",
-    "lv": "Nagle.",
+    "lv": "Najednou.",
     "level": "Sätze"
   },
   {
     "de": "Auf der Stelle.",
-    "lv": "Natychmiast.",
+    "lv": "Ihned.",
     "level": "Sätze"
   },
   {
     "de": "Für den Schaden aufkommen.",
-    "lv": "Pokryj szkody.",
+    "lv": "Pokryjte škody.",
     "level": "Sätze"
   },
   {
     "de": "Bitte die Tür auf!",
-    "lv": "Otvorte dvere, prosím!",
+    "lv": "Otevřete dveře, prosím!",
     "level": "Sätze"
   },
   {
     "de": "Aufrecht sitzen.",
-    "lv": "Usiądź prosto.",
+    "lv": "Posaďte se rovně.",
     "level": "Sätze"
   },
   {
     "de": "Er ist auf.",
-    "lv": "Wstał.",
+    "lv": "Vstal.",
     "level": "Sätze"
   },
   {
     "de": "Alle Kräfte aufwenden.",
-    "lv": "Poświęć całą swoją siłę.",
+    "lv": "Věnujte všechny své síly.",
     "level": "Sätze"
   },
   {
     "de": "Viel Mühe aufwenden.",
-    "lv": "Bardzo się staraj.",
+    "lv": "Velmi se snažte.",
     "level": "Sätze"
   },
   {
     "de": "Geh mir aus den Augen!",
-    "lv": "Nie patrz już na mnie!",
+    "lv": "Už se na mě nedívej!",
     "level": "Sätze"
   },
   {
     "de": "Unter vier Augen.",
-    "lv": "W dwóch. • Cicho",
+    "lv": "Ve dvou. • Tiše",
     "level": "Sätze"
   },
   {
     "de": "Aus Mangel an Zeit.",
-    "lv": "Z powodu braku czasu.",
+    "lv": "Kvůli nedostatku času.",
     "level": "Sätze"
   },
   {
     "de": "Aus diesem Grunde.",
-    "lv": "Z tego powodu.",
+    "lv": "Z tohoto důvodu.",
     "level": "Sätze"
   },
   {
     "de": "Alle außer dir.",
-    "lv": "Wszyscy oprócz ciebie.",
+    "lv": "Všichni kromě tebe.",
     "level": "Sätze"
   },
   {
     "de": "Auf Äußerlichkeiten Wert legen.",
-    "lv": "Przywiązuj wagę do wyglądu.",
+    "lv": "Dejte důraz na vzhled.",
     "level": "Sätze"
   },
   {
     "de": "Im äußersten Fall.",
-    "lv": "W najgorszym przypadku.",
+    "lv": "V nejhorším případě.",
     "level": "Sätze"
   },
   {
     "de": "Äußerst wichtig.",
-    "lv": "Niezwykle ważne.",
+    "lv": "Nesmírně důležité.",
     "level": "Sätze"
   },
   {
     "de": "Aussicht auf die See.",
-    "lv": "Widok na morze.",
+    "lv": "Výhled na moře.",
     "level": "Sätze"
   },
   {
     "de": "Er hat gute Aussichten.",
-    "lv": "Ma duże szanse.",
+    "lv": "Má dobrou šanci.",
     "level": "Sätze"
   },
   {
     "de": "Wie wird dieses Wort ausgesprochen?",
-    "lv": "Jak wymawia się to słowo?",
+    "lv": "Jak se toto slovo vyslovuje?",
     "level": "Sätze"
   },
   {
     "de": "Sein Beileid aussprechen.",
-    "lv": "Wyraź kondolencje.",
+    "lv": "Vyjádřete soustrast.",
     "level": "Sätze"
   },
   {
     "de": "Wann wurden die Meisterschaftskämpfe ausgetragen?",
-    "lv": "Kiedy były mistrzostwa?",
+    "lv": "Kdy bylo mistrovství?",
     "level": "Sätze"
   },
   {
     "de": "Welchen Beruf üben Sie aus?",
-    "lv": "Jaki jest Twój zawód?",
+    "lv": "Jaké je vaše povolání?",
     "level": "Sätze"
   },
   {
     "de": "Einfluss ausüben.",
-    "lv": "Wpływać.",
+    "lv": "Ovlivňovat.",
     "level": "Sätze"
   },
   {
     "de": "Auswärts essen.",
-    "lv": "Zjedz poza domem.",
+    "lv": "Jezte venku.",
     "level": "Sätze"
   },
   {
     "de": "Per Bahn.",
-    "lv": "Koleją.",
+    "lv": "Vlakem.",
     "level": "Sätze"
   },
   {
     "de": "Mit der Bahn.",
-    "lv": "Koleją.",
+    "lv": "Vlakem.",
     "level": "Sätze"
   },
   {
     "de": "Möglichst bald.",
-    "lv": "Jak najszybciej.",
+    "lv": "Co nejdříve.",
     "level": "Sätze"
   },
   {
     "de": "Mir ist Angst und bange.",
-    "lv": "Bardzo się boję.",
+    "lv": "Velmi se bojím.",
     "level": "Sätze"
   },
   {
     "de": "Auf die lange Bank schieben.",
-    "lv": "Ociągać się. • Przeciągnij na długość • Odłóż na czas nieokreślony",
+    "lv": "Odkládat. • Přetáhněte na délku • Odložte na neurčito",
     "level": "Sätze"
   },
   {
     "de": "Bar zahlen.",
-    "lv": "Zapłać gotówką.",
+    "lv": "Platit v hotovosti.",
     "level": "Sätze"
   },
   {
     "de": "Erz bauen.",
-    "lv": "Zdobądź rudę.",
+    "lv": "Získejte rudu.",
     "level": "Sätze"
   },
   {
     "de": "Mist bauen.",
-    "lv": "Strzelać. • Zrób z siebie głupca",
+    "lv": "Střílet. • Udělejte ze sebe blázna",
     "level": "Sätze"
   },
   {
     "de": "Ich bin beauftragt.",
-    "lv": "Przydzielono mi pracę.",
+    "lv": "Byla mi přidělena práce.",
     "level": "Sätze"
   },
   {
     "de": "Nach Bedarf.",
-    "lv": "W razie potrzeby.",
+    "lv": "Podle potřeby.",
     "level": "Sätze"
   },
   {
     "de": "Ich bedauere ihn.",
-    "lv": "Żal mi go.",
+    "lv": "Je mi ho líto.",
     "level": "Sätze"
   },
   {
     "de": "Was bedeutet dieses Wort?",
-    "lv": "Čo znamená toto slovo?",
+    "lv": "Co toto slovo znamená?",
     "level": "Sätze"
   },
   {
     "de": "Unter der Bedingung, dass...",
-    "lv": "Pod warunkiem że...",
+    "lv": "Pokud...",
     "level": "Sätze"
   },
   {
     "de": "Sie sieht bedrückt aus.",
-    "lv": "Vyzerá deprimovane.",
+    "lv": "Vypadá depresivně.",
     "level": "Sätze"
   },
   {
     "de": "Hinweise befolgen.",
-    "lv": "Postupujte v zmysle návodu výrobcu.",
+    "lv": "Postupujte podle pokynů.",
     "level": "Sätze"
   },
   {
     "de": "Befehle befolgen.",
-    "lv": "Wykonuj polecenia.",
+    "lv": "Postupujte podle rozkazů.",
     "level": "Sätze"
   },
   {
     "de": "Mit der Post befördern.",
-    "lv": "Wyślij pocztą.",
+    "lv": "Poslat poštou.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin begierig zu wissen.",
-    "lv": "Naprawdę chcę wiedzieć.",
+    "lv": "Opravdu to chci vědět.",
     "level": "Sätze"
   },
   {
     "de": "Zu Beginn.",
-    "lv": "Na początku.",
+    "lv": "Na začátku.",
     "level": "Sätze"
   },
   {
     "de": "Am Beginn.",
-    "lv": "Na początku.",
+    "lv": "Na začátku.",
     "level": "Sätze"
   },
   {
     "de": "Bei Beginn.",
-    "lv": "Startowy",
+    "lv": "Spuštění",
     "level": "Sätze"
   },
   {
     "de": "In Begleitung.",
-    "lv": "Towarzyszy.",
+    "lv": "V doprovodu.",
     "level": "Sätze"
   },
   {
     "de": "Mit seiner Begleitung.",
-    "lv": "Z akompaniamentem.",
+    "lv": "S doprovodem.",
     "level": "Sätze"
   },
   {
     "de": "Er ist schwer von Begriff.",
-    "lv": "Jest powolny w postrzeganiu. • Ma powolne myślenie",
+    "lv": "Je pomalý na vnímání. • Má pomalé myšlení",
     "level": "Sätze"
   },
   {
     "de": "Im Gedächtnis behalten.",
-    "lv": "Pamiętać. • Zachowaj w pamięci",
+    "lv": "Pamatujte si. • Uchovávejte v paměti",
     "level": "Sätze"
   },
   {
     "de": "Bei Tisch.",
-    "lv": "Przy stole.",
+    "lv": "U stolu.",
     "level": "Sätze"
   },
   {
     "de": "Bei Sinnen sein.",
-    "lv": "Być rozsądnym.",
+    "lv": "Abych byl při smyslech.",
     "level": "Sätze"
   },
   {
     "de": "Bei Tage.",
-    "lv": "W ciągu dnia.",
+    "lv": "Během dne.",
     "level": "Sätze"
   },
   {
     "de": "Bei weitem nicht so.",
-    "lv": "Zupełnie nie.",
+    "lv": "Vůbec ne.",
     "level": "Sätze"
   },
   {
     "de": "Alle beide.",
-    "lv": "Obydwa dwa.",
+    "lv": "Oba dva.",
     "level": "Sätze"
   },
   {
     "de": "Stürmischer Beifall brach los.",
-    "lv": "Rozległ się gromki aplauz.",
+    "lv": "Ozval se bouřlivý potlesk.",
     "level": "Sätze"
   },
   {
     "de": "Beifall finden.",
-    "lv": "Uzyskaj zgodę.",
+    "lv": "Získejte souhlas.",
     "level": "Sätze"
   },
   {
     "de": "Beileid aussprechen.",
-    "lv": "Wyraź kondolencje.",
+    "lv": "Vyjádřete soustrast.",
     "level": "Sätze"
   },
   {
     "de": "Auf eigenen Beinen stehen.",
-    "lv": "Być niezależnym finansowo.",
+    "lv": "Být finančně nezávislý.",
     "level": "Sätze"
   },
   {
     "de": "Zum Beispiel.",
-    "lv": "Na przykład.",
+    "lv": "Například.",
     "level": "Sätze"
   },
   {
     "de": "Beistand leisten.",
-    "lv": "Aby pomóc. • Zapewnij pomoc",
+    "lv": "Na pomoc. • Poskytněte pomoc",
     "level": "Sätze"
   },
   {
     "de": "Beitrag leisten.",
-    "lv": "Investujte svoj podiel.",
+    "lv": "Investujte svůj podíl.",
     "level": "Sätze"
   },
   {
     "de": "Jemandes Bekanntschaft machen.",
-    "lv": "Poznaj kogoś.",
+    "lv": "Seznamte se s někým.",
     "level": "Sätze"
   },
   {
     "de": "Bekanntschaft anknüpfen.",
-    "lv": "Spoznajte sa navzájom. • Pripojte sa",
+    "lv": "Seznamte se navzájem. • Navažte kontakt",
     "level": "Sätze"
   },
   {
     "de": "Belegte Brötchen.",
-    "lv": "Kanapki z dodatkami.",
+    "lv": "Sendviče s polevou.",
     "level": "Sätze"
   },
   {
     "de": "Nach Ihrem Belieben.",
-    "lv": "Jak chcesz.",
+    "lv": "Jak si přejete.",
     "level": "Sätze"
   },
   {
     "de": "Zu jeder beliebigen Zeit.",
-    "lv": "Kiedykolwiek.",
+    "lv": "Kdykoli.",
     "level": "Sätze"
   },
   {
     "de": "Schweigen beobachten.",
-    "lv": "Aby zachować ciszę.",
+    "lv": "Dodržovat ticho.",
     "level": "Sätze"
   },
   {
     "de": "Zur Bequemlichkeit.",
-    "lv": "Dla wygody.",
+    "lv": "Pro pohodlí.",
     "level": "Sätze"
   },
   {
     "de": "Bereit sein.",
-    "lv": "Bądź gotów. • Zachowaj spokój",
+    "lv": "Buďte připraveni. • Buďte v klidu",
     "level": "Sätze"
   },
   {
     "de": "Unfallopfer bergen.",
-    "lv": "Ratuj ofiary w razie wypadku.",
+    "lv": "Záchrana obětí v případě nehody.",
     "level": "Sätze"
   },
   {
     "de": "Bericht erstatten.",
-    "lv": "Raport. • Przedstaw raport • Przedstaw przegląd",
+    "lv": "Zpráva. • Poskytněte zprávu • Poskytněte přehled",
     "level": "Sätze"
   },
   {
     "de": "Alle Plätze sind besetzt.",
-    "lv": "Wszystkie miejsca są zajęte.",
+    "lv": "Všechna místa jsou obsazena.",
     "level": "Sätze"
   },
   {
     "de": "Neue Besen kehren gut.",
-    "lv": "Nowa miotła dobrze zamiata.",
+    "lv": "Nové koště dobře mete.",
     "level": "Sätze"
   },
   {
     "de": "Er besitzt ein Haus.",
-    "lv": "Jest właścicielem domu.",
+    "lv": "Vlastní dům.",
     "level": "Sätze"
   },
   {
     "de": "Er besitzt viel Mut.",
-    "lv": "Ma wielką odwagę.",
+    "lv": "Má velkou odvahu.",
     "level": "Sätze"
   },
   {
     "de": "Desto besser.",
-    "lv": "Im lepiej.",
+    "lv": "Tím lépe.",
     "level": "Sätze"
   },
   {
     "de": "Gute Besserung!",
-    "lv": "Wyzdrowieć! • Wyzdrowiej!",
+    "lv": "Uzdrav se! • Uzdravte se!",
     "level": "Sätze"
   },
   {
     "de": "Beim besten Willen.",
-    "lv": "Cokolwiek chcesz.",
+    "lv": "Cokoli chcete.",
     "level": "Sätze"
   },
   {
     "de": "Am besten.",
-    "lv": "Najlepsze.",
+    "lv": "Nejlepší.",
     "level": "Sätze"
   },
   {
     "de": "Es besteht Zweifel.",
-    "lv": "Są wątpliwości.",
+    "lv": "Existují pochybnosti.",
     "level": "Sätze"
   },
   {
     "de": "Seine Aufgabe besteht darin...",
-    "lv": "Jego zadaniem jest...",
+    "lv": "Jeho úkolem je...",
     "level": "Sätze"
   },
   {
     "de": "Grüße bestellen.",
-    "lv": "Przywitaj się.",
+    "lv": "Pozdravit.",
     "level": "Sätze"
   },
   {
     "de": "Ganz bestimmt.",
-    "lv": "Zdecydowanie. • Całkowicie bezpieczny",
+    "lv": "Rozhodně. • Zcela bezpečné",
     "level": "Sätze"
   },
   {
     "de": "Zu Besuch kommen.",
-    "lv": "Przyjdź odwiedzić.",
+    "lv": "Přijďte navštívit.",
     "level": "Sätze"
   },
   {
     "de": "Zu Besuch sein.",
-    "lv": "Odwiedzić. • Aby odwiedzić",
+    "lv": "Na návštěvu. • Navštívit",
     "level": "Sätze"
   },
   {
     "de": "Oft Konzerte besuchen.",
-    "lv": "Często chodzą na koncerty.",
+    "lv": "Často chodí na koncerty.",
     "level": "Sätze"
   },
   {
     "de": "Welche Schule hat er besucht?",
-    "lv": "Do jakiej szkoły chodził?",
+    "lv": "Na jakou školu chodil?",
     "level": "Sätze"
   },
   {
     "de": "In Betracht ziehen.",
-    "lv": "Brać pod uwagę. • Rozważać",
+    "lv": "Vzít v úvahu. • Zvažte",
     "level": "Sätze"
   },
   {
     "de": "Außer Betracht lassen.",
-    "lv": "Lekceważenie. • Nie zastanawiaj się",
+    "lv": "Ignorovat. • Neuvažujte",
     "level": "Sätze"
   },
   {
     "de": "Er betreibt ein Hotel.",
-    "lv": "Prowadzi hotel.",
+    "lv": "Provozuje hotel.",
     "level": "Sätze"
   },
   {
     "de": "Alle beiden.",
-    "lv": "Obydwa dwa.",
+    "lv": "Oba dva.",
     "level": "Sätze"
   },
   {
     "de": "Alles bezahlen.",
-    "lv": "Zapłać wszystko.",
+    "lv": "Zaplať všechno.",
     "level": "Sätze"
   },
   {
     "de": "Bezüglich auf etwas.",
-    "lv": "Jeśli chodzi o coś.",
+    "lv": "Ohledně něčeho.",
     "level": "Sätze"
   },
   {
@@ -1071,7 +1071,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wie bitte?",
-    "lv": "Jak proszę",
+    "lv": "Jak prosím",
     "level": "Sätze"
   },
   {
@@ -1081,102 +1081,102 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich habe eine Bitte an Sie.",
-    "lv": "Mam do ciebie prośbę.",
+    "lv": "Mám na vás prosbu.",
     "level": "Sätze"
   },
   {
     "de": "Trompete blasen.",
-    "lv": "Zadmij w trąbkę.",
+    "lv": "Trubte na trubku.",
     "level": "Sätze"
   },
   {
     "de": "In einem Buch blättern.",
-    "lv": "Posortuj książkę.",
+    "lv": "Roztřiďte knihu.",
     "level": "Sätze"
   },
   {
     "de": "Mit bloßen Füßen.",
-    "lv": "Bose stopy.",
+    "lv": "Bosé nohy.",
     "level": "Sätze"
   },
   {
     "de": "Mit bloßem Auge.",
-    "lv": "Gołym okiem.",
+    "lv": "Pouhým okem.",
     "level": "Sätze"
   },
   {
     "de": "Danke für die Blumen!",
-    "lv": "Dziękuję za kwiaty!",
+    "lv": "Díky za květiny!",
     "level": "Sätze"
   },
   {
     "de": "Alles in Butter.",
-    "lv": "Všetko je v poriadku.",
+    "lv": "Všechno je v pořádku.",
     "level": "Sätze"
   },
   {
     "de": "Bitte checken.",
-    "lv": "Sprawdzać. • Sprawdzać",
+    "lv": "Kontrola. • Zkontrolujte",
     "level": "Sätze"
   },
   {
     "de": "Da ist er!",
-    "lv": "Oto on!",
+    "lv": "Tady je!",
     "level": "Sätze"
   },
   {
     "de": "Alles spricht dafür.",
-    "lv": "Wszystko dobrze mówi.",
+    "lv": "Všechno mluví dobře.",
     "level": "Sätze"
   },
   {
     "de": "Ich kann nichts dafür.",
-    "lv": "Nie je nič, čo by som tam mohol urobiť.",
+    "lv": "Nemůžu tam nic dělat.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin dagegen.",
-    "lv": "Som proti tomu.",
+    "lv": "Jsem proti tomu.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe nichts dagegen.",
-    "lv": "Nemám proti tomu žiadne námietky.",
+    "lv": "K tomu nemám námitek.",
     "level": "Sätze"
   },
   {
     "de": "Von daheim.",
-    "lv": "Z domu.",
+    "lv": "Z domova.",
     "level": "Sätze"
   },
   {
     "de": "Mit der Dame ziehen.",
-    "lv": "Wykonaj damski ruch.",
+    "lv": "Udělejte dámský tah.",
     "level": "Sätze"
   },
   {
     "de": "Es dämmert.",
-    "lv": "Robi się ciemno. • Wstaje świt.",
+    "lv": "Už se stmívá. • Svítá.",
     "level": "Sätze"
   },
   {
     "de": "Danke schön!",
-    "lv": "Dziękuję! • Dziękuję!",
+    "lv": "Děkuju! • Děkujeme!",
     "level": "Sätze"
   },
   {
     "de": "Dann und wann.",
-    "lv": "Z času na čas.",
+    "lv": "Tu a tam.",
     "level": "Sätze"
   },
   {
     "de": "Darauf kannst du dich verlassen.",
-    "lv": "Môžete sa na to spoľahnúť.",
+    "lv": "Na to se můžete spolehnout.",
     "level": "Sätze"
   },
   {
     "de": "Daraus wird nichts.",
-    "lv": "Nic z tego nie będzie.",
+    "lv": "Z toho nic nebude.",
     "level": "Sätze"
   },
   {
@@ -1186,17 +1186,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Für wen halten Sie mich?",
-    "lv": "Jak myślisz, czym jestem?",
+    "lv": "Co si myslíš, že jsem?",
     "level": "Sätze"
   },
   {
     "de": "Hände weg!",
-    "lv": "Ręce przy sobie!",
+    "lv": "Ruce pryč!",
     "level": "Sätze"
   },
   {
     "de": "Lass den Kopf nicht hängen!",
-    "lv": "Nie opuszczaj głowy!",
+    "lv": "Neskláněj hlavu!",
     "level": "Sätze"
   },
   {
@@ -1206,327 +1206,327 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "nach Hause gehen",
-    "lv": "Idź do domu",
+    "lv": "Jít domů",
     "level": "Sätze"
   },
   {
     "de": "von Haus aus",
-    "lv": "Od dzieciństwa • Od samego początku",
+    "lv": "Od dětství • Od samého počátku",
     "level": "Sätze"
   },
   {
     "de": "Meinen herzlichsten Glückwunsch!",
-    "lv": "Gratulujeme!",
+    "lv": "Gratuluji!",
     "level": "Sätze"
   },
   {
     "de": "Seien Sie so gut!",
-    "lv": "Bądź taki miły! • Bądź taki dobry!",
+    "lv": "Buď tak laskav! • Buďte tak dobří!",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie die Güte!",
-    "lv": "Bądź taki miły!",
+    "lv": "Buď tak laskav!",
     "level": "Sätze"
   },
   {
     "de": "Was hast du?",
-    "lv": "Co jest z tobą nie tak? • Co się stało?",
+    "lv": "Co je s tebou? • Co se stalo?",
     "level": "Sätze"
   },
   {
     "de": "Gestatten Sie bitte!",
-    "lv": "Pozwól mi, proszę!",
+    "lv": "Dovolte mi, prosím!",
     "level": "Sätze"
   },
   {
     "de": "Ist es gestattet zu rauchen?",
-    "lv": "Czy mogę palić?",
+    "lv": "Mohu kouřit?",
     "level": "Sätze"
   },
   {
     "de": "Ich muss gestehen, dass...",
-    "lv": "Muszę przyznać, że...",
+    "lv": "Musím přiznat, že...",
     "level": "Sätze"
   },
   {
     "de": "gestern früh",
-    "lv": "Wczoraj rano",
+    "lv": "Včera brzy ráno",
     "level": "Sätze"
   },
   {
     "de": "gestern Abend",
-    "lv": "Ubiegłej nocy",
+    "lv": "Včera v noci",
     "level": "Sätze"
   },
   {
     "de": "Es ist mir gleichgültig, ob...",
-    "lv": "Nie obchodzi mnie, czy...",
+    "lv": "Je mi jedno, jestli...",
     "level": "Sätze"
   },
   {
     "de": "Was ist geschehen?",
-    "lv": "Čo sa stalo?",
+    "lv": "Co se stalo?",
     "level": "Sätze"
   },
   {
     "de": "Mach keine Geschichten!",
-    "lv": "Nie rób głupot! • Nie żartuj!",
+    "lv": "Nedělejte nesmysly! • Nedělejte si legraci!",
     "level": "Sätze"
   },
   {
     "de": "Geschweige denn...",
-    "lv": "Nie wspominając o tym. • Gdzie indziej",
+    "lv": "O tom nemluvě. • Kde jinde",
     "level": "Sätze"
   },
   {
     "de": "Gehen Sie geradeaus!",
-    "lv": "Idź prosto!",
+    "lv": "Jděte rovně!",
     "level": "Sätze"
   },
   {
     "de": "Wie geht es Ihnen?",
-    "lv": "Jak się masz • Jak się masz?",
+    "lv": "Jak se máš • Jak se máš?",
     "level": "Sätze"
   },
   {
     "de": "Frag ihn gelegentlich, ob...",
-    "lv": "Zapytaj go, czy wyjdzie, jeśli...",
+    "lv": "Zeptejte se ho, jestli vyjde, jestli...",
     "level": "Sätze"
   },
   {
     "de": "morgen früh",
-    "lv": "Jutro rano",
+    "lv": "Zítra ráno",
     "level": "Sätze"
   },
   {
     "de": "im Frühling",
-    "lv": "Na wiosnę",
+    "lv": "Na jaře",
     "level": "Sätze"
   },
   {
     "de": "Was gibt’s Neues?",
-    "lv": "Co nowego?",
+    "lv": "Co je nového?",
     "level": "Sätze"
   },
   {
     "de": "Aus diesem Brief folgt, dass...",
-    "lv": "Z tego listu wynika, że...",
+    "lv": "Z tohoto dopisu vyplývá, že...",
     "level": "Sätze"
   },
   {
     "de": "Fahre fort!",
-    "lv": "Tak trzymaj!",
+    "lv": "Jen tak dál!",
     "level": "Sätze"
   },
   {
     "de": "Er ist kein Freund von...",
-    "lv": "On nie lubi...",
+    "lv": "Nemá rád...",
     "level": "Sätze"
   },
   {
     "de": "Es erwies sich, dass...",
-    "lv": "Okazało się, że...",
+    "lv": "Ukázalo se, že...",
     "level": "Sätze"
   },
   {
     "de": "Gedenkst du meiner?",
-    "lv": "Czy mnie pamiętasz • Czy myślałeś o mnie?",
+    "lv": "Pamatuješ si mě • Myslel jsi na mě?",
     "level": "Sätze"
   },
   {
     "de": "im Winter",
-    "lv": "Zimą",
+    "lv": "V zimě",
     "level": "Sätze"
   },
   {
     "de": "Welcher Jahrgang sind Sie?",
-    "lv": "W którym roku się urodziłeś?",
+    "lv": "V jakém roce jsi se narodil?",
     "level": "Sätze"
   },
   {
     "de": "Es jammert mich zu sehen...",
-    "lv": "Smutno to oglądać...",
+    "lv": "Smutné sledovat...",
     "level": "Sätze"
   },
   {
     "de": "je mehr, desto besser",
-    "lv": "Im więcej, tym lepiej",
+    "lv": "Čím více, tím lépe",
     "level": "Sätze"
   },
   {
     "de": "bis jetzt",
-    "lv": "Až doteraz",
+    "lv": "Až do teď",
     "level": "Sätze"
   },
   {
     "de": "Wie komme ich zum Bahnhof?",
-    "lv": "Jak dojechać na stację?",
+    "lv": "Jak se dostat na nádraží?",
     "level": "Sätze"
   },
   {
     "de": "Komm her!",
-    "lv": "Poď sem!",
+    "lv": "Pojď sem!",
     "level": "Sätze"
   },
   {
     "de": "Könnte ich Frau N. sprechen?",
-    "lv": "Môžem hovoriť s pani N.?",
+    "lv": "Mohl bych mluvit s paní N.?",
     "level": "Sätze"
   },
   {
     "de": "Was kostet das?",
-    "lv": "Ile to kosztuje?",
+    "lv": "Kolik to stojí?",
     "level": "Sätze"
   },
   {
     "de": "Wie lange dauert die Vorstellung?",
-    "lv": "Jak długo będzie trwał występ?",
+    "lv": "Jak dlouho vystoupení potrvá?",
     "level": "Sätze"
   },
   {
     "de": "Lass das!",
-    "lv": "Przestań! • Rzuć to!",
+    "lv": "Přestaň! • Pusťte to!",
     "level": "Sätze"
   },
   {
     "de": "Lass mich in Ruhe!",
-    "lv": "Nechajte ma na pokoji!",
+    "lv": "Nech mě být!",
     "level": "Sätze"
   },
   {
     "de": "Lassen Sie mich Ihnen helfen!",
-    "lv": "Pozwól, że ci pomogę!",
+    "lv": "Dovolte mi, abych vám pomohl!",
     "level": "Sätze"
   },
   {
     "de": "Lasst uns gehen!",
-    "lv": "Chodźmy!",
+    "lv": "Jdeme na to!",
     "level": "Sätze"
   },
   {
     "de": "Na, wie läufts?",
-    "lv": "Ako sa máš",
+    "lv": "Jak se máte",
     "level": "Sätze"
   },
   {
     "de": "Es lebe!",
-    "lv": "Nech žije!",
+    "lv": "Ať žije!",
     "level": "Sätze"
   },
   {
     "de": "Leben Sie wohl!",
-    "lv": "Żyj zdrowo! • Do widzenia!",
+    "lv": "Žijte zdravě! • Sbohem!",
     "level": "Sätze"
   },
   {
     "de": "Was ist los?",
-    "lv": "Čo sa stalo?",
+    "lv": "Co se stalo?",
     "level": "Sätze"
   },
   {
     "de": "Der Job ist anstrengend.",
-    "lv": "Práca je vyčerpávajúca.",
+    "lv": "Práce je vyčerpávající.",
     "level": "Sätze"
   },
   {
     "de": "Das war ein anstrengender Tag.",
-    "lv": "To był pracowity dzień.",
+    "lv": "Byl to rušný den.",
     "level": "Sätze"
   },
   {
     "de": "Deutsch lernen kann anstrengend sein.",
-    "lv": "Učenie nemčiny môže byť vyčerpávajúce.",
+    "lv": "Učení němčiny může být vyčerpávající.",
     "level": "Sätze"
   },
   {
     "de": "Er verlangt eine Erklärung.",
-    "lv": "Żąda wyjaśnień.",
+    "lv": "Požaduje vysvětlení.",
     "level": "Sätze"
   },
   {
     "de": "Der Verkäufer verlangt zu viel Geld.",
-    "lv": "Sprzedawca żąda za dużo pieniędzy.",
+    "lv": "Prodejce požaduje příliš mnoho peněz.",
     "level": "Sätze"
   },
   {
     "de": "Das Gesetz verlangt es so.",
-    "lv": "Wymaga tego prawo.",
+    "lv": "Zákon to vyžaduje.",
     "level": "Sätze"
   },
   {
     "de": "Das ist gar nicht so schwer.",
-    "lv": "To wcale nie jest takie trudne.",
+    "lv": "Není to vůbec tak těžké.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe gar kein Geld.",
-    "lv": "W ogóle nie mam pieniędzy.",
+    "lv": "Nemám vůbec žádné peníze.",
     "level": "Sätze"
   },
   {
     "de": "Er hat gar nichts gesagt.",
-    "lv": "W ogóle nic nie powiedział.",
+    "lv": "Neřekl vůbec nic.",
     "level": "Sätze"
   },
   {
     "de": "Der Hund ist los.",
-    "lv": "Pies został wypuszczony.",
+    "lv": "Pes byl propuštěn.",
     "level": "Sätze"
   },
   {
     "de": "Hier ist viel los.",
-    "lv": "Dużo się tu dzieje.",
+    "lv": "Tady se toho děje hodně.",
     "level": "Sätze"
   },
   {
     "de": "Halt die Luft an!",
-    "lv": "Wstrzymaj oddech!",
+    "lv": "Zadržte dech!",
     "level": "Sätze"
   },
   {
     "de": "Was machst du?",
-    "lv": "Čo to robíš",
+    "lv": "Co to děláš",
     "level": "Sätze"
   },
   {
     "de": "Sag mal!",
-    "lv": "Powiedz tak!",
+    "lv": "Řekni ano!",
     "level": "Sätze"
   },
   {
     "de": "Was meinen Sie damit?",
-    "lv": "Co przez to rozumiesz? • Co o tym myślisz?",
+    "lv": "Co tím myslíš? • Co si myslíte?",
     "level": "Sätze"
   },
   {
     "de": "Wir gehen mit Ihnen.",
-    "lv": "Idziemy z tobą.",
+    "lv": "Jdeme s vámi.",
     "level": "Sätze"
   },
   {
     "de": "Ich fahre mit der Eisenbahn.",
-    "lv": "Cestujem vlakom.",
+    "lv": "Jedu vlakem.",
     "level": "Sätze"
   },
   {
     "de": "am Mittwoch",
-    "lv": "W środę",
+    "lv": "Ve středu",
     "level": "Sätze"
   },
   {
     "de": "Es mag sein.",
-    "lv": "Może.",
+    "lv": "Možná.",
     "level": "Sätze"
   },
   {
     "de": "Ich mag das nicht.",
-    "lv": "Nie podoba mi się to.",
+    "lv": "Nelíbí se mi to.",
     "level": "Sätze"
   },
   {
     "de": "am Montag",
-    "lv": "W poniedziałek",
+    "lv": "V pondělí",
     "level": "Sätze"
   },
   {
@@ -1536,92 +1536,92 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "am Morgen",
-    "lv": "V dopoludňajších hodinách",
+    "lv": "Ráno",
     "level": "Sätze"
   },
   {
     "de": "Gute Nacht!",
-    "lv": "Dobranoc!",
+    "lv": "Dobrou noc!",
     "level": "Sätze"
   },
   {
     "de": "Nehmen Sie Platz!",
-    "lv": "Usiąść!",
+    "lv": "Posaďte se!",
     "level": "Sätze"
   },
   {
     "de": "Letzte Neuheit!",
-    "lv": "Najnovšie správy!",
+    "lv": "Nejnovější zprávy!",
     "level": "Sätze"
   },
   {
     "de": "Nicht wahr?",
-    "lv": "Prawidłowy?",
+    "lv": "Právo?",
     "level": "Sätze"
   },
   {
     "de": "Nicht doch!",
-    "lv": "Nie, oczywiście! • Nie!",
+    "lv": "Ne, samozřejmě! • Ne!",
     "level": "Sätze"
   },
   {
     "de": "Nun endlich!",
-    "lv": "No wreszcie!",
+    "lv": "No konečně!",
     "level": "Sätze"
   },
   {
     "de": "Wozu nützt das?",
-    "lv": "Do czego to jest dobre?",
+    "lv": "K čemu je to dobré?",
     "level": "Sätze"
   },
   {
     "de": "Wozu nützt das alles?",
-    "lv": "Po co to wszystko?",
+    "lv": "K čemu to všechno je?",
     "level": "Sätze"
   },
   {
     "de": "Parken verboten!",
-    "lv": "Parkowanie jest zabronione!",
+    "lv": "Parkování je zakázáno!",
     "level": "Sätze"
   },
   {
     "de": "Nicht parken!",
-    "lv": "Parkowanie jest zabronione!",
+    "lv": "Parkování je zakázáno!",
     "level": "Sätze"
   },
   {
     "de": "Er hat Recht.",
-    "lv": "On ma rację.",
+    "lv": "Má pravdu.",
     "level": "Sätze"
   },
   {
     "de": "Wovon ist die Rede?",
-    "lv": "O co chodzi?",
+    "lv": "O co jde?",
     "level": "Sätze"
   },
   {
     "de": "Davon kann keine Rede sein.",
-    "lv": "To nie wchodzi w grę.",
+    "lv": "To nepřipadá v úvahu.",
     "level": "Sätze"
   },
   {
     "de": "Glückliche Reise!",
-    "lv": "Szczęśliwej podróży!",
+    "lv": "Šťastnou cestu!",
     "level": "Sätze"
   },
   {
     "de": "Mir reißt die Geduld.",
-    "lv": "Kończy mi się cierpliwość.",
+    "lv": "Už mi dochází trpělivost.",
     "level": "Sätze"
   },
   {
     "de": "Man sagt, dass...",
-    "lv": "Mówią, że...",
+    "lv": "Říkají, že...",
     "level": "Sätze"
   },
   {
     "de": "Schon gut!",
-    "lv": "Już jest dobrze!",
+    "lv": "Už je to dobré!",
     "level": "Sätze"
   },
   {
@@ -1631,172 +1631,172 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was bin ich schuldig?",
-    "lv": "Ile się należy? • Ile muszę zapłacić?",
+    "lv": "Kolik Vám dlužím? • Kolik musím zaplatit?",
     "level": "Sätze"
   },
   {
     "de": "Vor dem Gebrauch schütteln!",
-    "lv": "Wstrząsnąć przed użyciem!",
+    "lv": "Před použitím protřepat!",
     "level": "Sätze"
   },
   {
     "de": "Sehen Sie mal!",
-    "lv": "Spójrz!",
+    "lv": "Podívejte se!",
     "level": "Sätze"
   },
   {
     "de": "Wie sehr auch...",
-    "lv": "Ile...",
+    "lv": "Kolik...",
     "level": "Sätze"
   },
   {
     "de": "Seit wann?",
-    "lv": "Odkąd?",
+    "lv": "Od kdy?",
     "level": "Sätze"
   },
   {
     "de": "Was soll ich tun?",
-    "lv": "Co powinienem zrobić?",
+    "lv": "Co mám dělat?",
     "level": "Sätze"
   },
   {
     "de": "im Sommer",
-    "lv": "Latem",
+    "lv": "V létě",
     "level": "Sätze"
   },
   {
     "de": "Nicht nur..., sondern auch...",
-    "lv": "Nie tylko..., ale także...",
+    "lv": "Nejen... ale i...",
     "level": "Sätze"
   },
   {
     "de": "Sonst noch etwas?",
-    "lv": "Coś jeszcze?",
+    "lv": "Ještě něco?",
     "level": "Sätze"
   },
   {
     "de": "Spaß beiseite!",
-    "lv": "Bez żartów! • Żarty na krawędzi!",
+    "lv": "Žádný vtip! • Vtipy na hraně!",
     "level": "Sätze"
   },
   {
     "de": "Wie spät ist es?",
-    "lv": "Która godzina",
+    "lv": "Kolik je hodin",
     "level": "Sätze"
   },
   {
     "de": "Durchfahrt gesperrt!",
-    "lv": "Zakaz przejeżdżania!",
+    "lv": "Projíždění je zakázáno!",
     "level": "Sätze"
   },
   {
     "de": "Sprechen Sie deutsch?",
-    "lv": "Czy mówisz po niemiecku?",
+    "lv": "Mluvíte německy?",
     "level": "Sätze"
   },
   {
     "de": "Statt zu...",
-    "lv": "Zamiast...",
+    "lv": "Místo...",
     "level": "Sätze"
   },
   {
     "de": "Wie steht’s?",
-    "lv": "Ako sa máš",
+    "lv": "Jak se máte",
     "level": "Sätze"
   },
   {
     "de": "Dieser Hut steht ihr gut.",
-    "lv": "Ten kapelusz bardzo jej pasuje.",
+    "lv": "Ten klobouk jí sluší.",
     "level": "Sätze"
   },
   {
     "de": "Guten Tag!",
-    "lv": "Cześć!",
+    "lv": "Ahoj!",
     "level": "Sätze"
   },
   {
     "de": "Wo treffen wir uns?",
-    "lv": "Gdzie się spotkamy?",
+    "lv": "Kde se potkáme?",
     "level": "Sätze"
   },
   {
     "de": "Treten Sie näher!",
-    "lv": "Podejdź bliżej!",
+    "lv": "Pojď blíž!",
     "level": "Sätze"
   },
   {
     "de": "Ehrlichkeit ist eine Tugend.",
-    "lv": "Uczciwość jest cnotą.",
+    "lv": "Upřímnost je ctnost.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe viel zu tun.",
-    "lv": "Mám veľa práce.",
+    "lv": "Mám toho hodně na práci.",
     "level": "Sätze"
   },
   {
     "de": "Nicht übel!",
-    "lv": "Bardzo dobry! • Nie ma sprzeciwu",
+    "lv": "Velmi dobře! • Nejsou žádné námitky",
     "level": "Sätze"
   },
   {
     "de": "Er wohnt über mir.",
-    "lv": "Mieszka nade mną.",
+    "lv": "Bydlí nade mnou.",
     "level": "Sätze"
   },
   {
     "de": "Er ist davon überzeugt.",
-    "lv": "Jest tego pewien.",
+    "lv": "Je si tím jistý.",
     "level": "Sätze"
   },
   {
     "de": "So ist es üblich.",
-    "lv": "Jest to akceptowane.",
+    "lv": "Je to přijato.",
     "level": "Sätze"
   },
   {
     "de": "Deine Uhr geht nach.",
-    "lv": "Twój zegarek się spóźnił.",
+    "lv": "Vaše hodinky jsou pozadu.",
     "level": "Sätze"
   },
   {
     "de": "Wie viel Uhr ist es?",
-    "lv": "Która godzina?",
+    "lv": "Kolik je hodin?",
     "level": "Sätze"
   },
   {
     "de": "Um acht Uhr früh.",
-    "lv": "O ósmej rano.",
+    "lv": "V osm hodin ráno.",
     "level": "Sätze"
   },
   {
     "de": "umso mehr",
-    "lv": "Tym bardziej",
+    "lv": "Tím více",
     "level": "Sätze"
   },
   {
     "de": "Rechts um!",
-    "lv": "Skręć w prawo!",
+    "lv": "Odbočte doprava!",
     "level": "Sätze"
   },
   {
     "de": "Und ob!",
-    "lv": "I co jeszcze!",
+    "lv": "A co ještě!",
     "level": "Sätze"
   },
   {
     "de": "und zwar",
-    "lv": "Mianowicie",
+    "lv": "A to",
     "level": "Sätze"
   },
   {
     "de": "Auf Unkosten von...",
-    "lv": "Kosztem...",
+    "lv": "Na úkor...",
     "level": "Sätze"
   },
   {
     "de": "Er saß unter den Zuschauern.",
-    "lv": "Usiadł wśród publiczności.",
+    "lv": "Seděl mezi publikem.",
     "level": "Sätze"
   },
   {
@@ -1806,262 +1806,262 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es geschah, wie verabredet.",
-    "lv": "Stało się zgodnie z ustaleniami.",
+    "lv": "Stalo se tak, jak bylo domluveno.",
     "level": "Sätze"
   },
   {
     "de": "Rauchen verboten!",
-    "lv": "Palenie jest zabronione!",
+    "lv": "Kouření je zakázáno!",
     "level": "Sätze"
   },
   {
     "de": "Falsch verbunden!",
-    "lv": "Błędne połączenie!",
+    "lv": "Špatné připojení!",
     "level": "Sätze"
   },
   {
     "de": "Eintritt verboten!",
-    "lv": "Zakaz wstępu!",
+    "lv": "Vstup zakázán!",
     "level": "Sätze"
   },
   {
     "de": "Verstehen Sie mich?",
-    "lv": "Czy mnie rozumiesz?",
+    "lv": "Rozumíš mi?",
     "level": "Sätze"
   },
   {
     "de": "Er versteht nichts davon.",
-    "lv": "Nic z tego nie rozumie.",
+    "lv": "Nic z toho nechápe.",
     "level": "Sätze"
   },
   {
     "de": "Seine Ansicht vertreten.",
-    "lv": "Broń swojego zdania.",
+    "lv": "Obhajujte svůj názor.",
     "level": "Sätze"
   },
   {
     "de": "Streit verursachen.",
-    "lv": "Wywołaj kłótnię.",
+    "lv": "Vyvolat hádku.",
     "level": "Sätze"
   },
   {
     "de": "Viel besser.",
-    "lv": "Znacznie lepiej.",
+    "lv": "Mnohem lepší.",
     "level": "Sätze"
   },
   {
     "de": "Zu viel.",
-    "lv": "Za dużo.",
+    "lv": "Příliš mnoho.",
     "level": "Sätze"
   },
   {
     "de": "Vom Hörensagen.",
-    "lv": "Po przesłuchaniu.",
+    "lv": "Po vyslechnutí.",
     "level": "Sätze"
   },
   {
     "de": "Von Zeit zu Zeit.",
-    "lv": "Niekiedy.",
+    "lv": "Čas od času.",
     "level": "Sätze"
   },
   {
     "de": "Von Beruf.",
-    "lv": "Podľa povolania.",
+    "lv": "Podle povolání.",
     "level": "Sätze"
   },
   {
     "de": "Er ist Berliner von Geburt.",
-    "lv": "Je rodený Berlíňan.",
+    "lv": "Je rodem Berlíňan.",
     "level": "Sätze"
   },
   {
     "de": "Er steht vor dem Fenster.",
-    "lv": "Stoi przy oknie.",
+    "lv": "Stojí u okna.",
     "level": "Sätze"
   },
   {
     "de": "Vor Sonnenaufgang.",
-    "lv": "Przed wschodem słońca.",
+    "lv": "Před východem slunce.",
     "level": "Sätze"
   },
   {
     "de": "Vor vierzehn Tagen.",
-    "lv": "Dwa tygodnie temu.",
+    "lv": "Před dvěma týdny.",
     "level": "Sätze"
   },
   {
     "de": "Vor Freude.",
-    "lv": "Dla zabawy.",
+    "lv": "Pro zábavu.",
     "level": "Sätze"
   },
   {
     "de": "Vor allem.",
-    "lv": "Przede wszystkim. • Przede wszystkim",
+    "lv": "Především. • Především",
     "level": "Sätze"
   },
   {
     "de": "Im Voraus.",
-    "lv": "Poprzednio.",
+    "lv": "Dříve.",
     "level": "Sätze"
   },
   {
     "de": "Unter der Voraussetzung, dass...",
-    "lv": "Zakładając, że...",
+    "lv": "Za předpokladu, že...",
     "level": "Sätze"
   },
   {
     "de": "Unter dem Vorbehalt.",
-    "lv": "Podmienečne.",
+    "lv": "Podmíněně.",
     "level": "Sätze"
   },
   {
     "de": "Vorhanden sein.",
-    "lv": "Być. • Bądź obecny • Bądź dostępny",
+    "lv": "Být. • Buďte přítomni • Buďte k dispozici",
     "level": "Sätze"
   },
   {
     "de": "In der vorigen Woche.",
-    "lv": "Ostatni tydzień.",
+    "lv": "Minulý týden.",
     "level": "Sätze"
   },
   {
     "de": "Vorkehrungen treffen.",
-    "lv": "Podejmij działania ochronne.",
+    "lv": "Přijměte opatření na ochranu.",
     "level": "Sätze"
   },
   {
     "de": "Sie kommt mir bekannt vor.",
-    "lv": "Wygląda mi znajomo.",
+    "lv": "Připadá mi povědomá.",
     "level": "Sätze"
   },
   {
     "de": "Er hat Vorliebe für Literatur.",
-    "lv": "Bardzo lubi literaturę.",
+    "lv": "Má velmi rád literaturu.",
     "level": "Sätze"
   },
   {
     "de": "Heute Vormittag.",
-    "lv": "Dziś rano. • Dziś rano",
+    "lv": "Dnes ráno. • Dnes ráno",
     "level": "Sätze"
   },
   {
     "de": "Von vorn.",
-    "lv": "Od przodu.",
+    "lv": "Zepředu.",
     "level": "Sätze"
   },
   {
     "de": "Nach vorn.",
-    "lv": "Do przodu.",
+    "lv": "Vpřed.",
     "level": "Sätze"
   },
   {
     "de": "Von vornherein.",
-    "lv": "Na samym początku.",
+    "lv": "Na úplném začátku.",
     "level": "Sätze"
   },
   {
     "de": "Im Vorteil sein.",
-    "lv": "Bądź w lepszej sytuacji.",
+    "lv": "Buďte v lepší pozici.",
     "level": "Sätze"
   },
   {
     "de": "Wach sein.",
-    "lv": "Być przytomnym.",
+    "lv": "Být vzhůru.",
     "level": "Sätze"
   },
   {
     "de": "Wach werden.",
-    "lv": "Budzić się.",
+    "lv": "Probuď se.",
     "level": "Sätze"
   },
   {
     "de": "Auf Wache sein.",
-    "lv": "Stań na straży.",
+    "lv": "Stůj na stráži.",
     "level": "Sätze"
   },
   {
     "de": "Während eines Jahres.",
-    "lv": "W ciągu roku.",
+    "lv": "V průběhu roku.",
     "level": "Sätze"
   },
   {
     "de": "Während des Krieges.",
-    "lv": "Podczas wojny.",
+    "lv": "Během války.",
     "level": "Sätze"
   },
   {
     "de": "Gegen eine Wand reden.",
-    "lv": "Rozmawiaj na próżno.",
+    "lv": "Marné řeči.",
     "level": "Sätze"
   },
   {
     "de": "Hier haben die Wände Ohren.",
-    "lv": "Tutaj ściany mają uszy.",
+    "lv": "Tady mají stěny uši.",
     "level": "Sätze"
   },
   {
     "de": "Bis wann?",
-    "lv": "Do kiedy?",
+    "lv": "Do kdy?",
     "level": "Sätze"
   },
   {
     "de": "Es ist warm.",
-    "lv": "Jest ciepło.",
+    "lv": "Je teplo.",
     "level": "Sätze"
   },
   {
     "de": "Auf eine Nachricht warten.",
-    "lv": "Poczekaj na wiadomość.",
+    "lv": "Počkejte na zprávu.",
     "level": "Sätze"
   },
   {
     "de": "Was wollen Sie?",
-    "lv": "Čo chcete?",
+    "lv": "Co chceš?",
     "level": "Sätze"
   },
   {
     "de": "Was für ein...?",
-    "lv": "Kto...? • A co z...?",
+    "lv": "SZO...? • A co...?",
     "level": "Sätze"
   },
   {
     "de": "Auf halbem Wege.",
-    "lv": "Wpół.",
+    "lv": "V půli cesty.",
     "level": "Sätze"
   },
   {
     "de": "Auf diesem Wege.",
-    "lv": "W ten sposób. • O takie fundusze",
+    "lv": "Takhle. • Za takové prostředky",
     "level": "Sätze"
   },
   {
     "de": "Auf friedlichem Wege.",
-    "lv": "Na ścieżce pokoju.",
+    "lv": "Na cestě míru.",
     "level": "Sätze"
   },
   {
     "de": "Unserer Freundschaft wegen.",
-    "lv": "Z powodu naszej przyjaźni.",
+    "lv": "Kvůli našemu přátelství.",
     "level": "Sätze"
   },
   {
     "de": "Von Rechts wegen.",
-    "lv": "Przez sprawiedliwość.",
+    "lv": "Spravedlností.",
     "level": "Sätze"
   },
   {
     "de": "Weh tun.",
-    "lv": "Zaboleć.",
+    "lv": "Ublížit.",
     "level": "Sätze"
   },
   {
     "de": "Zu Weihnachten.",
-    "lv": "Na Boże Narodzenie.",
+    "lv": "O Vánocích.",
     "level": "Sätze"
   },
   {
     "de": "Auf welche Weise?",
-    "lv": "W jaki sposób?",
+    "lv": "Jakým způsobem?",
     "level": "Sätze"
   },
   {
@@ -2071,687 +2071,687 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ohne weiteres.",
-    "lv": "Natychmiast. • Natychmiast",
+    "lv": "Ihned. • Okamžitě",
     "level": "Sätze"
   },
   {
     "de": "Bis auf weiteres.",
-    "lv": "Do odwołania.",
+    "lv": "Do odvolání.",
     "level": "Sätze"
   },
   {
     "de": "Und so weiter.",
-    "lv": "I tak dalej.",
+    "lv": "A tak dále.",
     "level": "Sätze"
   },
   {
     "de": "Weiter nichts.",
-    "lv": "Nic więcej.",
+    "lv": "Nic víc.",
     "level": "Sätze"
   },
   {
     "de": "An welchem Tag?",
-    "lv": "Którego dnia?",
+    "lv": "Který den?",
     "level": "Sätze"
   },
   {
     "de": "Alle Welt.",
-    "lv": "Cały świat. • Wszyscy",
+    "lv": "Celý svět. • Všichni",
     "level": "Sätze"
   },
   {
     "de": "In wenigen Tagen.",
-    "lv": "Za kilka dni.",
+    "lv": "V některých dnech.",
     "level": "Sätze"
   },
   {
     "de": "Zu wenig.",
-    "lv": "Za mało.",
+    "lv": "Příliš málo.",
     "level": "Sätze"
   },
   {
     "de": "Wenn auch.",
-    "lv": "Chociaż.",
+    "lv": "Ačkoli.",
     "level": "Sätze"
   },
   {
     "de": "Wer da?",
-    "lv": "Co tam jest?",
+    "lv": "Co je tam?",
     "level": "Sätze"
   },
   {
     "de": "Gesammelte Werke von Schiller.",
-    "lv": "Pisma zebrane Schillera.",
+    "lv": "Schillerovy sebrané spisy.",
     "level": "Sätze"
   },
   {
     "de": "Ausgewählte Werke.",
-    "lv": "Wybór prac.",
+    "lv": "Výběr děl.",
     "level": "Sätze"
   },
   {
     "de": "Er ist wert, dass...",
-    "lv": "On zasługuje na...",
+    "lv": "Zaslouží si...",
     "level": "Sätze"
   },
   {
     "de": "Es ist zwei Euro wert.",
-    "lv": "Kosztuje dwa euro.",
+    "lv": "Stojí to dvě eura.",
     "level": "Sätze"
   },
   {
     "de": "Nach Westen.",
-    "lv": "Na zachód.",
+    "lv": "Na západ.",
     "level": "Sätze"
   },
   {
     "de": "Von Westen.",
-    "lv": "Od zachodu.",
+    "lv": "Ze západu.",
     "level": "Sätze"
   },
   {
     "de": "In Wettbewerb treten.",
-    "lv": "Weź udział w konkursie.",
+    "lv": "Zapojte se do soutěže.",
     "level": "Sätze"
   },
   {
     "de": "Um die Wette laufen.",
-    "lv": "Uruchom wyścig.",
+    "lv": "Běžte závod.",
     "level": "Sätze"
   },
   {
     "de": "Was gilt die Wette?",
-    "lv": "O co się targujemy?",
+    "lv": "O čem vyjednáváme?",
     "level": "Sätze"
   },
   {
     "de": "Wie wird das Wetter?",
-    "lv": "Aké je počasie?",
+    "lv": "Jaké bude počasí?",
     "level": "Sätze"
   },
   {
     "de": "Wettkampf im Turnen.",
-    "lv": "Zawody w gimnastyce.",
+    "lv": "Závody v gymnastice.",
     "level": "Sätze"
   },
   {
     "de": "Wider meinen Willen.",
-    "lv": "Wbrew mojej woli.",
+    "lv": "Proti mé vůli.",
     "level": "Sätze"
   },
   {
     "de": "Widerspruch erheben.",
-    "lv": "Aby zaprotestować. • Zgłoś sprzeciw",
+    "lv": "Na protest. • Vznést námitky",
     "level": "Sätze"
   },
   {
     "de": "Wie alt ist er?",
-    "lv": "Ile on ma lat?",
+    "lv": "Jak je starý?",
     "level": "Sätze"
   },
   {
     "de": "Wie lange?",
-    "lv": "Jak długo",
+    "lv": "Jak dlouho",
     "level": "Sätze"
   },
   {
     "de": "Auf Wiederhören!",
-    "lv": "Do widzenia!",
+    "lv": "Sbohem!",
     "level": "Sätze"
   },
   {
     "de": "Auf Wiedersehen!",
-    "lv": "Do widzenia!",
+    "lv": "Sbohem!",
     "level": "Sätze"
   },
   {
     "de": "Wilde Tiere.",
-    "lv": "Dzikie zwierzęta.",
+    "lv": "Divoká zvířata.",
     "level": "Sätze"
   },
   {
     "de": "Herzlich willkommen!",
-    "lv": "Serdecznie pozdrawiam!",
+    "lv": "Srdečné pozdravy!",
     "level": "Sätze"
   },
   {
     "de": "Du musst ziehen.",
-    "lv": "Masz ruch.",
+    "lv": "Máš tah.",
     "level": "Sätze"
   },
   {
     "de": "Es zieht.",
-    "lv": "Ciągnąć",
+    "lv": "SEM",
     "level": "Sätze"
   },
   {
     "de": "Ziemlich kalt.",
-    "lv": "Całkiem zimno.",
+    "lv": "Docela chladno.",
     "level": "Sätze"
   },
   {
     "de": "Zipfel einer Wurst.",
-    "lv": "Końcówka kiełbasy.",
+    "lv": "Tip na klobásu.",
     "level": "Sätze"
   },
   {
     "de": "Zu ihm gehen.",
-    "lv": "Idź do niego.",
+    "lv": "Jdi k němu.",
     "level": "Sätze"
   },
   {
     "de": "Zur Schule gehen.",
-    "lv": "Uczęszczać.",
+    "lv": "Jdi do školy.",
     "level": "Sätze"
   },
   {
     "de": "Zu Hause bleiben.",
-    "lv": "Siedzieć w domu.",
+    "lv": "Zůstaňte doma.",
     "level": "Sätze"
   },
   {
     "de": "Von Tag zu Tag.",
-    "lv": "Na co dzień.",
+    "lv": "Na denní bázi.",
     "level": "Sätze"
   },
   {
     "de": "Zum Glück.",
-    "lv": "Na szczęście.",
+    "lv": "Naštěstí.",
     "level": "Sätze"
   },
   {
     "de": "Wasser zum Trinken.",
-    "lv": "Woda do picia.",
+    "lv": "Voda na pití.",
     "level": "Sätze"
   },
   {
     "de": "Zu Fuß.",
-    "lv": "Na nogi.",
+    "lv": "Pro nohy.",
     "level": "Sätze"
   },
   {
     "de": "Zu Pferde.",
-    "lv": "Áno.",
+    "lv": "Ano.",
     "level": "Sätze"
   },
   {
     "de": "Zu Rad.",
-    "lv": "Rowerem.",
+    "lv": "Na kole.",
     "level": "Sätze"
   },
   {
     "de": "Es hörte auf zu regnen.",
-    "lv": "Przestało padać.",
+    "lv": "Přestalo pršet.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe noch viel zu tun.",
-    "lv": "Stále mám veľa práce.",
+    "lv": "Mám toho ještě hodně na práci.",
     "level": "Sätze"
   },
   {
     "de": "Zu früh.",
-    "lv": "Za wcześnie.",
+    "lv": "Příliš brzy.",
     "level": "Sätze"
   },
   {
     "de": "Zu groß.",
-    "lv": "Za duży.",
+    "lv": "Příliš velké.",
     "level": "Sätze"
   },
   {
     "de": "Mit den Achseln zucken.",
-    "lv": "Wzruszać ramionami.",
+    "lv": "Pokrčit rameny.",
     "level": "Sätze"
   },
   {
     "de": "In einem Zug trinken.",
-    "lv": "Wypij jednym haustem.",
+    "lv": "Vypijte jedním douškem.",
     "level": "Sätze"
   },
   {
     "de": "Zugrunde gehen.",
-    "lv": "Die.",
+    "lv": "Zahynout.",
     "level": "Sätze"
   },
   {
     "de": "Zugrunde legen.",
-    "lv": "Połóż na podstawie. • Weź jako podstawę.",
+    "lv": "Položte na základ. • Vezměte jako základ.",
     "level": "Sätze"
   },
   {
     "de": "Zum ersten Mal.",
-    "lv": "Po raz pierwszy.",
+    "lv": "Poprvé.",
     "level": "Sätze"
   },
   {
     "de": "Machen Sie bitte die Tür zu!",
-    "lv": "Proszę zamknąć drzwi!",
+    "lv": "Zavřete prosím dveře!",
     "level": "Sätze"
   },
   {
     "de": "Er hat zugenommen.",
-    "lv": "Przybrał na wadze.",
+    "lv": "Přibral.",
     "level": "Sätze"
   },
   {
     "de": "Die Tage nehmen zu.",
-    "lv": "Dni stają się coraz dłuższe.",
+    "lv": "Dny se prodlužují.",
     "level": "Sätze"
   },
   {
     "de": "Zusammenhängen mit etwas.",
-    "lv": "Być z czymś kojarzonym.",
+    "lv": "Být s něčím spojen.",
     "level": "Sätze"
   },
   {
     "de": "Die Tür ist zu.",
-    "lv": "Drzwi są zamknięte.",
+    "lv": "Dveře jsou zavřené.",
     "level": "Sätze"
   },
   {
     "de": "Das hätte ich ihm nicht zugetraut.",
-    "lv": "Nie spodziewałbym się tego po nim.",
+    "lv": "To bych od něj nečekal.",
     "level": "Sätze"
   },
   {
     "de": "Freier Zutritt.",
-    "lv": "Bezpłatny wstęp.",
+    "lv": "Vstup zdarma.",
     "level": "Sätze"
   },
   {
     "de": "Zutritt verboten!",
-    "lv": "Zakaz wstępu!",
+    "lv": "Vstup zakázán!",
     "level": "Sätze"
   },
   {
     "de": "Das ist zu viel!",
-    "lv": "To za dużo!",
+    "lv": "To je moc!",
     "level": "Sätze"
   },
   {
     "de": "Zuwider werden.",
-    "lv": "Stań się obrzydliwy. • Zachoruj",
+    "lv": "Staňte se nechutnými. • Onemocnět",
     "level": "Sätze"
   },
   {
     "de": "Und zwar.",
-    "lv": "Mianowicie.",
+    "lv": "A to.",
     "level": "Sätze"
   },
   {
     "de": "Es steht außer Zweifel.",
-    "lv": "Nie ma wątpliwości.",
+    "lv": "Není pochyb.",
     "level": "Sätze"
   },
   {
     "de": "Ohne Zweifel.",
-    "lv": "Bez zająknięnia.",
+    "lv": "Bez váhání.",
     "level": "Sätze"
   },
   {
     "de": "Zum Zweiten.",
-    "lv": "Po drugie.",
+    "lv": "Za druhé.",
     "level": "Sätze"
   },
   {
     "de": "Frohes neues Jahr!",
-    "lv": "Szczęśliwego nowego roku!",
+    "lv": "Šťastný nový rok!",
     "level": "Sätze"
   },
   {
     "de": "Herzlichen Glückwunsch zum Geburtstag!",
-    "lv": "Wszystkiego najlepszego z okazji urodzin!",
+    "lv": "Všechno nejlepší k narozeninám!",
     "level": "Sätze"
   },
   {
     "de": "Gute Reise!",
-    "lv": "Szczęśliwej podróży!",
+    "lv": "Šťastnou cestu!",
     "level": "Sätze"
   },
   {
     "de": "Es freut mich, Sie kennenzulernen.",
-    "lv": "Cieszę się, że cię poznałem.",
+    "lv": "Rád tě poznávám.",
     "level": "Sätze"
   },
   {
     "de": "Wären Sie bitte so nett?",
-    "lv": "Czy byłbyś tak miły?",
+    "lv": "Byl bys prosím tak laskav?",
     "level": "Sätze"
   },
   {
     "de": "Ich bin Ihnen sehr dankbar.",
-    "lv": "Jestem ci bardzo wdzięczny.",
+    "lv": "Jsem vám velmi vděčný.",
     "level": "Sätze"
   },
   {
     "de": "Setzt euch bitte hin!",
-    "lv": "Usiądź, proszę!",
+    "lv": "Posaďte se, prosím!",
     "level": "Sätze"
   },
   {
     "de": "Ben, komm bitte an die Tafel!",
-    "lv": "Ben, proszę podejdź do tablicy!",
+    "lv": "Bene, prosím, pojď k tabuli!",
     "level": "Sätze"
   },
   {
     "de": "Schlagt bitte die Lehrbücher auf!",
-    "lv": "Otwórz podręczniki, proszę!",
+    "lv": "Otevřete učebnice, prosím!",
     "level": "Sätze"
   },
   {
     "de": "Geht bitte in die Sporthalle!",
-    "lv": "Prosím, choďte do posilňovne!",
+    "lv": "Prosím, jděte do posilovny!",
     "level": "Sätze"
   },
   {
     "de": "Schläfst du noch?",
-    "lv": "Czy nadal śpisz?",
+    "lv": "Ještě spíš?",
     "level": "Sätze"
   },
   {
     "de": "Schlafen Sie noch?",
-    "lv": "Czy nadal śpisz?",
+    "lv": "Ty ještě spíš?",
     "level": "Sätze"
   },
   {
     "de": "Er ist fest eingeschlafen.",
-    "lv": "On szybko śpi.",
+    "lv": "Tvrdě spí.",
     "level": "Sätze"
   },
   {
     "de": "Wecke ihn bitte auf, es ist schon spät!",
-    "lv": "Proszę go obudzić, jest już późno!",
+    "lv": "Prosím, vzbuďte ho, už je pozdě!",
     "level": "Sätze"
   },
   {
     "de": "Es tut mir sehr leid!",
-    "lv": "Bardzo mi przykro!",
+    "lv": "Je mi to moc líto!",
     "level": "Sätze"
   },
   {
     "de": "Vielen Dank!",
-    "lv": "Veľké ďakujeeem!“",
+    "lv": "Děkuji mnohokrát!",
     "level": "Sätze"
   },
   {
     "de": "Finn, fang bitte an!",
-    "lv": "Finn, zacznij, proszę!",
+    "lv": "Finne, začni, prosím!",
     "level": "Sätze"
   },
   {
     "de": "Lest bitte mit!",
-    "lv": "Czytaj dalej, proszę!",
+    "lv": "Čtěte, prosím!",
     "level": "Sätze"
   },
   {
     "de": "Emma, schau bitte nicht aus dem Fenster!",
-    "lv": "Emmo, proszę, nie patrz przez okno!",
+    "lv": "Emmo, prosím, nedívej se z okna!",
     "level": "Sätze"
   },
   {
     "de": "Jonas, bring bitte die Hefte!",
-    "lv": "Jonas, proszę przynieść zeszyty!",
+    "lv": "Jonasi, prosím, přines sešity!",
     "level": "Sätze"
   },
   {
     "de": "Geh bitte zurück an deinen Platz!",
-    "lv": "Vráťte sa na svoje miesto!",
+    "lv": "Vraťte se na své místo!",
     "level": "Sätze"
   },
   {
     "de": "Es ist halb acht.",
-    "lv": "Jest wpół do siódmej.",
+    "lv": "Je půl osmé.",
     "level": "Sätze"
   },
   {
     "de": "Wann wachst du gewöhnlich auf?",
-    "lv": "Kiedy zwykle się budzisz?",
+    "lv": "Kdy obvykle vstáváš?",
     "level": "Sätze"
   },
   {
     "de": "Ich stehe gleich auf.",
-    "lv": "Zaraz wstanę.",
+    "lv": "Hned vstanu.",
     "level": "Sätze"
   },
   {
     "de": "Steh auf, Hanna, es klingelt!",
-    "lv": "Wstawaj, Hannah, dzwoni dzwonek!",
+    "lv": "Vstávej, Hannah, zvonek zvoní!",
     "level": "Sätze"
   },
   {
     "de": "Lass mich noch fünf Minuten schlafen!",
-    "lv": "Daj mi spać jeszcze pięć minut!",
+    "lv": "Nech mě spát ještě pět minut!",
     "level": "Sätze"
   },
   {
     "de": "Vergiss nicht, das Zimmer zu lüften!",
-    "lv": "Nie zapomnij o wietrzeniu pomieszczenia!",
+    "lv": "Nezapomeňte místnost větrat!",
     "level": "Sätze"
   },
   {
     "de": "Wo ist das Handtuch?",
-    "lv": "Gdzie jest ręcznik",
+    "lv": "Kde je ručník",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte mir die Zähne putzen.",
-    "lv": "Chcę umyć zęby.",
+    "lv": "Chci si vyčistit zuby.",
     "level": "Sätze"
   },
   {
     "de": "Mit was putzt du dir die Zähne?",
-    "lv": "Czym myjesz zęby?",
+    "lv": "Čím si čistíte zuby?",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte mich anziehen.",
-    "lv": "Chcę się ubrać.",
+    "lv": "Chci se obléknout.",
     "level": "Sätze"
   },
   {
     "de": "Zieh dich bitte schnell an!",
-    "lv": "Ubierz się szybko, proszę!",
+    "lv": "Rychle se obleč, prosím!",
     "level": "Sätze"
   },
   {
     "de": "Kleide dich wärmer an, draußen ist es kühl.",
-    "lv": "Ubierz się ciepło, na zewnątrz jest zimno.",
+    "lv": "Teple se oblečte, venku je zima.",
     "level": "Sätze"
   },
   {
     "de": "Guten Morgen, wie geht es dir?",
-    "lv": "Dzień dobry, jak się masz?",
+    "lv": "Dobré ráno, jak se máš?",
     "level": "Sätze"
   },
   {
     "de": "Mir geht es gut, danke.",
-    "lv": "Nic mi nie jest, dziękuję.",
+    "lv": "Mám se dobře, díky.",
     "level": "Sätze"
   },
   {
     "de": "Was gibt es Neues?",
-    "lv": "Co nowego?",
+    "lv": "Co je nového?",
     "level": "Sätze"
   },
   {
     "de": "Was für ein Chaos hier!",
-    "lv": "Cóż tu za bałagan!",
+    "lv": "Jaký je tady nepořádek!",
     "level": "Sätze"
   },
   {
     "de": "Darf ich beim Aufräumen helfen?",
-    "lv": "Czy mogę pomóc w sprzątaniu?",
+    "lv": "Mohu pomoci uklidit?",
     "level": "Sätze"
   },
   {
     "de": "Was trinkst du morgens, Kaffee oder Tee?",
-    "lv": "Co pijesz rano, kawę czy herbatę?",
+    "lv": "Co piješ ráno, kávu nebo čaj?",
     "level": "Sätze"
   },
   {
     "de": "Gewöhnlich trinke ich morgens eine Tasse Kaffee.",
-    "lv": "Zwykle rano piję filiżankę kawy.",
+    "lv": "Ráno obvykle piju šálek kávy.",
     "level": "Sätze"
   },
   {
     "de": "Am liebsten trinke ich schwarzen Kaffee.",
-    "lv": "Najlepiej piję czarną kawę.",
+    "lv": "Nejlépe piju černou kávu.",
     "level": "Sätze"
   },
   {
     "de": "Guten Morgen, hast du gut geschlafen?",
-    "lv": "Dobrý deň, dobre ste sa vyspali?",
+    "lv": "Dobré ráno, vyspali jste se dobře?",
     "level": "Sätze"
   },
   {
     "de": "Ich bin noch sehr müde.",
-    "lv": "Nadal jestem bardzo zmęczony.",
+    "lv": "Jsem stále velmi unavený.",
     "level": "Sätze"
   },
   {
     "de": "Willst du Kaffee oder Milch?",
-    "lv": "Chcesz kawę czy mleko?",
+    "lv": "Dáš si kávu nebo mléko?",
     "level": "Sätze"
   },
   {
     "de": "Gib mir bitte ein Brötchen mit Käse.",
-    "lv": "Proszę, daj mi bułkę serową.",
+    "lv": "Dejte mi sýrovou buchtu, prosím.",
     "level": "Sätze"
   },
   {
     "de": "Ich muss jetzt los!",
-    "lv": "Muszę już iść!",
+    "lv": "Už musím jít!",
     "level": "Sätze"
   },
   {
     "de": "Vergiss dein Frühstück nicht!",
-    "lv": "Nie zapomnij o śniadaniu!",
+    "lv": "Nezapomeňte na snídani!",
     "level": "Sätze"
   },
   {
     "de": "Klara, deck bitte den Tisch!",
-    "lv": "Clara, proszę nakryć do stołu!",
+    "lv": "Claro, prosím prostřeš stůl!",
     "level": "Sätze"
   },
   {
     "de": "Vergiss die Servietten nicht!",
-    "lv": "Nie zapomnij o serwetkach!",
+    "lv": "Nezapomeňte na ubrousky!",
     "level": "Sätze"
   },
   {
     "de": "Wann esst ihr zu Mittag?",
-    "lv": "Kiedy jesz lunch",
+    "lv": "Kdy obědváš",
     "level": "Sätze"
   },
   {
     "de": "Es ist Zeit zu essen.",
-    "lv": "Czas jeść.",
+    "lv": "Je čas jíst.",
     "level": "Sätze"
   },
   {
     "de": "Was gibt es heute zu Mittag?",
-    "lv": "Co dzisiaj na lunch?",
+    "lv": "Co je dnes k obědu?",
     "level": "Sätze"
   },
   {
     "de": "Wie schmeckt dir die Suppe?",
-    "lv": "Jak ci się podoba zupa?",
+    "lv": "Jak vám chutná polévka?",
     "level": "Sätze"
   },
   {
     "de": "Ehrlich gesagt ist sie etwas zu salzig.",
-    "lv": "Szczerze mówiąc, jest odrobinę za słony.",
+    "lv": "Upřímně řečeno, je to trochu příliš slané.",
     "level": "Sätze"
   },
   {
     "de": "Darf ich dir ein Stück Brot geben?",
-    "lv": "Czy mogę dać ci kromkę chleba?",
+    "lv": "Můžu ti dát krajíc chleba?",
     "level": "Sätze"
   },
   {
     "de": "Danke, ich habe schon.",
-    "lv": "Dziękuję, już to zrobiłem.",
+    "lv": "Díky, už mám.",
     "level": "Sätze"
   },
   {
     "de": "Das Fleisch schmeckt ausgezeichnet.",
-    "lv": "Mięso smakuje wyśmienicie.",
+    "lv": "Maso chutná skvěle.",
     "level": "Sätze"
   },
   {
     "de": "Danke, ich bin schon satt.",
-    "lv": "Dziękuję, już jestem pełny.",
+    "lv": "Díky, už mám plno.",
     "level": "Sätze"
   },
   {
     "de": "Heute haben wir Besuch.",
-    "lv": "Dziś mamy gości.",
+    "lv": "Dnes máme návštěvníky.",
     "level": "Sätze"
   },
   {
     "de": "Bist du heute Abend frei?",
-    "lv": "Czy jesteś wolny dziś wieczorem?",
+    "lv": "Máš dnes večer volno",
     "level": "Sätze"
   },
   {
     "de": "Komm doch heute zum Mittagessen vorbei!",
-    "lv": "Przyjdź dziś na lunch!",
+    "lv": "Přijďte dnes na oběd!",
     "level": "Sätze"
   },
   {
     "de": "Setzen wir uns an den Tisch.",
-    "lv": "Usiądźmy przy stole.",
+    "lv": "Sedneme si ke stolu.",
     "level": "Sätze"
   },
   {
     "de": "Bitte, bedien dich!",
-    "lv": "Proszę, jedz tyle, ile chcesz!",
+    "lv": "Jezte, prosím, kolik chcete!",
     "level": "Sätze"
   },
   {
     "de": "Stört dich das Rauchen?",
-    "lv": "Czy palenie Ci przeszkadza?",
+    "lv": "Vadí vám kouření?",
     "level": "Sätze"
   },
   {
     "de": "Danke für die nette Aufnahme!",
-    "lv": "Dziękuję za ciepłe powitanie!",
+    "lv": "Děkujeme za vřelé přivítání!",
     "level": "Sätze"
   },
   {
     "de": "Wann gehst du ins Bett?",
-    "lv": "Keď idete spať",
+    "lv": "Kdy jdeš spát",
     "level": "Sätze"
   },
   {
     "de": "Wenn ich von der Arbeit komme, bin ich immer müde.",
-    "lv": "Zawsze jestem zmęczony, kiedy wracam do domu z pracy.",
+    "lv": "Jsem vždy unavený, když přijdu z práce.",
     "level": "Sätze"
   },
   {
     "de": "Es ist Zeit, ins Bett zu gehen.",
-    "lv": "Czas iść spać.",
+    "lv": "Je čas jít spát.",
     "level": "Sätze"
   },
   {
     "de": "Es ist schönes Wetter.",
-    "lv": "To miły czas.",
+    "lv": "Je to pěkný čas.",
     "level": "Sätze"
   },
   {
     "de": "Willst du mit mir spazieren gehen?",
-    "lv": "Czy chcesz iść ze mną?",
+    "lv": "Chceš jít se mnou?",
     "level": "Sätze"
   },
   {
     "de": "Sieh mal, es wird gleich regnen.",
-    "lv": "Spójrz, wkrótce będzie padać.",
+    "lv": "Podívej, brzy bude pršet.",
     "level": "Sätze"
   },
   {
     "de": "Nimm den Regenschirm mit!",
-    "lv": "Zabierz ze sobą parasol!",
+    "lv": "Vezměte si s sebou deštník!",
     "level": "Sätze"
   },
   {
@@ -2761,1222 +2761,1222 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich bin schon ganz nass.",
-    "lv": "Jestem już całkowicie mokry.",
+    "lv": "Už jsem úplně mokrá.",
     "level": "Sätze"
   },
   {
     "de": "Glaubst du, dass es den ganzen Tag regnen wird?",
-    "lv": "Myślisz, że będzie padać przez cały dzień?",
+    "lv": "Myslíte, že bude celý den pršet?",
     "level": "Sätze"
   },
   {
     "de": "Es hört auf zu regnen.",
-    "lv": "Deszcz przestaje padać.",
+    "lv": "Déšť ustává.",
     "level": "Sätze"
   },
   {
     "de": "Die Sonne scheint wieder.",
-    "lv": "Znowu świeci słońce.",
+    "lv": "Už zase svítí sluníčko.",
     "level": "Sätze"
   },
   {
     "de": "Es ist sehr warm.",
-    "lv": "Jest bardzo gorąco.",
+    "lv": "Je velmi horko.",
     "level": "Sätze"
   },
   {
     "de": "Es sieht nach Regen aus.",
-    "lv": "Wygląda na to, że będzie padać.",
+    "lv": "Vypadá to, že bude pršet.",
     "level": "Sätze"
   },
   {
     "de": "Wir bekommen gleich ein Gewitter.",
-    "lv": "Zaraz rozpęta się burza.",
+    "lv": "Čeká nás bouřka.",
     "level": "Sätze"
   },
   {
     "de": "Das Gewitter zieht vorüber.",
-    "lv": "Burza minęła.",
+    "lv": "Bouře přešla.",
     "level": "Sätze"
   },
   {
     "de": "Die Wolken verziehen sich.",
-    "lv": "Chmury się rozpraszają.",
+    "lv": "Mraky se rozptýlí.",
     "level": "Sätze"
   },
   {
     "de": "Siehst du den Regenbogen?",
-    "lv": "Widzisz tęczę?",
+    "lv": "Vidíš duhu?",
     "level": "Sätze"
   },
   {
     "de": "Der Winter ist da, es hat geschneit.",
-    "lv": "Nadeszła zima, w nocy padał śnieg.",
+    "lv": "Zima je tady, v noci sněžilo.",
     "level": "Sätze"
   },
   {
     "de": "Es schneit.",
-    "lv": "Pada śnieg.",
+    "lv": "Sněží.",
     "level": "Sätze"
   },
   {
     "de": "Wie schön ist es im Wald im Winter!",
-    "lv": "Jak pięknie jest w lesie zimą!",
+    "lv": "Jak je v zimě v lese krásně!",
     "level": "Sätze"
   },
   {
     "de": "Mir ist kalt, ich friere.",
-    "lv": "Jest mi zimno, marznę.",
+    "lv": "Je mi zima, mrznu.",
     "level": "Sätze"
   },
   {
     "de": "Draußen ist Glatteis, pass auf!",
-    "lv": "Na zewnątrz jest ślisko, uważajcie!",
+    "lv": "Venku to klouže, pozor!",
     "level": "Sätze"
   },
   {
     "de": "Wollen wir auf die Eisbahn gehen?",
-    "lv": "Może pójdziemy na łyżwy?",
+    "lv": "Půjdeme bruslit?",
     "level": "Sätze"
   },
   {
     "de": "Zieh die Jacke an, du kannst dich erkälten.",
-    "lv": "Załóż kurtkę, bo możesz się przeziębić.",
+    "lv": "Oblečte si bundu, mohli byste nastydnout.",
     "level": "Sätze"
   },
   {
     "de": "Es ist halb sieben.",
-    "lv": "Jest wpół do siódmej.",
+    "lv": "Je půl osmé.",
     "level": "Sätze"
   },
   {
     "de": "Meine Uhr geht fünf Minuten vor.",
-    "lv": "Mój zegarek śpieszy się pięć minut.",
+    "lv": "Moje hodinky jsou rychlé pět minut.",
     "level": "Sätze"
   },
   {
     "de": "Weck mich morgen früh um sieben Uhr!",
-    "lv": "Obudź mnie jutro o siódmej!",
+    "lv": "Vzbuď mě zítra v sedm hodin!",
     "level": "Sätze"
   },
   {
     "de": "Was ist heute für ein Datum?",
-    "lv": "Jaka jest dzisiaj data?",
+    "lv": "Jaké je dnes datum?",
     "level": "Sätze"
   },
   {
     "de": "Heute ist der elfte Juli.",
-    "lv": "Dziś jest jedenasty lipca.",
+    "lv": "Dnes je jedenáctého července.",
     "level": "Sätze"
   },
   {
     "de": "Was machst du gewöhnlich am Abend?",
-    "lv": "Co zwykle robisz wieczorami?",
+    "lv": "Co obvykle děláš po večerech?",
     "level": "Sätze"
   },
   {
     "de": "Es ist schon lange her, dass wir uns gesehen haben.",
-    "lv": "Nie spotykaliśmy się przez długi czas.",
+    "lv": "Dlouho jsme se neviděli.",
     "level": "Sätze"
   },
   {
     "de": "Wie geht es dir?",
-    "lv": "Ako sa máš",
+    "lv": "Jak se máte",
     "level": "Sätze"
   },
   {
     "de": "Entschuldige, ich möchte etwas mit dir besprechen.",
-    "lv": "Przepraszam, chcę z tobą o czymś porozmawiać.",
+    "lv": "Promiňte, chci s vámi něco probrat.",
     "level": "Sätze"
   },
   {
     "de": "Gehen wir spazieren!",
-    "lv": "Poďme sa prejsť!",
+    "lv": "Pojďme se projít!",
     "level": "Sätze"
   },
   {
     "de": "Hast du Lust, mit mir in den Park zu gehen?",
-    "lv": "Chcesz iść ze mną do parku?",
+    "lv": "Chceš jít se mnou do parku?",
     "level": "Sätze"
   },
   {
     "de": "Ich komme, um dich zum Spaziergang abzuholen.",
-    "lv": "Przyszedłem zabrać cię na spacer.",
+    "lv": "Přišel jsem tě vzít na procházku.",
     "level": "Sätze"
   },
   {
     "de": "Geh bitte etwas langsamer, ich kann dir nicht folgen!",
-    "lv": "Jedź trochę wolniej, nie nadążam za tobą!",
+    "lv": "Jdi trochu pomaleji, nestíhám s tebou!",
     "level": "Sätze"
   },
   {
     "de": "Ich bin zum ersten Mal in dieser Gegend.",
-    "lv": "Jestem tu po raz pierwszy.",
+    "lv": "Jsem tu poprvé.",
     "level": "Sätze"
   },
   {
     "de": "Ruhen wir uns ein wenig aus.",
-    "lv": "Odpocznijmy trochę.",
+    "lv": "Pojďme si trochu odpočinout.",
     "level": "Sätze"
   },
   {
     "de": "Jetzt können wir zurückgehen.",
-    "lv": "Teraz możemy wrócić.",
+    "lv": "Teď se můžeme vrátit.",
     "level": "Sätze"
   },
   {
     "de": "Ehrlich gesagt bin ich ziemlich müde.",
-    "lv": "Szczerze mówiąc, jestem dość zmęczony.",
+    "lv": "Upřímně, jsem docela unavený.",
     "level": "Sätze"
   },
   {
     "de": "Entschuldige, wo ist die nächste U-Bahn-Station?",
-    "lv": "Prepáčte, kde je najbližšia stanica metra?",
+    "lv": "Promiňte, kde je nejbližší stanice metra?",
     "level": "Sätze"
   },
   {
     "de": "Welcher ist der kürzeste Weg?",
-    "lv": "Która ścieżka jest najkrótsza?",
+    "lv": "Jaká je nejkratší cesta?",
     "level": "Sätze"
   },
   {
     "de": "Geh hier die zweite Straße links und dann immer geradeaus.",
-    "lv": "Tutaj skręć w drugą ulicę w lewo i jedź prosto.",
+    "lv": "Zde odbočte druhou ulicí doleva a jděte rovně.",
     "level": "Sätze"
   },
   {
     "de": "Wie komme ich am schnellsten zum Bahnhof?",
-    "lv": "Jak szybciej dotrzeć na stację?",
+    "lv": "Jak se rychleji dostat na nádraží?",
     "level": "Sätze"
   },
   {
     "de": "Ich habe vor, morgen zu verreisen.",
-    "lv": "Zamierzam wyjechać jutro.",
+    "lv": "Mám v úmyslu zítra odjet.",
     "level": "Sätze"
   },
   {
     "de": "Wohin willst du fahren?",
-    "lv": "Gdzie chcesz iść?",
+    "lv": "Kam chceš jít?",
     "level": "Sätze"
   },
   {
     "de": "Reist du geschäftlich oder privat?",
-    "lv": "Podróżujesz w celach zawodowych lub rekreacyjnych?",
+    "lv": "Cestujete za prací nebo za zábavou?",
     "level": "Sätze"
   },
   {
     "de": "Finn fährt bis Berlin mit, dann geht er ans Meer.",
-    "lv": "Finn ide do Berlína, potom k moru.",
+    "lv": "Finn jede do Berlína, pak pojede k moři.",
     "level": "Sätze"
   },
   {
     "de": "Wann fährt das Schiff ab?",
-    "lv": "Kiedy statek odpływa?",
+    "lv": "Kdy loď odplouvá?",
     "level": "Sätze"
   },
   {
     "de": "In einer halben Stunde.",
-    "lv": "Po pół godzinie.",
+    "lv": "Po půl hodině.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich noch eine Kabine bekommen?",
-    "lv": "Czy nadal mogę dostać kabinę?",
+    "lv": "Mohu ještě dostat chatu?",
     "level": "Sätze"
   },
   {
     "de": "Vergiss deinen Pass nicht!",
-    "lv": "Nie zapomnij paszportu!",
+    "lv": "Nezapomeňte si pas!",
     "level": "Sätze"
   },
   {
     "de": "Es ist Zeit, den Koffer zu packen.",
-    "lv": "Je čas zbaliť si kufor.",
+    "lv": "Je čas sbalit si kufr.",
     "level": "Sätze"
   },
   {
     "de": "Der Zug fährt um halb sieben ab.",
-    "lv": "Pociąg odjeżdża o wpół do siódmej.",
+    "lv": "Vlak odjíždí v půl osmé.",
     "level": "Sätze"
   },
   {
     "de": "Hol mir bitte ein Taxi, ich verpasse sonst den Zug!",
-    "lv": "Proszę zadzwonić po taksówkę, inaczej spóźnię się na pociąg!",
+    "lv": "Zavolej si taxi, prosím, jinak zmeškám vlak!",
     "level": "Sätze"
   },
   {
     "de": "Fahr bitte zum Bahnhof!",
-    "lv": "Proszę, zabierz mnie na stację!",
+    "lv": "Prosím, vezměte mě na stanici!",
     "level": "Sätze"
   },
   {
     "de": "Ich muss mich beeilen.",
-    "lv": "Muszę się spieszyć.",
+    "lv": "Musím si pospíšit.",
     "level": "Sätze"
   },
   {
     "de": "Ist der Schalter schon offen?",
-    "lv": "Czy kasa jest już otwarta?",
+    "lv": "Už je otevřená pokladna?",
     "level": "Sätze"
   },
   {
     "de": "Eine Fahrkarte nach Köln, bitte.",
-    "lv": "Poproszę jeden bilet do Kolonii.",
+    "lv": "Jeden lístek do Kolína, prosím.",
     "level": "Sätze"
   },
   {
     "de": "Wann fährt der Zug ab?",
-    "lv": "Kiedy odjeżdża pociąg?",
+    "lv": "Kdy jede vlak?",
     "level": "Sätze"
   },
   {
     "de": "Der Zug fährt gleich ab.",
-    "lv": "Pociąg wkrótce odjeżdża.",
+    "lv": "Vlak brzy odjíždí.",
     "level": "Sätze"
   },
   {
     "de": "Muss ich in Koblenz umsteigen?",
-    "lv": "Czy muszę zmieniać miejsce w Koblencji?",
+    "lv": "Musím v Koblenz změnit místo?",
     "level": "Sätze"
   },
   {
     "de": "Ja, dort musst du umsteigen.",
-    "lv": "Tak, musisz tam zmienić miejsce.",
+    "lv": "Ano, musíte si tam přesednout.",
     "level": "Sätze"
   },
   {
     "de": "Ist dieser Platz frei?",
-    "lv": "Czy to miejsce jest dostępne?",
+    "lv": "Je toto místo k dispozici?",
     "level": "Sätze"
   },
   {
     "de": "Nein, hier sitzt niemand.",
-    "lv": "Nie, nikt tu nie siedzi.",
+    "lv": "Ne, nikdo tu nesedí.",
     "level": "Sätze"
   },
   {
     "de": "Wo ist der Bahnsteigkartenautomat?",
-    "lv": "Kde je automat na lístky na nástupišti?",
+    "lv": "Kde je automat na jízdenky na nástupiště?",
     "level": "Sätze"
   },
   {
     "de": "Stell mein Handgepäck ins Gepäcknetz.",
-    "lv": "Umieść mój bagaż podręczny w siatce.",
+    "lv": "Dejte mi příruční zavazadlo do mřížky.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich das Fenster aufmachen?",
-    "lv": "Czy mogę otworzyć okno?",
+    "lv": "Smím otevřít okno?",
     "level": "Sätze"
   },
   {
     "de": "Es zieht, schließ bitte das Fenster!",
-    "lv": "Proszę przejść, proszę zamknąć okno!",
+    "lv": "Protáhněte se, prosím, zavřete okno!",
     "level": "Sätze"
   },
   {
     "de": "Welche ist die nächste Station?",
-    "lv": "Jaki jest następny przystanek?",
+    "lv": "Jaká je další zastávka?",
     "level": "Sätze"
   },
   {
     "de": "Wie lange hält der Zug?",
-    "lv": "Jak długo stoi pociąg?",
+    "lv": "Jak dlouho vlak stojí?",
     "level": "Sätze"
   },
   {
     "de": "Wo muss ich umsteigen?",
-    "lv": "Gdzie mam się przenieść?",
+    "lv": "Kam mám přestoupit?",
     "level": "Sätze"
   },
   {
     "de": "Der Zug hat Verspätung.",
-    "lv": "Pociąg się spóźnia.",
+    "lv": "Vlak má zpoždění.",
     "level": "Sätze"
   },
   {
     "de": "Dieser Wagen ist für Nichtraucher.",
-    "lv": "W tym wagonie obowiązuje zakaz palenia.",
+    "lv": "Tento kočár je nekuřácký.",
     "level": "Sätze"
   },
   {
     "de": "Wir fahren jetzt über die Grenze.",
-    "lv": "Teraz jedziemy przez granicę.",
+    "lv": "Teď jedeme přes hranice.",
     "level": "Sätze"
   },
   {
     "de": "Hast du etwas zu verzollen?",
-    "lv": "Czy masz coś do oczyszczenia?",
+    "lv": "Máte něco na vymazání?",
     "level": "Sätze"
   },
   {
     "de": "Wir sind in Berlin angekommen.",
-    "lv": "Dotarliśmy do Berlina.",
+    "lv": "Dorazili jsme do Berlína.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du mir ein gutes Hotel empfehlen?",
-    "lv": "Czy możecie polecić dobry hotel?",
+    "lv": "Můžete mi doporučit dobrý hotel?",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie freie Zimmer?",
-    "lv": "Czy masz wolne pokoje?",
+    "lv": "Máte volné pokoje?",
     "level": "Sätze"
   },
   {
     "de": "Ein Zimmer mit zwei Betten, bitte.",
-    "lv": "Prosím, izba s dvoma lôžkami.",
+    "lv": "Pokoj se dvěma lůžky, prosím.",
     "level": "Sätze"
   },
   {
     "de": "Was kostet das Zimmer pro Nacht?",
-    "lv": "Ile kosztuje pokój za noc?",
+    "lv": "Kolik stojí pokoj za noc?",
     "level": "Sätze"
   },
   {
     "de": "Morgen reise ich ab. Weck mich um sieben Uhr!",
-    "lv": "Wyjeżdżam jutro. Obudź mnie o siódmej!",
+    "lv": "Zítra odjíždím. Vzbuď mě v sedm!",
     "level": "Sätze"
   },
   {
     "de": "Die Rechnung, bitte!",
-    "lv": "Billu, proszę!",
+    "lv": "Bille, prosím!",
     "level": "Sätze"
   },
   {
     "de": "Wo ist die Stadtbibliothek?",
-    "lv": "Kde je mestská knižnica?",
+    "lv": "Kde je městská knihovna?",
     "level": "Sätze"
   },
   {
     "de": "Wann hat das Museum geöffnet?",
-    "lv": "Kiedy muzeum jest otwarte?",
+    "lv": "Kdy je muzeum otevřeno?",
     "level": "Sätze"
   },
   {
     "de": "Wollen wir ins Museum gehen?",
-    "lv": "Pójdziemy do muzeum?",
+    "lv": "Půjdeme do muzea?",
     "level": "Sätze"
   },
   {
     "de": "Fahren wir mit dem Bus oder der U-Bahn?",
-    "lv": "Jedziemy autobusem czy metrem?",
+    "lv": "Jedeme autobusem nebo metrem?",
     "level": "Sätze"
   },
   {
     "de": "Wo ist die nächste Bushaltestelle?",
-    "lv": "Gdzie jest najbliższy przystanek autobusowy?",
+    "lv": "Kde je nejbližší autobusová zastávka?",
     "level": "Sätze"
   },
   {
     "de": "Ich habe großen Hunger.",
-    "lv": "Jestem bardzo głodny.",
+    "lv": "Mám velký hlad.",
     "level": "Sätze"
   },
   {
     "de": "Gehen wir zusammen essen?",
-    "lv": "Pójdziemy razem zjeść?",
+    "lv": "Půjdeme spolu jíst?",
     "level": "Sätze"
   },
   {
     "de": "Kellner, die Speisekarte, bitte!",
-    "lv": "Kelnerzy, menu, proszę!",
+    "lv": "Číšníci, menu, prosím!",
     "level": "Sätze"
   },
   {
     "de": "Ist der Fisch frisch?",
-    "lv": "Czy ryba jest świeża?",
+    "lv": "Je ryba čerstvá?",
     "level": "Sätze"
   },
   {
     "de": "Das schmeckt ausgezeichnet!",
-    "lv": "Smakuje wspaniale!",
+    "lv": "Chutná skvěle!",
     "level": "Sätze"
   },
   {
     "de": "Kellner, zahlen bitte!",
-    "lv": "Kelnerzy, proszę zapłacić!",
+    "lv": "Číšníci, prosím zaplaťte!",
     "level": "Sätze"
   },
   {
     "de": "Ich gehe ins Café einen Kaffee trinken.",
-    "lv": "Pójdę do kawiarni napić się kawy.",
+    "lv": "Půjdu do kavárny vypít kávu.",
     "level": "Sätze"
   },
   {
     "de": "Willst du mitkommen?",
-    "lv": "Chcesz przyjść?",
+    "lv": "Chceš se přidat?",
     "level": "Sätze"
   },
   {
     "de": "Eine Tasse Kaffee mit Milch, bitte!",
-    "lv": "Poproszę filiżankę kawy z mlekiem!",
+    "lv": "Šálek kávy s mlékem, prosím!",
     "level": "Sätze"
   },
   {
     "de": "Bitte schneller, ich habe es eilig!",
-    "lv": "Szybciej, proszę, muszę się spieszyć!",
+    "lv": "Rychleji prosím, musím si pospíšit!",
     "level": "Sätze"
   },
   {
     "de": "Lass deinen Kaffee nicht kalt werden!",
-    "lv": "Nie pozwól, aby kawa wystygła!",
+    "lv": "Nenechte kávu vychladnout!",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie etwas Erfrischendes?",
-    "lv": "Máte niečo osviežujúce?",
+    "lv": "Máte něco osvěžujícího?",
     "level": "Sätze"
   },
   {
     "de": "Eine Portion Eis, bitte!",
-    "lv": "Poproszę porcję lodów!",
+    "lv": "Porce zmrzliny, prosím!",
     "level": "Sätze"
   },
   {
     "de": "Heute Morgen habe ich einen Brief bekommen.",
-    "lv": "Dziś rano otrzymałem list.",
+    "lv": "Dnes ráno jsem dostal dopis.",
     "level": "Sätze"
   },
   {
     "de": "Ich muss ihm gleich schreiben.",
-    "lv": "Muszę do niego teraz napisać.",
+    "lv": "Teď mu musím napsat.",
     "level": "Sätze"
   },
   {
     "de": "Wo ist der nächste Briefkasten?",
-    "lv": "Gdzie jest najbliższa skrzynka pocztowa?",
+    "lv": "Kde je nejbližší poštovní schránka?",
     "level": "Sätze"
   },
   {
     "de": "Wo ist die Post?",
-    "lv": "Gdzie jest poczta?",
+    "lv": "Kde je pošta?",
     "level": "Sätze"
   },
   {
     "de": "Erinnere mich morgen daran zu schreiben!",
-    "lv": "Przypomnij mi, żebym jutro podpisał!",
+    "lv": "Připomeňte mi, abych se zítra podepsal!",
     "level": "Sätze"
   },
   {
     "de": "Werfen Sie bitte diesen Brief in den Briefkasten.",
-    "lv": "Proszę wrzucić ten list do skrzynki pocztowej!",
+    "lv": "Vhoďte prosím tento dopis do poštovní schránky!",
     "level": "Sätze"
   },
   {
     "de": "Hallo, hier spricht Emma.",
-    "lv": "Cześć, tu Emma.",
+    "lv": "Ahoj, tady Emma.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich dich später anrufen?",
-    "lv": "Czy mogę zadzwonić do ciebie później?",
+    "lv": "Můžu ti zavolat později?",
     "level": "Sätze"
   },
   {
     "de": "Muss ich lange warten?",
-    "lv": "Czy muszę długo czekać?",
+    "lv": "Musím dlouho čekat?",
     "level": "Sätze"
   },
   {
     "de": "Bitte schneiden Sie mir die Haare.",
-    "lv": "Prosím, ostrihajte mi vlasy.",
+    "lv": "Prosím ostříhej mi vlasy.",
     "level": "Sätze"
   },
   {
     "de": "Hinten bitte nicht zu kurz.",
-    "lv": "Z tyłu, proszę, nie za krótko.",
+    "lv": "Vzadu, prosím, ne příliš krátké.",
     "level": "Sätze"
   },
   {
     "de": "Wann beginnt die Vorstellung?",
-    "lv": "Kiedy zaczyna się przedstawienie?",
+    "lv": "Kdy představení začíná?",
     "level": "Sätze"
   },
   {
     "de": "Es fängt um halb acht an.",
-    "lv": "Zaczyna się o wpół do siódmej.",
+    "lv": "Začíná se v půl deváté.",
     "level": "Sätze"
   },
   {
     "de": "Alle Plätze sind ausverkauft.",
-    "lv": "Wszystkie bilety zostały wyprzedane.",
+    "lv": "Všechny vstupenky jsou vyprodány.",
     "level": "Sätze"
   },
   {
     "de": "Drei Karten, bitte!",
-    "lv": "Proszę o trzy bilety!",
+    "lv": "Tři lístky, prosím!",
     "level": "Sätze"
   },
   {
     "de": "Wir lassen die Jacken in der Garderobe.",
-    "lv": "Zostawmy kurtki w szafie.",
+    "lv": "Nechme bundy v šatníku.",
     "level": "Sätze"
   },
   {
     "de": "Bitte schnell, der Vorhang geht gleich auf!",
-    "lv": "Szybciej, proszę, kurtyna zaraz się otworzy!",
+    "lv": "Rychleji, prosím, opona se právě otevírá!",
     "level": "Sätze"
   },
   {
     "de": "Der Vorhang fällt.",
-    "lv": "Kurtyna opada.",
+    "lv": "Opona padá.",
     "level": "Sätze"
   },
   {
     "de": "Darf ich dich zum Tanz bitten?",
-    "lv": "Czy mogę poprosić cię do tańca?",
+    "lv": "Mohu vás požádat o tanec?",
     "level": "Sätze"
   },
   {
     "de": "Wann ist eure Hochzeit?",
-    "lv": "Kiedy jest twój ślub?",
+    "lv": "Kdy máš svatbu?",
     "level": "Sätze"
   },
   {
     "de": "Ich suche eine Wohnung.",
-    "lv": "Szukam mieszkania.",
+    "lv": "Hledám byt.",
     "level": "Sätze"
   },
   {
     "de": "Ist in diesem Haus eine Wohnung frei?",
-    "lv": "Czy w tym domu jest wolne mieszkanie?",
+    "lv": "Je v tomto domě volný byt?",
     "level": "Sätze"
   },
   {
     "de": "Wie viel kostet die Miete?",
-    "lv": "Ile wynosi czynsz?",
+    "lv": "Kolik stojí nájem?",
     "level": "Sätze"
   },
   {
     "de": "Die Wohnung hat drei Zimmer und eine Küche.",
-    "lv": "Mieszkanie ma trzy pokoje i kuchnię.",
+    "lv": "Byt má tři pokoje a kuchyň.",
     "level": "Sätze"
   },
   {
     "de": "Heute ziehen wir um.",
-    "lv": "Dzisiaj się przeprowadzamy.",
+    "lv": "Dnes se stěhujeme.",
     "level": "Sätze"
   },
   {
     "de": "Mia, pack die Sachen bitte in Kisten!",
-    "lv": "Mia, proszę, spakuj rzeczy do pudełek!",
+    "lv": "Mio, dej věci do krabic, prosím!",
     "level": "Sätze"
   },
   {
     "de": "Hast du alles eingepackt?",
-    "lv": "Czy wszystko jest już zapakowane?",
+    "lv": "Už je vše zabalené?",
     "level": "Sätze"
   },
   {
     "de": "Ich stehe mit meinem Freund in Kontakt.",
-    "lv": "Prowadzę korespondencję z kolegą.",
+    "lv": "Jsem v korespondenci se svým přítelem.",
     "level": "Sätze"
   },
   {
     "de": "Gehen wir ins Theater?",
-    "lv": "Pójdziemy do teatru?",
+    "lv": "Půjdeme do divadla?",
     "level": "Sätze"
   },
   {
     "de": "Ist alles eingeladen?",
-    "lv": "Czy wszystko jest załadowane?",
+    "lv": "Je vše nabité?",
     "level": "Sätze"
   },
   {
     "de": "Welch schöne Aussicht!",
-    "lv": "Cóż za piękny widok!",
+    "lv": "Jaký krásný výhled!",
     "level": "Sätze"
   },
   {
     "de": "Nun können wir alles wieder aufräumen.",
-    "lv": "Teraz możemy wszystko złożyć w całość.",
+    "lv": "Nyní můžeme dát vše zpět dohromady.",
     "level": "Sätze"
   },
   {
     "de": "Wie viele Zimmer habt ihr?",
-    "lv": "Ile masz pokoi?",
+    "lv": "Kolik pokojů máte?",
     "level": "Sätze"
   },
   {
     "de": "Im Sommer fahre ich ans Meer.",
-    "lv": "Latem pojadę nad morze.",
+    "lv": "V létě pojedu k moři.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du schwimmen?",
-    "lv": "Czy umie Pan pływać",
+    "lv": "Umíte plavat",
     "level": "Sätze"
   },
   {
     "de": "Schwimm nicht zu weit hinaus!",
-    "lv": "Nie pływaj za daleko!",
+    "lv": "Neplavte příliš daleko!",
     "level": "Sätze"
   },
   {
     "de": "Badest du jeden Tag?",
-    "lv": "Plávate každý deň?",
+    "lv": "Plaveš každý den?",
     "level": "Sätze"
   },
   {
     "de": "Bei schönem Wetter gehe ich angeln.",
-    "lv": "Jeśli pogoda dopisze, jadę na ryby.",
+    "lv": "Pokud je dobré počasí, chodím na ryby.",
     "level": "Sätze"
   },
   {
     "de": "Wie sieht er aus?",
-    "lv": "Jak on wygląda?",
+    "lv": "Jak vypadá?",
     "level": "Sätze"
   },
   {
     "de": "Er hat sich aber recht verändert.",
-    "lv": "Jednak zmienił się całkiem sporo.",
+    "lv": "Dost se však změnil.",
     "level": "Sätze"
   },
   {
     "de": "Wie ist er als Mensch?",
-    "lv": "Jaki jest jako osoba?",
+    "lv": "Jaký je jako člověk?",
     "level": "Sätze"
   },
   {
     "de": "Er ist immer nett und freundlich.",
-    "lv": "Zawsze jest miły i miły.",
+    "lv": "Je vždy milý a hodný.",
     "level": "Sätze"
   },
   {
     "de": "Ich fühle mich nicht wohl.",
-    "lv": "Źle się czuję.",
+    "lv": "Cítím se špatně.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe starke Kopfschmerzen.",
-    "lv": "Mam silny ból głowy.",
+    "lv": "Velmi mě bolí hlava.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe mich erkältet.",
-    "lv": "Jestem przeziębiony.",
+    "lv": "Jsem nachlazený.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe Schnupfen.",
-    "lv": "Mam katar.",
+    "lv": "Teče mi z nosu.",
     "level": "Sätze"
   },
   {
     "de": "Mir ist schwindlig.",
-    "lv": "Mam zawroty głowy.",
+    "lv": "Točí se mi hlava.",
     "level": "Sätze"
   },
   {
     "de": "Ich muss zum Arzt gehen.",
-    "lv": "Muszę iść do lekarza.",
+    "lv": "Musím k doktorovi.",
     "level": "Sätze"
   },
   {
     "de": "Leg dich ins Bett!",
-    "lv": "Połóż się do łóżka!",
+    "lv": "Lehni si do postele!",
     "level": "Sätze"
   },
   {
     "de": "Hast du Fieber?",
-    "lv": "Máte horúčku?",
+    "lv": "Máte horečku?",
     "level": "Sätze"
   },
   {
     "de": "Gestern hatte ich erhöhte Temperatur.",
-    "lv": "Wczoraj miałam wysoką temperaturę.",
+    "lv": "Včera jsem měl vysokou teplotu.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe Zahnschmerzen.",
-    "lv": "Boli mnie ząb.",
+    "lv": "Bolí mě zub.",
     "level": "Sätze"
   },
   {
     "de": "Ich muss zum Zahnarzt gehen.",
-    "lv": "Musím ísť k zubárovi.",
+    "lv": "Musím k zubaři.",
     "level": "Sätze"
   },
   {
     "de": "Weißt du, dass Finn krank ist?",
-    "lv": "Czy wiesz, że Finn jest chory?",
+    "lv": "Víš, že je Finn nemocný?",
     "level": "Sätze"
   },
   {
     "de": "Laut Arzt wird er bald wieder gesund.",
-    "lv": "Według lekarza wkrótce wróci do zdrowia.",
+    "lv": "Podle lékaře bude brzy zase v pořádku.",
     "level": "Sätze"
   },
   {
     "de": "Ich will meine Wohnung neu möblieren.",
-    "lv": "Chcę odnowić mieszkanie.",
+    "lv": "Chci zařídit byt.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich das auf Raten kaufen?",
-    "lv": "Czy mogę kupić na raty?",
+    "lv": "Mohu nakupovat na splátky?",
     "level": "Sätze"
   },
   {
     "de": "Bleib im Bett, bis es dir besser geht!",
-    "lv": "Pozostań w łóżku, aż poczujesz się lepiej!",
+    "lv": "Zůstaňte v posteli, dokud se nebudete cítit lépe!",
     "level": "Sätze"
   },
   {
     "de": "Noah hat in zwei Wochen schwimmen gelernt.",
-    "lv": "Noah nauczył się pływać w ciągu dwóch tygodni.",
+    "lv": "Noah se naučil plavat za dva týdny.",
     "level": "Sätze"
   },
   {
     "de": "Sei mit dem Essen noch vorsichtig.",
-    "lv": "Bądź ostrożny z jedzeniem.",
+    "lv": "Buďte opatrní s jídlem.",
     "level": "Sätze"
   },
   {
     "de": "Sprichst du Deutsch?",
-    "lv": "Mówisz po niemiecku?",
+    "lv": "Mluvíš německy",
     "level": "Sätze"
   },
   {
     "de": "Ja, ein bisschen.",
-    "lv": "Tak, trochę.",
+    "lv": "Ano, trochu.",
     "level": "Sätze"
   },
   {
     "de": "Du sprichst ziemlich fließend.",
-    "lv": "Mówisz całkiem płynnie.",
+    "lv": "Mluvíte docela plynule.",
     "level": "Sätze"
   },
   {
     "de": "Wo hast du Deutsch gelernt?",
-    "lv": "Kde ste sa naučili po nemecky?",
+    "lv": "Kde jste se naučil německy?",
     "level": "Sätze"
   },
   {
     "de": "Ich nehme seit einem Jahr Deutschstunden.",
-    "lv": "Od roku chodzę na lekcje języka niemieckiego.",
+    "lv": "Už rok chodím na hodiny němčiny.",
     "level": "Sätze"
   },
   {
     "de": "Ich suche immer Gelegenheit, Deutsch zu sprechen.",
-    "lv": "Zawsze szukam okazji do rozmowy po niemiecku.",
+    "lv": "Vždy hledám příležitost domluvit se německy.",
     "level": "Sätze"
   },
   {
     "de": "Ist das Buch noch vorrätig?",
-    "lv": "Czy ta książka jest nadal dostępna?",
+    "lv": "Je tato kniha ještě k dispozici?",
     "level": "Sätze"
   },
   {
     "de": "Das Buch ist leider ausverkauft.",
-    "lv": "Niestety książka jest wyprzedana.",
+    "lv": "Kniha je bohužel vyprodaná.",
     "level": "Sätze"
   },
   {
     "de": "Wann erscheint die neue Auflage?",
-    "lv": "Kiedy ukaże się nowe wydanie?",
+    "lv": "Kdy vyjde nové vydání?",
     "level": "Sätze"
   },
   {
     "de": "Womit kann ich Ihnen helfen?",
-    "lv": "Jak mogę pomóc?",
+    "lv": "Jak mohu pomoci?",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie ganz frische Eier?",
-    "lv": "Masz świeże jajka?",
+    "lv": "Máte čerstvá vejce?",
     "level": "Sätze"
   },
   {
     "de": "Was kosten die?",
-    "lv": "Ile kosztują?",
+    "lv": "Kolik stojí?",
     "level": "Sätze"
   },
   {
     "de": "Das ist zu teuer.",
-    "lv": "Je to príliš drahé.",
+    "lv": "Je to příliš drahé.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie mir ein halbes Kilo abwiegen?",
-    "lv": "Czy możesz ważyć pół kilo?",
+    "lv": "Dokážeš vážit půl kila?",
     "level": "Sätze"
   },
   {
     "de": "Wie viel muss ich zahlen?",
-    "lv": "Ile muszę zapłacić?",
+    "lv": "Kolik musím zaplatit?",
     "level": "Sätze"
   },
   {
     "de": "Wie viel kostet das Kilo?",
-    "lv": "Ile kosztuje kilogram?",
+    "lv": "Kolik stojí kilogram?",
     "level": "Sätze"
   },
   {
     "de": "Wiegen Sie mir bitte zwei Kilo ab.",
-    "lv": "Proszę zważyć dwa kilogramy.",
+    "lv": "Navažte prosím dva kilogramy.",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie auch Karotten?",
-    "lv": "Czy Wy też macie marchewki?",
+    "lv": "Máte taky mrkev?",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie gutes Rindfleisch?",
-    "lv": "Czy masz dobrą wołowinę?",
+    "lv": "Máte dobré hovězí?",
     "level": "Sätze"
   },
   {
     "de": "Geben Sie mir zwei Kilo Hackfleisch.",
-    "lv": "Daj dwa kilogramy mięsa mielonego.",
+    "lv": "Dejte dva kilogramy mletého masa.",
     "level": "Sätze"
   },
   {
     "de": "Ein Laib Brot, bitte, aber nicht zu knusprig.",
-    "lv": "Poproszę jeden bochenek chleba, ale nie za twardy.",
+    "lv": "Jeden bochník chleba, prosím, ale ne příliš tvrdý.",
     "level": "Sätze"
   },
   {
     "de": "Das Brot ist frisch gebacken.",
-    "lv": "Chlieb je čerstvo upečený.",
+    "lv": "Chléb je čerstvě upečený.",
     "level": "Sätze"
   },
   {
     "de": "Was für Obst haben Sie heute?",
-    "lv": "Aké ovocie máte dnes?",
+    "lv": "Jaké ovoce máte dnes?",
     "level": "Sätze"
   },
   {
     "de": "Was kosten die Äpfel?",
-    "lv": "Ile kosztują jabłka?",
+    "lv": "Kolik stojí jablka?",
     "level": "Sätze"
   },
   {
     "de": "Dann nehme ich zwei Kilo Äpfel.",
-    "lv": "Potem wezmę dwa kilogramy jabłek.",
+    "lv": "Pak si vezmu dva kilogramy jablek.",
     "level": "Sätze"
   },
   {
     "de": "Die Birnen sind sehr teuer.",
-    "lv": "Gruszki są bardzo drogie.",
+    "lv": "Hrušky jsou velmi drahé.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie mir alles nach Hause liefern?",
-    "lv": "Czy możesz dostarczyć wszystko do swojego domu?",
+    "lv": "Můžete vše doručit až domů?",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie Reis?",
-    "lv": "Czy masz ryż?",
+    "lv": "Máš rýži?",
     "level": "Sätze"
   },
   {
     "de": "Geben Sie mir bitte ein Kilo Reis.",
-    "lv": "Proszę, daj mi kilogram ryżu.",
+    "lv": "Dejte mi kilogram rýže, prosím.",
     "level": "Sätze"
   },
   {
     "de": "Danke, diesmal nicht.",
-    "lv": "Dziękuję, nie tym razem.",
+    "lv": "Díky, tentokrát ne.",
     "level": "Sätze"
   },
   {
     "de": "Wie viel kostet dieser Teppich?",
-    "lv": "Ile kosztuje ten dywan?",
+    "lv": "Kolik stojí tento koberec?",
     "level": "Sätze"
   },
   {
     "de": "Können Sie die Möbel in meine Wohnung liefern?",
-    "lv": "Je možné dodať nábytok do bytu?",
+    "lv": "Můžete dodat nábytek do bytu?",
     "level": "Sätze"
   },
   {
     "de": "Bitte an der Kasse zahlen.",
-    "lv": "Proszę zapłacić w kasie.",
+    "lv": "Plaťte prosím na pokladně.",
     "level": "Sätze"
   },
   {
     "de": "Bitte, machen Sie die Rechnung.",
-    "lv": "Proszę o wystawienie faktury.",
+    "lv": "Prosím o vystavení faktury.",
     "level": "Sätze"
   },
   {
     "de": "Was kostet das Meter?",
-    "lv": "Ile kosztuje metr?",
+    "lv": "Kolik stojí metr?",
     "level": "Sätze"
   },
   {
     "de": "Dieser Stoff gefällt mir.",
-    "lv": "Uwielbiam tę tkaninę.",
+    "lv": "Miluji tuto látku.",
     "level": "Sätze"
   },
   {
     "de": "Schneiden Sie mir bitte drei Meter ab.",
-    "lv": "Proszę obciąć trzy metry.",
+    "lv": "Prosím, uřízněte tři metry.",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie auch andere Muster?",
-    "lv": "Czy masz inne próbki?",
+    "lv": "Máte jiné vzorky?",
     "level": "Sätze"
   },
   {
     "de": "Diese Farbe gefällt mir nicht.",
-    "lv": "Nie podoba mi się ten kolor.",
+    "lv": "Tato barva se mi nelíbí.",
     "level": "Sätze"
   },
   {
     "de": "Geben Sie mir eine hellere.",
-    "lv": "Daj jaśniejsze.",
+    "lv": "Dejte jasnější.",
     "level": "Sätze"
   },
   {
     "de": "Was kosten diese Socken?",
-    "lv": "Ile kosztują te skarpetki?",
+    "lv": "Kolik jsou tyto ponožky?",
     "level": "Sätze"
   },
   {
     "de": "Welche Handschuhe wünschen Sie?",
-    "lv": "Aké rukavice chcete?",
+    "lv": "Jaké chceš rukavice?",
     "level": "Sätze"
   },
   {
     "de": "Die sind mir etwas zu eng.",
-    "lv": "Są dla mnie trochę za ciasne.",
+    "lv": "Jsou mi trochu těsné.",
     "level": "Sätze"
   },
   {
     "de": "So, nun passen sie gut.",
-    "lv": "Więc teraz działa dobrze.",
+    "lv": "Takže teď to funguje dobře.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du mir einen guten Schneider empfehlen?",
-    "lv": "Czy możecie polecić dobrego krawca?",
+    "lv": "Můžete mi doporučit dobrého krejčího?",
     "level": "Sätze"
   },
   {
     "de": "Ich will einen Anzug bestellen.",
-    "lv": "Chcę zamówić garnitur.",
+    "lv": "Chci si objednat oblek.",
     "level": "Sätze"
   },
   {
     "de": "Wann wird er fertig sein?",
-    "lv": "Kiedy będzie gotowy?",
+    "lv": "Kdy to bude hotové?",
     "level": "Sätze"
   },
   {
     "de": "Der Anzug sitzt gut.",
-    "lv": "Garnitur pasuje dobrze.",
+    "lv": "Oblek dobře sedí.",
     "level": "Sätze"
   },
   {
     "de": "Die Hose ist zu lang.",
-    "lv": "Spodnie są za długie.",
+    "lv": "Kalhoty jsou příliš dlouhé.",
     "level": "Sätze"
   },
   {
     "de": "Bitte reinigen und bügeln Sie ihn!",
-    "lv": "Proszę wyczyścić i wyprasować!",
+    "lv": "Prosím vyčistěte a vyžehlete!",
     "level": "Sätze"
   },
   {
     "de": "Wann wird das Kleid fertig sein?",
-    "lv": "Kiedy sukienka będzie gotowa?",
+    "lv": "Kdy budou šaty hotové?",
     "level": "Sätze"
   },
   {
     "de": "Die Schuhe sind zu eng.",
-    "lv": "Buty są za ciasne.",
+    "lv": "Boty jsou příliš těsné.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie die Schuhe heute reparieren?",
-    "lv": "Czy możesz dzisiaj naprawić swoje buty?",
+    "lv": "Můžete si dnes opravit boty?",
     "level": "Sätze"
   },
   {
     "de": "Wann kann ich die Schuhe abholen?",
-    "lv": "Kiedy mogę przynieść buty?",
+    "lv": "Kdy mohu přinést boty?",
     "level": "Sätze"
   },
   {
     "de": "Meine Armbanduhr funktioniert nicht.",
-    "lv": "Mój zegarek nie działa.",
+    "lv": "Moje náramkové hodinky nefungují.",
     "level": "Sätze"
   },
   {
     "de": "Sie geht fünf Minuten vor.",
-    "lv": "Je o päť minút skôr.",
+    "lv": "Je pět minut dřív.",
     "level": "Sätze"
   },
   {
     "de": "Bist du kurzsichtig oder weitsichtig?",
-    "lv": "Czy jesteś krótkowzroczny czy dalekowzroczny?",
+    "lv": "Jste krátkozraký nebo dalekozraký?",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte eine Brille kaufen.",
-    "lv": "Chcę kupić okulary.",
+    "lv": "Chci si koupit brýle.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie meine Brille reparieren?",
-    "lv": "Czy możesz naprawić moje okulary?",
+    "lv": "Můžete mi opravit brýle?",
     "level": "Sätze"
   },
   {
     "de": "Das dauert nur eine Viertelstunde.",
-    "lv": "To zajmie tylko piętnaście minut.",
+    "lv": "Zabere to jen patnáct minut.",
     "level": "Sätze"
   },
   {
     "de": "Der Preis ist mir zu hoch.",
-    "lv": "Cena jest dla mnie za wysoka.",
+    "lv": "Cena je pro mě příliš vysoká.",
     "level": "Sätze"
   },
   {
     "de": "Ich brauche zwei Fotos für meinen Pass.",
-    "lv": "Potrzebuję dwóch zdjęć paszportowych.",
+    "lv": "Potřebuji dvě pasové fotografie.",
     "level": "Sätze"
   },
   {
     "de": "Bitte packen Sie es ein und schicken Sie es mir nach Hause.",
-    "lv": "Zbaľte sa a pošlite domov.",
+    "lv": "Prosím zabalte a pošlete domů.",
     "level": "Sätze"
   },
   {
     "de": "Wir haben feste Preise.",
-    "lv": "Mamy stałe ceny.",
+    "lv": "Máme pevné ceny.",
     "level": "Sätze"
   },
   {
     "de": "Bitte, fotografieren Sie mich.",
-    "lv": "Proszę, zrób mi zdjęcie.",
+    "lv": "Prosím, vyfoťte mě.",
     "level": "Sätze"
   },
   {
     "de": "Setzen Sie sich, schauen Sie gerade in die Kamera und bewegen Sie sich nicht!",
-    "lv": "Usiądź, spójrz prosto w kamerę i nie ruszaj się!",
+    "lv": "Sedněte si, dívejte se přímo do kamery a nehýbejte se!",
     "level": "Sätze"
   },
   {
     "de": "Wann kann ich das Probebild sehen?",
-    "lv": "Kiedy mogę zobaczyć próbkę?",
+    "lv": "Kdy mohu vidět vzorek?",
     "level": "Sätze"
   },
   {
     "de": "Wann sind die Fotos fertig?",
-    "lv": "Kiedy zdjęcia będą gotowe?",
+    "lv": "Kdy budou fotografie hotové?",
     "level": "Sätze"
   },
   {
     "de": "Die Aufnahme ist gelungen.",
-    "lv": "Zdjęcie się udało.",
+    "lv": "Fotka se povedla.",
     "level": "Sätze"
   },
   {
     "de": "Die Fotos sind gut geworden.",
-    "lv": "Zdjęcia wyszły dobrze.",
+    "lv": "Fotky dopadly dobře.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie das Foto auch vergrößern?",
-    "lv": "Czy możesz także powiększyć zdjęcie?",
+    "lv": "Můžete také zvětšit fotografii?",
     "level": "Sätze"
   },
   {
     "de": "Sind diese Steine echt?",
-    "lv": "Czy te kamienie są prawdziwe?",
+    "lv": "Jsou tyto kameny pravé?",
     "level": "Sätze"
   },
   {
     "de": "Ist das echtes Gold?",
-    "lv": "Czy to prawdziwe złoto?",
+    "lv": "Je to skutečné zlato?",
     "level": "Sätze"
   },
   {
     "de": "Zeigen Sie mir bitte Trauringe.",
-    "lv": "Pokaż mi obrączki, proszę.",
+    "lv": "Ukažte mi snubní prsteny, prosím.",
     "level": "Sätze"
   },
   {
     "de": "Der Ring ist mir etwas zu weit.",
-    "lv": "Pierścionek jest dla mnie trochę za duży.",
+    "lv": "Prsten je na mě trochu moc velký.",
     "level": "Sätze"
   },
   {
     "de": "Ich kann ihn enger machen.",
-    "lv": "Mogę to zawęzić.",
+    "lv": "Můžu to zúžit.",
     "level": "Sätze"
   },
   {
     "de": "Dieser Ring passt mir.",
-    "lv": "Tento prsteň mi vyhovuje.",
+    "lv": "Tento prsten mi vyhovuje.",
     "level": "Sätze"
   },
   {
     "de": "Zeigen Sie mir schöne Geschenkideen.",
-    "lv": "Zaprezentuj piękne pomysły na prezenty.",
+    "lv": "Ukažte nápady na krásné dárky.",
     "level": "Sätze"
   },
   {
     "de": "Wie gefallen dir diese Ohrringe?",
-    "lv": "Ako sa vám páčia tieto náušnice?",
+    "lv": "Jak se vám líbí tyto náušnice?",
     "level": "Sätze"
   },
   {
     "de": "Diese Brosche ist wirklich schön.",
-    "lv": "Ta broszka jest bardzo piękna.",
+    "lv": "Tato brož je moc krásná.",
     "level": "Sätze"
   },
   {
     "de": "Der Stein ist ein Saphir.",
-    "lv": "Ten kamień to szafir.",
+    "lv": "Tento kámen je safír.",
     "level": "Sätze"
   },
   {
     "de": "Das ist kein echter Stein, das ist Glas.",
-    "lv": "To nie jest prawdziwy kamień, to jest szkło.",
+    "lv": "Toto není skutečný kámen, je to sklo.",
     "level": "Sätze"
   },
   {
     "de": "Dieses Armband kann ich Ihnen besonders empfehlen.",
-    "lv": "Szczególnie mogę polecić tę bransoletkę.",
+    "lv": "Tento náramek mohu především doporučit.",
     "level": "Sätze"
   },
   {
     "de": "Es ist besonders schön gearbeitet.",
-    "lv": "Jest niezwykle precyzyjnie wykonany.",
+    "lv": "Je mimořádně jemně zpracovaná.",
     "level": "Sätze"
   },
   {
     "de": "Der Preis ist nicht hoch.",
-    "lv": "Cena nie jest wysoka.",
+    "lv": "Cena není vysoká.",
     "level": "Sätze"
   },
   {
     "de": "Bekomme ich die Schachtel gratis?",
-    "lv": "Czy dostałem pudełko za darmo?",
+    "lv": "Dostal jsem krabici zdarma?",
     "level": "Sätze"
   },
   {
     "de": "Alle Schmuckstücke sind gestempelt.",
-    "lv": "Cała biżuteria jest stemplowana.",
+    "lv": "Všechny šperky jsou vyraženy.",
     "level": "Sätze"
   },
   {
     "de": "Falls es meiner Frau nicht gefällt, kann ich es umtauschen?",
-    "lv": "Jeśli mojej żonie się to nie podoba, czy mogę to wymienić?",
+    "lv": "Pokud se mé ženě nelíbí, mohu ji vyměnit?",
     "level": "Sätze"
   },
   {
     "de": "Natürlich, jederzeit.",
-    "lv": "Oczywiście, że kiedykolwiek.",
+    "lv": "Kdykoli, samozřejmě.",
     "level": "Sätze"
   }
 ];
