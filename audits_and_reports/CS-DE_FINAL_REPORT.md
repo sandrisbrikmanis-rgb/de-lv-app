@@ -6,7 +6,7 @@
 |-------|---------|
 | **Valodas pāris** | CS–DE (Čeština → Deutsch) |
 | **Statuss** | Tehniski pilnībā izveidots un integrēts |
-| **Pull Request** | (tiks pievienots pēc PR izveides) |
+| **Pull Request** | #235 |
 | **Darba rezultāts** | Pilns čehu valodas datu komplekts A1–C2, Study kartītes, teikumi, darbības vārdi, Kurss un UI lokalizācija |
 
 ---
