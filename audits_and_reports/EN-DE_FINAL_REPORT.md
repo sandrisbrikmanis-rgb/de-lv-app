@@ -6,7 +6,7 @@
 |-------|---------|
 | **Valodas pāris** | EN–DE (British English → Deutsch) |
 | **Statuss** | Tehniski pilnībā izveidots un integrēts |
-| **Pull Request** | (tiks izveidots pēc commit) |
+| **Pull Request** | #248 |
 | **Darba rezultāts** | Pilns britu angļu valodas datu komplekts A1–C2, Study kartītes, teikumi, darbības vārdi, Kurss un UI lokalizācija |
 
 ---
