@@ -346,6 +346,17 @@
       hasStudyData: true,
       uiPath: "./languages/hu/ui.js",
       dataManifestPath: "./languages/hu/data/manifest.js"
+    },
+    {
+      code: "is",
+      nativeName: "Íslenska",
+      nativeCode: "IS",
+      active: true,
+      uiAvailable: true,
+      dataStatus: "complete",
+      hasStudyData: true,
+      uiPath: "./languages/is/ui.js",
+      dataManifestPath: "./languages/is/data/manifest.js"
     }
   ];
 
