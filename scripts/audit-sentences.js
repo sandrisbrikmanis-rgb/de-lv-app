@@ -4,9 +4,10 @@ const vm = require("vm");
 
 const root = path.join(__dirname, "..");
 const code = fs.readFileSync(path.join(root, "data/sentences.js"), "utf8");
-const sandbox = {};
-vm.runInNewContext(code, sandbox);
-const entries = sandbox.SENTENCE_ENTRIES || [];
+const sandbox = { window: {} };
+vm.createContext(sandbox);
+vm.runInContext(code, sandbox);
+const entries = sandbox.window.SENTENCE_ENTRIES || [];
 
 const bullet = "\u2022";
 
