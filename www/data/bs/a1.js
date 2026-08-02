@@ -3,45 +3,45 @@ const A1_WORDS = [
     "de": "Apfel",
     "de_article": "der",
     "de_plural": "die Äpfel",
-    "lv": "Jabolko.",
+    "lv": "Jabuku",
     "level": "A1"
   },
   {
     "de": "Brot",
     "de_article": "das",
     "de_plural": "die Brote",
-    "lv": "Sveže.",
+    "lv": "Hljeb",
     "level": "A1"
   },
   {
     "de": "Wasser",
     "de_article": "das",
-    "lv": "Voda",
+    "lv": "Vode",
     "level": "A1"
   },
   {
     "de": "Haus",
     "de_article": "das",
     "de_plural": "die Häuser",
-    "lv": "Куќа",
+    "lv": "Kuća",
     "level": "A1"
   },
   {
     "de": "lernen",
-    "lv": "Raziskave",
+    "lv": "Učiti",
     "level": "A1"
   },
   {
     "de": "sprechen",
-    "lv": "Govor",
+    "lv": "Govoriti",
     "level": "A1",
     "study": {
       "id": "a1-sprechen-study",
       "layout": "standardStudy",
-      "translation": "Govor",
+      "translation": "Govoriti",
       "explanation": [
-        "Главна идеја: зборување, разговор или користење јазик.",
-        "Sprechen v bistvu pomeni: govoriti ali govoriti.",
+        "Glavna ideja: Govoriti, razgovarati ili koristiti jezik.",
+        "Sprechen uglavnom znači: govoriti ili razgovarati.",
         "Često karakterizira: jezik/razgovor.",
         "Sprechen opisuje govor ili upotrebu jezika."
       ],
@@ -52,37 +52,43 @@ const A1_WORDS = [
         },
         {
           "de": "Wir sprechen über die Arbeit.",
-          "lv": "Зборуваме за работа."
+          "lv": "Pričamo o poslu."
         },
         {
           "de": "Ich spreche Deutsch.",
-          "lv": "Ja sakupljam nemački"
+          "lv": "Govorim njemački"
         }
       ],
       "comparison": [
         {
           "word": "sprechen",
-          "meaning": "Govorjenje (proces, jezik)",
-          "example": "Wir sprechen über die Arbeit. – Зборуваме за работа."
+          "meaning": "Govoriti (proces, jezik)",
+          "example": "Wir sprechen über die Arbeit. – Pričamo o poslu."
         },
         {
           "word": "sagen",
-          "meaning": "Кажи (конкретен текст)",
-          "example": "Sag mir die Wahrheit. – Reci mi istinu"
+          "meaning": "Reci (određeni tekst)",
+          "example": "Sag mir die Wahrheit. – Reci mi istinu."
         }
       ],
       "tip": [
-        "Sprechen = да се зборува",
-        "Користи sprechen кога контекстот се совпаѓа со ова значење."
+        "Sprechen = govoriti",
+        "Koristi sprechen kada kontekst odgovara ovom značenju."
       ],
       "important": [
         "Sprechen = govoriti.",
-        "Govorite, razgovarajte ili koristite jezik."
+        "Govoriti, razgovarati ili koristiti jezik."
       ],
       "sectionAccents": {
         "explanation": {
           "green": [
             "sprechen"
+          ],
+          "purple": [
+            "Glavna"
+          ],
+          "orange": [
+            "Glavna"
           ]
         },
         "examples": [
@@ -92,11 +98,16 @@ const A1_WORDS = [
                 "spreche"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Govorim"
+              ]
+            }
           },
           {
             "de": {
               "green": [
+                "sprechen",
                 "sprechen"
               ]
             },
@@ -108,11 +119,19 @@ const A1_WORDS = [
                 "spreche"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Govorim"
+              ]
+            }
           }
         ],
         "tip": [
-          {}
+          {
+            "purple": [
+              "Sprechen"
+            ]
+          }
         ],
         "important": [
           {
@@ -126,19 +145,19 @@ const A1_WORDS = [
   },
   {
     "de": "klein",
-    "lv": "Мали",
+    "lv": "Mala",
     "level": "A1",
     "study": {
       "id": "a1-klein-study",
       "layout": "standardStudy",
-      "translation": "Мали",
+      "translation": "Mala",
       "explanation": [
-        "Glavna ideja: malenkost ili volumen.",
-        "Klein u osnovi znači: mali obim.",
-        "Često opisuje: veličinu osobe/osobe.",
-        "Клајн во основа значи: мал/нов.",
-        "Често опишува: дете.",
-        "Клајн ја опишува малата големина."
+        "Glavna ideja: male veličine ili opsega.",
+        "Klein uglavnom znači: mala veličina.",
+        "Često opisuje: veličinu stvari/osobe.",
+        "Klein u osnovi znači: mali/nov.",
+        "Često opisuje: dijete.",
+        "Klein opisuje malu veličinu."
       ],
       "examples": [
         {
@@ -159,114 +178,157 @@ const A1_WORDS = [
         },
         {
           "de": "Das Kind ist klein.",
-          "lv": "-Fanta imajo!"
+          "lv": "Dijete je malo."
         }
       ],
       "tip": [
-        "Klein = majhna",
-        "Uporablja ga Klein, ko kontekst sovpada s tem pomenom."
+        "Klein = mali",
+        "Koristi klein kada kontekst odgovara ovom značenju."
       ],
       "important": [
-        "Клајн = мал по големина.",
+        "Klein = male veličine.",
         "Klein = mali.",
-        "Мал по големина или волумен."
+        "Male veličine ili obima."
       ],
       "sectionAccents": {
-        "explanation": {},
+        "explanation": {
+          "blue": [
+            "klein"
+          ],
+          "purple": [
+            "Glavna"
+          ],
+          "green": [
+            "Glavna"
+          ]
+        },
         "examples": [
           {
             "de": {
               "blue": [
+                "klein",
                 "klein"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "mala"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
+                "klein",
                 "klein"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "mala"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
+                "klein",
                 "klein"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Dijete"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
-                "kleine"
+                "klein",
+                "klein"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Imam"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
+                "klein",
                 "klein"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Dijete"
+              ]
+            }
           }
         ],
         "tip": [
-          {}
+          {
+            "purple": [
+              "Klein"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "klein"
+            ]
+          }
         ]
       }
     }
   },
   {
     "de": "alle",
-    "lv": "Svi",
+    "lv": "Svima",
     "level": "A1"
   },
   {
     "de": "allein",
-    "lv": "Jedan",
+    "lv": "Sama",
     "level": "A1"
   },
   {
     "de": "alles",
-    "lv": "Сите",
+    "lv": "Sve",
     "level": "A1"
   },
   {
     "de": "alt",
-    "lv": "Стари",
+    "lv": "Star",
     "level": "A1"
   },
   {
     "de": "Alter",
     "de_article": "das",
-    "lv": "Godine?",
+    "lv": "Godine",
     "level": "A1"
   },
   {
     "de": "an",
-    "lv": "V • Da • Predstavitev",
+    "lv": "Na • Na površini • Na ivici",
     "level": "A1",
     "study": {
       "id": "a1-an",
       "layout": "standardStudy",
-      "translation": "On • On the Surface • On the Edge",
-      "explanation": "Се користи кога нешто е блиску до ѕид, прозорец, врата, река, крајбрежје или друг раб/површина.",
+      "translation": "Na • Na površini • Na ivici",
+      "explanation": "Koristi se kada je nešto blizu zida, prozora, vrata, rijeke, morske obale ili druge ivice/površine.",
       "examples": [
         {
           "de": "an der Wand",
-          "lv": "На ѕидот / на ѕидот"
+          "lv": "Na zidu / na zidu"
         },
         {
           "de": "am Fenster",
-          "lv": "Do prozora"
+          "lv": "Na prozoru"
         },
         {
           "de": "am Meer",
@@ -277,17 +339,17 @@ const A1_WORDS = [
         {
           "word": "an",
           "meaning": "Na površini ili rubu",
-          "example": "an der Wand – Pitta sienas"
+          "example": "an der Wand – Kod zida"
         },
         {
           "word": "auf",
-          "meaning": "На хоризонтална повърхност",
-          "example": "auf dem Tisch – Sa galdom"
+          "meaning": "Na horizontalnoj površini",
+          "example": "auf dem Tisch – Na stolu"
         },
         {
           "word": "bei",
-          "meaning": "Lice ili mesto",
-          "example": "beim Arzt – Посетете лекар"
+          "meaning": "Osobi ili mjestu",
+          "example": "beim Arzt – Kod doktora"
         }
       ],
       "sectionAccents": {
@@ -298,7 +360,12 @@ const A1_WORDS = [
                 "an"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "zidu",
+                "zidu"
+              ]
+            }
           },
           {
             "de": {
@@ -306,7 +373,11 @@ const A1_WORDS = [
                 "am"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "prozoru"
+              ]
+            }
           },
           {
             "de": {
@@ -314,12 +385,20 @@ const A1_WORDS = [
                 "am"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "more"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "an"
+              ]
+            },
             "example": {
               "green": [
                 "an"
@@ -330,7 +409,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "auf"
+              ]
+            },
             "example": {
               "yellow": [
                 "auf"
@@ -341,36 +424,67 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bei"
+              ]
+            },
             "example": {
               "red": [
+                "beim"
+              ],
+              "purple": [
                 "beim"
               ]
             }
           }
         ],
         "tip": {
-          "left": {}
+          "left": {
+            "blue": [
+              "an"
+            ],
+            "purple": [
+              "Zapamtite"
+            ],
+            "green": [
+              "Zapamtite",
+              "Zapamtite",
+              "Zapamtite"
+            ]
+          }
         },
         "important": [
           {
             "blue": [
               "an"
+            ],
+            "purple": [
+              "nije"
+            ],
+            "green": [
+              "nije",
+              "nije",
+              "nije",
+              "nije"
             ]
           },
           {
             "yellow": [
               "auf"
+            ],
+            "purple": [
+              "Auf"
             ]
           }
         ]
       },
       "tip": {
-        "text": "Zapamtite: blizu zida/prozora/ivice → an."
+        "text": "Zapamtite: na zidu/prozoru/ivici → an."
       },
       "important": [
-        "An nije jednostavno \"na\". To često znači blizu površine, zida, prozora ili zida.",
-        "Auf обично се користи на хоризонтална површина."
+        "An nije bilo koji 'at'. To često znači pored površine, zida, prozora ili ruba.",
+        "Auf se obično koristi na horizontalnoj površini."
       ]
     }
   },
@@ -378,42 +492,42 @@ const A1_WORDS = [
     "de": "Anfang",
     "de_article": "der",
     "de_plural": "die Anfänge",
-    "lv": "Започнете",
+    "lv": "Početak",
     "level": "A1"
   },
   {
     "de": "anfangen",
-    "lv": "Започнете",
+    "lv": "Za početak",
     "level": "A1"
   },
   {
     "de": "anders",
-    "lv": "Sicer ...",
+    "lv": "Inače",
     "level": "A1"
   },
   {
     "de": "anrufen",
-    "lv": "Јавете ми се",
+    "lv": "Nazvati",
     "level": "A1"
   },
   {
     "de": "ab",
-    "lv": "Од",
+    "lv": "Od",
     "level": "A1",
     "study": {
       "id": "a1-ab",
       "layout": "standardStudy",
-      "translation": "Од",
-      "explanation": "Се користи кога нешто започнува во одредено време, место или точка. Често значи „почеток со“.",
+      "translation": "Od",
+      "explanation": "Koristi se kada nešto počinje od određenog vremena, mjesta ili tačke. Često znači \"počevši od\".",
       "examples": [
         {
           "de": "ab heute",
-          "lv": "-Od danes.",
+          "lv": "Od danas",
           "level": "A1"
         },
         {
           "de": "ab Montag",
-          "lv": "Od ponedeljka"
+          "lv": "Od ponedjeljka"
         },
         {
           "de": "ab 8 Uhr",
@@ -421,24 +535,24 @@ const A1_WORDS = [
         },
         {
           "de": "ab Bahnhof",
-          "lv": "Од станицата"
+          "lv": "Sa stanice"
         }
       ],
       "comparison": [
         {
           "word": "ab",
-          "meaning": "Začetek na točki/uri",
-          "example": "ab Montag – Od ponedeljka"
+          "meaning": "Počevši od tačke/vremena",
+          "example": "ab Montag – Od ponedjeljka"
         },
         {
           "word": "von",
-          "meaning": "Od nekoga/nečega • Porijeklo",
-          "example": "von mir – Нема мани"
+          "meaning": "Od nekoga/nečega • Porijekla",
+          "example": "von mir – Od mene"
         },
         {
           "word": "aus",
-          "meaning": "Однадвор внатре",
-          "example": "aus dem Haus – Од дома/од дома"
+          "meaning": "Iznutra",
+          "example": "aus dem Haus – Od kuće / van kuće"
         }
       ],
       "sectionAccents": {
@@ -449,44 +563,67 @@ const A1_WORDS = [
                 "ab"
               ]
             },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "ab"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "ab"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "ab"
-              ]
-            },
-            "lv": {}
-          }
-        ],
-        "comparison": [
-          {
-            "word": {},
-            "example": {
-              "green": [
-                "ab"
+            "lv": {
+              "purple": [
+                "danas"
               ]
             }
           },
           {
-            "word": {},
+            "de": {
+              "blue": [
+                "ab"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ponedjeljka"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ab"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "blue": [
+                "ab"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "stanice"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "ab"
+              ]
+            },
+            "example": {
+              "green": [
+                "ab"
+              ],
+              "purple": [
+                "Montag"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "von"
+              ]
+            },
             "example": {
               "yellow": [
                 "von"
@@ -497,9 +634,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "aus"
+              ]
+            },
             "example": {
               "blue": [
+                "aus"
+              ],
+              "purple": [
                 "aus"
               ]
             }
@@ -509,6 +653,13 @@ const A1_WORDS = [
           "left": {
             "blue": [
               "ab"
+            ],
+            "purple": [
+              "Zapamtite"
+            ],
+            "green": [
+              "Zapamtite",
+              "Zapamtite"
             ]
           }
         },
@@ -516,24 +667,35 @@ const A1_WORDS = [
           {
             "blue": [
               "ab"
+            ],
+            "purple": [
+              "pokazuje"
+            ],
+            "green": [
+              "pokazuje",
+              "pokazuje"
             ]
           },
           {
             "yellow": [
-              "Ако"
+              "von"
             ],
             "red": [
-              "Ако"
+              "aus"
+            ],
+            "purple": [
+              "Ako",
+              "Ako"
             ]
           }
         ]
       },
       "tip": {
-        "text": "Ne pozabite: začetna točka ob času/kraju → ab."
+        "text": "Zapamtite: početna tačka u vremenu/mjestu → ab."
       },
       "important": [
-        "Ab показва началната точка във времето или мястото.",
-        "Ако некоја мисла потекнува или се движи нанадвор одвнатре, почесто се користи фон или аус."
+        "Ab pokazuje početnu tačku u vremenu ili mjestu.",
+        "Ako misao potiče ili se kreće prema van iznutra, češće se koristi von ili aus."
       ]
     }
   },
@@ -541,38 +703,38 @@ const A1_WORDS = [
     "de": "Abend",
     "de_article": "der",
     "de_plural": "die Abende",
-    "lv": "Večernje",
+    "lv": "Veče",
     "level": "A1"
   },
   {
     "de": "Abendessen",
     "de_article": "das",
     "de_plural": "die Abendessen",
-    "lv": "Вечера",
+    "lv": "Večera",
     "level": "A1"
   },
   {
     "de": "abends",
-    "lv": "Во вечерните часови",
+    "lv": "Uveče",
     "level": "A1"
   },
   {
     "de": "aber",
-    "lv": "Ampak.",
+    "lv": "Ali",
     "level": "A1",
     "study": {
       "id": "a1-aber",
       "layout": "standardStudy",
-      "translation": "Ampak.",
-      "explanation": "Се користи за воведување контраст или изразување приговор. Често значи „но“, „сепак“ или „но“.",
+      "translation": "Ali",
+      "explanation": "Koristi se za uvođenje kontrasta ili za izražavanje prigovora. Često znači \"ali\", \"međutim\" ili \"ali\".",
       "examples": [
         {
           "de": "Ich möchte mitkommen, aber ich habe keine Zeit.",
-          "lv": "Искам да дойда, но нямам време."
+          "lv": "Želim da pođem, ali nemam vremena."
         },
         {
           "de": "Das Essen war lecker, aber zu teuer.",
-          "lv": "Храната беше вкусна, но прескапа."
+          "lv": "Hrana je bila ukusna, ali preskupa."
         },
         {
           "de": "Er hat recht, aber ich sehe das anders.",
@@ -582,22 +744,22 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "aber",
-          "meaning": "Спротивно • Приговор • Меѓутоа",
-          "example": "Ich komme, aber später. – Kasnej bom prišla do tebe."
+          "meaning": "Suprotno • Prigovor • Međutim",
+          "example": "Ich komme, aber später. – Doći ću, ali kasnije."
         },
         {
           "word": "sondern",
-          "meaning": "Ali...",
+          "meaning": "Ne • Ali",
           "example": "Ich wollte Tee, sondern Kaffee. – Hteo sam čaj, ne kafu."
         },
         {
           "word": "jedoch",
-          "meaning": "Сепак",
-          "example": "Es ist kalt, jedoch sonnig. – Hladno, a sončno."
+          "meaning": "Međutim",
+          "example": "Es ist kalt, jedoch sonnig. – Hladno je, ali sunčano."
         }
       ],
       "tip": {
-        "text": "Ne pozabite: nasprotni/opozicijski → abber."
+        "text": "Zapamtite: suprotno/opozicija → aber."
       },
       "sectionAccents": {
         "examples": [
@@ -607,7 +769,11 @@ const A1_WORDS = [
                 "aber"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Želim"
+              ]
+            }
           },
           {
             "de": {
@@ -615,7 +781,11 @@ const A1_WORDS = [
                 "aber"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Hrana"
+              ]
+            }
           },
           {
             "de": {
@@ -623,121 +793,166 @@ const A1_WORDS = [
                 "aber"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "pravu"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "example": {
+            "word": {
               "green": [
                 "aber"
               ]
-            }
-          },
-          {
-            "word": {},
+            },
             "example": {
-              "yellow": [
-                "sondern"
+              "green": [
+                "aber"
+              ],
+              "purple": [
+                "Ich"
               ]
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "sondern"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "sondern"
+              ],
+              "purple": [
+                "Ich"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "jedoch"
+              ]
+            },
             "example": {
               "red": [
                 "jedoch"
+              ],
+              "purple": [
+                "ist"
               ]
             }
           }
         ],
         "tip": {
-          "left": {}
+          "left": {
+            "green": [
+              "aber"
+            ],
+            "purple": [
+              "Zapamtite",
+              "Zapamtite"
+            ]
+          }
         },
         "important": [
-          {},
+          {
+            "green": [
+              "aber"
+            ],
+            "purple": [
+              "Aber",
+              "Aber"
+            ]
+          },
           {
             "yellow": [
-              "nasprotno"
+              "sondern"
+            ],
+            "purple": [
+              "Kada",
+              "Kada"
             ]
           }
         ]
       },
       "important": [
-        "Абер означува спротивност или спротивставување.",
-        "Ko je nasprotno \"ne..., ampak...\", se Sonderne običajno uporablja v nemščini."
+        "Aber pokazuje suprotnost ili opoziciju.",
+        "Kada je suprotno \"ne..., ali...\", sondern se obično koristi na njemačkom."
       ]
     }
   },
   {
     "de": "achten",
-    "lv": "Набљудувај",
+    "lv": "Posmatrati",
     "level": "A1"
   },
   {
     "de": "Adresse",
     "de_article": "die",
     "de_plural": "die Adressen",
-    "lv": "Naslov",
+    "lv": "Adresa",
     "level": "A1"
   },
   {
     "de": "Affe",
     "de_article": "der",
     "de_plural": "die Affen",
-    "lv": "Мајмун",
+    "lv": "Majmun",
     "level": "A1"
   },
   {
     "de": "Album",
     "de_article": "das",
     "de_plural": "die Alben",
-    "lv": "Албум",
+    "lv": "Album",
     "level": "A1"
   },
   {
     "de": "also",
-    "lv": "Ето защо",
+    "lv": "Dakle",
     "level": "A1",
     "study": {
       "id": "a1-also",
       "layout": "standardStudy",
-      "translation": "Ето защо",
-      "explanation": "Koristi se za izvođenje zaključaka ili prikazivanje rezultata. Toa znači \"zatoa\", \"zatoa\".",
+      "translation": "Dakle",
+      "explanation": "Koristi se za izvođenje zaključaka ili prikazivanje rezultata. Znači \"zato\", \"zbog toga\".",
       "examples": [
         {
           "de": "Es regnet, also bleibe ich zu Hause.",
-          "lv": "Врне дожд, затоа останувам дома."
+          "lv": "Pada kiša pa ostajem kod kuće."
         },
         {
           "de": "Du bist krank, also gehst du nicht zur Arbeit.",
-          "lv": "Ti si bolestan, pa ne ideš na posao."
+          "lv": "Bolestan si pa ne idi na posao."
         },
         {
           "de": "Ich habe viel gelernt, also verstehe ich es jetzt.",
-          "lv": "Учев многу и сега разбирам."
+          "lv": "Dosta sam učio, pa sada shvatam."
         }
       ],
       "comparison": [
         {
           "word": "also",
-          "meaning": "Torej • Zato",
-          "example": "Es regnet, also bleibe ich zu Hause. – Врне дожд, затоа останувам дома."
+          "meaning": "Pa • Dakle",
+          "example": "Es regnet, also bleibe ich zu Hause. – Pada kiša, pa ostajem kod kuće."
         },
         {
           "word": "auch",
-          "meaning": "-Tudi tebe, tudi tebe.",
-          "example": "Ich komme auch. – Ќе дојдам и јас."
+          "meaning": "Takođe",
+          "example": "Ich komme auch. – Dolazim i ja."
         },
         {
           "word": "deshalb",
-          "meaning": "Ето защо",
-          "example": "Es regnet, deshalb bleibe ich zu Hause. – Врне дожд, затоа останувам дома."
+          "meaning": "Dakle",
+          "example": "Es regnet, deshalb bleibe ich zu Hause. – Pada kiša, pa ostajem kod kuće."
         }
       ],
       "tip": {
-        "text": "Запомнете: заклучок → исто така."
+        "text": "Zapamtite: zaključak → također."
       },
       "sectionAccents": {
         "examples": [
@@ -747,7 +962,11 @@ const A1_WORDS = [
                 "also"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Pada"
+              ]
+            }
           },
           {
             "de": {
@@ -755,7 +974,11 @@ const A1_WORDS = [
                 "also"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Bolestan"
+              ]
+            }
           },
           {
             "de": {
@@ -763,50 +986,92 @@ const A1_WORDS = [
                 "also"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Dosta"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "example": {
+            "word": {
               "green": [
                 "also"
               ]
-            }
-          },
-          {
-            "word": {},
+            },
             "example": {
-              "yellow": [
-                "auch"
+              "green": [
+                "also"
+              ],
+              "purple": [
+                "regnet"
               ]
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "auch"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "auch"
+              ],
+              "purple": [
+                "Ich"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "deshalb"
+              ]
+            },
             "example": {
               "green": [
                 "deshalb"
+              ],
+              "purple": [
+                "regnet"
               ]
             }
           }
         ],
         "tip": {
-          "left": {}
+          "left": {
+            "green": [
+              "Zapamtite"
+            ],
+            "purple": [
+              "Zapamtite"
+            ]
+          }
         },
         "important": [
-          {},
           {
             "green": [
-              "Летонското"
+              "Takođe"
+            ],
+            "purple": [
+              "Takođe"
+            ]
+          },
+          {
+            "green": [
+              "deshalb"
+            ],
+            "purple": [
+              "Letonsko"
             ]
           }
         ]
       },
       "important": [
-        "Iz tega izhaja tudi zaključek: iz navedenega izhaja naslednja misel.",
-        "Летонското „така“ често може да биде и дешалб."
+        "Takođe pokazuje zaključak: sljedeća misao proizlazi iz gore rečenog.",
+        "Letonsko \"so\" često može biti i deshalb."
       ]
     }
   },
@@ -814,39 +1079,39 @@ const A1_WORDS = [
     "de": "Ameise",
     "de_article": "die",
     "de_plural": "die Ameisen",
-    "lv": "Мравка",
+    "lv": "Ant",
     "level": "A1"
   },
   {
     "de": "ankommen",
-    "lv": "Dolazak",
+    "lv": "Stići",
     "level": "A1"
   },
   {
     "de": "anschauen",
-    "lv": "Pogledaj",
+    "lv": "Pogledajte",
     "level": "A1"
   },
   {
     "de": "anziehen",
-    "lv": "Obuci se",
+    "lv": "Staviti na",
     "level": "A1"
   },
   {
     "de": "anhalten",
-    "lv": "-Nehaj.",
+    "lv": "Prestati",
     "level": "A1"
   },
   {
     "de": "Angst",
     "de_article": "die",
     "de_plural": "die Ängste",
-    "lv": "Pošten je.",
+    "lv": "Strah",
     "level": "A1"
   },
   {
     "de": "angenehm",
-    "lv": "Убаво",
+    "lv": "Prijatno",
     "level": "A1"
   },
   {
@@ -860,12 +1125,12 @@ const A1_WORDS = [
     "de": "Antwort",
     "de_article": "die",
     "de_plural": "die Antworten",
-    "lv": "Bog.",
+    "lv": "Odgovor",
     "level": "A1"
   },
   {
     "de": "antworten",
-    "lv": "Bog.",
+    "lv": "Odgovoriti",
     "level": "A1"
   },
   {
@@ -879,21 +1144,21 @@ const A1_WORDS = [
     "de": "Apfelbaum",
     "de_article": "der",
     "de_plural": "die Apfelbäume",
-    "lv": "Jabolko.",
+    "lv": "Jabuka",
     "level": "A1"
   },
   {
     "de": "Apfelsine",
     "de_article": "die",
     "de_plural": "die Apfelsinen",
-    "lv": "Narandžasta",
+    "lv": "Narandža",
     "level": "A1"
   },
   {
     "de": "Aprikose",
     "de_article": "die",
     "de_plural": "die Aprikosen",
-    "lv": "Kajsija",
+    "lv": "Marelica",
     "level": "A1"
   },
   {
@@ -906,19 +1171,19 @@ const A1_WORDS = [
     "de": "Arbeit",
     "de_article": "die",
     "de_plural": "die Arbeiten",
-    "lv": "Posao",
+    "lv": "Rad",
     "level": "A1"
   },
   {
     "de": "arbeiten",
-    "lv": "Posao",
+    "lv": "Na posao",
     "level": "A1"
   },
   {
     "de": "Arm",
     "de_article": "der",
     "de_plural": "die Arme",
-    "lv": "Ruka",
+    "lv": "Ruku",
     "level": "A1"
   },
   {
@@ -932,84 +1197,110 @@ const A1_WORDS = [
     "de": "Ärztin",
     "de_article": "die",
     "de_plural": "die Ärztinnen",
-    "lv": "Доктор",
+    "lv": "Doktor",
     "level": "A1"
   },
   {
     "de": "atmen",
-    "lv": "Дишете",
+    "lv": "Disati",
     "level": "A1"
   },
   {
     "de": "auch",
-    "lv": "-Tudi tebe, tudi tebe.",
+    "lv": "Takođe",
     "level": "A1",
     "study": {
       "id": "a1-auch-study",
       "layout": "standardStudy",
-      "translation": "-Tudi tebe, tudi tebe.",
+      "translation": "Takođe",
       "explanation": [
         "Glavna ideja: Najčešći i neutralni \"također\".",
-        "Ouch v bistvu pomeni: preprosto \"preveč\".",
-        "Pogosto je značilno: dodajanje.",
-        "Auch е најчестиот збор што значи „исто така“."
+        "Auch u osnovi znači: jednostavno 'takođe'.",
+        "Često karakterizira: dodavanje.",
+        "Auch je najčešća riječ za 'također'."
       ],
       "examples": [
         {
           "de": "Ich komme auch.",
-          "lv": "Ќе дојдам и јас."
+          "lv": "Dolazim i ja."
         },
         {
           "de": "Ich komme auch.",
-          "lv": "Ќе дојдам и јас"
+          "lv": "I ja dolazim"
         },
         {
           "de": "Sie arbeitet auch hier.",
-          "lv": "Тя също работи тук."
+          "lv": "Ona takođe radi ovde."
         }
       ],
       "tip": [
-        "O = tudi",
-        "Uporabite auch, ko se kontekst ujema s to vrednostjo."
+        "Auch = također",
+        "Koristi auch kada kontekst odgovara ovom značenju."
       ],
       "important": [
-        "Ich auch wünsche Ihnen - neispravan red riječi.",
-        "Ah = također."
+        "Ich auch wünsche Ihnen nije ispravan red riječi.",
+        "Auch = također."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
+            "auch",
             "auch"
+          ],
+          "purple": [
+            "Glavna"
+          ],
+          "green": [
+            "Glavna"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
+                "auch",
                 "auch"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Dolazim"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
+                "auch",
                 "auch"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "dolazim"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
+                "auch",
                 "auch"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Ona"
+              ]
+            }
           }
         ],
         "tip": [
-          {}
+          {
+            "purple": [
+              "Auch"
+            ]
+          }
         ],
         "important": [
           {
@@ -1023,37 +1314,37 @@ const A1_WORDS = [
   },
   {
     "de": "auf",
-    "lv": "ДО",
+    "lv": "To",
     "level": "A1",
     "study": {
       "id": "a1-auf",
       "layout": "standardStudy",
-      "translation": "ДО",
-      "explanation": "Koristi se za označavanje smjera prema lokaciji ili vrhu površine.",
+      "translation": "To",
+      "explanation": "Koristi se za označavanje smjera do mjesta ili vrha površine.",
       "examples": [
         {
           "de": "Ich stelle das Buch auf den Tisch.",
-          "lv": "Ја ставив книгата на масата."
+          "lv": "Stavio sam knjigu na sto."
         },
         {
           "de": "Wir fahren auf den Berg.",
-          "lv": "Одиме на планина."
+          "lv": "Idemo na planinu."
         },
         {
           "de": "Die Katze springt auf das Sofa.",
-          "lv": "Mačka skoči na kavč."
+          "lv": "Mačka skače na sofu."
         }
       ],
       "comparison": [
         {
           "word": "auf",
-          "meaning": "До (на повърхността или нагоре)",
-          "example": "Ich stelle das Glas auf den Tisch. – Kozarec sem položila na mizo."
+          "meaning": "Do (površine ili gore)",
+          "example": "Ich stelle das Glas auf den Tisch. – Stavio sam čašu na sto."
         },
         {
           "word": "an",
-          "meaning": "Вклучено (вертикална површина)",
-          "example": "Ich hänge das Bild an die Wand. – Es carinu bildi pita sienas."
+          "meaning": "Na (vertikalna površina)",
+          "example": "Ich hänge das Bild an die Wand. – Okačim sliku na zid."
         },
         {
           "word": "in",
@@ -1072,36 +1363,59 @@ const A1_WORDS = [
                 "auf"
               ]
             },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "auf"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "auf"
-              ]
-            },
-            "lv": {}
-          }
-        ],
-        "comparison": [
-          {
-            "word": {},
-            "example": {
-              "blue": [
-                "auf"
+            "lv": {
+              "purple": [
+                "Stavio"
               ]
             }
           },
           {
-            "word": {},
+            "de": {
+              "blue": [
+                "auf"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Idemo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "auf"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Mačka"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "auf"
+              ]
+            },
+            "example": {
+              "blue": [
+                "auf"
+              ],
+              "purple": [
+                "Ich"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "an"
+              ]
+            },
             "example": {
               "green": [
                 "an",
@@ -1110,7 +1424,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "in"
+              ]
+            },
             "example": {
               "yellow": [
                 "in"
@@ -1119,105 +1437,134 @@ const A1_WORDS = [
           }
         ],
         "tip": {
-          "left": {}
+          "left": {
+            "blue": [
+              "auf"
+            ],
+            "purple": [
+              "Zapamtite"
+            ],
+            "green": [
+              "Zapamtite",
+              "Zapamtite"
+            ]
+          }
         },
         "important": [
           {
             "blue": [
               "auf"
+            ],
+            "purple": [
+              "Auf"
+            ],
+            "green": [
+              "Auf",
+              "Auf"
             ]
           },
-          {}
+          {
+            "green": [
+              "Ako"
+            ],
+            "yellow": [
+              "Ako"
+            ],
+            "purple": [
+              "Ako",
+              "Ako"
+            ]
+          }
         ]
       },
       "important": [
-        "Auf nije samo \"uključen\". To često znači kretanje ili boravak na/iznad površine.",
-        "Ako je nešto blizu vertikalne površine, trebat će vam • Ako je unutra, onda morate ući."
+        "Auf nije bilo koji 'on'. Često znači kretanje ili boravak na površini/iznad.",
+        "Ako je nešto blizu okomite površine, često vam treba • Ako ste unutra, trebate unutra."
       ]
     }
   },
   {
     "de": "aufmachen",
-    "lv": "Otvori",
+    "lv": "Otvoriti",
     "level": "A1"
   },
   {
     "de": "aufpassen",
-    "lv": "Budite oprezni",
+    "lv": "Budi oprezan",
     "level": "A1"
   },
   {
     "de": "aufstehen",
-    "lv": "Drži se.",
+    "lv": "Ustani",
     "level": "A1"
   },
   {
     "de": "aufwärts",
-    "lv": "Горе",
+    "lv": "Gore",
     "level": "A1"
   },
   {
     "de": "Auge",
     "de_article": "das",
     "de_plural": "die Augen",
-    "lv": "Oči",
+    "lv": "Oko",
     "level": "A1"
   },
   {
     "de": "Augenblick",
     "de_article": "der",
     "de_plural": "die Augenblicke",
-    "lv": "Iti morava.",
+    "lv": "Trenutak",
     "level": "A1"
   },
   {
     "de": "August",
     "de_article": "der",
-    "lv": "Avstrija",
+    "lv": "Avgust",
     "level": "A1"
   },
   {
     "de": "aus",
-    "lv": "Од • Од",
+    "lv": "Od • Van",
     "level": "A1",
     "study": {
       "id": "a1-aus",
       "layout": "standardStudy",
-      "translation": "Од • Од",
-      "explanation": "Koristi se kada nešto dolazi iznutra, izlazi ili ukazuje na curenje.",
+      "translation": "Od • Van",
+      "explanation": "Koristi se kada nešto dolazi iznutra, izlazi ili ukazuje na porijeklo.",
       "examples": [
         {
           "de": "Ich komme aus Deutschland.",
-          "lv": "Ja sam iz Njemačke."
+          "lv": "Ja sam iz njemacke."
         },
         {
           "de": "Er geht aus dem Haus.",
-          "lv": "Той напуска дома си."
+          "lv": "On napušta kuću."
         },
         {
           "de": "Ich nehme das Buch aus der Tasche.",
-          "lv": "Ја вадам книгата од торбата."
+          "lv": "Vadim knjigu iz torbe."
         }
       ],
       "comparison": [
         {
           "word": "aus",
-          "meaning": "Unutra, iz",
-          "example": "aus dem Haus – Од дома"
+          "meaning": "Iznutra, izvan",
+          "example": "aus dem Haus – Od kuće"
         },
         {
           "word": "von",
-          "meaning": "Од личност, место, површина",
-          "example": "von meinem Freund – Ali moj prijatelju"
+          "meaning": "Od osobe, mjesta, površine",
+          "example": "von meinem Freund – Od mog prijatelja"
         },
         {
           "word": "ab",
-          "meaning": "Почнувајќи од момент или време",
-          "example": "ab Montag – Od ponedeljka"
+          "meaning": "Počevši od tačke ili vremena",
+          "example": "ab Montag – Od ponedjeljka"
         }
       ],
       "tip": {
-        "text": "Zapomnite: programi → aus."
+        "text": "Zapamtite: van iznutra → aus."
       },
       "sectionAccents": {
         "examples": [
@@ -1227,7 +1574,11 @@ const A1_WORDS = [
                 "aus"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "sam"
+              ]
+            }
           },
           {
             "de": {
@@ -1235,7 +1586,11 @@ const A1_WORDS = [
                 "aus"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "napušta"
+              ]
+            }
           },
           {
             "de": {
@@ -1243,20 +1598,35 @@ const A1_WORDS = [
                 "aus"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Vadim"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "aus"
+              ]
+            },
             "example": {
               "green": [
+                "aus"
+              ],
+              "purple": [
                 "aus"
               ]
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "von"
+              ]
+            },
             "example": {
               "green": [
                 "von"
@@ -1267,10 +1637,17 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ab"
+              ]
+            },
             "example": {
               "yellow": [
                 "ab"
+              ],
+              "purple": [
+                "Montag"
               ]
             }
           }
@@ -1279,129 +1656,148 @@ const A1_WORDS = [
           "left": {
             "green": [
               "aus"
+            ],
+            "purple": [
+              "Zapamtite"
             ]
           }
         },
         "important": [
           {
             "green": [
-              "au"
+              "aus"
+            ],
+            "purple": [
+              "Aus",
+              "Aus"
             ]
           },
           {
             "blue": [
               "ab"
+            ],
+            "purple": [
+              "Ako"
             ]
           }
         ]
       },
       "important": [
-        "Au običajno pomeni premikanje od znotraj ali od začetka.",
-        "Kada se govori samo o početnoj tački u vremenu ili mjestu, često se koristi ab."
+        "Aus obično pokazuje kretanje iznutra ili porijeklo.",
+        "Ako se radi samo o početnoj tački u vremenu ili mjestu, često se koristi ab."
       ]
     }
   },
   {
     "de": "auf dem Boden",
-    "lv": "Na tla.",
+    "lv": "Na podu",
     "level": "A1"
   },
   {
     "de": "auf dem Bahnhof",
-    "lv": "S postaje?",
+    "lv": "Na stanici",
     "level": "A1"
   },
   {
     "de": "aufs",
-    "lv": "До *къде*?",
+    "lv": "Do • Na • Gdje?",
     "level": "A1",
     "study": {
       "id": "a1-aufs",
       "layout": "standardStudy",
-      "translation": "До *къде*?",
+      "translation": "Do • Na • Gdje?",
       "explanation": [
-        "Aufs je okrajšava za predlog auf in člen das.",
-        "Polna oblika: auf das (kje?).",
-        "Се користи кога дејството укажува на насоката кон одредена работа или површина - одговара на прашањето каде?",
-        "Pogosto se uporablja na poti: za vzpenjanje, sedenje, spuščanje, vožnjo do nečesa.",
-        "Во разговорниот и секојдневниот говор, aufs речиси секогаш се користи наместо целосниот auf das."
+        "Aufs je skraćenica od prijedloga auf i člana das.",
+        "Puni oblik: auf das (gdje?).",
+        "Koristi se kada radnja ukazuje na smjer do određene stvari ili površine - odgovara na pitanje gdje?",
+        "Često se koristi za kretanje: penjati se, sjesti, spustiti, voziti se do nečega.",
+        "U kolokvijalnom i svakodnevnom govoru, aufs se gotovo uvijek koristi umjesto punog auf das."
       ],
       "examples": [
         {
           "de": "Ich gehe aufs Dach.",
-          "lv": "Idemo na krov"
+          "lv": "Idem na krov"
         },
         {
           "de": "Sie setzt sich aufs Sofa.",
-          "lv": "Таа седи на каучот."
+          "lv": "Ona sjeda na kauč."
         },
         {
           "de": "Wir fahren aufs Land.",
-          "lv": "Одиме во селото."
+          "lv": "Idemo na selo."
         },
         {
           "de": "Stell die Tasche aufs Bett.",
-          "lv": "Vrečko položite na posteljo."
+          "lv": "Stavi torbu na krevet."
         },
         {
           "de": "Er springt aufs Pferd.",
-          "lv": "Се качува на коњот."
+          "lv": "On jaše na konja."
         },
         {
           "de": "Leg das Buch aufs Regal.",
-          "lv": "Ставете ја книгата на полица."
+          "lv": "Stavi knjigu na policu."
         },
         {
           "de": "Komm schnell aufs Boot!",
-          "lv": "Požurite na brod!"
+          "lv": "Dođi brzo na brod!"
         },
         {
           "de": "Wir gehen aufs Fest.",
-          "lv": "Na zabavo greva."
+          "lv": "Idemo na zabavu."
         }
       ],
       "comparison": [
         {
           "word": "aufs",
-          "meaning": "За конкретен случај (според)",
-          "example": "aufs Dach – Уз џумта"
+          "meaning": "Na određeni slučaj (Akk.)",
+          "example": "aufs Dach – Na krovu"
         },
         {
           "word": "auf",
-          "meaning": "На површината или нагоре",
-          "example": "auf den Tisch – Sa galdom"
+          "meaning": "Na površinu ili gore",
+          "example": "auf den Tisch – Na stolu"
         },
         {
           "word": "an",
           "meaning": "Na okomitoj površini",
-          "example": "an die Wand – Pitta sienas"
+          "example": "an die Wand – Kod zida"
         },
         {
           "word": "ins",
           "meaning": "Unutra",
-          "example": "ins Zimmer – V sobi"
+          "example": "ins Zimmer – U sobi"
         },
         {
           "word": "zum",
-          "meaning": "Za/kome (kome?)",
-          "example": "zum Arzt – Посетете лекар"
+          "meaning": "Na / kod (kome?)",
+          "example": "zum Arzt – Kod doktora"
         }
       ],
       "tip": [
-        "Запомнете: auf + das → aufs (каде?, каде?).",
-        "Polni auf das se v pogovoru skoraj nikoli ne izgovarja - auf se uporablja."
+        "Zapamtite: auf + das → aufs (gdje?, gdje?).",
+        "Puni auf das se gotovo nikada ne govori kolokvijalno - koristi se aufs."
       ],
       "important": [
-        "Aufs = auf das, samo so imenka od kog bilo roda, kade? u krivinama.",
-        "Odgovori kje? - Premik na določeno mesto ali območje.",
-        "На хоризонтална површина auf den често се користи наместо aufs.",
-        "Да не се меша со „in“ (на ѕидот) или „in“ (внатре во собата)."
+        "Aufs = auf das, samo s imenicom bilo kojeg roda, gdje? u fleksiji.",
+        "Gdje odgovoriti? — kretanje na određeno mjesto ili površinu.",
+        "Na horizontalnoj površini, auf den se često koristi umjesto aufs.",
+        "Ne treba se brkati sa (na zidu) ili unutrašnjom (unutar sobe)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "aufs",
             "auf das"
+          ],
+          "purple": [
+            "Aufs",
+            "Aufs",
+            "Aufs"
+          ],
+          "green": [
+            "Aufs",
+            "Aufs"
           ]
         },
         "examples": [
@@ -1411,7 +1807,11 @@ const A1_WORDS = [
                 "aufs"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Idem"
+              ]
+            }
           },
           {
             "de": {
@@ -1419,7 +1819,11 @@ const A1_WORDS = [
                 "aufs"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Ona"
+              ]
+            }
           },
           {
             "de": {
@@ -1427,7 +1831,11 @@ const A1_WORDS = [
                 "aufs"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Idemo"
+              ]
+            }
           },
           {
             "de": {
@@ -1435,7 +1843,11 @@ const A1_WORDS = [
                 "aufs"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Stavi"
+              ]
+            }
           },
           {
             "de": {
@@ -1443,7 +1855,11 @@ const A1_WORDS = [
                 "aufs"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "jaše"
+              ]
+            }
           },
           {
             "de": {
@@ -1451,7 +1867,11 @@ const A1_WORDS = [
                 "aufs"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Stavi"
+              ]
+            }
           },
           {
             "de": {
@@ -1459,7 +1879,11 @@ const A1_WORDS = [
                 "aufs"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Dođi"
+              ]
+            }
           },
           {
             "de": {
@@ -1467,13 +1891,25 @@ const A1_WORDS = [
                 "aufs"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Idemo"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "aufs"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "određeni"
+              ]
+            },
             "example": {
               "blue": [
                 "aufs Dach"
@@ -1481,8 +1917,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "auf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "površinu"
+              ]
+            },
             "example": {
               "yellow": [
                 "auf den Tisch"
@@ -1490,8 +1934,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "an"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "okomitoj"
+              ]
+            },
             "example": {
               "green": [
                 "an die Wand"
@@ -1499,8 +1951,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "ins"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Unutra"
+              ]
+            },
             "example": {
               "green": [
                 "ins Zimmer"
@@ -1508,8 +1968,17 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "zum"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kod",
+                "kod"
+              ]
+            },
             "example": {
               "red": [
                 "zum Arzt"
@@ -1521,6 +1990,9 @@ const A1_WORDS = [
           {
             "blue": [
               "aufs"
+            ],
+            "purple": [
+              "Zapamtite"
             ]
           },
           {
@@ -1536,13 +2008,33 @@ const A1_WORDS = [
             ],
             "purple": [
               "auf das"
+            ],
+            "green": [
+              "Aufs"
             ]
           },
-          {},
-          {},
           {
+            "purple": [
+              "Gdje"
+            ],
+            "green": [
+              "Gdje"
+            ]
+          },
+          {
+            "yellow": [
+              "auf den"
+            ],
             "red": [
-              "in"
+              "aufs"
+            ]
+          },
+          {
+            "green": [
+              "treba"
+            ],
+            "red": [
+              "treba"
             ]
           }
         ]
@@ -1553,97 +2045,97 @@ const A1_WORDS = [
     "de": "Augenbraue",
     "de_article": "die",
     "de_plural": "die Augenbrauen",
-    "lv": "Znaš",
+    "lv": "Obrva",
     "level": "A1"
   },
   {
     "de": "Augenfarbe",
     "de_article": "die",
     "de_plural": "die Augenfarben",
-    "lv": "Barva oči?",
+    "lv": "Boja očiju",
     "level": "A1"
   },
   {
     "de": "Auto",
     "de_article": "das",
     "de_plural": "die Autos",
-    "lv": "Автомобил",
+    "lv": "Auto",
     "level": "A1"
   },
   {
     "de": "Bad",
     "de_article": "das",
     "de_plural": "die Bäder",
-    "lv": "Бања",
+    "lv": "Kupatilo",
     "level": "A1"
   },
   {
     "de": "Badezimmer",
     "de_article": "das",
     "de_plural": "die Badezimmer",
-    "lv": "Бања",
+    "lv": "Kupatilo",
     "level": "A1"
   },
   {
     "de": "Schwimmbad",
     "de_article": "das",
     "de_plural": "die Schwimmbäder",
-    "lv": "Bazen!",
+    "lv": "Bazen",
     "level": "A1"
   },
   {
     "de": "Sauna",
     "de_article": "die",
     "de_plural": "die Saunen",
-    "lv": "Сауна",
+    "lv": "Sauna",
     "level": "A1"
   },
   {
     "de": "baden",
-    "lv": "Пливање",
+    "lv": "Plivati",
     "level": "A1",
     "study": {
       "id": "a1-baden",
       "layout": "standardStudy",
-      "translation": "Пливање",
+      "translation": "Plivati",
       "explanation": [
-        "Osnovna ideja: Baden znači kupati se, biti u vodi ili uživati ​​u vodi.",
-        "Baden se uporablja, ko govorimo o počitnicah v vodi, jezeru, morju ali bazenu.",
-        "Baden takođe može značiti kupanje.",
-        "Кога акцентот е ставен на самото движење или на спортот на пливање, schwimmen почесто се користи на германски."
+        "Glavna ideja: baden znači kupati se, biti u vodi ili uživati ​​u vodi.",
+        "Baden se koristi kada je u pitanju rekreacija na vodi, jezeru, moru ili bazenu.",
+        "Baden može značiti i kupanje.",
+        "Kada je naglasak na samom pokretu ili sportu plivanja, schwimmen se češće koristi u njemačkom."
       ],
       "examples": [
         {
           "de": "Ich gehe baden.",
-          "lv": "Одам на пливање"
+          "lv": "Idem na plivanje"
         },
         {
           "de": "Wir gehen im See baden.",
-          "lv": "Gremo plavat v jezero."
+          "lv": "Idemo na kupanje u jezero."
         },
         {
           "de": "Er schwimmt sehr gut.",
-          "lv": "Vrlo dobro pliva."
+          "lv": "Pliva veoma dobro."
         },
         {
           "de": "Ich schwimme jeden Montag.",
-          "lv": "Одам на пливање секој понеделник."
+          "lv": "Idem na plivanje svakog ponedjeljka."
         }
       ],
       "comparison": [
         {
           "word": "baden",
-          "meaning": "Plivati/biti u vodi/periti",
+          "meaning": "Plivati ​​/ biti u vodi / oprati se",
           "example": "Ich gehe baden."
         },
         {
           "word": "schwimmen",
-          "meaning": "Пливањето како движење или спорт",
+          "meaning": "Plivati ​​kao pokret ili sport",
           "example": "Er schwimmt sehr gut."
         },
         {
           "word": "duschen",
-          "meaning": "Istuširaj se i pojedi sendvič.",
+          "meaning": "Istuširati se",
           "example": "Ich dusche am Morgen."
         },
         {
@@ -1653,16 +2145,32 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Zapamtite: odmor u vodi → plivanje • Kretanje u vodi → plivanje."
+        "text": "Zapamtite: odmor u vodi → baden • Plivački pokret → schwimmen."
       },
       "important": [
-        "Baden i Schwymen nisu sinonimi.",
-        "На латвиски често велат само „пливај“, но на германски треба да се избере според ситуацијата."
+        "Baden i schwimmen nisu sinonimi.",
+        "Letonski često kaže jednostavno \"plivati\", ali na njemačkom morate birati u skladu sa situacijom."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "baden"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna",
+            "Glavna",
+            "Glavna"
+          ],
+          "green": [
+            "jezeru",
+            "Glavna",
+            "Glavna"
+          ],
           "red": [
-            "schwimmen"
+            "schwimmen",
+            "Glavna",
+            "sportu"
           ]
         },
         "examples": [
@@ -1672,7 +2180,11 @@ const A1_WORDS = [
                 "baden"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Idem"
+              ]
+            }
           },
           {
             "de": {
@@ -1683,7 +2195,14 @@ const A1_WORDS = [
                 "See"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Idemo"
+              ],
+              "green": [
+                "jezero"
+              ]
+            }
           },
           {
             "de": {
@@ -1691,7 +2210,11 @@ const A1_WORDS = [
                 "schwimmt"
               ]
             },
-            "lv": {}
+            "lv": {
+              "red": [
+                "Pliva"
+              ]
+            }
           },
           {
             "de": {
@@ -1699,13 +2222,27 @@ const A1_WORDS = [
                 "schwimme"
               ]
             },
-            "lv": {}
+            "lv": {
+              "red": [
+                "Idem"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "baden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Plivati",
+                "Plivati",
+                "Plivati"
+              ]
+            },
             "example": {
               "blue": [
                 "baden"
@@ -1713,8 +2250,18 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "schwimmen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Plivati",
+                "Plivati",
+                "sport"
+              ]
+            },
             "example": {
               "red": [
                 "schwimmt"
@@ -1722,8 +2269,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "duschen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Istuširati"
+              ]
+            },
             "example": {
               "yellow": [
                 "dusche"
@@ -1731,8 +2286,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "schwimmen gehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Idi"
+              ]
+            },
             "example": {
               "green": [
                 "schwimmen"
@@ -1741,114 +2304,142 @@ const A1_WORDS = [
           }
         ],
         "tip": {
-          "left": {}
+          "left": {
+            "blue": [
+              "baden"
+            ],
+            "purple": [
+              "Zapamtite"
+            ],
+            "red": [
+              "schwimmen",
+              "Zapamtite"
+            ]
+          }
         },
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "baden"
+            ],
+            "red": [
+              "schwimmen"
+            ]
+          },
+          {
+            "purple": [
+              "Letonski"
+            ],
+            "blue": [
+              "Letonski"
+            ],
+            "red": [
+              "situacijom"
+            ]
+          }
         ]
       }
     }
   },
   {
     "de": "bald",
-    "lv": "Скоро",
+    "lv": "Uskoro",
     "level": "A1"
   },
   {
     "de": "Balkon",
     "de_article": "der",
     "de_plural": "die Balkons",
-    "lv": "Балкон",
+    "lv": "Balkon",
     "level": "A1"
   },
   {
     "de": "Ball",
     "de_article": "der",
     "de_plural": "die Bälle",
-    "lv": "Топка",
+    "lv": "Lopta",
     "level": "A1"
   },
   {
     "de": "Banane",
     "de_article": "die",
     "de_plural": "die Bananen",
-    "lv": "Banana.",
+    "lv": "Banana",
     "level": "A1"
   },
   {
     "de": "Bauch",
     "de_article": "der",
     "de_plural": "die Bäuche",
-    "lv": "Стомакот",
+    "lv": "Stomak",
     "level": "A1"
   },
   {
     "de": "Baum",
     "de_article": "der",
     "de_plural": "die Bäume",
-    "lv": "Les",
+    "lv": "Drvo",
     "level": "A1"
   },
   {
     "de": "bedeuten",
-    "lv": "Имајте на ум",
+    "lv": "Znači",
     "level": "A1"
   },
   {
     "de": "Erdbeere",
     "de_article": "die",
     "de_plural": "die Erdbeeren",
-    "lv": "Jagode.",
+    "lv": "Jagoda",
     "level": "A1"
   },
   {
     "de": "beginnen",
-    "lv": "Започнете",
+    "lv": "Za početak",
     "level": "A1"
   },
   {
     "de": "bei",
-    "lv": "ВО",
+    "lv": "At",
     "level": "A1",
     "study": {
       "id": "a1-bei",
       "layout": "standardStudy",
-      "translation": "ВО",
-      "explanation": "Се користи кога нешто е блиску до личност, организација, место или се случува под одредени околности.",
+      "translation": "At",
+      "explanation": "Koristi se kada je nešto u blizini osobe, organizacije, mjesta ili se dogodi pod određenim okolnostima.",
       "examples": [
         {
           "de": "Ich bin bei meinem Freund.",
-          "lv": "Аз съм в къщата на моя приятел."
+          "lv": "Ja sam kod prijatelja."
         },
         {
           "de": "Sie arbeitet bei Siemens.",
-          "lv": "Radi u Siemensu."
+          "lv": "Radi za Siemens."
         },
         {
           "de": "Bei Regen bleiben wir zu Hause.",
-          "lv": "Остануваме дома кога врне."
+          "lv": "Ostajemo kod kuće kad pada kiša."
         }
       ],
       "comparison": [
         {
           "word": "bei",
-          "meaning": "U osobi, kompaniji ili u određenim okolnostima",
-          "example": "Ich bin bei meiner Schwester. – Јас сум со сестра ми."
+          "meaning": "Kod osobe, kompanije ili pod određenim okolnostima",
+          "example": "Ich bin bei meiner Schwester. – Kod sestre sam."
         },
         {
           "word": "an",
-          "meaning": "Na zidu, ivici, obali, ivici površine",
-          "example": "Das Bild hängt an der Wand. – Сликата виси на ѕидот."
+          "meaning": "Na zidu, rubu, obali, rubu površine",
+          "example": "Das Bild hängt an der Wand. – Slika visi na zidu."
         },
         {
           "word": "zu",
-          "meaning": "Kdo gre (smer)",
-          "example": "Ich gehe zu meinem Freund. – Es eû pita sava drauga."
+          "meaning": "Ko ide u (smjer)",
+          "example": "Ich gehe zu meinem Freund. – Idem kod prijatelja."
         }
       ],
       "tip": {
-        "text": "Запомнете: од лице/место/фирма → bei."
+        "text": "Zapamtite: kod osobe/mjesta/kompanije → bei."
       },
       "sectionAccents": {
         "examples": [
@@ -1870,7 +2461,11 @@ const A1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "bei"
+              ]
+            },
             "example": {
               "purple": [
                 "bei"
@@ -1878,7 +2473,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "an"
+              ]
+            },
             "example": {
               "green": [
                 "an"
@@ -1886,7 +2485,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "zu"
+              ]
+            },
             "example": {
               "red": [
                 "zu"
@@ -1898,54 +2501,71 @@ const A1_WORDS = [
           "left": {
             "purple": [
               "bei"
+            ],
+            "green": [
+              "Zapamtite",
+              "Zapamtite",
+              "Zapamtite"
             ]
           }
         },
         "important": [
-          {},
+          {
+            "purple": [
+              "bei"
+            ],
+            "green": [
+              "Bei",
+              "Bei",
+              "Bei"
+            ]
+          },
           {
             "blue": [
               "auf"
             ],
             "red": [
               "bei"
+            ],
+            "purple": [
+              "Kada"
             ]
           }
         ]
       },
       "important": [
-        "Bay često znači \"osoba, mjesto ili posao\".",
-        "Кога станува збор за површинска површина, обично ви треба auf, а не bei."
+        "Bei često znači kod osobe, na mjestu ili u kompaniji.",
+        "Kada je u pitanju prelazak na površinu, obično vam je potreban auf, a ne bei."
       ]
     }
   },
   {
     "de": "beide",
-    "lv": "-O komu? -O Margaery.",
+    "lv": "Oboje",
     "level": "A1"
   },
   {
     "de": "Bein",
     "de_article": "das",
     "de_plural": "die Beine",
-    "lv": "Noga",
+    "lv": "Nogu",
     "level": "A1"
   },
   {
     "de": "Beispiel",
     "de_article": "das",
     "de_plural": "die Beispiele",
-    "lv": "Пример",
+    "lv": "Primjer",
     "level": "A1"
   },
   {
     "de": "bekommen",
-    "lv": "Добијте го",
+    "lv": "Primiti",
     "level": "A1"
   },
   {
     "de": "benutzen",
-    "lv": "Uporaba",
+    "lv": "Koristiti",
     "level": "A1"
   },
   {
@@ -1957,7 +2577,7 @@ const A1_WORDS = [
   },
   {
     "de": "besser",
-    "lv": "По-добре",
+    "lv": "Bolje",
     "level": "A1"
   },
   {
@@ -1969,45 +2589,45 @@ const A1_WORDS = [
     "de": "Besuch",
     "de_article": "der",
     "de_plural": "die Besuche",
-    "lv": "Posjetite",
+    "lv": "Posjetu",
     "level": "A1"
   },
   {
     "de": "Besucher",
     "de_article": "der",
     "de_plural": "die Besucher",
-    "lv": "Посетител",
+    "lv": "Posjetitelj",
     "level": "A1"
   },
   {
     "de": "besuchen",
-    "lv": "Присуствуваат • Присуствуваат",
+    "lv": "Prisustvovati • Posjetiti",
     "level": "A1"
   },
   {
     "de": "Bett",
     "de_article": "das",
     "de_plural": "die Betten",
-    "lv": "Кревет",
+    "lv": "Krevet",
     "level": "A1"
   },
   {
     "de": "bis",
-    "lv": "До",
+    "lv": "Do",
     "level": "A1",
     "study": {
       "id": "a1-bis",
       "layout": "standardStudy",
-      "translation": "До",
-      "explanation": "Odnosi se na granicu, tačku u vremenu ili stanje.",
+      "translation": "Do",
+      "explanation": "Odnosi se na granicu, vremensku tačku ili stanje.",
       "examples": [
         {
           "de": "Ich warte bis zu deiner Ankunft.",
-          "lv": "Čekam tvoj dolazak."
+          "lv": "Čekam vaš dolazak."
         },
         {
           "de": "Bleib hier, bis ich zurückkomme.",
-          "lv": "Ostanite tukaj, dokler se ne vrnem."
+          "lv": "Ostani ovdje dok se ne vratim."
         },
         {
           "de": "Ich lerne Deutsch bis zum Abend.",
@@ -2015,33 +2635,33 @@ const A1_WORDS = [
         },
         {
           "de": "Bis jetzt habe ich nichts verstanden.",
-          "lv": "Do zdaj nisem ničesar razumel."
+          "lv": "Do sada nisam nista razumeo."
         }
       ],
       "comparison": [
         {
           "word": "bis",
-          "meaning": "Do (postignuto vrijeme)",
-          "example": "Ich bleibe bis 18 Uhr. – Ще остана до 18:00ч."
+          "meaning": "Do (dostigne se vremenska tačka)",
+          "example": "Ich bleibe bis 18 Uhr. – Ostaću do 18:00."
         },
         {
           "word": "bis ... zu",
           "meaning": "Do (do određenog vremena)",
-          "example": "Ich arbeite von 9 bis 17 Uhr. – Delam od 9. do 17."
+          "example": "Ich arbeite von 9 bis 17 Uhr. – Radim od 9 do 17h."
         },
         {
           "word": "bis dass",
-          "meaning": "До",
+          "meaning": "Do",
           "example": "Ich warte, bis dass du kommst. – Čekam da dođeš."
         },
         {
           "word": "bis jetzt",
-          "meaning": "Do sada, do sada",
-          "example": "Bis jetzt ist alles gut. – Досега е добро."
+          "meaning": "Do sada, do danas",
+          "example": "Bis jetzt ist alles gut. – Za sada dobro."
         }
       ],
       "tip": {
-        "text": "Запомнете: граница във времето/състоянието → бис."
+        "text": "Zapamtite: granica u vremenu/uslovu → bis."
       },
       "sectionAccents": {
         "examples": [
@@ -2068,7 +2688,11 @@ const A1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "bis"
+              ]
+            },
             "example": {
               "purple": [
                 "bis"
@@ -2076,7 +2700,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bis ... zu"
+              ]
+            },
             "example": {
               "green": [
                 "bis"
@@ -2084,7 +2712,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bis dass"
+              ]
+            },
             "example": {
               "yellow": [
                 "bis dass"
@@ -2092,7 +2724,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bis jetzt"
+              ]
+            },
             "example": {
               "blue": [
                 "Bis jetzt"
@@ -2101,97 +2737,170 @@ const A1_WORDS = [
           }
         ],
         "tip": {
-          "left": {}
+          "left": {
+            "purple": [
+              "bis"
+            ],
+            "green": [
+              "Zapamtite",
+              "Zapamtite",
+              "Zapamtite"
+            ]
+          }
         },
         "important": [
           {
             "purple": [
-              "Бис"
+              "bis"
+            ],
+            "green": [
+              "Bis",
+              "Bis"
             ]
           },
           {
             "blue": [
               "bis jetzt",
               "bis dass"
+            ],
+            "purple": [
+              "Bis",
+              "Bis"
             ]
           }
         ]
       },
       "important": [
-        "Бис = до граница или точка во времето.",
-        "Bis jetzt = do sedaj • Bis dass = do."
+        "Bis = do granice ili tačke u vremenu.",
+        "Bis jetzt = do sada • Bis dass = do."
       ]
     }
   },
   {
     "de": "bisschen",
-    "lv": "Малку",
+    "lv": "Malo",
     "level": "A1"
   },
   {
     "de": "bitte",
-    "lv": "Ве молам",
+    "lv": "Molim te",
     "level": "A1",
     "study": {
       "id": "a1-bitte",
       "layout": "standardStudy",
-      "translation": "Ве молам",
+      "translation": "Molim te",
       "explanation": [
-        "Glavna ideja: ljubazna riječ malim slovima. Nekada je bilo pristojno - molim.",
-        "Bitte во основа значи: учтивост.",
-        "Često opisuje: ljubaznu riječ.",
-        "Bitte v bistvu pomeni: zahteva/peticija.",
-        "Zanj je pogosto značilno: samostalnik (umreti).",
-        "Bitte с малка буква е учтива дума - означава „моля“ (Bitte schön!, Eine Tasse Kaffee, bitte).",
-        "Die Bitte со голема буква и членот die е именка - значи барање или барање (Ich habe eine Bitte = имам барање).",
-        "Množina: Bitten umre."
+        "Glavna ideja: ljubazna riječ malim slovima. Nekada je bio pristojan - molim.",
+        "Bitte uglavnom znači: ljubaznost.",
+        "Često opisuje: ljubazna riječ.",
+        "Bitte uglavnom znači: zahtjev/zahtjev.",
+        "Često karakterizira: imenica (umreti).",
+        "Bitte sa malim slovom je uljudna riječ - znači molim (Bitte schön!, Eine Tasse Kaffee, bitte).",
+        "Die Bitte sa velikim slovom i član die je imenica - znači zahtjev ili molbu (Ich habe eine Bitte = imam zahtjev).",
+        "Množina: die Bitten."
       ],
       "examples": [
         {
           "de": "Bitte schön!",
-          "lv": "-Izvolite."
+          "lv": "Molim te!"
         },
         {
           "de": "Bitte schön!",
-          "lv": "-Izvolite."
+          "lv": "Molim te!"
         },
         {
           "de": "Eine Tasse Kaffee, bitte.",
-          "lv": "Шолја кафе, ве молам."
+          "lv": "Jednu šoljicu kafe, molim."
         },
         {
           "de": "Kann ich bitte fragen?",
-          "lv": "Smem vprašati, prosim"
+          "lv": "Mogu li pitati molim"
         },
         {
           "de": "Ich habe eine Bitte.",
-          "lv": "Имам барање."
+          "lv": "Imam jednu molbu."
         },
         {
           "de": "Die Bitte ist wichtig.",
-          "lv": "Pitati je važno."
+          "lv": "Zahtjev je važan."
         }
       ],
       "tip": [
-        "Little bitte = моля (Bitte schön!, Kaffee, bitte). die Bitte с главна буква = молба (eine Bitte, meine Bitte).",
-        "Учтивост со мали букви. Порано беше учтиво - ве молам."
+        "Malo zalogaj = molim (Bitte schön!, Kaffee, bitte). die Bitte sa velikim slovom = zahtjev (eine Bitte, meine Bitte).",
+        "Ljubaznost malim slovima. Nekada je bio pristojan - molim."
       ],
       "important": [
-        "Bitte - malo slovo - je ljubazna riječ, a ne ime.",
-        "Die Bitte je napisan z velikimi tiskanimi črkami, člen die pa je samostalnik.",
-        "Множествено число: die Bitten (пита).",
-        "Netačno: Die Bitte schön! → Tačno: Bitte schön!"
+        "Bitte je mala slova - to je uljudna riječ, a ne imenica.",
+        "Die Bitte s velikim slovom, a članak die je imenica.",
+        "Množina: die Bitten (zahtjevi).",
+        "Netačno: Die Bitte schön! → Ispravno: Bitte schön!"
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "bitte"
+          ],
+          "purple": [
+            "Glavna"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
+                "bitte",
+                "bitte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Molim"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bitte",
+                "bitte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Molim"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bitte",
+                "bitte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Jednu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bitte",
+                "bitte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Mogu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bitte",
                 "bitte"
               ]
             },
@@ -2200,38 +2909,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "bitte"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "bitte"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "bitte"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "bitte"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
+                "bitte",
                 "bitte"
               ]
             },
@@ -2239,7 +2917,11 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "purple": [
+              "Malo"
+            ]
+          }
         ],
         "important": [
           {
@@ -2255,57 +2937,57 @@ const A1_WORDS = [
     "de": "Bitte",
     "de_article": "die",
     "de_plural": "die Bitten",
-    "lv": "Барање",
+    "lv": "Zahtjev",
     "level": "A1",
     "study": {
       "id": "a1-bitte-study",
       "layout": "standardStudy",
-      "translation": "Барање",
+      "translation": "Zahtjev",
       "explanation": [
-        "Glavna ideja: samostalnik s členom je umrl in velika črka. Specifična zahteva ali zahteva.",
-        "Die Bitte u osnovi znači: ljubaznost.",
-        "Često opisuje: ljubaznu riječ.",
-        "Die Bitte v bistvu pomeni: aplikacija/aplikacija.",
-        "Zanj je pogosto značilno: samostalnik (umreti).",
-        "Bitte с малка буква е учтива дума - означава „моля“ (Bitte schön!, Eine Tasse Kaffee, bitte).",
-        "Die Bitte со голема буква и членот die е именка - значи барање или барање (Ich habe eine Bitte = имам барање).",
-        "Množina: Bitten umre."
+        "Glavna ideja: Imenica s člankom die i velikim slovom. Konkretan zahtjev ili zahtjev.",
+        "Die Bitte uglavnom znači: ljubaznost.",
+        "Često opisuje: ljubazna riječ.",
+        "Die Bitte u osnovi znači: zahtjev/zahtjev.",
+        "Često karakterizira: imenica (umreti).",
+        "Bitte sa malim slovom je uljudna riječ - znači molim (Bitte schön!, Eine Tasse Kaffee, bitte).",
+        "Die Bitte sa velikim slovom i član die je imenica - znači zahtjev ili molbu (Ich habe eine Bitte = imam zahtjev).",
+        "Množina: die Bitten."
       ],
       "examples": [
         {
           "de": "Ich habe eine Bitte.",
-          "lv": "Имам барање."
+          "lv": "Imam jednu molbu."
         },
         {
           "de": "Bitte schön!",
-          "lv": "-Izvolite."
+          "lv": "Molim te!"
         },
         {
           "de": "Eine Tasse Kaffee, bitte.",
-          "lv": "Шолја кафе, ве молам."
+          "lv": "Jednu šoljicu kafe, molim."
         },
         {
           "de": "Kann ich bitte fragen?",
-          "lv": "Smem vprašati, prosim"
+          "lv": "Mogu li pitati molim"
         },
         {
           "de": "Ich habe eine Bitte.",
-          "lv": "Имам барање."
+          "lv": "Imam jednu molbu."
         },
         {
           "de": "Die Bitte ist wichtig.",
-          "lv": "Pitati je važno."
+          "lv": "Zahtjev je važan."
         }
       ],
       "tip": [
-        "Little bitte = моля (Bitte schön!, Kaffee, bitte). die Bitte с главна буква = молба (eine Bitte, meine Bitte).",
-        "Umrl je samostalnik s članom in velika črka. Specifična zahteva ali zahteva."
+        "Malo zalogaj = molim (Bitte schön!, Kaffee, bitte). die Bitte sa velikim slovom = zahtjev (eine Bitte, meine Bitte).",
+        "Imenica sa članom die i velikim slovom. Konkretan zahtjev ili zahtjev."
       ],
       "important": [
-        "Bitte - malo slovo - je ljubazna riječ, a ne ime.",
-        "Die Bitte je napisan z velikimi tiskanimi črkami, člen die pa je samostalnik.",
-        "Множествено число: die Bitten (пита).",
-        "Netačno: Die Bitte schön! → Tačno: Bitte schön!"
+        "Bitte je mala slova - to je uljudna riječ, a ne imenica.",
+        "Die Bitte s velikim slovom, a članak die je imenica.",
+        "Množina: die Bitten (zahtjevi).",
+        "Netačno: Die Bitte schön! → Ispravno: Bitte schön!"
       ],
       "sectionAccents": {
         "explanation": {
@@ -2313,8 +2995,12 @@ const A1_WORDS = [
             "die Bitte",
             "bitte"
           ],
+          "purple": [
+            "Glavna"
+          ],
           "yellow": [
-            "Bitte"
+            "Bitte",
+            "Bitten"
           ]
         },
         "examples": [
@@ -2324,7 +3010,11 @@ const A1_WORDS = [
                 "bitte"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Imam"
+              ]
+            }
           },
           {
             "de": {
@@ -2356,7 +3046,11 @@ const A1_WORDS = [
                 "bitte"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Imam"
+              ]
+            }
           },
           {
             "de": {
@@ -2365,11 +3059,19 @@ const A1_WORDS = [
                 "bitte"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Zahtjev"
+              ]
+            }
           }
         ],
         "tip": [
-          {}
+          {
+            "purple": [
+              "Malo"
+            ]
+          }
         ],
         "important": [
           {}
@@ -2379,14 +3081,14 @@ const A1_WORDS = [
   },
   {
     "de": "billig",
-    "lv": "Евтини",
+    "lv": "Jeftino",
     "level": "A1"
   },
   {
     "de": "Bier",
     "de_article": "das",
     "de_plural": "die Biere",
-    "lv": "- Pivo.",
+    "lv": "Pivo",
     "level": "A1"
   },
   {
@@ -2398,86 +3100,94 @@ const A1_WORDS = [
   },
   {
     "de": "bitten",
-    "lv": "Zovi",
+    "lv": "Pitati",
     "level": "A1"
   },
   {
     "de": "Blatt",
     "de_article": "das",
     "de_plural": "die Blätter",
-    "lv": "Stran",
+    "lv": "Stranica",
     "level": "A1"
   },
   {
     "de": "blau",
-    "lv": "Сина",
+    "lv": "Plava",
     "level": "A1"
   },
   {
     "de": "bleiben",
-    "lv": "Остани",
+    "lv": "Ostani",
     "level": "A1",
     "study": {
       "id": "a1-bleiben",
       "layout": "standardStudy",
-      "translation": "Остани",
+      "translation": "Ostani",
       "explanation": [
-        "Ključna ideja: bleiben znači ostati.",
-        "Блајбен се користи кога некое лице или нешто не исчезнува и останува на истото место или состојба.",
-        "Kar se tiče odhoda, je to nasprotje Gehenne in Faren.",
+        "Glavna ideja: bleiben znači ostati.",
+        "Bleiben se koristi kada osoba ili stvar ne nestane i ostane na istom mjestu ili stanju.",
+        "To je suprotno od gehena i fahrena kada je u pitanju odlazak.",
         "Vrlo česta fraza je Ich bleibe zu Hause."
       ],
       "examples": [
         {
           "de": "Ich bleibe zu Hause.",
-          "lv": "Bivanje doma"
+          "lv": "Ostajem kod kuće"
         },
         {
           "de": "Bleib hier!",
-          "lv": "Остани овде!"
+          "lv": "Ostani ovdje!"
         },
         {
           "de": "Wir bleiben noch eine Stunde.",
-          "lv": "Ostali bomo še eno uro."
+          "lv": "Ostajemo još sat vremena."
         },
         {
           "de": "Ich gehe nach Hause.",
-          "lv": "Си одам дома"
+          "lv": "Idem kuci"
         }
       ],
       "comparison": [
         {
           "word": "bleiben",
-          "meaning": "Остани",
+          "meaning": "Ostani",
           "example": "Ich bleibe hier."
         },
         {
           "word": "gehen",
-          "meaning": "Пешачете/одете пешки",
+          "meaning": "Ići / otići pješice",
           "example": "Ich gehe nach Hause."
         },
         {
           "word": "fahren",
-          "meaning": "Возење/патување со превоз",
+          "meaning": "Voziti / ići transportom",
           "example": "Ich fahre nach Hause."
         },
         {
           "word": "warten",
-          "meaning": "- Čekaj.",
+          "meaning": "Čekati",
           "example": "Ich warte hier."
         }
       ],
       "tip": {
-        "text": "Запомнете: не оди → bleiben • Остава пешки → gechen."
+        "text": "Zapamtite: ne odlazi → bleiben • Odlazi pješice → gehen."
       },
       "important": [
-        "Bleiben znači ostati umjesto čekanja.",
-        "Ich bleibe hier = останувам овде • Ich warte hier = чекам овде."
+        "Bleiben znači ostati, a ne čekati.",
+        "Ich bleibe hier = ostajem ovdje • Ich warte hier = Čekam ovdje."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "bleiben"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna"
+          ],
+          "red": [
+            "gehen",
+            "fahren"
           ]
         },
         "examples": [
@@ -2487,7 +3197,11 @@ const A1_WORDS = [
                 "bleibe"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Ostajem"
+              ]
+            }
           },
           {
             "de": {
@@ -2495,7 +3209,11 @@ const A1_WORDS = [
                 "Bleib"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Ostani"
+              ]
+            }
           },
           {
             "de": {
@@ -2503,7 +3221,11 @@ const A1_WORDS = [
                 "bleiben"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Ostajemo"
+              ]
+            }
           },
           {
             "de": {
@@ -2511,13 +3233,25 @@ const A1_WORDS = [
                 "gehe"
               ]
             },
-            "lv": {}
+            "lv": {
+              "red": [
+                "Idem"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "bleiben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Ostani"
+              ]
+            },
             "example": {
               "blue": [
                 "bleibe"
@@ -2525,8 +3259,17 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "gehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Ići",
+                "Ići"
+              ]
+            },
             "example": {
               "red": [
                 "gehe"
@@ -2534,8 +3277,17 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "fahren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Voziti",
+                "transportom"
+              ]
+            },
             "example": {
               "yellow": [
                 "fahre"
@@ -2543,8 +3295,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "warten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Čekati"
+              ]
+            },
             "example": {
               "green": [
                 "warte"
@@ -2556,12 +3316,24 @@ const A1_WORDS = [
           "left": {
             "blue": [
               "bleiben"
+            ],
+            "purple": [
+              "Zapamtite"
+            ],
+            "red": [
+              "gehen"
             ]
           }
         },
         "important": [
           {
             "blue": [
+              "bleiben"
+            ],
+            "purple": [
+              "Bleiben"
+            ],
+            "green": [
               "Bleiben"
             ]
           },
@@ -2581,7 +3353,7 @@ const A1_WORDS = [
     "de": "Bleistift",
     "de_article": "der",
     "de_plural": "die Bleistifte",
-    "lv": "Svinčnik",
+    "lv": "Olovka",
     "level": "A1"
   },
   {
@@ -2593,110 +3365,119 @@ const A1_WORDS = [
     "de": "Blume",
     "de_article": "die",
     "de_plural": "die Blumen",
-    "lv": "Цвет",
+    "lv": "Cvijet",
     "level": "A1"
   },
   {
     "de": "Boot",
     "de_article": "das",
     "de_plural": "die Boote",
-    "lv": "Брод",
+    "lv": "Čamac",
     "level": "A1"
   },
   {
     "de": "brauchen",
-    "lv": "Потреба",
+    "lv": "Da treba",
     "level": "A1"
   },
   {
     "de": "braun",
-    "lv": "Brown.",
+    "lv": "Braon",
     "level": "A1"
   },
   {
     "de": "breit",
-    "lv": "Широка",
+    "lv": "Širok",
     "level": "A1"
   },
   {
     "de": "Brief",
     "de_article": "der",
     "de_plural": "die Briefe",
-    "lv": "Писмо",
+    "lv": "Pismo",
     "level": "A1"
   },
   {
     "de": "Brille",
     "de_article": "die",
     "de_plural": "die Brillen",
-    "lv": "Чаши",
+    "lv": "Naočale",
     "level": "A1"
   },
   {
     "de": "bringen",
-    "lv": "Donesite • Uzmi",
+    "lv": "Donijeti • Odnijeti",
     "level": "A1",
     "study": {
       "id": "a1-bringen",
       "layout": "standardStudy",
-      "translation": "Donesite • Uzmi",
+      "translation": "Donijeti • Odnijeti",
       "explanation": [
-        "Главна идеја: Bringen значи да се донесе, носи или достави нешто некому.",
-        "Bringen се използва, когато нещо се премества на друго място или на друго лице.",
-        "Ovo nije isto što i \"nemi\" jer \"nemi\" znači \"uzeti za sebe\".",
-        "\"holen\" pomeni \"loviti, prinesti ali vzeti\"."
+        "Glavna ideja: doneti znači doneti, nositi ili isporučiti nešto nekome.",
+        "Donesen se koristi kada se nešto premjesti na drugo mjesto ili kod druge osobe.",
+        "To nije isto što i nehmen, jer nehmen znači uzeti za sebe.",
+        "Holen znači ići za i doneti ili uzeti."
       ],
       "examples": [
         {
           "de": "Bring mir bitte Wasser.",
-          "lv": "Донеси ми вода, те молам"
+          "lv": "Donesi mi vode molim te"
         },
         {
           "de": "Ich bringe dich nach Hause.",
-          "lv": "Peljal vas bom domov"
+          "lv": "Odvešću te kući"
         },
         {
           "de": "Er bringt das Buch zur Schule.",
-          "lv": "Nosite knjigu u školu."
+          "lv": "Nosi knjigu u školu."
         },
         {
           "de": "Ich nehme das Buch.",
-          "lv": "Земам книга"
+          "lv": "Uzimam knjigu"
         }
       ],
       "comparison": [
         {
           "word": "bringen",
-          "meaning": "Донеси/подигне/испорача",
+          "meaning": "Donijeti / uzeti / dostaviti",
           "example": "Bring mir Wasser."
         },
         {
           "word": "nehmen",
-          "meaning": "Ja uzimam",
+          "meaning": "Uzeti / uzeti",
           "example": "Ich nehme das Buch."
         },
         {
           "word": "holen",
-          "meaning": "Одам за/донесувам",
+          "meaning": "Idi za / dohvati",
           "example": "Ich hole Wasser."
         },
         {
           "word": "mitbringen",
-          "meaning": "Prevzemite in prinesite",
+          "meaning": "Odneti i doneti",
           "example": "Bringst du Brot mit?"
         }
       ],
       "tip": {
-        "text": "Запомнете: одете кај некого → Bringen • Земете за себе → nehmen."
+        "text": "Zapamtite: preseliti se kod nekoga → doveden • Uzmi za sebe → nehmen."
       },
       "important": [
-        "Бринген ја покажува насоката кон некого или место.",
-        "Немен значи да се земе, но не мора да се дава на друг."
+        "Donesen pokazuje smjer prema nekome ili mjestu.",
+        "Nehmen znači uzeti, ali ne nužno isporučiti drugome."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "bringen"
+            "Glavna"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna",
+            "Glavna"
+          ],
+          "red": [
+            "nehmen",
+            "holen"
           ]
         },
         "examples": [
@@ -2709,7 +3490,14 @@ const A1_WORDS = [
                 "Wasser"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Donesi"
+              ],
+              "yellow": [
+                "Donesi"
+              ]
+            }
           },
           {
             "de": {
@@ -2720,7 +3508,14 @@ const A1_WORDS = [
                 "dich"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Odvešću"
+              ],
+              "green": [
+                "Odvešću"
+              ]
+            }
           },
           {
             "de": {
@@ -2731,7 +3526,14 @@ const A1_WORDS = [
                 "Buch"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Nosi"
+              ],
+              "yellow": [
+                "Nosi"
+              ]
+            }
           },
           {
             "de": {
@@ -2742,13 +3544,30 @@ const A1_WORDS = [
                 "Buch"
               ]
             },
-            "lv": {}
+            "lv": {
+              "red": [
+                "Uzimam"
+              ],
+              "yellow": [
+                "Uzimam"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "bringen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Donijeti",
+                "Donijeti",
+                "Donijeti"
+              ]
+            },
             "example": {
               "blue": [
                 "Bring"
@@ -2756,8 +3575,17 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "nehmen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Uzeti",
+                "Uzeti"
+              ]
+            },
             "example": {
               "red": [
                 "nehme"
@@ -2765,8 +3593,17 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "holen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Idi",
+                "Idi"
+              ]
+            },
             "example": {
               "yellow": [
                 "hole"
@@ -2774,8 +3611,17 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "mitbringen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Odneti",
+                "Odneti"
+              ]
+            },
             "example": {
               "green": [
                 "mit"
@@ -2786,17 +3632,31 @@ const A1_WORDS = [
         "tip": {
           "left": {
             "blue": [
-              "bringen"
+              "Zapamtite"
+            ],
+            "purple": [
+              "Zapamtite"
+            ],
+            "red": [
+              "nehmen",
+              "Zapamtite"
             ]
           }
         },
         "important": [
           {
             "blue": [
-              "Бринген"
+              "Donesen"
+            ],
+            "purple": [
+              "Donesen"
             ]
           },
-          {}
+          {
+            "red": [
+              "nehmen"
+            ]
+          }
         ]
       }
     }
@@ -2805,14 +3665,14 @@ const A1_WORDS = [
     "de": "Butterbrot",
     "de_article": "das",
     "de_plural": "die Butterbrote",
-    "lv": "Сендвич",
+    "lv": "Sendvič",
     "level": "A1"
   },
   {
     "de": "Brötchen",
     "de_article": "das",
     "de_plural": "die Brötchen",
-    "lv": "Kurvo",
+    "lv": "Lepinja",
     "level": "A1"
   },
   {
@@ -2826,21 +3686,21 @@ const A1_WORDS = [
     "de": "Bruder",
     "de_article": "der",
     "de_plural": "die Brüder",
-    "lv": "Брат",
+    "lv": "Brate",
     "level": "A1"
   },
   {
     "de": "Buch",
     "de_article": "das",
     "de_plural": "die Bücher",
-    "lv": "Книга",
+    "lv": "Knjiga",
     "level": "A1"
   },
   {
     "de": "Buchstabe",
     "de_article": "der",
     "de_plural": "die Buchstaben",
-    "lv": "Писмо",
+    "lv": "Pismo",
     "level": "A1"
   },
   {
@@ -2854,13 +3714,13 @@ const A1_WORDS = [
     "de": "Bus",
     "de_article": "der",
     "de_plural": "die Busse",
-    "lv": "Autobus",
+    "lv": "Bus",
     "level": "A1"
   },
   {
     "de": "Butter",
     "de_article": "die",
-    "lv": "Olje je.",
+    "lv": "Puter",
     "level": "A1"
   },
   {
@@ -2874,56 +3734,56 @@ const A1_WORDS = [
     "de": "CD",
     "de_article": "die",
     "de_plural": "die CDs",
-    "lv": "ЦД",
+    "lv": "CD",
     "level": "A1"
   },
   {
     "de": "Computer",
     "de_article": "der",
     "de_plural": "die Computer",
-    "lv": "Domaćin",
+    "lv": "Kompjuter",
     "level": "A1"
   },
   {
     "de": "Cousin",
     "de_article": "der",
     "de_plural": "die Cousins",
-    "lv": "Братучед",
+    "lv": "Rođak",
     "level": "A1"
   },
   {
     "de": "Cousine",
     "de_article": "die",
     "de_plural": "die Cousinen",
-    "lv": "Братучед",
+    "lv": "Rođak",
     "level": "A1"
   },
   {
     "de": "da",
-    "lv": "Там",
+    "lv": "Tamo",
     "level": "A1",
     "study": {
       "id": "a1-da",
       "layout": "standardStudy",
-      "translation": "Там",
+      "translation": "Tamo",
       "explanation": [
-        "Glavna ideja: da na nivou A1 obično znači tamu.",
-        "Za označavanje mjesta ili upućivanje na nešto što je već spomenuto.",
-        "Glede na situacijo jo lahko prevedemo tudi kot tukaj ali tukaj.",
-        "На ниво на А1 главно учиме да како заеднички збор."
+        "Glavna ideja: da na nivou A1 najčešće znači tamo.",
+        "Da označava mjesto ili se odnosi na nešto što je već spomenuto.",
+        "Ovisno o situaciji, može se prevesti i kao ovdje ili ovdje.",
+        "Na nivou A1 uglavnom učimo da kao opštu reč."
       ],
       "examples": [
         {
           "de": "Da ist mein Auto.",
-          "lv": "Imam svoj auto."
+          "lv": "Tu je moj auto."
         },
         {
           "de": "Ich war da.",
-          "lv": "Јас бев таму"
+          "lv": "Bio sam tamo"
         },
         {
           "de": "Da kommt er.",
-          "lv": "Prihaja."
+          "lv": "Evo ga dolazi."
         },
         {
           "de": "Komm mal da her!",
@@ -2933,30 +3793,44 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "da",
-          "meaning": "Tukaj • Tukaj • Tukaj (skupaj)",
+          "meaning": "Tamo • Ovdje • Ovdje (općenito)",
           "example": "Da ist mein Auto."
         },
         {
           "word": "hier",
-          "meaning": "Овде (на одредено место)",
+          "meaning": "Ovdje (na određenom mjestu)",
           "example": "Hier ist mein Auto."
         },
         {
           "word": "dort",
-          "meaning": "Там (по-нататък)",
+          "meaning": "Tamo (dalje)",
           "example": "Dort ist mein Auto."
         },
         {
           "word": "dann",
-          "meaning": "Onda...",
+          "meaning": "Onda",
           "example": "Dann gehen wir nach Hause."
         }
       ],
       "tip": {
-        "text": "Запомнете: генерално има → да."
+        "text": "Zapamtite: general there/te → da."
       },
       "sectionAccents": {
-        "explanation": {},
+        "explanation": {
+          "blue": [
+            "da"
+          ],
+          "purple": [
+            "Glavna"
+          ],
+          "green": [
+            "Glavna",
+            "Glavna"
+          ],
+          "yellow": [
+            "Glavna"
+          ]
+        },
         "examples": [
           {
             "de": {
@@ -2964,7 +3838,11 @@ const A1_WORDS = [
                 "Da"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Tu"
+              ]
+            }
           },
           {
             "de": {
@@ -2972,7 +3850,11 @@ const A1_WORDS = [
                 "da"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Bio"
+              ]
+            }
           },
           {
             "de": {
@@ -2980,7 +3862,11 @@ const A1_WORDS = [
                 "Da"
               ]
             },
-            "lv": {}
+            "lv": {
+              "green": [
+                "Evo"
+              ]
+            }
           },
           {
             "de": {
@@ -2988,13 +3874,26 @@ const A1_WORDS = [
                 "da"
               ]
             },
-            "lv": {}
+            "lv": {
+              "green": [
+                "Dođi"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "da"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Tamo",
+                "Tamo"
+              ]
+            },
             "example": {
               "blue": [
                 "Da"
@@ -3002,8 +3901,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "hier"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Ovdje"
+              ]
+            },
             "example": {
               "yellow": [
                 "Hier"
@@ -3011,8 +3918,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "dort"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Tamo"
+              ]
+            },
             "example": {
               "red": [
                 "Dort"
@@ -3020,8 +3935,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "dann"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Onda"
+              ]
+            },
             "example": {
               "red": [
                 "Dann"
@@ -3030,15 +3953,38 @@ const A1_WORDS = [
           }
         ],
         "tip": {
-          "left": {}
+          "left": {
+            "blue": [
+              "da"
+            ],
+            "purple": [
+              "Zapamtite"
+            ],
+            "green": [
+              "te"
+            ]
+          }
         },
         "important": [
-          {},
+          {
+            "blue": [
+              "da"
+            ],
+            "purple": [
+              "opšti"
+            ]
+          },
           {
             "yellow": [
-              "Hier"
+              "hier"
             ],
             "red": [
+              "dort"
+            ],
+            "green": [
+              "Hier"
+            ],
+            "purple": [
               "Hier"
             ]
           }
@@ -3046,84 +3992,84 @@ const A1_WORDS = [
       },
       "accents": {
         "blue": [
-          "Да",
+          "da",
           "Da"
         ],
         "purple": [
-          "Там",
+          "Tamo",
           "Tur"
         ],
         "green": [
           "te",
           "Te",
-          "Здесь"
+          "Ovdje"
         ],
         "yellow": [
-          "Здесь"
+          "hier"
         ],
         "red": [
-          "Дорт",
-          "Затем"
+          "dort",
+          "dann"
         ]
       },
       "important": [
-        "Да - ова е вообичаено географско име.",
-        "Hier - specifično \"ovde\", dort - dalje \"tamo\"."
+        "Da je opšti naziv mesta.",
+        "Hier je konkretno 'ovdje', dort je dalje 'tamo'."
       ]
     }
   },
   {
     "de": "danken",
-    "lv": "Ви благодарам",
+    "lv": "Zahvaliti",
     "level": "A1"
   },
   {
     "de": "dann",
-    "lv": "Onda...",
+    "lv": "Onda",
     "level": "A1"
   },
   {
     "de": "das",
-    "lv": "Srednje određeni član",
+    "lv": "Srednji određeni član",
     "level": "A1",
     "study": {
       "id": "a1-das",
       "layout": "standardStudy",
-      "translation": "Srednje određeni član",
-      "explanation": "Се користи за среден број именки. Во некои реченици, „ова“ може да дејствува и како заменка или релативна заменка.",
+      "translation": "Srednji određeni član",
+      "explanation": "Koristi se za imenice srednjeg roda. U nekim rečenicama \"to\" može funkcionirati i kao zamjenica ili relativna zamjenica.",
       "examples": [
         {
           "de": "Das ist mein Auto.",
-          "lv": "Ovo je moj auto"
+          "lv": "To je moj auto"
         },
         {
           "de": "Das ist gut.",
-          "lv": "Тоа е добро"
+          "lv": "To je dobro."
         },
         {
           "de": "Das Buch, das ich lese, ist interessant.",
-          "lv": "Интересна е книгата што ја читам."
+          "lv": "Knjiga koju čitam je zanimljiva."
         }
       ],
       "comparison": [
         {
           "word": "das",
-          "meaning": "Ова (напис/заменка)",
-          "example": "Das ist mein Auto. – Ovo je auto mog muškarca."
+          "meaning": "To (članak / zamjenica)",
+          "example": "Das ist mein Auto. – To je moj auto."
         },
         {
           "word": "dies",
-          "meaning": "Овој",
-          "example": "Dies ist mein Auto. – To je moj avto."
+          "meaning": "Ovaj",
+          "example": "Dies ist mein Auto. – Ovo je moj auto."
         },
         {
           "word": "welches",
-          "meaning": "Ko • Ko • Ko",
-          "example": "Das ist das Buch, welches ich lese. – Ovo je knjiga koju čitam."
+          "meaning": "Ko • Koji • Koga",
+          "example": "Das ist das Buch, welches ich lese. – To je knjiga koju čitam."
         }
       ],
       "tip": {
-        "text": "Ne pozabite: kastrirajte → das • To je → DASS."
+        "text": "Zapamtite: srednji genitiv → das • To → dass."
       },
       "sectionAccents": {
         "examples": [
@@ -3150,7 +4096,11 @@ const A1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das"
+              ]
+            },
             "example": {
               "blue": [
                 "Das"
@@ -3158,7 +4108,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "dies"
+              ]
+            },
             "example": {
               "green": [
                 "Dies"
@@ -3166,10 +4120,15 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "welches"
+              ]
+            },
             "example": {
               "blue": [
-                "Das"
+                "Das",
+                "das"
               ],
               "yellow": [
                 "welches"
@@ -3182,20 +4141,30 @@ const A1_WORDS = [
             "blue": [
               "das"
             ],
+            "purple": [
+              "Zapamtite"
+            ],
             "red": [
-              "das"
+              "dass"
             ]
           }
         },
         "important": [
           {
             "blue": [
+              "das"
+            ],
+            "purple": [
               "nivou"
             ]
           },
           {
             "blue": [
               "das"
+            ],
+            "purple": [
+              "Das",
+              "Das"
             ],
             "red": [
               "dass"
@@ -3204,58 +4173,58 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "Na nivou A1 prvo naučite kako kastrirati.",
-        "Das nije isto što i dass: das može biti član ili zamjenica, dass znači \"toa\"."
+        "Na nivou A1, das se prvo proučava kao članak srednjeg roda.",
+        "Das nije isto što i dass - das može biti član ili zamjenica, dass znači 'ono'."
       ]
     }
   },
   {
     "de": "dass",
-    "lv": "Што",
+    "lv": "To",
     "level": "A1",
     "study": {
       "id": "a1-dass",
       "layout": "standardStudy",
-      "translation": "Што",
-      "explanation": "Uvodi prateću rečenicu koja izražava činjenicu, misao ili izjavu.",
+      "translation": "To",
+      "explanation": "Uvodi pomoćnu klauzulu koja izražava činjenicu, misao ili izjavu.",
       "examples": [
         {
           "de": "Ich weiß, dass du müde bist.",
-          "lv": "Знам, че си уморен."
+          "lv": "Znam da si umoran."
         },
         {
           "de": "Er sagt, dass er kommt.",
-          "lv": "Тој вели дека ќе дојде."
+          "lv": "Kaže da će doći."
         },
         {
           "de": "Ich glaube, dass das stimmt.",
-          "lv": "Mislim, da ni ravno tako."
+          "lv": "Mislim da je to tačno."
         }
       ],
       "comparison": [
         {
           "word": "dass",
-          "meaning": "Што",
+          "meaning": "To",
           "example": "Ich weiß, dass er kommt. – Znam da će doći."
         },
         {
           "word": "weil",
-          "meaning": "Бидејќи • Затоа што",
-          "example": "Ich bleibe zu Hause, weil es regnet. – Останувам дома затоа што врне."
+          "meaning": "Jer • Zato",
+          "example": "Ich bleibe zu Hause, weil es regnet. – Ostajem kod kuće jer pada kiša."
         },
         {
           "word": "damit",
-          "meaning": "ДО",
-          "example": "Ich lerne Deutsch, damit ich in Deutschland arbeiten kann. – Учам германски за да можам да работам во Германија."
+          "meaning": "To",
+          "example": "Ich lerne Deutsch, damit ich in Deutschland arbeiten kann. – Učim njemački kako bih mogao raditi u Njemačkoj."
         },
         {
           "word": "ob",
-          "meaning": "Или",
-          "example": "Ich weiß nicht, ob er kommt. – Не знам дали ќе дојде."
+          "meaning": "Ili",
+          "example": "Ich weiß nicht, ob er kommt. – Ne znam da li će doći."
         }
       ],
       "tip": {
-        "text": "Запомнете: ова е → да."
+        "text": "Zapamtite: to → dass."
       },
       "sectionAccents": {
         "examples": [
@@ -3265,7 +4234,11 @@ const A1_WORDS = [
                 "dass"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Znam"
+              ]
+            }
           },
           {
             "de": {
@@ -3273,7 +4246,11 @@ const A1_WORDS = [
                 "dass"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Kaže"
+              ]
+            }
           },
           {
             "de": {
@@ -3281,55 +4258,103 @@ const A1_WORDS = [
                 "dass"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Mislim"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "dass"
+              ]
+            },
             "example": {
               "blue": [
                 "dass"
+              ],
+              "purple": [
+                "Ich"
               ]
             }
           },
           {
-            "word": {},
-            "example": {
+            "word": {
               "green": [
                 "weil"
               ]
-            }
-          },
-          {
-            "word": {},
+            },
             "example": {
-              "yellow": [
-                "damit"
+              "green": [
+                "weil"
+              ],
+              "purple": [
+                "Ich"
               ]
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "damit"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "damit"
+              ],
+              "purple": [
+                "Ich"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ob"
+              ]
+            },
             "example": {
               "red": [
                 "ob"
+              ],
+              "purple": [
+                "Ich"
               ]
             }
           }
         ],
         "tip": {
-          "left": {}
+          "left": {
+            "blue": [
+              "dass"
+            ],
+            "purple": [
+              "Zapamtite"
+            ]
+          }
         },
         "important": [
           {
             "blue": [
               "dass"
+            ],
+            "purple": [
+              "Dass"
+            ],
+            "green": [
+              "Dass"
             ]
           },
           {
             "red": [
               "das"
+            ],
+            "yellow": [
+              "treba"
             ],
             "purple": [
               "das"
@@ -3338,8 +4363,8 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "Dass pomeni \"to\" in uvaja pomožno klavzulo.",
-        "Да не се меша со das, што може да биде статија или „тоа“."
+        "Dass znači \"ono\" i uvodi pomoćnu klauzulu.",
+        "Ne treba se brkati sa das, što može biti članak ili 'to'."
       ]
     }
   },
@@ -3352,39 +4377,39 @@ const A1_WORDS = [
   },
   {
     "de": "dein",
-    "lv": "Tvoja",
+    "lv": "Tvoj",
     "level": "A1"
   },
   {
     "de": "denken",
-    "lv": "Hajde momci. Razmisli o tome.",
+    "lv": "Misliti",
     "level": "A1"
   },
   {
     "de": "der",
-    "lv": "Определен член од машки род",
+    "lv": "Određeni član muškog roda",
     "level": "A1",
     "study": {
       "id": "a1-der",
       "layout": "standardStudy",
-      "translation": "Определен член од машки род",
-      "explanation": "Се употребува кај именките од машки род. Во некои реченици, „der“ може да дејствува и како заменка или релативна заменка.",
+      "translation": "Određeni član muškog roda",
+      "explanation": "Koristi se sa imenicama muškog roda. U nekim rečenicama, \"der\" može funkcionirati i kao zamjenica ili relativna zamjenica.",
       "examples": [
         {
           "de": "Der Mann ist hier.",
-          "lv": "Човекот е тука."
+          "lv": "Covek je ovde."
         },
         {
           "de": "Der Bus kommt.",
-          "lv": "Доаѓа автобусот."
+          "lv": "Autobus ide."
         },
         {
           "de": "Der Lehrer spricht.",
-          "lv": "Наставникот зборува."
+          "lv": "Nastavnik govori."
         }
       ],
       "tip": {
-        "text": "Zapamtite: muško → prikladno."
+        "text": "Zapamtite: muško → odgovara."
       },
       "sectionAccents": {
         "examples": [
@@ -3402,197 +4427,6 @@ const A1_WORDS = [
             "blue": [
               "Der"
             ]
-          }
-        ],
-        "comparison": [
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          }
-        ],
-        "tip": {
-          "left": {}
-        },
-        "important": [
-          {},
-          {}
-        ]
-      },
-      "important": [
-        "На ниво А1 прво мора да го научите машкиот член.",
-        "Заменката и релативната употреба ќе дојдат подоцна."
-      ]
-    }
-  },
-  {
-    "de": "deutsch",
-    "lv": "Nemščina",
-    "level": "A1"
-  },
-  {
-    "de": "Dezember",
-    "de_article": "der",
-    "lv": "Декември",
-    "level": "A1"
-  },
-  {
-    "de": "die",
-    "lv": "Definitivni član ženskog roda",
-    "level": "A1",
-    "study": {
-      "id": "a1-die",
-      "layout": "standardStudy",
-      "translation": "Definitivni član ženskog roda",
-      "explanation": "Се користи со именки од женски род. Во некои реченици, зборот „умре“ може да дејствува и како заменка или релативна заменка.",
-      "examples": [
-        {
-          "de": "Die Frau ist hier.",
-          "lv": "Žena je ovdje."
-        },
-        {
-          "de": "Die Katze schläft.",
-          "lv": "Мачето спие."
-        },
-        {
-          "de": "Die Lehrerin erklärt.",
-          "lv": "Наставникот објаснува."
-        }
-      ],
-      "tip": {
-        "text": "Запомнете: женственост → умре."
-      },
-      "sectionAccents": {
-        "examples": [
-          {
-            "blue": [
-              "Die"
-            ]
-          },
-          {
-            "blue": [
-              "Die"
-            ]
-          },
-          {
-            "blue": [
-              "Die"
-            ]
-          }
-        ],
-        "comparison": [
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          }
-        ],
-        "tip": {
-          "left": {}
-        },
-        "important": [
-          {},
-          {}
-        ]
-      },
-      "important": [
-        "Na ravni A1 kocko najprej preučujemo kot ženski predmet.",
-        "Множината се користи и за сите родови."
-      ]
-    }
-  },
-  {
-    "de": "Dienstag",
-    "de_article": "der",
-    "de_plural": "die Dienstage",
-    "lv": "Вторник",
-    "level": "A1"
-  },
-  {
-    "de": "dieser",
-    "lv": "Овој",
-    "level": "A1",
-    "study": {
-      "id": "a1-dieser",
-      "layout": "standardStudy",
-      "translation": "Овој",
-      "explanation": "Го покажува најблиското лице, предмет или животно. Се употребува со именка од машки род.",
-      "examples": [
-        {
-          "de": "Dieser Mann ist nett.",
-          "lv": "Ta človek je dober."
-        },
-        {
-          "de": "Ich mag diesen Hund.",
-          "lv": "Sviđa mi se ovaj pas"
-        },
-        {
-          "de": "Dieser Stift ist neu.",
-          "lv": "Ta injekcijski peresnik je nov."
-        }
-      ],
-      "tip": {
-        "text": "Ne pozabite: to je + moški → dizel."
-      },
-      "sectionAccents": {
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "Dieser"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "diesen"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "Dieser"
-              ]
-            },
-            "lv": {}
           }
         ],
         "comparison": [
@@ -3616,7 +4450,259 @@ const A1_WORDS = [
         "tip": {
           "left": {
             "blue": [
-              "pozabite"
+              "Zapamtite"
+            ],
+            "purple": [
+              "Zapamtite"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "nivou"
+            ],
+            "purple": [
+              "nivou"
+            ]
+          },
+          {
+            "red": [
+              "Zamenice",
+              "relativne"
+            ]
+          }
+        ]
+      },
+      "important": [
+        "Na nivou A1, prvo biste trebali naučiti kao muški članak.",
+        "Zamenice i relativne upotrebe dolaze kasnije."
+      ]
+    }
+  },
+  {
+    "de": "deutsch",
+    "lv": "Njemački",
+    "level": "A1"
+  },
+  {
+    "de": "Dezember",
+    "de_article": "der",
+    "lv": "Decembar",
+    "level": "A1"
+  },
+  {
+    "de": "die",
+    "lv": "Određeni član ženskog roda",
+    "level": "A1",
+    "study": {
+      "id": "a1-die",
+      "layout": "standardStudy",
+      "translation": "Određeni član ženskog roda",
+      "explanation": "Koristi se sa imenicama ženskog roda. U nekim rečenicama, \"umrijeti\" može funkcionirati i kao zamjenica ili relativna zamjenica.",
+      "examples": [
+        {
+          "de": "Die Frau ist hier.",
+          "lv": "Žena je ovde."
+        },
+        {
+          "de": "Die Katze schläft.",
+          "lv": "Mače spava."
+        },
+        {
+          "de": "Die Lehrerin erklärt.",
+          "lv": "Učitelj objašnjava."
+        }
+      ],
+      "tip": {
+        "text": "Zapamtite: žensko → umrijeti."
+      },
+      "sectionAccents": {
+        "examples": [
+          {
+            "blue": [
+              "Die"
+            ]
+          },
+          {
+            "blue": [
+              "Die"
+            ]
+          },
+          {
+            "blue": [
+              "Die"
+            ]
+          }
+        ],
+        "comparison": [
+          {
+            "word": {},
+            "example": {}
+          },
+          {
+            "word": {},
+            "example": {}
+          },
+          {
+            "word": {},
+            "example": {}
+          },
+          {
+            "word": {},
+            "example": {}
+          },
+          {
+            "word": {},
+            "example": {}
+          },
+          {
+            "word": {},
+            "example": {}
+          },
+          {
+            "word": {},
+            "example": {}
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "Zapamtite"
+            ],
+            "purple": [
+              "Zapamtite"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "nivou"
+            ],
+            "purple": [
+              "nivou"
+            ]
+          },
+          {
+            "blue": [
+              "Množina"
+            ],
+            "green": [
+              "Množina"
+            ],
+            "purple": [
+              "Množina"
+            ]
+          }
+        ]
+      },
+      "important": [
+        "Na nivou A1, kockica se prvo proučava kao ženski članak.",
+        "Množina se također koristi za sve rodove."
+      ]
+    }
+  },
+  {
+    "de": "Dienstag",
+    "de_article": "der",
+    "de_plural": "die Dienstage",
+    "lv": "Utorak",
+    "level": "A1"
+  },
+  {
+    "de": "dieser",
+    "lv": "Ovaj",
+    "level": "A1",
+    "study": {
+      "id": "a1-dieser",
+      "layout": "standardStudy",
+      "translation": "Ovaj",
+      "explanation": "Pokazuje na osobu, stvar ili životinju u blizini. Koristi se uz imenicu muškog roda.",
+      "examples": [
+        {
+          "de": "Dieser Mann ist nett.",
+          "lv": "Ovaj covek je fin."
+        },
+        {
+          "de": "Ich mag diesen Hund.",
+          "lv": "Sviđa mi se ovaj pas"
+        },
+        {
+          "de": "Dieser Stift ist neu.",
+          "lv": "Ova olovka je nova."
+        }
+      ],
+      "tip": {
+        "text": "Zapamtite: ovo + muški → dieser."
+      },
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Dieser"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Ovaj"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "diesen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Sviđa"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Dieser"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Ova"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {},
+            "example": {}
+          },
+          {
+            "word": {},
+            "example": {}
+          },
+          {
+            "word": {},
+            "example": {}
+          },
+          {
+            "word": {},
+            "example": {}
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "dieser"
+            ],
+            "purple": [
+              "Zapamtite"
+            ],
+            "green": [
+              "Zapamtite"
             ]
           }
         },
@@ -3630,18 +4716,24 @@ const A1_WORDS = [
             ],
             "yellow": [
               "dieses"
+            ],
+            "purple": [
+              "Dieser"
             ]
           },
           {
             "red": [
               "diese"
+            ],
+            "green": [
+              "Oblik"
             ]
           }
         ]
       },
       "important": [
-        "Dieser, diese и dieses се разликуваат по пол.",
-        "Формата за множествено число отново е diese."
+        "Dieser, diese i dieses se mijenjaju po spolu.",
+        "Oblik množine je opet diese."
       ]
     }
   },
@@ -3649,19 +4741,19 @@ const A1_WORDS = [
     "de": "Ding",
     "de_article": "das",
     "de_plural": "die Dinge",
-    "lv": "Нешто",
+    "lv": "Stvar",
     "level": "A1"
   },
   {
     "de": "Donnerstag",
     "de_article": "der",
     "de_plural": "die Donnerstage",
-    "lv": "Четврток",
+    "lv": "Četvrtak",
     "level": "A1"
   },
   {
     "de": "dort",
-    "lv": "Там",
+    "lv": "Tamo",
     "level": "A1"
   },
   {
@@ -3671,58 +4763,58 @@ const A1_WORDS = [
   },
   {
     "de": "dreihundert",
-    "lv": "Триста",
+    "lv": "Tri stotine",
     "level": "A1"
   },
   {
     "de": "dreimal",
-    "lv": "Три пати",
+    "lv": "Tri puta",
     "level": "A1"
   },
   {
     "de": "dreißig",
-    "lv": "Триесет",
+    "lv": "Trideset",
     "level": "A1"
   },
   {
     "de": "dreizehn",
-    "lv": "Тринаесет",
+    "lv": "Trinaest",
     "level": "A1"
   },
   {
     "de": "dritte",
-    "lv": "Трето",
+    "lv": "Treći",
     "level": "A1"
   },
   {
     "de": "du",
-    "lv": "Вие",
+    "lv": "Ti",
     "level": "A1"
   },
   {
     "de": "dürfen",
-    "lv": "Ќе биде дозволено",
+    "lv": "Biti dozvoljeno",
     "level": "A1"
   },
   {
     "de": "Dusche",
     "de_article": "die",
     "de_plural": "die Duschen",
-    "lv": "Душ",
+    "lv": "Tuš",
     "level": "A1"
   },
   {
     "de": "Ecke",
     "de_article": "die",
     "de_plural": "die Ecken",
-    "lv": "Агол",
+    "lv": "Ugao",
     "level": "A1"
   },
   {
     "de": "Ei",
     "de_article": "das",
     "de_plural": "die Eier",
-    "lv": "Јајце",
+    "lv": "Jaje",
     "level": "A1"
   },
   {
@@ -3733,23 +4825,23 @@ const A1_WORDS = [
       "id": "a1-ein",
       "layout": "standardStudy",
       "translation": "Neodređeni član • Jedan • Neko",
-      "explanation": "Koristi se uz imenicu muškog roda. Indikacija za jedan posao ili osobu iz više opcija.",
+      "explanation": "Koristi se uz imenicu muškog roda. Pokazivanje na jednu stvar ili osobu iz više opcija.",
       "examples": [
         {
           "de": "Ein Mann wartet draußen.",
-          "lv": "Človek počaka zunaj."
+          "lv": "Čovek čeka napolju."
         },
         {
           "de": "Ich habe ein Buch.",
-          "lv": "Имам книга."
+          "lv": "Imam jednu knjigu."
         },
         {
           "de": "Er sucht einen Stift.",
-          "lv": "Išče pisalo."
+          "lv": "On traži olovku."
         }
       ],
       "tip": {
-        "text": "Запомнете: неспецифично едно/нещо → ein."
+        "text": "Zapamtite: nespecifičan jedan/neko → ein."
       },
       "sectionAccents": {
         "examples": [
@@ -3759,7 +4851,11 @@ const A1_WORDS = [
                 "Ein"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Čovek"
+              ]
+            }
           },
           {
             "de": {
@@ -3767,7 +4863,11 @@ const A1_WORDS = [
                 "ein"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Imam"
+              ]
+            }
           },
           {
             "de": {
@@ -3775,7 +4875,11 @@ const A1_WORDS = [
                 "einen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "traži"
+              ]
+            }
           }
         ],
         "comparison": [
@@ -3808,13 +4912,23 @@ const A1_WORDS = [
           "left": {
             "blue": [
               "ein"
+            ],
+            "purple": [
+              "Zapamtite",
+              "Zapamtite"
+            ],
+            "green": [
+              "Zapamtite"
             ]
           }
         },
         "important": [
           {
             "blue": [
-              "Ајн"
+              "ein"
+            ],
+            "red": [
+              "Ein"
             ]
           },
           {
@@ -3822,19 +4936,22 @@ const A1_WORDS = [
               "der",
               "die",
               "das"
+            ],
+            "green": [
+              "Ako"
             ]
           }
         ]
       },
       "important": [
-        "Ајн не е дефинитивен член.",
-        "Ако въпросът вече е конкретно известен, често се изисква der, die или das."
+        "Ein nije određen član.",
+        "Ako je stvar već konkretno poznata, često je potreban der, die ili das."
       ]
     }
   },
   {
     "de": "einfach",
-    "lv": "Едноставно",
+    "lv": "Jednostavno",
     "level": "A1"
   },
   {
@@ -3845,56 +4962,56 @@ const A1_WORDS = [
   {
     "de": "Eis",
     "de_article": "das",
-    "lv": "Ice • Sladoled",
+    "lv": "Led • Sladoled",
     "level": "A1",
     "study": {
       "id": "a1-eis",
       "layout": "standardStudy",
-      "translation": "Ice • Sladoled",
+      "translation": "Led • Sladoled",
       "explanation": [
-        "Клучна идеја: das Eis може да значи и мраз и сладолед.",
-        "Кога зборуваме за ладна замрзната вода, латвискиот збор обично е „мраз“.",
-        "Ko govorimo o hrani ali sladici, das Eis v vsakdanjem življenju zelo pogosto pomeni sladoled.",
-        "Контекстът обикновено ви казва веднага какво значение имате предвид.",
-        "Na ravni A1 sta najpomembnejši stavki ein Eis essen in Eis im Glas."
+        "Glavna ideja: das Eis može značiti i sladoled i sladoled.",
+        "Kada je u pitanju hladna smrznuta voda, letonski obično kaže led.",
+        "Kada je u pitanju hrana ili desert, das Eis vrlo često znači sladoled u svakodnevnom životu.",
+        "Kontekst vam obično odmah kaže koje je značenje namijenjeno.",
+        "Na nivou A1 najvažnije fraze su ein Eis essen i Eis im Glas."
       ],
       "examples": [
         {
           "de": "Ich esse ein Eis.",
-          "lv": "Јадам сладолед"
+          "lv": "Jedem sladoled"
         },
         {
           "de": "Möchtest du ein Eis?",
-          "lv": "Сакаш сладолед"
+          "lv": "Hoćeš sladoled"
         },
         {
           "de": "Im Winter liegt Eis auf dem See.",
-          "lv": "Во зима има мраз на езерото."
+          "lv": "Zimi na jezeru ima leda."
         },
         {
           "de": "Das Eis ist kalt.",
-          "lv": "Мразот е ладен."
+          "lv": "Led je hladan."
         },
         {
           "de": "Ich nehme ein Eis mit Schokolade.",
-          "lv": "Ќе пијам чоколаден сладолед."
+          "lv": "Ja ću sladoled od čokolade."
         }
       ],
       "comparison": [
         {
           "word": "das Eis",
-          "meaning": "Сладолед/сладолед",
-          "example": "Ich esse ein Eis. = Ям сладолед."
+          "meaning": "Led / sladoled",
+          "example": "Ich esse ein Eis. = Jedem sladoled."
         },
         {
           "word": "der Schnee",
-          "meaning": "Ќе врне снег",
+          "meaning": "Padaće sneg",
           "example": "Der Schnee ist weiß. = Snijeg je bijeli."
         },
         {
-          "word": "kalt",
-          "meaning": "Hladno.",
-          "example": "Das Wasser ist kalt. = Водата е ладна."
+          "word": "Kovati",
+          "meaning": "Hladno",
+          "example": "Das Wasser ist kalt. = Voda je hladna."
         },
         {
           "word": "das Dessert",
@@ -3903,17 +5020,29 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Запомнете: храна → сладолед • Зима/вода → мраз."
+        "text": "Zapamtite: hrana → sladoled • Zima/voda → led."
       },
       "important": [
-        "Сладолед и сладолед се два различни збора на латвиски, но на германски das Eis често се користи за двата збора.",
-        "Контекстот е критичен: храната значи сладолед, студената површина или водата значи мраз."
+        "Na letonskom, led i sladoled su dve različite reči, ali na nemačkom se das Eis često koristi za obe.",
+        "Kontekst je ključan: hrana znači sladoled, hladna površina ili voda znači led."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "das Eis",
             "Eis"
+          ],
+          "purple": [
+            "led",
+            "Glavna",
+            "Glavna"
+          ],
+          "green": [
+            "Glavna",
+            "desert"
+          ],
+          "yellow": [
+            "Glavna"
           ]
         },
         "examples": [
@@ -3923,7 +5052,11 @@ const A1_WORDS = [
                 "Eis"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Jedem"
+              ]
+            }
           },
           {
             "de": {
@@ -3931,7 +5064,11 @@ const A1_WORDS = [
                 "Eis"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Hoćeš"
+              ]
+            }
           },
           {
             "de": {
@@ -3939,7 +5076,14 @@ const A1_WORDS = [
                 "Eis"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Zimi"
+              ],
+              "green": [
+                "jezeru"
+              ]
+            }
           },
           {
             "de": {
@@ -3947,7 +5091,11 @@ const A1_WORDS = [
                 "Eis"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Led"
+              ]
+            }
           },
           {
             "de": {
@@ -3955,173 +5103,242 @@ const A1_WORDS = [
                 "Eis"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "sladoled"
+              ],
+              "yellow": [
+                "čokolade"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "das Eis"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Led",
+                "Led"
+              ]
+            },
             "example": {
               "blue": [
                 "Eis"
+              ],
+              "purple": [
+                "Ich"
               ]
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "der Schnee"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Padaće"
+              ]
+            },
             "example": {
               "green": [
-                "Schnee"
+                "Schnee",
+                "Snijeg"
               ]
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "Kovati"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Hladno"
+              ]
+            },
             "example": {
               "yellow": [
-                "kalt"
+                "kalt",
+                "Das"
               ]
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "das Dessert"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Desert"
+              ]
+            },
             "example": {
               "blue": [
                 "Eis"
               ],
               "red": [
-                "Dessert"
+                "desert"
               ]
             }
           }
         ],
         "tip": {
-          "left": {}
+          "left": {
+            "purple": [
+              "Zapamtite",
+              "Zapamtite"
+            ],
+            "green": [
+              "Zapamtite",
+              "Zapamtite",
+              "Zapamtite"
+            ]
+          }
         },
         "important": [
           {
             "blue": [
               "das Eis"
+            ],
+            "purple": [
+              "letonskom",
+              "letonskom"
             ]
           },
-          {}
+          {
+            "purple": [
+              "Kontekst",
+              "led"
+            ],
+            "green": [
+              "Kontekst",
+              "Kontekst",
+              "Kontekst"
+            ]
+          }
         ]
       }
     }
   },
   {
     "de": "elf",
-    "lv": "Единаесет",
+    "lv": "Jedanaest",
     "level": "A1"
   },
   {
     "de": "E-Mail",
     "de_article": "die",
     "de_plural": "die E-Mails",
-    "lv": "Е-пошта",
+    "lv": "E-mail",
     "level": "A1"
   },
   {
     "de": "Eltern",
     "de_article": "die",
-    "lv": "Roditelji",
+    "lv": "Roditeljima",
     "level": "A1"
   },
   {
     "de": "Ende",
     "de_article": "das",
-    "lv": "Ooo, Stifflerjeva mama!",
+    "lv": "Kraj",
     "level": "A1"
   },
   {
     "de": "er",
-    "lv": "Тој",
+    "lv": "On",
     "level": "A1"
   },
   {
     "de": "Erbse",
     "de_article": "die",
     "de_plural": "die Erbsen",
-    "lv": "Grah?",
+    "lv": "Grašak",
     "level": "A1"
   },
   {
     "de": "Erde",
     "de_article": "die",
     "de_plural": "die Erden",
-    "lv": "Zemlja",
+    "lv": "Zemljište",
     "level": "A1"
   },
   {
     "de": "erst",
-    "lv": "Прво • Само",
+    "lv": "Samo prvo",
     "level": "A1",
     "study": {
       "id": "a1-erst",
       "layout": "standardStudy",
-      "translation": "Прво • Само",
-      "explanation": "\"erst\" se uporablja za označevanje zaporedja (prvega) ali za poudarjanje, da se nekaj dogaja pozneje od pričakovanega ali v manjši meri (samo).",
+      "translation": "Samo prvo",
+      "explanation": "\"erst\" se koristi da označi sekvencu (prvi) ili da naglasi da se nešto dešava kasnije od očekivanog ili u manjoj mjeri (samo).",
       "examples": [
         {
           "de": "Erst trinken, dann fahren.",
-          "lv": "Прво пијте, а подоцна возете."
+          "lv": "Prvo pij pa vozi."
         },
         {
           "de": "Ich komme erst morgen.",
-          "lv": "Нема да дојдам до утре."
+          "lv": "Neću stići do sutra."
         },
         {
           "de": "Er ist erst 18 Jahre alt.",
-          "lv": "Тој има само 18 години."
+          "lv": "Ima samo 18 godina."
         },
         {
           "de": "Wir essen erst um acht Uhr.",
-          "lv": "Jedemo samo očima."
+          "lv": "Jedemo samo u osam."
         }
       ],
       "comparison": [
         {
           "word": "erst",
-          "meaning": "Прво • Само",
-          "example": "Erst arbeiten, dann Pause. = Najprej posel, nato pavza."
+          "meaning": "Samo prvo",
+          "example": "Erst arbeiten, dann Pause. = Prvo radite, pa pauzirajte."
         },
         {
           "word": "zuerst",
-          "meaning": "Najprej • Na začetku",
-          "example": "Zuerst frühstücken wir. = Прво појадуваме."
+          "meaning": "Prvo • Na početku",
+          "example": "Zuerst frühstücken wir. = Prvo doručkujemo."
         },
         {
           "word": "nur",
-          "meaning": "Само",
+          "meaning": "Samo",
           "example": "Ich habe nur 5 Euro. = Imam samo 5 eura."
         },
         {
           "word": "dann",
-          "meaning": "Onda...",
-          "example": "Dann gehen wir nach Hause. = Потоа одиме дома."
+          "meaning": "Onda",
+          "example": "Dann gehen wir nach Hause. = Onda idemo kući."
         }
       ],
       "tip": {
-        "text": "Ne pozabite: čas/datum → pred • → Št. količine"
+        "text": "Zapamtite: vrijeme/broj → erst • Količina → br."
       },
       "accents": {
         "blue": [
-          "Первый",
+          "erst",
           "Erst"
         ],
         "green": [
-          "Первый",
+          "zuerst",
           "Zuerst"
         ],
         "yellow": [
-          "Нет"
+          "nur"
         ],
         "red": [
-          "Затем",
+          "dann",
           "Dann"
         ]
       },
@@ -4153,7 +5370,11 @@ const A1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "erst"
+              ]
+            },
             "example": {
               "blue": [
                 "Erst"
@@ -4164,7 +5385,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "zuerst"
+              ]
+            },
             "example": {
               "green": [
                 "Zuerst"
@@ -4172,7 +5397,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "nur"
+              ]
+            },
             "example": {
               "yellow": [
                 "nur"
@@ -4180,7 +5409,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "dann"
+              ]
+            },
             "example": {
               "red": [
                 "Dann"
@@ -4189,44 +5422,75 @@ const A1_WORDS = [
           }
         ],
         "tip": {
-          "left": {}
+          "left": {
+            "blue": [
+              "erst"
+            ],
+            "yellow": [
+              "Zapamtite"
+            ],
+            "green": [
+              "Zapamtite",
+              "Zapamtite"
+            ],
+            "purple": [
+              "Zapamtite"
+            ]
+          }
         },
         "important": [
           {
             "blue": [
-              "Ерст"
+              "erst"
             ],
             "yellow": [
-              "Ерст"
+              "nur"
+            ],
+            "purple": [
+              "Erst"
             ]
           },
-          {}
+          {
+            "blue": [
+              "Najprije"
+            ],
+            "green": [
+              "Najprije",
+              "Najprije"
+            ],
+            "yellow": [
+              "nur"
+            ],
+            "purple": [
+              "Najprije"
+            ]
+          }
         ]
       },
       "important": [
-        "Ерст и нур можеби звучат како „само“, но не се иста работа.",
-        "Првиот често зборува за време, низа или дека точката сè уште не е достигната • Noor го ограничува количеството."
+        "Erst i nur mogu zvučati kao \"samo\", ali nisu isto.",
+        "Najprije često govori o vremenu, slijedu ili da tek treba doći do tačke • Nur ograničava količinu."
       ]
     }
   },
   {
     "de": "erste",
-    "lv": "Прво",
+    "lv": "Prvi",
     "level": "A1"
   },
   {
     "de": "es",
-    "lv": "Ovana • Toa • Bezlični oblik",
+    "lv": "To • To • Bezlični oblik",
     "level": "A1",
     "study": {
       "id": "a1-es",
       "layout": "standardStudy",
-      "translation": "Ovana • Toa • Bezlični oblik",
-      "explanation": "Германското „јас“ не е навикнато да се зборува за себе. Се употребува да значи: ова, она или безлична форма (време, време, разни безлични реченици).",
+      "translation": "To • To • Bezlični oblik",
+      "explanation": "Nemačko \"ja\" nije naviklo govoriti o sebi. Koristi se za označavanje: ono, to ili bezlični oblik (vrijeme, vrijeme, razne bezlične rečenice).",
       "examples": [
         {
           "de": "Ich lerne Deutsch.",
-          "lv": "Učim se nemščino."
+          "lv": "Učim njemački."
         },
         {
           "de": "Er ist müde.",
@@ -4234,24 +5498,24 @@ const A1_WORDS = [
         },
         {
           "de": "Sie arbeitet hier.",
-          "lv": "Тя работи тук."
+          "lv": "Ona radi ovde."
         },
         {
           "de": "Das ist mein Buch.",
-          "lv": "Ова е мојата книга."
+          "lv": "To je moja knjiga."
         },
         {
           "de": "Es regnet.",
-          "lv": "Врне дожд"
+          "lv": "Pada kiša"
         },
         {
           "de": "Es schneit.",
-          "lv": "Снег врне"
+          "lv": "Pada snijeg"
         }
       ],
       "info": [
-        "Латышское \"es\" = немецкое \"ich\"",
-        "Немецкое «я» = оно • Так • Безличная форма"
+        "Letonski \"es\" = njemački \"ich\"",
+        "Njemački \"ja\" = to • So • Bezličan oblik"
       ],
       "tip": {
         "text": "Zapamtite: letonski \"es\" → ich, a ne njemački es."
@@ -4316,8 +5580,16 @@ const A1_WORDS = [
           }
         ],
         "info": [
-          {},
-          {}
+          {
+            "blue": [
+              "ich"
+            ]
+          },
+          {
+            "green": [
+              "es"
+            ]
+          }
         ],
         "tip": {
           "left": {
@@ -4333,17 +5605,31 @@ const A1_WORDS = [
           }
         },
         "important": [
-          {},
           {
             "blue": [
+              "Nemačko"
+            ],
+            "purple": [
+              "Nemačko"
+            ]
+          },
+          {
+            "red": [
+              "ich"
+            ],
+            "blue": [
               "es"
+            ],
+            "purple": [
+              "Letonsko",
+              "Letonsko"
             ]
           }
         ]
       },
       "important": [
-        "Германското „јас“ не е летонското „јас“.",
-        "Летонскиот „јас“ е на германски • Германскиот es често значи ова/она или не е преведен."
+        "Nemačko ja nije letonsko ja.",
+        "Letonsko \"I\" je ich na njemačkom • Nemački es često znači to/to ili nije preveden."
       ]
     }
   },
@@ -4351,79 +5637,91 @@ const A1_WORDS = [
     "de": "Esslöffel",
     "de_article": "der",
     "de_plural": "die Esslöffel",
-    "lv": "Лажица",
+    "lv": "Kašika",
     "level": "A1"
   },
   {
     "de": "etwas",
-    "lv": "Нешто • Малку",
+    "lv": "Nešto • Malo",
     "level": "A1",
     "study": {
       "id": "a1-etwas",
       "layout": "standardStudy",
-      "translation": "Нешто • Малку",
+      "translation": "Nešto • Malo",
       "explanation": [
-        "Главна идеја: etwas значи нешто или малку во зависност од контекстот.",
-        "Ако etwas замени нешто непознато, латвискиот обично кажува нешто.",
-        "Кога etwas доаѓа пред придавка или количина, тоа често значи малку.",
-        "Etwas е многу вообичаен и неутрален А1 збор во разговорот.",
-        "Најважно е да се разликува: etwas kaufen = нешто купувам, etwas müde = малку уморен."
+        "Glavna ideja: etwas znači nešto ili malo ovisno o kontekstu.",
+        "Ako etwas zamijeni nepoznatu stvar, latvijski obično nešto kaže.",
+        "Kada etwas stoji ispred prideva ili količine, to često znači malo.",
+        "Etwas je vrlo česta i neutralna A1 riječ u razgovoru.",
+        "Najvažnije je razlikovati: etwas kaufen = kupiti nešto, etwas müde = malo umoran."
       ],
       "examples": [
         {
           "de": "Ich möchte etwas trinken.",
-          "lv": "Бих искал едно питие."
+          "lv": "Hteo bih nešto da popijem."
         },
         {
           "de": "Hast du etwas Zeit?",
-          "lv": "Imate malo časa"
+          "lv": "Imate li vremena"
         },
         {
           "de": "Ich bin etwas müde.",
-          "lv": "Малку сум уморен"
+          "lv": "Malo sam umoran"
         },
         {
           "de": "Ich habe etwas für dich.",
-          "lv": "Имам нешто за тебе"
+          "lv": "Imam nešto za tebe"
         },
         {
           "de": "Das ist etwas teuer.",
-          "lv": "Тоа е малку скапо."
+          "lv": "Malo je skupo."
         }
       ],
       "comparison": [
         {
           "word": "etwas",
-          "meaning": "Нешто/малку",
-          "example": "Ich brauche etwas. = Mislim, da rabim polnjenje."
+          "meaning": "Nešto / malo",
+          "example": "Ich brauche etwas. = Treba mi nešto."
         },
         {
           "word": "was",
-          "meaning": "Нешто (колоквијално)",
-          "example": "Willst du was trinken? = Bi kaj spili?"
+          "meaning": "Nešto (kolokvijalno)",
+          "example": "Willst du was trinken? = Hoćeš nešto da popiješ?"
         },
         {
           "word": "ein bisschen",
-          "meaning": "Малку",
-          "example": "Ich bin ein bisschen müde. = Малку сум уморен."
+          "meaning": "Malo",
+          "example": "Ich bin ein bisschen müde. = Malo sam umoran."
         },
         {
           "word": "nichts",
-          "meaning": "Нищо",
-          "example": "Ich brauche nichts. = Не ми треба ништо"
+          "meaning": "Ništa",
+          "example": "Ich brauche nichts. = Ne treba mi ništa."
         }
       ],
       "tip": {
-        "text": "Запомнете: нешто → нешто • Степен → малолетно."
+        "text": "Zapamtite: stvar → nešto • Stepen → blago."
       },
       "important": [
-        "Etwas не е исто што и nichts: etwas значи нешто, но nichts не значи ништо.",
-        "Na latvijskom, nešto zvuči bolje od nečega, na primjer: etwas trinken = nešto za piće."
+        "Etwas nije isto što i nichts: etwas znači nešto, ali nichts ne znači ništa.",
+        "Na latvijskom, nešto zvuči bolje od nečega, na primjer: etwas trinken = popiti nešto."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "etwas"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna",
+            "Glavna"
+          ],
+          "green": [
+            "kontekstu"
+          ],
+          "yellow": [
+            "Glavna",
+            "Glavna"
           ]
         },
         "examples": [
@@ -4433,7 +5731,11 @@ const A1_WORDS = [
                 "etwas"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Hteo"
+              ]
+            }
           },
           {
             "de": {
@@ -4441,7 +5743,14 @@ const A1_WORDS = [
                 "etwas"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Imate"
+              ],
+              "yellow": [
+                "Imate"
+              ]
+            }
           },
           {
             "de": {
@@ -4449,7 +5758,11 @@ const A1_WORDS = [
                 "etwas"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Malo"
+              ]
+            }
           },
           {
             "de": {
@@ -4457,7 +5770,11 @@ const A1_WORDS = [
                 "etwas"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Imam"
+              ]
+            }
           },
           {
             "de": {
@@ -4465,62 +5782,126 @@ const A1_WORDS = [
                 "etwas"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Malo"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "etwas"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Nešto",
+                "Nešto"
+              ]
+            },
             "example": {
               "blue": [
                 "etwas"
+              ],
+              "purple": [
+                "Ich"
               ]
             }
           },
           {
-            "word": {},
-            "meaning": {},
-            "example": {
+            "word": {
               "green": [
                 "was"
               ]
-            }
-          },
-          {
-            "word": {},
-            "meaning": {},
+            },
+            "meaning": {
+              "purple": [
+                "Nešto"
+              ]
+            },
             "example": {
-              "yellow": [
-                "ein bisschen"
+              "green": [
+                "was"
+              ],
+              "purple": [
+                "Willst"
               ]
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "ein bisschen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Malo"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "ein bisschen",
+                "Ich"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "nichts"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Ništa"
+              ]
+            },
             "example": {
               "red": [
-                "nichts"
+                "nichts",
+                "Ich"
               ]
             }
           }
         ],
         "tip": {
-          "left": {}
+          "left": {
+            "purple": [
+              "Zapamtite",
+              "Zapamtite"
+            ],
+            "yellow": [
+              "Zapamtite"
+            ],
+            "green": [
+              "Zapamtite"
+            ]
+          }
         },
         "important": [
           {
             "blue": [
               "etwas"
             ],
+            "purple": [
+              "Etwas"
+            ],
             "red": [
-              "nichts"
+              "nichts",
+              "Etwas"
             ]
           },
           {
             "blue": [
               "etwas"
+            ],
+            "purple": [
+              "latvijskom",
+              "latvijskom"
             ]
           }
         ]
@@ -4529,156 +5910,156 @@ const A1_WORDS = [
   },
   {
     "de": "euch",
-    "lv": "Vie • Vie",
+    "lv": "Vi • Vi",
     "level": "A1",
     "study": {
       "id": "a1-euch",
       "layout": "standardStudy",
-      "translation": "Vie • Vie",
-      "explanation": "„Euch“ е заменка во множина од второ лице. Се користи и како директно дополнување (каде?) - „ти“ и како индиректно дополнување (на кого?) - „ти“.",
+      "translation": "Vi • Vi",
+      "explanation": "“Euch” je zamjenica 2. lica množine. Koristi se i kao direktna dopuna (gdje?) - \"vi\" i kao indirektna dopuna (kome?) - \"vabi\".",
       "examples": [
         {
           "de": "Ich sehe euch.",
-          "lv": "Те гледам"
+          "lv": "Vidim te"
         },
         {
           "de": "Ich helfe euch.",
-          "lv": "Pomagal vam bom"
+          "lv": "Pomažem ti"
         },
         {
           "de": "Ich gebe euch das Buch.",
-          "lv": "Dajem vam knjigo"
+          "lv": "Dajem ti knjigu"
         },
         {
           "de": "Ich danke euch.",
-          "lv": "Ти благодарам"
+          "lv": "Hvala ti"
         },
         {
           "de": "Ihr erinnert euch.",
-          "lv": "Sjećaš li se?"
+          "lv": "Sećaš se"
         }
       ],
       "comparison": [
         {
           "word": "ihr",
-          "meaning": "Вие",
-          "example": "Ihr seid freundlich. = Вие сте пријателски расположени."
+          "meaning": "Ti",
+          "example": "Ihr seid freundlich. = Vi ste prijateljski nastrojeni."
         },
         {
           "word": "euch",
-          "meaning": "Ти/към теб",
-          "example": "Ich helfe euch. = Pomagal vam bom"
+          "meaning": "Ti / tebi",
+          "example": "Ich helfe euch. = Ja ti pomažem."
         },
         {
           "word": "euer",
-          "meaning": "Tvoja",
-          "example": "Das ist euer Haus. = Ова е вашиот дом."
+          "meaning": "Tvoj",
+          "example": "Das ist euer Haus. = To je tvoja kuća."
         }
       ],
       "info": [
-        "Ihr = ты (подлежащее, форма предложения)",
-        "Euch = ты (где? форма) / ты (кого? форма)",
-        "Euer = ваш (притяжательная форма)"
+        "Ihr = ti (subjektni oblik rečenice)",
+        "Euch = ti (gdje? oblik) / ti (koga? oblik)",
+        "Euer = vaš (posesivni oblik)"
       ],
       "tip": {
-        "text": "\"euch\" одговара на прашањето \"на кого?\" или е директен предмет во реченици со зборот „ти“.",
-        "example": "Я помогу тебе. = Я помогу, ой. я вижу тебя = Ich sehe euch. Я говорю вам. = Ich erzähle euch."
+        "text": "\"euch\" odgovara na pitanje \"kome?\" ili je direktna dopuna u rečenicama sa \"ti\".",
+        "example": "Ja ti pomažem. = Ich helfe euch. vidim te = Ich sehe euch. Kažem ti. = Ich erzähle euch."
       },
       "accents": {
         "blue": [
-          "Их час"
+          "ihr"
         ],
         "yellow": [
-          "Ой"
+          "euch"
         ],
         "green": [
-          "Эйер"
+          "euer"
         ]
       }
     }
   },
   {
     "de": "euer",
-    "lv": "Tvoja",
+    "lv": "Tvoj",
     "level": "A1"
   },
   {
     "de": "fahren",
-    "lv": "Vožnja • Vožnja • Nošenje",
+    "lv": "Voziti • Dovesti • Odnijeti",
     "level": "A1",
     "study": {
       "id": "a1-fahren",
       "layout": "standardStudy",
-      "translation": "Vožnja • Vožnja • Nošenje",
+      "translation": "Voziti • Dovesti • Odnijeti",
       "explanation": [
-        "Главна идеја: фарен значи да се вози возило, а во некои реченици и да се земе или да се земе некого.",
-        "Faren се користи кога се патува со автомобил, автобус, воз, велосипед или друго возило.",
-        "Ако предметот на реченицата е личност, фарен може да значи води или одзема.",
-        "Ако патувате пешки, најчесто користите Гехен или Лауфен."
+        "Glavna ideja: fahren znači voziti vozilo, au nekim rečenicama i uzeti ili odvesti nekoga.",
+        "Fahren se koristi kada se putuje automobilom, autobusom, vozom, biciklom ili drugim vozilom.",
+        "Kada rečenica ima osobu kao objekat, fahren može značiti voditi ili oduzeti.",
+        "Ako je kretanje pješice, obično se koristi gehen ili laufen."
       ],
       "examples": [
         {
           "de": "Ich fahre nach Berlin.",
-          "lv": "Grem v Berlin."
+          "lv": "Idem u Berlin."
         },
         {
           "de": "Ich fahre mit dem Auto.",
-          "lv": "Возам автомобил."
+          "lv": "Ja vozim auto."
         },
         {
           "de": "Ich fahre meine Tochter zur Schule.",
-          "lv": "Водя дъщеря си на училище."
+          "lv": "Vodim svoju ćerku u školu."
         },
         {
           "de": "Ich fahre dich nach Hause.",
-          "lv": "Peljal vas bom domov"
+          "lv": "Odvešću te kući"
         },
         {
           "de": "Wir fahren morgen nach München.",
-          "lv": "Утре одиме во Минхен."
+          "lv": "Sutra idemo u Minhen."
         }
       ],
       "comparison": [
         {
           "word": "fahren",
-          "meaning": "Vožnja sa prevozom",
+          "meaning": "Voziti se transportom",
           "example": "Ich fahre mit dem Bus."
         },
         {
           "word": "gehen",
-          "meaning": "Прошетка",
+          "meaning": "Idi peške",
           "example": "Ich gehe nach Hause."
         },
         {
           "word": "laufen",
-          "meaning": "Tek/hoja",
+          "meaning": "Trči / idi",
           "example": "Er läuft schnell."
         },
         {
           "word": "bringen",
-          "meaning": "Donesi / isporača",
+          "meaning": "Doneti / dostaviti",
           "example": "Ich bringe das Buch."
         },
         {
           "word": "mitnehmen",
-          "meaning": "-Vzamite ga s sabo. -Razumem.",
+          "meaning": "Ponesite sa sobom",
           "example": "Ich nehme dich mit."
         }
       ],
       "tip": {
-        "text": "Запомнете: возило → Фарен • Пешки → Гехен."
+        "text": "Zapamtite: vozilo → fahren • Pješice → gehen."
       },
       "important": {
-        "text": "Faren ≠ само „оди“",
-        "example": "В немецком языке один и тот же глагол часто означает: водить • Водить • Забирать в зависимости от контекста."
+        "text": "Fahren ≠ samo \"vozi\"",
+        "example": "Na njemačkom, isti glagol često znači: voziti • Voziti • Odvoziti u zavisnosti od konteksta."
       },
       "accents": {
         "blue": [
-          "По Фарену",
+          "fahren",
           "fahre"
         ],
         "purple": [
-          "Водить машину",
+          "Voziti",
           "braucu",
           "vest",
           "vedu",
@@ -4686,25 +6067,41 @@ const A1_WORDS = [
         ],
         "green": [
           "transportu",
-          "Транспортное средство",
+          "Vozilo",
           "auto",
           "autobusu",
           "vilcienu",
-          "Велосипед"
+          "Bicikl"
         ],
         "yellow": [
-          "Гехен",
-          "Лауфен"
+          "gehen",
+          "laufen"
         ],
         "red": [
-          "Приносить",
-          "Митнемен"
+          "bringen",
+          "mitnehmen"
         ]
       },
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Faren"
+            "fahren"
+          ],
+          "purple": [
+            "Glavna",
+            "vest",
+            "Glavna"
+          ],
+          "green": [
+            "auto",
+            "autobusom",
+            "Glavna",
+            "Glavna",
+            "Glavna"
+          ],
+          "yellow": [
+            "gehen",
+            "laufen"
           ]
         },
         "examples": [
@@ -4714,7 +6111,14 @@ const A1_WORDS = [
                 "fahre"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Idem"
+              ],
+              "green": [
+                "Berlin"
+              ]
+            }
           },
           {
             "de": {
@@ -4725,7 +6129,14 @@ const A1_WORDS = [
                 "Auto"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "vozim"
+              ],
+              "green": [
+                "auto"
+              ]
+            }
           },
           {
             "de": {
@@ -4737,7 +6148,15 @@ const A1_WORDS = [
                 "Schule"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Vodim"
+              ],
+              "green": [
+                "Vodim",
+                "skolu"
+              ]
+            }
           },
           {
             "de": {
@@ -4749,7 +6168,15 @@ const A1_WORDS = [
                 "Hause"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Odvešću"
+              ],
+              "green": [
+                "Odvešću",
+                "Odvešću"
+              ]
+            }
           },
           {
             "de": {
@@ -4760,13 +6187,28 @@ const A1_WORDS = [
                 "München"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Sutra"
+              ],
+              "green": [
+                "Minhen"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "fahren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "transportom"
+              ]
+            },
             "example": {
               "blue": [
                 "fahre"
@@ -4774,8 +6216,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "gehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Idi"
+              ]
+            },
             "example": {
               "yellow": [
                 "gehe"
@@ -4783,8 +6233,17 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "laufen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Trči",
+                "Trči"
+              ]
+            },
             "example": {
               "yellow": [
                 "läuft"
@@ -4792,8 +6251,17 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "bringen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Doneti",
+                "Doneti"
+              ]
+            },
             "example": {
               "red": [
                 "bringe"
@@ -4801,8 +6269,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "mitnehmen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Ponesite"
+              ]
+            },
             "example": {
               "red": [
                 "nehme",
@@ -4812,12 +6288,39 @@ const A1_WORDS = [
           }
         ],
         "tip": {
-          "left": {}
+          "left": {
+            "blue": [
+              "fahren"
+            ],
+            "yellow": [
+              "gehen"
+            ],
+            "green": [
+              "Zapamtite",
+              "Zapamtite"
+            ]
+          }
         },
         "important": [
           {
-            "text": {},
-            "example": {}
+            "text": {
+              "blue": [
+                "fahren"
+              ],
+              "purple": [
+                "Fahren"
+              ]
+            },
+            "example": {
+              "blue": [
+                "fahren"
+              ],
+              "purple": [
+                "Fahren",
+                "Fahren",
+                "Fahren"
+              ]
+            }
           }
         ]
       }
@@ -4825,53 +6328,53 @@ const A1_WORDS = [
   },
   {
     "de": "falsch",
-    "lv": "Pogrešno",
+    "lv": "Netačno",
     "level": "A1"
   },
   {
     "de": "Familie",
     "de_article": "die",
     "de_plural": "die Familien",
-    "lv": "Семејство",
+    "lv": "Porodica",
     "level": "A1"
   },
   {
     "de": "Nachname",
     "de_article": "der",
     "de_plural": "die Nachnamen",
-    "lv": "Семејно име",
+    "lv": "Prezime",
     "level": "A1"
   },
   {
     "de": "Farbe",
     "de_article": "die",
     "de_plural": "die Farben",
-    "lv": "Боја",
+    "lv": "Boja",
     "level": "A1"
   },
   {
     "de": "fast",
-    "lv": "Речиси",
+    "lv": "Skoro",
     "level": "A1"
   },
   {
     "de": "Februar",
     "de_article": "der",
-    "lv": "Февруари",
+    "lv": "Februar",
     "level": "A1"
   },
   {
     "de": "Fehler",
     "de_article": "der",
     "de_plural": "die Fehler",
-    "lv": "Napaka",
+    "lv": "Greška",
     "level": "A1"
   },
   {
     "de": "Fenster",
     "de_article": "das",
     "de_plural": "die Fenster",
-    "lv": "Прозорец",
+    "lv": "Prozor",
     "level": "A1"
   },
   {
@@ -4884,98 +6387,108 @@ const A1_WORDS = [
     "de": "Fernseher",
     "de_article": "der",
     "de_plural": "die Fernseher",
-    "lv": "ТВ",
+    "lv": "Televizija",
     "level": "A1"
   },
   {
     "de": "fertig",
-    "lv": "-Pripravljen.",
+    "lv": "Spreman",
     "level": "A1"
   },
   {
     "de": "fett",
-    "lv": "Gusta",
+    "lv": "Mast",
     "level": "A1"
   },
   {
     "de": "Film",
     "de_article": "der",
     "de_plural": "die Filme",
-    "lv": "Филм",
+    "lv": "Film",
     "level": "A1"
   },
   {
     "de": "Filzstift",
     "de_article": "der",
     "de_plural": "die Filzstifte",
-    "lv": "Пенкало за маркер",
+    "lv": "Flomaster",
     "level": "A1"
   },
   {
     "de": "finden",
-    "lv": "Namjere • Razgledaj",
+    "lv": "Pronaći • Razmotriti",
     "level": "A1",
     "study": {
       "id": "a1-finden",
       "layout": "standardStudy",
-      "translation": "Namjere • Razgledaj",
+      "translation": "Pronaći • Razmotriti",
       "explanation": [
-        "Главна идеја: Најден најчесто значи да се најде.",
-        "Во разговорот многу често наоѓам и средства да погледнам или размислувам за нешто.",
-        "Ако зборуваме за изгубена работа, тогаш тоа се преведува како наод.",
-        "Кога зборуваме за мислење, тоа се преведува на размислување или гледање."
+        "Glavna ideja: pronaći najčešće znači pronaći.",
+        "U razgovoru, finden vrlo često znači i razmotriti ili razmisliti o nečemu.",
+        "Ako se radi o izgubljenoj stvari, to se prevodi kao pronalazak.",
+        "Ako se radi o mišljenju, ono se prevodi kao misliti ili činiti."
       ],
       "examples": [
         {
           "de": "Ich finde meinen Schlüssel nicht.",
-          "lv": "Не можам да го најдам мојот клуч"
+          "lv": "Ne mogu pronaći svoj ključ"
         },
         {
           "de": "Hast du dein Handy gefunden?",
-          "lv": "Jeste li našli svoj telefon?"
+          "lv": "Jeste li našli svoj telefon"
         },
         {
           "de": "Ich finde das gut.",
-          "lv": "Мене ми изгледа во ред."
+          "lv": "Čini mi se dobro."
         },
         {
           "de": "Wie findest du den Film?",
-          "lv": "Kaj menite o filmu?"
+          "lv": "Šta mislite o filmu?"
         }
       ],
       "comparison": [
         {
           "word": "finden",
-          "meaning": "Најдете / Прикажи",
-          "example": "Ich finde das gut. = Mislim, da je to normalno."
+          "meaning": "Pronaći / razmotriti",
+          "example": "Ich finde das gut. = Čini mi se dobro."
         },
         {
           "word": "suchen",
-          "meaning": "Пребарување",
-          "example": "Ich suche den Schlüssel. = Го барам клучот."
+          "meaning": "Tražiti",
+          "example": "Ich suche den Schlüssel. = Tražim ključ."
         },
         {
           "word": "denken",
-          "meaning": "Hajde momci. Razmisli o tome.",
-          "example": "Ich denke an dich. = Мисля за теб"
+          "meaning": "Misliti",
+          "example": "Ich denke an dich. = Mislim na tebe."
         },
         {
           "word": "glauben",
-          "meaning": "Верувај/размисли",
-          "example": "Ich glaube, er kommt. = Мисля, че ще дойде."
+          "meaning": "Vjerovati / misliti",
+          "example": "Ich glaube, er kommt. = Mislim da će doći."
         }
       ],
       "tip": {
-        "text": "Запомнете: изгубен предмет → пронајден • Мислење → најдов..."
+        "text": "Zapamtite: izgubljena stvar → pronađena • Mišljenje → ich find..."
       },
       "important": [
-        "Finden не е просто „да намериш“.",
-        "Ich finde das Gut означава „намирам го за добре“, а не „намирам го за добре“."
+        "Finden nije samo 'pronađi'.",
+        "Ich finde das gut znači 'Smatram da je dobro', a ne 'Smatram da je dobro'."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Главна"
+            "finden"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna",
+            "Glavna",
+            "Glavna"
+          ],
+          "green": [
+            "Glavna",
+            "Glavna"
           ]
         },
         "examples": [
@@ -4985,7 +6498,11 @@ const A1_WORDS = [
                 "finde"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "mogu"
+              ]
+            }
           },
           {
             "de": {
@@ -4993,7 +6510,11 @@ const A1_WORDS = [
                 "gefunden"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Jeste"
+              ]
+            }
           },
           {
             "de": {
@@ -5001,7 +6522,11 @@ const A1_WORDS = [
                 "finde"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Čini"
+              ]
+            }
           },
           {
             "de": {
@@ -5009,59 +6534,120 @@ const A1_WORDS = [
                 "findest"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Šta"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "finden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Pronaći",
+                "Pronaći"
+              ]
+            },
             "example": {
               "blue": [
                 "finde"
+              ],
+              "purple": [
+                "Ich"
               ]
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "suchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Tražiti"
+              ]
+            },
             "example": {
               "yellow": [
-                "suche"
+                "suche",
+                "Ich"
               ]
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "denken"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Misliti"
+              ]
+            },
             "example": {
               "green": [
-                "denke"
+                "denke",
+                "Ich"
               ]
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "glauben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Vjerovati",
+                "Vjerovati"
+              ]
+            },
             "example": {
               "red": [
-                "glaube"
+                "glaube",
+                "Ich"
               ]
             }
           }
         ],
         "tip": {
-          "left": {}
+          "left": {
+            "blue": [
+              "finden"
+            ],
+            "purple": [
+              "Zapamtite",
+              "Zapamtite"
+            ]
+          }
         },
         "important": [
           {
             "blue": [
               "finden"
+            ],
+            "purple": [
+              "Finden"
             ]
           },
           {
             "blue": [
               "finde"
+            ],
+            "purple": [
+              "Ich"
+            ],
+            "red": [
+              "Ich"
             ]
           }
         ]
@@ -5072,125 +6658,129 @@ const A1_WORDS = [
     "de": "Finger",
     "de_article": "der",
     "de_plural": "die Finger",
-    "lv": "Пръст",
+    "lv": "Prst",
     "level": "A1"
   },
   {
     "de": "Fisch",
     "de_article": "der",
     "de_plural": "die Fische",
-    "lv": "Риба",
+    "lv": "Riba",
     "level": "A1"
   },
   {
     "de": "Flasche",
     "de_article": "die",
     "de_plural": "die Flaschen",
-    "lv": "\"Bottle.\"",
+    "lv": "Boca",
     "level": "A1"
   },
   {
     "de": "Fleisch",
     "de_article": "das",
-    "lv": "Месото",
+    "lv": "Meso",
     "level": "A1"
   },
   {
     "de": "fliegen",
-    "lv": "Лети",
+    "lv": "Letjeti",
     "level": "A1"
   },
   {
     "de": "Flugzeug",
     "de_article": "das",
     "de_plural": "die Flugzeuge",
-    "lv": "-Letalo.",
+    "lv": "Avion",
     "level": "A1"
   },
   {
     "de": "Fluss",
     "de_article": "der",
     "de_plural": "die Flüsse",
-    "lv": "Река",
+    "lv": "Rijeka",
     "level": "A1"
   },
   {
     "de": "Foto",
     "de_article": "das",
     "de_plural": "die Fotos",
-    "lv": "Снимка",
+    "lv": "Fotografija",
     "level": "A1"
   },
   {
     "de": "Frage",
     "de_article": "die",
     "de_plural": "die Fragen",
-    "lv": "Въпрос",
+    "lv": "Pitanje",
     "level": "A1"
   },
   {
     "de": "fragen",
-    "lv": "Zovi",
+    "lv": "Pitati",
     "level": "A1"
   },
   {
     "de": "Frau",
     "de_article": "die",
     "de_plural": "die Frauen",
-    "lv": "Жена • Сопруга",
+    "lv": "Žena • Žena",
     "level": "A1",
     "study": {
       "id": "a1-frau",
       "layout": "standardStudy",
-      "translation": "Жена • Сопруга",
+      "translation": "Žena • Žena",
       "explanation": [
-        "Ključna ideja: die Frau može značiti supruga (pol) ili supružnik (supružnik).",
-        "Če gre le za spol ali osebnost, die Frau = ženski.",
-        "В случай на съпруг, die Frau = съпруга (meine Frau = жена ми).",
-        "Присвојната заменка (meine/deine/seine Frau) скоро секогаш означува жена – жена.",
-        "Множествено число: die Frauen.",
-        "Moška oblika der Mann ima enak dvojni pomen: moški in mož."
+        "Glavna ideja: die Frau može značiti ženu (pol) ili suprugu (supružnik).",
+        "Ako je samo pitanje spola ili osobe, die Frau = žena.",
+        "U slučaju supružnika, die Frau = žena (meine Frau = moja žena).",
+        "Prisvojna zamjenica (meine/deine/seine Frau) gotovo uvijek znači supruga – supružnik.",
+        "Množina: die Frauen.",
+        "Muški oblik der Mann ima isto dvostruko značenje: muškarac I muž."
       ],
       "examples": [
         {
           "de": "Sie ist eine nette Frau.",
-          "lv": "Таа е добра жена."
+          "lv": "Ona je fina žena."
         },
         {
           "de": "Das ist meine Frau.",
-          "lv": "To je moja žena, Yvaine. -Tvoja žena?"
+          "lv": "Ovo je moja žena."
         },
         {
           "de": "Wie viele Frauen sind hier?",
-          "lv": "Koliko žena ima?"
+          "lv": "Koliko žena ima ovde?"
         },
         {
           "de": "Meine Frau arbeitet in Berlin.",
-          "lv": "Жена ми работи в Берлин."
+          "lv": "Moja žena radi u Berlinu."
         },
         {
           "de": "Die Frau trägt ein Kleid.",
-          "lv": "Жената носи рокля."
+          "lv": "Žena nosi haljinu."
         },
         {
           "de": "Seine Frau ist Ärztin.",
-          "lv": "Жена му е лекар."
+          "lv": "Njegova žena je doktor."
         }
       ],
       "tip": [
-        "Usvojna zamjenica (meine/deine/seine Frau) gotovo uvijek znači supružnika.",
-        "Без притежателен падеж (die Frau, eine Frau) обикновено означава жена."
+        "Posesivna zamjenica (meine/deine/seine Frau) gotovo uvijek znači supruga.",
+        "Bez posesivnog (die Frau, eine Frau) obično znači ženu."
       ],
       "important": [
-        "Die Frau = жена ИЛИ съпруга - в зависимост от контекста.",
-        "Meine Frau = мојата сопруга (не „мојата сопруга“).",
-        "Множествено число: die Frauen."
+        "Die Frau = žena ILI žena - ovisno o kontekstu.",
+        "Meine Frau = moja žena (ne 'moja žena').",
+        "Množina: die Frauen."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "die Frau",
             "Frau"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna"
           ]
         },
         "examples": [
@@ -5200,7 +6790,11 @@ const A1_WORDS = [
                 "Frau"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Ona"
+              ]
+            }
           },
           {
             "de": {
@@ -5208,7 +6802,11 @@ const A1_WORDS = [
                 "meine Frau"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Ovo"
+              ]
+            }
           },
           {
             "de": {
@@ -5216,7 +6814,11 @@ const A1_WORDS = [
                 "Frauen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Koliko"
+              ]
+            }
           },
           {
             "de": {
@@ -5224,7 +6826,11 @@ const A1_WORDS = [
                 "Meine Frau"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Moja"
+              ]
+            }
           },
           {
             "de": {
@@ -5232,7 +6838,11 @@ const A1_WORDS = [
                 "Frau"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Žena"
+              ]
+            }
           },
           {
             "de": {
@@ -5240,7 +6850,11 @@ const A1_WORDS = [
                 "Seine Frau"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Njegova"
+              ]
+            }
           }
         ],
         "tip": [
@@ -5249,17 +6863,28 @@ const A1_WORDS = [
               "meine",
               "deine",
               "seine Frau"
+            ],
+            "purple": [
+              "Posesivna"
             ]
           },
           {
             "blue": [
               "die Frau",
               "eine Frau"
+            ],
+            "purple": [
+              "Posesivna"
             ]
           }
         ],
         "important": [
-          {},
+          {
+            "purple": [
+              "Die",
+              "Die"
+            ]
+          },
           {
             "green": [
               "meine Frau"
@@ -5276,50 +6901,50 @@ const A1_WORDS = [
   },
   {
     "de": "frei",
-    "lv": "Безплатно",
+    "lv": "Besplatno",
     "level": "A1"
   },
   {
     "de": "Freitag",
     "de_article": "der",
     "de_plural": "die Freitage",
-    "lv": "Петок",
+    "lv": "Petak",
     "level": "A1"
   },
   {
     "de": "Freund",
     "de_article": "der",
     "de_plural": "die Freunde",
-    "lv": "Пријател",
+    "lv": "Prijatelj",
     "level": "A1"
   },
   {
     "de": "Freundin",
     "de_article": "die",
     "de_plural": "die Freundinnen",
-    "lv": "Девојка",
+    "lv": "Djevojka",
     "level": "A1"
   },
   {
     "de": "freundlich",
-    "lv": "Любезен",
+    "lv": "Vrsta",
     "level": "A1"
   },
   {
     "de": "frisch",
-    "lv": "Свежо",
+    "lv": "Svježe",
     "level": "A1"
   },
   {
     "de": "früh",
-    "lv": "Prezgodaj.",
+    "lv": "Rano",
     "level": "A1"
   },
   {
     "de": "Frühling",
     "de_article": "der",
     "de_plural": "die Frühlinge",
-    "lv": "Pomlad",
+    "lv": "Proljeće",
     "level": "A1"
   },
   {
@@ -5330,96 +6955,100 @@ const A1_WORDS = [
   },
   {
     "de": "frühstücken",
-    "lv": "Појадувам",
+    "lv": "Doručak",
     "level": "A1"
   },
   {
     "de": "fünf",
-    "lv": "Пет",
+    "lv": "Pet",
     "level": "A1"
   },
   {
     "de": "fünfhundert",
-    "lv": "Петстотини",
+    "lv": "Pet stotina",
     "level": "A1"
   },
   {
     "de": "fünfte",
-    "lv": "Петто",
+    "lv": "Peti",
     "level": "A1"
   },
   {
     "de": "fünfzehn",
-    "lv": "Петнаесет",
+    "lv": "Petnaest",
     "level": "A1"
   },
   {
     "de": "fünfzehnte",
-    "lv": "Петнадесети",
+    "lv": "Petnaesti",
     "level": "A1"
   },
   {
     "de": "fünfzig",
-    "lv": "Петдесет",
+    "lv": "Pedeset",
     "level": "A1"
   },
   {
     "de": "fünfzigste",
-    "lv": "Педесетти",
+    "lv": "Pedeseti",
     "level": "A1"
   },
   {
     "de": "für",
-    "lv": "O nas • O nas",
+    "lv": "Za • Za",
     "level": "A1",
     "study": {
       "id": "a1-fuer",
       "layout": "standardStudy",
-      "translation": "O nas • O nas",
+      "translation": "Za • Za",
       "explanation": [
-        "Главна идеја: für е предлог кој секогаш го контролира акузативот - на латвиски обично е за или за.",
-        "Когато говорим за получателя или намерението, für = за (für dich = за вас).",
-        "Ko govorimo o menjavi, honorarju ali razlogu, für = for (danke für das Geschenk = hvala za darilo).",
-        "Für винаги изисква винителен падеж, независимо от значението."
+        "Glavna ideja: für je prijedlog koji uvijek upravlja akuzativom - obično za ili za u latvijskom.",
+        "Kada govorimo o primaocu ili namjeri, für = za (für dich = za vas).",
+        "Kada govorimo o zamjeni, naknadi ili razlogu, für = za (danke für das Geschenk = hvala na poklonu).",
+        "Für uvijek zahtijeva akuzativ, bez obzira na značenje."
       ],
       "examples": [
         {
           "de": "Das ist für dich.",
-          "lv": "To je za vas"
+          "lv": "Za tebe je."
         },
         {
           "de": "Danke für die Hilfe.",
-          "lv": "Hvala za pomoč."
+          "lv": "Hvala na pomoći."
         },
         {
           "de": "Ich kaufe ein Geschenk für meine Mutter.",
-          "lv": "Купувам подарок за мајка ми."
+          "lv": "Kupujem poklon za majku."
         },
         {
           "de": "Was bezahlst du für das Auto?",
-          "lv": "Колку плаќате за колата?"
+          "lv": "Koliko plaćate za auto?"
         },
         {
           "de": "Das Buch ist für Kinder.",
-          "lv": "Книга за деца."
+          "lv": "Knjiga je za decu."
         },
         {
           "de": "Für heute ist das genug.",
-          "lv": "Доста е за денес."
+          "lv": "Dosta je za danas."
         }
       ],
       "tip": [
-        "Für väite + akuzativ – bez razlike u značenju.",
-        "Примач/намера → за • Размена/причина/плаќање → за."
+        "Für uvijek + akuzativ - bez obzira na značenje.",
+        "Primalac/namera → za • Zamjena/razlog/naknada → za."
       ],
       "important": [
-        "Für + Akkusativ секогаш, на пример für mich, für dich, für das Kind.",
-        "Danke für / bezahlen für = \"за\", не \"преди\"."
+        "Für + Akkusativ uvijek, npr. für mich, für dich, für das Kind.",
+        "Danke für / bezahlen für = 'za', a ne 'prije'."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "für"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna"
           ]
         },
         "examples": [
@@ -5429,7 +7058,11 @@ const A1_WORDS = [
                 "für"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "tebe"
+              ]
+            }
           },
           {
             "de": {
@@ -5437,7 +7070,11 @@ const A1_WORDS = [
                 "für"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Hvala"
+              ]
+            }
           },
           {
             "de": {
@@ -5445,7 +7082,11 @@ const A1_WORDS = [
                 "für"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Kupujem"
+              ]
+            }
           },
           {
             "de": {
@@ -5453,7 +7094,11 @@ const A1_WORDS = [
                 "für"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Koliko"
+              ]
+            }
           },
           {
             "de": {
@@ -5461,7 +7106,11 @@ const A1_WORDS = [
                 "für"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Knjiga"
+              ]
+            }
           },
           {
             "de": {
@@ -5469,7 +7118,11 @@ const A1_WORDS = [
                 "Für"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Dosta"
+              ]
+            }
           }
         ],
         "tip": [
@@ -5478,7 +7131,12 @@ const A1_WORDS = [
               "für"
             ]
           },
-          {}
+          {
+            "purple": [
+              "Für",
+              "Für"
+            ]
+          }
         ],
         "important": [
           {
@@ -5491,6 +7149,9 @@ const A1_WORDS = [
             "green": [
               "danke für",
               "bezahlen für"
+            ],
+            "purple": [
+              "Danke"
             ]
           }
         ]
@@ -5501,60 +7162,60 @@ const A1_WORDS = [
     "de": "Fuß",
     "de_article": "der",
     "de_plural": "die Füße",
-    "lv": "Подметка",
+    "lv": "Stopalo",
     "level": "A1"
   },
   {
     "de": "Fußball",
     "de_article": "der",
     "de_plural": "die Fußbälle",
-    "lv": "Фудбал",
+    "lv": "Fudbal",
     "level": "A1"
   },
   {
     "de": "ganz",
-    "lv": "Сите",
+    "lv": "Sve",
     "level": "A1"
   },
   {
     "de": "Garage",
     "de_article": "die",
     "de_plural": "die Garagen",
-    "lv": "Гаража",
+    "lv": "Garaža",
     "level": "A1"
   },
   {
     "de": "Garten",
     "de_article": "der",
     "de_plural": "die Gärten",
-    "lv": "Градина",
+    "lv": "Vrt",
     "level": "A1"
   },
   {
     "de": "Gast",
     "de_article": "der",
     "de_plural": "die Gäste",
-    "lv": "Гостин",
+    "lv": "Gost",
     "level": "A1"
   },
   {
     "de": "geben",
-    "lv": "Дайте",
+    "lv": "Dati",
     "level": "A1",
     "study": {
       "id": "a1-geben",
       "layout": "standardStudy",
-      "translation": "Дайте",
+      "translation": "Dati",
       "explanation": [
-        "Ключова идея: Goeben означава да даваш.",
-        "Geben се използва, когато някой дава нещо на друг човек.",
-        "Ова е спротивна насока на Неман.",
-        "Biti pomeni prejemati, torej biti tisti, ki nekaj prejme."
+        "Glavna ideja: geben znači dati.",
+        "Geben se koristi kada neko da nešto drugoj osobi.",
+        "Ovo je suprotan smjer od nehmena.",
+        "Bekommen znači primiti, dakle biti onaj koji nešto dobije."
       ],
       "examples": [
         {
           "de": "Gib mir bitte das Buch.",
-          "lv": "Моля, дайте ми книгата"
+          "lv": "Daj mi knjigu molim te"
         },
         {
           "de": "Ich gebe dir meine Nummer.",
@@ -5562,49 +7223,56 @@ const A1_WORDS = [
         },
         {
           "de": "Ich nehme das Buch.",
-          "lv": "Земам книга"
+          "lv": "Uzimam knjigu"
         },
         {
           "de": "Ich bekomme ein Geschenk.",
-          "lv": "Prejel bom darilo"
+          "lv": "Dobijam poklon"
         }
       ],
       "comparison": [
         {
           "word": "geben",
-          "meaning": "Дайте",
+          "meaning": "Dati",
           "example": "Gib mir das Buch."
         },
         {
           "word": "nehmen",
-          "meaning": "Ja uzimam",
+          "meaning": "Uzeti / uzeti",
           "example": "Ich nehme das Buch."
         },
         {
           "word": "bekommen",
-          "meaning": "Prejemanje/Prejemanje",
+          "meaning": "Primiti / dobiti",
           "example": "Ich bekomme ein Geschenk."
         },
         {
           "word": "bringen",
-          "meaning": "Donesi / isporača",
+          "meaning": "Doneti / dostaviti",
           "example": "Ich bringe dir das Buch."
         }
       ],
       "tip": {
-        "text": "Запомнете: дадете → geben • Земете → nekhmen."
+        "text": "Zapamtite: pokloni → geben • Uzmi za sebe → nehmen."
       },
       "important": [
-        "Гебен и немен се спротивни насоки.",
-        "Бекомен значи да се прима, а не да се дава."
+        "Geben i nehmen su suprotni smjerovi.",
+        "Bekommen znači primati, a ne davati."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "geben"
           ],
+          "purple": [
+            "Glavna"
+          ],
           "red": [
-            "Ключова"
+            "nehmen",
+            "bekommen"
+          ],
+          "green": [
+            "Glavna"
           ]
         },
         "examples": [
@@ -5617,7 +7285,14 @@ const A1_WORDS = [
                 "Buch"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Daj"
+              ],
+              "yellow": [
+                "Daj"
+              ]
+            }
           },
           {
             "de": {
@@ -5628,7 +7303,14 @@ const A1_WORDS = [
                 "Nummer"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Dajem"
+              ],
+              "yellow": [
+                "Dajem"
+              ]
+            }
           },
           {
             "de": {
@@ -5639,7 +7321,14 @@ const A1_WORDS = [
                 "Buch"
               ]
             },
-            "lv": {}
+            "lv": {
+              "red": [
+                "Uzimam"
+              ],
+              "yellow": [
+                "Uzimam"
+              ]
+            }
           },
           {
             "de": {
@@ -5650,13 +7339,28 @@ const A1_WORDS = [
                 "Geschenk"
               ]
             },
-            "lv": {}
+            "lv": {
+              "red": [
+                "Dobijam"
+              ],
+              "yellow": [
+                "Dobijam"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "geben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Dati"
+              ]
+            },
             "example": {
               "blue": [
                 "Gib"
@@ -5664,8 +7368,17 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "nehmen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Uzeti",
+                "Uzeti"
+              ]
+            },
             "example": {
               "red": [
                 "nehme"
@@ -5673,8 +7386,17 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "bekommen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Primiti",
+                "Primiti"
+              ]
+            },
             "example": {
               "yellow": [
                 "bekomme"
@@ -5682,8 +7404,17 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "bringen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Doneti",
+                "Doneti"
+              ]
+            },
             "example": {
               "green": [
                 "bringe"
@@ -5692,66 +7423,94 @@ const A1_WORDS = [
           }
         ],
         "tip": {
-          "left": {}
+          "left": {
+            "blue": [
+              "geben"
+            ],
+            "purple": [
+              "Zapamtite"
+            ],
+            "red": [
+              "nehmen",
+              "Zapamtite"
+            ]
+          }
         },
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "geben"
+            ],
+            "red": [
+              "nehmen"
+            ],
+            "purple": [
+              "Geben"
+            ]
+          },
+          {
+            "yellow": [
+              "bekommen"
+            ],
+            "purple": [
+              "Bekommen"
+            ]
+          }
         ]
       }
     }
   },
   {
     "de": "geboren",
-    "lv": "Е роден",
+    "lv": "Je rođen",
     "level": "A1"
   },
   {
     "de": "gefallen",
-    "lv": "Sviđa mi se",
+    "lv": "To like",
     "level": "A1"
   },
   {
     "de": "gegen",
-    "lv": "Против",
+    "lv": "Vs",
     "level": "A1"
   },
   {
     "de": "gehen",
-    "lv": "Vʺrvi",
+    "lv": "Idi",
     "level": "A1"
   },
   {
     "de": "gelb",
-    "lv": "Жолта",
+    "lv": "Žuta",
     "level": "A1"
   },
   {
     "de": "Geld",
     "de_article": "das",
-    "lv": "Пари",
+    "lv": "Novac",
     "level": "A1"
   },
   {
     "de": "genug",
-    "lv": "Dosta",
+    "lv": "Dovoljno",
     "level": "A1"
   },
   {
     "de": "geradeaus",
-    "lv": "Usmeri",
+    "lv": "Pravo naprijed",
     "level": "A1"
   },
   {
     "de": "gern",
-    "lv": "С желание",
+    "lv": "Voljno",
     "level": "A1"
   },
   {
     "de": "Geschichte",
     "de_article": "die",
     "de_plural": "die Geschichten",
-    "lv": "Историја • Историја",
+    "lv": "Priča • Istorija",
     "level": "A1"
   },
   {
@@ -5764,12 +7523,12 @@ const A1_WORDS = [
     "de": "Gesicht",
     "de_article": "das",
     "de_plural": "die Gesichter",
-    "lv": "Лице",
+    "lv": "Lice",
     "level": "A1"
   },
   {
     "de": "gestern",
-    "lv": "Вчера",
+    "lv": "Juče",
     "level": "A1"
   },
   {
@@ -5780,54 +7539,54 @@ const A1_WORDS = [
   {
     "de": "Gesundheit",
     "de_article": "die",
-    "lv": "Здраве",
+    "lv": "Zdravlje",
     "level": "A1"
   },
   {
     "de": "Getränk",
     "de_article": "das",
     "de_plural": "die Getränke",
-    "lv": "Пийте",
+    "lv": "Piće",
     "level": "A1"
   },
   {
     "de": "Giraffe",
     "de_article": "die",
     "de_plural": "die Giraffen",
-    "lv": "Жирафа",
+    "lv": "Žirafa",
     "level": "A1"
   },
   {
     "de": "Glas",
     "de_article": "das",
     "de_plural": "die Gläser",
-    "lv": "Чаша",
+    "lv": "Čašu",
     "level": "A1"
   },
   {
     "de": "glauben",
-    "lv": "-Verjemi.",
+    "lv": "Vjerovati",
     "level": "A1"
   },
   {
     "de": "gleich",
-    "lv": "Uvijek • Jednako",
+    "lv": "Odmah • Jednaka",
     "level": "A1",
     "study": {
       "id": "a1-gleich",
       "layout": "standardStudy",
-      "translation": "Uvijek • Jednako",
+      "translation": "Odmah • Jednaka",
       "explanation": [
-        "Osnovna ideja: gleich vormenno znači odmah, relativno podjednako.",
-        "По отношение на времето, gleich = веднага/след миг (Ich komme gleich. = Ще бъда там сега.).",
-        "Кога станува збор за споредба, gleich = еднакво/исто (die gleiche Farbe = иста боја).",
-        "Gleich може да се користи и како дативен предлог што значи како (gleich mir = како мене).",
-        "Kontekst (čas ali primerjava) označuje pravilen pomen."
+        "Glavna ideja: gleich vremenski znači odmah, komparativno znači jednak.",
+        "Kada je u pitanju vrijeme, gleich = odmah/u trenutku (Ich komme gleich. = Dolazim odmah.).",
+        "Kada je u pitanju poređenje, gleich = isto/isti (die gleiche Farbe = ista boja).",
+        "Gleich se također može koristiti kao prijedlog sa dativom, što znači kao (gleich mir = kao ja).",
+        "Kontekst (vreme ili poređenje) pokazuje ispravno značenje."
       ],
       "examples": [
         {
           "de": "Ich komme gleich.",
-          "lv": "Odmah će se vratiti."
+          "lv": "Dolazim odmah."
         },
         {
           "de": "Wir haben die gleiche Farbe.",
@@ -5835,33 +7594,37 @@ const A1_WORDS = [
         },
         {
           "de": "Das Essen ist gleich fertig.",
-          "lv": "Храната ще бъде готова скоро."
+          "lv": "Hrana će uskoro biti gotova."
         },
         {
           "de": "Beide Wege sind gleich lang.",
-          "lv": "И двата пътя са с еднаква дължина."
+          "lv": "Oba puta su iste dužine."
         },
         {
           "de": "Bis gleich!",
-          "lv": "До скоро!"
+          "lv": "Vidimo se uskoro!"
         },
         {
           "de": "Sie sind gleich groß.",
-          "lv": "Тие се со иста висина."
+          "lv": "Iste su visine."
         }
       ],
       "tip": [
-        "Čez nekaj časa (→trenutno).",
-        "За споредба (исто) → исто."
+        "Za neko vrijeme (za trenutak) → sada.",
+        "Za poređenje (isto) → isto."
       ],
       "important": [
-        "Gleich = takojšen (čas) ALI enak (primerjava).",
-        "Bis gleich! = до скоро! - обичайните думи за раздяла."
+        "Gleich = odmah (vrijeme) ILI jednako (poređenje).",
+        "Bis gleich! = vidimo se uskoro! — uobičajena fraza za rastanak."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "gleich"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna"
           ]
         },
         "examples": [
@@ -5871,7 +7634,11 @@ const A1_WORDS = [
                 "gleich"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Dolazim"
+              ]
+            }
           },
           {
             "de": {
@@ -5879,7 +7646,11 @@ const A1_WORDS = [
                 "gleiche"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Imamo"
+              ]
+            }
           },
           {
             "de": {
@@ -5887,7 +7658,11 @@ const A1_WORDS = [
                 "gleich"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Hrana"
+              ]
+            }
           },
           {
             "de": {
@@ -5895,7 +7670,11 @@ const A1_WORDS = [
                 "gleich"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Oba"
+              ]
+            }
           },
           {
             "de": {
@@ -5903,7 +7682,11 @@ const A1_WORDS = [
                 "gleich"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Vidimo"
+              ]
+            }
           },
           {
             "de": {
@@ -5911,16 +7694,37 @@ const A1_WORDS = [
                 "gleich"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Iste"
+              ]
+            }
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "neko"
+            ]
+          },
+          {
+            "green": [
+              "neko"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "purple": [
+              "Gleich",
+              "Gleich"
+            ]
+          },
+          {
+            "blue": [
+              "Bis gleich!"
+            ]
+          }
         ]
       }
     }
@@ -5928,12 +7732,12 @@ const A1_WORDS = [
   {
     "de": "Glück",
     "de_article": "das",
-    "lv": "Среќа",
+    "lv": "Sreća",
     "level": "A1"
   },
   {
     "de": "glücklich",
-    "lv": "Щастлив",
+    "lv": "Sretan",
     "level": "A1"
   },
   {
@@ -5947,74 +7751,107 @@ const A1_WORDS = [
     "de": "Grammatik",
     "de_article": "die",
     "de_plural": "die Grammatiken",
-    "lv": "Граматика",
+    "lv": "Gramatika",
     "level": "A1"
   },
   {
     "de": "Gras",
     "de_article": "das",
     "de_plural": "die Gräser",
-    "lv": "Трева",
+    "lv": "Trava",
     "level": "A1"
   },
   {
     "de": "grau",
-    "lv": "Сив",
+    "lv": "Siva",
     "level": "A1"
   },
   {
     "de": "groß",
-    "lv": "Голям",
+    "lv": "Veliki",
     "level": "A1",
     "study": {
       "id": "a1-gross-study",
       "layout": "standardStudy",
-      "translation": "Голям",
+      "translation": "Veliki",
       "explanation": [
-        "Главна идеја: Голема големина или за висока личност.",
-        "Groß на първо място означава: голям размер.",
-        "Zanj so pogosto značilne: splošne dimenzije.",
-        "Groß znači prije svega: ljudski rast.",
-        "Često opisuje: muškarac.",
-        "Groß описва общия размер или височина на човек."
+        "Glavna ideja: Velike veličine ili za osobu - visoke visine.",
+        "Groß prvenstveno znači: velika veličina.",
+        "Često karakterizira: ukupna veličina.",
+        "Groß prvenstveno znači: ljudska visina.",
+        "Često opisuje: osobu.",
+        "Groß opisuje veličinu općenito ili visinu osobe."
       ],
       "examples": [
         {
           "de": "Das Haus ist groß.",
-          "lv": "Куќата е голема."
+          "lv": "Kuća je velika."
         },
         {
           "de": "Das Haus ist groß.",
-          "lv": "Куќата е голема."
+          "lv": "Kuća je velika."
         },
         {
           "de": "Er ist groß.",
-          "lv": "Takole visok je."
+          "lv": "Visok je."
         },
         {
           "de": "Das Zimmer ist groß.",
-          "lv": "Стаята е голяма."
+          "lv": "Soba je velika."
         }
       ],
       "tip": [
-        "Брутно = голямо",
-        "Користете Groß кога контекстот се совпаѓа со ова значење."
+        "Groß = veliko",
+        "Koristite groß kada kontekst odgovara ovom značenju."
       ],
       "important": [
-        "За една личност, Er ist groß значи висок.",
-        "Бруто = голем.",
-        "Veliki razmer ili za visokog muškarca."
+        "Za osobu Er ist groß znači visok.",
+        "Groß = veliko.",
+        "Velike veličine ili za osobu - visokog rasta."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "groß"
+          ],
+          "purple": [
+            "Glavna"
+          ],
+          "green": [
+            "Glavna"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
+                "groß",
+                "groß"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Kuća"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "groß",
+                "groß"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Kuća"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "groß",
                 "groß"
               ]
             },
@@ -6023,30 +7860,23 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
+                "groß",
                 "groß"
               ]
             },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "groß"
+            "lv": {
+              "purple": [
+                "Soba"
               ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "groß"
-              ]
-            },
-            "lv": {}
+            }
           }
         ],
         "tip": [
-          {}
+          {
+            "purple": [
+              "Groß"
+            ]
+          }
         ],
         "important": [
           {
@@ -6061,21 +7891,21 @@ const A1_WORDS = [
   {
     "de": "Großeltern",
     "de_article": "die",
-    "lv": "Баба и дедо",
+    "lv": "Baka i djed",
     "level": "A1"
   },
   {
     "de": "Großmutter",
     "de_article": "die",
     "de_plural": "die Großmütter",
-    "lv": "Баба",
+    "lv": "Baka",
     "level": "A1"
   },
   {
     "de": "Großvater",
     "de_article": "der",
     "de_plural": "die Großväter",
-    "lv": "Дедо",
+    "lv": "Deda",
     "level": "A1"
   },
   {
@@ -6087,19 +7917,19 @@ const A1_WORDS = [
     "de": "Gruppe",
     "de_article": "die",
     "de_plural": "die Gruppen",
-    "lv": "Група",
+    "lv": "Grupa",
     "level": "A1"
   },
   {
     "de": "Gruß",
     "de_article": "der",
     "de_plural": "die Grüße",
-    "lv": "Поздрав",
+    "lv": "Pozdrav",
     "level": "A1"
   },
   {
     "de": "grüßen",
-    "lv": "Добре дошли",
+    "lv": "Pozdraviti",
     "level": "A1"
   },
   {
@@ -6111,58 +7941,62 @@ const A1_WORDS = [
   },
   {
     "de": "gut",
-    "lv": "U redu",
+    "lv": "Dobro",
     "level": "A1",
     "study": {
       "id": "a1-gut-study",
       "layout": "standardStudy",
-      "translation": "U redu",
+      "translation": "Dobro",
       "explanation": [
-        "Основна идея: Gut - прилагателно/наречие, добър, успешен, добре.",
-        "Червата описват качество, здраве или състояние на нещата (Es geht mir Gut. = Справям се добре).",
-        "V vljudni frazi \"guten Tag/Abend/Morgen Gut\" se konec po upogibanju spremeni.",
-        "Ако Gut описва глагол, тогава той е наречие (gut schwimmen = да плувам добре).",
-        "Ne smemo ga zamenjati z das Gut - to je samostalnik (lastnina, lastnina) z veliko črko in členom."
+        "Glavna ideja: gut je pridjev/prilog—dobar, uspješan, u redu.",
+        "Gut opisuje kvalitet, zdravlje ili kako se nešto odvija (Es geht mir gut. = Dobro sam.).",
+        "U ljubaznoj frazi guten Tag/Abend/Morgen gut mijenja završetak nakon fleksije.",
+        "Ako gut opisuje glagol, to je prilog (gut schwimmen = dobro plivati).",
+        "Ne treba brkati sa das Gut - to je imenica (imevina, vlastelinstvo) s velikim slovom i člankom."
       ],
       "examples": [
         {
           "de": "Das Essen ist gut.",
-          "lv": "Храната е добра."
+          "lv": "Hrana je dobra."
         },
         {
           "de": "Wie geht es dir? – Gut, danke!",
-          "lv": "Како си - добро благодарам!"
+          "lv": "Kako si - ok, hvala!"
         },
         {
           "de": "Er spricht gut Deutsch.",
-          "lv": "Добро зборува германски."
+          "lv": "Dobro govori njemački."
         },
         {
           "de": "Guten Morgen!",
-          "lv": "Dobro jutro"
+          "lv": "Dobro jutro!"
         },
         {
           "de": "Das ist eine gute Idee.",
-          "lv": "Това е добра идея."
+          "lv": "To je dobra ideja."
         },
         {
           "de": "Alles ist gut.",
-          "lv": "Се е во ред"
+          "lv": "Sve je u redu."
         }
       ],
       "tip": [
-        "Гът без член – прилагателно/наречие – добър/добре.",
-        "Das Gut с главна буква и член е съвсем различна дума - съществително (имот, имоти)."
+        "Gut bez člana je pridjev/prilog - dobro/dobro.",
+        "Das Gut s velikim slovom i člankom je sasvim druga riječ — imenica (imanje, vlastelinstvo)."
       ],
       "important": [
-        "Gut = добър/добър (прилагателно/прилагателно).",
-        "Das Gut = собственост/имот (съществително) – да не се бърка с червата.",
-        "Гутен Таг/Морген/Абенд – промени во цревата кои завршуваат по свиокот."
+        "Gut = dobar/dobro (pridjev/pridjev).",
+        "Das Gut = imanje/imarija (imenica) - ne treba brkati sa crijevom.",
+        "Guten Tag/Morgen/Abend - promjene crijeva koje se završavaju nakon savijanja."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "gut"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna"
           ],
           "green": [
             "das Gut"
@@ -6175,7 +8009,11 @@ const A1_WORDS = [
                 "gut"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Hrana"
+              ]
+            }
           },
           {
             "de": {
@@ -6183,7 +8021,11 @@ const A1_WORDS = [
                 "Gut"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Kako"
+              ]
+            }
           },
           {
             "de": {
@@ -6191,7 +8033,11 @@ const A1_WORDS = [
                 "gut"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Dobro"
+              ]
+            }
           },
           {
             "de": {
@@ -6199,7 +8045,11 @@ const A1_WORDS = [
                 "Guten"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Dobro"
+              ]
+            }
           },
           {
             "de": {
@@ -6207,7 +8057,11 @@ const A1_WORDS = [
                 "gute"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "dobra"
+              ]
+            }
           },
           {
             "de": {
@@ -6215,7 +8069,11 @@ const A1_WORDS = [
                 "gut"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Sve"
+              ]
+            }
           }
         ],
         "tip": [
@@ -6231,7 +8089,11 @@ const A1_WORDS = [
           }
         ],
         "important": [
-          {},
+          {
+            "blue": [
+              "gut"
+            ]
+          },
           {
             "green": [
               "das Gut"
@@ -6239,9 +8101,9 @@ const A1_WORDS = [
           },
           {
             "blue": [
-              "Гутен",
-              "Гутен",
-              "Гутен"
+              "Guten Tag",
+              "Morgen",
+              "Abend"
             ]
           }
         ]
@@ -6252,27 +8114,27 @@ const A1_WORDS = [
     "de": "Haar",
     "de_article": "das",
     "de_plural": "die Haare",
-    "lv": "Коса",
+    "lv": "Kosa",
     "level": "A1"
   },
   {
     "de": "haben",
-    "lv": "Имам",
+    "lv": "Imam",
     "level": "A1",
     "study": {
       "id": "a1-haben",
       "layout": "standardStudy",
-      "translation": "Имам",
+      "translation": "Imam",
       "explanation": [
-        "Glavna ideja: haben pomeni, da nekdo ima ali ima dostop do nečesa.",
-        "Латвиската дативна конструкција „I/you have“ на германски е номинатив + haben: Ich habe..., Du hast..., Er Hat... не е *mir habe.",
-        "Habenu sledi akuzativ: Ich habe ein Auto. = Imam avtomobil.",
-        "Хабен се користи и како помошен глагол во перфектот: Ich habe gelernt."
+        "Glavna ideja: haben znači da neko ima ili ima pristup nečemu.",
+        "Letonska dativna konstrukcija \"imam / imaš\" u njemačkom je nominativ + haben: Ich habe ..., Du hast ..., Er hat ... — ne *mir habe.",
+        "Haben slijedi akuzativ: Ich habe ein Auto. = Imam auto.",
+        "Haben se također koristi kao pomoćni glagol u perfektu: Ich habe gelernt."
       ],
       "examples": [
         {
           "de": "Ich habe ein Auto.",
-          "lv": "Имам кола"
+          "lv": "Imam auto"
         },
         {
           "de": "Hast du Zeit?",
@@ -6280,48 +8142,55 @@ const A1_WORDS = [
         },
         {
           "de": "Wir haben Hunger.",
-          "lv": "Ние сме гладни"
+          "lv": "Gladni smo."
         },
         {
           "de": "Ich habe das gemacht.",
-          "lv": "Направих го"
+          "lv": "Uradio sam to"
         }
       ],
       "comparison": [
         {
           "word": "haben",
-          "meaning": "Имам",
-          "example": "Ich habe Zeit. = Имам време"
+          "meaning": "Imam",
+          "example": "Ich habe Zeit. = Imam vremena."
         },
         {
           "word": "sein",
-          "meaning": "Бъди",
-          "example": "Ich bin hier. = Јас сум тука"
+          "meaning": "Biti",
+          "example": "Ich bin hier. = Ja sam ovdje."
         },
         {
           "word": "bekommen",
-          "meaning": "Добијте го",
-          "example": "Ich bekomme ein Geschenk. = Dobim darilo."
+          "meaning": "Primiti",
+          "example": "Ich bekomme ein Geschenk. = Dobio sam poklon."
         },
         {
           "word": "machen",
-          "meaning": "Pravâ / I'm doing",
-          "example": "Ich mache das. = Jaz nisem kriva!"
+          "meaning": "Učiniti / napraviti",
+          "example": "Ich mache das. = Ja to radim."
         }
       ],
       "tip": {
-        "text": "Запомнете: Ich habe → Да."
+        "text": "Zapamtite: Ich habe → Imam."
       },
       "important": [
-        "Latvijski \"imam\" = njemački Ich habe + akuzativ. Nemojte koristiti dativ: netačan *mir habe.",
-        "Со сеин и датив падеж: Мир ист калт. = Ладно ми е. (тоа не е губење!)",
-        "Совршено: Ich habe gelernt = научив."
+        "Letonski \"imam\" = njemački Ich habe + akuzativ. Nemojte koristiti dativ: pogrešno *mir habe.",
+        "Sa seinom i dativom: Mir ist kalt. = Hladno mi je. (nije haben!)",
+        "Savršeno: Ich habe gelernt = Naučio sam."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "haben",
             "Ich habe"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna"
+          ],
+          "yellow": [
+            "Glavna"
           ]
         },
         "examples": [
@@ -6331,7 +8200,11 @@ const A1_WORDS = [
                 "habe"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Imam"
+              ]
+            }
           },
           {
             "de": {
@@ -6339,7 +8212,11 @@ const A1_WORDS = [
                 "Hast"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Imate"
+              ]
+            }
           },
           {
             "de": {
@@ -6347,7 +8224,11 @@ const A1_WORDS = [
                 "haben"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Gladni"
+              ]
+            }
           },
           {
             "de": {
@@ -6355,43 +8236,85 @@ const A1_WORDS = [
                 "habe"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Uradio"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "haben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Imam"
+              ]
+            },
             "example": {
               "blue": [
                 "habe"
+              ],
+              "purple": [
+                "Ich"
               ]
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "sein"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Biti"
+              ]
+            },
             "example": {
               "green": [
-                "bin"
+                "bin",
+                "Ich"
               ]
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "bekommen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Primiti"
+              ]
+            },
             "example": {
               "yellow": [
-                "bekomme"
+                "bekomme",
+                "Ich"
               ]
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "machen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Učiniti"
+              ]
+            },
             "example": {
               "red": [
-                "mache"
+                "mache",
+                "Ich"
               ]
             }
           }
@@ -6400,6 +8323,9 @@ const A1_WORDS = [
           "left": {
             "blue": [
               "Ich habe"
+            ],
+            "purple": [
+              "Zapamtite"
             ]
           }
         },
@@ -6407,97 +8333,114 @@ const A1_WORDS = [
           {
             "blue": [
               "habe"
+            ],
+            "purple": [
+              "Letonski"
             ]
           },
-          {}
+          {
+            "blue": [
+              "habe"
+            ]
+          }
         ]
       }
     }
   },
   {
     "de": "halb",
-    "lv": "Ukloni",
+    "lv": "Strana",
     "level": "A1"
   },
   {
     "de": "Hälfte",
     "de_article": "die",
     "de_plural": "die Hälften",
-    "lv": "Ukloni",
+    "lv": "Strana",
     "level": "A1"
   },
   {
     "de": "Hals",
     "de_article": "der",
     "de_plural": "die Hälse",
-    "lv": "Вратот",
+    "lv": "Vrat",
     "level": "A1"
   },
   {
     "de": "halten",
-    "lv": "Zadržite • Ustavite",
+    "lv": "Držite • Stop",
     "level": "A1",
     "study": {
       "id": "a1-halten",
       "layout": "standardStudy",
-      "translation": "Zadržite • Ustavite",
+      "translation": "Držite • Stop",
       "explanation": [
-        "Ключова идея: „halten“ означава „задържане“, но „транспортиране“ или „движение“ може да означава „спиране“ или „спиране“.",
-        "Когато артикулът е в ръката, халтенът обикновено трябва да се държи.",
-        "U autobusu, vozu ili automobilu \"stop\" često znači stati.",
-        "Во популарната фраза ichhalte das für... значи да се брои."
+        "Glavna ideja: halten znači držati, ali sa transportom ili kretanjem može značiti zaustaviti ili zaustaviti.",
+        "Sa predmetom u ruci, halten je obično držati.",
+        "Autobusom, vozom ili automobilom, halten često znači stati.",
+        "U izrazu mišljenja ich halte das für... to znači smatrati kao."
       ],
       "examples": [
         {
           "de": "Ich halte die Tasche.",
-          "lv": "Аз държа чантата"
+          "lv": "Držim torbu"
         },
         {
           "de": "Der Bus hält hier.",
-          "lv": "Автобусът спира тук."
+          "lv": "Autobus staje ovdje."
         },
         {
           "de": "Bitte halten Sie an.",
-          "lv": "Ве молиме престанете"
+          "lv": "Molim te prestani"
         },
         {
           "de": "Ich halte das für richtig.",
-          "lv": "Мислам дека тоа е точно."
+          "lv": "Smatram to ispravnim."
         }
       ],
       "comparison": [
         {
           "word": "halten",
-          "meaning": "Држете/Стоп",
-          "example": "Der Bus hält. = Автобусът спира."
+          "meaning": "Držite / zaustavite",
+          "example": "Der Bus hält. = Autobus staje."
         },
         {
           "word": "nehmen",
-          "meaning": "-Res?",
-          "example": "Ich nehme die Tasche. = Вземам чантата."
+          "meaning": "Uzeti",
+          "example": "Ich nehme die Tasche. = Uzimam torbu."
         },
         {
           "word": "stoppen",
-          "meaning": "-Nehaj.",
-          "example": "Stoppen Sie das Auto. = Takoj ustavite vozilo!"
+          "meaning": "Prestati",
+          "example": "Stoppen Sie das Auto. = Zaustavi auto."
         },
         {
           "word": "denken",
-          "meaning": "Hajde momci. Razmisli o tome.",
-          "example": "Ich denke, das ist richtig. = Mislim, da ni ravno tako."
+          "meaning": "Misliti",
+          "example": "Ich denke, das ist richtig. = Mislim da je to tačno."
         }
       ],
       "tip": {
-        "text": "Запомнете: в ръка → стоп • Транспорт → стоп/стоп."
+        "text": "Zapamtite: u ruci → halten • Transport → hält/stop."
       },
       "important": [
-        "Halten nije samo \"zadarzhane\". Prilikom transporta to često znači zaustavljanje.",
-        "Ichhalte das für... je besedna zveza: \"Verjamem, da...\"."
+        "Halten nije samo 'držati'. Kod transporta to često znači zaustavljanje.",
+        "Ich halte das für... je izraz mišljenja: \"Smatram to kao...\"."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "halten"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna",
+            "Glavna",
+            "Glavna"
+          ],
+          "green": [
+            "transportom",
+            "Glavna"
           ]
         },
         "examples": [
@@ -6507,7 +8450,11 @@ const A1_WORDS = [
                 "halte"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Držim"
+              ]
+            }
           },
           {
             "de": {
@@ -6515,7 +8462,11 @@ const A1_WORDS = [
                 "hält"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Autobus"
+              ]
+            }
           },
           {
             "de": {
@@ -6523,7 +8474,11 @@ const A1_WORDS = [
                 "halten"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Molim"
+              ]
+            }
           },
           {
             "de": {
@@ -6531,55 +8486,121 @@ const A1_WORDS = [
                 "halte"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Smatram"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "halten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Držite",
+                "Držite"
+              ]
+            },
             "example": {
               "blue": [
                 "hält"
+              ],
+              "purple": [
+                "Der"
               ]
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "nehmen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Uzeti"
+              ]
+            },
             "example": {
               "yellow": [
-                "nehme"
+                "nehme",
+                "Ich"
               ]
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "stoppen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Prestati"
+              ]
+            },
             "example": {
               "red": [
+                "Stoppen",
                 "Stoppen"
               ]
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "denken"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Misliti"
+              ]
+            },
             "example": {
               "green": [
-                "denke"
+                "denke",
+                "Ich"
               ]
             }
           }
         ],
         "tip": {
-          "left": {}
+          "left": {
+            "blue": [
+              "halten",
+              "hält"
+            ],
+            "purple": [
+              "Zapamtite",
+              "Zapamtite"
+            ],
+            "green": [
+              "Transport"
+            ]
+          }
         },
         "important": [
-          {},
+          {
+            "blue": [
+              "halten"
+            ],
+            "purple": [
+              "Halten",
+              "Halten"
+            ]
+          },
           {
             "blue": [
               "halte"
+            ],
+            "purple": [
+              "Ich"
             ]
           }
         ]
@@ -6590,128 +8611,128 @@ const A1_WORDS = [
     "de": "Haltestelle",
     "de_article": "die",
     "de_plural": "die Haltestellen",
-    "lv": "-Nehaj.",
+    "lv": "Stani",
     "level": "A1"
   },
   {
     "de": "Hand",
     "de_article": "die",
     "de_plural": "die Hände",
-    "lv": "Rak (dlan)",
+    "lv": "Ruka (dlan)",
     "level": "A1"
   },
   {
     "de": "Handschuh",
     "de_article": "der",
     "de_plural": "die Handschuhe",
-    "lv": "Ракавица",
+    "lv": "Rukavicu",
     "level": "A1"
   },
   {
     "de": "Handtasche",
     "de_article": "die",
     "de_plural": "die Handtaschen",
-    "lv": "Чанта",
+    "lv": "Torbica",
     "level": "A1"
   },
   {
     "de": "Handtuch",
     "de_article": "das",
     "de_plural": "die Handtücher",
-    "lv": "Кърпа",
+    "lv": "Peškir",
     "level": "A1"
   },
   {
     "de": "Handy",
     "de_article": "das",
     "de_plural": "die Handys",
-    "lv": "Mobilnik, mobilni telefon.",
+    "lv": "Mobilni telefon",
     "level": "A1"
   },
   {
     "de": "Hauptstadt",
     "de_article": "die",
     "de_plural": "die Hauptstädte",
-    "lv": "Капитал",
+    "lv": "Glavni grad",
     "level": "A1"
   },
   {
     "de": "Heft",
     "de_article": "das",
     "de_plural": "die Hefte",
-    "lv": "Тетратка",
+    "lv": "Notebook",
     "level": "A1"
   },
   {
     "de": "heiraten",
-    "lv": "Ожени се",
+    "lv": "Udati se",
     "level": "A1"
   },
   {
     "de": "heiß",
-    "lv": "Топло",
+    "lv": "Vruće",
     "level": "A1"
   },
   {
     "de": "heißen",
-    "lv": "Imenovani • Sredstva",
+    "lv": "Zvati se • Srednjim",
     "level": "A1",
     "study": {
       "id": "a1-heißen",
       "layout": "standardStudy",
-      "translation": "Imenovani • Sredstva",
+      "translation": "Zvati se • Srednjim",
       "explanation": [
-        "Основна идея: heißen най-често се използва, за да се каже как е името на някого.",
-        "Izraz Ich heiße... pomeni \"moje ime je...\".",
-        "В думи и изрази heißen може също да означава „означава“.",
+        "Glavna ideja: heißen se najčešće koristi da kaže kako se neko zove.",
+        "Izraz Ich heiße... znači \"moje ime je...\".",
+        "Uz riječi ili izraze, heißen može značiti i zlo.",
         "Na nivou A1, najvažnija fraza je Wie heißt du?"
       ],
       "examples": [
         {
           "de": "Ich heiße Anna.",
-          "lv": "Казвам се Анна."
+          "lv": "Moje ime je Ana."
         },
         {
           "de": "Wie heißt du?",
-          "lv": "Kako se zoveš?"
+          "lv": "Kako se zoveš"
         },
         {
           "de": "Wie heißt das auf Deutsch?",
-          "lv": "Kako se to reče v nemščini?"
+          "lv": "Kako se to zove na njemačkom?"
         },
         {
           "de": "Was heißt das?",
-          "lv": "Какво значи"
+          "lv": "Šta to znači"
         }
       ],
       "comparison": [
         {
           "word": "heißen",
-          "meaning": "Да се ​​нарича / да означава",
-          "example": "Ich heiße Anna. = Казвам се Анна."
+          "meaning": "Zvati se / značiti",
+          "example": "Ich heiße Anna. = Moje ime je Ana."
         },
         {
           "word": "nennen",
-          "meaning": "Pozovi/pozovi",
-          "example": "Er nennt mich Tom. = Той ме нарича Том."
+          "meaning": "Nazvati / ime",
+          "example": "Er nennt mich Tom. = Zove me Tom."
         },
         {
           "word": "bedeuten",
-          "meaning": "Имајте на ум",
-          "example": "Was bedeutet das? = Какво означава?"
+          "meaning": "Znači",
+          "example": "Was bedeutet das? = Šta to znači?"
         },
         {
           "word": "rufen",
-          "meaning": "Повик/Повик",
-          "example": "Ich rufe dich. = Ти викам/Ти викам."
+          "meaning": "Poziv / poziv",
+          "example": "Ich rufe dich. = Zovem te / zovem te."
         }
       ],
       "tip": {
-        "text": "Zapamtite: Ich heiße... → Govorim..."
+        "text": "Zapamtite: Ich heiße... → moje ime je..."
       },
       "important": [
-        "Wie heißt du? pomeni \"Kako ti je ime?\" in ne dobesedno \"Kako ti je ime?\"",
-        "Дали беше heißt das? често значи \"Што значи тоа?\""
+        "Wie heißt du? znači \"Kako se zoveš?\", a ne doslovno \"Kako se zoveš?\".",
+        "Was heißt das? često znači \"Šta to znači?\"."
       ],
       "sectionAccents": {
         "explanation": {
@@ -6719,6 +8740,10 @@ const A1_WORDS = [
             "heißen",
             "Ich heiße",
             "Wie heißt du"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna"
           ]
         },
         "examples": [
@@ -6728,64 +8753,119 @@ const A1_WORDS = [
                 "heiße"
               ]
             },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "heißt"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "heißt"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "heißt"
-              ]
-            },
-            "lv": {}
-          }
-        ],
-        "comparison": [
-          {
-            "word": {},
-            "meaning": {},
-            "example": {
-              "blue": [
-                "heiße"
+            "lv": {
+              "purple": [
+                "Moje"
               ]
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "de": {
+              "blue": [
+                "heißt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Kako"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "heißt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Kako"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "heißt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Šta"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "heißen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Zvati",
+                "Zvati"
+              ]
+            },
+            "example": {
+              "blue": [
+                "heiße"
+              ],
+              "purple": [
+                "Ich"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "nennen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Nazvati"
+              ]
+            },
             "example": {
               "green": [
+                "nennt",
                 "nennt"
               ]
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "bedeuten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Znači"
+              ]
+            },
             "example": {
               "yellow": [
-                "bedeutet"
+                "bedeutet",
+                "Was"
               ]
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "rufen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Poziv",
+                "Poziv"
+              ]
+            },
             "example": {
               "red": [
                 "rufe"
@@ -6797,6 +8877,9 @@ const A1_WORDS = [
           "left": {
             "blue": [
               "Ich heiße"
+            ],
+            "purple": [
+              "Zapamtite"
             ]
           }
         },
@@ -6804,59 +8887,69 @@ const A1_WORDS = [
           {
             "blue": [
               "Wie heißt du"
+            ],
+            "purple": [
+              "Wie"
             ]
           },
-          {}
+          {
+            "blue": [
+              "Was heißt das"
+            ],
+            "purple": [
+              "Was"
+            ]
+          }
         ]
       }
     }
   },
   {
     "de": "helfen",
-    "lv": "Upomoć",
+    "lv": "Pomoći",
     "level": "A1"
   },
   {
     "de": "Hemd",
     "de_article": "das",
     "de_plural": "die Hemden",
-    "lv": "Риза",
+    "lv": "Košulja",
     "level": "A1"
   },
   {
     "de": "Herbst",
     "de_article": "der",
     "de_plural": "die Herbste",
-    "lv": "Есен",
+    "lv": "Jesen",
     "level": "A1"
   },
   {
     "de": "Herr",
     "de_article": "der",
     "de_plural": "die Herren",
-    "lv": "Господин",
+    "lv": "G",
     "level": "A1"
   },
   {
     "de": "heute",
-    "lv": "Днес",
+    "lv": "Danas",
     "level": "A1"
   },
   {
     "de": "hier",
-    "lv": "Еве",
+    "lv": "Ovdje",
     "level": "A1"
   },
   {
     "de": "Hilfe",
     "de_article": "die",
     "de_plural": "die Hilfen",
-    "lv": "Upomoć",
+    "lv": "Pomoć",
     "level": "A1"
   },
   {
     "de": "hinter",
-    "lv": "Отзад",
+    "lv": "Iza",
     "level": "A1"
   },
   {
@@ -6868,146 +8961,193 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Visoko",
       "explanation": [
-        "Glavna ideja: Visoka vertikala, nivo ili visina.",
-        "Hoch преди всичко означава: голям на ръст.",
-        "Често се характеризира с: вертикална височина.",
-        "Хох во основа значи: високо ниво.",
-        "Често се карактеризира со: цени/цифри.",
-        "Hoch описва височина, вертикална посока или ниво."
+        "Glavna ideja: Visoko vertikalno, nivo ili visina.",
+        "Hoch prvenstveno znači: veliki u visini.",
+        "Često karakterizira: vertikalna visina.",
+        "Hoch u osnovi znači: visok nivo.",
+        "Često karakteriziraju: cijene/cifre.",
+        "Hoch opisuje visinu, vertikalni pravac ili nivo."
       ],
       "examples": [
         {
           "de": "Der Berg ist hoch.",
-          "lv": "Gora je visoka."
+          "lv": "Planina je visoka."
         },
         {
           "de": "Der Berg ist hoch.",
-          "lv": "Gora je visoka."
+          "lv": "Planina je visoka."
         },
         {
           "de": "Die Miete ist hoch.",
-          "lv": "Наемът е висок."
+          "lv": "Renta je visoka."
         },
         {
           "de": "Die Mauer ist hoch.",
-          "lv": "Стената е висока."
+          "lv": "Zid je visok."
         },
         {
           "de": "Die Preise sind hoch.",
-          "lv": "Цените са високи."
+          "lv": "Cijene su visoke."
         }
       ],
       "tip": [
-        "Хокс = висок",
-        "Използвайте hoch, когато контекстът съответства на това значение."
+        "Hoch = visoko",
+        "Koristite hoch kada kontekst odgovara ovom značenju."
       ],
       "important": [
-        "Hox se često koristi za označavanje cijena i nivoa.",
-        "Hox = visoko.",
-        "Високо вертикално, на ниво или височина."
+        "Hoch se često koristi za cijene i nivo.",
+        "Hoch = visoko.",
+        "Visoko vertikalno, nivo ili visina."
       ],
       "sectionAccents": {
         "explanation": {
           "green": [
             "hoch"
+          ],
+          "purple": [
+            "Glavna"
+          ],
+          "orange": [
+            "Glavna"
           ]
         },
         "examples": [
           {
             "de": {
               "green": [
+                "hoch",
                 "hoch"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Planina"
+              ]
+            }
           },
           {
             "de": {
               "green": [
+                "hoch",
                 "hoch"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Planina"
+              ]
+            }
           },
           {
             "de": {
               "green": [
+                "hoch",
                 "hoch"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Renta"
+              ]
+            }
           },
           {
             "de": {
               "green": [
+                "hoch",
                 "hoch"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Zid"
+              ]
+            }
           },
           {
             "de": {
               "green": [
+                "hoch",
                 "hoch"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Cijene"
+              ]
+            }
           }
         ],
         "tip": [
-          {}
+          {
+            "purple": [
+              "Hoch"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "green": [
+              "hoch"
+            ]
+          }
         ]
       }
     }
   },
   {
     "de": "höflich",
-    "lv": "Пристојно",
+    "lv": "Pristojan",
     "level": "A1"
   },
   {
     "de": "hören",
-    "lv": "Čujte • Sluhajte",
+    "lv": "Čuti • Slušati",
     "level": "A1",
     "study": {
       "id": "a1-hoeren-study",
       "layout": "standardStudy",
-      "translation": "Čujte • Sluhajte",
+      "translation": "Čuti • Slušati",
       "explanation": [
-        "Osnovna ideja je čuti zvuk ili slušati muziku.",
-        "Hören основно означава: да възприемаш звук.",
-        "Често се характеризира с: звуци.",
-        "Hören се използва за обозначаване на звуци, музика и неща, които се чуват."
+        "Glavna ideja: Čuti zvuk ili slušati muziku.",
+        "Hören prvenstveno znači: opažati zvuk.",
+        "Često karakteriziraju: zvuci.",
+        "Hören se koristi za zvukove, muziku i ono što se čuje."
       ],
       "examples": [
         {
           "de": "Ich höre Musik.",
-          "lv": "Слушам музика."
+          "lv": "Slušam muziku."
         },
         {
           "de": "Die Kinder hören eine Geschichte.",
-          "lv": "Децата слушат историята."
+          "lv": "Djeca slušaju priču."
         },
         {
           "de": "Ich höre dich.",
-          "lv": "Те слушам"
+          "lv": "Čujem te"
         }
       ],
       "tip": [
-        "Чуйте звука или слушайте музиката.",
-        "Uporabite hören, ko kontekst ustreza temu pomenu."
+        "Čujte zvuk ili slušajte muziku.",
+        "Koristite hören kada kontekst odgovara ovom značenju."
       ],
       "important": [
-        "Hören = Slišim zvok.",
-        "Чуйте звука или слушайте музиката."
+        "Hören = čuti/slušati zvuk.",
+        "Čujte zvuk ili slušajte muziku."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "hören"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna"
+          ],
+          "green": [
+            "Glavna",
+            "Glavna"
           ]
         },
         "examples": [
@@ -7022,6 +9162,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
+                "hören",
                 "hören"
               ]
             },
@@ -7033,12 +9174,24 @@ const A1_WORDS = [
                 "höre"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Čujem"
+              ]
+            }
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "purple": [
+              "Čujte"
+            ]
+          },
+          {
+            "purple": [
+              "Čujte"
+            ]
+          }
         ],
         "important": [
           {
@@ -7052,7 +9205,7 @@ const A1_WORDS = [
   },
   {
     "de": "hübsch",
-    "lv": "Čisto • Lijepo",
+    "lv": "Uredno • Lijepo",
     "level": "A1"
   },
   {
@@ -7062,38 +9215,38 @@ const A1_WORDS = [
   },
   {
     "de": "hungrig",
-    "lv": "Гладен",
+    "lv": "Gladan",
     "level": "A1"
   },
   {
     "de": "ich",
-    "lv": "Na meni",
+    "lv": "Ja",
     "level": "A1"
   },
   {
     "de": "ihr",
-    "lv": "Ти • Тя",
+    "lv": "Vi • Ona",
     "level": "A1",
     "study": {
       "id": "a1-ihr",
       "layout": "standardStudy",
-      "translation": "Ти • Тя",
+      "translation": "Vi • Ona",
       "explanation": [
-        "Ключова идея: ihr са две различни местоимения с еднакъв правопис - отнасящи се до повече от едно лице (ти) и дателната форма на местоимението sie (тя/тя).",
-        "Кога се обраќате на неколку луѓе, малите букви ихр се преведуваат како вие (Kommt ihr mit? = Доаѓате ли со нас?).",
-        "Ihr като притежателно местоимение означава нея (ihr Buch = нейната книга).",
-        "Ihr като дателен падеж (от sie) означава за нея (Ich gebe ihr das Buch. = Давам й книгата).",
-        "Glagolski oblik (commt, habt) pokazuje da govorimo umjesto vas - obraćajući se nekoliko osoba.",
-        "Učtivoto obrʺŝenie se uvijek piše velikim slovom Sie, a ne ihr."
+        "Glavna ideja: ihr su dvije različite zamjenice sa istim pravopisom - obraćanje nekoliko osoba (ti) i dativ zamjenice sie (ona/ona).",
+        "Sa malim slovima ihr kao adresa za nekoliko ljudi prevodi se kao vi (Kommt ihr mit? = Idete li?).",
+        "Ihr kao prisvojna zamjenica znači nju (ihr Buch = njena knjiga).",
+        "Ihr kao dativ (od sie) znači za nju (Ich gebe ihr das Buch. = Dajem joj knjigu.).",
+        "Glagolski oblik (kommt, habt) pokazuje da se radi o vama - obraćanju nekoliko osoba.",
+        "Ljubazno obraćanje je uvijek Sie sa velikim slovom, a ne ihr."
       ],
       "examples": [
         {
           "de": "Kommt ihr heute Abend?",
-          "lv": "Prideš nocoj?"
+          "lv": "Dolaziš li večeras?"
         },
         {
           "de": "Ich gebe ihr das Buch.",
-          "lv": "Давам й книгата."
+          "lv": "Dajem joj knjigu."
         },
         {
           "de": "Wo wohnt ihr?",
@@ -7101,7 +9254,7 @@ const A1_WORDS = [
         },
         {
           "de": "Er schreibt ihr einen Brief.",
-          "lv": "Napiše ji pismo."
+          "lv": "On joj piše pismo."
         },
         {
           "de": "Habt ihr Zeit?",
@@ -7109,22 +9262,27 @@ const A1_WORDS = [
         },
         {
           "de": "Das ist ihr Auto.",
-          "lv": "To je njen avto."
+          "lv": "To je njen auto."
         }
       ],
       "tip": [
-        "Ihr с глагола dsk. форма (commt, habt) = вие • Ihr до дума в дателен или притежателен падеж = нея/нейната.",
-        "Provjerite: Habt niv...? / Da gi obâvat...? = ti • Ič gebe ihr... / ihr Buč = za nju/njega."
+        "Ihr sa glagolom dsk. oblik (kommt, habt) = vi • Ihr pored riječi kao dativ ili posesiv = njen/njen.",
+        "Provjerite: Habt ihr...? / Kommt ihr...? = ti • Ich gebe ihr... / ihr Buch = za nju/njenu."
       ],
       "important": [
-        "Ihr = ти (се мисли на неколку) ИЛИ неа (дативен случај) ИЛИ неа (посесивен случај) - во зависност од контекстот.",
-        "В учтивото обръщение Sie винаги се изписва с главна буква, а не ihr.",
-        "Неправилно: Ihr (учтив) → Правилно: Sie."
+        "Ihr = ti (obraćanje na nekoliko) ILI ona (dativ) ILI ona (posesiv) - ovisno o kontekstu.",
+        "Ljubazno obraćanje je uvijek Sie sa velikim slovom, a ne ihr.",
+        "Netačno: Ihr (ljubazno) → Tačno: Sie."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "ihr"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna",
+            "Glavna"
           ]
         },
         "examples": [
@@ -7134,7 +9292,11 @@ const A1_WORDS = [
                 "ihr"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Dolaziš"
+              ]
+            }
           },
           {
             "de": {
@@ -7142,7 +9304,11 @@ const A1_WORDS = [
                 "ihr"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Dajem"
+              ]
+            }
           },
           {
             "de": {
@@ -7150,7 +9316,11 @@ const A1_WORDS = [
                 "ihr"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Gdje"
+              ]
+            }
           },
           {
             "de": {
@@ -7158,7 +9328,11 @@ const A1_WORDS = [
                 "ihr"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "joj"
+              ]
+            }
           },
           {
             "de": {
@@ -7166,7 +9340,11 @@ const A1_WORDS = [
                 "ihr"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Imate"
+              ]
+            }
           },
           {
             "de": {
@@ -7174,7 +9352,11 @@ const A1_WORDS = [
                 "ihr"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "njen"
+              ]
+            }
           }
         ],
         "tip": [
@@ -7190,7 +9372,13 @@ const A1_WORDS = [
           }
         ],
         "important": [
-          {},
+          {
+            "purple": [
+              "Ihr",
+              "Ihr",
+              "Ihr"
+            ]
+          },
           {
             "blue": [
               "Sie"
@@ -7210,95 +9398,102 @@ const A1_WORDS = [
   },
   {
     "de": "im",
-    "lv": "П • Каде?",
+    "lv": "U • Gdje?",
     "level": "A1",
     "study": {
       "id": "a1-im",
       "layout": "standardStudy",
-      "translation": "П • Каде?",
+      "translation": "U • Gdje?",
       "explanation": [
-        "Im e svivane na prepositiona and i article dem.",
-        "Пълна форма: в дем (на кого?).",
-        "Употребява се с имена от мъжки род и съществителни от всякакъв род, когато отговаря на въпроса къде? - местоположение.",
-        "В зависимост от времето и сезоните: аз съм януари, аз съм лято, аз съм зима.",
-        "Во пракса, im речиси секогаш се користи наместо целосна во дем."
+        "Im je skraćenica za prijedlog in i član dem.",
+        "Puni oblik: in dem (kome?).",
+        "Koristi se uz imenice muškog roda i imenice bilo kojeg roda kada se odgovara na pitanje gdje? — lokacija.",
+        "Sa vremenom i godišnjim dobima: januar, ljeto, zima.",
+        "U praksi se skoro uvijek koristi im umjesto full in dem."
       ],
       "examples": [
         {
           "de": "Ich bin im Park.",
-          "lv": "Јас сум во паркот"
+          "lv": "Ja sam u parku"
         },
         {
           "de": "Wir wohnen im Zentrum.",
-          "lv": "Живеем в центъра."
+          "lv": "Živimo u centru."
         },
         {
           "de": "Im Sommer ist es warm.",
-          "lv": "През лятото е топло."
+          "lv": "Ljeti je toplo."
         },
         {
           "de": "Er arbeitet im Büro.",
-          "lv": "Работи в офис."
+          "lv": "Radi u kancelariji."
         },
         {
           "de": "Das Kind spielt im Garten.",
-          "lv": "Дете си играе в градината."
+          "lv": "Dijete se igra u vrtu."
         },
         {
           "de": "Im Januar fahre ich nach Wien.",
-          "lv": "През януари бях във Виена."
+          "lv": "Otišao sam u Beč u januaru."
         },
         {
           "de": "Sie ist im Kino.",
-          "lv": "V filmih je."
+          "lv": "Ona je u bioskopu."
         },
         {
           "de": "Wir treffen uns im Restaurant.",
-          "lv": "Се среќаваме во ресторан."
+          "lv": "Nalazimo se u restoranu."
         }
       ],
       "comparison": [
         {
           "word": "im",
-          "meaning": "Къде вътре? (на кого?)",
-          "example": "im Park – V parku"
+          "meaning": "Unutra gde? (kome?)",
+          "example": "im Park – U parku"
         },
         {
           "word": "ins",
-          "meaning": "Вътре, къде? (Акц.)",
-          "example": "ins Kino – Uz kino"
+          "meaning": "Unutra, gde? (U skladu)",
+          "example": "ins Kino – U bioskop"
         },
         {
           "word": "in",
-          "meaning": "C/c (без статија)",
-          "example": "in Berlin – В Берлин"
+          "meaning": "U / do (bez članka)",
+          "example": "in Berlin – U Berlinu"
         },
         {
           "word": "am",
-          "meaning": "Б, къде? (на кого?)",
-          "example": "am Fenster – Do prozora"
+          "meaning": "U, gdje? (kome?)",
+          "example": "am Fenster – Na prozoru"
         },
         {
           "word": "auf",
           "meaning": "Na površini",
-          "example": "auf dem Tisch – Sa galdom"
+          "example": "auf dem Tisch – Na stolu"
         }
       ],
       "tip": [
-        "Запомнете: во +dem → im (на кого?, каде?).",
-        "Kje? → ins • Kje? → Jaz - ne mešaj teh dveh!"
+        "Zapamtite: in + dem → im (kome?, gdje?).",
+        "Gdje? → ins • Gdje? → im - ne brkajte ovo dvoje!"
       ],
       "important": [
-        "Im = in dem, само със съществително от мъжки или среден род за кого? в завоя.",
-        "Отговори на въпроса къде?, а не къде? - местоположение, а не движение.",
-        "С месеци и сезони: im März, im Herbst.",
-        "Za ženske: in der Schule, ne im Schule."
+        "Im = in dem, samo sa imenicom muškog ili srednjeg roda za koga? u fleksiji.",
+        "Odgovori gdje?, a ne gdje? — lokacija, a ne kretanje.",
+        "Sa mjesecima i godišnjim dobima: im März, im Herbst.",
+        "Za žene: in der Schule, ne im Schule."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "im",
-            "svivane"
+            "in dem"
+          ],
+          "purple": [
+            "skraćenica"
+          ],
+          "green": [
+            "skraćenica",
+            "skraćenica"
           ]
         },
         "examples": [
@@ -7308,7 +9503,11 @@ const A1_WORDS = [
                 "im"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "parku"
+              ]
+            }
           },
           {
             "de": {
@@ -7316,7 +9515,11 @@ const A1_WORDS = [
                 "im"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "centru"
+              ]
+            }
           },
           {
             "de": {
@@ -7324,7 +9527,11 @@ const A1_WORDS = [
                 "Im"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Ljeti"
+              ]
+            }
           },
           {
             "de": {
@@ -7332,7 +9539,11 @@ const A1_WORDS = [
                 "im"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Radi"
+              ]
+            }
           },
           {
             "de": {
@@ -7340,7 +9551,11 @@ const A1_WORDS = [
                 "im"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Dijete"
+              ]
+            }
           },
           {
             "de": {
@@ -7348,7 +9563,11 @@ const A1_WORDS = [
                 "Im"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Otišao"
+              ]
+            }
           },
           {
             "de": {
@@ -7356,7 +9575,11 @@ const A1_WORDS = [
                 "im"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Ona"
+              ]
+            }
           },
           {
             "de": {
@@ -7364,13 +9587,26 @@ const A1_WORDS = [
                 "im"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "restoranu"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "im"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Unutra",
+                "Unutra"
+              ]
+            },
             "example": {
               "blue": [
                 "im Park"
@@ -7378,8 +9614,17 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "ins"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Unutra",
+                "Unutra"
+              ]
+            },
             "example": {
               "yellow": [
                 "ins Kino"
@@ -7387,8 +9632,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "in"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "bez"
+              ]
+            },
             "example": {
               "green": [
                 "in Berlin"
@@ -7396,8 +9649,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "am"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "gdje"
+              ]
+            },
             "example": {
               "green": [
                 "am Fenster"
@@ -7405,8 +9666,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "auf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "površini"
+              ]
+            },
             "example": {
               "red": [
                 "auf dem Tisch"
@@ -7418,9 +9687,17 @@ const A1_WORDS = [
           {
             "blue": [
               "im"
+            ],
+            "purple": [
+              "Zapamtite"
             ]
           },
-          {}
+          {
+            "red": [
+              "ins",
+              "Zapamtite"
+            ]
+          }
         ],
         "important": [
           {
@@ -7429,9 +9706,19 @@ const A1_WORDS = [
             ],
             "purple": [
               "in dem"
+            ],
+            "green": [
+              "dem"
             ]
           },
-          {},
+          {
+            "purple": [
+              "Odgovori"
+            ],
+            "green": [
+              "Odgovori"
+            ]
+          },
           {
             "green": [
               "im März",
@@ -7452,35 +9739,35 @@ const A1_WORDS = [
   },
   {
     "de": "immer",
-    "lv": "Винаги",
+    "lv": "Uvijek",
     "level": "A1"
   },
   {
     "de": "in",
-    "lv": "ВО",
+    "lv": "U • Do",
     "level": "A1",
     "study": {
       "id": "a1-in",
       "layout": "standardStudy",
-      "translation": "ВО",
+      "translation": "U • Do",
       "explanation": [
-        "Ключова идея: in обикновено означава „на място“ или „на място“, когато се отнася до пространство, държава, град или сграда.",
-        "Што се однесува до локацијата, во често се преведува како во или во: во Берлин = во Берлин.",
-        "Когато се движите, in означава навътре: ins Kino = в киното.",
-        "Преводот на латвиски варира во зависност од контекстот."
+        "Glavna ideja: in obično znači u ili na mjesto, kada se odnosi na prostor, zemlju, grad ili zgradu.",
+        "Sa lokacijom, in se često prevodi kao u ili u: u Berlinu = u Berlinu.",
+        "Sa kretanjem u znači unutra: ins Kino = u kino.",
+        "Prijevod na latvijski se mijenja ovisno o kontekstu."
       ],
       "examples": [
         {
           "de": "Ich bin in Berlin.",
-          "lv": "Јас сум во Берлин"
+          "lv": "Ja sam u berlinu"
         },
         {
           "de": "Ich gehe in die Schule.",
-          "lv": "Ходя на училище"
+          "lv": "Idem u skolu"
         },
         {
           "de": "Das Buch ist in der Tasche.",
-          "lv": "Книга во торба."
+          "lv": "Knjiga je u torbi."
         },
         {
           "de": "Wir gehen ins Kino.",
@@ -7488,16 +9775,26 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Ne pozabite: i/v → i."
+        "text": "Zapamtite: in/in → in."
       },
       "important": [
-        "„во“ не е секогаш буквално „внатре“ • Летонскиот често се зборува во Берлин, во училиште, во кино.",
-        "Когато става въпрос за повърхности, често имате нужда от auf вместо in."
+        "In nije uvijek doslovno „unutar“ • Letonski se često govori u Berlinu, u školi, u bioskopu.",
+        "Kada je u pitanju površina, često vam je potreban auf umjesto in."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "in"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna"
+          ],
+          "green": [
+            "Glavna",
+            "Glavna",
+            "Glavna",
+            "Glavna"
           ]
         },
         "examples": [
@@ -7507,7 +9804,11 @@ const A1_WORDS = [
                 "in"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "berlinu"
+              ]
+            }
           },
           {
             "de": {
@@ -7515,7 +9816,11 @@ const A1_WORDS = [
                 "in"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Idem"
+              ]
+            }
           },
           {
             "de": {
@@ -7523,7 +9828,11 @@ const A1_WORDS = [
                 "in"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Knjiga"
+              ]
+            }
           },
           {
             "de": {
@@ -7531,7 +9840,11 @@ const A1_WORDS = [
                 "ins"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Idemo"
+              ]
+            }
           }
         ],
         "comparison": [
@@ -7557,16 +9870,36 @@ const A1_WORDS = [
           }
         ],
         "tip": {
-          "left": {}
+          "left": {
+            "blue": [
+              "in"
+            ],
+            "purple": [
+              "Zapamtite",
+              "Zapamtite"
+            ]
+          }
         },
         "important": [
-          {},
+          {
+            "blue": [
+              "in"
+            ],
+            "purple": [
+              "Berlinu",
+              "školi",
+              "nije"
+            ]
+          },
           {
             "yellow": [
               "auf"
             ],
             "red": [
               "in"
+            ],
+            "purple": [
+              "Kada"
             ]
           }
         ]
@@ -7575,94 +9908,104 @@ const A1_WORDS = [
   },
   {
     "de": "ins",
-    "lv": "Gdje?",
+    "lv": "U • U • Gdje?",
     "level": "A1",
     "study": {
       "id": "a1-ins",
       "layout": "standardStudy",
-      "translation": "Gdje?",
+      "translation": "U • U • Gdje?",
       "explanation": [
-        "Ins je okrajšava za predlog v in členu das.",
-        "Пълна форма: в das (къде?).",
-        "Koristi se uz imenice svih vrsta kada se odgovara na pitanje gdje? - krećemo se unutra.",
+        "Ins je skraćenica od prijedloga in i člana das.",
+        "Puni oblik: u das (gdje?).",
+        "Koristi se uz imenice bilo kojeg roda kada se odgovara na pitanje gdje? — kretanje prema unutra.",
         "Često s glagolima: gehen, fahren, kommen, legen, stecken.",
-        "На практика почти винаги се използва ins вместо пълния ind."
+        "U praksi, ins se skoro uvijek koristi umjesto full indas."
       ],
       "examples": [
         {
           "de": "Ich gehe ins Kino.",
-          "lv": "Одам во кино"
+          "lv": "Idem u bioskop"
         },
         {
           "de": "Sie geht ins Bett.",
-          "lv": "Тя си ляга."
+          "lv": "Ona ide na spavanje."
         },
         {
           "de": "Wir fahren ins Ausland.",
-          "lv": "Одиме во странство."
+          "lv": "Idemo u inostranstvo."
         },
         {
           "de": "Komm ins Haus!",
-          "lv": "Ела в къщата!"
+          "lv": "Dođi u kuću!"
         },
         {
           "de": "Er steckt das Geld in den Geldbeutel.",
-          "lv": "Той слага парите в портфейла си."
+          "lv": "Stavlja novac u novčanik."
         },
         {
           "de": "Wir gehen ins Museum.",
-          "lv": "Gremo v muzej."
+          "lv": "Idemo u muzej."
         },
         {
           "de": "Sie legt die Blumen ins Wasser.",
-          "lv": "Таа фрла цвеќиња во водата."
+          "lv": "Ona stavlja cveće u vodu."
         },
         {
           "de": "Fahr bitte ins Zentrum.",
-          "lv": "Моля, отидете до центъра."
+          "lv": "Molim vas idite u centar."
         }
       ],
       "comparison": [
         {
           "word": "ins",
-          "meaning": "Вътре, къде? (Акц.)",
-          "example": "ins Kino – Uz kino"
+          "meaning": "Unutra, gde? (U skladu)",
+          "example": "ins Kino – U bioskop"
         },
         {
           "word": "im",
-          "meaning": "Къде вътре? (на кого?)",
+          "meaning": "Unutra gde? (kome?)",
           "example": "im Kino – Kino"
         },
         {
           "word": "in",
-          "meaning": "B/k",
-          "example": "in die Stadt – Към града"
+          "meaning": "U / do (sa nezavisnim člankom)",
+          "example": "in die Stadt – U grad"
         },
         {
           "word": "aufs",
-          "meaning": "Na površini (rač.)",
-          "example": "aufs Dach – Уз џумта"
+          "meaning": "Na površinu (Akk.)",
+          "example": "aufs Dach – Na krovu"
         },
         {
           "word": "zum",
-          "meaning": "Za/kome (kome?)",
-          "example": "zum Arzt – Посетете лекар"
+          "meaning": "Na / kod (kome?)",
+          "example": "zum Arzt – Kod doktora"
         }
       ],
       "tip": [
-        "Запомнете: in + das → ins (къде?, къде?).",
-        "Gdje? → ins • Gdje? → za njih - ovo je glavna razlika!"
+        "Zapamtite: in + das → ins (gdje?, gdje?).",
+        "Gdje? → ins • Gdje? → im - ovo je glavna razlika!"
       ],
       "important": [
-        "Ins = in das, samo z samostalnikom katerega koli rodu, kjer? v ovinku.",
-        "Отговори на въпроса къде?, а не къде? - движение, а не местоположение.",
-        "Za muškarce: in den Wald • Žene: in die Schule.",
-        "Не мешајте: ins Kino gehen (во кино) и im Kino sein (да се биде во кино)."
+        "Ins = u das, samo s imenicom bilo kojeg roda gdje? u fleksiji.",
+        "Odgovori gdje?, a ne gdje? — kretanje, a ne lokacija.",
+        "Za muški rod: in den Wald • Žena: in die Schule.",
+        "Nemojte brkati: ins Kino gehen (u bioskop) naspram im Kino sein (biti u kinu)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "ins"
+            "ins",
+            "Ins"
+          ],
+          "purple": [
+            "Ins",
+            "Ins",
+            "Ins"
+          ],
+          "green": [
+            "Ins",
+            "Ins"
           ]
         },
         "examples": [
@@ -7672,7 +10015,11 @@ const A1_WORDS = [
                 "ins"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Idem"
+              ]
+            }
           },
           {
             "de": {
@@ -7680,7 +10027,11 @@ const A1_WORDS = [
                 "ins"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Ona"
+              ]
+            }
           },
           {
             "de": {
@@ -7688,7 +10039,11 @@ const A1_WORDS = [
                 "ins"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Idemo"
+              ]
+            }
           },
           {
             "de": {
@@ -7696,7 +10051,11 @@ const A1_WORDS = [
                 "ins"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Dođi"
+              ]
+            }
           },
           {
             "de": {
@@ -7704,7 +10063,13 @@ const A1_WORDS = [
                 "in den"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Stavlja",
+                "Stavlja",
+                "Stavlja"
+              ]
+            }
           },
           {
             "de": {
@@ -7712,7 +10077,11 @@ const A1_WORDS = [
                 "ins"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Idemo"
+              ]
+            }
           },
           {
             "de": {
@@ -7720,7 +10089,11 @@ const A1_WORDS = [
                 "ins"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Ona"
+              ]
+            }
           },
           {
             "de": {
@@ -7728,13 +10101,26 @@ const A1_WORDS = [
                 "ins"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Molim"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "ins"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Unutra",
+                "Unutra"
+              ]
+            },
             "example": {
               "blue": [
                 "ins Kino"
@@ -7742,8 +10128,17 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "im"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Unutra",
+                "Unutra"
+              ]
+            },
             "example": {
               "yellow": [
                 "im Kino"
@@ -7751,8 +10146,18 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "in"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nezavisnim",
+                "nezavisnim",
+                "nezavisnim"
+              ]
+            },
             "example": {
               "green": [
                 "in die Stadt"
@@ -7760,8 +10165,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "aufs"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "površinu"
+              ]
+            },
             "example": {
               "green": [
                 "aufs Dach"
@@ -7769,8 +10182,17 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "zum"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kod",
+                "kod"
+              ]
+            },
             "example": {
               "red": [
                 "zum Arzt"
@@ -7782,9 +10204,17 @@ const A1_WORDS = [
           {
             "blue": [
               "ins"
+            ],
+            "purple": [
+              "Zapamtite"
             ]
           },
-          {}
+          {
+            "red": [
+              "im",
+              "Zapamtite"
+            ]
+          }
         ],
         "important": [
           {
@@ -7792,11 +10222,28 @@ const A1_WORDS = [
               "ins"
             ],
             "purple": [
-              "in das"
+              "Ins"
+            ],
+            "green": [
+              "Ins"
             ]
           },
-          {},
-          {},
+          {
+            "purple": [
+              "Odgovori"
+            ],
+            "green": [
+              "Odgovori"
+            ]
+          },
+          {
+            "yellow": [
+              "in den Wald"
+            ],
+            "green": [
+              "in die Schule"
+            ]
+          },
           {
             "blue": [
               "ins Kino gehen"
@@ -7822,82 +10269,82 @@ const A1_WORDS = [
   },
   {
     "de": "jawohl",
-    "lv": "Nisam mogao da idem, Jack.",
+    "lv": "Baš tako",
     "level": "A1"
   },
   {
     "de": "jeder",
-    "lv": "Svi",
+    "lv": "Svaki",
     "level": "A1"
   },
   {
     "de": "jemand",
-    "lv": "Някой",
+    "lv": "Nekoga",
     "level": "A1"
   },
   {
     "de": "jetzt",
-    "lv": "Сега • Сега",
+    "lv": "Sada • Trenutno",
     "level": "A1"
   },
   {
     "de": "Juli",
     "de_article": "der",
-    "lv": "Јули",
+    "lv": "Jula",
     "level": "A1"
   },
   {
     "de": "jung",
-    "lv": "Mladi ljudi",
+    "lv": "Mladi (o ljudima)",
     "level": "A1",
     "study": {
       "id": "a1-jung",
       "layout": "standardStudy",
-      "translation": "Mladi ljudi",
+      "translation": "Mladi (o ljudima)",
       "explanation": [
-        "Основна идея: Юнг означава млада възраст, използвана по отношение на хора и животни, а не неща.",
-        "Юнг описва възрастта - обратното - виола (стар).",
-        "V latvijščini ima beseda mladi dva pomena: mladi v starosti (jung) in mladi/na novo ustvarjeni (neu).",
-        "За неща, наскоро създадени или придобити, използвайте neu, ne jung.",
-        "Юнг се използва и в преносен смисъл: ново поколение, млада двойка, млади хора.",
-        "Съществува и съществителното die Jugend (младеж)."
+        "Glavna ideja: jung znači mlad u godinama - koristi se za ljude i životinje, a ne za stvari.",
+        "Jung opisuje starost - suprotno je alt (starost).",
+        "Na letonskom, reč mlad ima dva značenja: mlad (jung) i mlad/skoro stvoren (neu).",
+        "Za stvari koje ste nedavno kreirali ili stekli, koristite neu, ne jung.",
+        "Jung se također koristi u prenesenom značenju: nova generacija, mladi par, mladi ljudi.",
+        "Tu je i imenica die Jugend (mladost)."
       ],
       "examples": [
         {
           "de": "Sie ist noch jung.",
-          "lv": "Тя е още млада."
+          "lv": "Još je mlada."
         },
         {
           "de": "Der Hund ist jung.",
-          "lv": "Pes je mlad."
+          "lv": "Pas je mlad."
         },
         {
           "de": "Wir sind noch jung.",
-          "lv": "Ние сме уште млади."
+          "lv": "Još smo mladi."
         },
         {
           "de": "Er sieht sehr jung aus.",
-          "lv": "Изглежда много млад."
+          "lv": "Izgleda veoma mlado."
         },
         {
           "de": "Das ist ein junges Paar.",
-          "lv": "To je nov par."
+          "lv": "To je novi par."
         },
         {
           "de": "Die junge Frau lächelt.",
-          "lv": "Усмихната млада жена."
+          "lv": "Mlada žena se smiješi."
         },
         {
           "de": "Mein Bruder ist jünger als ich.",
-          "lv": "Брат ми е помлад од мене."
+          "lv": "Moj brat je mlađi od mene."
         }
       ],
       "tip": [
-        "Jung - o starosti (ljudje, živali) - ko govorite o stvareh, ki so bile ustvarjene v zadnjem času, uporabite neu.",
-        "Напротив: jung ↔ alt (млад ↔ стар)."
+        "Jung govori o dobi (ljudi, životinje) - kada se govori o stvarima koje su nedavno stvorene, koristite neu.",
+        "Nasuprot: jung ↔ alt (mladi ↔ stari)."
       ],
       "important": [
-        "Јунг ја опишува возраста, а не новоста на нешто.",
+        "Jung opisuje starost, a ne novost stvari.",
         "Za nove stvari (telefon, auto, kuća) koristite neu umjesto jung.",
         "Netačno: Mein Handy ist jung. → Točno: Mein Handy ist neu."
       ],
@@ -7905,6 +10352,9 @@ const A1_WORDS = [
         "explanation": {
           "blue": [
             "jung"
+          ],
+          "purple": [
+            "Glavna"
           ],
           "green": [
             "neu"
@@ -7917,7 +10367,11 @@ const A1_WORDS = [
                 "jung"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Još"
+              ]
+            }
           },
           {
             "de": {
@@ -7925,7 +10379,11 @@ const A1_WORDS = [
                 "jung"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Pas"
+              ]
+            }
           },
           {
             "de": {
@@ -7933,7 +10391,11 @@ const A1_WORDS = [
                 "jung"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Još"
+              ]
+            }
           },
           {
             "de": {
@@ -7941,15 +10403,11 @@ const A1_WORDS = [
                 "jung"
               ]
             },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "junges"
+            "lv": {
+              "purple": [
+                "Izgleda"
               ]
-            },
-            "lv": {}
+            }
           },
           {
             "de": {
@@ -7957,7 +10415,23 @@ const A1_WORDS = [
                 "junge"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "novi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "junge"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Mlada"
+              ]
+            }
           },
           {
             "de": {
@@ -7965,7 +10439,11 @@ const A1_WORDS = [
                 "jünger"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Moj"
+              ]
+            }
           }
         ],
         "tip": [
@@ -7974,7 +10452,7 @@ const A1_WORDS = [
               "jung"
             ],
             "green": [
-              "Jung"
+              "neu"
             ]
           },
           {
@@ -7987,7 +10465,11 @@ const A1_WORDS = [
           }
         ],
         "important": [
-          {},
+          {
+            "blue": [
+              "jung"
+            ]
+          },
           {
             "green": [
               "neu"
@@ -8011,73 +10493,77 @@ const A1_WORDS = [
   {
     "de": "Juni",
     "de_article": "der",
-    "lv": "Јуни",
+    "lv": "Juna",
     "level": "A1"
   },
   {
     "de": "Jeans",
     "de_article": "die",
-    "lv": "Дънки",
+    "lv": "Farmerke",
     "level": "A1"
   },
   {
     "de": "kaufen",
-    "lv": "Купете",
+    "lv": "Kupiti",
     "level": "A1"
   },
   {
     "de": "kein",
-    "lv": "Никой • Нищо",
+    "lv": "Niko • Ništa",
     "level": "A1",
     "study": {
       "id": "a1-kein",
       "layout": "standardStudy",
-      "translation": "Никой • Нищо",
+      "translation": "Niko • Ništa",
       "explanation": [
-        "Основна идея: kein е отрицателен член, който отрича съществително – латвийски, в зависимост от контекста, никой или никой.",
-        "Kein se zloži kot ein (kein/keine/keinen...) in stoji pred samostalnikom.",
-        "Sa broimi sʺŝestvenitelʹni (hora), kein se često prevodi kao niko (kein Mensch = nito edin manky).",
-        "В случай на незадължителни или абстрактни съществителни, kein често се превежда като нищо/изобщо (kein Geld = без пари/без пари).",
-        "Kein otriča osoba sʺŝestvenitelʹnoe, a ne samo glagola (sravnete nicht)."
+        "Glavna ideja: kein je negacijski članak koji negira imenicu - latvijski, ovisno o kontekstu, nitko ili ništa.",
+        "Kein se sklanja kao ein (kein/keine/keinen...) i stoji ispred imenice.",
+        "Sa brojivim imenicama (ljudi), kein se često prevodi kao niko (kein Mensch = nikakvo ljudsko biće).",
+        "Sa neobavezujućim ili apstraktnim imenicama, kein se često prevodi kao ništa/nemalo (kein Geld = bez novca/bez novca).",
+        "Kein negira cijelu imenicu, a ne samo glagol (uporedi nicht)."
       ],
       "examples": [
         {
           "de": "Ich habe kein Geld.",
-          "lv": "Немам пари"
+          "lv": "Nemam novca"
         },
         {
           "de": "Es gibt keine Milch mehr.",
-          "lv": "Вече изобщо няма мляко."
+          "lv": "Nema više mlijeka."
         },
         {
           "de": "Kein Mensch war da.",
-          "lv": "Nije bilo nikoga."
+          "lv": "Nikog nije bilo."
         },
         {
           "de": "Ich habe keine Zeit.",
-          "lv": "Нямам време"
+          "lv": "Nemam vremena"
         },
         {
           "de": "Das ist kein Problem.",
-          "lv": "Тоа не е проблем"
+          "lv": "Nije problem."
         },
         {
           "de": "Wir haben keine Kinder.",
-          "lv": "Ние нямаме деца."
+          "lv": "Nemamo dece."
         }
       ],
       "tip": [
-        "Kein отрича съществително (kein + съществително), nicht отрича глагол или изречение.",
-        "Kein се наведнува како ein: kein/keine/keinen/keiner."
+        "Kein negira imenicu (kein + imenica), nicht negira glagol ili klauzulu.",
+        "Kein se sklanja kao ein: kein/keine/keinen/keiner."
       ],
       "important": [
-        "Kein + съществително = „не/няма X“, а не „nicht ein X“.",
+        "Kein + imenica = 'nema/nema X', a ne 'nicht ein X'.",
         "Netačno: Ich habe nicht ein Geld. → Točno: Ich habe kein Geld."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "kein"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna"
           ]
         },
         "examples": [
@@ -8087,7 +10573,11 @@ const A1_WORDS = [
                 "kein"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Nemam"
+              ]
+            }
           },
           {
             "de": {
@@ -8095,7 +10585,11 @@ const A1_WORDS = [
                 "keine"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Nema"
+              ]
+            }
           },
           {
             "de": {
@@ -8103,7 +10597,11 @@ const A1_WORDS = [
                 "Kein"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Nikog"
+              ]
+            }
           },
           {
             "de": {
@@ -8111,7 +10609,11 @@ const A1_WORDS = [
                 "keine"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Nemam"
+              ]
+            }
           },
           {
             "de": {
@@ -8119,7 +10621,11 @@ const A1_WORDS = [
                 "kein"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Nije"
+              ]
+            }
           },
           {
             "de": {
@@ -8127,7 +10633,11 @@ const A1_WORDS = [
                 "keine"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Nemamo"
+              ]
+            }
           }
         ],
         "tip": [
@@ -8167,71 +10677,75 @@ const A1_WORDS = [
     "de": "Keks",
     "de_article": "der",
     "de_plural": "die Kekse",
-    "lv": "Keks.",
+    "lv": "Kolačić",
     "level": "A1"
   },
   {
     "de": "kennen",
-    "lv": "Знам",
+    "lv": "Znati",
     "level": "A1",
     "id": "a1-kennen",
     "study": {
       "id": "a1-kennen-study",
       "layout": "standardStudy",
-      "translation": "Знам",
+      "translation": "Znati",
       "explanation": [
-        "Главната идеја е да се запознае личност, место или нешто преку лично искуство.",
+        "Glavna ideja: poznavati osobu, mjesto ili stvar iz iskustva.",
         "Kennen prvenstveno znači: lično poznanstvo.",
-        "Често описва: хора, места.",
-        "Kennen se uporablja, ko osebo, kraj ali stvar poznate iz osebnih izkušenj."
+        "Često opisuje: ljude, mjesta.",
+        "Kennen se koristi kada poznajete osobu, mjesto ili stvar iz ličnog iskustva."
       ],
       "examples": [
         {
           "de": "Ich kenne ihn.",
-          "lv": "Познавам го"
+          "lv": "Znam ga."
         },
         {
           "de": "Kennen Sie diese Frau?",
-          "lv": "Познавате ли тази жена"
+          "lv": "Da li poznajete ovu ženu"
         },
         {
           "de": "Wo habt ihr euch kennengelernt?",
-          "lv": "Каде се запознавте?"
+          "lv": "Gdje ste se upoznali?"
         },
         {
           "de": "Ich kenne ihn.",
-          "lv": "Познавам го"
+          "lv": "Znam ga"
         },
         {
           "de": "kennen",
-          "lv": "Знајте мудрост"
+          "lv": "Znati wissen"
         }
       ],
       "comparison": [
         {
           "word": "kennen",
-          "meaning": "Погоди (лице, место, работа)",
-          "example": "Ich kenne ihn. – Познавам го"
+          "meaning": "Znati (osoba, mjesto, stvar)",
+          "example": "Ich kenne ihn. – Znam ga."
         },
         {
           "word": "wissen",
-          "meaning": "Знам (факт, информация)",
-          "example": "Ich weiß seinen Namen. – Знам името му."
+          "meaning": "Znati (činjenica, informacija)",
+          "example": "Ich weiß seinen Namen. – Znam njegovo ime."
         }
       ],
       "tip": [
-        "Кенен = Знам",
+        "Kennen = znati",
         "Koristite kennen kada kontekst odgovara ovom značenju."
       ],
       "important": [
         "Kennen = poznavati osobu/mjesto.",
-        "Кенен = Знам.",
-        "Познаване на човек, място или нещо чрез личен опит."
+        "Kennen = znati.",
+        "Poznavanje osobe, mjesta ili stvari iz iskustva."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
+            "kennen",
             "kennen"
+          ],
+          "purple": [
+            "Glavna"
           ]
         },
         "examples": [
@@ -8241,11 +10755,16 @@ const A1_WORDS = [
                 "kenne"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Znam"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
+                "kennen",
                 "kennen"
               ]
             },
@@ -8254,7 +10773,8 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "kennengelernt"
+                "kennen",
+                "kennen"
               ]
             },
             "lv": {}
@@ -8265,19 +10785,32 @@ const A1_WORDS = [
                 "kenne"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Znam"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
+                "kennen",
                 "kennen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Znati"
+              ]
+            }
           }
         ],
         "tip": [
-          {}
+          {
+            "purple": [
+              "Kennen"
+            ]
+          }
         ],
         "important": [
           {
@@ -8291,58 +10824,62 @@ const A1_WORDS = [
   },
   {
     "de": "wissen",
-    "lv": "Знам",
+    "lv": "Znati",
     "level": "A1",
     "id": "a1-wissen",
     "study": {
       "id": "a1-wissen-study",
       "layout": "standardStudy",
-      "translation": "Знам",
+      "translation": "Znati",
       "explanation": [
-        "Основна идея: Открийте факт, отговор или информация.",
-        "Wissen v bistvu pomeni: informacija/dejstvo.",
-        "Pogosto so značilni: odgovori, podatki.",
-        "Wissen се използва, когато знаете факт, отговор или информация."
+        "Glavna ideja: znati činjenicu, odgovor ili informaciju.",
+        "Wissen uglavnom znači: informacija/činjenica.",
+        "Često karakteriziraju: odgovori, podaci.",
+        "Wissen se koristi kada znate neku činjenicu, odgovor ili informaciju."
       ],
       "examples": [
         {
           "de": "Ich weiß, wo er wohnt.",
-          "lv": "Знам къде живее."
+          "lv": "Znam gdje živi."
         },
         {
           "de": "Woher wissen Sie das?",
-          "lv": "Откъде знаеш това?"
+          "lv": "Kako to znaš?"
         },
         {
           "de": "Ich weiß die Antwort.",
-          "lv": "Знам отговора."
+          "lv": "Znam odgovor."
         }
       ],
       "comparison": [
         {
           "word": "wissen",
-          "meaning": "Знам (факт, информация)",
-          "example": "Ich weiß, wo er wohnt. – Знам къде живее."
+          "meaning": "Znati (činjenica, informacija)",
+          "example": "Ich weiß, wo er wohnt. – Znam gdje živi."
         },
         {
           "word": "kennen",
-          "meaning": "Погоди (лице, место, работа)",
-          "example": "Ich kenne die Stadt. – Го знам градот."
+          "meaning": "Znati (osoba, mjesto, stvar)",
+          "example": "Ich kenne die Stadt. – Znam grad."
         }
       ],
       "tip": [
-        "Wissen = да знам",
-        "Користете wissen кога контекстот се совпаѓа со ова значење."
+        "Wissen = znati",
+        "Koristite wissen kada kontekst odgovara ovom značenju."
       ],
       "important": [
-        "Wissen = да знаеш факт.",
-        "Wissen = да знам.",
-        "Ugani dejstvo, odgovor ali informacijo."
+        "Wissen = znati činjenicu.",
+        "Wissen = znati.",
+        "Znati činjenicu, odgovor ili informaciju."
       ],
       "sectionAccents": {
         "explanation": {
           "green": [
+            "wissen",
             "wissen"
+          ],
+          "purple": [
+            "Glavna"
           ]
         },
         "examples": [
@@ -8353,10 +10890,15 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
+                "wissen",
                 "wissen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Kako"
+              ]
+            }
           },
           {
             "de": {},
@@ -8364,7 +10906,11 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "purple": [
+              "Wissen"
+            ]
+          }
         ],
         "important": [
           {
@@ -8387,105 +10933,114 @@ const A1_WORDS = [
     "de": "Kilometer",
     "de_article": "der",
     "de_plural": "die Kilometer",
-    "lv": "Километар",
+    "lv": "Kilometar",
     "level": "A1"
   },
   {
     "de": "Kind",
     "de_article": "das",
     "de_plural": "die Kinder",
-    "lv": "Дете",
+    "lv": "Dijete",
     "level": "A1"
   },
   {
     "de": "Kindergarten",
     "de_article": "der",
     "de_plural": "die Kindergärten",
-    "lv": "Градинка",
+    "lv": "Vrtić",
     "level": "A1"
   },
   {
     "de": "Kirche",
     "de_article": "die",
     "de_plural": "die Kirchen",
-    "lv": "Църква",
+    "lv": "Crkva",
     "level": "A1"
   },
   {
     "de": "kochen",
-    "lv": "Подгответе се",
+    "lv": "Kuhati",
     "level": "A1"
   },
   {
     "de": "kommen",
-    "lv": "Ела",
+    "lv": "Doći",
     "level": "A1"
   },
   {
     "de": "können",
-    "lv": "Умейте да • Знаете",
+    "lv": "Biti u stanju da • Zna",
     "level": "A1",
     "study": {
       "id": "a1-können",
       "layout": "standardStudy",
-      "translation": "Умейте да • Знаете",
+      "translation": "Biti u stanju da • Zna",
       "explanation": [
-        "Основна идея: können означава „да можеш или можеш да направиш нещо“.",
-        "Kada govorimo o sposobnostima ili vještinama, Letonac često kaže „da znam“.",
-        "Когато се говори за възможност, често се казва, че е възможно.",
-        "Können je modalni glagol, zato drugi glagol običajno pride na koncu."
+        "Glavna ideja: können znači moći ili znati nešto učiniti.",
+        "Kada je riječ o sposobnostima ili vještinama, Latvijanac često kaže znati.",
+        "Kada je u pitanju mogućnost, često se kaže da može.",
+        "Können je modalni glagol, tako da drugi glagol obično dolazi na kraju."
       ],
       "examples": [
         {
           "de": "Ich kann Deutsch sprechen.",
-          "lv": "Мога да говоря немски"
+          "lv": "Znam njemački"
         },
         {
           "de": "Kannst du mir helfen?",
-          "lv": "Možete li mi pomoći?"
+          "lv": "Možeš li mi pomoći"
         },
         {
           "de": "Wir können heute kommen.",
-          "lv": "Можем да дойдем днес."
+          "lv": "Možemo doći danas."
         },
         {
           "de": "Er kann gut schwimmen.",
-          "lv": "Той може да плува добре."
+          "lv": "Zna dobro plivati."
         }
       ],
       "comparison": [
         {
           "word": "können",
-          "meaning": "Бъдете способни/знайте",
-          "example": "Ich kann schwimmen. = Мога да плувам."
+          "meaning": "Biti u stanju / znati",
+          "example": "Ich kann schwimmen. = Znam da plivam."
         },
         {
           "word": "dürfen",
-          "meaning": "Ќе биде дозволено",
-          "example": "Darf ich gehen? = Ali lahko grem"
+          "meaning": "Biti dozvoljeno",
+          "example": "Darf ich gehen? = Mogu li ići"
         },
         {
           "word": "müssen",
-          "meaning": "Треба/треба да е да-",
+          "meaning": "Treba/biti da-",
           "example": "Ich muss lernen. = Moram da učim."
         },
         {
           "word": "wissen",
-          "meaning": "Знам",
-          "example": "Ich weiß das. = Najboljšo čokolado delaš."
+          "meaning": "Znati",
+          "example": "Ich weiß das. = Znam to."
         }
       ],
       "tip": {
-        "text": "Запомнете: умение/способност → können."
+        "text": "Zapamtite: vještina/sposobnost → können."
       },
       "important": [
-        "Können не е исто што и дурфен. können = да може/да знае, dürfen = да се дозволи.",
-        "Во речениците со können, вториот глагол често доаѓа на крајот: Ich kann schwimmen."
+        "Können nije isto što i dürfen. können = moći/znati, dürfen = biti dopušteno.",
+        "U rečenici s können, drugi glagol često dolazi na kraju: Ich kann schwimmen."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "können"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna"
+          ],
+          "green": [
+            "Glavna",
+            "Glavna",
+            "Glavna"
           ]
         },
         "examples": [
@@ -8495,7 +11050,11 @@ const A1_WORDS = [
                 "kann"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Znam"
+              ]
+            }
           },
           {
             "de": {
@@ -8503,7 +11062,11 @@ const A1_WORDS = [
                 "Kannst"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Možeš"
+              ]
+            }
           },
           {
             "de": {
@@ -8511,7 +11074,11 @@ const A1_WORDS = [
                 "können"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Možemo"
+              ]
+            }
           },
           {
             "de": {
@@ -8519,49 +11086,100 @@ const A1_WORDS = [
                 "kann"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Zna"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "können"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Biti",
+                "Biti"
+              ]
+            },
             "example": {
               "blue": [
                 "kann"
+              ],
+              "purple": [
+                "Ich"
               ]
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "dürfen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Biti"
+              ]
+            },
             "example": {
               "red": [
+                "Darf",
                 "Darf"
               ]
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "müssen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Treba/biti"
+              ]
+            },
             "example": {
               "yellow": [
-                "muss"
+                "muss",
+                "Ich"
               ]
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "wissen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Znati"
+              ]
+            },
             "example": {
               "green": [
-                "weiß"
+                "weiß",
+                "Ich"
               ]
             }
           }
         ],
         "tip": {
-          "left": {}
+          "left": {
+            "blue": [
+              "können"
+            ],
+            "purple": [
+              "Zapamtite",
+              "Zapamtite"
+            ]
+          }
         },
         "important": [
           {
@@ -8570,6 +11188,11 @@ const A1_WORDS = [
             ],
             "red": [
               "dürfen"
+            ],
+            "purple": [
+              "Können",
+              "Können",
+              "Können"
             ]
           },
           {
@@ -8586,87 +11209,92 @@ const A1_WORDS = [
   },
   {
     "de": "kosten",
-    "lv": "Plaćanje",
+    "lv": "Platiti",
     "level": "A1",
     "study": {
       "id": "a1-kosten",
       "layout": "standardStudy",
-      "translation": "Plaćanje",
+      "translation": "Platiti",
       "explanation": [
-        "Главна идеја: Костен значи да платиш така и така, зборува за цената на нешто.",
-        "Овој збор се користи кога се прашува или кажува колку чини нешто, а не кога некое лице врши плаќање.",
-        "Въпросите за цената на немски често започват с думите Was kostet...?",
-        "В този контекст латвийската дума за „плащане“ би била правилна: Das kostet 5 евро. = Струва 5 евро.",
-        "Когато човек дава пари за стока или услуга, на немски се използва bezahlen или zahlen."
+        "Osnovna ideja: kosten znači platiti tako i to - govori o cijeni stvari.",
+        "Ova riječ se koristi kada se pita ili kaže koliko nešto košta, a ne kada osoba izvrši uplatu.",
+        "Pitanje cijene na njemačkom često počinje sa Was kostet...?",
+        "Letonska reč platiti je tačna u ovom kontekstu: Das kostet 5 evra. = Košta 5 eura.",
+        "Kada osoba daje novac za robu ili uslugu, Nijemac koristi bezahlen ili zahlen."
       ],
       "examples": [
         {
           "de": "Das kostet 5 Euro.",
-          "lv": "Stane 5 evrov."
+          "lv": "Košta 5 eura."
         },
         {
           "de": "Was kostet das?",
-          "lv": "Колко струва"
+          "lv": "Koliko košta"
         },
         {
           "de": "Wie viel kostet der Pullover?",
-          "lv": "Koliko stane pulover?"
+          "lv": "Koliko košta džemper?"
         },
         {
           "de": "Das Essen kostet nicht viel.",
-          "lv": "Храната не чини многу."
+          "lv": "Hrana ne košta mnogo."
         },
         {
           "de": "Ich bezahle die Rechnung.",
-          "lv": "Аз плащам сметката"
+          "lv": "Ja plaćam račun"
         },
         {
           "de": "Kann ich bar bezahlen?",
-          "lv": "Ali lahko plačam z gotovino?"
+          "lv": "Mogu li platiti gotovinom"
         },
         {
           "de": "Er zahlt mit Karte.",
-          "lv": "Плати со картичка."
+          "lv": "Plaća karticom."
         },
         {
           "de": "Ich zahle gleich.",
-          "lv": "Сега ще платя"
+          "lv": "Ja ću sada platiti"
         }
       ],
       "comparison": [
         {
           "word": "kosten",
-          "meaning": "Плаќање (цена) • Колку",
-          "example": "Das kostet 5 Euro. = Stane 5 evrov."
+          "meaning": "Platiti (cijenu) • Koliko",
+          "example": "Das kostet 5 Euro. = Košta 5 eura."
         },
         {
           "word": "bezahlen",
-          "meaning": "Плащане • Плащане (пари)",
-          "example": "Ich bezahle die Rechnung. = Plačam račun."
+          "meaning": "Platiti • Platiti (novac)",
+          "example": "Ich bezahle die Rechnung. = Ja plaćam račun."
         },
         {
           "word": "zahlen",
-          "meaning": "Plaćanje • Plaćanje",
-          "example": "Kann ich bar zahlen? = Мога ли да платя в брой?"
+          "meaning": "Platiti • Platiti",
+          "example": "Kann ich bar zahlen? = Mogu li platiti gotovinom?"
         },
         {
           "word": "Was kostet...?",
-          "meaning": "Koliko košta...?",
-          "example": "Was kostet das Buch? = Колку чини книгата?"
+          "meaning": "Koliko kosta...?",
+          "example": "Was kostet das Buch? = Koliko košta knjiga?"
         }
       ],
       "tip": [
-        "Запомнете: въпрос относно цената → kosten (Имаше ли kosten das?).",
-        "Запомнете: извършване на плащане → bezahlen (Ich bezahle die Rechnung.)."
+        "Zapamtite: pitanje o cijeni → kosten (Je li kostet das?).",
+        "Zapamtite: plaćanje → bezahlen / zahlen (Ich bezahle die Rechnung.)."
       ],
       "important": [
-        "Костен и безахлен не се синоними: костен = колку чини • Безахлен = плаќам пари.",
-        "На латвийски език плащането често се използва и в двата случая, но на немски изборът трябва да се направи според ситуацията."
+        "Kosten i bezahlen nisu sinonimi: kosten = koliko košta • Bezahlen = platiti novac.",
+        "Na latvijskom se plaća često koristi u oba slučaja, ali u njemačkom se izbor mora napraviti u skladu sa situacijom."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "kostet"
+            "kosten"
+          ],
+          "purple": [
+            "Osnovna",
+            "Osnovna",
+            "Osnovna"
           ],
           "green": [
             "Was kostet"
@@ -8683,7 +11311,11 @@ const A1_WORDS = [
                 "kostet"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Košta"
+              ]
+            }
           },
           {
             "de": {
@@ -8691,7 +11323,11 @@ const A1_WORDS = [
                 "kostet"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Koliko"
+              ]
+            }
           },
           {
             "de": {
@@ -8699,7 +11335,11 @@ const A1_WORDS = [
                 "kostet"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Koliko"
+              ]
+            }
           },
           {
             "de": {
@@ -8707,7 +11347,11 @@ const A1_WORDS = [
                 "kostet"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Hrana"
+              ]
+            }
           },
           {
             "de": {
@@ -8715,7 +11359,11 @@ const A1_WORDS = [
                 "bezahle"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "plaćam"
+              ]
+            }
           },
           {
             "de": {
@@ -8723,7 +11371,11 @@ const A1_WORDS = [
                 "bezahlen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Mogu"
+              ]
+            }
           },
           {
             "de": {
@@ -8731,7 +11383,11 @@ const A1_WORDS = [
                 "zahlt"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Plaća"
+              ]
+            }
           },
           {
             "de": {
@@ -8739,43 +11395,95 @@ const A1_WORDS = [
                 "zahle"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "sada"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "kosten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Platiti",
+                "Platiti",
+                "Platiti"
+              ]
+            },
             "example": {
               "blue": [
                 "kostet"
+              ],
+              "purple": [
+                "Das"
               ]
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "bezahlen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Platiti",
+                "Platiti"
+              ]
+            },
             "example": {
               "yellow": [
                 "bezahle"
+              ],
+              "purple": [
+                "Ich"
               ]
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "zahlen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Platiti",
+                "Platiti"
+              ]
+            },
             "example": {
               "yellow": [
                 "zahlen"
+              ],
+              "purple": [
+                "Kann"
               ]
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "Was kostet"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Koliko"
+              ]
+            },
             "example": {
               "blue": [
                 "kostet"
+              ],
+              "purple": [
+                "Was"
               ]
             }
           }
@@ -8783,112 +11491,135 @@ const A1_WORDS = [
         "tip": [
           {
             "blue": [
-              "kosten"
+              "kosten",
+              "Zapamtite"
+            ],
+            "purple": [
+              "Zapamtite"
             ]
           },
           {
             "yellow": [
               "bezahlen",
               "zahlen"
+            ],
+            "purple": [
+              "Zapamtite"
             ]
           }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "kosten"
+            ],
+            "yellow": [
+              "bezahlen"
+            ],
+            "purple": [
+              "Kosten",
+              "Kosten"
+            ]
+          },
+          {
+            "purple": [
+              "latvijskom",
+              "situacijom"
+            ]
+          }
         ]
       }
     }
   },
   {
     "de": "küssen",
-    "lv": "Целувка",
+    "lv": "Poljubiti",
     "level": "A1"
   },
   {
     "de": "lächeln",
-    "lv": "Усмихни се",
+    "lv": "Nasmejati se",
     "level": "A1"
   },
   {
     "de": "lachen",
-    "lv": "Смейте се",
+    "lv": "Smejati se",
     "level": "A1"
   },
   {
     "de": "Honig",
     "de_article": "der",
     "de_plural": "die Honige",
-    "lv": "Мед",
+    "lv": "Med",
     "level": "A1"
   },
   {
     "de": "Hose",
     "de_article": "die",
     "de_plural": "die Hosen",
-    "lv": "Панталони",
+    "lv": "Pantalone",
     "level": "A1"
   },
   {
     "de": "Huhn",
     "de_article": "das",
     "de_plural": "die Hühner",
-    "lv": "Пиле",
+    "lv": "Piletina",
     "level": "A1"
   },
   {
     "de": "Hund",
     "de_article": "der",
     "de_plural": "die Hunde",
-    "lv": "Куче",
+    "lv": "Pas",
     "level": "A1"
   },
   {
     "de": "Hut",
     "de_article": "der",
     "de_plural": "die Hüte",
-    "lv": "Шапка",
+    "lv": "Šešir",
     "level": "A1"
   },
   {
     "de": "Jahr",
     "de_article": "das",
     "de_plural": "die Jahre",
-    "lv": "Година",
+    "lv": "Godine",
     "level": "A1"
   },
   {
     "de": "Kaffee",
     "de_article": "der",
-    "lv": "Cafe",
+    "lv": "Kafa",
     "level": "A1"
   },
   {
     "de": "Kalender",
     "de_article": "der",
     "de_plural": "die Kalender",
-    "lv": "Календар",
+    "lv": "Kalendar",
     "level": "A1"
   },
   {
     "de": "Kamera",
     "de_article": "die",
     "de_plural": "die Kameras",
-    "lv": "Камера",
+    "lv": "Kamera",
     "level": "A1"
   },
   {
     "de": "Karotte",
     "de_article": "die",
     "de_plural": "die Karotten",
-    "lv": "Morkov",
+    "lv": "Šargarepa",
     "level": "A1"
   },
   {
     "de": "Kartoffel",
     "de_article": "die",
     "de_plural": "die Kartoffeln",
-    "lv": "Компири",
+    "lv": "Krompir",
     "level": "A1"
   },
   {
@@ -8901,90 +11632,90 @@ const A1_WORDS = [
     "de": "Katze",
     "de_article": "die",
     "de_plural": "die Katzen",
-    "lv": "Mačka.",
+    "lv": "Mačka",
     "level": "A1"
   },
   {
     "de": "Kleid",
     "de_article": "das",
     "de_plural": "die Kleider",
-    "lv": "Рокля",
+    "lv": "Haljina",
     "level": "A1"
   },
   {
     "de": "Kleidung",
     "de_article": "die",
-    "lv": "Kos platna.",
+    "lv": "Odjeća",
     "level": "A1"
   },
   {
     "de": "Knoblauch",
     "de_article": "der",
     "de_plural": null,
-    "lv": "Чесън",
+    "lv": "Beli luk",
     "level": "A1"
   },
   {
     "de": "Koch",
     "de_article": "der",
     "de_plural": "die Köche",
-    "lv": "Подгответе се",
+    "lv": "Kuvati",
     "level": "A1"
   },
   {
     "de": "Köchin",
     "de_article": "die",
     "de_plural": "die Köchinnen",
-    "lv": "Подгответе се",
+    "lv": "Kuvati",
     "level": "A1"
   },
   {
     "de": "Kopf",
     "de_article": "der",
     "de_plural": "die Köpfe",
-    "lv": "-Glava.",
+    "lv": "Glava",
     "level": "A1"
   },
   {
     "de": "Kraftwagen",
     "de_article": "der",
     "de_plural": "die Kraftwagen",
-    "lv": "Автомобил",
+    "lv": "Auto",
     "level": "A1"
   },
   {
     "de": "Küche",
     "de_article": "die",
     "de_plural": "die Küchen",
-    "lv": "Кујна",
+    "lv": "Kuhinja",
     "level": "A1"
   },
   {
     "de": "Kuchen",
     "de_article": "der",
     "de_plural": "die Kuchen",
-    "lv": "Торта",
+    "lv": "Cake",
     "level": "A1"
   },
   {
     "de": "Kuh",
     "de_article": "die",
     "de_plural": "die Kühe",
-    "lv": "Крава",
+    "lv": "Krava",
     "level": "A1"
   },
   {
     "de": "Kühlschrank",
     "de_article": "der",
     "de_plural": "die Kühlschränke",
-    "lv": "Хладилник",
+    "lv": "Frižider",
     "level": "A1"
   },
   {
     "de": "Kuss",
     "de_article": "der",
     "de_plural": "die Küsse",
-    "lv": "Целувка",
+    "lv": "Poljubac",
     "level": "A1"
   },
   {
@@ -8998,42 +11729,45 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Shop",
       "explanation": [
-        "Основна идея: der Laden се пише с главна буква, членът der е съществително име - малък магазин.",
-        "Laden – глагол с малка буква – за зареждане или зареждане.",
-        "Der Laden често се отнася до малък магазин в ежедневието (im Laden einkaufen = пазаруване в магазин).",
-        "Множествено число: die Läden."
+        "Glavna ideja: der Laden se piše velikim slovom, a član der je imenica — mala radnja.",
+        "Natovaren je mali slovni glagol - tovariti ili puniti.",
+        "Der Laden se često odnosi na malu radnju u svakodnevnom životu (im Laden einkaufen = kupovati u radnji).",
+        "Množina: die Läden."
       ],
       "examples": [
         {
           "de": "Ich gehe in den Laden.",
-          "lv": "Отивам до магазина"
+          "lv": "Idem u radnju"
         },
         {
           "de": "Der Laden ist geschlossen.",
-          "lv": "Prodavnica je zatvorena."
+          "lv": "Radnja je zatvorena."
         },
         {
           "de": "Es gibt viele Läden hier.",
-          "lv": "Ovdje ima mnogo trgovina."
+          "lv": "Ovde ima mnogo prodavnica."
         },
         {
           "de": "Ich muss mein Handy laden.",
-          "lv": "Треба да го наполнам телефонот."
+          "lv": "Moram napuniti telefon."
         }
       ],
       "tip": [
-        "Der Laden s velikim slovom e sʺŝestvenitelʹno (magazin).",
-        "Мала буква натоварена - глагол (да се вчита/полни)."
+        "Velikim slovom der Laden - imenica (trgovina).",
+        "Mala slova laden - glagol (utovariti/napuniti)."
       ],
       "important": [
-        "Дер Ладен = продавница (имн.).",
-        "Učitano = učitavanje/učitavanje (glagol).",
-        "Множествено число: die Läden."
+        "Der Laden = prodavnica (imenica).",
+        "Natovaren = natovariti/napuniti (glagol).",
+        "Množina: die Läden."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "der Laden"
+          ],
+          "purple": [
+            "Glavna"
           ],
           "green": [
             "laden"
@@ -9046,7 +11780,11 @@ const A1_WORDS = [
                 "Laden"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Idem"
+              ]
+            }
           },
           {
             "de": {
@@ -9054,7 +11792,11 @@ const A1_WORDS = [
                 "Laden"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Radnja"
+              ]
+            }
           },
           {
             "de": {
@@ -9062,7 +11804,11 @@ const A1_WORDS = [
                 "Läden"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Ovde"
+              ]
+            }
           },
           {
             "de": {
@@ -9070,13 +11816,17 @@ const A1_WORDS = [
                 "laden"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Moram"
+              ]
+            }
           }
         ],
         "tip": [
           {
             "blue": [
-              "laden"
+              "der Laden"
             ]
           },
           {
@@ -9086,8 +11836,16 @@ const A1_WORDS = [
           }
         ],
         "important": [
-          {},
-          {},
+          {
+            "blue": [
+              "der Laden"
+            ]
+          },
+          {
+            "green": [
+              "Natovaren"
+            ]
+          },
           {
             "blue": [
               "die Läden"
@@ -9101,77 +11859,88 @@ const A1_WORDS = [
     "de": "Lampe",
     "de_article": "die",
     "de_plural": "die Lampen",
-    "lv": "Лампа",
+    "lv": "Lampa",
     "level": "A1"
   },
   {
     "de": "Land",
     "de_article": "das",
     "de_plural": "die Länder",
-    "lv": "Земја • Земја",
+    "lv": "Zemlja • Zemljište",
     "level": "A1",
     "study": {
       "id": "a1-land",
       "layout": "standardStudy",
-      "translation": "Земја • Земја",
+      "translation": "Zemlja • Zemljište",
       "explanation": [
-        "Glavna ideja: das Land večinoma pomeni zemljišče ali zemljišče zunaj mesta.",
-        "Če govorimo o Nemčiji, Latviji ali drugem ozemlju z mejami, potem to pomeni državo.",
-        "Kada se govori o provinciji ili zemlji, a ne gradu, prevedite to kao provincija ili zemlja.",
-        "Контекстот одредува дали мислиме на земја, провинција или земја."
+        "Glavna ideja: das Land najčešće znači zemlju ili zemlju izvan grada.",
+        "Ako se radi o Njemačkoj, Letoniji ili drugoj teritoriji sa granicama, to se prevodi kao država.",
+        "Kada se govori o selu ili zemlji za razliku od grada, prevedite kao selo ili zemlja.",
+        "Kontekst određuje da li mislimo na zemlju, selo ili zemlju."
       ],
       "examples": [
         {
           "de": "Deutschland ist ein schönes Land.",
-          "lv": "Германия е прекрасна страна."
+          "lv": "Njemačka je prelijepa zemlja."
         },
         {
           "de": "Ich komme aus einem kleinen Land.",
-          "lv": "Ja sam iz male zemlje."
+          "lv": "Dolazim iz male zemlje."
         },
         {
           "de": "Wir fahren aufs Land.",
-          "lv": "Одиме во селото."
+          "lv": "Idemo na selo."
         },
         {
           "de": "Auf dem Land ist es ruhig.",
-          "lv": "Селото е тихо."
+          "lv": "Mirno je na selu."
         }
       ],
       "comparison": [
         {
           "word": "das Land",
-          "meaning": "Държава/земя/селски район",
+          "meaning": "Zemlja / zemlja / selo",
           "example": "Deutschland ist ein Land."
         },
         {
           "word": "die Stadt",
-          "meaning": "Град",
+          "meaning": "Grad",
           "example": "Ich wohne in der Stadt."
         },
         {
           "word": "das Dorf",
-          "meaning": "Село",
+          "meaning": "Selo",
           "example": "Er lebt in einem Dorf."
         },
         {
           "word": "die Erde",
-          "meaning": "Земја/планета",
+          "meaning": "Zemlja / planeta",
           "example": "Die Erde ist rund."
         }
       ],
       "tip": {
-        "text": "Запомнете: земја → das Land • Град → die Stadt."
+        "text": "Zapamtite: zemlja → das Land • Grad → die Stadt."
       },
       "important": [
-        "Aufs Land означава „към провинцията“, а не „към селото“.",
-        "Das Land не е същото като die Stadt."
+        "Aufs Land znači \"na selo\", a ne \"na selo\".",
+        "Das Land nije isto što i die Stadt."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "das Land",
             "Land"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna",
+            "Glavna",
+            "Glavna"
+          ],
+          "green": [
+            "Glavna",
+            "Glavna",
+            "Glavna"
           ]
         },
         "examples": [
@@ -9184,7 +11953,14 @@ const A1_WORDS = [
                 "Deutschland"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Njemačka"
+              ],
+              "green": [
+                "Njemačka"
+              ]
+            }
           },
           {
             "de": {
@@ -9192,7 +11968,11 @@ const A1_WORDS = [
                 "Land"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Dolazim"
+              ]
+            }
           },
           {
             "de": {
@@ -9200,7 +11980,11 @@ const A1_WORDS = [
                 "Land"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Idemo"
+              ]
+            }
           },
           {
             "de": {
@@ -9208,13 +11992,27 @@ const A1_WORDS = [
                 "Land"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Mirno"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "das Land"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Zemlja",
+                "Zemlja",
+                "Zemlja"
+              ]
+            },
             "example": {
               "blue": [
                 "Land"
@@ -9222,8 +12020,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "die Stadt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Grad"
+              ]
+            },
             "example": {
               "yellow": [
                 "Stadt"
@@ -9231,8 +12037,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "das Dorf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Selo"
+              ]
+            },
             "example": {
               "green": [
                 "Dorf"
@@ -9240,8 +12054,17 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "die Erde"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Zemlja",
+                "planēta"
+              ]
+            },
             "example": {
               "red": [
                 "Erde"
@@ -9254,8 +12077,12 @@ const A1_WORDS = [
             "blue": [
               "das Land"
             ],
+            "purple": [
+              "Zapamtite"
+            ],
             "yellow": [
-              "die Stadt"
+              "die Stadt",
+              "Zapamtite"
             ]
           }
         },
@@ -9263,6 +12090,12 @@ const A1_WORDS = [
           {
             "blue": [
               "aufs Land"
+            ],
+            "purple": [
+              "Aufs"
+            ],
+            "red": [
+              "Aufs"
             ]
           },
           {
@@ -9279,57 +12112,61 @@ const A1_WORDS = [
   },
   {
     "de": "lang",
-    "lv": "Долг • Долг",
+    "lv": "Dugo • Dugo",
     "level": "A1",
     "study": {
       "id": "a1-lang",
       "layout": "standardStudy",
-      "translation": "Долг • Долг",
+      "translation": "Dugo • Dugo",
       "explanation": [
-        "Ключова идея: lang пространствено означава „дълъг“, „дълъг във времето“.",
-        "Когато говорим за размер или разстояние, lang = дълга (ein langer Tisch = дълга маса).",
-        "Когато става въпрос за продължителност на времето, lang = дълъг (ein langer Tag = дълъг ден).",
-        "Във фразата den ganzen Tag lang означава цял ден (по дължина).",
-        "Латвийските \"garsh\" и \"ilgs\" са две различни думи, но немският покрива и двете значения."
+        "Glavna ideja: lang prostorno znači dugo, vremenski dugo.",
+        "Kada je u pitanju veličina ili udaljenost, lang = dugačak (ein langer Tisch = dugačak stol).",
+        "Kada je u pitanju dužina vremena, lang = dug (ein langer Tag = dug dan).",
+        "U frazi den ganzen Tag lang to znači cijeli dan (po dužini).",
+        "Letonski 'garš' i 'ilgs' su dvije različite riječi, ali njemački jezik pokriva oba značenja."
       ],
       "examples": [
         {
           "de": "Der Tisch ist sehr lang.",
-          "lv": "Miza je zelo dolga."
+          "lv": "Sto je veoma dugačak."
         },
         {
           "de": "Der Film war sehr lang.",
-          "lv": "Филмът беше много дълъг."
+          "lv": "Film je bio veoma dug."
         },
         {
           "de": "Wie lange dauert es?",
-          "lv": "Koliko dugo treba"
+          "lv": "Koliko traje"
         },
         {
           "de": "Sie hat lange Haare.",
-          "lv": "Ima dolge lase."
+          "lv": "Ima dugu kosu."
         },
         {
           "de": "Ich warte schon lange.",
-          "lv": "Dolgo sem čakal."
+          "lv": "Dugo sam čekao."
         },
         {
           "de": "Den ganzen Tag lang.",
-          "lv": "Ves dan (trajanje)."
+          "lv": "Cijeli dan (u dužini)."
         }
       ],
       "tip": [
-        "По размер или разстояние (коса, път, маса) → дълъг.",
-        "За времето (ден, чекање, филм) → долго."
+        "Za veličinu ili udaljenost (kosa, put, stol) → dugo.",
+        "O vremenu (dan, čekanje, film) → dugo."
       ],
       "important": [
-        "Lang = дълго (размер) ИЛИ дълго (време) - в зависимост от контекста.",
-        "Wie lange = колко дълго (въпрос на време, не на размер)."
+        "Lang = dugo (veličina) ILI dugo (vrijeme) - ovisno o kontekstu.",
+        "Wie lange = koliko dugo (pitanje vremena, a ne veličine)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "lang"
+          ],
+          "purple": [
+            "garš",
+            "ilgs"
           ]
         },
         "examples": [
@@ -9339,7 +12176,11 @@ const A1_WORDS = [
                 "lang"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Sto"
+              ]
+            }
           },
           {
             "de": {
@@ -9347,7 +12188,11 @@ const A1_WORDS = [
                 "lang"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Film"
+              ]
+            }
           },
           {
             "de": {
@@ -9355,7 +12200,11 @@ const A1_WORDS = [
                 "lange"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Koliko"
+              ]
+            }
           },
           {
             "de": {
@@ -9363,7 +12212,11 @@ const A1_WORDS = [
                 "lange"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Ima"
+              ]
+            }
           },
           {
             "de": {
@@ -9371,7 +12224,11 @@ const A1_WORDS = [
                 "lange"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Dugo"
+              ]
+            }
           },
           {
             "de": {
@@ -9379,15 +12236,32 @@ const A1_WORDS = [
                 "lang"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Cijeli"
+              ]
+            }
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "veličinu"
+            ]
+          },
+          {
+            "green": [
+              "veličinu"
+            ]
+          }
         ],
         "important": [
-          {},
+          {
+            "purple": [
+              "Lang",
+              "Lang"
+            ]
+          },
           {
             "green": [
               "wie lange"
@@ -9399,37 +12273,37 @@ const A1_WORDS = [
   },
   {
     "de": "lange",
-    "lv": "За дълго време",
+    "lv": "Dugo vremena",
     "level": "A1"
   },
   {
     "de": "langsam",
-    "lv": "Бавно",
+    "lv": "Sporo",
     "level": "A1"
   },
   {
     "de": "langweilig",
-    "lv": "Скучно",
+    "lv": "Dosadno",
     "level": "A1"
   },
   {
     "de": "lassen",
-    "lv": "Оставете • Нека",
+    "lv": "Ostaviti • Neka",
     "level": "A1",
     "study": {
       "id": "a1-lassen",
       "layout": "standardStudy",
-      "translation": "Оставете • Нека",
+      "translation": "Ostaviti • Neka",
       "explanation": [
-        "Glavna ideja: Lasen znači dopustiti da se nešto dogodi ili dopustiti da se nešto dogodi.",
-        "Ако нещо остане на мястото си, lassen се превежда като „да пуснеш“.",
-        "Ако дадете разрешение на някого, lassen се превежда като „разрешаване“.",
-        "Многу честа форма во разговорот е Lass mic! = Остави ме на мира! или Дозволете!"
+        "Glavna ideja: lassen znači ostaviti nešto ili pustiti da se nešto dogodi.",
+        "Ako nešto ostane na mjestu, lassen se prevodi kao odsustvo.",
+        "Ako nekome date dozvolu, lassen se prevodi kao neka.",
+        "Vrlo čest oblik u razgovoru je Lass mich! = Ostavi me na miru! ili Pusti me!"
       ],
       "examples": [
         {
           "de": "Ich lasse die Tasche hier.",
-          "lv": "Оставих чантата си тук"
+          "lv": "Ostavio sam torbu ovde"
         },
         {
           "de": "Lass das bitte auf dem Tisch.",
@@ -9437,47 +12311,56 @@ const A1_WORDS = [
         },
         {
           "de": "Meine Eltern lassen mich gehen.",
-          "lv": "Родителите ми ме пуснаха."
+          "lv": "Roditelji su me pustili."
         },
         {
           "de": "Lass mich in Ruhe!",
-          "lv": "Остави ме на мира!"
+          "lv": "Ostavi me na miru!"
         }
       ],
       "comparison": [
         {
           "word": "lassen",
-          "meaning": "Оставете / разрешите",
+          "meaning": "Ostavi / pusti",
           "example": "Ich lasse das hier."
         },
         {
           "word": "bleiben",
-          "meaning": "Остани",
+          "meaning": "Ostani",
           "example": "Ich bleibe hier."
         },
         {
           "word": "erlauben",
-          "meaning": "Pusti to",
+          "meaning": "Dozvoliti",
           "example": "Sie erlaubt mir das."
         },
         {
           "word": "geben",
-          "meaning": "Дайте",
+          "meaning": "Dati",
           "example": "Gib mir das Buch."
         }
       ],
       "tip": {
-        "text": "Zapomnite: časte me → lasen • Na nikun mi je nastavak → lasen."
+        "text": "Zapamtite: nešto ostaje → lassen • Nekome je dozvoljeno → lassen."
       },
       "important": [
-        "Lassen не е само за „бягване“. Също така често означава „да се позволи“.",
-        "Моето момиче е в Рю! Има много често срещана фраза: „Оставете ме на мира!“"
+        "Lassen nije samo 'otići'. Takođe često znači 'pustiti'.",
+        "Lass mich u Ruhe! postoji vrlo uobičajena fraza: \"Ostavi me na miru!\""
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "lassen",
-            "Lass mic"
+            "Lass mich"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna",
+            "Glavna"
+          ],
+          "green": [
+            "Glavna",
+            "Glavna"
           ]
         },
         "examples": [
@@ -9487,7 +12370,14 @@ const A1_WORDS = [
                 "lasse"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Ostavio"
+              ],
+              "yellow": [
+                "Ostavio"
+              ]
+            }
           },
           {
             "de": {
@@ -9495,7 +12385,11 @@ const A1_WORDS = [
                 "Lass"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Ostavite"
+              ]
+            }
           },
           {
             "de": {
@@ -9503,7 +12397,11 @@ const A1_WORDS = [
                 "lassen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Roditelji"
+              ]
+            }
           },
           {
             "de": {
@@ -9511,13 +12409,26 @@ const A1_WORDS = [
                 "Lass mich"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Ostavi"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "lassen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Ostavi",
+                "Ostavi"
+              ]
+            },
             "example": {
               "blue": [
                 "lasse"
@@ -9525,8 +12436,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "bleiben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Ostani"
+              ]
+            },
             "example": {
               "green": [
                 "bleibe"
@@ -9534,8 +12453,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "erlauben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Dozvoliti"
+              ]
+            },
             "example": {
               "yellow": [
                 "erlaubt"
@@ -9543,8 +12470,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "geben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Dati"
+              ]
+            },
             "example": {
               "red": [
                 "Gib"
@@ -9555,7 +12490,11 @@ const A1_WORDS = [
         "tip": {
           "left": {
             "blue": [
-              "Zapomnite"
+              "lassen"
+            ],
+            "purple": [
+              "Zapamtite",
+              "Zapamtite"
             ]
           }
         },
@@ -9563,78 +12502,101 @@ const A1_WORDS = [
           {
             "blue": [
               "lassen"
+            ],
+            "purple": [
+              "Lassen",
+              "Lassen"
             ]
           },
-          {}
+          {
+            "blue": [
+              "Lass"
+            ],
+            "purple": [
+              "Lass"
+            ]
+          }
         ]
       }
     }
   },
   {
     "de": "laufen",
-    "lv": "Run • Work",
+    "lv": "Pokrenuti • Raditi",
     "level": "A1",
     "study": {
       "id": "a1-laufen",
       "layout": "standardStudy",
-      "translation": "Run • Work",
+      "translation": "Pokrenuti • Raditi",
       "explanation": [
-        "Ključna ideja: laufen pomeni \"teči\", v primeru naprav pa lahko pomeni \"teči\".",
-        "За човек или животно лауфен често означава бягане или ходене с бързо темпо.",
-        "За филм, машина или програма laufen означава, че се изпълнява или се случва.",
-        "По отношение на движението на краката на ниво А1 най-често се сравняват Gehen и Laufen."
+        "Glavna ideja: laufen znači trčati, ali sa uređajima može značiti trčati.",
+        "Za osobu ili životinju, laufen često znači trčanje ili hodanje brzim tempom.",
+        "Za film, mašinu ili program, laufen znači da je pokrenut ili da se dešava.",
+        "Za kretanje nogu na nivou A1 najčešće se porede gehen i laufen."
       ],
       "examples": [
         {
           "de": "Er läuft sehr schnell.",
-          "lv": "Той бяга много бързо."
+          "lv": "On trči veoma brzo."
         },
         {
           "de": "Die Kinder laufen im Park.",
-          "lv": "Деца тичат в парка."
+          "lv": "Djeca trče u parku."
         },
         {
           "de": "Der Film läuft schon.",
-          "lv": "Филмът вече е пуснат."
+          "lv": "Film je već u toku."
         },
         {
           "de": "Die Maschine läuft gut.",
-          "lv": "Машината работи добре."
+          "lv": "Mašina radi dobro."
         }
       ],
       "comparison": [
         {
           "word": "laufen",
-          "meaning": "Бягай/работи",
+          "meaning": "Pokrenuti / raditi",
           "example": "Er läuft schnell."
         },
         {
           "word": "gehen",
-          "meaning": "Прошетка",
+          "meaning": "Idi peške",
           "example": "Ich gehe nach Hause."
         },
         {
           "word": "fahren",
-          "meaning": "Vožnja sa prevozom",
+          "meaning": "Voziti se transportom",
           "example": "Ich fahre mit dem Bus."
         },
         {
           "word": "funktionieren",
-          "meaning": "Действайте",
+          "meaning": "Operirati",
           "example": "Das funktioniert gut."
         }
       ],
       "tip": {
-        "text": "Запомнете: бързи крака → laufen • Транспорт → Фарен."
+        "text": "Zapamtite: stopala brzo → laufen • Transport → Fahren."
       },
       "important": [
-        "Laufen ni samo \"tek\". Za film ali napravo lahko pomeni \"pojdi\" ali \"ukrepaj\".",
-        "Ič lafe znači putovati pješice, a ne automobilom."
+        "Laufen nije samo 'trčanje'. Za film ili uređaj, to može značiti \"idi\" ili \"glumi\".",
+        "Ich laufe znači kretanje pješice, a ne vožnju."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "laufen"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna",
+            "Glavna"
+          ],
+          "green": [
+            "Glavna",
+            "Glavna",
+            "film",
+            "mašīnu",
+            "program"
           ]
         },
         "examples": [
@@ -9644,7 +12606,11 @@ const A1_WORDS = [
                 "läuft"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "trči"
+              ]
+            }
           },
           {
             "de": {
@@ -9652,7 +12618,11 @@ const A1_WORDS = [
                 "laufen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Djeca"
+              ]
+            }
           },
           {
             "de": {
@@ -9660,7 +12630,11 @@ const A1_WORDS = [
                 "läuft"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Film"
+              ]
+            }
           },
           {
             "de": {
@@ -9668,13 +12642,26 @@ const A1_WORDS = [
                 "läuft"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Mašina"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "laufen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Pokrenuti",
+                "Pokrenuti"
+              ]
+            },
             "example": {
               "blue": [
                 "läuft"
@@ -9682,8 +12669,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "gehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Idi"
+              ]
+            },
             "example": {
               "yellow": [
                 "gehe"
@@ -9691,8 +12686,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "fahren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Voziti"
+              ]
+            },
             "example": {
               "red": [
                 "fahre"
@@ -9700,8 +12703,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "funktionieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Operirati"
+              ]
+            },
             "example": {
               "green": [
                 "funktioniert"
@@ -9710,17 +12721,39 @@ const A1_WORDS = [
           }
         ],
         "tip": {
-          "left": {}
+          "left": {
+            "blue": [
+              "laufen"
+            ],
+            "purple": [
+              "Zapamtite"
+            ],
+            "red": [
+              "fahren",
+              "Transport"
+            ]
+          }
         },
         "important": [
           {
             "blue": [
+              "laufen"
+            ],
+            "purple": [
+              "Laufen",
+              "Laufen",
               "Laufen"
             ]
           },
           {
             "blue": [
-              "lafe"
+              "Ich laufe"
+            ],
+            "purple": [
+              "Ich"
+            ],
+            "red": [
+              "Ich"
             ]
           }
         ]
@@ -9729,116 +12762,153 @@ const A1_WORDS = [
   },
   {
     "de": "laut",
-    "lv": "Lepo!",
+    "lv": "Glasno",
     "level": "A1",
     "study": {
       "id": "a1-laut",
       "layout": "standardStudy",
-      "translation": "Lepo!",
+      "translation": "Glasno",
       "explanation": [
-        "Glavna ideja: Pridavka so mala bukva. Opisuje glasnoću - koliko je glasan zvuk ili govor.",
-        "Laut основно означава: силен звук.",
-        "Често опишува: придавка.",
-        "Laut vo osna znači: zvučni signal.",
-        "Често опишува: именка (der).",
-        "Laut с малка буква е прилагателно, описващо силата на звука (Die Musik ist laut = музиката е силна).",
-        "Der Laut с главна буква и член der - съществително - означава звук като нещо или сигнал (Der Laut ist schön = красив звук).",
+        "Glavna ideja: Pridjev u malom slovu. Opisuje glasnoću - koliko je glasan zvuk ili govor.",
+        "Laut uglavnom znači: glasan zvuk.",
+        "Često opisuje: pridjev.",
+        "Laut u osnovi znači: zvučni signal.",
+        "Često opisuje: imenicu (der).",
+        "Malo slovo laut je pridjev - opisuje koliko je glasan zvuk (Die Musik ist laut = muzika je glasna).",
+        "Der Laut sa velikim slovom i člankom der je imenica - znači zvuk kao stvar ili signal (Der Laut ist schön = zvuk je lijep).",
         "Množina: die Laute."
       ],
       "examples": [
         {
           "de": "Die Musik ist laut.",
-          "lv": "Glasba je glasna."
+          "lv": "Muzika je glasna."
         },
         {
           "de": "Die Musik ist laut.",
-          "lv": "Glasba je glasna."
+          "lv": "Muzika je glasna."
         },
         {
           "de": "Sprich nicht so laut!",
-          "lv": "Не говори толкова високо!"
+          "lv": "Ne govori tako glasno!"
         },
         {
           "de": "Das ist sehr laut.",
-          "lv": "Много е шумно."
+          "lv": "Veoma je glasan."
         },
         {
           "de": "Der Laut ist schön.",
-          "lv": "Звукот е прекрасен."
+          "lv": "Zvuk je predivan."
         },
         {
           "de": "Ich höre einen Laut.",
-          "lv": "Чувам звук"
+          "lv": "Čujem zvuk"
         }
       ],
       "tip": [
-        "Mali laut = jak (pridjev: prvi laut). der Laut s glavno slovo = zvuk (sʺŝestveni: ein Laut, der Laut).",
-        "Laut = звук"
+        "Mali laut = glasan (pridjev: ist laut). der Laut veliko slovo = zvuk (imenica: ein Laut, der Laut).",
+        "Laut = zvuk"
       ],
       "important": [
-        "Laut се пише с малки букви и няма член - това е прилагателно.",
-        "Der Laut с главна буква и член der е съществително име.",
-        "Множествено число: die Laute (звуци на езика, звукови сигнали).",
-        "Неправилно: Der Laut ist sehr. → Правилно: Das ist sehr laut."
+        "Laut je malo slovo i nema član - to je pridjev.",
+        "Der Laut s velikim slovom, a član der je imenica.",
+        "Množina: die Laute (jezički zvuci, bipovi).",
+        "Netačno: Der Laut ist sehr. → Točno: Das ist sehr laut."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "laut"
+          ],
+          "purple": [
+            "Glavna"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
+                "laut",
                 "laut"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Muzika"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
+                "laut",
                 "laut"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Muzika"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
+                "laut",
                 "laut"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "govori"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
+                "laut",
                 "laut"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Veoma"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
+                "laut",
                 "laut"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Zvuk"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
+                "laut",
                 "laut"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Čujem"
+              ]
+            }
           }
         ],
         "tip": [
-          {}
+          {
+            "purple": [
+              "Mali"
+            ]
+          }
         ],
         "important": [
           {
@@ -9854,63 +12924,67 @@ const A1_WORDS = [
     "de": "Laut",
     "de_article": "der",
     "de_plural": "die Laute",
-    "lv": "Звук",
+    "lv": "Zvuk",
     "level": "A1",
     "study": {
       "id": "a1-laut-study",
       "layout": "standardStudy",
-      "translation": "Звук",
+      "translation": "Zvuk",
       "explanation": [
-        "Основна идея: Съществително с член е подходящо и с главна буква. Означава звук като нещо, сигнал или звук на езика.",
-        "Der Laut v bistvu pomeni: glasen zvok.",
-        "Често опишува: придавка.",
-        "Der Laut основно означава: звуков сигнал.",
-        "Често опишува: именка (der).",
-        "Laut с малка буква е прилагателно, описващо силата на звука (Die Musik ist laut = музиката е силна).",
-        "Der Laut с главна буква и член der - съществително - означава звук като нещо или сигнал (Der Laut ist schön = красив звук).",
+        "Glavna ideja: Imenica s člankom odgovara i piše se velikim slovom. Znači zvuk kao stvar, signal ili zvuk jezika.",
+        "Der Laut prvenstveno znači: glasan zvuk.",
+        "Često opisuje: pridjev.",
+        "Der Laut prvenstveno znači: zvučni signal.",
+        "Često opisuje: imenicu (der).",
+        "Malo slovo laut je pridjev - opisuje koliko je glasan zvuk (Die Musik ist laut = muzika je glasna).",
+        "Der Laut sa velikim slovom i člankom der je imenica - znači zvuk kao stvar ili signal (Der Laut ist schön = zvuk je lijep).",
         "Množina: die Laute."
       ],
       "examples": [
         {
           "de": "Der Laut ist schön.",
-          "lv": "Звукот е прекрасен."
+          "lv": "Zvuk je predivan."
         },
         {
           "de": "Die Musik ist laut.",
-          "lv": "Glasba je glasna."
+          "lv": "Muzika je glasna."
         },
         {
           "de": "Sprich nicht so laut!",
-          "lv": "Не говори толкова високо!"
+          "lv": "Ne govori tako glasno!"
         },
         {
           "de": "Das ist sehr laut.",
-          "lv": "Много е шумно."
+          "lv": "Veoma je glasan."
         },
         {
           "de": "Der Laut ist schön.",
-          "lv": "Звукот е прекрасен."
+          "lv": "Zvuk je predivan."
         },
         {
           "de": "Ich höre einen Laut.",
-          "lv": "Чувам звук"
+          "lv": "Čujem zvuk"
         }
       ],
       "tip": [
-        "Mali laut = jak (pridjev: prvi laut). der Laut s glavno slovo = zvuk (sʺŝestveni: ein Laut, der Laut).",
-        "Der Laut = zvok"
+        "Mali laut = glasan (pridjev: ist laut). der Laut veliko slovo = zvuk (imenica: ein Laut, der Laut).",
+        "Der Laut = zvuk"
       ],
       "important": [
-        "Laut се пише с малки букви и няма член - това е прилагателно.",
-        "Der Laut с главна буква и член der е съществително име.",
-        "Множествено число: die Laute (звуци на езика, звукови сигнали).",
-        "Неправилно: Der Laut ist sehr. → Правилно: Das ist sehr laut."
+        "Laut je malo slovo i nema član - to je pridjev.",
+        "Der Laut s velikim slovom, a član der je imenica.",
+        "Množina: die Laute (jezički zvuci, bipovi).",
+        "Netačno: Der Laut ist sehr. → Točno: Das ist sehr laut."
       ],
       "sectionAccents": {
         "explanation": {
           "green": [
             "der Laut",
             "laut"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna"
           ],
           "yellow": [
             "Laut",
@@ -9925,7 +12999,11 @@ const A1_WORDS = [
                 "laut"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Zvuk"
+              ]
+            }
           },
           {
             "de": {
@@ -9933,7 +13011,11 @@ const A1_WORDS = [
                 "laut"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Muzika"
+              ]
+            }
           },
           {
             "de": {
@@ -9941,7 +13023,11 @@ const A1_WORDS = [
                 "laut"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "govori"
+              ]
+            }
           },
           {
             "de": {
@@ -9949,7 +13035,11 @@ const A1_WORDS = [
                 "laut"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Veoma"
+              ]
+            }
           },
           {
             "de": {
@@ -9958,7 +13048,11 @@ const A1_WORDS = [
                 "laut"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Zvuk"
+              ]
+            }
           },
           {
             "de": {
@@ -9966,11 +13060,19 @@ const A1_WORDS = [
                 "laut"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Čujem"
+              ]
+            }
           }
         ],
         "tip": [
-          {}
+          {
+            "purple": [
+              "Mali"
+            ]
+          }
         ],
         "important": [
           {}
@@ -9980,85 +13082,96 @@ const A1_WORDS = [
   },
   {
     "de": "leben",
-    "lv": "Osebno tu.",
+    "lv": "Živjeti",
     "level": "A1"
   },
   {
     "de": "lecker",
-    "lv": "- Šta je sa tartufima?",
+    "lv": "Ukusno",
     "level": "A1"
   },
   {
     "de": "leer",
-    "lv": "Празен",
+    "lv": "Prazan",
     "level": "A1"
   },
   {
     "de": "legen",
-    "lv": "Поставете",
+    "lv": "Spusti",
     "level": "A1",
     "study": {
       "id": "a1-legen",
       "layout": "standardStudy",
-      "translation": "Поставете",
+      "translation": "Spusti",
       "explanation": [
-        "Основна идея: legen означава да поставиш нещо надолу или хоризонтално.",
-        "Леген се користи кога самите поместувате предмет и го ставате на маса, кревет или друга површина.",
-        "Razlikuje se od \"liegen\", što znači da nešto već laže ili laže.",
-        "На ниво A1 най-важната разлика е: legen = легни, liegen = легни."
+        "Glavna ideja: legen znači položiti nešto dolje ili vodoravno.",
+        "Legen se koristi kada sami premjestite stvar i stavite je na sto, krevet ili drugu površinu.",
+        "Razlikuje se od liegen, što znači da nešto već laže ili laže.",
+        "Na nivou A1, najvažnija razlika je: legen = ležati, liegen = ležati."
       ],
       "examples": [
         {
           "de": "Ich lege das Buch auf den Tisch.",
-          "lv": "Ја ставив книгата на масата."
+          "lv": "Stavio sam knjigu na sto."
         },
         {
           "de": "Leg den Schlüssel hierhin.",
-          "lv": "Поставете ключа тук."
+          "lv": "Stavi ključ ovde."
         },
         {
           "de": "Sie legt das Kind ins Bett.",
-          "lv": "Тя слага детето в леглото."
+          "lv": "Ona stavlja bebu u krevet."
         },
         {
           "de": "Das Buch liegt auf dem Tisch.",
-          "lv": "Книгата е на маса."
+          "lv": "Knjiga je na stolu."
         }
       ],
       "comparison": [
         {
           "word": "legen",
-          "meaning": "Поставете",
+          "meaning": "Spusti",
           "example": "Ich lege das Buch auf den Tisch."
         },
         {
           "word": "liegen",
-          "meaning": "Бъди/спи",
+          "meaning": "Biti / spavati",
           "example": "Das Buch liegt auf dem Tisch."
         },
         {
           "word": "stellen",
-          "meaning": "Поставете вертикално",
+          "meaning": "Uspravno",
           "example": "Ich stelle die Flasche auf den Tisch."
         },
         {
           "word": "setzen",
-          "meaning": "On je sjeo/sjeo",
+          "meaning": "Sjediti / sjediti",
           "example": "Ich setze mich."
         }
       ],
       "tip": {
-        "text": "Запомнете: вие лежите → legen • Нещото вече е там → Ligen."
+        "text": "Zapamtite: legnete → legen • Stvar je već tu → liegen."
       },
       "important": [
-        "Леген и лиген не са едно и също нещо.",
-        "Ich lege das Buch = оставих книгата. Das Buchliegt = книгата лъже."
+        "Legen i liegen nisu ista stvar.",
+        "Ich lege das Buch = Spustio sam knjigu. Das Buch liegt = knjiga laži."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "legen",
             "liegen"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna",
+            "Glavna"
+          ],
+          "yellow": [
+            "Glavna",
+            "Glavna",
+            "Glavna",
+            "Glavna"
           ]
         },
         "examples": [
@@ -10072,7 +13185,15 @@ const A1_WORDS = [
                 "Tisch"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Stavio"
+              ],
+              "yellow": [
+                "Stavio",
+                "Stavio"
+              ]
+            }
           },
           {
             "de": {
@@ -10083,7 +13204,14 @@ const A1_WORDS = [
                 "Schlüssel"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Stavi"
+              ],
+              "yellow": [
+                "Stavi"
+              ]
+            }
           },
           {
             "de": {
@@ -10097,7 +13225,17 @@ const A1_WORDS = [
                 "Bett"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Ona"
+              ],
+              "green": [
+                "Ona"
+              ],
+              "yellow": [
+                "Ona"
+              ]
+            }
           },
           {
             "de": {
@@ -10109,13 +13247,29 @@ const A1_WORDS = [
                 "Tisch"
               ]
             },
-            "lv": {}
+            "lv": {
+              "red": [
+                "Knjiga"
+              ],
+              "yellow": [
+                "Knjiga",
+                "Knjiga"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "legen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Spusti"
+              ]
+            },
             "example": {
               "blue": [
                 "lege"
@@ -10123,8 +13277,17 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "liegen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Biti",
+                "Biti"
+              ]
+            },
             "example": {
               "red": [
                 "liegt"
@@ -10132,8 +13295,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "stellen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Uspravno"
+              ]
+            },
             "example": {
               "yellow": [
                 "stelle"
@@ -10141,8 +13312,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "setzen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Sjediti"
+              ]
+            },
             "example": {
               "green": [
                 "setze"
@@ -10153,21 +13332,36 @@ const A1_WORDS = [
         "tip": {
           "left": {
             "blue": [
-              "Ligen"
+              "legen"
+            ],
+            "purple": [
+              "Zapamtite"
             ],
             "red": [
-              "Ligen"
+              "liegen",
+              "Zapamtite"
             ]
           }
         },
         "important": [
-          {},
+          {
+            "blue": [
+              "legen"
+            ],
+            "red": [
+              "liegen"
+            ]
+          },
           {
             "blue": [
               "lege"
             ],
+            "purple": [
+              "Ich"
+            ],
             "red": [
-              "liegt"
+              "liegt",
+              "Ich"
             ]
           }
         ]
@@ -10178,24 +13372,24 @@ const A1_WORDS = [
     "de": "Lehrer",
     "de_article": "der",
     "de_plural": "die Lehrer",
-    "lv": "Учител",
+    "lv": "Nastavnik",
     "level": "A1"
   },
   {
     "de": "Lehrerin",
     "de_article": "die",
     "de_plural": "die Lehrerinnen",
-    "lv": "Учител",
+    "lv": "Nastavnik",
     "level": "A1"
   },
   {
     "de": "leicht",
-    "lv": "Лесно",
+    "lv": "Lako",
     "level": "A1"
   },
   {
     "de": "leider",
-    "lv": "За съжаление",
+    "lv": "Nažalost",
     "level": "A1"
   },
   {
@@ -10207,80 +13401,110 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Tiho",
       "explanation": [
-        "Ključna ideja: tih ili tih zvuk.",
-        "Leise основно означава: нисък обем.",
-        "Често описва: звук/глас/музика.",
-        "Leise описва тих или тих глас/звук."
+        "Glavna ideja: Tiha ili mala glasnoća.",
+        "Leise u osnovi znači: mala jačina zvuka.",
+        "Često opisuje: zvuk/glas/muziku.",
+        "Leise opisuje tihi ili tihi glas/zvuk."
       ],
       "examples": [
         {
           "de": "Bitte sei leise.",
-          "lv": "Ве молам замолчете."
+          "lv": "Molim vas budite tihi."
         },
         {
           "de": "Bitte sei leise.",
-          "lv": "Prosimo, utihnite"
+          "lv": "Molim te budi tih"
         },
         {
           "de": "Die Musik ist leise.",
-          "lv": "Музиката е тиха."
+          "lv": "Muzika je tiha."
         },
         {
           "de": "Sprich bitte leise.",
-          "lv": "Те молам зборувај тивко."
+          "lv": "Molim te govori tiho."
         }
       ],
       "tip": [
-        "Leise = тихо",
-        "Koristite slobodno vrijeme kada kontekst odgovara ovom značenju."
+        "Leise = tiho",
+        "Koristite leise kada kontekst odgovara ovom značenju."
       ],
       "important": [
-        "Leise = тих звук.",
-        "Leise = обем.",
-        "Tivko ili slab zvuk."
+        "Leise = tih u zvuku.",
+        "Leise = volumen.",
+        "Tiha ili mala jačina zvuka."
       ],
       "sectionAccents": {
         "explanation": {
           "green": [
             "leise"
+          ],
+          "purple": [
+            "Glavna"
+          ],
+          "orange": [
+            "Glavna"
           ]
         },
         "examples": [
           {
             "de": {
               "green": [
+                "leise",
                 "leise"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Molim"
+              ]
+            }
           },
           {
             "de": {
               "green": [
+                "leise",
                 "leise"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Molim"
+              ]
+            }
           },
           {
             "de": {
               "green": [
+                "leise",
                 "leise"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Muzika"
+              ]
+            }
           },
           {
             "de": {
               "green": [
+                "leise",
                 "leise"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Molim"
+              ]
+            }
           }
         ],
         "tip": [
-          {}
+          {
+            "purple": [
+              "Leise"
+            ]
+          }
         ],
         "important": [
           {
@@ -10294,116 +13518,124 @@ const A1_WORDS = [
   },
   {
     "de": "lesen",
-    "lv": "Прочетете",
+    "lv": "Čitati",
     "level": "A1"
   },
   {
     "de": "letzte",
-    "lv": "Последно",
+    "lv": "Poslednji",
     "level": "A1"
   },
   {
     "de": "Leute",
     "de_article": "die",
-    "lv": "Ljudje",
+    "lv": "Ljudi",
     "level": "A1"
   },
   {
     "de": "Licht",
     "de_article": "das",
     "de_plural": "die Lichter",
-    "lv": "Hitro!",
+    "lv": "Svjetlo",
     "level": "A1"
   },
   {
     "de": "lieb",
-    "lv": "Почитувани",
+    "lv": "Dragi",
     "level": "A1"
   },
   {
     "de": "Liebe",
     "de_article": "die",
-    "lv": "Любов",
+    "lv": "Ljubav",
     "level": "A1"
   },
   {
     "de": "lieben",
-    "lv": "Любов",
+    "lv": "Voljeti",
     "level": "A1"
   },
   {
     "de": "Lied",
     "de_article": "das",
     "de_plural": "die Lieder",
-    "lv": "Песен",
+    "lv": "Pjesma",
     "level": "A1"
   },
   {
     "de": "liegen",
-    "lv": "Бъдете • Спете",
+    "lv": "Biti • Spavati",
     "level": "A1",
     "study": {
       "id": "a1-liegen",
       "layout": "standardStudy",
-      "translation": "Бъдете • Спете",
+      "translation": "Biti • Spavati",
       "explanation": [
-        "Основна идея: Liegen означава да легнете или да лежите хоризонтално.",
-        "За човек, лежењето често значи спиење.",
-        "Za neke, \"lige\" znači da je negdje.",
-        "Тя е различна от думата legen, която означава „да оставиш нещо“."
+        "Glavna ideja: Liegen znači ležati ili ležati horizontalno.",
+        "Za osobu laganje često znači spavanje.",
+        "Jer stvar liegen znači da je negdje.",
+        "Razlikuje se od legen, što znači staviti nešto."
       ],
       "examples": [
         {
           "de": "Das Buch liegt auf dem Tisch.",
-          "lv": "Книгата е на маса."
+          "lv": "Knjiga je na stolu."
         },
         {
           "de": "Mein Handy liegt im Auto.",
-          "lv": "Телефонът ми е в колата."
+          "lv": "Moj telefon je u autu."
         },
         {
           "de": "Er liegt im Bett.",
-          "lv": "Той спи в леглото."
+          "lv": "On spava u krevetu."
         },
         {
           "de": "Ich lege das Buch auf den Tisch.",
-          "lv": "Ја ставив книгата на масата."
+          "lv": "Stavio sam knjigu na sto."
         }
       ],
       "comparison": [
         {
           "word": "liegen",
-          "meaning": "Бъди/спи",
+          "meaning": "Biti / spavati",
           "example": "Das Buch liegt hier."
         },
         {
           "word": "legen",
-          "meaning": "Поставете",
+          "meaning": "Spusti",
           "example": "Ich lege das Buch hierhin."
         },
         {
           "word": "stehen",
-          "meaning": "Застанете / застанете",
+          "meaning": "Stajati / biti stajati",
           "example": "Die Flasche steht auf dem Tisch."
         },
         {
           "word": "sein",
-          "meaning": "Бъди",
+          "meaning": "Biti",
           "example": "Ich bin hier."
         }
       ],
       "tip": {
-        "text": "Запомнете: нештото е веќе таму →liegen • Го ставивте → liegen."
+        "text": "Zapamtite: stvar je već na svom mjestu → liegen • Spustiš ga → legen."
       },
       "important": [
-        "Liegen показва състояние или местоположение.",
-        "Legenda kaže dejanje: nekdo nekaj pusti za seboj."
+        "Liegen pokazuje stanje ili lokaciju.",
+        "Legen pokazuje radnju: neko nešto spusti."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "liegen",
             "legen"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna",
+            "Glavna"
+          ],
+          "yellow": [
+            "Glavna"
           ]
         },
         "examples": [
@@ -10417,7 +13649,15 @@ const A1_WORDS = [
                 "Tisch"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Knjiga"
+              ],
+              "yellow": [
+                "Knjiga",
+                "Knjiga"
+              ]
+            }
           },
           {
             "de": {
@@ -10429,7 +13669,15 @@ const A1_WORDS = [
                 "Auto"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Moj"
+              ],
+              "yellow": [
+                "telefon",
+                "Moj"
+              ]
+            }
           },
           {
             "de": {
@@ -10440,7 +13688,14 @@ const A1_WORDS = [
                 "Bett"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "spava"
+              ],
+              "green": [
+                "spava"
+              ]
+            }
           },
           {
             "de": {
@@ -10452,13 +13707,30 @@ const A1_WORDS = [
                 "Tisch"
               ]
             },
-            "lv": {}
+            "lv": {
+              "red": [
+                "Stavio"
+              ],
+              "yellow": [
+                "Stavio",
+                "Stavio"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "liegen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Biti",
+                "Biti"
+              ]
+            },
             "example": {
               "blue": [
                 "liegt"
@@ -10466,8 +13738,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "legen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Spusti"
+              ]
+            },
             "example": {
               "red": [
                 "lege"
@@ -10475,8 +13755,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "stehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Stajati"
+              ]
+            },
             "example": {
               "yellow": [
                 "steht"
@@ -10484,8 +13772,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "sein"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Biti"
+              ]
+            },
             "example": {
               "green": [
                 "bin"
@@ -10498,8 +13794,12 @@ const A1_WORDS = [
             "blue": [
               "liegen"
             ],
+            "purple": [
+              "Zapamtite"
+            ],
             "red": [
-              "→liegen"
+              "legen",
+              "Zapamtite"
             ]
           }
         },
@@ -10507,9 +13807,21 @@ const A1_WORDS = [
           {
             "blue": [
               "liegen"
+            ],
+            "purple": [
+              "Liegen",
+              "Liegen"
             ]
           },
-          {}
+          {
+            "red": [
+              "legen"
+            ],
+            "purple": [
+              "Legen",
+              "Legen"
+            ]
+          }
         ]
       }
     }
@@ -10518,39 +13830,39 @@ const A1_WORDS = [
     "de": "Limonade",
     "de_article": "die",
     "de_plural": "die Limonaden",
-    "lv": "Лимонада",
+    "lv": "Limunada",
     "level": "A1"
   },
   {
     "de": "Lineal",
     "de_article": "das",
     "de_plural": "die Lineale",
-    "lv": "Ravnalo",
+    "lv": "Vladar",
     "level": "A1"
   },
   {
     "de": "links",
-    "lv": "Лево • Лево",
+    "lv": "Lijevo • Lijevo",
     "level": "A1"
   },
   {
     "de": "Liste",
     "de_article": "die",
     "de_plural": "die Listen",
-    "lv": "Списък",
+    "lv": "Lista",
     "level": "A1"
   },
   {
     "de": "Liter",
     "de_article": "der",
     "de_plural": "die Liter",
-    "lv": "Litara",
+    "lv": "Litar",
     "level": "A1",
     "study": {
       "id": "a1-liter",
       "layout": "standardStudy",
-      "translation": "Litara",
-      "explanation": "В Германия обикновено казват \"der Liter\", но в Австрия и Швейцария можете да чуете и \"das Liter\". Формата за множествено число остава непроменена: \"die Liter\".",
+      "translation": "Litar",
+      "explanation": "U Njemačkoj se obično kaže 'der Liter', ali u Austriji i Švicarskoj možete čuti i 'das Liter'. Oblik množine ostaje nepromijenjen: 'die Liter'.",
       "sectionAccents": {
         "explanation": {
           "green": [
@@ -10570,34 +13882,34 @@ const A1_WORDS = [
     "de": "Löffel",
     "de_article": "der",
     "de_plural": "die Löffel",
-    "lv": "Лъжица",
+    "lv": "Kašika",
     "level": "A1"
   },
   {
     "de": "Luft",
     "de_article": "die",
     "de_plural": "die Lüfte",
-    "lv": "Vazduh",
+    "lv": "Zrak",
     "level": "A1"
   },
   {
     "de": "lustig",
-    "lv": "Забавление",
+    "lv": "Zabavno",
     "level": "A1"
   },
   {
     "de": "machen",
-    "lv": "Ranjen sem!",
+    "lv": "Učiniti • Napraviti",
     "level": "A1",
     "study": {
       "id": "a1-machen",
       "layout": "standardStudy",
-      "translation": "Ranjen sem!",
+      "translation": "Učiniti • Napraviti",
       "explanation": [
-        "Клучна идеја: махен е многу вообичаен збор што значи да се направи или направи.",
-        "Ако говорим за действие като цяло, тогава имаме предвид как да го направим.",
-        "Ако нещо се прави или приготвя, то се превежда като правене или приготвяне.",
-        "В много фрази machen се превежда естествено, според латвийския език, а не буквално."
+        "Glavna ideja: machen je vrlo uobičajena riječ koja znači napraviti ili napraviti.",
+        "Ako se radi o akciji općenito, to se prevodi kao kako učiniti.",
+        "Ako je nešto napravljeno ili pripremljeno, to se prevodi kao pravljenje ili kuhanje.",
+        "U mnogim frazama, machen se prevodi prirodno na latvijski, a ne doslovno."
       ],
       "examples": [
         {
@@ -10606,28 +13918,37 @@ const A1_WORDS = [
         },
         {
           "de": "Ich mache Hausaufgaben.",
-          "lv": "Пиша си домашното"
+          "lv": "Ja radim svoj domaći."
         },
         {
           "de": "Wir machen Pizza.",
-          "lv": "Ние правиме пица."
+          "lv": "Pravimo pizzu."
         },
         {
           "de": "Das macht Spaß.",
-          "lv": "In še zabavno je."
+          "lv": "Zabavno je."
         }
       ],
       "tip": {
-        "text": "Запомнете: дали имаше machst du? = Што правиш?"
+        "text": "Zapamtite: Was machst du? = Šta radiš?"
       },
       "important": [
-        "Machen je vrlo široka ideja, ali latvijski se često mora prevoditi prirodno, ovisno o situaciji.",
-        "Das macht Spaß значи „ова е забавно“, а не буквално „ова е забавно“."
+        "Machen je vrlo široka riječ, ali latvijski se često mora prevoditi prirodno u skladu sa situacijom.",
+        "Das macht Spaß znači 'zabavno je', a ne doslovno 'zabavlja se'."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "machen"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna",
+            "Glavna"
+          ],
+          "green": [
+            "Glavna",
+            "Glavna"
           ]
         },
         "examples": [
@@ -10637,7 +13958,11 @@ const A1_WORDS = [
                 "machst"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Šta"
+              ]
+            }
           },
           {
             "de": {
@@ -10648,7 +13973,14 @@ const A1_WORDS = [
                 "Hausaufgaben"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "radim"
+              ],
+              "yellow": [
+                "radim"
+              ]
+            }
           },
           {
             "de": {
@@ -10659,7 +13991,14 @@ const A1_WORDS = [
                 "Pizza"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Pravimo"
+              ],
+              "yellow": [
+                "Pravimo"
+              ]
+            }
           },
           {
             "de": {
@@ -10667,7 +14006,11 @@ const A1_WORDS = [
                 "macht Spaß"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Zabavno"
+              ]
+            }
           }
         ],
         "comparison": [
@@ -10693,17 +14036,33 @@ const A1_WORDS = [
           }
         ],
         "tip": {
-          "left": {}
+          "left": {
+            "blue": [
+              "Was machst du"
+            ],
+            "purple": [
+              "Zapamtite"
+            ]
+          }
         },
         "important": [
           {
             "blue": [
               "machen"
+            ],
+            "purple": [
+              "Machen"
             ]
           },
           {
             "blue": [
               "Das macht Spaß"
+            ],
+            "purple": [
+              "Das"
+            ],
+            "red": [
+              "Das"
             ]
           }
         ]
@@ -10714,63 +14073,63 @@ const A1_WORDS = [
     "de": "Mädchen",
     "de_article": "das",
     "de_plural": "die Mädchen",
-    "lv": "Млада жена",
+    "lv": "Devojka",
     "level": "A1"
   },
   {
     "de": "Mahlzeit",
     "de_article": "die",
     "de_plural": "die Mahlzeiten",
-    "lv": "Hrana",
+    "lv": "Obrok",
     "level": "A1"
   },
   {
     "de": "Mai",
     "de_article": "der",
-    "lv": "Можеби",
+    "lv": "Maja",
     "level": "A1"
   },
   {
     "de": "Mal",
     "de_article": "das",
     "de_plural": "die Male",
-    "lv": "Време",
+    "lv": "Vrijeme",
     "level": "A1",
     "study": {
       "id": "a1-mal",
       "layout": "standardStudy",
-      "translation": "Време",
+      "translation": "Vrijeme",
       "explanation": [
-        "Ključna ideja: das Mal znači \"jednom\" kao događaj ili prilika.",
-        "Pogosto se uporablja s številkami: ein Mal, zwei Mal, drei Mal.",
-        "Със сериен номер: das erste Mal, das zweite Mal.",
-        "Ne govori s razvoznata častiča mal (Comm mali kurac!) – ovo ima drugačije značenje."
+        "Glavna ideja: das Mal znači jednom kao događaj ili prilika.",
+        "Često se koristi sa brojevima: ein Mal, zwei Mal, drei Mal.",
+        "Sa rednim brojem: das erste Mal, das zweite Mal.",
+        "Ne razgovarajte sa kolokvijalnom česticom mal (Komm mal her!) - ovo je drugačije značenje."
       ],
       "examples": [
         {
           "de": "Das erste Mal war schwer.",
-          "lv": "Първият път беше трудно."
+          "lv": "Prvi put je bilo teško."
         },
         {
           "de": "Ich war schon zwei Mal in Berlin.",
-          "lv": "Вече бях два пъти в Берлин."
+          "lv": "Već sam dva puta bio u Berlinu."
         },
         {
           "de": "Ein Mal reicht.",
-          "lv": "Доволно е еднаш."
+          "lv": "Jednom je dovoljno."
         },
         {
           "de": "Noch ein Mal, bitte!",
-          "lv": "Още веднъж моля!"
+          "lv": "Jos jednom molim!"
         }
       ],
       "tip": {
-        "text": "Запомнете: das Mal = време (имн.) • Мал без член = разговорна честичка."
+        "text": "Zapamtite: das Mal = vrijeme (imenica) • Mal bez člana = kolokvijalna čestica."
       },
       "important": [
-        "Das Mal/die Male е съществително с член.",
-        "Jedan mal, dva mal – jednom.",
-        "Mal bez člana (Komm Mal Her!) nije isto što i das Mal."
+        "Das Mal / die Male - imenica sa člankom.",
+        "Ein Mal, zwei Mal - broji puta.",
+        "Mal bez članka (Komm mal her!) nije isto što i das Mal."
       ],
       "sectionAccents": {
         "explanation": {
@@ -10779,6 +14138,11 @@ const A1_WORDS = [
             "ein Mal",
             "zwei Mal",
             "das erste Mal"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna",
+            "Glavna"
           ]
         },
         "examples": [
@@ -10788,7 +14152,11 @@ const A1_WORDS = [
                 "erste Mal"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Prvi"
+              ]
+            }
           },
           {
             "de": {
@@ -10796,7 +14164,11 @@ const A1_WORDS = [
                 "zwei Mal"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Već"
+              ]
+            }
           },
           {
             "de": {
@@ -10804,7 +14176,11 @@ const A1_WORDS = [
                 "Ein Mal"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Jednom"
+              ]
+            }
           },
           {
             "de": {
@@ -10812,13 +14188,21 @@ const A1_WORDS = [
                 "ein Mal"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Jos"
+              ]
+            }
           }
         ],
         "tip": {
           "blue": [
             "das Mal",
             "mal"
+          ],
+          "purple": [
+            "Zapamtite",
+            "Zapamtite"
           ]
         },
         "important": [
@@ -10828,7 +14212,15 @@ const A1_WORDS = [
               "die Male"
             ]
           },
-          {},
+          {
+            "blue": [
+              "ein Mal",
+              "zwei Mal"
+            ],
+            "purple": [
+              "Ein"
+            ]
+          },
           {
             "blue": [
               "mal"
@@ -10843,79 +14235,83 @@ const A1_WORDS = [
   },
   {
     "de": "malen",
-    "lv": "Nariši • Nariši",
+    "lv": "Farbati • Farbati",
     "level": "A1"
   },
   {
     "de": "manchmal",
-    "lv": "Понякога",
+    "lv": "Ponekad",
     "level": "A1"
   },
   {
     "de": "Mandarine",
     "de_article": "die",
     "de_plural": "die Mandarinen",
-    "lv": "Mandarinščina",
+    "lv": "Mandarina",
     "level": "A1"
   },
   {
     "de": "Mann",
     "de_article": "der",
     "de_plural": "die Männer",
-    "lv": "Мъж • Съпруг",
+    "lv": "Muškarac • Muž",
     "level": "A1",
     "study": {
       "id": "a1-mann",
       "layout": "standardStudy",
-      "translation": "Мъж • Съпруг",
+      "translation": "Muškarac • Muž",
       "explanation": [
-        "Ключова идея: der Mann може да означава мъж (пол) или съпруг (съпруг).",
-        "Ако е само въпрос на пол или личност, Ман = мъж.",
-        "За съпруг, der Mann = съпруг (mein Mann = моят съпруг).",
-        "Притежателното местоимение (mein/dein/ihr Mann) почти винаги означава съпруг – съпруг.",
-        "Множина: die Männer.",
-        "Женската форма die Frau има същото двойно значение: жена И съпруга."
+        "Glavna ideja: der Mann može značiti muškarac (pol) ili muž (supružnik).",
+        "Ako je jednostavno pitanje spola ili osobe, der Mann = muškarac.",
+        "Za supružnika, der Mann = muž (mein Mann = moj muž).",
+        "Prisvojna zamjenica (mein/dein/ihr Mann) gotovo uvijek znači muž – supružnik.",
+        "Množina: die Männer.",
+        "Ženski oblik die Frau ima isto dvostruko značenje: žena I žena."
       ],
       "examples": [
         {
           "de": "Er ist ein netter Mann.",
-          "lv": "Той е добър човек."
+          "lv": "On je fin čovjek."
         },
         {
           "de": "Das ist mein Mann.",
-          "lv": "Това е съпругът ми."
+          "lv": "Ovo je moj muž."
         },
         {
           "de": "Wie viele Männer sind hier?",
-          "lv": "Колко мъже има?"
+          "lv": "Koliko je muškaraca ovdje?"
         },
         {
           "de": "Mein Mann arbeitet in Berlin.",
-          "lv": "Съпругът ми работи в Берлин."
+          "lv": "Moj muž radi u Berlinu."
         },
         {
           "de": "Der Mann trägt einen Anzug.",
-          "lv": "Мъжът носи костюм."
+          "lv": "Covek nosi odelo."
         },
         {
           "de": "Ihr Mann ist Arzt.",
-          "lv": "Njen mož je zdravnik."
+          "lv": "Njen muž je doktor."
         }
       ],
       "tip": [
-        "Притежателното местоимение (mein/dein/ihr Mann) почти винаги означава съпруг (съпруг).",
-        "Без притежателен падеж (der Mann, ein Mann) обикновено означава мъж."
+        "Prisvojna zamjenica (mein/dein/ihr Mann) gotovo uvijek znači muža (supružnika).",
+        "Bez posesivnog (der Mann, ein Mann) obično znači muškarac."
       ],
       "important": [
         "Der Mann = muškarac ILI muž - ovisno o kontekstu.",
-        "Mein Mann = мојот сопруг (не „мојот човек“).",
-        "Множина: die Männer."
+        "Mein Mann = moj muž (ne 'moj muškarac').",
+        "Množina: die Männer."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "der Mann",
             "Mann"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna"
           ]
         },
         "examples": [
@@ -10925,7 +14321,11 @@ const A1_WORDS = [
                 "Mann"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "fin"
+              ]
+            }
           },
           {
             "de": {
@@ -10933,7 +14333,11 @@ const A1_WORDS = [
                 "mein Mann"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Ovo"
+              ]
+            }
           },
           {
             "de": {
@@ -10941,7 +14345,11 @@ const A1_WORDS = [
                 "Männer"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Koliko"
+              ]
+            }
           },
           {
             "de": {
@@ -10949,7 +14357,11 @@ const A1_WORDS = [
                 "Mein Mann"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Moj"
+              ]
+            }
           },
           {
             "de": {
@@ -10957,7 +14369,11 @@ const A1_WORDS = [
                 "Mann"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Covek"
+              ]
+            }
           },
           {
             "de": {
@@ -10965,7 +14381,11 @@ const A1_WORDS = [
                 "Ihr Mann"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Njen"
+              ]
+            }
           }
         ],
         "tip": [
@@ -10974,17 +14394,28 @@ const A1_WORDS = [
               "mein",
               "dein",
               "ihr Mann"
+            ],
+            "purple": [
+              "Prisvojna"
             ]
           },
           {
             "blue": [
               "der Mann",
               "ein Mann"
+            ],
+            "purple": [
+              "Prisvojna"
             ]
           }
         ],
         "important": [
-          {},
+          {
+            "purple": [
+              "Der",
+              "Der"
+            ]
+          },
           {
             "green": [
               "mein Mann"
@@ -11003,147 +14434,147 @@ const A1_WORDS = [
     "de": "Marmelade",
     "de_article": "die",
     "de_plural": "die Marmeladen",
-    "lv": "Слатко",
+    "lv": "Džem",
     "level": "A1"
   },
   {
     "de": "März",
     "de_article": "der",
-    "lv": "Март",
+    "lv": "Mart",
     "level": "A1"
   },
   {
     "de": "Maus",
     "de_article": "die",
     "de_plural": "die Mäuse",
-    "lv": "Мишка",
+    "lv": "Miš",
     "level": "A1"
   },
   {
     "de": "Meer",
     "de_article": "das",
     "de_plural": "die Meere",
-    "lv": "Море",
+    "lv": "More",
     "level": "A1"
   },
   {
     "de": "Mehl",
     "de_article": "das",
     "de_plural": "die Mehle",
-    "lv": "Брашно",
+    "lv": "Brašno",
     "level": "A1"
   },
   {
     "de": "mehr",
-    "lv": "Повече",
+    "lv": "Više",
     "level": "A1"
   },
   {
     "de": "mein",
-    "lv": "Моя",
+    "lv": "Moj",
     "level": "A1"
   },
   {
     "de": "Mensch",
     "de_article": "der",
     "de_plural": "die Menschen",
-    "lv": "Човешки",
+    "lv": "Osobu",
     "level": "A1"
   },
   {
     "de": "Messer",
     "de_article": "das",
     "de_plural": "die Messer",
-    "lv": "Нож",
+    "lv": "Nož",
     "level": "A1"
   },
   {
     "de": "Meter",
     "de_article": "der",
     "de_plural": "die Meter",
-    "lv": "Taksimeter",
+    "lv": "Metar",
     "level": "A1"
   },
   {
     "de": "Milch",
     "de_article": "die",
-    "lv": "Мляко",
+    "lv": "Mlijeko",
     "level": "A1"
   },
   {
     "de": "Million",
     "de_article": "die",
     "de_plural": "die Millionen",
-    "lv": "Милион",
+    "lv": "Miliona",
     "level": "A1"
   },
   {
     "de": "Minute",
     "de_article": "die",
     "de_plural": "die Minuten",
-    "lv": "Minuta",
+    "lv": "Minut",
     "level": "A1"
   },
   {
     "de": "mit",
-    "lv": "ZV",
+    "lv": "Sa",
     "level": "A1",
     "study": {
       "id": "a1-mit",
       "layout": "standardStudy",
-      "translation": "ZV",
+      "translation": "Sa",
       "explanation": [
-        "Клучна идеја: mit најчесто значи „со“.",
-        "Mit се използва, когато човек е с някого или прави нещо с нещо.",
-        "Транспортът често означава пътуване с автобус, влак или кола.",
-        "На ниво A1 много често срещани фрази са: mit dem Bus, mit dem Auto и mit dir."
+        "Glavna ideja: mit najčešće znači sa.",
+        "Mit se koristi kada je osoba s nekim ili radi nešto sa stvari.",
+        "Pod transportom mit često znači ići autobusom, vozom ili automobilom.",
+        "Na nivou A1 vrlo česte fraze su mit dem Bus, mit dem Auto i mit dir."
       ],
       "examples": [
         {
           "de": "Ich komme mit dir.",
-          "lv": "Аз ще отида с теб"
+          "lv": "Idem s tobom"
         },
         {
           "de": "Ich fahre mit dem Bus.",
-          "lv": "Одам со автобус"
+          "lv": "Idem autobusom"
         },
         {
           "de": "Sie schreibt mit dem Stift.",
-          "lv": "Piše olovkom."
+          "lv": "Ona piše olovkom."
         },
         {
           "de": "Kommst du mit?",
-          "lv": "Ќе дојдеш ли со мене"
+          "lv": "Hoćeš li poći sa mnom?"
         }
       ],
       "comparison": [
         {
           "word": "mit",
-          "meaning": "Със/заедно с",
+          "meaning": "Sa / zajedno sa",
           "example": "Ich komme mit dir."
         },
         {
           "word": "ohne",
-          "meaning": "Без",
+          "meaning": "Bez",
           "example": "Ich komme ohne dich."
         },
         {
           "word": "bei",
-          "meaning": "Нечий",
+          "meaning": "Kod / kod nekoga",
           "example": "Ich bin bei Anna."
         },
         {
           "word": "zu",
-          "meaning": "Gdje",
+          "meaning": "To / at",
           "example": "Ich gehe zum Arzt."
         }
       ],
       "tip": {
-        "text": "Запомнете: заедно с някого или с транспорт → мит."
+        "text": "Zapamtite: zajedno s nekim ili sa prijevozom → mit."
       },
       "important": [
-        "Mit zahteva dativno zrelost: mit dem Bus, mit der Mutter, mit dir.",
-        "Къде живееш означава \"Ще дойдеш ли с мен?\""
+        "Mit zahtijeva dativ: mit dem Bus, mit der Mutter, mit dir.",
+        "Gdje živiš? znači \"Hoćeš li poći sa mnom?\""
       ],
       "sectionAccents": {
         "explanation": {
@@ -11153,7 +14584,14 @@ const A1_WORDS = [
             "mit dem Auto",
             "mit dir"
           ],
+          "purple": [
+            "Glavna",
+            "Glavna"
+          ],
           "green": [
+            "transportom",
+            "autobusom",
+            "Glavna",
             "auto"
           ]
         },
@@ -11164,7 +14602,11 @@ const A1_WORDS = [
                 "mit dir"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Idem"
+              ]
+            }
           },
           {
             "de": {
@@ -11172,7 +14614,11 @@ const A1_WORDS = [
                 "mit dem Bus"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Idem"
+              ]
+            }
           },
           {
             "de": {
@@ -11180,7 +14626,11 @@ const A1_WORDS = [
                 "mit dem Stift"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Ona"
+              ]
+            }
           },
           {
             "de": {
@@ -11188,13 +14638,26 @@ const A1_WORDS = [
                 "mit"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Hoćeš"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "mit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "zajedno",
+                "zajedno"
+              ]
+            },
             "example": {
               "blue": [
                 "mit dir"
@@ -11202,8 +14665,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "ohne"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "bez"
+              ]
+            },
             "example": {
               "red": [
                 "ohne dich"
@@ -11211,8 +14682,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "bei"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Kod"
+              ]
+            },
             "example": {
               "green": [
                 "bei Anna"
@@ -11220,7 +14699,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "zu"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -11230,12 +14713,23 @@ const A1_WORDS = [
           }
         ],
         "tip": {
-          "left": {}
+          "left": {
+            "blue": [
+              "mit"
+            ],
+            "purple": [
+              "Zapamtite",
+              "Zapamtite"
+            ]
+          }
         },
         "important": [
           {
             "blue": [
               "mit"
+            ],
+            "purple": [
+              "dativ"
             ],
             "yellow": [
               "dem Bus",
@@ -11243,97 +14737,104 @@ const A1_WORDS = [
               "dir"
             ]
           },
-          {}
+          {
+            "blue": [
+              "Gdje"
+            ],
+            "purple": [
+              "Gdje"
+            ]
+          }
         ]
       }
     }
   },
   {
     "de": "mitnehmen",
-    "lv": "-Vzamite ga s sabo. -Razumem.",
+    "lv": "Ponesite sa sobom",
     "level": "A1"
   },
   {
     "de": "Mittag",
     "de_article": "der",
     "de_plural": "die Mittage",
-    "lv": "Вечера",
+    "lv": "Ručak",
     "level": "A1"
   },
   {
     "de": "Mittagessen",
     "de_article": "das",
     "de_plural": "die Mittagessen",
-    "lv": "Вечера",
+    "lv": "Ručak",
     "level": "A1"
   },
   {
     "de": "Mittwoch",
     "de_article": "der",
     "de_plural": "die Mittwoche",
-    "lv": "Сряда",
+    "lv": "Srijeda",
     "level": "A1"
   },
   {
     "de": "mögen",
-    "lv": "Sviđa mi se",
+    "lv": "To like",
     "level": "A1",
     "study": {
       "id": "a1-mögen",
       "layout": "standardStudy",
-      "translation": "Sviđa mi se",
+      "translation": "To like",
       "explanation": [
-        "Ключова идея: mögen най-често означава „харесвам“.",
-        "Ich mag... obično znači \"volim...\" na letonskom.",
-        "Möchte je še ena oblika vljudnega izražanja želje: \"Rad bi\".",
+        "Glavna ideja: mögen najčešće znači nešto voljeti.",
+        "Ich mag... je obično \"volim...\" na letonskom.",
+        "Möchte je drugi oblik koji se koristi za uljudnu želju: želio bih.",
         "Na nivou A1, najvažnija fraza je Ich mag das."
       ],
       "examples": [
         {
           "de": "Ich mag Musik.",
-          "lv": "Харесвам музика"
+          "lv": "Volim muziku"
         },
         {
           "de": "Magst du Kaffee?",
-          "lv": "Boš kavo?"
+          "lv": "Voliš li kafu"
         },
         {
           "de": "Sie mag Kinder.",
-          "lv": "Тя обича децата."
+          "lv": "Ona voli decu."
         },
         {
           "de": "Ich möchte einen Kaffee.",
-          "lv": "Искам кафе"
+          "lv": "Ja bih kafu"
         }
       ],
       "comparison": [
         {
           "word": "mögen",
-          "meaning": "Sviđa mi se",
+          "meaning": "To like",
           "example": "Ich mag Musik."
         },
         {
           "word": "möchte",
-          "meaning": "Бих искал",
+          "meaning": "Želio bi",
           "example": "Ich möchte Kaffee."
         },
         {
           "word": "wollen",
-          "meaning": "Искам",
+          "meaning": "Želim to",
           "example": "Ich will nach Hause."
         },
         {
           "word": "lieben",
-          "meaning": "Любов",
+          "meaning": "Voljeti",
           "example": "Ich liebe dich."
         }
       ],
       "tip": {
-        "text": "Запомнете: Ич маг... = ми се допаѓа..."
+        "text": "Zapamtite: Ich mag... = Sviđa mi se..."
       },
       "important": [
-        "Mögen не е съществително, означаващо учтивото „бих искал“. Обикновено за това се използва Möchte.",
-        "Ich mag Kaffee означава „обичам кафе“."
+        "Mögen nije imenica za ljubazno 'želio bih'. Za to se obično koristi Möchte.",
+        "Ich mag Kaffee znači \"volim kafu\"."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11341,6 +14842,11 @@ const A1_WORDS = [
             "mögen",
             "Ich mag",
             "möchte"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna",
+            "Glavna"
           ]
         },
         "examples": [
@@ -11350,7 +14856,14 @@ const A1_WORDS = [
                 "mag"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Volim"
+              ],
+              "yellow": [
+                "muziku"
+              ]
+            }
           },
           {
             "de": {
@@ -11358,7 +14871,14 @@ const A1_WORDS = [
                 "Magst"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Voliš"
+              ],
+              "yellow": [
+                "Voliš"
+              ]
+            }
           },
           {
             "de": {
@@ -11366,7 +14886,14 @@ const A1_WORDS = [
                 "mag"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Ona"
+              ],
+              "green": [
+                "Ona"
+              ]
+            }
           },
           {
             "de": {
@@ -11374,13 +14901,28 @@ const A1_WORDS = [
                 "möchte"
               ]
             },
-            "lv": {}
+            "lv": {
+              "red": [
+                "bih"
+              ],
+              "yellow": [
+                "bih"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "mögen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "like"
+              ]
+            },
             "example": {
               "blue": [
                 "mag"
@@ -11388,8 +14930,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "möchte"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Želio"
+              ]
+            },
             "example": {
               "red": [
                 "möchte"
@@ -11397,8 +14947,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "wollen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Želim"
+              ]
+            },
             "example": {
               "yellow": [
                 "will"
@@ -11406,8 +14964,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "lieben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Voljeti"
+              ]
+            },
             "example": {
               "green": [
                 "liebe"
@@ -11418,7 +14984,10 @@ const A1_WORDS = [
         "tip": {
           "left": {
             "blue": [
-              "Запомнете"
+              "Ich mag"
+            ],
+            "purple": [
+              "Zapamtite"
             ]
           }
         },
@@ -11429,11 +14998,18 @@ const A1_WORDS = [
             ],
             "red": [
               "möchte"
+            ],
+            "purple": [
+              "Mögen"
             ]
           },
           {
             "blue": [
               "mag"
+            ],
+            "purple": [
+              "Ich",
+              "Ich"
             ]
           }
         ]
@@ -11444,135 +15020,172 @@ const A1_WORDS = [
     "de": "Möhre",
     "de_article": "die",
     "de_plural": "die Möhren",
-    "lv": "Morkov",
+    "lv": "Šargarepa",
     "level": "A1"
   },
   {
     "de": "Monat",
     "de_article": "der",
     "de_plural": "die Monate",
-    "lv": "Еден месец",
+    "lv": "Mjesec",
     "level": "A1"
   },
   {
     "de": "Montag",
     "de_article": "der",
     "de_plural": "die Montage",
-    "lv": "Понеделник",
+    "lv": "Ponedjeljak",
     "level": "A1"
   },
   {
     "de": "morgen",
-    "lv": "Утре",
+    "lv": "Sutra",
     "level": "A1",
     "study": {
       "id": "a1-morgen",
       "layout": "standardStudy",
-      "translation": "Утре",
+      "translation": "Sutra",
       "explanation": [
-        "Основна идея: Наречията за време се пишат с малки букви. Това означава вдругиден – утре.",
-        "Морген во основа значи: следниот ден.",
-        "Често се характеризира с: времето.",
-        "Morgen u osnovi znači: dio dana.",
-        "Често опишува: именка (der).",
-        "Morgen основно означава: няколко сутрини.",
-        "Често се характеризира със: съществително (множествено число).",
-        "Morgen с малка буква означава утре - вдругиден (Ich komme morgen = Ще дойда утре, Bis morgen!"
+        "Glavna ideja: prilog vremena je mala slova. Znači sutradan - sutra.",
+        "Morgen uglavnom znači: sutradan.",
+        "Često karakteriziraju: vrijeme.",
+        "Morgen prvenstveno znači: dio dana.",
+        "Često opisuje: imenicu (der).",
+        "Morgen u osnovi znači: nekoliko jutara.",
+        "Često karakterizira: imenica (mn.).",
+        "Morgen sa malim početnim slovom znači sutra - sutradan (Ich komme morgen = dolazim sutra, Bis morgen!"
       ],
       "examples": [
         {
           "de": "Ich komme morgen.",
-          "lv": "Jutri zjutraj."
+          "lv": "Dolazim sutra."
         },
         {
           "de": "Bis morgen!",
-          "lv": "Ще се видим утре!"
+          "lv": "Do sutra!"
         },
         {
           "de": "Ich komme morgen.",
-          "lv": "Jutri zjutraj."
+          "lv": "Dolazim sutra"
         },
         {
           "de": "Morgen ist Montag.",
-          "lv": "Jutri je ponedeljek"
+          "lv": "Sutra je ponedjeljak"
         },
         {
           "de": "Guten Morgen!",
-          "lv": "Dobro jutro"
+          "lv": "Dobro jutro!"
         },
         {
           "de": "Der Morgen ist schön.",
-          "lv": "Prelepo je jutro."
+          "lv": "Jutro je predivno."
         }
       ],
       "tip": [
-        "Little morgen = утре (Ich komme morgen). der Morgen с главна буква = сутрин (Guten Morgen!, am Morgen).",
-        "Морген = утре"
+        "Mali morgen = sutra (Ich komme morgen). der Morgen sa velikim slovom = jutro (Guten Morgen!, am Morgen).",
+        "Morgen = sutra"
       ],
       "important": [
-        "Morgen - малка буква - е наречие за време (утре).",
-        "Der Morgen со голема буква и членот der е именка (утро).",
-        "Добро утро - секогаш со голема буква (наутро, не утре).",
+        "Morgen je malo slovo - to je vremenski prilog (sutra).",
+        "Der Morgen sa velikim slovom i članom der je imenica (jutro).",
+        "Dobro jutro! — uvijek sa velikim M (jutro, ne sutra).",
         "Netačno: Guten morgen! → Tačno: Guten Morgen!"
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "morgen"
+          ],
+          "purple": [
+            "Glavna"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
+                "morgen",
                 "morgen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Dolazim"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
+                "morgen",
                 "morgen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "sutra"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
+                "morgen",
                 "morgen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Dolazim"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
+                "morgen",
                 "morgen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Sutra"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
+                "morgen",
                 "morgen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Dobro"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
+                "morgen",
                 "morgen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Jutro"
+              ]
+            }
           }
         ],
         "tip": [
-          {}
+          {
+            "purple": [
+              "Mali"
+            ]
+          }
         ],
         "important": [
           {
@@ -11587,56 +15200,56 @@ const A1_WORDS = [
   {
     "de": "Morgen",
     "de_article": "der",
-    "lv": "-Takoj zjutraj.",
+    "lv": "Jutro",
     "level": "A1",
     "study": {
       "id": "a1-morgen-study",
       "layout": "standardStudy",
-      "translation": "-Takoj zjutraj.",
+      "translation": "Jutro",
       "explanation": [
-        "Основна идея: Съществително с член е подходящо и с главна буква. Част от деня е сутринта.",
-        "Der Morgen u osnovi znači: sljedećeg dana.",
-        "Често се характеризира с: времето.",
-        "Der Morgen основно означава: част от деня.",
-        "Често опишува: именка (der).",
-        "Der Morgen u osnovi znači: nekoliko sati ujutro.",
-        "Често се характеризира със: съществително (множествено число).",
-        "Morgen с малка буква означава утре - вдругиден (Ich komme morgen = Ще дойда утре, Bis morgen!"
+        "Glavna ideja: Imenica s člankom odgovara i piše se velikim slovom. Dio dana - jutro.",
+        "Der Morgen uglavnom znači: sutradan.",
+        "Često karakteriziraju: vrijeme.",
+        "Der Morgen prvenstveno znači: dio dana.",
+        "Često opisuje: imenicu (der).",
+        "Der Morgen u osnovi znači: nekoliko jutara.",
+        "Često karakterizira: imenica (mn.).",
+        "Morgen sa malim početnim slovom znači sutra - sutradan (Ich komme morgen = dolazim sutra, Bis morgen!"
       ],
       "examples": [
         {
           "de": "Guten Morgen!",
-          "lv": "Dobro jutro"
+          "lv": "Dobro jutro!"
         },
         {
           "de": "Bis morgen!",
-          "lv": "Ще се видим утре!"
+          "lv": "Do sutra!"
         },
         {
           "de": "Ich komme morgen.",
-          "lv": "Jutri zjutraj."
+          "lv": "Dolazim sutra"
         },
         {
           "de": "Morgen ist Montag.",
-          "lv": "Jutri je ponedeljek"
+          "lv": "Sutra je ponedjeljak"
         },
         {
           "de": "Guten Morgen!",
-          "lv": "Dobro jutro"
+          "lv": "Dobro jutro!"
         },
         {
           "de": "Der Morgen ist schön.",
-          "lv": "Prelepo je jutro."
+          "lv": "Jutro je predivno."
         }
       ],
       "tip": [
-        "Little morgen = утре (Ich komme morgen). der Morgen с главна буква = сутрин (Guten Morgen!, am Morgen).",
-        "Der Morgen = утре"
+        "Mali morgen = sutra (Ich komme morgen). der Morgen sa velikim slovom = jutro (Guten Morgen!, am Morgen).",
+        "Der Morgen = sutra"
       ],
       "important": [
-        "Morgen - малка буква - е наречие за време (утре).",
-        "Der Morgen со голема буква и членот der е именка (утро).",
-        "Добро утро - секогаш со голема буква (наутро, не утре).",
+        "Morgen je malo slovo - to je vremenski prilog (sutra).",
+        "Der Morgen sa velikim slovom i članom der je imenica (jutro).",
+        "Dobro jutro! — uvijek sa velikim M (jutro, ne sutra).",
         "Netačno: Guten morgen! → Tačno: Guten Morgen!"
       ],
       "sectionAccents": {
@@ -11644,6 +15257,10 @@ const A1_WORDS = [
           "green": [
             "der Morgen",
             "morgen"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna"
           ],
           "yellow": [
             "Morgen"
@@ -11664,7 +15281,11 @@ const A1_WORDS = [
                 "morgen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "sutra"
+              ]
+            }
           },
           {
             "de": {
@@ -11672,7 +15293,11 @@ const A1_WORDS = [
                 "morgen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Dolazim"
+              ]
+            }
           },
           {
             "de": {
@@ -11680,7 +15305,11 @@ const A1_WORDS = [
                 "morgen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Sutra"
+              ]
+            }
           },
           {
             "de": {
@@ -11697,11 +15326,19 @@ const A1_WORDS = [
                 "morgen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Jutro"
+              ]
+            }
           }
         ],
         "tip": [
-          {}
+          {
+            "purple": [
+              "Mali"
+            ]
+          }
         ],
         "important": [
           {}
@@ -11711,93 +15348,102 @@ const A1_WORDS = [
   },
   {
     "de": "morgens",
-    "lv": "На сутринта",
+    "lv": "Ujutro",
     "level": "A1"
   },
   {
     "de": "müde",
-    "lv": "Уморен",
+    "lv": "Umoran",
     "level": "A1"
   },
   {
     "de": "Mund",
     "de_article": "der",
     "de_plural": "die Münder",
-    "lv": "Устата",
+    "lv": "Usta",
     "level": "A1"
   },
   {
     "de": "Musik",
     "de_article": "die",
-    "lv": "Музика",
+    "lv": "Muzika",
     "level": "A1"
   },
   {
     "de": "müssen",
-    "lv": "Потреба",
+    "lv": "Da treba",
     "level": "A1",
     "study": {
       "id": "a1-müssen",
       "layout": "standardStudy",
-      "translation": "Потреба",
+      "translation": "Da treba",
       "explanation": [
-        "Основна идея: müssen означава да направиш нещо.",
-        "На латвийски müssen често се превежда като „да на мен...“, „да на теб...“, „ние да...“.",
-        "В немско изречение вторият глагол обикновено идва в края.",
-        "Na nivou A1 najvažniji oblik je Íč muz..."
+        "Glavna ideja: müssen znači učiniti nešto.",
+        "Na letonskom se müssen često prevodi kao \"ja da...\", \"ti da...\", \"mi da...\".",
+        "U njemačkoj rečenici drugi glagol obično dolazi na kraju.",
+        "Na nivou A1, najvažnija forma je Ich muss..."
       ],
       "examples": [
         {
           "de": "Ich muss gehen.",
-          "lv": "Трябва да тръгвам"
+          "lv": "Moram da idem"
         },
         {
           "de": "Du musst warten.",
-          "lv": "Ще трябва да почакате."
+          "lv": "Morate čekati."
         },
         {
           "de": "Wir müssen lernen.",
-          "lv": "Moram naučiti."
+          "lv": "Moramo naučiti."
         },
         {
           "de": "Ich muss heute arbeiten.",
-          "lv": "Трябва да работя днес"
+          "lv": "Moram raditi danas"
         }
       ],
       "comparison": [
         {
           "word": "müssen",
-          "meaning": "Треба/мора да се направи",
+          "meaning": "Treba/moram uraditi",
           "example": "Ich muss gehen."
         },
         {
           "word": "können",
-          "meaning": "Бъдете способни/знайте",
+          "meaning": "Biti u stanju / znati",
           "example": "Ich kann kommen."
         },
         {
           "word": "wollen",
-          "meaning": "Искам",
+          "meaning": "Želim to",
           "example": "Ich will nach Hause."
         },
         {
           "word": "dürfen",
-          "meaning": "Ќе биде дозволено",
+          "meaning": "Biti dozvoljeno",
           "example": "Darf ich gehen?"
         }
       ],
       "tip": {
-        "text": "Ne pozabite: Ich muss... = Must..."
+        "text": "Zapamtite: Ich muss... = Moram..."
       },
       "important": [
-        "Müssen е модален глагол.",
-        "Вторият глагол обикновено се поставя в края на изречението: Ich muss heute arbeiten."
+        "Müssen je modalni glagol.",
+        "Drugi glagol obično ide na kraju rečenice: Ich muss heute arbeiten."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "müssen",
-            "Основна"
+            "Ich muss"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna",
+            "Glavna",
+            "Glavna"
+          ],
+          "green": [
+            "Glavna"
           ]
         },
         "examples": [
@@ -11808,7 +15454,11 @@ const A1_WORDS = [
                 "gehen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Moram"
+              ]
+            }
           },
           {
             "de": {
@@ -11817,7 +15467,11 @@ const A1_WORDS = [
                 "warten"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Morate"
+              ]
+            }
           },
           {
             "de": {
@@ -11826,7 +15480,11 @@ const A1_WORDS = [
                 "lernen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Moramo"
+              ]
+            }
           },
           {
             "de": {
@@ -11835,13 +15493,26 @@ const A1_WORDS = [
                 "arbeiten"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Moram"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "müssen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Treba/moram",
+                "Treba/moram"
+              ]
+            },
             "example": {
               "blue": [
                 "muss"
@@ -11849,8 +15520,17 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "können"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Biti",
+                "Biti"
+              ]
+            },
             "example": {
               "green": [
                 "kann"
@@ -11858,8 +15538,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "wollen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Želim"
+              ]
+            },
             "example": {
               "yellow": [
                 "will"
@@ -11867,8 +15555,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "dürfen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Biti"
+              ]
+            },
             "example": {
               "red": [
                 "Darf"
@@ -11880,6 +15576,9 @@ const A1_WORDS = [
           "left": {
             "blue": [
               "Ich muss"
+            ],
+            "purple": [
+              "Zapamtite"
             ]
           }
         },
@@ -11887,12 +15586,18 @@ const A1_WORDS = [
           {
             "blue": [
               "müssen"
+            ],
+            "purple": [
+              "Müssen"
             ]
           },
           {
             "blue": [
               "muss",
               "arbeiten"
+            ],
+            "purple": [
+              "Drugi"
             ]
           }
         ]
@@ -11903,82 +15608,92 @@ const A1_WORDS = [
     "de": "Mutter",
     "de_article": "die",
     "de_plural": "die Mütter",
-    "lv": "Mati",
+    "lv": "Majka",
     "level": "A1"
   },
   {
     "de": "Mütze",
     "de_article": "die",
     "de_plural": "die Mützen",
-    "lv": "Шапка",
+    "lv": "Šešir",
     "level": "A1"
   },
   {
     "de": "nach",
-    "lv": "Преди • След",
+    "lv": "Do • Nakon",
     "level": "A1",
     "study": {
       "id": "a1-nach",
       "layout": "standardStudy",
-      "translation": "Преди • След",
+      "translation": "Do • Nakon",
       "explanation": [
-        "Ключова идея: nach означава „с места“ и „след“ с време или последователност.",
-        "V mestih in državah brez članka nah pogosto pomeni da.",
-        "Со текот на времето, nach значи \"по\".",
-        "Во фразата nach Hause значи куќа."
+        "Glavna ideja: nach znači do s mjestima i poslije s vremenom ili nizom.",
+        "Sa gradovima i državama bez članka nach često znači da.",
+        "S vremenom nach znači poslije.",
+        "U frazi nach Hause to znači dom."
       ],
       "examples": [
         {
           "de": "Ich fahre nach Berlin.",
-          "lv": "Grem v Berlin."
+          "lv": "Idem u Berlin."
         },
         {
           "de": "Wir gehen nach Hause.",
-          "lv": "Прибираме се."
+          "lv": "Idemo kući."
         },
         {
           "de": "Nach dem Essen gehen wir spazieren.",
-          "lv": "След като се нахраним, излизаме на разходка."
+          "lv": "Nakon jela idemo u šetnju."
         },
         {
           "de": "Es ist zehn nach acht.",
-          "lv": "Осем и десет минути е."
+          "lv": "Deset i osam je."
         }
       ],
       "comparison": [
         {
           "word": "nach",
-          "meaning": "Prije/poslije",
+          "meaning": "Do / poslije",
           "example": "Ich fahre nach Berlin."
         },
         {
           "word": "zu",
-          "meaning": "Gdje",
+          "meaning": "To / at",
           "example": "Ich gehe zum Arzt."
         },
         {
           "word": "in",
-          "meaning": "В/до мястото с артикула",
+          "meaning": "U / na mjesto sa člankom",
           "example": "Ich gehe in die Schule."
         },
         {
           "word": "vor",
-          "meaning": "Пред/пред",
+          "meaning": "Prije / ispred",
           "example": "Vor dem Essen wasche ich die Hände."
         }
       ],
       "tip": {
-        "text": "Запомнете: nach Hause • Nach Berlin • След хранене."
+        "text": "Zapamtite: nach Hause • Nach Berlin • Nakon jela."
       },
       "important": [
-        "Nach se ne koristi na svim mjestima.",
-        "Хората обикновено ходят на училище в die Schule, а не в nach Schule."
+        "Nach se ne koristi sa svim mjestima.",
+        "U školu je obično u die Schule, a ne nach Schule."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "nach",
             "nach Hause"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna",
+            "Glavna"
+          ],
+          "green": [
+            "Glavna",
+            "Glavna",
+            "Glavna"
           ]
         },
         "examples": [
@@ -11991,7 +15706,14 @@ const A1_WORDS = [
                 "Berlin"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Idem"
+              ],
+              "green": [
+                "Berlin"
+              ]
+            }
           },
           {
             "de": {
@@ -11999,7 +15721,11 @@ const A1_WORDS = [
                 "nach Hause"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Idemo"
+              ]
+            }
           },
           {
             "de": {
@@ -12010,7 +15736,14 @@ const A1_WORDS = [
                 "Essen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Nakon"
+              ],
+              "yellow": [
+                "Nakon"
+              ]
+            }
           },
           {
             "de": {
@@ -12018,13 +15751,26 @@ const A1_WORDS = [
                 "nach"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Deset"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "nach"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "poslije",
+                "poslije"
+              ]
+            },
             "example": {
               "blue": [
                 "nach"
@@ -12032,7 +15778,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "zu"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -12041,8 +15791,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "in"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "mjesto"
+              ]
+            },
             "example": {
               "green": [
                 "in die Schule"
@@ -12050,8 +15808,17 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "vor"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Prije",
+                "Prije"
+              ]
+            },
             "example": {
               "red": [
                 "Vor"
@@ -12062,7 +15829,11 @@ const A1_WORDS = [
         "tip": {
           "left": {
             "blue": [
-              "nach Hause"
+              "nach Hause",
+              "nach Berlin"
+            ],
+            "purple": [
+              "Zapamtite"
             ]
           }
         },
@@ -12070,9 +15841,15 @@ const A1_WORDS = [
           {
             "blue": [
               "nach"
+            ],
+            "red": [
+              "Nach"
             ]
           },
           {
+            "green": [
+              "školu"
+            ],
             "red": [
               "nach Schule"
             ]
@@ -12085,26 +15862,26 @@ const A1_WORDS = [
     "de": "Nachmittag",
     "de_article": "der",
     "de_plural": "die Nachmittage",
-    "lv": "Ручек",
+    "lv": "Popodne",
     "level": "A1"
   },
   {
     "de": "nachmittags",
-    "lv": "Во текот на денот",
+    "lv": "Popodne",
     "level": "A1"
   },
   {
     "de": "Nacht",
     "de_article": "die",
     "de_plural": "die Nächte",
-    "lv": "Нощ",
+    "lv": "Noć",
     "level": "A1"
   },
   {
     "de": "Nase",
     "de_article": "die",
     "de_plural": "die Nasen",
-    "lv": "Нос",
+    "lv": "Nos",
     "level": "A1"
   },
   {
@@ -12115,31 +15892,31 @@ const A1_WORDS = [
   {
     "de": "Natur",
     "de_article": "die",
-    "lv": "Природата",
+    "lv": "Priroda",
     "level": "A1"
   },
   {
     "de": "natürlich",
-    "lv": "Разбира се • Естествено",
+    "lv": "Naravno • Prirodno",
     "level": "A1",
     "study": {
       "id": "a1-natuerlich",
       "layout": "standardStudy",
-      "translation": "Разбира се • Естествено",
+      "translation": "Naravno • Prirodno",
       "explanation": [
-        "Ključna ideja: Prislov natürlich pomeni »seveda« in pridevnik »naravno«.",
-        "В разговор, потвърждаващ нещо, natürlich = разбира се (Kommst du mit? – Natürlich! = Ще дойдеш ли? – Разбира се!).",
-        "Кога се зборува за природа, потекло или квалитети, natürlich = природна (natürliche Schönheit = природна убавина).",
-        "Контекстът (отговор/потвърждение или описание) показва правилното значение."
+        "Glavna ideja: natürlich kao prilog znači naravno, kao pridjev znači prirodan.",
+        "U razgovoru, potvrđujući nešto, natürlich = naravno (Kommst du mit? – Natürlich! = Ideš li? – Naravno!).",
+        "Kada govorimo o prirodi, porijeklu ili kvalitetima, natürlich = prirodno (natürliche Schönheit = prirodna ljepota).",
+        "Kontekst (odgovor/potvrda ili opis) pokazuje ispravno značenje."
       ],
       "examples": [
         {
           "de": "Kommst du mit? – Natürlich!",
-          "lv": "Ще дойдеш ли с мен - Със сигурност!"
+          "lv": "Ideš li sa mnom? - naravno!"
         },
         {
           "de": "Das ist eine natürliche Reaktion.",
-          "lv": "Това е естествена реакция."
+          "lv": "To je prirodna reakcija."
         },
         {
           "de": "Natürlich helfe ich dir.",
@@ -12147,29 +15924,33 @@ const A1_WORDS = [
         },
         {
           "de": "Sie hat natürliche rote Haare.",
-          "lv": "Таа има природна црвена коса."
+          "lv": "Ima prirodnu crvenu kosu."
         },
         {
           "de": "Natürlich kann ich das machen.",
-          "lv": "Seveda lahko to storim."
+          "lv": "Naravno da to mogu."
         },
         {
           "de": "Das ist ganz natürlich.",
-          "lv": "Това е напълно естествено/нормално."
+          "lv": "Ovo je potpuno prirodno/normalno."
         }
       ],
       "tip": [
-        "Потвърждавам или отговарям с отделна дума → разбира се.",
-        "Samostalniku, ki → naravno opisuje izvor ali kakovost."
+        "Kao posebna riječ, potvrda ili odgovor → naravno.",
+        "Pored imenice, koja opisuje porijeklo ili kvalitet → prirodan."
       ],
       "important": [
-        "Natürlich = siguran (potvrda, izjava) ILI prirodan (pridjev).",
-        "Нормално! како посебен извик секогаш = секако!"
+        "Natürlich = naravno (prilog, afirmacija) ILI prirodan (pridjev).",
+        "Naravno! kao poseban uzvik uvijek = naravno!"
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "natürlich"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna"
           ]
         },
         "examples": [
@@ -12179,7 +15960,11 @@ const A1_WORDS = [
                 "Natürlich"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Ideš"
+              ]
+            }
           },
           {
             "de": {
@@ -12187,7 +15972,11 @@ const A1_WORDS = [
                 "natürliche"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "prirodna"
+              ]
+            }
           },
           {
             "de": {
@@ -12195,7 +15984,11 @@ const A1_WORDS = [
                 "Natürlich"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Naravno"
+              ]
+            }
           },
           {
             "de": {
@@ -12203,7 +15996,11 @@ const A1_WORDS = [
                 "natürliche"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Ima"
+              ]
+            }
           },
           {
             "de": {
@@ -12211,7 +16008,11 @@ const A1_WORDS = [
                 "Natürlich"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Naravno"
+              ]
+            }
           },
           {
             "de": {
@@ -12219,90 +16020,119 @@ const A1_WORDS = [
                 "natürlich"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Ovo"
+              ]
+            }
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Kao"
+            ]
+          },
+          {
+            "green": [
+              "Kao"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "purple": [
+              "Natürlich",
+              "Natürlich"
+            ]
+          },
+          {
+            "blue": [
+              "Naravno"
+            ]
+          }
         ]
       }
     }
   },
   {
     "de": "neben",
-    "lv": "До",
+    "lv": "Pored",
     "level": "A1"
   },
   {
     "de": "nehmen",
-    "lv": "Uzmite • Uzmite",
+    "lv": "Uzeti • Uzeti",
     "level": "A1",
     "study": {
       "id": "a1-nehmen",
       "layout": "standardStudy",
-      "translation": "Uzmite • Uzmite",
+      "translation": "Uzeti • Uzeti",
       "explanation": [
-        "Основна идея: nemen означава да вземеш или вземеш.",
-        "Nekhmen se koristi kada nešto uzmete za sebe ili odaberete nešto.",
-        "Не е същото като „Бринген“, защото „Бринген“ означава „да донесеш или да дадеш на някого“.",
-        "\"holen\" znači \"progoniti i donijeti/uzeti\"."
+        "Glavna ideja: nehmen znači uzeti ili uzeti.",
+        "Nehmen se koristi kada uzmete nešto za sebe ili odaberete.",
+        "Nije isto što i doneti, jer doneti znači doneti ili odneti nekome.",
+        "Holen znači ići za i doneti/uzeti."
       ],
       "examples": [
         {
           "de": "Ich nehme den Bus.",
-          "lv": "Одам со автобус"
+          "lv": "Idem autobusom"
         },
         {
           "de": "Nimm das Buch!",
-          "lv": "Вземете книга!"
+          "lv": "Uzmi knjigu!"
         },
         {
           "de": "Ich bringe dir das Buch.",
-          "lv": "Донесох ти книга"
+          "lv": "Doneo sam ti knjigu"
         },
         {
           "de": "Ich hole dich ab.",
-          "lv": "Аз ще те закарам"
+          "lv": "Ja ću te odvesti"
         }
       ],
       "comparison": [
         {
           "word": "nehmen",
-          "meaning": "Ja uzimam",
+          "meaning": "Uzeti / uzeti",
           "example": "Nimm das Buch!"
         },
         {
           "word": "bringen",
-          "meaning": "Донеси/подигне/испорача",
+          "meaning": "Donijeti / uzeti / dostaviti",
           "example": "Ich bringe dir das Buch."
         },
         {
           "word": "holen",
-          "meaning": "Одам за/донесувам",
+          "meaning": "Idi za / dohvati",
           "example": "Ich hole Wasser."
         },
         {
           "word": "mitnehmen",
-          "meaning": "-Vzamite ga s sabo. -Razumem.",
+          "meaning": "Ponesite sa sobom",
           "example": "Ich nehme dich mit."
         }
       ],
       "tip": {
-        "text": "Zapamtite: dovedite sebe → nemen • Dovedite nekoga → dovedeni."
+        "text": "Zapamtite: uzmite za sebe → nehmen • Dovesti nekoga → doveden."
       },
       "important": [
-        "Ich nehme den Bus во превод од латвиски значи „Возам автобус“.",
-        "Neman ni isto kot Bringen."
+        "Ich nehme den Bus na latvijskom znači \"ja vozim autobus\".",
+        "Nehmen nije isto što i donesen."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "nemen"
+            "nehmen"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna"
+          ],
+          "red": [
+            "Glavna",
+            "holen"
           ]
         },
         "examples": [
@@ -12315,7 +16145,14 @@ const A1_WORDS = [
                 "Bus"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Idem"
+              ],
+              "yellow": [
+                "autobusom"
+              ]
+            }
           },
           {
             "de": {
@@ -12326,7 +16163,14 @@ const A1_WORDS = [
                 "Buch"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Uzmi"
+              ],
+              "yellow": [
+                "Uzmi"
+              ]
+            }
           },
           {
             "de": {
@@ -12337,7 +16181,14 @@ const A1_WORDS = [
                 "Buch"
               ]
             },
-            "lv": {}
+            "lv": {
+              "red": [
+                "Doneo"
+              ],
+              "yellow": [
+                "Doneo"
+              ]
+            }
           },
           {
             "de": {
@@ -12348,13 +16199,29 @@ const A1_WORDS = [
                 "dich"
               ]
             },
-            "lv": {}
+            "lv": {
+              "red": [
+                "odvesti"
+              ],
+              "green": [
+                "odvesti"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "nehmen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Uzeti",
+                "Uzeti"
+              ]
+            },
             "example": {
               "blue": [
                 "Nimm"
@@ -12362,8 +16229,18 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "bringen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Donijeti",
+                "Donijeti",
+                "Donijeti"
+              ]
+            },
             "example": {
               "red": [
                 "bringe"
@@ -12371,8 +16248,17 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "holen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Idi",
+                "Idi"
+              ]
+            },
             "example": {
               "yellow": [
                 "hole"
@@ -12380,8 +16266,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "mitnehmen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Ponesite"
+              ]
+            },
             "example": {
               "green": [
                 "nehme",
@@ -12392,7 +16286,14 @@ const A1_WORDS = [
         ],
         "tip": {
           "left": {
+            "blue": [
+              "nehmen"
+            ],
+            "purple": [
+              "Zapamtite"
+            ],
             "red": [
+              "Zapamtite",
               "Zapamtite"
             ]
           }
@@ -12401,87 +16302,100 @@ const A1_WORDS = [
           {
             "blue": [
               "nehme den Bus"
+            ],
+            "purple": [
+              "Ich"
             ]
           },
-          {}
+          {
+            "blue": [
+              "nehmen"
+            ],
+            "red": [
+              "Nehmen"
+            ]
+          }
         ]
       }
     }
   },
   {
     "de": "nein",
-    "lv": "Не",
+    "lv": "Br",
     "level": "A1"
   },
   {
     "de": "nennen",
-    "lv": "Ime",
+    "lv": "Imenovati",
     "level": "A1"
   },
   {
     "de": "nett",
-    "lv": "U redu",
+    "lv": "Lijepo",
     "level": "A1"
   },
   {
     "de": "neu",
-    "lv": "Ново (за нещата)",
+    "lv": "Novo (o stvarima)",
     "level": "A1",
     "study": {
       "id": "a1-neu",
       "layout": "standardStudy",
-      "translation": "Ново (за нещата)",
+      "translation": "Novo (o stvarima)",
       "explanation": [
-        "Ključna ideja: neu pomeni novo stvar - na novo ustvarjeno, kupljeno ali prvič uporabljeno.",
-        "Ној опишува работи, уреди, облека, куќи, идеи итн., а не возраста на личноста или животното.",
-        "V latvijščini ima beseda mladi dva pomena: mladi v starosti (jung) in mladi/na novo ustvarjeni (neu).",
-        "За възрастта на човек или животно се използва Юнг, а не Ней.",
-        "Neu се използва и в преносен смисъл: нова работа, нова информация, ново начало.",
-        "Обратното е alt (стар) • Съществителното das Neue означава ново."
+        "Glavna ideja: neu znači novo u smislu stvari—nedavno stvoreno, kupljeno ili korišteno po prvi put.",
+        "Neu opisuje stvari, uređaje, odjeću, kuće, ideje, itd. - ne ljudsko ili životinjsko doba.",
+        "Na letonskom, reč mlad ima dva značenja: mlad (jung) i mlad/skoro stvoren (neu).",
+        "Za starost osobe ili životinje koristi se jung, a ne neu.",
+        "Neu se također koristi u figurativnom smislu: novi posao, nova informacija, novi početak.",
+        "Suprotnost je alt (staro) • Imenica das Neue znači novi."
       ],
       "examples": [
         {
           "de": "Mein Handy ist neu.",
-          "lv": "Телефона ми е нов."
+          "lv": "Moj telefon je nov."
         },
         {
           "de": "Wir haben ein neues Auto.",
-          "lv": "Имаме нова кола."
+          "lv": "Imamo novi auto."
         },
         {
           "de": "Das ist meine neue Wohnung.",
-          "lv": "To je moje novo stanovanje."
+          "lv": "Ovo je moj novi stan."
         },
         {
           "de": "Ich habe neue Schuhe gekauft.",
-          "lv": "Kupila sem nove čevlje."
+          "lv": "Kupio sam nove cipele."
         },
         {
           "de": "Das ist eine neue Idee.",
-          "lv": "Ovo je nova ideja."
+          "lv": "To je nova ideja."
         },
         {
           "de": "Er hat einen neuen Job.",
-          "lv": "Тој има нова работа."
+          "lv": "Ima novi posao."
         },
         {
           "de": "Was gibt es Neues?",
-          "lv": "Какво ново"
+          "lv": "Šta ima novo"
         }
       ],
       "tip": [
-        "Neu - za stvari, uređaje i ažuriranja - kada govorite o godinama osobe, koristite yung.",
-        "Напротив: neu ↔ alt (нов ↔ старо)."
+        "Neu se odnosi na stvari, uređaje i vijesti - kada govorite o godinama osobe, koristite jung.",
+        "Nasuprot: neu ↔ alt (novo ↔ staro)."
       ],
       "important": [
-        "Ној опишува работи и новости, како и возраста на личност или животно.",
-        "За възрастта на човек или животно използвайте jung вместо neu.",
-        "Неправилно: Meine Schwester ist neu. → Правилно: Meine Schwester ist jung."
+        "Neu opisuje stvari i vijesti, niti starost osobe ili životinje.",
+        "Za dob osobe ili životinje, koristite jung umjesto neu.",
+        "Netačno: Meine Schwester ist neu. → Točno: Meine Schwester ist jung."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "neu"
+          ],
+          "purple": [
+            "Glavna"
           ],
           "green": [
             "jung"
@@ -12494,7 +16408,11 @@ const A1_WORDS = [
                 "neu"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Moj"
+              ]
+            }
           },
           {
             "de": {
@@ -12502,7 +16420,11 @@ const A1_WORDS = [
                 "neues"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Imamo"
+              ]
+            }
           },
           {
             "de": {
@@ -12510,7 +16432,11 @@ const A1_WORDS = [
                 "neue"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Ovo"
+              ]
+            }
           },
           {
             "de": {
@@ -12518,7 +16444,11 @@ const A1_WORDS = [
                 "neue"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Kupio"
+              ]
+            }
           },
           {
             "de": {
@@ -12526,7 +16456,11 @@ const A1_WORDS = [
                 "neue"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "nova"
+              ]
+            }
           },
           {
             "de": {
@@ -12534,7 +16468,11 @@ const A1_WORDS = [
                 "neuen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Ima"
+              ]
+            }
           },
           {
             "de": {
@@ -12542,7 +16480,11 @@ const A1_WORDS = [
                 "Neues"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Šta"
+              ]
+            }
           }
         ],
         "tip": [
@@ -12551,7 +16493,7 @@ const A1_WORDS = [
               "neu"
             ],
             "green": [
-              "Neu"
+              "jung"
             ]
           },
           {
@@ -12566,7 +16508,7 @@ const A1_WORDS = [
         "important": [
           {
             "blue": [
-              "Ној"
+              "neu"
             ]
           },
           {
@@ -12591,27 +16533,27 @@ const A1_WORDS = [
   },
   {
     "de": "neun",
-    "lv": "Девет",
+    "lv": "Devet",
     "level": "A1"
   },
   {
     "de": "neunhundert",
-    "lv": "Деветстотин",
+    "lv": "Devet stotina",
     "level": "A1"
   },
   {
     "de": "neunte",
-    "lv": "Девето",
+    "lv": "Deveti",
     "level": "A1"
   },
   {
     "de": "neunzehn",
-    "lv": "Деветнадесет",
+    "lv": "Devetnaest",
     "level": "A1"
   },
   {
     "de": "neunzehnte",
-    "lv": "Деветнадесети",
+    "lv": "Devetnaestog",
     "level": "A1"
   },
   {
@@ -12621,157 +16563,187 @@ const A1_WORDS = [
   },
   {
     "de": "neunzigste",
-    "lv": "Деветдесета",
+    "lv": "Devedesete",
     "level": "A1"
   },
   {
     "de": "nicht",
-    "lv": "Не",
+    "lv": "Br",
     "level": "A1"
   },
   {
     "de": "nichts",
-    "lv": "Нищо",
+    "lv": "Ništa",
     "level": "A1"
   },
   {
     "de": "nie",
-    "lv": "Nikoli mi ni bilo.",
+    "lv": "Nikad",
     "level": "A1"
   },
   {
     "de": "niemand",
-    "lv": "Никой",
+    "lv": "Niko",
     "level": "A1"
   },
   {
     "de": "noch",
-    "lv": "Повече",
+    "lv": "Još",
     "level": "A1",
     "study": {
       "id": "a1-noch-study",
       "layout": "standardStudy",
-      "translation": "Повече",
+      "translation": "Još",
       "explanation": [
-        "Основна идея: Нещо все още продължава или все още не е завършено.",
-        "Noch основно означава: нещо все още се случва.",
-        "Pogosto opisuje: nadaljevanje ali nedokončano stanje.",
-        "Zareza pomeni \"še ne\": nekaj se še dogaja ali še ni končano."
+        "Glavna ideja: Nešto se još događa ili još nije završeno.",
+        "Noch uglavnom znači: nešto se još uvijek događa.",
+        "Često opisuje: nastavak ili nedovršeno stanje.",
+        "Noch znači još uvijek: nešto još uvijek traje ili još nije završeno."
       ],
       "examples": [
         {
           "de": "Ich bin noch zu Hause.",
-          "lv": "Още съм си вкъщи."
+          "lv": "Još sam kod kuće."
         },
         {
           "de": "Ich bin noch zu Hause.",
-          "lv": "Јас сум уште дома"
+          "lv": "Još sam kod kuće"
         },
         {
           "de": "Bist du noch da?",
-          "lv": "Още ли си тук"
+          "lv": "Jesi li još ovdje"
         }
       ],
       "tip": [
-        "Нещо все още се случва или още не е приключило.",
+        "Nešto se još uvijek dešava ili još nije gotovo.",
         "Koristite noch kada kontekst odgovara ovom značenju."
       ],
       "important": [
-        "Ноќ = чао.",
-        "Нещо все още се случва или още не е приключило."
+        "Noch = još.",
+        "Nešto se još uvijek dešava ili još nije gotovo."
       ],
       "sectionAccents": {
-        "explanation": {},
+        "explanation": {
+          "green": [
+            "Glavna"
+          ],
+          "purple": [
+            "Glavna"
+          ]
+        },
         "examples": [
           {
             "de": {
               "green": [
+                "noch",
                 "noch"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Još"
+              ]
+            }
           },
           {
             "de": {
               "green": [
+                "noch",
                 "noch"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Još"
+              ]
+            }
           },
           {
             "de": {
               "green": [
+                "noch",
                 "noch"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Jesi"
+              ]
+            }
           }
         ],
         "tip": [
-          {}
+          {
+            "purple": [
+              "Nešto"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "green": [
+              "noch"
+            ]
+          }
         ]
       }
     }
   },
   {
     "de": "normal",
-    "lv": "Нормално",
+    "lv": "Normalno",
     "level": "A1"
   },
   {
     "de": "November",
     "de_article": "der",
-    "lv": "Ноември",
+    "lv": "Novembar",
     "level": "A1"
   },
   {
     "de": "Null",
     "de_article": "die",
     "de_plural": "die Nullen",
-    "lv": "Нула",
+    "lv": "Nula",
     "level": "A1"
   },
   {
     "de": "Nummer",
     "de_article": "die",
     "de_plural": "die Nummern",
-    "lv": "Број",
+    "lv": "Broj",
     "level": "A1"
   },
   {
     "de": "nur",
-    "lv": "Само • Само",
+    "lv": "Samo • Samo",
     "level": "A1",
     "study": {
       "id": "a1-nur-study",
       "layout": "standardStudy",
-      "translation": "Само • Само",
+      "translation": "Samo • Samo",
       "explanation": [
-        "Клучна идеја: го ограничува бројот, бројот на луѓе, изборите или опциите.",
-        "Нур основно означава: ограничено количество или избор.",
-        "Често описва: точно колко или кой е единственият.",
-        "Nur pomeni samo, izključno, nič več: omejuje količino ali izbiro."
+        "Glavna ideja: Ograničava količinu, broj ljudi, izbor ili opcije.",
+        "Nur prvenstveno znači: ograničena količina ili izbor.",
+        "Često opisuje: koliko, tačno, ili ko je jedini.",
+        "Nur znači samo, isključivo, ništa više: ograničava količinu ili izbor."
       ],
       "examples": [
         {
           "de": "Ich habe nur zehn Euro.",
-          "lv": "Имам само десет евро."
+          "lv": "Imam samo deset eura."
         },
         {
           "de": "Ich habe nur zehn Euro.",
-          "lv": "Имам само десет евро."
+          "lv": "Imam samo deset eura."
         },
         {
           "de": "Nur du kannst mir helfen.",
-          "lv": "Само ти можеш да ми помогнеш."
+          "lv": "Samo ti mi možeš pomoći."
         },
         {
           "de": "Ich möchte nur Kaffee.",
-          "lv": "Искам само кафе"
+          "lv": "Samo želim kafu"
         },
         {
           "de": "Ich habe nur acht Euro.",
@@ -12779,55 +16751,95 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Ограничува количина, број на луѓе, избори или опции.",
-        "Използва се само когато контекстът съответства на това значение."
+        "Ograničava količinu, broj ljudi, izbor ili opcije.",
+        "Koristi se samo kada kontekst odgovara ovom značenju."
       ],
       "important": [
-        "Латвийското „само“ на немски не винаги е nur.",
-        "Нур = само/исклучиво."
+        "Letonski \"samo\" na njemačkom nije uvijek nur.",
+        "Nur = samo / isključivo."
       ],
       "sectionAccents": {
-        "explanation": {},
+        "explanation": {
+          "orange": [
+            "nur",
+            "nur"
+          ],
+          "green": [
+            "Glavna"
+          ],
+          "red": [
+            "Glavna"
+          ],
+          "yellow": [
+            "Glavna",
+            "Glavna"
+          ]
+        },
         "examples": [
           {
             "de": {
               "orange": [
+                "nur",
                 "nur"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Imam"
+              ]
+            }
           },
           {
             "de": {
               "orange": [
+                "nur",
                 "nur"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Imam"
+              ]
+            }
           },
           {
             "de": {
               "orange": [
+                "nur",
                 "nur"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Samo"
+              ]
+            }
           },
           {
             "de": {
               "orange": [
+                "nur",
                 "nur"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Samo"
+              ]
+            }
           },
           {
             "de": {
               "orange": [
+                "nur",
                 "nur"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Imam"
+              ]
+            }
           }
         ],
         "tip": [
@@ -12835,76 +16847,86 @@ const A1_WORDS = [
           {}
         ],
         "important": [
-          {}
+          {
+            "orange": [
+              "nur"
+            ]
+          }
         ]
       }
     }
   },
   {
     "de": "ob",
-    "lv": "Или",
+    "lv": "Ili",
     "level": "A1",
     "study": {
       "id": "a1-ob",
       "layout": "standardStudy",
-      "translation": "Или",
+      "translation": "Ili",
       "explanation": [
-        "Основна идея: ob въвежда непряк въпрос и на латвийски най-често означава или.",
-        "Ob се използва след думи като fragen, wissen, sehen, sagen, когато няма директен въпрос.",
-        "Ob обикновено не се използва в директни въпроси на немски.",
-        "Na nivou A1 važno je da se razlikujete od pozornice."
+        "Glavna ideja: ob uvodi indirektno pitanje i na latvijskom najčešće znači ili.",
+        "Ob se koristi nakon riječi kao što su fragen, wissen, sehen, sagen kada nema direktnog pitanja.",
+        "Ob se obično ne koristi u direktnom pitanju na njemačkom.",
+        "Na nivou A1 važno je razlikovati ob od oder."
       ],
       "examples": [
         {
           "de": "Ich weiß nicht, ob er kommt.",
-          "lv": "Не знам дали ќе дојде."
+          "lv": "Ne znam da li će doći."
         },
         {
           "de": "Sie fragt, ob du Zeit hast.",
-          "lv": "Тя пита имаш ли време."
+          "lv": "Ona pita da li imate vremena."
         },
         {
           "de": "Sag mir, ob das stimmt.",
-          "lv": "Кажете дали е вярно."
+          "lv": "Reci mi da li je ovo istina."
         },
         {
           "de": "Kommst du heute oder morgen?",
-          "lv": "Ще дойдеш ли днес или утре?"
+          "lv": "Dolaziš li danas ili sutra?"
         }
       ],
       "comparison": [
         {
           "word": "ob",
-          "meaning": "Или в косвен въпрос",
+          "meaning": "Ili u indirektnom pitanju",
           "example": "Ich weiß nicht, ob er kommt."
         },
         {
           "word": "oder",
-          "meaning": "Или изберете една от опциите",
+          "meaning": "Ili birajte između opcija",
           "example": "Kaffee oder Tee?"
         },
         {
           "word": "wenn",
-          "meaning": "Ако/кога",
+          "meaning": "Ako / kada",
           "example": "Wenn du Zeit hast..."
         },
         {
           "word": "dass",
-          "meaning": "Што",
+          "meaning": "To",
           "example": "Ich weiß, dass er kommt."
         }
       ],
       "tip": {
-        "text": "Ne pozabite: Ne vem, če… → za • → naročilo kave ali čaja."
+        "text": "Zapamtite: ne znam da li... → ob • Kafa ili čaj → oder."
       },
       "important": [
-        "Ob не е обичайната форма за избор на „или“ между две неща.",
-        "Kafa ili čaj? Umjesto vola."
+        "Ob nije uobičajeni oblik izbora \"ili\" između dvije stvari.",
+        "Kaffee ili Tee? oder se koristi umjesto ob."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "ob"
+            "ob",
+            "oder"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna",
+            "Glavna"
           ],
           "green": [
             "fragen",
@@ -12920,7 +16942,11 @@ const A1_WORDS = [
                 "ob"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "znam"
+              ]
+            }
           },
           {
             "de": {
@@ -12928,7 +16954,11 @@ const A1_WORDS = [
                 "ob"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Ona"
+              ]
+            }
           },
           {
             "de": {
@@ -12936,7 +16966,11 @@ const A1_WORDS = [
                 "ob"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Reci"
+              ]
+            }
           },
           {
             "de": {
@@ -12944,13 +16978,26 @@ const A1_WORDS = [
                 "oder"
               ]
             },
-            "lv": {}
+            "lv": {
+              "red": [
+                "Dolaziš"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "ob"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Ili",
+                "Ili"
+              ]
+            },
             "example": {
               "blue": [
                 "ob"
@@ -12958,8 +17005,17 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "oder"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Ili",
+                "Ili"
+              ]
+            },
             "example": {
               "red": [
                 "oder"
@@ -12967,8 +17023,17 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "wenn"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Ako",
+                "kad"
+              ]
+            },
             "example": {
               "yellow": [
                 "Wenn"
@@ -12976,7 +17041,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "dass"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -12986,7 +17055,18 @@ const A1_WORDS = [
           }
         ],
         "tip": {
-          "left": {}
+          "left": {
+            "blue": [
+              "ob"
+            ],
+            "purple": [
+              "Zapamtite"
+            ],
+            "red": [
+              "oder",
+              "Zapamtite"
+            ]
+          }
         },
         "important": [
           {
@@ -12994,82 +17074,94 @@ const A1_WORDS = [
               "ob"
             ]
           },
-          {}
+          {
+            "red": [
+              "oder"
+            ],
+            "blue": [
+              "ob"
+            ]
+          }
         ]
       }
     }
   },
   {
     "de": "oben",
-    "lv": "Usmeri prste, prosim.",
+    "lv": "Gore",
     "level": "A1"
   },
   {
     "de": "oder",
-    "lv": "Или • Или",
+    "lv": "Ili • Ili",
     "level": "A1",
     "study": {
       "id": "a1-oder",
       "layout": "standardStudy",
-      "translation": "Или • Или",
+      "translation": "Ili • Ili",
       "explanation": [
-        "Главна идеја: oder се користи кога избираме помеѓу две или повеќе опции.",
-        "V latvijščini oder najpogosteje pomeni oboje.",
-        "Ovo nije isto kao kada se postavlja indirektno pitanje.",
-        "В разговори oder може да се появи и в края на изречението: Du kommst, oder?"
+        "Glavna ideja: oder se koristi kada biramo između dvije ili više opcija.",
+        "Na latvijskom, oder najčešće znači ili.",
+        "To nije isto što i ob, koji uvodi indirektno pitanje.",
+        "U razgovorima oder može biti i na kraju rečenice: Du kommst, oder?"
       ],
       "examples": [
         {
           "de": "Kaffee oder Tee?",
-          "lv": "Кафе или чай?"
+          "lv": "Kafa ili čaj?"
         },
         {
           "de": "Heute oder morgen?",
-          "lv": "Днес или утре?"
+          "lv": "Danas ili sutra?"
         },
         {
           "de": "Willst du Pizza oder Salat?",
-          "lv": "Искаш ли пица или салата?"
+          "lv": "Hoćeš picu ili salatu"
         },
         {
           "de": "Du kommst, oder?",
-          "lv": "Ще дойдеш, нали?"
+          "lv": "Doći ćeš, zar ne?"
         }
       ],
       "comparison": [
         {
           "word": "oder",
-          "meaning": "Или изберете",
+          "meaning": "Ili izaberite",
           "example": "Kaffee oder Tee?"
         },
         {
           "word": "ob",
-          "meaning": "Или в косвен въпрос",
+          "meaning": "Ili u indirektnom pitanju",
           "example": "Ich weiß nicht, ob er kommt."
         },
         {
           "word": "und",
-          "meaning": "И",
+          "meaning": "I",
           "example": "Kaffee und Kuchen."
         },
         {
           "word": "aber",
-          "meaning": "Ampak.",
+          "meaning": "Ali",
           "example": "Ich komme, aber später."
         }
       ],
       "tip": {
-        "text": "Ne pozabite: izbirajte med → možnostmi naročila."
+        "text": "Zapamtite: biranje između opcija → ili."
       },
       "important": [
-        "Oder се използва за избор на: Kaffee oder Tee.",
-        "Во индиректно прашање, „дали“ обично значи том."
+        "Oder se koristi za odabir: Kaffee oder Tee.",
+        "U indirektnom pitanju, \"da li\" je obično ob."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "oder",
-            "Главна"
+            "ob"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna",
+            "Glavna"
           ]
         },
         "examples": [
@@ -13083,7 +17175,15 @@ const A1_WORDS = [
                 "Tee"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Kafa"
+              ],
+              "yellow": [
+                "Kafa",
+                "Kafa"
+              ]
+            }
           },
           {
             "de": {
@@ -13091,7 +17191,11 @@ const A1_WORDS = [
                 "oder"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Danas"
+              ]
+            }
           },
           {
             "de": {
@@ -13103,7 +17207,15 @@ const A1_WORDS = [
                 "Salat"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Hoćeš"
+              ],
+              "yellow": [
+                "picu",
+                "salatu"
+              ]
+            }
           },
           {
             "de": {
@@ -13111,13 +17223,26 @@ const A1_WORDS = [
                 "oder"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Doći"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "oder"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Ili",
+                "Ili"
+              ]
+            },
             "example": {
               "blue": [
                 "oder"
@@ -13125,8 +17250,17 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "ob"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Ili",
+                "Ili"
+              ]
+            },
             "example": {
               "red": [
                 "ob"
@@ -13134,7 +17268,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "und"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -13143,8 +17281,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "aber"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Ali"
+              ]
+            },
             "example": {
               "yellow": [
                 "aber"
@@ -13153,153 +17299,181 @@ const A1_WORDS = [
           }
         ],
         "tip": {
-          "left": {}
+          "left": {
+            "blue": [
+              "Zapamtite"
+            ],
+            "purple": [
+              "Zapamtite",
+              "Zapamtite"
+            ]
+          }
         },
         "important": [
           {
             "blue": [
               "oder"
+            ],
+            "purple": [
+              "Oder"
             ]
           },
-          {}
+          {
+            "red": [
+              "ob"
+            ],
+            "purple": [
+              "indirektnom"
+            ]
+          }
         ]
       }
     }
   },
   {
     "de": "öffnen",
-    "lv": "Otvori",
+    "lv": "Otvoriti",
     "level": "A1"
   },
   {
     "de": "oft",
-    "lv": "Често",
+    "lv": "Često",
     "level": "A1"
   },
   {
     "de": "ohne",
-    "lv": "Без",
+    "lv": "Bez",
     "level": "A1"
   },
   {
     "de": "Ohr",
     "de_article": "das",
     "de_plural": "die Ohren",
-    "lv": "Уво",
+    "lv": "Uho",
     "level": "A1"
   },
   {
     "de": "Oktober",
     "de_article": "der",
-    "lv": "Okt.",
+    "lv": "Oktobar",
     "level": "A1"
   },
   {
     "de": "Onkel",
     "de_article": "der",
     "de_plural": "die Onkel",
-    "lv": "Чичо",
+    "lv": "Ujak",
     "level": "A1"
   },
   {
     "de": "Orange",
     "de_article": "die",
     "de_plural": "die Orangen",
-    "lv": "Narandžasta",
+    "lv": "Narandža",
     "level": "A1"
   },
   {
     "de": "Ostern",
-    "lv": "Велигден",
+    "lv": "Uskrs",
     "level": "A1"
   },
   {
     "de": "Paar",
     "de_article": "das",
     "de_plural": "die Paare",
-    "lv": "Чифт",
+    "lv": "Par",
     "level": "A1"
   },
   {
     "de": "Papier",
     "de_article": "das",
     "de_plural": "die Papiere",
-    "lv": "Хартия",
+    "lv": "Papir",
     "level": "A1"
   },
   {
     "de": "Park",
     "de_article": "der",
     "de_plural": "die Parks",
-    "lv": "Паркирайте",
+    "lv": "Park",
     "level": "A1"
   },
   {
     "de": "passen",
-    "lv": "Подходящ • Подходящ",
+    "lv": "Fit • Fit",
     "level": "A1",
     "study": {
       "id": "a1-passen",
       "layout": "standardStudy",
-      "translation": "Подходящ • Подходящ",
+      "translation": "Fit • Fit",
       "explanation": [
-        "Клучна идеја: поминување значи приближување, приближување или приближување.",
-        "U odjeći, pasivno često znači istinita veličina.",
-        "Za barvo ali slog pomeni \"prilegati se\".",
-        "Vrlo uobičajena fraza je Das passt. = Odgovarajuće."
+        "Glavna ideja: passen znači pristajati, odgovarati ili biti prikladan.",
+        "Za odjeću passen često znači da odgovara veličini.",
+        "Za boje ili stil, passen znači pristajati.",
+        "Vrlo uobičajena fraza je Das passt. = Odgovara."
       ],
       "examples": [
         {
           "de": "Die Jacke passt mir.",
-          "lv": "Nešto mi odgovara."
+          "lv": "Jakna mi pristaje."
         },
         {
           "de": "Das Kleid passt gut.",
-          "lv": "Obleka je videti dobro."
+          "lv": "Haljina dobro stoji."
         },
         {
           "de": "Die Farbe passt zu dir.",
-          "lv": "Оваа боја ви одговара."
+          "lv": "Ova boja ti pristaje."
         },
         {
           "de": "Das passt.",
-          "lv": "Тоа одговара."
+          "lv": "Pristaje."
         }
       ],
       "comparison": [
         {
           "word": "passen",
-          "meaning": "Подходящ / Подходящ",
+          "meaning": "Fit / fit",
           "example": "Die Jacke passt mir."
         },
         {
           "word": "stehen",
-          "meaning": "Застанете / застанете",
+          "meaning": "Stajati / stajati",
           "example": "Rot steht dir gut."
         },
         {
           "word": "geeignet sein",
-          "meaning": "Бъдете подходящи",
+          "meaning": "Biti prikladan",
           "example": "Das ist geeignet."
         },
         {
           "word": "funktionieren",
-          "meaning": "Действайте",
+          "meaning": "Operirati",
           "example": "Das funktioniert."
         }
       ],
       "tip": {
-        "text": "Ne pozabite: Das passt. = Primerno."
+        "text": "Zapamtite: Das past. = Odgovara."
       },
       "important": [
-        "Passen не е само за дрехи.",
-        "Това може също да означава, че времето, планът или решението са правилни."
+        "Passen se ne odnosi samo na odjeću.",
+        "To također može značiti da je tajming, plan ili rješenje ispravno."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "passt",
+            "passen",
             "Das passt"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna",
+            "Glavna"
+          ],
+          "yellow": [
+            "Glavna",
+            "Glavna",
+            "stil"
           ]
         },
         "examples": [
@@ -13312,7 +17486,14 @@ const A1_WORDS = [
                 "Jacke"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Jakna"
+              ],
+              "yellow": [
+                "Jakna"
+              ]
+            }
           },
           {
             "de": {
@@ -13323,7 +17504,14 @@ const A1_WORDS = [
                 "Kleid"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Haljina"
+              ],
+              "yellow": [
+                "Haljina"
+              ]
+            }
           },
           {
             "de": {
@@ -13334,7 +17522,14 @@ const A1_WORDS = [
                 "Farbe"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Ova"
+              ],
+              "yellow": [
+                "Ova"
+              ]
+            }
           },
           {
             "de": {
@@ -13342,13 +17537,26 @@ const A1_WORDS = [
                 "Das passt"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Pristaje"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "passen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Fit",
+                "Fit"
+              ]
+            },
             "example": {
               "blue": [
                 "passt"
@@ -13356,8 +17564,17 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "stehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Stajati",
+                "Stajati"
+              ]
+            },
             "example": {
               "green": [
                 "steht"
@@ -13365,8 +17582,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "geeignet sein"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Biti"
+              ]
+            },
             "example": {
               "yellow": [
                 "geeignet"
@@ -13374,8 +17599,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "funktionieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Operirati"
+              ]
+            },
             "example": {
               "red": [
                 "funktioniert"
@@ -13386,7 +17619,10 @@ const A1_WORDS = [
         "tip": {
           "left": {
             "blue": [
-              "Das passt"
+              "Das past"
+            ],
+            "purple": [
+              "Zapamtite"
             ]
           }
         },
@@ -13394,9 +17630,19 @@ const A1_WORDS = [
           {
             "blue": [
               "passen"
+            ],
+            "yellow": [
+              "Passen"
             ]
           },
-          {}
+          {
+            "purple": [
+              "također",
+              "također",
+              "također",
+              "također"
+            ]
+          }
         ]
       }
     }
@@ -13405,35 +17651,35 @@ const A1_WORDS = [
     "de": "Pause",
     "de_article": "die",
     "de_plural": "die Pausen",
-    "lv": "Почивка",
+    "lv": "Pauza",
     "level": "A1"
   },
   {
     "de": "Person",
     "de_article": "die",
     "de_plural": "die Personen",
-    "lv": "Човешки",
+    "lv": "Osoba",
     "level": "A1"
   },
   {
     "de": "Pferd",
     "de_article": "das",
     "de_plural": "die Pferde",
-    "lv": "Кон",
+    "lv": "Konj",
     "level": "A1"
   },
   {
     "de": "Pflanze",
     "de_article": "die",
     "de_plural": "die Pflanzen",
-    "lv": "Растение",
+    "lv": "Biljka",
     "level": "A1"
   },
   {
     "de": "Pizza",
     "de_article": "die",
     "de_plural": "die Pizzen",
-    "lv": "Пица",
+    "lv": "Pizza",
     "level": "A1"
   },
   {
@@ -13447,19 +17693,19 @@ const A1_WORDS = [
     "de": "Platz",
     "de_article": "der",
     "de_plural": "die Plätze",
-    "lv": "Место",
+    "lv": "Mjesto",
     "level": "A1"
   },
   {
     "de": "Polizei",
     "de_article": "die",
-    "lv": "Полиция",
+    "lv": "Policiju",
     "level": "A1"
   },
   {
     "de": "Post",
     "de_article": "die",
-    "lv": "Поща",
+    "lv": "Mail",
     "level": "A1"
   },
   {
@@ -13471,70 +17717,81 @@ const A1_WORDS = [
   },
   {
     "de": "probieren",
-    "lv": "Опитайте • Опитайте",
+    "lv": "Probati • Po ukusu",
     "level": "A1",
     "study": {
       "id": "a1-probieren",
       "layout": "standardStudy",
-      "translation": "Опитайте • Опитайте",
+      "translation": "Probati • Po ukusu",
       "explanation": [
-        "Главна идеја: probieren значи да се обиде или да се обиде.",
-        "Ko govorimo o hrani ali pijači, beseda \"probieren\" pogosto pomeni \"okus\".",
-        "Ko govorimo o dejanju, metodi ali čem podobnem, \"začetnik\" pomeni \"poskusiti\".",
-        "Това не е същото като prüfen, което означава по-задълбочена проверка."
+        "Glavna ideja: probieren znači probati ili okusiti.",
+        "Kada je u pitanju hrana ili piće, probieren često znači ukus.",
+        "Kada je u pitanju radnja, metoda ili stvar, probieren znači pokušati.",
+        "Nije isto što i prüfen, što znači pažljivije provjeriti."
       ],
       "examples": [
         {
           "de": "Probier mal die Suppe!",
-          "lv": "Poskusite juho!"
+          "lv": "Probajte supu!"
         },
         {
           "de": "Ich möchte den Kuchen probieren.",
-          "lv": "Искам да опитам тортата."
+          "lv": "Želim da probam tortu."
         },
         {
           "de": "Wir probieren eine neue Methode.",
-          "lv": "Опитваме нов метод."
+          "lv": "Isprobavamo novu metodu."
         },
         {
           "de": "Kann ich die Jacke anprobieren?",
-          "lv": "Mogu li probati jaknu?"
+          "lv": "Mogu li probati jaknu"
         }
       ],
       "comparison": [
         {
           "word": "probieren",
-          "meaning": "Probaj",
+          "meaning": "Probaj / probaj",
           "example": "Probier mal die Suppe!"
         },
         {
           "word": "versuchen",
-          "meaning": "Опитайте го",
+          "meaning": "Pokušati",
           "example": "Ich versuche es."
         },
         {
           "word": "prüfen",
-          "meaning": "Oglejte si",
+          "meaning": "Provjeriti",
           "example": "Ich prüfe die Rechnung."
         },
         {
           "word": "anprobieren",
-          "meaning": "Опитайте го",
+          "meaning": "Probati",
           "example": "Ich probiere die Jacke an."
         }
       ],
       "tip": {
-        "text": "Запомнете: храна → вкус = на вкус."
+        "text": "Zapamtite: hrana → probieren = po ukusu."
       },
       "important": [
-        "Začetnik ni glavna beseda za uradni izpit.",
-        "Provjera dokumenta ili fakture je obično laka."
+        "Probieren nije glavna riječ za formalno ispitivanje.",
+        "Za provjeru dokumenta ili fakture obično je prüfen."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "probieren",
             "prüfen"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna",
+            "Glavna"
+          ],
+          "yellow": [
+            "Glavna",
+            "Glavna",
+            "metoda",
+            "Glavna"
           ]
         },
         "examples": [
@@ -13547,7 +17804,14 @@ const A1_WORDS = [
                 "Suppe"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Probajte"
+              ],
+              "yellow": [
+                "supu"
+              ]
+            }
           },
           {
             "de": {
@@ -13558,7 +17822,14 @@ const A1_WORDS = [
                 "Kuchen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Želim"
+              ],
+              "yellow": [
+                "Želim"
+              ]
+            }
           },
           {
             "de": {
@@ -13569,7 +17840,14 @@ const A1_WORDS = [
                 "Methode"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Isprobavamo"
+              ],
+              "yellow": [
+                "metodu"
+              ]
+            }
           },
           {
             "de": {
@@ -13580,13 +17858,29 @@ const A1_WORDS = [
                 "Jacke"
               ]
             },
-            "lv": {}
+            "lv": {
+              "green": [
+                "Mogu"
+              ],
+              "yellow": [
+                "jaknu"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "probieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Probaj",
+                "Probaj"
+              ]
+            },
             "example": {
               "blue": [
                 "Probier"
@@ -13594,8 +17888,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "versuchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Pokušati"
+              ]
+            },
             "example": {
               "green": [
                 "versuche"
@@ -13603,8 +17905,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "prüfen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Provjeriti"
+              ]
+            },
             "example": {
               "red": [
                 "prüfe"
@@ -13612,8 +17922,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "anprobieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Probati"
+              ]
+            },
             "example": {
               "yellow": [
                 "probiere",
@@ -13623,11 +17941,35 @@ const A1_WORDS = [
           }
         ],
         "tip": {
-          "left": {}
+          "left": {
+            "blue": [
+              "probieren"
+            ],
+            "yellow": [
+              "Zapamtite"
+            ],
+            "purple": [
+              "Zapamtite"
+            ]
+          }
         },
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "probieren"
+            ],
+            "red": [
+              "Probieren"
+            ]
+          },
+          {
+            "red": [
+              "prüfen"
+            ],
+            "purple": [
+              "provjeru"
+            ]
+          }
         ]
       }
     }
@@ -13636,60 +17978,60 @@ const A1_WORDS = [
     "de": "Problem",
     "de_article": "das",
     "de_plural": "die Probleme",
-    "lv": "Проблем",
+    "lv": "Problem",
     "level": "A1"
   },
   {
     "de": "Programm",
     "de_article": "das",
     "de_plural": "die Programme",
-    "lv": "Програма",
+    "lv": "Program",
     "level": "A1"
   },
   {
     "de": "Pullover",
     "de_article": "der",
     "de_plural": "die Pullover",
-    "lv": "Pulover",
+    "lv": "Džemper",
     "level": "A1"
   },
   {
     "de": "Punkt",
     "de_article": "der",
     "de_plural": "die Punkte",
-    "lv": "Точка",
+    "lv": "Tačka",
     "level": "A1"
   },
   {
     "de": "putzen",
-    "lv": "Чисто",
+    "lv": "Čistiti",
     "level": "A1"
   },
   {
     "de": "Rad fahren",
-    "lv": "Карайте колело",
+    "lv": "Voziti bicikl",
     "level": "A1"
   },
   {
     "de": "Radiergummi",
     "de_article": "der",
     "de_plural": "die Radiergummis",
-    "lv": "Бришач",
+    "lv": "Gumica",
     "level": "A1"
   },
   {
     "de": "rauchen",
-    "lv": "Пушенето",
+    "lv": "Da pušim",
     "level": "A1"
   },
   {
     "de": "rechts",
-    "lv": "Право • Право",
+    "lv": "Desno • Desno",
     "level": "A1"
   },
   {
     "de": "reden",
-    "lv": "Govor",
+    "lv": "Govoriti",
     "level": "A1"
   },
   {
@@ -13707,49 +18049,53 @@ const A1_WORDS = [
   },
   {
     "de": "regnen",
-    "lv": "Врне дожд",
+    "lv": "Pada kiša",
     "level": "A1"
   },
   {
     "de": "Reis",
     "de_article": "der",
-    "lv": "Rice.",
+    "lv": "Pirinač",
     "level": "A1",
     "study": {
       "id": "a1-reis",
       "layout": "standardStudy",
-      "translation": "Rice.",
-      "explanation": "На немски думата „der Reis“ се използва само в единствено число, така че глаголът в изречението трябва да е в единствено число (например „ist“, а не „sind“). Латвийците обаче често казват \"ориз\".",
+      "translation": "Pirinač",
+      "explanation": "U njemačkom se riječ \"der Reis\" koristi samo u jednini, tako da glagol u rečenici mora biti u obliku jednine (npr. \"ist\", a ne \"sind\"). Letonci, međutim, često kažu \"pirinač\".",
       "examples": [
         {
           "de": "Der Reis ist fertig.",
-          "lv": "Оризът е готов."
+          "lv": "Pirinač je spreman."
         },
         {
           "de": "Ich esse Reis.",
-          "lv": "Ям ориз"
+          "lv": "Jedem pirinač"
         },
         {
           "de": "Kochst du Reis?",
-          "lv": "Готвите ли ориз?"
+          "lv": "Kuvaš li pirinač?"
         },
         {
           "de": "Der Reis schmeckt gut.",
-          "lv": "Оризът е добър на вкус."
+          "lv": "Pirinač ima dobar ukus."
         }
       ],
       "tip": {
-        "text": "Ne pozabite: beseda der Reis v nemščini se uporablja v ednini, v latvijščini pa je običajno riž."
+        "text": "Zapamtite: der Reis je jednina na njemačkom, ali obično pirinač na latvijskom."
       },
       "important": [
-        "Der Reis - на немски език има само единствено число (Der Reis ist..., nicht *sind).",
-        "Летонскиот превод често ја користи множина: оризот е готов."
+        "Der Reis - na njemačkom jeziku samo u jednini (Der Reis ist..., nicht *sind).",
+        "U latvijskom prijevodu često se koristi množina: pirinač je spreman."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "der Reis",
             "ist"
+          ],
+          "purple": [
+            "njemačkom",
+            "njemačkom"
           ],
           "red": [
             "sind"
@@ -13763,7 +18109,11 @@ const A1_WORDS = [
                 "ist"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Pirinač"
+              ]
+            }
           },
           {
             "de": {
@@ -13771,12 +18121,20 @@ const A1_WORDS = [
                 "Reis"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Jedem"
+              ]
+            }
           }
         ],
         "tip": {
           "blue": [
             "der Reis"
+          ],
+          "purple": [
+            "Zapamtite",
+            "Zapamtite"
           ]
         }
       }
@@ -13784,94 +18142,100 @@ const A1_WORDS = [
   },
   {
     "de": "richtig",
-    "lv": "Правилно",
+    "lv": "Ispravan",
     "level": "A1"
   },
   {
     "de": "rosa",
-    "lv": "Розово",
+    "lv": "Roze",
     "level": "A1"
   },
   {
     "de": "rot",
-    "lv": "Црвено",
+    "lv": "Crvena",
     "level": "A1"
   },
   {
     "de": "rufen",
-    "lv": "Јавете ми се",
+    "lv": "Nazvati",
     "level": "A1"
   },
   {
     "de": "rund",
-    "lv": "Okrugli",
+    "lv": "Round",
     "level": "A1"
   },
   {
     "de": "Rose",
     "de_article": "die",
     "de_plural": "die Rosen",
-    "lv": "Rosa.",
+    "lv": "Ruža",
     "level": "A1"
   },
   {
     "de": "Sache",
     "de_article": "die",
     "de_plural": "die Sachen",
-    "lv": "Нешто",
+    "lv": "Stvar",
     "level": "A1"
   },
   {
     "de": "Saft",
     "de_article": "der",
     "de_plural": "die Säfte",
-    "lv": "Сок",
+    "lv": "Sok",
     "level": "A1"
   },
   {
     "de": "sagen",
-    "lv": "Кажи",
+    "lv": "Reći",
     "level": "A1",
     "study": {
       "id": "a1-sagen-study",
       "layout": "standardStudy",
-      "translation": "Кажи",
+      "translation": "Reći",
       "explanation": [
-        "Основна идея: Кажете конкретна идея, дума или изречение.",
-        "Sagen v bistvu pomeni: poudarjanje določenega stališča.",
-        "Често описва: думи/изречения.",
-        "Sagen се използва за конкретен текст."
+        "Glavna ideja: Recite određenu ideju, riječ ili rečenicu.",
+        "Sagen uglavnom znači: istaći određenu poentu.",
+        "Često opisuje: riječi/rečenice.",
+        "Sagen se koristi za određeni tekst."
       ],
       "examples": [
         {
           "de": "Was hast du gesagt?",
-          "lv": "Какво каза"
+          "lv": "Šta si rekao"
         }
       ],
       "comparison": [
         {
           "word": "sagen",
-          "meaning": "Кажи (конкретен текст)",
-          "example": "Was hast du gesagt? – Ко ту патеици?"
+          "meaning": "Reci (određeni tekst)",
+          "example": "Was hast du gesagt? – Šta si rekao"
         },
         {
           "word": "sprechen",
-          "meaning": "Говорете (език, говорете)",
+          "meaning": "Govoriti (jezik, pričati)",
           "example": "Ich spreche Deutsch. – Govorim njemački."
         }
       ],
       "tip": [
-        "Sagen = казвам",
-        "Използвайте sagen, когато контекстът съответства на това значение."
+        "Sagen = reći",
+        "Koristite sagen kada kontekst odgovara ovom značenju."
       ],
       "important": [
-        "Sagen = povedati.",
-        "За предаване на конкретна мисъл, дума или изречение."
+        "Sagen = reći.",
+        "Za prenošenje određene misli, riječi ili rečenice."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sagen"
+          ],
+          "purple": [
+            "tekst"
+          ],
+          "green": [
+            "tekst"
           ]
         },
         "examples": [
@@ -13881,7 +18245,11 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "purple": [
+              "Sagen"
+            ]
+          }
         ],
         "important": [
           {
@@ -13897,46 +18265,46 @@ const A1_WORDS = [
     "de": "Salat",
     "de_article": "der",
     "de_plural": "die Salate",
-    "lv": "Салата",
+    "lv": "Salata",
     "level": "A1"
   },
   {
     "de": "Salz",
     "de_article": "das",
     "de_plural": "die Salze",
-    "lv": "Сол",
+    "lv": "Sol",
     "level": "A1"
   },
   {
     "de": "sauber",
-    "lv": "Чисто",
+    "lv": "Čist",
     "level": "A1"
   },
   {
     "de": "Schaf",
     "de_article": "das",
     "de_plural": "die Schafe",
-    "lv": "Ovce",
+    "lv": "Ovca",
     "level": "A1"
   },
   {
     "de": "schauen",
-    "lv": "Pogledaj",
+    "lv": "Gledati",
     "level": "A1",
     "study": {
       "id": "a1-schauen-study",
       "layout": "standardStudy",
-      "translation": "Pogledaj",
+      "translation": "Gledati",
       "explanation": [
-        "Основна идея: Гледайте или гледайте активно.",
-        "Schauen pomeni najprej: aktivno opazovanje.",
-        "Често опишува: акција.",
-        "Šauen znači aktivno gledanje."
+        "Glavna ideja: Gledati ili gledati aktivno.",
+        "Schauen prvenstveno znači: aktivno gledati.",
+        "Često opisuje: akciju.",
+        "Schauen znači aktivno gledati."
       ],
       "examples": [
         {
           "de": "Ich schaue fern.",
-          "lv": "Гледам телевизија"
+          "lv": "Gledam TV."
         },
         {
           "de": "Wir schauen aus dem Fenster.",
@@ -13944,33 +18312,39 @@ const A1_WORDS = [
         },
         {
           "de": "Ich schaue fern.",
-          "lv": "Гледам телевизија"
+          "lv": "Gledam tv"
         }
       ],
       "comparison": [
         {
           "word": "schauen",
-          "meaning": "Gledajte (aktivno)",
-          "example": "Ich schaue aus dem Fenster. – Es skatos pa logo."
+          "meaning": "Gledati (aktivno)",
+          "example": "Ich schaue aus dem Fenster. – Gledam kroz prozor."
         },
         {
           "word": "sehen",
-          "meaning": "Vizija (brez namena)",
-          "example": "Ich sehe dich. – Es tevi redzu."
+          "meaning": "Vidjeti (bez namjere)",
+          "example": "Ich sehe dich. – Vidim te"
         }
       ],
       "tip": [
-        "Schauen = да гледам",
-        "Използвайте schauen, когато контекстът съответства на това значение."
+        "Schauen = gledati",
+        "Koristite schauen kada kontekst odgovara ovom značenju."
       ],
       "important": [
-        "Schauen = да гледам.",
-        "Aktivno posmatrajte ili posmatrajte."
+        "Schauen = gledati.",
+        "Aktivno gledajte ili gledajte."
       ],
       "sectionAccents": {
         "explanation": {
           "green": [
             "schauen"
+          ],
+          "purple": [
+            "Glavna"
+          ],
+          "orange": [
+            "Glavna"
           ]
         },
         "examples": [
@@ -13985,10 +18359,15 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
+                "schauen",
                 "schauen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Gledamo"
+              ]
+            }
           },
           {
             "de": {
@@ -14000,7 +18379,11 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "purple": [
+              "Schauen"
+            ]
+          }
         ],
         "important": [
           {
@@ -14014,17 +18397,17 @@ const A1_WORDS = [
   },
   {
     "de": "schicken",
-    "lv": "Изпратете",
+    "lv": "Poslati",
     "level": "A1"
   },
   {
     "de": "schlafen",
-    "lv": "Сън",
+    "lv": "Spavati",
     "level": "A1"
   },
   {
     "de": "schlecht",
-    "lv": "Лошо",
+    "lv": "Loše",
     "level": "A1"
   },
   {
@@ -14036,104 +18419,121 @@ const A1_WORDS = [
   },
   {
     "de": "schmecken",
-    "lv": "На вкус",
+    "lv": "Po ukusu",
     "level": "A1"
   },
   {
     "de": "schmutzig",
-    "lv": "Мръсен",
+    "lv": "Prljavo",
     "level": "A1"
   },
   {
     "de": "Schnee",
     "de_article": "der",
-    "lv": "Ќе врне снег",
+    "lv": "Padaće sneg",
     "level": "A1"
   },
   {
     "de": "schneien",
-    "lv": "Снег врне",
+    "lv": "Pada snijeg",
     "level": "A1"
   },
   {
     "de": "schnell",
-    "lv": "Бързо",
+    "lv": "Brzo",
     "level": "A1"
   },
   {
     "de": "Schokolade",
     "de_article": "die",
-    "lv": "Шоколад",
+    "lv": "Cokolada",
     "level": "A1"
   },
   {
     "de": "schon",
-    "lv": "Вече",
+    "lv": "Već",
     "level": "A1",
     "study": {
       "id": "a1-schon-study",
       "layout": "standardStudy",
-      "translation": "Вече",
+      "translation": "Već",
       "explanation": [
-        "Glavna ideja: Nekaj se je že zgodilo ali je že v veljavi.",
-        "Schon означава главно: нещо вече се е случило или се случва.",
-        "Често опишува: факт што се случил или постоечка состојба.",
-        "Schon означава вече: нещо вече се е случило или вече е в сила."
+        "Glavna ideja: Nešto se već dogodilo ili je već na snazi.",
+        "Schon uglavnom znači: nešto se već dogodilo ili je na snazi.",
+        "Često opisuje: činjenicu koja se dogodila ili postojeće stanje.",
+        "Schon znači već: nešto se već dogodilo ili je već na snazi."
       ],
       "examples": [
         {
           "de": "Ich bin schon zu Hause.",
-          "lv": "Zdaj sem doma"
+          "lv": "Već sam kod kuće"
         }
       ],
       "tip": [
-        "Нешто веќе се случило или е веќе во сила.",
-        "Uporabite schon, ko se kontekst ujema s tem pomenom."
+        "Nešto se već dogodilo ili je već na snazi.",
+        "Koristite schon kada kontekst odgovara ovom značenju."
       ],
       "important": [
-        "Шон = вече.",
-        "Нешто веќе се случило или е веќе во сила."
+        "Schon = već.",
+        "Nešto se već dogodilo ili je već na snazi."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
+            "schon",
             "schon"
+          ],
+          "purple": [
+            "Glavna"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
+                "schon",
                 "schon"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Već"
+              ]
+            }
           }
         ],
         "tip": [
-          {}
+          {
+            "purple": [
+              "Nešto"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "schon"
+            ]
+          }
         ]
       }
     }
   },
   {
     "de": "schön",
-    "lv": "Красива",
+    "lv": "Predivno",
     "level": "A1"
   },
   {
     "de": "Schrank",
     "de_article": "der",
     "de_plural": "die Schränke",
-    "lv": "Keeler",
+    "lv": "Ormar",
     "level": "A1"
   },
   {
     "de": "schreiben",
-    "lv": "Vi pišete",
+    "lv": "Pisati",
     "level": "A1"
   },
   {
@@ -14147,26 +18547,26 @@ const A1_WORDS = [
     "de": "Schule",
     "de_article": "die",
     "de_plural": "die Schulen",
-    "lv": "Šola",
+    "lv": "Škola",
     "level": "A1"
   },
   {
     "de": "Schüler",
     "de_article": "der",
     "de_plural": "die Schüler",
-    "lv": "Студент",
+    "lv": "Student",
     "level": "A1"
   },
   {
     "de": "schwarz",
-    "lv": "Црното",
+    "lv": "Crna",
     "level": "A1"
   },
   {
     "de": "Schwein",
     "de_article": "das",
     "de_plural": "die Schweine",
-    "lv": "Прасе",
+    "lv": "Svinja",
     "level": "A1"
   },
   {
@@ -14178,45 +18578,45 @@ const A1_WORDS = [
   },
   {
     "de": "schwimmen",
-    "lv": "Пливање",
+    "lv": "Plivati",
     "level": "A1",
     "study": {
       "id": "a1-schwimmen",
       "layout": "standardStudy",
-      "translation": "Пливање",
+      "translation": "Plivati",
       "explanation": [
-        "Главна идеја: schwimmen значи пливање како движење или спорт.",
-        "Schwimmen се користи кога се плива во вода користејќи пливачки движења.",
-        "Кога станува збор за опуштање во вода или пливање, Баден често се користи.",
-        "На ниво A1 е важно да се прави разлика: schwimmen = плуване, baden = къпане."
+        "Glavna ideja: schwimmen znači plivati ​​kao pokret ili sport.",
+        "Schwimmen se koristi kada osoba pliva u vodi plivajućim pokretima.",
+        "Kada je u pitanju opuštanje u vodi ili plivanje, često se koristi baden.",
+        "Na nivou A1 važno je razlikovati: schwimmen = plivati, baden = kupati se."
       ],
       "examples": [
         {
           "de": "Ich schwimme gern.",
-          "lv": "Обичам да плувам"
+          "lv": "Volim plivanje"
         },
         {
           "de": "Er schwimmt sehr gut.",
-          "lv": "Vrlo dobro pliva."
+          "lv": "Pliva veoma dobro."
         },
         {
           "de": "Wir schwimmen im Schwimmbad.",
-          "lv": "Ние плуваме в басейна."
+          "lv": "Plivamo u bazenu."
         },
         {
           "de": "Ich gehe baden.",
-          "lv": "Одам на пливање"
+          "lv": "Idem na plivanje"
         }
       ],
       "comparison": [
         {
           "word": "schwimmen",
-          "meaning": "Пливањето како движење или спорт",
+          "meaning": "Plivati ​​kao pokret ili sport",
           "example": "Er schwimmt sehr gut."
         },
         {
           "word": "baden",
-          "meaning": "Пливај/биди во вода",
+          "meaning": "Plivati ​​/ biti u vodi",
           "example": "Ich gehe baden."
         },
         {
@@ -14226,24 +18626,29 @@ const A1_WORDS = [
         },
         {
           "word": "duschen",
-          "meaning": "Istuširaj se i pojedi sendvič.",
+          "meaning": "Istuširati se",
           "example": "Ich dusche morgens."
         }
       ],
       "tip": {
-        "text": "Запомнете: плуване движение → плуване • Релаксация във водата → плуване."
+        "text": "Zapamtite: plivački pokret → schwimmen • Odmor u vodi → baden."
       },
       "important": [
-        "Швимен и Баден не се иста работа.",
-        "На латвийски често казват „плуване“, но на немски трябва да проверите дали е движение или плуване."
+        "Schwimmen i baden nisu isto.",
+        "Letonski često kaže \"plivati\", ali na njemačkom morate provjeriti je li to kretanje ili kupanje."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "schwimmen"
           ],
+          "purple": [
+            "Glavna",
+            "Glavna"
+          ],
           "red": [
-            "baden"
+            "baden",
+            "Glavna"
           ]
         },
         "examples": [
@@ -14253,7 +18658,11 @@ const A1_WORDS = [
                 "schwimme"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Volim"
+              ]
+            }
           },
           {
             "de": {
@@ -14261,7 +18670,11 @@ const A1_WORDS = [
                 "schwimmt"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Pliva"
+              ]
+            }
           },
           {
             "de": {
@@ -14272,7 +18685,14 @@ const A1_WORDS = [
                 "Schwimmbad"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Plivamo"
+              ],
+              "green": [
+                "Plivamo"
+              ]
+            }
           },
           {
             "de": {
@@ -14280,13 +18700,27 @@ const A1_WORDS = [
                 "baden"
               ]
             },
-            "lv": {}
+            "lv": {
+              "red": [
+                "Idem"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "schwimmen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Plivati",
+                "Plivati",
+                "sport"
+              ]
+            },
             "example": {
               "blue": [
                 "schwimmt"
@@ -14294,8 +18728,17 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "baden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Plivati",
+                "Plivati"
+              ]
+            },
             "example": {
               "red": [
                 "baden"
@@ -14303,8 +18746,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "schwimmen gehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Idi"
+              ]
+            },
             "example": {
               "green": [
                 "schwimmen"
@@ -14312,8 +18763,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "duschen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Istuširati"
+              ]
+            },
             "example": {
               "yellow": [
                 "dusche"
@@ -14322,72 +18781,100 @@ const A1_WORDS = [
           }
         ],
         "tip": {
-          "left": {}
+          "left": {
+            "blue": [
+              "schwimmen"
+            ],
+            "purple": [
+              "Zapamtite"
+            ],
+            "red": [
+              "baden",
+              "Zapamtite"
+            ]
+          }
         },
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "schwimmen"
+            ],
+            "red": [
+              "baden"
+            ]
+          },
+          {
+            "purple": [
+              "Letonski"
+            ],
+            "blue": [
+              "Letonski"
+            ],
+            "red": [
+              "Letonski"
+            ]
+          }
         ]
       }
     }
   },
   {
     "de": "sechs",
-    "lv": "Шест",
+    "lv": "Šest",
     "level": "A1"
   },
   {
     "de": "sechshundert",
-    "lv": "Šeststo",
+    "lv": "Šest stotina",
     "level": "A1"
   },
   {
     "de": "sechste",
-    "lv": "Шесто",
+    "lv": "Šesti",
     "level": "A1"
   },
   {
     "de": "sechzehn",
-    "lv": "Шестнадесет",
+    "lv": "Šesnaest",
     "level": "A1"
   },
   {
     "de": "sechzehnte",
-    "lv": "Шеснаесеттиот",
+    "lv": "Šesnaestog",
     "level": "A1"
   },
   {
     "de": "sechzig",
-    "lv": "Шейсет",
+    "lv": "Šezdeset",
     "level": "A1"
   },
   {
     "de": "sechzigste",
-    "lv": "Шеесеттите години",
+    "lv": "Šezdesetog",
     "level": "A1"
   },
   {
     "de": "sehen",
-    "lv": "Poglejmo",
+    "lv": "Vidjeti",
     "level": "A1",
     "study": {
       "id": "a1-sehen",
       "layout": "standardStudy",
-      "translation": "Poglejmo",
+      "translation": "Vidjeti",
       "explanation": [
-        "Osnovna ideja: sehen znači vidjeti očima.",
-        "Когато става въпрос за това, което очите възприемат, се използва сен.",
-        "Съзнателното наблюдение често означава schauen или ansehen.",
-        "Много често срещана фраза е Ich sehe dich. = Виждам те."
+        "Glavna ideja: sehen znači gledati očima.",
+        "Kada je u pitanju ono što oči percipiraju, koristi se sehen.",
+        "Namjerno gledati je često schauen ili ansehen.",
+        "Vrlo česta fraza je Ich sehe dich. = Vidim te."
       ],
       "examples": [
         {
           "de": "Ich sehe dich.",
-          "lv": "Те гледам"
+          "lv": "Vidim te"
         },
         {
           "de": "Siehst du das Auto?",
-          "lv": "Виждате ли тази кола?"
+          "lv": "Vidiš li taj auto"
         },
         {
           "de": "Ich sehe nichts.",
@@ -14395,43 +18882,47 @@ const A1_WORDS = [
         },
         {
           "de": "Wir schauen einen Film.",
-          "lv": "Гледаме филм."
+          "lv": "Gledamo film."
         }
       ],
       "comparison": [
         {
           "word": "sehen",
-          "meaning": "Poglejmo",
+          "meaning": "Vidjeti",
           "example": "Ich sehe dich."
         },
         {
           "word": "schauen",
-          "meaning": "Pogledaj",
+          "meaning": "Gledati",
           "example": "Ich schaue auf das Bild."
         },
         {
           "word": "ansehen",
-          "meaning": "Pregled/Recenzija",
+          "meaning": "Pogled / pogled",
           "example": "Ich sehe mir den Film an."
         },
         {
           "word": "hören",
-          "meaning": "Чуйте",
+          "meaning": "Čuti",
           "example": "Ich höre Musik."
         }
       ],
       "tip": {
-        "text": "Zapomnite: očite doživljavat → sehen • Gladeajte sʺznatelʹno → schauen/ansehen."
+        "text": "Zapamtite: oči percipiraju → sehen • Gledati svjesno → schauen/ansehen."
       },
       "important": [
-        "Széchen ni isto kot Anshauen.",
-        "Ich sehe dich = Виждам те • Ich schaue den Film = Гледам филм."
+        "Sehen nije isto što i anschauen.",
+        "Ich sehe dich = Vidim te • Ich schaue den Film = Gledam film."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sehen",
             "Ich sehe"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna"
           ],
           "red": [
             "schauen",
@@ -14445,7 +18936,11 @@ const A1_WORDS = [
                 "sehe"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Vidim"
+              ]
+            }
           },
           {
             "de": {
@@ -14453,7 +18948,11 @@ const A1_WORDS = [
                 "Siehst"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Vidiš"
+              ]
+            }
           },
           {
             "de": {
@@ -14461,7 +18960,11 @@ const A1_WORDS = [
                 "sehe"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "vidim"
+              ]
+            }
           },
           {
             "de": {
@@ -14469,13 +18972,25 @@ const A1_WORDS = [
                 "schauen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "red": [
+                "Gledamo"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "sehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Vidjeti"
+              ]
+            },
             "example": {
               "blue": [
                 "sehe"
@@ -14483,8 +18998,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "schauen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Gledati"
+              ]
+            },
             "example": {
               "red": [
                 "schaue"
@@ -14492,8 +19015,17 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "ansehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Pogled",
+                "Pogled"
+              ]
+            },
             "example": {
               "yellow": [
                 "sehe",
@@ -14502,8 +19034,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "hören"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Čuti"
+              ]
+            },
             "example": {
               "green": [
                 "höre"
@@ -14516,6 +19056,9 @@ const A1_WORDS = [
             "blue": [
               "sehen"
             ],
+            "purple": [
+              "Zapamtite"
+            ],
             "red": [
               "schauen",
               "ansehen"
@@ -14525,18 +19068,22 @@ const A1_WORDS = [
         "important": [
           {
             "blue": [
-              "Széchen"
+              "sehen"
             ],
             "red": [
-              "Széchen"
+              "anschauen"
             ]
           },
           {
             "blue": [
               "sehe"
             ],
+            "purple": [
+              "Ich"
+            ],
             "red": [
-              "schaue"
+              "schaue",
+              "Ich"
             ]
           }
         ]
@@ -14545,76 +19092,76 @@ const A1_WORDS = [
   },
   {
     "de": "sehr",
-    "lv": "Много",
+    "lv": "Vrlo",
     "level": "A1"
   },
   {
     "de": "Seife",
     "de_article": "die",
     "de_plural": "die Seifen",
-    "lv": "Сапун",
+    "lv": "Sapun",
     "level": "A1"
   },
   {
     "de": "sein",
-    "lv": "Бъди",
+    "lv": "Biti",
     "level": "A1",
     "study": {
       "id": "a1-sein",
       "layout": "standardStudy",
-      "translation": "Бъди",
+      "translation": "Biti",
       "explanation": [
-        "Osnovna ideja: sein znači biti.",
+        "Glavna ideja: sein znači biti.",
         "Sein je jedan od najvažnijih njemačkih glagola.",
-        "Na ravni A1 so še posebej pomembni obrazci ich bin, du bist, er ist in wir sind.",
+        "Na nivou A1, posebno važni oblici su ich bin, du bist, er ist i wir sind.",
         "Sein se također koristi u mnogim lokativnim ili karakterističnim rečenicama."
       ],
       "examples": [
         {
           "de": "Ich bin hier.",
-          "lv": "Јас сум тука"
+          "lv": "Ja sam ovdje"
         },
         {
           "de": "Du bist müde.",
-          "lv": "Уморен ли си"
+          "lv": "Umorni ste"
         },
         {
           "de": "Er ist Lehrer.",
-          "lv": "Тој е учител."
+          "lv": "On je učitelj."
         },
         {
           "de": "Wir sind zu Hause.",
-          "lv": "Прибрахме се"
+          "lv": "Mi smo kod kuće."
         }
       ],
       "comparison": [
         {
           "word": "sein",
-          "meaning": "Бъди",
+          "meaning": "Biti",
           "example": "Ich bin hier."
         },
         {
           "word": "haben",
-          "meaning": "Имам",
+          "meaning": "Imam",
           "example": "Ich habe Zeit."
         },
         {
           "word": "werden",
-          "meaning": "Станете",
+          "meaning": "Postati",
           "example": "Ich werde müde."
         },
         {
           "word": "bleiben",
-          "meaning": "Остани",
+          "meaning": "Ostani",
           "example": "Ich bleibe hier."
         }
       ],
       "tip": {
-        "text": "Zapamtite: ič bin = âs • Du bist = ti."
+        "text": "Zapamtite: ich bin = ja sam • Du bist = jesi."
       },
       "important": [
-        "Oblike sej je treba preučevati ločeno: bin, bist, ist, sind.",
-        "Ich bin е „Аз съм“, а не „Аз съществувам“."
+        "Sein oblici se moraju naučiti odvojeno: bin, bist, ist, sind.",
+        "Ich bin je 'ja jesam' ne 'ja sam'."
       ],
       "sectionAccents": {
         "explanation": {
@@ -14624,6 +19171,11 @@ const A1_WORDS = [
             "du bist",
             "er ist",
             "wir sind"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna",
+            "Glavna"
           ]
         },
         "examples": [
@@ -14633,7 +19185,11 @@ const A1_WORDS = [
                 "bin"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "sam"
+              ]
+            }
           },
           {
             "de": {
@@ -14641,7 +19197,11 @@ const A1_WORDS = [
                 "bist"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Umorni"
+              ]
+            }
           },
           {
             "de": {
@@ -14649,7 +19209,11 @@ const A1_WORDS = [
                 "ist"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "učitelj"
+              ]
+            }
           },
           {
             "de": {
@@ -14657,13 +19221,25 @@ const A1_WORDS = [
                 "sind"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "smo"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "sein"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Biti"
+              ]
+            },
             "example": {
               "blue": [
                 "bin"
@@ -14671,8 +19247,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "haben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Imam"
+              ]
+            },
             "example": {
               "yellow": [
                 "habe"
@@ -14680,8 +19264,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "werden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Postati"
+              ]
+            },
             "example": {
               "green": [
                 "werde"
@@ -14689,8 +19281,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "bleiben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Ostani"
+              ]
+            },
             "example": {
               "red": [
                 "bleibe"
@@ -14701,6 +19301,10 @@ const A1_WORDS = [
         "tip": {
           "left": {
             "blue": [
+              "ich bin",
+              "du bist"
+            ],
+            "purple": [
               "Zapamtite",
               "Zapamtite"
             ]
@@ -14718,6 +19322,12 @@ const A1_WORDS = [
           {
             "blue": [
               "Ich bin"
+            ],
+            "purple": [
+              "Ich"
+            ],
+            "red": [
+              "Ich"
             ]
           }
         ]
@@ -14726,66 +19336,70 @@ const A1_WORDS = [
   },
   {
     "de": "seit",
-    "lv": "ZV",
+    "lv": "Pošto",
     "level": "A1"
   },
   {
     "de": "Seite",
     "de_article": "die",
     "de_plural": "die Seiten",
-    "lv": "Страница • Странично",
+    "lv": "Strana • Strana",
     "level": "A1",
     "study": {
       "id": "a1-seite",
       "layout": "standardStudy",
-      "translation": "Страница • Странично",
+      "translation": "Strana • Strana",
       "explanation": [
-        "Glavna ideja: die Seite može značiti stranicu iz knjige/dokumenta ili stranicu/stranicu nečega.",
-        "Во книга, списание или веб-локација die Seite = страница (Seite 5 = страница 5).",
-        "В пространствен смисъл die Seite = страна (auf der linken Seite = ляво).",
-        "Фигуративно, die Seite може да значи и страна во конфликт или мисла (auf meiner Seite = од моја страна).",
-        "Контекстът (книга/четене или позиция/връзка) разкрива правилното значение.",
-        "И двете значения са в множествено число: die Seiten."
+        "Glavna ideja: die Seite može značiti stranicu knjige/dokumenta ili stranu/ivicu nečega.",
+        "U knjizi, časopisu ili web stranici die Seite = stranica (Seite 5 = stranica 5).",
+        "U prostornom smislu, die Seite = strana (auf der linken Seite = lijevo).",
+        "U figurativnom smislu, die Seite može značiti i stranu u sukobu ili mislima (auf meiner Seite = na mojoj strani).",
+        "Kontekst (knjiga/čitanje ili pozicija/odnos) pokazuje ispravno značenje.",
+        "Množina za oba značenja: die Seiten."
       ],
       "examples": [
         {
           "de": "Schlagt die Seite zwanzig auf.",
-          "lv": "Сврти на страницата дваесет."
+          "lv": "Okrenite dvadesetu stranicu."
         },
         {
           "de": "Auf der linken Seite ist ein Park.",
-          "lv": "Otlâvo e parkut."
+          "lv": "Lijevo je park."
         },
         {
           "de": "Die Webseite lädt langsam.",
-          "lv": "Spletna stran se počasi nalaga."
+          "lv": "Web stranica se učitava sporo."
         },
         {
           "de": "Er steht auf meiner Seite.",
-          "lv": "Na moji strani je."
+          "lv": "On je na mojoj strani."
         },
         {
           "de": "Das Buch hat 200 Seiten.",
-          "lv": "Книгата има 200 страници."
+          "lv": "Knjiga ima 200 strana."
         },
         {
           "de": "Auf der anderen Seite der Straße.",
-          "lv": "От другата страна на улицата."
+          "lv": "Na drugoj strani ulice."
         }
       ],
       "tip": [
-        "Говорим за книга или четене → страница. Говори за позиция, посока или връзка → страна.",
-        "Сайт X винаги е страница от книга, а не половината от нея."
+        "Razgovor o knjizi ili čitanje → str. Govori o položaju, smjeru ili odnosu → strana.",
+        "Seite X je uvijek stranica u knjizi, a ne polovina."
       ],
       "important": [
-        "Die Seite = страница ИЛИ страна - одлучува контекстот.",
-        "И двете значения са в множествено число: die Seiten."
+        "Die Seite = stranica ILI strana - kontekst odlučuje.",
+        "Množina za oba značenja: die Seiten."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "die Seite",
             "Seite"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna"
           ]
         },
         "examples": [
@@ -14795,7 +19409,11 @@ const A1_WORDS = [
                 "Seite"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Okrenite"
+              ]
+            }
           },
           {
             "de": {
@@ -14803,7 +19421,11 @@ const A1_WORDS = [
                 "Seite"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Lijevo"
+              ]
+            }
           },
           {
             "de": {
@@ -14811,7 +19433,11 @@ const A1_WORDS = [
                 "Webseite"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Web"
+              ]
+            }
           },
           {
             "de": {
@@ -14819,7 +19445,11 @@ const A1_WORDS = [
                 "Seite"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "mojoj"
+              ]
+            }
           },
           {
             "de": {
@@ -14827,7 +19457,11 @@ const A1_WORDS = [
                 "Seiten"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Knjiga"
+              ]
+            }
           },
           {
             "de": {
@@ -14835,15 +19469,38 @@ const A1_WORDS = [
                 "Seite"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "drugoj"
+              ]
+            }
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Razgovor"
+            ],
+            "green": [
+              "Razgovor"
+            ]
+          },
+          {
+            "blue": [
+              "Seite"
+            ],
+            "purple": [
+              "Razgovor"
+            ]
+          }
         ],
         "important": [
-          {},
+          {
+            "purple": [
+              "Die",
+              "Die"
+            ]
+          },
           {
             "blue": [
               "die Seiten"
@@ -14857,75 +19514,75 @@ const A1_WORDS = [
     "de": "Sekunde",
     "de_article": "die",
     "de_plural": "die Sekunden",
-    "lv": "Второ",
+    "lv": "Sekundu",
     "level": "A1"
   },
   {
     "de": "September",
     "de_article": "der",
-    "lv": "Септември",
+    "lv": "Septembra",
     "level": "A1"
   },
   {
     "de": "sich",
-    "lv": "Jaz • Jaz",
+    "lv": "Sebe • Za sebe",
     "level": "A1",
     "study": {
       "id": "a1-sich",
       "layout": "standardStudy",
-      "translation": "Jaz • Jaz",
+      "translation": "Sebe • Za sebe",
       "explanation": [
-        "Основна идея: sich показва, че действието се отнася до самия извършител.",
-        "На латвийски често се превежда като себе си или себе си.",
-        "Некои германски глаголи имаат sich како задолжителен дел, на пример sich waschen.",
-        "На ниво A1 е важно да се отбележи: ich wasche mich, er wäscht sich."
+        "Glavna ideja: sich pokazuje da se radnja odnosi na samog izvršioca.",
+        "Na letonski se često prevodi kao ja ili ja.",
+        "U nekim njemačkim glagolima sich je obavezan dio, kao što je sich waschen.",
+        "Važno je primijetiti na nivou A1: ich wasche mich, er wäscht sich."
       ],
       "examples": [
         {
           "de": "Er wäscht sich.",
-          "lv": "Kopa se."
+          "lv": "On se kupa."
         },
         {
           "de": "Ich setze mich.",
-          "lv": "Sedim."
+          "lv": "Sjedam."
         },
         {
           "de": "Sie freut sich.",
-          "lv": "Тя е щастлива"
+          "lv": "Ona je sretna."
         },
         {
           "de": "Ich wasche das Auto.",
-          "lv": "Си ја перам колата"
+          "lv": "Perem auto"
         }
       ],
       "comparison": [
         {
           "word": "sich",
-          "meaning": "Јас/јас",
+          "meaning": "Sebe / sebe",
           "example": "Er wäscht sich."
         },
         {
           "word": "mich",
-          "meaning": "Аз/аз в ич",
+          "meaning": "Ja/sam na ich",
           "example": "Ich wasche mich."
         },
         {
           "word": "dich",
-          "meaning": "Ти/аз съм в настроение",
+          "meaning": "Ti / ja na du",
           "example": "Du wäschst dich."
         },
         {
           "word": "ihn",
-          "meaning": "На него",
+          "meaning": "Njega",
           "example": "Ich sehe ihn."
         }
       ],
       "tip": {
-        "text": "Запомнете: действие върху себе си → sich/mich/dich."
+        "text": "Zapamtite: djelovanje na sebe → sich/mich/dich."
       },
       "important": [
-        "Sich не е самостоятелно съществително.",
-        "В зависимост от лицето се променя: ich → mich, du → dich, er/sie/es → sich."
+        "Sich nije samostalna imenica.",
+        "Mijenja se po osobi: ich → mich, du → dich, er/sie/es → sich."
       ],
       "sectionAccents": {
         "explanation": {
@@ -14933,6 +19590,11 @@ const A1_WORDS = [
             "sich",
             "ich wasche mich",
             "er wäscht sich"
+          ],
+          "purple": [
+            "Glavna",
+            "se",
+            "Glavna"
           ]
         },
         "examples": [
@@ -14942,7 +19604,11 @@ const A1_WORDS = [
                 "sich"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "kupa"
+              ]
+            }
           },
           {
             "de": {
@@ -14950,7 +19616,11 @@ const A1_WORDS = [
                 "mich"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Sjedam"
+              ]
+            }
           },
           {
             "de": {
@@ -14958,7 +19628,11 @@ const A1_WORDS = [
                 "sich"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Ona"
+              ]
+            }
           },
           {
             "de": {
@@ -14969,13 +19643,29 @@ const A1_WORDS = [
                 "Auto"
               ]
             },
-            "lv": {}
+            "lv": {
+              "red": [
+                "Perem"
+              ],
+              "yellow": [
+                "auto"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "sich"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Sebe",
+                "Sebe"
+              ]
+            },
             "example": {
               "blue": [
                 "sich"
@@ -14983,8 +19673,17 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "mich"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Ja/sam",
+                "Ja/sam"
+              ]
+            },
             "example": {
               "green": [
                 "mich"
@@ -14992,7 +19691,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "dich"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -15001,8 +19704,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "ihn"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Njega"
+              ]
+            },
             "example": {
               "red": [
                 "ihn"
@@ -15014,6 +19725,9 @@ const A1_WORDS = [
           "left": {
             "blue": [
               "sich"
+            ],
+            "purple": [
+              "Zapamtite"
             ]
           }
         },
@@ -15021,6 +19735,9 @@ const A1_WORDS = [
           {
             "blue": [
               "sich"
+            ],
+            "red": [
+              "Sich"
             ]
           },
           {
@@ -15038,34 +19755,34 @@ const A1_WORDS = [
   },
   {
     "de": "sicher",
-    "lv": "Безопасно • Разбира се",
+    "lv": "Sigurno • Svakako",
     "level": "A1",
     "study": {
       "id": "a1-sicher",
       "layout": "standardStudy",
-      "translation": "Безопасно • Разбира се",
+      "translation": "Sigurno • Svakako",
       "explanation": [
-        "Основна идея: sicher като прилагателно означава уверен, като наречие – сигурно/вероятно.",
-        "Когато говорим за място, ситуация или човек, sicher = безопасно (ein sicherer Ort = безопасно място).",
-        "Като потвърждение или уверение в изречение sicher = разбира се/със сигурност (Das ist sicher wahr. = Вярно е, разбира се).",
-        "Със сигурност! като отделен отговор означава разбира се!/вероятно!"
+        "Glavna ideja: sicher kao pridjev znači siguran, kao prilog znači sigurno/vjerovatno.",
+        "Kada se govori o mjestu, situaciji ili osobi, sicher = sigurno (ein sicherer Ort = sigurno mjesto).",
+        "Kao potvrda ili uvjeravanje u rečenici, sicher = svakako/naravno (Das ist sicher wahr. = Svakako je istina.).",
+        "Sigurno! kao poseban odgovor znači naravno!/vjerovatno!"
       ],
       "examples": [
         {
           "de": "Ist das Wasser sicher?",
-          "lv": "Безопасна ли е водата?"
+          "lv": "Da li je voda bezbedna?"
         },
         {
           "de": "Kommst du morgen? – Sicher!",
-          "lv": "Утре ще дойдеш - със сигурност!"
+          "lv": "Dolazite li sutra - definitivno!"
         },
         {
           "de": "Er ist sicher zu Hause.",
-          "lv": "Mora da je kod kuće."
+          "lv": "Verovatno je kod kuće."
         },
         {
           "de": "Das ist eine sichere Lösung.",
-          "lv": "Това е безопасно решение."
+          "lv": "To je sigurno rješenje."
         },
         {
           "de": "Ich bin mir sicher.",
@@ -15073,21 +19790,25 @@ const A1_WORDS = [
         },
         {
           "de": "Fahr sicher!",
-          "lv": "Шофирайте безопасно!"
+          "lv": "Vozi sigurno!"
         }
       ],
       "tip": [
-        "За място или ситуация (безопасност) → безопасно.",
-        "Kao uvjerenje ili potvrda u rečenici → izvjesno/vjerovatno."
+        "O mjestu ili situaciji (sigurnost) → sigurno.",
+        "Kao uvjerenje ili potvrda u rečenici → definitivno/vjerovatno."
       ],
       "important": [
-        "Сихер = безбеден (придавка) ИЛИ сигурен/веројатен (прилог).",
-        "Sich sicher sein = разбира се."
+        "Sicher = siguran (pridjev) ILI sigurno/vjerovatno (prilog).",
+        "Sich sicher sein = da budem siguran."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sicher"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna"
           ]
         },
         "examples": [
@@ -15097,7 +19818,11 @@ const A1_WORDS = [
                 "sicher"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "voda"
+              ]
+            }
           },
           {
             "de": {
@@ -15105,7 +19830,11 @@ const A1_WORDS = [
                 "Sicher"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Dolazite"
+              ]
+            }
           },
           {
             "de": {
@@ -15113,7 +19842,11 @@ const A1_WORDS = [
                 "sicher"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Verovatno"
+              ]
+            }
           },
           {
             "de": {
@@ -15121,7 +19854,11 @@ const A1_WORDS = [
                 "sichere"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "sigurno"
+              ]
+            }
           },
           {
             "de": {
@@ -15129,7 +19866,11 @@ const A1_WORDS = [
                 "sicher"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Siguran"
+              ]
+            }
           },
           {
             "de": {
@@ -15137,15 +19878,34 @@ const A1_WORDS = [
                 "sicher"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Vozi"
+              ]
+            }
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "mjestu"
+            ]
+          },
+          {
+            "green": [
+              "mjestu",
+              "mjestu"
+            ]
+          }
         ],
         "important": [
-          {},
+          {
+            "purple": [
+              "Sicher",
+              "Sicher",
+              "Sicher"
+            ]
+          },
           {
             "green": [
               "sich sicher sein"
@@ -15157,105 +19917,134 @@ const A1_WORDS = [
   },
   {
     "de": "sie",
-    "lv": "Те/тя",
+    "lv": "Oni / ona",
     "level": "A1",
     "study": {
       "id": "a1-sie-study",
       "layout": "standardStudy",
-      "translation": "Те/тя",
+      "translation": "Oni / ona",
       "explanation": [
-        "Ključna ideja: Množina - govori se o više od jedne osobe. Glagolot se završava na -en: kočen, esen, gehen.",
-        "Sie основно означава: една жена.",
-        "Често се характеризира с: глагол в единствено число (-t).",
-        "Sie v bistvu pomeni: več ljudi.",
-        "Često je karakterističan: glagol u množini (-en).",
-        "Sie основно означава: учтив адрес.",
-        "Često se opisuje: uvijek sa glavnim S.",
-        "Small sie означава тя, когато глаголът е в единствено число (Sie kocht = тя готви)."
+        "Glavna ideja: Množina - govori o više od jedne osobe. Glagol se završava na -en: kochen, essen, gehen.",
+        "Sie uglavnom znači: jedna žena.",
+        "Često karakterizira: glagol u jednini (-t).",
+        "Sie uglavnom znači: nekoliko ljudi.",
+        "Često karakterizira: glagol u množini (-en).",
+        "Sie uglavnom znači: ljubazno obraćanje.",
+        "Često se opisuje: obavezno sa velikim S.",
+        "Mala sie znači nju kada je glagol u jednini (Sie kocht = ona kuha)."
       ],
       "examples": [
         {
           "de": "Sie kochen.",
-          "lv": "Те се готвят."
+          "lv": "Oni kuvaju."
         },
         {
           "de": "Sie kocht.",
-          "lv": "Тя готви."
+          "lv": "Ona kuva."
         },
         {
           "de": "Sie isst.",
-          "lv": "Таа јаде"
+          "lv": "Ona jede"
         },
         {
           "de": "Sie kochen.",
-          "lv": "Те се готвят."
+          "lv": "Oni kuvaju."
         },
         {
           "de": "Sie spielen Fußball.",
-          "lv": "Oni igraju fudbal."
+          "lv": "Igraju fudbal."
         },
         {
           "de": "Sie kochen, bitte.",
-          "lv": "Prosimo, pripravite ga"
+          "lv": "Ti kuvaj molim te"
         }
       ],
       "tip": [
-        "Множина - се однесува на повеќе од една личност. Глаголот завршува на -ен: кочен, есен, гехен.",
-        "Използвайте sie, когато контекстът съответства на това значение."
+        "Množina - odnosi se na više od jedne osobe. Glagol se završava na -en: kochen, essen, gehen.",
+        "Koristite sie kada kontekst odgovara ovom značenju."
       ],
       "important": [
-        "Učtivost se uvijek piše velikim slovom: Sie, a ne sie.",
-        "She: Sie kocht. They: sie kochen. Ti: Si kochen.",
-        "Неправилно: sie kocht → Правилно: Sie kocht",
-        "Неточно: Sie kocht (тим) → Точно: Sie kochen."
+        "Ljubaznost uvijek sa velikim S: Sie, ne sie.",
+        "Ona: Sie kocht. Oni: sie kochen. Vi: Sie kochen.",
+        "Netačno: sie kocht → Tačno: Sie kocht",
+        "Netačno: Sie kocht (oni) → Tačno: Sie kochen"
       ],
       "sectionAccents": {
         "explanation": {
           "green": [
             "sie",
-            "kocht"
+            "kochen"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna"
           ]
         },
         "examples": [
           {
             "de": {
               "green": [
+                "sie",
                 "sie"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Oni"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
+                "sie",
                 "sie"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Ona"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
+                "sie",
                 "sie"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Ona"
+              ]
+            }
           },
           {
             "de": {
               "green": [
+                "sie",
                 "sie"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Oni"
+              ]
+            }
           },
           {
             "de": {
               "green": [
+                "sie",
                 "sie"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Igraju"
+              ]
+            }
           },
           {
             "de": {
@@ -15263,7 +20052,11 @@ const A1_WORDS = [
                 "sie"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "kuvaj"
+              ]
+            }
           }
         ],
         "tip": [
@@ -15281,70 +20074,87 @@ const A1_WORDS = [
   },
   {
     "de": "Sie",
-    "lv": "Вие",
+    "lv": "Ti",
     "level": "A1",
     "study": {
       "id": "a1-sie-study-2",
       "layout": "standardStudy",
-      "translation": "Вие",
+      "translation": "Ti",
       "explanation": [
-        "Основна идея: Добре дошли – винаги с главна буква S. Latviski: вие. Често с глагол в множествено число.",
-        "Sie основно означава: една жена.",
-        "Често се характеризира с: глагол в единствено число (-t).",
-        "Sie v bistvu pomeni: več ljudi.",
-        "Često je karakterističan: glagol u množini (-en).",
-        "Sie основно означава: учтив адрес.",
-        "Često se opisuje: uvijek sa glavnim S.",
-        "Small sie означава тя, когато глаголът е в единствено число (Sie kocht = тя готви)."
+        "Glavna ideja: ljubazno obraćanje - uvijek s velikim S. Latviski: vi. Često sa glagolom u množini.",
+        "Sie u osnovi znači: jedna žena.",
+        "Često karakterizira: glagol u jednini (-t).",
+        "Sie uglavnom znači: nekoliko ljudi.",
+        "Često karakterizira: glagol u množini (-en).",
+        "Sie uglavnom znači: ljubazno obraćanje.",
+        "Često se opisuje: obavezno sa velikim S.",
+        "Mala sie znači nju kada je glagol u jednini (Sie kocht = ona kuha)."
       ],
       "examples": [
         {
           "de": "Sie kochen, bitte.",
-          "lv": "Pripravite ga, prosim."
+          "lv": "Ti kuvaj, molim te."
         },
         {
           "de": "Sie kocht.",
-          "lv": "Тя готви."
+          "lv": "Ona kuva."
         },
         {
           "de": "Sie isst.",
-          "lv": "Таа јаде"
+          "lv": "Ona jede"
         },
         {
           "de": "Sie kochen.",
-          "lv": "Те се готвят."
+          "lv": "Oni kuvaju."
         },
         {
           "de": "Sie spielen Fußball.",
-          "lv": "Oni igraju fudbal."
+          "lv": "Igraju fudbal."
         },
         {
           "de": "Sie kochen, bitte.",
-          "lv": "Prosimo, pripravite ga"
+          "lv": "Ti kuvaj molim te"
         }
       ],
       "tip": [
-        "Обратният адрес винаги е с главна буква S. Latviski: ти. Често с глагол в множествено число.",
-        "Използвайте Sie, когато контекстът съответства на това значение."
+        "Adresa ljubaznosti - uvijek s velikim S. Latviski: vi. Često sa glagolom u množini.",
+        "Koristite Sie kada je kontekst prikladan za ovo značenje."
       ],
       "important": [
-        "Učtivost se uvijek piše velikim slovom: Sie, a ne sie.",
-        "She: Sie kocht. They: sie kochen. Ti: Si kochen.",
-        "Неправилно: sie kocht → Правилно: Sie kocht",
-        "Неточно: Sie kocht (тим) → Точно: Sie kochen."
+        "Ljubaznost uvijek sa velikim S: Sie, ne sie.",
+        "Ona: Sie kocht. Oni: sie kochen. Vi: Sie kochen.",
+        "Netačno: sie kocht → Tačno: Sie kocht",
+        "Netačno: Sie kocht (oni) → Tačno: Sie kochen"
       ],
       "sectionAccents": {
         "explanation": {
           "yellow": [
             "Sie",
             "kocht"
+          ],
+          "purple": [
+            "Glavna"
           ]
         },
         "examples": [
           {
             "de": {
               "yellow": [
-                "Sie"
+                "Sie",
+                "sie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kuvaj"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "Sie",
+                "sie"
               ]
             },
             "lv": {}
@@ -15352,7 +20162,8 @@ const A1_WORDS = [
           {
             "de": {
               "yellow": [
-                "Sie"
+                "Sie",
+                "sie"
               ]
             },
             "lv": {}
@@ -15360,7 +20171,8 @@ const A1_WORDS = [
           {
             "de": {
               "yellow": [
-                "Sie"
+                "Sie",
+                "sie"
               ]
             },
             "lv": {}
@@ -15368,7 +20180,8 @@ const A1_WORDS = [
           {
             "de": {
               "yellow": [
-                "Sie"
+                "Sie",
+                "sie"
               ]
             },
             "lv": {}
@@ -15376,22 +20189,23 @@ const A1_WORDS = [
           {
             "de": {
               "yellow": [
-                "Sie"
+                "Sie",
+                "sie"
               ]
             },
-            "lv": {}
-          },
-          {
-            "de": {
-              "yellow": [
-                "Sie"
+            "lv": {
+              "purple": [
+                "kuvaj"
               ]
-            },
-            "lv": {}
+            }
           }
         ],
         "tip": [
-          {}
+          {
+            "purple": [
+              "Adresa"
+            ]
+          }
         ],
         "important": [
           {
@@ -15405,104 +20219,108 @@ const A1_WORDS = [
   },
   {
     "de": "siebenhundert",
-    "lv": "Седемстотин",
+    "lv": "Sedam stotina",
     "level": "A1"
   },
   {
     "de": "siebente",
-    "lv": "Sedmo",
+    "lv": "Sedmi",
     "level": "A1"
   },
   {
     "de": "siebzehn",
-    "lv": "Седемнадесет",
+    "lv": "Sedamnaest",
     "level": "A1"
   },
   {
     "de": "siebzehnte",
-    "lv": "Седумнаесетти",
+    "lv": "Sedamnaestog",
     "level": "A1"
   },
   {
     "de": "siebzig",
-    "lv": "Sedemdeset",
+    "lv": "Sedamdeset",
     "level": "A1"
   },
   {
     "de": "siebzigste",
-    "lv": "Седемдесети",
+    "lv": "Sedamdesetog",
     "level": "A1"
   },
   {
     "de": "singen",
-    "lv": "Пейте",
+    "lv": "Da pevam",
     "level": "A1"
   },
   {
     "de": "sitzen",
-    "lv": "Sedi",
+    "lv": "Sjediti",
     "level": "A1",
     "study": {
       "id": "a1-sitzen",
       "layout": "standardStudy",
-      "translation": "Sedi",
+      "translation": "Sjediti",
       "explanation": [
-        "Glavna ideja: sitzen pomeni sedeti.",
-        "Sitzen се користи за да се однесува на седечка личност или животно.",
-        "Понякога sitzen също означава да бъдеш на определено място, но в A1 основното значение е да седиш.",
-        "Важно е да се прави разлика: sitzen = седя, stehen = стоя, liegen = лягам."
+        "Glavna ideja: sitzen znači sjediti.",
+        "Sitzen se koristi za sjedenje osoba ili životinja.",
+        "Ponekad sitzen znači i biti na određenom mjestu, ali u A1 glavno značenje je sjediti.",
+        "Važno je razlikovati: sitzen = sjediti, stehen = stajati, liegen = ležati."
       ],
       "examples": [
         {
           "de": "Ich sitze am Tisch.",
-          "lv": "Аз седя на масата."
+          "lv": "Sjedim za stolom."
         },
         {
           "de": "Die Kinder sitzen im Bus.",
-          "lv": "Во автобусот седат деца."
+          "lv": "Djeca sjede u autobusu."
         },
         {
           "de": "Er steht an der Tür.",
-          "lv": "Той стои на вратата."
+          "lv": "On stoji na vratima."
         },
         {
           "de": "Die Katze liegt auf dem Sofa.",
-          "lv": "Котката спи на дивана."
+          "lv": "Mačka spava na sofi."
         }
       ],
       "comparison": [
         {
           "word": "sitzen",
-          "meaning": "Sedi",
+          "meaning": "Sjediti",
           "example": "Ich sitze am Tisch."
         },
         {
           "word": "stehen",
-          "meaning": "Стойка",
+          "meaning": "Stajati",
           "example": "Er steht an der Tür."
         },
         {
           "word": "liegen",
-          "meaning": "Спи/легни",
+          "meaning": "Spavati / ležati",
           "example": "Die Katze liegt dort."
         },
         {
           "word": "setzen",
-          "meaning": "Седна/седна",
+          "meaning": "Sjediti / sjediti",
           "example": "Ich setze mich."
         }
       ],
       "tip": {
-        "text": "Запомнете: седнете → седнете • Стойте → Стивън • Легнете → лъжете."
+        "text": "Zapamtite: sjedi → sitzen • Stoji → stehen • Ležeći → liegen."
       },
       "important": [
-        "Sitzen показва състоянието \"седене\".",
-        "Sedeti je sich setzen, ne sitzen."
+        "Sitzen pokazuje stanje 'sjedenja'.",
+        "Sjesti je sich setzen, a ne sitzen."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sitzen"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna"
           ],
           "red": [
             "stehen",
@@ -15516,7 +20334,11 @@ const A1_WORDS = [
                 "sitze"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Sjedim"
+              ]
+            }
           },
           {
             "de": {
@@ -15527,7 +20349,14 @@ const A1_WORDS = [
                 "Kinder"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Djeca"
+              ],
+              "green": [
+                "Djeca"
+              ]
+            }
           },
           {
             "de": {
@@ -15535,7 +20364,11 @@ const A1_WORDS = [
                 "steht"
               ]
             },
-            "lv": {}
+            "lv": {
+              "red": [
+                "stoji"
+              ]
+            }
           },
           {
             "de": {
@@ -15543,13 +20376,25 @@ const A1_WORDS = [
                 "liegt"
               ]
             },
-            "lv": {}
+            "lv": {
+              "yellow": [
+                "Mačka"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "sitzen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Sjediti"
+              ]
+            },
             "example": {
               "blue": [
                 "sitze"
@@ -15557,8 +20402,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "stehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Stajati"
+              ]
+            },
             "example": {
               "red": [
                 "steht"
@@ -15566,8 +20419,17 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "liegen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Spavati",
+                "Spavati"
+              ]
+            },
             "example": {
               "yellow": [
                 "liegt"
@@ -15575,8 +20437,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "setzen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Sjediti"
+              ]
+            },
             "example": {
               "green": [
                 "setze"
@@ -15585,12 +20455,28 @@ const A1_WORDS = [
           }
         ],
         "tip": {
-          "left": {}
+          "left": {
+            "blue": [
+              "sitzen"
+            ],
+            "purple": [
+              "Zapamtite"
+            ],
+            "red": [
+              "stehen"
+            ],
+            "yellow": [
+              "liegen"
+            ]
+          }
         },
         "important": [
           {
             "blue": [
               "sitzen"
+            ],
+            "purple": [
+              "Sitzen"
             ]
           },
           {
@@ -15607,101 +20493,109 @@ const A1_WORDS = [
   },
   {
     "de": "so",
-    "lv": "И така",
+    "lv": "Tako",
     "level": "A1"
   },
   {
     "de": "Socke",
     "de_article": "die",
     "de_plural": "die Socken",
-    "lv": "Nogavica",
+    "lv": "Čarapa",
     "level": "A1"
   },
   {
     "de": "Sofa",
     "de_article": "das",
     "de_plural": "die Sofas",
-    "lv": "Диван",
+    "lv": "Sofa",
     "level": "A1"
   },
   {
     "de": "sofort",
-    "lv": "Веднага",
+    "lv": "Odmah",
     "level": "A1"
   },
   {
     "de": "Sohn",
     "de_article": "der",
     "de_plural": "die Söhne",
-    "lv": "Сине",
+    "lv": "Sin",
     "level": "A1"
   },
   {
     "de": "sollen",
-    "lv": "Mora",
+    "lv": "Trebalo bi",
     "level": "A1",
     "study": {
       "id": "a1-sollen",
       "layout": "standardStudy",
-      "translation": "Mora",
+      "translation": "Trebalo bi",
       "explanation": [
-        "Основна идея: Sollen означава, че някой трябва или е задължен да направи нещо според указанията.",
-        "Солен често се користи кога некој друг ви кажува што да правите.",
-        "Не е толкова силен, колкото мусена.",
-        "Много често срещана фраза: Was soll ich machen? = Какво трябва да направя?"
+        "Glavna ideja: sollen znači da neko treba ili mora učiniti nešto prema uputama.",
+        "Sollen se često koristi kada vam neko drugi kaže šta da radite.",
+        "Nije tako jak kao müssen.",
+        "Vrlo česta fraza je Was soll ich machen? = Šta da radim?"
       ],
       "examples": [
         {
           "de": "Was soll ich machen?",
-          "lv": "Šta da radim?"
+          "lv": "Šta da radim"
         },
         {
           "de": "Du sollst kommen.",
-          "lv": "Трябва да дойдеш"
+          "lv": "Morate doći"
         },
         {
           "de": "Ich soll zu Hause bleiben.",
-          "lv": "Ще трябва да си остана вкъщи"
+          "lv": "Moram ostati kod kuće"
         },
         {
           "de": "Ich muss jetzt gehen.",
-          "lv": "Трябва да тръгвам сега"
+          "lv": "Moram da idem sada"
         }
       ],
       "comparison": [
         {
           "word": "sollen",
-          "meaning": "Трябва/трябва да се направи според указанията",
+          "meaning": "Treba/treba učiniti prema uputama",
           "example": "Was soll ich machen?"
         },
         {
           "word": "müssen",
-          "meaning": "Апсолутно неопходно",
+          "meaning": "Apsolutno potrebna",
           "example": "Ich muss gehen."
         },
         {
           "word": "können",
-          "meaning": "Бидете во можност да",
+          "meaning": "Biti u mogućnosti",
           "example": "Ich kann kommen."
         },
         {
           "word": "wollen",
-          "meaning": "Искам",
+          "meaning": "Želim to",
           "example": "Ich will bleiben."
         }
       ],
       "tip": {
-        "text": "Запомнете: някой ви казва какво да правите → раздразнен • Трябва да направя → мусон."
+        "text": "Zapamtite: neko kaže šta da radi → sollen • Mora se obaviti → müssen."
       },
       "important": [
-        "Ali je soll ich machen? to je zelo pogosta fraza.",
-        "Солен и Мусен не са едно и също нещо."
+        "Was soll ich machen? je vrlo česta fraza.",
+        "Sollen i müssen nisu potpuno isti."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sollen",
             "Was soll ich machen"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna",
+            "Glavna"
+          ],
+          "red": [
+            "müssen"
           ]
         },
         "examples": [
@@ -15712,7 +20606,11 @@ const A1_WORDS = [
                 "machen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Šta"
+              ]
+            }
           },
           {
             "de": {
@@ -15721,7 +20619,11 @@ const A1_WORDS = [
                 "kommen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Morate"
+              ]
+            }
           },
           {
             "de": {
@@ -15730,7 +20632,11 @@ const A1_WORDS = [
                 "bleiben"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Moram"
+              ]
+            }
           },
           {
             "de": {
@@ -15739,13 +20645,26 @@ const A1_WORDS = [
                 "gehen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "red": [
+                "Moram"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "sollen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Treba/treba",
+                "Treba/treba"
+              ]
+            },
             "example": {
               "blue": [
                 "soll"
@@ -15753,8 +20672,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "müssen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Apsolutno"
+              ]
+            },
             "example": {
               "red": [
                 "muss"
@@ -15762,8 +20689,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "können"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Biti"
+              ]
+            },
             "example": {
               "green": [
                 "kann"
@@ -15771,8 +20706,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "wollen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Želim"
+              ]
+            },
             "example": {
               "yellow": [
                 "will"
@@ -15781,11 +20724,33 @@ const A1_WORDS = [
           }
         ],
         "tip": {
-          "left": {}
+          "left": {
+            "blue": [
+              "sollen"
+            ],
+            "purple": [
+              "Zapamtite"
+            ],
+            "red": [
+              "müssen",
+              "Zapamtite"
+            ]
+          }
         },
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Was soll ich machen"
+            ]
+          },
+          {
+            "blue": [
+              "sollen"
+            ],
+            "red": [
+              "müssen"
+            ]
+          }
         ]
       }
     }
@@ -15801,77 +20766,77 @@ const A1_WORDS = [
     "de": "Samstag",
     "de_article": "der",
     "de_plural": "die Samstage",
-    "lv": "Събота",
+    "lv": "Subota",
     "level": "A1"
   },
   {
     "de": "Sonne",
     "de_article": "die",
     "de_plural": "die Sonnen",
-    "lv": "Слънце",
+    "lv": "Sunce",
     "level": "A1"
   },
   {
     "de": "Sonntag",
     "de_article": "der",
     "de_plural": "die Sonntage",
-    "lv": "Неделя",
+    "lv": "Nedjelja",
     "level": "A1"
   },
   {
     "de": "spät",
-    "lv": "Доцна",
+    "lv": "Kasno",
     "level": "A1"
   },
   {
     "de": "spazieren gehen",
-    "lv": "Одете на прошетка",
+    "lv": "Idi u šetnju",
     "level": "A1"
   },
   {
     "de": "Spiel",
     "de_article": "das",
     "de_plural": "die Spiele",
-    "lv": "& Igra",
+    "lv": "Igra",
     "level": "A1"
   },
   {
     "de": "spielen",
-    "lv": "Играйте",
+    "lv": "Igrati",
     "level": "A1"
   },
   {
     "de": "Spielzeug",
     "de_article": "das",
     "de_plural": "die Spielzeuge",
-    "lv": "Igračka.",
+    "lv": "Igračku",
     "level": "A1"
   },
   {
     "de": "Sprache",
     "de_article": "die",
     "de_plural": "die Sprachen",
-    "lv": "Език",
+    "lv": "Jezik",
     "level": "A1"
   },
   {
     "de": "stark",
-    "lv": "Močan.",
+    "lv": "Jaka",
     "level": "A1"
   },
   {
     "de": "stehen",
-    "lv": "Стойка",
+    "lv": "Stajati",
     "level": "A1",
     "study": {
       "id": "a1-stehen",
       "layout": "standardStudy",
-      "translation": "Стойка",
+      "translation": "Stajati",
       "explanation": [
-        "Основна идея: stehen означава да стоиш или да стоиш.",
-        "Za mučnyj ŝehen znači stajati.",
-        "За обект stehen означава, че той стои или е на определено място.",
-        "Важно е да се разликуваат: stehen = застане, sitzen = седи, liegen = легни."
+        "Glavna ideja: Stehen znači stajati ili stajati.",
+        "Stehen za osobu znači stajati.",
+        "Za predmet, stehen znači da stoji ili na određenom mjestu.",
+        "Važno je razlikovati: stehen = stajati, sitzen = sjediti, liegen = ležati."
       ],
       "examples": [
         {
@@ -15880,50 +20845,54 @@ const A1_WORDS = [
         },
         {
           "de": "Der Stuhl steht in der Küche.",
-          "lv": "Столот е во кујната."
+          "lv": "Stolica je u kuhinji."
         },
         {
           "de": "Er sitzt am Tisch.",
-          "lv": "Той седи на масата."
+          "lv": "On sjedi za stolom."
         },
         {
           "de": "Das Buch liegt auf dem Tisch.",
-          "lv": "Книгата е на маса."
+          "lv": "Knjiga je na stolu."
         }
       ],
       "comparison": [
         {
           "word": "stehen",
-          "meaning": "Застанете / застанете",
+          "meaning": "Stajati / biti stajati",
           "example": "Ich stehe hier."
         },
         {
           "word": "sitzen",
-          "meaning": "Sedi",
+          "meaning": "Sjediti",
           "example": "Er sitzt am Tisch."
         },
         {
           "word": "liegen",
-          "meaning": "Спи/легни",
+          "meaning": "Spavati / ležati",
           "example": "Das Buch liegt dort."
         },
         {
           "word": "stellen",
-          "meaning": "Поставете вертикално",
+          "meaning": "Uspravno",
           "example": "Ich stelle die Flasche hin."
         }
       ],
       "tip": {
-        "text": "Запомнете: изправен → Стивън • Седнал → седнал • Легнал → легнал."
+        "text": "Zapamtite: stoji → stehen • Sjedenje → sitzen • Ležeći → liegen."
       },
       "important": [
-        "Стивън показва състоянието, а не действието на „потискането“.",
-        "Да поставите обект вертикално е stelen, а не stehen."
+        "Stehen pokazuje stanje, a ne akciju 'spuštanja'.",
+        "Staviti predmet uspravno je stellen, a ne stehen."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "stehen"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna"
           ],
           "red": [
             "sitzen",
@@ -15937,7 +20906,11 @@ const A1_WORDS = [
                 "stehe"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Stojim"
+              ]
+            }
           },
           {
             "de": {
@@ -15948,7 +20921,14 @@ const A1_WORDS = [
                 "Stuhl"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Stolica"
+              ],
+              "yellow": [
+                "Stolica"
+              ]
+            }
           },
           {
             "de": {
@@ -15956,7 +20936,11 @@ const A1_WORDS = [
                 "sitzt"
               ]
             },
-            "lv": {}
+            "lv": {
+              "red": [
+                "sjedi"
+              ]
+            }
           },
           {
             "de": {
@@ -15964,13 +20948,26 @@ const A1_WORDS = [
                 "liegt"
               ]
             },
-            "lv": {}
+            "lv": {
+              "red": [
+                "Knjiga"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "stehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Stajati",
+                "Stajati"
+              ]
+            },
             "example": {
               "blue": [
                 "stehe"
@@ -15978,8 +20975,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "sitzen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Sjediti"
+              ]
+            },
             "example": {
               "red": [
                 "sitzt"
@@ -15987,8 +20992,17 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "liegen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Spavati",
+                "Spavati"
+              ]
+            },
             "example": {
               "yellow": [
                 "liegt"
@@ -15996,8 +21010,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "stellen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Uspravno"
+              ]
+            },
             "example": {
               "green": [
                 "stelle"
@@ -16006,13 +21028,36 @@ const A1_WORDS = [
           }
         ],
         "tip": {
-          "left": {}
+          "left": {
+            "blue": [
+              "stehen"
+            ],
+            "purple": [
+              "Zapamtite"
+            ],
+            "red": [
+              "sitzen"
+            ],
+            "yellow": [
+              "liegen"
+            ]
+          }
         },
         "important": [
-          {},
+          {
+            "blue": [
+              "stehen"
+            ],
+            "purple": [
+              "Stehen"
+            ],
+            "green": [
+              "stehen"
+            ]
+          },
           {
             "green": [
-              "stelen"
+              "stellen"
             ],
             "blue": [
               "stehen"
@@ -16026,59 +21071,59 @@ const A1_WORDS = [
     "de": "Stern",
     "de_article": "der",
     "de_plural": "die Sterne",
-    "lv": "Star",
+    "lv": "Zvijezda",
     "level": "A1"
   },
   {
     "de": "Straße",
     "de_article": "die",
     "de_plural": "die Straßen",
-    "lv": "Улица",
+    "lv": "Ulica",
     "level": "A1"
   },
   {
     "de": "Straßenbahn",
     "de_article": "die",
     "de_plural": "die Straßenbahnen",
-    "lv": "Трамвай",
+    "lv": "Tramvaj",
     "level": "A1"
   },
   {
     "de": "Stück",
     "de_article": "das",
     "de_plural": "die Stücke",
-    "lv": "Kos",
+    "lv": "Komad",
     "level": "A1"
   },
   {
     "de": "Student",
     "de_article": "der",
     "de_plural": "die Studenten",
-    "lv": "Студент",
+    "lv": "Student",
     "level": "A1"
   },
   {
     "de": "Stuhl",
     "de_article": "der",
     "de_plural": "die Stühle",
-    "lv": "Hvala bogu!",
+    "lv": "Stolica",
     "level": "A1"
   },
   {
     "de": "Stunde",
     "de_article": "die",
     "de_plural": "die Stunden",
-    "lv": "Chas",
+    "lv": "Sat vremena",
     "level": "A1"
   },
   {
     "de": "suchen",
-    "lv": "Пребарување",
+    "lv": "Tražiti",
     "level": "A1"
   },
   {
     "de": "süß",
-    "lv": "Слатко",
+    "lv": "Slatko",
     "level": "A1"
   },
   {
@@ -16092,64 +21137,64 @@ const A1_WORDS = [
     "de": "Tante",
     "de_article": "die",
     "de_plural": "die Tanten",
-    "lv": "Teta",
+    "lv": "Tetka",
     "level": "A1"
   },
   {
     "de": "tanzen",
-    "lv": "Танцувай",
+    "lv": "Plesati",
     "level": "A1"
   },
   {
     "de": "Tasche",
     "de_article": "die",
     "de_plural": "die Taschen",
-    "lv": "Чанта",
+    "lv": "Torba",
     "level": "A1"
   },
   {
     "de": "Tasse",
     "de_article": "die",
     "de_plural": "die Tassen",
-    "lv": "Чаша",
+    "lv": "Šolju",
     "level": "A1"
   },
   {
     "de": "Taxi",
     "de_article": "das",
     "de_plural": "die Taxis",
-    "lv": "Такси",
+    "lv": "Taksi",
     "level": "A1"
   },
   {
     "de": "Tee",
     "de_article": "der",
     "de_plural": "die Tees",
-    "lv": "Tea",
+    "lv": "Čaj",
     "level": "A1"
   },
   {
     "de": "Telefon",
     "de_article": "das",
     "de_plural": "die Telefone",
-    "lv": "Телефон",
+    "lv": "Telefon",
     "level": "A1"
   },
   {
     "de": "telefonieren",
-    "lv": "Обадете се по телефона",
+    "lv": "Nazovite telefonom",
     "level": "A1"
   },
   {
     "de": "Teller",
     "de_article": "der",
     "de_plural": "die Teller",
-    "lv": "Plate",
+    "lv": "Ploča",
     "level": "A1"
   },
   {
     "de": "teuer",
-    "lv": "Почитувани",
+    "lv": "Skupo",
     "level": "A1"
   },
   {
@@ -16163,104 +21208,104 @@ const A1_WORDS = [
     "de": "Tier",
     "de_article": "das",
     "de_plural": "die Tiere",
-    "lv": "Животно",
+    "lv": "Životinja",
     "level": "A1"
   },
   {
     "de": "Tisch",
     "de_article": "der",
     "de_plural": "die Tische",
-    "lv": "Табела",
+    "lv": "Sto",
     "level": "A1"
   },
   {
     "de": "Tochter",
     "de_article": "die",
     "de_plural": "die Töchter",
-    "lv": "Дъщеря",
+    "lv": "Kćer",
     "level": "A1"
   },
   {
     "de": "Toilette",
     "de_article": "die",
     "de_plural": "die Toiletten",
-    "lv": "Тоалетна",
+    "lv": "Toalet",
     "level": "A1"
   },
   {
     "de": "Tomate",
     "de_article": "die",
     "de_plural": "die Tomaten",
-    "lv": "Домат",
+    "lv": "Paradajz",
     "level": "A1"
   },
   {
     "de": "Treppe",
     "de_article": "die",
     "de_plural": "die Treppen",
-    "lv": "Скала",
+    "lv": "Stepenice",
     "level": "A1"
   },
   {
     "de": "trinken",
-    "lv": "Пийте",
+    "lv": "Piti",
     "level": "A1"
   },
   {
     "de": "tun",
-    "lv": "Saj si.",
+    "lv": "Uraditi",
     "level": "A1"
   },
   {
     "de": "Tür",
     "de_article": "die",
     "de_plural": "die Türen",
-    "lv": "Врата",
+    "lv": "Vrata",
     "level": "A1"
   },
   {
     "de": "U-Bahn",
     "de_article": "die",
     "de_plural": "die U-Bahnen",
-    "lv": "Podzemna!",
+    "lv": "Metro",
     "level": "A1"
   },
   {
     "de": "über",
-    "lv": "Още • За",
+    "lv": "Preko • Za",
     "level": "A1",
     "study": {
       "id": "a1-über",
       "layout": "standardStudy",
-      "translation": "Още • За",
+      "translation": "Preko • Za",
       "explanation": [
-        "Клучна идеја: über значи „над“ или „близу“ во зависност од контекстот.",
-        "Кога станува збор за локацијата, „uber“ често значи „горе“.",
-        "Kada je u pitanju razgovor, tekst ili tema, über znači 'za'.",
-        "В движението \"uber\" може да означава \"края\"."
+        "Glavna ideja: über znači iznad ili otprilike ovisno o kontekstu.",
+        "Kada je u pitanju lokacija, über često znači iznad.",
+        "Kada je u pitanju razgovor, tekst ili tema, über znači o.",
+        "U pokretu, über može značiti gotovo."
       ],
       "examples": [
         {
           "de": "Die Lampe hängt über dem Tisch.",
-          "lv": "Iznad stola visi lampa."
+          "lv": "Lampa visi iznad stola."
         },
         {
           "de": "Wir sprechen über das Wetter.",
-          "lv": "Говорим за време."
+          "lv": "Govorimo o vremenu."
         },
         {
           "de": "Das Kind läuft über die Straße.",
-          "lv": "Дете тича през улицата."
+          "lv": "Dijete pretrči ulicu."
         },
         {
           "de": "Ich freue mich über das Geschenk.",
-          "lv": "Z darilom sem zadovoljna."
+          "lv": "Prezadovoljna sam poklonom."
         }
       ],
       "comparison": [
         {
           "word": "über",
-          "meaning": "Над / над / преку",
+          "meaning": "Preko / preko / preko",
           "example": "Wir sprechen über das Wetter."
         },
         {
@@ -16275,21 +21320,31 @@ const A1_WORDS = [
         },
         {
           "word": "von",
-          "meaning": "Od/do nečesa iz nekega vira",
+          "meaning": "Iz/o iz nekog izvora",
           "example": "Ich höre von dir."
         }
       ],
       "tip": {
-        "text": "Zapamtite: tema razgovora → über • Iznad stola → über."
+        "text": "Zapamtite: tema u razgovoru → über • Iznad stola → über."
       },
       "important": [
-        "Über nije samo naziv za mjesto.",
-        "Sprechen über означава „да говоря“."
+        "Über nije samo naziv mjesta.",
+        "Sprechen über znači 'govoriti o'."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "über"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna",
+            "Glavna"
+          ],
+          "green": [
+            "Glavna",
+            "tekstu",
+            "Glavna"
           ]
         },
         "examples": [
@@ -16302,7 +21357,14 @@ const A1_WORDS = [
                 "Tisch"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Lampa"
+              ],
+              "yellow": [
+                "Lampa"
+              ]
+            }
           },
           {
             "de": {
@@ -16313,7 +21375,14 @@ const A1_WORDS = [
                 "Wetter"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Govorimo"
+              ],
+              "green": [
+                "Govorimo"
+              ]
+            }
           },
           {
             "de": {
@@ -16324,7 +21393,14 @@ const A1_WORDS = [
                 "Straße"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Dijete"
+              ],
+              "yellow": [
+                "Dijete"
+              ]
+            }
           },
           {
             "de": {
@@ -16335,13 +21411,30 @@ const A1_WORDS = [
                 "Geschenk"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Prezadovoljna"
+              ],
+              "yellow": [
+                "Prezadovoljna"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "über"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Preko",
+                "Preko",
+                "Preko"
+              ]
+            },
             "example": {
               "blue": [
                 "über"
@@ -16349,8 +21442,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "auf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "površini"
+              ]
+            },
             "example": {
               "yellow": [
                 "auf"
@@ -16358,8 +21459,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "unter"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Ispod"
+              ]
+            },
             "example": {
               "red": [
                 "unter"
@@ -16367,8 +21476,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "von"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Iz/o"
+              ]
+            },
             "example": {
               "green": [
                 "von"
@@ -16380,6 +21497,10 @@ const A1_WORDS = [
           "left": {
             "blue": [
               "über"
+            ],
+            "purple": [
+              "tēma",
+              "Zapamtite"
             ]
           }
         },
@@ -16387,11 +21508,17 @@ const A1_WORDS = [
           {
             "blue": [
               "über"
+            ],
+            "purple": [
+              "Über"
             ]
           },
           {
             "blue": [
               "sprechen über"
+            ],
+            "purple": [
+              "Sprechen"
             ]
           }
         ]
@@ -16400,77 +21527,92 @@ const A1_WORDS = [
   },
   {
     "de": "überall",
-    "lv": "Навсякъде",
+    "lv": "Svuda",
     "level": "A1"
   },
   {
     "de": "übermorgen",
-    "lv": "Вдругиден",
+    "lv": "Prekosutra",
     "level": "A1"
   },
   {
     "de": "um",
-    "lv": "Околу • Часови",
+    "lv": "Oko • Sati",
     "level": "A1",
     "study": {
       "id": "a1-um",
       "layout": "standardStudy",
-      "translation": "Околу • Часови",
+      "translation": "Oko • Sati",
       "explanation": [
-        "Ключова идея: \"mm\" много често означава \"часовник с време\" или \"около/около\" с място.",
-        "С точно време хм означава час.",
-        "Во однос на место, тоа значи „околу“ или „околу“.",
-        "Във фразата em... zu помага да се изрази намерението: така че."
+        "Glavna ideja: hm vrlo često znači sat s vremenom ili oko/oko mjesta.",
+        "Sa tačnim vremenom, znači sat.",
+        "Sa mjestom, znači okolo ili okolo.",
+        "U frazi um ... zu, pomaže da se izrazi namjera: da."
       ],
       "examples": [
         {
           "de": "Ich komme um acht Uhr.",
-          "lv": "Ще дойда в осем часа."
+          "lv": "Doći ću u osam sati."
         },
         {
           "de": "Wir sitzen um den Tisch.",
-          "lv": "Сядаме около масата."
+          "lv": "Sedimo za stolom."
         },
         {
           "de": "Er geht um die Ecke.",
-          "lv": "Gre za vogal."
+          "lv": "Ide iza ugla."
         },
         {
           "de": "Ich lerne, um Deutsch zu sprechen.",
-          "lv": "Учам да зборувам германски."
+          "lv": "Učim da pričam nemački."
         }
       ],
       "comparison": [
         {
           "word": "um",
-          "meaning": "Вклучено/околу/до",
+          "meaning": "Na / oko / do",
           "example": "Ich komme um acht."
         },
         {
           "word": "am",
-          "meaning": "На ден/на",
+          "meaning": "Po danu/at",
           "example": "Am Montag komme ich."
         },
         {
           "word": "gegen",
-          "meaning": "За времето/срещу",
+          "meaning": "Oko vremena / vs",
           "example": "Ich komme gegen acht."
         },
         {
           "word": "für",
-          "meaning": "За/в полза",
+          "meaning": "Za / u korist",
           "example": "Das ist für dich."
         }
       ],
       "tip": {
-        "text": "Ne pozabite: um acht = osem ur."
+        "text": "Zapamtite: um acht = osam sati."
       },
       "important": [
-        "Hm, vrijeme je obično \"sati\".",
-        "Hm... cu često znači \"da...\"."
+        "Hm sa vremenom je obično 'sat'.",
+        "Um ... zu često znači \"da...\"."
       ],
       "sectionAccents": {
-        "explanation": {},
+        "explanation": {
+          "blue": [
+            "um",
+            "um ... zu"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna",
+            "Glavna",
+            "Glavna"
+          ],
+          "green": [
+            "Glavna",
+            "Glavna"
+          ]
+        },
         "examples": [
           {
             "de": {
@@ -16481,7 +21623,11 @@ const A1_WORDS = [
                 "acht Uhr"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Doći"
+              ]
+            }
           },
           {
             "de": {
@@ -16492,7 +21638,14 @@ const A1_WORDS = [
                 "Tisch"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Sedimo"
+              ],
+              "yellow": [
+                "Sedimo"
+              ]
+            }
           },
           {
             "de": {
@@ -16503,7 +21656,14 @@ const A1_WORDS = [
                 "Ecke"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Ide"
+              ],
+              "yellow": [
+                "Ide"
+              ]
+            }
           },
           {
             "de": {
@@ -16512,13 +21672,27 @@ const A1_WORDS = [
                 "zu"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Učim"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "um"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "oko",
+                "oko",
+                "oko"
+              ]
+            },
             "example": {
               "blue": [
                 "um"
@@ -16526,8 +21700,17 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "am"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "danu/at",
+                "danu/at"
+              ]
+            },
             "example": {
               "green": [
                 "Am"
@@ -16535,8 +21718,17 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "gegen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Oko",
+                "Oko"
+              ]
+            },
             "example": {
               "yellow": [
                 "gegen"
@@ -16544,8 +21736,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "für"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "korist"
+              ]
+            },
             "example": {
               "red": [
                 "für"
@@ -16557,29 +21757,46 @@ const A1_WORDS = [
           "left": {
             "blue": [
               "um acht"
+            ],
+            "purple": [
+              "Zapamtite"
             ]
           }
         },
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "vremenom"
+            ],
+            "purple": [
+              "vremenom"
+            ]
+          },
+          {
+            "blue": [
+              "um ... zu"
+            ],
+            "purple": [
+              "često"
+            ]
+          }
         ]
       }
     }
   },
   {
     "de": "und",
-    "lv": "И",
+    "lv": "I",
     "level": "A1"
   },
   {
     "de": "unser",
-    "lv": "Нашиот",
+    "lv": "Naš",
     "level": "A1"
   },
   {
     "de": "unten",
-    "lv": "Надолу",
+    "lv": "Na dnu",
     "level": "A1"
   },
   {
@@ -16591,43 +21808,43 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Ispod",
       "explanation": [
-        "Ključna ideja: unter znači \"ispod\" ili \"između\" ovisno o kontekstu.",
-        "Ако има нешто под маса, стол или друг предмет, користете unter.",
-        "Когато говорим за група хора, unter може да означава „между“.",
-        "Тоа е спротивно на über кога станува збор за насоката нагоре/надолу."
+        "Glavna ideja: unter znači ispod ili između ovisno o kontekstu.",
+        "Ako se nešto nalazi ispod stola, stolice ili drugog predmeta, koristite unter.",
+        "Kada se govori o grupi ljudi, unter može značiti između.",
+        "To je suprotno od übera kada se odnosi na smjer gore/dolje."
       ],
       "examples": [
         {
           "de": "Die Tasche ist unter dem Tisch.",
-          "lv": "Чанта под масата."
+          "lv": "Torba je ispod stola."
         },
         {
           "de": "Die Katze liegt unter dem Stuhl.",
-          "lv": "Котката спи под стола."
+          "lv": "Mačka spava ispod stolice."
         },
         {
           "de": "Unter Freunden sagt man das so.",
-          "lv": "Казват сред приятели."
+          "lv": "Među prijateljima se kaže."
         },
         {
           "de": "Die Lampe hängt über dem Tisch.",
-          "lv": "Iznad stola visi lampa."
+          "lv": "Lampa visi iznad stola."
         }
       ],
       "comparison": [
         {
           "word": "unter",
-          "meaning": "Под/между",
+          "meaning": "Ispod / između",
           "example": "Die Tasche ist unter dem Tisch."
         },
         {
           "word": "über",
-          "meaning": "Над/за",
+          "meaning": "Preko / za",
           "example": "Die Lampe hängt über dem Tisch."
         },
         {
           "word": "zwischen",
-          "meaning": "Между две неща",
+          "meaning": "Između dve stvari",
           "example": "Zwischen den Häusern."
         },
         {
@@ -16637,17 +21854,24 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Запомнете: под масата → unter dem Tisch."
+        "text": "Zapamtite: ispod stola → unter dem Tisch."
       },
       "important": [
-        "Unter lahko pomeni tudi \"vmes\", zlasti z ljudmi ali skupinami.",
-        "Unter и über често са противоположни по отношение на място."
+        "Unter takođe može značiti \"između\", posebno sa ljudima ili grupama.",
+        "Unter i über su često suprotnosti u smislu mjesta."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "unter",
             "über"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna"
+          ],
+          "green": [
+            "Glavna"
           ]
         },
         "examples": [
@@ -16660,7 +21884,14 @@ const A1_WORDS = [
                 "Tisch"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Torba"
+              ],
+              "yellow": [
+                "Torba"
+              ]
+            }
           },
           {
             "de": {
@@ -16671,7 +21902,14 @@ const A1_WORDS = [
                 "Stuhl"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Mačka"
+              ],
+              "yellow": [
+                "Mačka"
+              ]
+            }
           },
           {
             "de": {
@@ -16682,7 +21920,14 @@ const A1_WORDS = [
                 "Freunden"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Među"
+              ],
+              "green": [
+                "Među"
+              ]
+            }
           },
           {
             "de": {
@@ -16693,13 +21938,29 @@ const A1_WORDS = [
                 "Tisch"
               ]
             },
-            "lv": {}
+            "lv": {
+              "red": [
+                "Lampa"
+              ],
+              "yellow": [
+                "Lampa"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "unter"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Ispod",
+                "Ispod"
+              ]
+            },
             "example": {
               "blue": [
                 "unter"
@@ -16707,8 +21968,17 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "über"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Preko",
+                "Preko"
+              ]
+            },
             "example": {
               "red": [
                 "über"
@@ -16716,8 +21986,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "zwischen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "stvari"
+              ]
+            },
             "example": {
               "green": [
                 "Zwischen"
@@ -16725,8 +22003,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "auf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "površini"
+              ]
+            },
             "example": {
               "yellow": [
                 "Auf"
@@ -16738,6 +22024,9 @@ const A1_WORDS = [
           "left": {
             "blue": [
               "unter dem Tisch"
+            ],
+            "purple": [
+              "Zapamtite"
             ]
           }
         },
@@ -16745,6 +22034,9 @@ const A1_WORDS = [
           {
             "blue": [
               "unter"
+            ],
+            "purple": [
+              "Unter"
             ]
           },
           {
@@ -16763,14 +22055,14 @@ const A1_WORDS = [
     "de": "Vase",
     "de_article": "die",
     "de_plural": "die Vasen",
-    "lv": "Ваза",
+    "lv": "Vaza",
     "level": "A1"
   },
   {
     "de": "Vater",
     "de_article": "der",
     "de_plural": "die Väter",
-    "lv": "Татко",
+    "lv": "Otac",
     "level": "A1"
   },
   {
@@ -16780,80 +22072,89 @@ const A1_WORDS = [
   },
   {
     "de": "verkaufen",
-    "lv": "Prodajem",
+    "lv": "Prodati",
     "level": "A1"
   },
   {
     "de": "verlieren",
-    "lv": "-Izguba. Moj sin in moj mož.",
+    "lv": "Izgubiti",
     "level": "A1"
   },
   {
     "de": "verstehen",
-    "lv": "Разберете",
+    "lv": "Razumjeti",
     "level": "A1",
     "study": {
       "id": "a1-verstehen",
       "layout": "standardStudy",
-      "translation": "Разберете",
+      "translation": "Razumjeti",
       "explanation": [
-        "Основна идея: verstehen означава да разбираш.",
-        "Се користи кога разбирате јазик, личност, текст или ситуација.",
-        "Тук обикновено не е необходимо да „знаете“ или „учите“ латвийски език • Те са по-често Können.",
-        "Много често срещана фраза е Ich verstehe. = Разбирам."
+        "Glavna ideja: verstehen znači razumjeti.",
+        "Koristi se kada razumete jezik, osobu, tekst ili situaciju.",
+        "Ovdje obično ne morate \"znati\" ili \"učiti\" latvijski • Češće su können.",
+        "Vrlo česta fraza je Ich verstehe. = Razumem."
       ],
       "examples": [
         {
           "de": "Ich verstehe dich.",
-          "lv": "Разбрах те"
+          "lv": "Razumem te"
         },
         {
           "de": "Verstehst du Deutsch?",
-          "lv": "Ali razumete nemško"
+          "lv": "Da li razumes nemacki"
         },
         {
           "de": "Ich verstehe das nicht.",
-          "lv": "Това не го разбирам"
+          "lv": "Ne razumijem to."
         },
         {
           "de": "Ich kann Deutsch sprechen.",
-          "lv": "Мога да говоря немски"
+          "lv": "Znam njemački"
         }
       ],
       "comparison": [
         {
           "word": "verstehen",
-          "meaning": "Разберете",
+          "meaning": "Razumjeti",
           "example": "Ich verstehe dich."
         },
         {
           "word": "können",
-          "meaning": "Бъдете способни/знайте",
+          "meaning": "Biti u stanju / znati",
           "example": "Ich kann schwimmen."
         },
         {
           "word": "wissen",
-          "meaning": "Познайте факта",
+          "meaning": "Znati činjenicu",
           "example": "Ich weiß das."
         },
         {
           "word": "kennen",
-          "meaning": "Знам",
+          "meaning": "Znati",
           "example": "Ich kenne ihn."
         }
       ],
       "tip": {
-        "text": "Запомнете: разберете текст/лице → verstehen • Да знаете како да направите нешто → können."
+        "text": "Zapamtite: razumite tekst/osobu → verstehen • Znati kako nešto učiniti → können."
       },
       "important": [
-        "Verstehen nije korijen riječi \"razumijem\".",
-        "Ich verstehe Deutsch означава „разбирам немски“."
+        "Verstehen nije korijen riječi za 'razumjeti'.",
+        "Ich verstehe Deutsch znači \"Razumem njemački\"."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "verstehen",
             "Ich verstehe"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna"
+          ],
+          "red": [
+            "können",
+            "Glavna",
+            "Glavna"
           ]
         },
         "examples": [
@@ -16863,7 +22164,11 @@ const A1_WORDS = [
                 "verstehe"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Razumem"
+              ]
+            }
           },
           {
             "de": {
@@ -16871,7 +22176,11 @@ const A1_WORDS = [
                 "Verstehst"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "razumes"
+              ]
+            }
           },
           {
             "de": {
@@ -16879,7 +22188,11 @@ const A1_WORDS = [
                 "verstehe"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "razumijem"
+              ]
+            }
           },
           {
             "de": {
@@ -16887,13 +22200,25 @@ const A1_WORDS = [
                 "kann"
               ]
             },
-            "lv": {}
+            "lv": {
+              "red": [
+                "Znam"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "verstehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Razumjeti"
+              ]
+            },
             "example": {
               "blue": [
                 "verstehe"
@@ -16901,8 +22226,17 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "können"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Biti",
+                "Biti"
+              ]
+            },
             "example": {
               "red": [
                 "kann"
@@ -16910,8 +22244,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "wissen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Znati"
+              ]
+            },
             "example": {
               "green": [
                 "weiß"
@@ -16919,8 +22261,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "kennen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Znati"
+              ]
+            },
             "example": {
               "yellow": [
                 "kenne"
@@ -16933,8 +22283,12 @@ const A1_WORDS = [
             "blue": [
               "verstehen"
             ],
+            "purple": [
+              "Zapamtite"
+            ],
             "red": [
-              "können"
+              "können",
+              "Zapamtite"
             ]
           }
         },
@@ -16942,11 +22296,17 @@ const A1_WORDS = [
           {
             "blue": [
               "verstehen"
+            ],
+            "red": [
+              "Verstehen"
             ]
           },
           {
             "blue": [
               "verstehe"
+            ],
+            "purple": [
+              "Ich"
             ]
           }
         ]
@@ -16955,157 +22315,164 @@ const A1_WORDS = [
   },
   {
     "de": "versuchen",
-    "lv": "Опитайте го",
+    "lv": "Pokušati",
     "level": "A1"
   },
   {
     "de": "viel",
-    "lv": "Много",
+    "lv": "Puno",
     "level": "A1"
   },
   {
     "de": "vielleicht",
-    "lv": "Можеби",
+    "lv": "Mozda",
     "level": "A1"
   },
   {
     "de": "vier",
-    "lv": "Четири",
+    "lv": "Četiri",
     "level": "A1"
   },
   {
     "de": "vierhundert",
-    "lv": "Четиристотин",
+    "lv": "Četiri stotine",
     "level": "A1"
   },
   {
     "de": "vierte",
-    "lv": "Četvrto",
+    "lv": "Četvrti",
     "level": "A1"
   },
   {
     "de": "vierzehn",
-    "lv": "Четиринадесет",
+    "lv": "Četrnaest",
     "level": "A1"
   },
   {
     "de": "vierzehnte",
-    "lv": "Четиринаесетти",
+    "lv": "Četrnaestog",
     "level": "A1"
   },
   {
     "de": "vierzig",
-    "lv": "Четиридесет",
+    "lv": "Četrdeset",
     "level": "A1"
   },
   {
     "de": "vierzigste",
-    "lv": "Четиридесета",
+    "lv": "Četrdeseti",
     "level": "A1"
   },
   {
     "de": "Vogel",
     "de_article": "der",
     "de_plural": "die Vögel",
-    "lv": "Ptič.",
+    "lv": "Ptica",
     "level": "A1"
   },
   {
     "de": "voll",
-    "lv": "Pun",
+    "lv": "Puna",
     "level": "A1"
   },
   {
     "de": "vom",
-    "lv": "Од",
+    "lv": "Od",
     "level": "A1",
     "study": {
       "id": "a1-vom",
       "layout": "standardStudy",
-      "translation": "Од",
+      "translation": "Od",
       "explanation": [
-        "Vom е контракција на предлогот von и членот дем.",
-        "Целосна форма: von dem (на кого?).",
-        "Използва се със съществителни от мъжки и среден род, за да посочи произхода или посоката на нещо.",
-        "Отговаря на въпроси от кого? или откъде?",
-        "V praksi se vom skoraj vedno uporablja namesto polnega von dem."
+        "Vom je skraćenica za prijedlog von i član dem.",
+        "Puni oblik: von dem (kome?).",
+        "Koristi se s imenicama muškog i srednjeg roda kada ukazuje na porijeklo ili smjer od čega.",
+        "Odgovara na pitanja od koga? ili odakle?",
+        "U praksi se skoro uvijek koristi vom umjesto punog von dem."
       ],
       "examples": [
         {
           "de": "Ich komme vom Bahnhof.",
-          "lv": "Dojdoh ot garata"
+          "lv": "Dolazim sa stanice"
         },
         {
           "de": "Das Geschenk ist vom Vater.",
-          "lv": "Poklon od mog oca."
+          "lv": "Poklon je od oca."
         },
         {
           "de": "Er kommt vom Arzt.",
-          "lv": "Доаѓа од докторот."
+          "lv": "Dolazi od doktora."
         },
         {
           "de": "Sie fährt vom Flughafen.",
-          "lv": "Prihaja z letališča."
+          "lv": "Ona se vozi sa aerodroma."
         },
         {
           "de": "Das ist vom Markt.",
-          "lv": "Ovo je sa tržišta."
+          "lv": "Sa tržišta je."
         },
         {
           "de": "Wir kommen vom Fest.",
-          "lv": "Дојдовме од празникот."
+          "lv": "Dolazimo sa proslave."
         },
         {
           "de": "Er holt Milch vom Bauern.",
-          "lv": "Od kmeta vzame mleko."
+          "lv": "Uzima mleko od farmera."
         },
         {
           "de": "Die Nachricht ist vom Chef.",
-          "lv": "Съобщение от шефа."
+          "lv": "Poruka je od šefa."
         }
       ],
       "comparison": [
         {
           "word": "vom",
-          "meaning": "От (конкретно нещо, за кого?)",
-          "example": "vom Bahnhof – Од станицата"
+          "meaning": "Od (konkretne stvari, za koga?)",
+          "example": "vom Bahnhof – Sa stanice"
         },
         {
           "word": "von",
-          "meaning": "Од (вкупно)",
-          "example": "von mir – Нема мани"
+          "meaning": "Od (općenito)",
+          "example": "von mir – Od mene"
         },
         {
           "word": "aus",
-          "meaning": "Отвътре / произход",
-          "example": "aus Deutschland – От Германия"
+          "meaning": "Iznutra / porijekla",
+          "example": "aus Deutschland – Iz Njemačke"
         },
         {
           "word": "ab",
-          "meaning": "Počevši od (vrijeme/mjesto)",
-          "example": "ab Montag – Od ponedeljka"
+          "meaning": "S početkom u (vrijeme/mjesto)",
+          "example": "ab Montag – Od ponedjeljka"
         },
         {
           "word": "zu",
-          "meaning": "K/u (обратна посока)",
-          "example": "zum Arzt – Посетете лекар"
+          "meaning": "Do / na (suprotan smjer)",
+          "example": "zum Arzt – Kod doktora"
         }
       ],
       "tip": [
-        "Запомнете: позадина + dem → vom (за кого?).",
-        "U kolokvijalnom govoru gotovo nikada ne kažu von dem - koriste vom."
+        "Zapamtite: von + dem → vom (za koga?).",
+        "U kolokvijalnom govoru skoro nikad ne kažete von dem - koristite vom."
       ],
       "important": [
-        "Vom = von dem, само със съществително от мъжки или среден род за кого? в завоя.",
-        "Ukazuje na porijeklo, izvor ili smjer nečega specifičnog.",
-        "За жени: von der Mutter, а не vom Mutter.",
-        "Да не се меша со aus (земја на потекло) или ab (точка на потекло)."
+        "Vom = von dem, samo sa imenicom muškog ili srednjeg roda za koga? u fleksiji.",
+        "Označava porijeklo, izvor ili smjer od nečega određenog.",
+        "Za ženski rod: von der Mutter, ne vom Mutter.",
+        "Ne treba se brkati sa aus (zemlja porijekla) ili ab (početna tačka)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "vom",
             "von dem"
+          ],
+          "purple": [
+            "Vom"
+          ],
+          "green": [
+            "Vom",
+            "Vom"
           ]
         },
         "examples": [
@@ -17115,7 +22482,11 @@ const A1_WORDS = [
                 "vom"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Dolazim"
+              ]
+            }
           },
           {
             "de": {
@@ -17123,7 +22494,11 @@ const A1_WORDS = [
                 "vom"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Poklon"
+              ]
+            }
           },
           {
             "de": {
@@ -17131,7 +22506,11 @@ const A1_WORDS = [
                 "vom"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Dolazi"
+              ]
+            }
           },
           {
             "de": {
@@ -17139,7 +22518,11 @@ const A1_WORDS = [
                 "vom"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Ona"
+              ]
+            }
           },
           {
             "de": {
@@ -17147,7 +22530,11 @@ const A1_WORDS = [
                 "vom"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "tržišta"
+              ]
+            }
           },
           {
             "de": {
@@ -17155,7 +22542,11 @@ const A1_WORDS = [
                 "vom"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Dolazimo"
+              ]
+            }
           },
           {
             "de": {
@@ -17163,7 +22554,11 @@ const A1_WORDS = [
                 "vom"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Uzima"
+              ]
+            }
           },
           {
             "de": {
@@ -17171,13 +22566,25 @@ const A1_WORDS = [
                 "vom"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Poruka"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "vom"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "konkretne"
+              ]
+            },
             "example": {
               "blue": [
                 "vom Bahnhof"
@@ -17185,8 +22592,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "von"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "općenito"
+              ]
+            },
             "example": {
               "yellow": [
                 "von mir"
@@ -17194,8 +22609,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "aus"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Iznutra"
+              ]
+            },
             "example": {
               "green": [
                 "aus Deutschland"
@@ -17203,8 +22626,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "ab"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "početkom"
+              ]
+            },
             "example": {
               "green": [
                 "ab Montag"
@@ -17212,8 +22643,17 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "zu"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "suprotan",
+                "suprotan"
+              ]
+            },
             "example": {
               "red": [
                 "zum Arzt"
@@ -17240,9 +22680,16 @@ const A1_WORDS = [
             ],
             "purple": [
               "von dem"
+            ],
+            "green": [
+              "Vom"
             ]
           },
-          {},
+          {
+            "purple": [
+              "Označava"
+            ]
+          },
           {
             "yellow": [
               "von der Mutter"
@@ -17265,75 +22712,84 @@ const A1_WORDS = [
   },
   {
     "de": "von",
-    "lv": "Од",
+    "lv": "Od",
     "level": "A1"
   },
   {
     "de": "vor",
-    "lv": "Преди • Преди",
+    "lv": "Prije • Ispred",
     "level": "A1",
     "study": {
       "id": "a1-vor",
       "layout": "standardStudy",
-      "translation": "Преди • Преди",
+      "translation": "Prije • Ispred",
       "explanation": [
-        "Ключова идея: „крадец“ означава „преди“ във времето или „преди място“.",
-        "Когато става въпрос за време, „крадец“ означава „преди“.",
-        "Когато става дума за място, vor означава „отпред“ или „на“.",
-        "V časova zona vor znači \"za sada\", na primer fünf vor acht."
+        "Glavna ideja: vor znači prije u vremenu ili ispred mjesta.",
+        "Kada je u pitanju vrijeme, vor znači prije.",
+        "Kada je u pitanju mjesto, vor znači ispred ili kod.",
+        "U satu, vor znači 'do', npr. fünf vor acht."
       ],
       "examples": [
         {
           "de": "Vor dem Essen wasche ich die Hände.",
-          "lv": "Ги мијам рацете пред јадење."
+          "lv": "Perem ruke prije jela."
         },
         {
           "de": "Das Auto steht vor dem Haus.",
-          "lv": "Колата е паркирана пред къщата."
+          "lv": "Auto je parkiran ispred kuce."
         },
         {
           "de": "Es ist fünf vor acht.",
-          "lv": "Сега е пет без осем."
+          "lv": "Pet do osam je."
         },
         {
           "de": "Nach dem Essen gehen wir spazieren.",
-          "lv": "След като се нахраним, излизаме на разходка."
+          "lv": "Nakon jela idemo u šetnju."
         }
       ],
       "comparison": [
         {
           "word": "vor",
-          "meaning": "Пред/пред",
+          "meaning": "Prije / ispred",
           "example": "Vor dem Essen..."
         },
         {
           "word": "nach",
-          "meaning": "S strani/pred",
+          "meaning": "Nakon / do",
           "example": "Nach dem Essen..."
         },
         {
           "word": "neben",
-          "meaning": "До",
+          "meaning": "Pored",
           "example": "Neben dem Haus."
         },
         {
           "word": "hinter",
-          "meaning": "Отзад",
+          "meaning": "Iza",
           "example": "Hinter dem Haus."
         }
       ],
       "tip": {
-        "text": "Zapamtite: prije vremena, prije mjesta → lopov."
+        "text": "Zapamtite: prije vremena, ispred mjesta → vor."
       },
       "important": [
-        "Tat je lahko čas in kraj.",
-        "Vor dem Essen = pred obroki • Vor dem Haus = pred hišo."
+        "Vor može biti i vrijeme i mjesto.",
+        "Vor dem Essen = prije jela • Vor dem Haus = ispred kuće."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "vor",
             "fünf vor acht"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna",
+            "Glavna"
+          ],
+          "green": [
+            "Glavna",
+            "Glavna"
           ]
         },
         "examples": [
@@ -17346,7 +22802,14 @@ const A1_WORDS = [
                 "Essen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Perem"
+              ],
+              "yellow": [
+                "Perem"
+              ]
+            }
           },
           {
             "de": {
@@ -17357,7 +22820,14 @@ const A1_WORDS = [
                 "Haus"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Auto"
+              ],
+              "yellow": [
+                "Auto"
+              ]
+            }
           },
           {
             "de": {
@@ -17365,7 +22835,11 @@ const A1_WORDS = [
                 "vor"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Pet"
+              ]
+            }
           },
           {
             "de": {
@@ -17376,13 +22850,29 @@ const A1_WORDS = [
                 "Essen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "red": [
+                "Nakon"
+              ],
+              "yellow": [
+                "Nakon"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "vor"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Prije",
+                "Prije"
+              ]
+            },
             "example": {
               "blue": [
                 "Vor"
@@ -17390,8 +22880,17 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "nach"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Nakon",
+                "Nakon"
+              ]
+            },
             "example": {
               "red": [
                 "Nach"
@@ -17399,8 +22898,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "neben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Pored"
+              ]
+            },
             "example": {
               "green": [
                 "Neben"
@@ -17408,8 +22915,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "hinter"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Iza"
+              ]
+            },
             "example": {
               "yellow": [
                 "Hinter"
@@ -17418,14 +22933,34 @@ const A1_WORDS = [
           }
         ],
         "tip": {
-          "left": {}
+          "left": {
+            "blue": [
+              "vor"
+            ],
+            "purple": [
+              "Zapamtite",
+              "Zapamtite"
+            ]
+          }
         },
         "important": [
-          {},
+          {
+            "blue": [
+              "vor"
+            ],
+            "purple": [
+              "Vor",
+              "Vor"
+            ]
+          },
           {
             "blue": [
               "vor dem Essen",
               "vor dem Haus"
+            ],
+            "purple": [
+              "Vor",
+              "Vor"
             ]
           }
         ]
@@ -17436,98 +22971,98 @@ const A1_WORDS = [
     "de": "Vorname",
     "de_article": "der",
     "de_plural": "die Vornamen",
-    "lv": "Слово",
+    "lv": "Riječ",
     "level": "A1"
   },
   {
     "de": "Wald",
     "de_article": "der",
     "de_plural": "die Wälder",
-    "lv": "Гора",
+    "lv": "Šuma",
     "level": "A1"
   },
   {
     "de": "Wand",
     "de_article": "die",
     "de_plural": "die Wände",
-    "lv": "Ѕид",
+    "lv": "Zid",
     "level": "A1"
   },
   {
     "de": "wann",
-    "lv": "Кога",
+    "lv": "Kada",
     "level": "A1"
   },
   {
     "de": "warm",
-    "lv": "Топло",
+    "lv": "Toplo",
     "level": "A1"
   },
   {
     "de": "warten",
-    "lv": "- Čekaj.",
+    "lv": "Čekati",
     "level": "A1"
   },
   {
     "de": "warum",
-    "lv": "Зошто",
+    "lv": "Zašto",
     "level": "A1"
   },
   {
     "de": "was",
-    "lv": "Кой • Какво",
+    "lv": "Ko • Šta",
     "level": "A1",
     "study": {
       "id": "a1-was",
       "layout": "standardStudy",
-      "translation": "Кой • Какво",
+      "translation": "Ko • Šta",
       "explanation": [
-        "Главна идеја: што е прашален збор за нештата и настаните - на латвиски е што или што, во зависност од делот на реченицата.",
-        "Питаха го за неща, събития и факти, а не за хора.",
-        "На германски, зборот нема да се промени по промена, секогаш изгледа како да бил.",
-        "Ако в изречението е имало подлог, той се превежда на латвийски като kas (Was ist das? = Какво е това?).",
-        "Ако was е обект (допълнение) на глагол, той се превежда на латвийски като ko (Was machst du? = Какво правиш?).",
-        "Хората питат с wer (кой/кой), но не беше."
+        "Glavna ideja: šta je upitna riječ o stvarima i događajima - na latvijskom je šta ili šta, ovisno o dijelu rečenice.",
+        "Bila je pitanja o stvarima, događajima i činjenicama, a ne o osobama.",
+        "Na njemačkom, was se ne mijenja nakon fleksije - uvijek izgleda kao bio.",
+        "Ako je bio predmet rečenice, na latvijskom se prevodi kao kas (Was ist das? = Šta je to?).",
+        "Ako je bio dopuna (objekat) glagola, na letonski se prevodi kao ko (Was machst du? = Šta radiš?).",
+        "Ljudi se pitaju sa wer (ko/ko), nije bio."
       ],
       "examples": [
         {
           "de": "Was ist das?",
-          "lv": "Какво е?"
+          "lv": "Šta je to?"
         },
         {
           "de": "Was ist passiert?",
-          "lv": "Какво е станало"
+          "lv": "Sta se desilo?"
         },
         {
           "de": "Was machst du gerade?",
-          "lv": "Šta radiš"
+          "lv": "Šta radiš sada"
         },
         {
           "de": "Was möchtest du trinken?",
-          "lv": "Какво искаш да пиеш"
+          "lv": "Šta želiš da popiješ"
         },
         {
           "de": "Was bedeutet dieses Wort?",
-          "lv": "Што значи овој збор?"
+          "lv": "Šta znači ova riječ?"
         },
         {
           "de": "Was ist dein Lieblingsessen?",
-          "lv": "Која е вашата омилена храна?"
+          "lv": "Koja je tvoja omiljena hrana?"
         },
         {
           "de": "Was hast du gesagt?",
-          "lv": "Какво каза"
+          "lv": "Šta si rekao"
         }
       ],
       "tip": [
-        "Samo \"Beshe\" se ne menja - na nemačkom je uvek bilo.",
-        "Брз трик: Ако на прашањето може да се одговори со „Тоа е...“, употребете who • Ако одговорот доаѓа по глаголот како предмет, користете ko."
+        "Bio sam po sebi se ne mijenja - na njemačkom je uvijek bio • Na latvijskom, izaberite ko ili šta prema delu rečenice.",
+        "Brzi trik: ako se na pitanje može odgovoriti sa 'To je ...', upotrijebite tko • Ako je odgovor iza glagola kao dopuna, koristite ko."
       ],
       "important": [
-        "Питаха го за неща, събития и факти, а не за хора.",
-        "Хората питат с wer (кой/кой), но не беше.",
-        "Was für (ein/eine) означава някой/за и пита за качество или тип (Was für ein Film ist das? = Какъв филм е това?).",
-        "Napačno: Wer ist passiert? → Pravilno: Je bil pasiven?"
+        "Bilo je pitanja o stvarima, događajima i činjenicama - nikad o osobama.",
+        "Ljudi se pitaju sa wer (ko/ko), nije bio.",
+        "Was für (ein/eine) znači nekoga/o čemu i pita o kvaliteti ili vrsti (Was für ein Film ist das? = Kakav je to film?).",
+        "Netačno: Wer ist passiert? → Tačno: Was ist passiert?"
       ],
       "sectionAccents": {
         "explanation": {
@@ -17546,7 +23081,11 @@ const A1_WORDS = [
                 "Was"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Šta"
+              ]
+            }
           },
           {
             "de": {
@@ -17554,7 +23093,11 @@ const A1_WORDS = [
                 "Was"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Sta"
+              ]
+            }
           },
           {
             "de": {
@@ -17562,7 +23105,11 @@ const A1_WORDS = [
                 "Was"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Šta"
+              ]
+            }
           },
           {
             "de": {
@@ -17570,7 +23117,11 @@ const A1_WORDS = [
                 "Was"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Šta"
+              ]
+            }
           },
           {
             "de": {
@@ -17578,7 +23129,11 @@ const A1_WORDS = [
                 "Was"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Šta"
+              ]
+            }
           },
           {
             "de": {
@@ -17586,7 +23141,11 @@ const A1_WORDS = [
                 "Was"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Koja"
+              ]
+            }
           },
           {
             "de": {
@@ -17594,19 +23153,32 @@ const A1_WORDS = [
                 "Was"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Šta"
+              ]
+            }
           }
         ],
         "tip": [
-          {},
+          {
+            "blue": [
+              "Bio"
+            ]
+          },
           {
             "purple": [
+              "kao",
               "ko"
             ]
           }
         ],
         "important": [
-          {},
+          {
+            "blue": [
+              "Bilo"
+            ]
+          },
           {
             "blue": [
               "wer"
@@ -17617,132 +23189,144 @@ const A1_WORDS = [
               "was für"
             ]
           },
-          {}
+          {
+            "blue": [
+              "was"
+            ]
+          }
         ]
       }
     }
   },
   {
     "de": "waschen",
-    "lv": "Operi se",
+    "lv": "Oprati",
     "level": "A1"
   },
   {
     "de": "sich waschen",
-    "lv": "Operi se",
+    "lv": "Oprati",
     "level": "A1"
   },
   {
     "de": "Weg",
     "de_article": "der",
     "de_plural": "die Wege",
-    "lv": "Път",
+    "lv": "Put",
     "level": "A1"
   },
   {
     "de": "Weihnachten",
-    "lv": "Коледа",
+    "lv": "Božić",
     "level": "A1"
   },
   {
     "de": "Wein",
     "de_article": "der",
     "de_plural": "die Weine",
-    "lv": "Вино",
+    "lv": "Vino",
     "level": "A1"
   },
   {
     "de": "weinen",
-    "lv": "Плачи",
+    "lv": "Plakati",
     "level": "A1"
   },
   {
     "de": "weiß",
-    "lv": "Бяло",
+    "lv": "Bijela",
     "level": "A1"
   },
   {
     "de": "welcher",
-    "lv": "СЗО",
+    "lv": "SZO",
     "level": "A1"
   },
   {
     "de": "Welt",
     "de_article": "die",
     "de_plural": "die Welten",
-    "lv": "Свети",
+    "lv": "Svijet",
     "level": "A1"
   },
   {
     "de": "wenig",
-    "lv": "Малку",
+    "lv": "Ne puno",
     "level": "A1"
   },
   {
     "de": "wenn",
-    "lv": "Če • Kdaj",
+    "lv": "Ako • Kada",
     "level": "A1",
     "study": {
       "id": "a1-wenn",
       "layout": "standardStudy",
-      "translation": "Če • Kdaj",
+      "translation": "Ako • Kada",
       "explanation": [
-        "Ключова идея: wenn означава „ако“ или „когато“, в зависимост от ситуацията.",
-        "Ако е условие, преведете го така, сякаш.",
-        "Когато се говори за повтарящо се или общо време, преведете като „когато“.",
+        "Glavna ideja: wenn znači ako ili kada ovisno o situaciji.",
+        "Ako je to uslov, prevedite kao da.",
+        "Ako se radi o ponovljenom ili općem vremenu, prevedite kao kada.",
         "Nakon wenn, glagol se obično završava njemačkom rečenicom."
       ],
       "examples": [
         {
           "de": "Wenn du Zeit hast, komm vorbei.",
-          "lv": "Če imate čas, se oglasite."
+          "lv": "Ako imate vremena, svratite."
         },
         {
           "de": "Wenn es regnet, bleibe ich zu Hause.",
-          "lv": "Ако вали, си стоя вкъщи."
+          "lv": "Ako pada kiša, ostajem kod kuće."
         },
         {
           "de": "Wenn ich müde bin, trinke ich Kaffee.",
-          "lv": "Ko sem utrujena, pijem kavo."
+          "lv": "Kad sam umoran pijem kafu."
         },
         {
           "de": "Ich weiß nicht, ob er kommt.",
-          "lv": "Не знам дали ќе дојде."
+          "lv": "Ne znam da li će doći."
         }
       ],
       "comparison": [
         {
           "word": "wenn",
-          "meaning": "Ако/кога",
+          "meaning": "Ako / kada",
           "example": "Wenn du Zeit hast..."
         },
         {
           "word": "ob",
-          "meaning": "Или в косвен въпрос",
+          "meaning": "Ili u indirektnom pitanju",
           "example": "Ich weiß nicht, ob..."
         },
         {
           "word": "wann",
-          "meaning": "При съмнение",
+          "meaning": "Kada je u pitanju",
           "example": "Wann kommst du?"
         },
         {
           "word": "weil",
-          "meaning": "Защото",
+          "meaning": "Jer",
           "example": "Ich bleibe, weil ich krank bin."
         }
       ],
       "tip": {
-        "text": "Запомнете: състояние → venn • Въпрос „кога?“ → Искам."
+        "text": "Zapamtite: stanje → wenn • Pitanje \"kada?\" → wann."
       },
       "important": [
-        "Wenn и Wann не се иста работа.",
-        "Кога ще дойдеш имам един въпрос Wenn du kommst... - състояние/време."
+        "Wenn i wann nisu isto.",
+        "Kada dolazite? postoji pitanje. Wenn du kommst... je stanje/napetost."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "wenn"
+          ],
+          "purple": [
+            "Glavna",
+            "kad",
+            "Glavna"
+          ],
+          "green": [
+            "Glavna"
           ]
         },
         "examples": [
@@ -17753,7 +23337,11 @@ const A1_WORDS = [
                 "hast"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Ako"
+              ]
+            }
           },
           {
             "de": {
@@ -17762,7 +23350,11 @@ const A1_WORDS = [
                 "regnet"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Ako"
+              ]
+            }
           },
           {
             "de": {
@@ -17771,7 +23363,11 @@ const A1_WORDS = [
                 "bin"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "kad"
+              ]
+            }
           },
           {
             "de": {
@@ -17779,13 +23375,26 @@ const A1_WORDS = [
                 "ob"
               ]
             },
-            "lv": {}
+            "lv": {
+              "red": [
+                "znam"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "wenn"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Ako",
+                "kad"
+              ]
+            },
             "example": {
               "blue": [
                 "Wenn"
@@ -17793,8 +23402,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "ob"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Ili"
+              ]
+            },
             "example": {
               "red": [
                 "ob"
@@ -17802,8 +23419,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "wann"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kad"
+              ]
+            },
             "example": {
               "yellow": [
                 "Wann"
@@ -17811,8 +23436,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "weil"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Jer"
+              ]
+            },
             "example": {
               "green": [
                 "weil"
@@ -17821,7 +23454,18 @@ const A1_WORDS = [
           }
         ],
         "tip": {
-          "left": {}
+          "left": {
+            "blue": [
+              "wenn"
+            ],
+            "purple": [
+              "Zapamtite"
+            ],
+            "yellow": [
+              "wann",
+              "kada"
+            ]
+          }
         },
         "important": [
           {
@@ -17833,6 +23477,9 @@ const A1_WORDS = [
             ]
           },
           {
+            "yellow": [
+              "Kada"
+            ],
             "blue": [
               "Wenn du kommst"
             ]
@@ -17843,59 +23490,59 @@ const A1_WORDS = [
   },
   {
     "de": "wer",
-    "lv": "Кой • Кой",
+    "lv": "Ko • Ko",
     "level": "A1",
     "study": {
       "id": "a1-wer",
       "layout": "standardStudy",
-      "translation": "Кой • Кой",
+      "translation": "Ko • Ko",
       "explanation": [
-        "Главна идеја: wer е прашален збор за идентитетот на една личност - на латвиски е кој или кој.",
-        "Прашувавме за луѓе, а не за работи или настани.",
-        "Stvari i događaji su dati sa e bilo i ne e bilo.",
-        "Wer на германски обично е предмет на реченицата (номинативен случај) - Wer ist das? = Што е ова?",
-        "Kada pitate koi od nekoliko ljudi, wer se često koristi sa von (wer von euch = koi od vas).",
-        "Wer ја менува својата форма во зависност од деклинацијата: wen (падеж акузатив), wem (падеж на датив), wessen (падеж на генитив) - тоа е формата wer која е најчеста на ниво А1."
+        "Glavna ideja: wer je upitna riječ o identitetu osobe - na latvijskom je to ko ili ko.",
+        "Pitali smo o ljudima, a ne o stvarima ili događajima.",
+        "Stvari i događaji se pitaju sa bio, a ne bio.",
+        "Wer je u njemačkom obično subjekat rečenice (nominativa) — Wer ist das? = Šta je to?",
+        "Kada se pita ko od nekoliko ljudi, wer se često koristi sa von (wer von euch = ko od vas).",
+        "Wer mijenja oblik prema fleksiji: wen (akuzativ), wem (dativ), wessen (genitiv) - upravo je oblik wer najčešći na nivou A1."
       ],
       "examples": [
         {
           "de": "Wer ist das?",
-          "lv": "Какво е?"
+          "lv": "Šta je to?"
         },
         {
           "de": "Wer bist du?",
-          "lv": "Кой си ти"
+          "lv": "Ko si ti"
         },
         {
           "de": "Wer kommt heute?",
-          "lv": "Kaj se bo zgodilo danes?"
+          "lv": "Šta dolazi danas?"
         },
         {
           "de": "Wer ist deine Lehrerin?",
-          "lv": "Кой е вашият учител"
+          "lv": "Ko je tvoj učitelj"
         },
         {
           "de": "Wer von euch spricht Deutsch?",
-          "lv": "Колкумина од вас зборуваат германски?"
+          "lv": "Ko od vas govori njemački?"
         },
         {
           "de": "Wer hat das gesagt?",
-          "lv": "Кой каза това?"
+          "lv": "Ko je to rekao?"
         },
         {
           "de": "Wer möchte Kaffee?",
-          "lv": "Кой иска кафе?"
+          "lv": "Ko želi kafu?"
         }
       ],
       "tip": [
-        "Wer пита за хора (кой/кой) – за неща и събития, използваме was.",
-        "Če želite prositi za izbiro med več osebami, uporabite wer von… (katera od…)."
+        "Wer pita o osobama (ko/ko) - o stvarima i događajima, koristimo was.",
+        "Da biste pitali o izboru između nekoliko ljudi, koristite wer von... (koji od...)."
       ],
       "important": [
-        "Sprašujemo samo o ljudeh in ne o stvareh.",
-        "Stvari i događaji su dati sa e bilo i ne e bilo.",
-        "Wer променя формата, като променя: wen, wem, wessen, но основната форма е wer.",
-        "Napačno: Wer ist passiert? → Pravilno: Je bil pasiven?"
+        "Pitali smo se samo o osobama, nikad o stvarima.",
+        "Stvari i događaji se pitaju sa bio, a ne bio.",
+        "Wer mijenja oblik fleksijom: wen, wem, wessen - ali osnovni oblik je wer.",
+        "Netačno: Wer ist passiert? → Tačno: Was ist passiert?"
       ],
       "sectionAccents": {
         "explanation": {
@@ -17903,7 +23550,8 @@ const A1_WORDS = [
             "wer"
           ],
           "purple": [
-            "das"
+            "das",
+            "Glavna"
           ],
           "green": [
             "das"
@@ -17916,7 +23564,11 @@ const A1_WORDS = [
                 "Wer"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Šta"
+              ]
+            }
           },
           {
             "de": {
@@ -17932,7 +23584,11 @@ const A1_WORDS = [
                 "Wer"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Šta"
+              ]
+            }
           },
           {
             "de": {
@@ -17940,7 +23596,11 @@ const A1_WORDS = [
                 "Wer"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "tvoj"
+              ]
+            }
           },
           {
             "de": {
@@ -17948,7 +23608,11 @@ const A1_WORDS = [
                 "Wer"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "vas"
+              ]
+            }
           },
           {
             "de": {
@@ -17956,7 +23620,11 @@ const A1_WORDS = [
                 "Wer"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "rekao"
+              ]
+            }
           },
           {
             "de": {
@@ -17964,7 +23632,11 @@ const A1_WORDS = [
                 "Wer"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "želi"
+              ]
+            }
           }
         ],
         "tip": [
@@ -17979,12 +23651,26 @@ const A1_WORDS = [
           {
             "blue": [
               "wer von"
+            ],
+            "purple": [
+              "Wer"
             ]
           }
         ],
         "important": [
-          {},
-          {},
+          {
+            "blue": [
+              "Pitali"
+            ]
+          },
+          {
+            "green": [
+              "Stvari"
+            ],
+            "blue": [
+              "Stvari"
+            ]
+          },
           {
             "blue": [
               "wer"
@@ -17993,6 +23679,9 @@ const A1_WORDS = [
           {
             "blue": [
               "Wer"
+            ],
+            "green": [
+              "Was"
             ]
           }
         ]
@@ -18001,17 +23690,17 @@ const A1_WORDS = [
   },
   {
     "de": "werden",
-    "lv": "Станете",
+    "lv": "Postati",
     "level": "A1",
     "study": {
       "id": "a1-werden",
       "layout": "standardStudy",
-      "translation": "Станете",
+      "translation": "Postati",
       "explanation": [
-        "Glavna ideja: werden u A1 obično znači postati.",
+        "Glavna ideja: werden na A1 najčešće znači postati.",
         "Koristi se kada se nešto promijeni ili postane drugačije.",
-        "Во подоцнежниот германски, werden се користи и за означување на идното време и пасивниот глас.",
-        "Na nivou A1, najvažnija fraza je Ich werde müde. = Umoran sam."
+        "U kasnijem njemačkom jeziku, werden se također koristi za budućnost i pasiv.",
+        "Na nivou A1, najvažnija fraza je Ich werde müde. = Postajem umoran."
       ],
       "examples": [
         {
@@ -18020,51 +23709,56 @@ const A1_WORDS = [
         },
         {
           "de": "Es wird kalt.",
-          "lv": "Става студено."
+          "lv": "Postaje hladno."
         },
         {
           "de": "Sie wird Ärztin.",
-          "lv": "Тя става лекар."
+          "lv": "Ona postaje doktorka."
         },
         {
           "de": "Ich bin müde.",
-          "lv": "Уморен съм"
+          "lv": "Umoran sam"
         }
       ],
       "comparison": [
         {
           "word": "werden",
-          "meaning": "Станете",
+          "meaning": "Postati",
           "example": "Ich werde müde."
         },
         {
           "word": "sein",
-          "meaning": "Бъди",
+          "meaning": "Biti",
           "example": "Ich bin müde."
         },
         {
           "word": "bleiben",
-          "meaning": "Остани",
+          "meaning": "Ostani",
           "example": "Ich bleibe hier."
         },
         {
           "word": "machen",
-          "meaning": "Pravâ / I'm doing",
+          "meaning": "Učiniti / napraviti",
           "example": "Ich mache das."
         }
       ],
       "tip": {
-        "text": "Запомнете: промената/состојбата станува различна → werden."
+        "text": "Zapamtite: promjena/stanje postaje drugačije → werden."
       },
       "important": [
-        "Werden не е същото като sein.",
-        "Ich werde müde = Umoran sam • Ich bin müde = Umoran sam."
+        "Werden nije isto što i sein.",
+        "Ich werde müde = Postajem umoran • Ich bin müde = Umoran sam."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "werden",
             "Ich werde"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna",
+            "Glavna"
           ]
         },
         "examples": [
@@ -18074,7 +23768,11 @@ const A1_WORDS = [
                 "werde"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Postajem"
+              ]
+            }
           },
           {
             "de": {
@@ -18082,7 +23780,11 @@ const A1_WORDS = [
                 "wird"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Postaje"
+              ]
+            }
           },
           {
             "de": {
@@ -18090,7 +23792,11 @@ const A1_WORDS = [
                 "wird"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Ona"
+              ]
+            }
           },
           {
             "de": {
@@ -18098,13 +23804,25 @@ const A1_WORDS = [
                 "bin"
               ]
             },
-            "lv": {}
+            "lv": {
+              "red": [
+                "Umoran"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "werden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Postati"
+              ]
+            },
             "example": {
               "blue": [
                 "werde"
@@ -18112,8 +23830,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "sein"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Biti"
+              ]
+            },
             "example": {
               "red": [
                 "bin"
@@ -18121,8 +23847,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "bleiben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Ostani"
+              ]
+            },
             "example": {
               "green": [
                 "bleibe"
@@ -18130,8 +23864,17 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "machen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Učiniti",
+                "Učiniti"
+              ]
+            },
             "example": {
               "yellow": [
                 "mache"
@@ -18143,6 +23886,10 @@ const A1_WORDS = [
           "left": {
             "blue": [
               "werden"
+            ],
+            "purple": [
+              "Zapamtite",
+              "Zapamtite"
             ]
           }
         },
@@ -18159,8 +23906,12 @@ const A1_WORDS = [
             "blue": [
               "werde"
             ],
+            "purple": [
+              "Ich"
+            ],
             "red": [
-              "bin"
+              "bin",
+              "Ich"
             ]
           }
         ]
@@ -18170,54 +23921,54 @@ const A1_WORDS = [
   {
     "de": "Wetter",
     "de_article": "das",
-    "lv": "Čas (i)",
+    "lv": "Vrijeme (vrijeme)",
     "level": "A1",
     "study": {
       "id": "a1-wetter",
       "layout": "standardStudy",
-      "translation": "Čas (i)",
+      "translation": "Vrijeme (vrijeme)",
       "explanation": [
-        "Osnovna ideja: das Wetter znači vrijeme - sunčano, kišno, hladno ili toplo.",
-        "Латвийската дума „laiks“ може да означава както времето, така и часовника – на немски е различно.",
-        "Razgovarajte o vremenu na otvorenom sa das Wetter: Wie ist das Wetter heute?",
-        "Das Wetter se pogosto uporablja v stavku skupaj z besedama \"toplo\" ali \"blato\".",
-        "Да не се меша со die Zeit - времето како момент или можност (Ich habe keine Zeit)."
+        "Glavna ideja: das Wetter znači vrijeme - sunčano, kišno, hladno ili toplo.",
+        "Letonska riječ \"laiks\" može značiti i vrijeme i vrijeme na satu - na njemačkom je drugačije.",
+        "Razgovarajte o vremenu u prirodi sa das Wetter: Wie ist das Wetter heute?",
+        "Das Wetter se često koristi u rečenici zajedno s riječima poput toplo ili kalt.",
+        "Ne treba ga brkati sa die Zeit - vrijeme je kao trenutak ili prilika (Ich habe keine Zeit)."
       ],
       "examples": [
         {
           "de": "Wie ist das Wetter heute?",
-          "lv": "Колку е часот денес?"
+          "lv": "Koliko je sati danas"
         },
         {
           "de": "Das Wetter ist schön.",
-          "lv": "Времето е убаво."
+          "lv": "Vrijeme je lijepo."
         },
         {
           "de": "Das Wetter ist schlecht.",
-          "lv": "Времето е лошо."
+          "lv": "Vrijeme je loše."
         },
         {
           "de": "Im Winter ist das Wetter oft kalt.",
-          "lv": "През зимата често е студено."
+          "lv": "Zimi je često hladno."
         },
         {
           "de": "Wir sprechen über das Wetter.",
-          "lv": "Говорим за време."
+          "lv": "Govorimo o vremenu."
         },
         {
           "de": "Morgen wird das Wetter besser.",
-          "lv": "Утре времето ще е по-добро."
+          "lv": "Sutra će vrijeme biti bolje."
         }
       ],
       "comparison": [
         {
           "word": "Wetter",
-          "meaning": "Метеорологични условия",
+          "meaning": "Vremenskim uslovima",
           "example": "Das Wetter ist schön."
         },
         {
           "word": "Zeit",
-          "meaning": "Време (момент)",
+          "meaning": "Vrijeme (trenutak)",
           "example": "Ich habe keine Zeit."
         },
         {
@@ -18227,23 +23978,26 @@ const A1_WORDS = [
         },
         {
           "word": "Sonne",
-          "meaning": "Слънце",
+          "meaning": "Sunce",
           "example": "Die Sonne scheint."
         }
       ],
       "tip": [
-        "Когато говорим за слънце, дъжд или външна температура, използвайте das Wetter.",
-        "Zapamtite: Wie ist das Wetter? = Koliko je to? (ne sat)."
+        "Kada govorimo o suncu, kiši ili temperaturi napolju - koristite das Wetter.",
+        "Zapamtite: Wie ist das Wetter? = Koliko je sati? (ne sat)."
       ],
       "important": [
-        "Das Wetter = времето, а не часовникът.",
-        "Die Zeit = времето като момент или възможност – друга карта А1."
+        "Das Wetter = vrijeme, a ne vrijeme na satu.",
+        "Die Zeit = vrijeme kao trenutak ili prilika - druga karta A1."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "Wetter",
             "Zeit"
+          ],
+          "purple": [
+            "Glavna"
           ]
         },
         "examples": [
@@ -18253,7 +24007,11 @@ const A1_WORDS = [
                 "Wetter"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Koliko"
+              ]
+            }
           },
           {
             "de": {
@@ -18261,7 +24019,11 @@ const A1_WORDS = [
                 "Wetter"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Vrijeme"
+              ]
+            }
           },
           {
             "de": {
@@ -18269,7 +24031,11 @@ const A1_WORDS = [
                 "Wetter"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Vrijeme"
+              ]
+            }
           },
           {
             "de": {
@@ -18280,7 +24046,14 @@ const A1_WORDS = [
                 "Winter"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Zimi"
+              ],
+              "yellow": [
+                "Zimi"
+              ]
+            }
           },
           {
             "de": {
@@ -18288,7 +24061,11 @@ const A1_WORDS = [
                 "Wetter"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Govorimo"
+              ]
+            }
           },
           {
             "de": {
@@ -18299,13 +24076,28 @@ const A1_WORDS = [
                 "besser"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Sutra"
+              ],
+              "green": [
+                "Sutra"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "Wetter"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Vremenskim"
+              ]
+            },
             "example": {
               "blue": [
                 "Wetter"
@@ -18313,8 +24105,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "Zeit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Vrijeme"
+              ]
+            },
             "example": {
               "green": [
                 "Zeit"
@@ -18322,8 +24122,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "Regen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Kiša"
+              ]
+            },
             "example": {
               "green": [
                 "Regen"
@@ -18331,8 +24139,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "Sonne"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Sunce"
+              ]
+            },
             "example": {
               "green": [
                 "Sonne"
@@ -18361,6 +24177,9 @@ const A1_WORDS = [
           {
             "green": [
               "Zeit"
+            ],
+            "purple": [
+              "Die"
             ]
           }
         ]
@@ -18369,63 +24188,67 @@ const A1_WORDS = [
   },
   {
     "de": "wichtig",
-    "lv": "Pomembno je.",
+    "lv": "Važno",
     "level": "A1"
   },
   {
     "de": "wie",
-    "lv": "Kako • Kuk",
+    "lv": "Kako • Koliko",
     "level": "A1",
     "study": {
       "id": "a1-wie",
       "layout": "standardStudy",
-      "translation": "Kako • Kuk",
+      "translation": "Kako • Koliko",
       "explanation": [
-        "Ključna ideja: wie pie za vid oli khatvo (kak), kao i kvantitet ili kvantitet (kolko), ovisno o kontekstu.",
-        "Wie only (Wie geht's?) пита за пътя - на латвийски как.",
-        "Wie + прилагателно (wie viel, wie alt, wie lange) пита за количество, възраст или продължителност - колко на латвийски.",
-        "Wie viel(e) означава колко • Wie alt означава колко години • Wie Lange означава „колко дълго“.",
-        "За споредба, wie значи „слично“ (т.е. groß wie = толку голем)."
+        "Glavna ideja: wie pita o vrsti ili kvaliteti (kako) i o količini ili broju (koliko), ovisno o kontekstu.",
+        "Wie alone (Wie geht's?) pita za način - na latvijskom kako.",
+        "Wie + pridjev (wie viel, wie alt, wie lange) pita o količini, starosti ili trajanju - koliko na latvijskom.",
+        "Wie viel(e) znači koliko • Wie alt znači koliko godina • Wie lange znači koliko dugo.",
+        "U poređenjima, wie znači kao (so groß wie = veliki kao)."
       ],
       "examples": [
         {
           "de": "Wie geht es dir?",
-          "lv": "Как си"
+          "lv": "Kako si"
         },
         {
           "de": "Wie heißt du?",
-          "lv": "Kako se zoveš?"
+          "lv": "Kako se zoveš"
         },
         {
           "de": "Wie viel kostet das?",
-          "lv": "Колко струва"
+          "lv": "Koliko košta"
         },
         {
           "de": "Wie alt bist du?",
-          "lv": "Колку години имаш"
+          "lv": "Koliko imaš godina"
         },
         {
           "de": "Wie lange dauert der Film?",
-          "lv": "Kako dolg je film"
+          "lv": "Koliko traje film?"
         },
         {
           "de": "Er ist so groß wie sein Vater.",
-          "lv": "На ръст е колкото баща си."
+          "lv": "Visok je kao njegov otac."
         }
       ],
       "tip": [
-        "Wie само по себе си = как (начин) • Wie + прилагателно (viel/alt/lange) = колко (количество).",
-        "Za primerjavo, torej... wie = like... like."
+        "Wie sam po sebi = kako (način) • Wie + pridjev (viel/alt/lange) = koliko (iznos).",
+        "U poređenju, tako ... wie = kao ... kao."
       ],
       "important": [
-        "Wie viel(e) = koliko • Wie alt = koliko let • Wie lange = koliko časa.",
-        "Wie само (Wie...?) обикновено = как, не колко.",
-        "Netačno: Na koliko godina sa? → Točno: Kak si? (Wie geht?)"
+        "Wie viel(e) = koliko • Wie alt = koliko godina • Wie lange = koliko dugo.",
+        "Wie alone (Wie...?) obično = kako, a ne koliko.",
+        "Netačno: Koliko imaš godina? → Tačno: Kako si? (Wie geht's?)"
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "wie"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna"
           ]
         },
         "examples": [
@@ -18435,7 +24258,11 @@ const A1_WORDS = [
                 "Wie"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Kako"
+              ]
+            }
           },
           {
             "de": {
@@ -18443,7 +24270,11 @@ const A1_WORDS = [
                 "Wie"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Kako"
+              ]
+            }
           },
           {
             "de": {
@@ -18451,7 +24282,11 @@ const A1_WORDS = [
                 "Wie"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Koliko"
+              ]
+            }
           },
           {
             "de": {
@@ -18459,7 +24294,11 @@ const A1_WORDS = [
                 "Wie"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Koliko"
+              ]
+            }
           },
           {
             "de": {
@@ -18467,7 +24306,11 @@ const A1_WORDS = [
                 "Wie"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Koliko"
+              ]
+            }
           },
           {
             "de": {
@@ -18475,21 +24318,51 @@ const A1_WORDS = [
                 "wie"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Visok"
+              ]
+            }
           }
         ],
         "tip": [
           {
             "blue": [
               "wie"
+            ],
+            "purple": [
+              "Wie",
+              "Wie"
             ]
           },
-          {}
+          {
+            "purple": [
+              "Wie",
+              "Wie"
+            ]
+          }
         ],
         "important": [
-          {},
-          {},
-          {}
+          {
+            "purple": [
+              "Wie",
+              "Wie",
+              "Wie"
+            ]
+          },
+          {
+            "purple": [
+              "Wie"
+            ]
+          },
+          {
+            "red": [
+              "Netačno"
+            ],
+            "blue": [
+              "Netačno"
+            ]
+          }
         ]
       }
     }
@@ -18501,104 +24374,104 @@ const A1_WORDS = [
   },
   {
     "de": "wie viel",
-    "lv": "Колко?",
+    "lv": "Koliko",
     "level": "A1"
   },
   {
     "de": "Wind",
     "de_article": "der",
     "de_plural": "die Winde",
-    "lv": "Вятър",
+    "lv": "Vetar",
     "level": "A1"
   },
   {
     "de": "Zigarette",
     "de_article": "die",
     "de_plural": "die Zigaretten",
-    "lv": "Цигара",
+    "lv": "Cigaretu",
     "level": "A1"
   },
   {
     "de": "Zimmer",
     "de_article": "das",
     "de_plural": "die Zimmer",
-    "lv": "Стая",
+    "lv": "Soba",
     "level": "A1"
   },
   {
     "de": "Zitrone",
     "de_article": "die",
     "de_plural": "die Zitronen",
-    "lv": "Ona.",
+    "lv": "Limun",
     "level": "A1"
   },
   {
     "de": "Zoo",
     "de_article": "der",
     "de_plural": "die Zoos",
-    "lv": "Зоолошката градина",
+    "lv": "Zoološki vrt",
     "level": "A1"
   },
   {
     "de": "zu",
-    "lv": "K • V",
+    "lv": "Do • U",
     "level": "A1",
     "study": {
       "id": "a1-zu",
       "layout": "standardStudy",
-      "translation": "K • V",
+      "translation": "Do • U",
       "explanation": [
-        "Ключова идея: zu много често означава to или at, но също играе роля с инфинитив.",
-        "Във връзка с хора и институции, zu често означава \"при\" или \"до\".",
-        "Во случај на придавки, zu може да значи и.",
-        "В конструкцията zu+неопределено спомага за образуването на неопределеното: zu lernen, zu gehen."
+        "Glavna ideja: zu vrlo često znači to ili at, ali ima ulogu i s infinitivom.",
+        "Kod ljudi i institucija, zu često znači na ili na.",
+        "Uz pridjeve, zu također može značiti.",
+        "U konstrukciji zu + neodređeno pomaže da se formira neodređeno: zu lernen, zu gehen."
       ],
       "examples": [
         {
           "de": "Ich gehe zum Arzt.",
-          "lv": "Отивам на лекар."
+          "lv": "Idem kod doktora."
         },
         {
           "de": "Wir gehen zur Schule.",
-          "lv": "Idemo u školu"
+          "lv": "Idemo u školu."
         },
         {
           "de": "Das ist zu teuer.",
-          "lv": "Твърде скъпо е."
+          "lv": "Preskupo je."
         },
         {
           "de": "Ich habe keine Zeit zu lernen.",
-          "lv": "Нямам време да уча."
+          "lv": "Nemam vremena za učenje."
         }
       ],
       "comparison": [
         {
           "word": "zu",
-          "meaning": "To / at / too / инфинитив",
+          "meaning": "To / at / too / infinitiv",
           "example": "Ich gehe zum Arzt."
         },
         {
           "word": "nach",
-          "meaning": "С градове/държави",
+          "meaning": "Sa gradovima/državama",
           "example": "Ich fahre nach Berlin."
         },
         {
           "word": "in",
-          "meaning": "IV сайт",
+          "meaning": "U / na mjesto",
           "example": "Ich gehe in die Schule."
         },
         {
           "word": "bei",
-          "meaning": "Z nekom/na delovnem mestu",
+          "meaning": "Kod nekoga / na poslu",
           "example": "Ich bin bei Anna."
         }
       ],
       "tip": {
-        "text": "Zapomnete: posjetite doktora → zum Arzt • Tvarde djego → zu teuer."
+        "text": "Zapamtite: doktoru → zum Arzt • Preskupo → zu teuer."
       },
       "important": [
-        "Zu ima veliko uporab, zato bodite vedno pozorni na dizajn.",
-        "Zu teuer означава „твърде скъпо“, а не „твърде скъпо“."
+        "Zu ima mnogo namjena, pa uvijek gledajte konstrukciju.",
+        "Zu teuer znači 'preskupo', a ne 'preskupo'."
       ],
       "sectionAccents": {
         "explanation": {
@@ -18606,6 +24479,16 @@ const A1_WORDS = [
             "zu",
             "zu lernen",
             "zu gehen"
+          ],
+          "purple": [
+            "uz",
+            "Glavna",
+            "Glavna",
+            "Glavna"
+          ],
+          "green": [
+            "Glavna",
+            "Glavna"
           ]
         },
         "examples": [
@@ -18615,7 +24498,11 @@ const A1_WORDS = [
                 "zum Arzt"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Idem"
+              ]
+            }
           },
           {
             "de": {
@@ -18623,7 +24510,11 @@ const A1_WORDS = [
                 "zur Schule"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Idemo"
+              ]
+            }
           },
           {
             "de": {
@@ -18631,7 +24522,11 @@ const A1_WORDS = [
                 "zu teuer"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Preskupo"
+              ]
+            }
           },
           {
             "de": {
@@ -18639,13 +24534,28 @@ const A1_WORDS = [
                 "zu lernen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Nemam"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "zu"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "too",
+                "too",
+                "too",
+                "infinitiv"
+              ]
+            },
             "example": {
               "blue": [
                 "zum Arzt"
@@ -18653,8 +24563,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "nach"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "gradovima/državama"
+              ]
+            },
             "example": {
               "yellow": [
                 "nach Berlin"
@@ -18662,8 +24580,17 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "in"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "mjesto",
+                "mjesto"
+              ]
+            },
             "example": {
               "green": [
                 "in die Schule"
@@ -18671,8 +24598,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "bei"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Kod"
+              ]
+            },
             "example": {
               "red": [
                 "bei Anna"
@@ -18685,6 +24620,10 @@ const A1_WORDS = [
             "blue": [
               "zum Arzt",
               "zu teuer"
+            ],
+            "purple": [
+              "Zapamtite",
+              "Zapamtite"
             ]
           }
         },
@@ -18692,11 +24631,20 @@ const A1_WORDS = [
           {
             "blue": [
               "zu"
+            ],
+            "purple": [
+              "konstrukciju"
             ]
           },
           {
             "blue": [
               "zu teuer"
+            ],
+            "purple": [
+              "teuer"
+            ],
+            "red": [
+              "teuer"
             ]
           }
         ]
@@ -18706,76 +24654,76 @@ const A1_WORDS = [
   {
     "de": "Zucker",
     "de_article": "der",
-    "lv": "Захар",
+    "lv": "Šećer",
     "level": "A1"
   },
   {
     "de": "zuerst",
-    "lv": "Najprej",
+    "lv": "Prije svega",
     "level": "A1"
   },
   {
     "de": "Zug",
     "de_article": "der",
     "de_plural": "die Züge",
-    "lv": "Влак",
+    "lv": "Voz",
     "level": "A1",
     "study": {
       "id": "a1-zug",
       "layout": "standardStudy",
-      "translation": "Влак",
+      "translation": "Voz",
       "explanation": [
-        "Основна идея: der Zug на ниво А1 най-често означава влак.",
-        "Се користи во секојдневни ситуации кои вклучуваат возење, пристигнување и заминување.",
-        "В някои други значения Zug може да бъде марш, чернова или линия, но това не са основните значения на A1.",
-        "Много често срещани фрази са mit dem Zug fahren и Der Zug kommt."
+        "Glavna ideja: der Zug na nivou A1 najčešće znači voz.",
+        "Koristi se u svakodnevnim situacijama oko vožnje, dolaska i odlaska.",
+        "U nekim drugim značenjima, Zug može biti marš, nacrt ili značajka, ali to nisu glavna značenja A1.",
+        "Vrlo uobičajene fraze su mit dem Zug fahren i Der Zug kommt."
       ],
       "examples": [
         {
           "de": "Der Zug kommt um acht Uhr.",
-          "lv": "Vlak prispe ob osmih."
+          "lv": "Voz stiže u osam sati."
         },
         {
           "de": "Ich fahre mit dem Zug.",
-          "lv": "Патувам со воз"
+          "lv": "Putujem vozom"
         },
         {
           "de": "Der Zug ist voll.",
-          "lv": "Возот е полн."
+          "lv": "Voz je pun."
         },
         {
           "de": "Der Bus kommt später.",
-          "lv": "Автобусът ще дойде по-късно."
+          "lv": "Autobus dolazi kasnije."
         }
       ],
       "comparison": [
         {
           "word": "der Zug",
-          "meaning": "Влак",
+          "meaning": "Voz",
           "example": "Der Zug kommt."
         },
         {
           "word": "die Bahn",
-          "meaning": "Пътуване с железопътен транспорт/влак",
+          "meaning": "Željeznica / putovanje vlakom",
           "example": "Ich fahre mit der Bahn."
         },
         {
           "word": "der Bus",
-          "meaning": "Autobus",
+          "meaning": "Bus",
           "example": "Der Bus kommt."
         },
         {
           "word": "die Straßenbahn",
-          "meaning": "Трамвай",
+          "meaning": "Tramvaj",
           "example": "Die Straßenbahn ist hier."
         }
       ],
       "tip": {
-        "text": "Zapamtite: betonski voz → Zug."
+        "text": "Zapamtite: određeni voz → der Zug."
       },
       "important": [
-        "Der Zug u zaglavlju treba čitati kao \"voz\".",
-        "По-редки стойности не са необходими в главния хедър A1."
+        "Der Zug u naslovu treba čitati kao 'voz'.",
+        "Ređa značenja nisu potrebna u glavnom A1 naslovu."
       ],
       "sectionAccents": {
         "explanation": {
@@ -18783,6 +24731,15 @@ const A1_WORDS = [
             "der Zug",
             "Zug",
             "mit dem Zug fahren"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna"
+          ],
+          "red": [
+            "Glavna",
+            "Glavna",
+            "Glavna"
           ]
         },
         "examples": [
@@ -18792,7 +24749,11 @@ const A1_WORDS = [
                 "Zug"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Voz"
+              ]
+            }
           },
           {
             "de": {
@@ -18800,7 +24761,11 @@ const A1_WORDS = [
                 "mit dem Zug"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Putujem"
+              ]
+            }
           },
           {
             "de": {
@@ -18808,7 +24773,11 @@ const A1_WORDS = [
                 "Zug"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Voz"
+              ]
+            }
           },
           {
             "de": {
@@ -18816,13 +24785,25 @@ const A1_WORDS = [
                 "Bus"
               ]
             },
-            "lv": {}
+            "lv": {
+              "red": [
+                "Autobus"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "der Zug"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Voz"
+              ]
+            },
             "example": {
               "blue": [
                 "Zug"
@@ -18830,8 +24811,17 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "die Bahn"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Željeznica",
+                "Željeznica"
+              ]
+            },
             "example": {
               "green": [
                 "Bahn"
@@ -18839,8 +24829,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "der Bus"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Bus"
+              ]
+            },
             "example": {
               "yellow": [
                 "Bus"
@@ -18848,8 +24846,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "die Straßenbahn"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Tramvaj"
+              ]
+            },
             "example": {
               "red": [
                 "Straßenbahn"
@@ -18858,93 +24864,110 @@ const A1_WORDS = [
           }
         ],
         "tip": {
-          "left": {}
+          "left": {
+            "blue": [
+              "der Zug"
+            ],
+            "purple": [
+              "Zapamtite"
+            ]
+          }
         },
         "important": [
           {
             "blue": [
               "der Zug"
+            ],
+            "purple": [
+              "Der"
             ]
           },
-          {}
+          {
+            "red": [
+              "Ređa"
+            ],
+            "purple": [
+              "Ređa"
+            ]
+          }
         ]
       }
     }
   },
   {
     "de": "zum",
-    "lv": "K • V",
+    "lv": "Do • U",
     "level": "A1",
     "study": {
       "id": "a1-zum",
       "layout": "standardStudy",
-      "translation": "K • V",
+      "translation": "Do • U",
       "explanation": [
-        "Zoom е свиване на предлога zu и члена dem.",
-        "Пълна форма: zu dem (на кого?).",
-        "Uporablja se pri samostalnikih moškega in srednjega rodu za označevanje smeri ali namena.",
-        "Често означава нещо или някого - лекар, станция, приятел.",
-        "На практика zum почти винаги се използва вместо пълното zu dem."
+        "Zum je skraćenica od prijedloga zu i člana dem.",
+        "Puni oblik: zu dem (kome?).",
+        "Koristi se s imenicama muškog i srednjeg roda kada ukazuje na smjer ili svrhu.",
+        "Često znači nečemu ili nekome - doktoru, stanici, prijatelju.",
+        "U praksi se gotovo uvijek koristi zum umjesto full zu dem."
       ],
       "examples": [
         {
           "de": "Ich gehe zum Arzt.",
-          "lv": "Отивам на лекар."
+          "lv": "Idem kod doktora."
         },
         {
           "de": "Wir fahren zum Bahnhof.",
-          "lv": "Idemo u garat."
+          "lv": "Idemo na stanicu."
         },
         {
           "de": "Sie geht zum Supermarkt.",
-          "lv": "Тя отива до магазина."
+          "lv": "Ona ide u radnju."
         },
         {
           "de": "Komm zum Essen!",
-          "lv": "Върви да ядеш!"
+          "lv": "Dođi jesti!"
         },
         {
           "de": "Er fährt zum Flughafen.",
-          "lv": "Odide na letališče."
+          "lv": "On ide na aerodrom."
         },
         {
           "de": "Wir gehen zum Konzert.",
-          "lv": "Одиме на концерт."
+          "lv": "Idemo na koncert."
         },
         {
           "de": "Das Geschenk ist zum Geburtstag.",
-          "lv": "Подарък за рожден ден."
+          "lv": "Poklon je za rodjendan."
         },
         {
           "de": "Ich gehe zum Friseur.",
-          "lv": "Одам на фризер."
+          "lv": "Idem kod frizera."
         }
       ],
       "comparison": [
         {
           "word": "zum",
-          "meaning": "Za/kome (kome?)",
-          "example": "zum Arzt – Посетете лекар"
+          "meaning": "Na / kod (kome?)",
+          "example": "zum Arzt – Kod doktora"
         },
         {
           "word": "zur",
-          "meaning": "K/u (семейството на съпругата)",
-          "example": "zur Schule – Uz skolu"
+          "meaning": "Do/kod (porodica supruge)",
+          "example": "zur Schule – U školu"
         },
         {
           "word": "zu",
-          "meaning": "K/u/също",
-          "example": "zu Hause – У дома"
+          "meaning": "To / at / too",
+          "example": "zu Hause – Kod kuće"
         },
         {
           "word": "nach",
-          "meaning": "V (grad/država)",
-          "example": "nach Berlin – V Berlin"
+          "meaning": "Do (gradovi/države)",
+          "example": "nach Berlin – U Berlin"
         },
         {
           "word": "bei",
-          "meaning": "В (местоположение)",
-          "example": "beim Arzt – Посетете лекар"
+          "meaning": "Na (lokacija)",
+          "example": "beim Arzt – Kod doktora"
         }
       ],
       "tip": [
@@ -18952,16 +24975,24 @@ const A1_WORDS = [
         "Za riječi ženskog roda: zu + der → zur."
       ],
       "important": [
-        "Zum = zu dem, само със съществително от мъжки род или без род за кого? в завоя.",
-        "Показва посока или цел: до лекаря, до гарата, до приятел.",
-        "За женски род се използва zur: zur Bank, zur Post.",
-        "Да не се меша со bei (се наоѓа во) или nach (во градовите без статија)."
+        "Zum = zu dem, samo sa imenicom muškog ili bezrodnog roda za koga? u fleksiji.",
+        "Označava pravac ili cilj: doktoru, stanici, prijatelju.",
+        "Za ženski rod koristi se zur: zur Bank, zur Post.",
+        "Ne treba ga brkati sa bei (nalazi se na) ili nach (u gradove bez članka)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "zum",
             "zu dem"
+          ],
+          "purple": [
+            "Zum",
+            "Zum"
+          ],
+          "green": [
+            "Zum",
+            "Zum"
           ]
         },
         "examples": [
@@ -18971,7 +25002,11 @@ const A1_WORDS = [
                 "zum"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Idem"
+              ]
+            }
           },
           {
             "de": {
@@ -18979,7 +25014,11 @@ const A1_WORDS = [
                 "zum"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Idemo"
+              ]
+            }
           },
           {
             "de": {
@@ -18987,7 +25026,11 @@ const A1_WORDS = [
                 "zum"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Ona"
+              ]
+            }
           },
           {
             "de": {
@@ -18995,7 +25038,11 @@ const A1_WORDS = [
                 "zum"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "ēst"
+              ]
+            }
           },
           {
             "de": {
@@ -19003,7 +25050,11 @@ const A1_WORDS = [
                 "zum"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "ide"
+              ]
+            }
           },
           {
             "de": {
@@ -19011,7 +25062,11 @@ const A1_WORDS = [
                 "zum"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Idemo"
+              ]
+            }
           },
           {
             "de": {
@@ -19019,7 +25074,11 @@ const A1_WORDS = [
                 "zum"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Poklon"
+              ]
+            }
           },
           {
             "de": {
@@ -19027,13 +25086,26 @@ const A1_WORDS = [
                 "zum"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Idem"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "zum"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kod",
+                "kod"
+              ]
+            },
             "example": {
               "blue": [
                 "zum Arzt"
@@ -19041,8 +25113,17 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "zur"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Do/kod",
+                "Do/kod"
+              ]
+            },
             "example": {
               "yellow": [
                 "zur Schule"
@@ -19050,8 +25131,18 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "zu"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "too",
+                "too",
+                "too"
+              ]
+            },
             "example": {
               "green": [
                 "zu Hause"
@@ -19059,8 +25150,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "nach"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "gradovi/države"
+              ]
+            },
             "example": {
               "green": [
                 "nach Berlin"
@@ -19068,8 +25167,16 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
+            "word": {
+              "green": [
+                "bei"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "lokacija"
+              ]
+            },
             "example": {
               "red": [
                 "beim Arzt"
@@ -19080,7 +25187,7 @@ const A1_WORDS = [
         "tip": [
           {
             "blue": [
-              "zu"
+              "zum"
             ]
           },
           {
@@ -19096,10 +25203,26 @@ const A1_WORDS = [
             ],
             "purple": [
               "zu dem"
+            ],
+            "green": [
+              "Zum"
             ]
           },
-          {},
-          {},
+          {
+            "purple": [
+              "Označava",
+              "Označava"
+            ],
+            "green": [
+              "Označava"
+            ]
+          },
+          {
+            "yellow": [
+              "zur Bank",
+              "zur Post"
+            ]
+          },
           {
             "green": [
               "bei"
@@ -19114,17 +25237,17 @@ const A1_WORDS = [
   },
   {
     "de": "zumachen",
-    "lv": "Близък план",
+    "lv": "Close up",
     "level": "A1"
   },
   {
     "de": "zurück",
-    "lv": "Назад",
+    "lv": "Nazad",
     "level": "A1"
   },
   {
     "de": "zusammen",
-    "lv": "Заедно",
+    "lv": "Zajedno",
     "level": "A1"
   },
   {
@@ -19134,65 +25257,65 @@ const A1_WORDS = [
   },
   {
     "de": "zwanzig",
-    "lv": "Двадесет",
+    "lv": "Dvadeset",
     "level": "A1"
   },
   {
     "de": "zwanzigste",
-    "lv": "Двадесети",
+    "lv": "Dvadesetog",
     "level": "A1"
   },
   {
     "de": "zwei",
-    "lv": "Две",
+    "lv": "Dva",
     "level": "A1"
   },
   {
     "de": "zweihundert",
-    "lv": "Dvesta",
+    "lv": "Dvije stotine",
     "level": "A1"
   },
   {
     "de": "zweimal",
-    "lv": "Dvakrat.",
+    "lv": "Dvaput",
     "level": "A1"
   },
   {
     "de": "zweite",
-    "lv": "Второ",
+    "lv": "Drugi",
     "level": "A1"
   },
   {
     "de": "Zwiebel",
     "de_article": "die",
     "de_plural": "die Zwiebeln",
-    "lv": "Лук",
+    "lv": "Luk",
     "level": "A1"
   },
   {
     "de": "zwischen",
-    "lv": "Между",
+    "lv": "Između",
     "level": "A1"
   },
   {
     "de": "zwölf",
-    "lv": "Дванадесет",
+    "lv": "Dvanaest",
     "level": "A1"
   },
   {
     "de": "zwölfte",
-    "lv": "Дванадесети",
+    "lv": "Dvanaesti",
     "level": "A1"
   },
   {
     "de": "fernsehen",
-    "lv": "Glejte televizijo",
+    "lv": "Gledati TV",
     "level": "A1",
     "study": {
       "id": "a1-fernsehen",
       "layout": "standardStudy",
-      "translation": "Glejte televizijo",
-      "explanation": "Glavna ideja: Fernsehen je podijeljen glagol - ich sehe fern, du siehst fern. To znači gledanje televizije. Ne miješati s imenicom das Fernsehen (televizija kao medij za masovne informacije).",
+      "translation": "Gledati TV",
+      "explanation": "Glavna ideja: fernsehen je podijeljen glagol — ich sehe fern, du siehst fern. To znači gledanje televizije. Ne miješati s imenicom das Fernsehen (televizija kao medij).",
       "examples": [
         {
           "de": "Ich sehe heute Abend fern.",
@@ -19200,45 +25323,49 @@ const A1_WORDS = [
         },
         {
           "de": "Siehst du oft fern?",
-          "lv": "Pogosto gledate televizijo?"
+          "lv": "Da li cesto gledas TV?"
         },
         {
           "de": "Die Kinder sehen am Nachmittag fern.",
-          "lv": "Otroci podnevi gledajo televizijo."
+          "lv": "Djeca popodne gledaju TV."
         }
       ],
       "comparison": [
         {
           "word": "fernsehen",
-          "meaning": "Glejte televizijo",
-          "example": "Ich sehe fern. = Гледам телевизија"
+          "meaning": "Gledati TV",
+          "example": "Ich sehe fern. = Gledam televiziju."
         },
         {
           "word": "das Fernsehen",
-          "meaning": "Телевизия (медия)",
-          "example": "Im Fernsehen läuft ein Film. = Пускат филм по телевизията."
+          "meaning": "Televizija (mediji)",
+          "example": "Im Fernsehen läuft ein Film. = Na TV-u se prikazuje film."
         },
         {
           "word": "sehen",
-          "meaning": "Poglejmo",
+          "meaning": "Vidjeti",
           "example": "Ich sehe einen Film. = Gledam film."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Fernsehen (ich sehe папрат) се използва за действието. Das Fernsehen се използва за телевизионна програма или медия."
+            "text": "Fernsehen (ich sehe paprat) se koristi za akciju. Das Fernsehen se koristi za TV program ili medij."
           }
         ]
       },
       "important": {
-        "text": "Fernsehen = глагол (ich sehe папрат). das Fernsehen = съществително, единствено число."
+        "text": "Fernsehen = glagol (ich sehe fern). das Fernsehen = imenica, samo u jednini."
       },
       "sectionAccents": {
         "explanation": {
           "blue": [
             "fernsehen",
-            "sehe"
+            "sehe",
+            "fern"
+          ],
+          "purple": [
+            "Glavna"
           ],
           "green": [
             "das Fernsehen"
@@ -19252,7 +25379,11 @@ const A1_WORDS = [
                 "fern"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Večeras"
+              ]
+            }
           },
           {
             "de": {
@@ -19261,7 +25392,11 @@ const A1_WORDS = [
                 "fern"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "cesto"
+              ]
+            }
           },
           {
             "de": {
@@ -19270,7 +25405,11 @@ const A1_WORDS = [
                 "fern"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Djeca"
+              ]
+            }
           }
         ]
       }
@@ -19279,37 +25418,37 @@ const A1_WORDS = [
   {
     "de": "Fernsehen",
     "de_article": "das",
-    "lv": "ТВ",
+    "lv": "Televizija",
     "level": "A1",
     "study": {
       "id": "a1-fernsehen-study",
       "layout": "standardStudy",
-      "translation": "ТВ",
+      "translation": "Televizija",
       "explanation": [
-        "Основна идея: съществително име, единствено число. Описва телевизията като медия или излъчването като цяло.",
-        "Das Fernsehen v bistvu pomeni: glej predstavo.",
-        "Често опишува: акција.",
-        "Das Fernsehen на първо място означава: телевизията като масова медия.",
-        "Често описва: съществително име (само в единствено число).",
-        "Fernsehen е глагол, който може да се раздели: ich sehe папрат, du siehst папрат.",
-        "Das Fernsehen е именка во еднина и нема множинска форма."
+        "Glavna ideja: Imenica, samo u jednini. Opisuje TV kao medij ili emitiranje općenito.",
+        "Das Fernsehen u osnovi znači: gledati emisiju.",
+        "Često opisuje: akciju.",
+        "Das Fernsehen prvenstveno znači: TV kao medij.",
+        "Često opisuje: imenicu (samo u jednini).",
+        "Fernsehen je glagol koji se može podijeliti: ich sehe fern, du siehst fern.",
+        "Das Fernsehen je imenica i samo u jednini - nema oblik množine."
       ],
       "examples": [
         {
           "de": "Was gibt es heute im Fernsehen?",
-          "lv": "Kaj je danes na televiziji?"
+          "lv": "Šta je danas na TV-u?"
         },
         {
           "de": "Was gibt es heute im Fernsehen?",
-          "lv": "Kaj je danes na televiziji?"
+          "lv": "Šta je danas na tv-u?"
         },
         {
           "de": "Im Fernsehen läuft ein Film.",
-          "lv": "Има филм по телевизията."
+          "lv": "Film se prikazuje na TV-u."
         },
         {
           "de": "Das Fernsehen ist heute langweilig.",
-          "lv": "Телевизионната програма днес е скучна."
+          "lv": "Televizijski program danas je dosadan."
         },
         {
           "de": "Ich sehe heute Abend fern.",
@@ -19317,18 +25456,18 @@ const A1_WORDS = [
         },
         {
           "de": "Was gibt es im Fernsehen?",
-          "lv": "Што има на ТВ?"
+          "lv": "Šta se prikazuje na TV-u?"
         }
       ],
       "tip": [
-        "Когато говорите за действие, използвайте \"fernsehen\" (ich sehe папрат). Когато говорите за телевизионна програма или медия, използвайте das Fernsehen.",
-        "Именка, само еднина. Ја опишува телевизијата како медиум или емитување воопшто."
+        "Fernsehen (ich sehe paprat) se koristi kada se govori o radnji. Kada govorite o TV programu ili medijima, koristite das Fernsehen.",
+        "Imenica, samo u jednini. Opisuje TV kao medij ili emitiranje općenito."
       ],
       "important": [
-        "Фернсехен се дели на: сехен + папрат.",
-        "Das Fernsehen не е множествено число, а не *die Fernsehen.",
-        "Неправилно: die Fernsehen → Правилно: das Fernsehen.",
-        "Действие: папрат → ich sehe папрат."
+        "Fernsehen je djeljiv: sehen + paprat.",
+        "Das Fernsehen nije množina - nije *die Fernsehen.",
+        "Netačno: die Fernsehen → Tačno: das Fernsehen",
+        "Akcija: fernsehen → ich sehe fern."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19343,26 +25482,41 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "Fernsehen"
+                "Fernsehen",
+                "fernsehen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Šta"
+              ]
+            }
           },
           {
             "de": {
               "green": [
-                "Fernsehen"
+                "Fernsehen",
+                "fernsehen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Šta"
+              ]
+            }
           },
           {
             "de": {
               "green": [
-                "Fernsehen"
+                "Fernsehen",
+                "fernsehen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Film"
+              ]
+            }
           },
           {
             "de": {
@@ -19371,19 +25525,32 @@ const A1_WORDS = [
                 "fernsehen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Televizijski"
+              ]
+            }
           },
           {
             "de": {},
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Večeras"
+              ]
+            }
           },
           {
             "de": {
               "green": [
-                "Fernsehen"
+                "Fernsehen",
+                "fernsehen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Šta"
+              ]
+            }
           }
         ],
         "tip": [
@@ -19392,7 +25559,7 @@ const A1_WORDS = [
         "important": [
           {
             "green": [
-              "Фернсехен"
+              "fernsehen"
             ]
           }
         ]
@@ -19402,42 +25569,42 @@ const A1_WORDS = [
   {
     "de": "Appetit",
     "de_article": "der",
-    "lv": "Апетитот",
+    "lv": "Apetit",
     "level": "A1",
     "study": {
       "id": "a1-appetit",
       "layout": "standardStudy",
-      "translation": "Апетитот",
+      "translation": "Apetit",
       "explanation": [
-        "Основна идея: Усещането за желание за ядене. само единствено число - без множествено число.",
+        "Glavna ideja: Osjećaj želje za jelom. samo jednina - nema množine.",
         "Der Appetit u osnovi znači: želja za jelom.",
-        "Често описва: чувство (само в единствено число).",
-        "Der Appetit има само едно значение: апетит.",
-        "На А1 ниво често се појавуваат заедно, на пример: Гутен Апетит!"
+        "Često opisuje: osjećaj (samo u jednini).",
+        "Der Appetit je samo jednina—apetit.",
+        "Na nivou A1 često se okupljaju, na primjer: Guten Appetit!"
       ],
       "examples": [
         {
           "de": "Guten Appetit!",
-          "lv": "Dober tek!"
+          "lv": "Dobar apetit!"
         },
         {
           "de": "Guten Appetit!",
-          "lv": "Dober tek!"
+          "lv": "Bon appetit!"
         },
         {
           "de": "Ich habe keinen Appetit.",
-          "lv": "Нямам апетит."
+          "lv": "Nemam apetita."
         }
       ],
       "tip": [
-        "Der Appetit = Apetit",
-        "Koristite der Appetit kada kontekst odgovara ovom značenju."
+        "Der Appetit = apetit",
+        "Koristi der Appetit kada kontekst odgovara ovom značenju."
       ],
       "important": [
-        "Der Appetit се јавува само во еднина.",
-        "Неправилно: die Appetite → Правилно: der Appetit.",
+        "Der Appetit je samo jednina.",
+        "Netačno: die Appetite → Tačno: der Appetit",
         "Netačno: Ich bin Appetit. → Tačno: Ich habe Appetit.",
-        "Сензација: der Appetit."
+        "Osjećaj: der Appetit."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19446,6 +25613,7 @@ const A1_WORDS = [
             "appetit"
           ],
           "purple": [
+            "apetit",
             "Appetit"
           ],
           "yellow": [
@@ -19459,7 +25627,11 @@ const A1_WORDS = [
                 "appetit"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "apetit"
+              ]
+            }
           },
           {
             "de": {
@@ -19467,7 +25639,11 @@ const A1_WORDS = [
                 "appetit"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Bon"
+              ]
+            }
           },
           {
             "de": {
@@ -19475,13 +25651,17 @@ const A1_WORDS = [
                 "appetit"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Nemam"
+              ]
+            }
           }
         ],
         "tip": [
           {
             "purple": [
-              "Appetit"
+              "apetit"
             ]
           }
         ],
@@ -19497,64 +25677,69 @@ const A1_WORDS = [
   },
   {
     "de": "essen",
-    "lv": "Яжте",
+    "lv": "Jesti",
     "level": "A1",
     "study": {
       "id": "a1-essen",
       "layout": "standardStudy",
-      "translation": "Яжте",
+      "translation": "Jesti",
       "explanation": [
-        "Главна идеја: Глагол - јадам храна.",
-        "Есен основно означава: да консумираш храна.",
-        "Често опишува: акција.",
-        "Esen основно означава: храна или храна.",
-        "Често опишува: дожд.",
-        "Esen означава да ядеш.",
-        "Das Essen може да означава храна или храна като цяло."
+        "Glavna ideja: Glagol - jesti hranu.",
+        "Essen prvenstveno znači: konzumirati hranu.",
+        "Često opisuje: akciju.",
+        "Essen u osnovi znači: hrana ili obrok.",
+        "Često opisuje: kišu.",
+        "Essen znači jesti.",
+        "Das Essen može značiti hranu ili obrok općenito."
       ],
       "examples": [
         {
           "de": "Ich esse gern Pizza.",
-          "lv": "Обичам да ям пица."
+          "lv": "Volim da jedem picu."
         },
         {
           "de": "Was wollt ihr essen?",
-          "lv": "Што сакате да јадете"
+          "lv": "Šta želiš da jedeš"
         },
         {
           "de": "Wir essen um 12 Uhr.",
-          "lv": "Jedli bomo ob 12. uri."
+          "lv": "Jedemo u 12 sati."
         },
         {
           "de": "Das Essen ist fertig.",
-          "lv": "Яденето е готово."
+          "lv": "Hrana je gotova."
         },
         {
           "de": "Das Essen schmeckt sehr gut.",
-          "lv": "Храната е много вкусна."
+          "lv": "Hrana je veoma dobrog ukusa."
         },
         {
           "de": "Das Essen schmeckt gut.",
-          "lv": "Храната е вкусна."
+          "lv": "Hrana ima dobar ukus."
         }
       ],
       "tip": [
-        "Jesen = da",
-        "Използвайте essen, когато контекстът съответства на това значение."
+        "Essen = jesti",
+        "Koristite essen kada kontekst odgovara ovom značenju."
       ],
       "important": [
-        "Essen е глагол без член.",
-        "Дас Есен не е исто што и Есен.",
-        "Действие: есен.",
-        "Повод/храна: das Essen."
+        "Essen je glagol bez člana.",
+        "Das Essen nije isto što i essen.",
+        "Akcija: essen.",
+        "Slučaj/obrok: das Essen."
       ],
       "sectionAccents": {
         "explanation": {
           "green": [
+            "essen",
             "essen"
           ],
+          "purple": [
+            "ēst"
+          ],
           "blue": [
-            "essen"
+            "essen",
+            "esse"
           ]
         },
         "examples": [
@@ -19569,6 +25754,20 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
+                "essen",
+                "essen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Šta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "essen",
                 "essen"
               ]
             },
@@ -19577,6 +25776,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
+                "essen",
                 "essen"
               ]
             },
@@ -19585,6 +25785,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
+                "essen",
                 "essen"
               ]
             },
@@ -19593,14 +25794,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "essen"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
+                "essen",
                 "essen"
               ]
             },
@@ -19608,7 +25802,11 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "purple": [
+              "ēst"
+            ]
+          }
         ],
         "important": [
           {
@@ -19623,62 +25821,66 @@ const A1_WORDS = [
   {
     "de": "Essen",
     "de_article": "das",
-    "lv": "Храна • Храна",
+    "lv": "Hrana • Obrok",
     "level": "A1",
     "study": {
       "id": "a1-essen-study",
       "layout": "standardStudy",
-      "translation": "Храна • Храна",
+      "translation": "Hrana • Obrok",
       "explanation": [
-        "Glavna ideja: samostalnik – hrana ali vsa hrana.",
-        "Das Esen pomeni predvsem: uživati hrano.",
-        "Често опишува: акција.",
-        "Das Essen основно означава: храна или храна.",
-        "Често опишува: дожд.",
-        "Esen означава да ядеш.",
-        "Das Essen може да означава храна или храна като цяло."
+        "Glavna ideja: Imenica - hrana ili cijeli obrok.",
+        "Das Essen prvenstveno znači: konzumirati hranu.",
+        "Često opisuje: akciju.",
+        "Das Essen u osnovi znači: hrana ili obrok.",
+        "Često opisuje: kišu.",
+        "Essen znači jesti.",
+        "Das Essen može značiti hranu ili obrok općenito."
       ],
       "examples": [
         {
           "de": "Das Essen schmeckt gut.",
-          "lv": "Храната е вкусна."
+          "lv": "Hrana ima dobar ukus."
         },
         {
           "de": "Was wollt ihr essen?",
-          "lv": "Што сакате да јадете"
+          "lv": "Šta želiš da jedeš"
         },
         {
           "de": "Wir essen um 12 Uhr.",
-          "lv": "Jedli bomo ob 12. uri."
+          "lv": "Jedemo u 12 sati."
         },
         {
           "de": "Das Essen ist fertig.",
-          "lv": "Яденето е готово."
+          "lv": "Hrana je gotova."
         },
         {
           "de": "Das Essen schmeckt sehr gut.",
-          "lv": "Храната е много вкусна."
+          "lv": "Hrana je veoma dobrog ukusa."
         },
         {
           "de": "Das Essen schmeckt gut.",
-          "lv": "Храната е вкусна."
+          "lv": "Hrana ima dobar ukus."
         }
       ],
       "tip": [
-        "Das Essen = да",
-        "Uporabite das Essen, ko kontekst ustreza temu pomenu."
+        "Das Essen = jesti",
+        "Koristite das Essen kada kontekst odgovara ovom značenju."
       ],
       "important": [
-        "Essen е глагол без член.",
-        "Дас Есен не е исто што и Есен.",
-        "Действие: есен.",
-        "Повод/храна: das Essen."
+        "Essen je glagol bez člana.",
+        "Das Essen nije isto što i essen.",
+        "Akcija: essen.",
+        "Slučaj/obrok: das Essen."
       ],
       "sectionAccents": {
         "explanation": {
           "yellow": [
             "das Essen",
             "essen"
+          ],
+          "purple": [
+            "Glavna",
+            "Glavna"
           ],
           "green": [
             "Essen"
@@ -19692,7 +25894,11 @@ const A1_WORDS = [
                 "essen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Hrana"
+              ]
+            }
           },
           {
             "de": {
@@ -19717,7 +25923,11 @@ const A1_WORDS = [
                 "essen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Hrana"
+              ]
+            }
           },
           {
             "de": {
@@ -19726,7 +25936,11 @@ const A1_WORDS = [
                 "essen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Hrana"
+              ]
+            }
           },
           {
             "de": {
@@ -19735,7 +25949,11 @@ const A1_WORDS = [
                 "essen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Hrana"
+              ]
+            }
           }
         ],
         "tip": [
@@ -19751,16 +25969,16 @@ const A1_WORDS = [
   {
     "de": "Gemüse",
     "de_article": "das",
-    "lv": "Zelenchuk",
+    "lv": "Povrće",
     "level": "A1",
     "study": {
       "id": "a1-gemuese",
       "layout": "standardStudy",
-      "translation": "Zelenchuk",
+      "translation": "Povrće",
       "explanation": [
-        "Главна идеја: Зеленчук воопшто. Германскиот јазик нема множинска форма за *die Gemüse.",
-        "Das Gemüse v bistvu pomeni: zelenjava na splošno.",
-        "Често се опишува: во кој било род (само еднина)."
+        "Glavna ideja: Povrće općenito. Nemački nema oblik množine za *die Gemüse.",
+        "Das Gemüse uglavnom znači: povrće uopšte.",
+        "Često se opisuje: u bilo kojem rodu (samo u jednini)."
       ],
       "examples": [
         {
@@ -19781,27 +25999,30 @@ const A1_WORDS = [
         },
         {
           "de": "Ich mag Obst und Gemüse.",
-          "lv": "Обичам плодове и зеленчуци."
+          "lv": "Volim voće i povrće."
         },
         {
           "de": "Ich esse Gemüse.",
-          "lv": "Ям зеленчуци."
+          "lv": "Jedem povrće."
         }
       ],
       "tip": [
-        "Das Gemüse = зеленчуци",
-        "Користете das Gemüse кога контекстот се совпаѓа со ова значење."
+        "Das Gemüse = povrće",
+        "Koristite das Gemüse kada kontekst odgovara ovom značenju."
       ],
       "important": [
-        "Pogrešno: die Gemüse, die Obsts.",
-        "Netačno: die Gemüse → Ispravno: das Gemüse.",
-        "Das Gemüse = povrće (u cjelini)."
+        "Netačno: die Gemüse, die Obsts.",
+        "Netačno: die Gemüse → Ispravno: das Gemüse",
+        "Das Gemüse = povrće (općenito)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "das Gemüse",
             "gemüse"
+          ],
+          "purple": [
+            "Glavna"
           ],
           "green": [
             "Gemüse"
@@ -19814,7 +26035,11 @@ const A1_WORDS = [
                 "gemüse"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Volim"
+              ]
+            }
           },
           {
             "de": {
@@ -19822,7 +26047,11 @@ const A1_WORDS = [
                 "gemüse"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Volim"
+              ]
+            }
           },
           {
             "de": {
@@ -19831,7 +26060,11 @@ const A1_WORDS = [
                 "gemüse"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Povrće"
+              ]
+            }
           },
           {
             "de": {
@@ -19839,7 +26072,11 @@ const A1_WORDS = [
                 "gemüse"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Povrće"
+              ]
+            }
           },
           {
             "de": {
@@ -19847,7 +26084,11 @@ const A1_WORDS = [
                 "gemüse"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Volim"
+              ]
+            }
           },
           {
             "de": {
@@ -19855,11 +26096,19 @@ const A1_WORDS = [
                 "gemüse"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Jedem"
+              ]
+            }
           }
         ],
         "tip": [
-          {}
+          {
+            "purple": [
+              "Das"
+            ]
+          }
         ],
         "important": [
           {}
@@ -19870,52 +26119,55 @@ const A1_WORDS = [
   {
     "de": "Obst",
     "de_article": "das",
-    "lv": "Плодове",
+    "lv": "Voće",
     "level": "A1",
     "study": {
       "id": "a1-obst",
       "layout": "standardStudy",
-      "translation": "Плодове",
+      "translation": "Voće",
       "explanation": [
-        "Основна идея: Плодовете като цяло. В немски няма форма за множествено число *die Obsts.",
-        "Das Obst основно означава: плодове като цяло.",
-        "Често се опишува: во кој било род (само еднина)."
+        "Glavna ideja: Voće općenito. Nemački nema oblik množine *die Obsts.",
+        "Das Obst uglavnom znači: voće uopšte.",
+        "Često se opisuje: u bilo kojem rodu (samo u jednini)."
       ],
       "examples": [
         {
           "de": "Wir essen viel Obst.",
-          "lv": "Ядем много плодове."
+          "lv": "Jedemo puno voća."
         },
         {
           "de": "Wir essen viel Obst.",
-          "lv": "Ядем много плодове."
+          "lv": "Jedemo puno voća."
         },
         {
           "de": "Obst ist gesund.",
-          "lv": "Плодовите се здрави."
+          "lv": "Plodovi su zdravi."
         },
         {
           "de": "Ich mag Obst und Gemüse.",
-          "lv": "Обичам плодове и зеленчуци."
+          "lv": "Volim voće i povrće."
         },
         {
           "de": "Wir essen Obst.",
-          "lv": "Ядем плодове."
+          "lv": "Jedemo voće."
         }
       ],
       "tip": [
-        "Das Obst = плод",
-        "Uporabite das Obst, ko kontekst ustreza temu pomenu."
+        "Das Obst = voće",
+        "Koristite das Obst kada kontekst odgovara ovom značenju."
       ],
       "important": [
-        "Неправилно: die Obsts → Правилно: das Obst.",
-        "Das Obst = плод (като цяло)."
+        "Netačno: die Obsts → Ispravno: das Obst",
+        "Das Obst = voće (općenito)."
       ],
       "sectionAccents": {
         "explanation": {
           "green": [
             "das Obst",
             "obst"
+          ],
+          "purple": [
+            "Glavna"
           ],
           "yellow": [
             "Obst"
@@ -19928,7 +26180,11 @@ const A1_WORDS = [
                 "obst"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Jedemo"
+              ]
+            }
           },
           {
             "de": {
@@ -19936,7 +26192,11 @@ const A1_WORDS = [
                 "obst"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Jedemo"
+              ]
+            }
           },
           {
             "de": {
@@ -19944,7 +26204,11 @@ const A1_WORDS = [
                 "obst"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Plodovi"
+              ]
+            }
           },
           {
             "de": {
@@ -19952,7 +26216,11 @@ const A1_WORDS = [
                 "obst"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Volim"
+              ]
+            }
           },
           {
             "de": {
@@ -19960,11 +26228,19 @@ const A1_WORDS = [
                 "obst"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Jedemo"
+              ]
+            }
           }
         ],
         "tip": [
-          {}
+          {
+            "purple": [
+              "Das"
+            ]
+          }
         ],
         "important": [
           {
@@ -19979,71 +26255,74 @@ const A1_WORDS = [
   {
     "de": "Ferien",
     "de_article": "die",
-    "lv": "Празници (училиште)",
+    "lv": "Raspust (škola)",
     "level": "A1",
     "study": {
       "id": "a1-ferien",
       "layout": "standardStudy",
-      "translation": "Празници (училиште)",
+      "translation": "Raspust (škola)",
       "explanation": [
-        "Glavna ideja: samo množina. Šolske ali šolske počitnice so vedno v množini.",
-        "Die Ferien v bistvu pomeni: šolske počitnice.",
-        "Često ga karakteriše: samo množina.",
-        "Die Ferien се използва само в множествено число – винаги в множествено число (in den Ferien)."
+        "Glavna ideja: samo množina. Školski ili studijski raspust - uvijek u množini.",
+        "Die Ferien u osnovi znači: školski raspust.",
+        "Često karakterizira: samo množina.",
+        "Die Ferien je samo množina—uvijek u množini (in den Ferien)."
       ],
       "examples": [
         {
           "de": "In den Ferien fahren wir ans Meer.",
-          "lv": "През уикендите ходим на море."
+          "lv": "Vikendom idemo na more."
         },
         {
           "de": "In den Ferien habe ich viel Zeit.",
-          "lv": "Имам много време през ваканциите."
+          "lv": "Imam dosta vremena tokom praznika."
         },
         {
           "de": "Was macht ihr in den Ferien?",
-          "lv": "Какво правиш по празниците"
+          "lv": "Šta radiš na praznicima"
         },
         {
           "de": "Die Schule ist in den Ferien zu.",
-          "lv": "Училището е затворено за ваканция."
+          "lv": "Škola je zatvorena tokom praznika."
         },
         {
           "de": "In den Ferien fahren wir ans Meer.",
-          "lv": "На празници одиме на море."
+          "lv": "Na praznicima idemo na more."
         },
         {
           "de": "In den Ferien",
-          "lv": "Във ваканция (в училище)."
+          "lv": "Na praznicima (škola)."
         }
       ],
       "comparison": [
         {
           "word": "die Ferien",
-          "meaning": "Školski/obrazovni praznici (samo DSK)",
-          "example": "In den Ferien fahren wir weg. – Този уикенд ще ходим някъде."
+          "meaning": "Školski/studijski raspust (samo dsk.)",
+          "example": "In den Ferien fahren wir weg. – Vikendom idemo negde."
         },
         {
           "word": "der Urlaub",
-          "meaning": "Напуснете работата си (само всички)",
-          "example": "Ich habe zwei Wochen Urlaub. – Имам две недели одмор."
+          "meaning": "Odsustvo s posla (samo svi)",
+          "example": "Ich habe zwei Wochen Urlaub. – Imam dve nedelje odmora."
         }
       ],
       "tip": [
-        "Само множествено число. Училищните или учебните ваканции винаги са в множествено число.",
-        "Koristite Ferien kada kontekst odgovara ovom značenju."
+        "Samo množina. Školski ili studijski raspust - uvijek u množini.",
+        "Koristite die Ferien kada kontekst odgovara ovom značenju."
       ],
       "important": [
-        "Ferien винаги е в дателен падеж: in den Ferien.",
-        "Неправилно: in der Ferien → Правилно: in der Ferien",
-        "Училище: die Ferien (само множествено число).",
-        "Само множествено число. Училищните или учебните ваканции винаги са в множествено число."
+        "Ferien uvijek s dativom: in den Ferien.",
+        "Netočno: in der Ferien → Točno: in den Ferien",
+        "Škola: die Ferien (samo u množini).",
+        "Samo množina. Školski ili studijski raspust - uvijek u množini."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "die Ferien",
             "ferien"
+          ],
+          "purple": [
+            "Glavna"
           ],
           "green": [
             "Ferien"
@@ -20096,7 +26375,11 @@ const A1_WORDS = [
                 "ferien"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "praznicima"
+              ]
+            }
           }
         ],
         "tip": [
@@ -20111,67 +26394,70 @@ const A1_WORDS = [
   {
     "de": "Urlaub",
     "de_article": "der",
-    "lv": "Ваканция",
+    "lv": "Odmor",
     "level": "A1",
     "study": {
       "id": "a1-urlaub",
       "layout": "standardStudy",
-      "translation": "Ваканция",
+      "translation": "Odmor",
       "explanation": [
-        "Основна идея: само единствено число. Напускането на работа винаги е изолирано нещо.",
-        "Der Urlaub v bistvu pomeni: odsotnost z dela.",
-        "Često se karakteriše kao: samo v neduklû numbo.",
-        "Der Urlaub je le v ednini - dopust od dela (im Urlaub)."
+        "Glavna ideja: samo jednina. Odlazak s posla - uvijek u jednini.",
+        "Der Urlaub u osnovi znači: slobodno vrijeme s posla.",
+        "Često karakterizira: samo jednina.",
+        "Der Urlaub je samo jednina - odmor s posla (im Urlaub)."
       ],
       "examples": [
         {
           "de": "Mein Vater ist im Urlaub.",
-          "lv": "Баща ми е на почивка."
+          "lv": "Moj otac je na odmoru."
         },
         {
           "de": "Mein Vater ist im Urlaub.",
-          "lv": "Баща ми е на почивка."
+          "lv": "Moj otac je na odmoru."
         },
         {
           "de": "Nächste Woche habe ich Urlaub.",
-          "lv": "Имам ваканция другата седмица."
+          "lv": "Imam odmor sljedeće sedmice."
         },
         {
           "de": "Wir machen Urlaub in Spanien.",
-          "lv": "На одмор сме во Шпанија."
+          "lv": "Na odmoru smo u Spaniji."
         },
         {
           "de": "im Urlaub",
-          "lv": "На почивка (работа)."
+          "lv": "Na odmoru (posao)."
         }
       ],
       "comparison": [
         {
           "word": "der Urlaub",
-          "meaning": "Напуснете работата си (само всички)",
-          "example": "Mein Vater ist im Urlaub. – Баща ми е на почивка."
+          "meaning": "Odsustvo s posla (samo svi)",
+          "example": "Mein Vater ist im Urlaub. – Moj otac je na odmoru."
         },
         {
           "word": "die Ferien",
-          "meaning": "Školski/obrazovni praznici (samo DSK)",
-          "example": "Die Kinder haben Ferien. – Децата са във ваканция."
+          "meaning": "Školski/studijski raspust (samo dsk.)",
+          "example": "Die Kinder haben Ferien. – Djeca imaju praznike."
         }
       ],
       "tip": [
-        "Само еден број. Откажувањето од работа е секогаш изолирана работа.",
-        "Използвайте der Urlaub, когато контекстът съответства на това значение."
+        "Samo jednina. Odlazak s posla - uvijek u jednini.",
+        "Koristite der Urlaub kada kontekst odgovara ovom značenju."
       ],
       "important": [
-        "Неточно: die Ferie, der Urlabe (на ниво А1).",
+        "Netačno: die Ferie, der Urlabe (na nivou A1).",
         "Urlaub: im Urlaub sein / Urlaub machen.",
-        "Неточно: die Urlaube → Точно: der Urlaub.",
-        "Произведение: der Urlaub (само единствено число)."
+        "Netačno: die Urlaube → Tačno: der Urlaub",
+        "Djelo: der Urlaub (samo u jednini)."
       ],
       "sectionAccents": {
         "explanation": {
           "green": [
             "der Urlaub",
             "urlaub"
+          ],
+          "purple": [
+            "Glavna"
           ],
           "yellow": [
             "Urlaub"
@@ -20184,7 +26470,11 @@ const A1_WORDS = [
                 "urlaub"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Moj"
+              ]
+            }
           },
           {
             "de": {
@@ -20192,7 +26482,11 @@ const A1_WORDS = [
                 "urlaub"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Moj"
+              ]
+            }
           },
           {
             "de": {
@@ -20200,7 +26494,11 @@ const A1_WORDS = [
                 "urlaub"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Imam"
+              ]
+            }
           },
           {
             "de": {
@@ -20208,7 +26506,11 @@ const A1_WORDS = [
                 "urlaub"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "odmoru"
+              ]
+            }
           },
           {
             "de": {
@@ -20216,11 +26518,19 @@ const A1_WORDS = [
                 "urlaub"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "odmoru"
+              ]
+            }
           }
         ],
         "tip": [
-          {}
+          {
+            "purple": [
+              "Samo"
+            ]
+          }
         ],
         "important": [
           {
@@ -20236,61 +26546,61 @@ const A1_WORDS = [
     "de": "Stadt",
     "de_article": "die",
     "de_plural": "die Städte",
-    "lv": "Град",
+    "lv": "Grad",
     "level": "A1"
   },
   {
     "de": "Staat",
     "de_article": "der",
     "de_plural": "die Staaten",
-    "lv": "Država",
+    "lv": "Zemlja",
     "level": "A1"
   },
   {
     "de": "Uhr",
     "de_article": "die",
     "de_plural": "die Uhren",
-    "lv": "Ura",
+    "lv": "Sat",
     "level": "A1",
     "study": {
       "id": "a1-uhr",
       "layout": "standardStudy",
-      "translation": "Ura",
+      "translation": "Sat",
       "explanation": [
-        "Основна идея: Часовник или ръчен часовник. А също и времето на часовника: Es ist acht Uhr.",
-        "Die Uhr основно означава: устройство или време в часовник.",
-        "Често се карактеризира со: одредено време.",
-        "Die Uhr означава часовник - устройство или време в часовник (Es ist acht Uhr, meine Uhr)."
+        "Glavna ideja: Sat ili ručni sat. Također vrijeme na satu: Es ist acht Uhr.",
+        "Die Uhr u osnovi znači: uređaj ili vrijeme u satu.",
+        "Često karakterizira: određeno vrijeme.",
+        "Die Uhr znači sat - uređaj ili vrijeme u satu (Es ist acht Uhr, meine Uhr)."
       ],
       "examples": [
         {
           "de": "Es ist acht Uhr.",
-          "lv": "Сега е осем часа."
+          "lv": "Osam je (osam sati)."
         },
         {
           "de": "Es ist acht Uhr.",
-          "lv": "Сега е осем часа."
+          "lv": "Osam je (osam sati)."
         },
         {
           "de": "Meine Uhr ist kaputt.",
-          "lv": "Часовникът ми е счупен."
+          "lv": "Moj sat je pokvaren."
         },
         {
           "de": "Es ist acht Uhr.",
-          "lv": "Това е осем."
+          "lv": "Osam je."
         },
         {
           "de": "Es ist acht Uhr.",
-          "lv": "Осем е (часа)."
+          "lv": "Osam je (sat)."
         },
         {
           "de": "die Uhr",
-          "lv": "Устройство/час на часовника • Di Zeit"
+          "lv": "Uređaj/vrijeme na satu • Die Zeit"
         }
       ],
       "tip": [
-        "Ura ali zapestna ura. In tudi ura: Es ist acht Uhr.",
-        "Uporabite die Uhr, ko kontekst ustreza temu pomenu."
+        "Sat ili ručni sat. Također vrijeme na satu: Es ist acht Uhr.",
+        "Koristite die Uhr kada kontekst odgovara ovom značenju."
       ],
       "important": [
         "Die Uhr: uređaj (meine Uhr) ili vrijeme (acht Uhr).",
@@ -20300,6 +26610,9 @@ const A1_WORDS = [
         "explanation": {
           "blue": [
             "Uhr"
+          ],
+          "purple": [
+            "Glavna"
           ]
         },
         "examples": [
@@ -20309,7 +26622,35 @@ const A1_WORDS = [
                 "uhr"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Osam"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "uhr"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Osam"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "uhr"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Moj"
+              ]
+            }
           },
           {
             "de": {
@@ -20325,23 +26666,11 @@ const A1_WORDS = [
                 "uhr"
               ]
             },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "uhr"
+            "lv": {
+              "purple": [
+                "Osam"
               ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "uhr"
-              ]
-            },
-            "lv": {}
+            }
           },
           {
             "de": {
@@ -20350,11 +26679,19 @@ const A1_WORDS = [
                 "uhr"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Uređaj/vrijeme"
+              ]
+            }
           }
         ],
         "tip": [
-          {}
+          {
+            "purple": [
+              "Sat"
+            ]
+          }
         ],
         "important": [
           {
@@ -20370,26 +26707,26 @@ const A1_WORDS = [
     "de": "Zeit",
     "de_article": "die",
     "de_plural": "die Zeiten",
-    "lv": "Vrijeme (trenutak/vremenski period)",
+    "lv": "Vrijeme (trenutak / vremenski period)",
     "level": "A1",
     "study": {
       "id": "a1-zeit",
       "layout": "standardStudy",
-      "translation": "Vrijeme (trenutak/vremenski period)",
+      "translation": "Vrijeme (trenutak / vremenski period)",
       "explanation": [
-        "Glavna ideja: Vrijeme kao pojam - trenutak, mogućnost, vremenski period.",
-        "Die Zeit означава преди всичко: момент, възможност.",
-        "Често се карактеризира со: апстрактен концепт.",
-        "Die Zeit je apstraktan koncept – vrijeme, trenutak ili prilika (Ich habe keine Zeit)."
+        "Glavna ideja: Vrijeme kao pojam - trenutak, prilika, vremenski period.",
+        "Die Zeit prvenstveno znači: trenutak, prilika.",
+        "Često karakteriše: apstraktni koncept.",
+        "Die Zeit je apstraktan koncept - vrijeme, trenutak ili prilika (Ich habe keine Zeit)."
       ],
       "examples": [
         {
           "de": "Ich habe keine Zeit.",
-          "lv": "Нямам време"
+          "lv": "Nemam vremena."
         },
         {
           "de": "Ich habe keine Zeit.",
-          "lv": "Нямам време"
+          "lv": "Nemam vremena"
         },
         {
           "de": "Hast du Zeit?",
@@ -20397,22 +26734,25 @@ const A1_WORDS = [
         },
         {
           "de": "Die Zeit vergeht schnell.",
-          "lv": "Времето лети бързо."
+          "lv": "Vrijeme brzo prolazi."
         }
       ],
       "tip": [
-        "Времето като понятие е момент, възможност, период от време.",
-        "Използвайте die Zeit, когато контекстът съответства на това значение."
+        "Vrijeme kao pojam — trenutak, prilika, vremenski period.",
+        "Koristite die Zeit kada kontekst odgovara ovom značenju."
       ],
       "important": [
-        "Die Zeit: Molimo provjerite kontekst prije upotrebe.",
-        "Die Zeit: Molimo provjerite kontekst prije upotrebe."
+        "Die Zeit: Provjerite kontekst prije upotrebe.",
+        "Die Zeit: Provjerite kontekst prije upotrebe."
       ],
       "sectionAccents": {
         "explanation": {
           "green": [
             "die Zeit",
             "zeit"
+          ],
+          "purple": [
+            "Glavna"
           ],
           "yellow": [
             "Zeit"
@@ -20425,7 +26765,11 @@ const A1_WORDS = [
                 "zeit"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Nemam"
+              ]
+            }
           },
           {
             "de": {
@@ -20433,7 +26777,11 @@ const A1_WORDS = [
                 "zeit"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Nemam"
+              ]
+            }
           },
           {
             "de": {
@@ -20441,7 +26789,11 @@ const A1_WORDS = [
                 "zeit"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Imate"
+              ]
+            }
           },
           {
             "de": {
@@ -20450,11 +26802,19 @@ const A1_WORDS = [
                 "zeit"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Vrijeme"
+              ]
+            }
           }
         ],
         "tip": [
-          {}
+          {
+            "purple": [
+              "Vrijeme"
+            ]
+          }
         ],
         "important": [
           {
@@ -20468,63 +26828,84 @@ const A1_WORDS = [
   },
   {
     "de": "einmal",
-    "lv": "Еднократно • Еднократно",
+    "lv": "Jednom • Jednom",
     "level": "A1",
     "study": {
       "id": "a1-einmal",
       "layout": "standardStudy",
-      "translation": "Еднократно • Еднократно",
+      "translation": "Jednom • Jednom",
       "explanation": [
-        "Osnovna ideja: Odnosi se na vrijeme ili prošlost (bilo je vrijeme kada sam bio...).",
-        "Einmal основно означава: веднъж/в миналото.",
-        "Често се характеризира с: климатични условия.",
-        "Еинмал се однесува на време или минато (еднаш одамна јас...)."
+        "Glavna ideja: Odnosi se na vrijeme ili prošlost (nekad sam bio...).",
+        "Einmal u osnovi znači: jednom / u prošlosti.",
+        "Često karakteriziraju: vremenski uslovi.",
+        "Einmal se odnosi na jedno vrijeme ili prošlost (jednom sam...)."
       ],
       "examples": [
         {
           "de": "Ich war einmal in Berlin.",
-          "lv": "Веднъж бях в Берлин."
+          "lv": "Bio sam jednom u Berlinu."
         },
         {
           "de": "Ich war einmal in Berlin.",
-          "lv": "Веднъж бях в Берлин."
+          "lv": "Bio sam jednom u Berlinu."
         }
       ],
       "tip": [
-        "Eynmal = enkrat",
-        "Uporabite einmal, ko se kontekst ujema s to vrednostjo."
+        "Einmal = jednom",
+        "Koristite einmal kada kontekst odgovara ovom značenju."
       ],
       "important": [
-        "Einmal = веднъж или веднъж в миналото.",
-        "Се однесува на времето или минатото (еднаш одамна бев...)."
+        "Einmal = jednom ili jednom u prošlosti.",
+        "Odnosi se na vrijeme ili prošlost (nekad sam bio...)."
       ],
       "sectionAccents": {
         "explanation": {
           "green": [
             "einmal"
+          ],
+          "purple": [
+            "Glavna"
           ]
         },
         "examples": [
           {
             "de": {
               "green": [
+                "einmal",
                 "einmal"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Bio"
+              ]
+            }
           },
           {
             "de": {
               "green": [
+                "einmal",
                 "einmal"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Bio"
+              ]
+            }
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "purple": [
+              "Einmal"
+            ]
+          },
+          {
+            "purple": [
+              "Einmal"
+            ]
+          }
         ],
         "important": [
           {
@@ -20545,56 +26926,75 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Opet",
       "explanation": [
-        "Glavna ideja: Ponavljanje znači - ponovite radnju ili tražite da se ponovi."
+        "Glavna ideja: Opet znači - ponoviti radnju ili tražiti da se ponovi."
       ],
       "examples": [
         {
           "de": "Noch mal, bitte.",
-          "lv": "Уште еднаш ве молам."
+          "lv": "Opet, molim."
         },
         {
           "de": "Noch mal, bitte.",
-          "lv": "Още веднъж моля"
+          "lv": "Ponovo molim"
         },
         {
           "de": "Sag das noch mal.",
-          "lv": "-Ja. Pizda, ja! Nič mi ne more do živega."
+          "lv": "Reci to ponovo"
         }
       ],
       "tip": [
-        "Koristite nochmal kada kontekst odgovara ovom značenju.",
-        "Koristite nochmal kada kontekst odgovara ovom značenju."
+        "Koristite noch mal kada kontekst odgovara ovom značenju.",
+        "Koristite noch mal kada kontekst odgovara ovom značenju."
       ],
       "important": [
-        "Ponavljanje znači ponoviti radnju ili zatražiti ponavljanje.",
-        "Noch Mal: ​​​​Проверете контекста преди употреба."
+        "Opet znači ponoviti radnju ili tražiti ponavljanje.",
+        "Noch mal: provjerite kontekst prije upotrebe."
       ],
       "sectionAccents": {
-        "explanation": {},
+        "explanation": {
+          "purple": [
+            "Glavna"
+          ]
+        },
         "examples": [
           {
             "de": {
               "yellow": [
+                "noch mal",
                 "noch mal"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Opet"
+              ]
+            }
           },
           {
             "de": {
               "yellow": [
+                "noch mal",
                 "noch mal"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Ponovo"
+              ]
+            }
           },
           {
             "de": {
               "yellow": [
+                "noch mal",
                 "noch mal"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Reci"
+              ]
+            }
           }
         ],
         "tip": [

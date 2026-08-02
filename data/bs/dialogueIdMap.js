@@ -1,1315 +1,1315 @@
 const DIALOGUE_ID_MAP = {
   "diag_001": {
     "de": "Gute Besserung!",
-    "lv": "Поправляйся! • Поправляйся!"
+    "lv": "Ozdravi! • Ozdravi!"
   },
   "diag_002": {
     "de": "Frohes neues Jahr!",
-    "lv": "С Новым Годом!"
+    "lv": "Sretna Nova godina!"
   },
   "diag_003": {
     "de": "Herzlichen Glückwunsch zum Geburtstag!",
-    "lv": "С днем ​​рождения!"
+    "lv": "Sretan rođendan!"
   },
   "diag_004": {
     "de": "Gute Reise!",
-    "lv": "Счастливого путешествия!"
+    "lv": "Sretan put!"
   },
   "diag_005": {
     "de": "Es freut mich, Sie kennenzulernen.",
-    "lv": "Я рад познакомиться с вами."
+    "lv": "Drago mi je da smo se upoznali."
   },
   "diag_006": {
     "de": "Wären Sie bitte so nett?",
-    "lv": "Не могли бы вы быть так любезны?"
+    "lv": "Hoćete li, molim vas, biti tako ljubazni?"
   },
   "diag_007": {
     "de": "Ich bin Ihnen sehr dankbar.",
-    "lv": "Многу сум ти благодарен."
+    "lv": "Veoma sam vam zahvalan."
   },
   "diag_008": {
     "de": "Keine Ursache!",
-    "lv": "Ничего просто так!"
+    "lv": "Ništa za ništa!"
   },
   "diag_009": {
     "de": "Setzt euch bitte hin!",
-    "lv": "Садитесь, пожалуйста!"
+    "lv": "Sjednite, molim!"
   },
   "diag_010": {
     "de": "Ben, komm bitte an die Tafel!",
-    "lv": "Бен, пожалуйста, подойди к доске!"
+    "lv": "Bene, molim te dođi do table!"
   },
   "diag_011": {
     "de": "Schlagt bitte die Lehrbücher auf!",
-    "lv": "Отворете ги учебниците, ве молам!"
+    "lv": "Otvorite udžbenike, molim!"
   },
   "diag_012": {
     "de": "Geht bitte in die Sporthalle!",
-    "lv": "Пожалуйста, идите в спортзал!"
+    "lv": "Molim vas idite u teretanu!"
   },
   "diag_013": {
     "de": "Schläfst du noch?",
-    "lv": "Ты все еще спишь?"
+    "lv": "Da li još spavaš"
   },
   "diag_014": {
     "de": "Schlafen Sie noch?",
-    "lv": "Ты все еще спишь?"
+    "lv": "Još spavaš?"
   },
   "diag_015": {
     "de": "Er ist fest eingeschlafen.",
-    "lv": "Он крепко спит."
+    "lv": "On čvrsto spava."
   },
   "diag_016": {
     "de": "Wecke ihn bitte auf, es ist schon spät!",
-    "lv": "Пожалуйста, разбудите его, уже поздно!"
+    "lv": "Molim te probudi ga, već je kasno!"
   },
   "diag_017": {
     "de": "Guten Morgen!",
-    "lv": "Dobro jutro"
+    "lv": "Dobro jutro!"
   },
   "diag_018": {
     "de": "Guten Tag!",
-    "lv": "Привет!"
+    "lv": "Zdravo!"
   },
   "diag_019": {
     "de": "Gute Nacht!",
-    "lv": "Спокойной ночи!"
+    "lv": "Laku noc!"
   },
   "diag_020": {
     "de": "Entschuldigen Sie bitte!",
-    "lv": "Извините, пожалуйста!"
+    "lv": "Izvinite, molim vas!"
   },
   "diag_021": {
     "de": "Es tut mir sehr leid!",
-    "lv": "Мне очень жаль!"
+    "lv": "Tako mi je žao!"
   },
   "diag_022": {
     "de": "Vielen Dank!",
-    "lv": "Благодаря много!"
+    "lv": "Hvala vam puno!"
   },
   "diag_023": {
     "de": "Finn, fang bitte an!",
-    "lv": "Финн, начни, пожалуйста!"
+    "lv": "Finn, počni, molim te!"
   },
   "diag_024": {
     "de": "Lest bitte mit!",
-    "lv": "Читайте дальше, пожалуйста!"
+    "lv": "Čitajte, molim vas!"
   },
   "diag_025": {
     "de": "Emma, schau bitte nicht aus dem Fenster!",
-    "lv": "Эмма, пожалуйста, не смотри в окно!"
+    "lv": "Ema, molim te ne gledaj kroz prozor!"
   },
   "diag_026": {
     "de": "Jonas, bring bitte die Hefte!",
-    "lv": "Jonas, prisoten, pritožujem se, tetrade!"
+    "lv": "Jonas, molim te ponesi sveske!"
   },
   "diag_027": {
     "de": "Geh bitte zurück an deinen Platz!",
-    "lv": "Возвращайся на свое место!"
+    "lv": "Vrati se na svoje mjesto!"
   },
   "diag_028": {
     "de": "Wie viel Uhr ist es?",
-    "lv": "Который сейчас час?"
+    "lv": "Koliko je sati?"
   },
   "diag_029": {
     "de": "Es ist halb acht.",
-    "lv": "Сейчас половина восьмого."
+    "lv": "Pola je osam."
   },
   "diag_030": {
     "de": "Wann wachst du gewöhnlich auf?",
-    "lv": "Когда ты обычно просыпаешься?"
+    "lv": "Kada se obično budite?"
   },
   "diag_031": {
     "de": "Ich stehe gleich auf.",
-    "lv": "Я сейчас встану."
+    "lv": "Odmah ću ustati."
   },
   "diag_032": {
     "de": "Steh auf, Hanna, es klingelt!",
-    "lv": "Вставай, Ханна, звонит звонок!"
+    "lv": "Ustani, Hana, zvono zvoni!"
   },
   "diag_033": {
     "de": "Lass mich noch fünf Minuten schlafen!",
-    "lv": "Дайте мне поспать еще пять минут!"
+    "lv": "Pusti me da spavam još pet minuta!"
   },
   "diag_034": {
     "de": "Vergiss nicht, das Zimmer zu lüften!",
-    "lv": "Не забывайте проветривать помещение!"
+    "lv": "Ne zaboravite provjetriti prostoriju!"
   },
   "diag_035": {
     "de": "Wo ist das Handtuch?",
-    "lv": "Где полотенце"
+    "lv": "Gde je peškir"
   },
   "diag_036": {
     "de": "Ich möchte mir die Zähne putzen.",
-    "lv": "Сакам да и ги мијам забите."
+    "lv": "Želim da operem zube."
   },
   "diag_037": {
     "de": "Mit was putzt du dir die Zähne?",
-    "lv": "Со што ги чистите забите?"
+    "lv": "Čime perete zube?"
   },
   "diag_038": {
     "de": "Ich möchte mich anziehen.",
-    "lv": "Я хочу одеться."
+    "lv": "Želim da se obučem."
   },
   "diag_039": {
     "de": "Zieh dich bitte schnell an!",
-    "lv": "Одевайтесь быстрее, пожалуйста!"
+    "lv": "Obucite se brzo, molim!"
   },
   "diag_040": {
     "de": "Kleide dich wärmer an, draußen ist es kühl.",
-    "lv": "Одевайтесь теплее, на улице холодно."
+    "lv": "Obucite se toplo, napolju je hladno."
   },
   "diag_041": {
     "de": "Guten Morgen, wie geht es dir?",
-    "lv": "Доброе утро, как дела?"
+    "lv": "Dobro jutro, kako si?"
   },
   "diag_042": {
     "de": "Mir geht es gut, danke.",
-    "lv": "Я хорошо, спасибо."
+    "lv": "Dobro sam, hvala."
   },
   "diag_043": {
     "de": "Was gibt es Neues?",
-    "lv": "Что нового?"
+    "lv": "Šta ima novo?"
   },
   "diag_044": {
     "de": "Auf Wiedersehen!",
-    "lv": "До свидания!"
+    "lv": "Zbogom!"
   },
   "diag_045": {
     "de": "Was für ein Chaos hier!",
-    "lv": "Каков хаос овде!"
+    "lv": "Kakav je nered ovde!"
   },
   "diag_046": {
     "de": "Darf ich beim Aufräumen helfen?",
-    "lv": "Могу ли я помочь с уборкой?"
+    "lv": "Mogu li pomoći u pospremanju?"
   },
   "diag_047": {
     "de": "Was trinkst du morgens, Kaffee oder Tee?",
-    "lv": "Что вы пьете утром, кофе или чай?"
+    "lv": "Šta pijete ujutru, kafu ili čaj?"
   },
   "diag_048": {
     "de": "Gewöhnlich trinke ich morgens eine Tasse Kaffee.",
-    "lv": "Я обычно выпиваю чашку кофе утром."
+    "lv": "Obično popijem šoljicu kafe ujutru."
   },
   "diag_049": {
     "de": "Am liebsten trinke ich schwarzen Kaffee.",
-    "lv": "Я лучше всего пью черный кофе."
+    "lv": "Ja najbolje pijem crnu kafu."
   },
   "diag_050": {
     "de": "Guten Morgen, hast du gut geschlafen?",
-    "lv": "Добро утро, дали спиевте добро?"
+    "lv": "Dobro jutro, jeste li dobro spavali?"
   },
   "diag_051": {
     "de": "Ich bin noch sehr müde.",
-    "lv": "Я все еще очень устал."
+    "lv": "I dalje sam jako umorna."
   },
   "diag_052": {
     "de": "Willst du Kaffee oder Milch?",
-    "lv": "Хочешь кофе или молока?"
+    "lv": "Želiš li kafu ili mlijeko?"
   },
   "diag_053": {
     "de": "Gib mir bitte ein Brötchen mit Käse.",
-    "lv": "Дайте мне сырную булочку, пожалуйста."
+    "lv": "Daj mi lepinju sa sirom, molim te."
   },
   "diag_054": {
     "de": "Ich muss jetzt los!",
-    "lv": "Морам да одам сега!"
+    "lv": "Moram da idem sada!"
   },
   "diag_055": {
     "de": "Vergiss dein Frühstück nicht!",
-    "lv": "Не забудьте завтрак!"
+    "lv": "Ne zaboravite doručak!"
   },
   "diag_056": {
     "de": "Klara, deck bitte den Tisch!",
-    "lv": "Клара, пожалуйста, накрой на стол!"
+    "lv": "Klara, molim te postavi sto!"
   },
   "diag_057": {
     "de": "Vergiss die Servietten nicht!",
-    "lv": "Не забудьте салфетки!"
+    "lv": "Ne zaboravite salvete!"
   },
   "diag_058": {
     "de": "Wann esst ihr zu Mittag?",
-    "lv": "Когда ты обедаешь"
+    "lv": "Kada ručate"
   },
   "diag_059": {
     "de": "Es ist Zeit zu essen.",
-    "lv": "Пришло время поесть."
+    "lv": "Vrijeme je za jelo."
   },
   "diag_060": {
     "de": "Was gibt es heute zu Mittag?",
-    "lv": "Что сегодня на обед?"
+    "lv": "Šta je danas za ručak?"
   },
   "diag_061": {
     "de": "Wie schmeckt dir die Suppe?",
-    "lv": "Как вам суп?"
+    "lv": "Kako vam se sviđa supa?"
   },
   "diag_062": {
     "de": "Ehrlich gesagt ist sie etwas zu salzig.",
-    "lv": "Честно говоря, оно слишком соленое."
+    "lv": "Iskreno, malo je preslan."
   },
   "diag_063": {
     "de": "Darf ich dir ein Stück Brot geben?",
-    "lv": "Могу я дать вам кусок хлеба?"
+    "lv": "Mogu li vam dati parče hljeba?"
   },
   "diag_064": {
     "de": "Danke, ich habe schon.",
-    "lv": "Спасибо, у меня уже есть."
+    "lv": "Hvala, već jesam."
   },
   "diag_065": {
     "de": "Das Fleisch schmeckt ausgezeichnet.",
-    "lv": "Мясо имеет прекрасный вкус."
+    "lv": "Meso je odličnog ukusa."
   },
   "diag_066": {
     "de": "Danke, ich bin schon satt.",
-    "lv": "Спасибо, я уже сыт."
+    "lv": "Hvala, već sam pun."
   },
   "diag_067": {
     "de": "Heute haben wir Besuch.",
-    "lv": "Zdaj imamo goste."
+    "lv": "Danas imamo posjetioce."
   },
   "diag_068": {
     "de": "Bist du heute Abend frei?",
-    "lv": "Ты свободен сегодня вечером?"
+    "lv": "Jesi li slobodan večeras"
   },
   "diag_069": {
     "de": "Komm doch heute zum Mittagessen vorbei!",
-    "lv": "Приходите сегодня на обед!"
+    "lv": "Dođite danas na ručak!"
   },
   "diag_070": {
     "de": "Setzen wir uns an den Tisch.",
-    "lv": "Ајде да седнеме на стол."
+    "lv": "Hajde da sednemo za sto."
   },
   "diag_071": {
     "de": "Bitte, bedien dich!",
-    "lv": "Пожалуйста, ешьте столько, сколько хотите!"
+    "lv": "Jedite koliko želite!"
   },
   "diag_072": {
     "de": "Stört dich das Rauchen?",
-    "lv": "Дали ви пречи пушењето?"
+    "lv": "Smeta li vam pušenje?"
   },
   "diag_073": {
     "de": "Danke für die nette Aufnahme!",
-    "lv": "Спасибо за теплый прием!"
+    "lv": "Hvala vam na toploj dobrodošlici!"
   },
   "diag_074": {
     "de": "Wann gehst du ins Bett?",
-    "lv": "Когда ты идешь спать"
+    "lv": "Kada ideš na spavanje"
   },
   "diag_075": {
     "de": "Wenn ich von der Arbeit komme, bin ich immer müde.",
-    "lv": "Я всегда уставший, когда прихожу с работы."
+    "lv": "Uvijek sam umoran kad dođem s posla."
   },
   "diag_076": {
     "de": "Es ist Zeit, ins Bett zu gehen.",
-    "lv": "Пора идти спать."
+    "lv": "Vrijeme je za spavanje."
   },
   "diag_077": {
     "de": "Es ist schönes Wetter.",
-    "lv": "Это хорошее время."
+    "lv": "Lijepo je vrijeme."
   },
   "diag_078": {
     "de": "Willst du mit mir spazieren gehen?",
-    "lv": "Хочешь прогуляться со мной?"
+    "lv": "Želiš li prošetati sa mnom?"
   },
   "diag_079": {
     "de": "Sieh mal, es wird gleich regnen.",
-    "lv": "Смотри, скоро пойдет дождь."
+    "lv": "Gledaj, uskoro će padati kiša."
   },
   "diag_080": {
     "de": "Nimm den Regenschirm mit!",
-    "lv": "Возьмите с собой зонтик!"
+    "lv": "Ponesite kišobran sa sobom!"
   },
   "diag_081": {
     "de": "Es regnet.",
-    "lv": "Вали дъжд."
+    "lv": "Pada kiša."
   },
   "diag_082": {
     "de": "Ich bin schon ganz nass.",
-    "lv": "Я уже совсем мокрый."
+    "lv": "Već sam potpuno mokar."
   },
   "diag_083": {
     "de": "Glaubst du, dass es den ganzen Tag regnen wird?",
-    "lv": "Думаешь, весь день будет идти дождь?"
+    "lv": "Mislite da će padati kiša cijeli dan?"
   },
   "diag_084": {
     "de": "Es hört auf zu regnen.",
-    "lv": "Дождь прекращается."
+    "lv": "Kiša prestaje."
   },
   "diag_085": {
     "de": "Die Sonne scheint wieder.",
-    "lv": "Солнце светит снова."
+    "lv": "Sunce ponovo sija."
   },
   "diag_086": {
     "de": "Es ist sehr warm.",
-    "lv": "Очень жарко."
+    "lv": "Veoma je vruće."
   },
   "diag_087": {
     "de": "Es sieht nach Regen aus.",
-    "lv": "Изгледа дека ќе врне."
+    "lv": "Izgleda da će padati kiša."
   },
   "diag_088": {
     "de": "Wir bekommen gleich ein Gewitter.",
-    "lv": "Нас ждет гроза."
+    "lv": "Spremamo se za oluju."
   },
   "diag_089": {
     "de": "Das Gewitter zieht vorüber.",
-    "lv": "Гроза прошла."
+    "lv": "Oluja je prošla."
   },
   "diag_090": {
     "de": "Die Wolken verziehen sich.",
-    "lv": "Облака расходятся."
+    "lv": "Oblaci se rasturaju."
   },
   "diag_091": {
     "de": "Siehst du den Regenbogen?",
-    "lv": "Видите радугу?"
+    "lv": "Vidite dugu?"
   },
   "diag_092": {
     "de": "Der Winter ist da, es hat geschneit.",
-    "lv": "Зима пришла, ночью пошел снег."
+    "lv": "Zima je stigla, noću je padao snijeg."
   },
   "diag_093": {
     "de": "Es schneit.",
-    "lv": "Идет снег."
+    "lv": "Pada snijeg."
   },
   "diag_094": {
     "de": "Wie schön ist es im Wald im Winter!",
-    "lv": "Колку е убаво во зима во шумата!"
+    "lv": "Kako je lepo u šumi zimi!"
   },
   "diag_095": {
     "de": "Mir ist kalt, ich friere.",
-    "lv": "Мне холодно, я замерзаю."
+    "lv": "Hladno mi je, smrzavam se."
   },
   "diag_096": {
     "de": "Draußen ist Glatteis, pass auf!",
-    "lv": "На улице скользко, будьте осторожны!"
+    "lv": "Napolju je klizavo, oprezno!"
   },
   "diag_097": {
     "de": "Wollen wir auf die Eisbahn gehen?",
-    "lv": "Пойдем кататься на коньках?"
+    "lv": "Hoćemo li na klizanje?"
   },
   "diag_098": {
     "de": "Zieh die Jacke an, du kannst dich erkälten.",
-    "lv": "Надень куртку, можешь простудиться."
+    "lv": "Obuci jaknu, mogao bi se prehladiti."
   },
   "diag_099": {
     "de": "Wie spät ist es?",
-    "lv": "Который сейчас час"
+    "lv": "Koliko je sati"
   },
   "diag_100": {
     "de": "Es ist halb sieben.",
-    "lv": "Сейчас половина восьмого."
+    "lv": "Pola je osam."
   },
   "diag_101": {
     "de": "Meine Uhr geht fünf Minuten vor.",
-    "lv": "Мои часы спешат на пять минут."
+    "lv": "Moj sat je brz pet minuta."
   },
   "diag_102": {
     "de": "Weck mich morgen früh um sieben Uhr!",
-    "lv": "Разбуди меня завтра в семь часов!"
+    "lv": "Probudi me sutra u sedam sati!"
   },
   "diag_103": {
     "de": "Was ist heute für ein Datum?",
-    "lv": "Kateri je naslednji datum?"
+    "lv": "Koji je danas datum?"
   },
   "diag_104": {
     "de": "Heute ist der elfte Juli.",
-    "lv": "Сегодня одиннадцатое июля."
+    "lv": "Danas je jedanaesti jul."
   },
   "diag_105": {
     "de": "Was machst du gewöhnlich am Abend?",
-    "lv": "Что ты обычно делаешь по вечерам?"
+    "lv": "Šta obično radite uveče?"
   },
   "diag_106": {
     "de": "Es ist schon lange her, dass wir uns gesehen haben.",
-    "lv": "Мы давно не встречались."
+    "lv": "Nismo se dugo sreli."
   },
   "diag_107": {
     "de": "Wie geht es dir?",
-    "lv": "Как си"
+    "lv": "Kako si"
   },
   "diag_108": {
     "de": "Entschuldige, ich möchte etwas mit dir besprechen.",
-    "lv": "Извините, я хочу с вами кое-что обсудить."
+    "lv": "Izvinite, želim nešto da razgovaram sa vama."
   },
   "diag_109": {
     "de": "Gehen wir spazieren!",
-    "lv": "Пойдем гулять!"
+    "lv": "Idemo u šetnju!"
   },
   "diag_110": {
     "de": "Hast du Lust, mit mir in den Park zu gehen?",
-    "lv": "Хочешь пойти со мной в парк?"
+    "lv": "Hoćeš li sa mnom u park?"
   },
   "diag_111": {
     "de": "Ich komme, um dich zum Spaziergang abzuholen.",
-    "lv": "Я пришел, чтобы отвезти тебя на прогулку."
+    "lv": "Došao sam da te odvedem u šetnju."
   },
   "diag_112": {
     "de": "Geh bitte etwas langsamer, ich kann dir nicht folgen!",
-    "lv": "Иди немного медленнее, я не успеваю за тобой!"
+    "lv": "Idi malo sporije, ne mogu da te pratim!"
   },
   "diag_113": {
     "de": "Ich bin zum ersten Mal in dieser Gegend.",
-    "lv": "Прв пат ми е овде."
+    "lv": "Ovdje sam prvi put."
   },
   "diag_114": {
     "de": "Ruhen wir uns ein wenig aus.",
-    "lv": "Ајде да се одмориме."
+    "lv": "Hajde da se odmorimo malo."
   },
   "diag_115": {
     "de": "Jetzt können wir zurückgehen.",
-    "lv": "Теперь мы можем вернуться назад."
+    "lv": "Sada se možemo vratiti."
   },
   "diag_116": {
     "de": "Ehrlich gesagt bin ich ziemlich müde.",
-    "lv": "Честно говоря, я очень устал."
+    "lv": "Iskreno, prilično sam umoran."
   },
   "diag_117": {
     "de": "Entschuldige, wo ist die nächste U-Bahn-Station?",
-    "lv": "Простите, где ближайшая станция метро?"
+    "lv": "Izvinite, gde je najbliža stanica metroa?"
   },
   "diag_118": {
     "de": "Welcher ist der kürzeste Weg?",
-    "lv": "Какой путь самый короткий?"
+    "lv": "Koji je najkraći put?"
   },
   "diag_119": {
     "de": "Geh hier die zweite Straße links und dann immer geradeaus.",
-    "lv": "Здесь поверните на вторую улицу налево и идите прямо."
+    "lv": "Ovdje idite drugom ulicom lijevo i idite pravo."
   },
   "diag_120": {
     "de": "Wie komme ich am schnellsten zum Bahnhof?",
-    "lv": "Как быстрее добраться до вокзала?"
+    "lv": "Kako brže doći do stanice?"
   },
   "diag_121": {
     "de": "Ich habe vor, morgen zu verreisen.",
-    "lv": "Я намерен уехать завтра."
+    "lv": "Namjeravam otići sutra."
   },
   "diag_122": {
     "de": "Wohin willst du fahren?",
-    "lv": "Куда вы хотите пойти?"
+    "lv": "Gdje želiš ići?"
   },
   "diag_123": {
     "de": "Reist du geschäftlich oder privat?",
-    "lv": "Вы путешествуете по работе или на отдых?"
+    "lv": "Putujete li zbog posla ili razonode?"
   },
   "diag_124": {
     "de": "Finn fährt bis Berlin mit, dann geht er ans Meer.",
-    "lv": "Финн едет в Берлин, потом поедет на море."
+    "lv": "Fin se vozi za Berlin, a onda ide na more."
   },
   "diag_125": {
     "de": "Wann fährt das Schiff ab?",
-    "lv": "Когда корабль отправляется?"
+    "lv": "Kada polazi brod?"
   },
   "diag_126": {
     "de": "In einer halben Stunde.",
-    "lv": "Через полчаса."
+    "lv": "Nakon pola sata."
   },
   "diag_127": {
     "de": "Kann ich noch eine Kabine bekommen?",
-    "lv": "Може ли сè уште да ја имам кабината?"
+    "lv": "Mogu li još dobiti kabinu?"
   },
   "diag_128": {
     "de": "Vergiss deinen Pass nicht!",
-    "lv": "Не забудьте паспорт!"
+    "lv": "Ne zaboravite pasoš!"
   },
   "diag_129": {
     "de": "Es ist Zeit, den Koffer zu packen.",
-    "lv": "Пришло время собирать чемодан."
+    "lv": "Vrijeme je da spakujete kofer."
   },
   "diag_130": {
     "de": "Der Zug fährt um halb sieben ab.",
-    "lv": "Поезд отправляется в половине восьмого."
+    "lv": "Voz polazi u pola osam."
   },
   "diag_131": {
     "de": "Hol mir bitte ein Taxi, ich verpasse sonst den Zug!",
-    "lv": "Вызовите такси, пожалуйста, а то я опоздаю на поезд!"
+    "lv": "Pozovite taksi, molim vas, inače ću propustiti voz!"
   },
   "diag_132": {
     "de": "Fahr bitte zum Bahnhof!",
-    "lv": "Пожалуйста, отвезите меня на станцию!"
+    "lv": "Molim vas, odvedite me u stanicu!"
   },
   "diag_133": {
     "de": "Ich muss mich beeilen.",
-    "lv": "Трябва да побързам."
+    "lv": "Moram da požurim."
   },
   "diag_134": {
     "de": "Ist der Schalter schon offen?",
-    "lv": "Наплатата веќе е отворена?"
+    "lv": "Da li je blagajna već otvorena?"
   },
   "diag_135": {
     "de": "Eine Fahrkarte nach Köln, bitte.",
-    "lv": "Odinova vozovnica za Kölno, reklamacija."
+    "lv": "Jednu kartu za Keln, molim."
   },
   "diag_136": {
     "de": "Wann fährt der Zug ab?",
-    "lv": "Когда отправляется поезд?"
+    "lv": "Kada polazi voz?"
   },
   "diag_137": {
     "de": "Der Zug fährt gleich ab.",
-    "lv": "Поезд скоро отправляется."
+    "lv": "Voz uskoro polazi."
   },
   "diag_138": {
     "de": "Muss ich in Koblenz umsteigen?",
-    "lv": "Нужно ли мне пересаживаться в Кобленце?"
+    "lv": "Moram li promijeniti sjedište u Koblenzu?"
   },
   "diag_139": {
     "de": "Ja, dort musst du umsteigen.",
-    "lv": "Да, вам придется пересесть там."
+    "lv": "Da, tamo morate promijeniti sjedišta."
   },
   "diag_140": {
     "de": "Ist dieser Platz frei?",
-    "lv": "Это место доступно?"
+    "lv": "Je li ovo mjesto dostupno?"
   },
   "diag_141": {
     "de": "Nein, hier sitzt niemand.",
-    "lv": "Нет, здесь никто не сидит."
+    "lv": "Ne, niko ne sedi ovde."
   },
   "diag_142": {
     "de": "Wo ist der Bahnsteigkartenautomat?",
-    "lv": "Где находится билетный автомат на платформе?"
+    "lv": "Gdje je automat za prodaju karata?"
   },
   "diag_143": {
     "de": "Stell mein Handgepäck ins Gepäcknetz.",
-    "lv": "Положи мою ручную кладь в сетку."
+    "lv": "Stavi moj ručni prtljag u rešetku."
   },
   "diag_144": {
     "de": "Kann ich das Fenster aufmachen?",
-    "lv": "Можно мне открыть окно?"
+    "lv": "Mogu li otvoriti prozor?"
   },
   "diag_145": {
     "de": "Es zieht, schließ bitte das Fenster!",
-    "lv": "Выходите, пожалуйста, закройте окно!"
+    "lv": "Provucite, molim vas zatvorite prozor!"
   },
   "diag_146": {
     "de": "Welche ist die nächste Station?",
-    "lv": "Какая следующая остановка?"
+    "lv": "Koja je sljedeća stanica?"
   },
   "diag_147": {
     "de": "Wie lange hält der Zug?",
-    "lv": "Колку чини возот?"
+    "lv": "Koliko dugo stoji voz?"
   },
   "diag_148": {
     "de": "Wo muss ich umsteigen?",
-    "lv": "Куда мне следует перевестись?"
+    "lv": "Gdje da se prebacim?"
   },
   "diag_149": {
     "de": "Der Zug hat Verspätung.",
-    "lv": "Поезд опаздывает."
+    "lv": "Voz kasni."
   },
   "diag_150": {
     "de": "Dieser Wagen ist für Nichtraucher.",
-    "lv": "В этом вагоне курение запрещено."
+    "lv": "Ovaj vagon je za nepušače."
   },
   "diag_151": {
     "de": "Wir fahren jetzt über die Grenze.",
-    "lv": "Сейчас мы едем через границу."
+    "lv": "Sada se vozimo preko granice."
   },
   "diag_152": {
     "de": "Hast du etwas zu verzollen?",
-    "lv": "У вас есть что очистить?"
+    "lv": "Imate li nešto da očistite?"
   },
   "diag_153": {
     "de": "Wir sind in Berlin angekommen.",
-    "lv": "Мы прибыли в Берлин."
+    "lv": "Stigli smo u Berlin."
   },
   "diag_154": {
     "de": "Kannst du mir ein gutes Hotel empfehlen?",
-    "lv": "Можете ли вы порекомендовать хороший отель?"
+    "lv": "Možete li preporučiti dobar hotel?"
   },
   "diag_155": {
     "de": "Haben Sie freie Zimmer?",
-    "lv": "Есть ли у вас свободные номера?"
+    "lv": "Imate li slobodnih soba?"
   },
   "diag_156": {
     "de": "Ein Zimmer mit zwei Betten, bitte.",
-    "lv": "Пожалуйста, номер с двумя кроватями."
+    "lv": "Sobu sa dva kreveta, molim."
   },
   "diag_157": {
     "de": "Was kostet das Zimmer pro Nacht?",
-    "lv": "Сколько стоит номер за ночь?"
+    "lv": "Koliko košta soba po noći?"
   },
   "diag_158": {
     "de": "Morgen reise ich ab. Weck mich um sieben Uhr!",
-    "lv": "Я уезжаю завтра. Разбуди меня в семь!"
+    "lv": "Odlazim sutra. Probudi me u sedam!"
   },
   "diag_159": {
     "de": "Die Rechnung, bitte!",
-    "lv": "Счет, пожалуйста!"
+    "lv": "Bille, molim te!"
   },
   "diag_160": {
     "de": "Wo ist die Stadtbibliothek?",
-    "lv": "Где находится городская библиотека?"
+    "lv": "Gdje je gradska biblioteka?"
   },
   "diag_161": {
     "de": "Wann hat das Museum geöffnet?",
-    "lv": "Когда музей открыт?"
+    "lv": "Kada je muzej otvoren?"
   },
   "diag_162": {
     "de": "Wollen wir ins Museum gehen?",
-    "lv": "Пойдем в музей?"
+    "lv": "Hoćemo li u muzej?"
   },
   "diag_163": {
     "de": "Fahren wir mit dem Bus oder der U-Bahn?",
-    "lv": "Мы поедем на автобусе или метро?"
+    "lv": "Idemo li autobusom ili podzemnom željeznicom?"
   },
   "diag_164": {
     "de": "Wo ist die nächste Bushaltestelle?",
-    "lv": "Где находится ближайшая автобусная остановка?"
+    "lv": "Gdje je najbliža autobuska stanica?"
   },
   "diag_165": {
     "de": "Ich habe großen Hunger.",
-    "lv": "Я очень голоден."
+    "lv": "Veoma sam gladan."
   },
   "diag_166": {
     "de": "Gehen wir zusammen essen?",
-    "lv": "Lahko greva skupaj na kosilo."
+    "lv": "Hoćemo li zajedno da jedemo?"
   },
   "diag_167": {
     "de": "Kellner, die Speisekarte, bitte!",
-    "lv": "Официанты, меню, пожалуйста!"
+    "lv": "Konobari, meni, molim!"
   },
   "diag_168": {
     "de": "Ist der Fisch frisch?",
-    "lv": "Эта рыба свежая?"
+    "lv": "Je li riba svježa?"
   },
   "diag_169": {
     "de": "Das schmeckt ausgezeichnet!",
-    "lv": "Это очень вкусно!"
+    "lv": "Odličnog je ukusa!"
   },
   "diag_170": {
     "de": "Kellner, zahlen bitte!",
-    "lv": "Официанты, пожалуйста, заплатите!"
+    "lv": "Konobari, platite!"
   },
   "diag_171": {
     "de": "Was kostet das?",
-    "lv": "Сколько это стоит?"
+    "lv": "Koliko košta?"
   },
   "diag_172": {
     "de": "Ich gehe ins Café einen Kaffee trinken.",
-    "lv": "Я пойду в кафе выпить кофе."
+    "lv": "Otići ću u kafić da popijem kafu."
   },
   "diag_173": {
     "de": "Willst du mitkommen?",
-    "lv": "Хотите пойти вместе?"
+    "lv": "Hoćeš da pođeš?"
   },
   "diag_174": {
     "de": "Eine Tasse Kaffee mit Milch, bitte!",
-    "lv": "Чашку кофе с молоком, пожалуйста!"
+    "lv": "Šoljicu kafe sa mlekom, molim!"
   },
   "diag_175": {
     "de": "Bitte schneller, ich habe es eilig!",
-    "lv": "Быстрее, пожалуйста, мне нужно торопиться!"
+    "lv": "Brže molim, moram da požurim!"
   },
   "diag_176": {
     "de": "Lass deinen Kaffee nicht kalt werden!",
-    "lv": "Не позволяйте кофе остыть!"
+    "lv": "Ne dozvolite da se kafa ohladi!"
   },
   "diag_177": {
     "de": "Haben Sie etwas Erfrischendes?",
-    "lv": "У вас есть что-нибудь освежающее?"
+    "lv": "Imate li nešto osvježavajuće?"
   },
   "diag_178": {
     "de": "Eine Portion Eis, bitte!",
-    "lv": "Порцию мороженого, пожалуйста!"
+    "lv": "Porciju sladoleda, molim!"
   },
   "diag_179": {
     "de": "Heute Morgen habe ich einen Brief bekommen.",
-    "lv": "Сегодня утром я получил письмо."
+    "lv": "Jutros sam dobio pismo."
   },
   "diag_180": {
     "de": "Ich muss ihm gleich schreiben.",
-    "lv": "Я должен написать ему сейчас."
+    "lv": "Moram da mu pišem sada."
   },
   "diag_181": {
     "de": "Wo ist der nächste Briefkasten?",
-    "lv": "Где ближайший почтовый ящик?"
+    "lv": "Gdje je najbliži poštanski sandučić?"
   },
   "diag_182": {
     "de": "Wo ist die Post?",
-    "lv": "Где почта?"
+    "lv": "Gdje je pošta?"
   },
   "diag_183": {
     "de": "Erinnere mich morgen daran zu schreiben!",
-    "lv": "Напомни мне подписать завтра!"
+    "lv": "Podsjeti me da potpišem sutra!"
   },
   "diag_184": {
     "de": "Werfen Sie bitte diesen Brief in den Briefkasten.",
-    "lv": "Ве молиме пуштете го ова писмо во поштенското сандаче!"
+    "lv": "Ostavite ovo pismo u poštansko sanduče!"
   },
   "diag_185": {
     "de": "Hallo, hier spricht Emma.",
-    "lv": "Привет, это Эмма."
+    "lv": "Zdravo, ovo je Emma."
   },
   "diag_186": {
     "de": "Kann ich dich später anrufen?",
-    "lv": "Можам да и се јавам подоцна"
+    "lv": "Mogu li te nazvati kasnije"
   },
   "diag_187": {
     "de": "Muss ich lange warten?",
-    "lv": "Мне придется долго ждать?"
+    "lv": "Moram li dugo čekati?"
   },
   "diag_188": {
     "de": "Bitte schneiden Sie mir die Haare.",
-    "lv": "Пожалуйста, подстригите мне волосы."
+    "lv": "Molim te ošišaj me."
   },
   "diag_189": {
     "de": "Hinten bitte nicht zu kurz.",
-    "lv": "Сзади, пожалуйста, не слишком коротко."
+    "lv": "Pozadi, molim, ne prekratko."
   },
   "diag_190": {
     "de": "Wann beginnt die Vorstellung?",
-    "lv": "Кога започнува шоуто?"
+    "lv": "Kada počinje emisija?"
   },
   "diag_191": {
     "de": "Es fängt um halb acht an.",
-    "lv": "Начало в половине седьмого."
+    "lv": "Počinje u pola devet."
   },
   "diag_192": {
     "de": "Alle Plätze sind ausverkauft.",
-    "lv": "Все билеты распроданы."
+    "lv": "Sve karte su rasprodate."
   },
   "diag_193": {
     "de": "Drei Karten, bitte!",
-    "lv": "Три билета, пожалуйста!"
+    "lv": "Tri karte, molim!"
   },
   "diag_194": {
     "de": "Wir lassen die Jacken in der Garderobe.",
-    "lv": "Давай оставим куртки в гардеробе."
+    "lv": "Ostavimo jakne u ormaru."
   },
   "diag_195": {
     "de": "Bitte schnell, der Vorhang geht gleich auf!",
-    "lv": "Побыстрее, пожалуйста, занавес вот-вот откроется!"
+    "lv": "Brže, molim vas, zavjesa će se otvoriti!"
   },
   "diag_196": {
     "de": "Der Vorhang fällt.",
-    "lv": "Занавес падает."
+    "lv": "Zavjesa pada."
   },
   "diag_197": {
     "de": "Darf ich dich zum Tanz bitten?",
-    "lv": "Могу я пригласить вас потанцевать?"
+    "lv": "Mogu li te zamoliti za ples?"
   },
   "diag_198": {
     "de": "Wann ist eure Hochzeit?",
-    "lv": "Когда у тебя свадьба?"
+    "lv": "Kada je tvoje vjenčanje?"
   },
   "diag_199": {
     "de": "Ich suche eine Wohnung.",
-    "lv": "Я ищу квартиру."
+    "lv": "Tražim stan."
   },
   "diag_200": {
     "de": "Ist in diesem Haus eine Wohnung frei?",
-    "lv": "Есть ли свободная квартира в этом доме?"
+    "lv": "Ima li slobodan stan u ovoj kući?"
   },
   "diag_201": {
     "de": "Wie viel kostet die Miete?",
-    "lv": "Сколько стоит аренда?"
+    "lv": "Koliko je kirija?"
   },
   "diag_202": {
     "de": "Die Wohnung hat drei Zimmer und eine Küche.",
-    "lv": "В квартире три комнаты и кухня."
+    "lv": "Stan ima tri sobe i kuhinju."
   },
   "diag_203": {
     "de": "Heute ziehen wir um.",
-    "lv": "Мы переезжаем сегодня."
+    "lv": "Danas krećemo."
   },
   "diag_204": {
     "de": "Mia, pack die Sachen bitte in Kisten!",
-    "lv": "Миа, сложи вещи в коробки, пожалуйста!"
+    "lv": "Mia, stavi stvari u kutije, molim te!"
   },
   "diag_205": {
     "de": "Hast du alles eingepackt?",
-    "lv": "Всё уже запаковано?"
+    "lv": "Je li sve već upakovano?"
   },
   "diag_206": {
     "de": "Ich stehe mit meinem Freund in Kontakt.",
-    "lv": "Я веду переписку со своим другом."
+    "lv": "Ja sam u prepisci sa svojim prijateljem."
   },
   "diag_207": {
     "de": "Gehen wir ins Theater?",
-    "lv": "Пойдем в театр?"
+    "lv": "Hoćemo li u pozorište?"
   },
   "diag_208": {
     "de": "Ist alles eingeladen?",
-    "lv": "Vas vedno skrbi?"
+    "lv": "Je li sve napunjeno?"
   },
   "diag_209": {
     "de": "Welch schöne Aussicht!",
-    "lv": "Какой красивый вид!"
+    "lv": "Kakav divan pogled!"
   },
   "diag_210": {
     "de": "Nun können wir alles wieder aufräumen.",
-    "lv": "Теперь мы можем собрать все обратно."
+    "lv": "Sada možemo sve ponovo sastaviti."
   },
   "diag_211": {
     "de": "Wie viele Zimmer habt ihr?",
-    "lv": "Сколько у вас комнат?"
+    "lv": "Koliko soba imate?"
   },
   "diag_212": {
     "de": "Im Sommer fahre ich ans Meer.",
-    "lv": "Летом я поеду на море."
+    "lv": "Ići ću na more na ljeto."
   },
   "diag_213": {
     "de": "Kannst du schwimmen?",
-    "lv": "Вы умеете плавать"
+    "lv": "Znaš li plivati"
   },
   "diag_214": {
     "de": "Schwimm nicht zu weit hinaus!",
-    "lv": "Не заплывайте слишком далеко!"
+    "lv": "Ne plivajte predaleko!"
   },
   "diag_215": {
     "de": "Badest du jeden Tag?",
-    "lv": "Ты плаваешь каждый день?"
+    "lv": "Da li plivaš svaki dan?"
   },
   "diag_216": {
     "de": "Bei schönem Wetter gehe ich angeln.",
-    "lv": "Если погода хорошая, я иду на рыбалку."
+    "lv": "Ako je lijepo vrijeme, idem na pecanje."
   },
   "diag_217": {
     "de": "Wie sieht er aus?",
-    "lv": "На што личи?"
+    "lv": "Kako on izgleda?"
   },
   "diag_218": {
     "de": "Er hat sich aber recht verändert.",
-    "lv": "Сепак, тој прилично се промени."
+    "lv": "Međutim, on se prilično promijenio."
   },
   "diag_219": {
     "de": "Wie ist er als Mensch?",
-    "lv": "Какой он как человек?"
+    "lv": "Kakav je on kao osoba?"
   },
   "diag_220": {
     "de": "Er ist immer nett und freundlich.",
-    "lv": "Он всегда милый и добрый."
+    "lv": "Uvek je fin i ljubazan."
   },
   "diag_221": {
     "de": "Ich fühle mich nicht wohl.",
-    "lv": "Я плохо себя чувствую."
+    "lv": "Osećam se loše."
   },
   "diag_222": {
     "de": "Was fehlt dir?",
-    "lv": "Какво става с теб"
+    "lv": "Šta nije u redu s tobom?"
   },
   "diag_223": {
     "de": "Ich habe starke Kopfschmerzen.",
-    "lv": "У меня сильная головная боль."
+    "lv": "Imam jaku glavobolju."
   },
   "diag_224": {
     "de": "Ich habe mich erkältet.",
-    "lv": "Я простудился."
+    "lv": "Imam prehladu."
   },
   "diag_225": {
     "de": "Ich habe Schnupfen.",
-    "lv": "У меня насморк."
+    "lv": "Curi mi nos."
   },
   "diag_226": {
     "de": "Mir ist schwindlig.",
-    "lv": "У меня кружится голова."
+    "lv": "Vrti mi se u glavi."
   },
   "diag_227": {
     "de": "Ich muss zum Arzt gehen.",
-    "lv": "Мне нужно пойти к врачу."
+    "lv": "Moram kod doktora."
   },
   "diag_228": {
     "de": "Leg dich ins Bett!",
-    "lv": "Легнете во кревет!"
+    "lv": "Lezi u krevet!"
   },
   "diag_229": {
     "de": "Hast du Fieber?",
-    "lv": "У вас жар?"
+    "lv": "Imate li temperaturu?"
   },
   "diag_230": {
     "de": "Gestern hatte ich erhöhte Temperatur.",
-    "lv": "Вчера у меня была высокая температура."
+    "lv": "Jučer sam imao visoku temperaturu."
   },
   "diag_231": {
     "de": "Ich habe Zahnschmerzen.",
-    "lv": "У меня болит зуб."
+    "lv": "Boli me zub."
   },
   "diag_232": {
     "de": "Ich muss zum Zahnarzt gehen.",
-    "lv": "Мне нужно пойти к дантисту."
+    "lv": "Moram kod zubara."
   },
   "diag_233": {
     "de": "Weißt du, dass Finn krank ist?",
-    "lv": "Ты знаешь, что Финн болен?"
+    "lv": "Znate li da je Fin bolestan?"
   },
   "diag_234": {
     "de": "Laut Arzt wird er bald wieder gesund.",
-    "lv": "По словам врача, скоро он поправится."
+    "lv": "Prema riječima ljekara, uskoro će ponovo biti dobro."
   },
   "diag_235": {
     "de": "Ich will meine Wohnung neu möblieren.",
-    "lv": "Я хочу сделать ремонт в квартире."
+    "lv": "Želim da preuredim stan."
   },
   "diag_236": {
     "de": "Kann ich das auf Raten kaufen?",
-    "lv": "Могу ли я купить в рассрочку?"
+    "lv": "Mogu li kupiti na rate?"
   },
   "diag_237": {
     "de": "Bleib im Bett, bis es dir besser geht!",
-    "lv": "Оставайтесь в постели, пока не почувствуете себя лучше!"
+    "lv": "Ostanite u krevetu dok vam ne bude bolje!"
   },
   "diag_238": {
     "de": "Noah hat in zwei Wochen schwimmen gelernt.",
-    "lv": "Ной научился плавать за две недели."
+    "lv": "Noa je naučio plivati ​​za dvije sedmice."
   },
   "diag_239": {
     "de": "Sei mit dem Essen noch vorsichtig.",
-    "lv": "Будьте осторожны с едой."
+    "lv": "Budite oprezni sa hranom."
   },
   "diag_240": {
     "de": "Sprichst du Deutsch?",
-    "lv": "Ты говоришь по-немецки?"
+    "lv": "Govoriš li njemački"
   },
   "diag_241": {
     "de": "Ja, ein bisschen.",
-    "lv": "Да, немного."
+    "lv": "Da, malo."
   },
   "diag_242": {
     "de": "Du sprichst ziemlich fließend.",
-    "lv": "Вы говорите довольно свободно."
+    "lv": "Govorite prilično tečno."
   },
   "diag_243": {
     "de": "Wo hast du Deutsch gelernt?",
-    "lv": "Каде научи германски?"
+    "lv": "Gdje si naučio njemački?"
   },
   "diag_244": {
     "de": "Ich nehme seit einem Jahr Deutschstunden.",
-    "lv": "I beru uroki germanko yazyka uzhe yr."
+    "lv": "Pohađao sam časove njemačkog već godinu dana."
   },
   "diag_245": {
     "de": "Ich suche immer Gelegenheit, Deutsch zu sprechen.",
-    "lv": "Всегда ищу возможность говорить по-немецки."
+    "lv": "Uvijek tražim priliku da pričam njemački."
   },
   "diag_246": {
     "de": "Ist das Buch noch vorrätig?",
-    "lv": "Эта книга еще доступна?"
+    "lv": "Je li ova knjiga još uvijek dostupna?"
   },
   "diag_247": {
     "de": "Das Buch ist leider ausverkauft.",
-    "lv": "К сожалению, книга распродана."
+    "lv": "Nažalost, knjiga je rasprodata."
   },
   "diag_248": {
     "de": "Wann erscheint die neue Auflage?",
-    "lv": "Когда выйдет новое издание?"
+    "lv": "Kada će izaći novo izdanje?"
   },
   "diag_249": {
     "de": "Womit kann ich Ihnen helfen?",
-    "lv": "Как я могу помочь?"
+    "lv": "Kako mogu pomoći?"
   },
   "diag_250": {
     "de": "Haben Sie ganz frische Eier?",
-    "lv": "Дали имате свежи јајца?"
+    "lv": "Imate li svježih jaja?"
   },
   "diag_251": {
     "de": "Was kosten die?",
-    "lv": "Сколько они стоят?"
+    "lv": "Koliko koštaju?"
   },
   "diag_252": {
     "de": "Das ist zu teuer.",
-    "lv": "Твърде скъпо е."
+    "lv": "Preskupo je."
   },
   "diag_253": {
     "de": "Können Sie mir ein halbes Kilo abwiegen?",
-    "lv": "Ты можешь весить полкило?"
+    "lv": "Možeš li imati pola kilograma?"
   },
   "diag_254": {
     "de": "Wie viel muss ich zahlen?",
-    "lv": "Сколько я должен заплатить?"
+    "lv": "Koliko moram da platim?"
   },
   "diag_255": {
     "de": "Wie viel kostet das Kilo?",
-    "lv": "Колку е килограм?"
+    "lv": "Koliko košta kilogram?"
   },
   "diag_256": {
     "de": "Wiegen Sie mir bitte zwei Kilo ab.",
-    "lv": "Пожалуйста, весите два килограмма."
+    "lv": "Molimo vas da imate dva kilograma."
   },
   "diag_257": {
     "de": "Haben Sie auch Karotten?",
-    "lv": "У тебя тоже есть морковь?"
+    "lv": "Imate li i vi šargarepe?"
   },
   "diag_258": {
     "de": "Haben Sie gutes Rindfleisch?",
-    "lv": "У вас есть хорошая говядина?"
+    "lv": "Imate li dobru govedinu?"
   },
   "diag_259": {
     "de": "Geben Sie mir zwei Kilo Hackfleisch.",
-    "lv": "Дайте два килограмма фарша."
+    "lv": "Dajte dva kilograma mljevenog mesa."
   },
   "diag_260": {
     "de": "Ein Laib Brot, bitte, aber nicht zu knusprig.",
-    "lv": "Одну буханку хлеба, пожалуйста, но не слишком твердую."
+    "lv": "Molim jednu veknu hleba, ali ne pretvrdu."
   },
   "diag_261": {
     "de": "Das Brot ist frisch gebacken.",
-    "lv": "Хлеб свежеиспеченный."
+    "lv": "Hleb je sveže pečen."
   },
   "diag_262": {
     "de": "Was für Obst haben Sie heute?",
-    "lv": "Какие фрукты у тебя сегодня?"
+    "lv": "Koje voće imate danas?"
   },
   "diag_263": {
     "de": "Was kosten die Äpfel?",
-    "lv": "Сколько стоят яблоки?"
+    "lv": "Koliko koštaju jabuke?"
   },
   "diag_264": {
     "de": "Dann nehme ich zwei Kilo Äpfel.",
-    "lv": "Тогда я возьму два килограмма яблок."
+    "lv": "Onda ću uzeti dva kilograma jabuka."
   },
   "diag_265": {
     "de": "Die Birnen sind sehr teuer.",
-    "lv": "Груши очень дорогие."
+    "lv": "Kruške su veoma skupe."
   },
   "diag_266": {
     "de": "Können Sie mir alles nach Hause liefern?",
-    "lv": "Можете ли вы доставить все на дом?"
+    "lv": "Možete li sve isporučiti kući?"
   },
   "diag_267": {
     "de": "Haben Sie Reis?",
-    "lv": "У вас есть рис?"
+    "lv": "Imate li pirinča?"
   },
   "diag_268": {
     "de": "Geben Sie mir bitte ein Kilo Reis.",
-    "lv": "Дайте мне, пожалуйста, килограмм риса."
+    "lv": "Daj mi kilogram pirinča, molim te."
   },
   "diag_269": {
     "de": "Danke, diesmal nicht.",
-    "lv": "Спасибо, не в этот раз."
+    "lv": "Hvala, ne ovaj put."
   },
   "diag_270": {
     "de": "Wie viel kostet dieser Teppich?",
-    "lv": "Сколько стоит этот коврик?"
+    "lv": "Koliko je ovaj tepih?"
   },
   "diag_271": {
     "de": "Können Sie die Möbel in meine Wohnung liefern?",
-    "lv": "Возможна ли доставка мебели в квартиру?"
+    "lv": "Možete li dostaviti namještaj u stan?"
   },
   "diag_272": {
     "de": "Bitte an der Kasse zahlen.",
-    "lv": "Пожалуйста, оплатите в кассе."
+    "lv": "Molimo platite na blagajni."
   },
   "diag_273": {
     "de": "Bitte, machen Sie die Rechnung.",
-    "lv": "Пожалуйста, выставьте счет."
+    "lv": "Izdajte fakturu."
   },
   "diag_274": {
     "de": "Was kostet das Meter?",
-    "lv": "Колку чини еден метар?"
+    "lv": "Koliko košta metar?"
   },
   "diag_275": {
     "de": "Dieser Stoff gefällt mir.",
-    "lv": "Я люблю эту ткань."
+    "lv": "Volim ovu tkaninu."
   },
   "diag_276": {
     "de": "Schneiden Sie mir bitte drei Meter ab.",
-    "lv": "Prerežite tri metre."
+    "lv": "Molim vas, odrežite tri metra."
   },
   "diag_277": {
     "de": "Haben Sie auch andere Muster?",
-    "lv": "Есть ли у вас другие образцы?"
+    "lv": "Imate li druge uzorke?"
   },
   "diag_278": {
     "de": "Diese Farbe gefällt mir nicht.",
-    "lv": "Мне не нравится этот цвет."
+    "lv": "Ne sviđa mi se ova boja."
   },
   "diag_279": {
     "de": "Geben Sie mir eine hellere.",
-    "lv": "Дайте ярче."
+    "lv": "Dajte svjetlije."
   },
   "diag_280": {
     "de": "Was kosten diese Socken?",
-    "lv": "Сколько стоят эти носки?"
+    "lv": "Koliko su ove čarape?"
   },
   "diag_281": {
     "de": "Welche Handschuhe wünschen Sie?",
-    "lv": "Какие перчатки ты хочешь?"
+    "lv": "Kakve rukavice želite?"
   },
   "diag_282": {
     "de": "Die sind mir etwas zu eng.",
-    "lv": "Они мне немного тесноваты."
+    "lv": "Malo su mi preuske."
   },
   "diag_283": {
     "de": "So, nun passen sie gut.",
-    "lv": "Итак, теперь все работает нормально."
+    "lv": "Dakle, sada radi dobro."
   },
   "diag_284": {
     "de": "Kannst du mir einen guten Schneider empfehlen?",
-    "lv": "Можете ли вы порекомендовать хорошего портного?"
+    "lv": "Možete li preporučiti dobrog krojača?"
   },
   "diag_285": {
     "de": "Ich will einen Anzug bestellen.",
-    "lv": "Я хочу заказать костюм."
+    "lv": "Želim da naručim odelo."
   },
   "diag_286": {
     "de": "Wann wird er fertig sein?",
-    "lv": "Когда он будет готов?"
+    "lv": "Kada će biti spreman?"
   },
   "diag_287": {
     "de": "Der Anzug sitzt gut.",
-    "lv": "Костюм сидит хорошо."
+    "lv": "Odijelo dobro stoji."
   },
   "diag_288": {
     "de": "Die Hose ist zu lang.",
-    "lv": "Штаны слишком длинные."
+    "lv": "Pantalone su predugačke."
   },
   "diag_289": {
     "de": "Bitte reinigen und bügeln Sie ihn!",
-    "lv": "Пожалуйста, очистите и погладьте его!"
+    "lv": "Očistite ga i peglajte!"
   },
   "diag_290": {
     "de": "Wann wird das Kleid fertig sein?",
-    "lv": "Когда платье будет готово?"
+    "lv": "Kada će haljina biti spremna?"
   },
   "diag_291": {
     "de": "Die Schuhe sind zu eng.",
-    "lv": "Обувь слишком тесная."
+    "lv": "Cipele su preuske."
   },
   "diag_292": {
     "de": "Können Sie die Schuhe heute reparieren?",
-    "lv": "Ты можешь починить свою обувь сегодня?"
+    "lv": "Možete li danas popraviti cipele?"
   },
   "diag_293": {
     "de": "Wann kann ich die Schuhe abholen?",
-    "lv": "Кога можам да и донесам чевли?"
+    "lv": "Kada mogu donijeti cipele?"
   },
   "diag_294": {
     "de": "Meine Armbanduhr funktioniert nicht.",
-    "lv": "Мои наручные часы не работают."
+    "lv": "Moj ručni sat ne radi."
   },
   "diag_295": {
     "de": "Sie geht fünf Minuten vor.",
-    "lv": "Это на пять минут раньше."
+    "lv": "Pet minuta je ranije."
   },
   "diag_296": {
     "de": "Bist du kurzsichtig oder weitsichtig?",
-    "lv": "Вы близорукий или дальнозоркий?"
+    "lv": "Da li ste kratkovidni ili dalekovidni?"
   },
   "diag_297": {
     "de": "Ich möchte eine Brille kaufen.",
-    "lv": "Я хочу купить очки."
+    "lv": "Želim da kupim naočare."
   },
   "diag_298": {
     "de": "Können Sie meine Brille reparieren?",
-    "lv": "Ты можешь починить мои очки?"
+    "lv": "Možeš li mi popraviti naočare?"
   },
   "diag_299": {
     "de": "Das dauert nur eine Viertelstunde.",
-    "lv": "Это займет всего пятнадцать минут."
+    "lv": "To će trajati samo petnaest minuta."
   },
   "diag_300": {
     "de": "Der Preis ist mir zu hoch.",
-    "lv": "Цена для меня слишком высока."
+    "lv": "Cijena mi je previsoka."
   },
   "diag_301": {
     "de": "Ich brauche zwei Fotos für meinen Pass.",
-    "lv": "Мне нужны две фотографии на паспорт."
+    "lv": "Trebaju mi ​​dvije fotografije za pasoš."
   },
   "diag_302": {
     "de": "Bitte packen Sie es ein und schicken Sie es mir nach Hause.",
-    "lv": "Спакувајте се и одете дома."
+    "lv": "Molimo spakujte i pošaljite kući."
   },
   "diag_303": {
     "de": "Wir haben feste Preise.",
-    "lv": "У нас фиксированные цены."
+    "lv": "Imamo fiksne cijene."
   },
   "diag_304": {
     "de": "Bitte, fotografieren Sie mich.",
-    "lv": "Пожалуйста, сфотографируйте меня."
+    "lv": "Molim te, slikaj me."
   },
   "diag_305": {
     "de": "Setzen Sie sich, schauen Sie gerade in die Kamera und bewegen Sie sich nicht!",
-    "lv": "Сядьте, посмотрите прямо в камеру и не двигайтесь!"
+    "lv": "Sedi, gledaj pravo u kameru i ne miči se!"
   },
   "diag_306": {
     "de": "Wann kann ich das Probebild sehen?",
-    "lv": "Когда я смогу увидеть образец?"
+    "lv": "Kada mogu vidjeti uzorak?"
   },
   "diag_307": {
     "de": "Wann sind die Fotos fertig?",
-    "lv": "Когда будут готовы фотографии?"
+    "lv": "Kada će fotografije biti gotove?"
   },
   "diag_308": {
     "de": "Die Aufnahme ist gelungen.",
-    "lv": "Фотография удалась."
+    "lv": "Fotografija je uspjela."
   },
   "diag_309": {
     "de": "Die Fotos sind gut geworden.",
-    "lv": "Фотографии получились удачными."
+    "lv": "Fotografije su dobro ispale."
   },
   "diag_310": {
     "de": "Können Sie das Foto auch vergrößern?",
-    "lv": "А можно еще увеличить фото?"
+    "lv": "Možete li i uvećati fotografiju?"
   },
   "diag_311": {
     "de": "Sind diese Steine echt?",
-    "lv": "Эти камни настоящие?"
+    "lv": "Da li je ovo kamenje stvarno?"
   },
   "diag_312": {
     "de": "Ist das echtes Gold?",
-    "lv": "Это настоящее золото?"
+    "lv": "Je li pravo zlato?"
   },
   "diag_313": {
     "de": "Zeigen Sie mir bitte Trauringe.",
-    "lv": "Pokažite mi zavorne zatiče, prosim."
+    "lv": "Pokažite mi burme, molim vas."
   },
   "diag_314": {
     "de": "Der Ring ist mir etwas zu weit.",
-    "lv": "Кольцо мне великовато."
+    "lv": "Prsten mi je malo prevelik."
   },
   "diag_315": {
     "de": "Ich kann ihn enger machen.",
-    "lv": "Можам да го стеснам."
+    "lv": "Mogu suziti."
   },
   "diag_316": {
     "de": "Dieser Ring passt mir.",
-    "lv": "Это кольцо мне подходит."
+    "lv": "Ovaj prsten mi odgovara."
   },
   "diag_317": {
     "de": "Zeigen Sie mir schöne Geschenkideen.",
-    "lv": "Продемонстрируйте красивые идеи подарков."
+    "lv": "Pokažite prekrasne ideje za poklone."
   },
   "diag_318": {
     "de": "Wie gefallen dir diese Ohrringe?",
-    "lv": "Как вам эти серьги?"
+    "lv": "Kako vam se sviđaju ove minđuše?"
   },
   "diag_319": {
     "de": "Diese Brosche ist wirklich schön.",
-    "lv": "Эта брошь очень красивая."
+    "lv": "Ovaj broš je veoma lep."
   },
   "diag_320": {
     "de": "Der Stein ist ein Saphir.",
-    "lv": "Этот камень — сапфир."
+    "lv": "Ovaj kamen je safir."
   },
   "diag_321": {
     "de": "Das ist kein echter Stein, das ist Glas.",
-    "lv": "Это не настоящий камень, это стекло."
+    "lv": "Ovo nije pravi kamen, to je staklo."
   },
   "diag_322": {
     "de": "Dieses Armband kann ich Ihnen besonders empfehlen.",
-    "lv": "Особено можам да ја препорачам оваа нараквица."
+    "lv": "Posebno mogu preporučiti ovu narukvicu."
   },
   "diag_323": {
     "de": "Es ist besonders schön gearbeitet.",
-    "lv": "Он сделан чрезвычайно тонко."
+    "lv": "Izuzetno je fino izrađen."
   },
   "diag_324": {
     "de": "Der Preis ist nicht hoch.",
-    "lv": "Цена не высокая."
+    "lv": "Cijena nije visoka."
   },
   "diag_325": {
     "de": "Bekomme ich die Schachtel gratis?",
-    "lv": "Я получил коробку бесплатно?"
+    "lv": "Jesam li dobio kutiju besplatno?"
   },
   "diag_326": {
     "de": "Alle Schmuckstücke sind gestempelt.",
-    "lv": "Сите украси со печат."
+    "lv": "Sav nakit je žigosan."
   },
   "diag_327": {
     "de": "Falls es meiner Frau nicht gefällt, kann ich es umtauschen?",
-    "lv": "Если жене не понравится, могу ли я его обменять?"
+    "lv": "Ako se mojoj ženi ne sviđa, mogu li je zamijeniti?"
   },
   "diag_328": {
     "de": "Natürlich, jederzeit.",
-    "lv": "В любое время, конечно."
+    "lv": "Bilo kada, naravno."
   }
 };
 

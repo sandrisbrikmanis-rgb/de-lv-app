@@ -58,6 +58,28 @@ async function translateGoogle(text, from, to) {
   return res.text;
 }
 
+async function translateGoogleGtx(text, from, to) {
+  const trimmed = text.trim();
+  if (!trimmed) return text;
+  if (trimmed.length <= MAX_CHUNK_LEN) {
+    const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=${from}&tl=${to}&dt=t&q=${encodeURIComponent(trimmed)}`;
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(`Google GTX status ${res.status}`);
+    const data = await res.json();
+    const parts = (data[0] || []).map((row) => row[0]).filter(Boolean);
+    return parts.join("") || trimmed;
+  }
+  const parts = trimmed.match(new RegExp(`.{1,${MAX_CHUNK_LEN}}(\\s|$)|.{1,${MAX_CHUNK_LEN}}`, "g")) || [trimmed];
+  const out = [];
+  for (const part of parts) {
+    const p = part.trim();
+    if (!p) continue;
+    out.push(await translateGoogleGtx(p, from, to));
+    await sleep(DEFAULT_DELAY_MS);
+  }
+  return out.join(" ");
+}
+
 async function translateOne(text, from, to, options = {}) {
   const { cachePath, cache, preferGoogle = false } = options;
   const trimmed = text.trim();
@@ -67,8 +89,8 @@ async function translateOne(text, from, to, options = {}) {
 
   let result = trimmed;
   const attempts = preferGoogle
-    ? [() => translateGoogle(trimmed, from, to), () => translateMyMemory(trimmed, from, to)]
-    : [() => translateGoogle(trimmed, from, to), () => translateMyMemory(trimmed, from, to)];
+    ? [() => translateGoogleGtx(trimmed, from, to), () => translateGoogle(trimmed, from, to), () => translateMyMemory(trimmed, from, to)]
+    : [() => translateGoogleGtx(trimmed, from, to), () => translateGoogle(trimmed, from, to), () => translateMyMemory(trimmed, from, to)];
 
   for (const attempt of attempts) {
     try {
